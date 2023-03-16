@@ -194,7 +194,9 @@ $tI
 %s -> %s
 %s begin_ctx=%lu
 %s called without first releasing previous slot!
+%s contains an empty %s
 %s end_ctx=%lu
+%s is not a valid api layer json. Missing %s member.
 %s%c%s
 %s%d
 %s%s
@@ -337,6 +339,7 @@ $tI
 %s: failed to submit frame to composition client
 %s: failed to submit graphics command
 %s: failed to submit graphics work
+%s: failed to submit texture set info %d error=%s
 %s: failed to tessellate %s
 %s: failed to wait for a timeline signal
 %s: failed to wait for semaphore
@@ -348,7 +351,9 @@ $tI
 %s: high priority compute requested, but %s is missing
 %s: id mismatch when registering client resources
 %s: incompatible vulkan version requested
+%s: index %d out of range %d
 %s: index required (size=%d)
+%s: invalid count %d
 %s: invalid device
 %s: invalid frame stage: %s
 %s: invalid instance
@@ -377,6 +382,7 @@ $tI
 %s: pre-submit failed
 %s: prism process not found
 %s: state %d must be set via CImage::Transition only
+%s: texture set not specified
 %s: too many verts; aborting
 %s: unknown vulkan message severity
 %s: unsupported graphics binding type: %d
@@ -912,6 +918,7 @@ $tI
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
 *Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 *Z17sxr_xrLocateViewsP11XrSession_TPK16XrViewLocateInfoP11XrViewStatejPjP6XrViewEUlRSt6vectorIS7_SaIS7_EEE_
+*Z17sxr_xrSyncActionsP11XrSession_TPK17XrActionsSyncInfoEUlPK30XrActiveActionSetPrioritiesEXTE_
 *Z19ProcessDpadBindingsjPK25XrBindingModificationsKHRPK36XrInteractionProfileSuggestedBindingPK24XrActionSuggestedBindingP16SuggestedBindingRSt6vectorImSaImEEEUlPK34XrInteractionProfileDpadBindingEXTE_
 *Z23ProcessAnalogThresholdsbjPK25XrBindingModificationsKHRPK10CSxrActionPK36XrInteractionProfileSuggestedBindingPK24XrActionSuggestedBindingPKSt3setI12XrActionTypeSt4lessISC_ESaISC_EEP16SuggestedBindingEUlPK40XrInteractionProfileAnalogThresholdVALVEE0_
 *Z23ProcessAnalogThresholdsbjPK25XrBindingModificationsKHRPK10CSxrActionPK36XrInteractionProfileSuggestedBindingPK24XrActionSuggestedBindingPKSt3setI12XrActionTypeSt4lessISC_ESaISC_EEP16SuggestedBindingEUlPK40XrInteractionProfileAnalogThresholdVALVEE_
@@ -1095,6 +1102,7 @@ $tI
 /data/src/thirdparty/libvcetoy/src/entrypoints.cpp
 /data/src/thirdparty/protobuf-2.6.1/src/google/protobuf/repeated_field.h
 /data/src/vrclient/hmdlatest.cpp
+/data/src/vrclient/ixrbinding.h
 /data/src/vrclient/openxr_common.cpp
 /data/src/vrclient/openxr_common.h
 /data/src/vrclient/openxr_compositor_openvr.cpp
@@ -1109,6 +1117,7 @@ $tI
 /data/src/vrclient/openxr_input.cpp
 /data/src/vrclient/openxr_interaction_profiles.cpp
 /data/src/vrclient/openxr_session.cpp
+/data/src/vrclient/openxr_session.h
 /data/src/vrclient/openxr_space.cpp
 /data/src/vrclient/sharedtexture_linux.cpp
 /data/src/vrclient/skeletalinpututils.cpp
@@ -1193,6 +1202,7 @@ $tI
 /legacy_debugger_pid
 /mailbox/
 /menu/click
+/openxr/1/api_layers/
 /out/
 /output/haptic
 /pose/
@@ -1579,6 +1589,7 @@ $tI
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:38:47
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1662,7 +1673,6 @@ $tI
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:52:18
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2254,6 +2264,7 @@ AnimUtils::UpdateCycle(float, float, float, float, bool)
 AnimUtils::UpdateCycle(float, float, float, float, bool, int&, float&)
 AnimationChannel
 Another app was already launching (117)
+Another scene application is already running. SteamVR only supports one OpenXR or OpenVR scene application running at a time.
 App info manager init failed (114)
 App key after connect message:%s
 App submitted texture from wrong device!  Make sure app is configured to use the graphics card that your headset is plugged into.
@@ -2430,7 +2441,7 @@ BuildFadeGridMessage(float, bool)
 BuildFadeGridMessage(float, bool) [clone .cold]
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
-BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
 C& google::protobuf::internal::scoped_array<C>::operator[](std::ptrdiff_t) const [with C = int; std::ptrdiff_t = long int]
@@ -2439,8 +2450,8 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1831.365281
-C.1834.365292
+C.1831.365400
+C.1834.365411
 C.413.288424
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -3071,6 +3082,7 @@ CHmdSystemLatest::GetHeadsetViewMode() [clone .cold]
 CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
 CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*) [clone .cold]
 CHmdSystemLatest::GetIDForVRInitError(vr::EVRInitError)
+CHmdSystemLatest::GetIPCResourceManagerClient()
 CHmdSystemLatest::GetLegacyInput()
 CHmdSystemLatest::GetPaths()
 CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -3165,6 +3177,8 @@ CHmdSystemLatest::StartVRMonitor()
 CHmdSystemLatest::StartVRMonitor() [clone .cold]
 CHmdSystemLatest::StartVRWebHelper(bool)
 CHmdSystemLatest::StartVRWebHelper(bool) [clone .cold]
+CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags) [clone .part.0]
 CHmdSystemLatest::ThisProcessIsCompositor()
 CHmdSystemLatest::ThisProcessIsCompositor() [clone .cold]
 CHmdSystemLatest::TopologyChanged()
@@ -3926,9 +3940,9 @@ CSWTCH.214
 CSWTCH.221
 CSWTCH.23
 CSWTCH.28
-CSWTCH.413
+CSWTCH.487
 CSWTCH.725
-CSWTCH.772
+CSWTCH.773
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -4311,6 +4325,7 @@ CSxrActionSet::BSubactionPathIsAllowed(unsigned long)
 CSxrActionSet::BSubactionPathIsAllowed(unsigned long) [clone .cold]
 CSxrActionSet::CSxrActionSet(CSxrInstance*, XrActionSetCreateInfo const*)
 CSxrActionSet::CSxrActionSet(CSxrInstance*, XrActionSetCreateInfo const*) [clone .cold]
+CSxrActionSet::GetOverridePriority(XrActiveActionSetPrioritiesEXT const*, CSxrActionSet*)
 CSxrActionSet::Init()
 CSxrActionSet::~CSxrActionSet()
 CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>::~CSxrChildHandle()
@@ -4429,6 +4444,7 @@ CSxrGraphicsBindingGLOpenVR::PostEndFrame()
 CSxrGraphicsBindingGLOpenVR::PreEndFrame()
 CSxrGraphicsBindingGLOpenVR::RestoreContextInternal()
 CSxrGraphicsBindingGLOpenVR::SetContextInternal()
+CSxrGraphicsBindingGLOpenVR::SetContextInternal() [clone .part.0]
 CSxrGraphicsBindingGLOpenVR::~CSxrGraphicsBindingGLOpenVR()
 CSxrGraphicsBindingPrism::AddTextureFormatIfSupported(long)
 CSxrGraphicsBindingPrism::CSxrGraphicsBindingPrism(CSxrInstance*, CSxrCompositorPrism*)
@@ -4439,8 +4455,6 @@ CSxrGraphicsBindingPrism::GetBlankTexture()
 CSxrGraphicsBindingPrism::GetSwapchainSupportedFormats()
 CSxrGraphicsBindingPrism::Init(SxrCommonBase const*)
 CSxrGraphicsBindingPrism::InitVulkan2(XrGraphicsBindingVulkanKHR const*)
-CSxrGraphicsBindingPrism::PreBeginFrame()
-CSxrGraphicsBindingPrism::PreEndFrame()
 CSxrGraphicsBindingPrism::~CSxrGraphicsBindingPrism()
 CSxrGraphicsBindingVulkanOpenVR::CSxrGraphicsBindingVulkanOpenVR(CSxrInstance*, XrGraphicsBindingVulkanKHR const*, CSxrCompositorOpenVR*)
 CSxrGraphicsBindingVulkanOpenVR::CSxrGraphicsBindingVulkanOpenVR(CSxrInstance*, XrGraphicsBindingVulkanKHR const*, CSxrCompositorOpenVR*) [clone .cold]
@@ -4454,6 +4468,7 @@ CSxrGraphicsBindingVulkanOpenVR::Init(SxrCommonBase const*)
 CSxrGraphicsBindingVulkanOpenVR::PreBeginFrame()
 CSxrGraphicsBindingVulkanOpenVR::PreBeginFrame() [clone .cold]
 CSxrGraphicsBindingVulkanOpenVR::PreEndFrame()
+CSxrGraphicsBindingVulkanOpenVR::PreEndFrame() [clone .cold]
 CSxrGraphicsBindingVulkanOpenVR::~CSxrGraphicsBindingVulkanOpenVR()
 CSxrHandTrackerEXT
 CSxrHandTrackerEXT::CSxrHandTrackerEXT(CSxrSession*, XrHandTrackerCreateInfoEXT const*)
@@ -4513,6 +4528,7 @@ CSxrInstance::Init failed: error fetching client interface
 CSxrInstance::Init failed: failed to create compositor interface
 CSxrInstance::Init failed: failed to init SteamVR
 CSxrInstance::Init failed: failed to init supported features
+CSxrInstance::Init warning: Headset not found, unable to create a functional vr instance, fix issue and restart SteamVR.
 CSxrInstance::Init()
 CSxrInstance::Init() [clone .cold]
 CSxrInstance::InitExtensions()
@@ -4540,6 +4556,7 @@ CSxrInstance::TransitionToInstanceApp()
 CSxrInstance::TransitionToSceneApp()
 CSxrInstance::TranslateUnsupportedOpenXrPath(std::string&, std::string&, std::string&, SuggestedBinding const&)
 CSxrInstance::TranslateUnsupportedOpenXrPath(std::string&, std::string&, std::string&, SuggestedBinding const&) [clone .cold]
+CSxrInstance::ValidateSystemId()
 CSxrInstance::sm_vecExtensionsAvailable
 CSxrInstance::~CSxrInstance()
 CSxrParentBase::BIsChildRegistered(std::type_index, CSxrDeletableBase*)
@@ -4615,6 +4632,7 @@ CSxrSpace::~CSxrSpace()
 CSxrSwapchainBase
 CSxrSwapchainBase::CSxrSwapchainBase(CSxrSession*, XrSwapchainCreateInfo const*, IXrBinding*)
 CSxrSwapchainBase::CSxrSwapchainBase(CSxrSession*, XrSwapchainCreateInfo const*, IXrBinding*) [clone .cold]
+CSxrSwapchainBase::EndFrame()
 CSxrSwapchainBase::GetLastReleasedFrameIndex()
 CSxrSwapchainBase::GetLastReleasedImageIndex()
 CSxrSwapchainBase::GetSwapchainId()
@@ -4623,7 +4641,6 @@ CSxrSwapchainGLOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*,
 CSxrSwapchainGLOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*) [clone .cold]
 CSxrSwapchainGLOpenVR::CSxrSwapchainGLOpenVR(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingGLOpenVR*)
 CSxrSwapchainGLOpenVR::EndFrame()
-CSxrSwapchainGLOpenVR::EndFrame() [clone .cold]
 CSxrSwapchainGLOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
 CSxrSwapchainGLOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
@@ -4639,7 +4656,6 @@ CSxrSwapchainPrism::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, un
 CSxrSwapchainPrism::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*) [clone .cold]
 CSxrSwapchainPrism::CSxrSwapchainPrism(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingPrism*)
 CSxrSwapchainPrism::CSxrSwapchainPrism(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingPrism*) [clone .cold]
-CSxrSwapchainPrism::EndFrame()
 CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
 CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*) [clone .cold]
 CSxrSwapchainPrism::GetCompositionSwapchain()
@@ -4658,8 +4674,6 @@ CSxrSwapchainPrism::~CSxrSwapchainPrism()
 CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
 CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*) [clone .cold]
 CSxrSwapchainVulkanOpenVR::CSxrSwapchainVulkanOpenVR(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingVulkanOpenVR*)
-CSxrSwapchainVulkanOpenVR::EndFrame()
-CSxrSwapchainVulkanOpenVR::EndFrame() [clone .cold]
 CSxrSwapchainVulkanOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
 CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
@@ -4669,7 +4683,6 @@ CSxrSwapchainVulkanOpenVR::Init() [clone .cold]
 CSxrSwapchainVulkanOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*)
 CSxrSwapchainVulkanOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*) [clone .cold]
 CSxrSwapchainVulkanOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
-CSxrSwapchainVulkanOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*) [clone .cold]
 CSxrSwapchainVulkanOpenVR::~CSxrSwapchainVulkanOpenVR()
 CSyncLockThread::Init()
 CSyncLockThread::OnExit()
@@ -5263,6 +5276,8 @@ CVRCompositorClient::SubmitEyeInternal(vr::EVREye, unsigned int, vr::VRTextureWi
 CVRCompositorClient::SubmitFrameBeginTiming(unsigned long, CVRCompositorSharedTextures::CommandBuffer_t const*)
 CVRCompositorClient::SubmitFrameData(double, bool)
 CVRCompositorClient::SubmitFrameData(double, bool) [clone .cold]
+CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*)
+CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*) [clone .cold]
 CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)
 CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long) [clone .cold]
 CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)::s_bFirstOffense
@@ -5492,7 +5507,8 @@ CVRCompositorSharedTextures::SharedTextureDataVulkan_t::IsReleaseable() const
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Release(CVRCompositorSharedTextures*)
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
 CVRCompositorSharedTextures::UnlockGLSharedTextureForAccess(void*)
-CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+CVRCompositorSharedTextures::UpdateSceneTextureData(SceneTextureIndexConstantBuffer_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
 CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)
 CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*) [clone .cold]
 CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::__executeCount
@@ -17314,6 +17330,8 @@ Client
 Client Allocator
 Client Device
 Client Graphics
+Client connection in an invalid state [%i], while attempting to transition application to VrApplication_OpenXRInstance.
+Client connection in an invalid state [%i], while attempting to transition application to VrApplication_OpenXRScene.
 Client-AcquireSync
 Client-BeginFrame:%d
 Client-CreateSwapchain
@@ -17536,7 +17554,6 @@ DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
 Dec
-Dec 22 2022
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -17641,6 +17658,7 @@ EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
 EXPOSURE=          1.0000000000000-Y %d +X %d
+EXTRASYSCONFDIR
 Element in "action_sets" is not a string
 Empty escape sequence in string
 Empty file.
@@ -18247,8 +18265,11 @@ GetOpenGLFunctions()::s_OpenGLFunctions
 GetOpenGLFunctions()::s_bExtensionsLoaded
 GetOpenXrActiveRuntimePath()
 GetOpenXrActiveRuntimePath() [clone .cold]
+GetOpenXrApiLayerRegistryPath(bool)
 GetOpenXrAvailableRuntimesPath()
 GetOverlayTextureToWrite(VRCompositor_OverlayState_t const&, int*, unsigned int*)
+GetPresentableDepthTexture
+GetPresentableTexture
 GetRawFromReferenceSpace(XrSpaceLocation&, XrSpaceVelocity&, long, XrReferenceSpaceType)
 GetRenderModelAbsolutePath
 GetRepeatedBool
@@ -19573,6 +19594,7 @@ IVRNotificationsInternal_001
 IVRNotifications_
 IVRNotifications_001
 IVRNotifications_002
+IVROverlay::ShowDashboard
 IVROverlayInternal_XXX
 IVROverlayView_001
 IVROverlayView_001_FnTable_AcquireOverlayView(unsigned long, OverlayView001_t*, unsigned int)
@@ -20882,6 +20904,7 @@ IVRRenderModels_005_FnTable_LoadTextureD3D11_Async(int, void*, void**)
 IVRRenderModels_005_FnTable_LoadTexture_Async(int, vr::RenderModel_TextureMap_t**)
 IVRRenderModels_005_FnTable_RenderModelHasComponent(char const*, char const*)
 IVRRenderModels_006
+IVRRenderer::ReplaceTextureReferences(VRRenderer::TextureBase*, VRRenderer::TextureBase*)
 IVRResources_001
 IVRScreenshots_
 IVRScreenshots_001
@@ -22324,6 +22347,7 @@ MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
 Map
 Mar
+Mar 16 2023
 March
 MarkInUse
 MaterialUtf8FileReader::operator()(std::string const&, std::vector<tinyobj::material_t, std::allocator<tinyobj::material_t> >&, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >&)
@@ -22369,6 +22393,7 @@ Mode_t::GetFloatParameter(std::string const&, float) const
 Mode_t::GetStringParameter(std::string const&, std::string const&) const
 Mode_t::HasParameter(std::string const&) const
 Mode_t::~Mode_t()
+Modifying api layer state is not available for this platform
 Mon
 Monday
 Motion estimation support: %s
@@ -22495,6 +22520,7 @@ N2vr28IServerTrackedDeviceProviderE
 N2vr28IVRDriverDirectModeComponentE
 N2vr8IVRDebugE
 N2vr8IVRInputE
+N2vr8IVRPathsE
 N2vr8IXrProtoE
 N2vr9ILiquidVRE
 N2vr9IVRSystemE
@@ -22700,19 +22726,20 @@ NvAPI::GetAdapterLuid(int, void*)
 NvAPI::GetCurrentDriverVersion()
 NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
 NvAPI::GetDisplayVisibility(int)
+NvAPI::GetGpuBusUtilization(int, float*)
 NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long*)
 NvAPI::GetVSyncToFlip(float*)
 NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)
 NvAPI::HintCreateLowLatencyDevice(bool)
 NvAPI::ImplicitSLIControl(void*, bool)
-NvAPI::Present(void*, void*, unsigned int, NvAPI::PresentMode)
+NvAPI::Present(void*, void*, unsigned int, NvAPI::PresentMode, unsigned int)
 NvAPI::ReadDisplayPortLinkInfo(NvAPI::DisplayPortLinkInfo_t*, void*)
 NvAPI::ReleaseHiddenDisplay(void**)
 NvAPI::SetDisplayMode(void*, NvAPI::DisplayMode_t const&, unsigned int)
 NvAPI::SetDisplayVisibility(int, NvAPI::DisplayVisibility)
 NvAPI::SupportsHighPriorityRenderContext()
 NvAPI::SupportsMotionSmoothing()
-NvAPI::WaitForPresent(void*, unsigned int)
+NvAPI::WaitForPresent(void*, unsigned int, unsigned int*)
 NvAPI::WaitForVBlank(void*, unsigned int)
 O
 O"
@@ -22805,6 +22832,8 @@ OverlayViewInterfaceRegistration<CVROverlayView_001>::GetInterface()
 OverlayViewInterfaceRegistration<CVROverlayView_001>::~OverlayViewInterfaceRegistration()
 OverlayViewInterfaceRegistration<CVROverlayView_002>::GetInterface()
 OverlayViewInterfaceRegistration<CVROverlayView_002>::~OverlayViewInterfaceRegistration()
+OxrApiLayer_t& std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >::emplace_back<OxrApiLayer_t>(OxrApiLayer_t&&)
+OxrApiLayer_t::~OxrApiLayer_t()
 P
 P10XrAction_T
 P11XrSession_T
@@ -22955,6 +22984,7 @@ Po
 PointMaskIntersectionTest(float, float, vr::VROverlayIntersectionMaskPrimitive_t const*, unsigned int)
 PoolGC
 Pose
+PostEndFrame
 PredictRawPose(double, vr::HmdMatrix34_t const&, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*)
 Present
 Previous frame overflowed per-device vector by %u actions (to %u total) Bumping up the high water mark.
@@ -23102,9 +23132,13 @@ Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_SupportsAppThrottling_Bool
+Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
+Prop_Hmd_SupportsGpuBusMonitoring_Bool
 Prop_Hmd_SupportsHDCP14LegacyCompat_Bool
 Prop_Hmd_SupportsHDR10_Bool
 Prop_Hmd_SupportsMicMonitoring_Bool
+Prop_Hmd_SupportsRoomViewDirect_Bool
 Prop_IconPathName_String
 Prop_Identifiable_Bool
 Prop_ImageBridgeFirmwareVersion_Uint64
@@ -23115,6 +23149,8 @@ Prop_ImuFactoryGyroScale_Vector3
 Prop_ImuToHeadTransform_Matrix34
 Prop_InputProfilePath_String
 Prop_InstallPath_String
+Prop_IpdUIRangeMaxMeters_Float
+Prop_IpdUIRangeMinMeters_Float
 Prop_IsOnDesktop_Bool
 Prop_LensCenterLeftU_Float
 Prop_LensCenterLeftV_Float
@@ -23158,9 +23194,7 @@ Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
 Prop_SupportedButtons_Uint64
-Prop_SupportsAppThrottling_Bool
 Prop_SupportsRoomViewDepthProjection_Bool
-Prop_SupportsRoomViewDirect_Bool
 Prop_TrackingFirmwareVersion_String
 Prop_TrackingRangeMaximumMeters_Float
 Prop_TrackingRangeMinimumMeters_Float
@@ -23354,6 +23388,7 @@ SUB
 SUBOPTIMAL_KHR
 SXR_GL_CHECK: error:0x%x at %s:%i -> %s
 SYN
+SYSCONFDIR
 Sat
 Saturday
 Saw pid %d exit after %d pipe connect attempts
@@ -23790,6 +23825,7 @@ StringToUpper(std::string const&) [clone .cold]
 Submit
 SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.
 SubmitLayers
+SubmitTextureSetInfo
 Successfully changed app type
 Successfully reconnected to server
 Suggested binding for [%s] [%s]:%s
@@ -23842,10 +23878,12 @@ TextureDownsampleResolve
 TextureDownsampleTemp
 TextureInfo
 TextureMsaaResolveRenderer
+The binding lock should have been locked in PreEndFrame prior to calling %s.
 The requested interface is incompatible with the compositor and the compositor is running (122)
 The total number of bytes read was
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
 This interface is not available to utility applications (123)
+This is legal spec behavior but is probably broken in Vulkan due to barrier transition taking place in acquire.
 This is not a D3D11 object
 This program requires version
 This program was compiled against version
@@ -23919,6 +23957,7 @@ TokenizeString(std::string const&, char) [clone .cold]
 Tokenizer::ParseFloat() passed text that could not have been tokenized as a float:
 Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer:
 Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string:
+Too many active action sets for SteamVR to reasonably handle or maximum priority reached. Max priority (or count, excluding duplicates) is %i
 Too many tracked objects (120)
 Too short data size for glTF Binary.
 TracerPid:
@@ -24126,6 +24165,7 @@ Unexpected end of regex when reading control code.
 Unexpected end of string.
 Unexpected error %s when trying to read input value %s (%lX)
 Unexpected error %s when trying to read input value %s (%lX) with expected type %s
+Unexpected error while trying to change the OpenXR application type: [%s]
 Unexpected escape character.
 Unexpected failure when checking for timeline signal
 Unexpected failure while serializing option submessage
@@ -24914,7 +24954,11 @@ VROverlayError_UnableToLoadFile
 VROverlayError_UnknownOverlay
 VROverlayError_WrongTransformType
 VROverlayError_WrongVisibilityType
+VROverlayFlags_EnableControlBar
+VROverlayFlags_EnableControlBarClose
+VROverlayFlags_EnableControlBarKeyboard
 VROverlayFlags_HideLaserIntersection
+VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_NoDashboardTab
@@ -25618,6 +25662,7 @@ Wait
 WaitEvent
 WaitForWork
 WaitFrame
+WaitFrame could not retrieve poses on the first frame
 WaitImage
 WaitMultiple
 Waiting for shared fd client failed
@@ -25659,7 +25704,10 @@ WriteOverlayTexture(VRCompositor_OverlayState_t&, unsigned int, unsigned long, v
 WriteScalarValue - %g, time= %llu, origin=%s
 WriteToDiskIfNeeded
 X
+XDG_CONFIG_DIRS
 XDG_CONFIG_HOME
+XDG_DATA_DIRS
+XDG_DATA_HOME
 XR Swapchain-%d
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
@@ -25739,6 +25787,7 @@ XR_ERROR_UNKNOWN_PASSTHROUGH_FB
 XR_ERROR_VALIDATION_FAILURE
 XR_ERROR_VIEW_CONFIGURATION_TYPE_UNSUPPORTED
 XR_EVENT_UNAVAILABLE
+XR_EXT_active_action_set_priority
 XR_EXT_conformance_automation
 XR_EXT_dpad_binding
 XR_EXT_frame_composition_report
@@ -25786,6 +25835,7 @@ XR_TYPE_ACTION_STATE_FLOAT
 XR_TYPE_ACTION_STATE_GET_INFO
 XR_TYPE_ACTION_STATE_POSE
 XR_TYPE_ACTION_STATE_VECTOR2F
+XR_TYPE_ACTIVE_ACTION_SET_PRIORITIES_EXT
 XR_TYPE_ANDROID_SURFACE_SWAPCHAIN_CREATE_INFO_FB
 XR_TYPE_API_LAYER_PROPERTIES
 XR_TYPE_BINDING_MODIFICATIONS_KHR
@@ -25801,6 +25851,7 @@ XR_TYPE_COMPOSITION_LAYER_EQUIRECT2_KHR
 XR_TYPE_COMPOSITION_LAYER_EQUIRECT_KHR
 XR_TYPE_COMPOSITION_LAYER_IMAGE_LAYOUT_FB
 XR_TYPE_COMPOSITION_LAYER_PASSTHROUGH_FB
+XR_TYPE_COMPOSITION_LAYER_PASSTHROUGH_HTC
 XR_TYPE_COMPOSITION_LAYER_PROJECTION
 XR_TYPE_COMPOSITION_LAYER_PROJECTION_VIEW
 XR_TYPE_COMPOSITION_LAYER_QUAD
@@ -25843,6 +25894,9 @@ XR_TYPE_EYE_GAZE_SAMPLE_TIME_EXT
 XR_TYPE_FACIAL_EXPRESSIONS_HTC
 XR_TYPE_FACIAL_TRACKER_CREATE_INFO_HTC
 XR_TYPE_FOVEATED_VIEW_CONFIGURATION_VIEW_VARJO
+XR_TYPE_FOVEATION_APPLY_INFO_HTC
+XR_TYPE_FOVEATION_CUSTOM_MODE_INFO_HTC
+XR_TYPE_FOVEATION_DYNAMIC_MODE_INFO_HTC
 XR_TYPE_FOVEATION_LEVEL_PROFILE_CREATE_INFO_FB
 XR_TYPE_FOVEATION_PROFILE_CREATE_INFO_FB
 XR_TYPE_FRAME_BEGIN_INFO
@@ -25896,11 +25950,14 @@ XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
 XR_TYPE_MARKER_SPACE_CREATE_INFO_VARJO
 XR_TYPE_NEW_SCENE_COMPUTE_INFO_MSFT
 XR_TYPE_PASSTHROUGH_BRIGHTNESS_CONTRAST_SATURATION_FB
+XR_TYPE_PASSTHROUGH_COLOR_HTC
 XR_TYPE_PASSTHROUGH_COLOR_MAP_MONO_TO_MONO_FB
 XR_TYPE_PASSTHROUGH_COLOR_MAP_MONO_TO_RGBA_FB
 XR_TYPE_PASSTHROUGH_CREATE_INFO_FB
+XR_TYPE_PASSTHROUGH_CREATE_INFO_HTC
 XR_TYPE_PASSTHROUGH_KEYBOARD_HANDS_INTENSITY_FB
 XR_TYPE_PASSTHROUGH_LAYER_CREATE_INFO_FB
+XR_TYPE_PASSTHROUGH_MESH_TRANSFORM_INFO_HTC
 XR_TYPE_PASSTHROUGH_STYLE_FB
 XR_TYPE_PERFORMANCE_METRICS_COUNTER_META
 XR_TYPE_PERFORMANCE_METRICS_STATE_META
@@ -25986,6 +26043,7 @@ XR_TYPE_SYSTEM_HAND_TRACKING_MESH_PROPERTIES_MSFT
 XR_TYPE_SYSTEM_HAND_TRACKING_PROPERTIES_EXT
 XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
+XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES2_FB
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
 XR_TYPE_SYSTEM_PROPERTIES
 XR_TYPE_SYSTEM_RENDER_MODEL_PROPERTIES_FB
@@ -26079,6 +26137,7 @@ Z
 [Compositor Client] Submit Right
 [Compositor Client] Submit Right (duplicate)
 [Compositor Client] SubmitExplicitTimingData
+[Compositor Client] SubmitTextureSetInfo: %d[%lx] pid=%d
 [Compositor Client] Timed out waiting for handoff!
 [Compositor Client] WaitGetPoses ThreadId=%d
 [Desktop Entry]Name=
@@ -26247,6 +26306,8 @@ _GLOBAL__sub_I_openxr_session.cpp.cold
 _GLOBAL__sub_I_openxr_space.cpp
 _GLOBAL__sub_I_openxr_space.cpp.cold
 _GLOBAL__sub_I_openxr_utils.cpp
+_GLOBAL__sub_I_oxrtools.cpp
+_GLOBAL__sub_I_oxrtools.cpp.cold
 _GLOBAL__sub_I_pathmanager.cpp
 _GLOBAL__sub_I_poserecipe.cpp
 _GLOBAL__sub_I_poseupdatecontext.cpp
@@ -26739,7 +26800,7 @@ an
 animations
 anims
 any_objects_registered
-api
+api_layer
 apostrophe
 app_key
 app_name
@@ -27413,6 +27474,7 @@ dgettext
 digit
 directory
 disableAsyncCompositor
+disable_environment
 disable_watchdogs
 discarded
 discrete
@@ -27537,6 +27599,7 @@ expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 experimental_map_key
 expf
+explicit.d/
 exponent
 exponent_%s
 extend .$0 {
@@ -27929,6 +27992,7 @@ g_VR_IVRSettings_FnTable
 g_VR_IVRSpatialAnchors_FnTable
 g_VR_IVRSystem_FnTable
 g_VR_IVRTrackedCamera_FnTable
+g_arrApiLayerLinuxPaths
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_bTestMode
@@ -28103,6 +28167,8 @@ glTexStorageMem2DEXT
 glTexStorageMem2DMultisampleEXT
 glWaitSemaphoreEXT
 glXGetCurrentContext
+glXGetCurrentDisplay
+glXGetCurrentDrawable
 glXGetProcAddress
 glXMakeCurrent
 glb
@@ -30295,7 +30361,6 @@ id
 identifier_value
 illegal code in raster
 illum
-image.m_eState == ImageState::Released || image.m_eState == ImageState::Submitted
 image.pSwapchain->m_images[ image.nImageIndex ].GetState() == CImage::State_t::PrismLocked || m_pClient->m_pendingRelease.find( { image.pSwapchain, image.nImageIndex } ) != m_pClient->m_pendingRelease.end()
 image/bmp
 image/gif
@@ -30304,6 +30369,7 @@ image/png
 image[
 images
 imaginary
+implicit.d/
 import
 import "$0";
 import public "$0";
@@ -30653,6 +30719,7 @@ m_pglTexStorage3D( GL_TEXTURE_2D_ARRAY, 1, nTextureFormat, unWidth, unHeight, un
 m_releaseMutexes.size() == m_releaseKeys.size()
 m_signalTimelines.size() == m_signalPoints.size()
 m_ulHandle != vr::k_ulInvalidMailbox
+m_ulNanosecondsPerFrame > 1
 m_unCurAcquiredCount > 0
 m_unSxrMagic == sSxrMagic
 m_waitSemaphores.size() == m_waitSemaphoreStages.size()
@@ -30738,6 +30805,7 @@ nMaxLatency < MAX_BLOCKING_VSYNC_INTERVALS
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nNumCoordinates > 0
 nParentBoneIndex != k_unInvalidBoneIndex
+nProcessId == data->m_nSceneFocusProcessId
 nSampleCount > 0 && nSampleCount <= 64
 na
 name
@@ -30860,6 +30928,7 @@ non-virtual thunk to CHmdSystemLatest::GetHeadsetViewBlendRange(float*, float*)
 non-virtual thunk to CHmdSystemLatest::GetHeadsetViewCropped()
 non-virtual thunk to CHmdSystemLatest::GetHeadsetViewMode()
 non-virtual thunk to CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
+non-virtual thunk to CHmdSystemLatest::GetIPCResourceManagerClient()
 non-virtual thunk to CHmdSystemLatest::GetLegacyInput()
 non-virtual thunk to CHmdSystemLatest::GetPaths()
 non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -30911,6 +30980,7 @@ non-virtual thunk to CHmdSystemLatest::ShutdownSystem()
 non-virtual thunk to CHmdSystemLatest::StartAutolaunchOverlays()
 non-virtual thunk to CHmdSystemLatest::StartHomeApp()
 non-virtual thunk to CHmdSystemLatest::StartSecondaryComponents()
+non-virtual thunk to CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 non-virtual thunk to CHmdSystemLatest::ThisProcessIsCompositor()
 non-virtual thunk to CHmdSystemLatest::TopologyChanged()
 non-virtual thunk to CHmdSystemLatest::TransformPoseToUniverse(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const&, vr::ETrackingUniverseOrigin)
@@ -30949,6 +31019,7 @@ non-virtual thunk to CSxrHandTrackerEXT::~CSxrHandTrackerEXT()
 non-virtual thunk to CSxrInstance::~CSxrInstance()
 non-virtual thunk to CSxrSession::~CSxrSession()
 non-virtual thunk to CSxrSpace::~CSxrSpace()
+non-virtual thunk to CSxrSwapchainBase::EndFrame()
 non-virtual thunk to CSxrSwapchainBase::GetLastReleasedFrameIndex()
 non-virtual thunk to CSxrSwapchainBase::GetLastReleasedImageIndex()
 non-virtual thunk to CSxrSwapchainBase::GetSwapchainId()
@@ -30963,7 +31034,6 @@ non-virtual thunk to CSxrSwapchainGLOpenVR::ReleaseSwapchainImage(XrSwapchainIma
 non-virtual thunk to CSxrSwapchainGLOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::~CSxrSwapchainGLOpenVR()
 non-virtual thunk to CSxrSwapchainPrism::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
-non-virtual thunk to CSxrSwapchainPrism::EndFrame()
 non-virtual thunk to CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
 non-virtual thunk to CSxrSwapchainPrism::GetCompositionSwapchain()
 non-virtual thunk to CSxrSwapchainPrism::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
@@ -30974,7 +31044,6 @@ non-virtual thunk to CSxrSwapchainPrism::ReleaseSwapchainImage(XrSwapchainImageR
 non-virtual thunk to CSxrSwapchainPrism::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 non-virtual thunk to CSxrSwapchainPrism::~CSxrSwapchainPrism()
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
-non-virtual thunk to CSxrSwapchainVulkanOpenVR::EndFrame()
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
@@ -31319,6 +31388,16 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
+oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&)
+oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&) [clone .cold]
+oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&, std::string&)
+oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&, std::string&) [clone .cold]
+oxrapilayermanagement::GetApiLayers(std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >&, std::string, bool)
+oxrapilayermanagement::GetApiLayers(std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >&, std::string, bool) [clone .cold]
+oxrapilayermanagement::GetInstalledApiLayers()
+oxrapilayermanagement::GetInstalledApiLayers() [clone .cold]
+oxrapilayermanagement::SetApiLayerState(std::string, bool)
+oxrapilayermanagement::SetApiLayerState(std::string, bool) [clone .cold]
 oxrruntimemanagement::AddSteamVRToAvailableRuntimes()
 oxrruntimemanagement::ChangesRequireRoot()
 oxrruntimemanagement::GetCurrentActiveRuntime(std::string*)
@@ -31329,10 +31408,13 @@ oxrruntimemanagement::SetDefaultRuntime()
 oxrruntimemanagement::SetDefaultRuntime() [clone .cold]
 p
 pA
+pActionSetPriorities
+pActionset
 pClient
 pCmdBuf
 pCreateInfo->createFlags == 0
 pDevice
+pFrameData->m_ulFrameIndex > 0
 pHandle
 pInput != nullptr
 pInstance
@@ -31647,6 +31729,7 @@ pthread_mutex_destroy
 pthread_mutex_init
 pthread_mutex_lock
 pthread_mutex_lock:
+pthread_mutex_timedlock
 pthread_mutex_unlock
 pthread_mutex_unlock:
 pthread_mutexattr_destroy
@@ -31906,10 +31989,11 @@ shaders/vulkan/distort_panorama_dome_radius_ps.spv
 shaders/vulkan/distort_panorama_ps.spv
 shaders/vulkan/distort_panorama_vs.spv
 shaders/vulkan/distort_ps.spv
-shaders/vulkan/distort_ps_achromatic_layered_simplified.spv
-shaders/vulkan/distort_ps_achromatic_simplified.spv
-shaders/vulkan/distort_ps_achromatic_squinched_layered_simplified.spv
-shaders/vulkan/distort_ps_achromatic_squinched_simplified.spv
+shaders/vulkan/distort_ps_achromatic.spv
+shaders/vulkan/distort_ps_achromatic_alphaed.spv
+shaders/vulkan/distort_ps_achromatic_layered.spv
+shaders/vulkan/distort_ps_achromatic_se1.spv
+shaders/vulkan/distort_ps_achromatic_se2.spv
 shaders/vulkan/distort_ps_gamma.spv
 shaders/vulkan/distort_ps_gamma_mc.spv
 shaders/vulkan/distort_ps_gamma_mc_nd.spv
@@ -31918,16 +32002,12 @@ shaders/vulkan/distort_ps_layered.spv
 shaders/vulkan/distort_ps_layered_mc.spv
 shaders/vulkan/distort_ps_layered_mc_nd.spv
 shaders/vulkan/distort_ps_layered_nd.spv
-shaders/vulkan/distort_ps_layered_simplified.spv
 shaders/vulkan/distort_ps_mc.spv
 shaders/vulkan/distort_ps_mc_nd.spv
 shaders/vulkan/distort_ps_nd.spv
 shaders/vulkan/distort_ps_scene.spv
 shaders/vulkan/distort_ps_scene0.spv
 shaders/vulkan/distort_ps_scene_blur.spv
-shaders/vulkan/distort_ps_simplified.spv
-shaders/vulkan/distort_ps_squinched_layered_simplified.spv
-shaders/vulkan/distort_ps_squinched_simplified.spv
 shaders/vulkan/distort_vs.spv
 shaders/vulkan/distort_vs_latest_nd.spv
 shaders/vulkan/distort_vs_layered.spv
@@ -31971,8 +32051,11 @@ shaders/vulkan/tracked_camera_lines_ps.spv
 shaders/vulkan/tracked_camera_lines_vs.spv
 shaders/vulkan/tracked_camera_ps.spv
 shaders/vulkan/tracked_camera_reprojection_ps.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_devignette_vs.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_vs.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_ycbcr_ps.spv
 shaders/vulkan/tracked_camera_reprojection_vs.spv
 shaders/vulkan/tracked_camera_undistort_ps.spv
 shaders/vulkan/tracked_camera_undistort_vs.spv
@@ -32361,12 +32444,14 @@ std::_Function_base::_Base_manager<sxr_xrGetActionStatePose(XrSession_T*, XrActi
 std::_Function_base::_Base_manager<sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*)::{lambda(XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*)::{lambda(XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)::{lambda(std::vector<XrView, std::allocator<XrView> >&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)::{lambda(std::vector<XrView, std::allocator<XrView> >&)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}> const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(XrActiveActionSetPrioritiesEXT const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(XrActiveActionSetPrioritiesEXT const*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<void (*)(char const*, char const*, unsigned int, bool, void*, bool*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*), sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStateBoolean*&&, unsigned long*&&)
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*), sxr_xrGetActionStateFloat(XrSession_T*, XrActionStateGetInfo const*, XrActionStateFloat*)::{lambda(XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*)#1}>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStateFloat*&&, unsigned long*&&)
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStatePose*, unsigned long*), sxr_xrGetActionStatePose(XrSession_T*, XrActionStateGetInfo const*, XrActionStatePose*)::{lambda(XrAction_T*, unsigned long, XrActionStatePose*, unsigned long*)#1}>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStatePose*&&, unsigned long*&&)
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*), sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*)::{lambda(XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)#1}>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStateVector2f*&&, unsigned long*&&)
 std::_Function_handler<XrResult (std::vector<XrView, std::allocator<XrView> >&), sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)::{lambda(std::vector<XrView, std::allocator<XrView> >&)#1}>::_M_invoke(std::_Any_data const&, std::vector<XrView, std::allocator<XrView> >&)
+std::_Function_handler<bool (XrActiveActionSetPrioritiesEXT const*), sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(XrActiveActionSetPrioritiesEXT const*)#1}>::_M_invoke(std::_Any_data const&, XrActiveActionSetPrioritiesEXT const*&&)
 std::_Function_handler<bool (XrBindingModificationsKHR const*), sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}>::_M_invoke(std::_Any_data const&, XrBindingModificationsKHR const*&&)
 std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
 std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
@@ -33171,6 +33256,7 @@ std::__verify_grouping(char const*, unsigned long, std::string const&)
 std::__verify_grouping(char const*, unsigned long, std::string const&) [clone .cold]
 std::__verify_grouping_impl(char const*, unsigned long, char const*, unsigned long)
 std::allocator
+std::array<std::string, 5ul>::~array()
 std::back_insert_iterator<std::string> std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::format<std::back_insert_iterator<std::string> >(std::back_insert_iterator<std::string>, char const*, char const*, std::regex_constants::match_flag_type) const
 std::back_insert_iterator<std::string> std::regex_replace<std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::regex_traits<char>, char>(std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::basic_regex<char, std::regex_traits<char> > const&, char const*, std::regex_constants::match_flag_type)
 std::bad_alloc
@@ -35169,6 +35255,7 @@ std::underflow_error::~underflow_error()
 std::unexpected()
 std::unique_lock<std::mutex>::unlock() [clone .isra.0]
 std::unique_lock<std::recursive_mutex>::unlock() [clone .isra.0]
+std::unique_lock<std::timed_mutex>::unlock() [clone .isra.0]
 std::unique_ptr<CAssertCallback, std::default_delete<CAssertCallback> >::~unique_ptr()
 std::unique_ptr<CLogBuffer, std::default_delete<CLogBuffer> >::~unique_ptr()
 std::unique_ptr<CLogCallback, std::default_delete<CLogCallback> >::~unique_ptr()
@@ -35199,6 +35286,7 @@ std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> >::operator=(
 std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> >::_M_default_append(unsigned long)
 std::vector<ModeSlot_t, std::allocator<ModeSlot_t> >::~vector()
 std::vector<OpResult, std::allocator<OpResult> >::reserve(unsigned long)
+std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >::~vector()
 std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::_M_default_append(unsigned long)
 std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::reserve(unsigned long)
 std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >::~vector()
@@ -35341,6 +35429,7 @@ strspn
 strstr
 strtod
 strtof
+strtok
 strtol
 strtold_l
 strtoll
@@ -35352,7 +35441,6 @@ subs.10133
 subtype mismatch
 success
 suggested
-summoned_by
 supersampleManualOverride
 supersampleScale
 supported_buttons
@@ -35743,7 +35831,6 @@ systemTicksPerSecond
 systemTicksToNanosecondDenum
 systemTicksToNanosecondNum
 systemTimeInitialized
-systemui
 systemui_dashboard
 sz
 t
@@ -37188,6 +37275,7 @@ typeinfo for sxr_xrGetActionStatePose(XrSession_T*, XrActionStateGetInfo const*,
 typeinfo for sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*)::{lambda(XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)#1}
 typeinfo for sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)::{lambda(std::vector<XrView, std::allocator<XrView> >&)#1}
 typeinfo for sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}
+typeinfo for sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(XrActiveActionSetPrioritiesEXT const*)#1}
 typeinfo for tinyobj::MaterialFileReader
 typeinfo for tinyobj::MaterialReader
 typeinfo for unsigned __int128
@@ -38395,6 +38483,7 @@ typeinfo name for sxr_xrGetActionStatePose(XrSession_T*, XrActionStateGetInfo co
 typeinfo name for sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*)::{lambda(XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)#1}
 typeinfo name for sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)::{lambda(std::vector<XrView, std::allocator<XrView> >&)#1}
 typeinfo name for sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}
+typeinfo name for sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(XrActiveActionSetPrioritiesEXT const*)#1}
 typeinfo name for tinyobj::MaterialFileReader
 typeinfo name for tinyobj::MaterialReader
 typeinfo name for unsigned __int128
@@ -39321,10 +39410,12 @@ void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace
 void std::_Destroy_aux<false>::__destroy<std::string*>(std::string*, std::string*)
 void std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique<int*>(int*, int*)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
+void std::__adjust_heap<__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > >, long, CSxrActionSet*, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}> >(__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > >, long, __gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > >, CSxrActionSet*, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}>) [clone .isra.0]
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, char, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, long, char, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::FieldDescriptor const*, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, long, google::protobuf::FieldDescriptor const*, google::protobuf::(anonymous namespace)::FieldIndexSorter) [clone .isra.88]
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::FieldDescriptor const*, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, long, google::protobuf::FieldDescriptor const*, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) [clone .isra.98]
+void std::__adjust_heap<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, long, vr::VRActiveActionSet_t, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}> >(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, long, __gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, vr::VRActiveActionSet_t, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}>) [clone .isra.0]
 void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<float>(char const*, float&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<long double>(char const*, long double&, std::_Ios_Iostate&, __locale_struct* const&)
@@ -39350,15 +39441,19 @@ void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_cla
 void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<true, true>()
 void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
+void std::__insertion_sort<__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > >, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}> >(__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > >, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}>) [clone .isra.0]
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::(anonymous namespace)::FieldIndexSorter) [clone .isra.154]
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) [clone .isra.151]
+void std::__insertion_sort<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}> >(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}>) [clone .isra.0]
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
+void std::__introsort_loop<__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}> >(__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > >, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::{lambda(CSxrActionSet const*, CSxrActionSet const*)#1}>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::(anonymous namespace)::FieldIndexSorter) [clone .isra.150]
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) [clone .isra.129]
+void std::__introsort_loop<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}> >(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}>)
 void std::__make_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>&)
 void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>&) [clone .isra.0]
 void std::__pop_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>&)
@@ -39367,6 +39462,7 @@ void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<CDriverManager:
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::(anonymous namespace)::FieldIndexSorter) [clone .isra.130]
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) [clone .isra.121]
+void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, __gnu_cxx::__ops::_Val_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}> >(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, __gnu_cxx::__ops::_Val_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)#2}>) [clone .isra.0]
 void std::__uninitialized_default_n_1<true>::__uninit_default_n<google::protobuf::UnknownField*, unsigned long>(google::protobuf::UnknownField*, unsigned long)
 void std::deque<CRenderModelLoadThread::TextureEntry_t, std::allocator<CRenderModelLoadThread::TextureEntry_t> >::_M_push_back_aux<CRenderModelLoadThread::TextureEntry_t const&>(CRenderModelLoadThread::TextureEntry_t const&)
 void std::deque<CVRCompositorSharedTextures::CommandBuffer_t*, std::allocator<CVRCompositorSharedTextures::CommandBuffer_t*> >::_M_push_front_aux<CVRCompositorSharedTextures::CommandBuffer_t* const&>(CVRCompositorSharedTextures::CommandBuffer_t* const&)
@@ -40689,6 +40785,7 @@ vtable for IOBufferInterfaceRegistration<CVRIOBuffer_002>
 vtable for IPC::PosixSharedMemory
 vtable for IPC::SharedObjectEvent
 vtable for IPC::SharedObjectMutex
+vtable for IXrBinding
 vtable for InMemoryInputStream
 vtable for InMemoryStreamInputBuf
 vtable for InputInterfaceRegistration<CVRInput_001>

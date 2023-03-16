@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Oturma Pozisyonunu Sıfırla",
 	"PowerMenuResetStandingPosition": "Ayakta Durma Pozisyonunu Sıfırla",
 	"Resetting_Countdown": "Sıfırlanıyor...",
+	"Button_Recenter": "Yeniden Ortala",
+	"Recentering_Countdown": "Ortalanıyor...",
 	"PowerMenuTurnOffController": "Kontrolcüyü Kapat",
+	"PowerMenuShutdown": "Kapat",
 	"PowerMenuQuitSceneApp": "Çıkış: %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Uygulamadan Çık",
 	"PowerMenuExitVR": "VR'dan Çık",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Tamam",
+	"CompatibilityMode_Notification": "Otomatik uyumluluk modu etkinleştirildi. ''%1$s'' ataması kullanılıyor.",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

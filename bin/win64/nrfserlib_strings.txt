@@ -74,7 +74,6 @@
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 ' is not a number.
-'!:|6
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
@@ -633,11 +632,10 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222225711Z0/
+230316184401Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Gal[
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -646,8 +644,8 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3<@+~
 3mq+<
-4#czn4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -685,7 +683,6 @@
 9|$`t
 :\u-L
 :\u6L
-:^^BS
 ;K }DH
 ;Q |	H
 <*J=)
@@ -898,7 +895,6 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
-BK.zp#
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1774,7 +1770,6 @@ Zipfile is corrupt or not a zipfile
 \$hI;
 \$pH;
 \$pI;
-\2!"~
 \Device Parameters
 \u=H;
 ]J<0"0i3
@@ -1869,7 +1864,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 cU	F9
 calloc
 close
@@ -2165,6 +2160,7 @@ unknown zip result code
 upH;~ uj
 upper
 v=Y]Bv
+v`%95
 vector<T> too long
 vector<bool> too long
 wcschr

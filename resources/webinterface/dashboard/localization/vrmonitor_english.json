@@ -103,6 +103,7 @@
 	"Settings_SectionTitle_Controller": "Controllers",
 	"Settings_SectionTitle_System": "System",
 	"Settings_SectionTitle_Internet": "Internet",
+	"Settings_SectionTitle_OpenXR": "OpenXR",
 
 	"Advanced_AllowSavingOfTimingInfo": "Allow saving of timing info",
 	"Advanced_AutoSaveTimingInfoOnExit": "Auto-save timing info on exit",
@@ -156,6 +157,7 @@
 	"Settings_DisplayPortTrainingMode_Automatic": "Automatic",
 	"Settings_DisplayPortTrainingMode_CompatibilityModeA": "Compatibility Mode A",
 	"Settings_DisplayPortTrainingMode_CompatibilityModeB": "Compatibility Mode B",
+	"Settings_GpuBusMonitoring": "GPU Bus Monitoring",
 
 	"Settings_MediumSpace": "Medium Space",
 	"Settings_NightModeCheck": "Night Mode",
@@ -437,6 +439,14 @@
 	"OpenXR_Error": "Error Finding Runtime",
 	"OpenXR_OculusRuntime": "Oculus",
 	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
+	"OpenXR_ApiLayers_Active": "%1$s Active",
+	"OpenXR_ApiLayers_Loading": "Loading...",
+	"OpenXR_ApiLayers_Manage": "Manage OpenXR API Layers",
+	"OpenXR_ApiLayers_Installed": "Installed OpenXR API Layers",
+	"OpenXR_ApiLayers_None_Installed": "No OpenXR API layers installed.",
+	"OpenXR_ApiLayers_App_Controlled": "Application controlled",
+	"OpenXR_ApiLayers_Enabled": "Enabled",
+	"OpenXR_ApiLayers_Disabled": "Disabled",
 
 	"TestControllerTitle": "Testing Controller %1$s",
 	"TestController_NoController": "Turn on a controller to test it."

@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Restablecer posición sentado",
 	"PowerMenuResetStandingPosition": "Restablecer posición de pie",
 	"Resetting_Countdown": "Restableciendo...",
+	"Button_Recenter": "Volver a centrar",
+	"Recentering_Countdown": "Centrando...",
 	"PowerMenuTurnOffController": "Apagar el control",
+	"PowerMenuShutdown": "Apagar",
 	"PowerMenuQuitSceneApp": "Salir de %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Salir de la aplicación",
 	"PowerMenuExitVR": "Salir de RV",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Aceptar",
+	"CompatibilityMode_Notification": "Modo de compatibilidad automática activado. Asignación para \"%1$s\" en uso.",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

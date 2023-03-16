@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Нулиране на седналото положение",
 	"PowerMenuResetStandingPosition": "Нулиране на правостоящото положение",
 	"Resetting_Countdown": "Нулиране…",
+	"Button_Recenter": "Повторно центриране",
+	"Recentering_Countdown": "Повторно центриране…",
 	"PowerMenuTurnOffController": "Изключване на контролер",
+	"PowerMenuShutdown": "Изключване",
 	"PowerMenuQuitSceneApp": "Изход от %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Изход от приложението",
 	"PowerMenuExitVR": "Изход от ВР",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Готово",
+	"CompatibilityMode_Notification": "Авт. режим на съвместимост е включен. Използва се комбинация за %1$s.",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

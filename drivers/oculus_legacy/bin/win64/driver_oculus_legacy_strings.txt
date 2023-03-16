@@ -5,7 +5,6 @@
  9D$D
  A__^
  H3E H3E
-!6;G+
 !hn7!
 ',=?k
 (A^A]^[
@@ -92,7 +91,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222230313Z0/
+230316184853Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -106,6 +105,7 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5c268
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -128,7 +128,6 @@
 ;k sDH
 <*J=)
 <0:08
-=*L%r
 =rIQU
 >0<0:
 >Mp$d
@@ -159,7 +158,6 @@ A_A^A]A\_^[]
 A_A^]
 A__][
 AuthD
-BZ(R5
 Bellevue1
 C(L95
 CL$PH
@@ -214,7 +212,6 @@ H;{XH
 HcD$0
 HcK@H
 HmdDriverFactory
-IL95-
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -248,7 +245,6 @@ L$ SVWH
 L$@H3
 L9t$huP
 L?n(Zy&
-LBdX<
 LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
@@ -308,6 +304,7 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
+V@)R&i]
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -323,7 +320,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-[$S[h
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -334,6 +330,7 @@ Y9"SD
 \$ UH
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
+^LLHXZ
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -377,7 +374,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 cU	F9
 camera
 d$`H=
@@ -397,7 +394,6 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
-lG8bm
 m0k0$
 malloc
 map/set<T> too long
@@ -464,7 +460,7 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-tIL95v
+tIL95f
 tXfff
 tdh.dll
 terminate

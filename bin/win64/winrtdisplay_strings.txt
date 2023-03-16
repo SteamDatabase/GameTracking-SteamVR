@@ -6,11 +6,11 @@
  A_^]
  A__^
  H3E H3E
+!_5rw
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
-' N+wm
 ',=?k
 (D$0f
 (f*^[0
@@ -118,7 +118,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222225404Z0/
+230316184015Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -137,11 +137,11 @@
 6I]Dc
 6OB,n_
 70503
+7<iXG
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-9#gw1A
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
@@ -152,6 +152,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?E%^3w
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -239,7 +240,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KeTM55
 K}*n:	
 L$ SH
 L$ SUVWH
@@ -257,11 +257,13 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
+P1%H7G
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS[
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -289,6 +291,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W1;fyP8z~
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -362,8 +365,8 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
+c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 cU	F9
 d3d11.dll
 dxgi.dll

@@ -101,14 +101,18 @@
             return "dashboardtransform";
           }
           buildNode(e, t) {
-            var r;
-            const o = this.createSgNode(t);
+            var r, o;
+            const i = this.createSgNode(t);
             return (
-              (o.properties.continuous_relatch =
+              (i.properties.continuous_relatch =
                 null !== (r = this.props.bContinuousRelatch) &&
                 void 0 !== r &&
                 r),
-              [e, o]
+              (i.properties.free_dashboard_transform =
+                null !== (o = this.props.bFreeDashboardTransform) &&
+                void 0 !== o &&
+                o),
+              [e, i]
             );
           }
         }
@@ -1900,10 +1904,12 @@
                 "Hmd_SupportsMicMonitoring_Bool"),
               (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
                 "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-              (e[(e.SupportsRoomViewDirect_Bool = 2105)] =
-                "SupportsRoomViewDirect_Bool"),
-              (e[(e.SupportsAppThrottling_Bool = 2106)] =
-                "SupportsAppThrottling_Bool"),
+              (e[(e.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
+                "Hmd_SupportsRoomViewDirect_Bool"),
+              (e[(e.Hmd_SupportsAppThrottling_Bool = 2106)] =
+                "Hmd_SupportsAppThrottling_Bool"),
+              (e[(e.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
+                "Hmd_SupportsGpuBusMonitoring_Bool"),
               (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
                 "DriverRequestedMuraCorrectionMode_Int32"),
               (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -2455,4 +2461,4 @@
   var i = o.O(void 0, [968, 683], () => o(5375));
   i = o.O(i);
 })();
-//# sourceMappingURL=fallback.js.map?v=a424fb401b999457348e
+//# sourceMappingURL=fallback.js.map?v=15081aa7b4f0966720de

@@ -19,6 +19,7 @@
 !(0)"
 !hn7!
 "9k0t
+"cHp`
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -173,7 +174,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222225640Z0/
+230316184358Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -185,7 +186,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3|]%m
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -201,6 +201,7 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9('P0%*
 9C }.H
 9T$XJ
 9]pu2
@@ -321,9 +322,9 @@ D$PI;
 D$PfA
 D$TI;
 D$XA#
-D8-1P
-D8-SS
-D8-|Q
+D8-!P
+D8-CS
+D8-lQ
 D9c0t
 D9c0t)H
 D9{0t
@@ -409,6 +410,7 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+IW-tu])
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
@@ -471,7 +473,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSrM
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -577,6 +578,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+WkiJB
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
@@ -697,10 +699,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -729,6 +731,7 @@ es_es
 es_mx
 etronlib
 expected marker
+f/^Dj
 fD9	u
 fi_fi
 finnish
@@ -759,6 +762,7 @@ ix`fA
 ja_jp
 japanese
 jj@0HK4
+k%;7E
 k0i0$
 ko_ko
 korean
@@ -779,6 +783,7 @@ l$HuF
 l$TD;
 l$hA+
 l$hHc
+lD&W>^
 latam
 ldexp
 m0k0$
@@ -920,7 +925,6 @@ zlib corrupt
 |$PLc
 |$XH;
 |Lu?c
-}>`},
 }LuHO
 ~3LcD$(L
 ~6HcD$ I

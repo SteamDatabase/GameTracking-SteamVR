@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Redefinir posição sentada",
 	"PowerMenuResetStandingPosition": "Redefinir posição em pé",
 	"Resetting_Countdown": "Redefinindo...",
+	"Button_Recenter": "Recentralizar",
+	"Recentering_Countdown": "Recentralizando...",
 	"PowerMenuTurnOffController": "Desligar controle",
+	"PowerMenuShutdown": "Desligar",
 	"PowerMenuQuitSceneApp": "Sair de %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Sair do aplicativo",
 	"PowerMenuExitVR": "Sair da RV",
@@ -26,7 +29,7 @@
 	"PowerMenuHeader": "Menu de inicialização",
 	"IPD_Description": "Distância entre as lentes",
 	"NoSteamWarning": "O Steam não está disponível no momento. Alguns recursos podem estar desativados.",
-	"WakingUpBaseStations": "Despertando estações-base...",
+	"WakingUpBaseStations": "Despertando estação-base...",
 	"/input/joystick": "Controle",
 	"/input/trackpad": "Trackpad",
 	"/input/trigger": "Gatilho",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
+	"CompatibilityMode_Notification": "Modo de compatibilidade automática ativado. Usando comandos do controle \"%1$s\".",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

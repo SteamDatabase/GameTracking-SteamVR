@@ -316,8 +316,8 @@
         let g,
           v,
           S,
-          y,
-          b = [],
+          b,
+          y = [],
           f = null,
           D = null;
         function R(e) {
@@ -349,7 +349,7 @@
                   let t = {
                     type: "root",
                     rootproperties: {
-                      relatchDashboardTransform: y,
+                      relatchDashboardTransform: b,
                       sceneColorCorrection: null,
                     },
                     children: _({ currentPanel: null, bShouldAbort: !1 }, e),
@@ -362,12 +362,12 @@
                     type: "update_scene_graph",
                     owning_overlay_key: C(),
                     scene_graph: t,
-                    retired_sgids: b,
+                    retired_sgids: y,
                   };
                   D.SendMessage("vrcompositor_systemlayer", r),
                     (f = null),
-                    (b = []),
-                    (y = !1);
+                    (y = []),
+                    (b = !1);
                 }),
               0
             ));
@@ -428,7 +428,7 @@
           componentWillUnmount() {
             var e;
             (e = this.m_SGID),
-              b.push(e),
+              y.push(e),
               I(),
               this.m_domRef.current &&
                 this.m_buildNodeOverride &&
@@ -563,8 +563,8 @@
           }
         }
         var O,
-          A,
           B,
+          A,
           V,
           U,
           L,
@@ -674,23 +674,23 @@
         }
         function he(e) {
           switch (e) {
-            case A.TopLeft:
+            case B.TopLeft:
               return { x: -1, y: 1 };
-            case A.TopCenter:
+            case B.TopCenter:
               return { x: 0, y: 1 };
-            case A.TopRight:
+            case B.TopRight:
               return { x: 1, y: 1 };
-            case A.CenterLeft:
+            case B.CenterLeft:
               return { x: -1, y: 0 };
-            case A.Center:
+            case B.Center:
               return { x: 0, y: 0 };
-            case A.CenterRight:
+            case B.CenterRight:
               return { x: 1, y: 0 };
-            case A.BottomLeft:
+            case B.BottomLeft:
               return { x: -1, y: -1 };
-            case A.BottomCenter:
+            case B.BottomCenter:
               return { x: 0, y: -1 };
-            case A.BottomRight:
+            case B.BottomRight:
               return { x: 1, y: -1 };
           }
         }
@@ -704,10 +704,10 @@
             (e[(e.BottomLeft = 6)] = "BottomLeft"),
             (e[(e.BottomCenter = 7)] = "BottomCenter"),
             (e[(e.BottomRight = 8)] = "BottomRight");
-        })(A || (A = {})),
+        })(B || (B = {})),
           (function (e) {
             (e[(e.Auto = 0)] = "Auto"), (e[(e.SingleTap = 1)] = "SingleTap");
-          })(B || (B = {})),
+          })(A || (A = {})),
           (function (e) {
             (e[(e.Mono = 0)] = "Mono"),
               (e[(e.Parallel = 1)] = "Parallel"),
@@ -1398,7 +1398,7 @@
             );
           }
         }
-        function ye() {
+        function be() {
           const [e, t] = o.useState(0);
           return (
             o.useEffect(() => {
@@ -1426,7 +1426,7 @@
                 null,
                 o.createElement(
                   me,
-                  { width: 1, origin: A.BottomCenter },
+                  { width: 1, origin: B.BottomCenter },
                   o.createElement(
                     "div",
                     {
@@ -1753,10 +1753,12 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (pe[(pe.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (pe[(pe.SupportsRoomViewDirect_Bool = 2105)] =
-            "SupportsRoomViewDirect_Bool"),
-          (pe[(pe.SupportsAppThrottling_Bool = 2106)] =
-            "SupportsAppThrottling_Bool"),
+          (pe[(pe.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
+            "Hmd_SupportsRoomViewDirect_Bool"),
+          (pe[(pe.Hmd_SupportsAppThrottling_Bool = 2106)] =
+            "Hmd_SupportsAppThrottling_Bool"),
+          (pe[(pe.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
+            "Hmd_SupportsGpuBusMonitoring_Bool"),
           (pe[(pe.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (pe[(pe.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -1967,14 +1969,18 @@
                 return "dashboardtransform";
               }
               buildNode(e, t) {
-                var r;
-                const i = this.createSgNode(t);
+                var r, i;
+                const o = this.createSgNode(t);
                 return (
-                  (i.properties.continuous_relatch =
+                  (o.properties.continuous_relatch =
                     null !== (r = this.props.bContinuousRelatch) &&
                     void 0 !== r &&
                     r),
-                  [e, i]
+                  (o.properties.free_dashboard_transform =
+                    null !== (i = this.props.bFreeDashboardTransform) &&
+                    void 0 !== i &&
+                    i),
+                  [e, o]
                 );
               }
             }.prototype,
@@ -1982,7 +1988,7 @@
             null
           ),
           VRHTML;
-        class be extends o.Component {
+        class ye extends o.Component {
           constructor(e) {
             super(e),
               (this.state = {
@@ -2310,16 +2316,16 @@
                   )
                 )
               ),
-              o.createElement(ye, null)
+              o.createElement(be, null)
             );
           }
         }
-        (0, i.gn)([s.ak], be.prototype, "onAnimationFrame", null),
-          (0, i.gn)([s.ak], be.prototype, "onNumberClicked", null),
-          (0, i.gn)([s.ak], be.prototype, "onHideElasticPanel", null),
-          (0, i.gn)([s.ak], be.prototype, "onMailboxMessage", null),
+        (0, i.gn)([s.ak], ye.prototype, "onAnimationFrame", null),
+          (0, i.gn)([s.ak], ye.prototype, "onNumberClicked", null),
+          (0, i.gn)([s.ak], ye.prototype, "onHideElasticPanel", null),
+          (0, i.gn)([s.ak], ye.prototype, "onMailboxMessage", null),
           n.render(
-            o.createElement(_e, null, o.createElement(be, null)),
+            o.createElement(_e, null, o.createElement(ye, null)),
             document.getElementById("root")
           ),
           null === VRHTML ||
@@ -2416,4 +2422,4 @@
   var o = i.O(void 0, [968], () => i(5693));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=85c5d8e1cce14e4c02ca
+//# sourceMappingURL=scenegraphtest.js.map?v=3442d292a97faba380cf

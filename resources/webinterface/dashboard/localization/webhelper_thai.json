@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "รีเซ็ตตำแหน่งการนั่ง",
 	"PowerMenuResetStandingPosition": "รีเซ็ตตำแหน่งการยืน",
 	"Resetting_Countdown": "กำลังรีเซ็ต...",
+	"Button_Recenter": "ปรับศูนย์อีกครั้ง",
+	"Recentering_Countdown": "กำลังปรับศูนย์อีกครั้ง...",
 	"PowerMenuTurnOffController": "ปิดคอนโทรลเลอร์",
+	"PowerMenuShutdown": "ปิดเครื่อง",
 	"PowerMenuQuitSceneApp": "ออกจาก %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "ออกจากแอป",
 	"PowerMenuExitVR": "ออกจาก VR",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "เสร็จสมบูรณ์",
+	"CompatibilityMode_Notification": "โหมดความเข้ากันได้โดยอัตโนมัติเปิดใช้งานแล้ว ใช้การเชื่อมโยงสำหรับ \"%1$s\"",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

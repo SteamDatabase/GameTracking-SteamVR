@@ -3,8 +3,8 @@
   "use strict";
   var e,
     t = {
-      6321: (e, t, i) => {
-        i.d(t, {
+      6321: (e, t, o) => {
+        o.d(t, {
           A4: () => S.A,
           Bl: () => _.Bl,
           CH: () => f.C,
@@ -18,7 +18,7 @@
           LL: () => M.LL,
           LY: () => r.LY,
           M9: () => r.M9,
-          Nv: () => n.N,
+          Nv: () => i.N,
           OK: () => u.OK,
           Op: () => M.Op,
           Oq: () => r.Oq,
@@ -32,23 +32,23 @@
           XX: () => M.XX,
           Y9: () => s.Y,
           Z9: () => M.Z9,
-          ZP: () => R,
+          ZP: () => w,
           Zj: () => r.Zj,
           a0: () => M.a0,
           at: () => v.a,
           bt: () => m.b,
           dq: () => r.dq,
-          eK: () => C.e,
+          eK: () => k.e,
           eQ: () => r.eQ,
-          gQ: () => h.g,
-          hz: () => o.h,
+          gQ: () => p.g,
+          hz: () => n.h,
           iC: () => y.i,
           iN: () => u.iN,
           jm: () => b.j,
-          kH: () => k.k,
+          kH: () => C.k,
           l0: () => M.l0,
           lx: () => M.lx,
-          n0: () => p.n,
+          n0: () => h.n,
           q9: () => r.q9,
           qA: () => M.qA,
           qC: () => M.qC,
@@ -62,44 +62,44 @@
           wx: () => d.w,
           x1: () => g.x,
           xY: () => M.xY,
-          xj: () => h.x,
+          xj: () => p.x,
           zA: () => M.zA,
           zq: () => M.zq,
         });
-        var n = i(4507),
-          r = i(3573),
-          o = i(1469),
-          s = i(1976),
-          a = i(1917),
-          l = i(142),
-          c = i(7986),
-          d = i(6701),
-          u = (i(2509), i(6263)),
-          p = (i(3402), i(9495)),
-          h = (i(6374), i(5565)),
-          m = i(3033),
-          g = i(8235),
-          v = (i(9483), i(5230)),
-          _ = i(4132),
-          y = (i(9744), i(6721)),
-          b = i(510),
-          f = i(1077),
-          S = i(1431),
-          C = i(6730),
-          k = i(6135),
-          M = i(1731);
-        const R = VRHTML;
+        var i = o(4507),
+          r = o(3573),
+          n = o(1469),
+          s = o(1976),
+          a = o(1917),
+          l = o(142),
+          c = o(7986),
+          d = o(6701),
+          u = (o(2509), o(6263)),
+          h = (o(3402), o(9495)),
+          p = (o(6374), o(5565)),
+          m = o(3033),
+          g = o(8235),
+          v = (o(9483), o(5230)),
+          _ = o(4132),
+          y = (o(9744), o(6721)),
+          b = o(510),
+          f = o(1077),
+          S = o(1431),
+          k = o(6730),
+          C = o(6135),
+          M = o(1731);
+        const w = VRHTML;
       },
-      1431: (e, t, i) => {
-        i.d(t, { A: () => o });
-        var n = i(7294),
-          r = i(3402);
-        class o extends r.Mo {
+      1431: (e, t, o) => {
+        o.d(t, { A: () => n });
+        var i = o(7294),
+          r = o(3402);
+        class n extends r.Mo {
           constructor(e) {
             super(e);
           }
           internalRender() {
-            return n.createElement(
+            return i.createElement(
               "vsg-callout-transform",
               { offset: (0, r.Kg)(this.props.vOffset) },
               this.props.children
@@ -107,12 +107,12 @@
           }
         }
       },
-      1077: (e, t, i) => {
-        i.d(t, { C: () => s });
-        var n = i(7294),
-          r = i(1731),
-          o = i(6701);
-        class s extends n.Component {
+      1077: (e, t, o) => {
+        o.d(t, { C: () => s });
+        var i = o(7294),
+          r = o(1731),
+          n = o(6701);
+        class s extends i.Component {
           constructor(e) {
             super(e);
             let t = {};
@@ -123,19 +123,19 @@
                   r.Uk.RenderModelName_String
                 );
                 if (e) {
-                  let i =
+                  let o =
                     VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
                       e,
                       this.props.sInputPath
                     );
-                  if (i) {
-                    let n =
+                  if (o) {
+                    let i =
                       VRHTML.VRRenderModels.GetComponentStateForDevicePath(
                         e,
-                        i,
+                        o,
                         this.props.sDevicePath
                       );
-                    n && (t.xfTransform = n.xfTrackingToComponentLocal);
+                    i && (t.xfTransform = i.xfTrackingToComponentLocal);
                   }
                 }
               } catch (e) {
@@ -147,8 +147,8 @@
             this.state = t;
           }
           render() {
-            return n.createElement(
-              o.w,
+            return i.createElement(
+              n.w,
               {
                 id: this.props.id,
                 parent_path: this.props.sDevicePath,
@@ -159,15 +159,15 @@
           }
         }
       },
-      1976: (e, t, i) => {
-        i.d(t, { Y: () => c });
-        var n = i(655),
-          r = i(7294),
-          o = i(3402),
-          s = i(7056),
-          a = i(6263),
-          l = i(7986);
-        class c extends o.Mo {
+      1976: (e, t, o) => {
+        o.d(t, { Y: () => c });
+        var i = o(655),
+          r = o(7294),
+          n = o(3402),
+          s = o(7056),
+          a = o(6263),
+          l = o(7986);
+        class c extends n.Mo {
           constructor(e) {
             var t;
             if (
@@ -188,18 +188,18 @@
             return "dashboardtab";
           }
           buildNode(e, t) {
-            var i;
-            const n = this.createSgNode(t);
+            var o;
+            const i = this.createSgNode(t);
             return (
-              (n.properties.tab_name =
-                null !== (i = this.props.tabName) && void 0 !== i ? i : ""),
-              (n.properties.mountable_id = (0, a.Hb)(
+              (i.properties.tab_name =
+                null !== (o = this.props.tabName) && void 0 !== o ? o : ""),
+              (i.properties.mountable_id = (0, a.Hb)(
                 this.m_sMountableUnqualifiedID
               )),
-              (n.properties.icon_uri = this.props.iconUri),
-              (n.properties.icon_overlay_key = this.props.iconOverlayKey),
-              (n.properties.summon_overlay_key = this.props.summonOverlayKey),
-              [e, n]
+              (i.properties.icon_uri = this.props.iconUri),
+              (i.properties.icon_overlay_key = this.props.iconOverlayKey),
+              (i.properties.summon_overlay_key = this.props.summonOverlayKey),
+              [e, i]
             );
           }
           internalRender() {
@@ -214,13 +214,13 @@
             );
           }
         }
-        (0, n.gn)([s.ZP], c.prototype, "buildNode", null);
+        (0, i.gn)([s.ZP], c.prototype, "buildNode", null);
       },
-      6730: (e, t, i) => {
-        i.d(t, { e: () => s });
-        var n = i(655),
-          r = i(3402),
-          o = i(7056);
+      6730: (e, t, o) => {
+        o.d(t, { e: () => s });
+        var i = o(655),
+          r = o(3402),
+          n = o(7056);
         class s extends r.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -229,29 +229,33 @@
             return "dashboardtransform";
           }
           buildNode(e, t) {
-            var i;
-            const n = this.createSgNode(t);
+            var o, i;
+            const r = this.createSgNode(t);
             return (
-              (n.properties.continuous_relatch =
-                null !== (i = this.props.bContinuousRelatch) &&
+              (r.properties.continuous_relatch =
+                null !== (o = this.props.bContinuousRelatch) &&
+                void 0 !== o &&
+                o),
+              (r.properties.free_dashboard_transform =
+                null !== (i = this.props.bFreeDashboardTransform) &&
                 void 0 !== i &&
                 i),
-              [e, n]
+              [e, r]
             );
           }
         }
-        (0, n.gn)([o.ZP], s.prototype, "buildNode", null);
+        (0, i.gn)([n.ZP], s.prototype, "buildNode", null);
       },
-      6721: (e, t, i) => {
-        i.d(t, { i: () => s });
-        var n,
-          r = i(7294),
-          o = i(3402);
+      6721: (e, t, o) => {
+        o.d(t, { i: () => s });
+        var i,
+          r = o(7294),
+          n = o(3402);
         !(function (e) {
           (e[(e.LockedToParent = 0)] = "LockedToParent"),
             (e[(e.LockedToWorld = 1)] = "LockedToWorld");
-        })(n || (n = {}));
-        class s extends o.Mo {
+        })(i || (i = {}));
+        class s extends n.Mo {
           constructor(e) {
             super(e);
           }
@@ -262,13 +266,13 @@
               t = this.props.stop_angle_threshold
                 ? (this.props.stop_angle_threshold * Math.PI) / 180
                 : null,
-              i = this.props.ease_out_angle_threshold
+              o = this.props.ease_out_angle_threshold
                 ? (this.props.ease_out_angle_threshold * Math.PI) / 180
                 : null,
-              n = this.props.min_angular_velocity
+              i = this.props.min_angular_velocity
                 ? (this.props.min_angular_velocity * Math.PI) / 180
                 : null,
-              o = this.props.max_angular_velocity
+              n = this.props.max_angular_velocity
                 ? (this.props.max_angular_velocity * Math.PI) / 180
                 : null;
             return r.createElement(
@@ -278,10 +282,10 @@
                 "stop-angle-threshold": t,
                 "ease-in-time": this.props.ease_in_time,
                 "ease-in-power": this.props.ease_in_power,
-                "ease-out-angle-threshold": i,
+                "ease-out-angle-threshold": o,
                 "ease-out-power": this.props.ease_out_power,
-                "min-angular-velocity": n,
-                "max-angular-velocity": o,
+                "min-angular-velocity": i,
+                "max-angular-velocity": n,
                 "lock-to-horizon": this.props.lock_to_horizon,
                 "translation-behavior": this.props.translation_behavior,
               },
@@ -290,16 +294,16 @@
           }
         }
       },
-      510: (e, t, i) => {
-        i.d(t, { j: () => o });
-        var n = i(7294),
-          r = i(3402);
-        class o extends r.Mo {
+      510: (e, t, o) => {
+        o.d(t, { j: () => n });
+        var i = o(7294),
+          r = o(3402);
+        class n extends r.Mo {
           constructor(e) {
             super(e);
           }
           internalRender() {
-            return n.createElement(
+            return i.createElement(
               "vsg-head-facing-transform",
               null,
               this.props.children
@@ -307,16 +311,16 @@
           }
         }
       },
-      8235: (e, t, i) => {
-        i.d(t, { x: () => o });
-        var n = i(7294),
-          r = i(3402);
-        class o extends r.Mo {
+      8235: (e, t, o) => {
+        o.d(t, { x: () => n });
+        var i = o(7294),
+          r = o(3402);
+        class n extends r.Mo {
           constructor(e) {
             super(e);
           }
           internalRender() {
-            return n.createElement("vsg-line", {
+            return i.createElement("vsg-line", {
               "target-id": this.props.target_id,
               thickness: this.props.thickness,
               "start-buffer": this.props.start_buffer,
@@ -325,14 +329,14 @@
           }
         }
       },
-      9744: (e, t, i) => {
-        i(7294), i(3402);
+      9744: (e, t, o) => {
+        o(7294), o(3402);
       },
-      3033: (e, t, i) => {
-        i.d(t, { b: () => s });
-        var n = i(655),
-          r = i(3402),
-          o = i(7056);
+      3033: (e, t, o) => {
+        o.d(t, { b: () => s });
+        var i = o(655),
+          r = o(3402),
+          n = o(7056);
         class s extends r.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -341,64 +345,64 @@
             return "ltcquad";
           }
           buildNode(e, t) {
-            const i = this.createSgNode(t);
+            const o = this.createSgNode(t);
             if (
-              ((i.properties.width = this.props.width),
-              (i.properties.height = this.props.height),
-              (i.properties["near-z"] = this.props["near-z"]),
-              (i.properties["far-z"] = this.props["far-z"]),
-              (i.properties.debug = this.props.debug),
+              ((o.properties.width = this.props.width),
+              (o.properties.height = this.props.height),
+              (o.properties["near-z"] = this.props["near-z"]),
+              (o.properties["far-z"] = this.props["far-z"]),
+              (o.properties.debug = this.props.debug),
               this.props.diffuse)
             ) {
               let e = this.props.diffuse;
-              (i.properties["diffuse-resolution"] = e.resolution),
-                (i.properties["diffuse-size"] = e.size);
+              (o.properties["diffuse-resolution"] = e.resolution),
+                (o.properties["diffuse-size"] = e.size);
             }
             if (this.props.specular) {
               let e = this.props.specular;
-              if ("string" == typeof e.color) i.properties.color = e.color;
+              if ("string" == typeof e.color) o.properties.color = e.color;
               else {
                 let t = (0, r.kh)(e.color, { r: 0, g: 0, b: 0 });
-                i.properties.color = [t.r, t.g, t.b];
+                o.properties.color = [t.r, t.g, t.b];
               }
             }
-            return [e, i];
+            return [e, o];
           }
         }
-        (0, n.gn)([o.ZP], s.prototype, "buildNode", null);
+        (0, i.gn)([n.ZP], s.prototype, "buildNode", null);
       },
-      6135: (e, t, i) => {
-        i.d(t, { k: () => o });
-        var n = i(7294),
-          r = i(3402);
-        class o extends r.Mo {
+      6135: (e, t, o) => {
+        o.d(t, { k: () => n });
+        var i = o(7294),
+          r = o(3402);
+        class n extends r.Mo {
           constructor(e) {
             super(e);
           }
           internalRender() {
             let e = (0, r.Kg)(this.props.xfCurrent.translation),
               t = (0, r.xs)(this.props.xfCurrent.rotation),
-              i = (0, r.Kg)(this.props.xfCurrent.scale);
-            return n.createElement(
+              o = (0, r.Kg)(this.props.xfCurrent.scale);
+            return i.createElement(
               "vsg-manipulation-transform",
               {
                 "is-moving": this.props.bIsMoving,
                 "parent-path": this.props.sParentPath,
                 translation: e,
                 rotation: t,
-                scale: i,
+                scale: o,
               },
               this.props.children
             );
           }
         }
       },
-      7986: (e, t, i) => {
-        i.d(t, { C: () => a, s: () => l });
-        var n = i(655),
-          r = i(3402),
-          o = i(7056),
-          s = i(6263);
+      7986: (e, t, o) => {
+        o.d(t, { C: () => a, s: () => l });
+        var i = o(655),
+          r = o(3402),
+          n = o(7056),
+          s = o(6263);
         class a extends r.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -410,7 +414,7 @@
             return [e, this.createSgNode(t)];
           }
         }
-        (0, n.gn)([o.ZP], a.prototype, "buildNode", null);
+        (0, i.gn)([n.ZP], a.prototype, "buildNode", null);
         class l extends r.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -419,22 +423,22 @@
             return "mountedscenegraph";
           }
           buildNode(e, t) {
-            const i = this.createSgNode(t);
+            const o = this.createSgNode(t);
             return (
-              (i.properties.mountable_id = (0, s.Hb)(this.props.mountedId)),
+              (o.properties.mountable_id = (0, s.Hb)(this.props.mountedId)),
               this.props.fDashboardScale &&
-                (i.properties.dashboard_scale = this.props.fDashboardScale),
-              [e, i]
+                (o.properties.dashboard_scale = this.props.fDashboardScale),
+              [e, o]
             );
           }
         }
-        (0, n.gn)([o.ZP], l.prototype, "buildNode", null);
+        (0, i.gn)([n.ZP], l.prototype, "buildNode", null);
       },
-      142: (e, t, i) => {
-        i.d(t, { D: () => s });
-        var n = i(655),
-          r = i(3402),
-          o = i(7056);
+      142: (e, t, o) => {
+        o.d(t, { D: () => s });
+        var i = o(655),
+          r = o(3402),
+          n = o(7056);
         class s extends r.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -443,52 +447,52 @@
             return "opacity";
           }
           buildNode(e, t) {
-            const i = this.createSgNode(t);
-            return (i.properties.opacity = this.props.value), [e, i];
+            const o = this.createSgNode(t);
+            return (o.properties.opacity = this.props.value), [e, o];
           }
         }
-        (0, n.gn)([o.ZP], s.prototype, "buildNode", null);
+        (0, i.gn)([n.ZP], s.prototype, "buildNode", null);
       },
-      4132: (e, t, i) => {
-        i.d(t, {
+      4132: (e, t, o) => {
+        o.d(t, {
           Bl: () => s,
-          Ic: () => n,
+          Ic: () => i,
           Lb: () => m,
           Vv: () => r,
           s_: () => g,
         });
-        var n,
+        var i,
           r,
-          o,
+          n,
           s,
-          a = i(655),
-          l = i(7294),
-          c = i(3402),
-          d = i(9495),
-          u = i(7056),
-          p = i(6263);
-        function h(e) {
+          a = o(655),
+          l = o(7294),
+          c = o(3402),
+          d = o(9495),
+          u = o(7056),
+          h = o(6263);
+        function p(e) {
           if (e) return [e.u, e.v];
         }
         function m(e) {
           switch (e) {
-            case n.TopLeft:
+            case i.TopLeft:
               return { x: -1, y: 1 };
-            case n.TopCenter:
+            case i.TopCenter:
               return { x: 0, y: 1 };
-            case n.TopRight:
+            case i.TopRight:
               return { x: 1, y: 1 };
-            case n.CenterLeft:
+            case i.CenterLeft:
               return { x: -1, y: 0 };
-            case n.Center:
+            case i.Center:
               return { x: 0, y: 0 };
-            case n.CenterRight:
+            case i.CenterRight:
               return { x: 1, y: 0 };
-            case n.BottomLeft:
+            case i.BottomLeft:
               return { x: -1, y: -1 };
-            case n.BottomCenter:
+            case i.BottomCenter:
               return { x: 0, y: -1 };
-            case n.BottomRight:
+            case i.BottomRight:
               return { x: 1, y: -1 };
           }
         }
@@ -502,7 +506,7 @@
             (e[(e.BottomLeft = 6)] = "BottomLeft"),
             (e[(e.BottomCenter = 7)] = "BottomCenter"),
             (e[(e.BottomRight = 8)] = "BottomRight");
-        })(n || (n = {})),
+        })(i || (i = {})),
           (function (e) {
             (e[(e.Auto = 0)] = "Auto"), (e[(e.SingleTap = 1)] = "SingleTap");
           })(r || (r = {})),
@@ -512,7 +516,7 @@
               (e[(e.Crossed = 2)] = "Crossed"),
               (e[(e.Panorama = 3)] = "Panorama"),
               (e[(e.StackedPanorama = 4)] = "StackedPanorama");
-          })(o || (o = {})),
+          })(n || (n = {})),
           (function (e) {
             (e[(e.Visible = 0)] = "Visible"),
               (e[(e.SkipInSceneGraph = 1)] = "SkipInSceneGraph"),
@@ -632,13 +636,13 @@
               ),
               (this.m_bOverdragBlocking = !1));
           }
-          createOverdragBlockingElement(e, t, i, n) {
+          createOverdragBlockingElement(e, t, o, i) {
             let r = document.createElement("div");
             (r.style.position = "absolute"),
               (r.style.top = t + "px"),
               (r.style.left = e + "px"),
-              (r.style.width = i + "px"),
-              (r.style.height = n + "px"),
+              (r.style.width = o + "px"),
+              (r.style.height = i + "px"),
               (r.style.zIndex = "90019001"),
               this.m_overdragBlockingElements.push(r),
               document.body.appendChild(r);
@@ -656,7 +660,7 @@
               : s.Visible;
           }
           buildNode(e, t) {
-            var i, n, r, o, a;
+            var o, i, r, n, a;
             if (this.visibility != s.Visible) return [e, null];
             let l = Object.assign({}, e),
               d = this.createSgNode(t),
@@ -666,35 +670,35 @@
                 ? (0, c.QE)(this.props.origin, { x: 0, y: 0 })
                 : m(this.props.origin);
             const g = this.props.overlay_key,
-              v = (0, p.Gv)();
+              v = (0, h.Gv)();
             return (
               g && g.length > 0
                 ? (d.properties.key = g)
                 : v
                 ? (d.properties.key = v)
-                : (d.properties.overlay_handle = (0, p.Mb)()),
+                : (d.properties.overlay_handle = (0, h.Mb)()),
               (d.properties.uv_min =
-                null !== (i = h(this.m_UVsMin)) && void 0 !== i ? i : void 0),
+                null !== (o = p(this.m_UVsMin)) && void 0 !== o ? o : void 0),
               (d.properties.uv_max =
-                null !== (n = h(this.m_UVsMax)) && void 0 !== n ? n : void 0),
+                null !== (i = p(this.m_UVsMax)) && void 0 !== i ? i : void 0),
               (d.properties.width =
                 null !== (r = this.props.width) && void 0 !== r ? r : void 0),
               (d.properties.height =
-                null !== (o = this.props.height) && void 0 !== o ? o : void 0),
+                null !== (n = this.props.height) && void 0 !== n ? n : void 0),
               (d.properties["min-width"] =
                 null !== (a = this.props.min_width) && void 0 !== a
                   ? a
                   : void 0),
-              (d.properties["target-width-anchor-id"] = (0, p.Hb)(
+              (d.properties["target-width-anchor-id"] = (0, h.Hb)(
                 this.props.target_width_anchor_id
               )),
-              (d.properties["target-dpi-panel-id"] = (0, p.Hb)(
+              (d.properties["target-dpi-panel-id"] = (0, h.Hb)(
                 this.props.target_dpi_panel_id
               )),
               (d.properties["target-dpi-multiplier"] =
                 this.props.target_dpi_multiplier),
               (d.properties.curvature = this.props.curvature),
-              (d.properties["curvature-origin-id"] = (0, p.Hb)(
+              (d.properties["curvature-origin-id"] = (0, h.Hb)(
                 this.props.curvature_origin_id
               )),
               (d.properties.interactive = this.props.interactive),
@@ -710,7 +714,7 @@
                 this.props.rendermodel_component_device_index),
               (d.properties.rendermodel_component_name =
                 this.props.rendermodel_component_name),
-              (d.properties["texture-id"] = (0, p.Hb)(this.props.texture_id)),
+              (d.properties["texture-id"] = (0, h.Hb)(this.props.texture_id)),
               (d.properties["sort-order"] = this.props.sort_order),
               (d.properties["sort-depth-bias"] = this.props.sort_depth_bias),
               (l.currentPanel = this),
@@ -719,10 +723,10 @@
           }
           scaleLocalUVToGlobal(e) {
             const t = this.m_UVsMax.u - this.m_UVsMin.u,
-              i = this.m_UVsMax.v - this.m_UVsMin.v;
+              o = this.m_UVsMax.v - this.m_UVsMin.v;
             return {
               u: this.m_UVsMin.u + t * e.u,
-              v: this.m_UVsMin.v + i * e.v,
+              v: this.m_UVsMin.v + o * e.v,
             };
           }
           updateLayoutValues() {
@@ -758,12 +762,12 @@
           (0, a.gn)([u.ZP], g.prototype, "onWindowMouseUp", null),
           (0, a.gn)([u.ZP], g.prototype, "buildNode", null);
       },
-      5230: (e, t, i) => {
-        i.d(t, { a: () => a });
-        var n = i(655),
-          r = i(3402),
-          o = i(4132),
-          s = i(7056);
+      5230: (e, t, o) => {
+        o.d(t, { a: () => a });
+        var i = o(655),
+          r = o(3402),
+          n = o(4132),
+          s = o(7056);
         class a extends r.Mo {
           constructor(e) {
             super(e),
@@ -782,68 +786,68 @@
                 Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                 null,
               ];
-            let i = null;
+            let o = null;
             "object" == typeof this.props.location
-              ? (i = (0, r.QE)(this.props.location, { x: 0, y: 0 }))
+              ? (o = (0, r.QE)(this.props.location, { x: 0, y: 0 }))
               : "number" == typeof this.props.location &&
-                (i = (0, o.Lb)(this.props.location));
-            let n = this.createSgNode(t);
+                (o = (0, n.Lb)(this.props.location));
+            let i = this.createSgNode(t);
             if (this.props.latched && null !== this.m_latchedPosition)
-              (n.properties["anchor-u"] = this.m_latchedPosition.u),
-                (n.properties["anchor-v"] = this.m_latchedPosition.v);
-            else if (i) {
-              const t = { u: 0.5 * i.x + 0.5, v: -0.5 * i.y + 0.5 },
+              (i.properties["anchor-u"] = this.m_latchedPosition.u),
+                (i.properties["anchor-v"] = this.m_latchedPosition.v);
+            else if (o) {
+              const t = { u: 0.5 * o.x + 0.5, v: -0.5 * o.y + 0.5 },
                 r = e.currentPanel.props.overlay_key
                   ? t
                   : e.currentPanel.scaleLocalUVToGlobal(t);
-              (n.properties["anchor-u"] = r.u),
-                (n.properties["anchor-v"] = r.v);
+              (i.properties["anchor-u"] = r.u),
+                (i.properties["anchor-v"] = r.v);
             } else {
-              const i = t.ownerDocument,
+              const o = t.ownerDocument,
                 r = t.getBoundingClientRect(),
-                o = r.left + r.width / 2,
+                n = r.left + r.width / 2,
                 s = r.top + r.height / 2,
                 a = e.currentPanel.m_Rect;
-              if (o < a.x || o > a.x + a.width || s < a.y || s > a.y + a.height)
+              if (n < a.x || n > a.x + a.width || s < a.y || s > a.y + a.height)
                 return [
                   Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                   null,
                 ];
-              const l = i.defaultView.innerWidth,
-                c = i.defaultView.innerHeight;
+              const l = o.defaultView.innerWidth,
+                c = o.defaultView.innerHeight;
               if (!(c > 0 && l > 0))
                 return [
                   Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                   null,
                 ];
-              (n.properties["anchor-u"] = o / l),
-                (n.properties["anchor-v"] = s / c);
+              (i.properties["anchor-u"] = n / l),
+                (i.properties["anchor-v"] = s / c);
             }
             return (
               (this.m_latchedPosition = {
-                u: n.properties["anchor-u"],
-                v: n.properties["anchor-v"],
+                u: i.properties["anchor-u"],
+                v: i.properties["anchor-v"],
               }),
-              [e, n]
+              [e, i]
             );
           }
         }
-        (0, n.gn)([s.ZP], a.prototype, "buildNode", null);
+        (0, i.gn)([s.ZP], a.prototype, "buildNode", null);
       },
-      9483: (e, t, i) => {
-        i(7294), i(3402);
+      9483: (e, t, o) => {
+        o(7294), o(3402);
       },
-      5565: (e, t, i) => {
-        i.d(t, { g: () => l, x: () => n });
-        var n,
-          r = i(655),
-          o = i(3402),
-          s = i(7056),
-          a = i(6263);
+      5565: (e, t, o) => {
+        o.d(t, { g: () => l, x: () => i });
+        var i,
+          r = o(655),
+          n = o(3402),
+          s = o(7056),
+          a = o(6263);
         !(function (e) {
           (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
-        })(n || (n = {}));
-        class l extends o.Mo {
+        })(i || (i = {}));
+        class l extends n.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
           }
@@ -851,42 +855,42 @@
             return "rendermodel";
           }
           buildNode(e, t) {
-            const i = this.createSgNode(t);
+            const o = this.createSgNode(t);
             if (
-              ((i.properties.source = this.props.source),
-              (i.properties["texture-id"] = (0, a.Hb)(
+              ((o.properties.source = this.props.source),
+              (o.properties["texture-id"] = (0, a.Hb)(
                 this.props["texture-id"]
               )),
               this.props.fresnel)
             ) {
               let e = this.props.fresnel;
-              if ("string" == typeof e.color) i.properties.color = e.color;
+              if ("string" == typeof e.color) o.properties.color = e.color;
               else {
-                let t = (0, o.kh)(e.color, { r: 0, g: 0, b: 0 });
-                i.properties.color = [t.r, t.g, t.b];
+                let t = (0, n.kh)(e.color, { r: 0, g: 0, b: 0 });
+                o.properties.color = [t.r, t.g, t.b];
               }
-              (i.properties.opacity = e.opacity ? e.opacity : 1),
-                (i.properties.strength = e.strength ? e.strength : 1);
+              (o.properties.opacity = e.opacity ? e.opacity : 1),
+                (o.properties.strength = e.strength ? e.strength : 1);
             }
             return (
-              (i.properties.wireframe = this.props.wireframe),
-              (i.properties.solid = this.props.solid),
-              (i.properties.culling = this.props.culling),
-              (i.properties["no-depth-write"] = this.props["no-depth-write"]),
-              (i.properties["no-depth-test"] = this.props["no-depth-test"]),
-              [e, i]
+              (o.properties.wireframe = this.props.wireframe),
+              (o.properties.solid = this.props.solid),
+              (o.properties.culling = this.props.culling),
+              (o.properties["no-depth-write"] = this.props["no-depth-write"]),
+              (o.properties["no-depth-test"] = this.props["no-depth-test"]),
+              [e, o]
             );
           }
         }
         (0, r.gn)([s.ZP], l.prototype, "buildNode", null);
       },
-      9495: (e, t, i) => {
-        i.d(t, { n: () => l });
-        var n = i(655),
-          r = i(7294),
-          o = i(4132),
-          s = i(7056),
-          a = i(6263);
+      9495: (e, t, o) => {
+        o.d(t, { n: () => l });
+        var i = o(655),
+          r = o(7294),
+          n = o(4132),
+          s = o(7056),
+          a = o(6263);
         class l extends r.Component {
           constructor(e) {
             super(e),
@@ -936,7 +940,7 @@
                 "px )");
           }
           forceLayoutUpdate() {
-            (o.s_.s_bPanelsAreDirty = !0),
+            (n.s_.s_bPanelsAreDirty = !0),
               this.setState({
                 nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
               });
@@ -947,11 +951,11 @@
             e.body.classList.add("SGApp"),
               document.documentElement.classList.add("VROverlay"),
               (this.m_nEmbeddedDataWidth = t.innerWidth);
-            let i = Math.max(
+            let o = Math.max(
               0,
               Math.floor((this.m_nEmbeddedDataWidth - 1) / 3)
             );
-            for (let e = 0; e < i; e++)
+            for (let e = 0; e < o; e++)
               this.m_rAvailableEmbeddedIndicesQueue.push(e);
             e.addEventListener("mousemove", this.onMouseMove),
               (this.m_Observer = new MutationObserver(this.onMutation)),
@@ -1039,9 +1043,9 @@
           updateAllPanelBounds() {
             let e = this.m_DomRef.current.ownerDocument.defaultView,
               t = this.m_scalingDomRef.current.getBoundingClientRect(),
-              i = t.width / this.m_fCurrentScale,
-              n = t.height / this.m_fCurrentScale,
-              r = { x: e.innerWidth / i, y: e.innerHeight / n },
+              o = t.width / this.m_fCurrentScale,
+              i = t.height / this.m_fCurrentScale,
+              r = { x: e.innerWidth / o, y: e.innerHeight / i },
               s = Math.min(r.x, r.y, 1);
             s != this.m_fCurrentScale &&
               (1 != s
@@ -1051,11 +1055,11 @@
                   )
                 : this.m_scalingDomRef.current.removeAttribute("style"),
               (this.m_fCurrentScale = s),
-              (o.s_.s_bPanelsAreDirty = !0)),
-              o.s_.s_bPanelsAreDirty &&
+              (n.s_.s_bPanelsAreDirty = !0)),
+              n.s_.s_bPanelsAreDirty &&
                 (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
                 (0, a.k7)(),
-                (o.s_.s_bPanelsAreDirty = !1),
+                (n.s_.s_bPanelsAreDirty = !1),
                 this.updateEmbeddedData());
           }
           updateEmbeddedData() {
@@ -1073,20 +1077,20 @@
               }),
               (this.m_rEmbeddedIndicesToClear = []),
               this.m_mapPanels.forEach((e, t) => {
-                let i = e.m_Rect.x,
-                  n = e.m_Rect.x + e.m_Rect.width,
+                let o = e.m_Rect.x,
+                  i = e.m_Rect.x + e.m_Rect.width,
                   r = e.m_Rect.y,
-                  o = e.m_Rect.y + e.m_Rect.height,
+                  n = e.m_Rect.y + e.m_Rect.height,
                   s = 1 + 3 * e.getEmbeddedIndex();
-                if (e.isExternal() || i >= n || r >= o)
+                if (e.isExternal() || o >= i || r >= n)
                   for (let e = 0; e < 3; e++) this.setPixel(s + 1, 0, 0, 0, 0);
                 else
-                  this.setPixel(s, (65280 & i) >> 8, 255 & i, 0),
-                    this.setPixel(s + 1, (65280 & n) >> 8, 255 & n, 255 & r),
+                  this.setPixel(s, (65280 & o) >> 8, 255 & o, 0),
+                    this.setPixel(s + 1, (65280 & i) >> 8, 255 & i, 255 & r),
                     this.setPixel(
                       s + 2,
-                      (65280 & o) >> 8,
-                      255 & o,
+                      (65280 & n) >> 8,
+                      255 & n,
                       (65280 & r) >> 8
                     );
               });
@@ -1103,10 +1107,10 @@
               (this.m_nDirtyXMin = -1),
               (this.m_nDirtyXMax = -1);
           }
-          setPixel(e, t, i, n, r = 255) {
+          setPixel(e, t, o, i, r = 255) {
             (this.m_Pixels.data[4 * e + 0] = t),
-              (this.m_Pixels.data[4 * e + 1] = i),
-              (this.m_Pixels.data[4 * e + 2] = n),
+              (this.m_Pixels.data[4 * e + 1] = o),
+              (this.m_Pixels.data[4 * e + 2] = i),
               (this.m_Pixels.data[4 * e + 3] = r),
               (-1 === this.m_nDirtyXMin || e < this.m_nDirtyXMin) &&
                 (this.m_nDirtyXMin = e),
@@ -1116,24 +1120,24 @@
         }
         (l.s_Current = null),
           (l.k_EmbeddedDataRows = 1),
-          (0, n.gn)([s.ak], l.prototype, "toggleDebugPointer", null),
-          (0, n.gn)([s.ak], l.prototype, "onMouseMove", null),
-          (0, n.gn)([s.ak], l.prototype, "forceLayoutUpdate", null),
-          (0, n.gn)([s.ak], l.prototype, "onMutation", null);
+          (0, i.gn)([s.ak], l.prototype, "toggleDebugPointer", null),
+          (0, i.gn)([s.ak], l.prototype, "onMouseMove", null),
+          (0, i.gn)([s.ak], l.prototype, "forceLayoutUpdate", null),
+          (0, i.gn)([s.ak], l.prototype, "onMutation", null);
       },
-      3402: (e, t, i) => {
-        i.d(t, {
+      3402: (e, t, o) => {
+        o.d(t, {
           D1: () => l,
           Kg: () => c,
           Mo: () => u,
-          QE: () => o,
+          QE: () => n,
           Uq: () => s,
           kh: () => a,
           xs: () => d,
         });
-        var n = i(7294),
-          r = i(6263);
-        function o(e, t) {
+        var i = o(7294),
+          r = o(6263);
+        function n(e, t) {
           return e ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y } : t;
         }
         function s(e, t) {
@@ -1161,10 +1165,10 @@
         function d(e) {
           if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
         }
-        class u extends n.Component {
+        class u extends i.Component {
           constructor(e) {
             super(e),
-              (this.m_domRef = n.createRef()),
+              (this.m_domRef = i.createRef()),
               (this.m_buildNodeOverride = null),
               (this.m_SGID = u.s_NextSGID),
               (u.s_NextSGID = (u.s_NextSGID + 1) % 4294967296);
@@ -1199,7 +1203,7 @@
                 delete this.m_domRef.current.buildNode;
           }
           render() {
-            return n.cloneElement(this.internalRender(), {
+            return i.cloneElement(this.internalRender(), {
               id: this.props.id,
               "vsg-type": this.getNodeType(),
               sgid: this.m_SGID,
@@ -1208,84 +1212,84 @@
           }
           internalRender() {
             return this.m_buildNodeOverride
-              ? n.createElement("vsg-node", null, this.props.children)
+              ? i.createElement("vsg-node", null, this.props.children)
               : null;
           }
         }
         u.s_NextSGID = 1;
       },
-      6263: (e, t, i) => {
-        i.d(t, {
-          Gv: () => R,
+      6263: (e, t, o) => {
+        o.d(t, {
+          Gv: () => w,
           Hb: () => M,
-          Mb: () => p,
+          Mb: () => h,
           OK: () => T,
           ac: () => u,
-          iN: () => k,
+          iN: () => C,
           k7: () => E,
-          mK: () => C,
+          mK: () => k,
           qI: () => D,
-          sX: () => w,
+          sX: () => R,
         });
-        var n = i(655),
-          r = i(4507);
-        function o(e, t) {
-          let i = e.getAttribute(t);
-          if (i && i.length > 0) {
-            if ("undefined" == i) return;
+        var i = o(655),
+          r = o(4507);
+        function n(e, t) {
+          let o = e.getAttribute(t);
+          if (o && o.length > 0) {
+            if ("undefined" == o) return;
             let e = [];
-            for (let t of i.split(" ")) 0 != t.length && e.push(parseFloat(t));
+            for (let t of o.split(" ")) 0 != t.length && e.push(parseFloat(t));
             if (e.length > 0) return e;
           }
         }
         function s(e, t) {
-          let i = e.getAttribute(t);
-          if (i && i.length > 0) return parseFloat(i);
+          let o = e.getAttribute(t);
+          if (o && o.length > 0) return parseFloat(o);
         }
         function a(e, t) {
-          let i = e.getAttribute(t);
-          if (i && i.length > 0) return parseInt(i);
+          let o = e.getAttribute(t);
+          if (o && o.length > 0) return parseInt(o);
         }
         function l(e, t) {
-          let i = e.getAttribute(t);
-          if (i && i.length > 0)
+          let o = e.getAttribute(t);
+          if (o && o.length > 0)
             return (
-              "true" == i ||
-              (i.length > 0 && 0 != parseInt(i) && !isNaN(parseInt(i)))
+              "true" == o ||
+              (o.length > 0 && 0 != parseInt(o) && !isNaN(parseInt(o)))
             );
         }
         function c(e, t) {
-          let i = e.getAttribute(t);
-          if (i && i.length > 0) return i;
+          let o = e.getAttribute(t);
+          if (o && o.length > 0) return o;
         }
         function d(e, t) {
           return M(c(e, t));
         }
         function u(e, t) {
-          let i = { type: e, properties: {} };
+          let o = { type: e, properties: {} };
           return (
-            t.id && (i.properties.id = M(t.id)),
-            (i.properties.sgid = a(t, "sgid")),
-            i
+            t.id && (o.properties.id = M(t.id)),
+            (o.properties.sgid = a(t, "sgid")),
+            o
           );
         }
-        function p() {
+        function h() {
           return null === VRHTML || void 0 === VRHTML
             ? void 0
             : VRHTML.VROverlay.ThisOverlayHandle();
         }
-        function h(e, t) {
-          let [i, n] = (function (e, t) {
-              let i = t.buildNode;
-              if (i) return i(e, t);
-              let n = Object.assign({}, e),
+        function p(e, t) {
+          let [o, i] = (function (e, t) {
+              let o = t.buildNode;
+              if (o) return o(e, t);
+              let i = Object.assign({}, e),
                 r = null;
               switch (t.nodeName.toUpperCase()) {
                 case "VSG-TRANSFORM":
                   (r = u("transform", t)),
-                    (r.properties.translation = o(t, "translation")),
-                    (r.properties.rotation = o(t, "rotation")),
-                    (r.properties.scale = o(t, "scale")),
+                    (r.properties.translation = n(t, "translation")),
+                    (r.properties.rotation = n(t, "rotation")),
+                    (r.properties.scale = n(t, "scale")),
                     (r.properties["curvature-pitch"] = s(t, "curvature-pitch")),
                     (r.properties["parent-path"] = c(t, "parent-path")),
                     (r.properties["parent-origin"] = c(t, "parent-origin")),
@@ -1344,7 +1348,7 @@
                   break;
                 case "VSG-CALLOUT-TRANSFORM":
                   (r = u("callout-transform", t)),
-                    (r.properties.offset = o(t, "offset"));
+                    (r.properties.offset = n(t, "offset"));
                   break;
                 case "VSG-HEAD-FACING-TRANSFORM":
                   r = u("head-facing-transform", t);
@@ -1365,24 +1369,24 @@
                   (r = u("manipulation-transform", t)),
                     (r.properties["is-moving"] = l(t, "is-moving")),
                     (r.properties["parent-path"] = c(t, "parent-path")),
-                    (r.properties.translation = o(t, "translation")),
-                    (r.properties.rotation = o(t, "rotation")),
-                    (r.properties.scale = o(t, "scale"));
+                    (r.properties.translation = n(t, "translation")),
+                    (r.properties.rotation = n(t, "rotation")),
+                    (r.properties.scale = n(t, "scale"));
               }
-              return [n, r];
+              return [i, r];
             })(e, t),
             r = [];
           for (let e = 0; e < t.children.length; e++) {
-            let n = t.children.item(e);
-            if (n.children) {
-              let e = h(i, n);
+            let i = t.children.item(e);
+            if (i.children) {
+              let e = p(o, i);
               e && (r = r.concat(e));
             }
           }
-          return i.bShouldAbort
+          return o.bShouldAbort
             ? null
-            : n
-            ? (r.length > 0 && (n.children = r), [n])
+            : i
+            ? (r.length > 0 && (i.children = r), [i])
             : r.length > 0
             ? 1 == r.length
               ? r
@@ -1397,13 +1401,13 @@
           b = null,
           f = null,
           S = null;
-        function C(e, t, i) {
+        function k(e, t, o) {
           (m = e),
             (g = t),
-            (v = i),
+            (v = o),
             console.log("Setting owning overlay key to " + e);
         }
-        function k(e, t) {
+        function C(e, t) {
           return e + "::" + t;
         }
         function M(e) {
@@ -1412,10 +1416,10 @@
                 return e && e.includes("::");
               })(e)
               ? e
-              : k(R(), e)
+              : C(w(), e)
             : null;
         }
-        function R() {
+        function w() {
           var e;
           return null !==
             (e =
@@ -1425,25 +1429,29 @@
             ? e
             : m;
         }
-        function w(e) {
+        function R(e) {
           y.push(e), E();
         }
         function D() {
           _ = !0;
         }
         function T(e) {
-          var t, i;
-          (i = e),
-            (null == (t = S) || null == i
-              ? t == i
-              : t.color_mult == i.color_mult &&
-                t.reflection_mult == i.reflection_mult) || ((S = e), E());
+          var t, o;
+          (o = e),
+            (null == (t = S) || null == o
+              ? t == o
+              : t.color_mult == o.color_mult &&
+                t.reflection_mult == o.reflection_mult &&
+                t.roomview_mult.toString() == o.roomview_mult.toString() &&
+                t.allow_skydome == o.allow_skydome &&
+                t.allow_floornear == o.allow_floornear &&
+                t.allow_floorfar == o.allow_floorfar) || ((S = e), E());
         }
         function E() {
           b ||
             (b = window.setTimeout(
               () =>
-                (0, n.mG)(this, void 0, void 0, function* () {
+                (0, i.mG)(this, void 0, void 0, function* () {
                   let e = document.body;
                   g && (e = g);
                   let t = {
@@ -1452,19 +1460,19 @@
                       relatchDashboardTransform: _,
                       sceneColorCorrection: S,
                     },
-                    children: h({ currentPanel: null, bShouldAbort: !1 }, e),
+                    children: p({ currentPanel: null, bShouldAbort: !1 }, e),
                   };
                   f ||
                     (console.log("Initializing sg_mailbox"),
                     (f = new r.N()),
                     yield f.Init("sg_mailbox", v));
-                  let i = {
+                  let o = {
                     type: "update_scene_graph",
-                    owning_overlay_key: R(),
+                    owning_overlay_key: w(),
                     scene_graph: t,
                     retired_sgids: y,
                   };
-                  f.SendMessage("vrcompositor_systemlayer", i),
+                  f.SendMessage("vrcompositor_systemlayer", o),
                     (b = null),
                     (y = []),
                     (_ = !1);
@@ -1473,10 +1481,10 @@
             ));
         }
       },
-      6374: (e, t, i) => {
-        var n = i(655),
-          r = i(3402),
-          o = i(7056);
+      6374: (e, t, o) => {
+        var i = o(655),
+          r = o(3402),
+          n = o(7056);
         class s extends r.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1485,21 +1493,21 @@
             return "texture";
           }
           buildNode(e, t) {
-            const i = this.createSgNode(t);
+            const o = this.createSgNode(t);
             return (
-              (i.properties.id = this.props.id),
-              (i.properties.source = this.props.source),
-              [e, i]
+              (o.properties.id = this.props.id),
+              (o.properties.source = this.props.source),
+              [e, o]
             );
           }
         }
-        (0, n.gn)([o.ZP], s.prototype, "buildNode", null);
+        (0, i.gn)([n.ZP], s.prototype, "buildNode", null);
       },
-      1917: (e, t, i) => {
-        i.d(t, { V: () => s });
-        var n = i(655),
-          r = i(3402),
-          o = i(7056);
+      1917: (e, t, o) => {
+        o.d(t, { V: () => s });
+        var i = o(655),
+          r = o(3402),
+          n = o(7056);
         class s extends r.Mo {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1508,35 +1516,35 @@
             return "tint";
           }
           buildNode(e, t) {
-            const i = this.createSgNode(t);
+            const o = this.createSgNode(t);
             if (this.props.color)
               if ("string" == typeof this.props.color)
-                i.properties.color = this.props.color;
+                o.properties.color = this.props.color;
               else {
                 let e = (0, r.kh)(this.props.color, { r: 1, g: 1, b: 1 });
-                i.properties.color = [e.r, e.g, e.b];
+                o.properties.color = [e.r, e.g, e.b];
               }
-            else i.properties.color = [1, 1, 1];
-            return [e, i];
+            else o.properties.color = [1, 1, 1];
+            return [e, o];
           }
         }
-        (0, n.gn)([o.ZP], s.prototype, "buildNode", null);
+        (0, i.gn)([n.ZP], s.prototype, "buildNode", null);
       },
-      2509: (e, t, i) => {
-        i(7294), i(3402);
+      2509: (e, t, o) => {
+        o(7294), o(3402);
       },
-      6701: (e, t, i) => {
-        i.d(t, { w: () => a });
-        var n,
-          r = i(7294),
-          o = i(3402),
-          s = i(3573);
+      6701: (e, t, o) => {
+        o.d(t, { w: () => a });
+        var i,
+          r = o(7294),
+          n = o(3402),
+          s = o(3573);
         !(function (e) {
           (e[(e.Seated = 0)] = "Seated"),
             (e[(e.Standing = 1)] = "Standing"),
             (e[(e.Raw = 2)] = "Raw");
-        })(n || (n = {}));
-        class a extends o.Mo {
+        })(i || (i = {}));
+        class a extends n.Mo {
           constructor(e) {
             if (
               (super(e),
@@ -1550,29 +1558,29 @@
               );
           }
           internalRender() {
-            let e, t, i;
+            let e, t, o;
             this.props.transform
               ? ((e = this.props.transform.translation),
                 (t = this.props.transform.rotation),
-                (i = this.props.transform.scale))
-              : ((e = (0, o.Uq)(this.props.translation, { x: 0, y: 0, z: 0 })),
+                (o = this.props.transform.scale))
+              : ((e = (0, n.Uq)(this.props.translation, { x: 0, y: 0, z: 0 })),
                 (t = (0, s.UU)(
                   (0, s.mT)(
-                    (0, o.Uq)(this.props.rotation, { x: 0, y: 0, z: 0 }),
+                    (0, n.Uq)(this.props.rotation, { x: 0, y: 0, z: 0 }),
                     Math.PI / 180
                   )
                 )),
-                (i =
+                (o =
                   "number" == typeof this.props.scale
                     ? {
                         x: this.props.scale,
                         y: this.props.scale,
                         z: this.props.scale,
                       }
-                    : (0, o.Uq)(this.props.scale, { x: 1, y: 1, z: 1 })));
-            let a = (0, o.Kg)(e),
-              l = (0, o.xs)(t),
-              c = (0, o.Kg)(i);
+                    : (0, n.Uq)(this.props.scale, { x: 1, y: 1, z: 1 })));
+            let a = (0, n.Kg)(e),
+              l = (0, n.xs)(t),
+              c = (0, n.Kg)(o);
             return r.createElement(
               "vsg-transform",
               {
@@ -1581,7 +1589,7 @@
                 scale: c,
                 "curvature-pitch": this.props.curvature_pitch,
                 "parent-path": this.props.parent_path,
-                "parent-origin": n[this.props.parent_origin],
+                "parent-origin": i[this.props.parent_origin],
                 "parent-id": this.props.parent_id,
               },
               this.props.children
@@ -1589,22 +1597,22 @@
           }
         }
       },
-      3573: (e, t, i) => {
-        function n() {
+      3573: (e, t, o) => {
+        function i() {
           return {
             translation: { x: 0, y: 0, z: 0 },
             rotation: { w: 1, x: 0, y: 0, z: 0 },
             scale: { x: 1, y: 1, z: 1 },
           };
         }
-        function r(e, t, i) {
+        function r(e, t, o) {
           return {
-            x: t.x + e * (i.x - t.x),
-            y: t.y + e * (i.y - t.y),
-            z: t.z + e * (i.z - t.z),
+            x: t.x + e * (o.x - t.x),
+            y: t.y + e * (o.y - t.y),
+            z: t.z + e * (o.z - t.z),
           };
         }
-        function o(e, t) {
+        function n(e, t) {
           return { x: e.x - t.x, y: e.y - t.y };
         }
         function s(e, t) {
@@ -1625,30 +1633,30 @@
         function u(e) {
           if (void 0 === e) return;
           let t = 0.5 * e.x,
-            i = 0.5 * e.y,
-            n = 0.5 * e.z,
+            o = 0.5 * e.y,
+            i = 0.5 * e.z,
             r = Math.cos(t),
-            o = Math.cos(i),
-            s = Math.cos(n),
+            n = Math.cos(o),
+            s = Math.cos(i),
             a = Math.sin(t),
-            l = Math.sin(i),
-            c = Math.sin(n);
+            l = Math.sin(o),
+            c = Math.sin(i);
           return {
-            w: r * o * s + a * l * c,
-            x: a * o * s + r * l * c,
-            y: r * l * s - a * o * c,
-            z: r * o * c - a * l * s,
+            w: r * n * s + a * l * c,
+            x: a * n * s + r * l * c,
+            y: r * l * s - a * n * c,
+            z: r * n * c - a * l * s,
           };
         }
-        function p(e) {
+        function h(e) {
           let t = e[0][0] + e[1][1] + e[2][2];
           if (t > 0) {
-            let i = 2 * Math.sqrt(t + 1);
+            let o = 2 * Math.sqrt(t + 1);
             return {
-              w: 0.25 * i,
-              x: (e[1][2] - e[2][1]) / i,
-              y: (e[2][0] - e[0][2]) / i,
-              z: (e[0][1] - e[1][0]) / i,
+              w: 0.25 * o,
+              x: (e[1][2] - e[2][1]) / o,
+              y: (e[2][0] - e[0][2]) / o,
+              z: (e[0][1] - e[1][0]) / o,
             };
           }
           if (e[0][0] > e[1][1] && e[0][0] > e[2][2]) {
@@ -1679,11 +1687,11 @@
             };
           }
         }
-        function h(e, t, i) {
+        function p(e, t, o) {
           return [
             [e.x, e.y, e.z],
             [t.x, t.y, t.z],
-            [i.x, i.y, i.z],
+            [o.x, o.y, o.z],
           ];
         }
         function m(e) {
@@ -1697,56 +1705,56 @@
             z: e.x * t.y - e.y * t.x,
           };
         }
-        i.d(t, {
+        o.d(t, {
           Fs: () => a,
           JR: () => c,
           LY: () => d,
           M9: () => m,
-          Oq: () => n,
-          Pd: () => p,
+          Oq: () => i,
+          Pd: () => h,
           UU: () => u,
-          Zj: () => o,
+          Zj: () => n,
           dq: () => g,
           eQ: () => s,
           mT: () => l,
           q9: () => r,
-          tS: () => h,
+          tS: () => p,
         });
       },
-      1469: (e, t, i) => {
-        i.d(t, { h: () => o });
-        var n = i(655),
-          r = i(4507);
-        class o {
+      1469: (e, t, o) => {
+        o.d(t, { h: () => n });
+        var i = o(655),
+          r = o(4507);
+        class n {
           constructor() {
             (this.m_mailbox = new r.N()),
               this.m_mailbox.Init("sgtransformcache");
           }
           static getInstance() {
-            return o.instance || (o.instance = new o()), o.instance;
+            return n.instance || (n.instance = new n()), n.instance;
           }
           requestSGTransform(e, t = 0) {
-            return new Promise((i, r) =>
-              (0, n.mG)(this, void 0, void 0, function* () {
-                let n = { type: "transform_request", id: e, flPushDistance: t },
-                  o = yield this.m_mailbox.SendMessageAndWaitForResponse(
+            return new Promise((o, r) =>
+              (0, i.mG)(this, void 0, void 0, function* () {
+                let i = { type: "transform_request", id: e, flPushDistance: t },
+                  n = yield this.m_mailbox.SendMessageAndWaitForResponse(
                     "vrcompositor_systemlayer",
-                    n,
+                    i,
                     "transform_response"
                   );
-                o.id == e && o.transform
-                  ? i(o.transform)
+                n.id == e && n.transform
+                  ? o(n.transform)
                   : r("requestSGTransform failed");
               })
             );
           }
         }
       },
-      4507: (e, t, i) => {
-        i.d(t, { N: () => o });
-        var n = i(655),
-          r = i(7056);
-        class o {
+      4507: (e, t, o) => {
+        o.d(t, { N: () => n });
+        var i = o(655),
+          r = o(7056);
+        class n {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.m_oHandlers = {}),
@@ -1760,10 +1768,10 @@
               console.log(
                 "Connecting vrmailbox " + this.m_sMailboxName + "..."
               );
-              let i = "ws://localhost:27062";
-              this.m_sWebSecret && (i += "?secret=" + this.m_sWebSecret),
+              let o = "ws://localhost:27062";
+              this.m_sWebSecret && (o += "?secret=" + this.m_sWebSecret),
                 (this.m_fnConnectResolve = e),
-                (this.m_wsWebSocketToServer = new WebSocket(i)),
+                (this.m_wsWebSocketToServer = new WebSocket(o)),
                 this.m_wsWebSocketToServer.addEventListener("open", (t) => {
                   this.OnWebSocketOpen(t), e();
                 }),
@@ -1786,9 +1794,9 @@
             );
           }
           Init(e, t) {
-            return (0, n.mG)(this, void 0, void 0, function* () {
+            return (0, i.mG)(this, void 0, void 0, function* () {
               return (
-                (this.m_sMailboxName = o.EnsureUniqueName(e)),
+                (this.m_sMailboxName = n.EnsureUniqueName(e)),
                 (this.m_sWebSecret = t),
                 (this.connected = !1),
                 this.OpenWebSocketToHost()
@@ -1821,15 +1829,15 @@
           }
           OnWebSocketMessage(e) {
             let t = JSON.parse(e.data),
-              i = !1;
+              o = !1;
             if (
               (this.m_oHandlers.hasOwnProperty(t.type) &&
-                (this.m_oHandlers[t.type](t), (i = !0)),
+                (this.m_oHandlers[t.type](t), (o = !0)),
               this.m_oWaits.hasOwnProperty(t.type))
             ) {
               let e = !1;
-              for (let i of this.m_oWaits[t.type])
-                i.nMessageId == t.message_id && (i.callback(t), (e = !0));
+              for (let o of this.m_oWaits[t.type])
+                o.nMessageId == t.message_id && (o.callback(t), (e = !0));
               e
                 ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
                     (e) => e.nMessageId == t.message_id
@@ -1837,9 +1845,9 @@
                 : console.log(
                     `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`
                   ),
-                (i = !0);
+                (o = !0);
             }
-            i || console.log("Received unhandled message: ", t);
+            o || console.log("Received unhandled message: ", t);
           }
           RegisterHandler(e, t) {
             this.m_oHandlers[e] = t;
@@ -1848,9 +1856,9 @@
             this.WebSocketSend("mailbox_send " + e + " " + JSON.stringify(t));
           }
           WaitForMessage(e, t) {
-            return new Promise((i, n) => {
+            return new Promise((o, i) => {
               this.m_oWaits[e] || (this.m_oWaits[e] = []),
-                this.m_oWaits[e].push({ callback: i, nMessageId: t });
+                this.m_oWaits[e].push({ callback: o, nMessageId: t });
             });
           }
           WaitForConnect() {
@@ -1859,7 +1867,7 @@
             });
           }
           WaitForMailbox(e) {
-            return (0, n.mG)(this, void 0, void 0, function* () {
+            return (0, i.mG)(this, void 0, void 0, function* () {
               let t = {
                 type: "request_mailbox_registration_notification",
                 mailbox_name: e,
@@ -1871,34 +1879,34 @@
               );
             });
           }
-          SendMessageAndWaitForResponse(e, t, i) {
-            let n = Object.assign({}, t);
+          SendMessageAndWaitForResponse(e, t, o) {
+            let i = Object.assign({}, t);
             return (
-              null == n.returnAddress &&
-                (n.returnAddress = this.m_sMailboxName),
-              (n.message_id = this.m_nNextMessageNumber++),
-              this.SendMessage(e, n),
-              this.WaitForMessage(i, n.message_id)
+              null == i.returnAddress &&
+                (i.returnAddress = this.m_sMailboxName),
+              (i.message_id = this.m_nNextMessageNumber++),
+              this.SendMessage(e, i),
+              this.WaitForMessage(o, i.message_id)
             );
           }
           SendResponse(e, t) {
             if (!e.returnAddress)
               throw new Error("Missing return address on message");
-            let i = Object.assign(Object.assign({}, t), {
+            let o = Object.assign(Object.assign({}, t), {
               message_id: e.message_id,
             });
-            (i.message_id = e.message_id), this.SendMessage(e.returnAddress, i);
+            (o.message_id = e.message_id), this.SendMessage(e.returnAddress, o);
           }
         }
-        (o.s_nNextMailboxNumber = 1),
-          (0, n.gn)([r.ak], o.prototype, "OpenWebSocketToHost", null),
-          (0, n.gn)([r.ak], o.prototype, "OnWebSocketOpen", null),
-          (0, n.gn)([r.ak], o.prototype, "OnWebSocketClose", null),
-          (0, n.gn)([r.ak], o.prototype, "WebSocketSend", null),
-          (0, n.gn)([r.ak], o.prototype, "OnWebSocketMessage", null);
+        (n.s_nNextMailboxNumber = 1),
+          (0, i.gn)([r.ak], n.prototype, "OpenWebSocketToHost", null),
+          (0, i.gn)([r.ak], n.prototype, "OnWebSocketOpen", null),
+          (0, i.gn)([r.ak], n.prototype, "OnWebSocketClose", null),
+          (0, i.gn)([r.ak], n.prototype, "WebSocketSend", null),
+          (0, i.gn)([r.ak], n.prototype, "OnWebSocketMessage", null);
       },
-      1731: (e, t, i) => {
-        var n, r, o, s;
+      1731: (e, t, o) => {
+        var i, r, n, s;
         function a() {
           var e;
           return null !==
@@ -1907,26 +1915,26 @@
                 ? void 0
                 : VRHTML.Environment()) && void 0 !== e
             ? e
-            : n.Unknown;
+            : i.Unknown;
         }
-        i.d(t, {
-          GC: () => k,
+        o.d(t, {
+          GC: () => C,
           Kf: () => c,
           Kg: () => M,
           LL: () => r,
           Op: () => a,
           Pw: () => b,
-          QZ: () => o,
+          QZ: () => n,
           Uk: () => m,
           XX: () => u,
-          Z9: () => p,
-          a0: () => R,
+          Z9: () => h,
+          a0: () => w,
           l0: () => f,
-          lx: () => C,
-          qA: () => n,
-          qC: () => h,
+          lx: () => k,
+          qA: () => i,
+          qC: () => p,
           qR: () => g,
-          vS: () => w,
+          vS: () => R,
           wU: () => l,
           xY: () => _,
           zA: () => D,
@@ -1936,7 +1944,7 @@
             (e[(e.Desktop = 1)] = "Desktop"),
               (e[(e.Overlay = 2)] = "Overlay"),
               (e[(e.Unknown = 100)] = "Unknown");
-          })(n || (n = {})),
+          })(i || (i = {})),
           window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
           (function (e) {
             (e[(e.Auto = 0)] = "Auto"),
@@ -1957,7 +1965,7 @@
                 "TrackingResult_Running_OutOfRange"),
               (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
                 "TrackingResult_Fallback_RotationOnly");
-          })(o || (o = {})),
+          })(n || (n = {})),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
@@ -1965,7 +1973,7 @@
           })(s || (s = {}));
         let l = 0,
           c = -1;
-        var d, u, p, h, m, g, v, _, y, b, f, S, C, k, M, R, w, D;
+        var d, u, h, p, m, g, v, _, y, b, f, S, k, C, M, w, R, D;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -2021,10 +2029,10 @@
                 "EnableControlBarKeyboard"),
               (e[(e.EnableControlBarClose = 33554432)] =
                 "EnableControlBarClose");
-          })(p || (p = {})),
+          })(h || (h = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(h || (h = {})),
+          })(p || (p = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.TrackingSystemName_String = 1e3)] =
@@ -2252,10 +2260,12 @@
                 "Hmd_SupportsMicMonitoring_Bool"),
               (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
                 "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-              (e[(e.SupportsRoomViewDirect_Bool = 2105)] =
-                "SupportsRoomViewDirect_Bool"),
-              (e[(e.SupportsAppThrottling_Bool = 2106)] =
-                "SupportsAppThrottling_Bool"),
+              (e[(e.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
+                "Hmd_SupportsRoomViewDirect_Bool"),
+              (e[(e.Hmd_SupportsAppThrottling_Bool = 2106)] =
+                "Hmd_SupportsAppThrottling_Bool"),
+              (e[(e.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
+                "Hmd_SupportsGpuBusMonitoring_Bool"),
               (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
                 "DriverRequestedMuraCorrectionMode_Int32"),
               (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -2415,14 +2425,14 @@
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(C || (C = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(k || (k = {})),
+          })(C || (C = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -2448,10 +2458,10 @@
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(R || (R = {})),
+          })(w || (w = {})),
           (function (e) {
             (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-          })(w || (w = {})),
+          })(R || (R = {})),
           (function (e) {
             (e[(e.Hostname = 0)] = "Hostname"),
               (e[(e.IP = 1)] = "IP"),
@@ -2460,33 +2470,33 @@
               (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
           })(D || (D = {}));
       },
-      1732: (e, t, i) => {
-        i.d(t, { L: () => S });
-        var n,
-          r = i(655),
-          o = i(7294),
-          s = i(7056),
-          a = i(3868),
-          l = i(6321),
-          c = i(3947),
-          d = i(1428),
-          u = i(2893),
-          p = i(7062),
-          h = i(2188),
-          m = i(8052),
-          g = i(8325);
+      1732: (e, t, o) => {
+        o.d(t, { L: () => S });
+        var i,
+          r = o(655),
+          n = o(7294),
+          s = o(7056),
+          a = o(3868),
+          l = o(6321),
+          c = o(3947),
+          d = o(1428),
+          u = o(2893),
+          h = o(7062),
+          p = o(2188),
+          m = o(8052),
+          g = o(8325);
         !(function (e) {
           (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
-        })(n || (n = {}));
-        class v extends o.Component {
+        })(i || (i = {}));
+        class v extends n.Component {
           constructor(e) {
             super(e),
               (this.m_containerRef = null),
               (this.m_nameRef = null),
               (this.m_svgRef = null),
-              (this.m_containerRef = o.createRef()),
-              (this.m_nameRef = o.createRef()),
-              (this.m_svgRef = o.createRef()),
+              (this.m_containerRef = n.createRef()),
+              (this.m_nameRef = n.createRef()),
+              (this.m_svgRef = n.createRef()),
               (this.state = {
                 click: !1,
                 touch: !1,
@@ -2578,18 +2588,18 @@
                   this.props.sourcePath + "/force"
                 );
           }
-          ComponentUpdated(e, t, i) {
+          ComponentUpdated(e, t, o) {
             e == this.props.devicePath &&
               (t == this.props.sourcePath + "/click" &&
-                this.setState({ click: i }),
+                this.setState({ click: o }),
               t == this.props.sourcePath + "/touch" &&
-                this.setState({ touch: i }),
-              t == this.props.sourcePath + "/x" && this.setState({ x: i }),
-              t == this.props.sourcePath + "/y" && this.setState({ y: i }),
+                this.setState({ touch: o }),
+              t == this.props.sourcePath + "/x" && this.setState({ x: o }),
+              t == this.props.sourcePath + "/y" && this.setState({ y: o }),
               t == this.props.sourcePath + "/value" &&
-                this.setState({ value: i }),
+                this.setState({ value: o }),
               t == this.props.sourcePath + "/force" &&
-                this.setState({ force: i }));
+                this.setState({ force: o }));
           }
           GetPositionStyle() {
             let e;
@@ -2645,31 +2655,31 @@
             return (
               this.state.click && (e += " Clicked"),
               this.state.touch && (e += " Touched"),
-              o.createElement(
+              n.createElement(
                 "div",
                 { className: "VisualizerButtonContainer" },
-                o.createElement("div", {
+                n.createElement("div", {
                   className: "VisualizerButtonBase" + e,
                 })
               )
             );
           }
-          renderBar(e, t, i) {
-            let n = { width: String(100 * i) + "%" };
-            return o.createElement(
+          renderBar(e, t, o) {
+            let i = { width: String(100 * o) + "%" };
+            return n.createElement(
               "div",
               { className: "TriggerBar " + t },
-              o.createElement(
+              n.createElement(
                 "div",
                 { className: "VisualizerLabel" },
                 (0, a.Xx)(e)
               ),
-              o.createElement(
+              n.createElement(
                 "div",
                 { className: "TriggerBarBackground" },
-                o.createElement("div", {
+                n.createElement("div", {
                   className: "TriggerBarContent",
-                  style: n,
+                  style: i,
                 })
               )
             );
@@ -2685,20 +2695,20 @@
             ) {
               let e = this.m_svgRef.current.children.namedItem("SourcePath"),
                 t = this.m_svgRef.current.children.namedItem("SourceLine"),
-                i = this.m_svgRef.current.children.namedItem("SourceCircle"),
-                r = this.props.side == n.Right,
-                o = this.m_nameRef.current.getBoundingClientRect(),
+                o = this.m_svgRef.current.children.namedItem("SourceCircle"),
+                r = this.props.side == i.Right,
+                n = this.m_nameRef.current.getBoundingClientRect(),
                 s = this.m_containerRef.current.getBoundingClientRect(),
                 a = this.GetPosition(),
-                l = new d.E9(0, o.top + o.height / 2);
+                l = new d.E9(0, n.top + n.height / 2);
               l.x = r ? s.left - 10 : s.right + 10;
               let c = r ? -20 : 20,
                 u = l.x + c + "," + l.y + " " + a.x + "," + a.y;
               e.setAttribute("points", u);
-              let p = l.x + "," + l.y + " " + (l.x + c) + "," + l.y;
-              t.setAttribute("points", p),
-                i.setAttribute("cx", a.x + ""),
-                i.setAttribute("cy", a.y + "");
+              let h = l.x + "," + l.y + " " + (l.x + c) + "," + l.y;
+              t.setAttribute("points", h),
+                o.setAttribute("cx", a.x + ""),
+                o.setAttribute("cy", a.y + "");
             }
           }
           componentDidUpdate() {
@@ -2717,17 +2727,17 @@
           render() {
             let e = "MenuSVG";
             return (
-              this.props.side == n.Left
+              this.props.side == i.Left
                 ? (e += " MenuLeftLine")
                 : (e += " MenuRightLine"),
               this.IsEngaged() && (e += " MenuSVGVisible"),
-              o.createElement(
+              n.createElement(
                 "div",
                 { className: "VisualizerControl", ref: this.m_containerRef },
-                o.createElement(
+                n.createElement(
                   "div",
                   { className: "VisualizerSectionHeader" },
-                  o.createElement(
+                  n.createElement(
                     "div",
                     { className: "Label Title", ref: this.m_nameRef },
                     c.I.LocalizeControllerString(
@@ -2738,44 +2748,44 @@
                   this.renderHeaderVisualization()
                 ),
                 this.renderBodyVisualization(),
-                o.createElement(
+                n.createElement(
                   "svg",
                   {
                     className: e,
                     xmlns: "http://www.w3.org/2000/svg",
                     ref: this.m_svgRef,
                   },
-                  o.createElement(
+                  n.createElement(
                     "defs",
                     null,
-                    o.createElement(
+                    n.createElement(
                       "radialGradient",
                       { id: "buttonGradient" },
-                      o.createElement("stop", {
+                      n.createElement("stop", {
                         offset: "0%",
                         stopColor: "var(--bordercolor)",
                         stopOpacity: "0.8",
                       }),
-                      o.createElement("stop", {
+                      n.createElement("stop", {
                         offset: "100%",
                         stopColor: "var(--bordercolor)",
                         stopOpacity: "0",
                       })
                     )
                   ),
-                  o.createElement("polyline", {
+                  n.createElement("polyline", {
                     id: "SourceLine",
                     stroke: "var(--bordercolor)",
                     strokeWidth: "0.1rem",
                     fill: "transparent",
                   }),
-                  o.createElement("polyline", {
+                  n.createElement("polyline", {
                     id: "SourcePath",
                     stroke: "var(--bordercolor)",
                     strokeWidth: "0.1rem",
                     fill: "transparent",
                   }),
-                  o.createElement("circle", {
+                  n.createElement("circle", {
                     id: "SourceCircle",
                     r: "2rem",
                     fill: "url(#buttonGradient)",
@@ -2803,7 +2813,7 @@
             );
           }
           renderBodyVisualization() {
-            return o.createElement(
+            return n.createElement(
               "div",
               { className: "TriggerVisualizerContainer" },
               this.props.source.value &&
@@ -2838,35 +2848,35 @@
                   left: String(2 * (1 + this.state.x)) + "rem",
                 }),
                 this.state.click && (t += " Clicked")),
-              o.createElement(
+              n.createElement(
                 "div",
                 {
                   className:
                     "TrackpadVisualizerContainer" +
                     (this.state.touch ? " Touched" : ""),
                 },
-                o.createElement(
+                n.createElement(
                   "div",
                   { className: "TrackpadPosition" },
-                  o.createElement(
+                  n.createElement(
                     "div",
                     { className: "VisualizerLabel" },
                     (0, a.Xx)("#SourceInputMode_Position")
                   ),
-                  o.createElement(
+                  n.createElement(
                     "div",
                     { className: "TrackpadVisualizerContainer" },
-                    o.createElement(
+                    n.createElement(
                       "div",
                       { className: "TrackpadVisualizerBackground" },
                       e &&
-                        o.createElement(
+                        n.createElement(
                           "div",
                           { style: e },
-                          o.createElement(
+                          n.createElement(
                             "div",
                             { className: "TrackpadVisualizerPipContainer" },
-                            o.createElement("div", { className: t })
+                            n.createElement("div", { className: t })
                           )
                         )
                     )
@@ -2882,10 +2892,10 @@
             );
           }
         }
-        class f extends o.Component {
+        class f extends n.Component {
           constructor(e) {
             super(e),
-              (this.m_imageRef = o.createRef()),
+              (this.m_imageRef = n.createRef()),
               (this.state = { imageScale: this.GetPointScale() });
           }
           get ControllerTypeInfo() {
@@ -2913,13 +2923,13 @@
                 return 0;
             }
           }
-          renderSource(e, t, i) {
-            let n = e + this.ControllerTypeInfo.controller_type;
+          renderSource(e, t, o) {
+            let i = e + this.ControllerTypeInfo.controller_type;
             switch (t.type) {
               case "button":
-                return o.createElement(_, {
-                  key: n,
-                  side: i,
+                return n.createElement(_, {
+                  key: i,
+                  side: o,
                   controllerType: this.ControllerTypeInfo,
                   devicePath: this.props.devicePath,
                   sourcePath: e,
@@ -2928,9 +2938,9 @@
                   imageScale: this.GetPointScale(),
                 });
               case "trigger":
-                return o.createElement(y, {
-                  key: n,
-                  side: i,
+                return n.createElement(y, {
+                  key: i,
+                  side: o,
                   controllerType: this.ControllerTypeInfo,
                   devicePath: this.props.devicePath,
                   sourcePath: e,
@@ -2940,9 +2950,9 @@
                 });
               case "joystick":
               case "trackpad":
-                return o.createElement(b, {
-                  key: n,
-                  side: i,
+                return n.createElement(b, {
+                  key: i,
+                  side: o,
                   controllerType: this.ControllerTypeInfo,
                   devicePath: this.props.devicePath,
                   sourcePath: e,
@@ -2956,9 +2966,9 @@
               case "vibration":
                 return null;
               default:
-                return o.createElement(
+                return n.createElement(
                   "div",
-                  { key: n },
+                  { key: i },
                   "Need to add visualizer for ",
                   t.type
                 );
@@ -2987,42 +2997,42 @@
           renderImage() {
             let e = null,
               t = null,
-              i = this.ControllerTypeInfo;
+              o = this.ControllerTypeInfo;
             return (
               "/user/hand/left" == this.props.devicePath
-                ? i.input_bindingui_left &&
-                  ((e = i.input_bindingui_left.uri),
-                  (t = i.input_bindingui_left.transform
-                    ? i.input_bindingui_left.transform
+                ? o.input_bindingui_left &&
+                  ((e = o.input_bindingui_left.uri),
+                  (t = o.input_bindingui_left.transform
+                    ? o.input_bindingui_left.transform
                     : ""))
                 : "/user/hand/right" == this.props.devicePath
-                ? i.input_bindingui_right &&
-                  ((e = i.input_bindingui_right.uri),
-                  (t = i.input_bindingui_right.transform
-                    ? i.input_bindingui_right.transform
+                ? o.input_bindingui_right &&
+                  ((e = o.input_bindingui_right.uri),
+                  (t = o.input_bindingui_right.transform
+                    ? o.input_bindingui_right.transform
                     : ""))
-                : i.input_bindingui_left
-                ? ((e = i.input_bindingui_left.uri),
-                  (t = i.input_bindingui_left.transform
-                    ? i.input_bindingui_left.transform
+                : o.input_bindingui_left
+                ? ((e = o.input_bindingui_left.uri),
+                  (t = o.input_bindingui_left.transform
+                    ? o.input_bindingui_left.transform
                     : ""))
-                : i.input_bindingui_right &&
-                  ((e = i.input_bindingui_right.uri),
-                  (t = i.input_bindingui_right.transform
-                    ? i.input_bindingui_right.transform
+                : o.input_bindingui_right &&
+                  ((e = o.input_bindingui_right.uri),
+                  (t = o.input_bindingui_right.transform
+                    ? o.input_bindingui_right.transform
                     : "")),
               e
-                ? o.createElement(
+                ? n.createElement(
                     "div",
                     { className: "VisualizerImageContainer" },
-                    o.createElement("img", {
+                    n.createElement("img", {
                       className: "VisualizerImage",
                       ref: this.m_imageRef,
                       onLoad: this.OnImageLoaded,
                       src: e,
                       style: { transform: t },
                     }),
-                    o.createElement(u.Z, { onReflow: this.OnImageReflow })
+                    n.createElement(u.Z, { onReflow: this.OnImageReflow })
                   )
                 : null
             );
@@ -3030,42 +3040,42 @@
           render() {
             let e = [],
               t = [],
-              i = this.ControllerTypeInfo,
+              o = this.ControllerTypeInfo,
               r = 0,
               s = [];
-            for (let e in i.input_source) {
-              let t = i.input_source[e];
+            for (let e in o.input_source) {
+              let t = o.input_source[e];
               if ("InputValueVisibility_AvailableButHidden" == t.visibility)
                 continue;
-              let n = this.EstimateSourceHeight(t);
-              (r += n),
+              let i = this.EstimateSourceHeight(t);
+              (r += i),
                 s.push({
                   sSourcePath: e,
                   inputSource: t,
                   order: t.order ? t.order : 0,
-                  height: n,
+                  height: i,
                 });
             }
             let a = 8;
             r > 16 && (a = r / 2);
             let l = 0,
               c = s.sort((e, t) => e.order - t.order);
-            for (let i of c) {
-              l += i.height;
-              let r = l > a ? n.Right : n.Left,
-                o = this.renderSource(i.sSourcePath, i.inputSource, r);
-              o && (r == n.Left ? e.push(o) : t.push(o));
+            for (let o of c) {
+              l += o.height;
+              let r = l > a ? i.Right : i.Left,
+                n = this.renderSource(o.sSourcePath, o.inputSource, r);
+              n && (r == i.Left ? e.push(n) : t.push(n));
             }
-            return o.createElement(
+            return n.createElement(
               "div",
               { className: "ControllerVisualizer" },
-              o.createElement(
+              n.createElement(
                 "div",
                 { className: "VisualizerLeft ControllerVisualizerEntries" },
                 e
               ),
               this.renderImage(),
-              o.createElement(
+              n.createElement(
                 "div",
                 { className: "VisualizerRight ControllerVisualizerEntries" },
                 t
@@ -3075,7 +3085,7 @@
         }
         (0, r.gn)([s.ak], f.prototype, "OnImageLoaded", null),
           (0, r.gn)([s.ak], f.prototype, "OnImageReflow", null);
-        let S = class extends o.Component {
+        let S = class extends n.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new l.Nv()),
@@ -3090,7 +3100,7 @@
                 .then(
                   () => (
                     this.UpdateDeviceInputStateSubscriptions(),
-                    (this.m_observeDisposer = (0, h.N7)(
+                    (this.m_observeDisposer = (0, p.N7)(
                       c.I,
                       "ConnectedDevices",
                       this.OnConnectedDevicesChanged
@@ -3133,13 +3143,13 @@
           }
           OnUpdateComponentStates(e) {
             for (let t in e.components) {
-              let i = e.device + t;
-              this.m_componentRegistrations[i] &&
-                this.m_componentRegistrations[i](e.device, t, e.components[t]);
+              let o = e.device + t;
+              this.m_componentRegistrations[o] &&
+                this.m_componentRegistrations[o](e.device, t, e.components[t]);
             }
           }
-          RegisterSourceVisualizer(e, t, i) {
-            this.m_componentRegistrations[e + t] = i;
+          RegisterSourceVisualizer(e, t, o) {
+            this.m_componentRegistrations[e + t] = o;
           }
           UnregisterSourceVisualizer(e, t) {
             delete this.m_componentRegistrations[e + t];
@@ -3162,37 +3172,37 @@
           render() {
             let e,
               t = [],
-              i = this.GetSortedDevices();
-            if (!i)
-              return o.createElement(
+              o = this.GetSortedDevices();
+            if (!o)
+              return n.createElement(
                 m.TB,
                 {
                   className: "ControllerVisualizerWrapper",
                   header: (0, a.Xx)("#TestControllerTitle", ""),
                   onDismissRequested: this.props.onDismissRequested,
                 },
-                o.createElement(
+                n.createElement(
                   "div",
                   { className: "VisualizerLabel" },
                   (0, a.Xx)("#TestController_NoController")
                 )
               );
-            for (let n of i)
-              "TrackedDeviceClass_HMD" != n.class &&
-                (n.root_path == this.state.devicePath && (e = n.serial_number),
+            for (let i of o)
+              "TrackedDeviceClass_HMD" != i.class &&
+                (i.root_path == this.state.devicePath && (e = i.serial_number),
                 t.push({
-                  value: n.root_path,
-                  sLabel: (0, a.Xx)("#" + n.root_path),
+                  value: i.root_path,
+                  sLabel: (0, a.Xx)("#" + i.root_path),
                 }));
-            return o.createElement(
+            return n.createElement(
               m.TB,
               {
                 className: "ControllerVisualizerWrapper",
                 header: (0, a.Xx)("#TestControllerTitle", e),
                 onDismissRequested: this.props.onDismissRequested,
-                footer: o.createElement(m.U5, {
+                footer: n.createElement(m.U5, {
                   leftControls: [
-                    o.createElement(g.hu, {
+                    n.createElement(g.hu, {
                       key: "dropdown",
                       items: t,
                       value: this.state.devicePath,
@@ -3206,7 +3216,7 @@
                 }),
               },
               this.state.devicePath &&
-                o.createElement(f, {
+                n.createElement(f, {
                   devicePath: this.state.devicePath,
                   serialNumber: e,
                   visualizer: this,
@@ -3216,15 +3226,15 @@
         };
         (0, r.gn)([s.ak], S.prototype, "OnConnectedDevicesChanged", null),
           (0, r.gn)([s.ak], S.prototype, "OnUpdateComponentStates", null),
-          (S = (0, r.gn)([p.Pi], S));
+          (S = (0, r.gn)([h.Pi], S));
       },
-      1884: (e, t, i) => {
-        i.d(t, { V: () => c });
-        var n = i(655),
-          r = i(7294),
-          o = i(7056),
-          s = i(3868),
-          a = i(6321);
+      1884: (e, t, o) => {
+        o.d(t, { V: () => c });
+        var i = o(655),
+          r = o(7294),
+          n = o(7056),
+          s = o(3868),
+          a = o(6321);
         class l extends r.Component {
           constructor(e) {
             if (
@@ -3262,12 +3272,12 @@
               ),
               e.pressed)
             )
-              for (let i of e.pressed)
+              for (let o of e.pressed)
                 t.push(
                   r.createElement(
                     "div",
                     { className: "Label LegacyDebuggerButtonName" },
-                    i
+                    o
                   )
                 );
             else
@@ -3288,12 +3298,12 @@
               ),
               e.touched)
             )
-              for (let i of e.touched)
+              for (let o of e.touched)
                 t.push(
                   r.createElement(
                     "div",
                     { className: "Label LegacyDebuggerButtonName" },
-                    i
+                    o
                   )
                 );
             else
@@ -3314,12 +3324,12 @@
               ),
               e.supported_buttons)
             )
-              for (let i of e.supported_buttons)
+              for (let o of e.supported_buttons)
                 t.push(
                   r.createElement(
                     "div",
                     { className: "Label LegacyDebuggerButtonName" },
-                    i
+                    o
                   )
                 );
             else
@@ -3337,15 +3347,15 @@
                 "Axis:"
               )
             );
-            for (let i of e.axis)
+            for (let o of e.axis)
               t.push(
                 r.createElement(
                   "div",
                   { className: "Label LegacyDebuggerButtonName" },
                   "X: ",
-                  i.x.toFixed(2),
+                  o.x.toFixed(2),
                   " Y: ",
-                  i.y.toFixed(2)
+                  o.y.toFixed(2)
                 )
               );
             return t;
@@ -3381,7 +3391,7 @@
                 );
           }
         }
-        (0, n.gn)([o.ak], l.prototype, "OnLegacyInputFrame", null);
+        (0, i.gn)([n.ak], l.prototype, "OnLegacyInputFrame", null);
         class c extends r.Component {
           constructor(e) {
             super(e);
@@ -3399,28 +3409,28 @@
           }
         }
       },
-      1776: (e, t, i) => {
-        var n = i(655),
-          r = i(7294),
-          o = i(3935),
-          s = i(7056),
-          a = i(6321),
-          l = i(1428),
-          c = i(3868),
-          d = i(3947),
-          u = i(9670),
-          p = i(1818),
-          h = i(8546),
-          m = i(3446),
-          g = i(7062),
-          v = i(197);
+      1776: (e, t, o) => {
+        var i = o(655),
+          r = o(7294),
+          n = o(3935),
+          s = o(7056),
+          a = o(6321),
+          l = o(1428),
+          c = o(3868),
+          d = o(3947),
+          u = o(9670),
+          h = o(1818),
+          p = o(7677),
+          m = o(3446),
+          g = o(7062),
+          v = o(197);
         function _(e, t) {
-          let i = "";
+          let o = "";
           switch (t.mode) {
             case "dpad":
             case "dpad_touch":
             case "dpad_click":
-              i =
+              o =
                 "/input/thumbstick" == t.input_path ||
                 "/input/joystick" == t.input_path
                   ? "_" + t.slot
@@ -3429,40 +3439,40 @@
             case "button":
               ("/input/trackpad" != t.input_path &&
                 "/input/joystick" != t.input_path) ||
-                (i = "_click");
+                (o = "_click");
           }
           switch (t.slot) {
             case "position":
-              i = "_move";
+              o = "_move";
               break;
             case "scroll":
-              i = "_scroll";
+              o = "_scroll";
           }
-          let n = "/dashboard/images/bindingcallouts/";
+          let i = "/dashboard/images/bindingcallouts/";
           switch (t.input_path) {
             case "/input/a":
-              return n + "button_a.svg";
+              return i + "button_a.svg";
             case "/input/b":
-              return n + "button_b.svg";
+              return i + "button_b.svg";
             case "/input/x":
-              return n + "button_x.svg";
+              return i + "button_x.svg";
             case "/input/y":
-              return n + "button_y.svg";
+              return i + "button_y.svg";
             case "/input/grip":
-              return n + "button_grip.svg";
+              return i + "button_grip.svg";
             case "/input/system":
-              return n + "button_system.svg";
+              return i + "button_system.svg";
             case "/input/application_menu":
-              return n + "button_menu.svg";
+              return i + "button_menu.svg";
             case "/input/trackpad":
               return "knuckles" == e
-                ? n + "button_trackbutton" + i + ".svg"
-                : n + "button_trackpad" + i + ".svg";
+                ? i + "button_trackbutton" + o + ".svg"
+                : i + "button_trackpad" + o + ".svg";
             case "/input/thumbstick":
             case "/input/joystick":
-              return n + "button_thumbstick" + i + ".svg";
+              return i + "button_thumbstick" + o + ".svg";
             case "/input/trigger":
-              return n + "button_trigger.svg";
+              return i + "button_trigger.svg";
           }
           return null;
         }
@@ -3483,15 +3493,15 @@
             super(e), (this.state = {});
           }
           renderSlot(e, t) {
-            let i,
-              n = _(this.props.controllerType, e);
-            i = n
+            let o,
+              i = _(this.props.controllerType, e);
+            o = i
               ? r.createElement("img", {
                   className: "BindingCalloutIcon",
-                  src: n,
+                  src: i,
                 })
               : r.createElement("div", { className: "BindingCalloutIcon" });
-            let o,
+            let n,
               s = (function (e) {
                 let t = "/dashboard/images/bindingcallouts/";
                 switch (e.mode) {
@@ -3522,7 +3532,7 @@
                 return null;
               })(e);
             return (
-              (o = s
+              (n = s
                 ? r.createElement("img", {
                     className: "BindingCalloutModifierIcon",
                     src: s,
@@ -3533,8 +3543,8 @@
               r.createElement(
                 "div",
                 { className: "BindingCalloutContents", key: t },
-                i,
                 o,
+                n,
                 r.createElement(
                   "div",
                   { className: "BindingCalloutLabelContainer" },
@@ -3561,7 +3571,7 @@
               ? ((e = -0.05), (t += " AlignCalloutRight"))
               : ((e = 0.05), (t += " AlignCalloutLeft")),
               this.props.inputActive && (t += " CalloutInputActive");
-            let i =
+            let o =
               this.props.devicePath +
               this.props.inputCallout.input_path +
               "_component";
@@ -3569,10 +3579,10 @@
               "div",
               { className: "BindingCalloutContainer" },
               r.createElement(a.CH, {
-                id: i,
+                id: o,
                 sDevicePath: this.props.devicePath,
                 sInputPath: this.props.inputCallout.input_path,
-                key: i,
+                key: o,
               }),
               r.createElement(
                 "div",
@@ -3588,7 +3598,7 @@
                     null,
                     this.props.inputActive &&
                       r.createElement(a.x1, {
-                        target_id: i,
+                        target_id: o,
                         thickness: 0.002,
                         start_buffer: 0,
                         end_buffer: 0,
@@ -3606,13 +3616,13 @@
           render() {
             let e = [],
               t = [];
-            for (let i of this.props.chordCallout.inputs) {
-              let n = i.device_path + i.input_path + i.slot,
-                o = {
-                  device_path: i.device_path,
-                  input_path: i.input_path,
-                  mode: y(i.slot),
-                  slot: i.slot,
+            for (let o of this.props.chordCallout.inputs) {
+              let i = o.device_path + o.input_path + o.slot,
+                n = {
+                  device_path: o.device_path,
+                  input_path: o.input_path,
+                  mode: y(o.slot),
+                  slot: o.slot,
                   localized_action_name:
                     this.props.chordCallout.localized_action_name,
                 };
@@ -3627,29 +3637,29 @@
                 e.push(
                   r.createElement("img", {
                     className: "BindingCalloutIcon",
-                    key: n + "_icon",
-                    src: _(this.props.controllerType, o),
+                    key: i + "_icon",
+                    src: _(this.props.controllerType, n),
                   })
                 ),
                 t.push(
                   r.createElement(
                     "div",
-                    { className: "BindingCalloutModeSlot", key: n + "_text" },
+                    { className: "BindingCalloutModeSlot", key: i + "_text" },
                     d.I.LocalizeControllerString(
                       this.props.controllerTypeInfo,
-                      i.input_path
+                      o.input_path
                     ),
                     " : ",
-                    (0, c.Xx)("#SourceInputMode_" + i.slot)
+                    (0, c.Xx)("#SourceInputMode_" + o.slot)
                   )
                 );
             }
-            let i = "ChordCalloutContainer";
+            let o = "ChordCalloutContainer";
             return (
-              this.props.inputActive && (i += " CalloutInputActive"),
+              this.props.inputActive && (o += " CalloutInputActive"),
               r.createElement(
                 "div",
-                { className: i },
+                { className: o },
                 r.createElement("div", { className: "ChordCalloutHeader" }, e),
                 r.createElement(
                   "div",
@@ -3710,42 +3720,42 @@
               return null;
             let e = -0.05,
               t = { x: -0.08, y: 0.05, z: 0.12 },
-              i = !0;
+              o = !0;
             "/user/hand/left" == this.props.device.device_path &&
-              ((t.x = -t.x), (e = -e), (i = !1));
-            let n = d.I.GetControllerTypeInfo(this.props.controllerType);
-            if (!n) return null;
-            let o = [],
+              ((t.x = -t.x), (e = -e), (o = !1));
+            let i = d.I.GetControllerTypeInfo(this.props.controllerType);
+            if (!i) return null;
+            let n = [],
               s = Object.keys(this.props.device.input_callouts);
             for (let e of s) {
               let t = this.props.device.input_callouts[e],
                 a = (t.slot_callouts.length, e);
-              n && (a = d.I.LocalizeControllerString(n, e));
-              let l = n.input_source[e],
+              i && (a = d.I.LocalizeControllerString(i, e));
+              let l = i.input_source[e],
                 c = 999;
               l && l.order && (c = l.order);
               let u = r.createElement(b, {
                 devicePath: this.props.device.device_path,
                 inputCallout: t,
-                leftAlign: i,
+                leftAlign: o,
                 inputActive:
                   1 == s.length || this.state.input_state[t.input_path],
                 localizedInputName: a,
                 controllerType: this.props.controllerType,
                 key: this.props.device.device_path + e,
               });
-              o.push({ order: c, callout: u });
+              n.push({ order: c, callout: u });
             }
-            o.sort((e, t) => e.order - t.order);
-            let l = o.map((e) => e.callout),
+            n.sort((e, t) => e.order - t.order);
+            let l = n.map((e) => e.callout),
               c = [];
             for (let e of this.props.device.chords) {
               let t = !1;
-              for (let i of e.inputs)
-                t = t || this.state.input_state[i.input_path];
+              for (let o of e.inputs)
+                t = t || this.state.input_state[o.input_path];
               c.push(
                 r.createElement(f, {
-                  controllerTypeInfo: n,
+                  controllerTypeInfo: i,
                   chordCallout: e,
                   controllerType: this.props.controllerType,
                   key: "chord_" + c.length,
@@ -3764,7 +3774,7 @@
                   null,
                   r.createElement(
                     a.wx,
-                    { rotation: { y: i ? 7 : -7 } },
+                    { rotation: { y: o ? 7 : -7 } },
                     r.createElement(
                       a.wx,
                       { translation: { x: e } },
@@ -3785,8 +3795,8 @@
             );
           }
         }
-        (0, n.gn)([s.ak], S.prototype, "OnInputActiveState", null);
-        class C extends r.Component {
+        (0, i.gn)([s.ak], S.prototype, "OnInputActiveState", null);
+        class k extends r.Component {
           constructor(e) {
             super(e);
           }
@@ -3798,14 +3808,14 @@
                 return [{ x: -0.05, y: 0.06 }];
               default: {
                 let t = Math.PI / 8,
-                  i = (7 * Math.PI) / 8,
-                  n = [];
+                  o = (7 * Math.PI) / 8,
+                  i = [];
                 for (let r = 0; r < e; r++) {
-                  let o = t + ((i - t) * r) / (e - 1),
-                    s = { x: -Math.cos(o), y: Math.sin(o) };
-                  n.push(s);
+                  let n = t + ((o - t) * r) / (e - 1),
+                    s = { x: -Math.cos(n), y: Math.sin(n) };
+                  i.push(s);
                 }
-                return n;
+                return i;
               }
             }
           }
@@ -3833,19 +3843,19 @@
             );
           }
           HasCollision(e, t) {
-            for (let i = 0; i < e.length; i++)
-              for (let n = 0; n < e.length; n++) {
-                if (i == n) continue;
-                let r = this.ComputeActualRect(e[i], t),
-                  o = this.ComputeActualRect(e[n], t);
-                if (this.HasIntersection(r, o)) return !0;
+            for (let o = 0; o < e.length; o++)
+              for (let i = 0; i < e.length; i++) {
+                if (o == i) continue;
+                let r = this.ComputeActualRect(e[o], t),
+                  n = this.ComputeActualRect(e[i], t);
+                if (this.HasIntersection(r, n)) return !0;
               }
             return !1;
           }
-          FindDistanceThatFits(e, t, i) {
-            let n = t;
-            for (; this.HasCollision(e, n); ) n += i;
-            return n;
+          FindDistanceThatFits(e, t, o) {
+            let i = t;
+            for (; this.HasCollision(e, i); ) i += o;
+            return i;
           }
           render() {
             return this.props.devices
@@ -3867,7 +3877,7 @@
               : null;
           }
         }
-        let k = class extends r.Component {
+        let C = class extends r.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new a.Nv()),
@@ -3906,43 +3916,43 @@
             );
           }
           SendShouldShowBindingCalloutsResponse(e, t) {
-            let i = {
+            let o = {
               type: "should_show_binding_callouts_response",
               app_key: e.app_key,
               has_callouts: t,
             };
-            this.m_mailbox.SendResponse(e, i);
+            this.m_mailbox.SendResponse(e, o);
           }
           OnShouldShowBindingCallouts(e) {
             let t = this.GetDefaultControllerType();
             (0, l._l)(e.app_key)
-              .then((i) => {
-                let n = "legacy" == i.category,
-                  r = !n;
+              .then((o) => {
+                let i = "legacy" == o.category,
+                  r = !i;
                 return (
-                  n &&
+                  i &&
                     (r =
-                      i.current_binding_url[t] !=
-                      (i.default_bindings && i.default_bindings[t])),
+                      o.current_binding_url[t] !=
+                      (o.default_bindings && o.default_bindings[t])),
                   r
                     ? (this.SendShouldShowBindingCalloutsResponse(e, !0), null)
-                    : (0, l.Cl)(e.app_key, t, i.current_binding_url[t])
+                    : (0, l.Cl)(e.app_key, t, o.current_binding_url[t])
                 );
               })
               .then((t) => {
-                let i = !1;
+                let o = !1;
                 if (t.binding_config.alias_info)
                   for (let e in t.binding_config.alias_info) {
-                    let n = t.binding_config.alias_info[e];
-                    if (!n.hidden && n.alias_name) {
-                      i = !0;
+                    let i = t.binding_config.alias_info[e];
+                    if (!i.hidden && i.alias_name) {
+                      o = !0;
                       break;
                     }
                   }
                 t.binding_config.simulated_actions &&
                   t.binding_config.simulated_actions.length > 0 &&
-                  (i = !0),
-                  this.SendShouldShowBindingCalloutsResponse(e, i);
+                  (o = !0),
+                  this.SendShouldShowBindingCalloutsResponse(e, o);
               })
               .catch((t) => {
                 this.SendShouldShowBindingCalloutsResponse(e, !1);
@@ -3950,18 +3960,18 @@
           }
           OnRequestBindingCallouts(e) {
             let t,
-              i = e.controller_type
+              o = e.controller_type
                 ? e.controller_type
                 : this.GetDefaultControllerType();
             (0, l._l)(e.app_key)
               .then(
-                (n) => (
-                  (t = n), (0, l.Cl)(e.app_key, i, t.current_binding_url[i])
+                (i) => (
+                  (t = i), (0, l.Cl)(e.app_key, o, t.current_binding_url[o])
                 )
               )
-              .then((n) => {
-                (Object.assign({}, e).controller_type = i),
-                  this.ShowCallouts(e, i, t, n.binding_config);
+              .then((i) => {
+                (Object.assign({}, e).controller_type = o),
+                  this.ShowCallouts(e, o, t, i.binding_config);
               })
               .catch((e) => {
                 console.log("Request for bindings failed: ", e);
@@ -3983,9 +3993,9 @@
           }
           IsActionSetAllowed(e, t) {
             if (e.required_options)
-              for (let i of e.required_options) if (!t.options[i]) return !1;
+              for (let o of e.required_options) if (!t.options[o]) return !1;
             if (e.forbidden_options)
-              for (let i of e.forbidden_options) if (t.options[i]) return !1;
+              for (let o of e.forbidden_options) if (t.options[o]) return !1;
             return !0;
           }
           DoesActionSetHaveBindings(e, t) {
@@ -3995,8 +4005,8 @@
               t.bindings[e.name].sources.length > 0
             ) {
               let t = !1;
-              for (let i of e.actions)
-                if (!i.hide_callout) {
+              for (let o of e.actions)
+                if (!o.hide_callout) {
                   t = !0;
                   break;
                 }
@@ -4005,60 +4015,60 @@
             return !1;
           }
           DetermineDefaultActionSet(e, t) {
-            for (let i of e.action_sets)
+            for (let o of e.action_sets)
               if (
-                this.IsActionSetAllowed(i, t) &&
-                this.DoesActionSetHaveBindings(i, t)
+                this.IsActionSetAllowed(o, t) &&
+                this.DoesActionSetHaveBindings(o, t)
               )
-                return i.name;
+                return o.name;
           }
-          ShowCallouts(e, t, i, n) {
+          ShowCallouts(e, t, o, i) {
             let r = null,
-              o = null;
+              n = null;
             if (e.action) {
-              e: for (let t of i.action_sets)
-                if (this.DoesActionSetHaveBindings(t, n))
-                  for (let i of t.actions)
-                    if (i.name.toUpperCase() == e.action.toUpperCase()) {
+              e: for (let t of o.action_sets)
+                if (this.DoesActionSetHaveBindings(t, i))
+                  for (let o of t.actions)
+                    if (o.name.toUpperCase() == e.action.toUpperCase()) {
                       r = t.name;
                       break e;
                     }
-              o = e.action.toUpperCase();
+              n = e.action.toUpperCase();
             } else
               r = e.action_sets
                 ? e.action_sets[0]
-                : this.DetermineDefaultActionSet(i, n);
+                : this.DetermineDefaultActionSet(o, i);
             r &&
               this.setState({
-                actionManifest: i,
-                bindingConfig: n,
+                actionManifest: o,
+                bindingConfig: i,
                 sActionSet: r,
-                sRestrictToAction: o,
+                sRestrictToAction: n,
                 sAppKey: e.app_key,
                 sControllerType: t,
               });
           }
           ComputeCalloutsForActionSet(e) {
             let t = [],
-              i = this.state.bindingConfig.bindings[e.name];
-            if (i && i.sources)
-              for (let n of i.sources)
-                if (n.inputs)
-                  for (let i of Object.keys(n.inputs)) {
-                    let r = n.inputs[i];
+              o = this.state.bindingConfig.bindings[e.name];
+            if (o && o.sources)
+              for (let i of o.sources)
+                if (i.inputs)
+                  for (let o of Object.keys(i.inputs)) {
+                    let r = i.inputs[o];
                     if (!r.output) continue;
                     if (
                       this.state.sRestrictToAction &&
                       r.output.toUpperCase() != this.state.sRestrictToAction
                     )
                       continue;
-                    let o = n.path.indexOf("/input");
-                    if (-1 == o) continue;
+                    let n = i.path.indexOf("/input");
+                    if (-1 == n) continue;
                     let s = {
-                        device_path: n.path.substring(0, o),
-                        input_path: n.path.substring(o),
-                        mode: n.mode,
-                        slot: i,
+                        device_path: i.path.substring(0, n),
+                        input_path: i.path.substring(n),
+                        mode: i.mode,
+                        slot: o,
                         localized_action_name: null,
                       },
                       a = e.actions.find(
@@ -4089,30 +4099,30 @@
           }
           ComputeChordCalloutsForActionSet(e) {
             let t = [],
-              i = this.state.bindingConfig.bindings[e.name];
-            if (i && i.chords)
-              for (let n of i.chords) {
-                if (!n.inputs || !n.output) continue;
+              o = this.state.bindingConfig.bindings[e.name];
+            if (o && o.chords)
+              for (let i of o.chords) {
+                if (!i.inputs || !i.output) continue;
                 if (
                   this.state.sRestrictToAction &&
-                  n.output.toUpperCase() != this.state.sRestrictToAction
+                  i.output.toUpperCase() != this.state.sRestrictToAction
                 )
                   continue;
-                let i = e.actions.find(
-                  (e) => e.name.toUpperCase() == n.output.toUpperCase()
+                let o = e.actions.find(
+                  (e) => e.name.toUpperCase() == i.output.toUpperCase()
                 );
-                if (!i) continue;
-                let r = { inputs: [], localized_action_name: i.localized_name };
-                for (let e of n.inputs) {
+                if (!o) continue;
+                let r = { inputs: [], localized_action_name: o.localized_name };
+                for (let e of i.inputs) {
                   if (2 != e.length) continue;
                   let t = e[0].indexOf("/input");
                   if (-1 == t) continue;
-                  let i = {
+                  let o = {
                     device_path: e[0].substring(0, t),
                     input_path: e[0].substring(t),
                     slot: e[1],
                   };
-                  r.inputs.push(i);
+                  r.inputs.push(o);
                 }
                 r.inputs.length > 0 && t.push(r);
               }
@@ -4131,44 +4141,44 @@
               return {};
             let e = [],
               t = [];
-            for (let i of this.state.actionManifest.action_sets)
-              (i.name != this.state.sActionSet &&
-                i.display_with != this.state.sActionSet) ||
-                ((e = e.concat(this.ComputeCalloutsForActionSet(i))),
-                (t = t.concat(this.ComputeChordCalloutsForActionSet(i))));
+            for (let o of this.state.actionManifest.action_sets)
+              (o.name != this.state.sActionSet &&
+                o.display_with != this.state.sActionSet) ||
+                ((e = e.concat(this.ComputeCalloutsForActionSet(o))),
+                (t = t.concat(this.ComputeChordCalloutsForActionSet(o))));
             return this.GroupCallouts(e, t);
           }
           GroupCallouts(e, t) {
-            let i = {};
+            let o = {};
             for (let t of e) {
               let e = t.device_path.toLowerCase();
-              i.hasOwnProperty(e) ||
-                (i[e] = { device_path: e, input_callouts: {}, chords: [] });
-              let n = i[e];
-              n.input_callouts.hasOwnProperty(t.input_path) ||
-                (n.input_callouts[t.input_path] = {
+              o.hasOwnProperty(e) ||
+                (o[e] = { device_path: e, input_callouts: {}, chords: [] });
+              let i = o[e];
+              i.input_callouts.hasOwnProperty(t.input_path) ||
+                (i.input_callouts[t.input_path] = {
                   input_path: t.input_path,
                   slot_callouts: [],
                 }),
-                n.input_callouts[t.input_path].slot_callouts.push(t);
+                i.input_callouts[t.input_path].slot_callouts.push(t);
             }
             for (let e of t) {
               if (0 == e.inputs.length) continue;
               let t = e.inputs[0].device_path.toLowerCase(),
-                n = !1;
-              for (let i of e.inputs)
-                if (i.device_path.toLowerCase() != t) {
-                  n = !0;
+                i = !1;
+              for (let o of e.inputs)
+                if (o.device_path.toLowerCase() != t) {
+                  i = !0;
                   break;
                 }
-              n
+              i
                 ? console.log(
                     "chord is multi-device, which we don't know how to draw yet",
                     e
                   )
-                : i[t].chords.push(e);
+                : o[t].chords.push(e);
             }
-            return i;
+            return o;
           }
           OnSelectActionSet(e) {
             this.setState({ sActionSet: e });
@@ -4197,17 +4207,17 @@
                 input_path: this.state.tutorialCallout.input_path,
                 slot_callouts: [e],
               },
-              i = {
+              o = {
                 device_path: this.state.tutorialCallout.device_path,
                 input_callouts: {},
                 chords: [],
               };
-            i.input_callouts[this.state.tutorialCallout.input_path] = t;
-            let n = {};
+            o.input_callouts[this.state.tutorialCallout.input_path] = t;
+            let i = {};
             return (
-              (n[this.state.tutorialCallout.device_path] = i),
-              r.createElement(C, {
-                devices: n,
+              (i[this.state.tutorialCallout.device_path] = o),
+              r.createElement(k, {
+                devices: i,
                 controllerType: this.state.sControllerType,
               })
             );
@@ -4223,13 +4233,13 @@
                 !e.display_with &&
                 this.DoesActionSetHaveBindings(e, this.state.bindingConfig)
               ) {
-                let i = "ActionSetName ButtonControl";
-                e.name == this.state.sActionSet && (i += " ActionSetSelected"),
+                let o = "ActionSetName ButtonControl";
+                e.name == this.state.sActionSet && (o += " ActionSetSelected"),
                   t.push(
                     r.createElement(
-                      p.z,
+                      h.z,
                       {
-                        className: i,
+                        className: o,
                         onClick: () => {
                           this.OnSelectActionSet(e.name);
                         },
@@ -4240,7 +4250,7 @@
                   );
               }
             });
-            let i = u.S.GetApp(this.state.sAppKey);
+            let o = u.S.GetApp(this.state.sAppKey);
             return r.createElement(
               "div",
               { className: "CalloutTopLevelContainer" },
@@ -4263,19 +4273,19 @@
                             translation: {
                               x: -0,
                               y: -0,
-                              z: -0.85 * h.g.getDashboardDistance(),
+                              z: -0.85 * p.g.getDashboardDistance(),
                             },
                           },
                           r.createElement(
                             a.s_,
                             {
-                              width: 0.65 * h.g.getDashboardScale(),
+                              width: 0.65 * p.g.getDashboardScale(),
                               interactive: !0,
                             },
                             r.createElement(
-                              p.q,
+                              h.q,
                               { className: "BindingCalloutActionPanel" },
-                              i &&
+                              o &&
                                 r.createElement(
                                   "div",
                                   { className: "BindingCalloutAppHeader" },
@@ -4299,7 +4309,7 @@
                                 { className: "BindingCalloutActionList" },
                                 t,
                                 r.createElement(
-                                  p.z,
+                                  h.z,
                                   {
                                     className: "ButtonControl CloseButton",
                                     onClick: this.OnCloseCallouts,
@@ -4314,19 +4324,19 @@
                     )
                   )
                 ),
-              r.createElement(C, {
+              r.createElement(k, {
                 devices: e,
                 controllerType: this.state.sControllerType,
               })
             );
           }
         };
-        (0, n.gn)([s.ak], k.prototype, "OnShouldShowBindingCallouts", null),
-          (0, n.gn)([s.ak], k.prototype, "OnRequestBindingCallouts", null),
-          (0, n.gn)([s.ak], k.prototype, "OnCancelBindingCallouts", null),
-          (0, n.gn)([s.ak], k.prototype, "OnRequestTutorialCallout", null),
-          (0, n.gn)([s.ak], k.prototype, "OnCloseCallouts", null),
-          (k = (0, n.gn)([g.Pi], k)),
+        (0, i.gn)([s.ak], C.prototype, "OnShouldShowBindingCallouts", null),
+          (0, i.gn)([s.ak], C.prototype, "OnRequestBindingCallouts", null),
+          (0, i.gn)([s.ak], C.prototype, "OnCancelBindingCallouts", null),
+          (0, i.gn)([s.ak], C.prototype, "OnRequestTutorialCallout", null),
+          (0, i.gn)([s.ak], C.prototype, "OnCloseCallouts", null),
+          (C = (0, i.gn)([g.Pi], C)),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
@@ -4349,24 +4359,24 @@
             .then(() => d.I.Init())
             .then(() => u.S.Init())
             .then(() => {
-              o.render(
-                r.createElement(a.n0, null, r.createElement(k, null)),
+              n.render(
+                r.createElement(a.n0, null, r.createElement(C, null)),
                 document.getElementById("root")
               );
             });
       },
-      7968: (e, t, i) => {
-        i.d(t, { A: () => n, X: () => l });
-        var n,
-          r = i(655),
-          o = i(7294),
-          s = i(7056),
-          a = i(6321);
+      7968: (e, t, o) => {
+        o.d(t, { A: () => i, X: () => l });
+        var i,
+          r = o(655),
+          n = o(7294),
+          s = o(7056),
+          a = o(6321);
         !(function (e) {
           (e[(e.HorizontalPips = 0)] = "HorizontalPips"),
             (e[(e.VerticalBattery = 1)] = "VerticalBattery");
-        })(n || (n = {}));
-        class l extends o.Component {
+        })(i || (i = {}));
+        class l extends n.Component {
           constructor(e) {
             super(e),
               (this.m_BatteryStateChangedCallbackHandle = null),
@@ -4412,7 +4422,7 @@
                 this.props.trackedDeviceIndex,
                 a.Uk.DeviceProvidesBatteryStatus_Bool
               ),
-              i = a.ZP.VRSystem.GetControllerRoleForTrackedDeviceIndex(
+              o = a.ZP.VRSystem.GetControllerRoleForTrackedDeviceIndex(
                 this.props.trackedDeviceIndex
               );
             let r = !1;
@@ -4442,15 +4452,15 @@
                       0
                     )));
             }
-            let o = l.GetBatteryIcon(
+            let n = l.GetBatteryIcon(
                 t,
                 r,
                 this.batteryLevelStable,
-                n.HorizontalPips
+                i.HorizontalPips
               ),
-              s = this.GetRoleIcon(i);
-            (o == this.state.batteryIconPath && s == this.state.roleIconPath) ||
-              this.setState({ batteryIconPath: o, roleIconPath: s });
+              s = this.GetRoleIcon(o);
+            (n == this.state.batteryIconPath && s == this.state.roleIconPath) ||
+              this.setState({ batteryIconPath: n, roleIconPath: s });
           }
           GetRoleIcon(e) {
             switch (e) {
@@ -4461,27 +4471,27 @@
             }
             return null;
           }
-          static GetBatteryIcon(e, t, i, r) {
+          static GetBatteryIcon(e, t, o, r) {
             if (!e) return null;
-            const o =
-              r == n.VerticalBattery
+            const n =
+              r == i.VerticalBattery
                 ? "images/icons/vert"
                 : "images/icons/controller_model";
             return t
-              ? i < 0.15
-                ? o + "_charging_red.png"
-                : o + "_charging.png"
-              : 0 == i
+              ? o < 0.15
+                ? n + "_charging_red.png"
+                : n + "_charging.png"
+              : 0 == o
               ? null
-              : i < 0.15
-              ? o + "_low.png"
-              : i < 0.3
-              ? o + "_battery_1.png"
-              : i < 0.6
-              ? o + "_battery_2.png"
-              : i < 0.9
-              ? o + "_battery_3.png"
-              : o + "_battery_4.png";
+              : o < 0.15
+              ? n + "_low.png"
+              : o < 0.3
+              ? n + "_battery_1.png"
+              : o < 0.6
+              ? n + "_battery_2.png"
+              : o < 0.9
+              ? n + "_battery_3.png"
+              : n + "_battery_4.png";
           }
           OnBatteryStateChanged(e) {
             e == this.props.trackedDeviceIndex && this.UpdateControllerStatus();
@@ -4489,13 +4499,13 @@
           OnDeviceRoleChanged() {
             this.UpdateControllerStatus();
           }
-          OnDeviceEvent(e, t, i) {
+          OnDeviceEvent(e, t, o) {
             e == a.XX.Activated &&
-              i == this.props.trackedDeviceIndex &&
+              o == this.props.trackedDeviceIndex &&
               this.UpdateControllerStatus();
           }
           render() {
-            return o.createElement(
+            return n.createElement(
               a.s_,
               {
                 width: void 0,
@@ -4506,16 +4516,16 @@
                 rendermodel_component_name: "status",
                 debug_name: "controllerstatus_" + this.props.trackedDeviceIndex,
               },
-              o.createElement(
+              n.createElement(
                 "div",
                 {
                   className: "ControllerStatusRoot",
                   style: { width: 256, height: 256 },
                 },
-                o.createElement(
+                n.createElement(
                   "div",
                   { className: "ControllerStatusFrame" },
-                  o.createElement(
+                  n.createElement(
                     "div",
                     {
                       className: "ControllerHandFrame",
@@ -4526,12 +4536,12 @@
                         marginTop: 18,
                       },
                     },
-                    o.createElement("img", {
+                    n.createElement("img", {
                       className: "ControllerHand",
                       src: this.state.roleIconPath,
                     })
                   ),
-                  o.createElement(
+                  n.createElement(
                     "div",
                     {
                       className: "ControllerBatteryFrame",
@@ -4543,7 +4553,7 @@
                         opacity: 0.85,
                       },
                     },
-                    o.createElement("img", {
+                    n.createElement("img", {
                       className: "ControllerBattery",
                       src: this.state.batteryIconPath,
                     })
@@ -4558,48 +4568,527 @@
           (0, r.gn)([s.ak], l.prototype, "OnDeviceRoleChanged", null),
           (0, r.gn)([s.ak], l.prototype, "OnDeviceEvent", null);
       },
-      8546: (e, t, i) => {
-        i.d(t, { g: () => oe, _: () => j });
-        var n,
+      7677: (e, t, o) => {
+        o.d(t, { g: () => de, _: () => ne });
+        var i,
           r,
-          o = i(655),
-          s = i(6321),
-          a = i(7056),
-          l = i(7294),
-          c = i(1818),
-          d = i(197),
-          u = i(3868),
-          p = i(3446),
-          h = i(7062),
-          m = i(7679),
-          g = i(2188),
-          v = i(9392);
-        let _ = (n = class extends l.Component {
+          n = o(655),
+          s = o(6321),
+          a = o(7056),
+          l = o(2188),
+          c = o(7294),
+          d = o(9942),
+          u = o(1818),
+          h = o(1219),
+          p = o(7264),
+          m = o(197),
+          g = o(3868),
+          v = o(4916),
+          _ = o(6882),
+          y = o(6192),
+          b = o(9015),
+          f = o(3446),
+          S = o(7062),
+          k = o(7968),
+          C = o(1307);
+        function M(e) {
+          switch (e) {
+            case r.LeftHand:
+              return "/user/hand/left";
+            case r.RightHand:
+              return "/user/hand/right";
+            default:
+              return "";
+          }
+        }
+        !(function (e) {
+          (e[(e.Dashboard = 0)] = "Dashboard"),
+            (e[(e.LeftHand = 1)] = "LeftHand"),
+            (e[(e.RightHand = 2)] = "RightHand"),
+            (e[(e.World = 3)] = "World");
+        })(r || (r = {}));
+        let w = (i = class extends c.Component {
+          constructor(e) {
+            super(e),
+              (this.state = {
+                fOverlayScale: this.getDefaultScaleForLocation(),
+                xfTransform: (0, s.Oq)(),
+                sParent: M(this.props.dockLocation),
+                bIsOutsideMaxDist: !1,
+                destination: this.props.dockLocation,
+                bIsMoving: !1,
+              }),
+              (this.m_nMoveDeviceIndex = s.Kf),
+              (this.m_moveDeviceRole = s.Kg.TrackedControllerRole_Invalid);
+          }
+          componentDidMount() {
+            this.setInitialTransformForLocation();
+          }
+          componentDidUpdate(e, t) {
+            e.dockLocation != this.props.dockLocation &&
+              this.setState(
+                {
+                  sParent: M(this.props.dockLocation),
+                  xfTransform: (0, s.Oq)(),
+                  bIsOutsideMaxDist: !1,
+                  destination: this.props.dockLocation,
+                },
+                this.setInitialTransformForLocation
+              );
+          }
+          getDefaultScaleForLocation() {
+            switch (this.props.dockLocation) {
+              case r.Dashboard:
+              case r.LeftHand:
+              case r.RightHand:
+                return 0.25;
+              case r.World:
+                return 0.5;
+            }
+          }
+          setInitialTransformForLocation() {
+            if (this.props.xfInitial) {
+              switch (this.props.dockLocation) {
+                case r.LeftHand:
+                case r.RightHand: {
+                  let e = this.props.xfInitial,
+                    t = this.state.fOverlayScale;
+                  Math.abs(e.scale.x - 2) < 0.1 &&
+                    (t = Math.min(2 * t, i.sfOverlayScaleMax)),
+                    (e.scale = { x: 1, y: 1, z: 1 }),
+                    this.setState({ xfTransform: e, fOverlayScale: t });
+                  break;
+                }
+                case r.World: {
+                  let e = this.props.xfInitial,
+                    t = this.state.fOverlayScale;
+                  Math.abs(e.scale.x - 1) < 0.1 &&
+                    (t = Math.max(t / 2, i.sfOverlayScaleMin)),
+                    (e.scale = { x: 2, y: 2, z: 1 }),
+                    this.setState({ xfTransform: e, fOverlayScale: t });
+                  break;
+                }
+              }
+              return;
+            }
+            let e = (0, s.Oq)();
+            switch (
+              ((e.rotation = (0, s.UU)({ x: -45, y: 0, z: 0 })),
+              this.props.dockLocation)
+            ) {
+              case r.Dashboard:
+              case r.LeftHand:
+              case r.RightHand:
+                this.setState({ xfTransform: e });
+                break;
+              case r.World:
+                let t = 0;
+                s.hz
+                  .getInstance()
+                  .requestSGTransform(
+                    "system.systemui::active_overlay_transform",
+                    t
+                  )
+                  .then((t) => {
+                    (e.rotation = t.rotation),
+                      (e.scale = { x: 2, y: 2, z: 1 }),
+                      (e.translation = {
+                        x: t.translation.x,
+                        y: t.translation.y,
+                        z: t.translation.z,
+                      }),
+                      this.setState({ xfTransform: e });
+                  });
+            }
+          }
+          onOverlayScaleChanged(e) {
+            this.setState({ fOverlayScale: e });
+          }
+          computeDestination() {
+            if (!this.state.bIsMoving) return;
+            let e = VRHTML.GetPose(this.m_nMoveDeviceIndex, s.zq.Standing),
+              t = null;
+            VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+              s.Kg.TrackedControllerRole_LeftHand
+            ) != s.Kf && (t = VRHTML.GetPose("/user/hand/left", s.zq.Standing));
+            let o = null;
+            VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+              s.Kg.TrackedControllerRole_RightHand
+            ) != s.Kf &&
+              (o = VRHTML.GetPose("/user/hand/right", s.zq.Standing));
+            let n = [];
+            switch (this.state.sParent) {
+              case "/user/hand/left":
+                o && n.push({ pose: o, location: r.RightHand });
+                break;
+              case "/user/hand/right":
+                t && n.push({ pose: t, location: r.LeftHand });
+                break;
+              case "/user/head":
+                t && n.push({ pose: t, location: r.LeftHand }),
+                  o && n.push({ pose: o, location: r.RightHand });
+            }
+            if (0 == n.length)
+              return void setTimeout(this.computeDestination, i.sfMovePulseMS);
+            let a = VRHTML.MultiplyTransforms(
+              e.xfDeviceToAbsoluteTracking,
+              this.state.xfTransform
+            );
+            n.forEach((e) => {
+              let t = VRHTML.ChangeBasis(a, e.pose.xfDeviceToAbsoluteTracking);
+              (0, s.LY)(t.translation) > i.sfMaxDockDist
+                ? this.state.bIsOutsideMaxDist ||
+                  (C.LJ.Instance.triggerHaptic(C.Kf.SlidingEdge),
+                  this.setState({
+                    bIsOutsideMaxDist: !0,
+                    destination: r.World,
+                  }))
+                : (this.state.bIsOutsideMaxDist ||
+                    (this.props.dockLocation == r.World &&
+                      this.state.destination == r.World)) &&
+                  (C.LJ.Instance.triggerHaptic(C.Kf.SlidingEdge),
+                  this.setState({
+                    bIsOutsideMaxDist: !1,
+                    destination: e.location,
+                  }));
+            }),
+              setTimeout(this.computeDestination, i.sfMovePulseMS);
+          }
+          startMove() {
+            if (this.state.bIsMoving) return;
+            if (
+              (console.log(
+                "Starting to move " + this.props.sOverlayKey + "...\n"
+              ),
+              (this.m_nMoveDeviceIndex =
+                VRHTML.VROverlay.GetPrimaryDashboardDevice()),
+              this.m_nMoveDeviceIndex == s.Kf)
+            )
+              return;
+            this.m_moveDeviceRole =
+              VRHTML.VRSystem.GetControllerRoleForTrackedDeviceIndex(
+                this.m_nMoveDeviceIndex
+              );
+            let e,
+              t,
+              o = VRHTML.GetPose(this.m_nMoveDeviceIndex, s.zq.Standing);
+            switch (this.props.dockLocation) {
+              case r.LeftHand:
+                if (
+                  VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+                    s.Kg.TrackedControllerRole_LeftHand
+                  ) == s.Kf
+                )
+                  return;
+                e = VRHTML.GetPose("/user/hand/left", s.zq.Standing);
+                break;
+              case r.RightHand:
+                if (
+                  VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+                    s.Kg.TrackedControllerRole_RightHand
+                  ) == s.Kf
+                )
+                  return;
+                e = VRHTML.GetPose("/user/hand/right", s.zq.Standing);
+                break;
+              default:
+                e = {
+                  xfDeviceToAbsoluteTracking: (0, s.Oq)(),
+                  vVelocity: { x: 0, y: 0, z: 0 },
+                  eTrackingResult: s.QZ.TrackingResult_Running_OK,
+                  bPoseIsValid: !0,
+                };
+            }
+            switch (this.m_moveDeviceRole) {
+              case s.Kg.TrackedControllerRole_LeftHand:
+                t = "/user/hand/left";
+                break;
+              case s.Kg.TrackedControllerRole_RightHand:
+                t = "/user/hand/right";
+                break;
+              default:
+                t = "/user/head";
+            }
+            let i = VRHTML.MultiplyTransforms(
+                e.xfDeviceToAbsoluteTracking,
+                this.state.xfTransform
+              ),
+              n = VRHTML.ChangeBasis(i, o.xfDeviceToAbsoluteTracking);
+            this.setState(
+              {
+                xfTransform: n,
+                sParent: t,
+                bIsOutsideMaxDist: this.props.dockLocation == r.World,
+                bIsMoving: !0,
+              },
+              this.computeDestination
+            ),
+              window.addEventListener("mouseup", this.endMove);
+          }
+          endMove() {
+            if (!this.state.bIsMoving) return;
+            let e, t;
+            if (
+              "/user/hand/left" == this.state.sParent ||
+              this.state.destination == r.LeftHand
+            ) {
+              if (
+                VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+                  s.Kg.TrackedControllerRole_LeftHand
+                ) == s.Kf
+              )
+                return;
+              e = VRHTML.GetPose("/user/hand/left", s.zq.Standing);
+            }
+            if (
+              "/user/hand/right" == this.state.sParent ||
+              this.state.destination == r.RightHand
+            ) {
+              if (
+                VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+                  s.Kg.TrackedControllerRole_RightHand
+                ) == s.Kf
+              )
+                return;
+              t = VRHTML.GetPose("/user/hand/right", s.zq.Standing);
+            }
+            let o,
+              i = {
+                xfDeviceToAbsoluteTracking: (0, s.Oq)(),
+                vVelocity: { x: 0, y: 0, z: 0 },
+                eTrackingResult: s.QZ.TrackingResult_Running_OK,
+                bPoseIsValid: !0,
+              };
+            switch (this.state.destination) {
+              case r.LeftHand:
+                o = e;
+                break;
+              case r.RightHand:
+                o = t;
+                break;
+              default:
+                o = i;
+            }
+            let n = VRHTML.GetPose(this.m_nMoveDeviceIndex, s.zq.Standing),
+              a = VRHTML.MultiplyTransforms(
+                n.xfDeviceToAbsoluteTracking,
+                this.state.xfTransform
+              ),
+              l = VRHTML.ChangeBasis(a, o.xfDeviceToAbsoluteTracking);
+            this.setState({
+              xfTransform: l,
+              sParent: M(this.state.destination),
+              bIsMoving: !1,
+            }),
+              this.props.onDockOverlay(
+                this.props.sOverlayKey,
+                this.state.destination,
+                l
+              ),
+              window.removeEventListener("mouseup", this.endMove);
+          }
+          render() {
+            var e;
+            if ("" == this.props.sOverlayKey || null == this.state.xfTransform)
+              return null;
+            let t = VRHTML.VROverlay.FindOverlay(this.props.sOverlayKey);
+            if (!t) return null;
+            let o = { x: 0, y: 0 };
+            try {
+              o = VRHTML.VROverlay.GetOverlayMouseScale(t);
+            } catch (e) {
+              return console.log(JSON.stringify(e)), null;
+            }
+            let n =
+                (null !== (e = VRHTML.VROverlay.GetWidthInMeters(t)) &&
+                void 0 !== e
+                  ? e
+                  : 1) * this.state.fOverlayScale,
+              a = (n * o.y) / o.x;
+            if (!this.props.bVisible)
+              return c.createElement(
+                s.wx,
+                {
+                  parent_path: this.state.sParent,
+                  transform: this.state.xfTransform,
+                  id: "xf_widget",
+                },
+                c.createElement(
+                  s.s_,
+                  {
+                    overlay_key: this.props.sOverlayKey,
+                    height: a,
+                    width: void 0,
+                    interactive: !0,
+                    origin: s.Ic.BottomCenter,
+                  },
+                  c.createElement(s.sl, {
+                    mountedId: (0, s.iN)(
+                      m.GN,
+                      this.props.sOverlayKey + ".cursor"
+                    ),
+                  })
+                )
+              );
+            let l = a + i.sfOverlayTrayHeight,
+              d = Math.max(n, 0.175),
+              p = l / 2 - i.sfOverlayTrayHeight;
+            return c.createElement(
+              s.kH,
+              {
+                sParentPath: this.state.sParent,
+                bIsMoving: this.state.bIsMoving,
+                xfCurrent: this.state.xfTransform,
+                id: "xf_widget",
+              },
+              c.createElement(
+                s.wx,
+                {
+                  translation: { y: p, z: -0.005 },
+                  scale: { x: d, y: l, z: 0.008 },
+                },
+                c.createElement(
+                  s.VW,
+                  { color: { r: 0.016, g: 0.017, b: 0.02 } },
+                  c.createElement(s.gQ, { solid: !0, source: "unit_cube" })
+                )
+              ),
+              c.createElement(
+                s.s_,
+                {
+                  overlay_key: this.props.sOverlayKey,
+                  height: a,
+                  width: void 0,
+                  interactive: !0,
+                  origin: s.Ic.BottomCenter,
+                },
+                c.createElement(s.sl, {
+                  mountedId: (0, s.iN)(
+                    m.GN,
+                    this.props.sOverlayKey + ".cursor"
+                  ),
+                })
+              ),
+              c.createElement(
+                s.s_,
+                {
+                  height: i.sfOverlayTrayHeight,
+                  width: void 0,
+                  interactive: !0,
+                  origin: s.Ic.TopCenter,
+                },
+                c.createElement(
+                  "div",
+                  { className: "WindowTray" },
+                  c.createElement(h.iR, {
+                    additionalClassName: "WindowTraySlider",
+                    min: i.sfOverlayScaleMin,
+                    max: i.sfOverlayScaleMax,
+                    value: this.state.fOverlayScale,
+                    valueStyleVariant: h.px.OnHandle,
+                    onChange: this.onOverlayScaleChanged,
+                    detents: [0.25, 0.5, 1],
+                    renderValue: (e) => (100 * e).toFixed(0) + "%",
+                  }),
+                  c.createElement(
+                    u.z,
+                    {
+                      className: "WindowTrayButton",
+                      key: "move",
+                      onMouseDown: this.startMove,
+                      onMouseUp: this.endMove,
+                      style: { padding: "0.5em", paddingBottom: "0.25em" },
+                    },
+                    c.createElement("img", {
+                      className: "Icon BlackToWhite",
+                      src: "/dashboard/images/icons/icon_move.png",
+                    })
+                  ),
+                  c.createElement(
+                    u.z,
+                    {
+                      className: "WindowTrayButton",
+                      key: "undock",
+                      style: { padding: "0.5em", paddingBottom: "0.25em" },
+                      title: "Return to Dashboard",
+                      onClick: () => {
+                        this.props.onDockOverlay(
+                          this.props.sOverlayKey,
+                          r.Dashboard
+                        );
+                      },
+                    },
+                    c.createElement("img", {
+                      className: "Icon",
+                      src: "/dashboard/images/icons/icon_return.png",
+                    })
+                  )
+                )
+              ),
+              this.state.bIsMoving &&
+                !this.state.bIsOutsideMaxDist &&
+                c.createElement(
+                  c.Fragment,
+                  null,
+                  c.createElement(
+                    s.wx,
+                    {
+                      parent_path:
+                        this.state.destination == r.LeftHand
+                          ? "/user/hand/left"
+                          : "/user/hand/right",
+                    },
+                    c.createElement(s.x1, {
+                      target_id: "xf_widget",
+                      thickness: 0.001,
+                      start_buffer: 0.01,
+                      end_buffer: 0.01,
+                    })
+                  )
+                )
+            );
+          }
+        });
+        (w.sfMaxDockDist = 0.4),
+          (w.sfMovePulseMS = 100),
+          (w.sfOverlayTrayHeight = 0.025),
+          (w.sfOverlayScaleMin = 0.1),
+          (w.sfOverlayScaleMax = 2),
+          (0, n.gn)([a.ZP], w.prototype, "onOverlayScaleChanged", null),
+          (0, n.gn)([a.ZP], w.prototype, "computeDestination", null),
+          (0, n.gn)([a.ZP], w.prototype, "startMove", null),
+          (0, n.gn)([a.ZP], w.prototype, "endMove", null),
+          (w = i = (0, n.gn)([S.Pi], w));
+        var R,
+          D,
+          T = o(7679),
+          E = o(9392);
+        let I = (R = class extends c.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new s.Nv()),
-              (this.m_refWindowScrollPanel = l.createRef()),
+              (this.m_refWindowScrollPanel = c.createRef()),
               (this.state = { desktopView: null }),
-              this.m_mailbox.Init(n.k_sMailboxName);
+              this.m_mailbox.Init(R.k_sMailboxName);
           }
           setSiblingReferences(e) {
             this.setState({ desktopView: e });
           }
           onWindowViewCreated(e, t) {
-            var i, n;
-            null === (i = this.m_refWindowScrollPanel.current) ||
-              void 0 === i ||
-              i.scrollTo({
+            var o, i;
+            null === (o = this.m_refWindowScrollPanel.current) ||
+              void 0 === o ||
+              o.scrollTo({
                 left:
-                  null === (n = this.m_refWindowScrollPanel.current) ||
-                  void 0 === n
+                  null === (i = this.m_refWindowScrollPanel.current) ||
+                  void 0 === i
                     ? void 0
-                    : n.scrollWidth,
+                    : i.scrollWidth,
                 behavior: "smooth",
               });
           }
           render() {
-            var e, t, i, n;
+            var e, t, o, i;
             if (
               !this.state.desktopView ||
               (null === (e = this.state.desktopView) || void 0 === e
@@ -4612,23 +5101,23 @@
               (null === (t = this.state.desktopView) || void 0 === t
                 ? void 0
                 : t.state.desktopIndices.length) > 1;
-            return l.createElement(
-              m.j4,
+            return c.createElement(
+              T.j4,
               Object.assign({}, this.props, {
                 additionalClassNames: this.props.bWindowViewEnabled
                   ? "DesktopTray FixedWidth"
                   : "DesktopTray",
               }),
               r &&
-                l.createElement(
-                  v.P,
+                c.createElement(
+                  E.P,
                   {
-                    scrollDirection: v.I.Horizontal,
+                    scrollDirection: E.I.Horizontal,
                     className: "Section Grow",
                     style: { marginRight: 0, marginLeft: "9px" },
                     ref: this.m_refWindowScrollPanel,
                   },
-                  l.createElement(
+                  c.createElement(
                     "div",
                     {
                       style: {
@@ -4638,11 +5127,11 @@
                         margin: 0,
                       },
                     },
-                    null === (i = this.state.desktopView) || void 0 === i
+                    null === (o = this.state.desktopView) || void 0 === o
                       ? void 0
-                      : i.state.desktopIndices.map((e) => {
+                      : o.state.desktopIndices.map((e) => {
                           var t;
-                          return l.createElement(m.zN, {
+                          return c.createElement(T.zN, {
                             additionalClassNames: "ViewButton Fixed",
                             key: e,
                             label: e.toString(),
@@ -4651,7 +5140,7 @@
                               void 0 === t
                                 ? void 0
                                 : t.currentDesktopIndex) == e,
-                            title: (0, u.Xx)("#Desktop_X", e),
+                            title: (0, g.Xx)("#Desktop_X", e),
                             onClick: () => {
                               var t;
                               return null === (t = this.state.desktopView) ||
@@ -4662,12 +5151,12 @@
                           });
                         }),
                     Array.from(
-                      null === (n = this.state.desktopView) || void 0 === n
+                      null === (i = this.state.desktopView) || void 0 === i
                         ? void 0
-                        : n.state.mapWindowInfo.keys()
+                        : i.state.mapWindowInfo.keys()
                     ).map((e) => {
-                      var t, i, n;
-                      return l.createElement(m.zN, {
+                      var t, o, i;
+                      return c.createElement(T.zN, {
                         additionalClassNames: "ViewButton",
                         iconUrl: "/dashboard/images/icons/svr_desktop_alt.svg",
                         key: e,
@@ -4677,14 +5166,14 @@
                             : t.state.sCurrentWindowOverlayKey) == e,
                         title:
                           null ===
-                            (n = this.props.mapWindows.get(
-                              null === (i = this.state.desktopView) ||
-                                void 0 === i
+                            (i = this.props.mapWindows.get(
+                              null === (o = this.state.desktopView) ||
+                                void 0 === o
                                 ? void 0
-                                : i.state.mapWindowInfo.get(e).sHwnd
-                            )) || void 0 === n
+                                : o.state.mapWindowInfo.get(e).sHwnd
+                            )) || void 0 === i
                             ? void 0
-                            : n.title,
+                            : i.title,
                         onClick: () => {
                           var t;
                           return null === (t = this.state.desktopView) ||
@@ -4697,35 +5186,36 @@
                   )
                 ),
               this.props.bWindowViewEnabled &&
-                l.createElement(
+                c.createElement(
                   "div",
                   { className: "Section", style: { marginRight: 0 } },
-                  l.createElement(m.zN, {
+                  c.createElement(T.zN, {
                     iconUrl: "/dashboard/images/icons/icon_add.png",
                     additionalClassNames: "AddWindow",
-                    title: (0, u.Xx)("#AddView"),
+                    title: (0, g.Xx)("#AddView"),
                     onClick: this.props.onToggleWindowList,
-                    onMouseEnter: this.props.onClearPopupMenuTimeout,
-                    onMouseLeave: () => this.props.onStartPopupMenuTimeout(500),
+                    onMouseEnter: this.props.onClearPopoverMenuTimeout,
+                    onMouseLeave: () =>
+                      this.props.onStartPopoverMenuTimeout(500),
                   })
                 ),
-              l.createElement(
+              c.createElement(
                 "div",
                 { className: "Section" },
-                l.createElement(m.zN, {
+                c.createElement(T.zN, {
                   iconUrl: this.props.bDarkMode
                     ? "/dashboard/images/icons/svr_nightmode.svg"
                     : "/dashboard/images/icons/svr_lightmode.svg",
-                  title: (0, u.Xx)("#Settings_ToggleDarkMode"),
+                  title: (0, g.Xx)("#Settings_ToggleDarkMode"),
                   onClick: this.props.onToggleDarkMode,
                 })
               )
             );
           }
         });
-        (_.k_sMailboxName = "systemui_desktoptray"),
-          (_ = n = (0, o.gn)([h.Pi], _));
-        let y = (r = class extends l.Component {
+        (I.k_sMailboxName = "systemui_desktoptray"),
+          (I = R = (0, n.gn)([S.Pi], I));
+        let x = (D = class extends c.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new s.Nv()),
@@ -4736,7 +5226,7 @@
                 mapWindowInfo: new Map(),
                 sCurrentWindowOverlayKey: "",
               }),
-              this.m_mailbox.Init(r.k_sMailboxName).then(() => {});
+              this.m_mailbox.Init(D.k_sMailboxName).then(() => {});
           }
           componentDidMount() {
             null ===
@@ -4769,7 +5259,7 @@
             return "" != this.state.sCurrentWindowOverlayKey
               ? -1
               : null !==
-                  (e = p.G3.settings.get("/settings/dashboard/desktopIndex")) &&
+                  (e = f.G3.settings.get("/settings/dashboard/desktopIndex")) &&
                 void 0 !== e
               ? e
               : 1;
@@ -4783,13 +5273,13 @@
           }
           onDesktopScaleChange(e) {
             this.currentDesktopIndex > 0 &&
-              p.G3.SetSettingsValue(
+              f.G3.SetSettingsValue(
                 "/settings/dashboard/desktopScale" + this.currentDesktopIndex,
                 e
               );
           }
           onDesktopChange(e) {
-            p.G3.SetSettingsValue("/settings/dashboard/desktopIndex", e),
+            f.G3.SetSettingsValue("/settings/dashboard/desktopIndex", e),
               this.setState({ sCurrentWindowOverlayKey: "" });
           }
           onDesktopViewUpdating() {
@@ -4814,7 +5304,7 @@
           updateDesktopIndices() {
             var e;
             let t = 1,
-              i = [];
+              o = [];
             for (
               ;
               null !==
@@ -4823,14 +5313,14 @@
                 : VRHTML.VROverlay.FindOverlay("system.desktop." + t));
 
             )
-              i.push(t), t++;
+              o.push(t), t++;
             (null !==
-              (e = p.G3.settings.get("/settings/dashboard/desktopIndex")) &&
+              (e = f.G3.settings.get("/settings/dashboard/desktopIndex")) &&
             void 0 !== e
               ? e
-              : 1) > i.length &&
-              p.G3.SetSettingsValue("/settings/dashboard/desktopIndex", 1),
-              this.setState({ bIsReady: !0, desktopIndices: i });
+              : 1) > o.length &&
+              f.G3.SetSettingsValue("/settings/dashboard/desktopIndex", 1),
+              this.setState({ bIsReady: !0, desktopIndices: o });
           }
           ShowDesktop() {
             this.m_mailbox.SendMessage("desktopview", {
@@ -4838,11 +5328,11 @@
             });
           }
           renderControlBarButtons(e) {
-            return l.createElement(
-              l.Fragment,
+            return c.createElement(
+              c.Fragment,
               null,
               "" == this.state.sCurrentWindowOverlayKey &&
-                l.createElement(m.zN, {
+                c.createElement(T.zN, {
                   iconUrl: "/dashboard/images/icons/icon_showdesktop.png",
                   title: "Show Desktop",
                   tooltipTranslation: e,
@@ -4854,129 +5344,131 @@
             var e;
             const t =
               null ===
-                (e = p.G3.settings.get("/settings/dashboard/allowCurvature")) ||
+                (e = f.G3.settings.get("/settings/dashboard/allowCurvature")) ||
               void 0 === e ||
               e
-                ? d.ml
+                ? m.ml
                 : null;
             return this.props.visible
               ? this.state.bIsUsingSteamDesktop
-                ? l.createElement(s.sl, {
-                    mountedId: (0, s.iN)(d.GN, "valve.steam.desktop"),
+                ? c.createElement(s.sl, {
+                    mountedId: (0, s.iN)(m.GN, "valve.steam.desktop"),
                   })
                 : this.state.bIsReady
                 ? 0 === this.state.desktopIndices.length
-                  ? l.createElement(
-                      m.lL,
+                  ? c.createElement(
+                      T.lL,
                       { visible: !0 },
-                      l.createElement(
+                      c.createElement(
                         "div",
                         { className: "NoDesktopFound" },
-                        l.createElement(
+                        c.createElement(
                           "h2",
                           null,
-                          (0, u.Xx)("#NoDesktopFound")
+                          (0, g.Xx)("#NoDesktopFound")
                         )
                       )
                     )
                   : -1 == this.currentDesktopIndex
-                  ? l.createElement(
-                      l.Fragment,
+                  ? c.createElement(
+                      c.Fragment,
                       null,
-                      l.createElement(
+                      c.createElement(
                         s.s_,
                         {
                           overlay_key: this.state.sCurrentWindowOverlayKey,
                           height:
                             this.props.fActiveOverlayScale *
-                            r.k_nDesktopPanelBaseHeight,
+                            D.k_nDesktopPanelBaseHeight,
                           curvature_origin_id: t,
                           interactive: !0,
                           origin: s.Ic.BottomCenter,
                           debug_name: "System Desktop",
                         },
-                        l.createElement(s.at, {
+                        c.createElement(s.at, {
                           id: m.t3,
                           location: s.Ic.TopCenter,
                         }),
-                        l.createElement(s.sl, {
+                        c.createElement(s.sl, {
                           mountedId: (0, s.iN)(
-                            d.GN,
+                            m.GN,
                             this.state.sCurrentWindowOverlayKey + ".cursor"
                           ),
                         }),
-                        l.createElement(s.at, {
+                        c.createElement(s.at, {
                           id: m.Gl,
                           location: s.Ic.BottomCenter,
                         })
                       )
                     )
-                  : l.createElement(
-                      l.Fragment,
+                  : c.createElement(
+                      c.Fragment,
                       null,
-                      l.createElement(
+                      c.createElement(
                         s.s_,
                         {
                           overlay_key:
                             "system.desktop." + this.currentDesktopIndex,
                           height:
                             this.props.fActiveOverlayScale *
-                            r.k_nDesktopPanelBaseHeight,
+                            D.k_nDesktopPanelBaseHeight,
                           curvature_origin_id: t,
                           interactive: !0,
                           origin: s.Ic.BottomCenter,
                           debug_name: "System Desktop",
                         },
-                        l.createElement(s.at, {
+                        c.createElement(s.at, {
                           id: m.t3,
                           location: s.Ic.TopCenter,
                         }),
-                        l.createElement(s.sl, {
+                        c.createElement(s.sl, {
                           mountedId: (0, s.iN)(
-                            d.GN,
+                            m.GN,
                             "system.desktop." +
                               this.currentDesktopIndex +
                               ".cursor"
                           ),
                         }),
-                        l.createElement(s.at, {
+                        c.createElement(s.at, {
                           id: m.Gl,
                           location: s.Ic.BottomCenter,
                         })
                       )
                     )
-                : l.createElement(
-                    m.lL,
+                : c.createElement(
+                    T.lL,
                     { visible: !0 },
-                    l.createElement(
+                    c.createElement(
                       "div",
                       { className: "NoDesktopFound" },
-                      l.createElement(
+                      c.createElement(
                         "h2",
                         null,
-                        (0, u.Xx)("#DesktopViewsUpdating")
+                        (0, g.Xx)("#DesktopViewsUpdating")
                       )
                     )
                   )
               : null;
           }
         });
-        (y.k_sMailboxName = "systemui_desktopview"),
-          (y.k_nDesktopPanelBaseHeight = 2),
-          (0, o.gn)([g.Fl], y.prototype, "desktopCount", null),
-          (0, o.gn)([g.Fl], y.prototype, "sCurrentOverlayKey", null),
-          (0, o.gn)([g.Fl], y.prototype, "currentDesktopIndex", null),
-          (0, o.gn)([g.Fl], y.prototype, "currentWindowHwnd", null),
-          (0, o.gn)([a.ZP], y.prototype, "onDesktopScaleChange", null),
-          (0, o.gn)([a.ZP], y.prototype, "onDesktopChange", null),
-          (0, o.gn)([a.ZP], y.prototype, "onDesktopViewUpdating", null),
-          (0, o.gn)([a.ZP], y.prototype, "onDesktopViewReady", null),
-          (0, o.gn)([a.ZP], y.prototype, "onWindowViewChange", null),
-          (0, o.gn)([a.ZP], y.prototype, "ShowDesktop", null),
-          (y = r = (0, o.gn)([h.Pi], y));
-        var b,
-          f = i(1058);
-        let S = (b = class extends l.Component {
+        (x.k_sMailboxName = "systemui_desktopview"),
+          (x.k_nDesktopPanelBaseHeight = 2),
+          (0, n.gn)([l.Fl], x.prototype, "desktopCount", null),
+          (0, n.gn)([l.Fl], x.prototype, "sCurrentOverlayKey", null),
+          (0, n.gn)([l.Fl], x.prototype, "currentDesktopIndex", null),
+          (0, n.gn)([l.Fl], x.prototype, "currentWindowHwnd", null),
+          (0, n.gn)([a.ZP], x.prototype, "onDesktopScaleChange", null),
+          (0, n.gn)([a.ZP], x.prototype, "onDesktopChange", null),
+          (0, n.gn)([a.ZP], x.prototype, "onDesktopViewUpdating", null),
+          (0, n.gn)([a.ZP], x.prototype, "onDesktopViewReady", null),
+          (0, n.gn)([a.ZP], x.prototype, "onWindowViewChange", null),
+          (0, n.gn)([a.ZP], x.prototype, "ShowDesktop", null),
+          (x = D = (0, n.gn)([S.Pi], x));
+        var P,
+          O = o(505),
+          V = o(3371),
+          L = o(1058);
+        let B = (P = class extends c.Component {
           constructor(e) {
             super(e),
               (this.m_imageSources = []),
@@ -4999,7 +5491,7 @@
               this.props.fallbackImageUrl &&
                 e.push(this.props.fallbackImageUrl),
               (this.m_imageSources = e.filter(
-                (e) => !b.s_failedImages.includes(e)
+                (e) => !P.s_failedImages.includes(e)
               )),
               (this.m_imageIndex = -1);
           }
@@ -5023,7 +5515,7 @@
           loadNextImage() {
             this.m_imageIndex >= 0 &&
               this.m_imageIndex < this.m_imageSources.length &&
-              b.s_failedImages.push(this.m_imageSources[this.m_imageIndex]),
+              P.s_failedImages.push(this.m_imageSources[this.m_imageIndex]),
               this.m_imageIndex++,
               this.m_imageIndex < this.m_imageSources.length
                 ? ((this.m_loadingImage.onerror = this.loadNextImage),
@@ -5047,28 +5539,28 @@
           }
           render() {
             let e = { backgroundImage: `url(${this.state.image})` },
-              t = l.createElement("div", { className: "Icon", style: e });
+              t = c.createElement("div", { className: "Icon", style: e });
             return (
               this.state.width / this.state.height != 600 / 900 &&
-                (t = l.createElement(
-                  l.Fragment,
+                (t = c.createElement(
+                  c.Fragment,
                   null,
-                  l.createElement("div", {
+                  c.createElement("div", {
                     className: "IconBackgroundBlur",
                     style: e,
                   }),
                   t
                 )),
-              l.createElement(
+              c.createElement(
                 "div",
                 {
-                  className: (0, f.LJ)("PortraitAppImageContainer", [
+                  className: (0, L.LJ)("PortraitAppImageContainer", [
                     "Fallback",
                     this.state.isFallback,
                   ]),
                 },
                 this.state.image && t,
-                l.createElement(
+                c.createElement(
                   "div",
                   { className: "Title" },
                   this.props.title
@@ -5078,39 +5570,153 @@
             );
           }
         });
-        var C;
-        (S.defaultProps = {
+        (B.defaultProps = {
           fallbackImageUrl: "images/appimage_default_portrait.png",
         }),
-          (S.s_failedImages = []),
-          (0, o.gn)([a.ak], S.prototype, "loadNextImage", null),
-          (0, o.gn)([a.ak], S.prototype, "onLoad", null),
-          (0, o.gn)([a.ak], S.prototype, "onError", null),
-          (S = b = (0, o.gn)([h.Pi], S)),
+          (B.s_failedImages = []),
+          (0, n.gn)([a.ak], B.prototype, "loadNextImage", null),
+          (0, n.gn)([a.ak], B.prototype, "onLoad", null),
+          (0, n.gn)([a.ak], B.prototype, "onError", null),
+          (B = P = (0, n.gn)([S.Pi], B));
+        var N,
+          H = o(8052);
+        class A extends c.Component {
+          constructor(e) {
+            super(e), (this.state = {});
+          }
+          onExitApp() {
+            var e, t;
+            null === VRHTML || void 0 === VRHTML || VRHTML.QuitSceneApp(),
+              null === (t = (e = this.props).onExitGame) ||
+                void 0 === t ||
+                t.call(e);
+          }
+          onReturnToGame() {
+            null === VRHTML ||
+              void 0 === VRHTML ||
+              VRHTML.VRDashboardManager.HideDashboard("return_to_game");
+          }
+          onOpenAppControllerBindingSettings() {
+            const e = y.H.Instance.SceneAppKey;
+            V.f.OpenDeepLink(V.P.Name, e);
+          }
+          onOpenAppVideoSettings() {
+            const e = y.H.Instance.SceneAppKey;
+            O.Ux.OpenDeepLink(O.Yw.Name, e);
+          }
+          render() {
+            var e;
+            const t = y.H.Instance.SceneAppKey,
+              o = y.H.Instance.SceneAppName,
+              i = y.H.Instance.SceneApplicationState,
+              r = y.H.Instance.SceneAppIsHome,
+              n = f.G3.settings.get("/settings/dashboard/allowAppQuitting"),
+              a = !(
+                null !==
+                  (e = f.G3.settings.get("/settings/dashboard/arcadeMode")) &&
+                void 0 !== e &&
+                e
+              ),
+              l = f.G3.apps && f.G3.apps.find((e) => e.key == t);
+            let d = !1;
+            switch (i) {
+              case s.xY.Quitting:
+              case s.xY.Starting:
+              case s.xY.Waiting:
+                d = !0;
+            }
+            const h = ((e) => {
+              if (null == e) return "";
+              let t = e.image_path;
+              return (
+                t.startsWith("/app/image?") && (t += "&aspect=portrait"), t
+              );
+            })(l);
+            return c.createElement(
+              T.lL,
+              {
+                visible: this.props.visible,
+                debugName: "nowplaying",
+                additionalClassNames: "NowPlaying",
+              },
+              c.createElement(
+                "div",
+                { className: "ArtworkColumn" },
+                c.createElement(B, { appkey: t, title: o, imageUrl: h })
+              ),
+              c.createElement(
+                "div",
+                { className: "InfoColumn" },
+                c.createElement("div", { className: "NowPlayingAppTitle" }, o),
+                c.createElement(
+                  u.z,
+                  {
+                    className: "ButtonControl Colorful",
+                    onClick: this.onReturnToGame,
+                  },
+                  r
+                    ? (0, g.Xx)("#Return_To_Home")
+                    : (0, g.Xx)("#Return_To_Game")
+                ),
+                a &&
+                  c.createElement(
+                    H.ls,
+                    {
+                      icon: H.uc.PopOut,
+                      onClick: this.onOpenAppControllerBindingSettings,
+                    },
+                    (0, g.Xx)("#Controller_Bindings")
+                  ),
+                a &&
+                  c.createElement(
+                    H.ls,
+                    { icon: H.uc.PopOut, onClick: this.onOpenAppVideoSettings },
+                    (0, g.Xx)("#App_Video_Settings")
+                  ),
+                !r &&
+                  n &&
+                  c.createElement(
+                    u.z,
+                    { className: "ButtonControl", onClick: this.onExitApp },
+                    (0, g.Xx)("#Exit_Game")
+                  )
+              )
+            );
+          }
+        }
+        (0, n.gn)([a.ak], A.prototype, "onExitApp", null),
+          (0, n.gn)([a.ak], A.prototype, "onReturnToGame", null),
+          (0, n.gn)(
+            [a.ak],
+            A.prototype,
+            "onOpenAppControllerBindingSettings",
+            null
+          ),
+          (0, n.gn)([a.ak], A.prototype, "onOpenAppVideoSettings", null),
           (function (e) {
             (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
-          })(C || (C = {}));
-        const k = (e) =>
-          l.createElement(
+          })(N || (N = {}));
+        const F = (e) =>
+          c.createElement(
             "div",
             {
-              className: (0, f.LJ)("ButtonContainer", C[e.side], [
+              className: (0, L.LJ)("ButtonContainer", N[e.side], [
                 "Disabled",
                 !1 === e.enabled,
               ]),
             },
-            l.createElement(
-              c.z,
+            c.createElement(
+              u.z,
               { className: "ButtonControl", onClick: e.onClick },
-              e.side == C.Left
-                ? l.createElement(l.Fragment, null, "‹")
-                : l.createElement(l.Fragment, null, "›")
+              e.side == N.Left
+                ? c.createElement(c.Fragment, null, "‹")
+                : c.createElement(c.Fragment, null, "›")
             )
           );
-        class M extends l.Component {
+        class U extends c.Component {
           constructor(e) {
             super(e),
-              (this.m_refScrollPanel = l.createRef()),
+              (this.m_refScrollPanel = c.createRef()),
               (this.m_nLastScrollWidth = 0),
               (this.m_nLastScrollLeft = 0),
               (this.m_bScrolling = !1),
@@ -5160,30 +5766,30 @@
           }
           scroll(e) {
             var t;
-            const i = this.m_refScrollPanel.current;
-            if (!i) return;
-            if (i.isThrown)
-              return void i.cancelThrowing(() => {
+            const o = this.m_refScrollPanel.current;
+            if (!o) return;
+            if (o.isThrown)
+              return void o.cancelThrowing(() => {
                 (this.m_bScrolling = !1), this.scroll(e);
               });
-            const n = i.children;
-            if (!n || 0 == n.length) return;
+            const i = o.children;
+            if (!i || 0 == i.length) return;
             const r =
                 null !== (t = this.props.paginationAlignmentOffset) &&
                 void 0 !== t
                   ? t
                   : 0,
-              o = n[0],
+              n = i[0],
               s = this.m_bScrolling
                 ? this.m_nCurrentScrollTarget
-                : i.scrollLeft,
-              a = o.getBoundingClientRect().left + i.scrollLeft,
-              l = o.clientWidth,
-              c = i.clientWidth,
+                : o.scrollLeft,
+              a = n.getBoundingClientRect().left + o.scrollLeft,
+              l = n.clientWidth,
+              c = o.clientWidth,
               d = Math.floor(c / l) - 1,
               u = Math.round((s - a + r + 1) / l) + d * e - 0.4999,
-              p = u > 0 ? u * l + a - r : 0;
-            this.scrollToPosition(p);
+              h = u > 0 ? u * l + a - r : 0;
+            this.scrollToPosition(h);
           }
           scrollToPosition(e) {
             const t = this.m_refScrollPanel.current;
@@ -5193,37 +5799,37 @@
               (this.m_nCurrentScrollTarget = e));
           }
           render() {
-            return l.createElement(
+            return c.createElement(
               "div",
               {
-                className: (0, f.LJ)(
+                className: (0, L.LJ)(
                   "PaginatedCarousel",
                   this.props.additionalClassNames
                 ),
               },
-              l.createElement(
-                v.P,
+              c.createElement(
+                E.P,
                 {
                   ref: this.m_refScrollPanel,
-                  scrollDirection: v.I.Horizontal,
+                  scrollDirection: E.I.Horizontal,
                   onScroll: this.onScroll,
                 },
                 this.props.children
               ),
               (!1 === this.state.bScrolledToStart ||
                 !1 === this.state.bScrolledToEnd) &&
-                l.createElement(
+                c.createElement(
                   "div",
                   { className: "PaginationButtons" },
                   null !== this.state.bScrolledToStart &&
-                    l.createElement(k, {
-                      side: C.Left,
+                    c.createElement(F, {
+                      side: N.Left,
                       enabled: !this.state.bScrolledToStart,
                       onClick: this.onLeftButtonClick,
                     }),
                   null !== this.state.bScrolledToEnd &&
-                    l.createElement(k, {
-                      side: C.Right,
+                    c.createElement(F, {
+                      side: N.Right,
                       enabled: !this.state.bScrolledToEnd,
                       onClick: this.onRightButtonClick,
                     })
@@ -5231,16 +5837,16 @@
             );
           }
         }
-        (0, o.gn)([a.ZP], M.prototype, "onAnimationFrame", null),
-          (0, o.gn)([a.ZP], M.prototype, "onScroll", null),
-          (0, o.gn)([a.ZP], M.prototype, "onLeftButtonClick", null),
-          (0, o.gn)([a.ZP], M.prototype, "onRightButtonClick", null);
-        let R = class extends l.Component {
+        (0, n.gn)([a.ZP], U.prototype, "onAnimationFrame", null),
+          (0, n.gn)([a.ZP], U.prototype, "onScroll", null),
+          (0, n.gn)([a.ZP], U.prototype, "onLeftButtonClick", null),
+          (0, n.gn)([a.ZP], U.prototype, "onRightButtonClick", null);
+        let W = class extends c.Component {
           constructor(e) {
             super(e),
-              (this.m_scrollWatcher = new f.cB()),
-              (this.m_refAnchoredParentPortal = l.createRef()),
-              (this.m_refButton = l.createRef()),
+              (this.m_scrollWatcher = new L.cB()),
+              (this.m_refAnchoredParentPortal = c.createRef()),
+              (this.m_refButton = c.createRef()),
               (this.state = { bShowPlay: !1 }),
               (this.m_scrollWatcher.onScrollStop = this.onParentScrollStop);
           }
@@ -5283,20 +5889,20 @@
             let e = Object.assign({}, this.props);
             return (
               delete e.onClick,
-              l.createElement(
+              c.createElement(
                 "div",
                 {
-                  className: (0, f.LJ)(
+                  className: (0, L.LJ)(
                     "AppButtonContainer",
                     [
                       "AppOwned",
-                      p.G3.probablyOwnedAppkeys.has(this.props.appkey),
+                      f.G3.probablyOwnedAppkeys.has(this.props.appkey),
                     ],
                     ["ShowingPopovers", this.shouldShowHoverContents]
                   ),
                 },
-                l.createElement(
-                  c.z,
+                c.createElement(
+                  u.z,
                   {
                     className: "AppButton",
                     ref: this.m_refButton,
@@ -5304,108 +5910,106 @@
                     onMouseLeave: this.buttonMouseLeave,
                     onClick: this.props.onClick,
                   },
-                  l.createElement(S, Object.assign({}, e), this.props.children)
+                  c.createElement(B, Object.assign({}, e), this.props.children)
                 )
               )
             );
           }
         };
-        (0, o.gn)([a.ZP], R.prototype, "buttonMouseEnter", null),
-          (0, o.gn)([a.ZP], R.prototype, "buttonMouseLeave", null),
-          (0, o.gn)([a.ZP], R.prototype, "onParentScrollStop", null),
-          (R = (0, o.gn)([h.Pi], R));
-        const w = () =>
-            l.createElement("div", { className: "AppButton Placeholder" }),
-          D = (e) => {
+        (0, n.gn)([a.ZP], W.prototype, "buttonMouseEnter", null),
+          (0, n.gn)([a.ZP], W.prototype, "buttonMouseLeave", null),
+          (0, n.gn)([a.ZP], W.prototype, "onParentScrollStop", null),
+          (W = (0, n.gn)([S.Pi], W));
+        const z = () =>
+            c.createElement("div", { className: "AppButton Placeholder" }),
+          G = (e) => {
             var t;
-            const i = !!e.loading,
-              n = null !== (t = e.apps) && void 0 !== t ? t : [];
+            const o = !!e.loading,
+              i = null !== (t = e.apps) && void 0 !== t ? t : [];
             let r = "AppCarousel";
             return (
               e.className && (r += " " + e.className),
               (r += " NoAnimations"),
-              l.createElement(
-                M,
+              c.createElement(
+                U,
                 { additionalClassNames: r, paginationAlignmentOffset: -20 },
-                i &&
-                  l.createElement(
-                    l.Fragment,
+                o &&
+                  c.createElement(
+                    c.Fragment,
                     null,
-                    l.createElement(w, null),
-                    l.createElement(w, null),
-                    l.createElement(w, null),
-                    l.createElement(w, null)
+                    c.createElement(z, null),
+                    c.createElement(z, null),
+                    c.createElement(z, null),
+                    c.createElement(z, null)
                   ),
-                !i &&
-                  n.map((e) =>
-                    l.createElement(R, Object.assign({ key: e.appkey }, e))
+                !o &&
+                  i.map((e) =>
+                    c.createElement(W, Object.assign({ key: e.appkey }, e))
                   )
               )
             );
           };
-        var T = i(9015),
-          E = i(9669),
-          I = i.n(E),
-          x = i(4916);
-        function P() {
-          return I()
+        var K = o(9669),
+          q = o.n(K);
+        function X() {
+          return q()
             .get(
               "https://steamcommunity.com/steamvr/ajaxgethomedata/?include_apps=1&include_free_apps=1&num_apps=20"
             )
             .then((e) => e.data);
         }
-        const O = () =>
-          l.createElement(
-            c.z,
+        const Z = () =>
+          c.createElement(
+            u.z,
             {
               className: "ButtonControl WithIcon PanelTopRight",
               onClick: () =>
-                T.y.Instance.openBigPictureStore(null, T.b.QuickStore),
+                b.y.Instance.openBigPictureStore(null, b.b.QuickStore),
             },
-            l.createElement("span", null, (0, u.Xx)("#BrowseAll")),
-            l.createElement("img", {
+            c.createElement("span", null, (0, g.Xx)("#BrowseAll")),
+            c.createElement("img", {
               className: "Icon BlackToWhite",
               src: "/dashboard/images/icons/svr_store.svg",
             })
           );
-        var L;
+        var j;
         !(function (e) {
           (e[(e.Free = 0)] = "Free"),
             (e[(e.Singleplayer = 1)] = "Singleplayer"),
             (e[(e.Multiplayer = 2)] = "Multiplayer");
-        })(L || (L = {}));
-        let V = class extends l.Component {
+        })(j || (j = {}));
+        let Q = class extends c.Component {
           constructor(e) {
             super(e), (this.state = { storeData: null });
           }
           componentDidMount() {
-            P().then((e) => this.setState({ storeData: e }));
+            X().then((e) => this.setState({ storeData: e }));
           }
-          openSteamApp(e, t, i) {
-            x.e.instance.RecordUIEvent(
+          openSteamApp(e, t, o) {
+            v.e.instance.RecordUIEvent(
               "QuickStoreAppClick",
-              L[t].toLowerCase() + ":" + i,
+              j[t].toLowerCase() + ":" + o,
               `steam.app.${e}`
             ),
-              T.y.Instance.openBigPictureStore(e, T.b.QuickStore);
+              b.y.Instance.openBigPictureStore(e, b.b.QuickStore);
           }
           makeAppButtonList() {
             let e = [];
             switch (this.props.section) {
-              case L.Free:
+              case j.Free:
                 e = this.state.storeData.apps_free;
                 break;
-              case L.Singleplayer:
+              case j.Singleplayer:
                 e = this.state.storeData.apps_singleplayer;
                 break;
-              case L.Multiplayer:
+              case j.Multiplayer:
                 e = this.state.storeData.apps_multiplayer;
             }
             return e.map((e, t) => {
-              const i = `steam.app.${e.appid}`;
+              const o = `steam.app.${e.appid}`;
               return {
-                key: i,
-                appkey: i,
+                key: o,
+                appkey: o,
                 title: e.name,
                 imageUrl: e.logo,
                 onClick: () =>
@@ -5415,83 +6019,83 @@
           }
           render() {
             return this.state.storeData
-              ? l.createElement(D, { apps: this.makeAppButtonList() })
-              : l.createElement(D, { loading: !0 });
+              ? c.createElement(G, { apps: this.makeAppButtonList() })
+              : c.createElement(G, { loading: !0 });
           }
         };
-        V = (0, o.gn)([h.Pi], V);
-        class B extends l.Component {
+        Q = (0, n.gn)([S.Pi], Q);
+        class Y extends c.Component {
           constructor(e) {
             super(e), (this.state = {});
           }
           render() {
-            return l.createElement(
-              m.lL,
+            return c.createElement(
+              T.lL,
               {
                 visible: this.props.visible,
                 additionalClassNames: "QuickStore",
               },
-              l.createElement(O, null),
-              l.createElement(
+              c.createElement(Z, null),
+              c.createElement(
                 "h2",
                 null,
-                (0, u.Xx)("#StoreSection_TopSingleplayer")
+                (0, g.Xx)("#StoreSection_TopSingleplayer")
               ),
-              l.createElement(V, { section: L.Singleplayer }),
-              l.createElement(
+              c.createElement(Q, { section: j.Singleplayer }),
+              c.createElement(
                 "h2",
                 null,
-                (0, u.Xx)("#StoreSection_TopMultiplayer")
+                (0, g.Xx)("#StoreSection_TopMultiplayer")
               ),
-              l.createElement(V, { section: L.Multiplayer }),
-              l.createElement("h2", null, (0, u.Xx)("#StoreSection_TopFree")),
-              l.createElement(V, { section: L.Free })
+              c.createElement(Q, { section: j.Multiplayer }),
+              c.createElement("h2", null, (0, g.Xx)("#StoreSection_TopFree")),
+              c.createElement(Q, { section: j.Free })
             );
           }
         }
-        var A;
-        const N = () =>
-            l.createElement(
-              c.z,
+        var J;
+        const $ = () =>
+            c.createElement(
+              u.z,
               {
                 className: "ButtonControl WithIcon PanelTopRight",
                 onClick: () =>
-                  T.y.Instance.openBigPictureLibrary(null, T.b.QuickLaunch),
+                  b.y.Instance.openBigPictureLibrary(null, b.b.QuickLaunch),
               },
-              l.createElement("span", null, (0, u.Xx)("#BrowseAll")),
-              l.createElement("img", {
+              c.createElement("span", null, (0, g.Xx)("#BrowseAll")),
+              c.createElement("img", {
                 className: "Icon BlackToWhite",
                 src: "/dashboard/images/icons/svr_items.svg",
               })
             ),
-          H = () =>
-            l.createElement(
-              c.z,
+          ee = () =>
+            c.createElement(
+              u.z,
               {
                 className: "ButtonControl Colorful WelcomeBrowseStore",
                 onClick: () =>
                   null === VRHTML || void 0 === VRHTML
                     ? void 0
-                    : VRHTML.VROverlay.ShowDashboard(d.wB),
+                    : VRHTML.VROverlay.ShowDashboard(m.wB),
               },
-              l.createElement("span", null, (0, u.Xx)("#WelcomeBrowseStore"))
+              c.createElement("span", null, (0, g.Xx)("#WelcomeBrowseStore"))
             ),
-          F = () =>
-            l.createElement(
-              c.z,
+          te = () =>
+            c.createElement(
+              u.z,
               {
                 className: "ButtonControl Colorful WelcomeInstall",
                 onClick: () =>
-                  T.y.Instance.openBigPictureLibrary(null, T.b.QuickLaunch),
+                  b.y.Instance.openBigPictureLibrary(null, b.b.QuickLaunch),
               },
-              l.createElement("span", null, (0, u.Xx)("#WelcomeInstall"))
+              c.createElement("span", null, (0, g.Xx)("#WelcomeInstall"))
             );
-        class U extends l.Component {
+        class oe extends c.Component {
           constructor(e) {
             super(e), (this.state = { storeData: null });
           }
           componentDidMount() {
-            P().then((e) => this.setState({ storeData: e }));
+            X().then((e) => this.setState({ storeData: e }));
           }
           render() {
             let e = [];
@@ -5501,82 +6105,82 @@
                   this.state.storeData.apps_multiplayer[t],
                   this.state.storeData.apps_free[t],
                 ]),
-                i = new Set();
+                o = new Set();
               for (; e.length < 12 && t.length; ) {
-                for (; i.has(t[0].appid); ) t.shift();
-                let n = t.shift();
-                i.add(n.appid),
+                for (; o.has(t[0].appid); ) t.shift();
+                let i = t.shift();
+                o.add(i.appid),
                   e.push(
-                    l.createElement(
-                      c.z,
+                    c.createElement(
+                      u.z,
                       {
-                        key: `appid_${n.appid}`,
+                        key: `appid_${i.appid}`,
                         className: `WelcomeFloatingApp WelcomeFloatingApp${e.length}`,
                         onClick: () =>
-                          T.y.Instance.openBigPictureStore(
-                            n.appid,
-                            T.b.QuickLaunch
+                          b.y.Instance.openBigPictureStore(
+                            i.appid,
+                            b.b.QuickLaunch
                           ),
                       },
-                      l.createElement("img", { src: n.logo })
+                      c.createElement("img", { src: i.logo })
                     )
                   );
               }
             }
-            return l.createElement(
+            return c.createElement(
               "div",
               { className: "QuickLaunchWelcome" },
               e,
-              l.createElement(
+              c.createElement(
                 "div",
                 { className: "QuickLaunchWelcomePrompt" },
-                l.createElement(
+                c.createElement(
                   "div",
                   { className: "QuickLaunchWelcomeHeader" },
-                  (0, u.Xx)("#WelcomeHeader")
+                  (0, g.Xx)("#WelcomeHeader")
                 ),
-                l.createElement(
+                c.createElement(
                   "div",
                   { className: "QuickLaunchWelcomeMessage" },
-                  (0, u.Xx)("#WelcomeMessage")
+                  (0, g.Xx)("#WelcomeMessage")
                 ),
-                l.createElement(H, null),
-                l.createElement(F, null)
+                c.createElement(ee, null),
+                c.createElement(te, null)
               )
             );
           }
         }
-        let W = (A = class extends l.Component {
+        let ie = (J = class extends c.Component {
           constructor(e) {
             super(e), (this.state = {});
           }
-          launchApplication(e, t, i) {
-            var n, r;
-            x.e.instance.RecordUIEvent(
+          launchApplication(e, t, o) {
+            var i, r;
+            v.e.instance.RecordUIEvent(
               "QuickLaunchAppClick",
-              (t ? "top" : "bottom") + ":" + i,
+              (t ? "top" : "bottom") + ":" + o,
               e.key
             ),
-              null === (r = (n = this.props).onGameLaunched) ||
+              null === (r = (i = this.props).onGameLaunched) ||
                 void 0 === r ||
-                r.call(n, e),
+                r.call(i, e),
               null === VRHTML ||
                 void 0 === VRHTML ||
                 VRHTML.VRApplications.LaunchApplication(e.key);
           }
           makeAppButtonList() {
             let e = [];
-            if (null != p.G3.apps)
-              for (let t of p.G3.apps)
+            if (null != f.G3.apps)
+              for (let t of f.G3.apps)
                 t.is_internal ||
                   (t.is_dashboard_overlay && !t.show_overlay_in_quicklaunch) ||
                   t.is_hidden ||
                   t.is_instance ||
-                  A.s_setBlacklistedAppkeys.has(t.key) ||
+                  J.s_setBlacklistedAppkeys.has(t.key) ||
                   e.push(t);
             e.sort((e, t) => {
-              let i = t.library_priority - e.library_priority;
-              return 0 == i && (i = t.last_launch - e.last_launch), i;
+              let o = t.library_priority - e.library_priority;
+              return 0 == o && (o = t.last_launch - e.last_launch), o;
             });
             const t = (e) => {
               let t = e.image_path;
@@ -5584,22 +6188,22 @@
                 t.startsWith("/app/image?") && (t += "&aspect=portrait"), t
               );
             };
-            return e.map((e, i) => {
-              let n = i;
-              const r = i < A.TOP_ROW_LENGTH;
+            return e.map((e, o) => {
+              let i = o;
+              const r = o < J.TOP_ROW_LENGTH;
               return (
-                r || (n -= A.TOP_ROW_LENGTH),
+                r || (i -= J.TOP_ROW_LENGTH),
                 {
                   key: e.key,
                   appkey: e.key,
                   title: e.name,
                   imageUrl: t(e),
-                  onClick: () => this.launchApplication(e, r, n),
-                  children: l.createElement(
-                    l.Fragment,
+                  onClick: () => this.launchApplication(e, r, i),
+                  children: c.createElement(
+                    c.Fragment,
                     null,
-                    l.createElement("div", { className: "PlayIconFade" }),
-                    l.createElement("img", {
+                    c.createElement("div", { className: "PlayIconFade" }),
+                    c.createElement("img", {
                       className: "PlayIcon",
                       src: "/dashboard/images/icons/svr_play.svg",
                     })
@@ -5611,30 +6215,30 @@
           render() {
             let e,
               t = this.makeAppButtonList();
-            const i =
+            const o =
                 0 == t.length ||
-                p.G3.settings.get("/settings/dashboard/forceWelcomeScreen"),
-              n =
+                f.G3.settings.get("/settings/dashboard/forceWelcomeScreen"),
+              i =
                 0 == t.length ||
-                p.G3.settings.get("/settings/dashboard/hideBigPictureLibrary");
-            if (i) e = l.createElement(U, null);
+                f.G3.settings.get("/settings/dashboard/hideBigPictureLibrary");
+            if (o) e = c.createElement(oe, null);
             else {
-              let i = t.slice(0, A.TOP_ROW_LENGTH),
-                r = t.slice(A.TOP_ROW_LENGTH);
-              e = l.createElement(
-                l.Fragment,
+              let o = t.slice(0, J.TOP_ROW_LENGTH),
+                r = t.slice(J.TOP_ROW_LENGTH);
+              e = c.createElement(
+                c.Fragment,
                 null,
-                !n && l.createElement(N, null),
-                l.createElement("h2", null, (0, u.Xx)("#RecentlyPlayed")),
-                l.createElement(D, { className: "TopRow", apps: i }),
-                l.createElement(D, { className: "BottomRow", apps: r })
+                !i && c.createElement($, null),
+                c.createElement("h2", null, (0, g.Xx)("#RecentlyPlayed")),
+                c.createElement(G, { className: "TopRow", apps: o }),
+                c.createElement(G, { className: "BottomRow", apps: r })
               );
             }
-            return l.createElement(
-              m.lL,
+            return c.createElement(
+              T.lL,
               {
                 visible: this.props.visible,
-                scrollable: !i,
+                scrollable: !o,
                 debugName: "homepanel",
                 additionalClassNames: "QuickLaunch",
               },
@@ -5642,151 +6246,29 @@
             );
           }
         });
-        (W.TOP_ROW_LENGTH = 4),
-          (W.s_setBlacklistedAppkeys = new Set([
+        (ie.TOP_ROW_LENGTH = 4),
+          (ie.s_setBlacklistedAppkeys = new Set([
             "openvr.tool.steamvr_room_setup",
             "openvr.tool.steamvr_media_player",
             "openvr.tool.steamvr_desktop_gametheatre",
             "openvr.tool.steamvr_tutorial",
             "openvr.tool.steamvr_environments",
             "openvr.tool.steamvr_environments_tools",
-            d.W4,
-            d.jW,
+            m.W4,
+            m.jW,
           ])),
-          (W = A = (0, o.gn)([h.Pi], W));
-        var z = i(505),
-          G = i(3371),
-          K = i(8052),
-          q = i(6192);
-        class X extends l.Component {
-          constructor(e) {
-            super(e), (this.state = {});
-          }
-          onExitApp() {
-            var e, t;
-            null === VRHTML || void 0 === VRHTML || VRHTML.QuitSceneApp(),
-              null === (t = (e = this.props).onExitGame) ||
-                void 0 === t ||
-                t.call(e);
-          }
-          onReturnToGame() {
-            null === VRHTML ||
-              void 0 === VRHTML ||
-              VRHTML.VRDashboardManager.HideDashboard("return_to_game");
-          }
-          onOpenAppControllerBindingSettings() {
-            const e = q.H.Instance.SceneAppKey;
-            G.f.OpenDeepLink(G.P.Name, e);
-          }
-          onOpenAppVideoSettings() {
-            const e = q.H.Instance.SceneAppKey;
-            z.Ux.OpenDeepLink(z.Yw.Name, e);
-          }
-          render() {
-            var e;
-            const t = q.H.Instance.SceneAppKey,
-              i = q.H.Instance.SceneAppName,
-              n = q.H.Instance.SceneApplicationState,
-              r = q.H.Instance.SceneAppIsHome,
-              o = p.G3.settings.get("/settings/dashboard/allowAppQuitting"),
-              a = !(
-                null !==
-                  (e = p.G3.settings.get("/settings/dashboard/arcadeMode")) &&
-                void 0 !== e &&
-                e
-              ),
-              d = p.G3.apps && p.G3.apps.find((e) => e.key == t);
-            let h = !1;
-            switch (n) {
-              case s.xY.Quitting:
-              case s.xY.Starting:
-              case s.xY.Waiting:
-                h = !0;
-            }
-            const g = ((e) => {
-              if (null == e) return "";
-              let t = e.image_path;
-              return (
-                t.startsWith("/app/image?") && (t += "&aspect=portrait"), t
-              );
-            })(d);
-            return l.createElement(
-              m.lL,
-              {
-                visible: this.props.visible,
-                debugName: "nowplaying",
-                additionalClassNames: "NowPlaying",
-              },
-              l.createElement(
-                "div",
-                { className: "ArtworkColumn" },
-                l.createElement(S, { appkey: t, title: i, imageUrl: g })
-              ),
-              l.createElement(
-                "div",
-                { className: "InfoColumn" },
-                l.createElement("div", { className: "NowPlayingAppTitle" }, i),
-                l.createElement(
-                  c.z,
-                  {
-                    className: "ButtonControl Colorful",
-                    onClick: this.onReturnToGame,
-                  },
-                  r
-                    ? (0, u.Xx)("#Return_To_Home")
-                    : (0, u.Xx)("#Return_To_Game")
-                ),
-                a &&
-                  l.createElement(
-                    K.ls,
-                    {
-                      icon: K.uc.PopOut,
-                      onClick: this.onOpenAppControllerBindingSettings,
-                    },
-                    (0, u.Xx)("#Controller_Bindings")
-                  ),
-                a &&
-                  l.createElement(
-                    K.ls,
-                    { icon: K.uc.PopOut, onClick: this.onOpenAppVideoSettings },
-                    (0, u.Xx)("#App_Video_Settings")
-                  ),
-                !r &&
-                  o &&
-                  l.createElement(
-                    c.z,
-                    { className: "ButtonControl", onClick: this.onExitApp },
-                    (0, u.Xx)("#Exit_Game")
-                  )
-              )
-            );
-          }
-        }
-        (0, o.gn)([a.ak], X.prototype, "onExitApp", null),
-          (0, o.gn)([a.ak], X.prototype, "onReturnToGame", null),
-          (0, o.gn)(
-            [a.ak],
-            X.prototype,
-            "onOpenAppControllerBindingSettings",
-            null
-          ),
-          (0, o.gn)([a.ak], X.prototype, "onOpenAppVideoSettings", null);
-        var Z,
-          j,
-          Q,
-          Y = i(6882),
-          J = i(7264),
-          $ = i(9942),
-          ee = i(7968),
-          te = i(1219),
-          ie = i(79);
+          (ie = J = (0, n.gn)([S.Pi], ie));
+        var re,
+          ne,
+          se,
+          ae = o(79);
         !(function (e) {
           (e[(e.Near = 0)] = "Near"),
             (e[(e.Middle = 1)] = "Middle"),
             (e[(e.Far = 2)] = "Far"),
             (e[(e.Screenshot_Only = 255)] = "Screenshot_Only");
-        })(j || (j = {}));
-        class ne extends l.Component {
+        })(ne || (ne = {}));
+        class le extends c.Component {
           componentDidMount() {
             null === VRHTML ||
               void 0 === VRHTML ||
@@ -5801,10 +6283,10 @@
             return null;
           }
         }
-        function re(e) {
+        function ce(e) {
           var t;
           return (
-            null !== (t = null == e ? void 0 : e.startsWith(d.MI)) &&
+            null !== (t = null == e ? void 0 : e.startsWith(m.MI)) &&
             void 0 !== t &&
             t
           );
@@ -5815,21 +6297,21 @@
             (e[(e.ExternalOverlays = 2)] = "ExternalOverlays"),
             (e[(e.Volume = 3)] = "Volume"),
             (e[(e.Windows = 4)] = "Windows");
-        })(Q || (Q = {}));
-        let oe = (Z = class extends l.Component {
+        })(se || (se = {}));
+        let de = (re = class extends c.Component {
           constructor(e) {
             super(e),
               (this.m_mapExternalOverlays = {}),
               (this.m_setSuppressingFade = new Set()),
               (this.m_mailbox = new s.Nv()),
-              (this.m_timeoutPopupMenuHide = 0),
-              (this.m_refPopupMenu = l.createRef()),
+              (this.m_timeoutPopoverMenuHide = 0),
+              (this.m_refPopoverMenu = c.createRef()),
               (this.m_appStateChangedAutorunDisposer = null),
-              (this.m_refDesktopView = l.createRef()),
-              (this.m_refDesktopTray = l.createRef()),
-              (this.m_refOverlayTransform = l.createRef()),
-              (this.m_refVolumeTray = l.createRef()),
-              (this.m_sOverlayToSwitchToOnLoad = d.O5),
+              (this.m_refDesktopView = c.createRef()),
+              (this.m_refDesktopTray = c.createRef()),
+              (this.m_refOverlayTransform = c.createRef()),
+              (this.m_refVolumeTray = c.createRef()),
+              (this.m_sOverlayToSwitchToOnLoad = m.O5),
               (this.m_bQuickLaunchShouldReturnToBigPicture = !1),
               (this.m_bQuickStoreShouldReturnToBigPicture = !1),
               (this.m_roomViewChangedEventHandle = null),
@@ -5841,7 +6323,7 @@
                 bTheaterMode: !1,
                 bMuted: !1,
                 sLastShownAppKey: "",
-                eShowPopupMenu: Q.None,
+                eShowPopoverMenu: se.None,
                 setForcingBoundsVisible: {},
                 mapWindows: new Map(),
                 desktopViewDebugInfo: {
@@ -5855,55 +6337,63 @@
                 bPlacementModeActive: !1,
                 bLinkStreamActive: !1,
               }),
-              (window.setDashboardScale = (e) => (Z.s_dashboardUserScale = e)),
+              (window.setDashboardScale = (e) => (re.s_dashboardUserScale = e)),
               (window.setDashboardDistance = (e) =>
-                (Z.s_dashboardUserDistance = e)),
-              p.G3.Init(!1),
+                (re.s_dashboardUserDistance = e)),
+              f.G3.Init(!1),
               s.hz.getInstance(),
-              this.m_mailbox.Init(Z.k_sDashboardMailboxName).then(() => {
+              this.m_mailbox.Init(re.k_sDashboardMailboxName).then(() => {
                 this.m_mailbox.RegisterHandler(
-                  Z.k_sSetDashboardFadeSupressionMessage,
-                  this.OnSetDashboardFadeSuppression
+                  re.k_sSetDashboardFadeSupressionMessage,
+                  this.onSetDashboardFadeSuppression
                 ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sOverlayKeyboardClosedMessage,
+                    re.k_sOverlayKeyboardClosedMessage,
                     this.onKeyboardClosed
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sDashboardOverlayCreatedMessage,
+                    re.k_sDashboardOverlayCreatedMessage,
                     this.onDashboardOverlayCreated
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sDashboardOverlayDestroyedMessage,
+                    re.k_sDashboardOverlayDestroyedMessage,
                     this.onDashboardOverlayDestroyed
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sUpdateDashboardTabsMessage,
+                    re.k_sUpdateDashboardTabsMessage,
                     this.onUpdateDashboardTabs
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sWindowViewCreatedMessage,
+                    re.k_sWindowViewCreatedMessage,
                     this.onWindowViewCreated
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sWindowViewDestroyedMessage,
+                    re.k_sWindowViewDestroyedMessage,
                     this.onWindowViewDestroyed
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sUpdateWindowListMessage,
+                    re.k_sUpdateWindowListMessage,
                     this.onUpdateWindowList
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sUpdateDebugInfoMessage,
+                    re.k_sUpdateDebugInfoMessage,
                     this.onUpdateDebugInfo
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sSetDashboardForceBoundsVisible,
-                    this.OnSetDashboardForceBoundsVisible
+                    re.k_sSetDashboardForceBoundsVisible,
+                    this.onSetDashboardForceBoundsVisible
                   ),
                   this.m_mailbox.RegisterHandler(
-                    Z.k_sLaserMouseSuppressionUpdate,
+                    re.k_sLaserMouseSuppressionUpdate,
                     this.onLaserMouseSuppressionUpdate
+                  ),
+                  this.m_mailbox.RegisterHandler(
+                    "show_dashboard_requested",
+                    this.onShowDashboardRequested
+                  ),
+                  this.m_mailbox.RegisterHandler(
+                    "hide_dashboard_requested",
+                    this.onHideDashboardRequested
                   );
               });
           }
@@ -5929,12 +6419,12 @@
                 e == s.a0.AppLaunch_Unknown ||
                 e == s.a0.AppLaunch_Steam ||
                 e == s.a0.Unknown,
-              i = p.G3.settings.get(
+              o = f.G3.settings.get(
                 "/settings/dashboard/allowDashboardAutoLaunchWithSteamVRHome"
               ),
-              n = p.G3.settings.get("/settings/steamvr/enableHomeApp"),
-              r = p.G3.settings.get(d.y3);
-            ((t || (!i && n)) && !r) ||
+              i = f.G3.settings.get("/settings/steamvr/enableHomeApp"),
+              r = f.G3.settings.get(m.y3);
+            ((t || (!o && i)) && !r) ||
               setTimeout(
                 () =>
                   null === VRHTML || void 0 === VRHTML
@@ -5942,9 +6432,9 @@
                     : VRHTML.VROverlay.ShowDashboard(null != r ? r : ""),
                 500
               ),
-              (this.m_appStateChangedAutorunDisposer = (0, g.EH)(() => {
-                const e = q.H.Instance.SceneApplicationState != s.xY.None;
-                this.isOverlayActive(d.PF) && !e && this.switchToOverlay(d.O5);
+              (this.m_appStateChangedAutorunDisposer = (0, l.EH)(() => {
+                const e = y.H.Instance.SceneApplicationState != s.xY.None;
+                this.isOverlayActive(m.PF) && !e && this.switchToOverlay(m.O5);
               })),
               VRHTML.VRDashboardManager.GetDashboardOverlayKeys().forEach(
                 (e) => {
@@ -5954,55 +6444,55 @@
               this.updateSiblingReferences();
           }
           componentDidUpdate(e, t) {
-            var i;
-            const n = this.getActiveOverlaySummonKey();
+            var o;
+            const i = this.getActiveOverlaySummonKey();
             let r = !1;
             if (
               (t.bShown !== this.state.bShown &&
-                (J.G.Instance.playSound(
-                  this.state.bShown ? J.y.DashboardOpen : J.y.DashboardClose
+                (p.G.Instance.playSound(
+                  this.state.bShown ? p.y.DashboardOpen : p.y.DashboardClose
                 ),
                 (r = !0)),
               this.state.bShown &&
                 !r &&
                 t.sActiveOverlayID != this.state.sActiveOverlayID)
             )
-              switch (n) {
-                case d.A4:
-                  J.G.Instance.playSound(J.y.ThemeSettings);
+              switch (i) {
+                case m.A4:
+                  p.G.Instance.playSound(p.y.ThemeSettings);
                   break;
-                case d.gB:
-                  J.G.Instance.playSound(J.y.ThemeDesktop);
+                case m.gB:
+                  p.G.Instance.playSound(p.y.ThemeDesktop);
                   break;
-                case d.O5:
-                  J.G.Instance.playSound(J.y.ThemeLibrary);
+                case m.O5:
+                  p.G.Instance.playSound(p.y.ThemeLibrary);
                   break;
-                case d.wB:
-                  J.G.Instance.playSound(J.y.ThemeStore);
+                case m.wB:
+                  p.G.Instance.playSound(p.y.ThemeStore);
                   break;
-                case d.PF:
-                  J.G.Instance.playSound(J.y.ThemeNowPlaying);
+                case m.PF:
+                  p.G.Instance.playSound(p.y.ThemeNowPlaying);
               }
-            const o = this.getActiveOverlayKey(),
-              a = o ? this.state.mapOverlayState.get(o) : null,
-              l = o ? t.mapOverlayState.get(o) : null,
+            const n = this.getActiveOverlayKey(),
+              a = n ? this.state.mapOverlayState.get(n) : null,
+              l = n ? t.mapOverlayState.get(n) : null,
               c = a && l && a.fScale != l.fScale;
             if (
               ((t.sActiveOverlayID != this.state.sActiveOverlayID || c) &&
                 a &&
                 this.isDesktopOverlayActive() &&
-                (null === (i = this.m_refDesktopView.current) ||
-                  void 0 === i ||
-                  i.onDesktopScaleChange(a.fScale)),
+                (null === (o = this.m_refDesktopView.current) ||
+                  void 0 === o ||
+                  o.onDesktopScaleChange(a.fScale)),
               t.sActiveOverlayID != this.state.sActiveOverlayID &&
                 (this.setState({ bKeyboardVisible: !1 }),
-                this.isOverlayActive(d.Y8)))
+                this.isOverlayActive(m.Y8)))
             )
-              switch (T.y.Instance.lastBigPictureEntryPoint) {
-                case T.b.QuickLaunch:
+              switch (b.y.Instance.lastBigPictureEntryPoint) {
+                case b.b.QuickLaunch:
                   this.m_bQuickLaunchShouldReturnToBigPicture = !0;
                   break;
-                case T.b.QuickStore:
+                case b.b.QuickStore:
                   this.m_bQuickStoreShouldReturnToBigPicture = !0;
               }
             if (t.bKeyboardVisible != this.state.bKeyboardVisible)
@@ -6032,18 +6522,18 @@
           }
           initializeOverlayState(e) {
             var t;
-            let i = 1;
+            let o = 1;
             if (e.startsWith("system.desktop.")) {
-              let n = "/settings/dashboard/desktopScale" + e.split(".")[2];
-              i = null !== (t = p.G3.settings.get(n)) && void 0 !== t ? t : 1;
+              let i = "/settings/dashboard/desktopScale" + e.split(".")[2];
+              o = null !== (t = f.G3.settings.get(i)) && void 0 !== t ? t : 1;
             }
-            let n = {
-              dockLocation: m.RA.Dashboard,
-              refOverlayWidget: l.createRef(),
+            let i = {
+              dockLocation: r.Dashboard,
+              refOverlayWidget: c.createRef(),
               xfInitial: null,
-              fScale: i,
+              fScale: o,
             };
-            this.state.mapOverlayState.set(e, n);
+            this.state.mapOverlayState.set(e, i);
           }
           updateSiblingReferences() {
             var e;
@@ -6052,27 +6542,36 @@
               e.setSiblingReferences(this.m_refDesktopView.current);
           }
           componentWillUnmount() {
+            var e;
             clearTimeout(this.m_timeoutHoverStateEnd),
-              clearTimeout(this.m_timeoutPopupMenuHide),
+              clearTimeout(this.m_timeoutPopoverMenuHide),
               this.m_appStateChangedAutorunDisposer &&
                 (this.m_appStateChangedAutorunDisposer(),
                 (this.m_appStateChangedAutorunDisposer = null)),
-              (0, s.OK)({ color_mult: 1, reflection_mult: 1 }),
+              (0, s.OK)({
+                color_mult: 1,
+                reflection_mult: 1,
+                roomview_mult: [1, 1, 1],
+                allow_skydome: !0,
+                allow_floorfar: !0,
+                allow_floornear: !0,
+              }),
               this.m_roomViewChangedEventHandle &&
                 (this.m_roomViewChangedEventHandle.unregister(),
                 (this.m_roomViewChangedEventHandle = null)),
-              this.m_linkStreamActiveEventHandle &&
-                (this.m_linkStreamActiveEventHandle.unregister(),
-                (this.m_linkStreamActiveEventHandle = null));
+              null === (e = this.m_linkStreamActiveEventHandle) ||
+                void 0 === e ||
+                e.unregister(),
+              (this.m_linkStreamActiveEventHandle = null);
           }
           static getDashboardDistance() {
-            if (Z.s_dashboardUserDistance) return Z.s_dashboardUserDistance;
-            const e = p.G3.settings.get(d.o1);
-            return e == j.Near
+            if (re.s_dashboardUserDistance) return re.s_dashboardUserDistance;
+            const e = f.G3.settings.get(m.o1);
+            return e == ne.Near
               ? 0.925
-              : e == j.Screenshot_Only
+              : e == ne.Screenshot_Only
               ? 5
-              : e == j.Middle
+              : e == ne.Middle
               ? 1.05
               : 1.2;
           }
@@ -6081,29 +6580,29 @@
             const t =
                 0.01 *
                 (null !==
-                  (e = p.G3.settings.get(
+                  (e = f.G3.settings.get(
                     "/settings/dashboard/verticalOffsetCm_2"
                   )) && void 0 !== e
                   ? e
                   : 0),
-              i = p.G3.settings.get(d.o1);
-            return i == j.Screenshot_Only
+              o = f.G3.settings.get(m.o1);
+            return o == ne.Screenshot_Only
               ? -0.57
-              : i == j.Near
+              : o == ne.Near
               ? -0.07 + t
-              : i == j.Middle
+              : o == ne.Middle
               ? -0.08 + t
               : -0.09 + t;
           }
           static getDashboardScale() {
             var e;
-            if (Z.s_dashboardUserScale) return Z.s_dashboardUserScale;
+            if (re.s_dashboardUserScale) return re.s_dashboardUserScale;
             let t = 1;
-            const i = p.G3.settings.get(d.o1),
-              n = i == j.Screenshot_Only;
+            const o = f.G3.settings.get(m.o1),
+              i = o == ne.Screenshot_Only;
             return (
-              (t = n ? 2 : i == j.Near ? 0.36 : i == j.Middle ? 0.41 : 0.47),
-              n ||
+              (t = i ? 2 : o == ne.Near ? 0.36 : o == ne.Middle ? 0.41 : 0.47),
+              i ||
                 (t *=
                   null !==
                     (e =
@@ -6118,7 +6617,7 @@
               t
             );
           }
-          OnSetDashboardFadeSuppression(e) {
+          onSetDashboardFadeSuppression(e) {
             e.suppress_dashboard_fade
               ? this.m_setSuppressingFade.add(e.for_id)
               : this.m_setSuppressingFade.delete(e.for_id),
@@ -6130,15 +6629,15 @@
           onLinkStreamActiveEvents(e) {
             this.setState({ bLinkStreamActive: e });
           }
-          OnSetDashboardForceBoundsVisible(e) {
-            this.setState((t, i) => {
-              let n = Object.assign({}, t.setForcingBoundsVisible);
+          onSetDashboardForceBoundsVisible(e) {
+            this.setState((t, o) => {
+              let i = Object.assign({}, t.setForcingBoundsVisible);
               return (
-                (n[e.for_overlay_key] = new Set(n[e.for_overlay_key])),
+                (i[e.for_overlay_key] = new Set(i[e.for_overlay_key])),
                 e.force_bounds_visible
-                  ? n[e.for_overlay_key].add(e.for_id)
-                  : n[e.for_overlay_key].delete(e.for_id),
-                { setForcingBoundsVisible: n }
+                  ? i[e.for_overlay_key].add(e.for_id)
+                  : i[e.for_overlay_key].delete(e.for_id),
+                { setForcingBoundsVisible: i }
               );
             });
           }
@@ -6157,7 +6656,7 @@
                 void 0 === t ||
                 t.onWindowViewDestroyed(e.overlay_key)
               : e.overlay_key == this.getActiveOverlayKey() &&
-                this.switchToOverlay(d.O5),
+                this.switchToOverlay(m.O5),
               this.state.mapOverlayState.has(e.overlay_key) &&
                 this.state.mapOverlayState.delete(e.overlay_key);
           }
@@ -6174,59 +6673,50 @@
               this.forceUpdate();
           }
           onWindowViewCreated(e) {
-            var t, i;
-            this.switchToOverlay(d.gB),
+            var t, o;
+            this.switchToOverlay(m.gB),
               null === (t = this.m_refDesktopView.current) ||
                 void 0 === t ||
                 t.onWindowViewCreated(e.overlay_key, e.hwnd),
-              null === (i = this.m_refDesktopTray.current) ||
-                void 0 === i ||
-                i.onWindowViewCreated(e.overlay_key, e.hwnd);
+              null === (o = this.m_refDesktopTray.current) ||
+                void 0 === o ||
+                o.onWindowViewCreated(e.overlay_key, e.hwnd);
           }
           onWindowViewDestroyed(e) {}
           onUpdateWindowList(e) {
             var t;
-            let i = new Map();
+            let o = new Map();
             e.windows.forEach((e) => {
-              i.set(e.hwnd, e);
+              o.set(e.hwnd, e);
             }),
               this.setState({
-                mapWindows: i,
+                mapWindows: o,
                 bWindowViewEnabled:
-                  null === (t = p.G3.settings.get(d.fj)) || void 0 === t || t,
+                  null === (t = f.G3.settings.get(m.fj)) || void 0 === t || t,
               });
           }
-          onUpdateDebugInfo(e) {
-            let t = {
-              inputFrameTime: e.input_frame_time,
-              mapOverlayFrameTimes: new Map(),
-            };
-            e.overlay_frame_times.forEach((e) => {
-              t.mapOverlayFrameTimes.set(e.overlay_key, e.frame_time);
-            }),
-              this.setState({ desktopViewDebugInfo: t });
-          }
-          onDockOverlay(e, t, i) {
-            var n, r;
+          onUpdateDebugInfo(e) {}
+          onDockOverlay(e, t, o) {
+            var i, n;
             if (
-              ((t != m.RA.LeftHand && t != m.RA.RightHand) ||
-                this.state.mapOverlayState.forEach((e, i) => {
-                  e.dockLocation == t && (e.dockLocation = m.RA.Dashboard);
+              ((t != r.LeftHand && t != r.RightHand) ||
+                this.state.mapOverlayState.forEach((e, o) => {
+                  e.dockLocation == t && (e.dockLocation = r.Dashboard);
                 }),
               (this.state.mapOverlayState.get(e).dockLocation = t),
-              (this.state.mapOverlayState.get(e).xfInitial = i),
-              t === m.RA.Dashboard)
+              (this.state.mapOverlayState.get(e).xfInitial = o),
+              t === r.Dashboard)
             )
-              if (e.startsWith(d.r4)) {
-                const t = Number.parseInt(e.substring(d.r4.length + 1));
-                null === (n = this.m_refDesktopView.current) ||
-                  void 0 === n ||
-                  n.onDesktopChange(t);
+              if (e.startsWith(m.r4)) {
+                const t = Number.parseInt(e.substring(m.r4.length + 1));
+                null === (i = this.m_refDesktopView.current) ||
+                  void 0 === i ||
+                  i.onDesktopChange(t);
               } else
-                e.startsWith(d.Vq) &&
-                  (null === (r = this.m_refDesktopView.current) ||
-                    void 0 === r ||
-                    r.onWindowViewChange(e));
+                e.startsWith(m.Vq) &&
+                  (null === (n = this.m_refDesktopView.current) ||
+                    void 0 === n ||
+                    n.onWindowViewChange(e));
             this.forceUpdate();
           }
           renderActiveOverlay() {
@@ -6234,28 +6724,28 @@
             const e = this.getActiveOverlay();
             if (!e) return null;
             const t = this.getActiveOverlayKey(),
-              i = this.state.mapOverlayState.get(t),
-              n = i ? i.fScale : 1;
-            return l.createElement(s.sl, {
+              o = this.state.mapOverlayState.get(t),
+              i = o ? o.fScale : 1;
+            return c.createElement(s.sl, {
               mountedId: e.mountable_id,
-              fDashboardScale: n,
+              fDashboardScale: i,
             });
           }
           computeFilteredOverlayTabs() {
-            if (this.screenshotMode) return [];
+            if (this.isScreenshotMode) return [];
             let e = [];
             for (let t in this.m_mapExternalOverlays) {
-              const i = this.m_mapExternalOverlays[t];
-              (void 0 === i.icon_overlay_key && null == i.icon_uri) ||
-                (i.summon_overlay_key &&
-                  i.summon_overlay_key != d.A4 &&
-                  i.summon_overlay_key != d.Y8 &&
-                  i.summon_overlay_key != d.Xl &&
-                  (i.summon_overlay_key.startsWith(d.r4) ||
-                    i.summon_overlay_key.startsWith(d.Vq) ||
-                    i.summon_overlay_key.startsWith(d.MZ) ||
-                    re(i.summon_overlay_key) ||
-                    e.push(i)));
+              const o = this.m_mapExternalOverlays[t];
+              (void 0 === o.icon_overlay_key && null == o.icon_uri) ||
+                (o.summon_overlay_key &&
+                  o.summon_overlay_key != m.A4 &&
+                  o.summon_overlay_key != m.Y8 &&
+                  o.summon_overlay_key != m.Xl &&
+                  (o.summon_overlay_key.startsWith(m.r4) ||
+                    o.summon_overlay_key.startsWith(m.Vq) ||
+                    o.summon_overlay_key.startsWith(m.MZ) ||
+                    ce(o.summon_overlay_key) ||
+                    e.push(o)));
             }
             return (
               (e = e.sort((e, t) => e.tab_name.localeCompare(t.tab_name))), e
@@ -6263,24 +6753,24 @@
           }
           findDashboardTab(e) {
             for (let t in this.m_mapExternalOverlays) {
-              let i = this.m_mapExternalOverlays[t];
-              if (i.summon_overlay_key == e) return i;
+              let o = this.m_mapExternalOverlays[t];
+              if (o.summon_overlay_key == e) return o;
             }
             return null;
           }
           switchToOverlay(e, t) {
-            var i, n;
+            var o, i;
             switch (e) {
-              case d.Y8:
-                T.y.Instance.latchBigPictureEntryPoint();
+              case m.Y8:
+                b.y.Instance.latchBigPictureEntryPoint();
                 break;
-              case d.O5:
+              case m.O5:
                 this.m_bQuickLaunchShouldReturnToBigPicture = !1;
                 break;
-              case d.wB:
+              case m.wB:
                 this.m_bQuickStoreShouldReturnToBigPicture = !1;
                 break;
-              case d.Us:
+              case m.Us:
                 let t = {
                     type: "show_app_binding",
                     app_key:
@@ -6288,28 +6778,28 @@
                         ? void 0
                         : VRHTML.VRApplications.GetSceneApplicationKey(),
                   },
-                  i = "bindingui/" + s.qA[(0, s.Op)()];
-                this.m_mailbox.SendMessage(i, t),
+                  o = "bindingui/" + s.qA[(0, s.Op)()];
+                this.m_mailbox.SendMessage(o, t),
                   (this.m_bQuickStoreShouldReturnToBigPicture = !1),
-                  (e = d.RM);
+                  (e = m.RM);
             }
-            if (e.startsWith(d.r4)) {
-              const t = Number.parseInt(e.substring(d.r4.length + 1));
+            if (e.startsWith(m.r4)) {
+              const t = Number.parseInt(e.substring(m.r4.length + 1));
               Number.isSafeInteger(t) &&
-                (null === (i = this.m_refDesktopView.current) ||
-                  void 0 === i ||
-                  i.onDesktopChange(t)),
-                (e = d.gB);
+                (null === (o = this.m_refDesktopView.current) ||
+                  void 0 === o ||
+                  o.onDesktopChange(t)),
+                (e = m.gB);
             }
             let r = this.findDashboardTab(e);
             return r
               ? (this.computeFilteredOverlayTabs().includes(r) &&
-                  p.G3.SetSettingsValue(
-                    d.nf,
-                    null !== (n = r.summon_overlay_key) && void 0 !== n ? n : ""
+                  f.G3.SetSettingsValue(
+                    m.nf,
+                    null !== (i = r.summon_overlay_key) && void 0 !== i ? i : ""
                   ),
                 this.setState({ sActiveOverlayID: r.mountable_id }),
-                x.e.instance.RecordUIEvent(
+                v.e.instance.RecordUIEvent(
                   "SetDashboardOverlay",
                   null != t ? t : "Button",
                   e
@@ -6339,37 +6829,69 @@
           getActiveOverlayKey() {
             var e;
             let t = this.getActiveOverlaySummonKey();
-            return t == d.gB
+            return t == m.gB
               ? null === (e = this.m_refDesktopView.current) || void 0 === e
                 ? void 0
                 : e.sCurrentOverlayKey
               : t;
           }
           hideMessageOverlay() {
-            this.getActiveOverlaySummonKey() == d.f8 &&
-              this.switchToOverlay(d.O5);
+            this.getActiveOverlaySummonKey() == m.f8 &&
+              this.switchToOverlay(m.O5);
+          }
+          onShowDashboardRequested(e) {
+            var t;
+            f.G3.settings.get("/settings/dashboard/enableDashboard") &&
+              (this.show(
+                null !== (t = e.reason) && void 0 !== t ? t : "unknown"
+              ),
+              e.overlay_key && this.switchToOverlay(e.overlay_key),
+              this.setDashboardVisibility(
+                !0,
+                e.tracked_device_index,
+                e.reason
+              ));
+          }
+          onHideDashboardRequested(e) {
+            VRHTML.VRDashboardManager.HasMessageOverlay()
+              ? this.switchToOverlay(m.f8)
+              : (this.hideMessageOverlay(),
+                this.m_mailbox.SendMessage("keyboard", {
+                  type: "hide_keyboard",
+                }),
+                this.hide(e.reason),
+                this.setDashboardVisibility(!1, void 0, e.reason));
+          }
+          setDashboardVisibility(e, t, o) {
+            let i = {
+              type: "set_dashboard_visibility",
+              tracked_device_index: t,
+              visible: e,
+              reason: o,
+            };
+            this.m_mailbox.SendMessage("vrcompositor_systemlayer", i);
           }
           show(e) {
             if (this.isShown()) return;
-            x.e.instance.StartDashboardSession(e),
+            v.e.instance.StartDashboardSession(e),
               this.m_mailbox.SendMessage("desktopview", {
                 type: "request_window_list_update",
               });
-            const t = q.H.Instance.SceneAppKey,
-              i = q.H.Instance.SceneAppIsHome;
+            const t = y.H.Instance.SceneAppKey,
+              o = y.H.Instance.SceneAppIsHome;
             t &&
               t != this.state.sLastShownAppKey &&
               (this.setState({ sLastShownAppKey: t }),
-              this.switchToOverlay(i ? d.O5 : d.PF)),
+              this.switchToOverlay(o ? m.O5 : m.PF)),
               this.setState({ bShown: !0 });
-            let n = { type: Z.k_sRequestDashboardTabsMessage };
-            this.m_mailbox.SendMessage("vrcompositor_systemlayer", n),
+            let i = { type: re.k_sRequestDashboardTabsMessage };
+            this.m_mailbox.SendMessage("vrcompositor_systemlayer", i),
               (0, s.qI)();
           }
           hide(e) {
             this.isShown() &&
-              (this.setState({ bShown: !1, eShowPopupMenu: Q.None }),
-              x.e.instance.EndDashboardSession(e));
+              (this.setState({ bShown: !1, eShowPopoverMenu: se.None }),
+              v.e.instance.EndDashboardSession(e));
           }
           isShown() {
             return this.state.bShown;
@@ -6386,22 +6908,21 @@
           }
           onQuickLaunchButtonClick() {
             this.m_bQuickLaunchShouldReturnToBigPicture &&
-            T.y.Instance.lastBigPictureEntryPoint == T.b.QuickLaunch &&
-            !this.isOverlayActive(d.Y8)
-              ? T.y.Instance.openBigPictureThroughLastEntryPoint()
-              : this.switchToOverlay(d.O5);
+            b.y.Instance.lastBigPictureEntryPoint == b.b.QuickLaunch &&
+            !this.isOverlayActive(m.Y8)
+              ? b.y.Instance.openBigPictureThroughLastEntryPoint()
+              : this.switchToOverlay(m.O5);
           }
           onQuickStoreButtonClick() {
             this.m_bQuickStoreShouldReturnToBigPicture &&
-            T.y.Instance.lastBigPictureEntryPoint == T.b.QuickStore &&
-            !this.isOverlayActive(d.Y8)
-              ? T.y.Instance.openBigPictureThroughLastEntryPoint()
-              : this.switchToOverlay(d.wB);
+            b.y.Instance.lastBigPictureEntryPoint == b.b.QuickStore &&
+            !this.isOverlayActive(m.Y8)
+              ? b.y.Instance.openBigPictureThroughLastEntryPoint()
+              : this.switchToOverlay(m.wB);
           }
           onRecenterClick() {
-            const e = VRHTML.BIsLinkClient();
             if (this.state.bLinkStreamActive)
-              if (e) {
+              if (VRHTML.BIsLinkClient()) {
                 let e = {
                   type: "instant_room_setup",
                   returnAddress: this.m_mailbox.name,
@@ -6409,8 +6930,8 @@
                 this.m_mailbox.SendMessage("driver_hmd", e);
               } else console.log("onRecenterClick not handles on server");
             else
-              this.m_mailbox.SendMessage(ie.BB, {
-                type: ie.KU,
+              this.m_mailbox.SendMessage(ae.BB, {
+                type: ae.KU,
                 countdown_seconds: 3,
               });
           }
@@ -6432,74 +6953,88 @@
             const e = !!(null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.SceneAppRunning()),
-              t = p.G3.settings.get("/settings/dashboard/allowAppQuitting"),
-              i = p.G3.settings.get("/settings/dashboard/allowSystemShutdown");
-            let n = !1;
+              t = f.G3.settings.get("/settings/dashboard/allowAppQuitting"),
+              o = f.G3.settings.get("/settings/dashboard/allowSystemShutdown");
+            let i = !1;
             VRHTML &&
               VRHTML.VROverlay.GetPrimaryDashboardDevice() >= 0 &&
-              (n = VRHTML.VRProperties.GetBoolProperty(
+              (i = VRHTML.VRProperties.GetBoolProperty(
                 VRHTML.VROverlay.GetPrimaryDashboardDevice(),
                 s.Uk.DeviceCanPowerOff_Bool
               ));
-            const r = q.H.Instance.SceneAppName,
-              o = q.H.Instance.SceneAppIsHome;
-            let a, c;
-            (a = o
-              ? (0, u.Xx)("#Exit_SteamVR_Home")
+            const r = y.H.Instance.SceneAppName,
+              n = y.H.Instance.SceneAppIsHome;
+            let a, l;
+            (a = n
+              ? (0, g.Xx)("#Exit_SteamVR_Home")
               : r
-              ? (0, u.Xx)("#PowerMenuQuitSceneApp", r)
-              : (0, u.Xx)("#PowerMenuQuitSceneApp_NoApp")),
-              (c = o
+              ? (0, g.Xx)("#PowerMenuQuitSceneApp", r)
+              : (0, g.Xx)("#PowerMenuQuitSceneApp_NoApp")),
+              (l = n
                 ? "/dashboard/images/icons/svr_svrhome_quit_alt.svg"
                 : "/dashboard/images/icons/svr_app_quit.svg");
-            const h = this.findDashboardTab(d.Y8);
-            return this.renderPopupMenu(
-              l.createElement(
-                l.Fragment,
+            const d = this.findDashboardTab(m.Y8),
+              u = this.findDashboardTab(m.T2),
+              h = d && u;
+            return this.renderPopoverMenu(
+              c.createElement(
+                c.Fragment,
                 null,
-                h &&
-                  l.createElement(m.dy, {
-                    label: (0, u.Xx)("#PowerMenuSteamOverlay"),
-                    lineBelow: !0,
+                u &&
+                  c.createElement(T.dy, {
+                    label:
+                      (0, g.Xx)("#PowerMenuSteamOverlay") +
+                      (h ? " (GamepadUI)" : ""),
+                    lineBelow: !h,
                     onClick: () => {
-                      this.switchToOverlay(d.Y8), this.showPopupMenu(Q.None);
+                      this.switchToOverlay(m.T2), this.showPopoverMenu(se.None);
                     },
                   }),
-                n &&
-                  l.createElement(m.dy, {
-                    label: (0, u.Xx)("#PowerMenuTurnOffController"),
+                d &&
+                  c.createElement(T.dy, {
+                    label:
+                      (0, g.Xx)("#PowerMenuSteamOverlay") +
+                      (h ? " (Tenfoot)" : ""),
+                    lineBelow: !0,
+                    onClick: () => {
+                      this.switchToOverlay(m.Y8), this.showPopoverMenu(se.None);
+                    },
+                  }),
+                i &&
+                  c.createElement(T.dy, {
+                    label: (0, g.Xx)("#PowerMenuTurnOffController"),
                     imageUrl:
                       "/dashboard/images/icons/svr_controller_power.svg",
                     onClick: () => {
                       null === VRHTML ||
                         void 0 === VRHTML ||
                         VRHTML.TurnOffVRController(),
-                        this.showPopupMenu(Q.None);
+                        this.showPopoverMenu(se.None);
                     },
                   }),
                 t &&
                   e &&
-                  l.createElement(m.dy, {
+                  c.createElement(T.dy, {
                     label: a,
-                    imageUrl: c,
+                    imageUrl: l,
                     onClick: () => {
                       null === VRHTML ||
                         void 0 === VRHTML ||
                         VRHTML.QuitSceneApp(),
-                        this.showPopupMenu(Q.None);
+                        this.showPopoverMenu(se.None);
                     },
                   }),
-                l.createElement(m.dy, {
-                  label: (0, u.Xx)("#PowerMenuExitVR"),
+                c.createElement(T.dy, {
+                  label: (0, g.Xx)("#PowerMenuExitVR"),
                   imageUrl: "/dashboard/images/icons/svr_svr_quit_alt.svg",
                   onClick: () =>
                     null === VRHTML || void 0 === VRHTML
                       ? void 0
                       : VRHTML.QuitOpenVR(),
                 }),
-                i &&
-                  l.createElement(m.dy, {
-                    label: (0, u.Xx)("#PowerMenuShutdown"),
+                o &&
+                  c.createElement(T.dy, {
+                    label: (0, g.Xx)("#PowerMenuShutdown"),
                     imageUrl: "/dashboard/images/icons/svr_svr_quit_alt.svg",
                     onClick: () =>
                       null === VRHTML || void 0 === VRHTML
@@ -6509,64 +7044,65 @@
               )
             );
           }
-          startPopupMenuTimeout(e) {
-            this.m_timeoutPopupMenuHide = window.setTimeout(() => {
-              this.setState({ eShowPopupMenu: Q.None });
+          startPopoverMenuTimeout(e) {
+            this.m_timeoutPopoverMenuHide = window.setTimeout(() => {
+              this.setState({ eShowPopoverMenu: se.None });
             }, e);
           }
-          clearPopupMenuTimeout() {
-            this.m_timeoutPopupMenuHide &&
-              (clearTimeout(this.m_timeoutPopupMenuHide),
-              (this.m_timeoutPopupMenuHide = 0));
+          clearPopoverMenuTimeout() {
+            this.m_timeoutPopoverMenuHide &&
+              (clearTimeout(this.m_timeoutPopoverMenuHide),
+              (this.m_timeoutPopoverMenuHide = 0));
           }
-          showPopupMenu(e) {
-            this.setState({ eShowPopupMenu: e }), this.clearPopupMenuTimeout();
+          showPopoverMenu(e) {
+            this.setState({ eShowPopoverMenu: e }),
+              this.clearPopoverMenuTimeout();
           }
-          renderPopupMenu(e) {
-            return l.createElement(
+          renderPopoverMenu(e) {
+            return c.createElement(
               "div",
               {
                 className: "PowerMenuContainer",
-                onMouseLeave: this.popupMenuMouseLeave,
-                onMouseEnter: this.clearPopupMenuTimeout,
-                ref: this.m_refPopupMenu,
+                onMouseLeave: this.popoverMenuMouseLeave,
+                onMouseEnter: this.clearPopoverMenuTimeout,
+                ref: this.m_refPopoverMenu,
               },
-              l.createElement(c.q, { className: "PowerMenuPanel" }, e)
+              c.createElement(u.q, { className: "PowerMenuPanel" }, e)
             );
           }
-          popupMenuMouseLeave(e) {
+          popoverMenuMouseLeave(e) {
             0 == e.buttons
-              ? this.startPopupMenuTimeout(100)
+              ? this.startPopoverMenuTimeout(100)
               : window.document.addEventListener(
                   "mouseup",
-                  this.popupMenuMouseUp
+                  this.popoverMenuMouseUp
                 );
           }
-          popupMenuMouseUp(e) {
+          popoverMenuMouseUp(e) {
             window.document.removeEventListener(
               "mouseup",
-              this.popupMenuMouseUp
+              this.popoverMenuMouseUp
             ),
-              this.m_refPopupMenu.current &&
-                !(function (e, t, i) {
-                  let n = i.getBoundingClientRect();
+              this.m_refPopoverMenu.current &&
+                !(function (e, t, o) {
+                  let i = o.getBoundingClientRect();
                   return (
-                    e >= n.left && e <= n.right && t >= n.top && t <= n.bottom
+                    e >= i.left && e <= i.right && t >= i.top && t <= i.bottom
                   );
-                })(e.clientX, e.clientY, this.m_refPopupMenu.current) &&
-                this.startPopupMenuTimeout(100);
+                })(e.clientX, e.clientY, this.m_refPopoverMenu.current) &&
+                this.startPopoverMenuTimeout(100);
           }
           renderStatusBarTitle() {
-            var e, t, i, n;
+            var e, t, o, i;
             let r = this.getActiveOverlay();
             if (!r) return null;
             if (
-              (r.summon_overlay_key == d.Y8 &&
-                (T.y.Instance.lastBigPictureEntryPoint == T.b.QuickLaunch
-                  ? (r = this.findDashboardTab(d.O5))
-                  : T.y.Instance.lastBigPictureEntryPoint == T.b.QuickStore &&
-                    (r = this.findDashboardTab(d.wB))),
-              r.summon_overlay_key == d.gB)
+              (r.summon_overlay_key == m.Y8 &&
+                (b.y.Instance.lastBigPictureEntryPoint == b.b.QuickLaunch
+                  ? (r = this.findDashboardTab(m.O5))
+                  : b.y.Instance.lastBigPictureEntryPoint == b.b.QuickStore &&
+                    (r = this.findDashboardTab(m.wB))),
+              r.summon_overlay_key == m.gB)
             ) {
               if (
                 -1 ==
@@ -6578,41 +7114,41 @@
                   null === (t = this.m_refDesktopView.current) || void 0 === t
                     ? void 0
                     : t.currentWindowHwnd;
-                return l.createElement(m.Rk, {
+                return c.createElement(T.Rk, {
                   name:
-                    null === (i = this.state.mapWindows.get(e)) || void 0 === i
+                    null === (o = this.state.mapWindows.get(e)) || void 0 === o
                       ? void 0
-                      : i.title,
+                      : o.title,
                   iconUrl: this.getDashboardIconUri(r),
                 });
               }
-              return l.createElement(m.Rk, {
+              return c.createElement(T.Rk, {
                 name:
                   "Desktop " +
-                  (null === (n = this.m_refDesktopView.current) || void 0 === n
+                  (null === (i = this.m_refDesktopView.current) || void 0 === i
                     ? void 0
-                    : n.currentDesktopIndex),
+                    : i.currentDesktopIndex),
                 iconUrl: this.getDashboardIconUri(r),
               });
             }
-            return r.summon_overlay_key == d.RM
-              ? l.createElement(m.Rk, {
-                  name: (0, u.Xx)("#BindingUI_WindowTitle_ControllerBinding"),
+            return r.summon_overlay_key == m.RM
+              ? c.createElement(T.Rk, {
+                  name: (0, g.Xx)("#BindingUI_WindowTitle_ControllerBinding"),
                   iconUrl: "/dashboard/images/icons/svr_settings.svg",
                 })
-              : l.createElement(m.Rk, {
+              : c.createElement(T.Rk, {
                   name: r.tab_name,
                   iconUrl: this.getDashboardIconUri(r),
                 });
           }
           get isDarkMode() {
             return (
-              (this.state.bDesktopDarkMode && this.isOverlayActive(d.gB)) ||
+              (this.state.bDesktopDarkMode && this.isOverlayActive(m.gB)) ||
               this.state.bTheaterMode
             );
           }
-          get screenshotMode() {
-            return p.G3.settings.get(d.o1) == j.Screenshot_Only;
+          get isScreenshotMode() {
+            return f.G3.settings.get(m.o1) == ne.Screenshot_Only;
           }
           get isTheaterMode() {
             return this.state.bTheaterMode;
@@ -6624,33 +7160,33 @@
                 ? void 0
                 : VRHTML.VRChaperoneSetup.GetLiveCollisionBoundsInfo();
             if (!t) return [];
-            let i = [];
-            const n =
-              null !== (e = p.G3.settings.get(d.yQ)) && void 0 !== e ? e : 0.7;
+            let o = [];
+            const i =
+              null !== (e = f.G3.settings.get(m.yQ)) && void 0 !== e ? e : 0.7;
             for (let e of t) {
               let t = (0, s.M9)((0, s.eQ)(e[3], e[0])),
                 r = (0, s.M9)((0, s.eQ)(e[1], e[0])),
-                o = (0, s.dq)(t, r),
-                a = (0, s.Pd)((0, s.tS)(t, r, o)),
-                c = (0, s.LY)((0, s.eQ)(e[0], e[3]));
-              if (c < 0.4) continue;
-              let d = Math.max(1, Math.floor(c));
+                n = (0, s.dq)(t, r),
+                a = (0, s.Pd)((0, s.tS)(t, r, n)),
+                l = (0, s.LY)((0, s.eQ)(e[0], e[3]));
+              if (l < 0.4) continue;
+              let d = Math.max(1, Math.floor(l));
               for (let t = 0; t < d; t++) {
                 let r = (t + 1) / (d + 1),
-                  o = (0, s.Oq)();
-                (o.rotation = a),
-                  (o.translation = (0, s.q9)(r, e[0], e[3])),
-                  (o.scale = { x: 0.005, y: 0.005, z: n });
-                let c = l.createElement(
+                  n = (0, s.Oq)();
+                (n.rotation = a),
+                  (n.translation = (0, s.q9)(r, e[0], e[3])),
+                  (n.scale = { x: 0.005, y: 0.005, z: i });
+                let l = c.createElement(
                   s.wx,
-                  { transform: o },
-                  l.createElement(
+                  { transform: n },
+                  c.createElement(
                     s.Dd,
                     { value: 0.25 },
-                    l.createElement(
+                    c.createElement(
                       s.VW,
                       { color: { r: 0.2, g: 0.2, b: 0.2 } },
-                      l.createElement(s.gQ, {
+                      c.createElement(s.gQ, {
                         source: "laser_pointer",
                         wireframe: !1,
                         culling: s.xj.Backface,
@@ -6658,24 +7194,24 @@
                     )
                   )
                 );
-                i.push(c);
+                o.push(l);
               }
-              if (i.length > 20) break;
+              if (o.length > 20) break;
             }
-            return i;
+            return o;
           }
           render() {
             var e, t;
-            const i =
+            const o =
                 null !==
-                  (e = p.G3.settings.get(
+                  (e = f.G3.settings.get(
                     "/settings/dashboard/theaterModeBrightness"
                   )) && void 0 !== e
                   ? e
                   : 1,
-              n =
+              i =
                 null !==
-                  (t = p.G3.settings.get(
+                  (t = f.G3.settings.get(
                     "/settings/dashboard/theaterModeReflection"
                   )) && void 0 !== t
                   ? t
@@ -6683,37 +7219,89 @@
             if (this.state.bShown) {
               const e =
                   this.m_setSuppressingFade.size > 0 &&
-                  this.getActiveOverlaySummonKey() == d.A4,
-                t = p.G3.settings.get(
+                  this.getActiveOverlaySummonKey() == m.A4,
+                t = f.G3.settings.get(
                   "/settings/dashboard/omitDashboardFadeWithSteamVRHome"
                 ),
-                r = !q.H.Instance.SceneAppIsHome || !t;
-              this.screenshotMode
-                ? (0, s.OK)({ color_mult: 0, reflection_mult: 0 })
-                : r && !e
-                ? this.isTheaterMode
-                  ? (0, s.OK)({
-                      color_mult: Math.pow(i, 2.2),
-                      reflection_mult: Math.pow(n, 2.2),
-                    })
-                  : this.isDarkMode
-                  ? (0, s.OK)({ color_mult: 0.1, reflection_mult: 1 })
-                  : q.H.Instance.SceneApplicationState !== s.xY.None
-                  ? (0, s.OK)({ color_mult: 0.15, reflection_mult: 1 })
-                  : (0, s.OK)({ color_mult: 1, reflection_mult: 1 })
-                : (0, s.OK)({ color_mult: 1, reflection_mult: 1 });
-            } else (0, s.OK)({ color_mult: 1, reflection_mult: 1 });
+                r = !y.H.Instance.SceneAppIsHome || !t;
+              if (this.isScreenshotMode)
+                (0, s.OK)({
+                  color_mult: 0,
+                  reflection_mult: 0,
+                  roomview_mult: [1, 1, 1],
+                  allow_skydome: !0,
+                  allow_floorfar: !0,
+                  allow_floornear: !0,
+                });
+              else if (r && !e)
+                if (this.isTheaterMode) {
+                  const e = f.G3.settings.get(
+                    "/settings/dashboard/theaterPosition"
+                  );
+                  (0, s.OK)({
+                    color_mult: Math.pow(o, 2.2),
+                    reflection_mult: Math.pow(i, 2.2),
+                    roomview_mult: [0.12, 0.12, 0.6],
+                    allow_skydome: !1,
+                    allow_floorfar: !1,
+                    allow_floornear: e != ne.Far,
+                  });
+                } else
+                  this.isDarkMode
+                    ? (0, s.OK)({
+                        color_mult: 0.1,
+                        reflection_mult: 1,
+                        roomview_mult: [1, 1, 1],
+                        allow_skydome: !0,
+                        allow_floorfar: !0,
+                        allow_floornear: !0,
+                      })
+                    : y.H.Instance.SceneApplicationState !== s.xY.None
+                    ? (0, s.OK)({
+                        color_mult: 0.15,
+                        reflection_mult: 1,
+                        roomview_mult: [1, 1, 1],
+                        allow_skydome: !0,
+                        allow_floorfar: !0,
+                        allow_floornear: !0,
+                      })
+                    : (0, s.OK)({
+                        color_mult: 1,
+                        reflection_mult: 1,
+                        roomview_mult: [1, 1, 1],
+                        allow_skydome: !0,
+                        allow_floorfar: !0,
+                        allow_floornear: !0,
+                      });
+              else
+                (0, s.OK)({
+                  color_mult: 1,
+                  reflection_mult: 1,
+                  roomview_mult: [1, 1, 1],
+                  allow_skydome: !0,
+                  allow_floorfar: !0,
+                  allow_floornear: !0,
+                });
+            } else
+              (0, s.OK)({
+                color_mult: 1,
+                reflection_mult: 1,
+                roomview_mult: [1, 1, 1],
+                allow_skydome: !0,
+                allow_floorfar: !0,
+                allow_floornear: !0,
+              });
             const r = this.getActiveOverlaySummonKey(),
-              o = this.state.bShown && this.state.setForcingBoundsVisible[r],
-              a = o && o.size > 0;
-            let c = [];
+              n = this.state.bShown && this.state.setForcingBoundsVisible[r],
+              a = n && n.size > 0;
+            let l = [];
             return (
-              a && (c = this.getCollisionBoundsFadeVisualizationElements()),
-              l.createElement(
+              a && (l = this.getCollisionBoundsFadeVisualizationElements()),
+              c.createElement(
                 "div",
                 { className: "DashboardMain" },
-                a && l.createElement(ne, null),
-                a && l.createElement("span", null, c),
+                a && c.createElement(le, null),
+                a && c.createElement("span", null, l),
                 this.state.bShown && this.renderDashboard(),
                 this.renderInternalOverlays(),
                 this.renderOverlayWidgets()
@@ -6735,11 +7323,10 @@
             let e = this.getActiveOverlayKey(),
               t =
                 this.state.mapOverlayState.has(e) &&
-                (this.state.mapOverlayState.get(e).dockLocation ==
-                  m.RA.LeftHand ||
+                (this.state.mapOverlayState.get(e).dockLocation == r.LeftHand ||
                   this.state.mapOverlayState.get(e).dockLocation ==
-                    m.RA.RightHand);
-            return re(this.getActiveOverlaySummonKey()) || t
+                    r.RightHand);
+            return ce(this.getActiveOverlaySummonKey()) || t
               ? m.t3
               : this.state.sActiveOverlayID + "_TopCenter";
           }
@@ -6747,22 +7334,21 @@
             let e = this.getActiveOverlayKey(),
               t =
                 this.state.mapOverlayState.has(e) &&
-                (this.state.mapOverlayState.get(e).dockLocation ==
-                  m.RA.LeftHand ||
+                (this.state.mapOverlayState.get(e).dockLocation == r.LeftHand ||
                   this.state.mapOverlayState.get(e).dockLocation ==
-                    m.RA.RightHand);
-            return re(this.getActiveOverlaySummonKey()) || t
+                    r.RightHand);
+            return ce(this.getActiveOverlaySummonKey()) || t
               ? m.Gl
               : this.state.sActiveOverlayID + "_BottomCenter";
           }
           renderExternalOverlayControlBarButton(e) {
             const t = this.getDashboardIconUri(e),
-              i = m.IO.Center;
-            return l.createElement(m.B8, {
+              o = T.IO.Center;
+            return c.createElement(T.B8, {
               key: e.mountable_id,
               label: e.tab_name,
               imageUrl: t,
-              imageStyle: i,
+              imageStyle: o,
               active: this.isOverlayActive(e.summon_overlay_key),
               onClick: () => this.switchToOverlay(e.summon_overlay_key),
             });
@@ -6770,18 +7356,18 @@
           isDesktopTrayActive() {
             var e;
             return (
-              (this.isOverlayActive(d.gB) ||
+              (this.isOverlayActive(m.gB) ||
                 (null === (e = this.getActiveOverlaySummonKey()) || void 0 === e
                   ? void 0
                   : e.startsWith("system.window"))) &&
-              (this.state.eShowPopupMenu == Q.None ||
-                this.state.eShowPopupMenu == Q.Windows)
+              (this.state.eShowPopoverMenu == se.None ||
+                this.state.eShowPopoverMenu == se.Windows)
             );
           }
           isDesktopOverlayActive() {
             var e;
             return (
-              this.isOverlayActive(d.gB) ||
+              this.isOverlayActive(m.gB) ||
               (null === (e = this.getActiveOverlaySummonKey()) || void 0 === e
                 ? void 0
                 : e.startsWith("system.window"))
@@ -6805,205 +7391,205 @@
               this.m_mailbox.SendMessage(e.sMailbox, t);
           }
           renderControlBar(e, t) {
-            var i, n, r, o, a, h, g, v;
-            const y = this.state.bLaserMouseSuppressionActive ? 0.1 : 1,
-              b = this.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null,
-              f = this.isDarkMode ? { r: 0.25, g: 0.25, b: 0.25 } : null,
-              S = Z.k_nControlBarWidthMeters,
-              C =
-                null ===
-                  (i = p.G3.settings.get(
-                    "/settings/dashboard/showPowerOptions"
-                  )) ||
-                void 0 === i ||
-                i,
-              k =
-                null ===
-                  (n = p.G3.settings.get("/settings/dashboard/showDesktop")) ||
-                void 0 === n ||
-                n,
+            var o, i, r, n, a, l, d, h;
+            const p = this.state.bLaserMouseSuppressionActive ? 0.1 : 1,
+              v = this.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null,
+              S = this.isDarkMode ? { r: 0.25, g: 0.25, b: 0.25 } : null,
+              k = this.isDarkMode ? 0.02 : 0.05,
+              C = re.k_nControlBarWidthMeters,
               M =
                 null ===
-                  (r = p.G3.settings.get(
+                  (o = f.G3.settings.get(
+                    "/settings/dashboard/showPowerOptions"
+                  )) ||
+                void 0 === o ||
+                o,
+              w =
+                null ===
+                  (i = f.G3.settings.get("/settings/dashboard/showDesktop")) ||
+                void 0 === i ||
+                i,
+              R =
+                null ===
+                  (r = f.G3.settings.get(
                     "/settings/dashboard/showQuickStore"
                   )) ||
                 void 0 === r ||
                 r,
-              R = !(
+              D = !(
                 null !==
-                  (o = p.G3.settings.get("/settings/dashboard/arcadeMode")) &&
-                void 0 !== o &&
-                o
+                  (n = f.G3.settings.get("/settings/dashboard/arcadeMode")) &&
+                void 0 !== n &&
+                n
               ),
-              w = this.getPeerButtonInfo(),
-              D = VRHTML.BIsLinkServer(),
-              E = (VRHTML.BIsLinkClient(), this.state.bLinkStreamActive || D),
-              I = q.H.Instance.SceneApplicationState,
-              x = q.H.Instance.SceneAppIsHome,
-              P =
+              E = this.getPeerButtonInfo(),
+              x = VRHTML.BIsLinkServer(),
+              P = y.H.Instance.SceneApplicationState,
+              O = y.H.Instance.SceneAppIsHome,
+              V =
                 null ===
-                  (a = p.G3.settings.get(
+                  (a = f.G3.settings.get(
                     "/settings/dashboard/allowCurvature"
                   )) ||
                 void 0 === a ||
                 a
-                  ? d.ml
+                  ? m.ml
                   : null,
-              O = q.H.Instance.SceneAppKey;
-            let L = "images/appimage_default.png";
-            O && (L = "/app/image?app_key=" + O);
-            const V =
-                null !== (h = p.G3.settings.get(d.Av)) && void 0 !== h && h,
-              B =
-                null !== (g = p.G3.settings.get(d.k_)) && void 0 !== g ? g : 0;
-            let A = V && B > 0,
-              N =
+              L = y.H.Instance.SceneAppKey;
+            let B = "images/appimage_default.png";
+            L && (B = "/app/image?app_key=" + L);
+            const N =
+                null !== (l = f.G3.settings.get(m.Av)) && void 0 !== l && l,
+              H =
+                null !== (d = f.G3.settings.get(m.k_)) && void 0 !== d ? d : 0;
+            let A = N && H > 0,
+              F =
                 null !==
-                  (v = p.G3.settings.get(
+                  (h = f.G3.settings.get(
                     "/settings/dashboard/allowTheaterMode"
                   )) &&
-                void 0 !== v &&
-                v,
-              H = !0;
-            (this.state.bLinkStreamActive || D) &&
-              ((N = !1), D && ((A = !1), (H = !1)));
-            let F = { y: -0.25, z: 0 };
+                void 0 !== h &&
+                h,
+              U = !0;
+            this.state.bLinkStreamActive &&
+              ((F = !1), x && ((A = !1), (U = !1)));
+            let W = { y: -0.25, z: 0 };
             return (
-              this.isOverlayActive(d.gB) && (F = { y: -0.4, z: 0 }),
-              l.createElement(
+              this.isOverlayActive(m.gB) && (W = { y: -0.4, z: 0 }),
+              c.createElement(
                 s.Dd,
-                { value: y },
-                l.createElement(
+                { value: p },
+                c.createElement(
                   s.VW,
-                  { color: b },
-                  l.createElement(
+                  { color: v },
+                  c.createElement(
                     s.s_,
                     {
-                      curvature_origin_id: P,
-                      width: S,
+                      curvature_origin_id: V,
+                      width: C,
                       interactive: !1,
                       debug_name: "ControlBarBackground",
                       sampler: s.Vv.SingleTap,
-                      reflect: 0.05,
+                      reflect: k,
                     },
-                    l.createElement("div", {
+                    c.createElement("div", {
                       className: "ControlBarBackground",
                     })
                   ),
-                  l.createElement(
+                  c.createElement(
                     s.wx,
                     { translation: { z: 1e-5 } },
-                    l.createElement(
+                    c.createElement(
                       s.s_,
                       {
-                        curvature_origin_id: P,
-                        width: S,
+                        curvature_origin_id: V,
+                        width: C,
                         interactive: !0,
                         id: m.WR,
                         debug_name: "Controls",
                       },
-                      l.createElement(
-                        c.q,
+                      c.createElement(
+                        u.q,
                         { className: "ControlBar MainControlBar" },
-                        l.createElement(
+                        c.createElement(
                           "div",
                           { className: "Section Left" },
-                          C &&
-                            l.createElement(m.NT, {
+                          M &&
+                            c.createElement(T.NT, {
                               imageUrl:
                                 "/dashboard/images/icons/svr_menu_c.svg",
-                              label: (0, u.Xx)("#Menu"),
-                              style: m.zk.Small,
-                              onClick: () => this.showPopupMenu(Q.Power),
-                              onMouseEnter: this.clearPopupMenuTimeout,
+                              label: (0, g.Xx)("#Menu"),
+                              style: T.zk.Small,
+                              onClick: () => this.showPopoverMenu(se.Power),
+                              onMouseEnter: this.clearPopoverMenuTimeout,
                               onMouseLeave: () =>
-                                this.startPopupMenuTimeout(500),
+                                this.startPopoverMenuTimeout(500),
                             }),
-                          k &&
-                            l.createElement(m.NT, {
-                              style: m.zk.Small,
+                          w &&
+                            c.createElement(T.NT, {
+                              style: T.zk.Small,
                               imageUrl:
                                 "/dashboard/images/icons/svr_desktop_alt.svg",
-                              label: (0, u.Xx)("#Desktops"),
+                              label: (0, g.Xx)("#Desktops"),
                               active: this.isDesktopTrayActive(),
-                              onClick: () => this.switchToOverlay(d.gB),
+                              onClick: () => this.switchToOverlay(m.gB),
                             }),
-                          l.createElement(
-                            m.dw,
-                            { style: m.zk.Small },
-                            l.createElement(
-                              l.Fragment,
+                          c.createElement(
+                            T.dw,
+                            { style: T.zk.Small },
+                            c.createElement(
+                              c.Fragment,
                               null,
                               e.map(this.renderExternalOverlayControlBarButton),
                               t.length > 0 &&
-                                l.createElement(m.B8, {
+                                c.createElement(T.B8, {
                                   imageUrl:
                                     "/dashboard/images/icons/svr_more.svg",
-                                  label: (0, u.Xx)(
+                                  label: (0, g.Xx)(
                                     "#X_More_Overlays",
                                     t.length
                                   ),
                                   active:
-                                    this.state.eShowPopupMenu ==
-                                    Q.ExternalOverlays,
+                                    this.state.eShowPopoverMenu ==
+                                    se.ExternalOverlays,
                                   onClick: () =>
-                                    this.showPopupMenu(Q.ExternalOverlays),
-                                  onMouseEnter: this.clearPopupMenuTimeout,
+                                    this.showPopoverMenu(se.ExternalOverlays),
+                                  onMouseEnter: this.clearPopoverMenuTimeout,
                                   onMouseLeave: () =>
-                                    this.startPopupMenuTimeout(500),
+                                    this.startPopoverMenuTimeout(500),
                                 })
                             )
                           )
                         ),
-                        l.createElement(
+                        c.createElement(
                           "div",
                           { className: "Section Center" },
-                          l.createElement(m.NT, {
-                            label: (0, u.Xx)("#Library"),
+                          c.createElement(T.NT, {
+                            label: (0, g.Xx)("#Library"),
                             imageUrl: "/dashboard/images/icons/svr_items.svg",
                             active:
-                              this.isOverlayActive(d.O5) ||
-                              (this.isOverlayActive(d.Y8) &&
-                                T.y.Instance.lastBigPictureEntryPoint ==
-                                  T.b.QuickLaunch),
-                            style: m.zk.Large,
+                              this.isOverlayActive(m.O5) ||
+                              (this.isOverlayActive(m.Y8) &&
+                                b.y.Instance.lastBigPictureEntryPoint ==
+                                  b.b.QuickLaunch),
+                            style: T.zk.Large,
                             onClick: this.onQuickLaunchButtonClick,
                           }),
-                          I != s.xY.None &&
-                            l.createElement(
+                          P != s.xY.None &&
+                            c.createElement(
                               "div",
                               { className: "NowPlayingSpacer" },
-                              l.createElement(
-                                Y.d,
+                              c.createElement(
+                                _.d,
                                 {
                                   allowableParentSelectors: [".DashboardMain"],
                                 },
-                                l.createElement(
+                                c.createElement(
                                   s.VW,
-                                  { color: b },
-                                  l.createElement(
+                                  { color: v },
+                                  c.createElement(
                                     s.wx,
                                     { translation: { z: 0.02 } },
-                                    l.createElement(
+                                    c.createElement(
                                       s.s_,
                                       {
                                         debug_name: "NowPlayingButton",
                                         interactive: !0,
                                         target_dpi_panel_id: m.WR,
-                                        curvature_origin_id: P,
+                                        curvature_origin_id: V,
                                       },
-                                      l.createElement(
+                                      c.createElement(
                                         "div",
                                         { className: "ControlBar" },
-                                        l.createElement(m.NT, {
-                                          label: x
-                                            ? (0, u.Xx)("#SteamVR_Home")
-                                            : (0, u.Xx)("#Now_Playing"),
-                                          active: this.isOverlayActive(d.PF),
-                                          style: m.zk.App,
-                                          imageUrl: L,
+                                        c.createElement(T.NT, {
+                                          label: O
+                                            ? (0, g.Xx)("#SteamVR_Home")
+                                            : (0, g.Xx)("#Now_Playing"),
+                                          active: this.isOverlayActive(m.PF),
+                                          style: T.zk.App,
+                                          imageUrl: B,
                                           onClick: () =>
-                                            this.switchToOverlay(d.PF),
+                                            this.switchToOverlay(m.PF),
                                         })
                                       )
                                     )
@@ -7011,28 +7597,28 @@
                                 )
                               )
                             ),
-                          M &&
-                            l.createElement(m.NT, {
-                              label: (0, u.Xx)("#Store"),
+                          R &&
+                            c.createElement(T.NT, {
+                              label: (0, g.Xx)("#Store"),
                               imageUrl: "/dashboard/images/icons/svr_store.svg",
                               additionalClassNames: "Store",
                               active:
-                                this.isOverlayActive(d.wB) ||
-                                (this.isOverlayActive(d.Y8) &&
-                                  T.y.Instance.lastBigPictureEntryPoint ==
-                                    T.b.QuickStore),
-                              style: m.zk.Large,
+                                this.isOverlayActive(m.wB) ||
+                                (this.isOverlayActive(m.Y8) &&
+                                  b.y.Instance.lastBigPictureEntryPoint ==
+                                    b.b.QuickStore),
+                              style: T.zk.Large,
                               onClick: this.onQuickStoreButtonClick,
                             })
                         ),
-                        l.createElement(
+                        c.createElement(
                           "div",
                           { className: "Section Right" },
-                          l.createElement(
-                            m.dw,
-                            { style: m.zk.Small },
-                            N &&
-                              l.createElement(m.B8, {
+                          c.createElement(
+                            T.dw,
+                            { style: T.zk.Small },
+                            F &&
+                              c.createElement(T.B8, {
                                 imageUrl:
                                   "/dashboard/images/icons/svr_theater.svg",
                                 label: "Toggle Theater Mode",
@@ -7042,18 +7628,18 @@
                                   }),
                                 active: this.state.bTheaterMode,
                               }),
-                            H &&
-                              l.createElement(m.B8, {
+                            U &&
+                              c.createElement(T.B8, {
                                 imageUrl:
                                   "/dashboard/images/icons/svr_recenter.svg",
                                 additionalClassNames: "CenterImageLarge",
-                                label: (0, u.Xx)("#Button_Recenter"),
+                                label: (0, g.Xx)("#Button_Recenter"),
                                 onClick: this.onRecenterClick,
                               }),
                             A &&
-                              l.createElement(m.B8, {
+                              c.createElement(T.B8, {
                                 imageUrl: "/dashboard/images/icons/svr_eye.svg",
-                                label: (0, u.Xx)("#Toggle_Room_View"),
+                                label: (0, g.Xx)("#Toggle_Room_View"),
                                 onClick: this.onToggleRoomView,
                                 active:
                                   null === VRHTML || void 0 === VRHTML
@@ -7064,84 +7650,84 @@
                                     ? void 0
                                     : VRHTML.VROverlayInternal.HasCameraRoomViewCapability(),
                               }),
-                            l.createElement(m.D6, {
-                              active: this.state.eShowPopupMenu == Q.Volume,
+                            c.createElement(T.D6, {
+                              active: this.state.eShowPopoverMenu == se.Volume,
                               refVolumeTray: this.m_refVolumeTray,
-                              onShowTray: () => this.showPopupMenu(Q.Volume),
-                              onHideTray: () => this.showPopupMenu(Q.None),
-                              onMouseEnter: this.clearPopupMenuTimeout,
+                              onShowTray: () => this.showPopoverMenu(se.Volume),
+                              onHideTray: () => this.showPopoverMenu(se.None),
+                              onMouseEnter: this.clearPopoverMenuTimeout,
                               onMouseLeave: () =>
-                                this.startPopupMenuTimeout(500),
+                                this.startPopoverMenuTimeout(500),
                             })
                           ),
-                          R &&
-                            l.createElement(m.NT, {
+                          D &&
+                            c.createElement(T.NT, {
                               imageUrl:
                                 "/dashboard/images/icons/svr_settings.svg",
-                              active: this.isOverlayActive(d.A4),
-                              enabled: this.hasOverlay(d.A4),
-                              label: (0, u.Xx)("#Settings"),
-                              style: m.zk.Small,
+                              active: this.isOverlayActive(m.A4),
+                              enabled: this.hasOverlay(m.A4),
+                              label: (0, g.Xx)("#Settings"),
+                              style: T.zk.Small,
                               centerPanelAnchorID: "VolumeButton",
-                              onClick: () => this.switchToOverlay(d.A4),
+                              onClick: () => this.switchToOverlay(m.A4),
                             }),
-                          E &&
-                            w &&
-                            l.createElement(m.NT, {
-                              imageUrl: w.sIcon,
+                          this.state.bLinkStreamActive &&
+                            E &&
+                            c.createElement(T.NT, {
+                              imageUrl: E.sIcon,
                               active: !1,
                               enabled: !0,
-                              label: (0, u.Xx)(w.sButtonName),
-                              style: m.zk.Small,
+                              label: (0, g.Xx)(E.sButtonName),
+                              style: T.zk.Small,
                               centerPanelAnchorID: "VolumeButton",
                               onClick: () => this.handlePeerButton(),
                             })
                         )
                       ),
-                      l.createElement(_, {
+                      c.createElement(I, {
                         ref: this.m_refDesktopTray,
                         position: 0,
                         visible:
                           this.isDesktopTrayActive() &&
                           !this.state.bLaserMouseSuppressionActive,
-                        tintColor: f,
+                        tintColor: S,
                         bDarkMode: this.state.bDesktopDarkMode,
                         onToggleDarkMode: () =>
                           this.setState({
                             bDesktopDarkMode: !this.state.bDesktopDarkMode,
                           }),
-                        onToggleWindowList: () => this.showPopupMenu(Q.Windows),
-                        onClearPopupMenuTimeout: () =>
-                          this.clearPopupMenuTimeout(),
-                        onStartPopupMenuTimeout: (e) =>
-                          this.startPopupMenuTimeout(e),
-                        onDockOverlay: this.onDockOverlay,
+                        onToggleWindowList: () =>
+                          this.showPopoverMenu(se.Windows),
+                        onClearPopoverMenuTimeout: () =>
+                          this.clearPopoverMenuTimeout(),
+                        onStartPopoverMenuTimeout: (e) =>
+                          this.startPopoverMenuTimeout(e),
                         mapWindows: this.state.mapWindows,
                         sort_depth_bias: 0.2,
                         bWindowViewEnabled: this.state.bWindowViewEnabled,
                       }),
-                      l.createElement(m.z, {
+                      c.createElement(T.z, {
                         ref: this.m_refVolumeTray,
                         position: 0.337,
                         visible:
-                          this.state.eShowPopupMenu == Q.Volume &&
+                          this.state.eShowPopoverMenu == se.Volume &&
                           !this.state.bLaserMouseSuppressionActive,
-                        tintColor: f,
+                        tintColor: S,
                         onFinalChangeMouseOutside: () => {
-                          this.startPopupMenuTimeout(800);
+                          this.startPopoverMenuTimeout(800);
                         },
-                        onMouseMove: this.clearPopupMenuTimeout,
-                        onMouseLeave: this.popupMenuMouseLeave,
+                        onMouseMove: this.clearPopoverMenuTimeout,
+                        onMouseLeave: this.popoverMenuMouseLeave,
                         sort_depth_bias: 0.4,
                       })
                     )
                   )
                 ),
-                l.createElement(
+                c.createElement(
                   s.wx,
-                  { translation: F, scale: { y: 1.5, x: 1.5 } },
-                  l.createElement(s.sl, {
-                    mountedId: (0, s.iN)(d.GN, "system.keyboard"),
+                  { translation: W, scale: { y: 1.5, x: 1.5 } },
+                  c.createElement(s.sl, {
+                    mountedId: (0, s.iN)(m.GN, "system.keyboard"),
                   })
                 )
               )
@@ -7151,12 +7737,12 @@
             let e = Array.from(this.state.mapOverlayState, ([e, t]) => ({
               sOverlayKey: e,
               overlayState: t,
-            })).filter((e) => e.overlayState.dockLocation != m.RA.Dashboard);
-            return l.createElement(
-              l.Fragment,
+            })).filter((e) => e.overlayState.dockLocation != r.Dashboard);
+            return c.createElement(
+              c.Fragment,
               null,
               e.map((e) =>
-                l.createElement(m.qo, {
+                c.createElement(w, {
                   bVisible: this.state.bShown,
                   bTheaterMode: this.state.bTheaterMode,
                   dockLocation: e.overlayState.dockLocation,
@@ -7173,20 +7759,19 @@
             let e = this.getActiveOverlayKey(),
               t =
                 !this.state.mapOverlayState.has(e) ||
-                this.state.mapOverlayState.get(e).dockLocation ==
-                  m.RA.Dashboard;
-            return this.state.bShown && this.isOverlayActive(d.gB) && t;
+                this.state.mapOverlayState.get(e).dockLocation == r.Dashboard;
+            return this.state.bShown && this.isOverlayActive(m.gB) && t;
           }
           onGameLaunched(e) {
             var t;
-            const i =
+            const o =
               null !==
-                (t = p.G3.settings.get(
+                (t = f.G3.settings.get(
                   "/settings/dashboard/allowTheaterMode"
                 )) &&
               void 0 !== t &&
               t;
-            e.starts_theater_mode && i && this.setState({ bTheaterMode: !0 }),
+            e.starts_theater_mode && o && this.setState({ bTheaterMode: !0 }),
               (!e.is_dashboard_overlay ||
                 (e.is_dashboard_overlay && !e.show_overlay_in_quicklaunch)) &&
                 (null === VRHTML ||
@@ -7194,7 +7779,7 @@
                   VRHTML.VRDashboardManager.HideDashboard("game_launched"));
           }
           renderInternalOverlays() {
-            var e, t, i, n;
+            var e, t, o, i;
             const r =
                 null !==
                   (t =
@@ -7203,67 +7788,66 @@
                       : e.currentDesktopIndex) && void 0 !== t
                   ? t
                   : 1,
-              o =
+              n =
                 null !==
-                  (n =
-                    null === (i = this.m_refDesktopView.current) || void 0 === i
+                  (i =
+                    null === (o = this.m_refDesktopView.current) || void 0 === o
                       ? void 0
-                      : i.desktopCount) && void 0 !== n
-                  ? n
+                      : o.desktopCount) && void 0 !== i
+                  ? i
                   : 1;
-            return l.createElement(
-              l.Fragment,
+            return c.createElement(
+              c.Fragment,
               null,
-              l.createElement(
+              c.createElement(
                 s.Y9,
                 {
-                  tabName: (0, u.Xx)("#Library"),
+                  tabName: (0, g.Xx)("#Library"),
                   iconUri: "/dashboard/images/icons/svr_items.svg",
-                  summonOverlayKey: d.O5,
+                  summonOverlayKey: m.O5,
                 },
-                l.createElement(W, {
-                  visible: this.state.bShown && this.isOverlayActive(d.O5),
+                c.createElement(ie, {
+                  visible: this.state.bShown && this.isOverlayActive(m.O5),
                   onGameLaunched: this.onGameLaunched,
                 })
               ),
-              l.createElement(
+              c.createElement(
                 s.Y9,
                 {
-                  tabName: (0, u.Xx)("#Store"),
+                  tabName: (0, g.Xx)("#Store"),
                   iconUri: "/dashboard/images/icons/svr_store.svg",
-                  summonOverlayKey: d.wB,
+                  summonOverlayKey: m.wB,
                 },
-                l.createElement(B, {
-                  visible: this.state.bShown && this.isOverlayActive(d.wB),
+                c.createElement(Y, {
+                  visible: this.state.bShown && this.isOverlayActive(m.wB),
                 })
               ),
-              l.createElement(
+              c.createElement(
                 s.Y9,
-                { tabName: (0, u.Xx)("#Now_Playing"), summonOverlayKey: d.PF },
-                l.createElement(X, {
-                  visible: this.state.bShown && this.isOverlayActive(d.PF),
-                  onExitGame: () => this.switchToOverlay(d.O5),
+                { tabName: (0, g.Xx)("#Now_Playing"), summonOverlayKey: m.PF },
+                c.createElement(A, {
+                  visible: this.state.bShown && this.isOverlayActive(m.PF),
+                  onExitGame: () => this.switchToOverlay(m.O5),
                 })
               ),
-              l.createElement(
+              c.createElement(
                 s.Y9,
                 {
-                  summonOverlayKey: d.gB,
+                  summonOverlayKey: m.gB,
                   tabName:
-                    o > 1 ? (0, u.Xx)("#Desktop_X", r) : (0, u.Xx)("#Desktop"),
+                    n > 1 ? (0, g.Xx)("#Desktop_X", r) : (0, g.Xx)("#Desktop"),
                   iconUri: "/dashboard/images/icons/svr_desktop_alt.svg",
                 },
-                l.createElement(y, {
+                c.createElement(x, {
                   visible: this.isDesktopViewVisible(),
-                  onDockOverlay: this.onDockOverlay,
                   fActiveOverlayScale: this.activeOverlayScale,
                   mapWindows: this.state.mapWindows,
                   bWindowViewEnabled: this.state.bWindowViewEnabled,
                   ref: this.m_refDesktopView,
                 })
               ),
-              l.createElement($._, {
-                visible: this.state.bShown && this.isOverlayActive(d.A4),
+              c.createElement(d._, {
+                visible: this.state.bShown && this.isOverlayActive(m.A4),
               })
             );
           }
@@ -7285,12 +7869,12 @@
           }
           onActiveOverlayScaleChange(e) {
             this.setState((t) => {
-              const i = new Map(t.mapOverlayState),
-                n = Object.assign(
-                  Object.assign({}, i.get(this.getActiveOverlayKey())),
+              const o = new Map(t.mapOverlayState),
+                i = Object.assign(
+                  Object.assign({}, o.get(this.getActiveOverlayKey())),
                   { fScale: e }
                 );
-              return { mapOverlayState: i.set(this.getActiveOverlayKey(), n) };
+              return { mapOverlayState: o.set(this.getActiveOverlayKey(), i) };
             });
           }
           onActiveOverlayClosed() {
@@ -7301,64 +7885,65 @@
                 ? null === (e = this.m_refDesktopView.current) ||
                   void 0 === e ||
                   e.onWindowViewClosed(t)
-                : this.switchToOverlay(d.O5),
+                : this.switchToOverlay(m.O5),
               VRHTML.VRDashboardManager.SendOverlayClosed(t));
           }
           renderOverlayControlBar() {
-            var e, t, i, n;
-            const r = this.isDarkMode ? { r: 0.25, g: 0.25, b: 0.25 } : null;
-            let o = !1,
-              a = !1,
-              c = this.getActiveOverlayKey();
-            if (c) {
-              let e = VRHTML.VROverlay.FindOverlay(c);
-              (o =
+            var e, t, o, i;
+            const n = this.isDarkMode ? { r: 0.1, g: 0.1, b: 0.1 } : null,
+              a = this.isDarkMode ? 0 : 0.1;
+            let l = !1,
+              d = !1,
+              u = this.getActiveOverlayKey();
+            if (u) {
+              let e = VRHTML.VROverlay.FindOverlay(u);
+              (l =
                 !!e &&
                 VRHTML.VROverlay.GetFlag(e, s.Z9.EnableControlBarKeyboard)),
-                (a =
+                (d =
                   !!e &&
                   VRHTML.VROverlay.GetFlag(e, s.Z9.EnableControlBarClose));
             }
-            const h =
+            const p =
                 null !==
-                  (e = p.G3.settings.get(
+                  (e = f.G3.settings.get(
                     "/settings/dashboard/scaleSliderMin"
                   )) && void 0 !== e
                   ? e
                   : 0.75,
-              g =
+              v =
                 null !==
-                  (t = p.G3.settings.get(
+                  (t = f.G3.settings.get(
                     "/settings/dashboard/scaleSliderMax"
                   )) && void 0 !== t
                   ? t
                   : 1.5,
-              v =
+              _ =
                 null ===
-                  (i = p.G3.settings.get(
+                  (o = f.G3.settings.get(
                     "/settings/dashboard/allowCurvature"
                   )) ||
-                void 0 === i ||
-                i
-                  ? d.ml
+                void 0 === o ||
+                o
+                  ? m.ml
                   : null,
-              _ = { x: 0, y: -0.15, z: 0.1 };
-            return l.createElement(
-              l.Fragment,
+              y = { x: 0, y: -0.15, z: 0.1 };
+            return c.createElement(
+              c.Fragment,
               null,
-              l.createElement(
+              c.createElement(
                 s.wx,
                 {
                   parent_id: this.controlBarAnchorID,
                   translation: { y: 0.003 },
                 },
-                l.createElement(
+                c.createElement(
                   s.VW,
-                  { color: r },
-                  l.createElement(
+                  { color: n },
+                  c.createElement(
                     s.s_,
                     {
-                      curvature_origin_id: v,
+                      curvature_origin_id: _,
                       origin: s.Ic.TopCenter,
                       interactive: !1,
                       target_width_anchor_id: this.controlBarAnchorID,
@@ -7366,75 +7951,75 @@
                       min_width: 1.66,
                       debug_name: "ActiveOverlayControlBarBackground",
                       sampler: s.Vv.SingleTap,
-                      reflect: 0.1,
+                      reflect: a,
                     },
-                    l.createElement("div", {
+                    c.createElement("div", {
                       className: "OverlayControlBarBackground",
                     })
                   )
                 )
               ),
-              l.createElement(
+              c.createElement(
                 s.wx,
                 {
                   parent_id: this.controlBarAnchorID,
                   translation: { y: 0.003, z: 0.001 },
                 },
-                l.createElement(
+                c.createElement(
                   s.VW,
-                  { color: r },
-                  l.createElement(
+                  { color: n },
+                  c.createElement(
                     s.s_,
                     {
-                      curvature_origin_id: v,
+                      curvature_origin_id: _,
                       origin: s.Ic.TopCenter,
                       interactive: !0,
                       target_dpi_panel_id: m.WR,
                       debug_name: "ActiveOverlayControlBar",
                     },
-                    l.createElement(
+                    c.createElement(
                       "div",
                       { className: "OverlayControlBar" },
-                      l.createElement(
+                      c.createElement(
                         "div",
                         { className: "Section" },
-                        l.createElement(
+                        c.createElement(
                           "div",
                           { className: "Label" },
-                          (0, u.Xx)("#Size")
+                          (0, g.Xx)("#Size")
                         ),
-                        l.createElement(te.iR, {
+                        c.createElement(h.iR, {
                           additionalClassName: "OverlayControlBarSlider",
-                          min: h,
-                          max: g,
+                          min: p,
+                          max: v,
                           value: this.activeOverlayScale,
-                          valueStyleVariant: te.px.OnHandle,
+                          valueStyleVariant: h.px.OnHandle,
                           onChange: this.onActiveOverlayScaleChange,
                           detents: [1],
                           renderValue: (e) => (100 * e).toFixed(0) + "%",
                         }),
-                        o &&
-                          l.createElement(m.zN, {
+                        l &&
+                          c.createElement(T.zN, {
                             iconUrl: "/dashboard/images/icons/svr_keyboard.svg",
                             title: this.state.bKeyboardVisible
-                              ? (0, u.Xx)("#HideKeyboardTooltip")
-                              : (0, u.Xx)("#ShowKeyboardTooltip"),
-                            tooltipTranslation: _,
+                              ? (0, g.Xx)("#HideKeyboardTooltip")
+                              : (0, g.Xx)("#ShowKeyboardTooltip"),
+                            tooltipTranslation: y,
                             additionalClassNames: "Keyboard",
                             onClick: this.toggleKeyboard,
                             active: this.state.bKeyboardVisible,
                           }),
-                        l.createElement(m.zN, {
+                        c.createElement(T.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_left.png",
-                          title: (0, u.Xx)("#DockOnLeftController"),
-                          tooltipTranslation: _,
+                          title: (0, g.Xx)("#DockOnLeftController"),
+                          tooltipTranslation: y,
                           onClick: () => {
                             let e = this.getActiveOverlayKey();
                             this.state.mapOverlayState.has(e) &&
                             this.state.mapOverlayState.get(e).dockLocation ==
-                              m.RA.LeftHand
-                              ? this.onDockOverlay(e, m.RA.Dashboard)
-                              : this.onDockOverlay(e, m.RA.LeftHand);
+                              r.LeftHand
+                              ? this.onDockOverlay(e, r.Dashboard)
+                              : this.onDockOverlay(e, r.LeftHand);
                           },
                           enabled:
                             VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
@@ -7446,19 +8031,19 @@
                             ) &&
                             this.state.mapOverlayState.get(
                               this.getActiveOverlayKey()
-                            ).dockLocation == m.RA.LeftHand,
+                            ).dockLocation == r.LeftHand,
                         }),
-                        l.createElement(m.zN, {
+                        c.createElement(T.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_right.png",
-                          title: (0, u.Xx)("#DockOnRightController"),
-                          tooltipTranslation: _,
+                          title: (0, g.Xx)("#DockOnRightController"),
+                          tooltipTranslation: y,
                           onClick: () => {
                             let e = this.getActiveOverlayKey();
                             this.state.mapOverlayState.has(e) &&
                             this.state.mapOverlayState.get(e).dockLocation ==
-                              m.RA.RightHand
-                              ? this.onDockOverlay(e, m.RA.Dashboard)
-                              : this.onDockOverlay(e, m.RA.RightHand);
+                              r.RightHand
+                              ? this.onDockOverlay(e, r.Dashboard)
+                              : this.onDockOverlay(e, r.RightHand);
                           },
                           enabled:
                             VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
@@ -7470,19 +8055,19 @@
                             ) &&
                             this.state.mapOverlayState.get(
                               this.getActiveOverlayKey()
-                            ).dockLocation == m.RA.RightHand,
+                            ).dockLocation == r.RightHand,
                         }),
-                        l.createElement(m.zN, {
+                        c.createElement(T.zN, {
                           iconUrl: "/dashboard/images/icons/icon_move.png",
-                          title: (0, u.Xx)("#FloatInWorld"),
-                          tooltipTranslation: _,
+                          title: (0, g.Xx)("#FloatInWorld"),
+                          tooltipTranslation: y,
                           onClick: () => {
                             let e = this.getActiveOverlayKey();
                             this.state.mapOverlayState.has(e) &&
                             this.state.mapOverlayState.get(e).dockLocation ==
-                              m.RA.World
-                              ? this.onDockOverlay(e, m.RA.Dashboard)
-                              : this.onDockOverlay(e, m.RA.World);
+                              r.World
+                              ? this.onDockOverlay(e, r.Dashboard)
+                              : this.onDockOverlay(e, r.World);
                           },
                           active:
                             this.state.mapOverlayState.has(
@@ -7490,21 +8075,21 @@
                             ) &&
                             this.state.mapOverlayState.get(
                               this.getActiveOverlayKey()
-                            ).dockLocation == m.RA.World,
+                            ).dockLocation == r.World,
                         }),
-                        a &&
-                          l.createElement(m.zN, {
+                        d &&
+                          c.createElement(T.zN, {
                             iconUrl:
                               "/dashboard/images/icons/icon_close_black.png",
-                            title: (0, u.Xx)("#CloseOverlay"),
-                            tooltipTranslation: _,
+                            title: (0, g.Xx)("#CloseOverlay"),
+                            tooltipTranslation: y,
                             onClick: this.onActiveOverlayClosed,
                           }),
                         this.isDesktopOverlayActive() &&
-                          (null === (n = this.m_refDesktopView.current) ||
-                          void 0 === n
+                          (null === (i = this.m_refDesktopView.current) ||
+                          void 0 === i
                             ? void 0
-                            : n.renderControlBarButtons(_))
+                            : i.renderControlBarButtons(y))
                       )
                     )
                   )
@@ -7513,1065 +8098,596 @@
             );
           }
           renderDashboard() {
-            var e, t, i, n, r;
-            const o = this.computeFilteredOverlayTabs(),
-              a = this.isDarkMode ? { r: 0.02, g: 0.02, b: 0.02 } : null;
-            let h = [],
-              g = [],
-              v =
-                null !== (e = p.G3.settings.get(d.FM)) && void 0 !== e ? e : 2;
-            if (o.length > v) {
-              const e = p.G3.settings.get(d.nf);
-              (h = [
-                null !== (t = o.find((t) => t.summon_overlay_key == e)) &&
+            var e, t, o, i, n, a;
+            const l = this.computeFilteredOverlayTabs(),
+              d = this.isDarkMode ? { r: 0.02, g: 0.02, b: 0.02 } : null,
+              h = this.isDarkMode ? 0 : 0.1,
+              p = !this.isDarkMode,
+              v = !this.isDarkMode;
+            let _ = [],
+              y = [],
+              b =
+                null !== (e = f.G3.settings.get(m.FM)) && void 0 !== e ? e : 2;
+            if (l.length > b) {
+              const e = f.G3.settings.get(m.nf);
+              (_ = [
+                null !== (t = l.find((t) => t.summon_overlay_key == e)) &&
                 void 0 !== t
                   ? t
-                  : o[0],
+                  : l[0],
               ]),
-                (g = o.filter((e) => !h.includes(e)));
-            } else h = o;
-            let _ = null;
-            this.isDesktopOverlayActive() && (_ = 2048);
-            let y = [];
+                (y = l.filter((e) => !_.includes(e)));
+            } else _ = l;
+            let S = null;
+            this.isDesktopOverlayActive() && (S = 2048);
+            let C = [];
             this.state.mapWindows.forEach((e) => {
-              "" == e.overlay_key && y.push(e);
+              "" == e.overlay_key && C.push(e);
             });
-            const b = this.screenshotMode,
-              f = b ? 2.5 : 1.8;
-            let S = !1,
-              C = !0,
-              k = !1,
-              M = this.getActiveOverlayKey();
-            if (M) {
-              let e = VRHTML.VROverlay.FindOverlay(M);
-              (k = !!e && VRHTML.VROverlay.GetFlag(e, s.Z9.EnableControlBar)),
-                (C =
-                  !this.state.mapOverlayState.has(M) ||
-                  this.state.mapOverlayState.get(M).dockLocation ==
-                    m.RA.Dashboard),
-                (S =
-                  this.state.mapOverlayState.has(M) &&
-                  this.state.mapOverlayState.get(M).dockLocation == m.RA.World);
+            const M = this.isScreenshotMode,
+              w = M ? 2.5 : 1.8;
+            let R = !1,
+              D = !0,
+              E = !1,
+              I = this.getActiveOverlayKey();
+            if (I) {
+              let e = VRHTML.VROverlay.FindOverlay(I);
+              (E = !!e && VRHTML.VROverlay.GetFlag(e, s.Z9.EnableControlBar)),
+                (D =
+                  !this.state.mapOverlayState.has(I) ||
+                  this.state.mapOverlayState.get(I).dockLocation ==
+                    r.Dashboard),
+                (R =
+                  this.state.mapOverlayState.has(I) &&
+                  this.state.mapOverlayState.get(I).dockLocation == r.World);
             }
-            this.state.bLaserMouseSuppressionActive && (k = !1);
-            let R = 2,
-              w = 2.5;
-            const D = p.G3.settings.get("/settings/dashboard/theaterPosition");
-            D == j.Near
-              ? ((R *= 1), (w *= 1))
-              : D == j.Middle
-              ? ((R *= 4), (w *= 2.5))
-              : D == j.Far && ((R *= 12), (w *= 8));
-            const T =
+            this.state.bLaserMouseSuppressionActive && (E = !1);
+            let x = 2,
+              P = 2.5;
+            const O = f.G3.settings.get("/settings/dashboard/theaterPosition");
+            O == ne.Near
+              ? ((x *= 0.5), (P *= 0.5))
+              : O == ne.Middle
+              ? ((x *= 1), (P *= 1))
+              : O == ne.Far && ((x *= 4), (P *= 2.5));
+            const V =
                 null !==
-                  (i =
+                  (o =
                     0.01 *
-                    p.G3.settings.get(
+                    f.G3.settings.get(
                       "/settings/dashboard/theaterVerticalOffsetCm"
-                    )) && void 0 !== i
-                  ? i
+                    )) && void 0 !== o
+                  ? o
                   : 0,
-              E =
+              L =
                 null ===
-                  (n = p.G3.settings.get(
+                  (i = f.G3.settings.get(
                     "/settings/dashboard/allowCurvature"
                   )) ||
-                void 0 === n ||
-                n,
-              I = E ? d.ml : null;
-            let x,
-              P,
-              O,
-              L,
-              V,
-              B = 0.05,
-              A =
+                void 0 === i ||
+                i,
+              B = L ? m.ml : null;
+            let N,
+              H,
+              A,
+              F,
+              U,
+              W = 0.05,
+              z =
                 null !==
-                  (r = p.G3.settings.get(
+                  (n = f.G3.settings.get(
                     "/settings/dashboard/enableLTCReflections"
                   )) &&
-                void 0 !== r &&
-                r,
-              N = this.state.bTheaterMode
+                void 0 !== n &&
+                n,
+              G = this.state.bTheaterMode
                 ? { y: -1.2, z: 1 }
                 : { y: -1.2, z: 0.15 },
-              H = this.state.bTheaterMode
+              K = this.state.bTheaterMode
                 ? { x: 0.75, y: 0.75, z: 0.75 }
                 : { x: 1, y: 1, z: 1 },
-              F = !E && this.state.bTheaterMode ? 0.75 : 1,
-              U = E ? 1 : 0;
-            return (
-              this.state.bTheaterMode
-                ? ((x = { y: -0.8 * w + T, z: -R }),
-                  (P = w),
-                  (O = 1.72),
-                  (L = 0.82),
-                  (V = 10))
-                : ((x = { y: k ? -0.9 : -1.03375, z: 0.05 }),
-                  (P = 1),
-                  (O = 2),
-                  (L = 0.68),
-                  (V = 5),
-                  (A = !1)),
-              l.createElement(
-                s.eK,
-                { bContinuousRelatch: this.state.bPlacementModeActive },
-                l.createElement(s.wx, { id: I, translation: { z: f } }),
-                l.createElement(
+              q = !L && this.state.bTheaterMode ? 0.75 : 1,
+              X = L ? 1 : 0;
+            this.state.bTheaterMode
+              ? ((N = { y: -0.8 * P + V, z: -x }),
+                (H = P),
+                (A = 1.72),
+                (F = 0.82),
+                (U = 10))
+              : ((N = { y: E ? -0.9 : -1.03375, z: 0.05 }),
+                (H = 1),
+                (A = 2),
+                (F = 0.68),
+                (U = 5),
+                (z = !1));
+            let Z =
+              null !==
+                (a = f.G3.settings.get(
+                  "/settings/dashboard/allowFreeTransform"
+                )) &&
+              void 0 !== a &&
+              a;
+            return c.createElement(
+              s.eK,
+              {
+                bContinuousRelatch: this.state.bPlacementModeActive,
+                bFreeDashboardTransform: Z && this.state.bPlacementModeActive,
+              },
+              c.createElement(s.wx, { id: B, translation: { z: w } }),
+              c.createElement(
+                s.wx,
+                {
+                  translation: {
+                    x: M ? 0.1 : 0,
+                    y: re.getDashboardVerticalPosition(),
+                    z: -re.getDashboardDistance() * (M ? 1.1 : 1),
+                  },
+                  rotation: { x: M ? -20 : 0 },
+                  scale: re.getDashboardScale(),
+                },
+                c.createElement(
                   s.wx,
                   {
-                    translation: {
-                      x: b ? 0.1 : 0,
-                      y: Z.getDashboardVerticalPosition(),
-                      z: -Z.getDashboardDistance() * (b ? 1.1 : 1),
-                    },
-                    rotation: { x: b ? -20 : 0 },
-                    scale: Z.getDashboardScale(),
+                    parent_id: this.statusBarAnchorID,
+                    translation: { y: 0.008 },
+                    scale: { x: q, y: q },
                   },
-                  l.createElement(
-                    s.wx,
-                    {
-                      parent_id: this.statusBarAnchorID,
-                      translation: { y: 0.008 },
-                      scale: { x: F, y: F },
-                    },
-                    l.createElement(
-                      s.VW,
-                      { color: a },
-                      l.createElement(
-                        s.s_,
-                        {
-                          curvature_origin_id: I,
-                          origin: s.Ic.BottomCenter,
-                          interactive: !1,
-                          target_dpi_panel_id: m.WR,
-                          debug_name: "StatusBar",
-                          reflect: 0.1,
-                        },
-                        l.createElement(
+                  c.createElement(
+                    s.VW,
+                    { color: d },
+                    c.createElement(
+                      s.s_,
+                      {
+                        curvature_origin_id: B,
+                        origin: s.Ic.BottomCenter,
+                        interactive: !1,
+                        target_dpi_panel_id: m.WR,
+                        debug_name: "StatusBar",
+                        reflect: h,
+                      },
+                      c.createElement(
+                        "div",
+                        { className: "StatusBar", style: { width: S } },
+                        c.createElement(
                           "div",
-                          { className: "StatusBar", style: { width: _ } },
-                          l.createElement(
-                            "div",
-                            { className: "Section Left" },
-                            this.renderStatusBarTitle(),
-                            l.createElement(m.j6, {
-                              role: s.Kg.TrackedControllerRole_LeftHand,
-                              style: ee.A.HorizontalPips,
-                            })
-                          ),
-                          l.createElement(
-                            "div",
-                            { className: "Section Center" },
-                            l.createElement(m.j6, {
-                              deviceIndex: s.wU,
-                              style: ee.A.VerticalBattery,
-                            }),
-                            l.createElement(m.M3, null)
-                          ),
-                          l.createElement(
-                            "div",
-                            { className: "Section Right" },
-                            l.createElement(m.j6, {
-                              role: s.Kg.TrackedControllerRole_RightHand,
-                              style: ee.A.HorizontalPips,
-                            }),
-                            l.createElement(
+                          { className: "Section Left" },
+                          p && this.renderStatusBarTitle(),
+                          c.createElement(T.j6, {
+                            role: s.Kg.TrackedControllerRole_LeftHand,
+                            style: k.A.HorizontalPips,
+                          })
+                        ),
+                        c.createElement(
+                          "div",
+                          { className: "Section Center" },
+                          c.createElement(T.j6, {
+                            deviceIndex: s.wU,
+                            style: k.A.VerticalBattery,
+                          }),
+                          c.createElement(T.M3, null)
+                        ),
+                        c.createElement(
+                          "div",
+                          { className: "Section Right" },
+                          c.createElement(T.j6, {
+                            role: s.Kg.TrackedControllerRole_RightHand,
+                            style: k.A.HorizontalPips,
+                          }),
+                          v &&
+                            c.createElement(
                               "div",
                               { className: "SteamLogo" },
-                              l.createElement("img", {
+                              c.createElement("img", {
                                 src: "/dashboard/images/icons/vr_steam.svg",
                               })
                             )
-                          )
                         )
                       )
                     )
-                  ),
-                  l.createElement(
+                  )
+                ),
+                c.createElement(
+                  s.wx,
+                  {
+                    id: "active_overlay_transform",
+                    translation: N,
+                    ref: this.m_refOverlayTransform,
+                  },
+                  c.createElement(
                     s.wx,
-                    {
-                      id: "active_overlay_transform",
-                      translation: x,
-                      ref: this.m_refOverlayTransform,
-                    },
-                    l.createElement(
-                      s.wx,
-                      { scale: { x: P, y: P } },
-                      !S && C && this.renderActiveOverlay(),
-                      !S &&
-                        !C &&
-                        l.createElement(
-                          m.lL,
-                          {
-                            additionalClassNames: k ? "WithControlBar" : "",
-                            visible: !0,
-                          },
-                          l.createElement(
-                            "div",
-                            { className: "NoDesktopFound" },
-                            l.createElement(
-                              "h2",
-                              null,
-                              this.state.mapOverlayState.get(M).dockLocation ==
-                                m.RA.LeftHand &&
-                                (0, u.Xx)("#DockedOnLeftController"),
-                              this.state.mapOverlayState.get(M).dockLocation ==
-                                m.RA.RightHand &&
-                                (0, u.Xx)("#DockedOnRightController")
-                            ),
-                            l.createElement(
-                              c.z,
-                              {
-                                className: "ButtonControl",
-                                onClick: () => {
-                                  this.onDockOverlay(M, m.RA.Dashboard);
-                                },
+                    { scale: { x: H, y: H } },
+                    !R && D && this.renderActiveOverlay(),
+                    !R &&
+                      !D &&
+                      c.createElement(
+                        T.lL,
+                        {
+                          additionalClassNames: E ? "WithControlBar" : "",
+                          visible: !0,
+                        },
+                        c.createElement(
+                          "div",
+                          { className: "NoDesktopFound" },
+                          c.createElement(
+                            "h2",
+                            null,
+                            this.state.mapOverlayState.get(I).dockLocation ==
+                              r.LeftHand &&
+                              (0, g.Xx)("#DockedOnLeftController"),
+                            this.state.mapOverlayState.get(I).dockLocation ==
+                              r.RightHand &&
+                              (0, g.Xx)("#DockedOnRightController")
+                          ),
+                          c.createElement(
+                            u.z,
+                            {
+                              className: "ButtonControl",
+                              onClick: () => {
+                                this.onDockOverlay(I, r.Dashboard);
                               },
-                              (0, u.Xx)("#DockHere")
-                            )
-                          )
-                        ),
-                      A &&
-                        l.createElement(
-                          s.wx,
-                          { translation: { y: L, z: 0.25 } },
-                          l.createElement(s.bt, {
-                            width: 2.8,
-                            height: O,
-                            "near-z": -1,
-                            "far-z": 1,
-                            debug: !1,
-                            specular: { color: { r: B, g: B, b: B } },
-                            diffuse: { size: V, resolution: 512 },
-                          })
-                        )
-                    )
-                  ),
-                  k && C && this.renderOverlayControlBar(),
-                  l.createElement(
-                    s.wx,
-                    { translation: N, scale: H },
-                    l.createElement(
-                      s.wx,
-                      { rotation: { x: -35 }, curvature_pitch: -35 },
-                      this.renderControlBar(h, g)
-                    ),
-                    this.state.eShowPopupMenu == Q.Power &&
-                      l.createElement(
-                        s.wx,
-                        {
-                          translation: { x: -0.4, y: 0.15, z: 0.05 },
-                          rotation: { y: 19 * U },
-                        },
-                        l.createElement(
-                          s.s_,
-                          {
-                            curvature_origin_id: I,
-                            height: void 0,
-                            width: 0.925,
-                            interactive: !0,
-                            origin: s.Ic.BottomRight,
-                            debug_name: "Power Menu",
-                            sort_depth_bias: -0.1,
-                          },
-                          this.renderPowerMenu()
-                        )
-                      ),
-                    this.state.eShowPopupMenu == Q.ExternalOverlays &&
-                      l.createElement(
-                        s.wx,
-                        {
-                          translation: { x: 0.2, y: 0.15, z: 0.05 },
-                          rotation: { y: 6 * U },
-                        },
-                        l.createElement(
-                          s.s_,
-                          {
-                            curvature_origin_id: I,
-                            height: void 0,
-                            width: 0.925,
-                            interactive: !0,
-                            origin: s.Ic.BottomRight,
-                            debug_name: "OverlaysList",
-                            sort_depth_bias: -0.1,
-                          },
-                          this.renderPopupMenu(
-                            l.createElement(
-                              l.Fragment,
-                              null,
-                              " ",
-                              g.map((e) =>
-                                l.createElement(m.dy, {
-                                  key: e.mountable_id,
-                                  imageUrl: this.getDashboardIconUri(e),
-                                  label: e.tab_name,
-                                  onClick: () => {
-                                    this.switchToOverlay(e.summon_overlay_key),
-                                      this.showPopupMenu(Q.None);
-                                  },
-                                })
-                              ),
-                              " "
-                            )
+                            },
+                            (0, g.Xx)("#DockHere")
                           )
                         )
                       ),
-                    this.state.eShowPopupMenu == Q.Windows &&
-                      l.createElement(
+                    z &&
+                      c.createElement(
                         s.wx,
-                        {
-                          translation: { x: 1.25, y: -0.1, z: 0.35 },
-                          rotation: { y: -16 * U },
-                        },
-                        l.createElement(
-                          s.s_,
-                          {
-                            curvature_origin_id: I,
-                            height: void 0,
-                            width: 0.925,
-                            interactive: !0,
-                            origin: s.Ic.BottomRight,
-                            debug_name: "WindowList",
-                            sort_depth_bias: -0.1,
-                          },
-                          this.renderPopupMenu(
-                            l.createElement(
-                              l.Fragment,
-                              null,
-                              " ",
-                              y.map((e) =>
-                                l.createElement(m.dy, {
-                                  key: e.hwnd,
-                                  imageUrl:
-                                    "/dashboard/images/icons/icon_add.png",
-                                  label: e.title,
-                                  onClick: () => {
-                                    let t = {
-                                      type: "request_spawn_window_view",
-                                      hwnd: e.hwnd,
-                                    };
-                                    this.m_mailbox.SendMessage(
-                                      "desktopview",
-                                      t
-                                    ),
-                                      this.showPopupMenu(Q.None);
-                                  },
-                                })
-                              ),
-                              " "
-                            )
-                          )
-                        )
+                        { translation: { y: F, z: 0.25 } },
+                        c.createElement(s.bt, {
+                          width: 2.8,
+                          height: A,
+                          "near-z": -1,
+                          "far-z": 1,
+                          debug: !1,
+                          specular: { color: { r: W, g: W, b: W } },
+                          diffuse: { size: U, resolution: 512 },
+                        })
                       )
                   )
+                ),
+                E && D && this.renderOverlayControlBar(),
+                !1,
+                c.createElement(
+                  s.wx,
+                  { translation: G, scale: K },
+                  c.createElement(
+                    s.wx,
+                    { rotation: { x: -35 }, curvature_pitch: -35 },
+                    this.renderControlBar(_, y)
+                  ),
+                  this.state.eShowPopoverMenu == se.Power &&
+                    c.createElement(
+                      s.wx,
+                      {
+                        translation: { x: -0.4, y: 0.15, z: 0.05 },
+                        rotation: { y: 19 * X },
+                      },
+                      c.createElement(
+                        s.s_,
+                        {
+                          curvature_origin_id: B,
+                          height: void 0,
+                          width: 0.925,
+                          interactive: !0,
+                          origin: s.Ic.BottomRight,
+                          debug_name: "Power Menu",
+                          sort_depth_bias: -0.1,
+                        },
+                        this.renderPowerMenu()
+                      )
+                    ),
+                  this.state.eShowPopoverMenu == se.ExternalOverlays &&
+                    c.createElement(
+                      s.wx,
+                      {
+                        translation: { x: 0.2, y: 0.15, z: 0.05 },
+                        rotation: { y: 6 * X },
+                      },
+                      c.createElement(
+                        s.s_,
+                        {
+                          curvature_origin_id: B,
+                          height: void 0,
+                          width: 0.925,
+                          interactive: !0,
+                          origin: s.Ic.BottomRight,
+                          debug_name: "OverlaysList",
+                          sort_depth_bias: -0.1,
+                        },
+                        this.renderPopoverMenu(
+                          c.createElement(
+                            c.Fragment,
+                            null,
+                            " ",
+                            y.map((e) =>
+                              c.createElement(T.dy, {
+                                key: e.mountable_id,
+                                imageUrl: this.getDashboardIconUri(e),
+                                label: e.tab_name,
+                                onClick: () => {
+                                  this.switchToOverlay(e.summon_overlay_key),
+                                    this.showPopoverMenu(se.None);
+                                },
+                              })
+                            ),
+                            " "
+                          )
+                        )
+                      )
+                    ),
+                  this.state.eShowPopoverMenu == se.Windows &&
+                    c.createElement(
+                      s.wx,
+                      {
+                        translation: { x: 1.25, y: -0.1, z: 0.35 },
+                        rotation: { y: -16 * X },
+                      },
+                      c.createElement(
+                        s.s_,
+                        {
+                          curvature_origin_id: B,
+                          height: void 0,
+                          width: 0.925,
+                          interactive: !0,
+                          origin: s.Ic.BottomRight,
+                          debug_name: "WindowList",
+                          sort_depth_bias: -0.1,
+                        },
+                        this.renderPopoverMenu(
+                          c.createElement(
+                            c.Fragment,
+                            null,
+                            " ",
+                            C.map((e) =>
+                              c.createElement(T.dy, {
+                                key: e.hwnd,
+                                imageUrl:
+                                  "/dashboard/images/icons/icon_add.png",
+                                label: e.title,
+                                onClick: () => {
+                                  let t = {
+                                    type: "request_spawn_window_view",
+                                    hwnd: e.hwnd,
+                                  };
+                                  this.m_mailbox.SendMessage("desktopview", t),
+                                    this.showPopoverMenu(se.None);
+                                },
+                              })
+                            ),
+                            " "
+                          )
+                        )
+                      )
+                    )
                 )
               )
             );
           }
         });
-        (oe.k_sDashboardMailboxName = "systemui_dashboard"),
-          (oe.k_sSetDashboardFadeSupressionMessage =
+        (de.k_sDashboardMailboxName = "systemui_dashboard"),
+          (de.k_sSetDashboardFadeSupressionMessage =
             "set_dashboard_fade_suppression"),
-          (oe.k_sOverlayKeyboardClosedMessage = "overlay_keyboard_closed"),
-          (oe.k_sDashboardOverlayCreatedMessage = "dashboard_overlay_created"),
-          (oe.k_sDashboardOverlayDestroyedMessage =
+          (de.k_sOverlayKeyboardClosedMessage = "overlay_keyboard_closed"),
+          (de.k_sDashboardOverlayCreatedMessage = "dashboard_overlay_created"),
+          (de.k_sDashboardOverlayDestroyedMessage =
             "dashboard_overlay_destroyed"),
-          (oe.k_sUpdateDashboardTabsMessage = "update_dashboard_tabs"),
-          (oe.k_sRequestDashboardTabsMessage = "request_dashboard_tabs"),
-          (oe.k_sWindowViewCreatedMessage = "window_view_created"),
-          (oe.k_sWindowViewDestroyedMessage = "window_view_destroyed"),
-          (oe.k_sUpdateWindowListMessage = "update_window_list"),
-          (oe.k_sUpdateDebugInfoMessage = "update_debug_info"),
-          (oe.k_sSetDashboardForceBoundsVisible =
+          (de.k_sUpdateDashboardTabsMessage = "update_dashboard_tabs"),
+          (de.k_sRequestDashboardTabsMessage = "request_dashboard_tabs"),
+          (de.k_sWindowViewCreatedMessage = "window_view_created"),
+          (de.k_sWindowViewDestroyedMessage = "window_view_destroyed"),
+          (de.k_sUpdateWindowListMessage = "update_window_list"),
+          (de.k_sUpdateDebugInfoMessage = "update_debug_info"),
+          (de.k_sSetDashboardForceBoundsVisible =
             "set_dashboard_force_bounds_visible"),
-          (oe.k_sLaserMouseSuppressionUpdate =
+          (de.k_sLaserMouseSuppressionUpdate =
             "laser_mouse_suppression_update"),
-          (oe.k_nControlBarWidthMeters = 2.667),
-          (oe.s_dashboardUserDistance = void 0),
-          (oe.s_dashboardUserScale = void 0),
-          (0, o.gn)(
+          (de.k_nControlBarWidthMeters = 2.667),
+          (de.s_dashboardUserDistance = void 0),
+          (de.s_dashboardUserScale = void 0),
+          (0, n.gn)(
             [a.ak],
-            oe.prototype,
-            "OnSetDashboardFadeSuppression",
+            de.prototype,
+            "onSetDashboardFadeSuppression",
             null
           ),
-          (0, o.gn)([a.ak], oe.prototype, "onRoomViewChanged", null),
-          (0, o.gn)([a.ak], oe.prototype, "onLinkStreamActiveEvents", null),
-          (0, o.gn)(
+          (0, n.gn)([a.ak], de.prototype, "onRoomViewChanged", null),
+          (0, n.gn)([a.ak], de.prototype, "onLinkStreamActiveEvents", null),
+          (0, n.gn)(
             [a.ak],
-            oe.prototype,
-            "OnSetDashboardForceBoundsVisible",
+            de.prototype,
+            "onSetDashboardForceBoundsVisible",
             null
           ),
-          (0, o.gn)(
+          (0, n.gn)(
             [a.ak],
-            oe.prototype,
+            de.prototype,
             "onLaserMouseSuppressionUpdate",
             null
           ),
-          (0, o.gn)([a.ak], oe.prototype, "onDashboardOverlayCreated", null),
-          (0, o.gn)([a.ak], oe.prototype, "onDashboardOverlayDestroyed", null),
-          (0, o.gn)([a.ak], oe.prototype, "onUpdateDashboardTabs", null),
-          (0, o.gn)([a.ak], oe.prototype, "onWindowViewCreated", null),
-          (0, o.gn)([a.ak], oe.prototype, "onWindowViewDestroyed", null),
-          (0, o.gn)([a.ak], oe.prototype, "onUpdateWindowList", null),
-          (0, o.gn)([a.ak], oe.prototype, "onUpdateDebugInfo", null),
-          (0, o.gn)([a.ak], oe.prototype, "onDockOverlay", null),
-          (0, o.gn)([a.ak], oe.prototype, "show", null),
-          (0, o.gn)([a.ak], oe.prototype, "hide", null),
-          (0, o.gn)([a.ak], oe.prototype, "setPlacementModeActive", null),
-          (0, o.gn)([a.ak], oe.prototype, "onToggleRoomView", null),
-          (0, o.gn)([a.ak], oe.prototype, "onQuickLaunchButtonClick", null),
-          (0, o.gn)([a.ak], oe.prototype, "onQuickStoreButtonClick", null),
-          (0, o.gn)([a.ak], oe.prototype, "onRecenterClick", null),
-          (0, o.gn)([a.ak], oe.prototype, "renderPowerMenu", null),
-          (0, o.gn)([a.ak], oe.prototype, "startPopupMenuTimeout", null),
-          (0, o.gn)([a.ak], oe.prototype, "clearPopupMenuTimeout", null),
-          (0, o.gn)([a.ak], oe.prototype, "showPopupMenu", null),
-          (0, o.gn)([a.ak], oe.prototype, "popupMenuMouseLeave", null),
-          (0, o.gn)([a.ak], oe.prototype, "popupMenuMouseUp", null),
-          (0, o.gn)([g.Fl], oe.prototype, "isDarkMode", null),
-          (0, o.gn)([g.Fl], oe.prototype, "screenshotMode", null),
-          (0, o.gn)([g.Fl], oe.prototype, "isTheaterMode", null),
-          (0, o.gn)(
+          (0, n.gn)([a.ak], de.prototype, "onDashboardOverlayCreated", null),
+          (0, n.gn)([a.ak], de.prototype, "onDashboardOverlayDestroyed", null),
+          (0, n.gn)([a.ak], de.prototype, "onUpdateDashboardTabs", null),
+          (0, n.gn)([a.ak], de.prototype, "onWindowViewCreated", null),
+          (0, n.gn)([a.ak], de.prototype, "onWindowViewDestroyed", null),
+          (0, n.gn)([a.ak], de.prototype, "onUpdateWindowList", null),
+          (0, n.gn)([a.ak], de.prototype, "onUpdateDebugInfo", null),
+          (0, n.gn)([a.ak], de.prototype, "onDockOverlay", null),
+          (0, n.gn)([a.ak], de.prototype, "onShowDashboardRequested", null),
+          (0, n.gn)([a.ak], de.prototype, "onHideDashboardRequested", null),
+          (0, n.gn)([a.ak], de.prototype, "show", null),
+          (0, n.gn)([a.ak], de.prototype, "hide", null),
+          (0, n.gn)([a.ak], de.prototype, "setPlacementModeActive", null),
+          (0, n.gn)([a.ak], de.prototype, "onToggleRoomView", null),
+          (0, n.gn)([a.ak], de.prototype, "onQuickLaunchButtonClick", null),
+          (0, n.gn)([a.ak], de.prototype, "onQuickStoreButtonClick", null),
+          (0, n.gn)([a.ak], de.prototype, "onRecenterClick", null),
+          (0, n.gn)([a.ak], de.prototype, "renderPowerMenu", null),
+          (0, n.gn)([a.ak], de.prototype, "startPopoverMenuTimeout", null),
+          (0, n.gn)([a.ak], de.prototype, "clearPopoverMenuTimeout", null),
+          (0, n.gn)([a.ak], de.prototype, "showPopoverMenu", null),
+          (0, n.gn)([a.ak], de.prototype, "popoverMenuMouseLeave", null),
+          (0, n.gn)([a.ak], de.prototype, "popoverMenuMouseUp", null),
+          (0, n.gn)([l.Fl], de.prototype, "isDarkMode", null),
+          (0, n.gn)([l.Fl], de.prototype, "isScreenshotMode", null),
+          (0, n.gn)([l.Fl], de.prototype, "isTheaterMode", null),
+          (0, n.gn)(
             [a.ak],
-            oe.prototype,
+            de.prototype,
             "renderExternalOverlayControlBarButton",
             null
           ),
-          (0, o.gn)([a.ak], oe.prototype, "isDesktopTrayActive", null),
-          (0, o.gn)([a.ak], oe.prototype, "isDesktopOverlayActive", null),
-          (0, o.gn)([a.ak], oe.prototype, "handlePeerButton", null),
-          (0, o.gn)([a.ak], oe.prototype, "isDesktopViewVisible", null),
-          (0, o.gn)([a.ak], oe.prototype, "onGameLaunched", null),
-          (0, o.gn)([a.ak], oe.prototype, "toggleKeyboard", null),
-          (0, o.gn)([a.ak], oe.prototype, "onKeyboardClosed", null),
-          (0, o.gn)([g.Fl], oe.prototype, "activeOverlayScale", null),
-          (0, o.gn)([a.ak], oe.prototype, "onActiveOverlayScaleChange", null),
-          (0, o.gn)([a.ak], oe.prototype, "onActiveOverlayClosed", null),
-          (0, o.gn)([g.LO], oe, "s_dashboardUserDistance", void 0),
-          (0, o.gn)([g.LO], oe, "s_dashboardUserScale", void 0),
-          (oe = Z = (0, o.gn)([h.Pi], oe));
+          (0, n.gn)([a.ak], de.prototype, "isDesktopTrayActive", null),
+          (0, n.gn)([a.ak], de.prototype, "isDesktopOverlayActive", null),
+          (0, n.gn)([a.ak], de.prototype, "handlePeerButton", null),
+          (0, n.gn)([a.ak], de.prototype, "isDesktopViewVisible", null),
+          (0, n.gn)([a.ak], de.prototype, "onGameLaunched", null),
+          (0, n.gn)([a.ak], de.prototype, "toggleKeyboard", null),
+          (0, n.gn)([a.ak], de.prototype, "onKeyboardClosed", null),
+          (0, n.gn)([l.Fl], de.prototype, "activeOverlayScale", null),
+          (0, n.gn)([a.ak], de.prototype, "onActiveOverlayScaleChange", null),
+          (0, n.gn)([a.ak], de.prototype, "onActiveOverlayClosed", null),
+          (0, n.gn)([l.LO], de, "s_dashboardUserDistance", void 0),
+          (0, n.gn)([l.LO], de, "s_dashboardUserScale", void 0),
+          (de = re = (0, n.gn)([S.Pi], de));
       },
-      7679: (e, t, i) => {
-        i.d(t, {
-          B8: () => W,
-          D6: () => Q,
-          Gl: () => E,
-          IO: () => F,
-          M3: () => V,
-          NT: () => z,
-          RA: () => P,
-          Rk: () => K,
-          WR: () => I,
-          dw: () => U,
-          dy: () => B,
-          j4: () => q,
-          j6: () => G,
-          lL: () => x,
-          qo: () => L,
-          t3: () => T,
-          z: () => X,
-          zN: () => Y,
-          zk: () => H,
+      7679: (e, t, o) => {
+        o.d(t, {
+          B8: () => V,
+          D6: () => W,
+          IO: () => P,
+          M3: () => D,
+          NT: () => L,
+          Rk: () => N,
+          dw: () => O,
+          dy: () => T,
+          j4: () => H,
+          j6: () => B,
+          lL: () => R,
+          z: () => A,
+          zN: () => z,
+          zk: () => x,
         });
-        var n,
+        var i,
           r,
-          o,
-          s = i(655),
-          a = i(7294),
-          l = i(7056),
-          c = i(3868),
-          d = i(1818),
-          u = i(7264),
-          p = i(1058),
-          h = i(6321),
-          m = i(197),
-          g = i(2188),
-          v = i(6882),
-          _ = i(7062),
-          y = i(9392),
-          b = i(1219),
-          f = i(4435),
-          S = i(9981),
-          C = i(7968),
-          k = i(3446),
-          M = i(6547),
-          R = i(8322),
-          w = i.n(R),
-          D = i(1307);
-        const T = "DashboardPanelTopCenter",
-          E = "DashboardPanelBottomCenter",
-          I = "DashboardControlStrip",
-          x = (e) => {
-            var t, i, n;
-            const r = a.useRef(null),
-              o = a.useRef(null);
-            a.useEffect(() => {
-              var e, t;
-              return null === (e = r.current) || void 0 === e
-                ? void 0
-                : e.setFloatingViewStack(
-                    null === (t = o.current) || void 0 === t
-                      ? void 0
-                      : t.viewStack
-                  );
-            });
-            const s = null === (t = e.scrollable) || void 0 === t || t,
-              l =
-                null !== (i = e.foregroundReflectMultiplier) && void 0 !== i
-                  ? i
-                  : 1,
-              c =
-                null ===
-                  (n = k.G3.settings.get(
-                    "/settings/dashboard/allowCurvature"
-                  )) ||
-                void 0 === n ||
-                n
-                  ? m.ml
-                  : null;
-            return a.createElement(
-              a.Fragment,
-              null,
-              a.createElement(
-                h.s_,
-                {
-                  visibility: e.visible ? h.Bl.Visible : h.Bl.Hidden,
-                  debug_name: "homepanelbackground",
-                  curvature_origin_id: c,
-                  origin: h.Ic.BottomCenter,
-                  interactive: !1,
-                  scrollable: !1,
-                  target_dpi_panel_id: I,
-                  target_dpi_multiplier: 2,
-                  reflect: 0.01,
-                  sampler: h.Vv.SingleTap,
-                },
-                a.createElement(h.at, { id: T, location: h.Ic.TopCenter }),
-                a.createElement(
-                  M.vz,
-                  { ref: r },
-                  a.createElement("div", {
-                    className: (0, p.LJ)(
-                      "DashboardPanelBackground",
-                      e.additionalClassNames
-                    ),
-                    style: e.additionalStyle,
-                  })
-                ),
-                a.createElement(h.at, { id: E, location: h.Ic.BottomCenter })
+          n = o(655),
+          s = o(6321),
+          a = o(7056),
+          l = o(2188),
+          c = o(7062),
+          d = o(7294),
+          u = o(1818),
+          h = o(6547),
+          p = o(9392),
+          m = o(1219),
+          g = o(7264),
+          v = o(9981),
+          _ = o(197),
+          y = o(3868),
+          b = o(6882),
+          f = o(1058),
+          S = o(4435),
+          k = o(3446),
+          C = o(8322),
+          M = o.n(C),
+          w = o(7968);
+        const R = (e) => {
+          var t, o, i;
+          const r = d.useRef(null),
+            n = d.useRef(null);
+          d.useEffect(() => {
+            var e, t;
+            return null === (e = r.current) || void 0 === e
+              ? void 0
+              : e.setFloatingViewStack(
+                  null === (t = n.current) || void 0 === t
+                    ? void 0
+                    : t.viewStack
+                );
+          });
+          const a = null === (t = e.scrollable) || void 0 === t || t,
+            l =
+              null !== (o = e.foregroundReflectMultiplier) && void 0 !== o
+                ? o
+                : 1,
+            c =
+              null ===
+                (i = k.G3.settings.get("/settings/dashboard/allowCurvature")) ||
+              void 0 === i ||
+              i
+                ? _.ml
+                : null;
+          return d.createElement(
+            d.Fragment,
+            null,
+            d.createElement(
+              s.s_,
+              {
+                visibility: e.visible ? s.Bl.Visible : s.Bl.Hidden,
+                debug_name: "homepanelbackground",
+                curvature_origin_id: c,
+                origin: s.Ic.BottomCenter,
+                interactive: !1,
+                scrollable: !1,
+                target_dpi_panel_id: _.WR,
+                target_dpi_multiplier: 2,
+                reflect: 0.01,
+                sampler: s.Vv.SingleTap,
+              },
+              d.createElement(s.at, { id: _.t3, location: s.Ic.TopCenter }),
+              d.createElement(
+                h.vz,
+                { ref: r },
+                d.createElement("div", {
+                  className: (0, f.LJ)(
+                    "DashboardPanelBackground",
+                    e.additionalClassNames
+                  ),
+                  style: e.additionalStyle,
+                })
               ),
-              a.createElement(
-                h.wx,
-                { translation: { z: 1e-5 } },
-                a.createElement(
-                  h.s_,
-                  {
-                    visibility: e.visible ? h.Bl.Visible : h.Bl.Hidden,
-                    debug_name: e.debugName,
-                    curvature_origin_id: c,
-                    origin: h.Ic.BottomCenter,
-                    interactive: !0,
-                    scrollable: s,
-                    target_dpi_panel_id: I,
-                    reflect: 0.2 * l,
-                  },
-                  a.createElement(
-                    M.sC,
-                    { ref: o },
-                    a.createElement(
-                      d.q,
-                      null,
-                      a.createElement(
-                        y.P,
-                        {
-                          scrollDirection: s ? y.I.Vertical : y.I.None,
-                          className: (0, p.LJ)(
-                            "DashboardPanel",
-                            e.additionalClassNames
-                          ),
-                          style: e.additionalStyle,
-                        },
-                        e.children
-                      )
+              d.createElement(s.at, { id: _.Gl, location: s.Ic.BottomCenter })
+            ),
+            d.createElement(
+              s.wx,
+              { translation: { z: 1e-5 } },
+              d.createElement(
+                s.s_,
+                {
+                  visibility: e.visible ? s.Bl.Visible : s.Bl.Hidden,
+                  debug_name: e.debugName,
+                  curvature_origin_id: c,
+                  origin: s.Ic.BottomCenter,
+                  interactive: !0,
+                  scrollable: a,
+                  target_dpi_panel_id: _.WR,
+                  reflect: 0.2 * l,
+                },
+                d.createElement(
+                  h.sC,
+                  { ref: n },
+                  d.createElement(
+                    u.q,
+                    null,
+                    d.createElement(
+                      p.P,
+                      {
+                        scrollDirection: a ? p.I.Vertical : p.I.None,
+                        className: (0, f.LJ)(
+                          "DashboardPanel",
+                          e.additionalClassNames
+                        ),
+                        style: e.additionalStyle,
+                      },
+                      e.children
                     )
                   )
                 )
               )
-            );
-          };
-        var P;
-        function O(e) {
-          switch (e) {
-            case P.LeftHand:
-              return "/user/hand/left";
-            case P.RightHand:
-              return "/user/hand/right";
-            default:
-              return "";
-          }
-        }
-        !(function (e) {
-          (e[(e.Dashboard = 0)] = "Dashboard"),
-            (e[(e.LeftHand = 1)] = "LeftHand"),
-            (e[(e.RightHand = 2)] = "RightHand"),
-            (e[(e.World = 3)] = "World");
-        })(P || (P = {}));
-        let L = (n = class extends a.Component {
-          constructor(e) {
-            super(e),
-              (this.state = {
-                fOverlayScale: this.GetDefaultScaleForLocation(),
-                xfTransform: (0, h.Oq)(),
-                sParent: O(this.props.dockLocation),
-                bIsOutsideMaxDist: !1,
-                destination: this.props.dockLocation,
-                bIsMoving: !1,
-              }),
-              (this.m_nMoveDeviceIndex = h.Kf),
-              (this.m_moveDeviceRole = h.Kg.TrackedControllerRole_Invalid);
-          }
-          GetDefaultScaleForLocation() {
-            switch (this.props.dockLocation) {
-              case P.Dashboard:
-              case P.LeftHand:
-              case P.RightHand:
-                return 0.25;
-              case P.World:
-                return 0.5;
-            }
-          }
-          SetInitialTransformForLocation() {
-            if (this.props.xfInitial) {
-              switch (this.props.dockLocation) {
-                case P.LeftHand:
-                case P.RightHand: {
-                  let e = this.props.xfInitial,
-                    t = this.state.fOverlayScale;
-                  Math.abs(e.scale.x - 2) < 0.1 &&
-                    (t = Math.min(2 * t, n.sfOverlayScaleMax)),
-                    (e.scale = { x: 1, y: 1, z: 1 }),
-                    this.setState({ xfTransform: e, fOverlayScale: t });
-                  break;
-                }
-                case P.World: {
-                  let e = this.props.xfInitial,
-                    t = this.state.fOverlayScale;
-                  Math.abs(e.scale.x - 1) < 0.1 &&
-                    (t = Math.max(t / 2, n.sfOverlayScaleMin)),
-                    (e.scale = { x: 2, y: 2, z: 1 }),
-                    this.setState({ xfTransform: e, fOverlayScale: t });
-                  break;
-                }
-              }
-              return;
-            }
-            let e = (0, h.Oq)();
-            switch (
-              ((e.rotation = (0, h.UU)({ x: -45, y: 0, z: 0 })),
-              this.props.dockLocation)
-            ) {
-              case P.Dashboard:
-              case P.LeftHand:
-              case P.RightHand:
-                this.setState({ xfTransform: e });
-                break;
-              case P.World:
-                let t = 0;
-                h.hz
-                  .getInstance()
-                  .requestSGTransform(
-                    "system.systemui::active_overlay_transform",
-                    t
-                  )
-                  .then((t) => {
-                    (e.rotation = t.rotation),
-                      (e.scale = { x: 2, y: 2, z: 1 }),
-                      (e.translation = {
-                        x: t.translation.x,
-                        y: t.translation.y,
-                        z: t.translation.z,
-                      }),
-                      this.setState({ xfTransform: e });
-                  });
-            }
-          }
-          componentDidMount() {
-            this.SetInitialTransformForLocation();
-          }
-          componentDidUpdate(e, t) {
-            e.dockLocation != this.props.dockLocation &&
-              this.setState(
-                {
-                  sParent: O(this.props.dockLocation),
-                  xfTransform: (0, h.Oq)(),
-                  bIsOutsideMaxDist: !1,
-                  destination: this.props.dockLocation,
-                },
-                this.SetInitialTransformForLocation
-              );
-          }
-          onOverlayScaleChanged(e) {
-            this.setState({ fOverlayScale: e });
-          }
-          computeDestination() {
-            if (!this.state.bIsMoving) return;
-            let e = VRHTML.GetPose(this.m_nMoveDeviceIndex, h.zq.Standing),
-              t = null;
-            VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-              h.Kg.TrackedControllerRole_LeftHand
-            ) != h.Kf && (t = VRHTML.GetPose("/user/hand/left", h.zq.Standing));
-            let i = null;
-            VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-              h.Kg.TrackedControllerRole_RightHand
-            ) != h.Kf &&
-              (i = VRHTML.GetPose("/user/hand/right", h.zq.Standing));
-            let r = [];
-            switch (this.state.sParent) {
-              case "/user/hand/left":
-                i && r.push({ pose: i, location: P.RightHand });
-                break;
-              case "/user/hand/right":
-                t && r.push({ pose: t, location: P.LeftHand });
-                break;
-              case "/user/head":
-                t && r.push({ pose: t, location: P.LeftHand }),
-                  i && r.push({ pose: i, location: P.RightHand });
-            }
-            if (0 == r.length)
-              return void setTimeout(this.computeDestination, n.sfMovePulseMS);
-            let o = VRHTML.MultiplyTransforms(
-              e.xfDeviceToAbsoluteTracking,
-              this.state.xfTransform
-            );
-            r.forEach((e) => {
-              let t = VRHTML.ChangeBasis(o, e.pose.xfDeviceToAbsoluteTracking);
-              (0, h.LY)(t.translation) > n.sfMaxDockDist
-                ? this.state.bIsOutsideMaxDist ||
-                  (D.LJ.Instance.triggerHaptic(D.Kf.SlidingEdge),
-                  this.setState({
-                    bIsOutsideMaxDist: !0,
-                    destination: P.World,
-                  }))
-                : (this.state.bIsOutsideMaxDist ||
-                    (this.props.dockLocation == P.World &&
-                      this.state.destination == P.World)) &&
-                  (D.LJ.Instance.triggerHaptic(D.Kf.SlidingEdge),
-                  this.setState({
-                    bIsOutsideMaxDist: !1,
-                    destination: e.location,
-                  }));
-            }),
-              setTimeout(this.computeDestination, n.sfMovePulseMS);
-          }
-          startMove() {
-            if (this.state.bIsMoving) return;
-            if (
-              (console.log(
-                "Starting to move " + this.props.sOverlayKey + "...\n"
-              ),
-              (this.m_nMoveDeviceIndex =
-                VRHTML.VROverlay.GetPrimaryDashboardDevice()),
-              this.m_nMoveDeviceIndex == h.Kf)
             )
-              return;
-            this.m_moveDeviceRole =
-              VRHTML.VRSystem.GetControllerRoleForTrackedDeviceIndex(
-                this.m_nMoveDeviceIndex
-              );
-            let e,
-              t,
-              i = VRHTML.GetPose(this.m_nMoveDeviceIndex, h.zq.Standing);
-            switch (this.props.dockLocation) {
-              case P.LeftHand:
-                if (
-                  VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-                    h.Kg.TrackedControllerRole_LeftHand
-                  ) == h.Kf
-                )
-                  return;
-                e = VRHTML.GetPose("/user/hand/left", h.zq.Standing);
-                break;
-              case P.RightHand:
-                if (
-                  VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-                    h.Kg.TrackedControllerRole_RightHand
-                  ) == h.Kf
-                )
-                  return;
-                e = VRHTML.GetPose("/user/hand/right", h.zq.Standing);
-                break;
-              default:
-                e = {
-                  xfDeviceToAbsoluteTracking: (0, h.Oq)(),
-                  vVelocity: { x: 0, y: 0, z: 0 },
-                  eTrackingResult: h.QZ.TrackingResult_Running_OK,
-                  bPoseIsValid: !0,
-                };
-            }
-            switch (this.m_moveDeviceRole) {
-              case h.Kg.TrackedControllerRole_LeftHand:
-                t = "/user/hand/left";
-                break;
-              case h.Kg.TrackedControllerRole_RightHand:
-                t = "/user/hand/right";
-                break;
-              default:
-                t = "/user/head";
-            }
-            let n = VRHTML.MultiplyTransforms(
-                e.xfDeviceToAbsoluteTracking,
-                this.state.xfTransform
-              ),
-              r = VRHTML.ChangeBasis(n, i.xfDeviceToAbsoluteTracking);
-            this.setState(
-              {
-                xfTransform: r,
-                sParent: t,
-                bIsOutsideMaxDist: this.props.dockLocation == P.World,
-                bIsMoving: !0,
-              },
-              this.computeDestination
-            ),
-              window.addEventListener("mouseup", this.endMove);
-          }
-          endMove() {
-            if (!this.state.bIsMoving) return;
-            let e, t;
-            if (
-              "/user/hand/left" == this.state.sParent ||
-              this.state.destination == P.LeftHand
-            ) {
-              if (
-                VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-                  h.Kg.TrackedControllerRole_LeftHand
-                ) == h.Kf
-              )
-                return;
-              e = VRHTML.GetPose("/user/hand/left", h.zq.Standing);
-            }
-            if (
-              "/user/hand/right" == this.state.sParent ||
-              this.state.destination == P.RightHand
-            ) {
-              if (
-                VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-                  h.Kg.TrackedControllerRole_RightHand
-                ) == h.Kf
-              )
-                return;
-              t = VRHTML.GetPose("/user/hand/right", h.zq.Standing);
-            }
-            let i,
-              n = {
-                xfDeviceToAbsoluteTracking: (0, h.Oq)(),
-                vVelocity: { x: 0, y: 0, z: 0 },
-                eTrackingResult: h.QZ.TrackingResult_Running_OK,
-                bPoseIsValid: !0,
-              };
-            switch (this.state.destination) {
-              case P.LeftHand:
-                i = e;
-                break;
-              case P.RightHand:
-                i = t;
-                break;
-              default:
-                i = n;
-            }
-            let r = VRHTML.GetPose(this.m_nMoveDeviceIndex, h.zq.Standing),
-              o = VRHTML.MultiplyTransforms(
-                r.xfDeviceToAbsoluteTracking,
-                this.state.xfTransform
-              ),
-              s = VRHTML.ChangeBasis(o, i.xfDeviceToAbsoluteTracking);
-            this.setState({
-              xfTransform: s,
-              sParent: O(this.state.destination),
-              bIsMoving: !1,
-            }),
-              this.props.onDockOverlay(
-                this.props.sOverlayKey,
-                this.state.destination,
-                s
-              ),
-              window.removeEventListener("mouseup", this.endMove);
-          }
-          render() {
-            var e;
-            if ("" == this.props.sOverlayKey || null == this.state.xfTransform)
-              return null;
-            let t = VRHTML.VROverlay.FindOverlay(this.props.sOverlayKey);
-            if (!t) return null;
-            let i = { x: 0, y: 0 };
-            try {
-              i = VRHTML.VROverlay.GetOverlayMouseScale(t);
-            } catch (e) {
-              return console.log(JSON.stringify(e)), null;
-            }
-            let r =
-                (null !== (e = VRHTML.VROverlay.GetWidthInMeters(t)) &&
-                void 0 !== e
-                  ? e
-                  : 1) * this.state.fOverlayScale,
-              o = (r * i.y) / i.x;
-            if (!this.props.bVisible)
-              return a.createElement(
-                h.wx,
-                {
-                  parent_path: this.state.sParent,
-                  transform: this.state.xfTransform,
-                  id: "xf_widget",
-                },
-                a.createElement(
-                  h.s_,
-                  {
-                    overlay_key: this.props.sOverlayKey,
-                    height: o,
-                    width: void 0,
-                    interactive: !0,
-                    origin: h.Ic.BottomCenter,
-                  },
-                  a.createElement(h.sl, {
-                    mountedId: (0, h.iN)(
-                      m.GN,
-                      this.props.sOverlayKey + ".cursor"
-                    ),
-                  })
-                )
-              );
-            let s = o + n.sfOverlayTrayHeight,
-              l = Math.max(r, 0.175),
-              c = s / 2 - n.sfOverlayTrayHeight;
-            return a.createElement(
-              h.kH,
-              {
-                sParentPath: this.state.sParent,
-                bIsMoving: this.state.bIsMoving,
-                xfCurrent: this.state.xfTransform,
-                id: "xf_widget",
-              },
-              a.createElement(
-                h.wx,
-                {
-                  translation: { y: c, z: -0.005 },
-                  scale: { x: l, y: s, z: 0.008 },
-                },
-                a.createElement(
-                  h.VW,
-                  { color: { r: 0.016, g: 0.017, b: 0.02 } },
-                  a.createElement(h.gQ, { solid: !0, source: "unit_cube" })
-                )
-              ),
-              a.createElement(
-                h.s_,
-                {
-                  overlay_key: this.props.sOverlayKey,
-                  height: o,
-                  width: void 0,
-                  interactive: !0,
-                  origin: h.Ic.BottomCenter,
-                },
-                a.createElement(h.sl, {
-                  mountedId: (0, h.iN)(
-                    m.GN,
-                    this.props.sOverlayKey + ".cursor"
-                  ),
-                })
-              ),
-              a.createElement(
-                h.s_,
-                {
-                  height: n.sfOverlayTrayHeight,
-                  width: void 0,
-                  interactive: !0,
-                  origin: h.Ic.TopCenter,
-                },
-                a.createElement(
-                  "div",
-                  { className: "WindowTray" },
-                  a.createElement(b.iR, {
-                    additionalClassName: "WindowTraySlider",
-                    min: n.sfOverlayScaleMin,
-                    max: n.sfOverlayScaleMax,
-                    value: this.state.fOverlayScale,
-                    valueStyleVariant: b.px.OnHandle,
-                    onChange: this.onOverlayScaleChanged,
-                    detents: [0.25, 0.5, 1],
-                    renderValue: (e) => (100 * e).toFixed(0) + "%",
-                  }),
-                  a.createElement(
-                    d.z,
-                    {
-                      className: "WindowTrayButton",
-                      key: "move",
-                      onMouseDown: this.startMove,
-                      onMouseUp: this.endMove,
-                      style: { padding: "0.5em", paddingBottom: "0.25em" },
-                    },
-                    a.createElement("img", {
-                      className: "Icon BlackToWhite",
-                      src: "/dashboard/images/icons/icon_move.png",
-                    })
-                  ),
-                  a.createElement(
-                    d.z,
-                    {
-                      className: "WindowTrayButton",
-                      key: "undock",
-                      style: { padding: "0.5em", paddingBottom: "0.25em" },
-                      title: "Return to Dashboard",
-                      onClick: () => {
-                        this.props.onDockOverlay(
-                          this.props.sOverlayKey,
-                          P.Dashboard
-                        );
-                      },
-                    },
-                    a.createElement("img", {
-                      className: "Icon",
-                      src: "/dashboard/images/icons/icon_return.png",
-                    })
-                  )
-                )
-              ),
-              this.state.bIsMoving &&
-                !this.state.bIsOutsideMaxDist &&
-                a.createElement(
-                  a.Fragment,
-                  null,
-                  a.createElement(
-                    h.wx,
-                    {
-                      parent_path:
-                        this.state.destination == P.LeftHand
-                          ? "/user/hand/left"
-                          : "/user/hand/right",
-                    },
-                    a.createElement(h.x1, {
-                      target_id: "xf_widget",
-                      thickness: 0.001,
-                      start_buffer: 0.01,
-                      end_buffer: 0.01,
-                    })
-                  )
-                )
-            );
-          }
-        });
-        (L.sfMaxDockDist = 0.4),
-          (L.sfMovePulseMS = 100),
-          (L.sfOverlayTrayHeight = 0.025),
-          (L.sfOverlayScaleMin = 0.1),
-          (L.sfOverlayScaleMax = 2),
-          (0, s.gn)([l.ak], L.prototype, "onOverlayScaleChanged", null),
-          (0, s.gn)([l.ak], L.prototype, "computeDestination", null),
-          (0, s.gn)([l.ak], L.prototype, "startMove", null),
-          (0, s.gn)([l.ak], L.prototype, "endMove", null),
-          (L = n = (0, s.gn)([_.Pi], L));
-        class V extends a.Component {
+          );
+        };
+        class D extends d.Component {
           constructor(e) {
             super(e), (this.state = { time: new Date() });
           }
@@ -8593,84 +8709,84 @@
               ));
           }
           render() {
-            const e = c.LJ.GetLocale();
+            const e = y.LJ.GetLocale();
             let t = this.state.time.toLocaleTimeString(e, {
                 hour: "numeric",
                 minute: "2-digit",
               }),
-              i = null;
-            const n = t.toLowerCase(),
-              r = Math.max(n.lastIndexOf("am"), n.lastIndexOf("pm"));
+              o = null;
+            const i = t.toLowerCase(),
+              r = Math.max(i.lastIndexOf("am"), i.lastIndexOf("pm"));
             return (
-              r >= 0 && ((i = t.substring(r)), (t = t.substring(0, r - 1))),
-              a.createElement(
+              r >= 0 && ((o = t.substring(r)), (t = t.substring(0, r - 1))),
+              d.createElement(
                 "div",
                 { className: "ClockContainer" },
-                a.createElement(
+                d.createElement(
                   "div",
                   { className: "Clock" },
                   t,
                   " ",
-                  a.createElement("span", { className: "Suffix" }, i)
+                  d.createElement("span", { className: "Suffix" }, o)
                 )
               )
             );
           }
         }
-        function B(e) {
-          return a.createElement(
-            d.z,
+        function T(e) {
+          return d.createElement(
+            u.z,
             { className: "PowerMenuButton", onClick: e.onClick },
-            a.createElement("div", { className: "HoverGradient" }),
-            a.createElement("div", { className: "ClickGradient" }),
-            a.createElement("span", null, e.label),
-            e.lineBelow && a.createElement("div", { className: "LineBelow" })
+            d.createElement("div", { className: "HoverGradient" }),
+            d.createElement("div", { className: "ClickGradient" }),
+            d.createElement("span", null, e.label),
+            e.lineBelow && d.createElement("div", { className: "LineBelow" })
           );
         }
-        (0, s.gn)([l.ak], V.prototype, "updateTime", null);
-        let A = (r = class extends a.Component {
+        (0, n.gn)([a.ak], D.prototype, "updateTime", null);
+        let E = (i = class extends d.Component {
           get isShowingTooltip() {
-            return r.s_CurrentlyShownTooltip === this;
+            return i.s_CurrentlyShownTooltip === this;
           }
           show() {
-            r.s_CurrentlyShownTooltip = this;
+            i.s_CurrentlyShownTooltip = this;
           }
           hide() {
-            this.isShowingTooltip && (r.s_CurrentlyShownTooltip = null);
+            this.isShowingTooltip && (i.s_CurrentlyShownTooltip = null);
           }
           render() {
             var e;
             const t =
                 this.props.text && (this.props.shown || this.isShowingTooltip),
-              i = this.props.translation
+              o = this.props.translation
                 ? this.props.translation
                 : { x: 0, y: -0.2, z: 0.05 },
-              n =
+              i =
                 null ===
                   (e = k.G3.settings.get(
                     "/settings/dashboard/allowCurvature"
                   )) ||
                 void 0 === e ||
                 e
-                  ? m.ml
+                  ? _.ml
                   : null;
-            return a.createElement(
+            return d.createElement(
               "div",
               { style: { position: "absolute", left: "50%", top: "50%" } },
-              a.createElement(
-                v.d,
+              d.createElement(
+                b.d,
                 { allowableParentSelectors: [".DashboardMain"] },
-                a.createElement(
-                  h.wx,
-                  { translation: i },
-                  a.createElement(
-                    h.s_,
+                d.createElement(
+                  s.wx,
+                  { translation: o },
+                  d.createElement(
+                    s.s_,
                     {
-                      visibility: t ? h.Bl.Visible : h.Bl.SkipInSceneGraph,
-                      target_dpi_panel_id: I,
-                      curvature_origin_id: n,
+                      visibility: t ? s.Bl.Visible : s.Bl.SkipInSceneGraph,
+                      target_dpi_panel_id: _.WR,
+                      curvature_origin_id: i,
                     },
-                    a.createElement(
+                    d.createElement(
                       "div",
                       { className: "ControlBarButtonTooltip" },
                       this.props.text
@@ -8681,101 +8797,101 @@
             );
           }
         });
-        (A.s_CurrentlyShownTooltip = null),
-          (0, s.gn)([g.Fl], A.prototype, "isShowingTooltip", null),
-          (0, s.gn)([g.aD.bound], A.prototype, "show", null),
-          (0, s.gn)([g.aD.bound], A.prototype, "hide", null),
-          (0, s.gn)([g.LO], A, "s_CurrentlyShownTooltip", void 0),
-          (A = r = (0, s.gn)([_.Pi], A));
-        class N extends a.Component {
+        (E.s_CurrentlyShownTooltip = null),
+          (0, n.gn)([l.Fl], E.prototype, "isShowingTooltip", null),
+          (0, n.gn)([l.aD.bound], E.prototype, "show", null),
+          (0, n.gn)([l.aD.bound], E.prototype, "hide", null),
+          (0, n.gn)([l.LO], E, "s_CurrentlyShownTooltip", void 0),
+          (E = i = (0, n.gn)([c.Pi], E));
+        class I extends d.Component {
           static ShouldInvertThumbnail(e) {
             if (!e) return !1;
-            if (((e = e.toLowerCase()), !N.s_mapShouldInvertThumbnail.has(e))) {
+            if (((e = e.toLowerCase()), !I.s_mapShouldInvertThumbnail.has(e))) {
               let t = !1;
               e.endsWith(".svg") && (t = !0),
                 e.startsWith("data:") &&
-                  N.k_rsThumbnailHashesToInvert.indexOf(w().hash(e)) >= 0 &&
+                  I.k_rsThumbnailHashesToInvert.indexOf(M().hash(e)) >= 0 &&
                   (t = !0),
-                N.s_mapShouldInvertThumbnail.set(e, t);
+                I.s_mapShouldInvertThumbnail.set(e, t);
             }
-            return N.s_mapShouldInvertThumbnail.get(e);
+            return I.s_mapShouldInvertThumbnail.get(e);
           }
           render() {
             var e;
             const t = null !== (e = this.props.shadow) && void 0 !== e && e,
-              i = N.ShouldInvertThumbnail(this.props.src);
-            return a.createElement(
+              o = I.ShouldInvertThumbnail(this.props.src);
+            return d.createElement(
               "div",
               { className: "Icon" },
               t &&
-                a.createElement("img", {
+                d.createElement("img", {
                   className: "Shadow",
                   src: this.props.src,
                 }),
-              a.createElement("img", {
-                className: (0, p.LJ)(["BlackToWhite", i]),
+              d.createElement("img", {
+                className: (0, f.LJ)(["BlackToWhite", o]),
                 src: this.props.src,
               })
             );
           }
         }
-        var H, F;
-        (N.k_rsThumbnailHashesToInvert = [
+        var x, P;
+        (I.k_rsThumbnailHashesToInvert = [
           "5cbd0ebd6459cdaf75fdcafc5051f4e0",
           "c77452e60fc29227b33773ff6e74f8a1",
           "44b62220b39ba717fbfc65e3b4225491",
           "0ea4aa3d9529b716f0f1957684247dee",
           "86bbab56235b55f6e5e7d288342931d7",
         ]),
-          (N.s_mapShouldInvertThumbnail = new Map()),
+          (I.s_mapShouldInvertThumbnail = new Map()),
           (function (e) {
             (e[(e.Large = 0)] = "Large"),
               (e[(e.Small = 1)] = "Small"),
               (e[(e.App = 2)] = "App");
-          })(H || (H = {})),
+          })(x || (x = {})),
           (function (e) {
             (e[(e.Center = 0)] = "Center"), (e[(e.Fill = 1)] = "Fill");
-          })(F || (F = {}));
-        const U = (e) =>
-          a.createElement(
+          })(P || (P = {}));
+        const O = (e) =>
+          d.createElement(
             "div",
-            { className: (0, p.LJ)("ControlBarGroup", H[e.style]) },
+            { className: (0, f.LJ)("ControlBarGroup", x[e.style]) },
             e.children
           );
-        let W = class extends a.Component {
+        let V = class extends d.Component {
           constructor(e) {
-            super(e), (this.m_refTooltip = a.createRef());
+            super(e), (this.m_refTooltip = d.createRef());
           }
           onMouseEnter() {
-            var e, t, i;
+            var e, t, o;
             null === (e = this.m_refTooltip.current) ||
               void 0 === e ||
               e.show(),
-              null === (i = (t = this.props).onMouseEnter) ||
-                void 0 === i ||
-                i.call(t);
+              null === (o = (t = this.props).onMouseEnter) ||
+                void 0 === o ||
+                o.call(t);
           }
           onMouseLeave() {
-            var e, t, i;
+            var e, t, o;
             null === (e = this.m_refTooltip.current) ||
               void 0 === e ||
               e.hide(),
-              null === (i = (t = this.props).onMouseLeave) ||
-                void 0 === i ||
-                i.call(t);
+              null === (o = (t = this.props).onMouseLeave) ||
+                void 0 === o ||
+                o.call(t);
           }
           render() {
             var e;
-            return a.createElement(
-              d.z,
+            return d.createElement(
+              u.z,
               {
-                className: (0, p.LJ)(
+                className: (0, f.LJ)(
                   "ControlBarButton",
                   this.props.additionalClassNames,
-                  F[
+                  P[
                     null !== (e = this.props.imageStyle) && void 0 !== e
                       ? e
-                      : F.Center
+                      : P.Center
                   ] + "Image",
                   ["Disabled", !1 === this.props.enabled],
                   ["Active", !!this.props.active]
@@ -8789,42 +8905,42 @@
                 onMouseDown: this.props.onMouseDown,
                 onMouseEnter: this.onMouseEnter,
                 onMouseLeave: this.onMouseLeave,
-                pressSoundEffect: u.y.ControlBarButtonPress,
-                releaseSoundEffect: u.y.ControlBarButtonRelease,
+                pressSoundEffect: g.y.ControlBarButtonPress,
+                releaseSoundEffect: g.y.ControlBarButtonRelease,
               },
               this.props.centerPanelAnchorID &&
-                a.createElement(
+                d.createElement(
                   "div",
                   { style: { position: "absolute", left: "50%", top: "50%" } },
-                  a.createElement(v.d, {
+                  d.createElement(b.d, {
                     allowableParentSelectors: [".DashboardMain"],
                     panelAnchorID: this.props.centerPanelAnchorID,
                   })
                 ),
-              a.createElement(A, {
+              d.createElement(E, {
                 text: this.props.label,
                 ref: this.m_refTooltip,
               }),
-              a.createElement(N, { src: this.props.imageUrl })
+              d.createElement(I, { src: this.props.imageUrl })
             );
           }
         };
-        (0, s.gn)([l.ak], W.prototype, "onMouseEnter", null),
-          (0, s.gn)([l.ak], W.prototype, "onMouseLeave", null),
-          (W = (0, s.gn)([_.Pi], W));
-        const z = (e) =>
-          a.createElement(
-            U,
+        (0, n.gn)([a.ak], V.prototype, "onMouseEnter", null),
+          (0, n.gn)([a.ak], V.prototype, "onMouseLeave", null),
+          (V = (0, n.gn)([c.Pi], V));
+        const L = (e) =>
+          d.createElement(
+            O,
             { style: e.style },
-            a.createElement(W, Object.assign({}, e))
+            d.createElement(V, Object.assign({}, e))
           );
-        class G extends a.Component {
+        class B extends d.Component {
           constructor(e) {
             super(e),
               (this.m_BatteryStateChangedCallbackHandle = null),
               (this.m_DeviceRoleChangedCallbackHandle = null),
               (this.m_DeviceEventCallbackHandle = null),
-              (this.deviceIndex = h.Kf),
+              (this.deviceIndex = s.Kf),
               (this.batteryLevelStable = null),
               (this.devicePowerUsage = null),
               (this.state = { batteryIconPath: null });
@@ -8863,62 +8979,62 @@
             if (!VRHTML) return;
             let e = !1,
               t = !1,
-              i = h.Kf;
+              o = s.Kf;
             if (
               (void 0 !== this.props.role
-                ? (i = VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+                ? (o = VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
                     this.props.role
                   ))
                 : void 0 !== this.props.deviceIndex &&
-                  (i = this.props.deviceIndex),
-              i != this.deviceIndex &&
+                  (o = this.props.deviceIndex),
+              o != this.deviceIndex &&
                 ((this.batteryLevelStable = null),
                 (this.devicePowerUsage = null),
-                (this.deviceIndex = i)),
-              i != h.Kf)
+                (this.deviceIndex = o)),
+              o != s.Kf)
             ) {
               if (
                 ((e = VRHTML.VRProperties.GetBoolProperty(
-                  i,
-                  h.Uk.DeviceProvidesBatteryStatus_Bool
+                  o,
+                  s.Uk.DeviceProvidesBatteryStatus_Bool
                 )),
                 e)
               ) {
                 const e = VRHTML.VRProperties.GetFloatProperty(
-                  i,
-                  h.Uk.DeviceBatteryPercentage_Float
+                  o,
+                  s.Uk.DeviceBatteryPercentage_Float
                 );
                 (t = VRHTML.VRProperties.GetBoolProperty(
-                  i,
-                  h.Uk.DeviceIsCharging_Bool
+                  o,
+                  s.Uk.DeviceIsCharging_Bool
                 )),
                   null == this.batteryLevelStable ||
                   0 == this.batteryLevelStable
                     ? (this.batteryLevelStable = e)
                     : ((this.batteryLevelStable = Math.min(
                         this.batteryLevelStable,
-                        e + G.kBatteryLevelHysteresis,
+                        e + B.kBatteryLevelHysteresis,
                         1
                       )),
                       (this.batteryLevelStable = Math.max(
                         this.batteryLevelStable,
-                        e - G.kBatteryLevelHysteresis,
+                        e - B.kBatteryLevelHysteresis,
                         0
                       )));
               }
               this.devicePowerUsage = VRHTML.VRProperties.GetFloatProperty(
-                i,
-                h.Uk.DevicePowerUsage_Float
+                o,
+                s.Uk.DevicePowerUsage_Float
               );
             }
-            let n = C.X.GetBatteryIcon(
+            let i = w.X.GetBatteryIcon(
               e,
               t,
               this.batteryLevelStable,
               this.props.style
             );
-            n != this.state.batteryIconPath &&
-              this.setState({ batteryIconPath: n });
+            i != this.state.batteryIconPath &&
+              this.setState({ batteryIconPath: i });
           }
           update() {
             window.setTimeout(this.updateControllerStatus, 0);
@@ -8929,45 +9045,45 @@
           onDeviceRoleChanged() {
             this.update();
           }
-          onDeviceEvent(e, t, i) {
-            (e != h.XX.Activated && e != h.XX.Deactivated) || this.update();
+          onDeviceEvent(e, t, o) {
+            (e != s.XX.Activated && e != s.XX.Deactivated) || this.update();
           }
           render() {
-            return a.createElement(
+            return d.createElement(
               "div",
               { className: "BatteryStatus" },
               this.devicePowerUsage &&
-                a.createElement(
+                d.createElement(
                   "div",
                   { className: "Label" },
                   " ",
                   Math.round(10 * this.devicePowerUsage) / 10,
                   " W "
                 ),
-              a.createElement("img", { src: this.state.batteryIconPath })
+              d.createElement("img", { src: this.state.batteryIconPath })
             );
           }
         }
-        (G.kBatteryLevelHysteresis = 0.02),
-          (0, s.gn)([l.ak], G.prototype, "updateControllerStatus", null),
-          (0, s.gn)([l.ak], G.prototype, "onBatteryStateChanged", null),
-          (0, s.gn)([l.ak], G.prototype, "onDeviceRoleChanged", null),
-          (0, s.gn)([l.ak], G.prototype, "onDeviceEvent", null),
-          a.Component;
-        const K = (e) =>
-          a.createElement(
+        (B.kBatteryLevelHysteresis = 0.02),
+          (0, n.gn)([a.ak], B.prototype, "updateControllerStatus", null),
+          (0, n.gn)([a.ak], B.prototype, "onBatteryStateChanged", null),
+          (0, n.gn)([a.ak], B.prototype, "onDeviceRoleChanged", null),
+          (0, n.gn)([a.ak], B.prototype, "onDeviceEvent", null),
+          d.Component;
+        const N = (e) =>
+          d.createElement(
             "div",
             { className: "Title" },
-            a.createElement(N, { src: e.iconUrl, shadow: !0 }),
-            a.createElement("span", { className: "NoWrapText" }, e.name)
+            d.createElement(I, { src: e.iconUrl, shadow: !0 }),
+            d.createElement("span", { className: "NoWrapText" }, e.name)
           );
-        class q extends a.Component {
+        class H extends d.Component {
           constructor() {
             super(...arguments),
               (this.m_sAnchorID = Math.round(1e7 * Math.random()).toString()),
               (this.m_resizeObserver = null),
-              (this.m_refPanelElem = a.createRef()),
-              (this.m_refBackgroundElem = a.createRef());
+              (this.m_refPanelElem = d.createRef()),
+              (this.m_refBackgroundElem = d.createRef());
           }
           componentWillUnmount() {
             this.m_resizeObserver &&
@@ -8999,42 +9115,42 @@
           render() {
             var e;
             const t = this.props.position,
-              i = Math.asin(t) / Math.PI,
-              n =
+              o = Math.asin(t) / Math.PI,
+              i =
                 null ===
                   (e = k.G3.settings.get(
                     "/settings/dashboard/allowCurvature"
                   )) ||
                 void 0 === e ||
                 e
-                  ? m.ml
+                  ? _.ml
                   : null;
-            return a.createElement(
-              a.Fragment,
+            return d.createElement(
+              d.Fragment,
               null,
-              a.createElement(
-                h.at,
+              d.createElement(
+                s.at,
                 { location: { x: t, y: -1 } },
-                a.createElement(h.wx, {
+                d.createElement(s.wx, {
                   id: this.m_sAnchorID,
                   translation: {
-                    y: 0.01 * Math.abs(i),
-                    z: -0.03 * Math.abs(i),
+                    y: 0.01 * Math.abs(o),
+                    z: -0.03 * Math.abs(o),
                   },
-                  rotation: { y: 15 * i, z: 2 * i },
+                  rotation: { y: 15 * o, z: 2 * o },
                 })
               ),
-              a.createElement(
-                v.R,
+              d.createElement(
+                b.R,
                 {
                   allowableParentSelectors: [".DashboardMain"],
                   onPortalDidMount: this.onPortalDidMount,
                 },
-                a.createElement(
-                  h.VW,
+                d.createElement(
+                  s.VW,
                   { color: this.props.tintColor },
-                  a.createElement(
-                    S.Ti,
+                  d.createElement(
+                    v.Ti,
                     {
                       additionalClassName: "ControlBarTrayAnimation",
                       visible: this.props.visible,
@@ -9042,26 +9158,26 @@
                       onStartShowing: this.updateBackgroundSize,
                       onShown: this.updateBackgroundSize,
                     },
-                    a.createElement(
-                      h.wx,
+                    d.createElement(
+                      s.wx,
                       {
                         parent_id: this.m_sAnchorID,
                         translation: { y: 0.04, z: -0.01 },
                       },
-                      a.createElement(
-                        h.s_,
+                      d.createElement(
+                        s.s_,
                         {
-                          curvature_origin_id: n,
-                          origin: h.Ic.TopCenter,
+                          curvature_origin_id: i,
+                          origin: s.Ic.TopCenter,
                           interactive: !0,
                           scrollable: !0,
-                          target_dpi_panel_id: I,
+                          target_dpi_panel_id: _.WR,
                           sort_depth_bias: this.props.sort_depth_bias,
                         },
-                        a.createElement(
+                        d.createElement(
                           "div",
                           {
-                            className: (0, p.LJ)(
+                            className: (0, f.LJ)(
                               "ControlBarTray",
                               this.props.additionalClassNames
                             ),
@@ -9073,23 +9189,23 @@
                           this.props.children
                         )
                       ),
-                      a.createElement(
-                        h.wx,
+                      d.createElement(
+                        s.wx,
                         { translation: { z: -1e-5 } },
-                        a.createElement(
-                          h.s_,
+                        d.createElement(
+                          s.s_,
                           {
-                            curvature_origin_id: n,
-                            origin: h.Ic.TopCenter,
+                            curvature_origin_id: i,
+                            origin: s.Ic.TopCenter,
                             interactive: !1,
                             scrollable: !1,
-                            target_dpi_panel_id: I,
+                            target_dpi_panel_id: _.WR,
                             target_dpi_multiplier: 2,
                             reflect: 0.04,
-                            sampler: h.Vv.SingleTap,
+                            sampler: s.Vv.SingleTap,
                             sort_depth_bias: this.props.sort_depth_bias,
                           },
-                          a.createElement("div", {
+                          d.createElement("div", {
                             className: "ControlBarTrayBackground",
                             ref: this.m_refBackgroundElem,
                           })
@@ -9102,14 +9218,14 @@
             );
           }
         }
-        (0, s.gn)([l.ak], q.prototype, "onResizeObserved", null),
-          (0, s.gn)([l.ak], q.prototype, "updateBackgroundSize", null),
-          (0, s.gn)([l.ak], q.prototype, "onPortalDidMount", null);
-        let X = class extends a.Component {
+        (0, n.gn)([a.ak], H.prototype, "onResizeObserved", null),
+          (0, n.gn)([a.ak], H.prototype, "updateBackgroundSize", null),
+          (0, n.gn)([a.ak], H.prototype, "onPortalDidMount", null);
+        let A = class extends d.Component {
           constructor() {
             super(...arguments),
-              (this.m_refSlider = a.createRef()),
-              (this.m_refTray = a.createRef()),
+              (this.m_refSlider = d.createRef()),
+              (this.m_refTray = d.createRef()),
               (this.m_bMouseInSlider = !1);
           }
           get slider() {
@@ -9145,142 +9261,142 @@
               (this.showAudioMirrorControls ? 3 : 2) >= 3
                 ? 0
                 : this.props.position;
-            return a.createElement(
-              q,
+            return d.createElement(
+              H,
               Object.assign({}, this.props, {
                 position: e,
                 ref: this.m_refTray,
                 additionalClassNames: "VolumeTray",
               }),
-              a.createElement(
+              d.createElement(
                 "div",
                 { className: "Section" },
-                a.createElement(
-                  j,
+                d.createElement(
+                  U,
                   {
-                    onClick: f.f.Instance.toggleMicrophoneMute,
-                    title: f.f.Instance.microphoneMuted
-                      ? (0, c.Xx)("#UnmuteMicrophone")
-                      : (0, c.Xx)("#MuteMicrophone"),
+                    onClick: S.f.Instance.toggleMicrophoneMute,
+                    title: S.f.Instance.microphoneMuted
+                      ? (0, y.Xx)("#UnmuteMicrophone")
+                      : (0, y.Xx)("#MuteMicrophone"),
                   },
-                  a.createElement("img", {
+                  d.createElement("img", {
                     className: "BlackToWhite",
-                    src: f.f.Instance.microphoneMuted
+                    src: S.f.Instance.microphoneMuted
                       ? "/dashboard/images/icons/svr_mic_mute.svg"
                       : "/dashboard/images/icons/svr_mic_active.svg",
                   })
                 ),
-                a.createElement(Z, {
-                  title: (0, c.Xx)("#MicrophoneVolume"),
-                  value: f.f.Instance.microphoneVolume,
-                  onChange: f.f.Instance.setMicrophoneVolume,
+                d.createElement(F, {
+                  title: (0, y.Xx)("#MicrophoneVolume"),
+                  value: S.f.Instance.microphoneVolume,
+                  onChange: S.f.Instance.setMicrophoneVolume,
                   onMouseEnter: this.onSliderMouseEnter,
                   onMouseLeave: this.onSliderMouseLeave,
                   onFinalChange: this.onSliderFinalChange,
                   renderValue: (e) => Math.round(100 * e) + "%",
-                  valueStyleVariant: b.px.OnHandle,
-                  additionalClassName: (0, p.LJ)([
+                  valueStyleVariant: m.px.OnHandle,
+                  additionalClassName: (0, f.LJ)([
                     "Muted",
-                    f.f.Instance.microphoneMuted,
+                    S.f.Instance.microphoneMuted,
                   ]),
-                  interactionEndSoundEffect: u.y.VolumePreview,
+                  interactionEndSoundEffect: g.y.VolumePreview,
                 })
               ),
               this.showAudioMirrorControls &&
-                a.createElement(
+                d.createElement(
                   "div",
                   { className: "Section" },
-                  a.createElement(
-                    j,
+                  d.createElement(
+                    U,
                     {
-                      onClick: f.f.Instance.toggleMirrorMute,
+                      onClick: S.f.Instance.toggleMirrorMute,
                       enabled: this.enableAudioMirrorControls,
-                      title: f.f.Instance.mirrorMuted
-                        ? (0, c.Xx)("#UnmuteAudioMirror")
-                        : (0, c.Xx)("#MuteAudioMirror"),
+                      title: S.f.Instance.mirrorMuted
+                        ? (0, y.Xx)("#UnmuteAudioMirror")
+                        : (0, y.Xx)("#MuteAudioMirror"),
                     },
-                    a.createElement("img", {
+                    d.createElement("img", {
                       className: "BlackToWhite",
-                      src: f.f.Instance.mirrorMuted
+                      src: S.f.Instance.mirrorMuted
                         ? "/dashboard/images/icons/svr_volume_mirror_mute.svg"
                         : "/dashboard/images/icons/svr_volume_mirror.svg",
                     })
                   ),
-                  a.createElement(Z, {
-                    title: (0, c.Xx)("#AudioMirrorVolume"),
-                    value: f.f.Instance.mirrorVolume,
+                  d.createElement(F, {
+                    title: (0, y.Xx)("#AudioMirrorVolume"),
+                    value: S.f.Instance.mirrorVolume,
                     enabled: this.enableAudioMirrorControls,
-                    onChange: f.f.Instance.setMirrorVolume,
+                    onChange: S.f.Instance.setMirrorVolume,
                     onMouseEnter: this.onSliderMouseEnter,
                     onMouseLeave: this.onSliderMouseLeave,
                     onFinalChange: this.onSliderFinalChange,
                     renderValue: (e) => Math.round(100 * e) + "%",
-                    valueStyleVariant: b.px.OnHandle,
-                    additionalClassName: (0, p.LJ)([
+                    valueStyleVariant: m.px.OnHandle,
+                    additionalClassName: (0, f.LJ)([
                       "Muted",
-                      f.f.Instance.mirrorMuted,
+                      S.f.Instance.mirrorMuted,
                     ]),
-                    interactionEndSoundEffect: u.y.VolumePreview,
+                    interactionEndSoundEffect: g.y.VolumePreview,
                   })
                 ),
-              a.createElement(
+              d.createElement(
                 "div",
                 { className: "Section" },
-                a.createElement(
-                  j,
+                d.createElement(
+                  U,
                   {
-                    onClick: f.f.Instance.toggleMute,
-                    title: f.f.Instance.muted
-                      ? (0, c.Xx)("#Unmute_Headset")
-                      : (0, c.Xx)("#Mute_Headset"),
+                    onClick: S.f.Instance.toggleMute,
+                    title: S.f.Instance.muted
+                      ? (0, y.Xx)("#Unmute_Headset")
+                      : (0, y.Xx)("#Mute_Headset"),
                   },
-                  a.createElement("img", {
+                  d.createElement("img", {
                     className: "BlackToWhite",
-                    src: f.f.Instance.muted
+                    src: S.f.Instance.muted
                       ? "/dashboard/images/icons/svr_volume_mute.svg"
                       : "/dashboard/images/icons/svr_volume.svg",
                   })
                 ),
-                a.createElement(Z, {
-                  title: (0, c.Xx)("#HeadsetVolume"),
+                d.createElement(F, {
+                  title: (0, y.Xx)("#HeadsetVolume"),
                   sliderRef: this.m_refSlider,
-                  value: f.f.Instance.volume,
-                  onChange: f.f.Instance.setVolume,
+                  value: S.f.Instance.volume,
+                  onChange: S.f.Instance.setVolume,
                   onMouseEnter: this.onSliderMouseEnter,
                   onMouseLeave: this.onSliderMouseLeave,
                   onFinalChange: this.onSliderFinalChange,
                   renderValue: (e) => Math.round(100 * e) + "%",
-                  valueStyleVariant: b.px.OnHandle,
-                  additionalClassName: (0, p.LJ)(["Muted", f.f.Instance.muted]),
-                  interactionEndSoundEffect: u.y.VolumePreview,
+                  valueStyleVariant: m.px.OnHandle,
+                  additionalClassName: (0, f.LJ)(["Muted", S.f.Instance.muted]),
+                  interactionEndSoundEffect: g.y.VolumePreview,
                 })
               )
             );
           }
         };
-        (0, s.gn)([l.ak], X.prototype, "onSliderMouseEnter", null),
-          (0, s.gn)([l.ak], X.prototype, "onSliderMouseLeave", null),
-          (0, s.gn)([l.ak], X.prototype, "onSliderFinalChange", null),
-          (0, s.gn)([g.Fl], X.prototype, "showAudioMirrorControls", null),
-          (0, s.gn)([g.Fl], X.prototype, "enableAudioMirrorControls", null),
-          (X = (0, s.gn)([_.Pi], X));
-        let Z = class extends a.Component {
+        (0, n.gn)([a.ak], A.prototype, "onSliderMouseEnter", null),
+          (0, n.gn)([a.ak], A.prototype, "onSliderMouseLeave", null),
+          (0, n.gn)([a.ak], A.prototype, "onSliderFinalChange", null),
+          (0, n.gn)([l.Fl], A.prototype, "showAudioMirrorControls", null),
+          (0, n.gn)([l.Fl], A.prototype, "enableAudioMirrorControls", null),
+          (A = (0, n.gn)([c.Pi], A));
+        let F = class extends d.Component {
           constructor(e) {
             super(e), (this.state = { bSliding: !1, bHover: !1 });
           }
           onMouseEnter(e) {
-            var t, i;
+            var t, o;
             this.setState({ bHover: !0 }),
-              null === (i = (t = this.props).onMouseEnter) ||
-                void 0 === i ||
-                i.call(t, e);
+              null === (o = (t = this.props).onMouseEnter) ||
+                void 0 === o ||
+                o.call(t, e);
           }
           onMouseLeave(e) {
-            var t, i;
+            var t, o;
             this.setState({ bHover: !1 }),
-              null === (i = (t = this.props).onMouseLeave) ||
-                void 0 === i ||
-                i.call(t, e);
+              null === (o = (t = this.props).onMouseLeave) ||
+                void 0 === o ||
+                o.call(t, e);
           }
           onInteractionStart() {
             var e, t;
@@ -9298,16 +9414,16 @@
           }
           render() {
             let e = Object.assign({}, this.props);
-            return a.createElement(
+            return d.createElement(
               "div",
               { className: "SliderContainer" },
               this.props.title &&
-                a.createElement(A, {
+                d.createElement(E, {
                   text: this.props.title,
                   shown: this.state.bHover || this.state.bSliding,
                 }),
-              a.createElement(
-                b.iR,
+              d.createElement(
+                m.iR,
                 Object.assign({}, e, {
                   onMouseEnter: this.onMouseEnter,
                   onMouseLeave: this.onMouseLeave,
@@ -9319,38 +9435,38 @@
             );
           }
         };
-        (0, s.gn)([l.ak], Z.prototype, "onMouseEnter", null),
-          (0, s.gn)([l.ak], Z.prototype, "onMouseLeave", null),
-          (0, s.gn)([l.ak], Z.prototype, "onInteractionStart", null),
-          (0, s.gn)([l.ak], Z.prototype, "onInteractionEnd", null),
-          (Z = (0, s.gn)([_.Pi], Z));
-        let j = class extends a.Component {
+        (0, n.gn)([a.ak], F.prototype, "onMouseEnter", null),
+          (0, n.gn)([a.ak], F.prototype, "onMouseLeave", null),
+          (0, n.gn)([a.ak], F.prototype, "onInteractionStart", null),
+          (0, n.gn)([a.ak], F.prototype, "onInteractionEnd", null),
+          (F = (0, n.gn)([c.Pi], F));
+        let U = class extends d.Component {
           constructor(e) {
-            super(e), (this.m_refTooltip = a.createRef());
+            super(e), (this.m_refTooltip = d.createRef());
           }
           onMouseEnter(e) {
-            var t, i, n;
+            var t, o, i;
             null === (t = this.m_refTooltip.current) ||
               void 0 === t ||
               t.show(),
-              null === (n = (i = this.props).onMouseEnter) ||
-                void 0 === n ||
-                n.call(i, e);
+              null === (i = (o = this.props).onMouseEnter) ||
+                void 0 === i ||
+                i.call(o, e);
           }
           onMouseLeave(e) {
-            var t, i, n;
+            var t, o, i;
             null === (t = this.m_refTooltip.current) ||
               void 0 === t ||
               t.hide(),
-              null === (n = (i = this.props).onMouseLeave) ||
-                void 0 === n ||
-                n.call(i, e);
+              null === (i = (o = this.props).onMouseLeave) ||
+                void 0 === i ||
+                i.call(o, e);
           }
           render() {
-            return a.createElement(
-              d.z,
+            return d.createElement(
+              u.z,
               Object.assign({}, this.props, {
-                className: (0, p.LJ)(
+                className: (0, f.LJ)(
                   "ButtonControl",
                   "Round",
                   this.props.className
@@ -9359,7 +9475,7 @@
                 onMouseLeave: this.onMouseLeave,
               }),
               this.props.title &&
-                a.createElement(A, {
+                d.createElement(E, {
                   text: this.props.title,
                   ref: this.m_refTooltip,
                 }),
@@ -9367,10 +9483,10 @@
             );
           }
         };
-        (0, s.gn)([l.ak], j.prototype, "onMouseEnter", null),
-          (0, s.gn)([l.ak], j.prototype, "onMouseLeave", null),
-          (j = (0, s.gn)([_.Pi], j));
-        let Q = (o = class extends a.Component {
+        (0, n.gn)([a.ak], U.prototype, "onMouseEnter", null),
+          (0, n.gn)([a.ak], U.prototype, "onMouseLeave", null),
+          (U = (0, n.gn)([c.Pi], U));
+        let W = (r = class extends d.Component {
           constructor() {
             super(...arguments), (this.m_vecOriginalMousePosition = null);
           }
@@ -9385,22 +9501,22 @@
               : e.slider;
           }
           onButtonMouseDown(e) {
-            var t, i;
+            var t, o;
             (this.m_vecOriginalMousePosition = { x: e.clientX, y: e.clientY }),
               window.document.addEventListener("mouseup", this.onWindowMouseUp),
               window.document.addEventListener(
                 "mousemove",
                 this.onWindowMouseMove
               ),
-              null === (i = (t = this.props).onShowTray) ||
-                void 0 === i ||
-                i.call(t);
+              null === (o = (t = this.props).onShowTray) ||
+                void 0 === o ||
+                o.call(t);
           }
           onWindowMouseMove(e) {
             if (!this.slider || this.slider.isSliding) return;
             const t = { x: e.clientX, y: e.clientY };
-            (0, h.JR)((0, h.Zj)(t, this.m_vecOriginalMousePosition)) >
-              o.MIN_DRAG_THRESHOLD && this.startSliding(t);
+            (0, s.JR)((0, s.Zj)(t, this.m_vecOriginalMousePosition)) >
+              r.MIN_DRAG_THRESHOLD && this.startSliding(t);
           }
           onWindowMouseUp(e) {
             this.stopSliding();
@@ -9412,7 +9528,7 @@
               t.startExternalSliding(e);
           }
           stopSliding() {
-            var e, t, i, n;
+            var e, t, o, i;
             window.document.removeEventListener(
               "mouseup",
               this.onWindowMouseUp
@@ -9424,37 +9540,37 @@
               (null === (e = this.slider) || void 0 === e
                 ? void 0
                 : e.isSliding) &&
-                (null === (i = (t = this.props).onHideTray) ||
-                  void 0 === i ||
-                  i.call(t)),
-              null === (n = this.slider) ||
-                void 0 === n ||
-                n.stopExternalSliding();
+                (null === (o = (t = this.props).onHideTray) ||
+                  void 0 === o ||
+                  o.call(t)),
+              null === (i = this.slider) ||
+                void 0 === i ||
+                i.stopExternalSliding();
           }
           render() {
-            return a.createElement(W, {
-              imageUrl: f.f.Instance.muted
+            return d.createElement(V, {
+              imageUrl: S.f.Instance.muted
                 ? "/dashboard/images/icons/svr_volume_mute.svg"
                 : "/dashboard/images/icons/svr_volume.svg",
               active: this.props.active,
-              label: this.props.active ? null : (0, c.Xx)("#Volume"),
+              label: this.props.active ? null : (0, y.Xx)("#Volume"),
               onMouseDown: this.onButtonMouseDown,
               onMouseEnter: this.props.onMouseEnter,
               onMouseLeave: this.props.onMouseLeave,
             });
           }
         });
-        (Q.MIN_DRAG_THRESHOLD = 35),
-          (0, s.gn)([l.ak], Q.prototype, "onButtonMouseDown", null),
-          (0, s.gn)([l.ak], Q.prototype, "onWindowMouseMove", null),
-          (0, s.gn)([l.ak], Q.prototype, "onWindowMouseUp", null),
-          (Q = o = (0, s.gn)([_.Pi], Q));
-        const Y = (e) => {
-          const t = a.useRef();
-          return a.createElement(
-            d.z,
+        (W.MIN_DRAG_THRESHOLD = 35),
+          (0, n.gn)([a.ak], W.prototype, "onButtonMouseDown", null),
+          (0, n.gn)([a.ak], W.prototype, "onWindowMouseMove", null),
+          (0, n.gn)([a.ak], W.prototype, "onWindowMouseUp", null),
+          (W = r = (0, n.gn)([c.Pi], W));
+        const z = (e) => {
+          const t = d.useRef();
+          return d.createElement(
+            u.z,
             {
-              className: (0, p.LJ)(
+              className: (0, f.LJ)(
                 "ButtonControl",
                 ["Active", e.active],
                 ["WithIcon", !!e.iconUrl],
@@ -9462,51 +9578,52 @@
               ),
               onClick: e.onClick,
               onMouseEnter: () => {
-                var i;
-                null === (i = t.current) || void 0 === i || i.show(),
+                var o;
+                null === (o = t.current) || void 0 === o || o.show(),
                   e.onMouseEnter && e.onMouseEnter();
               },
               onMouseLeave: () => {
-                var i;
-                null === (i = t.current) || void 0 === i || i.hide(),
+                var o;
+                null === (o = t.current) || void 0 === o || o.hide(),
                   e.onMouseLeave && e.onMouseLeave();
               },
               enabled: e.enabled,
             },
             e.title &&
-              a.createElement(A, {
+              d.createElement(E, {
                 text: e.title,
                 translation: e.tooltipTranslation,
                 ref: t,
               }),
-            e.label && a.createElement("span", null, e.label),
+            e.label && d.createElement("span", null, e.label),
             e.iconUrl &&
-              a.createElement("img", {
+              d.createElement("img", {
                 className: "Icon BlackToWhite",
                 src: e.iconUrl,
               })
           );
         };
       },
-      79: (e, t, i) => {
-        i.d(t, { BB: () => u, KU: () => p });
-        var n,
-          r = i(655),
-          o = i(7294),
-          s = i(7056),
-          a = i(6321),
-          l = i(3868),
-          c = i(7062),
-          d = i(1058);
-        const u = "resetuniverseorigincountdown",
+      79: (e, t, o) => {
+        o.d(t, { BB: () => h, KU: () => p });
+        var i,
+          r = o(655),
+          n = o(7294),
+          s = o(7056),
+          a = o(6321),
+          l = o(3868),
+          c = o(7062),
+          d = o(1058),
+          u = o(3446);
+        const h = "resetuniverseorigincountdown",
           p = "begin_reset_universe_origin_countdown";
-        let h = (n = class extends o.Component {
+        let m = (i = class extends n.Component {
           constructor(e) {
             super(e),
               (this.m_countdownTimeout = 0),
               (this.m_fadeFinishTimeout = 0),
               (this.m_mailbox = new a.Nv()),
-              this.m_mailbox.Init(u).then(() => {
+              this.m_mailbox.Init(h).then(() => {
                 this.m_mailbox.RegisterHandler(
                   p,
                   this.OnBeginResetUniverseOriginCountdown
@@ -9534,8 +9651,8 @@
               null === a.ZP || void 0 === a.ZP
                 ? void 0
                 : a.ZP.VRApplications.GetSceneApplicationKey();
-            let i = !t || "system.generated.xrservice" == t;
-            i
+            let o = !t || "system.generated.xrservice" == t;
+            o
               ? this.props.dashboardRef.current &&
                 this.props.dashboardRef.current.setPlacementModeActive(!0)
               : null === a.ZP ||
@@ -9545,7 +9662,7 @@
                 visible: !0,
                 fading: !1,
                 countdown_seconds: e.countdown_seconds,
-                in_dash_mode: i,
+                in_dash_mode: o,
               });
           }
           CountdownTick() {
@@ -9571,7 +9688,7 @@
                   clearTimeout(this.m_fadeFinishTimeout),
                   (this.m_fadeFinishTimeout = setTimeout(
                     this.HideOverlay,
-                    n.kFadeDurationMs
+                    i.kFadeDurationMs
                   )),
                   this.setState({
                     visible: !0,
@@ -9595,36 +9712,36 @@
               this.setState({ visible: !1, fading: !1, countdown_seconds: 0 });
           }
           renderPanel() {
-            return o.createElement(
+            return n.createElement(
               a.s_,
               {
                 width: void 0,
-                height: n.kPanelHeight,
+                height: i.kPanelHeight,
                 interactive: !1,
                 sort_order: 1e3,
               },
-              o.createElement(
+              n.createElement(
                 "div",
                 {
                   className: (0, d.LJ)("ResetSeatedCountdownParent", [
                     "Fading",
                     this.state.fading,
                   ]),
-                  style: { width: n.kPixelWidth },
+                  style: { width: i.kPixelWidth },
                 },
-                o.createElement(
+                n.createElement(
                   "div",
                   { className: "FlexColumn" },
-                  o.createElement(
+                  n.createElement(
                     "div",
                     { className: "ResetSeatedCountdownRow" },
-                    o.createElement(
+                    n.createElement(
                       "div",
                       { className: "ResetSeatedCountdownText" },
                       this.state.countdown_seconds
                     )
                   ),
-                  o.createElement(
+                  n.createElement(
                     "div",
                     { className: "ResetSeatedCountdownTextDesc" },
                     (0, l.Xx)("#Recentering_Countdown")
@@ -9634,9 +9751,9 @@
             );
           }
           render() {
-            var e;
+            var e, t;
             if (!this.state.visible) return null;
-            let t = 0.9,
+            let o = 0.9,
               i =
                 0.8 *
                 (null !==
@@ -9649,58 +9766,65 @@
                         )) && void 0 !== e
                   ? e
                   : 1);
-            const n =
+            const r =
               this.props.dashboardRef.current &&
               this.props.dashboardRef.current.isTheaterMode;
+            let s =
+              null !==
+                (t = u.G3.settings.get(
+                  "/settings/dashboard/allowFreeTransform"
+                )) &&
+              void 0 !== t &&
+              t;
             return this.state.in_dash_mode
-              ? (n && ((t *= 2), (i *= 2)),
-                o.createElement(
+              ? (r && ((o *= 2), (i *= 2)),
+                n.createElement(
                   a.eK,
-                  { bContinuousRelatch: !0 },
-                  o.createElement(
+                  { bContinuousRelatch: !0, bFreeDashboardTransform: s },
+                  n.createElement(
                     a.wx,
-                    { translation: { y: -0.05, z: -t }, scale: i },
+                    { translation: { y: -0.05, z: -o }, scale: i },
                     this.renderPanel()
                   )
                 ))
-              : o.createElement(
+              : n.createElement(
                   a.wx,
                   { parent_path: "/user/head" },
-                  o.createElement(
+                  n.createElement(
                     a.wx,
-                    { translation: { y: -0.05, z: -t }, scale: i },
+                    { translation: { y: -0.05, z: -o }, scale: i },
                     this.renderPanel()
                   )
                 );
           }
         });
-        (h.kPanelHeight = 0.2),
-          (h.kPixelWidth = 400),
-          (h.kFadeDurationMs = 1e3),
+        (m.kPanelHeight = 0.2),
+          (m.kPixelWidth = 400),
+          (m.kFadeDurationMs = 1e3),
           (0, r.gn)(
             [s.ak],
-            h.prototype,
+            m.prototype,
             "OnBeginResetUniverseOriginCountdown",
             null
           ),
-          (0, r.gn)([s.ak], h.prototype, "CountdownTick", null),
-          (0, r.gn)([s.ak], h.prototype, "HideOverlay", null),
-          (h = n = (0, r.gn)([c.Pi], h));
+          (0, r.gn)([s.ak], m.prototype, "CountdownTick", null),
+          (0, r.gn)([s.ak], m.prototype, "HideOverlay", null),
+          (m = i = (0, r.gn)([c.Pi], m));
       },
-      2379: (e, t, i) => {
-        i.d(t, { s: () => v });
-        var n = i(655),
-          r = i(7294),
-          o = i(7062),
-          s = i(7056),
-          a = i(3868),
-          l = i(1428),
-          c = i(9093),
-          d = i(2188),
-          u = i(3947),
-          p = i(1818),
-          h = i(1058),
-          m = i(8052);
+      2379: (e, t, o) => {
+        o.d(t, { s: () => v });
+        var i = o(655),
+          r = o(7294),
+          n = o(7062),
+          s = o(7056),
+          a = o(3868),
+          l = o(1428),
+          c = o(9093),
+          d = o(2188),
+          u = o(3947),
+          h = o(1818),
+          p = o(1058),
+          m = o(8052);
         let g = class extends r.Component {
           constructor(e) {
             super(e), (this.state = { deviceStatus: null });
@@ -9743,18 +9867,18 @@
                 "TrackedControllerRole_RightHand",
               ].map((e) => ({ value: e, sLabel: (0, a.Xx)("#" + e) })));
             const t = this.trackerConfig.device_path_string;
-            let i = t;
-            const n = "vive_tracker";
-            i.includes(n) &&
-              (i = i.substring(i.indexOf(n) + n.length, i.length));
-            let o = null;
+            let o = t;
+            const i = "vive_tracker";
+            o.includes(i) &&
+              (o = o.substring(o.indexOf(i) + i.length, o.length));
+            let n = null;
             return (
               this.IsConnected()
                 ? this.IsIdentifiable() ||
-                  (o = (0, a.Xx)(
+                  (n = (0, a.Xx)(
                     "#Settings_ViveTracker_Identify_NotIdentifiable"
                   ))
-                : (o = (0, a.Xx)(
+                : (n = (0, a.Xx)(
                     "#Settings_ViveTracker_Identify_NotConnected"
                   )),
               r.createElement(
@@ -9763,14 +9887,14 @@
                 r.createElement(
                   "div",
                   { className: "Label", title: t },
-                  r.createElement("span", null, i),
+                  r.createElement("span", null, o),
                   r.createElement("div", {
                     title: (0, a.Xx)(
                       this.IsConnected()
                         ? "#Settings_ViveTracker_Connected"
                         : "#Settings_ViveTracker_Disconnected"
                     ),
-                    className: (0, h.LJ)(
+                    className: (0, p.LJ)(
                       "TrackerConnectionIndicator",
                       ["Connected", c.E.connected && this.IsConnected()],
                       ["Disconnected", c.E.connected && !this.IsConnected()]
@@ -9779,12 +9903,12 @@
                 ),
                 r.createElement(
                   "div",
-                  { className: (0, h.LJ)("SubsectionStem") },
+                  { className: (0, p.LJ)("SubsectionStem") },
                   r.createElement(
                     m.GV,
-                    { title: o },
+                    { title: n },
                     r.createElement(
-                      p.z,
+                      h.z,
                       {
                         className: "ButtonControl",
                         enabled: this.IsIdentifiable(),
@@ -9818,12 +9942,12 @@
             );
           }
         };
-        (0, n.gn)([d.Fl], g.prototype, "trackerConfig", null),
-          (0, n.gn)([s.ak], g.prototype, "OnTrackerRoleChanged", null),
-          (0, n.gn)([s.ak], g.prototype, "OnControllerRoleChanged", null),
-          (0, n.gn)([s.ak], g.prototype, "BuzzTracker", null),
-          (0, n.gn)([d.Fl], g.prototype, "deviceInfo", null),
-          (g = (0, n.gn)([o.Pi], g));
+        (0, i.gn)([d.Fl], g.prototype, "trackerConfig", null),
+          (0, i.gn)([s.ak], g.prototype, "OnTrackerRoleChanged", null),
+          (0, i.gn)([s.ak], g.prototype, "OnControllerRoleChanged", null),
+          (0, i.gn)([s.ak], g.prototype, "BuzzTracker", null),
+          (0, i.gn)([d.Fl], g.prototype, "deviceInfo", null),
+          (g = (0, i.gn)([n.Pi], g));
         let v = class extends r.Component {
           constructor(e) {
             super(e), (this.m_nGetInputStateIntervalHandle = 0);
@@ -9844,9 +9968,9 @@
             return (
               t &&
                 t.trackers &&
-                (e = t.trackers.map((e, i) =>
+                (e = t.trackers.map((e, o) =>
                   r.createElement(g, {
-                    key: i,
+                    key: o,
                     trackerPath: e.device_path_string,
                     validTrackerRoles: t.valid_roles,
                   })
@@ -9855,13 +9979,13 @@
             );
           }
         };
-        v = (0, n.gn)([o.Pi], v);
+        v = (0, i.gn)([n.Pi], v);
       },
-      6889: (e, t, i) => {
-        i.d(t, { u: () => r });
-        var n = i(7294);
+      6889: (e, t, o) => {
+        o.d(t, { u: () => r });
+        var i = o(7294);
         function r(e) {
-          return n.createElement(
+          return i.createElement(
             "svg",
             Object.assign(
               {
@@ -9874,10 +9998,10 @@
               },
               e
             ),
-            n.createElement(
+            i.createElement(
               "g",
               null,
-              n.createElement("path", {
+              i.createElement("path", {
                 d: "M93.8,50v28.1c0,8.6-7,15.6-15.6,15.6H21.9c-8.6,0-15.6-7-15.6-15.6V21.9c0-8.6,7-15.6,15.6-15.6H50c1.7,0,3.1,1.4,3.1,3.1\r\n\t\t\t\ts-1.4,3.1-3.1,3.1H21.9c-5.2,0-9.4,4.2-9.4,9.4v56.3c0,5.2,4.2,9.4,9.4,9.4h56.3c5.2,0,9.4-4.2,9.4-9.4V50c0-1.7,1.4-3.1,3.1-3.1\r\n\t\t\t\tS93.8,48.3,93.8,50z M68.8,12.5h14.3L47.8,47.8c-1.2,1.2-1.2,3.2,0,4.4c0,0,0,0,0,0c1.2,1.2,3.2,1.2,4.4,0c0,0,0,0,0,0l35.3-35.3\r\n\t\t\t\tv14.3c0,1.7,1.4,3.1,3.1,3.1l0,0c1.7,0,3.1-1.4,3.1-3.1V9.4c0-0.8-0.3-1.6-0.9-2.2c-0.6-0.6-1.4-0.9-2.2-0.9H68.8\r\n\t\t\t\tc-1.7,0-3.1,1.4-3.1,3.1S67,12.5,68.8,12.5z",
               })
             )
@@ -9885,23 +10009,23 @@
         }
       },
     },
-    i = {};
-  function n(e) {
-    var r = i[e];
+    o = {};
+  function i(e) {
+    var r = o[e];
     if (void 0 !== r) return r.exports;
-    var o = (i[e] = { id: e, exports: {} });
-    return t[e](o, o.exports, n), o.exports;
+    var n = (o[e] = { id: e, exports: {} });
+    return t[e](n, n.exports, i), n.exports;
   }
-  (n.m = t),
+  (i.m = t),
     (e = []),
-    (n.O = (t, i, r, o) => {
-      if (!i) {
+    (i.O = (t, o, r, n) => {
+      if (!o) {
         var s = 1 / 0;
         for (d = 0; d < e.length; d++) {
-          for (var [i, r, o] = e[d], a = !0, l = 0; l < i.length; l++)
-            (!1 & o || s >= o) && Object.keys(n.O).every((e) => n.O[e](i[l]))
-              ? i.splice(l--, 1)
-              : ((a = !1), o < s && (s = o));
+          for (var [o, r, n] = e[d], a = !0, l = 0; l < o.length; l++)
+            (!1 & n || s >= n) && Object.keys(i.O).every((e) => i.O[e](o[l]))
+              ? o.splice(l--, 1)
+              : ((a = !1), n < s && (s = n));
           if (a) {
             e.splice(d--, 1);
             var c = r();
@@ -9910,21 +10034,21 @@
         }
         return t;
       }
-      o = o || 0;
-      for (var d = e.length; d > 0 && e[d - 1][2] > o; d--) e[d] = e[d - 1];
-      e[d] = [i, r, o];
+      n = n || 0;
+      for (var d = e.length; d > 0 && e[d - 1][2] > n; d--) e[d] = e[d - 1];
+      e[d] = [o, r, n];
     }),
-    (n.n = (e) => {
+    (i.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
-      return n.d(t, { a: t }), t;
+      return i.d(t, { a: t }), t;
     }),
-    (n.d = (e, t) => {
-      for (var i in t)
-        n.o(t, i) &&
-          !n.o(e, i) &&
-          Object.defineProperty(e, i, { enumerable: !0, get: t[i] });
+    (i.d = (e, t) => {
+      for (var o in t)
+        i.o(t, o) &&
+          !i.o(e, o) &&
+          Object.defineProperty(e, o, { enumerable: !0, get: t[o] });
     }),
-    (n.g = (function () {
+    (i.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
@@ -9932,29 +10056,29 @@
         if ("object" == typeof window) return window;
       }
     })()),
-    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
-    (n.j = 627),
+    (i.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (i.j = 627),
     (() => {
       var e = { 627: 0 };
-      n.O.j = (t) => 0 === e[t];
-      var t = (t, i) => {
+      i.O.j = (t) => 0 === e[t];
+      var t = (t, o) => {
           var r,
-            o,
-            [s, a, l] = i,
+            n,
+            [s, a, l] = o,
             c = 0;
           if (s.some((t) => 0 !== e[t])) {
-            for (r in a) n.o(a, r) && (n.m[r] = a[r]);
-            if (l) var d = l(n);
+            for (r in a) i.o(a, r) && (i.m[r] = a[r]);
+            if (l) var d = l(i);
           }
-          for (t && t(i); c < s.length; c++)
-            (o = s[c]), n.o(e, o) && e[o] && e[o][0](), (e[o] = 0);
-          return n.O(d);
+          for (t && t(o); c < s.length; c++)
+            (n = s[c]), i.o(e, n) && e[n] && e[n][0](), (e[n] = 0);
+          return i.O(d);
         },
-        i = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
-      i.forEach(t.bind(null, 0)), (i.push = t.bind(null, i.push.bind(i)));
+        o = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
+      o.forEach(t.bind(null, 0)), (o.push = t.bind(null, o.push.bind(o)));
     })(),
-    (n.nc = void 0);
-  var r = n.O(void 0, [968, 683], () => n(1776));
-  r = n.O(r);
+    (i.nc = void 0);
+  var r = i.O(void 0, [968, 683], () => i(1776));
+  r = i.O(r);
 })();
-//# sourceMappingURL=bindingcallouts.js.map?v=312c7c8f3ae075cd0c08
+//# sourceMappingURL=bindingcallouts.js.map?v=6c04de6db6c6e6f707c4

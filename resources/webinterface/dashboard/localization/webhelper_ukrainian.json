@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Скинути місце сидіння",
 	"PowerMenuResetStandingPosition": "Скинути місце стояння",
 	"Resetting_Countdown": "Скидання…",
+	"Button_Recenter": "Відцентрувати",
+	"Recentering_Countdown": "Відцентрування…",
 	"PowerMenuTurnOffController": "Вимкнути контролер",
+	"PowerMenuShutdown": "Вимкнення",
 	"PowerMenuQuitSceneApp": "Закрити %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Вийти із застосунку",
 	"PowerMenuExitVR": "Вийти з ВР",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Готово",
+	"CompatibilityMode_Notification": "Режим автоматичної сумісності увімкнено. Використовується розкладка для пристрою %1$s.",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

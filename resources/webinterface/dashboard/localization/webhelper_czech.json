@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Resetovat pozici vsedě",
 	"PowerMenuResetStandingPosition": "Resetovat pozici vestoje",
 	"Resetting_Countdown": "Resetování...",
+	"Button_Recenter": "Znovu vycentrovat",
+	"Recentering_Countdown": "Opětovné vycentrování...",
 	"PowerMenuTurnOffController": "Vypnout ovladač",
+	"PowerMenuShutdown": "Vypnout",
 	"PowerMenuQuitSceneApp": "Ukončit %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Ukončit aplikaci",
 	"PowerMenuExitVR": "Ukončit VR",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
+	"CompatibilityMode_Notification": "Je povolen režim automatické kompatibility a je používáno nastavení pro „%1$s“.",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

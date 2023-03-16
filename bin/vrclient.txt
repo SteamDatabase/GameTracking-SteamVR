@@ -1145,6 +1145,7 @@
  b g_VRPathHelpers
  b g_VRPropertyHelpers
  b g_VRSettingHelper
+ b g_arrApiLayerLinuxPaths
  b g_bSetSuspendHandlers
  b g_bSuspendResumeAck
  b g_bTestMode
@@ -4217,15 +4218,15 @@
  putc
  putwc
  qsort
- r C.1847.366575
- r C.1850.366586
+ r C.1847.366694
+ r C.1850.366705
  r C.427.288574
  r CSWTCH.101
  r CSWTCH.217
  r CSWTCH.224
  r CSWTCH.28
  r CSWTCH.701
- r CSWTCH.748
+ r CSWTCH.749
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -5654,6 +5655,7 @@
  strstr
  strtod
  strtof
+ strtok
  strtol
  strtold_l
  strtoll
@@ -5689,13 +5691,12 @@
  t (anonymous namespace)::xwrite(int, char const*, int)
  t .L10
  t .L100
+ t .L1000
  t .L1001
- t .L1006
- t .L1008
- t .L1009
+ t .L1002
+ t .L1005
  t .L101
  t .L1010
- t .L1011
  t .L1012
  t .L1013
  t .L1014
@@ -5712,9 +5713,11 @@
  t .L1024
  t .L1025
  t .L1026
+ t .L1027
  t .L1028
+ t .L1029
  t .L103
- t .L1031
+ t .L1030
  t .L1032
  t .L1034
  t .L1035
@@ -5729,11 +5732,7 @@
  t .L1043
  t .L1044
  t .L105
- t .L1050
- t .L1052
- t .L1053
  t .L1054
- t .L1055
  t .L1056
  t .L1057
  t .L1058
@@ -5774,6 +5773,7 @@
  t .L10798
  t .L108
  t .L1080
+ t .L1081
  t .L1084
  t .L109
  t .L10940
@@ -7471,7 +7471,6 @@
  t .L768
  t .L769
  t .L77
- t .L770
  t .L771
  t .L772
  t .L773
@@ -7531,11 +7530,10 @@
  t .L815
  t .L816
  t .L817
+ t .L818
+ t .L819
  t .L82
- t .L825
- t .L826
- t .L827
- t .L828
+ t .L820
  t .L829
  t .L83
  t .L830
@@ -7580,12 +7578,8 @@
  t .L9021
  t .L9022
  t .L9023
- t .L905
- t .L907
- t .L908
  t .L909
  t .L91
- t .L910
  t .L911
  t .L9111
  t .L912
@@ -7604,30 +7598,28 @@
  t .L924
  t .L925
  t .L926
- t .L928
  t .L929
  t .L93
  t .L930
- t .L931
  t .L932
+ t .L933
  t .L934
+ t .L935
+ t .L936
  t .L938
  t .L94
- t .L940
- t .L941
  t .L942
- t .L943
+ t .L944
  t .L945
+ t .L946
+ t .L947
+ t .L949
  t .L95
  t .L96
  t .L97
- t .L978
- t .L979
  t .L98
- t .L981
  t .L982
  t .L983
- t .L984
  t .L985
  t .L986
  t .L987
@@ -7643,6 +7635,7 @@
  t .L996
  t .L997
  t .L998
+ t .L999
  t ActionDirectionNameToEnum(std::string const&)
  t ActionScopeNameToEnum(std::string const&)
  t ActionTypeNameToEnum(std::string const&)
@@ -7752,7 +7745,7 @@
  t BuildFadeGridMessage(float, bool) [clone .cold]
  t BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
  t BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
- t BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+ t BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
  t CActionBinding::CActionBinding(CActionBinding const&)
  t CActionBinding::FromJson(Json::Value const&, std::string*)
  t CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
@@ -8223,6 +8216,7 @@
  t CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
  t CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*) [clone .cold]
  t CHmdSystemLatest::GetIDForVRInitError(vr::EVRInitError)
+ t CHmdSystemLatest::GetIPCResourceManagerClient()
  t CHmdSystemLatest::GetLegacyInput()
  t CHmdSystemLatest::GetPaths()
  t CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -8315,6 +8309,8 @@
  t CHmdSystemLatest::StartVRMonitor() [clone .cold]
  t CHmdSystemLatest::StartVRWebHelper(bool)
  t CHmdSystemLatest::StartVRWebHelper(bool) [clone .cold]
+ t CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+ t CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags) [clone .part.0]
  t CHmdSystemLatest::ThisProcessIsCompositor()
  t CHmdSystemLatest::ThisProcessIsCompositor() [clone .cold]
  t CHmdSystemLatest::TopologyChanged()
@@ -9936,6 +9932,8 @@
  t CVRCompositorClient::SubmitFrameBeginTiming(unsigned long long, CVRCompositorSharedTextures::CommandBuffer_t const*)
  t CVRCompositorClient::SubmitFrameData(double, bool)
  t CVRCompositorClient::SubmitFrameData(double, bool) [clone .cold]
+ t CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long long const*)
+ t CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long long const*) [clone .cold]
  t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long)
  t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long) [clone .cold]
  t CVRCompositorClient::SuspendRendering(bool)
@@ -10151,7 +10149,8 @@
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Release(CVRCompositorSharedTextures*)
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
  t CVRCompositorSharedTextures::UnlockGLSharedTextureForAccess(void*)
- t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+ t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+ t CVRCompositorSharedTextures::UpdateSceneTextureData(SceneTextureIndexConstantBuffer_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*) [clone .cold]
  t CVRCompositorSharedTextures::UpdateVRRenderer(void*, void*, void*)
@@ -20747,6 +20746,7 @@
  t GetOpenGLFunctions() [clone .part.0]
  t GetOpenXrActiveRuntimePath()
  t GetOpenXrActiveRuntimePath() [clone .cold]
+ t GetOpenXrApiLayerRegistryPath(bool)
  t GetOpenXrAvailableRuntimesPath()
  t GetOverlayTextureToWrite(VRCompositor_OverlayState_t const&, int*, unsigned int*)
  t GetResourceBaseDir()
@@ -23095,6 +23095,7 @@
  t IVRRenderModels_005_FnTable_LoadTextureD3D11_Async(int, void*, void**)
  t IVRRenderModels_005_FnTable_LoadTexture_Async(int, vr::RenderModel_TextureMap_t**)
  t IVRRenderModels_005_FnTable_RenderModelHasComponent(char const*, char const*)
+ t IVRRenderer::ReplaceTextureReferences(VRRenderer::TextureBase*, VRRenderer::TextureBase*)
  t IVRSettings_001_FnTable_GetBool(char const*, char const*, bool, vr::EVRSettingsError*)
  t IVRSettings_001_FnTable_GetFloat(char const*, char const*, float, vr::EVRSettingsError*)
  t IVRSettings_001_FnTable_GetInt32(char const*, char const*, int, vr::EVRSettingsError*)
@@ -24258,19 +24259,20 @@
  t NvAPI::GetCurrentDriverVersion()
  t NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
  t NvAPI::GetDisplayVisibility(int)
+ t NvAPI::GetGpuBusUtilization(int, float*)
  t NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long long*)
  t NvAPI::GetVSyncToFlip(float*)
  t NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)
  t NvAPI::HintCreateLowLatencyDevice(bool)
  t NvAPI::ImplicitSLIControl(void*, bool)
- t NvAPI::Present(void*, void*, unsigned int, NvAPI::PresentMode)
+ t NvAPI::Present(void*, void*, unsigned int, NvAPI::PresentMode, unsigned int)
  t NvAPI::ReadDisplayPortLinkInfo(NvAPI::DisplayPortLinkInfo_t*, void*)
  t NvAPI::ReleaseHiddenDisplay(void**)
  t NvAPI::SetDisplayMode(void*, NvAPI::DisplayMode_t const&, unsigned int)
  t NvAPI::SetDisplayVisibility(int, NvAPI::DisplayVisibility)
  t NvAPI::SupportsHighPriorityRenderContext()
  t NvAPI::SupportsMotionSmoothing()
- t NvAPI::WaitForPresent(void*, unsigned int)
+ t NvAPI::WaitForPresent(void*, unsigned int, unsigned int*)
  t NvAPI::WaitForVBlank(void*, unsigned int)
  t OSWaitForDebugger()
  t OpenURL(char const*)
@@ -24336,6 +24338,8 @@
  t OverlayViewInterfaceRegistration<CVROverlayView_001>::~OverlayViewInterfaceRegistration()
  t OverlayViewInterfaceRegistration<CVROverlayView_002>::GetInterface()
  t OverlayViewInterfaceRegistration<CVROverlayView_002>::~OverlayViewInterfaceRegistration()
+ t OxrApiLayer_t& std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >::emplace_back<OxrApiLayer_t>(OxrApiLayer_t&&)
+ t OxrApiLayer_t::~OxrApiLayer_t()
  t ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*)
  t ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .cold]
  t PathHandleInfo_t& std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::emplace_back<PathHandleInfo_t>(PathHandleInfo_t&&)
@@ -25313,6 +25317,8 @@
  t _GLOBAL__sub_I_msaa_resolve_renderer.cpp
  t _GLOBAL__sub_I_once.cc
  t _GLOBAL__sub_I_openvr_internal.cpp
+ t _GLOBAL__sub_I_oxrtools.cpp
+ t _GLOBAL__sub_I_oxrtools.cpp.cold
  t _GLOBAL__sub_I_pathmanager.cpp
  t _GLOBAL__sub_I_poserecipe.cpp
  t _GLOBAL__sub_I_poseupdatecontext.cpp
@@ -25941,6 +25947,7 @@
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewCropped()
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewMode()
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
+ t non-virtual thunk to CHmdSystemLatest::GetIPCResourceManagerClient()
  t non-virtual thunk to CHmdSystemLatest::GetLegacyInput()
  t non-virtual thunk to CHmdSystemLatest::GetPaths()
  t non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -25992,6 +25999,7 @@
  t non-virtual thunk to CHmdSystemLatest::StartAutolaunchOverlays()
  t non-virtual thunk to CHmdSystemLatest::StartHomeApp()
  t non-virtual thunk to CHmdSystemLatest::StartSecondaryComponents()
+ t non-virtual thunk to CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
  t non-virtual thunk to CHmdSystemLatest::ThisProcessIsCompositor()
  t non-virtual thunk to CHmdSystemLatest::TopologyChanged()
  t non-virtual thunk to CHmdSystemLatest::TransformPoseToUniverse(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const&, vr::ETrackingUniverseOrigin)
@@ -26269,6 +26277,16 @@
  t operator new[](unsigned int)
  t operator new[](unsigned int, std::nothrow_t const&)
  t operator new[](unsigned int, std::nothrow_t const&) [clone .cold]
+ t oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&)
+ t oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&) [clone .cold]
+ t oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&, std::string&)
+ t oxrapilayermanagement::BIsJsonMember(Json::Value*, Json::Value&, std::string, std::string&, std::string&) [clone .cold]
+ t oxrapilayermanagement::GetApiLayers(std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >&, std::string, bool)
+ t oxrapilayermanagement::GetApiLayers(std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >&, std::string, bool) [clone .cold]
+ t oxrapilayermanagement::GetInstalledApiLayers()
+ t oxrapilayermanagement::GetInstalledApiLayers() [clone .cold]
+ t oxrapilayermanagement::SetApiLayerState(std::string, bool)
+ t oxrapilayermanagement::SetApiLayerState(std::string, bool) [clone .cold]
  t oxrruntimemanagement::AddSteamVRToAvailableRuntimes()
  t oxrruntimemanagement::ChangesRequireRoot()
  t oxrruntimemanagement::GetCurrentActiveRuntime(std::string*)
@@ -27134,6 +27152,7 @@
  t std::__verify_grouping(char const*, unsigned int, std::string const&)
  t std::__verify_grouping(char const*, unsigned int, std::string const&) [clone .cold]
  t std::__verify_grouping_impl(char const*, unsigned int, char const*, unsigned int)
+ t std::array<std::string, 5u>::~array()
  t std::back_insert_iterator<std::string> std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::format<std::back_insert_iterator<std::string> >(std::back_insert_iterator<std::string>, char const*, char const*, std::regex_constants::match_flag_type) const
  t std::back_insert_iterator<std::string> std::regex_replace<std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::regex_traits<char>, char>(std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::basic_regex<char, std::regex_traits<char> > const&, char const*, std::regex_constants::match_flag_type)
  t std::bad_alloc::what() const
@@ -28992,6 +29011,7 @@
  t std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> >::_M_default_append(unsigned int)
  t std::vector<ModeSlot_t, std::allocator<ModeSlot_t> >::~vector()
  t std::vector<OpResult, std::allocator<OpResult> >::reserve(unsigned int)
+ t std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >::~vector()
  t std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::_M_default_append(unsigned int)
  t std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::reserve(unsigned int)
  t std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> >::~vector()

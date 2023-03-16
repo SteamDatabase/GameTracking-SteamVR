@@ -142,6 +142,7 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+0.)_T
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -158,7 +159,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222225835Z0/
+230316184522Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -638,7 +639,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-U=:-6
 UATAUAVAWH
 USER32.dll
 USVWATAUAVAWH
@@ -649,6 +649,7 @@ UVWATAWH
 UVWAVAWH
 UWAVH
 UWAWH
+UWx`d
 Unable to call duplication release frame for desktop %d.
 Unable to compute virtual coords or normalized coords...
 Unable to get normalized coords from virtual coords for locked mouse position.
@@ -699,6 +700,7 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
+\9Egz
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -749,7 +751,6 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 `A_A^A]A\_^]
-a8ZMT
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-crt-convert-l1-1-0.dll
@@ -759,19 +760,17 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
-a~eku
 bad allocation
 bad array new length
 bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
-cJy`?g
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cU	F9
 cs_cs
 czech
@@ -804,7 +803,6 @@ german
 gfffffffH
 gfffffffI
 greek
-h`&u.
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -874,7 +872,6 @@ ro_ro
 romanian
 ru_ru
 russian
-s6C?LF
 schinese
 shcore.dll
 shutdown
@@ -910,6 +907,7 @@ turkish
 ua_ua
 ukranian
 user32.dll
+u{_#|
 v=Y]Bv
 vE;E`M
 vector<T> too long

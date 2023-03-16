@@ -410,7 +410,7 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-221222225618Z0/
+230316184302Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -497,7 +497,6 @@ $iMBm
 ;\$p|
 <	w	@
 < t;<	t7
-<%31M
 <%ufH
 <*J=)
 </u#H
@@ -509,7 +508,6 @@ $iMBm
 <htr<jtb<lt6<tt&<wt
 <xu<D
 <}wYI
-=JP7	f
 =WIDATx
 =imb;D
 =rIQU
@@ -898,7 +896,6 @@ EnterUmsSchedulingMode
 EnumSystemLocalesEx
 EnumSystemLocalesW
 Eo%lf
-Ex!*XU
 Exceeded stackLimit in readValue().
 ExecuteUmsThread
 ExitProcess
@@ -1155,7 +1152,6 @@ KXHcS8
 K}*n:	
 K~Je#>!
 L!|$(L!
-L#0i5
 L$ E3
 L$ I;
 L$ L;
@@ -1709,6 +1705,7 @@ WakeConditionVariable
 Washington1
 Watchdog disabled in settings (132)
 Wednesday
+Wh0pm
 WideCharToMultiByte
 WinRTInitialization
 WriteConsoleW
@@ -1767,6 +1764,7 @@ Zod(^?
 \$pE3
 \@d#_
 \Fj;!h8
+\ZD}}+0
 \ffff
 \u=H;
 \wDgG
@@ -1781,8 +1779,8 @@ Zod(^?
 ^RfN>
 ^fD9(H
 _(H9n
-_?g:W
 _C5D#
+_N^\:w
 __based(
 __cdecl
 __clrcall
@@ -1880,7 +1878,7 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -1900,6 +1898,7 @@ d$ UAVAWH
 d$DE;
 d$XD9
 d$`H=
+d0&Vw
 d?000000`?
 dC4N(
 dI;D#
@@ -1990,6 +1989,7 @@ gfe[D
 gfffA
 gfffL
 gfffffffH
+gyMB,
 h VWATAVAWH
 h-y"3
 h< t <$
@@ -2030,7 +2030,6 @@ iostream
 iostream stream error
 is a directory
 iu+-,
-iuTmH
 j>>A?1
 j?V()
 j?{$*
@@ -2073,7 +2072,6 @@ m0k0$
 map/set<T> too long
 message size
 n03>Pu
-n<pjl
 nD8-.
 n]?iJ
 nan(ind)
@@ -2106,7 +2104,6 @@ o0t$I
 oB(h8
 oI>O7
 obwQ4
-on_d@
 openvr
 openvr_api.dll
 openvrpaths.vrpath
@@ -2123,6 +2120,7 @@ ot$ H
 ot$HH
 owner dead
 o|$0f
+o~E*C.D
 p AWH
 p D9V
 p WATAUAVAWH
@@ -2165,6 +2163,7 @@ runtime
 s WATAUAVAWH
 s WAVAWH
 s4+sP+
+sE{FT
 sQA^7&^7%sP@
 snan)
 stCD;
@@ -2287,6 +2286,7 @@ u~9t$Xt
 u~LcW
 v0D8eou\H
 v2!L.2
+v4:/$
 v=Y]Bv
 value too large
 vector<T> too long

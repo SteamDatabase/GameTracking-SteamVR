@@ -1640,6 +1640,7 @@
 "<~$B
 "?8N"?g}"?
 "WA`7h
+"h5c 
 "p#*$
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
 "t0"*X
@@ -1873,7 +1874,6 @@ $wtpt
 %Y:%m:%d:%H:%M:%SUTC
 %YB~L
 %[^-]
-%`vT[+e
 %b&fO|
 %d (%s)
 %d (Adam7 method)
@@ -2356,6 +2356,7 @@ $wtpt
 )))))
 )))))))
 ))))))))))))))))))))))))))
+)0[Hr:s&I
 )2STud>
 )8)k)
 )9IYiy
@@ -2659,7 +2660,6 @@ $wtpt
 +D$Hf
 +D$hH
 +E[-yx
-+Q[k7
 +SPE+
 +T$XD
 +T$hA
@@ -3006,9 +3006,9 @@ $wtpt
 ,T$xf
 ,W5y+
 ,dfff
-,eWf)9=
 ,filc
 ,hdX:`
+,jJtGF
 ,rB)N
 -*Tl}T
 -1.0*
@@ -3720,7 +3720,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-221222225356Z0/
+230316184019Z0/
 230x323
 2384x3370
 24 24
@@ -9338,6 +9338,7 @@ J$A;K$y
 J%%o\..r8
 J.2&+.(01+:=0LONXVmnl
 J5MH0
+J7E8f7f
 J7J}J
 J8I9H
 J>@G_
@@ -10466,6 +10467,7 @@ Move Originator Application Entity Title
 Move Originator Message ID
 MsgWaitForMultipleObjectsEx
 MsgWaitForMultipleObjectsEx failed: %s
+Mt_ig
 MultiByteToWideChar
 Multichannel
 MultidimensionalMatricesAreNotSupported
@@ -10694,7 +10696,6 @@ Number of Warning Suboperations
 Number of Wedges
 NumberOfImagesIsNotSupported
 Numeric Value
-O"2"_
 O(L9w0u(H
 O*9y]
 O/@sh
@@ -11654,7 +11655,6 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
-Q3CU3>
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11756,7 +11756,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSb
+RSDS]
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13444,6 +13444,7 @@ UCS4 2143
 UCS4 3412
 UCS4BE
 UCS4LE
+UCbj|
 UHcl$8I
 ULt.H
 UMyeOZnJUmDM_:9C(89,;=34;089)Vd>t
@@ -14287,6 +14288,7 @@ Zoom Select Status
 [1;33m
 [1;35m
 [:#}41
+[;A[P
 [;gY $
 [Eqw%
 [Invalid UTF-8] 
@@ -14463,7 +14465,6 @@ Zoom Select Status
 \D$HH
 \D$Hf
 \D$pH
-\G(;!
 \G/}e[
 \K7\K6\K6]L7]L9]L;^M=]P=]P=aM:cG>g]q
 \L$xI
@@ -15015,7 +15016,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -16452,6 +16453,7 @@ fwrite
 g	$$$
 g"5HR
 g#v~>
+g$Dg=
 g-io-channel-error-quark
 g-markup-error-quark
 g<gu_HcR
@@ -18644,7 +18646,6 @@ q(A9(vH3
 q<<<u
 q<<<ux
 qD99~UH
-qLcd(G%B
 q[khc
 q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheVgeUkd[ndXghP}
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
@@ -18698,6 +18699,7 @@ range_start == state.iter.end_index && start_new_segment
 rarray
 rarray != NULL
 rbCYt
+rcbnf
 rdensty:
 rdf:Description
 rdf:RDF
@@ -18792,7 +18794,6 @@ rights
 rle mreje 
 rnWAJ<
 rncst$
-ro/_0
 root tag missing
 rorient:
 rotate
@@ -19346,7 +19347,6 @@ t(I9]
 t(fA#
 t)D;oTs#A
 t)H9q
-t)epU@
 t)fE#
 t*9t$0u$
 t*D9x0u$L
@@ -19905,7 +19905,6 @@ v@vEff
 vHH;~
 vIMGView
 vQO+t
-vW[oh
 va_to_ffi_type
 va_to_ffi_type: Unsupported fundamental type: %s
 val != NULL
@@ -21098,6 +21097,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |$xff
 |$xt.
 |0HcVtH
+|11c>f
 |4D+Q
 |6HcVt
 |7&rU3

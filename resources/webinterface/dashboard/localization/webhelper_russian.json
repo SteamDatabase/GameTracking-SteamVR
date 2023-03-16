@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Сбросить положение сидя",
 	"PowerMenuResetStandingPosition": "Сбросить положение стоя",
 	"Resetting_Countdown": "Сброс...",
+	"Button_Recenter": "Центрировать заново",
+	"Recentering_Countdown": "Центрирование...",
 	"PowerMenuTurnOffController": "Выключить контроллер",
+	"PowerMenuShutdown": "Выключить",
 	"PowerMenuQuitSceneApp": "Выйти из %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Выйти из приложения",
 	"PowerMenuExitVR": "Выйти из VR",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Готово",
+	"CompatibilityMode_Notification": "Автоматический режим совместимости включён. Используются настройки для %1$s.",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

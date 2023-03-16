@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Επαναφορά θέσης καθίσματος",
 	"PowerMenuResetStandingPosition": "Επαναφορά όρθιας θέσης",
 	"Resetting_Countdown": "Επαναφορά...",
+	"Button_Recenter": "Κεντράρισμα ξανά",
+	"Recentering_Countdown": "Κεντράρισμα ξανά…",
 	"PowerMenuTurnOffController": "Απενεργοποίηση χειριστηρίου",
+	"PowerMenuShutdown": "Τερματισμός",
 	"PowerMenuQuitSceneApp": "Έξοδος από %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Έξοδος",
 	"PowerMenuExitVR": "ΕΞΟΔΟΣ ΑΠΟ VR",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Ολοκληρώθηκε",
+	"CompatibilityMode_Notification": "Ενεργοποιήθηκε η λειτουργία αυτόματης συμβατότητας. Χρήση δέσμευσης για «%1$s».",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

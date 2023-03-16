@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "重設就座狀態",
 	"PowerMenuResetStandingPosition": "重設站立狀態",
 	"Resetting_Countdown": "重設中…",
+	"Button_Recenter": "重設居中狀態",
+	"Recentering_Countdown": "正在重設居中狀態…",
 	"PowerMenuTurnOffController": "關閉控制器",
+	"PowerMenuShutdown": "關機",
 	"PowerMenuQuitSceneApp": "結束 %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "結束應用程式",
 	"PowerMenuExitVR": "結束 VR",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "完成",
+	"CompatibilityMode_Notification": "已啟用自動相容模式。正在使用「%1$s」的配置。",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

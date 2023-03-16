@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "着席位置のリセット",
 	"PowerMenuResetStandingPosition": "立ち位置をリセット",
 	"Resetting_Countdown": "リセットしています...",
+	"Button_Recenter": "中央に戻す",
+	"Recentering_Countdown": "中央に戻しています...",
 	"PowerMenuTurnOffController": "コントローラの電源を切る",
+	"PowerMenuShutdown": "シャットダウン",
 	"PowerMenuQuitSceneApp": "%1$sを終了",
 	"PowerMenuQuitSceneApp_NoApp": "アプリを終了",
 	"PowerMenuExitVR": "VRを終了",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
+	"CompatibilityMode_Notification": "自動互換モードが有効になっています。「%1$s」のバインドを使用しています。",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

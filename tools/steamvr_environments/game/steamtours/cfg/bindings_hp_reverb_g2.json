@@ -464,7 +464,7 @@
          ]
       }
    },
-   "controller_type": "generic",
-   "description": "Default generic bindings for SteamVR Home.",
-   "name": "Default Generic Bindings"
+   "controller_type" : "hpmotioncontroller",
+   "description" : "Default HP Reverb G2 Controller bindings for SteamVR Home.",
+   "name" : "Default HP Reverb G2 Controller Bindings"
 }

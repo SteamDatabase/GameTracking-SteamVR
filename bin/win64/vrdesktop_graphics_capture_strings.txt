@@ -14,7 +14,6 @@
  H3E H3E
  for detail.
  formatting error code 
- nG\u):
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
@@ -175,7 +174,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222225852Z0/
+230316184545Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,7 +192,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-6_Y~Y
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -450,6 +448,7 @@ Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
 Executable: %s
+F[4om%A
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -662,7 +661,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSF
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -723,7 +721,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-U$'bvC
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -794,7 +791,6 @@ WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
 [K]taM?
-[jcc4
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -854,7 +850,6 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-_szV]
 `.rdata
 `A_A^A]A\_^[
 `A_A^A]A\_^]
@@ -889,11 +884,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cU	F9
 cs_cs
 czech
@@ -970,6 +965,7 @@ l$PM9n
 latam
 list<T> too long
 m0k0$
+mG?)Vm
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1079,11 +1075,11 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-y.(Mh
+y0I9Vi
+zD{?q
 zh_cn
 zh_tw
 {un'%
-|"ETG
 |$ ATAVAWH
 |$ AVH
 |$ AVL
@@ -1101,5 +1097,6 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
+}wm'#$
 ~qj#k"
 ~t&LN

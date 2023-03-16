@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Ülő pozíció visszaállítása",
 	"PowerMenuResetStandingPosition": "Álló pozíció visszaállítása",
 	"Resetting_Countdown": "Visszaállítás...",
+	"Button_Recenter": "Középpontba állítás",
+	"Recentering_Countdown": "Középpontba állítás...",
 	"PowerMenuTurnOffController": "Játékvezérlő kikapcsolása",
+	"PowerMenuShutdown": "Leállítás",
 	"PowerMenuQuitSceneApp": "%1$s bezárása",
 	"PowerMenuQuitSceneApp_NoApp": "Kilépés az alkalmazásból",
 	"PowerMenuExitVR": "Kilépés a VR-ből",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Kész",
+	"CompatibilityMode_Notification": "Automatikus kompatibilitás mód bekapcsolva. %1$s kiosztás használata.",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

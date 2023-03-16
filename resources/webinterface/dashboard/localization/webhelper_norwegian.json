@@ -17,7 +17,10 @@
 	"PowerMenuResetSeatedPosition": "Tilbakestill sittende posisjon",
 	"PowerMenuResetStandingPosition": "Tilbakestill stående posisjon",
 	"Resetting_Countdown": "Tilbakestiller …",
+	"Button_Recenter": "Midtstill på nytt",
+	"Recentering_Countdown": "Midtstiller …",
 	"PowerMenuTurnOffController": "Slå av kontroller",
+	"PowerMenuShutdown": "Slå av",
 	"PowerMenuQuitSceneApp": "Avslutt %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Avslutt app",
 	"PowerMenuExitVR": "Avslutt VR",
@@ -70,5 +73,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Ferdig",
+	"CompatibilityMode_Notification": "Automatisk kompatibilitetsmodus slått på. Bruker bindingen for «%1$s».",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

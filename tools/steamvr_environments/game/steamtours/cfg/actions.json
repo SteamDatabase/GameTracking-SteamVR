@@ -28,6 +28,10 @@
       "binding_url": "bindings_cosmos.json"
     },
     {
+      "controller_type": "hpmotioncontroller",
+      "binding_url": "bindings_hp_reverb_g2.json"
+    },
+    {
       "controller_type": "generic",
       "binding_url": "bindings_generic.json"
     },

@@ -728,6 +728,12 @@ body {
   margin-top: var(--settings-control-spacing);
 }
 
+.SettingsItemValueInfo {
+  text-align: right;
+  opacity: 0.65;
+  font-style: italic;
+}
+
 .SettingsItem.SegmentedControl .SegmentedControlGroup {
   --item-count: 1;
   --item-value-index: 0;

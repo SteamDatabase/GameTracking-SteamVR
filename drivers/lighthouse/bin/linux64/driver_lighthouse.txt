@@ -3521,8 +3521,8 @@
  t CLighthouseHmdDriver::Cleanup()
  t CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
  t CLighthouseHmdDriver::ControllerBatteryStatus(float, bool)
- t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole)
- t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole) [clone .cold]
+ t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole)
+ t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole) [clone .cold]
  t CLighthouseHmdDriver::Deactivate()
  t CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int)
  t CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int) [clone .cold]
@@ -3557,14 +3557,23 @@
  t CLighthouseHmdDriver::GetSerialNumber()
  t CLighthouseHmdDriver::GetVideoStreamFrame()
  t CLighthouseHmdDriver::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*)
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*)
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*) [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_GetEyeToHead()
  t CLighthouseHmdDriver::HandleDebug_GetEyeToHead() [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*) [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*)
+ t CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*) [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*)
+ t CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_SetSubpixel(char const*)
  t CLighthouseHmdDriver::HasTrackedCamera()
  t CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
  t CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) [clone .cold]
@@ -5068,19 +5077,20 @@
  t NvAPI::GetCurrentDriverVersion()
  t NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
  t NvAPI::GetDisplayVisibility(int)
+ t NvAPI::GetGpuBusUtilization(int, float*)
  t NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long*)
  t NvAPI::GetVSyncToFlip(float*)
  t NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)
  t NvAPI::HintCreateLowLatencyDevice(bool)
  t NvAPI::ImplicitSLIControl(void*, bool)
- t NvAPI::Present(void*, void*, unsigned int, NvAPI::PresentMode)
+ t NvAPI::Present(void*, void*, unsigned int, NvAPI::PresentMode, unsigned int)
  t NvAPI::ReadDisplayPortLinkInfo(NvAPI::DisplayPortLinkInfo_t*, void*)
  t NvAPI::ReleaseHiddenDisplay(void**)
  t NvAPI::SetDisplayMode(void*, NvAPI::DisplayMode_t const&, unsigned int)
  t NvAPI::SetDisplayVisibility(int, NvAPI::DisplayVisibility)
  t NvAPI::SupportsHighPriorityRenderContext()
  t NvAPI::SupportsMotionSmoothing()
- t NvAPI::WaitForPresent(void*, unsigned int)
+ t NvAPI::WaitForPresent(void*, unsigned int, unsigned int*)
  t NvAPI::WaitForVBlank(void*, unsigned int)
  t OSTypesAreCompatible(EOSType, EOSType)
  t OSTypesAreCompatible(EOSType, EOSType) [clone .part.0]
