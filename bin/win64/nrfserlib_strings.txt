@@ -65,6 +65,7 @@
  t;A;
  times.
  version-number:
+!F6~B
 !hn7!
 %%.%dg
 %4.4X:%4.4X
@@ -111,6 +112,7 @@
 )D$`H
 )D$p3
 )D$pH
+)Dw|^~
 )t$@H
 )t$`H
 )t$pA
@@ -632,7 +634,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184401Z0/
+230317215530Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -644,7 +646,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3<@+~
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -667,6 +668,7 @@
 8EC90003F3154F609FB8838830DAEA50
 8]8vPH
 8_^][
+8x[")
 9C }&L
 9C }(H
 9\$Pt
@@ -1238,6 +1240,7 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
+Fp,Fa
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1516,6 +1519,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSu9j
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1735,6 +1739,8 @@ XA^_][H
 XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
+X`R~o
+XvBR4m-
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1886,6 +1892,7 @@ fE9&t2H
 false
 file error
 floor
+gMR28k
 generic
 gfffffffD
 gfffffffH
@@ -1932,6 +1939,7 @@ ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
+j{O 5B
 k0i0$
 l$ H=
 l$ VAVAWH
@@ -2160,7 +2168,6 @@ unknown zip result code
 upH;~ uj
 upper
 v=Y]Bv
-v`%95
 vector<T> too long
 vector<bool> too long
 wcschr
@@ -2174,6 +2181,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
+yBR:g
 {un'%
 {x\u!H
 {|?uWH

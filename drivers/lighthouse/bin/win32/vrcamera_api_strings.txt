@@ -32,7 +32,6 @@ $_^[]
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
-%P11k
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %j+hD
@@ -432,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 220921000000Z
-230316183942Z0/
+230317215049Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -880,6 +879,7 @@ $_^[]
 ; ;@;H;T;|;
 ; ;@;L;l;x;
 ; ;\;`;d;h;l;p;t;x;|;
+;!xt'
 ;";';-;3;9;>;D;J;P;U;[;a;g;l;r;x;~;
 ;$;,;4;<;D;L;T;\;d;l;t;|;
 ;$;,;@;H;P;X;`;l;t;
@@ -925,7 +925,6 @@ $_^[]
 ;Z;	<i<
 ;Z<d<
 ;]<a<e<i<m<q<u<y<}<
-;^ieP
 ;d<:=7>
 ;t=x=|=
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
@@ -1227,11 +1226,12 @@ Auto Exposure:
 Auto White Balance:		
 BP;BL
 Backlight Compensation:		
-Bebx9
 Begin Streaming Depth...
 Begin Streaming Video...
 Beginning detectedStream 
 Bellevue1
+C">;uRkzq
+C#	^Bz
 C$F;w
 C,H_^u
 C8;sx|

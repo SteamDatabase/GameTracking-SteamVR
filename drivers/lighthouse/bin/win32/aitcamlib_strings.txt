@@ -23,8 +23,6 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-(t5H>
-*/X[vb
 +Xt@(
 +o'q)}
 , last executing in 
@@ -167,7 +165,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230316184244Z0/
+230317215356Z0/
 241009235959Z0a1
 262H2O2o283?3
 2>3k3
@@ -273,6 +271,7 @@ $9^ t
 98:[:
 9=:W:d:S;
 9B:F:
+9H*z;
 9]:p:
 9_lt\
 :#:-:A:O:T:b:g:q:~:
@@ -391,8 +390,6 @@ DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
-ELI`1
-EcoQ4
 Enabled
 EnterCriticalSection
 Error! EventWriteString Severe: %s
@@ -409,6 +406,7 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
+Fs?Q,
 F|t	_^3
 GetCameraHALInterface
 GetCurrentProcess
@@ -474,7 +472,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-O0:TE
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -580,16 +577,18 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+XO)2{
 XXXX PNG chunk not known
-Y5hpk
 Y9"SD
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
+[G7Q{4I
 [K]taM?
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
+]}\}gRP2
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -632,6 +631,7 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
+`;nV9
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -692,7 +692,6 @@ c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
-c<g|+dX|K
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -744,6 +743,7 @@ jj@0HK4
 k0i0$
 ko_ko
 korean
+ks@Pi
 latam
 ldexp
 m0k0$
@@ -837,7 +837,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-x>B+,f
 yrPhh
 zh_cn
 zh_tw
@@ -845,6 +844,5 @@ zlib corrupt
 {un'%
 |Lu?c
 }LuHO
-~o5#t
 ~qj#k"
 ~t&LN

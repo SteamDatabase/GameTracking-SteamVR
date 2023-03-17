@@ -19,7 +19,7 @@
 !(0)"
 !hn7!
 "9k0t
-"cHp`
+"~g!M
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -174,7 +174,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184358Z0/
+230317215452Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,6 +193,7 @@
 6I]Dc
 6OB,n_
 70503
+7:'34
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -201,7 +202,6 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9('P0%*
 9C }.H
 9T$XJ
 9]pu2
@@ -219,6 +219,7 @@
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
+>!yq4|XCm
 >0<0:
 >Mp$d
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
@@ -410,7 +411,6 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-IW-tu])
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
@@ -473,6 +473,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS*
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -578,9 +579,9 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-WkiJB
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+Y%cpE**
 Y9"SD
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -699,6 +700,7 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
+c${NEa!
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
@@ -731,7 +733,6 @@ es_es
 es_mx
 etronlib
 expected marker
-f/^Dj
 fD9	u
 fi_fi
 finnish
@@ -751,6 +752,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+iHTwd
 illegal code in raster
 invalid
 invalid PLTE
@@ -762,8 +764,8 @@ ix`fA
 ja_jp
 japanese
 jj@0HK4
-k%;7E
 k0i0$
+kB833
 ko_ko
 korean
 l$ ATAVAWH
@@ -783,7 +785,6 @@ l$HuF
 l$TD;
 l$hA+
 l$hHc
-lD&W>^
 latam
 ldexp
 m0k0$

@@ -52,9 +52,10 @@
  syncRspReceived:
  syncSent:
  times.
- tjd5
  version-number:
 !hn7!
+" `$R
+""A@O
 "0)0C0
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
@@ -709,7 +710,7 @@ $Vh&*
 220921000000Z
 222R2z2
 223}3
-230316184253Z0/
+230317215419Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1038,6 +1039,7 @@ $Vh&*
 8LHB-uJ
 8O9i9
 8W9n9x9
+8[G+=4
 8^8q8x8
 8_^[]
 8m97:>:L:P:
@@ -1722,7 +1724,6 @@ GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'
 GATTC Send handle value confirmation to handle %d
 GH+G@
 GWPh4k
-G^%bz
 Gd;Fd|:
 Gd;Fd}$V
 Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d
@@ -1743,7 +1744,6 @@ GetTickCount64
 Gt_^[
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
-HMf>W
 HTC BS
 HeapAlloc
 HeapFree
@@ -1801,7 +1801,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
-Mn"Lx
 MultiByteToWideChar
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
@@ -2087,7 +2086,6 @@ Write to Power Control Point.
 Write to SOB Channel.
 WriteFile
 XX.XX.XXXXXXX
-Y	W+{
 Y9"SD
 Y__^[
 Zip Error: %s
@@ -2107,6 +2105,8 @@ Zipfile is corrupt or not a zipfile
 \Device Parameters
 ]J<0"0i3
 ^[0-9]+$
+^le1h
+_#Ymi
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2221,7 +2221,6 @@ f=cku7
 false
 file error
 floor
-gaXdn
 generic
 gfffVW3
 graph
@@ -2269,6 +2268,7 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
+krWx2/
 list<T> too long
 lj!hh
 lower
@@ -2290,12 +2290,12 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-p<~eO
 print
 punct
+rH1&m
 realloc
 s?=2N
-sW&~K.l\
+sNdq5|W
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)
@@ -2468,6 +2468,7 @@ vGh@7
 vGh`5
 vector<T> too long
 vector<bool> too long
+vxk<_
 w QVR
 w(_^[]
 w0_^[
@@ -2489,6 +2490,7 @@ y4_^[
 }LuHO
 }qj<h
 ~L][u
+~c<]J
 ~d;{d|	
 ~qj#k"
 ~t&LN

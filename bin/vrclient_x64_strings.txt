@@ -570,14 +570,15 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(% <0
+(%p;0
 ()$^.*+?[]|\-{},:=!
-(-5o"
-(-T;0
+(-K	0
+(-en"
 (9Q|uWH
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
+(=>b"
 (A\^][
 (A\_^[
 (A]_^[
@@ -858,6 +859,7 @@ $w!Hc
 -ID3D11On12Device::CreateWrappedResource failed.
 -IPCWrapper
 -Infinity
+-U~m+0/d
 -disablewatchdogs
 -nokillprocess
 -personality_distort
@@ -1820,7 +1822,6 @@ $w!Hc
 .CVRMsg_TrackedCamera_ResumeVideoStreamResponse
 .D9c0t&H
 .I+M0H
-.LNYUZ2
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_ND@Z
 .PEAUXrActionSet_T@@
@@ -1869,7 +1870,6 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5j$.
 /9{0t'H
 /CVRMsg_ClientMailbox_SendMailboxMessageResponse
 /CVRMsg_CompositorSetDashboardVisibilityResponse" 
@@ -2252,7 +2252,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230316184639Z0/
+230317215810Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2472,6 +2472,7 @@ $w!Hc
 :EotB
 :\u-L
 :\u6L
+:|?{/
 ; expected 
 ; last read: '
 ;<$uCB
@@ -2660,9 +2661,12 @@ $w!Hc
 @.reloc
 @.rsrc
 @8=-d>
+@8=0!5
 @8=4h>
+@8=S"5
 @8=Tf>
 @8=[j>
+@8=^ 5
 @8={e>
 @8=|k>
 @8I+@0H
@@ -2837,7 +2841,6 @@ $w!Hc
 @VATAWH
 @VAVAWH
 @VAVH
-@VAWH
 @VWATAVAWH
 @VWATH
 @VWAUAWH
@@ -3134,6 +3137,7 @@ BITANGENT
 BMP RLE
 BMissing haptic name in output of haptic filter %s
 BXL9BPu#M
+B[`cc
 BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -3180,6 +3184,7 @@ C0L;E
 C0L;F
 C0L;G
 C4LcC0H
+C5W$1
 C8;C<
 C8;K<
 C8@8l$8t.
@@ -3365,7 +3370,6 @@ CSxrInstance::Init failed: error fetching client interface
 CSxrInstance::Init failed: failed to create compositor interface
 CSxrInstance::Init failed: failed to init SteamVR
 CSxrInstance::Init failed: failed to init supported features
-CSxrInstance::Init warning: Headset not found, unable to create a functional vr instance, fix issue and restart SteamVR.
 CSxrInstance::StringToPath failed: %s
 CSxrSession::EndFrame
 CSxrSession::LocateViews
@@ -4084,7 +4088,6 @@ ED$(H
 EHAiWh
 EOL9uoA
 EPHcH
-EPPyV~N
 ERROR
 ERROR: Failed to dup handle!
 ERROR: Not using DXGI1.1 (will cause flickering)!
@@ -4803,6 +4806,7 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
+H;5UN)
 H;8u8H
 H;8u9
 H;8u:H
@@ -5885,6 +5889,7 @@ Numbers starting with leading zero must be in octal.
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
 O(;H(}+I
 O(H9Q
+O-?Os
 O0H9Q
 OPAQUE
 OPENGL32.dll
@@ -6197,7 +6202,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS[
+RSDSj
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7637,7 +7642,6 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X-|6)
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -8029,13 +8033,15 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-d=)
-Y5.B(
-Y5@V(
-Y5I>(
+Y%#:0
+Y5K=0
+Y5^A(
+Y5n=0
+Y5pU(
+Y5y=(
 Y9"SD
+Y=#T)
 Y>t$7?*
-Y@%M(@
 YD$8E
 Yd$@A
 Yl$ M
@@ -8210,6 +8216,7 @@ ZvFailed to create fence %ls.
 \$pI;\$xtIH
 \$pfD
 \$pff
+\$pt'H
 \$pu0D9d$<u)M
 \$xA9_
 \$xH+
@@ -8224,7 +8231,6 @@ ZvFailed to create fence %ls.
 \u=H;
 \x%02x
 \|$`D
-\~A.~
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -8245,8 +8251,7 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%;L"
-_%wW"
+_%kK"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8285,7 +8290,6 @@ _Touch
 _Xtime_get_ticks
 __C_specific_handler
 __CxxFrameHandler3
-__JJd
 __RTDynamicCast
 __acrt_iob_func
 __std_exception_copy
@@ -8393,6 +8397,7 @@ _wstat64i32
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
 `x@SH
+aZ; 3
 abort
 accessor[
 accessors
@@ -8465,7 +8470,6 @@ attributes
 audio
 autoLaunchSteamVROnButtonPress
 axis_index
-b0kTE
 b@8u'u
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
@@ -8538,7 +8542,6 @@ bindings
 bindings_json
 bindingui/desktop
 bindingui/overlay
-bj@O|6
 blank
 blocked_by_safe_mode
 blue_u
@@ -9745,6 +9748,7 @@ r6w%H
 r8u.M
 rND9{0t
 rTu.M
+rX9}o*9
 rZw%H
 radial_menu
 range
@@ -9803,7 +9807,6 @@ s$D;E
 s(HcEoH
 s=fff
 s@fff
-sAUhg
 sButtonTexts
 sCaptionText
 sMessageText
@@ -10488,7 +10491,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-1
+t8D8-
 t9fff
 t:fff
 t<Lc@xE
@@ -10622,7 +10625,6 @@ u4H9X s
 u5H9t$0u.H
 u9fff
 u<H9^xtLH
-u=`k=
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&

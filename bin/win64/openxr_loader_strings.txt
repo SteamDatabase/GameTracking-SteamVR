@@ -51,7 +51,6 @@
 (A_A^_]
 (D$ H
 (D$ f
-(Qk_xV
 (f*^[0
 (t$ 2
 (t$ H
@@ -148,6 +147,7 @@
 /api_layers/implicit.d
 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
 0123456789abcdef
+0:{ b
 0A^A\_
 0A^_^
 0A_A^A\_^
@@ -164,7 +164,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316183946Z0/
+230317215117Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -190,6 +190,7 @@
 8_^][
 <*J=)
 <0:08
+<ow^u
 =rIQU
 >0<0:
 >Mp$d
@@ -319,7 +320,6 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
-B>CWj
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -445,6 +445,7 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
+H_Nc*)
 I#V0I
 I9Bhs
 I9W(t
@@ -527,7 +528,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSlwV
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -640,7 +640,6 @@ XR_EXT_debug_utils
 XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
-XlM^P
 Y9"SD
 [K]taM?
 \$ I;]
@@ -824,6 +823,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+o}uLG
 rejectDupKeys
 runtime
 s t#fff

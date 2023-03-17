@@ -92,12 +92,13 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184317Z0/
+230317215454Z0/
 241009235959Z0a1
 2=2C2
 2>4~4
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2LNhX
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3'313;3H3R3X3_3c3i3s3}3
@@ -290,9 +291,9 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-P}HTu
 QueryPerformanceCounter
 RPCRT4.dll
+RSDS,O
 RaiseException
 S0Q0O
 SA|X=G
@@ -339,6 +340,7 @@ Y__^[
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+\+03	
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -457,7 +459,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-rnT`_
 startup
 string too long
 strncpy
@@ -467,12 +468,10 @@ tdh.dll
 terminate
 u7j8Q
 uCVj@
-ue-.6AR$
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xfr:k
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

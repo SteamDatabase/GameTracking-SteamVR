@@ -11544,31 +11544,34 @@
           e.binding_config &&
             e.binding_config.bindings &&
             (Object.keys(e.binding_config.bindings).forEach((t) => {
-              let n = new b();
-              (n.chords = e.binding_config.bindings[t].chords),
-                (n.poses = e.binding_config.bindings[t].poses),
-                (n.haptics = e.binding_config.bindings[t].haptics),
-                (n.skeleton = e.binding_config.bindings[t].skeleton),
-                (n.sources = []),
-                e.binding_config.bindings[t].sources.forEach((e) => {
-                  let t = new S();
-                  (t.mode = e.mode),
-                    (t.path = e.path),
-                    (t.inputs = d.LO.map()),
-                    e.hasOwnProperty("inputs") &&
-                      Object.keys(e.inputs).forEach((n) => {
-                        t.inputs.set(n, e.inputs[n]);
-                      }),
-                    null != e.parameters &&
-                      Object.keys(e.parameters).length > 0 &&
-                      ((t.parameters = d.LO.map()),
-                      e.hasOwnProperty("parameters") &&
-                        Object.keys(e.parameters).forEach((n) => {
-                          t.parameters.set(n, e.parameters[n]);
-                        })),
-                    n.sources.push(t);
-                }),
-                this.m_ModifiedBindingSet.set(t, n);
+              var n;
+              let i = new b();
+              (i.chords = e.binding_config.bindings[t].chords),
+                (i.poses = e.binding_config.bindings[t].poses),
+                (i.haptics = e.binding_config.bindings[t].haptics),
+                (i.skeleton = e.binding_config.bindings[t].skeleton),
+                (i.sources = []),
+                null === (n = e.binding_config.bindings[t].sources) ||
+                  void 0 === n ||
+                  n.forEach((e) => {
+                    let t = new S();
+                    (t.mode = e.mode),
+                      (t.path = e.path),
+                      (t.inputs = d.LO.map()),
+                      e.hasOwnProperty("inputs") &&
+                        Object.keys(e.inputs).forEach((n) => {
+                          t.inputs.set(n, e.inputs[n]);
+                        }),
+                      null != e.parameters &&
+                        Object.keys(e.parameters).length > 0 &&
+                        ((t.parameters = d.LO.map()),
+                        e.hasOwnProperty("parameters") &&
+                          Object.keys(e.parameters).forEach((n) => {
+                            t.parameters.set(n, e.parameters[n]);
+                          })),
+                      i.sources.push(t);
+                  }),
+                this.m_ModifiedBindingSet.set(t, i);
             }),
             this.m_ModifiedOptions.clear(),
             e.binding_config.options &&
@@ -14748,4 +14751,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=47a3b1834f7d7c83ae48
+//# sourceMappingURL=vrwebui_shared.js.map?v=76449f109ed237e790c2

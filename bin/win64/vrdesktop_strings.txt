@@ -16,6 +16,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+#]ApW
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -142,7 +143,6 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
-0.)_T
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -159,7 +159,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184522Z0/
+230317215630Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -177,6 +177,7 @@
 6*f(_
 6I]Dc
 6OB,n_
+6}+m.
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -247,6 +248,7 @@
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 @.data
 @.reloc
+@/9!~
 @A^_^
 @A_A^A\
 @A_A^A\_^
@@ -272,6 +274,7 @@
 @UVWATAUAVAWH
 @UVWAVAWH
 @UWAVAWH
+@\*H$
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
@@ -522,6 +525,7 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+I_{ZpE
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitializeConditionVariable
@@ -649,7 +653,6 @@ UVWATAWH
 UVWAVAWH
 UWAVH
 UWAWH
-UWx`d
 Unable to call duplication release frame for desktop %d.
 Unable to compute virtual coords or normalized coords...
 Unable to get normalized coords from virtual coords for locked mouse position.
@@ -688,6 +691,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+Y&la b
 Y9"SD
 [K]taM?
 \$ E3
@@ -700,7 +704,6 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\9Egz
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -785,6 +788,7 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
+eE[(\F
 el_el
 en_us
 english
@@ -907,7 +911,6 @@ turkish
 ua_ua
 ukranian
 user32.dll
-u{_#|
 v=Y]Bv
 vE;E`M
 vector<T> too long

@@ -15,6 +15,7 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!>&4Y
 !hn7!
 %%.%dg
 %s%s%s%s%s
@@ -174,7 +175,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184545Z0/
+230317215646Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -448,7 +449,6 @@ Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
 Executable: %s
-F[4om%A
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -703,6 +703,7 @@ Sleep
 SleepConditionVariableCS
 Started desktop capture for display %d.
 Successfully reinitialized output duplication for desktop %d, updating description.
+SvY&@
 Switching from laser mouse to physical mouse at %d, %d (from %d, %d). Physical timestamp was %d ticks newer.
 Switching from physical mouse to laser mouse at %d, %d
 Switching to laser mouse when first showing overlay.
@@ -965,7 +966,6 @@ l$PM9n
 latam
 list<T> too long
 m0k0$
-mG?)Vm
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -976,6 +976,7 @@ memcpy
 memmove
 memset
 message_id
+n%99H
 no_no
 norwegian
 ntelD
@@ -1033,6 +1034,7 @@ t$0H;
 t$@H=
 t$PH=
 t:I;>t
+tP7[3
 tXfff
 tchinese
 terminate
@@ -1041,6 +1043,7 @@ title
 tolower
 tr_tr
 turkish
+u[!h8r5
 ua_ua
 ukranian
 update_debug_info
@@ -1075,8 +1078,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-y0I9Vi
-zD{?q
 zh_cn
 zh_tw
 {un'%
@@ -1097,6 +1098,5 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
-}wm'#$
 ~qj#k"
 ~t&LN

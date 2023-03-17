@@ -1589,7 +1589,6 @@ $tI
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
-18:38:47
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1650,6 +1649,7 @@ $tI
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:50:34
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -3940,7 +3940,7 @@ CSWTCH.214
 CSWTCH.221
 CSWTCH.23
 CSWTCH.28
-CSWTCH.487
+CSWTCH.489
 CSWTCH.725
 CSWTCH.773
 CS_MAIN
@@ -4528,7 +4528,6 @@ CSxrInstance::Init failed: error fetching client interface
 CSxrInstance::Init failed: failed to create compositor interface
 CSxrInstance::Init failed: failed to init SteamVR
 CSxrInstance::Init failed: failed to init supported features
-CSxrInstance::Init warning: Headset not found, unable to create a functional vr instance, fix issue and restart SteamVR.
 CSxrInstance::Init()
 CSxrInstance::Init() [clone .cold]
 CSxrInstance::InitExtensions()
@@ -22347,7 +22346,7 @@ MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
 Map
 Mar
-Mar 16 2023
+Mar 17 2023
 March
 MarkInUse
 MaterialUtf8FileReader::operator()(std::string const&, std::vector<tinyobj::material_t, std::allocator<tinyobj::material_t> >&, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >&)

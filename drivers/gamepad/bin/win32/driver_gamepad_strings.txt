@@ -60,6 +60,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+.|aDBf$
 /input/a/click
 /input/b/click
 /input/back/click
@@ -103,7 +104,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184304Z0/
+230317215434Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,7 +188,6 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-BPqxrm
 Bellevue1
 CloseHandle
 CreateEventW
@@ -207,7 +207,6 @@ GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-HOVBb=	
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -244,9 +243,8 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q`HzA_m
 QueryPerformanceCounter
-RSDS.<
+RSDS_
 RaiseException
 S0Q0O
 SA|X=G
@@ -288,13 +286,13 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W<4MEK
 WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-_	Ia 
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -343,7 +341,7 @@ bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 cU	F9
 driver_gamepad.dll
-f"AWxF
+e W0Zn
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -351,7 +349,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-kT}nf
+m0I~A
 m0k0$
 malloc
 map/set<T> too long
@@ -365,6 +363,8 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+ydT3dGijZx|05
+{7r}0
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -377,6 +377,5 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
-}s9.O
 ~qj#k"
 ~t&LN

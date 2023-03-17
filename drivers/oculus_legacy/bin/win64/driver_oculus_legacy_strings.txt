@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+%KuHQ
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -91,7 +92,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184853Z0/
+230317215726Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,7 +106,6 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5c268
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -122,6 +122,7 @@
 9h u{H
 9l$Ht
 9l$pt
+:!jeQ
 ;K sCH
 ;K sUH
 ;k sAH
@@ -245,6 +246,7 @@ L$ SVWH
 L$@H3
 L9t$huP
 L?n(Zy&
+LElSi"=v
 LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
@@ -268,6 +270,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDSS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -304,7 +307,7 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
-V@)R&i]
+U}GW5
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -330,7 +333,6 @@ Y9"SD
 \$ UH
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
-^LLHXZ
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -385,6 +387,7 @@ effffff
 f9<Xu
 getenv
 gfffffffH
+h\4'\R
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C

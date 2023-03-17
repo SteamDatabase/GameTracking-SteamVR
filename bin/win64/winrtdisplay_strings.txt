@@ -6,13 +6,13 @@
  A_^]
  A__^
  H3E H3E
-!_5rw
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
 (D$0f
+(Hbv0
 (f*^[0
 +Xt@(
 +o'q)}
@@ -118,7 +118,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230316184015Z0/
+230317215155Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -137,7 +137,6 @@
 6I]Dc
 6OB,n_
 70503
-7<iXG
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -152,7 +151,6 @@
 =rIQU
 >0<0:
 >Mp$d
-?E%^3w
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -205,6 +203,7 @@ DigiCert1$0"
 DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
+E]Y#K
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -257,13 +256,11 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
-P1%H7G
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS[
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -291,7 +288,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W1;fyP8z~
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
