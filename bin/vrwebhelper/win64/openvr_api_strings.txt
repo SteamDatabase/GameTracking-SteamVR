@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	g_r-
 	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
@@ -45,7 +46,6 @@
  tDE3
  tQD8c:u0M
  t^D9
- u`GiU
  vJH+
 !,X< w
 !>6'Y
@@ -411,7 +411,7 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-230317215416Z0/
+230323041436Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -466,6 +466,7 @@ $iMBm
 9D$(}k
 9D$`t_
 9FHtGH
+9V$I-A
 9W$v8D
 9WP~GM
 9WP~HM
@@ -512,7 +513,6 @@ $iMBm
 =WIDATx
 =imb;D
 =rIQU
->'H*D
 >0<0:
 >KpP`
 >Mp$d
@@ -1269,6 +1269,7 @@ O0LcQ
 OF>;^
 October
 On laptop, HMD detected over USB, but Monitor not found (213)
+OofQ={
 P>q_Y~
 PA^_^
 PA_A^A]A\_^]
@@ -1287,7 +1288,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDS{
+RSDSw
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1776,7 +1777,6 @@ Zod(^?
 ]J<0"0i3
 ]`u7H
 ]g@8yhu
-]iJ%0
 ^<V7w
 ^RfN>
 ^fD9(H
@@ -1864,6 +1864,7 @@ assert json failed
 atan2
 b4 a2
 b?^Cy
+bCsqX
 bad address
 bad allocation
 bad array new length
@@ -1879,7 +1880,7 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -2283,7 +2284,6 @@ u~9t$Xt
 u~LcW
 v0D8eou\H
 v2!L.2
-v3W$IX
 v=Y]Bv
 value too large
 vector<T> too long

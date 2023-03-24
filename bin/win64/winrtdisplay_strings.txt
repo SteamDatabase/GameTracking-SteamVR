@@ -6,13 +6,15 @@
  A_^]
  A__^
  H3E H3E
+ [n1=!
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
+'0KwsY
+'A7.$#f
 (D$0f
-(Hbv0
 (f*^[0
 +Xt@(
 +o'q)}
@@ -118,7 +120,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230317215155Z0/
+230323041302Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -137,10 +139,12 @@
 6I]Dc
 6OB,n_
 70503
+7NnXVe
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+8oOk#
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
@@ -165,6 +169,7 @@
 @UVAUAWH
 @UVAVAWH
 @WAUAVAWH
+@|0LV
 ASSERT: "%s" at %s:%d.
 A_A]^]
 A_A^A\_^[
@@ -203,7 +208,6 @@ DigiCert1$0"
 DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
-E]Y#K
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -288,6 +292,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W>feI
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -361,11 +366,12 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 cU	F9
 d3d11.dll
 dxgi.dll
+d|ycTA
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -375,6 +381,7 @@ iswspace
 jj@0HK4
 k0i0$
 l$ WH
+m P_b
 m0k0$
 m_path
 malloc
@@ -404,6 +411,7 @@ www.digicert.com1$0"
 |$ AVH
 |$0E3
 |$xMi
+|&~!aZ
 |Lu?c
 }LuHO
 ~qj#k"

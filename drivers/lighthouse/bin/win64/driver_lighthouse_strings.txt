@@ -251,6 +251,7 @@
 !&.37<
 !( pDedicatedBuffer && pDedicatedImage )
 !(0)"
+!AR:A
 !HcS0
 !IsInUse()
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
@@ -353,7 +354,6 @@ $w!Hc
 %9k0t
 %9{0t
 %Y-%m-%d
-%Y>e7
 %d.%d.%d
 %hu,%hu,'%4c',%hu
 %s %c: 
@@ -1030,7 +1030,7 @@ $w!Hc
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
+.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -1384,7 +1384,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230317220107Z0/
+230323042017Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1564,7 +1564,6 @@ $w!Hc
 ;<$uCB
 ;Ch}(
 ;D$lu H
-;IH#^>
 ;K s;H
 ;K sEH
 ;K sFH
@@ -1960,6 +1959,7 @@ A(9C(}
 A(A9@
 A(A9@(}
 A(A9C(}
+A)Gp:
 A)}HA
 A+H,A
 A,9AT|
@@ -2212,6 +2212,7 @@ Base %08X reset count changed.  Base may have been bumped or power cycled.
 Base station driver for %08X rejected by vrserver
 Batman
 Batt: 
+Beep8]}
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
 Bellevue1
@@ -3238,6 +3239,7 @@ G,HcO(H
 G,iV(
 G8@8n4t{H
 G8D8t$8t/A
+GH80}
 GHiVX
 GLOG_alsologtoemail
 GLOG_alsologtostderr
@@ -3864,7 +3866,6 @@ K@H+K8H
 K@H+Y0I
 KERNEL32.dll
 KHR_lights_punctual
-K_[Nb
 K`H;S
 Kf;;u
 KfD;3u
@@ -5793,33 +5794,33 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
 cU	F9
 cal_method
@@ -6732,6 +6733,7 @@ pt_br
 pt_pt
 public_dependency
 py_generic_services
+qHrUK
 qMFCreateMediaType failed hr = 0x%08x
 r	D;@(}
 r+w.I
@@ -7039,6 +7041,7 @@ t'8Ypt
 t(HcW,H
 t(LcK,C
 t)HcO4
+t)uM}!
 t,HcI
 t,HcKT
 t,M9x
@@ -7163,6 +7166,7 @@ u9fff
 u;H9{(L
 u<L9-+
 u=L;Mhu7IcG
+u>VH[
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uAfff

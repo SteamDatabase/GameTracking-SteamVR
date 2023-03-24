@@ -63,7 +63,6 @@
  sJE3
 !&.37<
 !(0)"
-!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !hn7!
 " not found in the scene.
 """""""
@@ -458,7 +457,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230317215630Z0/
+230323041558Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -480,6 +479,7 @@ $w!Hc
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
+7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -679,6 +679,7 @@ A8~xt
 A9A A
 A9Q sEI
 A;Q s?I
+AB.4}V
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
 APH+AHH
@@ -744,12 +745,12 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
+B"zJG
 BINORMAL
 BMP RLE
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-BdCi{ZrO0
 Bellevue1
 Buffer
 BufferView
@@ -1219,6 +1220,7 @@ N I9N(
 N0H9Q
 NORMAL
 NPH9Q
+NWf N;
 Neither required `bufferView` nor `uri` defined for image[
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
@@ -1274,6 +1276,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS7h
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1686,13 +1689,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
 cU	F9
 camera
 cameras
@@ -1725,6 +1728,7 @@ d$`H=
 d$`L;
 d$`fD
 d$bHc
+d(u"v
 d3d11.dll
 da_da
 danish
@@ -1735,7 +1739,6 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
-dcAs2;
 de_de
 deque<T> too long
 disconnected
@@ -1763,8 +1766,6 @@ extensionsRequired
 extensionsUsed
 extras
 fD9	u
-fJLSm>'
-f_)GXc
 false
 false literal
 fclose
@@ -1801,7 +1802,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-iPvc2
 ig@-?e
 illegal code in raster
 image/bmp

@@ -131,9 +131,8 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
+ 0,040T0x0
  0=0V0'1
- 0@0H0P0X0`0h0p0|0
- 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7
  ;rH|
  ;w,|
  ;y8|
@@ -277,7 +276,6 @@ $0  }
 $0 oneof $1 {
 $0$1 = $2
 $0$1$2 $3 = $4
-$0,0L0`0
 $0enum $1 {
 $0option $1;
 $6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
@@ -292,7 +290,6 @@ $tI<unknown>
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
 %3333
-%F _C
 %UUUU
 %Y-%m-%d
 %d.%d.%d
@@ -415,10 +412,10 @@ $tI<unknown>
 , max interval 
 , not just within "
 , requestedBytes 
+,$h<*
 ,0<	w
 ,0<	wP
 ,0h1l1p1t1x1|1
-,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
 ,W5y+
 ,^_[]
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
@@ -538,7 +535,7 @@ $tI<unknown>
 .?AVCBoneMaskResource@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xf9547aae@vortex@@
+.?AVCDisambiguatorTDM@?A0xd780313c@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -704,7 +701,6 @@ $tI<unknown>
 .tls$
 .tls$ZZZ
 .xdata$x
-/	i:B
 /C,v$
 /Fhvnj
 /bin/mail
@@ -783,12 +779,9 @@ $tI<unknown>
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$0(0,000d0
 0 0$090
-0 0(040T0\0h0
-0 0(0@0P0T0d0h0l0p0t0x0
 0 0*050@0K0^0t0
 0 0+0d0o0
-0 0004080@0X0h0l0|0
-0 080H0L0\0`0d0h0p0
+0 080H0L0\0`0h0
 0 1$1(1,1014181<1@1
 0 1,141T1x1
 0 1[1
@@ -809,13 +802,12 @@ $tI<unknown>
 0#020
 0#070V0f0|0
 0#1,151>1C1H1O1
+0$0(0,040L0\0`0p0t0x0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
-0$0,080X0`0h0p0x0
+0$0,040<0D0L0T0\0d0l0t0
 0$0,0L0p0|0
 0$0-0;0]0g0p0y0
 0$0.0
-0$0<0@0X0h0l0
-0$0D0L0X0x0
 0%0R0k0
 0&0/030
 0&020
@@ -827,8 +819,7 @@ $tI<unknown>
 0'172
 0'1_1
 0(0,0004080J1
-0(040<0\0
-0(080<0L0P0T0X0`0x0
+0(0,0<0@0D0H0P0h0x0|0
 0)0k0
 0)121[1f1q1}1
 0*020?0Q0
@@ -836,7 +827,11 @@ $tI<unknown>
 0+0E0
 0+0F0Q0d0h0l0p0t0x0|0
 0,060P0
-0,080X0`0|0
+0,080@0X0`0h0p0|0
+0,080@0`0
+0,0<0@0P0T0X0`0x0
+0,0@0l0t0
+0,0P0\0d0
 0,1H1
 0-030;0I0V0}0
 0-0@0S0f0y0
@@ -848,13 +843,14 @@ $tI<unknown>
 0/151
 0/1o1
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\x%02x
-000<0D0d0
+00080D0h0
+00080T0t0
+000@0D0T0X0\0d0|0
 001I1R1[1d1i1n1|1
 005 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 01080h0
 010B0I0Q0f0v0}0
 0123456789abcdef
-014181<1@1D1H1L1
 031Q1o1
 04181<1@1D1H1L1P1T1t1x1
 050<0C0W0b0q0
@@ -869,15 +865,14 @@ $tI<unknown>
 06213
 070G0
 070M0
+080@0H0P0X0`0l0
 081G1X1
 090O0d0
 091S1
 093L3X3
 097_^
 0:0i0
-0<0H0P0p0
 0<0`0l0t0
-0<1@1D1
 0=1d3h3l3p3t3x3|3
 0?0D0U0v0|0
 0?0H0Q0Z0_0d0k0
@@ -909,7 +904,7 @@ $tI<unknown>
 0Q0W0c0h0
 0R1s1
 0S1Z1
-0SVWht
+0SVWh|
 0SVWj
 0V8f<
 0W0`0i0r0w0|0
@@ -948,11 +943,14 @@ $tI<unknown>
 1 1$1(1,1014181<1@1D1H1L1P1T1X1h1
 1 1$1(1,1014181<1@1`1d1
 1 1$1(1V1f142y3V4d4
+1 1$1|1
 1 1%1*1/14191>1C1H1Q1V1a1f1s1}1
 1 1%1,1l1u1~1
 1 1%111`1 272O2
-1 1(141\1p1|1
-1 1014181@1X1h1l1|1
+1 1(101L1l1t1|1
+1 1(1@1P1T1d1h1p1
+1 1,1L1T1`1
+1 1@1H1T1t1|1
 1 2p2
 1!1&1+10151:1?1D1I1N1S1X1]1b1g1l1
 1!1&1+121_1h1q1z1
@@ -971,18 +969,14 @@ $tI<unknown>
 1#1A1P1r1
 1#1`1~1
 1#292\2
-1$1(101H1X1\1l1p1t1|1
-1$1(181<1D1\1l1p1
-1$1,141<1X1x1
 1$1.1
 1$121G1b1s1}1
 1$14181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
 1$1D1h1t1|1
 1$1K1R1
+1$1L1`1x1
 1$1P1
-1$1|1
 1$2-262A2F2K2R2
-1$2H2T2\2|2
 1$2f2
 1%1@1[1v1
 1%1M1f1
@@ -990,15 +984,18 @@ $tI<unknown>
 1&1-141N1U1\1c1j1q1x1
 1&131A1b1
 1'101L1V1`1l1
-1(1,1<1@1D1H1P1h1x1|1
+1(1,141L1\1`1p1t1x1
 1(1.191>1O1`1
 1(121>1O1`1h1m1{1
+1(141<1\1
+1(181<1L1P1T1\1t1
 1(2A2F2n2
 1)111
 1*191
 1*2F2W2]2q2
 1+202I2Q2v2
-1,141@1d1
+1,1014181@1X1h1l1|1
+1,1<1@1P1T1d1h1x1|1
 1,252>2G2L2Q2X2
 1-262?2H2M2R2Y2
 1.151<1J1
@@ -1010,8 +1007,6 @@ $tI<unknown>
 1/242I2N2d2n2
 1/2F2R2
 10191?1K1h1\2
-101<1D1d1
-101D1L1l1
 102O2
 10:0C0L0Q0V0]0
 11 4 22 44 44 22 444444
@@ -1021,8 +1016,10 @@ $tI<unknown>
 130801120000Z
 13181
 132:2
+141@1H1`1h1p1|1
 141B1i1
-141D1H1X1\1d1|1
+141X1d1l1
+141d1l1
 141f1x1
 143B4J4R4
 162E2o2
@@ -1030,21 +1027,19 @@ $tI<unknown>
 171\1c1}1
 171d2
 181@1T1o1
-181D1L1l1
 182w2
 191h1
 192D2
 192_2
 1:2}2
 1;2B2R2X2
-1<1\1d1l1t1|1
+1<1D1d1
 1<2@2D2H2L2
 1<2H2Q2\2a2f2w2
 1<3Y3a3
 1=2t2{2
 1>2<3
 1>2M2`2g2
-1@1L1T1t1
 1A1S1
 1A26b
 1A2R2b2r2
@@ -1093,13 +1088,16 @@ $tI<unknown>
 2	2@2J2S2\2
 2	344
 2 2$2(2
-2 2$2(2,2024282<2@2D2H2L2P2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2I3_3
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2d2h2
+2 2$2(202H2X2\2l2p2t2x2
+2 2$282<2@2
 2 2%2*2/24292>2C2H2M2R2W2\2a2f2k2p2u2z2
+2 2(20282@2H2P2X2d2
+2 2(2@2P2T2d2h2l2t2
 2 2*4.4
-2 282H2L2\2`2d2l2
+2 2@2H2P2\2|2
 2 3,343T3x3
 2 3Y3t3
 2 3p3
@@ -1113,14 +1111,11 @@ $tI<unknown>
 2"222B2R2b2r2
 2"3U3
 2#2W2l2
-2$2(2,242L2\2`2p2t2|2
 2$2,2L2p2|2
 2$2.292A2Q2a2r2v2
-2$24282H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2$202X2|2
 2$262@2u2{2
-2$2D2L2T2t2|2
-2$2D2X2h2|2
-2$2P2X2|2
+2$282d2l2
 2$2W2
 2$3&4;4D4M4V4[4`4g4
 2%232B2i2o2w2
@@ -1134,8 +1129,8 @@ $tI<unknown>
 2&3O3^3j3y3
 2'222e2y2
 2'374
-2(2,2<2@2D2H2P2h2x2|2
 2(242<2\2
+2(242<2\2l2
 2(272=2D2d2
 2(2B2F2Z2
 2).lighthouse.pb.CBaseConfigAndDynamicState"
@@ -1150,6 +1145,8 @@ $tI<unknown>
 2+3Q3Z3
 2+3[3
 2,2024282@2X2h2l2|2
+2,202@2D2L2d2t2x2
+2,2<2@2P2T2X2`2x2
 2,3K3$4]4t4
 2,3L3d3
 2,3x3
@@ -1159,6 +1156,7 @@ $tI<unknown>
 2.2X2
 2.3V3
 2/3F384
+202<2D2d2
 202X2
 202`2
 210429000000Z
@@ -1169,15 +1167,12 @@ $tI<unknown>
 220801000000Z
 220921000000Z
 223D3U3p3
-230317215619Z0/
+230323041148Z0/
 232L2p2
 232V2
 233<3E3N3S3X3s3
 233|3
 241009235959Z0a1
-242<2D2L2h2
-242@2H2h2|2
-242@2`2t2
 243$5
 243c3
 253Z3
@@ -1187,14 +1182,16 @@ $tI<unknown>
 263G3D4H4L4P4T4X4\4`4d4h4v4
 272_2
 282<2@2D2H2
-282D2L2l2
+282D2l2
+282\2|2
 293m3u3z3
 2;2j2|2
 2;3c3
-2<2D2L2T2\2d2l2t2
 2<2D2Q2d2
+2<2H2l2
 2<2O2T2c2{2
 2<2P2k2
+2<2`2l2t2
 2<3j3
 2<3}3
 2=3W3d3
@@ -1203,7 +1200,6 @@ $tI<unknown>
 2?2W2a2
 2?2X2
 2?3F3O3X3a3j3
-2@2L2T2t2
 2@3|3
 2B3P3Y3b3k3p3u3|3
 2D2M2f2
@@ -1259,11 +1255,16 @@ $tI<unknown>
 3 3$3(3,30383<3@3D3H3L3P3T3X3\3
 3 3$3(3,3m4q4
 3 3$3(303H3X3\3l3p3t3x3
-3 3(30383L3
+3 3$34383<3D3\3l3p3
+3 3$3<3L3P3d3h3x3|3
+3 3(30383@3H3T3
 3 313;3@3Q3a3f3k3p3u3z3
 3 343>3S3X3f3v3
-3 3L3T3t3
+3 383<3T3X3p3t3
+3 383H3L3\3`3d3h3p3
+3 3@3P3|3
 3 434S4s4
+3 4D4P4X4p4|4
 3 4h4
 3!3&3+303=3g3p3y3
 3!3(3/363=3D3K3R3Y3`3g3n3u3|3
@@ -1275,12 +1276,11 @@ $tI<unknown>
 3"333:3D3U3\3f3w3~3
 3#3.33383F3e3n3w3
 3$3(3,3034383
-3$3(383<3D3\3l3p3
 3$3)303
+3$3,343<3D3`3
 3$3.393B3M3n3~3
-3$3D3L3T3\3d3l3t3|3
-3$3D3P3p3|3
-3$3H3T3\3|3
+3$343H3P3l3
+3$3D3h3t3|3
 3%4+4A4G4
 3%4k4q4w4}4
 3&3+313Y3c3h3n3
@@ -1299,9 +1299,7 @@ $tI<unknown>
 3)4}7
 3+3W3f3s3z3
 3+3|3
-3,3034383@3X3h3l3|3
-3,303@3D3H3L3T3l3|3
-3,3P3\3d3
+3,343T3h3
 3,4[4r4
 3,4l4
 3,4r4
@@ -1312,7 +1310,6 @@ $tI<unknown>
 3/3g3
 3/4H4m4s4
 3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-30343L3P3h3l3
 303<3D3d3
 303L3h3
 311109235959Z0b1
@@ -1325,7 +1322,7 @@ $tI<unknown>
 331121235959Z0F1
 333,5,6064686<6@6
 333A3v3
-343<3`3t3
+343@3`3l3
 344>4I4Q4Y4a4#5
 344D4J4_4s4
 353f3t3
@@ -1337,8 +1334,9 @@ $tI<unknown>
 374V4
 374V4/5h5
 380115120000Z0b1
-383@3H3P3X3t3
+383D3L3l3
 383X3
+383X3`3h3p3x3
 384<4@4`5d5h5l5p5t5x5|5
 384w4
 386u7
@@ -1390,12 +1388,12 @@ $tI<unknown>
 4	4O4X4a4j4o4t4{4
 4 4$4(4,4044484<4@4D4H4L4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4$4(404H4X4\4l4p4t4x4
+4 4$4,4D4T4X4h4l4t4
 4 4$41454W4[4j4n4}4
-4 4(40484@4H4P4X4`4h4t4
-4 4,4L4T4\4h4
+4 4(40484@4H4P4X4`4h4p4x4
 4 484H4L4\4`4d4h4p4
 4 5)5
+4 5,545T5x5
 4 5j5
 4!4(4B4R4b4r4
 4!4/484A4I4N4U4
@@ -1415,15 +1413,17 @@ $tI<unknown>
 4#5D5
 4#5D5M6n6
 4#5P5q5-6N6
-4$4(484<4L4P4`4d4t4x4
 4$4+42494@4G4N4U4\4c4j4q4x4
-4$4,484X4`4h4p4x4
+4$4,444<4D4L4T4\4d4l4t4
+4$4,444@4`4h4t4
+4$4,4L4p4|4
+4$4,5d6p6
 4$4-4
 4$4-494E4Q4]4{4
+4$484d4l4
 4$4;4O4n4v4
 4$4?4q5y5
 4$4B4x4
-4$4D4X4
 4$4H4T4\4|4
 4$5E5
 4$737B7Q7[7
@@ -1439,10 +1439,10 @@ $tI<unknown>
 4&5A5
 4'414A4H4Y4u4
 4'5F6U6f7u7V;d;R<
-4(4,444L4\4`4p4t4x4
-4(4,4<4@4P4T4d4h4l4p4t4|4
+4(4,4<4@4P4T4d4h4x4|4
+4(4,4D4T4X4h4l4|4
 4(444<4\4
-4(444X4x4
+4(484<4L4P4T4X4`4x4
 4(4H4
 4(4]4l4p4t4x4|4
 4)424=4B4G4a4l4u4~4
@@ -1456,7 +1456,7 @@ $tI<unknown>
 4+4u4z4
 4+5'8n8T9f9l9s9
 4,464@4T4^4s4x4
-4,4P4\4d4
+4,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 4,5L5
 4-4A4`4p4u4
 4-5t5i6
@@ -1474,10 +1474,10 @@ $tI<unknown>
 424;4H4N4[4g4q4w4
 425|5
 444A4R4c4
-444X4d4l4
 454T4(5f5
 464?4T4[4a4r4
 465E5
+4787<7
 484D4L4l4
 485X5x5
 494>4G4X4
@@ -1490,6 +1490,7 @@ $tI<unknown>
 4?4X4
 4?5[5
 4@4J4
+4@4L4T4t4
 4A5Q5
 4A5l5
 4A5v5
@@ -1540,15 +1541,12 @@ $tI<unknown>
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5 5$5(5,5054585v9
 5 5$5(5,50545X6\6`6d6h6l6p6t6x6|6
-5 5$5(505H5L5d5t5x5|5
 5 5$6X6f6r6
 5 5%5*5/54595>5C5H5Q5V5[5`5e5j5o5t5y5~5
 5 5'5.555<5C5J5Q5X5_5f5m5t5{5
+5 5(50585@5H5P5X5d5
 5 5*545>5H5R5\5f5p5z5
-5 585H5L5\5`5d5l5
-5 5@5X5`5h5p5
 5 5`5
-5 6(646T6\6h6
 5!5*53585=5D5
 5!5+555@5M5r5
 5!515;5H6	707
@@ -1563,9 +1561,13 @@ $tI<unknown>
 5#5(5-52575<5Q5V5[5`5e5j5o5t5y5~5
 5#5(5-555S5\5e5p5u5z5
 5$5(5,5054585<5@5D5
-5$5(585<5@5D5H5L5T5l5p5
+5$5(585<5@5D5L5d5t5x5
 5$535L5d5h5
-5$54585H5L5T5l5|5
+5$54585H5L5P5X5p5
+5$54585H5L5\5`5d5h5p5
+5$5D5L5X5x5
+5$5H5T5\5|5
+5$5L5p5|5
 5$616r6}6
 5$6h6
 5%525x6
@@ -1583,8 +1585,7 @@ $tI<unknown>
 5'555?5H5T5]5b5m5z5
 5'5E5J5
 5'5E5N5{5
-5(545<5\5l5
-5(5P5d5
+5(5,5D5T5X5`5x5
 5(6J6b6
 5(6Q6p7
 5(6]6e6z6
@@ -1594,6 +1595,7 @@ $tI<unknown>
 5*6V6
 5+6C6%7
 5+6|6E7
+5,50545<5T5d5h5x5|5
 5,53585\5i5
 5,555<5E5J5
 5,5P5\5d5
@@ -1610,14 +1612,12 @@ $tI<unknown>
 5/878D8g9
 50545@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5
 505<5D5d5
-505<5\5d5l5x5
-505@5D5T5X5\5d5|5
 50;4;8;
 50?0d0o0
 51585
 515P5_5
 545;5A5R5
-545X5d5l5
+545<5D5L5T5\5h5
 545h5
 545l6
 555W5^5x5
@@ -1626,6 +1626,7 @@ $tI<unknown>
 566E6
 566H6
 566y6~6
+585D5d5p5
 585d5i5
 596I6X6l6
 5:6{6
@@ -1634,8 +1635,6 @@ $tI<unknown>
 5;6B6\6|6
 5;6K6_6
 5;6Z6~6
-5<5D5P5p5|5
-5<5`5l5t5
 5<5l5
 5=6g6
 5?5\5v5
@@ -1686,8 +1685,16 @@ $tI<unknown>
 6 6$6(6,6064686<6@6D6H6L6P6h6l6p6t6x6|6
 6 6$6(6,6064686<6@6D6d6h6x6|6
 6 6$6(6,6=6e6t6
-6 6$6(606H6X6\6l6p6x6
+6 6$6(6,6@6D6H6
+6 6$6(606H6X6\6d6|6
+6 6$64686<6D6\6l6p6
+6 6$6x7|7(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
 6 6(60686@6H6P6X6`6h6p6x6
+6 6(60686@6H6P6\6
+6 6(606<6\6d6p6
+6 6(6@6P6T6d6h6p6
+6 60646<6T6d6h6p6
+6 6D6d6l6t6|6
 6 6u6
 6 7E7L7
 6 7H7l7
@@ -1700,17 +1707,12 @@ $tI<unknown>
 6"6j6s6|6
 6#6+6U6I7i7
 6#616N6W6`6i6n6s6|6
-6$6(606H6X6\6`6d6h6l6t6
-6$6(606H6X6\6l6p6t6|6
-6$6,646<6D6L6T6`6
 6$6.6
 6$62686B6J6Q6W6d6r6x6
 6$656=6
 6$6<6L6P6`6d6h6p6
-6$6D6h6t6|6
 6$6H6T6\6|6
 6$6T6]6f6t6}6
-6$7D7p7
 6$868
 6%6+646:6@6D6J6O6\6b6
 6%6,64686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6&7
@@ -1722,8 +1724,7 @@ $tI<unknown>
 6&7+717
 6&757V9e9
 6'7,7A7F7\7f7
-6(6H6P6X6`6l6
-6(6L6l6
+6(646<6\6
 6(6T6Y6
 6(777H7
 6)686t6
@@ -1735,7 +1736,8 @@ $tI<unknown>
 6+606C6
 6+646@6E6J6Q6
 6+7N7[7c7k7
-6,606@6D6H6P6h6x6|6
+6,646@6h6p6|6
+6,6P6\6d6|6
 6,6n6
 6,757>7G7L7Q7X7i7y7
 6-6T6
@@ -1753,7 +1755,6 @@ $tI<unknown>
 637?7V7j7
 637n7
 64696
-646<6D6H6L6T6h6p6
 646X6
 646X6d6l6
 666A6T6X6\6`6d6h6l6p6t6
@@ -1762,7 +1763,6 @@ $tI<unknown>
 676<6A6Q6V6{6
 686D6L6l6
 686i6
-686x6
 697C7I7^7r7
 697D7M7V7]7b7i7
 698D8
@@ -1789,18 +1789,17 @@ $tI<unknown>
 6OB,n_
 6PVhD
 6PVh`k
-6PjMjBh8
+6PjMjBhx
 6QPVh
-6QVh@D
+6QVh`D
 6R7Y7
 6RPVh
 6S6{6
 6S8]8e8s8
 6V7d7
 6Vh4t
+6Vh8J
 6Vh`j
-6X7\7
-6X;\;`;d;h;l;p;t;x;|;
 6Y7b7
 6Y7s7{7
 6Z7p7
@@ -1819,14 +1818,15 @@ $tI<unknown>
 6v=;>J>
 6w6|6
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7 7$7,7D7T7X7h7l7t7
 7 7%7*717u7
-7 7(787@7H7P7X7`7l7
 7 7(797Q7
+7 7(7@7P7T7d7h7l7t7
 7 7,7O7m7
+7 70747D7H7L7T7l7|;
 7 717q7
 7 7=7\7|7
 7 8$84888<8@8D8H8
-7 8,848T8x8
 7 8.8b8s8
 7 8H8l8
 7!7(7.7@7J7
@@ -1839,16 +1839,14 @@ $tI<unknown>
 7"8:8N8Y8h8n8}8
 7#7)70797O7U7\7e7{7
 7#7R7
-7$7(7,747L7\7`7p7t7x7
 7$7(787<7@7D7H7L7P7T7X7\7`7d7h7
 7$7)7.73787=7B7G7L7Q7V7[7`7e7j7o7t7y7~7
 7$7+72797@7G7N7U7\7c7j7q7x7
-7$7,747<7D7L7T7\7d7l7t7|7
-7$7,7L7p7|7
 7$7.7C7H7V7f7s7
 7$777
 7$7r7
 7$979?9L9^9
+7$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;
 7%7*707:7D7N7Z7`7q7v7{7
 7%7.777<7A7H7
 7%727=7K7R7[7b7p7y7
@@ -1864,13 +1862,12 @@ $tI<unknown>
 7'8-858D8I8Z8e8r8
 7'8M8Y8c8o8
 7'8T8
-7(7,747L7\7`7p7t7x7|7
-7(7,7D7T7X7`7x7
+7(7,7<7@7D7H7P7h7l7
+7(7,7<7@7D7H7P7h7x7|7
 7(7-72797
 7(7.767@7
-7(787<7L7P7T7\7t7
-7(7L7X7`7
-7(7L7l7t7|7
+7(787<7L7P7X7p7
+7(;,;0;
 7)767C7N7
 7)7B7P7_7x7
 7)7F7a7o7
@@ -1878,7 +1875,6 @@ $tI<unknown>
 7*959
 7+808N8f8l8
 7,717D7s7
-7,74;X;d;l;
 7,7L7l7
 7,7P7\7d7
 7-7M7
@@ -1888,8 +1884,9 @@ $tI<unknown>
 7/8W8
 7/8i8r8{8
 70503
-70787P7X7d7
-707@7D7T7X7h7l7t7
+70787@7H7P7X7`7h7p7
+707<7D7d7
+707<7\7d7p7
 707K7f7q7
 707a7g7o7}7
 707e7
@@ -1899,18 +1896,22 @@ $tI<unknown>
 737R7_7u8
 737l7~7
 738?8F8W8s8{8
+747<7H7p7
+747T7\7d7l7t7|7
 767E7V7b7i7}7
 768D8
 768E8o8
 768O8V;e;
 778>879
 77:A:
+787L7x7
 788O8u8
 788j8
 798>8O8m8s8x8
 7:8E8o8
 7;8Y8
 7;9y9
+7<7H7P7p7
 7<7`7l7t7
 7>7G7P7Y7^7c7j7
 7>7H7s7
@@ -1931,6 +1932,7 @@ $tI<unknown>
 7M7[7
 7M7u7
 7N7v7
+7P889D9d9p9
 7P8`9d9h9l9p9
 7Q7o7
 7Q8|8
@@ -1952,7 +1954,6 @@ $tI<unknown>
 7_7f7
 7a8q9
 7b7r7{7
-7f%@V
 7f7u7u8
 7f8o8
 7f8u8
@@ -1963,14 +1964,12 @@ $tI<unknown>
 7n?r?
 7x849`9
 7|8f9u9
-8 8$8(8,8084888<8@8D8H8L8
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
 8 8$868E8
 8 8'8.858<8C8J8Q8X8_8f8m8t8{8
-8 8(808<8\8h8
-8 8(8@8P8T8X8`8x8
-8 8,808@8d8p8x8
+8 8(848X8x8
 8 8@8`8
+8 8D8P8X8t8
 8 8V8
 8!8&8+80858:8?8D8I8N8S8X8a8f8k8p8u8z8
 8!8+868@8M8W8`8
@@ -1989,18 +1988,18 @@ $tI<unknown>
 8#8*838:8C8J8S8Z8f8s8z8
 8#8,858:8?8F8
 8#8-838G8f8o8u8|8
-8$8(808H8X8\8l8p8x8
+8$8(8,848L8\8`8h8
 8$8)8.858v8
 8$8)818>8D8K8X8^8e8r8x8
 8$8)8?8x8
 8$8+8l8u8~8
-8$8,848<8D8L8X8x8
+8$8,848<8D8L8T8\8d8l8t8|8
 8$8,848X8\8`8d8h8l8p8t8x8|8
 8$8-888=8B8P8u8~8
 8$84888H8L8P8X8p8
 8$8D8h8t8|8
 8$8E8V8
-8$8H8T8\8|8
+8$8H8T8\8t8
 8%8&9596:E:F;U;V<e<f=u=u>
 8%81878C8I8O8Z8k8z8
 8%8=8N8V8_8w8
@@ -2012,19 +2011,21 @@ $tI<unknown>
 8&9d9y9
 8&:v;
 8'8E8f8
+8(8,8<8@8D8H8P8h8x8|8
+8(8,8<8@8P8T8d8h8p8
 8(828<8E8e8
-8(888<8L8P8X8p8
 8(9B9T9X9\9`9t9x9|9
 8(9|9
 8*8E8`8{8
 8*:I:w:t;
 8+808A8
+8,808@8D8L8d8t8x8
 8,82878E8J8R8_8e8l8y8
-8,8@8H8P8X8\8d8x8
-8,8L8T8\8d8l8t8|8
+8,848<8D8H8L8T8h8t8x8
+8,888@8
+8,888@8X8d8
 8,8M8
 8,949<9L9T9\9d9p9x9
-8,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 8-8B8
 8-9V:
 8.8>8H8R8b8m8
@@ -2034,16 +2035,14 @@ $tI<unknown>
 8.usSP
 8/8C8T8h8
 8/9:9
-80888@8H8P8X8`8l8
-808@8D8T8X8\8d8|8
 808D8]8
 809w9
-80<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 80e0o0u0
 828q8
 82u	@
 838X8_8x8
 83:l:
+848X8d8l8
 849e9|9
 849p9
 858:8?8F8_8f8
@@ -2053,6 +2052,7 @@ $tI<unknown>
 869E9o9~9V:e:
 869I:V:
 879@9	:*:
+888D8L8l8
 889F9L:e:
 898K8Y8
 8996:E:s:x:
@@ -2063,7 +2063,7 @@ $tI<unknown>
 8;:h:
 8;s\u
 8<8B8
-8<8H8p8|8
+8<8H8h8p8x8
 8<9F9Z9e9y9
 8=8R8c8k8s8{8
 8>9s9!:^:
@@ -2075,7 +2075,7 @@ $tI<unknown>
 8C8h8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8E$u h
+8E$u h<>
 8E8f8
 8E9P9v9
 8E:U:
@@ -2141,16 +2141,18 @@ $tI<unknown>
 8x9o:
 8z9E;O;f;u;
 9 9$9(9,9094989<9@9D9H9L9l9p9
-9 9$94989@9X9h9l9t9
+9 9$9(9l<p<t<x<|<
 9 9$9L9
 9 9%9*9/94999>9C9H9M9R9W9\9a9f9k9p9u9z9
 9 9(9.959?9F9L9S9]9d9j9q9{9
+9 9(90989@9H9T9x9
 9 9(959Q9
+9 9(9@9P9T9d9h9l9t9
+9 9(9@9P9T9d9h9x9|9
 9 939?9Y9v9
-9 989H9L9\9`9d9l9
-9 9@9\9`9h9p9x9|9
 9 9N9
-9 :(:L:`:h:
+9 :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:T;X;\;`;d;h;l;p;t;x;|;
+9 :,:4:T:x:
 9 u	A
 9!9&9+90959:9?9D9I9N9S9X9]9b9g9l9
 9!9(90959B9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
@@ -2165,15 +2167,13 @@ $tI<unknown>
 9"989i9o9w9
 9"9d9m9v9
 9#:(:5:
-9$9(9,949L9\9`9p9t9x9
-9$9(989<9@9D9L9d9t9x9
-9$9(989<9@9H9`9p9t9
 9$9,949<9D9L9T9\9d9l9t9|9
+9$9,989X9`9l9
 9$9,9L9p9|9
 9$9.9
 9$9.979U9[9a9
-9$9D9P9t9
-9$9H9T9\9|9
+9$9<9L9P9`9d9t9x9
+9$9D9L9X9x9
 9$:8;
 9$:P:|:
 9%969
@@ -2189,10 +2189,10 @@ $tI<unknown>
 9':,:A:F:\:f:
 9':H:
 9(9-929?9z9
+9(90989@9H9T9t9|9
 9(919
-9(949<9\9
 9(979P9^9m9
-9(9H9P9\9
+9(9L9X9`9
 9(9^9
 9(:4:
 9(:\:
@@ -2202,9 +2202,9 @@ $tI<unknown>
 9+:H:
 9+:J:n:
 9,9094989<9
-9,949<9D9L9T9\9d9l9t9|9
+9,90949<9T9d9h9x9|9
 9,959>9G9L9Q9_9
-9,9P9\9d9
+9,9L9T9\9|9
 9,:4:V:
 9,:5:>:G:L:Q:^:
 9-9=9N9V9^9
@@ -2212,7 +2212,7 @@ $tI<unknown>
 9.:7:@:I:N:S:^:}:
 9/:5:=:K:a:
 9/:l:
-909<9\9d9l9x9
+909@9D9T9X9`9x9
 90?0I0S0^0d0p0w0
 90t$A
 91989O9t9{9
@@ -2224,7 +2224,6 @@ $tI<unknown>
 939G9f9k9u9
 939u9
 949:9R9
-949@9h9t9
 94:^:
 959A9N9^9g9p9u9z9
 95:_:f:
@@ -2237,14 +2236,17 @@ $tI<unknown>
 97:M:R:k:
 989<9@9D9H9g9{9
 989<9P9T9X9\9`9d9h9l9p9t9x9|9
-989\9h9p9
+989D9L9l9
 989p9
 9;9^9
 9;9f9
+9<9`9l9t9
 9<:@:D:H:L:P:T:X:\:
 9=:[:n:w:
 9>9Z9
+9@9L9T9t9
 9C,~e3
+9D9H9h9
 9D9K9p9
 9E9N9W9`9e9j9{9
 9E:Y:
@@ -2339,12 +2341,13 @@ $tI<unknown>
 9~d~9
 9~t~9
 : :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
 : :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+: :$:(:,:0:4:8:<:@:D:H:X:\:t:x:|:
 : :':.:?:N:U:\:m:|:
 : :(:5:=:F:K:o:w:
-: :0:4:8:<:@:H:`:p:t:
-: :@:d:p:x:
+: :(:<:\:d:p:
+: :0:4:8:@:X:h:l:|:
+: :8:H:L:\:`:p:t:x:|:
 : ;$;(;,;0;4;8;<;@;D;H;L;P;h;z;
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
@@ -2365,9 +2368,11 @@ $tI<unknown>
 :#;N<h<
 :$:+:2:9:L:
 :$:,:4:<:D:L:T:\:d:l:t:|:
-:$:D:L:X:x:
+:$:,:4:@:`:l:
+:$:4:8:H:L:P:X:p:
+:$:4:8:H:L:T:l:|:
 :$:F:Q:^:g:s:x:
-:$:H:h:p:x:
+:$:H:T:\:|:
 :$;D;
 :$;Q;
 :$;\;
@@ -2389,13 +2394,12 @@ $tI<unknown>
 :&;p;};
 :';;;J;(<@<n<
 :';m;
-:(:,:<:@:D:L:d:t:x:
-:(:,:D:H:L:P:T:X:\:`:d:h:l:0;4;8;<;@;D;H;L;
 :(:/:6:=:B:J:R:Z:
 :(:4:A:R:[:g:l:q:
 :(:@:Q:Y:b:z:
-:(:L:l:t:|:
+:(:H:P:X:`:l:
 :(:V:\:f:p:{:
+:(;,;0;4;8;
 :(;@;t;
 :(;X;
 :(;Z;
@@ -2406,9 +2410,8 @@ $tI<unknown>
 :*:O:i:
 :*;?;U;
 :,:2:8:
-:,:<:@:P:T:X:\:d:|:
-:,:<:@:P:T:\:t:
-:,:P:\:d:
+:,:8:@:
+:,:<:h:p:
 :,:Q:m:~:
 :,;2;M;j;r;z;
 :,;5;>;G;L;Q;^;
@@ -2422,11 +2425,11 @@ $tI<unknown>
 :/:H:t:y:
 :/:f:
 :/;f;t;
-:0:<:D:d:
+:0:4:D:H:L:T:l:|:
 :0:=:N:V:
-:0:@:D:H:P:h:x:|:
 :0:B:K:T:]:b:g:n:
 :0:L:
+:0:T:`:h:
 :0:X:
 :0;>;R;f;
 :1:7:@:G:L:`:
@@ -2434,14 +2437,12 @@ $tI<unknown>
 :1:C:U:g:t:
 :2;y=
 :2<Z<
-:4:X:d:l:
 :4;F;j;
 :4;\;
 :6;E;
 :6;E; </<=<
 :6;E;o;
 :8:?:X:]:y:
-:8:h:p:x:
 :9:B:K:T:Y:^:e:
 :9;G;L;W;j;s;
 :9;c;
@@ -2449,6 +2450,7 @@ $tI<unknown>
 :>:Y:x:
 :?;L;T;a;i;
 :?;U;
+:@:L:T:t:
 :@;F;F=X=
 :@;O;T;
 :A;T;\;h;w;
@@ -2499,6 +2501,7 @@ $tI<unknown>
 :f;&<
 :f;x;
 :h:p:}:
+:h;l;p;t;x;|;
 :l;W=y=
 :n;J<
 :n;y;
@@ -2510,18 +2513,14 @@ $tI<unknown>
 :};E<
 ;	<0<4<8<<<@<8=
 ; ;$;(;,;0;4;
-; ;$;(;,;0;4;8;<;@;D;H;L;P;
 ; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;
 ; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-; ;$;(;,;4;L;P;h;x;|;
 ; ;$;(;G;[;j;H<`<
-; ;$;,;D;H;`;p;t;
-; ;$;,;D;T;X;h;l;p;x;
-; ;(;H;l;x;
-; ;,;L;T;\;d;l;t;
+; ;(;0;8;@;H;P;X;`;h;t;
+; ;(;0;<;\;
+; ;(;4;T;`;
 ; ;-;
-; ;0;4;<;T;d;h;x;|;
-; ;8;<;T;d;h;|;
+; ;@;H;P;X;d;
 ; <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<v<
 ; <X<x<
 ; expected 
@@ -2541,8 +2540,7 @@ $tI<unknown>
 ;#;4;E;V;l;};
 ;#;<;F;T;^;g;s;|;
 ;#<q<
-;$;,;8;X;`;l;
-;$;0;P;X;`;h;t;
+;$;(;,;4;L;\;`;p;t;|;
 ;$;1;A;F;K;P;U;Z;_;d;i;n;s;x;};
 ;$;8;Q;[;i;r;
 ;$;H;T;\;|;
@@ -2557,16 +2555,22 @@ $tI<unknown>
 ;';1;I;Y;`;g;
 ;';2;
 ;(;,;0;4;8;<;@;D;H;L;l;p;|;
+;(;0;8;D;d;l;t;
+;(;4;<;\;
 ;(<x<
 ;);5;
 ;)=5=
 ;*<H<L<|=
 ;+;@;I;R;[;`;e;z;
 ;+<\<
+;,;0;8;P;`;d;l;
+;,;0;D;H;X;\;`;d;h;l;t;
+;,;4;<;D;L;T;\;d;l;x;
+;,;<;@;P;T;X;`;x;|;
 ;,;=;E;b;n;s;x;
 ;,;G;
+;,;P;\;d;
 ;,;P;x;
-;,<0<4<
 ;,<2<
 ;,<6<
 ;,<l<
@@ -2580,11 +2584,10 @@ $tI<unknown>
 ;3;x;
 ;3t"W
 ;3u3;
+;4;D;H;X;\;`;d;l;
 ;4;F;L;S;p;x;
 ;4;P;T;X;\;f;
-;4;X;d;l;
 ;4;e;k;s;
-;4<8<<<D<H<L<P<T<X<\<`<d<h<l<p<t<
 ;4<C<L<
 ;4<E<V<z<
 ;4<L<Q=]=
@@ -2595,8 +2598,8 @@ $tI<unknown>
 ;6<H<
 ;7;E;T;m;{;
 ;8;D;L;l;
-;8;D;d;l;t;|;
 ;8;L;k;q;
+;8;\;h;p;
 ;8<F<V<\<
 ;8?<?
 ;9<(=|=
@@ -2604,9 +2607,7 @@ $tI<unknown>
 ;:<B<*=
 ;:<w<
 ;;<F<
-;<;D;L;X;x;
 ;<;M;\;h;p;w;
-;<;`;l;t;
 ;?<D<Y<^<t<~<:=K=
 ;@<L<v=
 ;@<p<
@@ -2630,7 +2631,6 @@ $tI<unknown>
 ;H;i;
 ;H<W<h<
 ;H<ufh#
-;L;T;\;d;l;t;,<4<<<L<p<|<
 ;L<a>k>5???_?i?
 ;M;[;
 ;O u1
@@ -2662,18 +2662,19 @@ $tI<unknown>
 ;j;s;
 ;k;y;
 ;k<|<
+;t<|<
 ;w<}<
 ;{4tF
 ;|3 v0
 ;~ ~Bh
 <	=1>n>
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <$<(<,<0<4<8<F<U<
 < <$<(<,<L<P<`<d<h<l<p<t<x<|<
-< <0<4<8<@<X<h<l<|<
-< <8<H<L<T<l<p<
-< <D<P<X<x<
+< <$<T<X<\<`<d<h<l<p<t<x<|<
+< <(<@<P<T<d<h<l<t<
+< <,<L<T<\<d<l<t<|<
+< <@<d<p<x<
 < =d=
 <!<&<+<0<5<:<?<D<I<N<S<X<a<f<k<p<u<z<
 <!<&<-<3<=<G<a<f<k<p<u<z<
@@ -2689,9 +2690,9 @@ $tI<unknown>
 <#<*<><L<W<]<u<
 <#<8<
 <$<(<,<4<L<\<`<p<t<x<
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<$<,<4<<<D<L<X<x<
-<$<D<h<t<|<
+<$<(<@<P<T<X<`<x<
+<$<,<8<X<d<
+<$<D<P<x<
 <$<^<
 <$=+=7=A=_=f=r=|=
 <$=D=
@@ -2709,8 +2710,8 @@ $tI<unknown>
 <'<:<
 <'<H<X<`<h<t<|<
 <'=f=t=
-<(<0<P<t<
 <(<3<9<J<d<i<t<
+<(<8<<<L<P<T<\<t<
 <(=7=H=
 <)<0<9<@<N<W<`<i<v<
 <)<3<L<f<n<
@@ -2719,7 +2720,7 @@ $tI<unknown>
 <*>??
 <*J=)
 <+<?<^<j<
-<,<<<@<P<T<d<h<p<
+<,<0<@<D<H<L<T<l<|<
 <,<=<
 <,<=<N<j<o<v<
 <,<P<\<d<
@@ -2732,20 +2733,22 @@ $tI<unknown>
 </<T<
 <0:08
 <0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-<0<8<D<l<t<|<
 <0<8<T<f<l<s<
+<0<<<D<d<
 <1<|<
 <1=7=?=R=x=
 <1?@?y?
-<1@1D1H1L1P1T1`1d1h1h3l3p3
 <2<F<P<
 <3<_<e<|<
 <3=Z>=?
-<4<D<H<X<\<`<h<
+<4<@<H<h<
+<4<T<\<d<l<t<|<
+<4<X<d<l<
 <4=B=
 <6<C<T<c<
 <6=E=o=
 <7<v<
+<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 <8<><F<T<j<
 <9~Y<etU<EtQ<+tM<-tI
 <:<f<
@@ -2756,9 +2759,7 @@ $tI<unknown>
 <;<C<T<e<t<z<
 <;<L<
 <;=F=Q>j>&?5?f?v?
-<<<D<P<p<x<
 <<<U<
-<<<`<l<t<
 <<<l<
 <<=E=N=W=\=a=h=
 <<=V=m=
@@ -2808,13 +2809,13 @@ $tI<unknown>
 <`?r?
 <b<f<u<y<
 <b=o=
-<d<h<l<p<t<x<|<
 <d=h=l=p=
 <f=u=
 <f=x=
 <f>x>A?G?
 <h=}=
 <hidden>
+<l<p<t<
 <l=v=
 <m<)=2=r=
 <name
@@ -2822,20 +2823,24 @@ $tI<unknown>
 <parse error>
 <r>v>
 <redirected>
+<t<x<|<
 <uninitialized>
 =	>)>P>p?
 =	>*>
 = =$=(=,=0=4=8=
+= =$=(=,=0=4=8=<=
 = =$=(=,=0=4=8=<=@=D=H=L=P=
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=
 = =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+= =$=(=,=0=8=P=T=l=|=
 = =$=(=,=0=a?
 = =%=*=/=4=9=>=C=H=M=R=W=\=a=f=k=p=u=z=
 = =&=.=8=C=I=Q=[=
+= =(=0=8=@=L=l=t=|=
+= =(=0=8=D=d=l=t=|=
+= =(=4=T=\=h=
+= =(=H=l=x=
 = =)=2=7=<=C=
-= =0=4=D=H=P=h=x=|=
-= =@=H=P=\=
-= >,>4>T>x>
+= =0=4=8=@=X=h=l=|=
 = >0>G>W>]>m>s>
 =!=.=3=;=B=H=O=Y=c=q=v=|=
 =!=1=A=Q=a=q=
@@ -2851,16 +2856,13 @@ $tI<unknown>
 =#=(=-=2=7=<=A=F=K=P=U=Z=_=d=i=n=s=x=
 =#=.=H=Q=`=q=y=
 =#>,>?>H?
-=$=,=4=@=`=h=t=
-=$=,=4=@=d=
-=$=,=L=p=|=
-=$=0=8=X=|=
+=$=(=8=<=@=H=`=p=t=
+=$=0=P=\=
+=$=4=8=H=L=P=T=X=\=d=|=
 =$=4=:=X=l=r=
 =$=5=A=M=S=Y=
 =$=9=>=T=^=
-=$=<=L=P=X=p=
-=$=<=L=P=`=d=h=p=
-=$=D=h=t=|=
+=$=D=P=
 =$=H=T=\=|=
 =$=e=j={=
 =$>)>>>C>Y>c>
@@ -2871,7 +2873,6 @@ $tI<unknown>
 =&>_>
 ='=;=J=(>@>n>
 ='>->5>C>H>Y>
-=(=,=<=@=D=L=d=t=x=
 =(=.=B=a=j=t=
 =(>@>
 =)=.=D=N=
@@ -2879,13 +2880,14 @@ $tI<unknown>
 =*=8=G=`=|=
 =+=K=
 =+>4>=>F>K>P>^>
-=,=<=@=D=H=L=P=T=X=\=`=h=
+=,=4=T=`=
 =,=J=f=
 =,=Y=`=
 =,>L>l>
 =,>`?
 =.>V>c>n>t>z>~>
 =/=9=B=N=W=g=r=|=
+=0=@=D=T=X=\=d=|=
 =0=B=Q=]=q=
 =0=a=g=o=}=
 =0>n>b?
@@ -2908,17 +2910,16 @@ $tI<unknown>
 =6=>=f=u=
 =6=c=
 =6>?>H>Q>V>[>b>
-=8=@=L=p=
-=8=X=`=h=p=x=
+=8=D=L=l=
 =:>J>a>
 =:?t?
 =<=\={=
+=<=`=l=t=
 =<=d=
 =<=p=
 =>>G>K>
 =>>P>
 =?>V>
-=@=T=`=h=
 =@=t=
 =@>q>
 =ABGRu*
@@ -2930,6 +2931,7 @@ $tI<unknown>
 =F=m=r=
 =F>U>
 =Genuu
+=H=L=P=T=
 =H>L>P>T>X>\>`>d>h>l>p>t>x>|>
 =H>T>
 =H>W>h>
@@ -2954,11 +2956,13 @@ $tI<unknown>
 =_=p=
 =`=`>
 =a>n>l?|?
+=ab):c
 =abgrt
 =c>u>
 =f>q>H?S?
 =f>u>
 =h=w=
+=jSh@]
 =p=x=|=
 =q=J?
 =r>x>
@@ -2966,16 +2970,15 @@ $tI<unknown>
 =svuyt
 =x=|=
 >	>&>
-> >$>(>,>0>4>8><>@>D>H>
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>
 > >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
 > >$>(>,>0>4>8><>@>D>H>L>P>T>X>`>d>h>l>p>t>x>|>
 > >$>(>0>H>X>\>l>p>t>x>
-> >(>4>T>\>d>p>
-> >,>P>p>x>
+> >$>(>0>H>X>\>l>p>t>|>
+> >(>4>T>\>d>l>t>|>
 > >->
-> >8>H>L>\>`>d>h>l>p>x>
-> >@>L>l>t>|>
-> ?,?4?T?x?
+> >8>H>L>\>`>d>h>p>
+> >@>H>P>`>h>p>|>
 >!>&><>F>`>
 >!>+>:>K>S>_>i>n>
 >!>1>A>Q>a>q>
@@ -2985,11 +2988,11 @@ $tI<unknown>
 >">+>4>9>>>E>
 >">.>
 >">6>E>[>j>
+>$>(>,>4>L>P>h>x>|>
 >$>)>.>3>8>=>B>G>L>Q>V>[>`>e>j>o>t>y>~>
 >$>,>4><>
->$>,>4><>D>L>T>\>d>l>t>|>
->$>,>L>p>|>
 >$>6><>
+>$>D>h>t>|>
 >$?(?,?0?4?8?<?@?D?H?
 >$?<?A?
 >$?X?
@@ -3005,9 +3008,9 @@ $tI<unknown>
 >'>r>
 >'?0?9?D?I?N?U?
 >'?F?
+>(>,><>@>P>T>X>`>x>
+>(>0>P>t>
 >(>1>6>;>O>
->(>8><>P>T>d>h>p>
->(>H>P>X>\>d>x>
 >(?1?:?C?H?M?T?
 >(?8?
 >(?o?
@@ -3021,11 +3024,7 @@ $tI<unknown>
 >+?C?Z?
 >+?_?
 >+?k?
->,>0>4>8>@>X>h>l>|>
->,>0>4><>T>d>h>x>|>
->,>4><>H>h>p>x>
 >,>5>:>E>R>[>i>r>w>
->,>8>@>`>
 >,>P>
 >,>P>\>d>
 >->G>g>
@@ -3039,6 +3038,8 @@ $tI<unknown>
 >1?H?
 >3?t?
 >4>8><>@>D>H>L>P>T>
+>4><>D>L>T>\>h>
+>4>@>`>h>t>
 >4>K>`>f>l>z>
 >4>M>j>
 >5>;>p>v>{>
@@ -3046,6 +3047,8 @@ $tI<unknown>
 >5?F?
 >6>o>
 >7>l>
+>8>@>H>T>t>|>
+>8>D>d>p>
 >8>M>f>
 >8>d>i>
 >8?G?X?
@@ -3057,6 +3060,7 @@ $tI<unknown>
 >=>T>
 >?>q>v>
 >??D?Y?^?t?~?
+>@>L>T>t>
 >@>v>
 >@?K?s?
 >A?L?
@@ -3093,14 +3097,12 @@ $tI<unknown>
 ? ?$?(???
 ? ?$?(?L?
 ? ?$?4?8?<?@?D?H?L?P?T?t?x?
+? ?$?4?8?@?X?h?l?|?
 ? ?%?U?
-? ?(?@?P?T?d?h?x?|?
-? ?,?L?T?\?d?l?t?|?
 ? ?-?7?@?
 ? ?.?:?C?L?Q?V?b?v?
 ? ?/?6?;?D?I?R?f?n?t?
 ? ?1?9???U?
-? ?8?H?L?\?`?d?h?p?
 ? ?9?M?Y?
 ?!?*?3?8?=?E?[?e?n?z?
 ?"?(?@?M?Z?g?m?r?
@@ -3114,16 +3116,17 @@ $tI<unknown>
 ?#?B?M?n?~?
 ?#?U?`?i?r?
 ?$?(?,?0?4?8?<?@?p?w?
-?$?(?,?0?8?P?`?d?t?x?
 ?$?)?.?3?8?A?Q?[?`?f?p?~?
 ?$?)?8?I?Q?Z?f?w?
 ?$?)?\?b?g?
-?$?,?4?<?D?L?T?\?h?
+?$?,?8?X?`?l?
+?$?,?L?p?|?
+?$?0?8?X?|?
 ?$?5?<?F?W?^?h?y?
 ?$?9?>?
 ?$?9?J?X?c?k?w?
-?$?D?P?t?
 ?$?D?h?t?|?
+?$?H?T?\?|?
 ?$?V?f?y?
 ?%?1?`?j?v?
 ?%?4?;?B?G?N?
@@ -3133,10 +3136,9 @@ $tI<unknown>
 ?&x0O
 ?'1(?
 ?'?1?=?`?l?
-?(?,?<?@?H?`?p?t?
-?(?4?<?\?
 ?(?5?V?r?
-?(?8?<?L?P?T?\?t?
+?(?8?<?L?P?T?X?`?x?
+?(?H?P?X?`?h?t?
 ?(?T?Y?
 ?(?b?
 ?)\o?;
@@ -3144,20 +3146,22 @@ $tI<unknown>
 ?*?9?R?n?
 ?*?D?{?
 ?*?N?
-?,?8?\?|?
+?,?0?@?D?H?P?h?x?|?
+?,?<?@?P?T?d?h?l?p?x?
 ?.?>?C?u?z?
 ?/?<?I?T?
 ?/?D?
+?0?8?@?H?T?t?
 ?0D0Y0^0t0~0
 ?2?^?
 ?333333
 ?4?>?
 ?4?>?G?P?\?
-?4?@?H?h?
+?4?D?H?X?\?`?h?
 ?4?X?d?l?
 ?4?X?d?x?
 ?7?A?G?\?p?
-?8?L?\?d?
+?8?H?T?\?
 ?8?X?
 ?9?L?b?t?
 ?:?C?
@@ -3193,6 +3197,7 @@ $tI<unknown>
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?@?L?l?t?|?
 ?@?`?q?~?
 ?G?^?
 ?H?S?f?x?
@@ -3289,6 +3294,7 @@ $tI<unknown>
 @0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 @0QPj
 @0WPj
+@1D1H1L1P1T1X1\1
 @SVWj
 @VWj?
 @^8U)zj
@@ -3395,7 +3401,6 @@ Batman
 Batt: 
 Bellevue1
 Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
-BjOhh
 Boolean default must be true or false.
 Boot to app
 Bootstrap failed because no IMU data was available%s
@@ -3405,7 +3410,6 @@ Boy/Girl
 Buffer
 BufferView
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C$g+!v&$4
 C(PVjPj
 C0*1l1
 C4;C8
@@ -3563,12 +3567,13 @@ D$$Pj
 D$$WP
 D$$h2
 D$,PS
-D$,Ph
+D$,Ph 
 D$,j@
 D$4U3
 D$@PQ
 D$@SVW3
 D$LVP
+D1H1L1P1T1X1\1h1l1p1p3t3x3
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 DISABLED
@@ -3650,6 +3655,7 @@ Dropped %s during the previous tracking session
 Duplicate basestation serials detected.
 Duplicate key: '
 E(VSP
+E,Ph 1
 E2T2y2
 ECameraHAL_OpenError_ToString
 ERROR
@@ -3751,7 +3757,7 @@ Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
 Eye Displays must be adjacent: left (%d, %d), right (%d, %d)
-F ;FLu9h
+F ;FLu9h8
 F C+F
 F G+F
 F WPj
@@ -3962,7 +3968,7 @@ GOOGLE_ALSOLOGTOSTDERR
 GOOGLE_LOGTOSTDERR
 GOOGLE_LOG_DIR
 GPJMtG
-GWPh<
+GWPh|
 General reset
 Generating hidden area mesh for mode "%d" %s
 GetACP
@@ -4028,8 +4034,6 @@ Gp_^]
 H*0"ZOW
 H0T0]0f0k0p0w0
 H2a2z2
-H3L3P3T3X3\3`3d3h3X7\7`7d7h7l7p7t7x7
-H:L:P:T:X:\:`:
 H;r8|
 H;s$|
 H;s(|
@@ -4281,6 +4285,7 @@ L$,QSUR
 L$<QS
 L$@QVW
 L=333?O
+L=7g	
 L?n(Zy&
 LABEL_OPTIONAL
 LABEL_REPEATED
@@ -4385,7 +4390,6 @@ Multiple basestations locked to same phase. Please confirm TDM cable is plugged 
 MutableRawRepeatedField
 MutableRepeatedMessage
 N(9N0u
-N2PC@
 NJ2"v
 NOTPRESENT
 NRF52
@@ -4437,6 +4441,7 @@ O8j1h
 OH_^[
 OLocalizationManager
 OPAQUE
+OYM*r
 OZw3(?
 Object
 Old Normal: %f %f %f 
@@ -4482,11 +4487,12 @@ P;w<|
 P;~@|
 PAq=?Mp#
 PG;{@|
-PH90trj@h`M
-PH90trjMh`M
+PH90trj@h
+PH90trjMh
 PLACEHOLDER_VALUE
 PLAY-
 PQSVW
+PQh($
 PQhP|
 PQj!f
 PRISM_AcquireDisplay
@@ -4516,7 +4522,6 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PRQhh=
 PRVQh
 PSSSj
 P`]s 
@@ -4539,7 +4544,7 @@ PeripheralApplication
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-PjCh@Y
+PjChhY
 Primitive
 Pro Audio
 PropVariantClear
@@ -4560,7 +4565,6 @@ R(_^]
 R1h58
 R8F;u
 RENDERDOC_GetAPI
-RHhPN
 RPCRT4.dll
 RPj#hPz
 Radio
@@ -4648,16 +4652,15 @@ SVW9U
 SVW;E
 SVW;M
 SVWPj
+SVWh4
 SVWhX
-SVWh|
 SVWj0j
 SVWj8
 SVWj<
 SVWj=
 SVWjA
 SVWtN
-SVh|A
-SVj%hP
+SVj%h
 SWSRP
 Samples didn't yield successful bootstrap pose
 Saved LighthouseDB rev %u to %s
@@ -4768,7 +4771,7 @@ Sys Temp:
 Sys clk: 
 T$ RQ
 T$(RW
-T$,Rh
+T$,Rh 
 T$@RP
 T$LVR
 T3,9U
@@ -4795,6 +4798,7 @@ TYPE_SINT64
 TYPE_STRING
 TYPE_UINT32
 TYPE_UINT64
+TaqOdS
 Target fw version: 
 Task Suspended
 TdhEnumerateManifestProviderEvents
@@ -5285,7 +5289,6 @@ WideCharToMultiByte
 Win 10
 WinRT
 WriteFile
-X0\0`0d0h0l0p0t0x0|0
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -5302,6 +5305,7 @@ Z* ,
 \%03o
 \U%08x
 \mfpmp.exe
+\t%h<
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -5417,7 +5421,7 @@ _wstat64i32
 `.rdata
 `0_dL
 `0_tL
-`SVWj%hP
+`SVWj%h
 ``````````````````````````````````````````````````````````````````````````````````````````````````
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
@@ -5436,7 +5440,6 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-`}@&m
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
 abort
 acc_bias
@@ -5575,15 +5578,15 @@ byteLength
 byteOffset
 byteStride
 bytes
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\stereo_setup.cpp
 cAMDt
 cU	F9
 cal_method
@@ -5627,7 +5630,6 @@ count
 cs_cs
 ctype
 czech
-d;h;l;p;t;x;
 dSVWj
 da_da
 danish
@@ -5708,6 +5710,7 @@ dxgi.dll
 dynamic_state
 dynamic_state_json
 dynamic_states
+d{}Tf
 eCapture
 eCommunications
 eConsole
@@ -5760,6 +5763,7 @@ f9l$@tU
 f;A*stSW
 f;F@_^
 f;w@s\
+fOg}>
 failIfExtra
 failed
 failed to send to device
@@ -6008,21 +6012,21 @@ isdigit
 isspace
 it_it
 italian
-j h`K
+j	h Y
+j	h<Y
+j	hPY
 j j j
 j!j!hA
-j#hT;
-j,hX2
+j,hx2
 j1j1ha	
-j2h4&
+j2ht&
 j;Qj;P
 j?Pj&
 j?Pj2
 j@j P
-jDhP.
-jEhh&
+jDhp.
 jFh0b
-jVhTR
+jNh )
 ja_jp
 japanese
 java_generate_equals_and_hash
@@ -6045,9 +6049,6 @@ jdj@Pj
 jdj@Pj 
 jj@0HK4
 joints
-jphTR
-j{hh&
-j}hTR
 k0i0$
 kcizf
 kernel32
@@ -6059,6 +6060,7 @@ knuckles_ev1
 ko_ko
 korean
 l!;b	F
+l1p1t1x1|1
 l2p2t2x2|2
 l6qnk
 l?Nb0?
@@ -6204,7 +6206,6 @@ output
 output buffer limit
 output_path
 output_type
-p7t7x7|7
 pNewResource
 pNewResource->Load( absFilePath )
 pO Df
@@ -6309,7 +6310,6 @@ rotating at
 rotation
 roughnessFactor
 roundf
-rt&^R
 ru_ru
 runtime
 russian
@@ -6318,9 +6318,9 @@ s$;s(t
 s$;s(t"
 s$;s(t3
 s(+CD
-s(h@-
-s/mBnL
+s(h`-
 s4;s8
+sDh8<
 sX;s\t]
 sample_angle_estimate
 sampler
@@ -6423,11 +6423,11 @@ t$,RW
 t$j$h
 t&Vj4
 t&jHj
-t'jvh8)
+t'jvhX)
 t(VPRQ
-t-hL"
 t.jdj
 t/Vj4
+t/h$~
 t0VWf
 t0f=/
 t2jHj
@@ -6436,17 +6436,16 @@ t5j=h
 t9f=/
 t;Pj@
 t;f=/
-t=j?hh&
-t?jAhh&
+t=j?h
+t?jAh
 t@;1u1
 tA;9u2
 tB;9u3
 tE<	u
 tEF;w8|
-tEj&hl
+tEj&h
 tIPj@
 tJ_^2
-tKh`"
 tNF;u
 tP<	u
 tRNS after IDAT
@@ -6522,18 +6521,19 @@ u	j0h
 u	j0hTu
 u	j1htv
 u ;0t.
-u!ht6
+u#h<Y
 u$WVS
 u(_^2
 u(_^[
+u*ShT
 u,PVj
 u.PPPP
-u.hh&
-u1hh&
+u3h$~
 u4hl	
 u4hv#
 u4hx	
-u5jdh
+u5jdh j
+u9Vh(<
 u;9|$
 u<Vj0
 u<f9C u6f9C0u0f9C@u*f9CPu$
@@ -6546,6 +6546,7 @@ uCVj@
 uDj^h
 uEVj@
 uFj9h
+uGh(6
 uKb!?6mH
 uKj@P
 uWj&h
@@ -6584,13 +6585,12 @@ usedisambiguation
 userdata
 uvVj@
 uwhId
-uwj	h,
-uwj	h8
-uwj	hD
+uwj	h
+uwj	hl
+uwj	hx
 v	N+D$
 v	_^2
-v hxa
-v&hD(
+v&hd(
 v(hId
 v071K2x2
 v0PRV
@@ -6657,13 +6657,12 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 xRjdj@
-y!Phh;
-y%PWhX?
-y/Ph(C
-y/Ph8B
+y%PWhx?
+y/PhHC
+y/PhXB
 y112t2x2|2
-y1j\h
-y3jVh
+y1j\h@]
+y3jVh@]
 y4+A0
 yxxx+
 z?X9T?
@@ -6703,7 +6702,7 @@ znear
 |$$PW
 |Lu?c
 |cj#h
-}	jCh 
+}	jCh`
 }/lighthouse_scale.json
 }0N1j1
 }LuHO
@@ -6714,7 +6713,7 @@ znear
 ~(_^[
 ~,uMW
 ~3j?h
-~3jUh
+~3jUh@]
 ~6VVS
 ~@#rn
 ~AVVW

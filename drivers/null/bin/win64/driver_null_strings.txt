@@ -1,10 +1,10 @@
 	!s99
+	k$b#
  %41g
  A__^
  H3E H3E
 !hn7!
-"JHV] 
-%x%.q
+&A]12u
 ',=?k
 (f*^[0
 +Xt@(
@@ -81,7 +81,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230317215602Z0/
+230323041541Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -117,6 +117,7 @@
 AuthD
 Bellevue1
 CT$0H
+D,4Yz
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -125,6 +126,7 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
+EovI\
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -132,7 +134,6 @@ H SWH
 H93t	H
 H9=*R
 HmdDriverFactory
-H{4j8
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -220,7 +221,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 cU	F9
 displayFrequency
 driver_null
@@ -232,6 +233,8 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+e`1B5
+gPk( 
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -249,6 +252,7 @@ modelNumber
 ntelD
 renderHeight
 renderWidth
+rsve$
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -258,16 +262,17 @@ t$ UWAVH
 t$@H=
 v=Y]Bv
 vector<T> too long
-wN2:sU&_
 windowHeight
 windowWidth
 windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+{Gtk7E
 {un'%
 |$ AVH
 |Lu?c
+};dnbO
 }LuHO
 ~qj#k"
 ~t&LN

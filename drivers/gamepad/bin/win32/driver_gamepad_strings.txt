@@ -60,7 +60,6 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-.|aDBf$
 /input/a/click
 /input/b/click
 /input/back/click
@@ -104,12 +103,13 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230317215434Z0/
+230323041051Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3$3H3T3\3|3
 311109235959Z0b1
 324C4
 331121235959Z0F1
@@ -118,18 +118,17 @@
 370322235959Z0c1
 380115120000Z0b1
 383P3l3
-3@3L3T3t3
 3J3Y3h3
 3f3w3
 3mq+<
 4 4$4(4,404
-4$4H4T4\4|4
+4,4P4\4d4
 4I4R4c4o4{4
 4[4~4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5	6D6Y6b6n6
 5+545?5F5f5l5r5x5~5
-5,5P5\5d5
+545X5d5l5
 585E5O5Y5f5s5y5
 5FjiT
 5Genu
@@ -139,14 +138,14 @@
 6!6*646=6K6T6]6f6s6
 6!616:6I6O6U6[6a6g6m6s6y6
 6*f(_
-646X6d6l6
+6<6`6l6t6
 6D6Z6
 6I]Dc
 6OB,n_
+7 7@7`7|7
 7!7'7-73797?7E7K7Q7a7q7
 7/8X8g8z8
 70503
-787X7t7x7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8!8<8R8[8`8j8t8~8
 8%80868<8C8
@@ -188,6 +187,7 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+A'!/G
 Bellevue1
 CloseHandle
 CreateEventW
@@ -244,7 +244,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS_
+RSDS@qg
 RaiseException
 S0Q0O
 SA|X=G
@@ -283,10 +283,10 @@ TlsFree
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
+VFG)=;Ac
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W<4MEK
 WakeAllConditionVariable
 Washington1
 Y9"SD
@@ -338,10 +338,9 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 cU	F9
 driver_gamepad.dll
-e W0Zn
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -349,13 +348,13 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-m0I~A
 m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
+rE*eg
 string too long
 terminate
 uCVj@
@@ -363,8 +362,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-ydT3dGijZx|05
-{7r}0
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

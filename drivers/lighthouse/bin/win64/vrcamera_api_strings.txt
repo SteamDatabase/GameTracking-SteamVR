@@ -35,7 +35,6 @@
  sIE3
 !T$(H!T$ 
 !hn7!
-#'GpGMx
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -349,7 +348,6 @@ $< t6<$t,<+t"<vt
 .tls$ZZZ
 .xdata
 .xdata$x
-.|'&z
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -380,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 220921000000Z
-230317215116Z0/
+230323041255Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -393,7 +391,6 @@ $< t6<$t,<+t"<vt
 380115120000Z0b1
 3A8A#
 3mq+<
-3|Z@pV
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -455,6 +452,7 @@ $< t6<$t,<+t"<vt
 <xu<D
 <}wYI
 =rIQU
+>,qf 
 >0<0:
 >Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -636,6 +634,7 @@ A;6}#I
 A;H$I
 A;H$s
 A;J$vdH
+A=#M1
 AH;BHu"
 AH;BHu)
 AH;BHu,
@@ -932,7 +931,6 @@ G$;G,
 G(9G u
 G,9G$u
 G0LcGDI
-G8 GH9
 G89D$0u
 G8HcODI
 Get ASIC register value failed
@@ -1007,6 +1005,7 @@ H;@0u
 H;@Xu
 H;A0s
 H;D$pr
+H;S@|o~~	
 H;\$8
 H;\$H
 H;_Xt
@@ -1083,7 +1082,6 @@ L;L$(t
 L?n(Zy&
 LCMapStringEx
 LCMapStringW
-LO-B"
 LcCP3
 LcGDI
 LcGP3
@@ -1127,7 +1125,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSf
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1244,7 +1241,6 @@ Verify failed at 0x%X/0x%X Bytes
 VirtualAlloc
 VirtualFree
 VirtualProtect
-V{{6N/
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1267,6 +1263,7 @@ Y$D;R
 Y0t>H
 Y9"SD
 Z(D9Z
+[%Y8~
 [@D8}oteH
 [K]taM?
 \$ UH
@@ -1290,6 +1287,7 @@ Z(D9Z
 \$pE3
 ]J<0"0i3
 ]`u7H
+^eiIO
 _(H9n
 _CxxThrowException
 _Getdays
@@ -1351,6 +1349,8 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
+a-!^(l
+aBWbn
 abort
 address family not supported
 address in use
@@ -1382,7 +1382,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 cU	F9
 calloc
 cntrl
@@ -1404,7 +1404,6 @@ digit
 directory not empty
 e0A^A]A\_^[]
 e@A_A^]
-eK[bOJ
 eventObject
 executable format error
 f	n@H
@@ -1445,6 +1444,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i"]lJ
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1494,6 +1494,7 @@ localeconv
 lower
 lstrcmpW
 m0k0$
+m<#!tD
 malloc
 memchr
 memcmp
@@ -1652,12 +1653,12 @@ u!!D$(H
 u%!D$@H
 u&8_rt
 u)!t$(H
-u+G>Jt
 u2A8D
 uJL9J,u
 uY8\$ t
 ueA8F
 ug8Y$t
+uj5=n
 ujL9J
 ungetc
 ungetwc
@@ -1681,7 +1682,6 @@ wcstoul
 wrong protocol type
 www.digicert.com1!0
 www.digicert.com1$0"
-w{6qj
 x ATAVAWH
 x AVAWL
 x AVE3

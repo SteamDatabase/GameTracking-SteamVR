@@ -65,7 +65,6 @@
  t;A;
  times.
  version-number:
-!F6~B
 !hn7!
 %%.%dg
 %4.4X:%4.4X
@@ -112,7 +111,6 @@
 )D$`H
 )D$p3
 )D$pH
-)Dw|^~
 )t$@H
 )t$`H
 )t$pA
@@ -634,7 +632,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230317215530Z0/
+230323041500Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -668,7 +666,6 @@
 8EC90003F3154F609FB8838830DAEA50
 8]8vPH
 8_^][
-8x[")
 9C }&L
 9C }(H
 9\$Pt
@@ -897,6 +894,7 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
+B<&&3Z
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1240,7 +1238,6 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
-Fp,Fa
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1336,6 +1333,7 @@ IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JqdN3Fx y
 KERNEL32.dll
 K}*n:	
 L$ H+
@@ -1519,7 +1517,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSu9j
+RSDSzH
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1739,8 +1737,6 @@ XA^_][H
 XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
-X`R~o
-XvBR4m-
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1779,6 +1775,7 @@ Zipfile is corrupt or not a zipfile
 \Device Parameters
 \u=H;
 ]J<0"0i3
+]P)Z(Wl_9
 ]gfff
 ^[0-9]+$
 _Cnd_broadcast
@@ -1845,6 +1842,7 @@ _strupr_s
 `.rdata
 `A_A^A\_^
 `A_A^_^]
+a-hS}
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1870,7 +1868,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 cU	F9
 calloc
 close
@@ -1889,10 +1887,10 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 fD9$xu
 fD9+u
 fE9&t2H
+fXm[gz`
 false
 file error
 floor
-gMR28k
 generic
 gfffffffD
 gfffffffH
@@ -1939,7 +1937,6 @@ ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
-j{O 5B
 k0i0$
 l$ H=
 l$ VAVAWH
@@ -1958,6 +1955,7 @@ l$XE3
 l$pM+
 l$pM;
 l$xfD
+l3G,;w
 list<T> too long
 lower
 m0k0$
@@ -2181,7 +2179,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-yBR:g
 {un'%
 {x\u!H
 {|?uWH

@@ -2987,7 +2987,6 @@ $wtpt
 ,0<6w/H
 ,1<5w
 ,3fZQ%
-,6-mx>
 ,9,n,
 ,:<>wmH
 ,:njk
@@ -3718,7 +3717,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-230317215146Z0/
+230323041301Z0/
 230x323
 2384x3370
 24 24
@@ -3743,6 +3742,7 @@ $wtpt
 2H;C(H
 2H;G(L
 2I`Jb"cH
+2UoZl
 2aKCx
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -3892,7 +3892,6 @@ $wtpt
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5r?lt
-6#dDiZ
 6*f(_
 6,C(@C4
 6-Rj7
@@ -3946,7 +3945,6 @@ $wtpt
 7P.F!
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7v,=p
-7y}vPa'
 8't#H
 8*** BUG ***
 8+{3(y6,p4)v=1
@@ -4962,6 +4960,7 @@ $wtpt
 @n1rS
 @system:memory-map
 @x?"px?b
+@zqj+\
 A	G,fA
 A @8(u
 A @80
@@ -7450,7 +7449,6 @@ Egy h?tlen vej
 Egyptian_Hieroglyphs
 Eh0123
 EhH;|$x
-EiozQ
 Ek kan glas eet, maar dit doen my nie skade nie.
 El4567H
 El9|$`
@@ -9399,6 +9397,7 @@ KOI8-RU
 KPA(Q
 KPA+JP
 KS$x8
+KTT0_
 KVP List
 KXN9%
 KX|GhbRibRkcSibRibRjbSkbSlcTlcTkbRe]S
@@ -11751,10 +11750,12 @@ ROI Physical Property Value
 ROI Standard Deviation
 ROI Top Left
 ROI Volume
+ROINq_
 ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS%
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14271,7 +14272,6 @@ Zoom Center
 Zoom Enable Status
 Zoom Factor
 Zoom Select Status
-Zp](4
 [ /Indexed /%s %.20g %.20g 0 R ]
 [ /PDF /Text /ImageB
 [ /PDF /Text /ImageC
@@ -15013,7 +15013,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -15620,7 +15620,6 @@ d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
-d\F14
 d_7y3B
 dagger
 daggerdbl
@@ -18216,7 +18215,6 @@ pO[D23-34-53.961961:2.80-3.,300-.0/(/1)./*,1.*10*01./004/+;1+A5,C8/A90=5-;0/<1/E
 pPH9XXu
 pSZG<@301(-)'2,+2,+0,*0-+0/+2*10)(eqR
 pV }S
-pXk(,
 p]NCFLC
 p`P@0 
 pa-pk
@@ -19636,7 +19634,6 @@ turquoise2
 turquoise3
 turquoise4
 tvH9v@tp
-tw#?_
 twHcC
 two named subpatterns have the same name
 twosuperior
@@ -20887,7 +20884,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 {?a4{?
 {?o}'
 {?q |?
-{E	Wy
 {Hu,H
 {P@8s
 {`_{P

@@ -16,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-#]ApW
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -159,7 +158,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230317215630Z0/
+230323041604Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -171,13 +170,13 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4Dn:>P?
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
-6}+m.
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -248,7 +247,6 @@
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 @.data
 @.reloc
-@/9!~
 @A^_^
 @A_A^A\
 @A_A^A\_^
@@ -274,7 +272,6 @@
 @UVWATAUAVAWH
 @UVWAVAWH
 @UWAVAWH
-@\*H$
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
@@ -525,7 +522,6 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-I_{ZpE
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitializeConditionVariable
@@ -691,7 +687,6 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-Y&la b
 Y9"SD
 [K]taM?
 \$ E3
@@ -727,6 +722,7 @@ _Thrd_id
 _Thrd_join
 _Thrd_start
 _Xtime_get_ticks
+_Y7h9
 __C_specific_handler
 __CxxFrameHandler3
 __acrt_iob_func
@@ -769,11 +765,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cU	F9
 cs_cs
 czech
@@ -781,6 +777,7 @@ d$`H=
 d$`L;
 d$`M;
 d3d11.dll
+d_H+]
 da_da
 danish
 de_de
@@ -788,7 +785,6 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-eE[(\F
 el_el
 en_us
 english
@@ -872,6 +868,7 @@ r,fff
 request_handlers
 request_handlers_response
 returnAddress
+rg{f/p
 ro_ro
 romanian
 ru_ru

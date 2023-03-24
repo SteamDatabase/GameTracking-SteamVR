@@ -23,6 +23,7 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
++$Uy*
 +Xt@(
 +o'q)}
 , last executing in 
@@ -122,9 +123,9 @@ $9^ t
 /user/waist
 /width
 0 0$0(0,0004080
+0 0$04080<0@0D0L0d0t0x0
 0 width
 0!0%0+050?0F0P0Z0a0k0
-0$0(0,00040<0T0d0h0x0|0
 0&020;0@0F0P0Z0j0z0
 0(070
 0*0:0K0a0x0
@@ -137,9 +138,9 @@ $9^ t
 0}0i1
 1!10161A1Q1a1k1u1
 1!1H1P1i1
+1$1(1<1@1P1T1X1`1x1
 1(161D1R1`1p1
 1)1@1V1b1n1~1
-1,101@1D1H1P1h1x1|1
 1.252
 1/2/4/8/16-bit only
 111a1
@@ -152,7 +153,7 @@ $9^ t
 1Q1U1*2.2_6c6
 1a2q2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$2,2D2T2X2h2l2p2x2
+2 20242<2T2d2h2x2|2
 2!212A2Q2a2q2
 2#2(222C2H2R2c2h2r2
 2#2c2
@@ -165,7 +166,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230317215356Z0/
+230323041024Z0/
 241009235959Z0a1
 262H2O2o283?3
 2>3k3
@@ -177,9 +178,9 @@ $9^ t
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3 3$3(3,3034383<3@3D3H3T34686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+3 3$3(3,343L3\3`3d3h3p3
 3"31393E3V3]3
 3#3(33383B3S3X3b3s3x3
-3$3<3L3P3T3X3`3x3
 3%3,3E3L3e3l3
 3(323B3M3n3~3
 3)3-3:3>3r7v7
@@ -193,11 +194,11 @@ $9^ t
 4 494@4Y4^4c4h4
 4!4U5Y5h5l5m6q6
 4"43484B4Q4V4[4`4e4j4o4t4y4~4
-4$44484H4L4P4T4X4\4`4h4
 4%40464=4
 4%5*5Z5_5u5z5@6y6
 4%5o5s5
 4.4>4H4R4b4m4
+444D4H4X4\4`4d4h4l4p4x4
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
 4D5H5L5P5T5
@@ -205,7 +206,8 @@ $9^ t
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5	7+7
 5 5$5
-5 5$54585<5D5\5l5p5
+5 50545D5H5L5T5l5|5
+5 8$8(8,8084888
 5!5M5c5k5
 5"5,565@5J5T5^5h5
 5"5-5N5^5h5r5
@@ -218,10 +220,9 @@ $9^ t
 5=5C5
 5FjiT
 5Genu
-5L9p9|9
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-6 6$6(6,6064686<6@6D6H6L6P6T6T8X8\8`8d8h8l8
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6d8h8l8p8t8x8|8
 6 7<7F7T7]7
 6#6(626C6H6R6c6h6r6
 6%626@6L6V6^6d6t6z6
@@ -261,7 +262,6 @@ $9^ t
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9 :,:4:T:x:
 9 u	A
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9q9v9{9
 9(929B9M9n9~9
@@ -271,34 +271,34 @@ $9^ t
 98:[:
 9=:W:d:S;
 9B:F:
-9H*z;
 9]:p:
 9_lt\
 :#:-:A:O:T:b:g:q:~:
 :.:8:B:R:]:~:
 :3:9:N:f:l:|:
 :7:`:
+:8:D:L:l:
 :;;L;];u;H<L<
 :T;l;
-:d;h;(<,<0<D<H<L<h<l<
 :g=l=u=?>|>
+:t;x;8<<<@<T<X<\<x<|<
 ;	<P<V<p<
 ; ;$;(;,;0;4;q;|;
 ;";';2;9;>;C;Q;V;a;f;s;};
 ;%<)<8<<<
-;4;@;H;`;t;
+;(;L;X;`;x;
 ;5;x;|;
 ;>;N;X;b;r;};
 ;O<b<
 ;S;`;
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 <!<1<=<I<S<i<x<
 <"<2<=<^<n<x<
+<$<,<D<X<`<h<p<t<x<
 <$<-<1<
 <%<)<t?x?
 <(=/=5=;=A=G=M=S=]=k=
 <*J=)
-<,<@<H<P<X<\<`<h<|<
 <0:08
 <0@0M0Q0
 <5=A=Y=o=x=
@@ -307,18 +307,18 @@ $9^ t
 <I=M=
 <h<n<
 <unknown>
-= =(=0=8=<=D=X=`=h=p=t=x=
 = >8>T>
 =,=P=|=
 =.=8=B=R=]=~=
+=4=8=@=H=P=T=\=p=x=
 =8=e=
 =8>J>P>W>b>o>|>
 =?>U>|>
 =N>R>
 =rIQU
+> >$><>@>P>T>X>\>`>h>
 > >B>Q>Z>g>
 > ?(?-?@?T?Y?l?
->,>0>@>D>H>L>P>X>p>t>
 >0<0:
 >>>N>X>b>r>}>
 >@>V>
@@ -327,10 +327,10 @@ $9^ t
 >L?l?
 >Mp$d
 >m?q?
+? ?(?@?P?T?d?h?x?|?
 ?"?2?=?^?n?x?
 ?%?2?<?B?
 ?)?[?|?
-?0?@?D?T?X?h?l?|?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
 ??Bid@locale@std@@QAEIXZ
@@ -406,7 +406,6 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
-Fs?Q,
 F|t	_^3
 GetCameraHALInterface
 GetCurrentProcess
@@ -475,7 +474,6 @@ NotFound
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
-P1T1X1\1`1d1h1
 P<^_3
 PAq=?Mp#
 PID_%04X
@@ -577,18 +575,16 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
-XO)2{
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
-[G7Q{4I
 [K]taM?
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
-]}\}gRP2
+_#KJ|O
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -631,7 +627,8 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
-`;nV9
+`1d1h1l1p1t1x1
+`z8:-
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -688,10 +685,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\work_thread.cpp
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -713,6 +710,7 @@ es_es
 es_mx
 etronlib
 expected marker
+f.0`6z
 f;A*stSW
 fi_fi
 finnish
@@ -743,7 +741,6 @@ jj@0HK4
 k0i0$
 ko_ko
 korean
-ks@Pi
 latam
 ldexp
 m0k0$
@@ -798,7 +795,7 @@ strtol
 sv_sv
 swedish
 t"Ph 
-tQPhH
+tQPhX
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -841,6 +838,7 @@ yrPhh
 zh_cn
 zh_tw
 zlib corrupt
+{*Hnu
 {un'%
 |Lu?c
 }LuHO

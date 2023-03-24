@@ -1,9 +1,11 @@
 																																																																																																																
 	!s99
+	18^e
 	D$HA
 	|$HA
     A
  %41g
+ 5z$J4Fl
  =RDHI
  A^A]A\_^
  A_A\_
@@ -19,7 +21,6 @@
 !(0)"
 !hn7!
 "9k0t
-"~g!M
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -174,12 +175,14 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230317215452Z0/
+230323041452Z0/
 241009235959Z0a1
+2B[CW
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3.>)x
 311109235959Z0b1
 331121235959Z0F1
 360428235959Z0i1
@@ -193,7 +196,6 @@
 6I]Dc
 6OB,n_
 70503
-7:'34
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -219,7 +221,6 @@
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
->!yq4|XCm
 >0<0:
 >Mp$d
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
@@ -473,7 +474,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS*
+RSDSN
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -581,7 +582,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-Y%cpE**
 Y9"SD
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -597,6 +597,7 @@ Z9k0tUD
 \$XLc
 \$pfD
 ]9k0tVD
+]I'O0
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
@@ -700,11 +701,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c${NEa!
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -752,7 +752,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-iHTwd
 illegal code in raster
 invalid
 invalid PLTE
@@ -765,7 +764,6 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-kB833
 ko_ko
 korean
 l$ ATAVAWH
@@ -832,6 +830,7 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
+r+_C_>`
 rND9{0t
 read past buffer
 ro_ro
