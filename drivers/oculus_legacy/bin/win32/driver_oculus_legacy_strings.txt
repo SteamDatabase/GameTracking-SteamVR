@@ -1,9 +1,7 @@
 	!s99
  %41g
  (Camera)
- QWB:
 !hn7!
-$0}bMT
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -94,7 +92,7 @@ $0}bMT
 220323000000Z
 220801000000Z
 220921000000Z
-230323041100Z0/
+230503214930Z0/
 241009235959Z0a1
 2=2C2
 2>4~4
@@ -141,6 +139,7 @@ $0}bMT
 7!7&747C7L7U7^7c7h7o7
 7(7,7<7@7H7`7p7t7
 7+737;7
+7/~d~0
 70503
 788A8I8
 7;7X7p7~7
@@ -168,7 +167,6 @@ $0}bMT
 :-:6:?:H:M:R:Y:
 :2:A:^:
 :6;U;
-:R4L	1
 ;$;-;2;7;>;C;O;q;
 ;(;1;6;;;B;R;
 ;I;R;c;o;{;
@@ -210,7 +208,7 @@ $0}bMT
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
-@mC>2r
+A6p1Z~A
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -276,7 +274,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KQ]nTT
 K}*n:	
 L?n(Zy&
 LIBOVR_DLL_DIR
@@ -297,7 +294,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS9
 RaiseException
 S0Q0O
 SA|X=G
@@ -338,7 +334,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
-Z8MU}?
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -347,7 +342,7 @@ Z8MU}?
 [OculusDirect] ovr_SubmitFrame - End
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
-^91;,
+^zA{+9
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -411,7 +406,8 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-k8R<C
+kQkT@1\F
+l$-#t
 m0k0$
 malloc
 map/set<T> too long
@@ -490,5 +486,6 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
+~Hj[y
 ~qj#k"
 ~t&LN

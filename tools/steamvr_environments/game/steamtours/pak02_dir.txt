@@ -397,7 +397,7 @@ panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex_c CRC:00
 panorama/layout/avatar.vxml_c CRC:00f8d1272e size:6394
 panorama/layout/base_hud.vxml_c CRC:00d4b1fab1 size:584
 panorama/layout/base_world_panel.vxml_c CRC:0045a9d16c size:548
-panorama/layout/content_browser.vxml_c CRC:009834d849 size:79449
+panorama/layout/content_browser.vxml_c CRC:0015e23258 size:79561
 panorama/layout/friends.vxml_c CRC:007791b920 size:20400
 panorama/layout/friends_item.vxml_c CRC:00af18c84d size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
@@ -418,7 +418,7 @@ panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:00d02c07d9 size:25471
 panorama/styles/base_world_panel.vcss_c CRC:0017b56cf5 size:774
-panorama/styles/content_browser.vcss_c CRC:005333be01 size:117561
+panorama/styles/content_browser.vcss_c CRC:005dadb28b size:117370
 panorama/styles/friends.vcss_c CRC:00402d14ca size:43080
 panorama/styles/hud.vcss_c CRC:003b124f74 size:723
 panorama/styles/info_panels.vcss_c CRC:00442143f1 size:6118

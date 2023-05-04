@@ -57,6 +57,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+##gYf3s;
 $9E0u
 $II+L$`
 %s begin_ctx=%llu
@@ -309,6 +310,7 @@ $II+L$`
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
+'LjdXN-
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -529,7 +531,7 @@ $II+L$`
 220323000000Z
 220801000000Z
 220921000000Z
-230323041337Z0/
+230503214758Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -543,6 +545,7 @@ $II+L$`
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+56zPp
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -1131,6 +1134,7 @@ History Timeline
 History-Buffer-%d
 I#V0I
 I+O`H
+I3$.g
 I97t;I
 I98u2A
 I9B A
@@ -1404,7 +1408,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSRw
+RSDSc*
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1468,7 +1472,6 @@ Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
 Sleep
 SleepConditionVariableCS
-Sn|1m.
 Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
 Somebody else should have created event %s to go with pipe %s in WaitForConnection
@@ -1581,6 +1584,7 @@ VerQueryValueA
 VerSetConditionMask
 VerifyVersionInfoW
 Vulkan
+W)XK+~(
 WATAUAVAWH
 WATAUH
 WAVAWH
@@ -1650,6 +1654,7 @@ Yl$4E
 \\.\pipe\
 \mfpmp.exe
 ]J<0"0i3
+]LH\(
 ]g@8yhu
 _Cnd_broadcast
 _Cnd_destroy
@@ -1810,7 +1815,6 @@ deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
 effffff
-f.qT*
 f9+t4
 f98tZH
 f98t\H
@@ -1854,6 +1858,7 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
+j2Yz/O
 jj@0HK4
 k0i0$
 l$ E3
@@ -1998,7 +2003,6 @@ r,fff
 renderdoc.dll
 result == ALVR_OK
 s AVH
-s<pU9
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2577,7 +2581,6 @@ yxxxxxxxI+
 }LuHO
 }`H+}XH
 }wH9S
-~8v#L
 ~qj#k"
 ~t&LN
 ~xM+~pI

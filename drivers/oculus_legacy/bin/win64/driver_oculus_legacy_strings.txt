@@ -5,6 +5,7 @@
  9D$D
  A__^
  H3E H3E
+!JuGS
 !hn7!
 ',=?k
 (A^A]^[
@@ -21,7 +22,6 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,"!gZ
 ,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230323041647Z0/
+230503215235Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -100,6 +100,7 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
 331121235959Z0F1
+35Xh.
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -122,6 +123,7 @@
 9h u{H
 9l$Ht
 9l$pt
+:QNXU<z&
 ;K sCH
 ;K sUH
 ;k sAH
@@ -264,8 +266,8 @@ Oculus
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PmJ`k
 Pz}b!
-Qh|t#
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
@@ -285,7 +287,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-T 4: 
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -321,7 +322,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-YK2Q0
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -330,7 +330,6 @@ YK2Q0
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-\VveZ
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -374,13 +373,13 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b#"SE
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 cU	F9
 camera
 d$`H=
+d24kFo6z
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
@@ -394,6 +393,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iDZjr
 jj@0HK4
 k0i0$
 l$8E3
@@ -487,5 +487,7 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
+}Z2}B~
+~8)XMq
 ~qj#k"
 ~t&LN

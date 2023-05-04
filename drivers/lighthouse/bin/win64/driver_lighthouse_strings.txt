@@ -251,7 +251,6 @@
 !&.37<
 !( pDedicatedBuffer && pDedicatedImage )
 !(0)"
-!AR:A
 !HcS0
 !IsInUse()
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
@@ -1384,7 +1383,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230323042017Z0/
+230503215653Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1403,6 +1402,7 @@ $w!Hc
 3Pole
 3mq+<
 42HcF,
+44b$e
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -1959,7 +1959,6 @@ A(9C(}
 A(A9@
 A(A9@(}
 A(A9C(}
-A)Gp:
 A)}HA
 A+H,A
 A,9AT|
@@ -2212,7 +2211,6 @@ Base %08X reset count changed.  Base may have been bumped or power cycled.
 Base station driver for %08X rejected by vrserver
 Batman
 Batt: 
-Beep8]}
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
 Bellevue1
@@ -3239,7 +3237,6 @@ G,HcO(H
 G,iV(
 G8@8n4t{H
 G8D8t$8t/A
-GH80}
 GHiVX
 GLOG_alsologtoemail
 GLOG_alsologtostderr
@@ -3748,7 +3745,7 @@ IVRInput_010
 IVRMCStore_001
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_026
+IVROverlay_027
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -4025,6 +4022,7 @@ L+H@H
 L+H@I
 L+P@H
 L+Q@I
+L.c.7P$
 L80L;
 L9%@}(
 L9%Ns(
@@ -4400,6 +4398,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RQ@t`-
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -6569,6 +6568,7 @@ nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
+nb~$Dt
 need dictionary
 negative_int_value
 nested_type
@@ -6733,7 +6733,6 @@ pt_br
 pt_pt
 public_dependency
 py_generic_services
-qHrUK
 qMFCreateMediaType failed hr = 0x%08x
 r	D;@(}
 r+w.I
@@ -7041,7 +7040,6 @@ t'8Ypt
 t(HcW,H
 t(LcK,C
 t)HcO4
-t)uM}!
 t,HcI
 t,HcKT
 t,M9x
@@ -7166,7 +7164,6 @@ u9fff
 u;H9{(L
 u<L9-+
 u=L;Mhu7IcG
-u>VH[
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uAfff

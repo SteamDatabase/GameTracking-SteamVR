@@ -35,7 +35,6 @@
  (libfound)
  (noexist)
  ;y8|
- >A)3P
  at line 
  in Buffer
  in `
@@ -90,7 +89,6 @@ $9^ t
 ' value is not an integer type.
 ',=?k
 '.5<=6/7>????????????????
-'@E	B
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
 (%@P	
@@ -99,6 +97,7 @@ $9^ t
 (5pP	
 (Unable to load LibOVR)
 (f*^[0
+*)H.S3
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *01080?0g0
@@ -271,6 +270,7 @@ $9^ t
 .tls$
 .tls$ZZZ
 .xdata$x
+/Flijq
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -457,7 +457,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230323041101Z0/
+230503215028Z0/
 232<2E2N2S2X2_2
 241009235959Z0a1
 263?3H3Q3V3[3b3g3y3
@@ -852,7 +852,6 @@ $9^ t
 :P:r:w:
 :U=k=t=x=
 :^=b==?w?
-:^oJI
 :_:l:
 :r:z:
 :rota
@@ -1003,7 +1002,6 @@ $9^ t
 =U>b>k>z>
 =X>\>
 =Y>s>e?|?
-=].sSKW
 =f>&?
 =h>l>p>t>
 =j>z> ?e?k?x?|?
@@ -1185,7 +1183,6 @@ CD3D11VRRenderer::Signal
 CD3D11VRRenderer::UnampTexture: dangling data pointer
 CKeyframedDataResource
 COLOR
-COR/A
 COculusHmdLatest::UpdateThread
 Camera
 CertGetNameStringW
@@ -1296,7 +1293,6 @@ HeapAlloc
 HeapFree
 Hmd not found.
 HmdDriverFactory
-I!vxe
 ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -1323,7 +1319,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_026
+IVROverlay_027
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -1517,6 +1513,7 @@ Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
 V<_^]
+V>fR%
 VCRUNTIME140.dll
 VRInitError_VendorSpecific_OculusRuntimeBadInstall 
 VR_CONFIG_PATH
@@ -1570,6 +1567,7 @@ Y__^[
 ^<Q9C
 ^X_^[
 _,9_0t-
+_--tOp
 _0_[]
 _0_^]
 _CIacos
@@ -1735,7 +1733,6 @@ bad tRNS len
 bad zlib header
 baseColorFactor
 baseColorTexture
-bd<!4
 bg_bg
 bonemask_grip.txt
 bonemask_index.txt
@@ -1780,7 +1777,6 @@ count
 cs_cs
 czech
 d3d11.dll
-d6U8C
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -1835,6 +1831,7 @@ french
 fseek
 fsetpos
 fwrite
+g+tSK
 generator
 german
 gfff+
@@ -1935,7 +1932,6 @@ inverseBindMatrices
 isalnum
 it_it
 italian
-i{B(6i
 j	h0/
 j	hD*
 j	h|2
@@ -1983,6 +1979,7 @@ minFilter
 minVersion
 missing color table
 multiple IHDR
+nSmKA3
 no IDAT
 no PLTE
 no SOF
@@ -2451,6 +2448,7 @@ znear
 |cj#hdt
 }	jCh
 }LuHO
+}Uigx
 }qj<hXv
 ~qj#k"
 ~t&LN

@@ -27,6 +27,7 @@
 	D$HA
 	w=%d, h=%d, format=%d
 	|$HA
+	~F_3u
     A
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  %41g
@@ -63,6 +64,7 @@
  sJE3
 !&.37<
 !(0)"
+!A#[\
 !hn7!
 " not found in the scene.
 """""""
@@ -219,6 +221,7 @@ $w!Hc
 -1e+9999
 -3003
 -9k0t&H
+-9xSu
 -9{0t%H
 -D9c0t%H
 -Infinity
@@ -457,7 +460,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230323041558Z0/
+230503215146Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -504,6 +507,7 @@ $w!Hc
 9l$Lt	E
 9|$0u
 : one or more FS callback not set
+:Lbpt
 ; expected 
 ; last read: '
 ;K sCH
@@ -519,6 +523,7 @@ $w!Hc
 <uninitialized>
 <unknown>
 =7p7M}
+=>Xjv4VO
 =ETLP
 =IBgC
 =SNRtt%
@@ -527,6 +532,7 @@ $w!Hc
 >0<0:
 >Mp$d
 >W`.]tB3?
+?3[0i
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -679,7 +685,6 @@ A8~xt
 A9A A
 A9Q sEI
 A;Q s?I
-AB.4}V
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
 APH+AHH
@@ -745,7 +750,6 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
-B"zJG
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -1085,7 +1089,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_026
+IVROverlay_027
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -1220,7 +1224,6 @@ N I9N(
 N0H9Q
 NORMAL
 NPH9Q
-NWf N;
 Neither required `bufferView` nor `uri` defined for image[
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
@@ -1276,7 +1279,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS7h
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1406,6 +1408,7 @@ Unknown image format. STB cannot decode image data for image[
 Unknown(%u, %u)
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
+Us)K.
 UuidFromStringA
 VATAUAVAWH
 VATAUH
@@ -1728,7 +1731,6 @@ d$`H=
 d$`L;
 d$`fD
 d$bHc
-d(u"v
 d3d11.dll
 da_da
 danish

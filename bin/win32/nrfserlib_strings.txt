@@ -55,7 +55,6 @@
  version-number:
 !hn7!
 "0)0C0
-"@a	ty
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
@@ -609,7 +608,6 @@ $Vh&*
 090]0g0
 0;0N0f0u0
 0A0i0
-0B3|P
 0D1^2
 0G0r0
 0H1a1f1
@@ -710,7 +708,7 @@ $Vh&*
 220921000000Z
 222R2z2
 223}3
-230323041024Z0/
+230503214907Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1233,6 +1231,7 @@ $Vh&*
 <H=L=P=T=X=\=`=d=h=l=p=t=x=|=
 <O=]=k=y=
 <X<\<`<d<h<l<p<t<x<|<
+<Z6 )
 <]<w<
 <b?i?
 <u={=
@@ -1313,6 +1312,7 @@ $Vh&*
 >V>h>
 >V?`?f?
 >V?h?
+>pJBZ
 ? ?$?(?,?0?
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?(?@?P?T?d?h?l?t?
@@ -1906,8 +1906,8 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSC
 RaiseException
+Rd,~{
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
 Read Properties
@@ -2086,6 +2086,7 @@ Write to Power Control Point.
 Write to SOB Channel.
 WriteFile
 XX.XX.XXXXXXX
+XvMZ*
 Y9"SD
 Y__^[
 Zip Error: %s
@@ -2104,9 +2105,7 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
-]c[,1b/g
 ^[0-9]+$
-_ALW/
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2172,6 +2171,7 @@ _strnicmp
 _strupr_s
 `.rdata
 a9~@u
+a?.=`
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -2268,6 +2268,7 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
+l#jgR
 list<T> too long
 lj!hh
 lower
@@ -2291,7 +2292,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-r`YFv
+qt"Z)
 realloc
 s?=2N
 sd_ble_cfg_set
@@ -2486,6 +2487,7 @@ y4_^[
 }	jCh
 }LuHO
 }qj<h
+~=N2n
 ~L][u
 ~d;{d|	
 ~qj#k"

@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	g_r-
 	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
@@ -137,6 +136,7 @@ $iMBm
 -Infinity
 -\!]N=
 -uKI;
+.,e}!
 ..om?
 .00cfg
 .3=}%
@@ -411,10 +411,11 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-230323041436Z0/
+230503214920Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2Ubzo
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -466,7 +467,6 @@ $iMBm
 9D$(}k
 9D$`t_
 9FHtGH
-9V$I-A
 9W$v8D
 9WP~GM
 9WP~HM
@@ -1191,6 +1191,7 @@ L$HHc
 L$PH3
 L$XE3
 L$XH3
+L$ks]
 L$pD9c
 L$pE3
 L$pH3
@@ -1254,6 +1255,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
+N.[U+
 N3`d?
 N>O=I9
 NAN(IND)
@@ -1269,7 +1271,6 @@ O0LcQ
 OF>;^
 October
 On laptop, HMD detected over USB, but Monitor not found (213)
-OofQ={
 P>q_Y~
 PA^_^
 PA_A^A]A\_^]
@@ -1288,7 +1289,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDSw
+RSDSc
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1408,6 +1409,7 @@ UVWAUAWH
 UVWAVAWH
 UWATAVAWH
 UWAVH
+UfJbw]*
 UmsThreadYield
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
@@ -1864,7 +1866,6 @@ assert json failed
 atan2
 b4 a2
 b?^Cy
-bCsqX
 bad address
 bad allocation
 bad array new length
@@ -2295,6 +2296,7 @@ vrserver internal error (124)
 v}`[>
 w(HcODI
 wFHcN
+wIY](W
 wXJR*
 wrong protocol type
 www.digicert.com1!0

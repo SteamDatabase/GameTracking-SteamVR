@@ -9,9 +9,11 @@
 #?RADIANCE
 #?RGBE
 $9^ t
+$w<+>
 %,3:;4-&
 %3333
 %UUUU
+&Sek"D
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -23,7 +25,6 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-+$Uy*
 +Xt@(
 +o'q)}
 , last executing in 
@@ -97,6 +98,7 @@ $9^ t
 .tls$
 .tls$ZZZ
 .xdata$x
+/6kMVZ0
 /9s<u*
 /delivery_rate
 /elapsed_time
@@ -166,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230323041024Z0/
+230503214906Z0/
 241009235959Z0a1
 262H2O2o283?3
 2>3k3
@@ -262,6 +264,7 @@ $9^ t
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8o==g
 9 u	A
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9q9v9{9
 9(929B9M9n9~9
@@ -434,7 +437,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_026
+IVROverlay_027
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -575,6 +578,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+XIEf(
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -584,7 +588,6 @@ Y__^[
 [K]taM?
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
-_#KJ|O
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -628,7 +631,6 @@ _wchdir
 _wgetcwd
 `.rdata
 `1d1h1l1p1t1x1
-`z8:-
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -710,7 +712,6 @@ es_es
 es_mx
 etronlib
 expected marker
-f.0`6z
 f;A*stSW
 fi_fi
 finnish
@@ -728,6 +729,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i	3\L3=
 illegal code in raster
 invalid
 invalid PLTE
@@ -829,6 +831,7 @@ vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
+w=8z4N
 wrong channel count
 wrong color format
 wrong version
@@ -838,7 +841,6 @@ yrPhh
 zh_cn
 zh_tw
 zlib corrupt
-{*Hnu
 {un'%
 |Lu?c
 }LuHO

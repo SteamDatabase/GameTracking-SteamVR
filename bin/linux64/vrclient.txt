@@ -1713,6 +1713,8 @@
  b vroverlay024_FnTable
  b vroverlay025
  b vroverlay025_FnTable
+ b vroverlay026
+ b vroverlay026_FnTable
  b vroverlayview002
  b vroverlayview002_FnTable
  b vrrendermodels001
@@ -1892,6 +1894,7 @@
  d g_IVROverlay_023_FnTable
  d g_IVROverlay_024_FnTable
  d g_IVROverlay_025_FnTable
+ d g_IVROverlay_026_FnTable
  d g_IVRRenderModels_004_FnTable
  d g_IVRRenderModels_005_FnTable
  d g_IVRSettings_001_FnTable
@@ -2420,6 +2423,7 @@
  d typeinfo for CVROverlay_023
  d typeinfo for CVROverlay_024
  d typeinfo for CVROverlay_025
+ d typeinfo for CVROverlay_026
  d typeinfo for CVRRenderModels_001
  d typeinfo for CVRRenderModels_002
  d typeinfo for CVRRenderModels_003
@@ -2661,6 +2665,7 @@
  d typeinfo for OverlayInterfaceRegistration<CVROverlay_023>
  d typeinfo for OverlayInterfaceRegistration<CVROverlay_024>
  d typeinfo for OverlayInterfaceRegistration<CVROverlay_025>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_026>
  d typeinfo for OverlayViewInterfaceRegistration<CVROverlayView_001>
  d typeinfo for OverlayViewInterfaceRegistration<CVROverlayView_002>
  d typeinfo for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}
@@ -3297,6 +3302,7 @@
  d vtable for CVROverlay_023
  d vtable for CVROverlay_024
  d vtable for CVROverlay_025
+ d vtable for CVROverlay_026
  d vtable for CVRRenderModels_001
  d vtable for CVRRenderModels_002
  d vtable for CVRRenderModels_003
@@ -3484,6 +3490,7 @@
  d vtable for OverlayInterfaceRegistration<CVROverlay_023>
  d vtable for OverlayInterfaceRegistration<CVROverlay_024>
  d vtable for OverlayInterfaceRegistration<CVROverlay_025>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_026>
  d vtable for OverlayViewInterfaceRegistration<CVROverlayView_001>
  d vtable for OverlayViewInterfaceRegistration<CVROverlayView_002>
  d vtable for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
@@ -4494,6 +4501,7 @@
  r typeinfo name for CVROverlay_023
  r typeinfo name for CVROverlay_024
  r typeinfo name for CVROverlay_025
+ r typeinfo name for CVROverlay_026
  r typeinfo name for CVRRenderModels_001
  r typeinfo name for CVRRenderModels_002
  r typeinfo name for CVRRenderModels_003
@@ -4735,6 +4743,7 @@
  r typeinfo name for OverlayInterfaceRegistration<CVROverlay_023>
  r typeinfo name for OverlayInterfaceRegistration<CVROverlay_024>
  r typeinfo name for OverlayInterfaceRegistration<CVROverlay_025>
+ r typeinfo name for OverlayInterfaceRegistration<CVROverlay_026>
  r typeinfo name for OverlayViewInterfaceRegistration<CVROverlayView_001>
  r typeinfo name for OverlayViewInterfaceRegistration<CVROverlayView_002>
  r typeinfo name for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}
@@ -15067,8 +15076,6 @@
  t CVROverlayLatest::GetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin*, vr::HmdMatrix34_t*) [clone .cold]
  t CVROverlayLatest::GetOverlayTransformCursor(unsigned long, vr::HmdVector2_t*)
  t CVROverlayLatest::GetOverlayTransformCursor(unsigned long, vr::HmdVector2_t*) [clone .cold]
- t CVROverlayLatest::GetOverlayTransformOverlayRelative(unsigned long, unsigned long*, vr::HmdMatrix34_t*)
- t CVROverlayLatest::GetOverlayTransformOverlayRelative(unsigned long, unsigned long*, vr::HmdMatrix34_t*) [clone .cold]
  t CVROverlayLatest::GetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int*, char*, unsigned int)
  t CVROverlayLatest::GetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int*, char*, unsigned int) [clone .cold]
  t CVROverlayLatest::GetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int*, vr::HmdMatrix34_t*)
@@ -15146,8 +15153,6 @@
  t CVROverlayLatest::SetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*) [clone .cold]
  t CVROverlayLatest::SetOverlayTransformCursor(unsigned long, vr::HmdVector2_t const*)
  t CVROverlayLatest::SetOverlayTransformCursor(unsigned long, vr::HmdVector2_t const*) [clone .cold]
- t CVROverlayLatest::SetOverlayTransformOverlayRelative(unsigned long, unsigned long, vr::HmdMatrix34_t const*)
- t CVROverlayLatest::SetOverlayTransformOverlayRelative(unsigned long, unsigned long, vr::HmdMatrix34_t const*) [clone .cold]
  t CVROverlayLatest::SetOverlayTransformProjection(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*, vr::VROverlayProjection_t const*, vr::EVREye)
  t CVROverlayLatest::SetOverlayTransformProjection(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*, vr::VROverlayProjection_t const*, vr::EVREye) [clone .cold]
  t CVROverlayLatest::SetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int, char const*)
@@ -16890,6 +16895,88 @@
  t CVROverlay_025::ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
  t CVROverlay_025::ShowOverlay(unsigned long)
  t CVROverlay_025::TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
+ t CVROverlay_026::ClearOverlayCursorPositionOverride(unsigned long)
+ t CVROverlay_026::ClearOverlayTexture(unsigned long)
+ t CVROverlay_026::CloseMessageOverlay()
+ t CVROverlay_026::ComputeOverlayIntersection(unsigned long, vr::VROverlayIntersectionParams_t const*, vr::VROverlayIntersectionResults_t*)
+ t CVROverlay_026::CreateDashboardOverlay(char const*, char const*, unsigned long*, unsigned long*)
+ t CVROverlay_026::CreateOverlay(char const*, char const*, unsigned long*)
+ t CVROverlay_026::DestroyOverlay(unsigned long)
+ t CVROverlay_026::FindOverlay(char const*, unsigned long*)
+ t CVROverlay_026::GetDashboardOverlaySceneProcess(unsigned long, unsigned int*)
+ t CVROverlay_026::GetKeyboardText(char*, unsigned int)
+ t CVROverlay_026::GetOverlayAlpha(unsigned long, float*)
+ t CVROverlay_026::GetOverlayColor(unsigned long, float*, float*, float*)
+ t CVROverlay_026::GetOverlayCurvature(unsigned long, float*)
+ t CVROverlay_026::GetOverlayErrorNameFromEnum(vr::EVROverlayError)
+ t CVROverlay_026::GetOverlayFlag(unsigned long, vr::VROverlayFlags, bool*)
+ t CVROverlay_026::GetOverlayFlags(unsigned long, unsigned int*)
+ t CVROverlay_026::GetOverlayImageData(unsigned long, void*, unsigned int, unsigned int*, unsigned int*)
+ t CVROverlay_026::GetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod*)
+ t CVROverlay_026::GetOverlayKey(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t CVROverlay_026::GetOverlayMouseScale(unsigned long, vr::HmdVector2_t*)
+ t CVROverlay_026::GetOverlayName(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t CVROverlay_026::GetOverlayPreCurvePitch(unsigned long, float*)
+ t CVROverlay_026::GetOverlayRenderingPid(unsigned long)
+ t CVROverlay_026::GetOverlaySortOrder(unsigned long, unsigned int*)
+ t CVROverlay_026::GetOverlayTexelAspect(unsigned long, float*)
+ t CVROverlay_026::GetOverlayTexture(unsigned long, void**, void*, unsigned int*, unsigned int*, unsigned int*, vr::ETextureType*, vr::EColorSpace*, vr::VRTextureBounds_t*)
+ t CVROverlay_026::GetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t*)
+ t CVROverlay_026::GetOverlayTextureColorSpace(unsigned long, vr::EColorSpace*)
+ t CVROverlay_026::GetOverlayTextureSize(unsigned long, unsigned int*, unsigned int*)
+ t CVROverlay_026::GetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin*, vr::HmdMatrix34_t*)
+ t CVROverlay_026::GetOverlayTransformCursor(unsigned long, vr::HmdVector2_t*)
+ t CVROverlay_026::GetOverlayTransformOverlayRelative(unsigned long, unsigned long*, vr::HmdMatrix34_t*)
+ t CVROverlay_026::GetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int*, char*, unsigned int)
+ t CVROverlay_026::GetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int*, vr::HmdMatrix34_t*)
+ t CVROverlay_026::GetOverlayTransformType(unsigned long, vr::VROverlayTransformType*)
+ t CVROverlay_026::GetOverlayWidthInMeters(unsigned long, float*)
+ t CVROverlay_026::GetPrimaryDashboardDevice()
+ t CVROverlay_026::GetTransformForOverlayCoordinates(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdVector2_t, vr::HmdMatrix34_t*)
+ t CVROverlay_026::HideKeyboard()
+ t CVROverlay_026::HideOverlay(unsigned long)
+ t CVROverlay_026::IsActiveDashboardOverlay(unsigned long)
+ t CVROverlay_026::IsDashboardVisible()
+ t CVROverlay_026::IsHoverTargetOverlay(unsigned long)
+ t CVROverlay_026::IsOverlayVisible(unsigned long)
+ t CVROverlay_026::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
+ t CVROverlay_026::ReleaseNativeOverlayHandle(unsigned long, void*)
+ t CVROverlay_026::SetDashboardOverlaySceneProcess(unsigned long, unsigned int)
+ t CVROverlay_026::SetKeyboardPositionForOverlay(unsigned long, vr::HmdRect2_t)
+ t CVROverlay_026::SetKeyboardTransformAbsolute(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t CVROverlay_026::SetOverlayAlpha(unsigned long, float)
+ t CVROverlay_026::SetOverlayColor(unsigned long, float, float, float)
+ t CVROverlay_026::SetOverlayCursor(unsigned long, unsigned long)
+ t CVROverlay_026::SetOverlayCursorPositionOverride(unsigned long, vr::HmdVector2_t const*)
+ t CVROverlay_026::SetOverlayCurvature(unsigned long, float)
+ t CVROverlay_026::SetOverlayFlag(unsigned long, vr::VROverlayFlags, bool)
+ t CVROverlay_026::SetOverlayFromFile(unsigned long, char const*)
+ t CVROverlay_026::SetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod)
+ t CVROverlay_026::SetOverlayIntersectionMask(unsigned long, vr::VROverlayIntersectionMaskPrimitive_t*, unsigned int, unsigned int)
+ t CVROverlay_026::SetOverlayMouseScale(unsigned long, vr::HmdVector2_t const*)
+ t CVROverlay_026::SetOverlayName(unsigned long, char const*)
+ t CVROverlay_026::SetOverlayPreCurvePitch(unsigned long, float)
+ t CVROverlay_026::SetOverlayRaw(unsigned long, void*, unsigned int, unsigned int, unsigned int)
+ t CVROverlay_026::SetOverlayRenderingPid(unsigned long, unsigned int)
+ t CVROverlay_026::SetOverlaySortOrder(unsigned long, unsigned int)
+ t CVROverlay_026::SetOverlayTexelAspect(unsigned long, float)
+ t CVROverlay_026::SetOverlayTexture(unsigned long, vr::Texture_t const*)
+ t CVROverlay_026::SetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t const*)
+ t CVROverlay_026::SetOverlayTextureColorSpace(unsigned long, vr::EColorSpace)
+ t CVROverlay_026::SetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t CVROverlay_026::SetOverlayTransformCursor(unsigned long, vr::HmdVector2_t const*)
+ t CVROverlay_026::SetOverlayTransformOverlayRelative(unsigned long, unsigned long, vr::HmdMatrix34_t const*)
+ t CVROverlay_026::SetOverlayTransformProjection(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*, vr::VROverlayProjection_t const*, vr::EVREye)
+ t CVROverlay_026::SetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int, char const*)
+ t CVROverlay_026::SetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int, vr::HmdMatrix34_t const*)
+ t CVROverlay_026::SetOverlayWidthInMeters(unsigned long, float)
+ t CVROverlay_026::ShowDashboard(char const*)
+ t CVROverlay_026::ShowKeyboard(vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t CVROverlay_026::ShowKeyboardForOverlay(unsigned long, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t CVROverlay_026::ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
+ t CVROverlay_026::ShowOverlay(unsigned long)
+ t CVROverlay_026::TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
+ t CVROverlay_026::WaitFrameSync(unsigned int)
  t CVRPathRegistry::AddExternalDriver(char const*)
  t CVRPathRegistry::AddExternalDriver(char const*) [clone .cold]
  t CVRPathRegistry::CVRPathRegistry()
@@ -21217,6 +21304,88 @@
  t IVROverlay_025_FnTable_ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
  t IVROverlay_025_FnTable_ShowOverlay(unsigned long)
  t IVROverlay_025_FnTable_TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
+ t IVROverlay_026_FnTable_ClearOverlayCursorPositionOverride(unsigned long)
+ t IVROverlay_026_FnTable_ClearOverlayTexture(unsigned long)
+ t IVROverlay_026_FnTable_CloseMessageOverlay()
+ t IVROverlay_026_FnTable_ComputeOverlayIntersection(unsigned long, vr::VROverlayIntersectionParams_t const*, vr::VROverlayIntersectionResults_t*)
+ t IVROverlay_026_FnTable_CreateDashboardOverlay(char const*, char const*, unsigned long*, unsigned long*)
+ t IVROverlay_026_FnTable_CreateOverlay(char const*, char const*, unsigned long*)
+ t IVROverlay_026_FnTable_DestroyOverlay(unsigned long)
+ t IVROverlay_026_FnTable_FindOverlay(char const*, unsigned long*)
+ t IVROverlay_026_FnTable_GetDashboardOverlaySceneProcess(unsigned long, unsigned int*)
+ t IVROverlay_026_FnTable_GetKeyboardText(char*, unsigned int)
+ t IVROverlay_026_FnTable_GetOverlayAlpha(unsigned long, float*)
+ t IVROverlay_026_FnTable_GetOverlayColor(unsigned long, float*, float*, float*)
+ t IVROverlay_026_FnTable_GetOverlayCurvature(unsigned long, float*)
+ t IVROverlay_026_FnTable_GetOverlayErrorNameFromEnum(vr::EVROverlayError)
+ t IVROverlay_026_FnTable_GetOverlayFlag(unsigned long, vr::VROverlayFlags, bool*)
+ t IVROverlay_026_FnTable_GetOverlayFlags(unsigned long, unsigned int*)
+ t IVROverlay_026_FnTable_GetOverlayImageData(unsigned long, void*, unsigned int, unsigned int*, unsigned int*)
+ t IVROverlay_026_FnTable_GetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod*)
+ t IVROverlay_026_FnTable_GetOverlayKey(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t IVROverlay_026_FnTable_GetOverlayMouseScale(unsigned long, vr::HmdVector2_t*)
+ t IVROverlay_026_FnTable_GetOverlayName(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t IVROverlay_026_FnTable_GetOverlayPreCurvePitch(unsigned long, float*)
+ t IVROverlay_026_FnTable_GetOverlayRenderingPid(unsigned long)
+ t IVROverlay_026_FnTable_GetOverlaySortOrder(unsigned long, unsigned int*)
+ t IVROverlay_026_FnTable_GetOverlayTexelAspect(unsigned long, float*)
+ t IVROverlay_026_FnTable_GetOverlayTexture(unsigned long, void**, void*, unsigned int*, unsigned int*, unsigned int*, vr::ETextureType*, vr::EColorSpace*, vr::VRTextureBounds_t*)
+ t IVROverlay_026_FnTable_GetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t*)
+ t IVROverlay_026_FnTable_GetOverlayTextureColorSpace(unsigned long, vr::EColorSpace*)
+ t IVROverlay_026_FnTable_GetOverlayTextureSize(unsigned long, unsigned int*, unsigned int*)
+ t IVROverlay_026_FnTable_GetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin*, vr::HmdMatrix34_t*)
+ t IVROverlay_026_FnTable_GetOverlayTransformCursor(unsigned long, vr::HmdVector2_t*)
+ t IVROverlay_026_FnTable_GetOverlayTransformOverlayRelative(unsigned long, unsigned long*, vr::HmdMatrix34_t*)
+ t IVROverlay_026_FnTable_GetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int*, char*, unsigned int)
+ t IVROverlay_026_FnTable_GetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int*, vr::HmdMatrix34_t*)
+ t IVROverlay_026_FnTable_GetOverlayTransformType(unsigned long, vr::VROverlayTransformType*)
+ t IVROverlay_026_FnTable_GetOverlayWidthInMeters(unsigned long, float*)
+ t IVROverlay_026_FnTable_GetPrimaryDashboardDevice()
+ t IVROverlay_026_FnTable_GetTransformForOverlayCoordinates(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdVector2_t, vr::HmdMatrix34_t*)
+ t IVROverlay_026_FnTable_HideKeyboard()
+ t IVROverlay_026_FnTable_HideOverlay(unsigned long)
+ t IVROverlay_026_FnTable_IsActiveDashboardOverlay(unsigned long)
+ t IVROverlay_026_FnTable_IsDashboardVisible()
+ t IVROverlay_026_FnTable_IsHoverTargetOverlay(unsigned long)
+ t IVROverlay_026_FnTable_IsOverlayVisible(unsigned long)
+ t IVROverlay_026_FnTable_PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
+ t IVROverlay_026_FnTable_ReleaseNativeOverlayHandle(unsigned long, void*)
+ t IVROverlay_026_FnTable_SetDashboardOverlaySceneProcess(unsigned long, unsigned int)
+ t IVROverlay_026_FnTable_SetKeyboardPositionForOverlay(unsigned long, vr::HmdRect2_t)
+ t IVROverlay_026_FnTable_SetKeyboardTransformAbsolute(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t IVROverlay_026_FnTable_SetOverlayAlpha(unsigned long, float)
+ t IVROverlay_026_FnTable_SetOverlayColor(unsigned long, float, float, float)
+ t IVROverlay_026_FnTable_SetOverlayCursor(unsigned long, unsigned long)
+ t IVROverlay_026_FnTable_SetOverlayCursorPositionOverride(unsigned long, vr::HmdVector2_t const*)
+ t IVROverlay_026_FnTable_SetOverlayCurvature(unsigned long, float)
+ t IVROverlay_026_FnTable_SetOverlayFlag(unsigned long, vr::VROverlayFlags, bool)
+ t IVROverlay_026_FnTable_SetOverlayFromFile(unsigned long, char const*)
+ t IVROverlay_026_FnTable_SetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod)
+ t IVROverlay_026_FnTable_SetOverlayIntersectionMask(unsigned long, vr::VROverlayIntersectionMaskPrimitive_t*, unsigned int, unsigned int)
+ t IVROverlay_026_FnTable_SetOverlayMouseScale(unsigned long, vr::HmdVector2_t const*)
+ t IVROverlay_026_FnTable_SetOverlayName(unsigned long, char const*)
+ t IVROverlay_026_FnTable_SetOverlayPreCurvePitch(unsigned long, float)
+ t IVROverlay_026_FnTable_SetOverlayRaw(unsigned long, void*, unsigned int, unsigned int, unsigned int)
+ t IVROverlay_026_FnTable_SetOverlayRenderingPid(unsigned long, unsigned int)
+ t IVROverlay_026_FnTable_SetOverlaySortOrder(unsigned long, unsigned int)
+ t IVROverlay_026_FnTable_SetOverlayTexelAspect(unsigned long, float)
+ t IVROverlay_026_FnTable_SetOverlayTexture(unsigned long, vr::Texture_t const*)
+ t IVROverlay_026_FnTable_SetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t const*)
+ t IVROverlay_026_FnTable_SetOverlayTextureColorSpace(unsigned long, vr::EColorSpace)
+ t IVROverlay_026_FnTable_SetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t IVROverlay_026_FnTable_SetOverlayTransformCursor(unsigned long, vr::HmdVector2_t const*)
+ t IVROverlay_026_FnTable_SetOverlayTransformOverlayRelative(unsigned long, unsigned long, vr::HmdMatrix34_t const*)
+ t IVROverlay_026_FnTable_SetOverlayTransformProjection(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*, vr::VROverlayProjection_t const*, vr::EVREye)
+ t IVROverlay_026_FnTable_SetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int, char const*)
+ t IVROverlay_026_FnTable_SetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int, vr::HmdMatrix34_t const*)
+ t IVROverlay_026_FnTable_SetOverlayWidthInMeters(unsigned long, float)
+ t IVROverlay_026_FnTable_ShowDashboard(char const*)
+ t IVROverlay_026_FnTable_ShowKeyboard(vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t IVROverlay_026_FnTable_ShowKeyboardForOverlay(unsigned long, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t IVROverlay_026_FnTable_ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
+ t IVROverlay_026_FnTable_ShowOverlay(unsigned long)
+ t IVROverlay_026_FnTable_TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
+ t IVROverlay_026_FnTable_WaitFrameSync(unsigned int)
  t IVRRenderModels_004_FnTable_FreeRenderModel(vr::RenderModel_t*)
  t IVRRenderModels_004_FnTable_FreeTexture(vr::RenderModel_TextureMap_t*)
  t IVRRenderModels_004_FnTable_FreeTextureD3D11(void*)
@@ -22497,6 +22666,8 @@
  t OverlayInterfaceRegistration<CVROverlay_024>::~OverlayInterfaceRegistration()
  t OverlayInterfaceRegistration<CVROverlay_025>::GetInterface()
  t OverlayInterfaceRegistration<CVROverlay_025>::~OverlayInterfaceRegistration()
+ t OverlayInterfaceRegistration<CVROverlay_026>::GetInterface()
+ t OverlayInterfaceRegistration<CVROverlay_026>::~OverlayInterfaceRegistration()
  t OverlayViewInterfaceRegistration<CVROverlayView_001>::GetInterface()
  t OverlayViewInterfaceRegistration<CVROverlayView_001>::~OverlayViewInterfaceRegistration()
  t OverlayViewInterfaceRegistration<CVROverlayView_002>::GetInterface()
@@ -23125,7 +23296,6 @@
  t VR_IVROverlay_FnTable_GetOverlayTextureSize(unsigned long, unsigned int*, unsigned int*)
  t VR_IVROverlay_FnTable_GetOverlayTransformAbsolute(unsigned long, ETrackingUniverseOrigin*, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_GetOverlayTransformCursor(unsigned long, HmdVector2_t*)
- t VR_IVROverlay_FnTable_GetOverlayTransformOverlayRelative(unsigned long, unsigned long*, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_GetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int*, char*, unsigned int)
  t VR_IVROverlay_FnTable_GetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int*, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_GetOverlayTransformType(unsigned long, VROverlayTransformType*)
@@ -23164,7 +23334,6 @@
  t VR_IVROverlay_FnTable_SetOverlayTextureColorSpace(unsigned long, EColorSpace)
  t VR_IVROverlay_FnTable_SetOverlayTransformAbsolute(unsigned long, ETrackingUniverseOrigin, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_SetOverlayTransformCursor(unsigned long, HmdVector2_t*)
- t VR_IVROverlay_FnTable_SetOverlayTransformOverlayRelative(unsigned long, unsigned long, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_SetOverlayTransformProjection(unsigned long, ETrackingUniverseOrigin, HmdMatrix34_t*, VROverlayProjection_t*, EVREye)
  t VR_IVROverlay_FnTable_SetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int, char*)
  t VR_IVROverlay_FnTable_SetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int, HmdMatrix34_t*)

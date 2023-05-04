@@ -15,9 +15,7 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
-!+{p<
 !hn7!
-$8~zT
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -35,7 +33,6 @@ $8~zT
 )t$0H
 )t$@H
 *uXI;
-+8ea&]m
 +Xt@(
 +o'q)}
 , last executing in 
@@ -137,6 +134,7 @@ $8~zT
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.sB3I
 .text
 .text$di
 .text$mn
@@ -177,8 +175,9 @@ $8~zT
 220323000000Z
 220801000000Z
 220921000000Z
-230323041616Z0/
+230503215213Z0/
 241009235959Z0a1
+2;|kFr
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -202,6 +201,7 @@ $8~zT
 8_^][
 9D$xu
 9D$|toH
+;^g]@
 < t+<
 <*J=)
 </u#H
@@ -295,7 +295,6 @@ $8~zT
 @UVWAVAWH
 @UWAVAWH
 A valid JSON document must be either an array or an object value.
-AC?m,
 ASSERT: "%s" at %s:%d.
 ATAVAWH
 A\_^[]
@@ -338,6 +337,7 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
+CQ2g,O
 CT$ H
 CT$(L
 CT$0H
@@ -577,7 +577,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_026
+IVROverlay_027
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -664,6 +664,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS~7
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -724,6 +725,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
+U@8@X
 UATAUAVAWH
 USER32.dll
 USVATAUAWH

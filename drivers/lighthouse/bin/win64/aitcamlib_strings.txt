@@ -1,11 +1,9 @@
 																																																																																																																
 	!s99
-	18^e
 	D$HA
 	|$HA
     A
  %41g
- 5z$J4Fl
  =RDHI
  A^A]A\_^
  A_A\_
@@ -18,6 +16,7 @@
  A_A^_^]
  A__^
  H3E H3E
+ rB\C
 !(0)"
 !hn7!
 "9k0t
@@ -136,6 +135,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/4:+|!k
 /9{0t'H
 /delivery_rate
 /elapsed_time
@@ -175,14 +175,12 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230323041452Z0/
+230503215001Z0/
 241009235959Z0a1
-2B[CW
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3.>)x
 311109235959Z0b1
 331121235959Z0F1
 360428235959Z0i1
@@ -398,7 +396,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_026
+IVROverlay_027
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -421,6 +419,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KN/b>._
 K}*n:	
 L$ E3
 L$ Hc
@@ -474,7 +473,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSN
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -597,7 +595,6 @@ Z9k0tUD
 \$XLc
 \$pfD
 ]9k0tVD
-]I'O0
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
@@ -734,6 +731,7 @@ es_mx
 etronlib
 expected marker
 fD9	u
+fW^e.
 fi_fi
 finnish
 first not IHDR
@@ -810,6 +808,7 @@ not HDR
 not PSD
 not enough pixels
 ntelD
+o5#hsr
 o@@fD
 oD$ fD
 oD$0f
@@ -830,7 +829,7 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-r+_C_>`
+qpvrH
 rND9{0t
 read past buffer
 ro_ro
@@ -906,6 +905,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+xndlg
 zh_cn
 zh_tw
 zlib corrupt

@@ -1,12 +1,11 @@
 	!s99
-	k$b#
  %41g
  A__^
  H3E H3E
 !hn7!
-&A]12u
 ',=?k
 (f*^[0
+(izY<
 +Xt@(
 +o'q)}
 ,W5y+
@@ -81,7 +80,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230323041541Z0/
+230503215133Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -103,6 +102,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+;R^b\
 <*J=)
 <0:08
 =rIQU
@@ -117,7 +117,7 @@
 AuthD
 Bellevue1
 CT$0H
-D,4Yz
+CqX7%
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -126,7 +126,7 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
-EovI\
+G!6_B
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -134,6 +134,7 @@ H SWH
 H93t	H
 H9=*R
 HmdDriverFactory
+IMpQ+
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -162,11 +163,14 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Mpm-o
 NPH9Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS;.#Z
+RZB[Qd
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -174,6 +178,7 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
+U?-|v
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -189,6 +194,7 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
+_<e48
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -233,8 +239,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-e`1B5
-gPk( 
+f #GA;
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -252,7 +257,6 @@ modelNumber
 ntelD
 renderHeight
 renderWidth
-rsve$
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -260,6 +264,7 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
+tLfX?
 v=Y]Bv
 vector<T> too long
 windowHeight
@@ -268,11 +273,10 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-{Gtk7E
 {un'%
 |$ AVH
 |Lu?c
-};dnbO
 }LuHO
+~5#:\"^
 ~qj#k"
 ~t&LN

@@ -3,6 +3,7 @@
 !hn7!
 ',=?k
 (f*^[0
++8B  
 +Xt@(
 +o'q)}
 ,W5y+
@@ -82,7 +83,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230323041050Z0/
+230503214926Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -148,7 +149,6 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-@O8TL
 Bellevue1
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -194,7 +194,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS'
+RSDS()*
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -207,6 +207,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
+XN.1{kb
 Y9"SD
 Y__^[
 [K]taM?
@@ -244,7 +245,6 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b)c%CsW
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
@@ -259,6 +259,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+f" 8U
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -285,7 +286,6 @@ windowHeight
 windowWidth
 windowX
 windowY
-wuNwd:
 www.digicert.com1!0
 www.digicert.com1$0"
 {un'%

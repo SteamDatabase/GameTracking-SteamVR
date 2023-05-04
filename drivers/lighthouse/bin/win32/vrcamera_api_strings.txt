@@ -39,7 +39,7 @@ $_^[]
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
-+>ut	
+*M_zOE
 +A Vj$
 +A$+Y
 +A$tU3
@@ -433,7 +433,7 @@ $_^[]
 220323000000Z
 220801000000Z
 220921000000Z
-230323040903Z0/
+230503214546Z0/
 241009235959Z0a1
 252t2
 282X2`2h2p2x2
@@ -865,7 +865,6 @@ $_^[]
 :AM:am:PM:pm
 :B;L;
 :B;{;
-:CU4v
 :G:Q:[:e:o:y:
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :O:_:
@@ -1287,7 +1286,6 @@ CreateThreadpoolWait
 CreateThreadpoolWork
 CreateTimerQueue
 CreateTimerQueueTimer
-Cs`+G
 DFailed to EnumPins.
 DecodePointer
 DeleteCriticalSection
@@ -1454,6 +1452,7 @@ M SVW
 M$+E4@Pj
 MB(iVR
 MJPEG color format is not yet implemented.
+M\9( ,.
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
@@ -1463,7 +1462,6 @@ MinConcurrency
 MultiByteToWideChar
 N PSQ
 N(@PV
-NIb=!
 No Description
 No IPin available.
 No color stream to configure.
@@ -1487,13 +1485,13 @@ Q;FD~Z
 QQSVW
 QSVWj
 QVWjt
-Qk',&S
 QkK04
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDSw
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1712,7 +1710,6 @@ directory not empty
 eventObject
 executable format error
 f	_$_^[
-fD+k+
 false
 fclose
 fflush
@@ -1840,6 +1837,7 @@ resource deadlock would occur
 resource unavailable try again
 result out of range
 sDh|t
+sTHY5
 setlocale
 setvbuf
 space
@@ -1906,7 +1904,6 @@ x0c1l1
 x\SVW
 xdigit
 y'j h
-z@k?}
 {L?uI
 {un'%
 |Lu?c

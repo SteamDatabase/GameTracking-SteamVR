@@ -1680,7 +1680,6 @@
 #}3Tt
 $ hh@
 $&[HY
-$.cwC
 $/H,9h]	1	
 $0)0=0
 $4DTdt
@@ -1968,6 +1967,7 @@ $~O="""
 %gx%g%+g%+g
 %hd, 
 %hu, 
+%l;R4
 %lf%*[ ,]%lf
 %lf%*[ ,]%lf%*[ ,]%lf%*[ ,]%lf
 %lf,%lf: (%lf%*[%,]
@@ -2275,7 +2275,6 @@ $~O="""
 )03080
 )030A0Q1l1
 )060X0
-)0H_!{
 )0Y0f0
 )2STud>
 )8)k)
@@ -3000,7 +2999,6 @@ $~O="""
 -interpolate
 -interpolative-resize
 -interword-spacing
--j00i
 -kLdt
 -kerning
 -kuwahara
@@ -4330,7 +4328,7 @@ $~O="""
 222P2b2}2
 22373K3o3
 223E3P3a3l3
-230323040926Z0/
+230503214648Z0/
 230x323
 23282G2L2e3
 23282R2W2q2v2
@@ -4469,7 +4467,6 @@ $~O="""
 2_3d3
 2_3l3w3
 2_7d7
-2_T*|9
 2`2~2
 2`4z4
 2aKCx
@@ -6074,7 +6071,6 @@ $~O="""
 738;8]8
 738=8G8L8[8`8w8|8
 73x105
-74#:[
 747<7
 747A7'8
 747O7l7
@@ -6192,7 +6188,6 @@ $~O="""
 7b8y8
 7d8$9
 7e7x7
-7eMK$s
 7f7m7
 7h7q7
 7h8V9q9
@@ -13688,7 +13683,6 @@ Ja mogu jesti staklo i ne boli me.
 Javanese
 Je puis mangier del voirre. Ne me nuit.
 Jh_Pi`Qi`Qi`Qh_PkbTjbSi`PibLibHhbK`ZFLJ6@E4@H8CJ>UM;
-Jik	5
 Jjw[Sc
 Johab
 Jove xef, porti whisky amb quinze gla
@@ -19016,7 +19010,6 @@ Zoom Select Status
 ^l;D$
 ^oEZ_
 ^t!hx
-_'8Re6
 _-|> <.
 _-|> <.:^
 _0d0h0l0p0t0x0|0
@@ -19790,6 +19783,7 @@ cHRM Red Y
 cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
+cHX8k
 cK`x;
 cU	F9
 cache
@@ -22634,6 +22628,7 @@ onehalf
 onequarter
 onesuperior
 ons d'hidrogen, coi!
+oo$?C
 op9o8t h
 opacity
 opacity "%s"
@@ -26195,7 +26190,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~gSVW
 ~gfff
 ~ik\$<V
-~j/l9
 ~lp_YWS,,,,-+0/,1.+2,(2-*0,+2,+2++2,+2,+1,+1,)3-,3-,3/,31,40,52-750:3,>6-@6-C8-H;/EE5UD4m=+
 ~nC^Z
 ~qj#k"
