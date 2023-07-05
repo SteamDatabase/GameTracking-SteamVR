@@ -5,8 +5,8 @@
  9D$D
  A__^
  H3E H3E
-!JuGS
 !hn7!
+!{zo`
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503215235Z0/
+230629195053Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -100,7 +100,6 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
 331121235959Z0F1
-35Xh.
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -113,6 +112,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8$hs!G
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -123,7 +123,7 @@
 9h u{H
 9l$Ht
 9l$pt
-:QNXU<z&
+;)YHan
 ;K sCH
 ;K sUH
 ;k sAH
@@ -180,6 +180,7 @@ D9@ s
 D9H s
 D;A s
 D;I s
+Dc$}JS
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -196,6 +197,7 @@ EventWrite
 EventWriteString
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
+Fk/bg1
 FreeLibrary
 GetCurrentDirectoryW
 GetCurrentProcess
@@ -266,7 +268,6 @@ Oculus
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-PmJ`k
 Pz}b!
 QueryPerformanceCounter
 R$fE;B*
@@ -328,6 +329,7 @@ Y9"SD
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+[nr"k
 \$ E3
 \$ UH
 ]J<0"0i3
@@ -373,13 +375,13 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b(JDs
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 cU	F9
 camera
 d$`H=
-d24kFo6z
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
@@ -393,7 +395,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iDZjr
 jj@0HK4
 k0i0$
 l$8E3
@@ -487,7 +488,6 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
-}Z2}B~
-~8)XMq
+~US}Z[
 ~qj#k"
 ~t&LN

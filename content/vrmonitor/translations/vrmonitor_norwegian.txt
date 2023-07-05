@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR-utviklerstøtte"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks-utviklerstøtte"
 "MenuAction_CreateSystemReport" "Opprett systemrapport"
-"MenuAction_ResetSeatedPosition" "Tilbakestill sittende posisjon"
+"MenuAction_Recenter" "Midtstill"
 "MenuAction_SystemReportViewer" "Systemrapportvisning"
 "MenuAction_DisplayFrameTiming" "Avansert bildetiming"
 "MenuAction_RecordTrackingData" "Ta opp sporingsdata"

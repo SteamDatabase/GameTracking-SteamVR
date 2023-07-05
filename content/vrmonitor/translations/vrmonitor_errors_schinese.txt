@@ -866,7 +866,7 @@
 "Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
 
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR 错误"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>您的</span> GPU 与头戴式显示器通信时出现问题，导致 HDCP 错误。尝试移除正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<p> <b>请使用下方按钮切换 HDCP 1.4 传统兼容性模式并重新启动 SteamVR。</b>"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>您的</span> GPU 与头戴式显示器通信时出现问题，导致 HDCP 错误。尝试移除正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<p> <b>请使用下方按钮切换 HDCP 1.4 传统兼容模式并重新启动 SteamVR。</b>"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "重新启动（HDCP）"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
 

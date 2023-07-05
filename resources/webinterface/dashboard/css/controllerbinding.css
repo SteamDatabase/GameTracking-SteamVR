@@ -7,11 +7,14 @@ html.VROverlay
 {
 	--text-color: #DEE2E5;
 	--disabledtext: rgb(144, 147, 150);
+}
 
-	--buttondefault: #1f3452;
-	--buttonhover: #2978a0;
+.ControllerMainBorderRadius {
+	border-radius: 1.3rem;
+}
 
-	--background-color: #070910f0;
+.InputContainer {
+	background-image: linear-gradient(to bottom right, #32373F, #25282E);
 }
 
 .ModalHeader
@@ -170,7 +173,6 @@ html.VROverlay
 	background: var(--pagetitlebackground);
 	align-items: center;
 	min-height: 4.5rem;
-	border-bottom: 2px solid var(--pageheaderbottomborder);
 }
 
 .PageTitleBar .PageSubTitle
@@ -189,26 +191,25 @@ html.VROverlay
 	align-self: center;
 }
 
-.PageTitleBar .PageTitleBackButton
-{
-	font-size: 1rem;
-	border: none;
-	font-weight: bold;
+.PageTitleButton {
 	background: var(--backbuttonbackground);
-	margin: auto 0;
-	/* padding: 0 6px; */
-	margin-left: 1rem;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
 	height: 100%;
 	width: fit-content;
-	flex: 0;
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+}
+
+.PageTitleBar .PageTitleBackButton
+{
+	margin-left: 1rem;
 	margin-right: auto;
 	align-items: center;
 	padding: .5rem;
 	padding-right: 1rem;
-
-	transition-property: background-color;
-	transition-timing-function: ease-out;
-	transition-duration: var(--button-fade-time);
 }
 
 .PageTitleBar .TitleBarSection.RightBackButton
@@ -216,22 +217,19 @@ html.VROverlay
 	opacity: 0;
 }
 
-.PageTitleBar .TitleBarSection.OptionsButton
+.PageTitleBar .OptionsButton
 {
 	font-size: 1rem;
 	border: none;
 	font-weight: bold;
 	background: var(--backbuttonbackground);
-	margin: auto 0;
-	/* padding: 0 6px; */
 	margin-right: 1rem;
 	height: 100%;
 	width: fit-content;
 	flex: 0;
 	margin-left: auto;
 	align-items: center;
-	padding: .5rem;
-	padding-left: 1rem;
+	padding: 0.7rem;
 
 	transition-property: background-color;
 	transition-timing-function: ease-out;
@@ -261,7 +259,7 @@ html.VROverlay
 
 .PageTitleBar .NoSteamWarning
 {
-	background: var(--warningbackgroundselected);
+	background: var(--warningbackground);
 	color: white;
 	font-size: 1.5rem;
 	text-align: center;
@@ -511,7 +509,6 @@ html.VROverlay
 	cursor: pointer;
 }
 
-
 .ActionButtonImageLarge
 {
 	width: 2rem;
@@ -530,7 +527,7 @@ html.VROverlay
 
 .SourceModeButtonImage:hover, .ChordManageButtons:hover .ActionButtonImage, .BindingListEntryButton:hover .ActionButtonImage
 {
-	filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+	filter: invert(14%) sepia(17%) saturate(435%) hue-rotate(181deg) brightness(88%) contrast(94%);
 }
 
 
@@ -551,8 +548,7 @@ div.SourceModeButtonLabel
 	background-color: var(--sourcemodegroupbackground);
 	border-radius: 2px;
 	border: 1px solid transparent;
-	box-shadow: none;
-	transition-property: background-color, box-shadow, border;
+	transition-property: background-color, border;
 	transition-timing-function: ease-out;
 	transition-duration: .23s;
 }
@@ -560,12 +556,10 @@ div.SourceModeButtonLabel
 .SourceModeGroup:hover
 {
 	background-color: var(--sourcemodehover);
-	box-shadow: var(--bordercolor) 0px 0px 5px 0px;
 }
 
 .SourceModeGroup.Edit
 {
-	border: 1px solid var(--bordercolor);
 	background-color: var(--bindingmodeedit);
 }
 
@@ -577,7 +571,6 @@ div.SourceModeButtonLabel
 
 body .rodal-dialog
 {
-	border: 1px solid var(--bordercolor);
 	background: var(--modalbackground);
 }
 
@@ -586,7 +579,6 @@ body .rodal-dialog
 	cursor: pointer;
 	font-size: 2rem;
 	border-radius: 2px;
-	border: 1px solid var(--bordercolor);
 	text-align: center;
 	margin-top: 6px;
 	padding: 0 4px;
@@ -667,9 +659,6 @@ body .rodal-dialog
 	color: var(--text-color);
 	font-weight: bold;
 	background: var(--buttondefault);
-	box-shadow: var(--bordercolor) 0px 0px 5px 0px;
-	border: 1px solid var(--bordercolor);
-	border-radius: 2px;
 	transition-property: background;
 	transition-timing-function: ease-out;
 	transition-duration: var(--button-fade-time);
@@ -693,14 +682,8 @@ body .rodal-dialog
 
 .SourceModeGroup .InlineDropdownLabel
 {
-	border: 1px solid transparent;
 	font-weight: normal;
 	margin-left: 0;
-}
-
-.SourceModeGroup.Edit .InlineDropdownLabel
-{
-	border: 1px solid var(--bordercolor);
 }
 
 .BindingHeaderWrapper .InlineDropdownLabel
@@ -813,10 +796,12 @@ body .rodal-dialog
     width: fit-content;
 }
 
-.AppSelectCenter
+.AppSelectShowMoreButton
 {
     margin-left: auto;
     margin-right: auto;
+
+	border-radius: 1rem;
 }
 
 .CalibrateThumbstickItem
@@ -855,15 +840,18 @@ body .rodal-dialog
 .AppSelectContainer
 {
 	margin: 1rem 2rem 0 2rem;
-	padding: .5rem;
 	transition-property: background;
 	transition-timing-function: ease-out;
 	transition-duration: var(--button-fade-time);
 	background: var(--buttondefault);
-	border: 1px solid var(--bordercolor);
 	display: flex;
 	flex-direction: row;
 	cursor: pointer;
+
+	--app-select-container-padding: 1rem;
+	--app-image-border-radius: 0.5rem;
+	padding: var(--app-select-container-padding);
+	border-radius: calc(var(--app-select-container-padding) + var(--app-image-border-radius));
 }
 
 .AppSelectContainer:first-child
@@ -881,6 +869,7 @@ body .rodal-dialog
 	background-position-x: center;
 	background-repeat: no-repeat;
 	flex-shrink: 0;
+	border-radius: var(--app-image-border-radius);
 }
 
 .AppSelectContainer:hover
@@ -990,14 +979,13 @@ body .rodal-dialog
 {
 	font-size: 1rem;
 	margin: 0 0.5rem;
-	background: var(--chordbindingrowbackground);
+	background: var(--buttondefault);
 	padding: .5rem;
 	cursor: pointer;
 }
 
 .ChordManageTopButton
 {
-	filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
 	margin-right: .5rem;
 }
 
@@ -1036,7 +1024,6 @@ body .rodal-dialog
 {
 	align-self: center;
 	margin: 0 0.2rem;
-	filter: invert(.5) sepia(1) saturate(2) hue-rotate(175deg);
 }
 
 .ChordBindingSet
@@ -1081,7 +1068,7 @@ body .rodal-dialog
 
 .ChordManageButtons:hover
 {
-	color: var(--buttonhover);
+	background-color: var(--buttonhover);
 }
 
 .ChordBindingAddDeleteRow
@@ -1149,8 +1136,6 @@ body .rodal-dialog
 	background: var(--chordbindingrowbackground);
 	align-self: center;
 	padding: 0.5rem;
-	box-shadow: var(--bordercolor) 0px 0px 5px 0px;
-	border: 1px solid var(--bordercolor);
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -1201,24 +1186,6 @@ body .rodal-dialog
 	margin-top: auto;
 	margin-right: 1rem;
 	align-self: flex-end;
-}
-
-.Label.Tab.Warning
-{
-	padding-right: 1.2rem;
-	background-color: var(--warningbackground);
-}
-
-.Tab.Warning.Selected
-{
-	padding-right: 1.2rem;
-	background-color: var(--warningbackgroundselected);
-}
-
-.Label.Tab.Error
-{
-	padding-right: 1.2rem;
-	background-color: var(--errorbackground);
 }
 
 .UnboundActionsCount {
@@ -1509,6 +1476,8 @@ body .rodal-dialog
 {
 	justify-content: center;
 	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .ActionAliasButtonWrapper
@@ -1581,7 +1550,7 @@ body .rodal-dialog
 {
 	margin: 0 1rem;
 	width: 0px;
-	border: 1px solid var(--bordercolor);
+	border: 1px solid lightgray;
 }
 
 .ControllerImageColumnButtons
@@ -1764,12 +1733,56 @@ input.ActionAliasUserSuppliedName {
 	color: var(--descriptiontext);
 }
 
-.Label.Error
+.BindingSaveErrorHeader
 {
-	border-color: red;
-	background-color: #494402;
-	border-width:0.5rem;
-	/* padding:1rem; */
+	color: white;
+	background-color: var(--warningbackground);
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.BindingSaveErrorMessage {
+	font-size: 1.5rem;
+}
+
+.MissingBindingsErrorSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 1rem;
+}
+
+.MissingBindingItem {
+	padding
+}
+
+.Label.Tab.Warning
+{
+	padding-right: 1.2rem;
+	background-color: var(--warningbackground);
+}
+
+.Tab.Warning.Selected
+{
+	padding-right: 1.2rem;
+	background-color: var(--tabbackgroundselected);
+}
+
+.Label.Tab.Error
+{
+	padding-right: 1.2rem;
+	background-color: var(--errorbackground);
+}
+
+.Tab.Error.Selected
+{
+	padding-right: 1.2rem;
+	background-color: var(--tabbackgroundselected);
 }
 
 .TitleCenter
@@ -2253,29 +2266,48 @@ input.ActionAliasUserSuppliedName {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 1.5rem;
-	height: 35px;
-	width: 35px;
+	height: 2.2rem;
+	width: 2.2rem;
 	border-radius: 50%;
-	border: 1px solid #004777;
-	background-color: #27436b;
+	border: 1px;
+	background-color: #586170;
 }
 
-.tippy-tooltip.SourceModes-theme
+.SimulatedControllerInfoSection {
+	color: white;
+	font-size: 1rem;
+	align-items: center;
+}
+
+.SimulatedControllerInfoHelp
 {
+	float: right;
+	margin: 10px;
+	text-align: center;
 	font-size: 1.5rem;
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	border: 1px;
+	background-color: var(--buttondefault);
 }
 
-.tippy-tooltip.BindingLabel-theme
+.tippy-tooltip.ControllerBindingToolTip-theme
 {
 	font-size: 1rem;
+	background-color: #24272d;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
 }
 
-.tippy-tooltip.MainButton-theme
-{
-	font-size: 1rem;
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='top'] .tippy-arrow {
+	border-top-color: #24272d;
 }
-
-.tippy-tooltip.OptionsItem-theme
-{
-	font-size: 1rem;
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='bottom'] .tippy-arrow {
+	border-bottom-color: #24272d;
+}
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='left'] .tippy-arrow {
+	border-left-color: #24272d;
+}
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='right'] .tippy-arrow {
+	border-right-color: #24272d;
 }

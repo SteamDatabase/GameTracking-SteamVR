@@ -3459,6 +3459,7 @@ $wtpt
 .text$x
 .xdata
 .xdata$x
+.y;7i\
 .{sYi
 /$/Z/
 /%s-ISO dup /%s ReencodeType findfont setfont
@@ -3717,7 +3718,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-230503214704Z0/
+230629195117Z0/
 230x323
 2384x3370
 24 24
@@ -4312,7 +4313,6 @@ $wtpt
 <LocationY>%.20g</LocationY>
 <Mr#'pqQr
 <NuJH
-<TeAi
 <Title>%s</Title>
 <Width>%.20g</Width>
 <]&a0F
@@ -11752,7 +11752,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSLx
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14164,7 +14163,6 @@ Xray Chain
 Xray Off Position
 Xt$0D
 Xv(rH
-X{{Dq
 Y %d %d
 Y Focus Center
 Y H+Y
@@ -14522,6 +14520,7 @@ Zoom Select Status
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
+^`^,S
 ^oEZ_
 ^w?Hc
 _-|> <.
@@ -14702,6 +14701,7 @@ _wstat64i32
 `	!!!
 `	x0j
 `"FMv
+`${e`+N^
 `%s' (%d)
 `%s' (%s)
 `%s' (JP2)
@@ -15011,7 +15011,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -21150,6 +21150,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~BLcd$pM
 ~EHcE(
 ~HC(q
+~KtJis
 ~LHcK(
 ~M;C }H
 ~Sfff

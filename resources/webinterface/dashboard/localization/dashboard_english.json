@@ -8,6 +8,7 @@
   "Now_Waiting": "Waiting...",
   "BackToApp": "Back to App",
   "Toggle_Room_View": "Toggle Room View",
+  "RoomSetup": "Room Setup",
   "GoHome": "Go Home",
   "QuitApp": "Quit App",
   "DashboardPower_Header": "System",
@@ -22,6 +23,7 @@
   "UnmuteMicrophone": "Unmute Microphone",
   "MicrophoneVolume": "Microphone Volume",
 
+  "Steam": "Steam",
   "SteamVR_Home": "SteamVR Home",
   "Exit_SteamVR_Home": "Exit SteamVR Home",
   "Exit_Game": "Exit Game",
@@ -80,6 +82,9 @@
   "WelcomeMessage": "Building a VR library that comes with you as your hardware changes has never been easier.",
   "WelcomeBrowseStore": "Browse the Store",
   "WelcomeInstall": "Install Games",
+
+  "ShowSteamUI_Steam": "Open Steam Menu",
+  "ShowSteamUI_QAM": "Open Quick Access Menu",
 
   "Play": "Play"
 }

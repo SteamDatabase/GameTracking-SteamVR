@@ -16,7 +16,6 @@
  A_A^_^]
  A__^
  H3E H3E
- rB\C
 !(0)"
 !hn7!
 "9k0t
@@ -76,8 +75,8 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_022a9aff244731cf200ee99aeca958ed>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CEtronCamera@@EAAXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCAitCamera@@
 .?AVCBaseCamera@@
 .?AVCCameraWorkThread@@
@@ -135,7 +134,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/4:+|!k
 /9{0t'H
 /delivery_rate
 /elapsed_time
@@ -146,6 +144,8 @@
 /height
 /lighthouse/camera/raw_frames
 /server_time_ticks
+/user/ankle/left
+/user/ankle/right
 /user/camera
 /user/chest
 /user/elbow/left
@@ -160,6 +160,8 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/user/wrist/left
+/user/wrist/right
 /width
 0 width
 0-pixel image
@@ -175,7 +177,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503215001Z0/
+230629194750Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -238,6 +240,7 @@
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
+?eq&FJ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
@@ -322,9 +325,8 @@ D$PI;
 D$PfA
 D$TI;
 D$XA#
-D8-!P
-D8-CS
-D8-lQ
+D8-8P
+D8-aO
 D9c0t
 D9c0t)H
 D9{0t
@@ -419,7 +421,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KN/b>._
 K}*n:	
 L$ E3
 L$ Hc
@@ -698,10 +699,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -723,6 +724,7 @@ danish
 de_de
 deque<T> too long
 driver_lighthouse
+e].t>
 el_el
 en_us
 english
@@ -731,7 +733,7 @@ es_mx
 etronlib
 expected marker
 fD9	u
-fW^e.
+fD9&u
 fi_fi
 finnish
 first not IHDR
@@ -775,7 +777,6 @@ l$0A^_
 l$0E3
 l$4H;
 l$8E3
-l$@H;
 l$@t^
 l$HuF
 l$TD;
@@ -808,7 +809,6 @@ not HDR
 not PSD
 not enough pixels
 ntelD
-o5#hsr
 o@@fD
 oD$ fD
 oD$0f
@@ -829,7 +829,6 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-qpvrH
 rND9{0t
 read past buffer
 ro_ro
@@ -905,26 +904,25 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-xndlg
 zh_cn
 zh_tw
 zlib corrupt
 {un'%
+|$ ATAUAVAWH
 |$ ATAVAWH
 |$ AVH
-|$ AVL
 |$ E3
-|$(A^
 |$0H;
-|$8A_A^A\
 |$8H;
 |$<I;
-|$@E3
+|$@A_A^A]A\
+|$HE3
 |$HH;
 |$PH;
 |$PLc
 |$XH;
 |Lu?c
+|W-oCX
 }LuHO
 ~3LcD$(L
 ~6HcD$ I

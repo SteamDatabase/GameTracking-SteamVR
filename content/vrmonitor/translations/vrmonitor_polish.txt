@@ -168,7 +168,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Pomoc techniczna dla partnerów SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Pomoc techniczna dla partnerów Steamworks"
 "MenuAction_CreateSystemReport" "Stwórz raport systemu"
-"MenuAction_ResetSeatedPosition" "Zresetuj pozycję siedzącą"
+"MenuAction_Recenter" "Wyśrodkuj"
 "MenuAction_SystemReportViewer" "Przeglądarka raportów systemu"
 "MenuAction_DisplayFrameTiming" "Zaawansowane czasy klatek"
 "MenuAction_RecordTrackingData" "Nagraj informacje diagnostyczne"
@@ -494,7 +494,7 @@
 "Main_JumplistEntry_Quit" "Wyjście"
 "Main_RuntimeFailed_Message" "Środowisko uruchomieniowe nie mogło wystartować.\n\n%1\n\nMożesz zresetować aktualnie ustawione środowisko uruchomieniowe\n%2\nw oparciu o ścieżkę do pliku wykonywalnego SteamVR\n%3\n"
 
-"VRManifest_Imported_Title" "Zaimportowano pliku manifestu OpenVR"
+"VRManifest_Imported_Title" "Zaimportowano plik manifestu OpenVR"
 "VRManifest_Imported_Message" "Zaimportowano plik manifestu OpenVR: \n %1"
 
 "MenuAction_Compositor_ShowMirror" "Pokaż widok VR"

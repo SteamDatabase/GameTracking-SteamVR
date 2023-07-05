@@ -173,7 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR-kehittäjätuki"
 "MenuAction_SteamWorksDeveloperSupport" "Steamworks-kehittäjätuki"
 "MenuAction_CreateSystemReport" "Luo järjestelmäraportti"
-"MenuAction_ResetSeatedPosition" "Nollaa istuva asento"
+"MenuAction_Recenter" "Keskitä"
 "MenuAction_SystemReportViewer" "Järjestelmäraportin katseluohjelma"
 "MenuAction_DisplayFrameTiming" "Edistynyt ruutuajastus"
 "MenuAction_RecordTrackingData" "Nauhoita seurantatiedot"

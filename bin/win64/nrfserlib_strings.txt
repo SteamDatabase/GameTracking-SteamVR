@@ -482,14 +482,14 @@
 .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$collate@D@std@@
 .?AV?$execution_context_service_base@Vwin_iocp_io_context@detail@asio@@@detail@asio@@
 .?AV?$service_base@Vwin_iocp_handle_service@detail@asio@@@detail@asio@@
 .?AV?$service_base@Vwin_iocp_serial_port_service@detail@asio@@@detail@asio@@
 .?AV?$typeid_wrapper@Vwin_iocp_io_context@detail@asio@@@detail@asio@@
 .?AV?$typeid_wrapper@Vwin_iocp_serial_port_service@detail@asio@@@detail@asio@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVActiveExitCriterias@@
 .?AVCAttributes@@
 .?AVCAuthenticate@@
@@ -632,7 +632,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503215013Z0/
+230629194756Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -647,6 +647,7 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5Vb]*]
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -1515,7 +1516,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSA
+RSDS|
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1735,6 +1736,7 @@ XA^_][H
 XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
+Y!1{n
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1772,6 +1774,7 @@ Zipfile is corrupt or not a zipfile
 \$pI;
 \Device Parameters
 \u=H;
+] DV=
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
@@ -1839,6 +1842,7 @@ _strupr_s
 `.rdata
 `A_A^A\_^
 `A_A^_^]
+a6.I7D
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1864,7 +1868,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 cU	F9
 calloc
 close
@@ -1881,6 +1885,7 @@ empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fD9$xu
+fD9&u
 fD9+u
 fE9&t2H
 false
@@ -1942,7 +1947,6 @@ l$(E3
 l$0E3
 l$8E3
 l$8L;m
-l$@H;
 l$PE3
 l$PM9n
 l$Pff
@@ -2162,6 +2166,7 @@ upper
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
+w)?g_L
 wcschr
 winsock
 wn>Jj
@@ -2172,29 +2177,26 @@ x UATAUAVAWH
 xA\^][
 xA^A]_[
 xAtAL
-x[[bW
 xdigit
 {un'%
 {x\u!H
 {|?uWH
+|$ ATAUAVAWH
 |$ ATAUAWH
 |$ ATAVAWH
 |$ AVH
-|$ AVL
 |$ D+
 |$ E3
 |$ H;
 |$ UATAUAVAWH
 |$ UATAWH
 |$ UH
-|$(A^
 |$0D;
 |$0E3
 |$0uIH
-|$8A_A^A\
 |$8H;
 |$@	u
-|$@E3
+|$@A_A^A]A\
 |$A:t
 |$HE3
 |$HH;
@@ -2210,7 +2212,6 @@ xdigit
 |$pf;
 |$ps`H
 |Lu?c
-}$MF1
 }LuHO
 ~'HcB
 ~qj#k"

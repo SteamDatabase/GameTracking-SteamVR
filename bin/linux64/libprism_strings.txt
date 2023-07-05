@@ -28,6 +28,8 @@ $+
 %s
 %s %s
 %s begin_ctx=%lu
+%s dtime=%d begin_ctx=%lu
+%s dtime=%d end_ctx=%lu
 %s end_ctx=%lu
 %s%c%s
 %s%s
@@ -364,9 +366,9 @@ $+
 12CNonCopyable
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
-17:58:18
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:44:19
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
@@ -384,6 +386,7 @@ $+
 6
 6CPrism
 7
+7CThread
 8
 8CVkImage
 9
@@ -754,7 +757,7 @@ CPrismPoseProvider_Null::GetInstance()
 CPrismPoseProvider_Null::GetInstance()::instance
 CPrismPoseProvider_Null::GetPoses(glm::mat<4, 4, float, (glm::qualifier)0>*, bool*, unsigned int, unsigned long)
 CSWTCH.16
-CSWTCH.207
+CSWTCH.209
 CSWTCH.23
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -786,6 +789,81 @@ CStopwatch::GetElapsedSeconds()
 CStopwatch::Reset()
 CStopwatch::Start()
 CStopwatch::Stop()
+CThread::BHasValidThreadID()
+CThread::CThread()
+CThread::GetCurrentCThread()
+CThread::GetName()
+CThread::GetPriority() const
+CThread::GetResult() const
+CThread::GetThreadProc()
+CThread::Init()
+CThread::IsAlive()
+CThread::IsThreadRunning()
+CThread::Join(unsigned int)
+CThread::OnExit()
+CThread::Resume()
+CThread::SetName(char const*)
+CThread::SetPriority(int)
+CThread::Sleep(unsigned int)
+CThread::Start(unsigned int)
+CThread::Start(unsigned int) [clone .cold]
+CThread::Stop(int)
+CThread::Suspend()
+CThread::Terminate(int)
+CThread::ThreadExceptionWrapper(void*)
+CThread::ThreadProc(void*)
+CThread::ThreadProc(void*) [clone .cold]
+CThread::WaitForCreateComplete(CThreadEvent*)
+CThread::Yield()
+CThread::~CThread()
+CThread::~CThread() [clone .part.0]
+CThreadEvent::CThreadEvent(bool)
+CThreadEvent::CThreadEvent(char const*, bool, bool)
+CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
+CThreadEvent::Check()
+CThreadEvent::Reset()
+CThreadEvent::Set()
+CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
+CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
+CThreadFullMutex::IsCreator() const
+CThreadFullMutex::Release()
+CThreadLocalBase::CThreadLocalBase()
+CThreadLocalBase::Get() const
+CThreadLocalBase::Set(void*)
+CThreadLocalBase::~CThreadLocalBase()
+CThreadLocalInt<long>::~CThreadLocalInt()
+CThreadLocalPtr<CThread>::~CThreadLocalPtr()
+CThreadMutex::CThreadMutex()
+CThreadMutex::~CThreadMutex()
+CThreadRWLock::LockForWrite()
+CThreadRWLock::UnlockWrite()
+CThreadRWLock::WaitForRead()
+CThreadSemaphore::CThreadSemaphore(long, long)
+CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
+CThreadSemaphore::Release(long)
+CThreadSpinLock::Lock(unsigned int) volatile
+CThreadSpinRWLock::LockForRead()
+CThreadSpinRWLock::SpinLockForWrite(unsigned int)
+CThreadSpinRWLock::UnlockRead()
+CThreadSpinRWLock::UnlockWrite()
+CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
+CThreadSyncObject::AssertUseable()
+CThreadSyncObject::CThreadSyncObject()
+CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
+CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
+CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
+CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
+CThreadSyncObject::EnsureSemaphorePostedInternal(int)
+CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
+CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
+CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
+CThreadSyncObject::SaveNameToFile(char const*)
+CThreadSyncObject::SignalThreadSyncObjectInternal()
+CThreadSyncObject::Wait(unsigned int)
+CThreadSyncObject::Wait(unsigned int) [clone .part.0]
+CThreadSyncObject::operator!() const
+CThreadSyncObject::~CThreadSyncObject()
+CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
 CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior)
 CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior) [clone .cold]
 CThreadWatchdog::CleanupWatchdogs()
@@ -893,6 +971,7 @@ CVkCommandBuffer::CmdInsertDebugLabel(char const*)
 CVkCommandBuffer::CmdInsertVRFrameMarker()
 CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int)
 CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int, unsigned int, unsigned int)
+CVkCommandBuffer::CmdSetStencil(unsigned int, unsigned int, unsigned int, VkStencilFaceFlagBits)
 CVkCommandBuffer::End()
 CVkCommandBuffer::Initialize()
 CVkCommandBuffer::MarkReferencedResourcesInUse(CVkTimeline*, facet::CVkTimelinePoint const&)
@@ -1144,6 +1223,7 @@ Error on Release(): Not the lock owner(%d) != %d
 Error reading from socket
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteStringBegin(char const*, unsigned long)
+EventWriteStringDurationF(int, char const*, ...)
 EventWriteStringEnd(char const*, unsigned long)
 EventWriteStringF(char const*, ...)
 Exceeded stackLimit in readValue().
@@ -1794,6 +1874,7 @@ Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
+Jun 29 2023
 K
 L
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
@@ -1841,7 +1922,6 @@ MV-Threshold
 Map
 MarkInUse
 Mask Input Image
-May  3 2023
 MillisecondsFromNanoseconds(unsigned long)
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -1854,7 +1934,6 @@ Motion Vector MeanMaxBlur Pipeline
 Motion Vector Median5x5 Pipeline
 Motion Vector Threshold Pipeline
 N
-N16SteamThreadTools7CThreadE
 N18CPrismDisplay_Null7FactoryE
 N19CFrameHallucination21IDestinationFrameInfoE
 N20CPrismDisplay_Vulkan7FactoryE
@@ -2078,88 +2157,13 @@ Skipping CalculateMotion (swapchain mismatch)
 Socket closed
 Somebody locked a non-leaf shared memory %s while %s was already locked
 St12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
-St12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
+St18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
-SteamThreadTools::CThread::BHasValidThreadID()
-SteamThreadTools::CThread::CThread()
-SteamThreadTools::CThread::GetCurrentCThread()
-SteamThreadTools::CThread::GetName()
-SteamThreadTools::CThread::GetPriority() const
-SteamThreadTools::CThread::GetResult() const
-SteamThreadTools::CThread::GetThreadProc()
-SteamThreadTools::CThread::Init()
-SteamThreadTools::CThread::IsAlive()
-SteamThreadTools::CThread::IsThreadRunning()
-SteamThreadTools::CThread::Join(unsigned int)
-SteamThreadTools::CThread::OnExit()
-SteamThreadTools::CThread::Resume()
-SteamThreadTools::CThread::SetName(char const*)
-SteamThreadTools::CThread::SetPriority(int)
-SteamThreadTools::CThread::Sleep(unsigned int)
-SteamThreadTools::CThread::Start(unsigned int)
-SteamThreadTools::CThread::Start(unsigned int) [clone .cold]
-SteamThreadTools::CThread::Stop(int)
-SteamThreadTools::CThread::Suspend()
-SteamThreadTools::CThread::Terminate(int)
-SteamThreadTools::CThread::ThreadExceptionWrapper(void*)
-SteamThreadTools::CThread::ThreadProc(void*)
-SteamThreadTools::CThread::ThreadProc(void*) [clone .cold]
-SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
-SteamThreadTools::CThread::Yield()
-SteamThreadTools::CThread::~CThread()
-SteamThreadTools::CThread::~CThread() [clone .part.0]
-SteamThreadTools::CThreadEvent::CThreadEvent(bool)
-SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
-SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
-SteamThreadTools::CThreadEvent::Check()
-SteamThreadTools::CThreadEvent::Reset()
-SteamThreadTools::CThreadEvent::Set()
-SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
-SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
-SteamThreadTools::CThreadFullMutex::IsCreator() const
-SteamThreadTools::CThreadFullMutex::Release()
-SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
-SteamThreadTools::CThreadLocalBase::Get() const
-SteamThreadTools::CThreadLocalBase::Set(void*)
-SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
-SteamThreadTools::CThreadLocalInt<long>::~CThreadLocalInt()
-SteamThreadTools::CThreadLocalPtr<SteamThreadTools::CThread>::~CThreadLocalPtr()
-SteamThreadTools::CThreadMutex::CThreadMutex()
-SteamThreadTools::CThreadMutex::~CThreadMutex()
-SteamThreadTools::CThreadRWLock::LockForWrite()
-SteamThreadTools::CThreadRWLock::UnlockWrite()
-SteamThreadTools::CThreadRWLock::WaitForRead()
-SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long)
-SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
-SteamThreadTools::CThreadSemaphore::Release(long)
-SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
-SteamThreadTools::CThreadSpinRWLock::LockForRead()
-SteamThreadTools::CThreadSpinRWLock::SpinLockForWrite(unsigned int)
-SteamThreadTools::CThreadSpinRWLock::UnlockRead()
-SteamThreadTools::CThreadSpinRWLock::UnlockWrite()
-SteamThreadTools::CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
-SteamThreadTools::CThreadSyncObject::AssertUseable()
-SteamThreadTools::CThreadSyncObject::CThreadSyncObject()
-SteamThreadTools::CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
-SteamThreadTools::CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
-SteamThreadTools::CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
-SteamThreadTools::CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
-SteamThreadTools::CThreadSyncObject::EnsureSemaphorePostedInternal(int)
-SteamThreadTools::CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
-SteamThreadTools::CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
-SteamThreadTools::CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
-SteamThreadTools::CThreadSyncObject::SaveNameToFile(char const*)
-SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
-SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
-SteamThreadTools::CThreadSyncObject::Wait(unsigned int) [clone .part.0]
-SteamThreadTools::CThreadSyncObject::operator!() const
-SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
-SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
 SteamVRVersionAsString()
 SteamVRVersionAsString() [clone .cold]
 SteamVRVersionAsString()::s_sCachedVersion
@@ -2249,13 +2253,15 @@ TrimTrailingWhitespace(std::string const&)
 U
 USER
 UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&) [clone .cold]
+UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
 UTF16to8(wchar_t const*)
 UTF16to8(wchar_t const*) [clone .cold]
-UTF16to8(wchar_t const*)::s_converter
 UTF8to16(char const*)
 UTF8to16(char const*) [clone .cold]
-UTF8to16(char const*)::s_converter
 UTF8to16(std::string const&)
+UTF8to16(std::string const&) [clone .cold]
+UTF8to16(std::string const&)::s_convert
 Uint64ToString(unsigned long)
 Unable to bind server socket errno=%d
 Unable to connect to pipe errno=%d
@@ -2680,8 +2686,8 @@ guard variable for FillPipeAddr(sockaddr_un&, std::string)::sPrefix
 guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
-guard variable for UTF16to8(wchar_t const*)::s_converter
-guard variable for UTF8to16(char const*)::s_converter
+guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+guard variable for UTF8to16(std::string const&)::s_convert
 h
 i
 iHexCharToInt(char)
@@ -3062,14 +3068,14 @@ std::__codecvt_utf8_base<char32_t>::do_max_length() const
 std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
 std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
 std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
-std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
-std::__codecvt_utf8_base<wchar_t>::do_encoding() const
-std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
-std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
-std::__codecvt_utf8_base<wchar_t>::do_max_length() const
-std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+std::__codecvt_utf8_utf16_base<wchar_t>::do_always_noconv() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_encoding() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_max_length() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
 std::__detail::_Map_base<VkFormat, std::pair<VkFormat const, CFrameHallucination::Variant_t>, std::allocator<std::pair<VkFormat const, CFrameHallucination::Variant_t> >, std::__detail::_Select1st, std::equal_to<VkFormat>, std::hash<VkFormat>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](VkFormat const&)
 std::__detail::_Map_base<char const*, std::pair<char const* const, IMotionEstimator* (*)()>, std::allocator<std::pair<char const* const, IMotionEstimator* (*)()> >, std::__detail::_Select1st, std::equal_to<char const*>, std::hash<char const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](char const* const&)
 std::__detail::_Map_base<char const*, std::pair<char const* const, IPrismDisplayFactory* (*)()>, std::allocator<std::pair<char const* const, IPrismDisplayFactory* (*)()> >, std::__detail::_Select1st, std::equal_to<char const*>, std::hash<char const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](char const* const&)
@@ -3108,6 +3114,7 @@ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_st
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
@@ -3118,7 +3125,7 @@ std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basi
 std::chrono::_V2::steady_clock::now()
 std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
 std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
-std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
 std::condition_variable::condition_variable()
 std::condition_variable::notify_one()
 std::condition_variable::~condition_variable()
@@ -3223,7 +3230,7 @@ std::vector<unsigned int, std::allocator<unsigned int> >::~vector()
 std::vector<unsigned short, std::allocator<unsigned short> >::reserve(unsigned long)
 std::vector<unsigned short, std::allocator<unsigned short> >::~vector()
 std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> >::_M_default_append(unsigned long)
-std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
 stderr
 steamrt
 steamvr
@@ -3278,6 +3285,7 @@ typeinfo for CPrismDisplay_Vulkan::Factory
 typeinfo for CPrismPanelMask::Initialize(CVkAllocator*, IPrismPoseProvider*, float)::{lambda(vr::EVREye, float, float, vr::DistortionCoordinates_t*)#1}
 typeinfo for CPrismPoseProvider_Null
 typeinfo for CSharedResourceNamespaceServer
+typeinfo for CThread
 typeinfo for CVkBuffer
 typeinfo for CVkCommandBuffer
 typeinfo for CVkCommandBufferPool
@@ -3314,16 +3322,15 @@ typeinfo for Json::StreamWriter::Factory
 typeinfo for Json::StreamWriterBuilder
 typeinfo for Json::StyledWriter
 typeinfo for Json::Writer
-typeinfo for SteamThreadTools::CThread
 typeinfo for bool (*)(char)
 typeinfo for bool (char)
 typeinfo for facet::CVkTimestampQueryPool<2u>
 typeinfo for facet::CVkTimestampQueryPoolBase
 typeinfo for int
 typeinfo for std::__codecvt_utf8_base<char32_t>
-typeinfo for std::__codecvt_utf8_base<wchar_t>
+typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
 typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 typeinfo for std::exception
 typeinfo for std::thread::_State
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<(anonymous namespace)::CPrismInstance::Start(PrismRunParameters_t const*)::{lambda(PrismRunParameters_t)#1}, PrismRunParameters_t> > >
@@ -3342,6 +3349,7 @@ typeinfo name for CPrismDisplay_Vulkan::Factory
 typeinfo name for CPrismPanelMask::Initialize(CVkAllocator*, IPrismPoseProvider*, float)::{lambda(vr::EVREye, float, float, vr::DistortionCoordinates_t*)#1}
 typeinfo name for CPrismPoseProvider_Null
 typeinfo name for CSharedResourceNamespaceServer
+typeinfo name for CThread
 typeinfo name for CVkBuffer
 typeinfo name for CVkCommandBuffer
 typeinfo name for CVkCommandBufferPool
@@ -3378,13 +3386,12 @@ typeinfo name for Json::StreamWriter::Factory
 typeinfo name for Json::StreamWriterBuilder
 typeinfo name for Json::StyledWriter
 typeinfo name for Json::Writer
-typeinfo name for SteamThreadTools::CThread
 typeinfo name for bool (*)(char)
 typeinfo name for bool (char)
 typeinfo name for facet::CVkTimestampQueryPool<2u>
 typeinfo name for facet::CVkTimestampQueryPoolBase
 typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+typeinfo name for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<(anonymous namespace)::CPrismInstance::Start(PrismRunParameters_t const*)::{lambda(PrismRunParameters_t)#1}, PrismRunParameters_t> > >
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
 typeinfo name for void (*)(ELogLevel, char const*, void*)
@@ -3956,6 +3963,7 @@ vtable for CPrismDisplay_Vulkan
 vtable for CPrismDisplay_Vulkan::Factory
 vtable for CPrismPoseProvider_Null
 vtable for CSharedResourceNamespaceServer
+vtable for CThread
 vtable for CVkBuffer
 vtable for CVkCommandBuffer
 vtable for CVkCommandBufferPool
@@ -3981,7 +3989,6 @@ vtable for Json::StreamWriter::Factory
 vtable for Json::StreamWriterBuilder
 vtable for Json::StyledWriter
 vtable for Json::Writer
-vtable for SteamThreadTools::CThread
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__function_type_info
 vtable for __cxxabiv1::__pointer_type_info
@@ -3997,13 +4004,14 @@ vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator
 vtable for std::basic_streambuf<char, std::char_traits<char> >
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
 vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<(anonymous namespace)::CPrismInstance::Start(PrismRunParameters_t const*)::{lambda(PrismRunParameters_t)#1}, PrismRunParameters_t> > >
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
 w
 waitpid
 wb
 wcslen
+wmemcpy
 write
 wrong ELF class: ELFCLASS32
 wstring_convert::from_bytes

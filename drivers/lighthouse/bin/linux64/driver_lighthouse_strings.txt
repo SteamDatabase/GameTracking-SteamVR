@@ -129,6 +129,7 @@ $0}
 $@
 %
 %%.%dg
+%+e
 %+e %+e
 %+e %+e %+e
 %.*g
@@ -149,7 +150,6 @@ $@
 %c
 %d
 %d bits of actual data (counting padding)
-%d.
 %d.%d
 %d.%d.%d
 %d.%d.%d.%d
@@ -166,7 +166,6 @@ $@
 %s
 %s %c:
 %s %s
-%s %s %s %s
 %s %s startup with PID=%u, config=%s, runtime=%s
 %s -
 %s - Unable to init
@@ -175,6 +174,8 @@ $@
 %s called without first releasing previous slot!
 %s created to play "%s"
 %s disambiguator provided base configuration. Rotor count: %d
+%s dtime=%d begin_ctx=%lu
+%s dtime=%d end_ctx=%lu
 %s end_ctx=%lu
 %s pitch ~%0.1f deg roll ~%0.1f deg
 %s%c%s
@@ -445,6 +446,7 @@ $@
 *ZN22CLighthouseHmdProvider4InitEPN2vr16IVRDriverContextEEUlPKcE_
 *ZN6CVRLog7InitLogEPKcS1_bmEUl9ELogLevelS1_PvE_
 *ZN6vortex13CLighthouseDB18Notify_DBActivatedEvEUlPNS_21ILighthouseDBListenerEE_
+*ZN6vortex13CLighthouseDB24Notify_DBBaseDeviceAddedEjEUlPNS_21ILighthouseDBListenerEE_
 *ZN6vortex13CLighthouseDB24Notify_DBBaseDeviceEventEjNS_21ILighthouseDBListener23EBaseStationDeviceEventEEUlPS1_E_
 *ZN6vortex13CLighthouseDB25Notify_DBUniverseSelectedEmEUlPNS_21ILighthouseDBListenerEE_
 *ZN6vortex13CLighthouseDB27Notify_DBBaseDeviceModifiedEjEUlPNS_21ILighthouseDBListenerEE_
@@ -561,6 +563,7 @@ $@
 /data/src/aitcamlib/cbasecamera.cpp
 /data/src/aitcamlib/work_thread.cpp
 /data/src/common/vrcommon/animation/animresourcemanager.cpp
+/data/src/common/vrcommon/openvr_internal.cpp
 /data/src/common/vrcommon/openvrtools.cpp
 /data/src/common/vrcommon/vrmailbox.cpp
 /data/src/common/vrcore/src/ipcpipe.cpp
@@ -604,16 +607,7 @@ $@
 /devices/lighthouse/
 /e%s%s
 /elapsed_time
-/etc/SUSE-release
-/etc/debian_release
-/etc/fedora-release
-/etc/gentoo-release
-/etc/lsb-release
-/etc/mandrake-release
 /etc/os-release
-/etc/redhat-release
-/etc/slackware-release
-/etc/yellowdog-release
 /factory_accel_bias
 /factory_accel_scale
 /factory_gyro_bias
@@ -631,36 +625,34 @@ $@
 /input/application_menu/click
 /input/b/click
 /input/b/touch
+/input/dpad_down/click
+/input/dpad_left/click
+/input/dpad_right/click
+/input/dpad_up/click
 /input/finger/index
-/input/finger/pinky
-/input/finger/ring
 /input/grip/click
 /input/grip/force
-/input/grip/touch
-/input/grip/value
+/input/joystick/x
+/input/joystick/y
+/input/menu/click
 /input/mute_mic/click
-/input/power/click
 /input/skeleton/left
 /input/skeleton/right
 /input/system/click
-/input/system/touch
-/input/thumb/click
 /input/thumbstick/click
 /input/thumbstick/touch
 /input/thumbstick/x
 /input/thumbstick/y
 /input/trackpad/click
 /input/trackpad/force
-/input/trackpad/x
-/input/trackpad/y
 /input/trigger/click
+/input/trigger/touch
 /input/trigger/value
+/input/view/click
 /input/volume_down/click
 /input/volume_up/click
 /input/x/click
-/input/x/touch
 /input/y/click
-/input/y/touch
 /lighthouse/
 /lighthouse/camera/raw_frames
 /observed_basestations
@@ -671,7 +663,6 @@ $@
 /proc/self/cmdline
 /proc/self/exe
 /proc/self/status
-/proc/version
 /proximity
 /sec
 /server_time_ticks
@@ -748,13 +739,12 @@ $@
 16CVkCommandBuffer
 16CVrcDecodeTagged
 16CWirelessDecoder
-17:58:18
 17CBoneMaskResource
 17CFirmwareManifest
 17CImuTrackerThread
-17CKalmanQuaternion
 17CLinuxVideoStream
 18IUsbDeviceCallback
+19:44:19
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -783,6 +773,7 @@ $@
 4C
 4Pole
 7
+7CThread
 8
 8CVkImage
 8J
@@ -826,7 +817,7 @@ $@
 @
 @>
 @@
-@@fff?
+@fff?
 A
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than
@@ -1848,7 +1839,7 @@ CLighthouseHmdDriver::LoadLighthousePointsScaleData(std::string const&) [clone .
 CLighthouseHmdDriver::LogMessage(ELogLevel, char const*, ...)
 CLighthouseHmdDriver::MasterSoundVolumeMuteChanged(float, bool)
 CLighthouseHmdDriver::NumTrackedCameras()
-CLighthouseHmdDriver::OnAuxEvent(int, double)
+CLighthouseHmdDriver::OnAuxEvent(int, double, int)
 CLighthouseHmdDriver::OnCameraAsyncCompletionCallback(void const*)
 CLighthouseHmdDriver::OnDebugInertialStateChangeFromNonImuSource(vortex::TrackingInertialState const&)
 CLighthouseHmdDriver::OnHtcHmdDeviceConnect(htc::HtcHmdDeviceInfo_t const&)
@@ -2098,15 +2089,14 @@ CPrismDirect::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t 
 CPrismDirect::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2]) [clone .cold]
 CPrismDirect::UpdateUndistortParams()
 CRefCount::Release() const
-CSWTCH.124
-CSWTCH.131
+CSWTCH.128
+CSWTCH.132
 CSWTCH.133
-CSWTCH.157
 CSWTCH.16
 CSWTCH.161
-CSWTCH.176
+CSWTCH.180
 CSWTCH.1899
-CSWTCH.207
+CSWTCH.209
 CSWTCH.221
 CSWTCH.23
 CSWTCH.857
@@ -2160,6 +2150,81 @@ CSubtractPoseOperation::AddToRecipe(CPoseRecipe&, unsigned char, unsigned char, 
 CSubtractPoseOperation::Evaluate(CPoseUpdateContext&, CSubtractPoseOperation::OpSettings const*)
 CSubtractPoseOperation::Evaluate(CPoseUpdateContext&, CSubtractPoseOperation::OpSettings const*) [clone .cold]
 CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....
+CThread::BHasValidThreadID()
+CThread::CThread()
+CThread::GetCurrentCThread()
+CThread::GetName()
+CThread::GetPriority() const
+CThread::GetResult() const
+CThread::GetThreadProc()
+CThread::Init()
+CThread::IsAlive()
+CThread::IsThreadRunning()
+CThread::Join(unsigned int)
+CThread::OnExit()
+CThread::Resume()
+CThread::SetName(char const*)
+CThread::SetPriority(int)
+CThread::Sleep(unsigned int)
+CThread::Start(unsigned int)
+CThread::Start(unsigned int) [clone .cold]
+CThread::Stop(int)
+CThread::Suspend()
+CThread::Terminate(int)
+CThread::ThreadExceptionWrapper(void*)
+CThread::ThreadProc(void*)
+CThread::ThreadProc(void*) [clone .cold]
+CThread::WaitForCreateComplete(CThreadEvent*)
+CThread::Yield()
+CThread::~CThread()
+CThread::~CThread() [clone .part.0]
+CThreadEvent::CThreadEvent(bool)
+CThreadEvent::CThreadEvent(char const*, bool, bool)
+CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
+CThreadEvent::Check()
+CThreadEvent::Reset()
+CThreadEvent::Set()
+CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
+CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
+CThreadFullMutex::IsCreator() const
+CThreadFullMutex::Release()
+CThreadLocalBase::CThreadLocalBase()
+CThreadLocalBase::Get() const
+CThreadLocalBase::Set(void*)
+CThreadLocalBase::~CThreadLocalBase()
+CThreadLocalInt<long>::~CThreadLocalInt()
+CThreadLocalPtr<CThread>::~CThreadLocalPtr()
+CThreadMutex::CThreadMutex()
+CThreadMutex::~CThreadMutex()
+CThreadRWLock::LockForWrite()
+CThreadRWLock::UnlockWrite()
+CThreadRWLock::WaitForRead()
+CThreadSemaphore::CThreadSemaphore(long, long)
+CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
+CThreadSemaphore::Release(long)
+CThreadSpinLock::Lock(unsigned int) volatile
+CThreadSpinRWLock::LockForRead()
+CThreadSpinRWLock::SpinLockForWrite(unsigned int)
+CThreadSpinRWLock::UnlockRead()
+CThreadSpinRWLock::UnlockWrite()
+CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
+CThreadSyncObject::AssertUseable()
+CThreadSyncObject::CThreadSyncObject()
+CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
+CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
+CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
+CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
+CThreadSyncObject::EnsureSemaphorePostedInternal(int)
+CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
+CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
+CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
+CThreadSyncObject::SaveNameToFile(char const*)
+CThreadSyncObject::SignalThreadSyncObjectInternal()
+CThreadSyncObject::Wait(unsigned int)
+CThreadSyncObject::Wait(unsigned int) [clone .part.0]
+CThreadSyncObject::operator!() const
+CThreadSyncObject::~CThreadSyncObject()
+CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
 CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior)
 CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior) [clone .cold]
 CThreadWatchdog::CleanupWatchdogs()
@@ -2411,6 +2476,7 @@ CVkCommandBuffer::CmdInsertDebugLabel(char const*)
 CVkCommandBuffer::CmdInsertVRFrameMarker()
 CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int)
 CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int, unsigned int, unsigned int)
+CVkCommandBuffer::CmdSetStencil(unsigned int, unsigned int, unsigned int, VkStencilFaceFlagBits)
 CVkCommandBuffer::End()
 CVkCommandBuffer::Initialize()
 CVkCommandBuffer::MarkReferencedResourcesInUse(CVkTimeline*, facet::CVkTimelinePoint const&)
@@ -2589,6 +2655,7 @@ CWirelessDecoder::Reset()
 CWirelessDecoder::~CWirelessDecoder()
 CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int)
 CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int) [clone .cold]
+CWirelessDecoderWv2::DecodeControllerStateK2(unsigned char const*, int)
 CWirelessDecoderWv2::Reset()
 CWirelessDecoderWv2::ResetImpl()
 CWirelessDecoderWv2::~CWirelessDecoderWv2()
@@ -2719,6 +2786,7 @@ Creating new universe %llu because there were no %sexisting universes
 CriticalSection != NULL
 CropImage(ImageView_s const&, int)
 D
+DISTORT_BSPLINE
 DISTORT_DPOLY3
 DISTORT_DPOLY3_SCALED
 DISTORT_DPOLY4_PANELSCALE
@@ -2805,8 +2873,6 @@ Display_Camera_Calibration::from_json(Json::Value const&)
 Display_Camera_Calibration::from_json(Json::Value const&) [clone .cold]
 Display_Camera_Calibration::to_json() const
 Display_Camera_Calibration::to_json() const [clone .cold]
-Display_Camera_Calibration::to_json(math::Matrix33T<float> const&)
-Display_Camera_Calibration::to_json(math::Matrix33T<float> const&) [clone .cold]
 Disregard world_from_global entry in universe %llu
 Distortion_Model::ModelTypeFromString(std::string const&)
 Distortion_Model::StringFromModelType(Distortion_Type)
@@ -3021,6 +3087,7 @@ EstimateIndexColumnCorrection(vortex::panel_stats_t const&, int)
 Etron_%d_%d_v%d
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteStringBegin(char const*, unsigned long)
+EventWriteStringDurationF(int, char const*, ...)
 EventWriteStringEnd(char const*, unsigned long)
 EventWriteStringF(char const*, ...)
 Exceeded stackLimit in readValue().
@@ -3358,20 +3425,12 @@ GetInteropImage
 GetMessage
 GetModuleRelativeRuntimeDir()
 GetModuleRelativeRuntimeDir() [clone .cold]
-GetNameFromOSType(EOSType)
 GetNamespacingUid()
 GetNamespacingUid() [clone .cold]
 GetNamespacingUid()::s_cachedNamespaceUid
 GetNextEventId()
 GetNextEventId()::ulMessageCounter
 GetNextSwapTextureSetIndex
-GetOSDetailString(char*, int)
-GetOSType()
-GetOSType()::eOSVersion
-GetPlatformFromOS(EOSType, bool)
-GetPlatformName(bool*)
-GetPlatformNameFromEPlatformType(EPlatformType)
-GetPortableOsVersionInformation(SPortableOsVersionInformation*)
 GetRepeatedBool
 GetRepeatedDouble
 GetRepeatedEnum
@@ -3411,7 +3470,6 @@ GetVRLog()
 GetVRLogTimeString(bool)
 GpuSpeed
 H
-HB
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
 HIDIOCGRDESC
 HIDIOCGRDESCSIZE
@@ -3545,7 +3603,7 @@ IVRApplications_007
 IVRAudioDevices::CVRAudioDeviceInfo::~CVRAudioDeviceInfo()
 IVRBlockQueue_005
 IVRCameraComponent_003
-IVRCameraPassThruInternal_001
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -3610,7 +3668,7 @@ InitDevice
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) [clone .cold]
 InitIfNeeded
-InitInternalCameraPassThruInterface(std::function<void* (char const*)>)
+InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
 InitInternalInterfaces(std::function<void* (char const*)>, bool)
 InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -3719,6 +3777,7 @@ IsRunningInAppContainer()
 IsRunningInAppContainer() [clone .cold]
 IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
 IsRunningInAppContainer()::s_bIsRunningInAppContainer
+IsValid()
 IsWorkstationLocked()
 J
 JFIF
@@ -4164,6 +4223,7 @@ Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
+Jun 29 2023
 K
 KHR_lights_punctual
 Knu RevB
@@ -4193,14 +4253,6 @@ LighthouseDirect: Optical data at time %.6f < filter at %.6f%s
 LighthouseUSB
 Line %d, Column %d
 Line:
-Linux
-Linux 2.2
-Linux 2.4
-Linux 2.6
-Linux 3.10
-Linux 3.2
-Linux 3.5
-Linux 3.6
 LiquidVR
 LiquidVR::BCanRunDirectModeBasedOnDriverVersion(unsigned int, unsigned int)
 LiquidVR::BCanRunVulkanBasedOnDriverVersion()
@@ -4289,20 +4341,6 @@ MIPI Init
 MIPI Init Error
 MSB
 MV dump not supported
-Mac OS
-MacOS 10.10
-MacOS 10.11
-MacOS 10.12
-MacOS 10.4
-MacOS 10.5
-MacOS 10.5.8
-MacOS 10.6
-MacOS 10.6.3
-MacOS 10.6.4 with Apple's Snow Leopard Graphics Update
-MacOS 10.6.7
-MacOS 10.7
-MacOS 10.8
-MacOS 10.9
 Mailbox %s received message %s, which it didn't have a handler for
 MakeFileWriteable(char const*)
 ManualURL
@@ -4317,7 +4355,6 @@ Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
-May  3 2023
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
 Message class "
@@ -4373,7 +4410,6 @@ N10lighthouse2pb5CVec3E
 N10lighthouse2pb7CHeaderE
 N10lighthouse2pb7CRecordE
 N16CAnimFactoryBase13CFactoryMakerE
-N16SteamThreadTools7CThreadE
 N17CAnimFactoryBaseTI13CAnimResourceE14CFactoryMakerTI13CAnimSkeletonEE
 N17CAnimFactoryBaseTI13CAnimResourceE14CFactoryMakerTI17CBoneMaskResourceEE
 N17CAnimFactoryBaseTI13CAnimResourceE14CFactoryMakerTI22CKeyframedDataResourceEE
@@ -4615,7 +4651,6 @@ O
 OK
 OOTX Packet Dump -- len = %d
 OPAQUE
-OSTypesAreCompatible(EOSType, EOSType)
 Object
 Ok
 Old Normal: %f %f %f
@@ -4686,7 +4721,6 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PS3
 Pairing Failed
 Pairing Start
 Pairing Success
@@ -5033,12 +5067,12 @@ Source: %s -- Preferred basestation %08X
 Spot light description not found.
 St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 St12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
-St12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
 St15_Sp_counted_ptrIPSt6vectorIhSaIhEELN9__gnu_cxx12_Lock_policyE2EE
 St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
 St17_Weak_result_typeIM10CVRMailboxFvRKN4Json5ValueEEE
 St17_Weak_result_typeIM12CEtronCameraFvSt10shared_ptrIN8vrcamera14IVRCameraFrameEEEE
 St17_Weak_result_typeIM18CLighthousePairingFvRKN4Json5ValueEEE
+St18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 St19_Sp_make_shared_tag
 St23_Sp_counted_ptr_inplaceI11VcetContextSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceI6VcetBoSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
@@ -5069,81 +5103,6 @@ SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
 SteamLanguageToSteamVRLanguage(std::string const&)
-SteamThreadTools::CThread::BHasValidThreadID()
-SteamThreadTools::CThread::CThread()
-SteamThreadTools::CThread::GetCurrentCThread()
-SteamThreadTools::CThread::GetName()
-SteamThreadTools::CThread::GetPriority() const
-SteamThreadTools::CThread::GetResult() const
-SteamThreadTools::CThread::GetThreadProc()
-SteamThreadTools::CThread::Init()
-SteamThreadTools::CThread::IsAlive()
-SteamThreadTools::CThread::IsThreadRunning()
-SteamThreadTools::CThread::Join(unsigned int)
-SteamThreadTools::CThread::OnExit()
-SteamThreadTools::CThread::Resume()
-SteamThreadTools::CThread::SetName(char const*)
-SteamThreadTools::CThread::SetPriority(int)
-SteamThreadTools::CThread::Sleep(unsigned int)
-SteamThreadTools::CThread::Start(unsigned int)
-SteamThreadTools::CThread::Start(unsigned int) [clone .cold]
-SteamThreadTools::CThread::Stop(int)
-SteamThreadTools::CThread::Suspend()
-SteamThreadTools::CThread::Terminate(int)
-SteamThreadTools::CThread::ThreadExceptionWrapper(void*)
-SteamThreadTools::CThread::ThreadProc(void*)
-SteamThreadTools::CThread::ThreadProc(void*) [clone .cold]
-SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
-SteamThreadTools::CThread::Yield()
-SteamThreadTools::CThread::~CThread()
-SteamThreadTools::CThread::~CThread() [clone .part.0]
-SteamThreadTools::CThreadEvent::CThreadEvent(bool)
-SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
-SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
-SteamThreadTools::CThreadEvent::Check()
-SteamThreadTools::CThreadEvent::Reset()
-SteamThreadTools::CThreadEvent::Set()
-SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
-SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
-SteamThreadTools::CThreadFullMutex::IsCreator() const
-SteamThreadTools::CThreadFullMutex::Release()
-SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
-SteamThreadTools::CThreadLocalBase::Get() const
-SteamThreadTools::CThreadLocalBase::Set(void*)
-SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
-SteamThreadTools::CThreadLocalInt<long>::~CThreadLocalInt()
-SteamThreadTools::CThreadLocalPtr<SteamThreadTools::CThread>::~CThreadLocalPtr()
-SteamThreadTools::CThreadMutex::CThreadMutex()
-SteamThreadTools::CThreadMutex::~CThreadMutex()
-SteamThreadTools::CThreadRWLock::LockForWrite()
-SteamThreadTools::CThreadRWLock::UnlockWrite()
-SteamThreadTools::CThreadRWLock::WaitForRead()
-SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long)
-SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
-SteamThreadTools::CThreadSemaphore::Release(long)
-SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
-SteamThreadTools::CThreadSpinRWLock::LockForRead()
-SteamThreadTools::CThreadSpinRWLock::SpinLockForWrite(unsigned int)
-SteamThreadTools::CThreadSpinRWLock::UnlockRead()
-SteamThreadTools::CThreadSpinRWLock::UnlockWrite()
-SteamThreadTools::CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
-SteamThreadTools::CThreadSyncObject::AssertUseable()
-SteamThreadTools::CThreadSyncObject::CThreadSyncObject()
-SteamThreadTools::CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
-SteamThreadTools::CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
-SteamThreadTools::CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
-SteamThreadTools::CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
-SteamThreadTools::CThreadSyncObject::EnsureSemaphorePostedInternal(int)
-SteamThreadTools::CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
-SteamThreadTools::CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
-SteamThreadTools::CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
-SteamThreadTools::CThreadSyncObject::SaveNameToFile(char const*)
-SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
-SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
-SteamThreadTools::CThreadSyncObject::Wait(unsigned int) [clone .part.0]
-SteamThreadTools::CThreadSyncObject::operator!() const
-SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
-SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
 SteamVRVersionAsString()
 SteamVRVersionAsString() [clone .cold]
 SteamVRVersionAsString()::s_sCachedVersion
@@ -5337,13 +5296,15 @@ USB status (rates over
 USER
 UTF-8 data when
 UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&) [clone .cold]
+UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
 UTF16to8(wchar_t const*)
 UTF16to8(wchar_t const*) [clone .cold]
-UTF16to8(wchar_t const*)::s_converter
 UTF8to16(char const*)
 UTF8to16(char const*) [clone .cold]
-UTF8to16(char const*)::s_converter
 UTF8to16(std::string const&)
+UTF8to16(std::string const&) [clone .cold]
+UTF8to16(std::string const&)::s_convert
 Uint64ToString(unsigned long)
 Unable to SetLcmBrightness
 Unable to bind server socket errno=%d
@@ -5731,9 +5692,6 @@ VRWriteMiniDump_Internal(char const*, unsigned int, void*, bool)::s_mutex
 VR_COMBINED_LOGGING
 VR_CONFIG_PATH
 VR_FIRMWARE_MANIFEST_FILE
-VR_Internal_Is64BitOS()
-VR_Internal_Is64BitOS()::bInitialized
-VR_Internal_Is64BitOS()::bResult
 VR_LOG_DEBUG
 VR_LOG_PATH
 VR_OVERRIDE
@@ -5987,24 +5945,6 @@ WinRT::Present()
 WinRT::SetDisplayMode(WinRT::DisplayMode_t*)
 WinRT::Shutdown()
 WinRT::WaitForPresent(unsigned long*, float*)
-Windows
-Windows 10
-Windows 11
-Windows 2000
-Windows 2003
-Windows 2008
-Windows 2012
-Windows 2012 R2
-Windows 3.11
-Windows 7
-Windows 8
-Windows 8.1
-Windows 95
-Windows 98
-Windows ME
-Windows NT
-Windows Vista
-Windows XP
 WorkerThreadInitFailed
 WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool)
 WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool) [clone .cold]
@@ -6712,11 +6652,18 @@ controller
 copyright
 corrupt
 cos
+cosf
 count
 crc32
 crc32(unsigned int, void const*, unsigned long)
 crc32(unsigned int, void const*, unsigned long)::crcTable
 create
+cryptor::string_encryptor<14ul>::decrypt() const
+cryptor::string_encryptor<16ul>::decrypt() const
+cryptor::string_encryptor<19ul>::decrypt() const
+cryptor::string_encryptor<29ul>::decrypt() const
+cryptor::string_encryptor<5ul>::decrypt() const
+cryptor::string_encryptor<8ul>::decrypt() const
 cs_cs
 ctime
 czech
@@ -6736,6 +6683,7 @@ dbhistory
 dcil
 de_de
 deactivateStandbyOverride
+default_mm
 default_value
 deflate
 deflateEnd
@@ -6775,6 +6723,7 @@ display_usb_pid
 display_usb_protocol
 display_usb_vid
 distort
+distort_math::bspline::BSplineBasis
 distortion
 distortion_blue
 distortion_red
@@ -6791,6 +6740,8 @@ double Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<
 double Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 0, -1, -1> const, 1, -1, false> const> const, Eigen::Block<Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> > const, -1, 1, true> const> >::redux<Eigen::internal::scalar_sum_op<double, double> >(Eigen::internal::scalar_sum_op<double, double> const&) const [clone .isra.0]
 double Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, 3, 3, 0, 3, 3> const, 1, 3, false> const> const, Eigen::Block<Eigen::Matrix<double, 3, 3, 0, 3, 3> const, 3, 1, true> const> >::redux<Eigen::internal::scalar_sum_op<double, double> >(Eigen::internal::scalar_sum_op<double, double> const&) const [clone .isra.0]
 double const& google::protobuf::internal::GeneratedMessageReflection::GetRaw<double>(google::protobuf::Message const&, google::protobuf::FieldDescriptor const*) const
+double distort_math::bspline::BSplineEval<double, double>(double const*, int, double)
+double distort_math::bspline::BSplineEvalSingle<double, double>(double const*, double)
 double vortex::lighthouse::UnwrapAngle<double>(double const&)
 double* google::protobuf::internal::GeneratedMessageReflection::MutableRaw<double>(google::protobuf::Message*, google::protobuf::FieldDescriptor const*) const
 doubleSided
@@ -6874,6 +6825,7 @@ extrinsics
 eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
+eye_tracking
 f
 f == __null || dynamic_cast<To>(f) != __null
 facet::AppendToNextChain(void const*&, void const*)
@@ -7090,6 +7042,8 @@ flWaitTime < 1.0
 flags
 float
 float const& google::protobuf::internal::GeneratedMessageReflection::GetRaw<float>(google::protobuf::Message const&, google::protobuf::FieldDescriptor const*) const
+float distort_math::bspline::BSplineEval<float, double>(double const*, int, float)
+float distort_math::bspline::BSplineEvalSingle<float, double>(double const*, float)
 float rdistortion = 1.0 + r2*(coeff_0123.x + r2*coeff_0123.y);    float x_y = p.x*p.y;    p.x = p.x*rdistortion + 2.0*coeff_0123.z*x_y + coeff_0123.w*(r2 + 2.0*p.x*p.x);    p.y = p.y*rdistortion + 2.0*coeff_0123.w*x_y + coeff_0123.z*(r2 + 2.0*p.y*p.y);
 float* google::protobuf::internal::GeneratedMessageReflection::MutableRaw<float>(google::protobuf::Message*, google::protobuf::FieldDescriptor const*) const
 float2 %s(float2 p_in, float4 coeff_0123, float4 coeff_4567, float2 center){    float2 p = p_in - center;    float r2 = p.x*p.x + p.y*p.y;%s    return p + center;}
@@ -7180,7 +7134,7 @@ g_pVRApplications
 g_pVRApplicationsInternal
 g_pVRAudioDevices
 g_pVRBlockQueue
-g_pVRCameraPassThruInternal
+g_pVRCameraPassthroughInternal
 g_pVRChaperone
 g_pVRChaperoneInternal
 g_pVRChaperoneSetup
@@ -9253,8 +9207,8 @@ guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
 guard variable for OpenVR_ReadVersionFile(std::string&, unsigned int*)::s_CachedVersion
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
-guard variable for UTF16to8(wchar_t const*)::s_converter
-guard variable for UTF8to16(char const*)::s_converter
+guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+guard variable for UTF8to16(std::string const&)::s_convert
 guard variable for tinygltf::Value::Get(int) const::null_value
 guard variable for vortex::CLighthouseDirect::UpdateLighthouseDbImuCalibration()::k_fRequiredAccBiasVariance
 guard variable for vortex::CLighthouseDirect::UpdateLighthouseDbImuCalibration()::k_fRequiredAccScaleVariance
@@ -9947,7 +9901,6 @@ lighthousedriver:
 lights
 linear_search_fdes
 linear_search_fdes.cold
-linux
 listen
 loadedDevice
 loadedInstance
@@ -9989,7 +9942,6 @@ m_ulHandle != vr::k_ulInvalidMailbox
 m_waitSemaphores.size() == m_waitSemaphoreStages.size()
 m_waitTimelines.size() == m_waitPoints.size()
 m_waitTimelines.size() == m_waitStages.size()
-macos
 magFilter
 malloc
 manufacturer
@@ -10001,8 +9953,78 @@ map_key must not name a repeated field.
 marker.4
 material
 materials
+math::Matrix33T<double>::Matrix33T()
+math::Matrix33T<double>::Matrix33T(double const (*) [3])
+math::Matrix33T<double>::Matrix33T(double)
+math::Matrix33T<double>::Matrix33T(double, double, double, double, double, double, double, double, double)
+math::Matrix33T<double>::Matrix33T(math::SymMat3T<double> const&)
+math::Matrix33T<double>::adjoint() const
+math::Matrix33T<double>::as_rowmajor_array()
+math::Matrix33T<double>::as_rowmajor_array() const
+math::Matrix33T<double>::as_rowmajor_array2()
+math::Matrix33T<double>::as_rowmajor_array2() const
+math::Matrix33T<double>::col(int) const
+math::Matrix33T<double>::determinant() const
+math::Matrix33T<double>::diagonal(double, double, double)
+math::Matrix33T<double>::dump() const
+math::Matrix33T<double>::euler_decomposition() const
+math::Matrix33T<double>::from_json(Json::Value const&)
+math::Matrix33T<double>::get_uniform_scale() const
+math::Matrix33T<double>::ident()
+math::Matrix33T<double>::inverse() const
+math::Matrix33T<double>::operator()(int, int)
+math::Matrix33T<double>::operator()(int, int) const
+math::Matrix33T<double>::operator*=(double)
+math::Matrix33T<double>::operator+=(math::Matrix33T<double> const&)
+math::Matrix33T<double>::operator-=(math::Matrix33T<double> const&)
+math::Matrix33T<double>::orthonormalize()
+math::Matrix33T<double>::rank1_add(math::Vec3T<double> const&, math::Vec3T<double> const&)
+math::Matrix33T<double>::rank1_sub(math::Vec3T<double> const&, math::Vec3T<double> const&)
+math::Matrix33T<double>::rotation(math::Vec3T<double> const&, double)
+math::Matrix33T<double>::row(int) const
+math::Matrix33T<double>::set_col(int, math::Vec3T<double> const&)
+math::Matrix33T<double>::set_row(int, math::Vec3T<double> const&)
+math::Matrix33T<double>::to_json() const
+math::Matrix33T<double>::trace() const
+math::Matrix33T<double>::transpose() const
+math::Matrix33T<double>::zero()
 math::Matrix33T<float> math::operator*<float>(math::Matrix33T<float> const&, math::Matrix33T<float> const&)
+math::Matrix33T<float>::Matrix33T()
+math::Matrix33T<float>::Matrix33T(float const (*) [3])
+math::Matrix33T<float>::Matrix33T(float)
+math::Matrix33T<float>::Matrix33T(float, float, float, float, float, float, float, float, float)
+math::Matrix33T<float>::Matrix33T(math::SymMat3T<float> const&)
+math::Matrix33T<float>::adjoint() const
+math::Matrix33T<float>::as_rowmajor_array()
+math::Matrix33T<float>::as_rowmajor_array() const
+math::Matrix33T<float>::as_rowmajor_array2()
+math::Matrix33T<float>::as_rowmajor_array2() const
+math::Matrix33T<float>::col(int) const
+math::Matrix33T<float>::determinant() const
+math::Matrix33T<float>::diagonal(float, float, float)
+math::Matrix33T<float>::dump() const
+math::Matrix33T<float>::euler_decomposition() const
+math::Matrix33T<float>::from_json(Json::Value const&)
+math::Matrix33T<float>::get_uniform_scale() const
+math::Matrix33T<float>::ident()
+math::Matrix33T<float>::inverse() const
+math::Matrix33T<float>::operator()(int, int)
+math::Matrix33T<float>::operator()(int, int) const
+math::Matrix33T<float>::operator*=(float)
+math::Matrix33T<float>::operator+=(math::Matrix33T<float> const&)
+math::Matrix33T<float>::operator-=(math::Matrix33T<float> const&)
+math::Matrix33T<float>::orthonormalize()
+math::Matrix33T<float>::rank1_add(math::Vec3T<float> const&, math::Vec3T<float> const&)
+math::Matrix33T<float>::rank1_sub(math::Vec3T<float> const&, math::Vec3T<float> const&)
+math::Matrix33T<float>::rotation(math::Vec3T<float> const&, float)
 math::Matrix33T<float>::rotation(math::Vec3T<float> const&, float) [clone .isra.0]
+math::Matrix33T<float>::row(int) const
+math::Matrix33T<float>::set_col(int, math::Vec3T<float> const&)
+math::Matrix33T<float>::set_row(int, math::Vec3T<float> const&)
+math::Matrix33T<float>::to_json() const
+math::Matrix33T<float>::trace() const
+math::Matrix33T<float>::transpose() const
+math::Matrix33T<float>::zero()
 math::Matrix34T<float>::inverse() const
 math::Matrix44T<float>::d3d_projection_from_cv(float, float, float, float, float, float, float, float)
 math::PlaneT<double>::PlaneT(math::Vec3T<double> const&, math::Vec3T<double> const&, math::Vec3T<double> const&)
@@ -10337,6 +10359,7 @@ nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
+nSplineCtrlPts
 name
 name_part
 nan
@@ -10455,7 +10478,7 @@ non-virtual thunk to CLighthouseHmdDriver::IsDisplayRealDisplay()
 non-virtual thunk to CLighthouseHmdDriver::IsVideoStreamActive(bool*, float*)
 non-virtual thunk to CLighthouseHmdDriver::LogMessage(ELogLevel, char const*, ...)
 non-virtual thunk to CLighthouseHmdDriver::MasterSoundVolumeMuteChanged(float, bool)
-non-virtual thunk to CLighthouseHmdDriver::OnAuxEvent(int, double)
+non-virtual thunk to CLighthouseHmdDriver::OnAuxEvent(int, double, int)
 non-virtual thunk to CLighthouseHmdDriver::OnCameraAsyncCompletionCallback(void const*)
 non-virtual thunk to CLighthouseHmdDriver::OnDebugInertialStateChangeFromNonImuSource(vortex::TrackingInertialState const&)
 non-virtual thunk to CLighthouseHmdDriver::OnHtcHmdDeviceConnect(htc::HtcHmdDeviceInfo_t const&)
@@ -10643,6 +10666,10 @@ pDevice
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
+pRead->unBufferSize > 0u
+pRead->unRequiredBufferSize == sizeof( T )
+pRead->unTag == unTag
+pRead->unTag == vr::k_unStringPropertyTag
 pResource
 pSourceBuffer
 pSourceBuffer->m_unSizeInBytes >= nSourceOffset + m_unSizeInBytes
@@ -10656,7 +10683,6 @@ package
 package $0;
 pairing_result
 panel_burn_time_s: %d %d
-panel_clocking
 panel_on_time_deprecated_s: %d %d
 panel_on_time_s: %d %d
 parallel_render_cameras
@@ -10710,10 +10736,11 @@ priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.
 prismCorrectionEnable
 prismCorrectionHL
 prismCorrectionHR
+prismCorrectionVL
+prismCorrectionVR
 product
 product %u rev %u.%u.%u lot %u/%u/%u %u
 proximity
-ps3
 pt_br
 pt_pt
 pthread_attr_init
@@ -11526,14 +11553,14 @@ std::__codecvt_utf8_base<char32_t>::do_max_length() const
 std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
 std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
 std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
-std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
-std::__codecvt_utf8_base<wchar_t>::do_encoding() const
-std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
-std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
-std::__codecvt_utf8_base<wchar_t>::do_max_length() const
-std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+std::__codecvt_utf8_utf16_base<wchar_t>::do_always_noconv() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_encoding() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_max_length() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
 std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)
 std::__detail::_List_node_base::_M_unhook()
 std::__detail::_Map_base<google::protobuf::Descriptor const*, std::pair<google::protobuf::Descriptor const* const, google::protobuf::DynamicMessage::TypeInfo const*>, std::allocator<std::pair<google::protobuf::Descriptor const* const, google::protobuf::DynamicMessage::TypeInfo const*> >, std::__detail::_Select1st, std::equal_to<google::protobuf::Descriptor const*>, google::protobuf::hash<google::protobuf::Descriptor const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](google::protobuf::Descriptor const* const&)
@@ -11602,7 +11629,7 @@ std::chrono::_V2::steady_clock::now()
 std::chrono::_V2::system_clock::now()
 std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
 std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
-std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
 std::condition_variable::condition_variable()
 std::condition_variable::notify_one()
 std::condition_variable::~condition_variable()
@@ -11716,7 +11743,6 @@ std::string::_M_leak_hard()
 std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
 std::string::_M_replace_aux(unsigned long, unsigned long, unsigned long, char)
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.0]
 std::string::_Rep::_M_set_length_and_sharable(unsigned long)
 std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
 std::string::_Rep::_S_empty_rep_storage
@@ -11867,8 +11893,9 @@ std::vector<vortex::CVrController::ButtonComponentHandles_t, std::allocator<vort
 std::vector<vortex::CVrController::MappedInput, std::allocator<vortex::CVrController::MappedInput> >::_M_default_append(unsigned long)
 std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::_M_erase(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >)
 std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::operator=(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > const&) [clone .isra.0]
+std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::reserve(unsigned long)
 std::vector<vr::VRBoneTransform_t, std::allocator<vr::VRBoneTransform_t> >::_M_default_append(unsigned long)
-std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
 stderr
 steamrt
 steamvr
@@ -11916,6 +11943,7 @@ subs.2
 subtype mismatch
 succeeded
 success
+supported
 sv_sv
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
@@ -12247,6 +12275,7 @@ typeinfo for CPrismDirect
 typeinfo for CPrismDirect::CPrismDirect()::{lambda(ELogLevel, char const*, void*)#1}
 typeinfo for CRefCount
 typeinfo for CSharedResourceNamespaceServer
+typeinfo for CThread
 typeinfo for CUsbDeviceScannerThread
 typeinfo for CVRAudioDevices
 typeinfo for CVRFramerateGovernor
@@ -12314,7 +12343,6 @@ typeinfo for Reflection::Detail::TypeInfoT<Reflection::Object>
 typeinfo for Reflection::Object
 typeinfo for Reflection::TypeInfo
 typeinfo for StaticPoseMaker
-typeinfo for SteamThreadTools::CThread
 typeinfo for bool (*)(char)
 typeinfo for bool (char)
 typeinfo for facet::CVkInteropDeviceNull
@@ -12438,10 +12466,10 @@ typeinfo for std::_Weak_result_type_memfun<void (CEtronCamera::*)(std::shared_pt
 typeinfo for std::_Weak_result_type_memfun<void (CLighthousePairing::*)(Json::Value const&), true>
 typeinfo for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
 typeinfo for std::__codecvt_utf8_base<char32_t>
-typeinfo for std::__codecvt_utf8_base<wchar_t>
+typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
 typeinfo for std::bad_alloc
 typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 typeinfo for std::exception
 typeinfo for std::thread::_State
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long, IHandPoseLogic*, vr::EVRHandSide)::{lambda()#1}> > >
@@ -12563,6 +12591,7 @@ typeinfo name for CPrismDirect
 typeinfo name for CPrismDirect::CPrismDirect()::{lambda(ELogLevel, char const*, void*)#1}
 typeinfo name for CRefCount
 typeinfo name for CSharedResourceNamespaceServer
+typeinfo name for CThread
 typeinfo name for CUsbDeviceScannerThread
 typeinfo name for CVRAudioDevices
 typeinfo name for CVRFramerateGovernor
@@ -12630,7 +12659,6 @@ typeinfo name for Reflection::Detail::TypeInfoT<Reflection::Object>
 typeinfo name for Reflection::Object
 typeinfo name for Reflection::TypeInfo
 typeinfo name for StaticPoseMaker
-typeinfo name for SteamThreadTools::CThread
 typeinfo name for bool (*)(char)
 typeinfo name for bool (char)
 typeinfo name for facet::CVkInteropDeviceNull
@@ -12754,7 +12782,7 @@ typeinfo name for std::_Weak_result_type_memfun<void (CEtronCamera::*)(std::shar
 typeinfo name for std::_Weak_result_type_memfun<void (CLighthousePairing::*)(Json::Value const&), true>
 typeinfo name for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
 typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+typeinfo name for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long, IHandPoseLogic*, vr::EVRHandSide)::{lambda()#1}> > >
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
 typeinfo name for vortex::(anonymous namespace)::CDisambiguatorTDM
@@ -13390,8 +13418,8 @@ void CeresQuaternionRotationTo<ceres::Jet<double, 49> >(ceres::Jet<double, 49> c
 void CeresQuaternionRotationTo<double>(double const*, double const*, double*)
 void CeresVectorNormalize<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void DiscreteWhiteNoiseJerkCovariance<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, double, double)
-void Distortion_Model::distort<double, double>(Distortion_Type, double, double&, double&, double const*, double const*)
-void Distortion_Model::distort<float, double>(Distortion_Type, double, float&, float&, double const*, double const*)
+void Distortion_Model::distort<double, double>(Distortion_Type, int, double, double&, double&, double const*, double const*)
+void Distortion_Model::distort<float, double>(Distortion_Type, int, double, float&, float&, double const*, double const*)
 void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 0, -1, -1>, Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, 1>, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 0, -1, -1>&, Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, 1> const&, Eigen::internal::assign_op<double, double> const&)
 void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 0, -1, -1>, Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1>, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 0, -1, -1>&, Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1> const&, Eigen::internal::assign_op<double, double> const&)
 void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 0, -1, -1>, Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >, 1>, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 0, -1, -1>&, Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >, 1> const&, Eigen::internal::assign_op<double, double> const&)
@@ -13687,6 +13715,7 @@ void std::vector<vortex::LighthouseDynamicStateEntry_t, std::allocator<vortex::L
 void std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::_M_realloc_insert<vortex::lighthouse::SensorHit_s const&>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, vortex::lighthouse::SensorHit_s const&)
 void std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::_M_realloc_insert<vortex::lighthouse::SensorHit_s>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, vortex::lighthouse::SensorHit_s&&)
 void std::vector<vr::HmdMatrix34_t, std::allocator<vr::HmdMatrix34_t> >::_M_realloc_insert<vr::HmdMatrix34_t const&>(__gnu_cxx::__normal_iterator<vr::HmdMatrix34_t*, std::vector<vr::HmdMatrix34_t, std::allocator<vr::HmdMatrix34_t> > >, vr::HmdMatrix34_t const&)
+void std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::_M_realloc_insert<vr::PathRead_t>(__gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, vr::PathRead_t&&)
 void std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> >::_M_realloc_insert<vr::VREvent_t const&>(__gnu_cxx::__normal_iterator<vr::VREvent_t*, std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> > >, vr::VREvent_t const&)
 void tinygltf::SerializeNumberArrayProperty<double>(std::string const&, std::vector<double, std::allocator<double> > const&, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&)
 void tinygltf::SerializeNumberArrayProperty<double>(std::string const&, std::vector<double, std::allocator<double> > const&, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&) [clone .cold]
@@ -15012,6 +15041,7 @@ vortex::CVrControllerUsbThread::OnHidPacket(unsigned char*, int, double, bool) [
 vortex::CVrControllerUsbThread::SetCallback(void*, vortex::CLighthouseIMUThread::IVrcCallback*)
 vortex::CVrControllerUsbThread::UnpackControllerButtons(unsigned long, unsigned long*, unsigned long*)
 vortex::CVrControllerUsbThread::UpdateBatteryState(SteamControllerStatusEvent_t const&)
+vortex::CVrControllerUsbThread::UpdateControllerState(ValveControllerStatePacketK2_t const&)
 vortex::CVrControllerUsbThread::UpdateControllerState(ValveControllerStatePacketV2_t const&)
 vortex::CVrControllerUsbThread::UpdateControllerState(ValveControllerStatePacket_t const&)
 vortex::CVrControllerUsbThread::UpdateHmdState(ValveHmdState_t const&)
@@ -15180,12 +15210,22 @@ vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
 vr_internal::CVRPathHandle::CVRPathHandle(char const*)
 vr_internal::CVRPathHandle::~CVRPathHandle()
+vr_internal::CVRPathReads::IsValid() const
+vr_internal::CVRPathReads::NextBool(bool)
+vr_internal::CVRPathReads::NextDouble(double)
+vr_internal::CVRPathReads::NextFloat(float)
+vr_internal::CVRPathReads::NextInt32(int)
+vr_internal::CVRPathReads::NextString(char const*)
+vr_internal::CVRPathReads::NextUInt64(unsigned long)
+vr_internal::CVRPathReads::ReadBatch(unsigned long)
+vr_internal::CVRPathReads::ReadBatch(unsigned long, unsigned long const*, unsigned int)
+vr_internal::CVRPathReads::ReadBatch(unsigned long, vr_internal::CVRPathHandle const*, unsigned int)
 vr_internal::GetResourceFullPath(std::string const&)
 vr_internal::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
 vr_internal::VRApplications()
 vr_internal::VRApplicationsInternal()
 vr_internal::VRBlockQueue()
-vr_internal::VRCameraPassThruInternal()
+vr_internal::VRCameraPassthroughInternal()
 vr_internal::VRChaperone()
 vr_internal::VRChaperoneInternal()
 vr_internal::VRChaperoneSetup()
@@ -15288,6 +15328,7 @@ vtable for CLinuxVideoStream
 vtable for CPreviewThread
 vtable for CPrismDirect
 vtable for CSharedResourceNamespaceServer
+vtable for CThread
 vtable for CUsbDeviceScannerThread
 vtable for CVRAudioDevices
 vtable for CVRFramerateGovernor
@@ -15334,7 +15375,6 @@ vtable for Reflection::Detail::TypeInfoT<Reflection::Object>
 vtable for Reflection::Object
 vtable for Reflection::TypeInfo
 vtable for StaticPoseMaker
-vtable for SteamThreadTools::CThread
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__function_type_info
 vtable for __cxxabiv1::__pointer_type_info
@@ -15453,7 +15493,7 @@ vtable for std::basic_streambuf<char, std::char_traits<char> >
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
 vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
 vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 vtable for std::runtime_error
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long, IHandPoseLogic*, vr::EVRHandSide)::{lambda()#1}> > >
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
@@ -15501,7 +15541,6 @@ while parsing
 white_balance
 width
 width != mWidth || height != mHeight
-windows
 wmemcmp
 wmemcpy
 wmstatus.audio_tf9892_sregs
@@ -15521,7 +15560,6 @@ wrong version
 wstring_convert::from_bytes
 wstring_convert::to_bytes
 x
-x86_64
 xmag
 y
 y@

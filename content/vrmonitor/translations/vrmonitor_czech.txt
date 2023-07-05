@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Podpora režimu SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Podpora systému Steamworks"
 "MenuAction_CreateSystemReport" "Vyvolat informace o systému"
-"MenuAction_ResetSeatedPosition" "Resetovat pozici vsedě"
+"MenuAction_Recenter" "Znovu vycentrovat"
 "MenuAction_SystemReportViewer" "Informace o systému"
 "MenuAction_DisplayFrameTiming" "Pokročilé časování snímků"
 "MenuAction_RecordTrackingData" "Nahrát data sledování"

@@ -10,6 +10,18 @@
   min-height: 9.5rem;
 }
 
+.BindingUILoadingSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BindingUILoadingHeader {
+  color: lightgray;
+  font-size: 1.5em;
+}
+
 .ActionTabContainer {
   padding-top: var(--pagecontenttoppadding);
 }
@@ -59,7 +71,6 @@
 .BindingEntry {
   position: relative;
 
-  border: 1px solid var(--bindinglistdetailsborder);
   background: var(--bindinglistdetailsbackground);
   padding: 0.5rem;
   margin: 0.5rem;
@@ -149,4 +160,31 @@
 
 .ButtonControl + .ButtonControl {
   margin-left: initial;
+}
+
+.InformationButtonImage {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.RemappedInfo {
+  float: left;
+  margin-right: auto;
+  width: 100%;
+}
+
+.RemappedInfoSpan {
+  font-size: 0.8rem;
+  color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.RemappedInfoHr {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  border-top: 1px solid #6d7a81;
 }

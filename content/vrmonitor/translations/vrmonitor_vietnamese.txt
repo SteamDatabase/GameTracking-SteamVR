@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Hỗ trợ nhà phát triển SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Hỗ trợ nhà phát triển SteamWorks"
 "MenuAction_CreateSystemReport" "Tạo báo cáo hệ thống"
-"MenuAction_ResetSeatedPosition" "Đặt lại vị trí ngồi"
+"MenuAction_Recenter" "Căn giữa lại"
 "MenuAction_SystemReportViewer" "Trình xem báo cáo hệ thống"
 "MenuAction_DisplayFrameTiming" "Thời điểm khung hình (Nâng cao)"
 "MenuAction_RecordTrackingData" "Ghi lại dữ liệu theo dõi"

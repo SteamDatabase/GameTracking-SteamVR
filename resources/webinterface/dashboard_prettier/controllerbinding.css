@@ -1,2003 +1,2313 @@
-html.VROverlay {
-  font-size: 24px;
+html.VROverlay
+{
+	font-size: 24px;
 }
 
-.ControllerMain {
-  --text-color: #dee2e5;
-  --disabledtext: rgb(144, 147, 150);
+.ControllerMain
+{
+	--text-color: #DEE2E5;
+	--disabledtext: rgb(144, 147, 150);
+}
 
-  --buttondefault: #1f3452;
-  --buttonhover: #2978a0;
+.ControllerMainBorderRadius {
+	border-radius: 1.3rem;
+}
 
-  --background-color: #070910f0;
+.InputContainer {
+	background-image: linear-gradient(to bottom right, #32373F, #25282E);
 }
 
-.ModalHeader {
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 2rem;
+.ModalHeader
+{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
 }
 
-.PageTitle {
-  margin: 0 auto;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: var(--titletext);
+.PageTitle
+{
+	margin: 0 auto;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	color: var(--titletext);
 }
 
-.TabRow {
-  display: flex;
-  border-bottom: 2px solid var(--tabborderbottom);
-  z-index: 0;
-  margin: 0 2rem;
-  width: auto;
+.TabRow
+{
+	display: flex;
+	border-bottom: 2px solid var(--tabborderbottom);
+	z-index: 0;
+	margin: 0 2rem;
+	width: auto;
 }
 
-.Tab {
-  opacity: 1;
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 0 1rem 2px 1rem;
+.Tab
+{
+	opacity: 1.0;
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 0 1rem 2px 1rem;
 
-  margin: 2px 1rem;
-  margin-bottom: -2px;
-  color: var(--text-color);
-  font-weight: bold;
-  background-color: var(--tabbackground);
-  border-bottom: 2px solid var(--tabborderbottomtab);
-  flex-grow: 1;
-  z-index: 0;
-  transition-property: background;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
-  cursor: pointer;
+	margin: 2px 1rem;
+	margin-bottom: -2px;
+	color: var(--text-color);
+	font-weight: bold;
+	background-color: var(--tabbackground);
+	border-bottom: 2px solid var(--tabborderbottomtab);
+	flex-grow: 1;
+	z-index: 0;
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+	cursor: pointer;
 }
 
-.Tab:first {
-  margin-left: 0px;
+.Tab:first
+{
+	margin-left: 0px;
 }
 
-.Tab:hover {
-  background: var(--tabbackgroundhovered);
+
+.Tab:hover
+{
+	background: var(--tabbackgroundhovered);
 }
 
-.Tab.Selected {
-  background-color: var(--tabbackgroundselected);
-  border-bottom: 2px solid var(--tabborderbottomselected);
-  z-index: 2;
+.Tab.Selected
+{
+	background-color: var(--tabbackgroundselected);
+	border-bottom: 2px solid var(--tabborderbottomselected);;
+	z-index: 2;
 }
 
-.ToggleMirror {
-  font-size: 1.2rem;
-  margin-top: 6px;
-  text-align: center;
+.ToggleMirror
+{
+	font-size: 1.2rem;
+	margin-top: 6px;
+	text-align: center;
 }
 
-.AllCaps {
-  text-transform: uppercase;
+.AllCaps
+{
+	text-transform: uppercase;
 }
 
-.PositionRelative {
-  position: relative;
+.PositionRelative
+{
+	position: relative;
 }
 
-.FlexRowWithWrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.FlexRowWithWrap
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-.FlexRightAlignChild {
-  margin-left: auto;
+.FlexRightAlignChild
+{
+	margin-left: auto
 }
 
-.FlexColumnCentered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.FlexColumnCentered
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-.FlexFullHeightColumnCentered {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.FlexFullHeightColumnCentered
+{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-.FullPage {
-  width: 100%;
-  height: 100%;
+.FullPage
+{
+	width: 100%;
+	height: 100%;
 }
 
-.FullWidth {
-  width: 100%;
+.FullWidth
+{
+	width: 100%;
 }
 
-.FlexFullWidthRowCentered {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  flex-direction: row;
+.FlexFullWidthRowCentered
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-direction: row;
 }
 
-.FlexFullWidthRowLeftJustified {
-  display: flex;
-  justify-content: left;
-  flex-direction: row;
+.FlexFullWidthRowLeftJustified
+{
+	display: flex;
+	justify-content: left;
+	flex-direction: row;
 }
 
-.PageTitleBar {
-  display: flex;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-direction: column;
-  width: 100%;
+.PageTitleBar
+{
+	display: flex;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-direction: column;
+	width: 100%;
 }
 
-.PageMainContentWrapper {
-  padding-top: 1rem;
+.PageMainContentWrapper
+{
+	padding-top: 1rem;
 }
 
-.PageTitleBar .TitleBarMainRow {
-  background: var(--pagetitlebackground);
-  align-items: center;
-  min-height: 4.5rem;
-  border-bottom: 2px solid var(--pageheaderbottomborder);
+.PageTitleBar .TitleBarMainRow
+{
+	background: var(--pagetitlebackground);
+	align-items: center;
+	min-height: 4.5rem;
 }
 
-.PageTitleBar .PageSubTitle {
-  text-align: center;
-  font-size: 1.4rem;
+.PageTitleBar .PageSubTitle
+{
+	text-align: center;
+	font-size: 1.4rem;
 }
 
-.PageTitleBar .PageTitleLabel {
-  width: 100%;
+.PageTitleBar .PageTitleLabel
+{
+	width: 100%;
 }
 
-.PageTitleBar .PageTitleLabel.SingleTitle {
-  align-self: center;
+.PageTitleBar .PageTitleLabel.SingleTitle
+{
+	align-self: center;
 }
 
-.PageTitleBar .PageTitleBackButton {
-  font-size: 1rem;
-  border: none;
-  font-weight: bold;
-  background: var(--backbuttonbackground);
-  margin: auto 0;
-  /* padding: 0 6px; */
-  margin-left: 1rem;
-  height: 100%;
-  width: fit-content;
-  flex: 0;
-  margin-right: auto;
-  align-items: center;
-  padding: 0.5rem;
-  padding-right: 1rem;
+.PageTitleButton {
+	background: var(--backbuttonbackground);
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	height: 100%;
+	width: fit-content;
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+}
 
-  transition-property: background-color;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
+.PageTitleBar .PageTitleBackButton
+{
+	margin-left: 1rem;
+	margin-right: auto;
+	align-items: center;
+	padding: .5rem;
+	padding-right: 1rem;
 }
 
-.PageTitleBar .TitleBarSection.RightBackButton {
-  opacity: 0;
+.PageTitleBar .TitleBarSection.RightBackButton
+{
+	opacity: 0;
 }
 
-.PageTitleBar .TitleBarSection.OptionsButton {
-  font-size: 1rem;
-  border: none;
-  font-weight: bold;
-  background: var(--backbuttonbackground);
-  margin: auto 0;
-  /* padding: 0 6px; */
-  margin-right: 1rem;
-  height: 100%;
-  width: fit-content;
-  flex: 0;
-  margin-left: auto;
-  align-items: center;
-  padding: 0.5rem;
-  padding-left: 1rem;
+.PageTitleBar .OptionsButton
+{
+	font-size: 1rem;
+	border: none;
+	font-weight: bold;
+	background: var(--backbuttonbackground);
+	margin-right: 1rem;
+	height: 100%;
+	width: fit-content;
+	flex: 0;
+	margin-left: auto;
+	align-items: center;
+	padding: 0.7rem;
 
-  transition-property: background-color;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
 }
 
-.PageTitleBar .PageTitleBackButton:hover {
-  background: var(--backbuttonbackgroundhover);
+.PageTitleBar .PageTitleBackButton:hover
+{
+	background: var(--backbuttonbackgroundhover);
 }
 
-.PageTitleBar .PageTitleBackButton .ActionButtonImage {
-  height: 1.1rem;
-  width: 1rem;
-  transition-property: opacity;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
-  opacity: 0.8;
-  padding: 0.4rem;
+.PageTitleBar .PageTitleBackButton .ActionButtonImage
+{
+	height: 1.1rem;
+	width: 1.0rem;
+	transition-property: opacity;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+	opacity: 0.8;
+	padding: 0.4rem;
 }
 
-.PageTitleBar .PageTitleBackButton:hover .ActionButtonImage {
-  opacity: 1;
+.PageTitleBar .PageTitleBackButton:hover .ActionButtonImage
+{
+	opacity: 1;
 }
 
-.PageTitleBar .NoSteamWarning {
-  background: var(--warningbackgroundselected);
-  color: white;
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: bold;
-  width: 100%;
+.PageTitleBar .NoSteamWarning
+{
+	background: var(--warningbackground);
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
 }
 
-.ControllerImage {
-  pointer-events: none;
-  z-index: -1;
-  display: inline-flex;
-  position: sticky;
-  top: 1rem;
-  width: 70%;
-  object-fit: contain;
-  margin: var(--controller-image-margin) auto;
+.ControllerImage
+{
+	pointer-events: none;
+	z-index: -1;
+	display: inline-flex;
+	position: sticky;
+	top: 1rem;
+	width: 70%;
+	object-fit: contain;
+	margin: var(--controller-image-margin) auto;
 }
 
-.BindingButtonRow {
-  width: 25%;
+
+.BindingButtonRow
+{
+	width: 25%;
 }
 
-.BindingButtonRowSingleDevice .ControllerImageColumn {
-  width: 100%;
+.BindingButtonRowSingleDevice .ControllerImageColumn
+{
+	width: 100%;
 }
+
 
-.MenuSVG,
-.BindingPosePointSVG,
-.BindingPoseLineSVG {
-  pointer-events: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+.MenuSVG, .BindingPosePointSVG, .BindingPoseLineSVG
+{
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 
-.MenuSVG {
-  position: fixed;
-  opacity: 0;
-  top: 8rem;
+.MenuSVG
+{
+	position: fixed;
+	opacity: 0;
+	top: 8rem;
 }
 
-.MenuSVGVisible {
-  opacity: 1;
+.MenuSVGVisible
+{
+	opacity: 1;
 }
 
-.BindingPoseLineSVG,
-.BindingPosePointSVG {
-  width: 3000px;
-  left: 0;
+.BindingPoseLineSVG, .BindingPosePointSVG
+{
+	width: 3000px;
+	left: 0;
 }
 
-.VisualizerControl .MenuSVG {
-  top: 0;
-  position: absolute;
+.VisualizerControl .MenuSVG
+{
+	top: 0;
+	position: absolute;
 }
 
-.Label.BindingLabel {
-  font-size: 1rem;
-  padding: 2px;
-  width: 80%;
-  word-break: break-word;
-  color: var(--bindinglistdetails);
+.Label.BindingLabel
+{
+	font-size: 1rem;
+	padding: 2px;
+	width: 80%;
+	word-break: break-word;
+	color: var(--bindinglistdetails);
 }
 
-.None .Label.BindingLabel {
-  opacity: 0.5;
+.None .Label.BindingLabel
+{
+	opacity: 0.5;
 }
+
+
+.BindingLabel.BindingHeader
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: var(--buttonhover);
+	box-shadow: var(--bordercolor) 0px 0px 5px 0px;
+	border: 1px solid var(--bordercolor);
+	color: var(--bindingsourceheader);
 
-.BindingLabel.BindingHeader {
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: var(--buttonhover);
-  box-shadow: var(--bordercolor) 0px 0px 5px 0px;
-  border: 1px solid var(--bordercolor);
-  color: var(--bindingsourceheader);
 }
 
-.BindingLabel.BindingHeader.ReadOnly {
-  background-color: transparent;
-  box-shadow: none;
-  border: 1px solid transparent;
+.BindingLabel.BindingHeader.ReadOnly
+{
+	background-color: transparent;
+	box-shadow: none;
+	border: 1px solid transparent;
 }
 
-.BindingActionWrapper div.BindingLabelAction {
-  border: 1px solid transparent;
+.BindingActionWrapper div.BindingLabelAction
+{
+	border: 1px solid transparent;
 }
 
-.BindingLabelActionRequirement {
-  font-size: 1.2rem;
-  font-style: italic;
-  opacity: 0.75;
+.BindingLabelActionRequirement
+{
+	font-size: 1.2rem;
+	font-style: italic;
+	opacity: 0.75;
 }
 
-.Mirrored {
-  opacity: 0.5;
+
+.Mirrored
+{
+	opacity: 0.5;
 }
 
-.SaveDialogWrapper .Label {
-  margin-top: 1rem;
-  margin-bottom: 0.4rem;
+.SaveDialogWrapper .Label
+{
+	margin-top: 1rem;
+	margin-bottom: 0.4rem;
 }
 
-.SaveDialogWrapper .ButtonInput {
-  margin-top: 1rem;
+.SaveDialogWrapper .ButtonInput
+{
+	margin-top: 1rem;
 }
 
-.SaveTitleBar .Title {
-  margin-left: 0.5rem;
+.SaveTitleBar .Title
+{
+	margin-left: 0.5rem;
 }
 
-.SaveDialogWrapper textarea {
-  max-width: 100%;
-  resize: vertical;
+.SaveDialogWrapper textarea
+{
+	max-width: 100%;
+	resize: vertical;
 }
 
-.SaveDialogWrapper {
-  width: 100%;
+.SaveDialogWrapper
+{
+	width: 100%;
 }
 
-.SaveBottomButtonRow {
-  width: 100%;
-  margin-top: 1rem;
+.SaveBottomButtonRow
+{
+	width: 100%;
+	margin-top: 1rem;
 }
 
-.SaveBottomButtonRow .ButtonControl {
-  margin: 0 1rem;
-  flex-grow: 1;
-  text-align: center;
+.SaveBottomButtonRow .ButtonControl
+{
+	margin: 0 1rem;
+	flex-grow: 1;
+	text-align: center;
 }
 
-.ControllerTitle.Label {
-  font-size: 1.5rem;
-  opacity: 0.8;
-  margin-top: 10px;
-  width: 100%;
+.ControllerTitle.Label
+{
+	font-size : 1.5rem;
+	opacity: 0.8;
+	margin-top: 10px;
+	width: 100%;
 
-  text-align: center;
-  text-overflow: clip;
-  overflow: hidden;
+	text-align: center;
+	text-overflow: clip;
+	overflow: hidden;
 }
+
 
-.BindingSection {
-  position: absolute;
-  padding: 0 1rem;
-  top: 0px;
-  left: 0px;
-  right: 0;
-  justify-content: space-between;
+.BindingSection
+{
+	position: absolute;
+    padding: 0 1rem;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    justify-content: space-between;
 }
 
-.BindingSectionWrapper::-webkit-scrollbar,
-.AppSelectWrapper::-webkit-scrollbar,
-.AppBindingSection::-webkit-scrollbar {
-  width: 1.1rem;
-  background-color: var(--scrollbarbackground); /* or add it to the track */
+.BindingSectionWrapper::-webkit-scrollbar , .AppSelectWrapper::-webkit-scrollbar, .AppBindingSection::-webkit-scrollbar
+{
+	width: 1.1rem;
+	background-color: var(--scrollbarbackground); /* or add it to the track */
 }
+
+
 
-.BindingSectionWrapper::-webkit-scrollbar-thumb,
-.AppSelectWrapper::-webkit-scrollbar-thumb,
-.AppBindingSection::-webkit-scrollbar-thumb {
-  background: var(--scrollbarthumb);
-  border-radius: 0.8rem;
+.BindingSectionWrapper::-webkit-scrollbar-thumb , .AppSelectWrapper::-webkit-scrollbar-thumb, .AppBindingSection::-webkit-scrollbar-thumb
+{
+	background: var(--scrollbarthumb);
+	border-radius: 0.8rem;
 }
 
-.BottomButtonRow {
-  width: 100%;
-  margin-bottom: 1rem;
-  position: relative;
+
+.BottomButtonRow
+{
+	width: 100%;
+	margin-bottom: 1rem;
+	position: relative;
 }
+
 
-.BottomButtonRow .ButtonControl {
-  font-size: 1.5rem;
+.BottomButtonRow .ButtonControl
+{
+	font-size: 1.5rem;
 }
 
-.BindingManageButtons {
-  margin: 0 auto;
+.BindingManageButtons
+{
+	margin: 0 auto;
 }
 
-.TopRow {
-  width: 100%;
-  z-index: 2;
-  min-height: fit-content;
-  flex: 0 0;
-  position: relative;
+.TopRow
+{
+	width: 100%;
+	z-index: 2;
+	min-height: fit-content;
+	flex: 0 0;
+	position: relative;
 }
 
-.DescriptionTopRow {
-  align-items: center;
+.DescriptionTopRow
+{
+	align-items: center;
 }
 
-.ControllerNameTitle {
-  font-size: 2rem;
+.ControllerNameTitle
+{
+	font-size: 2rem;
 }
 
-.ControllerTitleHeader {
-  margin-left: auto;
-  margin-right: auto;
+.ControllerTitleHeader
+{
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.AppRowTitleDropdown {
-  white-space: nowrap;
+.AppRowTitleDropdown
+{
+	white-space: nowrap;
 }
 
-.ActionButtonImage {
-  width: 1.5rem;
-  height: 1.5rem;
-  cursor: pointer;
+.ActionButtonImage
+{
+	width: 1.5rem;
+	height: 1.5rem;
+	cursor: pointer;
 }
 
-.ActionButtonImageLarge {
-  width: 2rem;
-  height: 2rem;
+.ActionButtonImageLarge
+{
+	width: 2rem;
+	height: 2rem;
 }
 
-.SourceModeButtonImage {
-  transition-property: opacity, filter;
-  transition-timing-function: ease-in-out;
-  transition-duration: var(--button-fade-time);
-  opacity: 0;
+
+
+.SourceModeButtonImage
+{
+	transition-property: opacity, filter;
+	transition-timing-function: ease-in-out;
+	transition-duration: var(--button-fade-time);
+	opacity: 0.0;
 }
 
-.SourceModeButtonImage:hover,
-.ChordManageButtons:hover .ActionButtonImage,
-.BindingListEntryButton:hover .ActionButtonImage {
-  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+.SourceModeButtonImage:hover, .ChordManageButtons:hover .ActionButtonImage, .BindingListEntryButton:hover .ActionButtonImage
+{
+	filter: invert(14%) sepia(17%) saturate(435%) hue-rotate(181deg) brightness(88%) contrast(94%);
 }
+
 
-.SourceModeGroup:hover .SourceModeButtonImage,
-.SourceModeGroup.Edit .SourceModeButtonImage,
-.SourceModeGroup:hover .SourceModeFooterHR,
-.SourceModeGroup.Edit .SourceModeFooterHR {
-  opacity: 1;
+.SourceModeGroup:hover .SourceModeButtonImage, .SourceModeGroup.Edit .SourceModeButtonImage,
+.SourceModeGroup:hover .SourceModeFooterHR, .SourceModeGroup.Edit .SourceModeFooterHR
+{
+	opacity: 1.0;
 }
 
-div.SourceModeButtonLabel {
-  font-size: 0.6rem;
+div.SourceModeButtonLabel
+{
+	font-size: 0.6rem;
 }
 
-.SourceModeGroup {
-  padding: 5px;
-  background-color: var(--sourcemodegroupbackground);
-  border-radius: 2px;
-  border: 1px solid transparent;
-  box-shadow: none;
-  transition-property: background-color, box-shadow, border;
-  transition-timing-function: ease-out;
-  transition-duration: 0.23s;
+.SourceModeGroup
+{
+	padding: 5px;
+	background-color: var(--sourcemodegroupbackground);
+	border-radius: 2px;
+	border: 1px solid transparent;
+	transition-property: background-color, border;
+	transition-timing-function: ease-out;
+	transition-duration: .23s;
 }
 
-.SourceModeGroup:hover {
-  background-color: var(--sourcemodehover);
-  box-shadow: var(--bordercolor) 0px 0px 5px 0px;
+.SourceModeGroup:hover
+{
+	background-color: var(--sourcemodehover);
 }
 
-.SourceModeGroup.Edit {
-  border: 1px solid var(--bordercolor);
-  background-color: var(--bindingmodeedit);
+.SourceModeGroup.Edit
+{
+	background-color: var(--bindingmodeedit);
 }
 
-.rodal {
-  cursor: default;
-  outline: none;
+.rodal
+{
+	cursor: default;
+	outline: none;
 }
 
-body .rodal-dialog {
-  border: 1px solid var(--bordercolor);
-  background: var(--modalbackground);
+body .rodal-dialog
+{
+	background: var(--modalbackground);
 }
 
-.InlineDropdownItem {
-  cursor: pointer;
-  font-size: 2rem;
-  border-radius: 2px;
-  border: 1px solid var(--bordercolor);
-  text-align: center;
-  margin-top: 6px;
-  padding: 0 4px;
-  background: var(--buttondefault);
-  width: calc(100% - 10px); /* padding and border removed */
-  transition-property: background;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
+.InlineDropdownItem
+{
+	cursor: pointer;
+	font-size: 2rem;
+	border-radius: 2px;
+	text-align: center;
+	margin-top: 6px;
+	padding: 0 4px;
+	background: var(--buttondefault);
+	width: calc( 100% - 10px); /* padding and border removed */
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
 }
 
-.InlineDropdownItem:hover,
-.InlineDropdownItem.Selected {
-  background: var(--buttonhover);
+.InlineDropdownItem:hover, .InlineDropdownItem.Selected
+{
+	background: var(--buttonhover);
 }
 
 .InlineSeparator {
-  border-top: 0.2rem dashed var(--buttonhover);
+	border-top: 0.2rem dashed var(--buttonhover);
 
-  margin-top: 1rem;
-  margin-bottom: calc(
-    1rem - 6px
-  ); /* Margin won't collapse with the element below, remove 6px from the bottom to match InlineDropdownItem */
+	margin-top: 1rem;
+	margin-bottom: calc( 1rem - 6px ); /* Margin won't collapse with the element below, remove 6px from the bottom to match InlineDropdownItem */
 
-  width: 100%;
+	width: 100%;
 }
 
 .InlineBlankSeparator {
-  margin-top: 2rem;
-  margin-bottom: calc(
-    1rem - 6px
-  ); /* Margin won't collapse with the element below, remove 6px from the bottom to match InlineDropdownItem */
+	margin-top: 2rem;
+	margin-bottom: calc( 1rem - 6px ); /* Margin won't collapse with the element below, remove 6px from the bottom to match InlineDropdownItem */
 
-  width: 100%;
+	width: 100%;
 }
 
 .InlineNonItemSeparator {
-  font-size: 1.2rem;
-  font-style: italic;
-  text-align: center;
-  margin-top: 6px;
-  padding: 0 4px;
-  width: calc(100% - 10px); /* padding and border removed */
-  transition-property: background;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
+	font-size: 1.2rem;
+	font-style: italic;
+	text-align: center;
+	margin-top: 6px;
+	padding: 0 4px;
+	width: calc( 100% - 10px); /* padding and border removed */
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
 }
 
 .InlineSubHeaderSeparator {
-  font-size: 1.3rem;
+	font-size: 1.3rem;
 
-  margin-bottom: calc(
-    0.5rem - 6px
-  ); /* Margin won't collapse with the element below, remove 6px from the bottom to match InlineDropdownItem */
+	margin-bottom: calc( 0.5rem - 6px ); /* Margin won't collapse with the element below, remove 6px from the bottom to match InlineDropdownItem */
 
-  width: 100%;
+	width: 100%;
 }
 
-.InlineDropdownItemWrapper {
-  overflow-y: auto;
-  width: 100%;
+.InlineDropdownItemWrapper
+{
+	overflow-y: auto;
+	width: 100%;
 }
 
-.InlineDropdownModalWrapper {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
+.InlineDropdownModalWrapper
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
 }
 
-.PinTop .rodal-dialog {
-  margin-top: 10%;
+.PinTop .rodal-dialog
+{
+	margin-top: 10%;
 }
 
-.InlineDropdownLabel {
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 2px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-left: 10px;
-  color: var(--text-color);
-  font-weight: bold;
-  background: var(--buttondefault);
-  box-shadow: var(--bordercolor) 0px 0px 5px 0px;
-  border: 1px solid var(--bordercolor);
-  border-radius: 2px;
-  transition-property: background;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
+.InlineDropdownLabel
+{
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 2px;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	margin-left: 10px;
+	color: var(--text-color);
+	font-weight: bold;
+	background: var(--buttondefault);
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
 }
 
-.InlineDropdownLabel.ReadOnly {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 2px;
-  text-align: center;
-  background-color: transparent;
-  box-shadow: none;
-  border: none;
+.InlineDropdownLabel.ReadOnly
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	text-align: center;
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
 }
 
-.InlineDropdownLabel:hover {
-  background: var(--buttonhover);
+.InlineDropdownLabel:hover
+{
+	background: var(--buttonhover);
 }
 
-.SourceModeGroup .InlineDropdownLabel {
-  border: 1px solid transparent;
-  font-weight: normal;
-  margin-left: 0;
+.SourceModeGroup .InlineDropdownLabel
+{
+	font-weight: normal;
+	margin-left: 0;
 }
 
-.SourceModeGroup.Edit .InlineDropdownLabel {
-  border: 1px solid var(--bordercolor);
+.BindingHeaderWrapper .InlineDropdownLabel
+{
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
-.BindingHeaderWrapper .InlineDropdownLabel {
-  text-transform: uppercase;
-  font-weight: bold;
+.SourceModeFooterHR
+{
+	width: 90%;
+	border-width: 1px;
+	margin: 0.4rem auto;
+	opacity: 0;
+	transition-property: opacity;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
 }
 
-.SourceModeFooterHR {
-  width: 90%;
-  border-width: 1px;
-  margin: 0.4rem auto;
-  opacity: 0;
-  transition-property: opacity;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
-}
+
+
+
 
-.SourceModeFooterEdit {
-  align-self: flex-start;
-  margin-left: 5%;
+.SourceModeFooterEdit
+{
+	align-self: flex-start;
+	margin-left: 5%;
 }
 
-.BindingHeaderWrapper,
-.BindingActionWrapper {
-  align-items: center;
+.BindingHeaderWrapper, .BindingActionWrapper
+{
+	align-items: center;
 }
 
-.BindingActionWrapper {
-  margin: 0 1rem;
+.BindingActionWrapper
+{
+	margin: 0 1rem;
 }
 
-.BindingInputSection {
-  margin-bottom: 1rem;
+.BindingInputSection
+{
+	margin-bottom: 1rem;
 }
 
-.SourceModeFooterButtons {
-  width: 100%;
+.SourceModeFooterButtons
+{
+	width: 100%;
 }
 
-.SelectedAppImage {
-  width: 92px;
-  margin-left: 6px;
+.SelectedAppImage
+{
+	width: 92px;
+	margin-left: 6px;
 }
 
-.SelectedControllerImage {
-  width: 100%;
-  height: 100%;
+.SelectedControllerImage
+{
+	width:100%;
+	height:100%;
 }
 
-.SelectedControllerButton {
-  width: 20%;
+.SelectedControllerButton
+{
+	width:20%;
 }
 
-.AppSelectColumnWrapper {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  max-width: 45rem;
-  width: 100%;
-  margin: 0 auto;
+.AppSelectColumnWrapper
+{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	max-width: 45rem;
+	width: 100%;
+	margin: 0 auto;
 }
 
-.AppSelectColumn {
-  overflow-y: auto;
-  flex-grow: 1;
-  width: 0;
-  padding-bottom: 1rem;
+.AppSelectColumn
+{
+	overflow-y: auto;
+	flex-grow: 1;
+	width: 0;
+	padding-bottom: 1rem;
 }
 
-.AppSelectColumn:not(:last-child) {
-  margin-right: -2rem;
+.AppSelectColumn:not(:last-child)
+{
+	margin-right: -2rem;
 }
 
-.AppSelectList {
-  display: flex;
-  flex-direction: column;
-  max-height: 100%;
-  margin-top: 1rem;
+.AppSelectList
+{
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+	margin-top: 1rem;
 }
 
-.AppSelectListItems {
-  padding-bottom: 1rem;
+.AppSelectListItems
+{
+	padding-bottom: 1rem;
 }
 
-.ButtonControl.DeveloperLabel {
-  font-size: 1rem;
+.ButtonControl.DeveloperLabel
+{
+	font-size: 1.0rem;
 }
 
-.AppSelectColumn .ButtonControl {
-  width: fit-content;
+.AppSelectColumn .ButtonControl
+{
+    width: fit-content;
 }
 
-.AppSelectCenter {
-  margin-left: auto;
-  margin-right: auto;
+.AppSelectShowMoreButton
+{
+    margin-left: auto;
+    margin-right: auto;
+
+	border-radius: 1rem;
 }
 
-.CalibrateThumbstickItem {
-  margin-left: 2rem;
+.CalibrateThumbstickItem
+{
+	margin-left: 2rem;
 }
 
-.AppSelectPageWrapper {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+.AppSelectPageWrapper
+{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
-.AppSelectTitle {
-  color: var(--descriptiontext);
-  font-size: 1.5rem;
-  margin-top: 0.5rem;
-  margin-left: 2rem;
-  margin-bottom: 0.5rem;
+.AppSelectTitle
+{
+	color: var(--descriptiontext);
+	font-size: 1.5rem;
+	margin-top: 0.5rem;
+	margin-left: 2rem;
+	margin-bottom: 0.5rem;
 }
 
-.AppSelectWrapper {
-  max-height: calc(100% - 30rem);
-  overflow-y: auto;
-  justify-content: center;
+.AppSelectWrapper
+{
+	max-height: calc( 100% - 30rem);
+	overflow-y: auto;
+	justify-content: center;
 }
 
-.RunningApp .AppSelectWrapper {
-  max-height: calc(100% - 26rem);
+.RunningApp .AppSelectWrapper
+{
+	max-height: calc( 100% - 26rem);
 }
+
+.AppSelectContainer
+{
+	margin: 1rem 2rem 0 2rem;
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+	background: var(--buttondefault);
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
 
-.AppSelectContainer {
-  margin: 1rem 2rem 0 2rem;
-  padding: 0.5rem;
-  transition-property: background;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
-  background: var(--buttondefault);
-  border: 1px solid var(--bordercolor);
-  display: flex;
-  flex-direction: row;
-  cursor: pointer;
+	--app-select-container-padding: 1rem;
+	--app-image-border-radius: 0.5rem;
+	padding: var(--app-select-container-padding);
+	border-radius: calc(var(--app-select-container-padding) + var(--app-image-border-radius));
 }
 
-.AppSelectContainer:first-child {
-  margin-top: 0;
+.AppSelectContainer:first-child
+{
+	margin-top: 0;
 }
 
-.AppSelectContainer .AppImage {
-  --height: 4.5rem;
-  height: var(--height);
-  width: calc(var(--height) * 460 / 215);
-  background-color: black;
-  background-size: contain;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  flex-shrink: 0;
+.AppSelectContainer .AppImage
+{
+	--height: 4.5rem;
+	height: var(--height);
+	width: calc( var(--height) * 460 / 215 );
+	background-color: black;
+	background-size: contain;
+	background-position-x: center;
+	background-repeat: no-repeat;
+	flex-shrink: 0;
+	border-radius: var(--app-image-border-radius);
 }
 
-.AppSelectContainer:hover {
-  background: var(--buttonhover);
+.AppSelectContainer:hover
+{
+	background: var(--buttonhover);
 }
 
-.AppSelectName {
-  color: var(--text-color);
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin: 0.2rem;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow-x: hidden;
-  height: fit-content;
-  margin: auto 0 auto 1rem;
+.AppSelectName
+{
+	color: var(--text-color);
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 0.2rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+	height: fit-content;
+	margin: auto 0 auto 1rem;
 }
 
-.RunningAppContainer img {
-  flex: 0;
-  object-fit: contain;
+.RunningAppContainer img
+{
+	flex: 0;
+	object-fit: contain;
 }
 
-.RunningAppContainer .AppSelectContainer {
-  max-width: 50%;
-  margin: auto;
-  margin-bottom: 1rem;
-  width: fit-content;
+.RunningAppContainer .AppSelectContainer
+{
+	max-width: 50%;
+	margin: auto;
+	margin-bottom: 1rem;
+	width: fit-content;
 }
 
-.RunningAppContainer .AppSelectName {
-  font-size: 2rem;
-  align-self: center;
-  margin-left: 1rem;
+.RunningAppContainer .AppSelectName
+{
+	font-size: 2rem;
+	align-self: center;
+	margin-left: 1rem;
 }
 
-.AppSelectCompositorEntry {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  margin-right: 0.5rem;
-  margin-top: 0.5rem;
-  padding: 0.1rem;
+.AppSelectCompositorEntry
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	margin-right: 0.5rem;
+	margin-top: 0.5rem;
+	padding: 0.1rem;
 
-  position: absolute;
-  right: 0;
-  top: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
-.AppSelectCompositorEntry img {
-  padding: 0.5rem;
-  opacity: 0.5;
-  width: 16rem;
+.AppSelectCompositorEntry img
+{
+	padding: 0.5rem;
+	opacity: 0.5;
+	width: 16rem;
 }
 
-.BottomButton {
-  align-items: center;
-  opacity: 0.7;
-  margin: 0 1rem;
-  min-height: fit-content;
-  flex: 0 0;
-}
 
-.BottomButtonLabel {
-  color: var(--descriptiontext);
-  font-size: 1rem;
-  text-align: center;
-  text-overflow: ellipsis;
-}
 
-.BottomButtonHR {
-  border-top: 1px solid var(--disabledtext);
-  opacity: 0.8;
-  margin-bottom: 0.5rem;
+.BottomButton
+{
+	align-items: center;
+	opacity: 0.7;
+	margin: 0 1rem;
+	min-height: fit-content;
+	flex: 0 0;
 }
 
-.BottomButtonImage {
-  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
-  margin-bottom: 0.5rem;
-  transition-property: opacity;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
+.BottomButtonLabel
+{
+	color: var(--descriptiontext);
+	font-size: 1rem;
+	text-align: center;
+	text-overflow: ellipsis;
 }
 
-.BottomButton:hover {
-  opacity: 1;
+.BottomButtonHR
+{
+	border-top: 1px solid var(--disabledtext);
+	opacity: 0.8;
+	margin-bottom: 0.5rem;
 }
 
-.ChordManageButtons {
-  font-size: 1rem;
-  margin: 0 0.5rem;
-  background: var(--chordbindingrowbackground);
-  padding: 0.5rem;
-  cursor: pointer;
+.BottomButtonImage
+{
+	filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+	margin-bottom: 0.5rem;
+	transition-property: opacity;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
 }
 
-.ChordManageTopButton {
-  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
-  margin-right: 0.5rem;
+.BottomButton:hover
+{
+	opacity: 1.0;
 }
 
-.ChordManageButtons .ActionButtonImage {
-  margin-right: 0.5rem;
+.ChordManageButtons
+{
+	font-size: 1rem;
+	margin: 0 0.5rem;
+	background: var(--buttondefault);
+	padding: .5rem;
+	cursor: pointer;
 }
 
-.ChordBindingContents {
-  overflow-y: auto;
-  margin: 1rem;
-  margin-bottom: 0;
+.ChordManageTopButton
+{
+	margin-right: .5rem;
 }
 
-.ChordBindingChordsList {
-  overflow-x: hidden;
-  overflow-y: auto;
-  width: 100%;
-  margin: 1rem;
-  margin-left: 0;
-  min-height: 30vh;
-  max-height: 70vh;
+.ChordManageButtons .ActionButtonImage
+{
+	margin-right: 0.5rem;
 }
 
-.ChordBindingRow {
-  margin: 0.4rem 0;
-  padding: 0.5rem;
-  justify-content: space-evenly;
-  background-color: var(--chordbindingrowbackground);
+.ChordBindingContents
+{
+	overflow-y: auto;
+	margin: 1rem;
+	margin-bottom: 0;
 }
 
-.ChordBindingImage {
-  align-self: center;
-  margin: 0 0.2rem;
-  filter: invert(0.5) sepia(1) saturate(2) hue-rotate(175deg);
+.ChordBindingChordsList
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	margin: 1rem;
+	margin-left: 0;
+	min-height: 30vh;
+	max-height: 70vh;
 }
 
-.ChordBindingSet {
-  background-color: var(--chordbindingsetbackground);
+.ChordBindingRow
+{
+	margin: 0.4rem 0;
+	padding: 0.5rem;
+	justify-content: space-evenly;
+	background-color: var(--chordbindingrowbackground);
 }
 
-.ChordBindingEntry {
-  margin: 0.5rem;
+.ChordBindingImage
+{
+	align-self: center;
+	margin: 0 0.2rem;
 }
 
-.ChordBindingAction {
-  margin: 0;
-  height: 100%;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
+.ChordBindingSet
+{
+	background-color: var(--chordbindingsetbackground);
 }
 
-.ChordBindingAction div {
-  text-align: center;
+.ChordBindingEntry
+{
+	margin: 0.5rem;
 }
 
-.ChordBindingInputType {
-  display: flex;
-  width: 100%;
+.ChordBindingAction
+{
+	margin: 0;
+	height: 100%;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
 }
 
-.ChordBindingInputType .InlineDropdownLabel {
-  width: 100%;
-  margin-left: 0;
-  text-align: center;
-  padding: 0.1rem 0.5rem;
+.ChordBindingAction div
+{
+	text-align: center;
 }
 
-.ChordManageButtons:hover {
-  color: var(--buttonhover);
+.ChordBindingInputType
+{
+	display: flex;
+	width: 100%;
 }
 
-.ChordBindingAddDeleteRow {
-  margin: 0.5rem 0;
+.ChordBindingInputType .InlineDropdownLabel
+{
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+	padding: 0.1rem 0.5rem;
 }
 
-.ChordBindingCloseButton {
-  margin-top: auto;
-  height: 4rem;
-  width: 100%;
-  background: var(--chordbindingrowbackground);
-  font-size: 1rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-end;
-  transition-property: background;
-  transition-timing-function: ease-out;
-  transition-duration: var(--button-fade-time);
-  cursor: pointer;
+.ChordManageButtons:hover
+{
+	background-color: var(--buttonhover);
 }
 
-.ChordBindingCloseButton:hover {
-  background: var(--buttonhover);
+.ChordBindingAddDeleteRow
+{
+	margin: 0.5rem 0;
 }
 
-.ChordBindingEntry .ActionButtonImage {
-  margin-right: 1.7rem;
-  margin-top: 1.7rem;
+.ChordBindingCloseButton
+{
+	margin-top: auto;
+	height: 4rem;
+	width: 100%;
+	background: var(--chordbindingrowbackground);
+	font-size: 1rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: flex-end;
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+	cursor: pointer;
 }
 
-.ChordTypeLabel {
-  margin: 0 0.5rem;
+.ChordBindingCloseButton:hover
+{
+	background: var(--buttonhover);
 }
 
-.ChordButtonRow {
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-  margin-top: auto;
-  justify-content: flex-end;
-}
 
-.ActionButtonImage.ChordBindingEntryDelete {
-  align-self: center;
-  margin: 0;
-  margin-left: 0.5rem;
+.ChordBindingEntry .ActionButtonImage
+{
+	margin-right: 1.7rem;
+	margin-top: 1.7rem;
 }
 
-.ChordEntryActionColumn {
-  margin: auto 1rem;
+.ChordTypeLabel
+{
+	margin: 0 0.5rem;
 }
 
-.ChordBindingBigButton {
-  background: var(--chordbindingrowbackground);
-  align-self: center;
-  padding: 0.5rem;
-  box-shadow: var(--bordercolor) 0px 0px 5px 0px;
-  border: 1px solid var(--bordercolor);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin: auto 0;
-  justify-content: center;
-  cursor: pointer;
+.ChordButtonRow
+{
+	margin-left: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: auto;
+	justify-content: flex-end;
 }
 
-.ChordEntryActionColumn .ChordBindingBigButton {
-  width: 100%;
-  text-align: center;
+.ActionButtonImage.ChordBindingEntryDelete
+{
+	align-self: center;
+	margin: 0;
+	margin-left: 0.5rem;
 }
 
-.ChordEntryActionColumn:not(:first-child) .ChordBindingBigButton {
-  /* margin-top: 1rem; */
-  margin-bottom: 0.2rem;
+.ChordEntryActionColumn
+{
+	margin: auto 1rem;
 }
 
-.ChordBindingPlusLabel {
-  color: var(--descriptiontext);
-  text-align: center;
+.ChordBindingBigButton
+{
+	background: var(--chordbindingrowbackground);
+	align-self: center;
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin: auto 0;
+	justify-content: center;
+	cursor: pointer;
 }
 
-.ChordBindingHeader {
-  flex-shrink: 0;
-  width: 100%;
-  margin: 1rem;
-  margin-right: 2rem;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-bottom: 1rem;
-  /* padding-right: 3rem; */
-  border-bottom: 2px solid var(--modalheaderbottomborder);
+.ChordEntryActionColumn .ChordBindingBigButton
+{
+	width: 100%;
+	text-align: center;
 }
 
-.ChordBindingHeader .Title {
-  margin: auto 0.1rem;
+.ChordEntryActionColumn:not(:first-child) .ChordBindingBigButton
+{
+	/* margin-top: 1rem; */
+	margin-bottom: .2rem;
 }
 
-.ChordManageButtons.AddChordButton {
-  margin: 0;
-  margin-top: auto;
-  margin-right: 1rem;
-  align-self: flex-end;
+.ChordBindingPlusLabel
+{
+	color: var(--descriptiontext);
+	text-align: center;
 }
 
-.Label.Tab.Warning {
-  padding-right: 1.2rem;
-  background-color: var(--warningbackground);
+.ChordBindingHeader
+{
+	flex-shrink: 0;
+	width: 100%;
+	margin: 1rem;
+	margin-right: 2rem;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-bottom: 1rem;
+	/* padding-right: 3rem; */
+	border-bottom: 2px solid var(--modalheaderbottomborder);
 }
 
-.Tab.Warning.Selected {
-  padding-right: 1.2rem;
-  background-color: var(--warningbackgroundselected);
+.ChordBindingHeader .Title
+{
+	margin: auto 0.1rem;
 }
 
-.Label.Tab.Error {
-  padding-right: 1.2rem;
-  background-color: var(--errorbackground);
+.ChordManageButtons.AddChordButton
+{
+	margin: 0;
+	margin-top: auto;
+	margin-right: 1rem;
+	align-self: flex-end;
 }
 
 .UnboundActionsCount {
-  position: absolute;
-  top: 0.3rem;
-  right: 0.3rem;
-  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
-  background-color: var(--tabbackground);
-  border-radius: 0.2rem;
-  font-size: 0.9rem;
+	position: absolute;
+	top: 0.3rem;
+	right: 0.3rem;
+	padding: 0.2rem .5rem .2rem .5rem;
+	background-color: var(--tabbackground);
+	border-radius: 0.2rem;
+	font-size: 0.9rem;
 }
 
 .UnboundActionsOverlay {
-  position: absolute;
-  top: calc(100% + 2rem);
-  width: 40%;
-  min-width: 6rem;
-  background-color: var(--modalbackground);
+	position: absolute;
+	top: calc( 100% + 2rem);
+	width: 40%;
+	min-width: 6rem;
+	background-color: var(--modalbackground);
 
-  padding: 1rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
+	padding: 1rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
 
-  z-index: 3;
+	z-index: 3;
 
-  opacity: 0;
-  transition: opacity var(--button-fade-time);
+	opacity: 0;
+	transition: opacity var(--button-fade-time);
 
-  color: var(--bindinglistdetails);
+	color: var(--bindinglistdetails);
+
 }
 
 .UnboundActionsOverlay.Visible {
-  opacity: 1;
+	opacity: 1;
+
 }
 
 .ControllerBindingSettingsModal {
-  width: 75%;
+	width: 75%;
 }
 
+
 .InputSettingsLabel {
-  font-weight: bold;
-  font-size: 1rem;
-  width: 15rem;
-  color: var(--poseactiontitle);
-  flex: 2;
+	font-weight: bold;
+	font-size: 1rem;
+	width: 15rem;
+	color: var(--poseactiontitle);
+	flex: 2;
 }
 
 .InputSettingsLabel:empty {
-  display: none;
+	display: none;
 }
 
 .InputSettingsRow {
-  padding: 0.5rem;
-  align-items: center;
-  background: var(--poseactionlistentry);
+	padding: 0.5rem;
+    align-items: center;
+	background: var(--poseactionlistentry);
 }
 
 .InputSettingsResetButton {
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 2px;
-  margin-left: 10px;
-  color: var(--text-color);
-  font-weight: bold;
-  background: var(--buttondefault);
-  box-shadow: var(--bordercolor) 0px 0px 5px 0px;
-  border: 1px solid var(--bordercolor);
-  border-radius: 2px;
-  flex: 1;
+	cursor: pointer;
+	font-size: 1rem;
+    padding: 2px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-weight: bold;
+    background: var(--buttondefault);
+    box-shadow: var(--bordercolor) 0px 0px 5px 0px;
+    border: 1px solid var(--bordercolor);
+	border-radius: 2px;
+	flex: 1;
 }
 
 .InputSettingsResetButton:hover {
-  color: var(--buttonhover);
+	color: var(--buttonhover);
 }
 
 .InputSettingsInputContainer {
-  flex: 3;
-  margin: 0 10px;
+	flex: 3;
+	margin: 0 10px;
 }
 
 .InputSettingsInputContainer input {
-  width: 100%;
+	width: 100%;
 }
 
 .InputSettingsModal {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .InputSettingsScrollablePanel {
-  overflow-y: auto;
+	overflow-y: auto;
 }
 
 .InputSettingsCloseButton {
-  margin-top: 1rem;
-  height: 4rem;
-  width: 100%;
-  background: var(--chordbindingrowbackground);
-  font-size: 1rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-end;
-  cursor: pointer;
+	margin-top: 1rem;
+	height: 4rem;
+	width: 100%;
+	background: var(--chordbindingrowbackground);
+	font-size: 1rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: flex-end;
+	cursor: pointer;
 }
 
-.InputSettingsCloseButton:hover {
-  background: var(--buttonhover);
+.InputSettingsCloseButton:hover
+{
+	background: var(--buttonhover);
 }
 
-.RangeLabel {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
+.RangeLabel
+{
+	text-align: right;
+	font-variant-numeric: tabular-nums;
 }
 
-.InputSettingsInputContainer.HalfSplit input[type="range"] {
-  --left-color: rgb(225, 219, 214);
-  --right-color: rgb(238, 170, 125);
+.InputSettingsInputContainer.HalfSplit input[type="range"]
+{
+	--left-color: rgb(225, 219, 214);
+	--right-color: rgb(238, 170, 125);
 
-  -webkit-appearance: none;
-  background: linear-gradient(
-    to right,
-    var(--left-color) 0%,
-    var(--left-color) 48%,
-    var(--right-color) 52%,
-    var(--right-color) 100%
-  );
-  height: 4px;
+	-webkit-appearance: none;
+	background: linear-gradient(to right, var(--left-color) 0%, var(--left-color) 48%, var(--right-color) 52%, var(--right-color) 100%);
+	height: 4px
 }
 
-.InputSettingsInputContainer.HalfSplit input[type="range"]:focus {
-  outline: none;
+.InputSettingsInputContainer.HalfSplit input[type="range"]:focus
+{
+	outline: none;
 }
 
-.PoseTitleBar,
-.SaveTitleBar {
-  width: 100%;
-  margin: 1rem;
-  margin-bottom: 0;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid var(--modalheaderbottomborder);
+.PoseTitleBar, .SaveTitleBar
+{
+	width: 100%;
+	margin: 1rem;
+	margin-bottom: 0;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 1rem;
+	border-bottom: 2px solid var(--modalheaderbottomborder);
 }
 
-.SaveTitleBar {
-  margin: 0;
+.SaveTitleBar
+{
+	margin: 0;
 }
 
-.PoseMainContent {
-  height: 90%;
-  width: 100%;
+.PoseMainContent
+{
+	height: 90%;
+	width: 100%;
 }
 
-.PoseActionsList {
-  position: relative;
-  align-self: flex-start;
-  min-height: calc(100% - 0.8rem);
-  max-width: 30%;
-  flex-grow: 0;
-  padding: 0.4rem;
-  z-index: 1;
+.PoseActionsList
+{
+	position: relative;
+	align-self: flex-start;
+	min-height: calc( 100% - 0.8rem);
+	max-width: 30%;
+	flex-grow: 0;
+	padding: 0.4rem;
+	z-index: 1;
 
-  background: var(--poseactionsbackground);
+	background: var(--poseactionsbackground);
 }
 
-.PoseActionsList .Title {
-  margin-bottom: 0.5rem;
+.PoseActionsList .Title
+{
+	margin-bottom: 0.5rem;
 }
 
-.PoseControllerPictures {
-  flex-grow: 1;
-  margin: 4rem;
-  justify-content: center;
-  text-align: center; /* img tags are inline, thus respond to text-align and not justify-content */
-  align-items: center; /* But they DO respond to align-items, because REASONS. */
+.PoseControllerPictures
+{
+	flex-grow: 1;
+	margin: 4rem;
+	justify-content: center;
+	text-align: center; /* img tags are inline, thus respond to text-align and not justify-content */
+	align-items: center; /* But they DO respond to align-items, because REASONS. */
 }
 
 .PoseControllerPictures .ControllerImageContainer {
-  width: 100%;
+	width: 100%;
 }
 
-.PoseControllerPictures .ControllerImage {
-  margin: 0;
-  max-height: calc(
-    70vh - 7em
-  ); /* 100% here would be ideal, but it's not valid per spec. This is a reasonable */
+.PoseControllerPictures .ControllerImage
+{
+	margin: 0;
+	max-height: calc( 70vh - 7em ); /* 100% here would be ideal, but it's not valid per spec. This is a reasonable */
+
 }
 
-.PoseBindingPoints {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.PoseBindingPoints
+{
+	position: absolute;
+	left:0;
+	width: 100%;
+	height: 100%;
 }
 
-.PoseActionLabel {
-  font-weight: bold;
-  font-size: 1rem;
-  width: 45%;
-  color: var(--poseactiontitle);
-  flex: 1 1;
+.PoseActionLabel
+{
+	font-weight: bold;
+	font-size: 1rem;
+	width: 45%;
+	color: var(--poseactiontitle);
+	flex: 1 1;
 }
 
-.PoseActionListEntry {
-  padding: 0.5rem;
-  align-items: center;
-  background: var(--poseactionlistentry);
+
+.PoseActionListEntry
+{
+	padding: 0.5rem;
+	align-items: center;
+	background: var(--poseactionlistentry);
 }
 
 .PoseActionListEntryWrapper svg {
-  opacity: 0;
-  transition: opacity var(--button-fade-time);
+	opacity: 0;
+	transition: opacity var(--button-fade-time);
 }
 .PoseActionListEntryWrapper:hover svg {
-  opacity: 1;
+	opacity: 1;
 }
 
-.PoseActionListEntryWrapper hr {
-  margin-top: 6px;
+.PoseActionListEntryWrapper hr
+{
+	margin-top: 6px;
 }
 
-.BindingControllerImageColumns {
-  position: sticky;
-  top: 0;
-  max-height: 100%;
-  left: 26%;
-  width: 48%;
-  z-index: 1;
+.BindingControllerImageColumns
+{
+	position: sticky;
+	top: 0;
+	max-height: 100%;
+    left: 26%;
+	width: 48%;
+	z-index: 1;
 }
 
-.ControllerImageColumn {
-  width: 50%;
+.ControllerImageColumn
+{
+	width: 50%;
 }
 
-.BindingSectionWrapper {
-  position: relative;
-  flex: 1 1 100%;
-  overflow-y: scroll;
+.BindingSectionWrapper
+{
+	position: relative;
+	flex: 1 1 100%;
+	overflow-y: scroll;
 }
 
-.LegacySetupWrapper {
-  margin-top: 1rem;
-  overflow-y: auto;
+.LegacySetupWrapper
+{
+	margin-top: 1rem;
+	overflow-y: auto;
 }
 
-.LegacySetupContents {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90rem;
-  margin-bottom: 2rem;
+.LegacySetupContents
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 90rem;
+	margin-bottom: 2rem;
 }
 
-.SimulatedActionType {
-  font-size: 1.2rem;
-  width: 30%;
+.SimulatedActionType
+{
+	font-size: 1.2rem;
+	width: 30%;
 }
 
-.LegacySectionHeader {
-  margin-top: 1rem;
-  font-size: 200%;
-  text-align: center;
+.LegacySectionHeader
+{
+	margin-top: 1rem;
+	font-size: 200%;
+	text-align: center;
 }
 
-.SetupLegacyRow {
-  justify-content: center;
-  margin-top: 0.5rem;
+.SetupLegacyRow
+{
+	justify-content: center;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
-.ActionAliasButtonWrapper {
-  margin-left: auto;
-  margin-right: auto;
+.ActionAliasButtonWrapper
+{
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.HiddenAliasRow {
-  flex-grow: 0;
-  flex-shrink: 0;
-  margin: auto 1rem;
+.HiddenAliasRow
+{
+	flex-grow: 0;
+	flex-shrink: 0;
+	margin: auto 1rem;
 }
 
-.HiddenActionsWrapper::after {
-  content: "";
-  flex-grow: 1;
+.HiddenActionsWrapper::after
+{
+	content: '';
+	flex-grow: 1;
 }
 
-.HiddenAliasName {
-  margin-top: auto;
-  margin-bottom: auto;
-  min-width: 22rem;
+.HiddenAliasName
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	min-width: 22rem;
 }
 
-.HiddenActionsWrapper {
-  overflow-y: auto;
-  height: 100%;
+.HiddenActionsWrapper
+{
+	overflow-y: auto;
+	height: 100%;
 }
 
-.SetupLegacyRow .InlineDropdownLabel {
-  font-weight: unset;
-  height: fit-content;
-  margin-top: auto;
-  margin-bottom: auto;
+.SetupLegacyRow .InlineDropdownLabel
+{
+	font-weight: unset;
+	height: fit-content;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
-.TrackpadSelectionBackground {
-  margin-left: 1rem;
-  margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
-  border-radius: 50%;
-  border-color: white;
-  border-width: 0.2rem;
-  background-color: grey;
-  border-style: solid;
-  width: 10rem;
-  height: 10rem;
+.TrackpadSelectionBackground
+{
+	margin-left: 1.0rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	border-radius: 50%;
+	border-color: white;
+	border-width: 0.2rem;
+	background-color: grey;
+	border-style: solid;
+	width: 10rem;
+	height: 10rem;
 }
 
-.TrackpadSelectionPip {
-  margin-left: -0.5rem;
-  margin-top: -0.5rem;
-  width: 1rem;
-  height: 1rem;
-  background-color: red;
-  border-radius: 50%;
-  pointer-events: none;
-  position: relative;
+.TrackpadSelectionPip
+{
+	margin-left: -0.5rem;
+	margin-top: -0.5rem;
+	width: 1rem;
+	height: 1rem;
+	background-color: red;
+	border-radius: 50%;
+	pointer-events: none;
+	position: relative;
 }
 
-.BindingManageButtonsHR {
-  margin: 0 1rem;
-  width: 0px;
-  border: 1px solid var(--bordercolor);
+.BindingManageButtonsHR
+{
+	margin: 0 1rem;
+	width: 0px;
+	border: 1px solid lightgray;
 }
 
-.ControllerImageColumnButtons {
-  margin-bottom: 1.4rem;
+.ControllerImageColumnButtons
+{
+	margin-bottom: 1.4rem;
 }
 
-.LoadErrorCloseButton {
-  margin-top: auto;
+.LoadErrorCloseButton
+{
+	margin-top: auto;
 }
 
-.LoadErrorDialogWrapper {
-  height: 100%;
+.LoadErrorDialogWrapper
+{
+	height: 100%;
 }
 
-.TrackerEditorMainContentWrapper {
-  padding-top: var(--pagecontenttoppadding);
-  flex-grow: 1;
-  overflow-y: auto;
-  text-align: center;
+.TrackerEditorMainContentWrapper
+{
+	padding-top: var(--pagecontenttoppadding);
+	flex-grow: 1;
+	overflow-y: auto;
+	text-align: center;
 }
 
-.TrackerEntry {
-  background-color: var(--chordbindingsetbackground);
-  display: inline-block;
-  flex-direction: column;
-  margin: 10px;
-  text-align: left;
-  padding: 10px;
-  min-width: 30em;
+.TrackerEntry
+{
+	background-color: var(--chordbindingsetbackground);
+	display: inline-block;
+	flex-direction: column;
+	margin: 10px;
+	text-align: left;
+	padding: 10px;
+	min-width: 30em;
 }
 
-.TrackerEntry .RoleDropdownLabel {
-  --height: 1.9em;
-  height: var(--height);
-  line-height: var(--height);
+.TrackerEntry .RoleDropdownLabel
+{
+	--height: 1.9em;
+	height: var(--height);
+	line-height: var(--height);
 }
 
-.TrackerEntry .ControllerImage {
-  width: 5rem;
-  height: 5rem;
-  z-index: 1;
+.TrackerEntry .ControllerImage
+{
+	width: 5rem;
+	height: 5rem;
+	z-index: 1;
 }
 
-.TrackerEntry .FlexColumn {
-  align-self: center;
+.TrackerEntry .FlexColumn
+{
+	align-self: center;
 }
 
-.TrackerEntry.Connected {
-  --gradient-color: #2e6347;
-  background: linear-gradient(
-    190deg,
-    var(--chordbindingsetbackground) 0%,
-    var(--chordbindingsetbackground) 70%,
-    var(--gradient-color) 100%
-  );
+.TrackerEntry.Connected
+{
+	--gradient-color: #2e6347;
+	background: linear-gradient(
+		190deg,
+		var(--chordbindingsetbackground) 0%,
+		var(--chordbindingsetbackground) 70%,
+		var(--gradient-color) 100%);
 }
 
-.TrackerEntry.Connected .TrackerConnected {
-  color: #00ea00;
+.TrackerEntry.Connected .TrackerConnected
+{
+	color: #00ea00;
 }
 
-.TrackerEntry.Disconnected .TrackerConnected {
-  color: black;
+.TrackerEntry.Disconnected .TrackerConnected
+{
+	color: black;
 }
 
-.TrackerEntry .BottomRow {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-  position: relative;
+.TrackerEntry .BottomRow
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	position: relative;
 }
 
-.TrackerEntry .BottomRow .ButtonControl {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+.TrackerEntry .BottomRow .ButtonControl
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .SourceInputShowMore {
-  color: var(--descriptiontext);
-  margin: 0 1rem;
-  transition: color var(--button-fade-time);
+	color: var(--descriptiontext);
+	margin: 0 1rem;
+	transition: color var(--button-fade-time);
 }
 
 .SourceInputShowMore.Disabled {
-  display: none;
+	display: none;
 }
 
 .ActionAliasAction {
-  font-size: 1.2rem;
-  width: 20%;
-  margin-top: auto;
-  margin-bottom: auto;
-  flex-grow: 1;
+	font-size: 1.2rem;
+	width: 20%;
+	margin-top:auto;
+	margin-bottom:auto;
+	flex-grow: 1;
 }
 
 input.ActionAliasUserSuppliedName {
-  width: 30%;
-  height: 2rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  flex-grow: 4;
-  padding-left: 0.6rem;
+	width: 30%;
+	height: 2rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	flex-grow: 4;
+	padding-left: 0.6rem;
 }
 
-.SetupLegacyRow .ButtonControl {
-  margin-left: 2rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 0.5rem 0.5rem;
+.SetupLegacyRow .ButtonControl
+{
+	margin-left: 2rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0.5rem 0.5rem;
 }
 
-.SetupLegacyRow .Label {
-  margin-top: auto;
-  margin-bottom: auto;
+.SetupLegacyRow .Label
+{
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
-.SimulatedActionsAddWrapper .InlineDropdownLabel {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  max-width: 14rem;
-  text-align: center;
+.SimulatedActionsAddWrapper .InlineDropdownLabel
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	max-width: 14rem;
+	text-align: center;
 }
 
-.SimActionTargetLabel {
-  font-size: 1.2rem;
-  margin-top: auto;
-  margin-bottom: auto;
+.SimActionTargetLabel
+{
+	font-size: 1.2rem;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
-.AddSimActionButton {
-  font-weight: normal;
-  font-size: 1.2rem;
+.AddSimActionButton
+{
+	font-weight: normal;
+	font-size: 1.2rem;
 }
 
-.InputOptionLabel {
-  font-size: 1.2rem;
-  margin-left: 0.3rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 15rem;
-  color: var(--poseactiontitle);
-  flex: 2;
+.InputOptionLabel
+{
+	font-size: 1.2rem;
+	margin-left: 0.3rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 15rem;
+	color: var(--poseactiontitle);
+	flex: 2;
 }
 
-.Label.SecondRow {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+.Label.SecondRow
+{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 }
 
-.Label.Title {
-  font-size: 1.5rem;
-  color: var(--descriptiontext);
+.Label.Title
+{
+	font-size: 1.5rem;
+	color: var(--descriptiontext);
 }
 
-.Label.Description {
-  font-size: 0.8rem;
-  color: var(--descriptiontext);
+.Label.Description
+{
+	font-size: 0.8rem;
+	color: var(--descriptiontext);
 }
 
-.Label.Error {
-  border-color: red;
-  background-color: #494402;
-  border-width: 0.5rem;
-  /* padding:1rem; */
+.BindingSaveErrorHeader
+{
+	color: white;
+	background-color: var(--warningbackground);
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-.TitleCenter {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.BindingSaveErrorMessage {
+	font-size: 1.5rem;
 }
 
-.Label.TitleCenter {
-  font-size: var(--titlefontsize);
+.MissingBindingsErrorSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 1rem;
 }
 
-.ModeSettingsModal .BottomButtons {
-  margin-top: auto;
+.MissingBindingItem {
+	padding
 }
 
-.AppSelectExtraButtons {
-  bottom: 0px;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
+.Label.Tab.Warning
+{
+	padding-right: 1.2rem;
+	background-color: var(--warningbackground);
 }
 
-.LegacyDebuggerWrapper {
-  width: 100%;
+.Tab.Warning.Selected
+{
+	padding-right: 1.2rem;
+	background-color: var(--tabbackgroundselected);
 }
 
-.CalibrateThumbstickItem .Label {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 1rem;
-  min-width: 40%;
+.Label.Tab.Error
+{
+	padding-right: 1.2rem;
+	background-color: var(--errorbackground);
 }
 
-.ThumbstickAngleIcon {
-  margin-top: auto;
-  margin-bottom: auto;
+.Tab.Error.Selected
+{
+	padding-right: 1.2rem;
+	background-color: var(--tabbackgroundselected);
 }
 
-.DeadzoneOuter {
-  border-radius: 50%;
-  border: solid 4px white;
-  width: 2.3rem;
-  height: 2.3rem;
-  position: relative;
+.TitleCenter
+{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
-.DeadzoneInner {
-  border-radius: 50%;
-  background: grey;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+.Label.TitleCenter
+{
+	font-size: var( --titlefontsize );
 }
 
-.ControllerUtilityButton {
-  margin-left: 2rem;
+.ModeSettingsModal .BottomButtons
+{
+	margin-top: auto;
 }
 
-.ThumbstickAngle {
-  margin-left: 0.7rem;
-  margin-top: auto;
-  margin-bottom: auto;
+.AppSelectExtraButtons
+{
+	bottom:0px;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
 }
 
-.CalibrateButtonRow {
-  width: fit-content;
-  margin-left: auto;
-  margin-right: 0.2rem;
+.LegacyDebuggerWrapper
+{
+	width: 100%;
+}
+
+.CalibrateThumbstickItem .Label
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 1rem;
+	min-width: 40%;
+}
+
+.ThumbstickAngleIcon
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.DeadzoneOuter
+{
+	border-radius: 50%;
+	border: solid  4px white;
+	width: 2.3rem;
+	height: 2.3rem;
+	position: relative;
+}
+
+.DeadzoneInner
+{
+	border-radius: 50%;
+	background: grey;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.ControllerUtilityButton
+{
+	margin-left: 2.0rem;
+}
+
+.ThumbstickAngle
+{
+	margin-left: 0.7rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.CalibrateButtonRow
+{
+	width: fit-content;
+	margin-left: auto;
+	margin-right: 0.2rem;
 }
 
 .ModalBackdrop {
-  background: black;
-  opacity: 0.2;
+	background: black;
+	opacity: 0.2;
 }
 
 .Modal {
-  border: 1px solid var(--bordercolor);
-  background: var(--modalbackground);
-  padding: 1em;
+	border: 1px solid var(--bordercolor);
+	background: var(--modalbackground);
+	padding: 1em;
 }
 
 @keyframes DebuggerDropdownPopoverFadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
-.Dropdown.Popover {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: fit-content;
-  height: fit-content;
-  z-index: 9001;
-  border-radius: var(--settings-control-inner-border-radius);
-  overflow-y: auto;
-  box-shadow: 0px 1px 18px 4px #00000021;
-  background: var(--settings-control-background);
+.Dropdown.Popover
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: fit-content;
+	height: fit-content;
+	z-index: 9001;
+	border-radius: var(--settings-control-inner-border-radius);
+	overflow-y: auto;
+	box-shadow: 0px 1px 18px 4px #00000021;
+	background: var(--settings-control-background);
 
-  animation: DebuggerDropdownPopoverFadeIn
-    var(--settings-modal-animation-duration)
-    var(--control-switch-overshoot-ease);
-  animation-fill-mode: both;
+	animation: DebuggerDropdownPopoverFadeIn var(--settings-modal-animation-duration) var(--control-switch-overshoot-ease);
+	animation-fill-mode: both;
 }
 
-.Dropdown.Popover > .Separator {
-  border-top: solid 1px var(--settings-control-hover-background);
+.Dropdown.Popover > .Separator
+{
+	border-top: solid 1px var(--settings-control-hover-background);
 }
 
-.ButtonControl.Dropdown {
-  display: flex;
-  flex-direction: row;
+.ButtonControl.Dropdown
+{
+	display: flex;
+	flex-direction: row;
 }
 
-.ButtonControl.Dropdown > span {
-  flex-grow: 1;
-  overflow: none;
-  text-overflow: ellipsis;
-  text-align: left;
+.ButtonControl.Dropdown > span
+{
+	flex-grow: 1;
+	overflow: none;
+	text-overflow: ellipsis;
+	text-align: left;
 }
 
-.ButtonControl.Dropdown::after {
-  --size: calc(0.2 * var(--settings-control-default-height));
-  --thickness: 0.15em;
+.ButtonControl.Dropdown::after
+{
+	--size: calc( 0.2 * var(--settings-control-default-height) );
+	--thickness: 0.15em;
 
-  content: "";
-  width: var(--size);
-  height: var(--size);
-  flex-shrink: 0;
-  align-self: center;
-  border: solid var(--text-color);
-  border-width: 0 var(--thickness) var(--thickness) 0;
-  display: inline-block;
-  transform: translateY(-20%) rotate(45deg);
-  margin-right: 0.2em;
+	content: '';
+	width: var(--size);
+	height: var(--size);
+	flex-shrink: 0;
+	align-self: center;
+	border: solid var(--text-color);
+	border-width: 0 var(--thickness) var(--thickness) 0;
+	display: inline-block;
+	transform: translateY(-20%) rotate(45deg);
+	margin-right: 0.2em;
 }
 
-.DropdownPopoverButton {
-  background-color: var(--settings-control-activated-background);
-  font-size: var(--settings-font-size);
-  padding: var(--settings-control-button-min-padding-v)
-    var(--settings-control-button-min-padding-h);
-  box-sizing: border-box;
-  text-align: left;
-  text-transform: uppercase;
-  text-overflow: ellipsis;
-  overflow-x: hidden;
-  width: 100%;
-  min-height: var(--settings-control-default-height);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  cursor: pointer;
-  color: var(--text-color);
+.DropdownPopoverButton
+{
+	background-color: var(--settings-control-activated-background);
+	font-size: var(--settings-font-size);
+	padding: var(--settings-control-button-min-padding-v) var(--settings-control-button-min-padding-h);
+	box-sizing: border-box;
+	text-align: left;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+	width: 100%;
+	min-height: var(--settings-control-default-height);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	cursor: pointer;
+	color: var(--text-color);
 
-  transition: background-color var(--settings-control-hover-fade-duration),
-    box-shadow var(--settings-control-hover-fade-duration);
+	transition: background-color var(--settings-control-hover-fade-duration),
+	            box-shadow var(--settings-control-hover-fade-duration);
 }
 
-.DropdownPopoverButton:hover {
-  background-color: var(--settings-control-hover-background);
+.DropdownPopoverButton:hover
+{
+	background-color: var(--settings-control-hover-background);
 }
 
-.DropdownPopoverButton:active {
-  background-color: var(--settings-control-active-background);
+.DropdownPopoverButton:active
+{
+	background-color: var(--settings-control-active-background);
 }
 
-.DropdownPopoverButton.Selected {
-  filter: brightness(115%);
+.DropdownPopoverButton.Selected
+{
+	filter: brightness(115%);
 }
 
-.DebuggerMain .ButtonControl {
-  border-radius: var(--settings-control-inner-border-radius);
-  background-color: var(--settings-control-activated-background);
-  margin: var(--settings-control-margin) 0;
-  font-weight: var(--settings-font-weight);
-  font-size: var(--settings-font-size);
-  padding: var(--settings-control-button-min-padding-v)
-    var(--settings-control-button-min-padding-h);
-  box-sizing: border-box;
-  text-transform: uppercase;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  width: 100%;
-  min-height: var(--settings-control-default-height);
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  text-align: center;
+.DebuggerMain .ButtonControl
+{
+	border-radius: var(--settings-control-inner-border-radius);
+	background-color: var(--settings-control-activated-background);
+	margin: var(--settings-control-margin) 0;
+	font-weight: var(--settings-font-weight);
+	font-size: var(--settings-font-size);
+	padding: var(--settings-control-button-min-padding-v) var(--settings-control-button-min-padding-h);
+	box-sizing: border-box;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+	min-height: var(--settings-control-default-height);
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	text-align: center;
 
-  transition: background-color var(--settings-control-hover-fade-duration),
-    box-shadow var(--settings-control-hover-fade-duration);
+	transition: background-color var(--settings-control-hover-fade-duration),
+	            box-shadow var(--settings-control-hover-fade-duration);
 }
 
-.ButtonControl + .ButtonControl {
-  margin-left: var(--settings-control-margin);
+.ButtonControl + .ButtonControl
+{
+	margin-left: var(--settings-control-margin);
 }
 
-.ButtonControl:not(.Disabled):hover {
-  background-color: var(--settings-control-hover-background);
-  box-shadow: var(--settings-control-box-hover-shadow);
+.ButtonControl:not(.Disabled):hover
+{
+	background-color: var(--settings-control-hover-background);
+	box-shadow: var(--settings-control-box-hover-shadow);
 }
 
-.ButtonControl:not(.Disabled):active {
-  background-color: var(--settings-control-active-background);
-  box-shadow: var(--settings-control-box-active-shadow);
+.ButtonControl:not(.Disabled):active
+{
+	background-color: var(--settings-control-active-background);
+	box-shadow: var(--settings-control-box-active-shadow);
 }
 
-.ActiveActionSetContainer {
-  display: grid;
-  grid-template-columns: repeat(6, max-content);
-  max-width: 90rem;
-  margin-left: 2rem;
-  column-gap: 10px;
+
+
+.ActiveActionSetContainer
+{
+	display: grid;
+	grid-template-columns: repeat( 6, max-content );
+	max-width: 90rem;
+	margin-left: 2rem;
+	column-gap: 10px;
 }
 
-.ActiveActionSetsHeader {
-  display: contents;
+.ActiveActionSetsHeader
+{
+	display: contents;
 }
 
-.ActiveActionSetsHeader .Label {
-  font-size: 1.25rem;
-  border-bottom: 1px solid white;
-  margin-bottom: 3px;
+.ActiveActionSetsHeader .Label
+{
+	font-size : 1.25rem;
+	border-bottom: 1px solid white;
+	margin-bottom: 3px;
 }
 
-.ActiveActionSet {
-  display: contents;
+.ActiveActionSet
+{
+	display: contents;
 }
 
-.ActionSetName {
-  grid-column: 1;
+.ActionSetName
+{
+	grid-column: 1;
 }
 
-.ActionSetPath {
-  grid-column: 2;
-  font-style: italic;
+.ActionSetPath
+{
+	grid-column: 2;
+	font-style: italic;
 }
 
-.ActionSetPriority {
-  grid-column: 3;
+.ActionSetPriority
+{
+	grid-column: 3;
 }
 
-.ActionSetDevice {
-  grid-column: 4;
-  font-style: italic;
+.ActionSetDevice
+{
+	grid-column: 4;
+	font-style: italic;
 }
 
-.ActionSetSecondaryName {
-  grid-column: 5;
+.ActionSetSecondaryName
+{
+	grid-column: 5;
 }
 
-.ActionSetSecondaryPath {
-  grid-column: 6;
-  font-style: italic;
+.ActionSetSecondaryPath
+{
+	grid-column: 6;
+	font-style: italic;
 }
 
-.InputDebuggerSectionHeading {
-  font-size: 2rem;
+.InputDebuggerSectionHeading
+{
+	font-size: 2rem;
 }
 
-.InputDebuggerHeading {
-  font-size: 1.5rem;
+.InputDebuggerHeading
+{
+	font-size: 1.5rem;
 }
 
-.DebuggerMain {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+.DebuggerMain
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
 }
 
-.DebuggerMain .DebuggerState {
-  display: flex;
-  flex-direction: column;
+.DebuggerMain .DebuggerState
+{
+	display: flex;
+	flex-direction: column;
 }
 
-.DebuggerMain .Error {
-  background: darkred;
-  border: solid 1px red;
+.DebuggerMain .Error
+{
+	background: darkred;
+	border: solid 1px red;
 }
 
-.DebuggerMain .ActionContainer {
-  display: flex;
-  flex-direction: row;
+.DebuggerMain .ActionContainer
+{
+	display: flex;
+	flex-direction: row;
 }
 
-.DebuggerMain .ActionSetButtons {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
+.DebuggerMain .ActionSetButtons
+{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
 }
 
-.DebuggerMain .ActionSetButtons .Selected {
-  background: lightslategray;
+.DebuggerMain .ActionSetButtons .Selected
+{
+	background: lightslategray;
 }
 
-.ActionHeader.Label {
-  grid-column: 1/2;
+.ActionHeader.Label
+{
+	grid-column: 1/2;
 }
 
-.DebuggerMain .ActionEntry {
-  margin-left: 10px;
+.DebuggerMain .ActionEntry
+{
+	margin-left: 10px;
 }
 
-.DebuggerMain .ActionListWrapper {
-  overflow-y: auto;
-  flex-grow: 1;
+.DebuggerMain .ActionListWrapper
+{
+	overflow-y: auto;
+	flex-grow: 1;
 }
 
-.DebuggerMain .ActionList {
-  margin-left: 10px;
-  display: grid;
-  grid-auto-columns: max-content;
-  grid-auto-rows: min-content;
-  gap: 5px;
+.DebuggerMain .ActionList
+{
+	margin-left: 10px;
+	display: grid;
+	grid-auto-columns: max-content;
+	grid-auto-rows: min-content;
+	gap: 5px;
 }
 
-.DebuggerMain .Action {
-  display: contents;
+.DebuggerMain .Action
+{
+	display: contents;
 }
 
-.DebuggerMain .Action .Entries {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: row;
+.DebuggerMain .Action .Entries
+{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
 }
 
-.ActionName.Label {
-  font-size: 1.25rem;
-  grid-column-start: 1;
+.ActionName.Label
+{
+	font-size: 1.25rem;
+	grid-column-start: 1;
 }
 
-.ActionPath {
-  font-style: italic;
-  font-size: 1rem;
-  display: contents;
+.ActionPath
+{
+	font-style: italic;
+	font-size: 1rem;
+	display: contents;
 }
 
-.ActionEntry.BooleanValue {
-  width: 10rem;
-  height: 1.1rem;
-  font-size: 0.8rem;
-  text-align: center;
-  border: #55555580 2px solid;
+.ActionEntry.BooleanValue
+{
+	width: 10rem;
+    height: 1.1rem;
+    font-size: 0.8rem;
+    text-align: center;
+	border: #55555580 2px solid;
 }
 
-.ActionEntry.BooleanValue:not(.IsTrue) {
-  border: #55555580 2px solid;
-  transition: all 500ms;
+.ActionEntry.BooleanValue:not( .IsTrue )
+{
+	border: #55555580 2px solid;
+	transition: all 500ms;
 }
 
-.ActionEntry.BooleanValue.IsTrue {
-  background: var(--selectedtext);
-  color: #9c8d8d;
+.ActionEntry.BooleanValue.IsTrue
+{
+	background: var(--selectedtext);
+	color: #9c8d8d;
 }
 
-.Action .Unbound {
-  grid-column: 1/6;
-  margin-left: 10px;
+.Action .Unbound
+{
+	grid-column: 1/6;
+	margin-left: 10px;
 }
 
-.DebuggerMain .FilterLink:link {
-  color: lightblue;
+.DebuggerMain .FilterLink:link
+{
+	color: lightblue;
 }
 
-.DebuggerMain .FilterLink:visited {
-  color: blue;
+.DebuggerMain .FilterLink:visited
+{
+	color: blue;
 }
 
-.FilterDetails {
-  display: flex;
-  flex-direction: column;
+.FilterDetails
+{
+	display: flex;
+	flex-direction: column;
 }
 
 .FilterDetails .ParameterList,
 .FilterDetails .InputList,
-.FilterDetails .OutputList {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
+.FilterDetails .OutputList
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
 }
 
-.FilterDetails .InputDebuggerHeading {
-  margin-top: 5px;
+.FilterDetails .InputDebuggerHeading
+{
+	margin-top: 5px;
 }
 
-.FilterDetails .FilterIO {
-  display: flex;
-  flex-direction: row;
+.FilterDetails .FilterIO
+{
+	display: flex;
+	flex-direction: row;
 }
 
-.FilterIO .Label {
-  margin-right: 5px;
+.FilterIO .Label
+{
+	margin-right: 5px;
 }
 
-.FilterIO .Suppressed {
-  border: 1px solid darkred;
-  color: coral;
-  font-size: 0.8rem;
-  text-transform: uppercase;
+.FilterIO .Suppressed
+{
+	border: 1px solid darkred;
+	color: coral;
+	font-size: 0.8rem;
+	text-transform: uppercase;
 }
 
-.SteamUnavailable .SteamRequired {
-  opacity: 0.5;
-  pointer-events: none;
+.SteamUnavailable .SteamRequired
+{
+	opacity: 0.5;
+	pointer-events: none;
 }
 
-.SourceModeHelp {
-  float: right;
-  margin: 5px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 1.5rem;
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-  border: 1px solid #004777;
-  background-color: #27436b;
+.SourceModeHelp
+{
+	float: right;
+	margin: 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.5rem;
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	border: 1px;
+	background-color: #586170;
 }
 
-.tippy-tooltip.SourceModes-theme {
-  font-size: 1.5rem;
+.SimulatedControllerInfoSection {
+	color: white;
+	font-size: 1rem;
+	align-items: center;
 }
 
-.tippy-tooltip.BindingLabel-theme {
-  font-size: 1rem;
+.SimulatedControllerInfoHelp
+{
+	float: right;
+	margin: 10px;
+	text-align: center;
+	font-size: 1.5rem;
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	border: 1px;
+	background-color: var(--buttondefault);
 }
 
-.tippy-tooltip.MainButton-theme {
-  font-size: 1rem;
+.tippy-tooltip.ControllerBindingToolTip-theme
+{
+	font-size: 1rem;
+	background-color: #24272d;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
 }
 
-.tippy-tooltip.OptionsItem-theme {
-  font-size: 1rem;
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='top'] .tippy-arrow {
+	border-top-color: #24272d;
+}
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='bottom'] .tippy-arrow {
+	border-bottom-color: #24272d;
+}
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='left'] .tippy-arrow {
+	border-left-color: #24272d;
+}
+.tippy-tooltip.ControllerBindingToolTip-theme[data-placement^='right'] .tippy-arrow {
+	border-right-color: #24272d;
 }

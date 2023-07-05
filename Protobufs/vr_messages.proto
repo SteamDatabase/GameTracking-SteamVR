@@ -383,6 +383,8 @@ message CVRMsg_CompositorNewSharedImage {
 	optional uint32 width = 2;
 	optional uint32 height = 3;
 	optional bool renderable = 4;
+	optional bool mappable = 5;
+	optional bool compute_access = 6;
 }
 
 message CVRMsg_CompositorNewSharedImageResponse {
@@ -811,6 +813,10 @@ message CVRMsg_Input_SetActionManifestPathResponse {
 message CVRMsg_Input_SetXrInputConfig {
 	optional string action_manifest = 1;
 	repeated string binding_file = 2;
+}
+
+message CVRMsg_Input_SetXrInputConfigResponse {
+	optional uint32 result = 1;
 }
 
 message CVRMsg_Input_GetActionBindings {

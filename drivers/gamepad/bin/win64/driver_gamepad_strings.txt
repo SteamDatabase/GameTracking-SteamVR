@@ -3,15 +3,15 @@
  A__^
  H3E H3E
 !hn7!
-"xwB#!(e
 ',=?k
 (D$ f
 (f*^[0
 (|$pL
 +Xt@(
 +o'q)}
+,>2~o
 ,W5y+
-,vXP#
+. =T{I
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -94,12 +94,13 @@
 0w0c1
 0}0i1
 130801120000Z
+1:mJ,Wb
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 220921000000Z
-230503215130Z0/
+230629194926Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -112,6 +113,7 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4}7z*:
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -119,6 +121,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8:x)[
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
@@ -126,7 +129,6 @@
 <0:08
 =rIQU
 >0<0:
->=)KoO
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
@@ -147,6 +149,7 @@ CreateEventW
 D$8H9
 D8{0t
 DeleteCriticalSection
+Dff[x
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -155,7 +158,6 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
-FBD4S
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -205,13 +207,14 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NG}J%
 NPH9Q
+OYOCc
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS_
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -258,15 +261,17 @@ Unknown exception
 VCRUNTIME140.dll
 VWAVH
 VWAWH
-V_J<aF
 V_~]	,
 Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+X!HGH-
 Y9"SD
 [K]taM?
+[f)z}
 \$ UH
+\SB.b
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -311,7 +316,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 cU	F9
 driver_gamepad.dll
 http://ocsp.digicert.com0A
@@ -319,6 +324,8 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iJH_Ix
+jd<.c
 jj@0HK4
 k0i0$
 l$8E3
@@ -337,7 +344,6 @@ t$ WH
 t$@H=
 tXfff
 terminate
-uiy\r
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -354,7 +360,6 @@ www.digicert.com1$0"
 {un'%
 |$ AVH
 |Lu?c
-}Bk+H
 }LuHO
 ~qj#k"
 ~t&LN

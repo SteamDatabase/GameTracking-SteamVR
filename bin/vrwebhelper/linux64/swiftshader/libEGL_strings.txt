@@ -1,3 +1,4 @@
+!
 #
 %
 %.0Lf
@@ -10,10 +11,10 @@
 (anonymous namespace)::heap_mutex
 -
 /
+0
 0123456789
 0123456789abcdefABCDEFxX+-pPiInN
-1
-1.4 SwiftShader 4.1.0.2
+1.4 SwiftShader 4.1.0.7
 80
 :
 A
@@ -35,27 +36,47 @@ F
 Feb
 Fri
 Friday
-GCC: (Debian 6.4.0-22) 6.4.0 20180924
+GCC: (Debian 7.5.0-3) 7.5.0
 GCC_3.0
 GCC_except_table0
 GCC_except_table1
 GCC_except_table10
+GCC_except_table100
+GCC_except_table101
+GCC_except_table102
+GCC_except_table103
+GCC_except_table104
+GCC_except_table105
+GCC_except_table106
+GCC_except_table107
 GCC_except_table108
+GCC_except_table109
 GCC_except_table11
 GCC_except_table110
 GCC_except_table111
+GCC_except_table112
+GCC_except_table113
+GCC_except_table114
 GCC_except_table115
 GCC_except_table116
-GCC_except_table117
 GCC_except_table118
-GCC_except_table119
 GCC_except_table12
 GCC_except_table120
-GCC_except_table123
+GCC_except_table122
 GCC_except_table124
 GCC_except_table125
+GCC_except_table126
+GCC_except_table127
+GCC_except_table128
+GCC_except_table129
 GCC_except_table13
+GCC_except_table130
+GCC_except_table131
+GCC_except_table132
 GCC_except_table133
+GCC_except_table134
+GCC_except_table135
+GCC_except_table136
 GCC_except_table137
 GCC_except_table138
 GCC_except_table139
@@ -63,31 +84,28 @@ GCC_except_table14
 GCC_except_table140
 GCC_except_table141
 GCC_except_table142
-GCC_except_table143
-GCC_except_table144
 GCC_except_table145
-GCC_except_table146
-GCC_except_table147
 GCC_except_table15
+GCC_except_table151
+GCC_except_table152
 GCC_except_table156
+GCC_except_table158
 GCC_except_table16
+GCC_except_table160
 GCC_except_table162
 GCC_except_table164
 GCC_except_table166
 GCC_except_table168
-GCC_except_table169
 GCC_except_table17
+GCC_except_table170
+GCC_except_table172
 GCC_except_table174
-GCC_except_table175
 GCC_except_table176
 GCC_except_table178
-GCC_except_table179
 GCC_except_table18
 GCC_except_table180
-GCC_except_table181
 GCC_except_table182
 GCC_except_table183
-GCC_except_table184
 GCC_except_table185
 GCC_except_table186
 GCC_except_table187
@@ -95,7 +113,9 @@ GCC_except_table188
 GCC_except_table189
 GCC_except_table19
 GCC_except_table190
+GCC_except_table191
 GCC_except_table192
+GCC_except_table193
 GCC_except_table194
 GCC_except_table195
 GCC_except_table196
@@ -105,45 +125,37 @@ GCC_except_table199
 GCC_except_table2
 GCC_except_table20
 GCC_except_table200
-GCC_except_table201
 GCC_except_table202
 GCC_except_table203
-GCC_except_table204
-GCC_except_table205
-GCC_except_table206
-GCC_except_table207
-GCC_except_table208
-GCC_except_table209
 GCC_except_table21
+GCC_except_table210
+GCC_except_table214
 GCC_except_table216
 GCC_except_table217
 GCC_except_table218
 GCC_except_table219
 GCC_except_table22
+GCC_except_table220
 GCC_except_table221
 GCC_except_table222
+GCC_except_table223
+GCC_except_table224
+GCC_except_table225
+GCC_except_table226
 GCC_except_table227
 GCC_except_table228
 GCC_except_table229
 GCC_except_table23
 GCC_except_table230
 GCC_except_table231
-GCC_except_table232
 GCC_except_table233
 GCC_except_table234
 GCC_except_table235
-GCC_except_table236
-GCC_except_table237
 GCC_except_table238
-GCC_except_table239
 GCC_except_table24
 GCC_except_table240
-GCC_except_table241
-GCC_except_table242
+GCC_except_table243
 GCC_except_table244
-GCC_except_table245
-GCC_except_table246
-GCC_except_table247
 GCC_except_table248
 GCC_except_table249
 GCC_except_table25
@@ -158,7 +170,14 @@ GCC_except_table257
 GCC_except_table258
 GCC_except_table259
 GCC_except_table26
+GCC_except_table260
 GCC_except_table261
+GCC_except_table262
+GCC_except_table263
+GCC_except_table264
+GCC_except_table265
+GCC_except_table266
+GCC_except_table267
 GCC_except_table268
 GCC_except_table269
 GCC_except_table27
@@ -166,6 +185,9 @@ GCC_except_table270
 GCC_except_table271
 GCC_except_table272
 GCC_except_table273
+GCC_except_table274
+GCC_except_table275
+GCC_except_table276
 GCC_except_table277
 GCC_except_table278
 GCC_except_table279
@@ -173,7 +195,6 @@ GCC_except_table28
 GCC_except_table280
 GCC_except_table281
 GCC_except_table282
-GCC_except_table283
 GCC_except_table284
 GCC_except_table285
 GCC_except_table286
@@ -184,245 +205,154 @@ GCC_except_table29
 GCC_except_table290
 GCC_except_table291
 GCC_except_table292
+GCC_except_table293
 GCC_except_table294
 GCC_except_table295
+GCC_except_table296
+GCC_except_table297
+GCC_except_table298
+GCC_except_table299
 GCC_except_table3
 GCC_except_table30
+GCC_except_table300
+GCC_except_table301
+GCC_except_table302
 GCC_except_table303
+GCC_except_table304
+GCC_except_table305
+GCC_except_table306
+GCC_except_table307
+GCC_except_table308
+GCC_except_table309
 GCC_except_table31
 GCC_except_table310
+GCC_except_table311
+GCC_except_table312
+GCC_except_table313
+GCC_except_table314
 GCC_except_table315
 GCC_except_table316
-GCC_except_table317
-GCC_except_table318
-GCC_except_table319
 GCC_except_table32
-GCC_except_table320
-GCC_except_table321
 GCC_except_table322
 GCC_except_table323
 GCC_except_table324
-GCC_except_table325
-GCC_except_table326
-GCC_except_table327
 GCC_except_table328
 GCC_except_table329
 GCC_except_table33
 GCC_except_table330
+GCC_except_table331
 GCC_except_table332
-GCC_except_table333
+GCC_except_table334
+GCC_except_table335
+GCC_except_table339
 GCC_except_table34
+GCC_except_table343
+GCC_except_table344
+GCC_except_table345
+GCC_except_table348
+GCC_except_table349
+GCC_except_table35
+GCC_except_table350
+GCC_except_table351
+GCC_except_table354
+GCC_except_table355
 GCC_except_table36
-GCC_except_table361
-GCC_except_table362
-GCC_except_table367
 GCC_except_table37
-GCC_except_table373
-GCC_except_table374
-GCC_except_table375
-GCC_except_table376
-GCC_except_table377
-GCC_except_table378
-GCC_except_table379
-GCC_except_table38
-GCC_except_table380
-GCC_except_table381
-GCC_except_table382
 GCC_except_table383
 GCC_except_table384
-GCC_except_table385
-GCC_except_table386
-GCC_except_table387
-GCC_except_table388
-GCC_except_table389
+GCC_except_table39
 GCC_except_table390
 GCC_except_table391
-GCC_except_table392
-GCC_except_table393
-GCC_except_table394
-GCC_except_table395
-GCC_except_table396
-GCC_except_table397
-GCC_except_table398
-GCC_except_table399
 GCC_except_table4
-GCC_except_table40
-GCC_except_table400
-GCC_except_table401
-GCC_except_table402
-GCC_except_table403
-GCC_except_table404
-GCC_except_table405
-GCC_except_table406
-GCC_except_table407
-GCC_except_table408
-GCC_except_table409
-GCC_except_table415
-GCC_except_table416
-GCC_except_table417
-GCC_except_table42
-GCC_except_table435
-GCC_except_table437
-GCC_except_table438
-GCC_except_table439
-GCC_except_table44
-GCC_except_table448
-GCC_except_table449
-GCC_except_table450
-GCC_except_table458
+GCC_except_table41
+GCC_except_table414
+GCC_except_table43
+GCC_except_table45
 GCC_except_table46
-GCC_except_table461
-GCC_except_table468
-GCC_except_table471
-GCC_except_table479
-GCC_except_table48
-GCC_except_table488
+GCC_except_table47
+GCC_except_table49
 GCC_except_table5
-GCC_except_table50
-GCC_except_table503
-GCC_except_table515
-GCC_except_table516
-GCC_except_table517
-GCC_except_table518
-GCC_except_table519
-GCC_except_table52
-GCC_except_table520
-GCC_except_table521
-GCC_except_table522
-GCC_except_table523
-GCC_except_table524
-GCC_except_table525
-GCC_except_table526
-GCC_except_table527
-GCC_except_table528
-GCC_except_table529
+GCC_except_table51
 GCC_except_table53
-GCC_except_table530
-GCC_except_table531
-GCC_except_table532
-GCC_except_table533
-GCC_except_table534
-GCC_except_table535
-GCC_except_table536
-GCC_except_table537
-GCC_except_table539
-GCC_except_table540
-GCC_except_table541
-GCC_except_table542
-GCC_except_table543
-GCC_except_table544
-GCC_except_table545
-GCC_except_table546
-GCC_except_table547
-GCC_except_table548
-GCC_except_table549
-GCC_except_table550
-GCC_except_table551
+GCC_except_table54
 GCC_except_table552
 GCC_except_table553
 GCC_except_table554
-GCC_except_table555
 GCC_except_table556
 GCC_except_table557
 GCC_except_table558
-GCC_except_table559
-GCC_except_table560
+GCC_except_table56
 GCC_except_table561
 GCC_except_table562
 GCC_except_table563
 GCC_except_table564
 GCC_except_table565
 GCC_except_table566
-GCC_except_table567
 GCC_except_table568
-GCC_except_table569
 GCC_except_table570
-GCC_except_table571
+GCC_except_table572
+GCC_except_table574
+GCC_except_table575
 GCC_except_table576
-GCC_except_table577
 GCC_except_table578
+GCC_except_table579
 GCC_except_table58
-GCC_except_table582
-GCC_except_table583
+GCC_except_table580
+GCC_except_table581
 GCC_except_table584
-GCC_except_table585
 GCC_except_table586
-GCC_except_table588
+GCC_except_table587
 GCC_except_table589
-GCC_except_table59
+GCC_except_table592
 GCC_except_table593
+GCC_except_table595
 GCC_except_table597
 GCC_except_table598
-GCC_except_table599
 GCC_except_table6
-GCC_except_table60
-GCC_except_table602
-GCC_except_table603
-GCC_except_table604
-GCC_except_table605
-GCC_except_table608
-GCC_except_table609
+GCC_except_table600
 GCC_except_table61
+GCC_except_table62
 GCC_except_table63
-GCC_except_table637
-GCC_except_table638
-GCC_except_table644
-GCC_except_table645
 GCC_except_table65
+GCC_except_table67
+GCC_except_table68
+GCC_except_table689
 GCC_except_table7
-GCC_except_table70
-GCC_except_table71
+GCC_except_table705
+GCC_except_table706
 GCC_except_table72
+GCC_except_table73
 GCC_except_table74
 GCC_except_table75
 GCC_except_table76
-GCC_except_table78
-GCC_except_table79
+GCC_except_table77
 GCC_except_table8
 GCC_except_table80
-GCC_except_table804
-GCC_except_table805
-GCC_except_table806
-GCC_except_table808
-GCC_except_table809
-GCC_except_table810
-GCC_except_table813
-GCC_except_table814
-GCC_except_table815
-GCC_except_table816
-GCC_except_table817
-GCC_except_table818
+GCC_except_table81
 GCC_except_table82
-GCC_except_table820
-GCC_except_table822
-GCC_except_table824
-GCC_except_table826
-GCC_except_table827
-GCC_except_table828
-GCC_except_table830
-GCC_except_table831
-GCC_except_table832
-GCC_except_table833
+GCC_except_table83
 GCC_except_table84
+GCC_except_table85
 GCC_except_table86
-GCC_except_table862
-GCC_except_table874
-GCC_except_table875
-GCC_except_table876
+GCC_except_table87
 GCC_except_table88
+GCC_except_table89
 GCC_except_table9
 GCC_except_table90
 GCC_except_table91
+GCC_except_table92
 GCC_except_table93
-GCC_except_table95
-GCC_except_table96
+GCC_except_table94
+GCC_except_table97
 GCC_except_table98
+GCC_except_table99
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.2
 GLIBC_2.3.3
 GLIBC_2.4
+GLIBC_2.7
 GNU
 Google Inc.
 H
@@ -445,7 +375,7 @@ LibX11::loadExports()::libX11exports
 LibX11::loadExports()::libXext
 LibX11::operator->()
 LibX11exports::LibX11exports(void*, void*)
-Linker: LLD 8.0.0 (trunk 344066)
+Linker: LLD 11.0.0 (https://github.com/llvm/llvm-project/ 4e813bbdf335626a741398314709a535ef52fe8e)
 M
 Mar
 March
@@ -491,6 +421,8 @@ NSt3__117__widen_from_utf8ILm32EEE
 NSt3__119__iostream_categoryE
 NSt3__120__time_get_c_storageIcEE
 NSt3__120__time_get_c_storageIwEE
+NSt3__123__system_error_categoryE
+NSt3__124__generic_error_categoryE
 NSt3__15ctypeIcEE
 NSt3__15ctypeIwEE
 NSt3__16locale5__impE
@@ -541,6 +473,7 @@ Sat
 Saturday
 Sep
 September
+SharedLibrary.cpp
 St11logic_error
 St12length_error
 St12out_of_range
@@ -591,7 +524,6 @@ _GLOBAL__sub_I_iostream.cpp
 _GLOBAL__sub_I_main.cpp
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
-_Jv_RegisterClasses
 _Unwind_DeleteException
 _Unwind_GetIP
 _Unwind_GetLanguageSpecificData
@@ -601,8 +533,6 @@ _Unwind_Resume
 _Unwind_SetGR
 _Unwind_SetIP
 __FRAME_END__
-__JCR_END__
-__JCR_LIST__
 __TMC_END__
 __TMC_LIST__
 __clang_call_terminate
@@ -633,7 +563,7 @@ __cxa_pure_virtual
 __cxa_rethrow
 __cxa_terminate_handler
 __cxa_throw
-__cxa_uncaught_exception
+__cxa_uncaught_exceptions
 __cxa_unexpected_handler
 __cxx_global_array_dtor
 __cxx_global_array_dtor.113
@@ -660,6 +590,8 @@ __cxxabiv1::__enum_type_info::~__enum_type_info()
 __cxxabiv1::__free_with_fallback(void*)
 __cxxabiv1::__function_type_info::~__function_type_info()
 __cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
+__cxxabiv1::__getExceptionClass(_Unwind_Exception const*)
+__cxxabiv1::__isOurExceptionClass(_Unwind_Exception const*)
 __cxxabiv1::__pbase_type_info::~__pbase_type_info()
 __cxxabiv1::__pointer_to_member_type_info::~__pointer_to_member_type_info()
 __cxxabiv1::__pointer_type_info::~__pointer_type_info()
@@ -687,6 +619,8 @@ __errno_location
 __frame_dummy_init_array_entry
 __gmon_start__
 __gxx_personality_v0
+__isoc99_sscanf
+__isoc99_vsscanf
 __stack_chk_fail
 _fini
 _init
@@ -709,9 +643,11 @@ cannot zero out thread value for __cxa_get_globals()
 catclose
 catgets
 catopen
+charconv.cpp
 chrono.cpp
-completed.7058
+completed.7046
 condition_variable.cpp
+condition_variable_destructor.cpp
 crtstuff.c
 currentTLS
 cxa_aux_runtime.cpp
@@ -722,6 +658,7 @@ cxa_exception_storage.cpp
 cxa_guard.cpp
 cxa_handlers.cpp
 cxa_personality.cpp
+cxa_thread_atexit.cpp
 cxa_unexpected.cpp
 cxa_vector.cpp
 cxa_virtual.cpp
@@ -964,6 +901,7 @@ functional.cpp
 future.cpp
 fwrite
 g
+generic
 getModuleDirectory()
 getModuleDirectory()::dummy_symbol
 getc
@@ -991,15 +929,18 @@ guard variable for std::__1::__time_get_c_storage<wchar_t>::__months() const::mo
 guard variable for std::__1::__time_get_c_storage<wchar_t>::__r() const::s
 guard variable for std::__1::__time_get_c_storage<wchar_t>::__weeks() const::weeks
 guard variable for std::__1::__time_get_c_storage<wchar_t>::__x() const::s
+guard variable for std::__1::generic_category()::s
 guard variable for std::__1::init_am_pm()::am_pm
 guard variable for std::__1::init_months()::months
 guard variable for std::__1::init_wam_pm()::am_pm
 guard variable for std::__1::init_weeks()::weeks
 guard variable for std::__1::init_wmonths()::months
 guard variable for std::__1::init_wweeks()::weeks
+guard variable for std::__1::ios_base::Init::Init()::init_the_streams
 guard variable for std::__1::iostream_category()::s
 guard variable for std::__1::locale::__global()::g
 guard variable for std::__1::locale::classic()::c
+guard variable for std::__1::system_category()::s
 h
 hash.cpp
 i
@@ -1051,6 +992,7 @@ memory.cpp
 memset
 money_get error
 mutex.cpp
+mutex_destructor.cpp
 n
 new.cpp
 newlocale
@@ -1074,17 +1016,21 @@ pthread_mutex_destroy
 pthread_mutex_init
 pthread_mutex_lock
 pthread_mutex_unlock
+pthread_mutexattr_destroy
+pthread_mutexattr_init
+pthread_mutexattr_settype
 pthread_once
 pthread_setspecific
 r
 random.cpp
 realloc
+recursive_mutex constructor failed
+recursive_mutex lock failed
 regex.cpp
 register_tm_clones
 s
 shared_mutex.cpp
 snprintf
-sscanf
 std::__1::(anonymous namespace)::make<std::__1::codecvt<char, char, __mbstate_t>, unsigned int>(unsigned int)::buf
 std::__1::(anonymous namespace)::make<std::__1::codecvt<char16_t, char, __mbstate_t>, unsigned int>(unsigned int)::buf
 std::__1::(anonymous namespace)::make<std::__1::codecvt<char32_t, char, __mbstate_t>, unsigned int>(unsigned int)::buf
@@ -1114,16 +1060,20 @@ std::__1::(anonymous namespace)::make<std::__1::time_get<char, std::__1::istream
 std::__1::(anonymous namespace)::make<std::__1::time_get<wchar_t, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > >, unsigned int>(unsigned int)::buf
 std::__1::(anonymous namespace)::make<std::__1::time_put<char, std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > >, unsigned int>(unsigned int)::buf
 std::__1::(anonymous namespace)::make<std::__1::time_put<wchar_t, std::__1::ostreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > >, unsigned int>(unsigned int)::buf
+std::__1::DoIOSInit::DoIOSInit()
+std::__1::DoIOSInit::~DoIOSInit()
 std::__1::__basic_string_common<true>::__throw_length_error() const
 std::__1::__basic_string_common<true>::__throw_out_of_range() const
 std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*))
 std::__1::__cerr
-std::__1::__check_grouping(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*, unsigned int*, unsigned int&)
 std::__1::__cin
 std::__1::__cloc()::result
 std::__1::__cout
 std::__1::__do_message::message(int) const
 std::__1::__do_nothing(void*)
+std::__1::__generic_error_category::message(int) const
+std::__1::__generic_error_category::name() const
+std::__1::__generic_error_category::~__generic_error_category()
 std::__1::__iostream_category::message(int) const
 std::__1::__iostream_category::name() const
 std::__1::__iostream_category::~__iostream_category()
@@ -1140,12 +1090,12 @@ std::__1::__narrow_to_utf8<16ul>::~__narrow_to_utf8()
 std::__1::__narrow_to_utf8<32ul>::~__narrow_to_utf8()
 std::__1::__num_get<char>::__stage2_float_loop(char, bool&, char&, char*, char*&, char, char, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*, unsigned int*&, unsigned int&, char*)
 std::__1::__num_get<char>::__stage2_float_prep(std::__1::ios_base&, char*, char&, char&)
-std::__1::__num_get<char>::__stage2_int_loop(char, int, char*, char*&, unsigned int&, char, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*, unsigned int*&, char*)
-std::__1::__num_get<char>::__stage2_int_prep(std::__1::ios_base&, char*, char&)
+std::__1::__num_get<char>::__stage2_int_loop(char, int, char*, char*&, unsigned int&, char, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*, unsigned int*&, char const*)
+std::__1::__num_get<char>::__stage2_int_prep(std::__1::ios_base&, char&)
 std::__1::__num_get<wchar_t>::__stage2_float_loop(wchar_t, bool&, char&, char*, char*&, wchar_t, wchar_t, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*, unsigned int*&, unsigned int&, wchar_t*)
 std::__1::__num_get<wchar_t>::__stage2_float_prep(std::__1::ios_base&, wchar_t*, wchar_t&, wchar_t&)
-std::__1::__num_get<wchar_t>::__stage2_int_loop(wchar_t, int, char*, char*&, unsigned int&, wchar_t, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*, unsigned int*&, wchar_t*)
-std::__1::__num_get<wchar_t>::__stage2_int_prep(std::__1::ios_base&, wchar_t*, wchar_t&)
+std::__1::__num_get<wchar_t>::__stage2_int_loop(wchar_t, int, char*, char*&, unsigned int&, wchar_t, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*, unsigned int*&, wchar_t const*)
+std::__1::__num_get<wchar_t>::__stage2_int_prep(std::__1::ios_base&, wchar_t&)
 std::__1::__num_get_base::__src
 std::__1::__num_put<char>::__widen_and_group_float(char*, char*, char*, char*, char*&, char*&, std::__1::locale const&)
 std::__1::__num_put<char>::__widen_and_group_int(char*, char*, char*, char*, char*&, char*&, std::__1::locale const&)
@@ -1153,7 +1103,6 @@ std::__1::__num_put<wchar_t>::__widen_and_group_float(char*, char*, char*, wchar
 std::__1::__num_put<wchar_t>::__widen_and_group_int(char*, char*, char*, wchar_t*, wchar_t*&, wchar_t*&, std::__1::locale const&)
 std::__1::__shared_count::~__shared_count()
 std::__1::__shared_weak_count::~__shared_weak_count()
-std::__1::__start_std_streams
 std::__1::__stdinbuf<char>::__getchar(bool)
 std::__1::__stdinbuf<char>::imbue(std::__1::locale const&)
 std::__1::__stdinbuf<char>::pbackfail(int)
@@ -1178,7 +1127,16 @@ std::__1::__stdoutbuf<wchar_t>::overflow(unsigned int)
 std::__1::__stdoutbuf<wchar_t>::sync()
 std::__1::__stdoutbuf<wchar_t>::xsputn(wchar_t const*, long)
 std::__1::__stdoutbuf<wchar_t>::~__stdoutbuf()
+std::__1::__system_error_category::default_error_condition(int) const
+std::__1::__system_error_category::message(int) const
+std::__1::__system_error_category::name() const
+std::__1::__system_error_category::~__system_error_category()
+std::__1::__throw_bad_cast()
+std::__1::__throw_failure(char const*)
+std::__1::__throw_length_error(char const*)
+std::__1::__throw_out_of_range(char const*)
 std::__1::__throw_runtime_error(char const*)
+std::__1::__throw_system_error(int, char const*)
 std::__1::__time_get_c_storage<char>::__X() const
 std::__1::__time_get_c_storage<char>::__X() const::s
 std::__1::__time_get_c_storage<char>::__am_pm() const
@@ -1211,19 +1169,18 @@ std::__1::__time_put::__do_put(wchar_t*, wchar_t*&, tm const*, char, char) const
 std::__1::__tree<egl::Config, egl::CompareConfig, std::__1::allocator<egl::Config> >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
 std::__1::__tree<egl::Config, egl::CompareConfig, std::__1::allocator<egl::Config> >::destroy(std::__1::__tree_node<egl::Config, void*>*)
 std::__1::__tree<egl::Context*, std::__1::less<egl::Context*>, std::__1::allocator<egl::Context*> >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
+std::__1::__tree<egl::Context*, std::__1::less<egl::Context*>, std::__1::allocator<egl::Context*> >::__remove_node_pointer(std::__1::__tree_node<egl::Context*, void*>*)
 std::__1::__tree<egl::Context*, std::__1::less<egl::Context*>, std::__1::allocator<egl::Context*> >::destroy(std::__1::__tree_node<egl::Context*, void*>*)
-std::__1::__tree<egl::Context*, std::__1::less<egl::Context*>, std::__1::allocator<egl::Context*> >::erase(std::__1::__tree_const_iterator<egl::Context*, std::__1::__tree_node<egl::Context*, void*>*, long>)
 std::__1::__tree<egl::FenceSync*, std::__1::less<egl::FenceSync*>, std::__1::allocator<egl::FenceSync*> >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
+std::__1::__tree<egl::FenceSync*, std::__1::less<egl::FenceSync*>, std::__1::allocator<egl::FenceSync*> >::__remove_node_pointer(std::__1::__tree_node<egl::FenceSync*, void*>*)
 std::__1::__tree<egl::FenceSync*, std::__1::less<egl::FenceSync*>, std::__1::allocator<egl::FenceSync*> >::destroy(std::__1::__tree_node<egl::FenceSync*, void*>*)
-std::__1::__tree<egl::FenceSync*, std::__1::less<egl::FenceSync*>, std::__1::allocator<egl::FenceSync*> >::erase(std::__1::__tree_const_iterator<egl::FenceSync*, std::__1::__tree_node<egl::FenceSync*, void*>*, long>)
 std::__1::__tree<egl::Surface*, std::__1::less<egl::Surface*>, std::__1::allocator<egl::Surface*> >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
+std::__1::__tree<egl::Surface*, std::__1::less<egl::Surface*>, std::__1::allocator<egl::Surface*> >::__remove_node_pointer(std::__1::__tree_node<egl::Surface*, void*>*)
 std::__1::__tree<egl::Surface*, std::__1::less<egl::Surface*>, std::__1::allocator<egl::Surface*> >::destroy(std::__1::__tree_node<egl::Surface*, void*>*)
-std::__1::__tree<egl::Surface*, std::__1::less<egl::Surface*>, std::__1::allocator<egl::Surface*> >::erase(std::__1::__tree_const_iterator<egl::Surface*, std::__1::__tree_node<egl::Surface*, void*>*, long>)
-std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
 std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)
 std::__1::__tree<std::__1::__value_type<unsigned int, egl::Image*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, egl::Image*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, egl::Image*> > >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
+std::__1::__tree<std::__1::__value_type<unsigned int, egl::Image*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, egl::Image*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, egl::Image*> > >::__remove_node_pointer(std::__1::__tree_node<std::__1::__value_type<unsigned int, egl::Image*>, void*>*)
 std::__1::__tree<std::__1::__value_type<unsigned int, egl::Image*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, egl::Image*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, egl::Image*> > >::destroy(std::__1::__tree_node<std::__1::__value_type<unsigned int, egl::Image*>, void*>*)
-std::__1::__tree<std::__1::__value_type<unsigned int, egl::Image*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, egl::Image*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, egl::Image*> > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<unsigned int, egl::Image*>, std::__1::__tree_node<std::__1::__value_type<unsigned int, egl::Image*>, void*>*, long>)
 std::__1::__tree_node_base<void*>*& std::__1::__tree<egl::Config, egl::CompareConfig, std::__1::allocator<egl::Config> >::__find_equal<egl::Config>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, egl::Config const&)
 std::__1::__vector_base_common<true>::__throw_length_error() const
 std::__1::__wcerr
@@ -1231,6 +1188,7 @@ std::__1::__wcin
 std::__1::__wcout
 std::__1::__widen_from_utf8<16ul>::~__widen_from_utf8()
 std::__1::__widen_from_utf8<32ul>::~__widen_from_utf8()
+std::__1::back_insert_iterator<std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> > > std::__1::__widen_from_utf8<32ul>::operator()<std::__1::back_insert_iterator<std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> > > >(std::__1::back_insert_iterator<std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> > >, char const*, char const*) const
 std::__1::basic_ios<char, std::__1::char_traits<char> >::~basic_ios()
 std::__1::basic_ios<wchar_t, std::__1::char_traits<wchar_t> >::~basic_ios()
 std::__1::basic_istream<char, std::__1::char_traits<char> >::~basic_istream()
@@ -1270,9 +1228,9 @@ std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::xsgetn(wcha
 std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::xsputn(wchar_t const*, long)
 std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::~basic_streambuf()
 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const* std::__1::__scan_keyword<std::__1::istreambuf_iterator<char, std::__1::char_traits<char> >, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const*, std::__1::ctype<char> >(std::__1::istreambuf_iterator<char, std::__1::char_traits<char> >&, std::__1::istreambuf_iterator<char, std::__1::char_traits<char> >, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const*, std::__1::ctype<char> const&, unsigned int&, bool)
-std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, char const*)
 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >& std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__append_forward_unsafe<char*>(char*, char*)
 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(unsigned long, char)
 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*)
 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*, unsigned long)
 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(unsigned long, char)
@@ -1287,10 +1245,9 @@ std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::alloca
 std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >& std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::__append_forward_unsafe<wchar_t*>(wchar_t*, wchar_t*)
 std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::__grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
 std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::__grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, wchar_t const*)
-std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::__init(unsigned long, wchar_t)
-std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::__init(wchar_t const*, unsigned long)
 std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::append(wchar_t const*, unsigned long)
 std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::assign(wchar_t const*)
+std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::basic_string<decltype(nullptr)>(wchar_t const*)
 std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::push_back(wchar_t)
 std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::~basic_string()
 std::__1::cerr
@@ -1368,21 +1325,18 @@ std::__1::ctype<wchar_t>::do_widen(char) const
 std::__1::ctype<wchar_t>::id
 std::__1::ctype<wchar_t>::~ctype()
 std::__1::cv
-std::__1::enable_if<__is_forward_iterator<wchar_t const*>::value, void>::type std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::__init<wchar_t const*>(__is_forward_iterator, __is_forward_iterator)
-std::__1::enable_if<__is_forward_iterator<wchar_t*>::value, void>::type std::__1::basic_string<wchar_t, std::__1::char_traits<wchar_t>, std::__1::allocator<wchar_t> >::__init<wchar_t*>(__is_forward_iterator, __is_forward_iterator)
 std::__1::error_category::default_error_condition(int) const
 std::__1::error_category::equivalent(int, std::__1::error_condition const&) const
 std::__1::error_category::equivalent(std::__1::error_code const&, int) const
 std::__1::error_category::~error_category()
+std::__1::generic_category()::s
 std::__1::init_am_pm()::am_pm
 std::__1::init_months()::months
 std::__1::init_wam_pm()::am_pm
 std::__1::init_weeks()::weeks
 std::__1::init_wmonths()::months
 std::__1::init_wweeks()::weeks
-std::__1::ios_base::Init::Init()
-std::__1::ios_base::Init::~Init()
-std::__1::ios_base::clear(unsigned int)
+std::__1::ios_base::Init::Init()::init_the_streams
 std::__1::ios_base::failure::~failure()
 std::__1::ios_base::getloc() const
 std::__1::ios_base::init(void*)
@@ -1573,6 +1527,11 @@ std::__1::pair<std::__1::__tree_iterator<egl::Surface*, std::__1::__tree_node<eg
 std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool> std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__emplace_unique_key_args<int, std::__1::piecewise_construct_t const&, std::__1::tuple<int const&>, std::__1::tuple<> >(int const&, std::__1::piecewise_construct_t const&, std::__1::tuple<int const&>&&, std::__1::tuple<>&&)
 std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<unsigned int, egl::Image*>, std::__1::__tree_node<std::__1::__value_type<unsigned int, egl::Image*>, void*>*, long>, bool> std::__1::__tree<std::__1::__value_type<unsigned int, egl::Image*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, egl::Image*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, egl::Image*> > >::__emplace_unique_key_args<unsigned int, std::__1::pair<unsigned int const, egl::Image*> >(unsigned int const&, std::__1::pair<unsigned int const, egl::Image*>&&)
 std::__1::piecewise_construct
+std::__1::recursive_mutex::lock()
+std::__1::recursive_mutex::recursive_mutex()
+std::__1::recursive_mutex::unlock()
+std::__1::recursive_mutex::~recursive_mutex()
+std::__1::system_category()::s
 std::__1::system_error::__init(std::__1::error_code const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)
 std::__1::system_error::system_error(std::__1::error_code, char const*)
 std::__1::system_error::~system_error()
@@ -1629,7 +1588,6 @@ std::bad_alloc
 std::bad_alloc::bad_alloc()
 std::bad_alloc::what() const
 std::bad_alloc::~bad_alloc()
-std::bad_array_length::~bad_array_length()
 std::bad_array_new_length::~bad_array_new_length()
 std::bad_cast
 std::bad_cast::bad_cast()
@@ -1644,10 +1602,12 @@ std::get_new_handler()
 std::get_terminate()
 std::get_unexpected()
 std::invalid_argument::~invalid_argument()
+std::length_error::length_error(char const*)
 std::length_error::~length_error()
 std::logic_error::logic_error(char const*)
 std::logic_error::what() const
 std::logic_error::~logic_error()
+std::out_of_range::out_of_range(char const*)
 std::out_of_range::~out_of_range()
 std::overflow_error::~overflow_error()
 std::range_error::~range_error()
@@ -1678,6 +1638,7 @@ strtof_l
 strtold_l
 strtoll_l
 strtoull_l
+system
 system_error.cpp
 t
 terminate_handler unexpectedly returned
@@ -1688,6 +1649,7 @@ typeinfo for __cxxabiv1::__shim_type_info
 typeinfo for __cxxabiv1::__si_class_type_info
 typeinfo for __cxxabiv1::__vmi_class_type_info
 typeinfo for std::__1::__do_message
+typeinfo for std::__1::__generic_error_category
 typeinfo for std::__1::__iostream_category
 typeinfo for std::__1::__money_get<char>
 typeinfo for std::__1::__money_get<wchar_t>
@@ -1705,6 +1667,7 @@ typeinfo for std::__1::__stdinbuf<char>
 typeinfo for std::__1::__stdinbuf<wchar_t>
 typeinfo for std::__1::__stdoutbuf<char>
 typeinfo for std::__1::__stdoutbuf<wchar_t>
+typeinfo for std::__1::__system_error_category
 typeinfo for std::__1::__time_get_c_storage<char>
 typeinfo for std::__1::__time_get_c_storage<wchar_t>
 typeinfo for std::__1::__time_put
@@ -1770,6 +1733,7 @@ typeinfo name for __cxxabiv1::__shim_type_info
 typeinfo name for __cxxabiv1::__si_class_type_info
 typeinfo name for __cxxabiv1::__vmi_class_type_info
 typeinfo name for std::__1::__do_message
+typeinfo name for std::__1::__generic_error_category
 typeinfo name for std::__1::__iostream_category
 typeinfo name for std::__1::__money_get<char>
 typeinfo name for std::__1::__money_get<wchar_t>
@@ -1787,6 +1751,7 @@ typeinfo name for std::__1::__stdinbuf<char>
 typeinfo name for std::__1::__stdinbuf<wchar_t>
 typeinfo name for std::__1::__stdoutbuf<char>
 typeinfo name for std::__1::__stdoutbuf<wchar_t>
+typeinfo name for std::__1::__system_error_category
 typeinfo name for std::__1::__time_get_c_storage<char>
 typeinfo name for std::__1::__time_get_c_storage<wchar_t>
 typeinfo name for std::__1::__time_put
@@ -1861,7 +1826,9 @@ unsigned long std::__1::__tree<egl::Context*, std::__1::less<egl::Context*>, std
 unsigned long std::__1::__tree<egl::FenceSync*, std::__1::less<egl::FenceSync*>, std::__1::allocator<egl::FenceSync*> >::__erase_unique<egl::FenceSync*>(egl::FenceSync* const&)
 unsigned long std::__1::__tree<egl::Surface*, std::__1::less<egl::Surface*>, std::__1::allocator<egl::Surface*> >::__erase_unique<egl::Surface*>(egl::Surface* const&)
 unsigned short std::__1::__num_get_unsigned_integral<unsigned short>(char const*, char const*, unsigned int&, int)
+unspecified generic_category error
 unspecified iostream_category error
+unspecified system_category error
 unsupported locale for standard input
 uselocale
 utility.cpp
@@ -1880,14 +1847,9 @@ void std::__1::__call_once_proxy<std::__1::tuple<std::__1::(anonymous namespace)
 void std::__1::__insertion_sort_3<egl::SortConfig&, egl::Config const**>(egl::Config const**, egl::Config const**, egl::SortConfig&)
 void std::__1::__sort<egl::SortConfig&, egl::Config const**>(egl::Config const**, egl::Config const**, egl::SortConfig&)
 void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
-void std::__1::__tree_left_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)
 void std::__1::__tree_remove<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
-void std::__1::__tree_right_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)
-void std::__1::vector<egl::Config const*, std::__1::allocator<egl::Config const*> >::__push_back_slow_path<egl::Config const*>(egl::Config const*&&)
-void std::__1::vector<long, std::__1::allocator<long> >::__push_back_slow_path<long>(long&&)
 void* loadLibrary<3>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, char const* (&) [3], char const*)
 vsnprintf
-vsscanf
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
@@ -1898,12 +1860,14 @@ vtable for egl::Surface
 vtable for egl::WindowSurface
 vtable for gl::Object
 vtable for gl::Surface
+vtable for std::__1::__generic_error_category
 vtable for std::__1::__iostream_category
 vtable for std::__1::__narrow_to_utf8<32ul>
 vtable for std::__1::__stdinbuf<char>
 vtable for std::__1::__stdinbuf<wchar_t>
 vtable for std::__1::__stdoutbuf<char>
 vtable for std::__1::__stdoutbuf<wchar_t>
+vtable for std::__1::__system_error_category
 vtable for std::__1::__widen_from_utf8<32ul>
 vtable for std::__1::basic_istream<char, std::__1::char_traits<char> >
 vtable for std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >
@@ -1951,6 +1915,7 @@ vtable for std::length_error
 vtable for std::logic_error
 vtable for std::out_of_range
 vtable for std::runtime_error
+wchar_t const* std::__1::__num_get<wchar_t>::__do_widen_p<wchar_t>(std::__1::ios_base&, wchar_t*) const
 wcrtomb
 wcslen
 wcsnrtombs

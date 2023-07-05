@@ -237,6 +237,8 @@
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPathResponse_reflection_
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_descriptor_
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_reflection_
+ b (anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_descriptor_
+ b (anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_reflection_
  b (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_descriptor_
  b (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_reflection_
  b (anonymous namespace)::CVRMsg_LaunchApplicationForMimeTypeResponse_descriptor_
@@ -471,6 +473,7 @@
  b CDriverManager::GetDriverName(unsigned int) const::strEmpty
  b CHmdSystemLatest::GetVRStartupReason()::k_pathStartupReason
  b CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
+ b CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)::k_pathTrackerRole
  b CKeyframedDataResource::MyTypeID()::sID
  b CKeyframedDataResource::m_typeInfoCKeyframedDataResource
  b CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
@@ -487,16 +490,9 @@
  b CSharedResourceBaseLinux::CSharedResourceData::s_CacheLock
  b CSharedResourceBaseLinux::CSharedResourceData::s_CachedResourceData
  b CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
- b CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
- b CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
- b CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
- b CSxrInstance::ComputeBindingFiles()::k_pathIndexController
- b CSxrInstance::ComputeBindingFiles()::k_pathMRController
- b CSxrInstance::ComputeBindingFiles()::k_pathSimpleController
- b CSxrInstance::ComputeBindingFiles()::k_pathTouchController
- b CSxrInstance::ComputeBindingFiles()::k_pathViveController
  b CSxrInstance::GetExtensionsAvailable()::__executeCount
  b CSxrInstance::sm_vecExtensionsAvailable
+ b CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView> >&, XrViewLocateInfo const*, XrViewState*)::unLastSeatedSpaceRequestTime
  b CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
  b CTransform::xIdentity
  b CVRCompositorClient::SubmitEyeInternal(vr::EVREye, unsigned int, vr::VRTextureWithPose_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)::__executeCount
@@ -612,6 +608,7 @@
  b CVRMsg_Input_SetActionManifestPath::default_instance_
  b CVRMsg_Input_SetActionManifestPathResponse::default_instance_
  b CVRMsg_Input_SetXrInputConfig::default_instance_
+ b CVRMsg_Input_SetXrInputConfigResponse::default_instance_
  b CVRMsg_LaunchApplication::default_instance_
  b CVRMsg_LaunchApplicationForMimeType::default_instance_
  b CVRMsg_LaunchApplicationForMimeTypeResponse::default_instance_
@@ -789,8 +786,8 @@
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
  b ThreadShellExecute::bInstalledSignalHandler
- b UTF16to8(wchar_t const*)::s_converter
- b UTF8to16(char const*)::s_converter
+ b UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b UTF8to16(std::string const&)::s_convert
  b VRCrashPreCrashSetMinidumpComment(char const*)::szMinidumpCommentBuffer
  b VRWriteMiniDump_Internal(char const*, unsigned int, void*, bool)::s_mutex
  b VectorAligned::vForward
@@ -858,6 +855,7 @@
  b g_legalInteractionProfiles
  b g_mutex
  b g_nCurThreadSuspendCount
+ b g_pActiveInstance
  b g_pApplicationsLatest
  b g_pAssertCallback
  b g_pBlockQueueLatest
@@ -916,7 +914,7 @@
  b g_pVRApplications
  b g_pVRApplicationsInternal
  b g_pVRBlockQueue
- b g_pVRCameraPassThruInternal
+ b g_pVRCameraPassthroughInternal
  b g_pVRChaperone
  b g_pVRChaperoneInternal
  b g_pVRChaperoneSetup
@@ -958,6 +956,7 @@
  b guard variable for CDriverManager::GetDriverName(unsigned int) const::strEmpty
  b guard variable for CHmdSystemLatest::GetVRStartupReason()::k_pathStartupReason
  b guard variable for CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
+ b guard variable for CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)::k_pathTrackerRole
  b guard variable for CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
  b guard variable for CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
  b guard variable for CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputJoystick
@@ -967,14 +966,6 @@
  b guard variable for CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
  b guard variable for CSettingsSetting::GetDefaultValue() const::Empty
  b guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathIndexController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathMRController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathSimpleController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathTouchController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathViveController
  b guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
  b guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
  b guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
@@ -1011,8 +1002,8 @@
  b guard variable for SplitInputPath(std::string const&, std::string*, std::string*)::k_sProximityPathPrefix
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
- b guard variable for UTF16to8(wchar_t const*)::s_converter
- b guard variable for UTF8to16(char const*)::s_converter
+ b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b guard variable for UTF8to16(std::string const&)::s_convert
  b guard variable for gli::dx::dx()::Table
  b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
  b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
@@ -1038,6 +1029,8 @@
  b k_pathChaperoneShowingWorkingPid
  b k_pathChaperoneStandingTransform
  b k_pathChaperoneState
+ b k_pathRoleAnkleLeft
+ b k_pathRoleAnkleRight
  b k_pathRoleCamera
  b k_pathRoleChest
  b k_pathRoleElbowLeft
@@ -1051,6 +1044,10 @@
  b k_pathRoleShoulderLeft
  b k_pathRoleShoulderRight
  b k_pathRoleWaist
+ b k_pathRoleWristLeft
+ b k_pathRoleWristRight
+ b k_pathUserAnkleLeft
+ b k_pathUserAnkleRight
  b k_pathUserCamera
  b k_pathUserChest
  b k_pathUserElbowLeft
@@ -1064,6 +1061,8 @@
  b k_pathUserShoulderLeft
  b k_pathUserShoulderRight
  b k_pathUserWaist
+ b k_pathUserWristLeft
+ b k_pathUserWristRight
  b k_rInputPaths
  b k_rTrackerPaths
  b loadedDevice
@@ -1588,6 +1587,9 @@
  b vrScreenshots001
  b vrSteamPrivate001
  b vrSteamPrivate002
+ b vrSteamPrivate003
+ b vrSteamPrivate004
+ b vrSteamPrivate005
  b vrWatchdogHost001
  b vrapplications001
  b vrapplications002
@@ -1818,6 +1820,7 @@
  d VulkanVRRenderer::computeShaderDefs
  d VulkanVRRenderer::iedCameraDecodeQuad
  d VulkanVRRenderer::iedCameraProxyGeom
+ d VulkanVRRenderer::iedCameraSimplifiedProxyGeom
  d VulkanVRRenderer::iedDistort
  d VulkanVRRenderer::iedGeom
  d VulkanVRRenderer::iedGeomFloor
@@ -2098,6 +2101,7 @@
  d typeinfo for CSxrSwapchainPrism
  d typeinfo for CSxrSwapchainVulkanOpenVR
  d typeinfo for CSyncLockThread
+ d typeinfo for CThread
  d typeinfo for CTrackedDeviceServerDriverAdapter
  d typeinfo for CVRApplications_001
  d typeinfo for CVRApplications_002
@@ -2291,6 +2295,7 @@
  d typeinfo for CVRMsg_Input_SetActionManifestPath
  d typeinfo for CVRMsg_Input_SetActionManifestPathResponse
  d typeinfo for CVRMsg_Input_SetXrInputConfig
+ d typeinfo for CVRMsg_Input_SetXrInputConfigResponse
  d typeinfo for CVRMsg_LaunchApplication
  d typeinfo for CVRMsg_LaunchApplicationForMimeType
  d typeinfo for CVRMsg_LaunchApplicationForMimeTypeResponse
@@ -2440,6 +2445,9 @@
  d typeinfo for CVRSpatialAnchorsLatest
  d typeinfo for CVRSteamPrivate_001
  d typeinfo for CVRSteamPrivate_002
+ d typeinfo for CVRSteamPrivate_003
+ d typeinfo for CVRSteamPrivate_004
+ d typeinfo for CVRSteamPrivate_005
  d typeinfo for CVRSystemLatest
  d typeinfo for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
  d typeinfo for CVRSystem_001
@@ -2690,7 +2698,9 @@
  d typeinfo for SettingsInterfaceRegistration<CVRSettings_002>
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>
- d typeinfo for SteamThreadTools::CThread
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
  d typeinfo for SystemInterfaceRegistration<CHmdSystem_001>
  d typeinfo for SystemInterfaceRegistration<CHmdSystem_004>
  d typeinfo for SystemInterfaceRegistration<CVRClientCore_001>
@@ -2796,7 +2806,7 @@
  d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
  d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
  d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  d typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
  d typeinfo for sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}
  d typeinfo for sxr_xrGetActionStateFloat(XrSession_T*, XrActionStateGetInfo const*, XrActionStateFloat*)::{lambda(XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*)#1}
@@ -2865,7 +2875,7 @@
  d typeinfo for vr::IVRSharedResource
  d typeinfo for vr::IVRSharedSemaphore
  d typeinfo for vr::IVRSpatialAnchors
- d typeinfo for vr::IVRSteamPrivate
+ d typeinfo for vr::IVRSteamPrivate_006
  d typeinfo for vr::IVRSystem
  d typeinfo for vr::IVRTrackedCamera
  d typeinfo for vr::IVRTrackedCameraInternal
@@ -2991,6 +3001,7 @@
  d vtable for CSxrSwapchainPrism
  d vtable for CSxrSwapchainVulkanOpenVR
  d vtable for CSyncLockThread
+ d vtable for CThread
  d vtable for CVRApplications_001
  d vtable for CVRApplications_002
  d vtable for CVRApplications_003
@@ -3170,6 +3181,7 @@
  d vtable for CVRMsg_Input_SetActionManifestPath
  d vtable for CVRMsg_Input_SetActionManifestPathResponse
  d vtable for CVRMsg_Input_SetXrInputConfig
+ d vtable for CVRMsg_Input_SetXrInputConfigResponse
  d vtable for CVRMsg_LaunchApplication
  d vtable for CVRMsg_LaunchApplicationForMimeType
  d vtable for CVRMsg_LaunchApplicationForMimeTypeResponse
@@ -3319,6 +3331,9 @@
  d vtable for CVRSpatialAnchorsLatest
  d vtable for CVRSteamPrivate_001
  d vtable for CVRSteamPrivate_002
+ d vtable for CVRSteamPrivate_003
+ d vtable for CVRSteamPrivate_004
+ d vtable for CVRSteamPrivate_005
  d vtable for CVRSystemLatest
  d vtable for CVRSystem_001
  d vtable for CVRSystem_002
@@ -3511,7 +3526,9 @@
  d vtable for SettingsInterfaceRegistration<CVRSettings_002>
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>
- d vtable for SteamThreadTools::CThread
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
  d vtable for SystemInterfaceRegistration<CHmdSystem_001>
  d vtable for SystemInterfaceRegistration<CHmdSystem_004>
  d vtable for SystemInterfaceRegistration<CVRClientCore_001>
@@ -3564,7 +3581,7 @@
  d vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  d vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
  d vtable for tinyobj::MaterialFileReader
  d vtable for vr::CVRApplicationsLatest
@@ -3698,15 +3715,16 @@
  puts
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1857.0
- r C.1860.1
+ r C.1869.0
+ r C.1872.1
  r C.417.0
  r CSWTCH.16
- r CSWTCH.207
+ r CSWTCH.209
  r CSWTCH.221
  r CSWTCH.23
  r CSWTCH.25
- r CSWTCH.504
+ r CSWTCH.369
+ r CSWTCH.522
  r CSWTCH.729
  r CSWTCH.776
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -3882,6 +3900,7 @@
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Input_GetOriginLocalizedName_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Input_SetActionManifestPathResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Input_SetActionManifestPath_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Input_SetXrInputConfigResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Input_SetXrInputConfig_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_LaunchApplicationForMimeTypeResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_LaunchApplicationForMimeType_offsets_
@@ -4176,6 +4195,7 @@
  r typeinfo name for CSxrSwapchainPrism
  r typeinfo name for CSxrSwapchainVulkanOpenVR
  r typeinfo name for CSyncLockThread
+ r typeinfo name for CThread
  r typeinfo name for CTrackedDeviceServerDriverAdapter
  r typeinfo name for CVRApplications_001
  r typeinfo name for CVRApplications_002
@@ -4369,6 +4389,7 @@
  r typeinfo name for CVRMsg_Input_SetActionManifestPath
  r typeinfo name for CVRMsg_Input_SetActionManifestPathResponse
  r typeinfo name for CVRMsg_Input_SetXrInputConfig
+ r typeinfo name for CVRMsg_Input_SetXrInputConfigResponse
  r typeinfo name for CVRMsg_LaunchApplication
  r typeinfo name for CVRMsg_LaunchApplicationForMimeType
  r typeinfo name for CVRMsg_LaunchApplicationForMimeTypeResponse
@@ -4518,6 +4539,9 @@
  r typeinfo name for CVRSpatialAnchorsLatest
  r typeinfo name for CVRSteamPrivate_001
  r typeinfo name for CVRSteamPrivate_002
+ r typeinfo name for CVRSteamPrivate_003
+ r typeinfo name for CVRSteamPrivate_004
+ r typeinfo name for CVRSteamPrivate_005
  r typeinfo name for CVRSystemLatest
  r typeinfo name for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
  r typeinfo name for CVRSystem_001
@@ -4768,7 +4792,9 @@
  r typeinfo name for SettingsInterfaceRegistration<CVRSettings_002>
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>
- r typeinfo name for SteamThreadTools::CThread
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
  r typeinfo name for SystemInterfaceRegistration<CHmdSystem_001>
  r typeinfo name for SystemInterfaceRegistration<CHmdSystem_004>
  r typeinfo name for SystemInterfaceRegistration<CVRClientCore_001>
@@ -4875,7 +4901,7 @@
  r typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
  r typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
  r typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- r typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ r typeinfo name for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  r typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
  r typeinfo name for sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}
  r typeinfo name for sxr_xrGetActionStateFloat(XrSession_T*, XrActionStateGetInfo const*, XrActionStateFloat*)::{lambda(XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*)#1}
@@ -4944,7 +4970,7 @@
  r typeinfo name for vr::IVRSharedResource
  r typeinfo name for vr::IVRSharedSemaphore
  r typeinfo name for vr::IVRSpatialAnchors
- r typeinfo name for vr::IVRSteamPrivate
+ r typeinfo name for vr::IVRSteamPrivate_006
  r typeinfo name for vr::IVRSystem
  r typeinfo name for vr::IVRTrackedCamera
  r typeinfo name for vr::IVRTrackedCameraInternal
@@ -5008,14 +5034,14 @@
  std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
- std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
- std::__codecvt_utf8_base<wchar_t>::do_encoding() const
- std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
- std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
- std::__codecvt_utf8_base<wchar_t>::do_max_length() const
- std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_always_noconv() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_encoding() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_max_length() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
  std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)
  std::__detail::_List_node_base::_M_unhook()
  std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
@@ -5067,6 +5093,7 @@
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
@@ -5253,7 +5280,6 @@
  t ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
  t AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)
  t AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*) [clone .cold]
- t BCheckParentOverlayVisible_Recursive(unsigned long, VRSystemLayerState_t const*, int)
  t BCreateDirectory(char const*)
  t BCreateDirectoryRecursive(char const*)
  t BCreateDirectoryRecursive(char const*) [clone .cold]
@@ -5367,6 +5393,8 @@
  t CActionBindingConfigGenerator::GetInputSourceType(std::string const&)
  t CActionBindingConfigGenerator::GetInputSourceType(std::string const&) [clone .cold]
  t CActionBindingConfigGenerator::GetOptionBool(std::string const&) const
+ t CActionBindingConfigGenerator::GetUIntParameter(std::string const&, unsigned int) const
+ t CActionBindingConfigGenerator::GetUIntParameter(std::string const&, unsigned int) const [clone .cold]
  t CActionBindingConfigGenerator::HasFilter(std::string const&)
  t CActionBindingConfigGenerator::MakeInvertFilterForScalarInput(std::string const&, std::string const&, std::string const&, Mode_t const&)
  t CActionBindingConfigGenerator::MakeInvertFilterForScalarInput(std::string const&, std::string const&, std::string const&, Mode_t const&) [clone .cold]
@@ -5568,8 +5596,8 @@
  t CChaperoneUniverse::ToJson() const
  t CChaperoneUniverse::ToJson() const [clone .cold]
  t CChaperoneUniverse::UpdateSaveTime()
- t CChaperoneUniverse::WriteUniverseToPaths() const
- t CChaperoneUniverse::WriteUniverseToPaths() const [clone .cold]
+ t CChaperoneUniverse::WriteUniverseToPaths(bool) const
+ t CChaperoneUniverse::WriteUniverseToPaths(bool) const [clone .cold]
  t CClientPropertyManager::BClientMode() const
  t CCompositorPluginProvider::InitInternal(vr::IVRDriverContext*)
  t CCompositorPluginProvider::InitInternal(vr::IVRDriverContext*) [clone .cold]
@@ -5796,6 +5824,7 @@
  t CHmdSystemLatest::GetDriverInitError(char const*) [clone .cold]
  t CHmdSystemLatest::GetDriverManager()
  t CHmdSystemLatest::GetEnglishStringForHmdError(vr::EVRInitError)
+ t CHmdSystemLatest::GetEyeServerStatus()
  t CHmdSystemLatest::GetGenericInterface(char const*, vr::EVRInitError*)
  t CHmdSystemLatest::GetGenericInterface(char const*, vr::EVRInitError*) [clone .cold]
  t CHmdSystemLatest::GetGraphicsHardwareInfo(GraphicsHardwareInfo_t*)
@@ -5812,6 +5841,8 @@
  t CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*) [clone .cold]
  t CHmdSystemLatest::GetIDForVRInitError(vr::EVRInitError)
  t CHmdSystemLatest::GetIPCResourceManagerClient()
+ t CHmdSystemLatest::GetLatestEyePose(vr::VREyeTrackingState_Pose_t*)
+ t CHmdSystemLatest::GetLatestEyePose(vr::VREyeTrackingState_Pose_t*) [clone .cold]
  t CHmdSystemLatest::GetLegacyInput()
  t CHmdSystemLatest::GetPaths()
  t CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -6092,6 +6123,8 @@
  t CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&) [clone .cold]
  t CInputActionManifest::GetOptionsFromJSON(Json::Value const&, std::vector<CInputOption, std::allocator<CInputOption> >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >)
  t CInputActionManifest::GetOptionsFromJSON(Json::Value const&, std::vector<CInputOption, std::allocator<CInputOption> >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
+ t CInputActionManifest::GetUIntFromJSON(Json::Value const&, std::string const&, unsigned int) const
+ t CInputActionManifest::GetUIntFromJSON(Json::Value const&, std::string const&, unsigned int) const [clone .cold]
  t CInputActionManifest::HasDefaultBinding(std::string const&) const
  t CInputActionManifest::HasDefaultBinding(std::string const&) const [clone .cold]
  t CInputActionSet::CInputActionSet(CInputActionSet const&)
@@ -6238,6 +6271,24 @@
  t CInputFilter_XRDPad::Process(IInputFilterValueStore*)
  t CInputFilter_XRDPad::~CInputFilter_XRDPad()
  t CInputOption::~CInputOption()
+ t CInputProfileLoader::AddDefaultsToInputProfile(Json::Value&, std::string const&)
+ t CInputProfileLoader::AddDefaultsToInputProfile(Json::Value&, std::string const&) [clone .cold]
+ t CInputProfileLoader::AddDeviceDefaults(Json::Value&, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, vr::ETrackedDeviceClass, std::string const&, std::string const&)
+ t CInputProfileLoader::AddDeviceDefaults(Json::Value&, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, vr::ETrackedDeviceClass, std::string const&, std::string const&) [clone .cold]
+ t CInputProfileLoader::AddInputSource(Json::Value&, std::string const&, std::string const&)
+ t CInputProfileLoader::AddInputSource(Json::Value&, std::string const&, std::string const&) [clone .cold]
+ t CInputProfileLoader::BLoadHMDInputProfileFromPath(Json::Value&, std::string const&, std::string*)
+ t CInputProfileLoader::BLoadHMDInputProfileFromPath(Json::Value&, std::string const&, std::string*) [clone .cold]
+ t CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)
+ t CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*) [clone .cold]
+ t CInputProfileLoader::BLoadInputProfileFromPath(Json::Value&, std::string const&, std::string*)
+ t CInputProfileLoader::BLoadInputProfileFromPath(Json::Value&, std::string const&, std::string*) [clone .cold]
+ t CInputProfileLoader::BLoadInputProfileFromResources(Json::Value&, std::string const&)
+ t CInputProfileLoader::BLoadInputProfileFromResources(Json::Value&, std::string const&) [clone .cold]
+ t CInputProfileLoader::ComputeBestControllerType(Json::Value&, unsigned long, vr::ETrackedDeviceClass, std::string const&)
+ t CInputProfileLoader::ComputeBestControllerType(Json::Value&, unsigned long, vr::ETrackedDeviceClass, std::string const&) [clone .cold]
+ t CInputProfileLoader::LoadRemappingData(Json::Value&, std::string*)
+ t CInputProfileLoader::LoadRemappingData(Json::Value&, std::string*) [clone .cold]
  t CKeyframeSamplerPoseOperation::AddCycle(CPoseRecipe&, CKeyframedDataResource const*, float)
  t CKeyframeSamplerPoseOperation::AddFrame(CPoseRecipe&, CKeyframedDataResource const*, unsigned int)
  t CKeyframeSamplerPoseOperation::Evaluate(CPoseUpdateContext&, CKeyframeSamplerPoseOperation::OpSettings const*)
@@ -6268,7 +6319,6 @@
  t CLegacyInput::GetControllerState(unsigned int, vr::VRControllerState001_t*, double*)
  t CLegacyInput::GetControllerState(unsigned int, vr::VRControllerState001_t*, double*) [clone .cold]
  t CLegacyInput::GetOverrideTrackedDeviceClass(unsigned int)
- t CLegacyInput::GetOverrideTrackedDeviceClass(unsigned int) [clone .cold]
  t CLegacyInput::GetPoseModificationForDevice(unsigned int, vr::HmdMatrix34_t*)
  t CLegacyInput::HandActions(std::string const&, std::string const&)
  t CLegacyInput::HandActions(std::string const&, std::string const&) [clone .cold]
@@ -6811,7 +6861,7 @@
  t CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*) [clone .cold]
  t CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
  t CSharedImageLinux::CSharedImageLinux(vr::IVRIPCResourceManagerClient*)
- t CSharedImageLinux::CreateVulkanImage(VkDevice_T*, VkFormat, unsigned int, unsigned int, bool)
+ t CSharedImageLinux::CreateVulkanImage(VkDevice_T*, VkFormat, unsigned int, unsigned int, bool, bool, bool)
  t CSharedImageLinux::GetDeviceSize() const
  t CSharedImageLinux::GetDeviceSize() const [clone .cold]
  t CSharedImageLinux::GetFormat() const
@@ -6833,6 +6883,8 @@
  t CSharedImageLinux::GetVulkanSharingMode() const [clone .cold]
  t CSharedImageLinux::GetWidth() const
  t CSharedImageLinux::GetWidth() const [clone .cold]
+ t CSharedImageLinux::HasComputeAccess() const
+ t CSharedImageLinux::HasComputeAccess() const [clone .cold]
  t CSharedImageLinux::HasDepthStencil() const
  t CSharedImageLinux::ImportOGLImage(unsigned long)
  t CSharedImageLinux::ImportOGLImage(unsigned long) [clone .cold]
@@ -6841,12 +6893,13 @@
  t CSharedImageLinux::IsDedicated() const
  t CSharedImageLinux::IsDedicated() const [clone .cold]
  t CSharedImageLinux::IsMappable() const
+ t CSharedImageLinux::IsMappable() const [clone .cold]
  t CSharedImageLinux::IsRenderable() const
  t CSharedImageLinux::IsRenderable() const [clone .cold]
  t CSharedImageLinux::PrepareForInterop()
- t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, unsigned int, unsigned int const*)
- t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, unsigned int, unsigned int const*) [clone .cold]
- t CSharedImageLinux::RequestSharedVulkanImage(VkFormat, unsigned int, unsigned int, bool)
+ t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+ t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*) [clone .cold]
+ t CSharedImageLinux::RequestSharedVulkanImage(VkFormat, unsigned int, unsigned int, bool, bool, bool)
  t CSharedImageLinux::SetVulkanLayout(VkImageLayout)
  t CSharedImageLinux::SetVulkanLayout(VkImageLayout) [clone .cold]
  t CSharedImageLinux::SetVulkanQueueIndex(unsigned int)
@@ -6957,8 +7010,8 @@
  t CSxrAction::BuildManifestEntry() [clone .cold]
  t CSxrAction::CSxrAction(CSxrActionSet*, XrActionCreateInfo const*)
  t CSxrAction::CSxrAction(CSxrActionSet*, XrActionCreateInfo const*) [clone .cold]
- t CSxrAction::GetRawFromPoseAction(XrSpaceLocation&, XrSpaceVelocity&, unsigned long, long)
  t CSxrAction::GetTrackedDeviceIndexForPoseAction(unsigned long) const
+ t CSxrAction::GetUniverseFromPoseAction(XrSpaceLocation&, XrSpaceVelocity&, unsigned long, long, vr::ETrackingUniverseOrigin)
  t CSxrAction::Init()
  t CSxrAction::~CSxrAction()
  t CSxrActionSet::BSubactionPathIsAllowed(unsigned long)
@@ -7052,6 +7105,7 @@
  t CSxrGenericTrackerManager::GetTrackerRolePath(std::string, bool) [clone .cold]
  t CSxrGenericTrackerManager::GetTrackerTopLevelPaths(bool)
  t CSxrGenericTrackerManager::GetTrackerTopLevelPaths(bool) [clone .cold]
+ t CSxrGenericTrackerManager::GetWristTrackerControllerEquivalent(std::string)
  t CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)
  t CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*) [clone .cold]
  t CSxrGenericTrackerManager::TranslateTrackerInputPath(unsigned long)
@@ -7070,6 +7124,7 @@
  t CSxrGraphicsBindingGLOpenVR::GetBlankTexture() [clone .cold]
  t CSxrGraphicsBindingGLOpenVR::GetSwapchainSupportedFormats()
  t CSxrGraphicsBindingGLOpenVR::Init(SxrCommonBase const*)
+ t CSxrGraphicsBindingGLOpenVR::Init(SxrCommonBase const*) [clone .cold]
  t CSxrGraphicsBindingGLOpenVR::IsValid()
  t CSxrGraphicsBindingGLOpenVR::PostEndFrame()
  t CSxrGraphicsBindingGLOpenVR::PreEndFrame()
@@ -7128,6 +7183,8 @@
  t CSxrInstance::EnableExtension(char const*) [clone .cold]
  t CSxrInstance::EnableGenericTrackers()
  t CSxrInstance::EnableGenericTrackers() [clone .cold]
+ t CSxrInstance::EnableWristTrackers()
+ t CSxrInstance::EnableWristTrackers() [clone .cold]
  t CSxrInstance::EnumerateViveTrackerPathsHTCX(unsigned int, unsigned int*, XrViveTrackerPathsHTCX*)
  t CSxrInstance::FetchVrEvents()
  t CSxrInstance::FetchVrEvents() [clone .cold]
@@ -7135,7 +7192,10 @@
  t CSxrInstance::GetExtensionsAvailable()
  t CSxrInstance::GetSystemName()
  t CSxrInstance::GetSystemName() [clone .cold]
+ t CSxrInstance::GetViewConfigurationTypeSupport(XrViewConfigurationType)
+ t CSxrInstance::GetViewConfigurationTypeSupport(XrViewConfigurationType, unsigned int)
  t CSxrInstance::GetViewConfigurationTypes()
+ t CSxrInstance::GetViewConfigurationTypes() [clone .cold]
  t CSxrInstance::GetViewConfigurationsViews(XrViewConfigurationType)
  t CSxrInstance::GetVulkanDeviceExtensions(unsigned long, unsigned int, unsigned int*, char*)
  t CSxrInstance::GetVulkanGraphicsDevice(unsigned long, VkInstance_T*, VkPhysicalDevice_T**)
@@ -7144,14 +7204,11 @@
  t CSxrInstance::Init() [clone .cold]
  t CSxrInstance::InitExtensions()
  t CSxrInstance::InitSupportedFeatures()
- t CSxrInstance::InteractionProfileFromControllerType(std::string)
- t CSxrInstance::InteractionProfileToControllerType(std::string)
+ t CSxrInstance::InitSupportedFeatures() [clone .cold]
  t CSxrInstance::IsDisplayTimeValid(long)
  t CSxrInstance::IsEnvironmentBlendModeSupported(XrViewConfigurationType, XrEnvironmentBlendMode)
  t CSxrInstance::IsExtensionEnabled(char const*)
  t CSxrInstance::IsExtensionSupported(char const*)
- t CSxrInstance::IsViewConfigurationTypeSupported(XrViewConfigurationType)
- t CSxrInstance::IsViewConfigurationTypeValid(XrViewConfigurationType)
  t CSxrInstance::PathToString(unsigned long, std::string&)
  t CSxrInstance::PathToString(unsigned long, unsigned int, unsigned int*, char*)
  t CSxrInstance::PathToString(unsigned long, unsigned int, unsigned int*, char*) [clone .cold]
@@ -7230,8 +7287,8 @@
  t CSxrSpace::CSxrSpace(CSxrAction*, XrActionSpaceCreateInfo const*) [clone .cold]
  t CSxrSpace::CSxrSpace(CSxrSession*, XrReferenceSpaceCreateInfo const*)
  t CSxrSpace::CSxrSpace(CSxrSession*, XrReferenceSpaceCreateInfo const*) [clone .cold]
- t CSxrSpace::GetRawFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long)
  t CSxrSpace::GetTrackedDeviceIndexAndPoseModification(vr::HmdMatrix34_t&) const
+ t CSxrSpace::GetUniverseFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long, vr::ETrackingUniverseOrigin)
  t CSxrSpace::Init()
  t CSxrSpace::~CSxrSpace()
  t CSxrSwapchainBase::CSxrSwapchainBase(CSxrSession*, XrSwapchainCreateInfo const*, IXrBinding*)
@@ -7288,10 +7345,91 @@
  t CSxrSwapchainVulkanOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*) [clone .cold]
  t CSxrSwapchainVulkanOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
  t CSxrSwapchainVulkanOpenVR::~CSxrSwapchainVulkanOpenVR()
+ t CSxrWristTrackerManager::CSxrWristTrackerManager(CSxrInstance*)
+ t CSxrWristTrackerManager::GetWristTrackerBindingEquivalent(std::string)
+ t CSxrWristTrackerManager::GetWristTrackerBindingEquivalent(std::string) [clone .cold]
+ t CSxrWristTrackerManager::ProcessBindings(std::vector<Json::Value, std::allocator<Json::Value> >&, unsigned long, XrHandEXT, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
+ t CSxrWristTrackerManager::ProcessBindings(std::vector<Json::Value, std::allocator<Json::Value> >&, unsigned long, XrHandEXT, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
+ t CSxrWristTrackerManager::~CSxrWristTrackerManager()
  t CSyncLockThread::Init()
  t CSyncLockThread::OnExit()
  t CSyncLockThread::Run()
  t CSyncLockThread::~CSyncLockThread()
+ t CThread::BHasValidThreadID()
+ t CThread::CThread()
+ t CThread::GetCurrentCThread()
+ t CThread::GetName()
+ t CThread::GetPriority() const
+ t CThread::GetResult() const
+ t CThread::GetThreadProc()
+ t CThread::Init()
+ t CThread::IsAlive()
+ t CThread::IsThreadRunning()
+ t CThread::Join(unsigned int)
+ t CThread::OnExit()
+ t CThread::Resume()
+ t CThread::SetName(char const*)
+ t CThread::SetPriority(int)
+ t CThread::Sleep(unsigned int)
+ t CThread::Start(unsigned int)
+ t CThread::Start(unsigned int) [clone .cold]
+ t CThread::Stop(int)
+ t CThread::Suspend()
+ t CThread::Terminate(int)
+ t CThread::ThreadExceptionWrapper(void*)
+ t CThread::ThreadProc(void*)
+ t CThread::ThreadProc(void*) [clone .cold]
+ t CThread::WaitForCreateComplete(CThreadEvent*)
+ t CThread::Yield()
+ t CThread::~CThread()
+ t CThread::~CThread() [clone .part.0]
+ t CThreadEvent::CThreadEvent(bool)
+ t CThreadEvent::CThreadEvent(char const*, bool, bool)
+ t CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
+ t CThreadEvent::Check()
+ t CThreadEvent::Reset()
+ t CThreadEvent::Set()
+ t CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
+ t CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
+ t CThreadFullMutex::IsCreator() const
+ t CThreadFullMutex::Release()
+ t CThreadLocalBase::CThreadLocalBase()
+ t CThreadLocalBase::Get() const
+ t CThreadLocalBase::Set(void*)
+ t CThreadLocalBase::~CThreadLocalBase()
+ t CThreadLocalInt<long>::~CThreadLocalInt()
+ t CThreadLocalPtr<CThread>::~CThreadLocalPtr()
+ t CThreadMutex::CThreadMutex()
+ t CThreadMutex::~CThreadMutex()
+ t CThreadRWLock::LockForWrite()
+ t CThreadRWLock::UnlockWrite()
+ t CThreadRWLock::WaitForRead()
+ t CThreadSemaphore::CThreadSemaphore(long, long)
+ t CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
+ t CThreadSemaphore::Release(long)
+ t CThreadSpinLock::Lock(unsigned int) volatile
+ t CThreadSpinRWLock::LockForRead()
+ t CThreadSpinRWLock::SpinLockForWrite(unsigned int)
+ t CThreadSpinRWLock::UnlockRead()
+ t CThreadSpinRWLock::UnlockWrite()
+ t CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
+ t CThreadSyncObject::AssertUseable()
+ t CThreadSyncObject::CThreadSyncObject()
+ t CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
+ t CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
+ t CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
+ t CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
+ t CThreadSyncObject::EnsureSemaphorePostedInternal(int)
+ t CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
+ t CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
+ t CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
+ t CThreadSyncObject::SaveNameToFile(char const*)
+ t CThreadSyncObject::SignalThreadSyncObjectInternal()
+ t CThreadSyncObject::Wait(unsigned int)
+ t CThreadSyncObject::Wait(unsigned int) [clone .part.0]
+ t CThreadSyncObject::operator!() const
+ t CThreadSyncObject::~CThreadSyncObject()
+ t CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
  t CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior)
  t CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior) [clone .cold]
  t CThreadWatchdog::CleanupWatchdogs()
@@ -7605,6 +7743,7 @@
  t CVRChaperoneClient::AreBoundsVisible()
  t CVRChaperoneClient::BInit(CVRClient*)
  t CVRChaperoneClient::BInit(CVRClient*) [clone .cold]
+ t CVRChaperoneClient::ClearChaperoneCaches()
  t CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
  t CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile) [clone .cold]
  t CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*)
@@ -7620,6 +7759,7 @@
  t CVRChaperoneClient::GetOriginFromTrackingMatrix(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t*)
  t CVRChaperoneClient::GetPlayAreaRect(vr::HmdQuad_t*)
  t CVRChaperoneClient::GetPlayAreaSize(float*, float*)
+ t CVRChaperoneClient::GetRawZeroPoseToSeatedAbsoluteTrackingPose(vr::HmdMatrix34_t*)
  t CVRChaperoneClient::GetRawZeroPoseToStandingAbsoluteTrackingPose(vr::HmdMatrix34_t*)
  t CVRChaperoneClient::GetSeatedZeroPoseToStandingAbsoluteTrackingPose(vr::HmdMatrix34_t*)
  t CVRChaperoneClient::GetSetupZeroPoseToStandingAbsoluteTrackingPose(vr::HmdMatrix34_t*)
@@ -7648,6 +7788,7 @@
  t CVRChaperoneClient::SetWorkingSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
  t CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
  t CVRChaperoneClient::ShowWorkingSetPreview()
+ t CVRChaperoneClient::ShowWorkingSetPreview() [clone .part.0]
  t CVRChaperoneClient::UpdateWorkingSet()
  t CVRChaperoneClient::UpdateWorkingSet() [clone .cold]
  t CVRChaperoneClient::~CVRChaperoneClient()
@@ -7836,8 +7977,8 @@
  t CVRCompositorClient::LockGLSharedTextureForAccess(void*)
  t CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*)
  t CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*) [clone .cold]
- t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, unsigned long*)
- t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, unsigned long*) [clone .cold]
+ t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned long*)
+ t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned long*) [clone .cold]
  t CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*)
  t CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*) [clone .cold]
  t CVRCompositorClient::PostPresentHandoff()
@@ -8031,12 +8172,14 @@
  t CVRCompositorSharedTextures::FindInTextureCache(CVRCompositorSharedTextures::CTextureCacheKey const&)
  t CVRCompositorSharedTextures::FinishOpenCommandBuffer(CVRCompositorSharedTextures::CommandBuffer_t**, bool)
  t CVRCompositorSharedTextures::Flush(CVRCompositorSharedTextures::CommandBuffer_t**)
+ t CVRCompositorSharedTextures::Flush(CVRCompositorSharedTextures::CommandBuffer_t**) [clone .cold]
  t CVRCompositorSharedTextures::GPUWaitForSharedVRTexture(vr::Texture_t*, vr::IVRSharedImage*, vr::VRNativeDevice_t*)
  t CVRCompositorSharedTextures::GetCachedVulkanDeviceData(VkDevice_T*)
  t CVRCompositorSharedTextures::GetD3D11Device(void**, void*, void*, unsigned int)
  t CVRCompositorSharedTextures::GetDevice(vr::Texture_t const*, vr::EVRSubmitFlags, void**)
  t CVRCompositorSharedTextures::GetFrameInfo(CompositorFrameInfoConstantBuffer_t*, bool) const
  t CVRCompositorSharedTextures::GetFrameTiming(float*, unsigned int)
+ t CVRCompositorSharedTextures::GetFrameTiming(float*, unsigned int) [clone .cold]
  t CVRCompositorSharedTextures::GetFreeFence(CVRCompositorSharedTextures::VulkanDeviceData_t*)
  t CVRCompositorSharedTextures::GetGLTextureFromSharedTexture(unsigned long, unsigned int*, void**)
  t CVRCompositorSharedTextures::GetGLTextureFromSharedTexture(unsigned long, unsigned int*, void**) [clone .cold]
@@ -12146,6 +12289,31 @@
  t CVRMsg_Input_SetXrInputConfig::set_action_manifest(std::string const&)
  t CVRMsg_Input_SetXrInputConfig::set_allocated_action_manifest(std::string*)
  t CVRMsg_Input_SetXrInputConfig::~CVRMsg_Input_SetXrInputConfig()
+ t CVRMsg_Input_SetXrInputConfigResponse::ByteSize() const
+ t CVRMsg_Input_SetXrInputConfigResponse::CVRMsg_Input_SetXrInputConfigResponse()
+ t CVRMsg_Input_SetXrInputConfigResponse::CVRMsg_Input_SetXrInputConfigResponse() [clone .cold]
+ t CVRMsg_Input_SetXrInputConfigResponse::CVRMsg_Input_SetXrInputConfigResponse(CVRMsg_Input_SetXrInputConfigResponse const&)
+ t CVRMsg_Input_SetXrInputConfigResponse::CVRMsg_Input_SetXrInputConfigResponse(CVRMsg_Input_SetXrInputConfigResponse const&) [clone .cold]
+ t CVRMsg_Input_SetXrInputConfigResponse::Clear()
+ t CVRMsg_Input_SetXrInputConfigResponse::CopyFrom(CVRMsg_Input_SetXrInputConfigResponse const&)
+ t CVRMsg_Input_SetXrInputConfigResponse::GetCachedSize() const
+ t CVRMsg_Input_SetXrInputConfigResponse::GetMetadata() const
+ t CVRMsg_Input_SetXrInputConfigResponse::GetMetadata() const [clone .cold]
+ t CVRMsg_Input_SetXrInputConfigResponse::InitAsDefaultInstance()
+ t CVRMsg_Input_SetXrInputConfigResponse::IsInitialized() const
+ t CVRMsg_Input_SetXrInputConfigResponse::MergeFrom(CVRMsg_Input_SetXrInputConfigResponse const&)
+ t CVRMsg_Input_SetXrInputConfigResponse::MergeFrom(CVRMsg_Input_SetXrInputConfigResponse const&) [clone .cold]
+ t CVRMsg_Input_SetXrInputConfigResponse::New() const
+ t CVRMsg_Input_SetXrInputConfigResponse::New() const [clone .cold]
+ t CVRMsg_Input_SetXrInputConfigResponse::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_Input_SetXrInputConfigResponse::SetCachedSize(int) const
+ t CVRMsg_Input_SetXrInputConfigResponse::SharedCtor()
+ t CVRMsg_Input_SetXrInputConfigResponse::SharedDtor()
+ t CVRMsg_Input_SetXrInputConfigResponse::Swap(CVRMsg_Input_SetXrInputConfigResponse*)
+ t CVRMsg_Input_SetXrInputConfigResponse::default_instance()
+ t CVRMsg_Input_SetXrInputConfigResponse::descriptor()
+ t CVRMsg_Input_SetXrInputConfigResponse::descriptor() [clone .cold]
+ t CVRMsg_Input_SetXrInputConfigResponse::~CVRMsg_Input_SetXrInputConfigResponse()
  t CVRMsg_LaunchApplication::ByteSize() const
  t CVRMsg_LaunchApplication::CVRMsg_LaunchApplication()
  t CVRMsg_LaunchApplication::CVRMsg_LaunchApplication() [clone .cold]
@@ -17226,12 +17394,40 @@
  t CVRSteamPrivate_002::QuitProcess(unsigned int)
  t CVRSteamPrivate_002::QuitSteamVR()
  t CVRSteamPrivate_002::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_003::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_003::GetWebSharedSecret()
+ t CVRSteamPrivate_003::MicrotxnFinished()
+ t CVRSteamPrivate_003::OculusSDKAppStarted()
+ t CVRSteamPrivate_003::QuitProcess(unsigned int)
+ t CVRSteamPrivate_003::QuitSteamVR()
+ t CVRSteamPrivate_003::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_003::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_004::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_004::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_004::GetWebSharedSecret()
+ t CVRSteamPrivate_004::MicrotxnFinished()
+ t CVRSteamPrivate_004::OculusSDKAppStarted()
+ t CVRSteamPrivate_004::QuitProcess(unsigned int)
+ t CVRSteamPrivate_004::QuitSteamVR()
+ t CVRSteamPrivate_004::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_004::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_005::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_005::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_005::GetWebSharedSecret()
+ t CVRSteamPrivate_005::MicrotxnFinished()
+ t CVRSteamPrivate_005::OculusSDKAppStarted()
+ t CVRSteamPrivate_005::QuitProcess(unsigned int)
+ t CVRSteamPrivate_005::QuitSteamVR()
+ t CVRSteamPrivate_005::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_005::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_005::ShouldSetAsOpenXrRuntime()
  t CVRSystemLatest::AcknowledgeQuit_Exiting()
  t CVRSystemLatest::AcknowledgeQuit_Exiting() [clone .cold]
  t CVRSystemLatest::AddSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t CVRSystemLatest::AddSystemBehaviorFlag(EVRInternalSystemBehaviorFlags) [clone .cold]
  t CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsigned int, vr::TrackedDevicePose_t*, float)
  t CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
+ t CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float) [clone .part.0]
  t CVRSystemLatest::ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
  t CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*)
  t CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*) [clone .cold]
@@ -18411,6 +18607,7 @@
  t CVkCommandBuffer::CmdInsertVRFrameMarker()
  t CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int)
  t CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int, unsigned int, unsigned int)
+ t CVkCommandBuffer::CmdSetStencil(unsigned int, unsigned int, unsigned int, VkStencilFaceFlagBits)
  t CVkCommandBuffer::End()
  t CVkCommandBuffer::Initialize()
  t CVkCommandBuffer::MarkReferencedResourcesInUse(CVkTimeline*, facet::CVkTimelinePoint const&)
@@ -18625,6 +18822,7 @@
  t CVulkanVRRenderer::GetTextureSharedHandle(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetTextureSharedResource(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetVRTextureFormat(VkFormat)
+ t CVulkanVRRenderer::HardRenderToTransferBarrierVulkan()
  t CVulkanVRRenderer::ImportConstantBufferFromSharedHandle(unsigned long)
  t CVulkanVRRenderer::ImportConstantBufferFromSharedHandle(unsigned long) [clone .cold]
  t CVulkanVRRenderer::ImportGPUCountingSemaphoreFromSharedHandle(unsigned long)
@@ -18695,8 +18893,9 @@
  t CVulkanVRRenderer::UnmapConstantBuffer(VRRenderer::ConstantBufferBase*, VRRenderer::MapType)
  t CVulkanVRRenderer::UnmapTexture(VRRenderer::TextureBase*, void**)
  t CVulkanVRRenderer::UnregisterGPUTiming(CGpuTiming*)
- t CVulkanVRRenderer::UpdateBufferHelper(VkBuffer_T*, unsigned long, void const*, VkAccessFlagBits)
+ t CVulkanVRRenderer::UpdateBufferHelper(VkBuffer_T*, unsigned long, unsigned long, void const*, VkAccessFlagBits)
  t CVulkanVRRenderer::UpdateConstantBuffer(VRRenderer::ConstantBufferBase*, void const*)
+ t CVulkanVRRenderer::UpdateConstantBufferVulkan(VRRenderer::ConstantBufferBase*, void const*, unsigned long, unsigned long)
  t CVulkanVRRenderer::UpdateGPUTimingCurrentCommandBuffer()
  t CVulkanVRRenderer::UpdateIndexBuffer(VRRenderer::IndexBufferBase*, void const*)
  t CVulkanVRRenderer::UpdateTexture(VRRenderer::TextureBase*, void const*, bool)
@@ -18812,17 +19011,7 @@
  t ComputeParallelProjection(vr::HmdMatrix33_t const&, float*, float*, float*, float*)
  t ComputeReadEventName(std::string const&, unsigned int)
  t ComputeReadEventName(std::string const&, unsigned int) [clone .cold]
- t ComputeSimpleIndexControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
- t ComputeSimpleIndexControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
- t ComputeSimpleMRControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
- t ComputeSimpleMRControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
- t ComputeSimpleTouchControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
- t ComputeSimpleTouchControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
- t ComputeSimpleViveControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
- t ComputeSimpleViveControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
  t ComputeSubresourceRegion(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
- t ComputeTouchIndexControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
- t ComputeTouchIndexControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
  t ComputeTransformDetails(vr::HmdMatrix34_t const&, vr::HmdVector2_t const&, float, float, float, float, float, vr::HmdVector2_t const&, vr::VRTextureBounds_t const&)
  t ComputeXrViewForEye(vr::EVREye, XrPosef const&, CFrameData*)
  t ComputedBoolSettingForString(std::string const&)
@@ -18895,6 +19084,7 @@
  t EnableWebDebugger()
  t EventWriteString(char const*, EVRTraceEvent)
  t EventWriteStringBegin(char const*, unsigned long)
+ t EventWriteStringDurationF(int, char const*, ...)
  t EventWriteStringEnd(char const*, unsigned long)
  t EventWriteStringF(char const*, ...)
  t ExportVulkanMemoryAsFD(VkDevice_T*, VkDeviceMemory_T*, int*)
@@ -18956,10 +19146,16 @@
  t GetGMUnixTime()
  t GetGMUnixTimeAtNextLocalTime(unsigned long, int, int, int)
  t GetGenericInterfaceInternal(char const*, vr::EVRInitError*)
+ t GetHMDInputProfileFromPath(Json::Value&, std::string const&, std::string*)
+ t GetHMDInputProfileFromPath(Json::Value&, std::string const&, std::string*) [clone .cold]
  t GetHMDLatestInterfaceInternal()
  t GetHmdErrorPriority(vr::EVRInitError)
  t GetIDForVRInitError(vr::EVRInitError)
  t GetInputPathTypes(unsigned long, unsigned long)
+ t GetInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> >, std::string*)
+ t GetInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> >, std::string*) [clone .cold]
+ t GetInputProfileFromPath(Json::Value&, std::string const&, std::string*)
+ t GetInputProfileFromPath(Json::Value&, std::string const&, std::string*) [clone .cold]
  t GetInputSourceType(Json::Value const&, std::string)
  t GetInputSourceType(Json::Value const&, std::string) [clone .cold]
  t GetInputValueVisibilityFromString(char const*)
@@ -18982,7 +19178,6 @@
  t GetOpenXrApiLayerRegistryPath(bool)
  t GetOpenXrAvailableRuntimesPath()
  t GetOverlayTextureToWrite(VRCompositor_OverlayState_t const&, int*, unsigned int*)
- t GetRawFromReferenceSpace(XrSpaceLocation&, XrSpaceVelocity&, long, XrReferenceSpaceType)
  t GetResourceBaseDir()
  t GetResourceBaseDir() [clone .cold]
  t GetRuntimeLibraryPath()
@@ -19036,6 +19231,7 @@
  t GetTrackedDeviceProperties() [clone .cold]
  t GetTrackedDeviceString(vr::IVRSystem*, unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
  t GetTrackerRoleFromString(std::string const&)
+ t GetUniverseFromReferenceSpace(XrSpaceLocation&, XrSpaceVelocity&, long, XrReferenceSpaceType, vr::ETrackingUniverseOrigin)
  t GetUserDocumentsPath()
  t GetVRLog()
  t GetVRLogTimeString(bool)
@@ -21999,7 +22195,7 @@
  t InitAssertCallback() [clone .cold]
  t InitDriverLog(vr::IVRDriverLog*)
  t InitDriverLog(vr::IVRDriverLog*) [clone .cold]
- t InitInternalCameraPassThruInterface(std::function<void* (char const*)>)
+ t InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
  t InitInternalClientInterfaces(std::function<void* (char const*)>)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -22045,6 +22241,8 @@
  t InputInterfaceRegistration<CVRInput_008>::~InputInterfaceRegistration()
  t InputInterfaceRegistration<CVRInput_009>::GetInterface()
  t InputInterfaceRegistration<CVRInput_009>::~InputInterfaceRegistration()
+ t InteractionProfileFromControllerType(std::string)
+ t InteractionProfileToControllerType(std::string)
  t InterfaceRegistrationBase::Find(char const*)
  t InterfaceRegistrationBase::InterfaceRegistrationBase(char const*)
  t InterfaceRegistrationBase::InterfaceRegistrationBase(char const*) [clone .cold]
@@ -22733,7 +22931,7 @@
  t Path_WriteStringToTextFileAtomic(std::string const&, char const*) [clone .cold]
  t Plat_IsInDebugSession
  t PointMaskIntersectionTest(float, float, vr::VROverlayIntersectionMaskPrimitive_t const*, unsigned int)
- t PredictRawPose(double, vr::HmdMatrix34_t const&, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*)
+ t PredictRawPose(double, vr::HmdMatrix34_t const&, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*, double, double)
  t ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)
  t ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*) [clone .cold]
  t ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)
@@ -22775,10 +22973,6 @@
  t RegisterInterface(char const*, void*)
  t RegisterInterface(char const*, void*) [clone .cold]
  t ReleaseThreadHandle
- t RemapBindingForBothHands(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&, std::string const&, std::string const&)
- t RemapBindingForBothHands(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&, std::string const&, std::string const&) [clone .cold]
- t RemapBindingWithOptionalClick(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&, std::string const&, std::string const&)
- t RemapBindingWithOptionalClick(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&, std::string const&, std::string const&) [clone .cold]
  t RemoveNotificationsOwnedByOverlay(VRSystemLayerState_t*, unsigned long)
  t RenderModelsInterfaceRegistration<CVRRenderModels_001>::GetInterface()
  t RenderModelsInterfaceRegistration<CVRRenderModels_001>::~RenderModelsInterfaceRegistration()
@@ -22859,81 +23053,12 @@
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::~SteamPrivateInterfaceRegistration()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>::GetInterface()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>::~SteamPrivateInterfaceRegistration()
- t SteamThreadTools::CThread::BHasValidThreadID()
- t SteamThreadTools::CThread::CThread()
- t SteamThreadTools::CThread::GetCurrentCThread()
- t SteamThreadTools::CThread::GetName()
- t SteamThreadTools::CThread::GetPriority() const
- t SteamThreadTools::CThread::GetResult() const
- t SteamThreadTools::CThread::GetThreadProc()
- t SteamThreadTools::CThread::Init()
- t SteamThreadTools::CThread::IsAlive()
- t SteamThreadTools::CThread::IsThreadRunning()
- t SteamThreadTools::CThread::Join(unsigned int)
- t SteamThreadTools::CThread::OnExit()
- t SteamThreadTools::CThread::Resume()
- t SteamThreadTools::CThread::SetName(char const*)
- t SteamThreadTools::CThread::SetPriority(int)
- t SteamThreadTools::CThread::Sleep(unsigned int)
- t SteamThreadTools::CThread::Start(unsigned int)
- t SteamThreadTools::CThread::Start(unsigned int) [clone .cold]
- t SteamThreadTools::CThread::Stop(int)
- t SteamThreadTools::CThread::Suspend()
- t SteamThreadTools::CThread::Terminate(int)
- t SteamThreadTools::CThread::ThreadExceptionWrapper(void*)
- t SteamThreadTools::CThread::ThreadProc(void*)
- t SteamThreadTools::CThread::ThreadProc(void*) [clone .cold]
- t SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
- t SteamThreadTools::CThread::Yield()
- t SteamThreadTools::CThread::~CThread()
- t SteamThreadTools::CThread::~CThread() [clone .part.0]
- t SteamThreadTools::CThreadEvent::CThreadEvent(bool)
- t SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
- t SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
- t SteamThreadTools::CThreadEvent::Check()
- t SteamThreadTools::CThreadEvent::Reset()
- t SteamThreadTools::CThreadEvent::Set()
- t SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
- t SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
- t SteamThreadTools::CThreadFullMutex::IsCreator() const
- t SteamThreadTools::CThreadFullMutex::Release()
- t SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
- t SteamThreadTools::CThreadLocalBase::Get() const
- t SteamThreadTools::CThreadLocalBase::Set(void*)
- t SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
- t SteamThreadTools::CThreadLocalInt<long>::~CThreadLocalInt()
- t SteamThreadTools::CThreadLocalPtr<SteamThreadTools::CThread>::~CThreadLocalPtr()
- t SteamThreadTools::CThreadMutex::CThreadMutex()
- t SteamThreadTools::CThreadMutex::~CThreadMutex()
- t SteamThreadTools::CThreadRWLock::LockForWrite()
- t SteamThreadTools::CThreadRWLock::UnlockWrite()
- t SteamThreadTools::CThreadRWLock::WaitForRead()
- t SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long)
- t SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
- t SteamThreadTools::CThreadSemaphore::Release(long)
- t SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
- t SteamThreadTools::CThreadSpinRWLock::LockForRead()
- t SteamThreadTools::CThreadSpinRWLock::SpinLockForWrite(unsigned int)
- t SteamThreadTools::CThreadSpinRWLock::UnlockRead()
- t SteamThreadTools::CThreadSpinRWLock::UnlockWrite()
- t SteamThreadTools::CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
- t SteamThreadTools::CThreadSyncObject::AssertUseable()
- t SteamThreadTools::CThreadSyncObject::CThreadSyncObject()
- t SteamThreadTools::CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
- t SteamThreadTools::CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
- t SteamThreadTools::CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
- t SteamThreadTools::CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
- t SteamThreadTools::CThreadSyncObject::EnsureSemaphorePostedInternal(int)
- t SteamThreadTools::CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
- t SteamThreadTools::CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
- t SteamThreadTools::CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
- t SteamThreadTools::CThreadSyncObject::SaveNameToFile(char const*)
- t SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
- t SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
- t SteamThreadTools::CThreadSyncObject::Wait(unsigned int) [clone .part.0]
- t SteamThreadTools::CThreadSyncObject::operator!() const
- t SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
- t SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>::~SteamPrivateInterfaceRegistration()
  t SteamVRVersionAsString()
  t SteamVRVersionAsString() [clone .cold]
  t StringHasPrefix(std::string const&, std::string const&)
@@ -23034,11 +23159,13 @@
  t TranslateXrInputPath(unsigned long, std::string const&) [clone .cold]
  t TrimTrailingWhitespace(std::string const&)
  t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+ t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&) [clone .cold]
  t UTF16to8(wchar_t const*)
  t UTF16to8(wchar_t const*) [clone .cold]
  t UTF8to16(char const*)
  t UTF8to16(char const*) [clone .cold]
  t UTF8to16(std::string const&)
+ t UTF8to16(std::string const&) [clone .cold]
  t Uint64ToString(unsigned long)
  t UnixTimeToDateAndTimeString(unsigned long)
  t UnixTimeToDateString(unsigned long)
@@ -23643,6 +23770,8 @@
  t _GLOBAL__sub_I_inputfilter_scroll_joystick_smooth.cpp
  t _GLOBAL__sub_I_inputfilter_scroll_trackpad_discrete.cpp
  t _GLOBAL__sub_I_inputfilter_scroll_trackpad_smooth.cpp
+ t _GLOBAL__sub_I_inputprofileloader.cpp
+ t _GLOBAL__sub_I_inputprofileloader.cpp.cold
  t _GLOBAL__sub_I_interface_adapters_client.cpp
  t _GLOBAL__sub_I_interface_adapters_client.cpp.cold
  t _GLOBAL__sub_I_ipcpipe.cpp
@@ -23820,7 +23949,6 @@
  t __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const>, std::random_access_iterator_tag) [clone .isra.0]
  t __gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag) [clone .isra.0]
  t __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag) [clone .isra.0]
- t __gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const>, std::random_access_iterator_tag) [clone .isra.0]
  t __gnu_cxx::__normal_iterator<void* const*, std::vector<void*, std::allocator<void*> > > std::__find_if<__gnu_cxx::__normal_iterator<void* const*, std::vector<void*, std::allocator<void*> > >, __gnu_cxx::__ops::_Iter_equals_val<void* const> >(__gnu_cxx::__normal_iterator<void* const*, std::vector<void*, std::allocator<void*> > >, __gnu_cxx::__normal_iterator<void* const*, std::vector<void*, std::allocator<void*> > >, __gnu_cxx::__ops::_Iter_equals_val<void* const>, std::random_access_iterator_tag) [clone .isra.0]
  t __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) [clone .isra.136]
  t __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) [clone .isra.737]
@@ -23926,6 +24054,7 @@
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_GetDriverInfoResponse>(unsigned int, unsigned int, CVRMsg_GetDriverInfoResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_GetActionBindingsResponse>(unsigned int, unsigned int, CVRMsg_Input_GetActionBindingsResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetActionManifestPathResponse>(unsigned int, unsigned int, CVRMsg_Input_SetActionManifestPathResponse&, unsigned int)
+ t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetXrInputConfigResponse>(unsigned int, unsigned int, CVRMsg_Input_SetXrInputConfigResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_LaunchApplicationForMimeTypeResponse>(unsigned int, unsigned int, CVRMsg_LaunchApplicationForMimeTypeResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_LaunchApplicationResponse>(unsigned int, unsigned int, CVRMsg_LaunchApplicationResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_LaunchInternalProcessResponse>(unsigned int, unsigned int, CVRMsg_LaunchInternalProcessResponse&, unsigned int)
@@ -23966,6 +24095,7 @@
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_UpdateChaperoneUniverseResponse>(unsigned int, unsigned int, CVRMsg_UpdateChaperoneUniverseResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_WritePropertyDataToFileResponse>(unsigned int, unsigned int, CVRMsg_WritePropertyDataToFileResponse&, unsigned int)
  t bool CIPCPipe::SendProtobufMessage<CVRMsg_DriverDebugRequest>(unsigned int, unsigned int, CVRMsg_DriverDebugRequest const&)
+ t bool CIPCPipe::SendProtobufMessage<CVRMsg_Input_SetXrInputConfig>(unsigned int, unsigned int, CVRMsg_Input_SetXrInputConfig const&)
  t bool CIPCPipe::SendProtobufMessageAndWaitForResponse<CVRMsg_CancelApplicationLaunch, CVRMsg_CancelApplicationLaunchResponse>(unsigned int, CVRMsg_CancelApplicationLaunch const&, unsigned int, CVRMsg_CancelApplicationLaunchResponse&, unsigned int)
  t bool CIPCPipe::SendProtobufMessageAndWaitForResponse<CVRMsg_ChangeAppType, CVRMsg_ChangeAppTypeResponse>(unsigned int, CVRMsg_ChangeAppType const&, unsigned int, CVRMsg_ChangeAppTypeResponse&, unsigned int)
  t bool CIPCPipe::SendProtobufMessageAndWaitForResponse<CVRMsg_ClientMailbox_SendMailboxMessage, CVRMsg_ClientMailbox_SendMailboxMessageResponse>(unsigned int, CVRMsg_ClientMailbox_SendMailboxMessage const&, unsigned int, CVRMsg_ClientMailbox_SendMailboxMessageResponse&, unsigned int)
@@ -24055,6 +24185,8 @@
  t classify_object_over_fdes
  t classify_object_over_fdes.cold
  t crc32(unsigned int, void const*, unsigned long)
+ t cryptor::string_encryptor<3ul>::decrypt() const
+ t cryptor::string_encryptor<7ul>::decrypt() const
  t deregister_tm_clones
  t double const& CSettingsManager::GetValue<double>(char const*, char const*, vr::EVRSettingsError*)
  t double const& CSettingsValue::Get<double>() const
@@ -24353,6 +24485,7 @@
  t non-virtual thunk to CHmdSystemLatest::GetDriverId(unsigned int, char*, unsigned int)
  t non-virtual thunk to CHmdSystemLatest::GetDriverInitError(char const*)
  t non-virtual thunk to CHmdSystemLatest::GetDriverManager()
+ t non-virtual thunk to CHmdSystemLatest::GetEyeServerStatus()
  t non-virtual thunk to CHmdSystemLatest::GetGraphicsHardwareInfo(GraphicsHardwareInfo_t*)
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewAspectRatio()
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewBlendRange(float*, float*)
@@ -24360,12 +24493,14 @@
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewMode()
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
  t non-virtual thunk to CHmdSystemLatest::GetIPCResourceManagerClient()
+ t non-virtual thunk to CHmdSystemLatest::GetLatestEyePose(vr::VREyeTrackingState_Pose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetLegacyInput()
  t non-virtual thunk to CHmdSystemLatest::GetPaths()
  t non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetProperties()
  t non-virtual thunk to CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
+ t non-virtual thunk to CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*) [clone .cold]
  t non-virtual thunk to CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
  t non-virtual thunk to CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string> >*, std::string const&)
  t non-virtual thunk to CHmdSystemLatest::GetResources()
@@ -24530,11 +24665,13 @@
  t non-virtual thunk to CVRCameraComponent_Latest::StopVideoStream()
  t non-virtual thunk to CVRCameraComponent_Latest::~CVRCameraComponent_Latest()
  t non-virtual thunk to CVRChaperoneClient::ApplyZeroPose(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t)
+ t non-virtual thunk to CVRChaperoneClient::ClearChaperoneCaches()
  t non-virtual thunk to CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
  t non-virtual thunk to CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*)
  t non-virtual thunk to CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*)
  t non-virtual thunk to CVRChaperoneClient::GetLiveSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t*)
  t non-virtual thunk to CVRChaperoneClient::GetOriginFromTrackingMatrix(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t*)
+ t non-virtual thunk to CVRChaperoneClient::GetRawZeroPoseToSeatedAbsoluteTrackingPose(vr::HmdMatrix34_t*)
  t non-virtual thunk to CVRChaperoneClient::GetRawZeroPoseToStandingAbsoluteTrackingPose(vr::HmdMatrix34_t*)
  t non-virtual thunk to CVRChaperoneClient::GetSeatedZeroPoseToStandingAbsoluteTrackingPose(vr::HmdMatrix34_t*)
  t non-virtual thunk to CVRChaperoneClient::GetSetupZeroPoseToStandingAbsoluteTrackingPose(vr::HmdMatrix34_t*)
@@ -24556,7 +24693,7 @@
  t non-virtual thunk to CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
  t non-virtual thunk to CVRChaperoneClient::ShowWorkingSetPreview()
  t non-virtual thunk to CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*)
- t non-virtual thunk to CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, unsigned long*)
+ t non-virtual thunk to CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned long*)
  t non-virtual thunk to CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*)
  t non-virtual thunk to CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
  t non-virtual thunk to CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameInfo_t*)
@@ -25013,9 +25150,15 @@
  t std::_Function_handler<void* (char const*), CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}>::_M_manager(std::_Any_data&, std::_Function_handler<void* (char const*), CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}> const&, std::_Manager_operation)
  t std::_Function_handler<void* (char const*), InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_invoke(std::_Any_data const&, char const*&&)
  t std::_Function_handler<void* (char const*), InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_handler<void* (char const*), InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
+ t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, XrViewConfigurationType const&, unsigned long) const
+ t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(XrViewConfigurationType const&, unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, true>*, unsigned long) [clone .isra.0]
  t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+ t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_Scoped_node::~_Scoped_node()
  t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear()
+ t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, XrViewConfigurationType const&, unsigned long) const
+ t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(XrViewConfigurationType const&, unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, true>*, unsigned long) [clone .isra.0]
  t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+ t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_Scoped_node::~_Scoped_node()
  t std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear()
  t std::_Hashtable<std::pair<int, int>, std::pair<std::pair<int, int> const, unsigned int>, std::allocator<std::pair<std::pair<int, int> const, unsigned int> >, std::__detail::_Select1st, vr::UndirectedEdgeEqual, vr::UndirectedEdgeHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, std::pair<int, int> const&, unsigned long) const
  t std::_Hashtable<std::pair<int, int>, std::pair<std::pair<int, int> const, unsigned int>, std::allocator<std::pair<std::pair<int, int> const, unsigned int> >, std::__detail::_Select1st, vr::UndirectedEdgeEqual, vr::UndirectedEdgeHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
@@ -25069,7 +25212,6 @@
  t std::_Rb_tree<VkDevice_T*, std::pair<VkDevice_T* const, VulkanFunctionPointers_t>, std::_Select1st<std::pair<VkDevice_T* const, VulkanFunctionPointers_t> >, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t> > >::_M_get_insert_unique_pos(VkDevice_T* const&)
  t std::_Rb_tree<XrActionSet_T*, XrActionSet_T*, std::_Identity<XrActionSet_T*>, std::less<XrActionSet_T*>, std::allocator<XrActionSet_T*> >::_M_erase(std::_Rb_tree_node<XrActionSet_T*>*) [clone .isra.0]
  t std::_Rb_tree<XrActionType, XrActionType, std::_Identity<XrActionType>, std::less<XrActionType>, std::allocator<XrActionType> >::_M_erase(std::_Rb_tree_node<XrActionType>*) [clone .isra.0]
- t std::_Rb_tree<XrActionType, XrActionType, std::_Identity<XrActionType>, std::less<XrActionType>, std::allocator<XrActionType> >::find(XrActionType const&) const
  t std::_Rb_tree<XrSwapchain_T*, XrSwapchain_T*, std::_Identity<XrSwapchain_T*>, std::less<XrSwapchain_T*>, std::allocator<XrSwapchain_T*> >::_M_erase(std::_Rb_tree_node<XrSwapchain_T*>*) [clone .isra.0]
  t std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t> >::_M_erase(std::_Rb_tree_node<facet::CCompositionClient::SwapchainImage_t>*) [clone .isra.0]
  t std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t> >::equal_range(facet::CCompositionClient::SwapchainImage_t const&)
@@ -25187,6 +25329,9 @@
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, CAnimSkeleton const*>, std::_Select1st<std::pair<unsigned long const, CAnimSkeleton const*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CAnimSkeleton const*> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, CAnimSkeleton const*> >*) [clone .isra.0]
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, CAnimSkeleton const*>, std::_Select1st<std::pair<unsigned long const, CAnimSkeleton const*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CAnimSkeleton const*> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, CAnimSkeleton const*> >, unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, CAnimSkeleton const*>, std::_Select1st<std::pair<unsigned long const, CAnimSkeleton const*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CAnimSkeleton const*> > >::_M_get_insert_unique_pos(unsigned long const&)
+ t std::_Rb_tree<unsigned long, std::pair<unsigned long const, CChaperoneUniverse>, std::_Select1st<std::pair<unsigned long const, CChaperoneUniverse> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CChaperoneUniverse> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, CChaperoneUniverse> >*)
+ t std::_Rb_tree<unsigned long, std::pair<unsigned long const, CChaperoneUniverse>, std::_Select1st<std::pair<unsigned long const, CChaperoneUniverse> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CChaperoneUniverse> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, CChaperoneUniverse> >, unsigned long const&)
+ t std::_Rb_tree<unsigned long, std::pair<unsigned long const, CChaperoneUniverse>, std::_Select1st<std::pair<unsigned long const, CChaperoneUniverse> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CChaperoneUniverse> > >::_M_get_insert_unique_pos(unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, CIOBufferCursor*>, std::_Select1st<std::pair<unsigned long const, CIOBufferCursor*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CIOBufferCursor*> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, CIOBufferCursor*> >*) [clone .isra.0]
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, COverlayViewResourceInfo*>, std::_Select1st<std::pair<unsigned long const, COverlayViewResourceInfo*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, COverlayViewResourceInfo*> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, COverlayViewResourceInfo*> >*) [clone .isra.0]
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, COverlayViewResourceInfo*>, std::_Select1st<std::pair<unsigned long const, COverlayViewResourceInfo*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, COverlayViewResourceInfo*> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, COverlayViewResourceInfo*> >, unsigned long const&)
@@ -25238,7 +25383,6 @@
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, std::_Select1st<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >*) [clone .isra.0]
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, std::_Select1st<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, std::_Select1st<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > > >::_M_get_insert_unique_pos(unsigned long const&)
- t std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, std::_Select1st<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > > >::find(unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, std::_Select1st<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > >*) [clone .isra.0]
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, std::_Select1st<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > >, unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, std::_Select1st<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > > > >::_M_get_insert_unique_pos(unsigned long const&)
@@ -25511,6 +25655,7 @@
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, true> > >::_M_deallocate_nodes(std::__detail::_Hash_node<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, true>*) [clone .isra.0]
  t std::__detail::_Map_base<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](XrViewConfigurationType const&)
  t std::__detail::_Map_base<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](XrViewConfigurationType const&)
+ t std::__detail::_Map_base<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](XrViewConfigurationType&&)
  t std::__detail::_Map_base<std::pair<int, int>, std::pair<std::pair<int, int> const, unsigned int>, std::allocator<std::pair<std::pair<int, int> const, unsigned int> >, std::__detail::_Select1st, vr::UndirectedEdgeEqual, vr::UndirectedEdgeHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::pair<int, int> const&)
  t std::__detail::_Map_base<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string&&)
  t std::__detail::_Map_base<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string const&)
@@ -25553,7 +25698,7 @@
  t std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
  t std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
  t std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
- t std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
  t std::ctype<char>::do_narrow(char, char) const
  t std::ctype<char>::do_widen(char) const
  t std::default_delete<CPoseUpdateResources>::operator()(CPoseUpdateResources*) const [clone .part.0]
@@ -25693,7 +25838,6 @@
  t std::vector<CActionFilter, std::allocator<CActionFilter> >::~vector()
  t std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::_M_default_append(unsigned long)
  t std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::~vector()
- t std::vector<CChaperoneUniverse, std::allocator<CChaperoneUniverse> >::~vector()
  t std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::_M_fill_insert(__gnu_cxx::__normal_iterator<CDriverManager::DriverDevice_t*, std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> > >, unsigned long, CDriverManager::DriverDevice_t const&)
  t std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> >::~vector()
  t std::vector<CGpuTiming::GpuTimestamps_t::Query_t, std::allocator<CGpuTiming::GpuTimestamps_t::Query_t> >::_M_default_append(unsigned long)
@@ -25711,8 +25855,6 @@
  t std::vector<OpResult, std::allocator<OpResult> >::reserve(unsigned long)
  t std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >::~vector()
  t std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::reserve(unsigned long)
- t std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >::vector(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
- t std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >::~vector()
  t std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> >::~vector()
  t std::vector<VRInputValue_t, std::allocator<VRInputValue_t> >::_M_default_append(unsigned long)
  t std::vector<ViveTracker, std::allocator<ViveTracker> >::~vector()
@@ -25787,8 +25929,9 @@
  t std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty> >::~vector()
  t std::vector<vr::HmdQuad_t, std::allocator<vr::HmdQuad_t> >::_M_default_append(unsigned long)
  t std::vector<vr::HmdQuad_t, std::allocator<vr::HmdQuad_t> >::operator=(std::vector<vr::HmdQuad_t, std::allocator<vr::HmdQuad_t> > const&)
+ t std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::reserve(unsigned long)
  t std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> >::_M_erase(__gnu_cxx::__normal_iterator<vr::VREvent_t*, std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> > >)
- t std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+ t std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
  t strcpy_safe(char*, unsigned long, char const*)
  t stricmp(char const*, char const*)
  t strnicmp(char const*, char const*, unsigned long)
@@ -25802,6 +25945,10 @@
  t sxr_wrap_xrBeginFrame(XrSession_T*, XrFrameBeginInfo const*) [clone .cold]
  t sxr_wrap_xrBeginSession(XrSession_T*, XrSessionBeginInfo const*)
  t sxr_wrap_xrBeginSession(XrSession_T*, XrSessionBeginInfo const*) [clone .cold]
+ t sxr_wrap_xrConvertTimeToTimespecTimeKHR(XrInstance_T*, long, timespec*)
+ t sxr_wrap_xrConvertTimeToTimespecTimeKHR(XrInstance_T*, long, timespec*) [clone .cold]
+ t sxr_wrap_xrConvertTimespecTimeToTimeKHR(XrInstance_T*, timespec const*, long*)
+ t sxr_wrap_xrConvertTimespecTimeToTimeKHR(XrInstance_T*, timespec const*, long*) [clone .cold]
  t sxr_wrap_xrCreateAction(XrActionSet_T*, XrActionCreateInfo const*, XrAction_T**)
  t sxr_wrap_xrCreateAction(XrActionSet_T*, XrActionCreateInfo const*, XrAction_T**) [clone .cold]
  t sxr_wrap_xrCreateActionSet(XrInstance_T*, XrActionSetCreateInfo const*, XrActionSet_T**)
@@ -25952,6 +26099,8 @@
  t sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*) [clone .cold]
  t sxr_xrBeginFrame(XrSession_T*, XrFrameBeginInfo const*)
  t sxr_xrBeginSession(XrSession_T*, XrSessionBeginInfo const*)
+ t sxr_xrConvertTimeToTimespecTimeKHR(XrInstance_T*, long, timespec*)
+ t sxr_xrConvertTimespecTimeToTimeKHR(XrInstance_T*, timespec const*, long*)
  t sxr_xrCreateAction(XrActionSet_T*, XrActionCreateInfo const*, XrAction_T**)
  t sxr_xrCreateAction(XrActionSet_T*, XrActionCreateInfo const*, XrAction_T**) [clone .cold]
  t sxr_xrCreateActionSet(XrInstance_T*, XrActionSetCreateInfo const*, XrActionSet_T**)
@@ -26326,16 +26475,19 @@
  t virtual thunk to CSharedImageLinux::GetVulkanSharingMode() const [clone .cold]
  t virtual thunk to CSharedImageLinux::GetWidth() const
  t virtual thunk to CSharedImageLinux::GetWidth() const [clone .cold]
+ t virtual thunk to CSharedImageLinux::HasComputeAccess() const
+ t virtual thunk to CSharedImageLinux::HasComputeAccess() const [clone .cold]
  t virtual thunk to CSharedImageLinux::HasDepthStencil() const
  t virtual thunk to CSharedImageLinux::ImportOGLImage(unsigned long)
  t virtual thunk to CSharedImageLinux::ImportVulkanImage(VkDevice_T*, unsigned long)
  t virtual thunk to CSharedImageLinux::IsDedicated() const
  t virtual thunk to CSharedImageLinux::IsDedicated() const [clone .cold]
  t virtual thunk to CSharedImageLinux::IsMappable() const
+ t virtual thunk to CSharedImageLinux::IsMappable() const [clone .cold]
  t virtual thunk to CSharedImageLinux::IsRenderable() const
  t virtual thunk to CSharedImageLinux::IsRenderable() const [clone .cold]
  t virtual thunk to CSharedImageLinux::PrepareForInterop()
- t virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, unsigned int, unsigned int const*)
+ t virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
  t virtual thunk to CSharedImageLinux::SetVulkanLayout(VkImageLayout)
  t virtual thunk to CSharedImageLinux::SetVulkanLayout(VkImageLayout) [clone .cold]
  t virtual thunk to CSharedImageLinux::SetVulkanQueueIndex(unsigned int)
@@ -26513,7 +26665,6 @@
  t void std::vector<CActionFilter, std::allocator<CActionFilter> >::_M_realloc_insert<CActionFilter const&>(__gnu_cxx::__normal_iterator<CActionFilter*, std::vector<CActionFilter, std::allocator<CActionFilter> > >, CActionFilter const&)
  t void std::vector<CAssertCallback*, std::allocator<CAssertCallback*> >::_M_realloc_insert<CAssertCallback* const&>(__gnu_cxx::__normal_iterator<CAssertCallback**, std::vector<CAssertCallback*, std::allocator<CAssertCallback*> > >, CAssertCallback* const&)
  t void std::vector<CBlockQueue::WriteEventInfo_t, std::allocator<CBlockQueue::WriteEventInfo_t> >::_M_realloc_insert<CBlockQueue::WriteEventInfo_t>(__gnu_cxx::__normal_iterator<CBlockQueue::WriteEventInfo_t*, std::vector<CBlockQueue::WriteEventInfo_t, std::allocator<CBlockQueue::WriteEventInfo_t> > >, CBlockQueue::WriteEventInfo_t&&)
- t void std::vector<CChaperoneUniverse, std::allocator<CChaperoneUniverse> >::_M_realloc_insert<CChaperoneUniverse const&>(__gnu_cxx::__normal_iterator<CChaperoneUniverse*, std::vector<CChaperoneUniverse, std::allocator<CChaperoneUniverse> > >, CChaperoneUniverse const&)
  t void std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::_M_realloc_insert<CDriverManager::DriverDevice_t>(__gnu_cxx::__normal_iterator<CDriverManager::DriverDevice_t*, std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> > >, CDriverManager::DriverDevice_t&&)
  t void std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::_M_realloc_insert<unsigned int&, vr::ITrackedDeviceServerDriver*&, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&>(__gnu_cxx::__normal_iterator<CDriverManager::DriverDevice_t*, std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> > >, unsigned int&, vr::ITrackedDeviceServerDriver*&, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
  t void std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> >::_M_realloc_insert<CDriverManager::HmdDriver_t const&>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, CDriverManager::HmdDriver_t const&)
@@ -26599,15 +26750,13 @@
  t void std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription> >::_M_realloc_insert<VkVertexInputAttributeDescription const&>(__gnu_cxx::__normal_iterator<VkVertexInputAttributeDescription*, std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription> > >, VkVertexInputAttributeDescription const&)
  t void std::vector<VkWriteDescriptorSet, std::allocator<VkWriteDescriptorSet> >::_M_realloc_insert<VkWriteDescriptorSet const&>(__gnu_cxx::__normal_iterator<VkWriteDescriptorSet*, std::vector<VkWriteDescriptorSet, std::allocator<VkWriteDescriptorSet> > >, VkWriteDescriptorSet const&)
  t void std::vector<VulkanVRRenderer::Texture*, std::allocator<VulkanVRRenderer::Texture*> >::_M_realloc_insert<VulkanVRRenderer::Texture* const&>(__gnu_cxx::__normal_iterator<VulkanVRRenderer::Texture**, std::vector<VulkanVRRenderer::Texture*, std::allocator<VulkanVRRenderer::Texture*> > >, VulkanVRRenderer::Texture* const&)
- t void std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> >::_M_realloc_insert<XrEnvironmentBlendMode>(__gnu_cxx::__normal_iterator<XrEnvironmentBlendMode*, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, XrEnvironmentBlendMode&&)
  t void std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties> >::_M_realloc_insert<XrExtensionProperties const&>(__gnu_cxx::__normal_iterator<XrExtensionProperties*, std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties> > >, XrExtensionProperties const&)
  t void std::vector<XrReferenceSpaceType, std::allocator<XrReferenceSpaceType> >::_M_realloc_insert<XrReferenceSpaceType>(__gnu_cxx::__normal_iterator<XrReferenceSpaceType*, std::vector<XrReferenceSpaceType, std::allocator<XrReferenceSpaceType> > >, XrReferenceSpaceType&&)
  t void std::vector<XrSwapchainImageOpenGLKHR, std::allocator<XrSwapchainImageOpenGLKHR> >::_M_realloc_insert<XrSwapchainImageOpenGLKHR const&>(__gnu_cxx::__normal_iterator<XrSwapchainImageOpenGLKHR*, std::vector<XrSwapchainImageOpenGLKHR, std::allocator<XrSwapchainImageOpenGLKHR> > >, XrSwapchainImageOpenGLKHR const&)
  t void std::vector<XrSwapchainImageVulkanKHR, std::allocator<XrSwapchainImageVulkanKHR> >::_M_realloc_insert<XrSwapchainImageVulkanKHR const&>(__gnu_cxx::__normal_iterator<XrSwapchainImageVulkanKHR*, std::vector<XrSwapchainImageVulkanKHR, std::allocator<XrSwapchainImageVulkanKHR> > >, XrSwapchainImageVulkanKHR const&)
  t void std::vector<XrVector2f, std::allocator<XrVector2f> >::_M_realloc_insert<XrVector2f>(__gnu_cxx::__normal_iterator<XrVector2f*, std::vector<XrVector2f, std::allocator<XrVector2f> > >, XrVector2f&&)
  t void std::vector<XrView, std::allocator<XrView> >::_M_realloc_insert<XrView>(__gnu_cxx::__normal_iterator<XrView*, std::vector<XrView, std::allocator<XrView> > >, XrView&&)
- t void std::vector<XrViewConfigurationType, std::allocator<XrViewConfigurationType> >::_M_realloc_insert<XrViewConfigurationType>(__gnu_cxx::__normal_iterator<XrViewConfigurationType*, std::vector<XrViewConfigurationType, std::allocator<XrViewConfigurationType> > >, XrViewConfigurationType&&)
- t void std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> >::_M_realloc_insert<XrViewConfigurationView const&>(__gnu_cxx::__normal_iterator<XrViewConfigurationView*, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, XrViewConfigurationView const&)
+ t void std::vector<XrViewConfigurationType, std::allocator<XrViewConfigurationType> >::_M_realloc_insert<XrViewConfigurationType const&>(__gnu_cxx::__normal_iterator<XrViewConfigurationType*, std::vector<XrViewConfigurationType, std::allocator<XrViewConfigurationType> > >, XrViewConfigurationType const&)
  t void std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*> >::_M_realloc_insert<amdgpu_bo*>(__gnu_cxx::__normal_iterator<amdgpu_bo**, std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*> > >, amdgpu_bo*&&)
  t void std::vector<bool*, std::allocator<bool*> >::_M_realloc_insert<bool*>(__gnu_cxx::__normal_iterator<bool**, std::vector<bool*, std::allocator<bool*> > >, bool*&&)
  t void std::vector<char const*, std::allocator<char const*> >::_M_realloc_insert<char const* const&>(__gnu_cxx::__normal_iterator<char const**, std::vector<char const*, std::allocator<char const*> > >, char const* const&)
@@ -26696,6 +26845,7 @@
  t void std::vector<vr::InputBindingInfo_t, std::allocator<vr::InputBindingInfo_t> >::_M_realloc_insert<vr::InputBindingInfo_t const&>(__gnu_cxx::__normal_iterator<vr::InputBindingInfo_t*, std::vector<vr::InputBindingInfo_t, std::allocator<vr::InputBindingInfo_t> > >, vr::InputBindingInfo_t const&)
  t void std::vector<vr::PathHandleDebugInfo_t, std::allocator<vr::PathHandleDebugInfo_t> >::_M_realloc_insert<vr::PathHandleDebugInfo_t const&>(__gnu_cxx::__normal_iterator<vr::PathHandleDebugInfo_t*, std::vector<vr::PathHandleDebugInfo_t, std::allocator<vr::PathHandleDebugInfo_t> > >, vr::PathHandleDebugInfo_t const&)
  t void std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::_M_realloc_insert<vr::PathRead_t const&>(__gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, vr::PathRead_t const&)
+ t void std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::_M_realloc_insert<vr::PathRead_t>(__gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, vr::PathRead_t&&)
  t void std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t> >::_M_realloc_insert<vr::PathWrite_t const&>(__gnu_cxx::__normal_iterator<vr::PathWrite_t*, std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t> > >, vr::PathWrite_t const&)
  t void std::vector<vr::PerInputTutorialActions_t, std::allocator<vr::PerInputTutorialActions_t> >::_M_realloc_insert<vr::PerInputTutorialActions_t const&>(__gnu_cxx::__normal_iterator<vr::PerInputTutorialActions_t*, std::vector<vr::PerInputTutorialActions_t, std::allocator<vr::PerInputTutorialActions_t> > >, vr::PerInputTutorialActions_t const&)
  t void std::vector<vr::PropertyRead_t, std::allocator<vr::PropertyRead_t> >::_M_realloc_insert<vr::PropertyRead_t const&>(__gnu_cxx::__normal_iterator<vr::PropertyRead_t*, std::vector<vr::PropertyRead_t, std::allocator<vr::PropertyRead_t> > >, vr::PropertyRead_t const&)
@@ -26806,6 +26956,8 @@
  t vr::CVROverlayInternalLatest::CVROverlayInternalLatest()
  t vr::CVROverlayInternalLatest::Cleanup()
  t vr::CVROverlayInternalLatest::CloseKeyboard()
+ t vr::CVROverlayInternalLatest::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t vr::CVROverlayInternalLatest::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*) [clone .cold]
  t vr::CVROverlayInternalLatest::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
  t vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int)
  t vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
@@ -26820,6 +26972,9 @@
  t vr::CVROverlayInternalLatest::GetNightModeEnabled(bool*)
  t vr::CVROverlayInternalLatest::GetNightModeEnabled(bool*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetNotificationPriority(char const*, unsigned int*)
+ t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long)
+ t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetPassthroughPortalEnabled()
  t vr::CVROverlayInternalLatest::GetRecommendedOverlayRenderQuality()
  t vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long)
  t vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long) [clone .cold]
@@ -26839,9 +26994,13 @@
  t vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) [clone .cold]
  t vr::CVROverlayInternalLatest::SendKeyboardDone()
  t vr::CVROverlayInternalLatest::SendKeyboardDone() [clone .cold]
+ t vr::CVROverlayInternalLatest::SendOverlayButtonPress(unsigned long, vr::EVRButtonId)
+ t vr::CVROverlayInternalLatest::SendOverlayButtonUnpress(unsigned long, vr::EVRButtonId)
  t vr::CVROverlayInternalLatest::SendOverlayClosed(unsigned long)
  t vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long, float)
  t vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long, float) [clone .cold]
+ t vr::CVROverlayInternalLatest::SetDeprecatedSystemOverlayTransformType(unsigned long)
+ t vr::CVROverlayInternalLatest::SetDeprecatedSystemOverlayTransformType(unsigned long) [clone .cold]
  t vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long)
  t vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long) [clone .cold]
  t vr::CVROverlayInternalLatest::SetKeyboardResultText(char const*)
@@ -26851,6 +27010,10 @@
  t vr::CVROverlayInternalLatest::SetNotificationPriority(char const*, unsigned int)
  t vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, EOverlayStereoscopy)
  t vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, EOverlayStereoscopy) [clone .cold]
+ t vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool)
+ t vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool) [clone .cold]
+ t vr::CVROverlayInternalLatest::SetSubviewPosition(unsigned long, int, int)
+ t vr::CVROverlayInternalLatest::SetSubviewPosition(unsigned long, int, int) [clone .cold]
  t vr::CVROverlayInternalLatest::SetToastOverlayRendererToThis()
  t vr::CVROverlayInternalLatest::SetToastOverlayRendererToThis() [clone .cold]
  t vr::CVROverlayInternalLatest::ToggleCameraRoomView()
@@ -26894,13 +27057,16 @@
  t vr::CVRSettingsLatest::~CVRSettingsLatest()
  t vr::CVRSteamPrivateLatest::BInit(CVRClient*)
  t vr::CVRSteamPrivateLatest::CVRSteamPrivateLatest()
+ t vr::CVRSteamPrivateLatest::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
  t vr::CVRSteamPrivateLatest::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
  t vr::CVRSteamPrivateLatest::GameActionTaskChange(unsigned int, char const*, char const*, char const*) [clone .cold]
+ t vr::CVRSteamPrivateLatest::GetSteamOverlayFeatureFlags()
  t vr::CVRSteamPrivateLatest::GetWebSharedSecret()
  t vr::CVRSteamPrivateLatest::MicrotxnFinished()
  t vr::CVRSteamPrivateLatest::OculusSDKAppStarted()
  t vr::CVRSteamPrivateLatest::QuitProcess(unsigned int)
  t vr::CVRSteamPrivateLatest::QuitSteamVR()
+ t vr::CVRSteamPrivateLatest::SetSubviewPosition(unsigned long, int, int)
  t vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int)
  t vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int) [clone .cold]
  t vr::CVRSteamPrivateLatest::ShouldSetAsOpenXrRuntime()
@@ -26989,7 +27155,7 @@
  t vr::IVRSharedImage::GetVulkanMemoryHandleType() const
  t vr::IVRSharedImage::ImportOGLImage(unsigned long)
  t vr::IVRSharedImage::ImportVulkanImage(VkDevice_T*, unsigned long)
- t vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, unsigned int, unsigned int const*)
+ t vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
  t vr::IVRSharedResource::CreateFD()
  t vr::IVRSharedSemaphore::GetOGLSemaphore()
  t vr::IVRSharedSemaphore::GetVulkanSemaphore() const
@@ -27002,12 +27168,22 @@
  t vr_internal::CVRPathHandle::CVRPathHandle(char const*)
  t vr_internal::CVRPathHandle::operator unsigned long() const
  t vr_internal::CVRPathHandle::~CVRPathHandle()
+ t vr_internal::CVRPathReads::IsValid() const
+ t vr_internal::CVRPathReads::NextBool(bool)
+ t vr_internal::CVRPathReads::NextDouble(double)
+ t vr_internal::CVRPathReads::NextFloat(float)
+ t vr_internal::CVRPathReads::NextInt32(int)
+ t vr_internal::CVRPathReads::NextString(char const*)
+ t vr_internal::CVRPathReads::NextUInt64(unsigned long)
+ t vr_internal::CVRPathReads::ReadBatch(unsigned long)
+ t vr_internal::CVRPathReads::ReadBatch(unsigned long, unsigned long const*, unsigned int)
+ t vr_internal::CVRPathReads::ReadBatch(unsigned long, vr_internal::CVRPathHandle const*, unsigned int)
  t vr_internal::GetResourceFullPath(std::string const&)
  t vr_internal::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
  t vr_internal::VRApplications()
  t vr_internal::VRApplicationsInternal()
  t vr_internal::VRBlockQueue()
- t vr_internal::VRCameraPassThruInternal()
+ t vr_internal::VRCameraPassthroughInternal()
  t vr_internal::VRChaperone()
  t vr_internal::VRChaperoneInternal()
  t vr_internal::VRChaperoneSetup()
@@ -27046,7 +27222,7 @@
  toupper
  typeinfo for int
  typeinfo for std::__codecvt_utf8_base<char32_t>
- typeinfo for std::__codecvt_utf8_base<wchar_t>
+ typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
  typeinfo for std::basic_streambuf<char, std::char_traits<char> >
  typeinfo for std::ctype<char>
  typeinfo for std::exception
@@ -27078,6 +27254,7 @@
  waitpid
  wcslen
  wcsstr
+ wmemcpy
  wordexp
  wordfree
  write

@@ -3,7 +3,7 @@
   --background-image: url("/dashboard/images/settings/background.png");
 
   --bordercolor: #004777;
-  --descriptiontext: #88ccf1;
+  --descriptiontext: #ffffff;
   --titletext: #ffffff;
   --disabledtext: #5b6169;
   --text-color: #ffffff;
@@ -17,56 +17,55 @@
   --buttonhover: #586170;
 
   --pageheaderbottomborder: #476288;
-  --pagetitlebackground: #324b6d;
+  --pagetitlebackground: #3d4450;
   --modalheaderbottomborder: rgb(139, 129, 122);
 
-  --modalbackground: #161c2c;
+  --modalbackground: #24272d;
   --bindinglistheaders: lightgray;
   --bindinglistdetails: lightgray;
   --bindingsourceheader: #ffffff;
-  --sourcemodegroupbackground: #1e2230;
-  --sourcemodehover: #253b5a;
-  --bindingmodeedit: #13335f;
-  --chordbindingsetbackground: #324b6d;
-  --chordbindingrowbackground: #1f3452;
+  --sourcemodegroupbackground: #24272d;
+  --sourcemodehover: #586170;
+  --bindingmodeedit: #24272d;
+  --chordbindingsetbackground: #24272d;
+  --chordbindingrowbackground: #586170;
 
   --tabborderbottom: rgb(91, 82, 77);
   --tabborderbottomtab: rgb(127, 117, 112);
   --tabborderbottomselected: rgb(86, 142, 172);
-  --tabbackground: #1f3452;
-  --tabbackgroundselected: #2978a0;
-  --tabbackgroundhovered: #2f7091;
+  --tabbackground: #3d4450;
+  --tabbackgroundselected: #24272d;
+  --tabbackgroundhovered: #586170;
 
-  --backbuttonbackground: #4a6c9b;
-  --backbuttonbackgroundhover: #307fa7;
+  --backbuttonbackground: #586170;
+  --backbuttonbackgroundhover: #3d4450;
   --backbuttonborder: rgb(130, 122, 116);
 
-  --poseactionsbackground: #1f3452;
+  --poseactionsbackground: #24272d;
   --poseactiontitle: #ffffff;
-  --poseactionlistentry: #31496b;
+  --poseactionlistentry: #586170;
 
   --button-fade-time: 0.15s;
   --loading-fade-time: 0.3s;
   --controller-image-margin: 2rem;
 
-  --warningbackground: rgb(179, 68, 40);
-  --warningbackgroundselected: rgb(212, 93, 63);
-  --errorbackground: rgb(134, 65, 46);
+  --warningbackground: rgb(145, 123, 24);
+  --warningbackgroundselected: rgb(192, 163, 31);
+  --errorbackground: rgb(185, 58, 23);
 
   --pagecontenttoppadding: 1rem;
 
   --bindinglistcurrentsectionborder: rgb(25, 90, 116);
-  --bindinglistdetailsbackground: #1c2736;
-  --bindinglistdetailsborder: #354458;
-  --controllertypebackground: #0e111d;
+  --bindinglistdetailsbackground: #24272d;
+  --controllertypebackground: #24272d;
 
-  --inputbordercolor: rgb(86, 142, 172);
-  --inputbackgroundcolor: rgb(12, 47, 61);
+  --inputbordercolor: lightgray;
+  --inputbackgroundcolor: #3d4450;
   --inputtextcolor: rgb(255, 255, 255);
   --inputborderradius: 0.1rem;
   --inputfontsize: 1.2rem;
-  --scrollbarthumb: #88ccf1;
-  --scrollbarbackground: #1f345270;
+  --scrollbarthumb: #586170;
+  --scrollbarbackground: #24272d;
 
   --scrollbar-width: 1.3rem;
   --scrollbar-border-width: 0.45rem;
@@ -446,9 +445,8 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
   margin: var(--dashboard-control-margin);
   padding: var(--dashboard-control-padding);
   background: var(--buttondefault);
-  border-radius: 2px;
+  border-radius: var(--settings-control-inner-border-radius);
   box-shadow: none;
-  border: 1px solid var(--bordercolor);
   align-self: center;
   transition-property: background;
   transition-timing-function: ease-out;

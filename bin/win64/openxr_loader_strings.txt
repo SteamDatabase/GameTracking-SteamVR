@@ -42,7 +42,6 @@
  was not found
  with error 
 !hn7!
-#uRzF^
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -53,12 +52,10 @@
 (D$ H
 (D$ f
 (f*^[0
-(q=Z!a
 (t$ 2
 (t$ H
 (t$PL
 (unknown)
-),El8[
 )D$ L
 )t$ H
 +Xt@(
@@ -89,12 +86,12 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0x1fce4948@@
-.?AVDebuggerLoaderLogRecorder@?A0x1fce4948@@
+.?AVDebugUtilsLogRecorder@?A0xe2804085@@
+.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
-.?AVOstreamLoaderLogRecorder@?A0x1fce4948@@
+.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@
@@ -166,7 +163,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503214643Z0/
+230629195129Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -180,6 +177,7 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5Aw3~
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -190,7 +188,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-:j)b]L
 <*J=)
 <0:08
 =rIQU
@@ -529,8 +526,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-QzUWD
-RSDS+D
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -644,6 +639,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
+Yb X23
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -732,7 +728,7 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 cU	F9
 collectComments
 d$ UAVAWH
@@ -798,6 +794,7 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
+k>9X>Zo
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -999,6 +996,7 @@ xrWaitSwapchainImage
 |$xH;
 |$xIi
 |Lu?c
+}@uBfi
 }LuHO
 ~+fff
 ~qj#k"

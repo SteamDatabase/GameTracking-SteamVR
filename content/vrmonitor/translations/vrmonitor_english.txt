@@ -192,7 +192,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR Developer Support"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks Developer Support"
 "MenuAction_CreateSystemReport" "Create System Report"
-"MenuAction_ResetSeatedPosition" "Reset Seated Position"
+"MenuAction_Recenter" "Recenter"
 "MenuAction_SystemReportViewer" "System Report Viewer"
 "MenuAction_DisplayFrameTiming" "Advanced Frame Timing"
 "MenuAction_RecordTrackingData" "Record Tracking Data"

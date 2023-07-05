@@ -8,6 +8,7 @@
 	!s99
 	<bu 
 	@81t/@8q
+ !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
  -SERVICE_EXPLORE
@@ -31,6 +32,7 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
 !hn7!
+%!;KY&
 %%.%dg
 %2.2X
 %8.8X
@@ -77,6 +79,9 @@
 %s: WriteFile failed! (%s)
 ' is not a number.
 ',=?k
+'LTrK
+((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
@@ -132,9 +137,9 @@
 .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$collate@D@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCHTCViveLinkClient@@
 .?AVException@Json@@
 .?AVIBaseStationWireless@@
@@ -225,7 +230,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503215008Z0/
+230629194801Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -252,9 +257,8 @@
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
-8L$4tMH
+8L$4tNH
 8_^][
-8u,oF
 9\u-H
 9\u4H
 9sdu	@8s
@@ -269,6 +273,7 @@
 ======================
 ==============================
 => Entering Context
+=j(pEa
 =rIQU
 >"t H
 >"t-H
@@ -383,8 +388,8 @@
 @UWAVAWH
 @UWAVH
 @WAVAWH
+@sWNn
 A valid JSON document must be either an array or an object value.
-A!{P-
 A;A A
 A]A\_[]
 A]A\_]
@@ -704,7 +709,6 @@ K32EnumProcesses
 K32GetModuleBaseNameA
 K32GetProcessImageFileNameA
 KERNEL32.dll
-KRwBkh
 K}*n:	
 L$ H;
 L$ L;
@@ -737,6 +741,7 @@ L;M8r
 L;gHu
 L?n(Zy&
 LHB-DFU
+LH~|S
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -806,6 +811,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS:
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -817,7 +823,7 @@ RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 Running
-S	gs<
+S.2e|.
 S0Q0O
 SA|X=G
 SCAN -NAME "%s" -T %X
@@ -1076,7 +1082,6 @@ Zipfile is corrupt or not a zipfile
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
 \u=H;
-]C,lM
 ]J<0"0i3
 ]g@8yhu
 ]gfff
@@ -1145,7 +1150,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 cU	F9
 calloc
 cntrl
@@ -1161,6 +1166,7 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+fD9&u
 fD9>uF
 false
 fclose
@@ -1207,6 +1213,7 @@ invalid string position
 invalid vector<T> subscript
 invalid window size
 isxdigit
+i~##].P
 jj@0HK4
 k0i0$
 l$ H;
@@ -1214,7 +1221,6 @@ l$ H=
 l$ VWATAVAW
 l$ VWAVH
 l$ VWAWH
-l$@H;
 l$@I+
 l$PI+
 l$PM9n
@@ -1336,22 +1342,21 @@ xdigit
 {un'%
 {x\u!H
 {|?uWH
+|$ ATAUAVAWH
 |$ ATAUAWH
 |$ ATAVAWH
 |$ AVH
-|$ AVL
 |$ E3
 |$ UATAUAVAWH
 |$ UH
-|$(A^
 |$(H;
 |$0E3
 |$0HcH
-|$8A_A^A\
 |$8E3
 |$8H;
-|$@E3
+|$@A_A^A]A\
 |$A:t
+|$HE3
 |$HH;
 |$HH=
 |$HL;
@@ -1362,5 +1367,6 @@ xdigit
 |$xH;
 |Lu?c
 }LuHO
+~3A.~@4
 ~qj#k"
 ~t&LN

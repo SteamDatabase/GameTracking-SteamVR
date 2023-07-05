@@ -716,6 +716,10 @@ body {
 	font-style: italic;
 }
 
+.SettingsItemValueLabel + hr {
+	margin-top: 0.5rem;
+}
+
 .SettingsItemValueLabel.Fixed {
 	max-width: 26rem;
 	text-align: left;

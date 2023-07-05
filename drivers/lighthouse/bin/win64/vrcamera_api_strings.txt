@@ -31,6 +31,7 @@
  H3E H3E
  Height: 
  Width: 
+ f'MQ
  s2E3
  sIE3
 !T$(H!T$ 
@@ -44,7 +45,6 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&O;<f
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
@@ -87,6 +87,7 @@ $< t6<$t,<+t"<vt
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
 ,t0D9J0v*L
+.%rIW
 .00cfg
 .8\$!t.9\
 .?AUIAMovieSetup@@
@@ -379,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 220921000000Z
-230503214643Z0/
+230629194737Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1123,6 +1124,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDSD/
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1376,7 +1378,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 cU	F9
 calloc
 cntrl
@@ -1670,6 +1672,7 @@ vrcamera_api.dll
 w(HcODI
 wcsnlen
 wcstoul
+wk)@[^
 wrong protocol type
 www.digicert.com1!0
 www.digicert.com1$0"
@@ -1716,7 +1719,6 @@ yH;YXtl
 |$rfD
 |Lu?c
 }LuHO
-}U3B5-
 ~`D8I!t-
 ~qj#k"
 ~t&LN

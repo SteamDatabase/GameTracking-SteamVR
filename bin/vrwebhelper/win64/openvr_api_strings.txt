@@ -33,7 +33,7 @@
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- D;5J
+ D;5:
  D;j0u
  H3E H3E
  Type Descriptor'
@@ -95,6 +95,7 @@ $iMBm
 (t$`L
 (t$pL
 (uEKw
+(xd<P
 (|$ H
 (|$0H
 (|$0I
@@ -136,7 +137,6 @@ $iMBm
 -Infinity
 -\!]N=
 -uKI;
-.,e}!
 ..om?
 .00cfg
 .3=}%
@@ -179,7 +179,7 @@ $iMBm
 .?AV?$codecvt@DDU_Mbstatet@@@std@@
 .?AV?$codecvt@GDU_Mbstatet@@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$collate@D@std@@
 .?AV?$collate@G@std@@
 .?AV?$collate@_W@std@@
@@ -216,7 +216,7 @@ $iMBm
 .?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
 .?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
 .?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCacheLocalScheduleGroup@details@Concurrency@@
 .?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
 .?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
@@ -360,6 +360,9 @@ $iMBm
 .xdata$x
 /2GG>!B
 />58d%
+/L-)c}@
+/user/ankle/left
+/user/ankle/right
 /user/camera
 /user/chest
 /user/elbow/left
@@ -374,6 +377,8 @@ $iMBm
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/user/wrist/left
+/user/wrist/right
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -411,11 +416,10 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-230503214920Z0/
+230629194714Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Ubzo
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -439,6 +443,7 @@ $iMBm
 700PP
 700WP
 70503
+73i_TP
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8*u;I
 8-uCH
@@ -454,6 +459,7 @@ $iMBm
 8G	utH
 8H;^XtB
 8HtKH
+8Np\a<We
 8T$0u
 8T$Ht
 8\$0u`H
@@ -839,7 +845,6 @@ D9d$$u
 D9g@~2Ic
 D9h(uiE
 D9k(u
-D;=2$
 D;T$4
 D;d$$A
 D;d$$u
@@ -1014,14 +1019,16 @@ H3\$HH
 H97uWH
 H98t%H
 H99u{
-H9='V	
-H9=3a	
-H9=CP	
-H9=SI	
-H9=SU	
-H9=_L	
-H9=_Q	
-H9=k\	
+H9='G	
+H9=+T	
+H9=?N	
+H9=CV	
+H9=C[	
+H9=OS	
+H9=S[	
+H9=W\	
+H9=cJ	
+H9=sC	
 H9A u
 H9Ahs
 H9D$@u
@@ -1071,7 +1078,6 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 H[><y5
 H_^[]
-Hc-/0
 Hc9;q
 Hc;HcK
 HcC H
@@ -1191,7 +1197,6 @@ L$HHc
 L$PH3
 L$XE3
 L$XH3
-L$ks]
 L$pD9c
 L$pE3
 L$pH3
@@ -1201,6 +1206,7 @@ L(;E:
 L(<A:
 L+t$0
 L9"u&
+L9-O{
 L9L$(D
 L9`8u'L
 L9l$0
@@ -1238,7 +1244,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 LrvD)O
 M H1E
-M(f95
+M(f95x
 M98u/
 MB(iVR
 MM/dd/yy
@@ -1255,7 +1261,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
-N.[U+
 N3`d?
 N>O=I9
 NAN(IND)
@@ -1289,7 +1294,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDSc
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1409,7 +1413,6 @@ UVWAUAWH
 UVWAVAWH
 UWATAVAWH
 UWAVH
-UfJbw]*
 UmsThreadYield
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
@@ -1881,7 +1884,7 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -1950,6 +1953,7 @@ fD9 t
 fD9 tMH
 fD9 u
 fD9$Hu
+fD9&u
 fD9,Au
 fD90t
 fD91u
@@ -2057,7 +2061,6 @@ l$4E;C
 l$4H9u
 l$4L9}
 l$8E3
-l$@H;
 l$HA_A^A]A\_^
 l$PA_A^A]A\_^
 l$PE;C
@@ -2073,7 +2076,6 @@ m0k0$
 map/set<T> too long
 message size
 n03>Pu
-nD8-.
 n]?iJ
 nan(ind)
 nan(snan)
@@ -2296,7 +2298,6 @@ vrserver internal error (124)
 v}`[>
 w(HcODI
 wFHcN
-wIY](W
 wXJR*
 wrong protocol type
 www.digicert.com1!0
@@ -2332,10 +2333,10 @@ zwom}
 {ZLjF5jE5zZK
 {^5#W-
 {un'%
+|$ ATAUAVAWH
 |$ ATAVAWH
 |$ AUAVAWH
 |$ AVH
-|$ AVL
 |$ D!
 |$ E2
 |$ E3
@@ -2353,11 +2354,11 @@ zwom}
 |$4H9]
 |$4H9u
 |$8;3
-|$8A_A^A\
 |$@-D
 |$@-H
 |$@-u
-|$@E3
+|$@A_A^A]A\
+|$HE3
 |$HE;
 |$HH;
 |$HH=

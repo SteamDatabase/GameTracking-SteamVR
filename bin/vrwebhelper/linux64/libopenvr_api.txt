@@ -51,16 +51,16 @@
  b CLog::s_mutex
  b CLog::s_pInstance
  b GetIDForVRInitError(vr::EVRInitError)::buf
- b UTF16to8(wchar_t const*)::s_converter
- b UTF8to16(char const*)::s_converter
+ b UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b UTF8to16(std::string const&)::s_convert
  b VR_RuntimePath::rchBuffer
  b any_objects_registered
  b completed.0
  b dwarf_reg_size_table
  b frame_hdr_cache
  b frame_hdr_cache_head
- b guard variable for UTF16to8(wchar_t const*)::s_converter
- b guard variable for UTF8to16(char const*)::s_converter
+ b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b guard variable for UTF8to16(std::string const&)::s_convert
  b marker.4
  b object_mutex
  b once_regsizes.0
@@ -106,7 +106,7 @@
  d typeinfo for Json::StyledWriter
  d typeinfo for Json::Writer
  d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  d vr::g_mutexSystem
  d vtable for Json::BuiltStyledStreamWriter
  d vtable for Json::CharReaderBuilder
@@ -121,7 +121,7 @@
  d vtable for Json::StyledWriter
  d vtable for Json::Writer
  d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  dl_iterate_phdr
  dladdr
  dlclose
@@ -182,7 +182,7 @@
  r typeinfo name for Json::StyledWriter
  r typeinfo name for Json::Writer
  r typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- r typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ r typeinfo name for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  readlink
  rename
  scandir
@@ -203,14 +203,14 @@
  std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
- std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
- std::__codecvt_utf8_base<wchar_t>::do_encoding() const
- std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
- std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
- std::__codecvt_utf8_base<wchar_t>::do_max_length() const
- std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_always_noconv() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_encoding() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_max_length() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
  std::__throw_bad_alloc()
  std::__throw_bad_cast()
  std::__throw_bad_function_call()
@@ -232,6 +232,7 @@
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
@@ -866,11 +867,13 @@
  t TokenizeString(std::string const&, char) [clone .cold]
  t TrimTrailingWhitespace(std::string const&)
  t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+ t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&) [clone .cold]
  t UTF16to8(wchar_t const*)
  t UTF16to8(wchar_t const*) [clone .cold]
  t UTF8to16(char const*)
  t UTF8to16(char const*) [clone .cold]
  t UTF8to16(std::string const&)
+ t UTF8to16(std::string const&) [clone .cold]
  t Uint64ToString(unsigned long)
  t VR_GetGenericInterface.cold
  t VR_GetRuntimePath.cold
@@ -999,7 +1002,7 @@
  t std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
  t std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
  t std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
- t std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
  t std::ctype<char>::do_widen(char) const
  t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_default_append(unsigned long)
  t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>) [clone .isra.0]
@@ -1014,7 +1017,7 @@
  t std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
  t std::vector<std::string, std::allocator<std::string> >::~vector()
  t std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)
- t std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+ t std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
  t strcpy_safe(char*, unsigned long, char const*)
  t stricmp(char const*, char const*)
  t strnicmp(char const*, char const*, unsigned long)
@@ -1043,7 +1046,7 @@
  tolower
  toupper
  typeinfo for std::__codecvt_utf8_base<char32_t>
- typeinfo for std::__codecvt_utf8_base<wchar_t>
+ typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
  typeinfo for std::exception
  unlink
  unsetenv
@@ -1058,3 +1061,4 @@
  vtable for std::basic_streambuf<char, std::char_traits<char> >
  vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
  wcslen
+ wmemcpy

@@ -5,6 +5,7 @@
   "resource_root" : "htc",
   "driver_name" : "lighthouse",
   "legacy_binding" :  "{htc}/input/legacy_bindings_vive_controller.json",
+  "remapping" :  "{htc}/input/vive_controller_remapping.json",
   "input_bindingui_mode" : "controller_handed",
   "should_show_binding_errors" :  true,
   "input_bindingui_left" :

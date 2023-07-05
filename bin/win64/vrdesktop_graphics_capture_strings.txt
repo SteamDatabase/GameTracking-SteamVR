@@ -77,8 +77,8 @@
 .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCDesktopManagerThread@@
 .?AVCDesktopView@@
 .?AVCNonCopyable@@
@@ -134,7 +134,6 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.sB3I
 .text
 .text$di
 .text$mn
@@ -145,6 +144,8 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/user/ankle/left
+/user/ankle/right
 /user/camera
 /user/chest
 /user/elbow/left
@@ -159,6 +160,8 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/user/wrist/left
+/user/wrist/right
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -175,9 +178,8 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503215213Z0/
+230629200146Z0/
 241009235959Z0a1
-2;|kFr
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -201,7 +203,6 @@
 8_^][
 9D$xu
 9D$|toH
-;^g]@
 < t+<
 <*J=)
 </u#H
@@ -337,7 +338,6 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
-CQ2g,O
 CT$ H
 CT$(L
 CT$0H
@@ -664,8 +664,8 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS~7
 RaiseException
+RbHX)
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -725,7 +725,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-U@8@X
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -795,6 +794,7 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
+Y[@>B
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -889,11 +889,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cU	F9
 cs_cs
 czech
@@ -917,6 +917,8 @@ es_es
 es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+f)09}If
+fD9&u
 fF94@u
 false
 fffffff
@@ -965,7 +967,6 @@ korean
 l$ H;
 l$ H=
 l$8E3
-l$@H;
 l$PM9n
 latam
 list<T> too long
@@ -1010,6 +1011,7 @@ romanian
 ru_ru
 running
 russian
+s*"y\Q
 schinese
 shcore.dll
 shutdown
@@ -1081,17 +1083,17 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
+zs5Ju
 {un'%
+|$ ATAUAVAWH
 |$ ATAVAWH
 |$ AVH
-|$ AVL
 |$ UATAUAVAWH
 |$ UH
-|$(A^
 |$0H9
-|$8A_A^A\
-|$@E3
+|$@A_A^A]A\
 |$@I;
+|$HE3
 |$HH;
 |$HH=
 |$PL9~

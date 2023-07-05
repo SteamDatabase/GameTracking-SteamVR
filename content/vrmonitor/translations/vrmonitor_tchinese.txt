@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR 開發者支援"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks 開發者支援"
 "MenuAction_CreateSystemReport" "建立系統報告"
-"MenuAction_ResetSeatedPosition" "重設就座狀態"
+"MenuAction_Recenter" "重設居中狀態"
 "MenuAction_SystemReportViewer" "系統報告檢視器"
 "MenuAction_DisplayFrameTiming" "進階影格時序"
 "MenuAction_RecordTrackingData" "記錄定位資料"
@@ -264,7 +264,7 @@
 "Settings_EnableDashboard" "啟用 VR 主控台"
 "Settings_ArcadeMode" "啟用大型機台模式"
 "Settings_PauseOnStandby" "當頭戴顯示器閒置時暫停彩現"
-"Settings_DebugInputBindings" "在輸入按鍵配置使用者介面中啟用偵錯選項"
+"Settings_DebugInputBindings" "在輸入按鍵配置介面中啟用偵錯選項"
 "Settings_DoNotFadeToGrid" "應用程式當機時，不淡出為方格"
 
 "Settings_ShowPlaylistMenu" "顯示執行清單功能表"

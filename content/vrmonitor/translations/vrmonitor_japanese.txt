@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVRデベロッパーサポート"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorksデベロッパーサポート"
 "MenuAction_CreateSystemReport" "システムレポートを作成"
-"MenuAction_ResetSeatedPosition" "着席位置をリセット"
+"MenuAction_Recenter" "中央に戻す"
 "MenuAction_SystemReportViewer" "システムレポートビューア"
 "MenuAction_DisplayFrameTiming" "フレームタイミングの詳細"
 "MenuAction_RecordTrackingData" "追跡データを記録"

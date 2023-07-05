@@ -5,7 +5,6 @@
 !hn7!
 ',=?k
 (f*^[0
-(izY<
 +Xt@(
 +o'q)}
 ,W5y+
@@ -57,6 +56,8 @@
 .text$yd
 .xdata
 .xdata$x
+/user/ankle/left
+/user/ankle/right
 /user/camera
 /user/chest
 /user/elbow/left
@@ -71,6 +72,8 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/user/wrist/left
+/user/wrist/right
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -80,8 +83,9 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503215133Z0/
+230629195045Z0/
 241009235959Z0a1
+2=iri{?
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -102,7 +106,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-;R^b\
+:OAkw
 <*J=)
 <0:08
 =rIQU
@@ -117,7 +121,6 @@
 AuthD
 Bellevue1
 CT$0H
-CqX7%
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -126,15 +129,13 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
-G!6_B
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 H SWH
 H93t	H
-H9=*R
+H9=yQ
 HmdDriverFactory
-IMpQ+
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -163,22 +164,20 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Mpm-o
 NPH9Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS;.#Z
-RZB[Qd
+R.>?l#
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+Rxj*^
 S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
-U?-|v
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -194,7 +193,6 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
-_<e48
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -227,7 +225,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 cU	F9
 displayFrequency
 driver_null
@@ -239,7 +237,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-f #GA;
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -253,8 +250,10 @@ malloc
 memcpy
 memmove
 memset
+mlXp23E
 modelNumber
 ntelD
+q/cgp
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -264,7 +263,6 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
-tLfX?
 v=Y]Bv
 vector<T> too long
 windowHeight
@@ -277,6 +275,5 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-~5#:\"^
 ~qj#k"
 ~t&LN

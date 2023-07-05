@@ -58,6 +58,17 @@
 	box-shadow: var(--settings-control-box-active-shadow);
 }
 
+.DashboardMain .DashboardActionGlyph
+{
+	height: 100%;
+	display: block;
+}
+
+.ButtonControlFixedHeight
+{
+	height: 64px;
+}
+
 /* Activity Spinner */
 
 .ActivitySpinner {
@@ -610,6 +621,24 @@ div.BindingCalloutModifierIcon
 	transition: opacity 1.0s;
 }
 
+
+.ZeroBorderContainer {
+	visibility: visible;
+	border-radius: 50px;
+	background: rgba(20, 20, 20, 0.5);
+	transform: scale(1.0);
+	padding: 0px;
+}
+/*
+.ZeroBorderContainer.ScalingOut {
+	transform: scale(0.0);
+	transition : transform 1.0s;
+}
+.ZeroBorderContainer.ScalingIn {
+	transform: scale(1.0);
+	transition : transform 1.0s;
+}*/
+
 .IPDSettingTextDesc
 {
 	font-size: 20px;
@@ -1081,6 +1110,27 @@ div.BindingCalloutModifierIcon
 		radial-gradient(ellipse at top center, rgba(255, 255, 255, 0.08) 10%, rgba(255, 255, 255, 0) 80%),
 		linear-gradient(to bottom, black 0%, rgba(0,0,0,0.1) 0%),
 		radial-gradient(ellipse at top left, #42454c, #25282e);
+}
+
+.GrabHandleBar {
+	width: 700px;
+	height: 10px;
+	background-color: var(--dashboard-control-bar-button-color-b);
+	border-radius: 20px;
+	transition: background-color var(--settings-control-hover-fade-duration);
+}
+
+.GrabHandleButton {
+	pointer-events: all;
+	padding: 30px;
+}
+
+.GrabHandleButton:hover .GrabHandleBar {
+	background-color: #ffffff;
+}
+
+.GrabHandleBar.ForceActive {
+	background-color: #ffffff;
 }
 
 .DashboardMain .PaginatedCarousel
@@ -2382,7 +2432,7 @@ div.BindingCalloutModifierIcon
 .DashboardMain .SteamLogo img
 {
 	height: 1.5em;
-	filter: brightness(80%);
+	filter: invert(100%) sepia(40%) saturate(2%) hue-rotate(196deg) brightness(105%) contrast(101%);
 }
 
 .DashboardMain .ControlBarTray .SliderContainer, .DashboardMain .OverlayControlBar .SliderContainer

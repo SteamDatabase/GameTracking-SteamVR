@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Підтримка розробників SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Підтримка розробників Steamworks"
 "MenuAction_CreateSystemReport" "Створити системний звіт"
-"MenuAction_ResetSeatedPosition" "Скинути місце сидіння"
+"MenuAction_Recenter" "Відцентрувати"
 "MenuAction_SystemReportViewer" "Переглядач системних звітів"
 "MenuAction_DisplayFrameTiming" "Розширений розподіл кадрів"
 "MenuAction_RecordTrackingData" "Записувати дані відстеження"

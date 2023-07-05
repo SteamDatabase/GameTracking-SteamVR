@@ -68,12 +68,11 @@
 .tls$ZZZ
 .xdata$x
 0 0$0(0H0L0t0
-0 040<0D0L0P0T0\0p0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
-0"121<1F1O1b1n1~1
 0%0-02080@0H0M0S0[0c0h0n0v0~0
-0)030Q0]0c0r0{0
 0+0-4D4
+0,040<0D0H0L0T0h0
+0J0T0^0i0s0
 0w0c1
 0}0i1
 1	3l364
@@ -81,10 +80,10 @@
 1!1J2
 1"1'1,1A1F1K1P1U1Z1_1d1i1n1s1x1}1
 1$1(1,1014181<1@1D1H1h1l1
+1%1*1C1H1U1
+1%101=1b1r1|1
 1(2L2x2
 130801120000Z
-1W1_1
-2 2D2]2
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 2&2.23292A2I2N2T2\2d2i2o2w2
 210429000000Z
@@ -92,16 +91,18 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230503214930Z0/
+230629194853Z0/
 241009235959Z0a1
-2=2C2
+2:2@2N2}2
 2>4~4
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2N2`2
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3'313;3H3R3X3_3c3i3s3}3
 3)333=3G3Q3[3e3o3y3
+3-3A3T3
 311109235959Z0b1
 331121235959Z0F1
 360428235959Z0i1
@@ -111,8 +112,8 @@
 3<3X3x3
 3T4p4
 3mq+<
-4!4*4/484L4T4Z4h4t4
 4#4-474A4K4Z4`4t4
+4$4*4/454@4F4U4\4a4j4o4x4
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4,40484P4`4d4t4x4|4
@@ -130,19 +131,17 @@
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6!7*717j7
-6$6>6
 6*f(_
 6,6<6@6P6T6X6`6x6
 696r6
 6I]Dc
 6OB,n_
+6^6d6~6
 7!7&747C7L7U7^7c7h7o7
+7#7)737J7{7
 7(7,7<7@7H7`7p7t7
 7+737;7
-7/~d~0
 70503
-788A8I8
-7;7X7p7~7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8'8-878A8K8U8_8l8u8
 8,80888P8`8d8t8x8|8
@@ -156,50 +155,50 @@
 9	9)9n9t9
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 9!9+999}9
+9"90999L9-:M:W:r:
 9$919C9M9W9b9m9z9
 9$?(?,?0?4?8?<?@?D?H?h?l?p?t?x?|?
-9::V:[:e:v:
+93:z:
 9A9X9t9
 9R:e:z:
 9X;h;
 :$:-:6:?:D:I:P:`:
 :(:U:
 :-:6:?:H:M:R:Y:
-:2:A:^:
 :6;U;
+;!;*;7;O;
 ;$;-;2;7;>;C;O;q;
 ;(;1;6;;;B;R;
-;I;R;c;o;{;
 ;j<q<
 <!<9<O<X<
 <#<(<-<4<y<
+<$<)<<<T<]<h<o<
 <%<.<7<<<A<H<
 <'<1<;<E<O<Y<c<m<w<
-<(</<O<U<[<a<g<m<t<{<
 <*J=)
 <0:08
-<0=P=
 <F>Q>l>u>
 <Z=b=
-=#=2=8=>=H=V=r=
-=,=P=\=d=
-=4=R=
+= =*=:=J=Z=c=r=x=~=
+= >/>B>N>^>o>
+=$=H=T=\=|=
+=9>?>T>]>
+=@=V=t=
 =P>h>l>
 =]=f=o=x=}=
 =j)h8
 =rIQU
-> >&>,>2>8>>>D>J>P>V>\>b>h>n>t>z>
+>$>*>0>6><>B>H>N>T>Z>`>f>l>r>x>~>
 >$>,>1>7>?>G>L>R>Z>b>g>m>u>}>
->/>E>\>q>x>~>
+>,>P>\>d>
 >0<0:
 >2>T>^>g>r>x>~>
->4>X>d>l>
+>8?E?l?t?
 >Mp$d
->`>n>
-?!?1?L?g?r?|?
+?!?1?A?Q?a?q?
+?"?0?<?
 ?$?*?2?:???E?M?U?Z?`?h?p?u?{?
-?,?4?M?
-?4?@?H?t?x?
+?,?8?@?l?p?
 ?:?m?v?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
@@ -208,7 +207,6 @@
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
-A6p1Z~A
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -342,7 +340,6 @@ Y__^[
 [OculusDirect] ovr_SubmitFrame - End
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
-^zA{+9
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -380,6 +377,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+a]LE"
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -388,7 +386,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 cU	F9
 camera
 d3d11.dll
@@ -403,11 +401,10 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 invalid string position
+j(W5=N
 jdjdh
 jj@0HK4
 k0i0$
-kQkT@1\F
-l$-#t
 m0k0$
 malloc
 map/set<T> too long
@@ -472,6 +469,7 @@ u7j8Q
 uCVj@
 v=Y]Bv
 vector<T> too long
+vn_2i
 www.digicert.com1!0
 www.digicert.com1$0"
 {ERR-001}
@@ -486,6 +484,5 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
-~Hj[y
 ~qj#k"
 ~t&LN

@@ -1,0 +1,948 @@
+{
+    "automap_templates" : [
+        {
+            "fromType" : "button",
+            "toType" : "button",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters_mode": "copy"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "trigger",
+            "toType" : "trigger",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_click",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "force",
+            "toType" : "force",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_click",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "trackpad",
+            "toType" : "trackpad",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "joystick",
+            "toType" : "joystick",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "dpad",
+                        "inputs" : ["north", "south", "east", "west"],
+                        "parameters": {
+                            "sub_mode": "touch",
+                            "sticky": "true",
+                            "overlap_pct": "0",
+                            "deadzone_pct": "5"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "joystick",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "dpad",
+                        "inputs" : ["north", "south", "east", "west"],
+                        "parameters": {
+                            "sub_mode": "touch",
+                            "sticky": "true",
+                            "overlap_pct": "0",
+                            "deadzone_pct": "5"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "trackpad",
+            "toType" : "joystick",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "dpad",
+                        "inputs" : ["north", "south", "east", "west"],
+                        "parameters": {
+                            "sub_mode": "touch",
+                            "sticky": "true",
+                            "overlap_pct": "0",
+                            "deadzone_pct": "5"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "joystick",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "dpad",
+                        "inputs" : ["north", "south", "east", "west"],
+                        "parameters": {
+                            "sub_mode": "touch",
+                            "sticky": "true",
+                            "overlap_pct": "0",
+                            "deadzone_pct": "5"
+                        }
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trackpad"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "joystick"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "joystick",
+            "toType" : "trackpad",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "joystick"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "trackpad"
+                    }
+                },
+                {
+                    "condition": "no_click",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "joystick",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "trigger",
+            "toType" : "button",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "has_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "pull"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "scalar_constant",
+                        "input" : "value"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "trigger",
+            "toType" : "force",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold",
+                            "force_input": "force"
+                        }
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold",
+                            "force_input": "force"
+                        }
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold",
+                            "force_input": "force"
+                        }
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "pull"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "force_sensor",
+                        "input" : "force"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "parameters": {
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append",
+                        "parameters_modification": "quarter_thresholds"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "toggle_button"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "toggle_button",
+                        "parameters": {
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "scalar_constant"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "scalar_constant",
+                        "parameters": {
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "button",
+            "toType" : "trigger",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "has_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_click",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "scalar_constant",
+                        "input" : "value"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "trigger",
+                        "input" : "pull"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "button",
+            "toType" : "force",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "has_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "touch",
+                        "parameters": {
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold",
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold",
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "parameters": {
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "toggle_button"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "toggle_button",
+                        "parameters": {
+                            "force_input": "force"
+                        },
+                        "parameters_mode": "append"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "scalar_constant",
+                        "input" : "value"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "force_sensor",
+                        "input" : "force"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "force",
+            "toType" : "button",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters_mode": "copy"
+                    }
+                },
+                {
+                    "condition": "has_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "parameters": {
+                            "force_input": "*"
+                        },
+                        "parameters_mode": "copy_all_except"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "toggle_button"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "toggle_button",
+                        "parameters": {
+                            "force_input": "*"
+                        },
+                        "parameters_mode": "copy_all_except"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "pull"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "scalar_constant",
+                        "input" : "value"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "force_sensor",
+                        "input" : "force"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "scalar_constant",
+                        "input" : "value"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "grab",
+                        "input" : "grab"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click"
+                    }
+                }
+            ]
+        },
+        {
+            "fromType" : "force", 
+            "toType" : "trigger",
+            "remappings" : [
+                {
+                    "from": {
+                        "path" : "$fromPath"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "parameters": {
+                            "force_input": "*"
+                        },
+                        "parameters_mode": "copy_all_except"
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_touch",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "touch"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$touch_activate_threshold",
+                            "click_deactivate_threshold": "$touch_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_click",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "click"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "force_sensor",
+                        "input" : "force"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "trigger",
+                        "input" : "pull"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "scalar_constant",
+                        "input" : "value"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "trigger",
+                        "input" : "pull"
+                    }
+                },
+                {
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "grab",
+                        "input" : "grab"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "mode" : "button",
+                        "input" : "click",
+                        "parameters": {
+                            "click_activate_threshold": "$click_activate_threshold",
+                            "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

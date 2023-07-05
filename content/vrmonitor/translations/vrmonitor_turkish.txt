@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR Geliştirici Desteği"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks Geliştirici Desteği"
 "MenuAction_CreateSystemReport" "Sistem Raporu Oluştur"
-"MenuAction_ResetSeatedPosition" "Oturur Pozisyonu Sıfırla"
+"MenuAction_Recenter" "Yeniden ortala"
 "MenuAction_SystemReportViewer" "Sistem Rapor Görüntüleyicisi"
 "MenuAction_DisplayFrameTiming" "Gelişmiş Kare Zamanlaması"
 "MenuAction_RecordTrackingData" "Takip Edilen Veriyi Kaydet"

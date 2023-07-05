@@ -64,8 +64,8 @@
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
  b ThreadShellExecute::bInstalledSignalHandler
- b UTF16to8(wchar_t const*)::s_converter
- b UTF8to16(char const*)::s_converter
+ b UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b UTF8to16(std::string const&)::s_convert
  b any_objects_registered
  b completed.0
  b dwarf_reg_size_table
@@ -83,8 +83,8 @@
  b g_serverDriverGamepad
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
- b guard variable for UTF16to8(wchar_t const*)::s_converter
- b guard variable for UTF8to16(char const*)::s_converter
+ b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b guard variable for UTF8to16(std::string const&)::s_convert
  b marker.4
  b object_mutex
  b once_regsizes.0
@@ -110,19 +110,19 @@
  d g_szSemFileName
  d typeinfo for CGamepadDeviceDriver
  d typeinfo for CServerDriver_Gamepad
+ d typeinfo for CThread
  d typeinfo for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
- d typeinfo for SteamThreadTools::CThread
  d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  d typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CServerDriver_Gamepad::Init(vr::IVRDriverContext*)::{lambda()#1}> > >
  d typeinfo for vr::IServerTrackedDeviceProvider
  d typeinfo for vr::ITrackedDeviceServerDriver
  d vr::k_InterfaceVersions
  d vtable for CGamepadDeviceDriver
  d vtable for CServerDriver_Gamepad
- d vtable for SteamThreadTools::CThread
+ d vtable for CThread
  d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  d vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CServerDriver_Gamepad::Init(vr::IVRDriverContext*)::{lambda()#1}> > >
  dl_iterate_phdr
  fclose
@@ -177,16 +177,16 @@
  pthread_setname_np
  pthread_setschedparam
  pthread_setspecific
- r CSWTCH.207
+ r CSWTCH.209
  r __FRAME_END__
  r crc32(unsigned int, void const*, unsigned long)::crcTable
  r terminator.3
  r typeinfo name for CGamepadDeviceDriver
  r typeinfo name for CServerDriver_Gamepad
+ r typeinfo name for CThread
  r typeinfo name for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
- r typeinfo name for SteamThreadTools::CThread
  r typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- r typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ r typeinfo name for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  r typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CServerDriver_Gamepad::Init(vr::IVRDriverContext*)::{lambda()#1}> > >
  r typeinfo name for vr::IServerTrackedDeviceProvider
  r typeinfo name for vr::ITrackedDeviceServerDriver
@@ -220,14 +220,14 @@
  std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
- std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
- std::__codecvt_utf8_base<wchar_t>::do_encoding() const
- std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
- std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
- std::__codecvt_utf8_base<wchar_t>::do_max_length() const
- std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_always_noconv() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_encoding() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_max_length() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
  std::__throw_bad_cast()
  std::__throw_bad_function_call()
  std::__throw_length_error(char const*)
@@ -251,6 +251,7 @@
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
@@ -338,6 +339,81 @@
  t CServerDriver_Gamepad::Setup_SDL()
  t CServerDriver_Gamepad::ShouldBlockStandbyMode()
  t CServerDriver_Gamepad::~CServerDriver_Gamepad()
+ t CThread::BHasValidThreadID()
+ t CThread::CThread()
+ t CThread::GetCurrentCThread()
+ t CThread::GetName()
+ t CThread::GetPriority() const
+ t CThread::GetResult() const
+ t CThread::GetThreadProc()
+ t CThread::Init()
+ t CThread::IsAlive()
+ t CThread::IsThreadRunning()
+ t CThread::Join(unsigned int)
+ t CThread::OnExit()
+ t CThread::Resume()
+ t CThread::SetName(char const*)
+ t CThread::SetPriority(int)
+ t CThread::Sleep(unsigned int)
+ t CThread::Start(unsigned int)
+ t CThread::Start(unsigned int) [clone .cold]
+ t CThread::Stop(int)
+ t CThread::Suspend()
+ t CThread::Terminate(int)
+ t CThread::ThreadExceptionWrapper(void*)
+ t CThread::ThreadProc(void*)
+ t CThread::ThreadProc(void*) [clone .cold]
+ t CThread::WaitForCreateComplete(CThreadEvent*)
+ t CThread::Yield()
+ t CThread::~CThread()
+ t CThread::~CThread() [clone .part.0]
+ t CThreadEvent::CThreadEvent(bool)
+ t CThreadEvent::CThreadEvent(char const*, bool, bool)
+ t CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
+ t CThreadEvent::Check()
+ t CThreadEvent::Reset()
+ t CThreadEvent::Set()
+ t CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
+ t CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
+ t CThreadFullMutex::IsCreator() const
+ t CThreadFullMutex::Release()
+ t CThreadLocalBase::CThreadLocalBase()
+ t CThreadLocalBase::Get() const
+ t CThreadLocalBase::Set(void*)
+ t CThreadLocalBase::~CThreadLocalBase()
+ t CThreadLocalInt<long>::~CThreadLocalInt()
+ t CThreadLocalPtr<CThread>::~CThreadLocalPtr()
+ t CThreadMutex::CThreadMutex()
+ t CThreadMutex::~CThreadMutex()
+ t CThreadRWLock::LockForWrite()
+ t CThreadRWLock::UnlockWrite()
+ t CThreadRWLock::WaitForRead()
+ t CThreadSemaphore::CThreadSemaphore(long, long)
+ t CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
+ t CThreadSemaphore::Release(long)
+ t CThreadSpinLock::Lock(unsigned int) volatile
+ t CThreadSpinRWLock::LockForRead()
+ t CThreadSpinRWLock::SpinLockForWrite(unsigned int)
+ t CThreadSpinRWLock::UnlockRead()
+ t CThreadSpinRWLock::UnlockWrite()
+ t CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
+ t CThreadSyncObject::AssertUseable()
+ t CThreadSyncObject::CThreadSyncObject()
+ t CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
+ t CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
+ t CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
+ t CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
+ t CThreadSyncObject::EnsureSemaphorePostedInternal(int)
+ t CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
+ t CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
+ t CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
+ t CThreadSyncObject::SaveNameToFile(char const*)
+ t CThreadSyncObject::SignalThreadSyncObjectInternal()
+ t CThreadSyncObject::Wait(unsigned int)
+ t CThreadSyncObject::Wait(unsigned int) [clone .part.0]
+ t CThreadSyncObject::operator!() const
+ t CThreadSyncObject::~CThreadSyncObject()
+ t CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
  t CharNeedsEscape_Component(char)
  t CharNeedsEscape_FullPath(char)
  t CleanupDriverLog()
@@ -377,81 +453,6 @@
  t ReturnStdString(std::string const&, char*, unsigned int)
  t SetCurrentProcessExplicitAppUserModelID()
  t SetEnvironmentVariable(char const*, char const*)
- t SteamThreadTools::CThread::BHasValidThreadID()
- t SteamThreadTools::CThread::CThread()
- t SteamThreadTools::CThread::GetCurrentCThread()
- t SteamThreadTools::CThread::GetName()
- t SteamThreadTools::CThread::GetPriority() const
- t SteamThreadTools::CThread::GetResult() const
- t SteamThreadTools::CThread::GetThreadProc()
- t SteamThreadTools::CThread::Init()
- t SteamThreadTools::CThread::IsAlive()
- t SteamThreadTools::CThread::IsThreadRunning()
- t SteamThreadTools::CThread::Join(unsigned int)
- t SteamThreadTools::CThread::OnExit()
- t SteamThreadTools::CThread::Resume()
- t SteamThreadTools::CThread::SetName(char const*)
- t SteamThreadTools::CThread::SetPriority(int)
- t SteamThreadTools::CThread::Sleep(unsigned int)
- t SteamThreadTools::CThread::Start(unsigned int)
- t SteamThreadTools::CThread::Start(unsigned int) [clone .cold]
- t SteamThreadTools::CThread::Stop(int)
- t SteamThreadTools::CThread::Suspend()
- t SteamThreadTools::CThread::Terminate(int)
- t SteamThreadTools::CThread::ThreadExceptionWrapper(void*)
- t SteamThreadTools::CThread::ThreadProc(void*)
- t SteamThreadTools::CThread::ThreadProc(void*) [clone .cold]
- t SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
- t SteamThreadTools::CThread::Yield()
- t SteamThreadTools::CThread::~CThread()
- t SteamThreadTools::CThread::~CThread() [clone .part.0]
- t SteamThreadTools::CThreadEvent::CThreadEvent(bool)
- t SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
- t SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
- t SteamThreadTools::CThreadEvent::Check()
- t SteamThreadTools::CThreadEvent::Reset()
- t SteamThreadTools::CThreadEvent::Set()
- t SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
- t SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
- t SteamThreadTools::CThreadFullMutex::IsCreator() const
- t SteamThreadTools::CThreadFullMutex::Release()
- t SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
- t SteamThreadTools::CThreadLocalBase::Get() const
- t SteamThreadTools::CThreadLocalBase::Set(void*)
- t SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
- t SteamThreadTools::CThreadLocalInt<long>::~CThreadLocalInt()
- t SteamThreadTools::CThreadLocalPtr<SteamThreadTools::CThread>::~CThreadLocalPtr()
- t SteamThreadTools::CThreadMutex::CThreadMutex()
- t SteamThreadTools::CThreadMutex::~CThreadMutex()
- t SteamThreadTools::CThreadRWLock::LockForWrite()
- t SteamThreadTools::CThreadRWLock::UnlockWrite()
- t SteamThreadTools::CThreadRWLock::WaitForRead()
- t SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long)
- t SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
- t SteamThreadTools::CThreadSemaphore::Release(long)
- t SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
- t SteamThreadTools::CThreadSpinRWLock::LockForRead()
- t SteamThreadTools::CThreadSpinRWLock::SpinLockForWrite(unsigned int)
- t SteamThreadTools::CThreadSpinRWLock::UnlockRead()
- t SteamThreadTools::CThreadSpinRWLock::UnlockWrite()
- t SteamThreadTools::CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
- t SteamThreadTools::CThreadSyncObject::AssertUseable()
- t SteamThreadTools::CThreadSyncObject::CThreadSyncObject()
- t SteamThreadTools::CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
- t SteamThreadTools::CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
- t SteamThreadTools::CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
- t SteamThreadTools::CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
- t SteamThreadTools::CThreadSyncObject::EnsureSemaphorePostedInternal(int)
- t SteamThreadTools::CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
- t SteamThreadTools::CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
- t SteamThreadTools::CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
- t SteamThreadTools::CThreadSyncObject::SaveNameToFile(char const*)
- t SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
- t SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
- t SteamThreadTools::CThreadSyncObject::Wait(unsigned int) [clone .part.0]
- t SteamThreadTools::CThreadSyncObject::operator!() const
- t SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
- t SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
  t SteamVRVersionAsString()
  t SteamVRVersionAsString() [clone .cold]
  t StringHasPrefix(std::string const&, std::string const&)
@@ -513,11 +514,13 @@
  t TokenizeString(std::string const&, char) [clone .cold]
  t TrimTrailingWhitespace(std::string const&)
  t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+ t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&) [clone .cold]
  t UTF16to8(wchar_t const*)
  t UTF16to8(wchar_t const*) [clone .cold]
  t UTF8to16(char const*)
  t UTF8to16(char const*) [clone .cold]
  t UTF8to16(std::string const&)
+ t UTF8to16(std::string const&) [clone .cold]
  t Uint64ToString(unsigned long)
  t V_StripExtension(std::string&)
  t V_URLDecode(char*, int, char const*, int)
@@ -625,7 +628,7 @@
  t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
  t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
  t std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
- t std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
  t std::ctype<char>::do_widen(char) const
  t std::pair<std::_Rb_tree_iterator<std::pair<SDL_GameControllerAxis const, CGamepadDeviceDriver::AxisInfo_t> >, bool> std::_Rb_tree<SDL_GameControllerAxis, std::pair<SDL_GameControllerAxis const, CGamepadDeviceDriver::AxisInfo_t>, std::_Select1st<std::pair<SDL_GameControllerAxis const, CGamepadDeviceDriver::AxisInfo_t> >, std::less<SDL_GameControllerAxis>, std::allocator<std::pair<SDL_GameControllerAxis const, CGamepadDeviceDriver::AxisInfo_t> > >::_M_emplace_unique<std::pair<SDL_GameControllerAxis, CGamepadDeviceDriver::AxisInfo_t> >(std::pair<SDL_GameControllerAxis, CGamepadDeviceDriver::AxisInfo_t>&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<SDL_GameControllerButton const, unsigned long> >, bool> std::_Rb_tree<SDL_GameControllerButton, std::pair<SDL_GameControllerButton const, unsigned long>, std::_Select1st<std::pair<SDL_GameControllerButton const, unsigned long> >, std::less<SDL_GameControllerButton>, std::allocator<std::pair<SDL_GameControllerButton const, unsigned long> > >::_M_emplace_unique<std::pair<SDL_GameControllerButton, unsigned long> >(std::pair<SDL_GameControllerButton, unsigned long>&&)
@@ -633,7 +636,7 @@
  t std::thread::_State_impl<std::thread::_Invoker<std::tuple<CServerDriver_Gamepad::Init(vr::IVRDriverContext*)::{lambda()#1}> > >::_M_run()
  t std::thread::_State_impl<std::thread::_Invoker<std::tuple<CServerDriver_Gamepad::Init(vr::IVRDriverContext*)::{lambda()#1}> > >::~_State_impl()
  t std::unique_ptr<CLogCallback, std::default_delete<CLogCallback> >::~unique_ptr()
- t std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+ t std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
  t strcpy_safe(char*, unsigned long, char const*)
  t stricmp(char const*, char const*)
  t strnicmp(char const*, char const*, unsigned long)
@@ -654,7 +657,7 @@
  toupper
  typeinfo for int
  typeinfo for std::__codecvt_utf8_base<char32_t>
- typeinfo for std::__codecvt_utf8_base<wchar_t>
+ typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
  typeinfo for std::thread::_State
  unsetenv
  usleep
@@ -671,3 +674,4 @@
  vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
  waitpid
  wcslen
+ wmemcpy

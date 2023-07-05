@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR-Entwicklersupport"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks-Entwicklersupport"
 "MenuAction_CreateSystemReport" "Systembericht erstellen"
-"MenuAction_ResetSeatedPosition" "Sitzposition zurücksetzen"
+"MenuAction_Recenter" "Erneut zentrieren"
 "MenuAction_SystemReportViewer" "Systemberichtanzeige"
 "MenuAction_DisplayFrameTiming" "Erweiterte Frame-Synchronisierung"
 "MenuAction_RecordTrackingData" "Ortungsdaten aufnehmen"

@@ -6,6 +6,7 @@
 																												
 																																												
 	!s99
+ !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
  -SERVICE_EXPLORE
@@ -61,6 +62,8 @@ $Phdd
 %s: WriteFile failed! (%s)
 ' is not a number.
 ',=?k
+((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
@@ -80,6 +83,7 @@ $Phdd
 +KL+SL_;
 +Xt@(
 +o'q)}
++u~:%
 ,W5y+
 -1e+9999
 -ADDR %s
@@ -91,7 +95,6 @@ $Phdd
 -stop
 -version
 .00cfg
-.2-5ss>3
 .?AU_Crt_new_delete@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
@@ -104,9 +107,9 @@ $Phdd
 .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$collate@D@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCHTCViveLinkClient@@
 .?AVException@Json@@
 .?AVIBaseStationWireless@@
@@ -176,17 +179,18 @@ $Phdd
 0 0$0(0,0<0@0D0H0X0\0`0d0t0x0|0
 0 2'2,333U4\4M5n5
 0!0/040B0G0Q0^0s0}0
-0!010A0Q0a0q0
 0$0(080<0@0H0`0d0|0
 0(1Y1
 0(1|1
 0)181=1j1o1
+0/0?0O0X0g0m0s0y0
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
-080D0L0l0
-090>0O0U0Z0e0o0v0|0
+000<0D0d0
+011[1`1s1
+0B0J0s0}0
 0L1P1T1X1\1`1d1h1l1p1t1x1|1
 0V2y2
 0`0|0
@@ -197,35 +201,33 @@ $Phdd
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
 1 1$1(1,1014181<1@1D1H1k1v3]4
 1 10141<1T1d1h1x1|1
-1!111A1M1S1a1q1}1
-1"1,161@1J1T1^1h1r1|1
-1#111f1
-1$1,171=1C1M1W1b1j1q1y1
-1%191v1v2
+1&171A1G1M1S1Y1_1e1k1q1w1}1
 1(1,10141D1H1L1P1`1d1h1l1|1
+1(121<1F1P1Z1d1n1x1
+1,2[2h2l2p2t2x2|2
 1.1S1
+1/1H1
 1/3;3v3U4
 130801120000Z
-151b4
-172>2
+14393G3L3X4^4
 181B1L1V1`1j1
+181D1L1l1
 192I2[2
+1:2D2L2Z2u2
 1=3m3
-1@1L1T1t1
 1B2s2
+1X2\2`2d2h2l2p2e3
 1c2|2
 1e+9999
 1o2w2
-1u2%3/373E3`3t3
 1x;|;<<@<D<X<\<`<|<
 1y1x2
 2	323<3
-2#3q3
 2$2<2L2P2`2d2h2p2
-2$2H2T2\2|2
 2$3.3H3M3r3w3
+2%2+21272=2C2I2O2U2[2a2g2m2s2y2
 2(2H2h2
-2(3Q3`3s3
+2,333H3O3a3{3
 203@3
 20>0J0S0x0
 210429000000Z
@@ -233,10 +235,11 @@ $Phdd
 220323000000Z
 220801000000Z
 220921000000Z
-230503214906Z0/
+230629194731Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
+2@2L2T2t2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F2q2
@@ -245,11 +248,16 @@ $Phdd
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3 3$3(3
 3 3$3(3,3034383<3@3D3H3L3P3u3
+3 3$3(3~4
 3 3%3
 3 30343D3H3L3T3l3|3
+3!313A3Q3a3q3
+3#363B3Q3g3m3r3x3
 3#4;4S4d4|4	6(6q6
+3$3H3T3\3|3
+3&4S4
 3&5M5j5o5
-3,3P3\3d3
+3*4g4
 3,3W3
 3/3T3
 311109235959Z0b1
@@ -258,34 +266,38 @@ $Phdd
 360428235959Z0i1
 370322235959Z0c1
 374o4
-374w4
 380115120000Z0b1
 384E4{4
+3;4j4
 3@4[4
 3H3s3
+3X4l4
 3mq+<
 3y465
 4	5*5K5:6n6
+4	5F5F6T8f8F: <%<-<><J<^<k<2=I=
 4 4)4
+4!414A4Q4a4q4
 4#5?6f7
 4(4,40484P4`4d4t4x4|4
+4,42474B4L4S4Y4c4r4z4
+4,4P4\4d4
 4-4M4c4
 4.4Y4
 404l4
 414t4y4
 425U5
-444X4d4l4
 4585<5@5X5\5h5l5x5|5
 465t5
 475J5]5p5
 4A5J5
+4T5l5u5
 4^4c4i4r4
 4d4h4l4p4t4x4|4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4i4v4
-4m5;6
-4v6P8U8]8n8z8
+5 5*545?5G5N5V5_5f5q5w5~5
 5 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6
+5!5-535A5Q5]5
 5!515b5
 5!5\5f5p5
 5"6Q6
@@ -295,14 +307,13 @@ $Phdd
 5*5M5V5*6
 5,636:6Q6X6_6
 505[5
-51565=5F5
 545D5H5X5\5`5h5
+545X5d5l5
 547F7|<
 576<6R6
 5;5I5c5h5
-5<5`5l5t5
 5<5m5
-5=5F5
+5B8b8
 5FjiT
 5Genu
 5K6i6
@@ -313,51 +324,47 @@ $Phdd
 5m6t6Z7a7
 6	747_7
 6 686H6L6P6T6X6l6p6t6x6|6
-6 6@6d6p6x6
-6 6t6
-6$6>6
 6'7,7
 6(6,686<6
+6(6|6
 6*f(_
 626]6
 638:8
 64787<7@7D7H7L7%9
 666666666666666666666666666666666666666666666666666666666666
-676=6M6~6
+686\6h6p6
 6:7?7y7~7
+6A7j7
 6B6G6
 6E6p6
 6I]Dc
 6OB,n_
 6PVh(
-6T7X7\7`7d7h7l7p7t7x7|7
 6V7l7
 6Vh0b
 6VhXl
 6]8d8
-7	8"8
+7	9y;
 7 7$7,7D7T7X7h7l7p7t7x7|7
-7 7(7@7T7\7d7l7p7t7|7
+7 787L7T7\7d7h7l7t7
 7 7t7
 7$7-767@7D7H7L7P7T7X7\7`7d7h7l7p7
-7&8+82878
-7(AeC
+7%7@7T7m7
 7+80868?8
 7-828[8
+7.7=7P7\7l7}7
 7.7L7v7
 70503
 737:7S7
 7@PVW
+7F8S8z8
 7V8n9
+7d8m8
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8	9e9
+8 8(8H8l8x8
 8 9%9
-8%838<8[8j8s8
-8'848
-8(808P8t8
 8(888<8L8P8T8X8`8x8
-8*8|8
-8*9p;v;
 868a8
 8>8v8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -370,51 +377,47 @@ $Phdd
 8M:~:
 8P8U8
 8V9]9E:L:k;r;
-8_:u:
 8_^[]
-8b9y9
 8f8M9
 8m8r8y8
-9	:?:
 9 9$94989<9D9\9l9p9
-9":>:
-9$90989X9|9
+9&9_:
 9&:g:
+9(909P9t9
 9-999X9]9
 989c9
 9<: <r<
 9A0t+
+9L=p=|=
 9LHB-u
 9M;R;v;{;
-9N:h:
-9T=x=
 9[:2<L=^=
 9^hve
+9h9n9
+9h;a<q<
 9s0t2
 : :$:4:8:<:@:P:T:X:\:l:p:t:x:
+:$:0:8:P:X:`:d:h:p:
 :$:@:f:u:
 :%;M;R;v;{;
-:+;0;A;X;g;p;{;
-:,:8:@:X:`:h:l:p:x:
+:-:^:{:
 :-;W<x<
 :.;^;
-:2:I:[:
-:7:A:\:e:j:}:
+:4;8;<;@;D;H;L;P;T;X;\;`;d;h;
+:8:e:
 :::e:
 ::LHB::%4.4X %s
+:?;\;a;h;o;v;
 :D>}?
-:H;=</=
-:N:V:
+:[;d;l;
 :j;q;
-; ;$;
+:t:+;
 ; <A<
 ;";@;
 ;#;n;
+;(;D;H;
 ;)<A<Z<s<
 ;.;_;
-;.<U<
-;0;L;P;
-;3<?<
 ;3<D<S<a<h<
 ;3u3;
 ;<;g;
@@ -431,12 +434,11 @@ $Phdd
 ;x=p>
 ;};"<
 <"<,<R<\<
-<#<)<3<=<M<]<m<v<
 <#<5<g=u>
 <#=p>
+<$<S=
 <$=0=
 <&<,<
-<&<A<O<i<
 <*J=)
 <+=0=y=
 <-u];]
@@ -444,15 +446,16 @@ $Phdd
 <0:08
 <3<8<o<
 <6=E=
+<9<k<
+<;<J<S<`<x<
 <;<m<
 <= Exiting Context: (%.2f seconds)
 <SVWj
-<_<g<
-=!=/=I=}=
-=%=D=U=_=e=k=q=w=}=
+<\<l<
+<j<?>U>
+= >,>4>T>x>
 =%?,?;?B?p?t?
 =&>4>B>`>
-=(=L=e=
 =<>@>D>H>X>\>`>d>
 ======================
 ==============================
@@ -460,29 +463,25 @@ $Phdd
 =@=E=
 =F=S?
 =F=q=
-=Q={=
-=T?Y?g?l?
-=Z>d>l>z>
+=P?V?m?
 =r>y>
 =rIQU
 > ?%?
 >!>7>I>d>
->$?(?,?0?4?8?<?@?D?H?
->%>+>1>7>=>C>I>O>U>[>a>g>m>s>y>
->(>4><>\>
->*?C?V?e?t?
+>!><>E>J>]>q>v>
 >+>?>^>
+>+>V>a>
+>,>4>>>H>
 >0<0:
 >0>4>L>\>`>t>x>
 ><?@?D?H?
 >=?z?
 >H>s>
->L?S?h?o?
 >Mp$d
 ? ?)?L?
-?!?1?A?Q?a?q?
+?!?8?G?P?[?b?
 ?(?,?0?4?<?T?X?p?
-?0?<?D?d?
+?(?4?<?\?
 ?8?@?P?
 ?;?f?
 ?=?[?v?
@@ -690,7 +689,6 @@ Extended Error: %s, %s
 F ;G 
 F ;W$|
 F$;G$
-F'2p@X
 F(j4f
 F<\uD
 FH;FDu
@@ -1025,6 +1023,7 @@ Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
+[En:6
 [K]taM?
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
@@ -1096,7 +1095,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 cU	F9
 calloc
 cntrl
@@ -1124,6 +1123,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+ihf-*eZM$"
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1177,7 +1177,6 @@ j)h`O
 j)hpG
 j*hPQ
 jj@0HK4
-k/XXx
 k0i0$
 lighthouse
 lower
@@ -1235,7 +1234,6 @@ u%;Q(t
 u'VPj
 u)h|\
 uCVj@
-uIm	R
 ubh(d
 umRQh
 unknown compression method

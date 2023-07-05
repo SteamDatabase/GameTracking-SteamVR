@@ -1,0 +1,268 @@
+{
+  "to_controller_type" : "holographic_controller",
+  "layouts" : [
+    {
+      "priority" : 100,
+      "from_controller_type" : "oculus_touch",
+      "simulate_controller_type" : true,
+      "simulate_render_model" : true,
+      "simulate_HMD" : true,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/grip",
+          "to" : "/user/hand/right/input/grip"
+        },
+        {
+          "from" : "/user/hand/right/input/trigger",
+          "to" : "/user/hand/right/input/trigger",
+          "parameters": {
+            "click_activate_threshold": "0.7",
+            "click_deactivate_threshold": "0.65",
+            "touch_activate_threshold": "0.05",
+            "touch_deactivate_threshold": "0.02"
+          }
+        }
+      ],
+      "remappings" : [
+        {
+          "from": {
+            "path" : "/user/hand/left/input/x",
+            "mode" : "button",
+            "input" : "touch"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "south",
+            "parameters" : {
+              "sub_mode" : "touch"
+            }
+          },
+          "mirror" : false
+        },
+        {
+          "from": {
+            "path" : "/user/hand/left/input/x",
+            "mode" : "button",
+            "input" : "click"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "south",
+            "parameters" : {
+              "sub_mode" : "click"
+            }
+          },
+          "mirror" : false
+        },
+        {
+          "from": {
+            "path" : "/user/hand/left/input/y",
+            "mode" : "button",
+            "input" : "touch"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "north",
+            "parameters" : {
+              "sub_mode" : "touch"
+            }
+          },
+          "mirror" : false
+        },
+        {
+          "from": {
+            "path" : "/user/hand/left/input/y",
+            "mode" : "button",
+            "input" : "click"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "north",
+            "parameters" : {
+              "sub_mode" : "click"
+            }
+          },
+          "mirror" : false
+        },
+        {
+          "from": {
+            "path" : "/user/hand/right/input/a",
+            "mode" : "button",
+            "input" : "touch"
+          },
+          "to": {
+            "path" : "/user/hand/right/input/trackpad",
+            "mode" : "dpad",
+            "input" : "south",
+            "parameters" : {
+              "sub_mode" : "touch"
+            }
+          },
+          "mirror" : false
+        },
+        {
+          "from": {
+            "path" : "/user/hand/right/input/a",
+            "mode" : "button",
+            "input" : "click"
+          },
+          "to": {
+            "path" : "/user/hand/right/input/trackpad",
+            "mode" : "dpad",
+            "input" : "south",
+            "parameters" : {
+              "sub_mode" : "click"
+            }
+          },
+          "mirror" : false
+        },
+        {
+          "from": {
+            "path" : "/user/hand/right/input/b",
+            "mode" : "button",
+            "input" : "touch"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "north",
+            "parameters" : {
+              "sub_mode" : "touch"
+            }
+          },
+          "mirror" : false
+        },
+        {
+          "from": {
+            "path" : "/user/hand/right/input/b",
+            "mode" : "button",
+            "input" : "click"
+          },
+          "to": {
+            "path" : "/user/hand/right/input/trackpad",
+            "mode" : "dpad",
+            "input" : "north",
+            "parameters" : {
+              "sub_mode" : "click"
+            }
+          },
+          "mirror" : false
+        }
+      ]
+    },
+    {
+      "priority" : 90,
+      "from_controller_type" : "knuckles",
+      "simulate_controller_type" : true,
+      "simulate_render_model" : true,
+      "simulate_HMD" : true,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/grip",
+          "to" : "/user/hand/right/input/grip"
+        },
+        {
+          "from" : "/user/hand/right/input/trigger",
+          "to" : "/user/hand/right/input/trigger",
+          "parameters": {
+            "click_activate_threshold": "0.7",
+            "click_deactivate_threshold": "0.65",
+            "touch_activate_threshold": "0.05",
+            "touch_deactivate_threshold": "0.02"
+          }
+        },
+        {
+          "from" : "/user/hand/right/input/thumbstick",
+          "to" : "/user/hand/right/input/joystick"
+        },
+        {
+          "from" : "/user/hand/right/input/pinch",
+          "to" : "/user/hand/right/input/trigger"
+        }
+      ],
+      "remappings" : [
+        {
+          "from": {
+            "path" : "/user/hand/left/input/a",
+            "mode" : "button",
+            "input" : "touch"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "south",
+            "parameters" : {
+              "sub_mode" : "touch"
+            }
+          }
+        },
+        {
+          "from": {
+            "path" : "/user/hand/left/input/a",
+            "mode" : "button",
+            "input" : "click"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "south",
+            "parameters" : {
+              "sub_mode" : "click"
+            }
+          }
+        },
+        {
+          "from": {
+            "path" : "/user/hand/left/input/b",
+            "mode" : "button",
+            "input" : "touch"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "north",
+            "parameters" : {
+              "sub_mode" : "touch"
+            }
+          }
+        },
+        {
+          "from": {
+            "path" : "/user/hand/left/input/b",
+            "mode" : "button",
+            "input" : "click"
+          },
+          "to": {
+            "path" : "/user/hand/left/input/trackpad",
+            "mode" : "dpad",
+            "input" : "north",
+            "parameters" : {
+              "sub_mode" : "click"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "priority" : 10,
+      "from_controller_type" : "khr_simple_controller",
+      "simulate_controller_type" : false,
+      "simulate_render_model" : false,
+      "simulate_HMD" : false,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/select",
+          "to" : "/user/hand/right/input/trigger"
+        },
+        {
+          "from" : "/user/hand/right/input/menu",
+          "to" : "/user/hand/right/input/application_menu"
+        }
+      ]
+    }
+  ] 
+}

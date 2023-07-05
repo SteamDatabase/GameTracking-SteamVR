@@ -66,6 +66,8 @@
   "SourceInputMode_DoublePressDelay": "Double press delay:",
   "SourceInputMode_DeadZone" : "DeadZone",
 
+  "BindingUI_Compatibility_Remapped_Text": "This binding has automatically been remapped to your controller.",
+
   "SourceInputMode_button_tooltip": "Use this control like a Button. Handles touches, clicks, holds, double clicks, and long presses.",
   "SourceInputMode_trackpad_tooltip": "Use this control like a Trackpad. XY positioning, touches, and presses.",
   "SourceInputMode_joystick_tooltip": "Use this control like a Joystick. XY positioning, touches, and presses.",
@@ -192,6 +194,7 @@
   "BindingUI_HapticsButton_tooltip": "Bindings for haptic feedback actions.",
   "BindingUI_SkeletonButton_tooltip": "Bindings for finger tracking.",
   "BindingUI_ChordsButton_tooltip": "Bindings that combine two components or types of input to execute one action.",
+  "BindingUI_SimulatingControllerInfo_tooltip": "Controller simulations allows a controller to appear as a different type of controller to an application. You can change this in Options.",
 
   "SourceInputMode_ScrollMode": "Scroll mode:",
   "SourceInputMode_ScrollMode_Smooth": "Smooth (Like a trackpad)",
@@ -308,6 +311,8 @@
   "BindingUI_HapticsButton": "Haptics",
   "BindingUI_SkeletonButton": "Skeletons",
   "BindingUI_ChordsButton": "Chords",
+  "BindingUI_CompatibilityModeInfo": "Compatibility Mode",
+  "BindingUI_CompatibilityModeAppearingAsInfo": "Appearing as",
 
   "BindingSettingsModal_Title": "Input Settings",
 
@@ -321,6 +326,10 @@
   "TrackerRole_RightElbow": "Right Elbow",
   "TrackerRole_LeftKnee": "Left Knee",
   "TrackerRole_RightKnee": "Right Knee",
+  "TrackerRole_LeftWrist": "Left Wrist",
+  "TrackerRole_RightWrist": "Right Wrist",
+  "TrackerRole_LeftAnkle": "Left Ankle",
+  "TrackerRole_RightAnkle": "Right Ankle",
   "TrackerRole_Waist": "Waist",
   "TrackerRole_Chest": "Chest",
   "TrackerRole_Camera": "Camera",
@@ -368,6 +377,7 @@
 
   "BindingVariant_singlecontroller": "Single Controller",
 
+  "BindingUI_List_Loading": "Loading Workshop Bindings...",
   "BindingUI_List_CurrentSection": "Current Binding",
   "BindingUI_List_DeveloperSection": "Official Bindings",
   "BindingUI_List_LegacySection": "Default Bindings",
@@ -412,6 +422,8 @@
 
   "SaveError_BindingWriteFailed": "Failed to write binding file. Is it write-protected?",
   "SaveError_ActionManifestWriteFailed": "Failed to write action manifest file. Is it write-protected?",
+  "SaveError_BindingMissingRequiredActions": "Failed to save binding as it is missing required one or more required actions.",
+  "SaveError_BindingMissingActionsList": "Actions Missing",
 
   "AppSelect_Title": "Controller Settings",
   "AppSelect_CurrentApp": "Current Application",
@@ -426,6 +438,7 @@
 
   "BindingList_PageTitle": "Change bindings for %1$s",
   "BindingList_ControllerOption": "Current Controller",
+  "BindingUI_List_ErrorReturnToAppSelect": "Go back",
   "BindingUI_List_Delete_Confirm": "Permanently delete binding %1$s?",
   "BindingUI_ConfirmSelect_Title" : "Replace current binding?",
   "BindingUI_List_Select_Confirm": "You have unsaved changes for your current binding. Did you want to discard those changes or save them as a personal bind before using this bind.",
@@ -443,6 +456,7 @@
 
   "BindingUI_SteamVRUnavailable": "Please run SteamVR to continue using the binding interface",
   "BindingUI_ErrorLoadingBindingTitle": "Binding file failed to load",
+  "BindingUI_WorkshopBindingLoadFailed": "Failed to load workshop bindings",
 
   "input_binding_load_failed": "Failed to load input bindings for %1$s. Please select another binding option.",
   "input_binding_load_failed_no_url": "%2$s binding for %1$s was not set. Please select a binding option from the list or create a new one.",
@@ -495,10 +509,7 @@
   "BindingUI_WindowTitle_ControllerBinding": "Controller Binding",
   "BindingUI_WindowTitle_DisplaySettings": "Display Settings",
 
-  "ActionManifestError_ManifestParseError": "The action manifest for %1$s has an issue: \"%2$s\".",
-  "ActionManifestError_FileNotFound": "The action manifest for %1$s was not found.",
-  "ActionManifestError_JSONParseError": "The action manifest for %1$s did not contain valid JSON.",
-  "ActionManifestError_Path": "File path:",
+  "ActionManifestError_UnknownError": "Failed to load action manifest. Try launching the app first.",
 
   "TrackerEditor_Title": "Manage Trackers",
   "TrackerEditor_BuzzTracker": "Identify Tracker",

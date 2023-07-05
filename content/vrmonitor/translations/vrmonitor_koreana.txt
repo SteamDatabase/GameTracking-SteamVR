@@ -170,7 +170,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR 개발자 지원"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks 개발자 지원"
 "MenuAction_CreateSystemReport" "시스템 보고서 작성"
-"MenuAction_ResetSeatedPosition" "앉은 자세 설정 초기화"
+"MenuAction_Recenter" "위치 재조정"
 "MenuAction_SystemReportViewer" "시스템 보고서 뷰어"
 "MenuAction_DisplayFrameTiming" "고급 프레임 타이밍"
 "MenuAction_RecordTrackingData" "추적 데이터 기록"

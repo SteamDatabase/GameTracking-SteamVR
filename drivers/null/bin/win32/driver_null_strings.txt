@@ -1,9 +1,9 @@
 	!s99
  %41g
 !hn7!
+&u>}S
 ',=?k
 (f*^[0
-+8B  
 +Xt@(
 +o'q)}
 ,W5y+
@@ -53,6 +53,8 @@
 .text$x
 .text$yd
 .xdata$x
+/user/ankle/left
+/user/ankle/right
 /user/camera
 /user/chest
 /user/elbow/left
@@ -67,89 +69,93 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0
+/user/wrist/left
+/user/wrist/right
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
-0'0,01080
-090o0
+080i0
 0w0c1
 0}0i1
-1)10161H1R1
-1)181G1l1
-101X1x1
+1!131=1Y1h1w1
+1+232;2
+1-1D1Y1`1f1x1
 130801120000Z
-1T2l2
+1@1h1
+1d2|2
+2$3;3l3
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 220921000000Z
-230503214926Z0/
+230629194845Z0/
 241009235959Z0a1
+284<4@4D4H4L4P4T4X4
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3(3d3
 311109235959Z0b1
 331121235959Z0F1
+344=4N4Z4f4l4r4~4
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3<3Y3o3
+3:3I3X3
+3:4X4
 3mq+<
-4(4Z4
-4*464<4B4N4q4O5o5y5
-4>4K4S4[4
+4	5(555?5I5V5c5i5s5}5
+4K4n4{4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5 5$5(5H6L6P6T6X6\6`6x6|6
-5&53595C5M5W5a5k5x5
-5&5V5[5~5
+5 5$5<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5
+5$5E5V5
 5FjiT
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-6$7o7y7
-6&636E6O6Y6b6
+6$6-6;6D6M6V6c6u6
 6*f(_
+616A6V6
+616N6
 6I]Dc
-6K7T7\7
 6OB,n_
-6k6p6
 70503
+74787
+7D8H8P8h8x8|8
+7M:F>
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8(8,8<8@8D8L8d8t8x8
-8)8?8H8S8Z8z8
-8*858?8K8
+8	9N9T9n9A;
+8!818Z8e8o8{8
+8%838<8O8Y8o8x8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-9#9,9>9C9M9W9`9i9~9
-9$9>9
-9%959E9N9]9c9i9o9u9{9
-90949L9\9`9p9t9|9
-:!:3:Q:
-:(:-:;:E:N:W:b:g:u:
-:(:8:<:L:P:X:p:
-;(;2;;;G;P;U;`;q;
-;<>`>l>t>
-;Z;k;
+9"9+909@9J9S9\9n9s9}9
+9&9+919;9E9U9e9u9~9
+909@9D9T9X9\9`9h9
+:#:):/:5:;:A:Q:c:
+:#:1:;:D:M:X:]:k:u:~:
+:0:@:D:T:X:`:x:
+; ;0;4;8;<;D;\;
+;$;-;9;B;G;X;b;k;w;
+;F<r<
 <*J=)
 <0:08
-<B<O<X<a<f<k<r<
-<B<O<p<u<
-='=9=Q=
-=(=.=4=x=}=
-=?>S>x>
+<0E0N0W0\0a0h0&111
+<5=:=D=M=X=^=d=
+<<<C<r<
+=C=M=W=i=
 =rIQU
+>#>,>5>:>?>F>
 >0<0:
->4?=?F?O?T?Y?`?
 >Mp$d
->T>]>f>o>t>y>
-?$?8?@?T?\?d?l?p?t?|?
+? ?d?m?v?
+?$?(?D?H?P?X?`?d?l?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
 Bellevue1
+D mh2
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -182,6 +188,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JuFJ4IV
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -194,7 +201,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS()*
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -207,7 +213,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
-XN.1{kb
 Y9"SD
 Y__^[
 [K]taM?
@@ -247,7 +252,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 cU	F9
 displayFrequency
 driver_null
@@ -259,7 +264,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-f" 8U
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -273,6 +277,7 @@ memcpy
 memmove
 memset
 modelNumber
+p5r7}
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -282,12 +287,14 @@ string too long
 uCVj@
 v=Y]Bv
 vector<T> too long
+wWaBb
 windowHeight
 windowWidth
 windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+z<)D_
 {un'%
 |Lu?c
 }LuHO

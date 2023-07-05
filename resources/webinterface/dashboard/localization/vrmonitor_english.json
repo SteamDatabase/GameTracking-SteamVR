@@ -411,7 +411,7 @@
 	"Settings_ActiveController": "Active Controller",
 	"Settings_EditBinding": "Edit This Binding",
 	"Settings_EditBinding_ChooseAnother": "Choose Another",
-	"Settings_ShowOldBindingUI": "Show Old Binding UI",
+	"Settings_ShowBindingUI": "Show Binding UI",
 	"Settings_ManageVideoSettingsForApp": "Manage Video Settings For:",
 	"Settings_ManageControllerBindingSettingsForApp": "Manage Controller Bindings For:",
 	"Settings_ActiveControllerBinding": "Active Controller Binding",

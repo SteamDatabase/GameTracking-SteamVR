@@ -40,6 +40,7 @@
 	name_part
 	type_name
 	vid=0x%x, pid=0x%x, sn=%ls
+	w2Hc
 	|$HA
      
       
@@ -258,6 +259,7 @@
 !hn7!
 !leftSyncIsReal
 !m_stackFreeResources.empty()
+!p+V4	
 !rightSyncIsRealAsItGets
 " because it is missing required fields: 
 " conflicts with the existing symbol "
@@ -387,7 +389,6 @@ $w!Hc
 %s: Applying scale %0.04f from reference object %s
 %s: Attached device ID not set.  No controller input available.
 %s: Can't create source of type "%s"
-%s: Checking to see if display has connected...
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x
 %s: Connected to receiver %s
 %s: D3D11 feature level required for interop
@@ -668,6 +669,7 @@ $w!Hc
 (Hub Nested Too Deeply)
 (In Legacy Hub)
 (L$ D
+(L$ H
 (L$ f
 (L$0D
 (L$0I+
@@ -678,6 +680,7 @@ $w!Hc
 (L$`D
 (L$`E
 (L$`H
+(L$pD
 (Not Enough Bandwidth)
 (Not Enough Power)
 (Overcurrent)
@@ -688,8 +691,8 @@ $w!Hc
 (T$@D
 (T$@H
 (T$PD
-(T$PH
 (T$Pf
+(T$`H
 (T$`I
 (T$pf
 (\$ D
@@ -790,6 +793,7 @@ $w!Hc
 )D$pE
 )D$pH
 )D$pf
+)L$ D
 )L$ fD
 )L$0A
 )L$0D
@@ -798,14 +802,14 @@ $w!Hc
 )L$@H
 )L$PD
 )L$PM;
-)L$`H
 )L$pA
+)L$pH
 )T$ H
 )T$0H
 )T$@E
-)T$PH
 )T$PI
 )T$Pf
+)T$`H
 )T$pD
 )\$pI
 )\ZEo^m/
@@ -848,11 +852,13 @@ $w!Hc
 )|$ H
 )|$ f
 )|$0A
+)|$0D
 )|$0H
 )|$0f
 )|$@A
 )|$@D
 )|$@E3
+)|$@H
 )|$@f
 )|$PD
 )|$PH
@@ -860,11 +866,11 @@ $w!Hc
 )|$`D
 )|$`H
 )|$`f
-)|$pD
 )|$pH
 )|$pI
 )|$pf
 *H+KXI
+*N00Hz
 *T$4I
 *uXI;
 +C,+C
@@ -1017,8 +1023,8 @@ $w!Hc
 .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVBlendMatrix3x3PoseMaker@@
 .?AVCAnimResource@@
 .?AVCAnimSkeleton@@
@@ -1029,7 +1035,7 @@ $w!Hc
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
+.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -1259,6 +1265,10 @@ $w!Hc
 /input/application_menu/click
 /input/b/click
 /input/b/touch
+/input/dpad_down/click
+/input/dpad_left/click
+/input/dpad_right/click
+/input/dpad_up/click
 /input/finger/index
 /input/finger/middle
 /input/finger/pinky
@@ -1270,6 +1280,7 @@ $w!Hc
 /input/joystick/click
 /input/joystick/x
 /input/joystick/y
+/input/menu/click
 /input/mute_mic/click
 /input/power/click
 /input/skeleton/left
@@ -1289,12 +1300,11 @@ $w!Hc
 /input/trigger/click
 /input/trigger/touch
 /input/trigger/value
+/input/view/click
 /input/volume_down/click
 /input/volume_up/click
 /input/x/click
-/input/x/touch
 /input/y/click
-/input/y/touch
 /lighthouse/
 /lighthouse/camera/raw_frames
 /lighthouse/depthAugmentedPassthrough/leftMeshElementCount
@@ -1312,6 +1322,8 @@ $w!Hc
 /server_time_ticks
 /skeleton/hand/left
 /skeleton/hand/right
+/user/ankle/left
+/user/ankle/right
 /user/camera
 /user/chest
 /user/elbow/left
@@ -1326,13 +1338,14 @@ $w!Hc
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/user/wrist/left
+/user/wrist/right
 /width
 0	FAJ
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
-0@interface
 0A;nh|
 0A\][
 0A]A\_
@@ -1383,7 +1396,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230503215653Z0/
+230629194941Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1402,7 +1415,6 @@ $w!Hc
 3Pole
 3mq+<
 42HcF,
-44b$e
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -1444,7 +1456,7 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
-8L9-NX&
+8L9->c&
 8O0u]A
 8\$@t
 8\t	H
@@ -1613,7 +1625,7 @@ $w!Hc
 =rIQU
 >"t-H
 >#u&H
->$u5I
+>$u>I
 >-ufH
 >0<0:
 >B`E?)\
@@ -1622,6 +1634,7 @@ $w!Hc
 >X9t?
 >fff?
 ?!std::isnan( flSystemTimeInSeconds )
+?%s: Checking to see if display has connected...
 ?&x0O
 ?'1(?
 ?)\o?;
@@ -1673,6 +1686,7 @@ $w!Hc
 ?HcC,H
 ?Nbp?
 ?UUUUUU
+?VR_OVERRIDE
 ?VUUUUU
 ?Xb&<
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
@@ -1727,12 +1741,14 @@ $w!Hc
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?init@DepthFromStereo@PE@@QEAAX_N@Z
 ?initializeVisualLogging@ST@@YAXXZ
+?interface
 ?inversed@Matrix4@ST@@QEBA?AU12@XZ
 ?isSupportedOnThisCpu@DepthFromStereo@PE@@SA_NXZ
 ?nan@Matrix4@ST@@SA?AU12@XZ
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
 ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+?position
 ?prepareFrame@PE@@YAXPEAUMultiCameraColorFrame@ST@@W4FramePreparationStrategy@1@N0_N2@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAV32@@Z
@@ -1965,7 +1981,7 @@ A,9AT|
 A0H9i8u
 A8	r 
 A8IcA0I
-A8_Yt
+A8_Zt
 A8t$qt
 A8t$r
 A9@$}VM
@@ -2341,7 +2357,6 @@ CL$PL
 CL$PM;
 CL$`H
 CL$`H;
-CL$pH
 CL$pL
 CL$pL;
 CLD#C|L#
@@ -2607,7 +2622,9 @@ D$ ff
 D$ tX
 D$ u!H
 D$ v5
+D$!yx~v
 D$$E3
+D$%|oy`
 D$(@88
 D$(E3
 D$(H#
@@ -2629,9 +2646,11 @@ D$(L;
 D$(L;D$PtVI
 D$(\E3
 D$(t3
+D$)2tsm
 D$,+D$$
 D$,D;l$8
 D$,I+
+D$-hiBm
 D$0+D$(
 D$0E+
 D$0E3
@@ -2648,9 +2667,10 @@ D$0M;
 D$0fD
 D$0fff
 D$0tx
+D$1or{t
 D$28I
-D$4I9V@
 D$4I;
+D$5qx3w
 D$88X4tJ
 D$8;D$<u3D
 D$8D8
@@ -2661,6 +2681,8 @@ D$8I+
 D$8I;
 D$8L+
 D$8fff
+D$9nrs
+D$<H9W@
 D$<SX
 D$?I;
 D$@8B
@@ -2685,16 +2707,12 @@ D$@M+
 D$@fA
 D$@u'H
 D$A8B
-D$Ayx~v
 D$B8B
-D$E|oy`
 D$HE3
 D$HH#
 D$HH+
 D$HHi
 D$Hfff
-D$I2tsm
-D$MhiBm
 D$PE3
 D$PH+
 D$PH9
@@ -2712,9 +2730,7 @@ D$PL;D$Xu
 D$PM;
 D$PMc
 D$PfA
-D$Qor{t
 D$TI;
-D$Uqx3w
 D$XA#
 D$XE3
 D$XH+
@@ -2727,7 +2743,6 @@ D$XL;
 D$Xaxis
 D$XuQH
 D$Xv?
-D$Ynrs
 D$] fra
 D$`A9
 D$`D9
@@ -2785,11 +2800,11 @@ D8,2u
 D8,7u
 D8,8u
 D840u
-D85 X(
+D85 a(
 D8<0u
-D8=63(
-D8=l3(
-D8=u3(
+D8=6<(
+D8=l<(
+D8=u<(
 D8D$9t$
 D8D$hH
 D8L$(t
@@ -2798,6 +2813,7 @@ D8`)t#E
 D8d$H
 D8d$P
 D8fht/H
+D8gXt
 D8h)t
 D8mpt
 D8o)tJ
@@ -2873,6 +2889,7 @@ D;{ |
 D;}Tr
 DD$(H
 DISABLED
+DISTORT_BSPLINE
 DISTORT_DPOLY3
 DISTORT_DPOLY3_SCALED
 DISTORT_DPOLY4_PANELSCALE
@@ -2957,7 +2974,6 @@ E(L9M
 E)eHD
 E0H+E(H
 E0Lc$
-E8^Xt
 E8g(tDD8
 E9>~eI
 E9A(|
@@ -2971,7 +2987,6 @@ ECameraHAL_OpenError_ToString
 ED$(H
 EHAiWh
 EHI;FHu
-EOfff
 ERROR
 ERROR: Expected 1 float args, fDegrees'
 ERROR: Expected 1 float args, fPitchDegrees'
@@ -3100,6 +3115,7 @@ F()h(H
 F(HcH
 F,9ATu
 F,9G,
+F-A+F%
 F0D85
 F8@85
 F<@85
@@ -3327,7 +3343,6 @@ GetUInt64
 GetWindowLongPtrA
 Getting devnode property store failed: hr = 0x%08x
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
-GpfD9
 GxiV@
 H I;	r
 H SVWH
@@ -3391,8 +3406,8 @@ H93t	H
 H97t	H
 H98t	H
 H9;uAA
-H9=Z7(
-H9=i6(
+H9=*E(
+H9=9D(
 H9A s
 H9A u&
 H9A u6
@@ -3457,8 +3472,8 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=4(
-H;=C+
+H;=@*
+H;=u.
 H;Axt
 H;B0t
 H;C s<H
@@ -3523,6 +3538,7 @@ HA^_^[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
+HL9-S"(
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
 HMD Report:
@@ -3678,7 +3694,7 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IL9-m
+IL9-t
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -3960,7 +3976,6 @@ L$8H;L$0
 L$8HcQx
 L$8I#
 L$8I9H@t
-L$8I9V@t
 L$8L+
 L$8L;
 L$@D8	u
@@ -3969,6 +3984,7 @@ L$@E3
 L$@H+
 L$@H3
 L$@H9Q
+L$@H9W@t
 L$@H9t$@ujH
 L$@H;
 L$@HcQ
@@ -4022,22 +4038,19 @@ L+H@H
 L+H@I
 L+P@H
 L+Q@I
-L.c.7P$
 L80L;
-L9%@}(
-L9%Ns(
-L9%\u(
-L9%\|(
-L9%x{(
 L9&u"
-L9-gB&
+L9-$!(
+L9-N#(
+L9-WM&
 L90H;
 L90M;
 L92u'
-L95'h&
-L95Xk&
+L95Hv&
+L95pv&
 L97u0H
-L9=?r&
+L9=/}&
+L9=|#&
 L9>u	H
 L9@ s
 L9A r
@@ -4135,7 +4148,7 @@ Looking for default audio playback device matching VID:%04x/PID:%04x %s
 Looking for default audio recording device matching VID:%04x/PID:%04x %s
 Lost default audio playback %s
 Lost default audio recording %s
-L~Zs>9
+L~Zs?D9
 M H1E
 M#V0M
 M#W0M
@@ -4145,7 +4158,6 @@ M9H s
 M;A r
 MAX10
 MB(iVR
-MD858
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4301,7 +4313,6 @@ P(H9|$h
 P;A(|
 PA^A]A\_^[]
 PA^A]_^[
-PA^^]
 PA^_]
 PA^_^
 PA^_^][
@@ -4398,7 +4409,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RQ@t`-
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4942,6 +4952,7 @@ Utah EV1
 Utah EV2
 Utah MP
 UuidFromStringA
+U}HrC:lF/
 V H+V
 V2 HMD with bogus trackrefs detected in configuration:
 V8H;C
@@ -5186,7 +5197,6 @@ VR_CONFIG_PATH
 VR_FIRMWARE_MANIFEST_FILE
 VR_LOG_DEBUG
 VR_LOG_PATH
-VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VSYNC:  %8d>%07.4f
 VUUUH
@@ -5356,11 +5366,11 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
+Y5Ng#
 Y9"SD
 Y?33s?
 YAHH+
 YAPH+
-YL9%Qr(
 Yl$ M
 Yl$4E
 Yl$hfD
@@ -5414,12 +5424,12 @@ ZL$Xf
 \$ UAVAWH
 \$ UH
 \$ UVAVH
-\$ UVAWH
 \$ UVWATAUAVAWH
 \$ UVWAUAVH
 \$ UVWH
 \$ UWATH
 \$ UWAUAVAWH
+\$ UWAVH
 \$ UWAWH
 \$ VATAVH
 \$ VATAWH
@@ -5644,6 +5654,7 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+a4Ix:q
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
 abgrt
 abort
@@ -5793,33 +5804,33 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
 cU	F9
 cal_method
@@ -5910,6 +5921,7 @@ data:text/plain;base64,
 dbhistory
 de_de
 deactivateStandbyOverride
+default_mm
 default_value
 delayed
 dependency
@@ -5946,7 +5958,6 @@ distort
 distortion
 distortion_blue
 distortion_red
-dn}kf
 dongles
 double
 doubleSided
@@ -6029,6 +6040,7 @@ extrinsics
 eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
+eye_tracking
 f(I;^
 f9+t4
 f98tZH
@@ -6039,6 +6051,7 @@ f;t$V
 f;|$pt_H
 fB9<Bu
 fD9	u
+fD9&u
 fD9,Bu
 fD;3t
 fF9,Au
@@ -6188,6 +6201,7 @@ h UAVAWH
 h VAVAWH
 hA\_^[
 hA^A\_^[]
+hA^A]^[
 hA_A^_^][
 hA__][
 hA__^[H
@@ -6483,6 +6497,7 @@ lighthousedb.json
 lighthousedriver:
 lights
 list<T> too long
+lmfff
 localeconv
 location
 low_mm
@@ -6534,7 +6549,6 @@ memcmp
 memcpy
 memmove
 memset
-meo|f
 meshes
 message
 message_id
@@ -6568,7 +6582,7 @@ nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
-nb~$Dt
+nSplineCtrlPts
 need dictionary
 negative_int_value
 nested_type
@@ -6688,7 +6702,6 @@ package
 packed
 pairing_result
 panel_burn_time_s: %d %d
-panel_clocking
 panel_on_time_deprecated_s: %d %d
 panel_on_time_s: %d %d
 parallel_render_cameras
@@ -6708,7 +6721,6 @@ plus_x
 plus_z
 polish
 portuguese
-position
 position out of bounds 
 positive_int_value
 power
@@ -6727,6 +6739,8 @@ prism.dll
 prismCorrectionEnable
 prismCorrectionHL
 prismCorrectionHR
+prismCorrectionVL
+prismCorrectionVR
 product %u rev %u.%u.%u lot %u/%u/%u %u
 proximity
 pt_br
@@ -6894,6 +6908,7 @@ subpixel_shift_red_in_pixels
 subtype mismatch
 succeeded
 success
+supported
 sv_sv
 svuyt
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
@@ -6996,6 +7011,7 @@ t$HcO4D
 t$Hff
 t$HuJH
 t$P;k
+t$PA;
 t$PE3
 t$PH;
 t$PH=
@@ -7007,7 +7023,6 @@ t$Tu0H
 t$XE3
 t$XtQH
 t$`8Y
-t$`A;
 t$`D;
 t$`E3
 t$`H;
@@ -7143,10 +7158,10 @@ twos_complement
 tx<	u#
 t|C9D
 t|SUVH
-t}H9=v
+t}H9=
 t~L9=
-t~L9=8
-t~L9={
+t~L9=(
+t~L9=k
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7162,7 +7177,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-+
+u<L9-;
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7799,6 +7814,7 @@ zuusA
 |$ 9y ~=H
 |$ @8y
 |$ ATAUAVAW
+|$ ATAUAVAWH
 |$ ATAVAW
 |$ ATAVAWH
 |$ ATH
@@ -7852,6 +7868,7 @@ zuusA
 |$8L9|$`t 
 |$8tCH
 |$<I;
+|$@A_A^A]A\
 |$@D;
 |$@E2
 |$@E3
@@ -7934,5 +7951,6 @@ zuusA
 ~3LcD$(L
 ~6HcD$ I
 ~:fD9
+~\LiW!
 ~qj#k"
 ~t&LN

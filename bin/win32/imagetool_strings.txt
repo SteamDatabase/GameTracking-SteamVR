@@ -1967,7 +1967,6 @@ $~O="""
 %gx%g%+g%+g
 %hd, 
 %hu, 
-%l;R4
 %lf%*[ ,]%lf
 %lf%*[ ,]%lf%*[ ,]%lf%*[ ,]%lf
 %lf,%lf: (%lf%*[%,]
@@ -3549,6 +3548,7 @@ $~O="""
 0+1q1
 0+262A2L2w2
 0,020G0Q0_0{0
+0,040L0T0x0
 0,0<0C0b0h0x0
 0,0I0f0
 0,0M0R0
@@ -3607,7 +3607,6 @@ $~O="""
 031:1?1`3
 033q3
 0383<3D3H3P3T3\3`3h3l3t3x3
-040<0T0\0
 040B0W0i0y0
 040l0|0
 041[1j1o1~1
@@ -3632,6 +3631,7 @@ $~O="""
 070Y0~0
 070x0
 080C0O0
+080D0L0l0
 080H0U0q0
 080\0
 081=1
@@ -3660,7 +3660,6 @@ $~O="""
 0?0D0
 0?0E0X0h0m0
 0?AssignImageColors
-0@0L0T0t0
 0A1X1m1w1|1
 0A1_1
 0A1k1 2*2/2
@@ -3812,6 +3811,7 @@ $~O="""
 1 1*1/1i2
 1 1-12171H1O1V1`1e1j1{1
 1 191R1k1
+1 1@1H1P1\1
 1 1g1~1
 1 2'2
 1 2K2V2a2v2
@@ -3851,7 +3851,6 @@ $~O="""
 1$151j1o1~1
 1$1A1J1T1d1n1t1:2I2N2]2b2
 1$1D1d1
-1$1H1T1\1|1
 1$1U1
 1$1s1{1
 1$2.232
@@ -3869,6 +3868,7 @@ $~O="""
 1%2x2%4B4
 1%2|2
 1%8*898>8g9l9{9
+1%xg@y
 1&1+1D1I1e1t1
 1&1,1B1c1
 1&121R1b1}1
@@ -3898,7 +3898,6 @@ $~O="""
 1(1E1J1T1l1w1
 1(1F1a1|1
 1(1G1
-1(1H1P1X1d1
 1(1H1h1
 1(1^1
 1(1t1
@@ -4048,6 +4047,7 @@ $~O="""
 1?j{3?
 1@1G1
 1@1G1S1q1
+1@1L1T1t1
 1@2J2W2
 1A26b
 1A2I2Q2Y2
@@ -4141,12 +4141,12 @@ $~O="""
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2 2$2(2,20242<2@2D2H2L2P2X2\2`2d2h2l2t2x2|2
 2 2$2(2,20282<2@2D2H2L2T2X2\2`2d2h2p2t2x2|2
+2 2$2(202D2\2`2|2
 2 2$2(2h2l2p2t2
 2 2$2,20282<2D2H2P2T2\2`2h2l2t2x2
 2 2$2,202D2H2P2T2\2`2h2l2t2x2
 2 2$20242@2D2P2T2`2d2p2t2
 2 2$2|2
-2 2(2,20282L2d2h2
 2 2(2,24282@2D2L2P2X2\2d2h2p2t2|2
 2 2(2@2P2T2d2h2l2p2t2|2
 2 2*2/2V2`2j2o2
@@ -4204,7 +4204,6 @@ $~O="""
 2$2(20242<2@2H2L2T2X2`2d2l2p2x2|2
 2$2)2U2_2d2'31363
 2$2*20282>2O2U2
-2$202P2\2
 2$2>2H2M2_2q2w2
 2$2D2d2
 2$2G2W2
@@ -4248,6 +4247,7 @@ $~O="""
 2(282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2(282H2X2h2x2
 2(292
+2(2H2T2x2
 2(2H2h2
 2(2I2j2
 2(3-3/4d4z4
@@ -4328,7 +4328,7 @@ $~O="""
 222P2b2}2
 22373K3o3
 223E3P3a3l3
-230503214648Z0/
+230629194858Z0/
 230x323
 23282G2L2e3
 23282R2W2q2v2
@@ -5320,7 +5320,7 @@ $~O="""
 5$5(50545<5@5H5L5T5X5`5d5l5p5x5|5
 5$5)585=5a5
 5$5*505
-5$5,545<5D5L5T5\5d5l5x5
+5$5,545<5D5L5T5\5d5p5
 5$5/5
 5$5D5d5
 5$5H5l5
@@ -5618,7 +5618,7 @@ $~O="""
 6$6(60646<6@6H6L6T6X6`6d6l6p6x6|6
 6$6)6
 6$6)6A6P6X6h6p6
-6$6,646<6@6D6H6P6d6l6
+6$6,64686<6@6H6\6d6x6
 6$6,646<6D6L6T6\6d6l6t6|6
 6$63686K6
 6$6D6d6
@@ -5891,7 +5891,6 @@ $~O="""
 7 7$7(7,7L7P7T7
 7 7$7(7Q;i;
 7 7$7,70787<7D7H7P7T7\7`7h7l7t7x7
-7 7$7,7@7H7P7X7\7`7d7l7
 7 7%7:7M7R7a7f7+8P8Z8j8
 7 7%7a7f7k7|7
 7 7(7,74787@7D7L7P7X7\7d7h7p7t7|7
@@ -5933,6 +5932,7 @@ $~O="""
 7$7)7
 7$7,747<7D7L7T7\7d7l7t7|7
 7$7.7t7y7
+7$787@7H7P7T7X7\7d7x7
 7$7;7y7
 7$7D7d7
 7$7H7M7q7v7
@@ -6216,7 +6216,6 @@ $~O="""
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
 8 8$8(8,8084888<8@8D8H8]8o8
 8 8$8,80888<8D8H8P8T8\8`8h8l8t8x8
-8 8$8,8@8H8P8X8\8`8d8l8
 8 8(8,8084888@8H8L8P8T8X8`8h8l8p8t8x8
 8 8(8,84888@8D8L8P8X8\8d8h8p8t8|8
 8 8*8S8e8{8
@@ -6251,6 +6250,7 @@ $~O="""
 8$8,848<8D8L8T8\8d8l8t8|8
 8$82878j8
 8$84888H8L8P8T8X8`8x8
+8$888@8H8P8T8X8\8d8x8
 8$8A8
 8$8D8d8
 8$9=9\9u9
@@ -6542,7 +6542,6 @@ $~O="""
 9 9$9(9,9094989<9@9D9H9L9P9T9u9
 9 9$9(9,909P9Z9_9n9x9}9
 9 9$9,90989<9D9H9P9T9\9`9h9l9t9x9
-9 9$9,9@9H9P9X9\9`9d9l9
 9 9%9Y9c9h9}9
 9 9(9,90989<9@9H9L9P9X9\9`9h9l9p9x9|9
 9 9(9,94989@9D9L9P9X9\9d9h9p9t9|9
@@ -6607,6 +6606,7 @@ $~O="""
 9$9.989B9L9V9`9j9t9~9
 9$909<9H9T9`9l9x9
 9$969n;
+9$989@9H9P9T9X9\9d9x9
 9$9D9d9
 9$:(:,:T:X:\:`:d:
 9$:.:
@@ -6939,6 +6939,7 @@ $~O="""
 9_lvW
 9`:e:t:y:
 9`;h;
+9`U"V
 9a9~9
 9a:h<l<p<t<x<|<
 9b9j9
@@ -7034,7 +7035,6 @@ $~O="""
 : :$:(:,:0:4:8:<:@:D:H:L:P:T:X:r:
 : :$:(:,:0:p:t:x:|:
 : :$:,:0:8:<:D:H:P:T:\:`:h:l:t:x:
-: :$:,:@:H:P:X:\:`:d:l:
 : :$:Q:
 : :$:|:
 : :(:,:0:8:<:@:H:L:P:X:\:`:h:l:p:x:|:
@@ -7084,6 +7084,7 @@ $~O="""
 :$:(:0:4:<:@:H:L:T:X:`:d:l:p:x:|:
 :$:,:4:<:D:L:T:\:d:l:t:|:
 :$:4:9:I:N:^:c:
+:$:8:@:H:P:T:X:\:d:x:
 :$:;:N:e:x:
 :$:D:d:
 :$:H:M:{:
@@ -7348,7 +7349,6 @@ $~O="""
 ; ;$;(;,;`;g;:<
 ; ;$;(;l;p;t;x;|;
 ; ;$;,;0;8;<;D;H;P;T;\;`;h;l;t;x;
-; ;$;,;@;H;P;X;\;`;d;l;
 ; ;%;I;S;X;
 ; ;%;N;G<L<[<`<
 ; ;(;,;0;8;<;@;H;L;P;X;\;`;h;l;p;x;|;
@@ -7394,6 +7394,7 @@ $~O="""
 ;$;,;4;<;D;L;T;\;d;l;t;|;
 ;$;0;<;H;T;`;l;x;
 ;$;3;C;z;
+;$;8;@;H;P;T;X;\;d;x;
 ;$;A;
 ;$;D;d;
 ;$;e;
@@ -7824,7 +7825,6 @@ $~O="""
 < <$<(<,<0<l<
 < <$<(<,<7<G=
 < <$<,<0<8<<<D<H<P<T<\<`<h<l<t<x<
-< <$<,<@<H<P<X<\<`<d<l<
 < <(<,<0<8<<<@<H<L<P<X<\<`<h<l<p<x<|<
 < <(<,<4<8<@<D<L<P<X<\<d<h<p<t<|<
 < <(<@<P<T<d<h<l<p<x<
@@ -7891,6 +7891,7 @@ $~O="""
 <$<(<0<4<<<@<H<L<T<X<`<d<l<p<x<|<
 <$<,<4<<<D<L<T<\<d<l<t<|<
 <$<2<=<
+<$<8<@<H<P<T<X<\<d<x<
 <$<:<K<a<r<
 <$<D<d<
 <$<H<f<
@@ -8280,7 +8281,6 @@ $~O="""
 = =$=(=,=0=4=8=<=@=D=H=P=T=X=\=p=x=
 = =$=(=,=0=4=e=
 = =$=,=0=8=<=D=H=P=T=\=`=h=l=t=x=
-= =$=,=@=H=P=X=\=`=d=l=
 = =$=\=c=p=t=">O>p>u>{>
 = =%=5=:=F=K=W=\=h=m=y=~=
 = =%=_=d=s=x=
@@ -8364,6 +8364,7 @@ $~O="""
 =$=0=
 =$=3=8=`=
 =$=7=G=[=j=~=
+=$=8=@=H=P=T=X=\=d=x=
 =$=;=R=i=}=
 =$=D=d=
 =$=J=O=n=s=
@@ -8680,7 +8681,6 @@ $~O="""
 > >$>(>,>2>@>T>Z>n>
 > >$>(>0>4>8><>@>D>L>P>T>X>\>`>h>l>p>t>x>|>
 > >$>,>0>8><>D>H>P>T>\>`>h>l>t>x>
-> >$>,>@>H>P>X>\>`>d>l>
 > >(>,>0>8><>@>H>L>P>X>\>`>h>l>p>x>|>
 > >(>,>4>8>@>D>L>P>X>\>d>h>p>t>|>
 > >*>@>E>J>V>f>p>w>
@@ -8727,6 +8727,7 @@ $~O="""
 >$>,>0>4>8>D>L>P>T>X>d>l>p>t>x>
 >$>,>4><>D>L>T>\>d>l>t>|>
 >$>6>;>M>R>a>f>
+>$>8>@>H>P>T>X>\>d>x>
 >$>:?M?g?
 >$>D>d>
 >$>T>
@@ -8978,7 +8979,6 @@ $~O="""
 ? ?$?(?=?
 ? ?$?,?0?4?8?<?@?H?L?P?T?X?\?d?h?l?p?t?x?
 ? ?$?,?0?8?<?D?H?P?T?\?`?h?l?t?x?
-? ?$?,?@?H?P?X?\?`?d?l?
 ? ?%?T?Y?h?m?
 ? ?(?,?0?4?8?<?D?H?L?P?T?X?`?d?h?l?p?t?|?
 ? ?(?,?0?8?<?@?H?L?P?X?\?`?h?l?p?x?|?
@@ -9019,6 +9019,7 @@ $~O="""
 ?$?+?2?H?U?
 ?$?,?0?4?8?D?L?P?T?X?d?l?p?t?x?
 ?$?,?4?<?D?L?T?\?d?l?t?|?
+?$?8?@?H?P?T?X?\?d?x?
 ?$?=?V?x?
 ?$?D?d?
 ?$?w?
@@ -13183,6 +13184,7 @@ H|p@j
 I koh Glos esa, und es duard ma ned wei.
 I suggest the following: try compressing the file again,
 I'?Fx'?v
+I($Wx
 I.S(ja
 I0N0s0x0
 I1S1X1
@@ -14269,6 +14271,7 @@ Lay/_
 Layers
 LcidToRfc1766A
 Lcs00
+Lc{c@
 LdUPN
 Leaf Jaw Positions
 Leaf Position Boundaries
@@ -16078,6 +16081,7 @@ QueryPerformanceFrequency
 QueueAuthenticPixelCacheNexus
 Quizdeltagerne spiste jordb
 QyReSOT5U
+QzD#L
 R Coord Of Bottom Right Corner
 R Coord Of Top Right Corner
 R Wave Pointer
@@ -19510,7 +19514,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c&fs&Y
 c1y1~1
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\imagetool\Retail\win32\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_win32\build\src\imagetool\Retail\win32\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\cairo\src\cairo-error.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
@@ -19783,7 +19787,6 @@ cHRM Red Y
 cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
-cHX8k
 cK`x;
 cU	F9
 cache
@@ -20054,6 +20057,7 @@ d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
+d^YuL
 d_7y3B
 dagger
 daggerdbl
@@ -20664,6 +20668,7 @@ f+D$Hf+
 f+NdfI
 f- `3
 f3ff33f3
+f6C{=
 f9D$B
 f9D$T
 f9F8uA
@@ -22628,7 +22633,6 @@ onehalf
 onequarter
 onesuperior
 ons d'hidrogen, coi!
-oo$?C
 op9o8t h
 opacity
 opacity "%s"
@@ -26128,6 +26132,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }Jfff
 }LuHO
 }WWh\
+}`:.u
 }b>G:c>
 }mxQ>
 }za?q

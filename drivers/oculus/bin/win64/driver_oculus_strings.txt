@@ -27,7 +27,6 @@
 	D$HA
 	w=%d, h=%d, format=%d
 	|$HA
-	~F_3u
     A
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  %41g
@@ -64,7 +63,7 @@
  sJE3
 !&.37<
 !(0)"
-!A#[\
+!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !hn7!
 " not found in the scene.
 """""""
@@ -221,7 +220,6 @@ $w!Hc
 -1e+9999
 -3003
 -9k0t&H
--9xSu
 -9{0t%H
 -D9c0t%H
 -Infinity
@@ -286,8 +284,8 @@ $w!Hc
 .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVBinaryBlendPoseMaker@@
 .?AVBlendMatrix3x3PoseMaker@@
 .?AVCAnimResource@@
@@ -387,6 +385,8 @@ $w!Hc
 .xdata
 .xdata$x
 /9{0t'H
+/=&c	
+/=Fd	
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -420,6 +420,8 @@ $w!Hc
 /proximity
 /skeleton/hand/left
 /skeleton/hand/right
+/user/ankle/left
+/user/ankle/right
 /user/camera
 /user/chest
 /user/elbow/left
@@ -434,6 +436,8 @@ $w!Hc
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/user/wrist/left
+/user/wrist/right
 0 width
 0-pixel image
 0A^_^
@@ -460,7 +464,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230503215146Z0/
+230629195050Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -482,7 +486,6 @@ $w!Hc
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
-7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -507,7 +510,6 @@ $w!Hc
 9l$Lt	E
 9|$0u
 : one or more FS callback not set
-:Lbpt
 ; expected 
 ; last read: '
 ;K sCH
@@ -523,7 +525,6 @@ $w!Hc
 <uninitialized>
 <unknown>
 =7p7M}
-=>Xjv4VO
 =ETLP
 =IBgC
 =SNRtt%
@@ -532,7 +533,6 @@ $w!Hc
 >0<0:
 >Mp$d
 >W`.]tB3?
-?3[0i
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -750,6 +750,7 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
+B;nq|
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -793,7 +794,8 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%
+C\$0L9%T
+C\$0L9%h
 C\$0M
 C\$PE
 C\$PH
@@ -905,6 +907,11 @@ D;l$0
 D;v(s
 D;z s
 D;}Tr
+DXGI_ERROR_DEVICE_HUNG
+DXGI_ERROR_DEVICE_REMOVED
+DXGI_ERROR_DEVICE_RESET
+DXGI_ERROR_DRIVER_INTERNAL_ERROR
+DXGI_ERROR_INVALID_CALL
 Default audio playback device: %s
 Default audio recording device: %s
 DeleteCriticalSection
@@ -968,6 +975,7 @@ File open error for writing :
 File read error : 
 File size mismatch : 
 File write error: 
+FnunvZ
 Forcing chaperone update
 Found path: 
 FreeLibrary
@@ -981,6 +989,7 @@ GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
+GetDeviceRemovedReason: 0x%X
 GetDriveTypeA
 GetEnvironmentVariableA
 GetExitCodeThread
@@ -1186,7 +1195,9 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L95)Z
+L95Ez
+L95Gy
+L95jw
 L9k8v
 L9t$@
 L9|$p
@@ -1408,7 +1419,6 @@ Unknown image format. STB cannot decode image data for image[
 Unknown(%u, %u)
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
-Us)K.
 UuidFromStringA
 VATAUAVAWH
 VATAUH
@@ -1440,10 +1450,11 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X%24	
-X-%3	
+X% 6	
+X5+K	
 XA^^[]
 XXXX PNG chunk not known
+Y5'K	
 Y9"SD
 Z9k0tUD
 ZL$Xf
@@ -1506,12 +1517,12 @@ ZL$Xf
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5cD	
 ]9k0tVD
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
+_)=cw#
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1692,13 +1703,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
 cU	F9
 camera
 cameras
@@ -1768,6 +1779,7 @@ extensionsRequired
 extensionsUsed
 extras
 fD9	u
+fD9&u
 false
 false literal
 fclose
@@ -2174,6 +2186,18 @@ shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_curved_vs.fxo
+shaders/d3d11/distort_geom_drawregion_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_curved_vs.fxo
+shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
+shaders/d3d11/distort_geom_drawregion_ps.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_curved_vs.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_vs.fxo
+shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
+shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
+shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_vs.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_ps.fxo
@@ -2284,10 +2308,12 @@ shaders/d3d11/tracked_camera_lines_vs.fxo
 shaders/d3d11/tracked_camera_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_devignette_vs.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_nv12_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_nv12_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_rgb_nv12_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_vs.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_ycbcr_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_vs.fxo
 shaders/d3d11/tracked_camera_undistort_ps.fxo
 shaders/d3d11/tracked_camera_undistort_vs.fxo
@@ -2417,7 +2443,7 @@ u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
-uTL9%_
+uTL9%
 ua_ua
 ukranian
 unexpected 
@@ -2484,32 +2510,31 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {un'%
+|$ ATAUAVAWH
 |$ ATAVAWH
 |$ AUAVAWH
 |$ AVH
-|$ AVL
 |$ E3
 |$ M;
 |$ UATAUAVAWH
 |$ UAVAWH
 |$ UH
-|$(A^
 |$(E3
 |$(I9V
 |$0H;
 |$0Hk
 |$0Mc
-|$8A_A^A\
 |$8H9S
 |$8H;
 |$8I+
 |$8M;
 |$<I;
+|$@A_A^A]A\
 |$@D;
-|$@E3
 |$@H+
 |$@Hc
 |$@M;
+|$HE3
 |$HH;
 |$HH=
 |$HI+

@@ -7,6 +7,7 @@
   "legacy_binding" :  "{indexcontroller}/input/legacy_bindings_index_controller.json",
   "input_bindingui_mode" : "controller_handed",
   "should_show_binding_errors": true,
+  "remapping" : "{indexcontroller}/input/index_controller_remapping.json",
   "input_bindingui_left" :
   {
     "image": "{indexcontroller}/icons/indexcontroller_left.svg"
