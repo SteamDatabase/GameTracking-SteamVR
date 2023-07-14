@@ -60,6 +60,7 @@ $Phdd
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
+&\coB
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -83,7 +84,6 @@ $Phdd
 +KL+SL_;
 +Xt@(
 +o'q)}
-+u~:%
 ,W5y+
 -1e+9999
 -ADDR %s
@@ -235,7 +235,7 @@ $Phdd
 220323000000Z
 220801000000Z
 220921000000Z
-230629194731Z0/
+230713075009Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -728,6 +728,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 GetVersionExA
+GjUFk
 H$;J$
 HTC BS
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -820,6 +821,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSb&
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1023,14 +1025,15 @@ Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
-[En:6
 [K]taM?
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
+]+ZSx#
 ]J<0"0i3
+]cS7,
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
 _CxxThrowException
@@ -1073,6 +1076,7 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
+a^ipU0
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1087,6 +1091,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
+b:Pcz/
 bad allocation
 bad array new length
 bad cast
@@ -1123,7 +1128,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-ihf-*eZM$"
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1192,6 +1196,7 @@ memcpy
 memmove
 memset
 need dictionary
+noc-e
 ntdll.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree

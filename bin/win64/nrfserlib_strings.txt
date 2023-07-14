@@ -89,6 +89,7 @@
 (L$@H
 (L$@f
 (L$PL
+(O=Jc
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (_^][
@@ -632,7 +633,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230629194756Z0/
+230713075847Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -647,7 +648,6 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5Vb]*]
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -1516,7 +1516,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS|
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1736,7 +1735,6 @@ XA^_][H
 XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
-Y!1{n
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1774,7 +1772,6 @@ Zipfile is corrupt or not a zipfile
 \$pI;
 \Device Parameters
 \u=H;
-] DV=
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
@@ -1842,7 +1839,6 @@ _strupr_s
 `.rdata
 `A_A^A\_^
 `A_A^_^]
-a6.I7D
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1881,6 +1877,7 @@ dat_file
 data error
 deque<T> too long
 digit
+e	Dy'
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2166,7 +2163,6 @@ upper
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
-w)?g_L
 wcschr
 winsock
 wn>Jj
@@ -2178,6 +2174,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
+z_KT\W
 {un'%
 {x\u!H
 {|?uWH

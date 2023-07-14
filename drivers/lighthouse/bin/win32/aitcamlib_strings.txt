@@ -1,5 +1,6 @@
 																																																																																																																
 	!s99
+	}f>2
  %41g
 !(0)"
 !9~ t
@@ -107,6 +108,7 @@ $9^ t
 /frame_time_monotonic
 /height
 /lighthouse/camera/raw_frames
+/qK^|
 /server_time_ticks
 /user/ankle/left
 /user/ankle/right
@@ -168,7 +170,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230629194721Z0/
+230713074959Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -417,7 +419,6 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
-GIoD`
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -428,6 +429,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
+HJU	yK
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -469,7 +471,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-K`7M.
 K}*n:	
 L?n(Zy&
 LeaveCriticalSection
@@ -481,13 +482,14 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NN2Y]
 Not Available
 NotFound
+O"YO0H
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 P<^_3
-P=^Hd
 PAq=?Mp#
 PID_%04X
 PQhX+
@@ -500,7 +502,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS?`
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -509,7 +510,6 @@ S0Q0O
 SA|X=G
 SETUPAPI.dll
 SNRtt(
-SOn8K
 SPB8t
 SPB8u
 SVWhX
@@ -570,6 +570,7 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
+U9m]=5
 UnhandledExceptionFilter
 Unknown
 Unknown exception
@@ -586,6 +587,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+W#-@.L
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -594,6 +596,7 @@ Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
+YX=(V]
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -703,6 +706,7 @@ c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
+cBMM=
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -748,7 +752,6 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
-j>(:O
 ja_jp
 japanese
 jj@0HK4
@@ -757,6 +760,7 @@ ko_ko
 korean
 latam
 ldexp
+m"a;N
 m0k0$
 malloc
 map/set<T> too long
@@ -808,6 +812,7 @@ strtol
 sv_sv
 swedish
 t"Php
+t>GWu
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

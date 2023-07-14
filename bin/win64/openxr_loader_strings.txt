@@ -67,6 +67,8 @@
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
 ,W5y+
+,x2N[
+,yi0w
 -1e+9999
 -Infinity
 .  Does it exist?
@@ -163,7 +165,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230629195129Z0/
+230713080148Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -177,7 +179,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5Aw3~
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -188,6 +189,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+9|khLnd
 <*J=)
 <0:08
 =rIQU
@@ -458,7 +460,9 @@ Instance handle is XR_NULL_HANDLE.
 Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J"3<+
 J>@G_
+K#+U)D
 KERNEL32.dll
 K}*n:	
 L#A0L
@@ -582,6 +586,7 @@ UWATAUAVH
 UWATAVAWH
 UWAVH
 UWAWH
+U^Jxt
 Unable to parse token length
 UnhandledExceptionFilter
 Unknown error occurred calling down chain
@@ -639,7 +644,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-Yb X23
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -707,6 +711,7 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
+a#&Ou}
 abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -794,7 +799,6 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
-k>9X>Zo
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -858,6 +862,7 @@ t$PH=
 t$`HcH
 t$xH;
 t9H9h
+tcF\2
 tmfff
 ungetc
 unknown type in properties
@@ -996,7 +1001,6 @@ xrWaitSwapchainImage
 |$xH;
 |$xIi
 |Lu?c
-}@uBfi
 }LuHO
 ~+fff
 ~qj#k"

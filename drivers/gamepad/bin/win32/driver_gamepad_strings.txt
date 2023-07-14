@@ -1,6 +1,5 @@
 	!s99
  %41g
- opm!
 !hn7!
 ',=?k
 (f*^[0
@@ -104,7 +103,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230629194821Z0/
+230713075058Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -143,7 +142,6 @@
 6D6Z6
 6I]Dc
 6OB,n_
-6|5{f
 7!7'7-73797?7E7K7Q7a7q7
 7/8X8g8z8
 70503
@@ -192,7 +190,6 @@
 Bellevue1
 CloseHandle
 CreateEventW
-DJ:wkf
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -235,10 +232,8 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-LQX\(
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
-MPG4	
 MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -248,6 +243,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSz
 RaiseException
 S0Q0O
 SA|X=G
@@ -280,7 +276,6 @@ SetEnvironmentVariableA
 SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID
 SleepConditionVariableCS
-T?^	p
 TerminateProcess
 TlsAlloc
 TlsFree
@@ -295,8 +290,8 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
+[Pf-c
 ]J<0"0i3
-^\kws54W(h
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -344,25 +339,21 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 cU	F9
-dB*$L
 driver_gamepad.dll
-g/N-i
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-is!Ir
-jR~ze
 jj@0HK4
 k0i0$
+l8UU.J
 m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
-qId+8
 string too long
 terminate
 uCVj@

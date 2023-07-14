@@ -521,6 +521,7 @@ $w!Hc
 %s_%3d
 %s_%s%s
 %u != %zu
+&%>i	
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &CVRMsg_CancelApplicationLaunchResponse
@@ -571,21 +572,19 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%-s)
-(%6v)
-(%E{)
-(%e2#
+(%ms)
+(%vv)
 ()$^.*+?[]|\-{},:=!
-(-n2#
-(5"D#
-(5Mz)
-(5h+#
+(-Hv)
+(5)l#
+(5/L#
+(5K,#
+(5bD#
 (9Q|uWH
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=(0-
-(=T6-
+(=h0-
 (A\^][
 (A\_^[
 (A]_^[
@@ -2287,7 +2286,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230629200027Z0/
+230713081013Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2361,7 +2360,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9(Y%e k
 9)u$M
 91tAH
 98t3H
@@ -2842,6 +2840,7 @@ $w!Hc
 @USWAVAWH
 @USWH
 @UVATAUAVH
+@UVATAVAWH
 @UVATAVH
 @UVATH
 @UVAUAWH
@@ -3023,6 +3022,7 @@ A_A^A\[
 A_A^A\[]
 A_A^A\]
 A_A^A\^
+A_A^A\^]
 A_A^A\_[]
 A_A^A\_]
 A_A^A\_^
@@ -3204,7 +3204,6 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-vB1
 C09w(~:L
 C0L9$
 C0L;E
@@ -3950,7 +3949,6 @@ D8,0u
 D8,8u
 D8<0u
 D8<>u
-D8=ic#
 D8D$9t$
 D8D$hH
 D8`)t#E
@@ -4843,6 +4841,7 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
+H;5*b*
 H;8u8H
 H;8u9
 H;8u:H
@@ -5892,6 +5891,7 @@ NL$`I
 NORMAL
 NOT_READY
 NPH9Q
+NRfEf
 NVTTA
 NVTTu
 NXH9Q
@@ -5997,6 +5997,7 @@ PC_%08llx
 PH@8|$HtAA
 PI;\$ u
 PLACEHOLDER_VALUE
+POQVj-
 POSITION
 PS_BLURSCENE
 PS_DISTORT
@@ -6623,7 +6624,6 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
-T5?%'
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -7618,14 +7618,12 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
-W%;E/
+W%{E/
 W(H;C
 W(LcB
 W,H;C
 W0H;C
-W532%
-W5\2%
-W5tV#
+W5s2%
 W8H+W`I
 W8H;C
 W<H;C
@@ -7689,7 +7687,7 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X5*x(
+X5jx(
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -8082,10 +8080,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%Hy/
-Y-py/
+Y-Sh5
 Y9"SD
-Y=qS/
 Y>t$7?*
 YD$8E
 Yl$ M
@@ -8283,6 +8279,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
+]5((0
 ]9k0tVD
 ]@L9{(
 ]HH;]Pt8
@@ -8293,6 +8290,7 @@ ZvFailed to create fence %ls.
 ]gfff
 ]pH9X
 ]wfHc
+^ `^w
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
@@ -9561,7 +9559,6 @@ mtllib
 multiple IHDR
 multiple signals per batch not allowed
 n0_D@
-n7tQN
 nArrayIndex < m_details.nArrayLayerCount
 nChildIndex != vr::k_unInvalidBoneIndex
 nClientFrameIndex != k_nInvalidClientFrameIndex
@@ -9612,7 +9609,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5\i'
+o5KC	
 o@@fD
 oD$ fD
 oD$0f
@@ -10570,7 +10567,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-
+t8D8-	l4
 t9fff
 t:fff
 t<Lc@xE
@@ -10698,6 +10695,7 @@ u)IcA,D
 u*H9w`t$H
 u*H9{`t$H
 u,+u(
+u-EZ.
 u-H9X s
 u.H9{`t(H
 u4H9X s
@@ -11502,10 +11500,8 @@ xrclient
 xrclient_conformance
 xrconformance/driver
 xxxxxxx
-yIEv6*
 yPDX10
 y_path
-yo~8[
 yxxxxxxx
 yxxxxxxx3
 yxxxxxxxE
@@ -11528,6 +11524,7 @@ zh_tw
 zlib corrupt
 znear
 zuusA
+zzS&vS
 { "type": "hide_keyboard" }
 { "type": "show_keyboard" }
 { AVH

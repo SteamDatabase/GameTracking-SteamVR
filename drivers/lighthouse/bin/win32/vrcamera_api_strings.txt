@@ -22,6 +22,7 @@
  sCWj
  t\9]
 !hn7!
+"7ofX
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
@@ -431,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 220921000000Z
-230629194716Z0/
+230713074955Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -687,6 +688,7 @@ $_^[]
 717>7[7b7g7p7w7~7
 728`9
 728|8@9
+73fCz
 778U8n8
 787^7f7
 797\7|7
@@ -750,7 +752,6 @@ $_^[]
 8J8j8|8
 8N8Z8`8
 8Q8}8
-8Tcra
 8Z8w8
 8[9w9
 8f8s8
@@ -871,7 +872,6 @@ $_^[]
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 :V;o;v;
 :\:|:
-:uOnw
 ; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
 ; ;$;(;,;0;4;8;<;@;D;H;L;T;l;|;
 ; ;$;(;0;H;X;\;`;d;h;l;p;t;x;
@@ -1301,7 +1301,6 @@ DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
 DuplicateHandle
-Dv*\|NE
 DynamicProgressFeedback
 E;w0tLj
 EI2C support not yet implemented
@@ -1501,6 +1500,7 @@ ReleaseSemaphore
 ResetEvent
 RoInitialize
 RoUninitialize
+Rp=?uO
 S0Q0O
 SA|X=G
 SSWVj	
@@ -1574,6 +1574,7 @@ VirtualFree
 VirtualProtect
 Vj@Z3
 VkP$4
+WH?t	
 WWVSW
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1586,6 +1587,7 @@ WideCharToMultiByte
 WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
+X/qp2
 XSVW3
 Y9"SD
 YYF;w,|
@@ -1612,6 +1614,7 @@ _W_Getdays
 _W_Getmonths
 _W_Gettnames
 _Wcsftime
+_["pm
 _^[h8
 __AdjustPointer
 __CxxFrameHandler3
@@ -1703,6 +1706,7 @@ connection refused
 connection reset
 count
 cross device link
+dMoB7'y
 destination address required
 device or resource busy
 digit
@@ -1759,7 +1763,6 @@ jj@0HK4
 k0i0$
 kK04k
 kW$4k_(4
-l4gVr
 ldexp
 localeconv
 lower
@@ -1803,6 +1806,7 @@ operation not permitted
 operation not supported
 operation would block
 owner dead
+p8nr-*
 pContext
 pEvents
 pExecutionResource

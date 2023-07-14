@@ -3868,7 +3868,6 @@ $~O="""
 1%2x2%4B4
 1%2|2
 1%8*898>8g9l9{9
-1%xg@y
 1&1+1D1I1e1t1
 1&1,1B1c1
 1&121R1b1}1
@@ -4328,7 +4327,7 @@ $~O="""
 222P2b2}2
 22373K3o3
 223E3P3a3l3
-230629194858Z0/
+230713075127Z0/
 230x323
 23282G2L2e3
 23282R2W2q2v2
@@ -4416,6 +4415,7 @@ $~O="""
 2E3]3
 2EDU$h
 2F3P3U3
+2FXb7W%
 2G2Q2V2
 2G2R2
 2G2b2
@@ -6939,7 +6939,6 @@ $~O="""
 9_lvW
 9`:e:t:y:
 9`;h;
-9`U"V
 9a9~9
 9a:h<l<p<t<x<|<
 9b9j9
@@ -9101,6 +9100,7 @@ $~O="""
 ?5?:?c?h?
 ?7?B?
 ?7?l?
+?85'C
 ?86RE%[
 ?8?G?Q?a?
 ?9?D?`?
@@ -12790,6 +12790,7 @@ GValueArray
 GVariant
 GX9T$
 GX_^][
+G^B&4
 G_DEBUG
 G_ENABLE_DIAGNOSTIC
 G_HOOK_IS_UNLINKED (hook)
@@ -13184,7 +13185,6 @@ H|p@j
 I koh Glos esa, und es duard ma ned wei.
 I suggest the following: try compressing the file again,
 I'?Fx'?v
-I($Wx
 I.S(ja
 I0N0s0x0
 I1S1X1
@@ -14271,7 +14271,6 @@ Lay/_
 Layers
 LcidToRfc1766A
 Lcs00
-Lc{c@
 LdUPN
 Leaf Jaw Positions
 Leaf Position Boundaries
@@ -16081,7 +16080,6 @@ QueryPerformanceFrequency
 QueueAuthenticPixelCacheNexus
 Quizdeltagerne spiste jordb
 QyReSOT5U
-QzD#L
 R Coord Of Bottom Right Corner
 R Coord Of Top Right Corner
 R Wave Pointer
@@ -18695,6 +18693,7 @@ Zoom Select Status
 [ghostscript library %.2f]%s: %s
 [zero-configuration]
 \ at end of pattern
+\!{+-
 \$ 9^
 \$ 9^Xu
 \$ 9~
@@ -20057,7 +20056,7 @@ d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
-d^YuL
+dX%-ei
 d_7y3B
 dagger
 daggerdbl
@@ -20668,7 +20667,6 @@ f+D$Hf+
 f+NdfI
 f- `3
 f3ff33f3
-f6C{=
 f9D$B
 f9D$T
 f9F8uA
@@ -21514,6 +21512,7 @@ gujarati
 gulong
 gurmukhi
 gview
+gy6=k4
 g{eWgL330551883=<6DC9GG>JI;MI6IE7MHJH@9E;+C9-?80>83=71>94@=9IA6P@-H?-K81C745=0@?/
 h	x\[`
 h 2 4h 4 2W
@@ -26132,7 +26131,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }Jfff
 }LuHO
 }WWh\
-}`:.u
 }b>G:c>
 }mxQ>
 }za?q
