@@ -264,7 +264,7 @@
 "VRInitError_Driver_HmdDisplayNotFound_Action" "Mai multe informații"
 "VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/ro/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Ecranul căștii este deconectat"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: ecranul căștii este deconectat"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Te rugăm să te asiguri că ai conectat bine cablurile video la laptop. Laptopurile pot necesita o configurare specială pentru a funcționa cu modul RV."
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Resetează casca"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 

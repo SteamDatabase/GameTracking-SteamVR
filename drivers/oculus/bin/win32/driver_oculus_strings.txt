@@ -26,7 +26,6 @@
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	w=%d, h=%d, format=%d
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
- "`x0
  %41g
  '-46
  (Camera
@@ -65,6 +64,7 @@
 #oculus_requested_quit
 $040:0O0c0
 $9^ t
+$t0d8b
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -302,7 +302,6 @@ $9^ t
 /input/x/touch
 /input/y/click
 /input/y/touch
-/ofm|
 /output/haptic
 /pose/raw
 /proximity
@@ -462,7 +461,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230713075117Z0/
+230727202837Z0/
 241009235959Z0a1
 252?2E2L2Z2c2h2
 262Q2_2y2
@@ -680,7 +679,6 @@ $9^ t
 6PjMjBh
 6X6t6
 6Z7c7
-6]!WL
 6^7:8
 6l7r7~7
 7 7$7(7,7074787<7@7D7H7L7P7T7X7
@@ -1425,7 +1423,6 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-Mx?D;
 NORMAL
 Neither required `bufferView` nor `uri` defined for image[
 No LoadImageData callback specified.
@@ -1476,7 +1473,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPVhX
-RSDS?
 RaiseException
 ResetEvent
 S0Q0O
@@ -1564,7 +1560,6 @@ Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
 Vp_^]
-WDRdQ<w
 WINMM.dll
 WRht-
 WTHelperGetProvSignerFromChain
@@ -1593,6 +1588,7 @@ Y__^[
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [Qh08
+[d`c(
 [json.exception.
 ] buffer "
 ] bufferView "
@@ -1812,7 +1808,6 @@ const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
-cs5kp
 cs_cs
 czech
 d3d11.dll
@@ -1833,10 +1828,10 @@ doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
+e"9}=
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
-eZB{@0GZ
 el_el
 emissiveFactor
 emissiveTexture
@@ -2474,7 +2469,6 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 y hx.
-yG'GE
 yxxx+
 zh_cn
 zh_tw

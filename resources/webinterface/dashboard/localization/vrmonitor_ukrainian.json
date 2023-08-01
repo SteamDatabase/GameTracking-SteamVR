@@ -353,7 +353,7 @@
 	"Settings_ActiveController": "Активний контролер",
 	"Settings_EditBinding": "Редагувати цю розкладку",
 	"Settings_EditBinding_ChooseAnother": "Обрати іншу",
-	"Settings_ShowOldBindingUI": "Показати інтерфейс старої розкладки",
+	"Settings_ShowBindingUI": "Показати інтерфейс розкладки",
 	"Settings_ManageVideoSettingsForApp": "Керування налаштуваннями відео для:",
 	"Settings_ManageControllerBindingSettingsForApp": "Керування розкладками контролера для:",
 	"Settings_ActiveControllerBinding": "Активна розкладка контролера",

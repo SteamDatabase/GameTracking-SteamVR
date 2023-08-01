@@ -20,6 +20,7 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+'eVO<
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -33,6 +34,7 @@
 )t$0H
 )t$@H
 *uXI;
++4+j$
 +Xt@(
 +o'q)}
 , last executing in 
@@ -126,6 +128,7 @@
 .text$yd
 .tls$
 .tls$ZZZ
+.u3l6]
 .xdata
 .xdata$x
 /user/ankle/left
@@ -162,7 +165,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713081109Z0/
+230727204303Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -185,6 +188,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+9>=v/
 < t+<
 <*J=)
 </u#H
@@ -398,7 +402,6 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
-F?bTW
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -537,6 +540,7 @@ Initializing output duplication for desktop view %d.
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jg9 rR
 K32GetModuleFileNameExW
 KERNEL32.dll
 K}*n:	
@@ -563,6 +567,7 @@ L;8u6H
 L?n(Zy&
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+Lh{%8
 Line %d, Column %d
 LoadCursorA
 LoadLibraryA
@@ -596,7 +601,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RUPAu
+RSDSv5<
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -685,6 +690,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 W H+W
+W'W}-
 WATAUAVAWH
 WAVAWH
 WaitForSingleObject
@@ -954,7 +960,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-}$z<x
 }LuHO
 ~qj#k"
 ~t&LN

@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Færdig",
-	"CompatibilityMode_Notification": "Automatisk kompatibilitetstilstand aktiveret. Bruger binding for \"%1$s\".",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Automatisk kompatibilitetstilstand aktiveret. Bruger binding for \"%1$s\"."
 }

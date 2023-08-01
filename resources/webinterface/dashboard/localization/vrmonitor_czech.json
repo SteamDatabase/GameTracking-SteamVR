@@ -353,7 +353,7 @@
 	"Settings_ActiveController": "Aktivní ovladač",
 	"Settings_EditBinding": "Upravit toto nastavení",
 	"Settings_EditBinding_ChooseAnother": "Vybrat jiné",
-	"Settings_ShowOldBindingUI": "Zobrazit staré rozhraní nastavení",
+	"Settings_ShowBindingUI": "Zobrazit rozhraní nastavení",
 	"Settings_ManageVideoSettingsForApp": "Spravovat nastavení obrazu pro:",
 	"Settings_ManageControllerBindingSettingsForApp": "Spravovat nastavení ovladače pro:",
 	"Settings_ActiveControllerBinding": "Nastavení aktivního ovladače",

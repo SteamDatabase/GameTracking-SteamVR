@@ -1,14 +1,18 @@
 	!s99
+	hVw0^
  %41g
  (Camera)
 !hn7!
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
+(}>ns
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
+,|	Ki
+-p!9/~z
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -91,7 +95,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713075120Z0/
+230727202840Z0/
 241009235959Z0a1
 2:2@2N2}2
 2>4~4
@@ -121,7 +125,6 @@
 4j/hd
 5&5.565r5
 5,505@5D5H5P5h5l5
-5.	Pwet
 535=5H5m5
 586<6@6D6H6L6P6T6X6\6`6
 5=637Q7~7
@@ -179,7 +182,6 @@
 <*J=)
 <0:08
 <F>Q>l>u>
-<L6vH1
 <Z=b=
 = =*=:=J=Z=c=r=x=~=
 = >/>B>N>^>o>
@@ -248,7 +250,6 @@ GetModuleHandleExW
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-Gf+w2<
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -286,6 +287,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NLZ(u
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -293,8 +295,10 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QJY2=
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSW
 RaiseException
 S0Q0O
 SA|X=G
@@ -394,6 +398,7 @@ camera
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
+eQIxh}
 f;A*stSW
 getenv
 headset
@@ -406,8 +411,8 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
+kgVs]
 m0k0$
-mN}X=J
 malloc
 map/set<T> too long
 memcpy

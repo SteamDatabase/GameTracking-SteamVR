@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "完成",
-	"CompatibilityMode_Notification": "已啟用自動相容模式。正在使用「%1$s」的配置。",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "已啟用自動相容模式。正在使用「%1$s」的配置。"
 }

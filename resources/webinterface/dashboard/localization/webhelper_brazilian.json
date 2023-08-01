@@ -48,7 +48,7 @@
 	"/pose/handgrip": "Empunhadura",
 	"/input/skeleton/left": "Esqueleto esquerdo",
 	"/input/skeleton/right": "Esqueleto direito",
-	"/output/haptic": "Háptica",
+	"/output/haptic": "Resposta tátil",
 	"/user/hand/right": "Mão direita",
 	"/user/hand/left": "Mão esquerda",
 	"/user/hand/primary": "Mão dominante",
@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
-	"CompatibilityMode_Notification": "Modo de compatibilidade automática ativado. Usando comandos do controle \"%1$s\".",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Modo de compatibilidade automática ativado. Usando comandos do controle \"%1$s\"."
 }

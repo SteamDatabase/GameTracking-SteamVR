@@ -2287,6 +2287,7 @@ $~O="""
 )\ZEo^m/
 )]_^[
 )`=`S
+)e<	(
 )np)nl)n\V
 )t$0f
 )y.0zkl6
@@ -4327,7 +4328,7 @@ $~O="""
 222P2b2}2
 22373K3o3
 223E3P3a3l3
-230713075127Z0/
+230727202845Z0/
 230x323
 23282G2L2e3
 23282R2W2q2v2
@@ -4415,7 +4416,6 @@ $~O="""
 2E3]3
 2EDU$h
 2F3P3U3
-2FXb7W%
 2G2Q2V2
 2G2R2
 2G2b2
@@ -5766,6 +5766,7 @@ $~O="""
 6<7F7K7i7
 6=7w7
 6=8*9V9
+6=^}e
 6>6C6
 6>7C7
 6>7C7R7W7
@@ -9100,7 +9101,6 @@ $~O="""
 ?5?:?c?h?
 ?7?B?
 ?7?l?
-?85'C
 ?86RE%[
 ?8?G?Q?a?
 ?9?D?`?
@@ -12790,7 +12790,6 @@ GValueArray
 GVariant
 GX9T$
 GX_^][
-G^B&4
 G_DEBUG
 G_ENABLE_DIAGNOSTIC
 G_HOOK_IS_UNLINKED (hook)
@@ -13009,6 +13008,7 @@ Ghostscript returns status %d, exit code %d
 Gi:%5
 Gl;G`r
 Gl;G`sXf
+GlKJn
 Gl_^[
 Glagolitic
 GlobalAlloc
@@ -18103,6 +18103,7 @@ VWjPj
 VWjxj
 VWt73
 VYBYe
+V\av '
 V_:X1:
 V_~]	,
 Valid palette required for paletted images
@@ -18693,7 +18694,6 @@ Zoom Select Status
 [ghostscript library %.2f]%s: %s
 [zero-configuration]
 \ at end of pattern
-\!{+-
 \$ 9^
 \$ 9^Xu
 \$ 9~
@@ -20056,7 +20056,6 @@ d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
-dX%-ei
 d_7y3B
 dagger
 daggerdbl
@@ -20258,6 +20257,7 @@ eacute
 ebcdic
 ecircumflex
 edieresis
+edon]=
 egrave
 eight
 elbasan
@@ -20884,6 +20884,7 @@ g0q0v0
 g<guJ
 g>Edh>G!i>
 g>ycx
+gO;Gx0\
 g[TNIEB?=:864310.-,+*)('&%$#""! 
 g_O=_O?_O>_O=_O=`P7\L9_[a}|
 g_array_append_vals
@@ -21512,7 +21513,6 @@ gujarati
 gulong
 gurmukhi
 gview
-gy6=k4
 g{eWgL330551883=<6DC9GG>JI;MI6IE7MHJH@9E;+C9-?80>83=71>94@=9IA6P@-H?-K81C745=0@?/
 h	x\[`
 h 2 4h 4 2W
@@ -21555,6 +21555,7 @@ hDNEIV
 hE+D_
 hEMItV
 hGEPJW
+hHdW\
 hIST must be after
 hI{L[
 hKYMC
@@ -25829,6 +25830,7 @@ y#ht34
 y)Wh|
 y-resolution
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
+yZ,O'e
 y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.
 yacute

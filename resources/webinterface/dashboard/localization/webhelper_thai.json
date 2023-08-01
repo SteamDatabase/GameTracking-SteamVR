@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "เสร็จสมบูรณ์",
-	"CompatibilityMode_Notification": "โหมดความเข้ากันได้โดยอัตโนมัติเปิดใช้งานแล้ว ใช้การเชื่อมโยงสำหรับ \"%1$s\"",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "โหมดความเข้ากันได้โดยอัตโนมัติเปิดใช้งานแล้ว ใช้การเชื่อมโยงสำหรับ \"%1$s\""
 }

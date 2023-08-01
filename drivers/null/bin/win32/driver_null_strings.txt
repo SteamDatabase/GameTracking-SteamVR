@@ -1,6 +1,7 @@
 	!s99
  %41g
 !hn7!
+!puB)9B
 ',=?k
 (f*^[0
 +Xt@(
@@ -52,7 +53,6 @@
 .text$x
 .text$yd
 .xdata$x
-.{oC\
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -88,7 +88,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713075112Z0/
+230727202825Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -107,7 +107,6 @@
 4	5(555?5I5V5c5i5s5}5
 4K4n4{4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4riOT^
 5 5$5<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5
 5$5E5V5
 5FjiT
@@ -137,7 +136,6 @@
 :0:@:D:T:X:`:x:
 ; ;0;4;8;<;D;\;
 ;$;-;9;B;G;X;b;k;w;
-;1&1<yd:
 ;F<r<
 <*J=)
 <0:08
@@ -263,7 +261,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-e][-}j
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -279,7 +276,6 @@ memset
 modelNumber
 renderHeight
 renderWidth
-s&eJf
 secondsFromVsyncToPhotons
 serialNumber
 steamvr

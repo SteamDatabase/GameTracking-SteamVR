@@ -52,7 +52,7 @@
 	"/user/hand/right": "Mâna dreaptă",
 	"/user/hand/left": "Mâna stângă",
 	"/user/hand/primary": "Mâna principală",
-	"/user/hand/secondary": "Cealaltă mână",
+	"/user/hand/secondary": "Mâna secundară",
 	"/user/hand/any": "Oricare mână",
 	"/user/stylus": "Stylus",
 	"/user/gamepad": "Gamepad",
@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Gata",
-	"CompatibilityMode_Notification": "Modul de compatibilitate automată este activat. Se utilizează asocierea pentru „%1$s”.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Modul de compatibilitate automată este activat. Se utilizează asocierea pentru „%1$s”."
 }

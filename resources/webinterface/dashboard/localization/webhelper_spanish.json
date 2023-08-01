@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Hecho",
-	"CompatibilityMode_Notification": "Modo de compatibilidad automática activado. Asignación para «%1$s» en uso.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Modo de compatibilidad automática activado. Asignación para «%1$s» en uso."
 }

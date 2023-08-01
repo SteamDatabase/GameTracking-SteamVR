@@ -5,11 +5,9 @@
 !hn7!
 ',=?k
 (f*^[0
-*LjM-
 +Xt@(
 +o'q)}
 ,W5y+
-,u]^K
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -85,7 +83,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713080111Z0/
+230727203220Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -107,8 +105,6 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-9 }g%,}
-;rve>
 <*J=)
 <0:08
 =rIQU
@@ -135,6 +131,7 @@ GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 H SWH
+H#\BLJ
 H93t	H
 H9=yQ
 HmdDriverFactory
@@ -159,6 +156,7 @@ IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
 K}*n:	
+L?hV5*
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
@@ -171,6 +169,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS5
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -178,7 +177,6 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
-T<&fP
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -191,6 +189,7 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
+Ye3u:
 [K]taM?
 \$ UH
 ]J<0"0i3
@@ -246,7 +245,6 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
-l; DB
 m0k0$
 malloc
 memcpy
@@ -271,10 +269,10 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+zzSLx
 {un'%
 |$ AVH
 |Lu?c
 }LuHO
-~n!fcI
 ~qj#k"
 ~t&LN

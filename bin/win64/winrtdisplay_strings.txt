@@ -6,11 +6,12 @@
  A_^]
  A__^
  H3E H3E
+ ]A1!
 !hn7!
 !m_bIsConnected
+#z]?-5
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
-&?@sP
 ',=?k
 (D$0f
 (f*^[0
@@ -109,6 +110,7 @@
 .xdata$x
 0A^_]
 0A_A^A]A\_^[
+0s1Q+
 0w0c1
 0}0i1
 1.0.0
@@ -118,7 +120,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713075706Z0/
+230727202724Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -260,6 +262,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSpfw
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -362,7 +365,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
-cIVnw
 cU	F9
 d3d11.dll
 dxgi.dll
@@ -400,7 +402,6 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-zKm7!
 {un'%
 |$ AVH
 |$0E3

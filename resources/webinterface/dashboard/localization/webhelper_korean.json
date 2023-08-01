@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "완료",
-	"CompatibilityMode_Notification": "자동 호환 모드가 활성화되었습니다. '%1$s' 바인딩을 사용합니다.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "자동 호환 모드가 활성화되었습니다. '%1$s' 바인딩을 사용합니다."
 }

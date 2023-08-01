@@ -2052,7 +2052,6 @@ $wtpt
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&=====================================
 &'&W&
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&0i-e
 &6FVfv
 &>Wx'>
 &@Hq\|
@@ -3718,7 +3717,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-230713080139Z0/
+230727203247Z0/
 230x323
 2384x3370
 24 24
@@ -13154,7 +13153,6 @@ TTu?Z|E_
 TUPLTYPE
 TUPLTYPE %s
 TURKISH
-TYZ1_
 T`00P
 Table Angle
 Table Delta
@@ -14518,7 +14516,6 @@ Zoom Select Status
 ^5KM0
 ^5NP0
 ^5TQ0
-^<a@us
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
@@ -15010,6 +15007,7 @@ bytes != NULL
 bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
+c"5]x
 c&fs&Y
 c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
@@ -17535,6 +17533,7 @@ k VWAWH
 k0i0$
 kD$,;D
 kU!W>
+kWC'w{W
 ka strax hwila p
 ka? nov
 kach<
@@ -17949,6 +17948,7 @@ n b?l?i.
 n(I;.|
 n10-/.,43/892>?5GD;OK8MK4XWW
 n2/t.
+n3	`Q
 n8L9e
 n= BGRt_= ZYXtN=rbCYt=H
 n?EKn?tzn?
@@ -21115,7 +21115,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 } bind def
 }!A+]dx
 }#A+]dx
-}%;md
 }*fE	
 }2fff
 }4A+udx.;

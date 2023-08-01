@@ -3715,8 +3715,8 @@
  puts
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1869.0
- r C.1872.1
+ r C.1870.0
+ r C.1873.1
  r C.417.0
  r CSWTCH.16
  r CSWTCH.209
@@ -27019,7 +27019,6 @@
  t vr::CVROverlayInternalLatest::ToggleCameraRoomView()
  t vr::CVROverlayInternalLatest::ToggleCameraRoomView() [clone .cold]
  t vr::CVROverlayInternalLatest::~CVROverlayInternalLatest()
- t vr::CVRPathHelpers::GetPath(unsigned long, unsigned long, void*, unsigned int, unsigned int*, vr::ETrackedPropertyError*)
  t vr::CVRPathHelpers::GetStringPath(unsigned long, unsigned long, vr::ETrackedPropertyError*)
  t vr::CVRPathHelpers::HandleToString(unsigned long, std::string*)
  t vr::CVRPropertyHelpers::GetStringProperty(unsigned long, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)

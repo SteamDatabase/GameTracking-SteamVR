@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Gotowe",
-	"CompatibilityMode_Notification": "Włączono tryb automatycznej zgodności. Przypisanie dla „%1$s” jest w użyciu.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Włączono tryb automatycznej zgodności. Przypisanie dla „%1$s” jest w użyciu."
 }

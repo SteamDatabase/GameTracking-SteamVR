@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Valmis",
-	"CompatibilityMode_Notification": "Automaattinen yhteensopivuustila valittuna. Käytetään ohjaimen %1$s määrityksiä.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Automaattinen yhteensopivuustila valittuna. Käytetään ohjaimen %1$s määrityksiä."
 }

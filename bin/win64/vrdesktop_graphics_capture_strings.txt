@@ -16,6 +16,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+$-1_9
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -178,7 +179,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713081119Z0/
+230727204314Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -209,6 +210,7 @@
 <0:08
 <unknown>
 =rIQU
+>'\Y-
 >0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -303,6 +305,7 @@ A^A\^
 A^A\^[]
 A^A]A\^]
 A^A]A\_^[]
+A^\7&9
 A^_^[]
 A_A\_^[
 A_A\_^]
@@ -354,7 +357,6 @@ C\$@H
 C\$@M
 C\$PL
 C\$pH
-Cbi8+<
 Close Frame
 CloseHandle
 CoCreateInstance
@@ -649,6 +651,7 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+Mz.F^
 NPH9Q
 OLEAUT32.dll
 OpenProcess
@@ -925,6 +928,7 @@ finnish
 fr_fr
 frame_time
 french
+g,/\< 
 german
 gfffffffH
 gfffffffI
@@ -959,6 +963,7 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
+kH@w	*X$t
 kernel32.dll
 ko_ko
 korean
@@ -979,9 +984,12 @@ memcpy
 memmove
 memset
 message_id
+nSv\)a
 no_no
 norwegian
 ntelD
+o<4.l
+o?)5]
 ole32.dll
 openvr_api.dll
 overlay_frame_times

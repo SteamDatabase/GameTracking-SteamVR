@@ -5,8 +5,8 @@
  9D$D
  A__^
  H3E H3E
+!OJ L
 !hn7!
-&LN@kyKpe}
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -24,7 +24,6 @@
 , last executing in 
 ,W5y+
 .00cfg
-.3	n'O
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -93,7 +92,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713080118Z0/
+230727203227Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -207,7 +206,6 @@ GetModuleHandleExW
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-GxZg 
 H SWH
 H93t	H
 H;{XH
@@ -270,7 +268,9 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS(`H-
 RaiseException
+RnXxEl
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -280,6 +280,7 @@ SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
+SJ#<!;6:
 SUWAWH
 SVWATAUAVAWH
 SetEvent
@@ -287,6 +288,7 @@ SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
 TUUUUUU
+TY0>i
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -316,10 +318,12 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 WATAUAVAWH
+WLp7#z
 WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+Y*JLj3
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -366,7 +370,6 @@ _purecall
 _register_onexit_function
 _seh_filter_dll
 _stricmp
-`'k[dR
 `.rdata
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -395,7 +398,6 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
-lqzy5
 m0k0$
 malloc
 map/set<T> too long
@@ -462,16 +464,19 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
+t0u?c
 tIL95f
 tXfff
 tdh.dll
 terminate
 tkH97t	H
+v	LKZ
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
+{A(Fr@
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

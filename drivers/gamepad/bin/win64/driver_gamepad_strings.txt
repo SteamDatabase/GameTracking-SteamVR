@@ -97,7 +97,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713080002Z0/
+230727203053Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -122,7 +122,6 @@
 9C }.H
 <*J=)
 <0:08
-=heNw
 =rIQU
 >0<0:
 >Mp$d
@@ -136,6 +135,7 @@
 @A^_^
 @UAWH
 A9A A
+AIufl
 A_A^_
 A_A^_^]
 AuthD
@@ -144,7 +144,6 @@ CloseHandle
 CreateEventW
 D$8H9
 D8{0t
-DE>9Q!
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -154,6 +153,7 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
+E8f.A
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -208,7 +208,9 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QtO?iP2
 QueryPerformanceCounter
+RSDSj
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -260,6 +262,8 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+Xr;ds
+X| # 
 Y9"SD
 [K]taM?
 \$ UH
@@ -318,6 +322,7 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
+llA/>X
 m0k0$
 malloc
 map/set<T> too long
@@ -326,6 +331,7 @@ memmove
 memset
 ntelD
 p WAVAWH
+rBMDSy=T
 string too long
 t$ AVH
 t$ AWH
@@ -337,6 +343,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+z6I,"
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

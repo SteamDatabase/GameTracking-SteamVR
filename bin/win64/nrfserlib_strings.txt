@@ -15,6 +15,7 @@
    Manufacturer: %s
    Service: %s
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
+ $bh>nl:
  %41g
  A^A]A\^]
  A^_^
@@ -89,7 +90,6 @@
 (L$@H
 (L$@f
 (L$PL
-(O=Jc
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (_^][
@@ -119,11 +119,13 @@
 *uXI;
 +9kdt	H
 +Xt@(
++[yM1
 +o'q)}
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
+,0S	_
 ,W5y+
 -1e+9999
 -Infinity
@@ -633,7 +635,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230713075847Z0/
+230727202913Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1877,7 +1879,6 @@ dat_file
 data error
 deque<T> too long
 digit
-e	Dy'
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2094,6 +2095,7 @@ strstr
 strtok_s
 strtoul
 system
+sz8Zv
 t$ 92u
 t$ AVH
 t$ AWH
@@ -2174,7 +2176,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-z_KT\W
 {un'%
 {x\u!H
 {|?uWH

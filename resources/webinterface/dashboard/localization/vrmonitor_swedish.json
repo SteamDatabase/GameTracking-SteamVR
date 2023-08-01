@@ -353,7 +353,7 @@
 	"Settings_ActiveController": "Aktiv kontroll",
 	"Settings_EditBinding": "Redigera denna bindning",
 	"Settings_EditBinding_ChooseAnother": "Välj annan",
-	"Settings_ShowOldBindingUI": "Visa äldre bindningsgränssnitt",
+	"Settings_ShowBindingUI": "Visa bindningsgränssnitt",
 	"Settings_ManageVideoSettingsForApp": "Hantera videoinställningarna för:",
 	"Settings_ManageControllerBindingSettingsForApp": "Hantera kontrollbindningarna för:",
 	"Settings_ActiveControllerBinding": "Aktivera kontrollbindning",

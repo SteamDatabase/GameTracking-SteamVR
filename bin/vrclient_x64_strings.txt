@@ -274,7 +274,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knN
+$tI(knNhO=
 $u=Hi
 $u[Hi
 $u^Hi
@@ -299,7 +299,7 @@ $w!Hc
 %d.%d.%d.%d
 %s %s startup with PID=%u, config=%s, runtime=%s
 %s (%X)-> %s
-%s - 
+%s [%s] - 
 %s begin_ctx=%llu
 %s called without first releasing previous slot!
 %s end_ctx=%llu
@@ -521,7 +521,6 @@ $w!Hc
 %s_%3d
 %s_%s%s
 %u != %zu
-&%>i	
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &CVRMsg_CancelApplicationLaunchResponse
@@ -572,19 +571,15 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%ms)
-(%vv)
+(%u`#
 ()$^.*+?[]|\-{},:=!
-(-Hv)
-(5)l#
-(5/L#
-(5K,#
-(5bD#
+(-~`#
+(52r#
+(5xY#
 (9Q|uWH
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=h0-
 (A\^][
 (A\_^[
 (A]_^[
@@ -1883,6 +1878,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
+/5p@#
 /9{0t'H
 /CVRMsg_ClientMailbox_SendMailboxMessageResponse
 /CVRMsg_CompositorSetDashboardVisibilityResponse" 
@@ -2286,7 +2282,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230713081013Z0/
+230727204153Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2307,6 +2303,7 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
+4--G9B
 416.16
 42HcF,
 440.97
@@ -2365,6 +2362,7 @@ $w!Hc
 98t3H
 98tHH
 9;tC@8{
+9=$N@
 9A(~0H
 9A|6H
 9C s.H
@@ -2442,7 +2440,6 @@ $w!Hc
 9sX~)L
 9sp~IH
 9t$ vlL
-9t$8r
 9w(~~H
 9y ~.H
 9y$~1H
@@ -2815,6 +2812,7 @@ $w!Hc
 @USATAVAWH
 @USATAVH
 @USAUAVAWH
+@USAUH
 @USAWH
 @USVATAUAWH
 @USVATAVH
@@ -2848,6 +2846,7 @@ $w!Hc
 @UVAVH
 @UVAWH
 @UVWATAUAVAWH
+@UVWATAUH
 @UVWATAVH
 @UVWATH
 @UVWAUAVH
@@ -2857,7 +2856,7 @@ $w!Hc
 @UVWAVH
 @UVWH
 @UWATAUAVH
-@UWATAUH
+@UWATAUAWH
 @UWATAVAWH
 @UWATAVH
 @UWATAWH
@@ -2896,7 +2895,7 @@ A(A9@
 A(A9@(}
 A(A9C(}
 A+H,A
-A0H9A(thH
+A0H9A(tkH
 A84(u
 A8EPH
 A8L+A0H
@@ -2963,6 +2962,7 @@ A]A\^[]
 A]A\^]
 A]A\_[]
 A]A\_^[]
+A]A\_^]
 A]_[]
 A]_^[]
 A]_^]
@@ -3030,6 +3030,7 @@ A_A^A\_^[]
 A_A^A\_^]
 A_A^A\_^][
 A_A^A]
+A_A^A]A\[]
 A_A^A]A\]
 A_A^A]A\^
 A_A^A]A\_
@@ -3074,7 +3075,6 @@ Action %s reading %s time %llu
 Action %s reading boolean failed
 Action %s rejecting input because it is private
 Action %s rejecting input because of device requirement
-Action Manifest Path set to %s
 Action Set names may not be empty
 Action names may not be empty
 Action paths must take the form '/actions/<action set>/in|out/<action>'. "
@@ -3099,11 +3099,7 @@ AddString
 AddUInt32
 AddUInt64
 Adding focus flag %s
-Adding tutorial action set %s twice!
 Adobe
-After initial config load, app appears to be using legacy input
-After initial config load, app appears to not be using SteamVR Input
-After initial config load, app appears to not be using input
 Alert
 Alias
 AllowSetForegroundWindow
@@ -3123,7 +3119,6 @@ Application failed to call xrGetVulkanGraphicsDevice before xrCreateSession
 Application submitted two left scene textures for a single frame!
 Application submitted two right scene textures for a single frame!
 ApplicationMenu
-Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Assert( %s ) %s(%d)
@@ -3131,7 +3126,6 @@ Asset
 Attempt to init shared state %s twice
 Attempted to access vulkan array info for a non-vulkan texture
 Attempted to read payload of %d bytes from pipe but failed
-Attempting to load initial input config
 AuthD
 Axis0
 Axis0_Value
@@ -3152,9 +3146,9 @@ B(A9C
 B(I9A
 B(I;A
 B0A9A
-B0H+B(D
 B0H+B(H
 B0H9B(tkH
+B0L+B(H
 B84/u
 B9T	$t
 B9T	$u
@@ -3175,8 +3169,6 @@ BeginFrame called outside of a valid session.
 Bellevue1
 Binding config missing required 'bindings' member
 Binding config missing required 'controller_type' member
-Binding path for haptic action %s could not be read: %s
-Binding path for haptic action %s resulted in property type tag %u instead of %u
 Bindings from OpenXR for 
 BlankEyeBuffer
 BlockQueueHeaderMutex_
@@ -3204,6 +3196,7 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
+C-vg1
 C09w(~:L
 C0L9$
 C0L;E
@@ -3698,7 +3691,6 @@ Compositor initialization succeeded, but screenshot init failed (404)
 Compositor requires mandatory firmware update (402)
 Compositor unable to create graphics device (405)
 Compressed from %0.2fMB to %0.2fMB dur=%fms
-Compressed skeleton buffer invalid for skeleton %s
 Compute Client
 Config path could not be located (111)
 Connect to VR Server Failed (301)
@@ -3942,11 +3934,11 @@ D3D11On12CreateDevice failed
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
-D8$0u
-D8$7u
 D8$>u
 D8,0u
 D8,8u
+D840u
+D84;u
 D8<0u
 D8<>u
 D8D$9t$
@@ -4064,6 +4056,7 @@ DeleteFileW
 Deliberately hanging inside VR_Init because the caller asked us to
 DescriptorProto
 DescriptorProtosH
+Detail
 Determined this is a legacy app.
 Determined this is a steamvr_input app.
 Device Calibration is invalid (207)
@@ -4177,11 +4170,10 @@ Enums must contain at least one value.
 Eo%lf
 EoH9EgtUH
 Ep9H(tRA
+Error
 Error creating VR renderer.
 Error creating depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
 Error creating shared texture '%s' %dx%d (%d mips)
-Error in input profile simulation settings for %s. Missing property: %s 
-Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. 
 Error initializing CDownsampleRenderer
 Error initializing CMsaaResolveRenderer
 Error parsing text-format 
@@ -4192,7 +4184,6 @@ Error! EventWriteString Severe: %s
 Error! Failed to create shader resource view for %s
 Error! Failed to load %s
 Error! Unable to load image %s: %s
-Error: Could not resolve %%LocalAppData%% in input profile simulation settings for %s. Skipping %s override. 
 Error: LiquidVR CreateALVRDeviceExD3D11 failed (%d)
 Error: LiquidVR CreateALVRDeviceExVulkan failed (%d)
 Error: LiquidVR CreateALVRExtensionVulkan failed (%d)
@@ -4285,7 +4276,6 @@ Failed get Texture_t from 0x%llx
 Failed get glTextureId from 0x%llx
 Failed getting mailbox response %s: %d
 Failed mapping view for %s
-Failed to JSON parse action binding config
 Failed to allocate Vulkan ring buffer
 Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u
 Failed to allocate new VRCompositor semaphore
@@ -4332,7 +4322,6 @@ Failed to create vk swapchain image: failed to create %d
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
 Failed to find a suitable resource value for %s:%s in driver:%s. Excessive iterations. Likely circular resource definition.
-Failed to find device container %llx. Waiting some more.
 Failed to find device data in CVRCompositorSharedTextures::BeginCommandBuffer!
 Failed to find device data in CVRCompositorSharedTextures::EndCommandBuffer
 Failed to find entrypoint WINRT_AcquireDisplay
@@ -4351,11 +4340,8 @@ Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to find interface '%s'
 Failed to find system resource manifest %s.
-Failed to generate action set handle for per-input tutorial action set
 Failed to get AllowSteamOverlays setting (%s). Allowing by default.
-Failed to get config binding from server. [app: %s]
 Failed to get graphics adapter LUID for EDID VendorId=%#04X
-Failed to get response from VRMsg_Input_SetXrInputConfig quick enough.
 Failed to import client event handle from pipe %s after connecting
 Failed to import server event handle from pipe %s after connecting
 Failed to init camera frame buffering for device index %u
@@ -4365,7 +4351,6 @@ Failed to init vulkan binding: renderer init error
 Failed to init web server shared state
 Failed to initialize AMD LiquidVR Vulkan support.
 Failed to initialize logging
-Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u [app: %s]
 Failed to load compute shader %s! (size=%d)
 Failed to load extension: CmdDebugMarkerBeginEXT
 Failed to load extension: CmdDebugMarkerEndEXT
@@ -4390,14 +4375,8 @@ Failed to load glGetRenderbufferParameteriv!
 Failed to load glIsRenderbuffer!
 Failed to load glTexImage3D!
 Failed to load glTexStorage3D!
-Failed to load input profile for controller type: %s
-Failed to load input profile for simulated controller type: %s
-Failed to load input profile for simulated hmd type: %s
 Failed to load libvulkan
 Failed to load pixel shader %s! (size=%d)
-Failed to load simulation settings for %s. Input profile at %s could not be loaded.
-Failed to load simulation settings for %s. Input profile does not have a simulation_settings item.
-Failed to load simulation settings for %s. Input profile has a simulation_settings item but it is not an object.
 Failed to load vertex shader %s! (size=%d)
 Failed to load wglDXCloseDeviceNV!
 Failed to load wglDXLockObjectsNV!
@@ -4417,7 +4396,6 @@ Failed to open reply mailbox in CVRNotificationsLatest: %d
 Failed to parse JSON object
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
-Failed to parse action binding config: %s
 Failed to parse chaperone file because jsonid was %s
 Failed to parse chaperone file because the top level json node is not an object
 Failed to parse chaperone file because universes was not an array
@@ -4428,9 +4406,7 @@ Failed to reconnect because of error %s
 Failed to ref VRCompositor resource 0x%llx
 Failed to release mirror texture (%s)!
 Failed to reset command list when setting barrier transition
-Failed to retrieve grip limit pose from shared memory
 Failed to send set_notification_image message with %d
-Failed to set action manifest path to %s: %s
 Failed to set thread %p priority: invalid priority %d
 Failed to setup GL interop for color texture
 Failed to setup GL interop for depth texture
@@ -4447,6 +4423,7 @@ Failed to write event process handle after connecting because %s
 Failed waiting for gpu to be finished for fence %ls. 
 Failed when calling CheckFeatureSupport for %d
 False
+Fatal
 Fatal : VkResult is "
 Field "
 Field does not match message type.
@@ -4574,7 +4551,6 @@ Found IDXGIAdapter index %d which matches expected LUID 0x%llx.
 Found Windows 10 or newer, so enable advanced image processing of scene textures.
 Found Windows 8 or newer, so enable advanced image processing of scene textures.
 Found environment variable STEAMVR_MOTION_SMOOTHING_WIN7=1
-Found input path with unexpected prefix: %s
 FreeLibrary
 FreeRenderModel called with %p which has a zero refcount.
 FreeRenderModel called with %p which is not in the model list
@@ -4753,6 +4729,8 @@ H92u&
 H92u,
 H93t	H
 H948t
+H95(KF
+H95jMF
 H98t	H
 H9;uAA
 H9A H
@@ -4836,12 +4814,13 @@ H9{`u
 H9|$ t&H
 H9|$0
 H9|$0t
+H9|$@u
 H;+u*
 H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
-H;5*b*
+H;5e2*
 H;8u8H
 H;8u9
 H;8u:H
@@ -5359,7 +5338,6 @@ Index out-of-bounds (field is empty).
 Infinity
 Init Success!
 Init of CVRCompositorClientBase failed with %s
-Initial config load timed out
 InitializeAcl
 InitializeAcl failed. GetLastError returned: %d
 InitializeConditionVariable
@@ -5371,7 +5349,6 @@ InitializeSecurityDescriptor failed. GetLastError returned: %d
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
 Initializing CVulkanVRRenderer
 Initializing the limited version of CVRCompositorClient
-Input is disabled. [app: %s]
 InputCoord
 InputValueType_Boolean
 InputValueType_Haptic
@@ -5396,7 +5373,6 @@ Invalid XrVisibilityMaskTypeKHR
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid active action set priority. %s apps must provide a priority of no more than %d
 Invalid active action set size
 Invalid application type %d
 Invalid binary data in `Buffer'.
@@ -5414,14 +5390,8 @@ Invalid image data for image[
 Invalid input type %s for controller (%s)
 Invalid magic.
 Invalid max zone %f. Ignoring it.
-Invalid name in GetActionHandle
-Invalid name in GetInputSourceHandle
 Invalid output hand 
 Invalid overlay index %d in handle %llx
-Invalid pHandle in GetActionHandle for %s
-Invalid pHandle in GetActionSetHandle for %s
-Invalid pHandle in GetInputSourceHandle for %s
-Invalid path in GetActionSetHandle
 Invalid proto descriptor for file "
 Invalid public dependency index.
 Invalid response to connect message. Connect failed
@@ -5657,6 +5627,7 @@ L+Q@I
 L8 9J
 L8$9J
 L9 t'H
+L9%/^'
 L9&u"
 L90t	H
 L92u'
@@ -5679,7 +5650,6 @@ L9`PtGH
 L9cHt'H
 L9d$ A
 L9d$@
-L9d$@t,H
 L9d$`
 L9d$pH
 L9eHu
@@ -5790,8 +5760,6 @@ LoadLibraryW
 LoadResult
 Loaded %s in %fms
 Loaded image %s (%dx%d) dur=%fms
-Loaded input profile for simulated controller type: %s
-Loaded input profile for simulated hmd type: %s
 Loaded resource-only driver %s from %s
 Loaded server driver %s (%s) from %s
 Loading compute shader %s
@@ -5891,7 +5859,6 @@ NL$`I
 NORMAL
 NOT_READY
 NPH9Q
-NRfEf
 NVTTA
 NVTTu
 NXH9Q
@@ -5904,7 +5871,6 @@ No LoadImageData callback specified.
 No VRSettings(), allowing Steam overlays by default.
 No active action set
 No command buffer open in EndCommandBuffer!
-No controllers detected. Not waiting for config.
 No default value
 No drivers were capable of being watchdogs. Failing init.
 No field named "uninterpreted_option" in the Options proto.
@@ -5997,7 +5963,6 @@ PC_%08llx
 PH@8|$HtAA
 PI;\$ u
 PLACEHOLDER_VALUE
-POQVj-
 POSITION
 PS_BLURSCENE
 PS_DISTORT
@@ -6017,7 +5982,6 @@ Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PoolGC
-Previous frame overflowed per-device vector by %u actions (to %u total) Bumping up the high water mark.
 Primitive
 PrismTimeline:%llu
 Process called VR_Init a second time without an intervening VR_Shutdown. Returning success.
@@ -6234,6 +6198,7 @@ PropertyContainerCreation
 Protocol Buffer reflection usage error:
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
+Pt Ej
 Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
@@ -6413,7 +6378,6 @@ ServerEventSignal
 ServiceDescriptorProto
 ServiceOptions
 Set thread %p priority to: %d
-SetActionManifestPath requires an absolute path. %s is not absolute.
 SetAllocatedMessage
 SetBool
 SetDouble
@@ -6448,7 +6412,6 @@ SetThreadPriority
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
-Setting device %d with override properties for %s
 Setting max texture dimensions to %dx%d before requiring downsampling
 Settings manager init failed (118)
 SetupDiDestroyDeviceInfoList
@@ -6734,6 +6697,7 @@ UAUAWI
 UAVAWH
 UNKNOWN_ERROR
 UNNAMED
+USATAUAVAWH
 USATAUAWH
 USATAUH
 USATAVH
@@ -6873,7 +6837,6 @@ Unable to load safe_mode_driver_whitelist.json: %s.  Nothing will be loaded in s
 Unable to open current process for duplicating handles because %s
 Unable to open process id=%d from pipe %s after connecting because %s
 Unable to parse 
-Unable to parse action manifest: %s [app: %s]
 Unable to parse driver manifest %s
 Unable to parse init info. Options will be ignored
 Unable to parse perimeter
@@ -6903,8 +6866,6 @@ Unable to write action data
 Unable to write path registry (113)
 Unbound input (%s,%s) for chord, ignoring chord.
 Unexpected end of string.
-Unexpected error %s when trying to read input value %s (%llX)
-Unexpected error %s when trying to read input value %s (%llX) with expected type %s 
 Unexpected error while trying to change the OpenXR application type: [%s]
 Unexpected failure when checking for timeline signal
 Unexpected failure while serializing option submessage 
@@ -6923,11 +6884,8 @@ Unknown Path
 Unknown VRApplicationsError (%d)
 Unknown VRSettingsError (%d)
 Unknown VRTrackedCameraError (%d)
-Unknown action %s when loading binding file
 Unknown action set %s
-Unknown action set %s when loading binding file
 Unknown compositor error (%d)
-Unknown compression type %u
 Unknown enumeration value of "
 Unknown error (%d)
 Unknown exception
@@ -6939,8 +6897,6 @@ Unknown image format. STB cannot decode image data for image[
 Unknown input value type (%d)
 Unknown property error (%d)
 Unknown render model error (%d)
-Unknown skeleton path %s
-Unknown skeleton type %u
 Unknown string table context %s
 UnmapViewOfFile
 Unnamed simulated action failed to parse: 
@@ -7618,12 +7574,13 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
-W%{E/
+W%{U/
 W(H;C
 W(LcB
 W,H;C
 W0H;C
-W5s2%
+W5<?%
+W5d[#
 W8H+W`I
 W8H;C
 W<H;C
@@ -7662,7 +7619,7 @@ WaitNamedPipe %s failed because %s
 WaitNamedPipe %s failed because no one is listening at that name.
 WaitNamedPipeA
 WakeAllConditionVariable
-Wanted to store %u global priority inputs, but only had space for %u
+Warning
 Warning parsing text-format 
 Warning: Analog threshold added to [%s -> %s]. This method is deprecated. Please use XR_TYPE_BINDING_MODIFICATIONS_KHR instead
 Warning: Dpad bindings can only be added to a single action set!
@@ -7687,7 +7644,6 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X5jx(
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -8080,8 +8036,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-Sh5
+Y%EE#
+Y53K#
 Y9"SD
+Y=4K#
 Y>t$7?*
 YD$8E
 Yl$ M
@@ -8117,10 +8075,10 @@ ZvFailed to create fence %ls.
 [CMsaaResolveRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
 [CommandAllocator %d] AddResourceBarrier
-[Compatibility Mode] Error: Could not get notification interface. %d
-[Compatibility Mode] Error: Could not get overlay interface. %d
-[Compatibility Mode] Error: Notification failed: %d
-[Compatibility Mode] Error: Overlay creation failed: %s
+[Compatibility Mode] Could not get notification interface. %d
+[Compatibility Mode] Could not get overlay interface. %d
+[Compatibility Mode] Notification failed: %d
+[Compatibility Mode] Overlay creation failed: %s
 [Compositor Client] !!!! AcquireSync FAILED with E_FAIL
 [Compositor Client] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [Compositor Client] !!!! AcquireSync FAILED with WAIT_TIMEOUT
@@ -8153,6 +8111,181 @@ ZvFailed to create fence %ls.
 [Compositor Client] WaitGetPoses ThreadId=%d
 [GetVideoStreamFrame] Read (%d)
 [GetVideoStreamTextureGL] Read (%d)
+[Input] Action Manifest Path set to '%s'
+[Input] After initial config load, app appears to be using legacy input
+[Input] After initial config load, app appears to not be using SteamVR Input
+[Input] After initial config load, app appears to not be using input
+[Input] Attempting to load initial input config
+[Input] Binding path for haptic action %s could not be read: %s
+[Input] Binding path for haptic action %s resulted in property type tag %u instead of %u
+[Input] DecompressSkeletalBoneData failed. Array for decompressed transforms is too small. Needed %u. Got %u
+[Input] DecompressSkeletalBoneData failed. Compressed skeleton buffer invalid for skeleton %s
+[Input] DecompressSkeletalBoneData failed. Invalid data
+[Input] DecompressSkeletalBoneData failed. Unknown compression type %u
+[Input] DecompressSkeletalBoneData failed. Unknown skeleton path %s
+[Input] DecompressSkeletalBoneData failed. Unknown skeleton type %u
+[Input] DoesActionHaveOrigin failed. Action is not valid.
+[Input] DoesActionHaveOrigin failed. Error with current frame.
+[Input] DoesActionHaveOrigin failed. Input is disabled.
+[Input] DoesActionHaveOrigin failed. Origin handle invalid.
+[Input] Failed to JSON parse action binding config
+[Input] Failed to find device container %llx. Waiting some more.
+[Input] Failed to get config binding from server. [app: %s]
+[Input] Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u [app: %s]
+[Input] Failed to load input profile for controller type: %s
+[Input] Failed to load input profile for simulated controller type: %s
+[Input] Failed to load input profile for simulated hmd type: %s
+[Input] Failed to load simulation settings for %s. Input profile at %s could not be loaded.
+[Input] Failed to load simulation settings for %s. Input profile does not have a simulation_settings item.
+[Input] Failed to load simulation settings for %s. Input profile has a simulation_settings item but it is not an object.
+[Input] Failed to parse action binding config: %s
+[Input] Failed to set action manifest path to '%s'. Error: %s
+[Input] GetActionBindingInfo failed. Buffer too small. Got: %u. Needed: %zu
+[Input] GetActionBindingInfo failed. Error with current frame
+[Input] GetActionBindingInfo failed. Invalid parameter punReturnedBindingInfoCount.
+[Input] GetActionBindingInfo failed. unBindingInfoSize incorrect size.
+[Input] GetActionHandle failed. Handle not found for action path: %s
+[Input] GetActionHandle failed. Input is disabled. ActionSet: %s
+[Input] GetActionHandle failed. Invalid handle parameter
+[Input] GetActionHandle failed. Invalid path parameter
+[Input] GetActionOrigins failed. Action is not valid.
+[Input] GetActionOrigins failed. Buffer too small. Got: %u. Needed: %zu
+[Input] GetActionOrigins failed. Error with current frame.
+[Input] GetActionOrigins failed. Input is disabled.
+[Input] GetActionSetHandle cannot execute because input is disabled. ActionSet: %s
+[Input] GetActionSetHandle failed. Unknown action set: %s
+[Input] GetAnalogActionData failed. Error with current frame.
+[Input] GetAnalogActionData failed. Input is disabled.
+[Input] GetAndCollapseActionValues failed. Invalid action: %llu
+[Input] GetBindingVariant failed. Buffer too small. Got: %u. Needed: %zu
+[Input] GetBoneCount failed. Bone count parameter invalid.
+[Input] GetBoneCount failed. Invalid action.
+[Input] GetBoneCount failed. Invalid skeleton description.
+[Input] GetBoneHierarchy failed. Buffer Too Small
+[Input] GetBoneHierarchy failed. Invalid Skeleton Animation
+[Input] GetBoneHierarchy failed. Invalid action.
+[Input] GetBoneHierarchy failed. Invalid skeleton description.
+[Input] GetBoneName failed. Buffer Too Small
+[Input] GetBoneName failed. Invalid Bone Index.
+[Input] GetBoneName failed. Invalid Skeleton Animation
+[Input] GetBoneName failed. Invalid action.
+[Input] GetBoneName failed. Invalid skeleton description.
+[Input] GetComponentStateForBinding failed. Invalid RenderModel component: %s::%s
+[Input] GetComponentStateForBinding failed. Invalid parameter pComponentState.
+[Input] GetComponentStateForBinding failed. Invalid parameter pOriginInfoList.
+[Input] GetComponentStateForBinding failed. Invalid parameter pchComponentName.
+[Input] GetComponentStateForBinding failed. Invalid parameter pchRenderModelName.
+[Input] GetDigitalActionData failed. Error with current frame.
+[Input] GetDigitalActionData failed. Input is disabled.
+[Input] GetDominantHand failed. App does not support dominant hand setting.
+[Input] GetDominantHand failed. Invalid parameter peDominantHand.
+[Input] GetHandPose failed. Invalid pose parameter.
+[Input] GetInputSourceHandle failed. Handle not found for input source path: %s
+[Input] GetInputSourceHandle failed. Input is disabled. Path: %s
+[Input] GetInputSourceHandle failed. Invalid handle parameter
+[Input] GetInputSourceHandle failed. Invalid path parameter
+[Input] GetInputValueHandle failed. Unknown input source: %s
+[Input] GetOriginLocalizedName failed. Error with current frame.
+[Input] GetOriginLocalizedName failed. Input is disabled.
+[Input] GetOriginLocalizedName failed. Invalid parameter unStringSectionsToInclude.
+[Input] GetOriginLocalizedName failed. Problem finding device path from specified origin.
+[Input] GetOriginLocalizedName failed. Problem finding source from specified origin.
+[Input] GetOriginLocalizedName failed. Problem finding specified origin.
+[Input] GetOriginLocalizedName failed. unStringSectionsToInclude is 0.
+[Input] GetOriginTrackedDeviceInfo failed. Error with current frame.
+[Input] GetOriginTrackedDeviceInfo failed. Input is disabled.
+[Input] GetOriginTrackedDeviceInfo failed. Origin is invalid.
+[Input] GetOriginTrackedDeviceInfo failed. pOriginInfo is invalid.
+[Input] GetOriginTrackedDeviceInfo failed. ulActionHandle is invalid.
+[Input] GetOriginTrackedDeviceInfo failed. unOriginInfoSize incorrect size. Got: %u. Expected: %zu.
+[Input] GetPoseActionDataRelativeToNow failed. Action data size parameter was incorrect. Got: %u. Wanted: %zu
+[Input] GetPoseActionDataRelativeToNow failed. Action is of the wrong type.
+[Input] GetPoseActionDataRelativeToNow failed. Device does not exist.
+[Input] GetPoseActionDataRelativeToNow failed. Error with current frame.
+[Input] GetPoseActionDataRelativeToNow failed. Input is disabled.
+[Input] GetPoseModification failed. Action is not active.
+[Input] GetPoseModification failed. Action is of wrong type.
+[Input] GetPoseModification failed. Error with current frame.
+[Input] GetPoseModificationFromPath failed. Error with current frame.
+[Input] GetPoseModificationFromPath failed. Error with input frame.
+[Input] GetPoseModificationFromPath failed. Invalid device path.
+[Input] GetPoseModificationFromPath failed. Wrong input value type.
+[Input] GetSkeletalActionData failed. Action data size parameter is incorrect. Got: %u. Wanted: %zu
+[Input] GetSkeletalActionData failed. Action is of the wrong type.
+[Input] GetSkeletalActionData failed. Error with current frame.
+[Input] GetSkeletalActionData failed. Input is disabled.
+[Input] GetSkeletalBoneData failed. Action is not active.
+[Input] GetSkeletalBoneData failed. Action is of the wrong type.
+[Input] GetSkeletalBoneData failed. Error with current frame.
+[Input] GetSkeletalBoneData failed. Input is disabled.
+[Input] GetSkeletalBoneDataCompressed failed. Action is not active.
+[Input] GetSkeletalBoneDataCompressed failed. Action is of the wrong type.
+[Input] GetSkeletalBoneDataCompressed failed. Buffer too small. Got: %u. Expected: %u
+[Input] GetSkeletalBoneDataCompressed failed. Error with current frame.
+[Input] GetSkeletalBoneDataCompressed failed. Input is disabled.
+[Input] GetSkeletalBoneDataCompressed failed. Invalid skeleton animation
+[Input] GetSkeletalBoneDataCompressed failed. Invalid skeleton description.
+[Input] GetSkeletalReferenceTransforms failed. Action is of the wrong type.
+[Input] GetSkeletalReferenceTransforms failed. Could not load hand_right_poses.glb
+[Input] GetSkeletalReferenceTransforms failed. Could not retrieve grip limit pose from shared memory
+[Input] GetSkeletalReferenceTransforms failed. Error with current frame.
+[Input] GetSkeletalReferenceTransforms failed. Invalid parameter eReferencePose
+[Input] GetSkeletalReferenceTransforms failed. Invalid parameter pTransformArray
+[Input] GetSkeletalReferenceTransforms failed. Invalid parameter unTransformArrayCount
+[Input] GetSkeletalReferenceTransforms failed. Invalid skeleton animation
+[Input] GetSkeletalReferenceTransforms failed. Invalid skeleton description.
+[Input] GetSkeletalSummaryData failed. Action is not active.
+[Input] GetSkeletalSummaryData failed. Action is of the wrong type.
+[Input] GetSkeletalSummaryData failed. Error with current frame.
+[Input] GetSkeletalSummaryData failed. Input is disabled.
+[Input] GetSkeletalSummaryData failed. Invalid parameter: pSkeletalSummaryData.
+[Input] GetSkeletalSummaryData failed. Invalid path.
+[Input] GetSkeletalSummaryData failed. Invalid skeleton animation
+[Input] GetSkeletalSummaryData failed. Invalid skeleton description.
+[Input] GetSkeletalTrackingLevel failed. Action is of the wrong type.
+[Input] GetSkeletalTrackingLevel failed. Error with current frame.
+[Input] GetSkeletalTrackingLevel failed. Invalid parameter pSkeletalTrackingLevel.
+[Input] GetSkeletalTrackingLevel failed. Invalid path.
+[Input] GetSkeletonBoneDataForHand failed. Error: %d
+[Input] GetSkeletonBoneDataForHand failed. Invalid Bone Count.
+[Input] GetSkeletonBoneDataForHand failed. Invalid Skeleton Animation
+[Input] GetSkeletonBoneDataForHand failed. Invalid Skeleton Description
+[Input] GetSkeletonBoneDataForHand failed. No controller or does not support hand tracking.
+[Input] GetSkeletonBoneDataInternal failed. Invalid Bone Count.
+[Input] GetSkeletonBoneDataInternal failed. Invalid Skeleton Animation.
+[Input] GetSkeletonBoneDataInternal failed. Invalid Skeleton Description.
+[Input] GetSkeletonBoneDataInternal failed. Invalid path.
+[Input] Handle not found for action set path: %s
+[Input] Initial config load timed out
+[Input] Input is disabled. [app: %s]
+[Input] Invalid active action set priority. %s apps must provide a priority of no more than %d
+[Input] Invalid pHandle in GetActionSetHandle for %s
+[Input] Invalid path in GetActionSetHandle
+[Input] IsActionBound failed. Error with current frame.
+[Input] IsActionBound failed. Input is disabled.
+[Input] Loaded input profile for simulated controller type: %s
+[Input] Loaded input profile for simulated hmd type: %s
+[Input] No controllers detected. Not waiting for config.
+[Input] Opening Binding UI. App: %s. Error: %s
+[Input] Previous frame overflowed per-device vector by %u actions (to %u total) Bumping up the high water mark.
+[Input] SetActionManifestPath failed waiting for a response from the server. Path: '%s'
+[Input] SetActionManifestPath failed. Input is disabled. Path: '%s'
+[Input] SetActionManifestPath requires an absolute path. '%s' is not absolute.
+[Input] SetDominantHand failed. App does not support dominant hand setting.
+[Input] SetDominantHand failed. Invalid parameter eDominantHand.
+[Input] SetXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
+[Input] ShowBindingsForActionSet failed. unSizeOfVRSelectedActionSet_t incorrect size. Got: %u. Expected: %zu.
+[Input] TriggerHapticVibrationAction failed. Action is not valid.
+[Input] TriggerHapticVibrationAction failed. Action is the wrong type.
+[Input] TriggerHapticVibrationAction failed. Error with current frame.
+[Input] TriggerHapticVibrationAction failed. Input is disabled.
+[Input] Unable to parse action manifest: %s [app: %s]
+[Input] Unexpected error %s when trying to read input value %s (%llX)
+[Input] Unexpected error %s when trying to read input value %s (%llX) with expected type %s 
+[Input] Unknown action %s when loading binding file
+[Input] Unknown action set %s when loading binding file
+[Input] UpdateActionState cannot execute because we don't have a config yet.
+[Input] Wanted to store %u global priority inputs, but only had space for %u
 [K]taM?
 [Settings] %s %s unknown type
 [Settings] Load Default Json Settings from %s
@@ -8161,6 +8294,13 @@ ZvFailed to create fence %ls.
 [Settings] Unable to load driver defaults from %s
 [Settings] Unable to read path registry...
 [Settings] Using default values. No Json Settings available at %s
+[Simulation] Could not resolve %%LocalAppData%% in input profile simulation settings for %s. Skipping %s override. 
+[Simulation] Error in input profile simulation settings for %s. Missing property: %s 
+[Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. 
+[Simulation] Setting device %d with override properties for %s
+[Tutorial] Adding tutorial action set %s twice!
+[Tutorial] Failed to generate action set handle for per-input tutorial action set
+[Tutorial] Found input path with unexpected prefix: %s
 [VirtualDisplay] Present took to long!
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
@@ -8266,6 +8406,7 @@ ZvFailed to create fence %ls.
 \$xHk
 \%03o
 \10I;
+\M%Or
 \U%08x
 \\.\pipe\
 \mfpmp.exe
@@ -8279,7 +8420,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5((0
+]5(80
 ]9k0tVD
 ]@L9{(
 ]HH;]Pt8
@@ -8290,7 +8431,6 @@ ZvFailed to create fence %ls.
 ]gfff
 ]pH9X
 ]wfHc
-^ `^w
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
@@ -9609,7 +9749,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5KC	
 o@@fD
 oD$ fD
 oD$0f
@@ -9678,6 +9817,7 @@ pA^_[
 pA^_^[]
 pA^_^][
 pA_A\]
+pA_A]A\_]
 pA_A]_^]
 pA_A^A\_]
 pA_A^A\_^[]
@@ -10414,7 +10554,7 @@ system.systemui
 system.vrresources
 systemui_dashboard
 t	9P A
-t	D8"
+t	D82
 t	D;y0s
 t	L90
 t LcC
@@ -10567,7 +10707,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-	l4
+t8D8-	
 t9fff
 t:fff
 t<Lc@xE
@@ -10577,6 +10717,7 @@ t?9|$pt9H
 t?y$I
 t?y&I
 tAy&H
+tE9t$8r?E
 tFH;Y r@H
 tFfff
 tHI9t$
@@ -10695,7 +10836,6 @@ u)IcA,D
 u*H9w`t$H
 u*H9{`t$H
 u,+u(
-u-EZ.
 u-H9X s
 u.H9{`t(H
 u4H9X s
@@ -11376,7 +11516,6 @@ x L;m
 x UAVAWH
 x2A;O0},I
 xA\^][
-xA]A\_]
 xA]^[]
 xA^A\_^][
 xA_A^A]A\][
@@ -11524,7 +11663,6 @@ zh_tw
 zlib corrupt
 znear
 zuusA
-zzS&vS
 { "type": "hide_keyboard" }
 { "type": "show_keyboard" }
 { AVH
@@ -11648,6 +11786,7 @@ zzS&vS
 |8PH;
 |D8E t"H
 |Lu?c
+|OO<K
 |s;K(tnA
 }(Hcv4I
 }(M98t

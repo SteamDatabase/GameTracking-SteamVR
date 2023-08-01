@@ -9,6 +9,7 @@
  !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
+ ,X^9
  -SERVICE_EXPLORE
  Error:
  for detail.
@@ -60,7 +61,6 @@ $Phdd
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
-&\coB
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -81,6 +81,7 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+*gP1bv@
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -235,7 +236,7 @@ $Phdd
 220323000000Z
 220801000000Z
 220921000000Z
-230713075009Z0/
+230727202701Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -728,7 +729,6 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 GetVersionExA
-GjUFk
 H$;J$
 HTC BS
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -821,7 +821,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSb&
+RSDS}
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1031,9 +1031,9 @@ Zipfile is corrupt or not a zipfile
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
-]+ZSx#
+\{\z{6
 ]J<0"0i3
-]cS7,
+]j$?.
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
 _CxxThrowException
@@ -1076,7 +1076,6 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
-a^ipU0
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1091,7 +1090,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
-b:Pcz/
 bad allocation
 bad array new length
 bad cast
@@ -1108,6 +1106,7 @@ dat_file
 data error
 deque<T> too long
 digit
+dt.An
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1179,6 +1178,7 @@ j(h$Q
 j)hXH
 j)h`O
 j)hpG
+j*J#l
 j*hPQ
 jj@0HK4
 k0i0$
@@ -1196,7 +1196,6 @@ memcpy
 memmove
 memset
 need dictionary
-noc-e
 ntdll.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -1205,6 +1204,7 @@ print
 punct
 realloc
 runas
+sn	OJ
 space
 stoi argument out of range
 stoul argument out of range
@@ -1262,6 +1262,7 @@ win64
 wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
+x12+a
 x5t7j
 xdigit
 y4_^[

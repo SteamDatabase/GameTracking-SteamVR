@@ -17,8 +17,8 @@
 	"PowerMenuResetSeatedPosition": "Επαναφορά θέσης καθίσματος",
 	"PowerMenuResetStandingPosition": "Επαναφορά όρθιας θέσης",
 	"Resetting_Countdown": "Επαναφορά...",
-	"Button_Recenter": "Κεντράρισμα ξανά",
-	"Recentering_Countdown": "Κεντράρισμα ξανά…",
+	"Button_Recenter": "Επαναφορά στο κέντρο",
+	"Recentering_Countdown": "Γίνεται επαναφορά στο κέντρο…",
 	"PowerMenuTurnOffController": "Απενεργοποίηση χειριστηρίου",
 	"PowerMenuShutdown": "Τερματισμός",
 	"PowerMenuQuitSceneApp": "Έξοδος από %1$s",
@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Ολοκληρώθηκε",
-	"CompatibilityMode_Notification": "Ενεργοποιήθηκε η λειτουργία αυτόματης συμβατότητας. Χρήση δέσμευσης για «%1$s».",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Ενεργοποιήθηκε η λειτουργία αυτόματης συμβατότητας. Χρήση δέσμευσης για «%1$s»."
 }

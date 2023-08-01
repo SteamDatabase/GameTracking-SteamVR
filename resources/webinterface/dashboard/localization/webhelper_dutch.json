@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Gereed",
-	"CompatibilityMode_Notification": "Automatische compatibiliteitsmodus ingeschakeld. De configuratie voor %1$s wordt gebruikt.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Automatische compatibiliteitsmodus ingeschakeld. De configuratie voor %1$s wordt gebruikt."
 }

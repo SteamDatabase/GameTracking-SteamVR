@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Kész",
-	"CompatibilityMode_Notification": "Automatikus kompatibilitás mód bekapcsolva. %1$s kiosztás használata.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Automatikus kompatibilitás mód bekapcsolva. %1$s kiosztás használata."
 }

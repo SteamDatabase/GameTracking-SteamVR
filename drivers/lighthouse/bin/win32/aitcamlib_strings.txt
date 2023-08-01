@@ -1,6 +1,5 @@
 																																																																																																																
 	!s99
-	}f>2
  %41g
 !(0)"
 !9~ t
@@ -108,7 +107,6 @@ $9^ t
 /frame_time_monotonic
 /height
 /lighthouse/camera/raw_frames
-/qK^|
 /server_time_ticks
 /user/ankle/left
 /user/ankle/right
@@ -170,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230713074959Z0/
+230727202650Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -193,6 +191,7 @@ $9^ t
 370322235959Z0c1
 380115120000Z0b1
 3=5A5u6y6
+3C._$
 3N3U3
 3X4_4
 3k3p3
@@ -215,6 +214,7 @@ $9^ t
 5!5'5-545;5B5I5P5W5^5f5n5v5
 5"5B5#666<6Z6`6n6
 5%656b7
+5%vzdY
 5'5/5
 5(5,5<5@5H5`5p5t5
 5(525B5M5n5~5
@@ -341,6 +341,7 @@ $9^ t
 >[>c>k>/?7?j?y?
 >i>m>
 >n?r?
+>}aXr
 ? ?/?B?M?n?~?
 ?(?,?4?L?\?`?h?
 ?2?l?
@@ -429,7 +430,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
-HJU	yK
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -482,10 +482,9 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NN2Y]
 Not Available
 NotFound
-O"YO0H
+OA98R\n+
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -570,11 +569,11 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
-U9m]=5
 UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
+V21L]%JsV
 VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
@@ -587,7 +586,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
-W#-@.L
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -596,7 +594,6 @@ Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
-YX=(V]
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -706,7 +703,6 @@ c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
-cBMM=
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -717,6 +713,7 @@ can't merge dc and ac
 corrupt
 cs_cs
 czech
+d7]k!|3
 da_da
 danish
 de_de
@@ -760,7 +757,6 @@ ko_ko
 korean
 latam
 ldexp
-m"a;N
 m0k0$
 malloc
 map/set<T> too long
@@ -800,6 +796,7 @@ ro_ro
 romanian
 ru_ru
 russian
+sXCb 
 schinese
 spanish
 startup
@@ -812,7 +809,6 @@ strtol
 sv_sv
 swedish
 t"Php
-t>GWu
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

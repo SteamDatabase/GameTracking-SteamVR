@@ -353,7 +353,7 @@
 	"Settings_ActiveController": "Aktiivinen ohjain",
 	"Settings_EditBinding": "Muokkaa tätä määritystä",
 	"Settings_EditBinding_ChooseAnother": "Valitse toinen",
-	"Settings_ShowOldBindingUI": "Näytä vanha määritysten käyttöliittymä",
+	"Settings_ShowBindingUI": "Näytä määritysten käyttöliittymä",
 	"Settings_ManageVideoSettingsForApp": "Hallinnoi videoasetuksia sovellukselle:",
 	"Settings_ManageControllerBindingSettingsForApp": "Hallinnoi ohjainten määrityksiä sovellukselle:",
 	"Settings_ActiveControllerBinding": "Aktiivinen ohjainmääritys",

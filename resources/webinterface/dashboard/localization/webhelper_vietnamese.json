@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Xong",
-	"CompatibilityMode_Notification": "Bật chế độ tương thích tự động. Dùng cấu hình nút cho '%1$s'.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Bật chế độ tương thích tự động. Dùng cấu hình nút cho '%1$s'."
 }

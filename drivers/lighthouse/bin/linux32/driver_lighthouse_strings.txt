@@ -158,9 +158,9 @@ $tI
 %s %c:
 %s %s
 %s %s startup with PID=%u, config=%s, runtime=%s
-%s -
 %s - Unable to init
 %s - Unable to start replay of "%s"
+%s [%s] -
 %s begin_ctx=%llu
 %s created to play "%s"
 %s disambiguator provided base configuration. Rotor count: %d
@@ -1286,6 +1286,9 @@ $tI
 .L496
 .L4967
 .L4968
+.L497
+.L498
+.L499
 .L50
 .L500
 .L5003
@@ -1870,7 +1873,6 @@ $tI
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789ABCDEF
 0123456789abcdef
-07:47:17
 0@
 0A
 0x
@@ -1925,6 +1927,7 @@ $tI
 17CImuTrackerThread
 17CLinuxVideoStream
 18IUsbDeviceCallback
+19:30:13
 19CWirelessDecoderWv2
 1e+9999
 2
@@ -3632,6 +3635,7 @@ Delayed State Change
 DeleteUserDataImageBuilder(UserDataImageBuilder*)
 DestroyInstanceAndUnload
 DestroyInstanceAndUnload.cold
+Detail
 Dev Error
 Device %s powering off upon entering standby.
 Device %s requires driver %s, which is not present
@@ -3839,6 +3843,7 @@ Entry #
 Enum type "
 Enumerating displays...
 Enums must contain at least one value.
+Error
 Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)
 Error SetVideoConfigAndWaitForDisplayReenumeration
 Error creating component: %d (%s) in %s
@@ -4041,6 +4046,7 @@ Failed to wait for motion vector work finished: job wait error
 FailedToGetFirmwareVersion
 False
 FastHexToBuffer() wants non-negative integers, not
+Fatal
 Feel free to add support for more if you need it.
 Field       :
 Field "
@@ -4361,6 +4367,7 @@ Index must be -1 for singular fields.
 Index must be in range of repeated field values.
 Index out-of-bounds (field is empty).
 Infinity
+Info
 InitCameraHAL
 InitCameraHAL.cold
 InitDriverLog(vr::IVRDriverLog*)
@@ -4913,7 +4920,7 @@ Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
-Jul 13 2023
+Jul 27 2023
 K
 KHR_lights_punctual
 Knu RevB
@@ -6477,6 +6484,7 @@ Waiting
 Waiting for best bootstrap base station candidate...
 Waiting for device to connect...
 Warned about misattributed base %08X
+Warning
 Warning parsing text-format
 Warning:  HMD Display %s is Primary displayUse Screen Resolution control panel to fix
 Warning: CVrController::CreateInputComponents called on empty input_profile

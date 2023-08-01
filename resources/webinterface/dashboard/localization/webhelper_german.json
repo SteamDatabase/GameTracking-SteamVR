@@ -73,6 +73,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Fertig",
-	"CompatibilityMode_Notification": "Automatischer Kompatibilitätsmodus aktiviert. Belegung für „%1$s“ wird verwendet.",
-	"DO_NOT_TRANSLATE": "IgnoreMe"
+	"CompatibilityMode_Notification": "Automatischer Kompatibilitätsmodus aktiviert. Belegung für „%1$s“ wird verwendet."
 }
