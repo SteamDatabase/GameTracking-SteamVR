@@ -160,7 +160,7 @@
             ? parseInt(n["offset" + e]) +
                 parseInt(r["margin" + ("Height" === e ? "Top" : "Left")]) +
                 parseInt(r["margin" + ("Height" === e ? "Bottom" : "Right")])
-            : 0
+            : 0,
         );
       }
       function x(e) {
@@ -419,12 +419,12 @@
                     return e.name === n;
                   });
                   return e.indexOf(r);
-                })(e, 0, n)
+                })(e, 0, n),
               )
           ).forEach(function (e) {
             e.function &&
               console.warn(
-                "`modifier.function` is deprecated, use `modifier.fn`!"
+                "`modifier.function` is deprecated, use `modifier.fn`!",
               );
             var n = e.function || e.fn;
             e.enabled &&
@@ -450,7 +450,7 @@
             this.state,
             this.popper,
             this.reference,
-            this.options.positionFixed
+            this.options.positionFixed,
           )),
             (e.placement = j(
               this.options.placement,
@@ -458,14 +458,14 @@
               this.popper,
               this.reference,
               this.options.modifiers.flip.boundariesElement,
-              this.options.modifiers.flip.padding
+              this.options.modifiers.flip.padding,
             )),
             (e.originalPlacement = e.placement),
             (e.positionFixed = this.options.positionFixed),
             (e.offsets.popper = U(
               this.popper,
               e.offsets.reference,
-              e.placement
+              e.placement,
             )),
             (e.offsets.popper.position = this.options.positionFixed
               ? "fixed"
@@ -542,7 +542,7 @@
             this.reference,
             this.options,
             this.state,
-            this.scheduleUpdate
+            this.scheduleUpdate,
           ));
       }
       function G() {
@@ -594,7 +594,7 @@
               i +
               " modifier in order to work, be sure to include it before " +
               i +
-              "!"
+              "!",
           );
         }
         return o;
@@ -677,12 +677,12 @@
                           l = a.indexOf(
                             z(a, function (e) {
                               return -1 !== e.search(/,|\s/);
-                            })
+                            }),
                           );
                         a[l] &&
                           -1 === a[l].indexOf(",") &&
                           console.warn(
-                            "Offsets separated by white space(s) are deprecated, use a comma (,) instead."
+                            "Offsets separated by white space(s) are deprecated, use a comma (,) instead.",
                           );
                         var u = /\s*,\s*|\s+/,
                           s =
@@ -718,12 +718,12 @@
                                           ? Math.max(
                                               document.documentElement
                                                 .clientHeight,
-                                              window.innerHeight || 0
+                                              window.innerHeight || 0,
                                             )
                                           : Math.max(
                                               document.documentElement
                                                 .clientWidth,
-                                              window.innerWidth || 0
+                                              window.innerWidth || 0,
                                             )) /
                                           100) *
                                         i
@@ -770,7 +770,7 @@
                   e.instance.reference,
                   t.padding,
                   n,
-                  e.positionFixed
+                  e.positionFixed,
                 );
                 (o.top = i), (o.left = a), (o[r] = l), (t.boundaries = u);
                 var s = t.priority,
@@ -793,7 +793,7 @@
                           !t.escapeWithReference &&
                           (r = Math.min(
                             c[n],
-                            u[e] - ("right" === e ? c.width : c.height)
+                            u[e] - ("right" === e ? c.width : c.height),
                           )),
                         _({}, n, r)
                       );
@@ -847,7 +847,7 @@
                 } else if (!e.instance.popper.contains(r))
                   return (
                     console.warn(
-                      "WARNING: `arrow.element` must be child of its popper element!"
+                      "WARNING: `arrow.element` must be child of its popper element!",
                     ),
                     e
                   );
@@ -891,7 +891,7 @@
                     e.instance.reference,
                     t.padding,
                     t.boundariesElement,
-                    e.positionFixed
+                    e.positionFixed,
                   ),
                   r = e.placement.split("-")[0],
                   o = I(r),
@@ -960,7 +960,7 @@
                       (e.offsets.popper = S(
                         {},
                         e.offsets.popper,
-                        U(e.instance.popper, e.offsets.reference, e.placement)
+                        U(e.instance.popper, e.offsets.reference, e.placement),
                       )),
                       (e = F(e.instance.modifiers, e, "flip")));
                   }),
@@ -1030,7 +1030,7 @@
                   }).gpuAcceleration;
                 void 0 !== i &&
                   console.warn(
-                    "WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in future versions of Popper.js!"
+                    "WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in future versions of Popper.js!",
                   );
                 var a,
                   l,
@@ -1057,7 +1057,7 @@
                       left: p(
                         u % 2 == 1 && s % 2 == 1 && !f && t
                           ? r.left - 1
-                          : r.left
+                          : r.left,
                       ),
                       top: d(r.top),
                       bottom: d(r.bottom),
@@ -1131,7 +1131,7 @@
                     t,
                     e,
                     n.modifiers.flip.boundariesElement,
-                    n.modifiers.flip.padding
+                    n.modifiers.flip.padding,
                   );
                 return (
                   t.setAttribute("x-placement", a),
@@ -1169,9 +1169,9 @@
                   r.options.modifiers[t] = S(
                     {},
                     e.Defaults.modifiers[t] || {},
-                    o.modifiers ? o.modifiers[t] : {}
+                    o.modifiers ? o.modifiers[t] : {},
                   );
-                }
+                },
               ),
               (this.modifiers = Object.keys(this.options.modifiers)
                 .map(function (e) {
@@ -1380,7 +1380,7 @@
             followCursor: !1,
             inlinePositioning: !1,
             sticky: !1,
-          }
+          },
         ),
         Ce = Object.keys(Oe),
         Pe = [
@@ -1424,7 +1424,7 @@
                     }
                   return t;
                 }, {});
-              })(e, t.plugins)
+              })(e, t.plugins),
         );
         return n.interactive && (n.aria = null), n;
       }
@@ -1707,7 +1707,7 @@
                         T.popperInstance.modifiers,
                         "flip",
                         "enabled",
-                        T.props.flip
+                        T.props.flip,
                       ),
                       T.popperInstance.enableEventListeners(),
                       T.popperInstance.update();
@@ -1835,7 +1835,7 @@
               T.props.interactive
                 ? e.setAttribute(
                     "aria-expanded",
-                    T.state.isVisible && e === R() ? "true" : "false"
+                    T.state.isVisible && e === R() ? "true" : "false",
                   )
                 : e.removeAttribute("aria-expanded");
             });
@@ -2055,7 +2055,7 @@
               preventOverflow: ae({ boundariesElement: T.props.boundary }, i),
               flip: ae(
                 { enabled: T.props.flip, behavior: T.props.flipBehavior },
-                o
+                o,
               ),
               arrow: ae({ element: r, enabled: !!r }, ce(n, "arrow")),
               offset: ae({ offset: T.props.offset }, ce(n, "offset")),
@@ -2125,7 +2125,7 @@
           document.addEventListener(
             "touchstart",
             Le,
-            ae({}, Ne, { capture: !0 })
+            ae({}, Ne, { capture: !0 }),
           ),
           window.addEventListener("blur", Ie);
         var r,
@@ -2283,7 +2283,7 @@
                 (w.ref = e), ut(r.ref, e);
               },
             }),
-            b && (0, ot.createPortal)(o, w.container)
+            b && (0, ot.createPortal)(o, w.container),
           )
         );
       }
@@ -2297,7 +2297,7 @@
             ref: function (e) {
               ut(t, e), ut(n.ref, e);
             },
-          })
+          }),
         );
       });
     },
@@ -2363,7 +2363,7 @@
                 function (e) {
                   n(e), b();
                 },
-                i
+                i,
               ),
                 (g = null);
             }
@@ -2372,7 +2372,7 @@
             (g.open(
               e.method.toUpperCase(),
               a(k, e.params, e.paramsSerializer),
-              !0
+              !0,
             ),
             (g.timeout = e.timeout),
             "onloadend" in g
@@ -2403,8 +2403,8 @@
                     t,
                     r.clarifyTimeoutError ? f.ETIMEDOUT : f.ECONNABORTED,
                     e,
-                    g
-                  )
+                    g,
+                  ),
                 ),
                 (g = null);
             }),
@@ -2589,7 +2589,7 @@
               forcedJSONParsing: c.transitional(c.boolean),
               clarifyTimeoutError: c.transitional(c.boolean),
             },
-            !1
+            !1,
           );
         var r = [],
           o = !0;
@@ -2642,7 +2642,7 @@
         r.forEach(["delete", "get", "head", "options"], function (e) {
           f.prototype[e] = function (t, n) {
             return this.request(
-              l(n || {}, { method: e, url: t, data: (n || {}).data })
+              l(n || {}, { method: e, url: t, data: (n || {}).data }),
             );
           };
         }),
@@ -2655,7 +2655,7 @@
                   headers: t ? { "Content-Type": "multipart/form-data" } : {},
                   url: n,
                   data: r,
-                })
+                }),
               );
             };
           }
@@ -2784,13 +2784,13 @@
           (e.headers = r.merge(
             e.headers.common || {},
             e.headers[e.method] || {},
-            e.headers
+            e.headers,
           )),
           r.forEach(
             ["delete", "get", "head", "post", "put", "patch", "common"],
             function (t) {
               delete e.headers[t];
-            }
+            },
           ),
           (e.adapter || a.adapter)(e).then(
             function (t) {
@@ -2810,11 +2810,11 @@
                       e,
                       t.response.data,
                       t.response.headers,
-                      e.transformResponse
+                      e.transformResponse,
                     ))),
                 Promise.reject(t)
               );
-            }
+            },
           )
         );
       };
@@ -2907,8 +2907,8 @@
                 ],
                 n.config,
                 n.request,
-                n
-              )
+                n,
+              ),
             )
           : e(n);
       };
@@ -3007,7 +3007,7 @@
                         i.ERR_BAD_RESPONSE,
                         this,
                         null,
-                        this.response
+                        this.response,
                       );
                     throw e;
                   }
@@ -3116,7 +3116,7 @@
             },
             read: function (e) {
               var t = document.cookie.match(
-                new RegExp("(^|;\\s*)(" + e + ")=([^;]*)")
+                new RegExp("(^|;\\s*)(" + e + ")=([^;]*)"),
               );
               return t ? decodeURIComponent(t[3]) : null;
             },
@@ -3315,7 +3315,7 @@
           i[e] = function (n) {
             return typeof n === e || "a" + (t < 1 ? "n " : " ") + e;
           };
-        }
+        },
       );
       var a = {};
       (i.transitional = function (e, t, n) {
@@ -3334,7 +3334,7 @@
           if (!1 === e)
             throw new o(
               i(r, " has been removed" + (t ? " in " + t : "")),
-              o.ERR_DEPRECATED
+              o.ERR_DEPRECATED,
             );
           return (
             t &&
@@ -3345,8 +3345,8 @@
                   r,
                   " has been deprecated since v" +
                     t +
-                    " and will be removed in the near future"
-                )
+                    " and will be removed in the near future",
+                ),
               )),
             !e || e(n, r, l)
           );
@@ -3365,7 +3365,7 @@
                 if (!0 !== s)
                   throw new o(
                     "option " + a + " must be " + s,
-                    o.ERR_BAD_OPTION_VALUE
+                    o.ERR_BAD_OPTION_VALUE,
                   );
               } else if (!0 !== n)
                 throw new o("Unknown option " + a, o.ERR_BAD_OPTION);
@@ -3562,7 +3562,7 @@
           throw new TypeError(
             "Only methods can be decorated with @bind. <" +
               t +
-              "> is not a method!"
+              "> is not a method!",
           );
         return {
           configurable: n.boolTrue,
@@ -3651,11 +3651,11 @@
                   var l =
                       ((n = a),
                       (r = btoa(
-                        unescape(encodeURIComponent(JSON.stringify(n)))
+                        unescape(encodeURIComponent(JSON.stringify(n))),
                       )),
                       (o =
                         "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(
-                          r
+                          r,
                         )),
                       "/*# ".concat(o, " */")),
                     u = a.sources.map(function (e) {
@@ -3748,7 +3748,7 @@
       function f(e, t) {
         if ("function" != typeof t && null !== t)
           throw new TypeError(
-            "Super expression must either be null or a function"
+            "Super expression must either be null or a function",
           );
         (e.prototype = Object.create(t && t.prototype, {
           constructor: { value: e, writable: !0, configurable: !0 },
@@ -3780,7 +3780,7 @@
           ? (function (e) {
               if (void 0 === e)
                 throw new ReferenceError(
-                  "this hasn't been initialised - super() hasn't been called"
+                  "this hasn't been initialised - super() hasn't been called",
                 );
               return e;
             })(e)
@@ -4036,7 +4036,7 @@
                     i +
                     "`, but its value is `" +
                     r +
-                    "`."
+                    "`.",
                 );
               }
               return null;
@@ -4103,7 +4103,7 @@
                   t +
                   "`" +
                   c +
-                  "."
+                  ".",
               );
             }
             return null;
@@ -4125,7 +4125,7 @@
                   l +
                   "` of component `" +
                   i +
-                  "` has invalid PropType notation."
+                  "` has invalid PropType notation.",
               );
             var r = N(e, "Array")(n, o, i);
             if (r instanceof Error) return r;
@@ -4133,7 +4133,7 @@
               if (
                 (r = t.apply(
                   void 0,
-                  [u, c, i, a, l + "[" + c + "]"].concat(s)
+                  [u, c, i, a, l + "[" + c + "]"].concat(s),
                 )) instanceof Error
               )
                 return r;
@@ -4226,7 +4226,7 @@
           },
           set: function (e) {
             console.warn(
-              "Mobx Injector: you are trying to attach `contextTypes` on an component decorated with `inject` (or `observer`) HOC. Please specify the contextTypes on the wrapped component instead. It is accessible through the `wrappedComponent`"
+              "Mobx Injector: you are trying to attach `contextTypes` on an component decorated with `inject` (or `observer`) HOC. Please specify the contextTypes on the wrapped component instead. It is accessible through the `wrappedComponent`",
             );
           },
           configurable: !0,
@@ -4256,7 +4256,7 @@
             return (
               ((t = h(
                 this,
-                (e = p(r)).call.apply(e, [this].concat(o))
+                (e = p(r)).call.apply(e, [this].concat(o)),
               )).storeRef = function (e) {
                 t.wrappedInstance = e;
               }),
@@ -4304,7 +4304,7 @@
                   throw new Error(
                     "MobX injector: Store '" +
                       e +
-                      "' is not available! Make sure it is provided by some Provider"
+                      "' is not available! Make sure it is provided by some Provider",
                   );
                 n[e] = t[e];
               }
@@ -4496,7 +4496,7 @@
             J ||
               ((J = !0),
               console.warn(
-                'Mobx observer: Using observer to inject stores is deprecated since 4.0. Use `@inject("store1", "store2") @observer ComponentClass` or `inject("store1", "store2")(observer(componentClass))` instead of `@observer(["store1", "store2"]) ComponentClass`'
+                'Mobx observer: Using observer to inject stores is deprecated since 4.0. Use `@inject("store1", "store2") @observer ComponentClass` or `inject("store1", "store2")(observer(componentClass))` instead of `@observer(["store1", "store2"]) ComponentClass`',
               )),
             t
               ? K.apply(null, e)(de(t))
@@ -4508,11 +4508,11 @@
         if (
           (!0 === n.isMobxInjector &&
             console.warn(
-              "Mobx observer: You are trying to use 'observer' on a component that already has 'inject'. Please apply 'observer' before applying 'inject'"
+              "Mobx observer: You are trying to use 'observer' on a component that already has 'inject'. Please apply 'observer' before applying 'inject'",
             ),
           n.__proto__ === o.PureComponent &&
             console.warn(
-              "Mobx observer: You are using 'observer' on React.PureComponent. These two achieve two opposite goals and should not be used together"
+              "Mobx observer: You are using 'observer' on React.PureComponent. These two achieve two opposite goals and should not be used together",
             ),
           re && n.$$typeof === re)
         ) {
@@ -4559,7 +4559,7 @@
               (i.contextTypes = n.contextTypes),
               (i.propTypes = n.propTypes),
               (i.defaultProps = n.defaultProps),
-              a)
+              a),
             );
           return C(u, n), u;
         }
@@ -4598,7 +4598,7 @@
             e.shouldComponentUpdate
               ? e.shouldComponentUpdate !== fe.shouldComponentUpdate &&
                 console.warn(
-                  "Use `shouldComponentUpdate` in an `observer` based component breaks the behavior of `observer` and might lead to unexpected results. Manually implementing `sCU` should not be needed when using mobx-react."
+                  "Use `shouldComponentUpdate` in an `observer` based component breaks the behavior of `observer` and might lead to unexpected results. Manually implementing `sCU` should not be needed when using mobx-react.",
                 )
               : (e.shouldComponentUpdate = fe.shouldComponentUpdate);
         })(c),
@@ -4621,7 +4621,7 @@
         if (void 0 === i) return null;
         if (!n) return i();
         console.warn(
-          "<Observer inject=.../> is no longer supported. Please use inject on the enclosing component instead"
+          "<Observer inject=.../> is no longer supported. Please use inject on the enclosing component instead",
         );
         var a = K(n)(i);
         return o.createElement(a, null);
@@ -4632,7 +4632,7 @@
         return "function" == typeof e[t] && "function" == typeof e[i]
           ? new Error(
               "Invalid prop,do not use children and render in the same time in`" +
-                n
+                n,
             )
           : "function" != typeof e[t] && "function" != typeof e[i]
           ? new Error(
@@ -4642,14 +4642,14 @@
                 a(e[t]) +
                 "` supplied to `" +
                 n +
-                "`, expected `function`."
+                "`, expected `function`.",
             )
           : void 0;
       };
       function ve() {
         var e = this.constructor.getDerivedStateFromProps(
           this.props,
-          this.state
+          this.state,
         );
         null != e && this.setState(e);
       }
@@ -4658,7 +4658,7 @@
           function (t) {
             var n = this.constructor.getDerivedStateFromProps(e, t);
             return null != n ? n : null;
-          }.bind(this)
+          }.bind(this),
         );
       }
       function be(e, t) {
@@ -4721,7 +4721,7 @@
                       (Object.keys(e).filter(ke).length !==
                         Object.keys(t).filter(ke).length &&
                         console.warn(
-                          "MobX Provider: The set of provided stores has changed. Please avoid changing stores as the change might not propagate to all children"
+                          "MobX Provider: The set of provided stores has changed. Please avoid changing stores as the change might not propagate to all children",
                         ),
                       !e.suppressChangedStoreWarning)
                     )
@@ -4731,12 +4731,12 @@
                           console.warn(
                             "MobX Provider: Provided store '" +
                               n +
-                              "' has changed. Please avoid replacing stores as the change might not propagate to all children"
+                              "' has changed. Please avoid replacing stores as the change might not propagate to all children",
                           );
                     return e;
                   },
                 },
-              ]
+              ],
             ),
             t
           );
@@ -4791,7 +4791,7 @@
                 (null !== n ? "\n  " + n : "") +
                 (null !== r ? "\n  " + r : "") +
                 (null !== o ? "\n  " + o : "") +
-                "\n\nThe above lifecycles should be removed. Learn more about this warning here:\nhttps://fb.me/react-async-component-lifecycle-hooks"
+                "\n\nThe above lifecycles should be removed. Learn more about this warning here:\nhttps://fb.me/react-async-component-lifecycle-hooks",
             );
           }
           if (
@@ -4801,7 +4801,7 @@
           ) {
             if ("function" != typeof t.componentDidUpdate)
               throw new Error(
-                "Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype"
+                "Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype",
               );
             t.componentWillUpdate = be;
             var l = t.componentDidUpdate;
@@ -4834,7 +4834,7 @@
             trackComponents: function () {
               if ("undefined" == typeof WeakMap)
                 throw new Error(
-                  "[mobx-react] tracking components is not supported in this browser."
+                  "[mobx-react] tracking components is not supported in this browser.",
                 );
               X || (X = !0);
             },
@@ -4888,7 +4888,7 @@
           throw new Error(
             "[mobx] " +
               (t ||
-                "An invariant failed, however the error is obfuscated because this is an production build.")
+                "An invariant failed, however the error is obfuscated because this is an production build."),
           );
       }
       function c(e) {
@@ -5135,7 +5135,7 @@
                 r.prop,
                 r.descriptor,
                 r.decoratorTarget,
-                r.decoratorArguments
+                r.decoratorArguments,
               );
             }
         }
@@ -5217,7 +5217,7 @@
                       },
                     })
                   );
-                })(t)
+                })(t),
               ),
               o.keys && o.keys.push(t),
               (function (e, t, n, r) {
@@ -5235,7 +5235,7 @@
             t,
             n,
             r ? (r.initializer ? r.initializer.call(t) : r.value) : void 0,
-            e
+            e,
           );
         });
         return (t.enhancer = e), t;
@@ -5347,7 +5347,7 @@
             e +
             ". Did you accidentally try to use observable." +
             e +
-            " as decorator?"
+            " as decorator?",
         );
       }
       Object.keys(ee).forEach(function (e) {
@@ -5381,7 +5381,7 @@
                       },
                     })
                   );
-                })(t)
+                })(t),
               );
           })(e, t, L({ get: i, set: a }, l));
         }),
@@ -5744,7 +5744,7 @@
                 "Cycle detected in computation " +
                   this.name +
                   ": " +
-                  this.derivation
+                  this.derivation,
               ),
               0 !== Le.inBatch || 0 !== this.observers.length || this.keepAlive
                 ? (Be(this),
@@ -5782,7 +5782,7 @@
                 !this.isRunningSetter,
                 "The setter of computed value '" +
                   this.name +
-                  "' is trying to update itself. Did you intend to update an _observable_ value, instead of the computed property?"
+                  "' is trying to update itself. Did you intend to update an _observable_ value, instead of the computed property?",
               ),
                 (this.isRunningSetter = !0);
               try {
@@ -5887,7 +5887,7 @@
             : (setTimeout(function () {
                 je ||
                   u(
-                    "There are multiple, different versions of MobX active. Make sure MobX is loaded only once or use `configure({ isolateGlobalState: true })`"
+                    "There are multiple, different versions of MobX active. Make sure MobX is loaded only once or use `configure({ isolateGlobalState: true })`",
                   );
               }, 1),
               new Ne()));
@@ -5950,7 +5950,7 @@
               e.name +
               "' is invalidated due to a change in: '" +
               t.name +
-              "'"
+              "'",
           ),
           e.isTracing === oe.BREAK)
         ) {
@@ -5969,7 +5969,7 @@
                   : "") +
                 "\n\nThe dependencies for this derivation are:\n\n" +
                 n.join("\n") +
-                "\n*/\n    "
+                "\n*/\n    ",
             )();
         }
       }
@@ -6060,7 +6060,7 @@
                   ? console.warn(
                       "[mobx] (error in reaction '" +
                         this.name +
-                        "' suppressed, fix error of causing action below)"
+                        "' suppressed, fix error of causing action below)",
                     )
                   : console.error(n, e),
                   Ye() &&
@@ -6098,7 +6098,7 @@
                   if (!r) return u(!1);
                   r.isTracing === oe.NONE &&
                     console.log(
-                      "[mobx.trace] '" + r.name + "' tracing enabled"
+                      "[mobx.trace] '" + r.name + "' tracing enabled",
                     ),
                     (r.isTracing = n ? oe.BREAK : oe.LOG);
                 })(this, e);
@@ -6118,7 +6118,7 @@
           100 == ++t &&
             (console.error(
               "Reaction doesn't converge to a stable state after 100 iterations. Probably there is a cycle in the reactive function: " +
-                e[0]
+                e[0],
             ),
             e.splice(0));
           for (var n = e.splice(0), r = 0, o = n.length; r < o; r++)
@@ -6237,7 +6237,7 @@
                 }));
             },
             t.onError,
-            t.requiresObservable
+            t.requiresObservable,
           );
         } else
           n = new $e(
@@ -6246,7 +6246,7 @@
               this.track(u);
             },
             t.onError,
-            t.requiresObservable
+            t.requiresObservable,
           );
         function u() {
           e(n);
@@ -6310,7 +6310,7 @@
               Le.inBatch ||
               Le.isRunningReactions) &&
               u(
-                "isolateGlobalState should be called before MobX is running any reactions"
+                "isolateGlobalState should be called before MobX is running any reactions",
               ),
             (je = !0),
             De &&
@@ -6336,7 +6336,7 @@
               u(
                 "Invalid value for 'enforceActions': '" +
                   t +
-                  "', expected 'never', 'always' or 'observed'"
+                  "', expected 'never', 'always' or 'observed'",
               );
           }
           (Le.enforceActions = f),
@@ -6351,7 +6351,7 @@
           void 0 !== o &&
             (!0 === o &&
               console.warn(
-                "WARNING: Debug feature only. MobX will NOT recover from errors if this is on."
+                "WARNING: Debug feature only. MobX will NOT recover from errors if this is on.",
               ),
             (Le.disableErrorBoundaries = !!o)),
           "number" == typeof i && Ft(i),
@@ -6489,7 +6489,7 @@
               o < i &&
               (s(
                 !(t = r[o](t)) || t.type,
-                "Intercept handlers should return nothing or a change object"
+                "Intercept handlers should return nothing or a change object",
               ),
               t);
               o++
@@ -6621,7 +6621,7 @@
             (e.prototype.updateArrayLength = function (e, t) {
               if (e !== this.lastKnownLength)
                 throw new Error(
-                  "[mobx] Modification exception: the internal structure of an observable array was changed. Did you use peek() to change it?"
+                  "[mobx] Modification exception: the internal structure of an observable array was changed. Did you use peek() to change it?",
                 );
               (this.lastKnownLength += t),
                 t > 0 && e + t + 1 > Dt && Ft(e + t + 1);
@@ -6754,7 +6754,7 @@
                   this.peek(),
                   e.map(function (e) {
                     return Vt(e) ? e.peek() : e;
-                  })
+                  }),
                 )
               );
             }),
@@ -6809,7 +6809,7 @@
             (t.prototype.pop = function () {
               return this.splice(
                 Math.max(this.$mobx.values.length - 1, 0),
-                1
+                1,
               )[0];
             }),
             (t.prototype.shift = function () {
@@ -6837,7 +6837,7 @@
               function n(e) {
                 if (e < 0)
                   throw new Error(
-                    "[mobx.array] Index out of bounds: " + e + " is negative"
+                    "[mobx.array] Index out of bounds: " + e + " is negative",
                   );
                 var t = this.$mobx.values.length;
                 if (e >= t)
@@ -6845,7 +6845,7 @@
                     "[mobx.array] Index out of bounds: " +
                       e +
                       " is not smaller than " +
-                      t
+                      t,
                   );
               }
               if ((n.call(this, e), n.call(this, t), e !== t)) {
@@ -6857,7 +6857,7 @@
                         o.slice(0, e),
                         o.slice(e + 1, t + 1),
                         [o[e]],
-                        o.slice(t + 1)
+                        o.slice(t + 1),
                       )
                     : I(o.slice(0, t), [o[e]], o.slice(t, e), o.slice(e + 1))),
                   this.replace(r);
@@ -6873,7 +6873,7 @@
                     e +
                     ") that is out of bounds (" +
                     t.values.length +
-                    "). Please check length first. Out of bound indices will not be tracked by MobX"
+                    "). Please check length first. Out of bound indices will not be tracked by MobX",
                 );
               }
             }),
@@ -6901,7 +6901,7 @@
                     "[mobx.array] Index out of bounds, " +
                       e +
                       " is larger than " +
-                      r.length
+                      r.length,
                   );
                 n.spliceWithArray(e, 0, [t]);
               }
@@ -6943,7 +6943,7 @@
           var t = Array.prototype[e];
           s(
             "function" == typeof t,
-            "Base function not defined on Array prototype: '" + e + "'"
+            "Base function not defined on Array prototype: '" + e + "'",
           ),
             h(Mt.prototype, e, function () {
               return t.apply(this.peek(), arguments);
@@ -6952,7 +6952,7 @@
         ["every", "filter", "forEach", "map", "some"].forEach(function (e) {
           s(
             "function" == typeof Array.prototype[e],
-            "Base function not defined on Array prototype: '" + e + "'"
+            "Base function not defined on Array prototype: '" + e + "'",
           ),
             h(Mt.prototype, e, function (t, n) {
               var r = this,
@@ -7046,7 +7046,7 @@
               "function" != typeof Map)
             )
               throw new Error(
-                "mobx.map requires Map polyfill for the current browser. Check babel-polyfill or core-js/es6/map.js"
+                "mobx.map requires Map polyfill for the current browser. Check babel-polyfill or core-js/es6/map.js",
               );
             (this._data = new Map()), (this._hasMap = new Map()), this.merge(e);
           }
@@ -7063,7 +7063,7 @@
                   this._has(e),
                   H,
                   this.name + "." + Ht(e) + "?",
-                  !1
+                  !1,
                 ));
                 this._hasMap.set(e, r),
                   st(r, function () {
@@ -7230,7 +7230,7 @@
                       ? e.constructor !== Map
                         ? u(
                             "Cannot initialize from classes that inherit from Map: " +
-                              e.constructor.name
+                              e.constructor.name,
                           )
                         : e.forEach(function (e, n) {
                             return t.set(n, e);
@@ -7377,7 +7377,7 @@
               "function" != typeof Set)
             )
               throw new Error(
-                "mobx.set requires Set polyfill for the current browser. Check babel-polyfill or core-js/es6/set.js"
+                "mobx.set requires Set polyfill for the current browser. Check babel-polyfill or core-js/es6/set.js",
               );
             (this.enhancer = function (e, r) {
               return t(e, r, n);
@@ -7629,7 +7629,7 @@
                   t +
                   "' of '" +
                   e +
-                  "' was accessed through the prototype chain. Use 'decorate' instead to declare the prop or access it statically through it's owner"
+                  "' was accessed through the prototype chain. Use 'decorate' instead to declare the prop or access it statically through it's owner",
               );
             }),
             (e.prototype.observe = function (e, t) {
@@ -7648,7 +7648,7 @@
                     }),
                     H,
                     "keys(" + this.name + ")",
-                    !0
+                    !0,
                   )),
                 this.keys.slice()
               );
@@ -7797,7 +7797,7 @@
       function o(e) {
         if (null == e)
           throw new TypeError(
-            "Object.assign cannot be called with null or undefined"
+            "Object.assign cannot be called with null or undefined",
           );
         return Object(e);
       }
@@ -7854,7 +7854,7 @@
           function e(e, t, n, o, i, a) {
             if (a !== r) {
               var l = new Error(
-                "Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types"
+                "Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types",
               );
               throw ((l.name = "Invariant Violation"), l);
             }
@@ -7926,7 +7926,7 @@
           style: Object.assign(
             {},
             s,
-            l({ pathRadius: i, dashRatio: o, counterClockwise: n })
+            l({ pathRadius: i, dashRatio: o, counterClockwise: n }),
           ),
           d: a({ pathRadius: i, counterClockwise: n }),
           strokeWidth: u,
@@ -8047,9 +8047,9 @@
                 ? (0, r.createElement)(
                     "text",
                     { className: o.text, style: l.text, x: 50, y: 50 },
-                    s
+                    s,
                   )
-                : null
+                : null,
             );
           }),
           (t.defaultProps = {
@@ -8262,7 +8262,7 @@
         ["contentEditable", "draggable", "spellCheck", "value"].forEach(
           function (e) {
             Q[e] = new q(e, 2, !1, e.toLowerCase(), null, !1);
-          }
+          },
         ),
         [
           "autoReverse",
@@ -8318,7 +8318,7 @@
           !1,
           "xlink:href",
           "http://www.w3.org/1999/xlink",
-          !0
+          !0,
         )),
         ["src", "href", "action", "formAction"].forEach(function (e) {
           Q[e] = new q(e, 1, !1, e.toLowerCase(), null, !0);
@@ -8794,7 +8794,7 @@
         Ke = $e("transitionend"),
         Ge =
           "abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange seeked seeking stalled suspend timeupdate volumechange waiting".split(
-            " "
+            " ",
           ),
         Ye = new ("function" == typeof WeakMap ? WeakMap : Map)();
       function Xe(e) {
@@ -9054,11 +9054,11 @@
         _t = [],
         St =
           "mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput close cancel copy cut paste click change contextmenu reset submit".split(
-            " "
+            " ",
           ),
         Tt =
           "focus blur dragenter dragleave mouseover mouseout pointerover pointerout gotpointercapture lostpointercapture".split(
-            " "
+            " ",
           );
       function Ot(e, t, n, r, o) {
         return {
@@ -9124,7 +9124,7 @@
           e.topLevelType,
           e.eventSystemFlags,
           e.container,
-          e.nativeEvent
+          e.nativeEvent,
         );
         if (null !== t) {
           var n = An(t);
@@ -9146,7 +9146,7 @@
             e.topLevelType,
             e.eventSystemFlags,
             e.container,
-            e.nativeEvent
+            e.nativeEvent,
           );
           null !== t ? (e.blockedOn = t) : bt.shift();
         }
@@ -9260,21 +9260,21 @@
       }
       Ft(
         "blur blur cancel cancel click click close close contextmenu contextMenu copy copy cut cut auxclick auxClick dblclick doubleClick dragend dragEnd dragstart dragStart drop drop focus focus input input invalid invalid keydown keyDown keypress keyPress keyup keyUp mousedown mouseDown mouseup mouseUp paste paste pause pause play play pointercancel pointerCancel pointerdown pointerDown pointerup pointerUp ratechange rateChange reset reset seeked seeked submit submit touchcancel touchCancel touchend touchEnd touchstart touchStart volumechange volumeChange".split(
-          " "
+          " ",
         ),
-        0
+        0,
       ),
         Ft(
           "drag drag dragenter dragEnter dragexit dragExit dragleave dragLeave dragover dragOver mousemove mouseMove mouseout mouseOut mouseover mouseOver pointermove pointerMove pointerout pointerOut pointerover pointerOver scroll scroll toggle toggle touchmove touchMove wheel wheel".split(
-            " "
+            " ",
           ),
-          1
+          1,
         ),
         Ft(zt, 2);
       for (
         var Bt =
             "change selectionchange textInput compositionstart compositionend compositionupdate".split(
-              " "
+              " ",
             ),
           Vt = 0;
         Vt < Bt.length;
@@ -9465,7 +9465,7 @@
           source: !0,
           track: !0,
           wbr: !0,
-        }
+        },
       );
       function rn(e, t) {
         if (t) {
@@ -9505,7 +9505,7 @@
       var an = "http://www.w3.org/1999/xhtml";
       function ln(e, t) {
         var n = Xe(
-          (e = 9 === e.nodeType || 11 === e.nodeType ? e : e.ownerDocument)
+          (e = 9 === e.nodeType || 11 === e.nodeType ? e : e.ownerDocument),
         );
         t = S[t];
         for (var r = 0; r < t.length; r++) dt(t[r], e, n);
@@ -9892,7 +9892,7 @@
             },
             dependencies:
               "blur compositionstart keydown keypress keyup mousedown".split(
-                " "
+                " ",
               ),
           },
           compositionUpdate: {
@@ -9902,7 +9902,7 @@
             },
             dependencies:
               "blur compositionupdate keydown keypress keyup mousedown".split(
-                " "
+                " ",
               ),
           },
         },
@@ -10034,7 +10034,7 @@
           },
           dependencies:
             "blur change click focus input keydown keyup selectionchange".split(
-              " "
+              " ",
             ),
         },
       };
@@ -10319,7 +10319,7 @@
             },
             dependencies:
               "blur contextmenu dragend focus keydown keyup mousedown mouseup selectionchange".split(
-                " "
+                " ",
               ),
           },
         },
@@ -10629,8 +10629,8 @@
       if (b) throw Error(a(101));
       (b = Array.prototype.slice.call(
         "ResponderEventPlugin SimpleEventPlugin EnterLeaveEventPlugin ChangeEventPlugin SelectEventPlugin BeforeInputEventPlugin".split(
-          " "
-        )
+          " ",
+        ),
       )),
         w(),
         (h = Nn),
@@ -11167,8 +11167,8 @@
               "[object Object]" === Object.prototype.toString.call(t)
                 ? "object with keys {" + Object.keys(t).join(", ") + "}"
                 : t,
-              ""
-            )
+              "",
+            ),
           );
       }
       function Si(e) {
@@ -11222,7 +11222,7 @@
             : (((r = Pu(n.type, n.key, n.props, null, e.mode, r)).ref = Ei(
                 e,
                 t,
-                n
+                n,
               )),
               (r.return = e),
               r);
@@ -11250,7 +11250,7 @@
                   ((n = Pu(t.type, t.key, t.props, null, e.mode, n)).ref = Ei(
                     e,
                     null,
-                    t
+                    t,
                   )),
                   (n.return = e),
                   n
@@ -11301,7 +11301,7 @@
                   t,
                   (e = e.get(null === r.key ? n : r.key) || null),
                   r,
-                  o
+                  o,
                 );
             }
             if (ki(r) || me(r)) return f(t, (e = e.get(n) || null), r, o, null);
@@ -11505,7 +11505,7 @@
           default:
             t = Le(
               (t = (e = 8 === e ? t.parentNode : t).namespaceURI || null),
-              (e = e.tagName)
+              (e = e.tagName),
             );
         }
         so(Pi), co(Pi, t);
@@ -11932,7 +11932,7 @@
                     Bi.suspense = n;
                   }
                 },
-                [e, t]
+                [e, t],
               ),
               r
             );
@@ -11973,7 +11973,7 @@
                     Bi.suspense = n;
                   }
                 },
-                [e, t]
+                [e, t],
               ),
               r
             );
@@ -12014,7 +12014,7 @@
                     Bi.suspense = n;
                   }
                 },
-                [e, t]
+                [e, t],
               ),
               r
             );
@@ -13091,7 +13091,7 @@
                 r = e.memoizedState;
               (t = (e = t.stateNode).getSnapshotBeforeUpdate(
                 t.elementType === t.type ? n : Yo(t.type, n),
-                r
+                r,
               )),
                 (e.__reactInternalSnapshotBeforeUpdate = t);
             }
@@ -13141,7 +13141,7 @@
                 e.componentDidUpdate(
                   r,
                   t.memoizedState,
-                  e.__reactInternalSnapshotBeforeUpdate
+                  e.__reactInternalSnapshotBeforeUpdate,
                 );
               }
             return void (null !== (t = n.updateQueue) && di(n, t, e));
@@ -14008,7 +14008,7 @@
                 l = Error(
                   (ve(a.type) || "A React component") +
                     " suspended while rendering, but no fallback UI was specified.\n\nAdd a <Suspense fallback=...> component higher in the tree to provide a loading indicator or placeholder to display." +
-                    ye(a)
+                    ye(a),
                 );
               }
               5 !== Al && (Al = 2), (l = Za(l, a)), (f = i);
@@ -14563,7 +14563,7 @@
                         },
                         function (t) {
                           0 === e._status && ((e._status = 2), (e._result = t));
-                        }
+                        },
                       );
                   }
                 })(o),
@@ -14920,7 +14920,7 @@
             4,
             null !== e.children ? e.children : [],
             e.key,
-            t
+            t,
           )).expirationTime = n),
           (t.stateNode = {
             containerInfo: e.containerInfo,
@@ -15161,7 +15161,7 @@
                 for (n = e; n.parentNode; ) n = n.parentNode;
                 for (
                   n = n.querySelectorAll(
-                    "input[name=" + JSON.stringify("" + t) + '][type="radio"]'
+                    "input[name=" + JSON.stringify("" + t) + '][type="radio"]',
                   ),
                     t = 0;
                   t < n.length;
@@ -15230,7 +15230,7 @@
                   n,
                   e,
                   void 0,
-                  64 == (64 & e.current.effectTag)
+                  64 == (64 & e.current.effectTag),
                 );
               } catch (e) {}
             }),
@@ -15258,7 +15258,7 @@
             scheduleRoot: null,
             setRefreshHandler: null,
             getCurrentFiber: null,
-          })
+          }),
         );
       })({
         findFiberByHostInstance: Pn,
@@ -15316,7 +15316,7 @@
           arguments.length > 1 &&
             "string" != typeof (n = arguments[1]) &&
             (console.log(
-              "Warning: Expected string as second argument passed to `injectUniqueness`"
+              "Warning: Expected string as second argument passed to `injectUniqueness`",
             ),
             (n = "" + n));
           var r = e.render,
@@ -15336,7 +15336,7 @@
               return (
                 "string" != typeof e &&
                   (console.log(
-                    "Warning: Expected string identifer passed to `getUniqueId`"
+                    "Warning: Expected string identifer passed to `getUniqueId`",
                   ),
                   (e = "" + e)),
                 o[e] || (o[e] = "id-" + a + "-" + e),
@@ -15395,14 +15395,14 @@
             var r = (function (e, t) {
               if (!e)
                 throw new ReferenceError(
-                  "this hasn't been initialised - super() hasn't been called"
+                  "this hasn't been initialised - super() hasn't been called",
                 );
               return !t || ("object" != typeof t && "function" != typeof t)
                 ? e
                 : t;
             })(
               this,
-              (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
+              (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n),
             );
             return (
               (r._expandRef = null),
@@ -15422,7 +15422,7 @@
               if ("function" != typeof t && null !== t)
                 throw new TypeError(
                   "Super expression must either be null or a function, not " +
-                    typeof t
+                    typeof t,
                 );
               (e.prototype = Object.create(t && t.prototype, {
                 constructor: {
@@ -15465,13 +15465,13 @@
                         ((n = !1),
                         t._scrollListeners.splice(
                           t._scrollListeners.indexOf(e),
-                          1
+                          1,
                         ),
                         0 === t._scrollListeners.length &&
                           document.removeEventListener(
                             "scroll",
                             t._handleScroll,
-                            !0
+                            !0,
                           ));
                     }
                   );
@@ -15490,13 +15490,13 @@
                         ((n = !1),
                         t._resizeListeners.splice(
                           t._resizeListeners.indexOf(e),
-                          1
+                          1,
                         ),
                         0 === t._resizeListeners.length &&
                           window.removeEventListener(
                             "resize",
                             t._handleResize,
-                            !0
+                            !0,
                           ));
                     }
                   );
@@ -15509,7 +15509,7 @@
                 value: function () {
                   this._reflow(),
                     (this._removeScroll = t.addScrollListener(
-                      this._handleScroll
+                      this._handleScroll,
                     )),
                     (this.props.onPosition || this.props.onReflow) &&
                       (this._removeResize = t.addResizeListener(this._reflow));
@@ -15646,15 +15646,15 @@
                           { ref: this._handleExpandRef, style: l },
                           a.default.createElement("div", {
                             style: o({}, u, { width: 1e5, height: 1e5 }),
-                          })
+                          }),
                         ),
                         a.default.createElement(
                           "div",
                           { ref: this._handleShrinkRef, style: l },
                           a.default.createElement("div", {
                             style: o({}, u, { width: "200%", height: "200%" }),
-                          })
-                        )
+                          }),
+                        ),
                       )
                     : a.default.createElement("noscript", {
                         ref: this._handleRef,
@@ -15837,8 +15837,8 @@
                 "[object Object]" === n
                   ? "object with keys {" + Object.keys(e).join(", ") + "}"
                   : n,
-                ""
-              )
+                "",
+              ),
             ))
           );
         return l;
@@ -15887,7 +15887,7 @@
                     (!e.key || (t && t.key === e.key)
                       ? ""
                       : ("" + e.key).replace(P, "$&/") + "/") +
-                    n
+                    n,
                 )),
               r.push(e));
       }
@@ -15926,7 +15926,7 @@
             function () {
               return null;
             },
-            null
+            null,
           );
         },
         toArray: function (e) {
@@ -16062,7 +16062,7 @@
       function u(e) {
         if (void 0 === e)
           throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
+            "this hasn't been initialised - super() hasn't been called",
           );
         return e;
       }
@@ -16140,13 +16140,13 @@
                 animationDuration: l + "ms",
                 WebkitAnimationDuration: l + "ms",
               },
-              u
+              u,
             );
           return r.createElement(
             "div",
             { style: c, className: t, id: s },
             e.children,
-            n
+            n,
           );
         },
         m = (function (e) {
@@ -16234,7 +16234,7 @@
                   onKeyUp: this.onKeyUp,
                 },
                 v,
-                r.createElement(h, f({}, this.props, { animationType: m }), c)
+                r.createElement(h, f({}, this.props, { animationType: m }), c),
               );
             }),
             o
@@ -16320,11 +16320,11 @@
           var m = window.cancelAnimationFrame;
           "function" != typeof window.requestAnimationFrame &&
             console.error(
-              "This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills"
+              "This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills",
             ),
             "function" != typeof m &&
               console.error(
-                "This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills"
+                "This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills",
               );
         }
         if ("object" == typeof f && "function" == typeof f.now)
@@ -16349,7 +16349,7 @@
           (t.unstable_forceFrameRate = function (e) {
             0 > e || 125 < e
               ? console.error(
-                  "forceFrameRate takes a positive int between 0 and 125, forcing framerates higher than 125 fps is not unsupported"
+                  "forceFrameRate takes a positive int between 0 and 125, forcing framerates higher than 125 fps is not unsupported",
                 )
               : (w = 0 < e ? Math.floor(1e3 / e) : 5);
           });
@@ -17433,7 +17433,7 @@
                 (i = e),
                 (a = !0),
                 (l = new Uint8Array(r.byteLength + i.byteLength)).set(
-                  new Uint8Array(r)
+                  new Uint8Array(r),
                 ),
                 l.set(new Uint8Array(i), r.byteLength),
                 a ? l : l.buffer),
@@ -17528,7 +17528,7 @@
                   n(c, i),
                   c
                 );
-              })(new Uint8Array(e))
+              })(new Uint8Array(e)),
             );
             return t ? s(r) : r;
           }),
@@ -17679,7 +17679,7 @@
         })(e);
         if (!r)
           throw new Error(
-            "Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid."
+            "Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.",
           );
         r.appendChild(n);
       };
@@ -17712,7 +17712,7 @@
               o &&
                 (r += "@layer".concat(
                   n.layer.length > 0 ? " ".concat(n.layer) : "",
-                  " {"
+                  " {",
                 )),
                 (r += n.css),
                 o && (r += "}"),
@@ -17724,7 +17724,7 @@
                 (r +=
                   "\n/*# sourceMappingURL=data:application/json;base64,".concat(
                     btoa(unescape(encodeURIComponent(JSON.stringify(i)))),
-                    " */"
+                    " */",
                   )),
                 t.styleTagTransform(r, e, t.options);
             })(t, e, n);

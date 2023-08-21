@@ -86,7 +86,7 @@ webpackJsonp(
                     className: "Label Title",
                     __source: { fileName: s, lineNumber: 52 },
                   },
-                  Object(m.b)(this.props.strTitle)
+                  Object(m.b)(this.props.strTitle),
                 ),
                 i.createElement(
                   "div",
@@ -101,8 +101,8 @@ webpackJsonp(
                       className: "Label",
                       __source: { fileName: s, lineNumber: 54 },
                     },
-                    Object(m.b)(this.props.strButtonName)
-                  )
+                    Object(m.b)(this.props.strButtonName),
+                  ),
                 ),
                 i.createElement(
                   "svg",
@@ -123,8 +123,8 @@ webpackJsonp(
                     r: "2",
                     fill: "var(--bordercolor)",
                     __source: { fileName: s, lineNumber: 58 },
-                  })
-                )
+                  }),
+                ),
               );
             }),
             r.a([a.a], t.prototype, "BindButtonRef", null),
@@ -168,7 +168,7 @@ webpackJsonp(
                       className: "Label Title",
                       __source: { fileName: s, lineNumber: 89 },
                     },
-                    "Left Vive Controller"
+                    "Left Vive Controller",
                   ),
                   i.createElement(c, {
                     strTitle: "Menu",
@@ -204,7 +204,7 @@ webpackJsonp(
                     eControllerButtonSide: 0,
                     endPoint: l,
                     __source: { fileName: s, lineNumber: 94 },
-                  })
+                  }),
                 ),
                 i.createElement(
                   "div",
@@ -217,7 +217,7 @@ webpackJsonp(
                     src: "images/vive_wand.svg",
                     style: { transform: "scale(-1,1)" },
                     __source: { fileName: s, lineNumber: 97 },
-                  })
+                  }),
                 ),
                 i.createElement(
                   "div",
@@ -229,7 +229,7 @@ webpackJsonp(
                     className: "ControllerImage",
                     src: "images/vive_wand.svg",
                     __source: { fileName: s, lineNumber: 101 },
-                  })
+                  }),
                 ),
                 i.createElement(
                   "div",
@@ -248,7 +248,7 @@ webpackJsonp(
                       className: "Label Title",
                       __source: { fileName: s, lineNumber: 104 },
                     },
-                    "Right Vive Controller"
+                    "Right Vive Controller",
                   ),
                   i.createElement(c, {
                     strTitle: "Menu",
@@ -284,8 +284,8 @@ webpackJsonp(
                     eControllerButtonSide: 1,
                     endPoint: l,
                     __source: { fileName: s, lineNumber: 109 },
-                  })
-                )
+                  }),
+                ),
               );
             }),
             (t = r.a([o.a], t))
@@ -295,7 +295,7 @@ webpackJsonp(
         _ = function (e) {
           return l.render(
             i.createElement(e, { __source: { fileName: s, lineNumber: 120 } }),
-            N
+            N,
           );
         };
       Object(m.a)("english").then(function () {
@@ -303,6 +303,6 @@ webpackJsonp(
       });
     },
   },
-  ["exP/"]
+  ["exP/"],
 );
 //# sourceMappingURL=controllerbinding.js.map

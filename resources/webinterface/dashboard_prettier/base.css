@@ -704,7 +704,8 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
   display: flex;
   box-sizing: border-box;
   border: solid 2px transparent;
-  transition: background-color var(--handle-background-fade-duration),
+  transition:
+    background-color var(--handle-background-fade-duration),
     border var(--settings-control-hover-fade-duration),
     box-shadow var(--settings-control-hover-fade-duration);
 }

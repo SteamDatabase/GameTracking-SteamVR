@@ -5,6 +5,6 @@
     "prettier": "prettier"
   },
   "dependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^3.0.2"
   }
 }

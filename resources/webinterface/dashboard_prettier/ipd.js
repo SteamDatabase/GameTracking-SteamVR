@@ -57,7 +57,7 @@
             n,
             function (r) {
               return e[r];
-            }.bind(null, n)
+            }.bind(null, n),
           );
       return t;
     }),
@@ -473,9 +473,9 @@
                 i.createElement(
                   "div",
                   { className: "IPDSettingTextDesc" },
-                  Object(_.b)("#IPD_Description")
+                  Object(_.b)("#IPD_Description"),
                 ),
-                i.createElement("div", { className: "IPDSettingText" }, e)
+                i.createElement("div", { className: "IPDSettingText" }, e),
               ),
               i.createElement(
                 "div",
@@ -483,8 +483,8 @@
                 i.createElement("img", {
                   src: "images/ipd.png",
                   id: "ipd_image",
-                })
-              )
+                }),
+              ),
             );
           }),
           n.c([l.b], r.prototype, "HideOverlay", null),

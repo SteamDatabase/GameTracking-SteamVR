@@ -42,7 +42,8 @@
   text-align: center;
   border: none;
 
-  transition: background-color var(--settings-control-hover-fade-duration),
+  transition:
+    background-color var(--settings-control-hover-fade-duration),
     box-shadow var(--settings-control-hover-fade-duration);
 }
 
@@ -375,7 +376,9 @@ div.BindingCalloutModifierIcon {
   display: inline;
   color: #ffffffaa;
 
-  transition: margin-bottom 0.3s, opacity 0.2s;
+  transition:
+    margin-bottom 0.3s,
+    opacity 0.2s;
   opacity: 0;
 }
 
@@ -1861,7 +1864,8 @@ div.BindingCalloutModifierIcon {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
+  box-shadow:
+    inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
     0 7px 12px 0px rgba(0, 0, 0, 0.5);
   margin: 0 16px;
 }
@@ -1869,14 +1873,16 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton:hover {
   transform: translateZ(9px) rotateX(1.5deg);
   filter: brightness(105%);
-  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
+  box-shadow:
+    inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
     0 7px 16px 0px rgba(0, 0, 0, 0.7);
 }
 
 .DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton:active {
   transform: translateZ(-10px) rotateX(0deg);
   filter: brightness(95%);
-  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
+  box-shadow:
+    inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
     0 5px 3px 0px rgba(0, 0, 0, 0.7);
 }
 

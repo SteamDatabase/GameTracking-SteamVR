@@ -35,7 +35,7 @@
             null === VRHTML || void 0 === VRHTML
               ? void 0
               : VRHTML.VRAudioDevices.RegisterForDeviceChangedEvents(
-                  this.onAudioDeviceChanged
+                  this.onAudioDeviceChanged,
                 );
         }
         onAudioDeviceChanged() {}
@@ -63,7 +63,7 @@
           this.setDeviceSetting(
             this.getHmdAudioSettingsKey(e),
             this.getHmdAudioSettingsKey(e + "Name"),
-            t
+            t,
           );
         }
         getAudioDevice(e) {
@@ -80,7 +80,7 @@
           this.setDeviceSetting(
             "/settings/audio/playbackMirrorDevice",
             "/settings/audio/playbackMirrorDeviceName",
-            this.getAudioDevice(e)
+            this.getAudioDevice(e),
           );
         }
         makeDeviceChoiceList(e) {
@@ -101,7 +101,7 @@
                     ? void 0
                     : VRHTML.VRProperties.GetBoolProperty(
                         "/user/head",
-                        o.Uk.Audio_SupportsDualSpeakerAndJackOutput_Bool
+                        o.Uk.Audio_SupportsDualSpeakerAndJackOutput_Bool,
                       )) &&
               void 0 !== e &&
               e,
@@ -112,7 +112,7 @@
                     ? void 0
                     : VRHTML.VRProperties.GetBoolProperty(
                         "/user/head",
-                        o.Uk.Hmd_SupportsMicMonitoring_Bool
+                        o.Uk.Hmd_SupportsMicMonitoring_Bool,
                       )) &&
               void 0 !== t &&
               t,
@@ -138,36 +138,36 @@
               onLabel: (0, m.Xx)("#Settings_Audio_Manual"),
               onSubsection: c.createElement(_.Xp, {
                 items: this.makeDeviceChoiceList(
-                  S.G3.audioDevices.playback_devices
+                  S.G3.audioDevices.playback_devices,
                 ),
                 value: S.G3.audioDevices.selected_playback_device,
                 onChange: this.onOverrideDeviceDropdownChanged.bind(
                   this,
-                  "playbackDeviceOverride"
+                  "playbackDeviceOverride",
                 ),
                 defaultLabel: (0, m.Xx)(
-                  "#Settings_Audio_Current_Setting_Unknown"
+                  "#Settings_Audio_Current_Setting_Unknown",
                 ),
               }),
             }),
             c.createElement(_.wy, {
               name: this.getHmdAudioSettingsKey(
-                "enableRecordingDeviceOverride"
+                "enableRecordingDeviceOverride",
               ),
               label: (0, m.Xx)("#Settings_Audio_Recording_Automatic_Label"),
               offLabel: (0, m.Xx)("#Settings_Audio_Headset"),
               onLabel: (0, m.Xx)("#Settings_Audio_Manual"),
               onSubsection: c.createElement(_.Xp, {
                 items: this.makeDeviceChoiceList(
-                  S.G3.audioDevices.record_devices
+                  S.G3.audioDevices.record_devices,
                 ),
                 value: S.G3.audioDevices.selected_recording_device,
                 onChange: this.onOverrideDeviceDropdownChanged.bind(
                   this,
-                  "recordingDeviceOverride"
+                  "recordingDeviceOverride",
                 ),
                 defaultLabel: (0, m.Xx)(
-                  "#Settings_Audio_Current_Setting_Unknown"
+                  "#Settings_Audio_Current_Setting_Unknown",
                 ),
               }),
             }),
@@ -179,21 +179,21 @@
                 null,
                 c.createElement(_.Xp, {
                   items: this.makeDeviceChoiceList(
-                    S.G3.audioDevices.playback_devices
+                    S.G3.audioDevices.playback_devices,
                   ),
                   value: S.G3.audioDevices.selected_mirror_device,
                   onChange: this.onMirrorDeviceDropdownChanged,
                   defaultLabel: (0, m.Xx)(
-                    "#Settings_Audio_Current_Setting_Unknown"
+                    "#Settings_Audio_Current_Setting_Unknown",
                   ),
                 }),
                 c.createElement(_.wy, {
                   name: "/settings/audio/enablePlaybackMirrorIndependentVolume",
                   label: (0, m.Xx)(
-                    "#Settings_Audio_Mirroring_Independent_Volume_Label"
+                    "#Settings_Audio_Mirroring_Independent_Volume_Label",
                   ),
                   visibility: _.VK.Advanced,
-                })
+                }),
               ),
             }),
             s &&
@@ -215,7 +215,7 @@
                 label: (0, m.Xx)("#Settings_Audio_MicMonitor"),
                 offLabel: (0, m.Xx)("#Settings_Audio_Active"),
                 onLabel: (0, m.Xx)("#Settings_Audio_Muted"),
-              })
+              }),
           );
         }
       };
@@ -290,7 +290,7 @@
             this.m_imageRef.current && (this.m_imageRef.current.src = ""),
             (this.m_updateInterval = window.setInterval(
               this.onUpdateCameraFrame,
-              100
+              100,
             )),
             this.onUpdateCameraFrame();
         }
@@ -305,30 +305,30 @@
             ? c.createElement(
                 "h1",
                 { className: "CameraStatus Evaluating" },
-                (0, m.Xx)("#CameraTest_CheckingCamera")
+                (0, m.Xx)("#CameraTest_CheckingCamera"),
               )
             : this.state.streamingProgress == y.Failure
             ? c.createElement(
                 "h1",
                 { className: "CameraStatus Failure" },
-                (0, m.Xx)("#CameraTest_CameraFailed")
+                (0, m.Xx)("#CameraTest_CameraFailed"),
               )
             : this.state.trackingProgress == y.Evaluating
             ? c.createElement(
                 "h1",
                 { className: "CameraStatus Evaluating" },
-                (0, m.Xx)("#CameraTest_CheckingTracking")
+                (0, m.Xx)("#CameraTest_CheckingTracking"),
               )
             : this.state.trackingProgress == y.Failure
             ? c.createElement(
                 "h1",
                 { className: "CameraStatus Failure" },
-                (0, m.Xx)("#CameraTest_TrackingFailed")
+                (0, m.Xx)("#CameraTest_TrackingFailed"),
               )
             : c.createElement(
                 "h1",
                 { className: "CameraStatus Success" },
-                (0, m.Xx)("#CameraTest_Success")
+                (0, m.Xx)("#CameraTest_Success"),
               );
         }
         render() {
@@ -341,13 +341,13 @@
               c.createElement(
                 "div",
                 { className: "Label" },
-                (0, m.Xx)("#Settings_CameraTest")
+                (0, m.Xx)("#Settings_CameraTest"),
               ),
               c.createElement(
                 u.z,
                 { className: "ButtonControl", onClick: this.startTest },
-                (0, m.Xx)("#Settings_StartCameraTest")
-              )
+                (0, m.Xx)("#Settings_StartCameraTest"),
+              ),
             ),
             this.state.bShowTest &&
               c.createElement(
@@ -357,8 +357,8 @@
                   header: this.renderStatusLine(),
                   onDismissRequested: this.stopTest,
                 },
-                c.createElement("img", { ref: this.m_imageRef })
-              )
+                c.createElement("img", { ref: this.m_imageRef }),
+              ),
           );
         }
       }
@@ -379,7 +379,7 @@
                 ? void 0
                 : VRHTML.VRProperties.GetBoolProperty(
                     "/user/head",
-                    o.Uk.SupportsRoomViewDepthProjection_Bool
+                    o.Uk.SupportsRoomViewDepthProjection_Bool,
                   )) &&
           void 0 !== e &&
           e;
@@ -426,7 +426,7 @@
                   ? void 0
                   : VRHTML.VRProperties.GetBoolProperty(
                       "/user/head",
-                      o.Uk.CameraSupportsCompatibilityModes_Bool
+                      o.Uk.CameraSupportsCompatibilityModes_Bool,
                     )) &&
             void 0 !== e &&
             e
@@ -460,10 +460,10 @@
                       ? void 0
                       : VRHTML.VRProperties.GetInt32Property(
                           "/user/head",
-                          o.Uk.CameraCompatibilityMode_Int32
+                          o.Uk.CameraCompatibilityMode_Int32,
                         )) && void 0 !== e
                   ? e
-                  : o.lx.BULK_DEFAULT
+                  : o.lx.BULK_DEFAULT,
               )
             : 0;
         }
@@ -522,7 +522,7 @@
             s = S.G3.settings.get(h.k_),
             r =
               S.G3.settings.get(
-                "/settings/camera/enableCameraForCollisionBounds"
+                "/settings/camera/enableCameraForCollisionBounds",
               ) || s != b.Off;
           let a = [
             {
@@ -536,7 +536,7 @@
             {
               value: f.VIDEO_TRANSLUCENT,
               sLabel: (0, m.Xx)(
-                "#Settings_Camera_RoomViewStyle_VideoTranslucent"
+                "#Settings_Camera_RoomViewStyle_VideoTranslucent",
               ),
             },
             {
@@ -551,7 +551,7 @@
                   ? void 0
                   : VRHTML.VRProperties.GetBoolProperty(
                       "/user/head",
-                      o.Uk.SupportsRoomViewDepthProjection_Bool
+                      o.Uk.SupportsRoomViewDepthProjection_Bool,
                     )) &&
             void 0 !== e &&
             e;
@@ -564,14 +564,14 @@
               c.createElement(
                 "div",
                 { className: "SettingsItemValueLabel" },
-                (0, m.Xx)("#Settings_Camera_RoomView3D_Experimental")
+                (0, m.Xx)("#Settings_Camera_RoomView3D_Experimental"),
               ),
             !l &&
               s == b.On3D &&
               c.createElement(
                 "div",
                 { className: "SettingsItemValueLabel" },
-                (0, m.Xx)("#Settings_Camera_RoomView3D_Unsupported")
+                (0, m.Xx)("#Settings_Camera_RoomView3D_Unsupported"),
               ),
             i &&
               c.createElement(_.U4, {
@@ -583,7 +583,7 @@
                 value: this.state.cameraRateValue,
                 onChange: this.onCameraRateChanged.bind(
                   this,
-                  "click_activate_threshold"
+                  "click_activate_threshold",
                 ),
                 valueStyleVariant: w.px.OnHandle,
                 renderValue: (e) => this.state.cameraRateValue.toString(),
@@ -612,20 +612,20 @@
                         min: 76.5,
                         max: 255,
                         label: (0, m.Xx)(
-                          "#Settings_Chaperone_BoundsTransparency"
+                          "#Settings_Chaperone_BoundsTransparency",
                         ),
                         color: {
                           r: S.G3.settings.get(
-                            "/settings/camera/cameraBoundsColorGammaR"
+                            "/settings/camera/cameraBoundsColorGammaR",
                           ),
                           g: S.G3.settings.get(
-                            "/settings/camera/cameraBoundsColorGammaG"
+                            "/settings/camera/cameraBoundsColorGammaG",
                           ),
                           b: S.G3.settings.get(
-                            "/settings/camera/cameraBoundsColorGammaB"
+                            "/settings/camera/cameraBoundsColorGammaB",
                           ),
                         },
-                      })
+                      }),
                   ),
               }),
             c.createElement(_.wy, {
@@ -636,13 +636,13 @@
             c.createElement(_.wy, {
               name: "/settings/camera/enableCameraForCollisionBounds",
               label: (0, m.Xx)(
-                "#Settings_Camera_AllowCameraForChaperoneBounds"
+                "#Settings_Camera_AllowCameraForChaperoneBounds",
               ),
               title: (0, m.Xx)(
-                "#Settings_Camera_AllowCameraForChaperoneBounds_Desc"
+                "#Settings_Camera_AllowCameraForChaperoneBounds_Desc",
               ),
             }),
-            c.createElement("hr", null)
+            c.createElement("hr", null),
           );
         }
         render() {
@@ -661,7 +661,7 @@
                   onLabel: (0, m.Xx)("#Settings_ToggleButton_Enable"),
                 }),
                 this.cameraEnabled() && c.createElement(A, null),
-                this.makeResetToDefaultButton()
+                this.makeResetToDefaultButton(),
               )
             : null;
         }
@@ -708,7 +708,7 @@
                 (0, o.Op)() != o.qA.Overlay &&
                   S.G3.SetSettingsValue(
                     "/settings/dashboard/dashboardScale",
-                    e
+                    e,
                   );
             },
             onFinalChange: (e) =>
@@ -797,7 +797,7 @@
               title: (0, m.Xx)("#Settings_EnableDashboardDesc"),
               label: (0, m.Xx)("#Settings_EnableDashboard"),
               visibility: _.VK.Advanced,
-            })
+            }),
           );
         }
       };
@@ -875,9 +875,9 @@
                 c.createElement(
                   "div",
                   { className: "Badge" },
-                  (0, m.Xx)("#OpenXR_ApiLayers_Active", i)
-                )
-              )
+                  (0, m.Xx)("#OpenXR_ApiLayers_Active", i),
+                ),
+              ),
             ),
             this.state.bShowingModal &&
               c.createElement(
@@ -894,7 +894,7 @@
                       label: e.sName,
                       value: e.bIsEnabled,
                       onChange: (t) => this.setApiLayerState(e.sId, t),
-                    })
+                    }),
                   ),
                 a.length > 0 &&
                   a.map((e) =>
@@ -907,16 +907,16 @@
                           "div",
                           { className: "SettingsItemValueInfo" },
                           " ",
-                          (0, m.Xx)("#OpenXR_ApiLayers_Enabled")
+                          (0, m.Xx)("#OpenXR_ApiLayers_Enabled"),
                         ),
                       !e.bIsEnabled &&
                         c.createElement(
                           "div",
                           { className: "SettingsItemValueInfo" },
                           " ",
-                          (0, m.Xx)("#OpenXR_ApiLayers_Disabled")
-                        )
-                    )
+                          (0, m.Xx)("#OpenXR_ApiLayers_Disabled"),
+                        ),
+                    ),
                   ),
                 r.length > 0 &&
                   r.map((e) =>
@@ -927,17 +927,17 @@
                       c.createElement(
                         "div",
                         { className: "SettingsItemValueInfo" },
-                        (0, m.Xx)("#OpenXR_ApiLayers_App_Controlled")
-                      )
-                    )
+                        (0, m.Xx)("#OpenXR_ApiLayers_App_Controlled"),
+                      ),
+                    ),
                   ),
                 t &&
                   c.createElement(
                     "div",
                     { className: "ModalPlaceholder" },
-                    (0, m.Xx)("#OpenXR_ApiLayers_None_Installed")
-                  )
-              )
+                    (0, m.Xx)("#OpenXR_ApiLayers_None_Installed"),
+                  ),
+              ),
           );
         }
       };
@@ -1004,15 +1004,15 @@
                 c.createElement(
                   "div",
                   { className: "OpenXRRuntimeLabel" },
-                  (0, m.Xx)("#Settings_CurrentOpenXRRuntime")
+                  (0, m.Xx)("#Settings_CurrentOpenXRRuntime"),
                 ),
                 c.createElement(
                   "div",
                   { className: "OpenXRRuntimeValue" },
                   " ",
                   n,
-                  " "
-                )
+                  " ",
+                ),
               ),
               !(null === VRHTML || void 0 === VRHTML
                 ? void 0
@@ -1026,11 +1026,11 @@
                       className: "ButtonControl",
                       onClick: this.OnSetAsOpenXRRuntime,
                     },
-                    (0, m.Xx)("#Settings_SetAsOpenXRRuntime")
-                  )
+                    (0, m.Xx)("#Settings_SetAsOpenXRRuntime"),
+                  ),
                 ),
               c.createElement(I, null),
-              this.makeResetToDefaultButton()
+              this.makeResetToDefaultButton(),
             )
           );
         }
@@ -1094,15 +1094,15 @@
                 c.createElement(
                   "div",
                   { className: "OpenXRRuntimeLabel" },
-                  (0, m.Xx)("#Settings_CurrentOpenXRRuntime")
+                  (0, m.Xx)("#Settings_CurrentOpenXRRuntime"),
                 ),
                 c.createElement(
                   "div",
                   { className: "OpenXRRuntimeValue" },
                   " ",
                   n,
-                  " "
-                )
+                  " ",
+                ),
               ),
               !(null === VRHTML || void 0 === VRHTML
                 ? void 0
@@ -1116,10 +1116,10 @@
                       className: "ButtonControl",
                       onClick: this.OnSetAsOpenXRRuntime,
                     },
-                    (0, m.Xx)("#Settings_SetAsOpenXRRuntime")
-                  )
+                    (0, m.Xx)("#Settings_SetAsOpenXRRuntime"),
+                  ),
                 ),
-              this.makeResetToDefaultButton()
+              this.makeResetToDefaultButton(),
             )
           );
         }
@@ -1176,7 +1176,7 @@
                   label: (0, m.Xx)("#Settings_HomeAppCheck"),
                   title: (0, m.Xx)("#Settings_HomeAppDesc"),
                   visibility: _.VK.Advanced,
-                })
+                }),
               )
             : null;
         }
@@ -1193,7 +1193,7 @@
                   ? void 0
                   : o.Co.VRProperties.GetFloatProperty(
                       o.wU,
-                      o.Uk.DashboardScale_Float
+                      o.Uk.DashboardScale_Float,
                     )) && void 0 !== t
               ? t
               : 1),
@@ -1230,7 +1230,7 @@
                     strokeWidth: 9,
                     strokeLinecap: "round",
                   },
-                })
+                }),
               ),
               o.push(
                 c.createElement("line", {
@@ -1244,7 +1244,7 @@
                     strokeWidth: 9,
                     strokeLinecap: "round",
                   },
-                })
+                }),
               ),
               o.push(
                 c.createElement("circle", {
@@ -1258,12 +1258,12 @@
                     fillOpacity: 0.1,
                     fill: "rgb(256, 256, 256)",
                   },
-                })
+                }),
               ),
               c.createElement(
                 "svg",
                 { width: e, height: t, viewBox: [0, 0, e, t].join(" ") },
-                o
+                o,
               )
             );
           })(240, 240, 20, r),
@@ -1294,11 +1294,11 @@
                       { className: "ETCLensSVG" },
                       " ",
                       l,
-                      " "
-                    )
-                  )
-                )
-              )
+                      " ",
+                    ),
+                  ),
+                ),
+              ),
             )
           : c.createElement(
               u.z,
@@ -1309,7 +1309,7 @@
                   a(1.5), i(!0);
                 },
               },
-              " Do Center Track "
+              " Do Center Track ",
             );
       };
       let x = class extends c.Component {
@@ -1325,7 +1325,7 @@
             null === o.Co || void 0 === o.Co
               ? void 0
               : o.Co.RegisterForEyeTrackingServerStatus(
-                  this.onEyeTrackingServerEnabledEventUpdate
+                  this.onEyeTrackingServerEnabledEventUpdate,
                 );
         }
         componentWillUnmount() {
@@ -1374,7 +1374,7 @@
                   { className: "Label" },
                   " ",
                   "EyeTrackingServerStatus",
-                  " "
+                  " ",
                 ),
                 c.createElement(
                   "div",
@@ -1383,8 +1383,8 @@
                   this.state.nStatus,
                   " ( ",
                   t,
-                  " ) "
-                )
+                  " ) ",
+                ),
               ),
               c.createElement(
                 "div",
@@ -1392,7 +1392,7 @@
                 c.createElement(
                   "div",
                   { className: "Label" },
-                  " Stop Eye Tracking Server "
+                  " Stop Eye Tracking Server ",
                 ),
                 c.createElement(
                   u.z,
@@ -1401,8 +1401,8 @@
                     onClick: this.stopEyeTrackingServer,
                     enabled: this.state.bAllowServerStop,
                   },
-                  " Stop "
-                )
+                  " Stop ",
+                ),
               ),
               c.createElement(
                 "div",
@@ -1410,7 +1410,7 @@
                 c.createElement(
                   "div",
                   { className: "Label" },
-                  " Start Eye Tracking Server "
+                  " Start Eye Tracking Server ",
                 ),
                 c.createElement(
                   u.z,
@@ -1419,8 +1419,8 @@
                     onClick: this.startEyeTrackingServer,
                     enabled: !this.state.bAllowServerStop,
                   },
-                  " Start "
-                )
+                  " Start ",
+                ),
               ),
               e &&
                 c.createElement(
@@ -1432,8 +1432,8 @@
                       this.doEyeTrackingCal();
                     },
                   }),
-                  "\t"
-                )
+                  "\t",
+                ),
             )
           );
         }
@@ -1442,7 +1442,7 @@
         [s.ak],
         x.prototype,
         "onEyeTrackingServerEnabledEventUpdate",
-        null
+        null,
       ),
         (0, i.gn)([s.ak], x.prototype, "stopEyeTrackingServer", null),
         (0, i.gn)([s.ak], x.prototype, "startEyeTrackingServer", null),
@@ -1466,16 +1466,16 @@
                     (yield S.G3.ReloadSettingsSchema()).success
                       ? window.location.reload()
                       : t(
-                          "Failed to reload schema. File might not be found, or might be invalid."
+                          "Failed to reload schema. File might not be found, or might be invalid.",
                         );
                   } catch (e) {
                     t(e.message);
                   }
                 }),
             },
-            "Reload Settings Schema"
+            "Reload Settings Schema",
           ),
-          e && c.createElement("div", { className: "Subsection Label" }, e)
+          e && c.createElement("div", { className: "Subsection Label" }, e),
         );
       }
       const F = (0, l.Pi)(() =>
@@ -1501,8 +1501,8 @@
                 v.Kr.Separator,
                 { value: h.A4, sLabel: "Settings" },
               ],
-            })
-          )
+            }),
+          ),
         ),
         U = (e) => {
           const [t, n] = c.useState(1),
@@ -1566,7 +1566,7 @@
               value: u,
               onChange: d,
               swapOnOff: !0,
-            })
+            }),
           );
         },
         W = (e) => {
@@ -1584,7 +1584,7 @@
               ],
               value: t,
               onChange: n,
-            })
+            }),
           );
         },
         X = (e) => {
@@ -1602,7 +1602,7 @@
               ],
               value: t,
               onChange: n,
-            })
+            }),
           );
         },
         K = (0, l.Pi)(() => {
@@ -1620,8 +1620,8 @@
                   className: "ButtonControl",
                   onClick: () => S.G3.setRoutePageSection(e),
                 },
-                "Zoo of Settings Controls"
-              )
+                "Zoo of Settings Controls",
+              ),
             ),
             t &&
               c.createElement(
@@ -1634,8 +1634,8 @@
                 c.createElement("hr", null),
                 c.createElement(W, null),
                 c.createElement("hr", null),
-                c.createElement(X, null)
-              )
+                c.createElement(X, null),
+              ),
           );
         });
       function q(e) {
@@ -1652,8 +1652,8 @@
             c.createElement(
               "div",
               { className: "SettingsItemValueLabel" },
-              "Requires both a Steam and SteamVR restart."
-            )
+              "Requires both a Steam and SteamVR restart.",
+            ),
         );
       }
       let Z = class extends _.d9 {
@@ -1716,7 +1716,7 @@
                 c.createElement(F, null),
                 c.createElement(N, null),
                 c.createElement(K, null),
-                this.makeResetToDefaultButton()
+                this.makeResetToDefaultButton(),
               ))
             : null;
         }
@@ -1793,7 +1793,7 @@
                             softAPState: j.Connected,
                             sSoftAPMessage: e.sOutput.substring(
                               2,
-                              e.sOutput.length
+                              e.sOutput.length,
                             ),
                           });
                       }
@@ -1833,7 +1833,7 @@
             case z.Connecting:
               this.JoinNetwork(
                 this.state.targetAccessPoint.path,
-                this.state.sTargetPassword
+                this.state.sTargetPassword,
               );
               break;
             case z.ConnectionFailure:
@@ -1878,14 +1878,14 @@
                 let n = (yield G().get("/linux_network/get_current.json")).data;
                 n.sError
                   ? (console.log(
-                      "failed to get current access point: " + n.sError
+                      "failed to get current access point: " + n.sError,
                     ),
                     this.setState({ sError: n.sError }))
                   : this.setState({ currentAccessPoint: n.accessPoint });
               }
             } catch (e) {
               console.log(
-                "failed to get access points because of exception: " + e
+                "failed to get access points because of exception: " + e,
               ),
                 this.setState({ sError: "" + e });
             }
@@ -1903,7 +1903,7 @@
                 ? (console.log(`network ${e} secured, showing password prompt`),
                   this.onShowPasswordKeyboard())
                 : (console.log(
-                    `network ${e} is unsecured, so joining with no password prompt`
+                    `network ${e} is unsecured, so joining with no password prompt`,
                   ),
                   this.setState({ connectionState: z.Connecting })))
             : console.log(`Tried to join AP ${e}, which wasn't in our list`);
@@ -1985,20 +1985,20 @@
                     "div",
                     { className: "APBitRate" },
                     (e.bitrate_kb / 1024).toFixed(1),
-                    "Mb "
+                    "Mb ",
                   ),
                   c.createElement(
                     "div",
                     { className: "APStrength" },
                     e.strength,
-                    "% "
+                    "% ",
                   ),
                   c.createElement(
                     "div",
                     { className: "APSecure" },
-                    e.secure ? "Yes" : "No"
-                  )
-                )
+                    e.secure ? "Yes" : "No",
+                  ),
+                ),
               );
           return c.createElement(
             "div",
@@ -2009,9 +2009,9 @@
               c.createElement("div", { className: "APSSID" }, "SSID"),
               c.createElement("div", { className: "APBitRate" }, "Bit Rate"),
               c.createElement("div", { className: "APStrength" }, "Strength"),
-              c.createElement("div", { className: "APSecure" }, "Secure")
+              c.createElement("div", { className: "APSecure" }, "Secure"),
             ),
-            r
+            r,
           );
         }
         CreateSAP() {
@@ -2023,7 +2023,7 @@
                 n = yield this.m_mailbox.SendMessageAndWaitForResponse(
                   "driver_hmd",
                   t,
-                  "sap_create_response"
+                  "sap_create_response",
                 );
               if (n.sError) {
                 let t = Date.now() - e,
@@ -2057,13 +2057,13 @@
                 t = yield this.m_mailbox.SendMessageAndWaitForResponse(
                   "driver_hmd",
                   e,
-                  "sap_teardown_response"
+                  "sap_teardown_response",
                 );
               console.log("TeardownSAP result = " + t.return_code + "\n"),
                 this.setState({ softAPState: j.NoSoftAP });
             } catch (e) {
               console.log(
-                "Failed to teardown Wi-Fi Hotspot because exception: " + e
+                "Failed to teardown Wi-Fi Hotspot because exception: " + e,
               ),
                 this.setState({ sError: "" + e });
             }
@@ -2077,11 +2077,11 @@
               yield this.m_mailbox.SendMessageAndWaitForResponse(
                 "driver_hmd",
                 e,
-                "hotspot_delete_response"
+                "hotspot_delete_response",
               );
             } catch (e) {
               console.log(
-                "failed to create Wi-Fi Hotspot because exception: " + e
+                "failed to create Wi-Fi Hotspot because exception: " + e,
               ),
                 this.setState({ sError: "" + e });
             }
@@ -2100,7 +2100,7 @@
                 128,
                 (e) => {
                   e && this.setState({ sTargetPassword: e });
-                }
+                },
               ),
             null === VRHTML ||
               void 0 === VRHTML ||
@@ -2108,7 +2108,7 @@
                 null === VRHTML || void 0 === VRHTML
                   ? void 0
                   : VRHTML.VROverlay.ThisOverlayKey(),
-                {}
+                {},
               );
         }
         BIsPasswordInputEnabled() {
@@ -2141,7 +2141,7 @@
                       null,
                       "Hotspot active. ",
                       this.state.sSoftAPMessage,
-                      " "
+                      " ",
                     ),
                   this.state.softAPState == j.GettingStatus &&
                     c.createElement("span", null, "Getting hotspot status..."),
@@ -2150,14 +2150,14 @@
                       "span",
                       null,
                       "Hotspot status: ",
-                      this.state.sSoftAPMessage
+                      this.state.sSoftAPMessage,
                     ),
                   this.state.softAPState == j.ErrorGettingStatus &&
                     c.createElement(
                       "span",
                       null,
                       "Error getting hotspot status. ",
-                      this.state.sSoftAPMessage
+                      this.state.sSoftAPMessage,
                     ),
                   (this.state.softAPState == j.Creating ||
                     this.state.softAPState == j.CreationSuccess) &&
@@ -2167,9 +2167,9 @@
                   this.state.softAPState == j.Destroying &&
                     c.createElement("span", null, "Destroying hotspot..."),
                   this.state.softAPState == j.NoSoftAP &&
-                    c.createElement("span", null, "Hotspot inactive.")
+                    c.createElement("span", null, "Hotspot inactive."),
                 ),
-              })
+              }),
             ),
             c.createElement(
               _.GV,
@@ -2177,15 +2177,15 @@
               c.createElement(
                 "div",
                 { className: "Label" },
-                "Active Wi-Fi Connection"
+                "Active Wi-Fi Connection",
               ),
               c.createElement(
                 "div",
                 { className: "Label" },
                 this.state.currentAccessPoint
                   ? this.state.currentAccessPoint.ssid
-                  : "None"
-              )
+                  : "None",
+              ),
             ),
             c.createElement(
               _.GV,
@@ -2193,7 +2193,7 @@
               c.createElement(
                 "div",
                 { className: "Label" },
-                "Available Wi-Fi Networks"
+                "Available Wi-Fi Networks",
               ),
               c.createElement(
                 "div",
@@ -2207,9 +2207,9 @@
                       this.RefreshAccessPoints();
                     },
                   },
-                  "Refresh"
-                )
-              )
+                  "Refresh",
+                ),
+              ),
             ),
             this.RenderAccessPoints(),
             this.state.bShowConnectModal &&
@@ -2241,8 +2241,8 @@
                     c.createElement(
                       "span",
                       { style: { fontSize: "35px" } },
-                      this.state.sTargetPassword
-                    )
+                      this.state.sTargetPassword,
+                    ),
                   ),
                   c.createElement(
                     "div",
@@ -2255,15 +2255,15 @@
                         },
                         enabled: this.BIsPasswordInputEnabled(),
                       },
-                      "Submit"
-                    )
-                  )
+                      "Submit",
+                    ),
+                  ),
                 ),
                 this.state.connectionState == z.EnteringPassword &&
                   c.createElement(
                     "span",
                     null,
-                    "Please enter the password with the keyboard."
+                    "Please enter the password with the keyboard.",
                   ),
                 this.state.connectionState == z.Connecting &&
                   c.createElement("span", null, "Connecting..."),
@@ -2271,11 +2271,11 @@
                   c.createElement(
                     "span",
                     null,
-                    "Failed to connect. Please try again."
+                    "Failed to connect. Please try again.",
                   ),
                 this.state.connectionState == z.ConnectionSuccess &&
-                  c.createElement("span", null, "Connection successful.")
-              )
+                  c.createElement("span", null, "Connection successful."),
+              ),
           );
         }
       }
@@ -2309,7 +2309,7 @@
             (this.m_workshopStateChangedCanaryDisposer = (0, a.N7)(
               S.G3,
               "workshopStateChangedCanary",
-              this.updateUGCItems
+              this.updateUGCItems,
             ));
         }
         componentWillUnmount() {
@@ -2361,7 +2361,7 @@
                 publishedfileid: null,
               },
               ...this.state.rBackgroundUGCItems.filter(
-                (e, t) => e.tags && -1 != e.tags.indexOf("background")
+                (e, t) => e.tags && -1 != e.tags.indexOf("background"),
               ),
             ],
             n = t.find((t) => t.file == e) || null,
@@ -2378,7 +2378,7 @@
               c.createElement(
                 "div",
                 { className: "Label" },
-                (0, m.Xx)("#Settings_Appearance_Background")
+                (0, m.Xx)("#Settings_Appearance_Background"),
               ),
               c.createElement(
                 u.z,
@@ -2389,8 +2389,8 @@
                   },
                   onClick: this.showModal,
                 },
-                !i && (0, m.Xx)("#Settings_Appearance_Background_Select")
-              )
+                !i && (0, m.Xx)("#Settings_Appearance_Background_Select"),
+              ),
             ),
             this.state.bShowModal &&
               c.createElement(
@@ -2421,10 +2421,10 @@
                       ref: t.file == e ? this.m_refSelectedButton : null,
                       title: t.file.startsWith("#") ? null : t.file,
                       onClick: () => this.setBackground(t.file),
-                    })
-                  )
-                )
-              )
+                    }),
+                  ),
+                ),
+              ),
           );
         }
       };
@@ -2443,14 +2443,14 @@
           S.G3.SetDashboardForceBoundsVisible(
             h.A4,
             this.m_sUniqueIdForForceBoundsVisible,
-            !0
+            !0,
           );
         }
         componentWillUnmount() {
           S.G3.SetDashboardForceBoundsVisible(
             h.A4,
             this.m_sUniqueIdForForceBoundsVisible,
-            !1
+            !1,
           );
         }
         render() {
@@ -2524,10 +2524,10 @@
                   c.createElement(_.wy, {
                     name: "/settings/collisionBounds/CollisionBoundsGroundPerimeterOn",
                     label: (0, m.Xx)(
-                      "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn"
+                      "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn",
                     ),
                     title: (0, m.Xx)(
-                      "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc"
+                      "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc",
                     ),
                   }),
                   c.createElement(_.U4, {
@@ -2551,8 +2551,8 @@
                   c.createElement(
                     "div",
                     { className: "SettingsItemValueLabel" },
-                    o
-                  )
+                    o,
+                  ),
                 ),
               }),
               c.createElement(_.Ei, {
@@ -2565,7 +2565,7 @@
                   name: "/settings/steamvr/backgroundUseDomeProjection",
                   label: (0, m.Xx)("#Settings_Appearance_UseDomeProjection"),
                   title: (0, m.Xx)(
-                    "#Settings_Appearance_UseDomeProjectionDesc"
+                    "#Settings_Appearance_UseDomeProjectionDesc",
                   ),
                   onSubsection: c.createElement(
                     c.Fragment,
@@ -2577,7 +2577,7 @@
                       name: h.EL,
                       label: (0, m.Xx)("#Settings_Appearance_DomeCameraHeight"),
                       title: (0, m.Xx)(
-                        "#Settings_Appearance_DomeCameraHeightDesc"
+                        "#Settings_Appearance_DomeCameraHeightDesc",
                       ),
                       exponent: 2,
                     }),
@@ -2588,7 +2588,7 @@
                       name: h.RD,
                       label: (0, m.Xx)("#Settings_Appearance_DomeCameraRadius"),
                       title: (0, m.Xx)(
-                        "#Settings_Appearance_DomeCameraRadiusDesc"
+                        "#Settings_Appearance_DomeCameraRadiusDesc",
                       ),
                       exponent: 5,
                     }),
@@ -2602,13 +2602,13 @@
                           onClick: () => S.G3.ResetSettingsValues(h.EL, h.RD),
                         },
                         (0, m.Xx)(
-                          "#Settings_Appearance_ResetDomeProjectionSettings"
-                        )
-                      )
-                    )
+                          "#Settings_Appearance_ResetDomeProjectionSettings",
+                        ),
+                      ),
+                    ),
                   ),
                 }),
-              this.makeResetToDefaultButton()
+              this.makeResetToDefaultButton(),
             )
           );
         }
@@ -2654,7 +2654,7 @@
                 (e.enabled_by_default == e.enabled &&
                   !e.blocked_by_safe_mode &&
                   e.on_safemode_whitelist)
-              )
+              ),
           );
         }
         get numBlockedDrivers() {
@@ -2666,7 +2666,7 @@
         }
         get numUserManuallyDisenabledDrivers() {
           return this.visibleDriverList.filter(
-            (e) => e.enabled_by_default != e.enabled
+            (e) => e.enabled_by_default != e.enabled,
           ).length;
         }
       }
@@ -2694,7 +2694,7 @@
           [a.Fl],
           ie.prototype,
           "numUserManuallyDisenabledDrivers",
-          null
+          null,
         );
       const oe = new ie(),
         se = (0, l.Pi)(() =>
@@ -2711,8 +2711,8 @@
                   for (let t = 0; t < e.length; ++t) yield oe.unBlock(e[t]);
                 }),
             },
-            (0, m.Xx)("#Settings_Drivers_UnblockAll")
-          )
+            (0, m.Xx)("#Settings_Drivers_UnblockAll"),
+          ),
         );
       function re(e) {
         return e.blocked
@@ -2727,8 +2727,8 @@
                   title: e.title,
                   onClick: e.onUnblock,
                 },
-                (0, m.Xx)("#Settings_Drivers_Unblock")
-              )
+                (0, m.Xx)("#Settings_Drivers_Unblock"),
+              ),
             )
           : c.createElement(_.wy, {
               label: e.label,
@@ -2756,9 +2756,9 @@
                 return (t = e.manifest.name), void oe.unBlock(t);
                 var t;
               },
-            })
-          )
-        )
+            }),
+          ),
+        ),
       );
       let le = (ne = class extends c.Component {
         constructor(e) {
@@ -2790,16 +2790,16 @@
                     c.createElement(
                       "div",
                       { className: "Badge DriversBlocked" },
-                      (0, m.Xx)("#Settings_Drivers_Number_Blocked", e)
+                      (0, m.Xx)("#Settings_Drivers_Number_Blocked", e),
                     ),
                   0 == e &&
                     0 != t &&
                     c.createElement(
                       "div",
                       { className: "Badge DriversDisabled" },
-                      (0, m.Xx)("#Settings_Drivers_Number_Disabled", t)
-                    )
-                )
+                      (0, m.Xx)("#Settings_Drivers_Number_Disabled", t),
+                    ),
+                ),
               ),
             i &&
               oe.driverList &&
@@ -2816,14 +2816,14 @@
                           c.createElement(
                             "div",
                             { className: "Label" },
-                            (0, m.Xx)("#Settings_Drivers_SomeBlocked")
+                            (0, m.Xx)("#Settings_Drivers_SomeBlocked"),
                           ),
-                          c.createElement(se, null)
+                          c.createElement(se, null),
                         ),
                   onDismissRequested: () => S.G3.setRoutePageSection(null),
                 },
-                c.createElement(ae, null)
-              )
+                c.createElement(ae, null),
+              ),
           );
         }
       });
@@ -2843,7 +2843,7 @@
             t = e
               ? S.G3.apps.filter(
                   (e) =>
-                    e.is_dashboard_overlay && e.key != h.Pv && !e.is_internal
+                    e.is_dashboard_overlay && e.key != h.Pv && !e.is_internal,
                 )
               : [],
             n = t.filter((e) => e.is_autolaunch);
@@ -2864,9 +2864,9 @@
                   c.createElement(
                     "div",
                     { className: "Badge" },
-                    (0, m.Xx)("#Settings_Number_Selected", n.length)
-                  )
-              )
+                    (0, m.Xx)("#Settings_Number_Selected", n.length),
+                  ),
+              ),
             ),
             this.state.bShowingModal &&
               c.createElement(
@@ -2883,17 +2883,17 @@
                     value: e.is_autolaunch,
                     onChange: (t) =>
                       S.G3.SetAppSettings(e.key, { is_autolaunch: t }),
-                  })
+                  }),
                 ),
                 !t.length &&
                   c.createElement(
                     "div",
                     { className: "ModalPlaceholder" },
                     (0, m.Xx)(
-                      "#Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled"
-                    )
-                  )
-              )
+                      "#Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled",
+                    ),
+                  ),
+              ),
           );
         }
       };
@@ -2913,7 +2913,7 @@
                 c.createElement(le, null),
                 c.createElement("hr", null),
                 this.schemaComponents,
-                this.makeResetToDefaultButton()
+                this.makeResetToDefaultButton(),
               )
             : null;
         }
@@ -2986,7 +2986,7 @@
               }
             } catch (e) {
               console.log(
-                "failed to get update state because of exception: " + e
+                "failed to get update state because of exception: " + e,
               ),
                 this.setState({
                   state: de.Error,
@@ -3040,9 +3040,9 @@
               c.createElement(
                 u.z,
                 { className: "ButtonControl", onClick: n, enabled: !!n },
-                e
+                e,
               ),
-            t && c.createElement("div", { className: "Label" }, t)
+            t && c.createElement("div", { className: "Label" }, t),
           );
         }
         renderState() {
@@ -3052,45 +3052,45 @@
               return this.renderStatus(
                 "Check For Updates",
                 "",
-                this.onClickCheckForUpdate
+                this.onClickCheckForUpdate,
               );
             case de.CheckingForUpdate:
               return this.renderStatus("Checking");
             case de.InProgress:
               return this.renderStatus(
                 "Installing update...",
-                "Installing update... (typical duration 5 min)"
+                "Installing update... (typical duration 5 min)",
               );
             case de.Available:
               return this.renderStatus(
                 "Install",
                 "Update Available: " + this.state.detail,
-                this.onClickUpdate
+                this.onClickUpdate,
               );
             case de.Error:
               return this.renderStatus(
                 "Retry Install",
                 "Update Error: " + this.state.detail,
-                this.onClickUpdate
+                this.onClickUpdate,
               );
             case de.Failed:
               return this.renderStatus(
                 "Retry Install",
                 "Update Failed:" + this.state.detail,
-                this.onClickUpdate
+                this.onClickUpdate,
               );
             case de.Reinstall:
               return this.renderStatus(
                 "Reinstall",
                 this.state.detail,
-                this.onClickUpdate
+                this.onClickUpdate,
               );
             case de.Succeeded:
             case de.Reboot:
               return this.renderStatus(
                 "Reboot",
                 "Update Successful. Reboot to finish Update process",
-                this.onClickReboot
+                this.onClickReboot,
               );
           }
         }
@@ -3101,7 +3101,7 @@
               this.setState({ current_channel: e }),
                 yield G().post(
                   "/linux_update/set_channel.action",
-                  JSON.stringify({ sNewChannel: e })
+                  JSON.stringify({ sNewChannel: e }),
                 ),
                 this.RequestUpdateState();
             } catch (e) {
@@ -3131,7 +3131,7 @@
             _.GV,
             { className: "SettingsItem" },
             c.createElement("div", { className: "Label" }, "OS Update Channel"),
-            this.renderChannelDropdown()
+            this.renderChannelDropdown(),
           );
         }
         render() {
@@ -3139,7 +3139,7 @@
             c.Fragment,
             null,
             this.renderState(),
-            this.renderOSUpdateChannel()
+            this.renderOSUpdateChannel(),
           );
         }
       }
@@ -3198,14 +3198,14 @@
                 { className: "Label" },
                 " ",
                 n[0].sLabel,
-                " "
+                " ",
               ),
             !i &&
               c.createElement(
                 "div",
                 { className: "Label Warning" },
-                "(Does not update with System Update)"
-              )
+                "(Does not update with System Update)",
+              ),
           );
         }
       }
@@ -3323,8 +3323,8 @@
                   { className: "Label" },
                   null === o.Co || void 0 === o.Co
                     ? void 0
-                    : o.Co.GetHostInfo(o.zA.Hostname)
-                )
+                    : o.Co.GetHostInfo(o.zA.Hostname),
+                ),
               ),
               c.createElement(
                 _.GV,
@@ -3332,15 +3332,15 @@
                 c.createElement(
                   "div",
                   { className: "Label" },
-                  "System Version"
+                  "System Version",
                 ),
-                c.createElement("div", { className: "Label" }, l)
+                c.createElement("div", { className: "Label" }, l),
               ),
               c.createElement(
                 _.GV,
                 { className: "SettingsItem" },
                 c.createElement("div", { className: "Label" }, "WiFi"),
-                c.createElement("div", { className: "Label" }, d)
+                c.createElement("div", { className: "Label" }, d),
               ),
               c.createElement(
                 _.GV,
@@ -3354,11 +3354,11 @@
                           c.createElement(
                             "div",
                             { key: t, className: "Label" },
-                            e
-                          )
+                            e,
+                          ),
                         )) && void 0 !== i
                   ? i
-                  : "none"
+                  : "none",
               ),
               c.createElement(
                 _.GV,
@@ -3369,8 +3369,8 @@
                   c.createElement(
                     "div",
                     { className: "Label Error" },
-                    "REQUIRES CAMERA CALIBRATION"
-                  )
+                    "REQUIRES CAMERA CALIBRATION",
+                  ),
               ),
               c.createElement(
                 _.GV,
@@ -3381,9 +3381,9 @@
                   { className: "Label" },
                   null === o.Co || void 0 === o.Co
                     ? void 0
-                    : o.Co.GetHostInfo(o.zA.IP)
-                )
-              )
+                    : o.Co.GetHostInfo(o.zA.IP),
+                ),
+              ),
             )
           );
         }
@@ -3418,7 +3418,7 @@
               setTimeout(() => {
                 this.setState({ bRestartAnimation: !1 });
               }, 10);
-            }
+            },
           );
         }
         onAppRestartRequired(e) {
@@ -3428,7 +3428,7 @@
               setTimeout(() => {
                 this.setState({ bRestartAnimation: !1 });
               }, 10);
-            }
+            },
           );
         }
         componentDidMount() {
@@ -3458,7 +3458,7 @@
                   c.createElement(
                     "div",
                     { className: "Label" },
-                    (0, m.Xx)("#Settings_MustRestart_Description")
+                    (0, m.Xx)("#Settings_MustRestart_Description"),
                   ),
                   c.createElement(
                     u.z,
@@ -3466,8 +3466,8 @@
                       className: "ButtonControl",
                       onClick: this.onRestartSteamVR,
                     },
-                    (0, m.Xx)("#Settings_MustRestart_RestartSteamVR_Button")
-                  )
+                    (0, m.Xx)("#Settings_MustRestart_RestartSteamVR_Button"),
+                  ),
                 ))
               : this.state.bShowAppRestartRequired &&
                 (e = c.createElement(
@@ -3480,13 +3480,13 @@
                   c.createElement(
                     "div",
                     { className: "Label" },
-                    (0, m.Xx)("#Settings_MustQuitApp_Description")
+                    (0, m.Xx)("#Settings_MustQuitApp_Description"),
                   ),
                   c.createElement(
                     u.z,
                     { className: "ButtonControl", onClick: this.onExitApp },
-                    (0, m.Xx)("#Settings_MustQuitApp_QuitCurrentGame_Button")
-                  )
+                    (0, m.Xx)("#Settings_MustQuitApp_QuitCurrentGame_Button"),
+                  ),
                 )),
             this.props.standalonePanel)
           ) {
@@ -3505,8 +3505,8 @@
                   target_dpi_panel_id: h.WR,
                   reflect: 0.1,
                 },
-                e
-              )
+                e,
+              ),
             );
           }
           return e;
@@ -3529,7 +3529,8 @@
             S.G3.routePage
               ? this.setState({ sActiveSettingSection: S.G3.routePage })
               : S.G3.setRoutePage(
-                  S.G3.settingsSchema.filter(Se.shouldShowSection)[0].controller
+                  S.G3.settingsSchema.filter(Se.shouldShowSection)[0]
+                    .controller,
                 );
           })),
             (this.m_fidelitySettingsObserver = new g.kB()),
@@ -3558,7 +3559,7 @@
             ? (t = c.createElement(
                 "div",
                 { className: "Label" },
-                (0, m.Xx)("#Settings_Loading")
+                (0, m.Xx)("#Settings_Loading"),
               ))
             : e ||
               (((0, o.Op)() != o.qA.Overlay || this.props.visible) &&
@@ -3587,8 +3588,8 @@
                     foregroundReflectMultiplier: 0.25,
                   },
                   c.createElement(o.at, { id: i, location: o.Ic.TopCenter }),
-                  t
-                )
+                  t,
+                ),
             );
           } else n = t;
           return c.createElement(
@@ -3597,10 +3598,10 @@
               className: (0, g.LJ)(
                 "SettingsMain",
                 (0, o.Op)() == o.qA.Overlay ? "Overlay" : "Desktop",
-                ["Loading", e]
+                ["Loading", e],
               ),
             },
-            n
+            n,
           );
         }
         renderSettingsPanelContents() {
@@ -3634,8 +3635,8 @@
                       onChange: (e) => (S.G3.showAdvancedSettings = e),
                       onLabel: (0, m.Xx)("#Settings_Show"),
                       offLabel: (0, m.Xx)("#Settings_Hide"),
-                    })
-                  )
+                    }),
+                  ),
                 ),
                 c.createElement(
                   p.P,
@@ -3645,10 +3646,10 @@
                     className: (0, g.LJ)("SettingsPageContainer"),
                     ref: this.m_refSettingsPageContainer,
                   },
-                  e.map(this.renderSectionPage)
-                )
-              )
-            )
+                  e.map(this.renderSectionPage),
+                ),
+              ),
+            ),
           );
         }
         renderSectionButton(e) {
@@ -3663,7 +3664,11 @@
                 className: t.join(" "),
                 onClick: () => S.G3.setRoutePage(e.controller),
               },
-              c.createElement("div", { className: "Label" }, (0, m.Xx)(e.title))
+              c.createElement(
+                "div",
+                { className: "Label" },
+                (0, m.Xx)(e.title),
+              ),
             )
           );
         }
@@ -3672,7 +3677,7 @@
             n = this.state.sActiveSettingSection === e.controller,
             i =
               [C, ue, te, D.Yw, M, B, T, V, P, Z, E.P, ge, Q].find(
-                (e) => e.Name === t
+                (e) => e.Name === t,
               ) || _.d9;
           return c.createElement(i, { key: e.title, section: e, active: n });
         }
@@ -3710,7 +3715,7 @@
                 ? void 0
                 : o.Co.VRProperties.GetBoolProperty(
                     "/user/head",
-                    o.Uk.HasCamera_Bool
+                    o.Uk.HasCamera_Bool,
                   ))
             ) &&
             !!(
@@ -3777,7 +3782,7 @@
             (this.m_edgeValues = []),
             (this.m_deviceDetails = p.I.GetDeviceInfo(this.props.devicePath)),
             (this.m_controllerType = p.I.GetControllerTypeInfo(
-              this.m_deviceDetails.controller_type
+              this.m_deviceDetails.controller_type,
             ));
           for (let e in this.m_controllerType.input_source)
             if ("joystick" == this.m_controllerType.input_source[e].type) {
@@ -3786,7 +3791,7 @@
             }
           this.m_mailbox.RegisterHandler(
             "update_component_states",
-            this.OnUpdateComponentStates
+            this.OnUpdateComponentStates,
           ),
             this.m_mailbox.Init("calibrate_thumbstick").then(() => {
               if (this.m_thumbstickSourceName) {
@@ -3819,7 +3824,7 @@
           }
           if (t) {
             let e = Math.sqrt(
-              this.m_lastX * this.m_lastX + this.m_lastY * this.m_lastY
+              this.m_lastX * this.m_lastX + this.m_lastY * this.m_lastY,
             );
             this.m_addedPoint
               ? e < 0.2 && (this.m_addedPoint = !1)
@@ -3846,7 +3851,7 @@
         OnConfirm() {
           this.props.fnUpdateThumbstickCalibration(
             this.props.devicePath,
-            this.ComputeCalibration()
+            this.ComputeCalibration(),
           ),
             this.props.fnCloseCalibrator();
         }
@@ -3863,7 +3868,7 @@
                 points: "60,60 " + s.toFixed(0) + "," + r.toFixed(0),
                 strokeWidth: "0.1rem",
                 fill: "transparent",
-              })
+              }),
             );
           }
           let i = this.ComputeCalibration(),
@@ -3873,7 +3878,7 @@
               ? (0, a.Xx)("#Settings_General_InviteMoreSamples", i.toFixed(2))
               : (0, a.Xx)(
                   "#Settings_General_NotEnoughSamples",
-                  5 - this.m_edgeValues.length
+                  5 - this.m_edgeValues.length,
                 )),
             o.createElement(
               c.TB,
@@ -3890,7 +3895,7 @@
                       className: "ButtonControl",
                       onClick: this.OnCancel,
                     },
-                    (0, a.Xx)("#Settings_General_Cancel")
+                    (0, a.Xx)("#Settings_General_Cancel"),
                   ),
                   o.createElement("div", { className: "Spacer" }),
                   o.createElement(
@@ -3901,8 +3906,8 @@
                       enabled: !!i,
                       onClick: this.OnConfirm,
                     },
-                    (0, a.Xx)("#Settings_General_Confirm")
-                  )
+                    (0, a.Xx)("#Settings_General_Confirm"),
+                  ),
                 ),
               },
               o.createElement(
@@ -3923,15 +3928,15 @@
                       r: e,
                       strokeWidth: "0.1rem",
                     }),
-                    t
-                  )
+                    t,
+                  ),
                 ),
                 o.createElement(
                   "div",
                   { className: "Label ThumbstickAngle" },
-                  s
-                )
-              )
+                  s,
+                ),
+              ),
             )
           );
         }
@@ -3966,8 +3971,8 @@
                   className: "ButtonControl",
                   onClick: () => l.G3.setRoutePageSection(e),
                 },
-                (0, a.Xx)("#Settings_General_ShowTrackerUI")
-              )
+                (0, a.Xx)("#Settings_General_ShowTrackerUI"),
+              ),
             ),
             t &&
               o.createElement(
@@ -3976,8 +3981,8 @@
                   header: (0, a.Xx)("#Settings_ViveTrackers"),
                   onDismissRequested: () => l.G3.setRoutePageSection(null),
                 },
-                o.createElement(g.s, null)
-              )
+                o.createElement(g.s, null),
+              ),
           );
         }),
         A = (0, r.Pi)(() => {
@@ -3997,8 +4002,8 @@
                   enabled: !!VRHTML,
                   onClick: () => l.G3.setRoutePageSection(e),
                 },
-                (0, a.Xx)("#AppSelect_LegacyDebug")
-              )
+                (0, a.Xx)("#AppSelect_LegacyDebug"),
+              ),
             ),
             t &&
               o.createElement(
@@ -4007,8 +4012,8 @@
                   header: (0, a.Xx)("#AppSelect_LegacyDebug"),
                   onDismissRequested: () => l.G3.setRoutePageSection(null),
                 },
-                o.createElement(C.V, null)
-              )
+                o.createElement(C.V, null),
+              ),
           );
         }),
         k = (0, r.Pi)(() => {
@@ -4026,13 +4031,13 @@
                   className: "ButtonControl",
                   onClick: () => l.G3.setRoutePageSection(e),
                 },
-                (0, a.Xx)("#AppSelect_ControllerTester")
-              )
+                (0, a.Xx)("#AppSelect_ControllerTester"),
+              ),
             ),
             t &&
               o.createElement(f.L, {
                 onDismissRequested: () => l.G3.setRoutePageSection(null),
-              })
+              }),
           );
         });
       function M(e) {
@@ -4048,8 +4053,8 @@
                 e.mailbox.SendMessage(t, { type: "show_app_binding" });
               },
             },
-            (0, a.Xx)("#Settings_ShowBindingUI")
-          )
+            (0, a.Xx)("#Settings_ShowBindingUI"),
+          ),
         );
       }
       function E(e) {
@@ -4074,12 +4079,12 @@
                       e.mailbox.SendMessage(t, { type: "show_input_debugger" });
                     } else
                       window.open(
-                        "/dashboard/controllerbinding.html?debugger=true"
+                        "/dashboard/controllerbinding.html?debugger=true",
                       );
                   },
                 },
-                (0, a.Xx)("#BindingUI_InputDebugger")
-              )
+                (0, a.Xx)("#BindingUI_InputDebugger"),
+              ),
             )
           : null;
       }
@@ -4102,7 +4107,7 @@
               (n) =>
                 n.sDevicePath == e &&
                 (l.G3.SetSettingsValue(this.getThumbstickRotationSetting(e), t),
-                !0)
+                !0),
             );
         }
         getThumbstickRotationSetting(e) {
@@ -4166,8 +4171,8 @@
                 o.createElement(
                   u.z,
                   { className: "ButtonControl", onClick: this.show },
-                  (0, a.Xx)("#Settings_ShowThumbstickSettings")
-                )
+                  (0, a.Xx)("#Settings_ShowThumbstickSettings"),
+                ),
               ),
               this.state.bShowingModal &&
                 o.createElement(
@@ -4191,7 +4196,7 @@
                         {
                           key: e.sDevicePath,
                           title: (0, a.Xx)(
-                            "#Settings_General_CalibrateThumbstick_ConnectAController"
+                            "#Settings_General_CalibrateThumbstick_ConnectAController",
                           ),
                           className: "SettingsItem CalibrateThumbstickItem",
                         },
@@ -4199,17 +4204,17 @@
                           "div",
                           { className: "Label" },
                           (0, a.Xx)(
-                            e.sThumbstickAngleLabelPlaceholderUnlocalized
-                          )
+                            e.sThumbstickAngleLabelPlaceholderUnlocalized,
+                          ),
                         ),
                         o.createElement(
                           u.z,
                           { className: "ButtonControl", enabled: !1 },
-                          (0, a.Xx)("#Settings_General_Calibrate")
-                        )
+                          (0, a.Xx)("#Settings_General_Calibrate"),
+                        ),
                       );
                     let t = l.G3.settings.get(
-                      this.getThumbstickRotationSetting(e.sDevicePath)
+                      this.getThumbstickRotationSetting(e.sDevicePath),
                     );
                     return (
                       null == t && (t = 0),
@@ -4224,8 +4229,8 @@
                           { className: "Label" },
                           (0, a.Xx)(
                             e.sThumbstickAngleLabelUnlocalized,
-                            t.toFixed(1)
-                          )
+                            t.toFixed(1),
+                          ),
                         ),
                         o.createElement(
                           u.z,
@@ -4235,8 +4240,8 @@
                               this.showCalibration(e.sDevicePath);
                             },
                           },
-                          (0, a.Xx)("#Settings_General_Calibrate")
-                        )
+                          (0, a.Xx)("#Settings_General_Calibrate"),
+                        ),
                       )
                     );
                   }),
@@ -4250,8 +4255,8 @@
                       name: e,
                       label: (0, a.Xx)("#Settings_ThumbstickDeadzone_Text"),
                       title: (0, a.Xx)("#Settings_ThumbstickDeadzone_Desc"),
-                    })
-                )
+                    }),
+                ),
             )
           );
         }
@@ -4309,7 +4314,7 @@
               "BindingSubscriptionChangedCanary",
               (e) => {
                 this.updateStateForApp(this.state.currentBindingApp);
-              }
+              },
             )),
             (this.m_routeObservingAutorunDisposer = (0, m.EH)(() => {
               var e;
@@ -4350,8 +4355,13 @@
         }
         loadBindingConfig(e, t) {
           return (0, i.mG)(this, void 0, void 0, function* () {
-            return (yield (0,
-            h.Cl)(e, this.state.currentControllerType.controller_type, t.current_binding_url[this.state.currentControllerType.controller_type])).binding_config;
+            return (yield (0, h.Cl)(
+              e,
+              this.state.currentControllerType.controller_type,
+              t.current_binding_url[
+                this.state.currentControllerType.controller_type
+              ],
+            )).binding_config;
           });
         }
         updateStateForApp(e) {
@@ -4405,7 +4415,7 @@
               ? yield h.c6.SelectConfig(
                   this.state.currentBindingApp.key,
                   this.state.currentControllerType.controller_type,
-                  t
+                  t,
                 )
               : this.setState({ bForceToggleToCustom: !0 });
           });
@@ -4496,8 +4506,8 @@
               o.createElement(
                 u.z,
                 { className: "ButtonControl", onClick: this.show },
-                (0, a.Xx)("#Settings_Controller_AdvancedControllerSettings")
-              )
+                (0, a.Xx)("#Settings_Controller_AdvancedControllerSettings"),
+              ),
             ),
             this.shouldShowModal &&
               o.createElement(
@@ -4511,8 +4521,8 @@
                       "h1",
                       null,
                       (0, a.Xx)(
-                        "#Settings_ManageControllerBindingSettingsForApp"
-                      )
+                        "#Settings_ManageControllerBindingSettingsForApp",
+                      ),
                     ),
                     o.createElement(c.YL, {
                       ref: this.m_refAppSelectDropdown,
@@ -4525,10 +4535,10 @@
                       stateKey: "settings_controller_binding",
                       showCompositor: !0,
                       defaultLabel: (0, a.Xx)(
-                        "#Settings_PerApplication_ChooseApplication"
+                        "#Settings_PerApplication_ChooseApplication",
                       ),
                       onChange: this.onApplicationDropdownChange,
-                    })
+                    }),
                   ),
                   subheader: p.I.IsSteamAvailable
                     ? null
@@ -4542,16 +4552,16 @@
                     o.createElement(
                       "div",
                       { className: "Label" },
-                      (0, a.Xx)("#Settings_ActiveController")
+                      (0, a.Xx)("#Settings_ActiveController"),
                     ),
                     o.createElement(
                       "div",
                       { className: "Label" },
                       p.I.LocalizeDriverString(
                         this.state.currentControllerType.resource_root,
-                        this.state.currentControllerType.controller_type
-                      )
-                    )
+                        this.state.currentControllerType.controller_type,
+                      ),
+                    ),
                   ),
                 !p.I.IsSteamAvailable &&
                   this.state.currentBinding &&
@@ -4561,13 +4571,13 @@
                     o.createElement(
                       "div",
                       { className: "Label" },
-                      (0, a.Xx)("#Settings_ActiveBinding")
+                      (0, a.Xx)("#Settings_ActiveBinding"),
                     ),
                     o.createElement(
                       "div",
                       { className: "Label" },
-                      this.state.currentBinding.name
-                    )
+                      this.state.currentBinding.name,
+                    ),
                   ),
                 p.I.IsSteamAvailable &&
                   o.createElement(c.wy, {
@@ -4583,7 +4593,7 @@
                         o.createElement(
                           "div",
                           { className: "SettingsItem Label" },
-                          (0, a.Xx)("#Settings_Loading_CurrentBinding")
+                          (0, a.Xx)("#Settings_Loading_CurrentBinding"),
                         ),
                       s &&
                         o.createElement(
@@ -4599,7 +4609,7 @@
                               enabled: p.I.IsSteamAvailable && Boolean(n),
                               onClick: this.showBindingDetail.bind(this, !0),
                             },
-                            (0, a.Xx)("#Settings_EditBinding")
+                            (0, a.Xx)("#Settings_EditBinding"),
                           ),
                           o.createElement(
                             c.ls,
@@ -4608,9 +4618,9 @@
                               enabled: p.I.IsSteamAvailable,
                               onClick: this.showBindingDetail.bind(this, !1),
                             },
-                            (0, a.Xx)("#Settings_EditBinding_ChooseAnother")
-                          )
-                        )
+                            (0, a.Xx)("#Settings_EditBinding_ChooseAnother"),
+                          ),
+                        ),
                     ),
                   }),
                 o.createElement("div", { className: "Spacer" }),
@@ -4625,8 +4635,8 @@
                     onLabel: (0, a.Xx)("#Settings_DominantHand_Right"),
                     onChange: this.onToggleDominantHand,
                     value: l,
-                  })
-              )
+                  }),
+              ),
           );
         }
       });
@@ -4661,16 +4671,16 @@
                             : VRHTML.VRApplications.GetSceneApplicationKey()) &&
                       void 0 !== n
                     ? n
-                    : "openvr.component.vrcompositor"
+                    : "openvr.component.vrcompositor",
                 );
               },
             },
             (0, a.Xx)(
               (0, d.Op)() == d.qA.Overlay
                 ? "#Settings_Controller_ShowBindingCallouts"
-                : "#Settings_Controller_ShowBindingCalloutsInVR"
-            )
-          )
+                : "#Settings_Controller_ShowBindingCalloutsInVR",
+            ),
+          ),
         );
       let I = class extends o.Component {
         constructor(e) {
@@ -4683,7 +4693,7 @@
               .then(() => {
                 this.m_mailbox.RegisterHandler(
                   "discover_dongles_response",
-                  this.OnDiscoverDonglesResponse
+                  this.OnDiscoverDonglesResponse,
                 );
               })
               .catch((e) => {
@@ -4739,7 +4749,7 @@
                   },
                   " ",
                   (0, a.Xx)("#Settings_Controller_Pair"),
-                  " "
+                  " ",
                 ),
               e.isPairing &&
                 o.createElement(
@@ -4747,8 +4757,8 @@
                   null,
                   " ",
                   (0, a.Xx)("#Settings_Controller_Pairing"),
-                  " "
-                )
+                  " ",
+                ),
             );
             t.push(n);
           }
@@ -4761,22 +4771,26 @@
               o.createElement(
                 u.z,
                 { className: "ButtonControl", onClick: this.show },
-                (0, a.Xx)("#Settings_Controller_PairControllers")
-              )
+                (0, a.Xx)("#Settings_Controller_PairControllers"),
+              ),
             ),
             this.state.bShowingModal &&
               o.createElement(
                 c.TB,
                 {
                   header: (0, a.Xx)(
-                    "#Settings_Controller_ControllerPairingSection"
+                    "#Settings_Controller_ControllerPairingSection",
                   ),
                   onDismissRequested: this.hide,
                 },
                 o.createElement(o.Fragment, null, t),
                 e &&
-                  o.createElement("h1", null, "No controller dongles detected.")
-              )
+                  o.createElement(
+                    "h1",
+                    null,
+                    "No controller dongles detected.",
+                  ),
+              ),
           );
         }
       };
@@ -4804,14 +4818,14 @@
           const n =
               null !==
                 (e = l.G3.settings.get(
-                  "/settings/dashboard/allowInHeadsetControllerPairing"
+                  "/settings/dashboard/allowInHeadsetControllerPairing",
                 )) &&
               void 0 !== e &&
               e,
             i =
               null !==
                 (t = l.G3.settings.get(
-                  "/settings/dashboard/showControllerTrackingReset"
+                  "/settings/dashboard/showControllerTrackingReset",
                 )) &&
               void 0 !== t &&
               t;
@@ -4837,8 +4851,8 @@
                       type: "reset_persistent_calibration",
                     }),
                 },
-                (0, a.Xx)("#Settings_Controller_ResetTracking")
-              )
+                (0, a.Xx)("#Settings_Controller_ResetTracking"),
+              ),
           );
         }
       };
@@ -4992,8 +5006,8 @@
             r.createElement(
               m.z,
               { className: "ButtonControl", onClick: this.ResetToDefaults },
-              (0, l.Xx)("#Settings_ResetPageToDefault")
-            )
+              (0, l.Xx)("#Settings_ResetPageToDefault"),
+            ),
           );
         }
         ResetToDefaults() {
@@ -5025,7 +5039,7 @@
                 r.Fragment,
                 null,
                 this.schemaComponents,
-                this.makeResetToDefaultButton()
+                this.makeResetToDefaultButton(),
               )
             : null;
         }
@@ -5039,7 +5053,7 @@
             void 0 !== this.props.name && void 0 !== this.props.value)
           )
             throw new Error(
-              "SettingsCheckbox cannot have both an explicit value and a settings name set in props."
+              "SettingsCheckbox cannot have both an explicit value and a settings name set in props.",
             );
         }
         handleChange(e) {
@@ -5071,16 +5085,16 @@
                     r.createElement(
                       "div",
                       { className: "Label" },
-                      this.props.label
+                      this.props.label,
                     ),
                   this.props.title &&
                     r.createElement(
                       "div",
                       { className: "Label Description" },
-                      this.props.title
-                    )
-                )
-              )
+                      this.props.title,
+                    ),
+                ),
+              ),
             )
           );
         }
@@ -5095,14 +5109,14 @@
             void 0 !== this.props.name && void 0 !== this.props.value)
           )
             throw new Error(
-              "SettingsSegmentedControl cannot have both an explicit value and a settings name set in props."
+              "SettingsSegmentedControl cannot have both an explicit value and a settings name set in props.",
             );
           if (
             void 0 !== this.props.subsection &&
             void 0 !== this.props.valueSubsections
           )
             throw new Error(
-              "SettingsSegmentedControl cannot have both a constantly-visible subsection and value-dependent subsections (valueSubsections) set in props."
+              "SettingsSegmentedControl cannot have both a constantly-visible subsection and value-dependent subsections (valueSubsections) set in props.",
             );
         }
         getCurrentValue() {
@@ -5115,7 +5129,7 @@
           if (this.ValuesAreEqual(t, this.getCurrentValue())) {
             if (2 != this.props.items.length) return;
             t = this.props.items.find(
-              (e) => !this.ValuesAreEqual(e.value, t)
+              (e) => !this.ValuesAreEqual(e.value, t),
             ).value;
           }
           this.props.name && d.G3.SetSettingsValue(this.props.name, t),
@@ -5156,7 +5170,7 @@
           var e, t, n;
           const i = this.getCurrentValue(),
             o = this.props.items.findIndex((e) =>
-              this.ValuesAreEqual(e.value, i)
+              this.ValuesAreEqual(e.value, i),
             ),
             s =
               null !==
@@ -5221,13 +5235,13 @@
                       onMouseEnter: this.onOptionMouseEnter,
                       onMouseLeave: this.onOptionMouseLeave,
                     },
-                    r.createElement("span", null, e.sLabel)
-                  )
-                )
-              )
+                    r.createElement("span", null, e.sLabel),
+                  ),
+                ),
+              ),
             ),
             !!s &&
-              r.createElement("div", { className: "Subsection WithStem" }, s)
+              r.createElement("div", { className: "Subsection WithStem" }, s),
           );
         }
       };
@@ -5243,7 +5257,7 @@
             void 0 !== this.props.name && void 0 !== this.props.value)
           )
             throw new Error(
-              "SettingsToggle cannot have both an explicit value and a settings name set in props."
+              "SettingsToggle cannot have both an explicit value and a settings name set in props.",
             );
           if (
             void 0 !== this.props.subsection &&
@@ -5251,7 +5265,7 @@
               void 0 !== this.props.offSubsection)
           )
             throw new Error(
-              "SettingsToggle cannot have both a constantly-visible subsection and an onSubsection/offSubsection set in props."
+              "SettingsToggle cannot have both a constantly-visible subsection and an onSubsection/offSubsection set in props.",
             );
         }
         render() {
@@ -5300,7 +5314,7 @@
             void 0 !== this.props.name && void 0 !== this.props.value)
           )
             throw new Error(
-              "SettingsDropdown cannot have both an explicit value and a settings name set in props."
+              "SettingsDropdown cannot have both an explicit value and a settings name set in props.",
             );
         }
         get value() {
@@ -5337,7 +5351,7 @@
                       this.props.fullWidth,
                     ]),
                   },
-                  this.props.label
+                  this.props.label,
                 ),
               r.createElement(
                 "div",
@@ -5347,14 +5361,14 @@
                     !this.props.subsection,
                   ]),
                 },
-                r.createElement(v.Lt, Object.assign({}, e))
+                r.createElement(v.Lt, Object.assign({}, e)),
               ),
               !!this.props.subsection &&
                 r.createElement(
                   "div",
                   { className: "Subsection WithStem" },
-                  this.props.subsection
-                )
+                  this.props.subsection,
+                ),
             )
           );
         }
@@ -5369,7 +5383,7 @@
             void 0 !== this.props.name && void 0 !== this.props.value)
           )
             throw new Error(
-              "SettingsRadioButtons cannot have both an explicit value and a settings name set in props."
+              "SettingsRadioButtons cannot have both an explicit value and a settings name set in props.",
             );
         }
         get value() {
@@ -5397,7 +5411,7 @@
                 enabled: !n,
                 onClick: () => this.onChange(e.value),
               },
-              r.createElement("div", { className: "Label" }, e.sLabel)
+              r.createElement("div", { className: "Label" }, e.sLabel),
             );
           });
           return r.createElement(
@@ -5407,7 +5421,7 @@
               title: this.props.title,
             },
             r.createElement("div", { className: "Label" }, this.props.label),
-            r.createElement("div", { className: "RadioButtonsSet" }, e)
+            r.createElement("div", { className: "RadioButtonsSet" }, e),
           );
         }
       };
@@ -5421,7 +5435,7 @@
             void 0 !== this.props.name && void 0 !== this.props.value)
           )
             throw new Error(
-              "SettingsSlider cannot have both an explicit value and a settings name set in props."
+              "SettingsSlider cannot have both an explicit value and a settings name set in props.",
             );
           (this.state = {}),
             (this.m_sUniqueIdForFadeSupression = Math.random().toString());
@@ -5431,7 +5445,7 @@
           this.props.dashboardFadeSupression &&
             d.G3.SetDashboardFadeSupression(
               this.m_sUniqueIdForFadeSupression,
-              !0
+              !0,
             ),
             null === (t = (e = this.props).onInteractionStart) ||
               void 0 === t ||
@@ -5442,7 +5456,7 @@
           this.props.dashboardFadeSupression &&
             d.G3.SetDashboardFadeSupression(
               this.m_sUniqueIdForFadeSupression,
-              !1
+              !1,
             ),
             null === (t = (e = this.props).onInteractionEnd) ||
               void 0 === t ||
@@ -5475,7 +5489,7 @@
                 className: (0, g.LJ)(
                   "SettingsItem",
                   "Slider",
-                  this.props.additionalClassName
+                  this.props.additionalClassName,
                 ),
                 title: this.props.title,
               },
@@ -5488,9 +5502,9 @@
                       this.props.labelSpans,
                     ]),
                   },
-                  this.props.label
+                  this.props.label,
                 ),
-              r.createElement(y.iR, Object.assign({}, e))
+              r.createElement(y.iR, Object.assign({}, e)),
             )
           );
         }
@@ -5717,7 +5731,7 @@
                 r.createElement(
                   "div",
                   { className: "Label" },
-                  this.props.label
+                  this.props.label,
                 ),
               r.createElement(m.z, {
                 className: "ButtonControl",
@@ -5746,8 +5760,8 @@
                     onChange: this.onAlphaChange,
                     color: e,
                     value: e.a,
-                  })
-                )
+                  }),
+                ),
             );
           }
         };
@@ -5769,7 +5783,7 @@
               null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.RegisterForSceneApplicationStateChangedEvents(
-                    this.onSceneApplicationStateChanged
+                    this.onSceneApplicationStateChanged,
                   )),
             this.onSceneApplicationStateChanged();
         }
@@ -5884,7 +5898,7 @@
                 ? -1
                 : "openvr.component.vrcompositor" == t.value
                 ? 1
-                : e.sLabel.localeCompare(t.sLabel)
+                : e.sLabel.localeCompare(t.sLabel),
             ),
             o.sort((e, t) => e.sLabel.localeCompare(t.sLabel)),
             i.length > 0 && o.length > 0
@@ -5941,7 +5955,7 @@
                 r.createElement(
                   "div",
                   { className: "Subsection Top Subheader" },
-                  i
+                  i,
                 ),
               e.children &&
                 r.createElement(
@@ -5950,9 +5964,10 @@
                     scrollDirection: b.I.Vertical,
                     className: "Subsection Body",
                   },
-                  t.children
+                  t.children,
                 ),
-              o && r.createElement("div", { className: "Subsection Bottom" }, o)
+              o &&
+                r.createElement("div", { className: "Subsection Bottom" }, o),
             )
           );
         },
@@ -5967,8 +5982,8 @@
                   className: "ButtonControl",
                   onClick: e.onResetRequested,
                 },
-                (0, l.Xx)("#Settings_ResetToDefault")
-              )
+                (0, l.Xx)("#Settings_ResetToDefault"),
+              ),
             );
           let n = [
             r.createElement(
@@ -5978,7 +5993,7 @@
                 className: "ButtonControl",
                 onClick: e.onDismissRequested,
               },
-              (0, l.Xx)("#Settings_General_Close")
+              (0, l.Xx)("#Settings_General_Close"),
             ),
           ];
           return r.createElement(
@@ -5988,7 +6003,7 @@
             t.length > 0 &&
               n.length > 0 &&
               r.createElement("div", { className: "Spacer" }),
-            n
+            n,
           );
         };
       var N;
@@ -6007,10 +6022,10 @@
               {
                 className: (0, g.LJ)("ButtonControl", ["WithIcon", null !== t]),
               },
-              e
+              e,
             ),
             r.createElement("span", null, e.children),
-            t
+            t,
           )
         );
       };
@@ -6066,7 +6081,7 @@
             const e = c.G3.systemInfo.refresh_rates.supports_multiple_rates,
               t = c.G3.systemInfo.extended_mode,
               n = Math.round(
-                c.G3.systemInfo.refresh_rates.actual_display_frequency
+                c.G3.systemInfo.refresh_rates.actual_display_frequency,
               );
             return s.createElement(
               u.GV,
@@ -6079,12 +6094,12 @@
               s.createElement(
                 "div",
                 { className: "Label" },
-                (0, l.Xx)("#Settings_Video_RefreshRate_Header")
+                (0, l.Xx)("#Settings_Video_RefreshRate_Header"),
               ),
               s.createElement(
                 "div",
                 { className: (0, m.LJ)("Label", ["SubsectionStem", e]) },
-                n + (0, l.Xx)("#Settings_Video_RefreshRate_HzSuffix")
+                n + (0, l.Xx)("#Settings_Video_RefreshRate_HzSuffix"),
               ),
               e &&
                 s.createElement(
@@ -6092,7 +6107,7 @@
                   { className: "Subsection WithStem" },
                   t &&
                     (0, l.Xx)(
-                      "#Settings_Video_RefreshRate_NotAvailableExtended"
+                      "#Settings_Video_RefreshRate_NotAvailableExtended",
                     ),
                   t &&
                     (0, p.Op)() != p.qA.Overlay &&
@@ -6100,11 +6115,11 @@
                       d.z,
                       { className: "ButtonControl", onClick: v },
                       (0, l.Xx)(
-                        "#Settings_Video_RefreshRate_EnableDirectModeAction"
-                      )
+                        "#Settings_Video_RefreshRate_EnableDirectModeAction",
+                      ),
                     ),
-                  !t && (0, l.Xx)("#Settings_Video_RefreshRate_NotFound")
-                )
+                  !t && (0, l.Xx)("#Settings_Video_RefreshRate_NotFound"),
+                ),
             );
           }
         }),
@@ -6125,21 +6140,22 @@
             let n = Math.max(
                 512,
                 Math.floor(
-                  c.G3.systemInfo.render_target_size.width * Math.sqrt(e) + 0.5
-                )
+                  c.G3.systemInfo.render_target_size.width * Math.sqrt(e) + 0.5,
+                ),
               ),
               i = Math.max(
                 512,
                 Math.floor(
-                  c.G3.systemInfo.render_target_size.height * Math.sqrt(e) + 0.5
-                )
+                  c.G3.systemInfo.render_target_size.height * Math.sqrt(e) +
+                    0.5,
+                ),
               );
             (n = 4 * Math.trunc(n / 4)),
               (i = 4 * Math.trunc(i / 4)),
               (o = (0, l.Xx)(
                 "#Settings_Advanced_Supersampling_WidthByHeight",
                 n,
-                i
+                i,
               ));
           }
           return s.createElement(u.wy, {
@@ -6158,7 +6174,9 @@
                 s.createElement(
                   "div",
                   { className: "Label" },
-                  (0, l.Xx)("#Settings_Advanced_Supersampline_ResolutionPerEye")
+                  (0, l.Xx)(
+                    "#Settings_Advanced_Supersampline_ResolutionPerEye",
+                  ),
                 ),
                 s.createElement(
                   "div",
@@ -6167,8 +6185,8 @@
                   s.createElement(
                     "div",
                     { className: "Percentage" },
-                    Math.round(100 * t).toString() + "%"
-                  )
+                    Math.round(100 * t).toString() + "%",
+                  ),
                 ),
                 s.createElement(u.U4, {
                   min: 0.2,
@@ -6177,8 +6195,8 @@
                   detents: n,
                   value: t,
                   onChange: (e) => c.G3.SetSettingsValue(g.eW, e),
-                })
-              )
+                }),
+              ),
             ),
           });
         });
@@ -6192,28 +6210,28 @@
           this.state.bShowingModal &&
             c.G3.SetDashboardFadeSupression(
               this.m_sUniqueIdForFadeSupression,
-              !1
+              !1,
             );
         }
         showModal() {
           this.setState({ bShowingModal: !0 }),
             c.G3.SetDashboardFadeSupression(
               this.m_sUniqueIdForFadeSupression,
-              !0
+              !0,
             );
         }
         hideModal() {
           this.setState({ bShowingModal: !1 }),
             c.G3.SetDashboardFadeSupression(
               this.m_sUniqueIdForFadeSupression,
-              !1
+              !1,
             );
         }
         render() {
           if (!VRHTML) return null;
           const e = VRHTML.VRProperties.GetStringProperty(
             "/user/head",
-            p.Uk.HmdColumnCorrectionSettingPrefix_String
+            p.Uk.HmdColumnCorrectionSettingPrefix_String,
           );
           if (!e) return null;
           if ("firmware_update_required" == e)
@@ -6227,7 +6245,7 @@
               s.createElement(
                 "div",
                 { className: "Label" },
-                (0, l.Xx)("#DisplaySettings_ColumnCorrection")
+                (0, l.Xx)("#DisplaySettings_ColumnCorrection"),
               ),
               s.createElement(
                 "div",
@@ -6235,9 +6253,9 @@
                 s.createElement(
                   "div",
                   { className: "Label" },
-                  (0, l.Xx)("#DisplaySettings_Error_FirmwareUpdateNeeded")
-                )
-              )
+                  (0, l.Xx)("#DisplaySettings_Error_FirmwareUpdateNeeded"),
+                ),
+              ),
             );
           {
             let t = c.G3.settings.get(g.zL);
@@ -6258,12 +6276,12 @@
                 s.createElement(
                   "div",
                   { className: "Label" },
-                  (0, l.Xx)("#DisplaySettings_IndexColumnCorrection")
+                  (0, l.Xx)("#DisplaySettings_IndexColumnCorrection"),
                 ),
                 s.createElement(
                   d.z,
                   { className: "ButtonControl", onClick: this.showModal },
-                  (0, l.Xx)("#DisplaySettings_ColumnCorrectionEdit")
+                  (0, l.Xx)("#DisplaySettings_ColumnCorrectionEdit"),
                 ),
                 this.state.bShowingModal &&
                   s.createElement(
@@ -6272,7 +6290,7 @@
                       onDismissRequested: this.hideModal,
                       allowableParentSelectors: [".SettingsMain"],
                       header: (0, l.Xx)(
-                        "#DisplaySettings_IndexColumnCorrection"
+                        "#DisplaySettings_IndexColumnCorrection",
                       ),
                       footer: s.createElement(u.U5, {
                         showResetButton: !0,
@@ -6289,16 +6307,16 @@
                       title: (0, l.Xx)("#DisplaySettings_ColumnCorrectionDesc"),
                       label: (0, l.Xx)("#DisplaySettings_ColumnCorrection"),
                       offLabel: (0, l.Xx)(
-                        "#DisplaySettings_ColumnCorrectionOff"
+                        "#DisplaySettings_ColumnCorrectionOff",
                       ),
                       onLabel: (0, l.Xx)(
-                        "#DisplaySettings_ColumnCorrectionAuto"
+                        "#DisplaySettings_ColumnCorrectionAuto",
                       ),
                       onChange: (e) => c.G3.SetSettingsValue(g.zL, e ? 1 : 0),
                     }),
                     s.createElement(u.U4, {
                       label: (0, l.Xx)(
-                        "#DisplaySettings_ColumnCorrectionBiasLeft"
+                        "#DisplaySettings_ColumnCorrectionBiasLeft",
                       ),
                       min: -10,
                       max: 10,
@@ -6311,7 +6329,7 @@
                     }),
                     s.createElement(u.U4, {
                       label: (0, l.Xx)(
-                        "#DisplaySettings_ColumnCorrectionBiasRight"
+                        "#DisplaySettings_ColumnCorrectionBiasRight",
                       ),
                       min: -10,
                       max: 10,
@@ -6321,8 +6339,8 @@
                       valueStyleVariant: _.px.OnHandle,
                       renderValue: (e) => e.toFixed(0),
                       onChange: (e) => c.G3.SetSettingsValue(i, e),
-                    })
-                  )
+                    }),
+                  ),
               )
             );
           }
@@ -6337,7 +6355,7 @@
         if (
           !VRHTML.VRProperties.GetBoolProperty(
             "/user/head",
-            p.Uk.DisplaySupportsAnalogGain_Bool
+            p.Uk.DisplaySupportsAnalogGain_Bool,
           )
         )
           return null;
@@ -6347,7 +6365,7 @@
           null !==
             (e = VRHTML.VRProperties.GetFloatProperty(
               "/user/head",
-              p.Uk.DisplayMaxAnalogGain_Float
+              p.Uk.DisplayMaxAnalogGain_Float,
             )) && void 0 !== e
             ? e
             : 1;
@@ -6357,7 +6375,7 @@
           s.createElement(
             "div",
             { className: "Label" },
-            (0, l.Xx)("#DisplaySettings_DisplayBrightness")
+            (0, l.Xx)("#DisplaySettings_DisplayBrightness"),
           ),
           s.createElement(u.U4, {
             min: 20,
@@ -6373,10 +6391,10 @@
                 g.bp,
                 (function (e) {
                   return e < 100 ? Math.pow(e / 100, 2.2) : e / 100;
-                })(e)
+                })(e),
               ),
             dashboardFadeSupression: !0,
-          })
+          }),
         );
         var i;
       });
@@ -6399,7 +6417,7 @@
                   void 0 !== e
                     ? (0, l.Xx)(
                         "#Settings_Auto_Parenthesized",
-                        (0, l.Xx)("#Settings_" + p.LL[e])
+                        (0, l.Xx)("#Settings_" + p.LL[e]),
                       )
                     : (0, l.Xx)("#Settings_Auto"),
               },
@@ -6420,7 +6438,7 @@
           return VRHTML &&
             VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.DisplayAllowNightMode_Bool
+              p.Uk.DisplayAllowNightMode_Bool,
             )
             ? s.createElement(u.wy, {
                 label: (0, l.Xx)("#Settings_NightModeCheck"),
@@ -6441,20 +6459,20 @@
         if (
           VRHTML.VRProperties.GetBoolProperty(
             "/user/head",
-            p.Uk.HasDriverDirectModeComponent_Bool
+            p.Uk.HasDriverDirectModeComponent_Bool,
           )
         )
           return "oculus" ===
             VRHTML.VRProperties.GetStringProperty(
               "/user/head",
-              p.Uk.TrackingSystemName_String
+              p.Uk.TrackingSystemName_String,
             )
             ? null
             : s.createElement(u.wy, {
                 name: "/settings/steamvr/motionSmoothing",
                 label: (0, l.Xx)("#Settings_Advanced_MotionSmoothing_Header"),
                 title: (0, l.Xx)(
-                  "#Settings_Advanced_MotionSmoothing_Description"
+                  "#Settings_Advanced_MotionSmoothing_Description",
                 ),
               });
         if (
@@ -6473,7 +6491,7 @@
           t = (0, l.Xx)(
             e
               ? "#Settings_Advanced_MotionSmoothing_Disabled_Win7"
-              : "#Settings_Advanced_MotionSmoothing_Disabled"
+              : "#Settings_Advanced_MotionSmoothing_Disabled",
           );
         return s.createElement(
           u.GV,
@@ -6481,13 +6499,13 @@
           s.createElement(
             "div",
             { className: "Label" },
-            (0, l.Xx)("#Settings_Advanced_MotionSmoothing_Header")
+            (0, l.Xx)("#Settings_Advanced_MotionSmoothing_Header"),
           ),
           s.createElement(
             "div",
             { className: "Label Right" },
-            (0, l.Xx)("#Settings_NotSupported")
-          )
+            (0, l.Xx)("#Settings_NotSupported"),
+          ),
         );
       };
       var M, E;
@@ -6563,11 +6581,11 @@
             !VRHTML ||
             !VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.Hmd_SupportsAppThrottling_Bool
+              p.Uk.Hmd_SupportsAppThrottling_Bool,
             ) ||
             (!VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.HasDriverDirectModeComponent_Bool
+              p.Uk.HasDriverDirectModeComponent_Bool,
             ) &&
               this.state.disableAsyncReprojection)
           );
@@ -6577,12 +6595,12 @@
             !!VRHTML &&
             (VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.HasDriverDirectModeComponent_Bool
+              p.Uk.HasDriverDirectModeComponent_Bool,
             )
               ? "oculus" !==
                 VRHTML.VRProperties.GetStringProperty(
                   "/user/head",
-                  p.Uk.TrackingSystemName_String
+                  p.Uk.TrackingSystemName_String,
                 )
               : VRHTML.VRClientInternal.GetGraphicsHardwareVendorInfo()
                   .bSupportsMotionSmoothing)
@@ -6593,7 +6611,7 @@
             !!VRHTML &&
             !VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.HasDriverDirectModeComponent_Bool
+              p.Uk.HasDriverDirectModeComponent_Bool,
             )
           );
         }
@@ -6683,15 +6701,15 @@
                 512,
                 Math.floor(
                   c.G3.systemInfo.render_target_size.width * Math.sqrt(e * t) +
-                    0.5
-                )
+                    0.5,
+                ),
               ),
               i = Math.max(
                 512,
                 Math.floor(
                   c.G3.systemInfo.render_target_size.height * Math.sqrt(e * t) +
-                    0.5
-                )
+                    0.5,
+                ),
               );
             return (
               (n = 4 * Math.trunc(n / 4)),
@@ -6718,7 +6736,7 @@
             (this.setState({ bShowRefreshRateOptions: e }),
             this.setAppState(
               "preferred_refresh_rate",
-              e ? this.state.nPreferredRefreshRate : 0
+              e ? this.state.nPreferredRefreshRate : 0,
             ));
         }
         onRefreshRateChange(e) {
@@ -6726,7 +6744,7 @@
             (this.setState({ nPreferredRefreshRate: e }),
             this.setAppState(
               "preferred_refresh_rate",
-              this.state.bShowRefreshRateOptions ? e : 0
+              this.state.bShowRefreshRateOptions ? e : 0,
             ));
         }
         onDisableAsyncReprojection(e) {
@@ -6774,12 +6792,12 @@
             eWorldScaleRange: e,
             flWorldScaleMultiplier: Math.max(
               L[e].min,
-              Math.min(L[e].max, this.state.flWorldScaleMultiplier)
+              Math.min(L[e].max, this.state.flWorldScaleMultiplier),
             ),
           }),
             this.setAppState(
               "worldscale",
-              e == E.Off ? 1 : this.state.flWorldScaleMultiplier
+              e == E.Off ? 1 : this.state.flWorldScaleMultiplier,
             );
         }
         onWorldScaleMultiplierSliderChange(e) {
@@ -6791,7 +6809,7 @@
         }
         resetAppToDefaults() {
           c.G3.ResetAppSettings(this.state.currentApp.key).then(
-            this.updateAppState
+            this.updateAppState,
           );
         }
         show() {
@@ -6815,8 +6833,8 @@
                 s.Fragment,
                 null,
                 (0, l.Xx)(
-                  "#Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc"
-                )
+                  "#Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc",
+                ),
               )),
             s.createElement(
               s.Fragment,
@@ -6827,8 +6845,8 @@
                 s.createElement(
                   d.z,
                   { className: "ButtonControl", onClick: this.show },
-                  (0, l.Xx)("#Settings_PerApplication_VideoSettings")
-                )
+                  (0, l.Xx)("#Settings_PerApplication_VideoSettings"),
+                ),
               ),
               this.shouldShowModal &&
                 s.createElement(
@@ -6842,7 +6860,7 @@
                       s.createElement(
                         "h1",
                         null,
-                        (0, l.Xx)("#Settings_ManageVideoSettingsForApp")
+                        (0, l.Xx)("#Settings_ManageVideoSettingsForApp"),
                       ),
                       s.createElement(u.YL, {
                         ref: this.m_refAppSelectDropdown,
@@ -6855,10 +6873,10 @@
                             : VRHTML.VRApplications.GetSceneApplicationKey(),
                         showOverlays: !1,
                         defaultLabel: (0, l.Xx)(
-                          "#Settings_PerApplication_ChooseApplication"
+                          "#Settings_PerApplication_ChooseApplication",
                         ),
                         onChange: this.onApplicationDropdownChange,
-                      })
+                      }),
                     ),
                     footer: s.createElement(u.U5, {
                       showResetButton: this.hasCurrentApp(),
@@ -6875,31 +6893,31 @@
                         !this.state.disableAsyncReprojection &&
                         s.createElement(u.Xp, {
                           label: (0, l.Xx)(
-                            "#Settings_Advanced_MotionSmoothing_Header"
+                            "#Settings_Advanced_MotionSmoothing_Header",
                           ),
                           items: [
                             {
                               value: M.UseGlobal,
                               sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_Global"
+                                "#Settings_PerApplication_MotionSmoothing_Global",
                               ),
                             },
                             {
                               value: M.ForceOn,
                               sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_On"
+                                "#Settings_PerApplication_MotionSmoothing_On",
                               ),
                             },
                             {
                               value: M.ForceOff,
                               sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_Off"
+                                "#Settings_PerApplication_MotionSmoothing_Off",
                               ),
                             },
                             {
                               value: M.ForceAlwaysOn,
                               sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_AlwaysOn"
+                                "#Settings_PerApplication_MotionSmoothing_AlwaysOn",
                               ),
                             },
                           ],
@@ -6913,14 +6931,14 @@
                           {
                             title: (0, l.Xx)(
                               "#Settings_PerApplication_AppResHeader",
-                              (0, l.Xx)("#Settings_SectionTitle_General")
+                              (0, l.Xx)("#Settings_SectionTitle_General"),
                             ),
                             className: "SettingsItem",
                           },
                           s.createElement(
                             "div",
                             { className: "Label" },
-                            (0, l.Xx)("#Settings_PerApplication_AppResTitle")
+                            (0, l.Xx)("#Settings_PerApplication_AppResTitle"),
                           ),
                           s.createElement(
                             "div",
@@ -6928,15 +6946,15 @@
                             s.createElement(
                               "div",
                               { className: "Dimensions" },
-                              this.computedResolution
+                              this.computedResolution,
                             ),
                             s.createElement(
                               "div",
                               { className: "Percentage" },
                               Math.round(
-                                100 * this.state.nResolutionMultiplier
-                              ).toString() + "%"
-                            )
+                                100 * this.state.nResolutionMultiplier,
+                              ).toString() + "%",
+                            ),
                           ),
                           s.createElement(
                             "div",
@@ -6948,8 +6966,8 @@
                               value: this.state.nResolutionMultiplier,
                               detents: [1],
                               onChange: this.onResolutionSliderChange,
-                            })
-                          )
+                            }),
+                          ),
                         ),
                       null !== this.state.nFovScaleMultiplier &&
                         (c.G3.showAdvancedSettings ||
@@ -6959,14 +6977,16 @@
                           u.GV,
                           {
                             title: (0, l.Xx)(
-                              "#Settings_PerApplication_FovScale_Description"
+                              "#Settings_PerApplication_FovScale_Description",
                             ),
                             className: "SettingsItem Advanced",
                           },
                           s.createElement(
                             "div",
                             { className: "Label" },
-                            (0, l.Xx)("#Settings_PerApplication_FovScale_Label")
+                            (0, l.Xx)(
+                              "#Settings_PerApplication_FovScale_Label",
+                            ),
                           ),
                           s.createElement(
                             "div",
@@ -6975,16 +6995,16 @@
                               "div",
                               { className: "Dimensions" },
                               (0, l.Xx)(
-                                "#Settings_PerApplication_FovScale_Multiplier"
-                              )
+                                "#Settings_PerApplication_FovScale_Multiplier",
+                              ),
                             ),
                             s.createElement(
                               "div",
                               { className: "Percentage" },
                               Math.round(
-                                100 * this.state.nFovScaleMultiplier
-                              ).toString() + "%"
-                            )
+                                100 * this.state.nFovScaleMultiplier,
+                              ).toString() + "%",
+                            ),
                           ),
                           s.createElement(
                             "div",
@@ -6995,8 +7015,8 @@
                               step: 0.01,
                               value: this.state.nFovScaleMultiplier,
                               onChange: this.onFovScaleSliderChange,
-                            })
-                          )
+                            }),
+                          ),
                         ),
                       null !== this.state.flWorldScaleMultiplier &&
                         (c.G3.showAdvancedSettings ||
@@ -7007,7 +7027,7 @@
                           u.GV,
                           {
                             title: (0, l.Xx)(
-                              "#Settings_PerApplication_WorldScale_Description"
+                              "#Settings_PerApplication_WorldScale_Description",
                             ),
                             className: "SettingsItem Advanced",
                           },
@@ -7015,39 +7035,39 @@
                             "div",
                             { className: "Label" },
                             (0, l.Xx)(
-                              "#Settings_PerApplication_WorldScale_Label"
-                            )
+                              "#Settings_PerApplication_WorldScale_Label",
+                            ),
                           ),
                           s.createElement(u.Xp, {
                             items: [
                               {
                                 value: E.Off,
                                 sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Off"
+                                  "#Settings_PerApplication_WorldScale_Off",
                                 ),
                               },
                               {
                                 value: E.Fine,
                                 sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Fine"
+                                  "#Settings_PerApplication_WorldScale_Fine",
                                 ),
                               },
                               {
                                 value: E.Normal,
                                 sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Normal"
+                                  "#Settings_PerApplication_WorldScale_Normal",
                                 ),
                               },
                               {
                                 value: E.Extreme,
                                 sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Extreme"
+                                  "#Settings_PerApplication_WorldScale_Extreme",
                                 ),
                               },
                             ],
                             value: this.state.eWorldScaleRange,
                             onChange: this.onWorldScaleRangeChange,
-                          })
+                          }),
                         ),
                       this.state.eWorldScaleRange !== E.Off &&
                         s.createElement(
@@ -7063,18 +7083,18 @@
                               (0, l.Xx)(
                                 "#Settings_PerApplication_WorldScale_Range",
                                 100 * this.worldScaleRangeMin,
-                                100 * this.worldScaleRangeMax
-                              )
+                                100 * this.worldScaleRangeMax,
+                              ),
                             ),
                             s.createElement(
                               "div",
                               { className: "Percentage" },
                               (
                                 Math.round(
-                                  1e3 * this.state.flWorldScaleMultiplier
+                                  1e3 * this.state.flWorldScaleMultiplier,
                                 ) / 10
-                              ).toString() + "%"
-                            )
+                              ).toString() + "%",
+                            ),
                           ),
                           s.createElement(
                             "div",
@@ -7091,10 +7111,10 @@
                               "div",
                               { className: "SettingsItemValueLabel Fixed" },
                               (0, l.Xx)(
-                                "#Settings_PerApplication_WorldScale_Warning"
-                              )
-                            )
-                          )
+                                "#Settings_PerApplication_WorldScale_Warning",
+                              ),
+                            ),
+                          ),
                         ),
                       this.allowPerAppRefreshRate &&
                         c.G3.systemInfo &&
@@ -7108,16 +7128,16 @@
                           null !== this.state.bShowRefreshRateOptions &&
                             s.createElement(u.wy, {
                               label: (0, l.Xx)(
-                                "#Settings_PerApplication_RefreshRateOverride_Checkbox"
+                                "#Settings_PerApplication_RefreshRateOverride_Checkbox",
                               ),
                               title: (0, l.Xx)(
-                                "#Settings_Perapplication_RefreshRateOverride_Description"
+                                "#Settings_Perapplication_RefreshRateOverride_Description",
                               ),
                               value: this.state.bShowRefreshRateOptions,
                               onChange: this.onRefreshRateOverrideChange,
                               onSubsection: s.createElement(u.t0, {
                                 label: (0, l.Xx)(
-                                  "#Settings_Video_RefreshRate_Label_Hz"
+                                  "#Settings_Video_RefreshRate_Label_Hz",
                                 ),
                                 onChange: this.onRefreshRateChange,
                                 value: this.state.nPreferredRefreshRate,
@@ -7126,10 +7146,10 @@
                                     (e) => ({
                                       value: e,
                                       sLabel: Math.round(e).toString(),
-                                    })
+                                    }),
                                   ),
                               }),
-                            })
+                            }),
                         ),
                       this.enableLegacyReprojectionSettings &&
                         null !== this.state.disableAsyncReprojection &&
@@ -7140,17 +7160,17 @@
                           u.GV,
                           {
                             title: (0, l.Xx)(
-                              "#Settings_PerApplication_Reprojection_Description"
+                              "#Settings_PerApplication_Reprojection_Description",
                             ),
                             className: "SettingsItem Advanced",
                           },
                           s.createElement(u.wy, {
                             label: (0, l.Xx)(
-                              "#Settings_PerApplication_Reprojection_Checkbox"
+                              "#Settings_PerApplication_Reprojection_Checkbox",
                             ),
                             value: this.state.disableAsyncReprojection,
                             onChange: this.onDisableAsyncReprojection,
-                          })
+                          }),
                         ),
                       this.enableThrottleOverrideSettings &&
                         (c.G3.showAdvancedSettings ||
@@ -7160,7 +7180,7 @@
                           u.GV,
                           {
                             title: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Description"
+                              "#Settings_PerApplication_ThrottlingOverride_Description",
                             ),
                             className: "SettingsItem Advanced",
                           },
@@ -7168,18 +7188,18 @@
                             "div",
                             { className: "Label" },
                             (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Label"
-                            )
+                              "#Settings_PerApplication_ThrottlingOverride_Label",
+                            ),
                           ),
                           s.createElement(u.wy, {
                             title: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Toggle"
+                              "#Settings_PerApplication_ThrottlingOverride_Toggle",
                             ),
                             onLabel: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Toggle_On"
+                              "#Settings_PerApplication_ThrottlingOverride_Toggle_On",
                             ),
                             offLabel: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Toggle_Off"
+                              "#Settings_PerApplication_ThrottlingOverride_Toggle_Off",
                             ),
                             value: this.state.bShowThrottleOptions,
                             onChange: this.onShowThrottleOptions,
@@ -7192,8 +7212,8 @@
                                 "div",
                                 { className: "Label" },
                                 (0, l.Xx)(
-                                  "#Settings_PerApplication_ThrottlingOverride_Framerate"
-                                )
+                                  "#Settings_PerApplication_ThrottlingOverride_Framerate",
+                                ),
                               ),
                               s.createElement(u.U4, {
                                 min: 5,
@@ -7203,7 +7223,7 @@
                                 valueStyleVariant: _.px.OnHandle,
                                 renderValue: (e) =>
                                   (this.currentRefreshRate / (e + 1)).toFixed(
-                                    1
+                                    1,
                                   ),
                                 onChange: this.onThrottleSliderChange,
                               }),
@@ -7211,8 +7231,8 @@
                                 "div",
                                 { className: "Label" },
                                 (0, l.Xx)(
-                                  "#Settings_PerApplication_ThrottlingOverride_Prediction"
-                                )
+                                  "#Settings_PerApplication_ThrottlingOverride_Prediction",
+                                ),
                               ),
                               s.createElement(u.U4, {
                                 min: 0,
@@ -7222,20 +7242,20 @@
                                 valueStyleVariant: _.px.OnHandle,
                                 renderValue: (e) =>
                                   ((1e3 * e) / this.currentRefreshRate).toFixed(
-                                    2
+                                    2,
                                   ),
                                 onChange: this.onPredictionSliderChange,
-                              })
-                            )
-                        )
+                              }),
+                            ),
+                        ),
                     ),
                   !this.hasCurrentApp() &&
                     s.createElement(
                       "div",
                       { className: "ModalPlaceholder" },
-                      (0, l.Xx)("#Settings_PerApplication_ChooseApplication")
-                    )
-                )
+                      (0, l.Xx)("#Settings_PerApplication_ChooseApplication"),
+                    ),
+                ),
             )
           );
         }
@@ -7248,13 +7268,13 @@
           [r.Fl],
           R.prototype,
           "enableMotionSmoothingOverrideSettings",
-          null
+          null,
         ),
         (0, o.gn)(
           [r.Fl],
           R.prototype,
           "enableLegacyReprojectionSettings",
-          null
+          null,
         ),
         (0, o.gn)([r.Fl], R.prototype, "worldScaleRangeMin", null),
         (0, o.gn)([r.Fl], R.prototype, "worldScaleRangeMax", null),
@@ -7276,7 +7296,7 @@
           [a.ak],
           R.prototype,
           "onWorldScaleMultiplierSliderChange",
-          null
+          null,
         ),
         (0, o.gn)([a.ak], R.prototype, "resetAppToDefaults", null),
         (0, o.gn)([a.ak], R.prototype, "show", null),
@@ -7289,15 +7309,15 @@
           if (!this.props.active) return null;
           const e = VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.Hmd_SupportsHDCP14LegacyCompat_Bool
+              p.Uk.Hmd_SupportsHDCP14LegacyCompat_Bool,
             ),
             t = VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.Hmd_SupportsDisplayPortTrainingMode_Bool
+              p.Uk.Hmd_SupportsDisplayPortTrainingMode_Bool,
             ),
             n = VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.Uk.Hmd_SupportsGpuBusMonitoring_Bool
+              p.Uk.Hmd_SupportsGpuBusMonitoring_Bool,
             );
           return s.createElement(
             s.Fragment,
@@ -7334,20 +7354,20 @@
                   {
                     value: 0,
                     sLabel: (0, l.Xx)(
-                      "#Settings_DisplayPortTrainingMode_Automatic"
+                      "#Settings_DisplayPortTrainingMode_Automatic",
                     ),
                   },
                   S.Kr.Separator,
                   {
                     value: 1,
                     sLabel: (0, l.Xx)(
-                      "#Settings_DisplayPortTrainingMode_CompatibilityModeA"
+                      "#Settings_DisplayPortTrainingMode_CompatibilityModeA",
                     ),
                   },
                   {
                     value: 2,
                     sLabel: (0, l.Xx)(
-                      "#Settings_DisplayPortTrainingMode_CompatibilityModeB"
+                      "#Settings_DisplayPortTrainingMode_CompatibilityModeB",
                     ),
                   },
                 ],
@@ -7366,7 +7386,7 @@
                 label: (0, l.Xx)("#Settings_GpuBusMonitoring"),
                 visibility: u.VK.Advanced,
               }),
-            this.makeResetToDefaultButton()
+            this.makeResetToDefaultButton(),
           );
         }
       }
@@ -7436,7 +7456,7 @@
               r.G.Instance.playSound(
                 null !== (i = this.props.pressSoundEffect) && void 0 !== i
                   ? i
-                  : null
+                  : null,
               );
         }
         onMouseUp(e) {
@@ -7455,7 +7475,7 @@
             r.G.Instance.playSound(
               null !== (i = this.props.releaseSoundEffect) && void 0 !== i
                 ? i
-                : r.y.ButtonClick
+                : r.y.ButtonClick,
             ));
         }
         onMouseEnter(e) {
@@ -7503,7 +7523,7 @@
             window.clearTimeout(this.s_nSuppressingSoundEffectsTimeout),
             (this.s_nSuppressingSoundEffectsTimeout = window.setTimeout(
               this.endSoundEffectSuppression,
-              this.k_nSoundEffectSuppressionPeriod
+              this.k_nSoundEffectSuppressionPeriod,
             ));
         }
         static get suppressingSoundEffect() {
@@ -7514,7 +7534,7 @@
             (window.clearTimeout(d.s_nPlaySoundEffectTimeout),
             (d.s_nPlaySoundEffectTimeout = window.setTimeout(
               d.playSoundEffect,
-              d.k_nSoundEffectDelay
+              d.k_nSoundEffectDelay,
             ))),
             this.props.onClick && this.props.onClick(e);
         }
@@ -7528,7 +7548,7 @@
         render() {
           return o.cloneElement(
             o.createElement("div", this.props, this.props.children),
-            { onClick: this.onClick }
+            { onClick: this.onClick },
           );
         }
       }
@@ -7595,7 +7615,7 @@
               ]),
               onClick: () => this.setValue(e.value),
             },
-            e.sLabel
+            e.sLabel,
           );
         }
         setValue(e) {
@@ -7634,9 +7654,9 @@
               s.createElement(
                 d.P,
                 { scrollDirection: d.I.Vertical, ref: this.m_refScrollPanel },
-                this.props.items.map(this.renderDropdownItem)
-              )
-            )
+                this.props.items.map(this.renderDropdownItem),
+              ),
+            ),
           );
         }
         componentDidMount() {
@@ -7645,7 +7665,7 @@
             ["body", "[vsg-type=panel]", ".SettingsSidebarPageModalContainer"],
             null === (e = this.m_refParentPortal.current) || void 0 === e
               ? void 0
-              : e.anchorElement
+              : e.anchorElement,
           );
         }
         updateLayout() {
@@ -7762,7 +7782,7 @@
                     : "initial",
                 },
               },
-              s.createElement("span", { ref: this.m_scrollWatcher.ref }, n)
+              s.createElement("span", { ref: this.m_scrollWatcher.ref }, n),
             ),
             this.state.bShowingOptions &&
               s.createElement(
@@ -7771,8 +7791,8 @@
                   selectedItem: e,
                   buttonRef: this.m_refButton,
                   onDismissRequested: this.hideDropdown,
-                })
-              )
+                }),
+              ),
           );
         }
       }
@@ -7882,7 +7902,7 @@
             (this.m_bSViewtackWasChangedInThisCallStack = !0),
             (this.m_nCallStackClearedTimeout = setTimeout(
               () => (this.m_bSViewtackWasChangedInThisCallStack = !1),
-              0
+              0,
             ));
         }
       }
@@ -7977,14 +7997,14 @@
               className: (0, a.LJ)(
                 "View",
                 [i.k_FadedForModalClassName, this.viewShouldFadeForModal],
-                e.className
+                e.className,
               ),
               style: Object.assign(Object.assign({}, e.style), {
                 zIndex: 3e3 + this.viewLevel,
               }),
               ref: this.m_viewRef,
             }),
-            e.children
+            e.children,
           );
           return null === this.context
             ? s.createElement(u.Provider, { value: this.viewStack }, t)
@@ -8002,7 +8022,7 @@
       const h =
         865 != n.j
           ? s.forwardRef((e, t) =>
-              s.createElement(p, Object.assign({}, e, { ref: t }), e.children)
+              s.createElement(p, Object.assign({}, e, { ref: t }), e.children),
             )
           : null;
       let m = class extends s.Component {
@@ -8032,10 +8052,10 @@
               className: (0, a.LJ)(
                 "View",
                 [p.k_FadedForModalClassName, i],
-                this.props.className
+                this.props.className,
               ),
             }),
-            this.props.children
+            this.props.children,
           );
         }
       };
@@ -8080,7 +8100,7 @@
         const t = (0, u.Z)(
             null != e.size ? d(e.size) : d(s.Medium),
             null != e.type ? p(e.type) : p(o.Light),
-            e.additionalClassName
+            e.additionalClassName,
           ),
           n = e.type == o.Knockout;
         switch (e.button) {
@@ -8156,14 +8176,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM21.2697 24H24.1317L19.2717 11.4H16.6077L11.8917 24H14.6457L15.4737 21.552H20.4057L21.2697 24ZM16.1937 19.446L17.9217 14.406L19.6857 19.446H16.1937Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8173,7 +8193,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8186,7 +8206,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M24.1317 24H21.2697L20.4057 21.552H15.4737L14.6457 24H11.8917L16.6077 11.4H19.2717L24.1317 24ZM17.9217 14.406L16.1937 19.446H19.6857L17.9217 14.406Z",
-              })
+              }),
             );
       }
       function g(e) {
@@ -8201,14 +8221,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM23.173 20.382C23.173 18.81 22.369 17.778 20.761 17.286C21.349 16.974 21.775 16.584 22.039 16.116C22.303 15.648 22.435 15.132 22.435 14.568C22.435 13.56 22.081 12.78 21.373 12.228C20.665 11.676 19.573 11.4 18.097 11.4H13.435V24H18.601C19.993 24 21.103 23.682 21.931 23.046C22.759 22.41 23.173 21.522 23.173 20.382ZM16.117 16.674V13.596H17.881C19.165 13.596 19.807 14.082 19.807 15.054C19.807 15.57 19.645 15.972 19.321 16.26C18.997 16.536 18.535 16.674 17.935 16.674H16.117ZM19.843 21.372C19.507 21.672 19.003 21.822 18.331 21.822H16.117V18.582H18.403C19.039 18.582 19.525 18.72 19.861 18.996C20.197 19.26 20.365 19.656 20.365 20.184C20.365 20.676 20.191 21.072 19.843 21.372Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8218,7 +8238,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8231,7 +8251,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M20.761 17.286C22.369 17.778 23.173 18.81 23.173 20.382C23.173 21.522 22.759 22.41 21.931 23.046C21.103 23.682 19.993 24 18.601 24H13.435V11.4H18.097C19.573 11.4 20.665 11.676 21.373 12.228C22.081 12.78 22.435 13.56 22.435 14.568C22.435 15.132 22.303 15.648 22.039 16.116C21.775 16.584 21.349 16.974 20.761 17.286ZM16.117 13.596V16.674H17.935C18.535 16.674 18.997 16.536 19.321 16.26C19.645 15.972 19.807 15.57 19.807 15.054C19.807 14.082 19.165 13.596 17.881 13.596H16.117ZM18.331 21.822C19.003 21.822 19.507 21.672 19.843 21.372C20.191 21.072 20.365 20.676 20.365 20.184C20.365 19.656 20.197 19.26 19.861 18.996C19.525 18.72 19.039 18.582 18.403 18.582H16.117V21.822H18.331Z",
-              })
+              }),
             );
       }
       function S(e) {
@@ -8246,14 +8266,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 fill: "currentColor",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM23.7101 11.4H20.3621L17.8601 15.45L15.3581 11.4H12.1001L16.4021 17.484L11.9201 24H15.0881L17.9141 19.41L20.8661 24H24.1061L19.2821 17.394L23.7101 11.4Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8263,7 +8283,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8276,7 +8296,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M20.3621 11.4H23.7101L19.2821 17.394L24.1061 24H20.8661L17.9141 19.41L15.0881 24H11.9201L16.4021 17.484L12.1001 11.4H15.3581L17.8601 15.45L20.3621 11.4Z",
-              })
+              }),
             );
       }
       function _(e) {
@@ -8291,14 +8311,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 fill: "currentColor",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM16.69 24H19.318V18.996L23.71 11.4H20.848L18.094 16.44L15.358 11.4H12.298L16.69 18.978V24Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8308,7 +8328,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8321,7 +8341,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M19.318 24H16.69V18.978L12.298 11.4H15.358L18.094 16.44L20.848 11.4H23.71L19.318 18.996V24Z",
-              })
+              }),
             );
       }
       function v(e) {
@@ -8336,14 +8356,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM25 20.1998L19.5555 14.7554V27.1998H16.4444V14.7554L11 20.1998L8.66663 17.8665L18 8.66661L27.3333 17.8665L25 20.1998Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8353,7 +8373,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8366,7 +8386,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M19.5555 14.7554L25 20.1998L27.3333 17.8665L18 8.66661L8.66663 17.8665L11 20.1998L16.4444 14.7554V27.1998H19.5555V14.7554Z",
-              })
+              }),
             );
       }
       function C(e) {
@@ -8381,14 +8401,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM10.9999 15.6666L16.4444 21.1111L16.4444 8.66663H19.5555L19.5555 21.1111L24.9999 15.6666L27.3333 18L17.9999 27.1998L8.66659 18L10.9999 15.6666Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8398,7 +8418,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8411,7 +8431,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M16.4444 21.1111L10.9999 15.6666L8.66659 18L17.9999 27.1998L27.3333 18L24.9999 15.6666L19.5555 21.1111L19.5555 8.66663L16.4444 8.66663L16.4444 21.1111Z",
-              })
+              }),
             );
       }
       function f(e) {
@@ -8426,14 +8446,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM20.2664 10.9332L14.8219 16.3777H27.2664V19.4888H14.8219L20.2664 24.9332L17.933 27.2665L8.73314 17.9332L17.933 8.59988L20.2664 10.9332Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8443,7 +8463,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8456,7 +8476,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M14.8219 16.3777L20.2664 10.9333L17.933 8.59994L8.73314 17.9332L17.933 27.2666L20.2664 24.9333L14.8219 19.4888L27.2664 19.4888L27.2664 16.3777L14.8219 16.3777Z",
-              })
+              }),
             );
       }
       function y(e) {
@@ -8471,14 +8491,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM15.7332 24.9332L21.1776 19.4888H8.73315V16.3777H21.1776L15.7332 10.9332L18.0665 8.59991L27.2664 17.9333L18.0665 27.2666L15.7332 24.9332Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8488,7 +8508,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -8501,7 +8521,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M21.1776 19.4887L15.7332 24.9332L18.0665 27.2665L27.2664 17.9332L18.0665 8.59985L15.7332 10.9332L21.1776 16.3776L8.73315 16.3776L8.73315 19.4887L21.1776 19.4887Z",
-              })
+              }),
             );
       }
       function b(e) {
@@ -8516,14 +8536,14 @@
                   viewBox: "0 0 100 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 fill: "currentColor",
                 d: "M18 0C8.05888 0 0 8.05888 0 18C0 27.9411 8.05888 36 18 36H82C91.9411 36 100 27.9411 100 18C100 8.05888 91.9411 0 82 0H18ZM21.8011 11.5C22.6531 11.5 23.4391 11.62 24.1591 11.86C24.8791 12.1 25.4851 12.394 25.9771 12.742L24.8611 14.722C24.4171 14.41 23.9191 14.158 23.3671 13.966C22.8271 13.774 22.3111 13.678 21.8191 13.678C21.2191 13.678 20.7511 13.804 20.4151 14.056C20.0791 14.296 19.9111 14.632 19.9111 15.064C19.9111 15.496 20.1091 15.838 20.5051 16.09C20.9011 16.33 21.5071 16.594 22.3231 16.882C23.1631 17.182 23.8351 17.458 24.3391 17.71C24.8431 17.962 25.2811 18.334 25.6531 18.826C26.0371 19.306 26.2291 19.924 26.2291 20.68C26.2291 21.484 26.0191 22.18 25.5991 22.768C25.1911 23.356 24.6151 23.812 23.8711 24.136C23.1271 24.448 22.2751 24.604 21.3151 24.604C20.5351 24.604 19.7371 24.502 18.9211 24.298C18.1171 24.082 17.4091 23.794 16.7971 23.434L17.6251 21.238C18.2011 21.55 18.8071 21.802 19.4431 21.994C20.0911 22.174 20.7271 22.264 21.3511 22.264C22.0351 22.264 22.5451 22.132 22.8811 21.868C23.2291 21.604 23.4031 21.256 23.4031 20.824C23.4031 20.392 23.2171 20.056 22.8451 19.816C22.4731 19.576 21.9031 19.33 21.1351 19.078C20.2711 18.802 19.5751 18.538 19.0471 18.286C18.5191 18.022 18.0631 17.644 17.6791 17.152C17.3071 16.648 17.1211 15.994 17.1211 15.19C17.1211 14.446 17.3131 13.798 17.6971 13.246C18.0931 12.682 18.6451 12.25 19.3531 11.95C20.0611 11.65 20.8771 11.5 21.8011 11.5ZM35.2486 24.388H32.6026V14.056H28.7866V11.788H39.0646V14.056H35.2486V24.388ZM50.8108 11.788H42.3148V24.388H50.8108V22.102H44.9608V19.15H50.0008V16.882H44.9608V14.038H50.8108V11.788ZM65.8582 24.388H62.9962L62.1322 21.94H57.2002L56.3722 24.388H53.6182L58.3342 11.788H60.9982L65.8582 24.388ZM59.6482 14.794L57.9202 19.834H61.4122L59.6482 14.794ZM79.7729 11.788L75.8489 20.734L71.6009 11.788H69.0629V24.388H71.4749V16.468L74.9309 24.028H76.5329L79.9169 16.378V24.388H82.4549V11.788H79.7729Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8533,7 +8553,7 @@
                   viewBox: "0 0 100 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -8564,7 +8584,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M75.8489 20.734L79.7729 11.788H82.4549V24.388H79.9169V16.378L76.5329 24.028H74.9309L71.4749 16.468V24.388H69.0629V11.788H71.6009L75.8489 20.734Z",
-              })
+              }),
             );
       }
       function w(e) {
@@ -8579,14 +8599,14 @@
                   viewBox: "0 0 81 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 0C8.05888 0 0 8.05888 0 18C0 27.9411 8.05888 36 18 36H61C70.9411 36 79 27.9411 79 18C79 8.05888 70.9411 0 61 0H18ZM21.5 22.5C23.9853 22.5 26 20.4853 26 18C26 15.5147 23.9853 13.5 21.5 13.5C19.0147 13.5 17 15.5147 17 18C17 20.4853 19.0147 22.5 21.5 22.5ZM44 18C44 20.4853 41.9853 22.5 39.5 22.5C37.0147 22.5 35 20.4853 35 18C35 15.5147 37.0147 13.5 39.5 13.5C41.9853 13.5 44 15.5147 44 18ZM57.5 22.5C59.9853 22.5 62 20.4853 62 18C62 15.5147 59.9853 13.5 57.5 13.5C55.0147 13.5 53 15.5147 53 18C53 20.4853 55.0147 22.5 57.5 22.5Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8596,7 +8616,7 @@
                   viewBox: "0 0 81 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -8623,7 +8643,7 @@
                 cx: "57.5",
                 cy: "18",
                 r: "4.5",
-              })
+              }),
             );
       }
       function A(e) {
@@ -8638,14 +8658,14 @@
                   viewBox: "0 0 48 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M12 6C5.37258 6 0 11.3726 0 18C0 24.6274 5.37258 30 12 30H36C42.6274 30 48 24.6274 48 18C48 11.3726 42.6274 6 36 6H12ZM31 11H17V25H31V11Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8655,7 +8675,7 @@
                   viewBox: "0 0 48 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("rect", {
                 className: c().Background,
@@ -8672,7 +8692,7 @@
                 y: "11",
                 width: "14",
                 height: "14",
-              })
+              }),
             );
       }
       function k(e) {
@@ -8687,14 +8707,14 @@
                   viewBox: "0 0 48 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M12 6C5.37258 6 0 11.3726 0 18C0 24.6274 5.37258 30 12 30H36C42.6274 30 48 24.6274 48 18C48 11.3726 42.6274 6 36 6H12ZM31 11H17V13.8H31V11ZM17 22.2H31V25H17V22.2ZM31 16.6H17V19.4H31V16.6Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8704,7 +8724,7 @@
                   viewBox: "0 0 48 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("rect", {
                 className: c().Background,
@@ -8737,7 +8757,7 @@
                 y: "16.6",
                 width: "14",
                 height: "2.8",
-              })
+              }),
             );
       }
       function M(e) {
@@ -8752,14 +8772,14 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M7.5 0C3.35786 0 0 4.47715 0 10V30C0 31.1046 0.671574 32 1.5 32H34.5C35.3284 32 36 31.1046 36 30V2C36 0.895431 35.3284 0 34.5 0H7.5ZM9.36182 23H17.8218V20.624H12.0078V10.4H9.36182V23ZM25.7635 20.714V10.4H23.7296L19.5896 12.452L20.4356 14.432L23.0816 13.316V20.714H20.1115V23H28.1576V20.714H25.7635Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8769,7 +8789,7 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -8785,7 +8805,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M25.7635 10.4V20.714H28.1576V23H20.1116V20.714H23.0816V13.316L20.4356 14.432L19.5896 12.452L23.7296 10.4H25.7635Z",
-              })
+              }),
             );
       }
       function E(e) {
@@ -8800,14 +8820,14 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M28.5 0C32.6421 0 36 4.47715 36 10V30C36 31.1046 35.3284 32 34.5 32H1.5C0.671573 32 0 31.1046 0 30V2C0 0.895431 0.671573 0 1.5 0H28.5ZM15.8185 23H18.7525L15.7825 18.23C16.5505 17.894 17.1445 17.402 17.5645 16.754C17.9965 16.106 18.2125 15.296 18.2125 14.324C18.2125 13.088 17.8045 12.128 16.9885 11.444C16.1725 10.748 14.9005 10.4 13.1725 10.4H8.45654V23H11.1025V18.752H12.9745H13.2805L15.8185 23ZM11.1025 16.484V12.65H13.0105C13.8385 12.65 14.4385 12.806 14.8105 13.118C15.1945 13.418 15.3865 13.874 15.3865 14.486C15.3865 15.11 15.1885 15.602 14.7925 15.962C14.4085 16.31 13.8685 16.484 13.1725 16.484H11.1025ZM26.6688 20.714V10.4H24.6348L20.4948 12.452L21.3408 14.432L23.9868 13.316V20.714H21.0168V23H29.0628V20.714H26.6688Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8817,7 +8837,7 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -8833,7 +8853,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M26.6688 10.4V20.714H29.0628V23H21.0168V20.714H23.9868V13.316L21.3408 14.432L20.4948 12.452L24.6348 10.4H26.6688Z",
-              })
+              }),
             );
       }
       function L(e) {
@@ -8848,14 +8868,14 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M7.5 32C3.35786 32 0 27.5228 0 22V2C0 0.895431 0.671574 0 1.5 0H34.5C35.3284 0 36 0.895431 36 2V30C36 31.1046 35.3284 32 34.5 32H7.5ZM29.0743 20.714H23.0083L25.6183 18.554C26.6623 17.69 27.4363 16.91 27.9403 16.214C28.4443 15.506 28.6963 14.72 28.6963 13.856C28.6963 12.68 28.2583 11.774 27.3823 11.138C26.5063 10.502 25.3423 10.184 23.8903 10.184C23.0743 10.184 22.3063 10.298 21.5863 10.526C20.8783 10.754 20.2483 11.06 19.6963 11.444L20.5963 13.388C20.9683 13.136 21.4003 12.926 21.8923 12.758C22.3963 12.59 22.9123 12.506 23.4403 12.506C24.1483 12.506 24.7243 12.668 25.1683 12.992C25.6243 13.304 25.8523 13.772 25.8523 14.396C25.8523 14.78 25.7623 15.134 25.5823 15.458C25.4023 15.782 25.1623 16.088 24.8623 16.376C24.5743 16.664 24.1543 17.042 23.6023 17.51L23.2963 17.78L19.6603 20.804V23H29.0743V20.714ZM9.32458 23H17.7846V20.624H11.9706V10.4H9.32458V23Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8865,7 +8885,7 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -8881,7 +8901,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M23.0083 20.714H29.0743V23H19.6603V20.804L23.2963 17.78L23.6023 17.51C24.1543 17.042 24.5743 16.664 24.8623 16.376C25.1623 16.088 25.4023 15.782 25.5823 15.458C25.7623 15.134 25.8523 14.78 25.8523 14.396C25.8523 13.772 25.6243 13.304 25.1683 12.992C24.7243 12.668 24.1483 12.506 23.4403 12.506C22.9123 12.506 22.3963 12.59 21.8923 12.758C21.4003 12.926 20.9683 13.136 20.5963 13.388L19.6963 11.444C20.2483 11.06 20.8783 10.754 21.5863 10.526C22.3063 10.298 23.0743 10.184 23.8903 10.184C25.3423 10.184 26.5063 10.502 27.3823 11.138C28.2583 11.774 28.6963 12.68 28.6963 13.856C28.6963 14.72 28.4443 15.506 27.9403 16.214C27.4363 16.91 26.6623 17.69 25.6183 18.554L23.0083 20.714Z",
-              })
+              }),
             );
       }
       function R(e) {
@@ -8896,14 +8916,14 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M28.5 32C32.6421 32 36 27.5228 36 22V2C36 0.895431 35.3284 0 34.5 0H1.5C0.671573 0 0 0.895431 0 2V30C0 31.1046 0.671573 32 1.5 32H28.5ZM28.9796 20.714H22.9136L25.5236 18.554C26.5676 17.69 27.3416 16.91 27.8456 16.214C28.3496 15.506 28.6016 14.72 28.6016 13.856C28.6016 12.68 28.1636 11.774 27.2876 11.138C26.4116 10.502 25.2476 10.184 23.7956 10.184C22.9796 10.184 22.2116 10.298 21.4916 10.526C20.7836 10.754 20.1536 11.06 19.6016 11.444L20.5016 13.388C20.8736 13.136 21.3056 12.926 21.7976 12.758C22.3016 12.59 22.8176 12.506 23.3456 12.506C24.0536 12.506 24.6296 12.668 25.0736 12.992C25.5296 13.304 25.7576 13.772 25.7576 14.396C25.7576 14.78 25.6676 15.134 25.4876 15.458C25.3076 15.782 25.0676 16.088 24.7676 16.376C24.4796 16.664 24.0596 17.042 23.5076 17.51L23.2016 17.78L19.5656 20.804V23H28.9796V20.714ZM14.7813 23H17.7153L14.7453 18.23C15.5133 17.894 16.1073 17.402 16.5273 16.754C16.9593 16.106 17.1753 15.296 17.1753 14.324C17.1753 13.088 16.7673 12.128 15.9513 11.444C15.1353 10.748 13.8633 10.4 12.1353 10.4H7.41931V23H10.0653V18.752H11.9373H12.2433L14.7813 23ZM10.0653 16.484V12.65H11.9733C12.8013 12.65 13.4013 12.806 13.7733 13.118C14.1573 13.418 14.3493 13.874 14.3493 14.486C14.3493 15.11 14.1513 15.602 13.7553 15.962C13.3713 16.31 12.8313 16.484 12.1353 16.484H10.0653Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8913,7 +8933,7 @@
                   viewBox: "0 0 36 32",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -8929,7 +8949,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M22.9136 20.714H28.9796V23H19.5656V20.804L23.2016 17.78L23.5076 17.51C24.0596 17.042 24.4796 16.664 24.7676 16.376C25.0676 16.088 25.3076 15.782 25.4876 15.458C25.6676 15.134 25.7576 14.78 25.7576 14.396C25.7576 13.772 25.5296 13.304 25.0736 12.992C24.6296 12.668 24.0536 12.506 23.3456 12.506C22.8176 12.506 22.3016 12.59 21.7976 12.758C21.3056 12.926 20.8736 13.136 20.5016 13.388L19.6016 11.444C20.1536 11.06 20.7836 10.754 21.4916 10.526C22.2116 10.298 22.9796 10.184 23.7956 10.184C25.2476 10.184 26.4116 10.502 27.2876 11.138C28.1636 11.774 28.6016 12.68 28.6016 13.856C28.6016 14.72 28.3496 15.506 27.8456 16.214C27.3416 16.91 26.5676 17.69 25.5236 18.554L22.9136 20.714Z",
-              })
+              }),
             );
       }
       function T(e) {
@@ -8944,7 +8964,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
@@ -8959,7 +8979,7 @@
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 30.75C27.9411 30.75 36 25.7132 36 19.5C36 13.2868 27.9411 8.25 18 8.25C8.05887 8.25 0 13.2868 0 19.5C0 25.7132 8.05887 30.75 18 30.75ZM25.4679 14.284C24.7852 13.7613 23.7879 13.5 22.4759 13.5C21.6972 13.5 20.9666 13.6173 20.2839 13.852C19.6119 14.0867 19.0092 14.4227 18.4759 14.86L19.4679 16.364C19.8199 16.0973 20.2146 15.8893 20.6519 15.74C21.0999 15.58 21.5639 15.5 22.0439 15.5C22.6732 15.5 23.1639 15.6227 23.5159 15.868C23.8786 16.1133 24.0599 16.4387 24.0599 16.844C24.0599 17.2813 23.8679 17.6227 23.4839 17.868C23.1106 18.1027 22.6146 18.22 21.9959 18.22H20.6999V19.996H22.1399C23.7079 19.996 24.4919 20.508 24.4919 21.532C24.4919 22.0547 24.2839 22.4653 23.8679 22.764C23.4626 23.0627 22.8972 23.212 22.1719 23.212C21.0306 23.212 20.0439 22.876 19.2119 22.204L18.2039 23.932C18.7052 24.3373 19.3186 24.652 20.0439 24.876C20.7799 25.1 21.5532 25.212 22.3639 25.212C23.2172 25.212 23.9959 25.068 24.6999 24.78C25.4039 24.4813 25.9586 24.0653 26.3639 23.532C26.7692 22.988 26.9719 22.364 26.9719 21.66C26.9719 20.892 26.7479 20.2787 26.2999 19.82C25.8626 19.3507 25.2866 19.0413 24.5719 18.892V18.844C25.1799 18.6093 25.6492 18.2733 25.9799 17.836C26.3212 17.388 26.4919 16.8813 26.4919 16.316C26.4919 15.484 26.1506 14.8067 25.4679 14.284ZM9.48901 24.956H17.009V22.844H11.841V13.756H9.48901V24.956Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -8969,7 +8989,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("ellipse", {
                 className: c().Background,
@@ -8998,7 +9018,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M22.4759 13.5C23.7879 13.5 24.7852 13.7613 25.4679 14.284C26.1506 14.8067 26.4919 15.484 26.4919 16.316C26.4919 16.8813 26.3212 17.388 25.9799 17.836C25.6492 18.2733 25.1799 18.6093 24.5719 18.844V18.892C25.2866 19.0413 25.8626 19.3507 26.2999 19.82C26.7479 20.2787 26.9719 20.892 26.9719 21.66C26.9719 22.364 26.7692 22.988 26.3639 23.532C25.9586 24.0653 25.4039 24.4813 24.6999 24.78C23.9959 25.068 23.2172 25.212 22.3639 25.212C21.5532 25.212 20.7799 25.1 20.0439 24.876C19.3186 24.652 18.7052 24.3373 18.2039 23.932L19.2119 22.204C20.0439 22.876 21.0306 23.212 22.1719 23.212C22.8972 23.212 23.4626 23.0627 23.8679 22.764C24.2839 22.4653 24.4919 22.0547 24.4919 21.532C24.4919 20.508 23.7079 19.996 22.1399 19.996H20.6999V18.22H21.9959C22.6146 18.22 23.1106 18.1027 23.4839 17.868C23.8679 17.6227 24.0599 17.2813 24.0599 16.844C24.0599 16.4387 23.8786 16.1133 23.5159 15.868C23.1639 15.6227 22.6732 15.5 22.0439 15.5C21.5639 15.5 21.0999 15.58 20.6519 15.74C20.2146 15.8893 19.8199 16.0973 19.4679 16.364L18.4759 14.86C19.0092 14.4227 19.6119 14.0867 20.2839 13.852C20.9666 13.6173 21.6972 13.5 22.4759 13.5Z",
-              })
+              }),
             );
       }
       function I(e) {
@@ -9013,7 +9033,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
@@ -9028,7 +9048,7 @@
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M18 30.75C27.9411 30.75 36 25.7132 36 19.5C36 13.2868 27.9411 8.25 18 8.25C8.05887 8.25 0 13.2868 0 19.5C0 25.7132 8.05887 30.75 18 30.75ZM26.5882 14.284C25.9056 13.7613 24.9082 13.5 23.5962 13.5C22.8176 13.5 22.0869 13.6173 21.4043 13.852C20.7323 14.0867 20.1296 14.4227 19.5963 14.86L20.5882 16.364C20.9403 16.0973 21.3349 15.8893 21.7723 15.74C22.2202 15.58 22.6842 15.5 23.1642 15.5C23.7936 15.5 24.2843 15.6227 24.6362 15.868C24.9989 16.1133 25.1803 16.4387 25.1803 16.844C25.1803 17.2813 24.9883 17.6227 24.6043 17.868C24.2309 18.1027 23.7349 18.22 23.1162 18.22H21.8203V19.996H23.2603C24.8283 19.996 25.6122 20.508 25.6122 21.532C25.6122 22.0547 25.4042 22.4653 24.9883 22.764C24.5829 23.0627 24.0176 23.212 23.2923 23.212C22.1509 23.212 21.1643 22.876 20.3323 22.204L19.3242 23.932C19.8256 24.3373 20.4389 24.652 21.1642 24.876C21.9002 25.1 22.6736 25.212 23.4842 25.212C24.3376 25.212 25.1162 25.068 25.8202 24.78C26.5243 24.4813 27.0789 24.0653 27.4842 23.532C27.8896 22.988 28.0923 22.364 28.0923 21.66C28.0923 20.892 27.8682 20.2787 27.4202 19.82C26.9829 19.3507 26.4069 19.0413 25.6922 18.892V18.844C26.3002 18.6093 26.7696 18.2733 27.1003 17.836C27.4416 17.388 27.6122 16.8813 27.6122 16.316C27.6122 15.484 27.2709 14.8067 26.5882 14.284ZM15.544 24.956H18.152L15.512 20.716C16.1947 20.4173 16.7227 19.98 17.096 19.404C17.48 18.828 17.672 18.108 17.672 17.244C17.672 16.1453 17.3093 15.292 16.584 14.684C15.8587 14.0653 14.728 13.756 13.192 13.756H9V24.956H11.352V21.18H13.016H13.288L15.544 24.956ZM11.352 19.164V15.756H13.048C13.784 15.756 14.3173 15.8947 14.648 16.172C14.9893 16.4387 15.16 16.844 15.16 17.388C15.16 17.9427 14.984 18.38 14.632 18.7C14.2907 19.0093 13.8107 19.164 13.192 19.164H11.352Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9038,7 +9058,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("ellipse", {
                 className: c().Background,
@@ -9067,7 +9087,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M23.5962 13.5C24.9082 13.5 25.9056 13.7613 26.5882 14.284C27.2709 14.8067 27.6122 15.484 27.6122 16.316C27.6122 16.8813 27.4416 17.388 27.1003 17.836C26.7696 18.2733 26.3002 18.6093 25.6922 18.844V18.892C26.4069 19.0413 26.9829 19.3507 27.4202 19.82C27.8682 20.2787 28.0923 20.892 28.0923 21.66C28.0923 22.364 27.8896 22.988 27.4842 23.532C27.0789 24.0653 26.5243 24.4813 25.8202 24.78C25.1162 25.068 24.3376 25.212 23.4843 25.212C22.6736 25.212 21.9003 25.1 21.1643 24.876C20.4389 24.652 19.8256 24.3373 19.3243 23.932L20.3323 22.204C21.1643 22.876 22.1509 23.212 23.2923 23.212C24.0176 23.212 24.5829 23.0627 24.9882 22.764C25.4042 22.4653 25.6122 22.0547 25.6122 21.532C25.6122 20.508 24.8283 19.996 23.2603 19.996H21.8203V18.22H23.1163C23.7349 18.22 24.2309 18.1027 24.6043 17.868C24.9883 17.6227 25.1803 17.2813 25.1803 16.844C25.1803 16.4387 24.9989 16.1133 24.6363 15.868C24.2843 15.6227 23.7936 15.5 23.1643 15.5C22.6842 15.5 22.2203 15.58 21.7723 15.74C21.3349 15.8893 20.9403 16.0973 20.5883 16.364L19.5963 14.86C20.1296 14.4227 20.7323 14.0867 21.4043 13.852C22.0869 13.6173 22.8176 13.5 23.5962 13.5Z",
-              })
+              }),
             );
       }
       function V(e) {
@@ -9082,7 +9102,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
@@ -9093,7 +9113,7 @@
               r.createElement("path", {
                 fill: "currentColor",
                 d: "M11 26V31.601C11 32.926 12.0446 34 13.3333 34H22.6667C23.9554 34 25 32.926 25 31.601V26C22.7984 26.523 20.4394 26.8029 18 26.8029C15.5606 26.8029 13.2016 26.523 11 26Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9103,7 +9123,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("ellipse", {
                 className: c().Background,
@@ -9122,7 +9142,7 @@
                 className: c().Background,
                 fill: "currentColor",
                 d: "M11 26V31.601C11 32.926 12.0446 34 13.3333 34H22.6667C23.9554 34 25 32.926 25 31.601V26C22.7984 26.523 20.4394 26.8029 18 26.8029C15.5606 26.8029 13.2016 26.523 11 26Z",
-              })
+              }),
             );
       }
       function P(e) {
@@ -9137,7 +9157,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
@@ -9148,7 +9168,7 @@
               r.createElement("path", {
                 fill: "currentColor",
                 d: "M11 26V31.601C11 32.926 12.0446 34 13.3333 34H22.6667C23.9554 34 25 32.926 25 31.601V26C22.7984 26.523 20.4394 26.8029 18 26.8029C15.5606 26.8029 13.2016 26.523 11 26Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9158,7 +9178,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("ellipse", {
                 className: c().Background,
@@ -9177,7 +9197,7 @@
                 className: c().Background,
                 fill: "currentColor",
                 d: "M11 26V31.601C11 32.926 12.0446 34 13.3333 34H22.6667C23.9554 34 25 32.926 25 31.601V26C22.7984 26.523 20.4394 26.8029 18 26.8029C15.5606 26.8029 13.2016 26.523 11 26Z",
-              })
+              }),
             );
       }
       function D(e) {
@@ -9192,14 +9212,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M2 0C0.895431 0 0 0.895431 0 2V34C0 35.1046 0.895431 36 2 36H34C35.1046 36 36 35.1046 36 34V2C36 0.895431 35.1046 0 34 0H2ZM8.62341 24.75H17.0834V22.374H11.2694V12.15H8.62341V24.75ZM27.3111 19.854V12.15H24.8631L18.6891 20.16V21.888H24.6291V24.75H27.3111V21.888H29.1291V19.854H27.3111ZM21.2631 19.854L24.7371 15.3V19.854H21.2631Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9209,7 +9229,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9225,7 +9245,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M27.3111 12.15V19.854H29.1291V21.888H27.3111V24.75H24.6291V21.888H18.6891V20.16L24.8631 12.15H27.3111ZM24.7371 15.3L21.2631 19.854H24.7371V15.3Z",
-              })
+              }),
             );
       }
       function B(e) {
@@ -9240,14 +9260,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M2 0C0.895431 0 0 0.895431 0 2V34C0 35.1046 0.895431 36 2 36H34C35.1046 36 36 35.1046 36 34V2C36 0.895431 35.1046 0 34 0H2ZM8.23669 24.75H16.6967V22.374H10.8827V12.15H8.23669V24.75ZM27.3744 14.4V12.15H19.3284V18.648L21.0024 19.566C21.3744 19.266 21.7524 19.044 22.1364 18.9C22.5204 18.744 22.9404 18.666 23.3964 18.666C24.0084 18.666 24.4884 18.828 24.8364 19.152C25.1964 19.476 25.3764 19.944 25.3764 20.556C25.3764 21.252 25.1424 21.786 24.6744 22.158C24.2064 22.53 23.5464 22.716 22.6944 22.716C21.5664 22.716 20.5404 22.404 19.6164 21.78L18.6804 23.796C19.1484 24.192 19.7364 24.498 20.4444 24.714C21.1524 24.93 21.9144 25.038 22.7304 25.038C23.8344 25.038 24.7884 24.852 25.5924 24.48C26.4084 24.096 27.0264 23.562 27.4464 22.878C27.8784 22.194 28.0944 21.396 28.0944 20.484C28.0944 19.26 27.7524 18.33 27.0684 17.694C26.3964 17.046 25.4964 16.722 24.3684 16.722C23.9244 16.722 23.4804 16.776 23.0364 16.884C22.6044 16.98 22.2144 17.136 21.8664 17.352V14.4H27.3744Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9257,7 +9277,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9273,7 +9293,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M27.3744 12.15V14.4H21.8664V17.352C22.2144 17.136 22.6044 16.98 23.0364 16.884C23.4804 16.776 23.9244 16.722 24.3684 16.722C25.4964 16.722 26.3964 17.046 27.0684 17.694C27.7524 18.33 28.0944 19.26 28.0944 20.484C28.0944 21.396 27.8784 22.194 27.4464 22.878C27.0264 23.562 26.4084 24.096 25.5924 24.48C24.7884 24.852 23.8344 25.038 22.7304 25.038C21.9144 25.038 21.1524 24.93 20.4444 24.714C19.7364 24.498 19.1484 24.192 18.6804 23.796L19.6164 21.78C20.5404 22.404 21.5664 22.716 22.6944 22.716C23.5464 22.716 24.2064 22.53 24.6744 22.158C25.1424 21.786 25.3764 21.252 25.3764 20.556C25.3764 19.944 25.1964 19.476 24.8364 19.152C24.4884 18.828 24.0084 18.666 23.3964 18.666C22.9404 18.666 22.5204 18.744 22.1364 18.9C21.7524 19.044 21.3744 19.266 21.0024 19.566L19.3284 18.648V12.15H27.3744Z",
-              })
+              }),
             );
       }
       function O(e) {
@@ -9288,14 +9308,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M2 0C0.895431 0 0 0.895431 0 2V34C0 35.1046 0.895431 36 2 36H34C35.1046 36 36 35.1046 36 34V2C36 0.895431 35.1046 0 34 0H2ZM14.5176 24.75H17.4516L14.4816 19.98C15.2496 19.644 15.8436 19.152 16.2636 18.504C16.6956 17.856 16.9116 17.046 16.9116 16.074C16.9116 14.838 16.5036 13.878 15.6876 13.194C14.8716 12.498 13.5996 12.15 11.8716 12.15H7.15564V24.75H9.80164V20.502H11.6736H11.9796L14.5176 24.75ZM9.80164 18.234V14.4H11.7096C12.5376 14.4 13.1376 14.556 13.5096 14.868C13.8936 15.168 14.0856 15.624 14.0856 16.236C14.0856 16.86 13.8876 17.352 13.4916 17.712C13.1076 18.06 12.5676 18.234 11.8716 18.234H9.80164ZM27.6539 19.854V12.15H25.2059L19.0319 20.16V21.888H24.9719V24.75H27.6539V21.888H29.4719V19.854H27.6539ZM21.6059 19.854L25.0799 15.3V19.854H21.6059Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9305,7 +9325,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9321,7 +9341,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M27.6539 12.15V19.854H29.4719V21.888H27.6539V24.75H24.9719V21.888H19.0319V20.16L25.2059 12.15H27.6539ZM25.0799 15.3L21.6059 19.854H25.0799V15.3Z",
-              })
+              }),
             );
       }
       function x(e) {
@@ -9336,14 +9356,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M2 0C0.895431 0 0 0.895431 0 2V34C0 35.1046 0.895431 36 2 36H34C35.1046 36 36 35.1046 36 34V2C36 0.895431 35.1046 0 34 0H2ZM14.6934 24.75H17.6274L14.6574 19.98C15.4254 19.644 16.0194 19.152 16.4394 18.504C16.8714 17.856 17.0874 17.046 17.0874 16.074C17.0874 14.838 16.6794 13.878 15.8634 13.194C15.0474 12.498 13.7754 12.15 12.0474 12.15H7.33142V24.75H9.97742V20.502H11.8494H12.1554L14.6934 24.75ZM9.97742 18.234V14.4H11.8854C12.7134 14.4 13.3134 14.556 13.6854 14.868C14.0694 15.168 14.2614 15.624 14.2614 16.236C14.2614 16.86 14.0634 17.352 13.6674 17.712C13.2834 18.06 12.7434 18.234 12.0474 18.234H9.97742ZM28.2797 14.4V12.15H20.2337V18.648L21.9077 19.566C22.2797 19.266 22.6577 19.044 23.0417 18.9C23.4257 18.744 23.8457 18.666 24.3017 18.666C24.9137 18.666 25.3937 18.828 25.7417 19.152C26.1017 19.476 26.2817 19.944 26.2817 20.556C26.2817 21.252 26.0477 21.786 25.5797 22.158C25.1117 22.53 24.4517 22.716 23.5997 22.716C22.4717 22.716 21.4457 22.404 20.5217 21.78L19.5857 23.796C20.0537 24.192 20.6417 24.498 21.3497 24.714C22.0577 24.93 22.8197 25.038 23.6357 25.038C24.7397 25.038 25.6937 24.852 26.4977 24.48C27.3137 24.096 27.9317 23.562 28.3517 22.878C28.7837 22.194 28.9997 21.396 28.9997 20.484C28.9997 19.26 28.6577 18.33 27.9737 17.694C27.3017 17.046 26.4017 16.722 25.2737 16.722C24.8297 16.722 24.3857 16.776 23.9417 16.884C23.5097 16.98 23.1197 17.136 22.7717 17.352V14.4H28.2797Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9353,7 +9373,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9369,7 +9389,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M28.2797 12.15V14.4H22.7717V17.352C23.1197 17.136 23.5097 16.98 23.9417 16.884C24.3857 16.776 24.8297 16.722 25.2737 16.722C26.4017 16.722 27.3017 17.046 27.9737 17.694C28.6577 18.33 28.9997 19.26 28.9997 20.484C28.9997 21.396 28.7837 22.194 28.3517 22.878C27.9317 23.562 27.3137 24.096 26.4977 24.48C25.6937 24.852 24.7397 25.038 23.6357 25.038C22.8197 25.038 22.0577 24.93 21.3497 24.714C20.6417 24.498 20.0537 24.192 19.5857 23.796L20.5217 21.78C21.4457 22.404 22.4717 22.716 23.5997 22.716C24.4517 22.716 25.1117 22.53 25.5797 22.158C26.0477 21.786 26.2817 21.252 26.2817 20.556C26.2817 19.944 26.1017 19.476 25.7417 19.152C25.3937 18.828 24.9137 18.666 24.3017 18.666C23.8457 18.666 23.4257 18.744 23.0417 18.9C22.6577 19.044 22.2797 19.266 21.9077 19.566L20.2337 18.648V12.15H28.2797Z",
-              })
+              }),
             );
       }
       function H(e) {
@@ -9384,14 +9404,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M5.73583 3C3.6326 3 1.88863 4.6288 1.74515 6.72713L0.292161 27.9771C0.134133 30.2883 1.96629 32.25 4.28284 32.25H31.7172C34.0337 32.25 35.8659 30.2883 35.7078 27.9771L34.2548 6.72713C34.1114 4.6288 32.3674 3 30.2642 3H5.73583ZM14.8236 24.0625H23.2836V21.6865H17.4696V11.4625H14.8236V24.0625Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9401,7 +9421,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9412,7 +9432,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M23.2836 24.0625H14.8236V11.4625H17.4696V21.6865H23.2836V24.0625Z",
-              })
+              }),
             );
       }
       function G(e) {
@@ -9427,7 +9447,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
@@ -9438,7 +9458,7 @@
               r.createElement("path", {
                 fill: "currentColor",
                 d: "M24 0H12L18 6L24 0Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9448,7 +9468,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9464,7 +9484,7 @@
                 className: c().Background,
                 fill: "currentColor",
                 d: "M24 0H12L18 6L24 0Z",
-              })
+              }),
             );
       }
       function N(e) {
@@ -9479,14 +9499,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M5.7359 3C3.63266 3 1.88869 4.6288 1.74521 6.72713L0.292222 27.9771C0.134194 30.2883 1.96635 32.25 4.2829 32.25H31.7172C34.0338 32.25 35.8659 30.2883 35.7079 27.9771L34.2549 6.72713C34.1114 4.6288 32.3675 3 30.2642 3H5.7359ZM20.7179 24.0625H23.6519L20.6819 19.2925C21.4499 18.9565 22.0439 18.4645 22.4639 17.8165C22.8959 17.1685 23.1119 16.3585 23.1119 15.3865C23.1119 14.1505 22.7039 13.1905 21.8879 12.5065C21.0719 11.8105 19.7999 11.4625 18.0719 11.4625H13.3559V24.0625H16.0019V19.8145H17.8739H18.1799L20.7179 24.0625ZM16.0019 17.5465V13.7125H17.9099C18.7379 13.7125 19.3379 13.8685 19.7099 14.1805C20.0939 14.4805 20.2859 14.9365 20.2859 15.5485C20.2859 16.1725 20.0879 16.6645 19.6919 17.0245C19.3079 17.3725 18.7679 17.5465 18.0719 17.5465H16.0019Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9496,7 +9516,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9507,7 +9527,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M23.6518 24.0625H20.7178L18.1798 19.8145H17.8738H16.0018V24.0625H13.3558V11.4625H18.0718C19.7998 11.4625 21.0718 11.8105 21.8878 12.5065C22.7038 13.1905 23.1118 14.1505 23.1118 15.3865C23.1118 16.3585 22.8958 17.1685 22.4638 17.8165C22.0438 18.4645 21.4498 18.9565 20.6818 19.2925L23.6518 24.0625ZM16.0018 13.7125V17.5465H18.0718C18.7678 17.5465 19.3078 17.3725 19.6918 17.0245C20.0878 16.6645 20.2858 16.1725 20.2858 15.5485C20.2858 14.9365 20.0938 14.4805 19.7098 14.1805C19.3378 13.8685 18.7378 13.7125 17.9098 13.7125H16.0018Z",
-              })
+              }),
             );
       }
       function F(e) {
@@ -9522,7 +9542,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fill: "currentColor",
@@ -9533,7 +9553,7 @@
               r.createElement("path", {
                 fill: "currentColor",
                 d: "M24 0H12L18 6L24 0Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9543,7 +9563,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 className: c().Background,
@@ -9559,7 +9579,7 @@
                 className: c().Background,
                 fill: "currentColor",
                 d: "M24 0H12L18 6L24 0Z",
-              })
+              }),
             );
       }
       function U(e) {
@@ -9574,14 +9594,14 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 fill: "currentColor",
                 d: "M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM20.4999 10.8201C19.7519 10.4974 18.8719 10.3361 17.8599 10.3361C16.9799 10.3361 16.1219 10.4681 15.2859 10.7321C14.4499 10.9961 13.7166 11.3407 13.0859 11.7661L14.0759 13.9881C15.0586 13.2547 16.1073 12.8881 17.2219 12.8881C17.9699 12.8881 18.5493 13.0494 18.9599 13.3721C19.3853 13.6801 19.5979 14.1201 19.5979 14.6921C19.5979 15.1027 19.4953 15.4474 19.2899 15.7261C19.0846 16.0047 18.7693 16.3201 18.3439 16.6721C17.8893 17.0681 17.5153 17.4347 17.2219 17.7721C16.9286 18.1094 16.6793 18.5641 16.4739 19.1361C16.2686 19.7081 16.1659 20.4047 16.1659 21.2261H18.8499C18.8499 20.6541 18.9453 20.1554 19.1359 19.7301C19.3266 19.2901 19.5539 18.9234 19.8179 18.6301C20.0966 18.3221 20.4633 17.9701 20.9179 17.5741C21.3579 17.1781 21.7026 16.8407 21.9519 16.5621C22.2159 16.2834 22.4359 15.9461 22.6119 15.5501C22.7879 15.1541 22.8759 14.6994 22.8759 14.1861C22.8759 13.4234 22.6706 12.7561 22.2599 12.1841C21.8493 11.5974 21.2626 11.1427 20.4999 10.8201ZM18.7839 23.2721C18.4759 22.9494 18.0653 22.7881 17.5519 22.7881C17.0386 22.7881 16.6279 22.9494 16.3199 23.2721C16.0119 23.5801 15.8579 23.9907 15.8579 24.5041C15.8579 25.0467 16.0119 25.4794 16.3199 25.8021C16.6279 26.1101 17.0386 26.2641 17.5519 26.2641C18.0653 26.2641 18.4759 26.1101 18.7839 25.8021C19.0919 25.4794 19.2459 25.0467 19.2459 24.5041C19.2459 23.9907 19.0919 23.5801 18.7839 23.2721Z",
-              })
+              }),
             )
           : r.createElement(
               "svg",
@@ -9591,7 +9611,7 @@
                   viewBox: "0 0 36 36",
                   fill: "none",
                 },
-                n
+                n,
               ),
               r.createElement("circle", {
                 className: c().Background,
@@ -9604,7 +9624,7 @@
                 className: c().Foreground,
                 fill: "currentColor",
                 d: "M17.8599 10.3361C18.8719 10.3361 19.7519 10.4974 20.4999 10.8201C21.2626 11.1427 21.8493 11.5974 22.2599 12.1841C22.6706 12.7561 22.8759 13.4234 22.8759 14.1861C22.8759 14.6994 22.7879 15.1541 22.6119 15.5501C22.4359 15.9461 22.2159 16.2834 21.9519 16.5621C21.7026 16.8407 21.3579 17.1781 20.9179 17.5741C20.4633 17.9701 20.0966 18.3221 19.8179 18.6301C19.5539 18.9234 19.3266 19.2901 19.1359 19.7301C18.9453 20.1554 18.8499 20.6541 18.8499 21.2261H16.1659C16.1659 20.4047 16.2686 19.7081 16.4739 19.1361C16.6793 18.5641 16.9286 18.1094 17.2219 17.7721C17.5153 17.4347 17.8893 17.0681 18.3439 16.6721C18.7693 16.3201 19.0846 16.0047 19.2899 15.7261C19.4953 15.4474 19.5979 15.1027 19.5979 14.6921C19.5979 14.1201 19.3853 13.6801 18.9599 13.3721C18.5493 13.0494 17.9699 12.8881 17.2219 12.8881C16.1073 12.8881 15.0586 13.2547 14.0759 13.9881L13.0859 11.7661C13.7166 11.3407 14.4499 10.9961 15.2859 10.7321C16.1219 10.4681 16.9799 10.3361 17.8599 10.3361ZM17.5519 22.7881C18.0653 22.7881 18.4759 22.9494 18.7839 23.2721C19.0919 23.5801 19.2459 23.9907 19.2459 24.5041C19.2459 25.0467 19.0919 25.4794 18.7839 25.8021C18.4759 26.1101 18.0653 26.2641 17.5519 26.2641C17.0386 26.2641 16.6279 26.1101 16.3199 25.8021C16.0119 25.4794 15.8579 25.0467 15.8579 24.5041C15.8579 23.9907 16.0119 23.5801 16.3199 23.2721C16.6279 22.9494 17.0386 22.7881 17.5519 22.7881Z",
-              })
+              }),
             );
       }
       !(function (e) {
@@ -9646,7 +9666,7 @@
           this.m_mapSuppressedHaptics.has(e)
             ? this.m_mapSuppressedHaptics.set(
                 e,
-                r(this.m_mapSuppressedHaptics.get(e), n)
+                r(this.m_mapSuppressedHaptics.get(e), n),
               )
             : this.m_mapSuppressedHaptics.set(e, n);
         }
@@ -9656,7 +9676,7 @@
           this.m_mapSuppressedHaptics.has(e)
             ? this.m_mapSuppressedHaptics.set(
                 e,
-                r(this.m_mapSuppressedHaptics.get(e), i)
+                r(this.m_mapSuppressedHaptics.get(e), i),
               )
             : this.m_mapSuppressedHaptics.set(e, i);
         }
@@ -9670,12 +9690,12 @@
                 e,
                 ((i = this.m_mapSuppressedHaptics.get(e)),
                 (o = n),
-                new Set([...i].filter((e) => !o.has(e))))
+                new Set([...i].filter((e) => !o.has(e)))),
               );
         }
         isHapticSuppressed(e) {
           return Array.from(this.m_mapSuppressedHaptics.values()).some((t) =>
-            t.has(e)
+            t.has(e),
           );
         }
         triggerHaptic(e) {
@@ -9702,7 +9722,7 @@
               ? void 0
               : VRHTML.VRProperties.GetStringProperty(
                   "/user/head",
-                  o.Uk.ModelNumber_String
+                  o.Uk.ModelNumber_String,
                 )) && (s *= 1.8),
             s > 0 &&
               (null === VRHTML ||
@@ -9711,7 +9731,7 @@
                   VRHTML.VROverlay.ThisOverlayHandle(),
                   t,
                   n,
-                  s
+                  s,
                 ));
         }
       }
@@ -9760,7 +9780,7 @@
                 y: n.y,
                 width: e.width - n.width - n.x,
                 height: n.height,
-              })
+              }),
             );
           } else
             t = i.createElement(
@@ -9771,7 +9791,7 @@
                 y: 0,
                 width: e.width,
                 height: e.height,
-              })
+              }),
             );
           return o.createPortal(t, document.body);
         }
@@ -9810,7 +9830,7 @@
               ],
               null === (t = this.m_refParentPortal.current) || void 0 === t
                 ? void 0
-                : t.anchorElement
+                : t.anchorElement,
             ),
             bInDOM: !0,
           });
@@ -9851,8 +9871,8 @@
                     maxHeight: t.height - 2 * i.MODAL_BOUNDS_MARGIN,
                   },
                 }),
-                this.state.bInDOM && this.props.children
-              )
+                this.state.bInDOM && this.props.children,
+              ),
             )
           );
         }
@@ -9964,7 +9984,7 @@
             (this.m_initialMousePosition = e),
             window.document.addEventListener(
               "mousemove",
-              this.onWindowMouseMove
+              this.onWindowMouseMove,
             ),
             window.document.addEventListener("mouseup", this.onWindowMouseUp);
         }
@@ -9991,7 +10011,7 @@
         }
         requestNextAnimationFrame() {
           (this.m_animationFrameRequestHandle = window.requestAnimationFrame(
-            this.onAnimationFrame
+            this.onAnimationFrame,
           )),
             (this.m_lastAnimationFrameTimeMs = performance.now());
         }
@@ -10039,11 +10059,11 @@
             (e, t) =>
               e.eScrollState == o.Thrown
                 ? (window.cancelAnimationFrame(
-                    this.m_animationFrameRequestHandle
+                    this.m_animationFrameRequestHandle,
                   ),
                   { eScrollState: o.Default })
                 : null,
-            e
+            e,
           );
         }
         get isThrown() {
@@ -10104,11 +10124,11 @@
             (this.m_initialScrollPosition = null),
             window.document.removeEventListener(
               "mousemove",
-              this.onWindowMouseMove
+              this.onWindowMouseMove,
             ),
             window.document.removeEventListener(
               "mouseup",
-              this.onWindowMouseUp
+              this.onWindowMouseUp,
             );
         }
         get scrollsHorizontally() {
@@ -10140,8 +10160,8 @@
                 onScroll: this.onScroll,
                 ref: this.m_ref,
               }),
-              this.props.children
-            )
+              this.props.children,
+            ),
           );
         }
         get scrollTop() {
@@ -10267,7 +10287,7 @@
         constructor(e) {
           super(e),
             (this.m_sScrollSuppressedIdentifier = Math.round(
-              1e6 * Math.random()
+              1e6 * Math.random(),
             ).toString()),
             (this.m_refSlider = a.createRef()),
             (this.m_refSliderDefaultHandle = a.createRef()),
@@ -10293,11 +10313,11 @@
         componentWillUnmount() {
           window.document.removeEventListener(
             "mousemove",
-            this.onWindowMouseMove
+            this.onWindowMouseMove,
           ),
             window.document.removeEventListener(
               "mouseup",
-              this.onWindowMouseUp
+              this.onWindowMouseUp,
             ),
             window.cancelAnimationFrame(this.m_nAnimationFrameCallback),
             g.LJ.Instance.unsuppressHaptics(this),
@@ -10372,7 +10392,7 @@
               ((this.m_dragStartTime = new Date()),
               null !== this.m_nCurrentNearestSnappableDetent &&
                 this.m_setDetentsToIgnore.add(
-                  this.m_nCurrentNearestSnappableDetent
+                  this.m_nCurrentNearestSnappableDetent,
                 ),
               null === s ||
                 this.m_setDetentsToIgnore.has(s) ||
@@ -10384,7 +10404,7 @@
           return (
             null !== this.m_nCurrentNearestSnappableDetent &&
             !this.m_setDetentsToIgnore.has(
-              this.m_nCurrentNearestSnappableDetent
+              this.m_nCurrentNearestSnappableDetent,
             )
           );
         }
@@ -10414,14 +10434,14 @@
             ]),
             (this.m_dragStartTime = new Date()),
             (this.m_nAnimationFrameCallback = window.requestAnimationFrame(
-              this.onDragAnimationFrame
+              this.onDragAnimationFrame,
             )),
             S.P.suppressScrolling(this.m_sScrollSuppressedIdentifier),
             p.G.Instance.playSound(
               null !== (t = this.props.interactionStartSoundEffect) &&
                 void 0 !== t
                 ? t
-                : p.y.Grab
+                : p.y.Grab,
             ),
             null === (i = (n = this.props).onInteractionStart) ||
               void 0 === i ||
@@ -10446,7 +10466,7 @@
               null !== (o = this.props.interactionEndSoundEffect) &&
                 void 0 !== o
                 ? o
-                : p.y.GrabRelease
+                : p.y.GrabRelease,
             ),
             S.P.unsuppressScrolling(this.m_sScrollSuppressedIdentifier));
         }
@@ -10503,7 +10523,7 @@
             : Math.pow(
                 (e - this.externalRangeMin) /
                   (this.externalRangeMax - this.externalRangeMin),
-                1 / this.exponent
+                1 / this.exponent,
               );
         }
         normalizedToExternal(e) {
@@ -10565,7 +10585,7 @@
           this.m_refSlider.current &&
             this.m_refSlider.current.style.setProperty(
               "--drag-elapsed-seconds",
-              e.toString()
+              e.toString(),
             );
         }
         onDragAnimationFrame() {
@@ -10573,7 +10593,7 @@
           this.normalizedStep > 0.1 && (e = 0),
             this.setDragElapsedSecondsCSSProperty(e),
             (this.m_nAnimationFrameCallback = window.requestAnimationFrame(
-              this.onDragAnimationFrame
+              this.onDragAnimationFrame,
             ));
         }
         render() {
@@ -10607,8 +10627,8 @@
                       l &&
                         a.createElement("div", { className: "HandleCircle" }),
                       i &&
-                        a.createElement("div", { className: "RangeLabel" }, t)
-                    )
+                        a.createElement("div", { className: "RangeLabel" }, t),
+                    ),
                   );
           return a.createElement(
             a.Fragment,
@@ -10625,7 +10645,7 @@
                   ["Sliding", this.state.m_bSliding],
                   ["Disabled", !1 === this.props.enabled],
                   ["ValueOnHandle", i],
-                  this.props.additionalClassName
+                  this.props.additionalClassName,
                 ),
                 style: {
                   "--slider-value": c,
@@ -10647,12 +10667,12 @@
                     key: "detent-" + e,
                     className: "Detent",
                     style: { "--detent-value": e.toString() },
-                  })
-                )
+                  }),
+                ),
               ),
-              d
+              d,
             ),
-            r && a.createElement("div", { className: "RangeLabel" }, t)
+            r && a.createElement("div", { className: "RangeLabel" }, t),
           );
         }
       });
@@ -10740,7 +10760,7 @@
               yield n.play();
             } catch (t) {
               console.error(
-                `Failed to play sound effect "${i[e]}" (${n.src}, networkState=${n.networkState}, readyState=${n.readyState})`
+                `Failed to play sound effect "${i[e]}" (${n.src}, networkState=${n.networkState}, readyState=${n.readyState})`,
               );
             }
           });
@@ -10767,7 +10787,7 @@
           return (
             this.m_mapSoundElems.has(e) ||
               (console.warn(
-                "Playing a sound which was not preloaded. Consider calling SoundEffects.Instance.preloadSounds()."
+                "Playing a sound which was not preloaded. Consider calling SoundEffects.Instance.preloadSounds().",
               ),
               this.loadSounds(e)),
             this.m_mapSoundElems.get(e)
@@ -10879,7 +10899,7 @@
               (this.cancelTimeout(),
               (this.m_nNextStateTimeoutHandle = setTimeout(
                 this.finishAnimation,
-                1e3 * this.props.duration
+                1e3 * this.props.duration,
               )),
               this.setState({
                 eAnimationState: this.props.visible ? o.Showing : o.Hiding,
@@ -10912,11 +10932,11 @@
                       "Preset-" + i[this.props.preset],
                       void 0 !== this.props.preset,
                     ],
-                    this.props.additionalClassName
+                    this.props.additionalClassName,
                   ),
                   style: { "--show-hide-duration": this.props.duration + "s" },
                 },
-                this.props.children
+                this.props.children,
               );
         }
       }
@@ -10942,7 +10962,7 @@
               null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.RegisterForSceneApplicationStateChangedEvents(
-                    this.onSceneApplicationStateChanged
+                    this.onSceneApplicationStateChanged,
                   )),
               yield this.UpdateApplications();
           });
@@ -11010,7 +11030,7 @@
                 ? 1
                 : e.name > t.name
                 ? -1
-                : 0
+                : 0,
             ),
             e
           );
@@ -11072,13 +11092,13 @@
                   : o(t)
                 : e
               : e,
-          ""
+          "",
         );
       }
       function o(e) {
         return Object.keys(e).reduce(
           (t, n) => (e[n] ? (t ? `${t} ${n}` : n) : t),
-          ""
+          "",
         );
       }
       n.d(t, { Z: () => i });
@@ -11275,7 +11295,7 @@
               "&controller_type=" +
               encodeURI(t) +
               "&app_key=" +
-              encodeURI(e)
+              encodeURI(e),
           )).data;
           if (i.success) return i;
           throw new Error(i.error);
@@ -11319,7 +11339,7 @@
         UpdateBindingSource() {
           this.m_BindingUISource = I.GetActionBinding(
             this.GetFullInputPath,
-            this.m_sActionSet
+            this.m_sActionSet,
           );
         }
         get GetFullInputPath() {
@@ -11333,7 +11353,7 @@
             ].binding_image_point[0],
             this.m_ControllerProfile.input_source[
               this.m_sInputPath
-            ].binding_image_point[1]
+            ].binding_image_point[1],
           );
         }
         get GetButtonSide() {
@@ -11418,7 +11438,7 @@
         get GetControllerInputName() {
           return g.I.LocalizeDriverString(
             this.m_ControllerProfile.resource_root,
-            this.m_sInputPath
+            this.m_sInputPath,
           );
         }
         get GetModes() {
@@ -11487,7 +11507,7 @@
         AddInputMode(e) {
           this.m_iNewSourceEntry = I.AddInputModeForSource(
             this.GetFullInputPath,
-            e
+            e,
           );
         }
         DeleteInputMode(e) {
@@ -11623,7 +11643,7 @@
                     t,
                     n,
                     e.output,
-                    []
+                    [],
                   );
                 });
             });
@@ -11654,7 +11674,7 @@
             e,
             "click",
             t,
-            n
+            n,
           );
         }
         SetTouchParameter(e, t, n) {
@@ -11663,7 +11683,7 @@
             e,
             "touch",
             t,
-            n
+            n,
           );
         }
         SetParameter(e, t, n, i) {
@@ -11674,7 +11694,7 @@
             this.GetFullInputPath,
             e,
             "click",
-            t
+            t,
           );
         }
         GetTouchParameter(e, t) {
@@ -11682,7 +11702,7 @@
             this.GetFullInputPath,
             e,
             "touch",
-            t
+            t,
           );
         }
         GetParameter(e, t, n) {
@@ -11694,7 +11714,7 @@
               this.GetFullInputPath,
               e,
               "trackpad",
-              "invert"
+              "invert",
             )
           ) {
             case "x":
@@ -11724,7 +11744,7 @@
             e,
             "trackpad",
             "invert",
-            n
+            n,
           );
         }
       }
@@ -11862,7 +11882,7 @@
               this.m_eWebSocketState != s.eWebSocketState_Connected &&
               (this.m_wsWebSocketToServer && delete this.m_wsWebSocketToServer,
               (this.m_wsWebSocketToServer = new WebSocket(
-                "ws://" + window.location.host
+                "ws://" + window.location.host,
               )),
               this.m_wsWebSocketToServer.addEventListener("open", (t) => {
                 this.OnWebSocketOpen(t), e();
@@ -11877,7 +11897,7 @@
               this.m_timerWebSocket ||
                 (this.m_timerWebSocket = window.setTimeout(
                   this.OpenWebSocketToHost,
-                  1e3
+                  1e3,
                 ));
           });
         }
@@ -11903,7 +11923,7 @@
                   ? void 0
                   : p.Co.VRProperties.GetStringProperty(
                       "/user/head",
-                      p.Uk.Prop_ExpectedControllerType_String
+                      p.Uk.Prop_ExpectedControllerType_String,
                     )
                 : void 0) == e.controller_type
                 ? 2
@@ -11931,7 +11951,7 @@
               let t = !1;
               const n = this.GetBestControllerType();
               let i = g.I.FindDeviceClassForControllerType(
-                this.m_sSelectedControllerType
+                this.m_sSelectedControllerType,
               );
               if (
                 null != n &&
@@ -11991,7 +12011,7 @@
             {
               name: "returnBindingsWithLeftHand",
               localized_name: (0, d.Xx)(
-                "#SecondaryController_ReturnWithLeftHand"
+                "#SecondaryController_ReturnWithLeftHand",
               ),
               type: "bool",
               default: !1,
@@ -11999,7 +12019,7 @@
             {
               name: "returnBindingsWithRightHand",
               localized_name: (0, d.Xx)(
-                "#SecondaryController_ReturnWithRightHand"
+                "#SecondaryController_ReturnWithRightHand",
               ),
               type: "bool",
               default: !1,
@@ -12147,7 +12167,7 @@
             null != this.m_sSelectedActionSet
           )
             return this.m_SelectedAppActions.action_sets.find(
-              (e) => e.name == this.m_sSelectedActionSet
+              (e) => e.name == this.m_sSelectedActionSet,
             );
         }
         get SelectedActionSetActions() {
@@ -12163,7 +12183,7 @@
         GetActionSetActions(e) {
           if (null == this.m_SelectedAppActions || null == e) return [];
           let t = this.m_SelectedAppActions.action_sets.find(
-            (t) => t.name == e
+            (t) => t.name == e,
           );
           return t ? t.actions : [];
         }
@@ -12399,7 +12419,7 @@
             e.length > 0 &&
               (null == this.m_sSelectedActionSet ||
                 !this.m_SelectedAppActions.action_sets.hasOwnProperty(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 )) &&
               (this.m_sSelectedActionSet = e[0].name),
               yield this.ReloadControllerConfiguration();
@@ -12619,7 +12639,7 @@
         GetPoseAction(e) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)) return;
           let t = this.m_ModifiedBindingSet.get(
-            this.m_sSelectedActionSet
+            this.m_sSelectedActionSet,
           ).poses;
           if (null == t) return;
           let n = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
@@ -12628,7 +12648,7 @@
         GetPoseActionByPath(e) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)) return;
           let t = this.m_ModifiedBindingSet.get(
-            this.m_sSelectedActionSet
+            this.m_sSelectedActionSet,
           ).poses;
           if (null == t) return;
           let n = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
@@ -12637,7 +12657,7 @@
         GetHapticsAction(e) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)) return;
           let t = this.m_ModifiedBindingSet.get(
-            this.m_sSelectedActionSet
+            this.m_sSelectedActionSet,
           ).haptics;
           if (null == t) return;
           let n = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
@@ -12646,7 +12666,7 @@
         GetHapticsActionByPath(e) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)) return;
           let t = this.m_ModifiedBindingSet.get(
-            this.m_sSelectedActionSet
+            this.m_sSelectedActionSet,
           ).haptics;
           if (null == t) return;
           let n = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
@@ -12655,7 +12675,7 @@
         GetSkeletonAction(e) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)) return;
           let t = this.m_ModifiedBindingSet.get(
-            this.m_sSelectedActionSet
+            this.m_sSelectedActionSet,
           ).skeleton;
           if (null == t) return;
           let n = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
@@ -12664,7 +12684,7 @@
         GetSkeletonActionByPath(e) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)) return;
           let t = this.m_ModifiedBindingSet.get(
-            this.m_sSelectedActionSet
+            this.m_sSelectedActionSet,
           ).skeleton;
           if (null == t) return;
           let n = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
@@ -12680,7 +12700,7 @@
         SetActionForInputModeType(e, t, n, i, o) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetActionForInputModeType: Invalid action set specified"
+              "SetActionForInputModeType: Invalid action set specified",
             );
           class s {
             constructor(e, t) {
@@ -12700,7 +12720,7 @@
               "Invalid mode index (",
               t,
               ") for path ",
-              e
+              e,
             );
           let a = r[t].sourceIdx;
           if (a >= 0) {
@@ -12711,14 +12731,14 @@
                 "Trying to set new action to old action for type",
                 n,
                 " action is ",
-                i
+                i,
               );
             if (o.length > 0 && !o.find((t) => t == e.mode))
               return void console.log(
                 "Trying to set invalid input type of ",
                 n,
                 " for current mode ",
-                e.mode
+                e.mode,
               );
             e.inputs || (e.inputs = u.LO.map()),
               "none" == i
@@ -12732,7 +12752,7 @@
         SetParameterForInputModeType(e, t, n, i, o) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetParameterForInputModeType: Invalid action set specified"
+              "SetParameterForInputModeType: Invalid action set specified",
             );
           let s = [];
           if (
@@ -12747,7 +12767,7 @@
               "Invalid mode index (",
               t,
               ") for path ",
-              e
+              e,
             );
           let r = s[t];
           if (r >= 0) {
@@ -12758,7 +12778,7 @@
                 "SetParameterForInputModeType: Trying to set parameter for missing input type of ",
                 n,
                 " for current mode ",
-                e.mode
+                e.mode,
               );
             e.parameters || (e.parameters = u.LO.map()),
               e.parameters.get(i) != o &&
@@ -12770,7 +12790,7 @@
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return (
               console.error(
-                "SetParameterForInputModeType: Invalid action set specified"
+                "SetParameterForInputModeType: Invalid action set specified",
               ),
               null
             );
@@ -12798,7 +12818,7 @@
                   "GetParameterForInputModeType: Trying to get parameter for missing input type of ",
                   n,
                   " for current mode ",
-                  e.mode
+                  e.mode,
                 ),
                 null);
           }
@@ -12831,7 +12851,7 @@
         DeleteInputModeForSource(e, t) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "AddInputModeForType: Invalid action set specified"
+              "AddInputModeForType: Invalid action set specified",
             );
           let n = [];
           if (
@@ -12846,7 +12866,7 @@
               "Invalid mode index (",
               t,
               ") for path ",
-              e
+              e,
             );
           let i = n[t];
           -1 != i
@@ -12855,13 +12875,13 @@
                 .sources.splice(i, 1),
               this.NotifyWatchersOfChange())
             : console.error(
-                "DeleteInputModeForSource: Mode not found for source"
+                "DeleteInputModeForSource: Mode not found for source",
               );
         }
         SetInputModeForInputSource(e, t, n) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetActionForInputModeType: Invalid action set specified"
+              "SetActionForInputModeType: Invalid action set specified",
             );
           let i = [];
           if (
@@ -12876,7 +12896,7 @@
               "Invalid mode index (",
               t,
               ") for path ",
-              e
+              e,
             );
           let o = i[t];
           if (-1 != o) {
@@ -12885,7 +12905,7 @@
             if (t.path == e) {
               if (t.mode == n)
                 return void console.log(
-                  "Trying to set new input mode to old mode!"
+                  "Trying to set new input mode to old mode!",
                 );
               let i = JSON.parse(JSON.stringify(t)),
                 s = new S();
@@ -12948,31 +12968,31 @@
               }
               return (
                 (this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).sources[o] = s),
                 void this.NotifyWatchersOfChange()
               );
             }
           } else
             console.error(
-              "SetActionForInputModeType: trying to change a mode for a source that we don't have already"
+              "SetActionForInputModeType: trying to change a mode for a source that we don't have already",
             );
         }
         ClearModesForInputPath(e) {
           this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)
             ? (this.m_ModifiedBindingSet.get(
-                this.m_sSelectedActionSet
+                this.m_sSelectedActionSet,
               ).sources = this.m_ModifiedBindingSet
                 .get(this.m_sSelectedActionSet)
                 .sources.filter((t) => t.path.toLowerCase() != e.toLowerCase()))
             : console.error(
-                "ClearModesForInputPath: Invalid action set specified"
+                "ClearModesForInputPath: Invalid action set specified",
               );
         }
         SetInputPathForPose(e, t) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetActionForPose: Invalid action set specified"
+              "SetActionForPose: Invalid action set specified",
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses =
@@ -12982,7 +13002,7 @@
             .poses.findIndex(
               (t) =>
                 t.path.toLowerCase() == e.path.toLowerCase() &&
-                t.output.toLowerCase() == e.output.toLowerCase()
+                t.output.toLowerCase() == e.output.toLowerCase(),
             );
           -1 == n &&
             ((n =
@@ -12995,11 +13015,11 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[n]
               .path != t
               ? ((this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).poses[n].path = t),
                 this.NotifyWatchersOfChange())
               : console.log(
-                  "Trying to set new pose action path to old action path!"
+                  "Trying to set new pose action path to old action path!",
                 );
         }
         SetPoseForInputPath(e, t) {
@@ -13008,7 +13028,7 @@
             !this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
           )
             return void console.error(
-              "SetActionForPose: Invalid action set specified"
+              "SetActionForPose: Invalid action set specified",
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses =
@@ -13027,11 +13047,11 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[n]
               .output != t
               ? ((this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).poses[n].output = t),
                 this.NotifyWatchersOfChange())
               : console.log(
-                  "Trying to set new pose action path to old action path!"
+                  "Trying to set new pose action path to old action path!",
                 );
         }
         GetFirstInputSourceOfType(e) {
@@ -13057,7 +13077,7 @@
         SetInputPathForHaptics(e, t) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetInputPathForHaptics: Invalid action set specified"
+              "SetInputPathForHaptics: Invalid action set specified",
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics =
@@ -13067,7 +13087,7 @@
             .haptics.findIndex(
               (t) =>
                 t.path.toLowerCase() == e.path.toLowerCase() &&
-                t.output.toLowerCase() == e.output.toLowerCase()
+                t.output.toLowerCase() == e.output.toLowerCase(),
             );
           -1 == n &&
             ((n =
@@ -13080,11 +13100,11 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[n]
               .path != t
               ? ((this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).haptics[n].path = t),
                 this.NotifyWatchersOfChange())
               : console.log(
-                  "Trying to set new haptics action path to old action path!"
+                  "Trying to set new haptics action path to old action path!",
                 );
         }
         SetHapticsForInputPath(e, t) {
@@ -13093,7 +13113,7 @@
             !this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
           )
             return void console.error(
-              "SetHapticsForInputPath: Invalid action set specified"
+              "SetHapticsForInputPath: Invalid action set specified",
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics =
@@ -13112,18 +13132,18 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[n]
               .output != t
               ? ((this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).haptics[n].output = t),
                 this.NotifyWatchersOfChange())
               : console.log(
-                  "Trying to set new haptic action path to old action path!"
+                  "Trying to set new haptic action path to old action path!",
                 );
         }
         AddDefaultHaptics(e, t) {
           this.AddActionSetIfRequired(),
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics ||
               (this.m_ModifiedBindingSet.get(
-                this.m_sSelectedActionSet
+                this.m_sSelectedActionSet,
               ).haptics = []);
           let n = this.GetFirstInputSourceOfType("haptic");
           if (!n) return;
@@ -13134,7 +13154,7 @@
         SetInputPathForSkeleton(e, t) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetInputPathForSkeleton: Invalid action set specified"
+              "SetInputPathForSkeleton: Invalid action set specified",
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton =
@@ -13144,7 +13164,7 @@
             .skeleton.findIndex(
               (t) =>
                 t.path.toLowerCase() == e.path.toLowerCase() &&
-                t.output.toLowerCase() == e.output.toLowerCase()
+                t.output.toLowerCase() == e.output.toLowerCase(),
             );
           -1 == n &&
             ((n =
@@ -13157,11 +13177,11 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton[n]
               .path != t
               ? ((this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).skeleton[n].path = t),
                 this.NotifyWatchersOfChange())
               : console.log(
-                  "Trying to set new skeleton action path to old action path!"
+                  "Trying to set new skeleton action path to old action path!",
                 );
         }
         SetSkeletonForInputPath(e, t) {
@@ -13170,7 +13190,7 @@
             !this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
           )
             return void console.error(
-              "SetSkeletonForInputPath: Invalid action set specified"
+              "SetSkeletonForInputPath: Invalid action set specified",
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton =
@@ -13189,18 +13209,18 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton[n]
               .output != t
               ? ((this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).skeleton[n].output = t),
                 this.NotifyWatchersOfChange())
               : console.log(
-                  "Trying to set new skeleton action path to old action path!"
+                  "Trying to set new skeleton action path to old action path!",
                 );
         }
         AddDefaultSkeleton(e, t) {
           this.AddActionSetIfRequired(),
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton ||
               (this.m_ModifiedBindingSet.get(
-                this.m_sSelectedActionSet
+                this.m_sSelectedActionSet,
               ).skeleton = []);
           let n = this.GetFirstInputSourceOfType("skeleton");
           if (!n) return;
@@ -13211,7 +13231,7 @@
         SetActionForChord(e, t) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetActionForChord: Invalid action set specified"
+              "SetActionForChord: Invalid action set specified",
             );
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
@@ -13220,7 +13240,7 @@
             ? this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[n]
                 .output != t
               ? ((this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).chords[n].output = t),
                 this.NotifyWatchersOfChange())
               : console.log("Trying to set new chord action to old action!")
@@ -13229,7 +13249,7 @@
         DeleteChord(e) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "DeleteChordForSource: Invalid action set specified"
+              "DeleteChordForSource: Invalid action set specified",
             );
           let t = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
@@ -13241,7 +13261,7 @@
               this.NotifyWatchersOfChange())
             : console.error(
                 "DeleteChordForSource: Invalid chord  specified ",
-                e
+                e,
               );
         }
         AddChord() {
@@ -13257,7 +13277,7 @@
         DeleteSourceFromChord(e, t) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "DeleteSourceFromChord: Invalid action set specified"
+              "DeleteSourceFromChord: Invalid action set specified",
             );
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
@@ -13274,13 +13294,13 @@
           } else
             console.error(
               "DeleteSourceFromChord: Invalid chord  specified ",
-              e
+              e,
             );
         }
         SetInputTypeForChord(e, t, n) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetInputsForChord: Invalid action set specified"
+              "SetInputsForChord: Invalid action set specified",
             );
           let i = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
@@ -13291,14 +13311,14 @@
               .chords[i].inputs.findIndex((e) => e[0] == t);
             if (-1 == e)
               return void console.log(
-                "Invalid bounds for new input chord, trying to add type without source"
+                "Invalid bounds for new input chord, trying to add type without source",
               );
             if (
               this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[i]
                 .inputs[e][1] == n
             )
               return void console.log(
-                "Trying to set new chord inputs to old inputs!"
+                "Trying to set new chord inputs to old inputs!",
               );
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[
               i
@@ -13310,7 +13330,7 @@
         SetInputSourceForChord(e, t, n) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return void console.error(
-              "SetInputsForChord: Invalid action set specified"
+              "SetInputsForChord: Invalid action set specified",
             );
           let i = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
@@ -13328,7 +13348,7 @@
               this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[i]
                 .inputs ||
                 (this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).chords[i].inputs = new Array()),
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
@@ -13339,7 +13359,7 @@
                 .chords[i].inputs.findIndex((e) => e[0] == n);
               if (-1 == e)
                 return void console.log(
-                  "Trying to set replace chord input path when we didn't have that path!"
+                  "Trying to set replace chord input path when we didn't have that path!",
                 );
               if (
                 this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[
@@ -13347,13 +13367,13 @@
                 ].inputs[e][0] == t
               )
                 return void console.log(
-                  "Trying to set new chord inputs to old inputs!"
+                  "Trying to set new chord inputs to old inputs!",
                 );
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[
                 i
               ].inputs[e][0] = t),
                 (this.m_ModifiedBindingSet.get(
-                  this.m_sSelectedActionSet
+                  this.m_sSelectedActionSet,
                 ).chords[i].inputs[e][1] = o);
             }
             this.NotifyWatchersOfChange();
@@ -13368,7 +13388,7 @@
                   ? ((this.m_SelectedAppActions = t),
                     null == this.m_sLoadedBindingURI &&
                       t.current_binding_url.hasOwnProperty(
-                        this.m_sSelectedControllerType
+                        this.m_sSelectedControllerType,
                       ) &&
                       (this.m_sLoadedBindingURI =
                         t.current_binding_url[this.m_sSelectedControllerType]))
@@ -13376,7 +13396,7 @@
                     (this.m_sLoadedBindingURI = void 0),
                     h.w.SetBindingListError(
                       (0, d.Xx)("#ActionManifestError_UnknownError"),
-                      !1
+                      !1,
                     )),
                   e();
               });
@@ -13388,7 +13408,7 @@
             null != this.m_SelectedAppActions &&
             null != this.m_SelectedAppActions.current_binding_url &&
             this.m_SelectedAppActions.current_binding_url.hasOwnProperty(
-              this.m_sSelectedControllerType
+              this.m_sSelectedControllerType,
             )
             ? this.m_SelectedAppActions.current_binding_url[
                 this.m_sSelectedControllerType
@@ -13407,7 +13427,7 @@
         get IsSecondaryController() {
           if (!this.m_sSelectedControllerType) return !1;
           let e = g.I.FindRootPathForControllerType(
-            this.m_sSelectedControllerType
+            this.m_sSelectedControllerType,
           );
           return (
             "/user/treadmill" == e ||
@@ -13429,7 +13449,7 @@
             let e = yield M(
               this.m_SelectedApp.key,
               this.SelectedControllerTypeInfo.controller_type,
-              this.m_sLoadedBindingURI
+              this.m_sLoadedBindingURI,
             );
             this.OnBindingConfigLoaded(e);
           });
@@ -13502,7 +13522,7 @@
             ? this.SaveCurrentBinding(
                 (0, d.Xx)("#PreservedAutosaveName"),
                 "",
-                "personal"
+                "personal",
               )
             : Promise.resolve(null);
         }
@@ -13515,18 +13535,18 @@
               return (0, d.Xx)(
                 "#BindingUI_SaveDefaultName",
                 this.m_SelectedApp.name,
-                n
+                n,
               );
             case "personal":
               return (0, d.Xx)(
                 "#BindingUI_SaveDefaultName_Personal",
                 this.m_SelectedApp.name,
-                n
+                n,
               );
             case "public":
               return (0, d.Xx)(
                 "#BindingUI_SaveDefaultName_Public",
-                g.I.CurrentUserPersonaName
+                g.I.CurrentUserPersonaName,
               );
             case "replace_default":
               return I.ConfigName;
@@ -13538,7 +13558,7 @@
             this.SaveCurrentBinding(
               this.m_sName,
               this.m_sDescription,
-              "autosave"
+              "autosave",
             ).then((e) => {
               I.SetBindingURL(e.uri);
             });
@@ -13566,14 +13586,14 @@
               options: this.m_ModifiedOptions,
               alias_info: this.m_ModifiedAliases,
               simulated_actions: Array.from(
-                this.m_ModifiedSimulatedActions.values()
+                this.m_ModifiedSimulatedActions.values(),
               ),
               app_key: this.SelectedApp,
             };
             let s = JSON.stringify(o);
             return (
               console.log(
-                "Saving binding " + e + " for app '" + this.SelectedApp + "'."
+                "Saving binding " + e + " for app '" + this.SelectedApp + "'.",
               ),
               new Promise((e, t) => {
                 let i = new R(n, e, t);
@@ -13584,7 +13604,7 @@
                       e.data.error
                         ? (console.log(
                             "SaveCurrentBinding failed:",
-                            e.data.error
+                            e.data.error,
                           ),
                           t(e.data.error))
                         : console.log("SaveCurrentBinding Successful");
@@ -13641,11 +13661,11 @@
             e.app_key != I.SelectedApp)
           )
             return void console.log(
-              `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${I.SelectedApp}.`
+              `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${I.SelectedApp}.`,
             );
           if (this.m_OutstandingSaveBindingCalls.length <= 0)
             return void console.log(
-              "Got workshop upload result without pending resolve"
+              "Got workshop upload result without pending resolve",
             );
           let t = this.m_OutstandingSaveBindingCalls.shift();
           e.success ? (t.resolve(e), this.LoadActionManifest()) : t.reject(e);
@@ -13655,7 +13675,7 @@
           console.log(`OnPendingFileSaved: ${t}. ${e}`),
             e.app_key == I.SelectedApp ||
               console.log(
-                `Ignoring pending file saved for an app we aren't viewing. Pending: ${e.app_key}. Current: ${I.SelectedApp}.`
+                `Ignoring pending file saved for an app we aren't viewing. Pending: ${e.app_key}. Current: ${I.SelectedApp}.`,
               );
         }
         get SaveNoticeText() {
@@ -13676,16 +13696,16 @@
               "OnBindingConfigLoaded: ",
               e,
               " selected action set:",
-              this.m_sSelectedActionSet
+              this.m_sSelectedActionSet,
             ),
             e.app_key != I.SelectedApp)
           )
             return void console.log(
-              `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${I.SelectedApp}.`
+              `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${I.SelectedApp}.`,
             );
           if (e.uri != this.m_sLoadedBindingURI)
             return void console.log(
-              `Ignoring binding load for an config url ${e.uri} we aren't viewing ${this.m_sLoadedBindingURI}`
+              `Ignoring binding load for an config url ${e.uri} we aren't viewing ${this.m_sLoadedBindingURI}`,
             );
           this.m_ControllerWatchers.clear(),
             (this.m_LoadedBinding = e),
@@ -13774,13 +13794,13 @@
             null != this.m_OutstandingQueryResolve &&
               console.warn(
                 "About to start second binding list query when one is already pending",
-                this.m_OutstandingQueryResolve
+                this.m_OutstandingQueryResolve,
               ),
             new Promise((n, i) => {
               (this.m_OutstandingQueryResolve = n),
                 c()
                   .get(
-                    `/input/queryworkshopbindings.json?app_key=${e}&controller_type=${t}`
+                    `/input/queryworkshopbindings.json?app_key=${e}&controller_type=${t}`,
                   )
                   .then((e) => {
                     console.log("QueryBindingList: ajax request successful");
@@ -13795,7 +13815,7 @@
           null != this.m_OutstandingDeleteResolve &&
             console.warn(
               "About to start second binding delete when one is already pending",
-              this.m_OutstandingDeleteResolve
+              this.m_OutstandingDeleteResolve,
             );
           let t = { url: e },
             n = JSON.stringify(t);
@@ -13820,7 +13840,7 @@
               (this.m_OutstandingDeleteResolve = void 0),
               console.log("OnDeleteComplete: ", e))
             : console.warn(
-                "Missing outstanding query resolve for binding delete"
+                "Missing outstanding query resolve for binding delete",
               );
         }
         ShouldShowBindingFailureForControllerType(e) {
@@ -13840,7 +13860,7 @@
               ? (this.m_OutstandingQueryResolve(e),
                 (this.m_OutstandingQueryResolve = void 0))
               : console.warn(
-                  "Missing outstanding query resolve for binding query"
+                  "Missing outstanding query resolve for binding query",
                 );
         }
         SelectConfig(e, t, n) {
@@ -13861,7 +13881,7 @@
             null != this.m_OutstandingSelectConfigResolve &&
               console.warn(
                 "About to start second select config when one is already pending",
-                this.m_OutstandingSelectConfigResolve
+                this.m_OutstandingSelectConfigResolve,
               ),
             new Promise((e, t) => {
               (this.m_OutstandingSelectConfigResolve = e),
@@ -13884,7 +13904,7 @@
             : e.error_to_show
             ? h.w.ShowBindingList(e.error_to_show)
             : console.warn(
-                "Missing outstanding query resolve for select config"
+                "Missing outstanding query resolve for select config",
               );
         }
         OnTrackersBindingChanged(e) {
@@ -13915,13 +13935,13 @@
               }
             else {
               let t = g.I.ConnectedDevices.find(
-                (t) => t.controller_type == e.controller_type
+                (t) => t.controller_type == e.controller_type,
               );
               t && t.root_path
                 ? (r = t.root_path)
                 : console.log(
                     "Unable to find device path for controller type ",
-                    e
+                    e,
                   );
             }
             this.m_ControllerWatchers.set(s, new L(r, e, t, n, o));
@@ -13998,7 +14018,7 @@
             bIsSimulatingController: t && "none" != t,
             bIsSimulatingHMD: this.GetOptionValue("simulate_hmd"),
             bIsSimulatingRenderModel: this.GetOptionValue(
-              "simulate_rendermodel"
+              "simulate_rendermodel",
             ),
           };
         }
@@ -14023,7 +14043,7 @@
           [u.LO],
           T.prototype,
           "m_nBindingSubscriptionChangedCanary",
-          void 0
+          void 0,
         ),
         (0, r.gn)([a.ak], T.prototype, "OpenWebSocketToHost", null),
         (0, r.gn)([u.Fl], T.prototype, "SteamVRUnavailable", null),
@@ -14039,7 +14059,7 @@
           [u.Fl],
           T.prototype,
           "CurrentAppCanAccessPrivateInputs",
-          null
+          null,
         ),
         (0, r.gn)([u.Fl], T.prototype, "SelectedControllerTypeInfo", null),
         (0, r.gn)([u.Fl], T.prototype, "CurrentBindingSaveType", null),
@@ -14047,7 +14067,7 @@
           [u.Fl],
           T.prototype,
           "CurrentBindingActionManifestVersion",
-          null
+          null,
         ),
         (0, r.gn)([u.Fl], T.prototype, "SelectedActionSet", null),
         (0, r.gn)([u.Fl], T.prototype, "SelectedActionSetDetails", null),
@@ -14067,14 +14087,14 @@
           [u.Fl],
           T.prototype,
           "BSelectedActionSetHasBoundHaptics",
-          null
+          null,
         ),
         (0, r.gn)([u.Fl], T.prototype, "BSelectedActionSetHasSkeletons", null),
         (0, r.gn)(
           [u.Fl],
           T.prototype,
           "BSelectedActionSetHasBoundSkeletons",
-          null
+          null,
         ),
         (0, r.gn)([u.aD], T.prototype, "ClearSelectedApp", null),
         (0, r.gn)([u.aD], T.prototype, "SetSelectedApp", null),
@@ -14084,19 +14104,19 @@
           [a.ak],
           T.prototype,
           "LocalizeStringForSelectedControllerType",
-          null
+          null,
         ),
         (0, r.gn)(
           [a.ak],
           T.prototype,
           "LocalizePathNameForSelectedControllerType",
-          null
+          null,
         ),
         (0, r.gn)(
           [u.Fl],
           T.prototype,
           "SelectedControllerTypeLocalizedName",
-          null
+          null,
         ),
         (0, r.gn)([u.aD], T.prototype, "RegisterBindingWatcher", null),
         (0, r.gn)([u.aD], T.prototype, "UnregisterBindingWatcher", null),
@@ -14167,7 +14187,7 @@
           [a.ak],
           T.prototype,
           "ShouldShowBindingFailureForControllerType",
-          null
+          null,
         ),
         (0, r.gn)([a.ak], T.prototype, "OnQueryResults", null),
         (0, r.gn)([a.ak], T.prototype, "SelectConfig", null),
@@ -14180,7 +14200,7 @@
           [a.ak],
           T.prototype,
           "GetControllerWatcherForSourceFromControllerType",
-          null
+          null,
         ),
         (0, r.gn)([a.ak], T.prototype, "OnWebSocketMessage", null),
         (0, r.gn)([u.Fl], T.prototype, "BindingConfig", null),
@@ -14188,7 +14208,7 @@
           [u.Fl],
           T.prototype,
           "BindingSubscriptionChangedCanary",
-          null
+          null,
         );
       const I = new T();
       window.controllerBindingStore = I;
@@ -14249,19 +14269,19 @@
                 return o.createElement(
                   "div",
                   { key: t, className: "InlineBlankSeparator" },
-                  e.sLocalized
+                  e.sLocalized,
                 );
               if ("-nonitem" == e.sValue)
                 return o.createElement(
                   "div",
                   { key: t, className: "InlineNonItemSeparator" },
-                  e.sLocalized
+                  e.sLocalized,
                 );
               if ("-subHeader" == e.sValue)
                 return o.createElement(
                   "div",
                   { key: t, className: "InlineSubHeaderSeparator" },
-                  e.sLocalized
+                  e.sLocalized,
                 );
               {
                 let n,
@@ -14274,7 +14294,7 @@
                     (n = o.createElement(
                       "span",
                       { className: "BindingLabelActionRequirement" },
-                      e.sRequiredLocalized
+                      e.sRequiredLocalized,
                     )),
                   null != e.sLocalizedDescription &&
                     (i = o.createElement(
@@ -14286,8 +14306,8 @@
                       o.createElement(
                         "span",
                         { className: "SourceModeHelp" },
-                        "?"
-                      )
+                        "?",
+                      ),
                     )),
                   o.createElement(
                     "div",
@@ -14300,7 +14320,7 @@
                     },
                     e.sLocalized,
                     n,
-                    i
+                    i,
                   )
                 );
               }
@@ -14325,7 +14345,7 @@
               o.createElement(
                 "div",
                 { className: this.props.sMainButtonClass },
-                i
+                i,
               ),
             o.createElement(
               s.Z,
@@ -14351,15 +14371,15 @@
                     o.createElement(
                       "div",
                       { className: "Label ModalHeader" },
-                      this.props.sModalTitleString
+                      this.props.sModalTitleString,
                     ),
                   o.createElement(
                     "div",
                     { className: "FlexColumn InlineDropdownItemWrapper" },
-                    e
-                  )
-                )
-            )
+                    e,
+                  ),
+                ),
+            ),
           );
         }
       }
@@ -14412,19 +14432,19 @@
             this.m_mailbox.Init(e),
             this.m_mailbox.RegisterHandler(
               "show_app_select",
-              this.OnShowAppSelect
+              this.OnShowAppSelect,
             ),
             this.m_mailbox.RegisterHandler(
               "show_app_binding",
-              this.OnShowAppBinding
+              this.OnShowAppBinding,
             ),
             this.m_mailbox.RegisterHandler(
               "show_input_debugger",
-              this.OnShowInputDebugger
+              this.OnShowInputDebugger,
             ),
             this.m_mailbox.RegisterHandler(
               "binding_load_failed",
-              this.OnBindingLoadFailed
+              this.OnBindingLoadFailed,
             ),
             (0, a.EH)(this.UpdateWindowTitle);
         }
@@ -14432,7 +14452,7 @@
           null === l.Co ||
             void 0 === l.Co ||
             l.Co.VROverlay.ShowDashboard(
-              "system.vrwebhelper.controllerbinding"
+              "system.vrwebhelper.controllerbinding",
             );
         }
         OnShowAppSelect(e) {
@@ -14455,7 +14475,7 @@
                   console.log(
                     "Warning: Could not find app key: " +
                       e.app_key +
-                      " showing app select."
+                      " showing app select.",
                   ),
                   void this.ShowAppSelect()
                 );
@@ -14481,13 +14501,13 @@
               " " +
               e.controller_type +
               " " +
-              e.error
+              e.error,
           ),
             d.S.UpdateApplications().then(() => {
               if (!d.S.ShouldShowBindingFailureForApp(e.app_key)) return;
               if (
                 !u.c6.ShouldShowBindingFailureForControllerType(
-                  e.controller_type
+                  e.controller_type,
                 )
               )
                 return;
@@ -14502,8 +14522,8 @@
                 (0, c.Xx)(
                   e.error,
                   t ? t.name : (0, c.Xx)("#unknown_application"),
-                  i
-                )
+                  i,
+                ),
               ),
                 null === l.Co || void 0 === l.Co || l.Co.ShowBindingUI(!1);
             });
@@ -14613,7 +14633,7 @@
         get CurrentBinding() {
           if (this.BindingQueryResults)
             return m.BindingQueryResults.find(
-              (e) => e.url == u.c6.SelectedBindingURL
+              (e) => e.url == u.c6.SelectedBindingURL,
             );
         }
         ReturnToSettingsUI() {
@@ -14637,7 +14657,7 @@
               this.m_State == i.Debugger
                 ? (this.m_pathUpdateTimer = window.setTimeout(
                     this.UpdatePathsTimeout,
-                    500
+                    500,
                   ))
                 : (this.m_pathUpdateTimer = void 0);
             });
@@ -14657,7 +14677,7 @@
                   (this.m_State = i.Debugger),
                   (this.m_pathUpdateTimer = window.setTimeout(
                     this.UpdatePathsTimeout,
-                    500
+                    500,
                   )),
                   l.Co.ShowBindingUI((0, l.Op)() == l.qA.Desktop);
               })
@@ -14676,12 +14696,12 @@
                   null !== (e = null == t ? void 0 : t.controller_type) &&
                     void 0 !== e
                     ? e
-                    : ""
+                    : "",
                 );
               n.success && (this.m_rBindingList = n.results);
             } catch (e) {
               this.SetBindingListError(
-                (0, c.Xx)("#BindingUI_WorkshopBindingLoadFailed")
+                (0, c.Xx)("#BindingUI_WorkshopBindingLoadFailed"),
               ),
                 console.error("Failed to load workshop bindings " + e);
             } finally {
@@ -14699,7 +14719,7 @@
               case i.None:
               case i.ViewBinding:
                 document.title = (0, c.Xx)(
-                  "#BindingUI_WindowTitle_ControllerBinding"
+                  "#BindingUI_WindowTitle_ControllerBinding",
                 );
             }
           }, 0);
@@ -14763,11 +14783,11 @@
             this.m_mailbox.Init("input_state"),
             this.m_mailbox.RegisterHandler(
               "controller_type_changed",
-              this.OnControllerTypeChanged
+              this.OnControllerTypeChanged,
             ),
             this.m_mailbox.RegisterHandler(
               "action_bindings_reloaded",
-              this.OnActionBindingsReloaded
+              this.OnActionBindingsReloaded,
             ),
             null != e && (this.m_bUpdateInputStateOnControllerTypChange = e),
             this.GetInputState()
@@ -14789,7 +14809,7 @@
                 (e) =>
                   "TrackedDeviceClass_Controller" == e.class ||
                   "TrackedDeviceClass_HMD" == e.class ||
-                  "TrackedDeviceClass_GenericTracker" == e.class
+                  "TrackedDeviceClass_GenericTracker" == e.class,
               );
         }
         get ControllerTypes() {
@@ -14817,7 +14837,7 @@
         }
         GetControllerTypeInfo(e) {
           return this.m_InputState.controller_types.find(
-            (t) => t.controller_type == e
+            (t) => t.controller_type == e,
           );
         }
         GetDeviceInfo(e) {
@@ -14833,7 +14853,7 @@
               this.m_InputState &&
               this.m_InputState.localization.hasOwnProperty(e.resource_root) &&
               this.m_InputState.localization[e.resource_root].hasOwnProperty(
-                t.toLowerCase()
+                t.toLowerCase(),
               )
             ? this.m_InputState.localization[e.resource_root][t.toLowerCase()]
             : t;
@@ -14909,7 +14929,7 @@
           [a.ak],
           u.prototype,
           "FindDeviceClassForControllerType",
-          null
+          null,
         );
       const d = new u();
       window.inputState = d;
@@ -15038,25 +15058,25 @@
           n.push(
             i(o, t, (e) => {
               s.push(e);
-            })
+            }),
           ),
             "english" != t &&
               n.push(
                 i(o, "english", (e) => {
                   l.push(e);
-                })
+                }),
               );
         for (let e of ["webhelper"])
           n.push(
             i(e, t, (e) => {
               r.push(e);
-            })
+            }),
           ),
             "english" != t &&
               n.push(
                 i(e, "english", (e) => {
                   c.push(e);
-                })
+                }),
               );
         return Promise.all(n).then(() => {
           a.InitFromObjects(s, r, l, c);
@@ -15088,11 +15108,11 @@
                     ? void 0
                     : VRHTML.VROverlay.ThisOverlayKey())) && void 0 !== e
                 ? e
-                : "unknown"
+                : "unknown",
             ),
             this.m_mailbox.RegisterHandler(
               "set_dashboard_session_id",
-              this.onSetDashboardSessionId
+              this.onSetDashboardSessionId,
             );
         }
         static get instance() {
@@ -15107,7 +15127,7 @@
         AddRow(e, t) {
           if ("object" != typeof t)
             throw new Error(
-              "COGS.AddRow requires an object for its fields argument"
+              "COGS.AddRow requires an object for its fields argument",
             );
           let n = { type: "add_ogs_row", table: e, fields: t };
           this.m_mailbox.SendMessage("ogs", n);
@@ -15159,13 +15179,13 @@
                   this.CommitDashboardSession();
                 }, 5e3)))
             : console.log(
-                "Somebody called EndDashboardSession when one wasn't running"
+                "Somebody called EndDashboardSession when one wasn't running",
               );
         }
         RecordDashboardSessionDuration() {
           this.m_dashboardSession.duration ||
             (this.m_dashboardSession.duration = Math.round(
-              (new Date().getTime() - this.m_dashboardStartTime) / 1e3
+              (new Date().getTime() - this.m_dashboardStartTime) / 1e3,
             ));
         }
         CommitDashboardSession() {
@@ -15228,7 +15248,7 @@
                       ? e
                       : []),
                   ],
-                  this.m_refAnchor.current
+                  this.m_refAnchor.current,
                 )),
               this.m_elemPortalContainer)
             : null;
@@ -15253,7 +15273,7 @@
                 this.m_elemPortal &&
                   this.state.bInDOM &&
                   this.props.children &&
-                  o.createPortal(this.props.children, this.m_elemPortal)
+                  o.createPortal(this.props.children, this.m_elemPortal),
               ))
             : null;
         }
@@ -15283,9 +15303,9 @@
               i.createElement(
                 r.wx,
                 { parent_id: this.m_sPanelAnchorID },
-                this.props.children
-              )
-            )
+                this.props.children,
+              ),
+            ),
           );
         }
       }
@@ -15354,7 +15374,7 @@
                   ? console.log(
                       "Failed to update container. ",
                       e.length,
-                      "entries in array"
+                      "entries in array",
                     )
                   : "string" == typeof e[1]
                   ? console.log("Failed to update container ", e[0], ":", e[1])
@@ -15509,7 +15529,7 @@
             (this.m_bScrolling = !0),
             (this.m_scrollStopTimeoutHandle = setTimeout(
               this.onScrollStopTimeout,
-              50
+              50,
             )),
             null === (e = this.onScroll) || void 0 === e || e.call(this);
         }
@@ -15542,7 +15562,7 @@
               return [
                 new Promise((n, i) => {
                   e.then((e) => (t ? i({ canceled: !0 }) : n(e))).catch((e) =>
-                    i(t ? { canceled: !0 } : e)
+                    i(t ? { canceled: !0 } : e),
                   );
                 }),
                 () => (t = !0),
@@ -15571,10 +15591,10 @@
                 : l.LL.High),
             (0, l.Op)() == l.qA.Overlay && n != l.LL.High
               ? document.documentElement.classList.add(
-                  h.AnimationsDisabledClass
+                  h.AnimationsDisabledClass,
                 )
               : document.documentElement.classList.remove(
-                  h.AnimationsDisabledClass
+                  h.AnimationsDisabledClass,
                 );
         }
         cleanup() {
@@ -15588,7 +15608,7 @@
               t.call(this),
             (this.m_autorunDisposer = null),
             document.documentElement.classList.remove(
-              h.AnimationsDisabledClass
+              h.AnimationsDisabledClass,
             );
         }
       }
@@ -15617,7 +15637,7 @@
               null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.RegisterForSceneApplicationStateChangedEvents(
-                    this.updateTransitionState
+                    this.updateTransitionState,
                   )),
             this.updateTransitionState();
         }
@@ -15670,7 +15690,7 @@
             this.log("this.m_sceneAppKey: " + this.m_sceneAppKey),
             this.log("this.m_sceneAppName: " + this.m_sceneAppName),
             this.log(
-              "this.m_sceneApplicationState: " + this.m_sceneApplicationState
+              "this.m_sceneApplicationState: " + this.m_sceneApplicationState,
             );
         }
         onUnresponsiveTimeout() {
@@ -15715,14 +15735,14 @@
           void 0 === this.m_unresponsiveTimeout &&
             (this.m_unresponsiveTimeout = setTimeout(
               this.onUnresponsiveTimeout,
-              l.kUnresponsiveDelayMs
+              l.kUnresponsiveDelayMs,
             ));
         }
         startNoAppTimer() {
           void 0 === this.m_noAppTimeout &&
             (this.m_noAppTimeout = setTimeout(
               this.onNoAppTimeout,
-              l.kUnresponsiveDelayMs
+              l.kUnresponsiveDelayMs,
             ));
         }
         cancelNoAppTimeout() {
@@ -15866,7 +15886,7 @@
             this.setNextEntryPoint(null != t ? t : i.Unknown),
             this.openSteamURL(n, {
               backstack_token: this.getBackstackTokenForEntryPoint(
-                this.m_NextBPEntryPoint
+                this.m_NextBPEntryPoint,
               ),
             });
         }
@@ -15878,7 +15898,7 @@
             this.setNextEntryPoint(null != t ? t : i.Unknown),
             this.openSteamURL(n, {
               backstack_token: this.getBackstackTokenForEntryPoint(
-                this.m_NextBPEntryPoint
+                this.m_NextBPEntryPoint,
               ),
             });
         }
@@ -15905,7 +15925,7 @@
           this.clearNextEntryPoint(),
             (this.m_NextBPEntryPointTimeout = setTimeout(
               this.clearNextEntryPoint,
-              1e3
+              1e3,
             )),
             (this.m_NextBPEntryPoint = e);
         }
@@ -15952,7 +15972,7 @@
               null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.VRAudioDevices.RegisterForVolumeChangedEvents(
-                    this.onSystemVolumeChanged
+                    this.onSystemVolumeChanged,
                   )),
             this.onSystemVolumeChanged();
         }
@@ -15993,7 +16013,7 @@
             null === VRHTML ||
               void 0 === VRHTML ||
               VRHTML.VRAudioDevices.SetMirrorSoundVolumeMute(
-                this.m_bMirrorMuted
+                this.m_bMirrorMuted,
               );
         }
         toggleMicrophoneMute() {
@@ -16001,7 +16021,7 @@
             null === VRHTML ||
               void 0 === VRHTML ||
               VRHTML.VRAudioDevices.SetMasterMicrophoneMute(
-                this.m_bMicrophoneMuted
+                this.m_bMicrophoneMuted,
               );
         }
         setVolume(e) {
@@ -16025,7 +16045,7 @@
             null === VRHTML ||
               void 0 === VRHTML ||
               VRHTML.VRAudioDevices.SetMirrorSoundVolumeMute(
-                this.m_bMirrorMuted
+                this.m_bMirrorMuted,
               ));
         }
         setMicrophoneVolume(e) {
@@ -16035,12 +16055,12 @@
             null === VRHTML ||
               void 0 === VRHTML ||
               VRHTML.VRAudioDevices.SetMasterMicrophoneVolume(
-                this.m_nMicrophoneVolume
+                this.m_nMicrophoneVolume,
               ),
             null === VRHTML ||
               void 0 === VRHTML ||
               VRHTML.VRAudioDevices.SetMasterMicrophoneMute(
-                this.m_bMicrophoneMuted
+                this.m_bMicrophoneMuted,
               ));
         }
         onSystemVolumeChanged() {
@@ -16093,7 +16113,7 @@
           return new Promise((e, t) => {
             console.log("Connecting vconsole..."),
               (this.m_wsWebSocketToServer = new WebSocket(
-                "ws://" + window.location.host
+                "ws://" + window.location.host,
               )),
               this.m_wsWebSocketToServer.addEventListener("open", (t) => {
                 this.OnWebSocketOpen(t), e();
@@ -16116,18 +16136,18 @@
                     .concat(
                       this.vecMessageBuffer.splice(
                         0,
-                        this.vecMessageBuffer.length
-                      )
+                        this.vecMessageBuffer.length,
+                      ),
                     )
                     .map((e, t) => ({ item: e, index: t }))
                     .sort(
                       (e, t) =>
                         e.item.nTimestamp - t.item.nTimestamp ||
-                        e.index - t.index
+                        e.index - t.index,
                     )
                     .map(({ item: e }) => e);
                 },
-                { delay: 300 }
+                { delay: 300 },
               ),
               yield this.OpenWebSocketToHost());
           });
@@ -16259,18 +16279,18 @@
           return new Promise((e, t) => {
             console.log("Connecting vrsettings..."),
               (this.m_wsWebSocketToServer = new WebSocket(
-                "ws://" + window.location.host
+                "ws://" + window.location.host,
               )),
               this.m_wsWebSocketToServer.addEventListener("open", (t) => {
                 this.OnWebSocketOpen(t), e();
               }),
               this.m_wsWebSocketToServer.addEventListener(
                 "message",
-                this.OnWebSocketMessage
+                this.OnWebSocketMessage,
               ),
               this.m_wsWebSocketToServer.addEventListener(
                 "close",
-                this.OnWebSocketClose
+                this.OnWebSocketClose,
               );
           });
         }
@@ -16297,17 +16317,17 @@
                         .catch((t) => {
                           console.log(
                             "Failed to save settings! This usually happens when type is set incorrectly on one of the keys in the schema. ",
-                            e
+                            e,
                           );
                         });
                   }
                 },
-                { delay: 300 }
+                { delay: 300 },
               ),
               null === VRHTML ||
                 void 0 === VRHTML ||
                 VRHTML.RegisterForDisplayModeNotSupportedEvents(
-                  this.SetRestartRequired
+                  this.SetRestartRequired,
                 );
             let t = [];
             this.m_mailbox.connected || t.push(this.ConnectMailbox()),
@@ -16333,16 +16353,16 @@
               yield this.m_mailbox.Init(this.MailboxName),
                 this.m_mailbox.RegisterHandler(
                   "workshop_state_changed",
-                  this.OnWorkshopStateChangedMessage
+                  this.OnWorkshopStateChangedMessage,
                 ),
                 this.m_mailbox.RegisterHandler(g, this.OnChangeRouteMessage),
                 this.m_mailbox.RegisterHandler(
                   "app_config_changed",
-                  this.OnAppConfigChangedMessage
+                  this.OnAppConfigChangedMessage,
                 ),
                 this.m_mailbox.RegisterHandler(
                   "refresh_rate_change",
-                  this.OnRefreshRateChangeMessage
+                  this.OnRefreshRateChangeMessage,
                 );
             } catch (e) {
               console.log("Failed to open settings mailbox:" + e);
@@ -16372,7 +16392,7 @@
                       Object.assign(Object.assign({}, this.apps[e]), {
                         current_scene_process: !1,
                       }),
-                      t
+                      t,
                     )),
                     (t = null);
                   break;
@@ -16516,7 +16536,7 @@
                   () => {
                     this.SetSettingValueFromServer(e, t);
                   },
-                  n
+                  n,
                 ))
               );
             window.clearTimeout(i.nPendingServerValueUpdateTimeout),
@@ -16587,7 +16607,7 @@
             : console.log(
                 "Tried to set setting " +
                   e +
-                  " but it's not in the schema! Aborting"
+                  " but it's not in the schema! Aborting",
               );
         }
         SetSettingsStringValueWithoutSchema(e, t) {
@@ -16631,7 +16651,7 @@
                 this.SetRestartRequired(),
                 (this.apps[e] = Object.assign(
                   Object.assign({}, this.apps[e]),
-                  t
+                  t,
                 ));
               break;
             }
@@ -16709,7 +16729,7 @@
           [a.aD],
           S.prototype,
           "SetSettingsStringValueWithoutSchema",
-          null
+          null,
         ),
         (0, i.gn)([a.Fl], S.prototype, "NumSupersamplingSteps", null);
       const _ = new S();
@@ -16757,7 +16777,7 @@
                 r()
                   .get(
                     "/toggle_room_overview_feed.action?enabled=" +
-                      (e ? "1" : "0")
+                      (e ? "1" : "0"),
                   )
                   .then((e) => {
                     t();
@@ -16772,18 +16792,18 @@
           return new Promise((e, t) => {
             console.log("Connecting vrsystem..."),
               (this.m_wsWebSocketToServer = new WebSocket(
-                "ws://" + window.location.host
+                "ws://" + window.location.host,
               )),
               this.m_wsWebSocketToServer.addEventListener("open", (t) => {
                 this.OnWebSocketOpen(t), e();
               }),
               this.m_wsWebSocketToServer.addEventListener(
                 "message",
-                this.OnWebSocketMessage
+                this.OnWebSocketMessage,
               ),
               this.m_wsWebSocketToServer.addEventListener(
                 "close",
-                this.OnWebSocketClose
+                this.OnWebSocketClose,
               );
           });
         }
@@ -16904,7 +16924,7 @@
           [o.ak],
           l.prototype,
           "TEMP_RegisterPollingWebsocketMessage",
-          null
+          null,
         );
       const c = new l();
       window.VRSystemState = c;

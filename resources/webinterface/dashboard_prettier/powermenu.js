@@ -59,7 +59,7 @@
             n,
             function (t) {
               return e[t];
-            }.bind(null, n)
+            }.bind(null, n),
           );
       return r;
     }),
@@ -103,7 +103,7 @@
         { className: "ButtonControl", onClick: e.onClick },
         i.createElement("div", { className: "HoverGradient" }),
         i.createElement("div", { className: "ClickGradient" }),
-        i.createElement("span", null, e.label)
+        i.createElement("span", null, e.label),
       );
     }
     let f = class extends i.Component {
@@ -130,7 +130,7 @@
             let t = u.a.VROverlay.GetPrimaryDashboardDevice();
             e = u.a.VRProperties.GetBoolProperty(
               t,
-              l.ETrackedDeviceProperty.DeviceCanPowerOff_Bool
+              l.ETrackedDeviceProperty.DeviceCanPowerOff_Bool,
             );
           }
           this.setState({
@@ -206,8 +206,8 @@
               onClick: () => {
                 this.DismissDashboard();
               },
-            })
-          )
+            }),
+          ),
         );
       }
     };
@@ -226,11 +226,11 @@
         u.a.VROverlay.SetFlag(
           u.a.VROverlay.ThisOverlayHandle(),
           l.EVROverlayFlags.NoDashboardTab,
-          !0
+          !0,
         ),
         u.a.VROverlay.SetInputMethod(
           u.a.VROverlay.ThisOverlayHandle(),
-          l.EVROverlayInputMethod.Mouse
+          l.EVROverlayInputMethod.Mouse,
         )),
       (h = u.a.GetSteamVRLanguage())),
       Object(c.a)([], h)
@@ -276,7 +276,7 @@
                   i,
                   function (t) {
                     return e[t];
-                  }.bind(null, i)
+                  }.bind(null, i),
                 );
             return n;
           }),
@@ -310,7 +310,7 @@
               throw new TypeError(
                 "Only methods can be decorated with @bind. <" +
                   t +
-                  "> is not a method!"
+                  "> is not a method!",
               );
             return {
               configurable: n.boolTrue,
@@ -525,7 +525,7 @@
                               Object.keys(t).join(", ") +
                               "}"
                           : n,
-                        ""
+                        "",
                       ))
                     );
                   return l;
@@ -572,7 +572,7 @@
                         (!e.key || (t && t.key === e.key)
                           ? ""
                           : ("" + e.key).replace(F, "$&/") + "/") +
-                        r
+                        r,
                     )),
                   n.push(e));
           }
@@ -604,7 +604,7 @@
                     function () {
                       return null;
                     },
-                    null
+                    null,
                   );
                 },
                 toArray: function (e) {
@@ -761,7 +761,7 @@ object-assign
           function a(e) {
             if (null == e)
               throw new TypeError(
-                "Object.assign cannot be called with null or undefined"
+                "Object.assign cannot be called with null or undefined",
               );
             return Object(e);
           }
@@ -870,18 +870,18 @@ object-assign
                 console.log("Connecting..."),
                   (this.m_fnConnectResolve = e),
                   (this.m_wsWebSocketToServer = new WebSocket(
-                    "ws://" + window.location.host
+                    "ws://" + window.location.host,
                   )),
                   this.m_wsWebSocketToServer.addEventListener("open", (t) => {
                     this.OnWebSocketOpen(t), e();
                   }),
                   this.m_wsWebSocketToServer.addEventListener(
                     "message",
-                    this.OnWebSocketMessage
+                    this.OnWebSocketMessage,
                   ),
                   this.m_wsWebSocketToServer.addEventListener(
                     "close",
-                    this.OnWebSocketClose
+                    this.OnWebSocketClose,
                   );
               });
             }
@@ -1160,7 +1160,7 @@ object-assign
                       return (
                         ((t = A("transform", e)).properties.translation = M(
                           e,
-                          "translation"
+                          "translation",
                         )),
                         (t.properties.rotation = M(e, "rotation")),
                         (t.properties.scale = M(e, "scale")),
@@ -1184,33 +1184,33 @@ object-assign
                         ] = O(e, "start-angle-threshold")),
                         (t.properties["stop-angle-threshold"] = O(
                           e,
-                          "stop-angle-threshold"
+                          "stop-angle-threshold",
                         )),
                         (t.properties["ease-in-time"] = O(e, "ease-in-time")),
                         (t.properties["ease-in-power"] = O(e, "ease-in-power")),
                         (t.properties["ease-out-angle-threshold"] = O(
                           e,
-                          "ease-out-angle-threshold"
+                          "ease-out-angle-threshold",
                         )),
                         (t.properties["ease-out-power"] = O(
                           e,
-                          "ease-out-power"
+                          "ease-out-power",
                         )),
                         (t.properties["min-angular-velocity"] = O(
                           e,
-                          "min-angular-velocity"
+                          "min-angular-velocity",
                         )),
                         (t.properties["max-angular-velocity"] = O(
                           e,
-                          "max-angular-velocity"
+                          "max-angular-velocity",
                         )),
                         (t.properties["lock-to-horizon"] = F(
                           e,
-                          "lock-to-horizon"
+                          "lock-to-horizon",
                         )),
                         (t.properties["translation-behavior"] = T(
                           e,
-                          "translation-behavior"
+                          "translation-behavior",
                         )),
                         t
                       );
@@ -1218,7 +1218,7 @@ object-assign
                       return (
                         ((t = A("rendermodel", e)).properties.source = V(
                           e,
-                          "source"
+                          "source",
                         )),
                         t
                       );
@@ -1240,13 +1240,13 @@ object-assign
                         (t.properties.curvature = O(e, "curvature")),
                         (t.properties["curvature-origin-id"] = V(
                           e,
-                          "curvature-origin-id"
+                          "curvature-origin-id",
                         )),
                         (t.properties.interactive = F(e, "interactive")),
                         (t.properties.scrollable = F(e, "scrollable")),
                         (t.properties["embedded-uv-index"] = T(
                           e,
-                          "embedded-uv-index"
+                          "embedded-uv-index",
                         )),
                         (t.properties.origin = M(e, "origin")),
                         t
@@ -1255,7 +1255,7 @@ object-assign
                       return (
                         ((t = A("line", e)).properties["target-id"] = V(
                           e,
-                          "target-id"
+                          "target-id",
                         )),
                         (t.properties.thickness = O(e, "thickness")),
                         (t.properties["start-buffer"] = O(e, "start-buffer")),
@@ -1270,7 +1270,7 @@ object-assign
                         (t.properties["source-id"] = V(e, "source-id")),
                         (t.properties["source-distance"] = O(
                           e,
-                          "source-distance"
+                          "source-distance",
                         )),
                         (t.properties["target-limit"] = O(e, "target-limit")),
                         t
@@ -1279,7 +1279,7 @@ object-assign
                       return (
                         ((t = A("callout-transform", e)).properties.offset = M(
                           e,
-                          "offset"
+                          "offset",
                         )),
                         t
                       );
@@ -1292,11 +1292,11 @@ object-assign
                         ] = O(e, "offscreen-z-depth")),
                         (t.properties["off-axis-limit"] = O(
                           e,
-                          "off-axis-limit"
+                          "off-axis-limit",
                         )),
                         (t.properties["transition-limit"] = O(
                           e,
-                          "transition-limit"
+                          "transition-limit",
                         )),
                         t
                       );
@@ -1371,7 +1371,7 @@ object-assign
                     }
                     (L = null), (B = []);
                   }),
-                0
+                0,
               ));
           }
           function G(e, t) {
@@ -1440,8 +1440,8 @@ object-assign
                   (t = f(
                     d(
                       W(this.props.rotation, { x: 0, y: 0, z: 0 }),
-                      Math.PI / 180
-                    )
+                      Math.PI / 180,
+                    ),
                   )),
                   (r =
                     "number" == typeof this.props.scale
@@ -1463,7 +1463,7 @@ object-assign
                   "parent-path": this.props.parent_path,
                   "parent-origin": X[this.props.parent_origin],
                 },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1479,7 +1479,7 @@ object-assign
                   "visible-3dof": this.props.visibleIn3DOF,
                   "visible-6dof": this.props.visibleIn6DOF,
                 },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1530,11 +1530,11 @@ object-assign
                 return (
                   this.m_domRef.current.setAttribute(
                     "uv-min",
-                    me(this.props.uv_min)
+                    me(this.props.uv_min),
                   ),
                   void this.m_domRef.current.setAttribute(
                     "uv-max",
-                    me(this.props.uv_max)
+                    me(this.props.uv_max),
                   )
                 );
               this.m_Rect = this.m_domRef.current.getBoundingClientRect();
@@ -1598,7 +1598,7 @@ object-assign
                   scrollable: this.props.scrollable,
                   origin: j(e),
                 },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1636,7 +1636,7 @@ object-assign
                 (this.m_nEmbeddedDataWidth = window.outerWidth);
               let t = Math.max(
                 0,
-                Math.floor((this.m_nEmbeddedDataWidth - 1) / 3)
+                Math.floor((this.m_nEmbeddedDataWidth - 1) / 3),
               );
               for (let e = 0; e < t; e++)
                 this.m_rAvailableEmbeddedIndicesQueue.push(e);
@@ -1678,7 +1678,7 @@ object-assign
                 this.createEmbeddedData(),
                 window.addEventListener("load", this.forceLayoutUpdate),
                 document.fonts.ready.then(() =>
-                  this.setState({ bFontsLoaded: !0 })
+                  this.setState({ bFontsLoaded: !0 }),
                 ),
                 (window.forceLayoutUpdate = this.forceLayoutUpdate),
                 (window.toggleDebugPointer = this.toggleDebugPointer);
@@ -1711,8 +1711,8 @@ object-assign
                   P.createElement(
                     "div",
                     { ref: this.m_scalingDomRef },
-                    this.state.bFontsLoaded && this.props.children
-                  )
+                    this.state.bFontsLoaded && this.props.children,
+                  ),
                 )
               );
             }
@@ -1726,7 +1726,7 @@ object-assign
               this.m_mapPanels.has(e.getSGID()) &&
                 (this.m_mapPanels.delete(e.getSGID()),
                 this.m_rAvailableEmbeddedIndicesQueue.push(
-                  e.getEmbeddedIndex()
+                  e.getEmbeddedIndex(),
                 ),
                 this.m_rEmbeddedIndicesToClear.push(e.getEmbeddedIndex()));
             }
@@ -1742,7 +1742,7 @@ object-assign
                 null === this.m_Pixels &&
                   (this.m_Pixels = this.m_CanvasContext.createImageData(
                     this.m_nEmbeddedDataWidth,
-                    ye.k_EmbeddedDataRows
+                    ye.k_EmbeddedDataRows,
                   )),
                 this.updateAllPanelBounds();
             }
@@ -1756,7 +1756,7 @@ object-assign
                 (1 != i
                   ? this.m_scalingDomRef.current.setAttribute(
                       "style",
-                      "transform: scale(" + i + "); transform-origin: top left"
+                      "transform: scale(" + i + "); transform-origin: top left",
                     )
                   : this.m_scalingDomRef.current.removeAttribute("style"),
                 (this.m_fCurrentScale = i),
@@ -1774,7 +1774,7 @@ object-assign
                   0,
                   "V".charCodeAt(0),
                   "S".charCodeAt(0),
-                  "G".charCodeAt(0)
+                  "G".charCodeAt(0),
                 ),
                 this.m_rEmbeddedIndicesToClear.forEach((e) => {
                   let t = 1 + 3 * e;
@@ -1797,7 +1797,7 @@ object-assign
                         a + 2,
                         (65280 & o) >> 8,
                         255 & o,
-                        (65280 & i) >> 8
+                        (65280 & i) >> 8,
                       );
                 });
               let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
@@ -1808,7 +1808,7 @@ object-assign
                 this.m_nDirtyXMin,
                 0,
                 e,
-                this.m_Pixels.height
+                this.m_Pixels.height,
               ),
                 (this.m_nDirtyXMin = -1),
                 (this.m_nDirtyXMax = -1);
@@ -1838,7 +1838,7 @@ object-assign
               return P.createElement(
                 "vsg-rendermodel",
                 { source: this.props.source },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1867,7 +1867,7 @@ object-assign
                   "off-axis-limit": this.props.fOffAxisLimit,
                   "transition-limit": this.props.fTransitionLimit,
                 },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1879,7 +1879,7 @@ object-assign
               return P.createElement(
                 "vsg-panel-anchor",
                 null,
-                null != this.props && this.props.children
+                null != this.props && this.props.children,
               );
             }
           }
@@ -1897,7 +1897,7 @@ object-assign
                   "source-distance": this.props.fSourceDistance,
                   "target-limit": this.props.fTargetLimit,
                 },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1939,7 +1939,7 @@ object-assign
                   "lock-to-horizon": this.props.lock_to_horizon,
                   "translation-behavior": this.props.translation_behavior,
                 },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1951,7 +1951,7 @@ object-assign
               return P.createElement(
                 "vsg-head-facing-transform",
                 null,
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -1966,7 +1966,7 @@ object-assign
                 Environment: () => Y.Browser,
                 OpenSteamWorkshop: (e) => {
                   window.open(
-                    "https://steamcommunity.com/app/" + e + "/workshop"
+                    "https://steamcommunity.com/app/" + e + "/workshop",
                   );
                 },
               }),
@@ -2404,20 +2404,20 @@ object-assign
                 try {
                   let e = VRHTML.VRProperties.GetStringProperty(
                     this.props.sDevicePath,
-                    oe.RenderModelName_String
+                    oe.RenderModelName_String,
                   );
                   if (e) {
                     let r =
                       VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
                         e,
-                        this.props.sInputPath
+                        this.props.sInputPath,
                       );
                     if (r) {
                       let n =
                         VRHTML.VRRenderModels.GetComponentStateForDevicePath(
                           e,
                           r,
-                          this.props.sDevicePath
+                          this.props.sDevicePath,
                         );
                       n && (t.xfTransform = n.xfTrackingToComponentLocal);
                     }
@@ -2425,7 +2425,7 @@ object-assign
                 } catch (e) {
                   console.log(
                     "Component transform invalid for ",
-                    this.props.sDevicePath
+                    this.props.sDevicePath,
                   );
                 }
               this.state = t;
@@ -2438,7 +2438,7 @@ object-assign
                   parent_path: this.props.sDevicePath,
                   transform: this.state.xfTransform,
                 },
-                this.props.children
+                this.props.children,
               );
             }
           }
@@ -2450,7 +2450,7 @@ object-assign
               return P.createElement(
                 "vsg-callout-transform",
                 { offset: q(this.props.vOffset) },
-                this.props.children
+                this.props.children,
               );
             }
           }

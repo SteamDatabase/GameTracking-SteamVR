@@ -32,7 +32,7 @@
                   '"',
                   t.slice(0, 80),
                   t.length > 80 && "...",
-                  '"'
+                  '"',
                 );
               case "k_unFloatPropertyTag":
               case "k_unInt32PropertyTag":
@@ -40,19 +40,19 @@
                 return a.createElement(
                   "div",
                   { className: "PropertyValueNumber" },
-                  this.simpleValueToString(e.value)
+                  this.simpleValueToString(e.value),
                 );
               case "k_unBoolPropertyTag":
                 return a.createElement(
                   "div",
                   { className: "PropertyValueNumber" },
-                  e.value ? "TRUE" : "FALSE"
+                  e.value ? "TRUE" : "FALSE",
                 );
               default:
                 return a.createElement(
                   "div",
                   { className: "PropertyValueUnsupported" },
-                  "..."
+                  "...",
                 );
             }
           }
@@ -61,7 +61,7 @@
               "div",
               { className: "PropertyEntry", key: t + e.path },
               a.createElement("div", { className: "PropertyPathName" }, e.path),
-              this.renderValue(e)
+              this.renderValue(e),
             );
           }
           renderEnum(e, t) {
@@ -71,9 +71,9 @@
               a.createElement(
                 "div",
                 { className: "PropertyEnumName" },
-                e.name.slice(5)
+                e.name.slice(5),
               ),
-              this.renderValue(e)
+              this.renderValue(e),
             );
           }
           renderContainer(e) {
@@ -113,8 +113,8 @@
                   { className: "ContainerHandle" },
                   "(",
                   e.handle,
-                  ")"
-                )
+                  ")",
+                ),
               ),
             ];
             if (e.contents && e.contents.entries)
@@ -193,8 +193,8 @@
                         this.onClickLog(t.sName);
                       },
                     },
-                    t.sName
-                  )
+                    t.sName,
+                  ),
                 );
             }
             let s = [];
@@ -214,8 +214,8 @@
                           this.onClickLogRun(r.sDate);
                         },
                       },
-                      r.sDate
-                    )
+                      r.sDate,
+                    ),
                   );
               }
             return a.createElement(
@@ -225,13 +225,13 @@
                 "div",
                 { className: "FlexRow" },
                 a.createElement("div", { className: "LogFileList" }, r),
-                a.createElement("div", { className: "LogRunList" }, s)
+                a.createElement("div", { className: "LogRunList" }, s),
               ),
               a.createElement(
                 "div",
                 { className: "LogContent" },
-                t ? t.rLines.join("\n") : null
-              )
+                t ? t.rLines.join("\n") : null,
+              ),
             );
           }
         }
@@ -253,9 +253,9 @@
                   a.createElement(
                     "div",
                     { className: "FieldValue" },
-                    this.props.oDetails[t]
-                  )
-                )
+                    this.props.oDetails[t],
+                  ),
+                ),
               );
             this.state.bShowDetails &&
               e.push(
@@ -263,8 +263,8 @@
                   "div",
                   { className: "SectionAdditionalDetails" },
                   " ",
-                  this.props.rAdditionalDetails.join("\n")
-                )
+                  this.props.rAdditionalDetails.join("\n"),
+                ),
               );
             let t = this.state.bShowDetails ? "Hide Details" : "Show Details";
             return a.createElement(
@@ -282,10 +282,10 @@
                         className: "ShowHideLink",
                         onClick: this.onToggleDetails,
                       },
-                      t
-                    )
+                      t,
+                    ),
                 ),
-              e
+              e,
             );
           }
         }
@@ -304,8 +304,8 @@
                   { className: "JsonObjectProperty", key: r },
                   this.renderNode(r),
                   " : ",
-                  this.renderNode(s)
-                )
+                  this.renderNode(s),
+                ),
               );
             }
             return a.createElement(
@@ -314,7 +314,7 @@
               "{",
               t,
               " ",
-              "}"
+              "}",
             );
           }
           renderNode(e) {
@@ -327,13 +327,13 @@
                   { className: "JsonString" },
                   '"',
                   e,
-                  '"'
+                  '"',
                 );
               case "boolean":
                 return a.createElement(
                   "span",
                   { className: "JsonNumber" },
-                  e ? "true" : "false"
+                  e ? "true" : "false",
                 );
               case "object":
                 return this.renderObject(e);
@@ -342,7 +342,7 @@
                   "div",
                   { className: "JsonUnknown" },
                   "Unknown Json Value: ",
-                  e
+                  e,
                 );
             }
           }
@@ -353,9 +353,9 @@
               a.createElement(
                 "div",
                 { className: "SectionHeader" },
-                this.props.sHeader
+                this.props.sHeader,
               ),
-              this.renderNode(this.props.oContent)
+              this.renderNode(this.props.oContent),
             );
           }
         }
@@ -390,7 +390,7 @@
                     this.onClickTab(e);
                   },
                 },
-                s[e]
+                s[e],
               )
             );
           }
@@ -409,7 +409,7 @@
                 this.renderTabButton(s.Lighthouse),
               this.props.report.oProperties &&
                 this.renderTabButton(s.Properties),
-              this.renderTabButton(s.Logs)
+              this.renderTabButton(s.Logs),
             );
           }
           renderMainTab() {
@@ -418,7 +418,7 @@
                 "div",
                 { className: "Label", key: "date" },
                 "System report created on ",
-                new Date(this.props.report.reportCreateDate).toString()
+                new Date(this.props.report.reportCreateDate).toString(),
               ),
               a.createElement(h, {
                 key: "general",
@@ -440,7 +440,7 @@
                   sHeader: t.sName,
                   oDetails: t.oDetails,
                   rAdditionalDetails: t.rAdditionalLines,
-                })
+                }),
               );
             return e;
           }
@@ -449,7 +449,7 @@
               a.createElement(
                 "div",
                 { className: "SectionAdditionalDetails", key: "1" },
-                this.props.report.rUSB.join("\n")
+                this.props.report.rUSB.join("\n"),
               ),
             ];
           }
@@ -537,8 +537,8 @@
                 : a.createElement(
                     "div",
                     { className: "ContentArea" },
-                    this.renderViewer()
-                  )
+                    this.renderViewer(),
+                  ),
             );
           }
         }
@@ -620,7 +620,7 @@
                   t[5],
                   parseInt(t[6]),
                   t[7],
-                  parseInt(t[8])
+                  parseInt(t[8]),
                 )),
                 !0);
           }
@@ -890,20 +890,20 @@
                   { className: "BigMessage" },
                   this.state.bDragOver
                     ? "Drop it!"
-                    : "Drop a system report file here to view it."
+                    : "Drop a system report file here to view it.",
                 );
               case g.Error:
                 return a.createElement(
                   "div",
                   { className: "BigMessage" },
                   "Error parsing system report: ",
-                  this.state.sError
+                  this.state.sError,
                 );
               case g.Parsing:
                 return a.createElement(
                   "div",
                   { className: "BigMessage" },
-                  "Parsing system report."
+                  "Parsing system report.",
                 );
               case g.Viewing:
                 return a.createElement(u, { report: this.state.report });
@@ -918,7 +918,7 @@
                 onDragLeave: this.handleDragLeave,
                 onDrop: this.handleDrop,
               },
-              this.renderSystemReport()
+              this.renderSystemReport(),
             );
           }
         }
@@ -927,7 +927,7 @@
           (0, n.gn)([i.ak], v.prototype, "handleDrop", null),
           o.render(
             a.createElement(v, null),
-            document.getElementById("systemReportRoot")
+            document.getElementById("systemReportRoot"),
           );
       },
     },

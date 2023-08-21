@@ -137,7 +137,8 @@ body {
   justify-content: center;
   text-align: center;
 
-  transition: background-color var(--quicklaunch-control-hover-fade-duration),
+  transition:
+    background-color var(--quicklaunch-control-hover-fade-duration),
     box-shadow var(--quicklaunch-control-hover-fade-duration);
 }
 

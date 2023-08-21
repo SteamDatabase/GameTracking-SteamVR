@@ -59,7 +59,7 @@
             n,
             function (t) {
               return e[t];
-            }.bind(null, n)
+            }.bind(null, n),
           );
       return r;
     }),
@@ -111,11 +111,11 @@
             }),
             this.m_wsWebSocketToServer.addEventListener(
               "message",
-              this.OnWebSocketMessage
+              this.OnWebSocketMessage,
             ),
             this.m_wsWebSocketToServer.addEventListener(
               "close",
-              this.OnWebSocketClose
+              this.OnWebSocketClose,
             );
         });
       }
@@ -174,11 +174,11 @@
             r.nMessageId == t.message_id && (r.callback(t), (e = !0));
           e
             ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                (e) => e.nMessageId == t.message_id
+                (e) => e.nMessageId == t.message_id,
               ))
             : console.log(
                 `Received a ${t.type} message, but didn't have a ` +
-                  "matching message_id. Did the other end forget to mirror message_id?"
+                  "matching message_id. Did the other end forget to mirror message_id?",
               ),
             (r = !0);
         }
@@ -210,7 +210,7 @@
           return this.SendMessageAndWaitForResponse(
             "web_server_mailbox",
             t,
-            "mailbox_registered"
+            "mailbox_registered",
           );
         });
       }
@@ -432,31 +432,31 @@
               (i = T("elasticheadtransform", t)),
                 (i.properties["start-angle-threshold"] = M(
                   t,
-                  "start-angle-threshold"
+                  "start-angle-threshold",
                 )),
                 (i.properties["stop-angle-threshold"] = M(
                   t,
-                  "stop-angle-threshold"
+                  "stop-angle-threshold",
                 )),
                 (i.properties["ease-in-time"] = M(t, "ease-in-time")),
                 (i.properties["ease-in-power"] = M(t, "ease-in-power")),
                 (i.properties["ease-out-angle-threshold"] = M(
                   t,
-                  "ease-out-angle-threshold"
+                  "ease-out-angle-threshold",
                 )),
                 (i.properties["ease-out-power"] = M(t, "ease-out-power")),
                 (i.properties["min-angular-velocity"] = M(
                   t,
-                  "min-angular-velocity"
+                  "min-angular-velocity",
                 )),
                 (i.properties["max-angular-velocity"] = M(
                   t,
-                  "max-angular-velocity"
+                  "max-angular-velocity",
                 )),
                 (i.properties["lock-to-horizon"] = R(t, "lock-to-horizon")),
                 (i.properties["translation-behavior"] = E(
                   t,
-                  "translation-behavior"
+                  "translation-behavior",
                 ));
               break;
             case "VSG-LINE":
@@ -575,7 +575,7 @@
               }
               (F = null), (L = []), (B = !1);
             }),
-          0
+          0,
         ));
     }
     function K(e, t) {
@@ -691,7 +691,7 @@
           void 0 !== this.props.iconUri && void 0 !== this.props.iconOverlayKey)
         )
           throw new Error(
-            "DashboardTab cannot have both an explicit iconUri and iconOverlayKey set in props."
+            "DashboardTab cannot have both an explicit iconUri and iconOverlayKey set in props.",
           );
         super.setBuildNodeOverride(this.buildNode),
           (this.m_sMountableUnqualifiedID =
@@ -721,8 +721,8 @@
           D.createElement(
             $,
             { id: this.m_sMountableUnqualifiedID },
-            this.props.children
-          )
+            this.props.children,
+          ),
         );
       }
     }
@@ -777,7 +777,7 @@
             1)
         )
           throw new Error(
-            "Transform cannot have more than one parent_ property set."
+            "Transform cannot have more than one parent_ property set.",
           );
       }
       internalRender() {
@@ -788,7 +788,7 @@
             (r = this.props.transform.scale))
           : ((e = Q(this.props.translation, { x: 0, y: 0, z: 0 })),
             (t = _(
-              h(Q(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180)
+              h(Q(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180),
             )),
             (r =
               "number" == typeof this.props.scale
@@ -813,7 +813,7 @@
             "parent-origin": ie[this.props.parent_origin],
             "parent-id": this.props.parent_id,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -829,7 +829,7 @@
             "visible-3dof": this.props.visibleIn3DOF,
             "visible-6dof": this.props.visibleIn6DOF,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -903,7 +903,7 @@
             void 0 === this.props.rendermodel_component_name)
         )
           throw new Error(
-            "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture."
+            "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture.",
           );
         if (
           void 0 === this.props.width &&
@@ -912,14 +912,14 @@
           !t
         )
           throw new Error(
-            "Panel requires either an explicit width, an explicit height, both an explicit width and height, a target_panel_dpi, or be a rendermodel panel."
+            "Panel requires either an explicit width, an explicit height, both an explicit width and height, a target_panel_dpi, or be a rendermodel panel.",
           );
         if (
           (void 0 !== this.props.width || void 0 !== this.props.height) &&
           void 0 !== this.props.target_dpi_panel_id
         )
           throw new Error(
-            "Panel cannot have both an explicit width/height and target_panel_dpi."
+            "Panel cannot have both an explicit width/height and target_panel_dpi.",
           );
         super.setBuildNodeOverride(this.buildNode);
       }
@@ -940,7 +940,7 @@
           (ye.s_bPanelsAreDirty = !0),
           this.getCurrentRootElement().addEventListener(
             "mousedown",
-            this.onPanelMouseDown
+            this.onPanelMouseDown,
           ),
           this.forceUpdate();
       }
@@ -953,7 +953,7 @@
           this.stopOverDragBlocking(),
           this.getCurrentRootElement().removeEventListener(
             "mousedown",
-            this.onPanelMouseDown
+            this.onPanelMouseDown,
           ),
           (ye.s_bPanelsAreDirty = !0),
           Se.Current().removeEmbeddedPanelUVs(this),
@@ -971,14 +971,14 @@
             0,
             t.y + t.height,
             e.width,
-            e.height - t.height - t.y
+            e.height - t.height - t.y,
           ),
           this.createOverdragBlockingElement(0, t.y, t.x, t.height),
           this.createOverdragBlockingElement(
             t.x + t.width,
             t.y,
             e.width - t.width - t.x,
-            t.height
+            t.height,
           ),
           window.document.addEventListener("mouseup", this.onWindowMouseUp),
           (this.m_bOverdragBlocking = !0);
@@ -1041,13 +1041,13 @@
           (a.properties.width = null != (i = this.props.width) ? i : void 0),
           (a.properties.height = null != (o = this.props.height) ? o : void 0),
           (a.properties["target-dpi-panel-id"] = H(
-            this.props.target_dpi_panel_id
+            this.props.target_dpi_panel_id,
           )),
           (a.properties["target-dpi-multiplier"] =
             this.props.target_dpi_multiplier),
           (a.properties.curvature = this.props.curvature),
           (a.properties["curvature-origin-id"] = H(
-            this.props.curvature_origin_id
+            this.props.curvature_origin_id,
           )),
           (a.properties.interactive = this.props.interactive),
           (a.properties.scrollable = this.props.scrollable),
@@ -1095,7 +1095,7 @@
         return D.createElement(
           "vsg-node",
           { style: { display: this.visibility == le.Hidden ? "none" : null } },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -1217,8 +1217,8 @@
             D.createElement(
               "div",
               { className: "AppSceneGraph", ref: this.m_scalingDomRef },
-              this.state.bFontsLoaded && this.props.children
-            )
+              this.state.bFontsLoaded && this.props.children,
+            ),
           )
         );
       }
@@ -1245,7 +1245,7 @@
           null === this.m_Pixels &&
             (this.m_Pixels = this.m_CanvasContext.createImageData(
               this.m_nEmbeddedDataWidth,
-              Se.k_EmbeddedDataRows
+              Se.k_EmbeddedDataRows,
             )),
           this.updateAllPanelBounds();
       }
@@ -1260,7 +1260,7 @@
           (1 != o
             ? this.m_scalingDomRef.current.setAttribute(
                 "style",
-                "transform: scale(" + o + "); transform-origin: top left"
+                "transform: scale(" + o + "); transform-origin: top left",
               )
             : this.m_scalingDomRef.current.removeAttribute("style"),
           (this.m_fCurrentScale = o),
@@ -1278,7 +1278,7 @@
             0,
             "V".charCodeAt(0),
             "S".charCodeAt(0),
-            "G".charCodeAt(0)
+            "G".charCodeAt(0),
           ),
           this.m_rEmbeddedIndicesToClear.forEach((e) => {
             let t = 1 + 3 * e;
@@ -1300,7 +1300,7 @@
                   s + 2,
                   (65280 & o) >> 8,
                   255 & o,
-                  (65280 & i) >> 8
+                  (65280 & i) >> 8,
                 );
           });
         let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
@@ -1311,7 +1311,7 @@
           this.m_nDirtyXMin,
           0,
           e,
-          this.m_Pixels.height
+          this.m_Pixels.height,
         ),
           (this.m_nDirtyXMin = -1),
           (this.m_nDirtyXMax = -1);
@@ -1352,7 +1352,7 @@
         }
       }.prototype,
       "buildNode",
-      null
+      null,
     ),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
@@ -1416,7 +1416,7 @@
             "off-axis-limit": this.props.fOffAxisLimit,
             "transition-limit": this.props.fTransitionLimit,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -1522,7 +1522,7 @@
             "lock-to-horizon": this.props.lock_to_horizon,
             "translation-behavior": this.props.translation_behavior,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -1534,7 +1534,7 @@
         return D.createElement(
           "vsg-head-facing-transform",
           null,
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -2024,18 +2024,18 @@
           try {
             let e = VRHTML.VRProperties.GetStringProperty(
               this.props.sDevicePath,
-              Pe.RenderModelName_String
+              Pe.RenderModelName_String,
             );
             if (e) {
               let r = VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
                 e,
-                this.props.sInputPath
+                this.props.sInputPath,
               );
               if (r) {
                 let n = VRHTML.VRRenderModels.GetComponentStateForDevicePath(
                   e,
                   r,
-                  this.props.sDevicePath
+                  this.props.sDevicePath,
                 );
                 n && (t.xfTransform = n.xfTrackingToComponentLocal);
               }
@@ -2043,7 +2043,7 @@
           } catch (e) {
             console.log(
               "Component transform invalid for ",
-              this.props.sDevicePath
+              this.props.sDevicePath,
             );
           }
         this.state = t;
@@ -2056,7 +2056,7 @@
             parent_path: this.props.sDevicePath,
             transform: this.state.xfTransform,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -2068,7 +2068,7 @@
         return D.createElement(
           "vsg-callout-transform",
           { offset: Z(this.props.vOffset) },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -2299,7 +2299,7 @@
       Promise.all([
         Object(a.b)(
           ["vrmonitor", "bindingui"],
-          null === (n = s.kb) || void 0 === n ? void 0 : n.GetSteamVRLanguage()
+          null === (n = s.kb) || void 0 === n ? void 0 : n.GetSteamVRLanguage(),
         ),
         l.d.Init(!0),
         c.a.Init(!0),
@@ -2346,7 +2346,7 @@
           this.m_mailbox.Init(u).then(() => {
             this.m_mailbox.RegisterHandler(
               p,
-              this.OnBeginResetSeatedOriginCountdown
+              this.OnBeginResetSeatedOriginCountdown,
             );
           }),
           (this.state = { visible: !1, fading: !1, countdown_seconds: 0 });
@@ -2377,7 +2377,7 @@
               clearTimeout(this.m_fadeFinishTimeout),
               (this.m_fadeFinishTimeout = setTimeout(
                 this.HideOverlay,
-                n.kFadeDurationMs
+                n.kFadeDurationMs,
               )),
               this.setState({ visible: !0, fading: !0, countdown_seconds: 0 }))
             : ((this.m_countdownTimeout = setTimeout(this.CountdownTick, 1e3)),
@@ -2436,18 +2436,18 @@
                     o.createElement(
                       "div",
                       { className: "ResetSeatedCountdownText" },
-                      this.state.countdown_seconds
-                    )
+                      this.state.countdown_seconds,
+                    ),
                   ),
                   o.createElement(
                     "div",
                     { className: "ResetSeatedCountdownTextDesc" },
-                    Object(l.c)("#Resetting_Seated_Origin")
-                  )
-                )
-              )
-            )
-          )
+                    Object(l.c)("#Resetting_Seated_Origin"),
+                  ),
+                ),
+              ),
+            ),
+          ),
         );
       }
     });
@@ -2458,7 +2458,7 @@
         [s.bind],
         h.prototype,
         "OnBeginResetSeatedOriginCountdown",
-        null
+        null,
       ),
       Object(i.b)([s.bind], h.prototype, "CountdownTick", null),
       Object(i.b)([s.bind], h.prototype, "HideOverlay", null),
@@ -2482,15 +2482,15 @@
             viewBox: "0 0 100 100",
             xmlSpace: "preserve",
           },
-          e
+          e,
         ),
         n.createElement(
           "g",
           null,
           n.createElement("path", {
             d: "M93.8,50v28.1c0,8.6-7,15.6-15.6,15.6H21.9c-8.6,0-15.6-7-15.6-15.6V21.9c0-8.6,7-15.6,15.6-15.6H50c1.7,0,3.1,1.4,3.1,3.1\r\n\t\t\t\ts-1.4,3.1-3.1,3.1H21.9c-5.2,0-9.4,4.2-9.4,9.4v56.3c0,5.2,4.2,9.4,9.4,9.4h56.3c5.2,0,9.4-4.2,9.4-9.4V50c0-1.7,1.4-3.1,3.1-3.1\r\n\t\t\t\tS93.8,48.3,93.8,50z M68.8,12.5h14.3L47.8,47.8c-1.2,1.2-1.2,3.2,0,4.4c0,0,0,0,0,0c1.2,1.2,3.2,1.2,4.4,0c0,0,0,0,0,0l35.3-35.3\r\n\t\t\t\tv14.3c0,1.7,1.4,3.1,3.1,3.1l0,0c1.7,0,3.1-1.4,3.1-3.1V9.4c0-0.8-0.3-1.6-0.9-2.2c-0.6-0.6-1.4-0.9-2.2-0.9H68.8\r\n\t\t\t\tc-1.7,0-3.1,1.4-3.1,3.1S67,12.5,68.8,12.5z",
-          })
-        )
+          }),
+        ),
       );
     }
   },
@@ -2539,7 +2539,7 @@
               "Desktop Text",
               1024,
               "",
-              0
+              0,
             ),
               VRHTML.VROverlay.SetKeyboardPositionForOverlay(e, {});
           } else VRHTML.VROverlay.HideKeyboard();
@@ -2589,7 +2589,7 @@
                           : t.onDesktopChange(e);
                       },
                     });
-                  })
+                  }),
             ),
           a.createElement(
             "div",
@@ -2597,7 +2597,7 @@
             a.createElement(
               "div",
               { className: "Label" },
-              Object(d.c)("#Size")
+              Object(d.c)("#Size"),
             ),
             a.createElement(g.a, {
               min: 0.75,
@@ -2628,8 +2628,8 @@
                 : "/dashboard/images/icons/svr_lightmode.svg",
               title: Object(d.c)("#Settings_ToggleDarkMode"),
               onClick: this.props.onToggleDarkMode,
-            })
-          )
+            }),
+          ),
         );
       }
     };
@@ -2701,8 +2701,8 @@
             a.createElement(
               "div",
               { className: "NoDesktopFound" },
-              a.createElement("h2", null, "No desktop found.")
-            )
+              a.createElement("h2", null, "No desktop found."),
+            ),
           );
         let t =
           null != (e = u.d.settings.get(this.desktopViewScaleSettingKey))
@@ -2725,10 +2725,10 @@
             a.createElement(i.R, {
               mountedId: Object(i.f)(
                 c.A,
-                "desktopcursor" + this.currentDesktopIndex
+                "desktopcursor" + this.currentDesktopIndex,
               ),
-            })
-          )
+            }),
+          ),
         );
       }
     };
@@ -2752,7 +2752,7 @@
         let e = [],
           t = this.props.imageUrl.replace(
             /header\.jpg$/,
-            "library_600x900.jpg"
+            "library_600x900.jpg",
           );
         t !== this.props.imageUrl &&
           (e.push(t),
@@ -2760,7 +2760,7 @@
           e.push(this.props.imageUrl),
           this.props.fallbackImageUrl && e.push(this.props.fallbackImageUrl),
           (this.m_imageSources = e.filter(
-            (e) => !y.s_failedImages.includes(e)
+            (e) => !y.s_failedImages.includes(e),
           )),
           (this.m_imageIndex = -1);
       }
@@ -2817,7 +2817,7 @@
                 className: "IconBackgroundBlur",
                 style: e,
               }),
-              t
+              t,
             )),
           a.createElement(
             "div",
@@ -2829,7 +2829,7 @@
             },
             this.state.image && t,
             a.createElement("div", { className: "Title" }, this.props.title),
-            this.props.children && this.props.children
+            this.props.children && this.props.children,
           )
         );
       }
@@ -2860,8 +2860,8 @@
           { className: "ButtonControl", onClick: e.onClick },
           e.side == C.Left
             ? a.createElement(a.Fragment, null, "‹")
-            : a.createElement(a.Fragment, null, "›")
-        )
+            : a.createElement(a.Fragment, null, "›"),
+        ),
       );
     class D extends a.Component {
       constructor(e) {
@@ -2882,7 +2882,7 @@
       }
       requestAnimationFrame() {
         this.m_animationFrameRequestHandle = window.requestAnimationFrame(
-          this.onAnimationFrame
+          this.onAnimationFrame,
         );
       }
       onAnimationFrame() {
@@ -2947,7 +2947,7 @@
           {
             className: Object(S.a)(
               "PaginatedCarousel",
-              this.props.additionalClassNames
+              this.props.additionalClassNames,
             ),
           },
           a.createElement(
@@ -2957,7 +2957,7 @@
               scrollDirection: _.a.Horizontal,
               onScroll: this.onScroll,
             },
-            this.props.children
+            this.props.children,
           ),
           (!1 === this.state.bScrolledToStart ||
             !1 === this.state.bScrolledToEnd) &&
@@ -2975,8 +2975,8 @@
                   side: C.Right,
                   enabled: !this.state.bScrolledToEnd,
                   onClick: this.onRightButtonClick,
-                })
-            )
+                }),
+            ),
         );
       }
     }
@@ -3038,7 +3038,7 @@
               className: Object(S.a)(
                 "AppButtonContainer",
                 ["AppOwned", u.d.probablyOwnedAppkeys.has(this.props.appkey)],
-                ["ShowingPopovers", this.shouldShowHoverContents]
+                ["ShowingPopovers", this.shouldShowHoverContents],
               ),
             },
             a.createElement(
@@ -3050,8 +3050,8 @@
                 onMouseLeave: this.buttonMouseLeave,
                 onClick: this.props.onClick,
               },
-              a.createElement(f, Object.assign({}, e), this.props.children)
-            )
+              a.createElement(f, Object.assign({}, e), this.props.children),
+            ),
           )
         );
       }
@@ -3080,12 +3080,12 @@
                 a.createElement(M, null),
                 a.createElement(M, null),
                 a.createElement(M, null),
-                a.createElement(M, null)
+                a.createElement(M, null),
               ),
             !r &&
               n.map((e) =>
-                a.createElement(k, Object.assign({ key: e.appkey }, e))
-              )
+                a.createElement(k, Object.assign({ key: e.appkey }, e)),
+              ),
           )
         );
       };
@@ -3096,7 +3096,7 @@
     function P() {
       return w.a
         .get(
-          "https://steamcommunity.com/steamvr/ajaxgethomedata/?include_apps=1&include_free_apps=1&num_apps=20"
+          "https://steamcommunity.com/steamvr/ajaxgethomedata/?include_apps=1&include_free_apps=1&num_apps=20",
         )
         .then((e) => e.data);
     }
@@ -3111,7 +3111,7 @@
         a.createElement("img", {
           className: "Icon BlackToWhite",
           src: "/dashboard/images/icons/svr_store.svg",
-        })
+        }),
       );
     var N;
     !(function (e) {
@@ -3130,7 +3130,7 @@
         T.a.instance.RecordUIEvent(
           "QuickStoreAppClick",
           N[t].toLowerCase() + ":" + r,
-          `steam.app.${e}`
+          `steam.app.${e}`,
         ),
           R.b.Instance.openBigPictureStore(e, R.a.QuickStore);
       }
@@ -3176,17 +3176,17 @@
           a.createElement(
             "h2",
             null,
-            Object(d.c)("#StoreSection_TopSingleplayer")
+            Object(d.c)("#StoreSection_TopSingleplayer"),
           ),
           a.createElement(V, { section: N.Singleplayer }),
           a.createElement(
             "h2",
             null,
-            Object(d.c)("#StoreSection_TopMultiplayer")
+            Object(d.c)("#StoreSection_TopMultiplayer"),
           ),
           a.createElement(V, { section: N.Multiplayer }),
           a.createElement("h2", null, Object(d.c)("#StoreSection_TopFree")),
-          a.createElement(V, { section: N.Free })
+          a.createElement(V, { section: N.Free }),
         );
       }
     }
@@ -3203,7 +3203,7 @@
           a.createElement("img", {
             className: "Icon BlackToWhite",
             src: "/dashboard/images/icons/svr_items.svg",
-          })
+          }),
         ),
       A = () =>
         a.createElement(
@@ -3217,7 +3217,7 @@
                 : e.VROverlay.ShowDashboard(c.p);
             },
           },
-          a.createElement("span", null, Object(d.c)("#WelcomeBrowseStore"))
+          a.createElement("span", null, Object(d.c)("#WelcomeBrowseStore")),
         ),
       j = () =>
         a.createElement(
@@ -3227,7 +3227,7 @@
             onClick: () =>
               R.b.Instance.openBigPictureLibrary(null, R.a.QuickLaunch),
           },
-          a.createElement("span", null, Object(d.c)("#WelcomeInstall"))
+          a.createElement("span", null, Object(d.c)("#WelcomeInstall")),
         );
     class U extends a.Component {
       constructor(e) {
@@ -3258,11 +3258,11 @@
                     onClick: () =>
                       R.b.Instance.openBigPictureStore(
                         n.appid,
-                        R.a.QuickLaunch
+                        R.a.QuickLaunch,
                       ),
                   },
-                  a.createElement("img", { src: n.logo })
-                )
+                  a.createElement("img", { src: n.logo }),
+                ),
               );
           }
         }
@@ -3276,16 +3276,16 @@
             a.createElement(
               "div",
               { className: "QuickLaunchWelcomeHeader" },
-              Object(d.c)("#WelcomeHeader")
+              Object(d.c)("#WelcomeHeader"),
             ),
             a.createElement(
               "div",
               { className: "QuickLaunchWelcomeMessage" },
-              Object(d.c)("#WelcomeMessage")
+              Object(d.c)("#WelcomeMessage"),
             ),
             a.createElement(A, null),
-            a.createElement(j, null)
-          )
+            a.createElement(j, null),
+          ),
         );
       }
     }
@@ -3298,7 +3298,7 @@
         T.a.instance.RecordUIEvent(
           "QuickLaunchAppClick",
           (t ? "top" : "bottom") + ":" + r,
-          e
+          e,
         ),
           null === (i = (n = this.props).onGameLaunched) ||
             void 0 === i ||
@@ -3340,7 +3340,7 @@
                 a.createElement("img", {
                   className: "PlayIcon",
                   src: "/dashboard/images/icons/svr_play.svg",
-                })
+                }),
               ),
             }
           );
@@ -3362,7 +3362,7 @@
             a.createElement(F, null),
             a.createElement("h2", null, Object(d.c)("#RecentlyPlayed")),
             a.createElement(E, { className: "TopRow", apps: r }),
-            a.createElement(E, { className: "BottomRow", apps: n })
+            a.createElement(E, { className: "BottomRow", apps: n }),
           );
         }
         return a.createElement(
@@ -3373,7 +3373,7 @@
             debugName: "homepanel",
             additionalClassNames: "QuickLaunch",
           },
-          e
+          e,
         );
       }
     });
@@ -3453,7 +3453,7 @@
           a.createElement(
             "div",
             { className: "ArtworkColumn" },
-            a.createElement(f, { appkey: t, title: r, imageUrl: g })
+            a.createElement(f, { appkey: t, title: r, imageUrl: g }),
           ),
           a.createElement(
             "div",
@@ -3467,7 +3467,7 @@
               },
               o
                 ? Object(d.c)("#Return_To_Home")
-                : Object(d.c)("#Return_To_Game")
+                : Object(d.c)("#Return_To_Game"),
             ),
             c &&
               a.createElement(
@@ -3476,22 +3476,22 @@
                   icon: G.f.PopOut,
                   onClick: this.onOpenAppControllerBindingSettings,
                 },
-                Object(d.c)("#Controller_Bindings")
+                Object(d.c)("#Controller_Bindings"),
               ),
             c &&
               a.createElement(
                 G.e,
                 { icon: G.f.PopOut, onClick: this.onOpenAppVideoSettings },
-                Object(d.c)("#App_Video_Settings")
+                Object(d.c)("#App_Video_Settings"),
               ),
             !o &&
               s &&
               a.createElement(
                 l.a,
                 { className: "ButtonControl", onClick: this.onExitApp },
-                Object(d.c)("#Exit_Game")
-              )
-          )
+                Object(d.c)("#Exit_Game"),
+              ),
+          ),
         );
       }
     }
@@ -3501,7 +3501,7 @@
         [o.bind],
         Q.prototype,
         "onOpenAppControllerBindingSettings",
-        null
+        null,
       ),
       Object(n.b)([o.bind], Q.prototype, "onOpenAppVideoSettings", null);
     var X,
@@ -3583,15 +3583,15 @@
           this.m_mailbox.Init(X.k_sDashboardMailboxName).then(() => {
             this.m_mailbox.RegisterHandler(
               X.k_sSetDashboardFadeSupressionMessage,
-              this.OnSetDashboardFadeSuppression
+              this.OnSetDashboardFadeSuppression,
             ),
               this.m_mailbox.RegisterHandler(
                 X.k_sUpdateDashboardTabsMessage,
-                this.onUpdateDashboardTabs
+                this.onUpdateDashboardTabs,
               ),
               this.m_mailbox.RegisterHandler(
                 X.k_sSetDashboardForceBoundsVisible,
-                this.OnSetDashboardForceBoundsVisible
+                this.OnSetDashboardForceBoundsVisible,
               );
           });
       }
@@ -3607,7 +3607,7 @@
             t == i.D.AppLaunch_Steam ||
             t == i.D.Unknown,
           n = u.d.settings.get(
-            "/settings/dashboard/allowDashboardAutoLaunchWithSteamVRHome"
+            "/settings/dashboard/allowDashboardAutoLaunchWithSteamVRHome",
           ),
           o = u.d.settings.get("/settings/steamvr/enableHomeApp"),
           s = u.d.settings.get(c.k);
@@ -3630,7 +3630,7 @@
         if (
           (t.bShown !== this.state.bShown &&
             ($.b.Instance.playSound(
-              this.state.bShown ? $.a.DashboardOpen : $.a.DashboardClose
+              this.state.bShown ? $.a.DashboardOpen : $.a.DashboardClose,
             ),
             (n = !0)),
           this.state.bShown &&
@@ -3724,7 +3724,7 @@
                   ? void 0
                   : e.VRProperties.GetFloatProperty(
                       i.mb,
-                      i.x.DashboardScale_Float
+                      i.x.DashboardScale_Float,
                     ))
                 ? t
                 : 1),
@@ -3767,7 +3767,7 @@
         return a.createElement(
           i.jb,
           { scale: { x: 1, y: 1 } },
-          a.createElement(i.R, { mountedId: e.mountable_id })
+          a.createElement(i.R, { mountedId: e.mountable_id }),
         );
       }
       computeFilteredOverlayTabs() {
@@ -3834,13 +3834,13 @@
           ? (this.computeFilteredOverlayTabs().includes(s) &&
               u.d.SetSettingsValue(
                 c.w,
-                null != (o = s.summon_overlay_key) ? o : ""
+                null != (o = s.summon_overlay_key) ? o : "",
               ),
             this.setState({ sActiveOverlayID: s.mountable_id }),
             T.a.instance.RecordUIEvent(
               "SetDashboardOverlay",
               null != t ? t : "Button",
-              e
+              e,
             ),
             !0)
           : ((this.m_sOverlayToSwitchToOnLoad = e), !1);
@@ -3890,7 +3890,7 @@
         null === (e = VRHTML) ||
           void 0 === e ||
           e.VRControlPanel.SetCameraRoomViewVisible(
-            !VRHTML.VRControlPanel.GetCameraRoomViewVisible()
+            !VRHTML.VRControlPanel.GetCameraRoomViewVisible(),
           );
       }
       onQuickLaunchButtonClick() {
@@ -3931,7 +3931,7 @@
           VRHTML.VROverlay.GetPrimaryDashboardDevice() >= 0 &&
             (n = VRHTML.VRProperties.GetBoolProperty(
               VRHTML.VROverlay.GetPrimaryDashboardDevice(),
-              i.x.DeviceCanPowerOff_Bool
+              i.x.DeviceCanPowerOff_Bool,
             ));
         }
         const o = q.a.Instance.SceneAppName,
@@ -3990,8 +3990,8 @@
                   ? void 0
                   : e.QuitOpenVR();
               },
-            })
-          )
+            }),
+          ),
         );
       }
       startPopupMenuTimeout(e) {
@@ -4016,7 +4016,7 @@
             onMouseEnter: this.clearPopupMenuTimeout,
             ref: this.m_refPopupMenu,
           },
-          a.createElement(l.b, { className: "PowerMenuPanel" }, e)
+          a.createElement(l.b, { className: "PowerMenuPanel" }, e),
         );
       }
       popupMenuMouseLeave(e) {
@@ -4091,9 +4091,9 @@
                     source: "laser_pointer",
                     wireframe: !1,
                     culling: i.t.Backface,
-                  })
-                )
-              )
+                  }),
+                ),
+              ),
             );
             n.push(c);
           }
@@ -4110,7 +4110,7 @@
                 ? void 0
                 : e.startsWith(c.y)),
             r = u.d.settings.get(
-              "/settings/dashboard/omitDashboardFadeWithSteamVRHome"
+              "/settings/dashboard/omitDashboardFadeWithSteamVRHome",
             ),
             n = !q.a.Instance.SceneAppIsHome || !r;
           this.screenshotMode
@@ -4133,13 +4133,13 @@
             n && a.createElement(ee, null),
             n && a.createElement("span", null, o),
             this.renderInternalOverlays(),
-            this.state.bShown && this.renderDashboard()
+            this.state.bShown && this.renderDashboard(),
           )
         );
       }
       hasOverlay(e) {
         return Object.values(this.m_mapExternalOverlays).some(
-          (t) => t.summon_overlay_key == e
+          (t) => t.summon_overlay_key == e,
         );
       }
       isOverlayActive(e) {
@@ -4209,7 +4209,7 @@
                 sampler: i.s.SingleTap,
                 reflect: 0.05,
               },
-              a.createElement("div", { className: "ControlBarBackground" })
+              a.createElement("div", { className: "ControlBarBackground" }),
             ),
             a.createElement(
               i.jb,
@@ -4263,9 +4263,9 @@
                               this.showPopupMenu(Z.ExternalOverlays),
                             onMouseEnter: this.clearPopupMenuTimeout,
                             onMouseLeave: () => this.startPopupMenuTimeout(500),
-                          })
-                      )
-                    )
+                          }),
+                      ),
+                    ),
                   ),
                   a.createElement(
                     "div",
@@ -4313,12 +4313,12 @@
                                     style: h.d.App,
                                     imageUrl: O,
                                     onClick: () => this.switchToOverlay(c.m),
-                                  })
-                                )
-                              )
-                            )
-                          )
-                        )
+                                  }),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
                       ),
                     a.createElement(h.k, {
                       label: Object(d.c)("#Store"),
@@ -4331,7 +4331,7 @@
                             R.a.QuickStore),
                       style: h.d.Large,
                       onClick: this.onQuickStoreButtonClick,
-                    })
+                    }),
                   ),
                   a.createElement(
                     "div",
@@ -4353,7 +4353,7 @@
                         onHideTray: () => this.showPopupMenu(Z.None),
                         onMouseEnter: this.clearPopupMenuTimeout,
                         onMouseLeave: () => this.startPopupMenuTimeout(500),
-                      })
+                      }),
                     ),
                     y &&
                       a.createElement(h.k, {
@@ -4369,8 +4369,8 @@
                             ? void 0
                             : e.VROverlay.ShowDashboard(c.y);
                         },
-                      })
-                  )
+                      }),
+                  ),
                 ),
                 a.createElement(b, {
                   ref: this.m_refDesktopTray,
@@ -4396,16 +4396,16 @@
                   onMouseMove: this.clearPopupMenuTimeout,
                   onMouseLeave: this.popupMenuMouseLeave,
                   sort_depth_bias: 0.4,
-                })
-              )
+                }),
+              ),
             ),
             a.createElement(
               i.jb,
               { translation: k, scale: { y: 1.5, x: 1.5 } },
               a.createElement(i.R, {
                 mountedId: Object(i.f)(c.A, "system.keyboard"),
-              })
-            )
+              }),
+            ),
           )
         );
       }
@@ -4445,7 +4445,7 @@
                   void 0 === e ||
                   e.VRDashboardManager.HideDashboard("game_launched");
               },
-            })
+            }),
           ),
           a.createElement(
             i.j,
@@ -4456,7 +4456,7 @@
             },
             a.createElement(B, {
               visible: this.state.bShown && this.isOverlayActive(c.p),
-            })
+            }),
           ),
           a.createElement(
             i.j,
@@ -4464,7 +4464,7 @@
             a.createElement(Q, {
               visible: this.state.bShown && this.isOverlayActive(c.m),
               onExitGame: () => this.switchToOverlay(c.o),
-            })
+            }),
           ),
           a.createElement(
             i.j,
@@ -4477,8 +4477,8 @@
             a.createElement(v, {
               visible: this.state.bShown && this.isOverlayActive(c.i),
               ref: this.m_refDesktopView,
-            })
-          )
+            }),
+          ),
         );
       }
       renderDashboard() {
@@ -4539,12 +4539,12 @@
                       this.renderStatusBarTitle(),
                       a.createElement(h.l, {
                         role: i.v.TrackedControllerRole_LeftHand,
-                      })
+                      }),
                     ),
                     a.createElement(
                       "div",
                       { className: "Section Center" },
-                      a.createElement(h.g, null)
+                      a.createElement(h.g, null),
                     ),
                     a.createElement(
                       "div",
@@ -4557,17 +4557,17 @@
                         { className: "SteamLogo" },
                         a.createElement("img", {
                           src: "/dashboard/images/icons/vr_steam.svg",
-                        })
-                      )
-                    )
-                  )
-                )
-              )
+                        }),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ),
             a.createElement(
               i.jb,
               { translation: { y: -1.03375, z: 0.05 } },
-              this.renderActiveOverlay()
+              this.renderActiveOverlay(),
             ),
             a.createElement(
               i.jb,
@@ -4575,7 +4575,7 @@
               a.createElement(
                 i.jb,
                 { rotation: { x: -35 } },
-                this.renderControlBar(n, o)
+                this.renderControlBar(n, o),
               ),
               this.state.eShowPopupMenu == Z.Power &&
                 a.createElement(
@@ -4595,8 +4595,8 @@
                       debug_name: "Power Menu",
                       sort_depth_bias: -0.1,
                     },
-                    this.renderPowerMenu()
-                  )
+                    this.renderPowerMenu(),
+                  ),
                 ),
               this.state.eShowPopupMenu == Z.ExternalOverlays &&
                 a.createElement(
@@ -4630,15 +4630,15 @@
                               this.switchToOverlay(e.summon_overlay_key),
                                 this.showPopupMenu(Z.None);
                             },
-                          })
+                          }),
                         ),
-                        " "
-                      )
-                    )
-                  )
-                )
-            )
-          )
+                        " ",
+                      ),
+                    ),
+                  ),
+                ),
+            ),
+          ),
         );
       }
     });
@@ -4656,13 +4656,13 @@
         [o.bind],
         re.prototype,
         "OnSetDashboardFadeSuppression",
-        null
+        null,
       ),
       Object(n.b)(
         [o.bind],
         re.prototype,
         "OnSetDashboardForceBoundsVisible",
-        null
+        null,
       ),
       Object(n.b)([o.bind], re.prototype, "onUpdateDashboardTabs", null),
       Object(n.b)([o.bind], re.prototype, "show", null),
@@ -4682,7 +4682,7 @@
         [o.bind],
         re.prototype,
         "renderExternalOverlayControlBarButton",
-        null
+        null,
       ),
       Object(n.b)([m.m], re, "s_dashboardUserDistance", void 0),
       Object(n.b)([m.m], re, "s_dashboardUserScale", void 0),
@@ -4706,7 +4706,7 @@
           this.m_mailbox.Init("legacy_debugger"),
           this.m_mailbox.RegisterHandler(
             "legacy_input_frame",
-            this.OnLegacyInputFrame
+            this.OnLegacyInputFrame,
           ),
           VRHTML)
         ) {
@@ -4731,8 +4731,8 @@
             i.createElement(
               "div",
               { className: "Label LegacyDebuggerGroup" },
-              "Pressed:"
-            )
+              "Pressed:",
+            ),
           ),
           e.pressed)
         )
@@ -4741,24 +4741,24 @@
               i.createElement(
                 "div",
                 { className: "Label LegacyDebuggerButtonName" },
-                r
-              )
+                r,
+              ),
             );
         else
           t.push(
             i.createElement(
               "div",
               { className: "Label LegacyDebuggerButtonName" },
-              "None"
-            )
+              "None",
+            ),
           );
         if (
           (t.push(
             i.createElement(
               "div",
               { className: "Label LegacyDebuggerGroup" },
-              "Touched:"
-            )
+              "Touched:",
+            ),
           ),
           e.touched)
         )
@@ -4767,24 +4767,24 @@
               i.createElement(
                 "div",
                 { className: "Label LegacyDebuggerButtonName" },
-                r
-              )
+                r,
+              ),
             );
         else
           t.push(
             i.createElement(
               "div",
               { className: "Label LegacyDebuggerButtonName" },
-              "None"
-            )
+              "None",
+            ),
           );
         if (
           (t.push(
             i.createElement(
               "div",
               { className: "Label LegacyDebuggerGroup" },
-              "Supported:"
-            )
+              "Supported:",
+            ),
           ),
           e.supported_buttons)
         )
@@ -4793,23 +4793,23 @@
               i.createElement(
                 "div",
                 { className: "Label LegacyDebuggerButtonName" },
-                r
-              )
+                r,
+              ),
             );
         else
           t.push(
             i.createElement(
               "div",
               { className: "Label LegacyDebuggerButtonName" },
-              "None"
-            )
+              "None",
+            ),
           );
         t.push(
           i.createElement(
             "div",
             { className: "Label LegacyDebuggerGroup" },
-            "Axis:"
-          )
+            "Axis:",
+          ),
         );
         for (let r of e.axis)
           t.push(
@@ -4819,8 +4819,8 @@
               "X: ",
               r.x.toFixed(2),
               " Y: ",
-              r.y.toFixed(2)
-            )
+              r.y.toFixed(2),
+            ),
           );
         return t;
       }
@@ -4833,25 +4833,25 @@
                 "div",
                 { className: "FlexColumn LegacyDebuggerController" },
                 i.createElement("div", { className: "Label" }, "Left"),
-                this.renderController(this.state.currentState.left)
+                this.renderController(this.state.currentState.left),
               ),
               i.createElement(
                 "div",
                 { className: "FlexColumn LegacyDebuggerController" },
                 i.createElement("div", { className: "Label" }, "Right"),
-                this.renderController(this.state.currentState.right)
+                this.renderController(this.state.currentState.right),
               ),
               i.createElement(
                 "div",
                 { className: "FlexColumn LegacyDebuggerController" },
                 i.createElement("div", { className: "Label" }, "HMD"),
-                this.renderController(this.state.currentState.hmd)
-              )
+                this.renderController(this.state.currentState.hmd),
+              ),
             )
           : i.createElement(
               "div",
               { className: "Label" },
-              Object(s.c)("#LegacyDebugger_NoApp")
+              Object(s.c)("#LegacyDebugger_NoApp"),
             );
       }
     }
@@ -4867,8 +4867,8 @@
           i.createElement(
             "div",
             { className: "FlexFullWidthRowCentered LegacyDebuggerWrapper" },
-            i.createElement(l, null)
-          )
+            i.createElement(l, null),
+          ),
         );
       }
     }
@@ -4930,69 +4930,69 @@
           this.props.visualizer.RegisterSourceVisualizer(
             this.props.devicePath,
             this.props.sourcePath + "/click",
-            this.ComponentUpdated
+            this.ComponentUpdated,
           ),
           this.props.source.touch &&
             this.props.visualizer.RegisterSourceVisualizer(
               this.props.devicePath,
               this.props.sourcePath + "/touch",
-              this.ComponentUpdated
+              this.ComponentUpdated,
             ),
           this.props.source.value &&
             this.props.visualizer.RegisterSourceVisualizer(
               this.props.devicePath,
               this.props.sourcePath + "/value",
-              this.ComponentUpdated
+              this.ComponentUpdated,
             ),
           ("joystick" != this.props.source.type &&
             "trackpad" != this.props.source.type) ||
             (this.props.visualizer.RegisterSourceVisualizer(
               this.props.devicePath,
               this.props.sourcePath + "/x",
-              this.ComponentUpdated
+              this.ComponentUpdated,
             ),
             this.props.visualizer.RegisterSourceVisualizer(
               this.props.devicePath,
               this.props.sourcePath + "/y",
-              this.ComponentUpdated
+              this.ComponentUpdated,
             )),
           this.props.source.force &&
             this.props.visualizer.RegisterSourceVisualizer(
               this.props.devicePath,
               this.props.sourcePath + "/force",
-              this.ComponentUpdated
+              this.ComponentUpdated,
             );
       }
       UnregisterForSourceUpdates() {
         this.props.source.click &&
           this.props.visualizer.UnregisterSourceVisualizer(
             this.props.devicePath,
-            this.props.sourcePath + "/click"
+            this.props.sourcePath + "/click",
           ),
           this.props.source.touch &&
             this.props.visualizer.UnregisterSourceVisualizer(
               this.props.devicePath,
-              this.props.sourcePath + "/touch"
+              this.props.sourcePath + "/touch",
             ),
           this.props.source.value &&
             this.props.visualizer.UnregisterSourceVisualizer(
               this.props.devicePath,
-              this.props.sourcePath + "/value"
+              this.props.sourcePath + "/value",
             ),
           ("joystick" != this.props.source.type &&
             "trackpad" != this.props.source.type) ||
             (this.props.visualizer.UnregisterSourceVisualizer(
               this.props.devicePath,
-              this.props.sourcePath
+              this.props.sourcePath,
             ),
             this.props.visualizer.UnregisterSourceVisualizer(
               this.props.devicePath,
-              this.props.sourcePath
+              this.props.sourcePath,
             )),
           this.props.source.force &&
             this.props.visualizer.UnregisterSourceVisualizer(
               this.props.devicePath,
-              this.props.sourcePath + "/force"
+              this.props.sourcePath + "/force",
             );
       }
       ComponentUpdated(e, t, r) {
@@ -5061,7 +5061,7 @@
           o.createElement(
             "div",
             { className: "VisualizerButtonContainer" },
-            o.createElement("div", { className: "VisualizerButtonBase" + e })
+            o.createElement("div", { className: "VisualizerButtonBase" + e }),
           )
         );
       }
@@ -5073,13 +5073,16 @@
           o.createElement(
             "div",
             { className: "VisualizerLabel" },
-            Object(a.c)(e)
+            Object(a.c)(e),
           ),
           o.createElement(
             "div",
             { className: "TriggerBarBackground" },
-            o.createElement("div", { className: "TriggerBarContent", style: n })
-          )
+            o.createElement("div", {
+              className: "TriggerBarContent",
+              style: n,
+            }),
+          ),
         );
       }
       UpdateSVGPath() {
@@ -5140,10 +5143,10 @@
                 { className: "Label Title", ref: this.m_nameRef },
                 c.a.LocalizeControllerString(
                   this.props.controllerType,
-                  this.props.sourcePath
-                )
+                  this.props.sourcePath,
+                ),
               ),
-              this.renderHeaderVisualization()
+              this.renderHeaderVisualization(),
             ),
             this.renderBodyVisualization(),
             o.createElement(
@@ -5168,8 +5171,8 @@
                     offset: "100%",
                     stopColor: "var(--bordercolor)",
                     stopOpacity: "0",
-                  })
-                )
+                  }),
+                ),
               ),
               o.createElement("polyline", {
                 id: "SourceLine",
@@ -5187,8 +5190,8 @@
                 id: "SourceCircle",
                 r: "2rem",
                 fill: "url(#buttonGradient)",
-              })
-            )
+              }),
+            ),
           )
         );
       }
@@ -5218,14 +5221,14 @@
             this.renderBar(
               "#SourceInputMode_Pull",
               "TriggerValue",
-              this.state.value
+              this.state.value,
             ),
           this.props.source.force &&
             this.renderBar(
               "#SourceInputMode_Force",
               "TriggerForce",
-              this.state.force
-            )
+              this.state.force,
+            ),
         );
       }
     }
@@ -5259,7 +5262,7 @@
               o.createElement(
                 "div",
                 { className: "VisualizerLabel" },
-                Object(a.c)("#SourceInputMode_Position")
+                Object(a.c)("#SourceInputMode_Position"),
               ),
               o.createElement(
                 "div",
@@ -5274,18 +5277,18 @@
                       o.createElement(
                         "div",
                         { className: "TrackpadVisualizerPipContainer" },
-                        o.createElement("div", { className: t })
-                      )
-                    )
-                )
-              )
+                        o.createElement("div", { className: t }),
+                      ),
+                    ),
+                ),
+              ),
             ),
             this.props.source.force &&
               this.renderBar(
                 "#SourceInputMode_Force",
                 "TriggerForce",
-                this.state.force
-              )
+                this.state.force,
+              ),
           )
         );
       }
@@ -5369,7 +5372,7 @@
               "div",
               { key: n },
               "Need to add visualizer for ",
-              t.type
+              t.type,
             );
         }
       }
@@ -5431,7 +5434,7 @@
                   src: e,
                   style: { transform: t },
                 }),
-                o.createElement(p.a, { onReflow: this.OnImageReflow })
+                o.createElement(p.a, { onReflow: this.OnImageReflow }),
               )
             : null
         );
@@ -5471,14 +5474,14 @@
           o.createElement(
             "div",
             { className: "VisualizerLeft ControllerVisualizerEntries" },
-            e
+            e,
           ),
           this.renderImage(),
           o.createElement(
             "div",
             { className: "VisualizerRight ControllerVisualizerEntries" },
-            t
-          )
+            t,
+          ),
         );
       }
     }
@@ -5492,7 +5495,7 @@
           (this.m_observeDisposer = null),
           this.m_mailbox.RegisterHandler(
             "update_component_states",
-            this.OnUpdateComponentStates
+            this.OnUpdateComponentStates,
           ),
           this.m_mailbox
             .Init("controller_visualizer")
@@ -5502,11 +5505,11 @@
                 (this.m_observeDisposer = Object(m.n)(
                   c.a,
                   "ConnectedDevices",
-                  this.OnConnectedDevicesChanged
+                  this.OnConnectedDevicesChanged,
                 )),
                 this.SetDefaultDeviceIfNecessary(),
                 null
-              )
+              ),
             ),
           (this.state = { devicePath: null });
       }
@@ -5565,7 +5568,7 @@
       }
       GetSortedDevices() {
         return c.a.ConnectedDevices.sort(
-          (e, t) => this.GetDeviceSortOrder(e) - this.GetDeviceSortOrder(t)
+          (e, t) => this.GetDeviceSortOrder(e) - this.GetDeviceSortOrder(t),
         );
       }
       render() {
@@ -5583,8 +5586,8 @@
             o.createElement(
               "div",
               { className: "VisualizerLabel" },
-              Object(a.c)("#TestController_NoController")
-            )
+              Object(a.c)("#TestController_NoController"),
+            ),
           );
         for (let n of r)
           "TrackedDeviceClass_HMD" != n.class &&
@@ -5619,7 +5622,7 @@
               devicePath: this.state.devicePath,
               serialNumber: e,
               visualizer: this,
-            })
+            }),
         );
       }
     };
@@ -5739,14 +5742,14 @@
                     scrollDirection: r ? b.a.Vertical : b.a.None,
                     className: Object(u.a)(
                       "DashboardPanel",
-                      e.additionalClassNames
+                      e.additionalClassNames,
                     ),
                     style: e.additionalStyle,
                   },
-                  e.children
-                )
-              )
-            )
+                  e.children,
+                ),
+              ),
+            ),
           ),
           s.createElement(
             p.X,
@@ -5766,11 +5769,11 @@
             s.createElement("div", {
               className: Object(u.a)(
                 "DashboardPanelBackground",
-                e.additionalClassNames
+                e.additionalClassNames,
               ),
               style: e.additionalStyle,
-            })
-          )
+            }),
+          ),
         );
       };
     function E() {
@@ -5779,7 +5782,7 @@
         { className: "ActivitySpinner" },
         s.createElement("div", { className: "Bar" }),
         s.createElement("div", { className: "Bar" }),
-        s.createElement("div", { className: "Bar" })
+        s.createElement("div", { className: "Bar" }),
       );
     }
     class R extends s.Component {
@@ -5816,8 +5819,8 @@
               { className: "Clock" },
               t,
               " ",
-              s.createElement("span", { className: "Suffix" }, r)
-            )
+              s.createElement("span", { className: "Suffix" }, r),
+            ),
           )
         );
       }
@@ -5829,7 +5832,7 @@
         s.createElement("div", { className: "HoverGradient" }),
         s.createElement("div", { className: "ClickGradient" }),
         s.createElement("span", null, e.label),
-        e.lineBelow && s.createElement("div", { className: "LineBelow" })
+        e.lineBelow && s.createElement("div", { className: "LineBelow" }),
       );
     }
     Object(o.b)([a.bind], R.prototype, "updateTime", null);
@@ -5865,11 +5868,11 @@
                 s.createElement(
                   "div",
                   { className: "ControlBarButtonTooltip" },
-                  this.props.text
-                )
-              )
-            )
-          )
+                  this.props.text,
+                ),
+              ),
+            ),
+          ),
         );
       }
     });
@@ -5892,7 +5895,7 @@
       s.createElement(
         "div",
         { className: Object(u.a)("ControlBarGroup", T[e.style]) },
-        e.children
+        e.children,
       );
     let N = class extends s.Component {
       constructor(e) {
@@ -5923,7 +5926,7 @@
               P[((e = this.props.imageStyle), null != e ? e : P.Center)] +
                 "Image",
               ["Disabled", !1 === this.props.enabled],
-              ["Active", !!this.props.active]
+              ["Active", !!this.props.active],
             ),
             style: {
               "--image-url": this.props.imageUrl
@@ -5944,13 +5947,13 @@
               s.createElement(g.a, {
                 allowableParentSelectors: [".DashboardMain"],
                 panelAnchorID: this.props.centerPanelAnchorID,
-              })
+              }),
             ),
           s.createElement(w, {
             text: this.props.label,
             ref: this.m_refTooltip,
           }),
-          s.createElement("img", { src: this.props.imageUrl })
+          s.createElement("img", { src: this.props.imageUrl }),
         );
       }
     };
@@ -5961,7 +5964,7 @@
       s.createElement(
         x,
         { style: e.style },
-        s.createElement(N, Object.assign({}, e))
+        s.createElement(N, Object.assign({}, e)),
       );
     class B extends s.Component {
       constructor(e) {
@@ -5979,7 +5982,7 @@
           null === (e = VRHTML) || void 0 === e
             ? void 0
             : e.RegisterForBatteryStateChangedEvents(
-                this.onBatteryStateChanged
+                this.onBatteryStateChanged,
               )),
           (this.m_DeviceRoleChangedCallbackHandle =
             null === (t = VRHTML) || void 0 === t
@@ -6007,7 +6010,7 @@
         let e = !1,
           t = !1;
         const r = VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-          this.props.role
+          this.props.role,
         );
         if (
           (r != this.deviceIndex &&
@@ -6015,29 +6018,29 @@
           r != p.lb &&
             ((e = VRHTML.VRProperties.GetBoolProperty(
               r,
-              p.x.DeviceProvidesBatteryStatus_Bool
+              p.x.DeviceProvidesBatteryStatus_Bool,
             )),
             e))
         ) {
           const e = VRHTML.VRProperties.GetFloatProperty(
             r,
-            p.x.DeviceBatteryPercentage_Float
+            p.x.DeviceBatteryPercentage_Float,
           );
           (t = VRHTML.VRProperties.GetBoolProperty(
             r,
-            p.x.DeviceIsCharging_Bool
+            p.x.DeviceIsCharging_Bool,
           )),
             null == this.batteryLevelStable || 0 == this.batteryLevelStable
               ? (this.batteryLevelStable = e)
               : ((this.batteryLevelStable = Math.min(
                   this.batteryLevelStable,
                   e + B.kBatteryLevelHysteresis,
-                  1
+                  1,
                 )),
                 (this.batteryLevelStable = Math.max(
                   this.batteryLevelStable,
                   e - B.kBatteryLevelHysteresis,
-                  0
+                  0,
                 )));
         }
         let n = C.a.GetBatteryIcon(e, t, this.batteryLevelStable);
@@ -6060,7 +6063,7 @@
         return s.createElement(
           "div",
           { className: "BatteryStatus" },
-          s.createElement("img", { src: this.state.batteryIconPath })
+          s.createElement("img", { src: this.state.batteryIconPath }),
         );
       }
     }
@@ -6089,14 +6092,14 @@
               s.createElement("img", {
                 className: "BlackToWhite",
                 src: e.iconUrl,
-              })
+              }),
             );
             break;
           default:
             n = s.createElement(
               "div",
               { className: "Icon" },
-              s.createElement("img", { src: e.iconUrl })
+              s.createElement("img", { src: e.iconUrl }),
             );
         }
       return s.createElement("div", { className: "Title" }, n, e.name);
@@ -6123,7 +6126,7 @@
           null === (e = VRHTML) || void 0 === e
             ? void 0
             : e.VRCompositor.RegisterForTrackingSpaceChangedEvents(
-                this.onTrackingSpaceChanged
+                this.onTrackingSpaceChanged,
               )),
           this.onTrackingSpaceChanged();
       }
@@ -6207,7 +6210,7 @@
               id: this.m_sAnchorID,
               translation: { y: 0.01 * Math.abs(t), z: -0.03 * Math.abs(t) },
               rotation: { y: 15 * t, z: 2 * t },
-            })
+            }),
           ),
           s.createElement(
             g.b,
@@ -6247,15 +6250,15 @@
                       {
                         className: Object(u.a)(
                           "ControlBarTray",
-                          this.props.additionalClassNames
+                          this.props.additionalClassNames,
                         ),
                         onMouseEnter: this.props.onMouseEnter,
                         onMouseMove: this.props.onMouseMove,
                         onMouseLeave: this.props.onMouseLeave,
                         ref: this.m_refPanelElem,
                       },
-                      this.props.children
-                    )
+                      this.props.children,
+                    ),
                   ),
                   s.createElement(
                     p.jb,
@@ -6276,13 +6279,13 @@
                       s.createElement("div", {
                         className: "ControlBarTrayBackground",
                         ref: this.m_refBackgroundElem,
-                      })
-                    )
-                  )
-                )
-              )
-            )
-          )
+                      }),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
         );
       }
     }
@@ -6315,7 +6318,7 @@
       get showAudioMirrorControls() {
         return (
           O.d.settings.get(
-            "/settings/audio/enablePlaybackMirrorIndependentVolume"
+            "/settings/audio/enablePlaybackMirrorIndependentVolume",
           ) && O.d.settings.get("/settings/audio/enablePlaybackMirror")
         );
       }
@@ -6348,7 +6351,7 @@
                 src: y.a.Instance.microphoneMuted
                   ? "/dashboard/images/icons/svr_mic_mute.svg"
                   : "/dashboard/images/icons/svr_mic_active.svg",
-              })
+              }),
             ),
             s.createElement(H, {
               title: Object(l.c)("#MicrophoneVolume"),
@@ -6364,7 +6367,7 @@
                 y.a.Instance.microphoneMuted,
               ]),
               interactionEndSoundEffect: d.a.VolumePreview,
-            })
+            }),
           ),
           this.showAudioMirrorControls &&
             s.createElement(
@@ -6384,7 +6387,7 @@
                   src: y.a.Instance.mirrorMuted
                     ? "/dashboard/images/icons/svr_volume_mirror_mute.svg"
                     : "/dashboard/images/icons/svr_volume_mirror.svg",
-                })
+                }),
               ),
               s.createElement(H, {
                 title: Object(l.c)("#AudioMirrorVolume"),
@@ -6401,7 +6404,7 @@
                   y.a.Instance.mirrorMuted,
                 ]),
                 interactionEndSoundEffect: d.a.VolumePreview,
-              })
+              }),
             ),
           s.createElement(
             "div",
@@ -6419,7 +6422,7 @@
                 src: y.a.Instance.muted
                   ? "/dashboard/images/icons/svr_volume_mute.svg"
                   : "/dashboard/images/icons/svr_volume.svg",
-              })
+              }),
             ),
             s.createElement(H, {
               title: Object(l.c)("#HeadsetVolume"),
@@ -6433,8 +6436,8 @@
               valueStyleVariant: v.c.OnHandle,
               additionalClassName: Object(u.a)(["Muted", y.a.Instance.muted]),
               interactionEndSoundEffect: d.a.VolumePreview,
-            })
-          )
+            }),
+          ),
         );
       }
     };
@@ -6496,8 +6499,8 @@
                 onInteractionStart: this.onInteractionStart,
                 onInteractionEnd: this.onInteractionEnd,
                 ref: this.props.sliderRef,
-              })
-            )
+              }),
+            ),
           )
         );
       }
@@ -6532,7 +6535,7 @@
             className: Object(u.a)(
               "ButtonControl",
               "Round",
-              this.props.className
+              this.props.className,
             ),
             onMouseEnter: this.onMouseEnter,
             onMouseLeave: this.onMouseLeave,
@@ -6542,7 +6545,7 @@
               text: this.props.title,
               ref: this.m_refTooltip,
             }),
-          this.props.children
+          this.props.children,
         );
       }
     };
@@ -6589,7 +6592,7 @@
         window.document.removeEventListener("mouseup", this.onWindowMouseUp),
           window.document.removeEventListener(
             "mousemove",
-            this.onWindowMouseMove
+            this.onWindowMouseMove,
           ),
           (null === (e = this.slider) || void 0 === e ? void 0 : e.isSliding) &&
             (null === (r = (t = this.props).onHideTray) ||
@@ -6624,7 +6627,7 @@
             "ButtonControl",
             ["Active", e.active],
             ["WithIcon", !!e.iconUrl],
-            e.additionalClassNames
+            e.additionalClassNames,
           ),
           onClick: e.onClick,
           onMouseEnter: () => {
@@ -6642,7 +6645,7 @@
           s.createElement("img", {
             className: "Icon BlackToWhite",
             src: e.iconUrl,
-          })
+          }),
       );
     };
   },
@@ -6674,14 +6677,14 @@
         l.a.SetTrackerBinding(
           this.props.trackerPath,
           e,
-          this.trackerConfig.controller_role
+          this.trackerConfig.controller_role,
         );
       }
       OnControllerRoleChanged(e) {
         l.a.SetTrackerBinding(
           this.props.trackerPath,
           this.trackerConfig.role,
-          e
+          e,
         );
       }
       BuzzTracker() {
@@ -6710,14 +6713,14 @@
         r.includes("vive_tracker") &&
           (r = r.substring(
             r.indexOf("vive_tracker") + "vive_tracker".length,
-            r.length
+            r.length,
           ));
         let n = null;
         return (
           this.IsConnected()
             ? this.IsIdentifiable() ||
               (n = Object(a.c)(
-                "#Settings_ViveTracker_Identify_NotIdentifiable"
+                "#Settings_ViveTracker_Identify_NotIdentifiable",
               ))
             : (n = Object(a.c)("#Settings_ViveTracker_Identify_NotConnected")),
           i.createElement(
@@ -6731,14 +6734,14 @@
                 title: Object(a.c)(
                   this.IsConnected()
                     ? "#Settings_ViveTracker_Connected"
-                    : "#Settings_ViveTracker_Disconnected"
+                    : "#Settings_ViveTracker_Disconnected",
                 ),
                 className: Object(h.a)(
                   "TrackerConnectionIndicator",
                   ["Connected", c.a.connected && this.IsConnected()],
-                  ["Disconnected", c.a.connected && !this.IsConnected()]
+                  ["Disconnected", c.a.connected && !this.IsConnected()],
                 ),
-              })
+              }),
             ),
             i.createElement(
               "div",
@@ -6753,9 +6756,9 @@
                     enabled: this.IsIdentifiable(),
                     onClick: this.BuzzTracker,
                   },
-                  Object(a.c)("#TrackerEditor_BuzzTracker")
-                )
-              )
+                  Object(a.c)("#TrackerEditor_BuzzTracker"),
+                ),
+              ),
             ),
             i.createElement(
               "div",
@@ -6775,8 +6778,8 @@
                   items: e,
                   value: this.trackerConfig.controller_role,
                   onChange: this.OnControllerRoleChanged,
-                })
-            )
+                }),
+            ),
           )
         );
       }
@@ -6794,7 +6797,7 @@
       componentDidMount() {
         (this.m_nGetInputStateIntervalHandle = window.setInterval(
           () => u.a.GetInputState(),
-          2e3
+          2e3,
         )),
           u.a.GetInputState();
       }
@@ -6812,7 +6815,7 @@
                 key: r,
                 trackerPath: t.device_path_string,
                 validTrackerRoles: e.valid_roles,
-              })
+              }),
             )),
           i.createElement("div", { className: "TrackerEditorModal" }, t)
         );
@@ -6844,7 +6847,7 @@
           null === (e = s.kb) || void 0 === e
             ? void 0
             : e.RegisterForBatteryStateChangedEvents(
-                this.OnBatteryStateChanged
+                this.OnBatteryStateChanged,
               )),
           (this.m_DeviceRoleChangedCallbackHandle =
             null === (t = s.kb) || void 0 === t
@@ -6872,10 +6875,10 @@
         if (!s.kb) return;
         const t = s.kb.VRProperties.GetBoolProperty(
             this.props.trackedDeviceIndex,
-            s.x.DeviceProvidesBatteryStatus_Bool
+            s.x.DeviceProvidesBatteryStatus_Bool,
           ),
           r = s.kb.VRSystem.GetControllerRoleForTrackedDeviceIndex(
-            this.props.trackedDeviceIndex
+            this.props.trackedDeviceIndex,
           );
         let n = !1;
         if (t) {
@@ -6883,25 +6886,25 @@
             null !=
             (e = s.kb.VRProperties.GetFloatProperty(
               this.props.trackedDeviceIndex,
-              s.x.DeviceBatteryPercentage_Float
+              s.x.DeviceBatteryPercentage_Float,
             ))
               ? e
               : 0;
           (n = s.kb.VRProperties.GetBoolProperty(
             this.props.trackedDeviceIndex,
-            s.x.DeviceIsCharging_Bool
+            s.x.DeviceIsCharging_Bool,
           )),
             null == this.batteryLevelStable || 0 == this.batteryLevelStable
               ? (this.batteryLevelStable = t)
               : ((this.batteryLevelStable = Math.min(
                   this.batteryLevelStable,
                   t + a.kBatteryLevelHysteresis,
-                  1
+                  1,
                 )),
                 (this.batteryLevelStable = Math.max(
                   this.batteryLevelStable,
                   t - a.kBatteryLevelHysteresis,
-                  0
+                  0,
                 )));
         }
         let i = a.GetBatteryIcon(t, n, this.batteryLevelStable),
@@ -6982,7 +6985,7 @@
                 i.createElement("img", {
                   className: "ControllerHand",
                   src: this.state.roleIconPath,
-                })
+                }),
               ),
               i.createElement(
                 "div",
@@ -6999,10 +7002,10 @@
                 i.createElement("img", {
                   className: "ControllerBattery",
                   src: this.state.batteryIconPath,
-                })
-              )
-            )
-          )
+                }),
+              ),
+            ),
+          ),
         );
       }
     }

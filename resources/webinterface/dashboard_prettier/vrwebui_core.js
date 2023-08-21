@@ -64,7 +64,7 @@
         "Minified React error #" +
           e +
           "; visit %s for the full message or use the non-minified dev environment for full errors and additional helpful warnings. ",
-        n
+        n,
       );
     }
     function o(e, t, n, r, o, i, a, u, l) {
@@ -1550,7 +1550,7 @@
           "[object Object]" === Object.prototype.toString.call(t)
             ? "object with keys {" + Object.keys(t).join(", ") + "}"
             : t,
-          ""
+          "",
         );
     }
     function gt(e) {
@@ -1780,7 +1780,7 @@
                         (o = i(
                           s,
                           a.type === pr ? a.props.children : a.props,
-                          l
+                          l,
                         )),
                         (o.ref = vt(e, s, a)),
                         (o.return = e),
@@ -1995,7 +1995,7 @@
         },
         function (e, t) {
           e.memoizedState = t;
-        }
+        },
       );
       var N = e.adoptClassInstance,
         I = e.callGetDerivedStateFromProps,
@@ -2701,7 +2701,7 @@
                     e.componentDidUpdate(
                       o,
                       t,
-                      e.__reactInternalSnapshotBeforeUpdate
+                      e.__reactInternalSnapshotBeforeUpdate,
                     );
                 }
               (n = n.updateQueue), null !== n && ht(n, e);
@@ -3510,7 +3510,7 @@
         function (e) {
           null === ae ? (ae = new Set([e])) : ae.add(e);
         },
-        f
+        f,
       );
       var D = S.commitBeforeMutationLifeCycles,
         j = S.commitResetTextContent,
@@ -3741,7 +3741,7 @@
               findFiberByHostInstance: function (e) {
                 return t ? t(e) : null;
               },
-            })
+            }),
           );
         },
       };
@@ -4297,8 +4297,7 @@
       var n =
         2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : null;
       return rn(t) || r("200"), It(e, t, null, n);
-    }
-    /** @license React v16.3.2
+    } /** @license React v16.3.2
      * react-dom.production.min.js
      *
      * Copyright (c) 2013-present, Facebook, Inc.
@@ -4333,7 +4332,7 @@
           i,
           a,
           u,
-          l
+          l,
         ) {
           if (
             (gn.invokeGuardedCallback.apply(this, arguments),
@@ -4415,7 +4414,7 @@
       Ln = { _root: null, _startText: null, _fallbackText: null },
       Fn =
         "dispatchConfig _targetInst nativeEvent isDefaultPrevented isPropagationStopped _dispatchListeners _dispatchInstances".split(
-          " "
+          " ",
         ),
       Bn = {
         type: null,
@@ -4508,7 +4507,7 @@
           },
           dependencies:
             "topBlur topCompositionEnd topKeyDown topKeyPress topKeyUp topMouseDown".split(
-              " "
+              " ",
             ),
         },
         compositionStart: {
@@ -4518,7 +4517,7 @@
           },
           dependencies:
             "topBlur topCompositionStart topKeyDown topKeyPress topKeyUp topMouseDown".split(
-              " "
+              " ",
             ),
         },
         compositionUpdate: {
@@ -4528,7 +4527,7 @@
           },
           dependencies:
             "topBlur topCompositionUpdate topKeyDown topKeyPress topKeyUp topMouseDown".split(
-              " "
+              " ",
             ),
         },
       },
@@ -4645,15 +4644,15 @@
         var t = e[0];
         Cr[t] = new se(t, 1, !1, e[1], null);
       }),
-      ["contentEditable", "draggable", "spellCheck", "value"].forEach(function (
-        e
-      ) {
-        Cr[e] = new se(e, 2, !1, e.toLowerCase(), null);
-      }),
+      ["contentEditable", "draggable", "spellCheck", "value"].forEach(
+        function (e) {
+          Cr[e] = new se(e, 2, !1, e.toLowerCase(), null);
+        },
+      ),
       ["autoReverse", "externalResourcesRequired", "preserveAlpha"].forEach(
         function (e) {
           Cr[e] = new se(e, 2, !1, e, null);
-        }
+        },
       ),
       "allowFullScreen async autoFocus autoPlay controls default defer disabled formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope"
         .split(" ")
@@ -4698,7 +4697,7 @@
           },
           dependencies:
             "topBlur topChange topClick topFocus topInput topKeyDown topKeyUp topSelectionChange".split(
-              " "
+              " ",
             ),
         },
       },
@@ -5149,7 +5148,7 @@
           },
           dependencies:
             "topBlur topContextMenu topFocus topKeyDown topKeyUp topMouseDown topMouseUp topSelectionChange".split(
-              " "
+              " ",
             ),
         },
       },
@@ -5207,8 +5206,8 @@
       };
     Nn.injectEventPluginOrder(
       "ResponderEventPlugin SimpleEventPlugin TapEventPlugin EnterLeaveEventPlugin ChangeEventPlugin SelectEventPlugin BeforeInputEventPlugin".split(
-        " "
-      )
+        " ",
+      ),
     ),
       (Tn = An.getFiberCurrentPropsFromNode),
       (En = An.getInstanceFromNode),
@@ -5285,7 +5284,7 @@
               (No = -1), (e = Oo), (Oo = null), null !== e && e(Ao);
             }
           },
-          !1
+          !1,
         );
         var Mo = function (e) {
           Io = !1;
@@ -5420,7 +5419,7 @@
           source: !0,
           track: !0,
           wbr: !0,
-        }
+        },
       ),
       Wo = dn.thatReturns(""),
       $o = Object.freeze({
@@ -5443,7 +5442,7 @@
                 for (n = e; n.parentNode; ) n = n.parentNode;
                 for (
                   n = n.querySelectorAll(
-                    "input[name=" + JSON.stringify("" + t) + '][type="radio"]'
+                    "input[name=" + JSON.stringify("" + t) + '][type="radio"]',
                   ),
                     t = 0;
                   t < n.length;
@@ -5878,8 +5877,8 @@
               n.config,
               null,
               n.request,
-              n
-            )
+              n,
+            ),
           )
         : e(n);
     };
@@ -5954,7 +5953,7 @@
           (d.open(
             e.method.toUpperCase(),
             i(e.url, e.params, e.paramsSerializer),
-            !0
+            !0,
           ),
           (d.timeout = e.timeout),
           (d[h] = function () {
@@ -5988,7 +5987,12 @@
           }),
           (d.ontimeout = function () {
             c(
-              l("timeout of " + e.timeout + "ms exceeded", e, "ECONNABORTED", d)
+              l(
+                "timeout of " + e.timeout + "ms exceeded",
+                e,
+                "ECONNABORTED",
+                d,
+              ),
             ),
               (d = null);
           }),
@@ -6051,7 +6055,7 @@
     function r(e) {
       if (null === e || void 0 === e)
         throw new TypeError(
-          "Object.assign cannot be called with null or undefined"
+          "Object.assign cannot be called with null or undefined",
         );
       return Object(e);
     } /*
@@ -6337,7 +6341,7 @@ object-assign
                     o +
                     "`, but its value is `" +
                     u +
-                    "`."
+                    "`.",
                 );
               }
               return null;
@@ -6406,7 +6410,7 @@ object-assign
                   t +
                   "`" +
                   f +
-                  "."
+                  ".",
               );
             }
             return null;
@@ -6428,7 +6432,7 @@ object-assign
                   a +
                   "` of component `" +
                   o +
-                  "` has invalid PropType notation."
+                  "` has invalid PropType notation.",
               );
             var l = u(e, "Array")(n, r, o);
             if (l instanceof Error) return l;
@@ -6436,7 +6440,7 @@ object-assign
               if (
                 (l = t.apply(
                   void 0,
-                  [c, f, o, i, a + "[" + f + "]"].concat(s)
+                  [c, f, o, i, a + "[" + f + "]"].concat(s),
                 )) instanceof Error
               )
                 return l;
@@ -6471,8 +6475,8 @@ object-assign
                       this,
                       (e = r.__proto__ || Object.getPrototypeOf(r)).call.apply(
                         e,
-                        [this].concat(a)
-                      )
+                        [this].concat(a),
+                      ),
                     )),
                   (n.storeRef = function (e) {
                     n.wrappedInstance = e;
@@ -6518,7 +6522,7 @@ object-assign
                   throw new Error(
                     "MobX injector: Store '" +
                       e +
-                      "' is not available! Make sure it is provided by some Provider"
+                      "' is not available! Make sure it is provided by some Provider",
                   );
                 n[e] = t[e];
               }
@@ -6570,7 +6574,7 @@ object-assign
       function m() {
         if ("undefined" == typeof WeakMap)
           throw new Error(
-            "[mobx-react] tracking components is not supported in this browser."
+            "[mobx-react] tracking components is not supported in this browser.",
           );
         $ || ($ = !0);
       }
@@ -6695,7 +6699,7 @@ object-assign
             G ||
               ((G = !0),
               console.warn(
-                'Mobx observer: Using observer to inject stores is deprecated since 4.0. Use `@inject("store1", "store2") @observer ComponentClass` or `inject("store1", "store2")(observer(componentClass))` instead of `@observer(["store1", "store2"]) ComponentClass`'
+                'Mobx observer: Using observer to inject stores is deprecated since 4.0. Use `@inject("store1", "store2") @observer ComponentClass` or `inject("store1", "store2")(observer(componentClass))` instead of `@observer(["store1", "store2"]) ComponentClass`',
               )),
             t
               ? p.apply(null, e)(w(t))
@@ -6707,11 +6711,11 @@ object-assign
         if (
           (!0 === n.isMobxInjector &&
             console.warn(
-              "Mobx observer: You are trying to use 'observer' on a component that already has 'inject'. Please apply 'observer' before applying 'inject'"
+              "Mobx observer: You are trying to use 'observer' on a component that already has 'inject'. Please apply 'observer' before applying 'inject'",
             ),
           n.__proto__ === T.PureComponent &&
             console.warn(
-              "Mobx observer: You are using 'observer' on React.PureComponent. These two achieve two opposite goals and should not be used together"
+              "Mobx observer: You are using 'observer' on React.PureComponent. These two achieve two opposite goals and should not be used together",
             ),
           !(
             "function" != typeof n ||
@@ -6732,8 +6736,8 @@ object-assign
                         this,
                         (t.__proto__ || Object.getPrototypeOf(t)).apply(
                           this,
-                          arguments
-                        )
+                          arguments,
+                        ),
                       )
                     );
                   }
@@ -6754,7 +6758,7 @@ object-assign
               (r.contextTypes = n.contextTypes),
               (r.propTypes = n.propTypes),
               (r.defaultProps = n.defaultProps),
-              o)
+              o),
             );
           return P(i, n), i;
         }
@@ -6779,14 +6783,14 @@ object-assign
         }),
           e.shouldComponentUpdate
             ? console.warn(
-                "Use `shouldComponentUpdate` in an `observer` based component breaks the behavior of `observer` and might lead to unexpected results. Manually implementing `sCU` should not be needed when using mobx-react."
+                "Use `shouldComponentUpdate` in an `observer` based component breaks the behavior of `observer` and might lead to unexpected results. Manually implementing `sCU` should not be needed when using mobx-react.",
               )
             : (e.shouldComponentUpdate = X.shouldComponentUpdate);
       }
       function C() {
         var e = this.constructor.getDerivedStateFromProps(
           this.props,
-          this.state
+          this.state,
         );
         null !== e && void 0 !== e && this.setState(e);
       }
@@ -6909,7 +6913,7 @@ object-assign
                         },
                         function (e) {
                           r("throw", e);
-                        }
+                        },
                       )
                     : o(a.done ? "return" : "normal", a.value);
                 } catch (e) {
@@ -6970,7 +6974,7 @@ object-assign
           if ("function" != typeof t && null !== t)
             throw new TypeError(
               "Super expression must either be null or a function, not " +
-                typeof t
+                typeof t,
             );
           (e.prototype = Object.create(t && t.prototype, {
             constructor: {
@@ -6988,7 +6992,7 @@ object-assign
         j = function (e, t) {
           if (!e)
             throw new ReferenceError(
-              "this hasn't been initialised - super() hasn't been called"
+              "this hasn't been initialised - super() hasn't been called",
             );
           return !t || ("object" != typeof t && "function" != typeof t) ? e : t;
         },
@@ -7049,7 +7053,7 @@ object-assign
             },
             set: function (e) {
               console.warn(
-                "Mobx Injector: you are trying to attach `contextTypes` on an component decorated with `inject` (or `observer`) HOC. Please specify the contextTypes on the wrapped component instead. It is accessible through the `wrappedComponent`"
+                "Mobx Injector: you are trying to attach `contextTypes` on an component decorated with `inject` (or `observer`) HOC. Please specify the contextTypes on the wrapped component instead. It is accessible through the `wrappedComponent`",
               );
             },
             configurable: !0,
@@ -7091,7 +7095,7 @@ object-assign
             return (
               K &&
                 console.warn(
-                  "[mobx-react] It seems that a re-rendering of a React component is triggered while in static (server-side) mode. Please make sure components are rendered only once server-side."
+                  "[mobx-react] It seems that a re-rendering of a React component is triggered while in static (server-side) mode. Please make sure components are rendered only once server-side.",
                 ),
               this.state !== t || !y(this.props, e)
             );
@@ -7105,7 +7109,7 @@ object-assign
           if (void 0 === o) return null;
           if (!n) return o();
           console.warn(
-            "<Observer inject=.../> is no longer supported. Please use inject on the enclosing component instead"
+            "<Observer inject=.../> is no longer supported. Please use inject on the enclosing component instead",
           );
           var i = p(n)(o);
           return E.a.createElement(i, null);
@@ -7116,7 +7120,7 @@ object-assign
         if ("function" == typeof e[t] && "function" == typeof e[i])
           return new Error(
             "Invalid prop,do not use children and render in the same time in`" +
-              n
+              n,
           );
         if ("function" != typeof e[t] && "function" != typeof e[i])
           return new Error(
@@ -7126,7 +7130,7 @@ object-assign
               N(e[t]) +
               "` supplied to `" +
               n +
-              "`, expected `function`."
+              "`, expected `function`.",
           );
       };
       (Y.propTypes = { render: Z, children: Z }),
@@ -7143,7 +7147,7 @@ object-assign
                 I(this, t);
                 var r = j(
                   this,
-                  (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
+                  (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n),
                 );
                 return (r.state = e || {}), r;
               }
@@ -7181,7 +7185,7 @@ object-assign
                         if (
                           (Object.keys(e).length !== Object.keys(t).length &&
                             console.warn(
-                              "MobX Provider: The set of provided stores has changed. Please avoid changing stores as the change might not propagate to all children"
+                              "MobX Provider: The set of provided stores has changed. Please avoid changing stores as the change might not propagate to all children",
                             ),
                           !e.suppressChangedStoreWarning)
                         )
@@ -7191,12 +7195,12 @@ object-assign
                               console.warn(
                                 "MobX Provider: Provided store '" +
                                   n +
-                                  "' has changed. Please avoid replacing stores as the change might not propagate to all children"
+                                  "' has changed. Please avoid replacing stores as the change might not propagate to all children",
                               );
                         return e;
                       },
                     },
-                  ]
+                  ],
                 ),
                 t
               );
@@ -7246,7 +7250,7 @@ object-assign
                 (null !== n ? "\n  " + n : "") +
                 (null !== r ? "\n  " + r : "") +
                 (null !== o ? "\n  " + o : "") +
-                "\n\nThe above lifecycles should be removed. Learn more about this warning here:\nhttps://fb.me/react-async-component-lifecycle-hooks"
+                "\n\nThe above lifecycles should be removed. Learn more about this warning here:\nhttps://fb.me/react-async-component-lifecycle-hooks",
             );
           }
           if (
@@ -7256,7 +7260,7 @@ object-assign
           ) {
             if ("function" != typeof t.componentDidUpdate)
               throw new Error(
-                "Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype"
+                "Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype",
               );
             t.componentWillUpdate = k;
             var u = t.componentDidUpdate;
@@ -7320,8 +7324,7 @@ object-assign
         "function" == typeof e.slice &&
         n(e.slice(0, 0))
       );
-    }
-    /*!
+    } /*!
      * Determine if an object is a Buffer
      *
      * @author   Feross Aboukhadijeh <https://feross.org>
@@ -7833,7 +7836,7 @@ and limitations under the License.
         var s;
         if (void 0 === t)
           s = new Error(
-            "Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings."
+            "Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.",
           );
         else {
           var c = [n, r, i, a, u, l],
@@ -7841,7 +7844,7 @@ and limitations under the License.
           (s = new Error(
             t.replace(/%s/g, function () {
               return c[f++];
-            })
+            }),
           )),
             (s.name = "Invariant Violation");
         }
@@ -7980,13 +7983,13 @@ and limitations under the License.
         n.push(
           r(p, t, function (e) {
             o.push(e);
-          })
+          }),
         ),
           "english" != t &&
             n.push(
               r(p, "english", function (e) {
                 a.push(e);
-              })
+              }),
             );
       }
       for (var d = 0, h = ["webhelper"]; d < h.length; d++) {
@@ -7994,13 +7997,13 @@ and limitations under the License.
         n.push(
           r(p, t, function (e) {
             i.push(e);
-          })
+          }),
         ),
           "english" != t &&
             n.push(
               r(p, "english", function (e) {
                 l.push(e);
-              })
+              }),
             );
       }
       return Promise.all(n).then(function () {
@@ -8115,7 +8118,7 @@ and limitations under the License.
             },
             read: function (e) {
               var t = document.cookie.match(
-                new RegExp("(^|;\\s*)(" + e + ")=([^;]*)")
+                new RegExp("(^|;\\s*)(" + e + ")=([^;]*)"),
               );
               return t ? decodeURIComponent(t[3]) : null;
             },
@@ -8260,7 +8263,7 @@ and limitations under the License.
         "Minified React error #" +
           e +
           "; visit %s for the full message or use the non-minified dev environment for full errors and additional helpful warnings. ",
-        n
+        n,
       );
     }
     function o(e, t, n) {
@@ -8379,7 +8382,7 @@ and limitations under the License.
             "[object Object]" === n
               ? "object with keys {" + Object.keys(e).join(", ") + "}"
               : n,
-            ""
+            "",
           ));
       return a;
     }
@@ -8421,8 +8424,7 @@ and limitations under the License.
         (t = c(t, i, r, o)),
         null == e || p(e, "", m, t),
         f(t);
-    }
-    /** @license React v16.3.2
+    } /** @license React v16.3.2
      * react.production.min.js
      *
      * Copyright (c) 2013-present, Facebook, Inc.
@@ -8585,13 +8587,13 @@ and limitations under the License.
         (e.headers = o.merge(
           e.headers.common || {},
           e.headers[e.method] || {},
-          e.headers || {}
+          e.headers || {},
         )),
         o.forEach(
           ["delete", "get", "head", "post", "put", "patch", "common"],
           function (t) {
             delete e.headers[t];
-          }
+          },
         ),
         (e.adapter || u.adapter)(e).then(
           function (t) {
@@ -8608,11 +8610,11 @@ and limitations under the License.
                   (t.response.data = i(
                     t.response.data,
                     t.response.headers,
-                    e.transformResponse
+                    e.transformResponse,
                   ))),
               Promise.reject(t)
             );
-          }
+          },
         )
       );
     };
@@ -8684,7 +8686,7 @@ and limitations under the License.
                 r.prop,
                 r.descriptor,
                 r.decoratorTarget,
-                r.decoratorArguments
+                r.decoratorArguments,
               );
             }
           }
@@ -8960,7 +8962,7 @@ and limitations under the License.
             function () {
               this.track(n);
             },
-            t.onError
+            t.onError,
           );
         else {
           var a = M(t),
@@ -8974,7 +8976,7 @@ and limitations under the License.
                   (u = !1), r.isDisposed || r.track(n);
                 }));
             },
-            t.onError
+            t.onError,
           );
         }
         return r.schedule(), r.getDisposer();
@@ -9021,7 +9023,7 @@ and limitations under the License.
               ((t = r[o](t)),
               Ne(
                 !t || t.type,
-                "Intercept handlers should return nothing or a change object"
+                "Intercept handlers should return nothing or a change object",
               ),
               t);
               o++
@@ -9134,7 +9136,7 @@ and limitations under the License.
               e,
               n,
               r ? (r.initializer ? r.initializer.call(e) : r.value) : void 0,
-              t
+              t,
             );
           }),
           r = (void 0 !== e && Object({ NODE_ENV: "production" }), n);
@@ -9204,7 +9206,7 @@ and limitations under the License.
             e +
             ". Did you accidentally try to use observable." +
             e +
-            " as decorator?"
+            " as decorator?",
         );
       }
       function ue(e, t, n) {
@@ -9547,7 +9549,7 @@ and limitations under the License.
               e.name +
               "' is invalidated due to a change in: '" +
               t.name +
-              "'"
+              "'",
           ),
           e.isTracing === kn.BREAK)
         ) {
@@ -9564,7 +9566,7 @@ and limitations under the License.
                 (e instanceof Mt ? e.derivation.toString() : "") +
                 "\n\nThe dependencies for this derivation are:\n\n" +
                 n.join("\n") +
-                "\n*/\n    "
+                "\n*/\n    ",
             )();
         }
       }
@@ -9712,7 +9714,7 @@ and limitations under the License.
               "Reaction doesn't converge to a stable state after " +
                 En +
                 " iterations. Probably there is a cycle in the reactive function: " +
-                e[0]
+                e[0],
             ),
             e.splice(0));
           for (var n = e.splice(0), r = 0, o = n.length; r < o; r++)
@@ -9790,7 +9792,7 @@ and limitations under the License.
           void 0 !== r &&
             (!0 === r &&
               console.warn(
-                "WARNING: Debug feature only. MobX will NOT recover from errors if this is on."
+                "WARNING: Debug feature only. MobX will NOT recover from errors if this is on.",
               ),
             (wn.disableErrorBoundaries = !!r)),
           "number" == typeof o && Se(o),
@@ -9935,7 +9937,7 @@ and limitations under the License.
                   "Cycle detected in computation " +
                     this.name +
                     ": " +
-                    this.derivation
+                    this.derivation,
                 ),
                 0 === wn.inBatch
                   ? ut(this) &&
@@ -9959,7 +9961,7 @@ and limitations under the License.
                   !this.isRunningSetter,
                   "The setter of computed value '" +
                     this.name +
-                    "' is trying to update itself. Did you intend to update an _observable_ value, instead of the computed property?"
+                    "' is trying to update itself. Did you intend to update an _observable_ value, instead of the computed property?",
                 ),
                   (this.isRunningSetter = !0);
                 try {
@@ -10227,7 +10229,7 @@ and limitations under the License.
                     t +
                     "' of '" +
                     e +
-                    "' was accessed through the prototype chain. Use 'decorate' instead to declare the prop or access it statically through it's owner"
+                    "' was accessed through the prototype chain. Use 'decorate' instead to declare the prop or access it statically through it's owner",
                 );
               }),
               (e.prototype.observe = function (e, t) {
@@ -10246,7 +10248,7 @@ and limitations under the License.
                       }),
                       se,
                       "keys(" + this.name + ")",
-                      !0
+                      !0,
                     )),
                   this.keys.slice()
                 );
@@ -10295,7 +10297,7 @@ and limitations under the License.
               arguments.length > 2 && ae("shallowBox"),
               Ie(
                 "observable.shallowBox",
-                "observable.box(value, { deep: false })"
+                "observable.box(value, { deep: false })",
               ),
               tn.box(e, { name: t, deep: !1 })
             );
@@ -10310,7 +10312,7 @@ and limitations under the License.
               arguments.length > 2 && ae("shallowArray"),
               Ie(
                 "observable.shallowArray",
-                "observable.array(values, { deep: false })"
+                "observable.array(values, { deep: false })",
               ),
               tn.array(e, { name: t, deep: !1 })
             );
@@ -10325,7 +10327,7 @@ and limitations under the License.
               arguments.length > 2 && ae("shallowMap"),
               Ie(
                 "observable.shallowMap",
-                "observable.map(values, { deep: false })"
+                "observable.map(values, { deep: false })",
               ),
               tn.map(e, { name: t, deep: !1 })
             );
@@ -10341,7 +10343,7 @@ and limitations under the License.
               "string" == typeof arguments[1] && ae("shallowObject"),
               Ie(
                 "observable.shallowObject",
-                "observable.object(values, {}, { deep: false })"
+                "observable.object(values, {}, { deep: false })",
               ),
               tn.object(e, {}, { name: t, deep: !1 })
             );
@@ -10368,7 +10370,7 @@ and limitations under the License.
               "function" != typeof Map)
             )
               throw new Error(
-                "mobx.map requires Map polyfill for the current browser. Check babel-polyfill or core-js/es6/map.js"
+                "mobx.map requires Map polyfill for the current browser. Check babel-polyfill or core-js/es6/map.js",
               );
             (this._data = new Map()), (this._hasMap = new Map()), this.merge(e);
           }
@@ -10631,7 +10633,7 @@ and limitations under the License.
         Me(
           rn.prototype,
           "undefined" != typeof Symbol ? Symbol.toStringTag : "@@toStringTag",
-          "Map"
+          "Map",
         );
       var on,
         an,
@@ -10738,7 +10740,7 @@ and limitations under the License.
             (e.prototype.updateArrayLength = function (e, t) {
               if (e !== this.lastKnownLength)
                 throw new Error(
-                  "[mobx] Modification exception: the internal structure of an observable array was changed. Did you use peek() to change it?"
+                  "[mobx] Modification exception: the internal structure of an observable array was changed. Did you use peek() to change it?",
                 );
               (this.lastKnownLength += t),
                 t > 0 && e + t + 1 > sn && Se(e + t + 1);
@@ -10872,7 +10874,7 @@ and limitations under the License.
                   this.peek(),
                   e.map(function (e) {
                     return Te(e) ? e.peek() : e;
-                  })
+                  }),
                 )
               );
             }),
@@ -10895,7 +10897,7 @@ and limitations under the License.
               void 0 === n && (n = 0),
                 3 === arguments.length &&
                   Ie(
-                    "The array.find fromIndex argument to find will not be supported anymore in the next major"
+                    "The array.find fromIndex argument to find will not be supported anymore in the next major",
                   );
               var r = this.findIndex.apply(this, arguments);
               return -1 === r ? void 0 : this.get(r);
@@ -10904,7 +10906,7 @@ and limitations under the License.
               void 0 === n && (n = 0),
                 3 === arguments.length &&
                   Ie(
-                    "The array.findIndex fromIndex argument to find will not be supported anymore in the next major"
+                    "The array.findIndex fromIndex argument to find will not be supported anymore in the next major",
                   );
               for (var r = this.peek(), o = r.length, i = n; i < o; i++)
                 if (e.call(t, r[i], i, this)) return i;
@@ -10935,7 +10937,7 @@ and limitations under the License.
             (t.prototype.pop = function () {
               return this.splice(
                 Math.max(this.$mobx.values.length - 1, 0),
-                1
+                1,
               )[0];
             }),
             (t.prototype.shift = function () {
@@ -10963,7 +10965,7 @@ and limitations under the License.
               function n(e) {
                 if (e < 0)
                   throw new Error(
-                    "[mobx.array] Index out of bounds: " + e + " is negative"
+                    "[mobx.array] Index out of bounds: " + e + " is negative",
                   );
                 var t = this.$mobx.values.length;
                 if (e >= t)
@@ -10971,12 +10973,12 @@ and limitations under the License.
                     "[mobx.array] Index out of bounds: " +
                       e +
                       " is not smaller than " +
-                      t
+                      t,
                   );
               }
               if (
                 (Ie(
-                  "observableArray.move is deprecated, use .slice() & .replace() instead"
+                  "observableArray.move is deprecated, use .slice() & .replace() instead",
                 ),
                 n.call(this, e),
                 n.call(this, t),
@@ -10990,7 +10992,7 @@ and limitations under the License.
                         o.slice(0, e),
                         o.slice(e + 1, t + 1),
                         [o[e]],
-                        o.slice(t + 1)
+                        o.slice(t + 1),
                       )
                     : a(o.slice(0, t), [o[e]], o.slice(t, e), o.slice(e + 1))),
                   this.replace(r);
@@ -11006,7 +11008,7 @@ and limitations under the License.
                     e +
                     ") that is out of bounds (" +
                     t.values.length +
-                    "). Please check length first. Out of bound indices will not be tracked by MobX"
+                    "). Please check length first. Out of bound indices will not be tracked by MobX",
                 );
               }
             }),
@@ -11034,7 +11036,7 @@ and limitations under the License.
                     "[mobx.array] Index out of bounds, " +
                       e +
                       " is larger than " +
-                      r.length
+                      r.length,
                   );
                 n.spliceWithArray(e, 0, [t]);
               }
@@ -11069,7 +11071,7 @@ and limitations under the License.
           Ue(
             pn.prototype,
             "undefined" != typeof Symbol ? Symbol.toStringTag : "@@toStringTag",
-            "Array"
+            "Array",
           ),
         [
           "every",
@@ -11089,7 +11091,7 @@ and limitations under the License.
           var t = Array.prototype[e];
           Ne(
             "function" == typeof t,
-            "Base function not defined on Array prototype: '" + e + "'"
+            "Base function not defined on Array prototype: '" + e + "'",
           ),
             Ue(pn.prototype, e, function () {
               return t.apply(this.peek(), arguments);

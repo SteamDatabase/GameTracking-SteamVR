@@ -20,7 +20,7 @@
           OpenWebSocketToHost() {
             return new Promise((e, t) => {
               console.log(
-                "Connecting vrmailbox " + this.m_sMailboxName + "..."
+                "Connecting vrmailbox " + this.m_sMailboxName + "...",
               );
               let r = "ws://localhost:27062";
               this.m_sWebSecret && (r += "?secret=" + this.m_sWebSecret),
@@ -31,11 +31,11 @@
                 }),
                 this.m_wsWebSocketToServer.addEventListener(
                   "message",
-                  this.OnWebSocketMessage
+                  this.OnWebSocketMessage,
                 ),
                 this.m_wsWebSocketToServer.addEventListener(
                   "close",
-                  this.OnWebSocketClose
+                  this.OnWebSocketClose,
                 );
             });
           }
@@ -94,10 +94,10 @@
                 r.nMessageId == t.message_id && (r.callback(t), (e = !0));
               e
                 ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                    (e) => e.nMessageId == t.message_id
+                    (e) => e.nMessageId == t.message_id,
                   ))
                 : console.log(
-                    `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`
+                    `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
                   ),
                 (r = !0);
             }
@@ -129,7 +129,7 @@
               return this.SendMessageAndWaitForResponse(
                 "web_server_mailbox",
                 t,
-                "mailbox_registered"
+                "mailbox_registered",
               );
             });
           }
@@ -219,31 +219,31 @@
                   (o = h("elasticheadtransform", t)),
                     (o.properties["start-angle-threshold"] = d(
                       t,
-                      "start-angle-threshold"
+                      "start-angle-threshold",
                     )),
                     (o.properties["stop-angle-threshold"] = d(
                       t,
-                      "stop-angle-threshold"
+                      "stop-angle-threshold",
                     )),
                     (o.properties["ease-in-time"] = d(t, "ease-in-time")),
                     (o.properties["ease-in-power"] = d(t, "ease-in-power")),
                     (o.properties["ease-out-angle-threshold"] = d(
                       t,
-                      "ease-out-angle-threshold"
+                      "ease-out-angle-threshold",
                     )),
                     (o.properties["ease-out-power"] = d(t, "ease-out-power")),
                     (o.properties["min-angular-velocity"] = d(
                       t,
-                      "min-angular-velocity"
+                      "min-angular-velocity",
                     )),
                     (o.properties["max-angular-velocity"] = d(
                       t,
-                      "max-angular-velocity"
+                      "max-angular-velocity",
                     )),
                     (o.properties["lock-to-horizon"] = c(t, "lock-to-horizon")),
                     (o.properties["translation-behavior"] = p(
                       t,
-                      "translation-behavior"
+                      "translation-behavior",
                     ));
                   break;
                 case "VSG-LINE":
@@ -271,12 +271,12 @@
                   (o = h("pin-to-view-transform", t)),
                     (o.properties["offscreen-z-depth"] = d(
                       t,
-                      "offscreen-z-depth"
+                      "offscreen-z-depth",
                     )),
                     (o.properties["off-axis-limit"] = d(t, "off-axis-limit")),
                     (o.properties["transition-limit"] = d(
                       t,
-                      "transition-limit"
+                      "transition-limit",
                     ));
                   break;
                 case "VSG-MANIPULATION-TRANSFORM":
@@ -376,7 +376,7 @@
                     (S = []),
                     (b = !1);
                 }),
-              0
+              0,
             ));
         }
         function M(e, t) {
@@ -488,7 +488,7 @@
               }
             }.prototype,
             "buildNode",
-            null
+            null,
           );
         class k extends T {
           constructor(e) {
@@ -499,7 +499,7 @@
                 void 0 !== this.props.iconOverlayKey)
             )
               throw new Error(
-                "DashboardTab cannot have both an explicit iconUri and iconOverlayKey set in props."
+                "DashboardTab cannot have both an explicit iconUri and iconOverlayKey set in props.",
               );
             super.setBuildNodeOverride(this.buildNode),
               (this.m_sMountableUnqualifiedID =
@@ -530,8 +530,8 @@
               o.createElement(
                 F,
                 { id: this.m_sMountableUnqualifiedID },
-                this.props.children
-              )
+                this.props.children,
+              ),
             );
           }
         }
@@ -618,7 +618,7 @@
                 1)
             )
               throw new Error(
-                "Transform cannot have more than one parent_ property set."
+                "Transform cannot have more than one parent_ property set.",
               );
           }
           internalRender() {
@@ -649,7 +649,7 @@
                 })(
                   ((i = P(this.props.rotation, { x: 0, y: 0, z: 0 })),
                   (n = Math.PI / 180),
-                  { x: i.x * n, y: i.y * n, z: i.z * n })
+                  { x: i.x * n, y: i.y * n, z: i.z * n }),
                 )),
                 (r =
                   "number" == typeof this.props.scale
@@ -675,7 +675,7 @@
                 "parent-origin": B[this.props.parent_origin],
                 "parent-id": this.props.parent_id,
               },
-              this.props.children
+              this.props.children,
             );
           }
         }
@@ -749,7 +749,7 @@
                 void 0 === this.props.rendermodel_component_name)
             )
               throw new Error(
-                "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture."
+                "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture.",
               );
             if (
               void 0 === this.props.width &&
@@ -758,14 +758,14 @@
               !t
             )
               throw new Error(
-                "Panel requires either an explicit width, an explicit height, both an explicit width and height, a target_panel_dpi, or be a rendermodel panel."
+                "Panel requires either an explicit width, an explicit height, both an explicit width and height, a target_panel_dpi, or be a rendermodel panel.",
               );
             if (
               (void 0 !== this.props.width || void 0 !== this.props.height) &&
               void 0 !== this.props.target_dpi_panel_id
             )
               throw new Error(
-                "Panel cannot have both an explicit width/height and target_panel_dpi."
+                "Panel cannot have both an explicit width/height and target_panel_dpi.",
               );
             super.setBuildNodeOverride(this.buildNode);
           }
@@ -781,14 +781,14 @@
           componentDidMount() {
             super.componentDidMount(),
               (this.m_resizeObserver = new ResizeObserver(
-                this.onResizeObserved
+                this.onResizeObserved,
               )),
               this.m_resizeObserver.observe(this.getCurrentRootElement()),
               (this.m_nEmbeddedIndex = fe.Current().addEmbeddedPanelUVs(this)),
               (ve.s_bPanelsAreDirty = !0),
               this.getCurrentRootElement().addEventListener(
                 "mousedown",
-                this.onPanelMouseDown
+                this.onPanelMouseDown,
               ),
               this.forceUpdate();
           }
@@ -802,7 +802,7 @@
               this.stopOverDragBlocking(),
               this.getCurrentRootElement().removeEventListener(
                 "mousedown",
-                this.onPanelMouseDown
+                this.onPanelMouseDown,
               ),
               (ve.s_bPanelsAreDirty = !0),
               fe.Current().removeEmbeddedPanelUVs(this),
@@ -820,14 +820,14 @@
                 0,
                 t.y + t.height,
                 e.width,
-                e.height - t.height - t.y
+                e.height - t.height - t.y,
               ),
               this.createOverdragBlockingElement(0, t.y, t.x, t.height),
               this.createOverdragBlockingElement(
                 t.x + t.width,
                 t.y,
                 e.width - t.width - t.x,
-                t.height
+                t.height,
               ),
               window.document.addEventListener("mouseup", this.onWindowMouseUp),
               (this.m_bOverdragBlocking = !0);
@@ -840,7 +840,7 @@
               (this.m_overdragBlockingElements = []),
               window.document.removeEventListener(
                 "mouseup",
-                this.onWindowMouseUp
+                this.onWindowMouseUp,
               ),
               (this.m_bOverdragBlocking = !1));
           }
@@ -901,19 +901,19 @@
                   ? s
                   : void 0),
               (l.properties["target-width-anchor-id"] = R(
-                this.props.target_width_anchor_id
+                this.props.target_width_anchor_id,
               )),
               (l.properties["target-dpi-panel-id"] = R(
-                this.props.target_dpi_panel_id
+                this.props.target_dpi_panel_id,
               )),
               (l.properties["target-dpi-multiplier"] =
                 this.props.target_dpi_multiplier),
               (l.properties["subview-parent-panel-id"] = R(
-                this.props.subview_parent_panel_id
+                this.props.subview_parent_panel_id,
               )),
               (l.properties.curvature = this.props.curvature),
               (l.properties["curvature-origin-id"] = R(
-                this.props.curvature_origin_id
+                this.props.curvature_origin_id,
               )),
               (l.properties.interactive = this.props.interactive),
               (l.properties.scrollable = this.props.scrollable),
@@ -970,7 +970,7 @@
               {
                 style: { display: this.visibility == U.Hidden ? "none" : null },
               },
-              this.props.children
+              this.props.children,
             );
           }
         }
@@ -1049,7 +1049,7 @@
               (this.m_nEmbeddedDataWidth = t.innerWidth);
             let r = Math.max(
               0,
-              Math.floor((this.m_nEmbeddedDataWidth - 1) / 3)
+              Math.floor((this.m_nEmbeddedDataWidth - 1) / 3),
             );
             for (let e = 0; e < r; e++)
               this.m_rAvailableEmbeddedIndicesQueue.push(e);
@@ -1115,8 +1115,8 @@
                 o.createElement(
                   "div",
                   { className: "AppSceneGraph", ref: this.m_scalingDomRef },
-                  this.state.bFontsLoaded && this.props.children
-                )
+                  this.state.bFontsLoaded && this.props.children,
+                ),
               )
             );
           }
@@ -1144,7 +1144,7 @@
                     VRHTML.VRUtil.CreateEmbeddedRGBScanline(
                       this.m_nEmbeddedDataWidth,
                       1,
-                      4
+                      4,
                     )))
               : this.state.eRenderMode == L.Canvas &&
                 ((this.m_CanvasRef.current.width = this.m_nEmbeddedDataWidth),
@@ -1155,7 +1155,7 @@
                 null === this.m_Pixels &&
                   (this.m_Pixels = this.m_CanvasContext.createImageData(
                     this.m_nEmbeddedDataWidth,
-                    fe.k_EmbeddedDataRows
+                    fe.k_EmbeddedDataRows,
                   ))),
               this.updateAllPanelBounds();
           }
@@ -1170,7 +1170,7 @@
               (1 != n
                 ? this.m_scalingDomRef.current.setAttribute(
                     "style",
-                    "transform: scale(" + n + "); transform-origin: top left"
+                    "transform: scale(" + n + "); transform-origin: top left",
                   )
                 : this.m_scalingDomRef.current.removeAttribute("style"),
               (this.m_fCurrentScale = n),
@@ -1188,7 +1188,7 @@
                   0,
                   "V".charCodeAt(0),
                   "S".charCodeAt(0),
-                  "G".charCodeAt(0)
+                  "G".charCodeAt(0),
                 ),
                 this.m_rEmbeddedIndicesToClear.forEach((e) => {
                   let t = 1 + 3 * e;
@@ -1211,7 +1211,7 @@
                         s + 2,
                         (65280 & n) >> 8,
                         255 & n,
-                        (65280 & o) >> 8
+                        (65280 & o) >> 8,
                       );
                 }),
                 this.m_EmbeddedDataImgRef && this.state.eRenderMode == L.Image)
@@ -1219,7 +1219,7 @@
                 const e = VRHTML.VRUtil.GetEmbeddedScanlineAsURIImage(
                   this.m_nEmbeddedDataWidth,
                   1,
-                  4
+                  4,
                 );
                 this.m_EmbeddedDataImgRef.current.src = e;
               } else if (
@@ -1234,7 +1234,7 @@
                   this.m_nDirtyXMin,
                   0,
                   e,
-                  this.m_Pixels.height
+                  this.m_Pixels.height,
                 ),
                   (this.m_nDirtyXMin = -1),
                   (this.m_nDirtyXMax = -1);
@@ -1288,7 +1288,7 @@
               }
             }.prototype,
             "buildNode",
-            null
+            null,
           ),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
@@ -1363,7 +1363,7 @@
               }
             }.prototype,
             "buildNode",
-            null
+            null,
           );
         class Se extends T {
           constructor(e) {
@@ -1450,7 +1450,7 @@
             }
           }.prototype,
           "buildNode",
-          null
+          null,
         ),
           (function (e) {
             (e[(e.LockedToParent = 0)] = "LockedToParent"),
@@ -1464,7 +1464,7 @@
             return o.createElement(
               "vsg-head-facing-transform",
               null,
-              this.props.children
+              this.props.children,
             );
           }
         }
@@ -1489,7 +1489,7 @@
               o.createElement(
                 he,
                 { translation: { y: 0.5 }, scale: 0.2, rotation: { y: e } },
-                o.createElement(be, { source: "locator" })
+                o.createElement(be, { source: "locator" }),
               ),
               o.createElement(
                 ye,
@@ -1506,10 +1506,10 @@
                         padding: 20,
                       },
                     },
-                    "The future of overlays is 3D!"
-                  )
-                )
-              )
+                    "The future of overlays is 3D!",
+                  ),
+                ),
+              ),
             )
           );
         }
@@ -2065,7 +2065,7 @@
               }
             }.prototype,
             "buildNode",
-            null
+            null,
           ),
           VRHTML;
         class Re extends o.Component {
@@ -2083,7 +2083,7 @@
                 ShowElasticPanel: !0,
               }),
               (this.animationFrameHandle = window.requestAnimationFrame(
-                this.onAnimationFrame
+                this.onAnimationFrame,
               )),
               (this.mailbox = new a()),
               this.mailbox.Init("scenegraphtest"),
@@ -2118,7 +2118,7 @@
               ShowElasticPanel: this.state.ShowElasticPanel,
             }),
               (this.animationFrameHandle = window.requestAnimationFrame(
-                this.onAnimationFrame
+                this.onAnimationFrame,
               ));
           }
           onNumberClicked(e) {
@@ -2181,7 +2181,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(7),
                       },
-                      "7"
+                      "7",
                     ),
                     o.createElement(
                       "div",
@@ -2189,7 +2189,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(8),
                       },
-                      "8"
+                      "8",
                     ),
                     o.createElement(
                       "div",
@@ -2197,7 +2197,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(9),
                       },
-                      "9"
+                      "9",
                     ),
                     o.createElement("br", null),
                     o.createElement("br", null),
@@ -2207,7 +2207,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(4),
                       },
-                      "4"
+                      "4",
                     ),
                     o.createElement(
                       "div",
@@ -2215,7 +2215,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(5),
                       },
-                      "5"
+                      "5",
                     ),
                     o.createElement(
                       "div",
@@ -2223,7 +2223,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(6),
                       },
-                      "6"
+                      "6",
                     ),
                     o.createElement("br", null),
                     o.createElement("br", null),
@@ -2233,7 +2233,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(1),
                       },
-                      "1"
+                      "1",
                     ),
                     o.createElement(
                       "div",
@@ -2241,7 +2241,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(2),
                       },
-                      "2"
+                      "2",
                     ),
                     o.createElement(
                       "div",
@@ -2249,7 +2249,7 @@
                         className: "Label ButtonControl",
                         onClick: () => this.onNumberClicked(3),
                       },
-                      "3"
+                      "3",
                     ),
                     o.createElement("br", null),
                     o.createElement("br", null),
@@ -2259,15 +2259,15 @@
                         className: "Label ButtonControl",
                         onClick: this.onHideElasticPanel,
                       },
-                      "Close"
-                    )
-                  )
-                )
+                      "Close",
+                    ),
+                  ),
+                ),
               ),
               o.createElement(
                 he,
                 { transform: this.state.Transform, parent_origin: B.Standing },
-                o.createElement(be, { source: "generic_hmd" })
+                o.createElement(be, { source: "generic_hmd" }),
               ),
               o.createElement(
                 he,
@@ -2276,7 +2276,7 @@
                   rotation: { x: 30, y: this.state.Degrees, z: 90 },
                   parent_origin: B.Standing,
                 },
-                o.createElement(be, { source: "locator" })
+                o.createElement(be, { source: "locator" }),
               ),
               o.createElement(he, {
                 translation: { x: 0, y: 1.8, z: 0 },
@@ -2298,8 +2298,8 @@
                     style: { width: "400px", height: "400px", padding: 0 },
                     height: "400",
                     width: "400",
-                  })
-                )
+                  }),
+                ),
               ),
               o.createElement(
                 he,
@@ -2308,7 +2308,7 @@
                   parent_path: "/user/hand/left",
                   id: "left_hand_model",
                 },
-                o.createElement(be, { source: "locator_one_sided" })
+                o.createElement(be, { source: "locator_one_sided" }),
               ),
               o.createElement(
                 he,
@@ -2323,7 +2323,7 @@
                   thickness: 0.001,
                   end_buffer: 0.1,
                   start_buffer: 0.2,
-                })
+                }),
               ),
               o.createElement(
                 k,
@@ -2340,7 +2340,7 @@
                   uv_max: { u: 1, v: 0.3 },
                   width: 0.5,
                   interactive: !1,
-                })
+                }),
               ),
               o.createElement(he, {
                 translation: { x: 0, y: 0, z: -0.5 },
@@ -2368,16 +2368,16 @@
                     o.createElement("br", null),
                     "Degrees: ",
                     Math.round(this.state.Degrees),
-                    o.createElement("br", null)
-                  )
-                )
+                    o.createElement("br", null),
+                  ),
+                ),
               ),
               o.createElement(
                 he,
                 { parent_origin: B.Standing },
                 o.createElement(be, {
                   source: "{knuckles}valve_controller_knu_ev2_0_left",
-                })
+                }),
               ),
               o.createElement(
                 he,
@@ -2392,11 +2392,11 @@
                       source: "generic_hmd",
                       wireframe: !0,
                       fresnel: { color: { r: 1 }, opacity: 0.7, strength: 1 },
-                    })
-                  )
-                )
+                    }),
+                  ),
+                ),
               ),
-              o.createElement(De, null)
+              o.createElement(De, null),
             );
           }
         }
@@ -2406,27 +2406,27 @@
           (0, i.gn)([s.ak], Re.prototype, "onMailboxMessage", null),
           n.render(
             o.createElement(fe, null, o.createElement(Re, null)),
-            document.getElementById("root")
+            document.getElementById("root"),
           ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
               VRHTML.VROverlay.ThisOverlayHandle(),
               j.ShowTouchPadScrollWheel,
-              !0
+              !0,
             ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
               VRHTML.VROverlay.ThisOverlayHandle(),
               j.SendVRSmoothScrollEvents,
-              !0
+              !0,
             ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetInputMethod(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              J.Mouse
+              J.Mouse,
             );
       },
     },

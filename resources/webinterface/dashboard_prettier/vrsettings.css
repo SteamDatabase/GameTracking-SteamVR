@@ -73,7 +73,8 @@ body {
   flex-direction: row;
   text-align: center;
 
-  transition: background-color var(--settings-control-hover-fade-duration),
+  transition:
+    background-color var(--settings-control-hover-fade-duration),
     box-shadow var(--settings-control-hover-fade-duration);
 }
 
@@ -476,7 +477,8 @@ body {
   transform: scale(0.93);
   box-shadow: 0px 6px 20px #00000033;
 
-  transition: transform var(--settings-sidebar-transition-time) ease-out,
+  transition:
+    transform var(--settings-sidebar-transition-time) ease-out,
     opacity var(--settings-sidebar-transition-time) ease-out;
 }
 
@@ -790,7 +792,8 @@ body {
       )
     )
     scaleY(var(--toggle-control-scale-y));
-  transition: transform var(--control-switch-animation-time)
+  transition:
+    transform var(--control-switch-animation-time)
       var(--control-switch-overshoot-ease),
     background var(--settings-control-hover-fade-duration)
       var(--settings-control-hover-fade-ease),
@@ -1177,7 +1180,9 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  transition: transform 1s, opacity 1s;
+  transition:
+    transform 1s,
+    opacity 1s;
 }
 
 .SettingsTitle / {
@@ -1495,7 +1500,8 @@ body {
   cursor: pointer;
   color: var(--text-color);
 
-  transition: background-color var(--settings-control-hover-fade-duration),
+  transition:
+    background-color var(--settings-control-hover-fade-duration),
     box-shadow var(--settings-control-hover-fade-duration);
 }
 
@@ -1558,11 +1564,8 @@ body {
   bottom: var(--settings-control-image-padding);
   border-radius: var(--settings-button-image-border-radius);
 
-  background-image: /* tint image */ linear-gradient(
-      to right,
-      var(--color-value),
-      var(--color-value)
-    ),
+  background-image: /* tint image */
+    linear-gradient(to right, var(--color-value), var(--color-value)),
     /* checkered effect */
       linear-gradient(
         to right,

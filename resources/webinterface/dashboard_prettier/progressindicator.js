@@ -59,7 +59,7 @@
             n,
             function (t) {
               return e[t];
-            }.bind(null, n)
+            }.bind(null, n),
           );
       return r;
     }),
@@ -111,11 +111,11 @@
             }),
             this.m_wsWebSocketToServer.addEventListener(
               "message",
-              this.OnWebSocketMessage
+              this.OnWebSocketMessage,
             ),
             this.m_wsWebSocketToServer.addEventListener(
               "close",
-              this.OnWebSocketClose
+              this.OnWebSocketClose,
             );
         });
       }
@@ -163,11 +163,11 @@
             r.nMessageId == t.message_id && (r.callback(t), (e = !0));
           e
             ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                (e) => e.nMessageId == t.message_id
+                (e) => e.nMessageId == t.message_id,
               ))
             : console.log(
                 `Received a ${t.type} message, but didn't have a ` +
-                  "matching message_id. Did the other end forget to mirror message_id?"
+                  "matching message_id. Did the other end forget to mirror message_id?",
               ),
             (r = !0);
         }
@@ -199,7 +199,7 @@
           return this.SendMessageAndWaitForResponse(
             "web_server_mailbox",
             t,
-            "mailbox_registered"
+            "mailbox_registered",
           );
         });
       }
@@ -420,31 +420,31 @@
               (i = F("elasticheadtransform", t)),
                 (i.properties["start-angle-threshold"] = M(
                   t,
-                  "start-angle-threshold"
+                  "start-angle-threshold",
                 )),
                 (i.properties["stop-angle-threshold"] = M(
                   t,
-                  "stop-angle-threshold"
+                  "stop-angle-threshold",
                 )),
                 (i.properties["ease-in-time"] = M(t, "ease-in-time")),
                 (i.properties["ease-in-power"] = M(t, "ease-in-power")),
                 (i.properties["ease-out-angle-threshold"] = M(
                   t,
-                  "ease-out-angle-threshold"
+                  "ease-out-angle-threshold",
                 )),
                 (i.properties["ease-out-power"] = M(t, "ease-out-power")),
                 (i.properties["min-angular-velocity"] = M(
                   t,
-                  "min-angular-velocity"
+                  "min-angular-velocity",
                 )),
                 (i.properties["max-angular-velocity"] = M(
                   t,
-                  "max-angular-velocity"
+                  "max-angular-velocity",
                 )),
                 (i.properties["lock-to-horizon"] = P(t, "lock-to-horizon")),
                 (i.properties["translation-behavior"] = x(
                   t,
-                  "translation-behavior"
+                  "translation-behavior",
                 ));
               break;
             case "VSG-LINE":
@@ -563,7 +563,7 @@
               }
               (V = null), (E = []), (k = !1);
             }),
-          0
+          0,
         ));
     }
     function K(e, t) {
@@ -679,7 +679,7 @@
           void 0 !== this.props.iconUri && void 0 !== this.props.iconOverlayKey)
         )
           throw new Error(
-            "DashboardTab cannot have both an explicit iconUri and iconOverlayKey set in props."
+            "DashboardTab cannot have both an explicit iconUri and iconOverlayKey set in props.",
           );
         super.setBuildNodeOverride(this.buildNode),
           (this.m_sMountableUnqualifiedID =
@@ -709,8 +709,8 @@
           I.createElement(
             $,
             { id: this.m_sMountableUnqualifiedID },
-            this.props.children
-          )
+            this.props.children,
+          ),
         );
       }
     }
@@ -765,7 +765,7 @@
             1)
         )
           throw new Error(
-            "Transform cannot have more than one parent_ property set."
+            "Transform cannot have more than one parent_ property set.",
           );
       }
       internalRender() {
@@ -776,7 +776,7 @@
             (r = this.props.transform.scale))
           : ((e = X(this.props.translation, { x: 0, y: 0, z: 0 })),
             (t = g(
-              h(X(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180)
+              h(X(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180),
             )),
             (r =
               "number" == typeof this.props.scale
@@ -801,7 +801,7 @@
             "parent-origin": ie[this.props.parent_origin],
             "parent-id": this.props.parent_id,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -817,7 +817,7 @@
             "visible-3dof": this.props.visibleIn3DOF,
             "visible-6dof": this.props.visibleIn6DOF,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -891,7 +891,7 @@
             void 0 === this.props.rendermodel_component_name)
         )
           throw new Error(
-            "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture."
+            "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture.",
           );
         if (
           void 0 === this.props.width &&
@@ -900,14 +900,14 @@
           !t
         )
           throw new Error(
-            "Panel requires either an explicit width, an explicit height, both an explicit width and height, a target_panel_dpi, or be a rendermodel panel."
+            "Panel requires either an explicit width, an explicit height, both an explicit width and height, a target_panel_dpi, or be a rendermodel panel.",
           );
         if (
           (void 0 !== this.props.width || void 0 !== this.props.height) &&
           void 0 !== this.props.target_dpi_panel_id
         )
           throw new Error(
-            "Panel cannot have both an explicit width/height and target_panel_dpi."
+            "Panel cannot have both an explicit width/height and target_panel_dpi.",
           );
         super.setBuildNodeOverride(this.buildNode);
       }
@@ -928,7 +928,7 @@
           (ye.s_bPanelsAreDirty = !0),
           this.getCurrentRootElement().addEventListener(
             "mousedown",
-            this.onPanelMouseDown
+            this.onPanelMouseDown,
           ),
           this.forceUpdate();
       }
@@ -941,7 +941,7 @@
           this.stopOverDragBlocking(),
           this.getCurrentRootElement().removeEventListener(
             "mousedown",
-            this.onPanelMouseDown
+            this.onPanelMouseDown,
           ),
           (ye.s_bPanelsAreDirty = !0),
           be.Current().removeEmbeddedPanelUVs(this),
@@ -959,14 +959,14 @@
             0,
             t.y + t.height,
             e.width,
-            e.height - t.height - t.y
+            e.height - t.height - t.y,
           ),
           this.createOverdragBlockingElement(0, t.y, t.x, t.height),
           this.createOverdragBlockingElement(
             t.x + t.width,
             t.y,
             e.width - t.width - t.x,
-            t.height
+            t.height,
           ),
           window.document.addEventListener("mouseup", this.onWindowMouseUp),
           (this.m_bOverdragBlocking = !0);
@@ -1029,13 +1029,13 @@
           (a.properties.width = null != (i = this.props.width) ? i : void 0),
           (a.properties.height = null != (o = this.props.height) ? o : void 0),
           (a.properties["target-dpi-panel-id"] = W(
-            this.props.target_dpi_panel_id
+            this.props.target_dpi_panel_id,
           )),
           (a.properties["target-dpi-multiplier"] =
             this.props.target_dpi_multiplier),
           (a.properties.curvature = this.props.curvature),
           (a.properties["curvature-origin-id"] = W(
-            this.props.curvature_origin_id
+            this.props.curvature_origin_id,
           )),
           (a.properties.interactive = this.props.interactive),
           (a.properties.scrollable = this.props.scrollable),
@@ -1083,7 +1083,7 @@
         return I.createElement(
           "vsg-node",
           { style: { display: this.visibility == le.Hidden ? "none" : null } },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -1205,8 +1205,8 @@
             I.createElement(
               "div",
               { className: "AppSceneGraph", ref: this.m_scalingDomRef },
-              this.state.bFontsLoaded && this.props.children
-            )
+              this.state.bFontsLoaded && this.props.children,
+            ),
           )
         );
       }
@@ -1233,7 +1233,7 @@
           null === this.m_Pixels &&
             (this.m_Pixels = this.m_CanvasContext.createImageData(
               this.m_nEmbeddedDataWidth,
-              be.k_EmbeddedDataRows
+              be.k_EmbeddedDataRows,
             )),
           this.updateAllPanelBounds();
       }
@@ -1248,7 +1248,7 @@
           (1 != o
             ? this.m_scalingDomRef.current.setAttribute(
                 "style",
-                "transform: scale(" + o + "); transform-origin: top left"
+                "transform: scale(" + o + "); transform-origin: top left",
               )
             : this.m_scalingDomRef.current.removeAttribute("style"),
           (this.m_fCurrentScale = o),
@@ -1266,7 +1266,7 @@
             0,
             "V".charCodeAt(0),
             "S".charCodeAt(0),
-            "G".charCodeAt(0)
+            "G".charCodeAt(0),
           ),
           this.m_rEmbeddedIndicesToClear.forEach((e) => {
             let t = 1 + 3 * e;
@@ -1288,7 +1288,7 @@
                   s + 2,
                   (65280 & o) >> 8,
                   255 & o,
-                  (65280 & i) >> 8
+                  (65280 & i) >> 8,
                 );
           });
         let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
@@ -1299,7 +1299,7 @@
           this.m_nDirtyXMin,
           0,
           e,
-          this.m_Pixels.height
+          this.m_Pixels.height,
         ),
           (this.m_nDirtyXMin = -1),
           (this.m_nDirtyXMax = -1);
@@ -1340,7 +1340,7 @@
         }
       }.prototype,
       "buildNode",
-      null
+      null,
     ),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
@@ -1404,7 +1404,7 @@
             "off-axis-limit": this.props.fOffAxisLimit,
             "transition-limit": this.props.fTransitionLimit,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -1510,7 +1510,7 @@
             "lock-to-horizon": this.props.lock_to_horizon,
             "translation-behavior": this.props.translation_behavior,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -1522,7 +1522,7 @@
         return I.createElement(
           "vsg-head-facing-transform",
           null,
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -2012,18 +2012,18 @@
           try {
             let e = VRHTML.VRProperties.GetStringProperty(
               this.props.sDevicePath,
-              Te.RenderModelName_String
+              Te.RenderModelName_String,
             );
             if (e) {
               let r = VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
                 e,
-                this.props.sInputPath
+                this.props.sInputPath,
               );
               if (r) {
                 let n = VRHTML.VRRenderModels.GetComponentStateForDevicePath(
                   e,
                   r,
-                  this.props.sDevicePath
+                  this.props.sDevicePath,
                 );
                 n && (t.xfTransform = n.xfTrackingToComponentLocal);
               }
@@ -2031,7 +2031,7 @@
           } catch (e) {
             console.log(
               "Component transform invalid for ",
-              this.props.sDevicePath
+              this.props.sDevicePath,
             );
           }
         this.state = t;
@@ -2044,7 +2044,7 @@
             parent_path: this.props.sDevicePath,
             transform: this.state.xfTransform,
           },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -2056,7 +2056,7 @@
         return I.createElement(
           "vsg-callout-transform",
           { offset: Y(this.props.vOffset) },
-          this.props.children
+          this.props.children,
         );
       }
     }
@@ -2296,10 +2296,10 @@
         VRHTML
           ? ((this.m_progressIndicatorEventHandle =
               VRHTML.RegisterForProgressIndicatorEvents(
-                this.ProgressIndicatorEvent
+                this.ProgressIndicatorEvent,
               )),
             (this.m_deviceEventHandle = VRHTML.RegisterForDeviceEvents(
-              this.DeviceEvent
+              this.DeviceEvent,
             )))
           : this.setState({
               sCurrentAction: "/actions/foo/bar",
@@ -2350,8 +2350,8 @@
                 o.createElement("img", {
                   src: "/shared/images/steam_logo.svg",
                   className: "ProgressIcon",
-                })
-              )
+                }),
+              ),
             );
           return "/user/head" == this.state.sDevicePath
             ? o.createElement(
@@ -2360,8 +2360,8 @@
                 o.createElement(
                   l.jb,
                   { translation: { z: -1.2, y: -0.5 } },
-                  o.createElement(l.J, null, n)
-                )
+                  o.createElement(l.J, null, n),
+                ),
               )
             : o.createElement(
                 "div",
@@ -2389,10 +2389,10 @@
                         start_buffer: 0.03,
                         end_buffer: 0.01,
                       }),
-                      o.createElement(l.J, null, n)
-                    )
-                  )
-                )
+                      o.createElement(l.J, null, n),
+                    ),
+                  ),
+                ),
               );
         }
       }
@@ -2401,11 +2401,11 @@
       Object(i.b)([a.bind], p.prototype, "DeviceEvent", null),
       Object(d.b)(
         [],
-        null === (n = VRHTML) || void 0 === n ? void 0 : n.GetSteamVRLanguage()
+        null === (n = VRHTML) || void 0 === n ? void 0 : n.GetSteamVRLanguage(),
       ).then(() => {
         s.render(
           o.createElement(l.db, null, o.createElement(p, null)),
-          document.getElementById("root")
+          document.getElementById("root"),
         );
       });
   },
