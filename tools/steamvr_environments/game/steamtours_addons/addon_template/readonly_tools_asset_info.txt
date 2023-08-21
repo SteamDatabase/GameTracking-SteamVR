@@ -1,13 +1,44 @@
 scripts/soundscapes_manifest.txt
+- GAME: core/scripts/soundscapes_manifest.txt
+- GAME: steamtours/scripts/soundscapes_manifest.txt
+- GAME: steamtours_addons/addon_template/scripts/soundscapes_manifest.txt
+
 soundevents/soundevents_addon.vsndevts
+- GAME: core/soundevents/soundevents_addon.vsndevts_c
+- GAME: steamtours_addons/addon_template/soundevents/soundevents_addon.vsndevts_c
+- CONTENT: steamtours_addons/addon_template/soundevents/soundevents_addon.vsndevts
+- INPUT: steamtours_addons/addon_template/soundevents/soundevents_addon.vsndevts (crc 3154535413)
+
 addoninfo.txt
+- GAME: steamtours_addons/addon_template/addoninfo.txt
+
 panorama/localization/addon_english.txt
+- GAME: steamtours_addons/addon_template/panorama/localization/addon_english.txt
+
 scripts/soundscapes_template.txt
+- GAME: steamtours_addons/addon_template/scripts/soundscapes_template.txt
+
 maps/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/maps/placeholder.txt
+
 materials/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/materials/placeholder.txt
+
 models/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/models/placeholder.txt
+
 panorama/images/custom_destination/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/panorama/images/custom_destination/placeholder.txt
+
 panorama/layout/custom_destination/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/panorama/layout/custom_destination/placeholder.txt
+
 panorama/scripts/custom_destination/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/panorama/scripts/custom_destination/placeholder.txt
+
 panorama/styles/custom_destination/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/panorama/styles/custom_destination/placeholder.txt
+
 particles/placeholder.txt
+- CONTENT: steamtours_addons/addon_template/particles/placeholder.txt
+
