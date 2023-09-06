@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Ожидание беспроводного подключения"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR ждёт беспроводного подключения шлема..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Не удалось подключиться к экрану шлема"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Возможно, ваш шлем не подключён, или ваша среда рабочего стола не поддерживает VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Перезапустить SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Подробнее"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Не удалось передать экран в пользование"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Ваша среда рабочего стола (GNOME Wayland) не поддерживает передачу ресурсов в пользование через подсистему Direct Rendering Manager, а без этого не может работать виртуальная реальность."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Подробнее"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Не удалось подключиться к менеджеру окон"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR не удалось подключиться к менеджеру окон. Попробуйте перезапустить свой сеанс или SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Перезапустить SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Обновление графического драйвера"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам необходимо обновить графические драйверы или включить планирование графического процессора с аппаратным ускорением."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Подробнее"

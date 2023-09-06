@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Várakozás vezeték nélküli kapcsolatra"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "A SteamVR vezeték nélküli fejszett csatlakozására várakozik..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Nem sikerült csatlakozni a fejszettkijelzőhöz"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Lehet, hogy a fejszetted nincs csatlakoztatva, vagy az asztali környezeted nem támogatja a VR-t."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "SteamVR újraindítása"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Több infó"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/hu/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Megjelenítő bérlése sikertelen"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Az asztali környezeted (GNOME Wayland) nem támogatja a Direct Rendering Manager bérlését, ami a virtuális valósághoz szükséges."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Több infó"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/hu/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Nem sikerült csatlakozni az ablakkezelőhöz"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "A SteamVR nem tudott csatlakozni az ablakkezelőhöz. Lehet, hogy újra kell indítanod a munkamenetedet vagy a SteamVR-t."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "SteamVR újraindítása"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Video-illesztőprogram frissítés"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Frissítened kell a számítógéped video-illesztőprogramját, vagy engedélyezned a hardveres gyorsítású GPU-ütemezést."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Több infó"

@@ -116,6 +116,8 @@
 "FrameTiming_Pause" "Pauza"
 "FrameTiming_Raw" "Szczegóły"
 "FrameTiming_ShowInHeadset" "Pokaż w goglach"
+"FrameTiming_Remote" "Zdalne"
+
 "FrameTiming_5sStats" "Utrata przez ostatnie %1s:\n %2 x1 klatka\n %3 x2 klatki\n %4 x3 klatki\n %5 x4 lub więcej\n Razem: %6\n"
 "FrameTiming_Config" "Ostrzeż, jeśli przez %3s widzimy\n%1 pominiętych pojedynczych klatek\n  or %2 wielokrotnych utrat klatek"
 

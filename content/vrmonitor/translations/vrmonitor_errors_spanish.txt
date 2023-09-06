@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Esperando conexión inalámbrica"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR está esperando a que se conecte un visor inalámbrico..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "No se ha podido conectar con la pantalla del visor"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Puede que tu visor no esté conectado o que el entorno de tu escritorio no sea compatible con RV."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Reiniciar SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Más información"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/es/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "No se ha podido ceder la pantalla"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Tu entorno de escritorio (GNOME Wayland) no es compatible con el arrendamiento de DRM (Gestión de Renderizado Directo) necesario para la realidad virtual."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Más información"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/es/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "No se ha podido conectar con el gestor de ventanas"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR no ha podido conectarse al gestor de ventanas. Puede que tengas que reiniciar la sesión o SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Reiniciar SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Actualización del controlador de vídeo"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Debes actualizar el controlador gráfico de tu ordenador o activar la programación de GPU acelerada por hardware."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Más información"

@@ -459,7 +459,7 @@
 "SystemReport_Title" "시스템 보고서"
 "SystemReport_Refresh" "새로 고침"
 "SystemReport_CopyToClipboard" "클립보드에 복사"
-"SystemReport_SaveToFile" "파일에 저장"
+"SystemReport_SaveToFile" "파일로 저장"
 "SystemReport_SaveSystemReport" "시스템 보고서 저장"
 "SystemReport_UnableToOpenFile" "파일을 열 수 없음"
 "SystemReport_Data" "데이터"

@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Đang chờ kết nối không dây"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR đang đợi mũ chụp không dây kết nối..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Không thể kết nối với màn hình mũ chụp"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Mũ chụp có thể không kết nối hoặc môi trường desktop của bạn có thể không hỗ trợ VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Khởi động lại SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Xem thêm"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/vn/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Không thể thuê màn hình"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Môi trường desktop của bạn (GNOME Wayland) không hỗ trợ thuê tài nguyên từ Direct Rendering Manager, tính năng cần thiết cho thực tế ảo."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Xem thêm"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/vn/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Không thể kết nối với window manager"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR không thể kết nối với window manager. Có thể cần khởi động lại phiên hoặc SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Khởi động lại SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Cập nhật driver đồ họa"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Bạn cần cập nhật driver đồ họa của máy tính, hoặc bật tính năng Hardware-accelerated GPU scheduling."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Xem thêm"

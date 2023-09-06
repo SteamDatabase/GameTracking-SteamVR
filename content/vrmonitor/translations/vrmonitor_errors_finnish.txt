@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Odottaa langatonta yhteyttä"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR odottaa langattomien VR-lasien yhdistymistä..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Yhteyden muodostaminen VR-lasien näyttöön epäonnistui"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "VR-laseja ei ehkä ole kytketty tai työpöytäympäristösi ei tue virtuaalitodellisuutta."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Käynnistä SteamVR uudelleen"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Lisätietoja"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/fi/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Näytön jakaminen epäonnistui"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Käyttämäsi työpöytäympäristö (Gnome Wayland) ei tue näytön jakamista DRM Lease Managerin avulla. Virtuaalitodellisuus (VR) edellyttää kyseisen protokollan käyttöä."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Lisätietoja"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/fi/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Yhteyden muodostaminen ikkunanhallintaan epäonnistui"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR ei voinut yhdistää ikkunanhallintaan. Yritä käynnistää istunto tai SteamVR uudelleen."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Käynnistä SteamVR uudelleen"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Näytönohjaimen päivitys"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Sinun pitää päivittää tietokoneesi näytönohjaimen ajurit tai ottaa laitteistokiihdytetty grafiikkasuorittimen ajoitus käyttöön."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Lisätietoja"

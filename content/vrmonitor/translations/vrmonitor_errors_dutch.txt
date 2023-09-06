@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Op draadloze verbinding aan het wachten"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR wacht tot een draadloze headset verbinding maakt."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Headsetscherm verbinden is mislukt."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Je headset is mogelijk niet verbonden of je desktopomgeving ondersteunt mogelijk geen VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "SteamVR herstarten"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Meer informatie"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/nl/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Scherm leasen is mislukt."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Je desktopomgeving (GNOME Wayland) ondersteunt het leasen van een scherm via Direct Rendering Manager niet, wat vereist is voor VR."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Meer informatie"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/nl/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Verbinden met de vensterbeheerder is mislukt."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR kon geen verbinding maken met de vensterbeheerder. Mogelijk moet je je sessie of SteamVR opnieuw starten."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "SteamVR herstarten"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Update van het grafische stuurprogramma"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Je dient het grafische stuurprogramma van je computer bij te werken, of 'GPU met hardwareversnelling plannen' in te schakelen."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Meer informatie"

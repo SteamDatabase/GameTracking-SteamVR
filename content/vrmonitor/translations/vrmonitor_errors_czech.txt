@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Čeká se na bezdrátové spojení"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "Režim SteamVR čeká na připojení bezdrátového headsetu..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Nepodařilo se připojit k displeji headsetu"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Váš headset možná není připojen nebo Vaše desktopové prostředí nepodporuje VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Restartovat režim SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Více informací"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/cs/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Nepodařilo se zapůjčit displej"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Vaše desktopové prostředí (GNOME Wayland) nepodporuje zapůjčení systému Direct Rendering Manager, která jsou vyžadována pro fungování virtuální reality."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Více informací"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/cs/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Nepodařilo se připojit ke správci oken"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "Režimu SteamVR se nepodařilo připojit ke správci oken. Pravděpodobně budete muset restartovat relaci nebo režim SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Restartovat režim SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizace ovladače grafické karty"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Je vyžadována aktualizace ovladače grafické karty nebo povolení plánování GPU s hardwarovou akcelerací."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Více informací"

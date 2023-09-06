@@ -46,6 +46,11 @@
 	"/pose/tip": "先端",
 	"/pose/gdc2015": "GDC",
 	"/pose/handgrip": "ハンドグリップ",
+	"/pose/grip": "グリップ",
+	"/pose/openxr_grip": "OpenXRグリップ",
+	"/pose/openxr_aim": "OpenXRエイム",
+	"/pose/openxr_handmodel": "手のひら",
+	"/pose/openxr_handmodel_r": "手のひら",
 	"/input/skeleton/left": "左のスケルトン",
 	"/input/skeleton/right": "右のスケルトン",
 	"/output/haptic": "ハプティクス",
@@ -73,5 +78,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
-	"CompatibilityMode_Notification": "自動互換モードが有効になっています。「%1$s」のバインドを使用しています。"
+	"CompatibilityMode_Notification": "自動互換モードが有効になっています。「%1$s」のバインドを使用しています。",
+	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

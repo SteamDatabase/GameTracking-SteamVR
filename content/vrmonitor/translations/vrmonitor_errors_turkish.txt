@@ -286,6 +286,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Kablosuz Bağlantı Bekleniyor"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR, kablosuz bir başlığın bağlanmasını bekliyor..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Başlık ekranına bağlanılamadı"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Başlığınız bağlı olmayabilir veya masaüstü ortamınız VR'ı desteklemiyor olabilir."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "SteamVR'ı Yeniden Başlat"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Daha fazla bilgi"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/tr/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Ekran ödünç alınamadı"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Masaüstü ortamınız (GNOME Wayland), sanal gerçeklik için gerekli olan \"Direct Rendering Manager\" aracılığıyla ödünç almaları desteklemiyor."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Daha fazla bilgi"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/tr/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Pencere yöneticisine bağlanılamadı"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR, pencere yöneticisine bağlanamadı. Oturumunuzu veya SteamVR'ı yeniden başlatmanız gerekebilir."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "SteamVR'ı Yeniden Başlat"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Grafik sürücüsü güncellemesi"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmeli veya donanım hızlandırmalı GPU zamanlamasını etkinleştirmelisiniz."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Daha fazla bilgi"

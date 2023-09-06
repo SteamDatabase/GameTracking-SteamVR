@@ -461,7 +461,7 @@
   "DisplaySettings_DisplayBrightness": "Näytön kirkkaus",
   "DisplaySettings_IndexColumnCorrection": "Indexin näytön pikselisarakkeen korjaus",
   "DisplaySettings_ColumnCorrection": "Pikselisarakkeen korjaus",
-  "DisplaySettings_ColumnCorrectionDesc": "Pikselisarakkeen korjaus pienentää pystysuuntaista screen door -efektiä pään liikkeiden aikana. Suurimman osan käyttäjistä kannattaa jättä tämä päälle, hienosäätöasetuksella 0.",
+  "DisplaySettings_ColumnCorrectionDesc": "Pikselisarakkeen korjaus pienentää pystysuuntaista screen door -efektiä pään liikkeiden aikana. Suurimman osan käyttäjistä kannattaa jättää tämä päälle, hienosäätöasetuksella 0.",
   "DisplaySettings_ColumnCorrectionEdit": "Muokkaa",
   "DisplaySettings_Error_FirmwareUpdateNeeded": "Laiteohjelmiston päivitys vaaditaan, jotta näyttöasetuksia voi muokata.",
   "DisplaySettings_EnableColumnCorrection": "Pikselisarakkeen korjaus",

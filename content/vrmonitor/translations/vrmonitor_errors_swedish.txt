@@ -259,21 +259,21 @@
 "VRInitError_Driver_CalibrationInvalid_Action" "Mer information"
 "VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
 
-"VRInitError_Driver_HmdDisplayNotFound_Header" "Headset-skärm frånkopplad"
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Headsetskärm frånkopplad"
 "VRInitError_Driver_HmdDisplayNotFound_Description" "Se till att dina videokablar är inkopplade ordentligt. Headsetets skärm kunde inte hittas."
 "VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Återställ headset"
 "VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
 "VRInitError_Driver_HmdDisplayNotFound_Action" "Mer information"
 "VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Headset-skärm frånkopplad"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Headsetskärm frånkopplad"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Se till att dina videokablar är ordentligt anslutna till din laptop. Laptops kan kräva speciella konfigurationer för att fungera med VR."
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Återställ headset"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Mer info"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/se/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_HmdDisplayMirrored_Header" "Headset-skärm speglad"
+"VRInitError_Driver_HmdDisplayMirrored_Header" "Headsetskärm speglad"
 "VRInitError_Driver_HmdDisplayMirrored_Description" "Headsetets skärm hittades inte, men en speglad skärm upptäcktes. Ställ in ditt headset på utökat läge istället för speglat."
 "VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Visa skärmegenskaper"
 "VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Väntar på trådlös anslutning"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR väntar på anslutning av ett trådlöst headset ..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Kunde inte ansluta till headsetskärm"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Headsetet kanske inte är anslutet eller så stöder skrivbordsmiljön inte VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Starta om SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Mer information"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/sv/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Kunde inte leasa skärmen"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Din skrivbordsmiljö (Gnome Wayland) stöder inte Direct Rendering Manager-leasing, vilket är nödvändigt för virtual reality."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Mer information"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/sv/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Kunde inte ansluta till fönsterhanterare"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR kunde inte ansluta till fönsterhanteraren. Du kan behöva starta om din session eller SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Starta om SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Uppdatering av grafikdrivrutin"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Du måste uppdatera din dators grafikdrivrutiner, eller aktivera maskinvaruaccelererad GPU-schemaläggning."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mer information"

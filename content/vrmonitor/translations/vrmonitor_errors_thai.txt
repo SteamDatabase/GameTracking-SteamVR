@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "กำลังรอการเชื่อมต่อแบบไร้สาย"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR กำลังรอให้เครื่องสวมศีรษะแบบไร้สายทำการเชื่อมต่อ..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "ไม่สามารถเชื่อมต่อกับจอแสดงผลเครื่องสวมศีรษะ"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "เครื่องสวมศีรษะของคุณอาจไม่ได้เชื่อมต่ออยู่ หรือสภาพแวดล้อมเดสก์ท็อปของคุณอาจไม่รองรับ VR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "รีสตาร์ท SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "ไม่สามารถยืมใช้จอแสดงผลชั่วคราวได้"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "สภาพแวดล้อมเดสก์ท็อปของคุณ (Gnome Wayland) ไม่รองรับการยืมใช้ระบบจัดการการเรนเดอร์โดยตรง (Direct Rendering Manager) ชั่วคราว ซึ่งจำเป็นต้องใช้กับความเป็นจริงเสมือน"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "ไม่สามารถเชื่อมต่อกับตัวจัดการหน้าต่าง"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR ไม่สามารถเชื่อมต่อกับตัวจัดการหน้าต่าง คุณอาจต้องรีสตาร์ทเซสชันของคุณหรือ SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "รีสตาร์ท SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "อัปเดตไดรเวอร์กราฟิก"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "คุณจำเป็นต้องอัปเดตไดรเวอร์กราฟิกให้คอมพิวเตอร์ของคุณ หรือเปิดใช้งานการจัดเวลา GPU แบบเร่งด้วยฮาร์ดแวร์"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "ข้อมูลเพิ่มเติม"

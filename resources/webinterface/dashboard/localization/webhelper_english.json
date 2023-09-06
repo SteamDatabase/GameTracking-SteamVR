@@ -54,6 +54,11 @@
 	"/pose/tip" : "Tip",
 	"/pose/gdc2015" : "GDC",
 	"/pose/handgrip" : "Hand Grip",
+	"/pose/grip": "Grip",
+	"/pose/openxr_grip": "OpenXR Grip",
+	"/pose/openxr_aim": "OpenXR Aim",
+	"/pose/openxr_handmodel": "Palm",
+	"/pose/openxr_handmodel_r": "Palm",
 
 	"/input/skeleton/left" : "Left skeleton",
 	"/input/skeleton/right" : "Right skeleton",

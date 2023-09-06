@@ -1,7 +1,6 @@
 	!s99
  %41g
 !hn7!
-!puB)9B
 ',=?k
 (f*^[0
 +Xt@(
@@ -53,6 +52,7 @@
 .text$x
 .text$yd
 .xdata$x
+/,m(2+
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -73,82 +73,80 @@
 /user/wrist/right
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
-080i0
 0w0c1
 0}0i1
 1!131=1Y1h1w1
+1&161G1]1t1
 1+232;2
-1-1D1Y1`1f1x1
 130801120000Z
 1@1h1
 1d2|2
-2$3;3l3
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202825Z0/
+230714000000Z
+230831183305Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
+2D2L2e2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3.3T3k3
 311109235959Z0b1
-331121235959Z0F1
-344=4N4Z4f4l4r4~4
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3:3I3X3
-3:4X4
 3mq+<
 4	5(555?5I5V5c5i5s5}5
+4	5N5T5u5
+4*4d4m4~4
 4K4n4{4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5 5$5<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5
-5$5E5V5
+5 5$5(5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5FjiT
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6$6-6;6D6M6V6c6u6
+6)6.6A6a6~6
 6*f(_
-616A6V6
-616N6
+656a6q6
 6I]Dc
 6OB,n_
+7 7<7@7
 70503
-74787
-7D8H8P8h8x8|8
+7T8X8`8x8
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8	9N9T9n9A;
 8!818Z8e8o8{8
-8%838<8O8Y8o8x8
+8C8L8U8c8l8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+9 9(9@9P9T9d9h9l9p9x9
+9"9)91999A9M9V9[9a9k9u9
 9"9+909@9J9S9\9n9s9}9
-9&9+919;9E9U9e9u9~9
-909@9D9T9X9\9`9h9
-:#:):/:5:;:A:Q:c:
+999~9
+: :(:@:P:T:d:h:p:
+:#:):/:5:;:A:G:M:S:Y:_:e:k:q:
 :#:1:;:D:M:X:]:k:u:~:
-:0:@:D:T:X:`:x:
-; ;0;4;8;<;D;\;
 ;$;-;9;B;G;X;b;k;w;
-;F<r<
-<*J=)
+;,;0;@;D;H;L;T;l;
 <0:08
-<0E0N0W0\0a0h0&111
+<0E0N0W0\0a0h0V1a1 3)3A3j4
 <5=:=D=M=X=^=d=
 <<<C<r<
-=C=M=W=i=
+=B=J=s=}=
 =rIQU
 >#>,>5>:>?>F>
+>/>H>
 >0<0:
 >Mp$d
 ? ?d?m?v?
-?$?(?D?H?P?X?`?d?l?
+?4?8?T?X?`?h?p?t?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
@@ -156,22 +154,23 @@
 Bellevue1
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
+H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
-IVRDisplayComponent_002
+IVRDisplayComponent_003
 IVRDriverDirectModeComponent_008
 IVRDriverLog_001
 IVRDriverManager_001
@@ -242,6 +241,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -250,7 +250,6 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
-cU	F9
 displayFrequency
 driver_null
 driver_null.dll
@@ -261,6 +260,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+g`J/f
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -268,14 +268,17 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+l2|X/gGe
 m0k0$
 malloc
 memcpy
 memmove
 memset
 modelNumber
+mv8~Q 
 renderHeight
 renderWidth
+rt	2N
 secondsFromVsyncToPhotons
 serialNumber
 steamvr

@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Очікування бездротового підключення"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR очікує на підключення бездротового шолома…"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Не вдалося підключитися до екрана шолома"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Можливо, шолом не підключений або середовище робочого столу не підтримує ВР."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Перезапустити SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Докладніше"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/uk/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Не вдалося передати в користування екран"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Настільне середовище (Gnome Wayland) не підтримує передані в користування через Direct Rendering Manager ресурси, необхідні для роботи віртуальної реальності."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Докладніше"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/uk/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Не вдалося підключитися до менеджера вікон"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR не вдалося підключитися до менеджера вікон. Можливо, доведеться перезапустити сеанс або SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Перезапустити SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Оновлення відеодрайвера"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам слід оновити драйвер відеокарти комп’ютера або увімкнути планування графічного процесора з апаратним прискоренням."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Докладніше"

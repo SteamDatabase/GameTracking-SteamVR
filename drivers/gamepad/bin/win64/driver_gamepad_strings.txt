@@ -96,15 +96,15 @@
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727203053Z0/
+230714000000Z
+230831183459Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -120,8 +120,8 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-<*J=)
 <0:08
+=_PyQ
 =rIQU
 >0<0:
 >Mp$d
@@ -135,7 +135,6 @@
 @A^_^
 @UAWH
 A9A A
-AIufl
 A_A^_
 A_A^_^]
 AuthD
@@ -147,13 +146,12 @@ D8{0t
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
-E8f.A
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -161,6 +159,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H SWH
+H-^Eu
 H93t	H
 H957{
 H95A|
@@ -173,7 +172,7 @@ IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
-IVRDisplayComponent_002
+IVRDisplayComponent_003
 IVRDriverDirectModeComponent_008
 IVRDriverInput_003
 IVRDriverLog_001
@@ -208,9 +207,8 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QtO?iP2
 QueryPerformanceCounter
-RSDSj
+RSDS5
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -262,8 +260,6 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-Xr;ds
-X| # 
 Y9"SD
 [K]taM?
 \$ UH
@@ -306,14 +302,15 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
-cU	F9
 driver_gamepad.dll
+f`o$B@Eq
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -322,7 +319,7 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
-llA/>X
+l2|X/gGe
 m0k0$
 malloc
 map/set<T> too long
@@ -331,7 +328,6 @@ memmove
 memset
 ntelD
 p WAVAWH
-rBMDSy=T
 string too long
 t$ AVH
 t$ AWH
@@ -343,7 +339,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-z6I,"
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

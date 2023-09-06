@@ -288,6 +288,23 @@
 "VRInitError_Driver_WirelessHmdNotConnected_Action" " "
 "VRInitError_Driver_WirelessHmdNotConnected_ActionURL" ""
 
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Failed to connect to headset display"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Your headset might not be connected, or your desktop environment might not support VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Restart SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "More info"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/en/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Failed to lease display"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Your desktop environment (Gnome Wayland) does not support Direct Rendering Manager leases, which is required for virtual reality."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "More info"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/en/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Failed to connect to window manager"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR failed to connect to the window manager. You may need to restart your session or SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Restart SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Graphics driver update"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "You need to update your computer's graphics driver, or enable hardware-accelerated GPU scheduling."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "More info"

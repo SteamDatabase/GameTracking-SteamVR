@@ -377,15 +377,15 @@ $< t6<$t,<+t"<vt
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202900Z0/
+230714000000Z
+230831183342Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -443,7 +443,6 @@ $< t6<$t,<+t"<vt
 ;Ct~ZH
 ;Ct~gH
 <%ufH
-<*J=)
 <0:08
 <:u/H
 <:u3H
@@ -842,11 +841,11 @@ DequeueUmsCompletionListItems
 Device Path: 
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Dl$8E
 DuplicateHandle
@@ -915,7 +914,6 @@ Failed to set white balance.
 Failed to write firmware packet properties.
 Failed to write firmware packet.
 Firmware Register Buffer: 
-Fjky[
 FlsAlloc
 FlsFree
 FlsGetValue
@@ -981,6 +979,7 @@ H+L$(x?H
 H+L$(xAH
 H+\$0H
 H+|$8
+H-^Eu
 H3\$HH
 H99u{
 H9=(U	
@@ -1009,6 +1008,7 @@ H;\$H
 H;_Xt
 H;|$8u
 HHtfH
+HL%vk}
 H_^][
 Hc;HcK
 HcD$hH
@@ -1100,6 +1100,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MinConcurrency
 MultiByteToWideChar
+NWRYP>:
 No Description
 No IPin available.
 No color stream to configure.
@@ -1319,7 +1320,6 @@ _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
-_dB]E
 _errno
 _execute_onexit_table
 _fseeki64
@@ -1346,6 +1346,7 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
+a7hIw
 abort
 address family not supported
 address in use
@@ -1378,7 +1379,6 @@ bad message
 blank
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
-cU	F9
 calloc
 cntrl
 connection aborted
@@ -1483,6 +1483,7 @@ l$`E;
 l$pfA#
 l$xM+
 l*$D+l*,tDD+l*(
+l2|X/gGe
 ldexp
 localeconv
 lower

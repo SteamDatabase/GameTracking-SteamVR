@@ -117,6 +117,10 @@
       "type" : "pose",
       "binding_image_point" : [ 56, 95 ]
     },
+    "/pose/grip" : {
+      "type" : "pose",
+      "binding_image_point" : [ 56, 95 ]
+    },
     "/pose/tip" : {
       "type" : "pose",
       "binding_image_point" : [ 5, 35 ]

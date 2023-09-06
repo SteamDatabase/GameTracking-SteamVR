@@ -1,18 +1,16 @@
 	!s99
-	hVw0^
  %41g
  (Camera)
 !hn7!
+&/7<y
+&Ay*7
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
-(}>ns
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
-,|	Ki
--p!9/~z
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -72,138 +70,139 @@
 .tls$ZZZ
 .xdata$x
 0 0$0(0H0L0t0
+0 0(0<0D0L0T0X0\0d0x0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
-0%0-02080@0H0M0S0[0c0h0n0v0~0
+0!0+030A0K0z0
+0"0*02070=0E0M0R0X0`0h0m0s0{0
+0'141U1Z1s1x1
 0+0-4D4
-0,040<0D0H0L0T0h0
-0J0T0^0i0s0
 0w0c1
 0}0i1
-1	3l364
-1 1%1+131;1@1F1N1V1[1a1i1q1v1|1
+1!111A1K1U1`1m1
 1!1J2
 1"1'1,1A1F1K1P1U1Z1_1d1i1n1s1x1}1
+1"1B1#262<2Z2`2n2
 1$1(1,1014181<1@1D1H1h1l1
-1%1*1C1H1U1
-1%101=1b1r1|1
+1%1*10181@1E1K1S1[1`1f1n1v1{1
 1(2L2x2
 130801120000Z
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
-2&2.23292A2I2N2T2\2d2i2o2w2
+2#2+23282>2F2N2S2Y2a2i2n2t2|2
+2$383]3q3
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202840Z0/
+230714000000Z
+230831183313Z0/
 241009235959Z0a1
-2:2@2N2}2
+262~2
 2>4~4
+2C2t2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2N2`2
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3!3+353?3I3S3]3g3q3{3
 3'313;3H3R3X3_3c3i3s3}3
-3)333=3G3Q3[3e3o3y3
-3-3A3T3
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3:3t3
 3<3X3x3
+3?nz{Xk
 3T4p4
 3mq+<
-4#4-474A4K4Z4`4t4
-4$4*4/454@4F4U4\4a4j4o4x4
+3|3F4
+4 4$4<4@4H4`4p4t4
+4#4/4>4T4Z4_4e4p4v4
+4%4/494C4M4W4a4k4z4
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
-4,40484P4`4d4t4x4|4
+4/5C5M5X5}5
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
+5$5/5
 5&5.565r5
-5,505@5D5H5P5h5l5
-535=5H5m5
+5,5<5@5P5T5X5`5x5|5
 586<6@6D6H6L6P6T6X6\6`6
 5=637Q7~7
 5FjiT
 5Genu
 5N5W5`5i5n5s5z5
-5[6{6
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-6!7*717j7
+6$6<6L6P6`6d6h6p6
 6*f(_
-6,6<6@6P6T6X6`6x6
 696r6
+696~6
+6A7J7Q7
 6I]Dc
 6OB,n_
-6^6d6~6
+7 7&7;7S7Y7c7z7
 7!7&747C7L7U7^7c7h7o7
-7#7)737J7{7
-7(7,7<7@7H7`7p7t7
+7$7(787<7L7P7X7p7
 7+737;7
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8"8L8
 8'8-878A8K8U8_8l8u8
-8,80888P8`8d8t8x8|8
-8,8q8
+8'919;9I9
+8(8,8<8@8H8`8p8t8
 838<8H8N8T8_8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9	9)9n9t9
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9!9+999}9
-9"90999L9-:M:W:r:
+9#9)9I9
 9$919C9M9W9b9m9z9
-9$?(?,?0?4?8?<?@?D?H?h?l?p?t?x?|?
-93:z:
+94?8?<?@?D?H?L?P?T?X?x?|?
+9@9I9R9`9i9|9]:}:
 9A9X9t9
-9R:e:z:
 9X;h;
 :$:-:6:?:D:I:P:`:
-:(:U:
+:':2:H:u:
 :-:6:?:H:M:R:Y:
-:6;U;
-;!;*;7;O;
+:F;e;
+:b:u:
+; ;B;Q;Z;g;
+; <(<-<@<T<Y<l<
 ;$;-;2;7;>;C;O;q;
 ;(;1;6;;;B;R;
+;(<1<B<
+;5<A<Y<o<x<
 ;j<q<
-<!<9<O<X<
 <#<(<-<4<y<
-<$<)<<<T<]<h<o<
 <%<.<7<<<A<H<
 <'<1<;<E<O<Y<c<m<w<
-<*J=)
+<,=`=v=
 <0:08
-<F>Q>l>u>
-<Z=b=
-= =*=:=J=Z=c=r=x=~=
-= >/>B>N>^>o>
-=$=H=T=\=|=
-=9>?>T>]>
-=@=V=t=
+<V>a>|>
+=&=2=;=@=F=P=Z=j=z=
+=4=X=d=l=
 =P>h>l>
 =]=f=o=x=}=
 =j)h8
+=j=r=
 =rIQU
->$>*>0>6><>B>H>N>T>Z>`>f>l>r>x>~>
->$>,>1>7>?>G>L>R>Z>b>g>m>u>}>
->,>P>\>d>
+>">)>1>6><>D>L>Q>W>_>g>l>r>z>
 >0<0:
+>0><>B>H>N>T>Z>`>f>l>r>x>~>
 >2>T>^>g>r>x>~>
->8?E?l?t?
+><>`>l>t>
+><?B?P?\?
+>@>O>b>n>~>
 >Mp$d
-?!?1?A?Q?a?q?
-?"?0?<?
-?$?*?2?:???E?M?U?Z?`?h?p?u?{?
-?,?8?@?l?p?
+>X?e?
+>Y>_>t>}>
+? ?&?,?A?Q?a?q?
+?$?)?/?7???D?J?R?Z?_?e?m?u?z?
 ?:?m?v?
+?<?H?P?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -225,11 +224,11 @@ D3D11CreateDevice
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Error! EventWriteString Severe: %s
 EventRegister
@@ -250,12 +249,13 @@ GetModuleHandleExW
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
+H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
-IVRDisplayComponent_002
+IVRDisplayComponent_003
 IVRDriverDirectModeComponent_008
 IVRDriverLog_001
 IVRDriverManager_001
@@ -287,7 +287,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NLZ(u
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -295,10 +294,8 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJY2=
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSW
 RaiseException
 S0Q0O
 SA|X=G
@@ -326,6 +323,7 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
+V=bj+B
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -338,6 +336,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+Y?NFjA
 Y__^[
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -384,6 +383,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -393,12 +393,10 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
-cU	F9
 camera
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
-eQIxh}
 f;A*stSW
 getenv
 headset
@@ -411,7 +409,7 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-kgVs]
+l2|X/gGe
 m0k0$
 malloc
 map/set<T> too long

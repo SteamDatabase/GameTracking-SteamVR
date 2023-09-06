@@ -289,6 +289,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Wartet auf drahtlose Verbindung …"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR wartet auf die Verbindung mit einem drahtlosen VR-Headset …"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Verbindung mit der VR-Headset-Anzeige fehlgeschlagen"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Möglicherweise ist Ihr VR-Headset nicht verbunden oder Ihre Desktop-Umgebung unterstützt kein VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "SteamVR neu starten"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Weitere Informationen"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Leasing der Anzeige fehlgeschlagen"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Ihre Desktop-Umgebung (GNOME Wayland) unterstützt kein für VR erforderliches Direct-Rendering-Manager-Leasing."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Weitere Informationen"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Verbindung zur Fensterverwaltung fehlgeschlagen"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR konnte keine Verbindung zur Fensterverwaltung herstellen. Bitte starten Sie Ihre Sitzung oder SteamVR neu."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "SteamVR neu starten"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Update der Grafiktreiber"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Aktualisieren Sie den Grafiktreiber Ihres Computers oder aktivieren Sie hardwarebeschleunigte GPU-Planung."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Weitere Informationen"

@@ -1596,6 +1596,7 @@
 !VuCh
 !W,m]
 ![CDATA[
+!az=j
 !container_class || info->container_class == container_class
 !context->awaiting_pop
 !context->parsing
@@ -3716,8 +3717,8 @@ $wtpt
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727203247Z0/
+230714000000Z
+230831183635Z0/
 230x323
 2384x3370
 24 24
@@ -3758,10 +3759,10 @@ $wtpt
 32-bit_rle_rgbe
 32-bit_rle_xyze
 323x459
-331121235959Z0F1
 333333
 3333UUUU
 33f33333
+341013235959Z0H1
 354x499
 360428235959Z0i1
 360x504
@@ -3838,6 +3839,7 @@ $wtpt
 3iR">
 3mq+<
 3p@lgi
+3r<QC
 3x1:0,1,0
 3x4+1+1:-,-,0 1,1,1 1,1,1 0,-,-
 3x4+1+1:0,-,- 1,1,1 1,1,1 -,-,0
@@ -4222,7 +4224,6 @@ $wtpt
 <'u1H
 <)tsD9
 <)};(w3"
-<*J=)
 <*tx<@
 <*ulH
 <+ta<-tPH
@@ -7197,11 +7198,11 @@ Differential Channel Source
 Differential Channel Source Modifiers
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 Digital Image Format Acquired
 Digital Imaging and Communications in Medicine image
 Digital Moving Picture Exchange Bitmap, Version 2.0.
@@ -7419,6 +7420,7 @@ EXIF Profile Thumbnail
 EXPOSURE=%g
 EXXXXXXXX
 EY}CWoB[sDDB6JE<\M>`S>e_Xzt
+E]?+6
 E^XfD;
 E_0)D
 E`H+F(H
@@ -8294,6 +8296,7 @@ H+^(H;
 H+l$0I+
 H+t$`L
 H+{(H;
+H-^Eu
 H01XyqxyE@
 H3F H3
 H3F(H3
@@ -8652,6 +8655,7 @@ Hanunoo
 HardLight
 HardMix
 Hasselblad CFV/H3D39II
+Hc5tRW
 HcA ;B 
 HcA H;
 HcA0E3
@@ -9677,6 +9681,7 @@ L+T$`H
 L+l$X
 L+t$HI
 L/Q0am
+L7O(zMw
 L9 u%H
 L9&~,
 L9&~2
@@ -14751,6 +14756,7 @@ a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
 a(L9a L
 a4small
+a7hIw
 aWvd$A;-
 a]{?P
 a`wwn
@@ -15007,7 +15013,6 @@ bytes != NULL
 bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
-c"5]x
 c&fs&Y
 c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
@@ -15284,7 +15289,6 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
-cU	F9
 cache
 cache != NULL
 cache:%s
@@ -17533,7 +17537,6 @@ k VWAWH
 k0i0$
 kD$,;D
 kU!W>
-kWC'w{W
 ka strax hwila p
 ka? nov
 kach<
@@ -17703,6 +17706,7 @@ l$xH+
 l$xH;
 l$xfD
 l$xt	
+l2|X/gGe
 l6qnk
 l<"-y<
 l<}2l
@@ -17948,7 +17952,6 @@ n b?l?i.
 n(I;.|
 n10-/.,43/892>?5GD;OK8MK4XWW
 n2/t.
-n3	`Q
 n8L9e
 n= BGRt_= ZYXtN=rbCYt=H
 n?EKn?tzn?
@@ -19704,6 +19707,7 @@ type_node_any_new_W
 type_node_fundamental_new_W
 type_node_new_W
 tzD9w\ttL
+t|/:1v
 t|L9s
 u	)))
 u	H97
@@ -20073,6 +20077,7 @@ x7H;F(}1
 x9DBx
 x<<D%
 x<H+x
+x<I.j
 x>B\y>
 x?t9f
 x@|" 
@@ -20789,6 +20794,7 @@ xpm_%.1024s
 xps:cmyk
 xps:color
 xps:mono
+xq{_u>
 xx-large
 xx-small
 y H+y

@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Αναμονή ασύρματης σύνδεσης"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "Το SteamVR αναμένει να συνδεθεί ένα ασύρματο headset…"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Αποτυχία σύνδεσης στην οθόνη του headset."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Το headset σας μπορεί να μην είναι συνδεδεμένο ή το περιβάλλον εργασίας σας μπορεί να μην υποστηρίζει VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Επανεκκίνηση SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/el/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Αποτυχία παραχώρησης οθόνης"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Το περιβάλλον επιφάνειας εργασίας σας (Gnome Wayland) δεν υποστηρίζει την παραχώρηση πόρων μέσω Direct Rendering Manager, που απαιτείται για εικονική πραγματικότητα."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/el/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Αποτυχία σύνδεσης στον διαχειριστή παραθύρων"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "Το SteamVR δεν μπόρεσε να συνδεθεί στον διαχειριστή παραθύρων. Μπορεί να χρειαστεί να επανεκκινήσετε τη συνεδρία σας ή το SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Επανεκκίνηση SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Ενημέρωση οδηγού γραφικών"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Πρέπει να ενημερώσετε τον οδηγό γραφικών του υπολογιστή σας ή να ενεργοποιήσετε τον προγραμματισμό GPU με επιτάχυνση υλικού."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Περισσότερες πληροφορίες"

@@ -5,8 +5,8 @@
  9D$D
  A__^
  H3E H3E
-!OJ L
 !hn7!
+#@l~c
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -19,10 +19,12 @@
 )\$pD
 )d$`D
 )t$pu.H
+*[j!9
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
+-Sm.eV
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -91,15 +93,15 @@
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727203227Z0/
+230714000000Z
+230831183613Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -126,8 +128,8 @@
 ;K sUH
 ;k sAH
 ;k sDH
-<*J=)
 <0:08
+=8VgU
 =rIQU
 >0<0:
 >Mp$d
@@ -178,14 +180,15 @@ D9@ s
 D9H s
 D;A s
 D;I s
+DH3a:
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Error! EventWriteString Severe: %s
 EventRegister
@@ -207,6 +210,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H SWH
+H-^Eu
 H93t	H
 H;{XH
 HcD$0
@@ -216,7 +220,7 @@ IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
-IVRDisplayComponent_002
+IVRDisplayComponent_003
 IVRDriverDirectModeComponent_008
 IVRDriverLog_001
 IVRDriverManager_001
@@ -268,9 +272,8 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS(`H-
+RSDSYR
 RaiseException
-RnXxEl
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -280,7 +283,6 @@ SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
-SJ#<!;6:
 SUWAWH
 SVWATAUAVAWH
 SetEvent
@@ -288,7 +290,6 @@ SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
 TUUUUUU
-TY0>i
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -318,12 +319,10 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 WATAUAVAWH
-WLp7#z
 WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-Y*JLj3
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -371,6 +370,8 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`O?\09
+a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -379,10 +380,10 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
-cU	F9
 camera
 d$`H=
 d3d11.dll
+dj_,"
 dk2_camera
 driver_oculus_legacy.dll
 effffff
@@ -398,6 +399,7 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
+l2|X/gGe
 m0k0$
 malloc
 map/set<T> too long
@@ -464,19 +466,16 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t0u?c
 tIL95f
 tXfff
 tdh.dll
 terminate
 tkH97t	H
-v	LKZ
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
-{A(Fr@
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -489,6 +488,7 @@ z(uMH
 {un'%
 |$ AVH
 |$8I;
+|KqS'
 |Lu?c
 }LuHO
 ~qj#k"

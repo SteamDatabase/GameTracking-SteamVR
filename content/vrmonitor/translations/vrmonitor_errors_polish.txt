@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Oczekiwanie na połączenie bezprzewodowe"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR czeka na połączenie z bezprzewodowymi goglami..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Nie udało się połączyć z ekranem gogli"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Twoje gogle mogą nie być podłączone lub twoje środowisko graficzne może nie obsługiwać VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Zrestartuj SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Więcej informacji"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/pl/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Nie udało się udostępnić ekranu"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Twoje środowisko graficzne (Wayland w GNOME) nie obsługuje udostępniania ekranu przez Direct Rendering Manager. Jest to wymagane dla rzeczywistości wirtualnej."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Więcej informacji"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/pl/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Nie udało się połączyć z menedżerem okien"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR nie udało się połączyć z menedżerem okien. Konieczne może być zrestartowanie sesji lub SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Zrestartuj SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizacja sterowników graficznych"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Musisz zaktualizować sterowniki karty graficznej twojego komputera lub włączyć planowanie przyspieszanego sprzętowo procesora GPU."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Więcej informacji"

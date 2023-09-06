@@ -153,7 +153,7 @@
 	"StatusCheckInterval_Seldom": "Zřídka (po 5 s)",
 	"Settings_KnockKnock_Button": "Ťuky ťuk",
 	"Settings_KnockKnock_Desc": "Tato funkce umožňuje lidem požádat uživatele headsetu o pozornost.",
-	"Settings_CreateSystemReport_Button": "Vyvolat informace o systému",
+	"Settings_CreateSystemReport_Button": "Vytvořit zprávu o systému",
 	"Settings_ViewLogs_Button": "Zobrazit záznamy",
 	"Settings_Video_RefreshRate_Header": "Obnovovací frekvence",
 	"Settings_Video_RefreshRate_HzSuffix": " Hz",

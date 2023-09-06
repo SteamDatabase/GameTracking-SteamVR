@@ -282,6 +282,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "ワイヤレス接続待機中"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVRは、ワイヤレスヘッドセットの接続を待っています..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "ヘッドセットディスプレイへの接続に失敗しました"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "ヘッドセットが接続されていないか、デスクトップ環境がVRをサポートしていない可能性があります。"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "SteamVRを再起動"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "詳細"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/ja/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "ディスプレイのリースに失敗しました"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "お使いのデスクトップ環境（GNOME Wayland）は、バーチャルリアリティに必要なダイレクトレンダリングマネージャーのリースをサポートしていません。"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "詳細"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/ja/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "ウィンドウマネージャーへの接続に失敗しました"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVRがウィンドウマネージャーに接続できませんでした。セッションまたはSteamVRの再起動が必要な場合があります。"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "SteamVRを再起動"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "グラフィックドライバーのアップデート"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "コンピューターのグラフィックドライバーを更新するか、ハードウェアアクセラレーションによるGPUスケジューリングを有効にする必要があります。"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "詳細情報"

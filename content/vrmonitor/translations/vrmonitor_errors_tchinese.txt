@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "正在等待無線網路連線"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR 正在等待無線頭戴顯示器連線…"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "無法連接至頭戴顯示器"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "您的頭戴顯示器可能尚未連接，或是您的桌面環境可能不支援 VR。"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "重新啟動 SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "更多資訊"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "無法租用顯示器"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "您的桌面環境（GNOME Wayland）不支援虛擬實境所需的 Direct Rendering Manager（DRM，直接彩現管理器）租用。"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "更多資訊"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "無法連接至視窗管理員"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR 無法連接至視窗管理員。您可能需要重新啟動您的工作階段或 SteamVR。"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "重新啟動 SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "顯示卡驅動程式更新"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "您需要更新電腦的顯示卡驅動程式，或啟用硬體加速 GPU 排程。"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "更多資訊"

@@ -2287,7 +2287,6 @@ $~O="""
 )\ZEo^m/
 )]_^[
 )`=`S
-)e<	(
 )np)nl)n\V
 )t$0f
 )y.0zkl6
@@ -2315,6 +2314,7 @@ $~O="""
 *E?>YE?
 *EPSF-*
 *Magenta*
+*O(r%
 *Pt)p
 *T$(j
 *T|3m
@@ -4321,14 +4321,14 @@ $~O="""
 213w3
 220323000000Z
 220801000000Z
-220921000000Z
 22272A2Y2d2
 22282E2
 222A2F2
 222P2b2}2
 22373K3o3
 223E3P3a3l3
-230727202845Z0/
+230714000000Z
+230831183319Z0/
 230x323
 23282G2L2e3
 23282R2W2q2v2
@@ -4675,7 +4675,6 @@ $~O="""
 323x459
 32474A4
 324@4
-331121235959Z0F1
 333333
 3333UUUU
 3333v/h
@@ -4685,6 +4684,7 @@ $~O="""
 333`3d3h3l3p3t3x3|3
 334F4g4
 33f33333
+341013235959Z0H1
 343N3h3q3
 34484<4@4D4H4L4
 34494N4S4G5L5`5e5
@@ -5766,7 +5766,6 @@ $~O="""
 6<7F7K7i7
 6=7w7
 6=8*9V9
-6=^}e
 6>6C6
 6>7C7
 6>7C7R7W7
@@ -7953,7 +7952,6 @@ $~O="""
 <*<8<D<R<^<l<x<
 <*<><R<f<y<
 <*<_<m<
-<*J=)
 <+<0<h<
 <+<?<
 <+<d<r<:=N=[=
@@ -11976,11 +11974,11 @@ Differential Channel Source
 Differential Channel Source Modifiers
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 Digital Image Format Acquired
 Digital Imaging and Communications in Medicine image
 Digital Moving Picture Exchange Bitmap, Version 2.0.
@@ -12124,6 +12122,7 @@ E ko?ana e kai i te karahi, mea ??, ?a?e hauhau.
 E$+E(
 E$+E,
 E$WVWWS
+E'q?'Qr
 E(Ph0(A
 E(RQj 
 E,+E(
@@ -12682,6 +12681,7 @@ GAMMA=%g
 GB18030
 GB2312
 GBoxed
+GC%	eX
 GColor %d out of range
 GD$,+
 GD$P@PW
@@ -13008,7 +13008,6 @@ Ghostscript returns status %d, exit code %d
 Gi:%5
 Gl;G`r
 Gl;G`sXf
-GlKJn
 Gl_^[
 Glagolitic
 GlobalAlloc
@@ -13086,6 +13085,7 @@ H$$-?
 H(9h$s0V8
 H(VVH
 H*0"ZOW
+H-^Eu
 H01XyqxyE@
 H0L0P0T0X0
 H0O0V0[0
@@ -18103,7 +18103,6 @@ VWjPj
 VWjxj
 VWt73
 VYBYe
-V\av '
 V_:X1:
 V_~]	,
 Valid palette required for paletted images
@@ -19253,12 +19252,14 @@ _wstat64i32
 `[ghostscript library %.2f]%s': %s
 `_^]3
 ``6c3x
+`t2,`
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
 a0o0(121?1t1
 a3t3{3
 a4small
+a7hIw
 aWvd$A;-
 a]{?P
 a`wwn
@@ -19389,6 +19390,7 @@ b<buI
 b?8Nb?g}b?
 bKGD must be after
 bKGD,caNv,cHRM,eXIf,gAMA,iCCP,iTXt,pHYs,sRGB,tEXt,zCCP,zTXt,date
+bR_?g
 bZ!rj
 bZ5nP
 background
@@ -19787,7 +19789,6 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
-cU	F9
 cache
 cache != NULL
 cache:%s
@@ -20257,7 +20258,6 @@ eacute
 ebcdic
 ecircumflex
 edieresis
-edon]=
 egrave
 eight
 elbasan
@@ -20677,6 +20677,7 @@ f9|$ w
 f9|$0
 f9|$4
 f9|$D
+f::EH
 f;A$s$
 f;D$(w
 f;D$@
@@ -20884,7 +20885,6 @@ g0q0v0
 g<guJ
 g>Edh>G!i>
 g>ycx
-gO;Gx0\
 g[TNIEB?=:864310.-,+*)('&%$#""! 
 g_O=_O?_O>_O=_O=`P7\L9_[a}|
 g_array_append_vals
@@ -21555,7 +21555,6 @@ hDNEIV
 hE+D_
 hEMItV
 hGEPJW
-hHdW\
 hIST must be after
 hI{L[
 hKYMC
@@ -22235,6 +22234,7 @@ l$tVW
 l$xh8W3
 l$xhh|9
 l$|WU
+l2|X/gGe
 l6qnk
 l<"-y<
 l<}2l
@@ -25830,7 +25830,6 @@ y#ht34
 y)Wh|
 y-resolution
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
-yZ,O'e
 y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.
 yacute

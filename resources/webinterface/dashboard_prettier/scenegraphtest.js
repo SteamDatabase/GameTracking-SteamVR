@@ -3,7 +3,7 @@
   "use strict";
   var e,
     t = {
-      8431: (e, t, r) => {
+      6210: (e, t, r) => {
         var i = r(655),
           o = r(7294),
           n = r(3935),
@@ -181,10 +181,10 @@
           let r = e.getAttribute(t);
           if (r && r.length > 0) return r;
         }
-        function m(e, t) {
+        function h(e, t) {
           return R(u(e, t));
         }
-        function h(e, t) {
+        function m(e, t) {
           let r = { type: e, properties: {} };
           return (
             t.id && (r.properties.id = R(t.id)),
@@ -200,23 +200,24 @@
                 o = null;
               switch (t.nodeName.toUpperCase()) {
                 case "VSG-TRANSFORM":
-                  (o = h("transform", t)),
+                  (o = m("transform", t)),
                     (o.properties.translation = l(t, "translation")),
                     (o.properties.rotation = l(t, "rotation")),
                     (o.properties.scale = l(t, "scale")),
                     (o.properties["curvature-pitch"] = d(t, "curvature-pitch")),
+                    (o.properties["transform-path"] = u(t, "transform-path")),
                     (o.properties["parent-path"] = u(t, "parent-path")),
                     (o.properties["parent-origin"] = u(t, "parent-origin")),
-                    (o.properties["parent-id"] = m(t, "parent-id"));
+                    (o.properties["parent-id"] = h(t, "parent-id"));
                   break;
                 case "VSG-TRACKING-STATE-VISIBILITY":
-                  (o = h("trackingstatevisibility", t)),
+                  (o = m("trackingstatevisibility", t)),
                     (o.properties["visible-0dof"] = c(t, "visible-0dof")),
                     (o.properties["visible-3dof"] = c(t, "visible-3dof")),
                     (o.properties["visible-6dof"] = c(t, "visible-6dof"));
                   break;
                 case "VSG-ELASTIC-HEAD-TRANSFORM":
-                  (o = h("elasticheadtransform", t)),
+                  (o = m("elasticheadtransform", t)),
                     (o.properties["start-angle-threshold"] = d(
                       t,
                       "start-angle-threshold",
@@ -247,28 +248,28 @@
                     ));
                   break;
                 case "VSG-LINE":
-                  (o = h("line", t)),
-                    (o.properties["target-id"] = m(t, "target-id")),
+                  (o = m("line", t)),
+                    (o.properties["target-id"] = h(t, "target-id")),
                     (o.properties.thickness = d(t, "thickness")),
                     (o.properties["start-buffer"] = d(t, "start-buffer")),
                     (o.properties["end-buffer"] = d(t, "end-buffer"));
                   break;
                 case "VSG-LINE-CONSTRAINED-TRANSFORM":
-                  (o = h("line-constrained-transform", t)),
-                    (o.properties["target-id"] = m(t, "target-id")),
-                    (o.properties["source-id"] = m(t, "source-id")),
+                  (o = m("line-constrained-transform", t)),
+                    (o.properties["target-id"] = h(t, "target-id")),
+                    (o.properties["source-id"] = h(t, "source-id")),
                     (o.properties["source-distance"] = d(t, "source-distance")),
                     (o.properties["target-limit"] = d(t, "target-limit"));
                   break;
                 case "VSG-CALLOUT-TRANSFORM":
-                  (o = h("callout-transform", t)),
+                  (o = m("callout-transform", t)),
                     (o.properties.offset = l(t, "offset"));
                   break;
                 case "VSG-HEAD-FACING-TRANSFORM":
-                  o = h("head-facing-transform", t);
+                  o = m("head-facing-transform", t);
                   break;
                 case "VSG-PIN-TO-VIEW-TRANSFORM":
-                  (o = h("pin-to-view-transform", t)),
+                  (o = m("pin-to-view-transform", t)),
                     (o.properties["offscreen-z-depth"] = d(
                       t,
                       "offscreen-z-depth",
@@ -280,7 +281,7 @@
                     ));
                   break;
                 case "VSG-MANIPULATION-TRANSFORM":
-                  (o = h("manipulation-transform", t)),
+                  (o = m("manipulation-transform", t)),
                     (o.properties["is-moving"] = c(t, "is-moving")),
                     (o.properties["parent-path"] = u(t, "parent-path")),
                     (o.properties.translation = l(t, "translation")),
@@ -288,7 +289,7 @@
                     (o.properties.scale = l(t, "scale"));
                   break;
                 case "VSG-GRAB-TRANSFORM":
-                  (o = h("grab-transform", t)),
+                  (o = m("grab-transform", t)),
                     (o.properties["parent-path"] = u(t, "parent-path")),
                     (o.properties.translation = l(t, "translation")),
                     (o.properties.rotation = l(t, "rotation")),
@@ -357,6 +358,7 @@
                     type: "root",
                     rootproperties: {
                       relatchDashboardTransform: b,
+                      allowDismissOnClick: true,
                       sceneColorCorrection: null,
                     },
                     children: _({ currentPanel: null, bShouldAbort: !1 }, e),
@@ -419,7 +421,7 @@
             return "base";
           }
           createSgNode(e) {
-            return h(this.getNodeType(), e);
+            return m(this.getNodeType(), e);
           }
           getCurrentRootElement() {
             return this.m_domRef.current;
@@ -456,7 +458,7 @@
           }
         }
         T.s_NextSGID = 1;
-        class F extends T {
+        class N extends T {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
           }
@@ -467,7 +469,7 @@
             return [e, this.createSgNode(t)];
           }
         }
-        (0, i.gn)([s.ZP], F.prototype, "buildNode", null),
+        (0, i.gn)([s.ZP], N.prototype, "buildNode", null),
           (0, i.gn)(
             [s.ZP],
             class extends T {
@@ -528,7 +530,7 @@
               "vsg-node",
               { id: this.props.id },
               o.createElement(
-                F,
+                N,
                 { id: this.m_sMountableUnqualifiedID },
                 this.props.children,
               ),
@@ -557,7 +559,7 @@
           }
         }
         (0, i.gn)([s.ZP], x.prototype, "buildNode", null);
-        class N extends T {
+        class F extends T {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
           }
@@ -601,14 +603,16 @@
           pe,
           ce,
           ue,
-          me;
-        (0, i.gn)([s.ZP], N.prototype, "buildNode", null),
+          he,
+          me,
+          _e;
+        (0, i.gn)([s.ZP], F.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
               (e[(e.Raw = 2)] = "Raw");
           })(B || (B = {}));
-        class he extends T {
+        class ge extends T {
           constructor(e) {
             if (
               (super(e),
@@ -671,6 +675,7 @@
                 rotation: a,
                 scale: l,
                 "curvature-pitch": this.props.curvature_pitch,
+                "transform-path": this.props.transform_path,
                 "parent-path": this.props.parent_path,
                 "parent-origin": B[this.props.parent_origin],
                 "parent-id": this.props.parent_id,
@@ -679,10 +684,10 @@
             );
           }
         }
-        function _e(e) {
+        function ve(e) {
           if (e) return [e.u, e.v];
         }
-        function ge(e) {
+        function fe(e) {
           switch (e) {
             case O.TopLeft:
               return { x: -1, y: 1 };
@@ -730,7 +735,7 @@
               (e[(e.SkipInSceneGraph = 1)] = "SkipInSceneGraph"),
               (e[(e.Hidden = 2)] = "Hidden");
           })(U || (U = {}));
-        class ve extends T {
+        class be extends T {
           constructor(e) {
             super(e),
               (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
@@ -776,7 +781,7 @@
             return this.m_nEmbeddedIndex;
           }
           componentWillReceiveProps_UNSAFE() {
-            ve.s_bPanelsAreDirty = !0;
+            be.s_bPanelsAreDirty = !0;
           }
           componentDidMount() {
             super.componentDidMount(),
@@ -784,8 +789,8 @@
                 this.onResizeObserved,
               )),
               this.m_resizeObserver.observe(this.getCurrentRootElement()),
-              (this.m_nEmbeddedIndex = fe.Current().addEmbeddedPanelUVs(this)),
-              (ve.s_bPanelsAreDirty = !0),
+              (this.m_nEmbeddedIndex = Se.Current().addEmbeddedPanelUVs(this)),
+              (be.s_bPanelsAreDirty = !0),
               this.getCurrentRootElement().addEventListener(
                 "mousedown",
                 this.onPanelMouseDown,
@@ -793,7 +798,7 @@
               this.forceUpdate();
           }
           onResizeObserved(e, t) {
-            fe.Current().forceLayoutUpdate();
+            Se.Current().forceLayoutUpdate();
           }
           componentWillUnmount() {
             this.m_resizeObserver &&
@@ -804,8 +809,8 @@
                 "mousedown",
                 this.onPanelMouseDown,
               ),
-              (ve.s_bPanelsAreDirty = !0),
-              fe.Current().removeEmbeddedPanelUVs(this),
+              (be.s_bPanelsAreDirty = !0),
+              Se.Current().removeEmbeddedPanelUVs(this),
               super.componentWillUnmount();
           }
           onPanelMouseDown() {
@@ -876,7 +881,7 @@
             d =
               "object" == typeof this.props.origin
                 ? M(this.props.origin, { x: 0, y: 0 })
-                : ge(this.props.origin);
+                : fe(this.props.origin);
             const p = this.props.overlay_key,
               c = C();
             return (
@@ -889,9 +894,9 @@
                       ? void 0
                       : VRHTML.VROverlay.ThisOverlayHandle()),
               (l.properties.uv_min =
-                null !== (r = _e(this.m_UVsMin)) && void 0 !== r ? r : void 0),
+                null !== (r = ve(this.m_UVsMin)) && void 0 !== r ? r : void 0),
               (l.properties.uv_max =
-                null !== (i = _e(this.m_UVsMax)) && void 0 !== i ? i : void 0),
+                null !== (i = ve(this.m_UVsMax)) && void 0 !== i ? i : void 0),
               (l.properties.width =
                 null !== (o = this.props.width) && void 0 !== o ? o : void 0),
               (l.properties.height =
@@ -917,6 +922,7 @@
               )),
               (l.properties.interactive = this.props.interactive),
               (l.properties.scrollable = this.props.scrollable),
+              (l.properties.undocked = this.props.undocked),
               (l.properties.modal = this.props.modal),
               (l.properties["hide-laser-when-clicking"] =
                 this.props.hide_lasermouse_when_clicking),
@@ -974,15 +980,15 @@
             );
           }
         }
-        (ve.s_bPanelsAreDirty = !1),
-          (0, i.gn)([s.ZP], ve.prototype, "onResizeObserved", null),
-          (0, i.gn)([s.ZP], ve.prototype, "onPanelMouseDown", null),
-          (0, i.gn)([s.ZP], ve.prototype, "onWindowMouseUp", null),
-          (0, i.gn)([s.ZP], ve.prototype, "buildNode", null),
+        (be.s_bPanelsAreDirty = !1),
+          (0, i.gn)([s.ZP], be.prototype, "onResizeObserved", null),
+          (0, i.gn)([s.ZP], be.prototype, "onPanelMouseDown", null),
+          (0, i.gn)([s.ZP], be.prototype, "onWindowMouseUp", null),
+          (0, i.gn)([s.ZP], be.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Canvas = 0)] = "Canvas"), (e[(e.Image = 1)] = "Image");
           })(L || (L = {}));
-        class fe extends o.Component {
+        class Se extends o.Component {
           constructor(e) {
             super(e),
               (this.m_DomRef = null),
@@ -1001,7 +1007,7 @@
               (this.m_nDirtyXMax = -1),
               (this.m_EmbeddedDataImgRef = null),
               (this.m_EmbeddedDataImgRGBBuffer = null),
-              (fe.s_Current = this),
+              (Se.s_Current = this),
               (this.state = {
                 bFontsLoaded: !1,
                 nForcedUpdateNumber: 0,
@@ -1017,10 +1023,10 @@
               (this.m_DebugPointerRef = o.createRef());
           }
           static get IsSceneGraphApp() {
-            return null !== fe.Current();
+            return null !== Se.Current();
           }
           static Current() {
-            return fe.s_Current;
+            return Se.s_Current;
           }
           toggleDebugPointer() {
             this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
@@ -1036,7 +1042,7 @@
                 "px )");
           }
           forceLayoutUpdate() {
-            (ve.s_bPanelsAreDirty = !0),
+            (be.s_bPanelsAreDirty = !0),
               this.setState({
                 nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
               });
@@ -1104,13 +1110,13 @@
                   o.createElement("img", {
                     ref: this.m_EmbeddedDataImgRef,
                     className: "EmbeddedData",
-                    height: fe.k_EmbeddedDataRows,
+                    height: Se.k_EmbeddedDataRows,
                   }),
                 t &&
                   o.createElement("canvas", {
                     ref: this.m_CanvasRef,
                     className: "EmbeddedData",
-                    height: fe.k_EmbeddedDataRows,
+                    height: Se.k_EmbeddedDataRows,
                   }),
                 o.createElement(
                   "div",
@@ -1155,7 +1161,7 @@
                 null === this.m_Pixels &&
                   (this.m_Pixels = this.m_CanvasContext.createImageData(
                     this.m_nEmbeddedDataWidth,
-                    fe.k_EmbeddedDataRows,
+                    Se.k_EmbeddedDataRows,
                   ))),
               this.updateAllPanelBounds();
           }
@@ -1174,11 +1180,11 @@
                   )
                 : this.m_scalingDomRef.current.removeAttribute("style"),
               (this.m_fCurrentScale = n),
-              (ve.s_bPanelsAreDirty = !0)),
-              ve.s_bPanelsAreDirty &&
+              (be.s_bPanelsAreDirty = !0)),
+              be.s_bPanelsAreDirty &&
                 (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
                 I(),
-                (ve.s_bPanelsAreDirty = !1),
+                (be.s_bPanelsAreDirty = !1),
                 this.updateEmbeddedData());
           }
           updateEmbeddedData() {
@@ -1263,12 +1269,12 @@
                   (this.m_nDirtyXMax = e));
           }
         }
-        (fe.s_Current = null),
-          (fe.k_EmbeddedDataRows = 1),
-          (0, i.gn)([s.ak], fe.prototype, "toggleDebugPointer", null),
-          (0, i.gn)([s.ak], fe.prototype, "onMouseMove", null),
-          (0, i.gn)([s.ak], fe.prototype, "forceLayoutUpdate", null),
-          (0, i.gn)([s.ak], fe.prototype, "onMutation", null),
+        (Se.s_Current = null),
+          (Se.k_EmbeddedDataRows = 1),
+          (0, i.gn)([s.ak], Se.prototype, "toggleDebugPointer", null),
+          (0, i.gn)([s.ak], Se.prototype, "onMouseMove", null),
+          (0, i.gn)([s.ak], Se.prototype, "forceLayoutUpdate", null),
+          (0, i.gn)([s.ak], Se.prototype, "onMutation", null),
           (0, i.gn)(
             [s.ZP],
             class extends T {
@@ -1290,10 +1296,68 @@
             "buildNode",
             null,
           ),
+          (0, i.gn)(
+            [s.ZP],
+            class extends T {
+              constructor(e) {
+                super(e), super.setBuildNodeOverride(this.buildNode);
+              }
+              getNodeType() {
+                return "tilefloor";
+              }
+              buildNode(e, t) {
+                const r = this.createSgNode(t);
+                if (
+                  ((r.properties["tile-size"] = this.props["tile-size"]),
+                  (r.properties["tile-gap"] = this.props["tile-gap"]),
+                  (r.properties["inner-radius"] = this.props["inner-radius"]),
+                  (r.properties["outer-radius"] = this.props["outer-radius"]),
+                  (r.properties["fade-distance"] = this.props["fade-distance"]),
+                  (r.properties["min-tile-scale-at-periphery"] =
+                    this.props["min-tile-scale-at-periphery"]),
+                  (r.properties.height = this.props.height),
+                  (r.properties.offset = [
+                    this.props.offset.x,
+                    this.props.offset.y,
+                  ]),
+                  "string" == typeof this.props.color)
+                )
+                  r.properties.color = this.props.color;
+                else if (this.props.color) {
+                  let e = w(this.props.color, { r: 0, g: 0, b: 0 });
+                  r.properties.color = [e.r, e.g, e.b];
+                }
+                return (
+                  (r.properties["center-randomization"] =
+                    this.props["center-randomization"]),
+                  (r.properties["luma-randomization-min-gain"] =
+                    this.props["luma-randomization"]["min-gain"]),
+                  (r.properties["luma-randomization-max-gain"] =
+                    this.props["luma-randomization"]["max-gain"]),
+                  (r.properties["reflection-randomization-min-gain"] =
+                    this.props["reflection-randomization"]["min-gain"]),
+                  (r.properties["reflection-randomization-max-gain"] =
+                    this.props["reflection-randomization"]["max-gain"]),
+                  (r.properties["normal-randomization-degrees"] =
+                    this.props["normal-randomization-degrees"]),
+                  this.props.chevron &&
+                    ((r.properties["chevron-luma-scale"] =
+                      this.props.chevron["luma-scale"]),
+                    (r.properties["chevron-reflection-scale"] =
+                      this.props.chevron["reflection-scale"])),
+                  (r.properties["auto-subdivide"] =
+                    this.props["auto-subdivide"]),
+                  [e, r]
+                );
+              }
+            }.prototype,
+            "buildNode",
+            null,
+          ),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
           })(H || (H = {}));
-        class be extends T {
+        class ye extends T {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
           }
@@ -1305,6 +1369,7 @@
             if (
               ((r.properties.source = this.props.source),
               (r.properties["texture-id"] = R(this.props["texture-id"])),
+              (r.properties["input-path"] = this.props["input-path"]),
               this.props.fresnel)
             ) {
               let e = this.props.fresnel;
@@ -1327,7 +1392,7 @@
             );
           }
         }
-        (0, i.gn)([s.ZP], be.prototype, "buildNode", null),
+        (0, i.gn)([s.ZP], ye.prototype, "buildNode", null),
           (0, i.gn)(
             [s.ZP],
             class extends T {
@@ -1365,7 +1430,7 @@
             "buildNode",
             null,
           );
-        class Se extends T {
+        class De extends T {
           constructor(e) {
             super(e);
           }
@@ -1402,7 +1467,7 @@
               "object" == typeof this.props.location
                 ? (r = M(this.props.location, { x: 0, y: 0 }))
                 : "number" == typeof this.props.location &&
-                  (r = ge(this.props.location));
+                  (r = fe(this.props.location));
               let i = this.createSgNode(t);
               if (this.props.latched && null !== this.m_latchedPosition)
                 (i.properties["anchor-u"] = this.m_latchedPosition.u),
@@ -1456,7 +1521,7 @@
             (e[(e.LockedToParent = 0)] = "LockedToParent"),
               (e[(e.LockedToWorld = 1)] = "LockedToWorld");
           })(W || (W = {}));
-        class ye extends T {
+        class Re extends T {
           constructor(e) {
             super(e);
           }
@@ -1468,7 +1533,7 @@
             );
           }
         }
-        function De() {
+        function Ce() {
           const [e, t] = o.useState(0);
           return (
             o.useEffect(() => {
@@ -1487,15 +1552,15 @@
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/3D_model_of_a_Cube.stl/1200px-3D_model_of_a_Cube.stl.png",
               },
               o.createElement(
-                he,
+                ge,
                 { translation: { y: 0.5 }, scale: 0.2, rotation: { y: e } },
-                o.createElement(be, { source: "locator" }),
+                o.createElement(ye, { source: "locator" }),
               ),
               o.createElement(
-                ye,
+                Re,
                 null,
                 o.createElement(
-                  ve,
+                  be,
                   { width: 1, origin: O.BottomCenter },
                   o.createElement(
                     "div",
@@ -1513,18 +1578,398 @@
             )
           );
         }
-        !(function (e) {
-          (e[(e.Desktop = 1)] = "Desktop"),
-            (e[(e.Overlay = 2)] = "Overlay"),
-            (e[(e.Unknown = 100)] = "Unknown");
-        })(G || (G = {})),
+        ((J = G || (G = {}))[(J.Invalid = 0)] = "Invalid"),
+          (J[(J.TrackingSystemName_String = 1e3)] =
+            "TrackingSystemName_String"),
+          (J[(J.ModelNumber_String = 1001)] = "ModelNumber_String"),
+          (J[(J.SerialNumber_String = 1002)] = "SerialNumber_String"),
+          (J[(J.RenderModelName_String = 1003)] = "RenderModelName_String"),
+          (J[(J.WillDriftInYaw_Bool = 1004)] = "WillDriftInYaw_Bool"),
+          (J[(J.ManufacturerName_String = 1005)] = "ManufacturerName_String"),
+          (J[(J.TrackingFirmwareVersion_String = 1006)] =
+            "TrackingFirmwareVersion_String"),
+          (J[(J.HardwareRevision_String = 1007)] = "HardwareRevision_String"),
+          (J[(J.AllWirelessDongleDescriptions_String = 1008)] =
+            "AllWirelessDongleDescriptions_String"),
+          (J[(J.ConnectedWirelessDongle_String = 1009)] =
+            "ConnectedWirelessDongle_String"),
+          (J[(J.DeviceIsWireless_Bool = 1010)] = "DeviceIsWireless_Bool"),
+          (J[(J.DeviceIsCharging_Bool = 1011)] = "DeviceIsCharging_Bool"),
+          (J[(J.DeviceBatteryPercentage_Float = 1012)] =
+            "DeviceBatteryPercentage_Float"),
+          (J[(J.StatusDisplayTransform_Matrix34 = 1013)] =
+            "StatusDisplayTransform_Matrix34"),
+          (J[(J.Firmware_UpdateAvailable_Bool = 1014)] =
+            "Firmware_UpdateAvailable_Bool"),
+          (J[(J.Firmware_ManualUpdate_Bool = 1015)] =
+            "Firmware_ManualUpdate_Bool"),
+          (J[(J.Firmware_ManualUpdateURL_String = 1016)] =
+            "Firmware_ManualUpdateURL_String"),
+          (J[(J.HardwareRevision_Uint64 = 1017)] = "HardwareRevision_Uint64"),
+          (J[(J.FirmwareVersion_Uint64 = 1018)] = "FirmwareVersion_Uint64"),
+          (J[(J.FPGAVersion_Uint64 = 1019)] = "FPGAVersion_Uint64"),
+          (J[(J.VRCVersion_Uint64 = 1020)] = "VRCVersion_Uint64"),
+          (J[(J.RadioVersion_Uint64 = 1021)] = "RadioVersion_Uint64"),
+          (J[(J.DongleVersion_Uint64 = 1022)] = "DongleVersion_Uint64"),
+          (J[(J.BlockServerShutdown_Bool = 1023)] = "BlockServerShutdown_Bool"),
+          (J[(J.CanUnifyCoordinateSystemWithHmd_Bool = 1024)] =
+            "CanUnifyCoordinateSystemWithHmd_Bool"),
+          (J[(J.ContainsProximitySensor_Bool = 1025)] =
+            "ContainsProximitySensor_Bool"),
+          (J[(J.DeviceProvidesBatteryStatus_Bool = 1026)] =
+            "DeviceProvidesBatteryStatus_Bool"),
+          (J[(J.DeviceCanPowerOff_Bool = 1027)] = "DeviceCanPowerOff_Bool"),
+          (J[(J.Firmware_ProgrammingTarget_String = 1028)] =
+            "Firmware_ProgrammingTarget_String"),
+          (J[(J.DeviceClass_Int32 = 1029)] = "DeviceClass_Int32"),
+          (J[(J.HasCamera_Bool = 1030)] = "HasCamera_Bool"),
+          (J[(J.DriverVersion_String = 1031)] = "DriverVersion_String"),
+          (J[(J.Firmware_ForceUpdateRequired_Bool = 1032)] =
+            "Firmware_ForceUpdateRequired_Bool"),
+          (J[(J.ViveSystemButtonFixRequired_Bool = 1033)] =
+            "ViveSystemButtonFixRequired_Bool"),
+          (J[(J.ParentDriver_Uint64 = 1034)] = "ParentDriver_Uint64"),
+          (J[(J.ResourceRoot_String = 1035)] = "ResourceRoot_String"),
+          (J[(J.RegisteredDeviceType_String = 1036)] =
+            "RegisteredDeviceType_String"),
+          (J[(J.InputProfilePath_String = 1037)] = "InputProfilePath_String"),
+          (J[(J.NeverTracked_Bool = 1038)] = "NeverTracked_Bool"),
+          (J[(J.NumCameras_Int32 = 1039)] = "NumCameras_Int32"),
+          (J[(J.CameraFrameLayout_Int32 = 1040)] = "CameraFrameLayout_Int32"),
+          (J[(J.CameraStreamFormat_Int32 = 1041)] = "CameraStreamFormat_Int32"),
+          (J[(J.AdditionalDeviceSettingsPath_String = 1042)] =
+            "AdditionalDeviceSettingsPath_String"),
+          (J[(J.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
+          (J[(J.ReportsTimeSinceVSync_Bool = 2e3)] =
+            "ReportsTimeSinceVSync_Bool"),
+          (J[(J.SecondsFromVsyncToPhotons_Float = 2001)] =
+            "SecondsFromVsyncToPhotons_Float"),
+          (J[(J.DisplayFrequency_Float = 2002)] = "DisplayFrequency_Float"),
+          (J[(J.UserIpdMeters_Float = 2003)] = "UserIpdMeters_Float"),
+          (J[(J.CurrentUniverseId_Uint64 = 2004)] = "CurrentUniverseId_Uint64"),
+          (J[(J.PreviousUniverseId_Uint64 = 2005)] =
+            "PreviousUniverseId_Uint64"),
+          (J[(J.DisplayFirmwareVersion_Uint64 = 2006)] =
+            "DisplayFirmwareVersion_Uint64"),
+          (J[(J.IsOnDesktop_Bool = 2007)] = "IsOnDesktop_Bool"),
+          (J[(J.DisplayMCType_Int32 = 2008)] = "DisplayMCType_Int32"),
+          (J[(J.DisplayMCOffset_Float = 2009)] = "DisplayMCOffset_Float"),
+          (J[(J.DisplayMCScale_Float = 2010)] = "DisplayMCScale_Float"),
+          (J[(J.EdidVendorID_Int32 = 2011)] = "EdidVendorID_Int32"),
+          (J[(J.DisplayMCImageLeft_String = 2012)] =
+            "DisplayMCImageLeft_String"),
+          (J[(J.DisplayMCImageRight_String = 2013)] =
+            "DisplayMCImageRight_String"),
+          (J[(J.DisplayGCBlackClamp_Float = 2014)] =
+            "DisplayGCBlackClamp_Float"),
+          (J[(J.EdidProductID_Int32 = 2015)] = "EdidProductID_Int32"),
+          (J[(J.CameraToHeadTransform_Matrix34 = 2016)] =
+            "CameraToHeadTransform_Matrix34"),
+          (J[(J.DisplayGCType_Int32 = 2017)] = "DisplayGCType_Int32"),
+          (J[(J.DisplayGCOffset_Float = 2018)] = "DisplayGCOffset_Float"),
+          (J[(J.DisplayGCScale_Float = 2019)] = "DisplayGCScale_Float"),
+          (J[(J.DisplayGCPrescale_Float = 2020)] = "DisplayGCPrescale_Float"),
+          (J[(J.DisplayGCImage_String = 2021)] = "DisplayGCImage_String"),
+          (J[(J.LensCenterLeftU_Float = 2022)] = "LensCenterLeftU_Float"),
+          (J[(J.LensCenterLeftV_Float = 2023)] = "LensCenterLeftV_Float"),
+          (J[(J.LensCenterRightU_Float = 2024)] = "LensCenterRightU_Float"),
+          (J[(J.LensCenterRightV_Float = 2025)] = "LensCenterRightV_Float"),
+          (J[(J.UserHeadToEyeDepthMeters_Float = 2026)] =
+            "UserHeadToEyeDepthMeters_Float"),
+          (J[(J.CameraFirmwareVersion_Uint64 = 2027)] =
+            "CameraFirmwareVersion_Uint64"),
+          (J[(J.CameraFirmwareDescription_String = 2028)] =
+            "CameraFirmwareDescription_String"),
+          (J[(J.DisplayFPGAVersion_Uint64 = 2029)] =
+            "DisplayFPGAVersion_Uint64"),
+          (J[(J.DisplayBootloaderVersion_Uint64 = 2030)] =
+            "DisplayBootloaderVersion_Uint64"),
+          (J[(J.DisplayHardwareVersion_Uint64 = 2031)] =
+            "DisplayHardwareVersion_Uint64"),
+          (J[(J.AudioFirmwareVersion_Uint64 = 2032)] =
+            "AudioFirmwareVersion_Uint64"),
+          (J[(J.CameraCompatibilityMode_Int32 = 2033)] =
+            "CameraCompatibilityMode_Int32"),
+          (J[(J.ScreenshotHorizontalFieldOfViewDegrees_Float = 2034)] =
+            "ScreenshotHorizontalFieldOfViewDegrees_Float"),
+          (J[(J.ScreenshotVerticalFieldOfViewDegrees_Float = 2035)] =
+            "ScreenshotVerticalFieldOfViewDegrees_Float"),
+          (J[(J.DisplaySuppressed_Bool = 2036)] = "DisplaySuppressed_Bool"),
+          (J[(J.DisplayAllowNightMode_Bool = 2037)] =
+            "DisplayAllowNightMode_Bool"),
+          (J[(J.DisplayMCImageWidth_Int32 = 2038)] =
+            "DisplayMCImageWidth_Int32"),
+          (J[(J.DisplayMCImageHeight_Int32 = 2039)] =
+            "DisplayMCImageHeight_Int32"),
+          (J[(J.DisplayMCImageNumChannels_Int32 = 2040)] =
+            "DisplayMCImageNumChannels_Int32"),
+          (J[(J.DisplayMCImageData_Binary = 2041)] =
+            "DisplayMCImageData_Binary"),
+          (J[(J.SecondsFromPhotonsToVblank_Float = 2042)] =
+            "SecondsFromPhotonsToVblank_Float"),
+          (J[(J.DriverDirectModeSendsVsyncEvents_Bool = 2043)] =
+            "DriverDirectModeSendsVsyncEvents_Bool"),
+          (J[(J.DisplayDebugMode_Bool = 2044)] = "DisplayDebugMode_Bool"),
+          (J[(J.GraphicsAdapterLuid_Uint64 = 2045)] =
+            "GraphicsAdapterLuid_Uint64"),
+          (J[(J.DriverProvidedChaperonePath_String = 2048)] =
+            "DriverProvidedChaperonePath_String"),
+          (J[(J.ExpectedTrackingReferenceCount_Int32 = 2049)] =
+            "ExpectedTrackingReferenceCount_Int32"),
+          (J[(J.ExpectedControllerCount_Int32 = 2050)] =
+            "ExpectedControllerCount_Int32"),
+          (J[(J.NamedIconPathControllerLeftDeviceOff_String = 2051)] =
+            "NamedIconPathControllerLeftDeviceOff_String"),
+          (J[(J.NamedIconPathControllerRightDeviceOff_String = 2052)] =
+            "NamedIconPathControllerRightDeviceOff_String"),
+          (J[(J.NamedIconPathTrackingReferenceDeviceOff_String = 2053)] =
+            "NamedIconPathTrackingReferenceDeviceOff_String"),
+          (J[(J.DoNotApplyPrediction_Bool = 2054)] =
+            "DoNotApplyPrediction_Bool"),
+          (J[(J.CameraToHeadTransforms_Matrix34_Array = 2055)] =
+            "CameraToHeadTransforms_Matrix34_Array"),
+          (J[(J.DistortionMeshResolution_Int32 = 2056)] =
+            "DistortionMeshResolution_Int32"),
+          (J[(J.DriverIsDrawingControllers_Bool = 2057)] =
+            "DriverIsDrawingControllers_Bool"),
+          (J[(J.DriverRequestsApplicationPause_Bool = 2058)] =
+            "DriverRequestsApplicationPause_Bool"),
+          (J[(J.DriverRequestsReducedRendering_Bool = 2059)] =
+            "DriverRequestsReducedRendering_Bool"),
+          (J[(J.MinimumIpdStepMeters_Float = 2060)] =
+            "MinimumIpdStepMeters_Float"),
+          (J[(J.AudioBridgeFirmwareVersion_Uint64 = 2061)] =
+            "AudioBridgeFirmwareVersion_Uint64"),
+          (J[(J.ImageBridgeFirmwareVersion_Uint64 = 2062)] =
+            "ImageBridgeFirmwareVersion_Uint64"),
+          (J[(J.ImuToHeadTransform_Matrix34 = 2063)] =
+            "ImuToHeadTransform_Matrix34"),
+          (J[(J.ImuFactoryGyroBias_Vector3 = 2064)] =
+            "ImuFactoryGyroBias_Vector3"),
+          (J[(J.ImuFactoryGyroScale_Vector3 = 2065)] =
+            "ImuFactoryGyroScale_Vector3"),
+          (J[(J.ImuFactoryAccelerometerBias_Vector3 = 2066)] =
+            "ImuFactoryAccelerometerBias_Vector3"),
+          (J[(J.ImuFactoryAccelerometerScale_Vector3 = 2067)] =
+            "ImuFactoryAccelerometerScale_Vector3"),
+          (J[(J.ConfigurationIncludesLighthouse20Features_Bool = 2069)] =
+            "ConfigurationIncludesLighthouse20Features_Bool"),
+          (J[(J.Prop_AdditionalRadioFeatures_Uint64 = 2070)] =
+            "Prop_AdditionalRadioFeatures_Uint64"),
+          (J[(J.Prop_CameraWhiteBalance_Vector4_Array = 2071)] =
+            "Prop_CameraWhiteBalance_Vector4_Array"),
+          (J[(J.Prop_CameraDistortionFunction_Int32_Array = 2072)] =
+            "Prop_CameraDistortionFunction_Int32_Array"),
+          (J[(J.Prop_CameraDistortionCoefficients_Float_Array = 2073)] =
+            "Prop_CameraDistortionCoefficients_Float_Array"),
+          (J[(J.Prop_ExpectedControllerType_String = 2074)] =
+            "Prop_ExpectedControllerType_String"),
+          (J[(J.HmdTrackingStyle_Int32 = 2075)] = "HmdTrackingStyle_Int32"),
+          (J[(J.DriverProvidedChaperoneVisibility_Bool = 2076)] =
+            "DriverProvidedChaperoneVisibility_Bool"),
+          (J[(J.HmdColumnCorrectionSettingPrefix_String = 2077)] =
+            "HmdColumnCorrectionSettingPrefix_String"),
+          (J[(J.CameraSupportsCompatibilityModes_Bool = 2078)] =
+            "CameraSupportsCompatibilityModes_Bool"),
+          (J[(J.SupportsRoomViewDepthProjection_Bool = 2079)] =
+            "SupportsRoomViewDepthProjection_Bool"),
+          (J[(J.DisplayAvailableFrameRates_Float_Array = 2080)] =
+            "DisplayAvailableFrameRates_Float_Array"),
+          (J[(J.DisplaySupportsRuntimeFramerateChange_Bool = 2084)] =
+            "DisplaySupportsRuntimeFramerateChange_Bool"),
+          (J[(J.DisplaySupportsAnalogGain_Bool = 2085)] =
+            "DisplaySupportsAnalogGain_Bool"),
+          (J[(J.DisplayMinAnalogGain_Float = 2086)] =
+            "DisplayMinAnalogGain_Float"),
+          (J[(J.DisplayMaxAnalogGain_Float = 2087)] =
+            "DisplayMaxAnalogGain_Float"),
+          (J[(J.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
+          (J[(J.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
+          (J[(J.IpdUIRangeMinMeters_Float = 2100)] =
+            "IpdUIRangeMinMeters_Float"),
+          (J[(J.IpdUIRangeMaxMeters_Float = 2101)] =
+            "IpdUIRangeMaxMeters_Float"),
+          (J[(J.Hmd_SupportsHDCP14LegacyCompat_Bool = 2102)] =
+            "Hmd_SupportsHDCP14LegacyCompat_Bool"),
+          (J[(J.Hmd_SupportsMicMonitoring_Bool = 2103)] =
+            "Hmd_SupportsMicMonitoring_Bool"),
+          (J[(J.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
+            "Hmd_SupportsDisplayPortTrainingMode_Bool"),
+          (J[(J.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
+            "Hmd_SupportsRoomViewDirect_Bool"),
+          (J[(J.Hmd_SupportsAppThrottling_Bool = 2106)] =
+            "Hmd_SupportsAppThrottling_Bool"),
+          (J[(J.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
+            "Hmd_SupportsGpuBusMonitoring_Bool"),
+          (J[(J.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
+            "DriverRequestedMuraCorrectionMode_Int32"),
+          (J[(J.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
+            "DriverRequestedMuraFeather_InnerLeft_Int32"),
+          (J[(J.DriverRequestedMuraFeather_InnerRight_Int32 = 2202)] =
+            "DriverRequestedMuraFeather_InnerRight_Int32"),
+          (J[(J.DriverRequestedMuraFeather_InnerTop_Int32 = 2203)] =
+            "DriverRequestedMuraFeather_InnerTop_Int32"),
+          (J[(J.DriverRequestedMuraFeather_InnerBottom_Int32 = 2204)] =
+            "DriverRequestedMuraFeather_InnerBottom_Int32"),
+          (J[(J.DriverRequestedMuraFeather_OuterLeft_Int32 = 2205)] =
+            "DriverRequestedMuraFeather_OuterLeft_Int32"),
+          (J[(J.DriverRequestedMuraFeather_OuterRight_Int32 = 2206)] =
+            "DriverRequestedMuraFeather_OuterRight_Int32"),
+          (J[(J.DriverRequestedMuraFeather_OuterTop_Int32 = 2207)] =
+            "DriverRequestedMuraFeather_OuterTop_Int32"),
+          (J[(J.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
+            "DriverRequestedMuraFeather_OuterBottom_Int32"),
+          (J[(J.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
+            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
+          (J[(J.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
+          (J[(J.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
+          (J[(J.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
+          (J[(J.Axis1Type_Int32 = 3003)] = "Axis1Type_Int32"),
+          (J[(J.Axis2Type_Int32 = 3004)] = "Axis2Type_Int32"),
+          (J[(J.Axis3Type_Int32 = 3005)] = "Axis3Type_Int32"),
+          (J[(J.Axis4Type_Int32 = 3006)] = "Axis4Type_Int32"),
+          (J[(J.ControllerRoleHint_Int32 = 3007)] = "ControllerRoleHint_Int32"),
+          (J[(J.FieldOfViewLeftDegrees_Float = 4e3)] =
+            "FieldOfViewLeftDegrees_Float"),
+          (J[(J.FieldOfViewRightDegrees_Float = 4001)] =
+            "FieldOfViewRightDegrees_Float"),
+          (J[(J.FieldOfViewTopDegrees_Float = 4002)] =
+            "FieldOfViewTopDegrees_Float"),
+          (J[(J.FieldOfViewBottomDegrees_Float = 4003)] =
+            "FieldOfViewBottomDegrees_Float"),
+          (J[(J.TrackingRangeMinimumMeters_Float = 4004)] =
+            "TrackingRangeMinimumMeters_Float"),
+          (J[(J.TrackingRangeMaximumMeters_Float = 4005)] =
+            "TrackingRangeMaximumMeters_Float"),
+          (J[(J.ModeLabel_String = 4006)] = "ModeLabel_String"),
+          (J[(J.IconPathName_String = 5e3)] = "IconPathName_String"),
+          (J[(J.NamedIconPathDeviceOff_String = 5001)] =
+            "NamedIconPathDeviceOff_String"),
+          (J[(J.NamedIconPathDeviceSearching_String = 5002)] =
+            "NamedIconPathDeviceSearching_String"),
+          (J[(J.NamedIconPathDeviceSearchingAlert_String = 5003)] =
+            "NamedIconPathDeviceSearchingAlert_String"),
+          (J[(J.NamedIconPathDeviceReady_String = 5004)] =
+            "NamedIconPathDeviceReady_String"),
+          (J[(J.NamedIconPathDeviceReadyAlert_String = 5005)] =
+            "NamedIconPathDeviceReadyAlert_String"),
+          (J[(J.NamedIconPathDeviceNotReady_String = 5006)] =
+            "NamedIconPathDeviceNotReady_String"),
+          (J[(J.NamedIconPathDeviceStandby_String = 5007)] =
+            "NamedIconPathDeviceStandby_String"),
+          (J[(J.NamedIconPathDeviceAlertLow_String = 5008)] =
+            "NamedIconPathDeviceAlertLow_String"),
+          (J[(J.DisplayHiddenArea_Binary_Start = 5100)] =
+            "DisplayHiddenArea_Binary_Start"),
+          (J[(J.DisplayHiddenArea_Binary_End = 5150)] =
+            "DisplayHiddenArea_Binary_End"),
+          (J[(J.ParentContainer = 5151)] = "ParentContainer"),
+          (J[(J.UserConfigPath_String = 6e3)] = "UserConfigPath_String"),
+          (J[(J.InstallPath_String = 6001)] = "InstallPath_String"),
+          (J[(J.HasDisplayComponent_Bool = 6002)] = "HasDisplayComponent_Bool"),
+          (J[(J.HasControllerComponent_Bool = 6003)] =
+            "HasControllerComponent_Bool"),
+          (J[(J.HasCameraComponent_Bool = 6004)] = "HasCameraComponent_Bool"),
+          (J[(J.HasDriverDirectModeComponent_Bool = 6005)] =
+            "HasDriverDirectModeComponent_Bool"),
+          (J[(J.HasVirtualDisplayComponent_Bool = 6006)] =
+            "HasVirtualDisplayComponent_Bool"),
+          (J[(J.HasSpatialAnchorsSupport_Bool = 6007)] =
+            "HasSpatialAnchorsSupport_Bool"),
+          (J[(J.ControllerType_String = 7e3)] = "ControllerType_String"),
+          (J[(J.LegacyInputProfile_String = 7001)] =
+            "LegacyInputProfile_String"),
+          (J[(J.VendorSpecific_Reserved_Start = 1e4)] =
+            "VendorSpecific_Reserved_Start"),
+          (J[(J.VendorSpecific_Reserved_End = 10999)] =
+            "VendorSpecific_Reserved_End"),
+          (J[(J.TrackedDeviceProperty_Max = 1e6)] =
+            "TrackedDeviceProperty_Max"),
+          (function (e) {
+            (e[(e.None = 0)] = "None"),
+              (e[(e.SecondaryClick = 1)] = "SecondaryClick"),
+              (e[(e.PrimaryClick = 2)] = "PrimaryClick");
+          })(z || (z = {})),
+          (function (e) {
+            (e[(e.None = 0)] = "None"),
+              (e[(e.ButtonEnter = 1)] = "ButtonEnter"),
+              (e[(e.ButtonLeave = 2)] = "ButtonLeave"),
+              (e[(e.Snap = 3)] = "Snap"),
+              (e[(e.Sliding = 4)] = "Sliding"),
+              (e[(e.SlidingEdge = 5)] = "SlidingEdge");
+          })(q || (q = {})),
+          (function (e) {
+            (e[(e.Minimal = 1)] = "Minimal"),
+              (e[(e.Modal = 2)] = "Modal"),
+              (e[(e.Rich = 4)] = "Rich"),
+              (e[(e.ShowArrowKeys = 8)] = "ShowArrowKeys"),
+              (e[(e.ShowDoneKey = 16)] = "ShowDoneKey");
+          })(K || (K = {})),
+          o.Component,
+          (0, i.gn)(
+            [s.ZP],
+            class extends T {
+              constructor(e) {
+                super(e), super.setBuildNodeOverride(this.buildNode);
+              }
+              getNodeType() {
+                return "dashboardtransform";
+              }
+              buildNode(e, t) {
+                var r, i;
+                const o = this.createSgNode(t);
+                return (
+                  (o.properties.continuous_relatch =
+                    null !== (r = this.props.bContinuousRelatch) &&
+                    void 0 !== r &&
+                    r),
+                  (o.properties.free_dashboard_transform =
+                    null !== (i = this.props.bFreeDashboardTransform) &&
+                    void 0 !== i &&
+                    i),
+                  [e, o]
+                );
+              }
+            }.prototype,
+            "buildNode",
+            null,
+          ),
+          (0, i.gn)(
+            [s.ZP],
+            class extends T {
+              constructor(e) {
+                super(e), super.setBuildNodeOverride(this.buildNode);
+              }
+              getNodeType() {
+                return "videocapturequad";
+              }
+              buildNode(e, t) {
+                const r = this.createSgNode(t);
+                return (
+                  (r.properties.width = this.props.width),
+                  (r.properties.height = this.props.height),
+                  (r.properties["near-z"] = this.props["near-z"]),
+                  (r.properties["far-z"] = this.props["far-z"]),
+                  (r.properties.debug = this.props.debug),
+                  [e, r]
+                );
+              }
+            }.prototype,
+            "buildNode",
+            null,
+          ),
+          (function (e) {
+            (e[(e.Desktop = 1)] = "Desktop"),
+              (e[(e.Overlay = 2)] = "Overlay"),
+              (e[(e.Unknown = 100)] = "Unknown");
+          })(Z || (Z = {})),
           window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
           (function (e) {
             (e[(e.Auto = 0)] = "Auto"),
               (e[(e.Low = 1)] = "Low"),
               (e[(e.Medium = 2)] = "Medium"),
               (e[(e.High = 3)] = "High");
-          })(z || (z = {})),
+          })(X || (X = {})),
           (function (e) {
             (e[(e.TrackingResult_Uninitialized = 1)] =
               "TrackingResult_Uninitialized"),
@@ -1538,12 +1983,12 @@
                 "TrackingResult_Running_OutOfRange"),
               (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
                 "TrackingResult_Fallback_RotationOnly");
-          })(q || (q = {})),
+          })(j || (j = {})),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-          })(K || (K = {})),
+          })(Q || (Q = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Shown = 1)] = "Shown"),
@@ -1562,11 +2007,11 @@
               (e[(e.Close = 14)] = "Close"),
               (e[(e.TakeFocus = 15)] = "TakeFocus"),
               (e[(e.HitTest = 16)] = "HitTest");
-          })(Z || (Z = {})),
+          })(Y || (Y = {})),
           (function (e) {
             (e[(e.Activated = 0)] = "Activated"),
               (e[(e.Deactivated = 1)] = "Deactivated");
-          })(X || (X = {})),
+          })($ || ($ = {})),
           (function (e) {
             (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
               (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -1600,326 +2045,14 @@
               (e[(e.EnableControlBarClose = 33554432)] =
                 "EnableControlBarClose"),
               (e[(e.EnableSteamUIButtons = 67108864)] = "EnableSteamUIButtons");
-          })(j || (j = {})),
+          })(ee || (ee = {})),
           (function (e) {
             (e[(e.HomeMenu = 50)] = "HomeMenu"),
               (e[(e.QuickMenu = 51)] = "QuickMenu");
-          })(Q || (Q = {})),
+          })(te || (te = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(J || (J = {})),
-          ((me = Y || (Y = {}))[(me.Invalid = 0)] = "Invalid"),
-          (me[(me.TrackingSystemName_String = 1e3)] =
-            "TrackingSystemName_String"),
-          (me[(me.ModelNumber_String = 1001)] = "ModelNumber_String"),
-          (me[(me.SerialNumber_String = 1002)] = "SerialNumber_String"),
-          (me[(me.RenderModelName_String = 1003)] = "RenderModelName_String"),
-          (me[(me.WillDriftInYaw_Bool = 1004)] = "WillDriftInYaw_Bool"),
-          (me[(me.ManufacturerName_String = 1005)] = "ManufacturerName_String"),
-          (me[(me.TrackingFirmwareVersion_String = 1006)] =
-            "TrackingFirmwareVersion_String"),
-          (me[(me.HardwareRevision_String = 1007)] = "HardwareRevision_String"),
-          (me[(me.AllWirelessDongleDescriptions_String = 1008)] =
-            "AllWirelessDongleDescriptions_String"),
-          (me[(me.ConnectedWirelessDongle_String = 1009)] =
-            "ConnectedWirelessDongle_String"),
-          (me[(me.DeviceIsWireless_Bool = 1010)] = "DeviceIsWireless_Bool"),
-          (me[(me.DeviceIsCharging_Bool = 1011)] = "DeviceIsCharging_Bool"),
-          (me[(me.DeviceBatteryPercentage_Float = 1012)] =
-            "DeviceBatteryPercentage_Float"),
-          (me[(me.StatusDisplayTransform_Matrix34 = 1013)] =
-            "StatusDisplayTransform_Matrix34"),
-          (me[(me.Firmware_UpdateAvailable_Bool = 1014)] =
-            "Firmware_UpdateAvailable_Bool"),
-          (me[(me.Firmware_ManualUpdate_Bool = 1015)] =
-            "Firmware_ManualUpdate_Bool"),
-          (me[(me.Firmware_ManualUpdateURL_String = 1016)] =
-            "Firmware_ManualUpdateURL_String"),
-          (me[(me.HardwareRevision_Uint64 = 1017)] = "HardwareRevision_Uint64"),
-          (me[(me.FirmwareVersion_Uint64 = 1018)] = "FirmwareVersion_Uint64"),
-          (me[(me.FPGAVersion_Uint64 = 1019)] = "FPGAVersion_Uint64"),
-          (me[(me.VRCVersion_Uint64 = 1020)] = "VRCVersion_Uint64"),
-          (me[(me.RadioVersion_Uint64 = 1021)] = "RadioVersion_Uint64"),
-          (me[(me.DongleVersion_Uint64 = 1022)] = "DongleVersion_Uint64"),
-          (me[(me.BlockServerShutdown_Bool = 1023)] =
-            "BlockServerShutdown_Bool"),
-          (me[(me.CanUnifyCoordinateSystemWithHmd_Bool = 1024)] =
-            "CanUnifyCoordinateSystemWithHmd_Bool"),
-          (me[(me.ContainsProximitySensor_Bool = 1025)] =
-            "ContainsProximitySensor_Bool"),
-          (me[(me.DeviceProvidesBatteryStatus_Bool = 1026)] =
-            "DeviceProvidesBatteryStatus_Bool"),
-          (me[(me.DeviceCanPowerOff_Bool = 1027)] = "DeviceCanPowerOff_Bool"),
-          (me[(me.Firmware_ProgrammingTarget_String = 1028)] =
-            "Firmware_ProgrammingTarget_String"),
-          (me[(me.DeviceClass_Int32 = 1029)] = "DeviceClass_Int32"),
-          (me[(me.HasCamera_Bool = 1030)] = "HasCamera_Bool"),
-          (me[(me.DriverVersion_String = 1031)] = "DriverVersion_String"),
-          (me[(me.Firmware_ForceUpdateRequired_Bool = 1032)] =
-            "Firmware_ForceUpdateRequired_Bool"),
-          (me[(me.ViveSystemButtonFixRequired_Bool = 1033)] =
-            "ViveSystemButtonFixRequired_Bool"),
-          (me[(me.ParentDriver_Uint64 = 1034)] = "ParentDriver_Uint64"),
-          (me[(me.ResourceRoot_String = 1035)] = "ResourceRoot_String"),
-          (me[(me.RegisteredDeviceType_String = 1036)] =
-            "RegisteredDeviceType_String"),
-          (me[(me.InputProfilePath_String = 1037)] = "InputProfilePath_String"),
-          (me[(me.NeverTracked_Bool = 1038)] = "NeverTracked_Bool"),
-          (me[(me.NumCameras_Int32 = 1039)] = "NumCameras_Int32"),
-          (me[(me.CameraFrameLayout_Int32 = 1040)] = "CameraFrameLayout_Int32"),
-          (me[(me.CameraStreamFormat_Int32 = 1041)] =
-            "CameraStreamFormat_Int32"),
-          (me[(me.AdditionalDeviceSettingsPath_String = 1042)] =
-            "AdditionalDeviceSettingsPath_String"),
-          (me[(me.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
-          (me[(me.ReportsTimeSinceVSync_Bool = 2e3)] =
-            "ReportsTimeSinceVSync_Bool"),
-          (me[(me.SecondsFromVsyncToPhotons_Float = 2001)] =
-            "SecondsFromVsyncToPhotons_Float"),
-          (me[(me.DisplayFrequency_Float = 2002)] = "DisplayFrequency_Float"),
-          (me[(me.UserIpdMeters_Float = 2003)] = "UserIpdMeters_Float"),
-          (me[(me.CurrentUniverseId_Uint64 = 2004)] =
-            "CurrentUniverseId_Uint64"),
-          (me[(me.PreviousUniverseId_Uint64 = 2005)] =
-            "PreviousUniverseId_Uint64"),
-          (me[(me.DisplayFirmwareVersion_Uint64 = 2006)] =
-            "DisplayFirmwareVersion_Uint64"),
-          (me[(me.IsOnDesktop_Bool = 2007)] = "IsOnDesktop_Bool"),
-          (me[(me.DisplayMCType_Int32 = 2008)] = "DisplayMCType_Int32"),
-          (me[(me.DisplayMCOffset_Float = 2009)] = "DisplayMCOffset_Float"),
-          (me[(me.DisplayMCScale_Float = 2010)] = "DisplayMCScale_Float"),
-          (me[(me.EdidVendorID_Int32 = 2011)] = "EdidVendorID_Int32"),
-          (me[(me.DisplayMCImageLeft_String = 2012)] =
-            "DisplayMCImageLeft_String"),
-          (me[(me.DisplayMCImageRight_String = 2013)] =
-            "DisplayMCImageRight_String"),
-          (me[(me.DisplayGCBlackClamp_Float = 2014)] =
-            "DisplayGCBlackClamp_Float"),
-          (me[(me.EdidProductID_Int32 = 2015)] = "EdidProductID_Int32"),
-          (me[(me.CameraToHeadTransform_Matrix34 = 2016)] =
-            "CameraToHeadTransform_Matrix34"),
-          (me[(me.DisplayGCType_Int32 = 2017)] = "DisplayGCType_Int32"),
-          (me[(me.DisplayGCOffset_Float = 2018)] = "DisplayGCOffset_Float"),
-          (me[(me.DisplayGCScale_Float = 2019)] = "DisplayGCScale_Float"),
-          (me[(me.DisplayGCPrescale_Float = 2020)] = "DisplayGCPrescale_Float"),
-          (me[(me.DisplayGCImage_String = 2021)] = "DisplayGCImage_String"),
-          (me[(me.LensCenterLeftU_Float = 2022)] = "LensCenterLeftU_Float"),
-          (me[(me.LensCenterLeftV_Float = 2023)] = "LensCenterLeftV_Float"),
-          (me[(me.LensCenterRightU_Float = 2024)] = "LensCenterRightU_Float"),
-          (me[(me.LensCenterRightV_Float = 2025)] = "LensCenterRightV_Float"),
-          (me[(me.UserHeadToEyeDepthMeters_Float = 2026)] =
-            "UserHeadToEyeDepthMeters_Float"),
-          (me[(me.CameraFirmwareVersion_Uint64 = 2027)] =
-            "CameraFirmwareVersion_Uint64"),
-          (me[(me.CameraFirmwareDescription_String = 2028)] =
-            "CameraFirmwareDescription_String"),
-          (me[(me.DisplayFPGAVersion_Uint64 = 2029)] =
-            "DisplayFPGAVersion_Uint64"),
-          (me[(me.DisplayBootloaderVersion_Uint64 = 2030)] =
-            "DisplayBootloaderVersion_Uint64"),
-          (me[(me.DisplayHardwareVersion_Uint64 = 2031)] =
-            "DisplayHardwareVersion_Uint64"),
-          (me[(me.AudioFirmwareVersion_Uint64 = 2032)] =
-            "AudioFirmwareVersion_Uint64"),
-          (me[(me.CameraCompatibilityMode_Int32 = 2033)] =
-            "CameraCompatibilityMode_Int32"),
-          (me[(me.ScreenshotHorizontalFieldOfViewDegrees_Float = 2034)] =
-            "ScreenshotHorizontalFieldOfViewDegrees_Float"),
-          (me[(me.ScreenshotVerticalFieldOfViewDegrees_Float = 2035)] =
-            "ScreenshotVerticalFieldOfViewDegrees_Float"),
-          (me[(me.DisplaySuppressed_Bool = 2036)] = "DisplaySuppressed_Bool"),
-          (me[(me.DisplayAllowNightMode_Bool = 2037)] =
-            "DisplayAllowNightMode_Bool"),
-          (me[(me.DisplayMCImageWidth_Int32 = 2038)] =
-            "DisplayMCImageWidth_Int32"),
-          (me[(me.DisplayMCImageHeight_Int32 = 2039)] =
-            "DisplayMCImageHeight_Int32"),
-          (me[(me.DisplayMCImageNumChannels_Int32 = 2040)] =
-            "DisplayMCImageNumChannels_Int32"),
-          (me[(me.DisplayMCImageData_Binary = 2041)] =
-            "DisplayMCImageData_Binary"),
-          (me[(me.SecondsFromPhotonsToVblank_Float = 2042)] =
-            "SecondsFromPhotonsToVblank_Float"),
-          (me[(me.DriverDirectModeSendsVsyncEvents_Bool = 2043)] =
-            "DriverDirectModeSendsVsyncEvents_Bool"),
-          (me[(me.DisplayDebugMode_Bool = 2044)] = "DisplayDebugMode_Bool"),
-          (me[(me.GraphicsAdapterLuid_Uint64 = 2045)] =
-            "GraphicsAdapterLuid_Uint64"),
-          (me[(me.DriverProvidedChaperonePath_String = 2048)] =
-            "DriverProvidedChaperonePath_String"),
-          (me[(me.ExpectedTrackingReferenceCount_Int32 = 2049)] =
-            "ExpectedTrackingReferenceCount_Int32"),
-          (me[(me.ExpectedControllerCount_Int32 = 2050)] =
-            "ExpectedControllerCount_Int32"),
-          (me[(me.NamedIconPathControllerLeftDeviceOff_String = 2051)] =
-            "NamedIconPathControllerLeftDeviceOff_String"),
-          (me[(me.NamedIconPathControllerRightDeviceOff_String = 2052)] =
-            "NamedIconPathControllerRightDeviceOff_String"),
-          (me[(me.NamedIconPathTrackingReferenceDeviceOff_String = 2053)] =
-            "NamedIconPathTrackingReferenceDeviceOff_String"),
-          (me[(me.DoNotApplyPrediction_Bool = 2054)] =
-            "DoNotApplyPrediction_Bool"),
-          (me[(me.CameraToHeadTransforms_Matrix34_Array = 2055)] =
-            "CameraToHeadTransforms_Matrix34_Array"),
-          (me[(me.DistortionMeshResolution_Int32 = 2056)] =
-            "DistortionMeshResolution_Int32"),
-          (me[(me.DriverIsDrawingControllers_Bool = 2057)] =
-            "DriverIsDrawingControllers_Bool"),
-          (me[(me.DriverRequestsApplicationPause_Bool = 2058)] =
-            "DriverRequestsApplicationPause_Bool"),
-          (me[(me.DriverRequestsReducedRendering_Bool = 2059)] =
-            "DriverRequestsReducedRendering_Bool"),
-          (me[(me.MinimumIpdStepMeters_Float = 2060)] =
-            "MinimumIpdStepMeters_Float"),
-          (me[(me.AudioBridgeFirmwareVersion_Uint64 = 2061)] =
-            "AudioBridgeFirmwareVersion_Uint64"),
-          (me[(me.ImageBridgeFirmwareVersion_Uint64 = 2062)] =
-            "ImageBridgeFirmwareVersion_Uint64"),
-          (me[(me.ImuToHeadTransform_Matrix34 = 2063)] =
-            "ImuToHeadTransform_Matrix34"),
-          (me[(me.ImuFactoryGyroBias_Vector3 = 2064)] =
-            "ImuFactoryGyroBias_Vector3"),
-          (me[(me.ImuFactoryGyroScale_Vector3 = 2065)] =
-            "ImuFactoryGyroScale_Vector3"),
-          (me[(me.ImuFactoryAccelerometerBias_Vector3 = 2066)] =
-            "ImuFactoryAccelerometerBias_Vector3"),
-          (me[(me.ImuFactoryAccelerometerScale_Vector3 = 2067)] =
-            "ImuFactoryAccelerometerScale_Vector3"),
-          (me[(me.ConfigurationIncludesLighthouse20Features_Bool = 2069)] =
-            "ConfigurationIncludesLighthouse20Features_Bool"),
-          (me[(me.Prop_AdditionalRadioFeatures_Uint64 = 2070)] =
-            "Prop_AdditionalRadioFeatures_Uint64"),
-          (me[(me.Prop_CameraWhiteBalance_Vector4_Array = 2071)] =
-            "Prop_CameraWhiteBalance_Vector4_Array"),
-          (me[(me.Prop_CameraDistortionFunction_Int32_Array = 2072)] =
-            "Prop_CameraDistortionFunction_Int32_Array"),
-          (me[(me.Prop_CameraDistortionCoefficients_Float_Array = 2073)] =
-            "Prop_CameraDistortionCoefficients_Float_Array"),
-          (me[(me.Prop_ExpectedControllerType_String = 2074)] =
-            "Prop_ExpectedControllerType_String"),
-          (me[(me.HmdTrackingStyle_Int32 = 2075)] = "HmdTrackingStyle_Int32"),
-          (me[(me.DriverProvidedChaperoneVisibility_Bool = 2076)] =
-            "DriverProvidedChaperoneVisibility_Bool"),
-          (me[(me.HmdColumnCorrectionSettingPrefix_String = 2077)] =
-            "HmdColumnCorrectionSettingPrefix_String"),
-          (me[(me.CameraSupportsCompatibilityModes_Bool = 2078)] =
-            "CameraSupportsCompatibilityModes_Bool"),
-          (me[(me.SupportsRoomViewDepthProjection_Bool = 2079)] =
-            "SupportsRoomViewDepthProjection_Bool"),
-          (me[(me.DisplayAvailableFrameRates_Float_Array = 2080)] =
-            "DisplayAvailableFrameRates_Float_Array"),
-          (me[(me.DisplaySupportsRuntimeFramerateChange_Bool = 2084)] =
-            "DisplaySupportsRuntimeFramerateChange_Bool"),
-          (me[(me.DisplaySupportsAnalogGain_Bool = 2085)] =
-            "DisplaySupportsAnalogGain_Bool"),
-          (me[(me.DisplayMinAnalogGain_Float = 2086)] =
-            "DisplayMinAnalogGain_Float"),
-          (me[(me.DisplayMaxAnalogGain_Float = 2087)] =
-            "DisplayMaxAnalogGain_Float"),
-          (me[(me.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
-          (me[(me.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
-          (me[(me.IpdUIRangeMinMeters_Float = 2100)] =
-            "IpdUIRangeMinMeters_Float"),
-          (me[(me.IpdUIRangeMaxMeters_Float = 2101)] =
-            "IpdUIRangeMaxMeters_Float"),
-          (me[(me.Hmd_SupportsHDCP14LegacyCompat_Bool = 2102)] =
-            "Hmd_SupportsHDCP14LegacyCompat_Bool"),
-          (me[(me.Hmd_SupportsMicMonitoring_Bool = 2103)] =
-            "Hmd_SupportsMicMonitoring_Bool"),
-          (me[(me.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
-            "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (me[(me.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
-            "Hmd_SupportsRoomViewDirect_Bool"),
-          (me[(me.Hmd_SupportsAppThrottling_Bool = 2106)] =
-            "Hmd_SupportsAppThrottling_Bool"),
-          (me[(me.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
-            "Hmd_SupportsGpuBusMonitoring_Bool"),
-          (me[(me.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
-            "DriverRequestedMuraCorrectionMode_Int32"),
-          (me[(me.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
-            "DriverRequestedMuraFeather_InnerLeft_Int32"),
-          (me[(me.DriverRequestedMuraFeather_InnerRight_Int32 = 2202)] =
-            "DriverRequestedMuraFeather_InnerRight_Int32"),
-          (me[(me.DriverRequestedMuraFeather_InnerTop_Int32 = 2203)] =
-            "DriverRequestedMuraFeather_InnerTop_Int32"),
-          (me[(me.DriverRequestedMuraFeather_InnerBottom_Int32 = 2204)] =
-            "DriverRequestedMuraFeather_InnerBottom_Int32"),
-          (me[(me.DriverRequestedMuraFeather_OuterLeft_Int32 = 2205)] =
-            "DriverRequestedMuraFeather_OuterLeft_Int32"),
-          (me[(me.DriverRequestedMuraFeather_OuterRight_Int32 = 2206)] =
-            "DriverRequestedMuraFeather_OuterRight_Int32"),
-          (me[(me.DriverRequestedMuraFeather_OuterTop_Int32 = 2207)] =
-            "DriverRequestedMuraFeather_OuterTop_Int32"),
-          (me[(me.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
-            "DriverRequestedMuraFeather_OuterBottom_Int32"),
-          (me[(me.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
-            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
-          (me[(me.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
-          (me[(me.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
-          (me[(me.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
-          (me[(me.Axis1Type_Int32 = 3003)] = "Axis1Type_Int32"),
-          (me[(me.Axis2Type_Int32 = 3004)] = "Axis2Type_Int32"),
-          (me[(me.Axis3Type_Int32 = 3005)] = "Axis3Type_Int32"),
-          (me[(me.Axis4Type_Int32 = 3006)] = "Axis4Type_Int32"),
-          (me[(me.ControllerRoleHint_Int32 = 3007)] =
-            "ControllerRoleHint_Int32"),
-          (me[(me.FieldOfViewLeftDegrees_Float = 4e3)] =
-            "FieldOfViewLeftDegrees_Float"),
-          (me[(me.FieldOfViewRightDegrees_Float = 4001)] =
-            "FieldOfViewRightDegrees_Float"),
-          (me[(me.FieldOfViewTopDegrees_Float = 4002)] =
-            "FieldOfViewTopDegrees_Float"),
-          (me[(me.FieldOfViewBottomDegrees_Float = 4003)] =
-            "FieldOfViewBottomDegrees_Float"),
-          (me[(me.TrackingRangeMinimumMeters_Float = 4004)] =
-            "TrackingRangeMinimumMeters_Float"),
-          (me[(me.TrackingRangeMaximumMeters_Float = 4005)] =
-            "TrackingRangeMaximumMeters_Float"),
-          (me[(me.ModeLabel_String = 4006)] = "ModeLabel_String"),
-          (me[(me.IconPathName_String = 5e3)] = "IconPathName_String"),
-          (me[(me.NamedIconPathDeviceOff_String = 5001)] =
-            "NamedIconPathDeviceOff_String"),
-          (me[(me.NamedIconPathDeviceSearching_String = 5002)] =
-            "NamedIconPathDeviceSearching_String"),
-          (me[(me.NamedIconPathDeviceSearchingAlert_String = 5003)] =
-            "NamedIconPathDeviceSearchingAlert_String"),
-          (me[(me.NamedIconPathDeviceReady_String = 5004)] =
-            "NamedIconPathDeviceReady_String"),
-          (me[(me.NamedIconPathDeviceReadyAlert_String = 5005)] =
-            "NamedIconPathDeviceReadyAlert_String"),
-          (me[(me.NamedIconPathDeviceNotReady_String = 5006)] =
-            "NamedIconPathDeviceNotReady_String"),
-          (me[(me.NamedIconPathDeviceStandby_String = 5007)] =
-            "NamedIconPathDeviceStandby_String"),
-          (me[(me.NamedIconPathDeviceAlertLow_String = 5008)] =
-            "NamedIconPathDeviceAlertLow_String"),
-          (me[(me.DisplayHiddenArea_Binary_Start = 5100)] =
-            "DisplayHiddenArea_Binary_Start"),
-          (me[(me.DisplayHiddenArea_Binary_End = 5150)] =
-            "DisplayHiddenArea_Binary_End"),
-          (me[(me.ParentContainer = 5151)] = "ParentContainer"),
-          (me[(me.UserConfigPath_String = 6e3)] = "UserConfigPath_String"),
-          (me[(me.InstallPath_String = 6001)] = "InstallPath_String"),
-          (me[(me.HasDisplayComponent_Bool = 6002)] =
-            "HasDisplayComponent_Bool"),
-          (me[(me.HasControllerComponent_Bool = 6003)] =
-            "HasControllerComponent_Bool"),
-          (me[(me.HasCameraComponent_Bool = 6004)] = "HasCameraComponent_Bool"),
-          (me[(me.HasDriverDirectModeComponent_Bool = 6005)] =
-            "HasDriverDirectModeComponent_Bool"),
-          (me[(me.HasVirtualDisplayComponent_Bool = 6006)] =
-            "HasVirtualDisplayComponent_Bool"),
-          (me[(me.HasSpatialAnchorsSupport_Bool = 6007)] =
-            "HasSpatialAnchorsSupport_Bool"),
-          (me[(me.ControllerType_String = 7e3)] = "ControllerType_String"),
-          (me[(me.LegacyInputProfile_String = 7001)] =
-            "LegacyInputProfile_String"),
-          (me[(me.VendorSpecific_Reserved_Start = 1e4)] =
-            "VendorSpecific_Reserved_Start"),
-          (me[(me.VendorSpecific_Reserved_End = 10999)] =
-            "VendorSpecific_Reserved_End"),
-          (me[(me.TrackedDeviceProperty_Max = 1e6)] =
-            "TrackedDeviceProperty_Max"),
+          })(re || (re = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.HMD = 1)] = "HMD"),
@@ -1927,19 +2060,19 @@
               (e[(e.GenericTracker = 3)] = "GenericTracker"),
               (e[(e.TrackingReference = 4)] = "TrackingReference"),
               (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-          })($ || ($ = {})),
+          })(ie || (ie = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.NVIDIA = 1)] = "NVIDIA"),
               (e[(e.AMD = 2)] = "AMD");
-          })(ee || (ee = {})),
+          })(oe || (oe = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Starting = 1)] = "Starting"),
               (e[(e.Quitting = 2)] = "Quitting"),
               (e[(e.Running = 3)] = "Running"),
               (e[(e.Waiting = 4)] = "Waiting");
-          })(te || (te = {})),
+          })(ne || (ne = {})),
           (function (e) {
             (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
               (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -1950,16 +2083,16 @@
               (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
                 "CouldntFindOrCreateClientOverlay"),
               (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(re || (re = {})),
+          })(se || (se = {})),
           (function (e) {
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
               (e[(e.Submit = 2)] = "Submit");
-          })(ie || (ie = {})),
+          })(ae || (ae = {})),
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(oe || (oe = {})),
+          })(le || (le = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -1972,7 +2105,7 @@
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(ne || (ne = {})),
+          })(de || (de = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -1989,14 +2122,14 @@
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(se || (se = {})),
+          })(pe || (pe = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(ae || (ae = {})),
+          })(ce || (ce = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -2010,7 +2143,7 @@
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(le || (le = {})),
+          })(ue || (ue = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -2022,53 +2155,21 @@
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(de || (de = {})),
-          (function (e) {
-            (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-          })(pe || (pe = {})),
+          })(he || (he = {})),
           (function (e) {
             (e[(e.Hostname = 0)] = "Hostname"),
               (e[(e.IP = 1)] = "IP"),
               (e[(e.Version = 2)] = "Version"),
               (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
               (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
-          })(ce || (ce = {})),
+          })(me || (me = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(ue || (ue = {})),
-          o.Component,
-          (0, i.gn)(
-            [s.ZP],
-            class extends T {
-              constructor(e) {
-                super(e), super.setBuildNodeOverride(this.buildNode);
-              }
-              getNodeType() {
-                return "dashboardtransform";
-              }
-              buildNode(e, t) {
-                var r, i;
-                const o = this.createSgNode(t);
-                return (
-                  (o.properties.continuous_relatch =
-                    null !== (r = this.props.bContinuousRelatch) &&
-                    void 0 !== r &&
-                    r),
-                  (o.properties.free_dashboard_transform =
-                    null !== (i = this.props.bFreeDashboardTransform) &&
-                    void 0 !== i &&
-                    i),
-                  [e, o]
-                );
-              }
-            }.prototype,
-            "buildNode",
-            null,
-          ),
+          })(_e || (_e = {})),
           VRHTML;
-        class Re extends o.Component {
+        class Ie extends o.Component {
           constructor(e) {
             super(e),
               (this.state = {
@@ -2105,7 +2206,7 @@
                   (e =
                     null === VRHTML || void 0 === VRHTML
                       ? void 0
-                      : VRHTML.GetPose("/user/hand/right", K.Standing)
+                      : VRHTML.GetPose("/user/hand/right", Q.Standing)
                           .xfDeviceToAbsoluteTracking) && void 0 !== e
                   ? e
                   : this.state.Transform;
@@ -2159,7 +2260,7 @@
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png",
                 },
                 o.createElement(
-                  ve,
+                  be,
                   { width: 1.2, interactive: !0 },
                   o.createElement(
                     "div",
@@ -2265,33 +2366,33 @@
                 ),
               ),
               o.createElement(
-                he,
+                ge,
                 { transform: this.state.Transform, parent_origin: B.Standing },
-                o.createElement(be, { source: "generic_hmd" }),
+                o.createElement(ye, { source: "generic_hmd" }),
               ),
               o.createElement(
-                he,
+                ge,
                 {
                   translation: { x: 0, y: 0.3, z: 0 },
                   rotation: { x: 30, y: this.state.Degrees, z: 90 },
                   parent_origin: B.Standing,
                 },
-                o.createElement(be, { source: "locator" }),
+                o.createElement(ye, { source: "locator" }),
               ),
-              o.createElement(he, {
+              o.createElement(ge, {
                 translation: { x: 0, y: 1.8, z: 0 },
                 parent_origin: B.Standing,
                 id: "line_origin",
               }),
               o.createElement(
-                he,
+                ge,
                 {
                   translation: { x: 0, y: 0, z: -0.5 },
                   scale: { x: 2, y: 2, z: 2 },
                   parent_origin: B.Seated,
                 },
                 o.createElement(
-                  ve,
+                  be,
                   { height: 0.45, width: 0.45, interactive: !0 },
                   o.createElement("iframe", {
                     src: "https://www.valvesoftware.com",
@@ -2302,23 +2403,23 @@
                 ),
               ),
               o.createElement(
-                he,
+                ge,
                 {
                   translation: { x: 0, y: 0, z: -0.5 },
                   parent_path: "/user/hand/left",
                   id: "left_hand_model",
                 },
-                o.createElement(be, { source: "locator_one_sided" }),
+                o.createElement(ye, { source: "locator_one_sided" }),
               ),
               o.createElement(
-                he,
+                ge,
                 { parent_path: "/user/hand/right" },
-                o.createElement(Se, {
+                o.createElement(De, {
                   target_id: "line_origin",
                   thickness: 0.01,
                   end_buffer: 0.5,
                 }),
-                o.createElement(Se, {
+                o.createElement(De, {
                   target_id: "left_hand_model",
                   thickness: 0.001,
                   end_buffer: 0.1,
@@ -2334,7 +2435,7 @@
                   iconUri:
                     "data:image/png;base64,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",
                 },
-                o.createElement(ve, {
+                o.createElement(be, {
                   overlay_key: "valve.steam.bigpicture",
                   uv_min: { u: 0, v: 0 },
                   uv_max: { u: 1, v: 0.3 },
@@ -2342,19 +2443,19 @@
                   interactive: !1,
                 }),
               ),
-              o.createElement(he, {
+              o.createElement(ge, {
                 translation: { x: 0, y: 0, z: -0.5 },
                 parent_path: "/user/hand/right/pose/base",
               }),
               o.createElement(
-                he,
+                ge,
                 {
                   translation: { x: 0, y: -1.2, z: -2 },
                   rotation: { x: -45 },
                   parent_path: "/user/head/pose/raw",
                 },
                 o.createElement(
-                  ve,
+                  be,
                   { height: 0.2, width: void 0, interactive: !1 },
                   o.createElement(
                     "div",
@@ -2373,22 +2474,22 @@
                 ),
               ),
               o.createElement(
-                he,
+                ge,
                 { parent_origin: B.Standing },
-                o.createElement(be, {
+                o.createElement(ye, {
                   source: "{knuckles}valve_controller_knu_ev2_0_left",
                 }),
               ),
               o.createElement(
-                he,
+                ge,
                 { translation: { y: 0.5 } },
                 o.createElement(
-                  N,
+                  F,
                   { value: 0.1 },
                   o.createElement(
                     x,
                     { color: { b: 1, g: 1, r: 0 } },
-                    o.createElement(be, {
+                    o.createElement(ye, {
                       source: "generic_hmd",
                       wireframe: !0,
                       fresnel: { color: { r: 1 }, opacity: 0.7, strength: 1 },
@@ -2396,37 +2497,37 @@
                   ),
                 ),
               ),
-              o.createElement(De, null),
+              o.createElement(Ce, null),
             );
           }
         }
-        (0, i.gn)([s.ak], Re.prototype, "onAnimationFrame", null),
-          (0, i.gn)([s.ak], Re.prototype, "onNumberClicked", null),
-          (0, i.gn)([s.ak], Re.prototype, "onHideElasticPanel", null),
-          (0, i.gn)([s.ak], Re.prototype, "onMailboxMessage", null),
+        (0, i.gn)([s.ak], Ie.prototype, "onAnimationFrame", null),
+          (0, i.gn)([s.ak], Ie.prototype, "onNumberClicked", null),
+          (0, i.gn)([s.ak], Ie.prototype, "onHideElasticPanel", null),
+          (0, i.gn)([s.ak], Ie.prototype, "onMailboxMessage", null),
           n.render(
-            o.createElement(fe, null, o.createElement(Re, null)),
+            o.createElement(Se, null, o.createElement(Ie, null)),
             document.getElementById("root"),
           ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              j.ShowTouchPadScrollWheel,
+              ee.ShowTouchPadScrollWheel,
               !0,
             ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              j.SendVRSmoothScrollEvents,
+              ee.SendVRSmoothScrollEvents,
               !0,
             ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetInputMethod(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              J.Mouse,
+              re.Mouse,
             );
       },
     },
@@ -2499,7 +2600,7 @@
       r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));
     })(),
     (i.nc = void 0);
-  var o = i.O(void 0, [968], () => i(8431));
+  var o = i.O(void 0, [968], () => i(6210));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=4db0ef0fbbd0c5dc8c7d
+//# sourceMappingURL=scenegraphtest.js.map?v=64fe10621d279fa569ed

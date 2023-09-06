@@ -6,12 +6,12 @@
 
 "Error_NoHMDAvailable_Header" "ВР шлемът не е засечен"
 "Error_NoHMDAvailable_Description" "Уверете се, че ВР шлемът Ви е правилно свързан. След това рестартирайте SteamVR."
-"Error_NoHMDAvailable_Action" "Още информация"
+"Error_NoHMDAvailable_Action" "Още инф."
 "Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
 "Error_HMDDoesNotTrack_Header" "Търсене…"
 "Error_HMDDoesNotTrack_Description" "Уверете се, че ВР шлемът Ви е в полезрението на базова станция. "
-"Error_HMDDoesNotTrack_Action" "Още информация"
+"Error_HMDDoesNotTrack_Action" "Още инф."
 "Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
 
 "Error_NoCompositorAvailable_Header" "Неуспех на SteamVR"
@@ -56,37 +56,37 @@
 
 "Error_TrackingDevice_NoPose_Header" "Търсене…"
 "Error_TrackingDevice_NoPose_Description" "Това устройство не се проследява. Уверете се, че е в полезрението на базова станция."
-"Error_TrackingDevice_NoPose_Action" "Още информация"
+"Error_TrackingDevice_NoPose_Action" "Още инф."
 "Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
 
 "VRInitError_Unknown_Header" "Неуспех на SteamVR"
 "VRInitError_Unknown_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Unknown_Action" "Още информация"
-"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Unknown_Action" "Още инф."
+"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_InstallationNotFound_Header" "Неуспех на SteamVR"
 "VRInitError_Init_InstallationNotFound_Description" "Открихме, че някои съществени файлове изглежда липсват."
-"VRInitError_Init_InstallationNotFound_Action" "Още информация"
+"VRInitError_Init_InstallationNotFound_Action" "Още инф."
 "VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
 
 "VRInitError_Init_InstallationCorrupt_Header" "Неуспех на SteamVR"
 "VRInitError_Init_InstallationCorrupt_Description" "Открихме, че някои съществени файлове изглежда липсват. Моля, преинсталирайте SteamVR."
-"VRInitError_Init_InstallationCorrupt_Action" "Още информация"
+"VRInitError_Init_InstallationCorrupt_Action" "Още инф."
 "VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Init_VRClientDLLNotFound_Header" "Неуспех на SteamVR"
 "VRInitError_Init_VRClientDLLNotFound_Description" "Открихме, че някои съществени файлове изглежда липсват. Моля, преинсталирайте SteamVR."
-"VRInitError_Init_VRClientDLLNotFound_Action" "Още информация"
+"VRInitError_Init_VRClientDLLNotFound_Action" "Още инф."
 "VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Init_FileNotFound_Header" "Неуспех на SteamVR"
 "VRInitError_Init_FileNotFound_Description" "Открихме, че някои съществени файлове изглежда липсват. Моля, преинсталирайте SteamVR."
-"VRInitError_Init_FileNotFound_Action" "Още информация"
+"VRInitError_Init_FileNotFound_Action" "Още инф."
 "VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Init_FactoryNotFound_Header" "Неуспех на SteamVR"
 "VRInitError_Init_FactoryNotFound_Description" "Открихме, че някои съществени файлове изглежда липсват. Моля, преинсталирайте SteamVR."
-"VRInitError_Init_FactoryNotFound_Action" "Още информация"
+"VRInitError_Init_FactoryNotFound_Action" "Още инф."
 "VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Init_InterfaceNotFound_Header" "SteamVR обновление"
@@ -96,8 +96,8 @@
 
 "VRInitError_Init_InvalidInterface_Header" "Неуспех на SteamVR"
 "VRInitError_Init_InvalidInterface_Description" "Натъкнахме се на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_InvalidInterface_Action" "Още информация"
-"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InvalidInterface_Action" "Още инф."
+"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_UserConfigDirectoryInvalid_Header" "SteamVR грешка"
 "VRInitError_Init_UserConfigDirectoryInvalid_Description" "Открихме грешка с инсталацията Ви на SteamVR. Моля, намерете своята SteamVR конфигурационна директория."
@@ -108,12 +108,12 @@
 "VRInitError_Init_HmdNotFound_Description" "Уверете се, че ВР шлемът Ви е правилно свързан. След това го нулирайте по-долу."
 "VRInitError_Init_HmdNotFound_FirstAction" "Нулиране на ВР шлема"
 "VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFound_Action" "Още информация"
+"VRInitError_Init_HmdNotFound_Action" "Още инф."
 "VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
 
 "VRInitError_Init_NotInitialized_Header" "Неуспех на SteamVR"
 "VRInitError_Init_NotInitialized_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_NotInitialized_Action" "Още информация"
+"VRInitError_Init_NotInitialized_Action" "Още инф."
 "VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
 
 "VRInitError_Init_PathRegistryNotFound_Header" "Неуспех на SteamVR"
@@ -133,82 +133,81 @@
 
 "VRInitError_Init_PathRegistryNotWritable_Header" "SteamVR грешка"
 "VRInitError_Init_PathRegistryNotWritable_Description" "SteamVR няма способност да запазва информация. Моля, прегледайте своите потребителски правомощия на този компютър."
-"VRInitError_Init_PathRegistryNotWritable_Action" "Още информация"
+"VRInitError_Init_PathRegistryNotWritable_Action" "Още инф."
 "VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_AppInfoInitFailed_Header" "Неуспех на SteamVR"
 "VRInitError_Init_AppInfoInitFailed_Description" "Критичен компонент на SteamVR не работи правилно. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_AppInfoInitFailed_Action" "Още информация"
-"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AppInfoInitFailed_Action" "Още инф."
+"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_Retry_Header" "Неуспех на SteamVR"
 "VRInitError_Init_Retry_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_Retry_Action" "Още информация"
-"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_Retry_Action" "Още инф."
+"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_InitCanceledByUser_Header" "Неуспех на SteamVR"
 "VRInitError_Init_InitCanceledByUser_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_InitCanceledByUser_Action" "Още информация"
-"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InitCanceledByUser_Action" "Още инф."
+"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_AnotherAppLaunching_Header" "Неуспех на SteamVR"
 "VRInitError_Init_AnotherAppLaunching_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_AnotherAppLaunching_Action" "Още информация"
-"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820
-"
+"VRInitError_Init_AnotherAppLaunching_Action" "Още инф."
+"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_SettingsInitFailed_Header" "Неуспех на SteamVR"
 "VRInitError_Init_SettingsInitFailed_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_SettingsInitFailed_Action" "Още информация"
-"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_SettingsInitFailed_Action" "Още инф."
+"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_ShuttingDown_Header" "Неуспех на SteamVR"
 "VRInitError_Init_ShuttingDown_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_ShuttingDown_Action" "Още информация"
-"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_ShuttingDown_Action" "Още инф."
+"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_TooManyObjects_Header" "Неуспех на SteamVR"
 "VRInitError_Init_TooManyObjects_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_TooManyObjects_Action" "Още информация"
-"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_TooManyObjects_Action" "Още инф."
+"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_NoServerForBackgroundApp_Header" "Неуспех на SteamVR"
 "VRInitError_Init_NoServerForBackgroundApp_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_NoServerForBackgroundApp_Action" "Още информация"
-"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NoServerForBackgroundApp_Action" "Още инф."
+"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_NotSupportedWithCompositor_Header" "Неуспех на SteamVR"
 "VRInitError_Init_NotSupportedWithCompositor_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_NotSupportedWithCompositor_Action" "Още информация"
-"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotSupportedWithCompositor_Action" "Още инф."
+"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_NotAvailableToUtilityApps_Header" "Неуспех на SteamVR"
 "VRInitError_Init_NotAvailableToUtilityApps_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_NotAvailableToUtilityApps_Action" "Още информация"
-"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotAvailableToUtilityApps_Action" "Още инф."
+"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Internal_Header" "Неуспех на SteamVR"
 "VRInitError_Internal_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Internal_Action" "Още информация"
-"VRInitError_Internal_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Internal_Action" "Още инф."
+"VRInitError_Internal_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_HmdDriverIdIsNone_Header" "ВР шлемът не е засечен"
 "VRInitError_Init_HmdDriverIdIsNone_Description" "Уверете се, че ВР шлемът Ви е правилно свързан. След това го нулирайте по-долу."
 "VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Нулиране на ВР шлема"
 "VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdDriverIdIsNone_Action" "Още информация"
+"VRInitError_Init_HmdDriverIdIsNone_Action" "Още инф."
 "VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
 
 "VRInitError_Init_HmdNotFoundPresenceFailed_Header" "ВР шлемът не е засечен"
 "VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Уверете се, че ВР шлемът Ви е правилно свързан. След това го нулирайте по-долу."
 "VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Нулиране на ВР шлема"
 "VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Още информация"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Още инф."
 "VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
 
 "VRInitError_Driver_Failed_Header" "SteamVR грешка"
 "VRInitError_Driver_Failed_Description" "SteamVR се натъкна на проблем. Моля, прегледайте своите потребителски правомощия на този компютър. Или ако ръчно сте добавили нещо към директорията със SteamVR драйвери, премахнете го."
-"VRInitError_Driver_Failed_Action" "Още информация"
+"VRInitError_Driver_Failed_Action" "Още инф."
 "VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Driver_Unknown_Header" "SteamVR грешка"
@@ -223,7 +222,7 @@
 
 "VRInitError_Driver_NotLoaded_Header" "SteamVR грешка"
 "VRInitError_Driver_NotLoaded_Description" "Драйвер, който е необходим за SteamVR, не се зарежда правилно. Моля, проверете инсталацията си на SteamVR."
-"VRInitError_Driver_NotLoaded_Action" "Още информация"
+"VRInitError_Driver_NotLoaded_Action" "Още инф."
 "VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR грешка"
@@ -250,45 +249,62 @@
 
 "VRInitError_Driver_NotCalibrated_Header" "Грешка на устройството"
 "VRInitError_Driver_NotCalibrated_Description" "SteamVR има проблем при зареждането на файл за калибриране."
-"VRInitError_Driver_NotCalibrated_Action" "Още информация"
+"VRInitError_Driver_NotCalibrated_Action" "Още инф."
 "VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Driver_CalibrationInvalid_Header" "Грешка на ВР шлема"
 "VRInitError_Driver_CalibrationInvalid_Description" "SteamVR има проблем при инсталирането на драйвери за ВР шлема Ви."
-"VRInitError_Driver_CalibrationInvalid_Action" "Още информация"
+"VRInitError_Driver_CalibrationInvalid_Action" "Още инф."
 "VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Driver_HmdDisplayNotFound_Header" "Екранът на ВР шлема е разкачен"
 "VRInitError_Driver_HmdDisplayNotFound_Description" "Моля, уверете се, че видео кабелите са надеждно свързани. Екранът на ВР шлема не беше намерен."
 "VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Нулиране на ВР шлема"
 "VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFound_Action" "Още информация"
+"VRInitError_Driver_HmdDisplayNotFound_Action" "Още инф."
 "VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Лаптоп — Екранът на ВР шлема е разкачен"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Моля, уверете се, че видео кабелите са надеждно свързани към лаптопа Ви. Възможно е лаптопите да изискват специална установка, за да работят с ВР."
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Нулиране на ВР шлема"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Още информация"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Още инф."
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
 "VRInitError_Driver_HmdDisplayMirrored_Header" "Изображението на ВР шлема е огледалното"
 "VRInitError_Driver_HmdDisplayMirrored_Description" "Екранът на ВР шлема не беше намерен, но засякохме огледално изображение. Моля, задайте ВР шлема към разширен, вместо огледален режим."
 "VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Преглед на екранните свойства"
 "VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-"VRInitError_Driver_HmdDisplayMirrored_Action" "Още информация"
+"VRInitError_Driver_HmdDisplayMirrored_Action" "Още инф."
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
 "VRInitError_Driver_PeerDriverNotInstalled_Header" "Липсващ драйвер"
 "VRInitError_Driver_PeerDriverNotInstalled_Description" "Настоящият ВР шлем изисква драйвер, който не е инсталиран."
-"VRInitError_Driver_PeerDriverNotInstalled_Action" "Още информация"
-"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Още инф."
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "В очакване на безжично свързване"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR изчаква свързване на безжичния ВР шлем..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Неуспешно свързване към екрана на ВР шлема."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Възможно е ВР шлемът Ви да не е свързан или средата на Вашия работен плот да не поддържа ВР."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Рестартиране на SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Още инф."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/bg/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Неуспешно заемане на екрана."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Gnome Wayland средата на работния Ви плот не поддържа заемането от Direct Rendering Manager, което се изисква за виртуална реалност."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Още инф."
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/bg/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Неуспешно свързване към управителя за прозорци."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR не успя да се свърже към управителя за прозорци. Вероятно ще е нужно да рестартирате своята сесия или SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Рестартиране на SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Обновяване на графичния драйвер"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Необходимо е да обновите графичния драйвер на компютъра си или да включите хардуерно ускореното планиране на графичния Ви процесор."
-"VRInitError_Init_PrismNeedsNewDrivers_Action" "Още информация"
+"VRInitError_Init_PrismNeedsNewDrivers_Action" "Още инф."
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Init_PrismStartupTimedOut_Header" "Проблем при стартирането на StemVR"
@@ -298,18 +314,18 @@
 
 "VRInitError_Init_CouldNotStartPrism_Header" "Проблем при стартирането на SteamVR"
 "VRInitError_Init_CouldNotStartPrism_Description" "Не може да бъде открит ключов компонент на SteamVR. Пробвайте „Потвърждаване целостта на файловете за инструмента…“ в Steam за SteamVR."
-"VRInitError_Init_CouldNotStartPrism_Action" "Още информация"
+"VRInitError_Init_CouldNotStartPrism_Action" "Още инф."
 "VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
 
 "VRInitError_Init_PrismClientInitFailed_Header" "Проблем при стартирането на SteamVR"
 "VRInitError_Init_PrismClientInitFailed_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_PrismClientInitFailed_Action" "Още информация"
-"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientInitFailed_Action" "Още инф."
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_PrismClientStartFailed_Header" "Проблем при стартирането на SteamVR"
 "VRInitError_Init_PrismClientStartFailed_Description" "SteamVR се натъкна на неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_Init_PrismClientStartFailed_Action" "Още информация"
-"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientStartFailed_Action" "Още инф."
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_PrismExitedUnexpectedly_Header" "Грешка на SteamVR"
 "VRInitError_Init_PrismExitedUnexpectedly_Description" "Грешка в ключов компонент на SteamVR."
@@ -320,62 +336,62 @@
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Уверете се, че ВР шлемът Ви е правилно свързан. След това го нулирайте по-долу."
 "VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Нулиране на ВР шлема"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Още информация"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Още инф."
 "VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
 
 "VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Грешка на устройството"
 "VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Драйверът, използван от това устройство, не е съвместим с тази версия на SteamVR."
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Още информация"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Още инф."
 "VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
 
 "VRInitError_IPC_ServerInitFailed_Header" "Проблем с инсталацията на SteamVR"
 "VRInitError_IPC_ServerInitFailed_Description" "Ключов компонент на SteamVR не работи правилно. Моля, потвърдете, че SteamVR e инсталирано правилно."
-"VRInitError_IPC_ServerInitFailed_Action" "Още информация"
+"VRInitError_IPC_ServerInitFailed_Action" "Още инф."
 "VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_IPC_ConnectFailed_Header" "Неуспех на SteamVR"
 "VRInitError_IPC_ConnectFailed_Description" "Ключов компонент на SteamVR не работи правилно."
-"VRInitError_IPC_ConnectFailed_Action" "Още информация"
+"VRInitError_IPC_ConnectFailed_Action" "Още инф."
 "VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
 
 "VRInitError_IPC_SharedStateInitFailed_Header" "Неуспех на SteamVR"
 "VRInitError_IPC_SharedStateInitFailed_Description" "Ключов компонент на SteamVR не работи правилно. Моля, рестартирайте своя компютър, а след това опитайте отново."
-"VRInitError_IPC_SharedStateInitFailed_Action" "Още информация"
+"VRInitError_IPC_SharedStateInitFailed_Action" "Още инф."
 "VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_IPC_CompositorInitFailed_Header" "Нещо не е наред"
 "VRInitError_IPC_CompositorInitFailed_Description" "Ключов компонент на SteamVR не работи правилно. Моля, преинсталирайте SteamVR."
-"VRInitError_IPC_CompositorInitFailed_Action" "Още информация"
+"VRInitError_IPC_CompositorInitFailed_Action" "Още инф."
 "VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_IPC_MutexInitFailed_Header" "Нещо не е наред"
 "VRInitError_IPC_MutexInitFailed_Description" "Ключов компонент на SteamVR не работи правилно. Моля, преинсталирайте SteamVR."
-"VRInitError_IPC_MutexInitFailed_Action" "Още информация"
+"VRInitError_IPC_MutexInitFailed_Action" "Още инф."
 "VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_IPC_Failed_Header" "Неуспех на SteamVR"
 "VRInitError_IPC_Failed_Description" "Имаше неочакван проблем. Моля, посетете SteamVR поддръжката за още информация."
-"VRInitError_IPC_Failed_Action" "Още информация"
+"VRInitError_IPC_Failed_Action" "Още инф."
 "VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
 
 "VRInitError_IPC_CompositorConnectFailed_Header" "Неуспех на SteamVR"
 "VRInitError_IPC_CompositorConnectFailed_Description" "Ключов компонент на SteamVR не работи правилно. Моля, излезте от SteamVR, а след това посетете „Task Manager“ („Диспечер на задачите„) и прекратете всякакви останали SteamVR задания, преди да рестартирате приложението."
-"VRInitError_IPC_CompositorConnectFailed_Action" "Още информация"
+"VRInitError_IPC_CompositorConnectFailed_Action" "Още инф."
 "VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
 "VRInitError_IPC_CompositorInvalidConnectResponse_Header" "Неуспех на SteamVR"
 "VRInitError_IPC_CompositorInvalidConnectResponse_Description" "Ключов компонент на SteamVR не работи правилно. Моля, излезте от SteamVR, а след това посетете „Task Manager“ („Диспечер на задачите„) и прекратете всякакви останали SteamVR задания, преди да рестартирате приложението."
-"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Още информация"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Още инф."
 "VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
 "VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "Неуспех на SteamVR"
 "VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "Ключов компонент на SteamVR не работи правилно. Моля, излезте от SteamVR, а след това посетете „Task Manager“ („Диспечер на задачите„) и прекратете всякакви останали SteamVR задания, преди да рестартирате приложението."
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Още информация"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Още инф."
 "VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
 "VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "Неуспех на SteamVR"
 "VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "Ключов компонент на SteamVR не работи правилно. Моля, рестартирайте SteamVR."
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Още информация"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Още инф."
 "VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
 "VRInitError_IPC_NamespaceUnavailable_Header" "Неуспех на SteamVR"
@@ -385,7 +401,7 @@
 
 "VRInitError_Compositor_D3D11HardwareRequired_Header" "Време е за подобрение"
 "VRInitError_Compositor_D3D11HardwareRequired_Description" "SteamVR не откри хардуер или драйвери, съвместими с DirectX 11. Вероятно ще е нужно да подобрите своята система."
-"VRInitError_Compositor_D3D11HardwareRequired_Action" "Още информация"
+"VRInitError_Compositor_D3D11HardwareRequired_Action" "Още инф."
 "VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820	"
 
 "VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Време е за обновление"
@@ -395,7 +411,7 @@
 
 "VRInitError_Compositor_UnableToCreateDevice_Header" "SteamVR графична грешка"
 "VRInitError_Compositor_UnableToCreateDevice_Description" "Вероятно ще е нужно да обновите графичните драйвери на своя компютър."
-"VRInitError_Compositor_UnableToCreateDevice_Action" "Още информация"
+"VRInitError_Compositor_UnableToCreateDevice_Action" "Още инф."
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR грешка"
@@ -410,62 +426,62 @@
 
 "VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
 
 "VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB грешка"
 "VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Моля, проверете USB връзката на своя ВР шлем и опитайте отново."
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Още информация"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Още инф."
 "VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Грешка на ВР шлема"
@@ -527,8 +543,8 @@
 
 "Lighthouse_UnknownEvent_Header" "Грешка на базова станция"
 "Lighthouse_UnknownEvent_Description" "Нещо не е наред със SteamVR проследяването. Моля, посетете SteamVR поддръжката за още информация."
-"Lighthouse_UnknownEvent_Action" "Още информация"
-"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"Lighthouse_UnknownEvent_Action" "Още инф."
+"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Lighthouse_BasestationFactoryError_Header" "Грешка на базова станция"
 "Lighthouse_BasestationFactoryError_Description" "Тази базова станция има производствен дефект. Моля, свържете се с производителя за подмяна на базовата станция."
@@ -577,12 +593,12 @@
 
 "Lighthouse_Disambiguator_TdmConfigurationError_Header" "Грешка на базова станция"
 "Lighthouse_Disambiguator_TdmConfigurationError_Description" "Базовите Ви станции не се синхронизират, моля, уверете се, че са правилно установени."
-"Lighthouse_Disambiguator_TdmConfigurationError_Action" "Още информация"
+"Lighthouse_Disambiguator_TdmConfigurationError_Action" "Още инф."
 "Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
 
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Грешка на базова станция"
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Базовите Ви станции са в режими „A“ и „c“. Превключете базата от „A“ към режим „b“ за оптична синхронизация."
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Още информация"
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Още инф."
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
 
 "Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Изисква се обновяване на контролера"
@@ -593,27 +609,27 @@
 "Popover_Off_Invalid_Header" "Устройството не е свързано"
 "Popover_Off_HMD_Header" "ВР шлемът не е засечен"
 "Popover_Off_HMD_Description" "Уверете се, че е свързан правилно."
-"Popover_Off_HMD_Action" "Още информация"
+"Popover_Off_HMD_Action" "Още инф."
 "Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
 "Popover_Off_Controller_Header" "Контролерът не е засечен"
 "Popover_Off_Controller_Description" "Уверете се, че е включен и се намира наблизо."
-"Popover_Off_Controller_Action" "Още информация"
+"Popover_Off_Controller_Action" "Още инф."
 "Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#controllers"
 "Popover_Off_Controller_FirstAction" "Сдвояване на контролер"
 "Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
 
 "Popover_Off_Base_Header" "Базовата станция не е засечена"
 "Popover_Off_Base_Description" "Уверете се, че е включена и се намира в полезрението на ВР шлема Ви."
-"Popover_Off_Base_Action" "Още информация"
+"Popover_Off_Base_Action" "Още инф."
 "Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
 
 "Popover_Off_Tracker_Header" "Проследяващото у-во не е засечено"
-"Popover_Off_Tracker_Action" "Още информация"
+"Popover_Off_Tracker_Action" "Още инф."
 "Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
 
 "Popover_NotReady_Invalid_Header" "Устройството не е готово"
-"Popover_NotReady_Invalid_Action" "Още информация"
+"Popover_NotReady_Invalid_Action" "Още инф."
 "Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326"
 
 "Popover_NotReady_HMD_Header" "ВР шлемът не е готов"
@@ -623,7 +639,7 @@
 "Popover_NotReady_Tracker_Header" "Проследяващото у-во не е готово"
 "Popover_Pose_Invalid_Header" "Активно устройство"
 "Popover_Pose_Invalid_Description" "Понастоящем това неразпознато устройство се проследява."
-"Popover_Pose_Invalid_Action" "Още информация"
+"Popover_Pose_Invalid_Action" "Още инф."
 "Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_Pose_HMD_Header" "ВР шлемът е активен"
@@ -642,12 +658,12 @@
 "Popover_Pose_Tracker_Description" "Понастоящем това устройство се проследява."
 "Popover_NoPose_Invalid_Header" "Не се проследява"
 "Popover_NoPose_Invalid_Description" "Това устройство е неразпознато и понастоящем не проследява."
-"Popover_NoPose_Invalid_Action" "Още информация"
+"Popover_NoPose_Invalid_Action" "Още инф."
 "Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
 
 "Popover_NoPose_HMD_Header" "Търсене…"
 "Popover_NoPose_HMD_Description" "Понастоящем този ВР шлем не се проследява. Уверете се, че е в полезрението на базова станция."
-"Popover_NoPose_HMD_Action" "Още информация"
+"Popover_NoPose_HMD_Action" "Още инф."
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_NoPose_Controller_Header" "Търсене…"
@@ -657,12 +673,12 @@
 
 "Popover_NoPose_Base_Header" "Търсене…"
 "Popover_NoPose_Base_Description" "Понастоящем тази базова станция не проследява никакви устройства. Уверете се, че е в полезрението на ВР шлема Ви."
-"Popover_NoPose_Base_Action" "Още информация"
+"Popover_NoPose_Base_Action" "Още инф."
 "Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_NoPose_Tracker_Header" "Търсене…"
 "Popover_NoPose_Tracker_Description" "Понастоящем това устройство не се проследява. Уверете се, че е в полезрението на базова станция."
-"Popover_NoPose_Tracker_Action" "Още информация"
+"Popover_NoPose_Tracker_Action" "Още инф."
 "Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_Standby_Invalid_Header" "В режим на готовност"
@@ -686,7 +702,7 @@
 "Popover_LowBattery_Tracker_Description" "Батерията на това проследяващо у-во е изтощена."
 "Popover_BaseStationNoPowerManagement_Header" "Управление на захранването"
 "Popover_BaseStationNoPowerManagement_Description" "Тази базова станция не е проектирана да поддържа дистанционно управление на захранването."
-"Popover_BaseStationNoPowerManagement_Action" "Още информация"
+"Popover_BaseStationNoPowerManagement_Action" "Още инф."
 "Popover_BaseStationNoPowerManagement_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_NoSteamWarning_Header" "Steam грешка"
@@ -697,12 +713,12 @@
 "Popover_FirmwareUpdateNeededWarning_Header" "Достъпно е обновление"
 "Popover_FirmwareUpdateNeededWarning_Description" "Време е за обновяване на това устройство."
 "Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Обновяване на устройство"
-"Popover_FirmwareUpdateNeededWarning_Action" "Още информация"
+"Popover_FirmwareUpdateNeededWarning_Action" "Още инф."
 "Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_ConnectionRefusedBySteam_Header" "Steam грешка"
 "Popover_ConnectionRefusedBySteam_Description" "SteamVR се натъкна на проблем с връзката към Steam. Моля, рестартирайте Steam и опитайте отново."
-"Popover_ConnectionRefusedBySteam_Action" "Още информация"
+"Popover_ConnectionRefusedBySteam_Action" "Още инф."
 "Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_DirectModeDriverUpdate_Header" "Обновяване на графичните драйвери"
@@ -713,32 +729,32 @@
 
 "Popover_BaseStationsTooFarApart_Header" "Известие за ВР установката"
 "Popover_BaseStationsTooFarApart_Description" "Базовите Ви станции са на разстояние от %1 метра една от друга. За най-добро преживяване, обмислете да ги преместите така, че да не са на разстояние повече от 5,5 метра една от друга."
-"Popover_BaseStationsTooFarApart_Action" "Още информация"
+"Popover_BaseStationsTooFarApart_Action" "Още инф."
 "Popover_BaseStationsTooFarApart_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Popover_SeeOnlyOneBase_Header" "Видима е само една базова станция"
 "Popover_SeeOnlyOneBase_Description" "Ако сте пуснали SteamVR само с една базова станция, превключването към режим „A“ ще предостави по-добри резултати при проследяването."
-"Popover_SeeOnlyOneBase_Action" "Още информация"
+"Popover_SeeOnlyOneBase_Action" "Още инф."
 "Popover_SeeOnlyOneBase_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
 
 "Warning_DismissableWarning_RunTutorialAgain_Header" "Стайна установка и упътване"
 "Warning_DismissableWarning_RunTutorialAgain_Description" "Можете да използвате стайната установка или упътването отново по всяко време от SteamVR менюто по-долу."
-"Warning_DismissableWarning_RunTutorialAgain_Action" "Още информация"
+"Warning_DismissableWarning_RunTutorialAgain_Action" "Още инф."
 "Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_BasestationsTooFarApart_Header" "Известие за ВР установката"
 "Warning_DismissableWarning_BasestationsTooFarApart_Description" "Базовите Ви станции са на разстояние една от друга, надвишаващо препоръчаното. За най-добро преживяване, обмислете да ги преместите така, че да не са на разстояние повече от 5,5 метра една от друга. "
-"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Още информация"
+"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Още инф."
 "Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Грешка на базова станция"
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Възможно е нещо да блокира видимостта между базовите Ви станции. Ако това предупреждение продължава между сесиите, добре е да обмислите превключване към синхронизация с кабел."
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Още информация"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Още инф."
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
 
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Засечена е само една базова станция"
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Ако използвате само една базова станция, качеството на проследяването ще се подобри при превключване към режим „A“."
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Още информация"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Още инф."
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
 
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Грешка при установка на базова станция"
@@ -758,12 +774,12 @@
 
 "Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Информация за устройството"
 "Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Задръжте мишката над иконите по-долу, за да видите подробности и статус относно всяко устройство. Ако се изисква обновление за устройството Ви, върху иконата ще видите „(i)“."
-"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Още информация"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Още инф."
 "Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_MissedFrames_Header" "Грешка на приложение"
 "Warning_DismissableWarning_MissedFrames_Description" "Текущото приложение за виртуална реалност работи прекалено бавно, което може да доведе до неприятно преживяване. Възможно е приложението Ви да има прекалено високи изисквания или компютърът Ви да е твърде бавен."
-"Warning_DismissableWarning_MissedFrames_Action" "Още информация"
+"Warning_DismissableWarning_MissedFrames_Action" "Още инф."
 "Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth грешка"
@@ -783,7 +799,7 @@
 
 "Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth грешка"
 "Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "SteamVR откри, че някои съществени файлове изглежда липсват. Моля, преинсталирайте SteamVR."
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Още информация"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Още инф."
 "Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth грешка"
@@ -798,7 +814,7 @@
 
 "Warning_DismissableWarning_UnknownHardwareDetected_Header" "Засечено е ново устройство"
 "Warning_DismissableWarning_UnknownHardwareDetected_Description" "Поздравления за новия хардуер! Моля, прегледайте инструкциите за установка на това устройство, така че SteamVR да го засече правилно."
-"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Още информация"
+"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Още инф."
 "Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_WindowsAeroDisabled_Header" "Оптимизация на производителността"
@@ -808,7 +824,7 @@
 
 "Warning_DismissableWarning_Windows8_Header" "Време е за обновяване на Windows"
 "Warning_DismissableWarning_Windows8_Description" "SteamVR не се поддържа на Windows 8. Моля, подобрете до Windows 8.1 или Windows 10 за най-добри резултати."
-"Warning_DismissableWarning_Windows8_Action" "Още информация"
+"Warning_DismissableWarning_Windows8_Action" "Още инф."
 "Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_DisplayInExtendedMode_Header" "Известие във ВР шлема"
@@ -818,12 +834,12 @@
 
 "Warning_DismissableWarning_IssuesWithOneDongle_Header" "Грешка на ВР шлема"
 "Warning_DismissableWarning_IssuesWithOneDongle_Description" "Един от безжичните приемници във ВР шлема Ви не беше засечен. Това може да причини проблеми при връзката с ВР контролерите Ви."
-"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Още информация"
+"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Още инф."
 "Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
 
 "Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Безжичните приемници не са засечени"
 "Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Безжичните приемници във ВР шлема Ви не бяха засечени. Това може да причини проблеми при връзката с ВР контролерите Ви."
-"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Още информация"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Още инф."
 "Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
 
 "Warning_DismissableWarning_NewDriverInstalled_Header" "Висящо обновление за устройство"
@@ -833,27 +849,27 @@
 
 "Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Грешна видеокарта"
 "Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "Моля, включете своя ВР шлем в същата видеокарта, както и основния Ви монитор."
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Още информация"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Още инф."
 "Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" " https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820	"
 
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Подобряване на графичния драйвер"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "SteamVR има най-добра производителност с актуален графичен драйвер. Препоръчваме да обновите своя сега."
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Още информация"
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Още инф."
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Подобряване на графичния драйвер"
 "Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Настоящият Ви графичен драйвер има известен проблем, който може да заключи Вашия компютър. Моля, инсталирайте последната актуална корекция от връзката по-долу."
-"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Още информация"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Още инф."
 "Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
 
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "ВР шлемът е разкачен"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Кабелът за екрана на ВР шлема се е разкачил. Моля, проверете свръзките на своя ВР шлем и опитайте отново."
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Още информация"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Още инф."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" " https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Връзката е разкачена при ВР шлема"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Кабелът на ВР шлема Ви се е разкачил от него. Моля, уверете се, че връзката зад лицевото уплътнение е поставена стабилно."
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Още информация"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Още инф."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Проблем с връзката на шлема"
@@ -873,7 +889,7 @@
 
 "Warning_DismissableWarning_OutOfVideoMemory_Header" "Недостатъчно видео памет"
 "Warning_DismissableWarning_OutOfVideoMemory_Description" "Видео паметта на системата Ви се изчерпва, което ще причини слаба производителност. Опитайте да излезете от текущото приложение или рестартирайте SteamVR."
-"Warning_DismissableWarning_OutOfVideoMemory_Action" "Още информация"
+"Warning_DismissableWarning_OutOfVideoMemory_Action" "Още инф."
 "Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Превключване към по-висока честота на кадрите?"
@@ -924,8 +940,8 @@
 "SteamVRServiceNeedsInstallation_Description" "Нужно е Вашето разрешение за инсталиране на помощното обслужване. Моля, кликнете връзката по-долу и изберете „Да“ в поканата от контрола на потребителския акаунт (UAC)."
 "SteamVRServiceNeedsInstallation_FirstAction" "Инсталиране"
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
-"SteamVRServiceNeedsInstallation_Action" "Още информация"
-"SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"SteamVRServiceNeedsInstallation_Action" "Още инф."
+"SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Моля, изключете контролерите от контакта по време на игра"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Дърпането на зарядния кабел под ъгъл може да причини повреда."

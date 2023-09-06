@@ -632,7 +632,7 @@
 
 "PairingWizard_CheckForDongles_Content" "Проверяване за достъпни безжичния приемници…"
 
-"PairingWizard_HelperAppFailed_Content" "Неуспешно повикване на помощното приложение — грешка: %1."
+"PairingWizard_HelperAppFailed_Content" "Неуспешно повикване на помощното приложение с грешка: %1."
 "PairingWizard_HelperAppFailed_Error_FailedToStart" "„Неуспешно стартиране“ (0)"
 "PairingWizard_HelperAppFailed_Error_Crashed" "„Срив“ (1)"
 "PairingWizard_HelperAppFailed_Error_Timedout" "„Просрочено време“ (2)"
@@ -640,7 +640,7 @@
 "PairingWizard_HelperAppFailed_Error_WriteError" "„Грешка при записване“ (4)"
 "PairingWizard_HelperAppFailed_Error_UnknownError" "„Неизвестна грешка“ (5)"
 
-"PairingWizard_HelperAppFailed_MoreInfo" "Още информация"
+"PairingWizard_HelperAppFailed_MoreInfo" "Още инф."
 "PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
 
 "PairingWizard_NoDonglesAvailable_Title" "Вече се използват два контролера"

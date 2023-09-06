@@ -343,7 +343,7 @@
 "Settings_Bluetooth_Driver_Install_Description"	"Instala o driver Bluetooth da Link Box para permitir funcionalidades de comunicação sem fios por Bluetooth. Requer credenciais de administrador."
 "Settings_Bluetooth_Driver_Update" "Atualizar driver do Bluetooth"
 "Settings_Bluetooth_Driver_Update_Description" "Atualiza o driver Bluetooth da Link Box para permitir funcionalidades de comunicação sem fios por Bluetooth. Requer credenciais de administrador."
-"Settings_Bluetooth_RetryConnection" "Tentar novamente"
+"Settings_Bluetooth_RetryConnection" "Tentar de novo"
 
 "Settings_BaseStation_BluetoothBusy" "À espera de Bluetooth..."
 "Settings_BaseStation_BluetoothRequired" "Ativa o Bluetooth para poderes aceder a funcionalidades sem fios, tais como a atualização e gestão de energia de estações-base."
@@ -596,7 +596,7 @@
 "MessageBox_Continue" "Continuar"
 "MessageBox_Yes" "Sim"
 "MessageBox_RestartSteamVR" "A reiniciar SteamVR..."
-"MessageBox_Retry" "Tentar novamente"
+"MessageBox_Retry" "Tentar de novo"
 "MessageBox_Done" "OK"
 "MessageBox_RestartNow" "Reiniciar SteamVR"
 "MessageBox_RestartLater" "Reiniciar depois"
@@ -728,7 +728,7 @@
 "FirmwareWizard_UpdateController_Fail_Title" "A atualização do dispositivo falhou"
 "FirmwareWizard_UpdateController_Fail_UpperText" "A atualização do comando falhou."
 "FirmwareWizard_UpdateController_Fail_MiddleText" "Assegura-te de que o teu comando está firmemente conectado ao teu computador com um cabo micro-USB. Se este processo continuar a falhar, sai do SteamVR. Se o teu comando não se desligou, desliga-o mantendo pressionado o botão System. Depois inicia o SteamVR e tenta de novo."
-"FirmwareWizard_UpdateController_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateController_Fail_LowerText" "Clica em \"Tentar de novo\" para voltares a tentar."
 
 "FirmwareWizard_UpdateController_Success_Title" "Atualizar comando"
 "FirmwareWizard_UpdateController_Success_UpperText" "Sucesso!"
@@ -747,7 +747,7 @@
 "FirmwareWizard_UpdateGenericTracker_Fail_Title" "A atualização do dispositivo falhou"
 "FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "A atualização do detetor falhou."
 "FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Assegura-te de que o teu detetor está firmemente conectado ao teu computador via micro-USB. Se este processo continuar a falhar, sai do SteamVR. Se o teu detetor não se desligou, desliga-o mantendo premido o botão System. De seguida, inicia o SteamVR e tenta de novo."
-"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Clica em \"Tentar de novo\" para voltares a tentar."
 					  
 "FirmwareWizard_UpdateGenericTracker_Success_Title" "Atualizar detetor"
 "FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Sucesso!"
@@ -783,7 +783,7 @@
 "FirmwareWizard_UpdateBasestation_Fail_Title" "A atualização da estação-base falhou"
 "FirmwareWizard_UpdateBasestation_Fail_UpperText" "A atualização deste dispositivo falhou."
 "FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Assegura-te de que a tua estação-base está firmemente conectada ao teu computador com um cabo micro-USB. Se este processo continuar a falhar, sai do SteamVR e desconecta o cabo de alimentação da tua estação-base. Depois inicia o SteamVR e tenta de novo."
-"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Clica em \"Tentar de novo\" para voltares a tentar."
 
 "FirmwareWizard_UpdateBasestationWireless_Fail_Title" "A atualização de estação-base falhou"
 "FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "A atualização deste dispositivo falhou."
@@ -796,7 +796,7 @@
 "FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "Uma ligação USB inesperada à estação-base está a impedir que a atualização sem fios seja realizada.<br><br><font color=#aaaa00>Desliga o cabo USB ligado à estação-base.</font>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "Uma ligação USB inesperada à estação-base está a impedir que a atualização sem fios seja concluída.<ul><li><font color=#aaaa00>Desliga o cabo de alimentação da estação-base.<li>Desliga o cabo USB ligado à estação-base.<li>Volta a ligar apenas o cabo de alimentação da estação-base.<li>Aguarda 30 segundos para que a estação-base termine a sua atualização interna.</font></ul><br>A luz da estação-base pode estar desligada durante a atualização interna.<br>Não desligues nem ligues alguma coisa à estação-base durante a atualização."
 "FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Esta estação-base precisa primeiro de ser desligada e ligada novamente para continuar com a atualização.<br><br><font color=#aaaa00>Por favor, desliga e volta a ligar o cabo de alimentação da estação-base antes de continuares.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Clica em \"Tentar de novo\" para voltares a tentar."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Clica em \"Cancelar\" para reiniciares o SteamVR."
 
 "FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Se a atualização deste dispositivo continuar a falhar sem que haja progresso:<ul><li>Sai do SteamVR.<li>Desliga qualquer cabo USB que esteja ligado à estação-base.<li>NÃO ligues nada à porta USB da estação-base.<li>Desliga e volta a ligar o cabo de alimentação da Link Box.<li>Desliga e volta a ligar o cabo de alimentação da estação-base.<li>Inicia o SteamVR e tenta de novo.</ul>"
@@ -1136,7 +1136,7 @@
 "BS20_ConfigureChannel_ConnectionFailure"					"%1 - Falha na conexão."
 "BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 requer uma atualização para possibilitar a configuração de canais."
 "BS20_ConfigureChannel_ConflictWarning"						"%1 está a usar o mesmo canal que outra estação-base."
-"BS20_ConfigureChannel_FailedToConnectRetry"				"%1 - Falha na conexão. Clica em \"Tentar novamente\" para tentares de novo."
+"BS20_ConfigureChannel_FailedToConnectRetry"				"Não foi possível conectar %1. Clica em \"Tentar de novo\" para voltares a tentar."
 "BS20_ConfigureChannel_ConflictOnChannel"					"Possível conflito no canal %1"
 "BS20_ConfigureChannel_NoConflictOnChannel"					"Nenhum conflito no canal %1"
 "BS20_ConfigureChannel_ProgressScanComplete"				"Procura concluída.\n\nClica no link do canal para alterá-lo."
@@ -1170,7 +1170,7 @@
 "BS_PowerManagement_ObservedInTracking"						"Observado numa sessão de deteção anterior."
 "BS_PowerManagement_Identify"								"Clica para identificar estação-base."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 requer uma atualização para possibilitar a identificação."
-"BS_PowerManagement_FailedToConnectRefresh"					"Falha na ligação de \"%1\". Clica em \"Atualizar\" para tentares de novo."
+"BS_PowerManagement_FailedToConnectRefresh"					"Não foi possível conectar %1. Clica em \"Atualizar\" para tentares de novo."
 "BS_PowerManagement_ConnectionFailureLegend"				"Falha na ligação. Clica em \"Atualizar\" para tentares de novo."
 
 "BS20_UpdateRecovery_Title"									"Estação-base 2.0 - Recuperação de atualização"

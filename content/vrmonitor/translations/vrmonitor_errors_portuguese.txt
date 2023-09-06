@@ -287,6 +287,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "À espera de ligação sem fios"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "O SteamVR está a aguardar pela ligação de um headset sem fios..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Não foi possível estabelecer ligação com o ecrã do headset."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "O teu headset pode não estar conectado ou o teu ambiente de trabalho pode não ser compatível com realidade virtual."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Reiniciar SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Mais informações"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Falha ao realizar \"leasing\" do ecrã"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "O teu ambiente de trabalho (GNOME Wayland) não é compatível com \"leasing\" do Direct Rendering Manager, que é necessário para o modo de realidade virtual."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Mais informações"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Não foi possível conectar ao gestor de janelas."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "O SteamVR não pôde conectar ao gestor de janelas. Podes ter de reiniciar a sessão ou o SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Reiniciar SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Atualização do driver da placa gráfica"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "É necessário atualizar o driver da placa gráfica do computador ou ativar o agendamento da GPU acelerada por hardware."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mais informações"

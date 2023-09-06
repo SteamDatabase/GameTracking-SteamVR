@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Venter på trådløs tilkobling"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR venter på at et trådløst hodesett skal koble til …"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Kunne ikke koble til hodesettets skjerm"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Det er mulig at hodesettet ikke er tilkoblet, eller at skrivebordsmiljøet ikke støtter VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Start SteamVR på nytt"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Mer info"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/no/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Kunne ikke lease skjerm"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Skrivebordsmiljøet (Gnome Wayland) støtter ikke DRM-leasing, som er nødvendig for virtuell virkelighet."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Mer info"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/no/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Kunne ikke koble til vindusbehandling"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR kunne ikke koble til vindusbehandlingen. Du må kanskje starte økten eller SteamVR på nytt."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Start SteamVR på nytt"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Oppdatering av skjermdriver"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Du må oppdatere datamaskinens skjermdriver eller slå på maskinvareakselerert GPU-planlegging."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mer informasjon"

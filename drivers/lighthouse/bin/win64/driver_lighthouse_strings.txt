@@ -440,7 +440,6 @@ $w!Hc
 %s: allocator not initialized
 %s: at least one signal point is required
 %s: attempt to block on incomplete query set: %s
-%s: attempted to release an invalid handle
 %s: cmdbuf references a resource that has been released: %s
 %s: concurrent sharing mode requires queue family indices
 %s: device does not support host query reset.
@@ -502,7 +501,6 @@ $w!Hc
 %s: failed to export client swapchain image
 %s: failed to export client timeline
 %s: failed to export memory (%d)
-%s: failed to export swapchain texture to %d
 %s: failed to export timeline %s
 %s: failed to find a suitable vulkan device
 %s: failed to get D3D11 interop resource handle
@@ -531,7 +529,6 @@ $w!Hc
 %s: failed to map vulkan memory
 %s: failed to open shared resource
 %s: failed to open the prism process
-%s: failed to query DXGI shared handle
 %s: failed to query resource interface
 %s: failed to register compositor resources
 %s: failed to register debug callback
@@ -914,6 +911,7 @@ $w!Hc
 -t!?Ks
 -t1?Ks
 -tA?Ks
+-tQ?h
 -u-I;
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ... Moving the base for tracking too, which might cause a pop
@@ -1393,8 +1391,8 @@ $w!Hc
 21VNt
 220323000000Z
 220801000000Z
-220921000000Z
-230727203107Z0/
+230714000000Z
+230831183511Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1404,20 +1402,20 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
 3333333
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
 3Pole
 3mq+<
-3q Q]G
 42HcF,
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5qW9s
 6*f(_
 6<framesToThrottle
 6I]Dc
@@ -1455,7 +1453,6 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
-8L9->c&
 8O0u]A
 8\$@t
 8\t	H
@@ -1576,9 +1573,9 @@ $w!Hc
 ;Ch}(
 ;D$lu H
 ;K s;H
-;K sEH
 ;K sFH
 ;K sIH
+;K sQH
 ;K(tMH
 ;S sIH
 ;S sLH
@@ -1597,7 +1594,6 @@ $w!Hc
 <	w'H
 < t+<
 <$Hc\
-<*J=)
 <*tq</tm<
 <*ufH
 </u#H
@@ -1639,7 +1635,6 @@ $w!Hc
 ?)\o?;
 ?333333
 ?333?
-?7:o"
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1814,6 +1809,7 @@ $w!Hc
 @8p)u]
 @8s$t
 @8s,u
+@8w A
 @8|$@t$
 @@H+H0
 @@H+H0I
@@ -1928,6 +1924,7 @@ $w!Hc
 @USVWAWH
 @USVWH
 @USWATAUH
+@USWAVH
 @USWH
 @UVATAUAVH
 @UVATH
@@ -2231,7 +2228,10 @@ BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
 Bellevue1
 Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
+Beyond
 Bf9LB
+Bigscreen
+Bigscreen Beyond
 Boolean default must be true or false.
 Boot to app
 Bootstrap failed because no IMU data was available%s
@@ -2739,7 +2739,6 @@ D$XH9Q
 D$XH;
 D$XHc
 D$XIc
-D$XL;
 D$Xaxis
 D$XuQH
 D$Xv?
@@ -2800,11 +2799,9 @@ D8,2u
 D8,7u
 D8,8u
 D840u
-D85 a(
+D85~p(
 D8<0u
-D8=6<(
-D8=l<(
-D8=u<(
+D8=%L(
 D8D$9t$
 D8D$hH
 D8L$(t
@@ -2822,7 +2819,6 @@ D8s4t
 D8t$P
 D8x)t!E3
 D8{4t
-D8~ A
 D90uGH
 D9>u:H
 D9@ s
@@ -2945,11 +2941,11 @@ DeviceMessageWindow_t::RunFrame
 Devices with no on-device calibration are not supported in the Lighthouse driver.
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Disabled
 Disabled by Config
@@ -2981,7 +2977,6 @@ E9x s
 E;A }
 E;p s
 E;u`|
-E@@e;Tx
 E@H+h0H
 E@L9M
 ECameraHAL_OpenError_ToString
@@ -3117,7 +3112,7 @@ F(HcH
 F,9ATu
 F,9G,
 F-A+F%
-F0D85
+F0D85pj(
 F8@85
 F<@85
 F@@8h)u
@@ -3280,6 +3275,7 @@ GPI+GHf
 GPJMt
 GPJMtUH
 GXkVp8H
+G`[Z7
 General reset
 Generating hidden area mesh for mode "%d" %s
 GetACP
@@ -3398,8 +3394,10 @@ H+Y@H
 H+_@H
 H+_pH
 H+q@HcO,H
+H-^Eu
 H0Ic@,Hc
 H9)u 
+H9-1"!
 H91u 
 H92u&
 H92u,
@@ -3407,8 +3405,7 @@ H93t	H
 H97t	H
 H98t	H
 H9;uAA
-H9=*E(
-H9=9D(
+H9=&S(
 H9A s
 H9A u&
 H9A u6
@@ -3473,12 +3470,12 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=@*
-H;=u.
+H;=@1
+H;=u5
 H;Axt
 H;B0t
-H;C s<H
-H;C sFH
+H;C sAH
+H;C sIH
 H;C(v
 H;C`u
 H;Cxu
@@ -3516,7 +3513,6 @@ H;^Hu
 H;_ t+H
 H;_ t,H
 H;_ u
-H;p s
 H;s(r
 H;t$8
 H;t$@
@@ -3539,7 +3535,7 @@ HA^_^[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
-HL9-S"(
+HL9-C1(
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
 HMD Report:
@@ -3597,9 +3593,9 @@ HcS B
 HcT$$
 HcT$PH
 HcT$`L
-HcV|H
 HcW,H
 HcW,L
+HcW|H
 HcY(I
 Hc\$ 
 Hct$0
@@ -3695,7 +3691,7 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IL9-t
+IL9-d
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -3725,7 +3721,6 @@ INFO: firmware_config %s
 INVALID
 INVALID_CPPTYPE
 IPC::CIPCHandle::InitForExport
-IPC::TSharedHandleBase<void *,0>::Close
 IPCPipe(%s) failed to read payload of %u bytes
 IPCPipe(%s) failed to write message of %u bytes because %s
 IPCPipe(%s): Next message type %u, seq %u, len %u
@@ -3749,7 +3744,7 @@ IVRCompositorPluginProvider_001
 IVRCompositorSystemInternal_001
 IVRControlPanel_006
 IVRDebug_001
-IVRDisplayComponent_002
+IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_008
 IVRDriverInput_003
@@ -4041,18 +4036,22 @@ L+P@H
 L+Q@I
 L80L;
 L9&u"
-L9-$!(
-L9-N#(
-L9-WM&
+L9-(.(
+L9-1*(
+L9-2%(
+L9->2(
+L9-A-(
+L9-O)(
+L9-W"(
+L9-[\&
+L9-^,(
+L9-m((
+L9-r (
 L90H;
 L90M;
 L92u'
-L95Hv&
-L95pv&
 L97u0H
-L9=/}&
-L9=|#&
-L9>u	H
+L9?u,H
 L9@ s
 L9A r
 L9E(H
@@ -4265,7 +4264,6 @@ NvAPI: DirectModeGetDisplayModes trying again with older API!
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
 NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d
 O	u~w
-O&Dmv
 O(;H(}+I
 O(H9O0t
 O*9y]
@@ -4411,7 +4409,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDSB5
+RSDSD
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4646,6 +4644,7 @@ Stopping recording...
 String literals cannot cross line boundaries.
 StringOutputStream.
 Submit
+Submit: %s
 Success
 Success: 
 Successfully parsed Lighthouse DB rev %u from %s
@@ -4819,6 +4818,7 @@ USVWATAVH
 USVWATH
 USVWAUAVAWH
 USVWAUAVI
+USVWAUH
 USVWAUI
 USVWAVAWH
 USVWAVAWI
@@ -4984,6 +4984,8 @@ VK_NV_compute_shader_derivatives
 VR Path Registry node %s is not an array
 VRAudioDevices_Init
 VRC-%s
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
 VRInitError_Compositor_CreateBackbufferDepth
@@ -5057,6 +5059,7 @@ VRInitError_Compositor_FailedToGetDXGIDeviceInterface
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
 VRInitError_Compositor_InvalidAdapterDesktop
 VRInitError_Compositor_InvalidDeviceProvided
 VRInitError_Compositor_InvalidHmdAttachment
@@ -5368,11 +5371,12 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5Ng#
+Y5Nt#
 Y9"SD
 Y?33s?
 YAHH+
 YAPH+
+YL9%!
 Yl$ M
 Yl$4E
 Yl$hfD
@@ -5535,7 +5539,6 @@ ZL$Xf
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
-^xuS2b
 _0IcG
 _Cnd_broadcast
 _Cnd_destroy
@@ -5657,6 +5660,7 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+a7hIw
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
 abgrt
 abort
@@ -5776,6 +5780,7 @@ base_serial_number
 base_stations
 basestation_mode
 bg_bg
+bigscreenbeyond
 bin\win64\vrprismhost.exe
 bit_offset
 bit_width
@@ -5834,7 +5839,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthou
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
-cU	F9
 cal_method
 calloc
 camera
@@ -5908,6 +5912,7 @@ d$hH3
 d$hHcC,L
 d$pI;
 d$xL;
+d-H>V
 d3d11.dll
 da_da
 danish
@@ -6070,7 +6075,6 @@ facet::CCompositionClient::CFrameState::Submit
 facet::CCompositionClient::CFrameState::Wait
 facet::CCompositionClient::CSwapchain::AcquireCompositorSlot
 facet::CCompositionClient::CSwapchain::CreateVulkanResources
-facet::CCompositionClient::CSwapchain::GetAPIImage
 facet::CCompositionClient::CSwapchain::GetIndices
 facet::CCompositionClient::CSwapchain::GetInteropImage
 facet::CCompositionClient::CSwapchain::Initialize
@@ -6201,6 +6205,7 @@ gyro_bias
 h AVH
 h UAVAWH
 h VAVAWH
+h:qii#
 hA\_^[
 hA^A\_^[]
 hA^A]^[
@@ -6372,6 +6377,7 @@ invalid vector<T> subscript
 invalid window size
 invalid-user
 inverseBindMatrices
+inverse_distortion
 ipdOffset
 isPairing
 is_extension
@@ -6466,6 +6472,7 @@ l$xHc
 l$xLc
 l$xLi
 l$xM+
+l2|X/gGe
 l6qnk
 l?Nb0?
 lEyeFile:%s width:%d height:%d components:%d
@@ -6499,7 +6506,6 @@ lighthousedb.json
 lighthousedriver:
 lights
 list<T> too long
-lmfff
 localeconv
 location
 low_mm
@@ -6507,6 +6513,7 @@ m0_$@
 m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
+m_data.details.hImportHandle.Valid()
 m_eMutexOwnership != MutexOwnership_t::D3D11
 m_eMutexOwnership != MutexOwnership_t::Vulkan
 m_eMutexOwnership == MutexOwnership_t::D3D11
@@ -6584,6 +6591,7 @@ nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
+nSizeInBytes <= m_unSizeInBytes
 nSplineCtrlPts
 need dictionary
 negative_int_value
@@ -6691,7 +6699,7 @@ pP@Df
 pP`DfD
 pResource
 pSourceBuffer
-pSourceBuffer->m_unSizeInBytes >= nSourceOffset + m_unSizeInBytes
+pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
 pSwapchain != nullptr
 pT$0Df
 pT$PD
@@ -7162,24 +7170,25 @@ t|C9D
 t|SUVH
 t}H9=
 t~L9=
-t~L9=(
-t~L9=k
+t~L9=<
+t~L9=^
 u	A;p(s
 u	A;y(s
 u	D;X
+u#9}(w	A
 u#D9A
-u'9}(u
 u(HcI(H
 u(K9<
 u)IcA,D
 u.fA9q
+u09}(u
 u0f;M
 u18E4t
 u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-;
+u<L9-+
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7225,7 +7234,7 @@ usbVID
 usePrism
 usedisambiguation
 userdata
-u{L9=
+u{L9=X
 v(M;l
 v9fff
 v=Y]Bv
@@ -7724,7 +7733,7 @@ vrprismhost_startup timed out after %u ms before being set by the new vrprismhos
 vrwebhelper
 vuf?H
 vulkan-1.dll
-v}L9-
+v}L9-@
 w(M9w0tH
 w+OQvr
 wUD;C$}OH
@@ -7751,7 +7760,7 @@ wrong submessage type
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-w{L9=
+w{L9=e
 x ATAVAWH
 x AVH
 x UATAUAVAWH

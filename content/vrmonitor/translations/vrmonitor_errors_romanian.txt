@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Se așteaptă conexiunea wireless"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR așteaptă conectarea cu o cască wireless..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Nu s-a putut conecta la ecranul căștii."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Este posibil ca propria ta cască să nu fie conectată sau ca mediul tău pentru desktop să nu fie compatibil cu realitatea virtuală."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Repornește SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Mai multe informații"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/ro/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Nu s-a putut partaja ecranul"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Mediul tău pentru desktop (GNOME Wayland) nu este compatibil cu partajarea ecranului folosind protocolul Direct Rendering Manager, care este necesar pentru realitatea virtuală."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Mai multe informații"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/ro/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Nu s-a putut la conecta la aplicația de gestionare a ferestrelor"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR nu s-a putut conecta la aplicația de gestionare a ferestrelor. Este posibil să fie necesară repornirea sesiunii sau a aplicației SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Repornește SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Actualizarea driverului pentru placa video"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Trebuie să actualizezi driverul video al calculatorului tău sau să activezi planificarea GPU accelerată prin hardware."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mai multe informații"

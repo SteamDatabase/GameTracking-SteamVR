@@ -674,7 +674,7 @@
         (0, i.gn)([a.Fl], M.prototype, "currentRoomViewStyle", null),
         (M = (0, i.gn)([l.Pi], M));
       var E = n(7095),
-        L = n(1125);
+        L = n(5365);
       let R = class extends c.Component {
         constructor(e) {
           super(e),
@@ -1352,6 +1352,11 @@
           }),
             this.setState({ bAllowServerStop: !0 });
         }
+        SetEyeTrackingVisualization(e) {
+          let t = { type: "set_eye_tracking_debug_mode", mode: e };
+          this.m_mailbox.SendMessage("vrcompositor_systemlayer", t),
+            this.setState({ bAllowServerStop: !1 });
+        }
         render() {
           const e = (0, o.Op)() == o.qA.Overlay;
           let t;
@@ -1422,6 +1427,27 @@
                   " Start ",
                 ),
               ),
+              c.createElement("div", null, "Eye Tracking Vis:"),
+              c.createElement(
+                "div",
+                { className: "FlexRow" },
+                c.createElement(
+                  u.z,
+                  {
+                    className: "ButtonControl",
+                    onClick: () => this.SetEyeTrackingVisualization("0"),
+                  },
+                  "Off",
+                ),
+                c.createElement(
+                  u.z,
+                  {
+                    className: "ButtonControl",
+                    onClick: () => this.SetEyeTrackingVisualization("1"),
+                  },
+                  "On",
+                ),
+              ),
               e &&
                 c.createElement(
                   c.Fragment,
@@ -1447,6 +1473,7 @@
         (0, i.gn)([s.ak], x.prototype, "stopEyeTrackingServer", null),
         (0, i.gn)([s.ak], x.prototype, "startEyeTrackingServer", null),
         (0, i.gn)([s.ak], x.prototype, "doEyeTrackingCal", null),
+        (0, i.gn)([s.ak], x.prototype, "SetEyeTrackingVisualization", null),
         (x = (0, i.gn)([l.Pi], x));
       var H = n(9669),
         G = n.n(H);
@@ -1605,7 +1632,7 @@
             }),
           );
         },
-        K = (0, l.Pi)(() => {
+        q = (0, l.Pi)(() => {
           const e = "settingscontrolzoo",
             t = S.G3.routePageSection == e;
           return c.createElement(
@@ -1638,27 +1665,20 @@
               ),
           );
         });
-      function q(e) {
-        const [t, n] = c.useState(!1);
-        return c.createElement(
-          c.Fragment,
-          null,
-          c.createElement(_.wy, {
-            name: "/settings/dashboard/allowSteamOverlays",
-            label: "Allow Steam Overlays",
-            onChange: () => n(!0),
-          }),
-          t &&
-            c.createElement(
-              "div",
-              { className: "SettingsItemValueLabel" },
-              "Requires both a Steam and SteamVR restart.",
-            ),
-        );
+      function K(e) {
+        return null;
       }
       let Z = class extends _.d9 {
         constructor(e) {
-          super(e);
+          super(e),
+            (this.m_mailbox = new o.Nv()),
+            this.m_mailbox.Init("internal_settings");
+        }
+        toggleMirrorRender() {
+          this.m_mailbox.SendMessage("vrcompositor_systemlayer", {
+            type: "toggle_mirror_render",
+          }),
+            this.setState({ bAllowServerStop: !1 });
         }
         render() {
           return this.props.active
@@ -1675,7 +1695,24 @@
                 !1,
                 !1,
                 !1,
+                !1,
+                !1,
+                !1,
+                !1,
+                !1,
                 this.schemaComponents,
+                c.createElement(
+                  "div",
+                  { className: "SettingsItem Button" },
+                  c.createElement(
+                    u.z,
+                    {
+                      className: "ButtonControl",
+                      onClick: () => this.toggleMirrorRender(),
+                    },
+                    "Toggle Mirror Device Rendering",
+                  ),
+                ),
                 c.createElement(_.U4, {
                   name: "/settings/dashboard/verticalOffsetCm_2",
                   label: "Vertical Offset (cm)",
@@ -1712,10 +1749,10 @@
                   swapOnOff: !0,
                   label: (0, m.Xx)("#Settings_Animations"),
                 }),
-                c.createElement(q, null),
+                c.createElement(K, null),
                 c.createElement(F, null),
                 c.createElement(N, null),
-                c.createElement(K, null),
+                c.createElement(q, null),
                 this.makeResetToDefaultButton(),
               ))
             : null;
@@ -1723,6 +1760,7 @@
       };
       var z, j;
       (Z.Name = "internal_settings"),
+        (0, i.gn)([s.ak], Z.prototype, "toggleMirrorRender", null),
         (Z = (0, i.gn)([l.Pi], Z)),
         (function (e) {
           (e[(e.NoConnection = 0)] = "NoConnection"),
@@ -3586,6 +3624,7 @@
                     debugName: "settings",
                     additionalClassNames: "Settings",
                     foregroundReflectMultiplier: 0.25,
+                    summonOverlayKey: h.A4,
                   },
                   c.createElement(o.at, { id: i, location: o.Ic.TopCenter }),
                   t,
@@ -5142,22 +5181,22 @@
         onGroupMouseEnter() {
           2 == this.props.items.length &&
             (0, p.Op)() == p.qA.Overlay &&
-            _.LJ.Instance.triggerHaptic(_.Kf.ButtonEnter);
+            _.L.Instance.triggerHaptic(p.sH.ButtonEnter);
         }
         onGroupMouseLeave() {
           2 == this.props.items.length &&
             (0, p.Op)() == p.qA.Overlay &&
-            _.LJ.Instance.triggerHaptic(_.Kf.ButtonLeave);
+            _.L.Instance.triggerHaptic(p.sH.ButtonLeave);
         }
         onOptionMouseEnter() {
           2 != this.props.items.length &&
             (0, p.Op)() == p.qA.Overlay &&
-            _.LJ.Instance.triggerHaptic(_.Kf.ButtonEnter);
+            _.L.Instance.triggerHaptic(p.sH.ButtonEnter);
         }
         onOptionMouseLeave() {
           2 != this.props.items.length &&
             (0, p.Op)() == p.qA.Overlay &&
-            _.LJ.Instance.triggerHaptic(_.Kf.ButtonLeave);
+            _.L.Instance.triggerHaptic(p.sH.ButtonLeave);
         }
         ValuesAreEqual(e, t) {
           return (
@@ -7485,13 +7524,13 @@
             n.call(t, e),
             this.disabled ||
               ((0, a.Op)() == a.qA.Overlay &&
-                l.LJ.Instance.triggerHaptic(l.Kf.ButtonEnter));
+                l.L.Instance.triggerHaptic(a.sH.ButtonEnter));
         }
         onMouseLeave(e) {
           this.props.onMouseLeave && this.props.onMouseLeave(e),
             this.disabled ||
               ((0, a.Op)() == a.qA.Overlay &&
-                l.LJ.Instance.triggerHaptic(l.Kf.ButtonLeave));
+                l.L.Instance.triggerHaptic(a.sH.ButtonLeave));
         }
         render() {
           let e = Object.assign({}, this.props);
@@ -9640,43 +9679,35 @@
     },
     424: (e, t, n) => {
       "use strict";
-      n.d(t, { Kf: () => i, LJ: () => a });
-      var i,
-        o = n(1569);
-      !(function (e) {
-        (e[(e.ButtonEnter = 0)] = "ButtonEnter"),
-          (e[(e.ButtonLeave = 1)] = "ButtonLeave"),
-          (e[(e.Snap = 2)] = "Snap"),
-          (e[(e.Sliding = 3)] = "Sliding"),
-          (e[(e.SlidingEdge = 4)] = "SlidingEdge");
-      })(i || (i = {}));
-      const s = Object.values(i).filter((e) => "number" == typeof e);
-      function r(e, t) {
+      n.d(t, { L: () => r });
+      var i = n(1569);
+      const o = Object.values(i.sH).filter((e) => "number" == typeof e);
+      function s(e, t) {
         return new Set([...e, ...t]);
       }
-      class a {
+      class r {
         constructor() {
           this.m_mapSuppressedHaptics = new Map();
         }
         static get Instance() {
-          return a.s_Instance || (a.s_Instance = new a()), a.s_Instance;
+          return r.s_Instance || (r.s_Instance = new r()), r.s_Instance;
         }
         suppressHaptics(e, t) {
           const n = new Set(t);
           this.m_mapSuppressedHaptics.has(e)
             ? this.m_mapSuppressedHaptics.set(
                 e,
-                r(this.m_mapSuppressedHaptics.get(e), n),
+                s(this.m_mapSuppressedHaptics.get(e), n),
               )
             : this.m_mapSuppressedHaptics.set(e, n);
         }
         suppressHapticsExcept(e, t) {
           const n = new Set(t),
-            i = new Set(s.filter((e) => !n.has(e)));
+            i = new Set(o.filter((e) => !n.has(e)));
           this.m_mapSuppressedHaptics.has(e)
             ? this.m_mapSuppressedHaptics.set(
                 e,
-                r(this.m_mapSuppressedHaptics.get(e), i),
+                s(this.m_mapSuppressedHaptics.get(e), i),
               )
             : this.m_mapSuppressedHaptics.set(e, i);
         }
@@ -9699,43 +9730,17 @@
           );
         }
         triggerHaptic(e) {
-          if ((0, o.Op)() != o.qA.Overlay || this.isHapticSuppressed(e)) return;
-          if (e == i.ButtonLeave) return;
-          let t = 0,
-            n = 0,
-            s = 0;
-          switch (e) {
-            case i.ButtonEnter:
-              (t = 0), (n = 1), (s = 0.16);
-              break;
-            case i.Snap:
-              (t = 0), (n = 1), (s = 0.2);
-              break;
-            case i.Sliding:
-              (t = 0), (n = 1), (s = 0.08);
-              break;
-            case i.SlidingEdge:
-              (t = 0), (n = 1), (s = 1.8);
-          }
-          "Oculus Rift CV1" ==
-            (null === VRHTML || void 0 === VRHTML
-              ? void 0
-              : VRHTML.VRProperties.GetStringProperty(
-                  "/user/head",
-                  o.Uk.ModelNumber_String,
-                )) && (s *= 1.8),
-            s > 0 &&
-              (null === VRHTML ||
-                void 0 === VRHTML ||
-                VRHTML.VROverlay.TriggerLaserMouseHapticVibration(
-                  VRHTML.VROverlay.ThisOverlayHandle(),
-                  t,
-                  n,
-                  s,
-                ));
+          (0, i.Op)() != i.qA.Overlay ||
+            this.isHapticSuppressed(e) ||
+            null === VRHTML ||
+            void 0 === VRHTML ||
+            VRHTML.VROverlay.TriggerOverlayHapticEffect(
+              VRHTML.VROverlay.ThisOverlayHandle(),
+              e,
+            );
         }
       }
-      a.s_Instance = null;
+      r.s_Instance = null;
     },
     3161: (e, t, n) => {
       "use strict";
@@ -9937,7 +9942,7 @@
         componentDidUpdate(e, t) {
           this.state.bAtEdge &&
             !1 === t.bAtEdge &&
-            c.LJ.Instance.triggerHaptic(c.Kf.SlidingEdge);
+            c.L.Instance.triggerHaptic(l.sH.SlidingEdge);
         }
         onWindowMouseMove(e) {
           this.updateMouseTracking({ x: e.clientX, y: e.clientY });
@@ -10320,7 +10325,7 @@
               this.onWindowMouseUp,
             ),
             window.cancelAnimationFrame(this.m_nAnimationFrameCallback),
-            g.LJ.Instance.unsuppressHaptics(this),
+            g.L.Instance.unsuppressHaptics(this),
             S.P.unsuppressScrolling(this.m_sScrollSuppressedIdentifier);
         }
         get sliderHandleElement() {
@@ -10356,7 +10361,7 @@
             n.call(t, e),
             (0, d.Op)() != d.qA.Overlay ||
               this.state.m_bSliding ||
-              g.LJ.Instance.triggerHaptic(g.Kf.ButtonEnter);
+              g.L.Instance.triggerHaptic(d.sH.ButtonEnter);
         }
         onSliderMouseLeave(e) {
           var t, n;
@@ -10365,7 +10370,7 @@
             n.call(t, e),
             (0, d.Op)() != d.qA.Overlay ||
               this.state.m_bSliding ||
-              g.LJ.Instance.triggerHaptic(g.Kf.ButtonLeave);
+              g.L.Instance.triggerHaptic(d.sH.ButtonLeave);
         }
         getNormalizedValueForMousePosition(e) {
           const t = this.m_refSlider.current.getBoundingClientRect(),
@@ -10396,7 +10401,7 @@
                 ),
               null === s ||
                 this.m_setDetentsToIgnore.has(s) ||
-                g.LJ.Instance.triggerHaptic(g.Kf.Snap)),
+                g.L.Instance.triggerHaptic(d.sH.Snap)),
             (this.m_nCurrentNearestSnappableDetent = s),
             this.setNormalizedValue(o);
         }
@@ -10427,10 +10432,10 @@
           this.setState({ m_bSliding: !0 }),
             this.updateValueForMousePosition(o, !0),
             this.setDragElapsedSecondsCSSProperty(0),
-            g.LJ.Instance.suppressHapticsExcept(this, [
-              g.Kf.Sliding,
-              g.Kf.SlidingEdge,
-              g.Kf.Snap,
+            g.L.Instance.suppressHapticsExcept(this, [
+              d.sH.Sliding,
+              d.sH.SlidingEdge,
+              d.sH.Snap,
             ]),
             (this.m_dragStartTime = new Date()),
             (this.m_nAnimationFrameCallback = window.requestAnimationFrame(
@@ -10454,7 +10459,7 @@
             window.cancelAnimationFrame(this.m_nAnimationFrameCallback),
             this.setDragElapsedSecondsCSSProperty(0),
             this.m_setDetentsToIgnore.clear(),
-            g.LJ.Instance.unsuppressHaptics(this),
+            g.L.Instance.unsuppressHaptics(this),
             null === (t = (e = this.props).onInteractionEnd) ||
               void 0 === t ||
               t.call(e),
@@ -10555,12 +10560,12 @@
               o = Math.abs(i - n) < 1e-5 ? 1 : 1 - (1 % n);
             (0 == e || Math.abs(e - o) < 0.001) &&
               !t &&
-              (g.LJ.Instance.triggerHaptic(g.Kf.SlidingEdge), (t = !0)),
+              (g.L.Instance.triggerHaptic(d.sH.SlidingEdge), (t = !0)),
               !this.shouldTriggerHapticOnSnap ||
                 this.isSnappedToDetent ||
                 (0, d.Op)() != d.qA.Overlay ||
                 t ||
-                (g.LJ.Instance.triggerHaptic(g.Kf.Snap), (t = !0));
+                (g.L.Instance.triggerHaptic(d.sH.Snap), (t = !0));
           }
           if (
             !this.shouldTriggerHapticOnSnap &&
@@ -10572,11 +10577,11 @@
               i > 0 &&
               i < 1 &&
               !t &&
-              (g.LJ.Instance.triggerHaptic(g.Kf.SlidingEdge), (t = !0));
+              (g.L.Instance.triggerHaptic(d.sH.SlidingEdge), (t = !0));
             const n = 40;
             Math.floor(i * n) == Math.floor(e * n) ||
               t ||
-              (g.LJ.Instance.triggerHaptic(g.Kf.Sliding), (t = !0));
+              (g.L.Instance.triggerHaptic(d.sH.Sliding), (t = !0));
           }
           const o = this.normalizedToExternal(e);
           this.props.onChange && this.props.onChange(o);
@@ -11107,54 +11112,56 @@
       "use strict";
       n.d(t, {
         A4: () => v,
-        Av: () => Z,
+        Av: () => J,
         Az: () => _,
-        BW: () => W,
-        EL: () => B,
-        Ek: () => X,
-        FM: () => j,
+        BW: () => K,
+        EL: () => H,
+        Ek: () => Z,
+        FM: () => Y,
         GN: () => S,
-        Gl: () => L,
         MI: () => a,
         MZ: () => g,
-        Ml: () => Q,
+        Ml: () => $,
         O5: () => l,
         PF: () => u,
-        Pt: () => M,
+        Pt: () => T,
         Pv: () => o,
-        RD: () => O,
-        RM: () => b,
-        T2: () => f,
+        Qg: () => V,
+        RD: () => G,
+        RM: () => E,
+        T2: () => y,
+        Tn: () => w,
         Us: () => p,
         Vq: () => m,
         W4: () => s,
-        WR: () => R,
-        Xl: () => y,
-        Y8: () => C,
-        aT: () => P,
-        bp: () => x,
-        bt: () => I,
-        eW: () => V,
-        f8: () => w,
-        fY: () => G,
-        fj: () => z,
+        WR: () => I,
+        Xl: () => M,
+        Y8: () => f,
+        aT: () => O,
+        bp: () => N,
+        bt: () => D,
+        eW: () => B,
+        f8: () => L,
+        fY: () => U,
+        fj: () => Q,
         gB: () => d,
+        gC: () => C,
         hK: () => i,
         jW: () => r,
-        je: () => T,
-        k_: () => q,
-        m3: () => A,
-        ml: () => k,
-        nf: () => N,
-        o1: () => U,
-        oh: () => D,
+        je: () => P,
+        jw: () => k,
+        k_: () => j,
+        ml: () => R,
+        nf: () => W,
+        o1: () => q,
+        oh: () => x,
         r4: () => h,
-        t3: () => E,
-        u3: () => J,
+        rl: () => A,
+        v2: () => b,
         wB: () => c,
-        y3: () => F,
-        yQ: () => K,
-        zL: () => H,
+        y3: () => X,
+        yQ: () => z,
+        zL: () => F,
       });
       const i = "openvr.tool.steamvr_environments",
         o = "system.generated.steam.exe",
@@ -11172,39 +11179,41 @@
         S = "system.standalone",
         _ = "system.systemui",
         v = "system.settings",
-        C = g + ".bigpicture",
-        f = "valve.steam.gamepadui.main",
-        y = g + ".desktop",
-        b = "system.vrwebhelper.controllerbinding",
-        w = "system.messageoverlay",
-        A = "system.portalmanager",
-        k = "DashboardCurvatureOrigin",
-        M = _ + "::" + k,
-        E = "DashboardPanelTopCenter",
-        L = "DashboardPanelBottomCenter",
-        R = "DashboardControlStrip",
-        T = "/settings/steamvr/enableHomeApp",
-        I = "/settings/steamvr/supersampleManualOverride",
-        V = "/settings/steamvr/supersampleScale",
-        P = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
-        D = "/settings/camera/roomViewStyle",
-        B = "/settings/steamvr/backgroundCameraHeight",
-        O = "/settings/steamvr/backgroundDomeRadius",
-        x = "/settings/steamvr/analogGain",
-        H = "/settings/driver_lighthouse/indexHmdColumnCorrection",
-        G = "/settings/steamvr/showAdvancedSettings",
-        N = "/settings/dashboard/lastAccessedExternalOverlayKey",
-        F = "/settings/internal/dashboardInitialOverlay",
-        U = "/settings/dashboard/position_2",
-        W = "/settings/dashboard/disableAnimations",
-        X = "/settings/steamvr/overlayRenderQuality_2",
-        K = "/settings/collisionBounds/CollisionBoundsFadeDistance",
-        q = "/settings/camera/roomView",
-        Z = "/settings/camera/enableCamera",
-        z = "/settings/dashboard/enableWindowView",
-        j = "/settings/dashboard/maxInlineTabs",
-        J = "/settings/dashboard/allowPassthroughPortalManager",
-        Q = "binding_callouts/main";
+        C = "system.keyboard",
+        f = g + ".bigpicture",
+        y = "valve.steam.gamepadui.main",
+        b = "valve.steam.gamepadui.mainmenu",
+        w = "valve.steam.gamepadui.quickaccessmenu",
+        A = "valve.steam.gamepadui.header",
+        k = "valve.steam.gamepadui.keyboard",
+        M = g + ".desktop",
+        E = "system.vrwebhelper.controllerbinding",
+        L = "system.messageoverlay",
+        R = "DashboardCurvatureOrigin",
+        T = _ + "::" + R,
+        I = "DashboardControlStrip",
+        V = "DashboardControlStripTransform",
+        P = "/settings/steamvr/enableHomeApp",
+        D = "/settings/steamvr/supersampleManualOverride",
+        B = "/settings/steamvr/supersampleScale",
+        O = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
+        x = "/settings/camera/roomViewStyle",
+        H = "/settings/steamvr/backgroundCameraHeight",
+        G = "/settings/steamvr/backgroundDomeRadius",
+        N = "/settings/steamvr/analogGain",
+        F = "/settings/driver_lighthouse/indexHmdColumnCorrection",
+        U = "/settings/steamvr/showAdvancedSettings",
+        W = "/settings/dashboard/lastAccessedExternalOverlayKey",
+        X = "/settings/internal/dashboardInitialOverlay",
+        q = "/settings/dashboard/position_2",
+        K = "/settings/dashboard/disableAnimations",
+        Z = "/settings/steamvr/overlayRenderQuality_2",
+        z = "/settings/collisionBounds/CollisionBoundsFadeDistance",
+        j = "/settings/camera/roomView",
+        J = "/settings/camera/enableCamera",
+        Q = "/settings/dashboard/enableWindowView",
+        Y = "/settings/dashboard/maxInlineTabs",
+        $ = "binding_callouts/main";
     },
     5211: (e, t, n) => {
       "use strict";
@@ -13424,6 +13433,9 @@
             "legacy" == this.m_SelectedAppActions.category
           );
         }
+        get SelectedBindingIsOpenXR() {
+          return "openxr" == this.m_SelectedAppActions.category;
+        }
         get IsSecondaryController() {
           if (!this.m_sSelectedControllerType) return !1;
           let e = g.I.FindRootPathForControllerType(
@@ -14167,6 +14179,7 @@
         (0, r.gn)([u.Fl], T.prototype, "SelectedBindingURL", null),
         (0, r.gn)([u.Fl], T.prototype, "LoadedBindingURL", null),
         (0, r.gn)([u.Fl], T.prototype, "SelectedBindingIsLegacy", null),
+        (0, r.gn)([u.Fl], T.prototype, "SelectedBindingIsOpenXR", null),
         (0, r.gn)([u.Fl], T.prototype, "IsSecondaryController", null),
         (0, r.gn)([u.Fl], T.prototype, "TrackerBindings", null),
         (0, r.gn)([u.aD], T.prototype, "GetTrackerBindings", null),
@@ -15092,7 +15105,7 @@
         s = n(7056),
         r = n(7176),
         a = n(1628),
-        l = n(1125);
+        l = n(5365);
       class c {
         constructor() {
           var e;
@@ -15449,19 +15462,21 @@
     8980: (e, t, n) => {
       "use strict";
       n.d(t, {
-        Fc: () => c,
-        LJ: () => u,
-        cB: () => p,
-        gZ: () => d,
-        kB: () => h,
+        Fc: () => u,
+        LJ: () => d,
+        aB: () => g,
+        cB: () => h,
+        gZ: () => p,
+        kB: () => m,
       });
       var i = n(655),
-        o = (n(7294), n(7056)),
-        s = n(2188),
-        r = n(1628),
-        a = n(7176),
-        l = n(1569);
-      function c(e) {
+        o = n(7294),
+        s = n(7056),
+        r = n(2188),
+        a = n(1628),
+        l = n(7176),
+        c = n(1569);
+      function u(e) {
         let t = window.location.search.substring(1).split("&");
         for (let n = 0; n < t.length; n++) {
           let i = t[n].split("=");
@@ -15470,19 +15485,19 @@
         }
         return "";
       }
-      function u(...e) {
+      function d(...e) {
         return e
           .filter((e) => null != e && ("string" == typeof e || e[1]))
           .map((e) => ("string" == typeof e ? e : e[0]))
           .join(" ");
       }
-      function d(e, t) {
+      function p(e, t) {
         let n = t;
         for (; n.parentElement && !e.some((e) => n.matches(e)); )
           n = n.parentElement;
         return n;
       }
-      class p {
+      class h {
         constructor() {
           (this.onScroll = null),
             (this.onScrollStop = null),
@@ -15544,12 +15559,12 @@
             (this.m_bScrolling = !1);
         }
       }
-      (0, i.gn)([s.LO], p.prototype, "m_bScrolling", void 0),
-        (0, i.gn)([o.ZP], p.prototype, "ref", null),
-        (0, i.gn)([s.Fl], p.prototype, "isScrolling", null),
-        (0, i.gn)([o.ZP], p.prototype, "onParentScroll", null),
-        (0, i.gn)([o.ZP], p.prototype, "onScrollStopTimeout", null);
-      class h {
+      (0, i.gn)([r.LO], h.prototype, "m_bScrolling", void 0),
+        (0, i.gn)([s.ZP], h.prototype, "ref", null),
+        (0, i.gn)([r.Fl], h.prototype, "isScrolling", null),
+        (0, i.gn)([s.ZP], h.prototype, "onParentScroll", null),
+        (0, i.gn)([s.ZP], h.prototype, "onScrollStopTimeout", null);
+      class m {
         constructor() {
           (this.m_settingsSchemaPromiseCancel = null),
             (this.m_autorunDisposer = null),
@@ -15567,19 +15582,19 @@
                 }),
                 () => (t = !0),
               ];
-            })(r.G3.AwaitInitialSettingsSchema());
+            })(a.G3.AwaitInitialSettingsSchema());
             (this.m_settingsSchemaPromiseCancel = t),
               yield e,
-              (this.m_autorunDisposer = (0, s.EH)(this.updateFidelity));
+              (this.m_autorunDisposer = (0, r.EH)(this.updateFidelity));
           });
         }
         updateFidelity() {
           var e, t;
           let n =
-            null !== (e = r.G3.settings.get(a.Ek)) && void 0 !== e
+            null !== (e = a.G3.settings.get(l.Ek)) && void 0 !== e
               ? e
-              : l.LL.Auto;
-          n == l.LL.Auto &&
+              : c.LL.Auto;
+          n == c.LL.Auto &&
             (n =
               null !==
                 (t =
@@ -15588,13 +15603,13 @@
                     : VRHTML.GetRecommendedOverlayRenderQuality()) &&
               void 0 !== t
                 ? t
-                : l.LL.High),
-            (0, l.Op)() == l.qA.Overlay && n != l.LL.High
+                : c.LL.High),
+            (0, c.Op)() == c.qA.Overlay && n != c.LL.High
               ? document.documentElement.classList.add(
-                  h.AnimationsDisabledClass,
+                  m.AnimationsDisabledClass,
                 )
               : document.documentElement.classList.remove(
-                  h.AnimationsDisabledClass,
+                  m.AnimationsDisabledClass,
                 );
         }
         cleanup() {
@@ -15608,12 +15623,33 @@
               t.call(this),
             (this.m_autorunDisposer = null),
             document.documentElement.classList.remove(
-              h.AnimationsDisabledClass,
+              m.AnimationsDisabledClass,
             );
         }
       }
-      (h.AnimationsDisabledClass = "NoAnimations"),
-        (0, i.gn)([o.ZP], h.prototype, "updateFidelity", null);
+      function g() {
+        const [e, t] = o.useState(null),
+          n = o.useCallback(() => {
+            t(
+              null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.VRDashboardManager.GetKeyboardInputInfo(),
+            );
+          }, []);
+        return (
+          o.useEffect(n, []),
+          o.useEffect(() => {
+            const e =
+              null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.RegisterForKeyboardVisibilityChangedEvents(() => n());
+            return () => (null == e ? void 0 : e.unregister());
+          }, [n]),
+          e
+        );
+      }
+      (m.AnimationsDisabledClass = "NoAnimations"),
+        (0, i.gn)([s.ZP], m.prototype, "updateFidelity", null);
     },
     9942: (e, t, n) => {
       "use strict";
@@ -16205,7 +16241,7 @@
         r = n.n(s),
         a = n(2188),
         l = n(1569),
-        c = n(1125),
+        c = n(5365),
         u = n(7176);
       const d = 16,
         p = 0.2,
@@ -16670,6 +16706,20 @@
             });
           });
         }
+        GetAppInfo(e) {
+          return (0, i.mG)(this, void 0, void 0, function* () {
+            return new Promise(function (t, n) {
+              r()
+                .get("/app/getinfo", { params: { app: e } })
+                .then((e) => {
+                  t(e.data);
+                })
+                .catch((e) => {
+                  n(null);
+                });
+            });
+          });
+        }
         get NumSupersamplingSteps() {
           return Math.floor((h - p + 0.5 * m) / m);
         }
@@ -16944,4 +16994,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=7198edcf3d923d6df82e
+//# sourceMappingURL=vrwebui_shared.js.map?v=c7677d503dd071f03281

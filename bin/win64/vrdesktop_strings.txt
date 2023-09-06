@@ -20,7 +20,6 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
-'eVO<
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -28,19 +27,21 @@
 (D$ f
 (f*^[0
 (t$ 2
+(t$ H
 (t$@H
 (|$ H
 )D$ L
+)t$ H
 )t$0H
 )t$@H
 *uXI;
-+4+j$
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
 -1e+9999
 -Infinity
+-p^@i
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -73,6 +74,7 @@
 .?AVCVRDesktop@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
+.?AVCViewBase@@
 .?AVException@Json@@
 .?AVIVRDesktop@@
 .?AVLogicError@Json@@
@@ -128,7 +130,6 @@
 .text$yd
 .tls$
 .tls$ZZZ
-.u3l6]
 .xdata
 .xdata$x
 /user/ankle/left
@@ -164,15 +165,15 @@
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727204303Z0/
+230714000000Z
+230831184557Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -188,9 +189,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-9>=v/
 < t+<
-<*J=)
 </u#H
 <0:08
 <unknown>
@@ -316,7 +315,6 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
-CT$ H
 CT$(L
 CT$8D
 CT$pH
@@ -342,8 +340,8 @@ Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
 C|$PL
-D	d$DI
-D	l$D
+D	d$LI
+D	l$L
 D$ A;
 D$ E3
 D$ H;
@@ -352,8 +350,8 @@ D$(I;
 D$0E3
 D$0H+
 D$0fD
-D$8A+
-D$8E+
+D$@A+
+D$@E+
 D$@E3
 D$PM;
 D$`H;
@@ -382,11 +380,11 @@ Destroying overlay for desktop %d.
 Destroying pointer overlay for desktop.
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
@@ -466,6 +464,7 @@ H+SpI
 H+WpA
 H+WpH
 H+WpI
+H-^Eu
 H93t	H
 H9Ahs
 H9D$@u
@@ -478,7 +477,6 @@ H;}PtwH
 HMD D3D11CreateDevice failed.
 HandleInput
 Handling keyboard char input
-Handling keyboard closed
 Handling lock mouse
 Handling mouse button down
 Handling mouse button up
@@ -540,7 +538,6 @@ Initializing output duplication for desktop view %d.
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jg9 rR
 K32GetModuleFileNameExW
 KERNEL32.dll
 K}*n:	
@@ -567,7 +564,6 @@ L;8u6H
 L?n(Zy&
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-Lh{%8
 Line %d, Column %d
 LoadCursorA
 LoadLibraryA
@@ -601,7 +597,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSv5<
+RSDST
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -664,7 +660,6 @@ Unable to compute virtual coords or normalized coords...
 Unable to get normalized coords from virtual coords for locked mouse position.
 Unable to interact with foreground window. Displaying window switcher.
 Unable to open desktopview mailbox.
-Unable to send keyboard closed to the dashboard UI.
 UnhandledExceptionFilter
 Unknown cursor type %d
 Unknown exception
@@ -690,7 +685,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 W H+W
-W'W}-
 WATAUAVAWH
 WAVAWH
 WaitForSingleObject
@@ -760,6 +754,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 `A_A^A]A\_^]
+a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-crt-convert-l1-1-0.dll
@@ -780,12 +775,12 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cU	F9
 cs_cs
 czech
 d$`H=
 d$`L;
 d$`M;
+d1=A{
 d3d11.dll
 da_da
 danish
@@ -804,6 +799,7 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 fD9&u
 fF94@u
 false
+fe-^M
 fffffff
 fi_fi
 finnish
@@ -846,6 +842,7 @@ l$ H;
 l$ H=
 l$8E3
 l$PM9n
+l2|X/gGe
 latam
 list<T> too long
 m0k0$
@@ -864,7 +861,6 @@ norwegian
 ntelD
 ole32.dll
 openvr_api.dll
-overlay_keyboard_closed
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
@@ -884,6 +880,7 @@ russian
 schinese
 shcore.dll
 shutdown
+sp)8<
 spanish
 startup
 string too long
@@ -895,7 +892,6 @@ swedish
 system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
-systemui_dashboard
 t$ AVH
 t$ AWH
 t$ E3
@@ -944,6 +940,7 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
+zmII&
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

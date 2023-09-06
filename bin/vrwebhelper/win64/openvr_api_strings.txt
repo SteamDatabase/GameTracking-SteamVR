@@ -9,7 +9,7 @@
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  %41g
  'L>[
  A9_ w
@@ -33,7 +33,7 @@
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- D;5:
+ D;=x
  D;j0u
  H3E H3E
  Type Descriptor'
@@ -72,7 +72,7 @@ $iMBm
 %m / %d / %y
 &<	x4;O
 &?PPPPPPP?
-&j}wW
+&YKpf
 &uo r
 ' is not a number.
 ',=?k
@@ -126,7 +126,6 @@ $iMBm
 ,0<	w
 ,HR>O
 ,I<%w
-,KuXt
 ,W5y+
 ,t0D9J0v*L
 ,zeDo
@@ -138,6 +137,7 @@ $iMBm
 -Infinity
 -\!]N=
 -uKI;
+.	sRRO
 ..om?
 .00cfg
 .3=}%
@@ -400,7 +400,6 @@ $iMBm
 0A__^
 0A__^[]
 0X8b?~
-0Y]!o
 0iN>/
 0w0c1
 0}0i1
@@ -416,15 +415,16 @@ $iMBm
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202845Z0/
+230714000000Z
+230831183329Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2u\<L
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -481,6 +481,7 @@ $iMBm
 9_P~+E3
 9_P~,E3
 9_P~OE3
+9`& 8
 9u@u	H
 9{D~H3
 : exception thrown in JSON library
@@ -502,11 +503,9 @@ $iMBm
 ;H9>&X
 ;I9}(tiH
 ;\$p|
-;pG	=]
 <	w	@
 < t;<	t7
 <%ufH
-<*J=)
 </u#H
 <0:08
 <:u/H
@@ -531,7 +530,6 @@ $iMBm
 ?7{KV
 ?8bunz8
 ?:kP<
-???????????????????????????????????????????????????????????????????????????????????????????????????
 ?@En[vP
 ?Cu0f9w
 ?D8d$@
@@ -574,7 +572,6 @@ $iMBm
 @A_A^_^]
 @HcC(H
 @LcqHD
-@N<j%
 @SAUAVAWH
 @SAVAWH
 @SUVWATAUAVAWH
@@ -603,6 +600,7 @@ $iMBm
 @VWAVH
 @b;zO]
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A$+A,t\3
 A(9B(D
 A+B$+
@@ -626,6 +624,7 @@ A>l$/
 A>pP&
 AA,A$
 AA<Fu
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AK>(v
 ATAUAVH
@@ -869,11 +868,11 @@ Device Calibration is invalid (207)
 Device is not calibrated (206)
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 Dl$8E
 Driver Failed (200)
 Driver Not Known (201)
@@ -1016,20 +1015,21 @@ H+WpA
 H+WpH
 H+\$0H
 H+|$8
+H-^Eu
 H3\$HH
 H97uWH
 H98t%H
 H99u{
-H9='G	
-H9=+T	
-H9=?N	
-H9=CV	
-H9=C[	
-H9=OS	
-H9=S[	
-H9=W\	
-H9=cJ	
-H9=sC	
+H9=#J	
+H9=3C	
+H9=GI	
+H9=KV	
+H9=OW	
+H9=WB	
+H9=cE	
+H9=oU	
+H9={@	
+H9={O	
 H9A u
 H9Ahs
 H9D$@u
@@ -1207,7 +1207,8 @@ L(;E:
 L(<A:
 L+t$0
 L9"u&
-L9-O{
+L9-[{
+L9-q~
 L9L$(D
 L9`8u'L
 L9l$0
@@ -1245,7 +1246,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 LrvD)O
 M H1E
-M(f95x
+M(f958
 M98u/
 MB(iVR
 MM/dd/yy
@@ -1295,7 +1296,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDSD
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1385,6 +1385,7 @@ T$pkD$x<
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
+The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
 Thursday
@@ -1433,7 +1434,6 @@ UnregisterWaitEx
 UpdateProcThreadAttribute
 User Canceled Init (116)
 User Config Directory Invalid (107)
-V6B"^y
 V6E>`"(5
 VATAVH
 VD$Pf
@@ -1457,6 +1457,8 @@ VR system shutting down (119)
 VRClientCoreFactory
 VRControlPanel
 VRHeadsetView
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
 VRInitError_Compositor_CreateBackbufferDepth
@@ -1530,6 +1532,7 @@ VRInitError_Compositor_FailedToGetDXGIDeviceInterface
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
 VRInitError_Compositor_InvalidAdapterDesktop
 VRInitError_Compositor_InvalidDeviceProvided
 VRInitError_Compositor_InvalidHmdAttachment
@@ -1699,7 +1702,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-VeP)" 
 VirtualAlloc
 VirtualFree
 VirtualProtect
@@ -1816,6 +1818,7 @@ _oD>Kg
 `A^_^
 `A_A^A]A\_^]
 `A_A^_^[
+`Ed.au3
 `F8bI<bH;^C6H)
 `RTTI
 ``````````````````````````````````````````````````````````````````````````````````````````````````
@@ -1855,6 +1858,7 @@ _oD>Kg
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a7hIw
 a8&Y.
 abcdefghijklmnopqrstuvwxyz
 additional six characters expected to parse unicode surrogate pair.
@@ -1892,7 +1896,6 @@ c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
-cU	F9
 ceLfdfK3
 cg+tY
 collectComments
@@ -2047,7 +2050,6 @@ jj@0HK4
 k0i0$
 kB0[/
 kC2\/
-kOnW!}
 kXL9sHu
 keylength >= 2^30
 l$ E3
@@ -2074,10 +2076,10 @@ l$`E;
 l$xM+
 l*$D+l*,tDD+l*(
 l*JHD
+l2|X/gGe
 ldexp
 log10
 lq%&1T
-m	gk1
 m0k0$
 map/set<T> too long
 message size

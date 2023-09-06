@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Venter på trådløs forbindelse"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR venter på, at der tilsluttes et trådløst headset..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Kunne ikke forbinde til headsetskærm"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Headsettet er muligvis ikke tilsluttet, eller skrivebordet understøtter ikke VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Genstart SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Mere info"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Kunne ikke lease skærm"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Dit skrivebordsmiljø (GNOME Wayland) understøtter ikke Direct Rendering Manager-leases, som kræves til virtual reality."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Mere info"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Kunne ikke forbinde til vindueshåndtering"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR kunne ikke forbinde til vindueshåndteringen. Du skal genstarte din session eller SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Genstart SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Opdatering til grafikdriver"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Du skal opdatere din computers grafikdriver eller slå hardwareaccelereret GPU-planlægning til."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Flere oplysninger"
@@ -752,7 +769,7 @@
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-opdatering"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR er blevet opdateret til version %2."
-"Warning_DismissableWarning_SteamVRUpdated_Action" "Se, hvad der er blevet ændret"
+"Warning_DismissableWarning_SteamVRUpdated_Action" "Se ændringer"
 "Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
 
 "Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Enhedsoplysninger"

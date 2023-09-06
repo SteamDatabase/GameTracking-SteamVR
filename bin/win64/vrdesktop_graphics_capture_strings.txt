@@ -16,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$-1_9
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -28,9 +27,11 @@ $-1_9
 (D$ f
 (f*^[0
 (t$ 2
+(t$ H
 (t$@H
 (|$ H
 )D$ L
+)t$ H
 )t$0H
 )t$@H
 *uXI;
@@ -87,6 +88,7 @@ $-1_9
 .?AVCVRDesktop@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
+.?AVCViewBase@@
 .?AVCWindowView@@
 .?AVException@Json@@
 .?AVIVRDesktop@@
@@ -178,15 +180,15 @@ $-1_9
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727204314Z0/
+230714000000Z
+230831184608Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -205,12 +207,10 @@ $-1_9
 9D$xu
 9D$|toH
 < t+<
-<*J=)
 </u#H
 <0:08
 <unknown>
 =rIQU
->'\Y-
 >0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -305,7 +305,6 @@ A^A\^
 A^A\^[]
 A^A]A\^]
 A^A]A\_^[]
-A^\7&9
 A^_^[]
 A_A\_^[
 A_A\_^]
@@ -341,7 +340,6 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
-CT$ H
 CT$(L
 CT$0H
 CT$0I
@@ -375,8 +373,8 @@ Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
 C|$PL
-D	d$DH
-D	l$DA
+D	d$LA
+D	l$LH
 D$ A;
 D$ E3
 D$ H;
@@ -387,8 +385,8 @@ D$0E3
 D$0H+
 D$0L#
 D$0fD
-D$8A+
-D$8E+
+D$@A+
+D$@E+
 D$@E3
 D$EL;
 D$EM+
@@ -421,11 +419,11 @@ Destroying overlay for window %s.
 Destroying pointer overlay for desktop.
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
@@ -526,6 +524,7 @@ H+SpI
 H+WpA
 H+WpH
 H+WpI
+H-^Eu
 H93t	H
 H9Ahs
 H9D$@u
@@ -542,7 +541,6 @@ HMD context (%s)
 HMD device (%s)
 HandleInput
 Handling keyboard char input
-Handling keyboard closed
 Handling lock mouse
 Handling mouse button down
 Handling mouse button up
@@ -651,7 +649,6 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-Mz.F^
 NPH9Q
 OLEAUT32.dll
 OpenProcess
@@ -668,6 +665,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS?I
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -748,7 +746,6 @@ Unable to get overlay mouse scale.
 Unable to interact with foreground window. Displaying window switcher.
 Unable to open desktopview mailbox.
 Unable to send debug info to the dashboard UI.
-Unable to send keyboard closed to the dashboard UI.
 Unable to send updated window list to the dashboard UI.
 Unable to send window view created message to the dashboard UI.
 Unable to send window view destroyed message to the dashboard UI.
@@ -860,6 +857,7 @@ _seh_filter_dll
 `.rdata
 `A_A^A]A\_^[
 `A_A^A]A\_^]
+a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -896,12 +894,10 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cU	F9
 cs_cs
 czech
 d$`H=
 d$`L;
-d$`M;
 d3d11.dll
 da_da
 danish
@@ -928,7 +924,6 @@ finnish
 fr_fr
 frame_time
 french
-g,/\< 
 german
 gfffffffH
 gfffffffI
@@ -959,11 +954,11 @@ invalid string position
 iswspace
 it_it
 italian
+j&Lz1>
 ja_jp
 japanese
 jj@0HK4
 k0i0$
-kH@w	*X$t
 kernel32.dll
 ko_ko
 korean
@@ -971,6 +966,8 @@ l$ H;
 l$ H=
 l$8E3
 l$PM9n
+l$`M;
+l2|X/gGe
 latam
 list<T> too long
 m0k0$
@@ -984,17 +981,13 @@ memcpy
 memmove
 memset
 message_id
-nSv\)a
 no_no
 norwegian
 ntelD
-o<4.l
-o?)5]
 ole32.dll
 openvr_api.dll
 overlay_frame_times
 overlay_key
-overlay_keyboard_closed
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
@@ -1052,6 +1045,7 @@ title
 tolower
 tr_tr
 turkish
+u!}Ls
 ua_ua
 ukranian
 update_debug_info

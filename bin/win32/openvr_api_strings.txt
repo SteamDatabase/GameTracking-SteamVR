@@ -3,14 +3,13 @@
 												
 																																												
 	!s99
-	0#03090?0K0X0
 	w{PW
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  %41g
  Base Class Array'
  Base Class Descriptor at (
@@ -29,8 +28,6 @@
 #.X'=
 #9Npt
 #])#	
-$0H0Q1u1
-$2/343G9
 $C#9$"
 $PjQW
 $_^[]
@@ -45,6 +42,7 @@ $iMBm
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+&+Lvj
 &<	x4;O
 &?~YK|
 &uo r
@@ -58,15 +56,14 @@ $iMBm
 (null)
 (uEKw
 )-M-=
-)0?0`0
-*020i0p0
+*6.62666
 *PjTW
 +A Vj$
 +A$+Y
 +A$tU3
 +A$tp
 +AHVj(
-+O@h(
++O@hX
 +PjUW
 +S@H#
 +Xt@(
@@ -323,508 +320,544 @@ $iMBm
 /user/wrist/left
 /user/wrist/right
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-0 0$0(000H0X0\0l0p0x0
+0 0$0(0<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0
 0 0(00080@0H0P0X0`0h0p0x0
-0 0,080D0P0\0h0t0
-0 0@0`0
-0!060\0t0}0
-0!0A0G0M0S0Y0_0f0m0t0{0
-0#0'0+0/030
-0#0)0.050E0S0d0|0
-0$0(0,00040<0T0d0h0x0|0
+0"0.0E0
+0"0A0[0i0
+0#0(0-0=0B0G0l0
+0#02080C0R0X0n0}0
+0$0(0,00040
 0$0)0.03080=0B0G0L0Q0V0[0`0e0j0o0t0y0~0
-0$1O1t1
-0(0H0`0
+0$0,040<0D0L0T0\0d0l0t0|0
+0$0<0L0P0`0d0h0p0
+0$0D0P0p0x0
+0%0*070@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0(080<0L0P0T0\0t0
+0(1E1
 0(2,2024282<2@2D2H2L2X2\2`2d2h2l2p2t2x2
-0)060
-0,040<0@0H0\0d0l0t0x0
-0-0<0B0U0g0p0{0
-0.0r0
+0)131
+0*0y0
+0+131k1
+0+1C2y2
+0-1Q1z1
+000@0D0T0X0\0`0d0l0
+000F0O0Z0a0
+000P0p0
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
 0123456789abcdefghijklmnopqrstuvwxyz
-034383
-070E0Q0]0q0
-080D0L0d0l0t0
-080D0L0l0
-080I0^0c0
+030m0
+040@0`0h0t0
+062>4
 080d0
-090j0
-092x2
-0;0G0j0
-0?1D1O1
-0G0_0
-0I1V1
-0J0a0
-0J4d4
-0K0]0p0
-0O1g1
-0R1g1t1
+0:0M0
+0>1Y1
+0C1a1
+0E1V1_1g1}1
+0H0M0\0v0
+0J1U1u1
+0T0^0{0
+0U1q1
+0^0~0
 0^_[]
+0`4d4h4
+0j1|1
 0w0c1
 0}0i1
-1	1]1g1
-1	2 2O2l2
-1	212i2
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-1 1$1(1,10181P1`1d1t1x1|1
-1 1$14181H1L1P1X1p1t1
 1 1%1*1/14191>1C1H1M1R1W1\1a1f1k1p1
 1 1(10181@1H1P1X1`1h1p1x1
-1 1@1H1T1t1
-1 1@1`1
-1!1:1
-1!1<1
+1 1,181D1P1\1h1t1
+1!121G1L1
+1!2.2U2]2v2
+1#1)121t1
+1#2D2
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1)1.1M1
-1$1<1L1P1`1d1h1p1
-1&1<1O1Z1`1m1u1
-1(141@1L1X1d1p1|1
-1(1H1P1X1`1h1p1x1
-1)1:1_1m1z1
-1)2;2x2
-1,1y2
-1,262w2
-1-2G2T2
-1.1E1Z1a1g1y1
-1/1@1b1v1
-1/1J1_1d1n1s1~1
-1/2R2x2
-112A2w6
+1$2W2
+1&2+21262
+1'1r2h4
+1(101<1\1d1l1p1x1
+1(181<1L1P1T1X1`1x1
+1(1E1[1x1
+1*191?1J1Y1_1j1{1
+1+171G1X1n1
+1+1V1y1
+1,101@1D1H1L1P1T1X1`1x1
+1,1<1L1U1
+1-2A2O2
+1-2b2
+1.1e1
+1/2L2t2
+101@1D1T1X1\1`1d1l1
+101P1p1
+122V2t2
 130801120000Z
-131C1W1b1g1l1
-151Z1
-151`1)2[2y2#6
-171o1
-172M2\2v2}2
-181\1
-192v2
-1:1A1
+151D1Z1
+181I1W1n1t1
+181S1n1
+192X2
+1:1R1
 1<1p1
-1?1\1g1
-1@1L1T1l1t1|1
-1B2U2z2
-1D1q1
-1H1N1T1Z1`1f1m1t1{1
-1L2P2T2X2\2`2d2h2l2p2t2x2|2
-1M2k3
+1=3J3W3d3
+1D1Q1d1i1n1
+1D1h1t1|1
+1F2P2m2~2
 1N1h1
-1Z213z3
-1[1d1
-1]1q1v1
+1R1_1
+1S1Y2
+1\2f2n2|2
+1a1i1
 1e+9999
 1eaB@
-1q4~4
-1xM. 
+1v2F3
+2	363K3
+2 2$2(2,2024282<2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2 2$2(2,2024282D2H2L2P2T2X2l2p2t2x2
-2 2$24282<2@2D2L2d2t2x2
-2 2(202
 2 2(20282@2H2P2X2`2h2p2x2
-2 2(242T2\2d2h2p2
 2 2+21272I2X2g2
-2 2,2L2X2x2
-2 242<2D2L2P2T2\2p2
-2 2W2
-2 3C3]3
-2#2K2n2
-2$202<2H2T2`2l2x2
-2$2I2
+2 24282H2L2P2T2X2\2`2h2
+2 242<2D2P2p2x2
+2 2R2p2
+2#2W2
+2#303Q3V3o3t3
+2$2(282<2@2D2H2L2T2l2|2
+2$2,2L2p2|2
+2$2T2
 2$3d3
-2%343W3
-2&2.2<2W2k2
-2&3.363>3~3
-2(2,20242<2T2d2h2x2|2
-2(282<2L2P2X2p2
-2)6.6D6K6Q6V6d6
-2*2;2P2U2
-2,353@3{3
-2-242b2
-2-2j6
+2&262R2
+2&2;2
+2'2.272d3
+2'2<2
+2(242@2L2X2d2p2|2
+2(242X2x2
+2(282<2P2T2d2h2x2|2
+2(2B2
+2)343F3
+2)3F3n3
+2)3^3
+2*2Y2p2
+2*2`2
+2,212X2
+2,2A2M2b2
+2,2i2{2
+202P2p2
 202X2|2
-203b3
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202635Z0/
+230714000000Z
+230831183152Z0/
 241009235959Z0a1
-242<2D2L2T2\2l2
-242B2I2O2t2
-243g3
-263W3
-272=2_2f2
+262X2
 282\2
 283t3
-2>3Z3
-2@3s3
-2C2z2
+292Q2
+2:3V3
+2;2@2H2d2
+2<3V3
+2=<M<
+2>2Y2m2
+2>3E3
+2?2s2
+2C3K3|3
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2E2d2
-2E3e3
-2F2R2^2j2}2
-2K2`2
-2O3Y3v3
-2Z3_3
-2Z3q3
-2]3g3m3L4h4
+2G2a2
+2J3W3
+2K2Z2y2i3
+2N2[2l2
+2P4k4
+2Q3c3u3
+2V3n3
+2`3w3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2i6n6
 2ieO=
+3	434
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-3 3$333H3b3w3
-3 3$34383<3@3D3L3d3t3x3
+3 3(30383@3H3P3X3`3
 3 3(30383@3H3P3X3`3h3p3x3
-3!3_3d3i3n3|3
+3 3(30383@3H3P3\3|3
+3 30343D3H3X3\3`3d3l3
+3 3D3d3l3t3|3
+3"3j3
+3"404G4
 3#3+3
+3#4@4h4
 3$303<3H3T3`3l3x3
-3$4/4
-3$4<4
-3%373I3[3m3
-3%4]4
-3'414L4
-3(3,3034383@3X3h3l3|3
-3(303<3\3d3l3x3
-3(3e3w3
+3$393>3
+3$3l3
+3$909
+3%3/3<3F3S3]3j3t3
+3%4@4O6
+3&343y3
+3&3^3
+3'444@4
 3*494H4
-3+3c3
-3+4t4
-3,303@3D3H3P3h3l3
-3,343<3H3p3
-3,4E4d4~4
-3-3H3S3
-3-4O4
-3/343A3
-3/3[3
-30383n3
-303T3`3h3
+3+4W4
+3+4w4
+3,3034383@3X3h3l3|3
+3,343H3P3d3l3t3|3
+3,3<3@3P3T3d3h3l3p3t3|3
+3.44494Z4
+3/3U3
+303P3X3d3
 311109235959Z0b1
-323?3
-331121235959Z0F1
-343@3`3h3t3
-343e3
-354U4b4%5
+31]'?
+323=3B3G3b3l3
+323s3
+333y3
+334D4~4
+341013235959Z0H1
 360428235959Z0i1
-363S3w3
 370322235959Z0c1
+373V3v3
 380115120000Z0b1
-383C3H3M3h3r3
-383F3R3c3q3|3D4
-384@4H4X4d4l4
-3:4L4p4
-3<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-3B3o3
-3E5v5
-3F495L5x5
-3Q5Y5q5~5
-3R3f3}3
-3U3Z3e3;4
-3[3`3d3h3l3
-3d8l8t8|8
-3h5p5
+384B4_4p4
+3:4w4
+3A4K4^4l4y4
+3F3l3
+3H3u3
+3T4~4
+3T6g6
+3V3h3
+3^4Z6t6
+3h4r4
 3mq+<
-3n3{3
-4	5(5y5
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4$4(4,444L4\4`4p4t4|4
 4 4'4.454<4C4J4Q4X4_4f4m4t4{4
 4 4(40484@4H4P4X4`4h4p4x4
-4 4(4@4P4T4h4l4|4
-4"4G4Q4V4\4c4p4v4
-4$4,444<4D4L4T4\4d4l4t4|4
-4$4D4P4p4|4
-4$4H4\4l4
+4 4(4@4P4T4d4h4l4p4t4|4
+4 545Y5m5
+4#4'4+4/434
+4#4)4/464
+4#5A5
+4$4*404?4K4Q4g4
+4$404<4H4T4`4l4x4
+4$4>4L4f4
+4$5-5J5
 4$5H5
-4$6q6@7
-4&555X5
-4(4,4044484<4@4H4`4p4t4
+4%4*4/4J4T4`4e4j4
+4%4.4
+4&4e4
+4&5;5W5v5
+4&5T5
+4(40484D4d4p4
 4(484P4\4`4d4
-4(52585
-4)474=4N4_4i4t4
-4)515
-4*4"5
-4+4M4]4
-4,494J4i4|4
-4-4B4G4
-4-4B4\4z4
-4/4;4Q4l4x4
-404<4\4d4p4
+4(4:4D4
+4)4h4P7
+4,484@4`4
+4,484X4`4l4
+4,545<5D5L5T5\5d5l5t5|5
+4/4;4
+404<4\4d4l4x4
 404\4|4
-405B5
-424U4x4
-445F5
-454?4K4P4U4s4}4
-465i5
+40585J5W5y5
+405e5
+414=4S4\4e4
+424z4
+444D4H4X4\4`4d4h4p4
+444D4H4\4`4p4t4x4
+474e4
 484h4
-485<5@5D5H5L5P5T5
 48:<:
-494U4z4
-4:6S6g6
 4;5^5k5s5{5
-4<4m4
-4>4X4
-4?5^5[8
-4A5+8
-4A5K5h5y5
-4H4{4
-4L4U4~4
+4<4^4n4
+4<5D5K6S6
+4>4R4n4y4
+4?4w4
+4?5C5G5K5O5S5W5[5
+4F5c5
+4I4Y4
+4J435e5w5
+4M4_4
+4P4b4
+4P5v5
 4Q;FD~Z
-4S5m5r5}7
-4T556
-4Y5S7
+4b5n5;708
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4p4e6
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5$585<5L5P5`5d5l5
+4n4}4u5
+4x5I6
+4x5|5
+5 5$5(5,505D5H5X5\5`5d5h5l5p5x5
+5 5$5(5l8p8t8x8|8
 5 5(50585@5H5P5X5`5h5p5x5
-5 50545D5H5L5T5l5|5
-5 5<5@5`5
-5 5C5W5{5
-5 6.6
-5!6e6
-5"5B5V5m5
+5 5,5h5p5x5
+5 585H5L5P5X5p5
+5 5L5T5x5
+5!5,5O5a5m5
+5"5J5
 5#5*51585?5F5M5T5[5b5i5p5w5~5
-5$5,54585@5T5\5d5l5p5x5
-5$5,545<5D5L5T5\5d5l5t5|5
-5$5,545@5`5h5p5x5
-5$6.6t6
-5&585Z5e5j5o5
-5&6R6~6
-5'545X5o5
-5(5E5V5k5p5
-5)6Y6h6
-5+5J5Y5{5
-5-5@5
-5-5H5c5v5
-505@5D5T5X5\5d5|5
-515y5}5
-545:5a5
-545@5F5L5S5e5p5|5
-555A5[5
-556z798/9;9K9
-565r5
-5:5o5
+5$5,545@5`5l5
+5(5,52585>5D5k5
+5(585<5L5P5T5X5\5d5|5
+5(5>5
+5(5H5T5t5
+5(626O6`6u6z6
+5)5.5
+5)626I6
+5*646Q6b6w6|6
+5*6d6
+5+505
+5,5S5g5n7
+5-5L5k5
+5-6F6N6
+5/5L5
+506L6P6l6p6
+50C0k0$1n1
+515@5_5n5
+515_5
+51686C6Q6e6
+516f6
+546T6
+595i5x5
 5;{0t?
-5>5f5
-5@5L5T5t5
-5C6K6Z6d6j6p6
-5E5Q5n6u6
+5=6[6
+5>6f6
+5A5T5v5
+5E5b5
+5F5b5
 5FjiT
-5G5s5
 5Genu
-5K6m=
-5Y5e5}5
-5f6:8
+5J5f5r5
+5K5R5Y5`5e5n5
+5N5b5
+5O6j6y6
+5R5\508u8
+5R9N<V<
+5T6]6
+5W5s5
+5[6_6c6g6k6o6s6w6
+5a5k5
+5h7.8
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5k6#7
-5p6z6
+5j6}6m7
+5k5u5{5`6
+5~849>9O9
+6	7"7p7
+6	7%7D7
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6 6$64686<6@6H6`6p6t6
+6 6$6<6L6P6T6h6l6|6
 6 6(60686@6H6P6X6`6h6p6x6
-6 626=6E6M6U6^6g6o6}6
-6 7i7h8
-6#6'6p?
-6#7z7
-6#=G=V=`=i=z=
-6$6+626T6Y6`6g6n6u6|6
+6 6(646T6\6d6h6p6
+6 6,6L6T6\6d6p6
+6 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+6 7,747T7x7
+6 777
+6!6%6)6-61656u6
+6"6*626:6B6K6T6\6h6p6
+6$6+62696@6b6g6n6u6|6
 6$6,646<6D6L6T6\6d6l6t6|6
-6$6,646<6D6h6t6|6
-6$6H6T6\6|6
-6$6`6o6}6
-6%6H6k6
-6&7M7g7
-6'7-7
-6(6,60646<6T6d6h6x6|6
-6(6,6D6T6X6h6l6|6
-6(6.696?6M6k6
-6(646<6T6`6
+6$6,6L6p6|6
+6$6<6L6P6`6d6t6x6|6
+6'676A6G6N6T6e6p6
+6'7.797D7O7z7
+6'707
+6'7|7
+6(6?6[6
 6({wyyj:
-6)767J7
-6*696O6U6Z6`6k6q6
-6*747>7
 6*f(_
-6+7P7W7i7
-6,606@6D6H6L6T6l6|6
-6,6L6T6\6d6l6t6|6
-6/777
-606P6h6r6
-606a6
-60\2b2t2
-636g6
-637=7Z7k7
-64696
-656C6
-668 9S9
-676?6q6E7I7M7Q7U7Y7]7a7e7i7
-687H7T7f7v7
-697@7
-6<6k6
-6E7P7
-6E7T7s7
+6-6G6
+6.6?6T6Y6
+61b2*373N3[3r3
+637,<4<r<z<
+638P8
+646l6
+697"8=8X8
+6;9G9h9
+6<7B7
+6>7O7
+6>7i7
+6?6j6
+6A6[6
+6A8x8
+6B7^7}7
+6C6Z6e6m6x6~6
+6F7y7u9{9
+6H8j8
 6I]Dc
-6J9g:
 6OB,n_
-6P6Y6
-6R7a7s7
-6Y7^7n7x7
-6`6d6h6l6p6t6x6|6
-6j6t6
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7D=L=T=\=d=l=t=|=
+6R8u8N9[9
+6S7]7z7
+6d6n6
+6g7m7=8C8
+6p6~6
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7$7(7,707X7\7`7d7h7l7p7t7x7|7
-7 787<7T7d7h7p7
-7 787H7L7\7`7d7l7
-7"7:7?7E7L7c7k7v7
-7$7,74787<7D7X7`7h7p7t7|7
+7 7$7(7,747L7\7`7p7t7x7|7
+7 7(70787@7H7P7X7`7h7p7x7
+7 8,999F9V9\9a9
+7 8h8
+7!7k7
+7"797O7
+7"7v7
+7#7K7
+7#7]7l7y7
+7$7,747<7D7L7T7\7d7l7t7
 7$7,747<7D7L7T7\7d7l7t7|7
-7%8K8q8
-7'7K7
-7'8J8m8
+7$74787@7X7\7t7
+7$8P8
+7%8,8S8\8
 7(717;7H7U7_7l7y7
-7(8/84888<8@8
-7(8c8
 7(8h8
-7)767M7l7
-7*747;7A7K7Z7b7n7
-7,747H7
-7-7M7q7
-7-7a7
-7/7@7Q7
-7/8<8k8w8
+7*707:7M7
+7*7@7M7i7
+7,787\7|7
+7,868
+7,8U8v8
+7,9k9
+7-7:7D7X7r7
+7/868W;L<T<
 700PP
 700WP
 70503
-707<7\7d7p7
-708J8d8
-728D8
-759>;
-777H7]7b7
-78749:9A9H9N9S9Y9_9e9j9p9v9|9
-787@7H7P7X7`7p7
+70S0s0y0~0
+727H7
+728z8
+747D7H7X7\7`7d7l7
+747X7d7l7
+777Z7u7
+778W8j8
 787d7
-7=7X7c7
-7=7X7s7
-7?8l8
-7@7]7
+78859
+7:7k7
+7>7C7T7Z7_7j7t7{7
+7?8F8M8T8a8
 7@PVW
-7E8}8
-7I8M8Q8U8Y8]8a8e8i8m8
-7a8q8
-7g9r9
+7B7v7
+7F7s7
+7G8Y9a9i9q9y9
+7H7N7Y7h7
+7H8h8
+7I8}8
+7K8U8
+7L8x8|8
+7R7}7
+7_8h8
+7b7n7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7t9x9|9
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8B;b;
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8
-8 8A8L8V8f8v8
-8!8.838A8C<
-8"9[9
-8"9e9r9
-8#9'9+9/93979;9?9C9G9K9O9S9W9[9_9c9g9k9o9s9w9{9
-8$8,80888L8T8\8d8h8p8
+7l9w9
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8(80888<8@8H8\8d8x8
+8 818F8K8
+8!8+858?8I8S8]8
+8!8O8[8s8
+8!:=:
+8"969r9
+8"9Z9w9
+8$8(888<8@8D8H8P8h8l8
 8$8,848<8D8L8T8\8d8l8t8|8
-8$84888H8L8\8`8d8h8p8
-8$8H8
-8%9/9L9]9r9w9
-8&8+8
-8'8/868>8G8N8Y8_8f8y8
-8(8j8
-8)9?9
-8*8l8
+8$8,848@8`8l8
+8$8H8h8p8x8
+8%929L9
+8&838H8
+8&8C8T8i8n8
+8'9-9
+8'94;R<X<
+8(8B8S8m8
+8(9|9
+8)818<8B8H8R8\8g8o8v8~8
+8)8;8M8
+8)8B8
+8*9R9
+8+9094989<9
 8,808@8D8H8P8h8x8|8
-8-9O9Z9g9x9~9
-8.8?8L8R8s8
-8/9=9T9
-808@8D8T8X8\8`8d8h8p8
-81868<8G8Q8h8p8~8
+8,9H9
+8,9[9j9
+80888L8T8\8d8h8l8t8
+80E0m0
+82969:9>9B9F9J9N9R9V9
+829K9k9
 849`9
-888<8@8D8H8L8l8
-888R8k8
+888A8L8
+889N9r9
+898r8
+899F9j9
 89}4w
-8:8Q8p8
-8:8W8
-8<8D8L8P8X8l8t8|8
-8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-8=8S8f8m8
-8B9Y9
-8C8I8a8h8
+8=9^9
+8>8E8[8q8~8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8I8S8h8
-8I8y8
-8J9|;
-8M8S8
-8R8y8
-8T;{;
-8U9`9
-8W9^9m9-:B:J:
-8X8\8`8d8|8
-8\8f8
-8\9`9d9h9l9p9t9x9|9
+8E8}8
+8E9O9l9}9
+8F8Y8_8r8
+8M9t9
+8M:T:\:d:l:&>
+8R9n9
+8X8\8`8d8h8l8p8t8x8|8
 8_^[]
-8d8i8n8s8
-8l9s9
-9	:P:z:
-9 9$9(9,9094989<9 :$:(:,:0:X:\:`:d:h:l:p:t:x:|:
-9 9(9<9D9L9T9X9\9d9x9
-9 9,9L9T9`9
-9 989H9L9P9T9X9`9x9
-9 :C:k:
-9 :X:
-9!9'9B9I9
-9!9)9G9O9
-9!9.9F:F;
-9!919A9Q9l9
-9!9E9M9]9
-9":K:Z:|:
+8f9j9n9r9v9z9~9
+8t>|>
+9 9$9(9,90949<9T9d9h9x9|9
+9 9$9(94989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9,9L9T9\9`9h9|9
+9 9<9@9l9t9|9
+9!919A9Q9a9q9
+9"9'9{>
+9":':2:
+9#:_:	;B;
 9$9(9,949L9\9`9p9t9x9
-9$9(989<9L9P9T9\9t9
 9$9,949<9D9L9T9\9d9l9t9|9
-9&9y9
-9'929u9
-9(9;9R9`9z9
-9)9:9O9T9
-9,90989P9`9d9t9x9|9
-9,9a9n9
+9$:H:
+9%9G9p9t9x9|9
+9&9=9J9a9n9
+9&:1:R:i:{:
+9&>3>
+9'949
+9':B:]:
+9(909H9T9x9
+9(9B9`9x9
+9*;5;<;B;Q;X;b;l;};
+9,9094989<9@9H9`9p9t9
+9,9I9k9r9
+9,:	;
 9,:d:
-9-:V:
-9-:[:';};
-9094989<9@9D9g9
-909V9
-91>B>
-93:_=
-949@9`9l9
-969^9
-979l9
-9::A:e:
-9=9O9
-9B9a9w9
-9B:Z:
+9-:8:
+9-:H:c:
+909<9k9N:
+90:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:P;T;X;\;`;
+91U1^1
+959b9
+96:|:
+989r9
+9;:I:<;A;Q;d;i;};
+9>?S?X?
+9B:`:u:
 9C(tX
-9C:h:l:p:t:x:|:"=?>K>
 9C`u5Wj
 9C`u99C\t4
 9E WW
 9E$WWV
 9G$s$
 9G$v&
-9G9w9
-9G: ;o;
 9Hx~G
+9J9Q9
+9J9Q9\9j9q9w9
 9M4wz
-9Q9e9
+9P:$;_;
+9P:`:
 9V(~>j
 9V(~?j
 9V(~Bj
+9Z:l:
+9[9b9
 9^\t|
-9m:z:
+9c9j9
+9g:p:
+9h9r9
 9p t 
 9p u"
+9p9t9x9|9
 9s(~&
 9s,~g
 9sx~ 
@@ -837,276 +870,278 @@ $iMBm
 9~P~6
 9~Xt#
 9~x~'
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:
-: :$:(:,:4:L:\:`:p:t:x:|:
-: :':.:5:<:C:J:Q:X:_:f:m:t:{:
-: :(:@:P:T:\:t:
-: :6:
+:	;=;H;X;d;r;
+: :$:,:D:T:X:h:l:|:
+: :$:4:8:<:@:D:H:P:h:x:|:
+: ;4;M;
 : ;@;\;
 : exception thrown in JSON library
-:":(:.:4:9:?:E:K:P:V:\:b:g:m:s:y:~:
-:#:::Y:x:
+:!:-:9:Y:
+:":::?:K:P:d:+;2;D;M;
+:#:@:e:
+:$:*:0:5:;:A:G:L:R:X:^:c:i:o:u:z:
+:$:+:2:9:@:G:N:U:\:c:j:q:x:
+:$:+:V:e:s:
 :$:,:4:<:D:L:T:\:d:l:t:|:
-:$:0:h:t:|:
-:$:<:@:X:\:t:x:
-:$:D:L:X:|:
-:&;A;\;w;
-:(:,:<:@:D:L:d:t:x:
-:(:0:<:\:h:
-:):;:f:q:
-:*:D:Z:m:
-:+:\:
-:+;|;<<1={=m>
-:+>.???
-:.;F<K<]<{<
-:1:K:Z:h:t:
-:6;?;V;
-:<;W;z;
-:=;|<
+:$:0:P:\:|:
+:&;Y;
+:(:8:D:d:p:
+:(;2;G;o;
+:);V;q;
+:*;R;
+:.:@:m:
+:.;8<
+:0:4:L:\:`:h:
+:0:8:@:H:L:P:X:l:t:|:
+:0:@:D:T:X:\:d:|:
+:1;{;
+:4:J:X:l:z:
+:5:F:[:`:
+:5;Q;
+:5<\<
 :AM:am:PM:pm
-:B;_;r;
-:E;W;_;i;r;
-:I:s:
-:J;Q;X;_;y;
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
-:M;a;y;
-:M;c;C<
-:Q:/<
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-:W;y;
+:T:f:}:
 :]=O>
 :f;>u
 :h"?bC
-:q:{:
+:s<I=
 :u$f9Q
 :uBFV
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;l;t;|;
-; ;$;(;0;H;X;\;l;p;t;x;|;
-; ;(;0;8;@;H;P;X;`;h;p;x;
-; ;0;4;8;@;X;h;l;|;
-; ;0;<;\;d;p;
-; ;=;d;y;
-; <&<K>
-; <A<q<
-;!;>;O;d;i;
-;";0;:;@;K;X;_;
-;"<*<
-;#;*;1;8;?;F;M;T;[;b;i;p;w;~;
-;$;);=;I;N;a;m;r;
+;	<a<
+;	<d=q=
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+; ;';.;5;<;C;J;Q;X;_;f;m;t;{;
+; ;(;0;8;@;H;T;t;|;
+; ;(;4;T;`;
+; ;7;y;
+; <C<f<
+;!;';-;2;8;>;D;I;O;U;[;`;f;l;r;w;};
+;";7;O;U;e;
+;";y;
+;#<@<h<
 ;$;,;4;<;D;L;T;\;d;l;t;|;
-;$<<<A<
-;$>.>8>
-;%;+;1;6;<;B;H;M;S;Y;_;d;j;p;v;{;
-;%;3;A;L;b;v;
-;%;V;s;
-;%</<4<:<
-;%<]<z<
+;$;4;8;H;L;P;X;p;
+;$<(<,<0<4<8<<<@<
+;%;4;<;D;4<
+;&=X=^>
 ;'<Q<D=_={=
-;(;,;<;@;D;L;d;t;x;|;
-;*<0<H<O<T=n=z=
-;,;P;\;d;|;
-;-;4;b;j;
-;.;];g;n;
-;0<R<
-;1;?;Y;
-;2;?;s;
+;(;,;<;@;D;H;L;T;l;p;
+;(;8;<;L;P;T;X;\;d;|;
+;(<W<l<
+;)<K<}<
+;*;J;
+;*<<<T<
+;+<@<Q<
+;,;8;X;`;l;
+;,;O;
+;-<:<
+;/;I;
+;0;@;D;X;\;l;p;t;|;
+;1;R;Y;d;7=
 ;3u3;
-;4;<;H;h;p;|;
-;4;D;H;X;\;`;h;
-;4;N;t;
-;4<<<d<l<
+;5<k=
+;6<M<
+;6<z<
 ;7s`3
-;=<I<q<
-;?<c<
+;8;R;i;p;
+;=;R;h;u;
+;=<H<U<^<s<
+;@;N;U;
 ;A$vH
 ;A$v\
-;A<b<
 ;ADt$
-;C;`;x;U<x<
-;D;m;
 ;F$vj
-;F;i;
 ;FD~@
 ;FD~H
-;J<O?r?
-;M<c<
+;H<P<`<l<
+;I;y;
+;L<P<T<X<\<`<d<h<l<p<t<x<|<
 ;N\u\W
 ;Q u	;A
-;S<\<d<
-;X<6=
-;h<{=
+;S;];
+;Z;d;
+;e<}<
 ;t$,v-
-< <$<(<,<0<8<<<@<D<H<L<P<T<X<\<h<l<p<t<x<|<
-< <$<(<0<H<X<\<l<p<t<x<|<
-< <(<0<8<@<H<P<X<`<h<p<x<
-< <(<<<D<L<T<X<`<t<
-< <0<4<D<H<L<P<X<p<
-< =a=
+;t>~>
+;{>~?
+< <$<
+< <$<(<0<H<X<\<l<p<t<|<
+< <0<4<8<<<@<D<L<d<t<x<
+< <4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < t1<	t-
-<!<&<
-<!<+<9<E<J<]<
-<!<D<
-<"<(<.<3<9<?<E<J<P<V<\<a<g<m<s<x<~<
-<"<2<?<h<q<
-<"<K<v<
-<#<0<j<y<
+<"<&<*<.<2<6<:<><B<F<J<N<R<V<Z<
+<#<*<1<8<?<F<M<T<[<b<i<p<w<~<
+<#=T=i=
+<$<)<A<Z<_<t<
+<$<*</<5<;<A<F<L<R<X<]<c<i<o<t<z<
+<$<,<4<<<D<H<P<X<`<h<p<x<
 <$<,<4<<<D<L<T<\<d<l<t<|<
-<$<A<v<
-<&<-<4<;<B<I<P<W<^<e<l<s<
-<(<0<4<D<h<t<|<
-<)<:<u<
-<*<7<T<[<`<i<p<w<
-<*J=)
-<,<0<@<D<L<d<h<
-</<O<
+<$<4<8<H<L<P<T<X<`<x<
+<$<<<L<P<`<d<h<p<
+<%=X=
+<%=]=
+<'<8<M<R<
+<'=3=A=G=N=
+<(<4<<<\<
+<)<5<
+<*<4<H<p<
+<*<t<
+<+=4===K=T=g=H>h>r>
+<,<u<
+<,=@=i=
+<-=N=\=d=n=x=v?
 <0:08
-<0=h=s=
-<3=[=r>
+<1<=<B<U<a<k<y<
 <4<l<
+<6<]<r<
+<6>n>
+<7=I=W=\=b=
+<8<D<d<l<x<
 <8bunz8
 <:t%<,t!</u%
 <:t2<,t.</u2
-<;<B<B?
 <<=x=
-<=<D<P?
-<@<M<
-<@<q<
+<>=?>
+<@=D=H=L=P=T=X=.>H>
 <@En[vP
-<A=^=8?V?
-<F<S<
-<I<d<v>
-<P<Y<
-<a<w<
-<c<m<
+<A=\=w=
+<G<Z<
+<L=V=s=
+<N<i<
+<S<{<
+<U<Z<a<f<
+<X<f<s<
+<X<u<
+<Y<r<
 <et	<pu
-<p>t>x>|>
+<o<|<
+<p<v<
 <xt"<Xt
 <xt"<Xu!
 <zQ}<
 <{Q}<
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=d=h=l=p=t=x=|=
-= =$=,=D=T=X=h=l=p=t=x=|=
-= ='=.=5=<=C=J=Q=X=_=f=m=t={=
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=h=l=p=t=x=|=
 = =(=0=8=@=H=P=X=`=h=p=x=
-= =(=<=D=L=T=X=`=t=|=
-= =4=8=H=L=\=`=p=t=
-= =@=`=
-= >/>R>
-=!>K>R>X>_>q>v>
-=$=*=7=F=L=b=
+=#=)=4=C=I=V=e=k=x=
+=$=(=,=0=8=P=`=d=t=x=|=
+=$=(=,=4=L=\=`=p=t=|=
+=$=+=2=9=@=G=N=U=\=c=j=q=x=
 =$=,=4=<=D=L=T=\=d=l=t=|=
-=$=.=8=6?
+=$=4=8=H=L=P=T=X=`=x=
+=$=d=l=
+=$>,>
 =$>H>f>t>~>
-=%>H>
-=&=D=
-=(=4=T=`=
-=(>,?
-=)=D=U=
-=)>2>P>[>d>
-=)>g>
-=)>x>
-=*>6>S>
-=+=g=p=
-=+>n>
-=->9>
-=0=@=D=T=X=\=`=d=h=p=
-=0=A=V=[=
-=1>C>
-=2=7=
-===W=
-=?=W=
-=A=R=]=
-=B=m=
-=H=P=]=^>
-=J=j=|=
+=&=1=P=j=
+='=7=D=^=e=o=
+='>B>
+=-=L=
+=.>f>
+=/=E=c=p=
+=0=8=<=X=`=d=t=
+=1>D>z>
+=2=O=l=
+=3=C=e=
+=3>c>r>
+=4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+=5=W=y=
+=9=M=`=l=|=
+=9>V>g>|>
+=:=b=
+=<=D=L=P=X=l=t=|=
+=>=I=6?@?\?c?
+=?>H>_>
+=?>K>S>
+=D=V=
+=M>U>
+=S?n?
 =WIDATx
+=Y>r>y>
 =\uI=
-=_=d=o=C>t>
-=q>K?
+=a=y=
 =rIQU
-=x?|?
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>
+={>2?
+>	?>?Y?|?
 > >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+> >'>.>5><>C>J>Q>X>_>f>m>t>{>
 > >(>0>8>@>H>P>X>`>h>p>x>
-> >0>4><>T>d>h>x>|>
-> >@>`>
->#>*>1>8>?>F>M>T>[>b>i>p>w>~>
->$>(><>@>P>T>X>`>x>
+> >0>4>8><>@>H>`>p>t>
+> >4><>D>L>P>X>l>t>|>
+>!?9?l?
+>!?X?u?
+>"?,?
+>$>,>
 >$>,>4><>D>L>T>\>d>l>t>|>
->$>,>8>X>`>h>p>|>
->$?w?
->&>Y>h>v>
->(>,>0>4>8>@>X>h>l>|>
->(>2>M>a>~>
->(?]?
->(?f?
->)>9>?>I>W>]>m>y>
+>$><>L>P>d>h>x>|>
+>%>+>>>Q>W>j>z>
+>%>\>k>
+>&?9?w?
+>&?I?c?
+>'>I>y>
+>(>,><>@>D>H>L>P>T>\>t>
+>*>?>D>
 >,'1D=
->,>C>T>e>z>
->,>H>
->.?=?J?a?
+>,>8>X>d>
+>,>W>r>
+>/?G?
+>/?r?
 >0<0:
->1?[?
->4?J?
->7?E?a?y?
->9>Q>
->9?>?
-><>D>P>p>x>
+>0>P>p>
+>3???Q?
+>5?D?
+>9?b?w?
 ><>\>x>
+>>?H?e?v?
+>??I?
 >Cu43
+>E?U?f?r?
+>G?Z?
 >H>x>
->H?R?[?l?{?
+>J>a>
 >KpP`
 >Mp$d
->R>u>
->S>b>8?
->U>_>|>
->V?`?f?
->d>m>
+>T?m?t?
+>d>(?k?
+>h>|>
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-? ?$?(?,?0?4?8?<?@?D?H?T?X?\?`?d?h?l?p?t?x?|?
-? ?$?,?D?T?X?h?l?p?t?|?
+? ?$?(?,?0?4?8?<?@?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+? ?$?(?,?0?8?P?`?d?l?
 ? ?(?0?8?@?H?P?X?`?h?p?x?
-? ?.?N?[?l?
-? ?0?4?8?@?X?h?l?|?
-? ?@?H?P?X?d?
-? ?@?`?
-?!?T?c?q?
-?"?'?7?<?A?Q?V?[?k?p?u?
-?"?0?5?;?M?U?f?n?w?
-?"?3?H?M?
+? ?0?4?D?H?X?\?`?d?h?p?
+? ?@?L?l?t?
+?!?9?>?C?S?X?]?m?r?w?
 ?#%X.y
-?$?(?,?0?4?<?T?d?h?x?|?
+?#?*?1?8???F?M?T?[?b?i?p?
+?#?5?
+?$?,?4?<?D?L?T?
 ?$?,?4?<?D?L?T?\?d?l?t?|?
-?%?9?D?
-?&?-?4?;?e?l?q?x?
 ?&?/?T?o?
-?'?:?K?U?^?
-?'???
+?&?4?
+?'?4?L?
+?(?,?D?T?X?l?p?
+?(?4?T?\?h?
 ?(FN\
-?,?Z?{?
-?-?P?j?x?~?
-?0?8?D?d?l?x?
+?+?1?G?n?
+?+?8?r?
+?,?0?P?p?
+?,?7?=?N?X?e?o?z?
+?0P0o0
+?0[0_0c0g0k0o0s0w0{0
 ?5Wg4p
+?6?=?H?
 ?7Tf(
-?9?z?
-???????????????????????????????????????????????????????????????????????????????????????????????????
-?E?L?
-?F?O?\?b?h?
-?H?X?
+?8?U?i?p?~?
+?@?d?
+?E?h?u?
+?E?x?
 ?IT$7
-?O?y?
-?Q?t?
 ?RbSQ
 ?U'];
-?W?c?
 ?X&eB
 ?]ttS
 ?g)([|X>=
 ?h6_~
-?k?u?
 ?w,_3
 ?|I7Z#
 @(;A(s
@@ -1117,10 +1152,12 @@ $iMBm
 @_^[]
 @b;zO]
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A(;A,v
 A,98~
 A0B;W
 A1<Fu
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AHPQVR
 AHkO($
@@ -1135,7 +1172,6 @@ April
 AreFileApisANSI
 August
 Ax#?uN}*
-B4J4z4
 BC .=
 BHoxqF
 BP;BL
@@ -1145,7 +1181,6 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
-B}SK_
 C WVP
 C$F;w
 C'db-N
@@ -1186,6 +1221,7 @@ CreateThreadpoolWait
 CreateThreadpoolWork
 CreateTimerQueue
 CreateTimerQueueTimer
+D1h1t1|1
 D:( t
 December
 DecodePointer
@@ -1195,11 +1231,11 @@ Device Calibration is invalid (207)
 Device is not calibrated (206)
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
@@ -1223,6 +1259,7 @@ ExitProcess
 Extra non-whitespace after JSON value.
 F _^[
 F0$?3=1
+F0^0g0t0
 F1<at
 F1<gt
 F4_^[
@@ -1269,7 +1306,6 @@ GDQSP
 GPP@&R7T
 GQ@R<E
 GQQ@j
-GWPh|
 GWVj	
 GetACP
 GetCPInfo
@@ -1332,6 +1368,7 @@ Gh;G<
 Gl;Gx
 GrvD)
 GxVPR
+H-^Eu
 HH:mm:ss
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -1364,6 +1401,7 @@ Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
+I1U1\1S2n2u2
 ILiquidVR_001
 IND)ind)
 IND)ind)pow
@@ -1373,6 +1411,7 @@ IVRControlPanel_006
 IVRHeadsetView_001
 IVRPaths_001
 IVRVirtualDisplay_002
+IgWm)
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitOnceExecuteOnce
@@ -1396,6 +1435,7 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
+J0R0Z0
 J>@G_
 JBIh	i
 JX<$N
@@ -1455,11 +1495,11 @@ OH+O@
 OH+O@I
 OHPSQ
 OHSSVSSW
+O]GKHx
 O`j@SV
 October
 Od_^]
 On laptop, HMD detected over USB, but Monitor not found (213)
-P4T4X4p4t4x4
 PAq=?Mp#
 PP9E u:PPVWP
 PPPPP
@@ -1559,9 +1599,10 @@ SwgtX
 SwitchToThread
 Syntax error: value, object or array expected.
 SystemTimeToTzSpecificLocalTime
-T;X;\;t;x;|;
+T0j0|0
 TargetOversubscriptionFactor
 TerminateProcess
+The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
 Thursday
@@ -1618,6 +1659,8 @@ VR system shutting down (119)
 VRClientCoreFactory
 VRControlPanel
 VRHeadsetView
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
 VRInitError_Compositor_CreateBackbufferDepth
@@ -1691,6 +1734,7 @@ VRInitError_Compositor_FailedToGetDXGIDeviceInterface
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
 VRInitError_Compositor_InvalidAdapterDesktop
 VRInitError_Compositor_InvalidDeviceProvided
 VRInitError_Compositor_InvalidHmdAttachment
@@ -1862,8 +1906,8 @@ W8^.u:
 WHH+W@
 WPWWWS
 WSVPP
-WSh$G
-WSh,G
+WShTH
+WSh\H
 WWVSW
 WWWSHSh
 WWWWW
@@ -1886,6 +1930,7 @@ Y8(|bUhI;W4$eG8
 Y9"SD
 YYF;w,|
 YY^_]
+YYh$8
 YYyhe"B
 Y_[^]
 Y__^[
@@ -1969,6 +2014,7 @@ _tcPVj@
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a7hIw
 a8&Y.
 abcdefghijklmnopqrstuvwxyz
 additional six characters expected to parse unicode surrogate pair.
@@ -1985,6 +2031,7 @@ argument list too long
 argument out of domain
 assert json failed
 atan2
+b08152
 b4 a2
 bad address
 bad allocation
@@ -1995,12 +2042,12 @@ bad exception
 bad file descriptor
 bad locale name
 bad message
+bf[kWB
 broken pipe
 c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 cD5U3#eF7v\NV5%J%
 cRpp`
-cU	F9
 ceLfdfK3
 cg+tY
 collectComments
@@ -2011,6 +2058,7 @@ connection refused
 connection reset
 count
 cross device link
+d2o3t3
 dC4N(
 dI;D#
 dddd, MMMM dd, yyyy
@@ -2026,6 +2074,7 @@ eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
+f5r4M
 f90t	
 f99t/
 f99t7
@@ -2042,6 +2091,7 @@ function not supported
 generic
 gfe[D
 h-y"3
+h=l=p=t=x=|=
 hI{L[
 hPP`*
 hb?O2
@@ -2077,12 +2127,10 @@ ios_base::failbit set
 iostream
 iostream stream error
 is a directory
-isU>{
 iu+-,
 j	PjYV
-j(h(!
+j(hX"
 j(hxZ
-j,hP*
 j-XGf
 j.Yf;
 j0Xf;
@@ -2103,6 +2151,7 @@ kW$4k_(4
 keylength >= 2^30
 l*JHD
 l,kg<i
+l2|X/gGe
 ldexp
 log10
 lq%&1T
@@ -2111,7 +2160,6 @@ m1WY$
 map/set<T> too long
 message size
 n;w0tc
-nD=HXg
 nan(ind)
 nan(snan)
 network down
@@ -2139,7 +2187,7 @@ not enough memory
 not supported
 np?z 
 oB(h8
-oSPPWh	
+oSPPWh\
 obwQ4
 openvr
 openvr_api.dll
@@ -2166,14 +2214,13 @@ permission denied
 ppVirtualProcessorRoots
 protocol error
 protocol not supported
-pw+XS
 pwJt8
 q)]2<Mt
 qe^3!Y-
 r7Yr7=
 rB-<e*
 rLp>B
-raB3G
+raB3GD
 rcf9#b3
 read only file system
 rejectDupKeys
@@ -2192,10 +2239,11 @@ stream timeout
 strictRoot
 string too long
 switchState
-t#Vhx>
-t)hds
+t VhH
+t&h40
 t,WW9}
 t2RWV
+t7h(0
 tAm4@
 tB;wPt
 tEj&h
@@ -2269,15 +2317,16 @@ zwom}
 {ZLjF5jE5zZK
 {^5#W-
 {un'%
+|%h/,
 |)P!?Ua0
 |Lu?c
 |TBc4
 |W8A=
 |^4#W,
-}	jCh`
+}	jCh
 }:;2|6
 }LuHO
-}qj<h
+}qj<h(
 ~ $s%r
 ~0WPQ
 ~4VVS

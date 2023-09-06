@@ -39,6 +39,7 @@
  A_A^A]A\^
  A_A^A]A\_
  A_A^]
+ A_A^^
  A_A^_
  A_A^_H
  A_][
@@ -50,7 +51,6 @@
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
-!bindings.empty()
 !g_pSharedResourceNamespaceServer
 !hn7!
 !isnan( *pSecondsSinceVsync )
@@ -58,7 +58,6 @@
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
 $9E0u
-$II+L$`
 %s begin_ctx=%llu
 %s end_ctx=%llu
 %s%s%s%s%s
@@ -139,6 +138,7 @@ $II+L$`
 %s: attempted to draw a compute pipeline
 %s: attempted to initialize already initalized pipeline
 %s: attempted to initialize pipeline with no valid stages
+%s: attempted to release an invalid handle
 %s: client resources cleared without leaving clientid intact!
 %s: cmdbuf references a resource that has been released: %s
 %s: concurrent sharing mode requires queue family indices
@@ -153,6 +153,7 @@ $II+L$`
 %s: failed to allocate CVkCuda
 %s: failed to allocate CVkCudaImage
 %s: failed to allocate buffer memory
+%s: failed to allocate descriptor set
 %s: failed to allocate descriptor sets (err=%d)
 %s: failed to allocate destination frame info handle
 %s: failed to allocate image memory
@@ -174,7 +175,7 @@ $II+L$`
 %s: failed to create default sampler
 %s: failed to create depth image for %s
 %s: failed to create descriptor pool (err=%d)
-%s: failed to create descriptor set layout (err=%d)
+%s: failed to create descriptor set layout
 %s: failed to create display surface
 %s: failed to create downsample image
 %s: failed to create downsample vertex buffer
@@ -321,7 +322,6 @@ $II+L$`
 (L$pD
 (d$pD
 (f*^[0
-(jR@!
 (l$0L
 (l$@D
 (l$`H
@@ -529,16 +529,16 @@ $II+L$`
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202942Z0/
+230714000000Z
+230831183408Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
 33s?+
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -551,9 +551,8 @@ $II+L$`
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7iNJ[f
 8 t"L
-8 u'L
+8 u"L
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -562,6 +561,7 @@ $II+L$`
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8z17<
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -572,7 +572,6 @@ $II+L$`
 ;S sMH
 ;\$x|
 ;|$ r
-<*J=)
 <0:08
 <P)9Y
 <unknown>
@@ -603,7 +602,6 @@ $II+L$`
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 @.data
 @.reloc
-@8k(t-H
 @A]A\_
 @A]_[
 @A]_^][
@@ -624,7 +622,6 @@ $II+L$`
 @SUVWAUH
 @SUWATAVH
 @SUWAVAWH
-@SUWH
 @SVAUAVH
 @SVAVAWH
 @SVAVH
@@ -636,17 +633,18 @@ $II+L$`
 @SWAVH
 @SteamVR_Namespace
 @UATAUH
+@UATAVAWH
 @UAVAWH
 @UAVH
 @USATAUAVH
 @USAUAWH
 @USAWH
 @USVWATAUAVAWH
+@USVWATAUAVH
 @USVWATAUH
 @USVWATAVAWH
 @USVWATAVH
 @USVWATH
-@USVWAVH
 @USVWH
 @USWATAUH
 @USWH
@@ -657,7 +655,9 @@ $II+L$`
 @UVWH
 @UWAVAWH
 @VATH
+@VAVAWH
 @VAVH
+@VWATAVAWH
 @VWATH
 @WATAUAVAWH
 @WAUAVAWH
@@ -689,22 +689,22 @@ A^A\^
 A^A\_][
 A^A\_^[]
 A^A]A\[]
+A^A]A\^]
 A^A]A\_^[]
 A^A]]
-A^_^[]
 A_A\_^[
 A_A\_^[]
 A_A]A\][
-A_A]A\^]
 A_A]A\_[]
 A_A]A\_]
 A_A]]
 A_A]^]
 A_A]_[]
 A_A^A\
-A_A^A\^]
+A_A^A\]
 A_A^A\_[]
 A_A^A\_]
+A_A^A\_^
 A_A^A\_^[]
 A_A^A]A\]
 A_A^A]A\_
@@ -729,14 +729,16 @@ AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
 AddAccessAllowedAce failed for steam. GetLastError returned: %d
 AddAccessAllowedAce failed for test app. GetLastError returned: %d
 AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
-AddDescriptorSet and CopyDescriptorSets are mutually exclusive.
 AddStage and CopyStages are mutually exclusive.
+Already initialized
 Apply blur filter
 Apply median filter
 Attempt to init shared state %s twice
 Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
+B H9B
+B<AN.
 Bellevue1
 Blank
 C(H+C H
@@ -842,6 +844,9 @@ CVkCuda::CreateImage
 CVkCuda::FindDevice
 CVkCuda::LoadLibrary
 CVkCuda::LoadLibrary::Load_t::Proc
+CVkDescriptorArrayBase::AllocateSets
+CVkDescriptorBindings::CVkDescriptorBindings
+CVkDescriptorBindings::WriteDescriptorSet
 CVkDevice::ChoosePhysicalDevice
 CVkDevice::CreateInstance
 CVkDevice::Init - failed to get extension count
@@ -873,12 +878,11 @@ CVkQueue::Submit
 CVkResourceBase::MarkInUse
 CVkResourcePool<class CVkCommandBuffer>::BorrowResource
 CVkShaderPipeline::AddComputeStage
-CVkShaderPipeline::AddDescriptorSet
 CVkShaderPipeline::AddStage
 CVkShaderPipeline::CmdBindAndDispatch
 CVkShaderPipeline::CmdBindAndDraw
 CVkShaderPipeline::CmdBindAndDrawIndexed
-CVkShaderPipeline::CmdBindPipelineAndDescriptorSets
+CVkShaderPipeline::CmdBindPipeline
 CVkShaderPipeline::Initialize
 CVkTimeline::CheckPhysicalDeviceCapabilities
 CVkTimeline::Create
@@ -959,12 +963,9 @@ D$PL;
 D$PM;
 D$XE3
 D$XH;
-D$XL;
 D$`E3
-D$`H9
 D$`H;
 D$`H;]
-D$hH+
 D$hH;
 D$hI;
 D$pH;
@@ -987,11 +988,11 @@ DeleteCriticalSection
 DeviceGC
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Downsample Scene Image
 Downsample Vertex Buffer-%s
@@ -1001,7 +1002,7 @@ Dumping display history...
 DuplicateHandle
 E8~(t\
 E\f9A
-EhH9E`
+EkH9M
 Encountered error 
 EnterCriticalSection
 Enumerated %zu vulkan displays
@@ -1045,6 +1046,7 @@ Forced create of file mapping %s but it already existed
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
+Frame Hallucination Descriptor Allocator
 Frame Hallucination Pipeline
 Frame Hallucination Pipeline Variant %d
 FrameHallucination-Frag
@@ -1077,17 +1079,19 @@ GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
 H SVWH
 H USVAUH
+H+APH
 H+D$@
 H+D$Xf
 H+EpH
 H+L$XE3
 H+SXH
+H-^Eu
 H9.u0
 H9.u2
 H93t	H
-H95:U	
-H95hR	
-H95|R	
+H95:u	
+H95hr	
+H95|r	
 H97t	H
 H97u2
 H98t	H
@@ -1095,9 +1099,9 @@ H9C s'L
 H9D$@u
 H9H s
 H9H s*
-H9L$xt
 H9P s
 H9T$@t
+H9\$@t"A
 H9\$Pu L
 H9\$Xu L
 H9]Xu0
@@ -1107,7 +1111,7 @@ H9xPt2
 H;+u*
 H;8u9
 H;A8u"L
-H;A8u'L
+H;H0t
 H;K sOH
 H;K t!H
 H;K u
@@ -1117,9 +1121,14 @@ H;T$pM
 H;\$8I
 H;j s
 H;q s
+H;q@M
+H;qXL
+H;w@H
 H;x s
 H;y s
+H;yXI
 H;z s
+H;{@I
 H;{XH
 HA^A]_[
 HMD Image %d
@@ -1132,7 +1141,6 @@ HiL$
 History Timeline
 History-Buffer-%d
 I#V0I
-I+O`H
 I97t;I
 I98u2A
 I9B A
@@ -1143,6 +1151,7 @@ I;\$`I
 I;}`I
 I;~8L
 IPC::CIPCHandle::InitForExport
+IPC::TSharedHandleBase<void *,0>::Close
 IPCPipe(%s) failed to read payload of %u bytes
 IPCPipe(%s) failed to write message of %u bytes because %s
 IPCPipe(%s): Next message type %u, seq %u, len %u
@@ -1162,6 +1171,7 @@ InitializeSecurityDescriptor failed. GetLastError returned: %d
 Initializing display history...
 Input
 InterlockedPushEntrySList
+Invalid bindings
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
@@ -1179,12 +1189,15 @@ L$ SVW
 L$ SVWH
 L$ SWH
 L$ USWATAVAWH
+L$ UVATAUAVH
+L$ WH
 L$(K9
 L$(M;
 L$0A9y
 L$0A9y sEI
 L$0E3
 L$0H+
+L$0H9A
 L$4E3
 L$8E3
 L$@E3
@@ -1202,6 +1215,7 @@ L$xL9T$ht
 L+D$`A
 L+D$pA
 L+D$xA
+L9%T&	
 L9T$ht
 L9e0t	H
 L9e8t	H
@@ -1239,7 +1253,7 @@ LocalFree
 M H1E
 M(I9V t
 M98u/
-M9L$pthI
+M9<$u/
 M9x0t:M
 MB(iVR
 ME%d-Downsampled-%s
@@ -1332,7 +1346,9 @@ OpenServiceW
 Out of thread local storage!
 Outer
 PA^_^
+PA_A]^][
 PA_A^A]A\_
+PA_A^A]A\_^]
 PA_A^_
 PA_[]
 PAq=?Mp#
@@ -1385,6 +1401,7 @@ Prism Copy Pipeline
 Prism Copy UBO
 Prism Device
 Prism Layers (%s)
+Prism Layout Cache
 Prism Main Pipeline
 Prism UBO (%s)
 Prism-CompositeLayers
@@ -1406,7 +1423,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSE
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1442,6 +1458,7 @@ SPV_NV_compute_shader_derivatives
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
+SUVAUAWH
 SUVWATAUAVAWH
 SUVWAVH
 SVWATAUAVAWH
@@ -1474,9 +1491,12 @@ Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
 Somebody else should have created event %s to go with pipe %s in WaitForConnection
 Somebody locked a non-leaf shared memory %s while %s was already locked
+Submit: %s
 Swapchain
 T$ E3
+T$ Hc
 T$ fI
+T$0L;
 T$8E3
 T$8H;
 T$@D9#
@@ -1517,10 +1537,8 @@ USWATAUAWH
 USWAUAWH
 USWAWH
 UUUUUUU
-UVATAUAWH
 UVAUAWH
 UVAWH
-UVVk26
 UVWATAUAVAWH
 UVWAUAVH
 UVWAVAWH
@@ -1575,6 +1593,7 @@ VWATAVAWH
 VWATH
 VWAVH
 VWAWH
+VXI9V`t
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -1610,7 +1629,6 @@ Y9"SD
 YUV conversion - %s
 Yl$ M
 Yl$4E
-Z&%*y
 [ AVH
 [K]taM?
 \$ AVH
@@ -1620,7 +1638,6 @@ Z&%*y
 \$ I;]
 \$ UAVAWH
 \$ UH
-\$ UVATAVAWH
 \$ UWAVH
 \$ VATAVH
 \$ VH
@@ -1710,6 +1727,7 @@ _wcsnicmp
 `A_A][
 `A_A^A]A\_^[
 `A_^]
+a7hIw
 abort
 acosf
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -1758,6 +1776,7 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommandbatch.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcuda.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdescriptors.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkimagehistory.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
@@ -1779,7 +1798,6 @@ c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_nvapi.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_vulkan.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
-cU	F9
 client
 computeCommandSet.Valid()
 createInfo.pComputeDistortion
@@ -1801,6 +1819,7 @@ cuMipmappedArrayGetLevel
 cuWaitExternalSemaphoresAsync
 d$ E3
 d$(E3
+d$HL;
 d$PE3
 d$XE3
 d$`H=
@@ -1811,6 +1830,7 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
+e]XuZ
 effffff
 f9+t4
 f98tZH
@@ -1844,7 +1864,6 @@ gfffffffL+
 gfffffffM
 gfffffffO
 graphicsCommandSet.Valid()
-h<BmGN
 hA_A^A]A\_^[]
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1875,11 +1894,13 @@ l$0L;
 l$8E3
 l$8H+
 l$@H;
-l$@L;
 l$PH;
 l$PH;1u6H;
 l$XL9
+l$`E3
+l$xE3
 l$xHc
+l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
@@ -1906,6 +1927,7 @@ m_pDevice
 m_pDevice != nullptr
 m_pDevice == VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
+m_pLayoutCache != nullptr
 m_pPhysicalDevice == VK_NULL_HANDLE
 m_pPool != nullptr
 m_pPool->m_pActiveBatch == nullptr
@@ -1932,8 +1954,7 @@ nArrayIndex < m_details.nArrayLayerCount
 nD$p3
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
-nInstance < info.instances.size()
-nSet < m_descriptorSets.size()
+nSizeInBytes <= m_unSizeInBytes
 nVsycId=%llu m_nLastVsyncId=%llu
 nVsyncPeriodInTicks > 0
 ntelD
@@ -1947,8 +1968,10 @@ other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Ri
 p WAVAWH
 pA]A\^
 pA_A^]
+pA_A^_^]
 pAllocator
 pAllocator != nullptr
+pBindings != nullptr
 pBuffer != nullptr
 pClientLayersUniformBuffer
 pClientSwapchain
@@ -1968,6 +1991,7 @@ pImage != nullptr
 pInput
 pInputImage
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
+pLayoutCache != nullptr
 pLiquidVR != nullptr
 pMotionEstimation != nullptr
 pMotionEstimator != nullptr
@@ -1985,7 +2009,7 @@ pResource
 pResult != nullptr
 pShaderModule != VK_NULL_HANDLE
 pSourceBuffer
-pSourceBuffer->m_unSizeInBytes >= nSourceOffset + m_unSizeInBytes
+pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
 pSourceImage
 pSrcVertices != nullptr && pDstVertices != nullptr
 pStaging != nullptr
@@ -1997,7 +2021,9 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+r+w2H;
 r,fff
+r/w:I
 renderdoc.dll
 result == ALVR_OK
 s AVH
@@ -2017,6 +2043,7 @@ strtoull
 s}fff
 t$ AVH
 t$ AWH
+t$ UATAUAVAWH
 t$ UH
 t$ UWATAUAWH
 t$ UWAVH
@@ -2028,7 +2055,6 @@ t$(H+
 t$(Hi
 t$(L+
 t$(L;
-t$0E3
 t$0H+
 t$0H9Q
 t$0H;
@@ -2036,11 +2062,11 @@ t$0Hc
 t$0L;
 t$0M;
 t$8E3
+t$8t6H
 t$@H;
 t$@H=
 t$@I;
 t$HE3
-t$HH+
 t$HL;
 t$HuJH
 t$PE3
@@ -2048,6 +2074,8 @@ t$PH=
 t$`Li
 t$hH+
 t$lff
+t-fff
+tBfff
 tC8Khu1
 tOH97t	H
 tQH95
@@ -2531,6 +2559,7 @@ vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
 vr-marker,frame_end,type,application
 vulkan-1.dll
+w(lpxQe
 wcsrchr
 wcsstr
 www.digicert.com1!0
@@ -2538,7 +2567,6 @@ www.digicert.com1$0"
 xA_A^A]A\_^[]
 yxxxxxxxH
 yxxxxxxxI+
-zJ4VT^IV
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH
@@ -2546,8 +2574,6 @@ zJ4VT^IV
 |$ ATH
 |$ AVH
 |$ E3
-|$ H+
-|$ H;O
 |$ L+
 |$ UATAUAVAWH
 |$ UAVAWH
@@ -2556,9 +2582,7 @@ zJ4VT^IV
 |$0E3
 |$0H9
 |$0L;
-|$8@8i)t1H
-|$8L9
-|$8t6H
+|$8@8i(t1H
 |$@A_A^A]A\
 |$@E3
 |$@H;
@@ -2568,7 +2592,6 @@ zJ4VT^IV
 |$HH;
 |$HH=
 |$PL91t
-|$`E3
 |$pH+
 |$xIi
 |$xIk

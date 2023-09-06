@@ -75,6 +75,18 @@
         "type" : "pose",
         "binding_image_point" : [ 52, 86 ]
     },
+    "/pose/grip" : {
+        "type" : "pose",
+        "binding_image_point" : [ 52, 86 ]
+    },
+    "/pose/openxr_handmodel" : {
+        "type" : "pose",
+        "binding_image_point" : [ 52, 86 ]
+    },
+    "/pose/openxr_handmodel_r" : {
+        "type" : "pose",
+        "binding_image_point" : [ 52, 86 ]
+    },
     "/pose/tip" : {
         "type" : "pose",
         "binding_image_point" : [ 62, 16 ]

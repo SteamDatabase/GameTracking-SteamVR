@@ -257,21 +257,21 @@
 "VRInitError_Driver_CalibrationInvalid_Action" "Plus d'informations"
 "VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGame/?appid=250820"
 
-"VRInitError_Driver_HmdDisplayNotFound_Header" "Affichage du casque déconnecté"
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Écran du casque déconnecté"
 "VRInitError_Driver_HmdDisplayNotFound_Description" "Veuillez vous assurer que les câbles vidéos sont bien branchés. L'affichage du casque est introuvable."
 "VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Réinitialiser le casque"
 "VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
 "VRInitError_Driver_HmdDisplayNotFound_Action" "Plus d'informations"
 "VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Ordinateur portable : affichage du casque déconnecté"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Ordinateur portable : écran du casque déconnecté"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Veuillez vous assurer que les câbles vidéos sont bien branchés à votre ordinateur portable. Les ordinateurs portables peuvent nécessiter une installation spéciale pour fonctionner avec la VR."
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Réinitialiser le casque"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Plus d'informations"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_HmdDisplayMirrored_Header" "Écran casque dupliqué"
+"VRInitError_Driver_HmdDisplayMirrored_Header" "Écran du casque dupliqué"
 "VRInitError_Driver_HmdDisplayMirrored_Description" "L'écran du casque n'est pas détecté, mais un écran en mode duplication a été trouvé. Veuillez configurer le casque en « Mode étendu » plutôt qu'en « Mode duplication »."
 "VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Voir les propriétés de l'écran"
 "VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
@@ -285,6 +285,23 @@
 
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "En attente de connexion sans fil"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR attend qu'un casque sans fil se connecte..."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Impossible de se connecter à l'écran du casque"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Il se peut que votre casque ne soit pas connecté ou que votre environnement de bureau ne prenne pas en charge la VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Redémarrer SteamVR"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Plus d'informations"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Impossible de partager l'écran"
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Votre environnement de bureau (GNOME Wayland) ne prend pas en charge le partage de l'écran via le protocole lease de Direct Rendering Manager. Ce protocole est nécessaire pour la VR."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Plus d'informations"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
+
+"VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Impossible de se connecter au gestionnaire de fenêtres"
+"VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR n'a pas réussi à se connecter au gestionnaire de fenêtres. Essayez de redémarrer votre session ou SteamVR."
+"VRInitError_Compositor_CannotConnectToDisplayServer_Action" "Redémarrer SteamVR"
+"VRInitError_Compositor_CannotConnectToDisplayServer_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Mise à jour des pilotes graphiques"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Vous devez mettre à jour vos pilotes graphiques ou activer la planification de processeur graphique à accélération matérielle."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Plus d'informations"

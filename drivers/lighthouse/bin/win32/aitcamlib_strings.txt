@@ -13,6 +13,7 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
+&t&	A
 ',=?k
 '.5<=6/7>????????????????
 (2/2c2j2
@@ -27,9 +28,11 @@ $9^ t
 (f*^[0
 +3/3z4
 +Xt@(
++]^)WoO
 +o'q)}
 , last executing in 
 ,W5y+
+-!A9;
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -167,8 +170,8 @@ $9^ t
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202650Z0/
+230714000000Z
+230831183207Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -186,12 +189,11 @@ $9^ t
 3.3>3H3R3b3m3
 30343L3\3`3d3h3l3t3
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3=5A5u6y6
-3C._$
 3N3U3
 3X4_4
 3k3p3
@@ -214,7 +216,6 @@ $9^ t
 5!5'5-545;5B5I5P5W5^5f5n5v5
 5"5B5#666<6Z6`6n6
 5%656b7
-5%vzdY
 5'5/5
 5(5,5<5@5H5`5p5t5
 5(525B5M5n5~5
@@ -264,10 +265,11 @@ $9^ t
 8#8(828C8H8R8c8h8r8
 8%8*8;8A8F8Q8[8b8h8r8
 8*9.9=9A9b9f9u9y9
-8,838L8S8l8Q9c9i9
+8,838L8S8l8
 8/9o9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8Q9c9i9
 8SVWh\
 8[:_:
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -312,7 +314,6 @@ $9^ t
 <"<E<
 <'<L<`<s<
 <*>4>8>
-<*J=)
 <,<P<\<d<|<
 <.<8<B<R<]<~<
 <0:08
@@ -341,7 +342,6 @@ $9^ t
 >[>c>k>/?7?j?y?
 >i>m>
 >n?r?
->}aXr
 ? ?/?B?M?n?~?
 ?(?,?4?L?\?`?h?
 ?2?l?
@@ -368,6 +368,8 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
+@od4e
+A8XeY
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -395,11 +397,11 @@ CreateThread
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
 Enabled
@@ -430,6 +432,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
+H-^Eu
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -484,7 +487,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-OA98R\n+
+Od-YGRs
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -573,7 +576,6 @@ UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
-V21L]%JsV
 VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
@@ -643,6 +645,7 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
+a7hIw
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -703,7 +706,6 @@ c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
-cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -713,7 +715,6 @@ can't merge dc and ac
 corrupt
 cs_cs
 czech
-d7]k!|3
 da_da
 danish
 de_de
@@ -755,6 +756,7 @@ jj@0HK4
 k0i0$
 ko_ko
 korean
+l2|X/gGe
 latam
 ldexp
 m0k0$
@@ -796,7 +798,6 @@ ro_ro
 romanian
 ru_ru
 russian
-sXCb 
 schinese
 spanish
 startup
@@ -809,6 +810,7 @@ strtol
 sv_sv
 swedish
 t"Php
+t6Z^"[
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

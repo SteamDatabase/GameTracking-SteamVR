@@ -1150,7 +1150,7 @@
 "BS_PowerManagement_ObservedInTracking"						"Observada em uma sessão de rastreamento anterior."
 "BS_PowerManagement_Identify"								"Clique para identificar a estação-base."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 requer uma atualização para ativar a identificação de dispositivos."
-"BS_PowerManagement_FailedToConnectRefresh"					"Não foi possível conectar %1. Clique em \"Atualizar\" para tentar novamente."
+"BS_PowerManagement_FailedToConnectRefresh"					"%1 falhou ao conectar-se. Clique em \"Atualizar\" para tentar novamente."
 "BS_PowerManagement_ConnectionFailureLegend"				"Falha ao conectar-se. Clique em \"Atualizar\" para tentar novamente."
 
 "BS20_UpdateRecovery_Title"									"Recuperar atualização da estação-base 2.0"
