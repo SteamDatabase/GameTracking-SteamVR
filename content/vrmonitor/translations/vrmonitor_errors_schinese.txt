@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "更多信息"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=schinese#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "视频编码器错误"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "您也许需要更新您电脑的显卡驱动。"
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "更多信息"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=schinese#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR 错误"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR 无法连接到 Oculus 应用。请确认您已经安装了最新版本。"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "访问 oculus.com"
@@ -666,10 +671,20 @@
 "Popover_NoPose_HMD_Action" "更多信息"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/zh-cn/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "正在搜索…"
+"Popover_NoCameraPose_HMD_Description" "此头戴式显示器未定位。请尝试环顾四周。"
+"Popover_NoCameraPose_HMD_Action" "更多信息"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "正在搜索…"
 "Popover_NoPose_Controller_Description" "此控制器未定位。请确认其在一个定位器的定位范围内。 "
 "Popover_NoPose_Controller_Action" "识别控制器"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "正在搜索…"
+"Popover_NoCameraPose_Controller_Description" "此控制器未定位。请确认其在头戴式显示器摄像头的范围内。"
+"Popover_NoCameraPose_Controller_Action" "识别控制器"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "正在搜索…"
 "Popover_NoPose_Base_Description" "此定位器目前不在定位任何设备。请确认其在您的头戴式显示器的定位范围内。"
@@ -766,6 +781,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>由于</span>最近发生的崩溃，部分 SteamVR 加载项已屏蔽。<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=schinese'>了解更多</a>。"
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "管理加载项"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "需要 Steam 测试客户端"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "此次 StreamVR 测试版更新包含的一些新功能需要安装 Steam 测试客户端。"
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "更多信息"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR 更新"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR 已更新至版本 %2。"
@@ -929,6 +949,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "安装"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "是否安装 Bigscreen Beyond 驱动程序？"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "需要驱动程序才能在 SteamVR 中运行 Bigscreen Beyond 头戴式显示器。"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "安装"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "显示屏连接故障"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "您的显卡无法成功连接至您的头戴式显示器显示屏。尝试移除您正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<b>请使用下方的重置链接重置头戴式显示器，以便 GPU 可以重试。</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "重置头戴式显示器"
@@ -942,6 +967,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "更多信息"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/zh-cn/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "防火墙配置"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "修改 SteamVR 的防火墙规则需要您的许可。请点击“修改防火墙”，然后在 UAC 提示下选择“是”。"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "修改防火墙"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "请在游戏时拔掉控制器电源插头"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "以一定的角度拖拽充电线缆可能会对控制器造成损坏。"

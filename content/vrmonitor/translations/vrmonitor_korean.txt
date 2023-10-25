@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "디스플레이 경고(0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "베이스 스테이션 충돌(0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR 안전 모드(0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Steam 클라이언트 베타 필요(0x10000000000)"
 
 "DismissableWarning_Detected" "발견됨"
 "DismissableWarning_TimeFormat" "h:mm AP"
@@ -454,6 +455,7 @@
 "SystemReport_System" "시스템"
 "SystemReport_Chaperone" "샤프롱"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "기타"
 "SystemReport_Raw" "원시"
 
 "SystemReport_Title" "시스템 보고서"
@@ -476,6 +478,7 @@
 "SystemReport_DiscoverConfiguration" "구성 찾는 중"
 "SystemReport_DiscoverChaperone" "샤프롱 찾는 중"
 "SystemReport_DiscoverLighthouseDB" "LighthouseDB 찾는 중"
+"SystemReport_DiscoverDriverSpecific" "드라이버 특정 로그 찾는 중"
 
 
 "Main_Systray_Error_Title" "시스템 트레이"

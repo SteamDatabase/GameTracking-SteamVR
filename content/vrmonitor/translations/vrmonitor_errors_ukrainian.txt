@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Докладніше"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Помилка відеокодувальника"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Можливо, вам потрібно оновити драйвер відеокарти комп’ютера."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Детальніше"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Помилка SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR не вдалося підключитися до застосунку Oculus. Переконайтеся, що інстальовано найостаннішу версію."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Відвідати oculus.com"
@@ -668,10 +673,20 @@
 "Popover_NoPose_HMD_Action" "Докладніше"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Пошук…"
+"Popover_NoCameraPose_HMD_Description" "Цей шолом наразі не відстежується. Спробуйте подивитися навколо."
+"Popover_NoCameraPose_HMD_Action" "Докладніше"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Пошук…"
 "Popover_NoPose_Controller_Description" "Цей контролер наразі не відстежується. Переконайтеся, що він знаходиться в полі зору базової станції. "
 "Popover_NoPose_Controller_Action" "Ідентифікувати контролер"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Пошук…"
+"Popover_NoCameraPose_Controller_Description" "Цей контролер наразі не відстежується. Переконайтеся, що він у полі зору камер шолома."
+"Popover_NoCameraPose_Controller_Action" "Ідентифікувати контролер"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Пошук…"
 "Popover_NoPose_Base_Description" "Ця базова станція наразі не відстежує жодного пристрою. Переконайтеся, що вона знаходиться в полі зору шолома."
@@ -768,6 +783,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>У зв’язку</span> з останнім аварійним завершенням деякі доповнення SteamVR заблоковано.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Докладніше</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Управляти доповненнями"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Необхідна бета-версія клієнта Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Це оновлення бета-версії SteamVR має нові функції, для яких потрібно інсталювати бета-версію клієнта Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Докладніше"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/uk/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Оновлення SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR оновлено до версії %2."
@@ -931,6 +951,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Інсталювати"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Інсталювати драйвер Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Для роботи шолома Bigscreen Beyond зі SteamVR потрібно інсталювати драйвер."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Інсталювати"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Проблеми з підключенням екрана"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Відеокарті не вдалося підключитися до екрана шолома. Спробуйте від’єднати всі адаптери та подовжувачі, які ви використовуєте. Також спробуйте інший порт відеокарти, якщо це можливо. <b>Скористайтеся наведеним нижче посиланням для скидання налаштувань шолома, щоб повторити спробу підключення відеокарти.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Скинути налаштування шолома"
@@ -944,6 +969,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Докладніше"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Конфігурація брандмауера"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Щоби змінити правила брандмауера для SteamVR, потрібен ваш дозвіл. Натисніть на «Налаштувати брандмауер», а потім оберіть «Так» у вікні служби захисту користувачів (UAC)."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Налаштувати брандмауер"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Від’єднайте контролери під час гри."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Витягування кабелю для заряджання під непрямим кутом може призвести до пошкодження контролера."

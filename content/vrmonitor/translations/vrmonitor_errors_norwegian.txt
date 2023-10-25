@@ -286,14 +286,14 @@
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Venter på trådløs tilkobling"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR venter på at et trådløst hodesett skal koble til …"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Kunne ikke koble til hodesettets skjerm"
-"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Det er mulig at hodesettet ikke er tilkoblet, eller at skrivebordsmiljøet ikke støtter VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Det er mulig at hodesettet ditt er ikke tilkoblet, eller at skrivebordsmiljøet ikke støtter VR."
 "VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Start SteamVR på nytt"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Mer info"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/no/faqs/view/18A4-1E10-8A94-3DDA"
 
 "VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Kunne ikke lease skjerm"
-"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Skrivebordsmiljøet (Gnome Wayland) støtter ikke DRM-leasing, som er nødvendig for virtuell virkelighet."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Skrivebordsmiljøet ditt (Gnome Wayland) støtter ikke DRM-leasing, som er nødvendig for virtuell virkelighet."
 "VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Mer info"
 "VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/no/faqs/view/18A4-1E10-8A94-3DDA"
 
@@ -413,6 +413,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Description" "Du må kanskje oppdatere datamaskinens skjermdriver."
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Mer info"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Feil med videokoding"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Du må kanskje oppdatere datamaskinens skjermdriver."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Mer info"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-feil"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kunne ikke koble til Oculus-programmet. Sørg for at du har den nyeste versjonen installert."
@@ -666,10 +671,20 @@
 "Popover_NoPose_HMD_Action" "Mer info"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/no/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Søker …"
+"Popover_NoCameraPose_HMD_Description" "Dette hodesettet sporer ikke for øyeblikket. Prøv å se deg rundt."
+"Popover_NoCameraPose_HMD_Action" "Mer info"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/no/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Søker …"
 "Popover_NoPose_Controller_Description" "Denne kontrolleren sporer ikke for øyeblikket. Sørg for at den er synlig for en basestasjon."
 "Popover_NoPose_Controller_Action" "Identifiser kontroller"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Søker …"
+"Popover_NoCameraPose_Controller_Description" "Denne kontrolleren sporer ikke for øyeblikket. Sørg for at den er synlig for hodesettets kameraer."
+"Popover_NoCameraPose_Controller_Action" "Identifiser kontroller"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Søker …"
 "Popover_NoPose_Base_Description" "Denne basestasjonen sporer ingen enheter for øyeblikket. Sørg for at den er synlig for hodesettet."
@@ -766,6 +781,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Noen</span> SteamVR-tillegg er blitt blokkerte på grunn av en nylig krasj.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Les mer</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Behandle tillegg"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam-klientbetaen påkrevd"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Denne SteamVR-betaoppdateringen har noen nye funksjoner som krever at Steam-klientbetaen er installert."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Mer info"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/no/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-oppdatering"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR er blitt oppdatert til versjon %2."
@@ -929,6 +949,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installer"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Installer driver for Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Det kreves en driver for å kjøre Bigscreen Beyond-hodesett i SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installer"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problem med skjermforbindelse"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Skjermkortet kan ikke opprette en forbindelse til skjermen i hodesettet. Prøv å fjerne eventuelle kabeladaptere eller forlengere. Prøv en annen port på skjermkortet hvis det er mulig. <b>Trykk tilbakestill nedenfor for å tilbakestille hodesettet slik at skjermkortet prøver forbindelsen på nytt.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Tilbakestill hodesett"
@@ -942,6 +967,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Mer informasjon"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/no/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Konfigurasjon av brannmur"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Du må gi tillatelse til å endre brannmurreglene for SteamVR. Trykk på «Endre brannmur», og velg «Ja» i brukerkontokontrollen."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Endre brannmur"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Koble fra kontrollerne under spillingen"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Hvis ladekabelen trekkes ut på skrå, kan det skade kontrolleren."

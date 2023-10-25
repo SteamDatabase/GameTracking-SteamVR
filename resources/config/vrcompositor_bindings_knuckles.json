@@ -129,7 +129,7 @@
                   }
                },
                "mode" : "button",
-               "path" : "/user/hand/right/input/a"
+               "path" : "/user/hand/right/input/b"
             },
             {
                "inputs" : {
@@ -138,7 +138,7 @@
                   }
                },
                "mode" : "button",
-               "path" : "/user/hand/right/input/b"
+               "path" : "/user/hand/right/input/a"
             },
             {
                "inputs" : {

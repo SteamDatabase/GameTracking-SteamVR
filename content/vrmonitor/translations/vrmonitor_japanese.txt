@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "ディスプレイ警告（0x10000）"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "ベースステーションの競合（0x400000）"
 "DismissableWarning_SteamVRInSafeMode" "SteamVRセーフモード（0x1000000）"
+"DismissableWarning_SteamBetaNeeded" "Steamベータクライアントが必要です（0x10000000000）"
 
 "DismissableWarning_Detected" "検出済み"
 "DismissableWarning_TimeFormat" "h:mm:ss AP"
@@ -456,6 +457,7 @@
 "SystemReport_System" "システム"
 "SystemReport_Chaperone" "シャペロン"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "その他"
 "SystemReport_Raw" "未加工"
 
 "SystemReport_Title" "システムレポート"
@@ -478,6 +480,7 @@
 "SystemReport_DiscoverConfiguration" "設定の検出中"
 "SystemReport_DiscoverChaperone" "シャペロンを検出しています"
 "SystemReport_DiscoverLighthouseDB" "LighthouseDB を検出しています"
+"SystemReport_DiscoverDriverSpecific" "ドライバ固有のログの検出中"
 
 
 "Main_Systray_Error_Title" "システムトレイ"

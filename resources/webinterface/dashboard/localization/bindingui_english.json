@@ -564,6 +564,14 @@
 
   "Settings_ControllerSettings_Title" : "Thumbstick Settings",
   "Settings_ControllerSettings_Utilities": "Controller Utilities",
+  "Settings_ControllerOverlayMagnetismEnabled": "Overlay Magnetism",
+  "Settings_ControllerOverlayMagnetismLockDistance": "Cursor Lock Distance",
+  "Settings_ControllerOverlayMagnetismDeadZoneRatio": "Cursor Lock Dead Zone",
+  "Settings_ControllerOverlayFilteringEnabled": "Overlay Filtering",
+  "Settings_ControllerOverlayFilteringMinCutoff": "Filtering 1€ Cut-off",
+  "Settings_ControllerOverlayFilteringBeta": "Filtering 1€ Beta",
+  "Settings_ControllerOverlayFilteringDerivCutoff": "Filtering 1€ Deriv Cutoff",
+
   "Settings_General_Cancel": "Cancel",
   "Settings_General_Confirm": "Confirm",
   "Settings_General_Calibrate": "Calibrate",

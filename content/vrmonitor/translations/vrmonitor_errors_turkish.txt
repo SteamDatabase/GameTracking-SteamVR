@@ -415,6 +415,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Ayrıntılı bilgi"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Video Kodlayıcı Hatası"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmeniz gerekebilir."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Ayrıntılı bilgi"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR Hatası"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR, Oculus uygulaması ile bağlantı sağlayamadı. Lütfen en son sürümün yüklü olduğundan emin olun."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "oculus.com adresini ziyaret edin"
@@ -683,10 +688,20 @@
 "Popover_NoPose_HMD_Action" "Daha fazla bilgi"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Aranıyor..."
+"Popover_NoCameraPose_HMD_Description" "Bu başlık şu anda izleme yapmıyor. Etrafınıza bakmayı deneyin."
+"Popover_NoCameraPose_HMD_Action" "Daha fazla bilgi"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Aranıyor..."
 "Popover_NoPose_Controller_Description" "Bu kontrolcü şu anda izlenmiyor. Bir takip istasyonunun görüşünde olduğuna emin olun."
 "Popover_NoPose_Controller_Action" "Kontrolcü belirleyin"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Aranıyor..."
+"Popover_NoCameraPose_Controller_Description" "Bu kontrolcü şu anda izleme yapmıyor. Başlık kameralarının görüşünde olduğuna emin olun."
+"Popover_NoCameraPose_Controller_Action" "Kontrolcüyü tanımla"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Aranıyor..."
 "Popover_NoPose_Base_Description" "Bu takip istasyonu şu anda hiçbir cihazı takip etmiyor. Başlığınızın görüşünde olduğuna emin olun."
@@ -783,6 +798,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>En son</span> meydana gelen bir hata nedeniyle bazı SteamVR eklentileri engellendi.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=turkish'>Ayrıntılı bilgi edinin</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Eklentileri Yönet"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam Beta İstemcisi Gerekli"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "SteamVR beta güncellemesi, Steam beta istemcisinin yüklü olmasını gerektiren bazı yeni özelliklere sahip."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/en/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR Güncellemesi"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR %2 sürümüne güncellendi."
@@ -946,6 +966,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Yükle"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Bigscreen Beyond sürücüsü yüklensin mi?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Bigscreen Beyond başlığını SteamVR'da çalıştırabilmek için bir sürücü gerekli."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Yükle"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ekran Bağlantısı Sorunu"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ekran kartınız başlığınızın ekranına başarılı bir şekilde bağlanamıyor. Eğer kullanıyorsanız bütün kablo adaptörlerini ve uzatmaları çıkartmayı deneyin. Mevcutsa, ekran kartınızın farklı bir girişini deneyin. <b>Ekran kartınızın tekrar denemesi için aşağıdaki yeniden başlatma bağlantısını kullanarak başlığınızı yeniden başlatın.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Başlığı Yeniden Başlat"
@@ -959,6 +984,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Daha fazla bilgi"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Güvenlik Duvarı Yapılandırması"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "SteamVR için güvenlik duvarı kurallarınızı değiştirmek için izniniz gerekiyor. Lütfen \"Güvenlik Duvarını Değiştir\"i tıklayın ve ardından UAC (kullanıcı hesap kontrolü) isteminde Evet'i seçin."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Güvenlik Duvarını Değiştir"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Oynarken lütfen kontrolcüleri çıkarın"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Şarj kablosunu yamuk çekmek kontrolcüye hasar verebilir."

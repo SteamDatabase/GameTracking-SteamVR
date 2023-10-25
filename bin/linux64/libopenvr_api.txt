@@ -1,8 +1,6 @@
  B __bss_start
  B _edata
  B _end
- B std::codecvt<char16_t, char8_t, __mbstate_t>::id
- B std::codecvt<char32_t, char8_t, __mbstate_t>::id
  T LiquidVR
  T VRControlPanel
  T VRPaths
@@ -54,22 +52,6 @@
  T _txnal_logic_error_get_msg(void*)
  T _txnal_runtime_error_get_msg(void*)
  T _txnal_sso_string_c_str(void const*)
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  V typeinfo for __cxxabiv1::__class_type_info
  V typeinfo for __cxxabiv1::__forced_unwind
  V typeinfo for __cxxabiv1::__foreign_exception
@@ -142,10 +124,6 @@
  V typeinfo for signed char
  V typeinfo for signed char const*
  V typeinfo for signed char*
- V typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo for unsigned __int128
  V typeinfo for unsigned __int128 const*
  V typeinfo for unsigned __int128*
@@ -242,10 +220,6 @@
  V typeinfo name for signed char
  V typeinfo name for signed char const*
  V typeinfo name for signed char*
- V typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo name for unsigned __int128
  V typeinfo name for unsigned __int128 const*
  V typeinfo name for unsigned __int128*
@@ -283,10 +257,6 @@
  V vtable for __gnu_cxx::__concurrence_lock_error
  V vtable for __gnu_cxx::__concurrence_unlock_error
  V vtable for __gnu_cxx::recursive_init_error
- V vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  _ITM_RU1
  _ITM_RU8
  _ITM_addUserCommitAction
@@ -492,7 +462,9 @@
  b std::clog
  b std::codecvt<char, char, __mbstate_t>::id
  b std::codecvt<char16_t, char, __mbstate_t>::id
+ b std::codecvt<char16_t, char8_t, __mbstate_t>::id
  b std::codecvt<char32_t, char, __mbstate_t>::id
+ b std::codecvt<char32_t, char8_t, __mbstate_t>::id
  b std::codecvt<wchar_t, char, __mbstate_t>::id
  b std::collate<char>::id
  b std::collate<wchar_t>::id
@@ -651,7 +623,9 @@
  d typeinfo for std::_V2::error_category
  d typeinfo for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d typeinfo for std::__codecvt_utf16_base<char16_t>
  d typeinfo for std::__codecvt_utf16_base<char32_t>
@@ -751,7 +725,9 @@
  d typeinfo for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d typeinfo for std::codecvt<char, char, __mbstate_t>
  d typeinfo for std::codecvt<char16_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<char32_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<wchar_t, char, __mbstate_t>
  d typeinfo for std::codecvt_base
  d typeinfo for std::codecvt_byname<char, char, __mbstate_t>
@@ -845,7 +821,9 @@
  d vtable for std::_V2::error_category
  d vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d vtable for std::__codecvt_utf16_base<char16_t>
  d vtable for std::__codecvt_utf16_base<char32_t>
@@ -945,7 +923,9 @@
  d vtable for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d vtable for std::codecvt<char, char, __mbstate_t>
  d vtable for std::codecvt<char16_t, char, __mbstate_t>
+ d vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<char32_t, char, __mbstate_t>
+ d vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<wchar_t, char, __mbstate_t>
  d vtable for std::codecvt_byname<char, char, __mbstate_t>
  d vtable for std::codecvt_byname<wchar_t, char, __mbstate_t>
@@ -1060,7 +1040,7 @@
  pthread_once
  putc
  putwc
- r CSWTCH.100
+ r CSWTCH.107
  r Json::Value::maxInt
  r Json::Value::maxInt64
  r Json::Value::maxLargestInt
@@ -1182,7 +1162,9 @@
  r typeinfo name for std::_V2::error_category
  r typeinfo name for std::__codecvt_abstract_base<char, char, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  r typeinfo name for std::__codecvt_utf16_base<char16_t>
  r typeinfo name for std::__codecvt_utf16_base<char32_t>
@@ -1282,7 +1264,9 @@
  r typeinfo name for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  r typeinfo name for std::codecvt<char, char, __mbstate_t>
  r typeinfo name for std::codecvt<char16_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<char32_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<wchar_t, char, __mbstate_t>
  r typeinfo name for std::codecvt_base
  r typeinfo name for std::codecvt_byname<char, char, __mbstate_t>
@@ -4134,6 +4118,14 @@
  t std::codecvt<char16_t, char, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<char32_t, char, __mbstate_t>::do_always_noconv() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_encoding() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
@@ -4142,6 +4134,14 @@
  t std::codecvt<char32_t, char, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<wchar_t, char, __mbstate_t> const& std::use_facet<std::codecvt<wchar_t, char, __mbstate_t> >(std::locale const&)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(__locale_struct*, unsigned long)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)

@@ -418,6 +418,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Weitere Informationen"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=german#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Videokodierer-Fehler"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Sie müssen gegebenenfalls den Grafiktreiber Ihres Computers aktualisieren."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Weitere Informationen"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://help.steampowered.com/faqs/view/153F-1B04-6CAB-43A1#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-Fehler"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR konnte keine Verbindung zur Oculus-Anwendung aufbauen. Bitte stellen Sie sicher, dass Sie die aktuellste Version installiert haben."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Besuchen Sie oculus.com"
@@ -547,7 +552,7 @@
 "ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "Lighthouse_UnknownEvent_Header" "Basisstationsfehler"
-"Lighthouse_UnknownEvent_Description" "Bei SteamVR™ Tracking ist ein Problem aufgetreten. Bitte besuchen Sie den SteamVR-Support, um weitere Informationen zu erhalten."
+"Lighthouse_UnknownEvent_Description" "Bei der SteamVR™-Ortung ist ein Problem aufgetreten. Bitte besuchen Sie den SteamVR-Support, um weitere Informationen zu erhalten."
 "Lighthouse_UnknownEvent_Action" "Weitere Informationen"
 "Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
@@ -651,41 +656,51 @@
 "Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
 "Popover_Pose_HMD_Header" "VR-Headset aktiv"
-"Popover_Pose_HMD_Description" "Dieses VR-Headset sendet aktuell Signale."
+"Popover_Pose_HMD_Description" "Die Ortung Ihres VR-Headsets schlägt derzeit fehl."
 "Popover_Pose_Controller_Header" "Controller aktiv"
-"Popover_Pose_Controller_Description" "Dieser Controller sendet aktuell Signale."
+"Popover_Pose_Controller_Description" "Dieser Controller wird aktuell geortet."
 "Popover_Pose_Controller_Action" "Controller identifizieren"
 "Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_Pose_Base_Header" "Basisstation aktiv"
-"Popover_Pose_Base_Description" "Diese Basisstation sendet derzeit Signale."
+"Popover_Pose_Base_Description" "Die Ortung der Basisstation schlägt derzeit fehl."
 "Popover_Pose_Base_Action" "Basisstation identifizieren"
 "Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
 
 "Popover_Pose_Tracker_Header" "Tracker aktiv"
-"Popover_Pose_Tracker_Description" "Dieses Gerät sendet aktuell Signale."
-"Popover_NoPose_Invalid_Header" "Sendet keine Signale"
-"Popover_NoPose_Invalid_Description" "Dieses nicht erkannte Gerät ist verbunden, aber sendet keine Signale"
+"Popover_Pose_Tracker_Description" "Das Gerät wird aktuell geortet."
+"Popover_NoPose_Invalid_Header" "Ortung fehlgeschlagen"
+"Popover_NoPose_Invalid_Description" "Dieses Gerät wurde nicht erkannt und die Ortung ist fehlgeschlagen."
 "Popover_NoPose_Invalid_Action" "Weitere Informationen"
 "Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
 
 "Popover_NoPose_HMD_Header" "Suche läuft..."
-"Popover_NoPose_HMD_Description" "Dieses VR-Headset sendet derzeit keine Signale. Bitte stellen Sie sicher, dass es für eine Basisstation sichtbar ist."
+"Popover_NoPose_HMD_Description" "Die Ortung dieses VR-Headsets schlägt derzeit fehl. Bitte stellen Sie sicher, dass es für eine Basisstation sichtbar ist."
 "Popover_NoPose_HMD_Action" "Weitere Informationen"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Suche läuft …"
+"Popover_NoCameraPose_HMD_Description" "Die Ortung des VR-Headsets schlägt derzeit fehl. Bitte versuchen Sie, sich umzuschauen."
+"Popover_NoCameraPose_HMD_Action" "Weitere Informationen"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/de/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Suche läuft..."
-"Popover_NoPose_Controller_Description" "Dieser Controller sendet derzeit keine Signale. Bitte stellen Sie sicher, dass er für eine Basisstation sichtbar ist."
+"Popover_NoPose_Controller_Description" "Die Ortung des Controllers schlägt derzeit fehl. Bitte stellen Sie sicher, dass er für eine Basisstation sichtbar ist."
 "Popover_NoPose_Controller_Action" "Controller identifizieren"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
+"Popover_NoCameraPose_Controller_Header" "Suche läuft …"
+"Popover_NoCameraPose_Controller_Description" "Die Ortung des Controllers schlägt derzeit fehl. Bitte stellen Sie sicher, dass er für die Kameras des VR-Headsets sichtbar ist."
+"Popover_NoCameraPose_Controller_Action" "Controller identifizieren"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
 "Popover_NoPose_Base_Header" "Suche läuft..."
-"Popover_NoPose_Base_Description" "Diese Basisstation sendet derzeit keine Signale. Bitte stellen Sie sicher, dass sie für Ihr VR-Headset sichtbar ist."
+"Popover_NoPose_Base_Description" "Die Ortung dieser Basisstation schlägt derzeit fehl. Bitte stellen Sie sicher, dass sie für Ihr VR-Headset sichtbar ist."
 "Popover_NoPose_Base_Action" "Weitere Informationen"
 "Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
 "Popover_NoPose_Tracker_Header" "Suche läuft..."
-"Popover_NoPose_Tracker_Description" "Dieses Gerät sendet derzeit keine Signale. Bitte stellen Sie sicher, dass es für eine Basisstation sichtbar ist."
+"Popover_NoPose_Tracker_Description" "Die Ortung dieses Geräts schlägt derzeit fehl. Bitte stellen Sie sicher, dass es für eine Basisstation sichtbar ist."
 "Popover_NoPose_Tracker_Action" "Weitere Informationen"
 "Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
@@ -761,7 +776,7 @@
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=german#base-stations"
 
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Nur eine Basisstation erkannt"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Wenn Sie nur eine Basisstation verwenden, können Sie die Erfassungsqualität verbessern, indem Sie diese Basisstation in Modus A umschalten."
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Wenn Sie nur eine Basisstation verwenden, können Sie die Ortungsqualität verbessern, indem Sie diese Basisstation in Modus A umschalten."
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Weitere Informationen"
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
 
@@ -774,6 +789,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Aufgrund</span> eines kürzlichen Absturzes wurden einige Add-ons für SteamVR blockiert.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Weitere Informationen</a>"
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Add-ons verwalten"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam-Beta-Client erforderlich"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Dieses Update für die SteamVR-Beta enthält einige neue Funktionen, für die die Installation des Steam-Beta-Clients erforderlich ist."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Weitere Informationen"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/de/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-Update"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR wurde auf Version %2 aktualisiert."
@@ -937,6 +957,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installieren"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Bigscreen Beyond-Treiber installieren?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Ein Treiber wird benötigt, um das VR-Headset Bigscreen Beyond für SteamVR nutzen zu können."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installieren"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Verbindungsprobleme anzeigen"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ihre Grafikkarte kann keine erfolgreiche verbindung mit Ihrem VR-Headset aufbauen. Bitte entfernen Sie alle Kabeladapter und -verlängerungen. Testen Sie einen anderen Anschluss an Ihrer Grafikkarte, falls vorhanden. <b>Klicken Sie auf den Link unten, um das VR-Headset zurückzusetzen, damit die Grafikkarte es erneut versuchen kann.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "VR-Headset zurücksetzen"
@@ -950,6 +975,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Weitere Informationen"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Firewall-Konfiguration"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Die Änderung der Firewall-Regeln für SteamVR erfordert Ihre Zustimmung. Klicken Sie auf „Firewall anpassen“ und wählen Sie in der Aufforderung zur Benutzerkontensteuerung „Ja“."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Firewall anpassen"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Bitte trennen Sie Ihre Controller zum Spielen vom Aufladekabel."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Ein Ziehen am Aufladekabel aus verschiedenen Winkeln kann die Controller beschädigen und zu Unfällen führen."

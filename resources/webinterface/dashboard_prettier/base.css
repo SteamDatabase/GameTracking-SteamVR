@@ -1,4 +1,22 @@
 :root {
+  --gamepadui-lightest-grey: #dcdedf;
+  --gamepadui-lighter-grey: #b8bcbf;
+  --gamepadui-light-grey: #8b929a;
+  --gamepadui-grey: #67707b;
+  --gamepadui-dark-grey: #3d4450;
+  --gamepadui-darker-grey: #23262e;
+  --gamepadui-darkish-grey: #171d25;
+  --gamepadui-darkest-grey: #0e141b;
+
+  --gamepadui-lightest-grey-rgb: 220, 222, 223;
+  --gamepadui-lighter-grey-rgb: 184, 188, 191;
+  --gamepadui-light-grey-rgb: 139, 146, 154;
+  --gamepadui-grey-rgb: 103, 112, 123;
+  --gamepadui-dark-grey-rgb: 61, 68, 80;
+  --gamepadui-darker-grey-rgb: 35, 38, 46;
+  --gamepadui-darkish-grey-rgb: 23, 29, 37;
+  --gamepadui-darkest-grey-rgb: 14, 20, 27;
+
   --background-color: #00000000;
   --background-image: url("/dashboard/images/settings/background.png");
 
@@ -255,6 +273,66 @@ html.VROverlay {
 
   /* Establish 1rem -> 32px on overlay UIs. */
   font-size: 32px;
+}
+
+body.VRGamepadUI {
+  --buttondefault: var(--gamepadui-darker-grey) !important;
+  --buttonhover: var(--gamepadui-dark-grey) !important;
+
+  --settings-control-background-new-rgb: var(--gamepadui-darker-grey-rgb);
+  --settings-control-background-new-a: 0.5;
+  --settings-control-background-new: rgba(
+    var(--settings-control-background-new-rgb),
+    var(--settings-control-background-new-a)
+  );
+
+  --settings-control-background-new-hover-rgb: var(
+    --gamepadui-darkish-grey-rgb
+  );
+  --settings-control-background-new-hover-a: 1;
+  --settings-control-background-new-hover: rgba(
+    var(--settings-control-background-new-hover-rgb),
+    var(--settings-control-background-new-hover-a)
+  );
+
+  --settings-sidebar-button-expansion: 0px;
+  --settings-sidebar-button-max-height: 2.3rem;
+  --settings-left-outer-margin: 0px;
+  --settings-button-border-radius: 5px;
+  --settings-control-inner-border-radius: 0.3rem;
+  --settings-control-outer-border-radius: 0.4rem;
+  --settings-button-image-border-radius: calc(
+    var(--settings-control-inner-border-radius) * 0.5
+  );
+  --settings-subsection-border-radius: 0.8em;
+  --settings-subsection-background-rgb: 5, 7, 9;
+  --settings-subsection-background-a: 0.4;
+  --background-color: var(--gamepadui-darkest-grey);
+  --background-image: none;
+  --settings-font-weight: 400;
+
+  --dropdown-popover-background-color: var(--gamepadui-darker-grey);
+  --dropdown-popover-selected-background-color: hsl(218, 13%, 33%);
+
+  --settings-control-hover-background: var(--buttonhover);
+  --settings-control-active-background: var(
+    --settings-control-background-hover-background
+  );
+  --settings-control-activated-background: var(--buttondefault);
+  --settings-control-track-background-rgb: var(
+    --settings-control-background-new-rgb
+  );
+  --settings-control-track-background-a: var(
+    --settings-control-background-new-a
+  );
+  --settings-control-track-hover-background-a: var(
+    --settings-control-background-new-hover-a
+  );
+}
+
+body.VRGamepadUI.SGApp {
+  --settings-border-radius: 10px;
+  --settings-font-size: 0.8rem;
 }
 
 html {
@@ -538,6 +616,23 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
 
 .ButtonControl.Colorful:not(.Disabled):active {
   background: var(--colorfulbutton-press-color);
+}
+
+vsg-node[vsg-type="panel"] > .ButtonControl {
+  margin: 0;
+}
+
+.FloatingButtonRow {
+  display: flex;
+  transition: opacity 0.4s ease-out;
+}
+
+.FloatingButtonRow:not(:hover) {
+  opacity: 0.4;
+}
+
+.FloatingButtonRow .ButtonControl {
+  width: fit-content;
 }
 
 /* .ButtonControl.Colorful:not(.Disabled):hover

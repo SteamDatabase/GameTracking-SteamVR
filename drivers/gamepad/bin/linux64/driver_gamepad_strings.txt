@@ -241,9 +241,12 @@ CLog::s_pInstance
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*)
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*) [clone .cold]
 CLogCallback::~CLogCallback()
+CSDLDynamic::Init()
+CSDLDynamic::Unload()
+CSDLDynamic::~CSDLDynamic()
 CST
-CSWTCH.100
-CSWTCH.208
+CSWTCH.107
+CSWTCH.212
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -362,6 +365,7 @@ E
 EET
 EST
 Enable multithreading to use std::thread
+Error: failed to load dynamic SDL
 F
 Failed to init scheduler: failed to get rlimit
 Failed to init scheduler: failed to get sched params %d
@@ -379,7 +383,7 @@ Format(char const*, ...) [clone .cold]
 Fri
 Friday
 G
-GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GLIBC_2.12
 GLIBC_2.14
 GLIBC_2.2.5
@@ -590,6 +594,9 @@ RepairUTF8(char const*, char const*, std::string&) [clone .cold]
 RepairUTF8(std::string const&, std::string&)
 ReturnStdString(std::string const&, char*, unsigned int)
 S
+SDLDynamic()
+SDLDynamic() [clone .cold]
+SDLDynamic()::m_instance
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
 SDL_GAMECONTROLLER_IGNORE_DEVICES
 SDL_GAMECONTROLLER_IGNORE_DEVICES_EXCEPT
@@ -625,6 +632,9 @@ September
 Set thread %p priority to: %d
 SetCurrentProcessExplicitAppUserModelID()
 SetEnvironmentVariable(char const*, char const*)
+SharedLib_GetFunction(void*, char const*)
+SharedLib_Load(char const*, std::string*)
+SharedLib_Unload(void*)
 Si
 Skipping controller %d because it has the Valve VID
 So
@@ -1358,8 +1368,6 @@ construction vtable for std::ostream-in-std::iostream
 covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
-crc32(unsigned int, void const*, unsigned long)
-crc32(unsigned int, void const*, unsigned long)::crcTable
 d
 dV
 d_abi_tags
@@ -1422,6 +1430,10 @@ dgettext
 digit
 dl
 dl_iterate_phdr
+dlclose
+dlerror
+dlopen
+dlsym
 double
 ds
 dt
@@ -1508,6 +1520,7 @@ guard variable for
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
+guard variable for SDLDynamic()::m_instance
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
 guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
@@ -1594,6 +1607,7 @@ le
 li
 libSDL2-2.0.so.0
 libc.so.6
+libdl.so.2
 libpthread.so.0
 linear_search_fdes
 ll
@@ -5502,6 +5516,8 @@ volatile
 vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::VRDriverContext()::pHost
 vr::k_InterfaceVersions
+vrcore::crc32(unsigned int, void const*, unsigned long)
+vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vsnprintf
 vtable for
 vtable for (anonymous namespace)::generic_error_category

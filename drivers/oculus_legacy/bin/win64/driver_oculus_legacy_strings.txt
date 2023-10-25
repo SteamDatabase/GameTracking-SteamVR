@@ -6,7 +6,7 @@
  A__^
  H3E H3E
 !hn7!
-#@l~c
+&hU.&
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -15,16 +15,16 @@
 (f*^[0
 (l$PD
 (t$pH
+)18e]
 )D$ H
 )\$pD
 )d$`D
 )t$pu.H
-*[j!9
+*99%m
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
--Sm.eV
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -94,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831183613Z0/
+231024210337Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -129,8 +129,8 @@
 ;k sAH
 ;k sDH
 <0:08
-=8VgU
 =rIQU
+>%,oja
 >0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -180,7 +180,6 @@ D9@ s
 D9H s
 D;A s
 D;I s
-DH3a:
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -239,6 +238,7 @@ InitializeSListHead
 Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J8a*<
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -272,7 +272,8 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSYR
+RSDSp^]
+RYR9R
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -370,7 +371,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`O?\09
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -383,10 +383,11 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
-dj_,"
+d^Xy5HJ
 dk2_camera
 driver_oculus_legacy.dll
 effffff
+f0X^`
 f9<Xu
 getenv
 gfffffffH
@@ -396,6 +397,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+it?vF
 jj@0HK4
 k0i0$
 l$8E3
@@ -409,6 +411,7 @@ memmove
 memset
 n\tuH
 ntelD
+oK6)W({
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -488,7 +491,6 @@ z(uMH
 {un'%
 |$ AVH
 |$8I;
-|KqS'
 |Lu?c
 }LuHO
 ~qj#k"

@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Lisätietoja"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Videon koodausvirhe"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Näytönohjaimen ajuri täytyy ehkä päivittää."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Lisätietoa"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-virhe"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR ei voinut yhdistää Oculus-sovellukseen. Varmista, että olet asentanut uusimman version."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Käy sivulla oculus.com"
@@ -666,10 +671,20 @@
 "Popover_NoPose_HMD_Action" "Lisätietoja"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Etsitään"
+"Popover_NoCameraPose_HMD_Description" "Näiden VR-lasien seuranta ei toimi. Yritä katsella ympärillesi."
+"Popover_NoCameraPose_HMD_Action" "Lisätietoja"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Haetaan..."
 "Popover_NoPose_Controller_Description" "Tämä ohjain ei seuraa. Varmista, että tukiasema näkee sen."
 "Popover_NoPose_Controller_Action" "Tunnista ohjain"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Etsitään"
+"Popover_NoCameraPose_Controller_Description" "Tämän ohjaimen seuranta ei toimi. Varmista, että VR-lasien kamera näkee ohjaimen."
+"Popover_NoCameraPose_Controller_Action" "Tunnista ohjain"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Haetaan..."
 "Popover_NoPose_Base_Description" "Tämä tukiasema ei seuraa mitään laitteita. Varmista, että se näkee VR-lasisi."
@@ -766,6 +781,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "Äskettäisen kaatumisen <span>vuoksi</span> joitain SteamVR:n lisäosia on estetty. <p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish'>Lisätietoja</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Hallinnoi lisäosia"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Vaatii Steam-asiakasohjelman betaversion"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "SteamVR:n betapäivitys sisältää uusia ominaisuuksia, jotka vaativat Steam-asiakasohjelman betaversion asentamista."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Lisätietoja"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/fi/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-päivitys"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR on päivitetty versioon %2."
@@ -929,6 +949,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Asenna"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Asennetaanko Bigscreen Beyondin ajuri?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Ajuri vaaditaan, jotta Bigscreen Beyond -VR-lasit toimivat SteamVR:ssä."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Asenna"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Näytön yhteysongelma"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Näytönohjaimesi ei voi yhdistää VR-lasien näyttöön. Poista kaikki kaapelin adapterit ja lisäosat ja yritä uudelleen. Kokeile muita näytönohjaimen portteja, jos mahdollista. <b>Klikkaa nollaa-linkkiä alta nollataksesi VR-lasisi, jotta näytönohjain yrittää yhdistää uudelleen.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Nollaa VR-lasit"
@@ -942,6 +967,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Lisätietoja"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Palomuurin määritykset"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Sinun täytyy oikeuttaa SteamVR:n palomuurisääntöjen muokkaus. Klikkaa Muokkaa palomuuria ja valitse UAC-kehotteessa Kyllä."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Muokkaa palomuuria"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Irrota ohjaimet johdoista pelin aikana"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Johdon vetäminen vinossa asennossa saattaa aiheuttaa vahinkoa ohjaimelle."

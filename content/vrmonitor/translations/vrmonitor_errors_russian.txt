@@ -288,14 +288,14 @@
 "VRInitError_Driver_WirelessHmdNotConnected_Header" "Ожидание беспроводного подключения"
 "VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR ждёт беспроводного подключения шлема..."
 "VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Не удалось подключиться к экрану шлема"
-"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Возможно, ваш шлем не подключён, или ваша среда рабочего стола не поддерживает VR."
+"VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Возможно, ваш шлем не подключён или ваша среда рабочего стола не поддерживает VR."
 "VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Перезапустить SteamVR"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Подробнее"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
 
 "VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Не удалось передать экран в пользование"
-"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Ваша среда рабочего стола (GNOME Wayland) не поддерживает передачу ресурсов в пользование через подсистему Direct Rendering Manager, а без этого не может работать виртуальная реальность."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Ваша среда рабочего стола (Gnome Wayland) не поддерживает передачу ресурсов в пользование через подсистему Direct Rendering Manager, а без этого не может работать виртуальная реальность."
 "VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Подробнее"
 "VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
 
@@ -415,6 +415,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Description" "Возможно, требуется обновить драйвер видеокарты."
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Подробнее"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Ошибка кодировщика видео"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Возможно, требуется обновить драйвер видеокарты."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Подробнее"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Ошибка SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR не удалось подключиться к приложению Oculus. Убедитесь, что установлена его последняя версия."
@@ -668,10 +673,20 @@
 "Popover_NoPose_HMD_Action" "Подробнее"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/ru/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Поиск..."
+"Popover_NoCameraPose_HMD_Description" "Этот шлем не отслеживается. Попробуйте посмотреть по сторонам."
+"Popover_NoCameraPose_HMD_Action" "Подробнее"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Поиск..."
 "Popover_NoPose_Controller_Description" "Этот контроллер не отслеживается. Убедитесь, что он находится в зоне видимости базовой станции."
 "Popover_NoPose_Controller_Action" "Распознать контроллер"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Поиск..."
+"Popover_NoCameraPose_Controller_Description" "Этот контроллер не отслеживается. Убедитесь, что он находится в зоне видимости камер шлема."
+"Popover_NoCameraPose_Controller_Action" "Распознать контроллер"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Поиск..."
 "Popover_NoPose_Base_Description" "Эта базовая станция не отслеживает никакие устройства. Убедитесь, что она находится в зоне видимости шлема."
@@ -764,10 +779,15 @@
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Настройка"
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
 
-"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Некоторые аддоны заблокированы"
-"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>В связи</span> с недавним сбоем некоторые аддоны были заблокированы.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Подробнее</a>"
-"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Управление аддонами"
+"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Некоторые дополнения заблокированы"
+"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>В связи</span> с недавним сбоем некоторые дополнения были заблокированы.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Подробнее</a>"
+"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Управление дополнениями"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Требуется бета-версия клиента Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "В этой бета-версии SteamVR есть функции, для которых необходимо установить бета-версию клиента Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Подробнее"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Обновление SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR обновлён до версии %2."
@@ -931,6 +951,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Установить"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Установить драйвер Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Для работы шлема Bigscreen Beyond со SteamVR необходимо установить драйвер."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Установить"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ошибка при подключении дисплея"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ошибка подключения видеокарты к экрану шлема. Попробуйте отсоединить все используемые кабельные адаптеры и удлинители. Если возможно, попробуйте другой порт на видеокарте. <b>Воспользуйтесь ссылкой ниже, чтобы сбросить настройки шлема для повторного подключения видеокарты.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Перезагрузить шлем"
@@ -944,6 +969,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Подробнее"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/ru/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Настройки брандмауэра"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Чтобы изменить правила брандмауэра для SteamVR, необходимо ваше разрешение. Нажмите «Изменить правила брандмауэра» и выберите «Да» в диалоговом окне контроля учётных записей."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Изменить правила брандмауэра"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Отключите контроллеры во время игры"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Вытягивание кабеля питания под углом может привести к поломке контроллера."

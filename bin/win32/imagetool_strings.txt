@@ -2314,7 +2314,6 @@ $~O="""
 *E?>YE?
 *EPSF-*
 *Magenta*
-*O(r%
 *Pt)p
 *T$(j
 *T|3m
@@ -2357,6 +2356,7 @@ $~O="""
 +;/u6
 +;K[k{
 +<\t	</t
++?8HV<
 +CHx5;Bp}0+{Lx+;zt}&WP
 +D$ H
 +D$ H;
@@ -2835,6 +2835,7 @@ $~O="""
 -1.0*
 -2%tC
 -9?1\9?r
+-:{VR
 -<%uE
 -<qeY@c
 -=M]m}
@@ -4071,6 +4072,7 @@ $~O="""
 1I2S2m2
 1I2z2
 1J1O1^1c1
+1J{t2
 1K2k2y2
 1L1a1
 1L2Q2V2
@@ -4328,8 +4330,8 @@ $~O="""
 22373K3o3
 223E3P3a3l3
 230714000000Z
-230831183319Z0/
 230x323
+231024210156Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -9654,6 +9656,7 @@ BIG5HKSCS
 BINARY
 BITPIX  =           %10ld
 BL$(QVP
+BL+i,
 BLACKANDWHITE
 BLACKANDWHITE_ALPHA
 BR&QQGuM
@@ -12122,7 +12125,6 @@ E ko?ana e kai i te karahi, mea ??, ?a?e hauhau.
 E$+E(
 E$+E,
 E$WVWWS
-E'q?'Qr
 E(Ph0(A
 E(RQj 
 E,+E(
@@ -12681,7 +12683,6 @@ GAMMA=%g
 GB18030
 GB2312
 GBoxed
-GC%	eX
 GColor %d out of range
 GD$,+
 GD$P@PW
@@ -14219,6 +14220,7 @@ LOCALAPPDATA
 LP?%T
 LQjEgdSgdRgdRgdRfdRicRlcUmdUmdSjaQddd
 LSk\$h,
+LU;S~
 LUT Data
 LUT Descriptor
 LUT Explanation
@@ -19252,7 +19254,6 @@ _wstat64i32
 `[ghostscript library %.2f]%s': %s
 `_^]3
 ``6c3x
-`t2,`
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
@@ -19390,7 +19391,6 @@ b<buI
 b?8Nb?g}b?
 bKGD must be after
 bKGD,caNv,cHRM,eXIf,gAMA,iCCP,iTXt,pHYs,sRGB,tEXt,zCCP,zTXt,date
-bR_?g
 bZ!rj
 bZ5nP
 background
@@ -20677,7 +20677,6 @@ f9|$ w
 f9|$0
 f9|$4
 f9|$D
-f::EH
 f;A$s$
 f;D$(w
 f;D$@
@@ -25843,6 +25842,7 @@ yep:%d:%04x
 yi~(@`
 yp;D$
 yrI,D
+y{~@Ne
 z*1j=?~
 z>rdf:Bag
 z?RHz?

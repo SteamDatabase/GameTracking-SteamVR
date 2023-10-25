@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Skärmvarning (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Basstationskonflikt (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR i felsäkert läge (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Steams klientbeta krävs (0x10000000000)"
 
 "DismissableWarning_Detected" "Upptäckt"
 "DismissableWarning_TimeFormat" "hh:mm:ss"
@@ -458,6 +459,7 @@
 "SystemReport_System" "System"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Övrigt"
 "SystemReport_Raw" "Råformat"
 
 "SystemReport_Title" "Systemrapport"
@@ -480,6 +482,7 @@
 "SystemReport_DiscoverConfiguration" "Upptäcker konfiguration"
 "SystemReport_DiscoverChaperone" "Upptäcker Chaperone"
 "SystemReport_DiscoverLighthouseDB" "Upptäcker LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "Söker efter drivrutinsspecifika loggar"
 
 
 "Main_Systray_Error_Title" "Systemfält"

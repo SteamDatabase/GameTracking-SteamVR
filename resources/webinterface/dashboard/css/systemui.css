@@ -186,6 +186,7 @@
 	width: 30em;
 	display: flex;
 	flex-direction: column;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: 100% 100%;
 	border-radius: 10px;
@@ -487,6 +488,7 @@ div.BindingCalloutModifierIcon
 	flex-direction: column;
 	width: 25rem;
 	padding: 1.5rem;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: 100% 100%;
 	border-radius: 35px;
@@ -902,6 +904,7 @@ div.BindingCalloutModifierIcon
 
 .MessageOverlayPanel {
 	flex-direction: column;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: 100% 100%;
 	border-radius: 15px;
@@ -1072,6 +1075,10 @@ div.BindingCalloutModifierIcon
 		radial-gradient(ellipse at top left, #42454c, #25282e);
 }
 
+body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
+	background: var(--gamepadui-darkest-grey);
+}
+
 .DashboardMain .DashboardPanelBackground .WithControlBar
 {
 	border-bottom-left-radius: 0%;
@@ -1087,6 +1094,7 @@ div.BindingCalloutModifierIcon
 .DashboardMain .ControlBarBackground {
 	width: 736px;
 	height: 80px;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: cover;
 	background-position: top center;
@@ -1726,9 +1734,7 @@ div.BindingCalloutModifierIcon
 .DashboardMain .ControlBarTray .ButtonControl,
 .DashboardMain .OverlayControlBar .ButtonControl,
 .DashboardMain .ControlBarTray .SliderControl .Handle,
-.DashboardMain .OverlayControlBar .SliderControl .Handle,
-.WindowTray .WindowTrayButton,
-.WindowTray .SliderControl .Handle
+.DashboardMain .OverlayControlBar .SliderControl .Handle
 {
 	--base-shadow: inset 0px 1px 1px 0px rgba(149, 149, 149, 0.5), 0px 2px 13px rgba(0, 0, 0, 0.4);
 	--state-shadow: 0 0 0 0 transparent;
@@ -1762,8 +1768,7 @@ div.BindingCalloutModifierIcon
 
 .DashboardMain .ControlBar .ControlBarButton:active,
 .DashboardMain .ControlBarTray .ButtonControl:not(.Disabled):active,
-.DashboardMain .OverlayControlBar .ButtonControl:not(.Disabled):active,
-.WindowTray .WindowTrayButton:not(.Disabled):active
+.DashboardMain .OverlayControlBar .ButtonControl:not(.Disabled):active
 {
 	transform: scale(0.965);
 	--base-shadow: inset 0px 3px 2px rgba(0, 0, 0, 0.6);
@@ -1774,17 +1779,14 @@ div.BindingCalloutModifierIcon
 .DashboardMain .ControlBarTray .ButtonControl:not(.Disabled):hover:not(:active),
 .DashboardMain .OverlayControlBar .ButtonControl:not(.Disabled):hover:not(:active),
 .DashboardMain .ControlBarTray .SliderControl:hover:not(:active) .Handle,
-.DashboardMain .OverlayControlBar .SliderControl:hover:not(:active) .Handle,
-.WindowTray .WindowTrayButton:not(.Disabled):hover:not(:active),
-.WindowTray .SliderControl:hover:not(:active) .Handle
+.DashboardMain .OverlayControlBar .SliderControl:hover:not(:active) .Handle
 {
 	--state-shadow: 0px 0px 0px 1px #ffffff, 0px 0px 3px 3px #88ccf1, inset 0px 0px 11px 4px #88ccf147;
 }
 
 .DashboardMain .ControlBar .ControlBarButton.Active:not(:active),
 .DashboardMain .ControlBarTray .ButtonControl.Active:not(:active),
-.DashboardMain .OverlayControlBar .ButtonControl.Active:not(:active),
-.WindowTray .WindowTrayButton.Active:not(:active)
+.DashboardMain .OverlayControlBar .ButtonControl.Active:not(:active)
 {
 	--outline-shadow: 0px 0px 0px 2px #88ccf1;
 }
@@ -1812,7 +1814,6 @@ div.BindingCalloutModifierIcon
 	opacity: 1;
 }
 
-.WindowTrayButton .Icon,
 .DashboardMain .ControlBar .ControlBarButton > .Icon
 {
     --size: 55px;
@@ -1823,7 +1824,6 @@ div.BindingCalloutModifierIcon
 	margin: auto;
 }
 
-.WindowTrayButton .Icon > img,
 .DashboardMain .Icon > img
 {
 	width: 100%;
@@ -2053,9 +2053,8 @@ div.BindingCalloutModifierIcon
 .DashboardMain .ControlBarTray .Section .ButtonControl,
 .DashboardMain .OverlayControlBar .Section .ButtonControl,
 .DashboardMain .ControlBarTray .SliderControl .Handle,
-.DashboardMain .OverlayControlBar .SliderControl .Handle,
-.WindowTray .WindowTrayButton,
-.WindowTray .SliderControl .Handle {
+.DashboardMain .OverlayControlBar .SliderControl .Handle
+{
 	background: linear-gradient(
 		to bottom,
 		var(--dashboard-desktop-bar-button-color-a) 0%,
@@ -2113,33 +2112,6 @@ div.BindingCalloutModifierIcon
 	text-transform: capitalize;
 }
 
-.WindowTray
-{
-	border-bottom-left-radius: 16px;
-	border-bottom-right-radius: 16px;
-	/*
-	background: linear-gradient(
-		to bottom,
-		hsla(220, 11%, 11%, 1) 0%,
-		hsla(220, 11%, 14%, 1) 100%
-	);
-	*/
-	color: #fff;
-	min-width: 28em;
-	display: flex;
-	flex-direction: row;
-	padding: 16px;
-}
-
-.WindowTray .WindowTrayButton
-{
-	border-radius: 16px;
-	margin-left: 16px;
-	white-space: nowrap;
-	padding: 1em;
-	width: fit-content;
-}
-
 .DashboardMain .OverlayControlBar .OverlayControlBarSlider
 {
 	min-width: 16em;
@@ -2155,18 +2127,14 @@ div.BindingCalloutModifierIcon
 	font-size: .8rem;
 }
 
-.WindowTray .WindowTraySlider
-{
-	min-width: 5em;
-}
-
 .DashboardMain .OverlayControlBarBackground {
-    width: 736px;
-    height: 80px;
-    background-image: var(--background-image);
-    background-size: cover;
-    background-position: top center;
-    margin: 0px;
+	width: 736px;
+	height: 80px;
+	background-color: var(--background-color);
+	background-image: var(--background-image);
+	background-size: cover;
+	background-position: top center;
+	margin: 0px;
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
 }
@@ -2357,6 +2325,27 @@ div.BindingCalloutModifierIcon
 	position: relative;
 }
 
+body:not(.VRGamepadUI) .DashboardMain .NowPlaying .HeroBackground
+{
+	display: none;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .HeroBackground
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	pointer-events: none;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	filter: brightness(40%) blur(50px);
+	transform: scale(1.15);
+	z-index: -1;
+}
+
 .DashboardMain .NowPlaying .ArtworkColumn
 {
 	flex-grow: 0;
@@ -2368,6 +2357,11 @@ div.BindingCalloutModifierIcon
 	border-radius: calc( var(--settings-control-inner-border-radius) / 2 );
 	overflow: hidden;
 	box-shadow: 0 7px 20px 2px black;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .ArtworkColumn
+{
+	box-shadow: 0 7px 70px -5px black;
 }
 
 .DashboardMain .NowPlaying .InfoColumn
@@ -2405,6 +2399,17 @@ div.BindingCalloutModifierIcon
 	font-size: 1.5em;
 	width: fit-content;
 	padding: 1em;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful)
+{
+	background: rgba(255, 255, 255, 0.15);
+	color: white;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful):hover
+{
+	background: rgba(255, 255, 255, 0.30);
 }
 
 .DashboardMain .NowPlaying .PortraitAppImageContainer

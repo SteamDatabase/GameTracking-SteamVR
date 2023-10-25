@@ -411,6 +411,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "詳細情報"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "ビデオエンコーダーエラー"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "コンピューターのグラフィックドライバーを更新する必要があるかもしれません。"
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "詳細情報"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVRエラー"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVRがOculusアプリに接続できませんでした。最新バージョンがインストールされていることを確認してください。"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "oculus.comを開く"
@@ -663,10 +668,20 @@
 "Popover_NoPose_HMD_Action" "詳細情報"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/ja/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "検出中..."
+"Popover_NoCameraPose_HMD_Description" "このヘッドセットは現在トラッキングされていません。周囲を見回してみてください。"
+"Popover_NoCameraPose_HMD_Action" "詳細"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/ja/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "検索中..."
 "Popover_NoPose_Controller_Description" "このコントローラはトラッキングされていません。ベースステーションから見える位置にあることを確認してください。"
 "Popover_NoPose_Controller_Action" "コントローラを識別"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "検索中..."
+"Popover_NoCameraPose_Controller_Description" "このコントローラはトラッキングされていません。ヘッドセットカメラから見える位置にあることを確認してください。"
+"Popover_NoCameraPose_Controller_Action" "コントローラの識別"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "検索中..."
 "Popover_NoPose_Base_Description" "このベースステーションはどのデバイスもトラッキングしていません。ヘッドセットから見える位置にあることを確認してください。"
@@ -763,6 +778,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "最近発生したクラッシュの<span>ため</span>、SteamVRの一部のアドオンがブロックされています。<p>詳細は<a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>こちら</a>です。"
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "アドオンを管理"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steamベータクライアントが必要です"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "このSteamVRベータアップデートには、Steamベータクライアントのインストールを必要とする新機能がいくつか含まれています。"
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "詳細"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/ja/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVRアップデート"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVRはバージョン%2にアップデートされました。"
@@ -926,6 +946,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "インストール"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Bigscreen Beyondドライバーをインストールしますか？"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "SteamVRでBigscreen Beyondヘッドセットを使用するにはドライバーが必要です。"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "インストール"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "接続の問題を表示"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "グラフィックカードがHMDディスプレイに接続できません。ご利用のケーブルアダプターまたはエクステンダーを外し、GPUに別のポートがある場合はそちらをお試しください。<b>以下のリセットリンクを使ってHMDをリセットするとGPUが再試行します。</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "ヘッドセットをリセット"
@@ -939,6 +964,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "詳細情報"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "ファイアウォールの設定"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "SteamVRのファイアウォールルールを変更するには、あなたの許可が必要です。「ファイアウォールの変更」をクリックし、UACプロンプトで「はい」を選択してください。"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "ファイアウォールの変更"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "ゲームプレイ中にコントローラを抜いてください"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "充電ケーブルを斜めに引っ張るとコントローラが破損する可能性があります。"

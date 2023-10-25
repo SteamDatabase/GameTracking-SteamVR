@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "顯示器警告（0x10000）"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "定位器衝突（0x400000）"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR 處於安全模式（0x1000000）"
+"DismissableWarning_SteamBetaNeeded" "需安裝 Steam 用戶端測試版（0x10000000000）"
 
 "DismissableWarning_Detected" "已偵測"
 "DismissableWarning_TimeFormat" "h:mm AP"
@@ -320,7 +321,7 @@
 "Settings_LockedModeCheck" "電腦鎖定時啟用頭戴顯示器"
 "Settings_LockedModeDesc" "工作站處於鎖定狀態時允許彩現至頭戴顯示器。"
 
-"Settings_Dashboard_Explanation" "該應用程式將能以內崁介面的形式在虛擬實境主控台中使用。"
+"Settings_Dashboard_Explanation" "該應用程式將能以內嵌介面的形式在虛擬實境主控台中使用。"
 "Settings_BaseStationsWakeUpAll" "喚醒所有定位器"
 "Settings_BaseStationsWakeUpAll_Explanation" "喚醒全部參與遠端電源管理的定位器。"
 "Settings_EnableScreenshots_Info" "按住系統鍵再扣下扳機即可擷圖"
@@ -456,6 +457,7 @@
 "SystemReport_System" "系統"
 "SystemReport_Chaperone" "Chaperone 導護系統"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "其它"
 "SystemReport_Raw" "原始"
 
 "SystemReport_Title" "系統報告"
@@ -478,6 +480,7 @@
 "SystemReport_DiscoverConfiguration" "正在尋找設定檔"
 "SystemReport_DiscoverChaperone" "正在尋找 Chaperone 導護系統"
 "SystemReport_DiscoverLighthouseDB" "正在尋找 LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "探索驅動程式相關記錄檔"
 
 
 "Main_Systray_Error_Title" "系統匣"

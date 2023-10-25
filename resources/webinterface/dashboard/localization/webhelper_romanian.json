@@ -46,6 +46,7 @@
 	"/pose/tip": "Vârf",
 	"/pose/gdc2015": "GDC",
 	"/pose/handgrip": "Mâner",
+	"/pose/grip": "Prindere",
 	"/input/skeleton/left": "Scheletul stâng",
 	"/input/skeleton/right": "Scheletul drept",
 	"/output/haptic": "Răspunsuri haptice",

@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Предупреждение дисплея (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Конфликт каналов базовых станций (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR в безопасном режиме (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Требуется бета-версия клиента Steam (0x10000000000)"
 
 "DismissableWarning_Detected" "Обнаружено"
 "DismissableWarning_TimeFormat" "hh:mm:ss"
@@ -455,6 +456,7 @@
 "SystemReport_System" "Система"
 "SystemReport_Chaperone" "Пространственная сетка"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Другое"
 "SystemReport_Raw" "Без обработки"
 
 "SystemReport_Title" "Системный отчёт"
@@ -477,6 +479,7 @@
 "SystemReport_DiscoverConfiguration" "Обнаружение конфигурации"
 "SystemReport_DiscoverChaperone" "Обнаружение пространственной сетки"
 "SystemReport_DiscoverLighthouseDB" "Обнаружение LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "Обнаружение журналов драйвера"
 
 
 "Main_Systray_Error_Title" "Область уведомлений"

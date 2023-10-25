@@ -66,6 +66,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Näyttövaroitus (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Tukiasemavirhe (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR vikasietotilassa (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Vaatii Steam-asiakasohjelman betaversion (0x10000000000)"
 
 "DismissableWarning_Detected" "Tunnistettu"
 "DismissableWarning_TimeFormat" "h.mm"
@@ -457,6 +458,7 @@
 "SystemReport_System" "Järjestelmä"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Muut"
 "SystemReport_Raw" "Raaka"
 
 "SystemReport_Title" "Järjestelmäraportti"
@@ -479,6 +481,7 @@
 "SystemReport_DiscoverConfiguration" "Etsitään määrityksiä"
 "SystemReport_DiscoverChaperone" "Etsitään Chaperonea"
 "SystemReport_DiscoverLighthouseDB" "Etsitään LighthouseDB:tä"
+"SystemReport_DiscoverDriverSpecific" "Ajurikohtaisten lokien etsiminen"
 
 
 "Main_Systray_Error_Title" "Ilmaisinalue"

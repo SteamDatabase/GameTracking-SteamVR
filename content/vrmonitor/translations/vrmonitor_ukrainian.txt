@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Попередження екрана (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Конфлікт базових станцій (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR у безпечному режимі (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Необхідна бета-версія клієнта Steam (0x10000000000)"
 
 "DismissableWarning_Detected" "Виявлено"
 "DismissableWarning_TimeFormat" "hh:mm:ss"
@@ -457,6 +458,7 @@
 "SystemReport_System" "Система"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Інше"
 "SystemReport_Raw" "Необроблений"
 
 "SystemReport_Title" "Системний звіт"
@@ -479,6 +481,7 @@
 "SystemReport_DiscoverConfiguration" "Виявлення конфігурацій"
 "SystemReport_DiscoverChaperone" "Виявлення Chaperone"
 "SystemReport_DiscoverLighthouseDB" "Виявлення LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "Виявлення журналів драйверів"
 
 
 "Main_Systray_Error_Title" "Область сповіщень"

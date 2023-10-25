@@ -259,7 +259,7 @@ C
 CET
 CLcx
 CST
-CSWTCH.100
+CSWTCH.107
 CheckAllFilesInThePath(std::string const&, bool, std::vector<std::string, std::allocator<std::string> >&)
 CheckAllFilesInThePath(std::string const&, bool, std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
 Completed loader terminator
@@ -331,7 +331,7 @@ Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 Fri
 Friday
 G
-GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GENERAL
 GLIBC_2.14
 GLIBC_2.2.5

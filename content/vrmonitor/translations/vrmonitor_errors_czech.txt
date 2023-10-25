@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Více informací"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Chyba kódování obrazu"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Pravděpodobně budete muset aktualizovat ovladač grafické karty."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Více informací"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Chyba režimu SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "Režimu SteamVR se nepodařilo připojit k aplikaci Oculus. Ujistěte se, že máte nainstalovanou její nejnovější verzi."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Přejít na oculus.com"
@@ -686,10 +691,20 @@
 "Popover_NoPose_HMD_Action" "Více informací"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Vyhledávání..."
+"Popover_NoCameraPose_HMD_Description" "Tento headset není sledován. Zkuste se rozhlédnout."
+"Popover_NoCameraPose_HMD_Action" "Více informací"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Vyhledávání..."
 "Popover_NoPose_Controller_Description" "Tento ovladač není sledován. Zajistěte, aby byl v dohledu základní stanice."
 "Popover_NoPose_Controller_Action" "Rozpoznat ovladač"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Vyhledávání..."
+"Popover_NoCameraPose_Controller_Description" "Tento ovladač není sledován. Zajistěte, aby byl v dohledu kamer headsetu."
+"Popover_NoCameraPose_Controller_Action" "Rozpoznat ovladač"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Vyhledávání..."
 "Popover_NoPose_Base_Description" "Tato základní stanice nesleduje žádné zařízení. Zajistěte, aby byla v dohledu Vašeho headsetu."
@@ -786,6 +801,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Z důvodu</span> nedávného pádu jsou nyní blokovány některé doplňky režimu SteamVR.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech'>Více informací</a>"
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Spravovat doplňky"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Je vyžadována beta verze klienta služby Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Tato beta verze režimu SteamVR nabízí některé nové funkce, které vyžadují beta verzi klienta služby Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Více informací"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/cs/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Aktualizace režimu SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "Režim SteamVR byl aktualizován na verzi %2."
@@ -949,6 +969,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Nainstalovat"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Nainstalovat ovladač pro Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Aby byl režim SteamVR schopný pracovat s headsetem Bigscreen Beyond, je vyžadována instalace ovladače."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Nainstalovat"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problém s připojením k displeji"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Vaší grafické kartě se nepodařilo připojit k displeji headsetu. Zkuste odebrat veškeré adaptéry nebo prodlužovače a také (pokud je dostupný) zkuste jiný port GPU. <b>Kliknutím níže bude resetován Váš headset, takže se GPU pokusí znovu připojit.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Restartovat headset"
@@ -962,6 +987,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Více informací"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Konfigurace brány firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "K úpravám pravidel brány firewall pro zajištění funkčnosti režimu SteamVR je vyžadováno Vaše potvrzení. Klikněte tedy níže na „Upravit firewall“ a ve výzvě služby UAC vyberte „Ano“."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Upravit firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Odpojte ovladače během hraní"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Vytažením nabíjecího kabelu pod úhlem může dojít k poškození ovladače. Vytahujte proto kabel přímo."

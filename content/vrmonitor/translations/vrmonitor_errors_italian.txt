@@ -293,7 +293,7 @@
 "VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
 
 "VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Leasing dello schermo non riuscito"
-"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Il tuo ambiente desktop (GNOME con Wayland) non supporta il leasing del Direct Rendering Manager, necessario per la realtà virtuale."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Il tuo ambiente desktop (GNOME su Wayland) non supporta il leasing del Direct Rendering Manager, necessario per la realtà virtuale."
 "VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Ulteriori informazioni"
 "VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/faqs/view/18A4-1E10-8A94-3DDA"
 
@@ -413,6 +413,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Description" "Potrebbe essere necessario aggiornare i driver video del tuo computer."
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Ulteriori informazioni"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Errore encoder video"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Potrebbe essere necessario aggiornare i driver video del tuo computer."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Altre informazioni"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=italian#steamvr-issues"
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Errore di SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR non è riuscito a connettersi all'applicazione di Oculus. Assicurati di aver installato la versione più recente."
@@ -680,10 +685,20 @@
 "Popover_NoPose_HMD_Action" "Ulteriori informazioni"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Ricerca in corso..."
+"Popover_NoCameraPose_HMD_Description" "Questo visore non sta eseguendo il tracciamento. Prova a guardarti intorno."
+"Popover_NoCameraPose_HMD_Action" "Ulteriori informazioni"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Ricerca in corso..."
 "Popover_NoPose_Controller_Description" "Questo controller non sta eseguendo il tracciamento. Assicurati che sia visibile da una stazione di base."
 "Popover_NoPose_Controller_Action" "Identifica controller"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Ricerca in corso..."
+"Popover_NoCameraPose_Controller_Description" "Questo controller non sta eseguendo il tracciamento. Assicurati che sia visibile dalle telecamere del visore."
+"Popover_NoCameraPose_Controller_Action" "Identifica controller"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Ricerca in corso..."
 "Popover_NoPose_Base_Description" "Questa stazione di base non sta tracciando alcun dispositivo. Assicurati che sia visibile dal tuo visore."
@@ -780,6 +795,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>A causa</span> di un crash recente, alcuni add-on di SteamVR sono stati bloccati.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Ulteriori informazioni</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Gestisci add-on"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Client beta di Steam richiesto"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Questo aggiornamento beta di SteamVR introduce alcune nuove funzionalità che richiedono l'installazione del client beta di Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Ulteriori informazioni"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Aggiornamento di SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR è stato aggiornato alla versione %2."
@@ -943,6 +963,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installa"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Installare il driver Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "È necessario un driver per il funzionamento del visore Bigscreen Beyond su SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installa"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problema di connessione del display"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "La tua scheda grafica non è in grado di collegarsi allo schermo del tuo visore. Prova a rimuovere eventuali adattatori o estensioni che stai utilizzando. Prova un'altra porta sulla tuo GPU se disponibile. <b>Usa il link di ripristino qui sotto per ripristinare il visore così che la GPU possa tentare nuovamente di collegarsi.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Ripristina il visore"
@@ -956,6 +981,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Altre informazioni"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Configurazione firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "È richiesta la tua autorizzazione per modificare le regole del firewall per SteamVR. Fai clic su \"Modifica firewall\", poi seleziona Sì al prompt UAC (controllo account utente)."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Modifica firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Scollega i controller durante la sessione di gioco"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Tirare il cavo di ricarica da qualsiasi angolazione può causare dei danni."

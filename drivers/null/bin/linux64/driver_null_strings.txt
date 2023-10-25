@@ -216,7 +216,7 @@ CNullHmdLatest::IsDisplayRealDisplay()
 CNullHmdLatest::RunFrame() [clone .part.0]
 CNullHmdLatest::~CNullHmdLatest()
 CST
-CSWTCH.100
+CSWTCH.107
 CServerDriver_Null::Cleanup()
 CServerDriver_Null::EnterStandby()
 CServerDriver_Null::GetInterfaceVersions()
@@ -258,7 +258,7 @@ Format(char const*, ...) [clone .cold]
 Fri
 Friday
 G
-GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3

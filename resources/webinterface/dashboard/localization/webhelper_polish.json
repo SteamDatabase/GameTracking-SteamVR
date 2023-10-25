@@ -20,7 +20,7 @@
 	"Button_Recenter": "Wyśrodkuj",
 	"Recentering_Countdown": "Wyśrodkowywanie...",
 	"PowerMenuTurnOffController": "Wyłącz kontroler",
-	"PowerMenuShutdown": "Wyjście",
+	"PowerMenuShutdown": "Zamknij",
 	"PowerMenuQuitSceneApp": "Opuść %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Wyjdź z aplikacji",
 	"PowerMenuExitVR": "Opuść VR",
@@ -46,6 +46,11 @@
 	"/pose/tip": "Wierzchołek",
 	"/pose/gdc2015": "GDC",
 	"/pose/handgrip": "Uchwyt ręki",
+	"/pose/grip": "Chwyt",
+	"/pose/openxr_grip": "Chwyt w OpenXR",
+	"/pose/openxr_aim": "Celowanie w OpenXR",
+	"/pose/openxr_handmodel": "Dłoń",
+	"/pose/openxr_handmodel_r": "Dłoń",
 	"/input/skeleton/left": "Lewy szkielet",
 	"/input/skeleton/right": "Prawy szkielet",
 	"/output/haptic": "Drgania",
@@ -73,5 +78,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Gotowe",
-	"CompatibilityMode_Notification": "Włączono tryb automatycznej zgodności. Przypisanie dla „%1$s” jest w użyciu."
+	"CompatibilityMode_Notification": "Włączono tryb automatycznej zgodności. Obecnie jest używane przypisanie dla kontrolera „%1$s”."
 }

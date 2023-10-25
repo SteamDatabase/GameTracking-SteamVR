@@ -65,6 +65,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Предупреждение на екрана (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Конфликт на базова станция (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR в безопасен режим (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Изисква се бета Steam клиент (0x10000000000)"
 
 "DismissableWarning_Detected" "Засечено"
 "DismissableWarning_TimeFormat" "hh:mm"
@@ -457,6 +458,7 @@
 "SystemReport_System" "Система"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Друго"
 "SystemReport_Raw" "Необработен"
 
 "SystemReport_Title" "Системен доклад"
@@ -479,6 +481,7 @@
 "SystemReport_DiscoverConfiguration" "Откриване на конфигурация"
 "SystemReport_DiscoverChaperone" "Откриване на Chaperone"
 "SystemReport_DiscoverLighthouseDB" "Откриване на LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "Откриване на специфични хронологии за драйвери"
 
 
 "Main_Systray_Error_Title" "Системна лента"

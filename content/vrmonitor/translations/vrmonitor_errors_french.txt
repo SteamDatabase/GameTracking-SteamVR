@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Plus d'informations"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=french#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Erreur de l'encodeur vidéo"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Vous devez peut-être mettre à jour le pilote graphique de votre ordinateur."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Plus d'informations"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Erreur de SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR n'a pas réussi à se connecter à l'application Oculus. Veuillez-vous assurer que la dernière version est installée."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Accéder à oculus.com"
@@ -672,10 +677,20 @@
 "Popover_NoPose_HMD_Action" "Plus d'informations"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Recherche…"
+"Popover_NoCameraPose_HMD_Description" "La position du casque n'est pas détectée. Essayez de regarder autour de vous."
+"Popover_NoCameraPose_HMD_Action" "Plus d'informations"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Recherche..."
 "Popover_NoPose_Controller_Description" "La position de ce contrôleur n'est pas détectée. Assurez-vous qu'il est visible par l'une des stations de base."
 "Popover_NoPose_Controller_Action" "Identifier le contrôleur"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Recherche…"
+"Popover_NoCameraPose_Controller_Description" "La position de ce contrôleur n'est pas détectée. Assurez-vous qu'il est visible par l'une des caméras du casque."
+"Popover_NoCameraPose_Controller_Action" "Identifier le contrôleur"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Recherche..."
 "Popover_NoPose_Base_Description" "Cette station de base ne parvient pas à détecter de périphérique. Assurez-vous qu'il est visible par votre casque."
@@ -772,6 +787,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "Suite à un <span>plantage</span>, certaines extensions de SteamVR ont été bloquées.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=french'>Cliquez ici pour plus d'informations</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Gérer les extensions"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Version bêta du client Steam requise"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Cette mise à jour de la bêta de SteamVR comporte de nouvelles fonctionnalités qui nécessitent l'installation de la version bêta du client Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Plus d'informations"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/fr/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Mise à jour de SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR a été mis à jour (version %2)."
@@ -935,6 +955,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installer"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Installer le pilote Bigscreen Beyond ?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Un pilote est nécessaire pour utiliser le casque Bigscreen Beyond avec SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installer"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problème d'affichage lié à la connexion"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Votre carte graphique n'a pas réussi à se connecter à l'affichage de votre casque. Essayez de débrancher tout adaptateur de câble ou tout câble d'extension que vous pourriez utiliser. Essayez de brancher votre casque à un autre port de votre carte graphique. <b>Utilisez le lien de réinitialisation ci-dessous pour réinitialiser le casque et réessayer.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Réinitialiser le casque"
@@ -948,6 +973,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Plus d'informations"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Configuration du pare-feu"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Votre autorisation est nécessaire pour modifier les règles de votre pare-feu pour SteamVR. Veuillez cliquer sur « Modifier les règles du pare-feu », puis sélectionner « Oui » lorsque Windows vous en fait la demande dans la fenêtre de contrôle du compte d'utilisateur."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Modifier les règles du pare-feu"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Veuillez débrancher les contrôleurs pendant la session de jeu"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Vous risquez d'endommager le contrôleur en tirant de biais sur son câble de chargement."

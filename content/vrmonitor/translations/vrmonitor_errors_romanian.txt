@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Mai multe informații"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Codificatorul video a întâmpinat o eroare"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Probabil trebuie să actualizezi driverul plăcii video a calculatorului tău."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Mai multe informații"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Eroare SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR nu s-a putut conecta la aplicația Oculus. Te rugăm să te asiguri că ai ultima versiune instalată."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Accesează oculus.com"
@@ -643,10 +648,20 @@
 "Popover_NoPose_HMD_Action" "Mai multe informații"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/ro/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Se caută..."
+"Popover_NoCameraPose_HMD_Description" "Această cască nu este momentan urmărită. Încearcă să privești în jur."
+"Popover_NoCameraPose_HMD_Action" "Mai multe informații"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Se caută..."
 "Popover_NoPose_Controller_Description" "Acest controler nu este momentan urmărit. Asigură-te că se află în raza de acțiune a unei stații de bază. "
 "Popover_NoPose_Controller_Action" "Identifică controlerul"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Se caută..."
+"Popover_NoCameraPose_Controller_Description" "Acest controler nu este momentan urmărit. Asigură-te că se află în vizorul camerelor căștii."
+"Popover_NoCameraPose_Controller_Action" "Identificare controler"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Se caută..."
 "Popover_NoPose_Base_Description" "Această stație de bază nu urmărește în prezent niciun dispozitiv. Asigură-te că este în câmpul vizual al căștii tale."
@@ -743,6 +758,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Din cauza</span> unei căderi recente, unele addonuri SteamVR au fost blocate.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian'>Află mai multe</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Gestionează addonurile"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Este necesară versiunea beta a clientului Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Această actualizare a versiunii beta pentru SteamVR are câteva caracteristici noi care necesită instalarea versiunii beta a clientului Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Mai multe informații"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/ro/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Actualizare pentru SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR a fost actualizat la versiunea %2."
@@ -906,6 +926,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Instalează"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Instalezi driverul pentru Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Este necesar un driver pentru a putea utiliza casca Bigscreen Beyond cu SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Instalează"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problemă la conectarea ecranului"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Placa ta grafică nu se poate conecta corespunzător la ecranul căștii. Dacă utilizezi adaptoare sau prelungitoare pentru cablu, încearcă să le îndepărtezi. Dacă este disponibil, încearcă un alt port al plăcii grafice. <b>Utilizează linkul de resetare de mai jos pentru a reseta casca, astfel încât placa grafică va putea încerca din nou conectarea.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Resetează casca"
@@ -919,6 +944,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Mai multe informații"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/ro/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Configurare firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Este necesară permisiunea ta pentru a modifica setările de firewall pentru SteamVR. Apasă clic pe „Modificare firewall”, apoi selectează „Da” atunci când este afișată fereastra UAC (control cont utilizator)."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Modificare firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Te rugăm să deconectezi controlerele în timpul jocului"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Dacă tragi de cablul de alimentare sub un anumit unghi, poți provoca deteriorarea controlerului."

@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Meer informatie"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=dutch#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Fout met video-encoder"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Je moet mogelijk het grafische stuurprogramma van je computer bijwerken."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Meer informatie"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=dutch#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Fout met SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kan niet met de Oculus-toepassing verbinden. Zorg ervoor dat je de meest recente versie hebt geïnstalleerd."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Oculus.com bezoeken"
@@ -683,10 +688,20 @@
 "Popover_NoPose_HMD_Action" "Meer informatie"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Zoeken..."
+"Popover_NoCameraPose_HMD_Description" "Je headset volgt momenteel niet. Probeer rond te kijken."
+"Popover_NoCameraPose_HMD_Action" "Meer informatie"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Zoeken..."
 "Popover_NoPose_Controller_Description" "Deze controller volgt momenteel niet. Zorg ervoor dat hij in het zicht staat van een basisstation."
 "Popover_NoPose_Controller_Action" "Controller identificeren"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Zoeken..."
+"Popover_NoCameraPose_Controller_Description" "Deze controller volgt momenteel niet. Zorg ervoor dat hij in het zicht staat van de camera's van de headset."
+"Popover_NoCameraPose_Controller_Action" "Controller identificeren"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Zoeken..."
 "Popover_NoPose_Base_Description" "Dit basisstation volgt momenteel geen apparaten. Zorg ervoor dat het in het zicht staat van je headset."
@@ -783,6 +798,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Door</span> een recente crash zijn enkele add-ons voor SteamVR geblokkeerd.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Meer informatie</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Add-ons beheren"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Bèta van de Steam-client vereist"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Deze update van de bèta van SteamVR heeft enkele nieuwe functies waarvoor de bèta van de Steam-client geïnstalleerd moet zijn."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Meer informatie"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/nl/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-update"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR is bijgewerkt naar versie %2."
@@ -946,6 +966,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installeren"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Bigscreen Beyond-stuurprogramma installeren?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Een stuurprogramma is vereist om de Bigscreen Beyond-headset te kunnen gebruiken met SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installeren"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Verbindingsproblemen weergeven"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Je grafische kaart kan geen verbinding maken met het scherm van de headset. Probeer eventuele kabeladapters of verlengkabels te verwijderen. Probeer een andere poort op de GPU als deze beschikbaar is. <b>Gebruik de onderstaande link om de headset opnieuw in te stellen zodat de GPU het opnieuw probeert.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Headset opnieuw instellen"
@@ -959,6 +984,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Meer informatie"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Firewall-configuratie"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Je toestemming is vereist om je firewall-regels te veranderen voor SteamVR. Klik op 'Firewall aanpassen' en selecteer vervolgens 'Ja' bij de UAC-prompt."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Firewall aanpassen"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Koppel je controllers los tijdens het spelen"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Als je de oplaadkabel per ongeluk scheef trekt, kan dat schade veroorzaken aan de controller."

@@ -410,9 +410,14 @@
 "VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
 
 "VRInitError_Compositor_UnableToCreateDevice_Header" "ข้อผิดพลาดของกราฟิก SteamVR"
-"VRInitError_Compositor_UnableToCreateDevice_Description" "คุณอาจจำเป็นต้องอัปเดตไดรเวอร์กราฟิกสำหรับคอมพิวเตอร์ของคุณ"
+"VRInitError_Compositor_UnableToCreateDevice_Description" "คุณอาจจำเป็นต้องอัปเดตไดรเวอร์กราฟิกให้คอมพิวเตอร์ของคุณ"
 "VRInitError_Compositor_UnableToCreateDevice_Action" "ข้อมูลเพิ่มเติม"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai#steamvr-issues"
+
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "ข้อผิดพลาดของตัวเข้ารหัสวิดีโอ"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "คุณอาจจำเป็นต้องอัปเดตไดรเวอร์กราฟิกให้คอมพิวเตอร์ของคุณ"
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "ข้อผิดพลาดของ SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR ไม่สามารถเชื่อมต่อไปยังแอป Oculus ได้ กรุณาตรวจสอบให้แน่ใจว่าคุณมีการติดตั้งเป็นเวอร์ชันล่าสุดแล้ว"
@@ -684,10 +689,20 @@
 "Popover_NoPose_HMD_Action" "ข้อมูลเพิ่มเติม"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "กำลังค้นหา..."
+"Popover_NoCameraPose_HMD_Description" "ขณะนี้ เครื่องสวมศีรษะชุดนี้ไม่มีการติดตามตำแหน่ง ให้ลองมองไปรอบ ๆ"
+"Popover_NoCameraPose_HMD_Action" "ข้อมูลเพิ่มเติม"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "กำลังค้นหา..."
 "Popover_NoPose_Controller_Description" "คอนโทรลเลอร์นี้ไม่ได้กำลังติดตามอยู่ในขณะนี้ ตรวจสอบให้แน่ใจว่าอุปกรณ์อยู่ในมุมมองของสถานีฐาน"
 "Popover_NoPose_Controller_Action" "ระบุตัวคอนโทรลเลอร์"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "กำลังค้นหา..."
+"Popover_NoCameraPose_Controller_Description" "ขณะนี้ คอนโทรลเลอร์ชุดนี้ไม่มีการติดตามตำแหน่ง โปรดตรวจสอบให้แน่ใจว่ากล้องของเครื่องสวมศีรษะมองเห็นคอนโทรลเลอร์ดังกล่าว"
+"Popover_NoCameraPose_Controller_Action" "ระบุตัวคอนโทรลเลอร์"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "กำลังค้นหา..."
 "Popover_NoPose_Base_Description" "สถานีฐานไม่ได้กำลังติดตามอุปกรณ์ใดเลยอยู่ในขณะนี้ ตรวจสอบให้แน่ใจว่าอุปกรณ์อยู่ในมุมมองของเครื่องสวมศีรษะของคุณ"
@@ -784,6 +799,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>เนื่องจาก</span>แครชล่าสุด ทำให้ส่วนเสริม SteamVR ถูกบล็อค<p><a style=\"color: rgb(212, 212, 212);\" href=\"https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai\">เรียนรู้เพิ่มเติม</a>"
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "จัดการส่วนเสริม"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "จำเป็นต้องใช้ร่วมกับไคลเอนต์ Steam เบต้า"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "การอัปเดต SteamVR เบต้าครั้งนี้มีคุณสมบัติใหม่ ๆ บางอย่างที่ทำให้จำเป็นต้องติดตั้งไคลเอนต์ Steam เบต้า"
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "ข้อมูลเพิ่มเติม"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "อัปเดต SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR ได้รับการอัปเดตเป็นเวอร์ชัน %2"
@@ -947,6 +967,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "ติดตั้ง"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "ติดตั้งไดรเวอร์ Bigscreen Beyond หรือไม่?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "ต้องมีไดรเวอร์เพื่อเรียกใช้เครื่องสวมศีรษะ Bigscreen Beyond บน SteamVR"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "ติดตั้ง"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "ปัญหาการเชื่อมต่อจอแสดงผล"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "การ์ดกราฟิกของคุณไม่สามารถเชื่อมต่อไปยังจอแสดงผลหน้าจอสวมศีรษะของคุณได้ กรุณาลองถอดสายอะแดปเตอร์หรือส่วนต่อขยายสายใดก็ตามที่คุณกำลังใช้อยู่ ลองใช้พอร์ตอื่นบน GPU ของคุณหากมี <b>ใช้ลิงก์รีเซ็ตด้านล่างนี้เพื่อรีเซ็ตหน้าจอสวมศีรษะ จากนั้นลองให้ GPU ทำงานใหม่อีกครั้ง</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "รีเซ็ตเครื่องสวมศีรษะ"
@@ -960,6 +985,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "ข้อมูลเพิ่มเติม"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "การกำหนดค่าไฟร์วอลล์"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "คุณจะต้องอนุญาตสิทธิ์เพื่อปรับเปลี่ยนกฎไฟร์วอลล์ของคุณสำหรับ SteamVR โปรดคลิกที่ \"ปรับเปลี่ยนไฟร์วอลล์\" แล้วเลือก \"ใช่\"เมื่อเห็นหน้าต่างแจ้ง UAC"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "ปรับเปลี่ยนไฟร์วอลล์"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "กรุณาถอดปลั๊กคอนโทรลเลอร์ออกระหว่างที่เล่นเกม"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "หากดึงสายชาร์จเฉียง ๆ อาจทำให้คอนโทรลเลอร์เสียหายได้"

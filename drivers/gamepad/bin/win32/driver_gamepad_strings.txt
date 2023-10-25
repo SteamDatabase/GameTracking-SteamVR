@@ -1,7 +1,6 @@
 	!s99
  %41g
 !hn7!
-"`.[/
 ',=?k
 (f*^[0
 +Xt@(
@@ -104,9 +103,8 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831183250Z0/
+231024210121Z0/
 241009235959Z0a1
-2:JJ!
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -163,6 +161,7 @@
 ;'<1<;<M<e<
 ;@;W;`;i;r;w;|;
 ;X;\;`;d;|;
+;raG4
 < <0<4<<<T<d<h<x<|<
 < =)=2=;=@=E=L=Q=]=
 <0:08
@@ -207,7 +206,6 @@ GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-Gmeq8
 H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
@@ -231,6 +229,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+IurwC
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -245,7 +244,6 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q`Xi(=dx
 QueryPerformanceCounter
 RaiseException
 S0Q0O
@@ -294,7 +292,6 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-_(:Zw
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -339,7 +336,6 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
-b=t:K
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
@@ -352,23 +348,20 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l2|X/gGe
+l?!#Y
 m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
-o(EZy
 string too long
 terminate
 uCVj@
 v=Y]Bv
 vector<T> too long
-vn)!~
-vuo%n
 www.digicert.com1!0
 www.digicert.com1$0"
-xrT/6
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

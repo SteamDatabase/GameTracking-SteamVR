@@ -4,19 +4,16 @@
 !(0)"
 !9~ t
 !hn7!
-"1*1H1W1
 #*1892+$
-#0'05090g0k0
 #?RADIANCE
 #?RGBE
 $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&t&	A
 ',=?k
 '.5<=6/7>????????????????
-(2/2c2j2
+(6L~iE
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -26,13 +23,11 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-+3/3z4
 +Xt@(
-+]^)WoO
 +o'q)}
 , last executing in 
 ,W5y+
--!A9;
+-0J0]0k0
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -134,144 +129,152 @@ $9^ t
 0 width
 0!0%0+050?0F0P0Z0a0k0
 0#0*050B0L0R0
+0%1.161r1
+0&0v0
 0'1.1
 0(0,00080P0`0d0t0x0|0
+0(020B0M0n0~0
+0(1,1
 0-pixel image
-0.0>0H0R0b0m0
-000>0Y0d0
-070l0
+020g0
+04686
 0?0{0
-0\1`1m1q1
+0@1N1v1
 0`0u0
 0w0c1
 0}0i1
-1	1E1Y1`1
 1 181<1T1d1h1|1
-1"1-1N1^1h1r1
-1&1R1
+1"1,161
+1.1>1H1R1b1m1
 1/2/4/8/16-bit only
 121V1$363
 123456789000
 130801120000Z
-13373F3J3Y3]3e4
+132q2
+161;1E1V1
 1F1V1`1e1o1
+1J6N6
+1P3A5a5
+1c3g3v3z3
 1h3l3p3t3x3|3
+2 2$2(2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$2(2,202q2u2J3N3
 2 282H2L2\2`2p2t2|2
+2!2/2I2}2
+2"2-2N2^2h2r2
 2#2(222C2H2R2c2h2r2
-2(222B2M2n2~2
-2+262I2`2v2
-2+44484I4M4Z4^4
+2$3]3f3
 2,2:2H2V2d2r2
-2-363]4
 2-3V3h3o3
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
+22363
 230714000000Z
-230831183207Z0/
+231024210037Z0/
+232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2M2n2|2
 2SPV9
 2e3j3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2z3~3
 3 3$3(3,3034383<3@3D3H3T3
 3 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5
 3#3(3-32373<3A3F3K3P3c3h3r3
-3%31373=3C3I3O3U3[3a3
 3&303:3D3N3X3b3l3v3
-3.3>3H3R3b3m3
+3&3g3
+3(323B3M3n3~3
 30343L3\3`3d3h3l3t3
 311109235959Z0b1
+313N3
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3=5A5u6y6
-3N3U3
+394B4S4_4k4q4w4
+3:4z4
+3=5E5W5_5
+3@3U3a3g3m3s3y3
+3D4d4
 3X4_4
-3k3p3
+3[4d4h4y4}4
 3mq+<
-4"4-4N4^4h4r4
+3w0m7
+4	5'5/5d5
+4 4$4(4,4m5q5
 4#4(424C4H4R4c4h4r4
-4#4/4;4A4G4p4x4}4
-4#5L5[5n5z5
 4,4E4L4e4l4
-4-515W5[5v5z5
-4-686
+4.4>4H4R4b4m4
 404@4D4H4L4P4T4\4t4
-43474d4
-445^8'=0=4=D=M=Q=
+415D5M5R5r5S6f6l6
+424c4g4
 4?6H6O6
-4J5c5m5{5
+4]6h6
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4n5~5
 5!5&5+505A5K5Q5U5[5_5e5p5x5
-5!5'5-545;5B5I5P5W5^5f5n5v5
-5"5B5#666<6Z6`6n6
+5"5-5N5^5h5r5
 5%656b7
-5'5/5
 5(5,5<5@5H5`5p5t5
-5(525B5M5n5~5
 5.5=6D6
 5/54595@5Y5`5y5~5
-52666
+5?5E5K5Q5W5]5d5k5r5y5
+5?5a6
 5FjiT
 5Genu
-5b8f8u8y8
+5S5|5
+5]5a5
+5b6f6
 5d6h6l6p6t607
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 6 6$6(6,6064686X8\8`8d8h8l8p8
-6!6-636B6K6Q6[6a6p6v6
-6"6A6m6
+6 7I7b7u7
+6!6+696B6l6
 6#6(626C6H6R6c6h6r6
-6$7i8
-6%6.646:6o6
 6'6.6G6N6g6n6
+6(626A6Q6a6m6s6
+6(676B6J6R6q6
+6)6F6U6^6d6j6
 6*f(_
+6,666
 607c7l8{9
-6<6U6m6v6
 6>6[6
 6E6J6z6
 6I]Dc
 6OB,n_
-6d6q6
 7 7$7(7,7074787<7@7D7H7
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7&7,72787>7D7J7P7V7\7b7h7q7
+7 7&7,72787>7D7J7P7V7\7b7h7n7t7z7
 7$7)7.73787=7B7G7L7Q7V7[7`7e7j7o7t7y7~7
+7$7@7f7u7
 7$8U8!919}9
 7)707I7N7j7q7
 70503
-727>7N7c7
-727E7Q7`7v7|7
-738:8
-767E7R7`7l7v7~7
-7@8\8f8t8}8
+727B7L7V7_7r7~7
+72969
 7O7W7
-7T8_8c8r8v8
-7h9s9w9
+7c8j869:9G9K9@<D<
+7d85<Z>d>h>
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7l8p8t8x8
-8!828=8^8n8x8
+7o7 9$9Z9^9m9q9
+7o?Q7n
+8"8p8
 8#8(828C8H8R8c8h8r8
-8%8*8;8A8F8Q8[8b8h8r8
-8*9.9=9A9b9f9u9y9
-8,838L8S8l8
-8/9o9
+8*868U8Z8k8q8v8
+8,838N8k8
+8,8G8Q8b8m8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8Q9c9i9
 8SVWh\
-8[:_:
+8W=`=d=t=}=
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -279,72 +282,68 @@ $9^ t
 9 u	A
 9!:I:
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9m9r9w9|9
-9#9)9/999C9N9V9]9e9n9u9
-9.989B9R9]9~9
+9"9-9N9^9h9r9
+9#9.969@9H9S9Y9_9i9s9~9
 949l9
-95:O:
-9]<a<
+9>:D:^:$;
 9_lt\
-9f:I<M<\<`<M=X=`=
-9i:m:
-: :$:1:5:W:[:j:n:}:
 : ;,;4;L;P;`;
 :#:(:-:2:7:<:A:F:K:P:a:f:k:p:u:z:
-:#:D:I:b:g:t:
 :#;W;
 :$:,:L:p:|:
+:(:2:B:M:n:~:
+:*:2:<:H:P:T:a:e:
+:+:/:
 :3:X:}:
 :;:w:
-:>:N:X:b:r:}:
+:>;D;V;\;m;r;
+:@;G;
+:F:S:t:y:
 :X;{;
-:b;f;
+:\<L=
+:y<}<
 ; ;$;
 ; <$<(<,<0<4<8<<<@<D<
-;";2;=;^;n;x;
+;!;+;=;U;
 ;#;-;C;M;a;o;t;
 ;$<`<
-;%;m;
-;&;,;=;B;
+;$>(>,>0>4>8><>@>D>H>L>P>T>
 ;(<s<
 ;-<x<
-;[<l<}<
+;.;>;H;R;b;m;
+;1<d<
+;?<R<u<1=>=Y=
+;C<W<|<
 ;x<|<
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
-<"<E<
-<'<L<`<s<
-<*>4>8>
+<"<-<N<^<h<r<
 <,<P<\<d<|<
-<.<8<B<R<]<~<
 <0:08
-<2=6=E=I=
-<4<U<
-<E=I=X=\=
 <_=r=
-<h=l=
-<o=#>y>
 <unknown>
-=)=p=v=
+=(=2=B=M=n=~=
+=*=u=y=
 =,=L=l=
 =0=P=l=p=x=
 =1=A=Q=]=i=s=
-=>=N=X=b=r=}=
-=L?k?
+=b=f=u=y=
 =rIQU
-> >$>
->">2>=>^>n>x>
+>%>+>4>F>L>
+>.>>>H>R>b>m>
+>.>|?
 >0<0:
+>1?b?
+>9>M>
+>B?I?
 >H?Z?`?g?r?
 >Mp$d
 >T>6?
->U>a>y>
 >X>\>`>d>|>
 >[>c>k>/?7?j?y?
->i>m>
->n?r?
-? ?/?B?M?n?~?
+?!?1?7?;?A?E?P?_?r?}?
 ?(?,?4?L?\?`?h?
-?2?l?
+?.?H?h?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
 ??Bid@locale@std@@QAEIXZ
@@ -368,8 +367,6 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
-@od4e
-A8XeY
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -383,6 +380,7 @@ ASSERT: "%s" at %s:%d.
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
+B3I3~3
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
@@ -414,7 +412,6 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
-F0a0o0
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -474,6 +471,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KI?w9
 K}*n:	
 L?n(Zy&
 LeaveCriticalSection
@@ -487,7 +485,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-Od-YGRs
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -503,12 +500,14 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R1Z1x1
 RPCRT4.dll
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
 S0Q0O
+S0W0e0i0
 SA|X=G
 SETUPAPI.dll
 SNRtt(
@@ -602,6 +601,7 @@ Y__^[
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
+\3`3	484M4Q4
 ]J<0"0i3
 _CIpow
 _Cnd_destroy_in_situ
@@ -810,7 +810,7 @@ strtol
 sv_sv
 swedish
 t"Php
-t6Z^"[
+t08e*O
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -822,6 +822,7 @@ too large
 too many codes
 tr_tr
 turkish
+u"h(~
 u(_^[
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C

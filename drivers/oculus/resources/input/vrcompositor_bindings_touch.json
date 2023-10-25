@@ -152,7 +152,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/lasermouse/in/rightclick"
+                     "output" : "/actions/lasermouse/in/home"
                   }
                },
                "mode" : "button",
@@ -166,7 +166,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/lasermouse/in/home"
+                     "output" : "/actions/lasermouse/in/back"
                   }
                },
                "mode" : "button",
@@ -175,7 +175,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/lasermouse/in/rightclick"
+                     "output" : "/actions/lasermouse/in/home"
                   }
                },
                "mode" : "button",
@@ -184,7 +184,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/lasermouse/in/home"
+                     "output" : "/actions/lasermouse/in/back"
                   }
                },
                "mode" : "button",
@@ -197,10 +197,28 @@
                   },
                   "touch" : {
                      "output" : "/actions/lasermouse/in/trackpadtouch"
+                  },
+                  "click" : {
+                     "output": "/actions/lasermouse/in/rightclick"
                   }
                },
                "mode" : "joystick",
                "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs": {
+                  "position": {
+                     "output": "/actions/lasermouse/in/trackpadvalue"
+                  },
+                  "touch": {
+                     "output": "/actions/lasermouse/in/trackpadtouch"
+                  },
+                  "click": {
+                     "output": "/actions/lasermouse/in/rightclick"
+                  }
+               },
+               "mode": "joystick",
+               "path": "/user/hand/right/input/joystick"
             }
          ]
       },

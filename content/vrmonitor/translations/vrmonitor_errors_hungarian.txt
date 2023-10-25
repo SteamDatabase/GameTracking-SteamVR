@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Több infó"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Képkódolási hiba"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Lehet, hogy frissítened kell számítógéped video-illesztőprogramját."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Több infó"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://help.steampowered.com/hu/faqs/view/153F-1B04-6CAB-43A1#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR hiba"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "A SteamVR nem tudott csatlakozni az Oculus alkalmazáshoz. Győződj meg róla, hogy a legújabb verzió van telepítve."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Látogasd meg az oculus.com oldalt"
@@ -686,10 +691,20 @@
 "Popover_NoPose_HMD_Action" "Több infó"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Keresés..."
+"Popover_NoCameraPose_HMD_Description" "Ez a fejszett jelenleg nem követ. Próbálj körbenézni."
+"Popover_NoCameraPose_HMD_Action" "Több infó"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Keresés..."
 "Popover_NoPose_Controller_Description" "Ez a játékvezérlő jelenleg nem követ. Győződj meg róla, hogy egy bázisállomás látóterében van."
 "Popover_NoPose_Controller_Action" "Játékvezérlő azonosítása"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Keresés..."
+"Popover_NoCameraPose_Controller_Description" "Ez a játékvezérlő jelenleg nem követ. Győződj meg róla, hogy a fejszettkamerák látóterében van."
+"Popover_NoCameraPose_Controller_Action" "Játékvezérlő azonosítása"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Keresés..."
 "Popover_NoPose_Base_Description" "Ez a bázisállomás jelenleg nem követ eszközt. Győződj meg róla, hogy a fejszetted a látóterében van."
@@ -786,6 +801,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "Egy közelmúltbeli összeomlás <span>miatt</span> néhány SteamVR kiegészítő blokkolva lett.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian'>További információ</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Kiegészítők kezelése"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam kliens béta szükséges"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Ez a SteamVR béta frissítés néhány olyan új funkciót tartalmaz, amelyekhez telepíteni kell a Steam kliens bétát."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Több infó"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/hu/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR frissítés"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "A SteamVR frissítve lett a(z) %2 verzióra."
@@ -949,6 +969,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Telepítés"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Telepíted a Bigscreen Beyond illesztőprogramot?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "A Bigscreen Beyond fejszett SteamVR-en működtetéséhez illesztőprogram szükséges."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Telepítés"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Kijelzőcsatlakozási probléma"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Videokártyád nem tud csatlakozni HMD kijelződhöz. Próbáld meg eltávolítani a használt kábeladaptereket vagy -hosszabbítókat. Próbálj ki egy másik csatlakozót a videokártyádon, ha van. <b>Használd a lenti alaphelyzetbe állító hivatkozást a HMD alaphelyzetbe állításához, hogy a videokártya újrapróbálja.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Fejszett alaphelyzetbe"
@@ -962,6 +987,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Több infó"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Tűzfal-konfiguráció"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Az engedélyedre van szükség a tűzfalszabályaid módosításához a SteamVR számára. Kérjük, kattints alább a „Tűzfal módosítására”, majd válaszd az „Igent” a „Felhasználó fiókok felügyelete” kérdésére."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Tűzfal módosítása"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Kérjük, játék közben húzd ki a játékvezérlőket."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "A töltőkábel ferdén kihúzása a játékvezérlő károsodását okozhatja."

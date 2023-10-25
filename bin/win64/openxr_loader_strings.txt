@@ -42,7 +42,6 @@
  was not found
  with error 
 !hn7!
-#=0DM
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -57,10 +56,8 @@
 (t$ H
 (t$PL
 (unknown)
-)=Wy0
 )D$ L
 )t$ H
-*kEs$
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -148,7 +145,6 @@
 .xdata$x
 /api_layers/explicit.d
 /api_layers/implicit.d
-/fCpbvFe
 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
 0123456789abcdef
 0A^A\_
@@ -161,13 +157,14 @@
 0x%llx (%lld): 
 0}0i1
 130801120000Z
+13t"zf
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-230831183644Z0/
+231024210414Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -326,7 +323,6 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9<
-C8aA&
 CD$0D
 CD$0I
 CD$0f
@@ -503,6 +499,7 @@ LoaderInstance::CreateInstance chained CreateInstance call failed
 LoaderInstance::CreateInstance succeeded with 
 LoaderInstance::CreateInstance, no support found for requested extension: 
 M H1E
+M18eF
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -530,6 +527,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSOv
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -566,7 +564,6 @@ Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-Spjbe
 Syntax error: value, object or array expected.
 T$0H;
 T$HE3
@@ -667,6 +664,7 @@ Y9"SD
 \ApiLayers\Implicit
 \u=H;
 ]J<0"0i3
+^!HO*
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -733,7 +731,6 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
-bdT'e9
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
@@ -799,6 +796,7 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
+k9h\'
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -826,9 +824,9 @@ memset
 must be non-NULL
 nfinity
 ntelD
-oAsow=
 openxr/
 openxr_loader.dll
+pw\vZ
 rejectDupKeys
 runtime
 s t#fff
@@ -981,7 +979,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-zUIv!
+{:jCE
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1003,6 +1001,7 @@ zUIv!
 |$xH;
 |$xIi
 |Lu?c
+}0TD_
 }LuHO
 ~+fff
 ~qj#k"

@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Więcej informacji"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=polish#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Błąd kodera wideo"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Może być wymagana aktualizacja sterowników twojej karty graficznej."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Więcej informacji"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://help.steampowered.com/pl/faqs/view/153F-1B04-6CAB-43A1#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Błąd SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR nie był w stanie połączyć się z aplikacją Oculus. Upewnij się, że masz zainstalowaną najnowszą wersję."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Odwiedź oculus.com"
@@ -686,10 +691,20 @@
 "Popover_NoPose_HMD_Action" "Więcej informacji"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Wyszukiwanie..."
+"Popover_NoCameraPose_HMD_Description" "Te gogle nie śledzą obecnie ruchu. Spróbuj rozejrzeć się dookoła."
+"Popover_NoCameraPose_HMD_Action" "Więcej informacji"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Wyszukiwanie..."
 "Popover_NoPose_Controller_Description" "Ten kontroler obecnie nie śledzi ruchu. Upewnij się, że jest w zasięgu widzenia stacji bazowej."
 "Popover_NoPose_Controller_Action" "Zidentyfikuj kontroler"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Wyszukiwanie..."
+"Popover_NoCameraPose_Controller_Description" "Ten kontroler obecnie nie śledzi ruchu. Upewnij się, że jest w zasięgu widzenia kamer gogli."
+"Popover_NoCameraPose_Controller_Action" "Zidentyfikuj kontroler"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Wyszukiwanie..."
 "Popover_NoPose_Base_Description" "Ta stacja bazowa obecnie nie śledzi ruchu. Upewnij się, że jest w zasięgu widzenia twoich gogli."
@@ -786,6 +801,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Z powodu</span> ostatniego nieoczekiwanego zamknięcia niektóre dodatki SteamVR zostały zablokowane.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Dowiedz się więcej.</a>"
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Zarządzaj dodatkami"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Wymagana wersja beta klienta Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Ta aktualizacja wersji beta SteamVR zawiera kilka nowych funkcji, które wymagają zainstalowanego klienta Steam w wersji beta."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Więcej informacji"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/pl/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Aktualizacja SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR został zaktualizowany do wersji %2."
@@ -940,14 +960,19 @@
 "Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
 
 "Warning_DismissableWarning_InstallWMRPrompt_Header" "Zainstalować sterownik Windows Mixed Reality?"
-"Warning_DismissableWarning_InstallWMRPrompt_Description" "Sterownik jest wymagany w celu uruchomienia gogli Windows Mixed Reality na SteamVR."
+"Warning_DismissableWarning_InstallWMRPrompt_Description" "Sterownik jest wymagany w celu obsługi gogli Windows Mixed Reality w SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Zainstaluj"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
 
 "Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Zainstalować sterownik Vive Pro 2?"
-"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Sterownik jest wymagany w celu uruchomienia gogli Vive Pro 2 na SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Sterownik jest wymagany w celu obsługi gogli HTC VIVE Pro 2 w SteamVR."
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Zainstaluj"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
+
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Zainstalować sterownik dla Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Sterownik jest wymagany w celu obsługi gogli Bigscreen Beyond w SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Zainstaluj"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problem z podłączeniem wyświetlacza"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Twoja karta graficzna nie może pomyślnie połączyć się z wyświetlaczem gogli. Spróbuj odpiąć wszelkie przejściówki kabli lub przedłużacze, z których korzystasz. Spróbuj skorzystać z innego portu w twojej karcie graficznej, jeżeli jakiś jest dostępny. <b>Użyj linku do resetowania poniżej, by zresetować gogle, przez co karta graficzna ponowi próbę.</b>"
@@ -962,6 +987,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Więcej informacji"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Konfiguracja zapory"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Wymagane jest twoje upoważnienie do zmodyfikowania zasad twojej zapory, by umożliwić działanie SteamVR. Kliknij „Zmodyfikuj zaporę”, a następnie wybierz „Tak” w oknie dialogowym kontroli konta użytkownika."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Zmodyfikuj zaporę"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Odłącz kontrolery podczas gry"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Ciągnięcie kabla zasilającego pod kątem może spowodować uszkodzenie kontrolera."

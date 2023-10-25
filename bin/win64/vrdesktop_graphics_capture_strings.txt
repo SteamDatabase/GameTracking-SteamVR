@@ -30,6 +30,7 @@
 (t$ H
 (t$@H
 (|$ H
+)(wU&
 )D$ L
 )t$ H
 )t$0H
@@ -181,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831184608Z0/
+231024210901Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,6 +194,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4ZB,Vm
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -665,7 +667,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS?I
+RSDSK^
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -776,6 +778,7 @@ VR_OVERRIDE
 VWATAVAWH
 VWAVH
 VWAWH
+V\.PG
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -793,6 +796,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+XZoW[
 Y9"SD
 [K]taM?
 \$ E3
@@ -954,7 +958,6 @@ invalid string position
 iswspace
 it_it
 italian
-j&Lz1>
 ja_jp
 japanese
 jj@0HK4
@@ -998,11 +1001,13 @@ product_name
 pt_br
 pt_pt
 r,fff
+r[^(`g|*K
 request_destroy_window_view
 request_handlers
 request_handlers_response
 request_show_desktop
 request_spawn_window_view
+request_task_view
 request_window_list_update
 returnAddress
 ro_ro
@@ -1025,7 +1030,7 @@ swedish
 system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
-system.window.%s
+system.window.%llu
 systemui_dashboard
 t$ AVH
 t$ AWH
@@ -1045,7 +1050,6 @@ title
 tolower
 tr_tr
 turkish
-u!}Ls
 ua_ua
 ukranian
 update_debug_info
@@ -1089,6 +1093,7 @@ zh_tw
 |$ UATAUAVAWH
 |$ UH
 |$0H9
+|$0fD
 |$@A_A^A]A\
 |$@I;
 |$HE3

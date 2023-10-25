@@ -292,12 +292,12 @@
 "VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Khởi động lại SteamVR"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_FirstActionURL" "vrmonitor://restartsystem"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_Action" "Xem thêm"
-"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/vn/faqs/view/18A4-1E10-8A94-3DDA"
+"VRInitError_Compositor_CannotDRMLeaseDisplay_ActionURL" "https://help.steampowered.com/en/faqs/view/18A4-1E10-8A94-3DDA"
 
 "VRInitError_Compositor_GnomeNoDRMLeasing_Header" "Không thể thuê màn hình"
-"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Môi trường desktop của bạn (GNOME Wayland) không hỗ trợ thuê tài nguyên từ Direct Rendering Manager, tính năng cần thiết cho thực tế ảo."
+"VRInitError_Compositor_GnomeNoDRMLeasing_Description" "Môi trường desktop của bạn (Gnome Wayland) không hỗ trợ thuê tài nguyên từ Direct Rendering Manager, tính năng cần thiết cho thực tế ảo."
 "VRInitError_Compositor_GnomeNoDRMLeasing_Action" "Xem thêm"
-"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/vn/faqs/view/18A4-1E10-8A94-3DDA"
+"VRInitError_Compositor_GnomeNoDRMLeasing_ActionURL" "https://help.steampowered.com/en/faqs/view/18A4-1E10-8A94-3DDA"
 
 "VRInitError_Compositor_CannotConnectToDisplayServer_Header" "Không thể kết nối với window manager"
 "VRInitError_Compositor_CannotConnectToDisplayServer_Description" "SteamVR không thể kết nối với window manager. Có thể cần khởi động lại phiên hoặc SteamVR."
@@ -415,6 +415,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Description" "Có thể bạn cần cập nhật driver đồ họa của máy tính."
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Xem thêm"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Lỗi mã hóa video"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Có thể bạn cần cập nhật driver đồ họa của máy tính."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Xem thêm"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=vietnamese#steamvr-issues"
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Lỗi SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR không thể kết nối với ứng dụng Oculus. Vui lòng đảm bảo rằng bạn đã cài đặt phiên bản mới nhất."
@@ -686,10 +691,20 @@
 "Popover_NoPose_HMD_Action" "Xem thêm"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/vn/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Đang tìm..."
+"Popover_NoCameraPose_HMD_Description" "Mũ chụp này không định vị được. Hãy thử nhìn xung quanh."
+"Popover_NoCameraPose_HMD_Action" "Xem thêm"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/vn/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Đang tìm..."
 "Popover_NoPose_Controller_Description" "Tay cầm này không định vị được. Hãy đảm bảo rằng nó ở trong tầm nhìn của một trạm theo dõi."
 "Popover_NoPose_Controller_Action" "Nhận diện tay cầm"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Đang tìm..."
+"Popover_NoCameraPose_Controller_Description" "Tay cầm này không định vị được. Hãy đảm bảo rằng nó ở trong tầm nhìn của camera mũ chụp."
+"Popover_NoCameraPose_Controller_Action" "Nhận diện tay cầm"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Đang tìm..."
 "Popover_NoPose_Base_Description" "Trạm theo dõi này không dò ra thiết bị nào. Hãy chắc rằng nó trong tầm nhìn của mũ chụp."
@@ -786,6 +801,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Do</span> lần treo gần đây, một vài add-on SteamVR đã bị chặn.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Tìm hiểu thêm</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Quản lý add-on"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Yêu cầu cài đặt Beta phần mềm Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Bản cập nhật Beta SteamVR có vài tính năng mới yêu cầu cài đặt Beta phần mềm Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Xem thêm"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/en/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Cập nhật SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR đã được cập nhật lên phiên bản %2."
@@ -949,6 +969,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Cài đặt"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Cài đặt driver Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Cần phải cài đặt driver để khởi động mũ chụp Bigscreen Beyond trên SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Cài đặt"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Vấn đề kết nối hiển thị"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Card đồ họa của bạn không thể kết nối thành công với màn hình hiển thị của mũ chụp. Hãy thử tháo dây đầu chuyển đổi hoặc dây nối dài nếu bạn đang sử dụng. Thử cổng kết nối khác trên GPU nếu có. <b>Sử dụng đường dẫn đặt lại (reset) bên dưới để đặt lại mũ chụp và GPU sẽ thử kết nối lại.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Đặt lại mũ chụp"
@@ -962,6 +987,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Xem thêm"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/vn/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Thiết lập tường lửa"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Cần sự cho phép của bạn để chỉnh sửa quy tắc tường lửa cho SteamVR. Xin nhấp vào \"Chỉnh sửa tường lửa\", rồi chọn Có tại lời nhắc UAC (Kiểm soát tài khoản người dùng)."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Chỉnh sửa tường lửa"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Vui lòng rút dây điện của tay cầm trong khi chơi"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Kéo cáp sạc ở góc độ nào cũng đều có thể gây hư hỏng cho tay cầm."

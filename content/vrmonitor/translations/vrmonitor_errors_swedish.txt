@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Mer information"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Fel med videokodning"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Du kan behöva uppdatera din dators grafikdrivrutiner."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Mer information"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues	"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-fel"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kunde ej ansluta till Oculus-appen. Se till att du har senaste versionen installerad."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Besök oculus.com"
@@ -686,10 +691,20 @@
 "Popover_NoPose_HMD_Action" "Mer information"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Söker ..."
+"Popover_NoCameraPose_HMD_Description" "Headsetet utför inte spårning just nu. Prova att titta runt."
+"Popover_NoCameraPose_HMD_Action" "Mer information"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Söker ..."
 "Popover_NoPose_Controller_Description" "Denna kontroll utför inte spårning just nu. Se till att den är inom synhåll av en basstation."
 "Popover_NoPose_Controller_Action" "Identifiera kontroller"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Söker ..."
+"Popover_NoCameraPose_Controller_Description" "Kontrollen utför inte spårning just nu. Se till att den är inom synhåll av headsetets kameror."
+"Popover_NoCameraPose_Controller_Action" "Identifiera kontroll"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Söker ..."
 "Popover_NoPose_Base_Description" "Denna basstation utför för närvarande ingen spårning av enheter. Se till att den är inom synhåll av ditt headset."
@@ -786,6 +801,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>På grund av</span> en nylig krasch har vissa tillägg i SteamVR blockerats.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Läs mer</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Hantera tillägg"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steams klientbeta krävs"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Denna SteamVR-betauppdatering har några nya funktioner som kräver att Steams klientbeta är installerad."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Mer information"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/sv/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-uppdatering"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR har uppdaterats till version %2."
@@ -949,6 +969,11 @@
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installera"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Vill du Installera drivrutinen för Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "En drivrutin krävs för att köra Bigscreen Beyond-headsetet på SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installera"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Anslutningsproblem med skärmen"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ditt grafikkort lyckas inte ansluta till din HMD-display. Prova att ta bort eventuella kabeladaptrar eller förlängningssladdar. Prova en annan port på din GPU om du har en tillgänglig. <b>Använd återställningslänken nedan för att starta om din HMD så att GPU:n försöker igen.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Återställ headset"
@@ -962,6 +987,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Mer information"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Brandväggskonfiguration"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Ditt tillstånd krävs för att ändra brandväggsreglerna för SteamVR. Klicka på Modifiera brandväggen och välj sedan Ja vid UAC-uppmaningen."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Modifiera brandvägg"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Koppla från kontrollerna vid spel"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Om laddningskabeln dras ut i en vinkel kan kontrollen skadas."

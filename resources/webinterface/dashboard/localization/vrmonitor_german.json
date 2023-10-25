@@ -99,7 +99,7 @@
 	"MenuAction_DisableEnhancedPowerManagement": "Energieverwaltung deaktivieren",
 	"MenuAction_QuickCalibrate": "Schnellkalibrierung",
 	"MenuAction_RebootVive": "VR-Headset neu starten",
-	"MenuAction_RecordTrackingData": "Tracking-Daten aufnehmen",
+	"MenuAction_RecordTrackingData": "Ortungsdaten erfassen",
 	"MenuAction_RemoveAllSteamVRUSBDevices": "Alle SteamVR-USB-Geräte entfernen",
 	"MenuAction_ResetDismissableWarnings": "Warnungen zurücksetzen",
 	"MenuAction_SetConfigDirectory": "Konfigurationsverzeichnis festlegen",

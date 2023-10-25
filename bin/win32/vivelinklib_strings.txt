@@ -14,7 +14,6 @@
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
-!C6AB
 !hn7!
 $Phdd
 %%.%dg
@@ -81,7 +80,6 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
-++}2.on
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -236,7 +234,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-230831183215Z0/
+231024210045Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -450,7 +448,6 @@ $Phdd
 <;<J<S<`<x<
 <;<m<
 <= Exiting Context: (%.2f seconds)
-<FED4
 <SVWj
 <\<l<
 <j<?>U>
@@ -822,6 +819,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS7
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1015,6 +1013,7 @@ Windows XP
 WriteFile
 X6\6`6d6h6l6p6t6x6|6
 XSVW2
+Xhn,Y"
 Y9"SD
 Y__^[
 Zip Error: %s
@@ -1024,7 +1023,6 @@ Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
-Zs/MZ
 [DFU]
 [K]taM?
 \\.\pipe\BaseStationFirmwareUpgrade
@@ -1100,7 +1098,6 @@ bootloader
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
-cl{j,t[
 cntrl
 dat_file
 data error
@@ -1180,6 +1177,7 @@ j)hpG
 j*hPQ
 jj@0HK4
 k0i0$
+l 6p<
 l2|X/gGe
 lighthouse
 lower

@@ -1,16 +1,12 @@
  B __bss_start
  B _edata
  B _end
- B std::codecvt<char16_t, char8_t, __mbstate_t>::id
- B std::codecvt<char32_t, char8_t, __mbstate_t>::id
  SDL_GameControllerClose
  SDL_GameControllerGetAttached
  SDL_GameControllerGetJoystick
  SDL_GameControllerName
  SDL_GameControllerOpen
  SDL_GameControllerUpdate
- SDL_GetError
- SDL_GetPowerInfo
  SDL_HapticClose
  SDL_HapticOpenFromJoystick
  SDL_HapticRumbleInit
@@ -26,7 +22,6 @@
  SDL_NumJoysticks
  SDL_PollEvent
  SDL_QuitSubSystem
- SDL_SetThreadPriority
  T HmdDriverFactory
  T __cxa_allocate_dependent_exception
  T __cxa_allocate_exception
@@ -62,22 +57,6 @@
  T _txnal_logic_error_get_msg(void*)
  T _txnal_runtime_error_get_msg(void*)
  T _txnal_sso_string_c_str(void const*)
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  V typeinfo for __cxxabiv1::__class_type_info
  V typeinfo for __cxxabiv1::__forced_unwind
  V typeinfo for __cxxabiv1::__foreign_exception
@@ -150,10 +129,6 @@
  V typeinfo for signed char
  V typeinfo for signed char const*
  V typeinfo for signed char*
- V typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo for unsigned __int128
  V typeinfo for unsigned __int128 const*
  V typeinfo for unsigned __int128*
@@ -250,10 +225,6 @@
  V typeinfo name for signed char
  V typeinfo name for signed char const*
  V typeinfo name for signed char*
- V typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo name for unsigned __int128
  V typeinfo name for unsigned __int128 const*
  V typeinfo name for unsigned __int128*
@@ -291,10 +262,6 @@
  V vtable for __gnu_cxx::__concurrence_lock_error
  V vtable for __gnu_cxx::__concurrence_unlock_error
  V vtable for __gnu_cxx::recursive_init_error
- V vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  _ITM_RU1
  _ITM_RU8
  _ITM_addUserCommitAction
@@ -388,6 +355,7 @@
  b IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
  b IsRunningInAppContainer()::s_bIsRunningInAppContainer
  b Plat_IsInDebugSession::fp
+ b SDLDynamic()::m_instance
  b SteamVRVersionAsString()::s_sCachedVersion
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -425,6 +393,7 @@
  b guard variable for (anonymous namespace)::__io_category_instance()::__ec
  b guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
  b guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
+ b guard variable for SDLDynamic()::m_instance
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
  b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
@@ -517,7 +486,9 @@
  b std::clog
  b std::codecvt<char, char, __mbstate_t>::id
  b std::codecvt<char16_t, char, __mbstate_t>::id
+ b std::codecvt<char16_t, char8_t, __mbstate_t>::id
  b std::codecvt<char32_t, char, __mbstate_t>::id
+ b std::codecvt<char32_t, char8_t, __mbstate_t>::id
  b std::codecvt<wchar_t, char, __mbstate_t>::id
  b std::collate<char>::id
  b std::collate<wchar_t>::id
@@ -659,7 +630,9 @@
  d typeinfo for std::_V2::error_category
  d typeinfo for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d typeinfo for std::__codecvt_utf16_base<char16_t>
  d typeinfo for std::__codecvt_utf16_base<char32_t>
@@ -759,7 +732,9 @@
  d typeinfo for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d typeinfo for std::codecvt<char, char, __mbstate_t>
  d typeinfo for std::codecvt<char16_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<char32_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<wchar_t, char, __mbstate_t>
  d typeinfo for std::codecvt_base
  d typeinfo for std::codecvt_byname<char, char, __mbstate_t>
@@ -848,7 +823,9 @@
  d vtable for std::_V2::error_category
  d vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d vtable for std::__codecvt_utf16_base<char16_t>
  d vtable for std::__codecvt_utf16_base<char32_t>
@@ -948,7 +925,9 @@
  d vtable for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d vtable for std::codecvt<char, char, __mbstate_t>
  d vtable for std::codecvt<char16_t, char, __mbstate_t>
+ d vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<char32_t, char, __mbstate_t>
+ d vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<wchar_t, char, __mbstate_t>
  d vtable for std::codecvt_byname<char, char, __mbstate_t>
  d vtable for std::codecvt_byname<wchar_t, char, __mbstate_t>
@@ -1017,6 +996,10 @@
  d vtable for std::underflow_error
  dgettext
  dl_iterate_phdr
+ dlclose
+ dlerror
+ dlopen
+ dlsym
  fclose
  fdopen
  fflush
@@ -1091,15 +1074,14 @@
  pthread_setspecific
  putc
  putwc
- r CSWTCH.100
- r CSWTCH.208
+ r CSWTCH.107
+ r CSWTCH.212
  r CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
  r CThreadSpinRWLock::UnlockWrite()::newValue
  r _.stapsdt.base
  r __FRAME_END__
  r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pm
  r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pmf
- r crc32(unsigned int, void const*, unsigned long)::crcTable
  r std::(anonymous namespace)::utf16_bom
  r std::(anonymous namespace)::utf16le_bom
  r std::(anonymous namespace)::utf8_bom
@@ -1197,7 +1179,9 @@
  r typeinfo name for std::_V2::error_category
  r typeinfo name for std::__codecvt_abstract_base<char, char, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  r typeinfo name for std::__codecvt_utf16_base<char16_t>
  r typeinfo name for std::__codecvt_utf16_base<char32_t>
@@ -1297,7 +1281,9 @@
  r typeinfo name for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  r typeinfo name for std::codecvt<char, char, __mbstate_t>
  r typeinfo name for std::codecvt<char16_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<char32_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<wchar_t, char, __mbstate_t>
  r typeinfo name for std::codecvt_base
  r typeinfo name for std::codecvt_byname<char, char, __mbstate_t>
@@ -1372,6 +1358,7 @@
  r typeinfo name for std::underflow_error
  r typeinfo name for vr::IServerTrackedDeviceProvider
  r typeinfo name for vr::ITrackedDeviceServerDriver
+ r vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
  read
  readdir
  realloc
@@ -1459,6 +1446,9 @@
  t CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*)
  t CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*) [clone .cold]
  t CLogCallback::~CLogCallback()
+ t CSDLDynamic::Init()
+ t CSDLDynamic::Unload()
+ t CSDLDynamic::~CSDLDynamic()
  t CServerDriver_Gamepad::AddGameControllerByIndex(int)
  t CServerDriver_Gamepad::Cleanup()
  t CServerDriver_Gamepad::Cleanup_SDL()
@@ -1586,8 +1576,13 @@
  t RepairUTF8(char const*, char const*, std::string&) [clone .cold]
  t RepairUTF8(std::string const&, std::string&)
  t ReturnStdString(std::string const&, char*, unsigned int)
+ t SDLDynamic()
+ t SDLDynamic() [clone .cold]
  t SetCurrentProcessExplicitAppUserModelID()
  t SetEnvironmentVariable(char const*, char const*)
+ t SharedLib_GetFunction(void*, char const*)
+ t SharedLib_Load(char const*, std::string*)
+ t SharedLib_Unload(void*)
  t SteamVRVersionAsString()
  t SteamVRVersionAsString() [clone .cold]
  t StringHasPrefix(std::string const&, std::string const&)
@@ -1897,7 +1892,6 @@
  t char32_t std::(anonymous namespace)::read_utf8_code_point<char>(std::(anonymous namespace)::range<char const, true>&, unsigned long)
  t check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
  t classify_object_over_fdes
- t crc32(unsigned int, void const*, unsigned long)
  t d_abi_tags
  t d_append_buffer
  t d_bare_function_type
@@ -2013,7 +2007,7 @@
  t std::Catalogs::_M_get(int) const
  t std::Catalogs::_M_get(int) const [clone .cold]
  t std::Catalogs::~Catalogs()
- t std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
  t std::_Function_handler<void (ELogLevel, char const*, void*), InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
@@ -3785,6 +3779,14 @@
  t std::codecvt<char16_t, char, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<char32_t, char, __mbstate_t>::do_always_noconv() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_encoding() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
@@ -3793,6 +3795,14 @@
  t std::codecvt<char32_t, char, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<wchar_t, char, __mbstate_t> const& std::use_facet<std::codecvt<wchar_t, char, __mbstate_t> >(std::locale const&)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(__locale_struct*, unsigned long)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
@@ -4913,6 +4923,7 @@
  t void std::vector<CLogCallback*, std::allocator<CLogCallback*> >::_M_realloc_insert<CLogCallback* const&>(__gnu_cxx::__normal_iterator<CLogCallback**, std::vector<CLogCallback*, std::allocator<CLogCallback*> > >, CLogCallback* const&)
  t void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
  t void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
+ t vrcore::crc32(unsigned int, void const*, unsigned long)
  t wchar_t* std::__add_grouping<wchar_t>(wchar_t*, wchar_t, char const*, unsigned long, wchar_t const*, wchar_t const*)
  t wchar_t* std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_S_construct<__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > >(__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >, __gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >, std::allocator<wchar_t> const&, std::forward_iterator_tag)
  t wchar_t* std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_S_construct<wchar_t const*>(wchar_t const*, wchar_t const*, std::allocator<wchar_t> const&, std::forward_iterator_tag)

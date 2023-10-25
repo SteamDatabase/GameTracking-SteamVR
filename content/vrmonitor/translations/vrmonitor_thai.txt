@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "แสดงผลใน Extended Mode (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "ความขัดแย้งของสถานีฐาน (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR ในเซฟโหมด (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "จำเป็นต้องใช้ร่วมกับไคลเอนต์ Steam เบต้า (0x10000000000)"
 
 "DismissableWarning_Detected" "ถูกตรวจพบ"
 "DismissableWarning_TimeFormat" "h:mm:ss"
@@ -458,6 +459,7 @@
 "SystemReport_System" "ระบบ"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "อื่น ๆ"
 "SystemReport_Raw" "ดิบ"
 
 "SystemReport_Title" "รายงานระบบ"
@@ -480,6 +482,7 @@
 "SystemReport_DiscoverConfiguration" "กำลังค้นหาการกำหนดค่า"
 "SystemReport_DiscoverChaperone" "กำลังค้นหา Chaperone"
 "SystemReport_DiscoverLighthouseDB" "กำลังค้นหา LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "กำลังค้นหาบันทึกเฉพาะของไดรเวอร์"
 
 
 "Main_Systray_Error_Title" "ถาดระบบ"

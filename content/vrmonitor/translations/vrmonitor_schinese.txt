@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "显示器警告（0x10000）"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "定位器冲突 (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR 处于安全模式（0x1000000）"
+"DismissableWarning_SteamBetaNeeded" "需要 Steam 测试客户端（0x10000000000）"
 
 "DismissableWarning_Detected" "已检测"
 "DismissableWarning_TimeFormat" "h:mm AP"
@@ -453,6 +454,7 @@
 "SystemReport_System" "系统"
 "SystemReport_Chaperone" "Chaperone 导护系统"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "其他"
 "SystemReport_Raw" "原始"
 
 "SystemReport_Title" "系统报告"
@@ -475,6 +477,7 @@
 "SystemReport_DiscoverConfiguration" "正在查找配置"
 "SystemReport_DiscoverChaperone" "正在查找 Chaperone 导护系统"
 "SystemReport_DiscoverLighthouseDB" "正在查找 LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "正在查找驱动程序日志"
 
 
 "Main_Systray_Error_Title" "系统托盘"

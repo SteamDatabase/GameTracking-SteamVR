@@ -1,52 +1,91 @@
-#!/bin/bash -x
+#!/bin/bash
 
-VRBINDIR=$(cd $(dirname $0)/; pwd)
-[[ -n $STEAMVR_VRENV ]] || exec "$VRBINDIR/vrenv.sh" "$0" "$@"
+# verbose
+#set -x
 
-SETUP_LOG=/tmp/SteamVRLauncherSetup.log
+set -o pipefail
+shopt -s failglob
+set -u
+
+BASENAME="$(basename "$0")"
+
+export STEAMVR_SETUP_LOG="${STEAMVR_SETUP_LOG:-/tmp/SteamVRLauncherSetup.log}"
+
+log () {
+	( echo "${BASENAME}[$$]: $*" | tee -a "${STEAMVR_SETUP_LOG}" >&2 ) || :
+}
+
+VRBINDIR="$(cd "$(dirname "$0")" && echo $PWD)"
+
+if [ -z "${STEAMVR_VRENV-}" ]; then
+	log exec "$VRBINDIR/vrenv.sh" "$0" "$@"
+	exec "$VRBINDIR/vrenv.sh" "$0" "$@"
+	# unreachable
+fi
 
 # Just a safety fallback, STEAM_ZENITY should be already setup via the vrenv.sh path above
-if [ -z ${STEAM_ZENITY} ]; then
+if [ -z "${STEAM_ZENITY-}" ]; then
 	export STEAM_ZENITY="zenity"
 fi
 
-function pErr()
-{
-	echo "$(date) - $@" >> $SETUP_LOG
-}
-
 function SteamVRLauncherSetup()
 {
-	if ! [ -x "$(command -v getcap)" ]; then
-		pErr 'Error: getcap is required to complete the SteamVR setup.'
-		return 1
-	fi
+	if [ -z "${PRESSURE_VESSEL_RUNTIME-}" ]; then
 
-	if ! [ -x "$(command -v setcap)" ]; then
-		pErr 'Error: setcap is required to complete the SteamVR setup.'
-		return 1
-	fi
+		# We are not under pressure-vessel - presumably we have been relaunched at host level via the steam launcher service
+		# We still require the scout LDLP environment however, so consider one more relaunch
+		if [ -n "${STEAM_RUNTIME-}" ]; then
+			log "Detected scout LDLP runtime."
+			# continue
+		else
+			log "Relaunching under scout LDLP runtime."
+			log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+			exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+			# unreachable
+		fi
 
-	if [[ "$(getcap $STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher)" == *"cap_sys_nice"* ]]; then
+		if ! [ -x "$(command -v getcap)" ]; then
+			log 'Error: getcap is required to complete the SteamVR setup.'
+			return 1
+		fi
+
+		if ! [ -x "$(command -v setcap)" ]; then
+			log 'Error: setcap is required to complete the SteamVR setup.'
+			return 1
+		fi
+
+		if [[ "$(getcap $STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher)" == *"cap_sys_nice"* ]]; then
+			log "$STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher binary has cap_sys_nice privileges"
+			return 0
+		fi
+
+		if ! ${STEAM_ZENITY} --no-wrap --question --text="SteamVR requires superuser access to finish setup. Proceed?"; then
+			log 'Error: user declined superuser request.'
+			return 1
+		fi
+
+		pkexec setcap CAP_SYS_NICE=eip $STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher
+
+		if ! [[ "$(getcap $STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher)" == *"cap_sys_nice"* ]]; then
+			log 'Error: setcap of vrcompositor-launcher failed.'
+			return 1
+		fi
+
+		return 0
+	else
+		log "Detected Steam Linux Runtime pressure-vessel launch in ${PRESSURE_VESSEL_RUNTIME}"
+		if [ -z ${SRT_LAUNCHER_SERVICE_ALONGSIDE_STEAM-} ]; then
+			log "Error: steam launcher service not available, vrcompositor-launcher will execute inside the container with no privileges."
+		else
+			log "Relaunching via steam launcher service to host level for vrcompositor setcap configuration."
+			exec steam-runtime-launch-client --alongside-steam -- "$0" "$@"
+			# unreachable
+		fi
 		return 0
 	fi
-
-	if ! ${STEAM_ZENITY} --no-wrap --question --text="SteamVR requires superuser access to finish setup. Proceed?"; then
-		pErr 'Error: user declined superuser request.'
-		return 1
-	fi
-
-	pkexec setcap CAP_SYS_NICE=eip $STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher
-
-	if ! [[ "$(getcap $STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher)" == *"cap_sys_nice"* ]]; then
-		pErr 'Error: setcap of vrcompositor-launcher failed.'
-		return 1
-	fi
-
-	return 0
 }
 
 SteamVRLauncherSetup
 if [ "$?" != "0" ]; then
-    ${STEAM_ZENITY} --no-wrap --info --text="SteamVR setup is incomplete, some features might be missing. See $SETUP_LOG for details.";
+    ${STEAM_ZENITY} --no-wrap --info --text="SteamVR setup is incomplete, some features might be missing. See $STEAMVR_SETUP_LOG for details.";
 fi

@@ -695,6 +695,9 @@ CReadProperties::PopulateResultsFromConnectionCache(ble_gap_addr_t const*, unsig
 CReadProperties::PopulateResultsFromConnectionCache(ble_gap_addr_t const*, unsigned int, Json::Value*) [clone .cold]
 CReadProperties::SendPowerOnCommand()
 CReadProperties::WriteInvalidSOBChannel()
+CSDLDynamic::Init()
+CSDLDynamic::Unload()
+CSDLDynamic::~CSDLDynamic()
 CSOBChannel::CSOBChannel()
 CSOBChannel::CSOBChannel() [clone .cold]
 CSOBChannel::CreateUUIDMappings()
@@ -708,9 +711,9 @@ CSOBChannel::OnBLEEvent_GATTC_WriteResponse(ble_gattc_evt_t const*)
 CSOBChannel::OnBLEEvent_GATTC_WriteResponse(ble_gattc_evt_t const*) [clone .cold]
 CSOBChannel::SendSOBChannelCommand(int)
 CST
-CSWTCH.100
+CSWTCH.107
 CSWTCH.157
-CSWTCH.208
+CSWTCH.212
 CScan::CScan()
 CScan::CScan() [clone .cold]
 CScan::DoScanContext(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, EScanCompletionQualifier_t, float, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)
@@ -937,6 +940,7 @@ Error reading file
 Error writing to file
 Error. Received Write TX. (gatt_status: %s)
 Error. Write operation failed. (gatt_status: %s)
+Error: failed to load dynamic SDL
 Exceeded stackLimit in readValue().
 Exchange MTU Request Failed. (nrf_error: %s)
 Existing Bootloader mode.
@@ -1001,7 +1005,7 @@ G
 GATT Write With Response. (handle: %d, length: %d) '%s'
 GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'
 GATTC Send handle value confirmation to handle %d
-GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GLIBC_2.12
 GLIBC_2.14
 GLIBC_2.2.5
@@ -1900,6 +1904,9 @@ SD RPC Error: %s
 SD RPC Info: %s
 SD RPC Log: %s
 SD RPC Warning: %s
+SDLDynamic()
+SDLDynamic() [clone .cold]
+SDLDynamic()::m_instance
 SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
@@ -1942,6 +1949,9 @@ SetCurrentProcessExplicitAppUserModelID()
 SetStateContext
 Setting TX Power Failed. (nrf_error: %s)
 Setting TX Power.
+SharedLib_GetFunction(void*, char const*)
+SharedLib_Load(char const*, std::string*)
+SharedLib_Unload(void*)
 Si
 So
 St10bad_typeid
@@ -1949,6 +1959,7 @@ St10moneypunctIcLb0EE
 St10moneypunctIcLb1EE
 St10moneypunctIwLb0EE
 St10moneypunctIwLb1EE
+St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 St11__timepunctIcE
 St11__timepunctIwE
 St11logic_error
@@ -2819,8 +2830,6 @@ cplens
 cplext
 cplus_demangle_builtin_types
 cplus_demangle_operators
-crc32(unsigned int, void const*, unsigned long)
-crc32(unsigned int, void const*, unsigned long)::crcTable
 crc_table
 d
 dV
@@ -2888,6 +2897,10 @@ digit
 dl
 dl_iterate_phdr
 dladdr
+dlclose
+dlerror
+dlopen
+dlsym
 dollar-sign
 double
 dropNullPlaceholders
@@ -2996,6 +3009,7 @@ guard variable for
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
+guard variable for SDLDynamic()::m_instance
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
 guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
@@ -7499,6 +7513,8 @@ void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<s
 void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long const&)
 volatile
 vr-input-workshop://
+vrcore::crc32(unsigned int, void const*, unsigned long)
+vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vsnprintf
 vtable for
 vtable for (anonymous namespace)::generic_error_category

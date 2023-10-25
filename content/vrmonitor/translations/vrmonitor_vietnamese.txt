@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Cảnh báo về màn hình hiển thị (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Xung đột trạm theo dõi (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR ở chế độ an toàn (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Yêu cầu cài đặt Beta phần mềm Steam (0x10000000000)"
 
 "DismissableWarning_Detected" "Đã phát hiện"
 "DismissableWarning_TimeFormat" "h:mm:ss AP"
@@ -457,6 +458,7 @@
 "SystemReport_System" "Hệ thống"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Khác"
 "SystemReport_Raw" "Thô"
 
 "SystemReport_Title" "Báo cáo hệ thống"
@@ -479,6 +481,7 @@
 "SystemReport_DiscoverConfiguration" "Đang tìm thiết lập"
 "SystemReport_DiscoverChaperone" "Đang tìm Chaperone"
 "SystemReport_DiscoverLighthouseDB" "Khám phá LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "Đang tìm nhật ký dành cho driver"
 
 
 "Main_Systray_Error_Title" "Khay hệ thống"

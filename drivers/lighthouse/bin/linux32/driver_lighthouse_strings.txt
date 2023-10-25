@@ -195,6 +195,7 @@ $tI
 %s: Can't create source of type "%s"
 %s: Checking to see if display has connected...
 %s: Connected to receiver %s
+%s: Controller subprotocol changed version %d
 %s: Device does not have a stored config
 %s: Disconnected from receiver %s
 %s: ERROR: could not query version from watchman board.
@@ -205,6 +206,7 @@ $tI
 %s: Ignoring unlikely saved IMU calibration %s
 %s: Log recorded at %s
 %s: Not loading device config because its size is too large: 0x%X bytes
+%s: Optical subprotocol changed version %d
 %s: Packet received after %.3fs, keepalive (%d/%d)
 %s: Protocol versioning supported, requesting %d
 %s: Read config of %u bytes from [vid:%x, pid:%x] (%s) and inflated to %u bytes
@@ -964,16 +966,16 @@ $tI
 .L1754
 .L1755
 .L1756
-.L1759
 .L176
-.L1760
-.L1762
-.L1763
-.L1764
-.L1765
-.L1766
 .L177
+.L1776
+.L1777
+.L1779
 .L178
+.L1780
+.L1781
+.L1782
+.L1783
 .L1784
 .L1786
 .L1787
@@ -1098,6 +1100,7 @@ $tI
 .L2157
 .L2158
 .L216
+.L217
 .L218
 .L219
 .L2196
@@ -1172,7 +1175,7 @@ $tI
 .L242
 .L243
 .L244
-.L246
+.L245
 .L247
 .L248
 .L249
@@ -1491,20 +1494,21 @@ $tI
 .L3257
 .L3258
 .L3259
+.L326
 .L3260
+.L327
 .L3275
 .L3276
 .L3277
 .L3278
 .L3279
-.L328
 .L3280
 .L3281
 .L3282
 .L3283
 .L3284
-.L329
 .L33
+.L330
 .L331
 .L332
 .L334
@@ -1647,20 +1651,18 @@ $tI
 .L44
 .L440
 .L441
-.L4413
-.L4414
-.L4416
-.L4417
-.L4418
-.L4419
 .L442
-.L4420
 .L443
 .L4439
 .L444
 .L4441
 .L4442
 .L4443
+.L4444
+.L4445
+.L4446
+.L4447
+.L4448
 .L445
 .L4456
 .L4458
@@ -2298,6 +2300,7 @@ $tI
 .video_state =
 .video_status_word =
 .video_subsystem_status =
+.vrstats
 /
 //==============================================================================================
 /=
@@ -2428,13 +2431,17 @@ $tI
 1
 1.2.5
 1/2/4/8/16-bit only
+10
 10CVRMailbox
+11
 11 4 22 44 44 22 444444
 111 221 2222 11
 11CBaseCamera
+12
 12CEtronCamera
 12CNonCopyable
 12IAitCamGraph
+13
 13CAnimResource
 13CAnimSkeleton
 13CCeresFunctorIN6vortex16CLighthouseModel8FunctorsINS0_17CLighthouseDirect12CStateTraitsEE21CQuaternionNormalizerEdLi49ELi0ELi0ELi0ELi0ELi0ELi0ELi0ELi0ELi0EE
@@ -2460,43 +2467,69 @@ $tI
 13CCeresFunctorIN6vortex17CLighthouseDirect17CStateAltBaseSwapINS0_16CLighthouseModel8FunctorsINS4_INS1_12CStateTraitsEE13AlternateBaseILi37EE14OverrideTraitsEEEEEdLi49ELi0ELi0ELi0ELi0ELi0ELi0ELi0ELi0ELi0EE
 13CCeresFunctorIN6vortex17CLighthouseDirect17CStateAltBaseSwapINS0_16CLighthouseModel8FunctorsINS4_INS1_12CStateTraitsEE13AlternateBaseILi43EE14OverrideTraitsEEEEEdLi49ELi0ELi0ELi0ELi0ELi0ELi0ELi0ELi0ELi0EE
 13ICeresFunctorIdE
+14
 14CCeresFunctorsIdLi1EE
 14CPreviewThread
 14CVRMailboxBase
 14IHandPoseLogic
+15
 15CVRAudioDevices
 15CVRReplyMailbox
 15IStatePoseMaker
 15IVRAudioDevices
 15StaticPoseMaker
+16
 16CVrcDecodeTagged
+17
 17CBoneMaskResource
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
-18:26:12
+18
 18IUsbDeviceCallback
+19
 19CWirelessDecoderWv2
 1e+9999
 2
+20
+20:58:43
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
+21
+22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
+23
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
+24
+25
 25ICameraCompletionCallback
+26
 26CWatchdogConnectionMonitor
 26CWatchdogDriver_Lighthouse
 26CWirelessConnectionMonitor
+27
+28
+29
 3
+30
+31
+32
+33
+34
+35
+36
+37
+38
 3Pole
 4
 4C
 4Pole
 5
+6
 7
 7CThread
 8
@@ -2646,7 +2679,6 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug 31 2023
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)
@@ -3430,6 +3462,7 @@ CLighthouseHmdDriver::BShouldNagForFirmwareUpdate() [clone .cold]
 CLighthouseHmdDriver::BTryToFixFailedActivation()
 CLighthouseHmdDriver::CLighthouseHmdDriver()
 CLighthouseHmdDriver::CLighthouseHmdDriver() [clone .cold]
+CLighthouseHmdDriver::CanStartOtgt()
 CLighthouseHmdDriver::Cleanup()
 CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
 CLighthouseHmdDriver::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
@@ -3520,11 +3553,14 @@ CLighthouseHmdDriver::OnHtcHmdDeviceConnect(htc::HtcHmdDeviceInfo_t const&)
 CLighthouseHmdDriver::OnHtcHmdPacket(htc::HtcHmdState_t*)
 CLighthouseHmdDriver::OnIMUSample(double, double, double, double, double, double, double, unsigned int)
 CLighthouseHmdDriver::OnIPDData(float)
+CLighthouseHmdDriver::OnOtgtComplete(vortex::WatchmanOtgtResults_t const&)
+CLighthouseHmdDriver::OnOtgtComplete(vortex::WatchmanOtgtResults_t const&) [clone .cold]
 CLighthouseHmdDriver::OnPoseChange(vortex::IPoseTracker*)
 CLighthouseHmdDriver::OnPoseTrackerEvent(vr::EVREventType, vr::VREvent_Data_t const&, float)
 CLighthouseHmdDriver::OnProximityData(float, bool)
 CLighthouseHmdDriver::OnUserDataComplete(bool)
 CLighthouseHmdDriver::OnVideoStatusUpdate(float)
+CLighthouseHmdDriver::OtgtResultsContext_t::~OtgtResultsContext_t()
 CLighthouseHmdDriver::OverrideHiddenAreaMesh()
 CLighthouseHmdDriver::OverrideHiddenAreaMesh() [clone .cold]
 CLighthouseHmdDriver::OverrideInputProfile()
@@ -3543,6 +3579,10 @@ CLighthouseHmdDriver::RunFrame() [clone .cold]
 CLighthouseHmdDriver::RunFrame/ControllerState
 CLighthouseHmdDriver::SelectVideoConfig()
 CLighthouseHmdDriver::SelectVideoConfig() [clone .cold]
+CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
+CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) [clone .cold]
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) [clone .cold]
 CLighthouseHmdDriver::SetAutoExposure(bool)
 CLighthouseHmdDriver::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
 CLighthouseHmdDriver::SetCameraFrameBuffering(int, void**, unsigned int)
@@ -3563,6 +3603,10 @@ CLighthouseHmdDriver::TryUpdateAudioProperties() [clone .cold]
 CLighthouseHmdDriver::UpdateConnectedState()
 CLighthouseHmdDriver::UpdateConnectedState() [clone .cold]
 CLighthouseHmdDriver::UpdateDependentFirmwareProperties()
+CLighthouseHmdDriver::UpdateIndexOtgtLog(std::string const&, Json::Value const&)
+CLighthouseHmdDriver::UpdateIndexOtgtLog(std::string const&, Json::Value const&) [clone .cold]
+CLighthouseHmdDriver::UpdateOtgt()
+CLighthouseHmdDriver::UpdateOtgt() [clone .part.0]
 CLighthouseHmdDriver::setDepthAugmentedPassthrough(CDepthAugmentedPassthrough*)
 CLighthouseHmdDriver::~CLighthouseHmdDriver()
 CLighthouseHmdProvider::AddNewDevice(char const*, std::string const&)
@@ -3641,6 +3685,10 @@ CLocalizationManager::BLoadWebStringTable(std::string const&)
 CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
 CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
 CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
+CLocalizationManager::GetFlatLocalizationJson()
+CLocalizationManager::GetFlatLocalizationJson() [clone .cold]
+CLocalizationManager::GetLocalizationJson()
+CLocalizationManager::GetLocalizationJson() [clone .cold]
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
 CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
@@ -3734,16 +3782,19 @@ CPoseUpdateResources::CPoseUpdateResources(CAnimSkeleton const*)
 CPreviewThread::Run()
 CPreviewThread::~CPreviewThread()
 CRefCount::Release() const
+CSDLDynamic::Init()
+CSDLDynamic::Unload()
+CSDLDynamic::~CSDLDynamic()
 CST
-CSWTCH.101
+CSWTCH.111
 CSWTCH.127
 CSWTCH.131
 CSWTCH.139
 CSWTCH.141
 CSWTCH.142
 CSWTCH.161
-CSWTCH.210
 CSWTCH.2109
+CSWTCH.214
 CSWTCH.224
 CSWTCH.925
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
@@ -3935,12 +3986,12 @@ CVRAudioDevices::AddNotify(IVRAudioNotification*)
 CVRAudioDevices::CVRAudioDevices()
 CVRAudioDevices::DeserializeAudioDeviceInfo(std::string const&, std::string*, std::string*, unsigned short*, unsigned short*)
 CVRAudioDevices::GetAudioDevices(std::vector<IVRAudioDevices::CVRAudioDeviceInfo, std::allocator<IVRAudioDevices::CVRAudioDeviceInfo> >&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceState)
-CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&)
+CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&, bool)
 CVRAudioDevices::GetDefaultAudioDevice(std::string&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceRole)
 CVRAudioDevices::GetDeviceSoundVolume(std::string const&)
 CVRAudioDevices::GetMasterMicrophoneVolume()
 CVRAudioDevices::GetMasterSoundVolume()
-CVRAudioDevices::GetMirroringPlaybackDevice(std::string&)
+CVRAudioDevices::GetMirroringPlaybackDevice(std::string&, bool&)
 CVRAudioDevices::IsAudioMirroringSupported()
 CVRAudioDevices::IsDeviceSoundVolumeMute(std::string const&)
 CVRAudioDevices::IsMasterMicrophoneMute()
@@ -4085,11 +4136,15 @@ CWatchdogDriver_Lighthouse::UsbDeviceAttached() [clone .cold]
 CWatchdogDriver_Lighthouse::~CWatchdogDriver_Lighthouse()
 CWirelessConnectionMonitor::OnUnhandledData(vortex::CLighthouseIMUThread::IMonitorCallback::Unhandled)
 CWirelessConnectionMonitor::~CWirelessConnectionMonitor()
+CWirelessDecoder::GetControllerSubprotocolVersion() const
+CWirelessDecoder::GetOpticalSubprotocolVersion() const
 CWirelessDecoder::Reset()
 CWirelessDecoder::~CWirelessDecoder()
 CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int)
 CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int) [clone .cold]
 CWirelessDecoderWv2::DecodeControllerStateK2(unsigned char const*, int)
+CWirelessDecoderWv2::GetControllerSubprotocolVersion() const
+CWirelessDecoderWv2::GetOpticalSubprotocolVersion() const
 CWirelessDecoderWv2::Reset()
 CWirelessDecoderWv2::ResetImpl()
 CWirelessDecoderWv2::~CWirelessDecoderWv2()
@@ -4278,6 +4333,7 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
 DriverLog(char const*, ...)
 DriverLogString(char const*)
 DriverLogVarArgs(char const*, char*)
@@ -4420,6 +4476,7 @@ Error querying Index HMD panel stats
 Error querying IndexHmdColumnCorrectionMode
 Error reading tracked device config from path
 Error reporting not implemented.
+Error serializing persistent statistics entry
 Error setting column correction
 Error setting index audio mute state
 Error setting index backlight gain
@@ -4439,6 +4496,7 @@ Error: Override File %s is too small, or cannot be read
 Error: Override File %s is too small. Actual size: %d, expected size %d
 Error: Override File does not have entry for device key 0x%08X
 Error: Override file %s exceeds maximum size %d
+Error: failed to load dynamic SDL
 Errors when parsing lighthouse database %s:%s
 Errors!
 EstimateIndexColumnCorrection(vortex::panel_stats_t const&, int)
@@ -4536,6 +4594,7 @@ Failed to free amdgpu bo
 Failed to free va range
 Failed to get IB cpu address
 Failed to get backtrace symbols
+Failed to get log path for persistent statistics.
 Failed to get motion output: bad parameter
 Failed to get motion output: dimensions doubled
 Failed to get motion output: mv map failed
@@ -4580,6 +4639,7 @@ Failed to read file:
 Failed to register motion estimator input: bad parameter
 Failed to register motion estimator input: import failed
 Failed to reset ib
+Failed to send OTGT result
 Failed to send config chunk after %d bytes
 Failed to send pairing result mailbox message. Maybe it didn't have a return address?
 Failed to send reply to discover_dongles message: %d
@@ -4599,6 +4659,7 @@ Failed to wait for ib completion
 Failed to wait for job completion: query failed
 Failed to wait for job completion: wait failed.
 Failed to wait for motion vector work finished: job wait error
+Failed to write file %s
 FailedToGetFirmwareVersion
 False
 FastHexToBuffer() wants non-negative integers, not
@@ -4692,7 +4753,7 @@ Fuel Gauge Reset
 Full base station info: >>>%s<<<
 Future Model
 G
-GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBC_2.0
 GLIBC_2.1
@@ -4930,6 +4991,8 @@ InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) [clone .cold]
 InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
+InitInternalClientInterfaces(std::function<void* (char const*)>) [clone .cold]
+InitInternalDriverDirectInterface(std::function<void* (char const*)>)
 InitInternalInterfaces(std::function<void* (char const*)>, bool)
 InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
 InitInternalInterfacesNonStandard(void* (*)(char const*))
@@ -4996,6 +5059,7 @@ Invalid job
 Invalid job handle
 Invalid magic.
 Invalid message set extension.
+Invalid persistent statistics serial
 Invalid proto descriptor for file "
 Invalid public dependency index.
 Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for all controllersX
@@ -5954,8 +6018,10 @@ O"
 OK
 OOTX Packet Dump -- len = %d
 OPAQUE
+OTGT timed out
 Object
 Oct
+Oct 24 2023
 October
 Ok
 Old Normal: %f %f %f
@@ -6148,6 +6214,7 @@ Pe
 Peripheral MCU %u
 PeripheralApplication
 PermissionDenied
+Persistent statistics file does not exist. Creating new %s
 Perspective camera description not found.
 PerspectiveCamera
 Pf
@@ -6197,6 +6264,7 @@ ReadTrackedDeviceConfigFromString(CTrackedDeviceConfig&, std::string&, std::stri
 ReadVideoDeviceAttribute(char const*, char const*, char const*)
 ReadVideoDeviceAttribute(char const*, char const*, char const*) [clone .cold]
 Reading dangerously large protocol message.  If the message turns out to be larger than
+Reading persistent statistics file from %s
 ReapChildProcesses(int)
 Rebooting In Progress (137)
 Received camera frame of size %u that is larger than the block queue we are copying into %u
@@ -6234,6 +6302,7 @@ RemindVersion
 RemoveLast
 RenderDoc connected
 RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
+RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
 RenderDoc::Initialize()
 RenderDoc::TriggerCapture()
@@ -6267,6 +6336,9 @@ SCALAR
 SDL Failed to get current display bounds for display %d
 SDL Failed to get current display mode for display %d
 SDL says there are %d video displays
+SDLDynamic()
+SDLDynamic() [clone .cold]
+SDLDynamic()::m_instance
 SDL_GetCurrentDisplayMode
 SDL_GetDisplayBounds
 SDL_GetDisplayName
@@ -6339,6 +6411,7 @@ Selected existing universe %llu (%08X is %s)
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
 September
+SessionID
 Set column correction %f %d %f %d
 Set index backlight gain: %f
 Set initial
@@ -6384,6 +6457,9 @@ Shared IPC Failed (305)
 Shared IPC Mutex Init Failed (304)
 Shared IPC Namespace Unavailable (310)
 Shared IPC State Init Failed (302)
+SharedLib_GetFunction(void*, char const*)
+SharedLib_Load(char const*, std::string*)
+SharedLib_Unload(void*)
 Shutdown
 ShutdownCameraHAL
 Si
@@ -6537,8 +6613,10 @@ Stable
 Standby toggled
 Standby unknown hmd
 Start
+Start test failed
 StartVideoStream
 Started pairing dongle serial=%s timeout=%f
+Starting test
 StaticPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
 StaticPoseMaker::StaticPoseMaker(CKeyframedDataResource const*, int)
 StaticPoseMaker::~StaticPoseMaker()
@@ -6832,6 +6910,7 @@ Updated shift blue in pixels: %f %f
 Updated shift red in pixels:  %f %f
 Updated:  %f %f %f
 Updater
+Updating %s
 Updating additional system report data for %s
 Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
 User
@@ -6970,6 +7049,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -7373,7 +7453,7 @@ Wednesday
 WillLog(ELogLevel)
 Win 10
 WinRT
-WinRT::AcquireDisplay(int)
+WinRT::AcquireDisplay(int, bool)
 WinRT::GetAdapterLuid(int, void*)
 WinRT::GetCurrentDriverVersion()
 WinRT::GetDeviceString(int)
@@ -7934,6 +8014,7 @@ ad
 adcr
 add a secondary base
 add_fdes
+add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
 adds.8992
 adjust_panel_cant
@@ -8469,14 +8550,20 @@ covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
 crc32
-crc32(unsigned int, void const*, unsigned int)
-crc32(unsigned int, void const*, unsigned int)::crcTable
+cryptor::string_encryptor<10u>::decrypt() const
+cryptor::string_encryptor<11u>::decrypt() const
+cryptor::string_encryptor<12u>::decrypt() const
+cryptor::string_encryptor<13u>::decrypt() const
 cryptor::string_encryptor<14u>::decrypt() const
+cryptor::string_encryptor<15u>::decrypt() const
 cryptor::string_encryptor<16u>::decrypt() const
 cryptor::string_encryptor<19u>::decrypt() const
+cryptor::string_encryptor<22u>::decrypt() const
 cryptor::string_encryptor<29u>::decrypt() const
 cryptor::string_encryptor<5u>::decrypt() const
+cryptor::string_encryptor<7u>::decrypt() const
 cryptor::string_encryptor<8u>::decrypt() const
+cryptor::string_encryptor<9u>::decrypt() const
 cs_cs
 ctime
 czech
@@ -8600,6 +8687,7 @@ dl
 dl_iterate_phdr
 dladdr
 dlclose
+dlerror
 dlopen
 dlsym
 dongles
@@ -8727,6 +8815,7 @@ feof
 fflush
 fgets
 fi_fi
+fields
 file is empty or does not exist
 file://
 filename
@@ -10921,6 +11010,7 @@ guard variable for ECameraHAL_OpenError_ToString::mapStrings
 guard variable for Eigen::internal::manage_caching_sizes(Eigen::Action, int*, int*, int*)::m_cacheSizes
 guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
 guard variable for OpenVR_ReadVersionFile(std::string&, unsigned int*)::s_CachedVersion
+guard variable for SDLDynamic()::m_instance
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
 guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
@@ -11099,6 +11189,7 @@ in `
 incomplete UTF-8 string; last byte: 0x
 indentation
 index
+index.
 indexHmdColumnCorrection
 indexHmdColumnOffset_
 indexcontroller
@@ -12403,6 +12494,7 @@ of the Protocol Buffer runtime library, which is not compatible with the install
 of type
 off!
 offset
+ogs
 ok
 once_regsizes.9076
 onesided
@@ -12446,6 +12538,7 @@ optional
 or
 orthographic
 otds
+otg_device
 other_error
 out_of_range
 outerConeAngle
@@ -12710,6 +12803,7 @@ serialNumber
 serialize
 serializing
 service $0 {
+session_id_field_name
 set_chromatic_correction_factors
 set_chromatic_correction_factors %f %f
 set_index_brightness %f
@@ -15330,6 +15424,7 @@ std::function<void (bool)>::~function()
 std::function<void (std::shared_ptr<vrcamera::IVRCameraFrame>)>::function<std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>, void, void>(std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>)
 std::function<void (vortex::ILighthouseDBListener*)> std::for_each<std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)> >(std::_List_iterator<vortex::ILighthouseDBListener*>, std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)>)
 std::function<void (vortex::ILighthouseDBListener*)>::function(std::function<void (vortex::ILighthouseDBListener*)> const&)
+std::function<void* (char const*)>::function(std::function<void* (char const*)> const&)
 std::get_catalogs()
 std::get_catalogs()::__catalogs
 std::get_new_handler()
@@ -16515,6 +16610,7 @@ t
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
+table
 target
 target_pose
 target_serial_number
@@ -19019,6 +19115,7 @@ vortex::CLighthouseIMUThread::GetIMUConfig(vortex::_Watchman_Feature_IMUMode_t*)
 vortex::CLighthouseIMUThread::GetISPSyncDivisor(unsigned char*)
 vortex::CLighthouseIMUThread::GetKeepaliveTime()
 vortex::CLighthouseIMUThread::GetLighthouseErrorReport(vortex::_lighthouse_errors*)
+vortex::CLighthouseIMUThread::GetOtgtResults(vortex::WatchmanOtgtResults_t*)
 vortex::CLighthouseIMUThread::GetPanelColumnCorrection(vortex::panel_column_correction_t*, vortex::panel_column_correction_t*)
 vortex::CLighthouseIMUThread::GetPanelStats(vortex::panel_stats_t*)
 vortex::CLighthouseIMUThread::GetPeripheralApplicationVersion(unsigned int*)
@@ -19106,6 +19203,7 @@ vortex::CLighthouseIMUThread::SetTrackingCallback(void*, vortex::CLighthouseIMUT
 vortex::CLighthouseIMUThread::SetVideoConfig(vortex::CLighthouseIMUThread::VideoConfig_t const&)
 vortex::CLighthouseIMUThread::SetVrcCallback(void*, vortex::CLighthouseIMUThread::IVrcCallback*)
 vortex::CLighthouseIMUThread::StartInSystemProgramming()
+vortex::CLighthouseIMUThread::StartOtgt()
 vortex::CLighthouseIMUThread::StopDonglePairing()
 vortex::CLighthouseIMUThread::TriggerDonglePairing(int, bool)
 vortex::CLighthouseIMUThread::TriggerUnhandledCallback(vortex::CLighthouseIMUThread::IMonitorCallback::Unhandled)
@@ -19881,6 +19979,7 @@ vr_internal::Localize(std::string const&, std::string const&, std::string const&
 vr_internal::VRApplications()
 vr_internal::VRApplicationsInternal()
 vr_internal::VRBlockQueue()
+vr_internal::VRCVTrackedHmdInternal()
 vr_internal::VRCameraPassthroughInternal()
 vr_internal::VRChaperone()
 vr_internal::VRChaperoneInternal()
@@ -19933,6 +20032,8 @@ vrcamera::VRCamera_Open() [clone .cold]
 vrclient Shared Lib Not Found (102)
 vrcombined_log.previous.txt
 vrcombined_log.txt
+vrcore::crc32(unsigned int, void const*, unsigned int)
+vrcore::crc32(unsigned int, void const*, unsigned int)::crcTable
 vref_ok
 vrpathreg
 vrserver internal error (124)

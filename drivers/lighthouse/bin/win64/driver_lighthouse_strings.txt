@@ -143,6 +143,7 @@
  (selected 
  ) = 
  * Available base %08X
+ - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  .anx_dp_error = 
  .anx_dp_height = 
  .anx_dp_vtotal = 
@@ -162,6 +163,7 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
+ ;=QA$
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -323,6 +325,7 @@
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
 "buffers" object not found in .gltf
+"cQ@D
 "e" must be followed by exponent.
 "nodes" object not found in .gltf
 "orthographic" is not a JSON object.
@@ -390,6 +393,7 @@ $w!Hc
 %s: Can't create source of type "%s"
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x
 %s: Connected to receiver %s
+%s: Controller subprotocol changed version %d
 %s: D3D11 feature level required for interop
 %s: Device does not have a stored config
 %s: Disconnected from receiver %s
@@ -416,6 +420,7 @@ $w!Hc
 %s: Invalid interop API: %d
 %s: Log recorded at %s
 %s: Not loading device config because its size is too large: 0x%X bytes
+%s: Optical subprotocol changed version %d
 %s: Packet received after %.3fs, keepalive (%d/%d)
 %s: Protocol versioning supported, requesting %d
 %s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes
@@ -493,7 +498,6 @@ $w!Hc
 %s: failed to create vulkan resources
 %s: failed to detect prism
 %s: failed to determine D3D11 texture format
-%s: failed to determine typeless D3D11 texture format
 %s: failed to enumerate extensions
 %s: failed to enumerate instance extensions
 %s: failed to enumerate physical devices
@@ -753,6 +757,7 @@ $w!Hc
 (|$PH
 (|$PI
 (|$PL
+(|$Pt
 (|$`D
 (|$`H
 (|$`I
@@ -907,11 +912,9 @@ $w!Hc
 -D9c0t%H
 -IPCWrapper
 -Infinity
--OpenProcessToken failed. GetLastError returned: %d
 -t!?Ks
 -t1?Ks
 -tA?Ks
--tQ?h
 -u-I;
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ... Moving the base for tracking too, which might cause a pop
@@ -1231,9 +1234,11 @@ $w!Hc
 .text$yd
 .tls$
 .tls$ZZZ
+.vrstats
 .xdata
 .xdata$x
 /1v]H
+/5|E	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1392,7 +1397,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230831183511Z0/
+231024210230Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1415,8 +1420,8 @@ $w!Hc
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5qW9s
 6*f(_
+6--72
 6<framesToThrottle
 6I]Dc
 6OB,n_
@@ -1681,7 +1686,6 @@ $w!Hc
 ?HcC,H
 ?Nbp?
 ?UUUUUU
-?VR_OVERRIDE
 ?VUUUUU
 ?Xb&<
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
@@ -1838,6 +1842,7 @@ $w!Hc
 @A_A^A]A\_^]
 @A_A^A]_[
 @A_A^A]_^
+@A_A^A]_^][
 @A_A^^
 @A_A^_
 @A__]
@@ -1978,7 +1983,7 @@ A,9AT|
 A0H9i8u
 A8	r 
 A8IcA0I
-A8_Zt
+A8^Zt
 A8t$qt
 A8t$r
 A9@$}VM
@@ -2045,6 +2050,7 @@ A]A\]
 A]A\^
 A]A\_[]
 A]A\_^[]
+A]A\_^][
 A]^[]
 A]^[]H
 A]_[]
@@ -2481,6 +2487,7 @@ C\$PH
 C\$PL
 C\$PM
 C\$`H
+C\$`L
 C\$pH
 C\$pL
 C\$pL9%
@@ -2604,6 +2611,8 @@ D$ A;
 D$ D88
 D$ E3
 D$ E;
+D$ Eb0
+D$ Fo0
 D$ H#
 D$ H+
 D$ H+]
@@ -2611,10 +2620,22 @@ D$ H3
 D$ H9V
 D$ H;
 D$ HcH
+D$ Hy
 D$ I;
 D$ Ii
+D$ Ji
+D$ Ji0
+D$ Jif
+D$ K|fff
 D$ L;
 D$ M;
+D$ Mz
+D$ Mzff
+D$ Nmf
+D$ Vy0
+D$ Z|0
+D$ ^i
+D$ ^offf
 D$ `3
 D$ fE
 D$ fI
@@ -2622,9 +2643,63 @@ D$ ff
 D$ tX
 D$ u!H
 D$ v5
+D$!``
+D$!`a
+D$!bt
+D$!h}}Y
+D$!j|
+D$!lyyA
+D$!nf
 D$!yx~v
+D$"b}gqf
+D$"giikf
+D$"kOy~f
+D$"mZe}
+D$"sw{@f
+D$"xx@ef
+D$"y~Km
+D$"y~Lf
+D$"||E~A
+D$"||E~f
+D$"~mxef
+D$"~zgmf
+D$#cjkNf
+D$#rks
+D$#{Kz}f
+D$#{}`cf
+D$#|f`af
+D$#|{Cff
+D$#|{Y`f
 D$$E3
+D$%d`dy
+D$%j}8	H
+D$%j}:	
+D$%j};	
 D$%|oy`
+D$&DUyx
+D$&J`mk
+D$&Mwmb
+D$&aexA
+D$&buFu
+D$&cb=A
+D$&cb>A
+D$&cb?A
+D$&kmy
+D$&oGy
+D$&ox8
+D$&ox9
+D$&ox;
+D$&|\koA
+D$&~ibx
+D$'\jl`
+D$'bf{G
+D$'cj}]
+D$'c{nh
+D$'lx8
+D$'lx9
+D$'lx:
+D$'n{f`
+D$'{{jb
 D$(@88
 D$(E3
 D$(H#
@@ -2647,10 +2722,23 @@ D$(L;D$PtVI
 D$(\E3
 D$(t3
 D$)2tsm
+D$)]ny
+D$*bcy
+D$*bdyz
+D$*k}<
+D$*k}=
+D$*k}?
+D$*}a`
+D$+`cj
+D$+aB|
+D$+ak|
+D$+fhg
+D$+jBy
 D$,+D$$
 D$,D;l$8
 D$,I+
 D$-hiBm
+D$.zsdY
 D$0+D$(
 D$0E+
 D$0E3
@@ -2669,6 +2757,7 @@ D$0fff
 D$0tx
 D$1or{t
 D$28I
+D$2BQB
 D$4I;
 D$5qx3w
 D$88X4tJ
@@ -2799,9 +2888,7 @@ D8,2u
 D8,7u
 D8,8u
 D840u
-D85~p(
 D8<0u
-D8=%L(
 D8D$9t$
 D8D$hH
 D8L$(t
@@ -2844,6 +2931,7 @@ D9q(u
 D9s,u
 D9sh~)H
 D9u4t
+D9ugt
 D9w u-H
 D9x0u
 D9y s
@@ -3048,6 +3136,7 @@ Error parsing text-format
 Error querying Index HMD panel stats
 Error querying IndexHmdColumnCorrectionMode
 Error reading tracked device config from path 
+Error serializing persistent statistics entry
 Error setting column correction
 Error setting index audio mute state
 Error setting index backlight gain
@@ -3112,7 +3201,7 @@ F(HcH
 F,9ATu
 F,9G,
 F-A+F%
-F0D85pj(
+F0D85p
 F8@85
 F<@85
 F@@8h)u
@@ -3139,7 +3228,7 @@ Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because w
 Failed creating auto reset event %s (GLE: %u)
 Failed creating file mapping %s: %u
 Failed creating mutex %s (GLE: %u)
-Failed mapping view for %s
+Failed mapping view for %s; Error code: 0x%08x
 Failed to connect to pipe %s because %s
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)
 Failed to create vrprismhost_startup
@@ -3161,6 +3250,7 @@ Failed to find entrypoint WINRT_ReleaseDisplay
 Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
+Failed to get log path for persistent statistics.
 Failed to import client event handle from pipe %s after connecting
 Failed to import server event handle from pipe %s after connecting
 Failed to load external 'uri' for image[
@@ -3173,6 +3263,7 @@ Failed to parse `uri` for image[
 Failed to read config when activating watchdog on button press: %s
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
+Failed to send OTGT result
 Failed to send pairing result mailbox message. Maybe it didn't have a return address?
 Failed to send reply to discover_dongles message: %d
 Failed to set thread %p priority: invalid priority %d
@@ -3180,6 +3271,7 @@ Failed to start pairing on dongle %s
 Failed to start vrprismhost: %s
 Failed to write app container status to pipe %s after connecting because %s
 Failed to write event process handle after connecting because %s
+Failed to write file %s
 False
 Fatal
 Field "
@@ -3275,7 +3367,6 @@ GPI+GHf
 GPJMt
 GPJMtUH
 GXkVp8H
-G`[Z7
 General reset
 Generating hidden area mesh for mode "%d" %s
 GetACP
@@ -3397,15 +3488,18 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-1"!
+H9-a4!
 H91u 
 H92u&
 H92u,
 H93t	H
+H958V+
+H95b7)
+H95zX+
 H97t	H
 H98t	H
 H9;uAA
-H9=&S(
+H9=#^+
 H9A s
 H9A u&
 H9A u6
@@ -3470,8 +3564,10 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=@1
-H;=u5
+H;=3D
+H;=CC
+H;=K<
+H;=p=
 H;Axt
 H;B0t
 H;C sAH
@@ -3535,7 +3631,7 @@ HA^_^[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
-HL9-C1(
+HL9-So(
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
 HMD Report:
@@ -3691,7 +3787,7 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IL9-d
+IL9-tB(
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -3845,6 +3941,7 @@ Invalid float number:
 Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
+Invalid persistent statistics serial
 Invalid proto descriptor for file "
 Invalid public dependency index.
 Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
@@ -3866,6 +3963,7 @@ IsProcessorFeaturePresent
 IsValidSid
 J 9H s
 J(9O(|
+J4K'.
 J>@G_
 JSON Update
 JSON string too short.
@@ -3947,6 +4045,7 @@ L$(I9W
 L$(K9
 L$(L+
 L$(fI
+L$*fff
 L$0;L$DuLD
 L$0E3
 L$0H+
@@ -3958,6 +4057,7 @@ L$0I9H@t
 L$0I9V
 L$0M;
 L$0fE
+L$0ff
 L$4D;
 L$4E3
 L$4L;
@@ -4036,20 +4136,44 @@ L+P@H
 L+Q@I
 L80L;
 L9&u"
-L9-(.(
-L9-1*(
-L9-2%(
-L9->2(
-L9-A-(
-L9-O)(
-L9-W"(
-L9-[\&
-L9-^,(
-L9-m((
-L9-r (
+L9-!Y(
+L9-"A(
+L9-$R(
+L9-$n(
+L9-%I(
+L9-%\(
+L9-*b(
+L9-+q&
+L9-5Z(
+L9-8l(
+L9-:S(
+L9-;N(
+L9-Ah(
+L9-Bc(
+L9-CE(
+L9-ID(
+L9-NK(
+L9-Np(
+L9-QO(
+L9-Qk(
+L9-T?(
+L9-Vr&
+L9-Y@(
+L9-_T(
+L9-_g(
+L9-a](
+L9-gP(
+L9-g`(
+L9-j[(
+L9-nL(
+L9-nj(
+L9-}f(
 L90H;
 L90M;
 L92u'
+L95"r'
+L95LS'
+L95cq'
 L97u0H
 L9?u,H
 L9@ s
@@ -4090,6 +4214,8 @@ L;l$P
 L;l$p
 L;t$P
 L;t$h
+L;|$ t
+L;|$8t
 L;|$`t
 L;|$h
 L<pL;
@@ -4229,6 +4355,7 @@ NOTPRESENT
 NPH9Q
 NRF52
 NRF52 DTM
+NVAPI_DEBUG_DISPLAY_MODES
 NXH9Q
 NamePart
 Need space between identifier and decimal point.
@@ -4259,6 +4386,7 @@ Not the preferred basestation
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
 NvAPI
+NvAPI DisplayModes:
 NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!
 NvAPI: DirectModeGetDisplayModes trying again with older API!
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
@@ -4269,6 +4397,7 @@ O(H9O0t
 O*9y]
 O0H9Q
 OPAQUE
+OTGT timed out
 OZw3(?
 O`H9Q
 O`H;W
@@ -4288,6 +4417,7 @@ OpenFileMappingA
 OpenMutexA
 OpenProcess
 OpenProcessToken
+OpenProcessToken failed. GetLastError returned: %d
 OpenSCManagerW
 OpenServiceW
 OpenVR
@@ -4376,6 +4506,7 @@ Path_Exists( absFilePath )
 PeekMessageA
 PeekNamedPipe
 PeripheralApplication
+Persistent statistics file does not exist. Creating new %s
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -4409,7 +4540,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDSD
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4417,6 +4547,7 @@ ReadFile
 ReadFile failed on %s after event was signaled because %s
 ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer
 Reading dangerously large protocol message.  If the message turns out to be larger than 
+Reading persistent statistics file from %s
 Received mirror reset event
 Received mirror reset event after %u passes, %llu samples
 Received mirror stop event
@@ -4461,6 +4592,7 @@ Robin 2
 RootNode
 RootSerial %s
 Rotors on basestation out of 180-degree phase lock.
+RpcStringFreeA
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -4517,6 +4649,7 @@ SUATAVH
 SUVATAUH
 SUVAWH
 SUVWATAUAVAWH
+SUVWATAUH
 SUVWATAVH
 SUVWAUAVAWH
 SUVWAVH
@@ -4565,6 +4698,7 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
 Selected existing universe %llu (%08X is %s)
 ServiceDescriptorProto
 ServiceOptions
+SessionID
 Set column correction %f %d %f %d
 Set index backlight gain: %f
 Set initial
@@ -4633,8 +4767,10 @@ Stable
 Standby toggled
 Standby unknown hmd
 Start
+Start test failed
 StartSession
 Started pairing dongle serial=%s timeout=%f
+Starting test
 SteamVR_Namespace
 SteamXR Interop Device
 Still waiting for Direct Mode Display...
@@ -4841,7 +4977,6 @@ UVAVH
 UVAWH
 UVWATAUAVAWH
 UVWATAUAWH
-UVWATAVH
 UVWATAWH
 UVWAUAVH
 UVWAUAVI
@@ -4939,6 +5074,7 @@ Updated Right Camera Extrinsics: %s
 Updated shift blue in pixels: %f %f
 Updated shift red in pixels:  %f %f
 Updated:  %f %f %f 
+Updating %s
 Updating additional system report data for %s
 Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
 Use Screen Resolution control panel to fix
@@ -4954,7 +5090,9 @@ Utah DV
 Utah EV1
 Utah EV2
 Utah MP
+UuidCreate
 UuidFromStringA
+UuidToStringA
 V H+V
 V2 HMD with bogus trackrefs detected in configuration:
 V8H;C
@@ -5056,6 +5194,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -5202,6 +5341,7 @@ VR_CONFIG_PATH
 VR_FIRMWARE_MANIFEST_FILE
 VR_LOG_DEBUG
 VR_LOG_PATH
+VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VSYNC:  %8d>%07.4f
 VUUUH
@@ -5309,7 +5449,7 @@ WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name.
+WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)
 WaitNamedPipeA
 Waiting
 Waiting for best bootstrap base station candidate...
@@ -5355,6 +5495,7 @@ WideCharToMultiByte
 Win 10
 WinRT
 WriteFile
+W{^Mp
 X USVWATAVAWH
 X UVWAVAWH
 X UVWH
@@ -5371,7 +5512,8 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5Nt#
+Y5P6$
+Y5{/!
 Y9"SD
 Y?33s?
 YAHH+
@@ -5380,9 +5522,9 @@ YL9%!
 Yl$ M
 Yl$4E
 Yl$hfD
-YwrHc
 Z* ,	
 Z9k0tUD
+ZK0?#
 ZL$Xf
 [ UVWAVAWI
 [ UWATAVAWI
@@ -5671,6 +5813,7 @@ accessor[
 accessors
 acosf
 add a secondary base
+add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 adjust_panel_cant
@@ -5912,7 +6055,6 @@ d$hH3
 d$hHcC,L
 d$pI;
 d$xL;
-d-H>V
 d3d11.dll
 da_da
 danish
@@ -5941,7 +6083,7 @@ device_pid
 device_serial_number
 device_serial_number_watchman
 device_vid
-devicescannermsgwindow
+devicescannermsgwindow-
 direct_mode_edid_pid
 direct_mode_edid_vid
 disableRuntimeEdidOverride
@@ -6133,6 +6275,7 @@ fgetc
 fgetpos
 fi_fi
 field
+fields
 file error
 file is empty or does not exist
 filename
@@ -6205,7 +6348,6 @@ gyro_bias
 h AVH
 h UAVAWH
 h VAVAWH
-h:qii#
 hA\_^[
 hA^A\_^[]
 hA^A]^[
@@ -6292,6 +6434,7 @@ incorrect data check
 incorrect header check
 incorrect length check
 index
+index.
 indexHmdColumnCorrection
 indexHmdColumnOffset_
 indexcontroller
@@ -6660,6 +6803,7 @@ optional
 options
 orthographic
 ot$Pf
+otg_device
 out_of_range
 outerConeAngle
 outofdata
@@ -6842,6 +6986,7 @@ serialNumber
 serial_number
 server
 service
+session_id_field_name
 set_chromatic_correction_factors
 set_chromatic_correction_factors %f %f
 set_index_brightness %f
@@ -7097,6 +7242,7 @@ tXH+A
 tXfff
 t[D8p
 t[H+A
+table
 target
 target_pose
 target_serial_number
@@ -7170,8 +7316,8 @@ t|C9D
 t|SUVH
 t}H9=
 t~L9=
-t~L9=<
-t~L9=^
+t~L9='
+t~L9=H
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7188,7 +7334,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-+
+u<L9-;C(
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7234,7 +7380,7 @@ usbVID
 usePrism
 usedisambiguation
 userdata
-u{L9=X
+u{L9=!
 v(M;l
 v9fff
 v=Y]Bv
@@ -7733,7 +7879,7 @@ vrprismhost_startup timed out after %u ms before being set by the new vrprismhos
 vrwebhelper
 vuf?H
 vulkan-1.dll
-v}L9-@
+v}L9-
 w(M9w0tH
 w+OQvr
 wUD;C$}OH
@@ -7760,7 +7906,7 @@ wrong submessage type
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-w{L9=e
+w{L9=.
 x ATAVAWH
 x AVH
 x UATAUAVAWH
@@ -7955,12 +8101,12 @@ zuusA
 }Ufff
 }`H+}XH
 }o;Dr_
-}w;Dr_
 ~'HcB
 ~+fff
 ~-HcK,H+
 ~3LcD$(L
 ~6HcD$ I
 ~:fD9
+~B*K$
 ~qj#k"
 ~t&LN

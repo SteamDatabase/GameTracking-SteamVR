@@ -39,9 +39,9 @@
 +o'q)}
 , last executing in 
 ,W5y+
+,pGsp
 -1e+9999
 -Infinity
--p^@i
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -166,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831184557Z0/
+231024210849Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -188,7 +188,10 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8Euok
 8_^][
+9_XtP
+;[ 6X^
 < t+<
 </u#H
 <0:08
@@ -597,7 +600,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDST
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -780,7 +782,6 @@ czech
 d$`H=
 d$`L;
 d$`M;
-d1=A{
 d3d11.dll
 da_da
 danish
@@ -799,7 +800,6 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 fD9&u
 fF94@u
 false
-fe-^M
 fffffff
 fi_fi
 finnish
@@ -880,7 +880,6 @@ russian
 schinese
 shcore.dll
 shutdown
-sp)8<
 spanish
 startup
 string too long
@@ -909,6 +908,7 @@ th_th
 tolower
 tr_tr
 turkish
+u/K'*
 ua_ua
 ukranian
 user32.dll
@@ -940,7 +940,6 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
-zmII&
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH
@@ -948,6 +947,7 @@ zmII&
 |$ UATAUAVAWH
 |$ UH
 |$0H9
+|$0fD
 |$@A_A^A]A\
 |$@I;
 |$HE3

@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Affichage : avertissement (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Stations de base : conflit (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "Mode sans échec de SteamVR (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Version bêta du client Steam requise (0x10000000000)"
 
 "DismissableWarning_Detected" "Détecté"
 "DismissableWarning_TimeFormat" "hh:mm"
@@ -458,6 +459,7 @@
 "SystemReport_System" "Système"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Autre"
 "SystemReport_Raw" "Format natif"
 
 "SystemReport_Title" "Rapport système"
@@ -480,6 +482,7 @@
 "SystemReport_DiscoverConfiguration" "Recherche de configuration"
 "SystemReport_DiscoverChaperone" "Recherche de Chaperone"
 "SystemReport_DiscoverLighthouseDB" "Recherche de LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "Recherche des journaux du pilote"
 
 
 "Main_Systray_Error_Title" "Barre d'état système"

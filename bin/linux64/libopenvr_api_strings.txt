@@ -239,7 +239,7 @@ CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, vo
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*) [clone .cold]
 CLogCallback::~CLogCallback()
 CST
-CSWTCH.100
+CSWTCH.107
 CVRPathRegistry_Public::BLoadFromFile(std::string*)
 CVRPathRegistry_Public::BLoadFromFile(std::string*) [clone .cold]
 CVRPathRegistry_Public::BSaveToFile() const
@@ -291,6 +291,7 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
 Ds
 Du
 Duplicate key: '
@@ -317,7 +318,7 @@ Format(char const*, ...) [clone .cold]
 Fri
 Friday
 G
-GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
@@ -1347,6 +1348,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate

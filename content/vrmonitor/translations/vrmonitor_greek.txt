@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Προειδοποίηση οθόνης (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Διένεξη σταθμού βάσης (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR σε ασφαλή λειτουργία (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Απαιτείται η έκδοση βήτα της εφαρμογής (0x10000000000)"
 
 "DismissableWarning_Detected" "Εντοπίστηκε"
 "DismissableWarning_TimeFormat" "h:mm AP"
@@ -458,6 +459,7 @@
 "SystemReport_System" "Σύστημα"
 "SystemReport_Chaperone" "Όρια πρόσκρουσης"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Άλλο"
 "SystemReport_Raw" "Ανεπεξέργαστο"
 
 "SystemReport_Title" "Αναφορά συστήματος"
@@ -480,6 +482,7 @@
 "SystemReport_DiscoverConfiguration" "Ανακάλυψη διαμόρφωσης"
 "SystemReport_DiscoverChaperone" "Ανακάλυψη ορίων πρόσκρουσης"
 "SystemReport_DiscoverLighthouseDB" "Ανακάλυψη LighthouseDB"
+"SystemReport_DiscoverDriverSpecific" "Εύρεση αρχείων καταγραφής για συγκεκριμένα προγράμματα οδήγησης"
 
 
 "Main_Systray_Error_Title" "Περιοχή ειδοποιήσεων"

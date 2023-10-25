@@ -1,15 +1,10 @@
  B __bss_start
  B _edata
  B _end
- B std::codecvt<char16_t, char8_t, __mbstate_t>::id
- B std::codecvt<char32_t, char8_t, __mbstate_t>::id
  SDL_GetCurrentDisplayMode
  SDL_GetDisplayBounds
  SDL_GetDisplayName
- SDL_GetError
  SDL_GetNumVideoDisplays
- SDL_GetPowerInfo
- SDL_SetThreadPriority
  T ECameraHAL_OpenError_ToString
  T GetCameraHALInterface
  T HmdDriverFactory
@@ -49,22 +44,6 @@
  T _txnal_logic_error_get_msg(void*)
  T _txnal_runtime_error_get_msg(void*)
  T _txnal_sso_string_c_str(void const*)
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  V typeinfo for __cxxabiv1::__class_type_info
  V typeinfo for __cxxabiv1::__forced_unwind
  V typeinfo for __cxxabiv1::__foreign_exception
@@ -137,10 +116,6 @@
  V typeinfo for signed char
  V typeinfo for signed char const*
  V typeinfo for signed char*
- V typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo for unsigned __int128
  V typeinfo for unsigned __int128 const*
  V typeinfo for unsigned __int128*
@@ -237,10 +212,6 @@
  V typeinfo name for signed char
  V typeinfo name for signed char const*
  V typeinfo name for signed char*
- V typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo name for unsigned __int128
  V typeinfo name for unsigned __int128 const*
  V typeinfo name for unsigned __int128*
@@ -278,10 +249,6 @@
  V vtable for __gnu_cxx::__concurrence_lock_error
  V vtable for __gnu_cxx::__concurrence_unlock_error
  V vtable for __gnu_cxx::recursive_init_error
- V vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  _ITM_RU1
  _ITM_RU8
  _ITM_addUserCommitAction
@@ -458,6 +425,7 @@
  b QuaternionAligned::qIdentity
  b Reflection::Object::MyTypeID()::sID
  b Reflection::Object::m_typeInfoObject
+ b SDLDynamic()::m_instance
  b SteamVRVersionAsString()::s_sCachedVersion
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -559,6 +527,7 @@
  b guard variable for FillPipeAddr(sockaddr_un&, std::string)::sPrefix
  b guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
  b guard variable for OpenVR_ReadVersionFile(std::string&, unsigned int*)::s_CachedVersion
+ b guard variable for SDLDynamic()::m_instance
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
  b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
@@ -740,7 +709,9 @@
  b std::clog
  b std::codecvt<char, char, __mbstate_t>::id
  b std::codecvt<char16_t, char, __mbstate_t>::id
+ b std::codecvt<char16_t, char8_t, __mbstate_t>::id
  b std::codecvt<char32_t, char, __mbstate_t>::id
+ b std::codecvt<char32_t, char8_t, __mbstate_t>::id
  b std::codecvt<wchar_t, char, __mbstate_t>::id
  b std::collate<char>::id
  b std::collate<wchar_t>::id
@@ -1592,7 +1563,9 @@
  d typeinfo for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
  d typeinfo for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d typeinfo for std::__codecvt_utf16_base<char16_t>
  d typeinfo for std::__codecvt_utf16_base<char32_t>
@@ -1692,7 +1665,9 @@
  d typeinfo for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d typeinfo for std::codecvt<char, char, __mbstate_t>
  d typeinfo for std::codecvt<char16_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<char32_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<wchar_t, char, __mbstate_t>
  d typeinfo for std::codecvt_base
  d typeinfo for std::codecvt_byname<char, char, __mbstate_t>
@@ -1979,7 +1954,9 @@
  d vtable for std::_V2::error_category
  d vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d vtable for std::__codecvt_utf16_base<char16_t>
  d vtable for std::__codecvt_utf16_base<char32_t>
@@ -2079,7 +2056,9 @@
  d vtable for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d vtable for std::codecvt<char, char, __mbstate_t>
  d vtable for std::codecvt<char16_t, char, __mbstate_t>
+ d vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<char32_t, char, __mbstate_t>
+ d vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<wchar_t, char, __mbstate_t>
  d vtable for std::codecvt_byname<char, char, __mbstate_t>
  d vtable for std::codecvt_byname<wchar_t, char, __mbstate_t>
@@ -2182,6 +2161,7 @@
  dl_iterate_phdr
  dladdr
  dlclose
+ dlerror
  dlopen
  dlsym
  dup
@@ -2307,7 +2287,7 @@
  r CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int)::k_rgchPrefix
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vBlueChromaticCorrection
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vRedChromaticCorrection
- r CSWTCH.100
+ r CSWTCH.107
  r CSWTCH.125
  r CSWTCH.131
  r CSWTCH.135
@@ -2316,7 +2296,7 @@
  r CSWTCH.16
  r CSWTCH.162
  r CSWTCH.1920
- r CSWTCH.208
+ r CSWTCH.212
  r CSWTCH.221
  r CSWTCH.23
  r CSWTCH.876
@@ -2362,7 +2342,6 @@
  r __FRAME_END__
  r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pm
  r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pmf
- r crc32(unsigned int, void const*, unsigned long)::crcTable
  r distort_math::bspline::BSplineBasis
  r first_row_filter
  r g_SIMD_0123
@@ -2704,7 +2683,9 @@
  r typeinfo name for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
  r typeinfo name for std::__codecvt_abstract_base<char, char, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  r typeinfo name for std::__codecvt_utf16_base<char16_t>
  r typeinfo name for std::__codecvt_utf16_base<char32_t>
@@ -2804,7 +2785,9 @@
  r typeinfo name for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  r typeinfo name for std::codecvt<char, char, __mbstate_t>
  r typeinfo name for std::codecvt<char16_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<char32_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<wchar_t, char, __mbstate_t>
  r typeinfo name for std::codecvt_base
  r typeinfo name for std::codecvt_byname<char, char, __mbstate_t>
@@ -2997,6 +2980,7 @@
  r vortex::HalfSqrtEpsilon
  r vortex::Pi
  r vortex::SqrtEpsilon
+ r vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
  rand
  read
  readdir
@@ -3735,6 +3719,7 @@
  t CLighthouseHmdDriver::BTryToFixFailedActivation()
  t CLighthouseHmdDriver::CLighthouseHmdDriver()
  t CLighthouseHmdDriver::CLighthouseHmdDriver() [clone .cold]
+ t CLighthouseHmdDriver::CanStartOtgt()
  t CLighthouseHmdDriver::Cleanup()
  t CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
  t CLighthouseHmdDriver::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
@@ -3823,11 +3808,14 @@
  t CLighthouseHmdDriver::OnHtcHmdPacket(htc::HtcHmdState_t*)
  t CLighthouseHmdDriver::OnIMUSample(double, double, double, double, double, double, double, unsigned int)
  t CLighthouseHmdDriver::OnIPDData(float)
+ t CLighthouseHmdDriver::OnOtgtComplete(vortex::WatchmanOtgtResults_t const&)
+ t CLighthouseHmdDriver::OnOtgtComplete(vortex::WatchmanOtgtResults_t const&) [clone .cold]
  t CLighthouseHmdDriver::OnPoseChange(vortex::IPoseTracker*)
  t CLighthouseHmdDriver::OnPoseTrackerEvent(vr::EVREventType, vr::VREvent_Data_t const&, float)
  t CLighthouseHmdDriver::OnProximityData(float, bool)
  t CLighthouseHmdDriver::OnUserDataComplete(bool)
  t CLighthouseHmdDriver::OnVideoStatusUpdate(float)
+ t CLighthouseHmdDriver::OtgtResultsContext_t::~OtgtResultsContext_t()
  t CLighthouseHmdDriver::OverrideHiddenAreaMesh()
  t CLighthouseHmdDriver::OverrideHiddenAreaMesh() [clone .cold]
  t CLighthouseHmdDriver::OverrideInputProfile()
@@ -3845,6 +3833,10 @@
  t CLighthouseHmdDriver::RunFrame() [clone .cold]
  t CLighthouseHmdDriver::SelectVideoConfig()
  t CLighthouseHmdDriver::SelectVideoConfig() [clone .cold]
+ t CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
+ t CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) [clone .cold]
+ t CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
+ t CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) [clone .cold]
  t CLighthouseHmdDriver::SetAutoExposure(bool)
  t CLighthouseHmdDriver::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
  t CLighthouseHmdDriver::SetCameraFrameBuffering(int, void**, unsigned int)
@@ -3865,6 +3857,10 @@
  t CLighthouseHmdDriver::UpdateConnectedState()
  t CLighthouseHmdDriver::UpdateConnectedState() [clone .cold]
  t CLighthouseHmdDriver::UpdateDependentFirmwareProperties()
+ t CLighthouseHmdDriver::UpdateIndexOtgtLog(std::string const&, Json::Value const&)
+ t CLighthouseHmdDriver::UpdateIndexOtgtLog(std::string const&, Json::Value const&) [clone .cold]
+ t CLighthouseHmdDriver::UpdateOtgt()
+ t CLighthouseHmdDriver::UpdateOtgt() [clone .part.0]
  t CLighthouseHmdDriver::setDepthAugmentedPassthrough(CDepthAugmentedPassthrough*)
  t CLighthouseHmdDriver::~CLighthouseHmdDriver()
  t CLighthouseHmdProvider::AddNewDevice(char const*, std::string const&)
@@ -3940,6 +3936,10 @@
  t CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
  t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
  t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
+ t CLocalizationManager::GetFlatLocalizationJson()
+ t CLocalizationManager::GetFlatLocalizationJson() [clone .cold]
+ t CLocalizationManager::GetLocalizationJson()
+ t CLocalizationManager::GetLocalizationJson() [clone .cold]
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
  t CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
@@ -4044,6 +4044,9 @@
  t CPrismDirect::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2]) [clone .cold]
  t CPrismDirect::UpdateUndistortParams()
  t CRefCount::Release() const
+ t CSDLDynamic::Init()
+ t CSDLDynamic::Unload()
+ t CSDLDynamic::~CSDLDynamic()
  t CScopedEventDuration::CScopedEventDuration(char const*, ...)
  t CScopedEventDuration::~CScopedEventDuration()
  t CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
@@ -4231,12 +4234,12 @@
  t CVRAudioDevices::CVRAudioDevices()
  t CVRAudioDevices::DeserializeAudioDeviceInfo(std::string const&, std::string*, std::string*, unsigned short*, unsigned short*)
  t CVRAudioDevices::GetAudioDevices(std::vector<IVRAudioDevices::CVRAudioDeviceInfo, std::allocator<IVRAudioDevices::CVRAudioDeviceInfo> >&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceState)
- t CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&)
+ t CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&, bool)
  t CVRAudioDevices::GetDefaultAudioDevice(std::string&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceRole)
  t CVRAudioDevices::GetDeviceSoundVolume(std::string const&)
  t CVRAudioDevices::GetMasterMicrophoneVolume()
  t CVRAudioDevices::GetMasterSoundVolume()
- t CVRAudioDevices::GetMirroringPlaybackDevice(std::string&)
+ t CVRAudioDevices::GetMirroringPlaybackDevice(std::string&, bool&)
  t CVRAudioDevices::IsAudioMirroringSupported()
  t CVRAudioDevices::IsDeviceSoundVolumeMute(std::string const&)
  t CVRAudioDevices::IsMasterMicrophoneMute()
@@ -4569,11 +4572,15 @@
  t CWatchdogDriver_Lighthouse::~CWatchdogDriver_Lighthouse()
  t CWirelessConnectionMonitor::OnUnhandledData(vortex::CLighthouseIMUThread::IMonitorCallback::Unhandled)
  t CWirelessConnectionMonitor::~CWirelessConnectionMonitor()
+ t CWirelessDecoder::GetControllerSubprotocolVersion() const
+ t CWirelessDecoder::GetOpticalSubprotocolVersion() const
  t CWirelessDecoder::Reset()
  t CWirelessDecoder::~CWirelessDecoder()
  t CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int)
  t CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int) [clone .cold]
  t CWirelessDecoderWv2::DecodeControllerStateK2(unsigned char const*, int)
+ t CWirelessDecoderWv2::GetControllerSubprotocolVersion() const
+ t CWirelessDecoderWv2::GetOpticalSubprotocolVersion() const
  t CWirelessDecoderWv2::Reset()
  t CWirelessDecoderWv2::ResetImpl()
  t CWirelessDecoderWv2::~CWirelessDecoderWv2()
@@ -4834,6 +4841,8 @@
  t InitDriverLog(vr::IVRDriverLog*) [clone .cold]
  t InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
  t InitInternalClientInterfaces(std::function<void* (char const*)>)
+ t InitInternalClientInterfaces(std::function<void* (char const*)>) [clone .cold]
+ t InitInternalDriverDirectInterface(std::function<void* (char const*)>)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
  t InitInternalInterfacesNonStandard(void* (*)(char const*))
@@ -5500,6 +5509,7 @@
  t Reflection::TypeInfo::TypeInfo(char const*, unsigned int)
  t ReleaseThreadHandle
  t RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
+ t RenderDoc::CCaptureScope::CCaptureScope(void*)
  t RenderDoc::CCaptureScope::~CCaptureScope()
  t RenderDoc::Initialize()
  t RenderDoc::TriggerCapture()
@@ -5509,6 +5519,8 @@
  t ReplaceSubstr(std::string&, std::string const&, std::string const&)
  t ReturnStdString(std::string const&, char*, unsigned int)
  t RunWithAdminPrompt(std::string const&, std::string const&)
+ t SDLDynamic()
+ t SDLDynamic() [clone .cold]
  t SanityCheckUserDataHeader(int*, unsigned char const*, unsigned long)
  t SecondsToSystemTicks(double)
  t SetCurrentProcessExplicitAppUserModelID()
@@ -5517,6 +5529,9 @@
  t SetProcessSchedulingPriorityClassRealtime(unsigned int)
  t SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned long)
  t SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned long) [clone .cold]
+ t SharedLib_GetFunction(void*, char const*)
+ t SharedLib_Load(char const*, std::string*)
+ t SharedLib_Unload(void*)
  t Slerp(CTransform const&, CTransform const&, float)
  t StaticPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
  t StaticPoseMaker::StaticPoseMaker(CKeyframedDataResource const*, int)
@@ -5749,7 +5764,7 @@
  t Vortex_WriteStringToTextFile(std::string const&, char const*) [clone .cold]
  t VrInitGpuProfiling()
  t WillLog(ELogLevel)
- t WinRT::AcquireDisplay(int)
+ t WinRT::AcquireDisplay(int, bool)
  t WinRT::GetAdapterLuid(int, void*)
  t WinRT::GetCurrentDriverVersion()
  t WinRT::GetDeviceString(int)
@@ -6259,13 +6274,20 @@
  t check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
  t classify_object_over_fdes
  t concat_hid_device_info(hid_device_info*, hid_device_info*)
- t crc32(unsigned int, void const*, unsigned long)
+ t cryptor::string_encryptor<10ul>::decrypt() const
+ t cryptor::string_encryptor<11ul>::decrypt() const
+ t cryptor::string_encryptor<12ul>::decrypt() const
+ t cryptor::string_encryptor<13ul>::decrypt() const
  t cryptor::string_encryptor<14ul>::decrypt() const
+ t cryptor::string_encryptor<15ul>::decrypt() const
  t cryptor::string_encryptor<16ul>::decrypt() const
  t cryptor::string_encryptor<19ul>::decrypt() const
+ t cryptor::string_encryptor<22ul>::decrypt() const
  t cryptor::string_encryptor<29ul>::decrypt() const
  t cryptor::string_encryptor<5ul>::decrypt() const
+ t cryptor::string_encryptor<7ul>::decrypt() const
  t cryptor::string_encryptor<8ul>::decrypt() const
+ t cryptor::string_encryptor<9ul>::decrypt() const
  t d_abi_tags
  t d_append_buffer
  t d_bare_function_type
@@ -7278,7 +7300,7 @@
  t nlohmann::detail::iter_impl<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> const>::operator++()
  t nlohmann::detail::iter_impl<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> const>::operator->() const
  t nlohmann::detail::iter_impl<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> const>::operator==(nlohmann::detail::iter_impl<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> const> const&) const
- t nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const* std::__find_if<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const*, __gnu_cxx::__ops::_Iter_negate<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::_Iter_negate(std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, bool, nlohmann::detail::value_t)::{lambda(nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const&)#1}> >(__gnu_cxx::__ops::_Iter_negate<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::_Iter_negate(std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, bool, nlohmann::detail::value_t)::{lambda(nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const&)#1}>, __gnu_cxx::__ops::_Iter_negate<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::_Iter_negate(std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, bool, nlohmann::detail::value_t)::{lambda(nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const&)#1}>, __gnu_cxx::__ops::_Iter_negate<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::_Iter_negate(std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, bool, nlohmann::detail::value_t)::{lambda(nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const&)#1}>, std::random_access_iterator_tag)
+ t nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const* std::__find_if<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const*, __gnu_cxx::__ops::_Iter_negate<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::_Iter_negate(std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, bool, nlohmann::detail::value_t)::{lambda(nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const&)#1}> >(nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const*, nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const*, __gnu_cxx::__ops::_Iter_negate<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::_Iter_negate(std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, bool, nlohmann::detail::value_t)::{lambda(nlohmann::detail::json_ref<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > const&)#1}>, std::random_access_iterator_tag)
  t nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::end_array()
  t nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::end_object()
  t nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::key(std::string&)
@@ -7646,28 +7668,28 @@
  t std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*> std::_V2::__rotate<std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*> >(std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>, std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>, std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>, std::random_access_iterator_tag)
  t std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*> std::__upper_bound<std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>, double, __gnu_cxx::__ops::_Val_comp_iter<vortex::lighthouse::SensorHit_s::POrderByCentroid> >(std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>, std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>, double const&, __gnu_cxx::__ops::_Val_comp_iter<vortex::lighthouse::SensorHit_s::POrderByCentroid>)
  t std::_Fnv_hash_bytes(void const*, unsigned long, unsigned long)
- t std::_Function_base::_Base_manager<CLighthouseHmdProvider::Init(vr::IVRDriverContext*)::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CLighthouseHmdProvider::Init(vr::IVRDriverContext*)::{lambda(char const*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<CPrismDirect::CPrismDirect()::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CPrismDirect::CPrismDirect()::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<CVRLog::InitLog(char const*, char const*, bool, unsigned long)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRLog::InitLog(char const*, char const*, bool, unsigned long)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation) [clone .cold]
- t std::_Function_base::_Base_manager<InitCameraHAL::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitCameraHAL::{lambda(char const*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CLighthouseHmdProvider::Init(vr::IVRDriverContext*)::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CPrismDirect::CPrismDirect()::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CVRLog::InitLog(char const*, char const*, bool, unsigned long)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [clone .cold]
+ t std::_Function_base::_Base_manager<InitCameraHAL::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CLighthousePairing::*(CLighthousePairing*, std::_Placeholder<1>))(Json::Value const&)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBActivated()::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBActivated()::{lambda(vortex::ILighthouseDBListener*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceAdded(unsigned int)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceAdded(unsigned int)::{lambda(vortex::ILighthouseDBListener*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceEvent(unsigned int, vortex::ILighthouseDBListener::EBaseStationDeviceEvent)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceEvent(unsigned int, vortex::ILighthouseDBListener::EBaseStationDeviceEvent)::{lambda(vortex::ILighthouseDBListener*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceModified(unsigned int)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceModified(unsigned int)::{lambda(vortex::ILighthouseDBListener*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBUniverseSelected(unsigned long)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBUniverseSelected(unsigned long)::{lambda(vortex::ILighthouseDBListener*)#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::CLighthouseIMUThread::ReadUserData(unsigned int, unsigned int, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::CLighthouseIMUThread::ReadUserData(unsigned int, unsigned int, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::CUserDataThread::Run()::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::CUserDataThread::Run()::{lambda()#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::ReadUserDataHeaderCore(vortex::CHidDevice&, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::ReadUserDataHeaderCore(vortex::CHidDevice&, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<vortex::ReadUserDataHeaderCore(vortex::CHidDevice&, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<vortex::ReadUserDataHeaderCore(vortex::CHidDevice&, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#2}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBActivated()::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceAdded(unsigned int)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceEvent(unsigned int, vortex::ILighthouseDBListener::EBaseStationDeviceEvent)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBBaseDeviceModified(unsigned int)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::CLighthouseDB::Notify_DBUniverseSelected(unsigned long)::{lambda(vortex::ILighthouseDBListener*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::CLighthouseIMUThread::ReadUserData(unsigned int, unsigned int, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::CUserDataThread::Run()::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::ReadUserDataHeaderCore(vortex::CHidDevice&, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<vortex::ReadUserDataHeaderCore(vortex::CHidDevice&, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_handler<bool (), vortex::CLighthouseIMUThread::ReadUserData(unsigned int, unsigned int, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}>::_M_invoke(std::_Any_data const&)
  t std::_Function_handler<bool (), vortex::CUserDataThread::Run()::{lambda()#1}>::_M_invoke(std::_Any_data const&)
  t std::_Function_handler<bool (), vortex::ReadUserDataHeaderCore(vortex::CHidDevice&, std::vector<unsigned char, std::allocator<unsigned char> >*)::{lambda()#1}>::_M_invoke(std::_Any_data const&)
@@ -9693,6 +9715,14 @@
  t std::codecvt<char16_t, char, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<char32_t, char, __mbstate_t>::do_always_noconv() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_encoding() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
@@ -9701,6 +9731,14 @@
  t std::codecvt<char32_t, char, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<wchar_t, char, __mbstate_t> const& std::use_facet<std::codecvt<wchar_t, char, __mbstate_t> >(std::locale const&)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(__locale_struct*, unsigned long)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
@@ -9858,6 +9896,7 @@
  t std::function<void (std::shared_ptr<vrcamera::IVRCameraFrame>)>::function<std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>, void, void>(std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>)
  t std::function<void (vortex::ILighthouseDBListener*)> std::for_each<std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)> >(std::_List_iterator<vortex::ILighthouseDBListener*>, std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)>)
  t std::function<void (vortex::ILighthouseDBListener*)>::function(std::function<void (vortex::ILighthouseDBListener*)> const&)
+ t std::function<void* (char const*)>::function(std::function<void* (char const*)> const&)
  t std::get_catalogs()
  t std::get_new_handler()
  t std::get_terminate()
@@ -11177,11 +11216,11 @@
  t void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace)::range<char16_t const, false>&, std::codecvt_mode&)
  t void std::_Destroy_aux<false>::__destroy<std::string*>(std::string*, std::string*)
  t void std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique<int*>(int*, int*)
- t void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
+ t void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, long, double, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, long, long, double, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, long, float, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, long, long, float, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, long, vortex::(anonymous namespace)::SyncHit_s, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, long, long, vortex::(anonymous namespace)::SyncHit_s, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
- t void std::__adjust_heap<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, long, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}> >(__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, long, __gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>) [clone .isra.0]
+ t void std::__adjust_heap<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, long, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}> >(__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, long, long, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>) [clone .isra.0]
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, vortex::lighthouse::SensorHit_s, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, long, vortex::lighthouse::SensorHit_s, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, vortex::lighthouse::SensorHit_s, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, long, vortex::lighthouse::SensorHit_s, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__adjust_heap<std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, long, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s> > > >(std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, long, long, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s> > >)
@@ -11225,23 +11264,23 @@
  t void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, false>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
  t void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
  t void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
- t void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
+ t void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
- t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}> >(__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>) [clone .isra.0]
+ t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}> >(__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>) [clone .isra.0]
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__introselect<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
- t void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
+ t void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, long, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
- t void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}> >(__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>)
+ t void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}> >(__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, long, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
- t void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>&) [clone .isra.0]
- t void std::__pop_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>&) [clone .isra.0]
+ t void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>&) [clone .isra.0]
+ t void std::__pop_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>&) [clone .isra.0]
  t void std::__push_heap<std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, long, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_val<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s> > > >(std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, long, long, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_val<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s> > >&)
  t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
  t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Val_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Val_less_iter) [clone .isra.0]
@@ -12017,6 +12056,7 @@
  t vortex::CLighthouseIMUThread::GetISPSyncDivisor(unsigned char*)
  t vortex::CLighthouseIMUThread::GetKeepaliveTime()
  t vortex::CLighthouseIMUThread::GetLighthouseErrorReport(vortex::_lighthouse_errors*)
+ t vortex::CLighthouseIMUThread::GetOtgtResults(vortex::WatchmanOtgtResults_t*)
  t vortex::CLighthouseIMUThread::GetPanelColumnCorrection(vortex::panel_column_correction_t*, vortex::panel_column_correction_t*)
  t vortex::CLighthouseIMUThread::GetPanelStats(vortex::panel_stats_t*)
  t vortex::CLighthouseIMUThread::GetPeripheralApplicationVersion(unsigned int*)
@@ -12099,6 +12139,7 @@
  t vortex::CLighthouseIMUThread::SetVideoConfig(vortex::CLighthouseIMUThread::VideoConfig_t const&)
  t vortex::CLighthouseIMUThread::SetVrcCallback(void*, vortex::CLighthouseIMUThread::IVrcCallback*)
  t vortex::CLighthouseIMUThread::StartInSystemProgramming()
+ t vortex::CLighthouseIMUThread::StartOtgt()
  t vortex::CLighthouseIMUThread::StopDonglePairing()
  t vortex::CLighthouseIMUThread::TriggerDonglePairing(int, bool)
  t vortex::CLighthouseIMUThread::TriggerUnhandledCallback(vortex::CLighthouseIMUThread::IMonitorCallback::Unhandled)
@@ -12788,6 +12829,7 @@
  t vr_internal::VRApplications()
  t vr_internal::VRApplicationsInternal()
  t vr_internal::VRBlockQueue()
+ t vr_internal::VRCVTrackedHmdInternal()
  t vr_internal::VRCameraPassthroughInternal()
  t vr_internal::VRChaperone()
  t vr_internal::VRChaperoneInternal()
@@ -12836,6 +12878,7 @@
  t vrcamera::IVRCamera::IsConnected()
  t vrcamera::VRCamera_Open()
  t vrcamera::VRCamera_Open() [clone .cold]
+ t vrcore::crc32(unsigned int, void const*, unsigned long)
  t wchar_t* std::__add_grouping<wchar_t>(wchar_t*, wchar_t, char const*, unsigned long, wchar_t const*, wchar_t const*)
  t wchar_t* std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_S_construct<__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > >(__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >, __gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >, std::allocator<wchar_t> const&, std::forward_iterator_tag)
  t wchar_t* std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_S_construct<wchar_t const*>(wchar_t const*, wchar_t const*, std::allocator<wchar_t> const&, std::forward_iterator_tag)

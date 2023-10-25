@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Megjelenítő-figyelmeztetések (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Bázisállomás-ütközés (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR csökkentett módban (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Steam kliens béta szükséges (0x10000000000)"
 
 "DismissableWarning_Detected" "Észlelve"
 "DismissableWarning_TimeFormat" "h:mm:ss"
@@ -459,6 +460,7 @@
 "SystemReport_System" "Rendszer"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Egyéb"
 "SystemReport_Raw" "Nyers"
 
 "SystemReport_Title" "Rendszerjelentés"
@@ -481,6 +483,7 @@
 "SystemReport_DiscoverConfiguration" "Konfiguráció felfedezése"
 "SystemReport_DiscoverChaperone" "Chaperone felfedezése"
 "SystemReport_DiscoverLighthouseDB" "LighthouseDB felfedezése"
+"SystemReport_DiscoverDriverSpecific" "Illesztőprogram-specifikus naplók felfedezése"
 
 
 "Main_Systray_Error_Title" "Tálca"

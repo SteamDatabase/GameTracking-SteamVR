@@ -1,33 +1,37 @@
 #!/bin/bash
 
-# figure out the absolute path to the script being run a bit
-# non-obvious, the ${0%/*} pulls the path out of $0, cd's into the
-# specified directory, then uses $PWD to figure out where that
-# directory lives - and all this in a subshell, so we don't affect
-# $PWD
+# verbose
+#set -x
 
-GAMEROOT=$(cd "${0%/*}" && echo $PWD)
+set -o pipefail
+shopt -s failglob
+set -u
 
-#determine platform
-UNAME=`uname`
-if [ "$UNAME" == "Darwin" ]; then
-   # Workaround OS X El Capitan 10.11 System Integrity Protection (SIP) which does not allow
-   # DYLD_INSERT_LIBRARIES to be set for system processes.
-   if [ "$STEAM_DYLD_INSERT_LIBRARIES" != "" ] && [ "$DYLD_INSERT_LIBRARIES" == "" ]; then
-      export DYLD_INSERT_LIBRARIES="$STEAM_DYLD_INSERT_LIBRARIES"
-   fi
-   # prepend our lib path to LD_LIBRARY_PATH
-   export DYLD_LIBRARY_PATH="${GAMEROOT}"/bin/osx64:$DYLD_LIBRARY_PATH
-elif [ "$UNAME" == "Linux" ]; then
-   # prepend our lib path to LD_LIBRARY_PATH
-   export LD_LIBRARY_PATH="${GAMEROOT}"/bin/linuxsteamrt64:$LD_LIBRARY_PATH
-   USE_STEAM_RUNTIME=1
+BASENAME="$(basename "$0")"
+GAMEROOT="$(cd "$(dirname "$0")" && echo $PWD)"
+
+export _STEAMTOURS_SETUP_LOG="${_STEAMTOURS_SETUP_LOG:-/tmp/SteamVRTours.log}"
+
+log () {
+	( echo "${BASENAME}[$$]: $*" | tee -a "${_STEAMTOURS_SETUP_LOG}" >&2 ) || :
+}
+
+if [ -z "${_STEAMTOURS_SKIP_DATE-}" ]; then
+	log "=== $(date) ==="
+	# so we only log this once through the run.sh execs etc.
+	export _STEAMTOURS_SKIP_DATE=1
 fi
 
-if [ -z $GAMEEXE ]; then
-   if [ "$UNAME" == "Linux" ]; then
-      GAMEEXE=bin/linuxsteamrt64/steamtours
-   fi
+# Require LDLP scout runtime environment
+# SteamVR is launching us via steam-runtime-launch-client, which is runtime neutral, so we are expected to have to do this
+if [ -n "${STEAM_RUNTIME-}" ]; then
+    log "Detected scout LDLP runtime."
+    # continue
+else
+    log "Executing under scout LDLP runtime."
+    log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+    exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+    # unreachable
 fi
 
 ulimit -n 2048
@@ -38,39 +42,12 @@ ulimit -Ss 1024
 # and launch the game
 cd "$GAMEROOT"
 
-# Enable path match if we are running with loose files
-if [ "$UNAME" == "Linux" ]; then
-	export ENABLE_PATHMATCH=1
-fi
-
-# Run inside of the Steam runtime if necessary and allowed.
-if [ "$STEAM_RUNTIME_ROOT" != "" ]; then
-    # Already in the runtime.
-    USE_STEAM_RUNTIME=0
-fi
-if [ "$STEAM_RUNTIME" = "0" ]; then
-    # Runtime is explicitly disabled.
-    USE_STEAM_RUNTIME=0
-fi
-
-if [ "$USE_STEAM_RUNTIME" = "1" ]; then
-    STEAM_RUNTIME_PREFIX=/valve/steam-runtime/shell.sh
-    if [ ! -f $STEAM_RUNTIME_PREFIX ]; then
-        STEAM_RUNTIME_PREFIX=
-    fi
-    if [ "$STEAM_RUNTIME_PREFIX" != "" ]; then
-        echo "Running with the Steam runtime SDK"
-    fi
-fi
-
-# Do the following for strace:
-# 	GAME_DEBUGGER="strace -f -o strace.log"
-# Do the following for tcmalloc
-#   LD_PRELOAD=../src/thirdparty/gperftools-2.0/.libs/libtcmalloc_debug.so:$LD_PRELOAD
+GAMEEXE=bin/linuxsteamrt64/steamtours
+export LD_LIBRARY_PATH="${GAMEROOT}"/bin/linuxsteamrt64:$LD_LIBRARY_PATH
 
 STATUS=42
 while [ $STATUS -eq 42 ]; do
-	if [ "${GAME_DEBUGGER}" == "gdb" ] || [ "${GAME_DEBUGGER}" == "cgdb" ]; then
+	if [ "${GAME_DEBUGGER-}" == "gdb" ] || [ "${GAME_DEBUGGER-}" == "cgdb" ]; then
 		ARGSFILE=$(mktemp $USER.steamtours.gdb.XXXX)
 		echo b main > "$ARGSFILE"
 
@@ -83,12 +60,13 @@ while [ $STATUS -eq 42 ]; do
 
 		echo run $@ >> "$ARGSFILE"
 		echo show args >> "$ARGSFILE"
-		${GAME_DEBUGGER} "${GAMEROOT}"/${GAMEEXE} -x "$ARGSFILE"
+		"${GAME_DEBUGGER}" "${GAMEROOT}"/${GAMEEXE} -x "$ARGSFILE"
 		rm "$ARGSFILE"
-	elif [ "${GAME_DEBUGGER}" == "lldb" ]; then
-		${GAME_DEBUGGER} "${GAMEROOT}"/${GAMEEXE} -- $@
+	elif [ "${GAME_DEBUGGER-}" == "lldb" ]; then
+		"${GAME_DEBUGGER}" "${GAMEROOT}"/${GAMEEXE} -- $@
 	else
-		${STEAM_RUNTIME_PREFIX} ${GAME_DEBUGGER} "${GAMEROOT}"/${GAMEEXE} "$@"
+		GAME_DEBUGGER="${GAME_DEBUGGER-}"
+		${GAME_DEBUGGER} "${GAMEROOT}"/${GAMEEXE} "$@"
 	fi
 	STATUS=$?
 done

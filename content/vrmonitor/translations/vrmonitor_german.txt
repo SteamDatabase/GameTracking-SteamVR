@@ -23,7 +23,7 @@
 "Startup_DisplayLinkIsInstalled" "DisplayLink ist nicht mit SteamVR kompatibel. Bitte deinstallieren Sie die DisplayLink-Treiber und -Software von Ihrem Computer und starten Sie diesen neu, bevor Sie SteamVR verwenden."
 
 "StatusError_NoHMDAvailable" "Kein VR-Headset verfügbar."
-"StatusError_HMDDoesNotTrack" "Ihr VR-Headset sendet aktuell keine Signale."
+"StatusError_HMDDoesNotTrack" "Die Ortung Ihres VR-Headsets schlägt derzeit fehl."
 "StatusError_NoCompositorAvailable" "Eine Schlüsselkomponente von SteamVR funktioniert nicht ordnungsgemäß."
 "StatusError_CompositorNotFullscreen" "Eine Schlüsselkomponente von SteamVR funktioniert nicht ordnungsgemäß."
 "StatusError_CompositorNotRunning" "Eine Schlüsselkomponente von SteamVR funktioniert nicht ordnungsgemäß."
@@ -64,6 +64,7 @@
 "DismissableWarning_DisplayInExtendedMode" "Anzeigewarnung (0x10000)"
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Basisstationskonflikt (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR im abgesicherten Modus (0x1000000)"
+"DismissableWarning_SteamBetaNeeded" "Steam-Beta-Client erforderlich (0x10000000000)"
 
 "DismissableWarning_Detected" "Erkannt"
 "DismissableWarning_TimeFormat" "h:mm:ss"
@@ -458,6 +459,7 @@
 "SystemReport_System" "System"
 "SystemReport_Chaperone" "Chaperone"
 "SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Other" "Weitere"
 "SystemReport_Raw" "Roh"
 
 "SystemReport_Title" "Systembericht"
@@ -480,6 +482,7 @@
 "SystemReport_DiscoverConfiguration" "Konfiguration wird gesucht"
 "SystemReport_DiscoverChaperone" "Chaperone-Abgrenzungen werden gesucht"
 "SystemReport_DiscoverLighthouseDB" "LighthouseDB wird gesucht"
+"SystemReport_DiscoverDriverSpecific" "Treiber-spezifische Protokolle ermitteln"
 
 
 "Main_Systray_Error_Title" "Infobereich"

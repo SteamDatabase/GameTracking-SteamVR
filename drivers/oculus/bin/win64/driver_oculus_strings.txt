@@ -67,9 +67,9 @@
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
+",WpYc
 ". Must be "perspective" or "orthographic"
 "9k0t
-";IxW
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -385,8 +385,6 @@ $w!Hc
 .xdata
 .xdata$x
 /9{0t'H
-/=&s	
-/=Ft	
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -418,7 +416,6 @@ $w!Hc
 /output/haptic
 /pose/raw
 /proximity
-/skeleton/hand/left
 /skeleton/hand/right
 /user/ankle/left
 /user/ankle/right
@@ -461,10 +458,11 @@ $w!Hc
 2.5.4.3
 210429000000Z
 211007000000Z
+21Ew[9
 220323000000Z
 220801000000Z
 230714000000Z
-230831183610Z0/
+231024210334Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -477,6 +475,7 @@ $w!Hc
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
+3Hr&@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -533,6 +532,8 @@ $w!Hc
 >0<0:
 >Mp$d
 >W`.]tB3?
+>ff&?
+?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -559,7 +560,6 @@ $w!Hc
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?@s#0?LD
-?POSITION
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
@@ -583,8 +583,6 @@ $w!Hc
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?const unsigned int __cdecl Reflection::Object::MyTypeID(void)
-?ff&?
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
@@ -791,8 +789,8 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%D
-C\$0L9%X
+C\$0L9%d
+C\$0L9%x
 C\$0M
 C\$PE
 C\$PH
@@ -849,6 +847,7 @@ D$@H9Q
 D$@H9Q@t
 D$@H9S@t
 D$@fA
+D$DE3
 D$HE3
 D$HHi
 D$PH9Q
@@ -948,6 +947,8 @@ Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFrom
 Failed to convert guardian data to chaperone
 Failed to create DepthStencilView for texture %s
 Failed to create RTV for texture
+Failed to create RTV for texture lod=%d
+Failed to create SRV for texture lod=%d
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
 Failed to get default audio playback device
@@ -1139,11 +1140,10 @@ Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
 IsDebuggerPresent
-IsDepthFormat( eTextureFormatConcrete )
+IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
-K.sBz
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1191,8 +1191,8 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L95ez
-L95gy
+L9%E<
+L9%Y<
 L9k8v
 L9t$@
 L9|$p
@@ -1263,6 +1263,7 @@ OpenProcess
 Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
+OutputDebugStringW
 PA^_^
 PA^_^][
 PA_A]A\_^
@@ -1273,8 +1274,8 @@ PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA_A^_
 PA_A^_^]
-PA__^
 PAq=?Mp#
+POSITION
 Path_Exists( absFilePath )
 Perspective camera description not found.
 PerspectiveCamera
@@ -1287,7 +1288,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS\
+RSDS=q
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1295,6 +1296,9 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S0Q0O
 S8H+S0H
 SATAUAVAWH
@@ -1415,6 +1419,8 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
 Unknown(%u, %u)
+Unsupported RTV type: %d
+Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
@@ -1436,13 +1442,12 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-W-8l	
+W.S=+
 WATAUAVAWH
 WAVAWH
 WINMM.dll
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-W^|MxI
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -1450,11 +1455,9 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X% F	
-X5+[	
+X%pi	
 XA^^[]
 XXXX PNG chunk not known
-Y5'[	
 Y9"SD
 Z9k0tUD
 ZL$Xf
@@ -1723,6 +1726,7 @@ connected
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
+const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
 cs_cs
@@ -1760,6 +1764,7 @@ driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
 eCS < CS_Count
+eIE[=q^/]
 ePS < PS_Count
 eVS < VS_Count
 effffff
@@ -1797,7 +1802,6 @@ french
 fseek
 fsetpos
 fwrite
-fwvQB
 g9k0t_D
 generator
 german
@@ -1985,7 +1989,6 @@ not GIF
 not HDR
 not PSD
 not enough pixels
-nqHVPb)
 ntelD
 null literal
 number literal

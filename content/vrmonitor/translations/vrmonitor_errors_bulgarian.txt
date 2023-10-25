@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Още инф."
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Грешка при видео кодирането"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Вероятно ще е нужно да обновите графичните драйвери на своя компютър."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Още инф."
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR грешка"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR не успя да се свърже към приложението Oculus. Моля, уверете се, че е инсталирана последната версия."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Посетете oculus.com"
@@ -666,10 +671,20 @@
 "Popover_NoPose_HMD_Action" "Още инф."
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Търсене…"
+"Popover_NoCameraPose_HMD_Description" "Понастоящем този ВР шлем не се проследява. Опитайте се да огледате наоколо."
+"Popover_NoCameraPose_HMD_Action" "Още инф."
+"Popover_NoCameraPose_HMD_ActionURL" " https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Търсене…"
 "Popover_NoPose_Controller_Description" "Понастоящем този контролер не се проследява. Уверете се, че е в полезрението на базова станция."
 "Popover_NoPose_Controller_Action" "Идентифициране на контролера"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Търсене…"
+"Popover_NoCameraPose_Controller_Description" "Понастоящем този контролер не се проследява. Уверете се, че е в полезрението на камерите от ВР шлема."
+"Popover_NoCameraPose_Controller_Action" "Идентифициране на контролера"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Търсене…"
 "Popover_NoPose_Base_Description" "Понастоящем тази базова станция не проследява никакви устройства. Уверете се, че е в полезрението на ВР шлема Ви."
@@ -766,6 +781,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Поради</span> скорошен срив, някои SteamVR добавки бяха блокирани.<p><a title=\"Отстраняване на неизправности в SteamVR\" style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Научете още</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Управляване на добавки"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Изисква се бета Steam клиент"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Това бета обновление на SteamVR разполага с някои нови характеристики, които изискват инсталиране на бета Steam клиента."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Още инф."
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/bg/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR обновление"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR беше обновено до версия %2."
@@ -873,7 +893,7 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Проблем с връзката на шлема"
-"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Има проблем с връзката към дисплея. Моля, разкачете шлема си и го свържете отново. Можете да опитате също да рестартирате SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Има проблем с връзката към дисплея. Моля, разкачете ВР шлема си и го свържете пак. Също така можете да опитате да рестартирате SteamVR."
 "Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Рестартиране на SteamVR"
 "Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
@@ -925,9 +945,14 @@
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
 
 "Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Инсталиране на драйвер VIVE Pro 2?"
-"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Изисква се драйвер, за да бъде пуснат шлем на VIVE Pro 2 в SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Изисква се драйвер, за да бъде пуснат VIVE Pro 2 ВР шлем в SteamVR."
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Инсталиране"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
+
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "Инсталиране на драйвер за Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Изисква се драйвер, за да бъде пуснат Bigscreen Beyond ВР шлем в SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Инсталиране"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Проблем при свързване на екрана"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Графичната Ви карта не може да се свърже успешно с екрана на ВР шлема. Опитайте да премахнете всякакви адаптери за кабели или удължители, които използвате. Опитайте друг порт на видеокартата Ви, ако има достъпен такъв. <b>Използвайте връзката за нулиране по-долу, за да нулирате ВР шлема и видеокартата да опита отново</b>"
@@ -937,11 +962,16 @@
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
 
 "SteamVRServiceNeedsInstallation_Header" "Инсталиране на обслужване за SteamVR"
-"SteamVRServiceNeedsInstallation_Description" "Нужно е Вашето разрешение за инсталиране на помощното обслужване. Моля, кликнете връзката по-долу и изберете „Да“ в поканата от контрола на потребителския акаунт (UAC)."
+"SteamVRServiceNeedsInstallation_Description" "Нужно е Вашето разрешение за инсталиране на помощната услуга. Моля, кликнете върху връзката по-долу, а след това изберете „Да“ в подканата от контрола на потребителския акаунт (UAC)."
 "SteamVRServiceNeedsInstallation_FirstAction" "Инсталиране"
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Още инф."
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Конфигурация на защитната стена"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Нужно е Вашето разрешение за модифициране на правилата Ви за защитната стена за SteamVR. Моля, кликнете върху „Modify Firewall“ („Модифициране на защитната стена“), а след това изберете „Да“ в подканата от контрола на потребителския акаунт (UAC)."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Модифициране на защитната стена"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Моля, изключете контролерите от контакта по време на игра"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Дърпането на зарядния кабел под ъгъл може да причини повреда."
