@@ -1,9 +1,10 @@
 	!s99
-	4tGj{
+	Hx;Y
  %41g
  A__^
  H3E H3E
 !hn7!
+#	q	u\!
 ',=?k
 (D$ f
 (f*^[0
@@ -93,13 +94,12 @@
 0w0c1
 0}0i1
 130801120000Z
-1uY(CV
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231024210215Z0/
+231031174501Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -111,13 +111,13 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4/_^T
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
+6j,0l
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -193,7 +193,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-Kd'g@
 K}*n:	
 L$ SH
 L?n(Zy&
@@ -205,13 +204,13 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-M{'i;=ug
 NPH9Q
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSX
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -318,6 +317,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i3MIwu
 jj@0HK4
 k0i0$
 l$8E3
@@ -329,9 +329,8 @@ memcpy
 memmove
 memset
 ntelD
-oc"?X
+oAl-=
 p WAVAWH
-ptb} 
 string too long
 t$ AVH
 t$ AWH
@@ -341,7 +340,6 @@ tXfff
 terminate
 v=Y]Bv
 vector<T> too long
-w!8_[
 www.digicert.com1!0
 www.digicert.com1$0"
 {gamepad}/icons/gamepad_status_error.png

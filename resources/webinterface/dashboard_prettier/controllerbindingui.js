@@ -10521,7 +10521,10 @@
                   });
           }
           componentWillUnmount() {
-            this.m_KeyboardVisibilityCallbackHandle.unregister(),
+            var e;
+            null === (e = this.m_KeyboardVisibilityCallbackHandle) ||
+              void 0 === e ||
+              e.unregister(),
               (this.m_KeyboardVisibilityCallbackHandle = void 0);
           }
           CloseSaveDialog() {
@@ -20206,4 +20209,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=de13d9cd1b51024e3707
+//# sourceMappingURL=controllerbindingui.js.map?v=9938b2f2a4f179768fbc

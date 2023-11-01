@@ -30,7 +30,6 @@
 (t$ H
 (t$@H
 (|$ H
-)(wU&
 )D$ L
 )t$ H
 )t$0H
@@ -182,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210901Z0/
+231031175140Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,9 +193,9 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4ZB,Vm
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5e4JO
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -609,6 +608,7 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
+KYb>u
 K}*n:	
 L$ E3
 L$ H;
@@ -632,6 +632,7 @@ L;8u6H
 L?n(Zy&
 LUnable to create graphics capture item for window.
 LeaveCriticalSection
+Lh8,[
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
@@ -667,7 +668,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSK^
+RSDS=b
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -677,6 +678,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S(vfD
 S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
@@ -689,6 +691,7 @@ SVWATAUAVAWH
 SVWAVAWH
 SVWAVH
 SWAWH
+SZ}k|X@N
 SendInput
 SendInput failed: %d events inserted, error code = %s
 Set thread %p priority to: %d
@@ -778,7 +781,6 @@ VR_OVERRIDE
 VWATAVAWH
 VWAVH
 VWAWH
-V\.PG
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -796,8 +798,9 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-XZoW[
+Xx"eH
 Y9"SD
+[K YT
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -1001,7 +1004,6 @@ product_name
 pt_br
 pt_pt
 r,fff
-r[^(`g|*K
 request_destroy_window_view
 request_handlers
 request_handlers_response
@@ -1050,6 +1052,7 @@ title
 tolower
 tr_tr
 turkish
+u"P1(
 ua_ua
 ukranian
 update_debug_info

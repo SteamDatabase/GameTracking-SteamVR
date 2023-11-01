@@ -34,12 +34,12 @@
 )t$ H
 )t$0H
 )t$@H
+*;p5|
 *uXI;
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
-,pGsp
 -1e+9999
 -Infinity
 -u-I;
@@ -159,6 +159,7 @@
 0A__[
 0w0c1
 0}0i1
+1	TU%D/
 130801120000Z
 1e+9999
 210429000000Z
@@ -166,7 +167,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210849Z0/
+231031175129Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -188,10 +189,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8Euok
 8_^][
-9_XtP
-;[ 6X^
 < t+<
 </u#H
 <0:08
@@ -495,6 +493,7 @@ Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
 HcFdH
+I	vjk
 I9Bhs
 I;4$H
 I;4$L
@@ -600,6 +599,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS1
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -817,6 +817,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+iSu[C}$
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -908,7 +909,6 @@ th_th
 tolower
 tr_tr
 turkish
-u/K'*
 ua_ua
 ukranian
 user32.dll

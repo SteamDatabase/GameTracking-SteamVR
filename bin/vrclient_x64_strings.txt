@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@P
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -103,6 +103,7 @@
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
 "9k0t
+"U}mvy
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -410,7 +411,6 @@ $w!Hc
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 ()$^.*+?[]|\-{},:=!
-(-kV*
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -721,10 +721,10 @@ $w!Hc
 .?AV<lambda_1fd16216e62d16080da99169d98a6b3a>@@
 .?AV<lambda_212c477849f693b06327af67ea9d66dd>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_2e5dca02376c74ecda057d62db6870f4>@@
 .?AV<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@
 .?AV<lambda_43c03a047d49e758a40605e26fe3997f>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
-.?AV<lambda_4e342024cbf6bd484ed43039ee2af7f6>@@
 .?AV<lambda_5cb07d87fbb143573f0e5b51176c2232>@@
 .?AV<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@
 .?AV<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@
@@ -735,9 +735,9 @@ $w!Hc
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
+.?AV<lambda_bdb4246244a21659a08701b2bdb5c6fd>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
-.?AV<lambda_d2f8106b468992e032cdb40825390ee9>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@
@@ -967,10 +967,10 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_1fd16216e62d16080da99169d98a6b3a>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_212c477849f693b06327af67ea9d66dd>@@_NAEBUHiddenAreaMesh_t@vr@@AEAU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2e5dca02376c74ecda057d62db6870f4>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@_N_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_43c03a047d49e758a40605e26fe3997f>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_4e342024cbf6bd484ed43039ee2af7f6>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5cb07d87fbb143573f0e5b51176c2232>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
@@ -981,9 +981,9 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_bdb4246244a21659a08701b2bdb5c6fd>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d2f8106b468992e032cdb40825390ee9>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
@@ -1700,7 +1700,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5Vx!
+/5&x!
 /9{0t'H
 /a/click
 /a/touch
@@ -2076,12 +2076,13 @@ $w!Hc
 11 4 22 44 44 22 444444
 130801120000Z
 1e+9999
+2	*EE
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231024210803Z0/
+231031175042Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -3552,7 +3553,7 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8%kC)
+D8%#C)
 D8,0u
 D8,8u
 D8/u0
@@ -3573,7 +3574,6 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
-D9%3o$
 D90uGH
 D989D9XH
 D9>u:H
@@ -4260,9 +4260,8 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*v!
-H;=Jh!
-H;=Zt!
+H;=:c!
+H;=Z?!
 H;A s
 H;Axt
 H;C(v
@@ -4409,7 +4408,6 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HmdSystemFactory
 How did we get here with a non-position slot?
-Ho{2O
 Hu"Hc
 I(+K H
 I(I+I H
@@ -4704,6 +4702,7 @@ IVRTrackedCamera_005
 IVRTrackedCamera_006
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
+IVRVirtualDisplay_002
 IVRWatchdogHost_
 IVRWatchdogHost_001
 IVRWatchdogHost_002
@@ -4961,6 +4960,7 @@ L9%dN<
 L90t	H
 L93t	H
 L97u0H
+L9=m3
 L9?u,H
 L9@ s
 L9A r
@@ -5480,8 +5480,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSR
-RXLOG
+RSDS(
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5811,7 +5810,6 @@ T$xH+
 T$xH;
 T$xL+
 T$xL;
-T<3CnL0
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6773,7 +6771,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%LP'
+W%lP'
 W0H;C
 W4H;C
 W8H+W`I
@@ -6837,7 +6835,6 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X%|I*
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7293,6 +7290,7 @@ XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
 XXXX PNG chunk not known
 X_^][
+Xl=4:
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
 XrProto:Predict:%d
@@ -7304,7 +7302,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y5}]#
+Y-,R#
+Y-=4)
 Y9"SD
 Y>t$7?*
 YL$8E
@@ -7670,7 +7669,6 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \10I;
-\5fx"
 \\.\pipe\
 \mfpmp.exe
 \u=H;
@@ -8822,6 +8820,7 @@ motionSmoothing
 mtllib
 multiple IHDR
 multiple signals per batch not allowed
+n$:F7
 n0_D@
 nArrayIndex < m_details.nArrayLayerCount
 nChildIndex != vr::k_unInvalidBoneIndex
@@ -8919,6 +8918,7 @@ override_device_class
 overwrite.vrsettings
 p UWAVH
 p WATAVH
+p>Ae[2
 pA]A\^
 pA]A\^[]
 pA]A\_
@@ -9112,7 +9112,6 @@ settings
 settings/desktop
 setup_standing2
 setvbuf
-sg1s=b
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
 shaders/d3d11/distort_geom_aa_circles_ps.fxo
@@ -9730,7 +9729,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-
+t8D8-AP,
 t9fff
 t:fff
 t>H9n

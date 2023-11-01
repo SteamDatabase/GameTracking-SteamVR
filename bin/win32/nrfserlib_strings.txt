@@ -57,6 +57,7 @@
 !hn7!
 "0)0C0
 "j h4_
+"w<O+
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -65,6 +66,7 @@ $Ph%*
 $Ph'*
 $Ph)*
 $Vh&*
+$z"Rmy
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -73,9 +75,12 @@ $Vh&*
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
+&O5WU
+&X2H.B2Z
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(-3Go
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
@@ -97,6 +102,7 @@ $Vh&*
 . Ignoring the packet.
 . ack_num is: 
 . raw packet: 
+.*gG=`
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_02e728be6b281fc7c0cdb870c5d215f6>@@
@@ -562,7 +568,6 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
-/8/XfCQ>
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -709,7 +714,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231024210041Z0/
+231031174323Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1191,6 +1196,7 @@ $Vh&*
 < =X=
 <!<-<3<A<Q<a<m<
 <!<1<A<Q<a<q<
+<"8^i
 <"<*<
 <"<+<O<
 <#<><b<l<
@@ -1802,6 +1808,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
+NQbLX
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1907,6 +1914,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSIb
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2103,7 +2111,6 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
-\bD53&M
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2267,6 +2274,7 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
+l-;4*
 l2|X/gGe
 list<T> too long
 lj!hh
@@ -2290,7 +2298,6 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
-pu<IBp2
 punct
 realloc
 s?=2N

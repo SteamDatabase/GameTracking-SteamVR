@@ -431,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231024210034Z0/
+231031174316Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -469,6 +469,7 @@ $_^[]
 3 3<3@3`3
 3 3=3N3c3h3
 3 3O3=7o7v7(8,8084888<8@8D8H8L8A:Q:
+3 M4Co+
 3!3O3q3
 3!4w4
 3$3(383<3@3D3H3P3h3l3
@@ -1301,6 +1302,7 @@ DuplicateHandle
 DynamicProgressFeedback
 E;w0tLj
 EI2C support not yet implemented
+Eatp|2
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
@@ -1484,6 +1486,7 @@ QQSVW
 QSVWj
 QVWjt
 QkK04
+QoT&LN
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1533,7 +1536,6 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
-UO{2.l
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1659,7 +1661,6 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
-`h;Ro
 a7hIw
 abort
 address family not supported
@@ -1681,7 +1682,6 @@ api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
 b1	3C3
-b9@.]
 bad address
 bad allocation
 bad array new length

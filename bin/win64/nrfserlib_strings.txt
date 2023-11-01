@@ -66,6 +66,8 @@
  times.
  version-number:
 !hn7!
+"mk3J%J
+$3jt!
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -601,13 +603,13 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/[;tgSh
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
 0000CB0000001000800000805F9B34FB
 0000CB0100001000800000805F9B34FB
-08eWxFejT
 0A^^[
 0A^^]
 0A^_]
@@ -633,7 +635,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210102Z0/
+231031174348Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -649,14 +651,13 @@
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6${r9,
 6*f(_
 64-bit
 666666666
 6666666666666
 6I]Dc
 6OB,n_
-7!S`	
-7"h 4
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8A^A]^]
@@ -669,6 +670,7 @@
 8EC90003F3154F609FB8838830DAEA50
 8]8vPH
 8_^][
+9 R`P
 9C }&L
 9C }(H
 9\$Pt
@@ -777,6 +779,7 @@
 ?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exceptions@std@@YAHXZ
+?w&$o
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
@@ -1875,6 +1878,7 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
+dV	w]
 dat_file
 data error
 deque<T> too long
@@ -1936,7 +1940,6 @@ ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
 k0i0$
-k_8gc>
 l$ H=
 l$ VAVAWH
 l$ VWAVH
@@ -1983,7 +1986,6 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-q%:pH
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2164,6 +2166,7 @@ unknown error
 unknown zip result code
 upH;~ uj
 upper
+v!`?2
 v=Y]Bv
 vector<T> too long
 vector<bool> too long

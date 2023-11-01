@@ -57,9 +57,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-"Knb s
 $9E0u
-%IvDFd
 %s begin_ctx=%llu
 %s end_ctx=%llu
 %s%s%s%s%s
@@ -514,7 +512,6 @@ $9E0u
 .tls$ZZZ
 .xdata
 .xdata$x
-/)[.n
 0A]A\_
 0A^A]A\
 0A^_[
@@ -533,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231024210121Z0/
+231031174409Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -564,6 +561,7 @@ $9E0u
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8pay9
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -1422,6 +1420,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
+R0]\H
 RENDERDOC_GetAPI
 RPCRT4.dll
 RaiseException
@@ -1603,7 +1602,6 @@ VerQueryValueA
 VerSetConditionMask
 VerifyVersionInfoW
 Vulkan
-W5	b}
 WATAUAVAWH
 WATAUH
 WAVAWH
@@ -1625,7 +1623,6 @@ WindowsDisplayCore
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 WriteFile
-WySb@
 XA_A][]
 XA_A^A]_
 Y9"SD
@@ -1906,7 +1903,6 @@ l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
-m;=QsF
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId

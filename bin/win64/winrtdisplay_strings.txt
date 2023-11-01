@@ -15,9 +15,7 @@
 (f*^[0
 +Xt@(
 +o'q)}
-,&px>B
 ,W5y+
-,c>MsS
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -119,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024205948Z0/
+231031174238Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -139,7 +137,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8"'48
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -147,6 +144,7 @@
 9D$DtfL9t$xt
 9E ukH
 <0:08
+<Ae+y*
 <P)9Y
 <unknown>
 =rIQU
@@ -201,6 +199,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Dm;"Yz
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
@@ -229,7 +228,6 @@ H9oHH
 HeapFree
 I9] M
 I9]8I
-I<~fW
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -257,13 +255,12 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
+OZCEx
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSL$v
-R`DRp
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -279,6 +276,7 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+T,"h/
 UVAUAWH
 UVAWH
 UWAVH
@@ -292,6 +290,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+Vi8?"Q
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -351,7 +350,6 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`S=sPJ
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -371,6 +369,7 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
+fIh#I="
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -389,6 +388,7 @@ memmove
 memset
 ntelD
 ole32.dll
+ozvw>
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy

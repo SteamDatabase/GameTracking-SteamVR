@@ -63,7 +63,6 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
-#V>Zo
 #oculus_requested_quit
 $9^ t
 %%.%dg
@@ -94,11 +93,11 @@ $9^ t
 ',=?k
 '.5<=6/7>????????????????
 '[', '{', or a literal
-'q7?`o
 'uri' is missing from non binary glTF file buffer.
 (182Y2
 (Unable to load LibOVR)
 (f*^[0
+)evAAa
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *030<0E0J0O0V0
@@ -271,7 +270,6 @@ $9^ t
 .tls$
 .tls$ZZZ
 .xdata$x
-/5B]O
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -377,6 +375,7 @@ $9^ t
 0n1,222;2B2/4
 0w0c1
 0x1}1
+0zVCQ4
 0}0i1
 1 1$1(1,1014181<1@1D1H1L1
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
@@ -426,6 +425,7 @@ $9^ t
 1J1h1m1
 1K1m1s1{1
 1P2d2x2
+1U;sF
 1V2_2
 1[2m2q2
 1e+9999
@@ -466,7 +466,7 @@ $9^ t
 223:3q3
 223S3
 230714000000Z
-231024210140Z0/
+231031174424Z0/
 241009235959Z0a1
 282D2L2l2
 2;2@2G2M2_2i2o2v2
@@ -718,7 +718,6 @@ $9^ t
 7L8S8
 7Q7Z7c7l7q7v7
 7T8V9
-7bj:EOW
 7h7v7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 8$8(8,8084888<8@8D8H8L8
@@ -795,6 +794,7 @@ $9^ t
 9)9b9y9
 9*9>9D9J9a9
 9,9H9d9
+9-,`J
 959?9E9L9Z9c9h9
 95:V:
 96:V;v<
@@ -884,6 +884,7 @@ $9^ t
 ;%;.;7;F;V;`;i;r;
 ;%;r;"<I<m=s=
 ;%=V=
+;*7|/8
 ;*<L<Q<i<s<y<
 ;,<\<
 ;.;M;R;\;u;
@@ -1254,7 +1255,6 @@ EventWrite
 EventWriteString
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
-F	<	j
 F h0_
 F(+F$
 F(Q9F,t
@@ -1323,6 +1323,7 @@ GetSystemTimeAsFileTime
 GetTickCount64
 Graphics LUID changed
 Guardian changed, updating chaperone
+H!>O5
 H-^Eu
 HMD no longer present
 HeapAlloc
@@ -1403,7 +1404,6 @@ J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
-Jy\}!
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1478,6 +1478,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPhtY
+RSDSS&+y[W
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1536,6 +1537,7 @@ This is not a Vulkan object
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
+TlJ?8
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -1792,6 +1794,7 @@ bufferView
 bufferViews
 buffers
 bulgarian
+bvf8P
 byteLength
 byteOffset
 byteStride
@@ -1875,7 +1878,6 @@ french
 fseek
 fsetpos
 fwrite
-g;(R*W
 generator
 german
 gfff+
@@ -2025,6 +2027,7 @@ minFilter
 minVersion
 missing color table
 multiple IHDR
+n-tF1
 no IDAT
 no PLTE
 no SOF
@@ -2490,6 +2493,7 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
+{'> D]
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png
@@ -2504,7 +2508,9 @@ znear
 |Lu?c
 |cj#h\
 }	jCh
+}BdNY
 }LuHO
 }qj<hP
+~J6Be
 ~qj#k"
 ~t&LN

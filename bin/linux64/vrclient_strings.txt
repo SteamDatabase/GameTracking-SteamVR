@@ -1145,6 +1145,7 @@ $tI
 16CVROverlayLatest
 16CVkCommandBuffer
 16IVRClientHandler
+17:41:48
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -1241,7 +1242,6 @@ $tI
 19InMemoryInputStream
 1e+9999
 2
-20:58:53
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -20547,6 +20547,7 @@ IVRTrackedCamera_005_FnTable_ReleaseVideoStreamingService(unsigned long)
 IVRTrackedCamera_006
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
+IVRVirtualDisplay_002
 IVRWatchdogHost_
 IVRWatchdogHost_001
 IVRWatchdogHost_002
@@ -21710,7 +21711,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
-Oct 24 2023
+Oct 31 2023
 October
 OculusSDKStart
 OldAppQuitSent

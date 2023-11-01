@@ -6,8 +6,8 @@
  A__^
  H3E H3E
 !hn7!
-&hU.&
 ',=?k
+'v7f%d
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -15,17 +15,16 @@
 (f*^[0
 (l$PD
 (t$pH
-)18e]
 )D$ H
 )\$pD
 )d$`D
 )t$pu.H
-*99%m
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
 .00cfg
+.>9P:
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -94,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210337Z0/
+231031174618Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -130,7 +129,6 @@
 ;k sDH
 <0:08
 =rIQU
->%,oja
 >0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -238,7 +236,6 @@ InitializeSListHead
 Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J8a*<
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -272,8 +269,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSp^]
-RYR9R
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -304,6 +299,7 @@ TlsSetValue
 UAVAWH
 USVWATAUH
 UWAVH
+Uba@0
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -383,11 +379,9 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
-d^Xy5HJ
 dk2_camera
 driver_oculus_legacy.dll
 effffff
-f0X^`
 f9<Xu
 getenv
 gfffffffH
@@ -397,7 +391,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-it?vF
+i=AeL
 jj@0HK4
 k0i0$
 l$8E3
@@ -411,7 +405,6 @@ memmove
 memset
 n\tuH
 ntelD
-oK6)W({
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed

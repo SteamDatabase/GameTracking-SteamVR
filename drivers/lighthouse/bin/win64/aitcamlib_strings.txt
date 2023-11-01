@@ -16,7 +16,6 @@
  A_A^_^]
  A__^
  H3E H3E
-!$T\)jY
 !(0)"
 !hn7!
 "9k0t
@@ -37,13 +36,13 @@
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
+(6uC@
 (A\^][
 (A^A]^[
 (A^A]_[
 (A_A^_[
 (A_A^_]
 (L$ D
-(_MIw|g
 (f*^[0
 (t$ H
 (t$ u
@@ -64,7 +63,6 @@
 , last executing in 
 ,9k0t%H
 ,9{0t%H
-,JN'Q|
 ,W5y+
 -9k0t&H
 -9{0t%H
@@ -168,7 +166,6 @@
 /width
 0 width
 0-pixel image
-08evt
 0A_A^A]A\^
 0A_A^_
 0D9c0t'H
@@ -181,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210058Z0/
+231031174343Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -219,6 +216,7 @@
 9l$Lt	E
 ;D$ht6
 <0:08
+<AeEt
 =ETLP
 =IBgC
 =SNRtt%
@@ -295,6 +293,7 @@ A_A^_^]
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
+AkW;o
 AuthD
 BMP RLE
 Bellevue1
@@ -354,7 +353,7 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
-F",LQ
+E~1vkx
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -463,6 +462,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
+O>"+l
 Out of thread local storage!
 OutputDebugStringA
 PA^_^
@@ -478,7 +478,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSG
+RSDS/
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -592,7 +592,6 @@ Z9k0tUD
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
-[`8iq
 \$ E3
 \$ UH
 \$ UVWATAUAVAWH
@@ -660,6 +659,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+bOo{4
 bad AC huff
 bad APP len
 bad BMP
@@ -868,6 +868,7 @@ t$PHc
 t$hL;
 t$pfA
 t$pfD
+t+w8b
 t>H9n
 tRNS after IDAT
 tRNS before PLTE
@@ -929,7 +930,6 @@ zlib corrupt
 |$XH;
 |Lu?c
 }LuHO
-}S:N7m
 ~3LcD$(L
 ~6HcD$ I
 ~qj#k"

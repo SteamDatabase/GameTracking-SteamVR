@@ -163,7 +163,6 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- ;=QA$
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -325,7 +324,6 @@
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
 "buffers" object not found in .gltf
-"cQ@D
 "e" must be followed by exponent.
 "nodes" object not found in .gltf
 "orthographic" is not a JSON object.
@@ -900,6 +898,7 @@ $w!Hc
 ,9k0t%H
 ,9{0t%H
 ,W5y+
+,hUqL'
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -1238,7 +1237,6 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
-/5|E	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1397,7 +1395,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231024210230Z0/
+231031174512Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1421,7 +1419,6 @@ $w!Hc
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6--72
 6<framesToThrottle
 6I]Dc
 6OB,n_
@@ -1458,6 +1455,7 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
+8L9-H
 8O0u]A
 8\$@t
 8\t	H
@@ -2417,8 +2415,8 @@ CT$H+L$x
 CT$HE+
 CT$HH
 CT$PD
-CT$PL
 CT$XH
+CT$XL
 CT$pD
 CT$pH
 CT$xD
@@ -2596,8 +2594,8 @@ CreateWindowExA
 Creating new universe %llu because there were no %sexisting universes
 Creating playback mirror thread for device %s
 Ct$0H
-Ct$PH
-Ct$PI
+Ct$XH
+Ct$XI
 CtHcKpH
 C|$0H
 C|$0L
@@ -2827,6 +2825,7 @@ D$XH9D$8
 D$XH9Q
 D$XH;
 D$XHc
+D$XI;
 D$XIc
 D$Xaxis
 D$XuQH
@@ -3488,7 +3487,7 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-a4!
+H9-g2!
 H91u 
 H92u&
 H92u,
@@ -3564,10 +3563,8 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=3D
-H;=CC
-H;=K<
-H;=p=
+H;=$>
+H;=3A
 H;Axt
 H;B0t
 H;C sAH
@@ -3963,7 +3960,6 @@ IsProcessorFeaturePresent
 IsValidSid
 J 9H s
 J(9O(|
-J4K'.
 J>@G_
 JSON Update
 JSON string too short.
@@ -4143,8 +4139,8 @@ L9-$n(
 L9-%I(
 L9-%\(
 L9-*b(
-L9-+q&
 L9-5Z(
+L9-7o&
 L9-8l(
 L9-:S(
 L9-;N(
@@ -4157,7 +4153,6 @@ L9-Np(
 L9-QO(
 L9-Qk(
 L9-T?(
-L9-Vr&
 L9-Y@(
 L9-_T(
 L9-_g(
@@ -4175,6 +4170,7 @@ L95"r'
 L95LS'
 L95cq'
 L97u0H
+L9=LE&
 L9?u,H
 L9@ s
 L9A r
@@ -4284,6 +4280,7 @@ M9H s
 M;A r
 MAX10
 MB(iVR
+MD85X
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4396,6 +4393,7 @@ O(;H(}+I
 O(H9O0t
 O*9y]
 O0H9Q
+ODrh<
 OPAQUE
 OTGT timed out
 OZw3(?
@@ -5495,7 +5493,6 @@ WideCharToMultiByte
 Win 10
 WinRT
 WriteFile
-W{^Mp
 X USVWATAVAWH
 X UVWAVAWH
 X UVWH
@@ -5512,8 +5509,7 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5P6$
-Y5{/!
+Y5I/!
 Y9"SD
 Y?33s?
 YAHH+
@@ -5524,7 +5520,6 @@ Yl$4E
 Yl$hfD
 Z* ,	
 Z9k0tUD
-ZK0?#
 ZL$Xf
 [ UVWAVAWI
 [ UWATAVAWI
@@ -5677,7 +5672,7 @@ ZL$Xf
 ^@H;^Ht
 ^@I;^Ht
 ^@I;^Ht&f
-^@I;^Ht(
+^@I;^Ht*ff
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
@@ -6615,6 +6610,7 @@ l$xHc
 l$xLc
 l$xLi
 l$xM+
+l$xM;
 l2|X/gGe
 l6qnk
 l?Nb0?
@@ -6902,6 +6898,8 @@ pt_pt
 public_dependency
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x
+qUUMK
+q}b!s
 r	D;@(}
 r+w.I
 r,fff
@@ -7882,6 +7880,7 @@ vulkan-1.dll
 v}L9-
 w(M9w0tH
 w+OQvr
+w<\, R
 wUD;C$}OH
 wXH9w`t/H
 wcsncmp
@@ -8095,6 +8094,7 @@ zuusA
 }5fff
 }7fff
 }8HcF,H
+}::d;
 }</uyH
 }LuHO
 }M?/n
@@ -8107,6 +8107,5 @@ zuusA
 ~3LcD$(L
 ~6HcD$ I
 ~:fD9
-~B*K$
 ~qj#k"
 ~t&LN

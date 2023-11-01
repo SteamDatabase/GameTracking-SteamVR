@@ -13,7 +13,7 @@ $9^ t
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
-(6L~iE
+'k,wy
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -157,6 +157,7 @@ $9^ t
 1P3A5a5
 1c3g3v3z3
 1h3l3p3t3x3|3
+1p^"g
 2 2$2(2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
@@ -173,7 +174,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231024210037Z0/
+231031174319Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -205,7 +206,6 @@ $9^ t
 3X4_4
 3[4d4h4y4}4
 3mq+<
-3w0m7
 4	5'5/5d5
 4 4$4(4,4m5q5
 4#4(424C4H4R4c4h4r4
@@ -265,7 +265,6 @@ $9^ t
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7l8p8t8x8
 7o7 9$9Z9^9m9q9
-7o?Q7n
 8"8p8
 8#8(828C8H8R8c8h8r8
 8*868U8Z8k8q8v8
@@ -471,7 +470,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KI?w9
 K}*n:	
 L?n(Zy&
 LeaveCriticalSection
@@ -502,6 +500,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
+RSDS~
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -793,6 +792,7 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
+r;95Nt
 read past buffer
 ro_ro
 romanian
@@ -810,7 +810,6 @@ strtol
 sv_sv
 swedish
 t"Php
-t08e*O
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -854,6 +853,7 @@ zh_tw
 zlib corrupt
 {un'%
 |Lu?c
+|j$Y~i
 }LuHO
 ~qj#k"
 ~t&LN

@@ -36,6 +36,7 @@
  D;5z
  D;j0u
  H3E H3E
+ M>h|6e
  Type Descriptor'
  delete
  delete[]
@@ -414,7 +415,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231024210039Z0/
+231031174324Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -508,6 +509,8 @@ $iMBm
 <:u3H
 <:wuH
 <>#n2
+<Ae8,R
+<HVs+{N
 <htr<jtb<lt6<tt&<wt
 <xu<D
 <}wYI
@@ -853,7 +856,6 @@ D;z,A
 D;z,u
 D;z,v	A
 D<P0I
-DSOmRM
 December
 DecodePointer
 DeleteCriticalSection
@@ -1292,7 +1294,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDSg
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1382,6 +1383,7 @@ T$pkD$x<
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
+Tflon
 The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
@@ -1731,6 +1733,7 @@ Y7'v[M
 Y8(|bUhI;W4$eG8
 Y9"SD
 Y>kX>M
+YAQz]Xp
 YD$@f
 YYyhe"B
 Z(D9Z
@@ -1985,7 +1988,6 @@ fG9$Ou
 fJBGo
 failIfExtra
 false
-fe-0I
 fffff
 ffffff
 fffffff
@@ -2002,6 +2004,7 @@ gfffL
 gfffffffH
 h VWATAVAWH
 h-y"3
+h:wAa
 h< t <$
 h>1my
 hA\_^[
@@ -2079,7 +2082,6 @@ ldexp
 log10
 lq%&1T
 m0k0$
-mN|a:
 map/set<T> too long
 message size
 n03>Pu
@@ -2280,6 +2282,7 @@ u4I9}(
 uAiD$@
 uIL9[
 uY8\$ t
+ubdvYX
 ucD9~
 uf!T$(H!T$ 
 ug8Y$t
@@ -2327,8 +2330,8 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
+y#49.
 yH;YXtl
-yK s2
 y\PD>!
 y^QZ8(O*
 ygCH2

@@ -67,7 +67,6 @@
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
-",WpYc
 ". Must be "perspective" or "orthographic"
 "9k0t
 "accessors" object not found in .gltf
@@ -449,6 +448,7 @@ $w!Hc
 0A_A^_^]
 0A__^
 0D9c0t'H
+0OH: (q
 0w0c1
 0}0i1
 1/2/4/8/16-bit only
@@ -458,11 +458,10 @@ $w!Hc
 2.5.4.3
 210429000000Z
 211007000000Z
-21Ew[9
 220323000000Z
 220801000000Z
 230714000000Z
-231024210334Z0/
+231031174616Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -475,9 +474,10 @@ $w!Hc
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
-3Hr&@
 3mq+<
+4Nr%Y
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5A]8J
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -746,6 +746,7 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
+B).&vP
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -1144,6 +1145,7 @@ IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
+JU@< 
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1288,7 +1290,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS=q
+RSDSO*
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1442,7 +1444,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-W.S=+
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1746,6 +1747,7 @@ d$`L;
 d$`fD
 d$bHc
 d3d11.dll
+d5)B3zt:>
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -1764,7 +1766,6 @@ driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
 eCS < CS_Count
-eIE[=q^/]
 ePS < PS_Count
 eVS < VS_Count
 effffff
@@ -1782,6 +1783,7 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
+f=Ae]
 fD9	u
 fD9&u
 false
@@ -2173,6 +2175,7 @@ roundf
 ru_ru
 russian
 s fff
+sNe{[E5
 sampler
 samplers
 scale
@@ -2561,5 +2564,6 @@ znear
 ~+fff
 ~3LcD$(L
 ~6HcD$ I
+~P$6O
 ~qj#k"
 ~t&LN
