@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Conflict la nivelul stațiilor de bază (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "Modul de siguranță SteamVR (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Este necesară versiunea beta a clientului Steam (0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Este necesară actualizarea clientului Steam (0x80000000000)"
 
 "DismissableWarning_Detected" "Detectat"
 "DismissableWarning_TimeFormat" "h:mm"

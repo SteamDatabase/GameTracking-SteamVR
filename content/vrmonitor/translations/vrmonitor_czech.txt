@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Konflikt základních stanic (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "Režim SteamVR je spuštěn v bezpečném režimu (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Je vyžadována beta verze klienta služby Steam (0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Je vyžadována aktualizace klienta služby Steam (0x80000000000)"
 
 "DismissableWarning_Detected" "Zjištěno"
 "DismissableWarning_TimeFormat" "h.mm:ss"

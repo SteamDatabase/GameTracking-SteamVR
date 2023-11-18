@@ -66,8 +66,6 @@
  times.
  version-number:
 !hn7!
-"mk3J%J
-$3jt!
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -603,7 +601,6 @@ $3jt!
 .tls$ZZZ
 .xdata
 .xdata$x
-/[;tgSh
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -635,7 +632,7 @@ $3jt!
 220323000000Z
 220801000000Z
 230714000000Z
-231031174348Z0/
+231117184255Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -651,7 +648,6 @@ $3jt!
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6${r9,
 6*f(_
 64-bit
 666666666
@@ -670,7 +666,6 @@ $3jt!
 8EC90003F3154F609FB8838830DAEA50
 8]8vPH
 8_^][
-9 R`P
 9C }&L
 9C }(H
 9\$Pt
@@ -779,7 +774,6 @@ $3jt!
 ?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exceptions@std@@YAHXZ
-?w&$o
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
@@ -1255,6 +1249,7 @@ GD9E0t
 GDf9F
 GFf9F
 GH9E0t
+GWh'F
 GXA_A^A]A\_^]
 G`f9F
 Gdf9F
@@ -1521,6 +1516,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS!K
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1878,7 +1874,6 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
-dV	w]
 dat_file
 data error
 deque<T> too long
@@ -1986,6 +1981,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
+qu%I3
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2166,7 +2162,6 @@ unknown error
 unknown zip result code
 upH;~ uj
 upper
-v!`?2
 v=Y]Bv
 vector<T> too long
 vector<bool> too long

@@ -802,11 +802,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Quản lý add-on"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Yêu cầu cài đặt Beta phần mềm Steam"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Bản cập nhật Beta SteamVR có vài tính năng mới yêu cầu cài đặt Beta phần mềm Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Yêu cầu có Beta phần mềm Steam mới nhất"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Yêu cầu cài đặt hoặc cập nhật Beta phần mềm Steam để có được các tính năng Beta SteamVR mới nhất."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Xem thêm"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/en/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Yêu cầu cập nhật phần mềm Steam"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Bạn phải cập nhật phần mềm Steam để sử dụng đầy đủ chức năng của SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Cập nhật SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR đã được cập nhật lên phiên bản %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Xem thay đổi"

@@ -67,13 +67,11 @@
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
 ,W5y+
-,Z\gv
 -1e+9999
 -Infinity
 .  Does it exist?
 .  Max supported version is 
 .00cfg
-.4,4`
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
@@ -165,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174648Z0/
+231117184601Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -189,6 +187,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+99M0P\b
 <0:08
 =rIQU
 >0<0:
@@ -514,6 +513,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
+NcFo[
 No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
@@ -640,7 +640,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-Zt(r/
 [K]taM?
 \$ I;]
 \$ UAVAWH

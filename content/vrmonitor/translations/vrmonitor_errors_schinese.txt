@@ -782,11 +782,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "管理加载项"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "需要 Steam 测试客户端"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "此次 StreamVR 测试版更新包含的一些新功能需要安装 Steam 测试客户端。"
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "需要最新的 Steam 测试客户端"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "需要 Steam 测试客户端或需要更新 Steam 测试客户端，才能获得最新的 SteamVR 测试版功能。"
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "更多信息"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "需要更新 Steam 客户端"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "您必须更新 Steam 客户端，才能使用 SteamVR 的全部功能。"
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR 更新"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR 已更新至版本 %2。"
 "Warning_DismissableWarning_SteamVRUpdated_Action" "查看变更内容"

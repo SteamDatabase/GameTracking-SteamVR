@@ -219,6 +219,24 @@
                },
                "mode": "joystick",
                "path": "/user/hand/right/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/middleclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/middleclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
             }
          ]
       },

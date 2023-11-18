@@ -324,8 +324,6 @@ $
 --
 --alongside-steam
 --directory=
---pass-env=LD_LIBRARY_PATH
---pass-env=VRCOMPOSITOR_LD_LIBRARY_PATH
 -0123456789
 -1e+9999
 -=
@@ -506,15 +504,12 @@ $
 .L11545
 .L11561
 .L116
-.L1166
-.L1167
-.L1169
 .L117
-.L1170
 .L1171
 .L1172
 .L1173
 .L1174
+.L1175
 .L1176
 .L1177
 .L1178
@@ -2434,7 +2429,6 @@ $
 16CVRMailboxClient
 16CVROverlayLatest
 16IVRClientHandler
-17:41:38
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -2470,6 +2464,7 @@ $
 17CVRCompositor_026
 17CVulkanVRRenderer
 17IVRClientInternal
+18:39:24
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -3275,8 +3270,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1860.370717
-C.1863.370728
+C.1860.370819
+C.1863.370830
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -17113,6 +17108,7 @@ December
 DeclareCurrentThreadIsMainThread
 Default
 Deliberately hanging inside VR_Init because the caller asked us to
+Desktop Game Theater
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long long, bool)
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long long, bool) [clone .cold]
 Destroying a held mutex
@@ -17631,7 +17627,7 @@ GetActionBindingCategoryNameFromEnum(EActionBindingCategory)
 GetApplicationStringPropertyFromManifest(vr::EVRApplicationProperty, CVRMsg_ApplicationInfo_Manifest const&, vr::EVRApplicationError*, std::string&)
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0]
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0] [clone .cold]
-GetBestKeyboardImplementation(VRSystemLayerState_t*)
+GetBestKeyboardImplementation(VRSystemLayerState_t const*)
 GetBitForBitnum(int)::bitsForBitnum
 GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&)
 GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
@@ -17677,7 +17673,7 @@ GetKeyboardOverlay(VRSystemLayerState_t const*, vr::EVROverlayError*)
 GetKeyboardOverlay(VRSystemLayerState_t*, vr::EVROverlayError*)
 GetKeyboardOverlayHandle(VRSystemLayerState_t const*)
 GetKeyboardOverlayIndex(VRSystemLayerState_t const*, vr::EVROverlayError*)
-GetKeyboardStatus(VRSystemLayerState_t*, bool*, vr::EKeyboardFlags*)
+GetKeyboardStatus(VRSystemLayerState_t const*, bool*, vr::EKeyboardFlags*)
 GetLinuxBaseManifestPath()
 GetLinuxBaseManifestPath() [clone .cold]
 GetManifestPath()
@@ -21047,6 +21043,7 @@ IVRWatchdogProvider_001
 IXrProto_001
 Ignoring WatchdogWakeUp because the workstation is locked
 Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode
+Ignoring user setting "forcedDriver": "%s" because %s
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -22113,6 +22110,7 @@ Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
 Nov
+Nov 17 2023
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t> >*)
@@ -22151,7 +22149,6 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
-Oct 31 2023
 October
 OculusSDKStart
 OldAppQuitSent
@@ -23037,7 +23034,7 @@ Standing transform was not updated when writing the universe to paths
 StandingFromOverlayNormal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&)
 Started %s with pid %u
 Starting vrcompositor process: %s args: %s, in folder %s
-Starting vrserver process: %s
+Starting vrserver process: %s in %s
 StartupInfoArg
 StaticCompositorPresent(int)
 Steam for Linux pressure-vessel container runtime detected: %s
@@ -23559,7 +23556,6 @@ VRApplication_Utility
 VRApplication_VRMonitor
 VRApplication_WebHelper
 VRCOMPOSITOR_ARGS
-VRCOMPOSITOR_LD_LIBRARY_PATH
 VRClientCoreFactory
 VRCompositorError_AlreadySet
 VRCompositorError_AlreadySubmitted
@@ -23752,6 +23748,7 @@ VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
 VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
 VRInitError_Compositor_CreateClampToBorderSamplerState
 VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
 VRInitError_Compositor_CreateComputeResolveRenderTextures
@@ -24881,6 +24878,7 @@ VulkanVRRenderer::pixelShaderDefs
 VulkanVRRenderer::vertexShaderDefs
 W
 WARNING
+WARNING: NOT running in a Steam for Linux pressure-vessel container runtime. Your SteamVR installation is misconfigured.
 WaitEvent
 Waiting for shared fd client failed
 WaitingForExternalLaunch
@@ -26460,6 +26458,8 @@ dpad_click
 dpad_touch
 dpad_xr
 driver %s implements interfaces %s
+driver is disabled in settings
+driver not found (check vrpathreg)
 driver.vrdrivermanifest
 driver.vrresources
 driver:
@@ -26497,6 +26497,7 @@ enable
 enableCameraSurfaces
 enableDriverBoundsImport
 enableHomeApp
+enableLegacyGameTheater
 enableYAMLCompatibility
 end of input
 english
@@ -27313,6 +27314,7 @@ hyphen
 i
 i+
 iHexCharToInt(char)
+icon_steamvr_desktopgame.png
 iconv
 iconv_close
 iconv_open
@@ -28181,6 +28183,7 @@ open
 opendir
 openvr
 openvr.component.vrserver
+openvr.tool.steamvr_desktop_gametheatre
 openvr.tool.steamvr_media_player
 openvrpaths.vrpath
 openxr
@@ -36473,6 +36476,8 @@ vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsig
 vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
 vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int)
 vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
+vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long long, bool*)
+vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long long, bool*) [clone .cold]
 vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*)
 vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*) [clone .cold]
 vr::CVROverlayInternalLatest::GetKeyboardOwnerOverlay(unsigned long long*)
@@ -36491,6 +36496,8 @@ vr::CVROverlayInternalLatest::GetOverlayInteractionAffordances(unsigned long lon
 vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long long)
 vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long long) [clone .cold]
 vr::CVROverlayInternalLatest::GetPassthroughPortalEnabled()
+vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const
+vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const [clone .cold]
 vr::CVROverlayInternalLatest::GetRecommendedOverlayRenderQuality()
 vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long long)
 vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long long) [clone .cold]
@@ -36964,6 +36971,8 @@ vrrendermodels005
 vrrendermodels005_FnTable
 vrserver
 vrserver internal error (124)
+vrserver pid %d
+vrserver pid %d exited while waiting on IPC control file
 vrsettings001
 vrsettings001_FnTable
 vrsettings002

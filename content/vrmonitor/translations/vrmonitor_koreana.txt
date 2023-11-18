@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "베이스 스테이션 충돌(0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR 안전 모드(0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Steam 클라이언트 베타 필요(0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Steam 클라이언트 업데이트 필요(0x80000000000)"
 
 "DismissableWarning_Detected" "발견됨"
 "DismissableWarning_TimeFormat" "h:mm AP"

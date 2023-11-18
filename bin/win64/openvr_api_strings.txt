@@ -33,10 +33,9 @@
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- D;5z
+ D;5j
  D;j0u
  H3E H3E
- M>h|6e
  Type Descriptor'
  delete
  delete[]
@@ -415,7 +414,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231031174324Z0/
+231117184221Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -509,8 +508,6 @@ $iMBm
 <:u3H
 <:wuH
 <>#n2
-<Ae8,R
-<HVs+{N
 <htr<jtb<lt6<tt&<wt
 <xu<D
 <}wYI
@@ -844,7 +841,7 @@ D9d$$u
 D9g@~2Ic
 D9h(uiE
 D9k(u
-D;=b.
+D;=R.
 D;T$4
 D;d$$A
 D;d$$u
@@ -1021,14 +1018,16 @@ H3\$HH
 H97uWH
 H98t%H
 H99u{
-H9='[	
-H9=7T	
-H9=7`	
-H9=CW	
-H9=C\	
-H9=Og	
-H9=gV	
-H9=kc	
+H9='T	
+H9='`	
+H9=3W	
+H9=3\	
+H9=?g	
+H9=WV	
+H9=[c	
+H9=o]	
+H9=se	
+H9=sj	
 H9A u
 H9Ahs
 H9D$@u
@@ -1078,7 +1077,7 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 H[><y5
 H_^[]
-Hc-_:
+Hc-O:
 Hc9;q
 Hc;HcK
 HcC H
@@ -1383,7 +1382,6 @@ T$pkD$x<
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
-Tflon
 The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
@@ -1465,6 +1463,7 @@ VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
 VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
 VRInitError_Compositor_CreateClampToBorderSamplerState
 VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
 VRInitError_Compositor_CreateComputeResolveRenderTextures
@@ -1725,6 +1724,8 @@ WinRTInitialization
 WriteConsoleW
 WriteFile
 X E9j
+X4lAe
+X\<.F'	
 X_^][
 Y$D;R
 Y([~=
@@ -1733,7 +1734,6 @@ Y7'v[M
 Y8(|bUhI;W4$eG8
 Y9"SD
 Y>kX>M
-YAQz]Xp
 YD$@f
 YYyhe"B
 Z(D9Z
@@ -1786,6 +1786,7 @@ Zod(^?
 ]+9pa
 ]6%S*
 ]>)2X
+]>w~"~
 ]J<0"0i3
 ]`u7H
 ]g@8yhu
@@ -2004,7 +2005,6 @@ gfffL
 gfffffffH
 h VWATAVAWH
 h-y"3
-h:wAa
 h< t <$
 h>1my
 hA\_^[
@@ -2085,7 +2085,7 @@ m0k0$
 map/set<T> too long
 message size
 n03>Pu
-nD8-^
+nD8-N
 n]?iJ
 nan(ind)
 nan(snan)
@@ -2282,7 +2282,6 @@ u4I9}(
 uAiD$@
 uIL9[
 uY8\$ t
-ubdvYX
 ucD9~
 uf!T$(H!T$ 
 ug8Y$t
@@ -2330,7 +2329,6 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
-y#49.
 yH;YXtl
 y\PD>!
 y^QZ8(O*

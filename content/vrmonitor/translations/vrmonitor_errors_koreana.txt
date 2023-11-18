@@ -756,11 +756,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "애드온 관리"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam 클라이언트 베타 필요"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "이번 SteamVR 베타 업데이트에는 Steam 클라이언트 베타를 설치해야 사용할 수 있는 몇 가지 새로운 기능이 있습니다."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "최신 Steam 클라이언트 베타 필요"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "최신 SteamVR 베타 기능을 사용하려면 Steam의 베타 클라이언트가 필요하거나 업데이트해야 합니다."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "추가 정보"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/ko/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Steam 클라이언트 업데이트 필요"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "SteamVR의 모든 기능을 사용하려면 Steam 클라이언트를 업데이트해야 합니다."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR 업데이트"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR이 %2 버전으로 업데이트되었습니다."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "변경 사항 확인하기"

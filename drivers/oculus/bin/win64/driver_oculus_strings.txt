@@ -61,6 +61,7 @@
  in Buffer
  in `
  sJE3
+!	INUY
 !&.37<
 !(0)"
 !hn7!
@@ -448,7 +449,6 @@ $w!Hc
 0A_A^_^]
 0A__^
 0D9c0t'H
-0OH: (q
 0w0c1
 0}0i1
 1/2/4/8/16-bit only
@@ -461,7 +461,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231031174616Z0/
+231117184525Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -475,9 +475,8 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
-4Nr%Y
+47Gr#
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5A]8J
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -746,7 +745,6 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
-B).&vP
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -1145,7 +1143,6 @@ IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
-JU@< 
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1193,8 +1190,7 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L9%E<
-L9%Y<
+L9%	<
 L9k8v
 L9t$@
 L9|$p
@@ -1290,7 +1286,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSO*
+RSDS%
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1592,6 +1588,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 _unlock_file
+_w.g,`lfi2dw
 _wfopen_s
 _wgetenv_s
 _wstat64i32
@@ -1731,6 +1728,7 @@ const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
 cs_cs
+cxZ",
 czech
 d$ H;
 d$ UAVAWH
@@ -1747,7 +1745,6 @@ d$`L;
 d$`fD
 d$bHc
 d3d11.dll
-d5)B3zt:>
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -1783,7 +1780,6 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
-f=Ae]
 fD9	u
 fD9&u
 false
@@ -2014,6 +2010,10 @@ oculus_quest2_controller_left
 oculus_quest2_controller_right
 oculus_quest_controller_left
 oculus_quest_controller_right
+oculus_quest_plus_controller_left
+oculus_quest_plus_controller_right
+oculus_quest_pro_controller_left
+oculus_quest_pro_controller_right
 oculus_rifts_controller_left
 oculus_rifts_controller_right
 oculus_touch
@@ -2175,7 +2175,6 @@ roundf
 ru_ru
 russian
 s fff
-sNe{[E5
 sampler
 samplers
 scale
@@ -2564,6 +2563,5 @@ znear
 ~+fff
 ~3LcD$(L
 ~6HcD$ I
-~P$6O
 ~qj#k"
 ~t&LN

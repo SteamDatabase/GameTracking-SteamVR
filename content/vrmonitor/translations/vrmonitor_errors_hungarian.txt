@@ -802,11 +802,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Kiegészítők kezelése"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam kliens béta szükséges"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Ez a SteamVR béta frissítés néhány olyan új funkciót tartalmaz, amelyekhez telepíteni kell a Steam kliens bétát."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "A legújabb Steam béta kliens szükséges"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "A Steam béta kliensére van szükség, vagy frissíteni kell azt a legújabb SteamVR béta funkciók eléréséhez."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Több infó"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/hu/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Steam kliens frissítés szükséges"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "A SteamVR teljes funkcionalitásának használatához frissítened kell a Steam kliensedet."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR frissítés"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "A SteamVR frissítve lett a(z) %2 verzióra."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Változások megnézése"

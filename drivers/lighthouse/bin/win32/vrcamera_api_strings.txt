@@ -21,6 +21,7 @@
  s;Wj
  sCWj
  t\9]
+!1x`h
 !hn7!
 #9Npt
 #>B>J>
@@ -431,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231031174316Z0/
+231117184213Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -469,7 +470,6 @@ $_^[]
 3 3<3@3`3
 3 3=3N3c3h3
 3 3O3=7o7v7(8,8084888<8@8D8H8L8A:Q:
-3 M4Co+
 3!3O3q3
 3!4w4
 3$3(383<3@3D3H3P3h3l3
@@ -1068,6 +1068,7 @@ $_^[]
 >Mp$d
 >T>c>
 >_>f>
+>_Yb6e!
 >p>v>k?w?
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?$?(?,?4?L?\?`?p?t?
@@ -1302,7 +1303,6 @@ DuplicateHandle
 DynamicProgressFeedback
 E;w0tLj
 EI2C support not yet implemented
-Eatp|2
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
@@ -1486,7 +1486,6 @@ QQSVW
 QSVWj
 QVWjt
 QkK04
-QoT&LN
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1682,6 +1681,7 @@ api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
 b1	3C3
+bV3i8_=
 bad address
 bad allocation
 bad array new length
@@ -1893,6 +1893,7 @@ vector<bool> too long
 version
 vrcamera_api.dll
 w(_^[]
+wb(ZA
 wcsnlen
 wcstoul
 wrong protocol type
@@ -1905,6 +1906,7 @@ x\SVW
 xdigit
 y'j h
 {L?uI
+{[9iB7
 {un'%
 |Lu?c
 |SVWj

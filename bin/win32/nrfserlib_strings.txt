@@ -55,9 +55,9 @@
  version-number:
 !0E0R0[0
 !hn7!
+!y1Gy5bm0
 "0)0C0
 "j h4_
-"w<O+
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -66,7 +66,6 @@ $Ph%*
 $Ph'*
 $Ph)*
 $Vh&*
-$z"Rmy
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -75,12 +74,9 @@ $z"Rmy
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
-&O5WU
-&X2H.B2Z
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
-(-3Go
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
@@ -102,7 +98,6 @@ $z"Rmy
 . Ignoring the packet.
 . ack_num is: 
 . raw packet: 
-.*gG=`
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_02e728be6b281fc7c0cdb870c5d215f6>@@
@@ -714,7 +709,7 @@ $z"Rmy
 220323000000Z
 220801000000Z
 230714000000Z
-231031174323Z0/
+231117184222Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1196,7 +1191,6 @@ $z"Rmy
 < =X=
 <!<-<3<A<Q<a<m<
 <!<1<A<Q<a<q<
-<"8^i
 <"<*<
 <"<+<O<
 <#<><b<l<
@@ -1754,6 +1748,7 @@ HTC BS
 HeapAlloc
 HeapFree
 IO_RESOURCES_UNAVAILABLE
+Ib15 
 Identify
 IdentifyContext
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -1808,7 +1803,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
-NQbLX
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1914,7 +1908,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSIb
+RSDSA
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2056,6 +2050,7 @@ Unknown exception
 UnlouA
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
+VF/~l
 VID_%04X
 VID_1366
 VQPhTS
@@ -2074,6 +2069,7 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
+W5AODk
 W9shvN3
 WAKEUP
 WOKEN
@@ -2110,6 +2106,7 @@ Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
 \0`0d0|0
+\D%ug
 \Device Parameters
 ]J<0"0i3
 ^[0-9]+$
@@ -2203,6 +2200,7 @@ bad conversion
 bin_file
 blank
 bootloader
+bu'T`=x,
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
@@ -2274,7 +2272,6 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
-l-;4*
 l2|X/gGe
 list<T> too long
 lj!hh
@@ -2297,6 +2294,7 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+oxmc(
 print
 punct
 realloc

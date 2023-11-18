@@ -36,7 +36,6 @@
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
-(6uC@
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -173,12 +172,13 @@
 0}0i1
 1/2/4/8/16-bit only
 130801120000Z
+2-W<!
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231031174343Z0/
+231117184250Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,6 +193,7 @@
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6 JGHq
 6*f(_
 6I]Dc
 6OB,n_
@@ -216,7 +217,6 @@
 9l$Lt	E
 ;D$ht6
 <0:08
-<AeEt
 =ETLP
 =IBgC
 =SNRtt%
@@ -293,7 +293,6 @@ A_A^_^]
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
-AkW;o
 AuthD
 BMP RLE
 Bellevue1
@@ -353,7 +352,6 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
-E~1vkx
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -462,7 +460,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-O>"+l
 Out of thread local storage!
 OutputDebugStringA
 PA^_^
@@ -478,7 +475,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS/
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -648,6 +644,7 @@ _wgetcwd
 `.rdata
 `A_A^A]A\_^]
 `A__^
+a iY(BfD
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -659,7 +656,6 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-bOo{4
 bad AC huff
 bad APP len
 bad BMP
@@ -868,7 +864,6 @@ t$PHc
 t$hL;
 t$pfA
 t$pfD
-t+w8b
 t>H9n
 tRNS after IDAT
 tRNS before PLTE

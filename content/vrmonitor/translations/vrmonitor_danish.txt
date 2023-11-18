@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Konflikt med basisstation (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR i fejlsikret tilstand (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Steam-klientbeta påkrævet (0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Opdatering af Steam-klient påkrævet (0x80000000000)"
 
 "DismissableWarning_Detected" "Registreret"
 "DismissableWarning_TimeFormat" "h:mm:ss"

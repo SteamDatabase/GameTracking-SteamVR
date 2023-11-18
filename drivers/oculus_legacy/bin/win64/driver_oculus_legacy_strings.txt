@@ -5,9 +5,9 @@
  9D$D
  A__^
  H3E H3E
+!	c64
 !hn7!
 ',=?k
-'v7f%d
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -15,6 +15,7 @@
 (f*^[0
 (l$PD
 (t$pH
+)%`cx
 )D$ H
 )\$pD
 )d$`D
@@ -24,7 +25,6 @@
 , last executing in 
 ,W5y+
 .00cfg
-.>9P:
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -93,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174618Z0/
+231117184529Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -160,6 +160,7 @@ A__][
 AuthD
 Bellevue1
 C(L95
+C=v1*2
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
@@ -257,6 +258,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NH0!p
 NPH9Q
 OD$DH
 OVR Runtime Init
@@ -299,7 +301,6 @@ TlsSetValue
 UAVAWH
 USVWATAUH
 UWAVH
-Uba@0
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -321,6 +322,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+Z@cTS
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -367,6 +369,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`e;k^
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -391,7 +394,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i=AeL
 jj@0HK4
 k0i0$
 l$8E3
@@ -452,6 +454,8 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+rd6uA
+sH9py
 startup
 string too long
 strncpy
@@ -462,6 +466,7 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
+t%$ Ba	F
 tIL95f
 tXfff
 tdh.dll
@@ -472,6 +477,7 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
+zb\M2
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

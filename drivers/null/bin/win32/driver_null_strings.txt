@@ -36,6 +36,7 @@
 .idata$4
 .idata$5
 .idata$6
+.mCB|
 .rdata
 .rdata$r
 .rdata$zzzdbg
@@ -85,7 +86,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174420Z0/
+231117184329Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -138,7 +139,6 @@
 <0E0N0W0\0a0h0V1a1 3)3A3j4
 <5=:=D=M=X=^=d=
 <<<C<r<
-<Aej6H_
 =B=J=s=}=
 =rIQU
 >#>,>5>:>?>F>
@@ -160,6 +160,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+GM~]s4
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -188,6 +189,7 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
+LS9dB
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
@@ -210,10 +212,10 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
-YZ.Oct
 Y__^[
 [K]taM?
 ]J<0"0i3
+]wi\8Yu
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -267,7 +269,6 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
-jl-')
 k0i0$
 l2|X/gGe
 m0k0$
@@ -278,6 +279,7 @@ memset
 modelNumber
 renderHeight
 renderWidth
+s4;0B_
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -291,6 +293,8 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+zf\T{
+{]#8`
 {un'%
 |Lu?c
 }LuHO

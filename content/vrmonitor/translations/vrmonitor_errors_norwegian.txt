@@ -782,11 +782,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Behandle tillegg"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam-klientbetaen påkrevd"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Denne SteamVR-betaoppdateringen har noen nye funksjoner som krever at Steam-klientbetaen er installert."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Nyeste Steam-klientbeta er påkrevd"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Steam-klientbetaen er nødvendig, eller må oppdateres, for å få de nyeste betafunksjonene i SteamVR."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Mer info"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/no/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Steam-klienten må oppdateres"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Du må oppdatere Steam-klienten for å kunne bruke all funksjonaliteten til SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-oppdatering"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR er blitt oppdatert til versjon %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Se endringer"

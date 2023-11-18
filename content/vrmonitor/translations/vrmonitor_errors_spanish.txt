@@ -782,11 +782,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Administrar complementos"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Se requiere la beta del cliente de Steam"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "La actualización de la beta de SteamVR tiene algunas características nuevas que requieren que la beta del cliente de Steam esté instalada."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Se requiere la beta más reciente del cliente de Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Necesitas instalar o actualizar la beta del cliente de Steam para tener acceso a las características más recientes de la beta de SteamVR."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Más información"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/en/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Es necesario actualizar el cliente de Steam"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Necesitas actualizar el cliente Steam para poder utilizar todas las funciones de SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Actualización de SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR se ha actualizado a la versión %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Ver qué ha cambiado"

@@ -779,11 +779,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "アドオンを管理"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steamベータクライアントが必要です"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "このSteamVRベータアップデートには、Steamベータクライアントのインストールを必要とする新機能がいくつか含まれています。"
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "最新のSteamベータクライアントが必要です"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "最新のSteamVRベータ機能を使用するには、Steamのベータクライアントをインストール、または更新する必要があります。"
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "詳細"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/ja/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Steamクライアントの更新が必要です"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "SteamVRのすべての機能を使用するには、Steamクライアントを更新する必要があります。"
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVRアップデート"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVRはバージョン%2にアップデートされました。"
 "Warning_DismissableWarning_SteamVRUpdated_Action" "変更点を表示"

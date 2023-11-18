@@ -1406,7 +1406,6 @@
  +D '
  - oH
  -c showpage
- -h97
  .XoO+@#$%&*=-;:>,<1234567890qwertyuipasdfghjklzxcvbnmMNBVCZASDFGHJKLPIUYTREWQ!~^/()_`'][{}|
  0@P`p
  10 cs `%s'
@@ -1713,7 +1712,6 @@
 #jPJS
 #}3Tt
 $ hh@
-$$O}~s
 $&[HY
 $/H,9h]	1	
 $4DTdt
@@ -1736,6 +1734,7 @@ $wtpt
 % it is displayed as grayscale.
 %!PS-Adobe-3.0
 %!PS-Adobe-3.0 EPSF-3.0
+%$F;.
 %% Display a color image.  The image is displayed in color on
 %% Postscript viewers or printers that support color, otherwise
 %% it is displayed as grayscale.
@@ -3720,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231031174640Z0/
+231117184552Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3910,6 +3909,7 @@ $wtpt
 6:d{h
 6A:T6
 6E87t
+6ErK+
 6I]Dc
 6MQ8u
 6OB,n_
@@ -4474,7 +4474,6 @@ $wtpt
 >es-8R
 >l-$Y
 >xB,$g4$
->y) X
 ? ????? ??? ??? ?? ??????? ??, ?? ????????? ?????????!
 ? apval? arb?z?.
 ? na h?be kn
@@ -5738,6 +5737,7 @@ C 9A u
 C 9D$$u
 C 9G u,
 C ;C s
+C B0L
 C H9C
 C H9P8
 C H9s
@@ -9368,6 +9368,7 @@ Jove xef, porti whisky amb quinze gla
 Jovencillo emponzo
 Js M@
 Junk after value string
+J{28h
 K H9K0u
 K H9MPu
 K SUVAUAVAWH
@@ -9861,6 +9862,7 @@ LATIN1
 LAUNCH
 LBLSIZE
 LBLSIZE=%.20g FORMAT='BYTE' TYPE='IMAGE' BUFSIZE=20000 DIM=2 EOL=0 RECSIZE=%.20g ORG='BSQ' NL=%.20g NS=%.20g NB=1 N1=0 N2=0 N3=0 N4=0 NBB=0 NLB=0 TASK='ImageMagick'
+LC2)V:R`
 LCHab
 LCHuv
 LC_ALL
@@ -10820,6 +10822,7 @@ Original Transmission Reference
 Originating Program
 Originator
 Oriya
+OrvzRU
 Oslash
 Osmanya
 Other Patient's ID's
@@ -10885,6 +10888,7 @@ Overrange Correction Used
 OverviewImage
 Owner Name
 OwrS=
+OyWNN
 P uMH
 P&15PM
 P'PqP
@@ -11754,6 +11758,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS53
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -12577,7 +12582,6 @@ SemiBold
 SemiCondensed
 SemiExpanded
 Senograph Type
-Senqc
 Sensitivity
 Separate/Image
 SeparateImage
@@ -14833,7 +14837,6 @@ aquamarine1
 aquamarine2
 aquamarine3
 aquamarine4
-ar)Ex
 arabic
 arapA+
 arapD
@@ -16455,7 +16458,6 @@ g-markup-error-quark
 g<gu_HcR
 g>Edh>G!i>
 g>ycx
-gVy(oT
 g[TNIEB?=:864310.-,+*)('&%$#""! 
 g_O=_O?_O>_O=_O=`P7\L9_[a}|
 g_array_append_vals
@@ -18078,7 +18080,6 @@ o?d#p?
 oD) f
 oD)0f
 oXiM?;)3)"%+!+/&:&*C))TN:hqRh
-o^^tl=
 o_fvIGV4^kQKQ5:;#88/8B/i
 oacute
 object %s %p finalized while still in-construction
@@ -21150,7 +21151,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~2D;A
 ~3HcKH
 ~5fff
-~=Ae|tA
 ~>fff
 ~@d}c
 ~BLcd$pM

@@ -1,4 +1,5 @@
 	!s99
+	4F1*?}
  %41g
  A_A^A\_^
  A_A^_
@@ -117,7 +118,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174238Z0/
+231117184103Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,7 +145,6 @@
 9D$DtfL9t$xt
 9E ukH
 <0:08
-<Ae+y*
 <P)9Y
 <unknown>
 =rIQU
@@ -170,6 +170,7 @@ A_A^A\_^[]
 A_A^^]
 AuthD
 Bellevue1
+C!zVXM
 C++/WinRT version:1.0.190111.3
 CD$@3
 CWinRTDisplay::GetDisplayModes
@@ -199,7 +200,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Dm;"Yz
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
@@ -255,12 +255,12 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
-OZCEx
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDST{@!8
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -276,7 +276,6 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T,"h/
 UVAUAWH
 UVAWH
 UWAVH
@@ -290,7 +289,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-Vi8?"Q
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -350,6 +348,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`a>Kr
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -368,14 +367,15 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
+dIy?XS
 dxgi.dll
-fIh#I="
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
+itFLxh
 jj@0HK4
 k0i0$
 l$ WH
@@ -388,7 +388,6 @@ memmove
 memset
 ntelD
 ole32.dll
-ozvw>
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -411,6 +410,7 @@ www.digicert.com1$0"
 |$0E3
 |$xMi
 |Lu?c
+|jsr\
 }LuHO
 ~qj#k"
 ~t&LN

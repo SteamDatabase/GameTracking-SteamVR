@@ -19,7 +19,6 @@ $Phdd
 %%.%dg
 %2.2X
 %8.8X
-%Xm.nW]
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -235,7 +234,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231031174327Z0/
+231117184229Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -295,6 +294,7 @@ $Phdd
 4^4c4i4r4
 4d4h4l4p4t4x4|4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4y)9y
 5 5*545?5G5N5V5_5f5q5w5~5
 5 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6
 5!5-535A5Q5]5
@@ -408,6 +408,7 @@ $Phdd
 :::e:
 ::LHB::%4.4X %s
 :?;\;a;h;o;v;
+:A1gE
 :D>}?
 :[;d;l;
 :j;q;
@@ -685,7 +686,6 @@ Execute '%s %s' failed (Error:%d)
 Execute Elevated '%s %s' failed (Error:%d)
 Existing Bootloader mode.
 Extended Error: %s, %s
-Ezn9_
 F ;G 
 F ;W$|
 F$;G$
@@ -796,6 +796,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
+N2W]R5
 Nonce:    %d
 ODFU Post
 OpenProcess
@@ -1196,7 +1197,6 @@ ntdll.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-pFl	&p
 print
 punct
 realloc
@@ -1234,7 +1234,6 @@ u!hd^
 u%;Q(t 
 u'VPj
 u)h|\
-u4)SX
 uCVj@
 ubh(d
 umRQh
@@ -1262,7 +1261,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-yN(Hd
 {L?uI
 {un'%
 |	9A 

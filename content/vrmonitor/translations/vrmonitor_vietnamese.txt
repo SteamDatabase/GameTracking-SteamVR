@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Xung đột trạm theo dõi (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR ở chế độ an toàn (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Yêu cầu cài đặt Beta phần mềm Steam (0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Yêu cầu cập nhật phần mềm Steam (0x80000000000)"
 
 "DismissableWarning_Detected" "Đã phát hiện"
 "DismissableWarning_TimeFormat" "h:mm:ss AP"

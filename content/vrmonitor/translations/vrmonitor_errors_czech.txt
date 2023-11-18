@@ -802,11 +802,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Spravovat doplňky"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Je vyžadována beta verze klienta služby Steam"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Tato beta verze režimu SteamVR nabízí některé nové funkce, které vyžadují beta verzi klienta služby Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Je vyžadována nejnovější beta verze klienta služby Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Pro získání nejnovějších funkcí režimu SteamVR je vyžadována beta verze klienta služby Steam, případně její aktualizace."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Více informací"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/cs/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Je vyžadována aktualizace klienta služby Steam"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Pro získání všech funkcí režimu SteamVR musíte aktualizovat svého klienta služby Steam."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Aktualizace režimu SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "Režim SteamVR byl aktualizován na verzi %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Prohlédnout si změny"

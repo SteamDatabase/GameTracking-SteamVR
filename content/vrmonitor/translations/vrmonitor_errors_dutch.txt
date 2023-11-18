@@ -799,11 +799,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Add-ons beheren"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Bèta van de Steam-client vereist"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Deze update van de bèta van SteamVR heeft enkele nieuwe functies waarvoor de bèta van de Steam-client geïnstalleerd moet zijn."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Laatste bètaversie van de Steam-client vereist"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Je moet de bètaversie van de Steam-client installeren of bijwerken om de laatste SteamVR-bètafuncties te kunnen gebruiken."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Meer informatie"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/nl/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Update van de Steam-client vereist"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Je moet je Steam-client bijwerken om gebruik te kunnen maken van alle functies van SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-update"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR is bijgewerkt naar versie %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Wijzigingen bekijken"

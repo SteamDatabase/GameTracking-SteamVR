@@ -35,6 +35,7 @@
 %%.%dg
 %2.2X
 %8.8X
+%lwxV#
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -228,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174353Z0/
+231117184301Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -249,7 +250,6 @@
 6I]Dc
 6OB,n_
 70503
-7XL'D|
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -258,6 +258,7 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
 8_^][
+9DF]vz
 9\u-H
 9\u4H
 9sdu	@8s
@@ -268,7 +269,6 @@
 <0:08
 <= Exiting Context: (%.2f seconds)
 <Bu'H
-<DM"-
 ======================
 ==============================
 => Entering Context
@@ -620,7 +620,6 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
-E1 .lK
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -702,6 +701,7 @@ Invalid address %s.
 Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
+I}'OA
 J>@G_
 K32EnumProcessModules
 K32EnumProcesses
@@ -784,7 +784,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
-O&y9,
 O(H9N(|
 OXL9OPt
 OpenProcess
@@ -810,6 +809,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSIC
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1045,6 +1045,7 @@ Windows Vista
 Windows XP
 WriteFile
 XA]A\_^
+XDCR*3
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1238,11 +1239,11 @@ memmove
 memset
 need dictionary
 ntelD
-o@*h#
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
+p]DE9
 print
 punct
 r*=/N
@@ -1314,6 +1315,7 @@ tools
 u D8u
 u"fD;
 u'fD;
+u4~an
 uHfC;
 unknown compression method
 unknown zip result code
@@ -1337,7 +1339,7 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
-{fb#(
+zAG()g
 {un'%
 {x\u!H
 {|?uWH
@@ -1366,5 +1368,7 @@ xdigit
 |$xH;
 |Lu?c
 }LuHO
+~5|Cl
 ~qj#k"
 ~t&LN
+~v,U 

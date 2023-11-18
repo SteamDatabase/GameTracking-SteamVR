@@ -759,11 +759,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Gestionează addonurile"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Este necesară versiunea beta a clientului Steam"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Această actualizare a versiunii beta pentru SteamVR are câteva caracteristici noi care necesită instalarea versiunii beta a clientului Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Este necesară ultima versiune beta a clientului Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Versiunea beta a clientului Steam este necesară sau trebuie actualizată pentru a obține acces la cele mai recente funcții ale SteamVR Beta."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Mai multe informații"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/ro/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Este necesară actualizarea clientului Steam"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Trebuie să-ți actualizezi clientul Steam pentru a putea utiliza toate funcțiile SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Actualizare pentru SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR a fost actualizat la versiunea %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Vezi care au fost modificările"

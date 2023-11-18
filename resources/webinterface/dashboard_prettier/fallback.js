@@ -3,7 +3,7 @@
   "use strict";
   var e,
     t = {
-      3884: (e, t, r) => {
+      1073: (e, t, r) => {
         r.d(t, {
           iC: () => fe,
           s_: () => be,
@@ -208,7 +208,7 @@
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseInt(r);
         }
-        function E(e, t) {
+        function O(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0)
             return (
@@ -216,14 +216,14 @@
               (r.length > 0 && 0 != parseInt(r) && !isNaN(parseInt(r)))
             );
         }
-        function F(e, t) {
+        function T(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return r;
         }
-        function O(e, t) {
-          return z(F(e, t));
+        function E(e, t) {
+          return z(T(e, t));
         }
-        function T(e, t) {
+        function F(e, t) {
           let r = { type: e, properties: {} };
           return (
             t.id && (r.properties.id = z(t.id)),
@@ -239,28 +239,28 @@
                 o = null;
               switch (t.nodeName.toUpperCase()) {
                 case "VSG-TRANSFORM":
-                  (o = T("transform", t)),
+                  (o = F("transform", t)),
                     (o.properties.translation = x(t, "translation")),
                     (o.properties.rotation = x(t, "rotation")),
                     (o.properties.scale = x(t, "scale")),
                     (o.properties["curvature-pitch"] = N(t, "curvature-pitch")),
-                    (o.properties["transform-path"] = F(t, "transform-path")),
-                    (o.properties["invert-parent-panel-pitch"] = E(
+                    (o.properties["transform-path"] = T(t, "transform-path")),
+                    (o.properties["invert-parent-panel-pitch"] = O(
                       t,
                       "invert-parent-panel-pitch",
                     )),
-                    (o.properties["parent-path"] = F(t, "parent-path")),
-                    (o.properties["parent-origin"] = F(t, "parent-origin")),
-                    (o.properties["parent-id"] = O(t, "parent-id"));
+                    (o.properties["parent-path"] = T(t, "parent-path")),
+                    (o.properties["parent-origin"] = T(t, "parent-origin")),
+                    (o.properties["parent-id"] = E(t, "parent-id"));
                   break;
                 case "VSG-TRACKING-STATE-VISIBILITY":
-                  (o = T("trackingstatevisibility", t)),
-                    (o.properties["visible-0dof"] = E(t, "visible-0dof")),
-                    (o.properties["visible-3dof"] = E(t, "visible-3dof")),
-                    (o.properties["visible-6dof"] = E(t, "visible-6dof"));
+                  (o = F("trackingstatevisibility", t)),
+                    (o.properties["visible-0dof"] = O(t, "visible-0dof")),
+                    (o.properties["visible-3dof"] = O(t, "visible-3dof")),
+                    (o.properties["visible-6dof"] = O(t, "visible-6dof"));
                   break;
                 case "VSG-ELASTIC-HEAD-TRANSFORM":
-                  (o = T("elasticheadtransform", t)),
+                  (o = F("elasticheadtransform", t)),
                     (o.properties["start-angle-threshold"] = N(
                       t,
                       "start-angle-threshold",
@@ -284,35 +284,35 @@
                       t,
                       "max-angular-velocity",
                     )),
-                    (o.properties["lock-to-horizon"] = E(t, "lock-to-horizon")),
+                    (o.properties["lock-to-horizon"] = O(t, "lock-to-horizon")),
                     (o.properties["translation-behavior"] = B(
                       t,
                       "translation-behavior",
                     ));
                   break;
                 case "VSG-LINE":
-                  (o = T("line", t)),
-                    (o.properties["target-id"] = O(t, "target-id")),
+                  (o = F("line", t)),
+                    (o.properties["target-id"] = E(t, "target-id")),
                     (o.properties.thickness = N(t, "thickness")),
                     (o.properties["start-buffer"] = N(t, "start-buffer")),
                     (o.properties["end-buffer"] = N(t, "end-buffer"));
                   break;
                 case "VSG-LINE-CONSTRAINED-TRANSFORM":
-                  (o = T("line-constrained-transform", t)),
-                    (o.properties["target-id"] = O(t, "target-id")),
-                    (o.properties["source-id"] = O(t, "source-id")),
+                  (o = F("line-constrained-transform", t)),
+                    (o.properties["target-id"] = E(t, "target-id")),
+                    (o.properties["source-id"] = E(t, "source-id")),
                     (o.properties["source-distance"] = N(t, "source-distance")),
                     (o.properties["target-limit"] = N(t, "target-limit"));
                   break;
                 case "VSG-CALLOUT-TRANSFORM":
-                  (o = T("callout-transform", t)),
+                  (o = F("callout-transform", t)),
                     (o.properties.offset = x(t, "offset"));
                   break;
                 case "VSG-HEAD-FACING-TRANSFORM":
-                  o = T("head-facing-transform", t);
+                  o = F("head-facing-transform", t);
                   break;
                 case "VSG-PIN-TO-VIEW-TRANSFORM":
-                  (o = T("pin-to-view-transform", t)),
+                  (o = F("pin-to-view-transform", t)),
                     (o.properties["offscreen-z-depth"] = N(
                       t,
                       "offscreen-z-depth",
@@ -324,16 +324,16 @@
                     ));
                   break;
                 case "VSG-MANIPULATION-TRANSFORM":
-                  (o = T("manipulation-transform", t)),
-                    (o.properties["is-moving"] = E(t, "is-moving")),
-                    (o.properties["parent-path"] = F(t, "parent-path")),
+                  (o = F("manipulation-transform", t)),
+                    (o.properties["is-moving"] = O(t, "is-moving")),
+                    (o.properties["parent-path"] = T(t, "parent-path")),
                     (o.properties.translation = x(t, "translation")),
                     (o.properties.rotation = x(t, "rotation")),
                     (o.properties.scale = x(t, "scale"));
                   break;
                 case "VSG-GRAB-TRANSFORM":
-                  (o = T("grab-transform", t)),
-                    (o.properties["parent-path"] = F(t, "parent-path")),
+                  (o = F("grab-transform", t)),
+                    (o.properties["parent-path"] = T(t, "parent-path")),
                     (o.properties.translation = x(t, "translation")),
                     (o.properties.rotation = x(t, "rotation")),
                     (o.properties.scale = x(t, "scale"));
@@ -682,7 +682,7 @@
             return "base";
           }
           createSgNode(e) {
-            return T(this.getNodeType(), e);
+            return F(this.getNodeType(), e);
           }
           getCurrentRootElement() {
             return this.m_domRef.current;
@@ -1191,8 +1191,7 @@
                 this.props.hide_lasermouse_when_clicking),
               (l.properties["make-overlays-interactive-if-visible"] =
                 this.props.make_overlays_interactive_if_visible),
-              (l.properties["interaction-dismisses-keyboard"] =
-                this.props.interaction_dismisses_keyboard),
+              (l.properties["is-grab-handle"] = this.props.is_grab_handle),
               (l.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
               (l.properties.origin = (function (e) {
                 if (e) return [e.x, e.y];
@@ -1675,6 +1674,7 @@
                 if (
                   ((r.properties.width = this.props.width),
                   (r.properties.height = this.props.height),
+                  (r.properties["target-id"] = this.props.target_id),
                   (r.properties["near-z"] = this.props["near-z"]),
                   (r.properties["far-z"] = this.props["far-z"]),
                   (r.properties.debug = this.props.debug),
@@ -2200,6 +2200,30 @@
                 super(e), super.setBuildNodeOverride(this.buildNode);
               }
               getNodeType() {
+                return "resize-handle";
+              }
+              buildNode(e, t) {
+                const r = this.createSgNode(t);
+                return (
+                  (r.properties["target-id"] = this.props.target_id),
+                  (r.properties["min-target-scale"] =
+                    this.props.min_target_scale),
+                  (r.properties["max-target-scale"] =
+                    this.props.max_target_scale),
+                  [e, r]
+                );
+              }
+            }.prototype,
+            "buildNode",
+            null,
+          ),
+          (0, i.gn)(
+            [o.ZP],
+            class extends Y {
+              constructor(e) {
+                super(e), super.setBuildNodeOverride(this.buildNode);
+              }
+              getNodeType() {
                 return "videocapturequad";
               }
               buildNode(e, t) {
@@ -2207,6 +2231,7 @@
                 return (
                   (r.properties.width = this.props.width),
                   (r.properties.height = this.props.height),
+                  (r.properties["target-id"] = this.props.target_id),
                   (r.properties["near-z"] = this.props["near-z"]),
                   (r.properties["far-z"] = this.props["far-z"]),
                   (r.properties.debug = this.props.debug),
@@ -2274,7 +2299,7 @@
           o = r(7294),
           n = r(3935),
           s = r(4285),
-          a = r(3884),
+          a = r(1073),
           l = r(7062),
           d = r(3568),
           p = r(8155);
@@ -2616,4 +2641,4 @@
   var o = i.O(void 0, [968, 683], () => i(844));
   o = i.O(o);
 })();
-//# sourceMappingURL=fallback.js.map?v=c3d5c5c15983677eb514
+//# sourceMappingURL=fallback.js.map?v=3962d00169ad6441fdf7

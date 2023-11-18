@@ -46,6 +46,11 @@
 	            box-shadow var(--settings-control-hover-fade-duration);
 }
 
+.ButtonControl.LargeIcon
+{
+	padding: calc( var(--settings-control-button-min-padding-v) * 0.5 ) calc( var(--settings-control-button-min-padding-h) - calc( var(--settings-control-button-min-padding-v) * 0.5 ) );
+}
+
 .ButtonControl:not(.Disabled):hover
 {
 	background-color: var(--settings-control-hover-background);
@@ -1138,6 +1143,27 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 }
 
 .GrabHandleBar.ForceActive {
+	background-color: #ffffff;
+}
+
+.ResizeHandleBar {
+	width: 10px;
+	height: 280px;
+	background-color: var(--dashboard-control-bar-button-color-b);
+	border-radius: 20px;
+	transition: background-color var(--settings-control-hover-fade-duration);
+}
+
+.ResizeHandleButton {
+	pointer-events: all;
+	padding: 30px;
+}
+
+.ResizeHandleButton:hover .ResizeHandleBar {
+	background-color: #ffffff;
+}
+
+.ResizeHandleBar.ForceActive {
 	background-color: #ffffff;
 }
 

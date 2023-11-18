@@ -802,11 +802,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Hantera tillägg"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steams klientbeta krävs"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Denna SteamVR-betauppdatering har några nya funktioner som kräver att Steams klientbeta är installerad."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steams senaste klientbeta krävs"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Steams klientbeta krävs eller så behöver den uppdateras för att det ska gå att få de senaste betafunktionerna i Steam-VR."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Mer information"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/sv/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Uppdatering av Steam-klienten krävs"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Du måste uppdatera Steam-klienten för att kunna använda alla funktioner i SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-uppdatering"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR har uppdaterats till version %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Se vad som ändrats"

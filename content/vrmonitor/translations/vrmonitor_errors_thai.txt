@@ -800,11 +800,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "จัดการส่วนเสริม"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "จำเป็นต้องใช้ร่วมกับไคลเอนต์ Steam เบต้า"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "การอัปเดต SteamVR เบต้าครั้งนี้มีคุณสมบัติใหม่ ๆ บางอย่างที่ทำให้จำเป็นต้องติดตั้งไคลเอนต์ Steam เบต้า"
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "ต้องใช้ร่วมกับไคลเอนต์ Steam เบต้าล่าสุด"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "ต้องใช้ไคลเอนต์ Steam เบต้าหรือต้องได้รับการอัปเดตเพื่อให้ SteamVR เบต้ามีคุณสมบัติล่าสุด"
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "ข้อมูลเพิ่มเติม"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "ต้องอัปเดตไคลเอนต์ Steam"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "คุณต้องอัปเดตไคลเอนต์ Steam ของคุณเพื่อใช้ SteamVR ที่มีฟังก์ชันการทำงานเต็มรูปแบบ"
 "Warning_DismissableWarning_SteamVRUpdated_Header" "อัปเดต SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR ได้รับการอัปเดตเป็นเวอร์ชัน %2"
 "Warning_DismissableWarning_SteamVRUpdated_Action" "ดูว่ามีอะไรเปลี่ยนแปลง"

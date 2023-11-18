@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Conflito de estações-base (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR em modo de segurança (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Requer versão beta da aplicação Steam (0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Requer atualização da aplicação Steam (0x80000000000)"
 
 "DismissableWarning_Detected" "Detetado"
 "DismissableWarning_TimeFormat" "h:mm"

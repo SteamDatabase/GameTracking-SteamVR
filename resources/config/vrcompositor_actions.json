@@ -76,6 +76,10 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/lasermouse/in/MiddleClick",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/lasermouse/in/LockMousePosition",
       "type": "boolean"
     },

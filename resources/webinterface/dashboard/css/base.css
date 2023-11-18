@@ -530,6 +530,12 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
 	margin: auto;
 }
 
+.ButtonControl.WithIcon.LargeIcon > .Icon
+{
+	width: 1.5em;
+	height: 1.5em;
+}
+
 .ButtonControl.WithIcon > .Icon path
 {
 	fill: var(--text-color);

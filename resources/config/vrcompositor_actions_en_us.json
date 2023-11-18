@@ -11,6 +11,7 @@
 
 	"/actions/lasermouse/in/leftclick": "Left Mouse Click",
 	"/actions/lasermouse/in/rightclick": "Right Mouse Click",
+	"/actions/lasermouse/in/middleclick": "Middle Mouse Click",
 	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "Go Home",
 	"/actions/lasermouse/in/back": "Go Back",

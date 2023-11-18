@@ -226,6 +226,24 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/middleclick"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/middleclick"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/thumbstick"
             }
          ]
       },

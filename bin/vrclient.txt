@@ -4091,8 +4091,8 @@
  puts
  putwc
  qsort
- r C.1860.370717
- r C.1863.370728
+ r C.1860.370819
+ r C.1863.370830
  r C.427.290275
  r CSWTCH.111
  r CSWTCH.214
@@ -5651,15 +5651,12 @@
  t .L11545
  t .L11561
  t .L116
- t .L1166
- t .L1167
- t .L1169
  t .L117
- t .L1170
  t .L1171
  t .L1172
  t .L1173
  t .L1174
+ t .L1175
  t .L1176
  t .L1177
  t .L1178
@@ -19813,7 +19810,7 @@
  t GetApplicationStringPropertyFromManifest(vr::EVRApplicationProperty, CVRMsg_ApplicationInfo_Manifest const&, vr::EVRApplicationError*, std::string&)
  t GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0]
  t GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0] [clone .cold]
- t GetBestKeyboardImplementation(VRSystemLayerState_t*)
+ t GetBestKeyboardImplementation(VRSystemLayerState_t const*)
  t GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&)
  t GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t GetCommandOutput(std::string const&, std::string*, std::string*)
@@ -19849,7 +19846,7 @@
  t GetKeyboardOverlay(VRSystemLayerState_t*, vr::EVROverlayError*)
  t GetKeyboardOverlayHandle(VRSystemLayerState_t const*)
  t GetKeyboardOverlayIndex(VRSystemLayerState_t const*, vr::EVROverlayError*)
- t GetKeyboardStatus(VRSystemLayerState_t*, bool*, vr::EKeyboardFlags*)
+ t GetKeyboardStatus(VRSystemLayerState_t const*, bool*, vr::EKeyboardFlags*)
  t GetLinuxBaseManifestPath()
  t GetLinuxBaseManifestPath() [clone .cold]
  t GetManifestPath()
@@ -29862,6 +29859,8 @@
  t vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
  t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int)
  t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long long, bool*)
+ t vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long long, bool*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*)
  t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetKeyboardOwnerOverlay(unsigned long long*)
@@ -29880,6 +29879,8 @@
  t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long long)
  t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long long) [clone .cold]
  t vr::CVROverlayInternalLatest::GetPassthroughPortalEnabled()
+ t vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const
+ t vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const [clone .cold]
  t vr::CVROverlayInternalLatest::GetRecommendedOverlayRenderQuality()
  t vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long long)
  t vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long long) [clone .cold]

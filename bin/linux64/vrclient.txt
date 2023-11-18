@@ -4320,8 +4320,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1844.369486
- r C.1847.369497
+ r C.1844.369588
+ r C.1847.369599
  r C.413.290188
  r CSWTCH.107
  r CSWTCH.16
@@ -7771,6 +7771,8 @@
  t CSxrInstance::FetchVrEvents() [clone .cold]
  t CSxrInstance::GetEnvironmentBlendModes(XrViewConfigurationType)
  t CSxrInstance::GetExtensionsAvailable()
+ t CSxrInstance::GetRuntimeName()
+ t CSxrInstance::GetRuntimeName() [clone .cold]
  t CSxrInstance::GetSystemName()
  t CSxrInstance::GetSystemName() [clone .cold]
  t CSxrInstance::GetViewConfigurationTypeSupport(XrViewConfigurationType)
@@ -7784,6 +7786,7 @@
  t CSxrInstance::Init()
  t CSxrInstance::Init() [clone .cold]
  t CSxrInstance::InitExtensions()
+ t CSxrInstance::InitExtensions() [clone .cold]
  t CSxrInstance::InitSupportedFeatures()
  t CSxrInstance::InitSupportedFeatures() [clone .cold]
  t CSxrInstance::IsDisplayTimeValid(long)
@@ -7797,6 +7800,7 @@
  t CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >)
  t CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >) [clone .cold]
  t CSxrInstance::RememberSuggestedBindings(unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&&)
+ t CSxrInstance::ShouldPresentMetaCompatibility()
  t CSxrInstance::StringToPath(std::string, unsigned long&)
  t CSxrInstance::StringToPath(std::string, unsigned long&) [clone .cold]
  t CSxrInstance::TransitionToAppType(vr::EVRApplicationType)
@@ -7885,6 +7889,7 @@
  t CSxrSwapchainGLOpenVR::CSxrSwapchainGLOpenVR(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingGLOpenVR*)
  t CSxrSwapchainGLOpenVR::EndFrame()
  t CSxrSwapchainGLOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+ t CSxrSwapchainGLOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
  t CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
  t CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*) [clone .cold]
  t CSxrSwapchainGLOpenVR::GetPresentableTextureHandle(void**)
@@ -7903,6 +7908,7 @@
  t CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*) [clone .cold]
  t CSxrSwapchainPrism::GetCompositionSwapchain()
  t CSxrSwapchainPrism::GetCurrentImage()
+ t CSxrSwapchainPrism::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
  t CSxrSwapchainPrism::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
  t CSxrSwapchainPrism::GetPresentableTextureHandle(void**)
  t CSxrSwapchainPrism::GetSwapchainId()
@@ -7918,6 +7924,7 @@
  t CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*) [clone .cold]
  t CSxrSwapchainVulkanOpenVR::CSxrSwapchainVulkanOpenVR(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingVulkanOpenVR*)
  t CSxrSwapchainVulkanOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+ t CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
  t CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
  t CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*) [clone .cold]
  t CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle(void**)
@@ -18960,7 +18967,7 @@
  t GetApplicationStringPropertyFromManifest(vr::EVRApplicationProperty, CVRMsg_ApplicationInfo_Manifest const&, vr::EVRApplicationError*, std::string&)
  t GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0]
  t GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0] [clone .cold]
- t GetBestKeyboardImplementation(VRSystemLayerState_t*)
+ t GetBestKeyboardImplementation(VRSystemLayerState_t const*)
  t GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&)
  t GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t GetCommandOutput(std::string const&, std::string*, std::string*)
@@ -19007,7 +19014,7 @@
  t GetKeyboardOverlay(VRSystemLayerState_t*, vr::EVROverlayError*)
  t GetKeyboardOverlayHandle(VRSystemLayerState_t const*)
  t GetKeyboardOverlayIndex(VRSystemLayerState_t const*, vr::EVROverlayError*)
- t GetKeyboardStatus(VRSystemLayerState_t*, bool*, vr::EKeyboardFlags*)
+ t GetKeyboardStatus(VRSystemLayerState_t const*, bool*, vr::EKeyboardFlags*)
  t GetLinuxBaseManifestPath()
  t GetLinuxBaseManifestPath() [clone .cold]
  t GetManifestPath()
@@ -19019,8 +19026,8 @@
  t GetNamespacingUid() [clone .cold]
  t GetNextEventId()
  t GetNotificationImageMemoryName(unsigned int, char*, unsigned int)
- t GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*)
- t GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+ t GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0]
+ t GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0] [clone .cold]
  t GetOpenGLFunctions() [clone .part.0]
  t GetOpenXrActiveRuntimePath()
  t GetOpenXrActiveRuntimePath() [clone .cold]
@@ -24647,6 +24654,7 @@
  t non-virtual thunk to CSxrSwapchainGLOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
  t non-virtual thunk to CSxrSwapchainGLOpenVR::EndFrame()
  t non-virtual thunk to CSxrSwapchainGLOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+ t non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
  t non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
  t non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableTextureHandle(void**)
  t non-virtual thunk to CSxrSwapchainGLOpenVR::Init()
@@ -24656,6 +24664,7 @@
  t non-virtual thunk to CSxrSwapchainPrism::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
  t non-virtual thunk to CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
  t non-virtual thunk to CSxrSwapchainPrism::GetCompositionSwapchain()
+ t non-virtual thunk to CSxrSwapchainPrism::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
  t non-virtual thunk to CSxrSwapchainPrism::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
  t non-virtual thunk to CSxrSwapchainPrism::GetPresentableTextureHandle(void**)
  t non-virtual thunk to CSxrSwapchainPrism::GetSwapchainId()
@@ -24665,6 +24674,7 @@
  t non-virtual thunk to CSxrSwapchainPrism::~CSxrSwapchainPrism()
  t non-virtual thunk to CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
  t non-virtual thunk to CSxrSwapchainVulkanOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+ t non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
  t non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
  t non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle(void**)
  t non-virtual thunk to CSxrSwapchainVulkanOpenVR::Init()
@@ -28911,6 +28921,7 @@
  t sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
  t sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) [clone .cold]
  t sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
+ t sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*) [clone .cold]
  t sxr_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*)
  t sxr_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*)
  t sxr_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*)
@@ -29801,6 +29812,8 @@
  t vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
  t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int)
  t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long, bool*)
+ t vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long, bool*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*)
  t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetKeyboardOwnerOverlay(unsigned long*)
@@ -29819,6 +29832,8 @@
  t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long)
  t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long) [clone .cold]
  t vr::CVROverlayInternalLatest::GetPassthroughPortalEnabled()
+ t vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const
+ t vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const [clone .cold]
  t vr::CVROverlayInternalLatest::GetRecommendedOverlayRenderQuality()
  t vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long)
  t vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long) [clone .cold]

@@ -800,11 +800,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Διαχείριση προσθέτων"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Απαιτείται η έκδοση βήτα της εφαρμογής Steam"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Αυτή η έκδοση βήτα του SteamVR έχει μερικά νέα χαρακτηριστικά που απαιτούν να είναι εγκατεστημένη η έκδοση βήτα της εφαρμογής Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Απαιτείται η πιο πρόσφατη έκδοση βήτα της εφαρμογής Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Απαιτείται η έκδοση βήτα της εφαρμογής Steam ή ενημέρωσή της, για να λάβετε τα νεότερα χαρακτηριστικά της έκδοσης βήτα του SteamVR."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Περισσότερες πληροφορίες"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/el/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Απαιτείται ενημέρωση της εφαρμογής Steam"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Πρέπει να ενημερώσετε την εφαρμογή Steam σας για να αξιοποιήσετε την πλήρη λειτουργικότητα του SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Ενημέρωση SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "Το SteamVR ενημερώθηκε στην έκδοση %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Δείτε τι άλλαξε"

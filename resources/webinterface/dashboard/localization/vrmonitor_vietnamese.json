@@ -365,7 +365,7 @@
 	"Settings_Drivers_Unblock": "Mở chặn",
 	"Settings_Drivers_UnblockAll": "Mở chặn tất cả",
 	"Settings_Drivers_UnblockAllTip": "LƯU Ý: khuyến nghị nên mở chặn và kiểm tra từng tiện ích một.",
-	"Settings_Drivers_SomeBlocked": "Một số tiện ích SteamVR đã tự động bị chặn vì có sự cố treo/sập gần đây.",
+	"Settings_Drivers_SomeBlocked": "Một số tiện ích SteamVR đã tự động bị chặn vì có sự cố ngắt đột ngột gần đây.",
 	"Settings_CurrentOpenXRRuntime_None": "Không",
 	"Settings_CurrentOpenXRRuntime": "Thời gian chạy OpenXR hiện tại:",
 	"Settings_SetAsOpenXRRuntime": "Đặt SteamVR làm thời gian chạy OpenXR",

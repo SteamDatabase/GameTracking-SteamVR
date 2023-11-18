@@ -799,11 +799,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Eklentileri Yönet"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam Beta İstemcisi Gerekli"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "SteamVR beta güncellemesi, Steam beta istemcisinin yüklü olmasını gerektiren bazı yeni özelliklere sahip."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Son Steam Beta İstemcisi Gerekli"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Son SteamVR beta özelliklerini kullanmak için Steam'in beta istemcisi veya mevcut istemcinin güncellenmesi gereklidir."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Daha fazla bilgi"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/en/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Steam İstemcisi Güncellemesi Gerekli"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "SteamVR'ın tüm işlevlerinden yararlanmak için Steam istemcinizi güncellemelisiniz."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR Güncellemesi"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR %2 sürümüne güncellendi."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Değişikliklere göz atın"

@@ -8,6 +8,7 @@ shopt -s failglob
 set -u
 
 BASENAME="$(basename "$0")"
+ROOT="$(cd "$(dirname "$0")" && echo $PWD)"
 
 export _ROOM_SETUP_LOG="${_ROOM_SETUP_LOG:-/tmp/SteamVRRoomSetup.log}"
 
@@ -24,13 +25,21 @@ fi
 # Require LDLP scout runtime environment
 # SteamVR is launching us via steam-runtime-launch-client, which is runtime neutral, so we are expected to have to do this
 if [ -n "${STEAM_RUNTIME-}" ]; then
-    log "Detected scout LDLP runtime."
-    # continue
+	log "Detected scout LDLP runtime."
+	# continue
 else
-    log "Executing under scout LDLP runtime."
-    log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
-    exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
-    # unreachable
+	log "Relaunch under scout LDLP runtime."
+	log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+	exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+	# unreachable
+fi
+
+if [ -z "${STEAMVR_VRENV-}" ]; then
+	log "Relaunch under vrenv."
+	VRBINDIR=${ROOT}/../../../runtime/bin
+	log exec "$VRBINDIR/vrenv.sh" "$0" "$@"
+	exec "$VRBINDIR/vrenv.sh" "$0" "$@"
+	# unreachable
 fi
 
 GAMEROOT="$(cd "$(dirname "$0")" && echo $PWD)"

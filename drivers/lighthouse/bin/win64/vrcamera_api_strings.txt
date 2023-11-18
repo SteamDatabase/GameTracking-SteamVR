@@ -31,7 +31,6 @@
  H3E H3E
  Height: 
  Width: 
- r	@@B
  s2E3
  sIE3
 !T$(H!T$ 
@@ -76,7 +75,6 @@ $< t6<$t,<+t"<vt
 )D$PH
 )D$PM
 )D$`I
-)`Tp$
 )t$ A
 )t$ H
 )t$ I
@@ -380,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231031174338Z0/
+231117184246Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -401,7 +399,6 @@ $< t6<$t,<+t"<vt
 6I]Dc
 6OB,n_
 70503
-7b%=KV
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8-uCH
 8-uGH
@@ -416,7 +413,6 @@ $< t6<$t,<+t"<vt
 8\$0up
 8_	u7E3
 8_^][
-8xo+#I
 91~/E3
 9D$(|
 9D$(}k
@@ -451,12 +447,14 @@ $< t6<$t,<+t"<vt
 <:u/H
 <:u3H
 <:wuH
+<E 5p&
 <HthH
 <xu<D
 <}wYI
 =rIQU
 >0<0:
 >Mp$d
+?3DK(z?
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -1126,7 +1124,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS*
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1432,7 +1429,6 @@ fseek
 fsetpos
 function not supported
 fwrite
-g2}Gh
 generic
 graph
 h< t <$
@@ -1549,7 +1545,6 @@ protocol error
 protocol not supported
 punct
 q(9qD~[E3
-qjSwx
 r	uAD;d$$u:
 rBu/H
 rLp>B
@@ -1723,7 +1718,6 @@ yH;YXtl
 |$rfD
 |Lu?c
 }LuHO
-~'p/P
 ~`D8I!t-
 ~qj#k"
 ~t&LN

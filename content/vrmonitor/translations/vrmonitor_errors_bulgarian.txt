@@ -782,11 +782,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Управляване на добавки"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Изисква се бета Steam клиент"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Това бета обновление на SteamVR разполага с някои нови характеристики, които изискват инсталиране на бета Steam клиента."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Изисква се най-скорошният бета Steam клиент"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Изисква се бета Steam клиентът или е нужно да бъде обновен, с цел да получите най-новите характеристики на SteamVR бетата."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Още инф."
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/bg/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Изисква се обновяване на Steam клиента"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Трябва да обновите своя Steam клиент, с цел да използвате пълната функционалност на SteamVR."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR обновление"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR беше обновено до версия %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Вижте какво е променено"

@@ -16,6 +16,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+$4P($
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -34,6 +35,7 @@
 )t$ H
 )t$0H
 )t$@H
+*3k]/
 *uXI;
 +Xt@(
 +o'q)}
@@ -123,6 +125,7 @@
 .data
 .data$r
 .edata
+.f?w0
 .idata$2
 .idata$3
 .idata$4
@@ -181,7 +184,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031175140Z0/
+231117185048Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -195,7 +198,6 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5e4JO
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -210,6 +212,8 @@
 < t+<
 </u#H
 <0:08
+<0y%.
+<GC|D
 <unknown>
 =rIQU
 >0<0:
@@ -608,7 +612,6 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
-KYb>u
 K}*n:	
 L$ E3
 L$ H;
@@ -632,7 +635,6 @@ L;8u6H
 L?n(Zy&
 LUnable to create graphics capture item for window.
 LeaveCriticalSection
-Lh8,[
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
@@ -668,7 +670,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS=b
+RSDSH
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -678,7 +680,6 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S(vfD
 S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
@@ -691,7 +692,6 @@ SVWATAUAVAWH
 SVWAVAWH
 SVWAVH
 SWAWH
-SZ}k|X@N
 SendInput
 SendInput failed: %d events inserted, error code = %s
 Set thread %p priority to: %d
@@ -798,9 +798,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-Xx"eH
 Y9"SD
-[K YT
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -901,6 +899,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c?QG8X
 cs_cs
 czech
 d$`H=
@@ -1052,7 +1051,6 @@ title
 tolower
 tr_tr
 turkish
-u"P1(
 ua_ua
 ukranian
 update_debug_info
@@ -1080,6 +1078,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+wYlR]X
 window_view_created
 window_view_destroyed
 windows

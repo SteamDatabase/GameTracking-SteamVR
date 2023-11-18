@@ -3,7 +3,7 @@
   "use strict";
   var e,
     t = {
-      3884: (e, t, r) => {
+      1073: (e, t, r) => {
         r.d(t, {
           Nv: () => n,
           Oq: () => w.Oq,
@@ -12,7 +12,7 @@
           zq: () => d,
           Yg: () => ie,
           Z9: () => u,
-          qC: () => h,
+          qC: () => m,
           jm: () => Ce,
           x1: () => Re,
           k7: () => Z,
@@ -186,8 +186,8 @@
           p,
           c,
           u,
-          m,
           h,
+          m,
           _,
           g,
           v,
@@ -212,11 +212,11 @@
             if (e.length > 0) return e;
           }
         }
-        function k(e, t) {
+        function N(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseFloat(r);
         }
-        function N(e, t) {
+        function k(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseInt(r);
         }
@@ -239,7 +239,7 @@
           let r = { type: e, properties: {} };
           return (
             t.id && (r.properties.id = q(t.id)),
-            (r.properties.sgid = N(t, "sgid")),
+            (r.properties.sgid = k(t, "sgid")),
             r
           );
         }
@@ -255,7 +255,7 @@
                     (o.properties.translation = T(t, "translation")),
                     (o.properties.rotation = T(t, "rotation")),
                     (o.properties.scale = T(t, "scale")),
-                    (o.properties["curvature-pitch"] = k(t, "curvature-pitch")),
+                    (o.properties["curvature-pitch"] = N(t, "curvature-pitch")),
                     (o.properties["transform-path"] = F(t, "transform-path")),
                     (o.properties["invert-parent-panel-pitch"] = E(
                       t,
@@ -273,31 +273,31 @@
                   break;
                 case "VSG-ELASTIC-HEAD-TRANSFORM":
                   (o = O("elasticheadtransform", t)),
-                    (o.properties["start-angle-threshold"] = k(
+                    (o.properties["start-angle-threshold"] = N(
                       t,
                       "start-angle-threshold",
                     )),
-                    (o.properties["stop-angle-threshold"] = k(
+                    (o.properties["stop-angle-threshold"] = N(
                       t,
                       "stop-angle-threshold",
                     )),
-                    (o.properties["ease-in-time"] = k(t, "ease-in-time")),
-                    (o.properties["ease-in-power"] = k(t, "ease-in-power")),
-                    (o.properties["ease-out-angle-threshold"] = k(
+                    (o.properties["ease-in-time"] = N(t, "ease-in-time")),
+                    (o.properties["ease-in-power"] = N(t, "ease-in-power")),
+                    (o.properties["ease-out-angle-threshold"] = N(
                       t,
                       "ease-out-angle-threshold",
                     )),
-                    (o.properties["ease-out-power"] = k(t, "ease-out-power")),
-                    (o.properties["min-angular-velocity"] = k(
+                    (o.properties["ease-out-power"] = N(t, "ease-out-power")),
+                    (o.properties["min-angular-velocity"] = N(
                       t,
                       "min-angular-velocity",
                     )),
-                    (o.properties["max-angular-velocity"] = k(
+                    (o.properties["max-angular-velocity"] = N(
                       t,
                       "max-angular-velocity",
                     )),
                     (o.properties["lock-to-horizon"] = E(t, "lock-to-horizon")),
-                    (o.properties["translation-behavior"] = N(
+                    (o.properties["translation-behavior"] = k(
                       t,
                       "translation-behavior",
                     ));
@@ -305,16 +305,16 @@
                 case "VSG-LINE":
                   (o = O("line", t)),
                     (o.properties["target-id"] = B(t, "target-id")),
-                    (o.properties.thickness = k(t, "thickness")),
-                    (o.properties["start-buffer"] = k(t, "start-buffer")),
-                    (o.properties["end-buffer"] = k(t, "end-buffer"));
+                    (o.properties.thickness = N(t, "thickness")),
+                    (o.properties["start-buffer"] = N(t, "start-buffer")),
+                    (o.properties["end-buffer"] = N(t, "end-buffer"));
                   break;
                 case "VSG-LINE-CONSTRAINED-TRANSFORM":
                   (o = O("line-constrained-transform", t)),
                     (o.properties["target-id"] = B(t, "target-id")),
                     (o.properties["source-id"] = B(t, "source-id")),
-                    (o.properties["source-distance"] = k(t, "source-distance")),
-                    (o.properties["target-limit"] = k(t, "target-limit"));
+                    (o.properties["source-distance"] = N(t, "source-distance")),
+                    (o.properties["target-limit"] = N(t, "target-limit"));
                   break;
                 case "VSG-CALLOUT-TRANSFORM":
                   (o = O("callout-transform", t)),
@@ -325,12 +325,12 @@
                   break;
                 case "VSG-PIN-TO-VIEW-TRANSFORM":
                   (o = O("pin-to-view-transform", t)),
-                    (o.properties["offscreen-z-depth"] = k(
+                    (o.properties["offscreen-z-depth"] = N(
                       t,
                       "offscreen-z-depth",
                     )),
-                    (o.properties["off-axis-limit"] = k(t, "off-axis-limit")),
-                    (o.properties["transition-limit"] = k(
+                    (o.properties["off-axis-limit"] = N(t, "off-axis-limit")),
+                    (o.properties["transition-limit"] = N(
                       t,
                       "transition-limit",
                     ));
@@ -461,10 +461,10 @@
           (function (e) {
             (e[(e.HomeMenu = 50)] = "HomeMenu"),
               (e[(e.QuickMenu = 51)] = "QuickMenu");
-          })(m || (m = {})),
+          })(h || (h = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(h || (h = {})),
+          })(m || (m = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.HMD = 1)] = "HMD"),
@@ -843,7 +843,7 @@
             return (r.properties.opacity = this.props.value), [e, r];
           }
         }
-        var ie, oe, ne, se, ae, le, de, pe, ce, ue, me, he, _e, ge;
+        var ie, oe, ne, se, ae, le, de, pe, ce, ue, he, me, _e, ge;
         (0, i.gn)([o.ZP], re.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
@@ -1158,8 +1158,7 @@
                 this.props.hide_lasermouse_when_clicking),
               (l.properties["make-overlays-interactive-if-visible"] =
                 this.props.make_overlays_interactive_if_visible),
-              (l.properties["interaction-dismisses-keyboard"] =
-                this.props.interaction_dismisses_keyboard),
+              (l.properties["is-grab-handle"] = this.props.is_grab_handle),
               (l.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
               (l.properties.origin = (function (e) {
                 if (e) return [e.x, e.y];
@@ -1642,6 +1641,7 @@
                 if (
                   ((r.properties.width = this.props.width),
                   (r.properties.height = this.props.height),
+                  (r.properties["target-id"] = this.props.target_id),
                   (r.properties["near-z"] = this.props["near-z"]),
                   (r.properties["far-z"] = this.props["far-z"]),
                   (r.properties.debug = this.props.debug),
@@ -2103,13 +2103,13 @@
               (e[(e.Snap = 3)] = "Snap"),
               (e[(e.Sliding = 4)] = "Sliding"),
               (e[(e.SlidingEdge = 5)] = "SlidingEdge");
-          })(me || (me = {})),
+          })(he || (he = {})),
           (function (e) {
             (e[(e.Minimal = 1)] = "Minimal"),
               (e[(e.Modal = 2)] = "Modal"),
               (e[(e.ShowArrowKeys = 4)] = "ShowArrowKeys"),
               (e[(e.HideDoneKey = 8)] = "HideDoneKey");
-          })(he || (he = {})),
+          })(me || (me = {})),
           (function (e) {
             (e[(e.Unknown = -1)] = "Unknown"),
               (e[(e.Idle = 0)] = "Idle"),
@@ -2154,6 +2154,30 @@
                 super(e), super.setBuildNodeOverride(this.buildNode);
               }
               getNodeType() {
+                return "resize-handle";
+              }
+              buildNode(e, t) {
+                const r = this.createSgNode(t);
+                return (
+                  (r.properties["target-id"] = this.props.target_id),
+                  (r.properties["min-target-scale"] =
+                    this.props.min_target_scale),
+                  (r.properties["max-target-scale"] =
+                    this.props.max_target_scale),
+                  [e, r]
+                );
+              }
+            }.prototype,
+            "buildNode",
+            null,
+          ),
+          (0, i.gn)(
+            [o.ZP],
+            class extends J {
+              constructor(e) {
+                super(e), super.setBuildNodeOverride(this.buildNode);
+              }
+              getNodeType() {
                 return "videocapturequad";
               }
               buildNode(e, t) {
@@ -2161,6 +2185,7 @@
                 return (
                   (r.properties.width = this.props.width),
                   (r.properties.height = this.props.height),
+                  (r.properties["target-id"] = this.props.target_id),
                   (r.properties["near-z"] = this.props["near-z"]),
                   (r.properties["far-z"] = this.props["far-z"]),
                   (r.properties.debug = this.props.debug),
@@ -2235,7 +2260,7 @@
           o = r(7294),
           n = r(3935),
           s = r(7056),
-          a = r(3884),
+          a = r(1073),
           l = r(7176);
         function d() {
           const [e, t] = o.useState(0);
@@ -2715,4 +2740,4 @@
   var o = i.O(void 0, [968, 683], () => i(4603));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=d4f4ef88aa3d730c887b
+//# sourceMappingURL=scenegraphtest.js.map?v=cc1ea96b694fcd5d8584

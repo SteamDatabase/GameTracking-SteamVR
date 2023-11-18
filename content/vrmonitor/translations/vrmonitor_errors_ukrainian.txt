@@ -784,11 +784,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Управляти доповненнями"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Необхідна бета-версія клієнта Steam"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Це оновлення бета-версії SteamVR має нові функції, для яких потрібно інсталювати бета-версію клієнта Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Необхідна остання бета-версія клієнта Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Щоб використовувати нові функції бета-версії SteamVR, потрібно завантажити бета-версію клієнта Steam або оновити її."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Докладніше"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/uk/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Необхідно завантажити оновлення для клієнта Steam"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Щоб використовувати всі функції SteamVR, потрібно оновити клієнт Steam."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Оновлення SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR оновлено до версії %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Перегляньте зміни"

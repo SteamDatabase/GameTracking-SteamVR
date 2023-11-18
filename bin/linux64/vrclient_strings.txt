@@ -527,8 +527,6 @@ $tI
 --
 --alongside-steam
 --directory=
---pass-env=LD_LIBRARY_PATH
---pass-env=VRCOMPOSITOR_LD_LIBRARY_PATH
 -0123456789
 -1e+9999
 -=
@@ -1145,7 +1143,6 @@ $tI
 16CVROverlayLatest
 16CVkCommandBuffer
 16IVRClientHandler
-17:41:48
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -1184,6 +1181,7 @@ $tI
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:39:32
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -2048,8 +2046,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1844.369486
-C.1847.369497
+C.1844.369588
+C.1847.369599
 C.413.290188
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -4035,6 +4033,8 @@ CSxrInstance::GetEnvironmentBlendModes(XrViewConfigurationType)
 CSxrInstance::GetExtensionsAvailable()
 CSxrInstance::GetExtensionsAvailable()::__executeCount
 CSxrInstance::GetGraphicsRequirements failed: Invalid system.
+CSxrInstance::GetRuntimeName()
+CSxrInstance::GetRuntimeName() [clone .cold]
 CSxrInstance::GetSystemName()
 CSxrInstance::GetSystemName() [clone .cold]
 CSxrInstance::GetViewConfigurationTypeSupport(XrViewConfigurationType)
@@ -4057,6 +4057,7 @@ CSxrInstance::Init warning: Headset not found, unable to create a functional vr 
 CSxrInstance::Init()
 CSxrInstance::Init() [clone .cold]
 CSxrInstance::InitExtensions()
+CSxrInstance::InitExtensions() [clone .cold]
 CSxrInstance::InitSupportedFeatures()
 CSxrInstance::InitSupportedFeatures() [clone .cold]
 CSxrInstance::IsDisplayTimeValid(long)
@@ -4071,6 +4072,7 @@ CSxrInstance::PopEvent(XrEventDataBuffer*, unsigned long)
 CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >)
 CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >) [clone .cold]
 CSxrInstance::RememberSuggestedBindings(unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&&)
+CSxrInstance::ShouldPresentMetaCompatibility()
 CSxrInstance::StringToPath failed: %s
 CSxrInstance::StringToPath failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected.
 CSxrInstance::StringToPath(std::string, unsigned long&)
@@ -4167,6 +4169,7 @@ CSxrSwapchainGLOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*,
 CSxrSwapchainGLOpenVR::CSxrSwapchainGLOpenVR(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingGLOpenVR*)
 CSxrSwapchainGLOpenVR::EndFrame()
 CSxrSwapchainGLOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+CSxrSwapchainGLOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*) [clone .cold]
 CSxrSwapchainGLOpenVR::GetPresentableTextureHandle(void**)
@@ -4185,6 +4188,7 @@ CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwap
 CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*) [clone .cold]
 CSxrSwapchainPrism::GetCompositionSwapchain()
 CSxrSwapchainPrism::GetCurrentImage()
+CSxrSwapchainPrism::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 CSxrSwapchainPrism::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 CSxrSwapchainPrism::GetPresentableTextureHandle(void**)
 CSxrSwapchainPrism::GetSwapchainId()
@@ -4200,6 +4204,7 @@ CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo con
 CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*) [clone .cold]
 CSxrSwapchainVulkanOpenVR::CSxrSwapchainVulkanOpenVR(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingVulkanOpenVR*)
 CSxrSwapchainVulkanOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*) [clone .cold]
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle(void**)
@@ -16551,6 +16556,7 @@ December
 DeclareCurrentThreadIsMainThread
 Default
 Deliberately hanging inside VR_Init because the caller asked us to
+Desktop Game Theater
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool)
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool) [clone .cold]
 Destroying a held mutex
@@ -17113,7 +17119,7 @@ GetActionBindingCategoryNameFromEnum(EActionBindingCategory)
 GetApplicationStringPropertyFromManifest(vr::EVRApplicationProperty, CVRMsg_ApplicationInfo_Manifest const&, vr::EVRApplicationError*, std::string&)
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0]
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0] [clone .cold]
-GetBestKeyboardImplementation(VRSystemLayerState_t*)
+GetBestKeyboardImplementation(VRSystemLayerState_t const*)
 GetBitForBitnum(int)::bitsForBitnum
 GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&)
 GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
@@ -17176,7 +17182,7 @@ GetKeyboardOverlay(VRSystemLayerState_t const*, vr::EVROverlayError*)
 GetKeyboardOverlay(VRSystemLayerState_t*, vr::EVROverlayError*)
 GetKeyboardOverlayHandle(VRSystemLayerState_t const*)
 GetKeyboardOverlayIndex(VRSystemLayerState_t const*, vr::EVROverlayError*)
-GetKeyboardStatus(VRSystemLayerState_t*, bool*, vr::EKeyboardFlags*)
+GetKeyboardStatus(VRSystemLayerState_t const*, bool*, vr::EKeyboardFlags*)
 GetLinuxBaseManifestPath()
 GetLinuxBaseManifestPath() [clone .cold]
 GetManifestPath()
@@ -17192,8 +17198,8 @@ GetNextEventId()
 GetNextEventId()::ulMessageCounter
 GetNextMessage failed while waiting for message of type %d on pipe %s
 GetNotificationImageMemoryName(unsigned int, char*, unsigned int)
-GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*)
-GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0]
+GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0] [clone .cold]
 GetOpenGLFunctions() [clone .part.0]
 GetOpenGLFunctions()::s_OpenGLFunctions
 GetOpenGLFunctions()::s_bExtensionsLoaded
@@ -17202,6 +17208,7 @@ GetOpenXrActiveRuntimePath() [clone .cold]
 GetOpenXrApiLayerRegistryPath(bool)
 GetOpenXrAvailableRuntimesPath()
 GetOverlayTextureToWrite(VRCompositor_OverlayState_t const&, int*, unsigned int*)
+GetPresentableDepthTexture
 GetPresentableTexture
 GetPresentableTextureHandle
 GetRenderModelAbsolutePath
@@ -20560,6 +20567,7 @@ IXrProto_001
 IXrSwapchain::GetCompositionSwapchain()
 Ignoring WatchdogWakeUp because the workstation is locked
 Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode
+Ignoring user setting "forcedDriver": "%s" because %s
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -21673,6 +21681,7 @@ Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
 Nov
+Nov 17 2023
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t> >*)
@@ -21711,7 +21720,6 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
-Oct 31 2023
 October
 OculusSDKStart
 OldAppQuitSent
@@ -22650,7 +22658,7 @@ Start
 StartSession
 Started %s with pid %u
 Starting vrcompositor process: %s args: %s, in folder %s
-Starting vrserver process: %s
+Starting vrserver process: %s in %s
 StartupInfoArg
 StaticCompositorPresent(int)
 Steam for Linux pressure-vessel container runtime detected: %s
@@ -23218,7 +23226,6 @@ VRApplication_Utility
 VRApplication_VRMonitor
 VRApplication_WebHelper
 VRCOMPOSITOR_ARGS
-VRCOMPOSITOR_LD_LIBRARY_PATH
 VRClientCoreFactory
 VRCompositorError_AlreadySet
 VRCompositorError_AlreadySubmitted
@@ -23411,6 +23418,7 @@ VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
 VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
 VRInitError_Compositor_CreateClampToBorderSamplerState
 VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
 VRInitError_Compositor_CreateComputeResolveRenderTextures
@@ -24543,6 +24551,7 @@ VulkanVRRenderer::pixelShaderDefs
 VulkanVRRenderer::vertexShaderDefs
 W
 WARNING
+WARNING: NOT running in a Steam for Linux pressure-vessel container runtime. Your SteamVR installation is misconfigured.
 Wait
 WaitEvent
 WaitForWork
@@ -25306,6 +25315,7 @@ Z
 [Simulation] Error in input profile simulation settings for %s. Missing property: %s
 [Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation.
 [Simulation] Setting device %d with override properties for %s
+[SteamVR] Meta plugin compatibility conditions: %d %d %d %d
 [System] New Config Path:
 [System] New Log Path:
 [System] New Runtime Path:
@@ -26654,6 +26664,8 @@ dpad_touch
 dpad_up
 dpad_xr
 driver %s implements interfaces %s
+driver is disabled in settings
+driver not found (check vrpathreg)
 driver.vrdrivermanifest
 driver.vrresources
 driver:
@@ -26697,6 +26709,7 @@ enable
 enableCameraSurfaces
 enableDriverBoundsImport
 enableHomeApp
+enableLegacyGameTheater
 enableYAMLCompatibility
 end of input
 english
@@ -27725,6 +27738,7 @@ hyphen
 i
 i+
 iHexCharToInt(char)
+icon_steamvr_desktopgame.png
 iconv
 iconv_close
 iconv_open
@@ -27759,6 +27773,7 @@ in Json::Value::resize(): requires arrayValue
 in Json::Value::resolveReference(): requires objectValue
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+in Meta compatibility mode
 in `
 incomplete UTF-8 string; last byte: 0x
 indentation
@@ -28146,6 +28161,7 @@ message of type "
 message_id
 message_overlay/main
 message_overlay_finished
+metaUnityPluginCompatibility
 metallicFactor
 metallicRoughnessTexture
 mi
@@ -28413,6 +28429,7 @@ non-virtual thunk to CSxrSwapchainBase::~CSxrSwapchainBase()
 non-virtual thunk to CSxrSwapchainGLOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::EndFrame()
 non-virtual thunk to CSxrSwapchainGLOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableTextureHandle(void**)
 non-virtual thunk to CSxrSwapchainGLOpenVR::Init()
@@ -28422,6 +28439,7 @@ non-virtual thunk to CSxrSwapchainGLOpenVR::~CSxrSwapchainGLOpenVR()
 non-virtual thunk to CSxrSwapchainPrism::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
 non-virtual thunk to CSxrSwapchainPrism::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
 non-virtual thunk to CSxrSwapchainPrism::GetCompositionSwapchain()
+non-virtual thunk to CSxrSwapchainPrism::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 non-virtual thunk to CSxrSwapchainPrism::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 non-virtual thunk to CSxrSwapchainPrism::GetPresentableTextureHandle(void**)
 non-virtual thunk to CSxrSwapchainPrism::GetSwapchainId()
@@ -28431,6 +28449,7 @@ non-virtual thunk to CSxrSwapchainPrism::WaitSwapchainImage(XrSwapchainImageWait
 non-virtual thunk to CSxrSwapchainPrism::~CSxrSwapchainPrism()
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::EnumerateSwapchainImages(unsigned int, unsigned int*, XrSwapchainImageBaseHeader*)
+non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle(void**)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::Init()
@@ -28737,6 +28756,7 @@ open
 opendir
 openvr
 openvr.component.vrserver
+openvr.tool.steamvr_desktop_gametheatre
 openvr.tool.steamvr_media_player
 openvr:
 openvrpaths.vrpath
@@ -33710,6 +33730,7 @@ sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
 sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) [clone .cold]
 sxr_xrGetInstanceProperties
 sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
+sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*) [clone .cold]
 sxr_xrGetOpenGLESGraphicsRequirementsKHR
 sxr_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*)
 sxr_xrGetOpenGLGraphicsRequirementsKHR
@@ -37849,6 +37870,8 @@ vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsig
 vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
 vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int)
 vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
+vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long, bool*)
+vr::CVROverlayInternalLatest::GetDockedInDashboard(unsigned long, bool*) [clone .cold]
 vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*)
 vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*) [clone .cold]
 vr::CVROverlayInternalLatest::GetKeyboardOwnerOverlay(unsigned long*)
@@ -37867,6 +37890,8 @@ vr::CVROverlayInternalLatest::GetOverlayInteractionAffordances(unsigned long, un
 vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long)
 vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long) [clone .cold]
 vr::CVROverlayInternalLatest::GetPassthroughPortalEnabled()
+vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const
+vr::CVROverlayInternalLatest::GetPrimaryPointerDevice(unsigned int*) const [clone .cold]
 vr::CVROverlayInternalLatest::GetRecommendedOverlayRenderQuality()
 vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long)
 vr::CVROverlayInternalLatest::GetThumbHandleForOverlayHandle(unsigned long) [clone .cold]
@@ -38340,6 +38365,8 @@ vrrendermodels005
 vrrendermodels005_FnTable
 vrserver
 vrserver internal error (124)
+vrserver pid %d
+vrserver pid %d exited while waiting on IPC control file
 vrsettings001
 vrsettings001_FnTable
 vrsettings002

@@ -782,11 +782,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Hallinnoi lisäosia"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Vaatii Steam-asiakasohjelman betaversion"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "SteamVR:n betapäivitys sisältää uusia ominaisuuksia, jotka vaativat Steam-asiakasohjelman betaversion asentamista."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Vaatii Steam-asiakasohjelman uusimman betaversion"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "SteamVR:n viimeisimpien betaominaisuuksien käyttämiseen vaaditaan Steamin asiakasohjelman ajan tasalla oleva betaversio."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Lisätietoja"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/fi/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Steam-asiakasohjelma täytyy päivittää"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Päivitä Steam-asiakasohjelma käyttääksesi kaikkia SteamVR-toimintoja."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-päivitys"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR on päivitetty versioon %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Tutustu muutoksiin"

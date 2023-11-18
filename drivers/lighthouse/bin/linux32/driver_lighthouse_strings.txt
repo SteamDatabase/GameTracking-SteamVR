@@ -1176,7 +1176,7 @@ $tI
 .L243
 .L244
 .L245
-.L247
+.L246
 .L248
 .L249
 .L25
@@ -1502,13 +1502,13 @@ $tI
 .L3277
 .L3278
 .L3279
+.L328
 .L3280
 .L3281
 .L3282
 .L3283
 .L3284
 .L33
-.L330
 .L331
 .L332
 .L334
@@ -2481,12 +2481,12 @@ $tI
 16
 16CVrcDecodeTagged
 17
-17:41:38
 17CBoneMaskResource
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
 18
+18:39:24
 18IUsbDeviceCallback
 19
 19CWirelessDecoderWv2
@@ -5980,6 +5980,7 @@ Not the preferred basestation
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Nov
+Nov 17 2023
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -6021,7 +6022,6 @@ OPAQUE
 OTGT timed out
 Object
 Oct
-Oct 31 2023
 October
 Ok
 Old Normal: %f %f %f
@@ -6986,6 +6986,7 @@ VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
 VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
 VRInitError_Compositor_CreateClampToBorderSamplerState
 VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
 VRInitError_Compositor_CreateComputeResolveRenderTextures

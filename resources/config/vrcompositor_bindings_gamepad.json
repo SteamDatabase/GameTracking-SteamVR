@@ -111,6 +111,15 @@
             {
                "inputs" : {
                   "click" : {
+                     "output" : "/actions/lasermouse/in/middleclick"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/gamepad/input/joystick_left"
+            },
+            {
+               "inputs" : {
+                  "click" : {
                      "output" : "/actions/lasermouse/in/home"
                   }
                },

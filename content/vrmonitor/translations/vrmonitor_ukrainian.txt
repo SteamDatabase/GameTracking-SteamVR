@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Конфлікт базових станцій (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR у безпечному режимі (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Необхідна бета-версія клієнта Steam (0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Необхідно завантажити оновлення для клієнта Steam (0x80000000000)"
 
 "DismissableWarning_Detected" "Виявлено"
 "DismissableWarning_TimeFormat" "hh:mm:ss"

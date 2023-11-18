@@ -65,6 +65,7 @@
 "DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Bázisállomás-ütközés (0x400000)"
 "DismissableWarning_SteamVRInSafeMode" "SteamVR csökkentett módban (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Steam kliens béta szükséges (0x10000000000)"
+"DismissableWarning_RequiresSteamUpdate" "Steam kliens frissítés szükséges (0x80000000000)"
 
 "DismissableWarning_Detected" "Észlelve"
 "DismissableWarning_TimeFormat" "h:mm:ss"

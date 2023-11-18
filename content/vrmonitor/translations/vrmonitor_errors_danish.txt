@@ -782,11 +782,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Administrer tilføjelser"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Steam-klientbeta påkrævet"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Denne SteamVR-betaopdatering har nogle nye funktioner, som kræver, at Steam-klientbetaen er installeret."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Seneste Steam-betaklient påkrævet"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Steam-betaklienten er påkrævet eller skal opdateres for at få de seneste betafunktioner i SteamVR."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Mere info"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Opdatering af Steam-klient påkrævet"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Du skal opdatere Steam-klienten for at kunne bruge alle SteamVR-funktionerne."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-opdatering"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR er blevet opdateret til version %2."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Se ændringer"

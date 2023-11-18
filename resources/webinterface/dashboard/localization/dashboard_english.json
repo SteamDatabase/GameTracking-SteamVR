@@ -27,6 +27,7 @@
   "SteamVR_Home": "SteamVR Home",
   "Exit_SteamVR_Home": "Exit SteamVR Home",
   "Exit_Game": "Exit Game",
+  "Exit_Home": "Exit Home",
 
   "Menu": "Menu",
   "Desktops": "Desktops",
@@ -67,6 +68,7 @@
   "DockedOnRightController": "Docked on right controller.",
   "DockOnDashboard": "Dock on Dashboard",
   "FloatInWorld": "Float in World",
+  "ToggleTheaterMode": "Toggle Theater Screen",
   "Undock": "Undock",
   "ShowKeyboardLabel": "Keyboard",
   "ShowKeyboardTooltip": "Show Keyboard",

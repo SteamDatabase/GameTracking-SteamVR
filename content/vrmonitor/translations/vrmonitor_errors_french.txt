@@ -788,11 +788,13 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Gérer les extensions"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
-"Warning_DismissableWarning_SteamBetaNeeded_Header" "Version bêta du client Steam requise"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Cette mise à jour de la bêta de SteamVR comporte de nouvelles fonctionnalités qui nécessitent l'installation de la version bêta du client Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Dernière version bêta du client Steam requise"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Pour utiliser les dernières fonctionnalités en bêta de SteamVR, installez ou mettez à jour la version bêta du client Steam."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Plus d'informations"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/fr/faqs/view/276C-85A0-C531-AFA3"
 
+"Warning_DismissableWarning_RequiresSteamUpdate_Header" "Mise à jour du client Steam requise"
+"Warning_DismissableWarning_RequiresSteamUpdate_Description" "Pour utiliser toutes les fonctionnalités de SteamVR, mettez à jour votre client Steam."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Mise à jour de SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR a été mis à jour (version %2)."
 "Warning_DismissableWarning_SteamVRUpdated_Action" "Voir les modifications"
