@@ -1,0 +1,7 @@
+{
+	"alwaysActivate": false,
+	"name" : "indexhmd",
+	"directory" : "",
+	"resourceOnly" : true,
+	"hmd_presence" : []
+}

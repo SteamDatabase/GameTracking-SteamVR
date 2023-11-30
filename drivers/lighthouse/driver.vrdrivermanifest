@@ -1,0 +1,15 @@
+{
+	"alwaysActivate": false,
+	"name" : "lighthouse",
+	"directory" : "",
+	"resourceOnly" : false,
+
+	"hmd_presence" :
+	[
+		"28DE.2000",
+		"28DE.2012",
+		"28DE.2101",
+		"28DE.2300",
+		"C251.*"
+	]
+}

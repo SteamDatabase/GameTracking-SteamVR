@@ -1,0 +1,55 @@
+{
+	"jsonid" : "vrresources",
+	"statusicons" : {
+		"Default" : {
+			"Prop_NamedIconPathDeviceOff_String" : "{system}/icons/other_status_off.png",
+			"Prop_NamedIconPathDeviceSearching_String" : "{system}/icons/other_status_searching.gif",
+			"Prop_NamedIconPathDeviceSearchingAlert_String" : "{system}/icons/other_status_searching_alert.gif",
+			"Prop_NamedIconPathDeviceReady_String" : "{system}/icons/other_status_ready.png",
+			"Prop_NamedIconPathDeviceReadyAlert_String" : "{system}/icons/other_status_ready_alert.png",
+			"Prop_NamedIconPathDeviceNotReady_String" : "{system}/icons/other_status_error.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{system}/icons/other_status_standby.png",
+			"Prop_NamedIconPathDeviceAlertLow_String" : "{system}/icons/other_status_ready_low.png"
+		},
+		"HMD" : {
+			"Prop_NamedIconPathDeviceOff_String" : "{system}/icons/headset_status_off.png",
+			"Prop_NamedIconPathDeviceSearching_String" : "{system}/icons/headset_status_searching.gif",
+			"Prop_NamedIconPathDeviceSearchingAlert_String" : "{system}/icons/headset_status_searching_alert.gif",
+			"Prop_NamedIconPathDeviceReady_String" : "{system}/icons/headset_status_ready.png",
+			"Prop_NamedIconPathDeviceReadyAlert_String" : "{system}/icons/headset_status_ready_alert.png",
+			"Prop_NamedIconPathDeviceNotReady_String" : "{system}/icons/headset_status_error.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{system}/icons/headset_status_standby.png",
+			"Prop_NamedIconPathDeviceAlertLow_String" : ""
+		},
+		"Controller" : {
+			"Prop_NamedIconPathDeviceOff_String" : "{system}/icons/controller_status_off.png",
+			"Prop_NamedIconPathDeviceSearching_String" : "{system}/icons/controller_status_searching.gif",
+			"Prop_NamedIconPathDeviceSearchingAlert_String" : "{system}/icons/controller_status_searching_alert.gif",
+			"Prop_NamedIconPathDeviceReady_String" : "{system}/icons/controller_status_ready.png",
+			"Prop_NamedIconPathDeviceReadyAlert_String" : "{system}/icons/controller_status_ready_alert.png",
+			"Prop_NamedIconPathDeviceNotReady_String" : "{system}/icons/controller_status_error.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{system}/icons/controller_status_standby.png",
+			"Prop_NamedIconPathDeviceAlertLow_String" : "{system}/icons/controller_status_ready_low.png"
+		},
+		"Tracker" : {
+			"Prop_NamedIconPathDeviceOff_String" : "{system}/icons/tracker_status_off.png",
+			"Prop_NamedIconPathDeviceSearching_String" : "{system}/icons/tracker_status_searching.gif",
+			"Prop_NamedIconPathDeviceSearchingAlert_String" : "{system}/icons/tracker_status_searching_alert.gif",
+			"Prop_NamedIconPathDeviceReady_String" : "{system}/icons/tracker_status_ready.png",
+			"Prop_NamedIconPathDeviceReadyAlert_String" : "{system}/icons/tracker_status_ready_alert.png",
+			"Prop_NamedIconPathDeviceNotReady_String" : "{system}/icons/tracker_status_error.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{system}/icons/tracker_status_standby.png",
+			"Prop_NamedIconPathDeviceAlertLow_String" : "{system}/icons/tracker_status_ready_low.png"
+	    },
+		"TrackingReference" : {
+			"Prop_NamedIconPathDeviceOff_String" : "{system}/icons/base_status_off.png",
+			"Prop_NamedIconPathDeviceSearching_String" : "{system}/icons/base_status_searching.gif",
+			"Prop_NamedIconPathDeviceSearchingAlert_String" : "{system}/icons/base_status_searching_alert.gif",
+			"Prop_NamedIconPathDeviceReady_String" : "{system}/icons/base_status_ready.png",
+			"Prop_NamedIconPathDeviceReadyAlert_String" : "{system}/icons/base_status_ready_alert.png",
+			"Prop_NamedIconPathDeviceNotReady_String" : "{system}/icons/base_status_error.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{system}/icons/base_status_standby.png",
+			"Prop_NamedIconPathDeviceAlertLow_String" : "{system}/icons/base_status_ready_low.png"
+		}
+    }	    
+}

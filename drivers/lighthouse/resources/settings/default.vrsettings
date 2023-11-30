@@ -1,0 +1,17 @@
+{
+	"driver_lighthouse" : {
+		"disableimu" : false,
+		"usedisambiguation" : "auto",
+		"disambiguationdebug" : 0,
+		"primarybasestation" : 0,
+		"dbhistory" : false,
+		"enableBluetooth" : true,
+		"PowerManagedBaseStations" : "",
+		"PowerManagedBaseStations2" : "",
+		"BluetoothDetailLogging" : false,
+		"newPairing": true,
+		"InactivityTimeoutForBaseStations" : 60,
+		"indexHmdBrightness": 1.0,
+		"indexHmdColumnCorrection" : 1
+	}
+}

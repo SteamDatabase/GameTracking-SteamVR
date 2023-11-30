@@ -1,0 +1,9 @@
+{
+	"name" : "vrlink",
+	"directory" : "",
+	"resourceOnly" : false,
+	"showEnableInSettings" : false,
+	"hmd_presence" :
+	[
+	]
+}

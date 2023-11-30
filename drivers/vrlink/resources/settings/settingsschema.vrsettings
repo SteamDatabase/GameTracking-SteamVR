@@ -1,0 +1,134 @@
+[
+    {
+        "title": "#{vrlink}Settings_Title",
+        "values": [
+            {
+                "name": "/settings/driver_vrlink/automaticBandwidth",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_automaticBandwidth",
+                "on_label": "#{vrlink}Setting_automatic_on",
+                "off_label": "#{vrlink}Setting_automatic_off"
+            },
+            {
+                "name": "/settings/driver_vrlink/targetBandwidth",
+                "control": "slider",
+                "label": "#{vrlink}Setting_targetBandwidth",
+                "min": 25,
+                "max": 350,
+                "decimals": 0,
+                "detent": "/driver_vrlink/network_tested_bandwidth",
+                "requires": {
+                    "/settings/driver_vrlink/automaticBandwidth": false
+                }
+            },
+            {
+                "name": "/settings/driver_vrlink/automaticStreamFormatWidth",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_automaticStreamFormatWidth",
+                "on_label": "#{vrlink}Setting_automatic_on",
+                "off_label": "#{vrlink}Setting_automatic_off"
+            },
+            {
+                "name": "/settings/driver_vrlink/streamFormatWidth",
+                "control": "slider",
+                "label": "#{vrlink}Setting_streamFormatWidth",
+                "min": 512,
+                "max": 1344,
+                "step": 64,
+                "decimals": 0,
+                "requires": {
+                    "/settings/driver_vrlink/automaticStreamFormatWidth": false
+                }
+            },
+            {
+                "name": "/settings/driver_vrlink/enableEncryption",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_enableEncryption",
+                "requires_restart": true
+            },
+            {
+                "name": "/settings/driver_vrlink/wirelessShutdownTimeout",
+                "control": "select",
+                "label": "#{vrlink}Setting_WirelessShutdownTimeout",
+                "type": "int",
+                "options": [
+                    {"value": "0", "label": "#SettingsTime_Never" },
+                    {"value": "30", "label": "#SettingsTime_30s" },
+                    {"value": "60", "label": "#SettingsTime_1m" },
+                    {"value": "300", "label": "#SettingsTime_5m" },
+                    {"value": "600", "label": "#SettingsTime_10m" },
+                    {"value": "1200", "label": "#SettingsTime_20m" },
+                    {"value": "1800", "label": "#SettingsTime_30m" },
+                    {"value": "3600", "label": "#SettingsTime_1h" }
+                ]
+            },
+            {
+                "name": "/settings/driver_vrlink/useOSC",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_useOSC",
+                "advanced_only": true,
+                "requires_paths": {
+                    "/driver_vrlink/got_eye_and_expression": true
+                }
+            },
+			{
+                "name": "/settings/driver_vrlink/useOSCEyes",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_useOSCEyes",
+                "advanced_only": true,
+                "requires_paths": {
+                    "/driver_vrlink/got_eye_and_expression": true
+                },
+				"requires": {
+                    "/settings/driver_vrlink/useOSC": true
+				}
+            },
+			{
+                "name": "/settings/driver_vrlink/useOSCFace",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_useOSCFace",
+                "advanced_only": true,
+                "requires_paths": {
+                    "/driver_vrlink/got_eye_and_expression": true
+                },
+				"requires": {
+                    "/settings/driver_vrlink/useOSC": true
+				}
+            },
+			{
+                "name": "/settings/driver_vrlink/OSCOutPort",
+                "control": "select",
+                "label": "#{vrlink}Setting_OSCOutPort",
+                "advanced_only": true,
+                "requires_paths": {
+                    "/driver_vrlink/got_eye_and_expression": true
+                },
+				"requires": {
+                    "/settings/driver_vrlink/useOSC": true
+				},
+				"options": [
+                    {"value": 9000, "label": "9000 (VRChat, Direct)" },
+					{"value": 9015, "label": "9015 (Custom: VRCFT, etc.)" }
+				]
+            },
+            {
+                "name": "/settings/driver_vrlink/showAdvancedGraphs",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_showAdvancedGraphs",
+                "advanced_only": true
+            },
+            {
+                "name": "/driver_vrlink/client_version",
+                "control": "label",
+                "label": "#{vrlink}Setting_clientVersion",
+                "advanced_only": false
+            },
+            {
+                "name": "/settings/driver_vrlink/allowVolumeSync",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_AllowVolumeControlSync",
+                "advanced_only": true
+            }
+        ]
+    }
+]

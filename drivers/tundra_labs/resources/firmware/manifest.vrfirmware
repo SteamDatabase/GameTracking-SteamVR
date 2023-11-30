@@ -1,0 +1,15 @@
+{
+	"jsonid" : "vrfirmware",
+	"0xf0000109" : {
+		"Name" : "Tundra Tracker",
+		"CanIdentify" : true,
+		"IsManual": false,
+		"VRCVersion" : "1632556731",
+		"VRCBin": "{tundra_labs}/firmware/tracker/tundra-tracker_application_v1632556731.fw",
+		"VRCArgs" : "--target=application",
+		"RadioVersion" : "1632527453",
+		"RadioBin" :  "{tundra_labs}/firmware/tracker/tundra-tracker_radio_v1632527453.fw",
+		"RadioArgs" : "--target=nrf52"
+	},
+   "version" : "1"
+}

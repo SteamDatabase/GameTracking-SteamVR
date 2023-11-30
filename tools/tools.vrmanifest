@@ -1,0 +1,92 @@
+{
+	"source" : "builtin",
+	"applications": [
+		{
+			"app_key" : "openvr.tool.steamvr_room_setup",
+
+			"launch_type" : "binary",
+			"binary_path_windows" : "steamvr_room_setup/win64/steamvr_room_setup.exe",
+			"binary_path_osx" : "steamvr_room_setup/osx/steamvr_room_setup.app",
+			"binary_path_linux" : "steamvr_room_setup/linux64/steamvr_room_setup.sh",
+			"arguments" : "-popupwindow",
+			
+			"image_path" : "content/room_setup_capsule_main.png",
+
+			"strings" : {
+				"en_us" : {
+					"name" : "SteamVR Room Setup"
+				}
+			}
+		},
+		{
+			"app_key" : "openvr.tool.steamvr_media_player",
+
+			"launch_type" : "binary",
+			"binary_path_windows" : "steamvr_media_player/win64/steamvr_media_player.exe",
+			
+			"image_path" : "content/media_player_capsule_main.png",
+
+			"strings" : {
+				"en_us" : {
+					"name" : "SteamVR Media Player [Beta]"
+				}
+			},
+			"mime_types": [ "vr/media_player" ]
+		},
+		{
+			"app_key": "openvr.tool.steamvr_tutorial",
+
+			"launch_type": "binary",
+			"binary_path_windows" : "steamvr_tutorial/win64/steamvr_tutorial.exe",
+			"binary_path_osx" : "steamvr_tutorial/osx/steamvr_tutorial.app",
+			"binary_path_linux" : "steamvr_tutorial/linux64/steamvr_tutorial.sh",
+			"arguments": "-popupwindow",
+			"image_path": "content/tutorial_capsule_main.png",
+
+			"strings": {
+				"en_us": {
+					"name": "SteamVR Tutorial"
+				}
+			}
+		},
+		{
+			"app_key": "openvr.tool.steamvr_environments",
+
+			"launch_type": "binary",
+			"binary_path_windows" : "steamvr_environments/game/bin/win64/steamtours.exe",
+			"binary_path_osx" : "steamvr_environments/game/steamtours.sh",
+			"binary_path_linux" : "steamvr_environments/game/steamtours.sh",
+			"arguments": "-vr -retail -useappid SteamVRAppID -nowindow -vconport 29009",
+			"arguments_osx": "-vr -retail -vulkan -useappid SteamVRAppID -nowindow -vconport 29009",
+			"arguments_linux": "-vr -retail -vulkan -useappid SteamVRAppID -nowindow -vconport 29009",
+			"wants_compositor_pause" : true,
+			"image_path": "content/steamvr_home_capsule_main.png",
+			"action_manifest_path": "steamvr_environments/game/steamtours/cfg/actions.json",
+
+			"strings": {
+				"en_us": {
+					"name": "SteamVR Home"
+				}
+			}
+		},
+		{
+			"app_key": "openvr.tool.steamvr_environments_tools",
+
+			"launch_type": "binary",
+			"binary_path_windows" : "steamvr_environments/game/bin/win64/steamtourscfg.exe",
+			"binary_path_osx" : "steamvr_environments/game/steamtours.sh",
+			"binary_path_linux" : "steamvr_environments/game/steamtours.sh",
+			"arguments": "-useappid SteamVRAppID -vconport 29009 -retail -disable_qaccessible",
+			"wants_compositor_pause" : false,
+
+			"image_path": "content/steamvr_home_capsule_main.png",
+
+			"strings": {
+				"en_us": {
+					"name": "SteamVR Workshop Tools"
+				}
+			}
+		}
+
+	]
+}

@@ -1,0 +1,13 @@
+{
+
+  "camera" : {
+
+    "enableCamera" : false,
+
+    "enableCameraForRoomView" : true,
+
+    "enableCameraInDashboard" : false
+
+  }
+
+}

@@ -1,0 +1,11 @@
+{
+	"alwaysActivate": false,
+	"name" : "oculus_legacy",
+	"directory" : "",
+	"resourceOnly" : false,
+
+	"hmd_presence" :
+	[
+		"2833.*"
+	]
+}

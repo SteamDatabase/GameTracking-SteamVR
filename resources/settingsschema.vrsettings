@@ -1,0 +1,360 @@
+[
+	{
+		"title": "#Settings_SectionTitle_General",
+		"controller":	"general_settings",
+		"values": [
+			 { "name": "/settings/notifications/DoNotDisturb", "label": "#Settings_NotificationDoNotDisturb_Text", "text": "#Settings_General_DoNotDisturb_Text" }
+			,{ "name": "/settings/steamvr/nightmode", "type": "bool" }
+			,{ "name": "/settings/steamvr/analogGain", "type": "float" }
+			,{ "name": "/settings/steamvr/allowDisplayLockedMode", "type": "bool" }
+			,{ "name": "/settings/userinterface/StatusAlwaysOnTop", "type": "bool" }
+
+			,{ "name": "/settings/steamvr/preferredRefreshRate", "type": "float" }
+			,{ "name": "/settings/steamvr/motionSmoothing", "type": "bool" }
+			,{ "name": "/settings/steamvr/supersampleManualOverride", "type": "bool" }
+			,{ "name": "/settings/steamvr/supersampleScale", "type": "float" }
+
+			,{ "name": "/settings/LastKnown/HMDManufacturer", "type": "string" }
+			,{ "name": "/settings/LastKnown/HMDModel", "type": "string" }
+
+			,{ "name": "/settings/steamvr/enableHomeApp",                   "control": "toggle",     	"label": "#Settings_HomeAppCheck", "text": "#Settings_HomeAppDesc" }
+			,{ "name": "/settings/steamvr/startMonitorFromAppLaunch",		"control": "toggle",		"label": "#Settings_StartSteamVROnAppLaunch" }
+			,{ "name": "/settings/perfcheck/saveTimingsOnExit",				"control": "toggle",		"label": "#Advanced_AutoSaveTimingInfoOnExit" }
+
+			,{ "name": "/settings/input/*", "type":  "wildcard" }
+			,{ "name": "/settings/GpuSpeed/*", "type":  "wildcard" }
+			,{ "name": "/settings/driver_lighthouse/*", "type":  "wildcard" }
+		]
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_System",
+		"controller":	"system_settings",
+		"values": [
+			 { "name": "/settings/steamvr/*", "type":  "wildcard" }
+		]
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_Internet",
+		"controller":	"internet_settings",
+		"values": [
+			  { "name": "/settings/steamvr/*", "type":  "wildcard" }
+			 ,{ "name": "/settings/internet/*", "type":  "wildcard" }
+		]
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_PlayArea",
+		"controller":	"playarea_settings",
+		"values": [
+
+			{ "name": "/settings/steamvr/background", "type": "string" },
+			{ "name": "/settings/steamvr/backgroundUseDomeProjection", "type": "bool" },
+			{ "name": "/settings/steamvr/backgroundCameraHeight", "type": "float" },
+			{ "name": "/settings/steamvr/backgroundDomeRadius", "type": "float" },
+			{ "name": "/settings/steamvr/playAreaColor", "type": "string" },
+
+			{ "name": "/settings/collisionBounds/CollisionBoundsColorGammaR", "type": "int" },
+			{ "name": "/settings/collisionBounds/CollisionBoundsColorGammaG", "type": "int" },
+			{ "name": "/settings/collisionBounds/CollisionBoundsColorGammaB", "type": "int" },
+			{ "name": "/settings/collisionBounds/CollisionBoundsColorGammaA", "type": "int" },
+
+			{
+				"name": "/settings/power/CycleBackgroundImageTimeSec",
+				"control": "select",
+				"label": "#Settings_Appearance_CycleBackgroundImageTimeSec",
+				"options": [
+					{"value": "0", "label": "#SettingsTime_Never" },
+					{"value": "600", "label": "#SettingsTime_10m" },
+					{"value": "1200", "label": "#SettingsTime_20m" },
+					{"value": "1800", "label": "#SettingsTime_30m" },
+					{"value": "3600", "label": "#SettingsTime_1h" }
+				],
+				"requires": {
+					"/settings/steamvr/enableHomeApp": false
+				}
+			},
+			{
+				"name": "/settings/collisionBounds/CollisionBoundsStyle",
+				"control": "radio",
+				"type": "int",
+				"label": "#Settings_Chaperone_Style",
+				"group": "chaperone_style",
+				"options": [
+					{"value": "0", "label": "#Settings_Chaperone_Style_0" },
+					{"value": "1", "label": "#Settings_Chaperone_Style_1" },
+					{"value": "2", "label": "#Settings_Chaperone_Style_2" },
+					{"value": "3", "label": "#Settings_Chaperone_Style_3" },
+					{"value": "4", "label": "#Settings_Chaperone_Style_4" }
+				]
+			},
+			{
+				"name": "/settings/collisionBounds/CollisionBoundsGroundPerimeterOn",
+				"control": "toggle",
+				"group": "chaperone_style",
+				"label": "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn",
+				"text": "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc"
+			},
+      			{ "name": "/settings/collisionBounds/CollisionBoundsFadeDistance", "type": "number" },
+      			{ "name": "/settings/collisionBounds/CollisionBoundsWallHeight", "type": "number" }
+
+	   ]
+	},
+
+	{
+		"title": "#Settings_SectionTitle_Dashboard",
+		"controller": "dashboard_settings",
+		"advanced_only": true,
+		"values": [
+			 { "name": "/settings/dashboard/enableDashboard", "type": "bool" }
+
+			,{ "name": "/settings/dashboard/arcadeMode", "type": "bool", "inverted": true }
+			,{ "name": "/settings/dashboard/position", "type": "number" }
+			,{ "name": "/settings/dashboard/dashboardScale", "type": "number" }
+			,{ "name": "/settings/dashboard/desktopScale", "type": "number" }
+
+			,{ "name": "/settings/dashboard/showPowerOptions", "type": "bool" }
+			,{ "name": "/settings/dashboard/allowAppQuitting", "type": "bool" }
+			,{ "name": "/settings/dashboard/showDesktop", "type": "bool" }
+
+			,{ "name": "/settings/dashboard/lastAccessedExternalOverlayKey", "type": "string" }
+			,{ "name": "/settings/dashboard/*", "type":  "wildcard" }
+		]
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_Controller",
+		"controller":	"controller_settings"
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_Video",
+		"controller":	"video_settings",
+		"values": [
+			 { "name": "/settings/steamvr/preferredRefreshRate", "type": "float" }
+			,{ "name": "/settings/steamvr/analogGain", "type": "float" }
+			,{ "name": "/settings/steamvr/nightmode", "type": "bool" }
+			,{ "name": "/settings/steamvr/motionSmoothing", "type": "bool" }
+			,{ "name": "/settings/steamvr/supersampleManualOverride", "type": "bool" }
+			,{ "name": "/settings/steamvr/supersampleScale", "type": "float" }
+			,{ "name": "/settings/power/pauseCompositorOnStandby",			"control": "toggle",		"label": "#Settings_PauseOnStandby" }
+			,{ "name": "/settings/perfcheck/gpuBusMonitoring",				"control": "toggle",		"label": "#Settings_GpuBusMonitoring" }
+			,{ "name": "/settings/steamvr/allowSupersampleFiltering",		"control": "toggle",		"label": "#Settings_Advanced_AllowSupersampleFiltering" }
+			,{ "name": "/settings/steamvr/doNotFadeToGrid",				    "control": "toggle",		"label": "#Settings_DoNotFadeToGrid" }
+			,{ "name": "/settings/steamvr/overlayRenderQuality_2",			"type": "number" }
+			,{ "name": "/settings/steamvr/hdcp14legacyCompatibility",			"type": "bool" }
+			,{ "name": "/settings/steamvr/displayPortTrainingMode",			"type": "number" }
+		]
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_Audio",
+		"controller":	"audio_settings",
+		"values": [
+			 { "name": "/settings/audio/*", "type":  "wildcard" }
+		]
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_Camera",
+		"controller":	"camera_settings",
+		"web_helper_only":	true,
+        "values": [
+            {
+                "name": "/settings/camera/*",
+                "type": "wildcard"
+            }
+        ]
+	},
+
+	{
+		"title":		"#Settings_SectionTitle_StartupShutdown",
+		"controller":	"startupshutdown_settings",
+		"show_without_hmd": true,
+		"values": [
+			{
+				"name": "/settings/power/turnOffScreensTimeout",
+				"control": "select",
+				"label": "#Settings_Power_TurnOffScreensTimeout",
+				"type": "int",
+				"options": [
+					{"value": "5", "label": "#SettingsTime_5s" },
+					{"value": "30", "label": "#SettingsTime_30s" },
+					{"value": "60", "label": "#SettingsTime_1m" },
+					{"value": "300", "label": "#SettingsTime_5m" }
+				]
+			},
+			{
+				"name": "/settings/power/turnOffControllersTimeout",
+				"control": "select",
+				"label": "#Settings_Power_TurnOffControllersTimeout",
+				"type": "int",
+				"options": [
+					{"value": "0", "label": "#SettingsTime_Never" },
+					{"value": "300", "label": "#SettingsTime_5m" },
+					{"value": "600", "label": "#SettingsTime_10m" },
+					{"value": "1200", "label": "#SettingsTime_20m" },
+					{"value": "1800", "label": "#SettingsTime_30m" }
+				]
+			},
+			{ "name": "/settings/power/powerOffOnExit",				"control": "toggle",		"label": "#Settings_Power_ControllerOffOnExit" },
+			{
+				"name": "/settings/power/returnToWatchdogTimeout",
+				"control": "select",
+				"label": "#Settings_Power_ReturnToWatchdogTimeout",
+				"type": "int",
+				"options": [
+					{"value": "0", "label": "#SettingsTime_Never" },
+					{"value": "600", "label": "#SettingsTime_10m" },
+					{"value": "1200", "label": "#SettingsTime_20m" },
+					{"value": "1800", "label": "#SettingsTime_30m" },
+					{"value": "3600", "label": "#SettingsTime_1h" }
+				]
+			}
+		]
+	},
+
+	{
+		"title": "#Settings_SectionTitle_OpenXR",
+		"controller": "openxr_settings",
+		"advanced_only": false,
+		"show_without_hmd": true,
+		"values": [
+			{
+				"name": "/settings/openxr/metaUnityPluginCompatibility",
+				"type": "int"
+			}
+		]
+	},
+
+	{
+		"title": "#Settings_SectionTitle_Developer",
+		"controller": "developer_settings",
+		"advanced_only": true,
+		"values": [
+			 { "name": "/settings/steamvr/debugInputBinding",				"control": "toggle",		"label": "#Settings_DebugInputBindings",                    "requires_restart": true }
+			,{ "name": "/settings/perfcheck/allowTimingStore",				"control": "toggle",		"label": "#Advanced_AllowSavingOfTimingInfo" }
+			,{ "name": "/settings/perfcheck/perfGraphInHMD",				"control": "toggle",		"label": "#Advanced_PerfGraphInHMD" }
+			,{ "name": "/settings/perfcheck/saveTimingsOnExit",				"control": "toggle",		"label": "#Advanced_AutoSaveTimingInfoOnExit" }
+			,{ "name": "/settings/steamvr/globalActionSetPriority",			"control": "toggle",		"label": "#Advanced_GlobalActionSetPriority" }
+		]
+	},
+
+	{
+		"title": "Valve Internal",
+		"internal_only": true,
+		"show_without_hmd": true,
+		"controller": "internal_settings",
+		"values": [
+			{ "name": "/settings/sl/*", "type":  "wildcard" },
+			{ "name": "/settings/svl/*", "type":  "wildcard" },
+			{
+				"name": "/settings/steamvr/showAdvancedSettings"
+			},
+			{
+				"name": "/settings/VRWebHelper/DebuggerEnabled",
+				"control": "toggle",
+				"label": "#Settings_EnableWebHelperDebugger",
+				"text": "#Settings_EnableWebHelperDebuggerDesc",
+				"requires_restart": true
+			},
+			{
+				"name": "/settings/steamvr/showInternalSettings",
+				"control": "toggle",
+				"label": "Always show Internal Settings section"
+			},
+			{
+				"name": "/settings/dashboard/verticalOffsetCm_2",
+				"type": "number"
+			},
+			{
+				"name": "/settings/dashboard/useNewDesktop",
+				"control": "toggle",
+				"label": "New Desktop",
+				"requires_restart": true
+			},
+			{
+				"name": "/settings/dashboard/enableWindowView",
+				"control": "toggle",
+				"label": "Enable Window View",
+				"requires_restart": true
+			},
+			{
+				"name": "/settings/steamvr/usePrism",
+				"control": "toggle",
+				"label": "Prism",
+				"requires_restart": true
+			},
+			{
+				"name": "/settings/dashboard/showDevPanel",
+				"control": "toggle",
+				"label": "Show Developer Panel Overlay"
+			},
+			{
+				"name": "/settings/driver_lighthouse/enableImuFallback",
+				"control": "toggle",
+				"label": "Enable 3DoF Fallback",
+				"requires_restart": true
+			},
+			{
+				"name": "/settings/dashboard/allowDashboardAutoLaunchWithSteamVRHome",
+				"type": "bool"
+			},
+			{
+				"name": "/settings/dashboard/omitDashboardFadeWithSteamVRHome",
+				"type": "bool"
+			},
+			{
+				"name": "/settings/steamvr/noEdgeExitHaptics",
+				"type": "bool"
+			},
+			{
+				"name": "/settings/steamvr/overlayRenderQuality_2",
+				"type": "float"
+			},
+			{
+				"name": "/settings/steamvr/blockOculusSDKOnAllLaunches",
+				"control": "toggle",
+				"label": "Block Oculus SDK on all launches"
+			},
+			{
+				"name": "/settings/steamvr/blockOculusSDKOnOpenVRLaunchOption",
+				"control": "toggle",
+				"label": "Block Oculus SDK on OpenVR launch options"
+			},
+			{
+				"name": "/settings/dashboard/standaloneSystemLayer",
+				"control": "toggle",
+				"label": "Standalone System Layer",
+				"requires_restart": true
+			},
+			{
+				"name": "/settings/dashboard/stickyDashboard",
+				"control": "toggle",
+				"label": "Sticky Dashboard",
+				"requires_restart": true
+			},
+			{
+				"name": "/settings/userinterface/laserMouseDebugging",
+				"type": "bool",
+				"control": "toggle",
+				"label": "Laser Mouse Debugging"
+			},
+
+			{ "name": "/settings/input/overlayMagnetismEnabled", "type": "bool" },
+			{ "name": "/settings/input/overlayMagnetismLockDistance", "type": "number" },
+			{ "name": "/settings/input/overlayMagnetismDeadZone", "type": "number" },
+			{ "name": "/settings/input/overlayFilteringEnabled", "type": "bool" },
+			{ "name": "/settings/input/overlayFilteringMinCutoff", "type": "number" },
+			{ "name": "/settings/input/overlayFilteringBeta", "type": "number" },
+			{ "name": "/settings/input/overlayFilteringDerivCutoff", "type": "number" },
+
+			{
+				"name": "/settings/internal/*",
+				"type": "wildcard"
+			}
+		]
+	}
+
+]

@@ -1,0 +1,111 @@
+{
+	"source" : "builtin",
+	"applications": [
+		{
+			"app_key" : "openvr.component.vrcompositor",
+
+			"is_internal" : true,
+
+			"launch_type" : "binary",
+			"binary_path_windows" : "../../bin/win64/vrcompositor.exe",
+			"binary_path_osx" : "../../bin/osx32/vrcompositor",
+			"binary_path_linux" : "../../bin/linux64/vrcompositor",
+			"binary_path_linux_arm" : "../../bin/linuxarm64/vrcompositor",
+			"arguments" : "",
+			"action_manifest_path" : "vrcompositor_actions.json",
+
+			"image_path" : "steamvr_dashboard_capsule.png",
+
+			"strings" : {
+				"en_us" : {
+					"name" : "VR Dashboard"
+				}
+			}
+		},
+		{
+			"app_key" : "openvr.component.vrdashboard",
+
+			"is_internal" : true,
+
+			"launch_type" : "binary",
+			"binary_path_windows" : "../../bin/win64/vrdashboard.exe",
+			"binary_path_osx" : "../../bin/osx32/vrdashboard",
+			"binary_path_linux" : "../../bin/linux64/vrdashboard",
+			"binary_path_linux_arm" : "../../bin/linuxarm64/vrdashboard",
+			"arguments" : "",
+			"action_manifest_path" : "none",
+
+			"image_path" : "steamvr_dashboard_capsule.png",
+
+			"strings" : {
+				"en_us" : {
+					"name" : "VR Desktop View"
+				}
+			}
+		},
+		{
+			"app_key" : "openvr.component.vrmonitor",
+
+			"is_internal" : true,
+
+			"launch_type" : "binary",
+			"binary_path_windows" : "../../bin/win64/vrmonitor.exe",
+			"binary_path_osx" : "../../bin/osx32/vrmonitor",
+			"binary_path_linux" : "../../bin/linux64/vrmonitor",
+			"binary_path_linux_arm" : "../../bin/linuxarm64/vrmonitor",
+			"arguments" : "",
+			"action_manifest_path" : "none",
+
+			"image_path" : "",
+
+			"strings" : {
+				"en_us" : {
+					"name" : "VR Monitor"
+				}
+			}
+		},
+		{
+			"app_key": "openvr.component.vrwebhelper",
+
+			"is_internal": true,
+			"is_self_identified": true,
+
+			"launch_type": "binary",
+			"binary_path_windows": "../../bin/vrwebhelper/win64/vrwebhelper.exe",
+			"binary_path_osx": "../../bin/vrwebhelper/osx32/vrwebhelper",
+			"binary_path_linux": "../../bin/vrwebhelper/linux64/vrwebhelper",
+			"binary_path_linux_arm": "../../bin/vrwebhelper/linuxarm64/vrwebhelper",
+			"arguments": "",
+			"action_manifest_path" : "none",
+
+			"image_path": "",
+
+			"strings": {
+				"en_us": {
+					"name": "VR Web Helper"
+				}
+			}
+		},
+		{
+			"app_key" : "openvr.component.vrstartup",
+
+			"is_internal" : true,
+
+			"launch_type" : "binary",
+			"binary_path_windows" : "../../bin/win64/vrstartup.exe",
+			"binary_path_osx" : "../../bin/osx32/vrstartup",
+			"binary_path_linux" : "../../bin/linux64/vrstartup",
+			"binary_path_linux_arm" : "../../bin/linuxarm64/vrstartup",
+			"arguments" : "",
+			"action_manifest_path" : "none",
+
+			"image_path" : "",
+
+			"strings" : {
+				"en_us" : {
+					"name" : "VR Startup"
+				}
+			}
+		}
+	]
+}

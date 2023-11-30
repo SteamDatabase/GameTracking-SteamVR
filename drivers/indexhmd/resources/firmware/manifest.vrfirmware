@@ -1,0 +1,26 @@
+{
+    "jsonid" : "vrfirmware",
+
+    "0x22143109": {
+                    "Name": "Index HMD",
+                    "WatchmanRemindVersion": "1576179628",
+                    "WatchmanVersion": "1623823641",
+                    "WatchmanBin": "{indexhmd}/firmware/g55/watchman_v3_app_20210615_v1623823641.fw",
+                    "WatchmanArgs" : "--target=application",
+                    "WatchmanFPGAVersion": "538",
+                    "WatchmanFPGABin": "{indexhmd}/firmware/fpga/ice40cm_corelv_20181219v2_26.fw",
+                    "WatchmanFPGAArgs" : "--target=ice40",
+                    "CameraVersion" : "1099511627785",
+                    "CameraBin" : "{indexhmd}/firmware/ESP776/Etron_776_20200407_v009_Bulk-128K.bin",
+                    "CameraArgs" : "--target=et776",
+                    "DongleVersion" : "1461100729",
+                    "DongleBin" : "tools/lighthouse/firmware/vr_controller/archive/htc_vrc_dongle_1461100729_2016_04_19.bin",
+                    "DongleV2Version" : "1558748372",
+                    "DongleV2RemindVersion" : "1558748372",
+                    "DongleV2Bin" : "{indexhmd}/firmware/radio/gd_1558748372_dfu.zip"
+    },
+    "0x22132109": { "Alias" : "0x22143109" },
+    "0x22154109": { "Alias" : "0x22143109" },
+
+    "version" : "1"
+}

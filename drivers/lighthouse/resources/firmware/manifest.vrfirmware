@@ -1,0 +1,197 @@
+{
+	"jsonid" : "vrfirmware",
+	"0x01020000" : {
+		"Name" : "HMD 2.0.0",
+		"WatchmanVersion" : "1441055390",
+		"WatchmanBin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v2_hmd.bin",
+		"WatchmanFPGAVersion" : "51",
+		"WatchmanFPGA" : "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v2_hmd_fpga.bin",
+		"IsManual": true,
+		"ManualURL": "https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware"
+	},
+	"0x01020200" : {
+		"Name" : "HMD 2.2.0",
+		"WatchmanVersion" : "1441055393",
+		"WatchmanBin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v2_2_hmd.bin",
+		"WatchmanFPGAVersion" : "51",
+		"WtachmanFPGABin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v2_2_hmd_fpga.bin",
+		"IsManual": true,
+		"ManualURL": "https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware"
+	},
+	"0x80020000" : {
+		"Name" : "hTC HMD 2.0.0",
+		"WatchmanVersion" : "1462663157",
+		"WatchmanBin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/archive/htc_watchman_1462663157_2016_05_07.bin",
+		"WatchmanFPGAVersion" : "262",
+		"WatchmanFPGABin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/archive/htc_pre_watchman_262_fpga.bin",
+		"DongleVersion" : "1461100729",
+		"DongleBin" : "tools/lighthouse/firmware/vr_controller/archive/htc_vrc_dongle_1461100729_2016_04_19.bin",
+		"CameraVersion" : "8590262295",
+		"CameraBin" : "tools/lighthouse/firmware/htc/MV2_FlashImage_02_05_17.bin",
+		"CameraRecovery1Bin" : "tools/lighthouse/firmware/htc/updater_mcr_v2.bin",
+		"CameraRecovery2Bin" : "tools/lighthouse/firmware/htc/CAM_02_05_0D_JIG.bin",
+		"Display[FORCEUPDATE]" : "2097248",
+		"DisplayVersion" : "2097504",
+		"DisplayBin" : "tools/lighthouse/firmware/htc/APP_0000000000200160.bin",
+		"DisplayFPGAVersion" : "57",
+		"DisplayFPGABin" : "tools/lighthouse/firmware/htc/V2_39.bin",
+		"AudioVersion" : "3",
+		"AudioBin" : "tools/lighthouse/firmware/htc/NEO_AUD_00_03.bin",
+		"IsManual": false
+	},
+	"0x80020100" : {
+		"Alias" : "0x80020000",
+		"Name" : "hTC HMD 2.1.0 DVT3"
+	},
+	"0x02010000" : {
+		"Name" : "Controller 1.0.0",
+		"WatchmanVersion" : "1441055385",
+		"WatchmanBin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v1_puck.bin",
+		"WatchmanFPGAVersion" : "51",
+		"WatchmanFPGABin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v1_puck_fpga.bin",
+		"VRCVersion" : "1434405653",
+		"VRCBin": "tools/lighthouse/firmware/vr_controller/vcf_wired_controller_vrc.bin",
+		"IsManual": true,
+		"ManualURL": "https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware"
+	},
+	"0x03020200" : {
+		"Name" : "RFController 2.2.0",
+		"WatchmanVersion" : "1441055399",
+		"WatchmanBin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v2_2_rf_puck.bin",
+		"WatchmanFPGAVersion" : "51",
+		"WatchmanFPGABin": "tools/lighthouse/firmware/lighthouse_rx_watchman/lighthouse_watchman_v2_2_rf_puck_fpga.bin",
+		"RadioVersion" : "1",
+		"RadioBin" :  "tools/lighthouse/firmware/vr_controller/watchman_module.bin",
+		"VRCVersion" : "1434405653",
+		"VRCBin" : "tools/lighthouse/firmware/vr_controller/vcf_wired_controller_vrc_v2.bin",
+		"DongleVersion" : "1433310329",
+		"DongleBin" : "tools/lighthouse/firmware/vr_controller/watchman_dongle.bin",
+		"IsManual": true,
+		"ManualURL": "https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware"
+	},
+	"0x81010500" : {
+		"Name" : "hTC Controller 1.5.0",
+		"CanIdentify" : true,
+		"CanUpdateMultiple" : true,
+		"WatchmanFPGAVersion" : "262",
+		"WatchmanFPGABin" : "tools/lighthouse/firmware/lighthouse_rx_watchman/archive/htc_pre_vrc_watchman_262_fpga.bin",
+		"RadioVersion" : "1532585738",
+		"RadioBin" :  "tools/lighthouse/firmware/vr_controller/archive/htc_vrc_module_1532585738_2018_07_25.bin",
+		"VRCVersion" : "1533720214",
+		"VRCBin": "tools/lighthouse/firmware/htc/vr_neo_vrc_00010000000000BE.bin",
+		"DongleVersion" : "1461100729",
+		"DongleBin" : "tools/lighthouse/firmware/vr_controller/archive/htc_vrc_dongle_1461100729_2016_04_19.bin",
+		"IsManual": false
+	},
+	"Watchman Dongle V1" : {
+		"Name" : "Watchman Dongle",
+		"WatchmanVersion" : "1433310329",
+		"WatchmanBin": "tools/lighthouse/firmware/vr_controller/watchman_dongle.bin",
+		"IsManual": true,
+		"ManualURL": "https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware"
+	},
+	"0x09010000" : {
+		"Name" : "Base Robin",
+		"FirmwareVersion": "1",
+		"FirmwareBin": "tools/lighthouse/firmware/lighthouse_tx/lighthouse_tx_robin.bin",
+		"IsManual": true,
+		"ManualURL": "https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware"
+	},
+	"0x09000004" : {
+		"Name" : "Base Robin 1",
+		"FirmwareVersion": "177",
+		"FirmwareBin": "tools/lighthouse/firmware/lighthouse_tx/lighthouse_tx_robin_1_0.bin",
+		"IsManual": false
+	},
+	"0x09000006" : {
+		"Name" : "Base hTC 2 XC",
+		"FirmwareVersion": "244",
+		"FirmwareBin": "tools/lighthouse/firmware/lighthouse_tx/archive/htc_2.0/lighthouse_tx_htc_2_0-244-2016-03-12.bin",
+		"IsManual": false
+	},
+	"0x09000009" : {
+		"Name" : "Base hTC 2 XD/XE",
+		"FirmwareVersion": "436",
+		"FirmwareBin": "tools/lighthouse/firmware/lighthouse_tx/archive/htc_2.0/lighthouse_tx_htc_2_0-436-2016-09-20.bin",
+		"RadioVersion" : "211",
+		"RadioBin" : "tools/lighthouse/firmware/lighthouse_tx/archive/htc_2.0/ota_firmware_upgrade_htc-BCM20736TAG-0517_v211.ota.bin",
+		"IsManual": false
+	},
+	"0x0900000e" : {
+		"Name" : "Valve LHB 2.0",
+		"BootloaderVersion": "512",
+		"FirmwareVersion": "3008",
+		"FirmwareBin": "tools/lighthouse/firmware/lighthouse_tx_vader/archive/428/lighthouse_tx_vader_radio_full_dfu.v2_9_2004771.zip",
+		"RadioVersion" : "521",
+		"IsManual": false
+	},
+	"0x0900000f": {
+		"Name": "Valve LHB 2.0",
+		"BootloaderVersion": "772",
+		"FirmwareVersion": "3008",
+		"FirmwareBin": "tools/lighthouse/firmware/lighthouse_tx_vader/archive/428/lighthouse_tx_vader_radio_full_dfu.v2_9_2004771.zip",
+		"RadioVersion": "521",
+		"IsManual": false
+	},
+	"0x09000010": {
+		"Name": "Valve LHB 2.0",
+		"BootloaderVersion": "772",
+		"FirmwareVersion": "3008",
+		"FirmwareBin": "tools/lighthouse/firmware/lighthouse_tx_vader/archive/428/lighthouse_tx_vader_radio_full_dfu.v2_9_2004771.zip",
+		"RadioVersion": "521",
+		"IsManual": false
+	},
+	"0x85020006": {
+		"Name": "Vive Pro HMD",
+		"WatchmanVersion": "1526689969",
+		"WatchmanBin": "tools/lighthouse/firmware/watchman_v3/watchmanv3_app_20180518_v1526689969.fw",
+		"WatchmanArgs" : "--target=application",
+		"WatchmanFPGAVersion": "531",
+		"WatchmanFPGABin": "tools/lighthouse/firmware/watchman_v3/watchmanv3_fpga_20180123_v2_19.fw",
+		"WatchmanFPGAArgs" : "--target=ice40",
+		"DongleVersion": "1461100729",
+		"DongleBin": "tools/lighthouse/firmware/vr_controller/archive/htc_vrc_dongle_1461100729_2016_04_19.bin",
+		"CameraVersion": "12884967859",
+		"CameraBin": "tools/lighthouse/firmware/htc/CAMBRIDGE_0003000101B3.bin",
+		"DisplayVersion": "2105637",
+		"DisplayBin": "tools/lighthouse/firmware/htc/Encrypt_APP_0000000000202125.bin",
+		"DisplayFPGAVersion": "6",
+		"DisplayFPGABin": "tools/lighthouse/firmware/htc/Encrypt_FPGA_M_6.bin",
+		"AudioVersion": "6",
+		"AudioBin": "tools/lighthouse/firmware/htc/Encrypt_CODEC_6.bin",
+		"AudioBridgeVersion": "288",
+		"AudioBridgeBin": "tools/lighthouse/firmware/htc/Encrypt_AUDIOBRIDGE_0120.bin",
+		"ImageBridgeVersion": "9",
+		"ImageBridgeBin": "tools/lighthouse/firmware/htc/Encrypt_IBRIDGE_9.bin",
+		"IsManual": false
+	},
+	"0x81020006": {
+		"Name": "Vive Pro Controller",
+		"CanIdentify" : true,
+		"VRCVersion": "1526689969",
+		"VRCBin": "tools/lighthouse/firmware/watchman_v3/watchmanv3_app_20180518_v1526689969.fw",
+		"VRCArgs" : "--target=application",
+		"WatchmanFPGAVersion": "531",
+		"WatchmanFPGABin": "tools/lighthouse/firmware/watchman_v3/watchmanv3_fpga_20180123_v2_19.fw",
+		"WatchmanFPGAArgs" : "--target=ice40",
+		"RadioVersion" : "1518811657",
+		"RadioBin" :  "tools/lighthouse/firmware/watchman_v3/watchmanv3_module_20180216_v1518811657.fw",
+		"RadioArgs" : "--target=nrf52",
+		"IsManual": false
+	},
+	"0x84020006" : {
+		"Name" : "hTC Tracker 2.0.0",
+		"CanIdentify" : false,
+		"VRCVersion": "1541806442",
+		"VRCBin": "tools/lighthouse/firmware/watchman_v3/watchmanv3_app_20181109_v1541806442.fw",
+		"VRCArgs" : "--target=application",
+		"WatchmanFPGAVersion": "531",
+		"WatchmanFPGABin": "tools/lighthouse/firmware/watchman_v3/watchmanv3_fpga_20180123_v2_19.fw",
+		"WatchmanFPGAArgs" : "--target=ice40",
+		"RadioVersion" : "1518811657",
+		"RadioBin" :  "tools/lighthouse/firmware/watchman_v3/watchmanv3_module_20180216_v1518811657.fw",
+		"RadioArgs" : "--target=nrf52",
+		"IsManual": false
+	},
+	"version" : "3"
+}
