@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "cs_CZ",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Rozměry kódovaného obrazu",
+	"Setting_streamFormatWidth": "Rozměry kódovaného obrazu (v px)",
+	"Setting_automaticBandwidth": "Cílová rychlost připojení",
+	"Setting_targetBandwidth": "Cílová rychlost připojení (v Mbit/s)",
+	"Setting_10bit": "Použít kódování s 10bitovou hloubkou",
+	"Setting_showAdvancedGraphs": "Zobrazit debuggovací graf",
+	"Setting_enableEncryption": "Šifrování",
+	"Setting_automatic_on": "Automaticky",
+	"Setting_automatic_off": "Manuálně",
+	"Setting_clientVersion": "Verze klienta",
+	"Setting_useOSC": "Povolit OSC",
+	"Setting_useOSCEyes": "Sdílet data sledování očí s jinými aplikacemi na tomto PC pomocí OSC",
+	"Setting_useOSCFace": "Sdílet data sledování obličeje s jinými aplikacemi na tomto PC pomocí OSC",
+	"Setting_OSCOutPort": "Výstupní port OSC",
+	"Setting_WirelessShutdownTimeout": "Po odpojení ukončit režim SteamVR",
+	"Setting_AllowVolumeControlSync": "Ovládání hlasitosti a ztlumení headsetu z režimu SteamVR"
+}

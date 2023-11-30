@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "ro_RO",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Dimensiunea imaginii video codificate",
+	"Setting_streamFormatWidth": "Dimensiunea imaginii video codificate (px)",
+	"Setting_automaticBandwidth": "Lățimea de bandă dorită",
+	"Setting_targetBandwidth": "Lățimea de bandă dorită (Mbps)",
+	"Setting_10bit": "Utilizează o codificare cu adâncimea de 10 biți",
+	"Setting_showAdvancedGraphs": "Afișează graficul de depanare",
+	"Setting_enableEncryption": "Criptare",
+	"Setting_automatic_on": "Automată",
+	"Setting_automatic_off": "Manuală",
+	"Setting_clientVersion": "Versiunea clientului",
+	"Setting_useOSC": "Activează OSC",
+	"Setting_useOSCEyes": "Partajează prin OSC datele de urmărire a ochilor cu alte aplicații de pe acest computer",
+	"Setting_useOSCFace": "Partajează prin OSC datele de urmărire a feței cu alte aplicații de pe acest computer",
+	"Setting_OSCOutPort": "Portul de ieșire OSC",
+	"Setting_WirelessShutdownTimeout": "După deconectare, părăsește SteamVR",
+	"Setting_AllowVolumeControlSync": "Controlează volumul căștilor și amuțește sunetul de la SteamVR"
+}

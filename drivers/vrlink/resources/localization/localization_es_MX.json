@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "es_MX",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Tamaño del video codificado",
+	"Setting_streamFormatWidth": "Tamaño del video codificado (px)",
+	"Setting_automaticBandwidth": "Ancho de banda objetivo",
+	"Setting_targetBandwidth": "Ancho de banda objetivo (Mbps)",
+	"Setting_10bit": "Usar codificación de profundidad de 10 bits",
+	"Setting_showAdvancedGraphs": "Mostrar gráfico de depuración",
+	"Setting_enableEncryption": "Cifrado",
+	"Setting_automatic_on": "Automático",
+	"Setting_automatic_off": "Manual",
+	"Setting_clientVersion": "Versión del cliente",
+	"Setting_useOSC": "Habilitar OSC",
+	"Setting_useOSCEyes": "Comparte datos de seguimiento ocular con otras aplicaciones en ese equipo a través de OSC",
+	"Setting_useOSCFace": "Comparte datos de seguimiento ocular con otras aplicaciones en ese equipo a través de OSC",
+	"Setting_OSCOutPort": "Puerto de salida OSC",
+	"Setting_WirelessShutdownTimeout": "Cierra SteamVR al desconectarte",
+	"Setting_AllowVolumeControlSync": "Controla el volumen y el silencio del visor desde SteamVR"
+}

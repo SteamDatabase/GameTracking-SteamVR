@@ -124,7 +124,7 @@
 "FrameTiming_Config" "%3s üzerinde\n  %1 tek kare kaybı\n  veya %2 çoklu kare kaybı görülürse uyar"
 
 "SteamVRSystemState_Off" "Kapalı"
-"SteamVRSystemState_Ready" "Oyunda"
+"SteamVRSystemState_Ready" "Çalışıyor"
 "SteamVRSystemState_Connecting" "Aranıyor..."
 "SteamVRSystemState_Standby" "Beklemede"
 "SteamVRSystemState_Shutdown" "VR kapatılıyor..."

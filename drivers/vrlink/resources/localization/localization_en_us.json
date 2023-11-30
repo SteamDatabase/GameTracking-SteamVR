@@ -1,0 +1,22 @@
+{
+	"language_tag": "en_US",
+
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Encoded Video Size",
+	"Setting_streamFormatWidth": "Encoded Video Size (px)",
+	"Setting_automaticBandwidth": "Target Bandwidth",
+	"Setting_targetBandwidth": "Target Bandwidth (Mbps)",
+	"Setting_10bit": "Use 10 bit depth encoding",
+	"Setting_showAdvancedGraphs": "Show Debug Graph",
+	"Setting_enableEncryption": "Encryption",
+	"Setting_automatic_on": "Auto",
+	"Setting_automatic_off": "Manual",
+	"Setting_clientVersion": "Client Version",
+	"Setting_useOSC": "Enable OSC",
+	"Setting_useOSCEyes": "Share eye tracking data to other apps on this PC via OSC",
+	"Setting_useOSCFace": "Share face tracking data to other apps on this PC via OSC",
+	"Setting_OSCOutPort": "OSC Output Port",
+	"Setting_WirelessShutdownTimeout": "On disconnect, exit SteamVR after",
+	"Setting_AllowVolumeControlSync": "Control headset volume and mute from SteamVR"
+
+}

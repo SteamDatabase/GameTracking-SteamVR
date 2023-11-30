@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "zh_CN",
+	"Settings_Title": "Steam 流式应用",
+	"Setting_automaticStreamFormatWidth": "已编码视频的大小",
+	"Setting_streamFormatWidth": "已编码视频的大小（像素）",
+	"Setting_automaticBandwidth": "目标带宽",
+	"Setting_targetBandwidth": "目标带宽（Mbps）",
+	"Setting_10bit": "使用 10 位深度编码",
+	"Setting_showAdvancedGraphs": "显示调试图",
+	"Setting_enableEncryption": "加密",
+	"Setting_automatic_on": "自动",
+	"Setting_automatic_off": "手动",
+	"Setting_clientVersion": "客户端版本",
+	"Setting_useOSC": "启用 OSC",
+	"Setting_useOSCEyes": "通过 OSC 将眼动追踪数据共享至此 PC 上的其他应用",
+	"Setting_useOSCFace": "通过 OSC 将人脸追踪数据共享至此 PC 上的其他应用",
+	"Setting_OSCOutPort": "OSC 输出端口",
+	"Setting_WirelessShutdownTimeout": "断开连接时，退出 SteamVR",
+	"Setting_AllowVolumeControlSync": "从 SteamVR 控制头戴式显示器音量并静音"
+}

@@ -16,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$4P($
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -35,7 +34,6 @@ $4P($
 )t$ H
 )t$0H
 )t$@H
-*3k]/
 *uXI;
 +Xt@(
 +o'q)}
@@ -125,7 +123,6 @@ $4P($
 .data
 .data$r
 .edata
-.f?w0
 .idata$2
 .idata$3
 .idata$4
@@ -184,7 +181,7 @@ $4P($
 220323000000Z
 220801000000Z
 230714000000Z
-231117185048Z0/
+231127211516Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -209,11 +206,10 @@ $4P($
 8_^][
 9D$xu
 9D$|toH
+9lQdesJ
 < t+<
 </u#H
 <0:08
-<0y%.
-<GC|D
 <unknown>
 =rIQU
 >0<0:
@@ -670,7 +666,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSH
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -899,7 +894,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-c?QG8X
 cs_cs
 czech
 d$`H=
@@ -934,6 +928,7 @@ german
 gfffffffH
 gfffffffI
 greek
+hE`\_
 h_^[]
 handlers
 http://ocsp.digicert.com0A
@@ -1033,6 +1028,7 @@ system.desktop.%d
 system.desktop.pointer
 system.window.%llu
 systemui_dashboard
+t#d\;
 t$ AVH
 t$ AWH
 t$ E3
@@ -1078,7 +1074,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
-wYlR]X
 window_view_created
 window_view_destroyed
 windows

@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "da_DK",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Indkodet videostørrelse",
+	"Setting_streamFormatWidth": "Indkodet videostørrelse (px)",
+	"Setting_automaticBandwidth": "Tilsigtet båndbredde",
+	"Setting_targetBandwidth": "Tilsigtet båndbredde (Mbps)",
+	"Setting_10bit": "Brug 10 bit-dybdekodning",
+	"Setting_showAdvancedGraphs": "Vis fejlfindingsgraf",
+	"Setting_enableEncryption": "Kryptering",
+	"Setting_automatic_on": "Automatisk",
+	"Setting_automatic_off": "Manuelt",
+	"Setting_clientVersion": "Klientversion",
+	"Setting_useOSC": "Aktiver OSC",
+	"Setting_useOSCEyes": "Del øjesporingsdata med andre applikationer på denne PC via OSC",
+	"Setting_useOSCFace": "Del ansigtssporingsdata med andre applikationer på denne PC via OSC",
+	"Setting_OSCOutPort": "OSC-outputport",
+	"Setting_WirelessShutdownTimeout": "Afslut SteamVR efter afbrydelse",
+	"Setting_AllowVolumeControlSync": "Styring af headsetlydstyrke og dæmpning fra SteamVR"
+}

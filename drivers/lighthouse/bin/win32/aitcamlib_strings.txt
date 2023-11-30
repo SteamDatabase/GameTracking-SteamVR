@@ -172,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231117184217Z0/
+231127210040Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -389,7 +389,6 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
-Dd'b<
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -589,7 +588,6 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-We|8<}%
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
@@ -852,5 +850,6 @@ zlib corrupt
 {un'%
 |Lu?c
 }LuHO
+~.kT?
 ~qj#k"
 ~t&LN

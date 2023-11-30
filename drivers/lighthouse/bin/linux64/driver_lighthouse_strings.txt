@@ -898,7 +898,6 @@ $@
 17CImuTrackerThread
 17CLinuxVideoStream
 18
-18:39:32
 18IUsbDeviceCallback
 19
 19CVkGarbageCollector
@@ -907,6 +906,7 @@ $@
 1e+9999
 2
 20
+20:55:36
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRFramerateGovernor
@@ -4921,7 +4921,7 @@ Not the preferred basestation
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Nov
-Nov 17 2023
+Nov 27 2023
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -15535,7 +15535,6 @@ std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, 
 std::pair<std::_Rb_tree_iterator<unsigned int>, bool> std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_insert_unique<unsigned int const&>(unsigned int const&)
 std::pair<std::_Rb_tree_iterator<vortex::CSyncDetect::BasestationInfo_t const*>, bool> std::_Rb_tree<vortex::CSyncDetect::BasestationInfo_t const*, vortex::CSyncDetect::BasestationInfo_t const*, std::_Identity<vortex::CSyncDetect::BasestationInfo_t const*>, std::less<vortex::CSyncDetect::BasestationInfo_t const*>, std::allocator<vortex::CSyncDetect::BasestationInfo_t const*> >::_M_insert_unique<vortex::CSyncDetect::BasestationInfo_t const*>(vortex::CSyncDetect::BasestationInfo_t const*&&)
 std::pair<std::__detail::_Node_iterator<std::pair<std::string const, CVkExtensionEntry>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_emplace<char const*&, char const*&>(std::integral_constant<bool, true>, char const*&, char const*&)
-std::pair<std::__detail::_Node_iterator<std::pair<std::string const, std::string>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_emplace<std::pair<std::string, std::string> >(std::integral_constant<bool, true>, std::pair<std::string, std::string>&&)
 std::pair<std::string const, CVkExtensionEntry>::~pair()
 std::pair<std::string const, std::shared_ptr<vortex::CLighthouseInput::CConnection> >::~pair()
 std::pair<std::string const, std::string>::~pair()

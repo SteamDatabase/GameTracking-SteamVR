@@ -163,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184601Z0/
+231127211029Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -187,8 +187,9 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-99M0P\b
+;,H%;
 <0:08
+=E;[loV
 =rIQU
 >0<0:
 >Mp$d
@@ -513,7 +514,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
-NcFo[
 No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
@@ -583,12 +583,14 @@ UWATAUAVH
 UWATAVAWH
 UWAVH
 UWAWH
+UZ	\@ZM
 Unable to parse token length
 UnhandledExceptionFilter
 Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
+Uu9KU
 V H+V
 V I9V(t L
 VATAUAVAWH
@@ -734,6 +736,7 @@ collectComments
 d$ UAVAWH
 d$PE3
 d$`H=
+dKOLIi
 deque<T> too long
 description
 disable_environment
@@ -823,6 +826,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+qLA43CT
 rejectDupKeys
 runtime
 s t#fff

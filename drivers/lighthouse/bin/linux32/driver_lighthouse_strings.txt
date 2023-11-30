@@ -1859,6 +1859,7 @@ $tI
 .L581
 .L582
 .L583
+.L584
 .L586
 .L588
 .L589
@@ -1867,7 +1868,6 @@ $tI
 .L591
 .L592
 .L593
-.L597
 .L598
 .L599
 .L6
@@ -2486,13 +2486,13 @@ $tI
 17CImuTrackerThread
 17CLinuxVideoStream
 18
-18:39:24
 18IUsbDeviceCallback
 19
 19CWirelessDecoderWv2
 1e+9999
 2
 20
+20:55:31
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
@@ -5980,7 +5980,7 @@ Not the preferred basestation
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Nov
-Nov 17 2023
+Nov 27 2023
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -13192,6 +13192,7 @@ std::_Hashtable<std::pair<void const*, char const*>, std::pair<std::pair<void co
 std::_Hashtable<std::string, std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>, std::allocator<std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*> >, std::__detail::_Select1st, std::equal_to<std::string>, google::protobuf::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned int, std::string const&, unsigned int) const
 std::_Hashtable<std::string, std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>, std::allocator<std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*> >, std::__detail::_Select1st, std::equal_to<std::string>, google::protobuf::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned int, unsigned int, std::__detail::_Hash_node<std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>, true>*)
 std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned int, std::string const&, unsigned int) const
+std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned int, unsigned int, std::__detail::_Hash_node<std::pair<std::string const, std::string>, true>*, unsigned int)
 std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned int, unsigned int const&)
 std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find(std::string const&)
 std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned int, std::string const&, unsigned int) const
@@ -16138,7 +16139,6 @@ std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, 
 std::pair<std::_Rb_tree_iterator<unsigned int>, bool> std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_insert_unique<unsigned int const&>(unsigned int const&)
 std::pair<std::_Rb_tree_iterator<vortex::CSyncDetect::BasestationInfo_t const*>, bool> std::_Rb_tree<vortex::CSyncDetect::BasestationInfo_t const*, vortex::CSyncDetect::BasestationInfo_t const*, std::_Identity<vortex::CSyncDetect::BasestationInfo_t const*>, std::less<vortex::CSyncDetect::BasestationInfo_t const*>, std::allocator<vortex::CSyncDetect::BasestationInfo_t const*> >::_M_insert_unique<vortex::CSyncDetect::BasestationInfo_t const*>(vortex::CSyncDetect::BasestationInfo_t const*&&)
 std::pair<std::__detail::_Node_iterator<std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>, false, true>, bool> std::_Hashtable<std::pair<void const*, char const*>, std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>, std::allocator<std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*> >, std::__detail::_Select1st, google::protobuf::(anonymous namespace)::PointerStringPairEqual, google::protobuf::(anonymous namespace)::PointerStringPairHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert<std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*> const&>(std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*> const&, std::integral_constant<bool, true>) [clone .isra.822]
-std::pair<std::__detail::_Node_iterator<std::pair<std::string const, std::string>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_emplace<std::pair<std::string, std::string> >(std::integral_constant<bool, true>, std::pair<std::string, std::string>&&)
 std::pair<std::__detail::_Node_iterator<std::string, true, true>, bool> std::_Hashtable<std::string, std::string, std::allocator<std::string>, std::__detail::_Identity, std::equal_to<std::string>, google::protobuf::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::string const&>(std::string const&, std::integral_constant<bool, true>) [clone .isra.733]
 std::pair<std::string const, std::shared_ptr<vortex::CLighthouseInput::CConnection> >::~pair()
 std::pair<std::string const, std::string>::~pair()

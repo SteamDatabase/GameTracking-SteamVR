@@ -1187,6 +1187,8 @@
               (l.properties.undocked = this.props.undocked),
               (l.properties.modal = this.props.modal),
               (l.properties["requires-laser"] = this.props.requires_laser),
+              (l.properties["allow-input-capture"] =
+                this.props.allow_input_capture),
               (l.properties["hide-laser-when-clicking"] =
                 this.props.hide_lasermouse_when_clicking),
               (l.properties["make-overlays-interactive-if-visible"] =
@@ -2641,4 +2643,4 @@
   var o = i.O(void 0, [968, 683], () => i(844));
   o = i.O(o);
 })();
-//# sourceMappingURL=fallback.js.map?v=3962d00169ad6441fdf7
+//# sourceMappingURL=fallback.js.map?v=0d8f889af10d79d77c89

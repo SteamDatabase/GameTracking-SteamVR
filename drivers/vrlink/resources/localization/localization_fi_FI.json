@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "fi_FI",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Koodatun videon koko",
+	"Setting_streamFormatWidth": "Koodatun videon koko (pikseliä)",
+	"Setting_automaticBandwidth": "Tavoiteltava kaistanleveys",
+	"Setting_targetBandwidth": "Tavoiteltava kaistanleveys (Mbit/s)",
+	"Setting_10bit": "Käytä 10-bittistä syvyyskoodausta",
+	"Setting_showAdvancedGraphs": "Näytä virheenkorjauskaavio",
+	"Setting_enableEncryption": "Salaus",
+	"Setting_automatic_on": "Automaattinen",
+	"Setting_automatic_off": "Manuaalinen",
+	"Setting_clientVersion": "Asiakasohjelman versio",
+	"Setting_useOSC": "Ota OSC käyttöön",
+	"Setting_useOSCEyes": "Jaa silmien seurantatiedot muille tämän tietokoneen sovelluksille OSC:n välityksellä",
+	"Setting_useOSCFace": "Jaa kasvojen seurantatiedot muille tämän tietokoneen sovelluksille OSC:n välityksellä",
+	"Setting_OSCOutPort": "OSC-ulostulon portti",
+	"Setting_WirelessShutdownTimeout": "Poistu SteamVR:stä, kun yhteys katkaistaan",
+	"Setting_AllowVolumeControlSync": "Hallitse kuulokkeiden äänenvoimakkuutta ja mykistystä SteamVR:n välityksellä"
+}

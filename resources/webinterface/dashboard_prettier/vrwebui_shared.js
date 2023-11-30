@@ -2269,6 +2269,12 @@
                   label: (0, m.Xx)("#Settings_AutoShowGameTheater"),
                   visibility: _.VK.Advanced,
                 }),
+                c.createElement(_.wy, {
+                  name: "/settings/dashboard/inputCaptureEnabled",
+                  title: (0, m.Xx)("#Settings_InputCaptureEnabledDesc"),
+                  label: (0, m.Xx)("#Settings_InputCaptureEnabled"),
+                  visibility: _.VK.Advanced,
+                }),
               )
             : null;
         }
@@ -19103,4 +19109,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=554e73c57a209c992995
+//# sourceMappingURL=vrwebui_shared.js.map?v=fc479fcc53a1bc47b921

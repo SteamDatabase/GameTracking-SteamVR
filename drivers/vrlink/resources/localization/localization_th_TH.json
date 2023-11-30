@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "th_TH",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "ขนาดวิดีโอที่เข้ารหัส",
+	"Setting_streamFormatWidth": "ขนาดวิดีโอที่เข้ารหัส (px)",
+	"Setting_automaticBandwidth": "แบนด์วิดท์เป้าหมาย",
+	"Setting_targetBandwidth": "แบนด์วิดท์เป้าหมาย (Mbps)",
+	"Setting_10bit": "ใช้การเข้ารหัสเชิงลึก 10 บิต",
+	"Setting_showAdvancedGraphs": "แสดงกราฟดีบัก",
+	"Setting_enableEncryption": "การเข้ารหัส",
+	"Setting_automatic_on": "อัตโนมัติ",
+	"Setting_automatic_off": "ดำเนินการเอง",
+	"Setting_clientVersion": "เวอร์ชันไคลเอนต์",
+	"Setting_useOSC": "เปิดใช้งาน OSC",
+	"Setting_useOSCEyes": "แบ่งปันข้อมูลการติดตามสายตาไปยังแอปอื่น ๆ บน PC นี้ผ่าน OSC",
+	"Setting_useOSCFace": "แบ่งปันข้อมูลการติดตามใบหน้าไปยังแอปอื่น ๆ บน PC นี้ผ่าน OSC",
+	"Setting_OSCOutPort": "พอร์ตเอาต์พุต OSC",
+	"Setting_WirelessShutdownTimeout": "ออกจาก SteamVR หลังตัดการเชื่อมต่อ",
+	"Setting_AllowVolumeControlSync": "ควบคุมระดับเสียงของเครื่องสวมศีรษะและปิดเสียงจาก SteamVR"
+}

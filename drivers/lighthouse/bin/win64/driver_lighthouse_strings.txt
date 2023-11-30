@@ -32,6 +32,7 @@
 	#jT$
 	CODE_SIZE
 	D$HA
+	E.1p
 	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
 	TYPE_BOOL
 	TYPE_ENUM
@@ -596,7 +597,6 @@ $w!Hc
 %u != %zu
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
-%|<|Gv
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &D9c0t
@@ -1243,6 +1243,7 @@ $w!Hc
 /D$hs:I
 /D8pH
 /F@v	L
+/Kq(e
 /Z v"
 /bin/mail
 /delivery_rate
@@ -1395,7 +1396,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231117184424Z0/
+231127210900Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1572,6 +1573,7 @@ $w!Hc
 ; expected 
 ; last read: '
 ;.u H
+;8(A\
 ;<$uCB
 ;Ch}(
 ;D$lu H
@@ -2234,6 +2236,7 @@ Bellevue1
 Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
 Beyond
 Bf9LB
+Bi5:B
 Bigscreen
 Bigscreen Beyond
 Boolean default must be true or false.
@@ -2242,7 +2245,6 @@ Bootstrap failed because no IMU data was available%s
 Bootstrap pose is out of range at %0.1fm
 BootstrapFinished setting tilt base to %08X
 Boy/Girl
-Bu<#)
 Buffer
 BufferView
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
@@ -3190,7 +3192,6 @@ Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
 Eye Displays must be adjacent: left (%d, %d), right (%d, %d)
-E|6VvB
 E|A;Epr
 F 9C@|
 F 9G |
@@ -3565,7 +3566,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=#A
+H;=cB
+H;=sA
+H;={:
 H;Axt
 H;B0t
 H;C sAH
@@ -3628,7 +3631,6 @@ HA^A]_[
 HA^_^[
 HA_A^A]_][
 HA_A^][
-HC&Rkh
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
 HL9-So(
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
@@ -5693,6 +5695,7 @@ _D9c0tWD
 _D9k0tWD
 _D9s0tWD
 _D9w0tWD
+_ES`=
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -5771,7 +5774,6 @@ _wstat64i32
 `	P!A
 ` UAVAWH
 `.rdata
-`1H"N
 `A^_]
 `A^_^
 `A_A]A\_^][
@@ -6346,7 +6348,7 @@ gyro_bias
 h AVH
 h UAVAWH
 h VAVAWH
-hA\_^[
+hA\^][
 hA^A\_^[]
 hA^A]^[
 hA_A^_^][
@@ -6397,6 +6399,7 @@ https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
 hu_hu
 hungarian
 i H9i0u
+i2z"3
 iauds
 ideal_period
 identifier_value
@@ -7385,6 +7388,7 @@ v9fff
 v=Y]Bv
 v@L;D$P
 vE;E`M
+vF"P(
 vHcD$LH
 vOL9-
 vQO+t

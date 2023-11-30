@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "hu_HU",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Kódolt videó mérete",
+	"Setting_streamFormatWidth": "Kódolt videó mérete (képpont)",
+	"Setting_automaticBandwidth": "Cél sávszélesség",
+	"Setting_targetBandwidth": "Cél sávszélesség (Mbps)",
+	"Setting_10bit": "10 bites mélységű kódolás használata",
+	"Setting_showAdvancedGraphs": "Hibakeresési grafikon mutatása",
+	"Setting_enableEncryption": "Titkosítás",
+	"Setting_automatic_on": "Automatikus",
+	"Setting_automatic_off": "Kézi",
+	"Setting_clientVersion": "Kliensverzió",
+	"Setting_useOSC": "OSC bekapcsolása",
+	"Setting_useOSCEyes": "Szemkövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül.",
+	"Setting_useOSCFace": "Arckövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül.",
+	"Setting_OSCOutPort": "OSC kimeneti port",
+	"Setting_WirelessShutdownTimeout": "Lecsatlakozáskor kilépés a SteamVR-ből ennyi idő után:",
+	"Setting_AllowVolumeControlSync": "Fejszett-hangerő és némítás vezérlése a SteamVR-ből"
+}

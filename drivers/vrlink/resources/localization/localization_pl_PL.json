@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "pl_PL",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Rozmiar zakodowanego wideo",
+	"Setting_streamFormatWidth": "Rozmiar zakodowanego wideo (w pikselach)",
+	"Setting_automaticBandwidth": "Docelowa przepustowość sieci",
+	"Setting_targetBandwidth": "Docelowa przepustowość sieci (Mb/s)",
+	"Setting_10bit": "Użyj kodowania 10-bitowej głębi",
+	"Setting_showAdvancedGraphs": "Pokaż wykres debugowania",
+	"Setting_enableEncryption": "Szyfrowanie",
+	"Setting_automatic_on": "Automatyczne",
+	"Setting_automatic_off": "Ręczne",
+	"Setting_clientVersion": "Wersja klienta",
+	"Setting_useOSC": "Włącz OSC",
+	"Setting_useOSCEyes": "Udostępniaj dane dotyczące śledzenia oczu innym aplikacjom na tym PC z użyciem OSC.",
+	"Setting_useOSCFace": "Udostępniaj dane dotyczące śledzenia mimiki twarzy innym aplikacjom na tym PC z użyciem OSC.",
+	"Setting_OSCOutPort": "Port wyjścia OSC",
+	"Setting_WirelessShutdownTimeout": "Jeśli połączenie zostanie przerwane, zamknij SteamVR",
+	"Setting_AllowVolumeControlSync": "Kontroluj głośność i wyciszanie gogli VR z poziomu SteamVR"
+}

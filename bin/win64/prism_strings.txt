@@ -310,6 +310,7 @@ $9E0u
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
+'\mX;*
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -322,6 +323,7 @@ $9E0u
 (L$pD
 (d$pD
 (f*^[0
+(k X}xhS
 (l$0L
 (l$@D
 (l$`H
@@ -530,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231117184317Z0/
+231127210758Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -548,7 +550,6 @@ $9E0u
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
-6Noug
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -730,6 +731,7 @@ AddAccessAllowedAce failed for steam. GetLastError returned: %d
 AddAccessAllowedAce failed for test app. GetLastError returned: %d
 AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
 AddStage and CopyStages are mutually exclusive.
+AjX4$
 Already initialized
 Apply blur filter
 Apply median filter
@@ -738,8 +740,6 @@ Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
-B+4$/
-Bbv@k
 Bellevue1
 Blank
 C(H+C H
@@ -1001,7 +1001,6 @@ DumpHistory
 DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
-E)dJ(
 E8~(t\
 E\f9A
 EkH9M
@@ -1016,7 +1015,6 @@ EventWriteString
 EwH9S
 ExH9Q
 Executable: %s
-E~h,r
 F(H9A u)I
 F0H9A(u
 FACET_VULKAN_VALIDATION
@@ -1348,7 +1346,6 @@ OpenSCManagerW
 OpenServiceW
 Out of thread local storage!
 Outer
-P2,io
 PA^_^
 PA_A]^][
 PA_A^A]A\_
@@ -1427,6 +1424,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSEK
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1674,6 +1672,7 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
+^Q$a|6
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1834,6 +1833,7 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
+eJpXt
 effffff
 f9+t4
 f98tZH
@@ -1857,7 +1857,6 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
-gOh3]
 gfffffffA
 gfffffffH
 gfffffffH+

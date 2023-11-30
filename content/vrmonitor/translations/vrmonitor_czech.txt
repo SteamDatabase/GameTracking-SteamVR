@@ -1239,7 +1239,7 @@
 "HeadsetView_PressKeyToExit" "Stiskněte „%1“ pro ukončení režimu celé obrazovky"
 "HeadsetView_FullscreenButtonLabel" "Celá obrazovka"
 "HeadsetView_DockButtonLabel" "Spojit se stavem"
-"HeadsetView_UndockButtonLabel" "Odpojit od stavu"
+"HeadsetView_UndockButtonLabel" "Oddělit od stavu"
 "HeadsetView_HideButtonLabel" "Skrýt VR pohled"
 "HeadsetView_EyeMode_Both" "Obě oči"
 "HeadsetView_EyeMode_Left" "Levé oko"

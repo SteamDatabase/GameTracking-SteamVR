@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "vi_VN",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Kích thước video đã mã hóa",
+	"Setting_streamFormatWidth": "Kích thước video đã mã hóa (px)",
+	"Setting_automaticBandwidth": "Băng thông mục tiêu",
+	"Setting_targetBandwidth": "Băng thông mục tiêu (Mbps)",
+	"Setting_10bit": "Sử dụng mã hóa độ sâu màu 10 bit",
+	"Setting_showAdvancedGraphs": "Hiện đồ thị debug",
+	"Setting_enableEncryption": "Mã hóa",
+	"Setting_automatic_on": "Tự động",
+	"Setting_automatic_off": "Thủ công",
+	"Setting_clientVersion": "Phiên bản phần mềm",
+	"Setting_useOSC": "Bật OSC",
+	"Setting_useOSCEyes": "Chia sẻ dữ liệu theo dõi mắt tới các ứng dụng khác trong máy tính qua OSC",
+	"Setting_useOSCFace": "Chia sẻ dữ liệu theo dõi khuôn mặt tới các ứng dụng khác trong máy tính qua OSC",
+	"Setting_OSCOutPort": "Cổng xuất OSC",
+	"Setting_WirelessShutdownTimeout": "Khi ngắt kết nối, thoát SteamVR",
+	"Setting_AllowVolumeControlSync": "Kiểm soát âm lượng và tắt tiếng tai nghe từ SteamVR"
+}

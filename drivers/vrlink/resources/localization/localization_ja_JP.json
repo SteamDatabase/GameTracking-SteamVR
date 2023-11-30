@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "ja_JP",
+	"Settings_Title": "Steamリンク",
+	"Setting_automaticStreamFormatWidth": "エンコードされた動画サイズ",
+	"Setting_streamFormatWidth": "エンコードされた動画サイズ（px）",
+	"Setting_automaticBandwidth": "ターゲット帯域幅",
+	"Setting_targetBandwidth": "ターゲット帯域幅（Mbps）",
+	"Setting_10bit": "10ビット深度エンコードを使用",
+	"Setting_showAdvancedGraphs": "デバッググラフを表示",
+	"Setting_enableEncryption": "暗号化",
+	"Setting_automatic_on": "自動",
+	"Setting_automatic_off": "手動",
+	"Setting_clientVersion": "クライアントバージョン",
+	"Setting_useOSC": "OSCを有効化",
+	"Setting_useOSCEyes": "OSC経由でこのPCの他のアプリにアイトラッキングデータを共有",
+	"Setting_useOSCFace": "OSC経由でこのPCの他のアプリにフェイストラッキングデータを共有",
+	"Setting_OSCOutPort": "OSC出力ポート",
+	"Setting_WirelessShutdownTimeout": "切断時にSteamVRを終了",
+	"Setting_AllowVolumeControlSync": "SteamVRからヘッドセットの音量とミュートをコントロールする"
+}

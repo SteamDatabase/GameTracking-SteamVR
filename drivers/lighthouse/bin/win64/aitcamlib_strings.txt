@@ -25,6 +25,7 @@
 #?RGBE
 #D9c0t
 #D9{0t
+$^}Z74
 %,3:;4-&
 %9k0t
 %9{0t
@@ -172,13 +173,12 @@
 0}0i1
 1/2/4/8/16-bit only
 130801120000Z
-2-W<!
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231117184250Z0/
+231127210736Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,7 +193,6 @@
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6 JGHq
 6*f(_
 6I]Dc
 6OB,n_
@@ -380,6 +379,7 @@ HcD$x
 HcF$H
 HcL$4
 Hct$@L+
+HdnF?
 Hu"Hc
 I(+K H
 IVRApplicationsInternal_XXX
@@ -458,6 +458,7 @@ MainThrd
 MbP?{
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Mi@#n
 Not Available
 NotFound
 Out of thread local storage!
@@ -644,7 +645,6 @@ _wgetcwd
 `.rdata
 `A_A^A]A\_^]
 `A__^
-a iY(BfD
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -726,6 +726,7 @@ danish
 de_de
 deque<T> too long
 driver_lighthouse
+dz>*U
 el_el
 en_us
 english
@@ -831,10 +832,12 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
+q=~dV
 rND9{0t
 read past buffer
 ro_ro
 romanian
+rpwS_
 ru_ru
 russian
 schinese
@@ -906,6 +909,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+x{;m\
 zh_cn
 zh_tw
 zlib corrupt

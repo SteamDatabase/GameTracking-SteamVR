@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "nl_NL",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Formaat gecodeerde video",
+	"Setting_streamFormatWidth": "Formaat gecodeerde video (px)",
+	"Setting_automaticBandwidth": "Doelbandbreedte",
+	"Setting_targetBandwidth": "Doelbandbreedte (Mbps)",
+	"Setting_10bit": "10 bit-dieptecodering gebruiken",
+	"Setting_showAdvancedGraphs": "Foutopsporingsgrafiek weergeven",
+	"Setting_enableEncryption": "Versleuteling",
+	"Setting_automatic_on": "Auto",
+	"Setting_automatic_off": "Handmatig",
+	"Setting_clientVersion": "Client-versie",
+	"Setting_useOSC": "OSC inschakelen",
+	"Setting_useOSCEyes": "Gegevens over oogvolging delen met andere apps op deze pc via OSC",
+	"Setting_useOSCFace": "Gegevens over gezichtsvolging delen met andere apps op deze pc via OSC",
+	"Setting_OSCOutPort": "OSC-uitvoerpoort",
+	"Setting_WirelessShutdownTimeout": "SteamVR afsluiten na het verbreken van de verbinding",
+	"Setting_AllowVolumeControlSync": "Volume en dempen van de headset regelen via SteamVR"
+}

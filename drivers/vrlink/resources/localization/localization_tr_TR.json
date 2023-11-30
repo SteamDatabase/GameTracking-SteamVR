@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "tr_TR",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Kodlanmış Video Boyutu",
+	"Setting_streamFormatWidth": "Kodlanmış Video Boyutu (piksel)",
+	"Setting_automaticBandwidth": "Hedef Bant Genişliği",
+	"Setting_targetBandwidth": "Hedef Bant Genişliği (Mbps)",
+	"Setting_10bit": "10 bit derinlik kodlaması kullan",
+	"Setting_showAdvancedGraphs": "Hata Ayıklama Grafiğini Göster",
+	"Setting_enableEncryption": "Şifreleme",
+	"Setting_automatic_on": "Otomatik",
+	"Setting_automatic_off": "Manuel",
+	"Setting_clientVersion": "İstemci Sürümü",
+	"Setting_useOSC": "OSC Etkinleştir",
+	"Setting_useOSCEyes": "OSC aracılığıyla göz izleme verilerini bu bilgisayardaki diğer uygulamalarla paylaş",
+	"Setting_useOSCFace": "OSC aracılığıyla yüz izleme verilerini bu bilgisayardaki diğer uygulamalarla paylaş",
+	"Setting_OSCOutPort": "OSC Çıktı Portu",
+	"Setting_WirelessShutdownTimeout": "Bağlantı kesilince SteamVR'dan çık",
+	"Setting_AllowVolumeControlSync": "Başlık sesini ve susturmayı SteamVR'dan kontrol et"
+}

@@ -1,8 +1,10 @@
 	!s99
  %41g
 !hn7!
+"olgW+xG
 ',=?k
 (f*^[0
+) B	B
 +Xt@(
 +o'q)}
 ,W5y+
@@ -36,7 +38,6 @@
 .idata$4
 .idata$5
 .idata$6
-.mCB|
 .rdata
 .rdata$r
 .rdata$zzzdbg
@@ -53,6 +54,7 @@
 .text$x
 .text$yd
 .xdata$x
+/$CHTx
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -71,6 +73,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+/wB,%
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
 0w0c1
@@ -80,13 +83,14 @@
 1+232;2
 130801120000Z
 1@1h1
+1O~if
 1d2|2
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231117184329Z0/
+231127210146Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -102,6 +106,7 @@
 380115120000Z0b1
 3:3I3X3
 3mq+<
+3yEvY
 4	5(555?5I5V5c5i5s5}5
 4	5N5T5u5
 4*4d4m4~4
@@ -160,7 +165,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-GM~]s4
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -189,7 +193,6 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-LS9dB
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
@@ -211,11 +214,12 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
+Xtq;tX
 Y9"SD
 Y__^[
+YfFj7
 [K]taM?
 ]J<0"0i3
-]wi\8Yu
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -279,7 +283,6 @@ memset
 modelNumber
 renderHeight
 renderWidth
-s4;0B_
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -293,8 +296,6 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-zf\T{
-{]#8`
 {un'%
 |Lu?c
 }LuHO

@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "bg_BG",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Размер на кодираното видео",
+	"Setting_streamFormatWidth": "Размер на кодираното видео (пиксели)",
+	"Setting_automaticBandwidth": "Целеви трафик",
+	"Setting_targetBandwidth": "Целеви трафик (Mb/сек.)",
+	"Setting_10bit": "Използване на 10-битово кодиране за дълбочина",
+	"Setting_showAdvancedGraphs": "Показване на графика за дълбочината",
+	"Setting_enableEncryption": "Криптиране",
+	"Setting_automatic_on": "Авт.",
+	"Setting_automatic_off": "Ръчно",
+	"Setting_clientVersion": "Версия на клиента",
+	"Setting_useOSC": "Включване на OSC",
+	"Setting_useOSCEyes": "Споделяне на данните за очното проследяване с други приложения на този компютър чрез OSC",
+	"Setting_useOSCFace": "Споделяне на данните за лицевото проследяване с други приложения на този компютър чрез OSC",
+	"Setting_OSCOutPort": "Порт за извеждане на OSC",
+	"Setting_WirelessShutdownTimeout": "При разкачване да се излиза от SteamVR след",
+	"Setting_AllowVolumeControlSync": "Контролиране на силата за звука и заглушаването на ВР шлема от SteamVR"
+}

@@ -44,6 +44,7 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !0(0/0.292E2
 !9~ t
+!QJ~d
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -92,7 +93,6 @@ $9^ t
 ' value is not an integer type.
 ',=?k
 '.5<=6/7>????????????????
-'Jq4>
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
 (182Y2
@@ -116,7 +116,6 @@ $9^ t
 -Infinity
 -startup
 .00cfg
-.:N1*x
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -245,6 +244,7 @@ $9^ t
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Q`B$
 .data
 .data$r
 .edata
@@ -462,7 +462,7 @@ $9^ t
 220801000000Z
 223S3
 230714000000Z
-231117184334Z0/
+231127210151Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -669,6 +669,7 @@ $9^ t
 6_6k6x6
 6d7v7
 6h8!:
+6z7]W.
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7
 7 7$7(7,70787P7`7d7h7l7t7
 7 858P8h8
@@ -1291,6 +1292,7 @@ GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
 GPUCountingSemaphore::Wait(%llu) FAILED!!
+Gb62b|+W
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -1316,6 +1318,7 @@ HeapAlloc
 HeapFree
 Hmd not found.
 HmdDriverFactory
+Hv+@X
 ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -1386,6 +1389,7 @@ IsDebuggerPresent
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J0+J(
+J=(%|n2
 J>@G_
 JSON string too short.
 JSONuTS
@@ -1584,7 +1588,6 @@ Y__^[
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
-\_A-3
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -1828,6 +1831,7 @@ dxgi.dll
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
+eeAw'
 el_el
 emissiveFactor
 emissiveTexture
@@ -1975,6 +1979,7 @@ joh(Z
 joints
 jsonid
 k0i0$
+k?,Kd
 ko_ko
 korean
 l2|X/gGe
@@ -2161,7 +2166,6 @@ ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s
-p%~8d
 p0t0x0|0
 pNewResource
 pNewResource->Load( absFilePath )
@@ -2451,7 +2455,6 @@ uwj	hTn
 uwj	h`n
 v	N+D$
 v=Y]Bv
-vJMY1
 value
 values
 vector<T> too long

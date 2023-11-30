@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "ko_KR",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "인코딩된 동영상 크기",
+	"Setting_streamFormatWidth": "인코딩된 동영상 크기(px)",
+	"Setting_automaticBandwidth": "목표 대역폭",
+	"Setting_targetBandwidth": "목표 대역폭(Mbps)",
+	"Setting_10bit": "10비트 심도 인코딩 사용",
+	"Setting_showAdvancedGraphs": "디버그 그래프 표시",
+	"Setting_enableEncryption": "암호화",
+	"Setting_automatic_on": "자동",
+	"Setting_automatic_off": "수동",
+	"Setting_clientVersion": "클라이언트 버전",
+	"Setting_useOSC": "OSC 활성화",
+	"Setting_useOSCEyes": "OSC를 통해 이 PC의 다른 앱과 시선 추적 데이터 공유",
+	"Setting_useOSCFace": "OSC를 통해 이 PC의 다른 앱과 얼굴 추적 데이터 공유",
+	"Setting_OSCOutPort": "OSC 출력 포트",
+	"Setting_WirelessShutdownTimeout": "연결 해제 시 SteamVR 종료",
+	"Setting_AllowVolumeControlSync": "SteamVR에서 헤드셋 음량 및 음소거 제어"
+}

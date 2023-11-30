@@ -1,0 +1,20 @@
+﻿{
+	"language_tag": "el_GR",
+	"Settings_Title": "Steam Link",
+	"Setting_automaticStreamFormatWidth": "Μέγεθος κωδικοποιημένου βίντεο",
+	"Setting_streamFormatWidth": "Μέγεθος κωδικοποιημένου βίντεο (πίξελ)",
+	"Setting_automaticBandwidth": "Επιθυμητό εύρος ζώνης",
+	"Setting_targetBandwidth": "Επιθυμητό εύρος ζώνης (Mbps)",
+	"Setting_10bit": "Χρήση κωδικοποίησης βάθους 10 bit",
+	"Setting_showAdvancedGraphs": "Εμφάνιση γραφήματος αποσφαλμάτωσης",
+	"Setting_enableEncryption": "Κρυπτογράφηση",
+	"Setting_automatic_on": "Αυτόματα",
+	"Setting_automatic_off": "Μη αυτόματα",
+	"Setting_clientVersion": "Έκδοση εφαρμογής",
+	"Setting_useOSC": "Ενεργοποίηση OSC",
+	"Setting_useOSCEyes": "Κοινοποίηση δεδομένων ανίχνευσης ματιών σε άλλες εφαρμογές σε αυτόν τον υπολογιστή μέσω OSC",
+	"Setting_useOSCFace": "Κοινοποίηση δεδομένων ανίχνευσης προσώπου σε άλλες εφαρμογές σε αυτόν τον υπολογιστή μέσω OSC",
+	"Setting_OSCOutPort": "Θύρα εξόδου OSC",
+	"Setting_WirelessShutdownTimeout": "Τερματισμός SteamVR μετά από αποσύνδεση",
+	"Setting_AllowVolumeControlSync": "Έλεγχος έντασης και σίγαση headset από το SteamVR"
+}

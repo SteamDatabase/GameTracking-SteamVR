@@ -35,7 +35,6 @@
 %%.%dg
 %2.2X
 %8.8X
-%lwxV#
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -229,7 +228,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184301Z0/
+231127210745Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -258,7 +257,6 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
 8_^][
-9DF]vz
 9\u-H
 9\u4H
 9sdu	@8s
@@ -367,7 +365,6 @@
 @SVAVH
 @SVAWH
 @SVWATAWH
-@SVWATH
 @SVWH
 @SWATAUAWH
 @SWAWH
@@ -701,7 +698,6 @@ Invalid address %s.
 Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
-I}'OA
 J>@G_
 K32EnumProcessModules
 K32EnumProcesses
@@ -788,6 +784,7 @@ O(H9N(|
 OXL9OPt
 OpenProcess
 Out of thread local storage!
+P#xkq
 PAIR -NONCE %6.6d
 PA^A]_^]
 PA^_]
@@ -809,7 +806,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSIC
+RSDS?
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1045,7 +1042,6 @@ Windows Vista
 Windows XP
 WriteFile
 XA]A\_^
-XDCR*3
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1164,6 +1160,7 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+f>>t^
 fD9&u
 fD9>uF
 false
@@ -1178,7 +1175,7 @@ gfffffffI
 gfffffffL
 gfffffffM
 graph
-hA\_^[
+hA\^][
 hA_A^A]A\^[
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1211,6 +1208,7 @@ invalid string position
 invalid vector<T> subscript
 invalid window size
 isxdigit
+i}Pu5
 jj@0HK4
 k0i0$
 l$ H;
@@ -1243,7 +1241,6 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
-p]DE9
 print
 punct
 r*=/N
@@ -1315,7 +1312,6 @@ tools
 u D8u
 u"fD;
 u'fD;
-u4~an
 uHfC;
 unknown compression method
 unknown zip result code
@@ -1339,7 +1335,6 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
-zAG()g
 {un'%
 {x\u!H
 {|?uWH
@@ -1368,7 +1363,6 @@ zAG()g
 |$xH;
 |Lu?c
 }LuHO
-~5|Cl
+~cv4I0
 ~qj#k"
 ~t&LN
-~v,U 

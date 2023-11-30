@@ -5,9 +5,9 @@
  9D$D
  A__^
  H3E H3E
-!	c64
 !hn7!
 ',=?k
+'Pg:#I
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -15,7 +15,6 @@
 (f*^[0
 (l$PD
 (t$pH
-)%`cx
 )D$ H
 )\$pD
 )d$`D
@@ -24,6 +23,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+,dfXxw
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -93,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184529Z0/
+231127211000Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,6 +105,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4^{aK
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -115,6 +116,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8W]jXj
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -160,7 +162,6 @@ A__][
 AuthD
 Bellevue1
 C(L95
-C=v1*2
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
@@ -258,7 +259,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NH0!p
 NPH9Q
 OD$DH
 OVR Runtime Init
@@ -307,6 +307,7 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
+U~1Y!>6
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -322,7 +323,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-Z@cTS
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -369,7 +369,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`e;k^
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -454,8 +453,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-rd6uA
-sH9py
 startup
 string too long
 strncpy
@@ -466,7 +463,6 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t%$ Ba	F
 tIL95f
 tXfff
 tdh.dll
@@ -477,7 +473,6 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
-zb\M2
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

@@ -18,20 +18,20 @@
           zA: () => P,
           Qu: () => x,
           vS: () => we,
-          l0: () => M,
+          l0: () => D,
           Pw: () => C,
           LL: () => d,
           GC: () => T,
           Ic: () => me,
           Vv: () => ve,
           xj: () => be,
-          xY: () => k,
+          xY: () => R,
           Kg: () => V,
           Uk: () => fe,
           QZ: () => c,
           zq: () => u,
           ZP: () => b,
-          sH: () => ke,
+          sH: () => Re,
           Z9: () => y,
           a0: () => E,
           qA: () => l,
@@ -62,7 +62,7 @@
           Zj: () => a.Zj,
           eQ: () => a.eQ,
           VW: () => ue,
-          wx: () => De,
+          wx: () => Me,
           Co: () => Fe,
           Kf: () => v,
           wU: () => m,
@@ -295,7 +295,7 @@
           })(u || (u = {}));
         let m = 0,
           v = -1;
-        var g, _, y, b, S, f, R, k, w, C, M, D, I, T, V, E, P, x;
+        var g, _, y, b, S, f, k, R, w, C, D, M, I, T, V, E, P, x;
         function O(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) {
@@ -539,14 +539,14 @@
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.NVIDIA = 1)] = "NVIDIA"),
               (e[(e.AMD = 2)] = "AMD");
-          })(R || (R = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Starting = 1)] = "Starting"),
               (e[(e.Quitting = 2)] = "Quitting"),
               (e[(e.Running = 3)] = "Running"),
               (e[(e.Waiting = 4)] = "Waiting");
-          })(k || (k = {})),
+          })(R || (R = {})),
           (function (e) {
             (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
               (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -566,7 +566,7 @@
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(M || (M = {})),
+          })(D || (D = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -579,7 +579,7 @@
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(D || (D = {})),
+          })(M || (M = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -921,14 +921,14 @@
             return (r.properties.opacity = this.props.value), [e, r];
           }
         }
-        var pe, me, ve, ge, _e, ye, be, Se, fe, Re, ke, we, Ce, Me;
+        var pe, me, ve, ge, _e, ye, be, Se, fe, ke, Re, we, Ce, De;
         (0, o.gn)([n.ZP], he.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
               (e[(e.Raw = 2)] = "Raw");
           })(pe || (pe = {}));
-        class De extends se {
+        class Me extends se {
           constructor(e) {
             if (
               (super(e),
@@ -1230,6 +1230,8 @@
               (l.properties.undocked = this.props.undocked),
               (l.properties.modal = this.props.modal),
               (l.properties["requires-laser"] = this.props.requires_laser),
+              (l.properties["allow-input-capture"] =
+                this.props.allow_input_capture),
               (l.properties["hide-laser-when-clicking"] =
                 this.props.hide_lasermouse_when_clicking),
               (l.properties["make-overlays-interactive-if-visible"] =
@@ -1825,328 +1827,328 @@
             (e[(e.LockedToParent = 0)] = "LockedToParent"),
               (e[(e.LockedToWorld = 1)] = "LockedToWorld");
           })(Se || (Se = {})),
-          ((Me = fe || (fe = {}))[(Me.Invalid = 0)] = "Invalid"),
-          (Me[(Me.TrackingSystemName_String = 1e3)] =
+          ((De = fe || (fe = {}))[(De.Invalid = 0)] = "Invalid"),
+          (De[(De.TrackingSystemName_String = 1e3)] =
             "TrackingSystemName_String"),
-          (Me[(Me.ModelNumber_String = 1001)] = "ModelNumber_String"),
-          (Me[(Me.SerialNumber_String = 1002)] = "SerialNumber_String"),
-          (Me[(Me.RenderModelName_String = 1003)] = "RenderModelName_String"),
-          (Me[(Me.WillDriftInYaw_Bool = 1004)] = "WillDriftInYaw_Bool"),
-          (Me[(Me.ManufacturerName_String = 1005)] = "ManufacturerName_String"),
-          (Me[(Me.TrackingFirmwareVersion_String = 1006)] =
+          (De[(De.ModelNumber_String = 1001)] = "ModelNumber_String"),
+          (De[(De.SerialNumber_String = 1002)] = "SerialNumber_String"),
+          (De[(De.RenderModelName_String = 1003)] = "RenderModelName_String"),
+          (De[(De.WillDriftInYaw_Bool = 1004)] = "WillDriftInYaw_Bool"),
+          (De[(De.ManufacturerName_String = 1005)] = "ManufacturerName_String"),
+          (De[(De.TrackingFirmwareVersion_String = 1006)] =
             "TrackingFirmwareVersion_String"),
-          (Me[(Me.HardwareRevision_String = 1007)] = "HardwareRevision_String"),
-          (Me[(Me.AllWirelessDongleDescriptions_String = 1008)] =
+          (De[(De.HardwareRevision_String = 1007)] = "HardwareRevision_String"),
+          (De[(De.AllWirelessDongleDescriptions_String = 1008)] =
             "AllWirelessDongleDescriptions_String"),
-          (Me[(Me.ConnectedWirelessDongle_String = 1009)] =
+          (De[(De.ConnectedWirelessDongle_String = 1009)] =
             "ConnectedWirelessDongle_String"),
-          (Me[(Me.DeviceIsWireless_Bool = 1010)] = "DeviceIsWireless_Bool"),
-          (Me[(Me.DeviceIsCharging_Bool = 1011)] = "DeviceIsCharging_Bool"),
-          (Me[(Me.DeviceBatteryPercentage_Float = 1012)] =
+          (De[(De.DeviceIsWireless_Bool = 1010)] = "DeviceIsWireless_Bool"),
+          (De[(De.DeviceIsCharging_Bool = 1011)] = "DeviceIsCharging_Bool"),
+          (De[(De.DeviceBatteryPercentage_Float = 1012)] =
             "DeviceBatteryPercentage_Float"),
-          (Me[(Me.StatusDisplayTransform_Matrix34 = 1013)] =
+          (De[(De.StatusDisplayTransform_Matrix34 = 1013)] =
             "StatusDisplayTransform_Matrix34"),
-          (Me[(Me.Firmware_UpdateAvailable_Bool = 1014)] =
+          (De[(De.Firmware_UpdateAvailable_Bool = 1014)] =
             "Firmware_UpdateAvailable_Bool"),
-          (Me[(Me.Firmware_ManualUpdate_Bool = 1015)] =
+          (De[(De.Firmware_ManualUpdate_Bool = 1015)] =
             "Firmware_ManualUpdate_Bool"),
-          (Me[(Me.Firmware_ManualUpdateURL_String = 1016)] =
+          (De[(De.Firmware_ManualUpdateURL_String = 1016)] =
             "Firmware_ManualUpdateURL_String"),
-          (Me[(Me.HardwareRevision_Uint64 = 1017)] = "HardwareRevision_Uint64"),
-          (Me[(Me.FirmwareVersion_Uint64 = 1018)] = "FirmwareVersion_Uint64"),
-          (Me[(Me.FPGAVersion_Uint64 = 1019)] = "FPGAVersion_Uint64"),
-          (Me[(Me.VRCVersion_Uint64 = 1020)] = "VRCVersion_Uint64"),
-          (Me[(Me.RadioVersion_Uint64 = 1021)] = "RadioVersion_Uint64"),
-          (Me[(Me.DongleVersion_Uint64 = 1022)] = "DongleVersion_Uint64"),
-          (Me[(Me.BlockServerShutdown_Bool = 1023)] =
+          (De[(De.HardwareRevision_Uint64 = 1017)] = "HardwareRevision_Uint64"),
+          (De[(De.FirmwareVersion_Uint64 = 1018)] = "FirmwareVersion_Uint64"),
+          (De[(De.FPGAVersion_Uint64 = 1019)] = "FPGAVersion_Uint64"),
+          (De[(De.VRCVersion_Uint64 = 1020)] = "VRCVersion_Uint64"),
+          (De[(De.RadioVersion_Uint64 = 1021)] = "RadioVersion_Uint64"),
+          (De[(De.DongleVersion_Uint64 = 1022)] = "DongleVersion_Uint64"),
+          (De[(De.BlockServerShutdown_Bool = 1023)] =
             "BlockServerShutdown_Bool"),
-          (Me[(Me.CanUnifyCoordinateSystemWithHmd_Bool = 1024)] =
+          (De[(De.CanUnifyCoordinateSystemWithHmd_Bool = 1024)] =
             "CanUnifyCoordinateSystemWithHmd_Bool"),
-          (Me[(Me.ContainsProximitySensor_Bool = 1025)] =
+          (De[(De.ContainsProximitySensor_Bool = 1025)] =
             "ContainsProximitySensor_Bool"),
-          (Me[(Me.DeviceProvidesBatteryStatus_Bool = 1026)] =
+          (De[(De.DeviceProvidesBatteryStatus_Bool = 1026)] =
             "DeviceProvidesBatteryStatus_Bool"),
-          (Me[(Me.DeviceCanPowerOff_Bool = 1027)] = "DeviceCanPowerOff_Bool"),
-          (Me[(Me.Firmware_ProgrammingTarget_String = 1028)] =
+          (De[(De.DeviceCanPowerOff_Bool = 1027)] = "DeviceCanPowerOff_Bool"),
+          (De[(De.Firmware_ProgrammingTarget_String = 1028)] =
             "Firmware_ProgrammingTarget_String"),
-          (Me[(Me.DeviceClass_Int32 = 1029)] = "DeviceClass_Int32"),
-          (Me[(Me.HasCamera_Bool = 1030)] = "HasCamera_Bool"),
-          (Me[(Me.DriverVersion_String = 1031)] = "DriverVersion_String"),
-          (Me[(Me.Firmware_ForceUpdateRequired_Bool = 1032)] =
+          (De[(De.DeviceClass_Int32 = 1029)] = "DeviceClass_Int32"),
+          (De[(De.HasCamera_Bool = 1030)] = "HasCamera_Bool"),
+          (De[(De.DriverVersion_String = 1031)] = "DriverVersion_String"),
+          (De[(De.Firmware_ForceUpdateRequired_Bool = 1032)] =
             "Firmware_ForceUpdateRequired_Bool"),
-          (Me[(Me.ViveSystemButtonFixRequired_Bool = 1033)] =
+          (De[(De.ViveSystemButtonFixRequired_Bool = 1033)] =
             "ViveSystemButtonFixRequired_Bool"),
-          (Me[(Me.ParentDriver_Uint64 = 1034)] = "ParentDriver_Uint64"),
-          (Me[(Me.ResourceRoot_String = 1035)] = "ResourceRoot_String"),
-          (Me[(Me.RegisteredDeviceType_String = 1036)] =
+          (De[(De.ParentDriver_Uint64 = 1034)] = "ParentDriver_Uint64"),
+          (De[(De.ResourceRoot_String = 1035)] = "ResourceRoot_String"),
+          (De[(De.RegisteredDeviceType_String = 1036)] =
             "RegisteredDeviceType_String"),
-          (Me[(Me.InputProfilePath_String = 1037)] = "InputProfilePath_String"),
-          (Me[(Me.NeverTracked_Bool = 1038)] = "NeverTracked_Bool"),
-          (Me[(Me.NumCameras_Int32 = 1039)] = "NumCameras_Int32"),
-          (Me[(Me.CameraFrameLayout_Int32 = 1040)] = "CameraFrameLayout_Int32"),
-          (Me[(Me.CameraStreamFormat_Int32 = 1041)] =
+          (De[(De.InputProfilePath_String = 1037)] = "InputProfilePath_String"),
+          (De[(De.NeverTracked_Bool = 1038)] = "NeverTracked_Bool"),
+          (De[(De.NumCameras_Int32 = 1039)] = "NumCameras_Int32"),
+          (De[(De.CameraFrameLayout_Int32 = 1040)] = "CameraFrameLayout_Int32"),
+          (De[(De.CameraStreamFormat_Int32 = 1041)] =
             "CameraStreamFormat_Int32"),
-          (Me[(Me.AdditionalDeviceSettingsPath_String = 1042)] =
+          (De[(De.AdditionalDeviceSettingsPath_String = 1042)] =
             "AdditionalDeviceSettingsPath_String"),
-          (Me[(Me.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
-          (Me[(Me.ActualTrackingSystemName_String = 1054)] =
+          (De[(De.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
+          (De[(De.ActualTrackingSystemName_String = 1054)] =
             "ActualTrackingSystemName_String"),
-          (Me[(Me.ReportsTimeSinceVSync_Bool = 2e3)] =
+          (De[(De.ReportsTimeSinceVSync_Bool = 2e3)] =
             "ReportsTimeSinceVSync_Bool"),
-          (Me[(Me.SecondsFromVsyncToPhotons_Float = 2001)] =
+          (De[(De.SecondsFromVsyncToPhotons_Float = 2001)] =
             "SecondsFromVsyncToPhotons_Float"),
-          (Me[(Me.DisplayFrequency_Float = 2002)] = "DisplayFrequency_Float"),
-          (Me[(Me.UserIpdMeters_Float = 2003)] = "UserIpdMeters_Float"),
-          (Me[(Me.CurrentUniverseId_Uint64 = 2004)] =
+          (De[(De.DisplayFrequency_Float = 2002)] = "DisplayFrequency_Float"),
+          (De[(De.UserIpdMeters_Float = 2003)] = "UserIpdMeters_Float"),
+          (De[(De.CurrentUniverseId_Uint64 = 2004)] =
             "CurrentUniverseId_Uint64"),
-          (Me[(Me.PreviousUniverseId_Uint64 = 2005)] =
+          (De[(De.PreviousUniverseId_Uint64 = 2005)] =
             "PreviousUniverseId_Uint64"),
-          (Me[(Me.DisplayFirmwareVersion_Uint64 = 2006)] =
+          (De[(De.DisplayFirmwareVersion_Uint64 = 2006)] =
             "DisplayFirmwareVersion_Uint64"),
-          (Me[(Me.IsOnDesktop_Bool = 2007)] = "IsOnDesktop_Bool"),
-          (Me[(Me.DisplayMCType_Int32 = 2008)] = "DisplayMCType_Int32"),
-          (Me[(Me.DisplayMCOffset_Float = 2009)] = "DisplayMCOffset_Float"),
-          (Me[(Me.DisplayMCScale_Float = 2010)] = "DisplayMCScale_Float"),
-          (Me[(Me.EdidVendorID_Int32 = 2011)] = "EdidVendorID_Int32"),
-          (Me[(Me.DisplayMCImageLeft_String = 2012)] =
+          (De[(De.IsOnDesktop_Bool = 2007)] = "IsOnDesktop_Bool"),
+          (De[(De.DisplayMCType_Int32 = 2008)] = "DisplayMCType_Int32"),
+          (De[(De.DisplayMCOffset_Float = 2009)] = "DisplayMCOffset_Float"),
+          (De[(De.DisplayMCScale_Float = 2010)] = "DisplayMCScale_Float"),
+          (De[(De.EdidVendorID_Int32 = 2011)] = "EdidVendorID_Int32"),
+          (De[(De.DisplayMCImageLeft_String = 2012)] =
             "DisplayMCImageLeft_String"),
-          (Me[(Me.DisplayMCImageRight_String = 2013)] =
+          (De[(De.DisplayMCImageRight_String = 2013)] =
             "DisplayMCImageRight_String"),
-          (Me[(Me.DisplayGCBlackClamp_Float = 2014)] =
+          (De[(De.DisplayGCBlackClamp_Float = 2014)] =
             "DisplayGCBlackClamp_Float"),
-          (Me[(Me.EdidProductID_Int32 = 2015)] = "EdidProductID_Int32"),
-          (Me[(Me.CameraToHeadTransform_Matrix34 = 2016)] =
+          (De[(De.EdidProductID_Int32 = 2015)] = "EdidProductID_Int32"),
+          (De[(De.CameraToHeadTransform_Matrix34 = 2016)] =
             "CameraToHeadTransform_Matrix34"),
-          (Me[(Me.DisplayGCType_Int32 = 2017)] = "DisplayGCType_Int32"),
-          (Me[(Me.DisplayGCOffset_Float = 2018)] = "DisplayGCOffset_Float"),
-          (Me[(Me.DisplayGCScale_Float = 2019)] = "DisplayGCScale_Float"),
-          (Me[(Me.DisplayGCPrescale_Float = 2020)] = "DisplayGCPrescale_Float"),
-          (Me[(Me.DisplayGCImage_String = 2021)] = "DisplayGCImage_String"),
-          (Me[(Me.LensCenterLeftU_Float = 2022)] = "LensCenterLeftU_Float"),
-          (Me[(Me.LensCenterLeftV_Float = 2023)] = "LensCenterLeftV_Float"),
-          (Me[(Me.LensCenterRightU_Float = 2024)] = "LensCenterRightU_Float"),
-          (Me[(Me.LensCenterRightV_Float = 2025)] = "LensCenterRightV_Float"),
-          (Me[(Me.UserHeadToEyeDepthMeters_Float = 2026)] =
+          (De[(De.DisplayGCType_Int32 = 2017)] = "DisplayGCType_Int32"),
+          (De[(De.DisplayGCOffset_Float = 2018)] = "DisplayGCOffset_Float"),
+          (De[(De.DisplayGCScale_Float = 2019)] = "DisplayGCScale_Float"),
+          (De[(De.DisplayGCPrescale_Float = 2020)] = "DisplayGCPrescale_Float"),
+          (De[(De.DisplayGCImage_String = 2021)] = "DisplayGCImage_String"),
+          (De[(De.LensCenterLeftU_Float = 2022)] = "LensCenterLeftU_Float"),
+          (De[(De.LensCenterLeftV_Float = 2023)] = "LensCenterLeftV_Float"),
+          (De[(De.LensCenterRightU_Float = 2024)] = "LensCenterRightU_Float"),
+          (De[(De.LensCenterRightV_Float = 2025)] = "LensCenterRightV_Float"),
+          (De[(De.UserHeadToEyeDepthMeters_Float = 2026)] =
             "UserHeadToEyeDepthMeters_Float"),
-          (Me[(Me.CameraFirmwareVersion_Uint64 = 2027)] =
+          (De[(De.CameraFirmwareVersion_Uint64 = 2027)] =
             "CameraFirmwareVersion_Uint64"),
-          (Me[(Me.CameraFirmwareDescription_String = 2028)] =
+          (De[(De.CameraFirmwareDescription_String = 2028)] =
             "CameraFirmwareDescription_String"),
-          (Me[(Me.DisplayFPGAVersion_Uint64 = 2029)] =
+          (De[(De.DisplayFPGAVersion_Uint64 = 2029)] =
             "DisplayFPGAVersion_Uint64"),
-          (Me[(Me.DisplayBootloaderVersion_Uint64 = 2030)] =
+          (De[(De.DisplayBootloaderVersion_Uint64 = 2030)] =
             "DisplayBootloaderVersion_Uint64"),
-          (Me[(Me.DisplayHardwareVersion_Uint64 = 2031)] =
+          (De[(De.DisplayHardwareVersion_Uint64 = 2031)] =
             "DisplayHardwareVersion_Uint64"),
-          (Me[(Me.AudioFirmwareVersion_Uint64 = 2032)] =
+          (De[(De.AudioFirmwareVersion_Uint64 = 2032)] =
             "AudioFirmwareVersion_Uint64"),
-          (Me[(Me.CameraCompatibilityMode_Int32 = 2033)] =
+          (De[(De.CameraCompatibilityMode_Int32 = 2033)] =
             "CameraCompatibilityMode_Int32"),
-          (Me[(Me.ScreenshotHorizontalFieldOfViewDegrees_Float = 2034)] =
+          (De[(De.ScreenshotHorizontalFieldOfViewDegrees_Float = 2034)] =
             "ScreenshotHorizontalFieldOfViewDegrees_Float"),
-          (Me[(Me.ScreenshotVerticalFieldOfViewDegrees_Float = 2035)] =
+          (De[(De.ScreenshotVerticalFieldOfViewDegrees_Float = 2035)] =
             "ScreenshotVerticalFieldOfViewDegrees_Float"),
-          (Me[(Me.DisplaySuppressed_Bool = 2036)] = "DisplaySuppressed_Bool"),
-          (Me[(Me.DisplayAllowNightMode_Bool = 2037)] =
+          (De[(De.DisplaySuppressed_Bool = 2036)] = "DisplaySuppressed_Bool"),
+          (De[(De.DisplayAllowNightMode_Bool = 2037)] =
             "DisplayAllowNightMode_Bool"),
-          (Me[(Me.DisplayMCImageWidth_Int32 = 2038)] =
+          (De[(De.DisplayMCImageWidth_Int32 = 2038)] =
             "DisplayMCImageWidth_Int32"),
-          (Me[(Me.DisplayMCImageHeight_Int32 = 2039)] =
+          (De[(De.DisplayMCImageHeight_Int32 = 2039)] =
             "DisplayMCImageHeight_Int32"),
-          (Me[(Me.DisplayMCImageNumChannels_Int32 = 2040)] =
+          (De[(De.DisplayMCImageNumChannels_Int32 = 2040)] =
             "DisplayMCImageNumChannels_Int32"),
-          (Me[(Me.DisplayMCImageData_Binary = 2041)] =
+          (De[(De.DisplayMCImageData_Binary = 2041)] =
             "DisplayMCImageData_Binary"),
-          (Me[(Me.SecondsFromPhotonsToVblank_Float = 2042)] =
+          (De[(De.SecondsFromPhotonsToVblank_Float = 2042)] =
             "SecondsFromPhotonsToVblank_Float"),
-          (Me[(Me.DriverDirectModeSendsVsyncEvents_Bool = 2043)] =
+          (De[(De.DriverDirectModeSendsVsyncEvents_Bool = 2043)] =
             "DriverDirectModeSendsVsyncEvents_Bool"),
-          (Me[(Me.DisplayDebugMode_Bool = 2044)] = "DisplayDebugMode_Bool"),
-          (Me[(Me.GraphicsAdapterLuid_Uint64 = 2045)] =
+          (De[(De.DisplayDebugMode_Bool = 2044)] = "DisplayDebugMode_Bool"),
+          (De[(De.GraphicsAdapterLuid_Uint64 = 2045)] =
             "GraphicsAdapterLuid_Uint64"),
-          (Me[(Me.DriverProvidedChaperonePath_String = 2048)] =
+          (De[(De.DriverProvidedChaperonePath_String = 2048)] =
             "DriverProvidedChaperonePath_String"),
-          (Me[(Me.ExpectedTrackingReferenceCount_Int32 = 2049)] =
+          (De[(De.ExpectedTrackingReferenceCount_Int32 = 2049)] =
             "ExpectedTrackingReferenceCount_Int32"),
-          (Me[(Me.ExpectedControllerCount_Int32 = 2050)] =
+          (De[(De.ExpectedControllerCount_Int32 = 2050)] =
             "ExpectedControllerCount_Int32"),
-          (Me[(Me.NamedIconPathControllerLeftDeviceOff_String = 2051)] =
+          (De[(De.NamedIconPathControllerLeftDeviceOff_String = 2051)] =
             "NamedIconPathControllerLeftDeviceOff_String"),
-          (Me[(Me.NamedIconPathControllerRightDeviceOff_String = 2052)] =
+          (De[(De.NamedIconPathControllerRightDeviceOff_String = 2052)] =
             "NamedIconPathControllerRightDeviceOff_String"),
-          (Me[(Me.NamedIconPathTrackingReferenceDeviceOff_String = 2053)] =
+          (De[(De.NamedIconPathTrackingReferenceDeviceOff_String = 2053)] =
             "NamedIconPathTrackingReferenceDeviceOff_String"),
-          (Me[(Me.DoNotApplyPrediction_Bool = 2054)] =
+          (De[(De.DoNotApplyPrediction_Bool = 2054)] =
             "DoNotApplyPrediction_Bool"),
-          (Me[(Me.CameraToHeadTransforms_Matrix34_Array = 2055)] =
+          (De[(De.CameraToHeadTransforms_Matrix34_Array = 2055)] =
             "CameraToHeadTransforms_Matrix34_Array"),
-          (Me[(Me.DistortionMeshResolution_Int32 = 2056)] =
+          (De[(De.DistortionMeshResolution_Int32 = 2056)] =
             "DistortionMeshResolution_Int32"),
-          (Me[(Me.DriverIsDrawingControllers_Bool = 2057)] =
+          (De[(De.DriverIsDrawingControllers_Bool = 2057)] =
             "DriverIsDrawingControllers_Bool"),
-          (Me[(Me.DriverRequestsApplicationPause_Bool = 2058)] =
+          (De[(De.DriverRequestsApplicationPause_Bool = 2058)] =
             "DriverRequestsApplicationPause_Bool"),
-          (Me[(Me.DriverRequestsReducedRendering_Bool = 2059)] =
+          (De[(De.DriverRequestsReducedRendering_Bool = 2059)] =
             "DriverRequestsReducedRendering_Bool"),
-          (Me[(Me.MinimumIpdStepMeters_Float = 2060)] =
+          (De[(De.MinimumIpdStepMeters_Float = 2060)] =
             "MinimumIpdStepMeters_Float"),
-          (Me[(Me.AudioBridgeFirmwareVersion_Uint64 = 2061)] =
+          (De[(De.AudioBridgeFirmwareVersion_Uint64 = 2061)] =
             "AudioBridgeFirmwareVersion_Uint64"),
-          (Me[(Me.ImageBridgeFirmwareVersion_Uint64 = 2062)] =
+          (De[(De.ImageBridgeFirmwareVersion_Uint64 = 2062)] =
             "ImageBridgeFirmwareVersion_Uint64"),
-          (Me[(Me.ImuToHeadTransform_Matrix34 = 2063)] =
+          (De[(De.ImuToHeadTransform_Matrix34 = 2063)] =
             "ImuToHeadTransform_Matrix34"),
-          (Me[(Me.ImuFactoryGyroBias_Vector3 = 2064)] =
+          (De[(De.ImuFactoryGyroBias_Vector3 = 2064)] =
             "ImuFactoryGyroBias_Vector3"),
-          (Me[(Me.ImuFactoryGyroScale_Vector3 = 2065)] =
+          (De[(De.ImuFactoryGyroScale_Vector3 = 2065)] =
             "ImuFactoryGyroScale_Vector3"),
-          (Me[(Me.ImuFactoryAccelerometerBias_Vector3 = 2066)] =
+          (De[(De.ImuFactoryAccelerometerBias_Vector3 = 2066)] =
             "ImuFactoryAccelerometerBias_Vector3"),
-          (Me[(Me.ImuFactoryAccelerometerScale_Vector3 = 2067)] =
+          (De[(De.ImuFactoryAccelerometerScale_Vector3 = 2067)] =
             "ImuFactoryAccelerometerScale_Vector3"),
-          (Me[(Me.ConfigurationIncludesLighthouse20Features_Bool = 2069)] =
+          (De[(De.ConfigurationIncludesLighthouse20Features_Bool = 2069)] =
             "ConfigurationIncludesLighthouse20Features_Bool"),
-          (Me[(Me.Prop_AdditionalRadioFeatures_Uint64 = 2070)] =
+          (De[(De.Prop_AdditionalRadioFeatures_Uint64 = 2070)] =
             "Prop_AdditionalRadioFeatures_Uint64"),
-          (Me[(Me.Prop_CameraWhiteBalance_Vector4_Array = 2071)] =
+          (De[(De.Prop_CameraWhiteBalance_Vector4_Array = 2071)] =
             "Prop_CameraWhiteBalance_Vector4_Array"),
-          (Me[(Me.Prop_CameraDistortionFunction_Int32_Array = 2072)] =
+          (De[(De.Prop_CameraDistortionFunction_Int32_Array = 2072)] =
             "Prop_CameraDistortionFunction_Int32_Array"),
-          (Me[(Me.Prop_CameraDistortionCoefficients_Float_Array = 2073)] =
+          (De[(De.Prop_CameraDistortionCoefficients_Float_Array = 2073)] =
             "Prop_CameraDistortionCoefficients_Float_Array"),
-          (Me[(Me.Prop_ExpectedControllerType_String = 2074)] =
+          (De[(De.Prop_ExpectedControllerType_String = 2074)] =
             "Prop_ExpectedControllerType_String"),
-          (Me[(Me.HmdTrackingStyle_Int32 = 2075)] = "HmdTrackingStyle_Int32"),
-          (Me[(Me.DriverProvidedChaperoneVisibility_Bool = 2076)] =
+          (De[(De.HmdTrackingStyle_Int32 = 2075)] = "HmdTrackingStyle_Int32"),
+          (De[(De.DriverProvidedChaperoneVisibility_Bool = 2076)] =
             "DriverProvidedChaperoneVisibility_Bool"),
-          (Me[(Me.HmdColumnCorrectionSettingPrefix_String = 2077)] =
+          (De[(De.HmdColumnCorrectionSettingPrefix_String = 2077)] =
             "HmdColumnCorrectionSettingPrefix_String"),
-          (Me[(Me.CameraSupportsCompatibilityModes_Bool = 2078)] =
+          (De[(De.CameraSupportsCompatibilityModes_Bool = 2078)] =
             "CameraSupportsCompatibilityModes_Bool"),
-          (Me[(Me.SupportsRoomViewDepthProjection_Bool = 2079)] =
+          (De[(De.SupportsRoomViewDepthProjection_Bool = 2079)] =
             "SupportsRoomViewDepthProjection_Bool"),
-          (Me[(Me.DisplayAvailableFrameRates_Float_Array = 2080)] =
+          (De[(De.DisplayAvailableFrameRates_Float_Array = 2080)] =
             "DisplayAvailableFrameRates_Float_Array"),
-          (Me[(Me.DisplaySupportsRuntimeFramerateChange_Bool = 2084)] =
+          (De[(De.DisplaySupportsRuntimeFramerateChange_Bool = 2084)] =
             "DisplaySupportsRuntimeFramerateChange_Bool"),
-          (Me[(Me.DisplaySupportsAnalogGain_Bool = 2085)] =
+          (De[(De.DisplaySupportsAnalogGain_Bool = 2085)] =
             "DisplaySupportsAnalogGain_Bool"),
-          (Me[(Me.DisplayMinAnalogGain_Float = 2086)] =
+          (De[(De.DisplayMinAnalogGain_Float = 2086)] =
             "DisplayMinAnalogGain_Float"),
-          (Me[(Me.DisplayMaxAnalogGain_Float = 2087)] =
+          (De[(De.DisplayMaxAnalogGain_Float = 2087)] =
             "DisplayMaxAnalogGain_Float"),
-          (Me[(Me.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
-          (Me[(Me.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
-          (Me[(Me.IpdUIRangeMinMeters_Float = 2100)] =
+          (De[(De.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
+          (De[(De.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
+          (De[(De.IpdUIRangeMinMeters_Float = 2100)] =
             "IpdUIRangeMinMeters_Float"),
-          (Me[(Me.IpdUIRangeMaxMeters_Float = 2101)] =
+          (De[(De.IpdUIRangeMaxMeters_Float = 2101)] =
             "IpdUIRangeMaxMeters_Float"),
-          (Me[(Me.Hmd_SupportsHDCP14LegacyCompat_Bool = 2102)] =
+          (De[(De.Hmd_SupportsHDCP14LegacyCompat_Bool = 2102)] =
             "Hmd_SupportsHDCP14LegacyCompat_Bool"),
-          (Me[(Me.Hmd_SupportsMicMonitoring_Bool = 2103)] =
+          (De[(De.Hmd_SupportsMicMonitoring_Bool = 2103)] =
             "Hmd_SupportsMicMonitoring_Bool"),
-          (Me[(Me.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
+          (De[(De.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (Me[(Me.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
+          (De[(De.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
             "Hmd_SupportsRoomViewDirect_Bool"),
-          (Me[(Me.Hmd_SupportsAppThrottling_Bool = 2106)] =
+          (De[(De.Hmd_SupportsAppThrottling_Bool = 2106)] =
             "Hmd_SupportsAppThrottling_Bool"),
-          (Me[(Me.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
+          (De[(De.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
             "Hmd_SupportsGpuBusMonitoring_Bool"),
-          (Me[(Me.DriverProvidedIPDVisibility_Bool = 2108)] =
+          (De[(De.DriverProvidedIPDVisibility_Bool = 2108)] =
             "DriverProvidedIPDVisibility_Bool"),
-          (Me[(Me.Prop_Driver_Reserved_01 = 2109)] = "Prop_Driver_Reserved_01"),
-          (Me[(Me.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
+          (De[(De.Prop_Driver_Reserved_01 = 2109)] = "Prop_Driver_Reserved_01"),
+          (De[(De.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
+          (De[(De.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
             "DriverRequestedMuraFeather_InnerLeft_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerRight_Int32 = 2202)] =
+          (De[(De.DriverRequestedMuraFeather_InnerRight_Int32 = 2202)] =
             "DriverRequestedMuraFeather_InnerRight_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerTop_Int32 = 2203)] =
+          (De[(De.DriverRequestedMuraFeather_InnerTop_Int32 = 2203)] =
             "DriverRequestedMuraFeather_InnerTop_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerBottom_Int32 = 2204)] =
+          (De[(De.DriverRequestedMuraFeather_InnerBottom_Int32 = 2204)] =
             "DriverRequestedMuraFeather_InnerBottom_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterLeft_Int32 = 2205)] =
+          (De[(De.DriverRequestedMuraFeather_OuterLeft_Int32 = 2205)] =
             "DriverRequestedMuraFeather_OuterLeft_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterRight_Int32 = 2206)] =
+          (De[(De.DriverRequestedMuraFeather_OuterRight_Int32 = 2206)] =
             "DriverRequestedMuraFeather_OuterRight_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterTop_Int32 = 2207)] =
+          (De[(De.DriverRequestedMuraFeather_OuterTop_Int32 = 2207)] =
             "DriverRequestedMuraFeather_OuterTop_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
+          (De[(De.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
             "DriverRequestedMuraFeather_OuterBottom_Int32"),
-          (Me[(Me.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
+          (De[(De.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
             "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
-          (Me[(Me.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
-          (Me[(Me.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
-          (Me[(Me.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
-          (Me[(Me.Axis1Type_Int32 = 3003)] = "Axis1Type_Int32"),
-          (Me[(Me.Axis2Type_Int32 = 3004)] = "Axis2Type_Int32"),
-          (Me[(Me.Axis3Type_Int32 = 3005)] = "Axis3Type_Int32"),
-          (Me[(Me.Axis4Type_Int32 = 3006)] = "Axis4Type_Int32"),
-          (Me[(Me.ControllerRoleHint_Int32 = 3007)] =
+          (De[(De.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
+          (De[(De.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
+          (De[(De.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
+          (De[(De.Axis1Type_Int32 = 3003)] = "Axis1Type_Int32"),
+          (De[(De.Axis2Type_Int32 = 3004)] = "Axis2Type_Int32"),
+          (De[(De.Axis3Type_Int32 = 3005)] = "Axis3Type_Int32"),
+          (De[(De.Axis4Type_Int32 = 3006)] = "Axis4Type_Int32"),
+          (De[(De.ControllerRoleHint_Int32 = 3007)] =
             "ControllerRoleHint_Int32"),
-          (Me[(Me.FieldOfViewLeftDegrees_Float = 4e3)] =
+          (De[(De.FieldOfViewLeftDegrees_Float = 4e3)] =
             "FieldOfViewLeftDegrees_Float"),
-          (Me[(Me.FieldOfViewRightDegrees_Float = 4001)] =
+          (De[(De.FieldOfViewRightDegrees_Float = 4001)] =
             "FieldOfViewRightDegrees_Float"),
-          (Me[(Me.FieldOfViewTopDegrees_Float = 4002)] =
+          (De[(De.FieldOfViewTopDegrees_Float = 4002)] =
             "FieldOfViewTopDegrees_Float"),
-          (Me[(Me.FieldOfViewBottomDegrees_Float = 4003)] =
+          (De[(De.FieldOfViewBottomDegrees_Float = 4003)] =
             "FieldOfViewBottomDegrees_Float"),
-          (Me[(Me.TrackingRangeMinimumMeters_Float = 4004)] =
+          (De[(De.TrackingRangeMinimumMeters_Float = 4004)] =
             "TrackingRangeMinimumMeters_Float"),
-          (Me[(Me.TrackingRangeMaximumMeters_Float = 4005)] =
+          (De[(De.TrackingRangeMaximumMeters_Float = 4005)] =
             "TrackingRangeMaximumMeters_Float"),
-          (Me[(Me.ModeLabel_String = 4006)] = "ModeLabel_String"),
-          (Me[(Me.IconPathName_String = 5e3)] = "IconPathName_String"),
-          (Me[(Me.NamedIconPathDeviceOff_String = 5001)] =
+          (De[(De.ModeLabel_String = 4006)] = "ModeLabel_String"),
+          (De[(De.IconPathName_String = 5e3)] = "IconPathName_String"),
+          (De[(De.NamedIconPathDeviceOff_String = 5001)] =
             "NamedIconPathDeviceOff_String"),
-          (Me[(Me.NamedIconPathDeviceSearching_String = 5002)] =
+          (De[(De.NamedIconPathDeviceSearching_String = 5002)] =
             "NamedIconPathDeviceSearching_String"),
-          (Me[(Me.NamedIconPathDeviceSearchingAlert_String = 5003)] =
+          (De[(De.NamedIconPathDeviceSearchingAlert_String = 5003)] =
             "NamedIconPathDeviceSearchingAlert_String"),
-          (Me[(Me.NamedIconPathDeviceReady_String = 5004)] =
+          (De[(De.NamedIconPathDeviceReady_String = 5004)] =
             "NamedIconPathDeviceReady_String"),
-          (Me[(Me.NamedIconPathDeviceReadyAlert_String = 5005)] =
+          (De[(De.NamedIconPathDeviceReadyAlert_String = 5005)] =
             "NamedIconPathDeviceReadyAlert_String"),
-          (Me[(Me.NamedIconPathDeviceNotReady_String = 5006)] =
+          (De[(De.NamedIconPathDeviceNotReady_String = 5006)] =
             "NamedIconPathDeviceNotReady_String"),
-          (Me[(Me.NamedIconPathDeviceStandby_String = 5007)] =
+          (De[(De.NamedIconPathDeviceStandby_String = 5007)] =
             "NamedIconPathDeviceStandby_String"),
-          (Me[(Me.NamedIconPathDeviceAlertLow_String = 5008)] =
+          (De[(De.NamedIconPathDeviceAlertLow_String = 5008)] =
             "NamedIconPathDeviceAlertLow_String"),
-          (Me[(Me.DisplayHiddenArea_Binary_Start = 5100)] =
+          (De[(De.DisplayHiddenArea_Binary_Start = 5100)] =
             "DisplayHiddenArea_Binary_Start"),
-          (Me[(Me.DisplayHiddenArea_Binary_End = 5150)] =
+          (De[(De.DisplayHiddenArea_Binary_End = 5150)] =
             "DisplayHiddenArea_Binary_End"),
-          (Me[(Me.ParentContainer = 5151)] = "ParentContainer"),
-          (Me[(Me.UserConfigPath_String = 6e3)] = "UserConfigPath_String"),
-          (Me[(Me.InstallPath_String = 6001)] = "InstallPath_String"),
-          (Me[(Me.HasDisplayComponent_Bool = 6002)] =
+          (De[(De.ParentContainer = 5151)] = "ParentContainer"),
+          (De[(De.UserConfigPath_String = 6e3)] = "UserConfigPath_String"),
+          (De[(De.InstallPath_String = 6001)] = "InstallPath_String"),
+          (De[(De.HasDisplayComponent_Bool = 6002)] =
             "HasDisplayComponent_Bool"),
-          (Me[(Me.HasControllerComponent_Bool = 6003)] =
+          (De[(De.HasControllerComponent_Bool = 6003)] =
             "HasControllerComponent_Bool"),
-          (Me[(Me.HasCameraComponent_Bool = 6004)] = "HasCameraComponent_Bool"),
-          (Me[(Me.HasDriverDirectModeComponent_Bool = 6005)] =
+          (De[(De.HasCameraComponent_Bool = 6004)] = "HasCameraComponent_Bool"),
+          (De[(De.HasDriverDirectModeComponent_Bool = 6005)] =
             "HasDriverDirectModeComponent_Bool"),
-          (Me[(Me.HasVirtualDisplayComponent_Bool = 6006)] =
+          (De[(De.HasVirtualDisplayComponent_Bool = 6006)] =
             "HasVirtualDisplayComponent_Bool"),
-          (Me[(Me.HasSpatialAnchorsSupport_Bool = 6007)] =
+          (De[(De.HasSpatialAnchorsSupport_Bool = 6007)] =
             "HasSpatialAnchorsSupport_Bool"),
-          (Me[(Me.ControllerType_String = 7e3)] = "ControllerType_String"),
-          (Me[(Me.LegacyInputProfile_String = 7001)] =
+          (De[(De.ControllerType_String = 7e3)] = "ControllerType_String"),
+          (De[(De.LegacyInputProfile_String = 7001)] =
             "LegacyInputProfile_String"),
-          (Me[(Me.VendorSpecific_Reserved_Start = 1e4)] =
+          (De[(De.VendorSpecific_Reserved_Start = 1e4)] =
             "VendorSpecific_Reserved_Start"),
-          (Me[(Me.VendorSpecific_Reserved_End = 10999)] =
+          (De[(De.VendorSpecific_Reserved_End = 10999)] =
             "VendorSpecific_Reserved_End"),
-          (Me[(Me.TrackedDeviceProperty_Max = 1e6)] =
+          (De[(De.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max"),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.SecondaryClick = 1)] = "SecondaryClick"),
               (e[(e.PrimaryClick = 2)] = "PrimaryClick");
-          })(Re || (Re = {})),
+          })(ke || (ke = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ButtonEnter = 1)] = "ButtonEnter"),
@@ -2154,7 +2156,7 @@
               (e[(e.Snap = 3)] = "Snap"),
               (e[(e.Sliding = 4)] = "Sliding"),
               (e[(e.SlidingEdge = 5)] = "SlidingEdge");
-          })(ke || (ke = {})),
+          })(Re || (Re = {})),
           (function (e) {
             (e[(e.Minimal = 1)] = "Minimal"),
               (e[(e.Modal = 2)] = "Modal"),
@@ -3983,12 +3985,12 @@
           b = r(1628),
           S = r(7062),
           f = r(7726),
-          R = r(8178),
-          k = r(6459),
+          k = r(8178),
+          R = r(6459),
           w = r(9347),
           C = r(2743),
-          M = r(7095),
-          D = r(8980);
+          D = r(7095),
+          M = r(8980);
         let I = (o = class extends l.Component {
           constructor(e) {
             super(e),
@@ -4075,7 +4077,7 @@
               l.createElement(
                 "div",
                 {
-                  className: (0, D.LJ)("PortraitAppImageContainer", [
+                  className: (0, M.LJ)("PortraitAppImageContainer", [
                     "Fallback",
                     this.state.isFallback,
                   ]),
@@ -4118,7 +4120,7 @@
           }
           onOpenAppControllerBindingSettings() {
             const e = _.H.Instance.SceneAppKey;
-            M.f.OpenDeepLink(M.P.Name, e);
+            D.f.OpenDeepLink(D.P.Name, e);
           }
           onOpenAppVideoSettings() {
             const e = _.H.Instance.SceneAppKey;
@@ -4155,7 +4157,7 @@
               v = h.includes("header.jpg"),
               g = h.replace(/header\.jpg$/, "library_hero.jpg");
             return l.createElement(
-              k.lL,
+              R.lL,
               {
                 visible: this.props.visible,
                 debugName: "nowplaying",
@@ -4230,7 +4232,7 @@
           l.createElement(
             "div",
             {
-              className: (0, D.LJ)("ButtonContainer", E[e.side], [
+              className: (0, M.LJ)("ButtonContainer", E[e.side], [
                 "Disabled",
                 !1 === e.enabled,
               ]),
@@ -4332,7 +4334,7 @@
             return l.createElement(
               "div",
               {
-                className: (0, D.LJ)(
+                className: (0, M.LJ)(
                   "PaginatedCarousel",
                   this.props.additionalClassNames,
                 ),
@@ -4374,7 +4376,7 @@
         let L = class extends l.Component {
           constructor(e) {
             super(e),
-              (this.m_scrollWatcher = new D.cB()),
+              (this.m_scrollWatcher = new M.cB()),
               (this.m_refAnchoredParentPortal = l.createRef()),
               (this.m_refButton = l.createRef()),
               (this.state = { bShowPlay: !1 }),
@@ -4422,7 +4424,7 @@
               l.createElement(
                 "div",
                 {
-                  className: (0, D.LJ)(
+                  className: (0, M.LJ)(
                     "AppButtonContainer",
                     [
                       "AppOwned",
@@ -4560,7 +4562,7 @@
           }
           render() {
             return l.createElement(
-              k.lL,
+              R.lL,
               {
                 visible: this.props.visible,
                 additionalClassNames: "QuickStore",
@@ -4795,7 +4797,7 @@
               );
             }
             return l.createElement(
-              k.lL,
+              R.lL,
               {
                 visible: this.props.visible,
                 scrollable: !o,
@@ -4837,7 +4839,7 @@
         function ue(e) {
           const { debugHostLocation: t, onGrabStart: r, onGrabEnd: o } = e,
             n = ae.B.isVRGamepadUI,
-            a = (0, D.aB)();
+            a = (0, M.aB)();
           if (!a) return null;
           const s =
               null != (null == a ? void 0 : a.overlayKey) &&
@@ -4875,7 +4877,7 @@
           );
         }
         function he(e) {
-          const t = (0, D.aB)();
+          const t = (0, M.aB)();
           if (!t) return null;
           const r = ve.k_nControlBarPitch;
           return (
@@ -5130,23 +5132,30 @@
                 500,
               )),
               (this.m_appStateChangedAutorunDisposer = (0, s.EH)(() => {
-                const e = _.H.Instance.SceneApplicationState,
-                  t = e != i.xY.None;
-                if (t && this.m_eSceneApplicationState == i.xY.None)
+                var e;
+                const t = _.H.Instance.SceneApplicationState,
+                  r = t != i.xY.None;
+                if (r && this.m_eSceneApplicationState == i.xY.None)
                   ae.B.HideTheaterOverlay();
                 else if (
-                  !t &&
+                  !r &&
                   this.m_eSceneApplicationState != i.xY.None &&
-                  !ae.B.isTheaterMode
+                  !ae.B.isTheaterMode &&
+                  null !==
+                    (e = b.G3.settings.get(
+                      "/settings/dashboard/autoShowGameTheater",
+                    )) &&
+                  void 0 !== e &&
+                  e
                 )
                   for (let [e, t] of ae.B.m_mapOverlayState)
                     if (e.startsWith(p.wX)) {
-                      t.dockLocation = R.RA.Theater;
+                      this.setDockLocation(e, t, k.RA.Theater);
                       break;
                     }
-                (this.m_eSceneApplicationState = e),
+                (this.m_eSceneApplicationState = t),
                   this.isOverlayActive(p.PF) &&
-                    !t &&
+                    !r &&
                     this.switchToHomeOverlay();
               })),
               VRHTML.VRDashboardManager.GetDashboardOverlayKeys().forEach(
@@ -5344,13 +5353,14 @@
                 n = null !== (r = b.G3.settings.get(t)) && void 0 !== r ? r : 1;
               }
               ae.B.m_mapOverlayState.set(e, {
-                dockLocation: R.RA.Dashboard,
                 refOverlayWidget: l.createRef(),
+                dockLocation: k.RA.Dashboard,
+                nDockStartMs: Date.now(),
                 xfInitial: null,
                 fScale: n,
               }),
                 (null == t ? void 0 : t.starts_theater_mode)
-                  ? this.onDockOverlay(e, R.RA.Theater)
+                  ? this.onDockOverlay(e, k.RA.Theater)
                   : me(e) &&
                     (null !==
                       (o = b.G3.settings.get(
@@ -5358,7 +5368,7 @@
                       )) &&
                     void 0 !== o &&
                     o
-                      ? this.onDockOverlay(e, R.RA.Theater)
+                      ? this.onDockOverlay(e, k.RA.Theater)
                       : this.switchToOverlayInternal(e, "switchToDesktopApp"));
             });
           }
@@ -5562,24 +5572,54 @@
               });
           }
           onUpdateDebugInfo(e) {}
+          setDockLocation(e, t, r) {
+            var o;
+            const n = Date.now(),
+              i = n - t.nDockStartMs;
+            if (i >= 1e3) {
+              const r = /^valve\.steam\.desktopgame\.(\d+)$/,
+                n = e.match(r),
+                a =
+                  t.dockLocation == k.RA.Theater &&
+                  null !==
+                    (o = b.G3.settings.get(
+                      "/settings/dashboard/autoShowGameTheater",
+                    )) &&
+                  void 0 !== o &&
+                  o,
+                s = {
+                  OverlayKeyID: e,
+                  Location: k.RA[t.dockLocation],
+                  DurationMs: i,
+                  OverlayAppID:
+                    2 == (null == n ? void 0 : n.length)
+                      ? parseInt(n[1], 10)
+                      : 0,
+                  SceneAppKeyID: _.H.Instance.SceneAppKey,
+                  autoShowGameTheater: a,
+                };
+              v.e.instance.AddRow("SteamVROverlayDockStats", s);
+            }
+            (t.dockLocation = r), (t.nDockStartMs = n);
+          }
           onDockOverlay(e, t, r) {
             var o, n;
             let i = !1;
-            (t != R.RA.LeftHand && t != R.RA.RightHand && t != R.RA.Theater) ||
-              ae.B.m_mapOverlayState.forEach((e, r) => {
-                e.dockLocation == t &&
-                  ((e.dockLocation = R.RA.Dashboard), (i = !0));
+            (t != k.RA.LeftHand && t != k.RA.RightHand && t != k.RA.Theater) ||
+              ae.B.m_mapOverlayState.forEach((r, o) => {
+                r.dockLocation == t &&
+                  (this.setDockLocation(e, r, k.RA.Dashboard), (i = !0));
               });
             const a = ae.B.m_mapOverlayState.get(e);
             if (
               (a &&
-                (a.dockLocation == R.RA.Theater &&
+                (a.dockLocation == k.RA.Theater &&
                   (null === VRHTML ||
                     void 0 === VRHTML ||
                     VRHTML.VROverlay.ShowDashboard(e)),
-                (a.dockLocation = t),
+                this.setDockLocation(e, a, t),
                 (a.xfInitial = r)),
-              t === R.RA.Dashboard)
+              t === k.RA.Dashboard)
             )
               if (e.startsWith(p.r4)) {
                 const t = Number.parseInt(e.substring(p.r4.length + 1));
@@ -5592,7 +5632,7 @@
                     void 0 === n ||
                     n.onWindowViewChange(e));
             else
-              t == R.RA.Theater &&
+              t == k.RA.Theater &&
                 (null === VRHTML ||
                   void 0 === VRHTML ||
                   VRHTML.VRDashboardManager.HideDashboard("theater_mode"),
@@ -5800,7 +5840,7 @@
             return null !== (e = null == t ? void 0 : t.dockLocation) &&
               void 0 !== e
               ? e
-              : R.RA.Dashboard;
+              : k.RA.Dashboard;
           }
           hideMessageOverlay() {
             this.getActiveOverlaySummonKey() == p.f8 &&
@@ -5811,7 +5851,7 @@
             if (!b.G3.settings.get("/settings/dashboard/enableDashboard"))
               return;
             const r = ae.B.m_mapOverlayState.get(e.overlay_key);
-            (null == r ? void 0 : r.dockLocation) != R.RA.Theater &&
+            (null == r ? void 0 : r.dockLocation) != k.RA.Theater &&
               (this.show(
                 null !== (t = e.reason) && void 0 !== t ? t : "unknown",
               ),
@@ -5826,9 +5866,9 @@
           }
           onHideTheaterMode() {
             let e = this.getActiveOverlayKey();
-            this.onDockOverlay(e, R.RA.Theater);
+            this.onDockOverlay(e, k.RA.Theater);
             let t = this.getActiveOverlayKey();
-            this.onDockOverlay(t, R.RA.Dashboard);
+            this.onDockOverlay(t, k.RA.Dashboard);
           }
           onHideDashboardRequested(e) {
             VRHTML.VRDashboardManager.HasMessageOverlay()
@@ -5964,7 +6004,7 @@
                   l.Fragment,
                   null,
                   !!ae.B.isVRGamepadUI &&
-                    l.createElement(k.dy, {
+                    l.createElement(R.dy, {
                       label: "Old Library",
                       lineBelow: !0,
                       onClick: () => {
@@ -5974,7 +6014,7 @@
                       },
                     }),
                   this.hasTenfootOverlay() &&
-                    l.createElement(k.dy, {
+                    l.createElement(R.dy, {
                       label: (0, m.Xx)("#PowerMenuSteamOverlay"),
                       lineBelow: !0,
                       onClick: () => {
@@ -5983,7 +6023,7 @@
                       },
                     }),
                   o &&
-                    l.createElement(k.dy, {
+                    l.createElement(R.dy, {
                       label: (0, m.Xx)("#PowerMenuTurnOffController"),
                       imageUrl:
                         "/dashboard/images/icons/svr_controller_power.svg",
@@ -5996,7 +6036,7 @@
                     }),
                   t &&
                     e &&
-                    l.createElement(k.dy, {
+                    l.createElement(R.dy, {
                       label: s,
                       imageUrl: d,
                       onClick: () => {
@@ -6006,7 +6046,7 @@
                           this.showPopoverMenu(ee.None);
                       },
                     }),
-                  l.createElement(k.dy, {
+                  l.createElement(R.dy, {
                     label: (0, m.Xx)("#PowerMenuExitVR"),
                     imageUrl: "/dashboard/images/icons/svr_svr_quit_alt.svg",
                     onClick: () =>
@@ -6015,7 +6055,7 @@
                         : VRHTML.QuitOpenVR(),
                   }),
                   r &&
-                    l.createElement(k.dy, {
+                    l.createElement(R.dy, {
                       label: (0, m.Xx)("#PowerMenuShutdown"),
                       imageUrl: "/dashboard/images/icons/svr_svr_quit_alt.svg",
                       onClick: () =>
@@ -6097,7 +6137,7 @@
                   null === (t = this.m_refDesktopView.current) || void 0 === t
                     ? void 0
                     : t.currentWindowHwnd;
-                return l.createElement(k.Rk, {
+                return l.createElement(R.Rk, {
                   name:
                     null === (r = this.state.mapWindows.get(e)) || void 0 === r
                       ? void 0
@@ -6105,7 +6145,7 @@
                   iconUrl: this.getDashboardIconUri(n),
                 });
               }
-              return l.createElement(k.Rk, {
+              return l.createElement(R.Rk, {
                 name:
                   "Desktop " +
                   (null === (o = this.m_refDesktopView.current) || void 0 === o
@@ -6115,12 +6155,12 @@
               });
             }
             if (n.summon_overlay_key == p.RM)
-              return l.createElement(k.Rk, {
+              return l.createElement(R.Rk, {
                 name: (0, m.Xx)("#BindingUI_WindowTitle_ControllerBinding"),
                 iconUrl: "/dashboard/images/icons/svr_settings.svg",
               });
             let i = n.tab_name;
-            return l.createElement(k.Rk, {
+            return l.createElement(R.Rk, {
               name: i,
               iconUrl: this.getDashboardIconUri(n),
             });
@@ -6255,8 +6295,8 @@
           }
           GetActiveOverlayAnchorIDs() {
             const e = this.getActiveOverlaySummonKey();
-            return k.Eu.has(e)
-              ? k.Eu.get(e)
+            return R.Eu.has(e)
+              ? R.Eu.get(e)
               : {
                   strTopCenterAnchorID:
                     this.state.sActiveOverlayID + "_TopCenter",
@@ -6270,8 +6310,8 @@
           }
           renderExternalOverlayControlBarButton(e) {
             const t = this.getDashboardIconUri(e),
-              r = k.IO.Center;
-            return l.createElement(k.B8, {
+              r = R.IO.Center;
+            return l.createElement(R.B8, {
               key: e.mountable_id,
               label: e.tab_name,
               imageUrl: t,
@@ -6442,7 +6482,7 @@
               v = r ? 1 : 0,
               S = h ? 0.02 : 0.05,
               f = J.k_nControlBarWidthMeters,
-              R =
+              k =
                 null ===
                   (o = b.G3.settings.get(
                     "/settings/dashboard/showPowerOptions",
@@ -6455,8 +6495,8 @@
                 void 0 === n ||
                 n,
               C = u,
-              M = !u && !0,
-              D =
+              D = !u && !0,
+              M =
                 !u &&
                 (null ===
                   (a = b.G3.settings.get(
@@ -6529,22 +6569,22 @@
                         l.createElement(
                           "div",
                           { className: "Section Left" },
-                          R &&
-                            l.createElement(k.NT, {
+                          k &&
+                            l.createElement(R.NT, {
                               imageUrl:
                                 "/dashboard/images/icons/svr_menu_c.svg",
                               label: (0, m.Xx)("#Menu"),
-                              style: k.zk.Small,
+                              style: R.zk.Small,
                               onClick: () => this.showPopoverMenu(ee.Power),
                               onMouseEnter: this.clearPopoverMenuTimeout,
                               onMouseLeave: () =>
                                 this.startPopoverMenuTimeout(500),
                             }),
                           l.createElement(
-                            k.dw,
-                            { style: k.zk.Small },
+                            R.dw,
+                            { style: R.zk.Small },
                             C &&
-                              l.createElement(k.B8, {
+                              l.createElement(R.B8, {
                                 imageUrl:
                                   "/dashboard/images/icons/vr_steam.svg",
                                 label: (0, m.Xx)("#Steam"),
@@ -6554,8 +6594,8 @@
                             !1,
                           ),
                           w &&
-                            l.createElement(k.NT, {
-                              style: k.zk.Small,
+                            l.createElement(R.NT, {
+                              style: R.zk.Small,
                               imageUrl:
                                 "/dashboard/images/icons/svr_desktop_alt.svg",
                               label: (0, m.Xx)("#Desktops"),
@@ -6563,14 +6603,14 @@
                               onClick: () => this.switchToOverlayInternal(p.gB),
                             }),
                           l.createElement(
-                            k.dw,
-                            { style: k.zk.Small },
+                            R.dw,
+                            { style: R.zk.Small },
                             l.createElement(
                               l.Fragment,
                               null,
                               e.map(this.renderExternalOverlayControlBarButton),
                               t.length > 0 &&
-                                l.createElement(k.B8, {
+                                l.createElement(R.B8, {
                                   imageUrl:
                                     "/dashboard/images/icons/svr_more.svg",
                                   label: (0, m.Xx)(
@@ -6592,8 +6632,8 @@
                         l.createElement(
                           "div",
                           { className: "Section Center" },
-                          M &&
-                            l.createElement(k.NT, {
+                          D &&
+                            l.createElement(R.NT, {
                               label: (0, m.Xx)("#Library"),
                               imageUrl: "/dashboard/images/icons/svr_items.svg",
                               active:
@@ -6601,7 +6641,7 @@
                                 (this.isOverlayActive(p.Y8) &&
                                   y.y.Instance.lastBigPictureEntryPoint ==
                                     y.b.QuickLaunch),
-                              style: k.zk.Large,
+                              style: R.zk.Large,
                               onClick: this.onQuickLaunchButtonClick,
                             }),
                           E != i.xY.None &&
@@ -6631,12 +6671,12 @@
                                       l.createElement(
                                         "div",
                                         { className: "ControlBar" },
-                                        l.createElement(k.NT, {
+                                        l.createElement(R.NT, {
                                           label: P
                                             ? (0, m.Xx)("#SteamVR_Home")
                                             : (0, m.Xx)("#Now_Playing"),
                                           active: this.isOverlayActive(p.PF),
-                                          style: k.zk.App,
+                                          style: R.zk.App,
                                           imageUrl: L,
                                           onClick: () =>
                                             this.switchToOverlayInternal(p.PF),
@@ -6647,8 +6687,8 @@
                                 ),
                               ),
                             ),
-                          D &&
-                            l.createElement(k.NT, {
+                          M &&
+                            l.createElement(R.NT, {
                               label: (0, m.Xx)("#Store"),
                               imageUrl: "/dashboard/images/icons/svr_store.svg",
                               additionalClassNames: "Store",
@@ -6657,7 +6697,7 @@
                                 (this.isOverlayActive(p.Y8) &&
                                   y.y.Instance.lastBigPictureEntryPoint ==
                                     y.b.QuickStore),
-                              style: k.zk.Large,
+                              style: R.zk.Large,
                               onClick: this.onQuickStoreButtonClick,
                             }),
                         ),
@@ -6665,10 +6705,10 @@
                           "div",
                           { className: "Section Right" },
                           l.createElement(
-                            k.dw,
-                            { style: k.zk.Small },
+                            R.dw,
+                            { style: R.zk.Small },
                             this.BShouldShowDashboardAction(Y.ToggleDarkMode) &&
-                              l.createElement(k.B8, {
+                              l.createElement(R.B8, {
                                 imageUrl: h
                                   ? "/dashboard/images/icons/svr_nightmode.svg"
                                   : "/dashboard/images/icons/svr_lightmode.svg",
@@ -6679,7 +6719,7 @@
                             !1,
                             !1,
                             this.BShouldShowDashboardAction(Y.Recenter) &&
-                              l.createElement(k.B8, {
+                              l.createElement(R.B8, {
                                 imageUrl:
                                   "/dashboard/images/icons/svr_recenter.svg",
                                 additionalClassNames: "CenterImageLarge",
@@ -6687,7 +6727,7 @@
                                 onClick: this.onRecenterClick,
                               }),
                             B &&
-                              l.createElement(k.B8, {
+                              l.createElement(R.B8, {
                                 imageUrl:
                                   "/dashboard/images/icons/svr_room_setup.svg",
                                 additionalClassNames: "CenterImageLarge",
@@ -6695,7 +6735,7 @@
                                 onClick: this.onImmersiveRoomSetupClick,
                               }),
                             this.BShouldShowDashboardAction(Y.ToggleRoomView) &&
-                              l.createElement(k.B8, {
+                              l.createElement(R.B8, {
                                 imageUrl: "/dashboard/images/icons/svr_eye.svg",
                                 label: (0, m.Xx)("#Toggle_Room_View"),
                                 onClick: this.onToggleRoomView,
@@ -6708,7 +6748,7 @@
                                     ? void 0
                                     : VRHTML.VROverlayInternal.HasCameraRoomViewCapability(),
                               }),
-                            l.createElement(k.D6, {
+                            l.createElement(R.D6, {
                               active: this.state.eShowPopoverMenu == ee.Volume,
                               refVolumeTray: this.m_refVolumeTray,
                               onShowTray: () => this.showPopoverMenu(ee.Volume),
@@ -6719,24 +6759,24 @@
                             }),
                           ),
                           I &&
-                            l.createElement(k.NT, {
+                            l.createElement(R.NT, {
                               imageUrl:
                                 "/dashboard/images/icons/svr_settings.svg",
                               active: this.isOverlayActive(p.A4),
                               enabled: this.hasDashboardOverlay(p.A4),
                               label: (0, m.Xx)("#Settings"),
-                              style: k.zk.Small,
+                              style: R.zk.Small,
                               centerPanelAnchorID: "VolumeButton",
                               onClick: () => this.switchToOverlayInternal(p.A4),
                             }),
                           this.state.bLinkStreamActive &&
                             T &&
-                            l.createElement(k.NT, {
+                            l.createElement(R.NT, {
                               imageUrl: T.sIcon,
                               active: !1,
                               enabled: !0,
                               label: (0, m.Xx)(T.sButtonName),
-                              style: k.zk.Small,
+                              style: R.zk.Small,
                               centerPanelAnchorID: "VolumeButton",
                               onClick: () => this.handlePeerButton(),
                             }),
@@ -6769,7 +6809,7 @@
                 sort_depth_bias: 0.2,
                 bWindowViewEnabled: this.state.bWindowViewEnabled,
               }),
-              l.createElement(k.z, {
+              l.createElement(R.z, {
                 ref: this.m_refVolumeTray,
                 curvatureOriginId: e,
                 scale: t,
@@ -6828,13 +6868,13 @@
             let e = Array.from(ae.B.m_mapOverlayState, ([e, t]) => ({
               sOverlayKey: e,
               overlayState: t,
-            })).filter((e) => e.overlayState.dockLocation != R.RA.Dashboard);
+            })).filter((e) => e.overlayState.dockLocation != k.RA.Dashboard);
             return l.createElement(
               l.Fragment,
               null,
               e.map((e) => {
                 var t;
-                return l.createElement(R.Sm, {
+                return l.createElement(k.Sm, {
                   bDashboardShown: this.state.bShown,
                   bHasSceneApp:
                     _.H.Instance.SceneApplicationState !== i.xY.None,
@@ -6863,7 +6903,7 @@
             return (
               this.state.bShown &&
               this.isOverlayActive(p.gB) &&
-              (0, R.sg)(this.getActiveOverlayDockLocation())
+              (0, k.sg)(this.getActiveOverlayDockLocation())
             );
           }
           onGameLaunched(e) {
@@ -7103,7 +7143,7 @@
                           renderValue: (e) => (100 * e).toFixed(0) + "%",
                         }),
                         h &&
-                          l.createElement(k.zN, {
+                          l.createElement(R.zN, {
                             icon: l.createElement(ne.VC, {
                               button: ie.F.HomeMenu,
                               type: ne.yV.Knockout,
@@ -7118,7 +7158,7 @@
                             additionalClassNames: "ButtonControlFixedHeight",
                           }),
                         h &&
-                          l.createElement(k.zN, {
+                          l.createElement(R.zN, {
                             icon: l.createElement(ne.VC, {
                               button: ie.F.QuickMenu,
                               type: ne.yV.Knockout,
@@ -7139,11 +7179,11 @@
                             ? void 0
                             : o.renderControlBarButtons(S)),
                         d &&
-                          l.createElement(k.CS, {
+                          l.createElement(R.CS, {
                             tooltipTranslation: S,
                             overlayKey: this.getActiveOverlayKey(),
                           }),
-                        l.createElement(k.zN, {
+                        l.createElement(R.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_left.png",
                           title: (0, m.Xx)("#DockOnLeftController"),
                           tooltipTranslation: S,
@@ -7153,9 +7193,9 @@
                             (null === (e = ae.B.m_mapOverlayState.get(t)) ||
                             void 0 === e
                               ? void 0
-                              : e.dockLocation) == R.RA.LeftHand
-                              ? this.onDockOverlay(t, R.RA.Dashboard)
-                              : this.onDockOverlay(t, R.RA.LeftHand);
+                              : e.dockLocation) == k.RA.LeftHand
+                              ? this.onDockOverlay(t, k.RA.Dashboard)
+                              : this.onDockOverlay(t, k.RA.LeftHand);
                           },
                           enabled:
                             VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
@@ -7163,9 +7203,9 @@
                             ) != i.Kf,
                           active:
                             this.getActiveOverlayDockLocation() ==
-                            R.RA.LeftHand,
+                            k.RA.LeftHand,
                         }),
-                        l.createElement(k.zN, {
+                        l.createElement(R.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_right.png",
                           title: (0, m.Xx)("#DockOnRightController"),
                           tooltipTranslation: S,
@@ -7175,9 +7215,9 @@
                             (null === (e = ae.B.m_mapOverlayState.get(t)) ||
                             void 0 === e
                               ? void 0
-                              : e.dockLocation) == R.RA.RightHand
-                              ? this.onDockOverlay(t, R.RA.Dashboard)
-                              : this.onDockOverlay(t, R.RA.RightHand);
+                              : e.dockLocation) == k.RA.RightHand
+                              ? this.onDockOverlay(t, k.RA.Dashboard)
+                              : this.onDockOverlay(t, k.RA.RightHand);
                           },
                           enabled:
                             VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
@@ -7185,28 +7225,28 @@
                             ) != i.Kf,
                           active:
                             this.getActiveOverlayDockLocation() ==
-                            R.RA.RightHand,
+                            k.RA.RightHand,
                         }),
-                        l.createElement(k.zN, {
+                        l.createElement(R.zN, {
                           iconUrl: "/dashboard/images/icons/icon_move.png",
                           title: (0, m.Xx)("#FloatInWorld"),
                           tooltipTranslation: S,
                           onClick: () => {
                             var e;
                             const t = this.getActiveOverlayKey();
-                            (0, R.fT)(
+                            (0, k.fT)(
                               null === (e = ae.B.m_mapOverlayState.get(t)) ||
                                 void 0 === e
                                 ? void 0
                                 : e.dockLocation,
                             )
-                              ? this.onDockOverlay(t, R.RA.Dashboard)
-                              : this.onDockOverlay(t, R.RA.World);
+                              ? this.onDockOverlay(t, k.RA.Dashboard)
+                              : this.onDockOverlay(t, k.RA.World);
                           },
                           active:
-                            this.getActiveOverlayDockLocation() == R.RA.World,
+                            this.getActiveOverlayDockLocation() == k.RA.World,
                         }),
-                        l.createElement(k.zN, {
+                        l.createElement(R.zN, {
                           iconUrl: "/dashboard/images/icons/svr_theater.svg",
                           title: (0, m.Xx)("#ToggleTheaterMode"),
                           tooltipTranslation: S,
@@ -7216,15 +7256,15 @@
                             (null === (e = ae.B.m_mapOverlayState.get(t)) ||
                             void 0 === e
                               ? void 0
-                              : e.dockLocation) == R.RA.Theater
-                              ? this.onDockOverlay(t, R.RA.Dashboard)
-                              : this.onDockOverlay(t, R.RA.Theater);
+                              : e.dockLocation) == k.RA.Theater
+                              ? this.onDockOverlay(t, k.RA.Dashboard)
+                              : this.onDockOverlay(t, k.RA.Theater);
                           },
                           active:
-                            this.getActiveOverlayDockLocation() == R.RA.Theater,
+                            this.getActiveOverlayDockLocation() == k.RA.Theater,
                         }),
                         c &&
-                          l.createElement(k.zN, {
+                          l.createElement(R.zN, {
                             iconUrl:
                               "/dashboard/images/icons/icon_close_black.png",
                             title: (0, m.Xx)(
@@ -7275,7 +7315,7 @@
                           "div",
                           { className: "Section Left" },
                           n && this.renderStatusBarTitle(),
-                          l.createElement(k.j6, {
+                          l.createElement(R.j6, {
                             role: i.Kg.TrackedControllerRole_LeftHand,
                             style: f.A.HorizontalPips,
                           }),
@@ -7283,16 +7323,16 @@
                         l.createElement(
                           "div",
                           { className: "Section Center" },
-                          l.createElement(k.j6, {
+                          l.createElement(R.j6, {
                             deviceIndex: i.wU,
                             style: f.A.VerticalBattery,
                           }),
-                          l.createElement(k.M3, null),
+                          l.createElement(R.M3, null),
                         ),
                         l.createElement(
                           "div",
                           { className: "Section Right" },
-                          l.createElement(k.j6, {
+                          l.createElement(R.j6, {
                             role: i.Kg.TrackedControllerRole_RightHand,
                             style: f.A.HorizontalPips,
                           }),
@@ -7364,8 +7404,8 @@
               "" == e.overlay_key && g.push(e);
             });
             const _ = this.getActiveOverlayDockLocation(),
-              y = (0, R.fT)(_),
-              S = (0, R.sg)(_);
+              y = (0, k.fT)(_),
+              S = (0, k.sg)(_);
             let f = !1,
               w = this.getActiveOverlayKey();
             if (w) {
@@ -7373,15 +7413,15 @@
               f = !!e && VRHTML.VROverlay.GetFlag(e, i.Z9.EnableControlBar);
             }
             let C = 2,
-              M = 2.5;
-            const D = b.G3.settings.get("/settings/dashboard/theaterPosition");
-            D == $.Near
-              ? ((C *= 0.5), (M *= 0.5))
-              : D == $.Middle
-              ? ((C *= 1), (M *= 1))
-              : D == $.Far
-              ? ((C *= 4), (M *= 2.5))
-              : D == $.Standard && ((C *= 1), (M *= 1));
+              D = 2.5;
+            const M = b.G3.settings.get("/settings/dashboard/theaterPosition");
+            M == $.Near
+              ? ((C *= 0.5), (D *= 0.5))
+              : M == $.Middle
+              ? ((C *= 1), (D *= 1))
+              : M == $.Far
+              ? ((C *= 4), (D *= 2.5))
+              : M == $.Standard && ((C *= 1), (D *= 1));
             const I =
                 null ===
                   (r = b.G3.settings.get(
@@ -7448,7 +7488,7 @@
                         !y &&
                           !S &&
                           l.createElement(
-                            k.lL,
+                            R.lL,
                             {
                               additionalClassNames: f ? "WithControlBar" : "",
                               visible: !0,
@@ -7460,10 +7500,10 @@
                                 "h2",
                                 null,
                                 this.getActiveOverlayDockLocation() ==
-                                  R.RA.LeftHand &&
+                                  k.RA.LeftHand &&
                                   (0, m.Xx)("#DockedOnLeftController"),
                                 this.getActiveOverlayDockLocation() ==
-                                  R.RA.RightHand &&
+                                  k.RA.RightHand &&
                                   (0, m.Xx)("#DockedOnRightController"),
                               ),
                               l.createElement(
@@ -7471,7 +7511,7 @@
                                 {
                                   className: "ButtonControl",
                                   onClick: () => {
-                                    this.onDockOverlay(w, R.RA.Dashboard);
+                                    this.onDockOverlay(w, k.RA.Dashboard);
                                   },
                                 },
                                 (0, m.Xx)("#DockHere"),
@@ -7573,7 +7613,7 @@
                                   null,
                                   " ",
                                   h.map((e) =>
-                                    l.createElement(k.dy, {
+                                    l.createElement(R.dy, {
                                       key: e.mountable_id,
                                       imageUrl: this.getDashboardIconUri(e),
                                       label: e.tab_name,
@@ -7614,7 +7654,7 @@
                                   null,
                                   " ",
                                   g.map((e) =>
-                                    l.createElement(k.dy, {
+                                    l.createElement(R.dy, {
                                       key: e.hwnd,
                                       imageUrl:
                                         "/dashboard/images/icons/icon_add.png",
@@ -7804,8 +7844,8 @@
         r.d(t, {
           Sm: () => T,
           RA: () => S,
-          sg: () => M,
-          fT: () => D,
+          sg: () => D,
+          fT: () => M,
           Y3: () => f,
         });
         var o = r(655),
@@ -7894,8 +7934,8 @@
         var b,
           S,
           f,
-          R = r(792),
-          k = r(9347),
+          k = r(792),
+          R = r(9347),
           w = r(6459);
         !(function (e) {
           (e[(e.Dashboard = 0)] = "Dashboard"),
@@ -7908,10 +7948,10 @@
             (e[(e.Flat = 0)] = "Flat"), (e[(e.Curved = 1)] = "Curved");
           })(f || (f = {}));
         const C = "TheaterCurvatureOriginId";
-        function M(e) {
+        function D(e) {
           return e == S.Dashboard || e == S.Theater;
         }
-        function D(e) {
+        function M(e) {
           return e == S.World;
         }
         function I(e) {
@@ -7979,7 +8019,7 @@
             if (
               ((this.props.sOverlayKey.startsWith(c.r4) ||
                 this.props.sOverlayKey.startsWith(c.Vq)) &&
-                ((n = k.N.k_nDesktopPanelBaseHeight * this.getDashboardScale()),
+                ((n = R.N.k_nDesktopPanelBaseHeight * this.getDashboardScale()),
                 (o = (n * r.x) / r.y)),
               this.m_fLastOverlayHeight && this.m_fLastOverlayHeight != n)
             ) {
@@ -8253,20 +8293,20 @@
               window.removeEventListener("mouseup", this.endMove);
           }
           render() {
-            var e;
+            var e, t;
             if ("" == this.props.sOverlayKey || null == this.state.xfTransform)
               return null;
-            let t = this.getCurrentOverlaySize();
-            if (null === t) return null;
-            (t.width *= this.state.fOverlayScale),
-              (t.height *= this.state.fOverlayScale);
-            let r,
-              o = !this.props.bDashboardShown,
-              i = !1,
-              a = !1;
+            let r = this.getCurrentOverlaySize();
+            if (null === r) return null;
+            (r.width *= this.state.fOverlayScale),
+              (r.height *= this.state.fOverlayScale);
+            let o,
+              i = !this.props.bDashboardShown,
+              a = !1,
+              l = !1;
             if (this.props.dockLocation == S.Theater) {
-              if (this.props.bHasSceneApp && R.C.m_bShowFloor) return null;
-              o = !0;
+              if (this.props.bHasSceneApp && k.C.m_bShowFloor) return null;
+              i = !0;
               const t =
                 null !==
                   (e = u.G3.settings.get(
@@ -8274,28 +8314,36 @@
                   )) &&
                 void 0 !== e &&
                 e;
-              (i = h.B.isDarkMode && t),
-                (a = this.props.bCaptureVideo),
-                h.B.eTheaterScreen == f.Curved && (r = C);
+              (a = h.B.isDarkMode && t),
+                (l = this.props.bCaptureVideo),
+                h.B.eTheaterScreen == f.Curved && (o = C);
             }
-            const l = VRHTML.VROverlay.FindOverlay(this.props.sOverlayKey),
-              v =
-                l && VRHTML.VROverlay.GetFlag(l, n.Z9.EnableControlBarKeyboard),
+            const v = VRHTML.VROverlay.FindOverlay(this.props.sOverlayKey),
               g =
+                v && VRHTML.VROverlay.GetFlag(v, n.Z9.EnableControlBarKeyboard),
+              _ =
                 (null === VRHTML || void 0 === VRHTML
                   ? void 0
                   : VRHTML.BSupportsMultitaskingView()) &&
                 this.props.sOverlayKey.startsWith(c.r4),
-              _ = { x: 0, y: -0.15, z: 0.1 };
-            if (o) {
-              const e = 0.05;
-              let o = -0.1,
-                a = 4,
-                l = 1,
-                d = 0.15,
-                u = (t.width, t.height);
-              const b = (0, n.iN)(c.Az, "Floating-Panel"),
-                R = (e) =>
+              R = { x: 0, y: -0.15, z: 0.1 };
+            if (i) {
+              const e =
+                  this.props.dockLocation == S.Theater ||
+                  (null !==
+                    (t = u.G3.settings.get(
+                      "/settings/dashboard/inputCaptureEnabled",
+                    )) &&
+                    void 0 !== t &&
+                    t),
+                i = 0.05;
+              let l = -0.1,
+                d = 4,
+                v = 1,
+                b = 0.15,
+                k = (r.width, r.height);
+              const D = (0, n.iN)(c.Az, "Floating-Panel"),
+                M = (e) =>
                   s.createElement(
                     n.wx,
                     {
@@ -8303,11 +8351,11 @@
                       translation: { x: e.x_offset, y: 0.2, z: 0.01 },
                     },
                     s.createElement(y, {
-                      target_id: b,
+                      target_id: D,
                       min_target_scale: 0.5,
                       max_target_scale: 1.5,
                       bVisible: !0,
-                      scale: 1.5 * l,
+                      scale: 1.5 * v,
                       tint: h.B.ControlBarTint,
                     }),
                   );
@@ -8321,21 +8369,22 @@
                 s.createElement(
                   p.Z,
                   null,
-                  s.createElement(n.wx, { id: C, translation: { z: a } }),
+                  s.createElement(n.wx, { id: C, translation: { z: d } }),
                   s.createElement(
                     n.s_,
                     {
                       id: "Floating-Panel",
                       overlay_key: this.props.sOverlayKey,
-                      height: u,
+                      height: k,
                       width: void 0,
                       interactive: !0,
+                      allow_input_capture: e,
                       undocked: !0,
                       origin:
                         this.props.dockLocation == S.Theater
                           ? { x: 0, y: -0.75 }
                           : n.Ic.BottomCenter,
-                      curvature_origin_id: r,
+                      curvature_origin_id: o,
                     },
                     s.createElement(n.at, {
                       id: "Floating-Panel-BottomLeft",
@@ -8356,12 +8405,12 @@
                       ),
                     }),
                   ),
-                  i &&
+                  a &&
                     s.createElement(n.bt, {
-                      target_id: b,
-                      "near-z": o,
+                      target_id: D,
+                      "near-z": l,
                       "far-z": 0.1,
-                      specular: { color: { r: e, g: e, b: e } },
+                      specular: { color: { r: i, g: i, b: i } },
                       diffuse: { size: 20, resolution: 512 },
                       debug: !1,
                     }),
@@ -8379,12 +8428,12 @@
                         s.createElement(
                           n.s_,
                           {
-                            height: d,
+                            height: b,
                             width: void 0,
                             interactive: !0,
                             requires_laser: !0,
                             origin: n.Ic.TopCenter,
-                            curvature_origin_id: r,
+                            curvature_origin_id: o,
                           },
                           s.createElement(
                             "div",
@@ -8392,15 +8441,15 @@
                             s.createElement(
                               "div",
                               { className: "Section" },
-                              g &&
+                              _ &&
                                 s.createElement(w.zN, {
                                   key: "multitask",
                                   iconUrl:
                                     "/dashboard/images/icons/icon_multitasking_view.png",
-                                  tooltipTranslation: _,
+                                  tooltipTranslation: R,
                                   onClick: this.props.ShowMultitaskingView,
                                 }),
-                              v &&
+                              g &&
                                 s.createElement(w.CS, {
                                   overlayKey: this.props.sOverlayKey,
                                   showTooltip: !1,
@@ -8442,19 +8491,19 @@
                         ),
                         s.createElement(
                           n.wx,
-                          { translation: { y: -d - 0.03, z: 0.03 } },
+                          { translation: { y: -b - 0.03, z: 0.03 } },
                           s.createElement(m.J, {
-                            scale: l,
+                            scale: v,
                             tint: h.B.ControlBarTint,
-                            curvature_origin_id: r,
+                            curvature_origin_id: o,
                           }),
                         ),
                       ),
-                      s.createElement(R, {
+                      s.createElement(M, {
                         parent_id: "Floating-Panel-BottomLeft",
                         x_offset: -0.03,
                       }),
-                      s.createElement(R, {
+                      s.createElement(M, {
                         parent_id: "Floating-Panel-BottomRight",
                         x_offset: 0.03,
                       }),
@@ -8462,17 +8511,17 @@
                 ),
               );
             }
-            let k = b.sfOverlayTrayHeight * this.getDashboardScale(),
+            let D = b.sfOverlayTrayHeight * this.getDashboardScale(),
               M = b.sfOverlayScaleMin,
-              D = b.sfOverlayScaleMax,
-              I = [0.5, 1, 1.5];
+              I = b.sfOverlayScaleMax,
+              T = [0.5, 1, 1.5];
             (this.props.dockLocation != S.LeftHand &&
               this.props.dockLocation != S.RightHand) ||
-              ((k *= 0.4), (M = 0.1), (D = 1.5), (I = [0.25, 0.5, 1]));
-            const T = t.height + k,
-              V = Math.max(t.width, 0.175),
-              E = T / 2 - k,
-              P = h.B.isVRGamepadUI
+              ((D *= 0.4), (M = 0.1), (I = 1.5), (T = [0.25, 0.5, 1]));
+            const V = r.height + D,
+              E = Math.max(r.width, 0.175),
+              P = V / 2 - D,
+              x = h.B.isVRGamepadUI
                 ? {
                     r: (14 / 255) * 0.1,
                     g: (20 / 255) * 0.1,
@@ -8490,12 +8539,12 @@
               s.createElement(
                 n.wx,
                 {
-                  translation: { y: E, z: -0.005 },
-                  scale: { x: V, y: T, z: 0.008 },
+                  translation: { y: P, z: -0.005 },
+                  scale: { x: E, y: V, z: 0.008 },
                 },
                 s.createElement(
                   n.VW,
-                  { color: P },
+                  { color: x },
                   s.createElement(n.gQ, { solid: !0, source: "unit_cube" }),
                 ),
               ),
@@ -8503,7 +8552,7 @@
                 n.s_,
                 {
                   overlay_key: this.props.sOverlayKey,
-                  height: t.height,
+                  height: r.height,
                   width: void 0,
                   interactive: !0,
                   undocked: !0,
@@ -8519,7 +8568,7 @@
               s.createElement(
                 n.s_,
                 {
-                  height: k,
+                  height: D,
                   width: void 0,
                   interactive: !0,
                   origin: n.Ic.TopCenter,
@@ -8533,22 +8582,22 @@
                     s.createElement(d.iR, {
                       additionalClassName: "OverlayControlBarSlider",
                       min: M,
-                      max: D,
+                      max: I,
                       value: this.state.fOverlayScale,
                       valueStyleVariant: d.px.OnHandle,
                       onChange: this.onOverlayScaleChanged,
-                      detents: I,
+                      detents: T,
                       renderValue: (e) => (100 * e).toFixed(0) + "%",
                     }),
-                    g &&
+                    _ &&
                       s.createElement(w.zN, {
                         key: "multitask",
                         iconUrl:
                           "/dashboard/images/icons/icon_multitasking_view.png",
-                        tooltipTranslation: _,
+                        tooltipTranslation: R,
                         onClick: this.props.ShowMultitaskingView,
                       }),
-                    v &&
+                    g &&
                       s.createElement(w.CS, {
                         overlayKey: this.props.sOverlayKey,
                         showTooltip: !1,
@@ -8656,12 +8705,12 @@
             b,
             S,
             f,
-            R,
             k,
+            R,
             w,
             C,
-            M,
             D,
+            M,
             I,
             T,
             V,
@@ -8738,11 +8787,11 @@
                   : 1,
               v:
                 null !==
-                  (k =
-                    null === (R = H.clip_rect) || void 0 === R
+                  (R =
+                    null === (k = H.clip_rect) || void 0 === k
                       ? void 0
-                      : R.v_max) && void 0 !== k
-                  ? k
+                      : k.v_max) && void 0 !== R
+                  ? R
                   : 1,
             },
             z = {
@@ -8756,11 +8805,11 @@
                   : 0,
               y:
                 null !==
-                  (D =
-                    null === (M = H.offset) || void 0 === M
+                  (M =
+                    null === (D = H.offset) || void 0 === D
                       ? void 0
-                      : M.y_pixels) && void 0 !== D
-                  ? D
+                      : D.y_pixels) && void 0 !== M
+                  ? M
                   : 0,
               z:
                 null !==
@@ -8907,12 +8956,12 @@
           b = r(7008),
           S = r(8980),
           f = r(9897),
-          R = r(1628),
-          k = r(8322),
-          w = r.n(k),
+          k = r(1628),
+          R = r(8322),
+          w = r.n(R),
           C = r(7726),
-          M = r(7471),
-          D = r(9626);
+          D = r(7471),
+          M = r(9626);
         const I = new l.vP();
         function T(e) {
           const { summonOverlayKey: t } = e,
@@ -8964,7 +9013,7 @@
         const V = (0, d.Pi)(function (e) {
             return c.createElement(
               E,
-              Object.assign({}, e, { VRGamepadUI: D.B.isVRGamepadUI }),
+              Object.assign({}, e, { VRGamepadUI: M.B.isVRGamepadUI }),
             );
           }),
           E = (e) => {
@@ -8989,7 +9038,7 @@
                   : 1,
               m =
                 null ===
-                  (o = R.G3.settings.get(
+                  (o = k.G3.settings.get(
                     "/settings/dashboard/allowCurvature",
                   )) ||
                 void 0 === o ||
@@ -9143,7 +9192,7 @@
                 : { x: 0, y: -0.2, z: 0.05 },
               o =
                 null ===
-                  (e = R.G3.settings.get(
+                  (e = k.G3.settings.get(
                     "/settings/dashboard/allowCurvature",
                   )) ||
                 void 0 === e ||
@@ -9626,13 +9675,13 @@
           }
           get showAudioMirrorControls() {
             return (
-              R.G3.settings.get(
+              k.G3.settings.get(
                 "/settings/audio/enablePlaybackMirrorIndependentVolume",
-              ) && R.G3.settings.get("/settings/audio/enablePlaybackMirror")
+              ) && k.G3.settings.get("/settings/audio/enablePlaybackMirror")
             );
           }
           get enableAudioMirrorControls() {
-            return !!R.G3.settings.get(
+            return !!k.G3.settings.get(
               "/settings/audio/activePlaybackMirrorDevice",
             );
           }
@@ -9981,7 +10030,7 @@
             e.label && c.createElement("span", null, e.label),
             e.iconUrl &&
               c.createElement("img", {
-                className: (0, M.Z)(
+                className: (0, D.Z)(
                   "Icon",
                   (null === (t = e.iconIsInverted) || void 0 === t || t) &&
                     "BlackToWhite",
@@ -11165,4 +11214,4 @@
   var n = o.O(void 0, [968, 683], () => o(855));
   n = o.O(n);
 })();
-//# sourceMappingURL=notificationtoast.js.map?v=d531d23783181113fb90
+//# sourceMappingURL=notificationtoast.js.map?v=a5f73d83b537e6d93c24

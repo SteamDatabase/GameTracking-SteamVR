@@ -141,6 +141,8 @@
 	"Settings_EnableDashboardDesc": "Allow the VR Dashboard to be summoned in response to a system button press.",
 	"Settings_AutoShowGameTheater": "Present Non-VR Applications on Theater Screen Upon Launch",
 	"Settings_AutoShowGameTheaterDesc": "When launching a non-vr application from Steam, automatically display that application on the theater screen.",
+	"Settings_InputCaptureEnabled": "Allow Undocked Dashboard Overlay Interaction",
+	"Settings_InputCaptureEnabledDesc": "Clicking on floating or controller attached overlays while the dashboard is dismissed, activates laser mouse.",
 	"Settings_HomeAppCheck": "SteamVR Home",
 	"Settings_HomeAppDesc": "Enjoy virtual environments, social features, and more.",
 	"Settings_LargeSpace": "Large Space",
