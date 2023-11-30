@@ -8,7 +8,6 @@
 																												
 																																												
 	!s99
-	5fQH
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -57,10 +56,11 @@
 !0E0R0[0
 !hn7!
 "0)0C0
-"W4nFt
+"Bs58
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
+$DF-s
 $PVh\
 $Ph$*
 $Ph%*
@@ -90,7 +90,6 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
-,n?UL
 -1e+9999
 -Infinity
 -external
@@ -565,6 +564,9 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
+/D+CjYR
+/j|K!
+/m$tN
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -711,7 +713,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231127210044Z0/
+231130022602Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1432,11 +1434,11 @@ $Vh&*
 @.data
 @SVWj
 @d;Cd
-@|6r	
 A valid JSON document must be either an array or an object value.
 A98t	
 ACL_DATA_PACKET
 ADVAPI32.dll
+AHo[8
 Address:  %s
 Already open
 Attribute Discovery
@@ -1542,7 +1544,6 @@ Bluetooth_Initialize
 Bootloader Mode
 C	hHI
 C(PWj
-C7=mr@I.1
 C:j f
 C@PWj
 CBPWj
@@ -1911,6 +1912,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDScwA,
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2208,6 +2210,7 @@ dat_file
 data error
 deque<T> too long
 digit
+e$!VG
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2267,7 +2270,6 @@ j!hti
 j#h<M
 j$h i
 j(hHi
-jN>	^
 jWhXG
 jj@0HK4
 k0i0$
@@ -2287,6 +2289,7 @@ memcpy
 memmove
 memset
 mutex
+n)Ew2
 need dictionary
 nrfserlib.dll
 ole32.dll
@@ -2296,6 +2299,7 @@ oversubscribed literal/length tree
 print
 punct
 realloc
+s(hO`E
 s?=2N
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
@@ -2454,7 +2458,6 @@ uMhP#
 uSj&h
 uT9=$1
 uj#hD
-uji9ii
 ukh@7
 ulhpQ
 unknown

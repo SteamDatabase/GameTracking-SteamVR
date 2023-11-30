@@ -2425,6 +2425,7 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+02:23:52
 0A
 0x
 0x%08llx
@@ -2492,7 +2493,6 @@ $tI
 1e+9999
 2
 20
-20:55:31
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
@@ -5980,7 +5980,7 @@ Not the preferred basestation
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Nov
-Nov 27 2023
+Nov 30 2023
 November
 Numbers starting with leading zero must be in octal.
 NvAPI

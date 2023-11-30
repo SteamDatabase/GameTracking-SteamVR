@@ -1,10 +1,8 @@
 	!s99
  %41g
 !hn7!
-"olgW+xG
 ',=?k
 (f*^[0
-) B	B
 +Xt@(
 +o'q)}
 ,W5y+
@@ -54,7 +52,6 @@
 .text$x
 .text$yd
 .xdata$x
-/$CHTx
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -73,7 +70,6 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-/wB,%
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
 0w0c1
@@ -83,14 +79,13 @@
 1+232;2
 130801120000Z
 1@1h1
-1O~if
 1d2|2
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231127210146Z0/
+231130022656Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -106,7 +101,6 @@
 380115120000Z0b1
 3:3I3X3
 3mq+<
-3yEvY
 4	5(555?5I5V5c5i5s5}5
 4	5N5T5u5
 4*4d4m4~4
@@ -214,12 +208,13 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
-Xtq;tX
 Y9"SD
 Y__^[
-YfFj7
 [K]taM?
+\\-WL>
+\bjeR
 ]J<0"0i3
+^]++8g
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ

@@ -44,7 +44,6 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !0(0/0.292E2
 !9~ t
-!QJ~d
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -108,6 +107,7 @@ $9^ t
 , column 
 , last executing in 
 , requestedBytes 
+,FI*W
 ,W5y+
 ,^_[]
 -1003
@@ -244,7 +244,6 @@ $9^ t
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.Q`B$
 .data
 .data$r
 .edata
@@ -462,7 +461,7 @@ $9^ t
 220801000000Z
 223S3
 230714000000Z
-231127210151Z0/
+231130022700Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -669,7 +668,6 @@ $9^ t
 6_6k6x6
 6d7v7
 6h8!:
-6z7]W.
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7
 7 7$7(7,70787P7`7d7h7l7t7
 7 858P8h8
@@ -718,6 +716,7 @@ $9^ t
 7Q7Z7c7l7q7v7
 7R:o:4;g;
 7T8k8
+7THvq giwl
 7h7v7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t8v9
@@ -1044,6 +1043,7 @@ $9^ t
 >D?t?
 >H>O>T>v>
 >I?j?
+>JMQ+
 >K>x>
 >Mp$d
 >Q>U>*?.?
@@ -1287,12 +1287,12 @@ File write error:
 Forcing chaperone update
 Found path: 
 FreeLibrary
+G)}, 
 GH+G@
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
 GPUCountingSemaphore::Wait(%llu) FAILED!!
-Gb62b|+W
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -1318,7 +1318,6 @@ HeapAlloc
 HeapFree
 Hmd not found.
 HmdDriverFactory
-Hv+@X
 ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -1389,7 +1388,6 @@ IsDebuggerPresent
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J0+J(
-J=(%|n2
 J>@G_
 JSON string too short.
 JSONuTS
@@ -1831,7 +1829,6 @@ dxgi.dll
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
-eeAw'
 el_el
 emissiveFactor
 emissiveTexture
@@ -1864,6 +1861,7 @@ fread
 french
 fseek
 fsetpos
+fw4c1h
 fwrite
 generator
 german
@@ -1979,7 +1977,6 @@ joh(Z
 joints
 jsonid
 k0i0$
-k?,Kd
 ko_ko
 korean
 l2|X/gGe

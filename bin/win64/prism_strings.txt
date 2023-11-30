@@ -58,6 +58,7 @@
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
 $9E0u
+%>j |WHs
 %s begin_ctx=%llu
 %s end_ctx=%llu
 %s%s%s%s%s
@@ -309,8 +310,9 @@ $9E0u
 %s: unsupported format
 %s: usage must be specified when allocating images
 %u != %zu
+&Kerc'
 ',=?k
-'\mX;*
+'sgzh
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -322,8 +324,8 @@ $9E0u
 (D$pv
 (L$pD
 (d$pD
+(e!xJ_
 (f*^[0
-(k X}xhS
 (l$0L
 (l$@D
 (l$`H
@@ -473,6 +475,7 @@ $9E0u
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
+.Al&d
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -532,7 +535,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231127210758Z0/
+231130023010Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -545,6 +548,7 @@ $9E0u
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4,+w2
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -731,7 +735,6 @@ AddAccessAllowedAce failed for steam. GetLastError returned: %d
 AddAccessAllowedAce failed for test app. GetLastError returned: %d
 AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
 AddStage and CopyStages are mutually exclusive.
-AjX4$
 Already initialized
 Apply blur filter
 Apply median filter
@@ -1424,7 +1427,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSEK
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1511,6 +1513,7 @@ T$tA+
 T$xD9
 T$xH3
 T$xL+
+T+L8D
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 TerminateProcess
@@ -1631,6 +1634,7 @@ Y9"SD
 YUV conversion - %s
 Yl$ M
 Yl$4E
+ZNccNr
 [ AVH
 [K]taM?
 \$ AVH
@@ -1672,7 +1676,6 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
-^Q$a|6
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1833,7 +1836,6 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
-eJpXt
 effffff
 f9+t4
 f98tZH
@@ -1907,6 +1909,7 @@ l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
+m1vAq
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -2093,6 +2096,7 @@ timeSetEvent
 timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
+tqCH$E
 t}H9=
 uAfff
 uRf;>tM

@@ -15,7 +15,6 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
 !hn7!
-"zifN,
 $Phdd
 %%.%dg
 %2.2X
@@ -85,11 +84,13 @@ $Phdd
 +Xt@(
 +o'q)}
 ,W5y+
+,|S|2s
 -1e+9999
 -ADDR %s
 -Infinity
 -NAME "%s"
 -btdriverver
+-q*_U
 -start
 -status
 -stop
@@ -237,7 +238,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231127210049Z0/
+231130022606Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -454,6 +455,7 @@ $Phdd
 <= Exiting Context: (%.2f seconds)
 <SVWj
 <_>u>
+<f(1pf+
 = >,>4>T>x>
 =">>>
 =%?,?;?B?p?t?
@@ -689,6 +691,7 @@ Existing Bootloader mode.
 Extended Error: %s, %s
 F ;G 
 F ;W$|
+F!LPyI
 F$;G$
 F(j4f
 F<\uD
@@ -731,9 +734,7 @@ GetTickCount64
 GetVersionExA
 H$;J$
 H-^Eu
-H?%Rp`
 HTC BS
-I8%gj#
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -803,6 +804,7 @@ Nonce:    %d
 ODFU Post
 OpenProcess
 Out of thread local storage!
+P)Z=A
 PAIR -NONCE %6.6d
 PAq=?Mp#
 PQShXa
@@ -824,6 +826,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS0
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -899,6 +902,7 @@ VL2_Reset
 VL2_WriteCommand
 VL2_WriteWithResponse
 VL2_WriteWithoutResponse
+VV2^v
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -1117,11 +1121,11 @@ fputs
 fread
 fseek
 ftell
+ge]t:
 gfff+
 gfffSV
 gfffV
 graph
-hH	W&
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1197,6 +1201,7 @@ memmove
 memset
 need dictionary
 ntdll.dll
+o	9gs
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
@@ -1256,7 +1261,6 @@ vivelink.exe
 vivelinklib.dll
 w(_^[]
 w0_^[
-w9e?*
 wd_^[
 win64
 wn>Jj
@@ -1266,7 +1270,6 @@ x5t7j
 xdigit
 y4_^[
 {L?uI
-{X/^K
 {un'%
 |	9A 
 |	;J 

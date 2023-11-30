@@ -1,7 +1,7 @@
 	!s99
  %41g
- n>FA
 !hn7!
+$DhB)I
 ',=?k
 (f*^[0
 +Xt@(
@@ -61,6 +61,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+/FHOROQ_
 /input/a/click
 /input/b/click
 /input/back/click
@@ -104,7 +105,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231127210129Z0/
+231130022643Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -136,7 +137,6 @@
 5b5s5
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5|mjo
 6!6*646=6K6T6]6f6s6
 6!616:6I6O6U6[6a6g6m6s6y6
 6*f(_
@@ -188,7 +188,6 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-@ra];
 Bellevue1
 CloseHandle
 CreateEventW
@@ -245,10 +244,9 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QW:X0
 QueryPerformanceCounter
-RSDS6
 RaiseException
+Rx#9I
 S0Q0O
 SA|X=G
 SDL2.dll
@@ -280,6 +278,7 @@ SetEnvironmentVariableA
 SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID
 SleepConditionVariableCS
+T.H<C
 TerminateProcess
 TlsAlloc
 TlsFree
@@ -292,11 +291,9 @@ Valve Corp.1
 WakeAllConditionVariable
 Washington1
 Y9"SD
-YRN?+
 Y__^[
 [K]taM?
 ]J<0"0i3
-^Yme T
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -350,11 +347,8 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-j.,OE
 jj@0HK4
 k0i0$
-k?}QG
-k\@:~
 l2|X/gGe
 m0k0$
 malloc
@@ -365,11 +359,11 @@ memset
 string too long
 terminate
 uCVj@
+u{wf3
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{HPw[
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -381,6 +375,7 @@ www.digicert.com1$0"
 {gamepad}/input/gamepad_profile.json
 {un'%
 |Lu?c
+|d:KP}
 }LuHO
 ~qj#k"
 ~t&LN

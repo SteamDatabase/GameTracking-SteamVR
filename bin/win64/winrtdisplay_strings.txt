@@ -8,7 +8,7 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
-#(#Y&
+":LdQ
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -17,6 +17,7 @@
 +Xt@(
 +o'q)}
 ,W5y+
+,WzF.
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -118,7 +119,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231127210634Z0/
+231130022846Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,7 +145,6 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-:BZdw
 <0:08
 <P)9Y
 <unknown>
@@ -234,6 +234,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 Intel
 InterlockedPushEntrySList
+Iq94rTF
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
@@ -288,7 +289,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W@0l(N
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -322,6 +322,7 @@ Y9"SD
 \$(H;
 \$Xfff
 ]J<0"0i3
+]zo0	
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -367,7 +368,6 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
-h;!~Q
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -403,7 +403,6 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-z\h	h
 {un'%
 |$ AVH
 |$0E3

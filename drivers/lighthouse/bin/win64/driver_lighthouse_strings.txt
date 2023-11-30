@@ -32,7 +32,6 @@
 	#jT$
 	CODE_SIZE
 	D$HA
-	E.1p
 	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
 	TYPE_BOOL
 	TYPE_ENUM
@@ -740,6 +739,7 @@ $w!Hc
 (t$pH
 (t$pI
 (t$pL
+(x?^.
 (|$ 2
 (|$ D
 (|$ H
@@ -872,6 +872,7 @@ $w!Hc
 *H+KXI
 *T$4I
 *uXI;
+*w$6rs{%
 +C,+C
 +D9c0t H
 +Xt@(
@@ -1243,7 +1244,6 @@ $w!Hc
 /D$hs:I
 /D8pH
 /F@v	L
-/Kq(e
 /Z v"
 /bin/mail
 /delivery_rate
@@ -1389,6 +1389,7 @@ $w!Hc
 1I9p 
 1e+9999
 1wsHp
+1zn]>`
 2).lighthouse.pb.CBaseConfigAndDynamicState"
 210429000000Z
 211007000000Z
@@ -1396,7 +1397,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231127210900Z0/
+231130023113Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1573,7 +1574,6 @@ $w!Hc
 ; expected 
 ; last read: '
 ;.u H
-;8(A\
 ;<$uCB
 ;Ch}(
 ;D$lu H
@@ -2236,7 +2236,6 @@ Bellevue1
 Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
 Beyond
 Bf9LB
-Bi5:B
 Bigscreen
 Bigscreen Beyond
 Boolean default must be true or false.
@@ -4541,6 +4540,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RSDSn
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5673,6 +5673,7 @@ ZL$Xf
 ]g@8yhu
 ]wfHc
 ^9k0tWD
+^;*#L^
 ^@H;^Ht
 ^@I;^Ht
 ^@I;^Ht&f
@@ -5695,7 +5696,6 @@ _D9c0tWD
 _D9k0tWD
 _D9s0tWD
 _D9w0tWD
-_ES`=
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -6399,7 +6399,6 @@ https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
 hu_hu
 hungarian
 i H9i0u
-i2z"3
 iauds
 ideal_period
 identifier_value
@@ -7388,7 +7387,6 @@ v9fff
 v=Y]Bv
 v@L;D$P
 vE;E`M
-vF"P(
 vHcD$LH
 vOL9-
 vQO+t

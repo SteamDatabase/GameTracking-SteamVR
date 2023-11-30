@@ -163,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231127211029Z0/
+231130023247Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -184,12 +184,12 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7w0"n:W1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;,H%;
+;!Mw@
 <0:08
-=E;[loV
 =rIQU
 >0<0:
 >Mp$d
@@ -283,6 +283,7 @@
 @VATAVH
 @VWAVH
 A valid JSON document must be either an array or an object value.
+A#}W17
 A(t	H
 ADVAPI32.dll
 ATAVAWH
@@ -527,6 +528,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS	
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -583,14 +585,12 @@ UWATAUAVH
 UWATAVAWH
 UWAVH
 UWAWH
-UZ	\@ZM
 Unable to parse token length
 UnhandledExceptionFilter
 Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
-Uu9KU
 V H+V
 V I9V(t L
 VATAUAVAWH
@@ -642,6 +642,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
+YFkA$B6\8
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -736,7 +737,6 @@ collectComments
 d$ UAVAWH
 d$PE3
 d$`H=
-dKOLIi
 deque<T> too long
 description
 disable_environment
@@ -826,7 +826,6 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
-qLA43CT
 rejectDupKeys
 runtime
 s t#fff
@@ -837,6 +836,7 @@ strcmp
 strictRoot
 string too long
 strncpy
+s|SX{_
 t$ AVH
 t$ AWH
 t$ E3
@@ -979,6 +979,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+{M,#2(
 {un'%
 |$ ATAVAWH
 |$ AVH

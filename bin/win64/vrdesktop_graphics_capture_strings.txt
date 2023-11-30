@@ -14,8 +14,10 @@
  H3E H3E
  for detail.
  formatting error code 
+ hcZx
 !! refusing to trigger minidump with debugger attached
 !hn7!
+$@xX#k
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -39,6 +41,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-	Lb2B
 -1e+9999
 -Infinity
 -u-I;
@@ -181,7 +184,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231127211516Z0/
+231130023729Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -206,7 +209,6 @@
 8_^][
 9D$xu
 9D$|toH
-9lQdesJ
 < t+<
 </u#H
 <0:08
@@ -327,6 +329,7 @@ Access to desktop duplication lost for desktop %d.
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
+B7'[5
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -650,11 +653,13 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+N-a8,&
 NPH9Q
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
+P	fB9
 PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
@@ -666,6 +671,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS\%
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -928,7 +934,6 @@ german
 gfffffffH
 gfffffffI
 greek
-hE`\_
 h_^[]
 handlers
 http://ocsp.digicert.com0A
@@ -1006,6 +1011,7 @@ request_spawn_window_view
 request_task_view
 request_window_list_update
 returnAddress
+rgfsQ
 ro_ro
 romanian
 ru_ru
@@ -1028,7 +1034,6 @@ system.desktop.%d
 system.desktop.pointer
 system.window.%llu
 systemui_dashboard
-t#d\;
 t$ AVH
 t$ AWH
 t$ E3
@@ -1038,6 +1043,7 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
+t8&H*
 t:I;>t
 tXfff
 tchinese

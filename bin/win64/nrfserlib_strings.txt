@@ -68,13 +68,11 @@
 !hn7!
 %%.%dg
 %4.4X:%4.4X
-%A6H`\
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
-%z;B^V
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
@@ -634,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231127210740Z0/
+231130022950Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1196,7 +1194,6 @@ Exceeded stackLimit in readValue().
 Exchange MTU Request Failed. (nrf_error: %s)
 Existing Bootloader mode.
 Extended Error: %s, %s
-F(=*v
 F8$3u
 F<f9G
 Failed to GAP Auth Key Reply. (nrf_error: %s)
@@ -1247,7 +1244,6 @@ G@f9F
 GATT Write With Response. (handle: %d, length: %d) '%s'
 GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'
 GATTC Send handle value confirmation to handle %d
-GBda0\
 GBf9F
 GD9E0t
 GDf9F
@@ -1272,6 +1268,7 @@ GetQueuedCompletionStatus
 GetSystemTimeAsFileTime
 GetTickCount64
 H!C@H
+H&u[<!
 H+SpI
 H+WpA
 H+WpH
@@ -1487,6 +1484,7 @@ Not able to open, current state is not valid
 Notification
 OLEAUT32.dll
 OXL9OPt
+Ou/TuA
 Out of thread local storage!
 PA^A]_^]
 PA^_]
@@ -1739,7 +1737,6 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
-Z	i_a
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1891,6 +1888,7 @@ fE9&t2H
 false
 file error
 floor
+geTvjm
 generic
 gfffffffD
 gfffffffH
@@ -1973,6 +1971,7 @@ mutex
 need dictionary
 nrfserlib.dll
 ntelD
+n}cHpR
 oL$PH
 ole32.dll
 oversubscribed distance tree
@@ -1984,7 +1983,6 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-qg^gl
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2179,6 +2177,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
+{<Piy
 {un'%
 {x\u!H
 {|?uWH
@@ -2213,6 +2212,7 @@ xdigit
 |$pf;
 |$ps`H
 |Lu?c
+}8}6-
 }LuHO
 ~'HcB
 ~qj#k"

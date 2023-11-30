@@ -22,9 +22,9 @@
  sCWj
  t\9]
 !hn7!
-"i|G9|$J
 #9Npt
 #>B>J>
+#{&D[w
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
@@ -40,6 +40,7 @@ $_^[]
 &1V6|:^<
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(W%Wb
 (f*^[0
 +A Vj$
 +A$+Y
@@ -432,7 +433,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231127210036Z0/
+231130022551Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1217,6 +1218,7 @@ A(;A,v
 A0B;W
 AHPQVR
 AHkO($
+AWMS4
 AcquireSRWLockExclusive
 Applying depth format 
 Applying first frame camera configuration options...
@@ -1298,7 +1300,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-DoQAm
 DuplicateHandle
 DynamicProgressFeedback
 E;w0tLj
@@ -1453,6 +1454,7 @@ M SVW
 M$+E4@Pj
 MB(iVR
 MJPEG color format is not yet implemented.
+MP,r]
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
@@ -1491,7 +1493,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDSZ
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1594,12 +1595,12 @@ YYPh`v
 YYPhxv
 YY^_]
 Y__^[
+Z+N5b
 [K]taM?
 [SPj"
 [tc9]
 \SVW3
 ]J<0"0i3
-^Hc[z
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1662,7 +1663,6 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
-`/(%sJ
 a7hIw
 abort
 address family not supported
@@ -1705,7 +1705,6 @@ connection refused
 connection reset
 count
 cross device link
-d;MVGB'
 destination address required
 device or resource busy
 digit
@@ -1762,13 +1761,13 @@ jj@0HK4
 k0i0$
 kK04k
 kW$4k_(4
-l(NgCKl
 l2|X/gGe
 ldexp
 localeconv
 lower
 lstrcmpW
 m0k0$
+m;'7%j
 malloc
 memchr
 memcmp
@@ -1878,7 +1877,6 @@ too many files open
 too many files open in system
 too many links
 too many symbolic link levels
-tx;O6
 u	9w 
 u	^[3
 u	_^3
@@ -1891,6 +1889,7 @@ ungetwc
 unknown error
 upper
 v	N+D$
+v;fKf
 v=Y]Bv
 value too large
 vector<T> too long
@@ -1915,5 +1914,6 @@ y'j h
 |SVWj
 }:;2|6
 }LuHO
+~i:}F
 ~qj#k"
 ~t&LN

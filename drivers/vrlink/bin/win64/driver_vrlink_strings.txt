@@ -244,6 +244,7 @@
 !""""""
 !&.37<
 !(0)"
+!@-L,
 !H88p
 !bq}J
 !bq}L
@@ -255,7 +256,6 @@
 """""""
 ""#$$
 ""Df**T~
-"#Qi%CXk
 "%/28;=#$019:>?
 "%s", "%s"
 "%s", %f
@@ -274,6 +274,7 @@
 "perspective" is not a JSON object.
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
+# tMi
 #################### NVENC: %s
 ##eF##eFii
 #%N?,=
@@ -416,8 +417,8 @@ $w!Hc
 (bq}K
 (d$pD
 (f*^[0
-(o-6Pp
-(o-TC|
+(o-6;p
+(o-T.|
 (oA&bs
 (oAdb
 (oAhI
@@ -629,7 +630,6 @@ $w!Hc
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDataLinkUDP@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLDataLinkUDP@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDriver@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLDriver@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLFEC@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLFEC@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLRoot@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLRoot@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8videoamfenc@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8videoamfenc@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
@@ -848,7 +848,6 @@ $w!Hc
 /input/x/touch
 /input/y/click
 /input/y/touch
-/install /add-driver "
 /is_link_environment
 /is_server_dashboard_visible
 /last_server_dashboard_visible_time
@@ -940,7 +939,6 @@ $w!Hc
 /tracking/eye/EyesClosedAmount
 /transferlatencyms
 /transferlatencymslong
-/u6x#
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -1010,7 +1008,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231127211007Z0/
+231130023224Z0/
 2333333
 241009235959Z0a1
 2D$x2
@@ -1047,24 +1045,24 @@ $w!Hc
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 55_j55_j,,tX,,tX``
 55j_WW
-5@D5.pn
+5@D5.[n
 5@D52
-5@D52hn
+5@D52Sn
 5@D56
 5@D58
-5@D5>Yy
+5@D5>Dy
 5@D5@
-5@D5^ms
-5@D5bts
+5@D5^Xs
+5@D5b_s
 5@D5f
 5@D5j
 5@D5t
 5FjiT
-5U#l]
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6666666666666666\\\\\\\\\\\\\\\\
 6I]Dc
+6L9=W
 6OB,n_
 6bA~Ho47bq
 6p7M=:P_:}u
@@ -1218,6 +1216,7 @@ $w!Hc
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?@s#0?LD
+?D85F
 ?Using 10bit mode: %d
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
@@ -1286,6 +1285,8 @@ $w!Hc
 @.reloc
 @24$A2
 @2t$x@2
+@8-4L
+@8-FN
 @848u
 @849u
 @8I+@0H
@@ -1318,6 +1319,7 @@ $w!Hc
 @H9J`
 @HcQdH
 @LcqHD
+@RW0P7F
 @SATAUAVAWH
 @SATAWH
 @SATH
@@ -1627,7 +1629,7 @@ B(L+B8b
 B0u6H
 B7=fo
 B8H9B(
-BD9%>]
+BD9%~L
 BMP RLE
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d
@@ -1689,7 +1691,6 @@ CL$ H
 CL$0H
 CL$PH
 CL$`H
-CL$`L;E
 CL$hH
 CMMNotificationClient::Register
 CN Got Bookend0 %d
@@ -2032,7 +2033,6 @@ DefWindowProcA
 DeleteCriticalSection
 DeleteFileW
 DeleteObject
-Description:  %s
 DestroyWindow
 Detail
 Detected %d playback and %d record devices
@@ -2050,13 +2050,6 @@ DisableThreadLibraryCalls
 Disconnected VRLink Headset
 Disconnection from %s
 DispatchMessageA
-Dongle driver is latest.
-Dongle driver is out of date.
-Driver found: description: %s, MfgName: %s, ProviderName: %s, version %d.%d.%d.%d
-Driver install cancelled by the user.
-Driver install completed successfully.
-Driver install failed with error code %d
-Driver install: running "%s %s"
 Dump Frame Log to C:\temp\recentlog.tsv
 Dump Hist
 Duplicate key: '
@@ -2069,7 +2062,6 @@ E8ba~H
 E8ba~I
 E97t8
 E;u`|
-E@H9E
 ERROR: AMF CreateContext() failed [ %s ]
 ERROR: AMF CreateSurfaceFromDX11Native on input frame failed [ %s ]
 ERROR: AMF Failed to initialize [ %d ]
@@ -2162,7 +2154,6 @@ Error: cannot create bitstream buffer[%d] = %p. Error: %d
 Error: detection failure
 Error: enc failed to initialize the session.
 Error: enc uninitialized when submitting a frame
-Error: inf file not found at "%s" ("%s")
 Error: m_fec not initialized!
 Error: nvEncDestroyEncoder() failed to destroy. Error: %d
 Error: nvEncInitializeEncoder failed
@@ -2218,7 +2209,6 @@ Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
-Failed to scan for dongle device.
 Failed to send OGS row update
 Failed to send link bandwidth measurement
 Failed to set thread %p priority: invalid priority %d
@@ -2235,8 +2225,6 @@ File write error:
 Finished encoder reinit (%d). Took: %0.3fms
 Flags
 Format string parse failure
-Found installed dongle device.
-Found installed dongle driver.
 FramesToThrottle
 FreeLibrary
 G(M+G I
@@ -2246,6 +2234,7 @@ G8<1u
 G8H9G(
 G8ba~
 G8ba~Ho
+G:Sjh
 GDI32.dll
 GPU supports %dMB per frame
 GPU supports %dMB per second
@@ -2299,10 +2288,10 @@ H!C@H
 H!G0H
 H#K0L
 H#O0H
-H%%	~9
-H%%!|9
-H%=R}9
-H%=j{9
+H%%	i9
+H%%!g9
+H%=Rh9
+H%=jf9
 H%l$	
 H+C H;
 H+C0H
@@ -2324,9 +2313,22 @@ H3T$ I
 H3T$8M
 H3|$ 
 H93t	H
-H950S
-H95XS
-H9=C[
+H95%y
+H95%z
+H95(u
+H955{
+H95E|
+H95M6
+H95PB
+H95Rt
+H95T;
+H95U}
+H95[=
+H95dr
+H95e~
+H95pB
+H9=&9
+H9=B9
 H9A H
 H9Ahs
 H9C t
@@ -2371,8 +2373,10 @@ H;|$`
 H;|$x
 H;}Ht
 H;}PtwH
-H?%$z
-H?%0{
+H?%$e
+H?%0f
+H?%aj
+H?%nk
 HA^_^[
 HA_A^A]A\_^][
 HcB Hi
@@ -2405,221 +2409,210 @@ Ho	bq
 Ho bq
 Ho!bq
 Ho$$b
-Ho% [=
-Ho%!"
-Ho%"0
-Ho%# 
-Ho%$W=
-Ho%%dI
-Ho%)}x
-Ho%9~n
-Ho%:9
-Ho%<7
-Ho%=M=
-Ho%Af
-Ho%CI=
-Ho%DM
-Ho%GE=
-Ho%K?I
-Ho%LA=
-Ho%PQ6
-Ho%Q==
-Ho%TEI
-Ho%U9=
-Ho%X9I
-Ho%Y/
-Ho%[5=
-Ho%_{n
-Ho%d3I
-Ho%g!
-Ho%jN
-Ho%lL
-Ho%s+=
-Ho%sky
-Ho%v?v
-Ho%w|<
-Ho%y'=
-Ho%|=H
-Ho%}#=
-Ho%}x<
+Ho% F=
+Ho%$B=
+Ho%%OI
+Ho%)hx
+Ho%9in
+Ho%:$
+Ho%<"
+Ho%=8=
+Ho%AQ
+Ho%C4=
+Ho%D8
+Ho%G0=
+Ho%K*I
+Ho%L,=
+Ho%P<6
+Ho%Q(=
+Ho%Q}<
+Ho%T0I
+Ho%U$=
+Ho%Vy<
+Ho%X$I
+Ho%Zu<
+Ho%[ =
+Ho%_fn
+Ho%_q<
+Ho%j9
+Ho%l7
+Ho%sVy
+Ho%v*v
+Ho%wg<
+Ho%|(H
+Ho%}c<
 Ho&bQ
-Ho-	^~
-Ho-	q|
-Ho- (z
-Ho- |s
-Ho-!Fr
-Ho-"My
-Ho-"`z
-Ho-"z{
-Ho-#Lp
-Ho-#n
-Ho-#~{
-Ho-% |
-Ho-%E~
-Ho-%Nt
-Ho-&Rx
-Ho-);
-Ho-);m
-Ho-+Eo
-Ho-+J{
-Ho-,my
-Ho--(m
-Ho---t
-Ho---v
-Ho--Jz
-Ho--ey
-Ho--oo
-Ho-.j
-Ho-/O~
-Ho-0h
-Ho-0|w
-Ho-1'
-Ho-2Kn
-Ho-2zx
-Ho-3st
-Ho-50w
-Ho-6%
-Ho-6Xw
-Ho-7Z}
-Ho-8#
-Ho-:]x
-Ho-;L}
-Ho-;P
-Ho-=8
-Ho-?;n
-Ho-@T{
-Ho-AIo
-Ho-A|u
-Ho-B)n
-Ho-BZm
-Ho-Bvm
-Ho-Czm
-Ho-C~
-Ho-DGt
-Ho-E 
-Ho-Eqp
-Ho-IPo
-Ho-IQt
-Ho-IZ|
-Ho-JOw
-Ho-Jz}
-Ho-K@z
-Ho-KW~
-Ho-LNp
-Ho-Li{
-Ho-Lus
-Ho-Mxw
-Ho-N>
-Ho-O7x
-Ho-O<
-Ho-Q:
-Ho-RFw
-Ho-SG{
-Ho-U'|
-Ho-Ut|
-Ho-V s
-Ho-Vi
-Ho-V}n
-Ho-W-p
-Ho-W>s
-Ho-W^|
-Ho-Xcw
-Ho-Xg
-Ho-ZL{
-Ho-Zc~
-Ho-\E
-Ho-]]}
-Ho-]b|
-Ho-]|
-Ho-^$
-Ho-_#z
-Ho-_rm
-Ho-`Lr
-Ho-`[s
-Ho-ae
-Ho-bRr
-Ho-bw~
-Ho-cYp
-Ho-cn~
-Ho-d6y
-Ho-df|
-Ho-ej|
-Ho-f5m
-Ho-fpr
-Ho-frx
-Ho-fsz
-Ho-gH}
-Ho-gvx
-Ho-hxn
-Ho-i-}
-Ho-ixu
-Ho-jay
-Ho-k&x
-Ho-lNx
-Ho-lbr
-Ho-lwt
-Ho-m6|
-Ho-mk
-Ho-oYo
-Ho-pFn
-Ho-puo
-Ho-s!m
-Ho-uD{
-Ho-v.
+Ho-	I~
+Ho-	\|
+Ho- gs
+Ho- jx
+Ho-!1r
+Ho-"8y
+Ho-"Kz
+Ho-"e{
+Ho-#7p
+Ho-#Y
+Ho-#i{
+Ho-#xu
+Ho-%0~
+Ho-%9t
+Ho-&=x
+Ho-)&
+Ho-)&m
+Ho-+0o
+Ho-+5{
+Ho-+{u
+Ho-+|
+Ho-,Xy
+Ho--5z
+Ho--Py
+Ho--Zo
+Ho-.U
+Ho-/:~
+Ho-0S
+Ho-0gw
+Ho-1kw
+Ho-26n
+Ho-2ex
+Ho-3^t
+Ho-3v~
+Ho-4kz
+Ho-4~
+Ho-6Cw
+Ho-7E}
+Ho-:Hx
+Ho-;7}
+Ho-;;
+Ho-;}r
+Ho-=#
+Ho-?&n
+Ho-@?{
+Ho-A4o
+Ho-Agu
+Ho-BEm
+Ho-Bam
+Ho-Cem
+Ho-Ci
+Ho-D2t
+Ho-E\p
+Ho-I;o
+Ho-I<t
+Ho-IE|
+Ho-J:w
+Ho-Je}
+Ho-K+z
+Ho-KB~
+Ho-L9p
+Ho-LT{
+Ho-L`s
+Ho-Mcw
+Ho-N)
+Ho-O"x
+Ho-O'
+Ho-Ovr
+Ho-Ppp
+Ho-Q%
+Ho-R1w
+Ho-S2{
+Ho-U_|
+Ho-VT
+Ho-Vhn
+Ho-W)s
+Ho-WI|
+Ho-XNw
+Ho-XR
+Ho-Xrz
+Ho-Yv{
+Ho-Z7{
+Ho-ZN~
+Ho-\0
+Ho-]H}
+Ho-]M|
+Ho-]g
+Ho-_]m
+Ho-`7r
+Ho-`Fs
+Ho-aP
+Ho-ar|
+Ho-ay~
+Ho-b=r
+Ho-bb~
+Ho-cDp
+Ho-cY~
+Ho-d!y
+Ho-dQ|
+Ho-dr~
+Ho-eU|
+Ho-ew
+Ho-f m
+Ho-f[r
+Ho-f]x
+Ho-f^z
+Ho-g	p
+Ho-g3}
+Ho-gax
+Ho-gq
+Ho-hcn
+Ho-hvo
+Ho-icu
+Ho-jLy
+Ho-jyz
+Ho-l9x
+Ho-lMr
+Ho-lbt
+Ho-m!|
+Ho-mV
+Ho-mtt
+Ho-oDo
+Ho-p1n
+Ho-p`o
+Ho-stm
+Ho-u/{
+Ho-vfo
 Ho-v{o
-Ho-w;
-Ho-y&s
-Ho-ySo
-Ho-ys
-Ho-}#p
-Ho-}1p
-Ho-}7{
-Ho-}`}
-Ho-~O
+Ho-w&
+Ho-wl{
+Ho-y>o
+Ho-y^
+Ho-}"{
+Ho-}K}
+Ho-~:
 Ho4$b
-Ho53W
-Ho5A^
-Ho5HO
-Ho5Q.
-Ho5^!
-Ho5_O
-Ho5k#
-Ho5s!k
-Ho5ze
-Ho5znk
+Ho53B
+Ho5AI
+Ho5H:
+Ho5_:
+Ho5zP
+Ho5zYk
 Ho8bA
 Ho:ba
-Ho= j?
-Ho=!<B
-Ho=#U>
-Ho=%82
-Ho=*35
-Ho=-$2
-Ho=1cl
-Ho=2"
-Ho=;//
-Ho=;B0
-Ho=Djl
-Ho=GX@
-Ho=Hd
-Ho=IbA
-Ho=K:G
-Ho=LlK
-Ho=M>2
-Ho=Nd@
-Ho=OH@
-Ho=Pgl
-Ho=Vl@
-Ho=WyF
-Ho=` 3
-Ho=`w1
-Ho=ddl
-Ho=e4@
-Ho=j/0
-Ho=ln
-Ho=umD
-Ho=xKJ
-Ho=zOF
+Ho= U?
+Ho=!'B
+Ho=#@>
+Ho=%#2
+Ho=1Nl
+Ho=5t5
+Ho=8~
+Ho=;-0
+Ho=DUl
+Ho=GC@
+Ho=HO
+Ho=IMA
+Ho=K%G
+Ho=LWK
+Ho=M)2
+Ho=NO@
+Ho=O3@
+Ho=PRl
+Ho=VW@
+Ho=WdF
+Ho=`b1
+Ho=ao3
+Ho=dOl
+Ho=lY
+Ho=uXD
+Ho=x6J
+Ho=z:F
 Ho@	b
 HoA	b
 HoA	bQ
@@ -2677,11 +2670,10 @@ HoyJb
 HoyKb
 Ho|$	b
 Hu"Hc
-Hv%,m
-Hv%}T
-Hv--*
-Hv-FA
-Hv-bm
+Hv%,X
+Hv%}?
+Hv-F,
+Hv-bX
 I	bq}L
 I!bb-@
 I#bb-@
@@ -2865,39 +2857,35 @@ IsWindow
 IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d
 IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
 Issues Stream Reset
-Iv%dj
-Iv=/#
-Iv=6L
-Iv=H:
-Iv=Y 
-Iv=r7
+Iv%dU
+Iv=67
+Iv=H%
+Iv=r"
 J16(p
 J3<6H
 J>@G_
 JSON string too short.
 J`H;L
-Jv%IQ
-Jv%KO
-Jv%l%
-Jv%n#
-Jv=Og
-Jv=Qe
+Jv%I<
+Jv%K:
+Jv=OR
+Jv=QP
 KERNEL32.dll
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
 Kf;;u
 KfD;3u
-Kv%fh
-Kv=1!
-Kv=4N
-Kv=J8
-Kv=W"
-Kv=p9
+Kv%fS
+Kv=49
+Kv=J#
+Kv=p$
 K}*n:	
-L#5 :
-L#5):
-L#5.:
+L#5 %
+L#5)%
+L#5.%
+L#=#l
+L#=(l
 L#F0H
 L#F0L
 L#T$PI
@@ -3052,7 +3040,6 @@ L9|$p
 L;8u6H
 L;9~kM
 L;D$x
-L;E0u#
 L;l$H
 L;l$P
 L;l$`t@H
@@ -3088,11 +3075,10 @@ LocalAlloc
 LocalFree
 LocalizationManager
 Logic
-Lv%#P
-Lv%F$
-Lv%_;
-Lv=)f
-Lv=zM
+Lv%#;
+Lv%_&
+Lv=)Q
+Lv=z8
 LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
@@ -3121,7 +3107,6 @@ MS_:F
 MT$dA
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
-Manufacturer: %s
 ManufacturerName %s
 MapViewOfFile
 Mbp?H
@@ -3141,9 +3126,9 @@ ModelNumber %s
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
-Mv% i
-Mv%qP
-Mv=wf
+Mv% T
+Mv%q;
+Mv=wQ
 MyClass
 N I9N(
 NO SOUND
@@ -3219,10 +3204,6 @@ New Session detected; Invalidating.
 New control connection %d from %s failed in OnConnect
 No LoadImageData callback specified.
 No default audio device found to listen to
-No device found
-No dongle device found.
-No dongle driver installed. Requesting driver install.
-No driver found
 NormalTextureInfo
 NotifyRouteChange
 NvAPI_EnumPhysicalGPUs() returned %d
@@ -3305,7 +3286,6 @@ PreH %4.1fms
 Primitive
 Pro Audio
 PropVariantClear
-Provider:     %s
 PxD9}
 Pz}b!
 Q	bq}J
@@ -3351,7 +3331,6 @@ R;vM;
 RFOV: %d%%
 RPCRT4.dll
 RRvM;;
-RSDS-
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d
@@ -3426,7 +3405,6 @@ SE Unknown 7 %d
 SE Unknown 8 %d
 SE Unknown 9 %d
 SE Wait For Encode Data %d
-SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
 SN Debug Mark A %d
@@ -3563,7 +3541,6 @@ SWAWH
 Sample message for keylen=blocklen
 SamplerState SampleType;
 SbEwd
-Scanning for dongle devices with VID=%04X PID=%04X and associated driver inf information.
 ScreenToClient
 SelectObject
 SendUpdatedFramerateRequest: Failed to find preffered refresh rate of %.2f in available display frequencies. Using set display frequency
@@ -3588,21 +3565,14 @@ Setting VTE_USE_ENCODE_TARGET_WIDTH = %d
 Setting m_nTargetEncodeWidth: %d
 Setting up context with NvAPI_D3D1x_CreateLowLatencyDeviceHint() = %d
 Setting up context with NvAPI_D3D1x_DeclareVRProcessType(NVAPI_VR_PROCESS_COMPOSITOR) = %d
-SetupDiBuildDriverInfoList
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
-SetupDiEnumDeviceInfo: %u %d
-SetupDiEnumDriverInfo: %d
-SetupDiEnumDriverInfoA
-SetupDiGetClassDevs: %u
-SetupDiGetClassDevsA
 SetupDiGetClassDevsW
 SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
 ShellExecuteA
-ShellExecuteExA
 ShowWindow
 Sideband Err
 Single block msg
@@ -3689,7 +3659,6 @@ T$Zbq
 T$`+L$,f
 T$`D+
 T$`D;
-T$`E3
 T$`ff
 T$fbq~K
 T$hH;T$pu
@@ -3724,8 +3693,6 @@ Too short data size for glTF Binary.
 Tp=9y>m0_D@H_
 TrackingSystemName %s
 TranslateMessage
-Triggering dongle driver install in %d seconds...
-Triggering dongle driver install...
 Trying to submit frames out-of-order.  Only possible on catastrophic network failure
 U 8,$
 U(Px(
@@ -3742,7 +3709,6 @@ UNPLUGGED
 UPing
 USATAWH
 USATH
-USB\VID_%04X&PID_%04X
 USER32.dll
 USERNAME
 USVATAUAWH
@@ -3824,7 +3790,6 @@ VDEST
 VERSION MISMATCH
 VR Path Registry node %s is not an array
 VRAudioDevices_Init
-VRLink Driver Install
 VRLinkRX
 VRLinkTX
 VR_COMBINED_LOGGING
@@ -3851,12 +3816,9 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-Valve Software
-Valve VRLink Dongle
 VerSetConditionMask
 VerifyVersionInfoW
 Version
-Version:      v%d.%d.%d.%d
 W  `@  `@LL
 W8H+W`I
 WARNING Initializing frame number %d.  Expected size too large (%d > %d).
@@ -3970,7 +3932,6 @@ YAbb=@
 YRba~(
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Your GPU supports %s for video compression
-Your VRLink Dongle requires a driver update. Install now?
 Z9k0tUD
 ZL$Xf
 [Alloc] Created bitstream buffer[%d] = %p
@@ -3997,7 +3958,6 @@ ZL$Xf
 [SVL] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [SVL] !!!! AcquireSync FAILED with WAIT_TIMEOUT
 [SVL] !!!! AcquireSync FAILED with unknown hr
-[System] Calling %s %s failed with error code %d
 [json.exception.
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
@@ -4125,7 +4085,6 @@ _Query_perf_counter
 _Query_perf_frequency
 _RDATA
 _TbF~
-_Thrd_detach
 _Thrd_id
 _Thrd_join
 _Thrd_sleep
@@ -4476,7 +4435,7 @@ bq}Ho
 bq}Ho%
 bq}Ho%c
 bq}Ho'b
-bq}Ho-W0
+bq}Ho-W
 bq}Hog
 bq}Hog	b
 bq}Hog b
@@ -4572,46 +4531,45 @@ br}H|
 bs%HD
 bs5@D5
 bs5@D5 
-bs5@D5#8r
+bs5@D5##r
 bs5@D50
 bs5@D56
 bs5@D57
-bs5@D5:ao
+bs5@D5:Lo
 bs5@D5?
-bs5@D5Ci}
+bs5@D5CT}
 bs5@D5D
-bs5@D5LX{
+bs5@D5LC{
 bs5@D5N
-bs5@D5PXz
+bs5@D5PCz
 bs5@D5T
 bs5@D5X
-bs5@D5[Sz
-bs5@D5_)w
+bs5@D5[>z
+bs5@D5_
 bs5@D5d
-bs5@D5f3r
+bs5@D5f
 bs5@D5r
 bs5@D5|
 bs5HD
 bs5HD5
 bs5HD5#
 bs5HD5+
-bs5HD5-=
+bs5HD5-(
 bs5HD5/
-bs5HD50
-bs5HD505
+bs5HD50 
+bs5HD50~q
 bs5HD51
-bs5HD512
-bs5HD55/
+bs5HD55
 bs5HD56
-bs5HD59
-bs5HD5:
-bs5HD5;:
-bs5HD5<
+bs5HD59~w
+bs5HD5:xq
+bs5HD5;%
+bs5HD5<sx
 bs5HD5A
 bs5HD5D
 bs5HD5G
-bs5HD5I
-bs5HD5K1
+bs5HD5Iuw
+bs5HD5K
 bs5HD5S
 bs5HD5T
 bs5HD5W
@@ -4620,103 +4578,107 @@ bs5HD5[
 bs5HD5\
 bs5HD5_
 bs5HD5a
-bs5HD5a6
+bs5HD5a!
+bs5HD5awx
 bs5HD5e
 bs5HD5k
-bs5HD5k0
 bs5HD5l
 bs5HD5o
-bs5HD5o	t
+bs5HD5otx
 bs5HD5p
 bs5HD5q
 bs5HD5t
 bs5HD5u
-bs5HD5y
+bs5HD5yyw
 bs5HD5z
 bs5HD5{
 bs5HD5~
 bs=HD
 bs=HD5
-bs=HD5	;q
+bs=HD5	&q
 bs=HD5 
-bs=HD5 py
-bs=HD5!:q
-bs=HD5!P
+bs=HD5 [y
+bs=HD5 ys
+bs=HD5!%q
+bs=HD5!;
 bs=HD5"
 bs=HD5$
 bs=HD5%
-bs=HD5(mv
-bs=HD5*
-bs=HD5*Kv
+bs=HD5(Xv
+bs=HD5*6v
+bs=HD5*pn
 bs=HD5+
 bs=HD5,
 bs=HD50
-bs=HD50%u
-bs=HD51't
-bs=HD51Dq
+bs=HD50ps
+bs=HD51
+bs=HD51/q
 bs=HD52
-bs=HD54<q
-bs=HD559q
-bs=HD56/
-bs=HD56uy
-bs=HD58Hv
-bs=HD58wv
+bs=HD54'q
+bs=HD55$q
+bs=HD56
+bs=HD56`y
+bs=HD583v
+bs=HD58bv
 bs=HD59
-bs=HD596q
+bs=HD59!q
 bs=HD5:
-bs=HD5;ov
+bs=HD5;Zv
 bs=HD5<
-bs=HD5<lv
-bs=HD5?Aq
-bs=HD5@5
-bs=HD5@iv
-bs=HD5@oy
+bs=HD5<Wv
+bs=HD5?,q
+bs=HD5@ 
+bs=HD5@Tv
+bs=HD5@Zy
 bs=HD5B
-bs=HD5D,
+bs=HD5Bon
+bs=HD5D
 bs=HD5F
-bs=HD5Ftv
+bs=HD5F_v
+bs=HD5Fus
 bs=HD5G
 bs=HD5H
-bs=HD5H?v
+bs=HD5H*v
 bs=HD5I
 bs=HD5J
 bs=HD5K
 bs=HD5M
 bs=HD5N
-bs=HD5O8q
-bs=HD5P
+bs=HD5O#q
+bs=HD5Pos
 bs=HD5R
+bs=HD5Ryn
 bs=HD5T
-bs=HD5T#
 bs=HD5U
-bs=HD5V
-bs=HD5Vkv
+bs=HD5Uqn
+bs=HD5VVv
+bs=HD5Vnn
 bs=HD5X
-bs=HD5Z
+bs=HD5Zkn
 bs=HD5[
 bs=HD5\
 bs=HD5^
 bs=HD5`
-bs=HD5`$t
-bs=HD5a&u
+bs=HD5`vn
+bs=HD5a
 bs=HD5d
-bs=HD5e=q
+bs=HD5e(q
 bs=HD5f
 bs=HD5g
-bs=HD5gvy
+bs=HD5gay
 bs=HD5h
 bs=HD5k
 bs=HD5l
-bs=HD5lpv
-bs=HD5o2
-bs=HD5o7q
-bs=HD5p
-bs=HD5q$o
+bs=HD5l[v
+bs=HD5o
+bs=HD5o"q
+bs=HD5pmn
+bs=HD5q
 bs=HD5r
 bs=HD5v
-bs=HD5vjv
-bs=HD5w
-bs=HD5xCv
+bs=HD5vUv
+bs=HD5wvs
+bs=HD5x.v
 bs=HD5y
 bs=HD5z
 bs=HD5~
@@ -4725,24 +4687,24 @@ bsE@D
 bsEH%
 bsEHD
 bsEHD5
-bsEHD5%Wq
+bsEHD5%Bq
 bsEHD5)
-bsEHD5,
+bsEHD5,uv
 bsEHD5:
 bsEHD5;
 bsEHD5>
 bsEHD5F
 bsEHD5L
-bsEHD5UDu
+bsEHD5U/u
 bsEHD5X
 bsEHD5[
 bsEHD5_
-bsEHD5ebv
+bsEHD5eMv
 bsEHD5f
-bsEHD5g/q
+bsEHD5g
 bsEHD5k
-bsEHD5m
-bsEHD5qF
+bsEHD5m	
+bsEHD5q1
 bsEHq
 bsM@D
 bsMH%
@@ -4753,238 +4715,229 @@ bsUH%
 bsUHD
 bsUHD5
 bsUHD5	
+bsUHD5	m~
 bsUHD5 
-bsUHD5 6p
+bsUHD5 !p
 bsUHD5!
-bsUHD5!Em
+bsUHD5!0m
 bsUHD5"
-bsUHD5"5w
-bsUHD5"^
+bsUHD5" w
+bsUHD5"I
 bsUHD5#
-bsUHD5#Kz
+bsUHD5#6z
+bsUHD5#~~
 bsUHD5$
-bsUHD5$*}
 bsUHD5%
-bsUHD5%5p
-bsUHD5%9y
+bsUHD5% p
+bsUHD5%$y
+bsUHD5%xt
 bsUHD5&
-bsUHD5&On
-bsUHD5&vz
+bsUHD5&:n
+bsUHD5&az
 bsUHD5'
-bsUHD5'P{
+bsUHD5'	r
+bsUHD5';{
+bsUHD5'sp
 bsUHD5(
 bsUHD5)
-bsUHD5)Ot
+bsUHD5):t
 bsUHD5*
-bsUHD5*0r
 bsUHD5+
-bsUHD5+(}
-bsUHD5+l|
+bsUHD5+W|
 bsUHD5,
-bsUHD5,&}
-bsUHD5,h
+bsUHD5,S
 bsUHD5.
-bsUHD5.0|
-bsUHD5.Cs
-bsUHD5.{p
-bsUHD50
-bsUHD50Dp
-bsUHD50^p
+bsUHD5..s
+bsUHD5.fp
+bsUHD50/p
+bsUHD50Ip
+bsUHD50j
 bsUHD51
-bsUHD51]m
+bsUHD51Hm
 bsUHD52
-bsUHD52Yp
+bsUHD52Dp
 bsUHD53
 bsUHD54
-bsUHD54Bs
+bsUHD54-s
+bsUHD54um
 bsUHD55
-bsUHD55Pz
-bsUHD55~~
+bsUHD55;z
+bsUHD55i~
 bsUHD56
-bsUHD56#|
-bsUHD56;t
-bsUHD56Vs
+bsUHD56&t
+bsUHD56As
 bsUHD57
-bsUHD57f}
+bsUHD57Q}
 bsUHD58
-bsUHD58$p
-bsUHD58A~
-bsUHD58kr
-bsUHD59
+bsUHD58,~
+bsUHD58Vr
+bsUHD59n{
 bsUHD5:
-bsUHD5;
-bsUHD5;9p
-bsUHD5;it
+bsUHD5:mz
+bsUHD5;	w
+bsUHD5;$p
+bsUHD5;Tt
 bsUHD5<
-bsUHD5<!m
 bsUHD5=
-bsUHD5=&r
-bsUHD5=Rw
-bsUHD5>@n
+bsUHD5==w
+bsUHD5>+n
 bsUHD5?
 bsUHD5@
+bsUHD5@kp
 bsUHD5A
 bsUHD5B
-bsUHD5B&s
-bsUHD5B+s
-bsUHD5B-r
-bsUHD5Bdt
+bsUHD5BOt
 bsUHD5C
-bsUHD5C@p
-bsUHD5C_t
+bsUHD5C+p
+bsUHD5CJt
 bsUHD5D
-bsUHD5DR{
-bsUHD5DYm
+bsUHD5D={
+bsUHD5DDm
 bsUHD5E
 bsUHD5F
-bsUHD5F-|
-bsUHD5F:|
-bsUHD5FVr
-bsUHD5FWr
+bsUHD5F%|
+bsUHD5FAr
+bsUHD5FBr
 bsUHD5G
-bsUHD5Gsr
+bsUHD5G^r
 bsUHD5H
-bsUHD5Hp
-bsUHD5I
+bsUHD5H[
+bsUHD5Iym
 bsUHD5J
-bsUHD5J"n
-bsUHD5J/n
-bsUHD5JHs
-bsUHD5Jo}
+bsUHD5J3s
+bsUHD5JZ}
+bsUHD5Jm}
 bsUHD5K
-bsUHD5K.n
-bsUHD5KUt
-bsUHD5KZt
+bsUHD5K@t
+bsUHD5KEt
 bsUHD5L
-bsUHD5LIw
+bsUHD5L4w
+bsUHD5Lv
 bsUHD5M
-bsUHD5MO|
+bsUHD5M:|
 bsUHD5N
-bsUHD5N4t
-bsUHD5NTx
-bsUHD5O
+bsUHD5N?x
+bsUHD5Ow{
 bsUHD5P
-bsUHD5P,y
-bsUHD5P>t
+bsUHD5P)t
 bsUHD5Q
-bsUHD5Q"r
-bsUHD5Q^{
-bsUHD5Qam
+bsUHD5QI{
+bsUHD5QLm
 bsUHD5R
-bsUHD5RK~
+bsUHD5R6~
+bsUHD5Rjo
 bsUHD5S
 bsUHD5T
-bsUHD5T"y
-bsUHD5Thw
+bsUHD5TSw
 bsUHD5U
-bsUHD5U'y
-bsUHD5UOm
+bsUHD5U:m
+bsUHD5U~o
 bsUHD5V
+bsUHD5Vnu
+bsUHD5Vtz
 bsUHD5W
-bsUHD5W|
+bsUHD5Wg
 bsUHD5X
-bsUHD5X+x
-bsUHD5XNy
+bsUHD5X9y
+bsUHD5Xko
 bsUHD5Y
-bsUHD5YEz
-bsUHD5YR}
-bsUHD5Ya}
-bsUHD5Y{r
+bsUHD5Y0z
+bsUHD5Y=}
+bsUHD5YL}
+bsUHD5Yfr
 bsUHD5Z
-bsUHD5Z3{
-bsUHD5Z:w
+bsUHD5Z%w
 bsUHD5[
-bsUHD5[+z
-bsUHD5[Kt
-bsUHD5\*|
+bsUHD5[6t
+bsUHD5\
 bsUHD5]
 bsUHD5^
-bsUHD5^At
-bsUHD5^Q~
+bsUHD5^,t
+bsUHD5^<~
 bsUHD5_
-bsUHD5_h~
-bsUHD5_q~
-bsUHD5_z~
+bsUHD5_S~
+bsUHD5_\~
+bsUHD5_e~
 bsUHD5`
-bsUHD5`=o
+bsUHD5`(o
+bsUHD5`q}
 bsUHD5a
-bsUHD5a<o
+bsUHD5a'o
+bsUHD5a|{
 bsUHD5b
-bsUHD5bKm
-bsUHD5bMo
-bsUHD5bZs
-bsUHD5bZw
+bsUHD5b6m
+bsUHD5b8o
+bsUHD5bEs
+bsUHD5bEw
 bsUHD5c
-bsUHD5c/z
 bsUHD5d
-bsUHD5d@m
-bsUHD5dMs
+bsUHD5d+m
+bsUHD5d8s
 bsUHD5e
-bsUHD5ezp
+bsUHD5eep
 bsUHD5f
-bsUHD5f=y
-bsUHD5fDt
+bsUHD5f(y
+bsUHD5f/t
 bsUHD5g
 bsUHD5h
+bsUHD5hz
 bsUHD5i
-bsUHD5i3z
-bsUHD5i<|
-bsUHD5iIp
-bsUHD5iNn
-bsUHD5j?m
-bsUHD5jY~
+bsUHD5i'|
+bsUHD5i4p
+bsUHD5i9n
+bsUHD5iq
+bsUHD5j*m
+bsUHD5jD~
 bsUHD5k
 bsUHD5m
-bsUHD5mwr
-bsUHD5mzz
+bsUHD5mbr
+bsUHD5mez
 bsUHD5n
-bsUHD5n>r
-bsUHD5n_p
+bsUHD5n)r
+bsUHD5nJp
 bsUHD5o
 bsUHD5p
-bsUHD5p7z
-bsUHD5px
+bsUHD5p"z
+bsUHD5pc
 bsUHD5q
-bsUHD5q-o
-bsUHD5q;z
+bsUHD5q&z
 bsUHD5r
-bsUHD5r	s
-bsUHD5rJn
+bsUHD5r5n
+bsUHD5rqu
 bsUHD5s
-bsUHD5s-m
-bsUHD5sCp
-bsUHD5sHx
-bsUHD5s[~
-bsUHD5sdp
+bsUHD5s.p
+bsUHD5s3x
+bsUHD5sF~
+bsUHD5sOp
+bsUHD5sjp
+bsUHD5sot
 bsUHD5t
-bsUHD5t.m
+bsUHD5tu}
 bsUHD5u
-bsUHD5ujr
-bsUHD5umt
+bsUHD5uUr
+bsUHD5uXt
 bsUHD5v
-bsUHD5vew
-bsUHD5vgo
+bsUHD5vPw
+bsUHD5vRo
 bsUHD5w
+bsUHD5wwp
 bsUHD5x
-bsUHD5xa~
+bsUHD5xL~
 bsUHD5y
-bsUHD5y	m
-bsUHD5y9r
-bsUHD5yUs
-bsUHD5yjp
+bsUHD5y$r
+bsUHD5y@s
+bsUHD5yUp
 bsUHD5z
-bsUHD5z,s
-bsUHD5zep
+bsUHD5zPp
 bsUHD5{
-bsUHD5{?n
-bsUHD5{o|
-bsUHD5|0t
+bsUHD5{*n
+bsUHD5{Z|
+bsUHD5|
 bsUHD5}
-bsUHD5})r
-bsUHD5}+}
+bsUHD5}ut
 bsUHD5~
-bsUHD5~a
-bsUHD5~kp
+bsUHD5~L
+bsUHD5~Vp
 bsUHq
 bs] C
 bs]H%
@@ -4993,117 +4946,114 @@ bs]Hq
 bse D
 bse@D
 bse@D5
-bse@D5	
-bse@D5!
-bse@D5!@
-bse@D5#
+bse@D5	~x
+bse@D5!	o
+bse@D5!+
+bse@D5#~s
 bse@D5%
-bse@D5%/u
 bse@D5&
 bse@D5'
-bse@D5(D
+bse@D5(/
 bse@D5)
-bse@D5+
-bse@D5+K
-bse@D5,Kq
+bse@D5+6
+bse@D5+jy
+bse@D5,6q
 bse@D5-
-bse@D5-6u
-bse@D5-Yv
+bse@D5-!u
+bse@D5-Dv
 bse@D5.
-bse@D5.1u
-bse@D5/&q
-bse@D5/Rq
+bse@D5.}x
+bse@D5/
+bse@D5/=q
 bse@D51
-bse@D52F
+bse@D521
 bse@D53
-bse@D53~v
+bse@D53iv
+bse@D53qy
 bse@D54
+bse@D54ly
 bse@D55
 bse@D56
-bse@D56Mq
+bse@D568q
+bse@D56pv
 bse@D57
 bse@D58
 bse@D59
-bse@D59=
-bse@D5:Ov
+bse@D59(
+bse@D5::v
 bse@D5;
 bse@D5<
 bse@D5=
-bse@D5=	
+bse@D5=kv
 bse@D5>
-bse@D5>?
+bse@D5>*
 bse@D5?
 bse@D5@
-bse@D5@#
-bse@D5@C
-bse@D5BFq
+bse@D5@.
+bse@D5B1q
 bse@D5C
-bse@D5C	u
 bse@D5D
-bse@D5DJq
+bse@D5D5q
 bse@D5E
 bse@D5F
-bse@D5F3
 bse@D5H
-bse@D5Iyv
+bse@D5Idv
 bse@D5K
-bse@D5K}v
+bse@D5Khv
 bse@D5L
 bse@D5M
 bse@D5O
 bse@D5P
 bse@D5R
 bse@D5S
-bse@D5S"t
-bse@D5S0u
 bse@D5U
 bse@D5V
-bse@D5V@
+bse@D5V+
 bse@D5W
-bse@D5Y
+bse@D5Yky
 bse@D5Z
-bse@D5Z'
-bse@D5Z7u
-bse@D5ZGq
+bse@D5Z"u
+bse@D5Z2q
 bse@D5[
 bse@D5\
 bse@D5]
 bse@D5^
-bse@D5^G
+bse@D5^2
 bse@D5_
-bse@D5_B
-bse@D5`
-bse@D5azv
+bse@D5_-
+bse@D5`ry
+bse@D5aev
 bse@D5b
-bse@D5b0
-bse@D5bNq
-bse@D5c
-bse@D5cIq
+bse@D5b9q
+bse@D5c4q
+bse@D5c{n
 bse@D5d
 bse@D5e
-bse@D5ePv
+bse@D5e;v
 bse@D5f
 bse@D5g
 bse@D5h
 bse@D5i
+bse@D5ilv
 bse@D5j
-bse@D5j|v
+bse@D5jgv
 bse@D5k
 bse@D5n
 bse@D5o
 bse@D5p
 bse@D5q
-bse@D5q4
-bse@D5q;u
+bse@D5q&u
+bse@D5q{x
 bse@D5r
 bse@D5s
 bse@D5u
-bse@D5v&
+bse@D5v
 bse@D5w
+bse@D5wvy
 bse@D5x
 bse@D5y
-bse@D5y-
 bse@D5{
+bse@D5{|n
 bse@D5|
 bse@D5}
 bseH%
@@ -5131,46 +5081,46 @@ c!D5$
 c!D5*
 c!D56
 c!D5l
-c!D5rgv
+c!D5rRv
 c!D5s
-c!D5t4q
-c!D5~K
+c!D5t
+c!D5~6
 c) W		
-c)D5	:
-c)D5)^
+c)D5	%
+c)D5)I
 c)D5,
 c)D5-
-c)D51H
+c)D513
 c)D59
 c)D5=
-c)D5A
+c)D5Aq
 c)D5E
 c)D5H
 c)D5P
-c)D5Q#
-c)D5T(
+c)D5Q
+c)D5T
 c)D5Y
 c)D5b
 c)D5i
 c)D5p
 c)D5u
-c)D5zE
+c)D5z0
 c)D5{
-c)D5|*
-c)D5~!
+c)D5|
+c)D5~
 c1 O		
-c1D5&.
+c1D5&
 c1D5P
 c1D5e
 c1D5t
 c5D5!
-c5D5L
-c5D5q
+c5D5Ljx
+c5D5qvq
 c9 G		
-c9D5*5q
-c9D51hv
+c9D5* q
+c9D51Sv
 c9D5C
-c9D5K
+c9D5Kjn
 c9D5Q
 c9D5]
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
@@ -5179,12 +5129,12 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
-c=D5!"
+c=D5!
 c=D55
 c=D5V
 c=D5W
 c=D5q
-c=D5wmy
+c=D5wXy
 cAD52
 cAD5f
 cAoption requires an argument -- %c
@@ -5201,22 +5151,22 @@ cAudRew
 cAudUnd
 cFramePhase
 cPingAMS
-cQD5$dx
-cQD5,bn
-cQD5._o
+cQD5$Ox
+cQD5,Mn
+cQD5.Jo
 cQD52
-cQD52~r
+cQD52ir
 cQD58
-cQD5:]o
+cQD5:Ho
 cQD5A
 cQD5M
-cQD5Ue~
+cQD5UP~
 cQD5^
-cQD5^dm
+cQD5^Om
 cQD5`
 cQD5m
-cQD5mV{
-cQD5r
+cQD5mA{
+cQD5rlr
 cQD5t
 cRXFailFuzz
 cRXerr
@@ -5225,44 +5175,44 @@ cRXpps
 cTXFailFuzz
 cTXerr
 cUD5	
-cUD5$_n
-cUD5%U{
-cUD5%d~
-cUD5*[n
-cUD5-kw
-cUD54es
+cUD5$Jn
+cUD5%@{
+cUD5%O~
+cUD5*Fn
+cUD5-Vw
+cUD54Ps
 cUD5<
 cUD5C
 cUD5W
 cUD5Z
 cUD5]
-cUD5_
-cUD5cax
-cUD5gA|
+cUD5_}z
+cUD5cLx
+cUD5g,|
 cUD5l
-cUD5nas
+cUD5nLs
 cUD5p
 cUD5}
-caD5#"
+caD5#
 caD5(
 caD50
 caD51
-caD55
-caD59
-caD5<,t
+caD55}
+caD59	
+caD5<
 caD5=
-caD5L:
-caD5S4
+caD5L%
+caD5S
 caD5U
-caD5Xn
-caD5_?
-caD5eX
+caD5XY
+caD5_*
+caD5eC
 caD5j
 caD5l
-caD5p&
+caD5p
 caD5r
 caD5s
-caD5|)o
+caD5|
 caD5~
 calloc
 camera
@@ -5273,7 +5223,7 @@ cbuffer VS_CONSTANT_BUFFER : register(b2)
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU:
 channels
 children
-ciD5	$
+ciD5	
 ciD5 
 ciD5#
 ciD5$
@@ -5286,8 +5236,8 @@ ciD53
 ciD57
 ciD5;
 ciD5?
-ciD5Lg
-ciD5Pf
+ciD5LR
+ciD5PQ
 ciD5[
 ciD5_
 ciD5a
@@ -5296,9 +5246,9 @@ ciD5e
 ciD5o
 ciD5p
 ciD5s
-ciD5t
-ciD5u-
-ciD5y,
+ciD5t	
+ciD5u
+ciD5y
 clientTCPEnable
 clientTCPRemote
 clientUDPEnable
@@ -5318,31 +5268,31 @@ controller_path
 corrupt
 count
 cs_cs
-cyD5 '
-cyD5$
-cyD5'%
-cyD5(
+cyD5 
+cyD5$v
+cyD5'
+cyD5(r
 cyD5)
 cyD52
-cyD53
-cyD54_
+cyD53sl
+cyD54J
 cyD55
-cyD56O
+cyD56:
 cyD57
-cyD58%o
-cyD5=M
+cyD58
+cyD5=8
 cyD5>
 cyD5?
-cyD5C
-cyD5J
+cyD5Cm
+cyD5Jk
 cyD5P
 cyD5Q
-cyD5W@~
-cyD5Y'o
+cyD5W+~
+cyD5Y
 cyD5_
 cyD5c
 cyD5}
-cyD5~:
+cyD5~%
 czech
 d$	ba|(
 d$ AUAVAWD
@@ -5438,7 +5388,6 @@ encSubmitFrameMS
 end of input
 english
 error
-error %d
 es_es
 es_mx
 eventtest
@@ -5539,6 +5488,7 @@ g+V}+
 g9k0t_D
 gK99r
 gLimitMBPS
+ge/+?
 generator
 generic
 german
@@ -5577,7 +5527,6 @@ i	bq}L
 i Q		
 i W		
 i(H;i8
-iB^IA
 iFjtk
 iQ %5.2f
 iTba~(
@@ -5758,11 +5707,10 @@ ll$Pf
 localeconv
 logFirstFrames
 m e-V
-m e-V#f
 m e-r
 m0k0$
-mH?%:B]
-mH?%^C]
+mH?%:-]
+mH?%^.]
 mL$PH
 m_nMaxLogBufferingSize > 0
 m_pData was null. Not copying data.
@@ -5828,231 +5776,225 @@ nvapi_pepQueryInterface
 o$1bA~
 o$3bq
 o$:bQ%H
-o%	Ee
-o%	ke
-o%	nc
-o% (e
-o% 5e
-o% Ba
-o% We
-o%!0c
-o%!kd
-o%",e
-o%"Ne
-o%"Pc
-o%#;c
-o%#Yb
-o%$8b
+o%	0e
+o%	Ve
+o%	Yc
+o%  e
+o% -a
+o% Be
+o%!Vd
+o%"9e
+o%";c
+o%#&c
+o%#Db
+o%$#b
 o%%Jr..\$
-o%%pd
-o%'*a
-o%'Ee
-o%) d
-o%)_d
-o%)wb
-o%){c
-o%)}a
-o%*,c
-o%*0b
-o%*jb
-o%+<e
-o%+Ab
-o%,>a
-o%-bb
-o%-dd
-o%-sb
-o%.#e
-o%.3e
-o%/sc
-o%0*e
-o%0xa
-o%11d
-o%1ia
-o%2'b
-o%25a
-o%39a
-o%3rd
-o%6?d
-o%6wd
-o%7+b
-o%8?c
-o%8ke
-o%8nc
-o%;Xc
-o%;fd
-o%><b
-o%>be
-o%>{b
-o%?(c
-o%?0c
-o%?Fa
-o%?fb
-o%?kd
-o%@Pc
-o%A4b
-o%AEb
-o%AYe
-o%C@d
-o%CPe
-o%DAd
-o%DBd
-o%DTc
-o%Eyd
-o%FGe
-o%Fma
-o%Fob
+o%%[d
+o%%jc
+o%'0e
+o%(kd
+o%)Jd
+o%)bb
+o%)fc
+o%)ha
+o%*Ub
+o%+'e
+o%+,b
+o%,)a
+o%,sc
+o%,{c
+o%-Mb
+o%-Od
+o%-^b
+o%/^c
+o%0ca
+o%1Ta
+o%2 a
+o%3$a
+o%3]d
+o%4oc
+o%6*d
+o%6bd
+o%6y`
+o%8*c
+o%8Ve
+o%8Yc
+o%;Cc
+o%;Qd
+o%<pa
+o%>'b
+o%>Me
+o%>fb
+o%?1a
+o%?Qb
+o%?Vd
+o%@;c
+o%A0b
+o%ADe
+o%C+d
+o%C;e
+o%Cjc
+o%Cqb
+o%Cz`
+o%D,d
+o%D-d
+o%D?c
+o%D{`
+o%D|`
+o%Edd
+o%F2e
+o%FXa
+o%FZb
+o%Fbc
 o%Fwc
-o%Gwb
-o%G}a
-o%H0b
-o%Hie
-o%H~d
-o%J>a
-o%L>e
-o%L`e
-o%Mmd
-o%Nde
-o%Nxa
-o%O1d
-o%O5e
-o%OBa
-o%OWe
-o%Q,e
-o%Q9a
-o%QNe
-o%Qrd
-o%R;c
-o%R[e
-o%S8b
-o%TRe
-o%U+b
-o%UOa
-o%VEe
-o%VIe
-o%Vke
-o%Wac
-o%X d
-o%X_d
-o%X{c
-o%Y,c
-o%Yjb
-o%Z<e
-o%ZAb
-o%Z\c
-o%[Ib
-o%\@e
-o%\be
-o%\dd
-o%\sb
-o%\{b
-o%]#e
-o%])]
-o%]3e
-o%_*e
-o%_4b
-o%_Ye
-o%`7e
-o%`td
-o%a'b
-o%a5a
-o%aPe
-o%b.e
-o%bJa
-o%bTc
-o%cyd
-o%d%e
-o%dGe
-o%g?c
-o%hJc
-o%j>e
-o%jXc
-o%jfd
-o%lSa
-o%m5e
-o%m<b
-o%mBa
-o%n0c
-o%nFa
-o%nkd
-o%o,e
-o%oPc
-o%p;c
-o%pEb
-o%pMb
-o%q8b
-o%q{d
-o%v_d
-o%vwb
-o%v}a
-o%w0b
-o%xAb
-o%y>a
-o%zec
-o%{#e
-o%|!a
-o%|md
-o%}de
-o%}xa
-o%~1d
-o%~Wa
+o%Gbb
+o%Gha
+o%HTe
+o%Hid
+o%J)a
+o%Jsc
+o%L)e
+o%LKe
+o%Lla
+o%MXd
+o%NOe
+o%Nca
+o%O e
+o%O-a
+o%OBe
+o%Q$a
+o%Q9e
+o%Q]d
+o%R&c
+o%RFe
+o%Rya
+o%S#b
+o%T=e
+o%U:a
+o%V0e
+o%V4e
+o%VVe
+o%WLc
+o%Wkd
+o%XJd
+o%Xfc
+o%YUb
+o%Z'e
+o%Z,b
+o%ZGc
+o%Zub
+o%[4b
+o%[{c
+o%\+e
+o%\Me
+o%\Od
+o%\^b
+o%\fb
+o%_De
+o%_ta
+o%`"e
+o%`_d
+o%a a
+o%a;e
+o%b5a
+o%b?c
+o%cdd
+o%coc
+o%d2e
+o%dwc
+o%g*c
+o%h5c
+o%i}a
+o%j)e
+o%jCc
+o%jQd
+o%jla
+o%kpa
+o%l>a
+o%lyb
+o%m e
+o%m'b
+o%m-a
+o%n1a
+o%nVd
+o%o;c
+o%p&c
+o%p0b
+o%p8b
+o%q#b
+o%qfd
+o%rjc
+o%rqb
+o%ukd
+o%vJd
+o%vbb
+o%vha
+o%x,b
+o%y)a
+o%ysc
+o%y{c
+o%zPc
+o%|Xd
+o%}Oe
+o%}ca
+o%~Ba
 o,$fE
 o,0bq
 o,:bQ%H
-o-	Tt
-o-5ao
-o-A!g
-o-MX{
-o-ir9
-o-m?d
-o-z@d
-o-{Ad
-o-{Bd
+o-	?t
+o-5Lo
+o-MC{
+o-i]9
+o-m*d
+o-my`
+o-z+d
+o-zz`
+o-{,d
+o-{-d
+o-{{`
+o-{|`
 o4$fD
 o4$fE
 o47bq
 o<$fD
 o<$fE
 o<0bq
-o=#Ag
-o=$v_
-o=&0^
-o=)wc
-o=+_\
-o=.}_
-o=5da
-o=6%c
-o=67`
-o=9T`
-o=>s^
-o=@,c
-o=Csb
-o=GX\
-o=Gab
-o=Hz^
-o=K2a
-o=K\_
-o=L3]
-o=N$b
-o=QQ\
-o=S?^
-o=U9a
-o=Uc_
-o=X+b
-o=YOV
-o=\vc
-o=]F^
-o=aZl
-o=c*]
-o=e^]
-o=gWV
-o=jua
-o=kTc
-o=q4b
-o=qBa
-o=ta\
-o=t|a
-o=z0_
-o=zrb
+o=#,g
+o=$a_
+o=)bc
+o=+J\
+o=.h_
+o=4p^
+o=5Oa
+o=6"`
+o=9?`
+o=>^^
+o=C^b
+o=Fv]
+o=GC\
+o=GLb
+o=He^
+o=KG_
+o=P}]
+o=Q<\
+o=S*^
+o=U$a
+o=UN_
+o=Y:V
+o=\ac
+o=]1^
+o=`sc
+o=aEl
+o=eI]
+o=gBV
+o=in\
+o=j`a
+o=k?c
+o=nla
+o=q-a
+o=tL\
+o=tga
+o=z]b
 o@ fA
 o@ fE
 o@0fA
@@ -6347,7 +6289,6 @@ oz@fD
 oz`fA
 oz`fD
 ozpfA
-o{JM_A
 o|$	L
 o|$ fD
 o|$ fE
@@ -6391,7 +6332,6 @@ pbS}H9
 pbrMetallicRoughness
 perspective
 pl_pl
-pnputil.exe
 polish
 portuguese
 pp|B>>q
@@ -6416,9 +6356,6 @@ q K
 q O		
 qUba~(
 qWSAPI: SVLAudioWSAPI::Init( %d )
-qt%9/]
-qt-</]
-qt5?/]
 r	`!^
 r*t H
 r*t I
@@ -6482,7 +6419,6 @@ rstiI
 rttjI
 rtus_test
 ru_ru
-runas
 runtime
 russian
 rutlH
@@ -6671,20 +6607,16 @@ t$pfD
 t$pfE
 t$pfG
 t%<~u
-t%O1]
 t&D+r
 t&D8w%u 
 t,,X.
 t,M9x
 t,wdH
-t-!2]
-t-N1]
 t/A9K0u)I
 t1Hcl$@
 t4uLv
-t5#2]
-t5Bbf
-t5SHf
+t5BMf
+t5S3f
 t9fff
 t>H9n
 t>y#I
@@ -6692,7 +6624,7 @@ t?y$I
 t?y&I
 tAy&H
 tKfA9
-tQH957N
+tQH95w=
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -6731,7 +6663,7 @@ tsLastWGP
 turkish
 txTimeMS
 t|SUVH
-t}H9=&J
+t}H9=f9
 t}WF<7
 u!!Bc
 u*H9w`t$H
@@ -6779,7 +6711,6 @@ useOSC
 useOSCEyes
 useOSCFace
 useSpecialFloats
-ut-!.]
 v=Y]Bv
 vD;EHL
 vE;E`M
@@ -6859,14 +6790,14 @@ xxJo%%\r..8$
 y	bq}J
 y	bq}L
 y	bs5@D5
-y	bs5@D5	Tw
-y	bs5@D5 cn
+y	bs5@D5	?w
+y	bs5@D5 Nn
 y	bs5@D5!
-y	bs5@D5"`n
+y	bs5@D5"Kn
 y	bs5@D5#
-y	bs5@D5#Oy
+y	bs5@D5#:y
 y	bs5@D5'
-y	bs5@D5'By
+y	bs5@D5'-y
 y	bs5@D5(
 y	bs5@D5)
 y	bs5@D5*
@@ -6875,80 +6806,76 @@ y	bs5@D5-
 y	bs5@D5.
 y	bs5@D5/
 y	bs5@D51
-y	bs5@D512w
-y	bs5@D51^r
-y	bs5@D52
-y	bs5@D52|r
+y	bs5@D51Ir
+y	bs5@D52gr
+y	bs5@D52mr
 y	bs5@D53
 y	bs5@D54
-y	bs5@D55Bn
+y	bs5@D55-n
 y	bs5@D56
-y	bs5@D572y
+y	bs5@D57
 y	bs5@D58
-y	bs5@D58(s
 y	bs5@D59
-y	bs5@D59Iy
-y	bs5@D59iw
-y	bs5@D59oz
+y	bs5@D594y
+y	bs5@D59Tw
+y	bs5@D59Zz
 y	bs5@D5:
-y	bs5@D5;Gn
-y	bs5@D5=Nx
-y	bs5@D5=bx
-y	bs5@D5?Jx
-y	bs5@D5A+n
+y	bs5@D5;2n
+y	bs5@D5=9x
+y	bs5@D5=Mx
+y	bs5@D5?5x
+y	bs5@D5A
 y	bs5@D5C
 y	bs5@D5E
-y	bs5@D5Gcr
-y	bs5@D5H1n
+y	bs5@D5GNr
+y	bs5@D5H
 y	bs5@D5I
 y	bs5@D5K
-y	bs5@D5KVm
+y	bs5@D5KAm
 y	bs5@D5L
 y	bs5@D5M
 y	bs5@D5N
 y	bs5@D5O
-y	bs5@D5QYx
-y	bs5@D5Qfw
-y	bs5@D5SAx
+y	bs5@D5QDx
+y	bs5@D5QQw
+y	bs5@D5S,x
 y	bs5@D5U
-y	bs5@D5ULy
+y	bs5@D5U7y
 y	bs5@D5Y
-y	bs5@D5^bm
+y	bs5@D5Yj}
+y	bs5@D5^Mm
 y	bs5@D5_
-y	bs5@D5_)y
 y	bs5@D5a
-y	bs5@D5aBm
-y	bs5@D5a_s
+y	bs5@D5a-m
+y	bs5@D5aJs
 y	bs5@D5c
-y	bs5@D5d$y
-y	bs5@D5d;r
+y	bs5@D5d
+y	bs5@D5d&r
 y	bs5@D5e
 y	bs5@D5f
-y	bs5@D5g(x
-y	bs5@D5h
+y	bs5@D5g
+y	bs5@D5hjr
 y	bs5@D5i
-y	bs5@D5i*m
-y	bs5@D5i7w
-y	bs5@D5iWs
-y	bs5@D5k
+y	bs5@D5i"w
+y	bs5@D5iBs
+y	bs5@D5k{z
 y	bs5@D5l
 y	bs5@D5m
 y	bs5@D5n
-y	bs5@D5o
-y	bs5@D5o_w
-y	bs5@D5o_x
-y	bs5@D5olr
+y	bs5@D5oJw
+y	bs5@D5oJx
+y	bs5@D5oWr
+y	bs5@D5onz
 y	bs5@D5q
 y	bs5@D5s
-y	bs5@D5t?s
+y	bs5@D5t*s
 y	bs5@D5u
 y	bs5@D5v
 y	bs5@D5w
-y	bs5@D5w.s
-y	bs5@D5xTy
-y	bs5@D5y4s
+y	bs5@D5x?y
+y	bs5@D5y
 y	bs5@D5}
-y	bs5@D5~6y
+y	bs5@D5~!y
 y A		
 y D$	
 y E		
@@ -6956,37 +6883,30 @@ y G
 y"E{M
 y3y3y3y3y3y3y3y3c
 yNba~(
-yo%l{
-yo-!I
-yo->0
-yo-B-
-yo-Cc
-yo-H$
-yo-K~
-yo-NC
-yo-T%
-yo-U"
-yo-Y+
-yo-^n
-yo-c3
-yo-cI
-yo-f(
-yo-h-
-yo-hO
-yo-n$
-yo-sC
-yo-su
-yo=50]
-yo=;nX
-yo==GW
-yo=C`X
-yo=D"W
-yo=FUX
-yo=NGX
-yo=W<V
-yo=ZUW
-yo=`2V
-yo=}FW
+yo%lf
+yo-!4
+yo-%v
+yo-6|
+yo-A|
+yo-CN
+yo-H{
+yo-Ki
+yo-N.
+yo-^Y
+yo-c4
+yo-h:
+yo-qv
+yo-s.
+yo-s`
+yo=.oW
+yo=;YX
+yo==2W
+yo=CKX
+yo=F@X
+yo=N2X
+yo=W'V
+yo=Z@W
+yo=}1W
 yoD$ 
 yoD$ H
 yoD$0
@@ -7082,7 +7002,6 @@ zo|$`
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {un'%
-{vrlink}/drivers/valvevrlinkdongle/valvevrlinkdongle.inf
 |$ ATAUAVAW
 |$ ATAUAVAWD
 |$ ATAUAVAWH
@@ -7169,15 +7088,14 @@ zo|$`
 |$pfD
 |$xL;
 |(bR}HZQ
+|HdOCaFX
 |Lu?c
 }0H9U
-}?\Z(
 }HX!b
 }HX"b
 }HX&b
 }HZ$>b
 }HZ%t
-}HZ%t%f
 }HZd9
 }HZd>
 }HZd> b
@@ -7187,17 +7105,15 @@ zo|$`
 }HZd>`b
 }HZd>pb
 }Ho-	
-}Ho-_"
+}Ho-_
 }LuHO
-}o%z)Q
-}o5*(Q
-}o5C*Q
-}o=5SQ
-}o=BVM
-}o=_|Q
-}o=`eR
-}o=bsN
-}o=cES
+}o=5>Q
+}o=BAM
+}o=_gQ
+}o=`PR
+}o=b^N
+}o=c0S
+}o=tvR
 }oD$ 
 }oD$@
 }oD$`

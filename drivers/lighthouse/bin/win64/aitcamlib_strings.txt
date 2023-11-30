@@ -25,10 +25,10 @@
 #?RGBE
 #D9c0t
 #D9{0t
-$^}Z74
 %,3:;4-&
 %9k0t
 %9{0t
+%a7xS
 &9k0t
 &D9c0t
 &D9k0t
@@ -60,6 +60,7 @@ $^}Z74
 )|$@f
 +Xt@(
 +o'q)}
++vb_1r]
 , last executing in 
 ,9k0t%H
 ,9{0t%H
@@ -178,7 +179,7 @@ $^}Z74
 220323000000Z
 220801000000Z
 230714000000Z
-231127210736Z0/
+231130022946Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -190,6 +191,7 @@ $^}Z74
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4&=B!
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -379,7 +381,6 @@ HcD$x
 HcF$H
 HcL$4
 Hct$@L+
-HdnF?
 Hu"Hc
 I(+K H
 IVRApplicationsInternal_XXX
@@ -458,7 +459,6 @@ MainThrd
 MbP?{
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Mi@#n
 Not Available
 NotFound
 Out of thread local storage!
@@ -476,6 +476,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSAc
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -600,6 +601,7 @@ Z9k0tUD
 ]9k0tVD
 ]J<0"0i3
 ]g@8yhu
+]x|Ti
 ^9k0tWD
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -726,7 +728,7 @@ danish
 de_de
 deque<T> too long
 driver_lighthouse
-dz>*U
+ehVg$
 el_el
 en_us
 english
@@ -832,12 +834,10 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-q=~dV
 rND9{0t
 read past buffer
 ro_ro
 romanian
-rpwS_
 ru_ru
 russian
 schinese
@@ -909,7 +909,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-x{;m\
 zh_cn
 zh_tw
 zlib corrupt

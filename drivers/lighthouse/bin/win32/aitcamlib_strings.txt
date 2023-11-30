@@ -22,6 +22,7 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
+*Mfx,}
 +Xt@(
 +o'q)}
 , last executing in 
@@ -137,6 +138,7 @@ $9^ t
 0-pixel image
 020g0
 04686
+04~"<
 0?0{0
 0@1N1v1
 0`0u0
@@ -172,7 +174,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231127210040Z0/
+231130022555Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -317,6 +319,7 @@ $9^ t
 <"<-<N<^<h<r<
 <,<P<\<d<|<
 <0:08
+<Zdy,{o
 <_=r=
 <unknown>
 =(=2=B=M=n=~=
@@ -498,6 +501,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
+RSDShl
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -640,8 +644,10 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
+`++,p'h
 `.rdata
 a7hIw
+ac"6$3
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -849,7 +855,7 @@ zh_tw
 zlib corrupt
 {un'%
 |Lu?c
+|oqBS
 }LuHO
-~.kT?
 ~qj#k"
 ~t&LN
