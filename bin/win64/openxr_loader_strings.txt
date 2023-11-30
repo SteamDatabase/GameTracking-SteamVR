@@ -66,6 +66,7 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
+,(rHE"
 ,W5y+
 -1e+9999
 -Infinity
@@ -163,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130023247Z0/
+231130055148Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -184,11 +185,10 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7w0"n:W1
+7z3*/|v
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;!Mw@
 <0:08
 =rIQU
 >0<0:
@@ -283,7 +283,6 @@
 @VATAVH
 @VWAVH
 A valid JSON document must be either an array or an object value.
-A#}W17
 A(t	H
 ADVAPI32.dll
 ATAVAWH
@@ -320,6 +319,7 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
+B@u3E
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -358,6 +358,7 @@ CloseHandle
 Completed loader terminator
 Completed loader trampoline
 CreateEventW
+Ct%! la
 D$ A;
 D$ E3
 D$ H;
@@ -415,6 +416,7 @@ FindNextFileW
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
+G7(Y:(
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -528,7 +530,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS	
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -642,7 +643,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-YFkA$B6\8
+Zv<o4
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -836,7 +837,6 @@ strcmp
 strictRoot
 string too long
 strncpy
-s|SX{_
 t$ AVH
 t$ AWH
 t$ E3
@@ -979,7 +979,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-{M,#2(
 {un'%
 |$ ATAVAWH
 |$ AVH

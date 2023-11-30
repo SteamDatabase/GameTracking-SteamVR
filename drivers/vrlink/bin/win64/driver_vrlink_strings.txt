@@ -244,7 +244,6 @@
 !""""""
 !&.37<
 !(0)"
-!@-L,
 !H88p
 !bq}J
 !bq}L
@@ -274,7 +273,6 @@
 "perspective" is not a JSON object.
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
-# tMi
 #################### NVENC: %s
 ##eF##eFii
 #%N?,=
@@ -797,6 +795,7 @@ $w!Hc
 /* vertex attributes go here to input to the vertex shader */
 //==============================================================================================
 //q^//q^
+/5	U	
 /7?'rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 /9{0t'H
 /avatar/parameters/LeftEyeLid
@@ -1008,7 +1007,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231130023224Z0/
+231130055126Z0/
 2333333
 241009235959Z0a1
 2D$x2
@@ -1025,6 +1024,7 @@ $w!Hc
 2t\Hc
 3"((xP((xPWW
 311109235959Z0b1
+32QUJx+1
 3333333333333333333333333333333333333333333333333333333333333333
 33Uf33Uf
 341013235959Z0H1
@@ -1285,8 +1285,6 @@ $w!Hc
 @.reloc
 @24$A2
 @2t$x@2
-@8-4L
-@8-FN
 @848u
 @849u
 @8I+@0H
@@ -1319,7 +1317,6 @@ $w!Hc
 @H9J`
 @HcQdH
 @LcqHD
-@RW0P7F
 @SATAUAVAWH
 @SATAWH
 @SATH
@@ -1631,6 +1628,7 @@ B7=fo
 B8H9B(
 BD9%~L
 BMP RLE
+B\S*7
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d
 Bad unicode escape sequence in string: four digits expected.
@@ -2151,7 +2149,7 @@ Error: Unknown transport mode (%s) requested
 Error: XOR0 transport specified, but len too short.
 Error: Your GPU does not support %s for video compression
 Error: cannot create bitstream buffer[%d] = %p. Error: %d
-Error: detection failure
+Error: detection unknown (%d)
 Error: enc failed to initialize the session.
 Error: enc uninitialized when submitting a frame
 Error: m_fec not initialized!
@@ -2234,7 +2232,6 @@ G8<1u
 G8H9G(
 G8ba~
 G8ba~Ho
-G:Sjh
 GDI32.dll
 GPU supports %dMB per frame
 GPU supports %dMB per second
@@ -3057,6 +3054,7 @@ LastKnown
 Late init successful
 Latency
 Lc E3
+LcD$0A
 Lcl$$I
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -3202,6 +3200,7 @@ NbQ}Ip
 Neither required `bufferView` nor `uri` defined for image[
 New Session detected; Invalidating.
 New control connection %d from %s failed in OnConnect
+No IPSEC available
 No LoadImageData callback specified.
 No default audio device found to listen to
 NormalTextureInfo
@@ -3288,6 +3287,7 @@ Pro Audio
 PropVariantClear
 PxD9}
 Pz}b!
+P},_B'
 Q	bq}J
 Q	bq}L
 Q bb%@
@@ -5488,7 +5488,6 @@ g+V}+
 g9k0t_D
 gK99r
 gLimitMBPS
-ge/+?
 generator
 generic
 german
@@ -5621,6 +5620,7 @@ jj@0HK4
 joints
 k0i0$
 k22Vd22Vd
+k>jt[W
 kZ3nT]
 keylength >= 2^30
 kht H
@@ -7088,7 +7088,6 @@ zo|$`
 |$pfD
 |$xL;
 |(bR}HZQ
-|HdOCaFX
 |Lu?c
 }0H9U
 }HX!b

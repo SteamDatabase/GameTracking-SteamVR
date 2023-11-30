@@ -17,7 +17,6 @@
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
-%)qn|
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -132,7 +131,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/gIN4e
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -167,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130023719Z0/
+231130055627Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -179,6 +177,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4S_0e
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -280,7 +279,6 @@
 @UVWAVAWH
 @UWAVAWH
 A valid JSON document must be either an array or an object value.
-A<Q/Da
 ASSERT: "%s" at %s:%d.
 ATAVAWH
 A\_^[]
@@ -565,6 +563,7 @@ L9|$p
 L;8u6H
 L?n(Zy&
 LeaveCriticalSection
+Lf6Gh
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
@@ -585,7 +584,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
-N\uZ\A
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -600,7 +598,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSJ
+RSDS0
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -836,7 +834,6 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-kV`KW
 kernel32.dll
 ko_ko
 korean
@@ -939,7 +936,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-z&:>I
 zh_cn
 zh_tw
 {un'%

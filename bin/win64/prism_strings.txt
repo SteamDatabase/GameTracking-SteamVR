@@ -57,8 +57,8 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+#Y~Ma
 $9E0u
-%>j |WHs
 %s begin_ctx=%llu
 %s end_ctx=%llu
 %s%s%s%s%s
@@ -310,9 +310,7 @@ $9E0u
 %s: unsupported format
 %s: usage must be specified when allocating images
 %u != %zu
-&Kerc'
 ',=?k
-'sgzh
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -324,7 +322,6 @@ $9E0u
 (D$pv
 (L$pD
 (d$pD
-(e!xJ_
 (f*^[0
 (l$0L
 (l$@D
@@ -475,7 +472,6 @@ $9E0u
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.Al&d
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -535,7 +531,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231130023010Z0/
+231130054911Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -548,7 +544,7 @@ $9E0u
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4,+w2
+4P#M *o
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -573,6 +569,7 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
+:FCqQ
 ;K sOH
 ;S sMH
 ;\$x|
@@ -758,6 +755,7 @@ CFrameHallucination::CreateFramebuffer
 CFrameHallucination::CreateRenderPass
 CFrameHallucination::RegisterDestinationImage
 CFrameHallucination::SetFov
+CJ%u]-
 CL$ H
 CL$0H
 CL$`H;
@@ -1006,6 +1004,7 @@ Dumping display history...
 DuplicateHandle
 E8~(t\
 E\f9A
+E\j)bgw
 EkH9M
 Encountered error 
 EnterCriticalSection
@@ -1081,6 +1080,7 @@ GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
+GsWb=
 H SVWH
 H USVAUH
 H+APH
@@ -1513,7 +1513,6 @@ T$tA+
 T$xD9
 T$xH3
 T$xL+
-T+L8D
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 TerminateProcess
@@ -1524,6 +1523,7 @@ Thread watchdog with a small timout %f. Timeouts should usually be multiple seco
 TimestampQueryPool-%s
 TlsAlloc
 TlsFree
+U"hey
 UATAUAVAWH
 UATAUH
 UATAVH
@@ -1634,7 +1634,6 @@ Y9"SD
 YUV conversion - %s
 Yl$ M
 Yl$4E
-ZNccNr
 [ AVH
 [K]taM?
 \$ AVH
@@ -1761,9 +1760,11 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
+b;+#}U
 bad allocation
 bad array new length
 bad conversion
+c31MFympu
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1909,7 +1910,6 @@ l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
-m1vAq
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -1956,6 +1956,7 @@ memmove
 memset
 multiple signals per batch not allowed
 mwH9S
+n<\;}
 nArrayIndex < m_details.nArrayLayerCount
 nD$p3
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -2096,7 +2097,6 @@ timeSetEvent
 timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
-tqCH$E
 t}H9=
 uAfff
 uRf;>tM

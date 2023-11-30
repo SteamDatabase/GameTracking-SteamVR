@@ -14,10 +14,9 @@
  H3E H3E
  for detail.
  formatting error code 
- hcZx
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$@xX#k
+$heNY
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -41,7 +40,6 @@ $@xX#k
 +o'q)}
 , last executing in 
 ,W5y+
--	Lb2B
 -1e+9999
 -Infinity
 -u-I;
@@ -175,6 +173,7 @@ $@xX#k
 0A_A^_^[
 0A_A^_^]
 0A__[
+0L>ZV
 0w0c1
 0}0i1
 130801120000Z
@@ -184,7 +183,7 @@ $@xX#k
 220323000000Z
 220801000000Z
 230714000000Z
-231130023729Z0/
+231130055637Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -329,7 +328,6 @@ Access to desktop duplication lost for desktop %d.
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
-B7'[5
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -609,6 +607,7 @@ IsDebuggerPresent
 IsOverlayVisible
 IsProcessorFeaturePresent
 J>@G_
+K/?bc
 K32GetModuleFileNameExW
 KERNEL32.dll
 K}*n:	
@@ -653,13 +652,11 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-N-a8,&
 NPH9Q
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
-P	fB9
 PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
@@ -671,7 +668,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS\%
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -895,6 +891,7 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
+c4O;K
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
@@ -989,6 +986,7 @@ message_id
 no_no
 norwegian
 ntelD
+o-}]b
 ole32.dll
 openvr_api.dll
 overlay_frame_times
@@ -1002,6 +1000,7 @@ portuguese
 product_name
 pt_br
 pt_pt
+q;dFDt
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1011,7 +1010,6 @@ request_spawn_window_view
 request_task_view
 request_window_list_update
 returnAddress
-rgfsQ
 ro_ro
 romanian
 ru_ru
@@ -1043,7 +1041,6 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
-t8&H*
 t:I;>t
 tXfff
 tchinese

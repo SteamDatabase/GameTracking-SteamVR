@@ -2,9 +2,7 @@
  %41g
  (Camera)
 !hn7!
-#U -]
 ',=?k
-(QuuHB
 (Unable to load LibOVR)
 (f*^[0
 +Xt@(
@@ -50,7 +48,6 @@
 .idata$4
 .idata$5
 .idata$6
-.q}G=
 .rdata
 .rdata$T
 .rdata$r
@@ -87,6 +84,7 @@
 1%1*10181@1E1K1S1[1`1f1n1v1{1
 1(2L2x2
 130801120000Z
+1C'|e
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 2#2+23282>2F2N2S2Y2a2i2n2t2|2
 2$383]3q3
@@ -95,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130022703Z0/
+231130054334Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -166,6 +164,7 @@
 9X;h;
 :$:-:6:?:D:I:P:`:
 :':2:H:u:
+:)LSv
 :-:6:?:H:M:R:Y:
 :F;e;
 :b:u:
@@ -211,7 +210,9 @@
 @.data
 @.reloc
 ADVAPI32.dll
+AF_"58
 Bellevue1
+B~\3L
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -230,6 +231,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Dyt8Z
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -295,8 +297,9 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+R)RfC
 RPCRT4.dll
-RSDSm
+RSDS/
 RaiseException
 S0Q0O
 SA|X=G

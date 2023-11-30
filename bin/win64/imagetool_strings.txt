@@ -1600,6 +1600,7 @@
 !context->awaiting_pop
 !context->parsing
 !context->subparser_stack
+!dW<v
 !font_map || PANGO_IS_FONT_MAP (font_map)
 !g_type_is_a (interface_type, prerequisite_type)
 !g_type_is_a (prerequisite_type, interface_type)
@@ -1641,7 +1642,6 @@
 "?8N"?g}"?
 "WA`7h
 "p#*$
-"p9M+
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
 "t0"*X
 #    plot [0:2][-.2:1] "lut.dat" with lines
@@ -1688,7 +1688,6 @@
 #000F
 #0BYs
 #1e	A
-#2L^}D
 #3CScs
 #40*1Q|
 #8#f#
@@ -3720,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231130023238Z0/
+231130055140Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -10483,6 +10482,7 @@ N H;N(H
 N%NnN
 N-ERH%
 N0N94
+N80FC
 N8HcF
 N9OaP
 N=([Etb
@@ -11753,7 +11753,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDS(
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14535,7 +14534,6 @@ _CxxThrowException
 _RDATA
 _R_\HES;2?);E0BJ69A04;.49578,LW3r
 _W4~w
-_[n(!
 _\cf3
 __C_specific_handler
 __CxxFrameHandler3
@@ -16226,6 +16224,7 @@ extra-expanded
 f	BJL
 f	_(H
 f ny wra ow ankenya.
+f-s~X
 f0O94
 f3ff33f3
 f9KpuE
@@ -17535,7 +17534,6 @@ k VWATAUAVH
 k VWAWH
 k0i0$
 kD$,;D
-kR<2Z
 kU!W>
 ka strax hwila p
 ka? nov
@@ -17804,7 +17802,6 @@ m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
 m>EKn>
 m@Nj@y
 mLCg"R
-mQ0N~
 macintosh
 macron
 magenta
@@ -20887,7 +20884,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 {?o}'
 {?q |?
 {Hu,H
-{MPH5
 {P@8s
 {`_{P
 {s[zV

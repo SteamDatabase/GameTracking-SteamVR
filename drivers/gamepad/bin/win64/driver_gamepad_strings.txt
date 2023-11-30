@@ -3,6 +3,7 @@
  A__^
  H3E H3E
 !hn7!
+%:ay|
 ',=?k
 (D$ f
 (f*^[0
@@ -97,36 +98,36 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130023101Z0/
+231130055002Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3$Y|YF
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4LkCO
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5MyBC2
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8-v.(
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
 <0:08
+=_UN-&].N
 =rIQU
 >0<0:
 >Mp$d
+>e<5zQh
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -204,8 +205,8 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NLpYMhq
 NPH9Q
-O;{(VD
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -216,7 +217,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
-S?:@_
 SA|X=G
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
@@ -263,6 +263,7 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+Xz,;|
 Y9"SD
 [K]taM?
 \$ UH
@@ -312,7 +313,6 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
-cvcG#
 driver_gamepad.dll
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -338,9 +338,7 @@ t$ WH
 t$@H=
 tXfff
 terminate
-u}Jig
 v=Y]Bv
-vCk[]
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
@@ -356,7 +354,6 @@ www.digicert.com1$0"
 {un'%
 |$ AVH
 |Lu?c
-|}Q3?1
 }LuHO
 ~qj#k"
 ~t&LN

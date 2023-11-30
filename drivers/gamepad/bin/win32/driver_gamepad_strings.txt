@@ -1,7 +1,6 @@
 	!s99
  %41g
 !hn7!
-$DhB)I
 ',=?k
 (f*^[0
 +Xt@(
@@ -61,7 +60,6 @@ $DhB)I
 .tls$
 .tls$ZZZ
 .xdata$x
-/FHOROQ_
 /input/a/click
 /input/b/click
 /input/back/click
@@ -105,7 +103,7 @@ $DhB)I
 220323000000Z
 220801000000Z
 230714000000Z
-231130022643Z0/
+231130054314Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -245,8 +243,8 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS]
 RaiseException
-Rx#9I
 S0Q0O
 SA|X=G
 SDL2.dll
@@ -278,7 +276,6 @@ SetEnvironmentVariableA
 SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID
 SleepConditionVariableCS
-T.H<C
 TerminateProcess
 TlsAlloc
 TlsFree
@@ -341,7 +338,9 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
+cs>t}z}
 driver_gamepad.dll
+hg`Z!
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -351,6 +350,7 @@ jj@0HK4
 k0i0$
 l2|X/gGe
 m0k0$
+mE6Ec
 malloc
 map/set<T> too long
 memcpy
@@ -359,11 +359,11 @@ memset
 string too long
 terminate
 uCVj@
-u{wf3
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+{Btk 
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -375,7 +375,6 @@ www.digicert.com1$0"
 {gamepad}/input/gamepad_profile.json
 {un'%
 |Lu?c
-|d:KP}
 }LuHO
 ~qj#k"
 ~t&LN

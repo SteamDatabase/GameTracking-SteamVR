@@ -66,6 +66,7 @@
  times.
  version-number:
 !hn7!
+"jB5K@
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -632,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130022950Z0/
+231130054852Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -893,6 +894,7 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
+B"heF
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1249,6 +1251,7 @@ GD9E0t
 GDf9F
 GFf9F
 GH9E0t
+GX)Fau<:+UT
 GXA_A^A]A\_^]
 G`f9F
 Gdf9F
@@ -1268,7 +1271,6 @@ GetQueuedCompletionStatus
 GetSystemTimeAsFileTime
 GetTickCount64
 H!C@H
-H&u[<!
 H+SpI
 H+WpA
 H+WpH
@@ -1484,7 +1486,6 @@ Not able to open, current state is not valid
 Notification
 OLEAUT32.dll
 OXL9OPt
-Ou/TuA
 Out of thread local storage!
 PA^A]_^]
 PA^_]
@@ -1837,6 +1838,7 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
+`+LNI
 `.rdata
 `A_A^A\_^
 `A_A^_^]
@@ -1888,7 +1890,6 @@ fE9&t2H
 false
 file error
 floor
-geTvjm
 generic
 gfffffffD
 gfffffffH
@@ -1971,7 +1972,6 @@ mutex
 need dictionary
 nrfserlib.dll
 ntelD
-n}cHpR
 oL$PH
 ole32.dll
 oversubscribed distance tree
@@ -1983,6 +1983,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
+r:Xv3
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2177,7 +2178,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-{<Piy
+y!NH3E
 {un'%
 {x\u!H
 {|?uWH
@@ -2212,7 +2213,6 @@ xdigit
 |$pf;
 |$ps`H
 |Lu?c
-}8}6-
 }LuHO
 ~'HcB
 ~qj#k"
