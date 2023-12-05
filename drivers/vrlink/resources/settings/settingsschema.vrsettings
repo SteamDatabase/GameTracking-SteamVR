@@ -118,16 +118,16 @@
                 "advanced_only": true
             },
             {
-                "name": "/driver_vrlink/client_version",
-                "control": "label",
-                "label": "#{vrlink}Setting_clientVersion",
-                "advanced_only": false
-            },
-            {
                 "name": "/settings/driver_vrlink/allowVolumeSync",
                 "control": "toggle",
                 "label": "#{vrlink}Setting_AllowVolumeControlSync",
                 "advanced_only": true
+            },
+            {
+                "name": "/driver_vrlink/client_version",
+                "control": "label",
+                "label": "#{vrlink}Setting_clientVersion",
+                "advanced_only": false
             }
         ]
     }

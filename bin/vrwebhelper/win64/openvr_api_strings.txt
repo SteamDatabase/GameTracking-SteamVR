@@ -113,7 +113,6 @@ $iMBm
 )|B?d!
 *StO9>T
 *uXI;
-+"he2
 +J$D8M@
 +M<7>
 +Xt@(
@@ -415,7 +414,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231130054828Z0/
+231204190753Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1293,7 +1292,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDSN
+R0~_"
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1776,7 +1775,6 @@ Zod(^?
 \$gm?
 \$hI;
 \$pE3
-\(	1:
 \@d#_
 \Fj;!h8
 \ffff
@@ -1813,6 +1811,7 @@ _hypot
 _logb
 _nextafter
 _oD>Kg
+_p9rh
 ` UAVAWH
 `+!]?
 `.rdata
@@ -1892,7 +1891,6 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c3\;O"
 c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
@@ -2051,6 +2049,7 @@ jj@0HK4
 k0i0$
 kB0[/
 kC2\/
+kPwJ@
 kXL9sHu
 keylength >= 2^30
 l$ E3
@@ -2133,7 +2132,6 @@ ot$ H
 ot$HH
 owner dead
 o|$0f
-o|aGW
 p AWH
 p D9V
 p WATAUAVAWH

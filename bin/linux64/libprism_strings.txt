@@ -490,7 +490,6 @@ $+
 0+
 0123456789
 0123456789ABCDEF
-05:36:55
 1
 11CVkTimeline
 12CNonCopyable
@@ -499,6 +498,7 @@ $+
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:06:07
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
@@ -1390,6 +1390,7 @@ De
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 Dec
+Dec  4 2023
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex
@@ -2243,7 +2244,6 @@ NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindin
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t> > const&) [clone .cold]
 None
 Nov
-Nov 30 2023
 November
 Null
 Null Client

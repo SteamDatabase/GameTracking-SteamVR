@@ -1600,7 +1600,6 @@
 !context->awaiting_pop
 !context->parsing
 !context->subparser_stack
-!dW<v
 !font_map || PANGO_IS_FONT_MAP (font_map)
 !g_type_is_a (interface_type, prerequisite_type)
 !g_type_is_a (prerequisite_type, interface_type)
@@ -3719,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231130055140Z0/
+231204191059Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -4260,6 +4259,7 @@ $wtpt
 <3]uMH
 <3]uRH
 <3]uTH
+<5*7 
 <8bunz8
 <:u&A
 <;t+H
@@ -10482,7 +10482,6 @@ N H;N(H
 N%NnN
 N-ERH%
 N0N94
-N80FC
 N8HcF
 N9OaP
 N=([Etb
@@ -11753,6 +11752,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS'
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -16224,7 +16224,6 @@ extra-expanded
 f	BJL
 f	_(H
 f ny wra ow ankenya.
-f-s~X
 f0O94
 f3ff33f3
 f9KpuE
@@ -20815,6 +20814,7 @@ z$u"I
 z$u"fA
 z%u#H
 z&u$f
+z'pwuU
 z'u%I
 z(L;y(
 z*1j=?~
@@ -21100,6 +21100,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |@HcVt
 |AHcK`I
 |CJ25?+:72*0+Z?>
+|F<iv
 |FD;~
 |IIcI 
 |Kc9`

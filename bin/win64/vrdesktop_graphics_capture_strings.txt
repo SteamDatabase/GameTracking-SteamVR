@@ -16,8 +16,8 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$heNY
 %%.%dg
+%W#4-
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -173,7 +173,6 @@ $heNY
 0A_A^_^[
 0A_A^_^]
 0A__[
-0L>ZV
 0w0c1
 0}0i1
 130801120000Z
@@ -183,7 +182,7 @@ $heNY
 220323000000Z
 220801000000Z
 230714000000Z
-231130055637Z0/
+231204191610Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -342,6 +341,7 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
+CRvbCQ
 CT$(L
 CT$0H
 CT$0I
@@ -520,6 +520,7 @@ GetWindowRect
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
+Gg/zP
 GraphicsCaptureSession is not supported.
 H!C@H
 H+SpI
@@ -607,7 +608,6 @@ IsDebuggerPresent
 IsOverlayVisible
 IsProcessorFeaturePresent
 J>@G_
-K/?bc
 K32GetModuleFileNameExW
 KERNEL32.dll
 K}*n:	
@@ -653,6 +653,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
+N\^H0
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -891,7 +892,6 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c4O;K
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
@@ -986,7 +986,6 @@ message_id
 no_no
 norwegian
 ntelD
-o-}]b
 ole32.dll
 openvr_api.dll
 overlay_frame_times
@@ -1000,7 +999,6 @@ portuguese
 product_name
 pt_br
 pt_pt
-q;dFDt
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1015,6 +1013,7 @@ romanian
 ru_ru
 running
 russian
+sYA'U
 schinese
 shcore.dll
 shutdown
@@ -1084,6 +1083,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+z%ne%
 zh_cn
 zh_tw
 {un'%

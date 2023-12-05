@@ -15,9 +15,11 @@
 (l$PD
 (t$pH
 )D$ H
+)R^	Q
 )\$pD
 )d$`D
 )t$pu.H
+*4gL:
 +Xt@(
 +o'q)}
 , last executing in 
@@ -82,6 +84,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/$ne^
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -91,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130055119Z0/
+231204191039Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -148,6 +151,7 @@ A9Q sEI
 A;Q s?I
 A;R s
 ADVAPI32.dll
+AL-*Z
 A]A\_^[]
 A^A\]
 A^_^][
@@ -267,7 +271,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS;
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -318,6 +321,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+Y-xAR
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -449,7 +453,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-q:M@,:L_
 startup
 string too long
 strncpy
@@ -469,6 +472,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+x'4~g
 z(uMH
 {ERR-001}
 {ERR-079}

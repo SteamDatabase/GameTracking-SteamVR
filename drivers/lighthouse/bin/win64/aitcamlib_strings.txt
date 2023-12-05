@@ -135,7 +135,6 @@
 .xdata
 .xdata$x
 /9{0t'H
-/RkY+
 /delivery_rate
 /elapsed_time
 /format
@@ -178,7 +177,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130054848Z0/
+231204190810Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -215,13 +214,13 @@
 9k0tcH
 9l$Lt	E
 ;D$ht6
+<+/olH
 <0:08
 =ETLP
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
->)&@r
 >0<0:
 >Mp$d
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
@@ -244,6 +243,7 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+@!7g/$X/
 @.data
 @.reloc
 @A^_^
@@ -296,7 +296,6 @@ AitUVCExtApi.dll
 AuthD
 BMP RLE
 Bellevue1
-Bn$=?
 C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
 CT$ H
@@ -359,7 +358,6 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
-GT7u.
 GetCameraHALInterface
 GetCurrentProcessId
 GetCurrentThreadId
@@ -477,6 +475,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSp
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -583,8 +582,10 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+XQ/!+(P
 XXXX PNG chunk not known
 Y9"SD
+YTa#Y
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -598,9 +599,9 @@ Z9k0tUD
 \$PfD
 \$XLc
 \$pfD
+\k v9
 ]9k0tVD
 ]J<0"0i3
-]M_5&
 ]g@8yhu
 ^9k0tWD
 _Cnd_destroy_in_situ
@@ -925,6 +926,7 @@ zlib corrupt
 |$PH;
 |$PLc
 |$XH;
+|'SYY
 |Lu?c
 }LuHO
 ~3LcD$(L

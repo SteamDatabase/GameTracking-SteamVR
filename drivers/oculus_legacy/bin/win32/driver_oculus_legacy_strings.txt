@@ -7,6 +7,7 @@
 (f*^[0
 +Xt@(
 +o'q)}
++x:[A$
 , last executing in 
 ,W5y+
 .00cfg
@@ -84,7 +85,6 @@
 1%1*10181@1E1K1S1[1`1f1n1v1{1
 1(2L2x2
 130801120000Z
-1C'|e
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 2#2+23282>2F2N2S2Y2a2i2n2t2|2
 2$383]3q3
@@ -93,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130054334Z0/
+231204190857Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -120,6 +120,7 @@
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4/5C5M5X5}5
+4=<,6
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
 5$5/5
@@ -144,6 +145,7 @@
 7$7(787<7L7P7X7p7
 7+737;7
 70503
+7YzuG
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8"8L8
 8'8-878A8K8U8_8l8u8
@@ -164,7 +166,6 @@
 9X;h;
 :$:-:6:?:D:I:P:`:
 :':2:H:u:
-:)LSv
 :-:6:?:H:M:R:Y:
 :F;e;
 :b:u:
@@ -210,9 +211,7 @@
 @.data
 @.reloc
 ADVAPI32.dll
-AF_"58
 Bellevue1
-B~\3L
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -231,7 +230,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Dyt8Z
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -289,6 +287,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NMR&	
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -297,9 +296,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-R)RfC
 RPCRT4.dll
-RSDS/
 RaiseException
 S0Q0O
 SA|X=G
@@ -338,6 +335,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+XeGn1
 Y9"SD
 Y__^[
 [K]taM?
@@ -413,6 +411,7 @@ jj@0HK4
 k0i0$
 l2|X/gGe
 m0k0$
+mEOVO
 malloc
 map/set<T> too long
 memcpy
@@ -489,6 +488,7 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
+|SREQ
 }LuHO
 ~qj#k"
 ~t&LN

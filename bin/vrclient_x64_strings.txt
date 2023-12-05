@@ -649,7 +649,6 @@ $w!Hc
 -S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 -disablewatchdogs
 -nokillprocess
--p7_c
 -personality_distort
 -preloadonly -preloadvpks_all
 -startupappid
@@ -2086,7 +2085,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231130055539Z0/
+231204191509Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2235,6 +2234,7 @@ $w!Hc
 <uninitialized>
 <unknown handle>
 <unknown>
+=%neY
 =7p7M}
 =====================================
 ================================================================================================
@@ -2243,6 +2243,7 @@ $w!Hc
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
+>	Ke<0
 >"tVH
 >"taH
 >0<0:
@@ -2289,7 +2290,6 @@ $w!Hc
 ?@s#0?LD
 ?CSxrSession
 ?CVkDevice::CreateDevice
-?R}6Z
 ?UUUUUU
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
@@ -5069,7 +5069,6 @@ L;|$0t
 L<pL;
 L?n(Zy&
 LINEAR
-LZ8'(7x;
 Language
 LastKnown
 LaunchApp
@@ -5496,15 +5495,14 @@ Pz}b!
 Q H9P 
 QFailed to create internal command allocator
 QHL9u
-QHrs*?
 QHtfH
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
-R%g^y
 RPCRT4.dll
+RSDS@%
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5910,6 +5908,7 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
+U#_mS
 U0H9U8t
 U0H;C
 U4H;C
@@ -5999,7 +5998,6 @@ UWAUAWH
 UWAVAWI
 UWAVH
 UWAWH
-UdC4:$
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s
 Unable to coerce float action to input source that supports neither float nor boolean: %s
@@ -7331,6 +7329,7 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Y%7[&
+Y*.2Pz
 Y5Mc#
 Y5^R"
 Y9"SD
@@ -7718,6 +7717,7 @@ ZvFailed to create fence %ls.
 ]HH;]Ptb
 ]J<0"0i3
 ][Compositor Client] Begin AcquireSync
+]fzP|s
 ]g@8yhu
 ]gfff
 ]pH9X
@@ -8530,7 +8530,6 @@ https://
 hu_hu
 hungarian
 iError calling pDownsampleRenderer->Draw()!
-iSQVy
 icon_steamvr_desktopgame.png
 ig@-?e
 illegal code in raster
@@ -9112,6 +9111,7 @@ s(HcEoH
 s=fff
 sButtonTexts
 sCaptionText
+sDxEk
 sMessageText
 safe_mode_driver_whitelist.json
 sampler
@@ -10795,8 +10795,6 @@ znear
 }PI9}Xt2H
 }`H+}XH
 }gfff
-}jd<3Wv
-}|H\U4
 ~)HcB
 ~+fff
 ~3LcD$(L

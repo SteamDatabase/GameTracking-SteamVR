@@ -253,6 +253,7 @@
 "/*" inside block comment.  Block comments cannot be nested.
 "0'121p1
 "0x" must be followed by hex digits.
+"A+!L
 "MutableRawRepeatedField"
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
@@ -688,7 +689,6 @@ $tI<unknown>
 .lighthouse.pb.COpticalSample
 .lighthouse.pb.CVec3
 .placeholder.proto
-.p}ff
 .rdata
 .rdata$T
 .rdata$r
@@ -1179,7 +1179,7 @@ $tI<unknown>
 220323000000Z
 220801000000Z
 230714000000Z
-231130054325Z0/
+231204190848Z0/
 233Q3{3
 241009235959Z0a1
 242P2
@@ -4556,6 +4556,7 @@ RENDERDOC_GetAPI
 RPCRT4.dll
 RPj#h
 RQPhH
+RSDSf8 z
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5327,6 +5328,7 @@ Z* ,
 ^<Q9C
 ^X_^[
 ^[;Glv
+^^5NZ
 ^oEZ_
 _,9_0t-
 _0_[]
@@ -5604,6 +5606,7 @@ c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cAMDt
+c`/P`|
 cal_method
 calloc
 camera
@@ -6173,6 +6176,7 @@ modelPoints
 model_number
 multiple IHDR
 muteMicMonitor
+nOBo1
 nSplineCtrlPts
 need dictionary
 negative_int_value
@@ -6212,6 +6216,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
+o&_^JW
 object
 object key
 object separator
@@ -6752,7 +6757,6 @@ znear
 {un'%
 {}`cf
 |$$PW
-|2>_g
 |Lu?c
 |cj#hT_
 |f`af

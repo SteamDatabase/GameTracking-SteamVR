@@ -66,7 +66,6 @@
  times.
  version-number:
 !hn7!
-"jB5K@
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -633,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130054852Z0/
+231204190814Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -683,6 +682,7 @@
 9|$`t
 :\u-L
 :\u6L
+;IOR-
 ;K }DH
 ;Q |	H
 </u#H
@@ -894,7 +894,6 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
-B"heF
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1238,6 +1237,7 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
+G00^	
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1251,7 +1251,6 @@ GD9E0t
 GDf9F
 GFf9F
 GH9E0t
-GX)Fau<:+UT
 GXA_A^A]A\_^]
 G`f9F
 Gdf9F
@@ -1334,6 +1333,7 @@ Invalid stopbits setting
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
+It&dj
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -1738,6 +1738,7 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
+Zb0qt
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1838,7 +1839,6 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
-`+LNI
 `.rdata
 `A_A^A\_^
 `A_A^_^]
@@ -1953,6 +1953,7 @@ l$XE3
 l$pM+
 l$pM;
 l$xfD
+l&BRV
 l2|X/gGe
 list<T> too long
 lower
@@ -1983,7 +1984,6 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-r:Xv3
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2178,7 +2178,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-y!NH3E
 {un'%
 {x\u!H
 {|?uWH

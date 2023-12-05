@@ -103,7 +103,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130054314Z0/
+231204190837Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -166,6 +166,7 @@
 <0:08
 <0<G<P<Y<b<g<l<s<
 <S=g=
+<W_;S
 = =0=4=D=H=L=T=l=|=
 = =F=O=Z=
 =N>_>
@@ -229,6 +230,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+J^>6t
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -243,7 +245,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS]
+RSDS~
 RaiseException
 S0Q0O
 SA|X=G
@@ -338,24 +340,23 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
-cs>t}z}
 driver_gamepad.dll
-hg`Z!
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iB;=Gv
 jj@0HK4
 k0i0$
 l2|X/gGe
 m0k0$
-mE6Ec
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
+r6as[o
 string too long
 terminate
 uCVj@
@@ -363,7 +364,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{Btk 
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -376,5 +376,6 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
+}s#2-JD
 ~qj#k"
 ~t&LN

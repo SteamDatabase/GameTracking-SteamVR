@@ -1,12 +1,11 @@
 	!s99
  %41g
- =;vK1
- he3nh
 !hn7!
 ',=?k
 (f*^[0
 +Xt@(
 +o'q)}
+,@'evn7
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -74,6 +73,7 @@
 /user/wrist/right
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
+0MZsL
 0w0c1
 0}0i1
 1!131=1Y1h1w1
@@ -87,7 +87,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130054327Z0/
+231204190850Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -168,7 +168,6 @@ GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
-ITet\q+
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
@@ -216,6 +215,7 @@ Y__^[
 [K]taM?
 ]J<0"0i3
 _CxxThrowException
+_GQl9
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
@@ -276,6 +276,7 @@ memcpy
 memmove
 memset
 modelNumber
+n6W>h6
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons

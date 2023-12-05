@@ -31,6 +31,7 @@
     Unused Resources: size:%zu
     Unused timelines: size:%zu
  %41g
+ ,"dS
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
  A]A\_
  A^^[
@@ -57,7 +58,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-#Y~Ma
+#nen.
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -531,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231130054911Z0/
+231204190833Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -544,7 +545,6 @@ $9E0u
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4P#M *o
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -569,7 +569,6 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
-:FCqQ
 ;K sOH
 ;S sMH
 ;\$x|
@@ -755,7 +754,6 @@ CFrameHallucination::CreateFramebuffer
 CFrameHallucination::CreateRenderPass
 CFrameHallucination::RegisterDestinationImage
 CFrameHallucination::SetFov
-CJ%u]-
 CL$ H
 CL$0H
 CL$`H;
@@ -1004,7 +1002,6 @@ Dumping display history...
 DuplicateHandle
 E8~(t\
 E\f9A
-E\j)bgw
 EkH9M
 Encountered error 
 EnterCriticalSection
@@ -1080,7 +1077,6 @@ GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
-GsWb=
 H SVWH
 H USVAUH
 H+APH
@@ -1523,7 +1519,6 @@ Thread watchdog with a small timout %f. Timeouts should usually be multiple seco
 TimestampQueryPool-%s
 TlsAlloc
 TlsFree
-U"hey
 UATAUAVAWH
 UATAUH
 UATAVH
@@ -1628,6 +1623,7 @@ WindowsDisplayCore
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 WriteFile
+X N}+
 XA_A][]
 XA_A^A]_
 Y9"SD
@@ -1760,11 +1756,10 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
-b;+#}U
 bad allocation
 bad array new length
 bad conversion
-c31MFympu
+c)43O
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1860,6 +1855,7 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
+g2d+,
 gfffffffA
 gfffffffH
 gfffffffH+
@@ -1956,7 +1952,6 @@ memmove
 memset
 multiple signals per batch not allowed
 mwH9S
-n<\;}
 nArrayIndex < m_details.nArrayLayerCount
 nD$p3
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0

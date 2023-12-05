@@ -3,7 +3,7 @@
  A__^
  H3E H3E
 !hn7!
-%:ay|
+%IBrJ
 ',=?k
 (D$ f
 (f*^[0
@@ -98,13 +98,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130055002Z0/
+231204190923Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3$Y|YF
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -123,11 +122,10 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
 <0:08
-=_UN-&].N
+<Z+6.4P
 =rIQU
 >0<0:
 >Mp$d
->e<5zQh
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -142,6 +140,7 @@ A_A^_
 A_A^_^]
 AuthD
 Bellevue1
+CWU_E
 CloseHandle
 CreateEventW
 D$8H9
@@ -155,6 +154,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+GLo!K
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -197,6 +197,7 @@ KERNEL32.dll
 K}*n:	
 L$ SH
 L?n(Zy&
+LEx[i
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
 M98u/
@@ -205,13 +206,13 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NLpYMhq
 NPH9Q
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSOMb
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -263,11 +264,11 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-Xz,;|
 Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
+^PE[_
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -310,6 +311,7 @@ a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
+b.q!.
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
@@ -355,5 +357,6 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
+~)h^2%`
 ~qj#k"
 ~t&LN

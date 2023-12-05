@@ -2266,6 +2266,7 @@ $~O="""
 ({)F*
 (|S1c
 )  Imported from GIF image: background.gif
+)#7j?
 ))))	)
 )))))
 )))))))
@@ -2315,7 +2316,6 @@ $~O="""
 *EPSF-*
 *Magenta*
 *Pt)p
-*SfvXi8I
 *T$(j
 *T|3m
 *Yellow*
@@ -3292,7 +3292,6 @@ $~O="""
 /0J0_0
 /0J0`0
 /0]0d0
-/4Mb(X
 /84_>
 /8R:5
 /;&=+$,
@@ -4016,7 +4015,6 @@ $~O="""
 176x249
 181D1
 181x258
-1820M
 182B2
 182x257
 1837x2599
@@ -4331,7 +4329,7 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231130054340Z0/
+231204190902Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -9190,7 +9188,6 @@ $~O="""
 ?U?Z?
 ?UUUUUU
 ?Z?_?
-?Z^_<
 ?[?k?v?
 ?[IPH
 ?_BADOFF@std@@3_JB
@@ -14429,7 +14426,6 @@ Luminosity
 Ly<4`
 Lycian
 Lydian
-LyuwZK
 L|$TB
 M %g %g
 M 9U$|
@@ -16155,6 +16151,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS*
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -17523,6 +17520,7 @@ T$xRPQWS
 T$xrD
 T$|SUV
 T(3EG
+T.g#?
 T2.v0
 T@)p>
 TADIt
@@ -19255,6 +19253,7 @@ _wstat64i32
 `_^]3
 ``6c3x
 `}@ReadXBMImage
+a	aqY
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
 a0o0(121?1t1
@@ -19387,8 +19386,6 @@ azure3
 azure4
 b"$ V'(
 b&;AL
-b0hb>
-b9K+k kZ
 b<buI
 b?8Nb?g}b?
 bKGD must be after
@@ -21528,6 +21525,7 @@ h l2xW
 h l2xh x2lW
 h lcn
 h x2l
+h"x?H
 h0B2DV
 h2/SOV
 h2lcnV
@@ -21652,6 +21650,7 @@ hz-gb-2312
 h}	!l
 i&Ma.
 i1!i6Ai;ai@
+i9>U]/ iT
 i= BGRtZ= ZYXtI=rbCYt8
 iCCP: invalid keyword
 iMW=}V
@@ -21998,6 +21997,7 @@ jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
 j\hp"@
 j`h8:9
+ja$ra
 jdhH+@
 jhhx @
 ji_81
@@ -22478,6 +22478,7 @@ n == 0 || string != NULL
 n b?l?i.
 n10-/.,43/892>?5GD;OK8MK4XWW
 n2/t.
+n:Q}Q
 n?EKn?tzn?
 nD$ 3
 nF1~P8wH*n_*
@@ -24966,6 +24967,7 @@ w"UhX
 w(WSP
 w(fff
 w+OQvr
+w-]	Qu
 w?Vh|
 w@Wh 
 w@Whd
@@ -25851,7 +25853,6 @@ zAh{,
 zTXt: invalid compression type
 zTXt: invalid keyword
 zcaron
-zffqD
 zh-cn
 zh-hk
 zh-mo

@@ -1,12 +1,12 @@
 	!s99
+	Q2lb+
  %41g
  A__^
  H3E H3E
- H[5.
 !hn7!
+'$neP
 ',=?k
 (f*^[0
-)5T{"z
 +Xt@(
 +o'q)}
 ,W5y+
@@ -85,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130055111Z0/
+231204191032Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -96,6 +96,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3hm		
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -105,10 +106,8 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-87g:x
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-9}tU#.s2
 <0:08
 =rIQU
 >0<0:
@@ -164,7 +163,6 @@ Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
 MB(iVR
 MSVCP140.dll
-MV=20
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
@@ -179,6 +177,7 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
+T6}1x
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -193,6 +192,7 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
+\;5jf
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -238,11 +238,13 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+h_/jo
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iWI]<
 jj@0HK4
 k0i0$
 l$8E3
@@ -273,6 +275,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 {un'%
 |$ AVH
+|/!8?
 |Lu?c
 }LuHO
 ~qj#k"

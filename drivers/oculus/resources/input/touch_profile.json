@@ -4,6 +4,7 @@
   "device_class" : "TrackedDeviceClass_Controller",
   "resource_root" : "oculus",
   "driver_name" : "oculus",
+  "hand_priority" : -1,
   "legacy_binding" : "{oculus}/input/legacy_bindings_touch.json",
   "remapping" : "{oculus}/input/touch_controller_remapping.json",
   "input_bindingui_mode" : "controller_handed",

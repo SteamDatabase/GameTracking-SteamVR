@@ -4229,6 +4229,7 @@
         amdwvr: "AMD ReLive for VR (Wireless)",
         alvr: "ALVR - Air Light VR (Gear VR, Oculus Go, Quest)",
         VirtualDesktop: "Virtual Desktop Streamer (Quest)",
+        vrlink: "Steam Link",
       }),
         (0, i.gn)([a.LO], ae.prototype, "driverList", void 0),
         (0, i.gn)([a.Fl], ae.prototype, "visibleDriverList", null),
@@ -19109,4 +19110,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=fc479fcc53a1bc47b921
+//# sourceMappingURL=vrwebui_shared.js.map?v=319f8bf75f6f60cea6b4
