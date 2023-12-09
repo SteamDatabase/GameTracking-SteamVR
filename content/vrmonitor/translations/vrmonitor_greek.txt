@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR σε ασφαλή λειτουργία (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Απαιτείται η έκδοση βήτα της εφαρμογής (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Απαιτείται ενημέρωση της εφαρμογής Steam (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "Η συσκευή ήχου της μετάδοσης Steam είναι απενεργοποιημένη (0x100000000000)"
 
 "DismissableWarning_Detected" "Εντοπίστηκε"
 "DismissableWarning_TimeFormat" "h:mm AP"

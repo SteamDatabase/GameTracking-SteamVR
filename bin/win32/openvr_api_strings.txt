@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	mEB_
 	w{PW
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
@@ -17,6 +18,7 @@
  Complete Object Locator'
  PjPW
  Type Descriptor'
+ aEd$
  delete
  delete[]
  for detail.
@@ -29,6 +31,7 @@
 #.X'=
 #9Npt
 #])#	
+$&=NhL/
 $C#9$"
 $PjQW
 $_^[]
@@ -43,6 +46,7 @@ $iMBm
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+%~G/D
 &1L3R3d3o3
 &<	x4;O
 &?~YK|
@@ -325,9 +329,8 @@ $iMBm
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0%0+0=0E0V0^0g0x0"1w1
 0 0(00080@0H0P0X0`0h0p0x0
-0 0(000<0\0d0l0t0
+0 0(00080D0d0l0t0|0
 0 080H0L0\0`0h0
-0 0@0`0
 0#080=0
 0$0(080<0@0D0L0d0t0x0
 0$0)0.03080=0B0G0L0Q0V0[0`0e0j0o0t0y0~0
@@ -336,6 +339,7 @@ $iMBm
 0&1D1
 0'1J1r1
 0(0,0<0@0D0H0L0T0l0|0
+0(0H0h0
 0(2,2024282<2@2D2H2L2X2\2`2d2h2l2p2t2x2
 0)040
 0)0j0
@@ -345,7 +349,6 @@ $iMBm
 0-0:0Q0p0
 0/0t0"1w1
 0/1h1z1
-00080D0d0l0x0
 004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0123456789-
 0123456789-+Ee
@@ -355,6 +358,7 @@ $iMBm
 025:5j5r5
 050<0Y1x1
 080?0D0K0R0Y0`0g0n0u0|0
+080@0L0l0t0
 080H0t0
 080d0
 08:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:p>t>x>|>
@@ -379,7 +383,7 @@ $iMBm
 1 1%1*1/14191>1C1H1M1R1W1\1a1f1k1p1
 1 1&1,181E1|1
 1 1(10181@1H1P1X1`1h1p1x1
-1 1@1`1
+1 1,1L1T1\1d1p1
 1"1Y1`1
 1#IND
 1#INF
@@ -387,8 +391,6 @@ $iMBm
 1#SNAN
 1$1(181<1@1D1H1L1T1l1|1
 1$1,141<1@1H1P1X1`1h1p1x1
-1$1,181X1`1l1
-1$1D1L1T1\1h1
 1%151C1T1l1r1~1
 1&1L1d1m1z1
 1'2_2|2
@@ -396,11 +398,13 @@ $iMBm
 1(1,1<1@1D1H1P1h1x1|1
 1(141W1
 1(191N1S1
+1(1H1h1
 1(2L2
 1)3h3
 1*181D1P1d1z1
 1*212
 1,121E1W1`1k1}1
+1,141@1`1h1t1
 1/1P1
 1/242?2
 1/2L2W2
@@ -431,12 +435,10 @@ $iMBm
 2 2$2(2,2024282D2H2L2P2T2X2l2p2t2x2
 2 2(20282@2H2P2X2`2h2p2x2
 2 2+21272I2X2g2
-2 2@2`2
 2!313g7q7
 2!3Y3v3
 2$2(282<2@2D2H2L2P2X2p2t2
-2$2,24282@2T2\2d2l2p2x2
-2$2,242@2`2l2
+2$2,242<2@2H2\2d2l2t2x2
 2$3d3
 2%2J2}2
 2%2P2
@@ -446,11 +448,12 @@ $iMBm
 2'3-3O3V3
 2'3=3L3f3m3y3
 2(242@2L2X2d2p2|2
+2(2H2h2
 2)3f3
 2*2O2]2j2
 2,20282P2`2d2t2x2|2
+2,242<2H2h2t2
 2,2?2J2P2]2e2w2
-2,2P2\2d2
 2-2w2
 202R2f2
 202X2|2
@@ -460,9 +463,10 @@ $iMBm
 220801000000Z
 223E3j3
 230714000000Z
-231204190736Z0/
+231208233413Z0/
 233j3
 241009235959Z0a1
+242X2d2l2
 252J2Q2W2i2s2
 282>2D2J2P2V2]2d2k2r2y2
 282\2
@@ -483,14 +487,13 @@ $iMBm
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2ieO=
 2l3r3
+2p{<Z
 2x5L6
 2{3|4
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 3 3$3(303H3X3\3l3p3t3x3
 3 3$34383<3@3D3H3P3h3x3|3
 3 3(30383@3H3P3X3`3h3p3x3
-3 3(30383@3H3P3X3`3h3p3|3
-3 3@3`3
 3 4(4^4
 3 4R4
 3#3+3
@@ -501,18 +504,18 @@ $iMBm
 3$4W4
 3&3g3y3
 3&4G4
+3(3H3h3
 3(464B4S4a4l445
 3*494H4
 3+3@3E3
 3+3h3z3
-3,343<3@3H3\3d3x3
 3,3G3[3q3
 3.4J4
 30343L3\3`3t3x3
 304c4
 311109235959Z0b1
 341013235959Z0H1
-343@3`3l3
+343<3D3H3P3d3l3
 353T3q3
 354U4
 360428235959Z0i1
@@ -520,6 +523,7 @@ $iMBm
 373D3t3
 380115120000Z0b1
 3;3^3
+3<3H3h3t3
 3?3\3p3
 3?4I4f4w4
 3B3h3
@@ -533,19 +537,23 @@ $iMBm
 3^4k4
 3j4w4
 3mq+<
+3oGF5
 3}4[5p5
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4(40484@4H4P4X4`4h4p4x4
 4 4,484D4P4\4h4x4
+4 4@4L4l4x4
 4"4/4
 4"5E5h5
 4#484R4g4
-4$4(404D4L4T4\4`4h4|4
 4$4(484<4D4\4l4p4
 4$4+42494@4G4N4U4\4c4j4q4x4
+4$4,40484L4T4\4d4h4p4
 4$414s4{4
 4$44484H4L4P4T4X4\4d4|4
+4$444X4d4l4
 4$47:
+4$484H4l4x4
 4$4G4
 4$5H5
 4%404k4
@@ -556,11 +564,9 @@ $iMBm
 4(484P4\4`4d4
 4*5<5`5y5
 4+464;4@4[4e4
-4,4P4\4d4|4
 4,5]5
 4.5}5
 404@4D4T4X4`4x4
-404@4d4p4x4
 404\4|4
 424_4
 425z5
@@ -568,7 +574,6 @@ $iMBm
 456f6
 465)6<6h6o6
 484C4
-484D4d4p4
 484h4
 485w5
 48:<:
@@ -590,12 +595,10 @@ $iMBm
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5 5'5.555<5C5J5Q5X5_5f5m5t5{5
 5 5(50585@5H5P5X5`5h5p5x5
-5 5(545T5\5h5
-5 5(5H5l5x5
 5 5,585D5P5\5h5t5
 5!5<5
 5!6u6
-5$5,585X5`5l5
+5$5,545@5`5h5t5
 5$54585H5L5P5T5X5\5`5h5
 5$666
 5$:,:4:<:D:L:T:\:d:l:t:|:
@@ -605,6 +608,8 @@ $iMBm
 5'5-5>5O5Y5d5u5
 5(5,5<5@5D5L5d5t5x5
 5(5,5D5T5X5l5p5
+5(505<5\5d5p5
+5(505P5t5
 5(6,6064686<6@6D6
 5)5:5Y5l5
 5)6z6
@@ -614,13 +619,13 @@ $iMBm
 5,5H5m5
 5.5H5u5
 5/6N6K9
-505T5`5h5
 50q0z0~0
 516;6X6i6~6
 52575
 525L5j5
 555T5n5
 575A5F5L5S5`5f5r5{5
+585\5h5p5
 585k5
 5;{0t?
 5=5M5
@@ -636,6 +641,7 @@ $iMBm
 5r6~6
 5s5x5
 6 6(60686@6H6P6X6`6h6p6x6
+6 6,646L6T6\6`6d6l6
 6 60646<6T6d6h6x6|6
 6 60646D6H6L6P6T6X6`6x6
 6 7@7X7b7{7
@@ -648,9 +654,9 @@ $iMBm
 6#7W7
 6$6*6Q6
 6$6,646<6D6L6T6\6d6l6t6|6
-6$6,6D6L6T6X6\6d6x6
+6$6,686X6d6
 6$60666<6C6U6`6l6
-6$606P6\6|6
+6$646X6d6l6
 6%6H6
 6%7j8)9
 6&6b6
@@ -659,10 +665,8 @@ $iMBm
 6({wyyj:
 6*f(_
 6+6M6X6]6b6
-6,6P6\6d6
 6.6V6y6
 6064686
-606<6`6
 60?0L0R0X0
 626F6]6y6	7E7
 636G6k6~607
@@ -670,6 +674,7 @@ $iMBm
 656A6^7e7
 656F6[6`6
 676c6
+686D6h6
 686S6f6p6
 6:6I6k6{6
 6;7]>
@@ -687,16 +692,16 @@ $iMBm
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 7 7$7,7D7T7X7h7l7p7t7x7
 7 7(70787@7H7P7X7`7h7p7x7
-7 7(70787D7l7
-7 7D7L7T7d7p7x7
 7"7-757=7E7N7W7_7m7u7
 7#8-8J8[8p8u8
 7$7)7}7
-7$7,70787L7T7`7
+7$7,74787@7T7\7h7
 7$7,747<7D7L7T7\7d7l7t7|7
 7$7<7L7P7`7d7h7l7t7
 7%737
+7(70787@7L7t7
 7(717;7H7U7_7l7y7
+7(7L7T7\7l7x7
 7(8$:*:1:8:>:C:I:O:U:Z:`:f:l:q:w:}:
 7(888D8V8f8r8Q9a9q9
 7(8h8
@@ -710,11 +715,11 @@ $iMBm
 70503
 708M8u8
 747;7A7F7T7
-747X7d7l7
 758@8
 758D8c8
 787[7
 787d7
+7<7`7l7t7
 7@PVW
 7B7n7
 7B8Q8c8x8
@@ -731,21 +736,20 @@ $iMBm
 7z7A9
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
 8 8(80888@8H8P8X8
-8 8H8l8x8
 8 9:9T9
 8!9&9,979A9X9`9n9
 8"949w9
 8$8(888<8@8H8`8p8t8
 8$8+818;8J8R8^8o8v8
-8$8,848<8D8L8T8\8d8l8t8
 8$8,848<8D8L8T8\8d8l8t8|8
 8$8.8
+8$8D8h8t8|8
 8%:.<
 8&8:8
 8&8=8\8{8
 8'888M8R8
 8(8,8<8@8P8T8d8h8x8|8
-8(848<8T8`8
+8(8P8t8
 8(9,9094989<9\9
 8(9B9[9v9
 8*8/858<8S8[8f8
@@ -754,6 +758,7 @@ $iMBm
 8,8<8@8H8`8p8t8
 8-8H8c8
 8/9\9
+808<8D8\8h8
 808A8
 80B0K0\0k0r0
 81<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
@@ -761,7 +766,6 @@ $iMBm
 859m9
 889x:
 89}4w
-8<8`8l8t8
 8=8W8
 8=8a8
 8=9C9w9
@@ -780,15 +784,14 @@ $iMBm
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9|9
 9 9$9,9D9T9X9h9l9p9t9x9
 9 9$9,9D9T9X9h9l9p9x9
-9 9(90949<9P9l9p9
-9 909T9`9h9
+9 9(90989<9D9X9t9x9
+9 9(989\9h9p9
 9 :$:(:,:0:4:W:
 9!9&9496=
 9$9(9,909
 9$9(909H9L9d9t9x9
 9$9,949<9D9L9T9\9d9l9t9|9
-9$909P9X9d9
-9$OC;7
+9$9,989X9`9l9
 9&9.979>9I9O9V9i9
 9':\:
 9*:y;<<
@@ -849,6 +852,7 @@ $iMBm
 : :$:(:0:H:L:d:t:x:|:
 : :$:(:0:H:X:\:l:p:t:x:|:
 : :$:<:@:P:T:\:t:
+: :4:<:D:L:P:T:\:p:x:
 : ;@;\;
 : ;L>
 : exception thrown in JSON library
@@ -857,14 +861,13 @@ $iMBm
 :!?2?
 :":e:
 :#:':+:/:3:7:;:?:C:G:K:O:S:W:[:_:c:g:k:
-:$:(:0:D:L:X:x:
+:$:,:0:8:L:T:`:
 :$:,:4:<:D:L:T:\:d:l:t:|:
 :';.;R;
 :(:8:<:L:P:T:\:t:
 :*:?:D:
 :+:;:
 :+:B:P:j:
-:,:4:<:D:H:L:T:h:p:x:
 :,;{;
 :-:D:
 :/;G;p;E<x<
@@ -891,31 +894,31 @@ $iMBm
 :Z;g;
 :]=O>
 :_;r;=<S<3=p=S>
-:`:h:
 :f;>u
 :h"?bC
+:h:p:
 :u$f9Q
 :uBFV
 :w;:<
 ;	<6<Y<
+; ;$;,;@;H;T;t;|;
 ; ;$;4;8;<;@;H;`;p;t;
-; ;,;P;p;x;
 ; ;0;4;8;@;X;h;l;|;
 ; ;8;H;L;P;T;X;`;x;
-; ;@;L;l;t;|;
 ;$;);/;5;;;@;F;L;R;W;];c;i;n;t;z;
 ;$;+;2;9;@;G;N;U;\;c;j;q;x;
 ;$;,;4;<;D;L;T;\;d;l;t;|;
-;$;8;@;L;l;t;|;
 ;$<><d<
 ;&;p;'<
 ;&</<F<
 ;'<Q<D=_={=
-;(<4<<<D<P<p<|<
+;(;4;X;x;
+;(;H;T;t;|;
 ;*;I;h;
 ;+;V;a;
 ;,<G<j<
 ;-<l=
+;0<<<D<L<X<x<
 ;2;:;
 ;2<O<b<
 ;3;[;
@@ -945,15 +948,16 @@ $iMBm
 < <'<.<5<<<C<J<Q<X<_<f<m<t<{<
 < <*<0<;<H<O<
 < <0<4<8<<<@<H<`<p<t<
+< <D<d<l<t<|<
 < =B=
 < t1<	t-
 <!<&<,<2<8<=<C<I<O<T<Z<`<f<k<q<w<}<
 <!</<I<{<
 <#<1<<<R<f<
 <$<,<4<<<D<L<T<\<d<l<t<|<
+<$<0<P<X<d<
 <$<4<8<@<X<h<l<t<
 <$<R<Z<
-<(<H<P<\<
 <+=2=
 <,<`<
 <,=P=
@@ -976,7 +980,6 @@ $iMBm
 <8bunz8
 <:t%<,t!</u%
 <:t2<,t.</u2
-<<<\<d<l<t<|<
 <<=x=
 <==S=q=~=
 <@=I=s=|=
@@ -1006,20 +1009,19 @@ $iMBm
 =#>K>b?~?
 =$=*=
 =$=,=4=<=D=L=T=\=d=l=t=|=
-=$=0=T=
+=$=,=8=\=
+=$=,=D=P=
 =$=4=8=<=D=\=`=x=
-=$=<=H=|=
-=$>,>L>d>p>
 =$>H>f>t>~>
 ='=D=K=P=Y=`=g=q=
 =(=,=<=@=D=L=d=t=x=
-=(=0=<=\=d=p=
 =)=5=:=M=w=
 =*=e=
 =,=0=4=8=<=@=H=`=p=t=
 =,=1=
 =,=4=<=D=L=T=\=d=l=t=|=
 =/>G>p>
+=0=8=D=d=l=x=
 =0=a=}=
 =1=a=
 =1=f=
@@ -1038,20 +1040,21 @@ $iMBm
 =rIQU
 > >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
 > >(>0>8>@>H>P>X>`>h>p>x>
+> >(><>L>p>|>
 > >1>F>K>
-> >4>D>h>t>|>
 >!?3?
 >$>(>@>P>T>X>\>d>|>
 >$>+>2>9>@>G>N>U>\>c>j>q>x>
 >$>,>4><>D>L>T>\>d>l>t>|>
 >'>6><>R>o>z>
 >(>,>0>4>8><>@>h>l>p>t>x>
->(>4><>d>h>p>x>
 >*>D>r>
 >,'1D=
 >,>0>4>8><>@>D>L>d>h>
+>,>4>T>l>x>
 >/?;?
 >0<0:
+>0><>D>l>p>x>
 >0>@>D>T>X>\>d>|>
 >1>B>M>
 >2>]>
@@ -1075,10 +1078,8 @@ $iMBm
 ? ?$?(?0?H?X?\?`?d?h?p?
 ? ?'?.?5?<?C?J?Q?X?_?f?m?t?{?
 ? ?(?0?8?@?H?P?X?`?h?p?x?
+? ?(?<?D?L?X?x?
 ? ?0?4?D?H?L?T?l?|?
-? ?4?<?D?P?p?x?
-? ?@?`?|?
-? ?D?d?l?t?|?
 ?"?=?Q?n?
 ?#%X.y
 ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
@@ -1086,6 +1087,8 @@ $iMBm
 ?&?/?T?o?
 ?&?C?
 ?(?,?0?4?8?<?D?\?l?p?
+?(?H?h?
+?(?L?l?t?|?
 ?(FN\
 ?)?/?9?G?M?]?i?o?y?
 ?)?A?x?
@@ -1123,7 +1126,6 @@ A(;A,v
 A,98~
 A0B;W
 A1<Fu
-A;&3Z
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AHPQVR
@@ -1499,6 +1501,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
+RSDSee
 RWQSV
 R\hvv
 RaiseException
@@ -1898,10 +1901,10 @@ Y8(|bUhI;W4$eG8
 Y9"SD
 YYF;w,|
 YY^_]
+YYh$	
 YYyhe"B
 Y_[^]
 Y__^[
-Yl2zDfTq
 [ 0@QT
 [3F|}
 [K]taM?
@@ -2011,7 +2014,7 @@ bad locale name
 bad message
 broken pipe
 c%;>7
-c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 cD5U3#eF7v\NV5%J%
 cRpp`
 ceLfdfK3
@@ -2036,6 +2039,7 @@ double out of Int range
 e+000
 eLK(w
 eTe6 d4
+ec!l+
 eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2058,6 +2062,7 @@ gfe[D
 h-y"3
 hI{L[
 hPP`*
+hU+D:
 hb?O2
 host unreachable
 http://ocsp.digicert.com0A
@@ -2094,7 +2099,7 @@ is a directory
 iu+-,
 j	PjYV
 j(hxZ
-j,h(!
+j,h0!
 j-XGf
 j.Yf;
 j0Xf;
@@ -2180,11 +2185,11 @@ protocol error
 protocol not supported
 pwJt8
 q)]2<Mt
+q]kNV
 qe^3!Y-
 r7Yr7=
 rB-<e*
 rLp>B
-rUC*'
 raB3G
 rcf9#b3
 read only file system
@@ -2193,6 +2198,7 @@ resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
+rh_ `
 rr	jrZ
 runtime
 sQA^7&^7%sP@
@@ -2238,7 +2244,6 @@ u	9w
 u VWS
 u kE$<
 u#j,Xf;
-u#ne=p
 u$PPW
 u'_^[
 u-PSSW
@@ -2262,7 +2267,6 @@ vj`7%X,
 vrclient Shared Lib Not Found (102)
 vrclient.dll
 vrserver internal error (124)
-vto:~ X
 wIPS3
 wXJR*
 wrong protocol type
@@ -2271,7 +2275,6 @@ www.digicert.com1$0"
 x(kP$4
 xP?b3
 xRB`2
-x^[O<x
 x`cot~
 xmZ8(N*
 xpxxxx

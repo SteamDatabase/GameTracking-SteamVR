@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+$q)Vf
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -15,11 +16,9 @@
 (l$PD
 (t$pH
 )D$ H
-)R^	Q
 )\$pD
 )d$`D
 )t$pu.H
-*4gL:
 +Xt@(
 +o'q)}
 , last executing in 
@@ -84,7 +83,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/$ne^
+0?dMq
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -94,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204191039Z0/
+231208233731Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -151,7 +150,6 @@ A9Q sEI
 A;Q s?I
 A;R s
 ADVAPI32.dll
-AL-*Z
 A]A\_^[]
 A^A\]
 A^_^][
@@ -321,7 +319,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-Y-xAR
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -368,7 +365,9 @@ _purecall
 _register_onexit_function
 _seh_filter_dll
 _stricmp
+`&92^
 `.rdata
+`0W`9
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -377,7 +376,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 camera
 d$`H=
 d3d11.dll
@@ -398,6 +397,7 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
+m[Vjn_
 malloc
 map/set<T> too long
 memcmp
@@ -472,7 +472,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-x'4~g
 z(uMH
 {ERR-001}
 {ERR-079}

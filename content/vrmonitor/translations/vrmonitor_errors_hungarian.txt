@@ -1000,5 +1000,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "További részletek"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=hungarian#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Steam Link hang kikapcsolva"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Egy vagy több Steam Streaming hang végpont ki van kapcsolva. A hang csak akkor fog működni a Steam Linkkel, ha ezek be vannak kapcsolva."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Hangvezérlő panel"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

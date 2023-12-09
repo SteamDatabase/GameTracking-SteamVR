@@ -107,8 +107,8 @@
                     "/settings/driver_vrlink/useOSC": true
 				},
 				"options": [
-                    {"value": 9000, "label": "9000 (VRChat, Direct)" },
-					{"value": 9015, "label": "9015 (Custom: VRCFT, etc.)" }
+                    {"value": 9000, "label": "9000 (Direct)" },
+					{"value": 9015, "label": "9015 (Alt)" }
 				]
             },
             {

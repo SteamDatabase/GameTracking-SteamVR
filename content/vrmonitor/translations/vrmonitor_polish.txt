@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR w trybie awaryjnym (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Wymagana wersja beta klienta Steam (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Wymagana aktualizacja klienta Steam (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "Urządzenie dźwiękowe Steam Streaming wyłączone (0x100000000000)"
 
 "DismissableWarning_Detected" "Wykryto"
 "DismissableWarning_TimeFormat" "h:mm"

@@ -980,5 +980,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Flere detaljer"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Lyden fra Steam Link er slået fra"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "En eller flere af \"Steam Streaming\"-enhederne er deaktiveret. Lyden fungerer ikke med Steam Link, medmindre de er aktiveret."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Lydkontrolpanel"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

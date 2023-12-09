@@ -66,8 +66,10 @@
  times.
  version-number:
 !hn7!
+$@sa)(+
 %%.%dg
 %4.4X:%4.4X
+%d~>n{
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
@@ -632,7 +634,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204190814Z0/
+231208233456Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -682,7 +684,6 @@
 9|$`t
 :\u-L
 :\u6L
-;IOR-
 ;K }DH
 ;Q |	H
 </u#H
@@ -1171,6 +1172,7 @@ DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
 E M;G
+E0\dtq&
 E9e ~7I
 E@HcH
 Element not found
@@ -1237,7 +1239,6 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
-G00^	
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1333,7 +1334,6 @@ Invalid stopbits setting
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
-It&dj
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -1716,6 +1716,7 @@ WAVAW
 WAVAWH
 WOKEN
 WS2_32.dll
+WS^A2
 WXM9WPt(E
 WaitForMultipleObjects
 WaitForSingleObject
@@ -1738,7 +1739,6 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
-Zb0qt
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1868,7 +1868,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
 close
 cntrl
@@ -1876,6 +1876,7 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
+d7s<uz<
 dat_file
 data error
 deque<T> too long
@@ -1953,7 +1954,6 @@ l$XE3
 l$pM+
 l$pM;
 l$xfD
-l&BRV
 l2|X/gGe
 list<T> too long
 lower
@@ -2128,6 +2128,7 @@ t$xH9^
 t$xL;
 t(D8g
 t1H9]
+t1M[sYHo4
 t4L9%
 t4L9-
 t4L9-U
@@ -2214,5 +2215,6 @@ xdigit
 |Lu?c
 }LuHO
 ~'HcB
+~Yu(7
 ~qj#k"
 ~t&LN

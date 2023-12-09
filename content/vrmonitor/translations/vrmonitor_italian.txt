@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR in modalità sicura (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Client beta di Steam richiesto (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Aggiornamento del client di Steam necessario (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "Dispositivo audio Steam streaming disabilitato (0x100000000000)"
 
 "DismissableWarning_Detected" "Rilevato"
 "DismissableWarning_TimeFormat" "h:mm"

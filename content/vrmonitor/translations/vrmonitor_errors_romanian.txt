@@ -957,5 +957,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Mai multe detalii"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=romanian#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Sunetul pentru Steam Link este dezactivat"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Unul sau mai multe puncte terminale audio Steam Streaming sunt dezactivate. Sunetul nu va funcționa pentru Steam Link decât dacă aceste puncte terminale audio sunt activate."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Panoul de control audio"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

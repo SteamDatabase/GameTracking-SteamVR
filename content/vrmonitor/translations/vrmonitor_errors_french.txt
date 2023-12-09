@@ -986,5 +986,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Plus de détails"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=french#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "L'audio de Steam Link est désactivé"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Une ou plusieurs terminaisons audios de streaming Steam sont désactivées. Le son ne fonctionnera pas avec Steam Link si elles ne sont pas activées."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Panneau de configuration audio"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

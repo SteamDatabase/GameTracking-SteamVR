@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR i felsäkert läge (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Steams klientbeta krävs (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Uppdatering av Steam-klienten krävs (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "Ljudenheten Steam Streaming är inaktiverad (0x100000000000)"
 
 "DismissableWarning_Detected" "Upptäckt"
 "DismissableWarning_TimeFormat" "hh:mm:ss"

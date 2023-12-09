@@ -898,6 +898,7 @@ $w!Hc
 ,9k0t%H
 ,9{0t%H
 ,W5y+
+,r7E 
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -1032,7 +1033,7 @@ $w!Hc
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
+.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -1394,7 +1395,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231204190935Z0/
+231208233624Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2421,7 +2422,6 @@ CT$pH
 CT$xD
 CT9F,t3@2
 CType
-CVCpByB	
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
 CVRAudioDeviceImpl::GetDeviceSoundVolume
@@ -4538,7 +4538,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDSt
+RSDS@
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5103,7 +5103,6 @@ VBus:
 VCRUNTIME140.dll
 VDEST
 VERSION.dll
-VI8mk
 VIVE Pro
 VIVE Pro Mutimedia Audio
 VIVE Tracker 3.0
@@ -5511,6 +5510,7 @@ XE;>|
 XL$hL
 XXXX PNG chunk not known
 X_^][
+XlF`@2F
 Xt$HH
 Y5I/!
 Y9"SD
@@ -5952,33 +5952,33 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
 cal_method
 calloc
@@ -6188,6 +6188,7 @@ eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 eye_tracking
+f%J5]
 f(I;^
 f9+t4
 f98tZH
@@ -6980,6 +6981,7 @@ secondary
 seconds_from_photons_to_vblank
 seconds_from_vsync_to_photons
 sendStatusUpdates
+senph
 serial
 serialNumber
 serial_number

@@ -202,7 +202,7 @@
 	"Settings_PerApplication_ThrottlingOverride_Label": "Поведение на дроселирането",
 	"Settings_PerApplication_ThrottlingOverride_Toggle": "Избирането на фиксирана стойност на дроселиране тук ще изключи автоматичното дроселиране за това приложение.",
 	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Фиксирано",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Автоматично",
+	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Авт.",
 	"Settings_PerApplication_ThrottlingOverride_Framerate": "Фиксиране на честотата на кадрите за приложението на (макс. к/сек.):",
 	"Settings_PerApplication_ThrottlingOverride_Prediction": "Допълнително предвиждане (ms):",
 	"Settings_PerApplication_WorldScale_Description": "Отменяне на стандартното мащабиране за приложението чрез коригиране движението на главата и разстоянието между очите.",

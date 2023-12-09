@@ -1000,5 +1000,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Chi tiết"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Âm thanh Steam Link bị tắt"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Một hoặc nhiều điểm cuối âm thanh phát sóng Steam bị tắt. Âm thanh sẽ không hoạt động với Steam Link trừ khi được bật."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Bảng điều khiển âm thanh"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

@@ -1,10 +1,8 @@
 	!s99
-	Q2lb+
  %41g
  A__^
  H3E H3E
 !hn7!
-'$neP
 ',=?k
 (f*^[0
 +Xt@(
@@ -23,6 +21,7 @@
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
+.?D,j
 .CRT$XCA
 .CRT$XCU
 .CRT$XCZ
@@ -85,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204191032Z0/
+231208233722Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -96,7 +95,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3hm		
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -170,6 +168,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS<
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -177,7 +176,6 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
-T6}1x
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -192,7 +190,6 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
-\;5jf
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -227,7 +224,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
@@ -238,15 +235,14 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-h_/jo
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iWI]<
 jj@0HK4
 k0i0$
+kxo3V
 l$8E3
 l2|X/gGe
 m0k0$
@@ -275,7 +271,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 {un'%
 |$ AVH
-|/!8?
 |Lu?c
 }LuHO
 ~qj#k"

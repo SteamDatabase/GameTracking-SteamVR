@@ -1000,5 +1000,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Więcej informacji"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Dźwięk Steam Link jest wyłączony"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Przynajmniej jeden z węzłów końcowych urządzeń dźwiękowych Steam Streaming jest wyłączony. Dźwięk nie będzie działał z aplikacją Steam Link do czasu włączenia ich."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Panel kontrolny dźwięku"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

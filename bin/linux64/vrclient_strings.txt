@@ -1192,7 +1192,6 @@ $tI
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
-19:06:07
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1305,6 +1304,7 @@ $tI
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:32:20
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -16552,7 +16552,7 @@ DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
 Dec
-Dec  4 2023
+Dec  8 2023
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -25300,6 +25300,9 @@ Z
 [Input] Unknown action set %s when loading binding file
 [Input] UpdateActionState cannot execute because we don't have a config yet.
 [Input] Wanted to store %u global priority inputs, but only had space for %u
+[OpenXR] Focused/Visible transition conditions: %d %d
+[OpenXR] Synchronized transition conditions: %d %d
+[OpenXR] Visible transition conditions: %d %d
 [PROBLEM] Saving Path Registry failed:
 [Settings] %s %s unknown type
 [Settings] Load Default Json Settings from %s

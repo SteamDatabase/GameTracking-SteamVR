@@ -53,6 +53,7 @@
 !~?s5
 "e?<<<<<<l?
 "f9;t
+#U,{r!Y,q
 #])#	
 $+xvA
 $< t6<$t,<+t"<vt
@@ -69,9 +70,11 @@ $iMBm
 %Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
+%k)r^
 %m / %d / %y
 &<	x4;O
 &?PPPPPPP?
+&W76J
 &uo r
 ' is not a number.
 ',=?k
@@ -414,8 +417,9 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231204190753Z0/
+231208233430Z0/
 241009235959Z0a1
+2>w,M
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -530,6 +534,7 @@ $iMBm
 ?Cu0f9w
 ?D8d$@
 ?E=$% B
+?Ht`=(6
 ?QY^&
 ?R0I?
 ?TY,>5
@@ -666,6 +671,7 @@ AreFileApisANSI
 August
 AuthD
 B$D+B,toD+B(
+B$U	/
 B(I9A(u
 B0E8XAt
 B8\(8
@@ -1292,7 +1298,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-R0~_"
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1324,6 +1329,7 @@ SVWATAUAVAWH
 SVWATAVAWH
 SVWAVAWH
 SVWAVH
+S]j%E
 Saturday
 SchedulerKind
 SchedulingProtocol
@@ -1811,8 +1817,8 @@ _hypot
 _logb
 _nextafter
 _oD>Kg
-_p9rh
 ` UAVAWH
+`!Ikg
 `+!]?
 `.rdata
 `A^_^
@@ -1876,6 +1882,7 @@ assert json failed
 atan2
 b4 a2
 b?^Cy
+b^2}E
 bad address
 bad allocation
 bad array new length
@@ -1891,7 +1898,7 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -2049,7 +2056,6 @@ jj@0HK4
 k0i0$
 kB0[/
 kC2\/
-kPwJ@
 kXL9sHu
 keylength >= 2^30
 l$ E3
@@ -2328,6 +2334,7 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
+xyFL#
 yH;YXtl
 y\PD>!
 y^QZ8(O*

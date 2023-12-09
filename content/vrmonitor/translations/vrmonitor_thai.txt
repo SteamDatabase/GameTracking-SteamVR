@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR ในเซฟโหมด (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "จำเป็นต้องใช้ร่วมกับไคลเอนต์ Steam เบต้า (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "ต้องอัปเดตไคลเอนต์ Steam (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "เครื่องเสียงที่สตรีม Steam ปิดใช้งาน (0x100000000000)"
 
 "DismissableWarning_Detected" "ถูกตรวจพบ"
 "DismissableWarning_TimeFormat" "h:mm:ss"

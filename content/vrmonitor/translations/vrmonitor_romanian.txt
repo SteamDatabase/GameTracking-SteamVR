@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "Modul de siguranță SteamVR (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Este necesară versiunea beta a clientului Steam (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Este necesară actualizarea clientului Steam (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "Dispozitivul audio pentru Steam Streaming este dezactivat (0x100000000000)"
 
 "DismissableWarning_Detected" "Detectat"
 "DismissableWarning_TimeFormat" "h:mm"

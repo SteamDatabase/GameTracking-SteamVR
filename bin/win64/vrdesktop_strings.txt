@@ -2,8 +2,8 @@
 							
 												
 																																												
-	 2IEgRL6
 	!s99
+	H; h
  %41g
  A_A^A\
  A_A^A]A\_
@@ -15,7 +15,6 @@
  H3E H3E
  for detail.
  formatting error code 
- gIWcq
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
@@ -167,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204191559Z0/
+231208234254Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,6 +186,8 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7|J .v
+7}G \U
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -389,7 +390,6 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
-E*N,u
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -402,7 +402,6 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
-FS!#Y
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -463,6 +462,7 @@ GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
 H!C@H
+H&\\	
 H+SpI
 H+WpA
 H+WpH
@@ -477,7 +477,6 @@ H;9u|A
 H;Cxu
 H;{XH
 H;}PtwH
-HA2VK
 HMD D3D11CreateDevice failed.
 HandleInput
 Handling keyboard char input
@@ -586,7 +585,7 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-N$0xN7
+NJN%%dO
 NPH9Q
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -602,7 +601,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS|
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -775,11 +773,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
@@ -880,7 +878,6 @@ ro_ro
 romanian
 ru_ru
 russian
-s7L^w
 schinese
 shcore.dll
 shutdown
@@ -938,7 +935,6 @@ vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop.dll
 wn>Jj
-wwRj"
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.

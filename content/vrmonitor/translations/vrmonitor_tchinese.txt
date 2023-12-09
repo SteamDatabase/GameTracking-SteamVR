@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR 處於安全模式（0x1000000）"
 "DismissableWarning_SteamBetaNeeded" "需安裝 Steam 用戶端測試版（0x10000000000）"
 "DismissableWarning_RequiresSteamUpdate" "需安裝 Steam 用戶端（0x80000000000）"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "「Steam Streaming 」音訊裝置已停用（0x100000000000）"
 
 "DismissableWarning_Detected" "已偵測"
 "DismissableWarning_TimeFormat" "h:mm AP"

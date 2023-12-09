@@ -980,5 +980,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "更多详情"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Steam 流式应用音频已禁用"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "一个或多个 Steam 流式传输音频端点已禁用。Steam 流式应用的音频无法在端点禁用时正常运行。"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "音频控制面板"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

@@ -980,5 +980,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Още детайли"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Steam Link аудиото е преустановено"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Една или повече крайни точки за излъчваното аудио от Steam са преустановени. Аудиото няма да функционира със Steam Link, освен ако те не са включени."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Звуков контролен панел"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

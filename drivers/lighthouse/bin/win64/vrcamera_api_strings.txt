@@ -35,6 +35,7 @@
  sIE3
 !T$(H!T$ 
 !hn7!
+"3Z~U
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231204190807Z0/
+231208233447Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -430,6 +431,7 @@ $< t6<$t,<+t"<vt
 9_P~OE3
 9{D~H3
 :AM:am:PM:pm
+:JP"_
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
 :L$"u
@@ -848,8 +850,8 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Dl$8E
-Ds]^Z
 DuplicateHandle
+DvK8b
 DynamicProgressFeedback
 E HcH
 E+BhIcBhM
@@ -861,6 +863,7 @@ E;Bl}DM
 EI2C support not yet implemented
 EPHc@
 ET$(H
+E`",A
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
@@ -874,7 +877,6 @@ Etron Camera: Verify FW
 Etron Camera: Writing FW 
 Etron read flash failed
 Etron: Wait SPI time out!!(%f sec)
-Ex@If
 Exception connecting to camera: 
 Exception constructing Camera: 
 ExecuteUmsThread
@@ -1124,7 +1126,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSQg
+RSDSl
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1138,7 +1140,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlVirtualUnwind
 S0Q0O
-S2*nC
 SA|X=G
 SUVWATAUAVAWH
 SUVWATAVAWH
@@ -1181,6 +1182,7 @@ T$PH;
 T$PI+
 T$`H+
 T$pE3
+TJ!-$
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1264,6 +1266,7 @@ Y$D;R
 Y0t>H
 Y9"SD
 Z(D9Z
+Z]h^[
 [@D8}oteH
 [K]taM?
 \$ UH
@@ -1344,11 +1347,11 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
+`;<:+J
 `A]_^[]
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
-`s~*x
 a7hIw
 abort
 address family not supported
@@ -1381,7 +1384,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 calloc
 cntrl
 connection aborted

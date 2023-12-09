@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ 8
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -411,7 +411,6 @@ $w!Hc
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 ()$^.*+?[]|\-{},:=!
-(-k[*
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -625,6 +624,7 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *H+NpH
+*c}_5'c
 *uXI;
 +C,+C
 +L$@A
@@ -1703,7 +1703,8 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5n}!
+/5Vn(
+/5n~!
 /9{0t'H
 /a/click
 /a/touch
@@ -2085,7 +2086,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231204191509Z0/
+231208234205Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2234,7 +2235,6 @@ $w!Hc
 <uninitialized>
 <unknown handle>
 <unknown>
-=%neY
 =7p7M}
 =====================================
 ================================================================================================
@@ -2243,7 +2243,6 @@ $w!Hc
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
->	Ke<0
 >"tVH
 >"taH
 >0<0:
@@ -3571,13 +3570,13 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8%SB)
 D8,8u
 D8/u0
 D840u
 D84;u
 D8<0u
 D8<>u
+D8=i 
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3590,6 +3589,7 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
+D9%Cs$
 D90uGH
 D989D9XH
 D9>u:H
@@ -4279,9 +4279,8 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:x!
-H;=Zj!
-H;=jv!
+H;=:A!
+H;=jy!
 H;A s
 H;Axt
 H;C(v
@@ -4982,6 +4981,7 @@ L9%dn<
 L90t	H
 L93t	H
 L97u0H
+L9=C6
 L9?u,H
 L9@ s
 L9A r
@@ -5502,7 +5502,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS@%
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5908,7 +5907,6 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
-U#_mS
 U0H9U8t
 U0H;C
 U4H;C
@@ -6796,7 +6794,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%\P'
+W%\Q'
 W0H;C
 W4H;C
 W8H+W`I
@@ -6860,8 +6858,6 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X%|N*
-X-L;#
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7328,12 +7324,11 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%7[&
-Y*.2Pz
-Y5Mc#
-Y5^R"
+Y50Z"
+Y59B"
+Y5]d#
+Y5~S"
 Y9"SD
-Y=so#
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7588,6 +7583,11 @@ ZvFailed to create fence %ls.
 [Input] UpdateActionState cannot execute because we don't have a config yet.
 [Input] Wanted to store %u global priority inputs, but only had space for %u
 [K]taM?
+[OpenXR] Focused/Visible transition conditions: %d %d
+[OpenXR] Synchronized transition conditions: %d %d
+[OpenXR] Visible transition conditions: %d %d
+[Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
+[Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
 [Settings] %s %s unknown type
 [Settings] Load Default Json Settings from %s
 [Settings] Load Json Settings from %s
@@ -7699,6 +7699,7 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \10I;
+\5v~"
 \\.\pipe\
 \mfpmp.exe
 \u=H;
@@ -7717,7 +7718,6 @@ ZvFailed to create fence %ls.
 ]HH;]Ptb
 ]J<0"0i3
 ][Compositor Client] Begin AcquireSync
-]fzP|s
 ]g@8yhu
 ]gfff
 ]pH9X
@@ -7803,6 +7803,7 @@ _l$8A
 _l$8E
 _localtime64
 _lock_file
+_lu!s9
 _mbsstr
 _mktime64
 _purecall
@@ -8024,69 +8025,69 @@ button_toggle
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\actionbindingconfig.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\blockqueue.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openxr_utils.h
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\rendermodelmanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrkeyboard.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vulkan.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\Retail\win64\2017\vrclient_x64.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\hmdlatest.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\ixrbinding.h
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_common.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_common.h
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_compositor_openvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_compositor_prism.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_conformance.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_device.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d11_direct.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d11_openvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_gl_openvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_prism.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_vulkan_openvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_hand_tracker.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_input.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_interaction_profiles.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.h
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_space.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrclientcore.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\actionbindingconfig.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\blockqueue.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openxr_utils.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\rendermodelmanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrkeyboard.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystem.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vulkan.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\Retail\win64\2017\vrclient_x64.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\hmdlatest.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\ixrbinding.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_common.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_common.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_compositor_openvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_compositor_prism.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_conformance.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_device.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_entrypoints.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_d3d11_direct.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_d3d11_openvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_gl_openvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_prism.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_vulkan_openvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_hand_tracker.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_input.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_interaction_profiles.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_session.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_session.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_space.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\skeletalinpututils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrclientcore.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrcompositorclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\fake_app_container_config_path
 c@L+c8D
 cPL+cHI
@@ -8436,6 +8437,7 @@ frequency
 fseek
 fsetpos
 ftell
+fuB7+
 fwrite
 fxL9f0H
 g(u^H
@@ -8652,6 +8654,7 @@ joystick_rotation_x
 joystick_rotation_y
 joystick_settings
 jsonid
+k-L}8
 k0i0$
 k_EButton_A
 k_EButton_ApplicationMenu
@@ -8733,6 +8736,7 @@ l$x@2
 l$xE3
 l$xHc
 l$xLc
+l/=f0
 l2|X/gGe
 language_tag
 latam
@@ -9111,7 +9115,6 @@ s(HcEoH
 s=fff
 sButtonTexts
 sCaptionText
-sDxEk
 sMessageText
 safe_mode_driver_whitelist.json
 sampler
@@ -10667,6 +10670,7 @@ xrclient
 xrclient_conformance
 xrconformance/driver
 xxxxxxx
+yNT.T
 yPDX10
 y_path
 yxxxxxxx3

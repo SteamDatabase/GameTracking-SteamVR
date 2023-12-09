@@ -980,5 +980,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "更多資訊"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Steam 串流音訊已停用"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "一或多個「Steam Streaming」音訊端點已停用。除非先啟用這些端點，否則 Steam 串流無法使用音訊。"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "聲音控制面板"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

@@ -785,7 +785,7 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
 "Warning_DismissableWarning_SteamBetaNeeded_Header" "Требуется последняя бета-версия клиента Steam"
-"Warning_DismissableWarning_SteamBetaNeeded_Description" "Чтобы получить доступ к последним фукнциям бета-версии SteamVR, нужно загрузить или обновить бета-версию клиента Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Чтобы получить доступ к последним функциям бета-версии SteamVR, нужно загрузить или обновить бета-версию клиента Steam."
 "Warning_DismissableWarning_SteamBetaNeeded_Action" "Подробнее"
 "Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/faqs/view/276C-85A0-C531-AFA3"
 
@@ -981,6 +981,11 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Вытягивание кабеля питания под углом может привести к поломке контроллера."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Подробнее"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=russian#wired-controller-usage"
+
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Звук Steam Link выключен"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Выключено как минимум одно звуковое устройство Steam Streaming. Если его не включить, в Steam Link не будет работать звук."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Параметры звука"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
 
 }
 }

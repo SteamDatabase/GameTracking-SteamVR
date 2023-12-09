@@ -66,6 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR в безопасном режиме (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Требуется бета-версия клиента Steam (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Необходимо обновить клиент Steam (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "Звуковое устройство Steam Streaming выключено (0x100000000000)"
 
 "DismissableWarning_Detected" "Обнаружено"
 "DismissableWarning_TimeFormat" "hh:mm:ss"

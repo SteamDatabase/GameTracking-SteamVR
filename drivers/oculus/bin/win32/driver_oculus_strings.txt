@@ -54,7 +54,7 @@
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
 "buffers" object not found in .gltf
-"j$hT
+"j$h\
 "nodes" object not found in .gltf
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
@@ -64,9 +64,7 @@
 #?RADIANCE
 #?RGBE
 #oculus_requested_quit
-#{LzY
 $9^ t
-$H;`J
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -102,9 +100,7 @@ $H;`J
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *030<0E0J0O0V0
-+M@n.
 +Xt@(
-+jSR~n
 +o'q)}
 , binary size = 
 , but got 
@@ -325,42 +321,41 @@ $H;`J
 /user/wrist/left
 /user/wrist/right
 0 0$0(0,0
-0 0$0(0,0004080<0
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
-0 0$04080<0D0\0l0p0
-0 1,141T1x1
+0 0$04080<0D0\0`0x0
+0 0(0@0P0T0d0h0l0t0
 0 width
 0!0+0Z0d0n0y0
 0!01060;0@0E0J0O0T0Y0^0c0h0m0r0w0|0
 0!010=0I0S0i0x0
 0#0(0-02070<0A0F0K0P0U0Z0_0d0i0n0s0x0}0
 0#1A1
-0$0,0L0p0|0
 0$1P1x1
 0%0+0=0G0M0T0b0k0p0
 0'0-0?0I0O0V0d0m0r0
 0'0.0G0L0h0o0
 0(0C0_0
+0(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
 0)0-051
 0)0-0:0>0r4v4
 0)0F0M0
 0+0D0Y0
 0+0u0z0
-0,000H0X0\0p0t0
 0,030[0c0p0y0
 0,0H0p0
+0,0P0\0d0
 0,0V0\0i0
 0-pixel image
 0/090?0F0T0]0b0
 001F1d1t1
+024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 060o0x0}0
 0;1C1K1
 0;1D1M1V1[1`1g1
-0<0P0`0
-0<0`0l0t0
 0>0C0M0l0v0
+0@0L0T0t0
+0H0P0t0
 0J0h0m0
 0P7T7X7\7`7d7h7l7p7t7x7|7
 0R0^0k0t0}0
@@ -378,19 +373,20 @@ $H;`J
 0x1}1
 0}0i1
 1	1:1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1$1(1,1014181<1@1D1H1
+1 1(1H1l1x1
+1 10141D1H1L1T1l1|1
+1 14181H1L1\1`1d1l1
 1"1'1,11161;1@1Q1V1[1`1e1j1o1t1y1~1
 1$1!2.2I2
 1$1)1Z1x1}1
-1$1<1L1P1`1d1h1p1
 1$1D1b1n1
-1$1D1h1t1|1
+1$1H1T1\1|1
 1%1*1/161u1~1
 1%1/151<1J1S1X1
 1&1.161r1
 1'171
 1'2\2
-1(1,1014181<1@1
 1(1-1[1}1
 1(121A1K1z1
 1(2f2
@@ -401,10 +397,10 @@ $H;`J
 1*2S2]2g2n2|2
 1*2p2
 1+2S2
-1,10141<1T1X1p1
 1,2;2l2
 1-1@1S1f1y1
 1/2/4/8/16-bit only
+1014181<1@1D1H1
 101O1T1e1j1
 10K0Z0c0
 11 4 22 44 44 22 444444
@@ -413,7 +409,7 @@ $H;`J
 122w2
 130801120000Z
 14191D1R1c1t1
-141@1H1h1
+141X1d1l1
 171u1{1
 1?1L1]1f1o1t1y1
 1B1u1
@@ -429,31 +425,27 @@ $H;`J
 1`7d7q7u7
 1b2Q3
 1e+9999
-2 2$2
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2
+2 2$2(2,2$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2 2$2D2H2T2X2\2`2d2h2l2p2t2x2
 2 2%2*2/24292>2C2H2M2R2W2\2q2v2{2
 2 2'20292B2p2y2
-2 2(2@2P2T2d2h2l2p2x2
-2 3,343T3x3
 2!21262c2
 2!212A2M2S2b2k2q2{2
 2!2M2c2k2
 2"2'2?2I2O2V2d2m2r2
 2#2)2;2E2K2R2`2i2n2
-2$2,2L2p2|2
 2$272J2]2p2
 2$2V2!313
 2$5(5,505X5%6<6
 2&4`4n4
 2'2+2F2J2Y2]2l2p22565E5I5X5\5
-2(242<2\2
-2(282H2X2d2l2
+2(2,2<2@2D2H2L2P2X2p2
+2(202P2`2p2
 2(2C2
 2)2/2D2\2b2r2
 2*2A2F2K2P2U2Z2_2d2i2n2s2x2}2
-2,202@2D2T2X2\2d2|2
+2,2P2\2d2
 2-2[2l2
 2.5.4.3
 210429000000Z
@@ -464,10 +456,12 @@ $H;`J
 220801000000Z
 223S3
 230714000000Z
-231204190854Z0/
+231208233539Z0/
 241009235959Z0a1
+242D2H2\2`2p2t2
 253a3
 2<2A2I2O2T2Z2l2v2|2
+2<2`2l2t2
 2=2F2O2X2]2b2i2n2z2
 2>4X4x4
 2@2`2|2
@@ -486,6 +480,8 @@ $H;`J
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3$3(34383
+3 3(3@3D3\3l3p3
 3 3b3k3t3}3
 3!3&3+30353:3?3D3I3N3S3X3]3b3g3l3q3v3{3
 3!3Z3y3
@@ -494,25 +490,23 @@ $H;`J
 3#3n3
 3#4Y4s4h5
 3$3*30363<3B3L3Z3v3
+3$3D3h3t3|3
 3$4Y4
-3$505
 3%3.33383?3
 3&4*6f6L8
-3(383<3D3\3l3p3x3
 3(464D4K4
 3)3/363D3M3R3
 3*585F5R5Z5
 3+3}3
+3,3034383@3X3h3l3t3
 3,363<3C3Q3Z3_3
-3,3<3@3T3X3h3l3|3
+3,3@3T3h3x3
 3,4;4?4k4z4
 3-464?4H4M4R4Y4^4k4q4
 3-4O4T4l4v4|4
 3.3A3T3d3h3l3p3t3x3|3
 3.4N4c4
 3/343>3]3g3
-303<3D3d3
-303@3d3p3x3
 311109235959Z0b1
 314\4)6N6_6k6
 315~6
@@ -520,6 +514,7 @@ $H;`J
 32393P3
 323>3N3c3
 341013235959Z0H1
+343X3d3l3
 354w	
 356K6
 358w	
@@ -535,7 +530,7 @@ $H;`J
 3D4d4
 3F4T4$51595A5?8
 3H5S5W5g5w5{5
-3P3T3X3\3`3d3h3
+3H6L6P6T6X6\6`6d6h6
 3Z4i4r4
 3[3~3
 3[4i4}4
@@ -547,40 +542,41 @@ $H;`J
 3v567v8(;d;
 4	474~4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4(4H4l4x4
-4 484<4T4d4h4|4
+4 5,545T5x5
 4"4(454R4a4j4p4v4
 4"4^4w4
 4"505t5
-4"_s$
 4#4(4-42474<4A4F4K4P4U4Z4_4d4i4n4s4x4}4
 4#4(424Q4
 4$4(484<4@4D4H4L4P4\6`6d6h6l6p6t6x6|6
+4$4,4L4p4|4
 4$5)5P5X5
 4$5A5S5]5k5q5
 4%4,4:4C4H4z4
 4%7F7,9
-4(444<4\4
+4(4,4044484<4@4H4`4p4t4
+4(4L4X4`4
 4(5T5
 4)5X5m5q5
+4,404@4D4H4P4h4l4
 4,5Y5
-404@4D4T4X4`4x4
 404H4d4
 42474O4Y4_4f4t4}4
 434;4R4Z4n4
 434<4E4S4\4o4P5p5z5
 455V5
 475]6
-484D4L4l4
 495l5
 4:4[4a4h4o4
 4;5z5
+4<4`4l4t4
 4?4g4}4
 4A4J4
 4D4t4
 4D5^5
 4I5y5
 4N4w4
+4T5`5
 4U4e4k4u4
 4_5h5q5z5
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -588,6 +584,7 @@ $H;`J
 4o5|5
 5 5$5(5,505
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5x5<6@6D6H6L6P6T6X6\6`6d6h6
+5 5$5,5D5T5X5`5x5
 5 5%5*5/54595>5C5H5M5R5W5\5a5f5k5p5
 5 5&5,52585>5D5J5P5V5\5b5h5n5t5z5
 5 6'6
@@ -597,27 +594,25 @@ $H;`J
 5"6L6W6c6u6
 5#6,656>6C6H6O6
 5#6{6
-5$5(505H5X5\5l5p5t5|5
 5$5-525p5
 5$5.545;5I5R5W5
 5$505
+5$5D5h5t5|5
 5$6=6
 5$7p7
 5%5,5>5H5N5U5c5l5q5
 5&51565;5A5J5T5_5m5v5
 5'515
-5(505P5t5
-5(585<5L5P5T5X5`5x5
 5)5L5F:
+5,5054585@5X5h5l5|5
 5.6C6X6
-505<5D5d5
+505T5`5h5
 556h6l6
 575A5K5T5
 585=5U5_5e5l5z5
 5:6\6a6y6
 5<6?7H7T7
 5=5F5X5l5r5
-5@5L5T5t5
 5E6N6
 5FjiT
 5Genu
@@ -627,28 +622,28 @@ $H;`J
 5ineI
 5j6|6
 5q5w5
-6 6$6(6,6064686d<h<l<
+6 6$6,6D6T6X6h6l6t6
 6 6%6*6/64696>6C6H6M6R6W6\6a6f6k6p6u6z6
 6 6/6S6
-6 60646D6H6L6P6X6p6T:x:
+6 7,747T7x7
 6!6&6+606A6F6K6P6U6Z6_6d6i6n6s6x6}6
 6!616A6Q6a6q6
 6#6,616j6
 6#7X7i7u7
-6$6(686<6D6\6l6p6
-6$60686X6|6
-6$6H6T6\6|6
+6$6,6L6p6|6
 6$6k6
 6$:,:u:
 6&7+777C7O7[7g7
 6'6{6
+6(6,60686P6`6d6t6x6|6
+6(6,646L6\6`6p6t6x6
+6(646<6\6
 6*646=6F6T6c6m6v6
 6*f(_
 6+64696j6
 6+6{6
 6+7I7
 6+7O7
-6,606@6D6H6P6h6l6
 6,6L6V6
 6-919
 6.6H6c6{6
@@ -656,7 +651,7 @@ $H;`J
 626A6J6W6o6
 636~6
 646`6
-686D6L6l6
+686\6h6p6
 697=7
 6=7l7
 6>7f7s7
@@ -664,7 +659,7 @@ $H;`J
 6L6|6
 6N6e6y6
 6OB,n_
-6PjMjBh4C
+6PjMjBhdC
 6V6l6
 6V7&8
 6V7^8d8
@@ -672,8 +667,8 @@ $H;`J
 6_6k6x6
 6d7v7
 6h8!:
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7
-7 7$7(7,70787P7`7d7h7l7t7
+7 7074787<7D7\7l7p7
+7 7@7d7p7x7
 7 858P8h8
 7 8g8}8
 7!7&7+70757:7?7D7I7N7S7X7]7b7g7l7q7v7{7
@@ -684,6 +679,7 @@ $H;`J
 7"7'7.7q7z7
 7"757^7o7
 7#7(7-72777<7A7F7K7P7a7f7k7p7u7z7
+7$7(7@7P7T7X7\7`7h7
 7$8(8,8084888<8@8D8H8
 7&747=7B7
 7&7E7J7]7b7h7
@@ -692,13 +688,11 @@ $H;`J
 7'717;7E7Q7s7}7
 7)73797@7N7W7\7
 7)868
-7,787@7`7
-7,7<7@7P7T7X7`7x7
-7,7P7\7d7
 7,8\8
 7-737:7A7F7L7^7h7n7u7
 7.8Q8Z8
 70503
+707<7D7d7
 707D7I7\7
 707L7h7
 708R8W8o8u8
@@ -709,7 +703,6 @@ $H;`J
 7:8D8J8_8s8
 7;8L8]8u8H9L9
 7<7l7
-7@7L7T7t7
 7@7h7
 7@PVW
 7B7~7
@@ -723,10 +716,11 @@ $H;`J
 7h7v7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t8v9
-8 8$8(8,8084888<8@8D8H8L8
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8$8,8D8H8`8d8|8
 8 8%8*8/84898>8C8H8M8R8W8\8a8f8k8p8
-8 8(8@8P8T8d8h8l8t8
+8 8(8H8l8x8
 8 9J9T9j9
 8!818A8Q8a8q8
 8"8'8,81868;8@8Q8V8[8`8e8j8o8t8y8~8
@@ -736,20 +730,19 @@ $H;`J
 8#9,:X:\:`:d:h:l:
 8$8+82898@8G8N8U8\8d8h8l8p8t8x8|8
 8$828;8@8z8
-8$8H8T8\8|8
+8$8<8L8P8X8p8
 8%8Q8a8q8
+8(848<8\8
 8(969
 8*83888j8
 8,8H8d8
-80848L8\8`8h8
 80Y0M1Y1
 829L9Q9Y9_9f9l9s9y9
-848@8H8h8
-848X8d8l8
 849U9
 849_9
 84:~<
 858x8|8
+888D8L8l8
 899;<
 8:8?8X8]8j8
 8>8X8z8
@@ -773,7 +766,6 @@ $H;`J
 8spot
 8u:v?
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9 9094989@9X9h9l9|9
 9 u	A
 9!9&9+909C9J9Q9X9_9f9m9t9{9
 9!919A9Q9a9q9
@@ -781,24 +773,25 @@ $H;`J
 9"9:9N9T9Z9q9
 9":(:,:0:4:_:
 9#9*939:9C9J9V9c9j9u9
-9$9(9,949L9\9`9p9t9x9|9
 9$9-919
+9$9<9L9P9`9d9h9p9
 9&:N:Z:
 9(9-9E9O9U9\9j9s9x9
+9(909P9t9
 9)9b9y9
 9):7:C;Q;
 9,909
 9,9H9d9
-9,9P9\9d9
 9,;?;K;S;[;
 9.9f9p9
+909<9D9d9
+909@9D9T9X9\9d9|9
 92979O9Y9_9f9t9}9
 95:V:
 96:V;v<
 979<9C9I9O9V9h9r9x9
-9<9H9P9p9
-9<9`9l9t9
 9?9H9M9T9]9|9
+9@9L9T9t9
 9A9L9q9
 9D:Y:
 9N:h:
@@ -811,10 +804,11 @@ $H;`J
 9headu
 9l:s:
 9v<&?
+9|!h 5
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:
 : :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:|>
-: :8:H:L:\:`:d:l:
-: :D:P:X:x:
+: :(:0:8:<:@:H:\:d:h:x:
+: :0:4:D:H:P:h:x:|:
 : :U:[:
 : ;';
 : one or more FS callback not set
@@ -823,10 +817,10 @@ $H;`J
 :!;,;Q;_;
 :!;C;H;`;j;p;w;
 :#;-;6;?;g;q;z;
-:$:,:0:@:d:p:x:
 :$:-:2:p:
+:$:0:8:X:|:
 :$:2:;:@:z:
-:$:D:h:t:|:
+:$:H:T:\:|:
 :(:,:~=
 :(:0:P:X:^:
 :(:L:x:
@@ -836,7 +830,6 @@ $H;`J
 :*;H;M;U;[;`;f;x;
 :*;H;M;U;[;a;h;m;s;
 :+:4:=:F:K:P:W:
-:,:0:@:D:H:P:h:l:
 :,:5:::j:
 :,:H:d:
 :-:3:9:A:
@@ -845,6 +838,7 @@ $H;`J
 :1:<:a:l:
 :2:U:,;
 :2:b:~:
+:4:D:H:\:`:p:t:x:
 :6:A:
 :7;>;
 :7;X;
@@ -856,20 +850,19 @@ $H;`J
 :E;R;m;
 :J:l:q:
 :L:[:c:k:u:z:
+:L;P;T;
 :N<^<
 :U;(=A>]>
 :V;u;3<X<
 :Z;a;h;o;
-:d;x;
 :d=h=,>0>=>A>
 :rota
 ; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
 ; ;$;,;0;8;<;D;H;P;T;\;`;h;l;t;x;
 ; ;$;<;
-; ;$;l;p;t;
 ; ;';.;5;<;C;J;R;Z;b;n;w;|;
-; ;(;H;l;x;
-; ;4;<;D;L;P;X;l;|;
+; ;(;
+; <,<4<T<x<
 ; expected 
 ; last read: '
 ;!;&;+;0;A;F;K;P;U;Z;_;d;i;n;s;x;};
@@ -880,18 +873,20 @@ $H;`J
 ;$<.<4<I<]<|<
 ;%;.;7;F;V;`;i;r;
 ;%;r;"<I<m=s=
-;(;4;<;\;
+;(;,;<;@;H;`;p;t;
+;(;8;<;@;D;H;\;`;p;t;x;
+;(;L;X;`;
 ;);3;9;@;N;W;\;
-;,;0;@;D;H;P;h;x;|;
+;,;8;@;X;l;t;|;
 ;.;M;R;\;u;
 ;.<6<
-;0;@;D;T;X;`;x;
 ;1;};
 ;2>R>
 ;3;~;
 ;3<Z<
 ;3u3;
 ;4<F<
+;<;`;l;t;
 ;=;C;
 ;=;G;P;\;
 ;>;G;P;Y;^;c;m;
@@ -912,34 +907,35 @@ $H;`J
 ;h;l;p;t;x;|;
 ;h<l<p<t<x<|<
 ;m<q<
+< <$<(<@<D<H<X<\<`<d<h<l<p<t<x<|<
+< <$<,<D<T<X<h<l<p<t<|<
 < <%<*</<4<9<><C<H<M<R<W<\<a<f<k<p<u<z<
 < <&<8<B<H<O<]<f<k<
 < <'<.<5<<<C<J<Q<Y<a<i<t<y<
 < <(<,<4<8<@<D<L<P<X<\<d<h<p<t<|<
+< <,<0<(>,>
 <!<1<A<Q<a<q<
 <!=*=
 <"<b<
-<$<(<8<<<@<D<L<d<t<x<
 <$<)<.<3<8<=<B<G<L<Q<V<[<`<e<j<o<t<y<~<
+<$<D<h<t<|<
 <$=,=f=
 <%<A<R<\<f<p<z<
 <&<0<6<=<K<T<Y<
 <&<4<=<B<
 <&>[>b>
-<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-<(<,<0<4<<<T<d<h<x<|<
-<(<0<P<t<
 <+<a<
 <+<t<
-<,<P<\<d<
 <,<\<
 <-u];]
 <.<H<R<[<d<r<
 <.=V=c=n=t=z=~=
 <0:08
 <0<<<D<d<
+<0<T<`<h<
 <0=R=W=o=y=
 <0=f=
+<4<D<H<X<\<`<d<l<
 <4=&>
 <4=8=<=@=D=H=L=P=T=X=\=
 <7=w=
@@ -949,7 +945,7 @@ $H;`J
 <:=X=d=
 <<<h<t<
 <?<R<n<
-<@<L<T<t<
+<@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
 <A<H<
 <A<L<q<
 <Q<Z<c<l<q<v<}<
@@ -963,7 +959,9 @@ $H;`J
 <unknown>
 =	=:=X=]=e=k=q=x=}=
 = =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-= =$=(=,=0=4=8=<=D=\=`=x=
+= =0=4=D=H=L=P=T=X=\=`=d=h=l=t=
+= =8=<=T=X=p=
+= >,>4>T>x>
 = >@>
 =!=&=+=0=5=:=?=D=I=N=S=X=]=b=g=l=q=v={=
 =!='=
@@ -974,22 +972,21 @@ $H;`J
 =#=,=B=L=V=_=
 =#>y>
 =$=(=0=4=<=@=H=L=T=X=`=d=l=p=x=|=
-=$=(=@=P=T=d=h=x=|=
+=$=,=L=p=|=
 =$=.=8=B=L=V=`=j=t=~=
-=$=H=T=\=|=
 =$>C>
 ='=-=4=B=K=P=
+=(=0=8=@=D=H=P=d=|=
+=(=4=<=\=
 =(=7=
 =(=J=a=j=s=|=
 =(>L>|>
 =)===E=S=d=l=
 =,=3=
 =,=6=?=H=V=
-=,=D=H=h=
 =.>P>U>m>w>}>
 =0>7><>D>S>_>s>
 =4=T=t=
-=4=X=d=l=
 =4>8><>@>
 =8=D=L=l=
 =;>D>M>V>[>`>g>
@@ -1009,8 +1006,8 @@ $H;`J
 =x>|>
 >	>l>u>~>
 > >$>(>,>0>4>8><>@>D>H>L>X>\>`>d>h>l>p>t>x>|>
-> >$>,>@>
-> >8>H>L>T>l>|>
+> >$>(>,>0>4><>T>d>h>x>|>
+> >(><>D>L>T>X>\>d>x>
 > ?$?(?,?0?4?
 > ?A?
 >!>1>A>Q>a>q>
@@ -1020,25 +1017,24 @@ $H;`J
 >#>->A>O>T>b>g>q>~>
 >#?,?5?>?C?H?O?T?`?
 >$>,>4>r?
->$>4>8>H>L>P>X>p>
 >$>D>d>
 >%>,>E>L>e>l>
 >&>8>@>R>
+>(>,><>@>D>H>P>h>x>|>
 >)>.>S>[>
 >)>/>6>D>M>R>
 >)>@>V>b>n>~>
 >)>p>t>x>|>
 >+>5>>>G>U>d>n>w>
 >,>?>P>c>v>
->,>P>\>d>
 >0<0:
+>0><>D>d>
 >0?4?8?<?@?D?H?L?P?T?
 >4?U?
 >5>?>E>L>Z>c>h>
 >6>;>N>n>
 >7?<?D?I?Q?[?c?
 >:>]?l?
-><>`>l>t>
 >@>L>T>t>
 >A?Q?y?
 >C>J>~>
@@ -1053,23 +1049,23 @@ $H;`J
 >h?n?w?
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?%?*?/?4?9?>?C?H?M?R?W?\?a?f?k?p?u?z?
-? ?(?@?P?T?d?h?l?p?x?
 ? ?*?5???j?t?~?
-? ?0?4?H?L?\?`?p?t?x?
+? ?0?4?D?H?L?P?X?p?
 ?!?Y?d?m?v?
 ?"?'?2?9?>?C?Q?V?a?f?s?}?
 ?"?/?R?y?~?
 ?#?(?D?I?e?j?
 ?$?.?8?
-?$?D?h?t?|?
 ?$?H?T?\?|?
+?(?4?<?\?
 ?(?n?x?
 ?*?L?U?^?g?l?q?x?
 ?,?T?
 ?-?4?9?B?G?P?d?l?r?
 ?.?8?>?E?S?\?a?
 ?/skeleton/hand/left
-?4?X?d?l?
+?4?8?P?`?d?x?|?
+?8?D?L?l?
 ?=?E?j?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -1160,6 +1156,7 @@ $H;`J
 @.data
 @.reloc
 @.rsrc
+@0D0H0L0P0T0X0\0`0d0
 @SVWj
 @fff>fff>fff>fff>
 A valid JSON document must be either an array or an object value.
@@ -1294,6 +1291,7 @@ GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
 GPUCountingSemaphore::Wait(%llu) FAILED!!
+GTVh 
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -1414,9 +1412,10 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+N@Qh,
 NORMAL
-NXQh,
-N`QhD
+NXQh<
+N`QhT
 Neither required `bufferView` nor `uri` defined for image[
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
@@ -1460,16 +1459,17 @@ Path_Exists( absFilePath )
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-PjChx?
 Primitive
 Program Files
-Pt7hL
+Pt7h|
 Pz}b!
 Q9F t
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RPh4Z
+RSDSV
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1486,15 +1486,17 @@ SETUPAPI.dll
 SNRtt(
 SPB8t
 SPB8u
-SRh(?
+SRhH?
 SSVRP
 SVW;E
+SVWh(o
+SVWhDq
 SVWhX
 SVWj8
 SVWj<
 SVWj=
 SVWjA
-SVj%hln
+SVj%h
 SWSRP
 SearchPathW
 Session created!
@@ -1553,7 +1555,7 @@ VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
-VRhtX
+VRh8?
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -1568,10 +1570,11 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
-Wjlh(Z
+WjlhXZ
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+[6=KD
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1598,7 +1601,7 @@ Y__^[
 ^$Q9C
 ^<Q9C
 ^X_^[
-^t!h,
+^t!h<
 _,9_0t-
 _0_[]
 _0_^]
@@ -1672,11 +1675,10 @@ _unlock_file
 _wfopen_s
 _wgetenv_s
 _wstat64i32
-_|!hp5
 `.rdata
 `0_dL
 `0_tL
-`SVWj%hln
+`SVWj%h
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
@@ -1783,14 +1785,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
-cC2<Y
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -1963,18 +1964,19 @@ inverseBindMatrices
 isalnum
 it_it
 italian
-j	h(q
-j	h\y
-j	hhy
-j3hDs
-j5hLx
+j	h@v
+j	hXq
+j1h@x
+j3hts
+j5h(u
+j5h|x
 j@j P
 ja_jp
 japanese
 jdjdh
-jhh(Z
+jhhXZ
 jj@0HK4
-joh(Z
+johXZ
 joints
 jsonid
 k0i0$
@@ -2164,7 +2166,6 @@ ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s
-p0t0x0|0
 pNewResource
 pNewResource->Load( absFilePath )
 parameter must be a string or number / number array.
@@ -2385,16 +2386,14 @@ sv_sv
 swedish
 syntax error 
 t	_^2
-t!hP6
+t!hp6
 t$,RW
-t$QhL8
+t$Qhl8
 t$j$h
-t<hxs
-t?hxp
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-t_h,y
+t_h\y
 target
 targets
 tchinese
@@ -2419,13 +2418,12 @@ tr_tr
 translation
 true literal
 turkish
-txh$o
+txhTo
 u	_^2
-u hxl
-u!h 6
-u#Shh8
-u#hL?
+u!h@6
+u#hl?
 u$WVS
+u&h,i
 u(_^[
 u8j@P
 u<f9C u6f9C0u0f9C@u*f9CPu$
@@ -2448,9 +2446,8 @@ unknown token
 unsupported bit depth
 unsupported data layout
 unsupported format
-uwj	hHn
-uwj	hTn
-uwj	h`n
+uwj	h
+uwj	hxn
 v	N+D$
 v=Y]Bv
 value
@@ -2480,7 +2477,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-y"hp9
+y"h09
 yxxx+
 zh_cn
 zh_tw
@@ -2500,7 +2497,7 @@ znear
 {un'%
 |Lu?c
 |cj#h
-}	jChH
+}	jChx
 }LuHO
 }qj<h
 ~133%4

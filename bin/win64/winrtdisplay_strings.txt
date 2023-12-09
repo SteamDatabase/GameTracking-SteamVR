@@ -117,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204190703Z0/
+231208233336Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -143,13 +143,12 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-;)b*a
+:KN]2Z
 <0:08
 <P)9Y
 <unknown>
 =rIQU
 >0<0:
->@|lB|
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -236,6 +235,7 @@ Intel
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J9bVAU
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -254,7 +254,6 @@ MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
-NK|Q#
 OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -363,10 +362,11 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
+eoen3
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -377,12 +377,14 @@ jj@0HK4
 k0i0$
 l$ WH
 l2|X/gGe
+lXPI\u
 m0k0$
 m_path
 malloc
 memcpy
 memmove
 memset
+n7Z$E
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -398,7 +400,6 @@ tYH9\$`t
 terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
-v=}\`
 vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
@@ -409,6 +410,5 @@ www.digicert.com1$0"
 |$xMi
 |Lu?c
 }LuHO
-~<"~4k
 ~qj#k"
 ~t&LN

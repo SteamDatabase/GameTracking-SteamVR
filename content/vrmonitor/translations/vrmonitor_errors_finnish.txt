@@ -980,5 +980,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Lisätietoja"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Steam Linkin ääni on poistettu käytöstä"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Yksi tai useampi Steamin suoratoistoäänen päätepiste on poistettu käytöstä. Ääni ei toimi Steam Linkin kanssa, elleivät ne ole käytössä."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Äänen ohjauspaneeli"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

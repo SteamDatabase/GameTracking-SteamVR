@@ -998,5 +998,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "รายละเอียดเพิ่มเติม"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=thai#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "ระบบเสียงของ Steam Link ปิดใช้งาน"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "เครื่องเสียงที่สตรีม Steam ตั้งแต่หนึ่งเครื่องขึ้นไปปิดใช้งานอยู่ ระบบเสียงจะไม่ทำงานกับ Steam Link จนกว่าจะเปิดใช้งานเครื่องเหล่านี้"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "แผงควบคุมเสียง"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

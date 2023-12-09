@@ -998,5 +998,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Περισσότερες λεπτομέρειες"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Ο ήχος του Steam Link είναι απενεργοποιημένος"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Ένα ή περισσότερα τερματικά σημεία μετάδοσης ήχου Steam είναι απενεργοποιημένα. Ο ήχος δεν θα λειτουργεί με το Steam Link εκτός και αν ενεργοποιηθούν."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Πίνακας ελέγχου ήχου"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }

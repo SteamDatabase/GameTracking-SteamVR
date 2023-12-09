@@ -15,9 +15,9 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!Rqm<B
 !hn7!
 %%.%dg
-%W#4-
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -182,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204191610Z0/
+231208234305Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -341,7 +341,6 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
-CRvbCQ
 CT$(L
 CT$0H
 CT$0I
@@ -520,7 +519,6 @@ GetWindowRect
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
-Gg/zP
 GraphicsCaptureSession is not supported.
 H!C@H
 H+SpI
@@ -560,6 +558,7 @@ Handling scroll smooth
 Handling unlock mouse
 HcFdH
 HeapFree
+HziQ|.!
 I9Bhs
 I;4$H
 I;4$L
@@ -653,7 +652,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
-N\^H0
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -796,6 +794,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+X>-59z
 Y9"SD
 [K]taM?
 \$ E3
@@ -892,11 +891,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
@@ -1013,7 +1012,6 @@ romanian
 ru_ru
 running
 russian
-sYA'U
 schinese
 shcore.dll
 shutdown
@@ -1083,7 +1081,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-z%ne%
+xjS3S
 zh_cn
 zh_tw
 {un'%
@@ -1103,6 +1101,7 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
+}?N2*
 }LuHO
 ~qj#k"
 ~t&LN

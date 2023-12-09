@@ -73,6 +73,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR Safe Mode (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Steam Beta Client Required (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Steam Client Update Required (0x80000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" "Steam Streaming Audio Device Disabled (0x100000000000)"
 
 "DismissableWarning_Detected" "Detected"
 "DismissableWarning_TimeFormat" "h:mm AP"

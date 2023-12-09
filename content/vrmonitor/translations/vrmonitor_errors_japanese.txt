@@ -977,5 +977,10 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "詳細"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Steamリンクオーディオが無効になっています"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "1つ以上のSteamストリーミングオーディオデバイスが無効になっています。これらのデバイスが有効ではない場合、Steamリンクオーディオは機能しません。"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "サウンドコントロールパネル"
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
 }
 }
