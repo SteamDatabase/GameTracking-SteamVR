@@ -66,7 +66,7 @@
 "DismissableWarning_SteamVRInSafeMode" "SteamVR in veilige modus (0x1000000)"
 "DismissableWarning_SteamBetaNeeded" "Bèta van de Steam-client vereist (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Update van de Steam-client vereist (0x80000000000)"
-"DismissableWarning_SteamStreamingAudioEndpointDisabled" " Audio-apparaat voor Steam Link uitgeschakeld. (0x100000000000)"
+"DismissableWarning_SteamStreamingAudioEndpointDisabled" " Audio-apparaat voor Steam-streaming uitgeschakeld. (0x100000000000)"
 
 "DismissableWarning_Detected" "Gedetecteerd"
 "DismissableWarning_TimeFormat" "h:mm:ss"

@@ -3,9 +3,9 @@
  A__^
  H3E H3E
 !hn7!
-&h@]Q/
+$+yB1
+&xE0xl
 ',=?k
-(.wm?
 (D$ f
 (f*^[0
 (|$pL
@@ -99,13 +99,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231208233611Z0/
+231221220130Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2t!XE
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -123,7 +122,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-:`>f&
+:vv4M
 <0:08
 =rIQU
 >0<0:
@@ -262,7 +261,6 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-X$`W|l
 Y9"SD
 [K]taM?
 \$ UH
@@ -305,13 +303,14 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`3I',
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -323,6 +322,7 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
+mPl`3
 malloc
 map/set<T> too long
 memcpy
@@ -330,6 +330,7 @@ memmove
 memset
 ntelD
 p WAVAWH
+p,2TN
 string too long
 t$ AVH
 t$ AWH

@@ -218,6 +218,7 @@
         "theaterScreenHeightMeters": 2.0,
         "theaterModeBrightness": 0.5,
         "theaterModeReflection": 0.5,
+        "theaterModeSharpness": 0.5,
         "enableLTCReflections": true,
         "inputCaptureEnabled": false,
         "allowSteamOverlays": true,

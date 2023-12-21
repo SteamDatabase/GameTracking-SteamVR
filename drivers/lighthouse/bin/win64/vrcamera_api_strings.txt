@@ -3,6 +3,7 @@
 																									
 																												
 	!s99
+	l\<>]B
   GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
   GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
   SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
@@ -35,7 +36,6 @@
  sIE3
 !T$(H!T$ 
 !hn7!
-"3Z~U
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -87,6 +87,7 @@ $< t6<$t,<+t"<vt
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
 ,t0D9J0v*L
+,vvNv
 .00cfg
 .8\$!t.9\
 .?AUIAMovieSetup@@
@@ -372,6 +373,7 @@ $< t6<$t,<+t"<vt
 0A__^[]
 0w0c1
 0}0i1
+1#E&/
 130801120000Z
 1eaB@
 210429000000Z
@@ -379,7 +381,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231208233447Z0/
+231221220012Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -391,6 +393,7 @@ $< t6<$t,<+t"<vt
 370322235959Z0c1
 380115120000Z0b1
 3A8A#
+3K5]f
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -431,13 +434,13 @@ $< t6<$t,<+t"<vt
 9_P~OE3
 9{D~H3
 :AM:am:PM:pm
-:JP"_
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
 :L$"u
 :O	t	H
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+:TrZ_;
 :\uDL
 ;A$vTH
 ;B$vUH
@@ -659,6 +662,7 @@ A_A^_^[]
 A_A^_^]
 A`D9L8
 AcquireSRWLockExclusive
+AmqWrl
 Applying depth format 
 Applying first frame camera configuration options...
 AuthD
@@ -851,7 +855,6 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Dl$8E
 DuplicateHandle
-DvK8b
 DynamicProgressFeedback
 E HcH
 E+BhIcBhM
@@ -863,7 +866,6 @@ E;Bl}DM
 EI2C support not yet implemented
 EPHc@
 ET$(H
-E`",A
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
@@ -1096,6 +1098,7 @@ M H1E
 M'H9E
 MB(iVR
 MJPEG color format is not yet implemented.
+MSzK	
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
@@ -1126,7 +1129,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSl
+RSDSfu
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1182,7 +1185,6 @@ T$PH;
 T$PI+
 T$`H+
 T$pE3
-TJ!-$
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1266,7 +1268,6 @@ Y$D;R
 Y0t>H
 Y9"SD
 Z(D9Z
-Z]h^[
 [@D8}oteH
 [K]taM?
 \$ UH
@@ -1347,7 +1348,6 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
-`;<:+J
 `A]_^[]
 `A^_^][
 `A_A^A]A\_^]
@@ -1384,7 +1384,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 calloc
 cntrl
 connection aborted
@@ -1554,6 +1554,7 @@ q(9qD~[E3
 r	uAD;d$$u:
 rBu/H
 rLp>B
+rT<^0k
 raB3G
 read only file system
 realloc

@@ -621,7 +621,7 @@
 "Popover_Off_Controller_Description" "Asegúrate de que esté activado y cerca."
 "Popover_Off_Controller_Action" "Más información"
 "Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=spanish#controllers"
-"Popover_Off_Controller_FirstAction" "Emparejar mando"
+"Popover_Off_Controller_FirstAction" "Emparejar control"
 "Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
 
 "Popover_Off_Base_Header" "Estación base no detectada"
@@ -855,12 +855,12 @@
 "Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
 
 "Warning_DismissableWarning_IssuesWithOneDongle_Header" "Error de visor"
-"Warning_DismissableWarning_IssuesWithOneDongle_Description" "No se ha detectado uno de los receptores inalámbricos de tu visor. Esto puede causar problemas de conexión con tus mandos de RV."
+"Warning_DismissableWarning_IssuesWithOneDongle_Description" "No se ha detectado uno de los receptores inalámbricos de tu visor. Esto puede causar problemas de conexión con tus controles de RV."
 "Warning_DismissableWarning_IssuesWithOneDongle_Action" "Más información"
 "Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=spanish#wireless-receivers"
 
 "Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Receptores inalámbricos no detectados"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "No se han detectado los receptores inalámbricos de tu visor. Esto puede causar problemas de conexión con tus mandos de RV."
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "No se han detectado los receptores inalámbricos de tu visor. Esto puede causar problemas de conexión con tus controles de RV."
 "Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Más información"
 "Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=spanish#wireless-receivers"
 

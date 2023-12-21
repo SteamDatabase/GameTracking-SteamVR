@@ -68,10 +68,10 @@
 .tls$ZZZ
 .xdata$x
 0 0$0(0H0L0t0
+0 0(0<0D0L0T0X0\0d0x0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
 0!0+030A0K0z0
 0"0*02070=0E0M0R0X0`0h0m0s0{0
-0$0(000D0L0T0\0`0d0l0
 0'141U1Z1s1x1
 0+0-4D4
 0w0c1
@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231208233542Z0/
+231221220101Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -110,6 +110,7 @@
 380115120000Z0b1
 3:3t3
 3<3X3x3
+3T(-Z
 3T4p4
 3mq+<
 3|3F4
@@ -160,7 +161,6 @@
 94?8?<?@?D?H?L?P?T?X?x?|?
 9@9I9R9`9i9|9]:}:
 9A9X9t9
-9Csm 
 9X;h;
 :$:-:6:?:D:I:P:`:
 :':2:H:u:
@@ -181,27 +181,27 @@
 <0:08
 <V>a>|>
 =&=2=;=@=F=P=Z=j=z=
-=<=`=l=t=
+=4=X=d=l=
+=GuWC<
 =P>h>l>
-=Y}Ose
 =]=f=o=x=}=
 =j)h8
 =j=r=
 =rIQU
 >">)>1>6><>D>L>Q>W>_>g>l>r>z>
->$>D>h>t>|>
 >0<0:
 >0><>B>H>N>T>Z>`>f>l>r>x>~>
 >2>T>^>g>r>x>~>
+><>`>l>t>
 ><?B?P?\?
 >@>O>b>n>~>
 >Mp$d
 >X?e?
 >Y>_>t>}>
 ? ?&?,?A?Q?a?q?
-? ?D?P?X?
 ?$?)?/?7???D?J?R?Z?_?e?m?u?z?
 ?:?m?v?
+?<?H?P?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -209,6 +209,7 @@
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
+A,]JB_;
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -248,7 +249,6 @@ GetModuleHandleExW
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-G{A$aK
 H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
@@ -294,10 +294,8 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJ&kcY
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS+[
 RaiseException
 S0Q0O
 SA|X=G
@@ -332,13 +330,13 @@ VR_OVERRIDE
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-WF,a$
 WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
+ZIWvb
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -393,7 +391,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
 dk2_camera
@@ -464,7 +462,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-rD"?+v
 startup
 string too long
 strncpy

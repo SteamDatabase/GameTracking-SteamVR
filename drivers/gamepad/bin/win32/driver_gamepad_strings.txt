@@ -1,9 +1,11 @@
 	!s99
  %41g
 !hn7!
+&560/geL
 ',=?k
 (f*^[0
 +Xt@(
++ZoQn
 +o'q)}
 ,W5y+
 .00cfg
@@ -103,13 +105,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231208233520Z0/
+231221220039Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3$3H3T3\3|3
 311109235959Z0b1
 324C4
 341013235959Z0H1
@@ -118,17 +119,18 @@
 370322235959Z0c1
 380115120000Z0b1
 383P3l3
+3@3L3T3t3
 3J3Y3h3
 3f3w3
 3mq+<
 4 4$4(4,404
-4,4P4\4d4
+4$4H4T4\4|4
 4I4R4c4o4{4
 4[4~4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5	6D6Y6b6n6
 5+545?5F5f5l5r5x5~5
-545X5d5l5
+5,5P5\5d5
 585E5O5Y5f5s5y5
 5FjiT
 5Genu
@@ -138,14 +140,14 @@
 6!6*646=6K6T6]6f6s6
 6!616:6I6O6U6[6a6g6m6s6y6
 6*f(_
-6<6`6l6t6
+646X6d6l6
 6D6Z6
 6I]Dc
 6OB,n_
-7 7@7`7|7
 7!7'7-73797?7E7K7Q7a7q7
 7/8X8g8z8
 70503
+787X7t7x7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8!8<8R8[8`8j8t8~8
 8%80868<8C8
@@ -157,7 +159,6 @@
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
-:Mr1	Mj
 ;!;J<
 ;'<1<;<M<e<
 ;@;W;`;i;r;w;|;
@@ -187,7 +188,6 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-B[A:NC
 Bellevue1
 CloseHandle
 CreateEventW
@@ -240,7 +240,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Nf\&GU
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -337,11 +336,14 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
+b<XeVV
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
+c6&!rs
+c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
-g3iD-
+gR#(}
+g_B^H
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -356,7 +358,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-se,>@
 string too long
 terminate
 uCVj@

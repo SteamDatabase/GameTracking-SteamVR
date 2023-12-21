@@ -28,6 +28,7 @@
 %,3:;4-&
 %9k0t
 %9{0t
+%eCJ)
 &9k0t
 &D9c0t
 &D9k0t
@@ -57,7 +58,6 @@
 )t$0H
 )|$ H
 )|$@f
-+1:+3
 +Xt@(
 +o'q)}
 , last executing in 
@@ -178,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231208233452Z0/
+231221220016Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -240,7 +240,6 @@
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
-?b?Xd
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
@@ -458,7 +457,6 @@ MainThrd
 MbP?{
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Mo0CM
 Not Available
 NotFound
 Out of thread local storage!
@@ -583,6 +581,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+Xoi[	
 Y9"SD
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -597,6 +596,7 @@ Z9k0tUD
 \$PfD
 \$XLc
 \$pfD
+\&ASq
 ]9k0tVD
 ]J<0"0i3
 ]g@8yhu
@@ -702,10 +702,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate

@@ -15,6 +15,7 @@
 (f*^[0
 +Xt@(
 +o'q)}
+,Ej15
 ,W5y+
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -112,12 +113,13 @@
 0}0i1
 1.0.0
 130801120000Z
+1gm}yE
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231208233336Z0/
+231221215909Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -143,7 +145,6 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-:KN]2Z
 <0:08
 <P)9Y
 <unknown>
@@ -235,7 +236,6 @@ Intel
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J9bVAU
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -362,11 +362,10 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
+c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
-eoen3
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -377,16 +376,15 @@ jj@0HK4
 k0i0$
 l$ WH
 l2|X/gGe
-lXPI\u
 m0k0$
 m_path
 malloc
 memcpy
 memmove
 memset
-n7Z$E
 ntelD
 ole32.dll
+ou>dc
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy

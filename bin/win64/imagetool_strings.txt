@@ -1639,7 +1639,6 @@
 "5<"!
 "<~$B
 "?8N"?g}"?
-"Rl6Y
 "WA`7h
 "p#*$
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
@@ -3719,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231208233754Z0/
+231221220318Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3888,6 +3887,7 @@ $wtpt
 595x842
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
+5:,/DB
 5?rM5?
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -4560,7 +4560,6 @@ $wtpt
 ?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\feature.c
 ?ffffff
 ?gibQ^AX>
-?gj	6
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?k)T|F
 ?linkdama fechtuotojo 
@@ -5573,7 +5572,6 @@ BSCALE  =         %E
 BT$hH
 BX9BHu
 BXOA(
-BY]dh]O
 BZERO   =         %E
 B\|V\I
 B^rC^N
@@ -11754,7 +11752,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSc'<
+RSDS^
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14522,6 +14520,7 @@ Zoom Select Status
 ^5TQ0
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
+^Vzh$V
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
@@ -15013,7 +15012,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -15288,7 +15287,6 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
-cWV$h
 cache
 cache != NULL
 cache:%s
@@ -15802,6 +15800,7 @@ e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
 eC}gc}m
+eGOW@
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
 eXXXX
@@ -15906,7 +15905,6 @@ esheet
 ethiopic
 euc-jp
 euc-kr
-ew3Y4
 ewh/?y
 exact
 exceeds application limits
@@ -17092,7 +17090,6 @@ gview
 g{eWgL330551883=<6DC9GG>JI;MI6IE7MHJH@9E;+C9-?80>83=71>94@=9IA6P@-H?-K81C745=0@?/
 h	x\[`
 h VWAUAVAWH
-h(2BB
 h4tF9k
 h4tH9k
 h7CM*
@@ -20794,6 +20791,7 @@ xpm_%.1024s
 xps:cmyk
 xps:color
 xps:mono
+xr=*`A
 xx-large
 xx-small
 y H+y
@@ -21126,8 +21124,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }>A+]dx8;
 }LuHO
 }Qfff
-}S8<+5
-}Z-}=
 }b>G:c>
 }ifff
 }mxQ>

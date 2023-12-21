@@ -1,9 +1,9 @@
 	!s99
  %41g
- )W*pq
 !hn7!
 ',=?k
 (f*^[0
+*x|U[
 +Xt@(
 +o'q)}
 ,W5y+
@@ -86,14 +86,16 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231208233535Z0/
+231221220054Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2]x|G
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2sk4PU	'\
 3.3T3k3
 311109235959Z0b1
 341013235959Z0H1
@@ -145,15 +147,13 @@
 >/>H>
 >0<0:
 >Mp$d
-? ?<?@?\?`?h?p?x?|?
 ? ?d?m?v?
+?4?8?T?X?`?h?p?t?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-B^K)\:
 Bellevue1
-DLMG,
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -162,13 +162,14 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E^r81
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
-I)H?=
+I"*_.
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -200,6 +201,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS4vB
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -214,7 +216,7 @@ Valve Corp.1
 Washington1
 Y9"SD
 Y__^[
-Z^:hj}
+Z R@0B
 [K]taM?
 ]J<0"0i3
 _CxxThrowException
@@ -253,8 +255,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-bouV'
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
@@ -270,6 +271,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i'Buj
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -294,9 +296,10 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-{RzOF
 {un'%
 |Lu?c
 }LuHO
+}o- c
+}z@}KR(9p
 ~qj#k"
 ~t&LN

@@ -339,6 +339,7 @@ $tI
 (cal)
 (cannot determine missing fields for lite message)
 (does the path point to a directory?)
+(generation changed)
 (merge
 (object had no JSON IMU cal)
 (right sync)
@@ -2496,11 +2497,11 @@ $tI
 20CLighthouseHmdDriver
 20IVRAudioNotification
 21
+21:58:19
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
-23:32:14
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -4264,7 +4265,7 @@ Dd
 De
 DebugDriverLog(char const*, ...)
 Dec
-Dec  8 2023
+Dec 21 2023
 December
 DeclareCurrentThreadIsMainThread
 Default value for an enum field must be an identifier.
@@ -6878,11 +6879,9 @@ Unable to write VR path registry to %s
 Unable to write database version %u to file %s
 Unable to write path registry (113)
 Unable to write size of config
-Unexpected backwards sync by %.3fms S-%d
 Unexpected centroid ordering error %.3fms S-%d
 Unexpected end of string.
 Unexpected failure while serializing option submessage
-Unexpected sample before sync by %.3fms S-%d
 Unidentified
 Unimplemented type:
 Uninitialized

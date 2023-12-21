@@ -228,7 +228,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231208233501Z0/
+231221220024Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -243,6 +243,7 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5`&6`,
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 666666666666666666666666666666666666666666666666666666666666
@@ -270,6 +271,7 @@
 ======================
 ==============================
 => Entering Context
+=kML+
 =rIQU
 >"t H
 >"t-H
@@ -781,7 +783,6 @@ Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
 O(H9N(|
-OS3i*b{
 OXL9OPt
 OpenProcess
 Out of thread local storage!
@@ -806,7 +807,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDS\
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1145,7 +1145,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
 cw~Hc
@@ -1155,10 +1155,8 @@ d$@HcH
 d$`H=
 dat_file
 data error
-dc}`,R;4Y
 deque<T> too long
 digit
-e@Wo:
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1222,6 +1220,7 @@ l$PM9n
 l$pM+
 l2|X/gGe
 lighthouse
+ljTl0
 lower
 m0k0$
 malloc
@@ -1241,12 +1240,11 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
+pm4mR
 print
 punct
 r*=/N
-r6b	$
 r9=/N
-rD}E(
 realloc
 runas
 s#fff
@@ -1309,6 +1307,7 @@ tAy&H
 tB-"N
 tS@8uw
 tXfff
+t_F%,
 too many length or distance symbols
 tools
 u D8u
@@ -1337,7 +1336,6 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
-z&%bIDxtn
 {un'%
 {x\u!H
 {|?uWH

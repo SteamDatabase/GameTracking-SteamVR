@@ -450,7 +450,7 @@
   "InputDebugger_Suppressed": "Suprimido",
   "InputDebugger_Priority_Overlay": "Global + %1$s",
   "BindingUI_WindowTitle_ControllerSettings": "Ajustes del control",
-  "BindingUI_WindowTitle_ControllerBinding": "Asignaciones del mando",
+  "BindingUI_WindowTitle_ControllerBinding": "Asignaciones del control",
   "BindingUI_WindowTitle_DisplaySettings": "Configuración de pantalla",
   "ActionManifestError_UnknownError": "No se pudo cargar el manifiesto de acciones. Intenta iniciar primero la aplicación.",
   "TrackerEditor_Title": "Administrar rastreadores",

@@ -1,6 +1,7 @@
 																																																																																																																
 	!s99
  %41g
+!%I:9
 !(0)"
 !9~ t
 !hn7!
@@ -22,7 +23,6 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-)g(tI;.Jy
 +Xt@(
 +o'q)}
 , last executing in 
@@ -129,10 +129,10 @@ $9^ t
 0 width
 0!0%0+050?0F0P0Z0a0k0
 0#0*050B0L0R0
-0$0(080<0@0H0`0p0t0
 0%1.161r1
 0&0v0
 0'1.1
+0(0,00080P0`0d0t0x0|0
 0(020B0M0n0~0
 0(1,1
 0-pixel image
@@ -143,7 +143,7 @@ $9^ t
 0`0u0
 0w0c1
 0}0i1
-1 1$1(101H1L1d1t1x1
+1 181<1T1d1h1|1
 1"1,161
 1.1>1H1R1b1m1
 1/2/4/8/16-bit only
@@ -160,7 +160,7 @@ $9^ t
 2 2$2(2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$2(202H2X2\2l2p2
+2 282H2L2\2`2p2t2|2
 2!2/2I2}2
 2"2-2N2^2h2r2
 2#2(222C2H2R2c2h2r2
@@ -173,7 +173,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231208233433Z0/
+231221215956Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -185,12 +185,12 @@ $9^ t
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2z3~3
 3 3$3(3,3034383<3@3D3H3T3
-3 3(3@3D3\3l3p3t3x3|3
 3 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5
 3#3(3-32373<3A3F3K3P3c3h3r3
 3&303:3D3N3X3b3l3v3
 3&3g3
 3(323B3M3n3~3
+30343L3\3`3d3h3l3t3
 311109235959Z0b1
 313N3
 341013235959Z0H1
@@ -207,10 +207,10 @@ $9^ t
 3mq+<
 4	5'5/5d5
 4 4$4(4,4m5q5
-4 4(4@4P4T4X4\4`4d4l4
 4#4(424C4H4R4c4h4r4
 4,4E4L4e4l4
 4.4>4H4R4b4m4
+404@4D4H4L4P4T4\4t4
 415D5M5R5r5S6f6l6
 424c4g4
 4?6H6O6
@@ -219,7 +219,7 @@ $9^ t
 5!5&5+505A5K5Q5U5[5_5e5p5x5
 5"5-5N5^5h5r5
 5%656b7
-5(585<5L5P5X5p5
+5(5,5<5@5H5`5p5t5
 5.5=6D6
 5/54595@5Y5`5y5~5
 5?5E5K5Q5W5]5d5k5r5y5
@@ -233,10 +233,9 @@ $9^ t
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-6 6$6064686<6@6D6H6p8t8x8|8
+6 6$6(6,6064686X8\8`8d8h8l8p8
 6 7I7b7u7
 6!6+696B6l6
-6"x<p
 6#6(626C6H6R6c6h6r6
 6'6.6G6N6g6n6
 6(626A6Q6a6m6s6
@@ -267,13 +266,12 @@ $9^ t
 7o7 9$9Z9^9m9q9
 8"8p8
 8#8(828C8H8R8c8h8r8
-8(:,:0:
 8*868U8Z8k8q8v8
 8,838N8k8
 8,8G8Q8b8m8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8SVWhl
+8SVWh\
 8W=`=d=t=}=
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -287,12 +285,13 @@ $9^ t
 949l9
 9>:D:^:$;
 9_lt\
+: ;,;4;L;P;`;
 :#:(:-:2:7:<:A:F:K:P:a:f:k:p:u:z:
 :#;W;
+:$:,:L:p:|:
 :(:2:B:M:n:~:
 :*:2:<:H:P:T:a:e:
 :+:/:
-:0:<:D:d:
 :3:X:}:
 :;:w:
 :>;D;V;\;m;r;
@@ -301,7 +300,7 @@ $9^ t
 :X;{;
 :\<L=
 :y<}<
-; ;$;(;,;0;4;
+; ;$;
 ; <$<(<,<0<4<8<<<@<D<
 ;!;+;=;U;
 ;#;-;C;M;a;o;t;
@@ -311,20 +310,20 @@ $9^ t
 ;-<x<
 ;.;>;H;R;b;m;
 ;1<d<
-;8;D;L;d;h;x;
 ;?<R<u<1=>=Y=
 ;C<W<|<
+;x<|<
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
 <"<-<N<^<h<r<
-<$<D<h<t<|<
-<$=(=H=h=
+<,<P<\<d<|<
 <0:08
 <_=r=
 <unknown>
 =(=2=B=M=n=~=
 =*=u=y=
 =,=L=l=
+=0=P=l=p=x=
 =1=A=Q=]=i=s=
 =b=f=u=y=
 =rIQU
@@ -338,10 +337,10 @@ $9^ t
 >H?Z?`?g?r?
 >Mp$d
 >T>6?
+>X>\>`>d>|>
 >[>c>k>/?7?j?y?
->h>l>p>t>
 ?!?1?7?;?A?E?P?_?r?}?
-?(?8?<?D?\?l?p?x?
+?(?,?4?L?\?`?h?
 ?.?H?h?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
@@ -366,6 +365,7 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
+A0yK 
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -483,13 +483,15 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
+OIFPb
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 P<^_3
 PAq=?Mp#
+PCEG_
 PID_%04X
-PQhh+
+PQhX+
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -643,6 +645,8 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
+`mV&9
+a*lqEpU
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -700,10 +704,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -717,7 +721,6 @@ da_da
 danish
 de_de
 deque<T> too long
-dn:aJG
 el_el
 en_us
 english
@@ -735,7 +738,6 @@ french
 fseek
 german
 greek
-hnP,0
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -810,7 +812,6 @@ strtol
 sv_sv
 swedish
 t"Php
-t1@?4L
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -838,10 +839,8 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
-up<Jb
-v#QPh@
+v#QPh8
 v=Y]Bv
-vWiAI
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )

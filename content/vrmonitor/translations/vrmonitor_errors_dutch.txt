@@ -998,7 +998,7 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=dutch#wired-controller-usage"
 
 "Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Header" "Steam Link-audio is uitgeschakeld."
-"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Een of meer audio-eindpunten voor Steam Link zijn uitgeschakeld. Audio werkt alleen met Steam Link als deze zijn geactiveerd."
+"Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "Een of meer audio-eindpunten voor Steam-streaming zijn uitgeschakeld. Audio werkt alleen met Steam Link als deze zijn geactiveerd."
 "Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Configuratiescherm geluid"
 "Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
 

@@ -2,7 +2,9 @@
 							
 												
 																																												
+		|7h&~]t
 	!s99
+	Um}l
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -41,7 +43,10 @@
  using interface version 
  was not found
  with error 
+!8x,uc
 !hn7!
+"	sA=
+#f~{~
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -86,12 +91,12 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0x1fce4948@@
-.?AVDebuggerLoaderLogRecorder@?A0x1fce4948@@
+.?AVDebugUtilsLogRecorder@?A0xe2804085@@
+.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
-.?AVOstreamLoaderLogRecorder@?A0x1fce4948@@
+.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@
@@ -158,13 +163,12 @@
 0}0i1
 130801120000Z
 1e+9999
-2 {^)
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231208233803Z0/
+231221220326Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -514,7 +518,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
 No active XrInstance handle.
-O3gpt
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
@@ -729,7 +732,7 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
 d$PE3
@@ -792,6 +795,7 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
+i}x$o|%
 jj@0HK4
 k0i0$
 keylength >= 2^30
@@ -823,6 +827,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+q%!c|
 rejectDupKeys
 runtime
 s t#fff
@@ -975,6 +980,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+y5]x 
 {un'%
 |$ ATAVAWH
 |$ AVH

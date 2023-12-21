@@ -610,6 +610,7 @@
 "Advanced_OneThirdFramerate" "One-third framerate"
 "Advanced_DroppedFrame" "Display Error"
 "Advanced_AppRequestedThrottling" "App requested throttling (cpu bound)"
+"Advanced_NetworkLatency" "Network Latency"
 
 "Advanced_DashboardUp" "Dashboard On"
 "Advanced_DashboardDown" "Dashboard Off"
