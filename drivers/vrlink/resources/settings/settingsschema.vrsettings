@@ -124,6 +124,12 @@
                 "advanced_only": true
             },
             {
+                "name": "/settings/driver_vrlink/disableQoS",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_DisableQoS",
+                "advanced_only": true
+            },
+            {
                 "name": "/driver_vrlink/client_version",
                 "control": "label",
                 "label": "#{vrlink}Setting_clientVersion",

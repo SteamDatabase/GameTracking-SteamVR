@@ -589,6 +589,7 @@
 "Advanced_OneThirdFramerate" "1/3 честота на кадрите"
 "Advanced_DroppedFrame" "Екранна грешка"
 "Advanced_AppRequestedThrottling" "Приложението изиска дроселиране (обвързано с процесора)"
+"Advanced_NetworkLatency" "Мрежова латентност"
 
 "Advanced_DashboardUp" "Табло — включено"
 "Advanced_DashboardDown" "Табло — изключено"

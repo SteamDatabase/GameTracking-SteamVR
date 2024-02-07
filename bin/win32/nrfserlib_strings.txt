@@ -8,6 +8,7 @@
 																												
 																																												
 	!s99
+	jd]3
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -17,7 +18,6 @@
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
  %41g
  QP9F
- R84G
  aborted.
  ack#:
  but should be in STATE_START. This state is not valid.
@@ -58,7 +58,6 @@
 !hn7!
 "0)0C0
 "j h4_
-$0[Q>
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -82,8 +81,6 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-*\dF|
-+ hw^
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -96,6 +93,7 @@ $Vh&*
 -Infinity
 -external
 -internal
+-yz+&
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
@@ -712,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231221215959Z0/
+240201010816Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -797,6 +795,7 @@ $Vh&*
 3V4=5
 3d4m4
 3mq+<
+3sG#)
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4$4(4,40444@4D4H4L4P4T4X4t4x4|4
@@ -1092,7 +1091,6 @@ $Vh&*
 9^hve
 9a9t9
 9g:v:
-9j|rXmoFt$
 9s0t2
 9x$tUj
 9x9*:O:
@@ -1746,7 +1744,6 @@ GetSystemTimeAsFileTime
 GetTickCount64
 Gt_^[
 H-^Eu
-H10d7
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
 HTC BS
@@ -1779,6 +1776,7 @@ K(PPW
 K(PQh
 K,+K(+
 K,PQh
+K/&1j
 KERNEL32.dll
 K}*n:	
 L0h364
@@ -1869,7 +1867,6 @@ NRF_ERROR_SOFTDEVICE_NOT_ENABLED
 NRF_ERROR_SVC_HANDLER_MISSING
 NRF_ERROR_TIMEOUT
 NRF_SUCCESS
-Nmq,tjW
 No response from device. Tried to send packet 
 No response to data sent to device.
 Nonce:    %d
@@ -1904,7 +1901,6 @@ PortName
 PostQueuedCompletionStatus
 Power Control
 Progress: %d%% (%d/%d)
-PtB.`
 Pz}b!
 Q0;Q(t#
 QPh@	
@@ -2095,7 +2091,7 @@ WriteFile
 XX.XX.XXXXXXX
 Y9"SD
 Y__^[
-Yhaf'l
+ZVzj%
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -2123,7 +2119,6 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
-_J`Ne
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -2230,6 +2225,7 @@ file error
 floor
 generic
 gfffVW3
+gp(|Z
 graph
 h5_decode error, code: 0x
 h5_transport is in state 
@@ -2268,6 +2264,7 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
+iz}Yd~
 j!hti
 j#h<M
 j$h i

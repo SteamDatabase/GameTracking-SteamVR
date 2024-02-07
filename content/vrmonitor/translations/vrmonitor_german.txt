@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "⅓ Bildfrequenz"
 "Advanced_DroppedFrame" "Anzeigefehler"
 "Advanced_AppRequestedThrottling" "Anwendung hat Geschwindigkeitsbegrenzung angefordert (CPU-gebunden)"
+"Advanced_NetworkLatency" "Netzwerklatenz"
 
 "Advanced_DashboardUp" "Dashboard an"
 "Advanced_DashboardDown" "Dashboard aus"

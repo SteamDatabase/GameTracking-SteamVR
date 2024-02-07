@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "อัตราเฟรม 1/3"
 "Advanced_DroppedFrame" "ข้อผิดพลาดการแสดงผล"
 "Advanced_AppRequestedThrottling" "แอปที่จำเป็นถูกยับยั้งไว้ (ขอบเขต CPU)"
+"Advanced_NetworkLatency" "ความล่าช้าของเครือข่าย"
 
 "Advanced_DashboardUp" "กระดานรวมเปิดอยู่"
 "Advanced_DashboardDown" "กระดานรวมปิดอยู่"

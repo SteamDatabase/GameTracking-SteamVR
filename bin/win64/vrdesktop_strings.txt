@@ -38,7 +38,6 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,#B9?\
 ,W5y+
 -1e+9999
 -Infinity
@@ -158,7 +157,6 @@
 0A_A^_^]
 0A__[
 0w0c1
-0{ Z!r
 0}0i1
 130801120000Z
 1e+9999
@@ -167,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220818Z0/
+240201011633Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -190,6 +188,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+8{MBA
 < t+<
 </u#H
 <0:08
@@ -305,7 +304,6 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
 AttemptSendInput failed.
 AuthD
-B	Tz%q
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -514,6 +512,7 @@ IVRExtendedDisplay_001
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -539,7 +538,6 @@ Initializing desktop view %d.
 Initializing output duplication for desktop view %d.
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Iz3$,Q
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
@@ -600,7 +598,8 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS)`#/
+R3UPv
+RSDS}f
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -710,6 +709,7 @@ Y9"SD
 \u=H;
 ]J<0"0i3
 ]g@8yhu
+^ib^b
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -778,7 +778,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-ch")Q
 cs_cs
 czech
 d$`H=
@@ -861,6 +860,7 @@ message_id
 no_no
 norwegian
 ntelD
+o++bg
 ole32.dll
 openvr_api.dll
 pA_A^A\_^][
@@ -939,6 +939,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+z"N]X
 zh_cn
 zh_tw
 {un'%

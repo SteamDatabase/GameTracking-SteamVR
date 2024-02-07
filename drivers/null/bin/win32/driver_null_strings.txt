@@ -3,7 +3,6 @@
 !hn7!
 ',=?k
 (f*^[0
-*x|U[
 +Xt@(
 +o'q)}
 ,W5y+
@@ -86,16 +85,14 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220054Z0/
+240201010925Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2]x|G
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2sk4PU	'\
 3.3T3k3
 311109235959Z0b1
 341013235959Z0H1
@@ -162,14 +159,13 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E^r81
+E=bb\
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
-I"*_.
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -188,6 +184,7 @@ Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J9.{+
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -201,7 +198,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS4vB
+RSDS96
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -216,7 +213,6 @@ Valve Corp.1
 Washington1
 Y9"SD
 Y__^[
-Z R@0B
 [K]taM?
 ]J<0"0i3
 _CxxThrowException
@@ -271,7 +267,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i'Buj
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -296,10 +291,10 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+{ @uJ7
 {un'%
 |Lu?c
 }LuHO
-}o- c
-}z@}KR(9p
+}gkH%]Zr
 ~qj#k"
 ~t&LN

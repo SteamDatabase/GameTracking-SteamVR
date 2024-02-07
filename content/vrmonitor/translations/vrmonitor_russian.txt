@@ -587,6 +587,7 @@
 "Advanced_OneThirdFramerate" "1/3 частоты кадров"
 "Advanced_DroppedFrame" "Ошибка отображения"
 "Advanced_AppRequestedThrottling" "Ограничение по запросу приложения (связано с ЦП)"
+"Advanced_NetworkLatency" "Задержка сети"
 
 "Advanced_DashboardUp" "Включить панель навигации"
 "Advanced_DashboardDown" "Отключить панель навигации"

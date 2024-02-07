@@ -66,7 +66,6 @@
  times.
  version-number:
 !hn7!
-"Kahb
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -77,6 +76,7 @@
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(7wgm
 (9Q|uWH
 (A^A]A\^
 (A^A]^[
@@ -633,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220020Z0/
+240201010820Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -692,6 +692,7 @@
 ======================
 ==============================
 => Entering Context
+=ZAI$
 =rIQU
 >0<0:
 >Mp$d
@@ -1140,6 +1141,7 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
+D\f=R
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
@@ -1173,7 +1175,6 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
-EEN<{$p
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1238,7 +1239,6 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
-Fuy"{7'
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1518,7 +1518,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS-,
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1752,7 +1751,6 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
-[}U4C
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -1776,7 +1774,6 @@ Zipfile is corrupt or not a zipfile
 \$pI;
 \Device Parameters
 \u=H;
-]+1>I
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
@@ -1862,6 +1859,7 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
+b`[8}
 bad allocation
 bad array new length
 bad cast
@@ -2217,3 +2215,4 @@ xdigit
 ~'HcB
 ~qj#k"
 ~t&LN
+~}k?-

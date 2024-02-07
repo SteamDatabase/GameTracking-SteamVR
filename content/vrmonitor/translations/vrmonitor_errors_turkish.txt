@@ -416,7 +416,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Video Kodlayıcı Hatası"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmeniz gerekebilir."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Video kodlayıcısı yapılandırılamadı. Ekran kartınız desteklenmiyor veya bilgisayarınızın grafik sürücüsünü güncelleştirmeniz gerekiyor olabilir."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Ayrıntılı bilgi"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

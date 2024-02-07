@@ -490,6 +490,7 @@ $+
 0+
 0123456789
 0123456789ABCDEF
+01:05:42
 1
 11CVkTimeline
 12CNonCopyable
@@ -505,7 +506,6 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:58:37
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -1390,7 +1390,6 @@ De
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 Dec
-Dec 21 2023
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex
@@ -1471,6 +1470,7 @@ Failed to wait for shared fd client
 Failed when reading payload of length %u: errno=%d
 FbcE
 Feb
+Feb  1 2024
 February
 File path truncated
 FileSelect(dirent const*)

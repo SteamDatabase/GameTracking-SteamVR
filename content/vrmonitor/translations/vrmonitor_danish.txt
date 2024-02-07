@@ -588,6 +588,7 @@
 "Advanced_OneThirdFramerate" "En tredjedel af normal billedopdateringshastighed"
 "Advanced_DroppedFrame" "Skærmfejl"
 "Advanced_AppRequestedThrottling" "App anmodede om begrænsning (CPU-grænse)"
+"Advanced_NetworkLatency" "Netværksforsinkelse"
 
 "Advanced_DashboardUp" "Instrumentbræt til"
 "Advanced_DashboardDown" "Instrumentbræt fra"

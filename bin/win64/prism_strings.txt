@@ -309,9 +309,7 @@ $9E0u
 %s: unsupported format
 %s: usage must be specified when allocating images
 %u != %zu
-&|v=:l}=
 ',=?k
-'f'Ix
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -532,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231221220039Z0/
+240201010845Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -575,7 +573,6 @@ $9E0u
 ;|$ r
 <0:08
 <P)9Y
-<T;bWg
 <unknown>
 =rIQU
 >0<0:
@@ -2022,6 +2019,7 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+qx\RC
 r+w2H;
 r,fff
 r/w:I
@@ -2075,7 +2073,6 @@ t$PH=
 t$`Li
 t$hH+
 t$lff
-t&t-Gu
 t-fff
 tBfff
 tC8Khu1
@@ -2598,9 +2595,7 @@ yxxxxxxxI+
 |$xIk
 |$xMi
 |6hE3
-|HMf!k
 |Lu?c
-|RK[FD
 }(M98t
 }LuHO
 }`H+}XH

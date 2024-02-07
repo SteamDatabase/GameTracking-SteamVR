@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@`_
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -134,7 +134,8 @@
 #OriginString_HandSource
 #OriginString_Source
 $IL+Q
-$tI(knN
+$tI(knN"
+$u0Hi
 $u=Hi
 $u^Hi
 $w!Hc
@@ -410,12 +411,10 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%	{*
-(%5$#
 ()$^.*+?[]|\-{},:=!
-(5=##
+(5z"#
 (9Q|uWH
-(=h('
+(=X/'
 (A\^][
 (A\_^[
 (A]_^[
@@ -651,6 +650,7 @@ $w!Hc
 -Infinity
 -S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 -disablewatchdogs
+-lang="
 -nokillprocess
 -personality_distort
 -preloadonly -preloadvpks_all
@@ -929,6 +929,8 @@ $w!Hc
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_016@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_017@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_018@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_019@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_020@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -1452,6 +1454,8 @@ $w!Hc
 .?AVCVRSteamPrivate_016@@
 .?AVCVRSteamPrivate_017@@
 .?AVCVRSteamPrivate_018@@
+.?AVCVRSteamPrivate_019@@
+.?AVCVRSteamPrivate_020@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1557,6 +1561,7 @@ $w!Hc
 .?AVIVRMCStore@vr@@
 .?AVIVRMailbox@vr@@
 .?AVIVRNotifications@vr@@
+.?AVIVRNotificationsInternal@vr@@
 .?AVIVROverlay@vr@@
 .?AVIVROverlayInternal@vr@@
 .?AVIVROverlayView@vr@@
@@ -1589,6 +1594,8 @@ $w!Hc
 .?AVIVRSteamPrivate_017@vr@@
 .?AVIVRSteamPrivate_018@vr@@
 .?AVIVRSteamPrivate_019@vr@@
+.?AVIVRSteamPrivate_020@vr@@
+.?AVIVRSteamPrivate_021@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1709,6 +1716,7 @@ $w!Hc
 .xdata$x
 //==============================================================================================
 /9{0t'H
+/=^@)
 /a/click
 /a/touch
 /actions/
@@ -2078,7 +2086,6 @@ $w!Hc
 0A__^
 0D9c0t'H
 0I;T$ H
-0v7$p
 0w0c1
 0}0i1
 1.0.3.16
@@ -2091,8 +2098,8 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231221220728Z0/
 2333333
+240201011544Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2211,11 +2218,11 @@ $w!Hc
 :\u6L
 ; expected 
 ; last read: '
-;'roQ
 ;C$u	A
 ;I#F0H
 ;K sMH
 ;K sOH
+;X?CH=TQ
 ;t:=x3
 ;u"E3
 ;|$ r
@@ -2409,6 +2416,7 @@ $w!Hc
 @A_A^A]A\_^[
 @A_A^A]A\_^]
 @A_A^A]_[
+@A_A^]
 @A_A^^
 @A_A^_
 @A_A^_^]
@@ -2446,6 +2454,7 @@ $w!Hc
 @SVWAVAWH
 @SVWAWH
 @SVWH
+@SWATH
 @SWAUAVAWH
 @SWAUH
 @SWAVAWH
@@ -2796,7 +2805,6 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-~0)
 C0L9$
 C0L;E
 C0L;F
@@ -3188,6 +3196,7 @@ CVRNotificationsLatest
 CVROverlayLatest::SetOverlayTextureXR
 CVRReplyMailbox requires that the user only specify a group name so the full name can be unique: %s
 CVRSteamPrivate::HideDashboard
+CVRSteamPrivate::SwitchToDashboardOverlay
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateBuffer
@@ -3483,7 +3492,6 @@ D$@Hk
 D$@I;
 D$@L;
 D$@M+
-D$@Y\
 D$@fA
 D$@u'H
 D$Auk
@@ -3526,6 +3534,7 @@ D$XH;
 D$XHc
 D$XI+
 D$XIk
+D$XY\
 D$Xy3
 D$`E3
 D$`H+
@@ -3575,11 +3584,12 @@ D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
 D8,8u
-D8-a='
+D8-U7'
 D8/u0
 D840u
 D84;u
 D8<>u
+D8=Y7
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3587,11 +3597,11 @@ D8fht/H
 D8o)tJ
 D8o)tU
 D8ppty
-D8u<uNH
 D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
+D9!t/
 D90uGH
 D989D9XH
 D9>u:H
@@ -4144,6 +4154,7 @@ GetProcAddress
 GetProcAddress( "D3D11On12CreateDevice" ) failed.
 GetProcessHeap
 GetProcessId
+GetReferenceSpaceFromRaw: Failed to fetch transform for specified reference space type
 GetSystemDirectoryW
 GetSystemTime
 GetSystemTimeAsFileTime
@@ -4277,11 +4288,9 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=.5"
-H;=T:6
-H;=z:6
-H;=z]!
-H;=~)"
+H;= H6
+H;=:]!
+H;=FH6
 H;A s
 H;Axt
 H;C(v
@@ -4685,6 +4694,8 @@ IVRSteamPrivate_016
 IVRSteamPrivate_017
 IVRSteamPrivate_018
 IVRSteamPrivate_019
+IVRSteamPrivate_020
+IVRSteamPrivate_021
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID
@@ -4982,8 +4993,6 @@ L9 t'H
 L90t	H
 L93t	H
 L97u0H
-L9=-R
-L9=SR
 L9?u,H
 L9@ s
 L9A r
@@ -5167,7 +5176,6 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
-NHW6Rr
 NL$`I
 NORMAL
 NOT_READY
@@ -5201,6 +5209,7 @@ Not writing boolean value because it didn't change
 Not writing scalar value because it couldn't be read
 Not writing scalar value because it didn't change
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
+Nw#aO
 O(H9Q
 O0H9Q
 OPAQUE
@@ -5505,7 +5514,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS6`
+RSDS4
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5954,7 +5963,6 @@ USVWAUH
 USVWAVAWH
 USVWAVAWI
 USVWAVH
-USVWAVI
 USVWH
 USWATAUAVAWH
 USWATAUAWH
@@ -6383,10 +6391,13 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SeatedZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL.
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL_FLOOR_EXT.
+VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_STAGE.
 VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
@@ -6687,6 +6698,7 @@ VRRenderModelError_MultipleTextures (305)
 VRRenderModelError_NoShapes (302)
 VRRenderModelError_None (0)
 VRRenderModelError_TooManyVertices (304)
+VRSettingsError_AccessDenied
 VRSettingsError_IPCFailed
 VRSettingsError_None
 VRSettingsError_ReadFailed
@@ -6722,7 +6734,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
-VR_Compositor_OverlayVSync
+VR_Compositor_OverlayVSync1
 VR_CvTrackedHmdInternalNewRequestEvent
 VR_CvTrackedHmdInternalRequestProcessedEvent
 VR_CvTrackedHmdMutex
@@ -6799,6 +6811,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
+W%{1)
 W0H;C
 W4H;C
 W8H+W`I
@@ -6862,8 +6875,6 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X-\J#
-X5B#"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -6969,6 +6980,7 @@ XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hp_mixed_reality_controller
+XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_win32_appcontainer_compatible
 XR_FB_display_refresh_rate
@@ -7005,6 +7017,7 @@ XR_SESSION_STATE_VISIBLE
 XR_SPACE_BOUNDS_UNAVAILABLE
 XR_STRUCTURE_TYPE_MAX_ENUM
 XR_SUCCESS
+XR_SWAPCHAIN_USAGE_SAMPLED_BIT not specified with a non-depth stencil swapchain, assuming it is
 XR_TIMEOUT_EXPIRED
 XR_TYPE_ACTIONS_SYNC_INFO
 XR_TYPE_ACTION_CREATE_INFO
@@ -7330,9 +7343,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-Di#
+Y5>A)
+Y5hl"
+Y5qT"
 Y9"SD
-Y=y3)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7661,7 +7675,6 @@ ZvFailed to create fence %ls.
 \$@D;
 \$@H;
 \$@I;
-\$@Li
 \$@u"H
 \$HE3
 \$HH9Q
@@ -7870,7 +7883,6 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-`x@SH
 a7hIw
 abort
 accessor[
@@ -8016,7 +8028,6 @@ boolean_or
 boolean_threshold
 boolean_toggle
 brazilian
-bsPsQ0
 bsearch_s
 buffer
 bufferView
@@ -8910,6 +8921,8 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
+o5?",
+o5K ,
 o@@fD
 oD$ fD
 oD$0f
@@ -9012,7 +9025,6 @@ pTextureHandle != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-pZEG&
 parameter must be a string or number / number array.
 parameters
 parse
@@ -9583,6 +9595,7 @@ suppressedByPriority
 sv_sv
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
+switch_dashboard_overlay_requested
 sxr_xrAcquireSwapchainImage
 sxr_xrApplyHapticFeedback
 sxr_xrAttachSessionActionSets
@@ -10679,7 +10692,6 @@ xrclient_conformance
 xrconformance/driver
 xxxxxxx
 yPDX10
-yRJRik
 y_path
 yxxxxxxx3
 yxxxxxxxH

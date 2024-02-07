@@ -3,8 +3,8 @@
  A__^
  H3E H3E
 !hn7!
-$+yB1
-&xE0xl
+"ZA}4(
+%5},jIa
 ',=?k
 (D$ f
 (f*^[0
@@ -90,6 +90,7 @@ $+yB1
 /input/x/click
 /input/y/click
 /output/haptic
+02cnhx
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -99,7 +100,7 @@ $+yB1
 220323000000Z
 220801000000Z
 230714000000Z
-231221220130Z0/
+240201010949Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -122,7 +123,6 @@ $+yB1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-:vv4M
 <0:08
 =rIQU
 >0<0:
@@ -191,6 +191,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+I~PT%
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -303,7 +304,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`3I',
+`}SN*
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -322,7 +323,6 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
-mPl`3
 malloc
 map/set<T> too long
 memcpy
@@ -330,7 +330,6 @@ memmove
 memset
 ntelD
 p WAVAWH
-p,2TN
 string too long
 t$ AVH
 t$ AWH

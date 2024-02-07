@@ -589,6 +589,7 @@
 "Advanced_OneThirdFramerate" "O treime din rata de cadre"
 "Advanced_DroppedFrame" "Eroare de afișare"
 "Advanced_AppRequestedThrottling" "Limitare cerută de aplicație (legat de procesor)"
+"Advanced_NetworkLatency" "Latența rețelei"
 
 "Advanced_DashboardUp" "Panoul de control - Activat"
 "Advanced_DashboardDown" "Panoul de control - Dezactivat"

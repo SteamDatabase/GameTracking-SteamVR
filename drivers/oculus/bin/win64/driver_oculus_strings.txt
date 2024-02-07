@@ -22,6 +22,7 @@
 		"seated" : {
 		"standing" : {
 	!s99
+	$;$x
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	D$HA
@@ -460,14 +461,13 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231221220248Z0/
 2333333
+240201011116Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2iBP+
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -490,7 +490,6 @@ $w!Hc
 8A^A\
 8D$!t
 8D$#u
-8D(ub
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -759,7 +758,6 @@ C D8{
 C(H9C0t
 C0L9$
 C8H+C0H
-C<KXem
 CAnimResource
 CBoneMaskResource
 CD$03
@@ -781,7 +779,6 @@ CKeyframedDataResource
 CL$0A
 CL$0H
 CL$PH
-CN1Im
 COLOR
 COculusHmdLatest::UpdateThread
 CT$ H
@@ -1093,6 +1090,7 @@ IVRExtendedDisplay_001
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -1285,9 +1283,8 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
-R+tm{
 RPCRT4.dll
-RSDS.-
+RSDSw
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1688,6 +1685,7 @@ bad zlib header
 baseColorFactor
 baseColorTexture
 bg_bg
+bohjx|5|1
 bonemask_grip.txt
 bonemask_index.txt
 bonemask_indexcurl.txt
@@ -1779,6 +1777,7 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
+f"YG|L
 fD9	u
 fD9&u
 false
@@ -1800,6 +1799,7 @@ fseek
 fsetpos
 fwrite
 g9k0t_D
+g=I=!C
 generator
 german
 gfffffffH
@@ -1817,7 +1817,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-i*{s_s
 ig@-?e
 illegal code in raster
 image/bmp
@@ -1955,6 +1954,7 @@ material
 materials
 matrix
 max value > 255
+mdqr^
 memchr
 memcmp
 memcpy
@@ -2358,6 +2358,7 @@ strtod
 strtol
 strtoll
 strtoull
+svH3"
 sv_sv
 swedish
 syntax error 
@@ -2509,6 +2510,7 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
+{lE'@9@2Q8
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png
@@ -2557,7 +2559,6 @@ znear
 |$XuMH
 |$`H;
 |$`M+
-|:`.{
 |LL\t
 |Lu?c
 }LuHO

@@ -1,772 +1,487 @@
-	B;	4
-	B;;$
+	!s99
                           
-  C;t
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- /B;w
- 7B;,7B;
- 9(X`
+ %41g
+ 4(40484@4H4P4X4`4h4p4x4
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- FC;^
  Type Descriptor'
+ `B;V
  delete
  delete[]
+ lB;j
  new[]
-#B; $B;
-$ C;t
-$+B;M'
-$,B;D'
-$-B;e
-$?B;0?B;
-$C;43B;
-%,KC;
+!A;w&B;
+!hn7!
+"B <1=
+#.X'=
+$lB;VW
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%PVC;f
-%`iC;
-%lQC;
-%pQC;
+%@`B;
+%S#[k
 %s%c%s
 %s\%s
-&0$0"
-&C;d4B;
-'C;H5B;
-'Symantec Time Stamping Services CA - G2
-'Symantec Time Stamping Services CA - G20
-(	B;	(
-( 8PX
-('8PW
-()C;x6B;
-(4B;44B;
-(AC;PJB;
-(C;,6B;
-(DigiCert SHA2 Assured ID Code Signing CA
-(DigiCert SHA2 Assured ID Code Signing CA0
-(KC;v
+%u.%u.%u.%u:%i
+',=?k
+'sK#F
+(Ht5F
+(HtMf
+(Y$Yd
+(`B;H
+(`B;j
+(f*^[0
 (null)
-)B;a	
-*B;5'
-*B;?'
-*B;@'
-*B;A'
-*C;\7B;
-+B;&'
-+B;('
-+B;4'
-+B;8'
-+B;E'
-+B;H'
-+B;Q'
-+C;@8B;
-+Symantec Time Stamping Services Signer - G40
-+http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
-+http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
-+t"HHt
-,!10	
-,<B;8<B;
-,?C;xFB;
-,B;3'
-,B;9'
-,B;;'
-,B;='
-,B;B'
-,B;L'
-,B;O'
-,C;$9B;
-,IB;<IB;
-,KC;YY
-,SVWj0X
-,|%)v
--64OS
--LVC;
--jKC;
--jd[;
-.?AV?$CCallResult@VCAddAppDependencyResult_t_result@@UAddAppDependencyResult_t@@@@
-.?AV?$CCallResult@VCAddUGCDependencyResult_t_result@@UAddUGCDependencyResult_t@@@@
-.?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
-.?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
-.?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
-.?AV?$CCallResult@VCComputeNewPlayerCompatibilityResult_t_result@@UComputeNewPlayerCompatibilityResult_t@@@@
-.?AV?$CCallResult@VCCreateItemResult_t_result@@UCreateItemResult_t@@@@
-.?AV?$CCallResult@VCDeleteItemResult_t_result@@UDeleteItemResult_t@@@@
-.?AV?$CCallResult@VCEncryptedAppTicketResponse_t_result@@UEncryptedAppTicketResponse_t@@@@
-.?AV?$CCallResult@VCFileDetailsResult_t_result@@UFileDetailsResult_t@@@@
-.?AV?$CCallResult@VCFriendsEnumerateFollowingList_t_result@@UFriendsEnumerateFollowingList_t@@@@
-.?AV?$CCallResult@VCFriendsGetFollowerCount_t_result@@UFriendsGetFollowerCount_t@@@@
-.?AV?$CCallResult@VCFriendsIsFollowing_t_result@@UFriendsIsFollowing_t@@@@
-.?AV?$CCallResult@VCGSReputation_t_result@@UGSReputation_t@@@@
-.?AV?$CCallResult@VCGSStatsReceived_t_result@@UGSStatsReceived_t@@@@
-.?AV?$CCallResult@VCGSStatsStored_t_result@@UGSStatsStored_t@@@@
-.?AV?$CCallResult@VCGetAppDependenciesResult_t_result@@UGetAppDependenciesResult_t@@@@
-.?AV?$CCallResult@VCGetUserItemVoteResult_t_result@@UGetUserItemVoteResult_t@@@@
-.?AV?$CCallResult@VCGlobalAchievementPercentagesReady_t_result@@UGlobalAchievementPercentagesReady_t@@@@
-.?AV?$CCallResult@VCGlobalStatsReceived_t_result@@UGlobalStatsReceived_t@@@@
-.?AV?$CCallResult@VCHTML_BrowserReady_t_result@@UHTML_BrowserReady_t@@@@
-.?AV?$CCallResult@VCJoinClanChatRoomCompletionResult_t_result@@UJoinClanChatRoomCompletionResult_t@@@@
-.?AV?$CCallResult@VCLeaderboardFindResult_t_result@@ULeaderboardFindResult_t@@@@
-.?AV?$CCallResult@VCLeaderboardScoreUploaded_t_result@@ULeaderboardScoreUploaded_t@@@@
-.?AV?$CCallResult@VCLeaderboardScoresDownloaded_t_result@@ULeaderboardScoresDownloaded_t@@@@
-.?AV?$CCallResult@VCLeaderboardUGCSet_t_result@@ULeaderboardUGCSet_t@@@@
-.?AV?$CCallResult@VCLobbyCreated_t_result@@ULobbyCreated_t@@@@
-.?AV?$CCallResult@VCLobbyEnter_t_result@@ULobbyEnter_t@@@@
-.?AV?$CCallResult@VCLobbyMatchList_t_result@@ULobbyMatchList_t@@@@
-.?AV?$CCallResult@VCNumberOfCurrentPlayers_t_result@@UNumberOfCurrentPlayers_t@@@@
-.?AV?$CCallResult@VCRemoteStorageDeletePublishedFileResult_t_result@@URemoteStorageDeletePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageDownloadUGCResult_t_result@@URemoteStorageDownloadUGCResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumeratePublishedFilesByUserActionResult_t_result@@URemoteStorageEnumeratePublishedFilesByUserActionResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateUserPublishedFilesResult_t_result@@URemoteStorageEnumerateUserPublishedFilesResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateUserSubscribedFilesResult_t_result@@URemoteStorageEnumerateUserSubscribedFilesResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateWorkshopFilesResult_t_result@@URemoteStorageEnumerateWorkshopFilesResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageFileReadAsyncComplete_t_result@@URemoteStorageFileReadAsyncComplete_t@@@@
-.?AV?$CCallResult@VCRemoteStorageFileShareResult_t_result@@URemoteStorageFileShareResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageFileWriteAsyncComplete_t_result@@URemoteStorageFileWriteAsyncComplete_t@@@@
-.?AV?$CCallResult@VCRemoteStorageGetPublishedFileDetailsResult_t_result@@URemoteStorageGetPublishedFileDetailsResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageGetPublishedItemVoteDetailsResult_t_result@@URemoteStorageGetPublishedItemVoteDetailsResult_t@@@@
-.?AV?$CCallResult@VCRemoteStoragePublishFileProgress_t_result@@URemoteStoragePublishFileProgress_t@@@@
-.?AV?$CCallResult@VCRemoteStorageSetUserPublishedFileActionResult_t_result@@URemoteStorageSetUserPublishedFileActionResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageSubscribePublishedFileResult_t_result@@URemoteStorageSubscribePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUnsubscribePublishedFileResult_t_result@@URemoteStorageUnsubscribePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUpdatePublishedFileResult_t_result@@URemoteStorageUpdatePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUpdateUserPublishedItemVoteResult_t_result@@URemoteStorageUpdateUserPublishedItemVoteResult_t@@@@
-.?AV?$CCallResult@VCRemoveAppDependencyResult_t_result@@URemoveAppDependencyResult_t@@@@
-.?AV?$CCallResult@VCRemoveUGCDependencyResult_t_result@@URemoveUGCDependencyResult_t@@@@
-.?AV?$CCallResult@VCSetPersonaNameResponse_t_result@@USetPersonaNameResponse_t@@@@
-.?AV?$CCallResult@VCSetUserItemVoteResult_t_result@@USetUserItemVoteResult_t@@@@
-.?AV?$CCallResult@VCStartPlaytimeTrackingResult_t_result@@UStartPlaytimeTrackingResult_t@@@@
-.?AV?$CCallResult@VCSteamInventoryEligiblePromoItemDefIDs_t_result@@USteamInventoryEligiblePromoItemDefIDs_t@@@@
-.?AV?$CCallResult@VCSteamInventoryRequestPricesResult_t_result@@USteamInventoryRequestPricesResult_t@@@@
-.?AV?$CCallResult@VCSteamInventoryStartPurchaseResult_t_result@@USteamInventoryStartPurchaseResult_t@@@@
-.?AV?$CCallResult@VCSteamUGCQueryCompleted_t_result@@USteamUGCQueryCompleted_t@@@@
-.?AV?$CCallResult@VCStopPlaytimeTrackingResult_t_result@@UStopPlaytimeTrackingResult_t@@@@
-.?AV?$CCallResult@VCStoreAuthURLResponse_t_result@@UStoreAuthURLResponse_t@@@@
-.?AV?$CCallResult@VCSubmitItemUpdateResult_t_result@@USubmitItemUpdateResult_t@@@@
-.?AV?$CCallResult@VCUserFavoriteItemsListChanged_t_result@@UUserFavoriteItemsListChanged_t@@@@
-.?AV?$CCallResult@VCUserStatsReceived_t_result@@UUserStatsReceived_t@@@@
+*tD=+
+*t`=+
++Xt@(
++o'q)}
+,0<	v
+,0<	w
+,W5y+
+,`B;V
+,`B;j
+,aB;_^
+,{B;$
+-151s1{1
+-jd_;
+.00cfg
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
-.?AV?$CCallback@VCGetOPFSettingsResult_t@@UGetOPFSettingsResult_t@@$0A@@@
-.?AV?$CCallback@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
-.?AV?$CCallbackImpl@$07@@
 .?AV?$CCallbackImpl@$0BA@@@
-.?AV?$CCallbackImpl@$0BI@@@
-.?AV?$CCallbackManual@VCGetOPFSettingsResult_t@@UGetOPFSettingsResult_t@@$0A@@@
-.?AV?$CCallbackManual@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AV?$CCallbackManual@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
+.?AV?$CCallbackManual@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
+.?AVCAppManifestParser@@
 .?AVCCallbackBase@@
-.?AV_Generic_error_category@std@@
-.?AV_Iostream_error_category@std@@
-.?AV_System_error_category@std@@
+.?AVCKeyValuesParser@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_exception@std@@
-.?AVerror_category@std@@
 .?AVexception@std@@
 .?AVlength_error@std@@
 .?AVlogic_error@std@@
-.?AVout_of_range@std@@
 .?AVtype_info@@
-.http://crl.thawte.com/ThawteTimestampingCA.crl0
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.data$rs
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$T
+.rdata$r
+.rdata$sxdata
+.rdata$voltmd
+.rdata$zzzdbg
 .rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
 .text
-/C;8;B;
-/http://crl3.digicert.com/sha2-assured-cs-g1.crl05
-/http://crl4.digicert.com/sha2-assured-cs-g1.crl0K
-0 0$0(0,00040~0
-0 0$0,000@4D4H4P4p4
-0 0(00080
-0"1H1t1
-0#0I0z0
-0$000;0b0
-0$0@0X0x0
-0'1z1
-0(1T1
-0)1@1z1
-0,0<0@0P0T0X0`0x0
-0/050G0M0W0f0y0
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+0$000<0H0T0`0l0x0
+0'0-02080N0S0^0d0
+0+0\0
+00050
 000P0p0
-01080>0D0I0O0W0`0y0
-010{0
+010M0W0a0o0
+011Q1
 0123456789ABCDEF
-061110000000Z
-081g1
-090C0q0
-0?1N1q1
-0?1U1
-0@1R1
-0DB;<DB;
-0V1f1
-0YC;3
-0r0^1
-1 1$101<1P1X1
-1 1$14181<1D1\1l1p1
-1"1(1F1P1
+0H8a8
+0L1b1
+0^_[]
+0h0l0p0t0x0|0
+0w0c1
+0}0i1
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1,181D1P1\1h1t1
+1 121l1
+1!152e2
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1'2M2a2l2}2
-1(131Y1t1
-1)4:4N4T4Y4
-1*10171?1H1R1h1
-1+292C2V2{2
-111W1u1|1
-121018000000Z
-121221000000Z
-121E2L2
-131022120000Z
-150925000000Z
-171215194807Z0#
-181003120000Z0M1
-181X1t1x1
-182u2
-1E3`3v3
-1N_^[
-1U2\2~2
-1Z2e2
-2	3D3Z3f3
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2(2@2P2T2d2h2l2t2
-2 2@2`2p2
-2!313F3T3Y3^3}3
-2$2,242<2D2L2T2\2d2l2t2|2
-2'3z3
-2,2=2E2U2f2|2
-201229235959Z0b1
-201230235959Z0^1
-281022120000Z0r1
-283g3
-2A>V>`>f>l>r>
-2B;P$C;
-2C;L=B;
-2D2K2R2Y2q2
-2Q3'6-636v6
-2W2m2
-2b5t5
-3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-3 3$3(3,30343~3
-3 3$3(303D3L3T3\3`3d3l3
-3!3'3+31353K3P3U3l3
+1$1(181<1D1\1l1p1
+1$1D1M1_1q1w1
+1+2024282<2
+101P1p1
+112v2
+130801120000Z
+141T1t1
+1:2t2
+1;1I1U1a1u1
+1G2Y2k2
+1K2b2
+1f1o1}1
+1f1{1
+2 2+2
+2!3Y3q3
+2%2:2O2V2\2n2x2
+2&242@2L2Z2j2
+2'2-2B2M2R2
+2,2<2@2P2T2X2\2`2h2
+2,343h3
+202P2p2
+210429000000Z
+211007000000Z
+213;3J3m3
+220323000000Z
+220801000000Z
+230714000000Z
+230911204839Z0/
+241009235959Z0a1
+242T2t2
+262F2Z2_2d2
+2?3S3v3
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2a2q2
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2p3t3|3
+3 3$34383H3L3P3T3X3`3x3|3
+3!313A5
+3"3(4
 3$3,343<3D3L3T3\3d3l3t3|3
-3$34383H3L3P3X3p3
-3,303@3D3H3P3h3x3|3
-3,353=3U3h3n3t3{3
-311110000000Z0e1
-34494B4N4S4
-363Q3
-3J4q4
-3P3l3
-3Y4`4
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4$4(4,40444l4t4|4
-4 4x4
-4!4'4/444:4B4G4M4U4Z4`4h4m4s4{4
-4#4*41484?4F4M4U4]4e4q4z4
-4#4I4O4n4t4
-4$4(4,444L4\4`4p4t4x4
+3&434B4W4a4t4{4
+3'3d3
+3+32393H3^3x3
+3,373<3A3\3k3v3{3
+3,4P4t4
+3-4I4
+3.3B3K3
+303@3P3`3p3
+311109235959Z0b1
+341013235959Z0H1
+343T3t3
+360428235959Z0i1
+370322235959Z0c1
+380115120000Z0b1
+3A;*4A;84A;D4A;e4A;
+3H4x4
+3mq+<
+4 4$4(404H4X4\4l4p4t4|4
+4 4(40484@4H4P4X4`4h4p4x4
+4#404@4G4M4W4f4n4z4
 4$4,444<4D4L4T4\4d4l4t4|4
-4'5z5
-4(464?4O4a4g4r4w4}4
-4,40444<4T4d4h4x4|4
-4,B;C'
-4-B;q
-4.4S4k5
-424}445T5
-4285107P
-49B;@9B;
-4C;0>B;
-4C;|>B;
-4D4Y4_4
-4YC;3
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
-4r5y5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5(5@5D5\5l5p5t5x5
-5 5<5N5T5`5
+4)51595A5I5g5o5
+40:4:8:<:@:D:H:L:P:T:`:d:h:l:p:t:x:|:
+444T4t4
+454;4T4b4r4x4
+4:4E4r4
+4B;dAB;
+4D5S5
+4E5N5
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4l4q4v4{4
+5	6)6p6
+5 5(50585@5H5P5X5`5h5p5x5
+5!5&5,555<5G5M5T5g5
+5!5'535:5>5E5S5Z5^5e5r5
+5!6u6}6
+5"5&5<>D>L>T>\>d>l>t>|>
 5$5,545<5D5L5T5\5d5l5t5|5
-5%535<5g5
-5&5+51595>5D5L5Q5W5_5d5j5r5w5}5
-5,KC;
-50301
-505@5D5T5X5\5d5|5
-516D6
-546U6
-575R5
-586g6
-5:5T5f5x5
-5@!C;C
-5C;`?B;
+5$525;5B5L5W5d5o5|5
+5%6?6D6l8
+5&5+545;5C5H5Q5_5u5|5
+5(5,5054585<5l5p5t5x5|5
+5,5<5@5P5T5X5`5x5
+5-5C5P5U5c5
+507v7
+5A;*5A;I5A;`5A;o5A;~5A;
+5FjiT
 5Genu
-5H6w6
-5LYC;
-5PYC;
-5T!C;
-5T!C;3
-5X!C;C
-5XUC;
-5\YC;
-5`VC;
-5`iC;
-5dQC;
-5diC;
-5hUC;
-5l!C;
-5l!C;3
-5ntel
-5tFC;
-5tQC;
-6 686H6L6P6T6\6t6
-6#6,616L6Q6k6q6}6
-6#6Q6W6^6
-6$6(686<6@6H6`6p6t6
+5Q5k5
+5U5[5c5q5
+5X)v)
+5c7k7
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5ineI
+5x6|6
+5xsB;
+6 6(60686@6H6P6X6`6h6p6x6
+6 6D6L6Q6[6u6}6
+6#646F6U6
 6$6,646<6D6L6T6\6d6l6t6|6
-6%6C6X6b6
-6(7W7
-6,6K6]6o6
-6,717:7?7H7M7Z7
-6/6\6r6
-61696D6[6u6
-696N6X6b6
-698=8A8E8I8M8Q8U8
-6<6X6]6b6x6
-6S7h7
-6V8N9
-6V8[8m8
-7 7$7(7<7@7P7T7d7h7l7p7x7
-7 7$7,7D7T7X7h7l7p7x7
-7#8W8~8
+6$666H6Z6l6~6
+6*f(_
+6/:5;=;t;{;
+686A6J6P6W6^6e6l6s6z6
+686^6x6
+6<9{9
+6=6J6k6p6
+6I]Dc
+6OB,n_
+6P7T7X7\7`7d7h7l7p7t7x7|7
+6P7h7
+6T7]7
+6[6n6
+7 7(70787@7H7P7X7`7h7p7x7
+7"7*7
+7"707K7c7
 7$7,747<7D7L7T7\7d7l7t7|7
-7&7M7`7
-7(8o8~8
-7,848
-700PP
-700WP
-787A7G7M7k7x7
-788g8
-797D7y7
-7C;D@B;
-7E8J8O8
-7Z7`7{7
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
-8	9#939Z9w9
-8 8$84888@8X8h8l8|8
-8 8-828C8z8
-8!9R9n9
+7$7-72787@7H7M7W7\7b7j7r7
+7+7J7V7
+7.8p8
+7/7d8-9
+70503
+747B7Q7m7t7z7
+747S7,8
+7=8Q8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8 8(80888@8H8P8X8`8h8p8x8
 8$8,848<8D8L8T8\8d8l8t8|8
-8&808D8e8
-8(888<8L8P8T8\8t8
-8)B;7
-8*B;"
-8+B;F'
-80604
-8?:i:s:y:
-8AB;DAB;
-8C;tAB;
-8HB;@HB;
-8KC;V
-8LB;"
-8PA;@PA;HPA;PPA;XPA;`PA;hPA;{PA;
-8YC;h
-8sA;@sA;HsA;PsA;XsA;`sA;hsA;{sA;
-9	:(:>:H:N:Y:|:
+8)8E8[8
+8-9J9b9l9u9
+8330923P
+898F8M8W8b8n8u8~8
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8TB;"
+8|B;*
 9 9(90989@9H9P9X9`9h9p9x9
-9 9094989@9X9h9l9|9
-9!9'9c9-;8;X;c;
-9$9,9
-9':z:
-9(9,90949<9T9d9h9x9|9
-9(A;3
-95XUC;
-98:g:
-9A9W9
-9Y:`:v:
-9] t"
-9n:z:
-9u:&;/;9;U;};
+9!919A9Q9a9q9
+9":7:=:D:O:U:\:h:o:u:
+9$9,949<9D9L9T9\9d9l9t9|9
+9%9A9Q9f9t9y9~9
+9%9y9
+9&999Z9g9
+9):a:
+9E WW
+9J;|;
+9K9^9r9}9
+9M:g:t:
+9d9k9r9y9
+9p u"
+9wLt	
+9~8~Q
 : :(:0:8:@:H:P:X:`:h:p:x:
-: :8:H:L:\:`:d:h:p:
-:$:*:L:
-:$:<:L:P:`:d:h:p:
-:$;,;4;@;h;
-:%:D:R:j:u:~:
-:):a:
-:9:C:g:q:
-:9:m:s:
-:?:U:x:
-:B;$:B;
-:C;XBB;
-:L=_=t=
-:N~"0
-:];q;
-;	;.;C;_;
-; ;(;0;8;@;H;P;X;`;h;p;x;
-; ;0;4;D;H;L;T;l;|;
-;!;/;;;A;O;[;e;k;};
-;";*;5;@;i;
-;'<z<
-;2;X;
-;5DYC;
-;5DYC;s{
-;5diC;
-;5diC;}S
-;=DYC;
-;=diC;
-;_tr.
-;t$,v-
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-< <(<0<8<@<H<P<X<`<h<p<x<
-< t8<	t4
-<"<A<^<
-<#<l<
-<$<D<h<t<|<
-<'<5<;<B<I<P<W<^<e<l<s<z<
-<(<,<0<8<P<`<d<t<x<|<
-<(=3=M=e=p=
-<*=E=[=o=z=
-<0=B=
-<6B;H6B;
-<9~U<-tQ<_tM<.tI;
-<C;lDB;
-<H=w=
-<K=S=j=
-<SVWh
-<Z~]<0|
-<at-<rt"<wt
-<e<n<v<
-<itx<o
-<o<z<
-<v5hjKC;
-<z~e<A|
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=
-= =(=0=8=@=H=P=X=`=h=p=x=
-= =@=`=
-=$=2=A=\=k=
-='=-=<=C=S=Y=_=g=m=s={=
-=(>W>
-=(KC;
-=(KC;3
-=,KC;
-=0FC;
-=0KC;
-=2>G>n>
-=4=D=H=X=\=`=h=
-=>>r>
-=B=Y=_=e=o=u=
-=DYC;
-=HYC;
-=TYC;
-=\VC;f
-=`QC;
-=l$B;
-=lQC;
-=pQC;
-> >(>0>8>@>H>P>X>`>h>p>x>
-> >@>L>h>t>
->!>1>9>?>Z>u>
->"hcS
->&>I>V>]>g>r>
->(>,><>@>D>L>d>t>x>
->,>:>D>I>O>W>_>{>
->,?P?
->0>4>8>`>d>h>
->0t-N
->1>W>u>|>
->8?g?
->A>L>R>
->G>_>x>
->Z?e?
-? ?$?(?0?H?X?\?l?p?t?|?
-? ?(?0?8?@?H?P?X?`?h?p?x?
-? ?<?@?P?t?
-?$?,?4?<?D?L?T?\?d?
-?0?@?
-?2?A?L?X?k?w?|?
-?C;XGB;
+:!:1:A:Q:
+:%:-:h:r:{:
+:1:w:
+::;S;
+:A:_:d:t:~:
+:B:];	<
+:M;_;e;
+:Q:h:
+:b;&?
+:t:}:
+; ;(;0;8;
+; ;,;L;T;`;
+; ;@;`;
+;#;6;L;
+;%;7;=;G;V;i;
+;%<0>5>_>{>
+;(;2;p;
+;(;C;Y;j;
+;+<,=<=M=U=e=v=
+;-;=;B;L;Q;\;g;{;
+;-=7=
+;4<G<j<
+;7t=S
+;<;l;
+;D<$=}=M?
+;P;W;
+;n<u<
+< <(<0<4<<<P<X<`<h<l<p<x<
+< =5=G=T=m=
+< t3<	t/
+<!=<=v=
+<"<B<
+<%<*<3<z<
+<+=b=g=l=
+<-<4<><K<j<o<u<}<
+<0:08
+<1<9<E<K<R<Z<`<g<
+<8<B<[<q<
+<=upG8
+<ItC<Lt3<Tt#<h
+<ItM<Lt:<Tt'<h
+<N<[<
+<SVWhpqB;j
+<`B;2
+<`B;3
+<`B;]
+<aB;]
+<at.<rt!<wt
+<et	<pu
+<{<	=.=z=
+= =$=(=,=0=4=8=<=@=D=H=L=
+= =p=
+=&>->N>w>
+=,=0=P=X=\=x=
+=0=a=
+=0>Y>
+=1=A=
+=1>@>L>[>n>
+=2=9=A=I=Q=Y=
+=2=F=
+=8`B;
+=<`B;
+=@>J>P>r>
+=A=J=W=]=c=
+=I?o?
+=]?y?
+=rIQU
+>	?&?_?t?
+> >$>,>0>4>8><>@>D>H>T>\>d>h>l>p>t>
+> >(>0>4><>P>p>
+>(>6>=>C>^>e>
+>,>:>@>F>L>R>X>_>f>m>t>{>
+>0<0:
+>=>J>}>
+>M?`?
+>Mp$d
+>V>q>y>
+?#?r?
+?%?.?7?b?
+?'?1?T?^?
+?(?/?3???I?W?]?q?v?|?
+?0?8?B?J?Q?Y?a?i?r?
+?0?L?P?p?
+?2?Y?
+?5Wg4p
+?<lt <tt
+?=?h?
+?T?g?
 @.data
 @.reloc
-@; 3B;
-@;$;B;
-@;(CB;
-@;,8B;
-@;0@B;
-@;0GB;
-@;45B;
-@;8=B;
-@;@:B;
-@;DBB;
-@;DGB;
-@;H7B;
-@;L?B;
-@;P4B;
-@;Steam_BGetCallback
-@;T<B;
-@;Unknown exception
-@;XDB;
-@;XIB;
-@;\9B;
-@;`AB;
-@;bad allocation
-@;bad exception
-@;csm
-@;d6B;
-@;h>B;
-@;l3B;
-@;p;B;
-@;pHB;
-@;tCB;
-@;x8B;
-@;|@B;
-@>B;L>B;
-@@C;(HB;
-@C;lIB;
-@VurP
-@YC;^
+@;appid
 @_^[]
-@hX#B;
-A;VhjKC;
-A;_[]
-A;_^[]
-A;generic
-A;hxFC;
-A;iostream
-A;system
-A;t	P
-A;t	V
+@`B;^]
+@b;zO]
+A1<Fu
+A<lt'<tt
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AC;h0
 ADVAPI32.dll
-A_^[]
+AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 August
-B;H B;
-B;__based(
-BB;(BB;
+B;INF
+B;Sun
+B;_^[]
+B;h(gB;j
+B;sinh
+B;t'@
+BC .=
+BVj(j
 Bellevue1
-Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
 Breakpad_SteamMiniDumpInit
 Breakpad_SteamSetAppID
 Breakpad_SteamSetSteamID
 Breakpad_SteamWriteMiniDumpSetComment
 Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
-C;95\
-C;_^3
-C;t'@
-C;t*j
-C;u\j
-CAddAppDependencyResult_t_RemoveCallResult
-CAddAppDependencyResult_t_SetCallResult
-CAddUGCDependencyResult_t_RemoveCallResult
-CAddUGCDependencyResult_t_SetCallResult
-CAssociateWithClanResult_t_RemoveCallResult
-CAssociateWithClanResult_t_SetCallResult
-CCheckFileSignature_t_RemoveCallResult
-CCheckFileSignature_t_SetCallResult
-CClanOfficerListResponse_t_RemoveCallResult
-CClanOfficerListResponse_t_SetCallResult
-CComputeNewPlayerCompatibilityResult_t_RemoveCallResult
-CComputeNewPlayerCompatibilityResult_t_SetCallResult
-CCreateItemResult_t_RemoveCallResult
-CCreateItemResult_t_SetCallResult
-CDeleteItemResult_t_RemoveCallResult
-CDeleteItemResult_t_SetCallResult
-CEncryptedAppTicketResponse_t_RemoveCallResult
-CEncryptedAppTicketResponse_t_SetCallResult
-CFileDetailsResult_t_RemoveCallResult
-CFileDetailsResult_t_SetCallResult
-CFriendsEnumerateFollowingList_t_RemoveCallResult
-CFriendsEnumerateFollowingList_t_SetCallResult
-CFriendsGetFollowerCount_t_RemoveCallResult
-CFriendsGetFollowerCount_t_SetCallResult
-CFriendsIsFollowing_t_RemoveCallResult
-CFriendsIsFollowing_t_SetCallResult
-CGSReputation_t_RemoveCallResult
-CGSReputation_t_SetCallResult
-CGSStatsReceived_t_RemoveCallResult
-CGSStatsReceived_t_SetCallResult
-CGSStatsStored_t_RemoveCallResult
-CGSStatsStored_t_SetCallResult
-CGetAppDependenciesResult_t_RemoveCallResult
-CGetAppDependenciesResult_t_SetCallResult
-CGetOPFSettingsResult_t_RemoveCallback
-CGetOPFSettingsResult_t_SetCallback
-CGetUserItemVoteResult_t_RemoveCallResult
-CGetUserItemVoteResult_t_SetCallResult
-CGlobalAchievementPercentagesReady_t_RemoveCallResult
-CGlobalAchievementPercentagesReady_t_SetCallResult
-CGlobalStatsReceived_t_RemoveCallResult
-CGlobalStatsReceived_t_SetCallResult
-CHTML_BrowserReady_t_RemoveCallResult
-CHTML_BrowserReady_t_SetCallResult
-CJoinClanChatRoomCompletionResult_t_RemoveCallResult
-CJoinClanChatRoomCompletionResult_t_SetCallResult
-CLeaderboardFindResult_t_RemoveCallResult
-CLeaderboardFindResult_t_SetCallResult
-CLeaderboardScoreUploaded_t_RemoveCallResult
-CLeaderboardScoreUploaded_t_SetCallResult
-CLeaderboardScoresDownloaded_t_RemoveCallResult
-CLeaderboardScoresDownloaded_t_SetCallResult
-CLeaderboardUGCSet_t_RemoveCallResult
-CLeaderboardUGCSet_t_SetCallResult
-CLobbyCreated_t_RemoveCallResult
-CLobbyCreated_t_SetCallResult
-CLobbyEnter_t_RemoveCallResult
-CLobbyEnter_t_SetCallResult
-CLobbyMatchList_t_RemoveCallResult
-CLobbyMatchList_t_SetCallResult
-CNumberOfCurrentPlayers_t_RemoveCallResult
-CNumberOfCurrentPlayers_t_SetCallResult
-CRemoteStorageDeletePublishedFileResult_t_RemoveCallResult
-CRemoteStorageDeletePublishedFileResult_t_SetCallResult
-CRemoteStorageDownloadUGCResult_t_RemoveCallResult
-CRemoteStorageDownloadUGCResult_t_SetCallResult
-CRemoteStorageEnumeratePublishedFilesByUserActionResult_t_RemoveCallResult
-CRemoteStorageEnumeratePublishedFilesByUserActionResult_t_SetCallResult
-CRemoteStorageEnumerateUserPublishedFilesResult_t_RemoveCallResult
-CRemoteStorageEnumerateUserPublishedFilesResult_t_SetCallResult
-CRemoteStorageEnumerateUserSubscribedFilesResult_t_RemoveCallResult
-CRemoteStorageEnumerateUserSubscribedFilesResult_t_SetCallResult
-CRemoteStorageEnumerateWorkshopFilesResult_t_RemoveCallResult
-CRemoteStorageEnumerateWorkshopFilesResult_t_SetCallResult
-CRemoteStorageFileReadAsyncComplete_t_RemoveCallResult
-CRemoteStorageFileReadAsyncComplete_t_SetCallResult
-CRemoteStorageFileShareResult_t_RemoveCallResult
-CRemoteStorageFileShareResult_t_SetCallResult
-CRemoteStorageFileWriteAsyncComplete_t_RemoveCallResult
-CRemoteStorageFileWriteAsyncComplete_t_SetCallResult
-CRemoteStorageGetPublishedFileDetailsResult_t_RemoveCallResult
-CRemoteStorageGetPublishedFileDetailsResult_t_SetCallResult
-CRemoteStorageGetPublishedItemVoteDetailsResult_t_RemoveCallResult
-CRemoteStorageGetPublishedItemVoteDetailsResult_t_SetCallResult
-CRemoteStoragePublishFileProgress_t_RemoveCallResult
-CRemoteStoragePublishFileProgress_t_SetCallResult
-CRemoteStorageSetUserPublishedFileActionResult_t_RemoveCallResult
-CRemoteStorageSetUserPublishedFileActionResult_t_SetCallResult
-CRemoteStorageSubscribePublishedFileResult_t_RemoveCallResult
-CRemoteStorageSubscribePublishedFileResult_t_SetCallResult
-CRemoteStorageUnsubscribePublishedFileResult_t_RemoveCallResult
-CRemoteStorageUnsubscribePublishedFileResult_t_SetCallResult
-CRemoteStorageUpdatePublishedFileResult_t_RemoveCallResult
-CRemoteStorageUpdatePublishedFileResult_t_SetCallResult
-CRemoteStorageUpdateUserPublishedItemVoteResult_t_RemoveCallResult
-CRemoteStorageUpdateUserPublishedItemVoteResult_t_SetCallResult
-CRemoveAppDependencyResult_t_RemoveCallResult
-CRemoveAppDependencyResult_t_SetCallResult
-CRemoveUGCDependencyResult_t_RemoveCallResult
-CRemoveUGCDependencyResult_t_SetCallResult
-CSetPersonaNameResponse_t_RemoveCallResult
-CSetPersonaNameResponse_t_SetCallResult
-CSetUserItemVoteResult_t_RemoveCallResult
-CSetUserItemVoteResult_t_SetCallResult
-CStartPlaytimeTrackingResult_t_RemoveCallResult
-CStartPlaytimeTrackingResult_t_SetCallResult
-CSteamInventoryEligiblePromoItemDefIDs_t_RemoveCallResult
-CSteamInventoryEligiblePromoItemDefIDs_t_SetCallResult
-CSteamInventoryRequestPricesResult_t_RemoveCallResult
-CSteamInventoryRequestPricesResult_t_SetCallResult
-CSteamInventoryStartPurchaseResult_t_RemoveCallResult
-CSteamInventoryStartPurchaseResult_t_SetCallResult
-CSteamUGCQueryCompleted_t_RemoveCallResult
-CSteamUGCQueryCompleted_t_SetCallResult
-CStopPlaytimeTrackingResult_t_RemoveCallResult
-CStopPlaytimeTrackingResult_t_SetCallResult
-CStoreAuthURLResponse_t_RemoveCallResult
-CStoreAuthURLResponse_t_SetCallResult
-CSubmitItemUpdateResult_t_RemoveCallResult
-CSubmitItemUpdateResult_t_SetCallResult
-CUserFavoriteItemsListChanged_t_RemoveCallResult
-CUserFavoriteItemsListChanged_t_SetCallResult
-CUserStatsReceived_t_RemoveCallResult
-CUserStatsReceived_t_RemoveCallback
-CUserStatsReceived_t_SetCallResult
-CUserStatsReceived_t_SetCallback
+C;9>t
+C;Phx
+C;^8u
+C;^[|
+C;_^[3
+C;h4hB;hDhB;h
+C;hDrB;
+C;hdrB;
+C;hhcB;
+C;hxcB;
+C;j@P
+C;peB;t
+C;t4h
+CR%(`
 Calling BreakpadMiniDumpSystemInit
+Can't determine AppID
+Cannot create IPC pipe to Steam client process.  Steam is probably not running.
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CompareStringEx
+ConnectToGlobalUser failed.
 CorExitProcess
-CreateEventExW
-CreateFile2
+Could not determine Steam client install directory.
+CreateEventW
 CreateFileW
 CreateInterface
-CreateSemaphoreExW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-D,B;G'
-D/B;y
-D0B07
-D1H1L1X1\1`1d1p1t1x1
-D3B;P3B;
-DOB;"
-DYC; 
-DYC;s
-DYC;sT
-DYC;sX
-DYC;} j@W
+CreateLocalUser failed
+D8(Ht'
+D`B;h
 December
+DecodePointer
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-Durbanville1
-EB;(EB;DEB;
-EC;Vh
-EC;hP
-Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
+DigiCert Timestamp 20230
+DigiCert Trusted Root G40
+DigiCert, Inc.1 0
+DigiCert, Inc.1;09
+DigiCert, Inc.1A0?
+EncodePointer
 EnterCriticalSection
-EnumSystemLocalesEx
 ExitProcess
-FB; FB;\FB;
-FB;\FB;
-FC;9}
-FC;PhxFC;h2FC;
-FC;_[^
-FC;t2
-FVWPP
+F1<at
+F1<gt
+F2jgYf;
+F4_^[
+F4_^[]
+FFG;}
+FVWj	
+Failed to load module '%s'
 February
+FindClose
+FindFirstFileExW
+FindNextFileW
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 Forcing breakpad minidump interfaces to load
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
-G<-u_
-GWVj	
 GetACP
-GetActiveWindow
 GetCPInfo
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
+GetCurrentDirectoryW
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
 GetCurrentThreadId
-GetDateFormatEx
 GetEnvironmentStringsW
 GetEnvironmentVariableA
 GetExitCodeProcess
+GetFileAttributesExW
 GetFileAttributesW
-GetFileInformationByHandleExW
+GetFileSizeEx
 GetFileType
 GetHSteamPipe
 GetHSteamUser
-GetLastActivePopup
 GetLastError
-GetLocaleInfoEx
-GetLogicalProcessorInformation
-GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleExW
@@ -774,114 +489,138 @@ GetModuleHandleW
 GetOEMCP
 GetProcAddress
 GetProcessHeap
-GetProcessWindowStation
 GetStartupInfoW
 GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
-GetTickCount64
-GetTimeFormatEx
-GetUserDefaultLocaleName
-GetUserObjectInformationW
-H!C;;
-H$C;^]
-H-C;p9B;
-H0F08
-H;B;T;B;
-H;C;<CB;
+H-^Eu
+H0M0S0X0
 HH:mm:ss
-HHtVHHt
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER
 HKEY_LOCAL_MACHINE
-HYC;3
+H`B;]
+H`B;^]
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-Ht+Ht$Ht
+HwB;	
+H}B;]
+IND)ind)
+INITY
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+InitGameServer failed
+InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
+InitializeSListHead
 InstallPath
+InterlockedFlushSList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
-IsValidLocaleName
-JB; JB;
-JC;W3
-JC;Wh
+J>@G_
 January
-KC;SV
-KC;YY
+Jjl^f;
 KERNEL32.dll
-L	B;	,
-L!C;A
-L+B;7'
-LCB;XCB;
+K}*n:	
+L?n(Zy&
 LCMapStringEx
 LCMapStringW
-LFB; FB;\FB;
+L`B;]
+L`B;^]
+L`B;_^]
+L`B;j
+LaB;3
+LauncherPath
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryExA
 LoadLibraryExW
+LocaleNameToLCID
 Looking up breakpad interfaces from steamclient
+MB(iVR
 MM/dd/yy
 March
-MessageBoxW
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Monday
 MultiByteToWideChar
-NA;8NA;\NA;#
+NAN(IND)
+NAN(SNAN)
+No %s
+No appID found.  Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
 November
-OA; OA;
 October
 OpenProcess
 OutputDebugStringA
-OutputDebugStringW
-P1f1&2
-P8B;\8B;
 PADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
-PP9E u
+PAq=?Mp#
+PP9E u:PPVWP
 PPPPP
-PSSSSV
-PUC;]
-PVWh@
-PWWWWV
-PYC;t
-PjdSQ
+PPPPPPPP
+PPPPPWS
+PSj W
+PaB;]
+Ph4hB;hDhB;h
+PhLiB;S
+PhXkB;
+PhhkB;
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Ph|kB;
+Pz}b!
+QQSVW
 QQSVWd
-QVWSj
+QQSVj8j@
+QSj W
 QueryPerformanceCounter
-RC;N_j
-RC;Y^
-RSDS9
+RSDSO
 RaiseException
 ReadConsoleW
 ReadFile
 RegCloseKey
 RegOpenKeyExW
 RegQueryValueExW
+ResetEvent
 RtlUnwind
+S0Q0O
+SA|X=G
 SHELL32.dll
-SPPP+
+SNAN)
+SPSVQ
+SPjdVQ
 SSSSS
-SVWPP
-SVWUj
+SSSSj
+STEAMAPPLIST_INTERFACE_VERSION001
+STEAMAPPS_INTERFACE_VERSION008
+STEAMHTMLSURFACE_INTERFACE_VERSION_005
+STEAMHTTP_INTERFACE_VERSION003
+STEAMINVENTORY_INTERFACE_V003
+STEAMMUSICREMOTE_INTERFACE_VERSION001
+STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
+STEAMREMOTEPLAY_INTERFACE_VERSION002
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
+STEAMSCREENSHOTS_INTERFACE_VERSION003
+STEAMUGC_INTERFACE_VERSION018
+STEAMUSERSTATS_INTERFACE_VERSION012
+STEAMVIDEO_INTERFACE_V003
+SVWh 
+SWj P
 Saturday
 September
-SetDefaultDllDirectories
 SetEndOfFile
 SetEnvironmentVariableA
-SetFileInformationByHandleW
+SetEvent
 SetFilePointerEx
 SetLastError
 SetStdHandle
-SetThreadStackGuarantee
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUnhandledExceptionFilter
 Setting breakpad minidump AppID = %u
+Sh<jB;j
 ShellExecuteW
-Sleep
+SleepConditionVariableCS
 Software\Valve\Steam
 Software\Valve\Steam\ActiveProcess
 SteamAPI_GetHSteamPipe
@@ -899,7 +638,9 @@ SteamAPI_ISteamApps_BIsDlcInstalled
 SteamAPI_ISteamApps_BIsLowViolence
 SteamAPI_ISteamApps_BIsSubscribed
 SteamAPI_ISteamApps_BIsSubscribedApp
+SteamAPI_ISteamApps_BIsSubscribedFromFamilySharing
 SteamAPI_ISteamApps_BIsSubscribedFromFreeWeekend
+SteamAPI_ISteamApps_BIsTimedTrial
 SteamAPI_ISteamApps_BIsVACBanned
 SteamAPI_ISteamApps_GetAppBuildId
 SteamAPI_ISteamApps_GetAppInstallDir
@@ -912,11 +653,13 @@ SteamAPI_ISteamApps_GetDlcDownloadProgress
 SteamAPI_ISteamApps_GetEarliestPurchaseUnixTime
 SteamAPI_ISteamApps_GetFileDetails
 SteamAPI_ISteamApps_GetInstalledDepots
+SteamAPI_ISteamApps_GetLaunchCommandLine
 SteamAPI_ISteamApps_GetLaunchQueryParam
 SteamAPI_ISteamApps_InstallDLC
 SteamAPI_ISteamApps_MarkContentCorrupt
 SteamAPI_ISteamApps_RequestAllProofOfPurchaseKeys
 SteamAPI_ISteamApps_RequestAppProofOfPurchaseKey
+SteamAPI_ISteamApps_SetDlcContext
 SteamAPI_ISteamApps_UninstallDLC
 SteamAPI_ISteamClient_BReleaseSteamPipe
 SteamAPI_ISteamClient_BShutdownIfAllPipesClosed
@@ -928,11 +671,13 @@ SteamAPI_ISteamClient_GetISteamAppList
 SteamAPI_ISteamClient_GetISteamApps
 SteamAPI_ISteamClient_GetISteamController
 SteamAPI_ISteamClient_GetISteamFriends
+SteamAPI_ISteamClient_GetISteamGameSearch
 SteamAPI_ISteamClient_GetISteamGameServer
 SteamAPI_ISteamClient_GetISteamGameServerStats
 SteamAPI_ISteamClient_GetISteamGenericInterface
 SteamAPI_ISteamClient_GetISteamHTMLSurface
 SteamAPI_ISteamClient_GetISteamHTTP
+SteamAPI_ISteamClient_GetISteamInput
 SteamAPI_ISteamClient_GetISteamInventory
 SteamAPI_ISteamClient_GetISteamMatchmaking
 SteamAPI_ISteamClient_GetISteamMatchmakingServers
@@ -940,6 +685,8 @@ SteamAPI_ISteamClient_GetISteamMusic
 SteamAPI_ISteamClient_GetISteamMusicRemote
 SteamAPI_ISteamClient_GetISteamNetworking
 SteamAPI_ISteamClient_GetISteamParentalSettings
+SteamAPI_ISteamClient_GetISteamParties
+SteamAPI_ISteamClient_GetISteamRemotePlay
 SteamAPI_ISteamClient_GetISteamRemoteStorage
 SteamAPI_ISteamClient_GetISteamScreenshots
 SteamAPI_ISteamClient_GetISteamUGC
@@ -954,12 +701,14 @@ SteamAPI_ISteamController_ActivateActionSet
 SteamAPI_ISteamController_ActivateActionSetLayer
 SteamAPI_ISteamController_DeactivateActionSetLayer
 SteamAPI_ISteamController_DeactivateAllActionSetLayers
+SteamAPI_ISteamController_GetActionOriginFromXboxOrigin
 SteamAPI_ISteamController_GetActionSetHandle
 SteamAPI_ISteamController_GetActiveActionSetLayers
 SteamAPI_ISteamController_GetAnalogActionData
 SteamAPI_ISteamController_GetAnalogActionHandle
 SteamAPI_ISteamController_GetAnalogActionOrigins
 SteamAPI_ISteamController_GetConnectedControllers
+SteamAPI_ISteamController_GetControllerBindingRevision
 SteamAPI_ISteamController_GetControllerForGamepadIndex
 SteamAPI_ISteamController_GetCurrentActionSet
 SteamAPI_ISteamController_GetDigitalActionData
@@ -967,25 +716,29 @@ SteamAPI_ISteamController_GetDigitalActionHandle
 SteamAPI_ISteamController_GetDigitalActionOrigins
 SteamAPI_ISteamController_GetGamepadIndexForController
 SteamAPI_ISteamController_GetGlyphForActionOrigin
+SteamAPI_ISteamController_GetGlyphForXboxOrigin
 SteamAPI_ISteamController_GetInputTypeForHandle
 SteamAPI_ISteamController_GetMotionData
 SteamAPI_ISteamController_GetStringForActionOrigin
+SteamAPI_ISteamController_GetStringForXboxOrigin
 SteamAPI_ISteamController_Init
 SteamAPI_ISteamController_RunFrame
 SteamAPI_ISteamController_SetLEDColor
-SteamAPI_ISteamController_ShowAnalogActionOrigins
 SteamAPI_ISteamController_ShowBindingPanel
-SteamAPI_ISteamController_ShowDigitalActionOrigins
 SteamAPI_ISteamController_Shutdown
 SteamAPI_ISteamController_StopAnalogActionMomentum
+SteamAPI_ISteamController_TranslateActionOrigin
 SteamAPI_ISteamController_TriggerHapticPulse
 SteamAPI_ISteamController_TriggerRepeatedHapticPulse
 SteamAPI_ISteamController_TriggerVibration
 SteamAPI_ISteamFriends_ActivateGameOverlay
 SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog
+SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialogConnectString
+SteamAPI_ISteamFriends_ActivateGameOverlayRemotePlayTogetherInviteDialog
 SteamAPI_ISteamFriends_ActivateGameOverlayToStore
 SteamAPI_ISteamFriends_ActivateGameOverlayToUser
 SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage
+SteamAPI_ISteamFriends_BHasEquippedProfileItem
 SteamAPI_ISteamFriends_ClearRichPresence
 SteamAPI_ISteamFriends_CloseClanChatWindowInSteam
 SteamAPI_ISteamFriends_DownloadClanActivityCounts
@@ -1027,9 +780,12 @@ SteamAPI_ISteamFriends_GetFriendsGroupMembersList
 SteamAPI_ISteamFriends_GetFriendsGroupName
 SteamAPI_ISteamFriends_GetLargeFriendAvatar
 SteamAPI_ISteamFriends_GetMediumFriendAvatar
+SteamAPI_ISteamFriends_GetNumChatsWithUnreadPriorityMessages
 SteamAPI_ISteamFriends_GetPersonaName
 SteamAPI_ISteamFriends_GetPersonaState
 SteamAPI_ISteamFriends_GetPlayerNickname
+SteamAPI_ISteamFriends_GetProfileItemPropertyString
+SteamAPI_ISteamFriends_GetProfileItemPropertyUint
 SteamAPI_ISteamFriends_GetSmallFriendAvatar
 SteamAPI_ISteamFriends_GetUserRestrictions
 SteamAPI_ISteamFriends_HasFriend
@@ -1043,8 +799,10 @@ SteamAPI_ISteamFriends_IsUserInSource
 SteamAPI_ISteamFriends_JoinClanChatRoom
 SteamAPI_ISteamFriends_LeaveClanChatRoom
 SteamAPI_ISteamFriends_OpenClanChatWindowInSteam
+SteamAPI_ISteamFriends_RegisterProtocolInOverlayBrowser
 SteamAPI_ISteamFriends_ReplyToFriendMessage
 SteamAPI_ISteamFriends_RequestClanOfficerList
+SteamAPI_ISteamFriends_RequestEquippedProfileItems
 SteamAPI_ISteamFriends_RequestFriendRichPresence
 SteamAPI_ISteamFriends_RequestUserInformation
 SteamAPI_ISteamFriends_SendClanChatMessage
@@ -1053,14 +811,28 @@ SteamAPI_ISteamFriends_SetListenForFriendsMessages
 SteamAPI_ISteamFriends_SetPersonaName
 SteamAPI_ISteamFriends_SetPlayedWith
 SteamAPI_ISteamFriends_SetRichPresence
+SteamAPI_ISteamGameSearch_AcceptGame
+SteamAPI_ISteamGameSearch_AddGameSearchParams
+SteamAPI_ISteamGameSearch_CancelRequestPlayersForGame
+SteamAPI_ISteamGameSearch_DeclineGame
+SteamAPI_ISteamGameSearch_EndGame
+SteamAPI_ISteamGameSearch_EndGameSearch
+SteamAPI_ISteamGameSearch_HostConfirmGameStart
+SteamAPI_ISteamGameSearch_RequestPlayersForGame
+SteamAPI_ISteamGameSearch_RetrieveConnectionDetails
+SteamAPI_ISteamGameSearch_SearchForGameSolo
+SteamAPI_ISteamGameSearch_SearchForGameWithLobby
+SteamAPI_ISteamGameSearch_SetConnectionDetails
+SteamAPI_ISteamGameSearch_SetGameHostParams
+SteamAPI_ISteamGameSearch_SubmitPlayerResult
 SteamAPI_ISteamGameServerStats_ClearUserAchievement
 SteamAPI_ISteamGameServerStats_GetUserAchievement
-SteamAPI_ISteamGameServerStats_GetUserStat
-SteamAPI_ISteamGameServerStats_GetUserStat0
+SteamAPI_ISteamGameServerStats_GetUserStatFloat
+SteamAPI_ISteamGameServerStats_GetUserStatInt32
 SteamAPI_ISteamGameServerStats_RequestUserStats
 SteamAPI_ISteamGameServerStats_SetUserAchievement
-SteamAPI_ISteamGameServerStats_SetUserStat
-SteamAPI_ISteamGameServerStats_SetUserStat0
+SteamAPI_ISteamGameServerStats_SetUserStatFloat
+SteamAPI_ISteamGameServerStats_SetUserStatInt32
 SteamAPI_ISteamGameServerStats_StoreUserStats
 SteamAPI_ISteamGameServerStats_UpdateUserAvgRateStat
 SteamAPI_ISteamGameServer_AssociateWithClan
@@ -1072,9 +844,7 @@ SteamAPI_ISteamGameServer_CancelAuthTicket
 SteamAPI_ISteamGameServer_ClearAllKeyValues
 SteamAPI_ISteamGameServer_ComputeNewPlayerCompatibility
 SteamAPI_ISteamGameServer_CreateUnauthenticatedUserConnection
-SteamAPI_ISteamGameServer_EnableHeartbeats
 SteamAPI_ISteamGameServer_EndAuthSession
-SteamAPI_ISteamGameServer_ForceHeartbeat
 SteamAPI_ISteamGameServer_GetAuthSessionTicket
 SteamAPI_ISteamGameServer_GetGameplayStats
 SteamAPI_ISteamGameServer_GetNextOutgoingPacket
@@ -1082,19 +852,18 @@ SteamAPI_ISteamGameServer_GetPublicIP
 SteamAPI_ISteamGameServer_GetServerReputation
 SteamAPI_ISteamGameServer_GetSteamID
 SteamAPI_ISteamGameServer_HandleIncomingPacket
-SteamAPI_ISteamGameServer_InitGameServer
 SteamAPI_ISteamGameServer_LogOff
 SteamAPI_ISteamGameServer_LogOn
 SteamAPI_ISteamGameServer_LogOnAnonymous
 SteamAPI_ISteamGameServer_RequestUserGroupStatus
-SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate
-SteamAPI_ISteamGameServer_SendUserDisconnect
+SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate_DEPRECATED
+SteamAPI_ISteamGameServer_SendUserDisconnect_DEPRECATED
+SteamAPI_ISteamGameServer_SetAdvertiseServerActive
 SteamAPI_ISteamGameServer_SetBotPlayerCount
 SteamAPI_ISteamGameServer_SetDedicatedServer
 SteamAPI_ISteamGameServer_SetGameData
 SteamAPI_ISteamGameServer_SetGameDescription
 SteamAPI_ISteamGameServer_SetGameTags
-SteamAPI_ISteamGameServer_SetHeartbeatInterval
 SteamAPI_ISteamGameServer_SetKeyValue
 SteamAPI_ISteamGameServer_SetMapName
 SteamAPI_ISteamGameServer_SetMaxPlayerCount
@@ -1111,8 +880,8 @@ SteamAPI_ISteamHTMLSurface_AddHeader
 SteamAPI_ISteamHTMLSurface_AllowStartRequest
 SteamAPI_ISteamHTMLSurface_CopyToClipboard
 SteamAPI_ISteamHTMLSurface_CreateBrowser
-SteamAPI_ISteamHTMLSurface_DestructISteamHTMLSurface
 SteamAPI_ISteamHTMLSurface_ExecuteJavascript
+SteamAPI_ISteamHTMLSurface_FileLoadDialogResponse
 SteamAPI_ISteamHTMLSurface_Find
 SteamAPI_ISteamHTMLSurface_GetLinkAtPosition
 SteamAPI_ISteamHTMLSurface_GoBack
@@ -1128,6 +897,7 @@ SteamAPI_ISteamHTMLSurface_MouseDown
 SteamAPI_ISteamHTMLSurface_MouseMove
 SteamAPI_ISteamHTMLSurface_MouseUp
 SteamAPI_ISteamHTMLSurface_MouseWheel
+SteamAPI_ISteamHTMLSurface_OpenDeveloperTools
 SteamAPI_ISteamHTMLSurface_PasteFromClipboard
 SteamAPI_ISteamHTMLSurface_Reload
 SteamAPI_ISteamHTMLSurface_RemoveBrowser
@@ -1168,6 +938,54 @@ SteamAPI_ISteamHTTP_SetHTTPRequestNetworkActivityTimeout
 SteamAPI_ISteamHTTP_SetHTTPRequestRawPostBody
 SteamAPI_ISteamHTTP_SetHTTPRequestRequiresVerifiedCertificate
 SteamAPI_ISteamHTTP_SetHTTPRequestUserAgentInfo
+SteamAPI_ISteamInput_ActivateActionSet
+SteamAPI_ISteamInput_ActivateActionSetLayer
+SteamAPI_ISteamInput_BNewDataAvailable
+SteamAPI_ISteamInput_BWaitForData
+SteamAPI_ISteamInput_DeactivateActionSetLayer
+SteamAPI_ISteamInput_DeactivateAllActionSetLayers
+SteamAPI_ISteamInput_EnableActionEventCallbacks
+SteamAPI_ISteamInput_EnableDeviceCallbacks
+SteamAPI_ISteamInput_GetActionOriginFromXboxOrigin
+SteamAPI_ISteamInput_GetActionSetHandle
+SteamAPI_ISteamInput_GetActiveActionSetLayers
+SteamAPI_ISteamInput_GetAnalogActionData
+SteamAPI_ISteamInput_GetAnalogActionHandle
+SteamAPI_ISteamInput_GetAnalogActionOrigins
+SteamAPI_ISteamInput_GetConnectedControllers
+SteamAPI_ISteamInput_GetControllerForGamepadIndex
+SteamAPI_ISteamInput_GetCurrentActionSet
+SteamAPI_ISteamInput_GetDeviceBindingRevision
+SteamAPI_ISteamInput_GetDigitalActionData
+SteamAPI_ISteamInput_GetDigitalActionHandle
+SteamAPI_ISteamInput_GetDigitalActionOrigins
+SteamAPI_ISteamInput_GetGamepadIndexForController
+SteamAPI_ISteamInput_GetGlyphForActionOrigin_Legacy
+SteamAPI_ISteamInput_GetGlyphForXboxOrigin
+SteamAPI_ISteamInput_GetGlyphPNGForActionOrigin
+SteamAPI_ISteamInput_GetGlyphSVGForActionOrigin
+SteamAPI_ISteamInput_GetInputTypeForHandle
+SteamAPI_ISteamInput_GetMotionData
+SteamAPI_ISteamInput_GetRemotePlaySessionID
+SteamAPI_ISteamInput_GetSessionInputConfigurationSettings
+SteamAPI_ISteamInput_GetStringForActionOrigin
+SteamAPI_ISteamInput_GetStringForAnalogActionName
+SteamAPI_ISteamInput_GetStringForDigitalActionName
+SteamAPI_ISteamInput_GetStringForXboxOrigin
+SteamAPI_ISteamInput_Init
+SteamAPI_ISteamInput_Legacy_TriggerHapticPulse
+SteamAPI_ISteamInput_Legacy_TriggerRepeatedHapticPulse
+SteamAPI_ISteamInput_RunFrame
+SteamAPI_ISteamInput_SetDualSenseTriggerEffect
+SteamAPI_ISteamInput_SetInputActionManifestFilePath
+SteamAPI_ISteamInput_SetLEDColor
+SteamAPI_ISteamInput_ShowBindingPanel
+SteamAPI_ISteamInput_Shutdown
+SteamAPI_ISteamInput_StopAnalogActionMomentum
+SteamAPI_ISteamInput_TranslateActionOrigin
+SteamAPI_ISteamInput_TriggerSimpleHapticEvent
+SteamAPI_ISteamInput_TriggerVibration
+SteamAPI_ISteamInput_TriggerVibrationExtended
 SteamAPI_ISteamInventory_AddPromoItem
 SteamAPI_ISteamInventory_AddPromoItems
 SteamAPI_ISteamInventory_CheckResultSteamID
@@ -1189,16 +1007,17 @@ SteamAPI_ISteamInventory_GetResultItems
 SteamAPI_ISteamInventory_GetResultStatus
 SteamAPI_ISteamInventory_GetResultTimestamp
 SteamAPI_ISteamInventory_GrantPromoItems
+SteamAPI_ISteamInventory_InspectItem
 SteamAPI_ISteamInventory_LoadItemDefinitions
 SteamAPI_ISteamInventory_RemoveProperty
 SteamAPI_ISteamInventory_RequestEligiblePromoItemDefinitionsIDs
 SteamAPI_ISteamInventory_RequestPrices
 SteamAPI_ISteamInventory_SendItemDropHeartbeat
 SteamAPI_ISteamInventory_SerializeResult
-SteamAPI_ISteamInventory_SetProperty
-SteamAPI_ISteamInventory_SetProperty0
-SteamAPI_ISteamInventory_SetProperty1
-SteamAPI_ISteamInventory_SetProperty2
+SteamAPI_ISteamInventory_SetPropertyBool
+SteamAPI_ISteamInventory_SetPropertyFloat
+SteamAPI_ISteamInventory_SetPropertyInt64
+SteamAPI_ISteamInventory_SetPropertyString
 SteamAPI_ISteamInventory_StartPurchase
 SteamAPI_ISteamInventory_StartUpdateProperties
 SteamAPI_ISteamInventory_SubmitUpdateProperties
@@ -1312,6 +1131,104 @@ SteamAPI_ISteamMusic_Play
 SteamAPI_ISteamMusic_PlayNext
 SteamAPI_ISteamMusic_PlayPrevious
 SteamAPI_ISteamMusic_SetVolume
+SteamAPI_ISteamNetworkingFakeUDPPort_DestroyFakeUDPPort
+SteamAPI_ISteamNetworkingFakeUDPPort_ReceiveMessages
+SteamAPI_ISteamNetworkingFakeUDPPort_ScheduleCleanup
+SteamAPI_ISteamNetworkingFakeUDPPort_SendMessageToFakeIP
+SteamAPI_ISteamNetworkingMessages_AcceptSessionWithUser
+SteamAPI_ISteamNetworkingMessages_CloseChannelWithUser
+SteamAPI_ISteamNetworkingMessages_CloseSessionWithUser
+SteamAPI_ISteamNetworkingMessages_GetSessionConnectionInfo
+SteamAPI_ISteamNetworkingMessages_ReceiveMessagesOnChannel
+SteamAPI_ISteamNetworkingMessages_SendMessageToUser
+SteamAPI_ISteamNetworkingSockets_AcceptConnection
+SteamAPI_ISteamNetworkingSockets_BeginAsyncRequestFakeIP
+SteamAPI_ISteamNetworkingSockets_CloseConnection
+SteamAPI_ISteamNetworkingSockets_CloseListenSocket
+SteamAPI_ISteamNetworkingSockets_ConfigureConnectionLanes
+SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress
+SteamAPI_ISteamNetworkingSockets_ConnectP2P
+SteamAPI_ISteamNetworkingSockets_ConnectP2PCustomSignaling
+SteamAPI_ISteamNetworkingSockets_ConnectToHostedDedicatedServer
+SteamAPI_ISteamNetworkingSockets_CreateFakeUDPPort
+SteamAPI_ISteamNetworkingSockets_CreateHostedDedicatedServerListenSocket
+SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP
+SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P
+SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2PFakeIP
+SteamAPI_ISteamNetworkingSockets_CreatePollGroup
+SteamAPI_ISteamNetworkingSockets_CreateSocketPair
+SteamAPI_ISteamNetworkingSockets_DestroyPollGroup
+SteamAPI_ISteamNetworkingSockets_FindRelayAuthTicketForServer
+SteamAPI_ISteamNetworkingSockets_FlushMessagesOnConnection
+SteamAPI_ISteamNetworkingSockets_GetAuthenticationStatus
+SteamAPI_ISteamNetworkingSockets_GetCertificateRequest
+SteamAPI_ISteamNetworkingSockets_GetConnectionInfo
+SteamAPI_ISteamNetworkingSockets_GetConnectionName
+SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus
+SteamAPI_ISteamNetworkingSockets_GetConnectionUserData
+SteamAPI_ISteamNetworkingSockets_GetDetailedConnectionStatus
+SteamAPI_ISteamNetworkingSockets_GetFakeIP
+SteamAPI_ISteamNetworkingSockets_GetGameCoordinatorServerLogin
+SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerAddress
+SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPOPID
+SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPort
+SteamAPI_ISteamNetworkingSockets_GetIdentity
+SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress
+SteamAPI_ISteamNetworkingSockets_GetRemoteFakeIPForConnection
+SteamAPI_ISteamNetworkingSockets_InitAuthentication
+SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection
+SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup
+SteamAPI_ISteamNetworkingSockets_ReceivedP2PCustomSignal
+SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket
+SteamAPI_ISteamNetworkingSockets_ResetIdentity
+SteamAPI_ISteamNetworkingSockets_RunCallbacks
+SteamAPI_ISteamNetworkingSockets_SendMessageToConnection
+SteamAPI_ISteamNetworkingSockets_SendMessages
+SteamAPI_ISteamNetworkingSockets_SetCertificate
+SteamAPI_ISteamNetworkingSockets_SetConnectionName
+SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup
+SteamAPI_ISteamNetworkingSockets_SetConnectionUserData
+SteamAPI_ISteamNetworkingUtils_AllocateMessage
+SteamAPI_ISteamNetworkingUtils_CheckPingDataUpToDate
+SteamAPI_ISteamNetworkingUtils_ConvertPingLocationToString
+SteamAPI_ISteamNetworkingUtils_EstimatePingTimeBetweenTwoLocations
+SteamAPI_ISteamNetworkingUtils_EstimatePingTimeFromLocalHost
+SteamAPI_ISteamNetworkingUtils_GetConfigValue
+SteamAPI_ISteamNetworkingUtils_GetConfigValueInfo
+SteamAPI_ISteamNetworkingUtils_GetDirectPingToPOP
+SteamAPI_ISteamNetworkingUtils_GetIPv4FakeIPType
+SteamAPI_ISteamNetworkingUtils_GetLocalPingLocation
+SteamAPI_ISteamNetworkingUtils_GetLocalTimestamp
+SteamAPI_ISteamNetworkingUtils_GetPOPCount
+SteamAPI_ISteamNetworkingUtils_GetPOPList
+SteamAPI_ISteamNetworkingUtils_GetPingToDataCenter
+SteamAPI_ISteamNetworkingUtils_GetRealIdentityForFakeIP
+SteamAPI_ISteamNetworkingUtils_GetRelayNetworkStatus
+SteamAPI_ISteamNetworkingUtils_InitRelayNetworkAccess
+SteamAPI_ISteamNetworkingUtils_IsFakeIPv4
+SteamAPI_ISteamNetworkingUtils_IterateGenericEditableConfigValues
+SteamAPI_ISteamNetworkingUtils_ParsePingLocationString
+SteamAPI_ISteamNetworkingUtils_SetConfigValue
+SteamAPI_ISteamNetworkingUtils_SetConfigValueStruct
+SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueFloat
+SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueInt32
+SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueString
+SteamAPI_ISteamNetworkingUtils_SetDebugOutputFunction
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_FakeIPResult
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionFailed
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionRequest
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetAuthenticationStatusChanged
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetConnectionStatusChanged
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamRelayNetworkStatusChanged
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueFloat
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueInt32
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValuePtr
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueString
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_GetFakeIPType
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ParseString
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ToString
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ParseString
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ToString
 SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser
 SteamAPI_ISteamNetworking_AllowP2PPacketRelay
 SteamAPI_ISteamNetworking_CloseP2PChannelWithUser
@@ -1340,9 +1257,31 @@ SteamAPI_ISteamParentalSettings_BIsFeatureBlocked
 SteamAPI_ISteamParentalSettings_BIsFeatureInBlockList
 SteamAPI_ISteamParentalSettings_BIsParentalLockEnabled
 SteamAPI_ISteamParentalSettings_BIsParentalLockLocked
+SteamAPI_ISteamParties_CancelReservation
+SteamAPI_ISteamParties_ChangeNumOpenSlots
+SteamAPI_ISteamParties_CreateBeacon
+SteamAPI_ISteamParties_DestroyBeacon
+SteamAPI_ISteamParties_GetAvailableBeaconLocations
+SteamAPI_ISteamParties_GetBeaconByIndex
+SteamAPI_ISteamParties_GetBeaconDetails
+SteamAPI_ISteamParties_GetBeaconLocationData
+SteamAPI_ISteamParties_GetNumActiveBeacons
+SteamAPI_ISteamParties_GetNumAvailableBeaconLocations
+SteamAPI_ISteamParties_JoinParty
+SteamAPI_ISteamParties_OnReservationCompleted
+SteamAPI_ISteamRemotePlay_BGetSessionClientResolution
+SteamAPI_ISteamRemotePlay_BSendRemotePlayTogetherInvite
+SteamAPI_ISteamRemotePlay_BStartRemotePlayTogether
+SteamAPI_ISteamRemotePlay_GetSessionClientFormFactor
+SteamAPI_ISteamRemotePlay_GetSessionClientName
+SteamAPI_ISteamRemotePlay_GetSessionCount
+SteamAPI_ISteamRemotePlay_GetSessionID
+SteamAPI_ISteamRemotePlay_GetSessionSteamID
+SteamAPI_ISteamRemoteStorage_BeginFileWriteBatch
 SteamAPI_ISteamRemoteStorage_CommitPublishedFileUpdate
 SteamAPI_ISteamRemoteStorage_CreatePublishedFileUpdateRequest
 SteamAPI_ISteamRemoteStorage_DeletePublishedFile
+SteamAPI_ISteamRemoteStorage_EndFileWriteBatch
 SteamAPI_ISteamRemoteStorage_EnumeratePublishedFilesByUserAction
 SteamAPI_ISteamRemoteStorage_EnumeratePublishedWorkshopFiles
 SteamAPI_ISteamRemoteStorage_EnumerateUserPublishedFiles
@@ -1368,6 +1307,8 @@ SteamAPI_ISteamRemoteStorage_GetFileCount
 SteamAPI_ISteamRemoteStorage_GetFileNameAndSize
 SteamAPI_ISteamRemoteStorage_GetFileSize
 SteamAPI_ISteamRemoteStorage_GetFileTimestamp
+SteamAPI_ISteamRemoteStorage_GetLocalFileChange
+SteamAPI_ISteamRemoteStorage_GetLocalFileChangeCount
 SteamAPI_ISteamRemoteStorage_GetPublishedFileDetails
 SteamAPI_ISteamRemoteStorage_GetPublishedItemVoteDetails
 SteamAPI_ISteamRemoteStorage_GetQuota
@@ -1405,6 +1346,7 @@ SteamAPI_ISteamScreenshots_TagUser
 SteamAPI_ISteamScreenshots_TriggerScreenshot
 SteamAPI_ISteamScreenshots_WriteScreenshot
 SteamAPI_ISteamUGC_AddAppDependency
+SteamAPI_ISteamUGC_AddContentDescriptor
 SteamAPI_ISteamUGC_AddDependency
 SteamAPI_ISteamUGC_AddExcludedTag
 SteamAPI_ISteamUGC_AddItemKeyValueTag
@@ -1413,9 +1355,11 @@ SteamAPI_ISteamUGC_AddItemPreviewVideo
 SteamAPI_ISteamUGC_AddItemToFavorites
 SteamAPI_ISteamUGC_AddRequiredKeyValueTag
 SteamAPI_ISteamUGC_AddRequiredTag
+SteamAPI_ISteamUGC_AddRequiredTagGroup
 SteamAPI_ISteamUGC_BInitWorkshopForGameServer
 SteamAPI_ISteamUGC_CreateItem
-SteamAPI_ISteamUGC_CreateQueryAllUGCRequest
+SteamAPI_ISteamUGC_CreateQueryAllUGCRequestCursor
+SteamAPI_ISteamUGC_CreateQueryAllUGCRequestPage
 SteamAPI_ISteamUGC_CreateQueryUGCDetailsRequest
 SteamAPI_ISteamUGC_CreateQueryUserUGCRequest
 SteamAPI_ISteamUGC_DeleteItem
@@ -1426,19 +1370,28 @@ SteamAPI_ISteamUGC_GetItemInstallInfo
 SteamAPI_ISteamUGC_GetItemState
 SteamAPI_ISteamUGC_GetItemUpdateProgress
 SteamAPI_ISteamUGC_GetNumSubscribedItems
+SteamAPI_ISteamUGC_GetQueryFirstUGCKeyValueTag
 SteamAPI_ISteamUGC_GetQueryUGCAdditionalPreview
 SteamAPI_ISteamUGC_GetQueryUGCChildren
+SteamAPI_ISteamUGC_GetQueryUGCContentDescriptors
 SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag
 SteamAPI_ISteamUGC_GetQueryUGCMetadata
 SteamAPI_ISteamUGC_GetQueryUGCNumAdditionalPreviews
 SteamAPI_ISteamUGC_GetQueryUGCNumKeyValueTags
+SteamAPI_ISteamUGC_GetQueryUGCNumTags
 SteamAPI_ISteamUGC_GetQueryUGCPreviewURL
 SteamAPI_ISteamUGC_GetQueryUGCResult
 SteamAPI_ISteamUGC_GetQueryUGCStatistic
+SteamAPI_ISteamUGC_GetQueryUGCTag
+SteamAPI_ISteamUGC_GetQueryUGCTagDisplayName
 SteamAPI_ISteamUGC_GetSubscribedItems
+SteamAPI_ISteamUGC_GetUserContentDescriptorPreferences
 SteamAPI_ISteamUGC_GetUserItemVote
+SteamAPI_ISteamUGC_GetWorkshopEULAStatus
 SteamAPI_ISteamUGC_ReleaseQueryUGCRequest
+SteamAPI_ISteamUGC_RemoveAllItemKeyValueTags
 SteamAPI_ISteamUGC_RemoveAppDependency
+SteamAPI_ISteamUGC_RemoveContentDescriptor
 SteamAPI_ISteamUGC_RemoveDependency
 SteamAPI_ISteamUGC_RemoveItemFromFavorites
 SteamAPI_ISteamUGC_RemoveItemKeyValueTags
@@ -1446,6 +1399,7 @@ SteamAPI_ISteamUGC_RemoveItemPreview
 SteamAPI_ISteamUGC_RequestUGCDetails
 SteamAPI_ISteamUGC_SendQueryUGCRequest
 SteamAPI_ISteamUGC_SetAllowCachedResponse
+SteamAPI_ISteamUGC_SetAllowLegacyUpload
 SteamAPI_ISteamUGC_SetCloudFileNameFilter
 SteamAPI_ISteamUGC_SetItemContent
 SteamAPI_ISteamUGC_SetItemDescription
@@ -1467,7 +1421,10 @@ SteamAPI_ISteamUGC_SetReturnOnlyIDs
 SteamAPI_ISteamUGC_SetReturnPlaytimeStats
 SteamAPI_ISteamUGC_SetReturnTotalOnly
 SteamAPI_ISteamUGC_SetSearchText
+SteamAPI_ISteamUGC_SetTimeCreatedDateRange
+SteamAPI_ISteamUGC_SetTimeUpdatedDateRange
 SteamAPI_ISteamUGC_SetUserItemVote
+SteamAPI_ISteamUGC_ShowWorkshopEULA
 SteamAPI_ISteamUGC_StartItemUpdate
 SteamAPI_ISteamUGC_StartPlaytimeTracking
 SteamAPI_ISteamUGC_StopPlaytimeTracking
@@ -1490,11 +1447,13 @@ SteamAPI_ISteamUserStats_GetAchievementAndUnlockTime
 SteamAPI_ISteamUserStats_GetAchievementDisplayAttribute
 SteamAPI_ISteamUserStats_GetAchievementIcon
 SteamAPI_ISteamUserStats_GetAchievementName
+SteamAPI_ISteamUserStats_GetAchievementProgressLimitsFloat
+SteamAPI_ISteamUserStats_GetAchievementProgressLimitsInt32
 SteamAPI_ISteamUserStats_GetDownloadedLeaderboardEntry
-SteamAPI_ISteamUserStats_GetGlobalStat
-SteamAPI_ISteamUserStats_GetGlobalStat0
-SteamAPI_ISteamUserStats_GetGlobalStatHistory
-SteamAPI_ISteamUserStats_GetGlobalStatHistory0
+SteamAPI_ISteamUserStats_GetGlobalStatDouble
+SteamAPI_ISteamUserStats_GetGlobalStatHistoryDouble
+SteamAPI_ISteamUserStats_GetGlobalStatHistoryInt64
+SteamAPI_ISteamUserStats_GetGlobalStatInt64
 SteamAPI_ISteamUserStats_GetLeaderboardDisplayType
 SteamAPI_ISteamUserStats_GetLeaderboardEntryCount
 SteamAPI_ISteamUserStats_GetLeaderboardName
@@ -1503,12 +1462,12 @@ SteamAPI_ISteamUserStats_GetMostAchievedAchievementInfo
 SteamAPI_ISteamUserStats_GetNextMostAchievedAchievementInfo
 SteamAPI_ISteamUserStats_GetNumAchievements
 SteamAPI_ISteamUserStats_GetNumberOfCurrentPlayers
-SteamAPI_ISteamUserStats_GetStat
-SteamAPI_ISteamUserStats_GetStat0
+SteamAPI_ISteamUserStats_GetStatFloat
+SteamAPI_ISteamUserStats_GetStatInt32
 SteamAPI_ISteamUserStats_GetUserAchievement
 SteamAPI_ISteamUserStats_GetUserAchievementAndUnlockTime
-SteamAPI_ISteamUserStats_GetUserStat
-SteamAPI_ISteamUserStats_GetUserStat0
+SteamAPI_ISteamUserStats_GetUserStatFloat
+SteamAPI_ISteamUserStats_GetUserStatInt32
 SteamAPI_ISteamUserStats_IndicateAchievementProgress
 SteamAPI_ISteamUserStats_RequestCurrentStats
 SteamAPI_ISteamUserStats_RequestGlobalAchievementPercentages
@@ -1516,8 +1475,8 @@ SteamAPI_ISteamUserStats_RequestGlobalStats
 SteamAPI_ISteamUserStats_RequestUserStats
 SteamAPI_ISteamUserStats_ResetAllStats
 SteamAPI_ISteamUserStats_SetAchievement
-SteamAPI_ISteamUserStats_SetStat
-SteamAPI_ISteamUserStats_SetStat0
+SteamAPI_ISteamUserStats_SetStatFloat
+SteamAPI_ISteamUserStats_SetStatInt32
 SteamAPI_ISteamUserStats_StoreStats
 SteamAPI_ISteamUserStats_UpdateAvgRateStat
 SteamAPI_ISteamUserStats_UploadLeaderboardScore
@@ -1528,64 +1487,86 @@ SteamAPI_ISteamUser_BIsPhoneRequiringVerification
 SteamAPI_ISteamUser_BIsPhoneVerified
 SteamAPI_ISteamUser_BIsTwoFactorEnabled
 SteamAPI_ISteamUser_BLoggedOn
+SteamAPI_ISteamUser_BSetDurationControlOnlineState
 SteamAPI_ISteamUser_BeginAuthSession
 SteamAPI_ISteamUser_CancelAuthTicket
 SteamAPI_ISteamUser_DecompressVoice
 SteamAPI_ISteamUser_EndAuthSession
 SteamAPI_ISteamUser_GetAuthSessionTicket
+SteamAPI_ISteamUser_GetAuthTicketForWebApi
 SteamAPI_ISteamUser_GetAvailableVoice
+SteamAPI_ISteamUser_GetDurationControl
 SteamAPI_ISteamUser_GetEncryptedAppTicket
 SteamAPI_ISteamUser_GetGameBadgeLevel
 SteamAPI_ISteamUser_GetHSteamUser
+SteamAPI_ISteamUser_GetMarketEligibility
 SteamAPI_ISteamUser_GetPlayerSteamLevel
 SteamAPI_ISteamUser_GetSteamID
 SteamAPI_ISteamUser_GetUserDataFolder
 SteamAPI_ISteamUser_GetVoice
 SteamAPI_ISteamUser_GetVoiceOptimalSampleRate
-SteamAPI_ISteamUser_InitiateGameConnection
+SteamAPI_ISteamUser_InitiateGameConnection_DEPRECATED
 SteamAPI_ISteamUser_RequestEncryptedAppTicket
 SteamAPI_ISteamUser_RequestStoreAuthURL
 SteamAPI_ISteamUser_StartVoiceRecording
 SteamAPI_ISteamUser_StopVoiceRecording
-SteamAPI_ISteamUser_TerminateGameConnection
+SteamAPI_ISteamUser_TerminateGameConnection_DEPRECATED
 SteamAPI_ISteamUser_TrackAppUsageEvent
 SteamAPI_ISteamUser_UserHasLicenseForApp
 SteamAPI_ISteamUtils_BOverlayNeedsPresent
 SteamAPI_ISteamUtils_CheckFileSignature
+SteamAPI_ISteamUtils_DismissFloatingGamepadTextInput
+SteamAPI_ISteamUtils_FilterText
 SteamAPI_ISteamUtils_GetAPICallFailureReason
 SteamAPI_ISteamUtils_GetAPICallResult
 SteamAPI_ISteamUtils_GetAppID
-SteamAPI_ISteamUtils_GetCSERIPPort
 SteamAPI_ISteamUtils_GetConnectedUniverse
 SteamAPI_ISteamUtils_GetCurrentBatteryPower
 SteamAPI_ISteamUtils_GetEnteredGamepadTextInput
 SteamAPI_ISteamUtils_GetEnteredGamepadTextLength
 SteamAPI_ISteamUtils_GetIPCCallCount
 SteamAPI_ISteamUtils_GetIPCountry
+SteamAPI_ISteamUtils_GetIPv6ConnectivityState
 SteamAPI_ISteamUtils_GetImageRGBA
 SteamAPI_ISteamUtils_GetImageSize
 SteamAPI_ISteamUtils_GetSecondsSinceAppActive
 SteamAPI_ISteamUtils_GetSecondsSinceComputerActive
 SteamAPI_ISteamUtils_GetServerRealTime
 SteamAPI_ISteamUtils_GetSteamUILanguage
+SteamAPI_ISteamUtils_InitFilterText
 SteamAPI_ISteamUtils_IsAPICallCompleted
 SteamAPI_ISteamUtils_IsOverlayEnabled
+SteamAPI_ISteamUtils_IsSteamChinaLauncher
 SteamAPI_ISteamUtils_IsSteamInBigPictureMode
 SteamAPI_ISteamUtils_IsSteamRunningInVR
+SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck
 SteamAPI_ISteamUtils_IsVRHeadsetStreamingEnabled
+SteamAPI_ISteamUtils_SetGameLauncherMode
 SteamAPI_ISteamUtils_SetOverlayNotificationInset
 SteamAPI_ISteamUtils_SetOverlayNotificationPosition
 SteamAPI_ISteamUtils_SetVRHeadsetStreamingEnabled
 SteamAPI_ISteamUtils_SetWarningMessageHook
+SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput
 SteamAPI_ISteamUtils_ShowGamepadTextInput
 SteamAPI_ISteamUtils_StartVRDashboard
+SteamAPI_ISteamVideo_AddTimelineHighlightMarker
+SteamAPI_ISteamVideo_AddTimelineRangeEnd
+SteamAPI_ISteamVideo_AddTimelineRangeStart
+SteamAPI_ISteamVideo_AddTimelineTimestamp
 SteamAPI_ISteamVideo_GetOPFSettings
 SteamAPI_ISteamVideo_GetOPFStringForApp
 SteamAPI_ISteamVideo_GetVideoURL
 SteamAPI_ISteamVideo_IsBroadcasting
-SteamAPI_Init
+SteamAPI_ISteamVideo_SetTimelineGameMode
+SteamAPI_InitAnonymousUser
 SteamAPI_InitSafe
 SteamAPI_IsSteamRunning
+SteamAPI_ManualDispatch_FreeLastCallback
+SteamAPI_ManualDispatch_GetAPICallResult
+SteamAPI_ManualDispatch_GetNextCallback
+SteamAPI_ManualDispatch_Init
+SteamAPI_ManualDispatch_RunFrame
+SteamAPI_MatchMakingKeyValuePair_t_Construct
 SteamAPI_RegisterCallResult
 SteamAPI_RegisterCallback
 SteamAPI_ReleaseCurrentThreadMemory
@@ -1595,17 +1576,121 @@ SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_SetTryCatchCallbacks
 SteamAPI_Shutdown
+SteamAPI_SteamAppList_v001
+SteamAPI_SteamApps_v008
+SteamAPI_SteamController_v008
+SteamAPI_SteamDatagramHostedAddress_Clear
+SteamAPI_SteamDatagramHostedAddress_GetPopID
+SteamAPI_SteamDatagramHostedAddress_SetDevAddress
+SteamAPI_SteamFriends_v017
+SteamAPI_SteamGameSearch_v001
+SteamAPI_SteamGameServerHTTP_v003
+SteamAPI_SteamGameServerInventory_v003
+SteamAPI_SteamGameServerNetworkingMessages_SteamAPI_v002
+SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v012
+SteamAPI_SteamGameServerNetworking_v006
+SteamAPI_SteamGameServerStats_v001
+SteamAPI_SteamGameServerUGC_v018
+SteamAPI_SteamGameServerUtils_v010
+SteamAPI_SteamGameServer_v015
+SteamAPI_SteamHTMLSurface_v005
+SteamAPI_SteamHTTP_v003
+SteamAPI_SteamIPAddress_t_IsSet
+SteamAPI_SteamInput_v006
+SteamAPI_SteamInventory_v003
+SteamAPI_SteamMatchmakingServers_v002
+SteamAPI_SteamMatchmaking_v009
+SteamAPI_SteamMusicRemote_v001
+SteamAPI_SteamMusic_v001
+SteamAPI_SteamNetworkingConfigValue_t_SetFloat
+SteamAPI_SteamNetworkingConfigValue_t_SetInt32
+SteamAPI_SteamNetworkingConfigValue_t_SetInt64
+SteamAPI_SteamNetworkingConfigValue_t_SetPtr
+SteamAPI_SteamNetworkingConfigValue_t_SetString
+SteamAPI_SteamNetworkingIPAddr_Clear
+SteamAPI_SteamNetworkingIPAddr_GetFakeIPType
+SteamAPI_SteamNetworkingIPAddr_GetIPv4
+SteamAPI_SteamNetworkingIPAddr_IsEqualTo
+SteamAPI_SteamNetworkingIPAddr_IsFakeIP
+SteamAPI_SteamNetworkingIPAddr_IsIPv4
+SteamAPI_SteamNetworkingIPAddr_IsIPv6AllZeros
+SteamAPI_SteamNetworkingIPAddr_IsLocalHost
+SteamAPI_SteamNetworkingIPAddr_ParseString
+SteamAPI_SteamNetworkingIPAddr_SetIPv4
+SteamAPI_SteamNetworkingIPAddr_SetIPv6
+SteamAPI_SteamNetworkingIPAddr_SetIPv6LocalHost
+SteamAPI_SteamNetworkingIPAddr_ToString
+SteamAPI_SteamNetworkingIdentity_Clear
+SteamAPI_SteamNetworkingIdentity_GetFakeIPType
+SteamAPI_SteamNetworkingIdentity_GetGenericBytes
+SteamAPI_SteamNetworkingIdentity_GetGenericString
+SteamAPI_SteamNetworkingIdentity_GetIPAddr
+SteamAPI_SteamNetworkingIdentity_GetIPv4
+SteamAPI_SteamNetworkingIdentity_GetPSNID
+SteamAPI_SteamNetworkingIdentity_GetStadiaID
+SteamAPI_SteamNetworkingIdentity_GetSteamID
+SteamAPI_SteamNetworkingIdentity_GetSteamID64
+SteamAPI_SteamNetworkingIdentity_GetXboxPairwiseID
+SteamAPI_SteamNetworkingIdentity_IsEqualTo
+SteamAPI_SteamNetworkingIdentity_IsFakeIP
+SteamAPI_SteamNetworkingIdentity_IsInvalid
+SteamAPI_SteamNetworkingIdentity_IsLocalHost
+SteamAPI_SteamNetworkingIdentity_ParseString
+SteamAPI_SteamNetworkingIdentity_SetGenericBytes
+SteamAPI_SteamNetworkingIdentity_SetGenericString
+SteamAPI_SteamNetworkingIdentity_SetIPAddr
+SteamAPI_SteamNetworkingIdentity_SetIPv4Addr
+SteamAPI_SteamNetworkingIdentity_SetLocalHost
+SteamAPI_SteamNetworkingIdentity_SetPSNID
+SteamAPI_SteamNetworkingIdentity_SetStadiaID
+SteamAPI_SteamNetworkingIdentity_SetSteamID
+SteamAPI_SteamNetworkingIdentity_SetSteamID64
+SteamAPI_SteamNetworkingIdentity_SetXboxPairwiseID
+SteamAPI_SteamNetworkingIdentity_ToString
+SteamAPI_SteamNetworkingMessage_t_Release
+SteamAPI_SteamNetworkingMessages_SteamAPI_v002
+SteamAPI_SteamNetworkingSockets_SteamAPI_v012
+SteamAPI_SteamNetworkingUtils_SteamAPI_v004
+SteamAPI_SteamNetworking_v006
+SteamAPI_SteamParentalSettings_v001
+SteamAPI_SteamParties_v002
+SteamAPI_SteamRemotePlay_v002
+SteamAPI_SteamRemoteStorage_v016
+SteamAPI_SteamScreenshots_v003
+SteamAPI_SteamUGC_v018
+SteamAPI_SteamUserStats_v012
+SteamAPI_SteamUser_v023
+SteamAPI_SteamUtils_v010
+SteamAPI_SteamVideo_v003
 SteamAPI_UnregisterCallResult
 SteamAPI_UnregisterCallback
 SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
+SteamAPI_gameserveritem_t_Construct
+SteamAPI_gameserveritem_t_GetName
+SteamAPI_gameserveritem_t_SetName
+SteamAPI_servernetadr_t_Assign
+SteamAPI_servernetadr_t_Construct
+SteamAPI_servernetadr_t_GetConnectionAddressString
+SteamAPI_servernetadr_t_GetConnectionPort
+SteamAPI_servernetadr_t_GetIP
+SteamAPI_servernetadr_t_GetQueryAddressString
+SteamAPI_servernetadr_t_GetQueryPort
+SteamAPI_servernetadr_t_Init
+SteamAPI_servernetadr_t_IsLessThan
+SteamAPI_servernetadr_t_SetConnectionPort
+SteamAPI_servernetadr_t_SetIP
+SteamAPI_servernetadr_t_SetQueryPort
 SteamAppId
 SteamClient
 SteamClient017
+SteamClient020
 SteamClientDll
-SteamController006
+SteamController008
+SteamFriends017
 SteamGameId
-SteamGameServer012
+SteamGameServer015
+SteamGameServerStats001
 SteamGameServer_BSecure
 SteamGameServer_GetHSteamPipe
 SteamGameServer_GetHSteamUser
@@ -1614,86 +1699,102 @@ SteamGameServer_GetSteamID
 SteamGameServer_InitSafe
 SteamGameServer_RunCallbacks
 SteamGameServer_Shutdown
+SteamInput006
 SteamInternal_ContextInit
 SteamInternal_CreateInterface
-SteamInternal_GameServer_Init
+SteamInternal_FindOrCreateGameServerInterface
+SteamInternal_FindOrCreateUserInterface
+SteamInternal_GameServer_Init_V2
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]
+SteamInternal_SetMinidumpSteamID:  Setting Steam ID:  %lld
+SteamInternal_SteamAPI_Init
+SteamMatchGameSearch001
+SteamMatchMaking009
+SteamMatchMakingServers002
 SteamMiniDumpInit
-SteamUser019
-SteamUtils009
+SteamNetworking006
+SteamNetworkingMessages002
+SteamNetworkingSockets012
+SteamNetworkingUtils004
+SteamOverlayGameId
+SteamParties002
+SteamUser023
+SteamUtils010
 SteamWriteMiniDumpSetComment
 SteamWriteMiniDumpUsingExceptionInfoWithBuildId
 Steam_FreeLastCallback
 Steam_GetAPICallResult
-Steam_GetHSteamUserCurrent
-Steam_RegisterInterfaceFuncs
+Steam_IsKnownInterface
+Steam_NotifyMissingInterface
 Steam_ReleaseThreadLocalMemory
-Steam_RunCallbacks
-Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]
-Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld
 Sunday
-Symantec Corporation100.
-Symantec Corporation1402
-T@B;`@B;
-TVC;f
+SwetV
+TaB;]
 TerminateProcess
-Thawte Certification1
-Thawte Timestamping CA0
-Thawte1
+TgB;SVf
+TgB;t
 Thursday
-TimeStamp-2048-10
-TimeStamp-2048-20
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+Tt)jhZf;
 Tuesday
-UNICODE
+T{B;%
 UQPXY]Y[
-URPQQh@
-UTF-16LE
+URPQQhp
+UTF-16LEUNICODE
 UTF-8
+Unable to locate interface factory in %s.
 UnhandledExceptionFilter
 Using breakpad crash handler
-VVVVV
-Valve0
-Valve1
+V2jx_f;
+V@j0P
+VWh(lB;P
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+Vh4jB;
+Vh4jB;S
+Vh<jB;h
+W8^.u<
+WSVPP
 WWWWW
-WaitForThreadpoolTimerCallbacks
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Washington1
 Wednesday
-Western Cape1
 WideCharToMultiByte
 Wj0XPV
 WriteConsoleW
 WriteFile
-X)B;d	
-X)B;o
-X*B;m
-X*B;n
-X,B;:'
-X.C;T:B;
-X/B;'
-X5B;d5B;
-XC;hd
-XGB;$@C;
-XVC;f
-Y;5(KC;v
-Y_^[]
-Y__^[
-[S_API FAIL] SteamAPI_Init() failed
-[S_API FAIL] SteamAPI_Init() failed; connect to global user failed.
-[S_API FAIL] SteamAPI_Init() failed; create pipe failed.
-[S_API FAIL] SteamAPI_Init() failed; no appID found.
-[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.
-[S_API FAIL] SteamAPI_Init(): Sys_LoadModule failed to load: %s
+Y9"SD
+Y_[^]
+Z!ig}
+[K]taM?
+[S_API FAIL] Standard callback dispatch cannot be used; manual dispatch has already been selected.
+[S_API FAIL] SteamAPI_ManualDispatch_GetNextCallback() Cannot be used, must call SteamAPI_ManualDispatch_Init first.
+[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used yet, must init library first.
+[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used, standard dispatch has already been selected.
+[S_API FAIL] SteamAPI_ManualDispatch_RunFrame() Cannot be used, must call SteamAPI_ManualDispatch_Init first.
+[S_API FAIL] SteamAPI_RegisterCallResult cannot be used; manual dispatch has already been selected.
+[S_API FAIL] SteamAPI_RegisterCallback cannot be used; manual dispatch has already been selected.
+[S_API FAIL] Tried to access Steam interface %s before SteamAPI_Init succeeded.
+[S_API] SteamAPI_Init(): %s
+[S_API] SteamAPI_Init(): Loaded '%s' OK.
+[S_API] SteamAPI_Init(): Loaded '%s' OK.  (First tried local '%s')
+[S_API] SteamAPI_Init(): Loaded local '%s' OK.
 [S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
-[S_API] SteamAPI_Init(): Sys_LoadModule failed to load: %s
-\.B;&
-\=B;h=B;
-\KB;"
-\UC;;
+[aOni*{
+\0.F;
+\`B;H=
 \steam.exe
-\vnO^
-]jxdE
+\u	@B
+\u	@G
+]J<0"0i3
+^<V7w
+_^tWh
+__based(
 __cdecl
 __clrcall
 __eabi
@@ -1702,22 +1803,26 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 _cabs
+_gUT^
 _hypot
 _logb
 _nextafter
-`!C;;
-`-B;!
 `.rdata
-`/B;z
-`JB;pJB; JB;
-`QC;t
-`QC;t@V
+`B;1E
+`B;^]
+`B;_[
+`B;_^[]
+`B;h	
+`B;hTsB;V
 `RTTI
-`UC;;
+``B;P
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1727,9 +1832,8 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
-`h`hhh
-`iC;YY
+`jB;_f
+`jB;f
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -1755,186 +1859,126 @@ _nextafter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a7hIw
+aB;VQ
+aB;h4jB;S
+aB;h4jB;V
+aB;h|aB;
 abcdefghijklmnopqrstuvwxyz
-address family not supported
-address in use
-address not available
-address_family_not_supported
-address_in_use
-address_not_available
-already connected
-already_connected
-argument list too long
-argument out of domain
 atan2
-bad address
-bad file descriptor
-bad message
-bad_address
-bad_file_descriptor
+bad allocation
 bin\audio.dll
 bin\clientui.dll
-broken pipe
 c:\buildslave\steam_rel_client_win32\build\src\steam_api\Release\steam_api.pdb
-connection aborted
-connection already in progress
-connection refused
-connection reset
-connection_aborted
-connection_already_in_progress
-connection_refused
-connection_reset
-cross device link
-d!C;A
-d:B;p:B;
+d3@~x
+dB;h4jB;V
+d`B;V
 dddd, MMMM dd, yyyy
-destination address required
-destination_address_required
-device or resource busy
-diC;Vj
-diC;j
-directory not empty
 e+000
-executable format error
-file exists
-file too large
-filename too long
-filename_too_long
+eB;j 
+eLK(w
+f9:t!V
+f9<H}
+fB;(fB;<fB;PfB;hfB;DgB;
+fhA;nhA;vhA;
 floor
 frexp
-ft!9q
-function not supported
-g0e0*
+ft&9q
 g_pSteamClientGameServer
 gameoverlayrenderer.dll
-h QB;
-h$B;t
-h(MB;
-h(NB;
-h(OB;
-h(RB;
-h)B;(
-h,#B;
-h,B;I'
-h1C;h<B;
-h2FC;
-h3l3p3t3x3|3
-h8C;(AB;
-h8KC;
-h8PB;
-h<C; DB;
-h@$B;
-hBB;tBB;
-hD#B;
-hGB;xGB;
-hHMB;
-hHRB;
-hHSB;
-hHYC;
-hP$B;
-hPNB;
-hX@C;
-hXPB;
-h`QB;h
-hhMB;
-hjKC;
-hjKC;Sf
-host unreachable
-host_unreachable
+h UB;
+h cB;
+h mB;P
+h nB;hDhB;h
+h!{A;
+h(nB;
+h,hB;V
+h,iB;P
+h0bB;
+h0pB;
+h4dB;
+h@;Steam_BGetCallback
+hA;rhA;
+hDrB;Q
+hETB;d
+hHbB;
+hHcB;
+hHmB;P
+hTB;"
+hXbB;
+hXeB;
+hXkB;
+h`B;_[]
+h`dB;
+h`oB;
+hdkB;P
+hdmB;P
+hhcB;
+hhhB;P
+hhiB;P
+hhkB;
+htkB;P
+http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
-http://ocsp.digicert.com0N
-http://ocsp.thawte.com0
-http://ts-ocsp.ws.symantec.com07
-https://www.digicert.com/CPS0
-hxNB;
-hxPB;
-h}*A;
-identifier removed
-illegal byte sequence
-inappropriate io control operation
-interrupted
-invalid argument
-invalid seek
-invalid string position
-invalid_argument
-io error
-iostream stream error
-is a directory
-j A;r
-j$h@QB;
-j@j _W
-jA[jZZ+
-l*B;p
-l.B;o
-l1B;r
-l7B;x7B;
-lQC;3
+http://ocsp.digicert.com0X
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+huTB;d
+hxcB;
+h|kB;
+h|mB;P
+h|sB;
+inity
+iu+-,
+j0Yf;
+j:Xf;
+jAXf;
+jAZjX
+jA[f;
+jGYf;
+jXXf;
+jg[jG
+jj@0HK4
+jj^f;
+k0i0$
+l2|X/gGe
+l3A;~3A;
+l`B;]
+l`B;^
+laB;=
+laB;YZX
 ldexp
 log10
 m0k0$
-map/set<T> too long
-message size
-message_size
-network down
-network reset
-network unreachable
-network_down
-network_reset
-network_unreachable
-no buffer space
-no child process
-no link
-no lock available
-no message
-no message available
-no protocol option
-no space on device
-no stream resources
-no such device
-no such device or address
-no such file or directory
-no such process
-no_buffer_space
-no_protocol_option
-not a directory
-not a socket
-not a stream
-not connected
-not enough memory
-not supported
-not_a_socket
-not_connected
-operation canceled
-operation in progress
-operation not permitted
-operation not supported
-operation would block
-operation_in_progress
-operation_not_supported
-operation_would_block
+map/set too long
+nan(ind)
+nan(snan)
+o@;Ph@;0
+obwQ4
 operator
-owner dead
-p	B;	0
-p0n05
-p1f3q>
-p?B;|?B;
-pEB;DEB;
-pUC;	
-permission denied
-permission_denied
-protocol error
-protocol not supported
-protocol_not_supported
-qA;8qA;\qA;#
-r)f;q
-r2f;A
-rA; rA;
-read only file system
-resource deadlock would occur
-resource unavailable try again
+operator "" 
+operator co_await
+operator<=>
+p`B;_^[]
+peB;t
+peB;t	V
+pwEt3
+pwMt?
+qB;hx
+r5f;u
+r;f;u
+rGf;u
+rMf;u
+rYf;u
+r_f;u
 restrict(
-result out of range
-state not recoverable
+rkf;u
+rqf;u
+r}f;u
+sE<{t\<}tX<"u2B3
+sE<{t_<}t[<"u2C3
+sQ|$u#}ex
+snan)
 steam.dll
 steam2.dll
 steam://run/%u
@@ -1945,51 +1989,49 @@ steamclient.dll
 steamclient64.dll
 steamconsole.dll
 steamui.dll
-stream timeout
-string too long
-t VWh
-t/HHt
-t;Ht+
-t@VSP
-tFC;V
-tHHt*Ht#
-tO9=hUC;tGP
-tQC;]
-tRHtC
-tWhL#B;h 
-text file busy
-timed out
-timed_out
-too many files open
-too many files open in system
-too many links
-too many symbolic link levels
-too_many_files_open
-u!h<#B;
-u'j0X
-u0h4#B;
-uChIFA;
-uJSSR
-unknown error
+t hxaB;hpaB;
+t"VWhtlB;j
+t"h(gB;P
+t"h@qB;j
+t-_^2
+t1RWV
+t3bMR
+tFh8sB;V
+t`B;^]
+t`B;h
+tsB;t
+t~SSS
+u*h(gB;h gB;
+u,PQRS
+u2f9B
+uUf9B
+uf_^[
 v	N+D$
-value too large
-wrong protocol type
-wrong_protocol_type
-wtVj	
+v2!L.2
+v=Y]Bv
+w>t6;
+wIPS3
+www.digicert.com1!0
 www.digicert.com1$0"
-www.digicert.com110/
-x#B;P
-x/B;{
-x0v0$
-xppwpp
-xpxxxx
-y3+.{
-z0x0:
-z?aUY
-zc%C1
-|)B;)
-|)B;R
-|,B;6'
-|VC;f
-~';_t|%3
-~pjCXf
+x@;Unknown exception
+x@;bad array new length
+x@;bad exception
+xE;5h
+x`B;P
+x`B;j
+xfB;h
+xg;5h
+xi;5h
+y<ln}
+zSSSSj
+{un'%
+|Lu?c
+|`B;^
+|`B;h
+|wB;	
+|{B;+
+}LuHO
+~ $s%r
+~1WPQ
+~qj#k"
+~t&LN

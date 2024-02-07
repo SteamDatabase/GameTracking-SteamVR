@@ -589,6 +589,7 @@
 "Advanced_OneThirdFramerate" "En tredjedels bildefrekvens"
 "Advanced_DroppedFrame" "Skjermfeil"
 "Advanced_AppRequestedThrottling" "App forespurte begrensning (CPU-bundet)"
+"Advanced_NetworkLatency" "Nettverksforsinkelse"
 
 "Advanced_DashboardUp" "Dashbord på"
 "Advanced_DashboardDown" "Dashbord av"

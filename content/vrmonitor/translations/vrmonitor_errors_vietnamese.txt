@@ -417,7 +417,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Lỗi mã hóa video"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Có thể bạn cần cập nhật driver đồ họa của máy tính."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Không thể thiết lập mã hóa video. Có thể card màn hình của bạn không được hỗ trợ, hoặc bạn cần cập nhật driver đồ họa máy tính."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Xem thêm"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=vietnamese#steamvr-issues"
 

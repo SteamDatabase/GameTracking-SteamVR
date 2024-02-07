@@ -8,6 +8,7 @@
 +Xt@(
 +o'q)}
 , last executing in 
+,(=ob
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -67,6 +68,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+/8b?|
 0 0$0(0H0L0t0
 0 0(0<0D0L0T0X0\0d0x0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
@@ -92,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220101Z0/
+240201010933Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -110,7 +112,6 @@
 380115120000Z0b1
 3:3t3
 3<3X3x3
-3T(-Z
 3T4p4
 3mq+<
 3|3F4
@@ -179,10 +180,10 @@
 <'<1<;<E<O<Y<c<m<w<
 <,=`=v=
 <0:08
+<>#wf
 <V>a>|>
 =&=2=;=@=F=P=Z=j=z=
 =4=X=d=l=
-=GuWC<
 =P>h>l>
 =]=f=o=x=}=
 =j)h8
@@ -209,7 +210,6 @@
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
-A,]JB_;
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -235,6 +235,7 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
+FHyn2
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
@@ -275,6 +276,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JWw@$<"8F
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -307,6 +309,7 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
+S~WoC
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -336,7 +339,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
-ZIWvb
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync

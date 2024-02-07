@@ -585,6 +585,7 @@
 "Advanced_OneThirdFramerate" "1/3 帧率"
 "Advanced_DroppedFrame" "显示错误"
 "Advanced_AppRequestedThrottling" "应用请求的限制（受 CPU 限制）"
+"Advanced_NetworkLatency" "网络延迟"
 
 "Advanced_DashboardUp" "主面板开启"
 "Advanced_DashboardDown" "主面板关闭"

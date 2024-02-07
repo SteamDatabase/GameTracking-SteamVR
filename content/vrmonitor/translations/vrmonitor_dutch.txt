@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "1/3-beeldfrequentie"
 "Advanced_DroppedFrame" "Weergavefout"
 "Advanced_AppRequestedThrottling" "App verzocht om throttling (cpu-gebonden)"
+"Advanced_NetworkLatency" "Netwerklatentie"
 
 "Advanced_DashboardUp" "Dashboard aan"
 "Advanced_DashboardDown" "Dashboard uit"

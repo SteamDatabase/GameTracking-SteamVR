@@ -415,7 +415,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=schinese#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "视频编码器错误"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "您也许需要更新您电脑的显卡驱动。"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "无法设置视频解码器。您的 GPU 可能不受支持，或者您电脑的显卡驱动程序需要更新。"
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "更多信息"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=schinese#steamvr-issues"
 

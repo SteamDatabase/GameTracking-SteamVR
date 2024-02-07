@@ -835,23 +835,6 @@ div.BindingCalloutModifierIcon
 	white-space: nowrap;
 }
 
-.PowerMenuPanel .PowerMenuButton > img,
-.PowerMenuPanel .PowerMenuButton > span {
-	transition: transform var(--button-hover-animation-time);
-}
-
-.PowerMenuPanel .PowerMenuButton:hover > span,
-.PowerMenuPanel .PowerMenuButton:active > span,
-.PowerMenuPanel .PowerMenuButton:hover > img,
-.PowerMenuPanel .PowerMenuButton:active > img {
-	transform: translateX(10px);
-}
-
-.PowerMenuPanel .PowerMenuButton:hover > img,
-.PowerMenuPanel .PowerMenuButton:active > img {
-	transform: translateX(5px);
-}
-
 .PowerMenuPanel .PowerMenuButton .ClickGradient,
 .PowerMenuPanel .PowerMenuButton .HoverGradient {
 	margin-left: var(--power-menu-panel-hilite-margin);
@@ -998,15 +981,9 @@ div.BindingCalloutModifierIcon
 	animation-delay: calc( 0.5 * var(--dashboard-home-fade-in-duration));
 }
 
-.DashboardMain .DashboardPanel.QuickStore
-{
-	overflow-y: scroll;
-	padding-top: 2em;
-}
-
 .DashboardMain .DashboardPanel.QuickLaunch
 {
-	padding-top: 48px;  /* why are we overriding this? */
+	padding-top: 110px;
 }
 
 .DashboardMain .DashboardPanel.QuickLaunch .AppCarousel.TopRow
@@ -1074,13 +1051,6 @@ div.BindingCalloutModifierIcon
 	animation-fill-mode: both;
 	animation-iteration-count: 1;
 
-	background:
-		radial-gradient(ellipse at top center, rgba(255, 255, 255, 0.05) 10%,rgba(255, 255, 255, 0) 80%),
-		linear-gradient(to bottom, black 0%, rgba(0,0,0,0.1) 0%),
-		radial-gradient(ellipse at top left, #42454c, #25282e);
-}
-
-body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	background: var(--gamepadui-darkest-grey);
 }
 
@@ -1096,33 +1066,8 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	flex-direction: row;
 }
 
-.DashboardMain .ControlBarBackground {
-	width: 736px;
-	height: 80px;
-	background-color: var(--background-color);
-	background-image: var(--background-image);
-	background-size: cover;
-	background-position: top center;
-	margin: 2px;
-	border-radius: 7px;
-}
-
 .DashboardMain .ControlBarSpacing {
 	flex-grow: 1;
-}
-
-.DashboardMain .ControlBarBackground
-{
-	--background-resolution-scale: 0.5;
-	width: calc( var(--background-resolution-scale) * var(--dashboard-control-bar-width) );
-	height: calc( var(--background-resolution-scale) * var(--dashboard-control-bar-height) );
-	background-size: cover;
-	background-position: top center;
-	border-radius: calc( var(--background-resolution-scale) * var(--settings-border-radius) );
-	background:
-		radial-gradient(ellipse at top center, rgba(255, 255, 255, 0.08) 10%, rgba(255, 255, 255, 0) 80%),
-		linear-gradient(to bottom, black 0%, rgba(0,0,0,0.1) 0%),
-		radial-gradient(ellipse at top left, #42454c, #25282e);
 }
 
 .GrabHandleBar {
@@ -1675,6 +1620,8 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 {
 	width: var(--dashboard-control-bar-width);
 	padding: 0 calc(var(--dashboard-control-bar-side-padding) + var(--dashboard-control-bar-component-padding));
+	background-color: var(--gamepadui-darkest-grey);
+	border-radius: var(--settings-border-radius);
 }
 
 .DashboardMain .ControlBar > div {
@@ -1739,11 +1686,7 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	flex-direction: row;
 	padding: 7px;
 	border-radius: 9001px;
-	background: linear-gradient(
-		to bottom,
-		var(--dashboard-control-bar-group-color-a) 0%,
-		var(--dashboard-control-bar-group-color-b) 100%
-	);
+	background-color: var(--gamepadui-darker-grey);
 }
 
 .DashboardMain .ControlBar .ControlBarGroup:empty
@@ -1766,11 +1709,7 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	--state-shadow: 0 0 0 0 transparent;
 	--outline-shadow: 0 0 0 0 transparent;
 
-	background: linear-gradient(
-		to bottom,
-		var(--dashboard-control-bar-button-color-a) 0%,
-		var(--dashboard-control-bar-button-color-b) 100%
-	);
+	background: var(--gamepadui-dark-grey);
 	box-shadow:
 		var(--base-shadow),
 		var(--outline-shadow),
@@ -1854,6 +1793,7 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 {
 	width: 100%;
 	height: 100%;
+	opacity: 0.6;
 }
 
 .DashboardMain .ControlBar .ControlBarButton.FillImage
@@ -1886,11 +1826,6 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 .DashboardMain .ControlBar .ControlBarGroup.Small .ControlBarButton.CenterImageLarge > .Icon
 {
 	--size: var(--control-bar-icon-size-large);
-}
-
-.DashboardMain .ControlBar .ControlBarGroup.Large .ControlBarButton.Store > .Icon
-{
-	margin-right: 25%;
 }
 
 .DashboardMain .ControlBar .ControlBarGroup.Large
@@ -1984,7 +1919,6 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	display: flex;
 	flex-direction: row;
 	box-sizing: border-box;
-	box-shadow: inset 0px 35px 16px -25px black;
 	overflow: hidden;
 }
 
@@ -2001,7 +1935,7 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	box-shadow: inset 0px 56px 33px -25px #000000a6;
+	box-shadow: inset 0px 56px 13px -25px #000000a6;
 	z-index: 1;
 	pointer-events: none;
 }
@@ -2011,11 +1945,7 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	--scale: 0.5;
 	border-bottom-left-radius: calc( var(--scale) * var(--settings-control-inner-border-radius) );
 	border-bottom-right-radius: calc( var(--scale) * var(--settings-control-inner-border-radius) );
-	background: linear-gradient(
-		to bottom,
-		hsla(220, 11%, 11%, 1) 0%,
-		hsla(220, 11%, 14%, 1) 100%
-	);
+	background: var(--gamepadui-darkish-grey);
 }
 
 .DashboardMain .ControlBarTray .Section {
@@ -2056,11 +1986,17 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 .DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton.Fixed
 {
 	width: 82px;
+	display: flex;
 }
 
 .DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton:last-of-type
 {
 	margin-right: 9px;
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton.Fixed > span
+{
+	margin: auto;
 }
 
 .DashboardMain .ControlBarTray .Section .ButtonControl.Round {
@@ -2081,11 +2017,12 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 .DashboardMain .ControlBarTray .SliderControl .Handle,
 .DashboardMain .OverlayControlBar .SliderControl .Handle
 {
-	background: linear-gradient(
-		to bottom,
-		var(--dashboard-desktop-bar-button-color-a) 0%,
-		var(--dashboard-desktop-bar-button-color-b) 100%
-	);
+	background: var(--gamepadui-darker-grey);
+}
+
+.DashboardMain .ControlBarTray .SliderControl .Track,
+.DashboardMain .OverlayControlBar .SliderControl .Track {
+	background: var(--gamepadui-dark-grey);
 }
 
 .DashboardMain .ControlBarTray .Section .ButtonControl.Disabled {
@@ -2325,8 +2262,6 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	align-items: center;
 	position: relative;
 	padding: 0;
-
-	margin: 0 var(--settings-sidebar-button-expansion);
 	overflow: visible !important;
 }
 
@@ -2351,12 +2286,7 @@ body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
 	position: relative;
 }
 
-body:not(.VRGamepadUI) .DashboardMain .NowPlaying .HeroBackground
-{
-	display: none;
-}
-
-body.VRGamepadUI .DashboardMain .NowPlaying .HeroBackground
+.DashboardMain .NowPlaying .HeroBackground
 {
 	position: absolute;
 	left: 0;
@@ -2382,11 +2312,6 @@ body.VRGamepadUI .DashboardMain .NowPlaying .HeroBackground
 
 	border-radius: calc( var(--settings-control-inner-border-radius) / 2 );
 	overflow: hidden;
-	box-shadow: 0 7px 20px 2px black;
-}
-
-body.VRGamepadUI .DashboardMain .NowPlaying .ArtworkColumn
-{
 	box-shadow: 0 7px 70px -5px black;
 }
 
@@ -2427,13 +2352,13 @@ body.VRGamepadUI .DashboardMain .NowPlaying .ArtworkColumn
 	padding: 1em;
 }
 
-body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful)
+.DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful)
 {
 	background: rgba(255, 255, 255, 0.15);
 	color: white;
 }
 
-body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful):hover
+.DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful):hover
 {
 	background: rgba(255, 255, 255, 0.30);
 }
@@ -2609,11 +2534,11 @@ body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colo
 
 .QuickLaunchWelcome
 {
-	position: relative;
-	width: var(--dashboard-primary-width);
-	height: calc( var(--dashboard-primary-width) / var(--dashboard-primary-aspect-ratio) );
-	margin-left: calc(-1 * var(--dashboard-panel-padding));
-	margin-top: calc(-1 * 48px); /* this is overridden on every panel? */
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	overflow: hidden;
 	box-shadow: inset 0px 0px 400px 200px rgba(0, 0, 0, 0.4);
 }
@@ -2628,22 +2553,6 @@ body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colo
 	justify-content: center;
 	width: 50%;
 	height: 100%;
-}
-
-.QuickLaunchWelcome .WelcomeBrowseStore
-{
-	min-width: 65%;
-	font-weight: 400 !important;
-}
-
-.QuickLaunchWelcome .WelcomeInstall
-{
-	position: absolute;
-	bottom: var(--dashboard-panel-padding);
-	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
 }
 
 .QuickLaunchWelcome .QuickLaunchWelcomeHeader

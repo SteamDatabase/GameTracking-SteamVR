@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "Fréquence d'images : ⅓"
 "Advanced_DroppedFrame" "Erreur d'affichage"
 "Advanced_AppRequestedThrottling" "Limitation des ressources du processeur fixée par l'application"
+"Advanced_NetworkLatency" "Latence du réseau"
 
 "Advanced_DashboardUp" "Tableau de bord activé"
 "Advanced_DashboardDown" "Tableau de bord désactivé"

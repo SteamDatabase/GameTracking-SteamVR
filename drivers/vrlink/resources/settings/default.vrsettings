@@ -33,6 +33,8 @@
         "useOSCEyes": false,
         "OSCInPort": 9016,
 		"OSCOutPort": 9000,
-        "allowVolumeSync" : true
+        "allowVolumeSync" : true,
+		"disableQoS" : false,
+		"asyncStartEncode" : true
     }
 }

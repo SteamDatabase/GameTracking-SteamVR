@@ -39,7 +39,6 @@
 	extension
 	name_part
 	type_name
-	vid=0x%x, pid=0x%x, sn=%ls
 	w2Hc
 	|$HA
      
@@ -883,6 +882,7 @@ $w!Hc
 +temp_high
 +temp_low
 +unknown
++us4}}{
 , IMU susp: 
 , VRC susp: 
 , binary size = 
@@ -1237,7 +1237,6 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
-/5lE	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1396,8 +1395,8 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231221220143Z0/
 2333333
+240201011003Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1436,7 +1435,6 @@ $w!Hc
 8.uPI
 82u	H
 8:u	H
-8?k5M3<7
 8A	t	E
 8A]A\_]
 8A^A\
@@ -1486,6 +1484,7 @@ $w!Hc
 9Y$~9H
 9ZH~43
 9ZX~;
+9]U.e
 9]pu2
 9^(~F3
 9^,~#3
@@ -1621,6 +1620,7 @@ $w!Hc
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
+=]-{826
 =q=J?
 =rIQU
 >"t-H
@@ -1638,6 +1638,7 @@ $w!Hc
 ?&x0O
 ?'1(?
 ?)\o?;
+?-B<T
 ?333333
 ?333?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -1966,6 +1967,7 @@ $w!Hc
 @^8U)zj
 @_RDATA
 @fff>fff>fff>fff>
+@~o&9p,
 A H+A
 A H;A
 A file with this name is already in the pool.
@@ -2356,6 +2358,7 @@ CKeyframedDataResource
 CL$ 3
 CL$ H
 CL$0H
+CL$0f
 CL$8E3
 CL$HM;
 CL$PH
@@ -3489,7 +3492,6 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-g2!
 H91u 
 H92u&
 H92u,
@@ -3565,9 +3567,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=CC
-H;=SB
-H;=[;
+H;=cC
+H;=sB
+H;={;
 H;Axt
 H;B0t
 H;C sAH
@@ -3852,6 +3854,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -3963,7 +3966,6 @@ IsProcessorFeaturePresent
 IsValidSid
 J 9H s
 J(9O(|
-J5#Mt
 J>@G_
 JSON Update
 JSON string too short.
@@ -4186,7 +4188,6 @@ L9d$ A
 L9jhu
 L9k8v
 L9l$0
-L9l$@
 L9l$@H
 L9l$`u
 L9l$pH
@@ -4195,6 +4196,7 @@ L9t$@
 L9w u
 L9{0t^H
 L9|$(u
+L9|$@
 L9|$`
 L9|$p
 L;(u?H
@@ -4284,7 +4286,6 @@ M9H s
 M;A r
 MAX10
 MB(iVR
-MD85X
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4440,7 +4441,6 @@ OrthographicCamera
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
-P#8:JcT
 P(H9|$h
 P;A(|
 PA^A]A\_^[]
@@ -5512,7 +5512,7 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5I/!
+Y5+.!
 Y9"SD
 Y?33s?
 YAHH+
@@ -5672,7 +5672,6 @@ ZL$Xf
 ]g@8yhu
 ]wfHc
 ^9k0tWD
-^:)_g
 ^@H;^Ht
 ^@I;^Ht
 ^@I;^Ht&f
@@ -6200,9 +6199,9 @@ f;|$pt_H
 fB9<Bu
 fD9	u
 fD9&u
-fD9,Bu
+fD9<Bu
 fD;3t
-fF9,Au
+fF9<Au
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -6375,7 +6374,6 @@ hid_get_product_string
 hid_get_serial_number_string
 hid_init
 hid_open
-hid_open_nths
 hid_open_path
 hid_read
 hid_read_timeout
@@ -8107,6 +8105,6 @@ zuusA
 ~3LcD$(L
 ~6HcD$ I
 ~:fD9
+~` `;
 ~qj#k"
 ~t&LN
-~y]_/

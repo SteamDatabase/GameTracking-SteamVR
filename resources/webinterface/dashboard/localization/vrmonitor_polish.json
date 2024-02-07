@@ -104,7 +104,7 @@
 	"MenuAction_ResetDismissableWarnings": "Zresetuj ostrzeżenia",
 	"MenuAction_SetConfigDirectory": "Ustaw katalog konfiguracji",
 	"MenuAction_SetLogDirectory": "Ustaw katalog dzienników",
-	"Settings_Advanced_AllowSupersampleFiltering": "Zaawansowane filtrowanie supersamplingowe",
+	"Settings_Advanced_AllowSupersampleFiltering": "Zaawansowane filtrowanie superpróbkowe",
 	"Settings_Video_HDCP14LegacyCompatibility": "Kompatybilność ze starszą wersją HDCP 1.4",
 	"Settings_Advanced_Paths_Header": "Ścieżki",
 	"Settings_Advanced_Reset_Header": "Zresetuj",

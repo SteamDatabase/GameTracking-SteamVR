@@ -2,7 +2,7 @@
 	"language":		"english",
 
 	"VRMonitor_Nav_Overview": "Overview",
-	"VRMonitor_Nav_Settings": "Settings",
+	"VRMonitor_Nav_Settings": "VR Settings",
 	"VRMonitor_Nav_Help": "Help",
 	"VRMonitor_Nav_Developer": "Developer",
 
@@ -189,6 +189,17 @@
 	"Settings_Video_RefreshRate_NotAvailableExtended": "Additional refresh rates are supported by your HMD, but SteamVR cannot manage refresh rates when the HMD is in extended mode.",
 	"Settings_Video_RefreshRate_EnableDirectModeAction": "Enable Direct Mode",
 	"Settings_Video_RefreshRate_OneSupported": "Only one refresh rate is supported for your system.",
+
+	"Settings_Video_MaxRecommendedResolutionRecoveryTip": "A third-party driver has limited your maximum render resolution on all headsets.",
+	"Settings_Video_MaxRecommendedResolutionRecoveryText": "Limited to %1$s",
+	"Settings_Video_MaxRecommendedResolutionRecovery": "Remove Limit",
+	"Settings_Video_MaxRecommendedResolutionRecoveryStatement": "A third-party driver has limited your maximum render resolution on all headsets to %1$s.",
+	"Settings_Video_MaxRecommendedResolutionRecoveryExplanation": "When you remove this limit, you will be able to use the sliders to choose a higher resolution. We recommend going back to default render resolution when removing this limit to avoid unexpected performance changes.",
+	"Settings_Video_MaxRecommendedResolutionRecoveryActionAuto": "Remove Limit and Reset Resolution",
+	"Settings_Video_MaxRecommendedResolutionRecoveryActionAutoTip": "Remove the limit and reset render resolution to a safe value.",
+	"Settings_Video_MaxRecommendedResolutionRecoveryActionRemove": "Remove Limit",
+	"Settings_Video_MaxRecommendedResolutionRecoveryActionRemoveTip": "Only remove the limit, don't change other settings.",
+
 
 	"Settings_Video_AppResFooter": "The current setting renders each eye at %1$s",
 

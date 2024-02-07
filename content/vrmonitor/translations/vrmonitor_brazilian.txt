@@ -588,6 +588,7 @@
 "Advanced_OneThirdFramerate" "1/3 da taxa de quadros"
 "Advanced_DroppedFrame" "Erro de exibição"
 "Advanced_AppRequestedThrottling" "Aplicativo solicitou redução (limitado pelo processador)"
+"Advanced_NetworkLatency" "Latência de rede"
 
 "Advanced_DashboardUp" "Painel ativado"
 "Advanced_DashboardDown" "Painel desativado"

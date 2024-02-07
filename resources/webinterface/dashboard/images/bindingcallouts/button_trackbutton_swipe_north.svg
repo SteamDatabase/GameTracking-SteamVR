@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 75 75" style="enable-background:new 0 0 75 75;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;fill:#FFFFFF;enable-background:new    ;}
+	.st1{fill:none;stroke:#F1F2F2;stroke-width:3;stroke-miterlimit:10;}
+	.st2{clip-path:url(#SVGID_2_);}
+	.st3{clip-path:url(#SVGID_4_);}
+	.st4{clip-path:url(#SVGID_6_);}
+	.st5{fill:none;stroke:#F1F2F2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>icon</title>
+<path class="st0" d="M37.5,8.5L37.5,8.5c9.44,0.01,17.09,7.66,17.1,17.1v23.8c0,9.44-7.66,17.1-17.1,17.1
+	c-9.44,0-17.09-7.65-17.1-17.1l0,0V25.6C20.41,16.16,28.06,8.51,37.5,8.5z"/>
+<path class="st1" d="M37.5,8.5L37.5,8.5c9.44,0.01,17.09,7.66,17.1,17.1v23.8c0,9.44-7.66,17.1-17.1,17.1
+	c-9.44,0-17.09-7.65-17.1-17.1l0,0V25.6C20.41,16.16,28.06,8.51,37.5,8.5z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M37.5,11.95L37.5,11.95c3.87,0,7,3.13,7,7v37.13c-0.36,3.85-3.77,6.68-7.62,6.32
+			c-3.35-0.31-6.01-2.97-6.32-6.32l0,0V18.92c0-3.87,3.13-7,7-7L37.5,11.95z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st2">
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="-175.82" y="4.95" width="233.42" height="292.08"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st3">
+				<g>
+					<defs>
+						<rect id="SVGID_5_" x="30.16" y="11.64" width="14.93" height="52.09"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st4">
+						
+							<image style="overflow:visible;enable-background:new    ;" width="14" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAA0CAYAAAC6qQkaAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+kUlEQVRIS+2W0Q2AQAxCobqca7uOK2hxAY3J+zhjYr9LCJT2zsu6RaBmyftT01XNUhjQEQNKEBhD
+oCijAl01dTWGjHiOPDk4AMPnGKqx0sdT01V9aY4OZOwazTheI05OCmb1hbtKNcrQ1eqwtdJ3NP5Z
+vS9+5Qpr5I8OZMQa8a8jfcC1opc8aQasFAOGuuqJMZ5IxGT9LfUHwAAAAABJRU5ErkJggg==" transform="matrix(1.07 0 0 1 30.16 11.6348)">
+						</image>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<path class="st5" d="M43.93,18.76c0,3.55-2.88,6.43-6.43,6.43c-3.55,0-6.43-2.88-6.43-6.43s2.88-6.43,6.43-6.43
+	C41.05,12.33,43.93,15.21,43.93,18.76L43.93,18.76z"/>
+</svg>

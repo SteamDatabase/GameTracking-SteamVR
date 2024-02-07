@@ -415,7 +415,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Codificatorul video a întâmpinat o eroare"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Probabil trebuie să actualizezi driverul plăcii video a calculatorului tău."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Nu a putut fi configurat un codificator video. Este posibil ca placa ta video să nu fie compatibilă sau probabil trebuie să actualizezi driverul plăcii video a calculatorului tău."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Mai multe informații"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#steamvr-issues"
 

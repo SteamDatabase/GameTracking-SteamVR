@@ -3,7 +3,6 @@
 																									
 																												
 	!s99
-	l\<>]B
   GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
   GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
   SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
@@ -71,6 +70,7 @@ $< t6<$t,<+t"<vt
 (t$pH
 (|$ H
 (|$0I
+)5^977
 )D$ I
 )D$@A
 )D$PH
@@ -87,7 +87,6 @@ $< t6<$t,<+t"<vt
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
 ,t0D9J0v*L
-,vvNv
 .00cfg
 .8\$!t.9\
 .?AUIAMovieSetup@@
@@ -373,7 +372,6 @@ $< t6<$t,<+t"<vt
 0A__^[]
 0w0c1
 0}0i1
-1#E&/
 130801120000Z
 1eaB@
 210429000000Z
@@ -381,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231221220012Z0/
+240201010810Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -393,7 +391,6 @@ $< t6<$t,<+t"<vt
 370322235959Z0c1
 380115120000Z0b1
 3A8A#
-3K5]f
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -440,7 +437,6 @@ $< t6<$t,<+t"<vt
 :O	t	H
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-:TrZ_;
 :\uDL
 ;A$vTH
 ;B$vUH
@@ -616,6 +612,7 @@ $< t6<$t,<+t"<vt
 @VWAVH
 @WAUAVAWH
 @WAVAWH
+@f4We
 A$+A,t\3
 A(9B(D
 A+B$+
@@ -662,7 +659,6 @@ A_A^_^[]
 A_A^_^]
 A`D9L8
 AcquireSRWLockExclusive
-AmqWrl
 Applying depth format 
 Applying first frame camera configuration options...
 AuthD
@@ -976,6 +972,7 @@ GetVersionExW
 Global Gain:			
 H WATAUAVAWH
 H!T$0D
+H!T{.f
 H#T$0H
 H#|$0tB
 H+C H=
@@ -1098,7 +1095,6 @@ M H1E
 M'H9E
 MB(iVR
 MJPEG color format is not yet implemented.
-MSzK	
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
@@ -1113,6 +1109,7 @@ No depth or color data. Cannot determine frame number.
 No depth stream to configure.
 O,D9O(vcH
 OLEAUT32.dll
+P7udja
 P8fD;
 P@fD;
 PA^A\]
@@ -1129,7 +1126,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSfu
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1291,6 +1287,7 @@ Z(D9Z
 \$pE3
 ]J<0"0i3
 ]`u7H
+^^d}LbC
 _(H9n
 _CxxThrowException
 _Getdays
@@ -1352,6 +1349,7 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
+`wOtc
 a7hIw
 abort
 address family not supported
@@ -1399,6 +1397,7 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
+d;"o*
 destination address required
 device or resource busy
 digit
@@ -1502,6 +1501,7 @@ memcpy
 memmove
 memset
 message size
+mz=Ogc(
 nD8-V
 network down
 network reset
@@ -1554,7 +1554,6 @@ q(9qD~[E3
 r	uAD;d$$u:
 rBu/H
 rLp>B
-rT<^0k
 raB3G
 read only file system
 realloc

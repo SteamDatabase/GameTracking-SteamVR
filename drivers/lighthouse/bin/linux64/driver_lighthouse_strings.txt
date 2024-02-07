@@ -832,6 +832,7 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:05:42
 0x
 0x%08llx
 1
@@ -913,7 +914,6 @@ $@
 20CVkCommandBufferPool
 20IVRAudioNotification
 21
-21:58:37
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
@@ -3058,7 +3058,6 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 Dec
-Dec 21 2023
 December
 DeclareCurrentThreadIsMainThread
 Default value for an enum field must be an identifier.
@@ -3498,6 +3497,7 @@ False
 FastHexToBuffer() wants non-negative integers, not
 Fatal
 Feb
+Feb  1 2024
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -3667,7 +3667,7 @@ GetResourceBaseDir()
 GetResourceBaseDir() [clone .cold]
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() [clone .cold]
-GetSteamVRLanguage(ISteamUtils*)
+GetSteamLanguage(ISteamUtils*)
 GetString
 GetStringReference
 GetSystemBaseTicks()
@@ -3848,6 +3848,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -5619,7 +5620,7 @@ SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
-SteamLanguageToSteamVRLanguage(std::string const&)
+SteamLanguageToIsoLanguage(std::string const&)
 SteamVRVersionAsString()
 SteamVRVersionAsString() [clone .cold]
 SteamVRVersionAsString()::s_sCachedVersion
@@ -8197,6 +8198,7 @@ g_pVRDriverDirectInternal
 g_pVRDriverManager
 g_pVRExtendedDisplay
 g_pVRMailbox
+g_pVRNotificationsInternal
 g_pVROverlay
 g_pVROverlayInternal
 g_pVRPaths
@@ -10355,7 +10357,6 @@ hid_get_product_string
 hid_get_serial_number_string
 hid_init
 hid_open
-hid_open_nths
 hid_open_path
 hid_read
 hid_read_timeout
@@ -19967,6 +19968,7 @@ vr_internal::VRExtendedDisplay()
 vr_internal::VRInput()
 vr_internal::VRInputInternal()
 vr_internal::VRMailbox()
+vr_internal::VRNotificationsInternal()
 vr_internal::VROverlay()
 vr_internal::VROverlayInternal()
 vr_internal::VRPaths()

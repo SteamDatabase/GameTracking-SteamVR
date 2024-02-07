@@ -18,6 +18,7 @@
 	"Button_Retry": "Retry",
 
 	"Settings":	"Settings",
+	"VRSettings":	"VR Settings",
 	"PowerMenuResetSeatedPosition": "Reset Seated Position",
 	"PowerMenuResetStandingPosition": "Reset Standing Position",
 	"Resetting_Countdown" : "Resetting...",

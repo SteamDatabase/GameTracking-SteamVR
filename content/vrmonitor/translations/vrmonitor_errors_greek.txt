@@ -415,7 +415,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=greek#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Σφάλμα κωδικοποιητή γραφικών"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Μπορεί να χρειάζεται να ενημερώσετε τους οδηγούς γραφικών του υπολογιστή σας"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Αδυναμία ρύθμισης κωδικοποιητή βίντεο. Η GPU σας ενδέχεται να μην υποστηρίζεται ή χρειάζεται να ενημερώσετε τον οδηγό γραφικών του υπολογιστή σας."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Περισσότερες πληροφορίες"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=greek#steamvr-issues"
 

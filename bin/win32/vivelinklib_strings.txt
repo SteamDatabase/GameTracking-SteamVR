@@ -19,6 +19,7 @@ $Phdd
 %%.%dg
 %2.2X
 %8.8X
+%Rv`6
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -80,6 +81,7 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+)+f.E&
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -188,7 +190,6 @@ $Phdd
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
 000<0D0d0
-0>RLsD
 0L1P1T1X1\1`1d1h1l1p1t1x1|1
 0V2y2
 0_0g0
@@ -237,7 +238,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231221220003Z0/
+240201010821Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -453,7 +454,6 @@ $Phdd
 <;<m<
 <= Exiting Context: (%.2f seconds)
 <SVWj
-<Sf,FPk
 <_>u>
 = >,>4>T>x>
 =">>>
@@ -773,6 +773,7 @@ Linux 3.6
 LoadLibraryA
 LocalFree
 Logger.txt
+M?!i`
 MB(iVR
 MSVCP140.dll
 Mac OS
@@ -898,6 +899,7 @@ VL2_Reset
 VL2_WriteCommand
 VL2_WriteWithResponse
 VL2_WriteWithoutResponse
+V\o_/!
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -1035,6 +1037,7 @@ Zipfile is corrupt or not a zipfile
 ]J<0"0i3
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
+^/$A-
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1101,6 +1104,7 @@ buffer error
 c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
 cntrl
+d/x&q(
 dat_file
 data error
 deque<T> too long
@@ -1119,10 +1123,7 @@ ftell
 gfff+
 gfffSV
 gfffV
-gmpTO
 graph
-h4hrL
-hcn1R
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1205,6 +1206,7 @@ print
 punct
 realloc
 runas
+s1=EA
 space
 stoi argument out of range
 stoul argument out of range
@@ -1265,7 +1267,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-ynRKt
 {L?uI
 {un'%
 |	9A 

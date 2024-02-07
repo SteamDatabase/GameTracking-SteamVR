@@ -3,29 +3,34 @@
   "use strict";
   var e,
     t = {
-      1073: (e, t, r) => {
-        r.d(t, {
-          Nv: () => n,
-          Oq: () => w.Oq,
-          Y9: () => ee,
-          Ic: () => oe,
-          zq: () => d,
-          Yg: () => ie,
-          Z9: () => u,
-          qC: () => m,
-          jm: () => Ce,
-          x1: () => Re,
-          k7: () => Z,
-          Dd: () => re,
-          s_: () => ye,
-          gQ: () => De,
-          n0: () => Se,
-          VW: () => te,
-          wx: () => ve,
-        });
-        var i = r(655),
-          o = r(7056);
-        class n {
+      9119: (e, t, r) => {
+        var i,
+          o,
+          n,
+          s,
+          a,
+          l,
+          d,
+          p,
+          c,
+          u,
+          h,
+          m,
+          _,
+          g,
+          v,
+          b,
+          f,
+          y,
+          S,
+          D,
+          R,
+          C,
+          I = r(655),
+          M = r(7294),
+          P = r(3935),
+          w = r(7056);
+        class T {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.m_oHandlers = {}),
@@ -65,9 +70,9 @@
             );
           }
           Init(e, t) {
-            return (0, i.mG)(this, void 0, void 0, function* () {
+            return (0, I.mG)(this, void 0, void 0, function* () {
               return (
-                (this.m_sMailboxName = n.EnsureUniqueName(e)),
+                (this.m_sMailboxName = T.EnsureUniqueName(e)),
                 (this.m_sWebSecret = t),
                 (this.connected = !1),
                 this.OpenWebSocketToHost()
@@ -142,7 +147,7 @@
             });
           }
           WaitForMailbox(e) {
-            return (0, i.mG)(this, void 0, void 0, function* () {
+            return (0, I.mG)(this, void 0, void 0, function* () {
               let t = {
                 type: "request_mailbox_registration_notification",
                 mailbox_name: e,
@@ -173,37 +178,7 @@
             (r.message_id = e.message_id), this.SendMessage(e.returnAddress, r);
           }
         }
-        (n.s_nNextMailboxNumber = 1),
-          (0, i.gn)([o.ak], n.prototype, "OpenWebSocketToHost", null),
-          (0, i.gn)([o.ak], n.prototype, "OnWebSocketOpen", null),
-          (0, i.gn)([o.ak], n.prototype, "OnWebSocketClose", null),
-          (0, i.gn)([o.ak], n.prototype, "WebSocketSend", null),
-          (0, i.gn)([o.ak], n.prototype, "OnWebSocketMessage", null);
-        var s,
-          a,
-          l,
-          d,
-          p,
-          c,
-          u,
-          h,
-          m,
-          _,
-          g,
-          v,
-          f,
-          b,
-          y,
-          S,
-          D,
-          R,
-          C,
-          I,
-          M,
-          P,
-          w = r(4727),
-          x = r(7294);
-        function T(e, t) {
+        function x(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) {
             if ("undefined" == r) return;
@@ -216,11 +191,11 @@
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseFloat(r);
         }
-        function k(e, t) {
+        function B(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseInt(r);
         }
-        function E(e, t) {
+        function k(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0)
             return (
@@ -228,22 +203,22 @@
               (r.length > 0 && 0 != parseInt(r) && !isNaN(parseInt(r)))
             );
         }
-        function F(e, t) {
+        function E(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return r;
         }
-        function B(e, t) {
-          return q(F(e, t));
+        function F(e, t) {
+          return q(E(e, t));
         }
         function O(e, t) {
           let r = { type: e, properties: {} };
           return (
             t.id && (r.properties.id = q(t.id)),
-            (r.properties.sgid = k(t, "sgid")),
+            (r.properties.sgid = B(t, "sgid")),
             r
           );
         }
-        function A(e, t) {
+        function V(e, t) {
           let [r, i] = (function (e, t) {
               let r = t.buildNode;
               if (r) return r(e, t);
@@ -252,24 +227,24 @@
               switch (t.nodeName.toUpperCase()) {
                 case "VSG-TRANSFORM":
                   (o = O("transform", t)),
-                    (o.properties.translation = T(t, "translation")),
-                    (o.properties.rotation = T(t, "rotation")),
-                    (o.properties.scale = T(t, "scale")),
+                    (o.properties.translation = x(t, "translation")),
+                    (o.properties.rotation = x(t, "rotation")),
+                    (o.properties.scale = x(t, "scale")),
                     (o.properties["curvature-pitch"] = N(t, "curvature-pitch")),
-                    (o.properties["transform-path"] = F(t, "transform-path")),
-                    (o.properties["invert-parent-panel-pitch"] = E(
+                    (o.properties["transform-path"] = E(t, "transform-path")),
+                    (o.properties["invert-parent-panel-pitch"] = k(
                       t,
                       "invert-parent-panel-pitch",
                     )),
-                    (o.properties["parent-path"] = F(t, "parent-path")),
-                    (o.properties["parent-origin"] = F(t, "parent-origin")),
-                    (o.properties["parent-id"] = B(t, "parent-id"));
+                    (o.properties["parent-path"] = E(t, "parent-path")),
+                    (o.properties["parent-origin"] = E(t, "parent-origin")),
+                    (o.properties["parent-id"] = F(t, "parent-id"));
                   break;
                 case "VSG-TRACKING-STATE-VISIBILITY":
                   (o = O("trackingstatevisibility", t)),
-                    (o.properties["visible-0dof"] = E(t, "visible-0dof")),
-                    (o.properties["visible-3dof"] = E(t, "visible-3dof")),
-                    (o.properties["visible-6dof"] = E(t, "visible-6dof"));
+                    (o.properties["visible-0dof"] = k(t, "visible-0dof")),
+                    (o.properties["visible-3dof"] = k(t, "visible-3dof")),
+                    (o.properties["visible-6dof"] = k(t, "visible-6dof"));
                   break;
                 case "VSG-ELASTIC-HEAD-TRANSFORM":
                   (o = O("elasticheadtransform", t)),
@@ -296,29 +271,29 @@
                       t,
                       "max-angular-velocity",
                     )),
-                    (o.properties["lock-to-horizon"] = E(t, "lock-to-horizon")),
-                    (o.properties["translation-behavior"] = k(
+                    (o.properties["lock-to-horizon"] = k(t, "lock-to-horizon")),
+                    (o.properties["translation-behavior"] = B(
                       t,
                       "translation-behavior",
                     ));
                   break;
                 case "VSG-LINE":
                   (o = O("line", t)),
-                    (o.properties["target-id"] = B(t, "target-id")),
+                    (o.properties["target-id"] = F(t, "target-id")),
                     (o.properties.thickness = N(t, "thickness")),
                     (o.properties["start-buffer"] = N(t, "start-buffer")),
                     (o.properties["end-buffer"] = N(t, "end-buffer"));
                   break;
                 case "VSG-LINE-CONSTRAINED-TRANSFORM":
                   (o = O("line-constrained-transform", t)),
-                    (o.properties["target-id"] = B(t, "target-id")),
-                    (o.properties["source-id"] = B(t, "source-id")),
+                    (o.properties["target-id"] = F(t, "target-id")),
+                    (o.properties["source-id"] = F(t, "source-id")),
                     (o.properties["source-distance"] = N(t, "source-distance")),
                     (o.properties["target-limit"] = N(t, "target-limit"));
                   break;
                 case "VSG-CALLOUT-TRANSFORM":
                   (o = O("callout-transform", t)),
-                    (o.properties.offset = T(t, "offset"));
+                    (o.properties.offset = x(t, "offset"));
                   break;
                 case "VSG-HEAD-FACING-TRANSFORM":
                   o = O("head-facing-transform", t);
@@ -337,18 +312,18 @@
                   break;
                 case "VSG-MANIPULATION-TRANSFORM":
                   (o = O("manipulation-transform", t)),
-                    (o.properties["is-moving"] = E(t, "is-moving")),
-                    (o.properties["parent-path"] = F(t, "parent-path")),
-                    (o.properties.translation = T(t, "translation")),
-                    (o.properties.rotation = T(t, "rotation")),
-                    (o.properties.scale = T(t, "scale"));
+                    (o.properties["is-moving"] = k(t, "is-moving")),
+                    (o.properties["parent-path"] = E(t, "parent-path")),
+                    (o.properties.translation = x(t, "translation")),
+                    (o.properties.rotation = x(t, "rotation")),
+                    (o.properties.scale = x(t, "scale"));
                   break;
                 case "VSG-GRAB-TRANSFORM":
                   (o = O("grab-transform", t)),
-                    (o.properties["parent-path"] = F(t, "parent-path")),
-                    (o.properties.translation = T(t, "translation")),
-                    (o.properties.rotation = T(t, "rotation")),
-                    (o.properties.scale = T(t, "scale"));
+                    (o.properties["parent-path"] = E(t, "parent-path")),
+                    (o.properties.translation = x(t, "translation")),
+                    (o.properties.rotation = x(t, "rotation")),
+                    (o.properties.scale = x(t, "scale"));
               }
               return [i, o];
             })(e, t),
@@ -356,7 +331,7 @@
           for (let e = 0; e < t.children.length; e++) {
             let i = t.children.item(e);
             if (i.children) {
-              let e = A(r, i);
+              let e = V(r, i);
               e && (o = o.concat(e));
             }
           }
@@ -370,18 +345,24 @@
               : [{ children: o }]
             : null;
         }
-        !(function (e) {
-          (e[(e.Desktop = 1)] = "Desktop"),
-            (e[(e.Overlay = 2)] = "Overlay"),
-            (e[(e.Unknown = 100)] = "Unknown");
-        })(s || (s = {})),
+        (T.s_nNextMailboxNumber = 1),
+          (0, I.gn)([w.ak], T.prototype, "OpenWebSocketToHost", null),
+          (0, I.gn)([w.ak], T.prototype, "OnWebSocketOpen", null),
+          (0, I.gn)([w.ak], T.prototype, "OnWebSocketClose", null),
+          (0, I.gn)([w.ak], T.prototype, "WebSocketSend", null),
+          (0, I.gn)([w.ak], T.prototype, "OnWebSocketMessage", null),
+          (function (e) {
+            (e[(e.Desktop = 1)] = "Desktop"),
+              (e[(e.Overlay = 2)] = "Overlay"),
+              (e[(e.Unknown = 100)] = "Unknown");
+          })(i || (i = {})),
           window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
           (function (e) {
             (e[(e.Auto = 0)] = "Auto"),
               (e[(e.Low = 1)] = "Low"),
               (e[(e.Medium = 2)] = "Medium"),
               (e[(e.High = 3)] = "High");
-          })(a || (a = {})),
+          })(o || (o = {})),
           (function (e) {
             (e[(e.TrackingResult_Uninitialized = 1)] =
               "TrackingResult_Uninitialized"),
@@ -395,12 +376,12 @@
                 "TrackingResult_Running_OutOfRange"),
               (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
                 "TrackingResult_Fallback_RotationOnly");
-          })(l || (l = {})),
+          })(n || (n = {})),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-          })(d || (d = {})),
+          })(s || (s = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Shown = 1)] = "Shown"),
@@ -419,11 +400,11 @@
               (e[(e.Close = 14)] = "Close"),
               (e[(e.TakeFocus = 15)] = "TakeFocus"),
               (e[(e.HitTest = 16)] = "HitTest");
-          })(p || (p = {})),
+          })(a || (a = {})),
           (function (e) {
             (e[(e.Activated = 0)] = "Activated"),
               (e[(e.Deactivated = 1)] = "Deactivated");
-          })(c || (c = {})),
+          })(l || (l = {})),
           (function (e) {
             (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
               (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -457,14 +438,14 @@
               (e[(e.EnableControlBarClose = 33554432)] =
                 "EnableControlBarClose"),
               (e[(e.EnableSteamUIButtons = 67108864)] = "EnableSteamUIButtons");
-          })(u || (u = {})),
+          })(d || (d = {})),
           (function (e) {
             (e[(e.HomeMenu = 50)] = "HomeMenu"),
               (e[(e.QuickMenu = 51)] = "QuickMenu");
-          })(h || (h = {})),
+          })(p || (p = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(m || (m = {})),
+          })(c || (c = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.HMD = 1)] = "HMD"),
@@ -472,19 +453,19 @@
               (e[(e.GenericTracker = 3)] = "GenericTracker"),
               (e[(e.TrackingReference = 4)] = "TrackingReference"),
               (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-          })(_ || (_ = {})),
+          })(u || (u = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.NVIDIA = 1)] = "NVIDIA"),
               (e[(e.AMD = 2)] = "AMD");
-          })(g || (g = {})),
+          })(h || (h = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Starting = 1)] = "Starting"),
               (e[(e.Quitting = 2)] = "Quitting"),
               (e[(e.Running = 3)] = "Running"),
               (e[(e.Waiting = 4)] = "Waiting");
-          })(v || (v = {})),
+          })(m || (m = {})),
           (function (e) {
             (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
               (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -495,16 +476,16 @@
               (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
                 "CouldntFindOrCreateClientOverlay"),
               (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(f || (f = {})),
+          })(_ || (_ = {})),
           (function (e) {
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
               (e[(e.Submit = 2)] = "Submit");
-          })(b || (b = {})),
+          })(g || (g = {})),
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(y || (y = {})),
+          })(v || (v = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -517,7 +498,7 @@
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(S || (S = {})),
+          })(b || (b = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -534,14 +515,14 @@
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(D || (D = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(R || (R = {})),
+          })(y || (y = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -555,7 +536,7 @@
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(C || (C = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -567,22 +548,22 @@
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(I || (I = {})),
+          })(D || (D = {})),
           (function (e) {
             (e[(e.Hostname = 0)] = "Hostname"),
               (e[(e.IP = 1)] = "IP"),
               (e[(e.Version = 2)] = "Version"),
               (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
               (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
-          })(M || (M = {})),
+          })(R || (R = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(P || (P = {}));
-        let V,
-          U,
+          })(C || (C = {}));
+        let A,
           L,
+          U,
           H,
           W = [],
           G = null,
@@ -604,15 +585,15 @@
                 ? void 0
                 : VRHTML.VROverlay.ThisOverlayKey()) && void 0 !== e
             ? e
-            : V;
+            : A;
         }
-        function Z() {
+        function j() {
           G ||
             (G = window.setTimeout(
               () =>
-                (0, i.mG)(this, void 0, void 0, function* () {
+                (0, I.mG)(this, void 0, void 0, function* () {
                   let e = document.body;
-                  U && (e = U);
+                  L && (e = L);
                   let t = {
                     type: "root",
                     rootproperties: {
@@ -620,7 +601,7 @@
                       allowDismissOnClick: true,
                       sceneColorCorrection: null,
                     },
-                    children: A(
+                    children: V(
                       {
                         currentPanel: null,
                         bInsideReparentedPanel: !1,
@@ -631,8 +612,8 @@
                   };
                   z ||
                     (console.log("Initializing sg_mailbox"),
-                    (z = new n()),
-                    yield z.Init("sg_mailbox", L));
+                    (z = new T()),
+                    yield z.Init("sg_mailbox", U));
                   let r = {
                     type: "update_scene_graph",
                     owning_overlay_key: K(),
@@ -650,7 +631,7 @@
         function X(e, t) {
           return e ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y } : t;
         }
-        function j(e, t) {
+        function Z(e, t) {
           return e
             ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y, z: e.z ? e.z : t.z }
             : t;
@@ -669,11 +650,11 @@
             ? void 0
             : t.join(" ");
         }
-        class J extends x.Component {
+        class J extends M.Component {
           constructor(e) {
             var t;
             super(e),
-              (this.m_domRef = x.createRef()),
+              (this.m_domRef = M.createRef()),
               (this.m_buildNodeOverride = null),
               (this.m_SGID =
                 null !==
@@ -702,22 +683,22 @@
           componentDidMount() {
             this.m_buildNodeOverride &&
               (this.m_domRef.current.buildNode = this.m_buildNodeOverride),
-              Z();
+              j();
           }
           componentDidUpdate() {
-            Z();
+            j();
           }
           componentWillUnmount() {
             var e;
             (e = this.m_SGID),
               W.push(e),
-              Z(),
+              j(),
               this.m_domRef.current &&
                 this.m_buildNodeOverride &&
                 delete this.m_domRef.current.buildNode;
           }
           render() {
-            return x.cloneElement(this.internalRender(), {
+            return M.cloneElement(this.internalRender(), {
               id: this.props.id,
               "vsg-type": this.getNodeType(),
               sgid: this.m_SGID,
@@ -726,7 +707,7 @@
           }
           internalRender() {
             return this.m_buildNodeOverride
-              ? x.createElement("vsg-node", null, this.props.children)
+              ? M.createElement("vsg-node", null, this.props.children)
               : null;
           }
         }
@@ -741,9 +722,9 @@
             return [e, this.createSgNode(t)];
           }
         }
-        (0, i.gn)([o.ZP], $.prototype, "buildNode", null),
-          (0, i.gn)(
-            [o.ZP],
+        (0, I.gn)([w.ZP], $.prototype, "buildNode", null),
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -798,10 +779,10 @@
             );
           }
           internalRender() {
-            return x.createElement(
+            return M.createElement(
               "vsg-node",
               { id: this.props.id },
-              x.createElement(
+              M.createElement(
                 $,
                 { id: this.m_sMountableUnqualifiedID },
                 this.props.children,
@@ -809,7 +790,7 @@
             );
           }
         }
-        (0, i.gn)([o.ZP], ee.prototype, "buildNode", null);
+        (0, I.gn)([w.ZP], ee.prototype, "buildNode", null);
         class te extends J {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -830,7 +811,7 @@
             return [e, r];
           }
         }
-        (0, i.gn)([o.ZP], te.prototype, "buildNode", null);
+        (0, I.gn)([w.ZP], te.prototype, "buildNode", null);
         class re extends J {
           constructor(e) {
             super(e), super.setBuildNodeOverride(this.buildNode);
@@ -844,7 +825,7 @@
           }
         }
         var ie, oe, ne, se, ae, le, de, pe, ce, ue, he, me, _e, ge;
-        (0, i.gn)([o.ZP], re.prototype, "buildNode", null),
+        (0, I.gn)([w.ZP], re.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
@@ -865,19 +846,36 @@
           }
           internalRender() {
             let e, t, r;
+            var i, o;
             this.props.transform
               ? ((e = this.props.transform.translation),
                 (t = this.props.transform.rotation),
                 (r = this.props.transform.scale))
-              : ((e = j(this.props.translation, { x: 0, y: 0, z: 0 })),
+              : ((e = Z(this.props.translation, { x: 0, y: 0, z: 0 })),
                 (t =
                   this.props.rotation && "w" in this.props.rotation
                     ? this.props.rotation
-                    : (0, w.UU)(
-                        (0, w.mT)(
-                          j(this.props.rotation, { x: 0, y: 0, z: 0 }),
-                          Math.PI / 180,
-                        ),
+                    : (function (e) {
+                        if (void 0 === e) return;
+                        let t = 0.5 * e.x,
+                          r = 0.5 * e.y,
+                          i = 0.5 * e.z,
+                          o = Math.cos(t),
+                          n = Math.cos(r),
+                          s = Math.cos(i),
+                          a = Math.sin(t),
+                          l = Math.sin(r),
+                          d = Math.sin(i);
+                        return {
+                          w: o * n * s + a * l * d,
+                          x: a * n * s + o * l * d,
+                          y: o * l * s - a * n * d,
+                          z: o * n * d - a * l * s,
+                        };
+                      })(
+                        ((i = Z(this.props.rotation, { x: 0, y: 0, z: 0 })),
+                        (o = Math.PI / 180),
+                        { x: i.x * o, y: i.y * o, z: i.z * o }),
                       )),
                 (r =
                   "number" == typeof this.props.scale
@@ -886,18 +884,18 @@
                         y: this.props.scale,
                         z: this.props.scale,
                       }
-                    : j(this.props.scale, { x: 1, y: 1, z: 1 })));
-            let i = Y(e),
-              o = (function (e) {
+                    : Z(this.props.scale, { x: 1, y: 1, z: 1 })));
+            let n = Y(e),
+              s = (function (e) {
                 if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
               })(t),
-              n = Y(r);
-            return x.createElement(
+              a = Y(r);
+            return M.createElement(
               "vsg-transform",
               {
-                translation: i,
-                rotation: o,
-                scale: n,
+                translation: n,
+                rotation: s,
+                scale: a,
                 "curvature-pitch": this.props.curvature_pitch,
                 "invert-parent-panel-pitch":
                   this.props.invert_parent_panel_pitch,
@@ -910,10 +908,10 @@
             );
           }
         }
-        function fe(e) {
+        function be(e) {
           if (e) return [e.u, e.v];
         }
-        function be(e) {
+        function fe(e) {
           switch (e) {
             case oe.TopLeft:
               return { x: -1, y: 1 };
@@ -1109,7 +1107,7 @@
             d =
               "object" == typeof this.props.origin
                 ? X(this.props.origin, { x: 0, y: 0 })
-                : be(this.props.origin);
+                : fe(this.props.origin);
             const p = this.props.overlay_key,
               c = K();
             return (
@@ -1122,9 +1120,9 @@
                       ? void 0
                       : VRHTML.VROverlay.ThisOverlayHandle()),
               (l.properties.uv_min =
-                null !== (r = fe(this.m_UVsMin)) && void 0 !== r ? r : void 0),
+                null !== (r = be(this.m_UVsMin)) && void 0 !== r ? r : void 0),
               (l.properties.uv_max =
-                null !== (i = fe(this.m_UVsMax)) && void 0 !== i ? i : void 0),
+                null !== (i = be(this.m_UVsMax)) && void 0 !== i ? i : void 0),
               (l.properties.width =
                 null !== (o = this.props.width) && void 0 !== o ? o : void 0),
               (l.properties.height =
@@ -1205,7 +1203,7 @@
               });
           }
           internalRender() {
-            return x.createElement(
+            return M.createElement(
               "vsg-node",
               {
                 style: {
@@ -1217,14 +1215,14 @@
           }
         }
         (ye.s_bPanelsAreDirty = !1),
-          (0, i.gn)([o.ZP], ye.prototype, "onResizeObserved", null),
-          (0, i.gn)([o.ZP], ye.prototype, "onPanelMouseDown", null),
-          (0, i.gn)([o.ZP], ye.prototype, "onWindowMouseUp", null),
-          (0, i.gn)([o.ZP], ye.prototype, "buildNode", null),
+          (0, I.gn)([w.ZP], ye.prototype, "onResizeObserved", null),
+          (0, I.gn)([w.ZP], ye.prototype, "onPanelMouseDown", null),
+          (0, I.gn)([w.ZP], ye.prototype, "onWindowMouseUp", null),
+          (0, I.gn)([w.ZP], ye.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Canvas = 0)] = "Canvas"), (e[(e.Image = 1)] = "Image");
           })(le || (le = {}));
-        class Se extends x.Component {
+        class Se extends M.Component {
           constructor(e) {
             super(e),
               (this.m_DomRef = null),
@@ -1252,11 +1250,11 @@
                   ? le.Canvas
                   : le.Image,
               }),
-              (this.m_DomRef = x.createRef()),
-              (this.m_scalingDomRef = x.createRef()),
-              (this.m_CanvasRef = x.createRef()),
-              (this.m_EmbeddedDataImgRef = x.createRef()),
-              (this.m_DebugPointerRef = x.createRef());
+              (this.m_DomRef = M.createRef()),
+              (this.m_scalingDomRef = M.createRef()),
+              (this.m_CanvasRef = M.createRef()),
+              (this.m_EmbeddedDataImgRef = M.createRef()),
+              (this.m_DebugPointerRef = M.createRef());
           }
           static get IsSceneGraphApp() {
             return null !== Se.Current();
@@ -1313,9 +1311,9 @@
                 ((i = this.props.owning_overlay_key),
                 (o = this.m_DomRef.current),
                 (n = this.props.web_secret),
-                (V = i),
-                (U = o),
-                (L = n),
+                (A = i),
+                (L = o),
+                (U = n),
                 console.log("Setting owning overlay key to " + i));
           }
           componentWillUnmount() {
@@ -1331,30 +1329,30 @@
             let r = [];
             return (
               this.state.bShowDebugPointer && r.push("ShowDebugPointer"),
-              x.createElement(
+              M.createElement(
                 "vsg-app",
                 {
                   class: r.join(" "),
                   ref: this.m_DomRef,
                   "sg-forced-update-number": this.state.nForcedUpdateNumber,
                 },
-                x.createElement("div", {
+                M.createElement("div", {
                   className: "DebugPointer",
                   ref: this.m_DebugPointerRef,
                 }),
                 e &&
-                  x.createElement("img", {
+                  M.createElement("img", {
                     ref: this.m_EmbeddedDataImgRef,
                     className: "EmbeddedData",
                     height: Se.k_EmbeddedDataRows,
                   }),
                 t &&
-                  x.createElement("canvas", {
+                  M.createElement("canvas", {
                     ref: this.m_CanvasRef,
                     className: "EmbeddedData",
                     height: Se.k_EmbeddedDataRows,
                   }),
-                x.createElement(
+                M.createElement(
                   "div",
                   { className: "AppSceneGraph", ref: this.m_scalingDomRef },
                   this.state.bFontsLoaded && this.props.children,
@@ -1419,7 +1417,7 @@
               (ye.s_bPanelsAreDirty = !0)),
               ye.s_bPanelsAreDirty &&
                 (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
-                Z(),
+                j(),
                 (ye.s_bPanelsAreDirty = !1),
                 this.updateEmbeddedData());
           }
@@ -1507,12 +1505,12 @@
         }
         (Se.s_Current = null),
           (Se.k_EmbeddedDataRows = 1),
-          (0, i.gn)([o.ak], Se.prototype, "toggleDebugPointer", null),
-          (0, i.gn)([o.ak], Se.prototype, "onMouseMove", null),
-          (0, i.gn)([o.ak], Se.prototype, "forceLayoutUpdate", null),
-          (0, i.gn)([o.ak], Se.prototype, "onMutation", null),
-          (0, i.gn)(
-            [o.ZP],
+          (0, I.gn)([w.ak], Se.prototype, "toggleDebugPointer", null),
+          (0, I.gn)([w.ak], Se.prototype, "onMouseMove", null),
+          (0, I.gn)([w.ak], Se.prototype, "forceLayoutUpdate", null),
+          (0, I.gn)([w.ak], Se.prototype, "onMutation", null),
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1532,8 +1530,8 @@
             "buildNode",
             null,
           ),
-          (0, i.gn)(
-            [o.ZP],
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1628,9 +1626,9 @@
             );
           }
         }
-        (0, i.gn)([o.ZP], De.prototype, "buildNode", null),
-          (0, i.gn)(
-            [o.ZP],
+        (0, I.gn)([w.ZP], De.prototype, "buildNode", null),
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1672,7 +1670,7 @@
             super(e);
           }
           internalRender() {
-            return x.createElement("vsg-line", {
+            return M.createElement("vsg-line", {
               "target-id": this.props.target_id,
               thickness: this.props.thickness,
               "start-buffer": this.props.start_buffer,
@@ -1680,8 +1678,8 @@
             });
           }
         }
-        (0, i.gn)(
-          [o.ZP],
+        (0, I.gn)(
+          [w.ZP],
           class extends J {
             constructor(e) {
               super(e),
@@ -1704,7 +1702,7 @@
               "object" == typeof this.props.location
                 ? (r = X(this.props.location, { x: 0, y: 0 }))
                 : "number" == typeof this.props.location &&
-                  (r = be(this.props.location));
+                  (r = fe(this.props.location));
               let i = this.createSgNode(t);
               if (this.props.latched && null !== this.m_latchedPosition)
                 (i.properties["anchor-u"] = this.m_latchedPosition.u),
@@ -1769,12 +1767,57 @@
             super(e);
           }
           internalRender() {
-            return x.createElement(
+            return M.createElement(
               "vsg-head-facing-transform",
               null,
               this.props.children,
             );
           }
+        }
+        function Ie() {
+          const [e, t] = M.useState(0);
+          return (
+            M.useEffect(() => {
+              const r = window.setInterval(() => {
+                t(e + 1);
+              });
+              return () => window.clearInterval(r);
+            }),
+            M.createElement(
+              ee,
+              {
+                summonOverlayKey: "system.dashboardtabtest",
+                tabName: "3D Test",
+                id: "settingsOverlay",
+                iconUri:
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/3D_model_of_a_Cube.stl/1200px-3D_model_of_a_Cube.stl.png",
+              },
+              M.createElement(
+                ve,
+                { translation: { y: 0.5 }, scale: 0.2, rotation: { y: e } },
+                M.createElement(De, { source: "locator" }),
+              ),
+              M.createElement(
+                Ce,
+                null,
+                M.createElement(
+                  ye,
+                  { width: 1, origin: oe.BottomCenter },
+                  M.createElement(
+                    "div",
+                    {
+                      style: {
+                        background: "rgba(255, 255, 255, 0.5)",
+                        fontSize: 50,
+                        padding: 20,
+                      },
+                    },
+                    "The future of overlays is 3D!",
+                  ),
+                ),
+              ),
+            )
+          );
         }
         ((ge = ce || (ce = {}))[(ge.Invalid = 0)] = "Invalid"),
           (ge[(ge.TrackingSystemName_String = 1e3)] =
@@ -2120,9 +2163,9 @@
               (e[(e.Standby = 3)] = "Standby"),
               (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
           })(_e || (_e = {})),
-          x.Component,
-          (0, i.gn)(
-            [o.ZP],
+          M.Component,
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -2149,8 +2192,8 @@
             "buildNode",
             null,
           ),
-          (0, i.gn)(
-            [o.ZP],
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -2173,8 +2216,8 @@
             "buildNode",
             null,
           ),
-          (0, i.gn)(
-            [o.ZP],
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -2198,8 +2241,8 @@
             "buildNode",
             null,
           ),
-          (0, i.gn)(
-            [o.ZP],
+          (0, I.gn)(
+            [w.ZP],
             class extends J {
               constructor(e) {
                 super(e), super.setBuildNodeOverride(this.buildNode);
@@ -2225,104 +2268,24 @@
             null,
           ),
           VRHTML;
-      },
-      4727: (e, t, r) => {
-        function i() {
-          return {
-            translation: { x: 0, y: 0, z: 0 },
-            rotation: { w: 1, x: 0, y: 0, z: 0 },
-            scale: { x: 1, y: 1, z: 1 },
-          };
-        }
-        function o(e, t) {
-          return { x: e.x * t, y: e.y * t, z: e.z * t };
-        }
-        function n(e) {
-          if (void 0 === e) return;
-          let t = 0.5 * e.x,
-            r = 0.5 * e.y,
-            i = 0.5 * e.z,
-            o = Math.cos(t),
-            n = Math.cos(r),
-            s = Math.cos(i),
-            a = Math.sin(t),
-            l = Math.sin(r),
-            d = Math.sin(i);
-          return {
-            w: o * n * s + a * l * d,
-            x: a * n * s + o * l * d,
-            y: o * l * s - a * n * d,
-            z: o * n * d - a * l * s,
-          };
-        }
-        r.d(t, { Oq: () => i, UU: () => n, mT: () => o });
-      },
-      4603: (e, t, r) => {
-        var i = r(655),
-          o = r(7294),
-          n = r(3935),
-          s = r(7056),
-          a = r(1073),
-          l = r(7176);
-        function d() {
-          const [e, t] = o.useState(0);
-          return (
-            o.useEffect(() => {
-              const r = window.setInterval(() => {
-                t(e + 1);
-              });
-              return () => window.clearInterval(r);
-            }),
-            o.createElement(
-              a.Y9,
-              {
-                summonOverlayKey: "system.dashboardtabtest",
-                tabName: "3D Test",
-                id: "settingsOverlay",
-                iconUri:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/3D_model_of_a_Cube.stl/1200px-3D_model_of_a_Cube.stl.png",
-              },
-              o.createElement(
-                a.wx,
-                { translation: { y: 0.5 }, scale: 0.2, rotation: { y: e } },
-                o.createElement(a.gQ, { source: "locator" }),
-              ),
-              o.createElement(
-                a.jm,
-                null,
-                o.createElement(
-                  a.s_,
-                  { width: 1, origin: a.Ic.BottomCenter },
-                  o.createElement(
-                    "div",
-                    {
-                      style: {
-                        background: "rgba(255, 255, 255, 0.5)",
-                        fontSize: 50,
-                        padding: 20,
-                      },
-                    },
-                    "The future of overlays is 3D!",
-                  ),
-                ),
-              ),
-            )
-          );
-        }
-        class p extends o.Component {
+        class Me extends M.Component {
           constructor(e) {
             super(e),
               (this.state = {
                 Frame: 1,
                 Degrees: 0,
-                Transform: (0, a.Oq)(),
+                Transform: {
+                  translation: { x: 0, y: 0, z: 0 },
+                  rotation: { w: 1, x: 0, y: 0, z: 0 },
+                  scale: { x: 1, y: 1, z: 1 },
+                },
                 LabelValue: "                                               ",
                 ShowElasticPanel: !0,
               }),
               (this.animationFrameHandle = window.requestAnimationFrame(
                 this.onAnimationFrame,
               )),
-              (this.mailbox = new a.Nv()),
+              (this.mailbox = new T()),
               this.mailbox.Init("scenegraphtest"),
               this.mailbox.RegisterHandler("fnord", this.onMailboxMessage);
           }
@@ -2330,7 +2293,7 @@
             window.cancelAnimationFrame(this.animationFrameHandle);
           }
           componentDidMount() {
-            (0, a.k7)();
+            j();
           }
           onAnimationFrame() {
             var e;
@@ -2342,7 +2305,7 @@
                   (e =
                     null === VRHTML || void 0 === VRHTML
                       ? void 0
-                      : VRHTML.GetPose("/user/hand/right", a.zq.Standing)
+                      : VRHTML.GetPose("/user/hand/right", s.Standing)
                           .xfDeviceToAbsoluteTracking) && void 0 !== e
                   ? e
                   : this.state.Transform;
@@ -2383,11 +2346,11 @@
             console.log("Received message ", e);
           }
           render() {
-            return o.createElement(
+            return M.createElement(
               "div",
               null,
-              o.createElement(
-                a.Y9,
+              M.createElement(
+                ee,
                 {
                   summonOverlayKey: "keypadtest",
                   id: "bigpicture",
@@ -2395,10 +2358,10 @@
                   iconUri:
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png",
                 },
-                o.createElement(
-                  a.s_,
+                M.createElement(
+                  ye,
                   { width: 1.2, interactive: !0 },
-                  o.createElement(
+                  M.createElement(
                     "div",
                     {
                       className: "panel FlexBox",
@@ -2409,10 +2372,10 @@
                         borderRadius: 30,
                       },
                     },
-                    o.createElement("h1", null, "Elastic panel!"),
-                    o.createElement("hr", null),
-                    o.createElement("pre", null, this.state.LabelValue),
-                    o.createElement(
+                    M.createElement("h1", null, "Elastic panel!"),
+                    M.createElement("hr", null),
+                    M.createElement("pre", null, this.state.LabelValue),
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2420,7 +2383,7 @@
                       },
                       "7",
                     ),
-                    o.createElement(
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2428,7 +2391,7 @@
                       },
                       "8",
                     ),
-                    o.createElement(
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2436,9 +2399,9 @@
                       },
                       "9",
                     ),
-                    o.createElement("br", null),
-                    o.createElement("br", null),
-                    o.createElement(
+                    M.createElement("br", null),
+                    M.createElement("br", null),
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2446,7 +2409,7 @@
                       },
                       "4",
                     ),
-                    o.createElement(
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2454,7 +2417,7 @@
                       },
                       "5",
                     ),
-                    o.createElement(
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2462,9 +2425,9 @@
                       },
                       "6",
                     ),
-                    o.createElement("br", null),
-                    o.createElement("br", null),
-                    o.createElement(
+                    M.createElement("br", null),
+                    M.createElement("br", null),
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2472,7 +2435,7 @@
                       },
                       "1",
                     ),
-                    o.createElement(
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2480,7 +2443,7 @@
                       },
                       "2",
                     ),
-                    o.createElement(
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2488,9 +2451,9 @@
                       },
                       "3",
                     ),
-                    o.createElement("br", null),
-                    o.createElement("br", null),
-                    o.createElement(
+                    M.createElement("br", null),
+                    M.createElement("br", null),
+                    M.createElement(
                       "div",
                       {
                         className: "Label ButtonControl",
@@ -2501,39 +2464,36 @@
                   ),
                 ),
               ),
-              o.createElement(
-                a.wx,
-                {
-                  transform: this.state.Transform,
-                  parent_origin: a.Yg.Standing,
-                },
-                o.createElement(a.gQ, { source: "generic_hmd" }),
+              M.createElement(
+                ve,
+                { transform: this.state.Transform, parent_origin: ie.Standing },
+                M.createElement(De, { source: "generic_hmd" }),
               ),
-              o.createElement(
-                a.wx,
+              M.createElement(
+                ve,
                 {
                   translation: { x: 0, y: 0.3, z: 0 },
                   rotation: { x: 30, y: this.state.Degrees, z: 90 },
-                  parent_origin: a.Yg.Standing,
+                  parent_origin: ie.Standing,
                 },
-                o.createElement(a.gQ, { source: "locator" }),
+                M.createElement(De, { source: "locator" }),
               ),
-              o.createElement(a.wx, {
+              M.createElement(ve, {
                 translation: { x: 0, y: 1.8, z: 0 },
-                parent_origin: a.Yg.Standing,
+                parent_origin: ie.Standing,
                 id: "line_origin",
               }),
-              o.createElement(
-                a.wx,
+              M.createElement(
+                ve,
                 {
                   translation: { x: 0, y: 0, z: -0.5 },
                   scale: { x: 2, y: 2, z: 2 },
-                  parent_origin: a.Yg.Seated,
+                  parent_origin: ie.Seated,
                 },
-                o.createElement(
-                  a.s_,
+                M.createElement(
+                  ye,
                   { height: 0.45, width: 0.45, interactive: !0 },
-                  o.createElement("iframe", {
+                  M.createElement("iframe", {
                     src: "https://www.valvesoftware.com",
                     style: { width: "400px", height: "400px", padding: 0 },
                     height: "400",
@@ -2541,94 +2501,77 @@
                   }),
                 ),
               ),
-              o.createElement(
-                a.wx,
+              M.createElement(
+                ve,
                 {
                   translation: { x: 0, y: 0, z: -0.5 },
                   parent_path: "/user/hand/left",
                   id: "left_hand_model",
                 },
-                o.createElement(a.gQ, { source: "locator_one_sided" }),
+                M.createElement(De, { source: "locator_one_sided" }),
               ),
-              o.createElement(
-                a.wx,
+              M.createElement(
+                ve,
                 { parent_path: "/user/hand/right" },
-                o.createElement(a.x1, {
+                M.createElement(Re, {
                   target_id: "line_origin",
                   thickness: 0.01,
                   end_buffer: 0.5,
                 }),
-                o.createElement(a.x1, {
+                M.createElement(Re, {
                   target_id: "left_hand_model",
                   thickness: 0.001,
                   end_buffer: 0.1,
                   start_buffer: 0.2,
                 }),
               ),
-              o.createElement(
-                a.Y9,
-                {
-                  summonOverlayKey: "bigpicturetest",
-                  id: "bigpicture",
-                  tabName: "Steam",
-                  iconUri:
-                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAApVBMVEX////zeyHzeh3zeBn/+vb//fv95dT2l1f//fzzdxX71LfzehjzfR3++PPzfSP+9Oz2m1n96dr5v5r+8efzgCn83sf97OD0hTP84tD4tIX3p3D6y6v2nmH1lFD+7+P0hjj3rXv0i0D5vZL1kUf3pWn82L33rHn6yKP0hi75upH0izz6xJ770LP2oWf0gi/5vI74tYH3q3H0jUf1mlL1ml36x6j3o26juNiqAAATnUlEQVR4nO1daXeizBIemyUisgkoCK6IK5qYZOb//7SLJplEfLppaDR575nnwzvn3GuA6q6uvap//fqHf/iHf/g/gqLIsmwYRv5fRfnuj2kUsuv4aSfazR/DMJxOp/l/N/NdlKW+Opa/++MEIVtqZ/40jEezyeBw8MwcrRz5P553GExmI3s4nUeB+9+kU3aicJEcvBb5i9YnvvyP3mFmP60C67s/uAoUK9gtEk/TNOmCLIycSknTutt47v8nNrNt9DvhqHsirpS2SzolTd8uI9X60UJIsZxsuTWrUvdJZk5kvPq559JQszDp6hyMySJS0rfDH3kq2266sde6JELdXyK9UZg5P4tbFSf6M+vWZU5AIxnEveDnMKui9l4HjZH3QWS+kanx3aSd0fbDxBM7fJhGYs6GnR9AozOdtG5A3zuRh0X6zefROXa1G5H3RqOm2X7728hT+vPtTek7Q/OW3yRz2m70ot+cvhxE386/Q3dY6dBrQvtx0di1I/feBKqb7V028B3SYerfdRuN6NW8I32t0zYmvTtuozNtWsFzQDKH/p3oUzoPd97ANxDyvLuLAWDNBxXpO/m4uZNbgCSRqpYC8ZbOzelr+3YFCfMWu/AGs5G9WD7uVlHWSTudKNo9Pg3t0WziffyE93la0rmxbjSyROOnruVNnl+X88x3kOduOH5nF+5Hk3Msh/Op0np3U9/R7a35dGDuyHqz12Wv45Q47IrVT3fT+PlAOGUX6U5vyKn9ZZfnM/KP9UbDXurwygWl7++mDwM+IoluB7eyVIM9zxE8eXbL31WDLYqlZqE94Drj2ii9yWFU0leO0yJpg2EUuLXsD8PJwkTn2EgpiW6gNuRsxPHqbvJYk7wz8p3c2Wa5v0K2vcbljRzNSt8r6S8rR5R/ZDdbmKX7SAabhklUoknJS3PpaWdWIyLA8Bel+0i8x0ZJlHclnhIhnt1kTCU4HkoOPdGnDZIo99ha4kRf1uzZV/z9gE0j0ZeNkais2JY2MUe9flMv+wsrig8lJDa1i0rksd5EyCwMbuKd9nujFvPNejNnUY4mrDNIvH12K0tR9qdMP4Z4TUhUpcNUE9K2d8sokRuNWGYOGTTgMfosRU80+8aRdyU4MkmcRaLrq8YsLuku3ZuHaw2mP0OSVOwLxkPGAmrr1T1CtUqaMPS/9BCIPNya0lmEtOx7RYb6R4a60mwBf1He0Z98l5jJB9wNw2gUUYvpgHoCctP3nlFoI0roa93d1T0s6ohO4Pa24ZIr5M4b/WPWnXoPNRbUoJO0pbughlqCeupF8R/on5PUMhrbO536xEGHroV8+4GNrKYGC0ZUErVpnWXztzS2kLYdhg7q6BIT2qIufwc27YuIt6r+uHFMO9o5gaxd6HRpK/3+NevaCky1abtIksqaS9nQFAWTRTkobGmPdSlkMeqwqmjvbCkEkm3GNpNKKSTb+nomeKB9lrerdrz7eyqBZaZuKYUtvcah+QDVEZBGlfjU6FGcXjLolUmtcgo1WyDemNGcue60Cmv4CZZaxAtLBWE5haQrYCzLK4pTTAYV1JAVUlQhGY5L/7icQhFZk/MXTQZKMbehrHQoy6SN1PK/5qBQGonYtO4QC1Ri9njtU3dP49GU4685KCReJEDhL4dii0gJxwacsaJER/U5z19zUJhzu1DsI6XIQf2Jz9+3KGJGW3B9FheFMyHHvD3HcoLXXHrEbC4lfAeZh8KWuRGh8JdxxCRqMc9fu2vIAtzCmItC8ioWIAgo3qLOo/bncAuJGXIeHT4KJ5kQhfJvHPHXjuXitI9PIXnllVMdrlx/SzDn4C7hQpJBubjHwScy4Y68dvQrgCdKIyFZQzVQybRsE8eveAeW3Dra6V1hei3dc19ALNYqz6HKILOykxhB/ibPPLr+DW35Cg7gfGkvmJBz8F6YGzazuX8ggWYotOAysHPJVrRGfYU344EtMFLom5BnwUOTgsOt8wpnGiwYZyEHpitshCba+RaXucZAPwZsym1F0oCNN2nP8n/UB6QqpKTcZ2LD2ADZrv8WZFMZBnTJlhEfVn7DVdF2Yl+SIwVhHykWDZv7UPUSBvu7Q7iFApGjD/SBQ0bW/AIaQwHMf1K1dPb3oZzRRE/hr1O9Cjjg2pNo/jZFm5h7n7TnyjskZ8i2iSwaWjyyFa1RMWJ0EunpNsykWthEJQJMJouEFd8QoU2k+3kBCs+QdSOZXgXFJ6UX0cUbQy+qS3H0ZJhskvg8+1L4IMVJuqKrJ0NfTzvib7YQUxPaelSFhdhUexJ9bICyDzTRoaIfS3ZTFWvIjCQzUVvCWiI2NbF/HSGfkmyaqghSnwGFpqiswUV3WoiCbsoSMelWsCDnE1DZktrp0g/AYgNphB7romqHCpHyElhTqGxLHdbS54Zo4WBmJECStNsUk1LKqEmZw1qKNvTZNcT9O8SkA7GQ2CccStJcNKxICSxqC/BL5IpIJQ4zN6gJIzIQSmH8OlliiE2T66CEjI4haaqUGtv051eIljLLyFoi3vXWBMDCI4dVM+reZRQfVa+iKABGXrRr1uigYygs6d6g0LJZrUpZPwpg0A0kYZGBJy4G3qBSsllvmxgLWk3GElG4KK6bckR8tGxEVxhTav1Y61x3J3gUoNuSFI+3AWQu8Xpir35Hxm7XEG6b6ABVSwZF9uvDX9WsaryES6+bfF9uwWisgyxer/jtPrT8G9GGOF33BfUrYN/gIlFjFgOEyEQnD02UAfu0+rHPTbTF2NRYoqeGhV/NwW8E6wneX8+q9n9/T1cwrAg/fln4EbLQW48NeE47ZtPUG7SjmDSNgCgj+0vGkNFKX7FyDdAS7pdfMxA78CkSIg+XwhTlcYgn7lhYIdcIDU1MLaH4CylI6L6NlIWwzVbSFvYXEnAFKsAFNlPR4nRAVrwBZdFfcE6D4KoSoUIBKTMyuRRfAVCa4kk1mUfMnKFNhWQNyNAUnXfkv+FwThUELIv78ntmQjY+qFYkh0v/KQVGmyRQynuGAWOZmEKxsOIToNC71ASoolTiKhJjAFvcBJf6xCLWBSjFI978QptngEIYzamAPiwDJccjCo4VBUM1gChaTuEFC0IKh2IUAtY5qykcsxEqaEFxQu8yTomCjtpRiECYZM9dThnaT6V1MEysAIXm48WSQQqLtmslwExWbi32sRkpFvWKEIWXTIESQ0IUtqEqJLOTXzqGSoRU7uupRGHjexig0sGPIlVYhSwS2INcWqAQSRqBc2jB4qoPex/FZk81d7UVBj6HN5WlGcrDfDYhvMA6mPqxSyhLL7UF0vgC+hAVCH0tUUZrfvLW6nrcIBRU1IcoICfZdQk0NlBTrP9a8sjdOR38uoZwiCjsXVAI7dKXujo4nQECiP7FUASfdEo41w0rgvR1rn0uftKob+FCi1v6mtD2YcuDPq+5piDxU/QtAlTtUq8HnFI8IG2/KgNrARfBrumRghboYjgb+vg1mQbWDhRSTAq2a8x6QXaYkiiY8qhEnxxqmfvKEyytKhSuOzAGVzOs2EccWDAgLND3S8xaCWhYm0yKHe6wajgXt7VUoo+SLsUqU5SDa9WJ8RlQm3evumuR9K5by9pBKYnimQ7B61p1KlxhHgZUPIz/4JLyOpbbCpiIpFhxiIpni4FxHuAKTlBwQaspr3H2FbQ9ZFr4FdzoUWV1ASsQcRtXAPsCtGN1y82AUdliIj+A+cPK/gzyUfKVQmoH93aQSXVXf4xU3VXwzkV12IeqwlRFuUri7eC+4Ii/WV28BfDbi7sjo8koVXtZjQ0shaTUH47hZAoSV3b1kftOJlfmEYqMkWE1UZOC3EC+hTReh6MpyKSyXYPYXXq4EsrIZcMHiAo83E0vppv/AiVLclQNK+L66uWVpkuBrVVtPeUV5NEXKtfJ0MyouKyUkBDoZOoDfyb3kyusJ8XiZixSBtn0sKqmMGDEBOlVZG1Jf/jdGQNVUec8ylgj5BPkJP6ppIah1vkST/gEEjVVCgfhhkgPTFMaRZBOteVVKIQxIekFfSESNd5vXo7pQx4dsFvAHdytXCmsiIsvUSMHfBt/fesj8grNsrk/2NWvksLAsx11dPoNpPO52+YDyKOls5vgAIbr9jorSGkrPUbtaGSNjnIbxdoZvXyXn4CKgMmhtDgWz1GRLlIYhhqFD1SBAHN1Gs63IveiJfGxKVSFZFEqids9LGv+0mME0XI06Eo6pboPtm62tB4UH3AiBl84SoV5GJ60LuzM+ggrKs5q+Hxonabs01roUJc4taPQgGXCtMW7+EvoCEk8rZn4pVKSs6m6WkzMj/tZyBZLHxgVos2hamfo2PNMrYJWhUQ3176+FJ6NljnfvXia9mXuvA49OYqZsaHsChpfkZtdpdVtUOfyllT28UBLvXghLQ40wo5CujdjwYrz0vFQeECfxBmOkHs8E3taeNqiAgdG0XsmFdgkVdrKCgf08U6Vwu2zCDrgCUpBC90mwoODS3LBLtr5XI/ymnsu9KHAZ0yv/5Zm11LfDXv58q9lKQwlQ2kkiT8ViDkHPPK6QpNiL7Am36BEaUnhIJQUlZqZnFeu8jfQNYlTycw2I5ydZpXStkMof6v0F8gbPDKmiCu3HTdysFcXdrqd6t6pmwhTnRUnJOGxP9cUxoVl28H7PUrcIRjzYDTPGOiiOTKrFpq3hjwEXjX6qFAIl02Ck/GQIbKn2CewtdarWhiDJz5dPfcyjC3jInnCHDH0i9bsSQ7Y18cmReX+b5SBRl9xcVhgcPaqQOEalBYXPHLPQqqsxsDANsztXT959GXpXNgKdNVmAdDBM8JMdGcNrnyqMQE+Lb/4kxBd/xIykGEOqMUztAsPtTlJjys+hR3otUZ4UV76+XZJ8pLhb/9zlSmDvbmMRdQQ3EIaAOdh6k3Vgbr7L3maZ4fZxU2fVog7i7lmMMsvlPGeRacLmsyaXavox6U1ZhBNX8c73zUuNHIbVRq2KIHga1DGcxZHc7lDDVx8wLRhGQCuPsk3T9seV+A+KejJ8m5hbgpTmueli7k2bT+2r/FSt23CLyg3Qoi3tR99aJ/gCuv34AfX2/CcXdAB3hy+Rmtz6szBaBmptNfB6PPJNuddXwM6UScS61bWcWD1/tVEIofn/abTp7+KNuVWolle16C1RZJ17RrXUjgz6XTyupPX6cpn3gRG66YiJRdvfAW154xUu2KhCoxQ07zZvtdxSq76dGgXU1Tq66c+pRUL9s5Tofjx9LfP4M13jKe0iwMqrX6b1vtJzGHzt1W+wehbHKfc2lD8EOKV3rxx+SDKqNacxEoXZTQNY0ezYCtmjmmzWs8kll/icTMotOs7cmVduSCOYhedKtK/jUR5Rbu0l3jVJ2rJVJ+N6I+3vbeS+kkRxRRhBCFYGNNvyPqeXZRX1MsspXo9UzTj7Uzi/cWNQb+VmNQdhDqnTnfKxc39rnd8g9U7UAPHOseNCPih9OlHxBveSvVj9EN6PE6qf0+nQ73JLd/F2L/5NbKfUJf02QWXvSrV0PZRA9M7ia0kusdNsmf4MetCVJErgWXWldxkPb+P1mhHM/o166KCnTnZgmhxQ2MVmXCfdHpyinRFJ4VZIWt4h7bt3JpTleCFcd9xq7UXFurjJWuGjuSF/RtePJ5v4GrLCqWS1wZEukr1Fd+4ZN+5nYEj+wwZenr7SHQ0/xkqMyBNyDYMbrSNzm5EFzE5tET0npN3qPTbP880mq870Vk9CFa2Z2fdpDXrTttKCFAe9Os2HvZZ4xLHX06YG5gT2GBczGeTmNM4GKaN0qiGM5jD/kqgiKa/AuOa2r/7eGzOjHMetyX0tbQql3LyQI3ZLHPS/+aCWslbBXLwtGaqwPPbksZGqX9A3ZfOliNS147K44FMKFbn6JXTl6uJ5u1+h62a3iB1k03g1iVSsdTILqfvZo7NOKTFgS5o1LfDle9WPyNtS83CRJfKl5GYwxvZw9aOh8ScWc1kufL7VRwP2fWjcLTmIO9kRoW3ikrnzhTfiDlCdHO232Q+n81qqZ3en5FHuOjLtQQqmmgKih+jywwhkZI5eY7DXeowgvWy5firzfBh6/Fw5xl6kt3WK3WmfFdUvlFJWt7k+XX5uMp89WtaQrbGjt9Zzafx8+RwqlbnfSbRY/+mvsyvU8yL77R8Upn/2vQG22T0Ytvx4riIY9seJbOJZ37839yQutObHcEv8OMyewMTeq5kOOFc01CRtreHJA3bMTS44aTKNjYF6Y4RTCWzuYbnNglCnnf3zCU4G0b46xb0SYPlPeOzOYx0yKX+GyLQfIjunilp938/8CsOMfrIbEOtrbklZHW+LbeSxSF5S/97EpYnT+7YLbsWQJg+3b5hMK8c7TTWb7iPRNKS1Xft3wcUfzGobgHw0Uc8O/rO/fuAkU6fzcZ1R/7Ayf5H0HeC7G9Gh0ZpzD2T5+m3nr8iFHX3Z9ZtyJYjkj6IN98mP2lQxunGHnC7eQz6dG8UZs536L9SGE5nY5vF9tZK1BGpm0yj4Cex5yXaRj+djtb1FEiuGszkmKnWfTyk2mgbrt+L11edyqXUaZ792OkbP5y8dyjGOH20192Tt8t2dM+esabp65dp5hj3dR7E4frR4zEZHMwzHRCn8MbMflr594hN3AaK5fjRfDrcnyMzk8nghPzf2fPIjofTx1Wq8tTN/nwo1tgJ/DRNO1mWdfJ//cDpWz9N4f3DP/zDP/wDDf8Dzkh1E7Flkc8AAAAASUVORK5CYII=",
-                },
-                o.createElement(a.s_, {
-                  overlay_key: l.Y8,
-                  uv_min: { u: 0, v: 0 },
-                  uv_max: { u: 1, v: 0.3 },
-                  width: 0.5,
-                  interactive: !1,
-                }),
-              ),
-              o.createElement(a.wx, {
+              M.createElement(ve, {
                 translation: { x: 0, y: 0, z: -0.5 },
                 parent_path: "/user/hand/right/pose/base",
               }),
-              o.createElement(
-                a.wx,
+              M.createElement(
+                ve,
                 {
                   translation: { x: 0, y: -1.2, z: -2 },
                   rotation: { x: -45 },
                   parent_path: "/user/head/pose/raw",
                 },
-                o.createElement(
-                  a.s_,
+                M.createElement(
+                  ye,
                   { height: 0.2, width: void 0, interactive: !1 },
-                  o.createElement(
+                  M.createElement(
                     "div",
                     {
                       className: "panel",
                       style: { height: "150px", width: "600px" },
                     },
-                    o.createElement("h1", null, "Some Text for the panel."),
+                    M.createElement("h1", null, "Some Text for the panel."),
                     "Frame: ",
                     this.state.Frame,
-                    o.createElement("br", null),
+                    M.createElement("br", null),
                     "Degrees: ",
                     Math.round(this.state.Degrees),
-                    o.createElement("br", null),
+                    M.createElement("br", null),
                   ),
                 ),
               ),
-              o.createElement(
-                a.wx,
-                { parent_origin: a.Yg.Standing },
-                o.createElement(a.gQ, {
+              M.createElement(
+                ve,
+                { parent_origin: ie.Standing },
+                M.createElement(De, {
                   source: "{knuckles}valve_controller_knu_ev2_0_left",
                 }),
               ),
-              o.createElement(
-                a.wx,
+              M.createElement(
+                ve,
                 { translation: { y: 0.5 } },
-                o.createElement(
-                  a.Dd,
+                M.createElement(
+                  re,
                   { value: 0.1 },
-                  o.createElement(
-                    a.VW,
+                  M.createElement(
+                    te,
                     { color: { b: 1, g: 1, r: 0 } },
-                    o.createElement(a.gQ, {
+                    M.createElement(De, {
                       source: "generic_hmd",
                       wireframe: !0,
                       fresnel: { color: { r: 1 }, opacity: 0.7, strength: 1 },
@@ -2636,37 +2579,37 @@
                   ),
                 ),
               ),
-              o.createElement(d, null),
+              M.createElement(Ie, null),
             );
           }
         }
-        (0, i.gn)([s.ak], p.prototype, "onAnimationFrame", null),
-          (0, i.gn)([s.ak], p.prototype, "onNumberClicked", null),
-          (0, i.gn)([s.ak], p.prototype, "onHideElasticPanel", null),
-          (0, i.gn)([s.ak], p.prototype, "onMailboxMessage", null),
-          n.render(
-            o.createElement(a.n0, null, o.createElement(p, null)),
+        (0, I.gn)([w.ak], Me.prototype, "onAnimationFrame", null),
+          (0, I.gn)([w.ak], Me.prototype, "onNumberClicked", null),
+          (0, I.gn)([w.ak], Me.prototype, "onHideElasticPanel", null),
+          (0, I.gn)([w.ak], Me.prototype, "onMailboxMessage", null),
+          P.render(
+            M.createElement(Se, null, M.createElement(Me, null)),
             document.getElementById("root"),
           ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              a.Z9.ShowTouchPadScrollWheel,
+              d.ShowTouchPadScrollWheel,
               !0,
             ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              a.Z9.SendVRSmoothScrollEvents,
+              d.SendVRSmoothScrollEvents,
               !0,
             ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetInputMethod(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              a.qC.Mouse,
+              c.Mouse,
             );
       },
     },
@@ -2739,7 +2682,7 @@
       r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));
     })(),
     (i.nc = void 0);
-  var o = i.O(void 0, [968, 683], () => i(4603));
+  var o = i.O(void 0, [968], () => i(9119));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=118f250c45677db24be3
+//# sourceMappingURL=scenegraphtest.js.map?v=2d7bd9dd4bf2d7b8cc62

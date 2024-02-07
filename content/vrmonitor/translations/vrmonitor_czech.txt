@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "1/3 snímku"
 "Advanced_DroppedFrame" "Chyba displeje"
 "Advanced_AppRequestedThrottling" "Aplikace vyžádala omezení (spojené s CPU)"
+"Advanced_NetworkLatency" "Odezva sítě"
 
 "Advanced_DashboardUp" "Hlavní obrazovka zapnuta"
 "Advanced_DashboardDown" "Hlavní obrazovka vypnuta"

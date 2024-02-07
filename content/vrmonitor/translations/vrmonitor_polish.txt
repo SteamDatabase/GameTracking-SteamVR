@@ -591,6 +591,7 @@
 "Advanced_OneThirdFramerate" "Jedna trzecia liczby klatek"
 "Advanced_DroppedFrame" "Błąd wyświetlania"
 "Advanced_AppRequestedThrottling" "Aplikacja zażądała ograniczenia (kontrolowane przez CPU)"
+"Advanced_NetworkLatency" "Opóźnienie sieci"
 
 "Advanced_DashboardUp" "Panel główny wł."
 "Advanced_DashboardDown" "Panel główny wył."

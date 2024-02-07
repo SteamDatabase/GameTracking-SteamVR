@@ -417,7 +417,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Помилка відеокодувальника"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Можливо, вам потрібно оновити драйвер відеокарти комп’ютера."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Не вдалося налаштувати відеокодувальник. Можливо, ваша відеокарта не підтримується або потрібно оновити її драйвер для комп’ютера."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Детальніше"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

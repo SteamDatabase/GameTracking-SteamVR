@@ -35,7 +35,6 @@
 
   "X_More_Overlays": "%1$s More Overlays",
 
-  "Store": "Store",
   "BrowseAllGames": "Browse All Games",
   "BrowseAll": "Browse All",
   "StoreSection_TopSingleplayer": "Top Singleplayer",
@@ -81,10 +80,8 @@
   "Mute_Headset": "Mute Headset",
   "Unmute_Headset": "Unmute Headset",
 
-  "WelcomeHeader": "No Games?",
-  "WelcomeMessage": "Building a VR library that comes with you as your hardware changes has never been easier.",
-  "WelcomeBrowseStore": "Browse the Store",
-  "WelcomeInstall": "Install Games",
+  "WelcomeToSteamVR": "Welcome to SteamVR",
+  "LaunchSteamToFindGames": "Launch Steam to find and play games.",
 
   "ShowSteamUI_Steam": "Open Steam Menu",
   "ShowSteamUI_QAM": "Open Quick Access Menu",

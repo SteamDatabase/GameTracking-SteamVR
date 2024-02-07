@@ -588,6 +588,7 @@
 "Advanced_OneThirdFramerate" "1/3 幀率"
 "Advanced_DroppedFrame" "顯示器錯誤"
 "Advanced_AppRequestedThrottling" "應用程式要求限制（受限於 CPU）"
+"Advanced_NetworkLatency" "網路連線延遲"
 
 "Advanced_DashboardUp" "主控台開啟"
 "Advanced_DashboardDown" "主控台關閉"

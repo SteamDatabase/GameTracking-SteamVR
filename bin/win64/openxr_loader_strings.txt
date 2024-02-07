@@ -2,9 +2,7 @@
 							
 												
 																																												
-		|7h&~]t
 	!s99
-	Um}l
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -43,12 +41,10 @@
  using interface version 
  was not found
  with error 
-!8x,uc
 !hn7!
-"	sA=
-#f~{~
 %u.%u
 %u.%u.%u
+& @$q
 ' is not a number.
 ',=?k
 (A^A]^[
@@ -168,8 +164,8 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220326Z0/
 2333333
+240201011154Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -235,6 +231,7 @@
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?f^9x
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
@@ -566,6 +563,7 @@ Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+SrC6[
 Syntax error: value, object or array expected.
 T$0H;
 T$HE3
@@ -767,6 +765,7 @@ fputc
 fsetpos
 functions
 fwrite
+gZF)d
 gfffffffH
 gfffffffH+
 gfffffffI
@@ -795,7 +794,6 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
-i}x$o|%
 jj@0HK4
 k0i0$
 keylength >= 2^30
@@ -827,7 +825,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
-q%!c|
+q3?&OT
 rejectDupKeys
 runtime
 s t#fff
@@ -980,7 +978,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-y5]x 
 {un'%
 |$ ATAVAWH
 |$ AVH

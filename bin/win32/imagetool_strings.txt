@@ -2172,6 +2172,7 @@ $~O="""
 '^{.f
 'aE<"
 'd+sX
+'i~'%
 'xR	-
 '}.Sj
 '}H_^][
@@ -2227,7 +2228,6 @@ $~O="""
 (L$0+
 (L$`f
 (MSG: %s)
-(N=!h
 (NULL)
 (NULL) message
 (P"	)
@@ -2315,7 +2315,6 @@ $~O="""
 *E?>YE?
 *EPSF-*
 *Magenta*
-*NOn`w
 *Pt)p
 *T$(j
 *T|3m
@@ -3267,6 +3266,7 @@ $~O="""
 .idata$5
 .idata$6
 .jhUS
+.mC*W%BB
 .memorylist
 .notdef
 .o'i mu xagji sofybakni cu zvati le purdi
@@ -4330,13 +4330,13 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231221220106Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
 23383I3l3
 2384x3370
 24 24
+240201010939Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -6079,6 +6079,7 @@ $~O="""
 747s7
 748O8
 749H:
+75'6h
 757:7?7R7
 757:7Y7
 767;7i7n7
@@ -7953,7 +7954,6 @@ $~O="""
 <*<8<D<R<^<l<x<
 <*<><R<f<y<
 <*<_<m<
-<+3+xF
 <+<0<h<
 <+<?<
 <+<d<r<:=N=[=
@@ -17814,6 +17814,7 @@ U SVW
 U$9T$
 U%	PG;
 U(UuU
+U3 3u$
 UBRL6
 UC6UQ`
 UCS-2
@@ -18657,6 +18658,7 @@ Zoom Center
 Zoom Enable Status
 Zoom Factor
 Zoom Select Status
+[	78I
 [ /Indexed /%s %.20g %.20g 0 R ]
 [ /PDF /Text /ImageB
 [ /PDF /Text /ImageC
@@ -18669,7 +18671,6 @@ Zoom Select Status
 [1;33m
 [1;35m
 [1`1r1w1
-[2QdhJ
 [:#}41
 [;gY $
 [Eqw%
@@ -20036,6 +20037,7 @@ currentfile %.20g %.20g 1 ByteStreamDecodeFilter
 currentfile %.20g %.20g 3 ByteStreamDecodeFilter
 currentfile %.20g %.20g 4 ByteStreamDecodeFilter
 currentfile %.20g %.20g 5 ByteStreamDecodeFilter
+cvp6w
 cyan1
 cyan2
 cyan3

@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "Framerate: un terzo"
 "Advanced_DroppedFrame" "Errore di visualizzazione"
 "Advanced_AppRequestedThrottling" "Throttling della CPU richiesto dall'app"
+"Advanced_NetworkLatency" "Latenza di rete"
 
 "Advanced_DashboardUp" "Dashboard: sì"
 "Advanced_DashboardDown" "Dashboard: no"

@@ -195,6 +195,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR Developer Support"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks Developer Support"
 "MenuAction_CreateSystemReport" "Create System Report"
+"MenuAction_ToggleDashboard" "Toggle Dashboard"
 "MenuAction_Recenter" "Recenter"
 "MenuAction_SystemReportViewer" "System Report Viewer"
 "MenuAction_DisplayFrameTiming" "Advanced Frame Timing"

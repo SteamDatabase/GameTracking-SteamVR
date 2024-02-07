@@ -417,7 +417,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Chyba kódování obrazu"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Pravděpodobně budete muset aktualizovat ovladač grafické karty."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Nepodařilo se nastavit kodér obrazu. Vaše grafická karta nemusí být podporována nebo budete muset aktualizovat její ovladač."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Více informací"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
 

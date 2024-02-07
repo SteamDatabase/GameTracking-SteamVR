@@ -589,6 +589,7 @@
 "Advanced_OneThirdFramerate" "1/3 частота кадрів"
 "Advanced_DroppedFrame" "Помилка екрана"
 "Advanced_AppRequestedThrottling" "Запитані застосунком обмеження (пов’язані з ЦП)"
+"Advanced_NetworkLatency" "Затримка мережі"
 
 "Advanced_DashboardUp" "Панель навігації — увімк."
 "Advanced_DashboardDown" "Панель навігації — вимк."

@@ -389,10 +389,6 @@ body {
 	width: 100%;
 }
 
-body:not(.VRGamepadUI) .SettingsMain.Overlay .SettingsSidebarPageContainer {
-	padding: 0 var(--settings-left-outer-margin);
-}
-
 .SettingsSidebar {
 	min-width: var(--settings-sidebar-min-width);
 	max-width: var(--settings-sidebar-max-width);
@@ -407,26 +403,6 @@ body:not(.VRGamepadUI) .SettingsMain.Overlay .SettingsSidebarPageContainer {
 	display: flex;
 	flex-direction: column;
 	flex-shrink: 0;
-}
-
-body:not(.VRGamepadUI) .SettingsSidebar::before {
-	content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	transform: scaleY(-1);
-	background-color: var(--background-color);
-	background-image: var(--background-image);
-	background-size: cover;
-	background-position: left center;
-	border-top-left-radius: var(--settings-border-radius);
-	border-bottom-left-radius: var(--settings-border-radius);
-	z-index: -1;
-}
-
-body.VRGamepadUI .SettingsMain .SettingsSidebar {
 	background: var(--gamepadui-darker-grey);
 }
 
@@ -439,10 +415,6 @@ body.VRGamepadUI .SettingsMain .SettingsSidebar {
 	width: var(--settings-sidebar-min-width);
 	box-sizing: border-box;
 	margin-top: 2em;
-}
-
-body.VRGamepadUI .SettingsSidebar .SegmentedControlGroup {
-	filter: brightness(150%);
 }
 
 .SettingsSidebar:empty {
@@ -473,15 +445,11 @@ body.VRGamepadUI .SettingsSidebar .SegmentedControlGroup {
 	display: flex;
 }
 
-body.VRGamepadUI.SGApp .SettingsSidebarButton .Label {
-	font-size: 0.8rem;
-}
-
 .SettingsSidebarButton::before {
 	content: '';
 	position: absolute;
-	left: calc(-1 * var(--settings-sidebar-button-expansion));
-	right: calc(-1 * var(--settings-sidebar-button-expansion));
+	left: 0px;
+	right: 0px;
 	top: 0px;
 	bottom: 0px;
 	background: linear-gradient(to left, var(--settings-side-nav-gradient-b) 0%, var(--settings-side-nav-gradient-a) 100%);
@@ -500,13 +468,8 @@ body.VRGamepadUI.SGApp .SettingsSidebarButton .Label {
 	border-bottom-left-radius: 0;
 }
 
-body:not(.VRGamepadUI) .SettingsSidebarButton.Active::before {
-	opacity: 1;
-	transform: scale(1);
-}
-
-body.VRGamepadUI .SettingsSidebarButton.Active,
-body.VRGamepadUI .SettingsSidebarButton:hover {
+body .SettingsSidebarButton.Active,
+body .SettingsSidebarButton:hover {
 	background: var(--gamepadui-dark-grey);
 }
 
@@ -520,6 +483,10 @@ body.VRGamepadUI .SettingsSidebarButton:hover {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+body.SGApp .SettingsSidebarButton .Label {
+	font-size: 0.8rem;
 }
 
 .SettingsSidebarButton.Active .Label {
@@ -768,6 +735,7 @@ body.VRGamepadUI .SettingsSidebarButton:hover {
 	position: relative;
 	min-height: var(--settings-control-default-height);
 	width: var(--settings-right-column-computed-width);
+	filter: brightness(150%);
 }
 
 .SettingsItem.SegmentedControl .SegmentedControlGroup::before {
@@ -880,6 +848,10 @@ body.VRGamepadUI .SettingsSidebarButton:hover {
 	transition: opacity var(--control-switch-animation-time) var(--control-switch-overshoot-ease);
 }
 
+.SettingsItem.SegmentedControl:hover .SegmentedControlGroupOption:not(:first-child)::before {
+	background: var(--gamepadui-darkish-grey);
+}
+
 .SettingsItem.SegmentedControl .SegmentedControlGroupOption:not(.Active) + .SegmentedControlGroupOption:not(.Active)::before {
 	opacity: 0.75;
 }
@@ -972,11 +944,6 @@ body.VRGamepadUI .SettingsSidebarButton:hover {
 
 .SettingsItem.RadioButtons .RadioButton:hover,
 .SettingsItem.RadioButtons .RadioButton.Selected {
-	background: var(--settings-control-activated-background);
-}
-
-body.VRGamepadUI .SettingsItem.RadioButtons .RadioButton:hover,
-body.VRGamepadUI .SettingsItem.RadioButtons .RadioButton.Selected {
 	background: var(--gamepadui-dark-grey);
 }
 
@@ -1416,7 +1383,13 @@ body.VRGamepadUI .SettingsItem.RadioButtons .RadioButton.Selected {
 	         var(--settings-subsection-padding-h);
 	margin: 0;
 	border-radius: 0;
-	background: rgb(var(--settings-subsection-background-rgb));
+	background: var(--gamepadui-darkish-grey);
+}
+
+.SettingsMain .Modal > .Subsection.Top .SettingsItem,
+.SettingsMain .Modal > .Subsection.Bottom .SettingsItem
+{
+	filter: brightness(150%);
 }
 
 .SettingsMain .Modal > .Subsection.Top.Subheader
@@ -1438,23 +1411,7 @@ body.VRGamepadUI .SettingsItem.RadioButtons .RadioButton.Selected {
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
-}
-
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Body
-{
 	background: var(--gamepadui-darkest-grey);
-}
-
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Top,
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Bottom
-{
-	background: var(--gamepadui-darkish-grey);
-}
-
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Top .SettingsItem,
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Bottom .SettingsItem
-{
-	filter: brightness(150%);
 }
 
 
@@ -1842,6 +1799,14 @@ body.VRGamepadUI .SettingsMain .Modal > .Subsection.Bottom .SettingsItem
 .SettingsMain .Modal.OverlayAutoLaunchModal
 {
 	min-width: 25rem;
+}
+
+.SettingsMain .Modal.MaxRecommendedResolutionRecovery .Description
+{
+	max-width: 30rem;
+	font-size: 1.1rem;
+	padding-bottom: 0.5em;
+	display: block;
 }
 
 .SettingsMain .Modal .ModalPlaceholder

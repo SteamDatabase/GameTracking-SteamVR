@@ -591,6 +591,7 @@
 "Advanced_OneThirdFramerate" "Egyharmados képkockaszám"
 "Advanced_DroppedFrame" "Kijelzőhiba"
 "Advanced_AppRequestedThrottling" "Az alkalmazás korlátozást kért (CPU-korlát)"
+"Advanced_NetworkLatency" "Hálózati késleltetés"
 
 "Advanced_DashboardUp" "Műszerfal be"
 "Advanced_DashboardDown" "Műszerfal ki"

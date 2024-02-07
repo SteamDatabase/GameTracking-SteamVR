@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "Kare Sayısı - 1/3"
 "Advanced_DroppedFrame" "Görüntüleme Hatası"
 "Advanced_AppRequestedThrottling" "Uygulama, kısıtlama istedi (işlemci sınırı)"
+"Advanced_NetworkLatency" "Ağ Gecikmesi"
 
 "Advanced_DashboardUp" "Pano Açık"
 "Advanced_DashboardDown" "Pano Kapalı"

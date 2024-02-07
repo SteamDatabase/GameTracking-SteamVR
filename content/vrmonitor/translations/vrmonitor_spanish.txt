@@ -589,6 +589,7 @@
 "Advanced_OneThirdFramerate" "Un tercio de la velocidad de fotogramas"
 "Advanced_DroppedFrame" "Error de visualización"
 "Advanced_AppRequestedThrottling" "La aplicación ha solicitado una limitación (por CPU)"
+"Advanced_NetworkLatency" "Latencia de red"
 
 "Advanced_DashboardUp" "Menú principal activado"
 "Advanced_DashboardDown" "Menú principal desactivado"

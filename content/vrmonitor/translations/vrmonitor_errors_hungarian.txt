@@ -417,7 +417,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Képkódolási hiba"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Lehet, hogy frissítened kell számítógéped video-illesztőprogramját."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Nem sikerült beállítani videókódolót. Lehet, hogy a GPU-d nem támogatott, vagy frissítened kell számítógéped video-illesztőprogramját."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Több infó"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://help.steampowered.com/hu/faqs/view/153F-1B04-6CAB-43A1#steamvr-issues"
 

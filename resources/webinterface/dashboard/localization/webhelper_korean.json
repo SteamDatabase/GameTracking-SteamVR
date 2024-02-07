@@ -49,6 +49,8 @@
 	"/pose/grip": "그립",
 	"/pose/openxr_grip": "OpenXR 그립",
 	"/pose/openxr_aim": "OpenXR 조준",
+	"/pose/openxr_handmodel": "손바닥",
+	"/pose/openxr_handmodel_r": "손바닥",
 	"/input/skeleton/left": "왼쪽 골격",
 	"/input/skeleton/right": "오른쪽 골격",
 	"/output/haptic": "햅틱",

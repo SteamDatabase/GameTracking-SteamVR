@@ -412,7 +412,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "ビデオエンコーダーエラー"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "コンピューターのグラフィックドライバーを更新する必要があるかもしれません。"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "ビデオエンコーダーをセットアップできませんでした。 お使いのGPUがサポートされていないか、コンピューターのグラフィックドライバーを更新する必要があります。"
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "詳細情報"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

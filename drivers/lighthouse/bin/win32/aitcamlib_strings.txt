@@ -1,7 +1,6 @@
 																																																																																																																
 	!s99
  %41g
-!%I:9
 !(0)"
 !9~ t
 !hn7!
@@ -12,6 +11,7 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
+&3dv*[
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -23,11 +23,12 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
+)M'("
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
--0J0]0k0
+-0G0T0
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -96,6 +97,7 @@ $9^ t
 .tls$
 .tls$ZZZ
 .xdata$x
+/232@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 /9s<u*
 /delivery_rate
 /elapsed_time
@@ -129,53 +131,52 @@ $9^ t
 0 width
 0!0%0+050?0F0P0Z0a0k0
 0#0*050B0L0R0
-0%1.161r1
-0&0v0
+0$0(080<0@0H0`0p0t0
+0%0L0Q0X0_0f0
+0&0,0<0m0
 0'1.1
-0(0,00080P0`0d0t0x0|0
-0(020B0M0n0~0
-0(1,1
+0+1L1Z1b1l1v1'2F2a2o2
 0-pixel image
-020g0
-04686
+0>0N0X0b0r0}0
 0?0{0
-0@1N1v1
+0D0b0
 0`0u0
+0e1n1v1
 0w0c1
 0}0i1
-1 181<1T1d1h1|1
-1"1,161
-1.1>1H1R1b1m1
+1 1$1(101H1L1d1t1x1
+1"121=1^1n1x1
+1$1-1p1~1
+1,101=1A1z6~6
 1/2/4/8/16-bit only
 121V1$363
 123456789000
 130801120000Z
-132q2
-161;1E1V1
 1F1V1`1e1o1
-1J6N6
-1P3A5a5
-1c3g3v3z3
+1I2c2k2w2
+1X1\1
+1Z1v1{1
+1d6h6
 1h3l3p3t3x3|3
-2 2$2(2
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 282H2L2\2`2p2t2|2
-2!2/2I2}2
-2"2-2N2^2h2r2
+2 2$2(202H2X2\2l2p2
+2"3&3
 2#2(222C2H2R2c2h2r2
-2$3]3f3
+2&292
+2'3b3f3J:N:[:_:
+2(2,2024282<2@2D2H2L2P2T2X2
 2,2:2H2V2d2r2
 2-3V3h3o3
+2.282B2R2]2~2
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
-22363
 230714000000Z
-231221215956Z0/
-232;2G2[2f2y2
+240201010812Z0/
 241009235959Z0a1
+282<2@2D224b4
+294=4L4P4T4X4\4
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -183,165 +184,167 @@ $9^ t
 2e3j3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2z3~3
 3 3$3(3,3034383<3@3D3H3T3
+3 3(3@3D3\3l3p3t3x3|3
 3 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5
 3#3(3-32373<3A3F3K3P3c3h3r3
+3#5\5
 3&303:3D3N3X3b3l3v3
-3&3g3
-3(323B3M3n3~3
-30343L3\3`3d3h3l3t3
+3+3G3_3
 311109235959Z0b1
-313N3
 341013235959Z0H1
+353V3
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-394B4S4_4k4q4w4
-3:4z4
-3=5E5W5_5
-3@3U3a3g3m3s3y3
-3D4d4
+394h4}4
+3:3D3_3q3
+3=3D3
+3>3N3X3b3r3}3
 3X4_4
-3[4d4h4y4}4
+3m5u5
 3mq+<
-4	5'5/5d5
-4 4$4(4,4m5q5
+3z4@5
+4 4(4@4P4T4X4\4`4d4l4
+4!5(5E5o5
+4"424=4^4n4x4
 4#4(424C4H4R4c4h4r4
+4'4?4y4
+4+5a5t5}5
 4,4E4L4e4l4
-4.4>4H4R4b4m4
-404@4D4H4L4P4T4\4t4
-415D5M5R5r5S6f6l6
-424c4g4
+495W5_5
 4?6H6O6
-4]6h6
+4S5::
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5!5&5+505A5K5Q5U5[5_5e5p5x5
-5"5-5N5^5h5r5
 5%656b7
-5(5,5<5@5H5`5p5t5
+5(585<5L5P5X5p5
+5,5D5M5X5_5
+5,5]5
+5.585B5R5]5~5
 5.5=6D6
 5/54595@5Y5`5y5~5
-5?5E5K5Q5W5]5d5k5r5y5
-5?5a6
+516D6L6X6g6r6z6
 5FjiT
 5Genu
-5S5|5
-5]5a5
-5b6f6
 5d6h6l6p6t607
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 6 6$6(6,6064686X8\8`8d8h8l8p8
-6 7I7b7u7
-6!6+696B6l6
+6!686M6T6Z6l6v6
+6!6?6N6
 6#6(626C6H6R6c6h6r6
+6$7E8I89:
 6'6.6G6N6g6n6
-6(626A6Q6a6m6s6
-6(676B6J6R6q6
-6)6F6U6^6d6j6
+6*6:6J6S6i6
 6*f(_
-6,666
 607c7l8{9
+618<8
+686Q6[6i6r6
+6>6N6X6b6q6
 6>6[6
 6E6J6z6
 6I]Dc
 6OB,n_
 7 7$7(7,7074787<7@7D7H7
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7&7,72787>7D7J7P7V7\7b7h7n7t7z7
+7 8$8-;1;
 7$7)7.73787=7B7G7L7Q7V7[7`7e7j7o7t7y7~7
-7$7@7f7u7
 7$8U8!919}9
+7%707=7b7r7|7
 7)707I7N7j7q7
+7)7`7
 70503
-727B7L7V7_7r7~7
-72969
+767<7B7H7N7T7Z7`7f7l7r7x7~7
+787<7l8
+788L8R8
+7J7b7$:
+7N7T7p7
 7O7W7
-7c8j869:9G9K9@<D<
-7d85<Z>d>h>
+7P9T9
+7b9f9
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7l8p8t8x8
-7o7 9$9Z9^9m9q9
-8"8p8
+8!818A8Q8l8
 8#8(828C8H8R8c8h8r8
-8*868U8Z8k8q8v8
-8,838N8k8
-8,8G8Q8b8m8
+8#8,818:8N8V8\8j8v8
+8(:,:0:
+8,838L8S8n8
+8D8N8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8SVWh\
-8W=`=d=t=}=
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8f9j9w9{9p<t<
 8l8z8
+9 9$9(9,909
 9 u	A
 9!:I:
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9m9r9w9|9
-9"9-9N9^9h9r9
-9#9.969@9H9S9Y9_9i9s9~9
+9.9>9H9R9b9m9
 949l9
-9>:D:^:$;
+9E9M9Z9c9n9v9
 9_lt\
-: ;,;4;L;P;`;
+:!:%:4:8:G:K:Z:b:l:x:
+:":-:N:^:h:r:
 :#:(:-:2:7:<:A:F:K:P:a:f:k:p:u:z:
 :#;W;
-:$:,:L:p:|:
-:(:2:B:M:n:~:
-:*:2:<:H:P:T:a:e:
-:+:/:
+:%:-:1:
+:&;.;W;a;k;};
+:(:4:<:\:
+:(:6:::
+:):n:t:
 :3:X:}:
 :;:w:
-:>;D;V;\;m;r;
-:@;G;
-:F:S:t:y:
+:T;+<o<
 :X;{;
-:\<L=
-:y<}<
-; ;$;
+; ;$;(;,;0;4;
 ; <$<(<,<0<4<8<<<@<D<
-;!;+;=;U;
+;!;%;8;b;
 ;#;-;C;M;a;o;t;
+;#;p;w;-<T>X>\>`>d>h>l>p>t>x>|>
 ;$<`<
-;$>(>,>0>4>8><>@>D>H>L>P>T>
+;(;2;B;M;n;~;
 ;(<s<
+;-;F;
 ;-<x<
-;.;>;H;R;b;m;
-;1<d<
-;?<R<u<1=>=Y=
-;C<W<|<
-;x<|<
+;0;<;D;\;`;p;
+;9?=?
+;<=Z=
+;n;t;
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
-<"<-<N<^<h<r<
-<,<P<\<d<|<
+<(=,=
+<.<><H<R<b<m<
 <0:08
+<<<`<l<t<
+<R>n>
 <_=r=
+<a=n=
 <unknown>
-=(=2=B=M=n=~=
-=*=u=y=
+= =@=`=|=
+="=-=N=^=h=r=
+=(>.>F>U>[>d>v>|>
 =,=L=l=
-=0=P=l=p=x=
 =1=A=Q=]=i=s=
-=b=f=u=y=
 =rIQU
->%>+>4>F>L>
->.>>>H>R>b>m>
->.>|?
+>%?B?^?x?
+>(>2>B>M>n>~>
+>(?r?y?
 >0<0:
->1?b?
->9>M>
->B?I?
+>4>>>H>
+>=>E>f>
 >H?Z?`?g?r?
+>K>i>}>
 >Mp$d
 >T>6?
->X>\>`>d>|>
 >[>c>k>/?7?j?y?
-?!?1?7?;?A?E?P?_?r?}?
-?(?,?4?L?\?`?h?
-?.?H?h?
+>h>l>p>t>
+?(?8?<?D?\?l?p?x?
+?.?>?H?R?a?q?w?{?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
 ??Bid@locale@std@@QAEIXZ
@@ -365,7 +368,6 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
-A0yK 
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -379,7 +381,6 @@ ASSERT: "%s" at %s:%d.
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
-B3I3~3
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
@@ -445,6 +446,7 @@ IVRExtendedDisplay_001
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -481,17 +483,16 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+N[OFE
 Not Available
 NotFound
-OIFPb
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 P<^_3
 PAq=?Mp#
-PCEG_
 PID_%04X
-PQhX+
+PQhh+
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -500,14 +501,12 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R1Z1x1
 RPCRT4.dll
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
 S0Q0O
-S0W0e0i0
 SA|X=G
 SETUPAPI.dll
 SNRtt(
@@ -601,7 +600,6 @@ Y__^[
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
-\3`3	484M4Q4
 ]J<0"0i3
 _CIpow
 _Cnd_destroy_in_situ
@@ -645,8 +643,6 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
-`mV&9
-a*lqEpU
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -714,6 +710,7 @@ cameraFrameRate
 cameraISPSyncDivisor
 cameraSensorFrameRate
 can't merge dc and ac
+cbxD[4
 corrupt
 cs_cs
 czech
@@ -853,8 +850,11 @@ www.digicert.com1$0"
 zh_cn
 zh_tw
 zlib corrupt
+zxgG0
 {un'%
 |Lu?c
 }LuHO
+}h0*q
+~W5N-"
 ~qj#k"
 ~t&LN

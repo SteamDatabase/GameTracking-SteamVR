@@ -471,6 +471,7 @@
  b g_pVRDriverManager
  b g_pVRExtendedDisplay
  b g_pVRMailbox
+ b g_pVRNotificationsInternal
  b g_pVROverlay
  b g_pVROverlayInternal
  b g_pVRPaths
@@ -5675,7 +5676,7 @@
  t GetNextEventId()
  t GetResourceBaseDir()
  t GetResourceBaseDir() [clone .cold]
- t GetSteamVRLanguage(ISteamUtils*)
+ t GetSteamLanguage(ISteamUtils*)
  t GetSystemBaseTicks()
  t GetSystemTicksFromTime(double)
  t GetSystemTime()
@@ -6396,7 +6397,7 @@
  t StaticPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
  t StaticPoseMaker::StaticPoseMaker(CKeyframedDataResource const*, int)
  t StaticPoseMaker::~StaticPoseMaker()
- t SteamLanguageToSteamVRLanguage(std::string const&)
+ t SteamLanguageToIsoLanguage(std::string const&)
  t SteamVRVersionAsString()
  t SteamVRVersionAsString() [clone .cold]
  t Stereo_Device_Params::clear()
@@ -13428,6 +13429,7 @@
  t vr_internal::VRInput()
  t vr_internal::VRInputInternal()
  t vr_internal::VRMailbox()
+ t vr_internal::VRNotificationsInternal()
  t vr_internal::VROverlay()
  t vr_internal::VROverlayInternal()
  t vr_internal::VRPaths()

@@ -415,7 +415,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Fejl med videokodning"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Du skal muligvis opdatere din computers grafikdriver."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Kunne ikke opsætte en videokoder. Grafikkortet understøttes muligvis ikke, eller computerens grafikdriver skal måske opdateres."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Flere oplysninger"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

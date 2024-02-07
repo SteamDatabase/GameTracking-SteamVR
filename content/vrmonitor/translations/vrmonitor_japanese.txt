@@ -588,6 +588,7 @@
 "Advanced_OneThirdFramerate" "3分の1のフレームレート"
 "Advanced_DroppedFrame" "ディスプレイエラー"
 "Advanced_AppRequestedThrottling" "アプリがスロットルをリクエスト（CPUバインド）"
+"Advanced_NetworkLatency" "ネットワーク遅延"
 
 "Advanced_DashboardUp" "ダッシュボードオン"
 "Advanced_DashboardDown" "ダッシュボードオフ"

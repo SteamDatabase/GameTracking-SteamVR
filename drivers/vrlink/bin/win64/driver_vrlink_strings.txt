@@ -419,8 +419,9 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 ("<6PZDNxrlf
 (3-!0,1'8"5.*2$
-(?%&07
-(?%6kI
+(?%MxH
+(?%fA7
+(?%v|I
 (A\^][
 (A\_^[
 (A^A\^[
@@ -452,8 +453,7 @@ $w!Hc
 (bq}K
 (d$pD
 (f*^[0
-(o-&y}
-(o-f`z
+(o-^0y
 (oA&bs
 (oAdb
 (oAhI
@@ -537,6 +537,7 @@ $w!Hc
 )|$pE
 )|$pf
 **~T**~T
+*mx 5
 *uXI;
 +D$$=
 +D$|D
@@ -601,6 +602,7 @@ $w!Hc
 .?AV<lambda_8137bacb2ec4a212e8515c6b4689164d>@@
 .?AV<lambda_82fe8519a611fabfc17055ec18b3cdfd>@@
 .?AV<lambda_8612339fecb8f706e581a3fad5e5115b>@@
+.?AV<lambda_8af3af333305e3d84f47041b3014cca5>@@
 .?AV<lambda_8c41f96c9266656aa778846b9a081afc>@@
 .?AV<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@
 .?AV<lambda_a3e50aa671c83e58801967e93e8597ee>@@
@@ -647,6 +649,7 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_8137bacb2ec4a212e8515c6b4689164d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_82fe8519a611fabfc17055ec18b3cdfd>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8612339fecb8f706e581a3fad5e5115b>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8af3af333305e3d84f47041b3014cca5>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8c41f96c9266656aa778846b9a081afc>@@XW4EControlConnectMessageType@@PEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a3e50aa671c83e58801967e93e8597ee>@@XAEBVValue@Json@@@std@@
@@ -834,8 +837,10 @@ $w!Hc
 /* vertex attributes go here to input to the vertex shader */
 //==============================================================================================
 //q^//q^
+/5yj	
 /7?'rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 /9{0t'H
+/W7rP9r
 /avatar/parameters/LeftEyeLid
 /avatar/parameters/LeftEyeLidExpandedSqueeze
 /avatar/parameters/LeftEyeSqueezeToggle
@@ -1053,8 +1058,8 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231221220304Z0/
 2333333
+240201011131Z0/
 241009235959Z0a1
 2D$x2
 2D$x@2
@@ -1090,23 +1095,19 @@ $w!Hc
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 55_j55_j,,tX,,tX``
 55j_WW
-5@D5"{v
-5@D5&sv
-5@D52&|
-5@D58?q
-5@D5>
-5@D5>f
-5@D5@Vp
-5@D5B
-5@D5Bm
+5@D5"
+5@D5&Au
+5@D5*9u
+5@D54+}
 5@D5F
-5@D5H
-5@D5L
-5@D5T
-5@D5X
-5@D5t
-5@D5x
-5@D5|
+5@D5F@
+5@D5JG
+5@D5b
+5@D5f
+5@D5r7|
+5@D5xPq
+5@D5~
+5@D5~w
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -1140,6 +1141,7 @@ $w!Hc
 9D$ ti
 9D$0u
 9T$XJ
+9\$8u@H9
 9]pu2
 9b!5@
 9ba5@
@@ -1156,7 +1158,6 @@ $w!Hc
 9p:T;x<
 9rK9J
 9t$4vb
-9wb_U
 9|$0ub
 9|$<u
 9|$@u
@@ -1265,7 +1266,7 @@ $w!Hc
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?@s#0?LD
-?D85f
+?D85&
 ?Using 10bit mode: %d
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
@@ -1625,7 +1626,6 @@ A_A^A]_]
 A_A^A]_^[]
 A_A^A]_^][
 A_A^]
-A_A^^
 A_A^_
 A_A^_^[]
 A_A^_^]
@@ -1712,7 +1712,6 @@ B0u6H
 B7=fo
 B8H9B(
 BMP RLE
-B]'y*,
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d
 Bad unicode escape sequence in string: four digits expected.
@@ -1814,8 +1813,6 @@ CT$ H
 CT$ L
 CT$(L
 CT$0H
-CT$HL
-CT$HL+
 CT$pH
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
@@ -1834,7 +1831,7 @@ C\$0L
 C\$0M
 C\$PE
 C\$PH
-C\$PH958
+C\$PH95
 C\$PL
 C\$PM
 C\$`L
@@ -1994,7 +1991,7 @@ D$8H;
 D$8I;
 D$8L+
 D$8bq
-D$8fD
+D$@9\$8u
 D$@E3
 D$@H1
 D$@H9Q
@@ -2011,7 +2008,6 @@ D$HE3
 D$HHi
 D$Hbq
 D$Hfff
-D$Hu&H
 D$IfA
 D$LE3
 D$PA9
@@ -2032,6 +2028,7 @@ D$XH9D$8
 D$XH9Q
 D$XHc
 D$Xbq
+D$Xu&H
 D$`<Qt
 D$`H9D$@
 D$`H;
@@ -2085,6 +2082,8 @@ D9b4u
 D9c0t
 D9c0t)H
 D9d$(t
+D9ePt
+D9uhA
 D9uou
 D9w u-H
 D9{0t
@@ -2200,7 +2199,7 @@ Error: CreateBuffer could not generate draw geometry.
 Error: CreateRenderTargetView could not generate target view.
 Error: D3DCompile2 failed on pixel shader with file %s (%08x)
 Error: D3DCompileFromFile failed on pixel shader with file %s (%08x)
-Error: Failed during nvEncReconfigureEncoder. Errorcode: %d
+Error: Failed during nvEncReconfigureEncoder. Errorcode: %d // Would be fatal: %d // %d / %d / %d / %d / %d
 Error: Failed nvEncEncodePicture. Errorcode: %d
 Error: Failed on CreateInputLayout with file %s
 Error: Failed on CreatePixelShader with file %s
@@ -2247,7 +2246,6 @@ EventWriteStringThread
 EventWriteStringThread: Could not map view of file (%d).
 EventWriteStringThread: Could not open file mapping object (%d).
 EventWriteStringThread: shared memory mapped %p
-EwEuoJ
 Exba~H
 Exba~I
 Exceeded stackLimit in readValue().
@@ -2441,7 +2439,9 @@ H;|$`
 H;|$x
 H;}Ht
 H;}PtwH
-H?%"G
+H?%VW
+H?%bX
+H?%y+
 HA^_^[
 HA_A^A]A\_^][
 HandleUnrecoverableError( %d )
@@ -2475,252 +2475,250 @@ Ho	bq
 Ho bq
 Ho!bq
 Ho$$b
-Ho%	+>
-Ho%	Tq
-Ho%#a
-Ho%'\
-Ho%**
-Ho%,:
-Ho%-P=
-Ho%.8
-Ho%3I
-Ho%3L=
-Ho%5l
-Ho%7H=
-Ho%7^
-Ho%9\
-Ho%<D=
-Ho%A@=
-Ho%C@
-Ho%E'}
-Ho%E<=
-Ho%Jd
-Ho%K8=
-Ho%LP
-Ho%M#I
-Ho%NN
-Ho%O4=
-Ho%P+
-Ho%R)
-Ho%T0=
-Ho%T9
-Ho%U$
-Ho%Zdp
-Ho%\}<
-Ho%^<
-Ho%by<
-Ho%fu<
-Ho%g8|
-Ho%gb
-Ho%i`
-Ho%jC
-Ho%kq<
-Ho%kqI
-Ho%l&=
-Ho%mQq
-Ho%om<
-Ho%r"=
-Ho%s?I
-Ho%swI
-Ho%tO
-Ho%ti<
-Ho%un
-Ho%vM
-Ho%veH
-Ho%wJ
-Ho%wkI
-Ho%x*
-Ho%xe<
-Ho%yH
+Ho%	=<
+Ho%	k
+Ho% a
+Ho%"_
+Ho%#\>
+Ho%$<
+Ho%%Z
+Ho%&:
+Ho%'7
+Ho%'}
+Ho%(X>
+Ho%)5
+Ho%++<
+Ho%-T>
+Ho%0O
+Ho%0n
+Ho%1'<
+Ho%1Ou
+Ho%1P>
+Ho%2M
+Ho%5#<
+Ho%5rp
+Ho%7L>
+Ho%;H>
+Ho%;s
+Ho%=q
+Ho%@D>
+Ho%B{=
+Ho%CL|
+Ho%D@>
+Ho%FJ
+Ho%Gw=
+Ho%H`
+Ho%I<>
+Ho%Ieq
+Ho%K[
+Ho%Ks=
+Ho%M8>
+Ho%MY
+Ho%M~
+Ho%N9}
+Ho%O6
+Ho%Op
+Ho%O|
+Ho%Q4
+Ho%Qn
+Ho%Qo=
+Ho%R4>
+Ho%Uk=
+Ho%W0>
+Ho%WLu
+Ho%XN
+Ho%ZL
+Ho%[,>
+Ho%\A
+Ho%`(>
+Ho%cr
+Ho%gm
+Ho%j;
+Ho%lK
+Ho%ma=
+Ho%nI
+Ho%sZ
+Ho%s]=
+Ho%u}
+Ho%wY=
+Ho%wo
 Ho%ym
-Ho%{%
-Ho%{k
-Ho%{w
-Ho%}#
-Ho%}]
-Ho%}a<
+Ho%|U=
 Ho&bQ
-Ho-	sp
-Ho- (w
-Ho- 8u
-Ho- :|
-Ho- M
-Ho-!-
-Ho-!2|
-Ho-!:y
+Ho-	/y
+Ho-	_z
+Ho-	y}
+Ho- r
+Ho-!#w
 Ho-!\z
-Ho-!n
-Ho-"K
+Ho-!iz
 Ho-"p
-Ho-#Sv
-Ho-$(
-Ho-$n
-Ho-%2w
-Ho-%iz
-Ho-&&
-Ho-&Sq
-Ho-&`
-Ho-'>y
-Ho-'Kq
-Ho-(o}
-Ho-)'r
-Ho-*Hn
-Ho-*M
-Ho-*V
-Ho-*jr
-Ho-+Vx
-Ho-+cy
-Ho-,n
-Ho--@
-Ho--u}
-Ho-.By
-Ho-/>
-Ho-/Fy
-Ho-0 
-Ho-2Jv
-Ho-4?n
-Ho-4s}
-Ho-5q}
-Ho-7%x
-Ho-7=z
-Ho-7ws
-Ho-7{|
-Ho-8d
-Ho-:;v
-Ho-:b
-Ho-<.p
-Ho-<^p
-Ho-=9s
-Ho-?n|
-Ho-@#
-Ho-@rr
-Ho-@zn
-Ho-A=
-Ho-B@p
-Ho-C;
-Ho-D[
-Ho-EJx
-Ho-F$m
-Ho-G"s
-Ho-GSp
-Ho-HL
-Ho-HXw
-Ho-Ijw
-Ho-JJ
-Ho-Jo
-Ho-K(s
-Ho-KY
-Ho-L'
-Ho-La
-Ho-Lm
-Ho-Mfn
-Ho-NW
-Ho-N_
-Ho-Ox|
-Ho-P#q
-Ho-P.s
-Ho-P6
-Ho-PHs
-Ho-P[v
-Ho-Pxy
-Ho-QX}
-Ho-R@m
-Ho-T'
-Ho-T0u
-Ho-Tem
-Ho-Tnr
-Ho-Tny
-Ho-U4u
-Ho-U?
-Ho-Usy
-Ho-V3
-Ho-X1y
-Ho-XT
-Ho-Xwx
-Ho-ZIm
-Ho-Ziy
-Ho-[(x
-Ho-[>s
-Ho-[b}
-Ho-[wz
-Ho-^.|
-Ho-b&}
-Ho-bLn
-Ho-cQ
-Ho-c~{
-Ho-dGq
-Ho-dfv
-Ho-e.
-Ho-eSy
-Ho-eu|
-Ho-g,
-Ho-gDz
-Ho-hW
-Ho-hym
-Ho-i+
-Ho-i<
-Ho-i{z
-Ho-k:
-Ho-kcw
-Ho-l5n
-Ho-l7p
-Ho-m*n
-Ho-n,q
-Ho-o#p
-Ho-oxo
-Ho-q,u
-Ho-tCs
-Ho-t`
-Ho-v}s
-Ho-wj}
-Ho-x/
-Ho-y*w
-Ho-y:
-Ho-y@v
-Ho-zP
-Ho-{\w
-Ho-}	m
-Ho-~Nx
-Ho-~c
-Ho-~kh
+Ho-##
+Ho-$6n
+Ho-$9q
+Ho-%/p
+Ho-&D
+Ho-'%q
+Ho-'zp
+Ho-("
+Ho-*fs
+Ho-+'x
+Ho-,hp
+Ho--	n
+Ho-/An
+Ho-03}
+Ho-1n
+Ho-2'
+Ho-2R
+Ho-3}m
+Ho-4:p
+Ho-4H
+Ho-5d
+Ho-5qw
+Ho-64x
+Ho-6Mp
+Ho-6u
+Ho-6wr
+Ho-7Yz
+Ho-7b
+Ho-9*x
+Ho-9?
+Ho-9@r
+Ho-;(}
+Ho-;=
+Ho-;vk
+Ho-=M
+Ho->8
+Ho-?e
+Ho-?u
+Ho-A-x
+Ho-A@w
+Ho-B.
+Ho-BGv
+Ho-Be
+Ho-D$|
+Ho-Dkz
+Ho-FV
+Ho-Fpv
+Ho-GP
+Ho-Gp}
+Ho-G~n
+Ho-HBr
+Ho-Hcm
+Ho-MWx
+Ho-NNu
+Ho-Oew
+Ho-Pv
+Ho-Qpz
+Ho-RLm
+Ho-Rt
+Ho-SAm
+Ho-SGy
+Ho-S^
+Ho-Snx
+Ho-Sv}
+Ho-T!u
+Ho-T#p
+Ho-U2r
+Ho-V+|
+Ho-VN
+Ho-XEs
+Ho-Y!
+Ho-YI
+Ho-[Z
+Ho-]c
+Ho-_)n
+Ho-_5r
+Ho-_;r
+Ho-_a
+Ho-_ay
+Ho-_~}
+Ho-`9w
+Ho-`Iu
+Ho-`K|
+Ho-`^
+Ho-a>
+Ho-aC|
+Ho-aKy
+Ho-amz
+Ho-b	}
+Ho-b\
+Ho-cdv
+Ho-d0
+Ho-d9
+Ho-eCw
+Ho-ezz
+Ho-f7
+Ho-fdq
+Ho-fq
+Ho-gOy
+Ho-g\q
+Ho-h,u
+Ho-i0v
+Ho-i8r
+Ho-jYn
+Ho-j^
+Ho-jg
+Ho-j{r
+Ho-kgx
+Ho-kty
+Ho-mQ
+Ho-nSy
+Ho-oO
+Ho-oWy
+Ho-p1
+Ho-r[v
+Ho-tPn
+Ho-u	s
+Ho-w#y
+Ho-w6x
+Ho-wNz
+Ho-xu
+Ho-zLv
+Ho-zs
+Ho-|?p
+Ho-|op
+Ho-}Js
 Ho4$b
-Ho5"T
-Ho5%rh
-Ho5']
-Ho5-V
-Ho55d
-Ho5@\
-Ho5@t
-Ho5I?
-Ho5N{
-Ho5Y1
-Ho5`V
-Ho5gG
-Ho5oqj
+Ho5)C
+Ho5,Z
+Ho5.)k
+Ho53}k
+Ho5:3;
+Ho5O.
+Ho5be
+Ho5gn
+Ho5mg
+Ho5uu
+Ho5x.
 Ho8bA
 Ho:ba
-Ho= +4
-Ho=*d0
-Ho=,lF
-Ho=0";
-Ho=2k6
-Ho=6lG
-Ho=8VL
-Ho=:62
-Ho=;H
-Ho=>K@
-Ho=Gy
-Ho=H6E
-Ho=J=E
-Ho=LDE
-Ho=NKE
-Ho=R;B
-Ho=cV
-Ho=cuA
-Ho=h.E
-Ho=m:F
-Ho=yzG
-Ho={K0
+Ho= |3
+Ho=,I6
+Ho=2tB
+Ho=4k9
+Ho=:]2
+Ho=>C4
+Ho=>I4
+Ho=>O4
+Ho=>U4
+Ho=AkG
+Ho=EM
+Ho=HR5
+Ho=Jx@
+Ho=LKA
+Ho=SvD
+Ho=TrH
+Ho=`<4
+Ho=ju0
+Ho=l}F
+Ho=p3;
+Ho=r|6
+Ho=v}G
+Ho=xgL
+Ho=zG2
+Ho={Y
+Ho=~\@
 Ho@	b
 HoA	b
 HoA	bQ
@@ -2777,20 +2775,17 @@ HoyJb
 HoyKb
 Ho|$	b
 Hu"Hc
-Hv% s
-Hv%?@
-Hv%JW
-Hv%c1
-Hv%ei
-Hv%uQ
-Hv%wt
-Hv-$E
-Hv-)V
-Hv-Cf
-Hv-Dh
-Hv-TP
-Hv-Vs
-Hv-u@
+Hv%%>
+Hv%.V
+Hv%3g
+Hv%Mw
+Hv%Ny
+Hv%^a
+Hv-,v
+Hv-0D
+Hv-[>
+Hv-dV
+Hv-ig
 I	bq}L
 I!bb-@
 I#bb-@
@@ -2917,6 +2912,7 @@ IVRExtendedDisplay_001
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -2975,59 +2971,50 @@ IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d
 IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
 Issues Stream Reset
 Issues complete stream teardown and reinit
-Iv%+S
-Iv%Fe
-Iv%UP
-Iv%VM
+Iv%.s
+Iv%07
+Iv%9O
 Iv%Xp
-Iv%pb
-Iv%w=
-Iv=&>
-Iv=E_
-Iv=G#
-Iv=P;
-Iv=o\
+Iv%kd
+Iv=2=
+Iv=8I
+Iv=\:
+Iv=]7
+Iv=fO
 J16(p
 J3<6H
 J>@G_
 JSON string too short.
 J`H;L
-Jv%/.
-Jv%1,
-Jv%Z(
-Jv%\&
-Jv%c@
-Jv%e>
-Jv=1b
-Jv=3`
-Jv=AJ
-Jv=CH
-Jv=Cm
-Jv=Ek
-Jv=b:
-Jv=d8
+Jv%*^
+Jv%,\
+Jv%KN
+Jv%ML
+Jv%o?
+Jv%q=
+Jv=Va
+Jv=X_
+Jv=qs
+Jv=sq
 KERNEL32.dll
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
 Kf;;u
 KfD;3u
-Kv%-Q
-Kv%Hc
-Kv%SR
-Kv%XK
-Kv%Zn
-Kv%nd
-Kv%y;
-Kv%~L
-Kv=(<
-Kv=E%
-Kv=G]
-Kv=N=
-Kv=m^
+Kv%.9
+Kv%0q
+Kv%7Q
+Kv%Vr
+Kv%mb
+Kv=4;
+Kv=6K
+Kv=Z<
+Kv=_5
+Kv=hM
 K}*n:	
-L#5n#
-L#5w#
+L#=#j
+L#=(j
 L#F0H
 L#F0L
 L#T$PI
@@ -3111,7 +3098,6 @@ L$PfE
 L$XE3
 L$XH3
 L$XHc
-L$XL+
 L$XM+
 L$Ybq
 L$\+T$P+L$T
@@ -3145,14 +3131,18 @@ L3D$hI
 L3D$pI
 L3D$xI
 L9.tPL
-L9=	*
-L9= +
-L9=&'
-L9=0(
-L9=2.
-L9=>)
-L9=I,
-L9=l*
+L9=!5
+L9=2=
+L9=46
+L9=6?
+L9=:E
+L9=;7
+L9=<<
+L9=GD
+L9=H8
+L9=M:
+L9=M>
+L9=v;
 L9E(H
 L9g u'
 L9g0t
@@ -3193,7 +3183,6 @@ L;l$p
 L;t$h
 L;|$ t
 L;|$8t
-L;|$ht@H
 L<pL;
 L?n(Zy&
 LDHfA
@@ -3206,6 +3195,7 @@ Latency
 Lc E3
 LcD$0A
 Lcl$$I
+Lc}hL
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -3223,12 +3213,15 @@ LocalAlloc
 LocalFree
 LocalizationManager
 Logic
-Lv%	-
-Lv%4'
-Lv%=?
-Lv%\`
-Lv=<9
-Lv=`*
+Lv%%M
+Lv%I>
+Lv%t8
+Lv%}P
+Lv=0`
+Lv=Kr
+Lv=[Z
+Lv=]}
+Lv=|J
 LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
@@ -3275,12 +3268,13 @@ ModelNumber %s
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
-Mv%3<
-Mv%W-
-Mv=>O
-Mv=Ya
-Mv=iI
-Mv=kl
+Mv%'c
+Mv%Bu
+Mv%R]
+Mv%sM
+Mv="N
+Mv=Ao
+Mv=~`
 MyClass
 N I9N(
 NO SOUND
@@ -3427,7 +3421,7 @@ Parsing of JSON string "%s" failed: %s
 Path_Exists( absFilePath )
 PbS}H9
 PeekMessageA
-Perf warning: Copy -> StartEncode took %0.3fms
+Perf warning: Getting from SubmitFrame to StartEncode took %0.3fms
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -3472,6 +3466,8 @@ QZ^&A
 QZ^&QZ^&QZ^&QZ^&
 QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&
 Qkkbal
+QoS is Disabled.  Not setting SIO_SET_QOS
+QoSEnabled
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
@@ -3485,6 +3481,7 @@ R;vM;
 RFOV: %d%%
 RPCRT4.dll
 RRvM;;
+RSDS<
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d
@@ -3639,6 +3636,7 @@ SVLDataLinkUDP: Found available QOS service! (Socket creation = %d)
 SVLDataLinkUDP: LocalAlloc failed with %d
 SVLDataLinkUDP: No QOS service found (But created socket anyway)
 SVLDataLinkUDP: Panic on WSAEnumProtocols
+SVLDataLinkUDP: QoS is disabled
 SVLDataLinkUDP: WSAEnumProtocols failed with %d
 SVLDataLinkUDP: WSAIoctl failed with %d
 SVLDataLinkUDP::Disconnect()
@@ -4059,6 +4057,7 @@ WideCharToMultiByte
 WiredSession
 WirelessHost
 Wr0L+
+Wsn\O
 X	bQ}J
 X	bq}K
 X UVWH
@@ -4092,6 +4091,7 @@ YAbb=@
 YRba~(
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Your GPU supports %s for video compression
+Y|K4_
 Z9k0tUD
 ZL$Xf
 [Alloc] Created bitstream buffer = %p
@@ -4226,7 +4226,6 @@ ZL$Xf
 \$pfE
 \$xH;
 \$xM1
-\0n#{PN
 \h!T[
 \mfpmp.exe
 \u=H;
@@ -4243,6 +4242,7 @@ ZL$Xf
 ]J<0"0i3
 ]SVLHMDDriverD3D11::AcquireSync
 ]g@8yhu
+^7]m	9
 ^9k0tWD
 ^lX8k
 _>>B|>>B|
@@ -4348,6 +4348,7 @@ _wstat64i32
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
 `input` field is missing in animation.sampler
+`l=<.|
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
 `node` field is missing in animation.channels.target
@@ -4467,7 +4468,6 @@ bC% 8
 bC- 8U
 bC5 8
 bC= 8E
-bEnableQoS
 bQ}Ho b
 bQ}Ho`
 bQ}Ho`	b
@@ -4617,7 +4617,8 @@ bonemask_middle.txt
 bonemask_middlenocarpal.txt
 bonemask_thumb.txt
 bq}Ho
-bq}Ho%
+bq}Ho%#<
+bq}Ho%K=
 bq}Ho'b
 bq}Ho-
 bq}Hog
@@ -4714,192 +4715,199 @@ br}HXz
 br}H|
 bs%HD
 bs5@D5
-bs5@D5"
-bs5@D5(Un
-bs5@D52
-bs5@D59is
-bs5@D5>
-bs5@D5>4r
-bs5@D5Hox
-bs5@D5Hz}
-bs5@D5I
-bs5@D5O"
-bs5@D5T	
-bs5@D5V
-bs5@D5X y
-bs5@D5jzr
-bs5@D5z
-bs5@D5|ds
-bs5@D5~^m
+bs5@D5$Fw
+bs5@D5&
+bs5@D52?v
+bs5@D5<
+bs5@D5@rs
+bs5@D5D
+bs5@D5F8
+bs5@D5G
+bs5@D5N
+bs5@D5Qon
+bs5@D5R
+bs5@D5U{x
+bs5@D5W
+bs5@D5Z<x
+bs5@D5]
+bs5@D5b
+bs5@D5b	p
+bs5@D5hfn
+bs5@D5r
+bs5@D5yzs
+bs5@D5~
+bs5@D5~Er
 bs5HD
 bs5HD5
-bs5HD5	+}
-bs5HD5	g
-bs5HD5 Ut
+bs5HD5	
 bs5HD5!
-bs5HD5!'}
-bs5HD5$
-bs5HD5%
-bs5HD5'2}
-bs5HD5)
-bs5HD5*Ot
-bs5HD5,Yo
+bs5HD5%W|
+bs5HD5+
+bs5HD5+q
+bs5HD5,mt
 bs5HD5/
-bs5HD5/Qo
-bs5HD5/c
-bs5HD50No
-bs5HD54Ko
-bs5HD57
-bs5HD57)}
-bs5HD59]
-bs5HD5:Vo
-bs5HD5<C|
+bs5HD5/et
+bs5HD50bt
+bs5HD51=}
+bs5HD54_t
+bs5HD55N|
+bs5HD59
+bs5HD5:jt
+bs5HD5;{
+bs5HD5>s
 bs5HD5?
-bs5HD5E
-bs5HD5G
-bs5HD5JMo
-bs5HD5M.}
-bs5HD5QVt
+bs5HD5?p
+bs5HD5Cm
+bs5HD5Dao
+bs5HD5F
+bs5HD5I<}
+bs5HD5Ix
+bs5HD5Jat
+bs5HD5KS|
+bs5HD5Q
+bs5HD5R
 bs5HD5T
-bs5HD5U
-bs5HD5Uz
-bs5HD5W
-bs5HD5W(}
-bs5HD5Z
-bs5HD5[
-bs5HD5_
-bs5HD5`Ro
-bs5HD5`d
-bs5HD5aG|
+bs5HD5UM|
+bs5HD5YF}
+bs5HD5Yo
+bs5HD5\>}
+bs5HD5\`o
+bs5HD5];}
+bs5HD5`ft
+bs5HD5a
+bs5HD5a8}
+bs5HD5d
 bs5HD5e
-bs5HD5jLo
-bs5HD5l
-bs5HD5oD|
-bs5HD5u
-bs5HD5vZt
-bs5HD5|
-bs5HD5~/}
+bs5HD5gC}
+bs5HD5i
+bs5HD5j`t
+bs5HD5ljo
+bs5HD5o
+bs5HD5obo
+bs5HD5ot
+bs5HD5p_o
+bs5HD5t\o
+bs5HD5w
+bs5HD5w:}
+bs5HD5yn
+bs5HD5zgo
+bs5HD5|T|
 bs=HD
 bs=HD5
 bs=HD5	
 bs=HD5 
-bs=HD5 lo
+bs=HD5 G~
 bs=HD5!
-bs=HD5"
-bs=HD5"?u
-bs=HD5"dq
-bs=HD5#
-bs=HD5$
-bs=HD5$iu
+bs=HD5$]u
 bs=HD5%
-bs=HD5%\q
-bs=HD5&Yq
+bs=HD5&	x
+bs=HD5&R~
+bs=HD5'
+bs=HD5'Uu
 bs=HD5(
-bs=HD5)
-bs=HD5*
-bs=HD5*Vq
-bs=HD5,L
-bs=HD5,{
-bs=HD5.
+bs=HD5(Ru
+bs=HD5+
+bs=HD5,
+bs=HD5,B{
+bs=HD5,Ou
 bs=HD5/
-bs=HD5/s
 bs=HD50
-bs=HD50aq
-bs=HD50a|
-bs=HD50p
-bs=HD54m
+bs=HD51
+bs=HD52
+bs=HD52Zu
+bs=HD56
+bs=HD56I~
 bs=HD57
 bs=HD58
 bs=HD59
-bs=HD5:
-bs=HD5:){
-bs=HD5:x
-bs=HD5;
-bs=HD5<C
-bs=HD5=>~
+bs=HD59\
+bs=HD5:?{
+bs=HD5:lq
 bs=HD5>
-bs=HD5?
-bs=HD5@
-bs=HD5@Xq
-bs=HD5A
-bs=HD5B
-bs=HD5C
+bs=HD5BQu
 bs=HD5D
-bs=HD5Ett
+bs=HD5F
 bs=HD5H
 bs=HD5I
-bs=HD5IFu
-bs=HD5Jo
-bs=HD5K
-bs=HD5N
+bs=HD5J
+bs=HD5J6{
+bs=HD5L
+bs=HD5LN~
+bs=HD5MY}
 bs=HD5P
 bs=HD5Q
-bs=HD5R({
+bs=HD5Rkq
 bs=HD5T
-bs=HD5Tmu
 bs=HD5U
-bs=HD5V]q
-bs=HD5X
-bs=HD5Y
+bs=HD5V
+bs=HD5VH~
+bs=HD5X!~
+bs=HD5XVu
 bs=HD5Z
 bs=HD5\
+bs=HD5]
 bs=HD5^
-bs=HD5_
+bs=HD5^`
 bs=HD5`
-bs=HD5`Wq
-bs=HD5`t
+bs=HD5`}o
 bs=HD5a
 bs=HD5b
-bs=HD5b2{
-bs=HD5bB~
+bs=HD5bPu
+bs=HD5buq
+bs=HD5c
 bs=HD5d
+bs=HD5dzu
 bs=HD5e
-bs=HD5e*{
-bs=HD5f'{
-bs=HD5i
+bs=HD5emq
+bs=HD5fjq
+bs=HD5h
+bs=HD5i	t
 bs=HD5j
-bs=HD5j${
-bs=HD5jn
-bs=HD5lG
-bs=HD5llu
-bs=HD5nJu
+bs=HD5jgq
+bs=HD5l
+bs=HD5l]
+bs=HD5n
 bs=HD5o
 bs=HD5p
-bs=HD5p/{
-bs=HD5p?~
-bs=HD5r
-bs=HD5rM}
-bs=HD5t
+bs=HD5p ~
+bs=HD5prq
+bs=HD5pr|
+bs=HD5t~
+bs=HD5w
+bs=HD5x
+bs=HD5y
 bs=HD5z
-bs=HD5|Gu
-bs=HD5|vu
+bs=HD5z:{
+bs=HD5{
+bs=HD5|T
+bs=HD5}O~
 bs=HD5~
 bs=Hq
 bsE@D
 bsEH%
 bsEHD
 bsEHD5
-bsEHD5 
-bsEHD5# {
-bsEHD5&
-bsEHD5'H{
+bsEHD5%
+bsEHD5&-t
+bsEHD5'
 bsEHD5+
-bsEHD51\~
-bsEHD54,~
-bsEHD5=du
-bsEHD5A
-bsEHD5G
-bsEHD5U
-bsEHD5VE{
-bsEHD5W
-bsEHD5Yf
-bsEHD5p
-bsEHD5s	z
-bsEHD5v
-bsEHD5y
-bsEHD5z
-bsEHD5{|q
-bsEHD5}
+bsEHD5-z
+bsEHD51
+bsEHD5E@~
+bsEHD5J
+bsEHD5N
+bsEHD5Q
+bsEHD5T
+bsEHD5U*t
+bsEHD5V
+bsEHD5`
+bsEHD5c1{
+bsEHD5f*o
+bsEHD5gY{
+bsEHD5k
+bsEHD5qm~
+bsEHD5t=~
+bsEHD5}uu
 bsEHq
 bsM@D
 bsMH%
@@ -4910,226 +4918,225 @@ bsUH%
 bsUHD
 bsUHD5
 bsUHD5	
-bsUHD5	Ks
 bsUHD5 
-bsUHD5 Dm
-bsUHD5 qz
+bsUHD5 Ns
+bsUHD5 Os
 bsUHD5!
+bsUHD5!4v
 bsUHD5"
+bsUHD5"?s
 bsUHD5#
+bsUHD5#;
+bsUHD5#tz
 bsUHD5$
-bsUHD5$Mv
-bsUHD5$[}
-bsUHD5$wt
+bsUHD5$m
 bsUHD5%
-bsUHD5%Uz
-bsUHD5%to
 bsUHD5&
-bsUHD5& x
-bsUHD5&*r
 bsUHD5'
-bsUHD5'6w
-bsUHD5';w
+bsUHD5'*
 bsUHD5(
-bsUHD5(8
+bsUHD5()n
+bsUHD5(>r
+bsUHD5(is
 bsUHD5)
+bsUHD5)Gp
+bsUHD5)hy
 bsUHD5*
-bsUHD5*av
 bsUHD5+
-bsUHD5+Qx
-bsUHD5,
-bsUHD5,Qr
-bsUHD5,\r
+bsUHD5+<q
 bsUHD5-
+bsUHD5-@r
 bsUHD5.
+bsUHD5.'u
+bsUHD5.4p
+bsUHD5.{}
 bsUHD5/
+bsUHD5/$s
+bsUHD5/.r
 bsUHD50
-bsUHD50yo
+bsUHD50;w
 bsUHD51
-bsUHD519n
-bsUHD51Bn
+bsUHD51)q
+bsUHD51En
+bsUHD51px
 bsUHD52
-bsUHD52>
-bsUHD52Dv
-bsUHD52Gn
-bsUHD52Rr
+bsUHD52:n
+bsUHD52?
+bsUHD52es
+bsUHD52im
 bsUHD53
 bsUHD54
+bsUHD543p
+bsUHD54Tn
 bsUHD55
+bsUHD55Yy
+bsUHD55lw
 bsUHD56
+bsUHD56*w
+bsUHD56dz
 bsUHD57
-bsUHD57,w
-bsUHD57/q
-bsUHD57dx
 bsUHD58
-bsUHD58qm
-bsUHD58z{
+bsUHD58;n
+bsUHD58Lp
+bsUHD58^x
 bsUHD59
-bsUHD59 v
+bsUHD59Pv
+bsUHD59Ss
+bsUHD59em
 bsUHD5:
-bsUHD5:"w
-bsUHD5:Y
 bsUHD5;
-bsUHD5;&x
+bsUHD5;)
 bsUHD5<
-bsUHD5<(p
-bsUHD5<:r
-bsUHD5<er
 bsUHD5=
-bsUHD5=3q
-bsUHD5=Os
-bsUHD5=wr
 bsUHD5>
+bsUHD5>Kn
 bsUHD5?
-bsUHD5?`r
 bsUHD5@
-bsUHD5@@r
-bsUHD5@Mz
+bsUHD5@/q
 bsUHD5@as
-bsUHD5@g}
-bsUHD5@~o
 bsUHD5A
 bsUHD5B
-bsUHD5B%w
-bsUHD5B/v
+bsUHD5B&|
+bsUHD5B3
 bsUHD5C
-bsUHD5D
-bsUHD5Dst
+bsUHD5D+r
 bsUHD5E
-bsUHD5EFr
-bsUHD5EKy
+bsUHD5EAw
 bsUHD5F
 bsUHD5G
 bsUHD5H
-bsUHD5H@z
 bsUHD5I
+bsUHD5I*r
+bsUHD5I\s
 bsUHD5J
-bsUHD5JVr
-bsUHD5JWr
+bsUHD5J`
 bsUHD5K
+bsUHD5Knz
 bsUHD5L
-bsUHD5LGr
-bsUHD5LRn
-bsUHD5Lq|
+bsUHD5LJz
+bsUHD5Lrr
 bsUHD5M
-bsUHD5M@x
-bsUHD5MLm
-bsUHD5Mrn
+bsUHD5M]r
+bsUHD5Mvm
 bsUHD5N
-bsUHD5N?p
-bsUHD5Nsn
+bsUHD5Nlm
 bsUHD5O
-bsUHD5Oew
 bsUHD5P
+bsUHD5P'y
+bsUHD5Pgv
 bsUHD5Q
-bsUHD5QNw
 bsUHD5R
-bsUHD5Rqr
+bsUHD5R-w
+bsUHD5R^r
 bsUHD5S
-bsUHD5SNn
-bsUHD5SWs
+bsUHD5Six
 bsUHD5T
-bsUHD5T;x
+bsUHD5T(m
+bsUHD5T9s
 bsUHD5U
-bsUHD5U1p
-bsUHD5U6x
+bsUHD5U&r
+bsUHD5U:m
 bsUHD5V
-bsUHD5V(
-bsUHD5V;
+bsUHD5V'r
+bsUHD5V3s
+bsUHD5Vwn
 bsUHD5W
-bsUHD5WCm
+bsUHD5W<y
+bsUHD5W[w
 bsUHD5X
-bsUHD5X1
-bsUHD5XJz
-bsUHD5XWz
-bsUHD5X^s
-bsUHD5Xxp
+bsUHD5XCp
 bsUHD5Y
-bsUHD5Y,r
-bsUHD5Ykw
-bsUHD5Ywp
 bsUHD5Z
+bsUHD5Z;m
+bsUHD5Z>
+bsUHD5ZEm
+bsUHD5ZFm
+bsUHD5Zbm
 bsUHD5[
-bsUHD5[Ty
 bsUHD5\
-bsUHD5\mr
+bsUHD5\{|
 bsUHD5]
-bsUHD5]&y
-bsUHD5],x
-bsUHD5]1x
+bsUHD5]-s
 bsUHD5^
-bsUHD5^!r
+bsUHD5^8q
+bsUHD5^Vw
+bsUHD5^az
+bsUHD5^ls
 bsUHD5_
-bsUHD5_lz
+bsUHD5_Qw
 bsUHD5`
-bsUHD5`:m
-bsUHD5a
-bsUHD5a&q
+bsUHD5`#r
+bsUHD5`Um
+bsUHD5a"r
 bsUHD5b
-bsUHD5bzw
 bsUHD5c
-bsUHD5c[r
 bsUHD5d
-bsUHD5d$r
-bsUHD5dT}
+bsUHD5d%
+bsUHD5d^v
+bsUHD5dl}
 bsUHD5e
+bsUHD5efz
 bsUHD5f
-bsUHD5gSs
-bsUHD5g^w
-bsUHD5g_n
+bsUHD5f1x
+bsUHD5f;r
+bsUHD5g
+bsUHD5gGw
+bsUHD5gLw
 bsUHD5h
-bsUHD5h'r
-bsUHD5hUn
+bsUHD5hI
 bsUHD5i
-bsUHD5ihp
-bsUHD5j
-bsUHD5jir
+bsUHD5j!n
+bsUHD5j&w
+bsUHD5jrv
 bsUHD5k
+bsUHD5k.n
+bsUHD5kbx
 bsUHD5l
-bsUHD5l?
+bsUHD5l x
+bsUHD5l0w
+bsUHD5lbr
+bsUHD5lmr
 bsUHD5m
-bsUHD5m"x
-bsUHD5mWm
-bsUHD5mYy
 bsUHD5n
-bsUHD5nGz
 bsUHD5o
-bsUHD5o#n
+bsUHD5o+v
 bsUHD5p
-bsUHD5p+q
-bsUHD5prm
 bsUHD5q
-bsUHD5q	m
-bsUHD5q~m
-bsUHD5r
-bsUHD5s
-bsUHD5s:p
-bsUHD5sdr
+bsUHD5qJn
+bsUHD5qSn
+bsUHD5r	n
+bsUHD5r/n
+bsUHD5rO
+bsUHD5rUv
+bsUHD5rXn
+bsUHD5rcr
+bsUHD5s)y
 bsUHD5t
-bsUHD5t$n
-bsUHD5t.n
-bsUHD5t/n
-bsUHD5tKn
-bsUHD5tR
 bsUHD5u
 bsUHD5v
 bsUHD5w
+bsUHD5w!s
+bsUHD5w=w
+bsUHD5w@q
+bsUHD5wux
 bsUHD5x
-bsUHD5x.w
-bsUHD5x]v
-bsUHD5y
-bsUHD5y'p
+bsUHD5y.q
+bsUHD5y1v
 bsUHD5z
-bsUHD5z>n
-bsUHD5zf|
+bsUHD5z3w
+bsUHD5zj
 bsUHD5{
-bsUHD5{Yz
+bsUHD5{7x
 bsUHD5|
+bsUHD5|#u
+bsUHD5|,
+bsUHD5|9p
+bsUHD5|Kr
+bsUHD5|vr
 bsUHD5}
+bsUHD5}Dq
+bsUHD5}`s
 bsUHD5~
-bsUHD5~Ar
-bsUHD5~^}
-bsUHD5~jm
 bsUHq
 bs] C
 bs]H%
@@ -5139,140 +5146,133 @@ bse D
 bse@D
 bse@D5
 bse@D5	
-bse@D5	N|
-bse@D5	N~
-bse@D5	`
-bse@D5	uq
-bse@D5 rq
+bse@D5 
 bse@D5!
-bse@D5!]
 bse@D5"
-bse@D5$m
+bse@D5"ku
+bse@D5#
+bse@D5$
 bse@D5%
 bse@D5&
-bse@D5'
-bse@D5'*~
-bse@D5'6{
-bse@D5'`o
-bse@D5'mq
-bse@D5(
+bse@D5'tt
+bse@D5'yq
+bse@D5(\|
 bse@D5)
+bse@D5)W~
+bse@D5)fu
 bse@D5*
-bse@D5*7}
-bse@D5*go
-bse@D5+
-bse@D5,
-bse@D5,;}
-bse@D5,t
-bse@D5-
-bse@D5-o
-bse@D5.M|
-bse@D5.S
-bse@D5/H~
+bse@D5*`|
+bse@D5*{t
+bse@D5+[~
+bse@D5+f
+bse@D5.!o
+bse@D5/P{
 bse@D50
 bse@D51
-bse@D51bo
-bse@D52
+bse@D51no
+bse@D51vt
+bse@D52m
 bse@D53
-bse@D53fq
-bse@D54
-bse@D55T|
-bse@D55jq
+bse@D55_u
 bse@D56
-bse@D56O~
-bse@D5:
-bse@D5; ~
-bse@D5;Pu
-bse@D5=[o
-bse@D5=}
-bse@D5>
-bse@D5>'~
+bse@D57
+bse@D57cu
+bse@D58N}
+bse@D59
+bse@D5;
+bse@D5;#{
+bse@D5<
+bse@D5<F{
+bse@D5=ot
 bse@D5?
-bse@D5?_o
+bse@D5?st
 bse@D5@
+bse@D5@W}
+bse@D5@]|
 bse@D5A
-bse@D5A:{
-bse@D5Azu
-bse@D5B8}
-bse@D5BWu
+bse@D5AX~
+bse@D5A}q
 bse@D5C
-bse@D5C`t
-bse@D5E
-bse@D5E"~
+bse@D5D
+bse@D5E.~
 bse@D5G
 bse@D5H
+bse@D5H(t
+bse@D5Hd|
 bse@D5I
-bse@D5IC{
-bse@D5J
-bse@D5J	t
-bse@D5J?}
-bse@D5Jgt
+bse@D5I_|
+bse@D5I_~
+bse@D5Iq
+bse@D5JZ~
 bse@D5K
-bse@D5K:}
-bse@D5Kgq
-bse@D5L
-bse@D5LX|
-bse@D5MS~
-bse@D5Q
-bse@D5R
-bse@D5Rn
+bse@D5Kro
+bse@D5L}
+bse@D5M`u
+bse@D5N
+bse@D5O
 bse@D5S
-bse@D5Snq
-bse@D5Tiq
-bse@D5U
-bse@D5U\o
-bse@D5U~
-bse@D5W
-bse@D5YT
-bse@D5Y[u
-bse@D5Yu
+bse@D5S{o
+bse@D5TM}
+bse@D5U	z
+bse@D5Ugu
+bse@D5Upt
+bse@D5V
+bse@D5Vbu
+bse@D5WT}
+bse@D5X
 bse@D5[
-bse@D5[~u
 bse@D5\
-bse@D5]
-bse@D5]9{
-bse@D5]co
+bse@D5]wt
+bse@D5]|q
 bse@D5^
-bse@D5^^o
+bse@D5^O}
+bse@D5^rt
 bse@D5_
-bse@D5`@{
+bse@D5_%t
+bse@D5_2~
+bse@D5`
 bse@D5a
-bse@D5akt
-bse@D5c
-bse@D5d
-bse@D5dU|
-bse@D5eP~
+bse@D5an
+bse@D5b
+bse@D5d~
+bse@D5e
 bse@D5f
-bse@D5g;{
-bse@D5h
+bse@D5f t
+bse@D5g
+bse@D5g;~
+bse@D5gG{
+bse@D5gqo
+bse@D5g~q
+bse@D5h${
 bse@D5i
 bse@D5j
+bse@D5jH}
+bse@D5jxo
+bse@D5k
 bse@D5l
-bse@D5p9}
-bse@D5py
+bse@D5lL}
+bse@D5m
+bse@D5n^|
+bse@D5nd
+bse@D5oY~
+bse@D5p
 bse@D5q
-bse@D5q#~
-bse@D5qK|
-bse@D5qXu
+bse@D5qso
 bse@D5r
-bse@D5rF~
-bse@D5s4{
-bse@D5sX
-bse@D5t	o
-bse@D5u8{
+bse@D5s
+bse@D5swq
+bse@D5t
+bse@D5ue|
+bse@D5u{q
 bse@D5v
-bse@D5w
-bse@D5w@}
-bse@D5w}u
-bse@D5x
-bse@D5y
-bse@D5yhq
-bse@D5yht
+bse@D5v`~
 bse@D5z
-bse@D5{a
+bse@D5{1~
+bse@D5{au
 bse@D5}
+bse@D5}lo
 bse@D5~
-bse@D5~Nu
+bse@D5~8~
 bseH%
 bseHq
 bsmH%
@@ -5294,57 +5294,58 @@ byteStride
 c	 w		
 c! _		
 c!!B0
-c!D53
-c!D54M{
-c!D5N
-c!D5T
-c!D5d
-c!D5fk
+c!D5,
+c!D52
+c!D532t
+c!D54
+c!D5>
+c!D5RE~
+c!D5s/o
+c!D5t^{
 c) W		
-c)D5*
-c)D5.
-c)D58n
-c)D5J
-c)D5V^
-c)D5W	
-c)D5X
-c)D5a
-c)D5a@
-c)D5mr
-c)D5on
-c)D5ud
-c)D5z
+c)D5"
+c)D5)r
+c)D50
+c)D55E
+c)D5:
+c)D5;&
+c)D5<
+c)D5>}
+c)D5TT
+c)D5W
+c)D5XP
+c)D5j
+c)D5n
+c)D5x
 c1 O		
-c1D5%Jo
-c1D5P
-c1D5u
-c5D5"y
-c5D5L:|
-c5D5aMt
-c5D5p[
+c1D5%^t
+c1D54l
+c1D5R7}
+c1D5Z
+c1D5e[o
+c5D51
+c5D5b
 c9 G		
-c9D5%l
-c9D59
+c9D5S
+c9D5Y
 c9D5Z
-c9D5[#{
-c9D5ugu
-c9D5{
+c9D5[fq
+c9D5e}
+c9D5y
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
-c=D5	B
-c=D5&
-c=D5-
-c=D5?
+c=D51yu
+c=D57
 c=D5G
-c=D5M5~
-c=D5Y=u
-cAD5.
-cAD5V
-cAD5`bp
+c=D5IS
+c=D5f
+c=D5m
+cAD5&dq
+cAD5n
 cAoption requires an argument -- %c
 cAudBufAvg
 cAudBufMax
@@ -5359,67 +5360,72 @@ cAudRew
 cAudUnd
 cFramePhase
 cPingAMS
-cQD5#)x
-cQD5&
-cQD5/
-cQD506q
+cQD5 *s
+cQD5-
+cQD5-Dw
 cQD52
-cQD58
-cQD5>
-cQD5H
-cQD5J2r
-cQD5Nmv
-cQD5R
-cQD5[
-cQD5dC
-cQD5n
-cQD5n0r
-cQD5y
+cQD54
+cQD5D(s
+cQD5M
+cQD5R3u
+cQD5RZp
+cQD5Vr
+cQD5c:x
+cQD5f
+cQD5o
+cQD5pGq
+cQD5r
+cQD5x
+cQD5~
 cRXFailFuzz
 cRXerr
 cRXpass
 cRXpps
 cTXFailFuzz
 cTXerr
-cUD5$Fp
-cUD5&
-cUD5+
-cUD51
-cUD5DBp
-cUD5J
-cUD5M
-cUD5P
-cUD5Q
-cUD5Q'
-cUD5Qw}
-cUD5X
-cUD5l.r
-cUD5m
-cUD5p
-cUD5y^z
-caD5#i
-caD5$f
-caD5(
-caD51n
-caD52I
-caD55d
-caD58
-caD5:
-caD5;X
-caD5?.
-caD5Ef
-caD5L
-caD5N\
-caD5O
-caD5]
-caD5^
-caD5b
-caD5m`
+cUD5#
+cUD5'
+cUD5,
+cUD5.
+cUD50
+cUD5=
+cUD5B&s
+cUD5K/|
+cUD5V
+cUD5^
+cUD5dWp
+cUD5f
+cUD5k
+cUD5q
+cUD5q.y
+caD5%
+caD5*a}
+caD5,o
+caD50
+caD52
+caD537
+caD5<
+caD5>f
+caD5A
+caD5A4
+caD5Em
+caD5Hd
+caD5M
+caD5O9
+caD5OL
+caD5P
+caD5U
+caD5Ve
+caD5[~
+caD5cz
+caD5dw
+caD5h
 caD5q
-caD5q_
-caD5sd
-caD5u
-caD5~
+caD5rZ
+caD5uu
+caD5x
+caD5z
+caD5{i
 calloc
 camera
 cameras
@@ -5428,60 +5434,39 @@ cbuffer VS_CONSTANT_BUFFER : register(b2)
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU:
 channels
 children
-ciD5"
+ciD5!w
 ciD5#
-ciD5#Q
-ciD5#_
-ciD5'
-ciD5'j
-ciD5+
-ciD5+i
-ciD5/
-ciD50%
-ciD54$
-ciD5;U
-ciD5>*
-ciD5?T
-ciD5@
-ciD5A
-ciD5B)
-ciD5C
-ciD5D~
-ciD5E
-ciD5F
+ciD5%v
+ciD5/[
+ciD50{
+ciD53Z
+ciD54z
+ciD55
+ciD59
 ciD5G
 ciD5H
-ciD5IV
-ciD5J
+ciD5K
 ciD5L
-ciD5MU
-ciD5Rk
-ciD5S
-ciD5Vj
-ciD5W
-ciD5Wh
-ciD5[g
-ciD5^r
-ciD5`p
-ciD5a'
-ciD5bq
-ciD5do
-ciD5e&
-ciD5eK
-ciD5iJ
+ciD5Q
+ciD5R
+ciD5U~
+ciD5V
+ciD5^
+ciD5_c
+ciD5_q
+ciD5b
+ciD5c
+ciD5cb
+ciD5cp
+ciD5g
+ciD5g{
 ciD5k
-ciD5lV
-ciD5m
-ciD5nZ
+ciD5kz
 ciD5o
-ciD5pU
-ciD5q
-ciD5rY
-ciD5s
-ciD5s]
-ciD5w\
-ciD5}<
-ciD5~
+ciD5p6
+ciD5t5
+ciD5{f
+ciD5~;
 clientTCPEnable
 clientTCPRemote
 clientUDPEnable
@@ -5501,36 +5486,22 @@ controller_path
 corrupt
 count
 cs_cs
-cyD5#
-cyD5*ro
-cyD5+
-cyD5/
-cyD52
-cyD54
-cyD5?d
-cyD5?rt
-cyD5E
-cyD5Fb
-cyD5Ko
-cyD5L
-cyD5MZ
-cyD5Rx
-cyD5S
-cyD5Sy{
-cyD5V
-cyD5Yv
-cyD5g
-cyD5goo
-cyD5h
-cyD5h	
+cyD5#F
+cyD5= 
+cyD5>
+cyD5?Q
+cyD5D
+cyD5F'
+cyD5P
+cyD5YIz
+cyD5]
+cyD5_
+cyD5c
+cyD5j
 cyD5k
-cyD5n
-cyD5ne
 cyD5o
-cyD5p
-cyD5t(
-cyD5{
-cyD5{&
+cyD5r
+cyD5t
 czech
 d$	ba|(
 d$ AUAVAWD
@@ -5550,7 +5521,6 @@ d$<bq
 d$HMc
 d$Lbq
 d$PfD
-d$XL+
 d$\bq
 d$`H=
 d$`L;
@@ -5592,6 +5562,7 @@ dbgTXWaitMS
 de_de
 deque<T> too long
 devicescannermsgwindow-
+disableQoS
 displayFrequency
 doubleSided
 driver_lighthouse message window
@@ -5921,7 +5892,7 @@ l$PfE
 l$PfG
 l$TD;
 l$XH;
-l$XL9-vW
+l$XL9-
 l$]bq
 l$`fA
 l$`fD
@@ -5942,11 +5913,12 @@ listen failed with error: %d
 ll$Pf
 localeconv
 logFirstFrames
-m e-w
-m e-wSf
+m e-2Af
+m e-C'f
+m e-H
+m e-Y
 m0k0$
-mH?%'
-mH?%L
+mH?%g
 mL$PH
 m_nMaxLogBufferingSize > 0
 m_pData was null. Not copying data.
@@ -6014,176 +5986,181 @@ nvapi_pepQueryInterface
 o$1bA~
 o$3bq
 o$:bQ%H
-o% 8a
-o%!{e
-o%"$d
-o%$re
+o%	)a
+o% $e
+o% Td
+o%!Ra
+o%!od
+o%"bb
+o%#-a
+o%%&e
 o%%Jr..\$
-o%''c
-o%(/c
-o%(ca
-o%*	d
-o%*ne
-o%+Ub
-o%+la
-o%+ta
-o%,_a
-o%-Cd
-o%.^b
-o%.fb
-o%/Qb
-o%/ye
-o%0cc
-o%1pe
-o%2Wa
-o%3%a
-o%3-a
-o%3:d
-o%3ha
-o%4$b
-o%4Yd
-o%4_c
-o%5,b
-o%5Ib
-o%6!e
-o%66d
-o%6Ud
-o%6Zb
-o%9fd
-o%:"c
-o%=+c
-o%=3c
-o%?Ra
-o%A>d
-o%AXf
-o%BDb
-o%Crc
-o%E'c
-o%Egc
-o%Epa
-o%F<a
-o%Fca
-o%GXf
-o%Hbb
-o%IUb
-o%I[a
-o%Ila
-o%J(b
-o%J0b
-o%LMb
-o%L^b
-o%M)a
-o%M[c
-o%Ncc
-o%O8a
-o%P{e
-o%R$b
-o%Sre
-o%TUd
-o%W/c
-o%X"c
-o%Y	d
-o%Zta
-o%[+c
-o%[Cc
-o%[_a
-o%\jd
-o%]fb
-o%]vc
-o%^Ea
-o%^Qb
-o%^ye
-o%_>d
-o%`pe
-o%a}e
-o%b-a
-o%b:d
-o%bha
-o%cYd
-o%c_c
-o%cgc
-o%cpa
-o%cte
-o%d,b
-o%e!e
-o%e@a
-o%eZb
-o%e]d
-o%eqb
-o%fbb
-o%h(b
-o%l3c
-o%l<f
-o%m8a
-o%n>c
-o%n{e
-o%qGc
-o%qre
-o%rrc
-o%rzc
-o%t'c
-o%u/c
-o%u<a
-o%uca
-o%xUb
-o%xla
-o%xta
-o%y0b
-o%{^b
-o%{fb
-o%{zb
-o%}cc
-o%~|f
+o%%ha
+o%&0e
+o%&6a
+o%&>a
+o%&Kd
+o%&ya
+o%')a
+o%'pc
+o%(Zb
+o%)Gd
+o%)kb
+o%*Pc
+o%,(b
+o%,wd
+o%-!a
+o%-Yc
+o%-_a
+o%-ac
+o%.2a
+o%0Qb
+o%1/c
+o%2ca
+o%3$c
+o%35d
+o%5Ub
+o%88c
+o%9ta
+o%< c
+o%<fb
+o%<la
+o%<}a
+o%=[a
+o%>,b
+o%>Td
+o%?^b
+o%?ob
+o%@:a
+o%@Mb
+o%@lc
+o%A-a
+o%Atc
+o%C&e
+o%Cha
+o%D$b
+o%D%a
+o%D6a
+o%E5b
+o%F(e
+o%FZb
+o%G0d
+o%GGd
+o%G]c
+o%Gfd
+o%J,d
+o%Jwd
+o%K3c
+o%Msd
+o%N<c
+o%Npa
+o%Pca
+o%Q$c
+o%Qbb
+o%ROd
+o%S!e
+o%SUb
+o%U0e
+o%U>a
+o%UKd
+o%Uya
+o%V)a
+o%Vpc
+o%Vxc
+o%X0b
+o%Xkb
+o%Ysb
+o%Zla
+o%[(b
+o%[9b
+o%\_a
+o%\ac
+o%]2a
+o%]^b
+o%^:a
+o%^lc
+o%_Qb
+o%`/c
+o%`Ia
+o%b$b
+o%b5d
+o%g8c
+o%h,d
+o%h@c
+o%hta
+o%k c
+o%kfb
+o%k}a
+o%lpa
+o%m,b
+o%mTd
+o%nob
+o%nwb
+o%obb
+o%p-a
+o%ptc
+o%r&e
+o%rha
+o%s0e
+o%s6a
+o%s>a
+o%sKd
+o%sya
+o%t5b
+o%tjd
+o%tpc
+o%u(e
+o%u=b
+o%uZb
+o%v0d
+o%v2e
+o%vGd
+o%vfd
+o%vkb
+o%y(b
+o%ywd
+o%z3c
+o%}<c
+o%}Dc
+o%~/c
 o,$fE
 o,0bq
 o,:bQ%H
-o-94r
-o-Iz}
-o-Y y
+o-%Fw
+o-?|g
+o-[<x
+o-yEr
 o4$fD
 o4$fE
 o47bq
-o5ku]
 o<$fD
 o<$fE
 o<0bq
-o=	Ia
-o=(~b
-o=)\^
-o=,[a
-o=/Mb
-o=1z_
-o=3Y_
-o=8&_
-o=9_`
-o=@Xc
-o=CB^
-o=Dl^
-o=J_c
-o=K/`
-o=Q$a
-o=Tsd
-o=_la
-o=`h_
-o=b^b
-o=c)g
-o=c5_
-o=cZa
-o=fLb
-o=jo_
-o=n"c
-o=o%_
-o=o{^
-o=pQ^
-o=q+c
-o=qN`
-o=ru]
-o=sh`
-o=zX^
-o={k^
-o=|>`
-o=|A]
-o=~(b
+o=	cM
+o=!E^
+o='%a
+o='Tc
+o=)2`
+o=*Jb
+o=2n^
+o=4Qb
+o=5V`
+o=<k_
+o=IZa
+o=KXc
+o=LT^
+o=LjM
+o=XA`
+o=XD^
+o=Z6a
+o=\1`
+o=^$a
+o=im^
+o=lla
+o=o^b
+o=sj_
+o=x7_
+o=yp`
 o@ fA
 o@ fE
 o@0fA
@@ -6494,12 +6471,14 @@ o|$pfD
 o|$pfE
 o~0fD
 p	bq}K
+p ATAVAWH
 p WATAVH
 p$D+;
 p>|B>
 pA]A\^
 pA^^]
 pA_A]A\
+pA_A^A\_^[]
 pA_A^A]A\[
 pA_A^A]A\_^[
 pA_A^A]A\_^]
@@ -6547,10 +6526,6 @@ qD9}gt(
 qMFCreateMediaType failed hr = 0x%08x
 qUba~(
 qWSAPI: SVLAudioWSAPI::Init( %d )
-qt%<y]
-qt%}y]
-qt-<y]
-qt-}y]
 qualitySharpeningThresholdMbit
 r	`!^
 r*t H
@@ -6600,6 +6575,7 @@ result
 returnAddress
 rexmitReq
 rexmitSent
+rgXAL
 rit`H
 rit`I
 rjtaH
@@ -6609,6 +6585,7 @@ ro_ro
 romanian
 rotation
 roughnessFactor
+rp7T/b
 rrrrrrrrrrrrrrrr
 rstiH
 rstiI
@@ -6804,19 +6781,17 @@ t$pfA
 t$pfD
 t$pfE
 t$pfG
-t%8|]
 t%<~u
 t&D+r
 t,,X.
 t,M9x
 t,wdH
-t-7|]
 t/A9J0u)I
 t1Hcl$@
 t4uLv
-t51Sf
+t5qdf
 t9fff
-t= 0f
+t=`Af
 t>H9n
 t>y#I
 t?y$I
@@ -6910,8 +6885,6 @@ useOSCEyes
 useOSCFace
 usePool
 useSpecialFloats
-ut%jx]
-ut-|x]
 v=Y]Bv
 vD;EHL
 vE;E`M
@@ -6994,93 +6967,96 @@ y	bq}J
 y	bq}L
 y	bs5@D5
 y	bs5@D5	
-y	bs5@D5"
-y	bs5@D5"nv
-y	bs5@D5#
+y	bs5@D5	Hv
+y	bs5@D5!
+y	bs5@D5!!u
+y	bs5@D5!*
+y	bs5@D5!@p
+y	bs5@D5!k
+y	bs5@D5#P
+y	bs5@D5#{y
+y	bs5@D5$
 y	bs5@D5%
+y	bs5@D5%@
+y	bs5@D5&4u
 y	bs5@D5'
-y	bs5@D5'#
 y	bs5@D5(
-y	bs5@D5)*
-y	bs5@D5*
+y	bs5@D5)
+y	bs5@D5)vy
 y	bs5@D5+
-y	bs5@D5+ u
-y	bs5@D5,
-y	bs5@D5-
-y	bs5@D5-9
-y	bs5@D5.nm
-y	bs5@D5/<
-y	bs5@D5/_
-y	bs5@D504q
+y	bs5@D5,[p
+y	bs5@D5-5q
+y	bs5@D5.V
+y	bs5@D5/
 y	bs5@D51
 y	bs5@D53
 y	bs5@D54
-y	bs5@D57@p
+y	bs5@D55
+y	bs5@D56'
+y	bs5@D56`v
+y	bs5@D57
+y	bs5@D579
 y	bs5@D58
 y	bs5@D59
-y	bs5@D5;
-y	bs5@D5<'
-y	bs5@D5=
+y	bs5@D5=@
+y	bs5@D5=Z
+y	bs5@D5>
 y	bs5@D5?
-y	bs5@D5@
+y	bs5@D5?Ip
 y	bs5@D5A
-y	bs5@D5AAv
-y	bs5@D5B
-y	bs5@D5C
-y	bs5@D5Con
+y	bs5@D5A;p
+y	bs5@D5DU
+y	bs5@D5E
+y	bs5@D5EWv
 y	bs5@D5F
 y	bs5@D5G
-y	bs5@D5H
+y	bs5@D5HMv
+y	bs5@D5HXp
 y	bs5@D5I
-y	bs5@D5K
-y	bs5@D5K+
-y	bs5@D5K<p
-y	bs5@D5L
 y	bs5@D5M
-y	bs5@D5S
-y	bs5@D5U
+y	bs5@D5O
+y	bs5@D5S0
+y	bs5@D5T
+y	bs5@D5V
 y	bs5@D5W
+y	bs5@D5W-|
 y	bs5@D5X
-y	bs5@D5Y
+y	bs5@D5Ya
 y	bs5@D5[
+y	bs5@D5[ |
+y	bs5@D5\
 y	bs5@D5]
-y	bs5@D5]%
-y	bs5@D5^
-y	bs5@D5^}x
+y	bs5@D5]lv
 y	bs5@D5_
-y	bs5@D5a
 y	bs5@D5b
 y	bs5@D5c
-y	bs5@D5d:q
-y	bs5@D5e8
-y	bs5@D5g2
-y	bs5@D5gWv
-y	bs5@D5gkv
-y	bs5@D5g{m
-y	bs5@D5iSv
-y	bs5@D5l!|
+y	bs5@D5e
+y	bs5@D5g
+y	bs5@D5g4
+y	bs5@D5h
+y	bs5@D5i;
+y	bs5@D5j
+y	bs5@D5k
+y	bs5@D5k1u
+y	bs5@D5l
 y	bs5@D5m
+y	bs5@D5m'|
+y	bs5@D5mJ
 y	bs5@D5n
-y	bs5@D5o
-y	bs5@D5p
+y	bs5@D5oM
+y	bs5@D5op
+y	bs5@D5pEq
 y	bs5@D5q
-y	bs5@D5qxy
-y	bs5@D5r
+y	bs5@D5q&q
 y	bs5@D5s
-y	bs5@D5tgm
-y	bs5@D5u
-y	bs5@D5u3p
-y	bs5@D5w
-y	bs5@D5w(q
+y	bs5@D5s"
+y	bs5@D5t0p
+y	bs5@D5wQp
 y	bs5@D5x
 y	bs5@D5y
-y	bs5@D5zls
 y	bs5@D5{
-y	bs5@D5{bv
-y	bs5@D5}A
-y	bs5@D5}Jv
-y	bs5@D5~
-y	bs5@D5~*
+y	bs5@D5|8
+y	bs5@D5}
 y A		
 y D$	
 y E		
@@ -7088,44 +7064,38 @@ y G
 y"E{M
 y3y3y3y3y3y3y3y3c
 yNba~(
-yo%mN]
-yo-"L
-yo-#i
-yo--V
-yo-7	
-yo->n
-yo-D>
-yo-M-
-yo-St
-yo-Wh
-yo-Y~
-yo-\O
-yo-]N]
-yo-aE
-yo-m1
-yo-u%
-yo-xo
-yo-|I
-yo=#6W
-yo=(_V
-yo=)?X
-yo=*ZV
-yo=+@Y
-yo=11X
-yo=:|W
-yo=C+Y
-yo=F'W
-yo=VIY
-yo=]uX
-yo=^cX
-yo=fUX
-yo=p	X
-yo=q0X
-yo=rBX
-yo=ubV
-yo=z{W
-yo={"X
-yo=|XV
+yo%YD]
+yo- O
+yo-"I
+yo-, 
+yo-3)
+yo-4P
+yo-7P
+yo-Gz
+yo-K0
+yo-La
+yo-M#
+yo-R(
+yo-Rt
+yo-T0
+yo-UV
+yo-]%
+yo-]C
+yo-b]
+yo-cz
+yo-mg
+yo=#HW
+yo='oW
+yo=0WX
+yo=?KY
+yo=F9W
+yo=G=Y
+yo=cGW
+yo=hpV
+yo=iPX
+yo=jkV
+yo=kQY
+yo=qBX
 yoD$ 
 yoD$ H
 yoD$0
@@ -7313,7 +7283,9 @@ zo|$`
 }HX"b
 }HX&b
 }HZ$>b
-}HZ%&
+}HZ%4
+}HZ%PCf
+}HZ%f
 }HZd9
 }HZd>
 }HZd> b
@@ -7322,19 +7294,13 @@ zo|$`
 }HZd>Pb
 }HZd>`b
 }HZd>pb
-}Ho-5r
+}Ho-u
 }LuHO
-}o%&uM
-}o%1]M
-}o%T/
-}o%WoM
-}o-2tQ
-}o-KvQ
-}o=)z]
-}o=GRN
-}o=TrQ
-}o=_FR
-}o=wZU
+}o%qnM
+}o='OM
+}o=KnR
+}o=M=R
+}o=PHM
 }oD$ 
 }oD$@
 }oD$`
@@ -7351,7 +7317,7 @@ zo|$`
 }o|$@
 }o|$`
 }{))R>
-~%d~%d~%d,%d~~~~
+~%d~%d~%d,%d,%d~~~~
 ~)HcB
 ~+fff
 ~3LcD$(L

@@ -1,4 +1,5 @@
 	!s99
+	#_yE~
     A
  %41g
  (Camera)
@@ -6,8 +7,8 @@
  A__^
  H3E H3E
 !hn7!
-&tuB>
 ',=?k
+'mk<h
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -83,6 +84,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/*mUdp!
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -92,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220256Z0/
+240201011120Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -162,7 +164,6 @@ C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
-C[Y_2
 Camera tracker driver for rejected by vrserver
 CloseHandle
 Code: -1003
@@ -170,6 +171,7 @@ Code: -3003
 CreateEventA
 CreateEventW
 CreateThread
+Cx	<p
 C|$XH
 D$0Hc
 D3D11CreateDevice
@@ -283,9 +285,9 @@ SUWAWH
 SVWATAUAVAWH
 SetEvent
 SetUnhandledExceptionFilter
+Sh8B_
 Sleep
 SleepConditionVariableCS
-StB!Ff
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -321,7 +323,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-Yh2A#
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -380,7 +381,6 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
-d`_Na
 dk2_camera
 driver_oculus_legacy.dll
 effffff
@@ -453,6 +453,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+qJdM0
 startup
 string too long
 strncpy
@@ -472,6 +473,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+yw3P^
 z(uMH
 {ERR-001}
 {ERR-079}

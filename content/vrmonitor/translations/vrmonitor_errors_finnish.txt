@@ -415,7 +415,7 @@
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#steamvr-issues"
 
 "VRInitError_Compositor_FailedToInitializeEncoder_Header" "Videon koodausvirhe"
-"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Näytönohjaimen ajuri täytyy ehkä päivittää."
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Videon koodausasetuksia ei voitu määrittää. Saattaa olla, että näytönohjainta ei tueta tai sen ajuri täytyy päivittää."
 "VRInitError_Compositor_FailedToInitializeEncoder_Action" "Lisätietoa"
 "VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#steamvr-issues"
 

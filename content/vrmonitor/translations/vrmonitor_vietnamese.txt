@@ -589,6 +589,7 @@
 "Advanced_OneThirdFramerate" "1/3 tốc độ khung hình"
 "Advanced_DroppedFrame" "Lỗi hiển thị"
 "Advanced_AppRequestedThrottling" "Ứng dụng đã yêu cầu tiết lưu (hạn chế CPU)"
+"Advanced_NetworkLatency" "Độ trễ mạng"
 
 "Advanced_DashboardUp" "Trang tổng quan: Bật"
 "Advanced_DashboardDown" "Trang tổng quan: Tắt"

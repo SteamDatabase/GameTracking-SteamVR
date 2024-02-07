@@ -590,6 +590,7 @@
 "Advanced_OneThirdFramerate" "Ρυθμός καρέ — 1/3"
 "Advanced_DroppedFrame" "Σφάλμα προβολής"
 "Advanced_AppRequestedThrottling" "Η εφαρμογή αιτήθηκε περιορισμό (περιορισμός CPU)"
+"Advanced_NetworkLatency" "Υστέρηση δικτύου"
 
 "Advanced_DashboardUp" "Μπάρα ενεργή"
 "Advanced_DashboardDown" "Μπάρα ανενεργή"

@@ -18,8 +18,8 @@
 	--gamepadui-darkish-grey-rgb: 23, 29, 37;
 	--gamepadui-darkest-grey-rgb: 14, 20, 27;
 
-	--background-color: #00000000;
-	--background-image: url("/dashboard/images/settings/background.png");
+	--background-color: var(--gamepadui-darkest-grey);
+	--background-image: none;
 
 	--bordercolor: #004777;
 	--descriptiontext: #ffffff;
@@ -32,8 +32,8 @@
 
 	--visualizerclick: #FFFFFF;
 
-	--buttondefault: #3D4450;
-	--buttonhover: #586170;
+	--buttondefault: var(--gamepadui-darker-grey);
+	--buttonhover: var(--gamepadui-dark-grey);
 
 	--pageheaderbottomborder: #476288;
 	--pagetitlebackground : #3D4450;
@@ -153,15 +153,16 @@
 	--settings-control-hover-fade-ease: ease-in-out;
 	--settings-control-spacing: 1rem;
 
-	--settings-control-background-new-rgb: 0, 0, 0;
-	--settings-control-background-new-a: 0.45;
+	--settings-control-background-new-rgb: var(--gamepadui-darker-grey-rgb);
+	--settings-control-background-new-a: 0.5;
 	--settings-control-background-new: rgba(
 		var(--settings-control-background-new-rgb),
 		var(--settings-control-background-new-a) );
 
-	--settings-control-background-new-hover-a: 0.65;
+	--settings-control-background-new-hover-rgb: var(--gamepadui-darkish-grey-rgb);
+	--settings-control-background-new-hover-a: 1.0;
 	--settings-control-background-new-hover: rgba(
-		var(--settings-control-background-new-rgb),
+		var(--settings-control-background-new-hover-rgb),
 		var(--settings-control-background-new-hover-a) );
 
 	--settings-control-background: #25282E;
@@ -173,32 +174,31 @@
 	--settings-control-track-background-a: var(--settings-control-background-new-a);
 	--settings-control-track-hover-background-a: var(--settings-control-background-new-hover-a);
 	--settings-control-image-padding: calc( var(--settings-control-default-height) * 0.15 );
-	--settings-button-image-border-radius: calc( var(--settings-control-inner-border-radius) * 0.7 );
-	--settings-control-inner-border-radius: 0.65rem;
-	--settings-control-outer-border-radius: 0.85rem;
+	--settings-button-image-border-radius: calc( var(--settings-control-inner-border-radius) * 0.5 );
+	--settings-control-inner-border-radius: 0.3rem;
+	--settings-control-outer-border-radius: 0.4rem;
 	--settings-control-margin: 0.5em;
 	--settings-control-button-min-padding-h: 0.8em;
 	--settings-control-button-min-padding-v: 0.5em;
 	--settings-right-column-width-adjustment: 0px; /* Adjusted in subsections. */
 	--settings-right-column-computed-width: calc(var(--settings-right-column-width) - var(--settings-right-column-width-adjustment));
-	--settings-subsection-background-rgb: 37, 40, 46;
-	--settings-subsection-background-a: 0.5;
+	--settings-subsection-background-rgb: 5, 7, 9;
+	--settings-subsection-background-a: 0.4;
 	--settings-subsection-padding-v: 1.5em;
 	--settings-subsection-padding-h: 1.5em;
-    --settings-subsection-border-radius: 1rem;
+	--settings-subsection-border-radius: 0.8em;
 	--settings-subsection-stem-padding: 0.5em;
 	--settings-subsection-stem-bottom-padding: 0.3em;
-	--settings-font-weight: 200;
+	--settings-font-weight: 400;
 	--settings-right-column-left-margin: 1.6rem;
-	--settings-left-outer-margin: calc(var(--settings-sidebar-button-expansion) * 1.5);
+	--settings-left-outer-margin: 0px;
 	--settings-background-gradient-alpha: 1;
 	--settings-content-padding: 40px;
 	--settings-sidebar-button-spacing: 5px;
 	--settings-border-radius: 0px;
-	--settings-button-border-radius: 10px;
+	--settings-button-border-radius: 5px;
 	--settings-sidebar-side-margin: 20px;
-	--settings-sidebar-button-expansion: 5px;
-	--settings-sidebar-button-max-height: 37px;
+	--settings-sidebar-button-max-height: 2.3rem;
 	--settings-right-column-width: 220px;
 	--settings-control-default-height: 2rem;
 	--settings-font-size: 14px;
@@ -214,7 +214,7 @@
 	--control-switch-animation-time: 0.2s;
 	--control-switch-overshoot-ease: cubic-bezier(.1,.12,.36,1.38);
 
-	--dropdown-popover-background-color: var(--buttondefault);
+	--dropdown-popover-background-color: var(--gamepadui-darker-grey);
 	--dropdown-popover-selected-background-color: hsl(218, 13%, 33%);
 
 
@@ -235,8 +235,6 @@ html.VROverlay
 	--settings-border-radius: 30px;
 	--settings-button-border-radius: calc(1.2 * var(--settings-border-radius));
 	--settings-sidebar-side-margin: 40px;
-	--settings-sidebar-button-expansion: 20px;
-	--settings-sidebar-button-max-height: 2.8rem;
 	--settings-right-column-width: 500px;
 	--settings-control-default-height: 2rem;
 	--settings-font-size: 1rem;
@@ -246,54 +244,6 @@ html.VROverlay
 
 	/* Establish 1rem -> 32px on overlay UIs. */
 	font-size: 32px;
-}
-
-body.VRGamepadUI
-{
-	--buttondefault: var(--gamepadui-darker-grey) !important;
-	--buttonhover: var(--gamepadui-dark-grey) !important;
-
-	--settings-control-background-new-rgb: var(--gamepadui-darker-grey-rgb);
-	--settings-control-background-new-a: 0.5;
-	--settings-control-background-new: rgba(
-		var(--settings-control-background-new-rgb),
-		var(--settings-control-background-new-a) );
-
-	--settings-control-background-new-hover-rgb: var(--gamepadui-darkish-grey-rgb);
-	--settings-control-background-new-hover-a: 1.0;
-	--settings-control-background-new-hover: rgba(
-		var(--settings-control-background-new-hover-rgb),
-		var(--settings-control-background-new-hover-a) );
-
-	--settings-sidebar-button-expansion: 0px;
-	--settings-sidebar-button-max-height: 2.3rem;
-	--settings-left-outer-margin: 0px;
-	--settings-button-border-radius: 5px;
-	--settings-control-inner-border-radius: 0.3rem;
-	--settings-control-outer-border-radius: 0.4rem;
-	--settings-button-image-border-radius: calc( var(--settings-control-inner-border-radius) * 0.5 );
-	--settings-subsection-border-radius: 0.8em;
-	--settings-subsection-background-rgb: 5, 7, 9;
-	--settings-subsection-background-a: 0.4;
-	--background-color: var(--gamepadui-darkest-grey);
-	--background-image: none;
-	--settings-font-weight: 400;
-
-	--dropdown-popover-background-color: var(--gamepadui-darker-grey);
-	--dropdown-popover-selected-background-color: hsl(218, 13%, 33%);
-
-	--settings-control-hover-background: var(--buttonhover);
-	--settings-control-active-background: var(--settings-control-background-hover-background);
-	--settings-control-activated-background: var(--buttondefault);
-	--settings-control-track-background-rgb: var(--settings-control-background-new-rgb);
-	--settings-control-track-background-a: var(--settings-control-background-new-a);
-	--settings-control-track-hover-background-a: var(--settings-control-background-new-hover-a);
-}
-
-body.VRGamepadUI.SGApp
-{
-	--settings-border-radius: 10px;
-	--settings-font-size: 0.8rem;
 }
 
 html
@@ -317,6 +267,9 @@ body
 }
 
 body.SGApp {
+	--settings-border-radius: 10px;
+	--settings-font-size: 0.8rem;
+
 	/* If we're a scene graph app, make the background transparent. */
 	background: #00000000;
 }
