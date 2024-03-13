@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR 개발자 지원"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks 개발자 지원"
 "MenuAction_CreateSystemReport" "시스템 보고서 작성"
+"MenuAction_ToggleDashboard" "대시보드 전환"
 "MenuAction_Recenter" "위치 재조정"
 "MenuAction_SystemReportViewer" "시스템 보고서 뷰어"
 "MenuAction_DisplayFrameTiming" "고급 프레임 타이밍"

@@ -34,7 +34,6 @@
 )t$ H
 )t$0H
 )t$@H
-*/KT_V
 *uXI;
 +Xt@(
 +o'q)}
@@ -182,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240201011643Z0/
+240311233630Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,6 +192,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3d=kpk)
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -207,10 +207,10 @@
 8_^][
 9D$xu
 9D$|toH
-;k3J<<H
 < t+<
 </u#H
 <0:08
+<N{>x
 <unknown>
 =rIQU
 >0<0:
@@ -484,6 +484,7 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
+G6ndA
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -896,20 +897,21 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cs_cs
+cs_cz
 czech
 d$`H=
 d$`L;
 d3d11.dll
-da_da
+da_dk
 danish
 dashboard
 de_de
 deque<T> too long
 desktopview
+dutch
 dwmapi.dll
 dxgi.dll
-el_el
+el_gr
 en_us
 enableWindowView
 english
@@ -929,7 +931,6 @@ french
 german
 gfffffffH
 gfffffffI
-gi6w"
 greek
 h_^[]
 handlers
@@ -962,8 +963,8 @@ japanese
 jj@0HK4
 k0i0$
 kernel32.dll
-ko_ko
-korean
+ko_kr
+koreana
 l$ H;
 l$ H=
 l$8E3
@@ -983,10 +984,11 @@ memcpy
 memmove
 memset
 message_id
-mvISt
-no_no
+nb_no
+nl_nl
 norwegian
 ntelD
+o90["c'
 ole32.dll
 openvr_api.dll
 overlay_frame_times
@@ -1017,6 +1019,7 @@ russian
 schinese
 shcore.dll
 shutdown
+si~nw
 spanish
 startup
 stoull argument out of range
@@ -1024,7 +1027,7 @@ string too long
 strncpy
 strpbrk
 strtoull
-sv_sv
+sv_se
 swedish
 system.cursor.ibeam
 system.desktop.%d
@@ -1049,7 +1052,7 @@ title
 tolower
 tr_tr
 turkish
-ua_ua
+uk_ua
 ukranian
 update_debug_info
 update_window_list
@@ -1057,7 +1060,7 @@ user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
-vi_vi
+vi_vn
 vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )

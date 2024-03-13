@@ -22,7 +22,6 @@
 		"seated" : {
 		"standing" : {
 	!s99
-	$;$x
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	D$HA
@@ -203,6 +202,7 @@ $w!Hc
 )|$`D
 )|$`H
 )|$pf
+*%m	DRQ
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
@@ -390,7 +390,6 @@ $w!Hc
 /input/b/click
 /input/b/touch
 /input/gesture/pointing
-/input/gesture/thumb_rest
 /input/gesture/thumb_up
 /input/grip/value
 /input/joystick/click
@@ -407,6 +406,7 @@ $w!Hc
 /input/skeleton/right
 /input/system/click
 /input/tap/click
+/input/thumbrest/touch
 /input/trigger/touch
 /input/trigger/value
 /input/x/click
@@ -437,6 +437,7 @@ $w!Hc
 /user/wrist/right
 0 width
 0-pixel image
+0.	m]
 0A^_^
 0A_A^A\_^
 0A_A^A]A\^
@@ -462,12 +463,13 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240201011116Z0/
+240311233108Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3 63TTk	
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -506,7 +508,7 @@ $w!Hc
 9k0t_D
 9k0tcH
 9l$Lt	E
-9|$0u
+9|$@u
 : one or more FS callback not set
 ; expected 
 ; last read: '
@@ -663,6 +665,7 @@ $w!Hc
 @USVWATH
 @USVWAUAVAWH
 @USVWAUAVH
+@USVWH
 @USWATAWH
 @USWH
 @UVATAUAVH
@@ -781,6 +784,7 @@ CL$0H
 CL$PH
 COLOR
 COculusHmdLatest::UpdateThread
+COculusState::CreateSession
 CT$ H
 CT$pH
 C\$0D
@@ -1082,7 +1086,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -1188,7 +1192,7 @@ L$`fD
 L$p@2
 L$pE3
 L$pHcQ
-L9%e	
+L9%E	
 L9k8v
 L9t$@
 L9|$p
@@ -1232,6 +1236,7 @@ No valid guardian bounds. Creating standing chaperone
 NormalTextureInfo
 Not writing %s because the texture was null
 O8I+O0H
+O:f<Rd
 OPAQUE
 OVR Runtime Init
 OVR runtime requested recenter
@@ -1284,7 +1289,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSw
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1450,7 +1454,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X%py	
+X% y	
+X-5~	
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
@@ -1520,6 +1525,7 @@ ZL$Xf
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
+_#bC=
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1685,7 +1691,6 @@ bad zlib header
 baseColorFactor
 baseColorTexture
 bg_bg
-bohjx|5|1
 bonemask_grip.txt
 bonemask_index.txt
 bonemask_indexcurl.txt
@@ -1725,7 +1730,7 @@ const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
-cs_cs
+cs_cz
 czech
 d$ H;
 d$ UAVAWH
@@ -1742,7 +1747,7 @@ d$`L;
 d$`fD
 d$bHc
 d3d11.dll
-da_da
+da_dk
 danish
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
@@ -1758,12 +1763,13 @@ dk2_camera
 doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
+dutch
 dxgi.dll
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
 effffff
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 en_us
@@ -1777,7 +1783,6 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
-f"YG|L
 fD9	u
 fD9&u
 false
@@ -1799,7 +1804,6 @@ fseek
 fsetpos
 fwrite
 g9k0t_D
-g=I=!C
 generator
 german
 gfffffffH
@@ -1810,6 +1814,7 @@ hand_right_poses.glb
 handlers
 headset
 height
+hr4tR
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1904,8 +1909,8 @@ jj@0HK4
 joints
 jsonid
 k0i0$
-ko_ko
-korean
+ko_kr
+koreana
 l$ ATAVAWH
 l$ E3
 l$ H;
@@ -1954,7 +1959,6 @@ material
 materials
 matrix
 max value > 255
-mdqr^
 memchr
 memcmp
 memcpy
@@ -1970,6 +1974,8 @@ minVersion
 missing color table
 multiple IHDR
 n0_D@
+nb_no
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -1977,7 +1983,6 @@ no SOI
 no clear code
 no header height
 no preset dict
-no_no
 nodes
 normalTexture
 normalized
@@ -1991,6 +1996,7 @@ ntelD
 null literal
 number literal
 number overflow parsing '
+o#zOp
 o@@fD
 oD$ fD
 oD$0f
@@ -2044,6 +2050,7 @@ ovr_CreateTextureSwapChainVk
 ovr_Destroy
 ovr_DestroyMirrorTexture
 ovr_DestroyTextureSwapChain
+ovr_Detect
 ovr_EnableExtension
 ovr_EndFrame
 ovr_EndFrame(%d) failed: %s
@@ -2098,6 +2105,7 @@ ovr_GetTrackingState
 ovr_GetVersionString
 ovr_IdentifyClient
 ovr_Initialize
+ovr_Initialize - failure
 ovr_Initialize failed with ovrErrorType %d
 ovr_Initialize failed with ovrErrorType %d - %s
 ovr_Initialize never called
@@ -2358,8 +2366,7 @@ strtod
 strtol
 strtoll
 strtoull
-svH3"
-sv_sv
+sv_se
 swedish
 syntax error 
 t#fff
@@ -2452,8 +2459,8 @@ u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
-uTL9%o
-ua_ua
+uTL9%O
+uk_ua
 ukranian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unexpected 
@@ -2469,6 +2476,7 @@ unsupported bit depth
 unsupported data layout
 unsupported format
 v4fff
+v<	aJ
 v=Y]Bv
 vE;E`M
 vHcD$LH
@@ -2479,7 +2487,7 @@ vector<bool> too long
 version
 version %s
 vfA'I
-vi_vi
+vi_vn
 vid_%04x
 vietnamiese
 vr_glove_left_skeleton.glb
@@ -2490,6 +2498,7 @@ wXH9w`t/H
 weights
 while parsing 
 width
+wk1>r
 wn>Jj
 wrapR
 wrapS
@@ -2510,7 +2519,6 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{lE'@9@2Q8
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

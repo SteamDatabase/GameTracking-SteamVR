@@ -176,6 +176,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR-kehittäjätuki"
 "MenuAction_SteamWorksDeveloperSupport" "Steamworks-kehittäjätuki"
 "MenuAction_CreateSystemReport" "Luo järjestelmäraportti"
+"MenuAction_ToggleDashboard" "Näytä tai piilota työpöytä"
 "MenuAction_Recenter" "Keskitä"
 "MenuAction_SystemReportViewer" "Järjestelmäraportin katseluohjelma"
 "MenuAction_DisplayFrameTiming" "Edistynyt ruutuajastus"

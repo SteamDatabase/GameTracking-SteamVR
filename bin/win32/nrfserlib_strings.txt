@@ -8,7 +8,6 @@
 																												
 																																												
 	!s99
-	jd]3
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -93,7 +92,6 @@ $Vh&*
 -Infinity
 -external
 -internal
--yz+&
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
@@ -710,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240201010816Z0/
+240311232228Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -795,7 +793,7 @@ $Vh&*
 3V4=5
 3d4m4
 3mq+<
-3sG#)
+3z+*%6
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4$4(4,40444@4D4H4L4P4T4X4t4x4|4
@@ -893,6 +891,7 @@ $Vh&*
 5d7v7&:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+5v[(lT
 6	7U7Z7_7~7
 6	7V<
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6
@@ -1441,6 +1440,7 @@ Already open
 Attribute Discovery
 Authentication
 Authentication status failed. (auth_status: %s)
+BJ\MG
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1576,6 +1576,7 @@ Connection params update failed. (nrf_error: %s)
 ContainerID
 Continue
 Couldn't create/open file
+CpG*2
 CreateDirectoryA
 CreateEventW
 CreateFileA
@@ -1776,7 +1777,6 @@ K(PPW
 K(PQh
 K,+K(+
 K,PQh
-K/&1j
 KERNEL32.dll
 K}*n:	
 L0h364
@@ -2091,7 +2091,6 @@ WriteFile
 XX.XX.XXXXXXX
 Y9"SD
 Y__^[
-ZVzj%
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -2172,6 +2171,7 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
+_~Z[4
 `.rdata
 a7hIw
 a9~@u
@@ -2225,7 +2225,6 @@ file error
 floor
 generic
 gfffVW3
-gp(|Z
 graph
 h5_decode error, code: 0x
 h5_transport is in state 
@@ -2264,7 +2263,6 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
-iz}Yd~
 j!hti
 j#h<M
 j$h i
@@ -2272,6 +2270,7 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
+km$hI
 l2|X/gGe
 list<T> too long
 lj!hh
@@ -2290,6 +2289,7 @@ memset
 mutex
 need dictionary
 nrfserlib.dll
+n~!1L
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -2470,6 +2470,7 @@ vGh@7
 vGh`5
 vector<T> too long
 vector<bool> too long
+vv7TcEK
 w QVR
 w(_^[]
 w0_^[

@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "ฝ่ายสนับสนุนผู้พัฒนา SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "ฝ่ายสนับสนุนผู้พัฒนา SteamWorks"
 "MenuAction_CreateSystemReport" "สร้างรายงานระบบ"
+"MenuAction_ToggleDashboard" "สลับกระดานรวม"
 "MenuAction_Recenter" "ปรับศูนย์อีกครั้ง"
 "MenuAction_SystemReportViewer" "เครื่องมือดูรายงานระบบ"
 "MenuAction_DisplayFrameTiming" "การจับเวลาเฟรมขั้นสูง"

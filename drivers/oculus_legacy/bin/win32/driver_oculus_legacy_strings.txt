@@ -8,7 +8,6 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,(=ob
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -68,33 +67,34 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-/8b?|
 0 0$0(0H0L0t0
 0 0(0<0D0L0T0X0\0d0x0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
 0!0+030A0K0z0
-0"0*02070=0E0M0R0X0`0h0m0s0{0
+0'0,020:0B0G0M0U0]0b0h0p0x0}0
 0'141U1Z1s1x1
 0+0-4D4
+0V0[0
 0w0c1
 0}0i1
 1!111A1K1U1`1m1
 1!1J2
 1"1'1,1A1F1K1P1U1Z1_1d1i1n1s1x1}1
-1"1B1#262<2Z2`2n2
 1$1(1,1014181<1@1D1H1h1l1
-1%1*10181@1E1K1S1[1`1f1n1v1{1
+1$1-121R132F2L2j2p2~2
+1%1-151:1@1H1P1U1[1c1k1p1v1~1
 1(2L2x2
 130801120000Z
+2	4+4
+2 2(2-232;2C2H2N2V2^2c2i2q2y2~2
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
-2#2+23282>2F2N2S2Y2a2i2n2t2|2
 2$383]3q3
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240201010933Z0/
+240311232331Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -103,7 +103,7 @@
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3!3+353?3I3S3]3g3q3{3
+3'313;3E3O3Y3c3m3w3
 3'313;3H3R3X3_3c3i3s3}3
 311109235959Z0b1
 341013235959Z0H1
@@ -114,16 +114,16 @@
 3<3X3x3
 3T4p4
 3mq+<
-3|3F4
 4 4$4<4@4H4`4p4t4
+4!4+454?4I4S4]4g4q4{4
 4#4/4>4T4Z4_4e4p4v4
-4%4/494C4M4W4a4k4z4
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
-4/5C5M5X5}5
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
+5!6.6I6
 5$5/5
+5$5E5
 5&5.565r5
 5,5<5@5P5T5X5`5x5|5
 586<6@6D6H6L6P6T6X6\6`6
@@ -131,83 +131,80 @@
 5FjiT
 5Genu
 5N5W5`5i5n5s5z5
+5O5c5m5x5
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6$6<6L6P6`6d6h6p6
 6*f(_
 696r6
-696~6
-6A7J7Q7
 6I]Dc
 6OB,n_
+6Q7Z7a7
 7 7&7;7S7Y7c7z7
 7!7&747C7L7U7^7c7h7o7
 7$7(787<7L7P7X7p7
+7&828\8
 7+737;7
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8"8L8
+8 9&9,93999Y9
 8'8-878A8K8U8_8l8u8
-8'919;9I9
 8(8,8<8@8H8`8p8t8
 838<8H8N8T8_8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8G9Q9[9i9
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9#9)9I9
 9$919C9M9W9b9m9z9
 94?8?<?@?D?H?L?P?T?X?x?|?
 9@9I9R9`9i9|9]:}:
 9A9X9t9
 9X;h;
 :$:-:6:?:D:I:P:`:
-:':2:H:u:
+:+;a;
 :-:6:?:H:M:R:Y:
-:F;e;
-:b:u:
+:.:7:B:X:
 ; ;B;Q;Z;g;
 ; <(<-<@<T<Y<l<
 ;$;-;2;7;>;C;O;q;
 ;(;1;6;;;B;R;
-;(<1<B<
-;5<A<Y<o<x<
+;8<A<R<
 ;j<q<
 <#<(<-<4<y<
 <%<.<7<<<A<H<
 <'<1<;<E<O<Y<c<m<w<
-<,=`=v=
 <0:08
-<>#wf
+<E<Q<i<
 <V>a>|>
 =&=2=;=@=F=P=Z=j=z=
+='>P>_>r>~>
+=,>i>o>
 =4=X=d=l=
+=<=p=
 =P>h>l>
 =]=f=o=x=}=
 =j)h8
-=j=r=
 =rIQU
->">)>1>6><>D>L>Q>W>_>g>l>r>z>
+>*>2>9>A>F>L>T>\>a>g>o>w>|>
 >0<0:
 >0><>B>H>N>T>Z>`>f>l>r>x>~>
 >2>T>^>g>r>x>~>
 ><>`>l>t>
-><?B?P?\?
->@>O>b>n>~>
 >Mp$d
->X?e?
->Y>_>t>}>
 ? ?&?,?A?Q?a?q?
-?$?)?/?7???D?J?R?Z?_?e?m?u?z?
+?$?,?4?9???G?O?T?Z?b?j?o?u?}?
 ?:?m?v?
 ?<?H?P?|?
+?L?R?`?l?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPBD@Z
 ?_Xout_of_range@std@@YAXPBD@Z
+?h?u?
 @.data
 @.reloc
 ADVAPI32.dll
@@ -235,7 +232,6 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
-FHyn2
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
@@ -257,7 +253,7 @@ ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
 IVRProperties_001
@@ -275,8 +271,8 @@ InitializeSListHead
 Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J/nR1
 J>@G_
-JWw@$<"8F
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -309,7 +305,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-S~WoC
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -487,7 +482,9 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
+|L/.;
 |Lu?c
 }LuHO
+~=)gUY
 ~qj#k"
 ~t&LN

@@ -44,9 +44,19 @@
 	"click" : true,
         "binding_image_point" : [ 60, 60 ]
     },
-    "/pose/raw" : {
-        "type" : "pose",
-        "binding_image_point" : [ 105, 200 ]
+    "/pose/raw": {
+      "type": "pose",
+      "binding_image_point": [ 105, 200 ]
+    },
+    "input_source": {
+      "/input/system": {
+        "type": "button",
+        "binding_image_point": [ 180, 110 ]
+      },
+      "/pose/raw": {
+        "type": "pose",
+        "binding_image_point": [ 63, 148 ]
+      }
     }
   },
   "simulation_settings":

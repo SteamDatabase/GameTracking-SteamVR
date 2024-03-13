@@ -51,9 +51,9 @@
       }
    },
    "category" : "steamvr_input",
-   "controller_type" : "remote_hmd",
+   "controller_type" : "rift",
    "description" : "",
-   "name" : "Default SteamVR Dashboard bindings for Remote HMDs",
+   "name" : "Default SteamVR Dashboard bindings for emulated Rift HMDs",
    "options" : {},
    "simulated_actions" : []
 }

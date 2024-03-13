@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR fejlesztőtámogatás"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks fejlesztőtámogatás"
 "MenuAction_CreateSystemReport" "Rendszerjelentés készítése"
+"MenuAction_ToggleDashboard" "Műszerfal ki-/bekapcsolása"
 "MenuAction_Recenter" "Középpontba állítás"
 "MenuAction_SystemReportViewer" "Rendszerjelentés-néző"
 "MenuAction_DisplayFrameTiming" "Haladó képkocka-időzítés"

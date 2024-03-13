@@ -497,9 +497,8 @@ $tI
 *ZN10CVRMailbox22AutoForwardMessageTypeESsRKSsEUlRKN4Json5ValueEE_
 *ZN14CVRInputLatest12InputFrame_t26GetAndCollapseActionValuesEP16VRAction_Entry_tmmEUlmE_
 *ZN15CVRSystemLatest36GetSortedTrackedDeviceIndicesOfClassEN2vr19ETrackedDeviceClassEPjjjEUlS1_E_
-*ZN16CHmdSystemLatest13ChangeAppTypeEN2vr18EVRApplicationTypeEEUlPKcE_
+*ZN16CHmdSystemLatest29InitCompositorImplementationsEvEUlPKcE_
 *ZN16CHmdSystemLatest4InitEN2vr18EVRApplicationTypeEPKcEUlS3_E0_
-*ZN16CHmdSystemLatest4InitEN2vr18EVRApplicationTypeEPKcEUlS3_E1_
 *ZN16CHmdSystemLatest4InitEN2vr18EVRApplicationTypeEPKcEUlS3_E_
 *ZN19CRenderModelManager10TessellateEPN2vr13RenderModel_tEPKcEUlRKNS0_12HmdVector3_tEE0_
 *ZN19CRenderModelManager10TessellateEPN2vr13RenderModel_tEPKcEUlRKNS0_12HmdVector3_tEE1_
@@ -1024,21 +1023,18 @@ $tI
 0-pixel image
 0123456789
 0123456789ABCDEF
-01:05:42
 1
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
 10CSxrAction
 10CVRMailbox
-10XrAction_T
 11 4 22 44 44 22 444444
 111 221 2222 11
 11CSxrSession
 11CVRIOBuffer
 11CVkTimeline
 11IVRRenderer
-11XrSession_T
 12CLegacyInput
 12CNonCopyable
 12CSxrInstance
@@ -1055,7 +1051,6 @@ $tI
 12ILogListener
 12IXrSwapchain
 12WatchdogHostI19CVRWatchdogHost_001E
-12XrInstance_T
 13CAnimResource
 13CAnimSkeleton
 13CSxrActionSet
@@ -1081,8 +1076,6 @@ $tI
 13CVRSystem_020
 13CVRSystem_021
 13IXrCompositor
-13XrActionSet_T
-13XrSwapchain_T
 14CDriverManager
 14CHmdSystem_001
 14CHmdSystem_004
@@ -1196,7 +1189,6 @@ $tI
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-18XrHandTrackerEXT_T
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1275,6 +1267,7 @@ $tI
 21CVRChaperoneSetup_003
 21CVRChaperoneSetup_004
 21CVRChaperoneSetup_005
+21CVRIPCResourceManager
 21CVRMsg_CompositorQuit
 21CVRMsg_DefaultBinding
 21CVRMsg_GetDisplayInfo
@@ -1311,6 +1304,7 @@ $tI
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:15:10
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -1366,6 +1360,7 @@ $tI
 25CSxrSwapchainVulkanOpenVR
 25CVRCameraComponentAdapter
 25CVRCameraComponent_Latest
+25CVRIPCResourceManagerBase
 25CVRMsg_CompositorGoToBack
 25CVRMsg_DriverDebugRequest
 25CVRMsg_GetApplicationInfo
@@ -1500,10 +1495,11 @@ $tI
 30ComponentAdapterBaseWithParentI32IVRDriverDirectModeComponent_005XadL_Z36k_pchDriverDirectModeComponentPrefixEELi5E32CVRDriverDirectModeComponent_00532CVRDriverDirectModeComponent_004E
 30ComponentAdapterBaseWithParentI32IVRDriverDirectModeComponent_006XadL_Z36k_pchDriverDirectModeComponentPrefixEELi6E32CVRDriverDirectModeComponent_00632CVRDriverDirectModeComponent_005E
 30ComponentAdapterBaseWithParentI32IVRDriverDirectModeComponent_007XadL_Z36k_pchDriverDirectModeComponentPrefixEELi7E32CVRDriverDirectModeComponent_00732CVRDriverDirectModeComponent_006E
+30ComponentAdapterBaseWithParentI32IVRDriverDirectModeComponent_008XadL_Z36k_pchDriverDirectModeComponentPrefixEELi8E32CVRDriverDirectModeComponent_00832CVRDriverDirectModeComponent_007E
 30ComponentAdapterBaseWithParentIN2vr17IVRVirtualDisplayEXadL_Z34k_pchVirtualDisplayComponentPrefixEELi2E33CVRVirtualDisplayComponent_Latest30CVRVirtualDisplayComponent_001E
 30ComponentAdapterBaseWithParentIN2vr18IVRCameraComponentEXadL_Z26k_pchCameraComponentPrefixEELi3E25CVRCameraComponent_Latest22CVRCameraComponent_002E
 30ComponentAdapterBaseWithParentIN2vr19IVRDisplayComponentEXadL_Z27k_pchDisplayComponentPrefixEELi3E26CVRDisplayComponent_Latest23CVRDisplayComponent_002E
-30ComponentAdapterBaseWithParentIN2vr28IVRDriverDirectModeComponentEXadL_Z36k_pchDriverDirectModeComponentPrefixEELi8E35CVRDriverDirectModeComponent_Latest32CVRDriverDirectModeComponent_007E
+30ComponentAdapterBaseWithParentIN2vr28IVRDriverDirectModeComponentEXadL_Z36k_pchDriverDirectModeComponentPrefixEELi9E35CVRDriverDirectModeComponent_Latest32CVRDriverDirectModeComponent_008E
 30ITrackedDeviceServerDriver_004
 31BlockQueueInterfaceRegistrationI17CVRBlockQueue_001E
 31BlockQueueInterfaceRegistrationI17CVRBlockQueue_002E
@@ -1551,6 +1547,7 @@ $tI
 32CVRDriverDirectModeComponent_005
 32CVRDriverDirectModeComponent_006
 32CVRDriverDirectModeComponent_007
+32CVRDriverDirectModeComponent_008
 32CVRMsg_CompositorConnectResponse
 32CVRMsg_CompositorNewSharedBuffer
 32CVRMsg_ComputeDistortionResponse
@@ -1564,6 +1561,7 @@ $tI
 32IVRDriverDirectModeComponent_005
 32IVRDriverDirectModeComponent_006
 32IVRDriverDirectModeComponent_007
+32IVRDriverDirectModeComponent_008
 32OverlayViewInterfaceRegistrationI18CVROverlayView_001E
 32OverlayViewInterfaceRegistrationI18CVROverlayView_002E
 32ScreenshotsInterfaceRegistrationI18CVRScreenshots_001E
@@ -1657,6 +1655,7 @@ $tI
 36CVRMsg_TrackedCamera_StopVideoStream
 37CInputFilter_Boolean_ButtonPressState
 37CVRMsg_CompositorTakeStereoScreenshot
+37CVRMsg_Input_GetOriginalComponentPath
 37CVRMsg_Input_SetXrInputConfigResponse
 37CVRMsg_Settings_GetValueType_Response
 37CVRMsg_TrackedCamera_PauseVideoStream
@@ -1667,6 +1666,7 @@ $tI
 38CVRMsg_ClientMailbox_UnregisterMailbox
 38CVRMsg_CompositorKeyboardShownResponse
 38CVRMsg_Input_GetActionBindingsResponse
+38CVRMsg_RegisterExternalWebRootResponse
 38CVRMsg_SetApplicationProcessIdResponse
 38CVRMsg_ShouldKillTheaterPancakeProcess
 38CVRMsg_TrackedCamera_ResumeVideoStream
@@ -1716,6 +1716,7 @@ $tI
 44CVRMsg_TrackedCamera_SetAutoExposureResponse
 44CVRMsg_TrackedCamera_StopVideoStreamResponse
 45CVRMsg_CompositorTakeStereoScreenshotResponse
+45CVRMsg_Input_GetOriginalComponentPathResponse
 45CVRMsg_TrackedCamera_GetDistortion_InputCoord
 45CVRMsg_TrackedCamera_PauseVideoStreamResponse
 45CVRMsg_TrackedCamera_StartVideoStreamResponse
@@ -1762,7 +1763,6 @@ $tI
 9CSxrSpace
 9CVkBuffer
 9CVkMemory
-9XrSpace_T
 :
 : 0x
 : exception thrown in JSON library
@@ -1910,6 +1910,7 @@ AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*
 Asset
 Attempt to add alias root %s after a path handle was generated. That is not supported
 Attempt to init shared state %s twice
+Attempt to launch desktop game theater while vrcompositor not running
 Attempted to access vulkan array info for a non-vulkan texture
 Attempted to map already-mapped BO
 Attempted to map un-allocated BO
@@ -2054,8 +2055,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1844.369644
-C.1847.369655
+C.1849.370209
+C.1852.370220
 C.413.290188
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -2092,10 +2093,6 @@ CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t con
 CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)::s_vecXyx
 CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)
 CActionBindingConfigGenerator::FilterInputSourceName(std::string const&) [clone .cold]
-CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputALen
-CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputBLen
-CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputXLen
-CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputYLen
 CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftLen
 CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unRightLen
 CActionBindingConfigGenerator::FindHapticForInput(std::string const&)
@@ -2366,8 +2363,8 @@ CDriverDirectInternalClient::Init(CVRClient*)
 CDriverDirectInternalClient::Init(CVRClient*) [clone .cold]
 CDriverDirectInternalClient::Present(unsigned long, unsigned int)
 CDriverDirectInternalClient::Present(unsigned long, unsigned int) [clone .cold]
-CDriverDirectInternalClient::SubmitLayer(unsigned int, vr::EVREye, vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const&)
-CDriverDirectInternalClient::SubmitLayer(unsigned int, vr::EVREye, vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const&) [clone .cold]
+CDriverDirectInternalClient::SubmitLayer(unsigned int, vr::EVREye, vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const&, double)
+CDriverDirectInternalClient::SubmitLayer(unsigned int, vr::EVREye, vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const&, double) [clone .cold]
 CDriverDirectInternalClient::WaitForAcquire()
 CDriverDirectInternalClient::WaitForPresent()
 CDriverLog::Log(char const*)
@@ -2542,6 +2539,7 @@ CHmdSystemLatest::ForceQuitProcess(unsigned int)
 CHmdSystemLatest::ForceQuitProcess(unsigned int) [clone .cold]
 CHmdSystemLatest::ForwardLogMessageToServer(unsigned long, char const*, unsigned int, unsigned int, char const*)
 CHmdSystemLatest::ForwardLogMessageToServer(unsigned long, char const*, unsigned int, unsigned int, char const*) [clone .cold]
+CHmdSystemLatest::ForwardLogMessageToServer(unsigned long, char const*, unsigned int, unsigned int, char const*)::s_nForwardingLogMessageToServer
 CHmdSystemLatest::GetAppContainerFilePaths()
 CHmdSystemLatest::GetAppContainerFilePaths() [clone .cold]
 CHmdSystemLatest::GetApplicationType()
@@ -2586,6 +2584,9 @@ CHmdSystemLatest::GetIPCResourceManagerClient()
 CHmdSystemLatest::GetLatestEyePose(vr::VREyeTrackingState_Pose_t*)
 CHmdSystemLatest::GetLatestEyePose(vr::VREyeTrackingState_Pose_t*) [clone .cold]
 CHmdSystemLatest::GetLegacyInput()
+CHmdSystemLatest::GetMutualSteamCapabilities(bool*, unsigned int)
+CHmdSystemLatest::GetMutualSteamCapabilities(bool*, unsigned int) [clone .cold]
+CHmdSystemLatest::GetOriginalComponentPath(unsigned long, std::string const&, std::string&)
 CHmdSystemLatest::GetPaths()
 CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -2610,7 +2611,8 @@ CHmdSystemLatest::GetWebSharedSecret()
 CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)
 CHmdSystemLatest::Init(vr::EVRApplicationType, char const*) [clone .cold]
 CHmdSystemLatest::InitCompositorImplementations()
-CHmdSystemLatest::InitCompositorImplementations() [clone .part.0]
+CHmdSystemLatest::InitCompositorImplementations() [clone .cold]
+CHmdSystemLatest::IsDeviceRenderModelSimulated(unsigned long)
 CHmdSystemLatest::IsInterfaceVersionValid(char const*)
 CHmdSystemLatest::IsSystemProcess()
 CHmdSystemLatest::LogMessage(unsigned long, char const*, unsigned int, ELogLevel, char const*)
@@ -3376,6 +3378,7 @@ CRenderModelManager::CacheEmptyModelInfo(unsigned int, std::string const&)
 CRenderModelManager::CacheEmptyModelInfo(unsigned int, std::string const&) [clone .cold]
 CRenderModelManager::Cleanup()
 CRenderModelManager::ClearCache()
+CRenderModelManager::ClearDeviceCache()
 CRenderModelManager::Component_t::Component_t()
 CRenderModelManager::Component_t::GetButtonMask()
 CRenderModelManager::Component_t::GetInputState(vr::IVRPaths*, unsigned long)
@@ -3393,6 +3396,10 @@ CRenderModelManager::FreeRenderModel(vr::RenderModel_t*) [clone .cold]
 CRenderModelManager::FreeTexture(vr::RenderModel_TextureMap_t*)
 CRenderModelManager::FreeTexture(vr::RenderModel_TextureMap_t*) [clone .cold]
 CRenderModelManager::FreeTextureD3D11(void*)
+CRenderModelManager::GetBaseModelInfo(char const*, bool)
+CRenderModelManager::GetBaseModelInfo(char const*, bool) [clone .cold]
+CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputJoystick
+CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputSystem
 CRenderModelManager::GetComponentButtonMask(char const*, char const*)
 CRenderModelManager::GetComponentButtonMask(char const*, char const*) [clone .cold]
 CRenderModelManager::GetComponentCount(char const*)
@@ -3408,10 +3415,8 @@ CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::Ren
 CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*) [clone .cold]
 CRenderModelManager::GetComponentStateForDevicePath(char const*, char const*, unsigned long, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
 CRenderModelManager::GetComponentStateInternal(CRenderModelManager::ModelInfo_t const*, CRenderModelManager::Component_t const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
-CRenderModelManager::GetModelInfo(char const*, bool)
-CRenderModelManager::GetModelInfo(char const*, bool) [clone .cold]
-CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputJoystick
-CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputSystem
+CRenderModelManager::GetDeviceModelInfo(unsigned long, char const*, bool)
+CRenderModelManager::GetDeviceModelInfo(unsigned long, char const*, bool) [clone .cold]
 CRenderModelManager::GetRenderModelAbsolutePath(char const*, bool)
 CRenderModelManager::GetRenderModelAbsolutePath(char const*, bool) [clone .cold]
 CRenderModelManager::GetRenderModelCount()
@@ -3446,6 +3451,8 @@ CRenderModelManager::RegisterTextureFilePath(char const*, vr::RenderModelTexture
 CRenderModelManager::RenderModelHasComponent(char const*, char const*)
 CRenderModelManager::RenderModelHasComponent(char const*, char const*) [clone .cold]
 CRenderModelManager::RenderModelTextureContainer_t::~RenderModelTextureContainer_t()
+CRenderModelManager::ReplaceRemappedPath(vr::CVRPathHelpers*, unsigned long&, std::string const&, std::string const&)
+CRenderModelManager::ReplaceRemappedPath(vr::CVRPathHelpers*, unsigned long&, std::string const&, std::string const&) [clone .cold]
 CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)
 CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*) [clone .cold]
 CRenderModelManager::~CRenderModelManager()
@@ -4068,7 +4075,6 @@ CSxrInstance::InitExtensions()
 CSxrInstance::InitExtensions() [clone .cold]
 CSxrInstance::InitSupportedFeatures()
 CSxrInstance::InitSupportedFeatures() [clone .cold]
-CSxrInstance::IsDisplayTimeValid(long)
 CSxrInstance::IsEnvironmentBlendModeSupported(XrViewConfigurationType, XrEnvironmentBlendMode)
 CSxrInstance::IsExtensionEnabled(char const*)
 CSxrInstance::IsExtensionSupported(char const*)
@@ -4093,18 +4099,18 @@ CSxrInstance::TranslateUnsupportedOpenXrPath(std::string&, std::string&, std::st
 CSxrInstance::ValidateSystemId()
 CSxrInstance::sm_vecExtensionsAvailable
 CSxrInstance::~CSxrInstance()
-CSxrParentBase::BIsChildRegistered(std::type_index, CSxrDeletableBase*)
-CSxrParentBase::BIsLimitReachedForChildType(std::type_index)
-CSxrParentBase::BIsLimitReachedForChildType(std::type_index) [clone .cold]
+CSxrParentBase::BIsChildRegistered(EXRHandleType, CSxrDeletableBase*)
+CSxrParentBase::BIsLimitReachedForChildType(EXRHandleType)
+CSxrParentBase::BIsLimitReachedForChildType(EXRHandleType) [clone .cold]
 CSxrParentBase::CSxrChildren<XrAction_T*, CSxrAction>::~CSxrChildren()
 CSxrParentBase::CSxrChildren<XrSession_T*, CSxrSession>::~CSxrChildren()
 CSxrParentBase::DeleteAllChildren()
 CSxrParentBase::DeleteAllChildren() [clone .cold]
-CSxrParentBase::GetChildData(std::type_index)
-CSxrParentBase::RegisterChildObject(std::type_index, CSxrDeletableBase*)
-CSxrParentBase::RegisterChildObject(std::type_index, CSxrDeletableBase*) [clone .cold]
-CSxrParentBase::RegisterLimitForChildType(std::type_index, unsigned int)
-CSxrParentBase::UnregisterChildObject(std::type_index, CSxrDeletableBase*)
+CSxrParentBase::GetChildData(EXRHandleType)
+CSxrParentBase::RegisterChildObject(EXRHandleType, CSxrDeletableBase*)
+CSxrParentBase::RegisterChildObject(EXRHandleType, CSxrDeletableBase*) [clone .cold]
+CSxrParentBase::RegisterLimitForChildType(EXRHandleType, unsigned int)
+CSxrParentBase::UnregisterChildObject(EXRHandleType, CSxrDeletableBase*)
 CSxrParentBase::~CSxrParentBase()
 CSxrSession
 CSxrSession::AttachActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> >&)
@@ -4271,6 +4277,7 @@ CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
 CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
 CThreadFullMutex::IsCreator() const
 CThreadFullMutex::Release()
+CThreadLocal<long>::~CThreadLocal()
 CThreadLocalBase::CThreadLocalBase()
 CThreadLocalBase::Get() const
 CThreadLocalBase::Set(void*)
@@ -4868,24 +4875,16 @@ CVRCompositorClient::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
 CVRCompositorClient::Init(vr::IVRSystem*, vr::IVRCompositorSystemInternal*, vr::IVRApplications*, CVRClient*, IVRClientInternal*)
 CVRCompositorClient::Init(vr::IVRSystem*, vr::IVRCompositorSystemInternal*, vr::IVRApplications*, CVRClient*, IVRClientInternal*) [clone .cold]
 CVRCompositorClient::LockGLSharedTextureForAccess(void*)
-CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*)
-CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*) [clone .cold]
-CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*)
-CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*) [clone .cold]
-CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*)
-CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*) [clone .cold]
 CVRCompositorClient::PostPresentHandoff()
 CVRCompositorClient::PostPresentHandoff() [clone .cold]
 CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool)
-CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool) [clone .cold]
+CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool, float*)
+CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool, float*) [clone .cold]
 CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameInfo_t*)
 CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameInfo_t*) [clone .cold]
 CVRCompositorClient::PredictRenderedFrameXR(int, float, float, vr::PredictedFrameInfo_t*)
 CVRCompositorClient::PredictRenderedFrameXR(int, float, float, vr::PredictedFrameInfo_t*) [clone .cold]
 CVRCompositorClient::Present(int)
-CVRCompositorClient::RefResource(unsigned long, unsigned long*)
-CVRCompositorClient::RefResource(unsigned long, unsigned long*) [clone .cold]
 CVRCompositorClient::ReleaseMirrorTextureD3D11(void*)
 CVRCompositorClient::ReleaseMirrorTextureD3D11(void*) [clone .cold]
 CVRCompositorClient::ReleaseSharedGLTexture(unsigned int, void*)
@@ -4919,8 +4918,6 @@ CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const
 CVRCompositorClient::SuspendRendering(bool)
 CVRCompositorClient::SuspendRendering(bool) [clone .cold]
 CVRCompositorClient::UnlockGLSharedTextureForAccess(void*)
-CVRCompositorClient::UnrefResource(unsigned long)
-CVRCompositorClient::UnrefResource(unsigned long) [clone .cold]
 CVRCompositorClient::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*)
 CVRCompositorClient::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*) [clone .cold]
 CVRCompositorClient::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
@@ -6156,9 +6153,13 @@ CVRControllerTypeBindings::GetBindingInfo(unsigned long) const [clone .cold]
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) [clone .cold]
 CVRControllerTypeBindings::GetOverrideDeviceClass()
+CVRControllerTypeBindings::GetSimulatedControllerType()
+CVRControllerTypeBindings::GetSimulatedControllerType() [clone .cold]
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
+CVRControllerTypeBindings::IsRenderModelSimulated()
+CVRControllerTypeBindings::IsRenderModelSimulated() [clone .cold]
 CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
 CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
 CVRControllerTypeBindings::SendBindingUpdatedEvents()
@@ -6308,8 +6309,17 @@ CVRDriverDirectModeComponent_007::GetFrameTiming(vr::DriverDirectMode_FrameTimin
 CVRDriverDirectModeComponent_007::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2])
 CVRDriverDirectModeComponent_007::PostPresent()
 CVRDriverDirectModeComponent_007::Present(unsigned long)
-CVRDriverDirectModeComponent_007::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
+CVRDriverDirectModeComponent_007::SubmitLayer(IVRDriverDirectModeComponent_006::SubmitLayerPerEye_t const (&) [2])
 CVRDriverDirectModeComponent_007::~CVRDriverDirectModeComponent_007()
+CVRDriverDirectModeComponent_008::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+CVRDriverDirectModeComponent_008::DestroyAllSwapTextureSets(unsigned int)
+CVRDriverDirectModeComponent_008::DestroySwapTextureSet(unsigned long)
+CVRDriverDirectModeComponent_008::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+CVRDriverDirectModeComponent_008::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2])
+CVRDriverDirectModeComponent_008::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+CVRDriverDirectModeComponent_008::Present(unsigned long)
+CVRDriverDirectModeComponent_008::SubmitLayer(IVRDriverDirectModeComponent_006::SubmitLayerPerEye_t const (&) [2])
+CVRDriverDirectModeComponent_008::~CVRDriverDirectModeComponent_008()
 CVRDriverDirectModeComponent_Latest::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
 CVRDriverDirectModeComponent_Latest::DestroyAllSwapTextureSets(unsigned int)
 CVRDriverDirectModeComponent_Latest::DestroySwapTextureSet(unsigned long)
@@ -6348,6 +6358,22 @@ CVRIOBuffer_002::Open(char const*, vr::EIOBufferMode, unsigned int, unsigned int
 CVRIOBuffer_002::PropertyContainer(unsigned long)
 CVRIOBuffer_002::Read(unsigned long, void*, unsigned int, unsigned int*)
 CVRIOBuffer_002::Write(unsigned long, void*, unsigned int)
+CVRIPCResourceManager::CVRIPCResourceManager()
+CVRIPCResourceManager::Connect()
+CVRIPCResourceManager::Connect() [clone .cold]
+CVRIPCResourceManager::~CVRIPCResourceManager()
+CVRIPCResourceManagerBase::CVRIPCResourceManagerBase(CIPCPipe*)
+CVRIPCResourceManagerBase::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*)
+CVRIPCResourceManagerBase::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*) [clone .cold]
+CVRIPCResourceManagerBase::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*)
+CVRIPCResourceManagerBase::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*) [clone .cold]
+CVRIPCResourceManagerBase::NewSharedVulkanSemaphore(unsigned long*)
+CVRIPCResourceManagerBase::NewSharedVulkanSemaphore(unsigned long*) [clone .cold]
+CVRIPCResourceManagerBase::RefResource(unsigned long, unsigned long*)
+CVRIPCResourceManagerBase::RefResource(unsigned long, unsigned long*) [clone .cold]
+CVRIPCResourceManagerBase::UnrefResource(unsigned long)
+CVRIPCResourceManagerBase::UnrefResource(unsigned long) [clone .cold]
+CVRIPCResourceManagerBase::~CVRIPCResourceManagerBase()
 CVRInputLatest::AddActionSetToPriorityMap(InputConfig_t*, CVRControllerTypeBindings*, unsigned long, int, bool, unsigned long)
 CVRInputLatest::BGetInputOptionBool(unsigned long, std::string const&)
 CVRInputLatest::BGetInputOptionBool(unsigned long, std::string const&) [clone .cold]
@@ -6399,8 +6425,11 @@ CVRInputLatest::GetOriginLocalizedName(unsigned long, char*, unsigned int, int)
 CVRInputLatest::GetOriginLocalizedName(unsigned long, char*, unsigned int, int) [clone .cold]
 CVRInputLatest::GetOriginTrackedDeviceInfo(unsigned long, vr::InputOriginInfo_t*, unsigned int)
 CVRInputLatest::GetOriginTrackedDeviceInfo(unsigned long, vr::InputOriginInfo_t*, unsigned int) [clone .cold]
+CVRInputLatest::GetOriginalComponentPath(unsigned long, std::string const&, std::string&)
+CVRInputLatest::GetOriginalComponentPath(unsigned long, std::string const&, std::string&) [clone .cold]
 CVRInputLatest::GetOverrideDeviceClass(unsigned int)
 CVRInputLatest::GetOverrideDeviceClass(unsigned int) [clone .cold]
+CVRInputLatest::GetPathFromControllerRole(vr::ETrackedControllerRole)
 CVRInputLatest::GetPerInputTutorialActions(char const*, unsigned long*, vr::PerInputTutorialActions_t*, unsigned int)
 CVRInputLatest::GetPerInputTutorialActions(char const*, unsigned long*, vr::PerInputTutorialActions_t*, unsigned int) [clone .cold]
 CVRInputLatest::GetPoseActionDataForNextFrame(unsigned long, vr::ETrackingUniverseOrigin, vr::InputPoseActionData_t*, unsigned int, unsigned long)
@@ -6448,6 +6477,7 @@ CVRInputLatest::InputFrame_t::sm_mutexOverflowActionDataPerDevice
 CVRInputLatest::IsActionBound(unsigned long)
 CVRInputLatest::IsActionBound(unsigned long) [clone .cold]
 CVRInputLatest::IsActionSetActive(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long, unsigned long, int*)
+CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long)
 CVRInputLatest::IsInTutorialMode()
 CVRInputLatest::IsInputDisabledForPriority(unsigned long, int)
 CVRInputLatest::IsUsingLegacyInput()
@@ -9271,6 +9301,86 @@ CVRMsg_Input_GetOriginLocalizedNameResponse::set_localized_name(char const*)
 CVRMsg_Input_GetOriginLocalizedNameResponse::set_localized_name(char const*, unsigned long)
 CVRMsg_Input_GetOriginLocalizedNameResponse::set_localized_name(std::string const&)
 CVRMsg_Input_GetOriginLocalizedNameResponse::~CVRMsg_Input_GetOriginLocalizedNameResponse()
+CVRMsg_Input_GetOriginalComponentPath
+CVRMsg_Input_GetOriginalComponentPath::ByteSize() const
+CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath()
+CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath() [clone .cold]
+CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath(CVRMsg_Input_GetOriginalComponentPath const&)
+CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath(CVRMsg_Input_GetOriginalComponentPath const&) [clone .cold]
+CVRMsg_Input_GetOriginalComponentPath::CheckTypeAndMergeFrom(google::protobuf::MessageLite const&)
+CVRMsg_Input_GetOriginalComponentPath::Clear()
+CVRMsg_Input_GetOriginalComponentPath::CopyFrom(CVRMsg_Input_GetOriginalComponentPath const&)
+CVRMsg_Input_GetOriginalComponentPath::GetCachedSize() const
+CVRMsg_Input_GetOriginalComponentPath::GetTypeName() const
+CVRMsg_Input_GetOriginalComponentPath::InitAsDefaultInstance()
+CVRMsg_Input_GetOriginalComponentPath::IsInitialized() const
+CVRMsg_Input_GetOriginalComponentPath::MergeFrom(CVRMsg_Input_GetOriginalComponentPath const&)
+CVRMsg_Input_GetOriginalComponentPath::MergeFrom(CVRMsg_Input_GetOriginalComponentPath const&) [clone .cold]
+CVRMsg_Input_GetOriginalComponentPath::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
+CVRMsg_Input_GetOriginalComponentPath::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) [clone .cold]
+CVRMsg_Input_GetOriginalComponentPath::New() const
+CVRMsg_Input_GetOriginalComponentPath::New() const [clone .cold]
+CVRMsg_Input_GetOriginalComponentPath::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
+CVRMsg_Input_GetOriginalComponentPath::SetCachedSize(int) const
+CVRMsg_Input_GetOriginalComponentPath::SharedCtor()
+CVRMsg_Input_GetOriginalComponentPath::SharedCtor() [clone .cold]
+CVRMsg_Input_GetOriginalComponentPath::SharedDtor()
+CVRMsg_Input_GetOriginalComponentPath::Swap(CVRMsg_Input_GetOriginalComponentPath*)
+CVRMsg_Input_GetOriginalComponentPath::default_instance()
+CVRMsg_Input_GetOriginalComponentPath::default_instance_
+CVRMsg_Input_GetOriginalComponentPath::mutable_from_controller_type()
+CVRMsg_Input_GetOriginalComponentPath::mutable_remapped_component_path()
+CVRMsg_Input_GetOriginalComponentPath::mutable_to_controller_type()
+CVRMsg_Input_GetOriginalComponentPath::release_from_controller_type()
+CVRMsg_Input_GetOriginalComponentPath::release_remapped_component_path()
+CVRMsg_Input_GetOriginalComponentPath::release_to_controller_type()
+CVRMsg_Input_GetOriginalComponentPath::set_allocated_from_controller_type(std::string*)
+CVRMsg_Input_GetOriginalComponentPath::set_allocated_remapped_component_path(std::string*)
+CVRMsg_Input_GetOriginalComponentPath::set_allocated_to_controller_type(std::string*)
+CVRMsg_Input_GetOriginalComponentPath::set_from_controller_type(char const*)
+CVRMsg_Input_GetOriginalComponentPath::set_from_controller_type(char const*, unsigned long)
+CVRMsg_Input_GetOriginalComponentPath::set_from_controller_type(std::string const&)
+CVRMsg_Input_GetOriginalComponentPath::set_remapped_component_path(char const*)
+CVRMsg_Input_GetOriginalComponentPath::set_remapped_component_path(char const*, unsigned long)
+CVRMsg_Input_GetOriginalComponentPath::set_remapped_component_path(std::string const&)
+CVRMsg_Input_GetOriginalComponentPath::set_to_controller_type(char const*)
+CVRMsg_Input_GetOriginalComponentPath::set_to_controller_type(char const*, unsigned long)
+CVRMsg_Input_GetOriginalComponentPath::set_to_controller_type(std::string const&)
+CVRMsg_Input_GetOriginalComponentPath::~CVRMsg_Input_GetOriginalComponentPath()
+CVRMsg_Input_GetOriginalComponentPathResponse
+CVRMsg_Input_GetOriginalComponentPathResponse::ByteSize() const
+CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse()
+CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse() [clone .cold]
+CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse(CVRMsg_Input_GetOriginalComponentPathResponse const&)
+CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse(CVRMsg_Input_GetOriginalComponentPathResponse const&) [clone .cold]
+CVRMsg_Input_GetOriginalComponentPathResponse::CheckTypeAndMergeFrom(google::protobuf::MessageLite const&)
+CVRMsg_Input_GetOriginalComponentPathResponse::Clear()
+CVRMsg_Input_GetOriginalComponentPathResponse::CopyFrom(CVRMsg_Input_GetOriginalComponentPathResponse const&)
+CVRMsg_Input_GetOriginalComponentPathResponse::GetCachedSize() const
+CVRMsg_Input_GetOriginalComponentPathResponse::GetTypeName() const
+CVRMsg_Input_GetOriginalComponentPathResponse::InitAsDefaultInstance()
+CVRMsg_Input_GetOriginalComponentPathResponse::IsInitialized() const
+CVRMsg_Input_GetOriginalComponentPathResponse::MergeFrom(CVRMsg_Input_GetOriginalComponentPathResponse const&)
+CVRMsg_Input_GetOriginalComponentPathResponse::MergeFrom(CVRMsg_Input_GetOriginalComponentPathResponse const&) [clone .cold]
+CVRMsg_Input_GetOriginalComponentPathResponse::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
+CVRMsg_Input_GetOriginalComponentPathResponse::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) [clone .cold]
+CVRMsg_Input_GetOriginalComponentPathResponse::New() const
+CVRMsg_Input_GetOriginalComponentPathResponse::New() const [clone .cold]
+CVRMsg_Input_GetOriginalComponentPathResponse::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
+CVRMsg_Input_GetOriginalComponentPathResponse::SetCachedSize(int) const
+CVRMsg_Input_GetOriginalComponentPathResponse::SharedCtor()
+CVRMsg_Input_GetOriginalComponentPathResponse::SharedCtor() [clone .cold]
+CVRMsg_Input_GetOriginalComponentPathResponse::SharedDtor()
+CVRMsg_Input_GetOriginalComponentPathResponse::Swap(CVRMsg_Input_GetOriginalComponentPathResponse*)
+CVRMsg_Input_GetOriginalComponentPathResponse::default_instance()
+CVRMsg_Input_GetOriginalComponentPathResponse::default_instance_
+CVRMsg_Input_GetOriginalComponentPathResponse::mutable_original_component_path()
+CVRMsg_Input_GetOriginalComponentPathResponse::release_original_component_path()
+CVRMsg_Input_GetOriginalComponentPathResponse::set_allocated_original_component_path(std::string*)
+CVRMsg_Input_GetOriginalComponentPathResponse::set_original_component_path(char const*)
+CVRMsg_Input_GetOriginalComponentPathResponse::set_original_component_path(char const*, unsigned long)
+CVRMsg_Input_GetOriginalComponentPathResponse::set_original_component_path(std::string const&)
+CVRMsg_Input_GetOriginalComponentPathResponse::~CVRMsg_Input_GetOriginalComponentPathResponse()
 CVRMsg_Input_SetActionManifestPath
 CVRMsg_Input_SetActionManifestPath::ByteSize() const
 CVRMsg_Input_SetActionManifestPath::CVRMsg_Input_SetActionManifestPath()
@@ -10133,6 +10243,31 @@ CVRMsg_RegisterExternalWebRoot::set_path(char const*)
 CVRMsg_RegisterExternalWebRoot::set_path(char const*, unsigned long)
 CVRMsg_RegisterExternalWebRoot::set_path(std::string const&)
 CVRMsg_RegisterExternalWebRoot::~CVRMsg_RegisterExternalWebRoot()
+CVRMsg_RegisterExternalWebRootResponse
+CVRMsg_RegisterExternalWebRootResponse::ByteSize() const
+CVRMsg_RegisterExternalWebRootResponse::CVRMsg_RegisterExternalWebRootResponse()
+CVRMsg_RegisterExternalWebRootResponse::CVRMsg_RegisterExternalWebRootResponse(CVRMsg_RegisterExternalWebRootResponse const&)
+CVRMsg_RegisterExternalWebRootResponse::CVRMsg_RegisterExternalWebRootResponse(CVRMsg_RegisterExternalWebRootResponse const&) [clone .cold]
+CVRMsg_RegisterExternalWebRootResponse::CheckTypeAndMergeFrom(google::protobuf::MessageLite const&)
+CVRMsg_RegisterExternalWebRootResponse::Clear()
+CVRMsg_RegisterExternalWebRootResponse::CopyFrom(CVRMsg_RegisterExternalWebRootResponse const&)
+CVRMsg_RegisterExternalWebRootResponse::GetCachedSize() const
+CVRMsg_RegisterExternalWebRootResponse::GetTypeName() const
+CVRMsg_RegisterExternalWebRootResponse::InitAsDefaultInstance()
+CVRMsg_RegisterExternalWebRootResponse::IsInitialized() const
+CVRMsg_RegisterExternalWebRootResponse::MergeFrom(CVRMsg_RegisterExternalWebRootResponse const&)
+CVRMsg_RegisterExternalWebRootResponse::MergeFrom(CVRMsg_RegisterExternalWebRootResponse const&) [clone .cold]
+CVRMsg_RegisterExternalWebRootResponse::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
+CVRMsg_RegisterExternalWebRootResponse::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) [clone .cold]
+CVRMsg_RegisterExternalWebRootResponse::New() const
+CVRMsg_RegisterExternalWebRootResponse::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
+CVRMsg_RegisterExternalWebRootResponse::SetCachedSize(int) const
+CVRMsg_RegisterExternalWebRootResponse::SharedCtor()
+CVRMsg_RegisterExternalWebRootResponse::SharedDtor()
+CVRMsg_RegisterExternalWebRootResponse::Swap(CVRMsg_RegisterExternalWebRootResponse*)
+CVRMsg_RegisterExternalWebRootResponse::default_instance()
+CVRMsg_RegisterExternalWebRootResponse::default_instance_
+CVRMsg_RegisterExternalWebRootResponse::~CVRMsg_RegisterExternalWebRootResponse()
 CVRMsg_ReloadChaperone
 CVRMsg_ReloadChaperone::ByteSize() const
 CVRMsg_ReloadChaperone::CVRMsg_ReloadChaperone()
@@ -14874,8 +15009,8 @@ CVRSystemLatest::ClearHiddenAreaCache()
 CVRSystemLatest::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
 CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
 CVRSystemLatest::GetAppContainerFilePaths(char*, unsigned int)
-CVRSystemLatest::GetApplicationSpecificFovScale() const
-CVRSystemLatest::GetApplicationSpecificFovScale() const [clone .cold]
+CVRSystemLatest::GetApplicationSpecificFovScale(bool*) const
+CVRSystemLatest::GetApplicationSpecificFovScale(bool*) const [clone .cold]
 CVRSystemLatest::GetApplicationSpecificScaling()
 CVRSystemLatest::GetApplicationSpecificScaling() [clone .cold]
 CVRSystemLatest::GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
@@ -14927,8 +15062,8 @@ CVRSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int,
 CVRSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 CVRSystemLatest::GetProjectionMatrix(vr::EVREye, float, float)
 CVRSystemLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
-CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, float)
-CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, float) [clone .cold]
+CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, float, bool)
+CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, float, bool) [clone .cold]
 CVRSystemLatest::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
 CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
 CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float) [clone .cold]
@@ -14973,7 +15108,6 @@ CVRSystemLatest::IsTrackedDeviceConnected(unsigned int)
 CVRSystemLatest::IsTrackedDeviceValid(unsigned int)
 CVRSystemLatest::IsTrackedDeviceValid(unsigned int) [clone .part.0]
 CVRSystemLatest::OnDestroyOverlay(unsigned long)
-CVRSystemLatest::OnStartDesktopGameTheater(unsigned long)
 CVRSystemLatest::PerformFirmwareUpdate(unsigned int)
 CVRSystemLatest::PollNextEvent(vr::VREvent_t*, unsigned int)
 CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned int*)
@@ -14999,8 +15133,8 @@ CVRSystemLatest::RegisterInterface(char const*, void*)
 CVRSystemLatest::RemoveSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
 CVRSystemLatest::RemoveSystemBehaviorFlag(EVRInternalSystemBehaviorFlags) [clone .cold]
 CVRSystemLatest::ReprojectVertices(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t const&, unsigned int, vr::HmdVector2_t const*, vr::HmdVector2_t*)
-CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, float)
-CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, float) [clone .part.0]
+CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, float, bool)
+CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, float, bool) [clone .part.0]
 CVRSystemLatest::SetCompositorError(vr::EVRInitError)
 CVRSystemLatest::SetCompositorError(vr::EVRInitError) [clone .cold]
 CVRSystemLatest::SetDisplayVisibility(bool)
@@ -16501,7 +16635,7 @@ Comment=URI handler for
 Committed chaperone working copy
 CompareTrackedDeviceEntry(void const*, void const*)
 Completed
-ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>::CreateAdapter(void*, std::string const&)
+ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>::CreateAdapter(void*, std::string const&)
 ComposeDpadInputPath(std::string, std::string, std::string, std::string)
 ComposeDpadInputPath(std::string, std::string, std::string, std::string) [clone .cold]
 ComposeLayerProjection
@@ -16778,6 +16912,13 @@ EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
 EXPOSURE=          1.0000000000000-Y %d +X %d
+EXRHandleType GetXRHandleType<XrActionSet_T*>()
+EXRHandleType GetXRHandleType<XrAction_T*>()
+EXRHandleType GetXRHandleType<XrHandTrackerEXT_T*>()
+EXRHandleType GetXRHandleType<XrInstance_T*>()
+EXRHandleType GetXRHandleType<XrSession_T*>()
+EXRHandleType GetXRHandleType<XrSpace_T*>()
+EXRHandleType GetXRHandleType<XrSwapchain_T*>()
 EXTRASYSCONFDIR
 Element in "action_sets" is not a string
 Empty escape sequence in string
@@ -17061,7 +17202,6 @@ Fatal
 Fatal : VkResult is "
 FbcE
 Feb
-Feb  1 2024
 February
 File %s not found
 File Not Found (103)
@@ -17080,6 +17220,10 @@ FillPipeAddr(sockaddr_un&, std::string)
 FillPipeAddr(sockaddr_un&, std::string) [clone .cold]
 FillPipeAddr(sockaddr_un&, std::string)::sPrefix
 Filter list was too gnarly. Not sorting the last %d filters
+FilterInputSourceName: Default flip: %s::%s
+FilterInputSourceName: Explicit flip: %s::%s
+FilterInputSourceName: No flip: %s
+FilterInputSourceName: m_eDominantHand(%d) != left.  skip:%s
 FindActionSetLocalizedString(std::string const&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&, std::string const&)
 FindAppByKey(VRApplicationsState_t const*, char const*)
 FindAppByProcessId(VRApplicationsState_t const*, unsigned int)
@@ -17442,7 +17586,6 @@ Global\VRBootstrapper
 GpuSpeed
 Grip
 H
-HB
 HMD
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -20126,6 +20269,7 @@ IVRSettings_002_FnTable_SetString(char const*, char const*, char const*, vr::EVR
 IVRSettings_002_FnTable_Sync(bool, vr::EVRSettingsError*)
 IVRSettings_003
 IVRSpatialAnchors_001
+IVRSteamPrivate_
 IVRSteamPrivate_001
 IVRSteamPrivate_002
 IVRSteamPrivate_003
@@ -21528,6 +21672,7 @@ MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
 Map
 Mar
+Mar 11 2024
 March
 MarkInUse
 MaterialUtf8FileReader::operator()(std::string const&, std::vector<tinyobj::material_t, std::allocator<tinyobj::material_t> >&, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >&)
@@ -21984,13 +22129,6 @@ OverlayViewInterfaceRegistration<CVROverlayView_002>::~OverlayViewInterfaceRegis
 OxrApiLayer_t& std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t> >::emplace_back<OxrApiLayer_t>(OxrApiLayer_t&&)
 OxrApiLayer_t::~OxrApiLayer_t()
 P
-P10XrAction_T
-P11XrSession_T
-P12XrInstance_T
-P13XrActionSet_T
-P13XrSwapchain_T
-P18XrHandTrackerEXT_T
-P9XrSpace_T
 P@
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08lx
@@ -22467,8 +22605,10 @@ RenderModelsInterfaceRegistration<CVRRenderModels_005>::GetInterface()
 RenderModelsInterfaceRegistration<CVRRenderModels_005>::~RenderModelsInterfaceRegistration()
 RenderStart
 RendermodelManager: 'components' json entry must be key/value map
+RendermodelManager: Failed GetOriginalComponentPath(%lu, %s, %s)
+RendermodelManager: Finished setting up render model template: %s.
 RendermodelManager: Model info file %s was empty.
-RendermodelManager: Reading data from %s
+RendermodelManager: Reading data for: '%s' from '%s'
 RendermodelManager: Unable to parse %s: %s
 RendermodelManager: name=%s inputRouting=%d filename=%s
 RendermodelManager: unsupported motion type: %s. { allowed: none, rotate, translate, trackpad }
@@ -23926,9 +24066,12 @@ VRMsg_Input_GetActionBindings
 VRMsg_Input_GetActionBindingsResponse
 VRMsg_Input_GetOriginLocalizedName
 VRMsg_Input_GetOriginLocalizedNameResponse
+VRMsg_Input_GetOriginalComponentPath
+VRMsg_Input_GetOriginalComponentPathResponse
 VRMsg_Input_SetActionManifestPath
 VRMsg_Input_SetActionManifestPathResponse
 VRMsg_Input_SetXrInputConfig
+VRMsg_Input_SetXrInputConfigResponse
 VRMsg_LaunchApplication
 VRMsg_LaunchApplicationResponse
 VRMsg_LaunchInternalProcess
@@ -23948,6 +24091,7 @@ VRMsg_PrismPrioritySet
 VRMsg_QuitProcessRequest
 VRMsg_QuitProcessResponse
 VRMsg_RegisterExternalWebRoot
+VRMsg_RegisterExternalWebRootResponse
 VRMsg_ReloadChaperone
 VRMsg_RemoveApplicationManifest
 VRMsg_RemoveApplicationManifestResponse
@@ -24823,12 +24967,25 @@ XR_ERROR_INSUFFICIENT_RESOURCES_PASSTHROUGH_FB
 XR_ERROR_LAYER_INVALID
 XR_ERROR_LAYER_LIMIT_EXCEEDED
 XR_ERROR_LIMIT_REACHED
+XR_ERROR_LOCALIZATION_MAP_ALREADY_EXISTS_ML
+XR_ERROR_LOCALIZATION_MAP_CANNOT_EXPORT_CLOUD_MAP_ML
+XR_ERROR_LOCALIZATION_MAP_FAIL_ML
+XR_ERROR_LOCALIZATION_MAP_IMPORT_EXPORT_PERMISSION_DENIED_ML
+XR_ERROR_LOCALIZATION_MAP_INCOMPATIBLE_ML
+XR_ERROR_LOCALIZATION_MAP_PERMISSION_DENIED_ML
+XR_ERROR_LOCALIZATION_MAP_UNAVAILABLE_ML
 XR_ERROR_LOCALIZED_NAME_DUPLICATED
 XR_ERROR_LOCALIZED_NAME_INVALID
+XR_ERROR_MARKER_DETECTOR_INVALID_CREATE_INFO_ML
+XR_ERROR_MARKER_DETECTOR_INVALID_DATA_QUERY_ML
+XR_ERROR_MARKER_DETECTOR_LOCATE_FAILED_ML
+XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
 XR_ERROR_MARKER_ID_INVALID_VARJO
+XR_ERROR_MARKER_INVALID_ML
 XR_ERROR_MARKER_NOT_TRACKED_VARJO
 XR_ERROR_NAME_DUPLICATED
 XR_ERROR_NAME_INVALID
+XR_ERROR_NOT_AN_ANCHOR_HTC
 XR_ERROR_NOT_PERMITTED_PASSTHROUGH_FB
 XR_ERROR_OUT_OF_MEMORY
 XR_ERROR_PASSTHROUGH_COLOR_LUT_BUFFER_SIZE_MISMATCH_META
@@ -24903,6 +25060,7 @@ XR_MNDX_egl_enable
 XR_MND_headless
 XR_RENDER_MODEL_UNAVAILABLE_FB
 XR_RESULT_MAX_ENUM
+XR_SCENE_MARKER_DATA_NOT_STRING_MSFT
 XR_SESSION_LOSS_PENDING
 XR_SESSION_NOT_FOCUSED
 XR_SESSION_STATE_EXITING
@@ -24974,8 +25132,11 @@ XR_TYPE_DIGITAL_LENS_CONTROL_ALMALENCE
 XR_TYPE_EVENT_DATA_BUFFER
 XR_TYPE_EVENT_DATA_DISPLAY_REFRESH_RATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_EVENTS_LOST
+XR_TYPE_EVENT_DATA_EYE_CALIBRATION_CHANGED_ML
+XR_TYPE_EVENT_DATA_HEADSET_FIT_CHANGED_ML
 XR_TYPE_EVENT_DATA_INSTANCE_LOSS_PENDING
 XR_TYPE_EVENT_DATA_INTERACTION_PROFILE_CHANGED
+XR_TYPE_EVENT_DATA_LOCALIZATION_CHANGED_ML
 XR_TYPE_EVENT_DATA_MAIN_SESSION_VISIBILITY_CHANGED_EXTX
 XR_TYPE_EVENT_DATA_MARKER_TRACKING_UPDATE_VARJO
 XR_TYPE_EVENT_DATA_PASSTHROUGH_STATE_CHANGED_FB
@@ -25019,7 +25180,6 @@ XR_TYPE_FOVEATION_EYE_TRACKED_STATE_META
 XR_TYPE_FOVEATION_LEVEL_PROFILE_CREATE_INFO_FB
 XR_TYPE_FOVEATION_PROFILE_CREATE_INFO_FB
 XR_TYPE_FRAME_BEGIN_INFO
-XR_TYPE_FRAME_COMPOSITION_REPORT_EXT
 XR_TYPE_FRAME_END_INFO
 XR_TYPE_FRAME_END_INFO_ML
 XR_TYPE_FRAME_STATE
@@ -25072,7 +25232,19 @@ XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
+XR_TYPE_LOCALIZATION_ENABLE_EVENTS_INFO_ML
+XR_TYPE_LOCALIZATION_MAP_IMPORT_INFO_ML
+XR_TYPE_LOCALIZATION_MAP_ML
 XR_TYPE_LOCAL_DIMMING_FRAME_END_INFO_META
+XR_TYPE_MAP_LOCALIZATION_REQUEST_INFO_ML
+XR_TYPE_MARKER_DETECTOR_APRIL_TAG_INFO_ML
+XR_TYPE_MARKER_DETECTOR_ARUCO_INFO_ML
+XR_TYPE_MARKER_DETECTOR_CREATE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_CUSTOM_PROFILE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_SIZE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_SNAPSHOT_INFO_ML
+XR_TYPE_MARKER_DETECTOR_STATE_ML
+XR_TYPE_MARKER_SPACE_CREATE_INFO_ML
 XR_TYPE_MARKER_SPACE_CREATE_INFO_VARJO
 XR_TYPE_NEW_SCENE_COMPUTE_INFO_MSFT
 XR_TYPE_PASSTHROUGH_BRIGHTNESS_CONTRAST_SATURATION_FB
@@ -25113,6 +25285,9 @@ XR_TYPE_SCENE_COMPONENT_LOCATIONS_MSFT
 XR_TYPE_SCENE_COMPONENT_PARENT_FILTER_INFO_MSFT
 XR_TYPE_SCENE_CREATE_INFO_MSFT
 XR_TYPE_SCENE_DESERIALIZE_INFO_MSFT
+XR_TYPE_SCENE_MARKERS_MSFT
+XR_TYPE_SCENE_MARKER_QR_CODES_MSFT
+XR_TYPE_SCENE_MARKER_TYPE_FILTER_MSFT
 XR_TYPE_SCENE_MESHES_MSFT
 XR_TYPE_SCENE_MESH_BUFFERS_GET_INFO_MSFT
 XR_TYPE_SCENE_MESH_BUFFERS_MSFT
@@ -25153,6 +25328,7 @@ XR_TYPE_SPACE_USER_CREATE_INFO_FB
 XR_TYPE_SPACE_UUID_FILTER_INFO_FB
 XR_TYPE_SPACE_VELOCITY
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_FB
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_HTC
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_FROM_PERSISTED_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_PERSISTENCE_INFO_MSFT
@@ -25176,6 +25352,7 @@ XR_TYPE_SWAPCHAIN_STATE_ANDROID_SURFACE_DIMENSIONS_FB
 XR_TYPE_SWAPCHAIN_STATE_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_OPENGL_ES_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_VULKAN_FB
+XR_TYPE_SYSTEM_ANCHOR_PROPERTIES_HTC
 XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_COLOR_SPACE_PROPERTIES_FB
 XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT
@@ -25191,6 +25368,7 @@ XR_TYPE_SYSTEM_HAND_TRACKING_PROPERTIES_EXT
 XR_TYPE_SYSTEM_HEADSET_ID_PROPERTIES_META
 XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
+XR_TYPE_SYSTEM_MARKER_UNDERSTANDING_PROPERTIES_ML
 XR_TYPE_SYSTEM_PASSTHROUGH_COLOR_LUT_PROPERTIES_META
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES2_FB
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
@@ -25202,6 +25380,7 @@ XR_TYPE_SYSTEM_SPATIAL_ENTITY_PROPERTIES_FB
 XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
 XR_TYPE_UNKNOWN
+XR_TYPE_USER_CALIBRATION_ENABLE_EVENTS_INFO_ML
 XR_TYPE_VIEW
 XR_TYPE_VIEW_CONFIGURATION_DEPTH_RANGE_EXT
 XR_TYPE_VIEW_CONFIGURATION_PROPERTIES
@@ -25321,6 +25500,7 @@ Z
 [Input] Attempting to load initial input config
 [Input] Binding path for haptic action %s could not be read: %s
 [Input] Binding path for haptic action %s resulted in property type tag %u instead of %u
+[Input] ClearXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
 [Input] DecompressSkeletalBoneData failed. Array for decompressed transforms is too small. Needed %u. Got %u
 [Input] DecompressSkeletalBoneData failed. Compressed skeleton buffer invalid for skeleton %s
 [Input] DecompressSkeletalBoneData failed. Invalid data
@@ -25401,6 +25581,12 @@ Z
 [Input] GetOriginTrackedDeviceInfo failed. pOriginInfo is invalid.
 [Input] GetOriginTrackedDeviceInfo failed. ulActionHandle is invalid.
 [Input] GetOriginTrackedDeviceInfo failed. unOriginInfoSize incorrect size. Got: %u. Expected: %zu.
+[Input] GetOriginalComponentPath failed with error code: %d.
+[Input] GetOriginalComponentPath failed. Device does not exist.
+[Input] GetOriginalComponentPath failed. Device does not have a valid role.
+[Input] GetOriginalComponentPath failed. Did not get response from VRMsg_Input_GetOriginalComponentPath quick enough.
+[Input] GetOriginalComponentPath: Non-critical failure. No binding for device container %lx. Type / Container list:
+[Input] GetPathFromControllerRole failed. No path for role: %d
 [Input] GetPoseActionDataRelativeToNow failed. Action data size parameter was incorrect. Got: %u. Wanted: %zu
 [Input] GetPoseActionDataRelativeToNow failed. Action is of the wrong type.
 [Input] GetPoseActionDataRelativeToNow failed. Device does not exist.
@@ -25605,6 +25791,7 @@ _GLOBAL__sub_I_inputprofileloader.cpp.cold
 _GLOBAL__sub_I_interface_adapters_client.cpp
 _GLOBAL__sub_I_interface_adapters_client.cpp.cold
 _GLOBAL__sub_I_ipcpipe.cpp
+_GLOBAL__sub_I_ipcresourcemanager.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp.cold
 _GLOBAL__sub_I_keyframesamplerposeoperation.cpp
@@ -25905,7 +26092,7 @@ __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operato
 __gnu_cxx::__freeres()
 __gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > > std::__find_if<__gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > >, __gnu_cxx::__ops::_Iter_equals_val<CSxrDeletableBase* const> >(__gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > >, __gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > >, __gnu_cxx::__ops::_Iter_equals_val<CSxrDeletableBase* const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > > std::__find_if<__gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > >, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}> >(__gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, std::random_access_iterator_tag) [clone .isra.0]
-__gnu_cxx::__normal_iterator<char const*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> > >(__gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, std::random_access_iterator_tag) [clone .isra.0]
+__gnu_cxx::__normal_iterator<char const*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetBaseModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> > >(__gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetBaseModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetBaseModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetBaseModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, std::random_access_iterator_tag) [clone .isra.0]
 __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::__unique<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
 __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
@@ -26093,7 +26280,6 @@ adds.9432
 alert
 alias_info
 alias_info field exists, but it is not an object
-alias_name
 alignof
 allocator
 allowComments
@@ -26399,6 +26585,7 @@ bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_GetDisplayInfoResponse>(unsigned in
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_GetDriverDetailResponse>(unsigned int, unsigned int, CVRMsg_GetDriverDetailResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_GetDriverInfoResponse>(unsigned int, unsigned int, CVRMsg_GetDriverInfoResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_GetActionBindingsResponse>(unsigned int, unsigned int, CVRMsg_Input_GetActionBindingsResponse&, unsigned int)
+bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_GetOriginalComponentPathResponse>(unsigned int, unsigned int, CVRMsg_Input_GetOriginalComponentPathResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetActionManifestPathResponse>(unsigned int, unsigned int, CVRMsg_Input_SetActionManifestPathResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetXrInputConfigResponse>(unsigned int, unsigned int, CVRMsg_Input_SetXrInputConfigResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_LaunchApplicationForMimeTypeResponse>(unsigned int, unsigned int, CVRMsg_LaunchApplicationForMimeTypeResponse&, unsigned int)
@@ -26409,6 +26596,7 @@ bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Path_HandleToStringResponse>(unsign
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Path_StringToHandleResponse>(unsigned int, unsigned int, CVRMsg_Path_StringToHandleResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_PerformApplicationPrelaunchCheckResponse>(unsigned int, unsigned int, CVRMsg_PerformApplicationPrelaunchCheckResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_QuitProcessResponse>(unsigned int, unsigned int, CVRMsg_QuitProcessResponse&, unsigned int)
+bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_RegisterExternalWebRootResponse>(unsigned int, unsigned int, CVRMsg_RegisterExternalWebRootResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_SetApplicationOptionsResponse>(unsigned int, unsigned int, CVRMsg_SetApplicationOptionsResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_SetApplicationProcessIdResponse>(unsigned int, unsigned int, CVRMsg_SetApplicationProcessIdResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_SetDefaultApplicationForMimeTypeResponse>(unsigned int, unsigned int, CVRMsg_SetDefaultApplicationForMimeTypeResponse&, unsigned int)
@@ -26441,7 +26629,6 @@ bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_StopVideoStreamRespon
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_UpdateChaperoneUniverseResponse>(unsigned int, unsigned int, CVRMsg_UpdateChaperoneUniverseResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_WritePropertyDataToFileResponse>(unsigned int, unsigned int, CVRMsg_WritePropertyDataToFileResponse&, unsigned int)
 bool CIPCPipe::SendProtobufMessage<CVRMsg_DriverDebugRequest>(unsigned int, unsigned int, CVRMsg_DriverDebugRequest const&)
-bool CIPCPipe::SendProtobufMessage<CVRMsg_Input_SetXrInputConfig>(unsigned int, unsigned int, CVRMsg_Input_SetXrInputConfig const&)
 bool CSettingsValue::Set<bool>(bool const&)
 bool CSettingsValue::Set<double>(double const&)
 bool CSettingsValue::Set<std::string>(std::string const&)
@@ -26697,10 +26884,9 @@ covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
 create
-cryptor::string_encryptor<16ul>::decrypt() const
 cryptor::string_encryptor<3ul>::decrypt() const
 cryptor::string_encryptor<7ul>::decrypt() const
-cs_cs
+cs_cz
 cursor_index
 czech
 d
@@ -26748,7 +26934,7 @@ d_type
 d_type.cold
 d_unqualified_name
 da
-da_da
+da_dk
 danish
 dashboard
 dashboard_overlay_created
@@ -26878,6 +27064,7 @@ ds
 dt
 dup
 duration
+dutch
 dv
 dynamic_cast
 e
@@ -26892,7 +27079,7 @@ eglGetProcAddress
 eglMakeCurrent
 eglQueryContext
 eight
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 en_US
@@ -27177,6 +27364,7 @@ fork
 form-feed
 four
 fovScale
+fovScaleLetterboxed
 fprintf
 fputc
 fputs
@@ -27777,21 +27965,18 @@ guard variable for AddDpadPaths(std::string, std::string, std::string, bool, std
 guard variable for AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
 guard variable for BInitializeLogging()::s_LogMutex
 guard variable for BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
-guard variable for CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputALen
-guard variable for CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputBLen
-guard variable for CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputXLen
-guard variable for CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputYLen
 guard variable for CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftLen
 guard variable for CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unRightLen
 guard variable for CDownsampleRenderer::Draw(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*, void*, bool, bool, unsigned int)::s_flBeginTime
 guard variable for CDriverManager::GetDriverName(unsigned int) const::strEmpty
+guard variable for CHmdSystemLatest::ForwardLogMessageToServer(unsigned long, char const*, unsigned int, unsigned int, char const*)::s_nForwardingLogMessageToServer
 guard variable for CHmdSystemLatest::GetVRStartupReason()::k_pathStartupReason
 guard variable for CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
 guard variable for CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)::k_pathTrackerRole
 guard variable for CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
 guard variable for CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
-guard variable for CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputJoystick
-guard variable for CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputSystem
+guard variable for CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputJoystick
+guard variable for CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputSystem
 guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
 guard variable for CSettingsManager::GetDefaultValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
 guard variable for CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -28197,8 +28382,8 @@ khr_simple_controller
 kill
 knuckles
 knuckles_ev1
-ko_ko
-korean
+ko_kr
+koreana
 l
 lS
 language_tag
@@ -28249,6 +28434,7 @@ ll
 loadPriority
 loadedDevice
 loadedInstance
+loadedModule
 locale::_Impl::_M_replace_facet
 locale::_S_normalize_category category not found
 locale::facet::_S_create_c_locale name not valid
@@ -28366,6 +28552,9 @@ minFilter
 minVersion
 minimum_required_version
 mirror_actions
+mirror_mappings
+mirror_mappings field exists, but it is not an array
+mirror_mappings has an element that is not two strings.
 missing
 missing binding_url in default binding
 missing color table
@@ -28403,6 +28592,7 @@ nSizeInBytes <= m_unSizeInBytes
 na
 name
 nanosleep
+nb_no
 ne
 new
 new[]
@@ -28413,6 +28603,7 @@ next_is_type_qual.isra.0
 nfinity
 ng
 nine
+nl_nl
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::operator[]<char const>(char const*)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<bool&>(bool&)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >(nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&&)
@@ -28488,7 +28679,6 @@ no SOI
 no clear code
 no header height
 no preset dict
-no_no
 node
 nodes
 noexcept
@@ -28523,6 +28713,8 @@ non-virtual thunk to CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigne
 non-virtual thunk to CHmdSystemLatest::GetIPCResourceManagerClient()
 non-virtual thunk to CHmdSystemLatest::GetLatestEyePose(vr::VREyeTrackingState_Pose_t*)
 non-virtual thunk to CHmdSystemLatest::GetLegacyInput()
+non-virtual thunk to CHmdSystemLatest::GetMutualSteamCapabilities(bool*, unsigned int)
+non-virtual thunk to CHmdSystemLatest::GetOriginalComponentPath(unsigned long, std::string const&, std::string&)
 non-virtual thunk to CHmdSystemLatest::GetPaths()
 non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 non-virtual thunk to CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -28540,6 +28732,7 @@ non-virtual thunk to CHmdSystemLatest::GetVRRenderModels()
 non-virtual thunk to CHmdSystemLatest::GetVRStartupReason()
 non-virtual thunk to CHmdSystemLatest::GetVRSystem()
 non-virtual thunk to CHmdSystemLatest::GetWebSharedSecret()
+non-virtual thunk to CHmdSystemLatest::IsDeviceRenderModelSimulated(unsigned long)
 non-virtual thunk to CHmdSystemLatest::IsSystemProcess()
 non-virtual thunk to CHmdSystemLatest::LogMessage(unsigned long, char const*, unsigned int, ELogLevel, char const*)
 non-virtual thunk to CHmdSystemLatest::NextSGID()
@@ -28594,6 +28787,7 @@ non-virtual thunk to CPropertyManager::CreatePropertyContainer(unsigned long)
 non-virtual thunk to CPropertyManager::DestroyPropertyContainer(unsigned long)
 non-virtual thunk to CPropertyManager::ReleaseFixedSizeContainer(unsigned long)
 non-virtual thunk to CRenderModelManager::ClearCache()
+non-virtual thunk to CRenderModelManager::ClearDeviceCache()
 non-virtual thunk to CRenderModelManager::FindComponentForInputState(char const*, unsigned long, char*, unsigned int)
 non-virtual thunk to CRenderModelManager::GetComponentState(char const*, char const*, unsigned long, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
 non-virtual thunk to CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
@@ -28721,16 +28915,11 @@ non-virtual thunk to CVRChaperoneClient::SetWorkingPlayAreaSize(float, float)
 non-virtual thunk to CVRChaperoneClient::SetWorkingSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 non-virtual thunk to CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 non-virtual thunk to CVRChaperoneClient::ShowWorkingSetPreview()
-non-virtual thunk to CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*)
-non-virtual thunk to CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*)
-non-virtual thunk to CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*)
 non-virtual thunk to CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 non-virtual thunk to CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameInfo_t*)
-non-virtual thunk to CVRCompositorClient::RefResource(unsigned long, unsigned long*)
 non-virtual thunk to CVRCompositorClient::RenderStart()
 non-virtual thunk to CVRCompositorClient::ResetRenderedFramePredictions()
 non-virtual thunk to CVRCompositorClient::SubmitEye(vr::EVREye, unsigned int, vr::VRTextureWithPose_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
-non-virtual thunk to CVRCompositorClient::UnrefResource(unsigned long)
 non-virtual thunk to CVRCompositorClient::~CVRCompositorClient()
 non-virtual thunk to CVRControllerComponent_Latest::GetControllerState()
 non-virtual thunk to CVRControllerComponent_Latest::TriggerHapticPulse(unsigned int, unsigned short)
@@ -28780,8 +28969,15 @@ non-virtual thunk to CVRDriverDirectModeComponent_007::DestroySwapTextureSet(uns
 non-virtual thunk to CVRDriverDirectModeComponent_007::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
 non-virtual thunk to CVRDriverDirectModeComponent_007::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2])
 non-virtual thunk to CVRDriverDirectModeComponent_007::Present(unsigned long)
-non-virtual thunk to CVRDriverDirectModeComponent_007::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
 non-virtual thunk to CVRDriverDirectModeComponent_007::~CVRDriverDirectModeComponent_007()
+non-virtual thunk to CVRDriverDirectModeComponent_008::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+non-virtual thunk to CVRDriverDirectModeComponent_008::DestroyAllSwapTextureSets(unsigned int)
+non-virtual thunk to CVRDriverDirectModeComponent_008::DestroySwapTextureSet(unsigned long)
+non-virtual thunk to CVRDriverDirectModeComponent_008::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+non-virtual thunk to CVRDriverDirectModeComponent_008::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2])
+non-virtual thunk to CVRDriverDirectModeComponent_008::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+non-virtual thunk to CVRDriverDirectModeComponent_008::Present(unsigned long)
+non-virtual thunk to CVRDriverDirectModeComponent_008::~CVRDriverDirectModeComponent_008()
 non-virtual thunk to CVRDriverDirectModeComponent_Latest::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
 non-virtual thunk to CVRDriverDirectModeComponent_Latest::DestroyAllSwapTextureSets(unsigned int)
 non-virtual thunk to CVRDriverDirectModeComponent_Latest::DestroySwapTextureSet(unsigned long)
@@ -28797,12 +28993,14 @@ non-virtual thunk to CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigne
 non-virtual thunk to CVRInputLatest::GetBestXrInteractionProfile(unsigned long)
 non-virtual thunk to CVRInputLatest::GetCurrentFrameTime() const
 non-virtual thunk to CVRInputLatest::GetHandPose(vr::EVRHandSide, float, vr::TrackedDevicePose_t*)
+non-virtual thunk to CVRInputLatest::GetOriginalComponentPath(unsigned long, std::string const&, std::string&)
 non-virtual thunk to CVRInputLatest::GetPerInputTutorialActions(char const*, unsigned long*, vr::PerInputTutorialActions_t*, unsigned int)
 non-virtual thunk to CVRInputLatest::GetPoseModification(unsigned long, vr::HmdMatrix34_t*)
 non-virtual thunk to CVRInputLatest::GetPoseModificationFromPath(unsigned long, vr::HmdMatrix34_t*, unsigned int*)
 non-virtual thunk to CVRInputLatest::GetPoseModificationRestricted(unsigned long, vr::HmdMatrix34_t*, unsigned long)
 non-virtual thunk to CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)
 non-virtual thunk to CVRInputLatest::IsActionBound(unsigned long)
+non-virtual thunk to CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long)
 non-virtual thunk to CVRInputLatest::IsInTutorialMode()
 non-virtual thunk to CVRInputLatest::SetInTutorialMode(bool)
 non-virtual thunk to CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
@@ -28917,6 +29115,7 @@ notifications
 nt
 null
 null literal
+nullProcAddrStub
 num_buttons
 number
 number literal
@@ -29850,10 +30049,9 @@ std::_Deque_base<long, std::allocator<long> >::~_Deque_base()
 std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::~_Deque_base()
 std::_Deque_base<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> >::~_Deque_base()
 std::_Fnv_hash_bytes(void const*, unsigned long, unsigned long)
-std::_Function_base::_Base_manager<CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}> const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#3}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#3}> const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<CHmdSystemLatest::InitCompositorImplementations()::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::InitCompositorImplementations()::{lambda(char const*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}> const&, std::_Manager_operation)
@@ -29948,12 +30146,15 @@ std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessage
 std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_invoke(std::_Any_data const&, Json::Value const&) [clone .cold]
 std::_Function_handler<void (Json::Value const&), std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_invoke(std::_Any_data const&, Json::Value const&)
 std::_Function_handler<void (char const*, char const*, unsigned int, bool, void*, bool*), void (*)(char const*, char const*, unsigned int, bool, void*, bool*)>::_M_invoke(std::_Any_data const&, char const*&&, char const*&&, unsigned int&&, bool&&, void*&&, bool*&&)
-std::_Function_handler<void* (char const*), CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}>::_M_invoke(std::_Any_data const&, char const*&&)
 std::_Function_handler<void* (char const*), CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#1}>::_M_invoke(std::_Any_data const&, char const*&&)
 std::_Function_handler<void* (char const*), CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}>::_M_invoke(std::_Any_data const&, char const*&&)
-std::_Function_handler<void* (char const*), CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#3}>::_M_invoke(std::_Any_data const&, char const*&&)
+std::_Function_handler<void* (char const*), CHmdSystemLatest::InitCompositorImplementations()::{lambda(char const*)#1}>::_M_invoke(std::_Any_data const&, char const*&&)
 std::_Function_handler<void* (char const*), InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_invoke(std::_Any_data const&, char const*&&)
 std::_Hash_bytes(void const*, unsigned long, unsigned long)
+std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData> >, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<EXRHandleType const, ChildData>, false>*, unsigned long)
+std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData> >, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData> >, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::count(EXRHandleType const&) const
+std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData> >, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::~_Hashtable()
 std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, XrViewConfigurationType const&, unsigned long) const
 std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, true>*, unsigned long)
 std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
@@ -29986,10 +30187,6 @@ std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::a
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find(std::string const&)
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
-std::_Hashtable<std::type_index, std::pair<std::type_index const, ChildData>, std::allocator<std::pair<std::type_index const, ChildData> >, std::__detail::_Select1st, std::equal_to<std::type_index>, std::hash<std::type_index>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::type_index const, ChildData>, false>*, unsigned long)
-std::_Hashtable<std::type_index, std::pair<std::type_index const, ChildData>, std::allocator<std::pair<std::type_index const, ChildData> >, std::__detail::_Select1st, std::equal_to<std::type_index>, std::hash<std::type_index>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
-std::_Hashtable<std::type_index, std::pair<std::type_index const, ChildData>, std::allocator<std::pair<std::type_index const, ChildData> >, std::__detail::_Select1st, std::equal_to<std::type_index>, std::hash<std::type_index>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::count(std::type_index const&) const
-std::_Hashtable<std::type_index, std::pair<std::type_index const, ChildData>, std::allocator<std::pair<std::type_index const, ChildData> >, std::__detail::_Select1st, std::equal_to<std::type_index>, std::hash<std::type_index>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::~_Hashtable()
 std::_Hashtable<unsigned long, std::pair<unsigned long const, std::string>, std::allocator<std::pair<unsigned long const, std::string> >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned long const, std::string>, false>*, unsigned long)
 std::_Hashtable<unsigned long, std::pair<unsigned long const, std::string>, std::allocator<std::pair<unsigned long const, std::string> >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<unsigned long, std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, std::allocator<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > > >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, false>*, unsigned long)
@@ -30061,8 +30258,6 @@ std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::stri
 std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> >, std::pair<std::string, std::string> const&)
 std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> > >::_M_get_insert_unique_pos(std::pair<std::string, std::string> const&)
 std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingAliasInfo>, std::_Select1st<std::pair<std::string const, CActionBindingAliasInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingAliasInfo> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, CActionBindingAliasInfo> >*)
-std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingAliasInfo>, std::_Select1st<std::pair<std::string const, CActionBindingAliasInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingAliasInfo> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingAliasInfo> >, std::string const&)
-std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingAliasInfo>, std::_Select1st<std::pair<std::string const, CActionBindingAliasInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingAliasInfo> > >::_M_get_insert_unique_pos(std::string const&)
 std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingAliasInfo>, std::_Select1st<std::pair<std::string const, CActionBindingAliasInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingAliasInfo> > >::operator=(std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingAliasInfo>, std::_Select1st<std::pair<std::string const, CActionBindingAliasInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingAliasInfo> > > const&)
 std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >*)
 std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::_M_get_insert_unique_pos(std::string const&)
@@ -30187,6 +30382,9 @@ std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::set<XrActionTyp
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > >, std::_Select1st<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > > >::_M_get_insert_unique_pos(unsigned long const&)
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::shared_ptr<CBlockQueue> >, std::_Select1st<std::pair<unsigned long const, std::shared_ptr<CBlockQueue> > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::shared_ptr<CBlockQueue> > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, std::shared_ptr<CBlockQueue> > >*)
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::shared_ptr<CBlockQueue> >, std::_Select1st<std::pair<unsigned long const, std::shared_ptr<CBlockQueue> > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::shared_ptr<CBlockQueue> > > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::shared_ptr<CBlockQueue> > >)
+std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> >, std::_Select1st<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >*)
+std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> >, std::_Select1st<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >, unsigned long const&)
+std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> >, std::_Select1st<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > > >::_M_get_insert_unique_pos(unsigned long const&)
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::string>, std::_Select1st<std::pair<unsigned long const, std::string> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, std::string> >*)
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > >, std::_Select1st<std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >*)
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > >, std::_Select1st<std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > >*)
@@ -30242,7 +30440,6 @@ std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRM
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> > std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> >, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response> > std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response> >, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> > std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response> >, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingAliasInfo> > std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingAliasInfo>, std::_Select1st<std::pair<std::string const, CActionBindingAliasInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingAliasInfo> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingAliasInfo> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&) [clone .isra.0]
 std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&) [clone .isra.0] [clone .cold]
 std::_Rb_tree_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> > std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
@@ -31203,6 +31400,7 @@ std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>,
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_main_dispatch(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, std::integral_constant<bool, true>) [clone .isra.0] [clone .constprop.0]
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, long)
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::~_Executor()
+std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<EXRHandleType const, ChildData>, false> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::pair<int, int> const, unsigned int>, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
@@ -31210,7 +31408,6 @@ std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pa
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true>*) [clone .isra.0]
-std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::type_index const, ChildData>, false> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<unsigned long const, std::string>, false> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, false> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, false>*) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<unsigned long const, vr::IVRExternalProperties*>, false> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
@@ -31220,12 +31417,12 @@ std::__detail::_List_node_base::_M_reverse()
 std::__detail::_List_node_base::_M_transfer(std::__detail::_List_node_base*, std::__detail::_List_node_base*)
 std::__detail::_List_node_base::_M_unhook()
 std::__detail::_List_node_base::swap(std::__detail::_List_node_base&, std::__detail::_List_node_base&)
+std::__detail::_Map_base<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData> >, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](EXRHandleType const&)
 std::__detail::_Map_base<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](XrViewConfigurationType const&)
 std::__detail::_Map_base<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > > >, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](XrViewConfigurationType&&)
 std::__detail::_Map_base<std::pair<int, int>, std::pair<std::pair<int, int> const, unsigned int>, std::allocator<std::pair<std::pair<int, int> const, unsigned int> >, std::__detail::_Select1st, vr::UndirectedEdgeEqual, vr::UndirectedEdgeHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::pair<int, int> const&)
 std::__detail::_Map_base<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string&&)
 std::__detail::_Map_base<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string const&)
-std::__detail::_Map_base<std::type_index, std::pair<std::type_index const, ChildData>, std::allocator<std::pair<std::type_index const, ChildData> >, std::__detail::_Select1st, std::equal_to<std::type_index>, std::hash<std::type_index>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](std::type_index const&)
 std::__detail::_Map_base<vr::HmdVector2_t, std::pair<vr::HmdVector2_t const, int>, std::allocator<std::pair<vr::HmdVector2_t const, int> >, std::__detail::_Select1st, vr::HmdVector2TolerancedEqual, vr::HmdVector2TolerancedHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](vr::HmdVector2_t const&)
 std::__detail::_NFA<std::regex_traits<char> >::_M_insert_backref(unsigned long)
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
@@ -33505,6 +33702,7 @@ std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBi
 std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >::~vector()
 std::vector<CInputOption, std::allocator<CInputOption> >::operator=(std::vector<CInputOption, std::allocator<CInputOption> > const&)
 std::vector<CInputOption, std::allocator<CInputOption> >::~vector()
+std::vector<CRenderModelManager::Component_t, std::allocator<CRenderModelManager::Component_t> >::operator=(std::vector<CRenderModelManager::Component_t, std::allocator<CRenderModelManager::Component_t> > const&)
 std::vector<CRenderModelManager::Component_t, std::allocator<CRenderModelManager::Component_t> >::push_back(CRenderModelManager::Component_t const&)
 std::vector<CRenderModelManager::RenderModelTextureContainer_t, std::allocator<CRenderModelManager::RenderModelTextureContainer_t> >::~vector()
 std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> >::operator=(std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > const&)
@@ -33520,8 +33718,8 @@ std::vector<ViveTracker, std::allocator<ViveTracker> >::~vector()
 std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> >::_M_default_append(unsigned long)
 std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> >::~vector()
 std::vector<VkLayerProperties, std::allocator<VkLayerProperties> >::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityPropertiesEXT, std::allocator<VkQueueFamilyGlobalPriorityPropertiesEXT> >::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityPropertiesEXT, std::allocator<VkQueueFamilyGlobalPriorityPropertiesEXT> >::operator=(std::vector<VkQueueFamilyGlobalPriorityPropertiesEXT, std::allocator<VkQueueFamilyGlobalPriorityPropertiesEXT> > const&)
+std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR> >::_M_default_append(unsigned long)
+std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR> >::operator=(std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR> > const&)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2> >::_M_default_append(unsigned long)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2> >::operator=(std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2> > const&)
 std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties> >::~vector()
@@ -33650,7 +33848,7 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
-sv_sv
+sv_se
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
 switch_dashboard_overlay_requested
@@ -34420,10 +34618,9 @@ typeinfo for CDriverLog
 typeinfo for CDriverManager
 typeinfo for CFixedSizePropertyContainer
 typeinfo for CHmdSystemLatest
-typeinfo for CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}
 typeinfo for CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#1}
 typeinfo for CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}
-typeinfo for CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#3}
+typeinfo for CHmdSystemLatest::InitCompositorImplementations()::{lambda(char const*)#1}
 typeinfo for CHmdSystem_001
 typeinfo for CHmdSystem_004
 typeinfo for CHmd_001
@@ -34616,11 +34813,14 @@ typeinfo for CVRDriverDirectModeComponent_004
 typeinfo for CVRDriverDirectModeComponent_005
 typeinfo for CVRDriverDirectModeComponent_006
 typeinfo for CVRDriverDirectModeComponent_007
+typeinfo for CVRDriverDirectModeComponent_008
 typeinfo for CVRDriverDirectModeComponent_Latest
 typeinfo for CVRFramerateGovernor
 typeinfo for CVRIOBuffer
 typeinfo for CVRIOBuffer_001
 typeinfo for CVRIOBuffer_002
+typeinfo for CVRIPCResourceManager
+typeinfo for CVRIPCResourceManagerBase
 typeinfo for CVRInputLatest
 typeinfo for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}
 typeinfo for CVRInput_001
@@ -34723,6 +34923,8 @@ typeinfo for CVRMsg_Input_GetActionBindings
 typeinfo for CVRMsg_Input_GetActionBindingsResponse
 typeinfo for CVRMsg_Input_GetOriginLocalizedName
 typeinfo for CVRMsg_Input_GetOriginLocalizedNameResponse
+typeinfo for CVRMsg_Input_GetOriginalComponentPath
+typeinfo for CVRMsg_Input_GetOriginalComponentPathResponse
 typeinfo for CVRMsg_Input_SetActionManifestPath
 typeinfo for CVRMsg_Input_SetActionManifestPathResponse
 typeinfo for CVRMsg_Input_SetXrInputConfig
@@ -34751,6 +34953,7 @@ typeinfo for CVRMsg_PrismPrioritySet
 typeinfo for CVRMsg_QuitProcessRequest
 typeinfo for CVRMsg_QuitProcessResponse
 typeinfo for CVRMsg_RegisterExternalWebRoot
+typeinfo for CVRMsg_RegisterExternalWebRootResponse
 typeinfo for CVRMsg_ReloadChaperone
 typeinfo for CVRMsg_SendWebMessage
 typeinfo for CVRMsg_ServiceConnect
@@ -34964,9 +35167,10 @@ typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_004, &k
 typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_005, &k_pchDriverDirectModeComponentPrefix, 5, CVRDriverDirectModeComponent_005, CVRDriverDirectModeComponent_004>
 typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
 typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
+typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_008, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_008, CVRDriverDirectModeComponent_007>
 typeinfo for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
 typeinfo for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 3, CVRDisplayComponent_Latest, CVRDisplayComponent_002>
-typeinfo for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>
+typeinfo for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>
 typeinfo for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_003>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_004>
@@ -35059,6 +35263,7 @@ typeinfo for IVRDriverDirectModeComponent_004
 typeinfo for IVRDriverDirectModeComponent_005
 typeinfo for IVRDriverDirectModeComponent_006
 typeinfo for IVRDriverDirectModeComponent_007
+typeinfo for IVRDriverDirectModeComponent_008
 typeinfo for IVRLegacyInput
 typeinfo for IVRRenderer
 typeinfo for IVRVirtualDisplay001
@@ -35199,20 +35404,6 @@ typeinfo for VulkanVRRenderer::Sampler
 typeinfo for VulkanVRRenderer::Texture
 typeinfo for VulkanVRRenderer::VertexBuffer
 typeinfo for WatchdogHost<CVRWatchdogHost_001>
-typeinfo for XrActionSet_T
-typeinfo for XrActionSet_T*
-typeinfo for XrAction_T
-typeinfo for XrAction_T*
-typeinfo for XrHandTrackerEXT_T
-typeinfo for XrHandTrackerEXT_T*
-typeinfo for XrInstance_T
-typeinfo for XrInstance_T*
-typeinfo for XrSession_T
-typeinfo for XrSession_T*
-typeinfo for XrSpace_T
-typeinfo for XrSpace_T*
-typeinfo for XrSwapchain_T
-typeinfo for XrSwapchain_T*
 typeinfo for __cxxabiv1::__class_type_info
 typeinfo for __cxxabiv1::__forced_unwind
 typeinfo for __cxxabiv1::__foreign_exception
@@ -35684,10 +35875,9 @@ typeinfo name for CDriverLog
 typeinfo name for CDriverManager
 typeinfo name for CFixedSizePropertyContainer
 typeinfo name for CHmdSystemLatest
-typeinfo name for CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}
 typeinfo name for CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#1}
 typeinfo name for CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}
-typeinfo name for CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#3}
+typeinfo name for CHmdSystemLatest::InitCompositorImplementations()::{lambda(char const*)#1}
 typeinfo name for CHmdSystem_001
 typeinfo name for CHmdSystem_004
 typeinfo name for CHmd_001
@@ -35880,11 +36070,14 @@ typeinfo name for CVRDriverDirectModeComponent_004
 typeinfo name for CVRDriverDirectModeComponent_005
 typeinfo name for CVRDriverDirectModeComponent_006
 typeinfo name for CVRDriverDirectModeComponent_007
+typeinfo name for CVRDriverDirectModeComponent_008
 typeinfo name for CVRDriverDirectModeComponent_Latest
 typeinfo name for CVRFramerateGovernor
 typeinfo name for CVRIOBuffer
 typeinfo name for CVRIOBuffer_001
 typeinfo name for CVRIOBuffer_002
+typeinfo name for CVRIPCResourceManager
+typeinfo name for CVRIPCResourceManagerBase
 typeinfo name for CVRInputLatest
 typeinfo name for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}
 typeinfo name for CVRInput_001
@@ -35987,6 +36180,8 @@ typeinfo name for CVRMsg_Input_GetActionBindings
 typeinfo name for CVRMsg_Input_GetActionBindingsResponse
 typeinfo name for CVRMsg_Input_GetOriginLocalizedName
 typeinfo name for CVRMsg_Input_GetOriginLocalizedNameResponse
+typeinfo name for CVRMsg_Input_GetOriginalComponentPath
+typeinfo name for CVRMsg_Input_GetOriginalComponentPathResponse
 typeinfo name for CVRMsg_Input_SetActionManifestPath
 typeinfo name for CVRMsg_Input_SetActionManifestPathResponse
 typeinfo name for CVRMsg_Input_SetXrInputConfig
@@ -36015,6 +36210,7 @@ typeinfo name for CVRMsg_PrismPrioritySet
 typeinfo name for CVRMsg_QuitProcessRequest
 typeinfo name for CVRMsg_QuitProcessResponse
 typeinfo name for CVRMsg_RegisterExternalWebRoot
+typeinfo name for CVRMsg_RegisterExternalWebRootResponse
 typeinfo name for CVRMsg_ReloadChaperone
 typeinfo name for CVRMsg_SendWebMessage
 typeinfo name for CVRMsg_ServiceConnect
@@ -36228,9 +36424,10 @@ typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_00
 typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_005, &k_pchDriverDirectModeComponentPrefix, 5, CVRDriverDirectModeComponent_005, CVRDriverDirectModeComponent_004>
 typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
 typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
+typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_008, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_008, CVRDriverDirectModeComponent_007>
 typeinfo name for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
 typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 3, CVRDisplayComponent_Latest, CVRDisplayComponent_002>
-typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>
+typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>
 typeinfo name for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_003>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_004>
@@ -36323,6 +36520,7 @@ typeinfo name for IVRDriverDirectModeComponent_004
 typeinfo name for IVRDriverDirectModeComponent_005
 typeinfo name for IVRDriverDirectModeComponent_006
 typeinfo name for IVRDriverDirectModeComponent_007
+typeinfo name for IVRDriverDirectModeComponent_008
 typeinfo name for IVRLegacyInput
 typeinfo name for IVRRenderer
 typeinfo name for IVRVirtualDisplay001
@@ -36464,20 +36662,6 @@ typeinfo name for VulkanVRRenderer::Sampler
 typeinfo name for VulkanVRRenderer::Texture
 typeinfo name for VulkanVRRenderer::VertexBuffer
 typeinfo name for WatchdogHost<CVRWatchdogHost_001>
-typeinfo name for XrActionSet_T
-typeinfo name for XrActionSet_T*
-typeinfo name for XrAction_T
-typeinfo name for XrAction_T*
-typeinfo name for XrHandTrackerEXT_T
-typeinfo name for XrHandTrackerEXT_T*
-typeinfo name for XrInstance_T
-typeinfo name for XrInstance_T*
-typeinfo name for XrSession_T
-typeinfo name for XrSession_T*
-typeinfo name for XrSpace_T
-typeinfo name for XrSpace_T*
-typeinfo name for XrSwapchain_T
-typeinfo name for XrSwapchain_T*
 typeinfo name for __cxxabiv1::__class_type_info
 typeinfo name for __cxxabiv1::__forced_unwind
 typeinfo name for __cxxabiv1::__foreign_exception
@@ -36921,7 +37105,7 @@ typeinfo name for wchar_t
 typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 u
-ua_ua
+uk_ua
 ukranian
 ul
 ull
@@ -37017,7 +37201,7 @@ version
 version.txt
 vertical-line
 vertical-tab
-vi_vi
+vi_vn
 vibration
 vietnamiese
 virtual thunk to
@@ -37135,7 +37319,6 @@ vkAcquireNextImage2KHR
 vkAcquireNextImageKHR
 vkAcquirePerformanceConfigurationINTEL
 vkAcquireProfilingLockKHR
-vkAcquireWinrtDisplayNV
 vkAcquireXlibDisplayEXT
 vkAllocateCommandBuffers
 vkAllocateCommandBuffers failed with error %d.
@@ -37150,7 +37333,10 @@ vkBindBufferMemory2KHR
 vkBindImageMemory
 vkBindImageMemory2
 vkBindImageMemory2KHR
+vkBindOpticalFlowSessionImageNV
+vkBindVideoSessionMemoryKHR
 vkBuildAccelerationStructuresKHR
+vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
 vkCmdBeginQuery
@@ -37158,46 +37344,74 @@ vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
 vkCmdBeginRenderPass2
 vkCmdBeginRenderPass2KHR
+vkCmdBeginRendering
+vkCmdBeginRenderingKHR
 vkCmdBeginTransformFeedbackEXT
+vkCmdBeginVideoCodingKHR
+vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
+vkCmdBindDescriptorBufferEmbeddedSamplersEXT
+vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
+vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
+vkCmdBindVertexBuffers2
 vkCmdBindVertexBuffers2EXT
 vkCmdBlitImage
+vkCmdBlitImage2
 vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildMicromapsEXT
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
+vkCmdControlVideoCodingKHR
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
 vkCmdCopyBuffer
+vkCmdCopyBuffer2
 vkCmdCopyBuffer2KHR
 vkCmdCopyBufferToImage
+vkCmdCopyBufferToImage2
 vkCmdCopyBufferToImage2KHR
 vkCmdCopyImage
+vkCmdCopyImage2
 vkCmdCopyImage2KHR
 vkCmdCopyImageToBuffer
+vkCmdCopyImageToBuffer2
 vkCmdCopyImageToBuffer2KHR
+vkCmdCopyMemoryIndirectNV
 vkCmdCopyMemoryToAccelerationStructureKHR
+vkCmdCopyMemoryToImageIndirectNV
+vkCmdCopyMemoryToMicromapEXT
+vkCmdCopyMicromapEXT
+vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
 vkCmdCuLaunchKernelNVX
+vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
+vkCmdDecodeVideoKHR
+vkCmdDecompressMemoryIndirectCountNV
+vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
 vkCmdDispatchIndirect
 vkCmdDraw
+vkCmdDrawClusterHUAWEI
+vkCmdDrawClusterIndirectHUAWEI
 vkCmdDrawIndexed
 vkCmdDrawIndexedIndirect
 vkCmdDrawIndexedIndirectCount
@@ -37208,11 +37422,15 @@ vkCmdDrawIndirectByteCountEXT
 vkCmdDrawIndirectCount
 vkCmdDrawIndirectCountAMD
 vkCmdDrawIndirectCountKHR
+vkCmdDrawMeshTasksEXT
+vkCmdDrawMeshTasksIndirectCountEXT
 vkCmdDrawMeshTasksIndirectCountNV
+vkCmdDrawMeshTasksIndirectEXT
 vkCmdDrawMeshTasksIndirectNV
 vkCmdDrawMeshTasksNV
 vkCmdDrawMultiEXT
 vkCmdDrawMultiIndexedEXT
+vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
 vkCmdEndQuery
@@ -37220,7 +37438,10 @@ vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
+vkCmdEndRendering
+vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
+vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
@@ -37228,79 +37449,150 @@ vkCmdInsertDebugUtilsLabelEXT
 vkCmdNextSubpass
 vkCmdNextSubpass2
 vkCmdNextSubpass2KHR
+vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
+vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
+vkCmdResetEvent2
 vkCmdResetEvent2KHR
 vkCmdResetQueryPool
 vkCmdResolveImage
+vkCmdResolveImage2
 vkCmdResolveImage2KHR
+vkCmdSetAlphaToCoverageEnableEXT
+vkCmdSetAlphaToOneEnableEXT
+vkCmdSetAttachmentFeedbackLoopEnableEXT
 vkCmdSetBlendConstants
 vkCmdSetCheckpointNV
 vkCmdSetCoarseSampleOrderNV
+vkCmdSetColorBlendAdvancedEXT
+vkCmdSetColorBlendEnableEXT
+vkCmdSetColorBlendEquationEXT
 vkCmdSetColorWriteEnableEXT
+vkCmdSetColorWriteMaskEXT
+vkCmdSetConservativeRasterizationModeEXT
+vkCmdSetCoverageModulationModeNV
+vkCmdSetCoverageModulationTableEnableNV
+vkCmdSetCoverageModulationTableNV
+vkCmdSetCoverageReductionModeNV
+vkCmdSetCoverageToColorEnableNV
+vkCmdSetCoverageToColorLocationNV
+vkCmdSetCullMode
 vkCmdSetCullModeEXT
 vkCmdSetDepthBias
+vkCmdSetDepthBias2EXT
+vkCmdSetDepthBiasEnable
 vkCmdSetDepthBiasEnableEXT
 vkCmdSetDepthBounds
+vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
+vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClipEnableEXT
+vkCmdSetDepthClipNegativeOneToOneEXT
+vkCmdSetDepthCompareOp
 vkCmdSetDepthCompareOpEXT
+vkCmdSetDepthTestEnable
 vkCmdSetDepthTestEnableEXT
+vkCmdSetDepthWriteEnable
 vkCmdSetDepthWriteEnableEXT
+vkCmdSetDescriptorBufferOffsets2EXT
+vkCmdSetDescriptorBufferOffsetsEXT
 vkCmdSetDeviceMask
 vkCmdSetDeviceMaskKHR
 vkCmdSetDiscardRectangleEXT
+vkCmdSetDiscardRectangleEnableEXT
+vkCmdSetDiscardRectangleModeEXT
 vkCmdSetEvent
+vkCmdSetEvent2
 vkCmdSetEvent2KHR
+vkCmdSetExclusiveScissorEnableNV
 vkCmdSetExclusiveScissorNV
+vkCmdSetExtraPrimitiveOverestimationSizeEXT
 vkCmdSetFragmentShadingRateEnumNV
 vkCmdSetFragmentShadingRateKHR
+vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
+vkCmdSetLineRasterizationModeEXT
 vkCmdSetLineStippleEXT
+vkCmdSetLineStippleEnableEXT
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
+vkCmdSetLogicOpEnableEXT
 vkCmdSetPatchControlPointsEXT
 vkCmdSetPerformanceMarkerINTEL
 vkCmdSetPerformanceOverrideINTEL
 vkCmdSetPerformanceStreamMarkerINTEL
+vkCmdSetPolygonModeEXT
+vkCmdSetPrimitiveRestartEnable
 vkCmdSetPrimitiveRestartEnableEXT
+vkCmdSetPrimitiveTopology
 vkCmdSetPrimitiveTopologyEXT
+vkCmdSetProvokingVertexModeEXT
+vkCmdSetRasterizationSamplesEXT
+vkCmdSetRasterizationStreamEXT
+vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
+vkCmdSetSampleLocationsEnableEXT
+vkCmdSetSampleMaskEXT
 vkCmdSetScissor
+vkCmdSetScissorWithCount
 vkCmdSetScissorWithCountEXT
+vkCmdSetShadingRateImageEnableNV
 vkCmdSetStencilCompareMask
+vkCmdSetStencilOp
 vkCmdSetStencilOpEXT
 vkCmdSetStencilReference
+vkCmdSetStencilTestEnable
 vkCmdSetStencilTestEnableEXT
 vkCmdSetStencilWriteMask
+vkCmdSetTessellationDomainOriginEXT
 vkCmdSetVertexInputEXT
 vkCmdSetViewport
 vkCmdSetViewportShadingRatePaletteNV
+vkCmdSetViewportSwizzleNV
+vkCmdSetViewportWScalingEnableNV
 vkCmdSetViewportWScalingNV
+vkCmdSetViewportWithCount
 vkCmdSetViewportWithCountEXT
 vkCmdSubpassShadingHUAWEI
+vkCmdTraceRaysIndirect2KHR
 vkCmdTraceRaysIndirectKHR
 vkCmdTraceRaysKHR
 vkCmdTraceRaysNV
 vkCmdUpdateBuffer
+vkCmdUpdatePipelineIndirectBufferNV
 vkCmdWaitEvents
+vkCmdWaitEvents2
 vkCmdWaitEvents2KHR
 vkCmdWriteAccelerationStructuresPropertiesKHR
 vkCmdWriteAccelerationStructuresPropertiesNV
 vkCmdWriteBufferMarker2AMD
 vkCmdWriteBufferMarkerAMD
+vkCmdWriteMicromapsPropertiesEXT
 vkCmdWriteTimestamp
+vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImageEXT
+vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImageEXT
+vkCopyMemoryToMicromapEXT
+vkCopyMicromapEXT
+vkCopyMicromapToMemoryEXT
 vkCreateAccelerationStructureKHR
 vkCreateAccelerationStructureNV
 vkCreateBuffer
@@ -37310,6 +37602,8 @@ vkCreateCommandPool
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
+vkCreateCudaFunctionNV
+vkCreateCudaModuleNV
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -37331,8 +37625,11 @@ vkCreateImageView
 vkCreateIndirectCommandsLayoutNV
 vkCreateInstance
 vkCreateInstance failed with error %d
+vkCreateMicromapEXT
+vkCreateOpticalFlowSessionNV
 vkCreatePipelineCache
 vkCreatePipelineLayout
+vkCreatePrivateDataSlot
 vkCreatePrivateDataSlotEXT
 vkCreateQueryPool
 vkCreateRayTracingPipelinesKHR
@@ -37345,9 +37642,12 @@ vkCreateSamplerYcbcrConversion
 vkCreateSamplerYcbcrConversionKHR
 vkCreateSemaphore
 vkCreateShaderModule
+vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
 vkCreateValidationCacheEXT
+vkCreateVideoSessionKHR
+vkCreateVideoSessionParametersKHR
 vkCreateXcbSurfaceKHR
 vkDebugMarkerSetObjectNameEXT
 vkDebugMarkerSetObjectTagEXT
@@ -37360,6 +37660,8 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
+vkDestroyCudaFunctionNV
+vkDestroyCudaModuleNV
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -37375,9 +37677,12 @@ vkDestroyImage
 vkDestroyImageView
 vkDestroyIndirectCommandsLayoutNV
 vkDestroyInstance
+vkDestroyMicromapEXT
+vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
+vkDestroyPrivateDataSlot
 vkDestroyPrivateDataSlotEXT
 vkDestroyQueryPool
 vkDestroyRenderPass
@@ -37385,10 +37690,13 @@ vkDestroySampler
 vkDestroySamplerYcbcrConversion
 vkDestroySamplerYcbcrConversionKHR
 vkDestroySemaphore
+vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
 vkDestroyValidationCacheEXT
+vkDestroyVideoSessionKHR
+vkDestroyVideoSessionParametersKHR
 vkDeviceWaitIdle
 vkDisplayPowerControlEXT
 vkEndCommandBuffer
@@ -37412,6 +37720,7 @@ vkGetAccelerationStructureBuildSizesKHR
 vkGetAccelerationStructureDeviceAddressKHR
 vkGetAccelerationStructureHandleNV
 vkGetAccelerationStructureMemoryRequirementsNV
+vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT
 vkGetBufferDeviceAddress
 vkGetBufferDeviceAddressEXT
 vkGetBufferDeviceAddressKHR
@@ -37420,19 +37729,36 @@ vkGetBufferMemoryRequirements2
 vkGetBufferMemoryRequirements2KHR
 vkGetBufferOpaqueCaptureAddress
 vkGetBufferOpaqueCaptureAddressKHR
+vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
+vkGetCalibratedTimestampsKHR
+vkGetCudaModuleCacheNV
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
+vkGetDescriptorEXT
+vkGetDescriptorSetHostMappingVALVE
+vkGetDescriptorSetLayoutBindingOffsetEXT
+vkGetDescriptorSetLayoutHostMappingInfoVALVE
+vkGetDescriptorSetLayoutSizeEXT
 vkGetDescriptorSetLayoutSupport
 vkGetDescriptorSetLayoutSupportKHR
 vkGetDeviceAccelerationStructureCompatibilityKHR
+vkGetDeviceBufferMemoryRequirements
+vkGetDeviceBufferMemoryRequirementsKHR
+vkGetDeviceFaultInfoEXT
 vkGetDeviceGroupPeerMemoryFeatures
 vkGetDeviceGroupPeerMemoryFeaturesKHR
 vkGetDeviceGroupPresentCapabilitiesKHR
 vkGetDeviceGroupSurfacePresentModesKHR
+vkGetDeviceImageMemoryRequirements
+vkGetDeviceImageMemoryRequirementsKHR
+vkGetDeviceImageSparseMemoryRequirements
+vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
 vkGetDeviceMemoryOpaqueCaptureAddressKHR
+vkGetDeviceMicromapCompatibilityEXT
 vkGetDeviceProcAddr
 vkGetDeviceProcAddrStub
 vkGetDeviceQueue
@@ -37444,29 +37770,40 @@ vkGetDisplayPlaneCapabilities2KHR
 vkGetDisplayPlaneCapabilitiesKHR
 vkGetDisplayPlaneSupportedDisplaysKHR
 vkGetDrmDisplayEXT
+vkGetDynamicRenderingTilePropertiesQCOM
+vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
 vkGetFenceFdKHR
 vkGetFenceStatus
+vkGetFramebufferTilePropertiesQCOM
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
 vkGetImageMemoryRequirements2
 vkGetImageMemoryRequirements2KHR
+vkGetImageOpaqueCaptureDescriptorDataEXT
 vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2EXT
+vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
 vkGetImageViewHandleNVX
+vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
 vkGetInstanceProcAddrStub
+vkGetLatencyTimingsNV
 vkGetMemoryFdKHR
 vkGetMemoryFdPropertiesKHR
 vkGetMemoryHostPointerPropertiesEXT
 vkGetMemoryRemoteAddressNV
+vkGetMicromapBuildSizesEXT
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
+vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
@@ -37493,6 +37830,7 @@ vkGetPhysicalDeviceMemoryProperties
 vkGetPhysicalDeviceMemoryProperties2
 vkGetPhysicalDeviceMemoryProperties2KHR
 vkGetPhysicalDeviceMultisamplePropertiesEXT
+vkGetPhysicalDeviceOpticalFlowImageFormatsNV
 vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
@@ -37512,12 +37850,20 @@ vkGetPhysicalDeviceSurfaceFormats2KHR
 vkGetPhysicalDeviceSurfaceFormatsKHR
 vkGetPhysicalDeviceSurfacePresentModesKHR
 vkGetPhysicalDeviceSurfaceSupportKHR
+vkGetPhysicalDeviceToolProperties
 vkGetPhysicalDeviceToolPropertiesEXT
+vkGetPhysicalDeviceVideoCapabilitiesKHR
+vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
+vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceXcbPresentationSupportKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
+vkGetPipelineIndirectDeviceAddressNV
+vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelinePropertiesEXT
+vkGetPrivateData
 vkGetPrivateDataEXT
 vkGetQueryPoolResults
 vkGetQueueCheckpointData2NV
@@ -37529,31 +37875,40 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularityKHR
+vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
 vkGetSemaphoreCounterValueKHR
 vkGetSemaphoreFdKHR
+vkGetShaderBinaryDataEXT
 vkGetShaderInfoAMD
+vkGetShaderModuleCreateInfoIdentifierEXT
+vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
 vkGetValidationCacheDataEXT
-vkGetWinrtDisplayNV
+vkGetVideoSessionMemoryRequirementsKHR
 vkImportFenceFdKHR
 vkImportSemaphoreFdKHR
 vkInitializePerformanceApiINTEL
 vkInvalidateMappedMemoryRanges
+vkLatencySleepNV
 vkMapMemory
+vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
 vkQueueBeginDebugUtilsLabelEXT
 vkQueueBindSparse
 vkQueueEndDebugUtilsLabelEXT
 vkQueueInsertDebugUtilsLabelEXT
+vkQueueNotifyOutOfBandNV
 vkQueuePresentKHR
 vkQueueSetPerformanceConfigurationINTEL
 vkQueueSubmit
 vkQueueSubmit to signal/wait on counting semaphores failed with result %d. Wait count: %d
 vkQueueSubmit to wait on counting semaphores failed with result %d.
+vkQueueSubmit2
 vkQueueSubmit2KHR
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
@@ -37561,6 +37916,7 @@ vkRegisterDisplayEventEXT
 vkReleaseDisplayEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
+vkReleaseSwapchainImagesEXT
 vkResetCommandBuffer
 vkResetCommandPool
 vkResetDescriptorPool
@@ -37570,9 +37926,13 @@ vkResetQueryPool
 vkResetQueryPoolEXT
 vkSetDebugUtilsObjectNameEXT
 vkSetDebugUtilsObjectTagEXT
+vkSetDeviceMemoryPriorityEXT
 vkSetEvent
 vkSetHdrMetadataEXT
+vkSetLatencyMarkerNV
+vkSetLatencySleepModeNV
 vkSetLocalDimmingAMD
+vkSetPrivateData
 vkSetPrivateDataEXT
 vkSignalSemaphore
 vkSignalSemaphoreKHR
@@ -37642,18 +38002,22 @@ vkTools::readTextFile(char const*)
 vkTools::readTextFile(char const*) [clone .cold]
 vkTools::setImageLayout(VkCommandBuffer_T*, VkImage_T*, unsigned int, VkImageLayout, VkImageLayout)
 vkTools::setImageLayout(VkCommandBuffer_T*, VkImage_T*, unsigned int, VkImageLayout, VkImageLayout, VkImageSubresourceRange)
+vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateVideoSessionParametersKHR
 vkWaitForFences
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
+vkWriteMicromapsPropertiesEXT
 vkh::BGetRequiredDeviceExtensions(VkPhysicalDevice_T*, std::vector<std::string, std::allocator<std::string> >&)
 vkh::BGetRequiredDeviceExtensions(VkPhysicalDevice_T*, std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
 vkh::BGetRequiredInstanceExtensions(std::vector<std::string, std::allocator<std::string> >&)
@@ -37984,8 +38348,9 @@ void tinygltf::SerializeNumberProperty<int>(std::string const&, int, nlohmann::b
 void tinygltf::SerializeNumberProperty<unsigned long>(std::string const&, unsigned long, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&)
 void tinygltf::SerializeNumberProperty<unsigned long>(std::string const&, unsigned long, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&) [clone .cold]
 volatile
+volkFinalize
 volkGenLoadDevice
-volkGenLoadInstance.constprop.0
+volkGenLoadInstance
 volkGenLoadLoader.constprop.0
 volkGetInstanceVersion
 volkGetLoadedDevice
@@ -38843,11 +39208,14 @@ vtable for CVRDriverDirectModeComponent_004
 vtable for CVRDriverDirectModeComponent_005
 vtable for CVRDriverDirectModeComponent_006
 vtable for CVRDriverDirectModeComponent_007
+vtable for CVRDriverDirectModeComponent_008
 vtable for CVRDriverDirectModeComponent_Latest
 vtable for CVRFramerateGovernor
 vtable for CVRIOBuffer
 vtable for CVRIOBuffer_001
 vtable for CVRIOBuffer_002
+vtable for CVRIPCResourceManager
+vtable for CVRIPCResourceManagerBase
 vtable for CVRInputLatest
 vtable for CVRInput_001
 vtable for CVRInput_002
@@ -38947,6 +39315,8 @@ vtable for CVRMsg_Input_GetActionBindings
 vtable for CVRMsg_Input_GetActionBindingsResponse
 vtable for CVRMsg_Input_GetOriginLocalizedName
 vtable for CVRMsg_Input_GetOriginLocalizedNameResponse
+vtable for CVRMsg_Input_GetOriginalComponentPath
+vtable for CVRMsg_Input_GetOriginalComponentPathResponse
 vtable for CVRMsg_Input_SetActionManifestPath
 vtable for CVRMsg_Input_SetActionManifestPathResponse
 vtable for CVRMsg_Input_SetXrInputConfig
@@ -38975,6 +39345,7 @@ vtable for CVRMsg_PrismPrioritySet
 vtable for CVRMsg_QuitProcessRequest
 vtable for CVRMsg_QuitProcessResponse
 vtable for CVRMsg_RegisterExternalWebRoot
+vtable for CVRMsg_RegisterExternalWebRootResponse
 vtable for CVRMsg_ReloadChaperone
 vtable for CVRMsg_SendWebMessage
 vtable for CVRMsg_ServiceConnect
@@ -39726,10 +40097,12 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrLocateHandJoints: Time was invalid.
 xrLocateHandJointsEXT
 xrLocateSpace
 xrLocateViews
 xrLocateViews called with a different view configuration type (%d) than was used in xrBeginSession (%d)
+xrLocateViews: Display time was invalid.
 xrLocateViews: Switching to TrackingUniverseSeated because XR_REFERENCE_SPACE_TYPE_LOCAL continued to be requested for more than 3 seconds
 xrLocateViews: Switching to TrackingUniverseStanding because XR_REFERENCE_SPACE_TYPE_STAGE was requested
 xrNegotiateLoaderRuntimeInterface

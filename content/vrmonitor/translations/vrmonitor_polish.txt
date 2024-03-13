@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Pomoc techniczna dla partnerów SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Pomoc techniczna dla partnerów Steamworks"
 "MenuAction_CreateSystemReport" "Stwórz raport systemu"
+"MenuAction_ToggleDashboard" "Przełącz panel główny"
 "MenuAction_Recenter" "Wyśrodkuj"
 "MenuAction_SystemReportViewer" "Przeglądarka raportów systemu"
 "MenuAction_DisplayFrameTiming" "Zaawansowane czasy klatek"

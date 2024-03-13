@@ -2,9 +2,8 @@
  %41g
  A__^
  H3E H3E
- e)v:
 !hn7!
-#TG5%
+#$";#
 ',=?k
 (f*^[0
 +Xt@(
@@ -50,6 +49,7 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.r{K3
 .text
 .text$di
 .text$mn
@@ -85,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240201011111Z0/
+240311233103Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -104,6 +104,7 @@
 6I]Dc
 6OB,n_
 70503
+7O7%[
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -118,6 +119,7 @@
 @.rsrc
 @A^_^
 AuthD
+A{8Gs
 Bellevue1
 CT$0H
 DigiCert Assured ID Root CA0
@@ -131,7 +133,7 @@ DisableThreadLibraryCalls
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
-GqrHp
+GvD|#D
 H SWH
 H-^Eu
 H93t	H
@@ -142,7 +144,7 @@ ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
 IVRProperties_001
@@ -191,8 +193,8 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
-]I4[9
 ]J<0"0i3
+^TW^1X
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -224,9 +226,9 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b`m+/
 bad allocation
 bad array new length
-c,6,Kl7L
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 displayFrequency
 driver_null
@@ -244,6 +246,7 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
+k)Zt0e
 k0i0$
 l$8E3
 l2|X/gGe
@@ -254,6 +257,7 @@ memmove
 memset
 modelNumber
 ntelD
+r)Pj)J
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -271,6 +275,7 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+yyEv:/ 
 {un'%
 |$ AVH
 |Lu?c

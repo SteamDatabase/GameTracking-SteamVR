@@ -197,6 +197,10 @@
       "binding_url": "vrcompositor_bindings_vive_controller.json"
     },
     {
+      "controller_type": "rift",
+      "binding_url": "vrcompositor_bindings_rift.json"
+    },
+    {
       "controller_type": "vive",
       "binding_url": "vrcompositor_bindings_vive.json"
     },

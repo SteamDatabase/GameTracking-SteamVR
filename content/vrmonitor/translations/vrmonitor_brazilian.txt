@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Suporte a desenvolvedores SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Suporte a desenvolvedores Steamworks"
 "MenuAction_CreateSystemReport" "Criar relatório do sistema"
+"MenuAction_ToggleDashboard" "Abrir e fechar painel"
 "MenuAction_Recenter" "Recentralizar"
 "MenuAction_SystemReportViewer" "Visualizador de relatórios do sistema"
 "MenuAction_DisplayFrameTiming" "Tempo dos quadros (avançado)"

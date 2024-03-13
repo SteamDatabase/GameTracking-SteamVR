@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	6o5q
  %41g
  A_A^A\
  A_A^A]A\_
@@ -18,6 +19,7 @@
 !hn7!
 %%.%dg
 %s%s%s%s%s
+&L9LyF
 ' is not a number.
 ',=?k
 (A\_^[
@@ -165,8 +167,9 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240201011633Z0/
+240311233620Z0/
 241009235959Z0a1
+2=k+=g
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -188,7 +191,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8{MBA
 < t+<
 </u#H
 <0:08
@@ -598,8 +600,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R3UPv
-RSDS}f
+RSDSI
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -709,7 +710,6 @@ Y9"SD
 \u=H;
 ]J<0"0i3
 ]g@8yhu
-^ib^b
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -778,20 +778,21 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cs_cs
+cs_cz
 czech
 d$`H=
 d$`L;
 d$`M;
 d3d11.dll
-da_da
+da_dk
 danish
 de_de
 deque<T> too long
 desktopview
+dutch
 dwmapi.dll
 dxgi.dll
-el_el
+el_gr
 en_us
 english
 es_es
@@ -837,8 +838,8 @@ japanese
 jj@0HK4
 k0i0$
 kernel32.dll
-ko_ko
-korean
+ko_kr
+koreana
 l$ H;
 l$ H=
 l$8E3
@@ -857,10 +858,10 @@ memcpy
 memmove
 memset
 message_id
-no_no
+nb_no
+nl_nl
 norwegian
 ntelD
-o++bg
 ole32.dll
 openvr_api.dll
 pA_A^A\_^][
@@ -888,7 +889,7 @@ string too long
 strncpy
 strpbrk
 strtoull
-sv_sv
+sv_se
 swedish
 system.cursor.ibeam
 system.desktop.%d
@@ -910,13 +911,13 @@ th_th
 tolower
 tr_tr
 turkish
-ua_ua
+uk_ua
 ukranian
 user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
-vi_vi
+vi_vn
 vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
@@ -939,9 +940,9 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-z"N]X
 zh_cn
 zh_tw
+{Ebl;
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

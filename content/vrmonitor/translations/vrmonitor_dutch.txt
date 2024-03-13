@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR-ontwikkelaarsondersteuning"
 "MenuAction_SteamWorksDeveloperSupport" "Steamworks-ontwikkelaarsondersteuning"
 "MenuAction_CreateSystemReport" "Systeemrapport maken"
+"MenuAction_ToggleDashboard" "Dashboard wisselen"
 "MenuAction_Recenter" "Opnieuw centreren"
 "MenuAction_SystemReportViewer" "Systeemrapportweergave"
 "MenuAction_DisplayFrameTiming" "Geavanceerde frametiming"

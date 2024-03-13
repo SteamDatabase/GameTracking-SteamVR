@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Asistență pentru dezvoltatorii SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Asistență pentru dezvoltatorii SteamWorks"
 "MenuAction_CreateSystemReport" "Creează un raport de sistem"
+"MenuAction_ToggleDashboard" "Comută panoul de control"
 "MenuAction_Recenter" "Recentrează"
 "MenuAction_SystemReportViewer" "Vizualizator pentru rapoartele de sistem"
 "MenuAction_DisplayFrameTiming" "Frecvență cadre (avansat)"

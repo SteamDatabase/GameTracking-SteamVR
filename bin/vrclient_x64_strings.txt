@@ -7,6 +7,7 @@
 																																												
 																																																																																																																
 	!s99
+	%s::%llx.
 	555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
 	<bu 
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
@@ -27,7 +28,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@`_
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ t
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -411,10 +412,13 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
+(%]b#
+(%fe#
+(%uj#
 ()$^.*+?[]|\-{},:=!
-(5z"#
+(-8e#
+(5}i#
 (9Q|uWH
-(=X/'
 (A\^][
 (A\_^[
 (A]_^[
@@ -497,10 +501,10 @@ $w!Hc
 (t$`D
 (t$`E
 (t$`H
-(t$`Ic
 (t$`L
 (t$pH
 (t$pI
+(t$pIc
 (t$pL
 (|$ H
 (|$0D
@@ -519,6 +523,7 @@ $w!Hc
 (|$`L
 (|$pD
 (|$pH
+(|$pL
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )9k0t
 )D$ A
@@ -618,7 +623,6 @@ $w!Hc
 )|$PD
 )|$PH
 )|$`H
-)|$`L
 )|$`f
 )|$pD
 )|$pE
@@ -650,6 +654,7 @@ $w!Hc
 -Infinity
 -S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 -disablewatchdogs
+-fS]	
 -lang="
 -nokillprocess
 -personality_distort
@@ -720,15 +725,13 @@ $w!Hc
 .?AU_Crt_new_delete@std@@
 .?AUinput_adapter_protocol@detail@nlohmann@@
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
-.?AV<lambda_16a63fdda220baa06f7baf2a5110c0bb>@@
 .?AV<lambda_1c61f3962b97f3f9ecd354a1e39cff36>@@
 .?AV<lambda_1fd16216e62d16080da99169d98a6b3a>@@
 .?AV<lambda_212c477849f693b06327af67ea9d66dd>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_2e5dca02376c74ecda057d62db6870f4>@@
 .?AV<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@
-.?AV<lambda_43c03a047d49e758a40605e26fe3997f>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
+.?AV<lambda_477b20d61bef04a5465dd26d8c218e72>@@
 .?AV<lambda_5cb07d87fbb143573f0e5b51176c2232>@@
 .?AV<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@
 .?AV<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@
@@ -739,6 +742,7 @@ $w!Hc
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
+.?AV<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@
 .?AV<lambda_bdb4246244a21659a08701b2bdb5c6fd>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
@@ -969,15 +973,13 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@P6A_ND@Z_ND@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_16a63fdda220baa06f7baf2a5110c0bb>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1c61f3962b97f3f9ecd354a1e39cff36>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateFloat@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1fd16216e62d16080da99169d98a6b3a>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_212c477849f693b06327af67ea9d66dd>@@_NAEBUHiddenAreaMesh_t@vr@@AEAU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_2e5dca02376c74ecda057d62db6870f4>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@_N_K@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_43c03a047d49e758a40605e26fe3997f>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_477b20d61bef04a5465dd26d8c218e72>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5cb07d87fbb143573f0e5b51176c2232>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
@@ -988,6 +990,7 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_bdb4246244a21659a08701b2bdb5c6fd>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -1185,6 +1188,7 @@ $w!Hc
 .?AVCVRIOBuffer@@
 .?AVCVRIOBuffer_001@@
 .?AVCVRIOBuffer_002@@
+.?AVCVRIPCResourceManagerBase@@
 .?AVCVRInputLatest@@
 .?AVCVRInput_001@@
 .?AVCVRInput_002@@
@@ -1283,6 +1287,8 @@ $w!Hc
 .?AVCVRMsg_Input_GetActionBindingsResponse@@
 .?AVCVRMsg_Input_GetOriginLocalizedName@@
 .?AVCVRMsg_Input_GetOriginLocalizedNameResponse@@
+.?AVCVRMsg_Input_GetOriginalComponentPath@@
+.?AVCVRMsg_Input_GetOriginalComponentPathResponse@@
 .?AVCVRMsg_Input_SetActionManifestPath@@
 .?AVCVRMsg_Input_SetActionManifestPathResponse@@
 .?AVCVRMsg_Input_SetXrInputConfig@@
@@ -1311,6 +1317,7 @@ $w!Hc
 .?AVCVRMsg_QuitProcessRequest@@
 .?AVCVRMsg_QuitProcessResponse@@
 .?AVCVRMsg_RegisterExternalWebRoot@@
+.?AVCVRMsg_RegisterExternalWebRootResponse@@
 .?AVCVRMsg_ReloadChaperone@@
 .?AVCVRMsg_SendWebMessage@@
 .?AVCVRMsg_ServiceConnect@@
@@ -1672,13 +1679,6 @@ $w!Hc
 .I+M0H
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_ND@Z
-.PEAUXrActionSet_T@@
-.PEAUXrAction_T@@
-.PEAUXrHandTrackerEXT_T@@
-.PEAUXrInstance_T@@
-.PEAUXrSession_T@@
-.PEAUXrSpace_T@@
-.PEAUXrSwapchain_T@@
 .PEAVException@Json@@
 .backup
 .data
@@ -1716,7 +1716,6 @@ $w!Hc
 .xdata$x
 //==============================================================================================
 /9{0t'H
-/=^@)
 /a/click
 /a/touch
 /actions/
@@ -2075,6 +2074,7 @@ $w!Hc
 0A_A^A]A\]
 0A_A^A]A\^
 0A_A^A]A\_^[
+0A_A^A]A\_^]
 0A_A^A]A\_^]H
 0A_A^A]_^
 0A_A^^][
@@ -2099,7 +2099,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240201011544Z0/
+240311233532Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2222,7 +2222,6 @@ $w!Hc
 ;I#F0H
 ;K sMH
 ;K sOH
-;X?CH=TQ
 ;t:=x3
 ;u"E3
 ;|$ r
@@ -2257,12 +2256,12 @@ $w!Hc
 =rIQU
 >"tVH
 >"taH
+>/r(S
 >0<0:
 >Mp$d
 >W`.]tB3?
 >w\Hc
 ? u	Hc
-?"t,H
 ?"tfH
 ?.vW@
 ?/t6H
@@ -2410,12 +2409,12 @@ $w!Hc
 @A_A^A\
 @A_A^A\][
 @A_A^A\_^
-@A_A^A\_^][
 @A_A^A]A\_
 @A_A^A]A\_H
 @A_A^A]A\_^[
 @A_A^A]A\_^]
 @A_A^A]_[
+@A_A^[
 @A_A^]
 @A_A^^
 @A_A^_
@@ -2427,6 +2426,8 @@ $w!Hc
 @SATAUAVH
 @SAUAVAWH
 @SAUH
+@SAVAWH
+@SAVH
 @SAWH
 @SUAVH
 @SUAWH
@@ -2463,6 +2464,7 @@ $w!Hc
 @UATAUAVAWH
 @UATAUAVH
 @UATAVAWH
+@UATAVH
 @UATAWH
 @UAUAWH
 @UAVAWH
@@ -2503,6 +2505,7 @@ $w!Hc
 @UVATAVAWH
 @UVATAVH
 @UVATH
+@UVAUAVH
 @UVAUAWH
 @UVAUH
 @UVAVAWH
@@ -2516,6 +2519,7 @@ $w!Hc
 @UVWAUAWH
 @UVWAUH
 @UVWAVAWH
+@UVWAWH
 @UVWH
 @UWATAUAVH
 @UWATAUAWH
@@ -2530,7 +2534,6 @@ $w!Hc
 @VAVH
 @VWATAVAWH
 @VWATH
-@VWAVAWH
 @VWAVH
 @VWAWH
 @WATAUAVAWH
@@ -2538,7 +2541,6 @@ $w!Hc
 @WAUAWH
 @WAUH
 @WAVAWH
-@WAVH
 @_RDATA
 @fff>fff>fff>fff>
 A ;G@t
@@ -2559,6 +2561,7 @@ A9A A
 A9B(A
 A9B(r
 A9B0s
+A9D$Xu=I
 A9ETt
 A9F@r
 A9Q sEI
@@ -2611,7 +2614,6 @@ A^A\_]
 A^A\_^[]
 A^A\_^]
 A^A]A\[]
-A^A]A\]
 A^A]A\^]
 A^A]A\_[
 A^A]A\_]
@@ -2619,6 +2621,7 @@ A^A]A\_^H
 A^A]A\_^[]
 A^A][]
 A^A]]
+A^A]^]
 A^A]_[]
 A^A]_]
 A^A]_^[]
@@ -2688,12 +2691,12 @@ A_A^^][
 A_A^_
 A_A^_[]
 A_A^_]
-A_A^_^
 A_A^_^[]
 A_A^_^]
 A_A^_^][
 A__[]
 A__^[
+A__^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Aborting GetDeltas(%s) disjoint! (n=%d)
 Aborting GetDeltas(%s) event[%d]! (n=%d)
@@ -2743,6 +2746,7 @@ Array length of `emissiveFactor` parameter in material must be 3, but got
 Assert( %s ) %s(%d)
 Asset
 Attempt to init shared state %s twice
+Attempt to launch desktop game theater while vrcompositor not running
 Attempted to access vulkan array info for a non-vulkan texture
 Attempted to read payload of %d bytes from pipe but failed
 AuthD
@@ -2771,6 +2775,7 @@ B84/u
 B9T	$t
 B9T	$u
 B9T!$t
+BD9%nF?
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2828,6 +2833,7 @@ CD$8H
 CD$@3
 CD$@H
 CD$@I
+CD$HH
 CD$P3
 CD$PL
 CD$PM
@@ -2887,7 +2893,6 @@ CL$hL
 CL$pH
 CL$pL;}
 COLOR
-CPH+CHH
 CPackedBoneTransforms
 CRenderModelManager::GetRenderModelAbsolutePath
 CRenderModelManager::LoadRenderModelInternal
@@ -2984,7 +2989,6 @@ CT$(L
 CT$0D
 CT$0H
 CT$0L
-CT$8E3
 CT$8H
 CT$@H
 CT$HH
@@ -3086,6 +3090,8 @@ CVRMsg_Input_GetActionBindings
 CVRMsg_Input_GetActionBindingsResponse
 CVRMsg_Input_GetOriginLocalizedName
 CVRMsg_Input_GetOriginLocalizedNameResponse
+CVRMsg_Input_GetOriginalComponentPath
+CVRMsg_Input_GetOriginalComponentPathResponse
 CVRMsg_Input_SetActionManifestPath
 CVRMsg_Input_SetActionManifestPathResponse
 CVRMsg_Input_SetXrInputConfig
@@ -3114,6 +3120,7 @@ CVRMsg_PrismPrioritySet
 CVRMsg_QuitProcessRequest
 CVRMsg_QuitProcessResponse
 CVRMsg_RegisterExternalWebRoot
+CVRMsg_RegisterExternalWebRootResponse
 CVRMsg_ReloadChaperone
 CVRMsg_SendWebMessage
 CVRMsg_ServiceConnect
@@ -3402,7 +3409,6 @@ Cx<fu
 C|$0H
 C|$0L
 C|$0M
-C|$@H
 C|$PL
 C}xE2
 D$ 9]dvnL
@@ -3425,8 +3431,6 @@ D$ tGI
 D$ tIf
 D$ tSI
 D$ u!H
-D$ wq
-D$"}ucsf
 D$$% B
 D$$E3
 D$( N
@@ -3440,12 +3444,11 @@ D$(I;
 D$(Lk
 D$(fH
 D$(fI
-D$*cduq
 D$,D;l$8
 D$0	H
 D$0% B
 D$0A;
-D$0D8g
+D$0D8
 D$0E+
 D$0E3
 D$0H+
@@ -3488,7 +3491,6 @@ D$@H9W
 D$@H;
 D$@Hc
 D$@Hi
-D$@Hk
 D$@I;
 D$@L;
 D$@M+
@@ -3497,6 +3499,7 @@ D$@u'H
 D$Auk
 D$Cnil
 D$DE3
+D$DHk
 D$HE3
 D$HH+
 D$HH;
@@ -3514,7 +3517,6 @@ D$PI9E
 D$PI;
 D$PK9
 D$PL+
-D$PL9
 D$PM;
 D$PMc
 D$PfA
@@ -3533,6 +3535,7 @@ D$XH9U8t
 D$XH;
 D$XHc
 D$XI+
+D$XI;
 D$XIk
 D$XY\
 D$Xy3
@@ -3566,6 +3569,7 @@ D$pL;
 D$pM;
 D$pfA
 D$t2M
+D$xA9G
 D$xA;G
 D$xE3
 D$xH+
@@ -3584,12 +3588,10 @@ D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
 D8,8u
-D8-U7'
 D8/u0
 D840u
 D84;u
 D8<>u
-D8=Y7
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3617,13 +3619,14 @@ D9d$\u
 D9d$d
 D9d$xv
 D9d$|u
-D9l$\u
+D9l$<u
+D9l$du
 D9l$x
 D9s,u
 D9t$Hv
 D9t$Lu
-D9t$\u
 D9u#u
+D9u(u
 D9vtv-f
 D9x0r
 D9{,u
@@ -3712,6 +3715,7 @@ DuplicateHandle
 E H9E(t
 E8$(u
 E8,9u
+E8H+E0H
 E8I9E@t
 E9w ~EH
 E;n@|
@@ -3809,7 +3813,6 @@ F(H9D$Pt$I
 F(H;EHrZuSH
 F(H;FHs
 F0L;G
-F8I+F0H
 F9D	$
 F9D	$t
 F9D!$t
@@ -3818,6 +3821,8 @@ FACET_VULKAN_VALIDATION
 FALSE
 FATAL
 FATAL: Failed to open log file %s
+FHI9FPt
+FHI9FPt*H
 FHI;F(s
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
@@ -4003,6 +4008,10 @@ File size mismatch :
 File was empty
 File write error: 
 Filter list was too gnarly. Not sorting the last %d filters
+FilterInputSourceName: Default flip: %s::%s
+FilterInputSourceName: Explicit flip: %s::%s
+FilterInputSourceName: No flip: %s
+FilterInputSourceName: m_eDominantHand(%d) != left.  skip:%s
 FindClose
 FindFirstFileW
 FindNextFileW
@@ -4190,10 +4199,8 @@ H#G0L
 H#L$8H
 H#OxH
 H#OxL
-H#~0H
 H$A;H
 H$A;I
-H(H+H H
 H+C H;
 H+C0H
 H+ChH
@@ -4220,11 +4227,21 @@ H-^Eu
 H8H+H0H
 H8H+H0L
 H9(t	H
+H9+t	H
 H9+t2H
 H9/t	H
+H90t	H
 H93t	H
 H948t
+H95=0?
+H95@<?
+H95D5?
+H95K7?
+H95`<?
 H98t	H
+H9;t	H
+H9=23?
+H9=sD?
 H9A H
 H9APt M
 H9A`u}f
@@ -4259,11 +4276,13 @@ H9X r
 H9X s
 H9Y s
 H9Z s
+H9Z0A
 H9\$0A
 H9i s
 H9k vZ
 H9p s
 H9p0t8H
+H9q s
 H9t$@
 H9t$P
 H9uXupE3
@@ -4288,9 +4307,10 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;= H6
-H;=:]!
-H;=FH6
+H;=:C"
+H;=J<"
+H;=nq"
+H;=~{"
 H;A s
 H;Axt
 H;C(v
@@ -4303,8 +4323,10 @@ H;EHt
 H;GhtWH
 H;H s
 H;J s
+H;K s
 H;K s;H
 H;K s<L
+H;K s=H
 H;K s=L
 H;K s?H
 H;K sAH
@@ -4352,6 +4374,7 @@ H;_@u
 H;k r
 H;o s
 H;q s
+H;r s
 H;s(r
 H;t$`
 H;t$`A
@@ -4378,9 +4401,12 @@ HAPTICDEBUG %s:%d device: 0x%x	 axis: 0x%x	 duration: %u us
 HAPTICDEBUG %s:%d sec: %f	 freq: %f	 amp: %f
 HA^A]A\[
 HA^A]_[
+HA^_][
 HA^_^[
 HA_A^A]A\
 HA_A^A]A\_^][
+HA__^]
+HHH+H@H
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -4399,6 +4425,7 @@ HMD found, but problems with the data (1112)
 HMD found, but problems with the data (1115)
 HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
+HPH+HHH
 Haptic
 Haptic vibration had the wrong type tag: %u
 HcA,H
@@ -4452,7 +4479,6 @@ I9B(r
 I9Bhs
 I9P s
 I9Q sEI
-I9V0t 
 I9W@t
 I9u@tCH
 I9x s
@@ -4675,6 +4701,7 @@ IVRSettings_001
 IVRSettings_002
 IVRSettings_003
 IVRSpatialAnchors_001
+IVRSteamPrivate_
 IVRSteamPrivate_001
 IVRSteamPrivate_002
 IVRSteamPrivate_003
@@ -4840,16 +4867,17 @@ Item in "skeleton" array missing path or output
 Item in "source" array is not an object
 Item in "source" array missing output parameter in input node
 Item in "source" array missing path or mode
+J0sm;
 J>@G_
 JPI+JHH
 JSON string too short.
 K(H+K H
 K(H9H s
 K(H9Q
+K0H9Q
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
-KHH9Q
 KHR_lights_punctual
 Kf;;u
 KfD;3u
@@ -4865,11 +4893,11 @@ L$ H;
 L$ Hc
 L$ HcO
 L$ HcQ
+L$ Hi
 L$ I+
 L$ I;
 L$ L+3H
 L$ L;
-L$ Li
 L$ SH
 L$ SUVWAVH
 L$ SUVWH
@@ -4922,6 +4950,7 @@ L$8L;
 L$@D8	u
 L$@D;
 L$@E3
+L$@H+
 L$@H9Q
 L$@H9t$@ujH
 L$@H;
@@ -4936,7 +4965,6 @@ L$HE3
 L$HH+
 L$HH3
 L$HH9}
-L$HHc
 L$HI+
 L$HI9T$Xt
 L$HL+
@@ -4972,7 +5000,6 @@ L$`fff
 L$hE3
 L$hH3
 L$hH;
-L$hM9
 L$p@2
 L$pE3
 L$pH+
@@ -4991,7 +5018,6 @@ L8 9J
 L8$9J
 L9 t'H
 L90t	H
-L93t	H
 L97u0H
 L9?u,H
 L9@ s
@@ -5145,6 +5171,7 @@ M9|$0
 M9|$0u
 M9|$8
 M9|$8t
+M9|$h
 M;<$r
 M;A r
 M;C(s
@@ -5175,7 +5202,6 @@ Missing expected "statusicons" from system resource manifest %s.
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
-N I9V0t
 NL$`I
 NORMAL
 NOT_READY
@@ -5209,7 +5235,6 @@ Not writing boolean value because it didn't change
 Not writing scalar value because it couldn't be read
 Not writing scalar value because it didn't change
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
-Nw#aO
 O(H9Q
 O0H9Q
 OPAQUE
@@ -5243,6 +5268,7 @@ PA]A\_^]
 PA^A]A\_^[]
 PA^A]_^[
 PA^][
+PA^^]
 PA^_]
 PA^_^
 PA^_^[]
@@ -5256,6 +5282,7 @@ PA_A^A]A\_
 PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA_A^A]^]
+PA_A^[
 PA_A^]
 PA_A^^
 PA_A^^][
@@ -5506,7 +5533,7 @@ Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
 QFailed to create internal command allocator
-QHL9u
+QHL9}
 QHtfH
 Qkkbal
 QueryPerformanceCounter
@@ -5514,7 +5541,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS4
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5566,8 +5592,10 @@ RenderEnd
 RenderModel::Load
 RenderStart
 RendermodelManager: 'components' json entry must be key/value map
+RendermodelManager: Failed GetOriginalComponentPath(%llu, %s, %s) 
+RendermodelManager: Finished setting up render model template: %s.
 RendermodelManager: Model info file %s was empty.
-RendermodelManager: Reading data from %s
+RendermodelManager: Reading data for: '%s' from '%s'
 RendermodelManager: Unable to parse %s: %s
 RendermodelManager: name=%s inputRouting=%d filename=%s
 RendermodelManager: unsupported motion type: %s. { allowed: none, rotate, translate, trackpad }
@@ -5629,6 +5657,7 @@ SUVWAVAWH
 SUVWAVH
 SUVWH
 SUWATAWH
+SUWAVH
 SVWATAUAVAWH
 SVWATH
 SVWAVAWH
@@ -5969,6 +5998,7 @@ USWATAUAWH
 USWATAUH
 USWATAVAWH
 USWATAWH
+USWATH
 USWAUAVAWH
 USWAUAVH
 USWAUH
@@ -5992,10 +6022,10 @@ UVWATAUH
 UVWATAVAWH
 UVWATAVH
 UVWATAWH
-UVWATH
 UVWAUAVH
 UVWAUH
 UVWAVAWH
+UVWAWH
 UWATAUAVAWH
 UWATAUAVH
 UWATAUAWH
@@ -6155,6 +6185,7 @@ VALVE_runtime_is_steamvr
 VATAUAVAWH
 VATAUH
 VATAVH
+VAUAWH
 VAVAWH
 VCRUNTIME140.dll
 VERSION.dll
@@ -6811,7 +6842,6 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%{1)
 W0H;C
 W4H;C
 W8H+W`I
@@ -6824,7 +6854,6 @@ WATAUAVAW
 WATAUAVAWH
 WATAUH
 WATAVH
-WAUAWH
 WAVAWH
 WDH;C
 WHH;C
@@ -6875,6 +6904,7 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
+X5:h"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -6920,12 +6950,25 @@ XR_ERROR_INSUFFICIENT_RESOURCES_PASSTHROUGH_FB
 XR_ERROR_LAYER_INVALID
 XR_ERROR_LAYER_LIMIT_EXCEEDED
 XR_ERROR_LIMIT_REACHED
+XR_ERROR_LOCALIZATION_MAP_ALREADY_EXISTS_ML
+XR_ERROR_LOCALIZATION_MAP_CANNOT_EXPORT_CLOUD_MAP_ML
+XR_ERROR_LOCALIZATION_MAP_FAIL_ML
+XR_ERROR_LOCALIZATION_MAP_IMPORT_EXPORT_PERMISSION_DENIED_ML
+XR_ERROR_LOCALIZATION_MAP_INCOMPATIBLE_ML
+XR_ERROR_LOCALIZATION_MAP_PERMISSION_DENIED_ML
+XR_ERROR_LOCALIZATION_MAP_UNAVAILABLE_ML
 XR_ERROR_LOCALIZED_NAME_DUPLICATED
 XR_ERROR_LOCALIZED_NAME_INVALID
+XR_ERROR_MARKER_DETECTOR_INVALID_CREATE_INFO_ML
+XR_ERROR_MARKER_DETECTOR_INVALID_DATA_QUERY_ML
+XR_ERROR_MARKER_DETECTOR_LOCATE_FAILED_ML
+XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
 XR_ERROR_MARKER_ID_INVALID_VARJO
+XR_ERROR_MARKER_INVALID_ML
 XR_ERROR_MARKER_NOT_TRACKED_VARJO
 XR_ERROR_NAME_DUPLICATED
 XR_ERROR_NAME_INVALID
+XR_ERROR_NOT_AN_ANCHOR_HTC
 XR_ERROR_NOT_PERMITTED_PASSTHROUGH_FB
 XR_ERROR_OUT_OF_MEMORY
 XR_ERROR_PASSTHROUGH_COLOR_LUT_BUFFER_SIZE_MISMATCH_META
@@ -7001,6 +7044,7 @@ XR_KHR_win32_convert_performance_counter_time
 XR_MND_headless
 XR_RENDER_MODEL_UNAVAILABLE_FB
 XR_RESULT_MAX_ENUM
+XR_SCENE_MARKER_DATA_NOT_STRING_MSFT
 XR_SESSION_LOSS_PENDING
 XR_SESSION_NOT_FOCUSED
 XR_SESSION_STATE_EXITING
@@ -7073,8 +7117,11 @@ XR_TYPE_DIGITAL_LENS_CONTROL_ALMALENCE
 XR_TYPE_EVENT_DATA_BUFFER
 XR_TYPE_EVENT_DATA_DISPLAY_REFRESH_RATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_EVENTS_LOST
+XR_TYPE_EVENT_DATA_EYE_CALIBRATION_CHANGED_ML
+XR_TYPE_EVENT_DATA_HEADSET_FIT_CHANGED_ML
 XR_TYPE_EVENT_DATA_INSTANCE_LOSS_PENDING
 XR_TYPE_EVENT_DATA_INTERACTION_PROFILE_CHANGED
+XR_TYPE_EVENT_DATA_LOCALIZATION_CHANGED_ML
 XR_TYPE_EVENT_DATA_MAIN_SESSION_VISIBILITY_CHANGED_EXTX
 XR_TYPE_EVENT_DATA_MARKER_TRACKING_UPDATE_VARJO
 XR_TYPE_EVENT_DATA_PASSTHROUGH_STATE_CHANGED_FB
@@ -7118,7 +7165,6 @@ XR_TYPE_FOVEATION_EYE_TRACKED_STATE_META
 XR_TYPE_FOVEATION_LEVEL_PROFILE_CREATE_INFO_FB
 XR_TYPE_FOVEATION_PROFILE_CREATE_INFO_FB
 XR_TYPE_FRAME_BEGIN_INFO
-XR_TYPE_FRAME_COMPOSITION_REPORT_EXT
 XR_TYPE_FRAME_END_INFO
 XR_TYPE_FRAME_END_INFO_ML
 XR_TYPE_FRAME_STATE
@@ -7171,7 +7217,19 @@ XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
+XR_TYPE_LOCALIZATION_ENABLE_EVENTS_INFO_ML
+XR_TYPE_LOCALIZATION_MAP_IMPORT_INFO_ML
+XR_TYPE_LOCALIZATION_MAP_ML
 XR_TYPE_LOCAL_DIMMING_FRAME_END_INFO_META
+XR_TYPE_MAP_LOCALIZATION_REQUEST_INFO_ML
+XR_TYPE_MARKER_DETECTOR_APRIL_TAG_INFO_ML
+XR_TYPE_MARKER_DETECTOR_ARUCO_INFO_ML
+XR_TYPE_MARKER_DETECTOR_CREATE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_CUSTOM_PROFILE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_SIZE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_SNAPSHOT_INFO_ML
+XR_TYPE_MARKER_DETECTOR_STATE_ML
+XR_TYPE_MARKER_SPACE_CREATE_INFO_ML
 XR_TYPE_MARKER_SPACE_CREATE_INFO_VARJO
 XR_TYPE_NEW_SCENE_COMPUTE_INFO_MSFT
 XR_TYPE_PASSTHROUGH_BRIGHTNESS_CONTRAST_SATURATION_FB
@@ -7212,6 +7270,9 @@ XR_TYPE_SCENE_COMPONENT_LOCATIONS_MSFT
 XR_TYPE_SCENE_COMPONENT_PARENT_FILTER_INFO_MSFT
 XR_TYPE_SCENE_CREATE_INFO_MSFT
 XR_TYPE_SCENE_DESERIALIZE_INFO_MSFT
+XR_TYPE_SCENE_MARKERS_MSFT
+XR_TYPE_SCENE_MARKER_QR_CODES_MSFT
+XR_TYPE_SCENE_MARKER_TYPE_FILTER_MSFT
 XR_TYPE_SCENE_MESHES_MSFT
 XR_TYPE_SCENE_MESH_BUFFERS_GET_INFO_MSFT
 XR_TYPE_SCENE_MESH_BUFFERS_MSFT
@@ -7252,6 +7313,7 @@ XR_TYPE_SPACE_USER_CREATE_INFO_FB
 XR_TYPE_SPACE_UUID_FILTER_INFO_FB
 XR_TYPE_SPACE_VELOCITY
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_FB
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_HTC
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_FROM_PERSISTED_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_PERSISTENCE_INFO_MSFT
@@ -7275,6 +7337,7 @@ XR_TYPE_SWAPCHAIN_STATE_ANDROID_SURFACE_DIMENSIONS_FB
 XR_TYPE_SWAPCHAIN_STATE_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_OPENGL_ES_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_VULKAN_FB
+XR_TYPE_SYSTEM_ANCHOR_PROPERTIES_HTC
 XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_COLOR_SPACE_PROPERTIES_FB
 XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT
@@ -7290,6 +7353,7 @@ XR_TYPE_SYSTEM_HAND_TRACKING_PROPERTIES_EXT
 XR_TYPE_SYSTEM_HEADSET_ID_PROPERTIES_META
 XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
+XR_TYPE_SYSTEM_MARKER_UNDERSTANDING_PROPERTIES_ML
 XR_TYPE_SYSTEM_PASSTHROUGH_COLOR_LUT_PROPERTIES_META
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES2_FB
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
@@ -7301,6 +7365,7 @@ XR_TYPE_SYSTEM_SPATIAL_ENTITY_PROPERTIES_FB
 XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
 XR_TYPE_UNKNOWN
+XR_TYPE_USER_CALIBRATION_ENABLE_EVENTS_INFO_ML
 XR_TYPE_VIEW
 XR_TYPE_VIEW_CONFIGURATION_DEPTH_RANGE_EXT
 XR_TYPE_VIEW_CONFIGURATION_PROPERTIES
@@ -7343,9 +7408,6 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y5>A)
-Y5hl"
-Y5qT"
 Y9"SD
 Y>t$7?*
 YL$8E
@@ -7432,6 +7494,7 @@ ZvFailed to create fence %ls.
 [Input] Attempting to load initial input config
 [Input] Binding path for haptic action %s could not be read: %s
 [Input] Binding path for haptic action %s resulted in property type tag %u instead of %u
+[Input] ClearXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
 [Input] DecompressSkeletalBoneData failed. Array for decompressed transforms is too small. Needed %u. Got %u
 [Input] DecompressSkeletalBoneData failed. Compressed skeleton buffer invalid for skeleton %s
 [Input] DecompressSkeletalBoneData failed. Invalid data
@@ -7512,6 +7575,12 @@ ZvFailed to create fence %ls.
 [Input] GetOriginTrackedDeviceInfo failed. pOriginInfo is invalid.
 [Input] GetOriginTrackedDeviceInfo failed. ulActionHandle is invalid.
 [Input] GetOriginTrackedDeviceInfo failed. unOriginInfoSize incorrect size. Got: %u. Expected: %zu.
+[Input] GetOriginalComponentPath failed with error code: %d.
+[Input] GetOriginalComponentPath failed. Device does not exist.
+[Input] GetOriginalComponentPath failed. Device does not have a valid role.
+[Input] GetOriginalComponentPath failed. Did not get response from VRMsg_Input_GetOriginalComponentPath quick enough.
+[Input] GetOriginalComponentPath: Non-critical failure. No binding for device container %llx. Type / Container list:
+[Input] GetPathFromControllerRole failed. No path for role: %d
 [Input] GetPoseActionDataRelativeToNow failed. Action data size parameter was incorrect. Got: %u. Wanted: %zu
 [Input] GetPoseActionDataRelativeToNow failed. Action is of the wrong type.
 [Input] GetPoseActionDataRelativeToNow failed. Device does not exist.
@@ -7710,7 +7779,6 @@ ZvFailed to create fence %ls.
 \$pff
 \$pt'H
 \$pu0D9d$<u)M
-\$xA9_
 \$xH+
 \$xH;
 \$xHi
@@ -7720,6 +7788,7 @@ ZvFailed to create fence %ls.
 \mfpmp.exe
 \u=H;
 \|$`D
+\~4?;
 ] buffer "
 ] bufferView "
 ] fff
@@ -7727,6 +7796,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
+]5wU*
 ]9k0tVD
 ]@L9{(
 ]HH;G
@@ -7737,6 +7807,7 @@ ZvFailed to create fence %ls.
 ]g@8yhu
 ]gfff
 ]pH9X
+]w)JL
 ]wfHc
 ^8H9?t&H
 ^8I9^@
@@ -7785,9 +7856,7 @@ __acrt_iob_func
 __std_exception_copy
 __std_exception_destroy
 __std_terminate
-__std_type_info_compare
 __std_type_info_destroy_list
-__std_type_info_hash
 __stdio_common_vfprintf
 __stdio_common_vsnprintf_s
 __stdio_common_vsprintf
@@ -7842,6 +7911,7 @@ _wgetcwd
 _wstat64i32
 ` @SH
 ` UAVAWH
+`".6i
 `(@SH
 `.rdata
 `0@SH
@@ -7853,7 +7923,8 @@ _wstat64i32
 `A^_]
 `A^_^
 `A_A]A\[]
-`A_A]_
+`A_A]^
+`A_A^A]A\]
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 `A_A^A]A\_^]H
@@ -7861,6 +7932,7 @@ _wstat64i32
 `A__^
 `H@SH
 `P@SH
+`PL+`HI
 `X@SH
 ``@SH
 ``````````````````````````````````````````````````````````````````````````````````````````````````
@@ -7904,7 +7976,6 @@ additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 alias_info
 alias_info field exists, but it is not an object
-alias_name
 allowComments
 allowDesktopBPMWithVRGamepadUI
 allowDroppedNullPlaceholders
@@ -8105,7 +8176,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\fake_app_container_config_path
 c@L+c8D
-cPL+cHI
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -8166,7 +8236,7 @@ controller_type
 corrupt
 count
 create
-cs_cs
+cs_cz
 cursor_index
 czech
 d$ E3
@@ -8202,7 +8272,7 @@ d$bHc
 d$hM;
 d$hfff
 d3d11.dll
-da_da
+da_dk
 danish
 dashboard
 dashboard_overlay_created
@@ -8294,6 +8364,7 @@ drivers
 dropNullPlaceholders
 drop_speed
 duration
+dutch
 dxgi.dll
 e0A_A^A]A\]
 eCS < CS_Count
@@ -8304,7 +8375,7 @@ e_H9U
 east_click
 east_touch
 effffff
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 en_US
@@ -8443,6 +8514,7 @@ force_sensor
 force_source
 forcedDriver
 fovScale
+fovScaleLetterboxed
 fputc
 fputs
 fr_fr
@@ -8693,8 +8765,8 @@ keyboard_vrwebui
 keylength >= 2^30
 khr_simple_controller
 knuckles
-ko_ko
-korean
+ko_kr
+koreana
 l$ ATAVAWH
 l$ AVH
 l$ E3
@@ -8710,6 +8782,7 @@ l$ VWATAUAVH
 l$ VWATAVAW
 l$ VWATH
 l$ VWAVH
+l$ VWAWH
 l$ WATAUH
 l$ WATAWH
 l$ WAVAWH
@@ -8730,6 +8803,7 @@ l$@A3
 l$@fD
 l$@t^
 l$DI9V
+l$HH;
 l$HI;
 l$PH;
 l$PI;
@@ -8746,7 +8820,7 @@ l$hL;
 l$pH;
 l$pL;l$P
 l$pM+
-l$pu'
+l$pt E
 l$x@2
 l$xE3
 l$xHc
@@ -8864,6 +8938,9 @@ minFilter
 minVersion
 minimum_required_version
 mirror_actions
+mirror_mappings
+mirror_mappings field exists, but it is not an array
+mirror_mappings has an element that is not two strings.
 missing
 missing binding_url in default binding
 missing color table
@@ -8888,9 +8965,11 @@ nParentBoneIndex != k_unInvalidBoneIndex
 nProcessId == data->m_nSceneFocusProcessId
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
+nb_no
 new_pid
 newmtl
 nfinity
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -8898,7 +8977,6 @@ no SOI
 no clear code
 no header height
 no preset dict
-no_no
 nodes
 normalTexture
 normalized
@@ -8921,8 +8999,8 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5?",
-o5K ,
+o5+a,
+o5|J!
 o@@fD
 oD$ fD
 oD$0f
@@ -8975,6 +9053,7 @@ overlay_key
 override_device_class
 overwrite.vrsettings
 p UWAVH
+p WATAUAVAWH
 p WATAVH
 pA]A\^
 pA]A\^[]
@@ -8987,6 +9066,7 @@ pA_A\]
 pA_A]A\_]
 pA_A]_^]
 pA_A^A\_]
+pA_A^A]
 pA_A^A]A\[
 pA_A^A]A\_^[
 pA_A^A]A\_^]
@@ -9034,6 +9114,7 @@ pauseCompositorOnStandby
 pbrMetallicRoughness
 perfcheck
 perspective
+pico_controller
 pid_%04x
 pinch
 pinchgrab
@@ -9531,6 +9612,7 @@ space
 spanish
 sparse
 spatialAnchorsSupport
+stD8mht
 stackLimit
 standaloneSystemLayer
 standard
@@ -9592,7 +9674,7 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
-sv_sv
+sv_se
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
 switch_dashboard_overlay_requested
@@ -9758,7 +9840,6 @@ t$PI+
 t$PI;
 t$PL+
 t$TI;
-t$XE3
 t$XH;
 t$`D;
 t$`E2
@@ -9777,6 +9858,7 @@ t$pH;
 t$pI;
 t$pfA
 t$pfD
+t$pu'
 t$xI;
 t&@8t$`u5H9l$0u.H
 t)H9P
@@ -9803,9 +9885,9 @@ tFH;Y r@H
 tFfff
 tHI9t$
 tJL;y rDH
-tK@8q<tEI
 tNI;X rHI
-tQH95
+tQ@8q4tKI
+tQH95g7?
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9862,7 +9944,6 @@ touched_path
 touchy_click
 touchy_latch
 toupper
-tpH9+t	H
 trL9?tm
 tr_tr
 trackedCamera
@@ -9886,7 +9967,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=
+t}H9=V3?
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -9928,14 +10009,15 @@ uO8D$@tI
 uP@8;uo
 uRf;>tM
 uSD9d$DuLD8
+uWH9P sEH
 uZEeu
-ua_ua
+u`H;u
 ub'vb'v
-udH9P sRH
 ugL9x s
 ugL;D$H
 ui8D$0tc
 ukH9X s
+uk_ua
 ukranian
 unCallingProcessID
 unMyPID == data
@@ -9995,7 +10077,7 @@ vector<bool> too long
 version
 version.txt
 vfA'I
-vi_vi
+vi_vn
 vibration
 vid_%04x
 vietnamiese
@@ -10050,7 +10132,10 @@ vkBindImageMemory
 vkBindImageMemory failed with result %d
 vkBindImageMemory2
 vkBindImageMemory2KHR
+vkBindOpticalFlowSessionImageNV
+vkBindVideoSessionMemoryKHR
 vkBuildAccelerationStructuresKHR
+vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
 vkCmdBeginQuery
@@ -10058,46 +10143,74 @@ vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
 vkCmdBeginRenderPass2
 vkCmdBeginRenderPass2KHR
+vkCmdBeginRendering
+vkCmdBeginRenderingKHR
 vkCmdBeginTransformFeedbackEXT
+vkCmdBeginVideoCodingKHR
+vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
+vkCmdBindDescriptorBufferEmbeddedSamplersEXT
+vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
+vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
+vkCmdBindVertexBuffers2
 vkCmdBindVertexBuffers2EXT
 vkCmdBlitImage
+vkCmdBlitImage2
 vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildMicromapsEXT
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
+vkCmdControlVideoCodingKHR
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
 vkCmdCopyBuffer
+vkCmdCopyBuffer2
 vkCmdCopyBuffer2KHR
 vkCmdCopyBufferToImage
+vkCmdCopyBufferToImage2
 vkCmdCopyBufferToImage2KHR
 vkCmdCopyImage
+vkCmdCopyImage2
 vkCmdCopyImage2KHR
 vkCmdCopyImageToBuffer
+vkCmdCopyImageToBuffer2
 vkCmdCopyImageToBuffer2KHR
+vkCmdCopyMemoryIndirectNV
 vkCmdCopyMemoryToAccelerationStructureKHR
+vkCmdCopyMemoryToImageIndirectNV
+vkCmdCopyMemoryToMicromapEXT
+vkCmdCopyMicromapEXT
+vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
 vkCmdCuLaunchKernelNVX
+vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
+vkCmdDecodeVideoKHR
+vkCmdDecompressMemoryIndirectCountNV
+vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
 vkCmdDispatchIndirect
 vkCmdDraw
+vkCmdDrawClusterHUAWEI
+vkCmdDrawClusterIndirectHUAWEI
 vkCmdDrawIndexed
 vkCmdDrawIndexedIndirect
 vkCmdDrawIndexedIndirectCount
@@ -10108,11 +10221,15 @@ vkCmdDrawIndirectByteCountEXT
 vkCmdDrawIndirectCount
 vkCmdDrawIndirectCountAMD
 vkCmdDrawIndirectCountKHR
+vkCmdDrawMeshTasksEXT
+vkCmdDrawMeshTasksIndirectCountEXT
 vkCmdDrawMeshTasksIndirectCountNV
+vkCmdDrawMeshTasksIndirectEXT
 vkCmdDrawMeshTasksIndirectNV
 vkCmdDrawMeshTasksNV
 vkCmdDrawMultiEXT
 vkCmdDrawMultiIndexedEXT
+vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
 vkCmdEndQuery
@@ -10120,7 +10237,10 @@ vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
+vkCmdEndRendering
+vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
+vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
@@ -10128,79 +10248,150 @@ vkCmdInsertDebugUtilsLabelEXT
 vkCmdNextSubpass
 vkCmdNextSubpass2
 vkCmdNextSubpass2KHR
+vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
+vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
+vkCmdResetEvent2
 vkCmdResetEvent2KHR
 vkCmdResetQueryPool
 vkCmdResolveImage
+vkCmdResolveImage2
 vkCmdResolveImage2KHR
+vkCmdSetAlphaToCoverageEnableEXT
+vkCmdSetAlphaToOneEnableEXT
+vkCmdSetAttachmentFeedbackLoopEnableEXT
 vkCmdSetBlendConstants
 vkCmdSetCheckpointNV
 vkCmdSetCoarseSampleOrderNV
+vkCmdSetColorBlendAdvancedEXT
+vkCmdSetColorBlendEnableEXT
+vkCmdSetColorBlendEquationEXT
 vkCmdSetColorWriteEnableEXT
+vkCmdSetColorWriteMaskEXT
+vkCmdSetConservativeRasterizationModeEXT
+vkCmdSetCoverageModulationModeNV
+vkCmdSetCoverageModulationTableEnableNV
+vkCmdSetCoverageModulationTableNV
+vkCmdSetCoverageReductionModeNV
+vkCmdSetCoverageToColorEnableNV
+vkCmdSetCoverageToColorLocationNV
+vkCmdSetCullMode
 vkCmdSetCullModeEXT
 vkCmdSetDepthBias
+vkCmdSetDepthBias2EXT
+vkCmdSetDepthBiasEnable
 vkCmdSetDepthBiasEnableEXT
 vkCmdSetDepthBounds
+vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
+vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClipEnableEXT
+vkCmdSetDepthClipNegativeOneToOneEXT
+vkCmdSetDepthCompareOp
 vkCmdSetDepthCompareOpEXT
+vkCmdSetDepthTestEnable
 vkCmdSetDepthTestEnableEXT
+vkCmdSetDepthWriteEnable
 vkCmdSetDepthWriteEnableEXT
+vkCmdSetDescriptorBufferOffsets2EXT
+vkCmdSetDescriptorBufferOffsetsEXT
 vkCmdSetDeviceMask
 vkCmdSetDeviceMaskKHR
 vkCmdSetDiscardRectangleEXT
+vkCmdSetDiscardRectangleEnableEXT
+vkCmdSetDiscardRectangleModeEXT
 vkCmdSetEvent
+vkCmdSetEvent2
 vkCmdSetEvent2KHR
+vkCmdSetExclusiveScissorEnableNV
 vkCmdSetExclusiveScissorNV
+vkCmdSetExtraPrimitiveOverestimationSizeEXT
 vkCmdSetFragmentShadingRateEnumNV
 vkCmdSetFragmentShadingRateKHR
+vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
+vkCmdSetLineRasterizationModeEXT
 vkCmdSetLineStippleEXT
+vkCmdSetLineStippleEnableEXT
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
+vkCmdSetLogicOpEnableEXT
 vkCmdSetPatchControlPointsEXT
 vkCmdSetPerformanceMarkerINTEL
 vkCmdSetPerformanceOverrideINTEL
 vkCmdSetPerformanceStreamMarkerINTEL
+vkCmdSetPolygonModeEXT
+vkCmdSetPrimitiveRestartEnable
 vkCmdSetPrimitiveRestartEnableEXT
+vkCmdSetPrimitiveTopology
 vkCmdSetPrimitiveTopologyEXT
+vkCmdSetProvokingVertexModeEXT
+vkCmdSetRasterizationSamplesEXT
+vkCmdSetRasterizationStreamEXT
+vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
+vkCmdSetSampleLocationsEnableEXT
+vkCmdSetSampleMaskEXT
 vkCmdSetScissor
+vkCmdSetScissorWithCount
 vkCmdSetScissorWithCountEXT
+vkCmdSetShadingRateImageEnableNV
 vkCmdSetStencilCompareMask
+vkCmdSetStencilOp
 vkCmdSetStencilOpEXT
 vkCmdSetStencilReference
+vkCmdSetStencilTestEnable
 vkCmdSetStencilTestEnableEXT
 vkCmdSetStencilWriteMask
+vkCmdSetTessellationDomainOriginEXT
 vkCmdSetVertexInputEXT
 vkCmdSetViewport
 vkCmdSetViewportShadingRatePaletteNV
+vkCmdSetViewportSwizzleNV
+vkCmdSetViewportWScalingEnableNV
 vkCmdSetViewportWScalingNV
+vkCmdSetViewportWithCount
 vkCmdSetViewportWithCountEXT
 vkCmdSubpassShadingHUAWEI
+vkCmdTraceRaysIndirect2KHR
 vkCmdTraceRaysIndirectKHR
 vkCmdTraceRaysKHR
 vkCmdTraceRaysNV
 vkCmdUpdateBuffer
+vkCmdUpdatePipelineIndirectBufferNV
 vkCmdWaitEvents
+vkCmdWaitEvents2
 vkCmdWaitEvents2KHR
 vkCmdWriteAccelerationStructuresPropertiesKHR
 vkCmdWriteAccelerationStructuresPropertiesNV
 vkCmdWriteBufferMarker2AMD
 vkCmdWriteBufferMarkerAMD
+vkCmdWriteMicromapsPropertiesEXT
 vkCmdWriteTimestamp
+vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImageEXT
+vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImageEXT
+vkCopyMemoryToMicromapEXT
+vkCopyMicromapEXT
+vkCopyMicromapToMemoryEXT
 vkCreateAccelerationStructureKHR
 vkCreateAccelerationStructureNV
 vkCreateBuffer
@@ -10210,6 +10401,8 @@ vkCreateCommandPool
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
+vkCreateCudaFunctionNV
+vkCreateCudaModuleNV
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -10231,8 +10424,11 @@ vkCreateImageView
 vkCreateIndirectCommandsLayoutNV
 vkCreateInstance
 vkCreateInstance failed with error %d
+vkCreateMicromapEXT
+vkCreateOpticalFlowSessionNV
 vkCreatePipelineCache
 vkCreatePipelineLayout
+vkCreatePrivateDataSlot
 vkCreatePrivateDataSlotEXT
 vkCreateQueryPool
 vkCreateRayTracingPipelinesKHR
@@ -10245,9 +10441,12 @@ vkCreateSamplerYcbcrConversion
 vkCreateSamplerYcbcrConversionKHR
 vkCreateSemaphore
 vkCreateShaderModule
+vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
 vkCreateValidationCacheEXT
+vkCreateVideoSessionKHR
+vkCreateVideoSessionParametersKHR
 vkCreateWin32SurfaceKHR
 vkDebugMarkerSetObjectNameEXT
 vkDebugMarkerSetObjectTagEXT
@@ -10260,6 +10459,8 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
+vkDestroyCudaFunctionNV
+vkDestroyCudaModuleNV
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -10275,9 +10476,12 @@ vkDestroyImage
 vkDestroyImageView
 vkDestroyIndirectCommandsLayoutNV
 vkDestroyInstance
+vkDestroyMicromapEXT
+vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
+vkDestroyPrivateDataSlot
 vkDestroyPrivateDataSlotEXT
 vkDestroyQueryPool
 vkDestroyRenderPass
@@ -10285,10 +10489,13 @@ vkDestroySampler
 vkDestroySamplerYcbcrConversion
 vkDestroySamplerYcbcrConversionKHR
 vkDestroySemaphore
+vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
 vkDestroyValidationCacheEXT
+vkDestroyVideoSessionKHR
+vkDestroyVideoSessionParametersKHR
 vkDeviceWaitIdle
 vkDisplayPowerControlEXT
 vkEndCommandBuffer
@@ -10310,6 +10517,7 @@ vkGetAccelerationStructureBuildSizesKHR
 vkGetAccelerationStructureDeviceAddressKHR
 vkGetAccelerationStructureHandleNV
 vkGetAccelerationStructureMemoryRequirementsNV
+vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT
 vkGetBufferDeviceAddress
 vkGetBufferDeviceAddressEXT
 vkGetBufferDeviceAddressKHR
@@ -10318,20 +10526,37 @@ vkGetBufferMemoryRequirements2
 vkGetBufferMemoryRequirements2KHR
 vkGetBufferOpaqueCaptureAddress
 vkGetBufferOpaqueCaptureAddressKHR
+vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
+vkGetCalibratedTimestampsKHR
+vkGetCudaModuleCacheNV
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
+vkGetDescriptorEXT
+vkGetDescriptorSetHostMappingVALVE
+vkGetDescriptorSetLayoutBindingOffsetEXT
+vkGetDescriptorSetLayoutHostMappingInfoVALVE
+vkGetDescriptorSetLayoutSizeEXT
 vkGetDescriptorSetLayoutSupport
 vkGetDescriptorSetLayoutSupportKHR
 vkGetDeviceAccelerationStructureCompatibilityKHR
+vkGetDeviceBufferMemoryRequirements
+vkGetDeviceBufferMemoryRequirementsKHR
+vkGetDeviceFaultInfoEXT
 vkGetDeviceGroupPeerMemoryFeatures
 vkGetDeviceGroupPeerMemoryFeaturesKHR
 vkGetDeviceGroupPresentCapabilitiesKHR
 vkGetDeviceGroupSurfacePresentModes2EXT
 vkGetDeviceGroupSurfacePresentModesKHR
+vkGetDeviceImageMemoryRequirements
+vkGetDeviceImageMemoryRequirementsKHR
+vkGetDeviceImageSparseMemoryRequirements
+vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
 vkGetDeviceMemoryOpaqueCaptureAddressKHR
+vkGetDeviceMicromapCompatibilityEXT
 vkGetDeviceProcAddr
 vkGetDeviceQueue
 vkGetDeviceQueue2
@@ -10342,22 +10567,30 @@ vkGetDisplayPlaneCapabilities2KHR
 vkGetDisplayPlaneCapabilitiesKHR
 vkGetDisplayPlaneSupportedDisplaysKHR
 vkGetDrmDisplayEXT
+vkGetDynamicRenderingTilePropertiesQCOM
+vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
 vkGetFenceFdKHR
 vkGetFenceStatus
 vkGetFenceWin32HandleKHR
+vkGetFramebufferTilePropertiesQCOM
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
 vkGetImageMemoryRequirements2
 vkGetImageMemoryRequirements2KHR
+vkGetImageOpaqueCaptureDescriptorDataEXT
 vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2EXT
+vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
 vkGetImageViewHandleNVX
+vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
+vkGetLatencyTimingsNV
 vkGetMemoryFdKHR
 vkGetMemoryFdPropertiesKHR
 vkGetMemoryHostPointerPropertiesEXT
@@ -10365,9 +10598,12 @@ vkGetMemoryRemoteAddressNV
 vkGetMemoryWin32HandleKHR
 vkGetMemoryWin32HandleNV
 vkGetMemoryWin32HandlePropertiesKHR
+vkGetMicromapBuildSizesEXT
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
+vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
@@ -10395,6 +10631,7 @@ vkGetPhysicalDeviceMemoryProperties
 vkGetPhysicalDeviceMemoryProperties2
 vkGetPhysicalDeviceMemoryProperties2KHR
 vkGetPhysicalDeviceMultisamplePropertiesEXT
+vkGetPhysicalDeviceOpticalFlowImageFormatsNV
 vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
@@ -10415,12 +10652,20 @@ vkGetPhysicalDeviceSurfaceFormatsKHR
 vkGetPhysicalDeviceSurfacePresentModes2EXT
 vkGetPhysicalDeviceSurfacePresentModesKHR
 vkGetPhysicalDeviceSurfaceSupportKHR
+vkGetPhysicalDeviceToolProperties
 vkGetPhysicalDeviceToolPropertiesEXT
+vkGetPhysicalDeviceVideoCapabilitiesKHR
+vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
+vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceWin32PresentationSupportKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
+vkGetPipelineIndirectDeviceAddressNV
+vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelinePropertiesEXT
+vkGetPrivateData
 vkGetPrivateDataEXT
 vkGetQueryPoolResults
 vkGetQueueCheckpointData2NV
@@ -10431,15 +10676,21 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularityKHR
+vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
 vkGetSemaphoreCounterValueKHR
 vkGetSemaphoreFdKHR
 vkGetSemaphoreWin32HandleKHR
+vkGetShaderBinaryDataEXT
 vkGetShaderInfoAMD
+vkGetShaderModuleCreateInfoIdentifierEXT
+vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
 vkGetValidationCacheDataEXT
+vkGetVideoSessionMemoryRequirementsKHR
 vkGetWinrtDisplayNV
 vkImportFenceFdKHR
 vkImportFenceWin32HandleKHR
@@ -10447,16 +10698,20 @@ vkImportSemaphoreFdKHR
 vkImportSemaphoreWin32HandleKHR
 vkInitializePerformanceApiINTEL
 vkInvalidateMappedMemoryRanges
+vkLatencySleepNV
 vkMapMemory
+vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
 vkQueueBeginDebugUtilsLabelEXT
 vkQueueBindSparse
 vkQueueEndDebugUtilsLabelEXT
 vkQueueInsertDebugUtilsLabelEXT
+vkQueueNotifyOutOfBandNV
 vkQueuePresentKHR
 vkQueueSetPerformanceConfigurationINTEL
 vkQueueSubmit
+vkQueueSubmit2
 vkQueueSubmit2KHR
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
@@ -10465,6 +10720,7 @@ vkReleaseDisplayEXT
 vkReleaseFullScreenExclusiveModeEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
+vkReleaseSwapchainImagesEXT
 vkResetCommandBuffer
 vkResetCommandPool
 vkResetDescriptorPool
@@ -10474,25 +10730,33 @@ vkResetQueryPool
 vkResetQueryPoolEXT
 vkSetDebugUtilsObjectNameEXT
 vkSetDebugUtilsObjectTagEXT
+vkSetDeviceMemoryPriorityEXT
 vkSetEvent
 vkSetHdrMetadataEXT
+vkSetLatencyMarkerNV
+vkSetLatencySleepModeNV
 vkSetLocalDimmingAMD
+vkSetPrivateData
 vkSetPrivateDataEXT
 vkSignalSemaphore
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
+vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateVideoSessionParametersKHR
 vkWaitForFences
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
+vkWriteMicromapsPropertiesEXT
 vr-input-workshop://
 vr-marker,frame_end,type,application
 vr_glove_left_skeleton.glb
@@ -10568,6 +10832,7 @@ www.digicert.com1$0"
 x ATAVAWH
 x AVH
 x L;mht
+x UATAUAVAWH
 x UAVAWH
 xA\^][
 xA]^[]
@@ -10583,7 +10848,7 @@ xrBeginFrame: compositor failed BeginFrame()
 xrBeginFrame: compositor failed DiscardFrame()
 xrBeginSession
 xrConvertTimeToWin32PerformanceCounterKHR
-xrConvertTimeToWin32PerformanceCounterKHR: invalid time
+xrConvertTimeToWin32PerformanceCounterKHR: Time was invalid.
 xrConvertTimeToWin32PerformanceCounterKHR: performanceCounter is null
 xrConvertWin32PerformanceCounterToTimeKHR
 xrConvertWin32PerformanceCounterToTimeKHR: performanceCounter is null
@@ -10659,10 +10924,12 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrLocateHandJoints: Time was invalid.
 xrLocateHandJointsEXT
 xrLocateSpace
 xrLocateViews
 xrLocateViews called with a different view configuration type (%d) than was used in xrBeginSession (%d)
+xrLocateViews: Display time was invalid.
 xrLocateViews: Switching to TrackingUniverseSeated because XR_REFERENCE_SPACE_TYPE_LOCAL continued to be requested for more than 3 seconds
 xrLocateViews: Switching to TrackingUniverseStanding because XR_REFERENCE_SPACE_TYPE_STAGE was requested
 xrNegotiateLoaderRuntimeInterface
@@ -10736,7 +11003,7 @@ znear
 |$(H;
 |$0"u+A
 |$0@2
-|$0D9y8t
+|$0D9yXt
 |$0E3
 |$0H9
 |$0H;
@@ -10746,6 +11013,7 @@ znear
 |$0u)H
 |$0uDH
 |$0w1
+|$4!u
 |$4$u
 |$4(u
 |$8D93
@@ -10790,6 +11058,7 @@ znear
 |$X@2
 |$XH+
 |$XH;
+|$\!u
 |$`H;
 |$hL;
 |$pE2
@@ -10806,7 +11075,6 @@ znear
 |$xIi
 |$xIk
 |$xL;
-|$|!u
 |8PH;
 |D8E t"H
 |Lu?c

@@ -29,6 +29,7 @@
  has invalid API Version.  Skipping layer.
  in HKEY_LOCAL_MACHINE
  in either HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
+ is being ignored due to running from an elevated context. The value '
  is disabled
  is missing "disable_environment"
  is missing required fields.  Verify all proper fields exist.
@@ -41,21 +42,22 @@
  using interface version 
  was not found
  with error 
+!!! WARNING !!! Environment variable 
 !hn7!
+%n{=OS
 %u.%u
 %u.%u.%u
-& @$q
 ' is not a number.
+' will NOT be used.
 ',=?k
 (A^A]^[
 (A_A^^[
 (A_A^_]
-(D$ H
-(D$ f
+(D$@f
 (f*^[0
 (t$ 2
 (t$ H
-(t$PL
+(t$PH
 (unknown)
 )D$ L
 )t$ H
@@ -79,6 +81,7 @@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
@@ -89,11 +92,14 @@
 .?AVCharReaderBuilder@Json@@
 .?AVDebugUtilsLogRecorder@?A0xe2804085@@
 .?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
+.?AVException@Json@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
+.?AVLogicError@Json@@
 .?AVOstreamLoaderLogRecorder@?A0xe2804085@@
 .?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
@@ -153,6 +159,7 @@
 0A_A^A\_^
 0A_A^A]A\_
 0A_A^A]A\_^[
+0A_A^A]_^
 0A__[
 0w0c1
 0x%llx (%lld): 
@@ -165,12 +172,13 @@
 220801000000Z
 230714000000Z
 2333333
-240201011154Z0/
+240311233139Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2r[ZT
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -204,6 +212,7 @@
 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1_Lockit@std@@QEAA@XZ
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
@@ -231,7 +240,6 @@
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-?f^9x
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
@@ -273,27 +281,20 @@
 @SWAWH
 @UAUAVAWH
 @UAVH
-@UAWH
-@USVATAWH
+@USVAUAVH
 @USVH
-@USWATAVH
 @USWATAWH
 @UVATAUAWH
 @UWAVAWH
-@VATAVH
-@VWAVH
+@]A{s
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
 ATAVAWH
 AUAVAWH
-A]A\_^]
-A^A\^
-A^A\_[]
 A^A]A\_]
-A^_^[]
-A_A\^[]
 A_A\_[]
+A_A\_^]
 A_A]A\^]
 A_A]_
 A_A^A\
@@ -307,11 +308,11 @@ A_A^A]]
 A_A^]
 A_A^_
 A_A^_[]
-A_A^_^]
 Active XrInstance handle already exists
 ActiveRuntime
 ApiLayerInterface being destroyed for layer 
 ApiLayerInterface::GetApiLayerProperties - failed searching for API layer manifest files
+ApiLayerInterface::GetApiLayerProperties - too many API layers found
 ApiLayerInterface::GetInstanceExtensionProperties - failed searching for API layer manifest files
 ApiLayerInterface::LoadApiLayers - failed to find layer 
 ApiLayerInterface::LoadApiLayers skipping layer 
@@ -324,29 +325,22 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9<
-CD$0D
-CD$0I
-CD$0f
-CD$@@
 CD$@A
-CD$@D
-CD$@I
-CD$`3
-CD$h3
-CL$0H
-CL$0K
+CD$PD
 CL$@E3
+CL$PH
 CL$`H
+CT$@D
 CT$@E
-CT$XH
+CT$@H
+CT$pH
+C\$0H
 C\$0L
 C\$@D
+C\$@E
 C\$@H
 C\$@L
-C\$@M
-C\$PH
 C\$PL
-C\$XE
 C\$XH
 C\$XL
 C\$XM
@@ -357,30 +351,34 @@ CloseHandle
 Completed loader terminator
 Completed loader trampoline
 CreateEventW
+C|$0H
+C|$0L
 D$ A;
+D$ D8
 D$ E3
-D$ H;
 D$ L;
 D$(H;
 D$0E3
 D$0H;
 D$0tx
-D$8L96u
+D$@H;
 D$@HcH
 D$@I;
 D$PH9A
 D$PH;
 D$PL;
 D$Pu)
+D$`H;
 D$`HcH
+D$`I;
 D$hH;
 D$hL;
 D$pE3
 D$pHcH
 D$xH+
 D$xI+
+D8$>u
 D8|$AD
-D;l$0
 DeleteCriticalSection
 Destroying LoaderInstance = 
 DigiCert Assured ID Root CA0
@@ -392,14 +390,13 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
+E0HcH
 E8,9u
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
 Entering loader terminator
 Entering loader trampoline
-Eo%lf
-EpHcH
 Error [
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
@@ -414,10 +411,12 @@ FindNextFileW
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
+G(L9w 
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
+GetEnvironmentVariable get value error: 
 GetEnvironmentVariableW
 GetFileAttributesW
 GetFullPathNameW
@@ -429,8 +428,10 @@ GetSidSubAuthorityCount
 GetSystemTimeAsFileTime
 GetTokenInformation
 H!C@H
+H!G@H
 H#L$PH
 H+L$HI
+H+SpH
 H+SpI
 H+WpH
 H+WpI
@@ -439,7 +440,8 @@ H-^Eu
 H9Ahs
 H9E8u$H
 H9Qhv#H
-H;9u|A
+H9uHt<H
+H;9u?I
 H;Axt
 H;Cxu
 H;Y t
@@ -456,6 +458,7 @@ InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 Instance handle is XR_NULL_HANDLE.
+Invalid Function pointer
 Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
@@ -467,8 +470,10 @@ L#F0H
 L#F0L
 L$ E3
 L$ H;
+L$ Hk
 L$ SUVWH
 L$ SVWH
+L$ UWAUH
 L$(E3
 L$(K9
 L$0H9V
@@ -477,14 +482,13 @@ L$@H;
 L$@I;
 L$PH;
 L$XI+
+L$`E3
+L$xE3
 L9T$Xty
-L9d$pu
-L9d$xu
-L9uHt<H
 L9v t=H
-L9|$@
-L;8tUM
-L;8u6H
+L9|$`
+L;(t^M
+L;8u:H
 L;C u
 L;C u=
 L?n(Zy&
@@ -502,6 +506,7 @@ LoaderInstance::CreateInstance, no support found for requested extension:
 M H1E
 M98u/
 MB(iVR
+MNg)z
 MSVCP140.dll
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
@@ -527,6 +532,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+Ra<1{
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -549,7 +555,6 @@ RuntimeManifestFile::CreateIfValid - attempting to load
 RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
 RuntimeManifestFile::FindManifestFiles - found too many default runtime files in registry
 RuntimeManifestFile::FindManifestFiles - using environment variable override runtime file 
-RuntimeManifestFile::FindManifestFiles - using global runtime file 
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
 SA|X=G
@@ -563,28 +568,28 @@ Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-SrC6[
 Syntax error: value, object or array expected.
+T$ A;
 T$0H;
 T$HE3
 T$PH;
+T$`E3
 T$xE3
 TUUUUUU
 Type is not convertible to string
 UATAUAVAWH
 UAVAWH
 UNKNOWN
-USVWAVH
 USWAVAWH
 UUUUUUU
 UVAVH
 UVWATAUAVAWH
+UVWATAWH
 UVWAVAWH
 UWATAUAVH
 UWATAVAWH
 UWAVH
 UWAWH
-Unable to parse token length
 UnhandledExceptionFilter
 Unknown error occurred calling down chain
 Unknown exception
@@ -617,6 +622,7 @@ VUID-xrGetInstanceProcAddr-instance-parameter
 VUID-xrSessionBeginDebugUtilsLabelRegionEXT-labelInfo-parameter
 VUID-xrSessionInsertDebugUtilsLabelEXT-labelInfo-parameter
 VWATAVAWH
+VWAUAVAWH
 VWAVH
 VWAWH
 V_~]	,
@@ -645,8 +651,8 @@ Y9"SD
 \$ I;]
 \$ UAVAWH
 \$ UH
-\$ UVWATAUH
-\$ UWATH
+\$ UVAVH
+\$ UVWATAWH
 \$ UWAWH
 \$ VWATAVAWH
 \$ WAVAWH
@@ -654,11 +660,12 @@ Y9"SD
 \$(I;]
 \$0H;
 \$8H;
-\$HH9W
 \$HH;
 \$PH;
 \$PI;
+\$hH;
 \$hI;
+\$pI;
 \$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
@@ -705,21 +712,20 @@ _register_onexit_function
 _seh_filter_dll
 _unlock_file
 `.rdata
-`A^_^
+`A^A]^[]
 `A_A^A\_^
 `A_A^A]A\_^]
 a7hIw
-abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments
 allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
+allowTrailingCommas
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
-api-ms-win-crt-locale-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -727,6 +733,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api_layer
 api_version
 application name missing NULL terminator.
+assert json failed
 bad allocation
 bad array new length
 bad cast
@@ -748,7 +755,6 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 extension_version
 f9,Xu
 fB94@u
-fF9$@u
 failIfExtra
 failed allocating memory
 failed to open 
@@ -765,7 +771,6 @@ fputc
 fsetpos
 functions
 fwrite
-gZF)d
 gfffffffH
 gfffffffH+
 gfffffffI
@@ -805,13 +810,11 @@ l$@E3
 l$PH;1u;H;
 l$pE3
 l$ptNH
-l$pu!H
 l2|X/gGe
 labelInfo must be non-NULL
 layer 
 library_path
 list<T> too long
-localeconv
 m0k0$
 malloc
 map/set<T> too long
@@ -825,22 +828,25 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
-q3?&OT
+platform_utils
 rejectDupKeys
 runtime
 s t#fff
+sM!#o
 setvbuf
+skipBom
 something wrong with XrInstanceCreateInfo contents
 stackLimit
 strcmp
 strictRoot
 string too long
+strncmp
 strncpy
 t$ AVH
 t$ AWH
 t$ E3
 t$ UH
-t$ UWAWH
+t$ UWAVH
 t$ WATAUAVAWH
 t$ WATAWH
 t$ WAVAWH
@@ -850,7 +856,6 @@ t$8E3
 t$8H+
 t$8t*
 t$@E3
-t$@H+
 t$@H;
 t$@H=
 t$@HcH
@@ -858,58 +863,54 @@ t$HH;
 t$HL;
 t$HM;
 t$PH=
+t$`H+
 t$`HcH
+t$hHi
+t$hL;
 t$xH;
 t9H9h
 tmfff
+u	;{(@
+u!L9p 
 ungetc
 unknown type in properties
+utf8_to_wide convert string error: 
+utf8_to_wide get size error: 
 v=Y]Bv
 vector<T> too long
 verbose
+wide_to_utf8 convert string error: 
+wide_to_utf8 get size error: 
 www.digicert.com1!0
 www.digicert.com1$0"
+x AVH
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
 xrBeginFrame
 xrBeginSession
-xrConvertTimeToWin32PerformanceCounterKHR
-xrConvertWin32PerformanceCounterToTimeKHR
 xrCreateAction
 xrCreateActionSet
 xrCreateActionSpace
 xrCreateApiLayerInstance
 xrCreateDebugUtilsMessengerEXT
-xrCreateHandMeshSpaceMSFT
-xrCreateHandTrackerEXT
 xrCreateInstance
 xrCreateInstance called with invalid API version 
 xrCreateInstance failed
 xrCreateReferenceSpace
 xrCreateSession
-xrCreateSpatialAnchorFromPerceptionAnchorMSFT
-xrCreateSpatialAnchorMSFT
-xrCreateSpatialAnchorSpaceMSFT
-xrCreateSpatialGraphNodeSpaceMSFT
 xrCreateSwapchain
-xrCreateVulkanDeviceKHR
-xrCreateVulkanInstanceKHR
 xrDestroyAction
 xrDestroyActionSet
 xrDestroyDebugUtilsMessengerEXT
-xrDestroyHandTrackerEXT
 xrDestroyInstance
 xrDestroySession
 xrDestroySpace
-xrDestroySpatialAnchorMSFT
 xrDestroySwapchain
 xrEndFrame
 xrEndSession
 xrEnumerateApiLayerProperties
 xrEnumerateBoundSourcesForAction
-xrEnumerateColorSpacesFB
-xrEnumerateDisplayRefreshRatesFB
 xrEnumerateEnvironmentBlendModes
 xrEnumerateInstanceExtensionProperties
 xrEnumerateReferenceSpaces
@@ -921,13 +922,7 @@ xrGetActionStateBoolean
 xrGetActionStateFloat
 xrGetActionStatePose
 xrGetActionStateVector2f
-xrGetControllerModelKeyMSFT
-xrGetControllerModelPropertiesMSFT
-xrGetControllerModelStateMSFT
 xrGetCurrentInteractionProfile
-xrGetD3D11GraphicsRequirementsKHR
-xrGetD3D12GraphicsRequirementsKHR
-xrGetDisplayRefreshRateFB
 xrGetInputSourceLocalizedName
 xrGetInstanceProcAddr
 xrGetInstanceProperties
@@ -935,67 +930,50 @@ xrGetReferenceSpaceBoundsRect
 xrGetSystem
 xrGetSystemProperties
 xrGetViewConfigurationProperties
-xrGetVisibilityMaskKHR
-xrGetVulkanDeviceExtensionsKHR
-xrGetVulkanGraphicsDevice2KHR
-xrGetVulkanGraphicsDeviceKHR
-xrGetVulkanGraphicsRequirements2KHR
-xrGetVulkanGraphicsRequirementsKHR
-xrGetVulkanInstanceExtensionsKHR
 xrInitializeLoaderKHR
-xrLoadControllerModelMSFT
-xrLocateHandJointsEXT
 xrLocateSpace
 xrLocateViews
 xrNegotiateLoaderApiLayerInterface
 xrNegotiateLoaderRuntimeInterface
 xrPathToString
-xrPerfSettingsSetPerformanceLevelEXT
 xrPollEvent
 xrReleaseSwapchainImage
-xrRequestDisplayRefreshRateFB
 xrRequestExitSession
 xrResultToString
 xrSessionBeginDebugUtilsLabelRegionEXT
 xrSessionEndDebugUtilsLabelRegionEXT
 xrSessionInsertDebugUtilsLabelEXT
-xrSetColorSpaceFB
 xrSetDebugUtilsObjectNameEXT
-xrSetEnvironmentDepthEstimationVARJO
-xrSetInputDeviceActiveEXT
-xrSetInputDeviceLocationEXT
-xrSetInputDeviceStateBoolEXT
-xrSetInputDeviceStateFloatEXT
-xrSetInputDeviceStateVector2fEXT
 xrStopHapticFeedback
 xrStringToPath
 xrStructureTypeToString
 xrSubmitDebugUtilsMessageEXT
 xrSuggestInteractionProfileBindings
 xrSyncActions
-xrThermalGetTemperatureTrendEXT
-xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
-xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
 {un'%
 |$ ATAVAWH
 |$ AVH
+|$ E3
 |$ UATAUAVAWH
 |$ UAVAWH
 |$ UH
 |$0H;
 |$0L;
 |$8L;
+|$@E3
 |$AE3
 |$HH;
 |$HH=
-|$HI+
 |$HL;
 |$PH+
 |$XH;
+|$`E3
 |$hH;
+|$hL;
 |$pH+
+|$x@8
 |$xH;
 |$xIi
 |Lu?c

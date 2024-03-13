@@ -1721,12 +1721,12 @@ For FontConfig, part of Pango, part of Panorama:
 
 fontconfig/COPYING
 
-Copyright © 2000,2001,2002,2003,2004,2006,2007 Keith Packard
-Copyright © 2005 Patrick Lam
-Copyright © 2009 Roozbeh Pournader
-Copyright © 2008,2009 Red Hat, Inc.
-Copyright © 2008 Danilo Šegan
-Copyright © 2012 Google, Inc.
+Copyright ï¿½ 2000,2001,2002,2003,2004,2006,2007 Keith Packard
+Copyright ï¿½ 2005 Patrick Lam
+Copyright ï¿½ 2009 Roozbeh Pournader
+Copyright ï¿½ 2008,2009 Red Hat, Inc.
+Copyright ï¿½ 2008 Danilo ï¿½egan
+Copyright ï¿½ 2012 Google, Inc.
 
 
 Permission to use, copy, modify, distribute, and sell this software and its
@@ -1752,7 +1752,7 @@ PERFORMANCE OF THIS SOFTWARE.
 For FreeType, part of Pango, part of Panorama:
 -------------------
 
-    Portions of this software are copyright © 2014 The FreeType
+    Portions of this software are copyright ï¿½ 2014 The FreeType
     Project (www.freetype.org).  All rights reserved.
 
 
@@ -1763,17 +1763,17 @@ HarfBuzz is licensed under the so-called "Old MIT" license.  Details follow.
 For parts of HarfBuzz that are licensed under different licenses see individual
 files names COPYING in subdirectories where applicable.
 
-Copyright © 2010,2011,2012  Google, Inc.
-Copyright © 2012  Mozilla Foundation
-Copyright © 2011  Codethink Limited
-Copyright © 2008,2010  Nokia Corporation and/or its subsidiary(-ies)
-Copyright © 2009  Keith Stribley
-Copyright © 2009  Martin Hosken and SIL International
-Copyright © 2007  Chris Wilson
-Copyright © 2006  Behdad Esfahbod
-Copyright © 2005  David Turner
-Copyright © 2004,2007,2008,2009,2010  Red Hat, Inc.
-Copyright © 1998-2004  David Turner and Werner Lemberg
+Copyright ï¿½ 2010,2011,2012  Google, Inc.
+Copyright ï¿½ 2012  Mozilla Foundation
+Copyright ï¿½ 2011  Codethink Limited
+Copyright ï¿½ 2008,2010  Nokia Corporation and/or its subsidiary(-ies)
+Copyright ï¿½ 2009  Keith Stribley
+Copyright ï¿½ 2009  Martin Hosken and SIL International
+Copyright ï¿½ 2007  Chris Wilson
+Copyright ï¿½ 2006  Behdad Esfahbod
+Copyright ï¿½ 2005  David Turner
+Copyright ï¿½ 2004,2007,2008,2009,2010  Red Hat, Inc.
+Copyright ï¿½ 1998-2004  David Turner and Werner Lemberg
 
 For full copyright notices consult the individual files in the package.
 
@@ -4501,7 +4501,7 @@ For TinyGLTF:
 ---------------
 MIT License
 
-Copyright (c) 2017 Syoyo Fujita, Aurélien Chatelain and many contributors
+Copyright (c) 2017 Syoyo Fujita, Aurï¿½lien Chatelain and many contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -4559,7 +4559,7 @@ SOFTWARE.
 ---------------
 For base64:
 ---------------
-Copyright (C) 2004-2008 René Nyffenegger
+Copyright (C) 2004-2008 Renï¿½ Nyffenegger
 
 
    This source code is provided 'as-is', without any express or implied
@@ -4580,7 +4580,7 @@ Copyright (C) 2004-2008 René Nyffenegger
 
    3. This notice may not be removed or altered from any source distribution.
 
-   René Nyffenegger rene.nyffenegger@adp-gmbh.ch
+   Renï¿½ Nyffenegger rene.nyffenegger@adp-gmbh.ch
 
 
 ---------------
@@ -4670,7 +4670,7 @@ contributors may be used to endorse or promote products derived from
 this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-“AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ï¿½AS ISï¿½ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
 A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
 HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
@@ -5035,3 +5035,17 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
+
+
+----------
+For Volk
+https://github.com/zeux/volk
+----------
+
+Copyright (c) 2018-2023 Arseny Kapoulkine
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

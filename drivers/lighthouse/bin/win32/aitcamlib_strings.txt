@@ -1,6 +1,7 @@
 																																																																																																																
 	!s99
  %41g
+ <,~\N5
 !(0)"
 !9~ t
 !hn7!
@@ -11,7 +12,6 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&3dv*[
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -23,7 +23,6 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-)M'("
 +Xt@(
 +o'q)}
 , last executing in 
@@ -131,7 +130,7 @@ $9^ t
 0 width
 0!0%0+050?0F0P0Z0a0k0
 0#0*050B0L0R0
-0$0(080<0@0H0`0p0t0
+0$04080H0L0P0X0p0
 0%0L0Q0X0_0f0
 0&0,0<0m0
 0'1.1
@@ -144,7 +143,7 @@ $9^ t
 0e1n1v1
 0w0c1
 0}0i1
-1 1$1(101H1L1d1t1x1
+1 1014181@1X1\1t1
 1"121=1^1n1x1
 1$1-1p1~1
 1,101=1A1z6~6
@@ -159,7 +158,7 @@ $9^ t
 1d6h6
 1h3l3p3t3x3|3
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$2(202H2X2\2l2p2
+2 2024282@2X2h2l2|2
 2"3&3
 2#2(222C2H2R2c2h2r2
 2&292
@@ -173,7 +172,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240201010812Z0/
+240311232224Z0/
 241009235959Z0a1
 282<2@2D224b4
 294=4L4P4T4X4\4
@@ -185,10 +184,10 @@ $9^ t
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3 3$3(3,3034383<3@3D3H3T3
-3 3(3@3D3\3l3p3t3x3|3
 3 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5
 3#3(3-32373<3A3F3K3P3c3h3r3
 3#5\5
+3$3(3,30383P3T3l3|3
 3&303:3D3N3X3b3l3v3
 3+3G3_3
 311109235959Z0b1
@@ -205,20 +204,20 @@ $9^ t
 3m5u5
 3mq+<
 3z4@5
-4 4(4@4P4T4X4\4`4d4l4
 4!5(5E5o5
 4"424=4^4n4x4
 4#4(424C4H4R4c4h4r4
 4'4?4y4
 4+5a5t5}5
+4,40484P4`4d4h4l4p4t4|4
 4,4E4L4e4l4
 495W5_5
 4?6H6O6
 4S5::
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5 585H5L5\5`5h5
 5!5&5+505A5K5Q5U5[5_5e5p5x5
 5%656b7
-5(585<5L5P5X5p5
 5,5D5M5X5_5
 5,5]5
 5.585B5R5]5~5
@@ -269,8 +268,8 @@ $9^ t
 8!818A8Q8l8
 8#8(828C8H8R8c8h8r8
 8#8,818:8N8V8\8j8v8
-8(:,:0:
 8,838L8S8n8
+8@:D:H:
 8D8N8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -294,14 +293,14 @@ $9^ t
 :#;W;
 :%:-:1:
 :&;.;W;a;k;};
-:(:4:<:\:
 :(:6:::
 :):n:t:
 :3:X:}:
+:8:D:L:l:
 :;:w:
 :T;+<o<
 :X;{;
-; ;$;(;,;0;4;
+; ;$;(;,;0;4;8;<;@;D;H;L;
 ; <$<(<,<0<4<8<<<@<D<
 ;!;%;8;b;
 ;#;-;C;M;a;o;t;
@@ -311,27 +310,29 @@ $9^ t
 ;(<s<
 ;-;F;
 ;-<x<
-;0;<;D;\;`;p;
 ;9?=?
 ;<=Z=
+;@;L;T;l;p;
 ;n;t;
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
+<$<,<L<p<|<
 <(=,=
+<,=0=P=p=
 <.<><H<R<b<m<
 <0:08
-<<<`<l<t<
 <R>n>
 <_=r=
 <a=n=
 <unknown>
-= =@=`=|=
 ="=-=N=^=h=r=
 =(>.>F>U>[>d>v>|>
 =,=L=l=
 =1=A=Q=]=i=s=
 =rIQU
+> >x>|>
 >%?B?^?x?
+>%sOJ
 >(>2>B>M>n>~>
 >(?r?y?
 >0<0:
@@ -342,8 +343,7 @@ $9^ t
 >Mp$d
 >T>6?
 >[>c>k>/?7?j?y?
->h>l>p>t>
-?(?8?<?D?\?l?p?x?
+? ?8?H?L?T?l?|?
 ?.?>?H?R?a?q?w?{?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
@@ -430,6 +430,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H-^Eu
+HDB)O
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -483,7 +484,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N[OFE
 Not Available
 NotFound
 Out of thread local storage!
@@ -492,20 +492,23 @@ OutputDebugStringW
 P<^_3
 PAq=?Mp#
 PID_%04X
-PQhh+
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QB5kc
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R$( \]
 RPCRT4.dll
+RSDSd+
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
+Rz(;4
 S0Q0O
 SA|X=G
 SETUPAPI.dll
@@ -592,6 +595,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+XLF>w
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -710,15 +714,15 @@ cameraFrameRate
 cameraISPSyncDivisor
 cameraSensorFrameRate
 can't merge dc and ac
-cbxD[4
 corrupt
-cs_cs
+cs_cz
 czech
-da_da
+da_dk
 danish
 de_de
 deque<T> too long
-el_el
+dutch
+el_gr
 en_us
 english
 es_es
@@ -753,11 +757,13 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-ko_ko
-korean
+k>Aq)~O'{g
+ko_kr
+koreana
 l2|X/gGe
 latam
 ldexp
+lm\CM
 m0k0$
 malloc
 map/set<T> too long
@@ -767,6 +773,8 @@ memmove
 memset
 missing color table
 multiple IHDR
+nb_no
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -774,7 +782,6 @@ no SOI
 no clear code
 no header height
 no preset dict
-no_no
 norwegian
 not BMP
 not GIF
@@ -806,7 +813,8 @@ strncpy
 strncpy_s
 strstr
 strtol
-sv_sv
+svG,<,
+sv_se
 swedish
 t"Php
 tRNS after IDAT
@@ -826,7 +834,7 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
 uEVj@
-ua_ua
+uk_ua
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 unknown BMP
@@ -838,7 +846,7 @@ unsupported data layout
 unsupported format
 v#QPh8
 v=Y]Bv
-vi_vi
+vi_vn
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
@@ -850,11 +858,9 @@ www.digicert.com1$0"
 zh_cn
 zh_tw
 zlib corrupt
-zxgG0
 {un'%
+|/?0z
 |Lu?c
 }LuHO
-}h0*q
-~W5N-"
 ~qj#k"
 ~t&LN

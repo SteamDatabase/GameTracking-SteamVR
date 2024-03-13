@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR-Entwicklersupport"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks-Entwicklersupport"
 "MenuAction_CreateSystemReport" "Systembericht erstellen"
+"MenuAction_ToggleDashboard" "Dashboard umschalten"
 "MenuAction_Recenter" "Erneut zentrieren"
 "MenuAction_SystemReportViewer" "Systemberichtanzeige"
 "MenuAction_DisplayFrameTiming" "Erweiterte Frame-Synchronisierung"

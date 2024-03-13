@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR-utviklerstøtte"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks-utviklerstøtte"
 "MenuAction_CreateSystemReport" "Opprett systemrapport"
+"MenuAction_ToggleDashboard" "Åpne/lukk dashbord"
 "MenuAction_Recenter" "Midtstill"
 "MenuAction_SystemReportViewer" "Systemrapportvisning"
 "MenuAction_DisplayFrameTiming" "Avansert bildetiming"

@@ -882,7 +882,6 @@ $w!Hc
 +temp_high
 +temp_low
 +unknown
-+us4}}{
 , IMU susp: 
 , VRC susp: 
 , binary size = 
@@ -911,6 +910,7 @@ $w!Hc
 -D9c0t%H
 -IPCWrapper
 -Infinity
+-oe2u
 -t!?Ks
 -t1?Ks
 -tA?Ks
@@ -1396,7 +1396,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240201011003Z0/
+240311233006Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1484,7 +1484,6 @@ $w!Hc
 9Y$~9H
 9ZH~43
 9ZX~;
-9]U.e
 9]pu2
 9^(~F3
 9^,~#3
@@ -1620,7 +1619,6 @@ $w!Hc
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
-=]-{826
 =q=J?
 =rIQU
 >"t-H
@@ -1638,7 +1636,6 @@ $w!Hc
 ?&x0O
 ?'1(?
 ?)\o?;
-?-B<T
 ?333333
 ?333?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -1967,7 +1964,6 @@ $w!Hc
 @^8U)zj
 @_RDATA
 @fff>fff>fff>fff>
-@~o&9p,
 A H+A
 A H;A
 A file with this name is already in the pool.
@@ -3492,17 +3488,20 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
+H9-qE!
 H91u 
 H92u&
 H92u,
 H93t	H
-H958V+
-H95b7)
-H95zX+
+H95*~+
+H95X{+
+H95bW)
+H95l{+
 H97t	H
 H98t	H
 H9;uAA
-H9=#^+
+H9=j?)
+H9=vr+
 H9A s
 H9A u&
 H9A u6
@@ -3567,9 +3566,7 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=cC
-H;=sB
-H;={;
+H;=#Z
 H;Axt
 H;B0t
 H;C sAH
@@ -3633,7 +3630,7 @@ HA^_^[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
-HL9-So(
+HL9-S
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
 HMD Report:
@@ -3789,7 +3786,7 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IL9-tB(
+IL9-tb(
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -3844,7 +3841,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -4138,45 +4135,36 @@ L+P@H
 L+Q@I
 L80L;
 L9&u"
-L9-!Y(
-L9-"A(
-L9-$R(
-L9-$n(
-L9-%I(
-L9-%\(
-L9-*b(
-L9-5Z(
-L9-7o&
-L9-8l(
-L9-:S(
-L9-;N(
-L9-Ah(
-L9-Bc(
-L9-CE(
-L9-ID(
-L9-NK(
-L9-Np(
-L9-QO(
-L9-Qk(
-L9-T?(
-L9-Y@(
-L9-_T(
-L9-_g(
-L9-a](
-L9-gP(
-L9-g`(
-L9-j[(
-L9-nL(
-L9-nj(
-L9-}f(
+L9-!y(
+L9-"a(
+L9-$r(
+L9-%i(
+L9-%|(
+L9-5z(
+L9-:s(
+L9-;n(
+L9-Ce(
+L9-Id(
+L9-Nk(
+L9-Qo(
+L9-T_(
+L9-Y`(
+L9-_t(
+L9-a}(
+L9-gp(
+L9-j{(
+L9-nl(
 L90H;
 L90M;
 L92u'
-L95"r'
-L95LS'
-L95cq'
+L95Ls'
 L97u0H
-L9=LE&
+L9="+'
+L9==1'
+L9=>,'
+L9=Le&
+L9=N0'
+L9=`-'
 L9?u,H
 L9@ s
 L9A r
@@ -5512,7 +5500,7 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5+.!
+Y5CF!
 Y9"SD
 Y?33s?
 YAHH+
@@ -5648,6 +5636,7 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
+\O 5&
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -6020,7 +6009,7 @@ controller
 corrupt
 count
 create
-cs_cs
+cs_cz
 ctype
 czech
 d$ E3
@@ -6054,7 +6043,7 @@ d$hHcC,L
 d$pI;
 d$xL;
 d3d11.dll
-da_da
+da_dk
 danish
 data error
 data->IsInitialized()
@@ -6130,6 +6119,7 @@ dsc_slices
 dsc_version
 dualSpeakerAndJackOutput
 dual_extrinsics
+dutch
 dvNL9
 dxgi.dll
 dynamic_state
@@ -6150,7 +6140,7 @@ eRender
 e_H9U
 echo %127s
 effffff
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 en_us
@@ -6546,8 +6536,8 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
-ko_ko
-korean
+ko_kr
+koreana
 l!;b	F
 l$ 8Y 
 l$ ATAVAWH
@@ -6734,10 +6724,12 @@ nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
 nSplineCtrlPts
+nb_no
 need dictionary
 negative_int_value
 nested_type
 nfinity
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -6746,7 +6738,6 @@ no clear code
 no header height
 no optical samples 
 no preset dict
-no_no
 no_standard_descriptor_accessor
 noclk
 nodes
@@ -7062,7 +7053,7 @@ subtype mismatch
 succeeded
 success
 supported
-sv_sv
+sv_se
 svuyt
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
@@ -7219,6 +7210,7 @@ t4L9{
 t9fff
 t:fff
 t<Lc@xE
+t<}Bf3:
 t>H9n
 t>y#I
 t?fff
@@ -7314,8 +7306,8 @@ t|C9D
 t|SUVH
 t}H9=
 t~L9=
-t~L9='
-t~L9=H
+t~L9='8'
+t~L9=H6'
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7332,7 +7324,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-;C(
+u<L9-;c(
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7344,10 +7336,10 @@ uRf;>tM
 uSL9-
 uSfff
 uZEeu
-ua_ua
 ubHcC0I
 uint32
 uint64
+uk_ua
 ukranian
 umM;~
 undist_height
@@ -7378,7 +7370,7 @@ usbVID
 usePrism
 usedisambiguation
 userdata
-u{L9=!
+u{L9=!:'
 v(M;l
 v9fff
 v=Y]Bv
@@ -7401,7 +7393,7 @@ version
 version %s
 version.txt
 vfA'I
-vi_vi
+vi_vn
 via transform to global
 vibration
 video_mode
@@ -7428,7 +7420,10 @@ vkBindBufferMemory2KHR
 vkBindImageMemory
 vkBindImageMemory2
 vkBindImageMemory2KHR
+vkBindOpticalFlowSessionImageNV
+vkBindVideoSessionMemoryKHR
 vkBuildAccelerationStructuresKHR
+vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
 vkCmdBeginQuery
@@ -7436,46 +7431,74 @@ vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
 vkCmdBeginRenderPass2
 vkCmdBeginRenderPass2KHR
+vkCmdBeginRendering
+vkCmdBeginRenderingKHR
 vkCmdBeginTransformFeedbackEXT
+vkCmdBeginVideoCodingKHR
+vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
+vkCmdBindDescriptorBufferEmbeddedSamplersEXT
+vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
+vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
+vkCmdBindVertexBuffers2
 vkCmdBindVertexBuffers2EXT
 vkCmdBlitImage
+vkCmdBlitImage2
 vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildMicromapsEXT
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
+vkCmdControlVideoCodingKHR
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
 vkCmdCopyBuffer
+vkCmdCopyBuffer2
 vkCmdCopyBuffer2KHR
 vkCmdCopyBufferToImage
+vkCmdCopyBufferToImage2
 vkCmdCopyBufferToImage2KHR
 vkCmdCopyImage
+vkCmdCopyImage2
 vkCmdCopyImage2KHR
 vkCmdCopyImageToBuffer
+vkCmdCopyImageToBuffer2
 vkCmdCopyImageToBuffer2KHR
+vkCmdCopyMemoryIndirectNV
 vkCmdCopyMemoryToAccelerationStructureKHR
+vkCmdCopyMemoryToImageIndirectNV
+vkCmdCopyMemoryToMicromapEXT
+vkCmdCopyMicromapEXT
+vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
 vkCmdCuLaunchKernelNVX
+vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
+vkCmdDecodeVideoKHR
+vkCmdDecompressMemoryIndirectCountNV
+vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
 vkCmdDispatchIndirect
 vkCmdDraw
+vkCmdDrawClusterHUAWEI
+vkCmdDrawClusterIndirectHUAWEI
 vkCmdDrawIndexed
 vkCmdDrawIndexedIndirect
 vkCmdDrawIndexedIndirectCount
@@ -7486,11 +7509,15 @@ vkCmdDrawIndirectByteCountEXT
 vkCmdDrawIndirectCount
 vkCmdDrawIndirectCountAMD
 vkCmdDrawIndirectCountKHR
+vkCmdDrawMeshTasksEXT
+vkCmdDrawMeshTasksIndirectCountEXT
 vkCmdDrawMeshTasksIndirectCountNV
+vkCmdDrawMeshTasksIndirectEXT
 vkCmdDrawMeshTasksIndirectNV
 vkCmdDrawMeshTasksNV
 vkCmdDrawMultiEXT
 vkCmdDrawMultiIndexedEXT
+vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
 vkCmdEndQuery
@@ -7498,7 +7525,10 @@ vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
+vkCmdEndRendering
+vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
+vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
@@ -7506,79 +7536,150 @@ vkCmdInsertDebugUtilsLabelEXT
 vkCmdNextSubpass
 vkCmdNextSubpass2
 vkCmdNextSubpass2KHR
+vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
+vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
+vkCmdResetEvent2
 vkCmdResetEvent2KHR
 vkCmdResetQueryPool
 vkCmdResolveImage
+vkCmdResolveImage2
 vkCmdResolveImage2KHR
+vkCmdSetAlphaToCoverageEnableEXT
+vkCmdSetAlphaToOneEnableEXT
+vkCmdSetAttachmentFeedbackLoopEnableEXT
 vkCmdSetBlendConstants
 vkCmdSetCheckpointNV
 vkCmdSetCoarseSampleOrderNV
+vkCmdSetColorBlendAdvancedEXT
+vkCmdSetColorBlendEnableEXT
+vkCmdSetColorBlendEquationEXT
 vkCmdSetColorWriteEnableEXT
+vkCmdSetColorWriteMaskEXT
+vkCmdSetConservativeRasterizationModeEXT
+vkCmdSetCoverageModulationModeNV
+vkCmdSetCoverageModulationTableEnableNV
+vkCmdSetCoverageModulationTableNV
+vkCmdSetCoverageReductionModeNV
+vkCmdSetCoverageToColorEnableNV
+vkCmdSetCoverageToColorLocationNV
+vkCmdSetCullMode
 vkCmdSetCullModeEXT
 vkCmdSetDepthBias
+vkCmdSetDepthBias2EXT
+vkCmdSetDepthBiasEnable
 vkCmdSetDepthBiasEnableEXT
 vkCmdSetDepthBounds
+vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
+vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClipEnableEXT
+vkCmdSetDepthClipNegativeOneToOneEXT
+vkCmdSetDepthCompareOp
 vkCmdSetDepthCompareOpEXT
+vkCmdSetDepthTestEnable
 vkCmdSetDepthTestEnableEXT
+vkCmdSetDepthWriteEnable
 vkCmdSetDepthWriteEnableEXT
+vkCmdSetDescriptorBufferOffsets2EXT
+vkCmdSetDescriptorBufferOffsetsEXT
 vkCmdSetDeviceMask
 vkCmdSetDeviceMaskKHR
 vkCmdSetDiscardRectangleEXT
+vkCmdSetDiscardRectangleEnableEXT
+vkCmdSetDiscardRectangleModeEXT
 vkCmdSetEvent
+vkCmdSetEvent2
 vkCmdSetEvent2KHR
+vkCmdSetExclusiveScissorEnableNV
 vkCmdSetExclusiveScissorNV
+vkCmdSetExtraPrimitiveOverestimationSizeEXT
 vkCmdSetFragmentShadingRateEnumNV
 vkCmdSetFragmentShadingRateKHR
+vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
+vkCmdSetLineRasterizationModeEXT
 vkCmdSetLineStippleEXT
+vkCmdSetLineStippleEnableEXT
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
+vkCmdSetLogicOpEnableEXT
 vkCmdSetPatchControlPointsEXT
 vkCmdSetPerformanceMarkerINTEL
 vkCmdSetPerformanceOverrideINTEL
 vkCmdSetPerformanceStreamMarkerINTEL
+vkCmdSetPolygonModeEXT
+vkCmdSetPrimitiveRestartEnable
 vkCmdSetPrimitiveRestartEnableEXT
+vkCmdSetPrimitiveTopology
 vkCmdSetPrimitiveTopologyEXT
+vkCmdSetProvokingVertexModeEXT
+vkCmdSetRasterizationSamplesEXT
+vkCmdSetRasterizationStreamEXT
+vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
+vkCmdSetSampleLocationsEnableEXT
+vkCmdSetSampleMaskEXT
 vkCmdSetScissor
+vkCmdSetScissorWithCount
 vkCmdSetScissorWithCountEXT
+vkCmdSetShadingRateImageEnableNV
 vkCmdSetStencilCompareMask
+vkCmdSetStencilOp
 vkCmdSetStencilOpEXT
 vkCmdSetStencilReference
+vkCmdSetStencilTestEnable
 vkCmdSetStencilTestEnableEXT
 vkCmdSetStencilWriteMask
+vkCmdSetTessellationDomainOriginEXT
 vkCmdSetVertexInputEXT
 vkCmdSetViewport
 vkCmdSetViewportShadingRatePaletteNV
+vkCmdSetViewportSwizzleNV
+vkCmdSetViewportWScalingEnableNV
 vkCmdSetViewportWScalingNV
+vkCmdSetViewportWithCount
 vkCmdSetViewportWithCountEXT
 vkCmdSubpassShadingHUAWEI
+vkCmdTraceRaysIndirect2KHR
 vkCmdTraceRaysIndirectKHR
 vkCmdTraceRaysKHR
 vkCmdTraceRaysNV
 vkCmdUpdateBuffer
+vkCmdUpdatePipelineIndirectBufferNV
 vkCmdWaitEvents
+vkCmdWaitEvents2
 vkCmdWaitEvents2KHR
 vkCmdWriteAccelerationStructuresPropertiesKHR
 vkCmdWriteAccelerationStructuresPropertiesNV
 vkCmdWriteBufferMarker2AMD
 vkCmdWriteBufferMarkerAMD
+vkCmdWriteMicromapsPropertiesEXT
 vkCmdWriteTimestamp
+vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImageEXT
+vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImageEXT
+vkCopyMemoryToMicromapEXT
+vkCopyMicromapEXT
+vkCopyMicromapToMemoryEXT
 vkCreateAccelerationStructureKHR
 vkCreateAccelerationStructureNV
 vkCreateBuffer
@@ -7587,6 +7688,8 @@ vkCreateCommandPool
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
+vkCreateCudaFunctionNV
+vkCreateCudaModuleNV
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -7606,8 +7709,11 @@ vkCreateImage
 vkCreateImageView
 vkCreateIndirectCommandsLayoutNV
 vkCreateInstance
+vkCreateMicromapEXT
+vkCreateOpticalFlowSessionNV
 vkCreatePipelineCache
 vkCreatePipelineLayout
+vkCreatePrivateDataSlot
 vkCreatePrivateDataSlotEXT
 vkCreateQueryPool
 vkCreateRayTracingPipelinesKHR
@@ -7620,9 +7726,12 @@ vkCreateSamplerYcbcrConversion
 vkCreateSamplerYcbcrConversionKHR
 vkCreateSemaphore
 vkCreateShaderModule
+vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
 vkCreateValidationCacheEXT
+vkCreateVideoSessionKHR
+vkCreateVideoSessionParametersKHR
 vkCreateWin32SurfaceKHR
 vkDebugMarkerSetObjectNameEXT
 vkDebugMarkerSetObjectTagEXT
@@ -7635,6 +7744,8 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
+vkDestroyCudaFunctionNV
+vkDestroyCudaModuleNV
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -7650,9 +7761,12 @@ vkDestroyImage
 vkDestroyImageView
 vkDestroyIndirectCommandsLayoutNV
 vkDestroyInstance
+vkDestroyMicromapEXT
+vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
+vkDestroyPrivateDataSlot
 vkDestroyPrivateDataSlotEXT
 vkDestroyQueryPool
 vkDestroyRenderPass
@@ -7660,10 +7774,13 @@ vkDestroySampler
 vkDestroySamplerYcbcrConversion
 vkDestroySamplerYcbcrConversionKHR
 vkDestroySemaphore
+vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
 vkDestroyValidationCacheEXT
+vkDestroyVideoSessionKHR
+vkDestroyVideoSessionParametersKHR
 vkDeviceWaitIdle
 vkDisplayPowerControlEXT
 vkEndCommandBuffer
@@ -7684,6 +7801,7 @@ vkGetAccelerationStructureBuildSizesKHR
 vkGetAccelerationStructureDeviceAddressKHR
 vkGetAccelerationStructureHandleNV
 vkGetAccelerationStructureMemoryRequirementsNV
+vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT
 vkGetBufferDeviceAddress
 vkGetBufferDeviceAddressEXT
 vkGetBufferDeviceAddressKHR
@@ -7692,20 +7810,37 @@ vkGetBufferMemoryRequirements2
 vkGetBufferMemoryRequirements2KHR
 vkGetBufferOpaqueCaptureAddress
 vkGetBufferOpaqueCaptureAddressKHR
+vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
+vkGetCalibratedTimestampsKHR
+vkGetCudaModuleCacheNV
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
+vkGetDescriptorEXT
+vkGetDescriptorSetHostMappingVALVE
+vkGetDescriptorSetLayoutBindingOffsetEXT
+vkGetDescriptorSetLayoutHostMappingInfoVALVE
+vkGetDescriptorSetLayoutSizeEXT
 vkGetDescriptorSetLayoutSupport
 vkGetDescriptorSetLayoutSupportKHR
 vkGetDeviceAccelerationStructureCompatibilityKHR
+vkGetDeviceBufferMemoryRequirements
+vkGetDeviceBufferMemoryRequirementsKHR
+vkGetDeviceFaultInfoEXT
 vkGetDeviceGroupPeerMemoryFeatures
 vkGetDeviceGroupPeerMemoryFeaturesKHR
 vkGetDeviceGroupPresentCapabilitiesKHR
 vkGetDeviceGroupSurfacePresentModes2EXT
 vkGetDeviceGroupSurfacePresentModesKHR
+vkGetDeviceImageMemoryRequirements
+vkGetDeviceImageMemoryRequirementsKHR
+vkGetDeviceImageSparseMemoryRequirements
+vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
 vkGetDeviceMemoryOpaqueCaptureAddressKHR
+vkGetDeviceMicromapCompatibilityEXT
 vkGetDeviceProcAddr
 vkGetDeviceQueue
 vkGetDeviceQueue2
@@ -7716,22 +7851,30 @@ vkGetDisplayPlaneCapabilities2KHR
 vkGetDisplayPlaneCapabilitiesKHR
 vkGetDisplayPlaneSupportedDisplaysKHR
 vkGetDrmDisplayEXT
+vkGetDynamicRenderingTilePropertiesQCOM
+vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
 vkGetFenceFdKHR
 vkGetFenceStatus
 vkGetFenceWin32HandleKHR
+vkGetFramebufferTilePropertiesQCOM
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
 vkGetImageMemoryRequirements2
 vkGetImageMemoryRequirements2KHR
+vkGetImageOpaqueCaptureDescriptorDataEXT
 vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2EXT
+vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
 vkGetImageViewHandleNVX
+vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
+vkGetLatencyTimingsNV
 vkGetMemoryFdKHR
 vkGetMemoryFdPropertiesKHR
 vkGetMemoryHostPointerPropertiesEXT
@@ -7739,9 +7882,12 @@ vkGetMemoryRemoteAddressNV
 vkGetMemoryWin32HandleKHR
 vkGetMemoryWin32HandleNV
 vkGetMemoryWin32HandlePropertiesKHR
+vkGetMicromapBuildSizesEXT
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
+vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
@@ -7768,6 +7914,7 @@ vkGetPhysicalDeviceMemoryProperties
 vkGetPhysicalDeviceMemoryProperties2
 vkGetPhysicalDeviceMemoryProperties2KHR
 vkGetPhysicalDeviceMultisamplePropertiesEXT
+vkGetPhysicalDeviceOpticalFlowImageFormatsNV
 vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
@@ -7788,12 +7935,20 @@ vkGetPhysicalDeviceSurfaceFormatsKHR
 vkGetPhysicalDeviceSurfacePresentModes2EXT
 vkGetPhysicalDeviceSurfacePresentModesKHR
 vkGetPhysicalDeviceSurfaceSupportKHR
+vkGetPhysicalDeviceToolProperties
 vkGetPhysicalDeviceToolPropertiesEXT
+vkGetPhysicalDeviceVideoCapabilitiesKHR
+vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
+vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceWin32PresentationSupportKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
+vkGetPipelineIndirectDeviceAddressNV
+vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelinePropertiesEXT
+vkGetPrivateData
 vkGetPrivateDataEXT
 vkGetQueryPoolResults
 vkGetQueueCheckpointData2NV
@@ -7804,15 +7959,21 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularityKHR
+vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
 vkGetSemaphoreCounterValueKHR
 vkGetSemaphoreFdKHR
 vkGetSemaphoreWin32HandleKHR
+vkGetShaderBinaryDataEXT
 vkGetShaderInfoAMD
+vkGetShaderModuleCreateInfoIdentifierEXT
+vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
 vkGetValidationCacheDataEXT
+vkGetVideoSessionMemoryRequirementsKHR
 vkGetWinrtDisplayNV
 vkImportFenceFdKHR
 vkImportFenceWin32HandleKHR
@@ -7820,16 +7981,20 @@ vkImportSemaphoreFdKHR
 vkImportSemaphoreWin32HandleKHR
 vkInitializePerformanceApiINTEL
 vkInvalidateMappedMemoryRanges
+vkLatencySleepNV
 vkMapMemory
+vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
 vkQueueBeginDebugUtilsLabelEXT
 vkQueueBindSparse
 vkQueueEndDebugUtilsLabelEXT
 vkQueueInsertDebugUtilsLabelEXT
+vkQueueNotifyOutOfBandNV
 vkQueuePresentKHR
 vkQueueSetPerformanceConfigurationINTEL
 vkQueueSubmit
+vkQueueSubmit2
 vkQueueSubmit2KHR
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
@@ -7838,6 +8003,7 @@ vkReleaseDisplayEXT
 vkReleaseFullScreenExclusiveModeEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
+vkReleaseSwapchainImagesEXT
 vkResetCommandBuffer
 vkResetCommandPool
 vkResetDescriptorPool
@@ -7847,25 +8013,33 @@ vkResetQueryPool
 vkResetQueryPoolEXT
 vkSetDebugUtilsObjectNameEXT
 vkSetDebugUtilsObjectTagEXT
+vkSetDeviceMemoryPriorityEXT
 vkSetEvent
 vkSetHdrMetadataEXT
+vkSetLatencyMarkerNV
+vkSetLatencySleepModeNV
 vkSetLocalDimmingAMD
+vkSetPrivateData
 vkSetPrivateDataEXT
 vkSignalSemaphore
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
+vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateVideoSessionParametersKHR
 vkWaitForFences
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
+vkWriteMicromapsPropertiesEXT
 vortex
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
@@ -7875,6 +8049,7 @@ vref_ok
 vrprismhost_startup
 vrprismhost_startup timed out after %u ms before being set by the new vrprismhost process
 vrwebhelper
+vsEt=5o}
 vuf?H
 vulkan-1.dll
 v}L9-
@@ -7904,7 +8079,7 @@ wrong submessage type
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-w{L9=.
+w{L9=.4'
 x ATAVAWH
 x AVH
 x UATAUAVAWH
@@ -8105,6 +8280,5 @@ zuusA
 ~3LcD$(L
 ~6HcD$ I
 ~:fD9
-~` `;
 ~qj#k"
 ~t&LN

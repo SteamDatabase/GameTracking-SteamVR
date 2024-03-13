@@ -1,14 +1,13 @@
 	!s99
-	#_yE~
     A
  %41g
  (Camera)
  9D$D
  A__^
  H3E H3E
+!fe@b
 !hn7!
 ',=?k
-'mk<h
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -84,7 +83,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/*mUdp!
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -94,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240201011120Z0/
+240311233111Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -114,6 +112,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8$x/[
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -171,7 +170,6 @@ Code: -3003
 CreateEventA
 CreateEventW
 CreateThread
-Cx	<p
 C|$XH
 D$0Hc
 D3D11CreateDevice
@@ -220,7 +218,7 @@ ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
 IVRProperties_001
@@ -271,6 +269,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDSs!
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -285,7 +284,6 @@ SUWAWH
 SVWATAUAVAWH
 SetEvent
 SetUnhandledExceptionFilter
-Sh8B_
 Sleep
 SleepConditionVariableCS
 TUUUUUU
@@ -295,6 +293,7 @@ TerminateProcess
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
+TkLzs7
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -375,6 +374,7 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b#$`{
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
@@ -385,6 +385,7 @@ dk2_camera
 driver_oculus_legacy.dll
 effffff
 f9<Xu
+fWjKx
 getenv
 gfffffffH
 headset
@@ -453,7 +454,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-qJdM0
 startup
 string too long
 strncpy
@@ -473,7 +473,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-yw3P^
 z(uMH
 {ERR-001}
 {ERR-079}
@@ -488,6 +487,7 @@ z(uMH
 |$ AVH
 |$8I;
 |Lu?c
+}	ee:
 }LuHO
 ~qj#k"
 ~t&LN

@@ -80,6 +80,12 @@
         "touch" : true,
         "order" : 0
     },
+    "/input/thumbrest": {
+        "type" : "button",
+        "binding_image_point" : [ 70, 65 ],
+        "click" : false,
+        "touch" : true
+    },
     "/input/skeleton/right" : {
         "type" : "skeleton",
         "side" : "right",
@@ -121,6 +127,11 @@
         "binding_image_point" : [ 24, 86 ]
     }
   },
+  "mirror_mappings" :
+  [
+    ["/user/hand/left/input/x", "/user/hand/right/input/a"],
+    ["/user/hand/left/input/y", "/user/hand/right/input/b"]
+  ],
   "simulation_settings":
   {
 	"hmd_profile": "rift",

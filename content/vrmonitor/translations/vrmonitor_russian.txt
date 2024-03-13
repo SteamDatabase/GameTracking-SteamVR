@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Поддержка разработчиков SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Поддержка разработчиков SteamWorks"
 "MenuAction_CreateSystemReport" "Создать системный отчёт"
+"MenuAction_ToggleDashboard" "Открыть/закрыть меню"
 "MenuAction_Recenter" "Центрировать заново"
 "MenuAction_SystemReportViewer" "Просмотр системных отчётов"
 "MenuAction_DisplayFrameTiming" "Расширенное распределение кадров"

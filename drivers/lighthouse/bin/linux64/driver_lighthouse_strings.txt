@@ -832,7 +832,6 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:05:42
 0x
 0x%08llx
 1
@@ -918,6 +917,7 @@ $@
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
+23:15:10
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3497,7 +3497,6 @@ False
 FastHexToBuffer() wants non-negative integers, not
 Fatal
 Feb
-Feb  1 2024
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -3838,7 +3837,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -4598,6 +4597,7 @@ MakeFileWriteable(char const*)
 ManualURL
 Map
 Mar
+Mar 11 2024
 March
 Mark 1
 Mark 2
@@ -7631,7 +7631,7 @@ cryptor::string_encryptor<5ul>::decrypt() const
 cryptor::string_encryptor<7ul>::decrypt() const
 cryptor::string_encryptor<8ul>::decrypt() const
 cryptor::string_encryptor<9ul>::decrypt() const
-cs_cs
+cs_cz
 ctime
 czech
 d
@@ -7679,7 +7679,7 @@ d_type
 d_type.cold
 d_unqualified_name
 da
-da_da
+da_dk
 danish
 data->IsInitialized()
 data.hIPC.IsValid()
@@ -7799,6 +7799,7 @@ dt
 dualSpeakerAndJackOutput
 dual_extrinsics
 dup
+dutch
 dv
 dwSpinCount == 0
 dynamic_cast
@@ -7815,7 +7816,7 @@ eO
 echo %127s
 edid_pid_to_str(int)
 edid_vid_to_str(unsigned short)
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 empty_string_ != __null
@@ -10607,8 +10608,8 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
-ko_ko
-korean
+ko_kr
+koreana
 l
 lEyeFile:%s width:%d height:%d components:%d
 lS
@@ -11053,6 +11054,7 @@ listen
 ll
 loadedDevice
 loadedInstance
+loadedModule
 locale::_Impl::_M_replace_facet
 locale::_S_normalize_category category not found
 locale::facet::_S_create_c_locale name not valid
@@ -11539,12 +11541,14 @@ name
 name_part
 nan
 nanosleep
+nb_no
 ne
 new
 new[]
 next_is_type_qual.isra.0
 nfinity
 ng
+nl_nl
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::operator[]<char const>(char const*)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<bool&>(bool&)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >(nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&&)
@@ -11621,7 +11625,6 @@ no clear code
 no header height
 no optical samples
 no preset dict
-no_no
 noclk
 node
 nodes
@@ -11778,6 +11781,7 @@ not wireless endpoint
 nt
 null
 null literal
+nullProcAddrStub
 num_windows
 number
 number literal
@@ -15860,8 +15864,8 @@ std::vector<LighthouseScaleData_t, std::allocator<LighthouseScaleData_t> >::~vec
 std::vector<OpResult, std::allocator<OpResult> >::reserve(unsigned long)
 std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> >::_M_default_append(unsigned long)
 std::vector<VkLayerProperties, std::allocator<VkLayerProperties> >::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityPropertiesEXT, std::allocator<VkQueueFamilyGlobalPriorityPropertiesEXT> >::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityPropertiesEXT, std::allocator<VkQueueFamilyGlobalPriorityPropertiesEXT> >::operator=(std::vector<VkQueueFamilyGlobalPriorityPropertiesEXT, std::allocator<VkQueueFamilyGlobalPriorityPropertiesEXT> > const&)
+std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR> >::_M_default_append(unsigned long)
+std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR> >::operator=(std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR> > const&)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2> >::_M_default_append(unsigned long)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2> >::operator=(std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2> > const&)
 std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
@@ -15996,7 +16000,7 @@ subtype mismatch
 succeeded
 success
 supported
-sv_sv
+sv_se
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
 sws
@@ -17505,7 +17509,6 @@ typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 tz
 u
-ua_ua
 udev_device_get_devnode
 udev_device_get_parent_with_subsystem_devtype
 udev_device_get_sysattr_value
@@ -17524,6 +17527,7 @@ udev_unref
 uevent
 uint32
 uint64
+uk_ua
 ukranian
 ul
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -17624,7 +17628,7 @@ velocity %0.2fm/s
 version
 version %s
 version.txt
-vi_vi
+vi_vn
 via transform to global
 vibration
 video_mode
@@ -17657,7 +17661,6 @@ vkAcquireNextImage2KHR
 vkAcquireNextImageKHR
 vkAcquirePerformanceConfigurationINTEL
 vkAcquireProfilingLockKHR
-vkAcquireWinrtDisplayNV
 vkAcquireXlibDisplayEXT
 vkAllocateCommandBuffers
 vkAllocateDescriptorSets
@@ -17670,7 +17673,10 @@ vkBindBufferMemory2KHR
 vkBindImageMemory
 vkBindImageMemory2
 vkBindImageMemory2KHR
+vkBindOpticalFlowSessionImageNV
+vkBindVideoSessionMemoryKHR
 vkBuildAccelerationStructuresKHR
+vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
 vkCmdBeginQuery
@@ -17678,46 +17684,74 @@ vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
 vkCmdBeginRenderPass2
 vkCmdBeginRenderPass2KHR
+vkCmdBeginRendering
+vkCmdBeginRenderingKHR
 vkCmdBeginTransformFeedbackEXT
+vkCmdBeginVideoCodingKHR
+vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
+vkCmdBindDescriptorBufferEmbeddedSamplersEXT
+vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
+vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
+vkCmdBindVertexBuffers2
 vkCmdBindVertexBuffers2EXT
 vkCmdBlitImage
+vkCmdBlitImage2
 vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildMicromapsEXT
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
+vkCmdControlVideoCodingKHR
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
 vkCmdCopyBuffer
+vkCmdCopyBuffer2
 vkCmdCopyBuffer2KHR
 vkCmdCopyBufferToImage
+vkCmdCopyBufferToImage2
 vkCmdCopyBufferToImage2KHR
 vkCmdCopyImage
+vkCmdCopyImage2
 vkCmdCopyImage2KHR
 vkCmdCopyImageToBuffer
+vkCmdCopyImageToBuffer2
 vkCmdCopyImageToBuffer2KHR
+vkCmdCopyMemoryIndirectNV
 vkCmdCopyMemoryToAccelerationStructureKHR
+vkCmdCopyMemoryToImageIndirectNV
+vkCmdCopyMemoryToMicromapEXT
+vkCmdCopyMicromapEXT
+vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
 vkCmdCuLaunchKernelNVX
+vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
+vkCmdDecodeVideoKHR
+vkCmdDecompressMemoryIndirectCountNV
+vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
 vkCmdDispatchIndirect
 vkCmdDraw
+vkCmdDrawClusterHUAWEI
+vkCmdDrawClusterIndirectHUAWEI
 vkCmdDrawIndexed
 vkCmdDrawIndexedIndirect
 vkCmdDrawIndexedIndirectCount
@@ -17728,11 +17762,15 @@ vkCmdDrawIndirectByteCountEXT
 vkCmdDrawIndirectCount
 vkCmdDrawIndirectCountAMD
 vkCmdDrawIndirectCountKHR
+vkCmdDrawMeshTasksEXT
+vkCmdDrawMeshTasksIndirectCountEXT
 vkCmdDrawMeshTasksIndirectCountNV
+vkCmdDrawMeshTasksIndirectEXT
 vkCmdDrawMeshTasksIndirectNV
 vkCmdDrawMeshTasksNV
 vkCmdDrawMultiEXT
 vkCmdDrawMultiIndexedEXT
+vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
 vkCmdEndQuery
@@ -17740,7 +17778,10 @@ vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
+vkCmdEndRendering
+vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
+vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
@@ -17748,79 +17789,150 @@ vkCmdInsertDebugUtilsLabelEXT
 vkCmdNextSubpass
 vkCmdNextSubpass2
 vkCmdNextSubpass2KHR
+vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
+vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
+vkCmdResetEvent2
 vkCmdResetEvent2KHR
 vkCmdResetQueryPool
 vkCmdResolveImage
+vkCmdResolveImage2
 vkCmdResolveImage2KHR
+vkCmdSetAlphaToCoverageEnableEXT
+vkCmdSetAlphaToOneEnableEXT
+vkCmdSetAttachmentFeedbackLoopEnableEXT
 vkCmdSetBlendConstants
 vkCmdSetCheckpointNV
 vkCmdSetCoarseSampleOrderNV
+vkCmdSetColorBlendAdvancedEXT
+vkCmdSetColorBlendEnableEXT
+vkCmdSetColorBlendEquationEXT
 vkCmdSetColorWriteEnableEXT
+vkCmdSetColorWriteMaskEXT
+vkCmdSetConservativeRasterizationModeEXT
+vkCmdSetCoverageModulationModeNV
+vkCmdSetCoverageModulationTableEnableNV
+vkCmdSetCoverageModulationTableNV
+vkCmdSetCoverageReductionModeNV
+vkCmdSetCoverageToColorEnableNV
+vkCmdSetCoverageToColorLocationNV
+vkCmdSetCullMode
 vkCmdSetCullModeEXT
 vkCmdSetDepthBias
+vkCmdSetDepthBias2EXT
+vkCmdSetDepthBiasEnable
 vkCmdSetDepthBiasEnableEXT
 vkCmdSetDepthBounds
+vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
+vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClipEnableEXT
+vkCmdSetDepthClipNegativeOneToOneEXT
+vkCmdSetDepthCompareOp
 vkCmdSetDepthCompareOpEXT
+vkCmdSetDepthTestEnable
 vkCmdSetDepthTestEnableEXT
+vkCmdSetDepthWriteEnable
 vkCmdSetDepthWriteEnableEXT
+vkCmdSetDescriptorBufferOffsets2EXT
+vkCmdSetDescriptorBufferOffsetsEXT
 vkCmdSetDeviceMask
 vkCmdSetDeviceMaskKHR
 vkCmdSetDiscardRectangleEXT
+vkCmdSetDiscardRectangleEnableEXT
+vkCmdSetDiscardRectangleModeEXT
 vkCmdSetEvent
+vkCmdSetEvent2
 vkCmdSetEvent2KHR
+vkCmdSetExclusiveScissorEnableNV
 vkCmdSetExclusiveScissorNV
+vkCmdSetExtraPrimitiveOverestimationSizeEXT
 vkCmdSetFragmentShadingRateEnumNV
 vkCmdSetFragmentShadingRateKHR
+vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
+vkCmdSetLineRasterizationModeEXT
 vkCmdSetLineStippleEXT
+vkCmdSetLineStippleEnableEXT
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
+vkCmdSetLogicOpEnableEXT
 vkCmdSetPatchControlPointsEXT
 vkCmdSetPerformanceMarkerINTEL
 vkCmdSetPerformanceOverrideINTEL
 vkCmdSetPerformanceStreamMarkerINTEL
+vkCmdSetPolygonModeEXT
+vkCmdSetPrimitiveRestartEnable
 vkCmdSetPrimitiveRestartEnableEXT
+vkCmdSetPrimitiveTopology
 vkCmdSetPrimitiveTopologyEXT
+vkCmdSetProvokingVertexModeEXT
+vkCmdSetRasterizationSamplesEXT
+vkCmdSetRasterizationStreamEXT
+vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
+vkCmdSetSampleLocationsEnableEXT
+vkCmdSetSampleMaskEXT
 vkCmdSetScissor
+vkCmdSetScissorWithCount
 vkCmdSetScissorWithCountEXT
+vkCmdSetShadingRateImageEnableNV
 vkCmdSetStencilCompareMask
+vkCmdSetStencilOp
 vkCmdSetStencilOpEXT
 vkCmdSetStencilReference
+vkCmdSetStencilTestEnable
 vkCmdSetStencilTestEnableEXT
 vkCmdSetStencilWriteMask
+vkCmdSetTessellationDomainOriginEXT
 vkCmdSetVertexInputEXT
 vkCmdSetViewport
 vkCmdSetViewportShadingRatePaletteNV
+vkCmdSetViewportSwizzleNV
+vkCmdSetViewportWScalingEnableNV
 vkCmdSetViewportWScalingNV
+vkCmdSetViewportWithCount
 vkCmdSetViewportWithCountEXT
 vkCmdSubpassShadingHUAWEI
+vkCmdTraceRaysIndirect2KHR
 vkCmdTraceRaysIndirectKHR
 vkCmdTraceRaysKHR
 vkCmdTraceRaysNV
 vkCmdUpdateBuffer
+vkCmdUpdatePipelineIndirectBufferNV
 vkCmdWaitEvents
+vkCmdWaitEvents2
 vkCmdWaitEvents2KHR
 vkCmdWriteAccelerationStructuresPropertiesKHR
 vkCmdWriteAccelerationStructuresPropertiesNV
 vkCmdWriteBufferMarker2AMD
 vkCmdWriteBufferMarkerAMD
+vkCmdWriteMicromapsPropertiesEXT
 vkCmdWriteTimestamp
+vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImageEXT
+vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImageEXT
+vkCopyMemoryToMicromapEXT
+vkCopyMicromapEXT
+vkCopyMicromapToMemoryEXT
 vkCreateAccelerationStructureKHR
 vkCreateAccelerationStructureNV
 vkCreateBuffer
@@ -17829,6 +17941,8 @@ vkCreateCommandPool
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
+vkCreateCudaFunctionNV
+vkCreateCudaModuleNV
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -17848,8 +17962,11 @@ vkCreateImage
 vkCreateImageView
 vkCreateIndirectCommandsLayoutNV
 vkCreateInstance
+vkCreateMicromapEXT
+vkCreateOpticalFlowSessionNV
 vkCreatePipelineCache
 vkCreatePipelineLayout
+vkCreatePrivateDataSlot
 vkCreatePrivateDataSlotEXT
 vkCreateQueryPool
 vkCreateRayTracingPipelinesKHR
@@ -17862,9 +17979,12 @@ vkCreateSamplerYcbcrConversion
 vkCreateSamplerYcbcrConversionKHR
 vkCreateSemaphore
 vkCreateShaderModule
+vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
 vkCreateValidationCacheEXT
+vkCreateVideoSessionKHR
+vkCreateVideoSessionParametersKHR
 vkCreateXcbSurfaceKHR
 vkDebugMarkerSetObjectNameEXT
 vkDebugMarkerSetObjectTagEXT
@@ -17877,6 +17997,8 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
+vkDestroyCudaFunctionNV
+vkDestroyCudaModuleNV
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -17892,9 +18014,12 @@ vkDestroyImage
 vkDestroyImageView
 vkDestroyIndirectCommandsLayoutNV
 vkDestroyInstance
+vkDestroyMicromapEXT
+vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
+vkDestroyPrivateDataSlot
 vkDestroyPrivateDataSlotEXT
 vkDestroyQueryPool
 vkDestroyRenderPass
@@ -17902,10 +18027,13 @@ vkDestroySampler
 vkDestroySamplerYcbcrConversion
 vkDestroySamplerYcbcrConversionKHR
 vkDestroySemaphore
+vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
 vkDestroyValidationCacheEXT
+vkDestroyVideoSessionKHR
+vkDestroyVideoSessionParametersKHR
 vkDeviceWaitIdle
 vkDisplayPowerControlEXT
 vkEndCommandBuffer
@@ -17926,6 +18054,7 @@ vkGetAccelerationStructureBuildSizesKHR
 vkGetAccelerationStructureDeviceAddressKHR
 vkGetAccelerationStructureHandleNV
 vkGetAccelerationStructureMemoryRequirementsNV
+vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT
 vkGetBufferDeviceAddress
 vkGetBufferDeviceAddressEXT
 vkGetBufferDeviceAddressKHR
@@ -17934,19 +18063,36 @@ vkGetBufferMemoryRequirements2
 vkGetBufferMemoryRequirements2KHR
 vkGetBufferOpaqueCaptureAddress
 vkGetBufferOpaqueCaptureAddressKHR
+vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
+vkGetCalibratedTimestampsKHR
+vkGetCudaModuleCacheNV
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
+vkGetDescriptorEXT
+vkGetDescriptorSetHostMappingVALVE
+vkGetDescriptorSetLayoutBindingOffsetEXT
+vkGetDescriptorSetLayoutHostMappingInfoVALVE
+vkGetDescriptorSetLayoutSizeEXT
 vkGetDescriptorSetLayoutSupport
 vkGetDescriptorSetLayoutSupportKHR
 vkGetDeviceAccelerationStructureCompatibilityKHR
+vkGetDeviceBufferMemoryRequirements
+vkGetDeviceBufferMemoryRequirementsKHR
+vkGetDeviceFaultInfoEXT
 vkGetDeviceGroupPeerMemoryFeatures
 vkGetDeviceGroupPeerMemoryFeaturesKHR
 vkGetDeviceGroupPresentCapabilitiesKHR
 vkGetDeviceGroupSurfacePresentModesKHR
+vkGetDeviceImageMemoryRequirements
+vkGetDeviceImageMemoryRequirementsKHR
+vkGetDeviceImageSparseMemoryRequirements
+vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
 vkGetDeviceMemoryOpaqueCaptureAddressKHR
+vkGetDeviceMicromapCompatibilityEXT
 vkGetDeviceProcAddr
 vkGetDeviceProcAddrStub
 vkGetDeviceQueue
@@ -17958,29 +18104,40 @@ vkGetDisplayPlaneCapabilities2KHR
 vkGetDisplayPlaneCapabilitiesKHR
 vkGetDisplayPlaneSupportedDisplaysKHR
 vkGetDrmDisplayEXT
+vkGetDynamicRenderingTilePropertiesQCOM
+vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
 vkGetFenceFdKHR
 vkGetFenceStatus
+vkGetFramebufferTilePropertiesQCOM
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
 vkGetImageMemoryRequirements2
 vkGetImageMemoryRequirements2KHR
+vkGetImageOpaqueCaptureDescriptorDataEXT
 vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2EXT
+vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
 vkGetImageViewHandleNVX
+vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
 vkGetInstanceProcAddrStub
+vkGetLatencyTimingsNV
 vkGetMemoryFdKHR
 vkGetMemoryFdPropertiesKHR
 vkGetMemoryHostPointerPropertiesEXT
 vkGetMemoryRemoteAddressNV
+vkGetMicromapBuildSizesEXT
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
+vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
@@ -18007,6 +18164,7 @@ vkGetPhysicalDeviceMemoryProperties
 vkGetPhysicalDeviceMemoryProperties2
 vkGetPhysicalDeviceMemoryProperties2KHR
 vkGetPhysicalDeviceMultisamplePropertiesEXT
+vkGetPhysicalDeviceOpticalFlowImageFormatsNV
 vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
@@ -18026,12 +18184,20 @@ vkGetPhysicalDeviceSurfaceFormats2KHR
 vkGetPhysicalDeviceSurfaceFormatsKHR
 vkGetPhysicalDeviceSurfacePresentModesKHR
 vkGetPhysicalDeviceSurfaceSupportKHR
+vkGetPhysicalDeviceToolProperties
 vkGetPhysicalDeviceToolPropertiesEXT
+vkGetPhysicalDeviceVideoCapabilitiesKHR
+vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
+vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceXcbPresentationSupportKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
+vkGetPipelineIndirectDeviceAddressNV
+vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelinePropertiesEXT
+vkGetPrivateData
 vkGetPrivateDataEXT
 vkGetQueryPoolResults
 vkGetQueueCheckpointData2NV
@@ -18043,29 +18209,38 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularityKHR
+vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
 vkGetSemaphoreCounterValueKHR
 vkGetSemaphoreFdKHR
+vkGetShaderBinaryDataEXT
 vkGetShaderInfoAMD
+vkGetShaderModuleCreateInfoIdentifierEXT
+vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
 vkGetValidationCacheDataEXT
-vkGetWinrtDisplayNV
+vkGetVideoSessionMemoryRequirementsKHR
 vkImportFenceFdKHR
 vkImportSemaphoreFdKHR
 vkInitializePerformanceApiINTEL
 vkInvalidateMappedMemoryRanges
+vkLatencySleepNV
 vkMapMemory
+vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
 vkQueueBeginDebugUtilsLabelEXT
 vkQueueBindSparse
 vkQueueEndDebugUtilsLabelEXT
 vkQueueInsertDebugUtilsLabelEXT
+vkQueueNotifyOutOfBandNV
 vkQueuePresentKHR
 vkQueueSetPerformanceConfigurationINTEL
 vkQueueSubmit
+vkQueueSubmit2
 vkQueueSubmit2KHR
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
@@ -18073,6 +18248,7 @@ vkRegisterDisplayEventEXT
 vkReleaseDisplayEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
+vkReleaseSwapchainImagesEXT
 vkResetCommandBuffer
 vkResetCommandPool
 vkResetDescriptorPool
@@ -18082,25 +18258,33 @@ vkResetQueryPool
 vkResetQueryPoolEXT
 vkSetDebugUtilsObjectNameEXT
 vkSetDebugUtilsObjectTagEXT
+vkSetDeviceMemoryPriorityEXT
 vkSetEvent
 vkSetHdrMetadataEXT
+vkSetLatencyMarkerNV
+vkSetLatencySleepModeNV
 vkSetLocalDimmingAMD
+vkSetPrivateData
 vkSetPrivateDataEXT
 vkSignalSemaphore
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
+vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateVideoSessionParametersKHR
 vkWaitForFences
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
+vkWriteMicromapsPropertiesEXT
 void
 void CeresAngleAxisPoseProduct<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void CeresAngleAxisPoseProduct<double>(double const*, double const*, double*)
@@ -18447,8 +18631,9 @@ void vortex::DecomposeTrackref<double>(math::Vec3T<double>*, math::Vec3T<double>
 void vortex::lighthouse::CleanSensorHits<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s const*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, std::back_insert_iterator<std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > > >(vortex::CLighthouseModel*, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s const*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s const*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, std::back_insert_iterator<std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >)
 void** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<void*>(void* const*, void* const*, void**)
 volatile
+volkFinalize
 volkGenLoadDevice
-volkGenLoadInstance.constprop.0
+volkGenLoadInstance
 volkGenLoadLoader.constprop.0
 volkGetInstanceVersion
 volkGetLoadedDevice

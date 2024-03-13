@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "SteamVR 开发者支持"
 "MenuAction_SteamWorksDeveloperSupport" "SteamWorks 开发者支持"
 "MenuAction_CreateSystemReport" "创建系统报告"
+"MenuAction_ToggleDashboard" "切换主面板"
 "MenuAction_Recenter" "重新居中"
 "MenuAction_SystemReportViewer" "系统报告查看器"
 "MenuAction_DisplayFrameTiming" "高级帧定时"

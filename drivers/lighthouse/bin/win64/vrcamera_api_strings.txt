@@ -35,6 +35,7 @@
  sIE3
 !T$(H!T$ 
 !hn7!
+#wPC&w
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -70,7 +71,6 @@ $< t6<$t,<+t"<vt
 (t$pH
 (|$ H
 (|$0I
-)5^977
 )D$ I
 )D$@A
 )D$PH
@@ -379,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240201010810Z0/
+240311232836Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -562,6 +562,7 @@ $< t6<$t,<+t"<vt
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
+?\44Mg
 @(D9i(
 @.data
 @.reloc
@@ -612,7 +613,6 @@ $< t6<$t,<+t"<vt
 @VWAVH
 @WAUAVAWH
 @WAVAWH
-@f4We
 A$+A,t\3
 A(9B(D
 A+B$+
@@ -668,6 +668,7 @@ Auto White Balance:
 B$D+B,toD+B(
 B0E8XAt
 BL$(A
+BXF6C2"
 Backlight Compensation:		
 Begin Streaming Depth...
 Begin Streaming Video...
@@ -972,7 +973,6 @@ GetVersionExW
 Global Gain:			
 H WATAUAVAWH
 H!T$0D
-H!T{.f
 H#T$0H
 H#|$0tB
 H+C H=
@@ -1109,7 +1109,6 @@ No depth or color data. Cannot determine frame number.
 No depth stream to configure.
 O,D9O(vcH
 OLEAUT32.dll
-P7udja
 P8fD;
 P@fD;
 PA^A\]
@@ -1126,6 +1125,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDS6
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1287,7 +1287,6 @@ Z(D9Z
 \$pE3
 ]J<0"0i3
 ]`u7H
-^^d}LbC
 _(H9n
 _CxxThrowException
 _Getdays
@@ -1349,7 +1348,6 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
-`wOtc
 a7hIw
 abort
 address family not supported
@@ -1391,13 +1389,13 @@ connection refused
 connection reset
 count
 cross device link
+c{PX>
 d$ E3
 d$DE;
 d$XD9
 d$XE3
 d$`H=
 d$vI9V
-d;"o*
 destination address required
 device or resource busy
 digit
@@ -1501,7 +1499,6 @@ memcpy
 memmove
 memset
 message size
-mz=Ogc(
 nD8-V
 network down
 network reset

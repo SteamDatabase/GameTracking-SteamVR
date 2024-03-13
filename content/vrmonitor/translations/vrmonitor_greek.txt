@@ -173,6 +173,7 @@
 "MenuAction_SteamVRDeveloperSupport" "Υποστήριξη δημιουργών SteamVR"
 "MenuAction_SteamWorksDeveloperSupport" "Υποστήριξη δημιουργών Steamworks"
 "MenuAction_CreateSystemReport" "Δημιουργία αναφοράς συστήματος"
+"MenuAction_ToggleDashboard" "Εναλλαγή μπάρας"
 "MenuAction_Recenter" "Επαναφορά στο κέντρο"
 "MenuAction_SystemReportViewer" "Προβολέας αναφορών συστήματος"
 "MenuAction_DisplayFrameTiming" "Προχωρημένος χρονισμός καρέ"

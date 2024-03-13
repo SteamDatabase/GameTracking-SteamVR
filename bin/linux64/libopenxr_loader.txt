@@ -202,10 +202,8 @@
  b (anonymous namespace)::timepunct_cache_w
  b (anonymous namespace)::timepunct_w
  b GetGlobalLoaderMutex()::loader_mutex
- b Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::negative_last_digit
- b Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::negative_threshold
- b Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::positive_last_digit
- b Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::positive_threshold
+ b Json::CharReaderBuilder::validate(Json::Value*) const::valid_keys
+ b Json::StreamWriterBuilder::validate(Json::Value*) const::valid_keys
  b Json::Value::null
  b Json::Value::nullRef
  b Json::Value::nullSingleton()::nullStatic
@@ -233,10 +231,8 @@
  b guard variable for (anonymous namespace)::__io_category_instance()::__ec
  b guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
  b guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
- b guard variable for Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::negative_last_digit
- b guard variable for Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::negative_threshold
- b guard variable for Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::positive_last_digit
- b guard variable for Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)::positive_threshold
+ b guard variable for Json::CharReaderBuilder::validate(Json::Value*) const::valid_keys
+ b guard variable for Json::StreamWriterBuilder::validate(Json::Value*) const::valid_keys
  b guard variable for Json::Value::nullSingleton()::nullStatic
  b guard variable for LoaderLogger::GetInstance()::instance
  b guard variable for RuntimeInterface::GetInstance()::instance
@@ -465,8 +461,11 @@
  d typeinfo for Json::CharReader
  d typeinfo for Json::CharReader::Factory
  d typeinfo for Json::CharReaderBuilder
+ d typeinfo for Json::Exception
  d typeinfo for Json::FastWriter
+ d typeinfo for Json::LogicError
  d typeinfo for Json::OurCharReader
+ d typeinfo for Json::RuntimeError
  d typeinfo for Json::StreamWriter
  d typeinfo for Json::StreamWriter::Factory
  d typeinfo for Json::StreamWriterBuilder
@@ -662,8 +661,11 @@
  d vtable for ApiLayerInterface
  d vtable for Json::BuiltStyledStreamWriter
  d vtable for Json::CharReaderBuilder
+ d vtable for Json::Exception
  d vtable for Json::FastWriter
+ d vtable for Json::LogicError
  d vtable for Json::OurCharReader
+ d vtable for Json::RuntimeError
  d vtable for Json::StreamWriter
  d vtable for Json::StreamWriter::Factory
  d vtable for Json::StreamWriterBuilder
@@ -877,7 +879,6 @@
  iconv_close
  iconv_open
  ioctl
- localeconv
  lseek64
  malloc
  mbrtowc
@@ -901,16 +902,6 @@
  putwc
  r CSWTCH.107
  r Json::Value::Value(Json::ValueType)::emptyString
- r Json::Value::defaultRealPrecision
- r Json::Value::maxInt
- r Json::Value::maxInt64
- r Json::Value::maxLargestInt
- r Json::Value::maxLargestUInt
- r Json::Value::maxUInt
- r Json::Value::maxUInt64
- r Json::Value::minInt
- r Json::Value::minInt64
- r Json::Value::minLargestInt
  r Json::hex2
  r LoaderInstance::LoaderSpecificExtensions()::extensions
  r _.stapsdt.base
@@ -996,6 +987,7 @@
  r std::moneypunct_byname<wchar_t, false>::intl
  r std::moneypunct_byname<wchar_t, true>::intl
  r std::nothrow
+ r std::piecewise_construct
  r std::string::_Rep::_S_max_size
  r std::string::_Rep::_S_terminal
  r std::string::npos
@@ -1010,8 +1002,11 @@
  r typeinfo name for Json::CharReader
  r typeinfo name for Json::CharReader::Factory
  r typeinfo name for Json::CharReaderBuilder
+ r typeinfo name for Json::Exception
  r typeinfo name for Json::FastWriter
+ r typeinfo name for Json::LogicError
  r typeinfo name for Json::OurCharReader
+ r typeinfo name for Json::RuntimeError
  r typeinfo name for Json::StreamWriter
  r typeinfo name for Json::StreamWriter::Factory
  r typeinfo name for Json::StreamWriterBuilder
@@ -1269,10 +1264,14 @@
  t ApiLayerInterface::~ApiLayerInterface() [clone .cold]
  t ApiLayerManifestFile::ApiLayerManifestFile(ManifestFileType, std::string const&, std::string const&, std::string const&, JsonVersion const&, unsigned int const&, std::string const&)
  t ApiLayerManifestFile::ApiLayerManifestFile(ManifestFileType, std::string const&, std::string const&, std::string const&, JsonVersion const&, unsigned int const&, std::string const&) [clone .cold]
+ t ApiLayerManifestFile::CreateIfValid(ManifestFileType, std::string const&, std::istream&, bool (*)(std::string const&, std::string const&, std::string&), std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> >, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> > > >&)
+ t ApiLayerManifestFile::CreateIfValid(ManifestFileType, std::string const&, std::istream&, bool (*)(std::string const&, std::string const&, std::string&), std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> >, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> > > >&) [clone .cold]
  t ApiLayerManifestFile::CreateIfValid(ManifestFileType, std::string const&, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> >, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> > > >&)
  t ApiLayerManifestFile::CreateIfValid(ManifestFileType, std::string const&, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> >, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> > > >&) [clone .cold]
  t ApiLayerManifestFile::FindManifestFiles(ManifestFileType, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> >, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> > > >&)
  t ApiLayerManifestFile::FindManifestFiles(ManifestFileType, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> >, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile> > > >&) [clone .cold]
+ t ApiLayerManifestFile::LocateLibraryRelativeToJson(std::string const&, std::string const&, std::string&)
+ t ApiLayerManifestFile::LocateLibraryRelativeToJson(std::string const&, std::string const&, std::string&) [clone .cold]
  t ApiLayerManifestFile::PopulateApiLayerProperties(XrApiLayerProperties&) const
  t CheckAllFilesInThePath(std::string const&, bool, std::vector<std::string, std::allocator<std::string> >&)
  t CheckAllFilesInThePath(std::string const&, bool, std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
@@ -1310,11 +1309,12 @@
  t FileSysUtilsParsePathList(std::string&, std::vector<std::string, std::allocator<std::string> >&)
  t FileSysUtilsParsePathList(std::string&, std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t FileSysUtilsPathExists(std::string const&)
+ t FindEitherActiveRuntimeFilename(char const*, std::string const&, unsigned short, std::string&)
+ t FindEitherActiveRuntimeFilename(char const*, std::string const&, unsigned short, std::string&) [clone .cold]
  t GeneratedXrPopulateDispatchTable
- t GetGlobalLoaderMutex()
  t Json::(anonymous namespace)::valueToString(double, bool, unsigned int, Json::PrecisionType)
  t Json::(anonymous namespace)::valueToString(double, bool, unsigned int, Json::PrecisionType) [clone .cold]
- t Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string, Json::CommentStyle::Enum, std::string, std::string, std::string, bool, unsigned int, Json::PrecisionType)
+ t Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string, Json::CommentStyle::Enum, std::string, std::string, std::string, bool, bool, unsigned int, Json::PrecisionType)
  t Json::BuiltStyledStreamWriter::hasCommentForValue(Json::Value const&)
  t Json::BuiltStyledStreamWriter::indent()
  t Json::BuiltStyledStreamWriter::isMultilineArray(Json::Value const&)
@@ -1345,6 +1345,9 @@
  t Json::CharReaderBuilder::validate(Json::Value*) const
  t Json::CharReaderBuilder::validate(Json::Value*) const [clone .cold]
  t Json::CharReaderBuilder::~CharReaderBuilder()
+ t Json::Exception::Exception(std::string)
+ t Json::Exception::what() const
+ t Json::Exception::~Exception()
  t Json::FastWriter::FastWriter()
  t Json::FastWriter::dropNullPlaceholders()
  t Json::FastWriter::enableYAMLCompatibility()
@@ -1356,6 +1359,8 @@
  t Json::Features::Features()
  t Json::Features::all()
  t Json::Features::strictMode()
+ t Json::LogicError::LogicError(std::string const&)
+ t Json::LogicError::~LogicError()
  t Json::OurCharReader::parse(char const*, char const*, Json::Value*, std::string*)
  t Json::OurCharReader::~OurCharReader()
  t Json::OurFeatures::all()
@@ -1375,7 +1380,6 @@
  t Json::OurReader::decodeNumber(Json::OurReader::Token&)
  t Json::OurReader::decodeNumber(Json::OurReader::Token&) [clone .cold]
  t Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)
- t Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&) [clone .cold]
  t Json::OurReader::decodeString(Json::OurReader::Token&)
  t Json::OurReader::decodeString(Json::OurReader::Token&) [clone .cold]
  t Json::OurReader::decodeString(Json::OurReader::Token&, std::string&)
@@ -1391,18 +1395,13 @@
  t Json::OurReader::getNextChar()
  t Json::OurReader::getStructuredErrors() const
  t Json::OurReader::getStructuredErrors() const [clone .cold]
- t Json::OurReader::good() const
  t Json::OurReader::match(char const*, int)
  t Json::OurReader::normalizeEOL(char const*, char const*)
  t Json::OurReader::parse(char const*, char const*, Json::Value&, bool)
  t Json::OurReader::parse(char const*, char const*, Json::Value&, bool) [clone .cold]
- t Json::OurReader::pushError(Json::Value const&, std::string const&)
- t Json::OurReader::pushError(Json::Value const&, std::string const&) [clone .cold]
- t Json::OurReader::pushError(Json::Value const&, std::string const&, Json::Value const&)
- t Json::OurReader::pushError(Json::Value const&, std::string const&, Json::Value const&) [clone .cold]
  t Json::OurReader::readArray(Json::OurReader::Token&)
  t Json::OurReader::readArray(Json::OurReader::Token&) [clone .cold]
- t Json::OurReader::readCStyleComment()
+ t Json::OurReader::readCStyleComment(bool*)
  t Json::OurReader::readComment()
  t Json::OurReader::readCppStyleComment()
  t Json::OurReader::readNumber(bool)
@@ -1414,6 +1413,8 @@
  t Json::OurReader::readValue()
  t Json::OurReader::readValue() [clone .cold]
  t Json::OurReader::recoverFromError(Json::OurReader::TokenType)
+ t Json::OurReader::skipBom(bool)
+ t Json::OurReader::skipBom(bool) [clone .part.0]
  t Json::OurReader::skipCommentTokens(Json::OurReader::Token&)
  t Json::OurReader::skipSpaces()
  t Json::Path::Path(std::string const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&)
@@ -1429,7 +1430,7 @@
  t Json::PathArgument& std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::emplace_back<Json::PathArgument>(Json::PathArgument&&)
  t Json::PathArgument::PathArgument()
  t Json::PathArgument::PathArgument(char const*)
- t Json::PathArgument::PathArgument(std::string const&)
+ t Json::PathArgument::PathArgument(std::string)
  t Json::PathArgument::PathArgument(unsigned int)
  t Json::Reader::Reader()
  t Json::Reader::Reader() [clone .cold]
@@ -1449,7 +1450,6 @@
  t Json::Reader::decodeNumber(Json::Reader::Token&)
  t Json::Reader::decodeNumber(Json::Reader::Token&) [clone .cold]
  t Json::Reader::decodeNumber(Json::Reader::Token&, Json::Value&)
- t Json::Reader::decodeNumber(Json::Reader::Token&, Json::Value&) [clone .cold]
  t Json::Reader::decodeString(Json::Reader::Token&)
  t Json::Reader::decodeString(Json::Reader::Token&) [clone .cold]
  t Json::Reader::decodeString(Json::Reader::Token&, std::string&)
@@ -1494,6 +1494,8 @@
  t Json::Reader::recoverFromError(Json::Reader::TokenType)
  t Json::Reader::skipCommentTokens(Json::Reader::Token&)
  t Json::Reader::skipSpaces()
+ t Json::RuntimeError::RuntimeError(std::string const&)
+ t Json::RuntimeError::~RuntimeError()
  t Json::StreamWriter::Factory::~Factory()
  t Json::StreamWriter::StreamWriter()
  t Json::StreamWriter::~StreamWriter()
@@ -1554,9 +1556,11 @@
  t Json::Value::CZString::isStaticString() const
  t Json::Value::CZString::length() const
  t Json::Value::CZString::operator<(Json::Value::CZString const&) const
+ t Json::Value::CZString::operator<(Json::Value::CZString const&) const [clone .cold]
  t Json::Value::CZString::operator=(Json::Value::CZString const&)
  t Json::Value::CZString::operator=(Json::Value::CZString&&)
  t Json::Value::CZString::operator==(Json::Value::CZString const&) const
+ t Json::Value::CZString::operator==(Json::Value::CZString const&) const [clone .cold]
  t Json::Value::CZString::swap(Json::Value::CZString&)
  t Json::Value::CZString::~CZString()
  t Json::Value::Comments::Comments(Json::Value::Comments const&)
@@ -1566,6 +1570,7 @@
  t Json::Value::Comments::operator=(Json::Value::Comments const&)
  t Json::Value::Comments::operator=(Json::Value::Comments&&)
  t Json::Value::Comments::set(Json::CommentPlacement, std::string)
+ t Json::Value::Comments::set(Json::CommentPlacement, std::string) [clone .part.0]
  t Json::Value::Value(Json::StaticString const&)
  t Json::Value::Value(Json::Value const&)
  t Json::Value::Value(Json::Value const&) [clone .cold]
@@ -1585,7 +1590,9 @@
  t Json::Value::Value(unsigned int)
  t Json::Value::Value(unsigned long)
  t Json::Value::append(Json::Value const&)
+ t Json::Value::append(Json::Value const&) [clone .cold]
  t Json::Value::append(Json::Value&&)
+ t Json::Value::append(Json::Value&&) [clone .cold]
  t Json::Value::asBool() const
  t Json::Value::asBool() const [clone .cold]
  t Json::Value::asCString() const
@@ -1635,6 +1642,10 @@
  t Json::Value::getString(char const**, char const**) const
  t Json::Value::hasComment(Json::CommentPlacement) const
  t Json::Value::initBasic(Json::ValueType, bool)
+ t Json::Value::insert(unsigned int, Json::Value const&)
+ t Json::Value::insert(unsigned int, Json::Value const&) [clone .cold]
+ t Json::Value::insert(unsigned int, Json::Value&&)
+ t Json::Value::insert(unsigned int, Json::Value&&) [clone .cold]
  t Json::Value::isArray() const
  t Json::Value::isBool() const
  t Json::Value::isConvertibleTo(Json::ValueType) const
@@ -1683,7 +1694,7 @@
  t Json::Value::removeMember(char const*) [clone .cold]
  t Json::Value::removeMember(char const*, Json::Value*)
  t Json::Value::removeMember(char const*, char const*, Json::Value*)
- t Json::Value::removeMember(char const*, char const*, Json::Value*) [clone .part.0]
+ t Json::Value::removeMember(char const*, char const*, Json::Value*) [clone .cold]
  t Json::Value::removeMember(std::string const&)
  t Json::Value::removeMember(std::string const&, Json::Value*)
  t Json::Value::resize(unsigned int)
@@ -1709,6 +1720,7 @@
  t Json::ValueConstIterator::operator=(Json::ValueIteratorBase const&)
  t Json::ValueIterator::ValueIterator()
  t Json::ValueIterator::ValueIterator(Json::ValueConstIterator const&)
+ t Json::ValueIterator::ValueIterator(Json::ValueConstIterator const&) [clone .cold]
  t Json::ValueIterator::ValueIterator(Json::ValueIterator const&)
  t Json::ValueIterator::ValueIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
  t Json::ValueIterator::operator=(Json::ValueIterator const&)
@@ -1717,6 +1729,7 @@
  t Json::ValueIteratorBase::computeDistance(Json::ValueIteratorBase const&) const
  t Json::ValueIteratorBase::copy(Json::ValueIteratorBase const&)
  t Json::ValueIteratorBase::decrement()
+ t Json::ValueIteratorBase::deref()
  t Json::ValueIteratorBase::deref() const
  t Json::ValueIteratorBase::increment()
  t Json::ValueIteratorBase::index() const
@@ -1727,9 +1740,10 @@
  t Json::ValueIteratorBase::memberName(char const**) const
  t Json::ValueIteratorBase::name() const
  t Json::Writer::~Writer()
+ t Json::appendHex(std::string&, unsigned int)
+ t Json::appendHex(std::string&, unsigned int) [clone .cold]
  t Json::duplicateAndPrefixStringValue(char const*, unsigned int)
  t Json::duplicateAndPrefixStringValue(char const*, unsigned int) [clone .cold]
- t Json::duplicateAndPrefixStringValue(char const*, unsigned int) [clone .part.0]
  t Json::operator<<(std::ostream&, Json::Value const&)
  t Json::operator<<(std::ostream&, Json::Value const&) [clone .cold]
  t Json::operator>>(std::istream&, Json::Value&)
@@ -1738,11 +1752,9 @@
  t Json::parseFromStream(Json::CharReader::Factory const&, std::istream&, Json::Value*, std::string*) [clone .cold]
  t Json::throwLogicError(std::string const&)
  t Json::throwRuntimeError(std::string const&)
- t Json::toHex16Bit(unsigned int)
- t Json::toHex16Bit(unsigned int) [clone .cold]
  t Json::valueToQuotedString(char const*)
- t Json::valueToQuotedStringN(char const*, unsigned int)
- t Json::valueToQuotedStringN(char const*, unsigned int) [clone .cold]
+ t Json::valueToQuotedStringN(char const*, unsigned long, bool)
+ t Json::valueToQuotedStringN(char const*, unsigned long, bool) [clone .cold]
  t Json::valueToString(bool)
  t Json::valueToString(double, unsigned int, Json::PrecisionType)
  t Json::valueToString(int)
@@ -1828,6 +1840,8 @@
  t LoaderXrTermSetDebugUtilsObjectNameEXT(XrInstance_T*, XrDebugUtilsObjectNameInfoEXT const*) [clone .cold]
  t LoaderXrTermSubmitDebugUtilsMessageEXT(XrInstance_T*, unsigned long, unsigned long, XrDebugUtilsMessengerCallbackDataEXT const*)
  t LoaderXrTermSubmitDebugUtilsMessageEXT(XrInstance_T*, unsigned long, unsigned long, XrDebugUtilsMessengerCallbackDataEXT const*) [clone .cold]
+ t LogPlatformUtilsError(std::string const&)
+ t LogPlatformUtilsError(std::string const&) [clone .cold]
  t MakeDebugUtilsLoaderLogRecorder(XrDebugUtilsMessengerCreateInfoEXT const*, XrDebugUtilsMessengerEXT_T*)
  t MakeDebugUtilsLoaderLogRecorder(XrDebugUtilsMessengerCreateInfoEXT const*, XrDebugUtilsMessengerEXT_T*) [clone .cold]
  t MakeStdErrLoaderLogRecorder(void*)
@@ -1852,6 +1866,8 @@
  t ObjectInfoCollection::LookUpStoredObjectInfo(XrSdkLogObjectInfo const&)
  t ObjectInfoCollection::LookUpStoredObjectInfo(XrSdkLogObjectInfo const&) const
  t ObjectInfoCollection::RemoveObject(unsigned long, XrObjectType)
+ t PlatformUtilsGetSecureEnv(char const*)
+ t PlatformUtilsGetSecureEnv(char const*) [clone .cold]
  t RuntimeInterface::CreateInstance(XrInstanceCreateInfo const*, XrInstance_T**)
  t RuntimeInterface::CreateInstance(XrInstanceCreateInfo const*, XrInstance_T**) [clone .cold]
  t RuntimeInterface::DestroyInstance(XrInstance_T*)
@@ -1874,6 +1890,8 @@
  t RuntimeInterface::UnloadRuntime(std::string const&) [clone .cold]
  t RuntimeInterface::~RuntimeInterface()
  t RuntimeInterface::~RuntimeInterface() [clone .cold]
+ t RuntimeManifestFile::CreateIfValid(Json::Value const&, std::string const&, std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> >, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> > > >&)
+ t RuntimeManifestFile::CreateIfValid(Json::Value const&, std::string const&, std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> >, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> > > >&) [clone .cold]
  t RuntimeManifestFile::CreateIfValid(std::string const&, std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> >, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> > > >&)
  t RuntimeManifestFile::CreateIfValid(std::string const&, std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> >, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> > > >&) [clone .cold]
  t RuntimeManifestFile::FindManifestFiles(std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> >, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile> > > >&)
@@ -1889,6 +1907,7 @@
  t _GLOBAL__sub_I_cxx11_wlocale_inst.cc
  t _GLOBAL__sub_I_eh_alloc.cc
  t _GLOBAL__sub_I_filesystem_utils.cpp
+ t _GLOBAL__sub_I_json_reader.cpp
  t _GLOBAL__sub_I_json_value.cpp
  t _GLOBAL__sub_I_loader_core.cpp
  t _GLOBAL__sub_I_loader_instance.cpp
@@ -2091,12 +2110,15 @@
  t bool std::has_facet<std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&)
  t char const* std::(anonymous namespace)::ucs4_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
  t char const* std::(anonymous namespace)::utf16_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
+ t char const* std::__find_if<char const*, __gnu_cxx::__ops::_Iter_pred<Json::OurReader::containsNewLine(char const*, char const*)::{lambda(char)#1}> >(char const*, char const*, __gnu_cxx::__ops::_Iter_pred<Json::OurReader::containsNewLine(char const*, char const*)::{lambda(char)#1}>, std::random_access_iterator_tag) [clone .isra.0]
+ t char const* std::__find_if<char const*, __gnu_cxx::__ops::_Iter_pred<Json::Reader::containsNewLine(char const*, char const*)::{lambda(char)#1}> >(char const*, char const*, __gnu_cxx::__ops::_Iter_pred<Json::Reader::containsNewLine(char const*, char const*)::{lambda(char)#1}>, std::random_access_iterator_tag) [clone .isra.0]
  t char* std::__add_grouping<char>(char*, char, char const*, unsigned long, char const*, char const*)
  t char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char*, std::string> >(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
  t char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag)
  t char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.0]
  t char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
  t char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.0]
+ t char* std::string::_S_construct<std::istreambuf_iterator<char, std::char_traits<char> > >(std::istreambuf_iterator<char, std::char_traits<char> >, std::istreambuf_iterator<char, std::char_traits<char> >, std::allocator<char> const&, std::input_iterator_tag)
  t char32_t std::(anonymous namespace)::read_utf16_code_point<false>(std::(anonymous namespace)::range<char16_t const, false>&, unsigned long, std::codecvt_mode)
  t char32_t std::(anonymous namespace)::read_utf8_code_point<char8_t>(std::(anonymous namespace)::range<char8_t const, true>&, unsigned long)
  t char32_t std::(anonymous namespace)::read_utf8_code_point<char>(std::(anonymous namespace)::range<char const, true>&, unsigned long)
@@ -2226,11 +2248,13 @@
  t std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > >, std::allocator<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > > >, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_erase(std::integral_constant<bool, true>, XrInstance_T* const&)
  t std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > >, std::allocator<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > > >, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > >, false>*, unsigned long)
  t std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > >, std::allocator<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > > >, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+ t std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > >, std::allocator<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long> > > >, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::~_Hashtable()
  t std::_Hashtable<XrSession_T*, std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, std::allocator<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > > >, std::__detail::_Select1st, std::equal_to<XrSession_T*>, std::hash<XrSession_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_erase(std::integral_constant<bool, true>, XrSession_T* const&)
  t std::_Hashtable<XrSession_T*, std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, std::allocator<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > > >, std::__detail::_Select1st, std::equal_to<XrSession_T*>, std::hash<XrSession_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_erase(unsigned long, std::__detail::_Hash_node_base*, std::__detail::_Hash_node<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, false>*)
  t std::_Hashtable<XrSession_T*, std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, std::allocator<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > > >, std::__detail::_Select1st, std::equal_to<XrSession_T*>, std::hash<XrSession_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, false>*, unsigned long)
  t std::_Hashtable<XrSession_T*, std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, std::allocator<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > > >, std::__detail::_Select1st, std::equal_to<XrSession_T*>, std::hash<XrSession_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
  t std::_Hashtable<XrSession_T*, std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, std::allocator<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > > >, std::__detail::_Select1st, std::equal_to<XrSession_T*>, std::hash<XrSession_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::clear()
+ t std::_Hashtable<XrSession_T*, std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > >, std::allocator<std::pair<XrSession_T* const, std::unique_ptr<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >, std::default_delete<std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > > > > > >, std::__detail::_Select1st, std::equal_to<XrSession_T*>, std::hash<XrSession_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::~_Hashtable()
  t std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, std::string const&, unsigned long) const
  t std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, std::string>, true>*, unsigned long)
  t std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
@@ -2252,6 +2276,8 @@
  t std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::erase(Json::Value::CZString const&)
  t std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::find(Json::Value::CZString const&)
  t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_erase(std::_Rb_tree_node<std::string>*)
+ t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::string>, std::string const&)
+ t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_get_insert_unique_pos(std::string const&)
  t std::_Rb_tree_black_count(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*)
  t std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
  t std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
@@ -2260,6 +2286,7 @@
  t std::_Rb_tree_increment(std::_Rb_tree_node_base*) [clone .localalias]
  t std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
  t std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::pair<Json::Value::CZString const, Json::Value>&>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::pair<Json::Value::CZString const, Json::Value>&)
+ t std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>&&, std::tuple<>&&)
  t std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> > const*, std::_Rb_tree_node_base*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&)
  t std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
  t std::_Rb_tree_rotate_left(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*&)
@@ -4761,7 +4788,7 @@
  t std::overflow_error::overflow_error(std::string const&)
  t std::overflow_error::~overflow_error()
  t std::pair<Json::Value::CZString const, Json::Value>::~pair()
- t std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string>(std::string&&)
+ t std::pair<std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> >, bool> std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_unique<unsigned int, Json::Value>(unsigned int&&, Json::Value&&)
  t std::pair<std::__detail::_Node_iterator<std::pair<std::string const, std::string>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_emplace<std::string&, std::string&>(std::integral_constant<bool, true>, std::string&, std::string&)
  t std::pair<std::string const, std::string>::~pair()
  t std::random_device::_M_init(std::string const&)
@@ -5041,8 +5068,7 @@
  t std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >& std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > > >::emplace_back<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> > >(std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel> >&&)
  t std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul> > > Json::cloneUnique<std::array<std::string, 3ul> >(std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul> > > const&)
  t std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul> > > Json::cloneUnique<std::array<std::string, 3ul> >(std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul> > > const&) [clone .cold]
- t std::vector<XrDebugUtilsObjectNameInfoEXT, std::allocator<XrDebugUtilsObjectNameInfoEXT> >::_M_default_append(unsigned long)
- t std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties> >::_M_default_append(unsigned long)
+ t std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties> >::_M_fill_insert(__gnu_cxx::__normal_iterator<XrExtensionProperties*, std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties> > >, unsigned long, XrExtensionProperties const&)
  t std::vector<XrSdkLogObjectInfo, std::allocator<XrSdkLogObjectInfo> >::~vector()
  t std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*> >::_M_realloc_insert(__gnu_cxx::__normal_iterator<std::Catalog_info**, std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*> > >, std::Catalog_info* const&)
  t std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
