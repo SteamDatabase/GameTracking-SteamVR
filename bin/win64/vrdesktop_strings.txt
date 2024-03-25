@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	6o5q
  %41g
  A_A^A\
  A_A^A]A\_
@@ -19,7 +18,6 @@
 !hn7!
 %%.%dg
 %s%s%s%s%s
-&L9LyF
 ' is not a number.
 ',=?k
 (A\_^[
@@ -167,9 +165,8 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240311233620Z0/
+240320180328Z0/
 241009235959Z0a1
-2=k+=g
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -341,6 +338,7 @@ CreateThread
 Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
+Cv^y%ejP!
 C|$PL
 D	d$LI
 D	l$L
@@ -600,7 +598,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSI
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -942,7 +939,6 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
-{Ebl;
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH
@@ -959,7 +955,9 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |$pH+
+|//!!
 |Lu?c
 }LuHO
+~&)]zj
 ~qj#k"
 ~t&LN

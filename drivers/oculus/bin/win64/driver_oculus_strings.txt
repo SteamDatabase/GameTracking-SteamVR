@@ -202,7 +202,6 @@ $w!Hc
 )|$`D
 )|$`H
 )|$pf
-*%m	DRQ
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
@@ -269,6 +268,7 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_14a56f646f17e09c154933264b7db4fa>@@@std@@U?$default_delete@V?$tuple@V<lambda_14a56f646f17e09c154933264b7db4fa>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
@@ -292,6 +292,7 @@ $w!Hc
 .?AVCAnimSkeleton@@
 .?AVCBoneMaskResource@@
 .?AVCD3D11VRRenderer@@
+.?AVCErrorTrackedDevice@@
 .?AVCHandPoseLogic_OculusTouch@@
 .?AVCKeyframedDataResource@@
 .?AVCNonCopyable@@
@@ -413,6 +414,7 @@ $w!Hc
 /input/x/touch
 /input/y/click
 /input/y/touch
+/ln7N
 /output/haptic
 /pose/raw
 /proximity
@@ -437,7 +439,6 @@ $w!Hc
 /user/wrist/right
 0 width
 0-pixel image
-0.	m]
 0A^_^
 0A_A^A\_^
 0A_A^A]A\^
@@ -463,13 +464,12 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240311233108Z0/
+240320175800Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3 63TTk	
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -779,18 +779,20 @@ CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)
 CD3D11VRRenderer::Signal
 CD3D11VRRenderer::UnampTexture: dangling data pointer
 CKeyframedDataResource
-CL$0A
+CL$0E3
 CL$0H
 CL$PH
 COLOR
 COculusHmdLatest::UpdateThread
 COculusState::CreateSession
+CServerDriver_Oculus::Cleanup
 CT$ H
 CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%
+C\$0L9%4
+C\$0L9%~
 C\$0M
 C\$PE
 C\$PH
@@ -924,9 +926,9 @@ DisableThreadLibraryCalls
 DuplicateHandle
 E H9Q
 E0H+E(H
+E0HcH
 E;u`|
 ERROR: Failed to dup handle!
-E`HcH
 EgH9Q@t
 EgH9S@t
 Empty escape sequence in string
@@ -1192,7 +1194,7 @@ L$`fD
 L$p@2
 L$pE3
 L$pHcQ
-L9%E	
+L9%\	
 L9k8v
 L9t$@
 L9|$p
@@ -1236,10 +1238,10 @@ No valid guardian bounds. Creating standing chaperone
 NormalTextureInfo
 Not writing %s because the texture was null
 O8I+O0H
-O:f<Rd
 OPAQUE
 OVR Runtime Init
 OVR runtime requested recenter
+OVRInitThread
 OVRRuntimeWindowThread
 OVRSignalThread
 OVRSignalThread thread ending
@@ -1252,11 +1254,11 @@ Oculus device attached but the Oculus service is uninstalled or not running.
 Oculus driver requested quit.
 Oculus driver requires restart for bad LUID.
 Oculus remote %s %s.
-Oculus service not running.
 Oculus session was recreated but display is still lost.
 Oculus touch %s controller state %s.
 Oculus tracker %s %s.
 Oculus tracker driver rejected by vrserver
+OculusLinkNotEnabled
 Oculus\Support\oculus-runtime
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenEventW
@@ -1289,6 +1291,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSBILqJ
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1309,6 +1312,7 @@ SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
 SETUPAPI.dll
+SI/N1}
 SPB8t
 SPB8u,
 SUVWATAUAVAWH
@@ -1372,6 +1376,7 @@ This is not a Vulkan object
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
+Timeout calling ovr_Initialize
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -1398,7 +1403,6 @@ USWAWH
 UUUUUUU
 UVATAVAWH
 UVAUAWH
-UVAVH
 UVWATAUAVAWH
 UVWATAUAWH
 UVWATAWH
@@ -1415,6 +1419,7 @@ Unable to init Oculus tracker
 Unable to load LibOVRRT DLL
 Unable to locate LibOVRRT symbol: 
 Unable to write chaperone info to %s
+UnableToConnectToOculusRuntime
 UnhandledExceptionFilter
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
@@ -1454,11 +1459,12 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X% y	
-X-5~	
+X%`s	
+X-ux	
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
+Z!5(b
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1525,7 +1531,6 @@ ZL$Xf
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
-_#bC=
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1533,6 +1538,7 @@ _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
 _Cnd_init_in_situ
 _Cnd_signal
+_Cnd_timedwait
 _Cnd_wait
 _Controller_Left
 _Controller_Right
@@ -1541,6 +1547,7 @@ _D9c0tWD
 _D9k0tWD
 _D9s0tWD
 _D9w0tWD
+_Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
 _Mtx_init
@@ -1814,7 +1821,6 @@ hand_right_poses.glb
 handlers
 headset
 height
-hr4tR
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1996,7 +2002,6 @@ ntelD
 null literal
 number literal
 number overflow parsing '
-o#zOp
 o@@fD
 oD$ fD
 oD$0f
@@ -2105,7 +2110,6 @@ ovr_GetTrackingState
 ovr_GetVersionString
 ovr_IdentifyClient
 ovr_Initialize
-ovr_Initialize - failure
 ovr_Initialize failed with ovrErrorType %d
 ovr_Initialize failed with ovrErrorType %d - %s
 ovr_Initialize never called
@@ -2459,7 +2463,7 @@ u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
-uTL9%O
+uTL9%
 uk_ua
 ukranian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
@@ -2476,7 +2480,6 @@ unsupported bit depth
 unsupported data layout
 unsupported format
 v4fff
-v<	aJ
 v=Y]Bv
 vE;E`M
 vHcD$LH
@@ -2498,7 +2501,6 @@ wXH9w`t/H
 weights
 while parsing 
 width
-wk1>r
 wn>Jj
 wrapR
 wrapS

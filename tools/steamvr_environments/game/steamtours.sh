@@ -25,14 +25,24 @@ fi
 # Require LDLP scout runtime environment
 # SteamVR is launching us via steam-runtime-launch-client, which is runtime neutral, so we are expected to have to do this
 if [ -n "${STEAM_RUNTIME-}" ]; then
-    log "Detected scout LDLP runtime."
-    # continue
+	log "Detected scout LDLP runtime."
+	# continue
 else
-    log "Executing under scout LDLP runtime."
-    log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
-    exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
-    # unreachable
+	log "Relaunch under scout LDLP runtime."
+	log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+	exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+	# unreachable
 fi
+
+if [ -z "${STEAMVR_VRENV-}" ]; then
+	log "Relaunch under vrenv."
+	# Internal dev setup uses a symlink, we're relying on realpath -L here
+	VRBINDIR=$(realpath -L ${GAMEROOT}/../../../runtime/bin)
+	log exec "$VRBINDIR/vrenv.sh" "$0" "$@"
+	exec "$VRBINDIR/vrenv.sh" "$0" "$@"
+	# unreachable
+fi
+
 
 ulimit -n 2048
 

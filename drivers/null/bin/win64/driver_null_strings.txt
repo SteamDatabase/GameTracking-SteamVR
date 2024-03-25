@@ -3,9 +3,9 @@
  A__^
  H3E H3E
 !hn7!
-#$";#
 ',=?k
 (f*^[0
+*E@JQ
 +Xt@(
 +o'q)}
 ,W5y+
@@ -49,7 +49,6 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.r{K3
 .text
 .text$di
 .text$mn
@@ -80,12 +79,13 @@
 0w0c1
 0}0i1
 130801120000Z
+1;Pfyy\
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240311233103Z0/
+240320175755Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -104,7 +104,6 @@
 6I]Dc
 6OB,n_
 70503
-7O7%[
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -119,7 +118,6 @@
 @.rsrc
 @A^_^
 AuthD
-A{8Gs
 Bellevue1
 CT$0H
 DigiCert Assured ID Root CA0
@@ -133,7 +131,6 @@ DisableThreadLibraryCalls
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
-GvD|#D
 H SWH
 H-^Eu
 H93t	H
@@ -172,6 +169,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSvs
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -184,6 +182,7 @@ UnhandledExceptionFilter
 Unknown exception
 Using settings values
 VCRUNTIME140.dll
+VR?u5V
 VWAVH
 VWAWH
 V_~]	,
@@ -194,7 +193,6 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
-^TW^1X
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -226,7 +224,6 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b`m+/
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
@@ -246,7 +243,6 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
-k)Zt0e
 k0i0$
 l$8E3
 l2|X/gGe
@@ -256,8 +252,8 @@ memcpy
 memmove
 memset
 modelNumber
+nh+uq
 ntelD
-r)Pj)J
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -275,7 +271,6 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-yyEv:/ 
 {un'%
 |$ AVH
 |Lu?c

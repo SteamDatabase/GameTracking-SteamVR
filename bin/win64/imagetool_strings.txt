@@ -1583,7 +1583,6 @@
 !%d%c
 !1AQaq
 !4]dS
-!5\*H
 !>"@ @k
 !@BP(
 !D$HH
@@ -2098,7 +2097,6 @@ $wtpt
 '<' in entity '%s' is not allowed in attributes values
 '<@!=9
 '>' required to close NOTATION declaration
-'?gzA
 '@Ck1t
 'I'z'
 'I;E 
@@ -3722,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240311233131Z0/
+240320175827Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -4178,7 +4176,6 @@ $wtpt
 ;TrI&
 ;\$0r
 ;\$4~'H
-;\=Hj
 ;]u_H
 ;d22Vt::N
 ;i:EH
@@ -11754,7 +11751,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSF
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -16226,7 +16222,6 @@ extra-expanded
 f	BJL
 f	_(H
 f ny wra ow ankenya.
-f,x9+8
 f0O94
 f3ff33f3
 f9KpuE

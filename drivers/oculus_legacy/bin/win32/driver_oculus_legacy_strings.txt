@@ -89,12 +89,13 @@
 2 2(2-232;2C2H2N2V2^2c2i2q2y2~2
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 2$383]3q3
+2*FzR
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240311232331Z0/
+240320175608Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -150,6 +151,7 @@
 8 9&9,93999Y9
 8'8-878A8K8U8_8l8u8
 8(8,8<8@8H8`8p8t8
+8*QIk
 838<8H8N8T8_8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -247,6 +249,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H-^Eu
+HW,79
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -271,7 +274,6 @@ InitializeSListHead
 Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J/nR1
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -294,6 +296,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDS2
 RaiseException
 S0Q0O
 SA|X=G
@@ -332,6 +335,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+X+O1lC
 Y9"SD
 Y__^[
 [K]taM?
@@ -482,9 +486,7 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
-|L/.;
 |Lu?c
 }LuHO
-~=)gUY
 ~qj#k"
 ~t&LN

@@ -181,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240311233630Z0/
+240320180339Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -192,7 +192,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3d=kpk)
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -200,6 +199,7 @@
 6*f(_
 6I]Dc
 6OB,n_
+6eo(}
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -210,7 +210,6 @@
 < t+<
 </u#H
 <0:08
-<N{>x
 <unknown>
 =rIQU
 >0<0:
@@ -455,6 +454,7 @@ Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
 Executable: %s
+F8wD 
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -484,7 +484,6 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
-G6ndA
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -861,6 +860,7 @@ _seh_filter_dll
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 a7hIw
+a[!}S
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -911,6 +911,7 @@ desktopview
 dutch
 dwmapi.dll
 dxgi.dll
+e7dd*\c
 el_gr
 en_us
 enableWindowView
@@ -988,7 +989,6 @@ nb_no
 nl_nl
 norwegian
 ntelD
-o90["c'
 ole32.dll
 openvr_api.dll
 overlay_frame_times
@@ -1019,7 +1019,6 @@ russian
 schinese
 shcore.dll
 shutdown
-si~nw
 spanish
 startup
 stoull argument out of range

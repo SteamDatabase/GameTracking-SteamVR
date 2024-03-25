@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	2td`"
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -44,7 +45,8 @@
  with error 
 !!! WARNING !!! Environment variable 
 !hn7!
-%n{=OS
+#?xD'
+#HuMt
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -61,6 +63,7 @@
 (unknown)
 )D$ L
 )t$ H
++3Q%c)
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -172,13 +175,12 @@
 220801000000Z
 230714000000Z
 2333333
-240311233139Z0/
+240320175836Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2r[ZT
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -286,7 +288,6 @@
 @USWATAWH
 @UVATAUAWH
 @UWAVAWH
-@]A{s
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -412,6 +413,7 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 G(L9w 
+GC"l>\
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -506,7 +508,6 @@ LoaderInstance::CreateInstance, no support found for requested extension:
 M H1E
 M98u/
 MB(iVR
-MNg)z
 MSVCP140.dll
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
@@ -531,8 +532,8 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+P~|{"
 QueryPerformanceCounter
-Ra<1{
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -746,6 +747,7 @@ deque<T> too long
 description
 disable_environment
 double out of UInt range
+eEj7y
 enable_environment
 enabledExtensionCount is non-0 but array is NULL
 engine name missing NULL terminator.
@@ -824,6 +826,7 @@ memcpy
 memmove
 memset
 must be non-NULL
+n6O4}
 nfinity
 ntelD
 openxr/
@@ -832,7 +835,6 @@ platform_utils
 rejectDupKeys
 runtime
 s t#fff
-sM!#o
 setvbuf
 skipBom
 something wrong with XrInstanceCreateInfo contents

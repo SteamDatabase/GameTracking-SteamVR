@@ -2,12 +2,13 @@
     A
  %41g
  (Camera)
+ 8*~:"
  9D$D
  A__^
  H3E H3E
-!fe@b
 !hn7!
 ',=?k
+(6_i{
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -19,9 +20,11 @@
 )\$pD
 )d$`D
 )t$pu.H
++*6mj
 +Xt@(
 +o'q)}
 , last executing in 
+,%s{U
 ,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
@@ -92,7 +95,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240311233111Z0/
+240320175803Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -112,7 +115,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8$x/[
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -269,7 +271,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSs!
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -286,6 +287,7 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
+SzZ+C
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -293,7 +295,6 @@ TerminateProcess
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
-TkLzs7
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -316,6 +317,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+Vv&Il
 WATAUAVAWH
 WaitForSingleObject
 WakeAllConditionVariable
@@ -374,7 +376,6 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b#$`{
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
@@ -385,7 +386,6 @@ dk2_camera
 driver_oculus_legacy.dll
 effffff
 f9<Xu
-fWjKx
 getenv
 gfffffffH
 headset
@@ -405,6 +405,7 @@ memcmp
 memcpy
 memmove
 memset
+nFzu	
 n\tuH
 ntelD
 oculus
@@ -464,16 +465,19 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
+t9wjA
 tIL95f
 tXfff
 tdh.dll
 terminate
 tkH97t	H
+uEXvmI
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
+{8Y m(h
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -487,7 +491,8 @@ z(uMH
 |$ AVH
 |$8I;
 |Lu?c
-}	ee:
 }LuHO
+}|;W0
+~ee<ZL
 ~qj#k"
 ~t&LN

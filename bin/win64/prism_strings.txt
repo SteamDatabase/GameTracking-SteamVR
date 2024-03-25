@@ -310,7 +310,6 @@ $9E0u
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
-'FA7<S
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -531,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240311232903Z0/
+240320175551Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -577,6 +576,7 @@ $9E0u
 <unknown>
 =rIQU
 >0<0:
+>3ySf
 >Mp$d
 >ffv?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
@@ -1173,7 +1173,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
 J>@G_
-K3L+Q
 KERNEL32.dll
 Kf;;u
 KfD;3u
@@ -1332,7 +1331,6 @@ NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
 OLEAUT32.dll
-On$dR
 OpH9Q
 OpenEventA
 OpenFileMappingA
@@ -1422,7 +1420,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSQ}
+RSDST3
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1627,6 +1625,7 @@ XA_A][]
 XA_A^A]_
 Y9"SD
 YUV conversion - %s
+YV24B
 Yl$ M
 Yl$4E
 [ AVH
@@ -1670,6 +1669,7 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
+^	*tlq/^
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1721,6 +1721,7 @@ _register_onexit_function
 _seh_filter_dll
 _wcsicmp
 _wcsnicmp
+`$T;$T
 `.rdata
 `A^A]_^]
 `A^_]
@@ -1798,7 +1799,6 @@ c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_nvapi.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_vulkan.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
-cZ>(	O
 client
 computeCommandSet.Valid()
 createInfo.pComputeDistortion
@@ -1839,7 +1839,6 @@ f9\$`u
 f;|$pt_H
 fD9&u
 fD;3t
-fS<zA
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
 facet::CVkTimestampQueryPool<2>::UpdateResults
@@ -2022,6 +2021,7 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+qnB#Z
 r+w2H;
 r,fff
 r/w:I

@@ -1,4 +1,5 @@
 	!s99
+	0w=J
  %41g
  A_A^A\_^
  A_A^_
@@ -8,8 +9,6 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
-%Bd're
-%\(V%
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -119,7 +118,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240311232741Z0/
+240320175409Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -130,7 +129,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3h0!Zt
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -146,8 +144,8 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-9`!"3
 <0:08
+<6>w2
 <P)9Y
 <unknown>
 =rIQU
@@ -260,9 +258,9 @@ OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q@k;U
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSR
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -291,7 +289,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W@t?P
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -319,6 +316,7 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
+Zlg /?J\4
 [K]taM?
 \$ H;
 \$ UH
@@ -380,7 +378,6 @@ jj@0HK4
 k0i0$
 l$ WH
 l2|X/gGe
-lG+'fb
 m0k0$
 m_path
 malloc
@@ -406,7 +403,6 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-{)Y$D
 {un'%
 |$ AVH
 |$0E3

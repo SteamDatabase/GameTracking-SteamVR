@@ -88,6 +88,7 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+-0M9)^
 -1e+9999
 -Infinity
 -external
@@ -708,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240311232228Z0/
+240320175502Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -793,7 +794,6 @@ $Vh&*
 3V4=5
 3d4m4
 3mq+<
-3z+*%6
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4$4(4,40444@4D4H4L4P4T4X4t4x4|4
@@ -891,7 +891,6 @@ $Vh&*
 5d7v7&:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5v[(lT
 6	7U7Z7_7~7
 6	7V<
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6
@@ -1440,7 +1439,6 @@ Already open
 Attribute Discovery
 Authentication
 Authentication status failed. (auth_status: %s)
-BJ\MG
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1576,7 +1574,6 @@ Connection params update failed. (nrf_error: %s)
 ContainerID
 Continue
 Couldn't create/open file
-CpG*2
 CreateDirectoryA
 CreateEventW
 CreateFileA
@@ -1910,6 +1907,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSI
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2171,7 +2169,6 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
-_~Z[4
 `.rdata
 a7hIw
 a9~@u
@@ -2226,6 +2223,7 @@ floor
 generic
 gfffVW3
 graph
+h(<f@
 h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
@@ -2270,7 +2268,6 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
-km$hI
 l2|X/gGe
 list<T> too long
 lj!hh
@@ -2287,15 +2284,16 @@ memcpy
 memmove
 memset
 mutex
+nKUn!
 need dictionary
 nrfserlib.dll
-n~!1L
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+q,|oX_
 realloc
 s?=2N
 sd_ble_cfg_set
@@ -2470,7 +2468,6 @@ vGh@7
 vGh`5
 vector<T> too long
 vector<bool> too long
-vv7TcEK
 w QVR
 w(_^[]
 w0_^[
@@ -2483,6 +2480,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x5t7j
 xdigit
+x|Jz}
 y4_^[
 {L?uI
 {un'%
@@ -2491,6 +2489,7 @@ y4_^[
 }	jCh
 }LuHO
 }qj<h
+~02|^
 ~L][u
 ~d;{d|	
 ~qj#k"

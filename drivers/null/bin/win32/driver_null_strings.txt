@@ -28,7 +28,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.U$;w*
 .data
 .data$r
 .edata
@@ -86,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240311232323Z0/
+240320175601Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -130,6 +129,7 @@
 9"9)91999A9M9V9[9a9k9u9
 9"9+909@9J9S9\9n9s9}9
 999~9
+9?^Y{
 : :(:@:P:T:d:h:p:
 :#:):/:5:;:A:G:M:S:Y:_:e:k:q:
 :#:1:;:D:M:X:]:k:u:~:
@@ -186,6 +186,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+Khan-
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -193,10 +194,13 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+N8qOa\
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QHn-fa
 QueryPerformanceCounter
+S	M@g,
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -250,6 +254,7 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+d-Eks
 displayFrequency
 driver_null
 driver_null.dll
@@ -267,6 +272,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+kl_6&
 l2|X/gGe
 m0k0$
 malloc
@@ -274,7 +280,6 @@ memcpy
 memmove
 memset
 modelNumber
-n/TFt#
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -282,7 +287,6 @@ serialNumber
 steamvr
 string too long
 uCVj@
-uxPmb*	
 v=Y]Bv
 vector<T> too long
 windowHeight

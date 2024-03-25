@@ -35,7 +35,6 @@
  sIE3
 !T$(H!T$ 
 !hn7!
-#wPC&w
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -379,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240311232836Z0/
+240320175521Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -562,7 +561,6 @@ $< t6<$t,<+t"<vt
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
-?\44Mg
 @(D9i(
 @.data
 @.reloc
@@ -668,7 +666,6 @@ Auto White Balance:
 B$D+B,toD+B(
 B0E8XAt
 BL$(A
-BXF6C2"
 Backlight Compensation:		
 Begin Streaming Depth...
 Begin Streaming Video...
@@ -1049,6 +1046,7 @@ K4A+H
 K8Hc@
 KERNEL32.dll
 KH;_XtW3
+KSHtBO
 K}*n:	
 L$ SUVH
 L$ SUVWH
@@ -1091,6 +1089,7 @@ LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 Lock already taken
+LvfoE
 M H1E
 M'H9E
 MB(iVR
@@ -1120,12 +1119,13 @@ PA__^[]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QP=V?
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS6
+RSDS,
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1389,7 +1389,6 @@ connection refused
 connection reset
 count
 cross device link
-c{PX>
 d$ E3
 d$DE;
 d$XD9
@@ -1542,6 +1541,7 @@ pExecutionResource
 pScheduler
 pThreadProxy
 permission denied
+pjh[K
 ppVirtualProcessorRoots
 print
 protocol error
@@ -1672,6 +1672,7 @@ vector<T> too long
 vector<bool> too long
 version
 vrcamera_api.dll
+vv4Vg
 w(HcODI
 wcsnlen
 wcstoul

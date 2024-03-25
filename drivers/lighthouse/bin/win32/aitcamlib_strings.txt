@@ -1,7 +1,6 @@
 																																																																																																																
 	!s99
  %41g
- <,~\N5
 !(0)"
 !9~ t
 !hn7!
@@ -14,6 +13,7 @@ $9^ t
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
+(:uV:
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -172,7 +172,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240311232224Z0/
+240320175458Z0/
 241009235959Z0a1
 282<2@2D224b4
 294=4L4P4T4X4\4
@@ -332,7 +332,6 @@ $9^ t
 =rIQU
 > >x>|>
 >%?B?^?x?
->%sOJ
 >(>2>B>M>n>~>
 >(?r?y?
 >0<0:
@@ -392,6 +391,7 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
+D1NrY
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -430,7 +430,6 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H-^Eu
-HDB)O
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -489,8 +488,10 @@ NotFound
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
+O{TZHt
 P<^_3
 PAq=?Mp#
+PF/5w
 PID_%04X
 PauseCamera
 PauseCamera (delayed...)
@@ -498,17 +499,13 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QB5kc
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R$( \]
 RPCRT4.dll
-RSDSd+
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
-Rz(;4
 S0Q0O
 SA|X=G
 SETUPAPI.dll
@@ -595,7 +592,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
-XLF>w
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -603,6 +599,7 @@ Y__^[
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
+[LuEzdX
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
 _CIpow
@@ -757,13 +754,11 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-k>Aq)~O'{g
 ko_kr
 koreana
 l2|X/gGe
 latam
 ldexp
-lm\CM
 m0k0$
 malloc
 map/set<T> too long
@@ -813,7 +808,6 @@ strncpy
 strncpy_s
 strstr
 strtol
-svG,<,
 sv_se
 swedish
 t"Php
@@ -855,11 +849,11 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+yV=3}
 zh_cn
 zh_tw
 zlib corrupt
 {un'%
-|/?0z
 |Lu?c
 }LuHO
 ~qj#k"
