@@ -28,7 +28,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ t
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@@}
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -134,6 +134,7 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
+#i">D
 $IL+Q
 $tI(knN"
 $u0Hi
@@ -153,7 +154,7 @@ $w!Hc
 %d.%d
 %d.%d.%d
 %d.%d.%d.%d
-%s %s startup with PID=%u, config=%s, runtime=%s
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s
 %s (%X)-> %s
 %s [%s] - 
 %s begin_ctx=%llu
@@ -196,6 +197,7 @@ $w!Hc
 %s: Invalid interop API: %d
 %s: ReleaseSync FAILED with E_FAIL
 %s: ReleaseSync FAILED with unknown hr
+%s: Timed out waiting for gpu!
 %s: VkDevice must be created using xrCreateVulkanDevice
 %s: allocator not initialized
 %s: at least one signal point is required
@@ -377,7 +379,6 @@ $w!Hc
 %s_%3d
 %s_%s%s
 %u != %zu
-& ",3
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &D9c0t
@@ -413,12 +414,7 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%]b#
-(%fe#
-(%uj#
 ()$^.*+?[]|\-{},:=!
-(-8e#
-(5}i#
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -455,7 +451,6 @@ $w!Hc
 (L$@D
 (L$PD
 (L$PH
-(L$`3
 (L$`D
 (L$`E
 (L9I@t	
@@ -547,8 +542,8 @@ $w!Hc
 )D$Ps
 )D$`D
 )D$pA
-)D$pD
 )D$pH
+)J^^a=
 )L$ D
 )L$ fD
 )L$ ff
@@ -642,7 +637,6 @@ $w!Hc
 , column 
 , last executing in 
 , requestedBytes 
-,85`F.
 ,9k0t%H
 ,9{0t%H
 ,H;D$ 
@@ -936,6 +930,7 @@ $w!Hc
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_018@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_019@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_020@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_021@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -1464,6 +1459,7 @@ $w!Hc
 .?AVCVRSteamPrivate_018@@
 .?AVCVRSteamPrivate_019@@
 .?AVCVRSteamPrivate_020@@
+.?AVCVRSteamPrivate_021@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1604,6 +1600,7 @@ $w!Hc
 .?AVIVRSteamPrivate_019@vr@@
 .?AVIVRSteamPrivate_020@vr@@
 .?AVIVRSteamPrivate_021@vr@@
+.?AVIVRSteamPrivate_022@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1911,6 +1908,7 @@ $w!Hc
 /user/hand/left/input/b/click
 /user/hand/left/input/b/touch
 /user/hand/left/input/back/click
+/user/hand/left/input/bumper/click
 /user/hand/left/input/dpad_down/click
 /user/hand/left/input/dpad_left/click
 /user/hand/left/input/dpad_right/click
@@ -1968,6 +1966,7 @@ $w!Hc
 /user/hand/right/input/b/click
 /user/hand/right/input/b/touch
 /user/hand/right/input/back/click
+/user/hand/right/input/bumper/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
 /user/hand/right/input/grip/value
@@ -2100,7 +2099,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240320180241Z0/
+240506212147Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2115,7 +2114,6 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
-4%Fw]o[HD
 416.16
 440.97
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -2216,7 +2214,6 @@ $w!Hc
 : one or more FS callback not set
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
-:GW5Ag
 :\u-L
 :\u6L
 ; expected 
@@ -2384,6 +2381,10 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
+@85\`.
+@8=Pf.
+@8=sg.
+@8=~e.
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2411,6 +2412,7 @@ $w!Hc
 @A_A^A\
 @A_A^A\][
 @A_A^A\_^
+@A_A^A]A\]
 @A_A^A]A\_
 @A_A^A]A\_H
 @A_A^A]A\_^[
@@ -2443,6 +2445,7 @@ $w!Hc
 @SUVWAVH
 @SUWAUAWH
 @SUWAVAWH
+@SUWAWH
 @SUWH
 @SVATAUAWH
 @SVAUAVH
@@ -2502,6 +2505,7 @@ $w!Hc
 @USWAUH
 @USWAVAWH
 @USWAVH
+@USWAWH
 @USWH
 @UVATAUAVH
 @UVATAVAWH
@@ -2521,7 +2525,6 @@ $w!Hc
 @UVWAUAWH
 @UVWAUH
 @UVWAVAWH
-@UVWAWH
 @UVWH
 @UWATAUAVH
 @UWATAUAWH
@@ -2697,8 +2700,8 @@ A_A^_^[]
 A_A^_^]
 A_A^_^][
 A__[]
+A__][
 A__^[
-A__^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Aborting GetDeltas(%s) disjoint! (n=%d)
 Aborting GetDeltas(%s) event[%d]! (n=%d)
@@ -2776,8 +2779,8 @@ B0L+B(H
 B84/u
 B9T	$t
 B9T	$u
-B9T!$t
-BD9%nF?
+B9T)$t
+BD9%~W?
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2812,6 +2815,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
+C-Hv5
 C0L9$
 C0L;E
 C0L;F
@@ -3005,6 +3009,7 @@ CT$pH
 CVRApplicationsLatest
 CVRClient::Init
 CVRCompositorClient::SubmitTextureSetInfo
+CVRCompositorSharedTextures::EndCommandBuffer
 CVRCompositorSharedTextures::GetFreeFence - Failed to create fence
 CVRLog::LogDirect
 CVRMsg_AbortApplicationTransition
@@ -3411,6 +3416,7 @@ Cx<fu
 C|$0H
 C|$0L
 C|$0M
+C|$@H
 C|$PL
 C}xE2
 D$ 9]dvnL
@@ -3433,6 +3439,8 @@ D$ tGI
 D$ tIf
 D$ tSI
 D$ u!H
+D$!uk
+D$#nil
 D$$% B
 D$$E3
 D$( N
@@ -3507,7 +3515,6 @@ D$HH+
 D$HH;
 D$HHi
 D$HI+
-D$HIk
 D$HL;
 D$HfA
 D$PE3
@@ -3799,8 +3806,8 @@ Error: XR_KHR_binding_modification is required for XR_EXT_dpad_binding to be ena
 Event: %s device %u timestamp %f  data 0x%llx 0x%llx
 EventRegister
 EventUnregister
-EventWrite
 EventWriteString
+EventWriteTransfer
 EwH;B
 ExH9Q
 Exceeded stackLimit in readValue().
@@ -3817,7 +3824,7 @@ F(H;FHs
 F0L;G
 F9D	$
 F9D	$t
-F9D!$t
+F9D)$t
 F@;G t
 FACET_VULKAN_VALIDATION
 FALSE
@@ -3846,6 +3853,7 @@ Failed get Texture_t from 0x%llx
 Failed get glTextureId from 0x%llx
 Failed getting mailbox response %s: %d
 Failed mapping view for %s; Error code: 0x%08x
+Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
 Failed to allocate Vulkan ring buffer
 Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u
 Failed to allocate new VRCompositor semaphore
@@ -3915,7 +3923,7 @@ Failed to find entrypoint WINRT_WaitForPresent
 Failed to find interface '%s'
 Failed to find system resource manifest %s.
 Failed to get AllowSteamOverlays setting (%s). Using default setting.
-Failed to get allowDesktopBPMWithVRGamepadUI setting (%s). Using default setting.
+Failed to get AllowVRGamepadUI Setting setting (%s). Using default setting.
 Failed to get graphics adapter LUID for EDID VendorId=%#04X
 Failed to get steamMatchesHMDFramerate setting (%s). Allowing by default.
 Failed to import client event handle from pipe %s after connecting
@@ -4226,6 +4234,7 @@ H+t$ H
 H+t$@H
 H+|$ H
 H-^Eu
+H8A9Y
 H8H+H0H
 H8H+H0L
 H9(t	H
@@ -4235,15 +4244,15 @@ H9/t	H
 H90t	H
 H93t	H
 H948t
-H95=0?
-H95@<?
-H95D5?
-H95K7?
-H95`<?
+H95MA?
+H95PM?
+H95TF?
+H95[H?
+H95pM?
 H98t	H
 H9;t	H
-H9=23?
-H9=sD?
+H9=&D?
+H9=BD?
 H9A H
 H9APt M
 H9A`u}f
@@ -4305,14 +4314,14 @@ H;+u*
 H;0u7
 H;0u8H
 H;0u:H
+H;5Bv5
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:C"
-H;=J<"
-H;=nq"
-H;=~{"
+H;=:J"
+H;=JC"
+H;=nx"
 H;A s
 H;Axt
 H;C(v
@@ -4340,10 +4349,10 @@ H;K sKH
 H;K sLH
 H;K sOH
 H;K sRH
-H;K sVH
+H;K sXH
 H;Mgt1
 H;N v
-H;O sLH
+H;O sNH
 H;O s_H
 H;P s
 H;Q s
@@ -4482,6 +4491,7 @@ I9Bhs
 I9P s
 I9Q sEI
 I9W@t
+I9fxU
 I9u@tCH
 I9x s
 I;4$H
@@ -4725,6 +4735,7 @@ IVRSteamPrivate_018
 IVRSteamPrivate_019
 IVRSteamPrivate_020
 IVRSteamPrivate_021
+IVRSteamPrivate_022
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID
@@ -4771,6 +4782,7 @@ IVRWatchdogProvider_001
 IXrBinding::PostEndFrame
 IXrProto_001
 I\$(H
+I^E'+D
 Ic@,I
 IcO4H
 IcV E3
@@ -4933,11 +4945,11 @@ L$0H3
 L$0H9
 L$0H;
 L$0H;L$xtKH
-L$0Hc
 L$0M;
 L$0fE
 L$4D;
 L$4E3
+L$4Hc
 L$8A+
 L$8D8c
 L$8D;
@@ -5017,7 +5029,7 @@ L)l$xL),$Ak
 L+I0E3
 L8 9J
 L8$9J
-L9 t'H
+L9 t&H
 L90t	H
 L97u0H
 L9?u,H
@@ -5146,15 +5158,15 @@ Low Power Watchdog Not Supported (129)
 M H1E
 M+HPI
 M8I;E
-M9 t13
+M9 t/3
 M98u/
 M99uJ3
 M9<$vW
 M9H s
 M9M0t!
+M9f M
 M9f0t?H
-M9g M
-M9g8I
+M9f8I
 M9oHu
 M9o`tkH
 M9x t
@@ -5542,6 +5554,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSg 
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5858,6 +5871,7 @@ T$XE3
 T$XH9T$`t!L
 T$XH;
 T$XI+
+T$`D8
 T$`E3
 T$`H9T$ht
 T$`H;
@@ -6004,7 +6018,6 @@ USWAUAVAWH
 USWAUAVH
 USWAUH
 USWAVAWH
-USWAVH
 USWAWH
 UUUUUU
 UUUUUUU
@@ -6905,7 +6918,6 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X5:h"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7410,6 +7422,7 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Y9"SD
+Y=Pm)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7464,6 +7477,7 @@ ZvFailed to create fence %ls.
 [Compositor Client] Begin ReleaseSync
 [Compositor Client] End AcquireSync
 [Compositor Client] End ReleaseSync
+[Compositor Client] EndCommandBuffer
 [Compositor Client] Flush (D3D10) - Begin
 [Compositor Client] Flush (D3D10) - End
 [Compositor Client] Flush (D3D11) - Begin
@@ -7796,7 +7810,6 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5wU*
 ]9k0tVD
 ]@L9{(
 ]HH;G
@@ -7922,7 +7935,6 @@ _wstat64i32
 `A^_^
 `A_A]A\[]
 `A_A]^
-`A_A^A]A\]
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 `A_A^A]A\_^]H
@@ -7953,6 +7965,7 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+`x@SH
 a7hIw
 abort
 accessor[
@@ -7975,7 +7988,6 @@ additionalFramesToPredict
 alias_info
 alias_info field exists, but it is not an object
 allowComments
-allowDesktopBPMWithVRGamepadUI
 allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
@@ -8174,7 +8186,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\fake_app_container_config_path
 c@L+c8D
-cM3-m
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -8227,6 +8238,7 @@ const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
+container: set %s to %s
 controller_axis
 controller_axis_component
 controller_button
@@ -8618,6 +8630,7 @@ https://
 hu_hu
 hungarian
 iError calling pDownsampleRenderer->Draw()!
+iVr57>G?
 icon_steamvr_desktopgame.png
 ig@-?e
 illegal code in raster
@@ -8787,7 +8800,6 @@ l$ WATAWH
 l$ WAVAWH
 l$ WAVHc|$8I
 l$ WH
-l$ fD
 l$(E3
 l$0A^_
 l$0E3
@@ -8998,8 +9010,9 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5+a,
-o5|J!
+o5"T!
+o5or,
+o5{p,
 o@@fD
 oD$ fD
 oD$0f
@@ -9215,6 +9228,7 @@ sMessageText
 safe_mode_driver_whitelist.json
 sampler
 samplers
+sc_schinese
 scalar_constant
 scalar_scaleandoffset
 scalar_translation
@@ -9774,7 +9788,6 @@ t$ UAVAWH
 t$ UH
 t$ UWATAUAVH
 t$ UWATAUAWH
-t$ UWATH
 t$ UWAVH
 t$ WATAUAVAWH
 t$ WATAWH
@@ -9819,8 +9832,6 @@ t$@H=
 t$@I;
 t$@L;
 t$DA+
-t$HA;
-t$HE3
 t$HH+
 t$HH;
 t$HHi
@@ -9855,6 +9866,7 @@ t$hL;
 t$pE3
 t$pH;
 t$pI;
+t$pM;
 t$pfA
 t$pfD
 t$pu'
@@ -9870,7 +9882,7 @@ t3fff
 t4L9P
 t6H9.u1
 t7fff
-t8D8-
+t8D8-a
 t9fff
 t:fff
 t>H9n
@@ -9886,7 +9898,7 @@ tHI9t$
 tJL;y rDH
 tNI;X rHI
 tQ@8q4tKI
-tQH95g7?
+tQH95wH?
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9966,7 +9978,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=V3?
+t}H9=fD?
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -9977,7 +9989,6 @@ u L9}xt
 u#H9H s
 u#H9P s
 u#H9Q s
-u#M9g
 u'@8u
 u*H9w`t$H
 u*H9{`t$H
@@ -9988,8 +9999,8 @@ u4H9X s
 u5H9t$0u.H
 u<+u8
 u<H9^xtLH
-u=L96u8A;
 u>D8}
+u>L9>u9;\$0t3
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 u@M9'
@@ -10017,12 +10028,11 @@ ugL;D$H
 ui8D$0tc
 ukH9X s
 uk_ua
-ukranian
+ukrainian
 unCallingProcessID
 unMyPID == data
 unProcessID
 unSamples == 1 && unArraySize >= 1
-unSize < 65536
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->unSize
 unable to allocate vkBuffer-associated memory
@@ -10056,7 +10066,6 @@ v=Y]Bv
 vD;EHL
 vE;E`M
 vHcD$LH
-v[L9c u
 value
 value_hold_threshold
 value_mapping
@@ -10079,7 +10088,7 @@ vfA'I
 vi_vn
 vibration
 vid_%04x
-vietnamiese
+vietnamese
 visibility
 visible_time_in_seconds
 vive_controller
@@ -10839,6 +10848,7 @@ xA^A\_^][
 xA_A^A]A\][
 x_path
 xdigit
+xm'z.b-5
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -10932,6 +10942,7 @@ xrLocateViews: Display time was invalid.
 xrLocateViews: Switching to TrackingUniverseSeated because XR_REFERENCE_SPACE_TYPE_LOCAL continued to be requested for more than 3 seconds
 xrLocateViews: Switching to TrackingUniverseStanding because XR_REFERENCE_SPACE_TYPE_STAGE was requested
 xrNegotiateLoaderRuntimeInterface
+xrNegotiateLoaderRuntimeInterface bRunningInAppContainer: %d
 xrPathToString
 xrPollEvent
 xrReleaseSwapchainImage
@@ -10967,6 +10978,7 @@ yxxxxxxxL
 yxxxxxxxL+
 zh_cn
 zh_tw
+zkaqP
 zlib corrupt
 znear
 { "type": "keyboard_hidden" }
@@ -11007,6 +11019,7 @@ znear
 |$0H9
 |$0H;
 |$0Hk
+|$0Ii
 |$0Mc
 |$0ff
 |$0u)H
@@ -11032,6 +11045,7 @@ znear
 |$@I;
 |$@M;
 |$D!u	
+|$HA;
 |$HE3
 |$HH;
 |$HH=
@@ -11071,10 +11085,11 @@ znear
 |$tD;
 |$xE3
 |$xH+
+|$xI;
 |$xIi
 |$xIk
 |$xL;
-|8PH;
+|:kS=
 |D8E t"H
 |Lu?c
 |s;K(tnA
@@ -11091,6 +11106,7 @@ znear
 ~3LcD$(L
 ~6HcD$ I
 ~Cfff
+~D36M
 ~PH9~Xt(H
 ~qj#k"
 ~t&LN

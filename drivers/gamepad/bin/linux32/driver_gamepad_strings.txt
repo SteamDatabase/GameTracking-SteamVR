@@ -852,6 +852,7 @@ IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
+IVRIPCResourceManagerClient_001
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006

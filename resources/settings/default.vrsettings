@@ -223,7 +223,8 @@
         "inputCaptureEnabled": false,
         "allowSteamOverlays": true,
         "allowVRGamepadUI": true,
-        "allowDesktopBPMWithVRGamepadUI": false,
+        "allowVRGamepadUIViaGamescope": false,
+        "allowQuickLaunchInVRGamepadUI": false,
         "steamMatchesHMDFramerate": true
     },
     "driver_imu": {
@@ -245,7 +246,8 @@
         "loadPriority": -800
     },
     "driver_amdwvr": {
-        "loadPriority": -900
+        "loadPriority": -900,
+        "enable": false
     },
     "input": {
         "leftThumbstickRotation": 0,

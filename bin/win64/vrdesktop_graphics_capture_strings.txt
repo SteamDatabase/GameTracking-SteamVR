@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	/jalra
  %41g
  A_A^A\
  A_A^A]A\_
@@ -16,6 +17,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+#<Ra-
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -41,6 +43,7 @@
 ,W5y+
 -1e+9999
 -Infinity
+-neI4
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -181,7 +184,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320180339Z0/
+240506212245Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -199,7 +202,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-6eo(}
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -454,7 +456,6 @@ Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
 Executable: %s
-F8wD 
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -639,6 +640,7 @@ LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
+Lyt0g
 M H1E
 M98u/
 MB(iVR
@@ -728,6 +730,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
+U>r ,
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -796,6 +799,7 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
+ZcF}Z
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -860,7 +864,6 @@ _seh_filter_dll
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 a7hIw
-a[!}S
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -911,7 +914,6 @@ desktopview
 dutch
 dwmapi.dll
 dxgi.dll
-e7dd*\c
 el_gr
 en_us
 enableWindowView
@@ -975,6 +977,7 @@ l2|X/gGe
 latam
 list<T> too long
 m0k0$
+mA{7B
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1002,6 +1005,8 @@ portuguese
 product_name
 pt_br
 pt_pt
+q[w']
+r(C#U
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1016,6 +1021,7 @@ romanian
 ru_ru
 running
 russian
+sc_schinese
 schinese
 shcore.dll
 shutdown
@@ -1052,7 +1058,7 @@ tolower
 tr_tr
 turkish
 uk_ua
-ukranian
+ukrainian
 update_debug_info
 update_window_list
 user32.dll
@@ -1060,7 +1066,7 @@ v=Y]Bv
 vE;E`M
 vector<T> too long
 vi_vn
-vietnamiese
+vietnamese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
 vr::VROverlay()->DestroyOverlay( m_ulOverlayHandle )
@@ -1104,6 +1110,7 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
+|TW>oB
 }LuHO
 ~qj#k"
 ~t&LN

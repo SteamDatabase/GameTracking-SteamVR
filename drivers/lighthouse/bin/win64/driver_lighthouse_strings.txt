@@ -163,6 +163,7 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
+ ;=aY$
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -258,7 +259,6 @@
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !hn7!
-!kh&I
 !leftSyncIsReal
 !m_stackFreeResources.empty()
 !rightSyncIsRealAsItGets
@@ -348,7 +348,6 @@ $0$1$2 $3 = $4
 $0enum $1 {
 $0option $1;
 $9k0t
-$Yf#n
 $tAUUPE
 $w!Hc
 %%.%dg
@@ -1246,6 +1245,7 @@ $w!Hc
 /F@v	L
 /Z v"
 /bin/mail
+/bzx#
 /delivery_rate
 /devices/lighthouse/
 /elapsed_time
@@ -1397,7 +1397,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240320175656Z0/
+240506211623Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1413,7 +1413,6 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3Pole
-3l)78
 3mq+<
 42HcF,
 4Pole
@@ -1457,7 +1456,6 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
-8L9-H
 8O0u]A
 8\$@t
 8\t	H
@@ -1571,7 +1569,6 @@ $w!Hc
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
-:sOzT
 ; expected 
 ; last read: '
 ;.u H
@@ -2870,7 +2867,6 @@ D$hL;d$x
 D$hM+
 D$hfff
 D$lA;
-D$n"x
 D$p(;M8
 D$pD9u
 D$pE3
@@ -3160,8 +3156,8 @@ Errors when parsing lighthouse database %s:
 Errors!
 EventRegister
 EventUnregister
-EventWrite
 EventWriteString
+EventWriteTransfer
 EwD9u
 ExH9Q
 Exceeded stackLimit in readValue().
@@ -3204,7 +3200,7 @@ F(HcH
 F,9ATu
 F,9G,
 F-A+F%
-F0D85p
+F0D85x
 F8@85
 F<@85
 F@@8h)u
@@ -3232,6 +3228,7 @@ Failed creating auto reset event %s (GLE: %u)
 Failed creating file mapping %s: %u
 Failed creating mutex %s (GLE: %u)
 Failed mapping view for %s; Error code: 0x%08x
+Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
 Failed to connect to pipe %s because %s
 Failed to connect to pipe %s because %s... retrying
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)
@@ -3492,20 +3489,22 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-qE!
+H9-AE!
 H91u 
 H92u&
 H92u,
 H93t	H
-H95*~+
-H95X{+
-H95bW)
-H95l{+
+H95"Y)
+H95,}+
+H95]q+
+H95`}+
+H95dv+
+H95kx+
 H97t	H
 H98t	H
 H9;uAA
-H9=j?)
-H9=vr+
+H9=6t+
+H9=Rt+
 H9A s
 H9A u&
 H9A u6
@@ -3570,7 +3569,10 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=#Z
+H;=3X
+H;=CW
+H;=KP
+H;=pQ
 H;Axt
 H;B0t
 H;C sAH
@@ -3634,10 +3636,10 @@ HA^_^[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
-HL9-S
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
 HMD Report:
+HMeK#
 HTC SR-1
 HTC V2-XC
 HTC V2-XD/XE
@@ -3790,7 +3792,7 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IL9-tb(
+IL9-$d(
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -3851,6 +3853,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
+IVRIPCResourceManagerClient_001
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -4139,36 +4142,36 @@ L+P@H
 L+Q@I
 L80L;
 L9&u"
-L9-!y(
-L9-"a(
-L9-$r(
-L9-%i(
-L9-%|(
-L9-5z(
-L9-:s(
-L9-;n(
-L9-Ce(
-L9-Id(
-L9-Nk(
-L9-Qo(
-L9-T_(
-L9-Y`(
-L9-_t(
-L9-a}(
-L9-gp(
-L9-j{(
-L9-nl(
+L9-	b(
+L9-3w(
+L9-6c(
+L9-9h(
+L9-;j(
+L9-?z(
+L9-Fs(
+L9-Nf(
+L9-]o(
+L9-_e(
+L9-_{(
+L9-bt(
+L9-hk(
+L9-i|(
+L9-ll(
+L9-mb(
+L9-sp(
+L9-xu(
+L9-{~(
 L90H;
 L90M;
 L92u'
-L95Ls'
 L97u0H
-L9="+'
-L9==1'
-L9=>,'
-L9=Le&
-L9=N0'
-L9=`-'
+L9=55'
+L9=Q,'
+L9=R1'
+L9=V;'
+L9=^<'
+L9=h-'
+L9=h4'
 L9?u,H
 L9@ s
 L9A r
@@ -4534,7 +4537,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDS0
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5505,12 +5507,11 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5CF!
+Y5hN$
 Y9"SD
 Y?33s?
 YAHH+
 YAPH+
-YL9%!
 Yl$ M
 Yl$4E
 Yl$hfD
@@ -5564,7 +5565,6 @@ ZL$Xf
 \$ UH
 \$ UVAVH
 \$ UVWATAUAVAWH
-\$ UVWAUAVH
 \$ UVWH
 \$ UWATH
 \$ UWAUAVAWH
@@ -5641,7 +5641,6 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
-\O 5&
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -6291,6 +6290,7 @@ focal_y
 fopen
 fopen_s
 forceSoloEdid
+force_old_controller_radio
 forcedExposureTime
 forcedFrameRate
 forcedGlobalGain
@@ -6965,6 +6965,7 @@ sampler
 samplers
 samples
 sbetu=
+sc_schinese
 scalar
 scale
 scene
@@ -7231,6 +7232,7 @@ tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
 tTL9-
+tTL9-ag(
 tUA91uPH
 tXH+A
 tXfff
@@ -7308,10 +7310,10 @@ twos_complement
 tx<	u#
 t|C9D
 t|SUVH
-t}H9=
+t}H9=vt+
 t~L9=
-t~L9='8'
-t~L9=H6'
+t~L9=09'
+t~L9=Q7'
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7328,7 +7330,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-;c(
+u<L9-
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7337,14 +7339,14 @@ uDf9X
 uJf9X
 uKb!?6mH
 uRf;>tM
-uSL9-
+uSL9-wd(
 uSfff
 uZEeu
 ubHcC0I
 uint32
 uint64
 uk_ua
-ukranian
+ukrainian
 umM;~
 undist_height
 undist_width
@@ -7374,14 +7376,14 @@ usbVID
 usePrism
 usedisambiguation
 userdata
-u{L9=!:'
+u{L9=
 v(M;l
 v9fff
 v=Y]Bv
 v@L;D$P
 vE;E`M
 vHcD$LH
-vOL9-
+vOL9-R
 vQO+t
 value
 values
@@ -7401,7 +7403,7 @@ vi_vn
 via transform to global
 vibration
 video_mode
-vietnamiese
+vietnamese
 viveVR
 vive_controller
 vive_pro
@@ -8055,7 +8057,7 @@ vrprismhost_startup timed out after %u ms before being set by the new vrprismhos
 vrwebhelper
 vuf?H
 vulkan-1.dll
-v}L9-
+v}L9-@k'
 w(M9w0tH
 w+OQvr
 wUD;C$}OH
@@ -8080,9 +8082,10 @@ wrong channel count
 wrong color format
 wrong submessage type
 wrong version
+ws6Ks
 www.digicert.com1!0
 www.digicert.com1$0"
-w{L9=.4'
+w{L9=
 x ATAVAWH
 x AVH
 x UATAUAVAWH

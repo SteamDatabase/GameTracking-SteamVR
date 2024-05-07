@@ -512,6 +512,8 @@ $9E0u
 .tls$ZZZ
 .xdata
 .xdata$x
+/YjfUx
+07:Aj
 0A]A\_
 0A^A]A\
 0A^_[
@@ -530,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240320175551Z0/
+240506211521Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -576,9 +578,9 @@ $9E0u
 <unknown>
 =rIQU
 >0<0:
->3ySf
 >Mp$d
 >ffv?
+>wP|x
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -1008,8 +1010,8 @@ Enumerated %zu vulkan displays
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
-EventWrite
 EventWriteString
+EventWriteTransfer
 EwH9S
 ExH9Q
 Executable: %s
@@ -1077,6 +1079,7 @@ GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
+Gvhx&;
 H SVWH
 H USVAUH
 H+APH
@@ -1247,6 +1250,7 @@ LoadLibraryExW
 LoadLibraryW
 LocalAlloc
 LocalFree
+Lqs2_I
 M H1E
 M(I9V t
 M98u/
@@ -1420,7 +1424,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDST3
+RSDS}
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1502,6 +1506,7 @@ T$@fI
 T$XI+
 T$`H+T$XH
 T$`L+
+T$hE3
 T$pL+
 T$tA+
 T$xD9
@@ -1625,7 +1630,6 @@ XA_A][]
 XA_A^A]_
 Y9"SD
 YUV conversion - %s
-YV24B
 Yl$ M
 Yl$4E
 [ AVH
@@ -1669,7 +1673,6 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
-^	*tlq/^
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1721,7 +1724,6 @@ _register_onexit_function
 _seh_filter_dll
 _wcsicmp
 _wcsnicmp
-`$T;$T
 `.rdata
 `A^A]_^]
 `A^_]
@@ -1904,6 +1906,7 @@ l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
+m\Et*+9
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -1950,6 +1953,7 @@ memmove
 memset
 multiple signals per batch not allowed
 mwH9S
+n9PsH
 nArrayIndex < m_details.nArrayLayerCount
 nD$p3
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -2000,6 +2004,7 @@ pOutput != nullptr
 pOutputPtr != nullptr
 pPoseProvider
 pPoseProvider != nullptr
+pQEFk
 pQueue != nullptr
 pReference
 pReferenceImage
@@ -2021,7 +2026,6 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
-qnB#Z
 r+w2H;
 r,fff
 r/w:I
@@ -2750,6 +2754,7 @@ www.digicert.com1$0"
 xA_A^A]A\_^[]
 yxxxxxxxH
 yxxxxxxxI+
+yz~)L9x
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH

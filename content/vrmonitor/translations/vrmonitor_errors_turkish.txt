@@ -808,7 +808,7 @@
 "Warning_DismissableWarning_RequiresSteamUpdate_Description" "SteamVR'ın tüm işlevlerinden yararlanmak için Steam istemcinizi güncellemelisiniz."
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR Güncellemesi"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR %2 sürümüne güncellendi."
-"Warning_DismissableWarning_SteamVRUpdated_Action" "Değişikliklere göz atın"
+"Warning_DismissableWarning_SteamVRUpdated_Action" "Değişikliklere göz at"
 "Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
 
 "Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Cihaz Bilgisi"

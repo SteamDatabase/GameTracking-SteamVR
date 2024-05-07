@@ -54,6 +54,10 @@
     "/pose/front_rolled" : {
         "type" : "pose",
         "binding_image_point" : [ 100, 90 ]
+    },
+    "/output/haptic" : {
+        "type" : "vibration",
+        "binding_image_point" : [ 66, 59 ]
     }
   }
 }

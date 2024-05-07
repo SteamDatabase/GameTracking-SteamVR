@@ -1412,6 +1412,7 @@
  )];y
  *0/0
  +D '
+ -5!W
  -c showpage
  .XoO+@#$%&*=-;:>,<1234567890qwertyuipasdfghjklzxcvbnmMNBVCZASDFGHJKLPIUYTREWQ!~^/()_`'][{}|
  0%070<0N0S0
@@ -3747,7 +3748,6 @@ $~O="""
 0a1b2g2v2{2
 0a1{1
 0b0r0
-0blw#
 0c0k0s0
 0c1h1|1
 0cbJ<H
@@ -4059,6 +4059,7 @@ $~O="""
 1C3Y3^3m3r3
 1D1d1s1x1"2*272i2s2x2
 1D2H2
+1DQV)
 1E1a1
 1E2k2
 1F1K1Z1_1
@@ -4335,7 +4336,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240320175614Z0/
+240506210925Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -5805,6 +5806,7 @@ $~O="""
 6J7Q7g7
 6J7R7]7
 6J7a7
+6J9Y_
 6K6P6f6u6
 6K6{6
 6K7g7
@@ -9829,6 +9831,7 @@ C %g %g %g %g %g %g
 C %g %g %g %g %g %g Z
 C 9G t
 C E;i
+C \KR3
 C$;x$
 C$VWP
 C$_[^
@@ -13186,7 +13189,6 @@ I'?Fx'?v
 I.S(ja
 I0N0s0x0
 I1S1X1
-I2?\m
 I9D$|
 I;}W?
 IBH Image Scale Factors
@@ -14186,6 +14188,7 @@ L$|_^[3
 L$|_^]3
 L%.20g
 L&&jl66Z~??A
+L(tNb
 L*A*B
 L*LrL
 L/Q0am
@@ -14522,6 +14525,7 @@ MSVCP140.dll
 MT$H9t$h
 MT$l;
 MTV Raytracing image format
+MYA64
 M`SE0
 M`_^3
 Ma la volpe, col suo balzo, ha raggiunto il quieto Fido.
@@ -14993,6 +14997,7 @@ ODUUUUUU
 OI;MG:F@5?90=60A=8ME5SD.WLS
 OLEAUT32.dll
 OP_^][
+OQUzjc
 OUTBUFF_FULL
 OW%PXMPYuPZ
 OWhDB;
@@ -19249,6 +19254,7 @@ _wstat64i32
 `SUVWj
 `Uh@J2
 `[ghostscript library %.2f]%s': %s
+`\V-z}q
 `_^]3
 ``6c3x
 `}@ReadXBMImage
@@ -25811,7 +25817,6 @@ xmlns:%s: Empty XML namespace is not allowed
 xmlns:%s: URI %s is not absolute
 xmp.xml
 xmp:*
-xmy>!
 xoWdh
 xpm_%.1024s
 xps:cmyk
@@ -26111,7 +26116,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |)VURS
 |4|(t
 |4|au
-|6B]n
 |7&rU3
 |>>Bq
 |CJ25?+:72*0+Z?>

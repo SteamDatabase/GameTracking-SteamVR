@@ -277,6 +277,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
+IVRIPCResourceManagerClient_001
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006

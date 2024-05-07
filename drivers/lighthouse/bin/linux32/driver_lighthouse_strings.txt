@@ -170,7 +170,7 @@ $tI
 %s
 %s %c:
 %s %s
-%s %s startup with PID=%u, config=%s, runtime=%s
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s
 %s - Unable to init
 %s - Unable to start replay of "%s"
 %s [%s] -
@@ -456,16 +456,8 @@ $tI
 .L100
 .L101
 .L102
-.L1026
-.L1027
-.L1029
 .L103
-.L1030
-.L1031
-.L1032
-.L1033
 .L1034
-.L1035
 .L1036
 .L1037
 .L1038
@@ -476,7 +468,15 @@ $tI
 .L1042
 .L1043
 .L1044
+.L1045
+.L1046
+.L1047
+.L1048
+.L1049
 .L105
+.L1050
+.L1051
+.L1052
 .L106
 .L107
 .L1074
@@ -1659,12 +1659,14 @@ $tI
 .L4441
 .L4442
 .L4443
-.L4444
-.L4445
 .L4446
 .L4447
-.L4448
+.L4449
 .L445
+.L4450
+.L4451
+.L4452
+.L4453
 .L4456
 .L4458
 .L4459
@@ -2127,25 +2129,25 @@ $tI
 .L860
 .L861
 .L862
-.L8627
-.L8629
 .L863
-.L8630
-.L8631
-.L8632
-.L8633
 .L864
 .L865
-.L8656
-.L8658
-.L8659
 .L866
-.L8660
 .L8661
-.L8662
+.L8663
+.L8664
+.L8665
+.L8666
+.L8667
 .L867
 .L868
 .L869
+.L8690
+.L8692
+.L8693
+.L8694
+.L8695
+.L8696
 .L87
 .L871
 .L872
@@ -2482,7 +2484,6 @@ $tI
 16
 16CVrcDecodeTagged
 17
-17:52:54
 17CBoneMaskResource
 17CFirmwareManifest
 17CImuTrackerThread
@@ -2498,6 +2499,7 @@ $tI
 20CLighthouseHmdDriver
 20IVRAudioNotification
 21
+21:02:40
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
@@ -3788,13 +3790,13 @@ CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CST
 CSWTCH.111
-CSWTCH.127
+CSWTCH.128
 CSWTCH.131
 CSWTCH.139
 CSWTCH.141
 CSWTCH.142
 CSWTCH.161
-CSWTCH.2109
+CSWTCH.2110
 CSWTCH.214
 CSWTCH.224
 CSWTCH.925
@@ -3979,7 +3981,8 @@ CUsbDeviceScanner::CUsbDeviceScanner()
 CUsbDeviceScanner::RunFrame()
 CUsbDeviceScanner::StartScannerThread()
 CUsbDeviceScanner::StartScannerThread() [clone .cold]
-CUsbDeviceScanner::StopScannerThread()
+CUsbDeviceScanner::StopScannerThread(bool)
+CUsbDeviceScanner::StopScannerThread(bool) [clone .part.0]
 CUsbDeviceScanner::~CUsbDeviceScanner()
 CUsbDeviceScannerThread::Run()
 CUsbDeviceScannerThread::~CUsbDeviceScannerThread()
@@ -4948,6 +4951,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
+IVRIPCResourceManagerClient_001
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -5681,7 +5685,6 @@ MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
 Mar
-Mar 20 2024
 March
 Mark 1
 Mark 2
@@ -5693,6 +5696,7 @@ Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
 May
+May  6 2024
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
 Message class "
@@ -8561,6 +8565,7 @@ cryptor::string_encryptor<16u>::decrypt() const
 cryptor::string_encryptor<19u>::decrypt() const
 cryptor::string_encryptor<22u>::decrypt() const
 cryptor::string_encryptor<29u>::decrypt() const
+cryptor::string_encryptor<3u>::decrypt() const
 cryptor::string_encryptor<5u>::decrypt() const
 cryptor::string_encryptor<7u>::decrypt() const
 cryptor::string_encryptor<8u>::decrypt() const
@@ -8854,6 +8859,7 @@ fopen64
 for
 for detail.
 forceSoloEdid
+force_old_controller_radio
 force_pid
 force_pid_val
 forcedExposureTime
@@ -11786,6 +11792,7 @@ lighthousedb.json
 lighthousedriver:
 lights
 linear_search_fdes
+linux32
 ll
 locale::_Impl::_M_replace_facet
 locale::_S_normalize_category category not found
@@ -12774,6 +12781,7 @@ s_rchProcessIdentifier
 sampler
 samplers
 sc
+sc_schinese
 scalar
 scale
 scandir
@@ -18042,7 +18050,7 @@ uevent
 uint32
 uint64
 uk_ua
-ukranian
+ukrainian
 ul
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 ull
@@ -18141,7 +18149,7 @@ vi_vn
 via transform to global
 vibration
 video_mode
-vietnamiese
+vietnamese
 virtual thunk to
 virtual thunk to std::basic_fstream<char, std::char_traits<char> >::~basic_fstream()
 virtual thunk to std::basic_fstream<wchar_t, std::char_traits<wchar_t> >::~basic_fstream()

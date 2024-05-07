@@ -28,14 +28,6 @@
 	},
 
 	{
-		"title":		"#Settings_SectionTitle_System",
-		"controller":	"system_settings",
-		"values": [
-			 { "name": "/settings/steamvr/*", "type":  "wildcard" }
-		]
-	},
-
-	{
 		"title":		"#Settings_SectionTitle_Internet",
 		"controller":	"internet_settings",
 		"values": [
@@ -117,6 +109,8 @@
 			,{ "name": "/settings/dashboard/showPowerOptions", "type": "bool" }
 			,{ "name": "/settings/dashboard/allowAppQuitting", "type": "bool" }
 			,{ "name": "/settings/dashboard/showDesktop", "type": "bool" }
+
+			,{ "name": "/settings/dashboard/allowQuickLaunchInVRGamepadUI", "type": "bool" }
 
 			,{ "name": "/settings/dashboard/lastAccessedExternalOverlayKey", "type": "string" }
 			,{ "name": "/settings/dashboard/*", "type":  "wildcard" }

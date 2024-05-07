@@ -57,6 +57,26 @@
     "/pose/raw" : {
         "type" : "pose",
         "binding_image_point" : [ 63, 148 ]
+    },
+    "/pose/front" : {
+        "type" : "pose",
+        "binding_image_point" : [ 100, 90 ]
+    },
+    "/pose/back" : {
+        "type" : "pose",
+        "binding_image_point" : [ 100, 90 ]
+    },
+    "/pose/pistol" : {
+        "type" : "pose",
+        "binding_image_point" : [ 100, 90 ]
+    },
+    "/pose/front_rolled" : {
+        "type" : "pose",
+        "binding_image_point" : [ 100, 90 ]
+    },
+    "/output/haptic" : {
+        "type" : "vibration",
+        "binding_image_point" : [ 66, 59 ]
     }
   },
   "simulation_settings":

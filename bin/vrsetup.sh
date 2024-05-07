@@ -9,10 +9,8 @@ set -u
 
 BASENAME="$(basename "$0")"
 
-export STEAMVR_SETUP_LOG="${STEAMVR_SETUP_LOG:-/tmp/SteamVRLauncherSetup.log}"
-
 log () {
-	( echo "${BASENAME}[$$]: $*" | tee -a "${STEAMVR_SETUP_LOG}" >&2 ) || :
+    ( echo "${BASENAME}[$$]: $*" >&2 ) || :
 }
 
 VRBINDIR="$(cd "$(dirname "$0")" && echo $PWD)"
@@ -21,11 +19,6 @@ if [ -z "${STEAMVR_VRENV-}" ]; then
 	log exec "$VRBINDIR/vrenv.sh" "$0" "$@"
 	exec "$VRBINDIR/vrenv.sh" "$0" "$@"
 	# unreachable
-fi
-
-# Just a safety fallback, STEAM_ZENITY should be already setup via the vrenv.sh path above
-if [ -z "${STEAM_ZENITY-}" ]; then
-	export STEAM_ZENITY="zenity"
 fi
 
 function SteamVRLauncherSetup()
@@ -59,9 +52,11 @@ function SteamVRLauncherSetup()
 			return 0
 		fi
 
-		if ! ${STEAM_ZENITY} --no-wrap --question --text="SteamVR requires superuser access to finish setup. Proceed?"; then
-			log 'Error: user declined superuser request.'
-			return 1
+		# FIXME: see steamrt#397, similar to steam_msg.sh, for prompts..
+		${VRBINDIR}/steamvr_question.sh "SteamVR requires superuser access to finish setup. Proceed?"
+		if [ "$?" != "0" ]; then
+		    log 'Error: user declined superuser request.'
+		    return 1
 		fi
 
 		pkexec setcap CAP_SYS_NICE=eip $STEAMVR_TOOLSDIR/bin/linux64/vrcompositor-launcher
@@ -86,6 +81,8 @@ function SteamVRLauncherSetup()
 }
 
 SteamVRLauncherSetup
+
 if [ "$?" != "0" ]; then
-    ${STEAM_ZENITY} --no-wrap --info --text="SteamVR setup is incomplete, some features might be missing. See $STEAMVR_SETUP_LOG for details.";
+    # FIXME: see steamrt#397, easier to copy steam_msg.sh into the SteamVR depot than to try and locate it
+    ${VRBINDIR}/steamvr_msg.sh --error "SteamVR setup is incomplete, some features might be missing. See ${LOGFILE-"Steam client logs folder"} for details."
 fi

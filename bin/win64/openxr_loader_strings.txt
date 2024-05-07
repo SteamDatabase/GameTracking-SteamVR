@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	2td`"
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -45,8 +44,6 @@
  with error 
 !!! WARNING !!! Environment variable 
 !hn7!
-#?xD'
-#HuMt
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -63,7 +60,6 @@
 (unknown)
 )D$ L
 )t$ H
-+3Q%c)
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -168,6 +164,7 @@
 0x%llx (%lld): 
 0}0i1
 130801120000Z
+1B!O{
 1e+9999
 210429000000Z
 211007000000Z
@@ -175,7 +172,7 @@
 220801000000Z
 230714000000Z
 2333333
-240320175836Z0/
+240506211758Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -413,7 +410,6 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 G(L9w 
-GC"l>\
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -532,8 +528,9 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-P~|{"
+QPRto2
 QueryPerformanceCounter
+RSDS?
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -747,7 +744,6 @@ deque<T> too long
 description
 disable_environment
 double out of UInt range
-eEj7y
 enable_environment
 enabledExtensionCount is non-0 but array is NULL
 engine name missing NULL terminator.
@@ -803,6 +799,7 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
+kbqG'
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -826,12 +823,12 @@ memcpy
 memmove
 memset
 must be non-NULL
-n6O4}
 nfinity
 ntelD
 openxr/
 openxr_loader.dll
 platform_utils
+r_L0#r
 rejectDupKeys
 runtime
 s t#fff

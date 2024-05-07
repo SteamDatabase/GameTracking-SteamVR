@@ -9,10 +9,8 @@ set -u
 
 BASENAME="$(basename "$0")"
 
-export STEAMVR_SETUP_LOG="${STEAMVR_SETUP_LOG:-/tmp/SteamVRLauncherSetup.log}"
-
 log () {
-	( echo "${BASENAME}[$$]: $*" | tee -a "${STEAMVR_SETUP_LOG}" >&2 ) || :
+    ( echo "${BASENAME}[$$]: $*" >&2 ) || :
 }
 
 VRBINDIR="$(cd "$(dirname "$0")" && echo $PWD)"
@@ -27,4 +25,5 @@ VRSTARTUP=$STEAMVR_TOOLSDIR/bin/linux64/vrstartup
 
 DEBUGGER=${DEBUGGER-}
 log exec $DEBUGGER "$VRSTARTUP" "$@"
+
 exec $DEBUGGER "$VRSTARTUP" "$@"

@@ -4,6 +4,7 @@
 !hn7!
 ',=?k
 (Unable to load LibOVR)
+(cHTa
 (f*^[0
 +Xt@(
 +o'q)}
@@ -67,150 +68,145 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-0 0$0(0H0L0t0
-0 0(0<0D0L0T0X0\0d0x0
-0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
-0!0+030A0K0z0
-0'0,020:0B0G0M0U0]0b0h0p0x0}0
-0'141U1Z1s1x1
-0+0-4D4
-0V0[0
+0 0$0(0,0L0P0|0
+0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0q0v0
+0!0'0/070<0B0J0R0W0]0e0m0r0x0
+0,040<0@0H0\0d0l0t0x0|0
+0;0=4T4
+0J0T0^0i0s0
+0f0k0
 0w0c1
 0}0i1
-1!111A1K1U1`1m1
-1!1J2
-1"1'1,1A1F1K1P1U1Z1_1d1i1n1s1x1}1
-1$1(1,1014181<1@1D1H1h1l1
-1$1-121R132F2L2j2p2~2
-1%1-151:1@1H1P1U1[1c1k1p1v1~1
-1(2L2x2
+1!111Z2
+1!141=1B1b1C2V2\2z2
+1"1'1,11161A1F1K1P1U1Z1_1d1i1n1s1x1}1
+1"1*1/151=1E1J1P1X1`1e1k1s1{1
+1%1*1C1H1U1
+1%101=1b1r1|1
+1(1,1<1@1D1H1L1P1T1X1\1`1d1
 130801120000Z
-2	4+4
-2 2(2-232;2C2H2N2V2^2c2i2q2y2~2
+2"2(20282=2C2K2S2X2^2f2n2s2y2
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
-2$383]3q3
-2*FzR
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240320175608Z0/
+240506210920Z0/
 241009235959Z0a1
-262~2
-2>4~4
-2C2t2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2H2l2
+2N2`2
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3'313;3E3O3Y3c3m3w3
+3!3(3
+3#3-373A3K3U3_3i3s3}3
 3'313;3H3R3X3_3c3i3s3}3
+3-3A3T3
 311109235959Z0b1
 341013235959Z0H1
+34383
+343\3x3
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3:3t3
-3<3X3x3
-3T4p4
+384<4@4D4\4`4h4
 3mq+<
-4 4$4<4@4H4`4p4t4
-4!4+454?4I4S4]4g4q4{4
-4#4/4>4T4Z4_4e4p4v4
+3v4!5_5s5}5
+4$4*4/454@4F4U4\4a4j4o4x4
+4&4/484A4J4S4\4;5T5X5\5`5d5h5l5p5
+4&565>5F5
+4'414;4E4O4Y4c4m4w4
 4'4L4n4
-4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4j/hd
-5!6.6I6
-5$5/5
-5$5E5
-5&5.565r5
-5,5<5@5P5T5X5`5x5|5
-586<6@6D6H6L6P6T6X6\6`6
-5=637Q7~7
+5 5X6\6`6d6h6l6p6t6x6|6
+5$5(5,545L5\5`5p5t5x5
+545U5
 5FjiT
 5Genu
-5N5W5`5i5n5s5z5
-5O5c5m5x5
+5M6C7a7
+5^5g5p5y5~5
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-6$6<6L6P6`6d6h6p6
+6"6I6
+6"7]7
+6$6(686<6D6\6l6p6
+6$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 6*f(_
-696r6
 6I]Dc
 6OB,n_
-6Q7Z7a7
-7 7&7;7S7Y7c7z7
-7!7&747C7L7U7^7c7h7o7
-7$7(787<7L7P7X7p7
-7&828\8
+6^6d6~6
+6a7j7q7
+7#7)737J7{7
+7#7,71767D7S7\7e7n7s7x7
 7+737;7
+7/8C8L8X8^8d8o8
 70503
+747D7H7X7\7l7p7x7
+768B8l8
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8 9&9,93999Y9
-8'8-878A8K8U8_8l8u8
-8(8,8<8@8H8`8p8t8
-8*QIk
-838<8H8N8T8_8
+8$84888H8L8\8`8h8
+8'8-878A8K8U8_8i8v8
+80969<9C9I9i9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8G9Q9[9i9
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9$919C9M9W9b9m9z9
-94?8?<?@?D?H?L?P?T?X?x?|?
-9@9I9R9`9i9|9]:}:
-9A9X9t9
-9X;h;
-:$:-:6:?:D:I:P:`:
-:+;a;
-:-:6:?:H:M:R:Y:
-:.:7:B:X:
-; ;B;Q;Z;g;
-; <(<-<@<T<Y<l<
-;$;-;2;7;>;C;O;q;
-;(;1;6;;;B;R;
-;8<A<R<
-;j<q<
-<#<(<-<4<y<
-<%<.<7<<<A<H<
-<'<1<;<E<O<Y<c<m<w<
+9"90999L9-:M:W:r:
+9#9.9;9M9W9a9l9w9
+9+9Q9h9
+93:z:
+9T?X?\?`?d?h?l?p?t?x?
+9W9a9k9y9
+9h;x;
+:";+;4;=;B;G;N;S;_;
+:&;/;8;A;F;K;R;b;
+:/:=:F:O:X:]:b:i:
+:4:=:F:O:T:Y:`:p:
+:>:G:R:h:
+;!;*;7;O;
+;)<6=
+;;;q;
+< =,=4=T=x=
+<!<*<3<8<=<D<
+<#<-<7<A<K<U<_<i<s<}<
+<$<)<<<T<]<h<o<
+<,<5<><G<L<Q<X<
 <0:08
-<E<Q<i<
-<V>a>|>
-=&=2=;=@=F=P=Z=j=z=
-='>P>_>r>~>
-=,>i>o>
-=4=X=d=l=
-=<=p=
-=P>h>l>
-=]=f=o=x=}=
-=j)h8
+<U<a<y<
+= =*=:=J=Z=c=r=x=~=
+= >/>B>N>^>o>
+=&=m=v=
+=`>x>|>
+=f>q>
+=j)hX
 =rIQU
->*>2>9>A>F>L>T>\>a>g>o>w>|>
+> >B>d>n>w>
+>$>*>0>6><>B>H>N>T>Z>`>f>l>r>x>~>
+>(>4><>\>
 >0<0:
->0><>B>H>N>T>Z>`>f>l>r>x>~>
->2>T>^>g>r>x>~>
-><>`>l>t>
+>8?E?l?t?
+>:>B>I>Q>V>\>d>l>q>w>
+><>y>
 >Mp$d
-? ?&?,?A?Q?a?q?
-?$?,?4?9???G?O?T?Z?b?j?o?u?}?
-?:?m?v?
-?<?H?P?|?
-?L?R?`?l?
+?!?)?.?4?<?D?I?O?W?_?d?j?r?z?
+?!?1?A?Q?a?q?
+?$?(?8?\?h?p?
+?(?J?}?
+?\?b?p?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPBD@Z
 ?_Xout_of_range@std@@YAXPBD@Z
-?h?u?
 @.data
 @.reloc
 ADVAPI32.dll
+Be.)^
 Bellevue1
+CAxyK
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -232,10 +228,11 @@ DisableThreadLibraryCalls
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
-EventWrite
 EventWriteString
+EventWriteTransfer
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
+Fa|e*q
 FreeLibrary
 GetCurrentDirectoryW
 GetCurrentProcess
@@ -249,7 +246,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H-^Eu
-HW,79
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -259,6 +255,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
+IVRIPCResourceManagerClient_001
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -296,7 +293,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS2
+RSDSc
 RaiseException
 S0Q0O
 SA|X=G
@@ -335,7 +332,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-X+O1lC
 Y9"SD
 Y__^[
 [K]taM?

@@ -378,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240320175521Z0/
+240506211452Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -453,6 +453,7 @@ $< t6<$t,<+t"<vt
 =rIQU
 >0<0:
 >Mp$d
+>g{0k
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -579,6 +580,7 @@ $< t6<$t,<+t"<vt
 @A_A^]
 @A_A^_
 @A_A^_^]
+@B?`~g~
 @SAUAVAWH
 @SUVAWH
 @SUVWATAUAVAWH
@@ -1046,7 +1048,6 @@ K4A+H
 K8Hc@
 KERNEL32.dll
 KH;_XtW3
-KSHtBO
 K}*n:	
 L$ SUVH
 L$ SUVWH
@@ -1089,7 +1090,6 @@ LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 Lock already taken
-LvfoE
 M H1E
 M'H9E
 MB(iVR
@@ -1119,13 +1119,11 @@ PA__^[]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QP=V?
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS,
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1242,6 +1240,8 @@ Verify failed at 0x%X/0x%X Bytes
 VirtualAlloc
 VirtualFree
 VirtualProtect
+W#wy2j
+W+dm1
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1348,6 +1348,7 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
+`b#/W
 a7hIw
 abort
 address family not supported
@@ -1405,6 +1406,7 @@ eventObject
 executable format error
 f	n@H
 f#D$@H
+f174M
 f9,Yu
 f9/t	H
 f9D$pu
@@ -1541,7 +1543,6 @@ pExecutionResource
 pScheduler
 pThreadProxy
 permission denied
-pjh[K
 ppVirtualProcessorRoots
 print
 protocol error
@@ -1672,7 +1673,6 @@ vector<T> too long
 vector<bool> too long
 version
 vrcamera_api.dll
-vv4Vg
 w(HcODI
 wcsnlen
 wcstoul

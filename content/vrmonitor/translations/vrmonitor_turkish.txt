@@ -44,7 +44,7 @@
 "StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Lütfen bilgisayarınızın grafik sürücüsünü güncelleştirin"
 "StatusWarning_UnknownWarning" "Bilinmeyen Uyarı (0x%1)"
 
-"DismissableWarning_DismissButton" "Reddet"
+"DismissableWarning_DismissButton" "Kapat"
 "DismissableWarning_RunTutorialAgain" "Eğitimi çalıştır (0x0001)"
 "DismissableWarning_BasestationsTooFarApart" "Takip istasyonları birbirlerinden çok uzaktalar (0x0002)"
 "DismissableWarning_OpticalBasestationSyncWarning" "Takip istasyonu uyarısı (0x0004)"

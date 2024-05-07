@@ -40,7 +40,7 @@ $_^[]
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
-+6skRm,
++*>;F
 +A Vj$
 +A$+Y
 +A$tU3
@@ -432,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-240320175455Z0/
+240506210808Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1020,6 +1020,7 @@ $_^[]
 =??L?Y?f?
 =F>U>
 =G=g=
+=J(jO
 =T=t=
 =g>q>
 =rIQU
@@ -1451,6 +1452,7 @@ Lock already taken
 M SVW
 M$+E4@Pj
 MB(iVR
+MI3mp
 MJPEG color format is not yet implemented.
 MaxConcurrency
 MaxPolicyElementKey
@@ -1490,6 +1492,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDSS
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1853,6 +1856,7 @@ t,WW9}
 t0!1+1E1O1i1s1
 t8 9\8$|
 tB;wPt
+tBj{(
 tCj&h
 tCj'h
 tCj+h

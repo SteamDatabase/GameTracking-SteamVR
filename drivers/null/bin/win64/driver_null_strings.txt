@@ -5,7 +5,6 @@
 !hn7!
 ',=?k
 (f*^[0
-*E@JQ
 +Xt@(
 +o'q)}
 ,W5y+
@@ -79,13 +78,12 @@
 0w0c1
 0}0i1
 130801120000Z
-1;Pfyy\
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240320175755Z0/
+240506211723Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,8 +103,10 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8-)"Xv
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+;_^=<
 <0:08
 =rIQU
 >0<0:
@@ -134,7 +134,6 @@ GetSystemTimeAsFileTime
 H SWH
 H-^Eu
 H93t	H
-H9=yQ
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -144,6 +143,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
+IVRIPCResourceManagerClient_001
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -169,7 +169,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSvs
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -182,7 +181,6 @@ UnhandledExceptionFilter
 Unknown exception
 Using settings values
 VCRUNTIME140.dll
-VR?u5V
 VWAVH
 VWAWH
 V_~]	,
@@ -193,6 +191,7 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
+^Al8F
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -252,8 +251,8 @@ memcpy
 memmove
 memset
 modelNumber
-nh+uq
 ntelD
+pvJK^
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -275,5 +274,6 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
+~,[)I0
 ~qj#k"
 ~t&LN

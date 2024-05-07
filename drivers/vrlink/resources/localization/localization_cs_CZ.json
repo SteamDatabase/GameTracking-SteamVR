@@ -15,6 +15,6 @@
 	"Setting_useOSCEyes": "Sdílet data sledování očí s jinými aplikacemi na tomto PC pomocí OSC",
 	"Setting_useOSCFace": "Sdílet data sledování obličeje s jinými aplikacemi na tomto PC pomocí OSC",
 	"Setting_OSCOutPort": "Výstupní port OSC",
-	"Setting_WirelessShutdownTimeout": "Po odpojení ukončit režim SteamVR",
-	"Setting_AllowVolumeControlSync": "Ovládání hlasitosti a ztlumení headsetu z režimu SteamVR"
+	"Setting_WirelessShutdownTimeout": "Po odpojení ukončit režim SteamVR za",
+	"Setting_AllowVolumeControlSync": "Ovládat hlasitost a ztlumení headsetu z režimu SteamVR"
 }

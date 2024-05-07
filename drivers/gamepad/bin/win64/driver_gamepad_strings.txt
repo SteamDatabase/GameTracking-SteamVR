@@ -2,16 +2,15 @@
  %41g
  A__^
  H3E H3E
+ sy_j
 !hn7!
 ',=?k
 (D$ f
 (f*^[0
 (|$pL
 +Xt@(
-+fD?8
 +o'q)}
 ,W5y+
--bj"zdE
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -99,7 +98,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320175643Z0/
+240506211611Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -112,7 +111,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5-z\B
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -123,7 +121,9 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
+9Q8iK
 <0:08
+=JPGN
 =rIQU
 >0<0:
 >Mp$d
@@ -163,11 +163,10 @@ GetSystemTimeAsFileTime
 H SWH
 H-^Eu
 H93t	H
-H957{
-H95A|
-H95Dz
-H95E}
-H95O~
+H95g{
+H95q|
+H95tz
+H95u}
 H9w`tFH
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
@@ -179,6 +178,7 @@ IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
+IVRIPCResourceManagerClient_001
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -193,6 +193,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+K]Y&#>+
 K}*n:	
 L$ SH
 L?n(Zy&
@@ -303,12 +304,10 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-a$=%$&cf
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
-arR`%
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
@@ -354,6 +353,5 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-}\C4'y5p$
 ~qj#k"
 ~t&LN

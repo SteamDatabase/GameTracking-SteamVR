@@ -180,7 +180,7 @@ $@
 %s
 %s %c:
 %s %s
-%s %s startup with PID=%u, config=%s, runtime=%s
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s
 %s - Unable to init
 %s - Unable to start replay of "%s"
 %s [%s] -
@@ -894,7 +894,6 @@ $@
 16CVrcDecodeTagged
 16CWirelessDecoder
 17
-17:53:02
 17CBoneMaskResource
 17CFirmwareManifest
 17CImuTrackerThread
@@ -914,6 +913,7 @@ $@
 20CVkCommandBufferPool
 20IVRAudioNotification
 21
+21:02:45
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
@@ -2313,14 +2313,14 @@ CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CST
 CSWTCH.107
-CSWTCH.125
+CSWTCH.126
 CSWTCH.131
 CSWTCH.135
 CSWTCH.137
 CSWTCH.142
 CSWTCH.16
 CSWTCH.162
-CSWTCH.1920
+CSWTCH.1921
 CSWTCH.212
 CSWTCH.221
 CSWTCH.23
@@ -2527,7 +2527,8 @@ CUsbDeviceScanner::CUsbDeviceScanner()
 CUsbDeviceScanner::RunFrame()
 CUsbDeviceScanner::StartScannerThread()
 CUsbDeviceScanner::StartScannerThread() [clone .cold]
-CUsbDeviceScanner::StopScannerThread()
+CUsbDeviceScanner::StopScannerThread(bool)
+CUsbDeviceScanner::StopScannerThread(bool) [clone .part.0]
 CUsbDeviceScanner::~CUsbDeviceScanner()
 CUsbDeviceScannerThread::Run()
 CUsbDeviceScannerThread::~CUsbDeviceScannerThread()
@@ -3843,6 +3844,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
+IVRIPCResourceManagerClient_001
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -4597,7 +4599,6 @@ MakeFileWriteable(char const*)
 ManualURL
 Map
 Mar
-Mar 20 2024
 March
 Mark 1
 Mark 2
@@ -4610,6 +4611,7 @@ Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
 May
+May  6 2024
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
 Message class "
@@ -7627,6 +7629,7 @@ cryptor::string_encryptor<16ul>::decrypt() const
 cryptor::string_encryptor<19ul>::decrypt() const
 cryptor::string_encryptor<22ul>::decrypt() const
 cryptor::string_encryptor<29ul>::decrypt() const
+cryptor::string_encryptor<3ul>::decrypt() const
 cryptor::string_encryptor<5ul>::decrypt() const
 cryptor::string_encryptor<7ul>::decrypt() const
 cryptor::string_encryptor<8ul>::decrypt() const
@@ -8105,6 +8108,7 @@ fopen64
 for
 for detail.
 forceSoloEdid
+force_old_controller_radio
 force_pid
 force_pid_val
 forcedExposureTime
@@ -11050,6 +11054,7 @@ lighthousedb.json
 lighthousedriver:
 lights
 linear_search_fdes
+linux64
 listen
 ll
 loadedDevice
@@ -12100,6 +12105,7 @@ s_thread_pRobustListStruct
 sampler
 samplers
 sc
+sc_schinese
 scalar
 scale
 scandir
@@ -17528,7 +17534,7 @@ uevent
 uint32
 uint64
 uk_ua
-ukranian
+ukrainian
 ul
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 ull
@@ -17632,7 +17638,7 @@ vi_vn
 via transform to global
 vibration
 video_mode
-vietnamiese
+vietnamese
 virtual thunk to
 virtual thunk to std::basic_fstream<char, std::char_traits<char> >::~basic_fstream()
 virtual thunk to std::basic_fstream<wchar_t, std::char_traits<wchar_t> >::~basic_fstream()

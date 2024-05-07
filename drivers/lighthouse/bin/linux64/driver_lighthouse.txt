@@ -2470,14 +2470,14 @@
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vBlueChromaticCorrection
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vRedChromaticCorrection
  r CSWTCH.107
- r CSWTCH.125
+ r CSWTCH.126
  r CSWTCH.131
  r CSWTCH.135
  r CSWTCH.137
  r CSWTCH.142
  r CSWTCH.16
  r CSWTCH.162
- r CSWTCH.1920
+ r CSWTCH.1921
  r CSWTCH.212
  r CSWTCH.221
  r CSWTCH.23
@@ -4408,7 +4408,8 @@
  t CUsbDeviceScanner::RunFrame()
  t CUsbDeviceScanner::StartScannerThread()
  t CUsbDeviceScanner::StartScannerThread() [clone .cold]
- t CUsbDeviceScanner::StopScannerThread()
+ t CUsbDeviceScanner::StopScannerThread(bool)
+ t CUsbDeviceScanner::StopScannerThread(bool) [clone .part.0]
  t CUsbDeviceScanner::~CUsbDeviceScanner()
  t CUsbDeviceScannerThread::Run()
  t CUsbDeviceScannerThread::~CUsbDeviceScannerThread()
@@ -6466,6 +6467,7 @@
  t cryptor::string_encryptor<19ul>::decrypt() const
  t cryptor::string_encryptor<22ul>::decrypt() const
  t cryptor::string_encryptor<29ul>::decrypt() const
+ t cryptor::string_encryptor<3ul>::decrypt() const
  t cryptor::string_encryptor<5ul>::decrypt() const
  t cryptor::string_encryptor<7ul>::decrypt() const
  t cryptor::string_encryptor<8ul>::decrypt() const

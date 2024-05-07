@@ -19,10 +19,8 @@ if [[ "$QUIET" == "0" ]]; then
 	set -x
 fi
 
-export STEAMVR_SETUP_LOG="${STEAMVR_SETUP_LOG:-/tmp/SteamVRLauncherSetup.log}"
-
 log () {
-	( echo "${BASENAME}[$$]: $*" | tee -a "${STEAMVR_SETUP_LOG}" >&2 ) || :
+    ( echo "${BASENAME}[$$]: $*" >&2 ) || :
 }
 
 export STEAMVR_VRENV="$(readlink -f $0)"

@@ -1736,13 +1736,13 @@
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vBlueChromaticCorrection
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vRedChromaticCorrection
  r CSWTCH.111
- r CSWTCH.127
+ r CSWTCH.128
  r CSWTCH.131
  r CSWTCH.139
  r CSWTCH.141
  r CSWTCH.142
  r CSWTCH.161
- r CSWTCH.2109
+ r CSWTCH.2110
  r CSWTCH.214
  r CSWTCH.224
  r CSWTCH.925
@@ -2471,16 +2471,8 @@
  t .L100
  t .L101
  t .L102
- t .L1026
- t .L1027
- t .L1029
  t .L103
- t .L1030
- t .L1031
- t .L1032
- t .L1033
  t .L1034
- t .L1035
  t .L1036
  t .L1037
  t .L1038
@@ -2491,7 +2483,15 @@
  t .L1042
  t .L1043
  t .L1044
+ t .L1045
+ t .L1046
+ t .L1047
+ t .L1048
+ t .L1049
  t .L105
+ t .L1050
+ t .L1051
+ t .L1052
  t .L106
  t .L107
  t .L1074
@@ -3674,12 +3674,14 @@
  t .L4441
  t .L4442
  t .L4443
- t .L4444
- t .L4445
  t .L4446
  t .L4447
- t .L4448
+ t .L4449
  t .L445
+ t .L4450
+ t .L4451
+ t .L4452
+ t .L4453
  t .L4456
  t .L4458
  t .L4459
@@ -4142,25 +4144,25 @@
  t .L860
  t .L861
  t .L862
- t .L8627
- t .L8629
  t .L863
- t .L8630
- t .L8631
- t .L8632
- t .L8633
  t .L864
  t .L865
- t .L8656
- t .L8658
- t .L8659
  t .L866
- t .L8660
  t .L8661
- t .L8662
+ t .L8663
+ t .L8664
+ t .L8665
+ t .L8666
+ t .L8667
  t .L867
  t .L868
  t .L869
+ t .L8690
+ t .L8692
+ t .L8693
+ t .L8694
+ t .L8695
+ t .L8696
  t .L87
  t .L871
  t .L872
@@ -5336,7 +5338,8 @@
  t CUsbDeviceScanner::RunFrame()
  t CUsbDeviceScanner::StartScannerThread()
  t CUsbDeviceScanner::StartScannerThread() [clone .cold]
- t CUsbDeviceScanner::StopScannerThread()
+ t CUsbDeviceScanner::StopScannerThread(bool)
+ t CUsbDeviceScanner::StopScannerThread(bool) [clone .part.0]
  t CUsbDeviceScanner::~CUsbDeviceScanner()
  t CUsbDeviceScannerThread::Run()
  t CUsbDeviceScannerThread::~CUsbDeviceScannerThread()
@@ -7146,6 +7149,7 @@
  t cryptor::string_encryptor<19u>::decrypt() const
  t cryptor::string_encryptor<22u>::decrypt() const
  t cryptor::string_encryptor<29u>::decrypt() const
+ t cryptor::string_encryptor<3u>::decrypt() const
  t cryptor::string_encryptor<5u>::decrypt() const
  t cryptor::string_encryptor<7u>::decrypt() const
  t cryptor::string_encryptor<8u>::decrypt() const

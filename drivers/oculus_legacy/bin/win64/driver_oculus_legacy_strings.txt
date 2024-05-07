@@ -2,13 +2,12 @@
     A
  %41g
  (Camera)
- 8*~:"
  9D$D
  A__^
  H3E H3E
 !hn7!
+%zG8y0
 ',=?k
-(6_i{
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -20,12 +19,12 @@
 )\$pD
 )d$`D
 )t$pu.H
-+*6mj
+*=r=+
 +Xt@(
 +o'q)}
 , last executing in 
-,%s{U
 ,W5y+
+-U6g1,
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -95,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320175803Z0/
+240506211730Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,7 +143,7 @@
 @SUVWAVH
 @SVAUAVH
 @SVWH
-@UATAVH
+@UAVH
 @UAWH
 @USVWATAUAVAWH
 A9A A
@@ -153,7 +152,6 @@ A;Q s?I
 A;R s
 ADVAPI32.dll
 A]A\_^[]
-A^A\]
 A^_^][
 A_A^A]A\_
 A_A^A]A\_^[]
@@ -161,7 +159,7 @@ A_A^]
 A__][
 AuthD
 Bellevue1
-C(L95
+C(L95c
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
@@ -192,8 +190,8 @@ DisableThreadLibraryCalls
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
-EventWrite
 EventWriteString
+EventWriteTransfer
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
@@ -223,6 +221,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
+IVRIPCResourceManagerClient_001
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -245,6 +244,7 @@ L$ E3
 L$ SH
 L$ SUVWH
 L$ SVWH
+L$@E3
 L$@H3
 L9t$huP
 L?n(Zy&
@@ -268,6 +268,7 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QmM1Q
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
@@ -287,7 +288,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-SzZ+C
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -301,6 +301,7 @@ TlsGetValue
 TlsSetValue
 UAVAWH
 USVWATAUH
+UU/ds"
 UWAVH
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
@@ -317,7 +318,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-Vv&Il
 WATAUAVAWH
 WaitForSingleObject
 WakeAllConditionVariable
@@ -334,6 +334,7 @@ Y9"SD
 \$ UH
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
+_!S9%
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -394,6 +395,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i;uz(
 jj@0HK4
 k0i0$
 l$8E3
@@ -405,7 +407,6 @@ memcmp
 memcpy
 memmove
 memset
-nFzu	
 n\tuH
 ntelD
 oculus
@@ -465,19 +466,16 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t9wjA
-tIL95f
+tIL95
 tXfff
 tdh.dll
 terminate
 tkH97t	H
-uEXvmI
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
-{8Y m(h
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -492,7 +490,5 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
-}|;W0
-~ee<ZL
 ~qj#k"
 ~t&LN

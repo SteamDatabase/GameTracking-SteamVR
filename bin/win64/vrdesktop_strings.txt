@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	O0qQ
  %41g
  A_A^A\
  A_A^A]A\_
@@ -15,9 +16,11 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!@{6!
 !hn7!
 %%.%dg
 %s%s%s%s%s
+%}|}r
 ' is not a number.
 ',=?k
 (A\_^[
@@ -165,7 +168,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320180328Z0/
+240506212234Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -338,7 +341,6 @@ CreateThread
 Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
-Cv^y%ejP!
 C|$PL
 D	d$LI
 D	l$L
@@ -598,6 +600,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSl
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -834,6 +837,7 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
+k_*KU
 kernel32.dll
 ko_kr
 koreana
@@ -877,6 +881,7 @@ ro_ro
 romanian
 ru_ru
 russian
+sc_schinese
 schinese
 shcore.dll
 shutdown
@@ -909,13 +914,13 @@ tolower
 tr_tr
 turkish
 uk_ua
-ukranian
+ukrainian
 user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
 vi_vn
-vietnamiese
+vietnamese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
 vr::VROverlay()->DestroyOverlay( m_ulOverlayHandle )
@@ -937,8 +942,10 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+z$A.B
 zh_cn
 zh_tw
+{&4qi
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH
@@ -955,9 +962,8 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |$pH+
-|//!!
 |Lu?c
 }LuHO
-~&)]zj
+~Zfyv
 ~qj#k"
 ~t&LN

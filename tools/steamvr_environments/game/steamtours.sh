@@ -10,22 +10,21 @@ set -u
 BASENAME="$(basename "$0")"
 GAMEROOT="$(cd "$(dirname "$0")" && echo $PWD)"
 
-export _STEAMTOURS_SETUP_LOG="${_STEAMTOURS_SETUP_LOG:-/tmp/SteamVRTours.log}"
+LOGFILE=vrsteamtours-linux.txt
+
+STEAM_BASE_FOLDER="${STEAM_BASE_FOLDER:-$(realpath ~/.steam/steam)}"
+mkdir -p "${STEAM_BASE_FOLDER}/${STEAM_CLIENT_LOG_FOLDER:-logs}"
 
 log () {
-	( echo "${BASENAME}[$$]: $*" | tee -a "${_STEAMTOURS_SETUP_LOG}" >&2 ) || :
+    ( echo "${BASENAME}[$$]: $*" >&2 ) || :
 }
-
-if [ -z "${_STEAMTOURS_SKIP_DATE-}" ]; then
-	log "=== $(date) ==="
-	# so we only log this once through the run.sh execs etc.
-	export _STEAMTOURS_SKIP_DATE=1
-fi
 
 # Require LDLP scout runtime environment
 # SteamVR is launching us via steam-runtime-launch-client, which is runtime neutral, so we are expected to have to do this
 if [ -n "${STEAM_RUNTIME-}" ]; then
 	log "Detected scout LDLP runtime."
+	# We can only start logging once we have srt-logger availability, so we miss capturing the first LDLP relaunch
+	logger="${STEAM_RUNTIME}/amd64/usr/bin/srt-logger"
 	# continue
 else
 	log "Relaunch under scout LDLP runtime."
@@ -34,20 +33,40 @@ else
 	# unreachable
 fi
 
+if [ -x "$logger" ]; then
+	# Prevent multiple opens through vrenv.sh relaunch
+	if [ -z "${_STEAMVR_LOGGING_READY-}" ]; then
+		# Send stdout to a subprocess that copies its stdin to the log file,
+		# maybe the terminal, and maybe the systemd Journal; then send stderr
+		# to the same place as stdout
+		exec > >( exec "$logger" --exec-fallback --filename=${LOGFILE} ) 2>&1
+		export _STEAMVR_LOGGING_READY=1
+	fi
+else
+	log "WARNING: $logger not found, logging disabled"
+fi
+
 if [ -z "${STEAMVR_VRENV-}" ]; then
-	log "Relaunch under vrenv."
-	# Internal dev setup uses a symlink, we're relying on realpath -L here
-	VRBINDIR=$(realpath -L ${GAMEROOT}/../../../runtime/bin)
+	log "Relaunch under vrenv"
+	# SteamVR depot layout
+	VRBINDIR="${GAMEROOT}/../../../bin"
+	if [ ! -d "${VRBINDIR}" ]; then
+		# Internal dev setup has a different layout
+		VRBINDIR=$(realpath -L "${GAMEROOT}/../../../runtime/bin")
+		if [ "$?" != "0" ]; then
+			log "Error: VRBINDIR lookup failed, check your installation"
+			exit 1
+		fi
+	fi
 	log exec "$VRBINDIR/vrenv.sh" "$0" "$@"
 	exec "$VRBINDIR/vrenv.sh" "$0" "$@"
 	# unreachable
 fi
 
-
 ulimit -n 2048
 
 # Set default thread size.
-ulimit -Ss 1024
+ulimit -S -s 1024
 
 # and launch the game
 cd "$GAMEROOT"
