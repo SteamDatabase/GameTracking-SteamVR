@@ -2,6 +2,7 @@
  %41g
  A__^
  H3E H3E
+ n<A?ES
 !hn7!
 ',=?k
 (f*^[0
@@ -83,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506211723Z0/
+240513212903Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -97,16 +98,16 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5R-UlV
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8-)"Xv
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-;_^=<
+:	<rT
 <0:08
 =rIQU
 >0<0:
@@ -119,6 +120,7 @@
 @A^_^
 AuthD
 Bellevue1
+Bf|W%
 CT$0H
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -186,12 +188,12 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+WRzf%R5
 Washington1
 Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
-^Al8F
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -225,7 +227,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
@@ -251,8 +253,8 @@ memcpy
 memmove
 memset
 modelNumber
+nZb-&
 ntelD
-pvJK^
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -274,6 +276,6 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-~,[)I0
+~dXMPkQ)
 ~qj#k"
 ~t&LN

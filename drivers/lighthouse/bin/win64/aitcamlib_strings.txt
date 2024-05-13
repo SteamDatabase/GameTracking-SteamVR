@@ -19,17 +19,17 @@
 !(0)"
 !hn7!
 "9k0t
-"<Gf:
+"](Zh
 #*1892+$
 #9i0t
 #?RADIANCE
 #?RGBE
 #D9c0t
 #D9{0t
+$j%NS
 %,3:;4-&
 %9k0t
 %9{0t
-%b6od
 &9k0t
 &D9c0t
 &D9k0t
@@ -38,7 +38,6 @@
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
-(>zqO:
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -180,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506211456Z0/
+240513212628Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -203,8 +202,10 @@
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8F\3`
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
+8c;9^
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9C }.H
@@ -263,6 +264,7 @@
 @USVWAVH
 @UWAVAWH
 @VAVAWH
+@oFw3
 A9A A
 A9Q }EI
 A;Q }?I
@@ -295,7 +297,6 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 AuthD
-A}'?Oy
 BMP RLE
 Bellevue1
 C<unknown>
@@ -371,6 +372,7 @@ GetSystemTimeAsFileTime
 GetTickCount64
 H+C H;
 H-^Eu
+H2.dc
 H93t	H
 H9D$@u
 H;C(v
@@ -469,7 +471,6 @@ OutputDebugStringA
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
-PH9f/;zD
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -480,6 +481,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSF
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -568,6 +570,7 @@ VATAUH
 VCRUNTIME140.dll
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
+VLp:7
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -592,7 +595,6 @@ Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
-[HvX1
 [K]taM?
 \$ E3
 \$ UH
@@ -606,7 +608,6 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
-^wYyKrn
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -708,10 +709,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -733,6 +734,7 @@ de_de
 deque<T> too long
 driver_lighthouse
 dutch
+e:2zQ
 el_gr
 en_us
 english
@@ -752,7 +754,7 @@ fseek
 g9k0t_D
 german
 gfffffffH
-gh5$'
+gkQB8
 greek
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -840,13 +842,14 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-r@.Nd
 rND9{0t
 read past buffer
 ro_ro
 romanian
 ru_ru
 russian
+sG(nV<
+sTQdg
 sc_schinese
 schinese
 spanish

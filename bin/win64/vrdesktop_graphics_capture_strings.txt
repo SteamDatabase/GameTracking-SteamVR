@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	/jalra
  %41g
  A_A^A\
  A_A^A]A\_
@@ -17,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-#<Ra-
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -43,7 +41,6 @@
 ,W5y+
 -1e+9999
 -Infinity
--neI4
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -184,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506212245Z0/
+240513213429Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -430,6 +427,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
+E37RN
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -640,7 +638,6 @@ LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
-Lyt0g
 M H1E
 M98u/
 MB(iVR
@@ -730,7 +727,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-U>r ,
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -799,7 +795,6 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
-ZcF}Z
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -895,11 +890,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cz
 czech
 d$`H=
@@ -908,6 +903,7 @@ d3d11.dll
 da_dk
 danish
 dashboard
+ddaHFn
 de_de
 deque<T> too long
 desktopview
@@ -977,7 +973,6 @@ l2|X/gGe
 latam
 list<T> too long
 m0k0$
-mA{7B
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1005,8 +1000,6 @@ portuguese
 product_name
 pt_br
 pt_pt
-q[w']
-r(C#U
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1110,7 +1103,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-|TW>oB
 }LuHO
 ~qj#k"
 ~t&LN

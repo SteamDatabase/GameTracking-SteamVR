@@ -8,7 +8,7 @@ shopt -s failglob
 set -u
 
 BASENAME="$(basename "$0")"
-ROOT="$(cd "$(dirname "$0")" && echo $PWD)"
+GAMEROOT="$(cd "$(dirname "$0")" && echo $PWD)"
 
 LOGFILE=vrroomsetup-linux.txt
 
@@ -47,8 +47,17 @@ else
 fi
 
 if [ -z "${STEAMVR_VRENV-}" ]; then
-	log "Relaunch under vrenv."
-	VRBINDIR=${ROOT}/../../../runtime/bin
+	log "Relaunch under vrenv"
+	# SteamVR depot layout
+	VRBINDIR="${GAMEROOT}/../../../bin"
+	if [ ! -d "${VRBINDIR}" ]; then
+		# Internal dev setup has a different layout
+		VRBINDIR=$(realpath -L "${GAMEROOT}/../../../runtime/bin")
+		if [ "$?" != "0" ]; then
+			log "Error: VRBINDIR lookup failed, check your installation"
+			exit 1
+		fi
+	fi
 	log exec "$VRBINDIR/vrenv.sh" "$0" "$@"
 	exec "$VRBINDIR/vrenv.sh" "$0" "$@"
 	# unreachable

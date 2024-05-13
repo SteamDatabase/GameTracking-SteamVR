@@ -1,9 +1,9 @@
 	!s99
  %41g
 !hn7!
-&Ym>(
 ',=?k
 (f*^[0
++V3iL
 +Xt@(
 +o'q)}
 ,W5y+
@@ -83,12 +83,13 @@
 130801120000Z
 1@2M2t2|2
 1P3Y3q3
+1ii1Ag#
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240506210911Z0/
+240513212711Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -140,14 +141,13 @@
 <0:08
 =#=0=r=z=
 =)>;>_>x>
-=;\oi/
 =e=j=t=}=
 =rIQU
+> ?@?\?`?|?
 >$?-?6???D?I?P?
 >0<0:
 >J>S>\>e>j>o>v>
 >Mp$d
-?8?T?X?t?x?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
@@ -167,6 +167,7 @@ GetCurrentThreadId
 GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
+I"HA)
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -195,11 +196,12 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+O_hf"}K
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSs
+RSDSq
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -212,11 +214,12 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
+Y*(l(
 Y9"SD
 Y__^[
-Z|_+2h
 [K]taM?
 ]J<0"0i3
+^|oO<
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -253,7 +256,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
@@ -264,7 +267,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-fd@_0
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -281,11 +283,11 @@ memset
 modelNumber
 renderHeight
 renderWidth
-s]6Bv
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
 string too long
+t~5;V
 uCVj@
 v=Y]Bv
 vector<T> too long

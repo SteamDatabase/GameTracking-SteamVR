@@ -35,6 +35,7 @@
  sIE3
 !T$(H!T$ 
 !hn7!
+#-*ge
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240506211452Z0/
+240513212624Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -429,6 +430,7 @@ $< t6<$t,<+t"<vt
 9_P~,E3
 9_P~OE3
 9{D~H3
+:"c4G
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
@@ -453,7 +455,6 @@ $< t6<$t,<+t"<vt
 =rIQU
 >0<0:
 >Mp$d
->g{0k
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -580,7 +581,6 @@ $< t6<$t,<+t"<vt
 @A_A^]
 @A_A^_
 @A_A^_^]
-@B?`~g~
 @SAUAVAWH
 @SUVAWH
 @SUVWATAUAVAWH
@@ -1191,6 +1191,7 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 UATAUAVAWH
 UAVAWH
+URF	y
 USVWATAUAVAWH
 USVWAVAWH
 UVWATAUAVAWH
@@ -1240,8 +1241,6 @@ Verify failed at 0x%X/0x%X Bytes
 VirtualAlloc
 VirtualFree
 VirtualProtect
-W#wy2j
-W+dm1
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1259,6 +1258,7 @@ White Balance:
 WideCharToMultiByte
 WinRTInitialization
 Writing failed at 0x%X/0x%X Bytes
+WvmXf
 X E9j
 Y$D;R
 Y0t>H
@@ -1348,7 +1348,6 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
-`b#/W
 a7hIw
 abort
 address family not supported
@@ -1357,6 +1356,7 @@ address not available
 alnum
 alpha
 already connected
+ap(BJ
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -1381,7 +1381,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 calloc
 cntrl
 connection aborted
@@ -1406,7 +1406,6 @@ eventObject
 executable format error
 f	n@H
 f#D$@H
-f174M
 f9,Yu
 f9/t	H
 f9D$pu

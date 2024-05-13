@@ -419,6 +419,7 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 ("<6PZDNxrlf
 (3-!0,1'8"5.*2$
+(?36	
 (A\^][
 (A\_^[
 (A^A\^[
@@ -552,7 +553,6 @@ $w!Hc
 ,9k0t%H
 ,9l$4L
 ,9{0t%H
-,?!	t<
 ,W5y+
 --wZ--wZ
 -1e+9999
@@ -1054,7 +1054,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240506211737Z0/
+240513212918Z0/
 241009235959Z0a1
 2D$x2
 2D$x@2
@@ -2404,7 +2404,6 @@ H9E8u$H
 H9G t
 H9L$8tDE
 H9Qhv#H
-H9f|x
 H9s v9
 H;0u7
 H;0u8H
@@ -3367,6 +3366,7 @@ P(D9}w
 P(H9|$h
 P(fD;{
 P<xD<
+P>s-Z
 PA\_[
 PA]A\_[]
 PA]A\_][
@@ -3450,7 +3450,6 @@ R;vM;
 RFOV: %d%%
 RPCRT4.dll
 RRvM;;
-RSDSq
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d
@@ -3492,7 +3491,6 @@ RlK8`K8
 RootNode
 RouterMacPrefix
 RpcStringFreeA
-Rq|+U
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -4071,7 +4069,6 @@ YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Your GPU supports %s for video compression
 Z9k0tUD
 ZL$Xf
-Zs %`
 [Alloc] Created bitstream buffer = %p
 [Alloc] Created d3d11 texture = %p
 [Alloc] Created m_vpCompletionEvent %p
@@ -4221,7 +4218,6 @@ Zs %`
 ]SVLHMDDriverD3D11::AcquireSync
 ]g@8yhu
 ^9k0tWD
-^Y4t8.
 ^lX8k
 _>>B|>>B|
 _Cnd_destroy
@@ -5302,12 +5298,12 @@ c9D5K
 c9D5Mf
 c9D5j
 c9D5q
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c=D5O
 c=D5U
 c=D5V
@@ -5649,6 +5645,7 @@ fE1\$
 fE31fE3
 fE3T$
 fE3\$
+fZS4V
 failIfExtra
 failed to get EncodingTimeStartUS property from frame [ %s ]
 failed to get SubmitIndex propety from frame [ %s ]
@@ -6772,6 +6769,7 @@ t1Hcl$@
 t4uLv
 t5lTf
 t5}:f
+t8fBZ}
 t9fff
 t>H9n
 t>y#I
@@ -6823,6 +6821,7 @@ txTimeMS
 t|SUVH
 t}H9=
 t}WF<7
+u	T@I
 u!!Bc
 u*H9w`t$H
 u*H9{`t$H
@@ -6832,7 +6831,6 @@ u-fff
 u.H9{`t(H
 u0H9U
 u4D9m#u.D8mwt(H
-u8$XU0
 u<A_A^A]
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -6948,7 +6946,6 @@ xA^A\_^][
 xA_A^A]A\_^][
 x` u6H
 x` u6L
-xv`~K
 xxJo%%\r..8$
 y	bq}J
 y	bq}L

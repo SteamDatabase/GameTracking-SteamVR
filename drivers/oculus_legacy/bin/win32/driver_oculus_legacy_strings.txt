@@ -4,7 +4,6 @@
 !hn7!
 ',=?k
 (Unable to load LibOVR)
-(cHTa
 (f*^[0
 +Xt@(
 +o'q)}
@@ -71,7 +70,7 @@
 0 0$0(0,0L0P0|0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0q0v0
 0!0'0/070<0B0J0R0W0]0e0m0r0x0
-0,040<0@0H0\0d0l0t0x0|0
+040<0D0H0P0d0l0t0|0
 0;0=4T4
 0J0T0^0i0s0
 0f0k0
@@ -92,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506210920Z0/
+240513212719Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -169,7 +168,6 @@
 ;!;*;7;O;
 ;)<6=
 ;;;q;
-< =,=4=T=x=
 <!<*<3<8<=<D<
 <#<-<7<A<K<U<_<i<s<}<
 <$<)<<<T<]<h<o<
@@ -179,21 +177,22 @@
 = =*=:=J=Z=c=r=x=~=
 = >/>B>N>^>o>
 =&=m=v=
+=(=4=<=\=
 =`>x>|>
 =f>q>
 =j)hX
 =rIQU
 > >B>d>n>w>
 >$>*>0>6><>B>H>N>T>Z>`>f>l>r>x>~>
->(>4><>\>
 >0<0:
+>0><>D>d>
 >8?E?l?t?
 >:>B>I>Q>V>\>d>l>q>w>
 ><>y>
 >Mp$d
+? ?,?0?@?d?p?x?
 ?!?)?.?4?<?D?I?O?W?_?d?j?r?z?
 ?!?1?A?Q?a?q?
-?$?(?8?\?h?p?
 ?(?J?}?
 ?\?b?p?|?
 ?_Throw_C_error@std@@YAXH@Z
@@ -204,9 +203,7 @@
 @.data
 @.reloc
 ADVAPI32.dll
-Be.)^
 Bellevue1
-CAxyK
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -232,7 +229,6 @@ EventWriteString
 EventWriteTransfer
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
-Fa|e*q
 FreeLibrary
 GetCurrentDirectoryW
 GetCurrentProcess
@@ -284,6 +280,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+N+uvkn
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -293,7 +290,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSc
 RaiseException
 S0Q0O
 SA|X=G
@@ -388,7 +384,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
 dk2_camera
@@ -472,6 +468,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+xLnKZ)
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
