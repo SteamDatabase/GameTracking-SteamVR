@@ -70,7 +70,7 @@
 0 0$0(0,0L0P0|0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0q0v0
 0!0'0/070<0B0J0R0W0]0e0m0r0x0
-040<0D0H0P0d0l0t0|0
+0,040<0@0H0\0d0l0t0x0|0
 0;0=4T4
 0J0T0^0i0s0
 0f0k0
@@ -91,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240513212719Z0/
+240525010639Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -111,6 +111,7 @@
 370322235959Z0c1
 380115120000Z0b1
 384<4@4D4\4`4h4
+3as|\
 3mq+<
 3v4!5_5s5}5
 4$4*4/454@4F4U4\4a4j4o4x4
@@ -118,6 +119,7 @@
 4&565>5F5
 4'414;4E4O4Y4c4m4w4
 4'4L4n4
+4[7z(G
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5X6\6`6d6h6l6p6t6x6|6
 5$5(5,545L5\5`5p5t5x5
@@ -168,6 +170,7 @@
 ;!;*;7;O;
 ;)<6=
 ;;;q;
+< =,=4=T=x=
 <!<*<3<8<=<D<
 <#<-<7<A<K<U<_<i<s<}<
 <$<)<<<T<]<h<o<
@@ -177,22 +180,21 @@
 = =*=:=J=Z=c=r=x=~=
 = >/>B>N>^>o>
 =&=m=v=
-=(=4=<=\=
 =`>x>|>
 =f>q>
 =j)hX
 =rIQU
 > >B>d>n>w>
 >$>*>0>6><>B>H>N>T>Z>`>f>l>r>x>~>
+>(>4><>\>
 >0<0:
->0><>D>d>
 >8?E?l?t?
 >:>B>I>Q>V>\>d>l>q>w>
 ><>y>
 >Mp$d
-? ?,?0?@?d?p?x?
 ?!?)?.?4?<?D?I?O?W?_?d?j?r?z?
 ?!?1?A?Q?a?q?
+?$?(?8?\?h?p?
 ?(?J?}?
 ?\?b?p?|?
 ?_Throw_C_error@std@@YAXH@Z
@@ -268,6 +270,8 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JrI[Z
+Jxu_o
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -280,7 +284,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N+uvkn
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -384,7 +387,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
 dk2_camera
@@ -468,7 +471,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xLnKZ)
+x.fE2
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

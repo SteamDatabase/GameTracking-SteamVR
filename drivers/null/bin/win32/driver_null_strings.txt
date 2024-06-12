@@ -3,10 +3,11 @@
 !hn7!
 ',=?k
 (f*^[0
-+V3iL
 +Xt@(
 +o'q)}
 ,W5y+
+-e,|[
+-ha_+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -71,6 +72,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+/vaW3DM^ /
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
 0 0'0l0u0~0
 0$0)0.03080=0B0G0L0Q0V0a0f0k0p0u0z0
@@ -83,13 +85,12 @@
 130801120000Z
 1@2M2t2|2
 1P3Y3q3
-1ii1Ag#
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240513212711Z0/
+240525010631Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -143,11 +144,11 @@
 =)>;>_>x>
 =e=j=t=}=
 =rIQU
-> ?@?\?`?|?
 >$?-?6???D?I?P?
 >0<0:
 >J>S>\>e>j>o>v>
 >Mp$d
+?8?T?X?t?x?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
@@ -167,7 +168,6 @@ GetCurrentThreadId
 GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
-I"HA)
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -196,12 +196,10 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-O_hf"}K
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSq
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -214,12 +212,10 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
-Y*(l(
 Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-^|oO<
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -256,7 +252,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
@@ -274,6 +270,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+kcg^,
 l2|X/gGe
 m0k0$
 malloc
@@ -287,7 +284,6 @@ secondsFromVsyncToPhotons
 serialNumber
 steamvr
 string too long
-t~5;V
 uCVj@
 v=Y]Bv
 vector<T> too long

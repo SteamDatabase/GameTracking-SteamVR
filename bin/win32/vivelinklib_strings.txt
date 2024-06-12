@@ -6,6 +6,7 @@
 																												
 																																												
 	!s99
+	(|\lk
  !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
@@ -67,6 +68,7 @@ $Phdd
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
+(D2PG
 (HANDLE:)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})(-)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})\s([0-9A-F]*)
@@ -80,10 +82,12 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+(rify#
 +KL+SL_;
 +Xt@(
 +o'q)}
 ,W5y+
+,h._EEM
 -1e+9999
 -ADDR %s
 -Infinity
@@ -187,7 +191,7 @@ $Phdd
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
-080D0L0l0
+000<0D0d0
 0L1P1T1X1\1`1d1h1l1p1t1x1|1
 0V2y2
 0_0g0
@@ -208,9 +212,9 @@ $Phdd
 1/3;3v3U4
 130801120000Z
 181B1L1V1`1j1
+181D1L1l1
 192I2[2
 1=3m3
-1@1L1T1t1
 1B2s2
 1Q1{1
 1T3Y3g3l3x4~4
@@ -223,7 +227,6 @@ $Phdd
 1y1x2
 2	323<3
 2$2<2L2P2`2d2h2p2
-2$2H2T2\2|2
 2$3(3,3034383<3@3D3H3
 2$3.3H3M3r3w3
 2%2+21272=2C2I2O2U2[2a2g2m2s2y2
@@ -237,10 +240,11 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240513212615Z0/
+240525010537Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
+2@2L2T2t2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F2q2
@@ -253,10 +257,10 @@ $Phdd
 3 30343D3H3L3T3l3|3
 3!313A3Q3a3q3
 3#4;4S4d4|4	6(6q6
+3$3H3T3\3|3
 3&4S4
 3&5M5j5o5
 3*4g4
-3,3P3\3d3
 3,3W3
 3/3T3
 311109235959Z0b1
@@ -279,12 +283,12 @@ $Phdd
 4!414A4Q4a4q4
 4#5?6f7
 4(4,40484P4`4d4t4x4|4
+4,4P4\4d4
 4-4M4c4
 4.4Y4
 404l4
 414t4y4
 425U5
-444X4d4l4
 4585<5@5X5\5h5l5x5|5
 464;4L4R4W4b4l4s4y4
 465t5
@@ -307,11 +311,11 @@ $Phdd
 5,636:6Q6X6_6
 505[5
 545D5H5X5\5`5h5
+545X5d5l5
 547F7|<
 576<6R6
 576>6
 5;5I5c5h5
-5<5`5l5t5
 5<5m5
 5B8b8
 5FjiT
@@ -325,7 +329,6 @@ $Phdd
 5u6%7/777E7`7t7
 6	747_7
 6 686H6L6P6T6X6l6p6t6x6|6
-6 6@6d6p6x6
 6%7N7]7p7|7
 6'7,7
 6(6,686<6
@@ -335,6 +338,7 @@ $Phdd
 638:8
 64787<7@7D7H7L7%9
 666666666666666666666666666666666666666666666666666666666666
+686\6h6p6
 6:7?7y7~7
 6A7j7
 6B6G6
@@ -347,11 +351,12 @@ $Phdd
 6VhXl
 6]8d8
 7 7$7,7D7T7X7h7l7p7t7x7|7
-7 7(7@7T7\7d7l7p7t7|7
+7 787L7T7\7d7h7l7t7
 7 7t7
 7$7-767@7D7H7L7P7T7X7\7`7d7h7l7p7
 7+80868?8
 7-828[8
+7-XUe
 7.7L7v7
 70503
 737:7S7
@@ -360,8 +365,8 @@ $Phdd
 7V8n9
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8	9e9
+8 8(8H8l8x8
 8 9%9
-8(808P8t8
 8(888<8L8P8T8X8`8x8
 868a8
 8>8v8
@@ -381,25 +386,25 @@ $Phdd
 8m8r8y8
 8m9;:
 9 9$94989<9D9\9l9p9
-9$90989X9|9
 9&9_:
 9&:g:
+9(909P9t9
 9-999X9]9
 989c9
 9<: <r<
 9A0t+
+9L=p=|=
 9LHB-u
 9M;R;v;{;
-9T=x=
 9[:2<L=^=
 9^hve
 9h9n9
 9s0t2
 : :$:4:8:<:@:P:T:X:\:l:p:t:x:
+:$:0:8:P:X:`:d:h:p:
 :$:>:
 :$:@:f:u:
 :%;M;R;v;{;
-:,:8:@:X:`:h:l:p:x:
 :-;W<x<
 :.;^;
 :7:=:M:~:
@@ -415,9 +420,9 @@ $Phdd
 ;";@;
 ;#;n;
 ;&<+<2<7<
+;(;D;H;
 ;)<A<Z<s<
 ;.;_;
-;0;L;P;
 ;3<D<S<a<h<
 ;3u3;
 ;<;g;
@@ -453,6 +458,7 @@ $Phdd
 <= Exiting Context: (%.2f seconds)
 <SVWj
 <_>u>
+= >,>4>T>x>
 =">>>
 =%?,?;?B?p?t?
 =&>4>B>`>
@@ -467,7 +473,6 @@ $Phdd
 =rIQU
 > ?%?
 >!>7>I>d>
->(>4><>\>
 >+>?>^>
 >+>V>a>
 >+?0?A?X?g?p?{?
@@ -481,7 +486,7 @@ $Phdd
 >Mp$d
 ? ?)?L?
 ?(?,?0?4?<?T?X?p?
-?0?<?D?d?
+?(?4?<?\?
 ?8?@?P?
 ?;?f?
 ?=?[?v?
@@ -821,7 +826,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSc
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -985,7 +989,6 @@ ViveLinkError_NotFound
 ViveLinkError_Success
 ViveLinkError_Timeout
 ViveLinkLib_GetBaseStationWirelessInterface
-VpXJh
 W9shvN3
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
@@ -1075,6 +1078,7 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
+`9QfVI
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -1090,6 +1094,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
+a|0$h
 bad allocation
 bad array new length
 bad cast
@@ -1098,7 +1103,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
 cntrl
 dat_file
@@ -1109,6 +1114,7 @@ empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 f=DFu
+fJT8w
 false
 fclose
 file error
@@ -1221,6 +1227,7 @@ t hpC
 t0-"N
 t8;G,t
 t<-"N
+tX 0i
 t]SPR
 t`9~\u
 thh(Z

@@ -22,8 +22,8 @@
 		{	// etc
 		} } },
 	!s99
-	4AEsoS
 	{ 0x%x, 0x%x, %d, %d, {
+ 	om^
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
     A
@@ -58,6 +58,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+""B2^.
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -312,6 +313,7 @@ $9E0u
 %u != %zu
 ',=?k
 ( nVertexCount % 3 ) == 0
+(/hy3
 (A\_^[
 (A^A]^[
 (A_A^A\[
@@ -357,9 +359,10 @@ $9E0u
 +Xt@(
 +o'q)}
 , last executing in 
-,$<bL'
+,.a'K
 ,W5y+
 -IPCWrapper
+-w49R
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -418,11 +421,11 @@ $9E0u
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fda7136264a0c7f426abb06c45333a48>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0xb41460a2@@
+.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0x9ac02b30@@
 .?AVCMotionEstimator_LiquidVR@@
 .?AVCMotionEstimator_NvEncode@@
 .?AVCNonCopyable@@
@@ -532,7 +535,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240513212652Z0/
+240525011125Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -567,9 +570,9 @@ $9E0u
 9C<rTH
 9ELtgL9|$Pt
 9H(~-
-9{x3{2
 :A9x 
 :EotB
+:Qfm1
 ;K sOH
 ;S sMH
 ;\$x|
@@ -577,6 +580,7 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
+=clh;
 =rIQU
 >0<0:
 >Mp$d
@@ -1299,7 +1303,6 @@ Motion Vector CostReduce Pipeline
 Motion Vector MeanMaxBlur Pipeline
 Motion Vector Median5x5 Pipeline
 Motion Vector Threshold Pipeline
-Mr8m.
 MultiByteToWideChar
 NPH9Q
 NXH9Q
@@ -1759,46 +1762,46 @@ atanf
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkcommand.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkquery.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\meshutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommandbatch.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcuda.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdescriptors.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkimagehistory.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkshaderpipeline.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\Retail\win64\2017\prism.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\clientswapchain.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\framehallucination.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimation.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_liquidvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_nvencode.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionsmoothing.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism_capi.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_nvapi.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_vulkan.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismpanelmask.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismposeprovider_null.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkcommand.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkquery.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\meshutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\panelmask.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommandbatch.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcuda.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdescriptors.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkimagehistory.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkshaderpipeline.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\Retail\win64\2017\prism.pdb
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\clientswapchain.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\framehallucination.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_liquidvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_nvencode.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionsmoothing.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism_capi.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_nvapi.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_vulkan.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
 client
 computeCommandSet.Valid()
 createInfo.pComputeDistortion
@@ -2027,6 +2030,7 @@ r/w:I
 renderdoc.dll
 result == ALVR_OK
 s AVH
+s%6uD
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2093,10 +2097,11 @@ tolower
 t}H9=v
 uAfff
 uRf;>tM
+uSZ]u
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
-v!ne(
+v!neH
 v=Y]Bv
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long

@@ -63,7 +63,6 @@
  sJE3
 !&.37<
 !(0)"
-!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !hn7!
 " not found in the scene.
 """""""
@@ -86,7 +85,6 @@
 #D9c0t
 #D9{0t
 #oculus_requested_quit
-$!b<N+1
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -445,6 +443,7 @@ $w!Hc
 0A_A^A]A\^
 0A_A^A]A\_
 0A_A^A]A\_^[
+0A_A^A]A\_^]
 0A_A^A]_^
 0A_A^^][
 0A_A^_
@@ -465,7 +464,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240513212907Z0/
+240525011329Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -485,13 +484,11 @@ $w!Hc
 69k0t1
 6I]Dc
 6OB,n_
-6\8^]
 6p7M=:P_:}u
+7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 70503
-7GPc^
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
-8'MYA
 8A^A\
 8D$!t
 8D$#u
@@ -511,11 +508,11 @@ $w!Hc
 9k0t_D
 9k0tcH
 9l$Lt	E
+9x:Nh
 9|$@u
 : one or more FS callback not set
 ; expected 
 ; last read: '
-;0fikZ
 ;K sCH
 ;K sUH
 ;S sAH
@@ -697,6 +694,7 @@ ATAWH
 AVAWH
 A\_^[]
 A]A\^
+A]A\_^][
 A]_[]
 A^A\^
 A^A\^[]
@@ -720,7 +718,6 @@ A_A]A\_^[
 A_A]A\_^]
 A_A]]
 A_A]^]
-A_A]_[
 A_A]_[]
 A_A^A\
 A_A^A\_]
@@ -1050,7 +1047,6 @@ H;|$Xt
 H;|$`
 H;|$x
 H;}PtwH
-HA^_^[
 HMD no longer present
 HcB Hi
 HcC H
@@ -1087,7 +1083,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
@@ -1222,6 +1218,7 @@ LoadLibraryW
 LocalizationManager
 M H1E
 M98u/
+M=f*R
 MB(iVR
 MSVCP140.dll
 MS_:F
@@ -1303,6 +1300,7 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S(2VE
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1319,6 +1317,7 @@ SETUPAPI.dll
 SPB8t
 SPB8u,
 SUVWATAUAVAWH
+SUVWATAUH
 SUVWATAVH
 SUVWAUAVAWH
 SUVWAVH
@@ -1326,9 +1325,7 @@ SUVWH
 SUWATAWH
 SVWATAUAVAWH
 SVWAVAWH
-SVWAVH
 SWAUAVH
-SWAUAWH
 SearchPathW
 Session created!
 Set thread %p priority to: %d
@@ -1464,7 +1461,6 @@ WinVerifyTrust
 X UVWH
 XA^^[]
 XXXX PNG chunk not known
-X^|%U
 Y9"SD
 Z9k0tUD
 ZL$Xf
@@ -1715,13 +1711,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -1822,6 +1818,7 @@ hand_right_poses.glb
 handlers
 headset
 height
+hmN5]
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -2499,7 +2496,6 @@ vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
 w(M9w0tH
-wXH9w`t/H
 weights
 while parsing 
 width
@@ -2515,16 +2511,15 @@ www.digicert.com1$0"
 x AVH
 x UAVAWH
 xA^A\_^][
-yQ(Z^, 
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
 zh_cn
 zh_tw
-ziFX]
 zlib corrupt
 znear
 {%s}%s
+{i~Uq)
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png
@@ -2579,5 +2574,6 @@ znear
 ~+fff
 ~3LcD$(L
 ~6HcD$ I
+~XH9~`t+H
 ~qj#k"
 ~t&LN

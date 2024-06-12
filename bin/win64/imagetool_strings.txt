@@ -2101,7 +2101,6 @@ $wtpt
 'I'z'
 'I;E 
 'Q?KVQ?
-'^'^f
 '^{.f
 'aE<"
 'd+sX
@@ -2281,7 +2280,6 @@ $wtpt
 (l$pM
 (major >= 5 && minor >= 1) || major >= 6
 (noLb5
-(p>b~g
 (process:%lu): 
 (return_type & G_SIGNAL_TYPE_STATIC_SCOPE) == 0
 (sys_page_size & (sys_page_size - 1)) == 0
@@ -3136,7 +3134,6 @@ $wtpt
 -exit
 -extent
 -extract
--f9u9
 -family
 -features
 -fill
@@ -3723,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240513212931Z0/
+240525011354Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -4170,6 +4167,7 @@ $wtpt
 ;G$|*H
 ;GIF89a
 ;H91v4
+;HFZ|
 ;M {x
 ;P?<jP?|
 ;Q0t	
@@ -10005,6 +10003,7 @@ Levelize/Image
 LevelizeImage
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LiL$p
+Li`9Pt
 Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 Libpng jmp_buf still allocated
 Light
@@ -10139,6 +10138,7 @@ M' pozz magna' o'vetr, e nun m' fa mal.
 M'(:fjgl4
 M(u	I
 M)AxI
+M*ml.T
 M+^(M
 M-|];
 M0v	D
@@ -11653,6 +11653,7 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
+Q;QfG
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11754,7 +11755,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSN
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14085,7 +14085,6 @@ X5-C+
 X5kd3
 X5oo(
 X: %.20g
-X<1" 
 X=[B4
 X@Sfp
 XA 3D Reconstruction Algorithm Name
@@ -14220,7 +14219,6 @@ YG(fD
 YGHfD
 YL$@A
 YMAM+'2%7><KM@=;(7:/8@-h
-YN#51
 YN@fD
 YO@fE
 YOQ=Nm}
@@ -14538,6 +14536,7 @@ _CxxThrowException
 _RDATA
 _R_\HES;2?);E0BJ69A04;.49578,LW3r
 _W4~w
+_ZR\QF
 _\cf3
 __C_specific_handler
 __CxxFrameHandler3
@@ -15015,7 +15014,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -20811,6 +20810,7 @@ yellow3
 yellow4
 yep:%d:%04x
 yi~(@`
+ymx7ub
 yrI,D
 z"u A
 z#u!H

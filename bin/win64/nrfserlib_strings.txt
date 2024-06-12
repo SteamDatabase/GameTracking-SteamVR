@@ -124,6 +124,7 @@
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+,W7(h
 -1e+9999
 -Infinity
 -external
@@ -632,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240513212632Z0/
+240525011106Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -645,6 +646,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+3w@[=
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -668,7 +670,6 @@
 8_^][
 9C }&L
 9C }(H
-9UI`P
 9\$Pt
 9\u-H
 9\u4H
@@ -1516,6 +1517,8 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RQ-7U
+RSDS-
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1775,6 +1778,7 @@ Zipfile is corrupt or not a zipfile
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
+^}3Ug
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1865,7 +1869,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
 close
 cntrl
@@ -2174,7 +2178,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-xzzZg2
+yN#gWHC:
 {un'%
 {x\u!H
 {|?uWH

@@ -39,6 +39,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-/e	>
 -1e+9999
 -Infinity
 -u-I;
@@ -181,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240513213429Z0/
+240525011848Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -427,7 +428,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
-E37RN
+E9o$S
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -519,6 +520,7 @@ GetWindowRect
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
+Gm|{:
 GraphicsCaptureSession is not supported.
 H!C@H
 H+SpI
@@ -569,7 +571,7 @@ IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -642,6 +644,7 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
+MSxiq 
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -667,6 +670,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS5
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -890,26 +894,28 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cf{-^1
 cs_cz
 czech
 d$`H=
 d$`L;
 d3d11.dll
+d>10iuX
 da_dk
 danish
 dashboard
-ddaHFn
 de_de
 deque<T> too long
 desktopview
 dutch
 dwmapi.dll
 dxgi.dll
+e>u?bh
 el_gr
 en_us
 enableWindowView
@@ -1077,6 +1083,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+w<Qf*
 window_view_created
 window_view_destroyed
 windows
@@ -1084,6 +1091,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+x[G	e-
 zh_cn
 zh_tw
 {un'%

@@ -490,6 +490,7 @@ $+
 0+
 0123456789
 0123456789ABCDEF
+01:03:25
 1
 11CVkTimeline
 12CNonCopyable
@@ -505,7 +506,6 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:24:06
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -2144,7 +2144,7 @@ March
 MarkInUse
 Mask Input Image
 May
-May 13 2024
+May 25 2024
 MillisecondsFromNanoseconds(unsigned long)
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -2462,6 +2462,7 @@ RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
 RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
 RenderDoc::Initialize()
+RenderDoc::IsFrameCapturing()
 RenderDoc::TriggerCapture()
 RepairUTF8(char const*, char const*, std::string&)
 RepairUTF8(char const*, char const*, std::string&) [clone .cold]

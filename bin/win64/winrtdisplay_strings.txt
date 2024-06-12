@@ -10,10 +10,11 @@
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
+&2$U9
 ',=?k
 (D$0f
 (f*^[0
-(vpEm
+)\g8z,
 +Xt@(
 +o'q)}
 ,W5y+
@@ -118,7 +119,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240513212514Z0/
+240525011001Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -150,6 +151,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?K*%P
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -201,6 +203,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
+EL	PgrB
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -280,6 +283,7 @@ UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Unknown exception encountered initializing WinRT display.
+U|WsgH
 VCRUNTIME140.dll
 VWATAVAWH
 VWAVH
@@ -319,7 +323,6 @@ Y9"SD
 \$ UH
 \$(H;
 \$Xfff
-\SO#U
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -347,6 +350,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`D7e2
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -362,12 +366,12 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
+c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
+dLyx-
 dxgi.dll
-dy^?|g({
-eg9x2
+h:Qf$=
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -376,7 +380,6 @@ http://www.digicert.com/CPS0
 iswspace
 jj@0HK4
 k0i0$
-kR.:x
 l$ WH
 l2|X/gGe
 m0k0$

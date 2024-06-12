@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	5*	)
 	<bu 
 	@81t/@8q
  !"#$%&'
@@ -33,7 +32,6 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
 !hn7!
-$$ua|
 %%.%dg
 %2.2X
 %8.8X
@@ -230,7 +228,7 @@ $$ua|
 220323000000Z
 220801000000Z
 230714000000Z
-240513212637Z0/
+240525011110Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -243,6 +241,7 @@ $$ua|
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4RY{J=
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -619,6 +618,7 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
+D|t\}
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -755,7 +755,6 @@ LoadLibraryA
 LocalFree
 Logger.txt
 M H1E
-M4PKU
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -808,7 +807,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDST
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1147,7 +1145,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
 cw~Hc
@@ -1235,6 +1233,7 @@ memcmp
 memcpy
 memmove
 memset
+nA6'-T
 need dictionary
 ntelD
 oversubscribed distance tree
@@ -1248,6 +1247,7 @@ r9=/N
 realloc
 runas
 s#fff
+s."L?Sc7R
 soH9t$@t
 space
 stoi argument out of range
@@ -1332,10 +1332,10 @@ win64
 wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
+x14n,
 xA\^][
 xAtAL
 xdigit
-z#IZ%0
 {un'%
 {x\u!H
 {|?uWH

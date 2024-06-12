@@ -2,8 +2,9 @@
  %41g
  A__^
  H3E H3E
- n<A?ES
+!D?dr
 !hn7!
+$nU,?
 ',=?k
 (f*^[0
 +Xt@(
@@ -84,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240513212903Z0/
+240525011325Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -98,7 +99,6 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5R-UlV
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -107,7 +107,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-:	<rT
+9K)n7
 <0:08
 =rIQU
 >0<0:
@@ -120,7 +120,6 @@
 @A^_^
 AuthD
 Bellevue1
-Bf|W%
 CT$0H
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -130,6 +129,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E_jj`Y
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -171,6 +171,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSR
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -188,7 +189,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-WRzf%R5
 Washington1
 Y9"SD
 [K]taM?
@@ -221,13 +221,14 @@ _seh_filter_dll
 _stricmp
 `.rdata
 a7hIw
+aa^36
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
@@ -253,7 +254,6 @@ memcpy
 memmove
 memset
 modelNumber
-nZb-&
 ntelD
 renderHeight
 renderWidth
@@ -276,6 +276,5 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-~dXMPkQ)
 ~qj#k"
 ~t&LN

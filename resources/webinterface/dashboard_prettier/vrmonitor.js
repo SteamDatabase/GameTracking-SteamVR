@@ -4290,7 +4290,7 @@
           i = o(7056),
           s = o(2188),
           l = o(7294),
-          d = o(1195),
+          d = o(1509),
           c = o(5177),
           u = o(4979),
           h = o(3107),
@@ -4930,41 +4930,19 @@
               this.m_mailbox.SendMessage("driver_hmd", { type: "room_setup" });
           }
           render() {
-            var e;
-            let t,
-              o = this.makeAppButtonList();
-            const r =
-                0 == o.length ||
-                y.G3.settings.get("/settings/dashboard/forceWelcomeScreen"),
-              n =
-                0 == o.length ||
-                (null !==
-                  (e = y.G3.settings.get(
-                    "/settings/dashboard/showRoomSetup",
-                  )) &&
-                  void 0 !== e &&
-                  e);
-            if (r) t = l.createElement(F, null);
+            let e,
+              t = this.makeAppButtonList();
+            const o =
+              0 == t.length ||
+              y.G3.settings.get("/settings/dashboard/forceWelcomeScreen");
+            if (o) e = l.createElement(F, null);
             else {
-              let e = o.slice(0, A.TOP_ROW_LENGTH),
-                r = o.slice(A.TOP_ROW_LENGTH);
-              t = l.createElement(
+              let o = t.slice(0, A.TOP_ROW_LENGTH),
+                r = t.slice(A.TOP_ROW_LENGTH);
+              e = l.createElement(
                 l.Fragment,
                 null,
-                n &&
-                  l.createElement(
-                    c.z,
-                    {
-                      className: "ButtonControl WithIcon PanelTopRight",
-                      onClick: this.onRoomSetup,
-                    },
-                    l.createElement("span", null, (0, m.Xx)("#RoomSetup")),
-                    l.createElement("img", {
-                      className: "Icon BlackToWhite",
-                      src: "/dashboard/images/icons/svr_recenter.svg",
-                    }),
-                  ),
-                l.createElement(H, { className: "TopRow", apps: e }),
+                l.createElement(H, { className: "TopRow", apps: o }),
                 l.createElement(H, { className: "BottomRow", apps: r }),
               );
             }
@@ -4972,12 +4950,12 @@
               k.lL,
               {
                 visible: this.props.visible,
-                scrollable: !r,
+                scrollable: !o,
                 debugName: "homepanel",
                 additionalClassNames: "QuickLaunch",
                 summonOverlayKey: p.O5,
               },
-              t,
+              e,
             );
           }
         });
@@ -5090,8 +5068,9 @@
             (e[(e.ToggleVideoStream = 4)] = "ToggleVideoStream"),
             (e[(e.IncognitoMode = 5)] = "IncognitoMode"),
             (e[(e.RoomSetup = 6)] = "RoomSetup"),
-            (e[(e.Volume = 7)] = "Volume"),
-            (e[(e.ToggleDarkMode = 8)] = "ToggleDarkMode");
+            (e[(e.RoomSetupInstant = 7)] = "RoomSetupInstant"),
+            (e[(e.Volume = 8)] = "Volume"),
+            (e[(e.ToggleDarkMode = 9)] = "ToggleDarkMode");
         })(G || (G = {}));
         var te,
           oe,
@@ -5264,6 +5243,12 @@
                       null === VRHTML ||
                         void 0 === VRHTML ||
                         VRHTML.ShutdownSystem();
+                      break;
+                    case G.RoomSetup:
+                      this.onRoomSetupClick(!1);
+                      break;
+                    case G.RoomSetupInstant:
+                      this.onRoomSetupClick(!0);
                       break;
                     case G.ToggleRoomView:
                       this.onToggleRoomView(t);
@@ -5486,15 +5471,37 @@
             const l = new Q.yt();
             l.add_actions(
               Q.z3.fromObject({
-                action_id: G.ExitVR,
-                display_name: (0, m.Xx)("#PowerMenuExitVR"),
+                action_id: G.RoomSetupInstant,
+                display_name: "Room Setup (Instant)",
                 visible_in_dashboard_menu: this.BShouldShowDashboardAction(
-                  G.ExitVR,
+                  G.RoomSetupInstant,
                 ),
                 invocation: Q.w7.k_EVRDashboardActionInvocation_Trigger,
-                icon: { enum: Q.Cj.k_EVRDashboardActionIcon_ExitVR },
+                icon: { enum: Q.Cj.k_EVRDashboardActionIcon_RoomSetupInstant },
               }),
             ),
+              l.add_actions(
+                Q.z3.fromObject({
+                  action_id: G.RoomSetup,
+                  display_name: (0, m.Xx)("#RoomSetup"),
+                  visible_in_dashboard_menu: this.BShouldShowDashboardAction(
+                    G.RoomSetup,
+                  ),
+                  invocation: Q.w7.k_EVRDashboardActionInvocation_Trigger,
+                  icon: { enum: Q.Cj.k_EVRDashboardActionIcon_RoomSetup },
+                }),
+              ),
+              l.add_actions(
+                Q.z3.fromObject({
+                  action_id: G.ExitVR,
+                  display_name: (0, m.Xx)("#PowerMenuExitVR"),
+                  visible_in_dashboard_menu: this.BShouldShowDashboardAction(
+                    G.ExitVR,
+                  ),
+                  invocation: Q.w7.k_EVRDashboardActionInvocation_Trigger,
+                  icon: { enum: Q.Cj.k_EVRDashboardActionIcon_ExitVR },
+                }),
+              ),
               l.add_actions(
                 Q.z3.fromObject({
                   action_id: G.Shutdown,
@@ -6117,10 +6124,12 @@
               : console.log("dock_overlay_requested: unknown overlay_key", e);
           }
           onHideTheaterMode() {
-            let e = this.getActiveOverlayKey();
-            this.onDockOverlay(e, f.RA.Theater);
-            let t = this.getActiveOverlayKey();
-            this.onDockOverlay(t, f.RA.Dashboard);
+            var e;
+            const t = this.getActiveOverlayKey();
+            (null === (e = j.B.m_mapOverlayState.get(t)) || void 0 === e
+              ? void 0
+              : e.dockLocation) == f.RA.Theater &&
+              this.onDockOverlay(t, f.RA.Dashboard);
           }
           onHideDashboardRequested(e) {
             VRHTML.VRDashboardManager.HasMessageOverlay()
@@ -6197,14 +6206,16 @@
                   countdown_seconds: 3,
                 });
           }
-          onImmersiveRoomSetupClick() {
-            this.state.bLinkStreamActive && VRHTML.BIsLinkServer()
-              ? this.m_mailbox.SendMessage("svl", {
-                  type: "handle_immersiveRoomSetup",
-                })
-              : this.m_mailbox.SendMessage("driver_hmd", {
-                  type: "room_setup",
-                });
+          onRoomSetupClick(e) {
+            const t = e ? "instant_room_setup" : "room_setup";
+            null === VRHTML ||
+              void 0 === VRHTML ||
+              VRHTML.VRDashboardManager.HideDashboard(
+                "onRoomSetupClick " + JSON.stringify(t),
+              ),
+              this.state.bLinkStreamActive && VRHTML.BIsLinkServer()
+                ? this.m_mailbox.SendMessage("svl", { type: t })
+                : this.m_mailbox.SendMessage("driver_hmd", { type: t });
           }
           onToggleGamepadFocus() {}
           getDashboardIconUri(e) {
@@ -6610,14 +6621,13 @@
             });
           }
           BShouldShowDashboardAction(e) {
-            var t, o, r;
-            const n =
+            var t, o, r, n;
+            const a =
                 null !== (t = y.G3.settings.get(p.Av)) && void 0 !== t && t,
-              a =
+              i =
                 null !== (o = y.G3.settings.get(p.k_)) && void 0 !== o ? o : 0,
-              i = VRHTML.BIsLinkServer(),
-              s = VRHTML.BIsLinkClient();
-            switch (e) {
+              s = VRHTML.BIsLinkServer();
+            switch ((VRHTML.BIsLinkClient(), e)) {
               case G.ExitVR:
                 return !0;
               case G.Shutdown:
@@ -6625,7 +6635,7 @@
                   "/settings/dashboard/allowSystemShutdown",
                 );
               case G.ToggleRoomView:
-                return n && a > 0 && !(this.state.bLinkStreamActive && i);
+                return a && i > 0 && !(this.state.bLinkStreamActive && s);
               case G.ToggleVideoStream:
                 return !1;
               case G.Recenter:
@@ -6647,7 +6657,19 @@
               case G.ToggleDarkMode:
                 return j.B.isTheaterMode || Z.C.m_bShowFloor;
               case G.RoomSetup:
-                return s || this.state.bLinkStreamActive;
+              case G.RoomSetupInstant:
+                return !(
+                  null ===
+                    (n =
+                      null === VRHTML || void 0 === VRHTML
+                        ? void 0
+                        : VRHTML.VRProperties.GetInt32Property(
+                            "/user/head",
+                            2110,
+                          )) ||
+                  void 0 === n ||
+                  !n
+                );
               default:
                 return !1;
             }
@@ -6746,7 +6768,7 @@
                               !1,
                               R &&
                                 l.createElement(k.B8, {
-                                  label: (0, m.Xx)("#RecentlyPlayed"),
+                                  label: (0, m.Xx)("#Library"),
                                   imageUrl:
                                     "/dashboard/images/icons/svr_items.svg",
                                   active: this.isOverlayActive(p.O5),
@@ -6874,8 +6896,8 @@
                                   imageUrl:
                                     "/dashboard/images/icons/svr_room_setup.svg",
                                   additionalClassNames: "CenterImageLarge",
-                                  label: "Room Setup",
-                                  onClick: this.onImmersiveRoomSetupClick,
+                                  label: (0, m.Xx)("#RoomSetup"),
+                                  onClick: () => this.onRoomSetupClick(!1),
                                 }),
                               this.BShouldShowDashboardAction(
                                 G.ToggleRoomView,
@@ -7087,7 +7109,7 @@
               l.createElement(
                 a.Y9,
                 {
-                  tabName: (0, m.Xx)("#RecentlyPlayed"),
+                  tabName: (0, m.Xx)("#Library"),
                   iconUri: "/dashboard/images/icons/svr_items.svg",
                   summonOverlayKey: p.O5,
                 },
@@ -7875,7 +7897,7 @@
           (0, n.gn)([i.ak], de.prototype, "onToggleRoomView", null),
           (0, n.gn)([i.ak], de.prototype, "onQuickLaunchButtonClick", null),
           (0, n.gn)([i.ak], de.prototype, "onRecenterClick", null),
-          (0, n.gn)([i.ak], de.prototype, "onImmersiveRoomSetupClick", null),
+          (0, n.gn)([i.ak], de.prototype, "onRoomSetupClick", null),
           (0, n.gn)([i.ak], de.prototype, "onToggleGamepadFocus", null),
           (0, n.gn)([i.ak], de.prototype, "renderPowerMenu", null),
           (0, n.gn)([i.ak], de.prototype, "startPopoverMenuTimeout", null),
@@ -12177,4 +12199,4 @@
   var n = r.O(void 0, [968, 683], () => r(7923));
   n = r.O(n);
 })();
-//# sourceMappingURL=vrmonitor.js.map?v=8e5db40327f812ce8e33
+//# sourceMappingURL=vrmonitor.js.map?v=8255d548bb1d08502a69

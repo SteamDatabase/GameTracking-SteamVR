@@ -11666,6 +11666,7 @@ OnHDRScaleChanged
 OnHandleInput
 OnInterpolationAmountChanged
 OnInterpolationFrameChanged
+OnItemSubscribed: appid: %d fileid: %llu
 OnLatchInterpolatedVariables
 OnLightGroupChanged
 OnLocalVelocityChanged
@@ -11680,6 +11681,7 @@ OnPosChanged
 OnPreDataUpdate
 OnPreDataUpdate: missing ent %d
 OnQueryComplete_%llu
+OnReceivedDownloadItemResult: appid: %d result: %d fileid: %llu
 OnReceivedDownloadItemResult_%llu
 OnReceivedDownloadItemResult_%s
 OnRenderAttributesChanged

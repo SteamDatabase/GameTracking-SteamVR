@@ -398,7 +398,7 @@
   "BindingUI_List_Select_Confirm_Convert": "A configuração atual tem alterações que ainda não foram guardadas. Atualizar esta configuração irá descartar essas alterações, ou podes guardá-las numa configuração pessoal antes de atualizares esta.",
   "BindingUI_List_Upgrade_Confirm": "Esta configuração é para uma versão antiga de %1$s. Pode ser preciso configurar ações adicionais para que funcione.",
   "BindingUI_List_Developer_Binding_Title": "Configurações oficiais de %1$s",
-  "BindingUI_List_Developer_Binding_Description": "Estas são as configurações oficiais publicadas pelo criador deste jogo",
+  "BindingUI_List_Developer_Binding_Description": "Estas são as configurações oficiais publicadas pelo criador deste jogo.",
   "BindingUI_List_Legacy_Binding_Title": "Configurações predefinidas de %1$s",
   "BindingUI_List_Legacy_Binding_Description": "Estas são as configurações predefinidas deste jogo.",
   "BindingUI_List_PublishedBy": "Autor: %1$s",

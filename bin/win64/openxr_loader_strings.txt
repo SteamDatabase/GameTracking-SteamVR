@@ -89,14 +89,14 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0x1fce4948@@
-.?AVDebuggerLoaderLogRecorder@?A0x1fce4948@@
+.?AVDebugUtilsLogRecorder@?A0xe2804085@@
+.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
 .?AVException@Json@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
 .?AVLogicError@Json@@
-.?AVOstreamLoaderLogRecorder@?A0x1fce4948@@
+.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeError@Json@@
 .?AVRuntimeInterface@@
@@ -171,7 +171,7 @@
 220801000000Z
 230714000000Z
 2333333
-240513212939Z0/
+240525011402Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -243,6 +243,7 @@
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?ofO+
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
@@ -409,6 +410,7 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 G(L9w 
+G;h	!P
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -528,7 +530,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSE
+RSDSH3c\p
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -643,7 +645,9 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
+Y;QfJC
 [K]taM?
+[f5r*
 \$ I;]
 \$ UAVAWH
 \$ UH
@@ -733,12 +737,11 @@ assert json failed
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
 d$PE3
 d$`H=
-d8;{%'
 deque<T> too long
 description
 disable_environment
@@ -813,7 +816,6 @@ layer
 library_path
 list<T> too long
 m0k0$
-mXmAc
 malloc
 map/set<T> too long
 memchr

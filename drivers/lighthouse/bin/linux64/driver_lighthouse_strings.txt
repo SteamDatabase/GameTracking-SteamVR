@@ -832,6 +832,7 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:03:25
 0x
 0x%08llx
 1
@@ -913,7 +914,6 @@ $@
 20CVkCommandBufferPool
 20IVRAudioNotification
 21
-21:24:06
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
@@ -3833,7 +3833,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
@@ -4611,7 +4611,7 @@ Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
 May
-May 13 2024
+May 25 2024
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
 Message class "
@@ -5277,6 +5277,7 @@ RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
 RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
 RenderDoc::Initialize()
+RenderDoc::IsFrameCapturing()
 RenderDoc::TriggerCapture()
 RenderEnd
 RenderStart

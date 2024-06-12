@@ -6378,6 +6378,7 @@
  t RenderDoc::CCaptureScope::CCaptureScope(void*)
  t RenderDoc::CCaptureScope::~CCaptureScope()
  t RenderDoc::Initialize()
+ t RenderDoc::IsFrameCapturing()
  t RenderDoc::TriggerCapture()
  t RepairUTF8(char const*, char const*, std::string&)
  t RepairUTF8(char const*, char const*, std::string&) [clone .cold]

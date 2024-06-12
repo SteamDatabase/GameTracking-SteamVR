@@ -97,7 +97,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240513212750Z0/
+240525011215Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -124,6 +124,8 @@
 =rIQU
 >0<0:
 >Mp$d
+>_ZVZ
+?5|"7
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -151,13 +153,13 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Ea;3H
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
+GysXq
 H SWH
 H-^Eu
 H93t	H
@@ -208,7 +210,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS%
+RSDS+M
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -264,7 +266,6 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
-^d,Gl
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -304,14 +305,13 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
+aZ1>b
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
-cf=D~
-dJiM99p
+c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -320,7 +320,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-klJua;
 l$8E3
 l2|X/gGe
 m0k0$
@@ -329,15 +328,15 @@ map/set<T> too long
 memcpy
 memmove
 memset
-mv&x1
 ntelD
 p WAVAWH
+pE%hP
+qnJ%i
 string too long
 t$ AVH
 t$ AWH
 t$ WH
 t$@H=
-t3j87;O+
 tXfff
 terminate
 v=Y]Bv
@@ -355,8 +354,8 @@ www.digicert.com1$0"
 {gamepad}/input/gamepad_profile.json
 {un'%
 |$ AVH
+|0PV[
 |Lu?c
-|Z<N9i
 }LuHO
 ~qj#k"
 ~t&LN

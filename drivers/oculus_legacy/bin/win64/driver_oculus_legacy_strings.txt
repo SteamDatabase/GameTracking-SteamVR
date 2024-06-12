@@ -6,7 +6,7 @@
  A__^
  H3E H3E
 !hn7!
-$*mvd>
+"jAo}
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -15,16 +15,15 @@ $*mvd>
 (f*^[0
 (l$PD
 (t$pH
-)#qxZ
 )D$ H
 )\$pD
 )d$`D
 )t$pu.H
+*\IYxW
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
--\he{
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -94,7 +93,7 @@ $*mvd>
 220323000000Z
 220801000000Z
 230714000000Z
-240513212910Z0/
+240525011333Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -107,10 +106,10 @@ $*mvd>
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5#]R1?+
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6C1(=V=
 6I]Dc
 6OB,n_
 70503
@@ -130,6 +129,7 @@ $*mvd>
 ;k sAH
 ;k sDH
 <0:08
+<;Qf_
 =rIQU
 >0<0:
 >Mp$d
@@ -239,6 +239,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+K9OEm
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -272,6 +273,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS[
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -377,7 +379,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 camera
 d$`H=
 d3d11.dll
@@ -387,12 +389,14 @@ effffff
 f9<Xu
 getenv
 gfffffffH
+hABUa
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+j]?09
 jj@0HK4
 k0i0$
 l$8E3
@@ -404,10 +408,8 @@ memcmp
 memcpy
 memmove
 memset
-n;783L
 n\tuH
 ntelD
-o`E3K
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -465,6 +467,7 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
+t>~Q`
 tIL95
 tXfff
 tdh.dll

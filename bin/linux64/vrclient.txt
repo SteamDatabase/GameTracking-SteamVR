@@ -1842,6 +1842,7 @@
  b vrSteamPrivate019
  b vrSteamPrivate020
  b vrSteamPrivate021
+ b vrSteamPrivate022
  b vrWatchdogHost001
  b vrapplications001
  b vrapplications002
@@ -2802,6 +2803,7 @@
  d typeinfo for CVRSteamPrivate_019
  d typeinfo for CVRSteamPrivate_020
  d typeinfo for CVRSteamPrivate_021
+ d typeinfo for CVRSteamPrivate_022
  d typeinfo for CVRSystemLatest
  d typeinfo for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
  d typeinfo for CVRSystem_001
@@ -3076,6 +3078,7 @@
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_019>
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_020>
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>
  d typeinfo for SystemInterfaceRegistration<CHmdSystem_001>
  d typeinfo for SystemInterfaceRegistration<CHmdSystem_004>
  d typeinfo for SystemInterfaceRegistration<CVRClientCore_001>
@@ -3440,6 +3443,7 @@
  d typeinfo for vr::IVRSteamPrivate_020
  d typeinfo for vr::IVRSteamPrivate_021
  d typeinfo for vr::IVRSteamPrivate_022
+ d typeinfo for vr::IVRSteamPrivate_023
  d typeinfo for vr::IVRSystem
  d typeinfo for vr::IVRTrackedCamera
  d typeinfo for vr::IVRTrackedCameraInternal
@@ -3927,6 +3931,7 @@
  d vtable for CVRSteamPrivate_019
  d vtable for CVRSteamPrivate_020
  d vtable for CVRSteamPrivate_021
+ d vtable for CVRSteamPrivate_022
  d vtable for CVRSystemLatest
  d vtable for CVRSystem_001
  d vtable for CVRSystem_002
@@ -4139,6 +4144,7 @@
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_019>
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_020>
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>
  d vtable for SystemInterfaceRegistration<CHmdSystem_001>
  d vtable for SystemInterfaceRegistration<CHmdSystem_004>
  d vtable for SystemInterfaceRegistration<CVRClientCore_001>
@@ -4524,8 +4530,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1860.370366
- r C.1861.370377
+ r C.1860.370374
+ r C.1861.370385
  r C.413.290188
  r CSWTCH.107
  r CSWTCH.16
@@ -4533,7 +4539,7 @@
  r CSWTCH.23
  r CSWTCH.28
  r CSWTCH.363
- r CSWTCH.506
+ r CSWTCH.510
  r CSWTCH.744
  r CSWTCH.792
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -5279,6 +5285,7 @@
  r typeinfo name for CVRSteamPrivate_019
  r typeinfo name for CVRSteamPrivate_020
  r typeinfo name for CVRSteamPrivate_021
+ r typeinfo name for CVRSteamPrivate_022
  r typeinfo name for CVRSystemLatest
  r typeinfo name for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
  r typeinfo name for CVRSystem_001
@@ -5553,6 +5560,7 @@
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_019>
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_020>
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>
  r typeinfo name for SystemInterfaceRegistration<CHmdSystem_001>
  r typeinfo name for SystemInterfaceRegistration<CHmdSystem_004>
  r typeinfo name for SystemInterfaceRegistration<CVRClientCore_001>
@@ -5918,6 +5926,7 @@
  r typeinfo name for vr::IVRSteamPrivate_020
  r typeinfo name for vr::IVRSteamPrivate_021
  r typeinfo name for vr::IVRSteamPrivate_022
+ r typeinfo name for vr::IVRSteamPrivate_023
  r typeinfo name for vr::IVRSystem
  r typeinfo name for vr::IVRTrackedCamera
  r typeinfo name for vr::IVRTrackedCameraInternal
@@ -17714,6 +17723,35 @@
  t CVRSteamPrivate_021::ShowOverlayNotification(unsigned long, unsigned long, unsigned int, unsigned int*)
  t CVRSteamPrivate_021::SwitchToDashboardOverlay(char const*)
  t CVRSteamPrivate_021::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect, int)
+ t CVRSteamPrivate_022::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_022::ExchangeCapabilities(bool*, unsigned int)
+ t CVRSteamPrivate_022::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_022::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
+ t CVRSteamPrivate_022::GetOverlayHandle(char const*, unsigned long*)
+ t CVRSteamPrivate_022::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_022::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_022::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t CVRSteamPrivate_022::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_022::GetVRServerProcessId()
+ t CVRSteamPrivate_022::GetWebSharedSecret()
+ t CVRSteamPrivate_022::HideDashboard()
+ t CVRSteamPrivate_022::HideOverlayNotification(unsigned int)
+ t CVRSteamPrivate_022::MicrotxnFinished()
+ t CVRSteamPrivate_022::OculusSDKAppStarted()
+ t CVRSteamPrivate_022::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_022::PropertyContainerToTrackedDevice(unsigned long)
+ t CVRSteamPrivate_022::QuitProcess(unsigned int)
+ t CVRSteamPrivate_022::QuitSteamVR()
+ t CVRSteamPrivate_022::SendKeyboardDone()
+ t CVRSteamPrivate_022::SendKeyboardText(char const*)
+ t CVRSteamPrivate_022::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long)
+ t CVRSteamPrivate_022::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_022::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_022::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_022::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_022::ShowOverlayNotification(unsigned long, unsigned long, unsigned int, unsigned int*)
+ t CVRSteamPrivate_022::SwitchToDashboardOverlay(char const*)
+ t CVRSteamPrivate_022::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect, int)
  t CVRSystemLatest::AcknowledgeQuit_Exiting()
  t CVRSystemLatest::AcknowledgeQuit_Exiting() [clone .cold]
  t CVRSystemLatest::AddOverlayToDestroyOnClose(unsigned long)
@@ -17757,6 +17795,8 @@
  t CVRSystemLatest::GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int, vr::IVRCompositorSystemInternal::PredictionFlags_t)
  t CVRSystemLatest::GetDeviceToAbsoluteTrackingPoseAtTime(vr::ETrackingUniverseOrigin, double, vr::TrackedDevicePose_t*, unsigned int, vr::IVRCompositorSystemInternal::PredictionFlags_t, bool)
  t CVRSystemLatest::GetDeviceToAbsoluteTrackingPoseAtTime(vr::ETrackingUniverseOrigin, double, vr::TrackedDevicePose_t*, unsigned int, vr::IVRCompositorSystemInternal::PredictionFlags_t, bool) [clone .cold]
+ t CVRSystemLatest::GetDriverRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t CVRSystemLatest::GetDriverRecommendedRenderTargetSize(unsigned int*, unsigned int*) [clone .cold]
  t CVRSystemLatest::GetEdidVendorID(int*)
  t CVRSystemLatest::GetEventTypeNameFromEnum(vr::EVREventType)
  t CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
@@ -17787,8 +17827,6 @@
  t CVRSystemLatest::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
  t CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
  t CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float) [clone .cold]
- t CVRSystemLatest::GetRawRecommendedRenderTargetSize(unsigned int*, unsigned int*)
- t CVRSystemLatest::GetRawRecommendedRenderTargetSize(unsigned int*, unsigned int*) [clone .cold]
  t CVRSystemLatest::GetRawZeroPoseToStandingAbsoluteTrackingPose()
  t CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
  t CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*) [clone .cold]
@@ -17829,7 +17867,7 @@
  t CVRSystemLatest::OnDestroyOverlay(unsigned long)
  t CVRSystemLatest::PerformFirmwareUpdate(unsigned int)
  t CVRSystemLatest::PollNextEvent(vr::VREvent_t*, unsigned int)
- t CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned long, unsigned int*)
  t CVRSystemLatest::PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
  t CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*)
  t CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*) [clone .cold]
@@ -23486,6 +23524,8 @@
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_020>::~SteamPrivateInterfaceRegistration()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>::GetInterface()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>::~SteamPrivateInterfaceRegistration()
  t SteamVRVersionAsString()
  t SteamVRVersionAsString() [clone .cold]
  t StringHasPrefix(std::string const&, std::string const&)
@@ -23501,6 +23541,7 @@
  t StringToUint64(std::string const&)
  t StringToUpper(std::string const&)
  t StringToUpper(std::string const&) [clone .cold]
+ t SxrHandleArrayRequest(std::string const&, unsigned int, unsigned int*, char*)
  t SystemInterfaceRegistration<CHmdSystem_001>::GetInterface()
  t SystemInterfaceRegistration<CHmdSystem_001>::~SystemInterfaceRegistration()
  t SystemInterfaceRegistration<CHmdSystem_004>::GetInterface()
@@ -25392,6 +25433,7 @@
  t non-virtual thunk to CVRSystemLatest::GetDXGIOutputInfo(int*, int*)
  t non-virtual thunk to CVRSystemLatest::GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int, vr::IVRCompositorSystemInternal::PredictionFlags_t)
  t non-virtual thunk to CVRSystemLatest::GetDeviceToAbsoluteTrackingPoseAtTime(vr::ETrackingUniverseOrigin, double, vr::TrackedDevicePose_t*, unsigned int, vr::IVRCompositorSystemInternal::PredictionFlags_t, bool)
+ t non-virtual thunk to CVRSystemLatest::GetDriverRecommendedRenderTargetSize(unsigned int*, unsigned int*)
  t non-virtual thunk to CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
  t non-virtual thunk to CVRSystemLatest::GetEyeToHeadTransformCompositorResidual(vr::EVREye)
  t non-virtual thunk to CVRSystemLatest::GetHoverTargetOverlay()
@@ -25399,13 +25441,12 @@
  t non-virtual thunk to CVRSystemLatest::GetLatestGazePoint(vr::HmdVector3_t*, vr::ETrackingUniverseOrigin) const
  t non-virtual thunk to CVRSystemLatest::GetMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
- t non-virtual thunk to CVRSystemLatest::GetRawRecommendedRenderTargetSize(unsigned int*, unsigned int*)
  t non-virtual thunk to CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
  t non-virtual thunk to CVRSystemLatest::HasRemoteFrameTiming()
  t non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
- t non-virtual thunk to CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned int*)
+ t non-virtual thunk to CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned long, unsigned int*)
  t non-virtual thunk to CVRSystemLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)
  t non-virtual thunk to CVRSystemLatest::PostOverlayEvent(unsigned long, vr::VREvent_t const&)
@@ -25822,6 +25863,9 @@
  t std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
  t std::_Hashtable<unsigned long, std::pair<unsigned long const, std::string>, std::allocator<std::pair<unsigned long const, std::string> >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned long const, std::string>, false>*, unsigned long)
  t std::_Hashtable<unsigned long, std::pair<unsigned long const, std::string>, std::allocator<std::pair<unsigned long const, std::string> >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+ t std::_Hashtable<unsigned long, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, std::allocator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, false>*, unsigned long)
+ t std::_Hashtable<unsigned long, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, std::allocator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+ t std::_Hashtable<unsigned long, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, std::allocator<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > > >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::~_Hashtable()
  t std::_Hashtable<unsigned long, std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, std::allocator<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > > >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, false>*, unsigned long)
  t std::_Hashtable<unsigned long, std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, std::allocator<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > > >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
  t std::_Hashtable<unsigned long, std::pair<unsigned long const, vr::IVRExternalProperties*>, std::allocator<std::pair<unsigned long const, vr::IVRExternalProperties*> >, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned long const, vr::IVRExternalProperties*>, false>*, unsigned long)
@@ -25993,7 +26037,6 @@
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, SharedInputComponentInfo_t>, std::_Select1st<std::pair<unsigned long const, SharedInputComponentInfo_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SharedInputComponentInfo_t> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, SharedInputComponentInfo_t> >*)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, SharedInputComponentInfo_t>, std::_Select1st<std::pair<unsigned long const, SharedInputComponentInfo_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SharedInputComponentInfo_t> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, SharedInputComponentInfo_t> >, unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, SharedInputComponentInfo_t>, std::_Select1st<std::pair<unsigned long const, SharedInputComponentInfo_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SharedInputComponentInfo_t> > >::_M_get_insert_unique_pos(unsigned long const&)
- t std::_Rb_tree<unsigned long, std::pair<unsigned long const, SuggestedBinding>, std::_Select1st<std::pair<unsigned long const, SuggestedBinding> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SuggestedBinding> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, SuggestedBinding> >*)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, VRInputValue_t>, std::_Select1st<std::pair<unsigned long const, VRInputValue_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, VRInputValue_t> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, VRInputValue_t> >*)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, VRInputValue_t>, std::_Select1st<std::pair<unsigned long const, VRInputValue_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, VRInputValue_t> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, VRInputValue_t> >, unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, VRInputValue_t>, std::_Select1st<std::pair<unsigned long const, VRInputValue_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, VRInputValue_t> > >::_M_get_insert_unique_pos(unsigned long const&)
@@ -26091,7 +26134,6 @@
  t std::_Rb_tree_iterator<std::pair<unsigned long const, COverlayViewResourceInfo*> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, COverlayViewResourceInfo*>, std::_Select1st<std::pair<unsigned long const, COverlayViewResourceInfo*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, COverlayViewResourceInfo*> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, COverlayViewResourceInfo*> >, std::piecewise_construct_t const&, std::tuple<unsigned long const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<unsigned long const, ConfigCachedActionValue_t> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, ConfigCachedActionValue_t>, std::_Select1st<std::pair<unsigned long const, ConfigCachedActionValue_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, ConfigCachedActionValue_t> > >::_M_emplace_equal<std::pair<unsigned long, ConfigCachedActionValue_t> >(std::pair<unsigned long, ConfigCachedActionValue_t>&&)
  t std::_Rb_tree_iterator<std::pair<unsigned long const, HandleAndString_t> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, HandleAndString_t>, std::_Select1st<std::pair<unsigned long const, HandleAndString_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, HandleAndString_t> > >::_M_emplace_equal<std::pair<unsigned long, HandleAndString_t> >(std::pair<unsigned long, HandleAndString_t>&&)
- t std::_Rb_tree_iterator<std::pair<unsigned long const, SuggestedBinding> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, SuggestedBinding>, std::_Select1st<std::pair<unsigned long const, SuggestedBinding> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SuggestedBinding> > >::_M_emplace_equal<std::pair<unsigned long, SuggestedBinding> >(std::pair<unsigned long, SuggestedBinding>&&)
  t std::_Rb_tree_iterator<std::pair<unsigned long const, VulkanVRRenderer::Texture*> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, VulkanVRRenderer::Texture*>, std::_Select1st<std::pair<unsigned long const, VulkanVRRenderer::Texture*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, VulkanVRRenderer::Texture*> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, VulkanVRRenderer::Texture*> >, std::piecewise_construct_t const&, std::tuple<unsigned long const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > > std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > >, std::_Select1st<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > >, std::piecewise_construct_t const&, std::tuple<unsigned long&&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > > std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> >, std::_Select1st<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > >, std::piecewise_construct_t const&, std::tuple<unsigned long const&>&&, std::tuple<>&&)
@@ -27008,6 +27050,7 @@
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true>*) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<unsigned long const, std::string>, false> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
+ t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >, false> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, false> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > >, false>*) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<unsigned long const, vr::IVRExternalProperties*>, false> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<vr::HmdVector2_t const, int>, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
@@ -30399,6 +30442,8 @@
  t vr::CVROverlayInternalLatest::IsCameraRoomViewVisible() [clone .cold]
  t vr::CVROverlayInternalLatest::IsOverlayVisible(unsigned long, bool*, vr::EOverlayVisibilityFlags*)
  t vr::CVROverlayInternalLatest::IsOverlayVisible(unsigned long, bool*, vr::EOverlayVisibilityFlags*) [clone .cold]
+ t vr::CVROverlayInternalLatest::IsTextureInUse(unsigned long) const
+ t vr::CVROverlayInternalLatest::IsTextureInUse(unsigned long) const [clone .cold]
  t vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse)
  t vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) [clone .cold]
  t vr::CVROverlayInternalLatest::SendKeyboardDone()
@@ -30492,6 +30537,7 @@
  t vr::CVRSteamPrivateLatest::MicrotxnFinished()
  t vr::CVRSteamPrivateLatest::OculusSDKAppStarted()
  t vr::CVRSteamPrivateLatest::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t vr::CVRSteamPrivateLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int, unsigned int*)
  t vr::CVRSteamPrivateLatest::PropertyContainerToTrackedDevice(unsigned long)
  t vr::CVRSteamPrivateLatest::QuitProcess(unsigned int)
  t vr::CVRSteamPrivateLatest::QuitSteamVR()

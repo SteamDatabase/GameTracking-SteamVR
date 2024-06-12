@@ -104,7 +104,7 @@
         "enable": true
     },
     "userinterface": {
-        "StatusAlwaysOnTop": true,
+        "StatusAlwaysOnTop": false,
         "HidePopupsWhenStatusMinimized": false,
         "screenshots": true,
         "screenshotType": 2,
@@ -157,7 +157,7 @@
         "CollisionBoundsColorGammaG": 255,
         "CollisionBoundsColorGammaB": 255,
         "CollisionBoundsColorGammaA": 153,
-        "enableDriverBoundsImport" : true
+        "enableDriverBoundsImport": true
     },
     "camera": {
         "enableCamera": false,
@@ -174,8 +174,8 @@
     "audio": {
         "enablePlaybackMirror": false,
         "playbackMirrorDevice": "",
-        "playbackMirrorDeviceName" :  "",
-        "enablePlaybackMirrorIndependentVolume" :  false,
+        "playbackMirrorDeviceName": "",
+        "enablePlaybackMirrorIndependentVolume": false,
         "viveHDMIGain": true,
         "dualSpeakerAndJackOutput": false,
         "muteMicMonitor": false
@@ -228,7 +228,7 @@
         "steamMatchesHMDFramerate": true
     },
     "driver_imu": {
-        "enable":  false
+        "enable": false
     },
     "driver_knuckles": {
         "enable": false
@@ -260,6 +260,9 @@
         "overlayFilteringMinCutoff": 1,
         "overlayFilteringBeta": 5,
         "overlayFilteringDerivCutoff": 5
+    },
+    "WebInterface": {
+        "WebLogging": true
     },
     "version": "1",
     "jsonid": "vrsettings"

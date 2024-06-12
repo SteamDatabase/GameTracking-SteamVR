@@ -32,7 +32,6 @@
 		"controller":	"internet_settings",
 		"values": [
 			  { "name": "/settings/steamvr/*", "type":  "wildcard" }
-			 ,{ "name": "/settings/internet/*", "type":  "wildcard" }
 		]
 	},
 
