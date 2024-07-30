@@ -94,13 +94,15 @@
         "metaUnityPluginCompatibility": 0
     },
     "direct_mode": {
-        "count": 3,
+        "count": 4,
         "edidPid0": 43521,
         "edidPid1": 43522,
         "edidPid2": 37288,
+        "edidPid3": 49671,
         "edidVid0": 53794,
         "edidVid1": 53794,
         "edidVid2": 38489,
+        "edidVid3": 55629,
         "enable": true
     },
     "userinterface": {
@@ -193,6 +195,8 @@
     "dashboard": {
         "enableDashboard": true,
         "allowCurvature": true,
+        "allowExitVR": true,
+        "allowLegacyQuickLaunch": true,
         "allowPlacementDuringRecenter": false,
         "arcadeMode": false,
         "cefMaxFrameRate": 120.0,
@@ -224,7 +228,6 @@
         "allowSteamOverlays": true,
         "allowVRGamepadUI": true,
         "allowVRGamepadUIViaGamescope": false,
-        "allowQuickLaunchInVRGamepadUI": false,
         "steamMatchesHMDFramerate": true
     },
     "driver_imu": {

@@ -534,6 +534,7 @@
               (p.properties["curvature-origin-id"] = (0, u.Hb)(
                 this.props.curvature_origin_id,
               )),
+              (p.properties.spherical = this.props.spherical),
               (p.properties.interactive = this.props.interactive),
               (p.properties.scrollable = this.props.scrollable),
               (p.properties.undocked = this.props.undocked),
@@ -1340,7 +1341,19 @@
                     (i.properties["parent-path"] = d(t, "parent-path")),
                     (i.properties.translation = n(t, "translation")),
                     (i.properties.rotation = n(t, "rotation")),
-                    (i.properties.scale = n(t, "scale"));
+                    (i.properties.scale = n(t, "scale")),
+                    (i.properties["stop-distance"] = s(t, "stop-distance")),
+                    (i.properties["start-angle"] = s(t, "start-angle")),
+                    (i.properties["start-quat-difference"] = s(
+                      t,
+                      "start-quat-difference",
+                    )),
+                    (i.properties["stop-quat-difference"] = s(
+                      t,
+                      "stop-quat-difference",
+                    )),
+                    (i.properties["scale-margin"] = s(t, "scale-margin")),
+                    (i.properties["lerp-speed"] = s(t, "lerp-speed"));
               }
               return [o, i];
             })(e, t),
@@ -1367,8 +1380,8 @@
           g,
           v,
           b = [],
-          S = null,
-          f = null;
+          f = null,
+          S = null;
         function y(e, t, r) {
           (h = e),
             (m = t),
@@ -1398,8 +1411,8 @@
           b.push(e), C();
         }
         function C() {
-          S ||
-            (S = window.setTimeout(
+          f ||
+            (f = window.setTimeout(
               () =>
                 (0, o.mG)(this, void 0, void 0, function* () {
                   let e = document.body;
@@ -1420,18 +1433,18 @@
                       e,
                     ),
                   };
-                  f ||
+                  S ||
                     (console.log("Initializing sg_mailbox"),
-                    (f = new i.N()),
-                    yield f.Init("sg_mailbox", g));
+                    (S = new i.N()),
+                    yield S.Init("sg_mailbox", g));
                   let r = {
                     type: "update_scene_graph",
                     owning_overlay_key: R(),
                     scene_graph: t,
                     retired_sgids: b,
                   };
-                  f.SendMessage("vrcompositor_systemlayer", r),
-                    (S = null),
+                  S.SendMessage("vrcompositor_systemlayer", r),
+                    (f = null),
                     (b = []),
                     (v = !1);
                 }),
@@ -1883,7 +1896,7 @@
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(s || (s = {}));
         let a = 0;
-        var l, d, p, c, u, _, h, m, g, v, b, S, f, y, D, R, I;
+        var l, d, p, c, u, _, h, m, g, v, b, f, S, y, D, R, I;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -2013,14 +2026,14 @@
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(S || (S = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(f || (f = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -2048,11 +2061,7 @@
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
           })(D || (D = {})),
           (function (e) {
-            (e[(e.Hostname = 0)] = "Hostname"),
-              (e[(e.IP = 1)] = "IP"),
-              (e[(e.Version = 2)] = "Version"),
-              (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
-              (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
+            e[(e.Hostname = 0)] = "Hostname";
           })(R || (R = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
@@ -2273,8 +2282,9 @@
               "DisplayMinAnalogGain_Float"),
             (e[(e.DisplayMaxAnalogGain_Float = 2087)] =
               "DisplayMaxAnalogGain_Float"),
+            (e[(e.DashboardLinkSupport_Int32 = 2097)] =
+              "DashboardLinkSupport_Int32"),
             (e[(e.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
-            (e[(e.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
             (e[(e.IpdUIRangeMinMeters_Float = 2100)] =
               "IpdUIRangeMinMeters_Float"),
             (e[(e.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -2796,4 +2806,4 @@
   var i = o.O(void 0, [968, 683], () => o(844));
   i = o.O(i);
 })();
-//# sourceMappingURL=fallback.js.map?v=7bc4bcc5016f9f735b23
+//# sourceMappingURL=fallback.js.map?v=3b208ca4d09067494cea

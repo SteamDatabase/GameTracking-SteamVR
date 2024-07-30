@@ -81,6 +81,8 @@ $< t6<$t,<+t"<vt
 )t$0H
 )t$`H
 +J$D8M@
++QQb]
++X3zs
 +Xt@(
 +o'q)}
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
@@ -373,13 +375,12 @@ $< t6<$t,<+t"<vt
 0}0i1
 130801120000Z
 1eaB@
-1x!DW
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240525011058Z0/
+240724173825Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -389,19 +390,18 @@ $< t6<$t,<+t"<vt
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
+378w{X
 380115120000Z0b1
 3A8A#
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4if'2M
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
-7c8r@c
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8-uCH
 8-uGH
@@ -431,6 +431,7 @@ $< t6<$t,<+t"<vt
 9_P~+E3
 9_P~,E3
 9_P~OE3
+9f`'r
 9{D~H3
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
@@ -1108,7 +1109,6 @@ No color stream to configure.
 No depth or color data. Cannot determine frame number.
 No depth stream to configure.
 O,D9O(vcH
-OG/8c
 OLEAUT32.dll
 P8fD;
 P@fD;
@@ -1126,7 +1126,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSR
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1201,6 +1200,7 @@ UVWATAVH
 UVWAVAWH
 UWATAVAWH
 UWAVH
+UYVX;}
 UmsThreadYield
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
@@ -1369,7 +1369,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
-bL(~CG#
 bad address
 bad allocation
 bad array new length
@@ -1381,7 +1380,6 @@ bad function call
 bad locale name
 bad message
 blank
-boF2;
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 calloc
@@ -1489,7 +1487,6 @@ l$pfA#
 l$xM+
 l*$D+l*,tDD+l*(
 l2|X/gGe
-lcrLS
 ldexp
 localeconv
 lower
@@ -1537,12 +1534,12 @@ owner dead
 p AWH
 p D9V
 p WAVAWH
+p e0ui
 pA^_^
 pA_A^A]A\_^]
 pContext
 pEvents
 pExecutionResource
-pQNv',I
 pScheduler
 pThreadProxy
 permission denied
@@ -1724,7 +1721,6 @@ yH;YXtl
 |$h9w
 |$rfD
 |Lu?c
-|\7w[
 }LuHO
 ~`D8I!t-
 ~qj#k"

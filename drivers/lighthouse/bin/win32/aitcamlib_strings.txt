@@ -1,7 +1,9 @@
 																																																																																																																
 	!s99
  %41g
+ /CW 
 !(0)"
+!+}pg'
 !9~ t
 !hn7!
 #*1892+$
@@ -22,6 +24,7 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
+*X"iN^?
 +Xt@(
 +o'q)}
 , last executing in 
@@ -167,7 +170,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240525010527Z0/
+240724173806Z0/
 241009235959Z0a1
 282<2@2D224b4
 292m2
@@ -181,6 +184,7 @@ $9^ t
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3 3$3(3,3034383<3@3D3H3T3
 3 30343D3H3L3P3X3p3t3
+3 4&4@4
 3 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5
 3!3>3
 3#3(3-32373<3A3F3K3P3c3h3r3
@@ -236,7 +240,6 @@ $9^ t
 607c7l8{9
 618<8
 666E6N6T6Z6
-686Q6[6i6r6
 6>6[6
 6E6J6z6
 6I]Dc
@@ -251,10 +254,8 @@ $9^ t
 70503
 727B7L7V7_7r7~7
 787<7l8
-788L8R8
 797R7e7q7
 7J7b7$:
-7N7T7p7
 7O7W7
 7P9T9
 7b9f9
@@ -264,10 +265,12 @@ $9^ t
 8&8E8J8[8a8f8q8{8
 8,838L8S8n8
 878A8R8]8~8
+888Q8[8i8r8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8SVWh\
 8X:\:`:
+8Y"d88o
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -279,7 +282,9 @@ $9^ t
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9m9r9w9|9
 9&90989C9I9O9Y9c9n9v9}9
 949l9
+98:L:R:
 9>9N9X9b9r9}9
+9N9T9p9
 9_lt\
 :!:%:4:8:G:K:Z:b:l:x:
 :":2:=:^:n:x:
@@ -287,13 +292,11 @@ $9^ t
 :#;W;
 :%:-:1:
 :(:6:::
-:):n:t:
 :3:X:}:
 :4:X:d:l:
 :6:C:d:i:
 :;:w:
 :L<<=
-:T;+<o<
 :X;{;
 ; ;$;(;,;4;8;<;@;D;H;L;P;T;X;\;`;d;
 ; <$<(<,<0<4<8<<<@<D<
@@ -314,13 +317,12 @@ $9^ t
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
 <(=,=
+<)<n<t<
 <0:08
 <4>@>
 <8<D<L<l<
 <><N<X<b<r<}<
-<>W&;
 <_=r=
-<a=n=
 <unknown>
 ="=2===^=n=x=
 =,=L=l=
@@ -374,11 +376,13 @@ AITAPI_IspCommand
 AITAPI_MmpCommand
 AITAPI_OpenDeviceEx
 ASSERT: "%s" at %s:%d.
+AZKh`
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 BMP RLE
 Bellevue1
+C/zM~O
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -398,7 +402,6 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
-Eb	&q7
 Enabled
 EnterCriticalSection
 Error! EventWriteString Severe: %s
@@ -445,7 +448,7 @@ IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -467,7 +470,6 @@ InitializeCriticalSectionEx
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-It.t%
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -502,7 +504,6 @@ RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
-S	FVM^
 S0Q0O
 SA|X=G
 SETUPAPI.dll
@@ -571,7 +572,6 @@ UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
-V9Qf{NX
 VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
@@ -584,12 +584,14 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+V|Bq`
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+W~F[TR
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -598,7 +600,6 @@ Y__^[
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
-\m+Jn
 ]J<0"0i3
 _CIpow
 _Cnd_destroy_in_situ
@@ -643,6 +644,7 @@ _wchdir
 _wgetcwd
 `.rdata
 a7hIw
+acBhSN
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -828,6 +830,7 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
 uEVj@
+u`w,oB
 uk_ua
 ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -840,7 +843,6 @@ unsupported data layout
 unsupported format
 v#QPh8
 v=Y]Bv
-vD}wB
 vi_vn
 vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
@@ -850,9 +852,11 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+zcGoF
 zh_cn
 zh_tw
 zlib corrupt
+{?y|R
 {un'%
 |Lu?c
 }LuHO

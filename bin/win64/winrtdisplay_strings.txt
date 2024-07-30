@@ -10,11 +10,9 @@
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
-&2$U9
 ',=?k
 (D$0f
 (f*^[0
-)\g8z,
 +Xt@(
 +o'q)}
 ,W5y+
@@ -119,12 +117,13 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525011001Z0/
+240724173716Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3 |nI
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -151,7 +150,6 @@
 =rIQU
 >0<0:
 >Mp$d
-?K*%P
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -201,9 +199,9 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E05	jT
 E89D$Pu
 E<9D$Tu
-EL	PgrB
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -277,13 +275,13 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+TJ>.K
 UVAUAWH
 UVAWH
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Unknown exception encountered initializing WinRT display.
-U|WsgH
 VCRUNTIME140.dll
 VWATAVAWH
 VWAVH
@@ -318,6 +316,7 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
+['JJT
 [K]taM?
 \$ H;
 \$ UH
@@ -350,7 +349,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`D7e2
+`0jiD
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -366,12 +365,12 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
+c	Gz=j
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
-dLyx-
 dxgi.dll
-h:Qf$=
+gtPYA
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -401,12 +400,14 @@ t$PE3
 tXfff
 tYH9\$`t
 terminate
+tps:;{
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
+xhV{U
 {un'%
 |$ AVH
 |$0E3

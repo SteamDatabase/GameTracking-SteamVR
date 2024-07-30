@@ -281,6 +281,7 @@
  __xstat64
  _exit
  abort
+ accept
  alphasort
  b (anonymous namespace)::__new_handler
  b (anonymous namespace)::c_locale
@@ -345,6 +346,7 @@
  b BIsCrashReportingDisabled()::s_bFiguredOutIfDisabled
  b BIsCrashReportingDisabled()::s_bIsReportingDisabled
  b BIsHapticLoggingEnabled()::s_bIsHapticLogEnabled
+ b BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
  b CAnimResource::MyTypeID()::sID
  b CAnimResource::m_typeInfoCAnimResource
  b CAnimResourceManager::m_sInstance
@@ -352,23 +354,61 @@
  b CAssert::m_pInstance
  b CBoneMaskResource::MyTypeID()::sID
  b CBoneMaskResource::m_typeInfoCBoneMaskResource
+ b CDriverManager::GetDriverName(unsigned int) const::strEmpty
  b CKeyframedDataResource::MyTypeID()::sID
  b CKeyframedDataResource::m_typeInfoCKeyframedDataResource
  b CLog::s_mutex
  b CLog::s_pInstance
  b CLogBuffer::s_pInstance
  b COctaveLoggerManager::GetSessionName()::g_StartTime
+ b CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
+ b CSettingsManager::GetDefaultValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ b CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ b CSettingsSetting::GetDefaultValue() const::Empty
  b CTransform::xIdentity
  b CVRLog::InitLog(char const*, char const*, bool, unsigned int)::sb_combinedLogging
+ b CVRTrackedDevice_004::k_pchInterfaceName
+ b CVRTrackedDevice_Latest::k_pchInterfaceName
  b CWatchdogConnectionMonitor::OnButtonData(unsigned long long, unsigned long long, unsigned long long)::k_ulSystemButtonMask
  b ECameraHAL_OpenError_ToString::mapStrings
  b Eigen::internal::manage_caching_sizes(Eigen::Action, int*, int*, int*)::m_cacheSizes
+ b FillPipeAddr(sockaddr_un&, std::string)::sPrefix
  b GetIDForVRInitError(vr::EVRInitError)::buf
+ b GetStringForCompositorError(vr::EVRCompositorError)::buf
+ b GetStringForInputActionType(EInputActionType)::buf
+ b GetStringForInputValueType(EInputValueType)::buf
+ b GetStringForInputValueVisibility(EInputValueVisibility)::buf
+ b GetStringForPropertyError(vr::ETrackedPropertyError)::buf
+ b GetStringForPropertyTypeTag(unsigned int)::buf
+ b GetStringForRenderModelError(vr::EVRRenderModelError)::buf
+ b GetStringForScalarType(vr::EVRScalarType)::buf
+ b GetStringForScalarUnits(vr::EVRScalarUnits)::buf
+ b GetStringForSceneApplicationState(vr::EVRSceneApplicationState)::buf
+ b GetStringForTrackedControllerRole(vr::ETrackedControllerRole)::buf
+ b GetStringForTrackedDeviceClass(vr::ETrackedDeviceClass)::buf
+ b GetStringForTrackedDeviceProperty(vr::ETrackedDeviceProperty)::buf
+ b GetStringForTrackerRole(ETrackerRole)::buf
+ b GetStringForVRApplicationType(vr::EVRApplicationType)::buf
+ b GetStringForVRApplicationsError(vr::EVRApplicationError)::buf
+ b GetStringForVRButtonId(vr::EVRButtonId)::buf
+ b GetStringForVRControllerAxisType(vr::EVRControllerAxisType)::buf
+ b GetStringForVREventType(vr::EVREventType)::buf
+ b GetStringForVRInputError(vr::EVRInputError)::buf
+ b GetStringForVRMsgType(VRMsgType)::buf
+ b GetStringForVRNotificationError(vr::EVRNotificationError)::buf
+ b GetStringForVROverlayError(vr::EVROverlayError)::buf
+ b GetStringForVROverlayFlags(vr::VROverlayFlags)::buf
+ b GetStringForVRSettingsError(vr::EVRSettingsError)::buf
+ b GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)::buf
  b GetTraceMarkerFd()::__executeCount
  b GetTraceMarkerFd()::s_TraceMarkerMutex
  b GetTraceMarkerFd()::s_flLastAttemptTime
+ b GetTrackedDeviceProperties()::eKeysVector
+ b IPC::SharedObjectManager::GetManagerSharedMemoryName()::s_pszMemName
+ b IPC::g_SharedObjectManager
  b IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
  b IsRunningInAppContainer()::s_bIsRunningInAppContainer
+ b IsSteamStreamingLaunch()::bIsSteamStreamingLaunch
  b LiquidVR::sgVcetMotionEstimator
  b Matrix44Aligned::mIdentity
  b OpenVR_ReadVersionFile(std::string&, unsigned int*)::s_CachedVersion
@@ -447,6 +487,7 @@
  b g_VRSettingHelper
  b g_bSetSuspendHandlers
  b g_bSuspendResumeAck
+ b g_bTestMode
  b g_mutex
  b g_nCurThreadSuspendCount
  b g_pCompositorSystemInternal
@@ -456,6 +497,7 @@
  b g_pLocalizationMgr
  b g_pRenderModels
  b g_pRenderModelsInternal
+ b g_pSharedResourceNamespaceServer
  b g_pVRApplications
  b g_pVRApplicationsInternal
  b g_pVRAudioDevices
@@ -488,16 +530,27 @@
  b g_sVortexBasePath
  b g_serverDriverLighthouse
  b g_setLoadedLighthouseScaleDataFiles
+ b g_sharedResourceNamespaceClient
  b g_vecLighthouseScaleData
  b g_watchdogDriverLighthouse
  b guard variable for (anonymous namespace)::__io_category_instance()::__ec
  b guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
  b guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
+ b guard variable for BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
+ b guard variable for CDriverManager::GetDriverName(unsigned int) const::strEmpty
+ b guard variable for CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
+ b guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
+ b guard variable for CSettingsManager::GetDefaultValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ b guard variable for CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ b guard variable for CSettingsSetting::GetDefaultValue() const::Empty
  b guard variable for CVRLog::InitLog(char const*, char const*, bool, unsigned int)::sb_combinedLogging
  b guard variable for CWatchdogConnectionMonitor::OnButtonData(unsigned long long, unsigned long long, unsigned long long)::k_ulSystemButtonMask
  b guard variable for ECameraHAL_OpenError_ToString::mapStrings
  b guard variable for Eigen::internal::manage_caching_sizes(Eigen::Action, int*, int*, int*)::m_cacheSizes
+ b guard variable for FillPipeAddr(sockaddr_un&, std::string)::sPrefix
  b guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
+ b guard variable for GetTrackedDeviceProperties()::eKeysVector
+ b guard variable for IsSteamStreamingLaunch()::bIsSteamStreamingLaunch
  b guard variable for OpenVR_ReadVersionFile(std::string&, unsigned int*)::s_CachedVersion
  b guard variable for SDLDynamic()::m_instance
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
@@ -622,6 +675,7 @@
  b s_pRealDestroyInstance
  b s_pSharedFirmwareManifest
  b s_rchProcessIdentifier
+ b s_thread_pRobustListStruct
  b seen_objects
  b selectBuf
  b stackDepth_g
@@ -726,6 +780,7 @@
  b systemTimeInitialized
  b tinygltf::Value::Get(int) const::null_value
  b tinygltf::base64_chars
+ b tl_pLeafSharedState
  b tl_pWatchdog
  b unMessageID
  b unseen_objects
@@ -768,6 +823,7 @@
  b vr::VRDriverContext()::pHost
  backtrace
  backtrace_symbols
+ bind
  bind_textdomain_codeset
  bindtextdomain
  btowc
@@ -778,12 +834,15 @@
  clock_nanosleep
  close
  closedir
+ connect
  crc32
  ctime
  d (anonymous namespace)::__io_category_instance()::__ec
  d (anonymous namespace)::generic_category_instance
  d (anonymous namespace)::system_category_instance
  d BIsHapticLoggingEnabled()::s_bNeedsRecheck
+ d BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeys
+ d CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
  d CSkeletonList::m_List
  d CeresFunctorFactory<double, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0>::Dispatch<vortex::CLighthouseDirect::CStateAltBaseSwap<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits> >, vortex::CLighthouseDirect::CStateAltBaseSwap<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits> >, vortex::CLighthouseDirect::CStateAltBaseSwap<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits> > >::Create<bool (&) [3]>(int, bool (&) [3])::rgFactories
  d CeresFunctorFactory<double, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0>::Dispatch<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::CSensorNormalCosAngle, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits>::CSensorNormalCosAngle, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorNormalCosAngle, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorNormalCosAngle>::Create<vortex::CLighthouseModel*&, int&>(int, vortex::CLighthouseModel*&, int&)::rgFactories
@@ -793,8 +852,15 @@
  d DW.ref._ZTISt9exception
  d DW.ref.__gxx_personality_v0
  d GenSessionId()::sNextSessionId
+ d GetNamespacingUid()::s_cachedNamespaceUid
  d GetNextEventId()::ulMessageCounter
  d GetTraceMarkerFd()::s_nTraceFileFD
+ d GetTrackedDeviceProperties()::eKeys
+ d IPC::LinuxSharedFd::Init(int)::sIncrementingIndex
+ d IVRCameraComponent001_Version
+ d IVRCameraComponent002_Version
+ d IVRDisplayComponent001_Version
+ d IVRVirtualDisplay001_Version
  d Json::Value::null
  d Json::Value::nullRef
  d Json::kNullRef
@@ -859,6 +925,7 @@
  d cplus_demangle_operators
  d device_string_names
  d g_LoggingMutex
+ d g_SectionNameToIdTable
  d g_mutexLighthouseScaleData
  d g_nActiveHmdInternalDeviceIndex
  d g_nSIMDBitMaskToIndex
@@ -866,6 +933,11 @@
  d g_pEtronCamera
  d g_rPairs
  d g_szSemFileName
+ d k_pchCameraComponentPrefix
+ d k_pchControllerComponentPrefix
+ d k_pchDisplayComponentPrefix
+ d k_pchDriverDirectModeComponentPrefix
+ d k_pchVirtualDisplayComponentPrefix
  d s_Distortion_Type
  d s_Eye
  d s_FirmwarePropertyKeys
@@ -937,8 +1009,12 @@
  d typeinfo for CCeresFunctor<vortex::CLighthouseModel::Functors<vortex::CLighthousePoseSolver::CStateTraits>::CSensorPositionAngular<0, -1>, double, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0>
  d typeinfo for CCeresFunctor<vortex::CLighthouseModel::Functors<vortex::CLighthousePoseSolver::CStateTraits>::CSensorPositionAngular<0, 1>, double, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0>
  d typeinfo for CCeresFunctors<double, 1>
+ d typeinfo for CCompositorPluginProvider
+ d typeinfo for CCompositorPluginProvider_Latest
+ d typeinfo for CDriverManager
  d typeinfo for CEtronCamera
  d typeinfo for CFirmwareManifest
+ d typeinfo for CFixedSizePropertyContainer
  d typeinfo for CImuTrackerThread
  d typeinfo for CKalmanQuaternion
  d typeinfo for CKeyframedDataResource
@@ -949,29 +1025,108 @@
  d typeinfo for CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}
  d typeinfo for CNonCopyable
  d typeinfo for CPreviewThread
+ d typeinfo for CPropertyContainer
+ d typeinfo for CPropertyManager
  d typeinfo for CRefCount
+ d typeinfo for CServerDriverHost_002
+ d typeinfo for CServerDriverHost_003
+ d typeinfo for CServerTrackedDeviceProvider
+ d typeinfo for CServerTrackedDeviceProvider_002
+ d typeinfo for CServerTrackedDeviceProvider_003
+ d typeinfo for CServerTrackedDeviceProvider_Latest
+ d typeinfo for CSettingsManager
+ d typeinfo for CSharedResourceNamespaceServer
  d typeinfo for CThread
+ d typeinfo for CTrackedDeviceServerDriverAdapter
  d typeinfo for CUsbDeviceScannerThread
  d typeinfo for CVRAudioDevices
+ d typeinfo for CVRCameraComponentAdapter
+ d typeinfo for CVRCameraComponent_001
+ d typeinfo for CVRCameraComponent_002
+ d typeinfo for CVRCameraComponent_Latest
+ d typeinfo for CVRControllerComponentAdapter
+ d typeinfo for CVRControllerComponent_Latest
+ d typeinfo for CVRDisplayComponentAdapter
+ d typeinfo for CVRDisplayComponent_001
+ d typeinfo for CVRDisplayComponent_002
+ d typeinfo for CVRDisplayComponent_Latest
+ d typeinfo for CVRDriverDirectModeComponentAdapter
+ d typeinfo for CVRDriverDirectModeComponent_001
+ d typeinfo for CVRDriverDirectModeComponent_002
+ d typeinfo for CVRDriverDirectModeComponent_003
+ d typeinfo for CVRDriverDirectModeComponent_004
+ d typeinfo for CVRDriverDirectModeComponent_005
+ d typeinfo for CVRDriverDirectModeComponent_006
+ d typeinfo for CVRDriverDirectModeComponent_007
+ d typeinfo for CVRDriverDirectModeComponent_008
+ d typeinfo for CVRDriverDirectModeComponent_Latest
  d typeinfo for CVRLog::InitLog(char const*, char const*, bool, unsigned int)::{lambda(ELogLevel, char const*, void*)#1}
  d typeinfo for CVRMailbox
  d typeinfo for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}
  d typeinfo for CVRMailboxBase
  d typeinfo for CVRReplyMailbox
+ d typeinfo for CVRTrackedDevice_004
+ d typeinfo for CVRTrackedDevice_Latest
+ d typeinfo for CVRVirtualDisplayComponentAdapter
+ d typeinfo for CVRVirtualDisplayComponent_001
+ d typeinfo for CVRVirtualDisplayComponent_Latest
  d typeinfo for CVrcDecodeTagged
  d typeinfo for CWatchdogConnectionMonitor
  d typeinfo for CWatchdogDriver_Lighthouse
+ d typeinfo for CWatchdogTrackedDeviceProvider
+ d typeinfo for CWatchdogTrackedDeviceProvider_Latest
  d typeinfo for CWirelessConnectionMonitor
  d typeinfo for CWirelessDecoder
  d typeinfo for CWirelessDecoderWv2
+ d typeinfo for ComponentAdapterBaseNoParent<IVRCameraComponent001, &k_pchCameraComponentPrefix, 1, CVRCameraComponent_001>
+ d typeinfo for ComponentAdapterBaseNoParent<IVRDisplayComponent001, &k_pchDisplayComponentPrefix, 1, CVRDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseNoParent<IVRVirtualDisplay001, &k_pchVirtualDisplayComponentPrefix, 1, CVRVirtualDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseNoParent<vr::IVRControllerComponent, &k_pchControllerComponentPrefix, 1, CVRControllerComponent_Latest>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRCameraComponent002, &k_pchCameraComponentPrefix, 2, CVRCameraComponent_002, CVRCameraComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDisplayComponent002, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_002, CVRDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_001, &k_pchDriverDirectModeComponentPrefix, 1, CVRDriverDirectModeComponent_001, CVRDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_002, &k_pchDriverDirectModeComponentPrefix, 2, CVRDriverDirectModeComponent_002, CVRDriverDirectModeComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_003, &k_pchDriverDirectModeComponentPrefix, 3, CVRDriverDirectModeComponent_003, CVRDriverDirectModeComponent_002>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_004, &k_pchDriverDirectModeComponentPrefix, 4, CVRDriverDirectModeComponent_004, CVRDriverDirectModeComponent_003>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_005, &k_pchDriverDirectModeComponentPrefix, 5, CVRDriverDirectModeComponent_005, CVRDriverDirectModeComponent_004>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_008, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_008, CVRDriverDirectModeComponent_007>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 3, CVRDisplayComponent_Latest, CVRDisplayComponent_002>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
  d typeinfo for IAitCamGraph
  d typeinfo for ICameraCompletionCallback
  d typeinfo for ICeresFunctor<double>
  d typeinfo for IHandPoseLogic
+ d typeinfo for ILockedPropertyContainer
+ d typeinfo for IPC::IEvent
+ d typeinfo for IPC::IMutex
+ d typeinfo for IPC::ISharedMem
+ d typeinfo for IPC::ISyncObject
+ d typeinfo for IPC::PosixSharedMemory
+ d typeinfo for IPC::SharedObjectEvent
+ d typeinfo for IPC::SharedObjectMutex
+ d typeinfo for IServerDriverHost_002_003
  d typeinfo for IStatePoseMaker
+ d typeinfo for ITrackedDeviceServerDriver_004
  d typeinfo for IUsbDeviceCallback
  d typeinfo for IVRAudioDevices
  d typeinfo for IVRAudioNotification
+ d typeinfo for IVRCameraComponent001
+ d typeinfo for IVRCameraComponent002
+ d typeinfo for IVRDisplayComponent001
+ d typeinfo for IVRDisplayComponent002
+ d typeinfo for IVRDriverDirectModeComponent_001
+ d typeinfo for IVRDriverDirectModeComponent_002
+ d typeinfo for IVRDriverDirectModeComponent_003
+ d typeinfo for IVRDriverDirectModeComponent_004
+ d typeinfo for IVRDriverDirectModeComponent_005
+ d typeinfo for IVRDriverDirectModeComponent_006
+ d typeinfo for IVRDriverDirectModeComponent_007
+ d typeinfo for IVRDriverDirectModeComponent_008
+ d typeinfo for IVRVirtualDisplay001
  d typeinfo for InitCameraHAL::{lambda(char const*)#1}
  d typeinfo for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
  d typeinfo for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
@@ -999,6 +1154,8 @@
  d typeinfo for Reflection::Object
  d typeinfo for Reflection::TypeInfo
  d typeinfo for StaticPoseMaker
+ d typeinfo for TrackedDeviceAdapterBaseNoParent<ITrackedDeviceServerDriver_004, CVRTrackedDevice_004>
+ d typeinfo for TrackedDeviceAdapterBaseWithParent<vr::ITrackedDeviceServerDriver, CVRTrackedDevice_Latest, CVRTrackedDevice_004>
  d typeinfo for __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >
  d typeinfo for __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >
  d typeinfo for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >
@@ -1284,7 +1441,16 @@
  d typeinfo for vr::IServerTrackedDeviceProvider
  d typeinfo for vr::ITrackedDeviceServerDriver
  d typeinfo for vr::IVRCameraComponent
+ d typeinfo for vr::IVRCompositorPluginProvider
+ d typeinfo for vr::IVRControllerComponent
  d typeinfo for vr::IVRDisplayComponent
+ d typeinfo for vr::IVRDriverDirectModeComponent
+ d typeinfo for vr::IVRDriverManager
+ d typeinfo for vr::IVRProperties
+ d typeinfo for vr::IVRPropertiesInternal
+ d typeinfo for vr::IVRSettings
+ d typeinfo for vr::IVRSettingsInternal
+ d typeinfo for vr::IVRVirtualDisplay
  d typeinfo for vr::IVRWatchdogProvider
  d typeinfo for vrcamera::CVRCameraLinux
  d typeinfo for vrcamera::IVRCamera
@@ -1341,8 +1507,12 @@
  d vtable for CCeresFunctor<vortex::CLighthouseModel::Functors<vortex::CLighthousePoseSolver::CStateTraits>::CSensorPositionAngular<0, -1>, double, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0>
  d vtable for CCeresFunctor<vortex::CLighthouseModel::Functors<vortex::CLighthousePoseSolver::CStateTraits>::CSensorPositionAngular<0, 1>, double, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0>
  d vtable for CCeresFunctors<double, 1>
+ d vtable for CCompositorPluginProvider
+ d vtable for CCompositorPluginProvider_Latest
+ d vtable for CDriverManager
  d vtable for CEtronCamera
  d vtable for CFirmwareManifest
+ d vtable for CFixedSizePropertyContainer
  d vtable for CImuTrackerThread
  d vtable for CKalmanQuaternion
  d vtable for CKeyframedDataResource
@@ -1350,18 +1520,52 @@
  d vtable for CLighthouseHmdProvider
  d vtable for CLinuxVideoStream
  d vtable for CPreviewThread
+ d vtable for CPropertyContainer
+ d vtable for CPropertyManager
+ d vtable for CServerDriverHost_002
+ d vtable for CServerDriverHost_003
+ d vtable for CServerTrackedDeviceProvider
+ d vtable for CServerTrackedDeviceProvider_002
+ d vtable for CServerTrackedDeviceProvider_003
+ d vtable for CServerTrackedDeviceProvider_Latest
+ d vtable for CSettingsManager
+ d vtable for CSharedResourceNamespaceServer
  d vtable for CThread
  d vtable for CUsbDeviceScannerThread
  d vtable for CVRAudioDevices
+ d vtable for CVRCameraComponent_001
+ d vtable for CVRCameraComponent_002
+ d vtable for CVRCameraComponent_Latest
+ d vtable for CVRControllerComponent_Latest
+ d vtable for CVRDisplayComponent_001
+ d vtable for CVRDisplayComponent_002
+ d vtable for CVRDisplayComponent_Latest
+ d vtable for CVRDriverDirectModeComponent_001
+ d vtable for CVRDriverDirectModeComponent_002
+ d vtable for CVRDriverDirectModeComponent_003
+ d vtable for CVRDriverDirectModeComponent_004
+ d vtable for CVRDriverDirectModeComponent_005
+ d vtable for CVRDriverDirectModeComponent_006
+ d vtable for CVRDriverDirectModeComponent_007
+ d vtable for CVRDriverDirectModeComponent_008
+ d vtable for CVRDriverDirectModeComponent_Latest
  d vtable for CVRMailbox
  d vtable for CVRMailboxBase
  d vtable for CVRReplyMailbox
+ d vtable for CVRTrackedDevice_004
+ d vtable for CVRTrackedDevice_Latest
+ d vtable for CVRVirtualDisplayComponent_001
+ d vtable for CVRVirtualDisplayComponent_Latest
  d vtable for CVrcDecodeTagged
  d vtable for CWatchdogConnectionMonitor
  d vtable for CWatchdogDriver_Lighthouse
+ d vtable for CWatchdogTrackedDeviceProvider_Latest
  d vtable for CWirelessConnectionMonitor
  d vtable for CWirelessDecoder
  d vtable for CWirelessDecoderWv2
+ d vtable for IPC::PosixSharedMemory
+ d vtable for IPC::SharedObjectEvent
+ d vtable for IPC::SharedObjectMutex
  d vtable for Json::BuiltStyledStreamWriter
  d vtable for Json::CharReaderBuilder
  d vtable for Json::Exception
@@ -1626,12 +1830,14 @@
  dlerror
  dlopen
  dlsym
+ dup
  fclose
  fdopen
  feof
  fflush
  fgets
  fileno
+ flock
  fmod
  fopen
  fopen64
@@ -1646,6 +1852,7 @@
  fseeko64
  ftell
  ftello64
+ ftruncate
  fwrite
  get_nprocs
  getc
@@ -1654,9 +1861,11 @@
  getpid
  getppid
  getpriority
+ getpwnam_r
  getrlimit
  gettext
  gettimeofday
+ getuid
  getwc
  iconv
  iconv_close
@@ -1669,6 +1878,7 @@
  isalpha
  isspace
  kill
+ listen
  localeconv
  localtime
  lseek
@@ -1746,6 +1956,11 @@
  r CSWTCH.214
  r CSWTCH.224
  r CSWTCH.925
+ r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CSettingsManager::GetValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CSettingsManager::MarkSectionDirtyFlags(std::string const&, std::string const&)::k_rgchDriverSectionPrefix
  r CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
  r CThreadSpinRWLock::UnlockWrite()::newValue
  r Four_2PIs
@@ -1771,6 +1986,7 @@
  r Four_TwoThirds
  r Four_Twos
  r Four_Zeros
+ r IPC::crc32(unsigned int, void const*, unsigned int)::s_crc32
  r Json::Value::maxInt
  r Json::Value::maxInt64
  r Json::Value::maxLargestInt
@@ -1819,6 +2035,12 @@
  r lighthouse::pb::protobuf_AssignDesc_lighthouse_5fdebug_2eproto()::CVec3_offsets_
  r nlohmann::detail::dtoa_impl::get_cached_power_for_binary_exponent(int)::kCachedPowers
  r nlohmann::detail::serializer<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >::decode(unsigned char&, unsigned int&, unsigned char)::utf8d
+ r s_rBoolPropertiesToRead
+ r s_rFloatPropertiesToRead
+ r s_rInt32PropertiesToRead
+ r s_rMatrix34PropertiesToRead
+ r s_rStringPropertiesToRead
+ r s_rUint64PropertiesToRead
  r stbi__bmask
  r stbi__check_png_header(stbi__context*)::png_sig
  r stbi__compute_huffman_codes(stbi__zbuf*)::length_dezigzag
@@ -1987,8 +2209,12 @@
  r typeinfo name for CCeresFunctor<vortex::CLighthouseModel::Functors<vortex::CLighthousePoseSolver::CStateTraits>::CSensorPositionAngular<0, -1>, double, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0>
  r typeinfo name for CCeresFunctor<vortex::CLighthouseModel::Functors<vortex::CLighthousePoseSolver::CStateTraits>::CSensorPositionAngular<0, 1>, double, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0>
  r typeinfo name for CCeresFunctors<double, 1>
+ r typeinfo name for CCompositorPluginProvider
+ r typeinfo name for CCompositorPluginProvider_Latest
+ r typeinfo name for CDriverManager
  r typeinfo name for CEtronCamera
  r typeinfo name for CFirmwareManifest
+ r typeinfo name for CFixedSizePropertyContainer
  r typeinfo name for CImuTrackerThread
  r typeinfo name for CKalmanQuaternion
  r typeinfo name for CKeyframedDataResource
@@ -1999,29 +2225,108 @@
  r typeinfo name for CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}
  r typeinfo name for CNonCopyable
  r typeinfo name for CPreviewThread
+ r typeinfo name for CPropertyContainer
+ r typeinfo name for CPropertyManager
  r typeinfo name for CRefCount
+ r typeinfo name for CServerDriverHost_002
+ r typeinfo name for CServerDriverHost_003
+ r typeinfo name for CServerTrackedDeviceProvider
+ r typeinfo name for CServerTrackedDeviceProvider_002
+ r typeinfo name for CServerTrackedDeviceProvider_003
+ r typeinfo name for CServerTrackedDeviceProvider_Latest
+ r typeinfo name for CSettingsManager
+ r typeinfo name for CSharedResourceNamespaceServer
  r typeinfo name for CThread
+ r typeinfo name for CTrackedDeviceServerDriverAdapter
  r typeinfo name for CUsbDeviceScannerThread
  r typeinfo name for CVRAudioDevices
+ r typeinfo name for CVRCameraComponentAdapter
+ r typeinfo name for CVRCameraComponent_001
+ r typeinfo name for CVRCameraComponent_002
+ r typeinfo name for CVRCameraComponent_Latest
+ r typeinfo name for CVRControllerComponentAdapter
+ r typeinfo name for CVRControllerComponent_Latest
+ r typeinfo name for CVRDisplayComponentAdapter
+ r typeinfo name for CVRDisplayComponent_001
+ r typeinfo name for CVRDisplayComponent_002
+ r typeinfo name for CVRDisplayComponent_Latest
+ r typeinfo name for CVRDriverDirectModeComponentAdapter
+ r typeinfo name for CVRDriverDirectModeComponent_001
+ r typeinfo name for CVRDriverDirectModeComponent_002
+ r typeinfo name for CVRDriverDirectModeComponent_003
+ r typeinfo name for CVRDriverDirectModeComponent_004
+ r typeinfo name for CVRDriverDirectModeComponent_005
+ r typeinfo name for CVRDriverDirectModeComponent_006
+ r typeinfo name for CVRDriverDirectModeComponent_007
+ r typeinfo name for CVRDriverDirectModeComponent_008
+ r typeinfo name for CVRDriverDirectModeComponent_Latest
  r typeinfo name for CVRLog::InitLog(char const*, char const*, bool, unsigned int)::{lambda(ELogLevel, char const*, void*)#1}
  r typeinfo name for CVRMailbox
  r typeinfo name for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}
  r typeinfo name for CVRMailboxBase
  r typeinfo name for CVRReplyMailbox
+ r typeinfo name for CVRTrackedDevice_004
+ r typeinfo name for CVRTrackedDevice_Latest
+ r typeinfo name for CVRVirtualDisplayComponentAdapter
+ r typeinfo name for CVRVirtualDisplayComponent_001
+ r typeinfo name for CVRVirtualDisplayComponent_Latest
  r typeinfo name for CVrcDecodeTagged
  r typeinfo name for CWatchdogConnectionMonitor
  r typeinfo name for CWatchdogDriver_Lighthouse
+ r typeinfo name for CWatchdogTrackedDeviceProvider
+ r typeinfo name for CWatchdogTrackedDeviceProvider_Latest
  r typeinfo name for CWirelessConnectionMonitor
  r typeinfo name for CWirelessDecoder
  r typeinfo name for CWirelessDecoderWv2
+ r typeinfo name for ComponentAdapterBaseNoParent<IVRCameraComponent001, &k_pchCameraComponentPrefix, 1, CVRCameraComponent_001>
+ r typeinfo name for ComponentAdapterBaseNoParent<IVRDisplayComponent001, &k_pchDisplayComponentPrefix, 1, CVRDisplayComponent_001>
+ r typeinfo name for ComponentAdapterBaseNoParent<IVRVirtualDisplay001, &k_pchVirtualDisplayComponentPrefix, 1, CVRVirtualDisplayComponent_001>
+ r typeinfo name for ComponentAdapterBaseNoParent<vr::IVRControllerComponent, &k_pchControllerComponentPrefix, 1, CVRControllerComponent_Latest>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRCameraComponent002, &k_pchCameraComponentPrefix, 2, CVRCameraComponent_002, CVRCameraComponent_001>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDisplayComponent002, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_002, CVRDisplayComponent_001>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_001, &k_pchDriverDirectModeComponentPrefix, 1, CVRDriverDirectModeComponent_001, CVRDisplayComponent_001>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_002, &k_pchDriverDirectModeComponentPrefix, 2, CVRDriverDirectModeComponent_002, CVRDriverDirectModeComponent_001>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_003, &k_pchDriverDirectModeComponentPrefix, 3, CVRDriverDirectModeComponent_003, CVRDriverDirectModeComponent_002>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_004, &k_pchDriverDirectModeComponentPrefix, 4, CVRDriverDirectModeComponent_004, CVRDriverDirectModeComponent_003>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_005, &k_pchDriverDirectModeComponentPrefix, 5, CVRDriverDirectModeComponent_005, CVRDriverDirectModeComponent_004>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_008, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_008, CVRDriverDirectModeComponent_007>
+ r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
+ r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 3, CVRDisplayComponent_Latest, CVRDisplayComponent_002>
+ r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>
+ r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
  r typeinfo name for IAitCamGraph
  r typeinfo name for ICameraCompletionCallback
  r typeinfo name for ICeresFunctor<double>
  r typeinfo name for IHandPoseLogic
+ r typeinfo name for ILockedPropertyContainer
+ r typeinfo name for IPC::IEvent
+ r typeinfo name for IPC::IMutex
+ r typeinfo name for IPC::ISharedMem
+ r typeinfo name for IPC::ISyncObject
+ r typeinfo name for IPC::PosixSharedMemory
+ r typeinfo name for IPC::SharedObjectEvent
+ r typeinfo name for IPC::SharedObjectMutex
+ r typeinfo name for IServerDriverHost_002_003
  r typeinfo name for IStatePoseMaker
+ r typeinfo name for ITrackedDeviceServerDriver_004
  r typeinfo name for IUsbDeviceCallback
  r typeinfo name for IVRAudioDevices
  r typeinfo name for IVRAudioNotification
+ r typeinfo name for IVRCameraComponent001
+ r typeinfo name for IVRCameraComponent002
+ r typeinfo name for IVRDisplayComponent001
+ r typeinfo name for IVRDisplayComponent002
+ r typeinfo name for IVRDriverDirectModeComponent_001
+ r typeinfo name for IVRDriverDirectModeComponent_002
+ r typeinfo name for IVRDriverDirectModeComponent_003
+ r typeinfo name for IVRDriverDirectModeComponent_004
+ r typeinfo name for IVRDriverDirectModeComponent_005
+ r typeinfo name for IVRDriverDirectModeComponent_006
+ r typeinfo name for IVRDriverDirectModeComponent_007
+ r typeinfo name for IVRDriverDirectModeComponent_008
+ r typeinfo name for IVRVirtualDisplay001
  r typeinfo name for InitCameraHAL::{lambda(char const*)#1}
  r typeinfo name for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
  r typeinfo name for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
@@ -2049,6 +2354,8 @@
  r typeinfo name for Reflection::Object
  r typeinfo name for Reflection::TypeInfo
  r typeinfo name for StaticPoseMaker
+ r typeinfo name for TrackedDeviceAdapterBaseNoParent<ITrackedDeviceServerDriver_004, CVRTrackedDevice_004>
+ r typeinfo name for TrackedDeviceAdapterBaseWithParent<vr::ITrackedDeviceServerDriver, CVRTrackedDevice_Latest, CVRTrackedDevice_004>
  r typeinfo name for __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >
  r typeinfo name for __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >
  r typeinfo name for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >
@@ -2335,7 +2642,16 @@
  r typeinfo name for vr::IServerTrackedDeviceProvider
  r typeinfo name for vr::ITrackedDeviceServerDriver
  r typeinfo name for vr::IVRCameraComponent
+ r typeinfo name for vr::IVRCompositorPluginProvider
+ r typeinfo name for vr::IVRControllerComponent
  r typeinfo name for vr::IVRDisplayComponent
+ r typeinfo name for vr::IVRDriverDirectModeComponent
+ r typeinfo name for vr::IVRDriverManager
+ r typeinfo name for vr::IVRProperties
+ r typeinfo name for vr::IVRPropertiesInternal
+ r typeinfo name for vr::IVRSettings
+ r typeinfo name for vr::IVRSettingsInternal
+ r typeinfo name for vr::IVRVirtualDisplay
  r typeinfo name for vr::IVRWatchdogProvider
  r typeinfo name for vrcamera::CVRCameraLinux
  r typeinfo name for vrcamera::IVRCamera
@@ -2399,6 +2715,9 @@
  readdir
  readlink
  realloc
+ recv
+ recvfrom
+ recvmsg
  rename
  rewind
  scandir
@@ -2412,13 +2731,19 @@
  semctl
  semget
  semop
+ sendmsg
+ sendto
  setenv
  setlocale
  setpriority
  setrlimit
  setvbuf
+ shm_open
+ shm_unlink
+ shutdown
  sigaction
  snprintf
+ socket
  sprintf
  sscanf
  stderr
@@ -2447,6 +2772,7 @@
  strtoul
  strtoull
  syscall
+ sysconf
  syslog
  system
  t (anonymous namespace)::fopen_mode(std::_Ios_Openmode)
@@ -2469,10 +2795,38 @@
  t (anonymous namespace)::xwrite(int, char const*, int)
  t .L10
  t .L100
+ t .L1000
+ t .L1001
+ t .L1002
+ t .L1003
+ t .L1004
+ t .L1005
+ t .L1006
+ t .L1007
+ t .L1008
+ t .L1009
  t .L101
+ t .L1010
+ t .L1013
+ t .L1018
  t .L102
+ t .L1020
+ t .L1021
+ t .L1022
+ t .L1023
+ t .L1024
+ t .L1025
+ t .L1026
+ t .L1027
+ t .L1028
+ t .L1029
  t .L103
+ t .L1030
+ t .L1031
+ t .L1032
+ t .L1033
  t .L1034
+ t .L1035
  t .L1036
  t .L1037
  t .L1038
@@ -2493,13 +2847,26 @@
  t .L1051
  t .L1052
  t .L106
+ t .L1062
+ t .L1064
+ t .L1065
+ t .L1066
+ t .L1067
+ t .L1068
+ t .L1069
  t .L107
+ t .L1070
+ t .L1071
+ t .L1072
+ t .L1073
  t .L1074
  t .L1075
+ t .L1076
  t .L1077
  t .L1078
  t .L1079
  t .L108
+ t .L1081
  t .L109
  t .L1095
  t .L10993
@@ -3193,6 +3560,7 @@
  t .L244
  t .L245
  t .L246
+ t .L247
  t .L248
  t .L249
  t .L25
@@ -3524,14 +3892,20 @@
  t .L3282
  t .L3283
  t .L3284
+ t .L329
  t .L33
+ t .L330
  t .L331
  t .L332
+ t .L333
  t .L334
+ t .L335
  t .L336
  t .L337
  t .L338
+ t .L339
  t .L34
+ t .L340
  t .L3417
  t .L3419
  t .L342
@@ -3549,7 +3923,9 @@
  t .L349
  t .L35
  t .L350
+ t .L351
  t .L352
+ t .L353
  t .L354
  t .L3544
  t .L3545
@@ -3611,6 +3987,7 @@
  t .L390
  t .L391
  t .L392
+ t .L393
  t .L3936
  t .L3938
  t .L3939
@@ -3621,6 +3998,7 @@
  t .L3944
  t .L3945
  t .L3946
+ t .L395
  t .L399
  t .L4
  t .L40
@@ -3655,10 +4033,14 @@
  t .L423
  t .L4230
  t .L424
+ t .L425
+ t .L426
+ t .L428
  t .L429
  t .L43
  t .L430
  t .L433
+ t .L434
  t .L435
  t .L436
  t .L437
@@ -3687,20 +4069,36 @@
  t .L4459
  t .L446
  t .L4460
+ t .L447
  t .L448
  t .L449
  t .L45
  t .L450
  t .L451
+ t .L452
+ t .L453
+ t .L454
+ t .L455
+ t .L456
+ t .L457
  t .L4575
+ t .L458
  t .L4580
+ t .L459
  t .L46
+ t .L460
+ t .L461
+ t .L462
+ t .L463
+ t .L464
+ t .L465
  t .L4653
  t .L4655
  t .L4656
  t .L4657
  t .L4658
  t .L4659
+ t .L466
  t .L4660
  t .L4661
  t .L4662
@@ -3710,8 +4108,12 @@
  t .L4666
  t .L4667
  t .L4668
+ t .L467
  t .L468
+ t .L469
  t .L47
+ t .L470
+ t .L471
  t .L4715
  t .L4717
  t .L4718
@@ -3727,6 +4129,7 @@
  t .L4727
  t .L4728
  t .L4729
+ t .L473
  t .L4730
  t .L4731
  t .L4732
@@ -3736,24 +4139,31 @@
  t .L4737
  t .L4738
  t .L474
+ t .L475
  t .L476
+ t .L477
+ t .L478
+ t .L479
  t .L48
  t .L480
  t .L4805
  t .L4807
  t .L4808
  t .L4809
+ t .L481
  t .L4810
  t .L4811
  t .L4812
  t .L4813
  t .L4814
+ t .L482
  t .L483
  t .L484
  t .L485
  t .L4853
  t .L486
  t .L4867
+ t .L487
  t .L488
  t .L489
  t .L4898
@@ -3783,20 +4193,31 @@
  t .L494
  t .L495
  t .L496
+ t .L497
+ t .L498
+ t .L499
  t .L5
  t .L50
  t .L500
  t .L501
  t .L502
  t .L503
+ t .L504
+ t .L505
  t .L506
  t .L5068
  t .L5069
+ t .L507
  t .L5070
  t .L5071
+ t .L508
  t .L509
  t .L51
+ t .L510
+ t .L511
  t .L512
+ t .L513
+ t .L514
  t .L5141
  t .L5143
  t .L5144
@@ -3805,12 +4226,16 @@
  t .L5147
  t .L5148
  t .L5149
+ t .L515
  t .L516
+ t .L517
+ t .L518
  t .L519
  t .L52
  t .L520
  t .L5208
  t .L5209
+ t .L521
  t .L5210
  t .L5211
  t .L5212
@@ -3818,12 +4243,16 @@
  t .L5214
  t .L5215
  t .L5216
+ t .L522
+ t .L523
  t .L524
  t .L525
  t .L526
+ t .L527
  t .L528
  t .L529
  t .L53
+ t .L530
  t .L531
  t .L532
  t .L533
@@ -3837,7 +4266,16 @@
  t .L538
  t .L539
  t .L54
+ t .L540
+ t .L541
+ t .L542
+ t .L543
+ t .L544
+ t .L545
  t .L546
+ t .L547
+ t .L548
+ t .L549
  t .L5490
  t .L5492
  t .L5493
@@ -3848,9 +4286,13 @@
  t .L5498
  t .L5499
  t .L55
+ t .L550
  t .L5500
  t .L5501
+ t .L551
+ t .L552
  t .L553
+ t .L554
  t .L555
  t .L556
  t .L557
@@ -3869,7 +4311,13 @@
  t .L569
  t .L57
  t .L570
+ t .L571
  t .L572
+ t .L573
+ t .L574
+ t .L575
+ t .L576
+ t .L577
  t .L578
  t .L579
  t .L58
@@ -3878,7 +4326,9 @@
  t .L582
  t .L583
  t .L584
+ t .L585
  t .L586
+ t .L587
  t .L588
  t .L589
  t .L59
@@ -3886,16 +4336,29 @@
  t .L591
  t .L592
  t .L593
+ t .L594
+ t .L595
+ t .L596
+ t .L597
  t .L598
  t .L599
  t .L6
  t .L60
+ t .L600
  t .L601
  t .L602
  t .L603
+ t .L604
+ t .L605
+ t .L609
  t .L61
  t .L610
+ t .L611
+ t .L612
+ t .L613
+ t .L614
  t .L615
+ t .L616
  t .L617
  t .L618
  t .L619
@@ -3912,6 +4375,11 @@
  t .L629
  t .L63
  t .L630
+ t .L631
+ t .L633
+ t .L634
+ t .L635
+ t .L636
  t .L637
  t .L638
  t .L639
@@ -3957,18 +4425,59 @@
  t .L675
  t .L676
  t .L677
+ t .L678
+ t .L679
  t .L68
+ t .L680
+ t .L681
+ t .L682
+ t .L683
+ t .L684
+ t .L685
+ t .L686
+ t .L687
+ t .L688
+ t .L689
  t .L69
+ t .L690
+ t .L691
+ t .L692
+ t .L693
+ t .L694
+ t .L695
+ t .L696
+ t .L697
+ t .L698
+ t .L699
  t .L7
  t .L70
+ t .L700
+ t .L701
+ t .L702
+ t .L703
+ t .L704
+ t .L705
+ t .L706
+ t .L707
+ t .L708
+ t .L709
  t .L71
+ t .L710
+ t .L711
+ t .L712
  t .L713
+ t .L714
  t .L715
  t .L716
  t .L717
  t .L718
+ t .L719
  t .L72
+ t .L720
+ t .L721
+ t .L722
  t .L723
+ t .L724
  t .L725
  t .L726
  t .L727
@@ -3978,14 +4487,29 @@
  t .L730
  t .L731
  t .L732
+ t .L733
+ t .L734
+ t .L735
+ t .L736
+ t .L737
+ t .L738
  t .L7380
  t .L7381
  t .L7383
  t .L7384
  t .L7385
  t .L7386
+ t .L739
  t .L7395
  t .L74
+ t .L740
+ t .L741
+ t .L742
+ t .L743
+ t .L744
+ t .L745
+ t .L746
+ t .L747
  t .L748
  t .L749
  t .L7496
@@ -4002,13 +4526,17 @@
  t .L753
  t .L754
  t .L755
+ t .L756
  t .L7561
  t .L7562
  t .L7564
  t .L7565
  t .L7566
  t .L7567
+ t .L757
  t .L7576
+ t .L758
+ t .L759
  t .L76
  t .L760
  t .L761
@@ -4025,9 +4553,14 @@
  t .L771
  t .L772
  t .L773
+ t .L774
  t .L775
+ t .L776
+ t .L777
+ t .L778
  t .L779
  t .L78
+ t .L780
  t .L781
  t .L782
  t .L783
@@ -4045,21 +4578,37 @@
  t .L788
  t .L789
  t .L79
+ t .L790
+ t .L791
+ t .L792
+ t .L793
+ t .L794
+ t .L795
+ t .L796
+ t .L797
+ t .L798
+ t .L799
  t .L8
  t .L80
  t .L800
  t .L8007
  t .L8009
+ t .L801
  t .L8010
  t .L8012
  t .L8013
+ t .L802
+ t .L803
+ t .L804
  t .L8045
  t .L8047
  t .L8048
  t .L8049
+ t .L805
  t .L8050
  t .L8051
  t .L806
+ t .L807
  t .L808
  t .L8083
  t .L8085
@@ -4098,16 +4647,23 @@
  t .L8202
  t .L8203
  t .L821
+ t .L822
+ t .L823
+ t .L824
  t .L8243
  t .L8245
  t .L8246
  t .L8248
  t .L8249
+ t .L825
+ t .L826
+ t .L827
  t .L828
  t .L829
  t .L8297
  t .L8299
  t .L83
+ t .L830
  t .L8300
  t .L8301
  t .L8302
@@ -4118,6 +4674,7 @@
  t .L834
  t .L835
  t .L838
+ t .L839
  t .L84
  t .L840
  t .L841
@@ -4215,8 +4772,18 @@
  t .L922
  t .L923
  t .L924
+ t .L925
  t .L926
+ t .L927
+ t .L928
+ t .L929
  t .L93
+ t .L930
+ t .L931
+ t .L932
+ t .L934
+ t .L937
+ t .L938
  t .L9384
  t .L9386
  t .L9387
@@ -4224,12 +4791,18 @@
  t .L9389
  t .L9390
  t .L94
+ t .L940
+ t .L941
+ t .L942
+ t .L943
  t .L9437
  t .L9439
+ t .L944
  t .L9440
  t .L9441
  t .L9442
  t .L9443
+ t .L946
  t .L9490
  t .L9492
  t .L9493
@@ -4237,12 +4810,18 @@
  t .L9495
  t .L9496
  t .L95
+ t .L950
+ t .L952
+ t .L953
+ t .L954
  t .L9543
  t .L9545
  t .L9546
  t .L9547
  t .L9548
  t .L9549
+ t .L955
+ t .L957
  t .L9596
  t .L9598
  t .L9599
@@ -4259,6 +4838,15 @@
  t .L97
  t .L98
  t .L99
+ t .L990
+ t .L991
+ t .L993
+ t .L994
+ t .L995
+ t .L996
+ t .L997
+ t .L998
+ t .L999
  t AITAPI_AitExtGet(void*, unsigned short, unsigned char*, unsigned int, unsigned long*)
  t AITAPI_AitExtSet(void*, unsigned short, unsigned char*, unsigned int, unsigned long*)
  t AITAPI_CloseDevice(void**)
@@ -4295,10 +4883,19 @@
  t BIsBadDoubleRotorPhaseAlignment(vortex::CSyncDetect::BasestationInfo_t const&)
  t BIsCrashReportingDisabled()
  t BIsCrashReportingDisabled() [clone .cold]
+ t BIsPidPresent(unsigned short, unsigned short)
+ t BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)
+ t BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty) [clone .cold]
  t BIsValidDistortion_Type(int)
  t BIsValidEye(int)
  t BIsValidStereo_Device_Type(int)
+ t BIsVidPresent(unsigned short)
  t BRenameFile(char const*, char const*)
+ t BSharedResourceNamespaceAvailable()
+ t BSharedResourceNamespaceAvailable() [clone .cold]
+ t BSharedResourceNamespaceInTestMode()
+ t BSharedResourceNamespaceTryOneInit()
+ t BSharedResourceNamespaceTryOneInit() [clone .cold]
  t BUnused(std::pair<unsigned int, bool>)
  t BinaryBlendPoseMaker::BinaryBlendPoseMaker(CKeyframedDataResource const*, int, CKeyframedDataResource const*, int)
  t BinaryBlendPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
@@ -4475,6 +5072,7 @@
  t CAttachedMonitors::SetExpectedDirectModeEdid(int)
  t CAttachedMonitors::ShutdownGraphicsAPIs()
  t CAttachedMonitors::~CAttachedMonitors()
+ t CAutoLockAndDrainLogOnExit::~CAutoLockAndDrainLogOnExit()
  t CBaseCamera::CBaseCamera()
  t CBaseCamera::CBaseCamera() [clone .cold]
  t CBaseCamera::CloseCamera()
@@ -4692,6 +5290,16 @@
  t CCircularProtobuf::SaveTo(_IO_FILE*)
  t CCircularProtobuf::Size() const
  t CCircularProtobuf::~CCircularProtobuf()
+ t CCompositorPluginProvider::InitInternal(vr::IVRDriverContext*)
+ t CCompositorPluginProvider::InitInternal(vr::IVRDriverContext*) [clone .cold]
+ t CCompositorPluginProvider_Latest::Cleanup()
+ t CCompositorPluginProvider_Latest::GetComponent(char const*)
+ t CCompositorPluginProvider_Latest::GetInterfaceVersions()
+ t CCompositorPluginProvider_Latest::GetSourceVersion()
+ t CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
+ t CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
+ t CCountedMutexWithLogCache::Log(char const*, ...)
+ t CCountedMutexWithLogCache::Log(char const*, ...) [clone .cold]
  t CDampedFloat::Update(float, float, float)
  t CDampedVector::Reset(VectorAligned const&)
  t CDampedVector::Update(VectorAligned const&, float, float)
@@ -4712,6 +5320,98 @@
  t CDirIterator::IsValid() const
  t CDirIterator::~CDirIterator()
  t CDriverLog::Log(char const*)
+ t CDriverManager::AddDriver(std::string const&, std::string const&)
+ t CDriverManager::AddDriver(std::string const&, std::string const&) [clone .cold]
+ t CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*)
+ t CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*) [clone .cold]
+ t CDriverManager::AllocateDeviceSlot(unsigned int, vr::ETrackedDeviceClass, unsigned int*)
+ t CDriverManager::ApplyDriverResourceProperties(unsigned long long)
+ t CDriverManager::ApplyDriverResourceProperties(unsigned long long) [clone .cold]
+ t CDriverManager::AreAnyDriversBlockedForSafeMode() const
+ t CDriverManager::BAlwaysActivateDriver(unsigned int)
+ t CDriverManager::BCurrentlyActivating(unsigned int, unsigned int) const
+ t CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const
+ t CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const [clone .cold]
+ t CDriverManager::BHasHmdServerDriver()
+ t CDriverManager::BHmdDeviceMightBePresent(unsigned int)
+ t CDriverManager::BIsSafeDriver(unsigned int) const
+ t CDriverManager::BIsSafeDriverByName(std::string const&) const
+ t CDriverManager::BShowEnableInSettings(unsigned int)
+ t CDriverManager::BlockDriversForSafeMode(CSettingsManager*)
+ t CDriverManager::BlockDriversForSafeMode(CSettingsManager*) [clone .cold]
+ t CDriverManager::CDriverManager()
+ t CDriverManager::CDriverManager() [clone .cold]
+ t CDriverManager::Cleanup()
+ t CDriverManager::CleanupDriver(CDriverManager::HmdDriver_t*)
+ t CDriverManager::DeactivateAll()
+ t CDriverManager::DriverDevice_t& std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::emplace_back<CDriverManager::DriverDevice_t>(CDriverManager::DriverDevice_t&&)
+ t CDriverManager::DriverDevice_t::FreeComponents()
+ t CDriverManager::DriverDevice_t::InitComponentPointers()
+ t CDriverManager::DriverDevice_t::PopulateComponents(std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CDriverManager::FindDriverByName(char const*)
+ t CDriverManager::FindDriverByName(char const*) [clone .part.0]
+ t CDriverManager::FindVirtualDisplayComponent(unsigned int) const
+ t CDriverManager::GetCameraComponent(unsigned int) const
+ t CDriverManager::GetDisplayComponent(unsigned int) const
+ t CDriverManager::GetDriverContext(unsigned int)
+ t CDriverManager::GetDriverCount() const
+ t CDriverManager::GetDriverDirectModeComponent(unsigned int) const
+ t CDriverManager::GetDriverHandle(char const*)
+ t CDriverManager::GetDriverManifest(unsigned int)
+ t CDriverManager::GetDriverName(unsigned int) const
+ t CDriverManager::GetDriverName(unsigned int) const [clone .part.0]
+ t CDriverManager::GetDriverName(unsigned int, char*, unsigned int)
+ t CDriverManager::GetDriverPath(unsigned int)
+ t CDriverManager::GetDriverPath(unsigned int, char*, unsigned int)
+ t CDriverManager::GetForcedDriver() const
+ t CDriverManager::GetHmdDriverId() const
+ t CDriverManager::GetLoadPriority(unsigned int) const
+ t CDriverManager::GetPropertyContainerForResourceKey(std::string const&)
+ t CDriverManager::GetPropertyValueFromResourcesManifestJson(std::string const&, Json::Value const&, std::string const&, std::string const&, std::string&, int)
+ t CDriverManager::GetPropertyValueFromResourcesManifestJson(std::string const&, Json::Value const&, std::string const&, std::string const&, std::string&, int) [clone .cold]
+ t CDriverManager::GetResourceDefaultsPropertyContainer(std::string const&, std::string const&)
+ t CDriverManager::GetResourceDefaultsPropertyContainer(std::string const&, std::string const&) [clone .cold]
+ t CDriverManager::GetResourceMapKey(unsigned long long)
+ t CDriverManager::GetServerProvider(unsigned int)
+ t CDriverManager::GetTrackedDevice(unsigned int) const
+ t CDriverManager::GetTrackedDeviceDriverId(unsigned int) const
+ t CDriverManager::GetVirtualDisplayComponent(unsigned int) const
+ t CDriverManager::GetWatchdogProvider(unsigned int)
+ t CDriverManager::HasLoadableDriver(unsigned int) const
+ t CDriverManager::InitFromPathRegistry(CPropertyManager*)
+ t CDriverManager::InitFromPathRegistry(CPropertyManager*) [clone .cold]
+ t CDriverManager::IsBlockedBySafemode(unsigned int) const
+ t CDriverManager::IsEnabled(unsigned int) const
+ t CDriverManager::IsEnabledByDefault(unsigned int) const
+ t CDriverManager::IsServerShutdownBlocked()
+ t CDriverManager::LoadDriver(unsigned int, CDriverManager::HmdDriverContext, vr::IVRDriverContext*)
+ t CDriverManager::LoadDriver(unsigned int, CDriverManager::HmdDriverContext, vr::IVRDriverContext*) [clone .cold]
+ t CDriverManager::PopulateResourceProperties(std::string const&, Json::Value const&)
+ t CDriverManager::PopulateResourceProperties(std::string const&, Json::Value const&) [clone .cold]
+ t CDriverManager::PopulateSystemResourceProperties(std::string const&)
+ t CDriverManager::PopulateSystemResourceProperties(std::string const&) [clone .cold]
+ t CDriverManager::SetDeviceServerDriver(unsigned int, vr::ETrackedDeviceClass, vr::ITrackedDeviceServerDriver*, unsigned int)
+ t CDriverManager::~CDriverManager()
+ t CDriverManifest::AddResourceIconsFromJson(Json::Value const&)
+ t CDriverManifest::AddResourceIconsFromJson(Json::Value const&) [clone .cold]
+ t CDriverManifest::CDriverManifest()
+ t CDriverManifest::CDriverManifest() [clone .cold]
+ t CDriverManifest::Clear()
+ t CDriverManifest::InitializeFromDriverPath(std::string const&)
+ t CDriverManifest::InitializeFromDriverPath(std::string const&) [clone .cold]
+ t CDriverManifest::InitializeFromFile(std::string const&)
+ t CDriverManifest::InitializeFromFile(std::string const&) [clone .cold]
+ t CDriverManifest::InitializeFromJson(Json::Value const&, std::string const&)
+ t CDriverManifest::InitializeFromJson(Json::Value const&, std::string const&) [clone .cold]
+ t CDriverManifest::ReadPresenceEntries(Json::Value const&, std::string const&, std::string const&, std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t> >&)
+ t CDriverManifest::ReadPresenceEntries(Json::Value const&, std::string const&, std::string const&, std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t> >&) [clone .cold]
+ t CDriverManifest::ReadResourceManifestFromFile(std::string const&)
+ t CDriverManifest::ReadResourceManifestFromFile(std::string const&) [clone .cold]
+ t CDriverManifest::SetAlwaysPresent(std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t> >&)
+ t CDriverManifest::ToJson(Json::Value&)
+ t CDriverManifest::ToJson(Json::Value&) [clone .cold]
+ t CDriverManifest::UsbIntToString(unsigned short)
+ t CDriverManifest::~CDriverManifest()
  t CEtronCamera::AreCameraCompatibilityModesSupported()
  t CEtronCamera::CEtronCamera()
  t CEtronCamera::GetExposureTime(float*) const
@@ -4780,6 +5480,21 @@
  t CFirmwareManifest::SharedInstance() [clone .cold]
  t CFirmwareManifest::ToJsonString(std::string&)
  t CFirmwareManifest::~CFirmwareManifest()
+ t CFixedSizePropertyContainer::AllocateData(unsigned int, unsigned int*)
+ t CFixedSizePropertyContainer::Finalize()
+ t CFixedSizePropertyContainer::FindConstEntry(unsigned int) const
+ t CFixedSizePropertyContainer::FindEntry(unsigned int)
+ t CFixedSizePropertyContainer::GetBytesUsed() const
+ t CFixedSizePropertyContainer::GetEnableChangeNotifications()
+ t CFixedSizePropertyContainer::GetPropertyRawLocked(unsigned int, void*, unsigned int, unsigned int*, unsigned int*)
+ t CFixedSizePropertyContainer::Init(void*, unsigned int, bool)
+ t CFixedSizePropertyContainer::ReadLock()
+ t CFixedSizePropertyContainer::ReadUnlock()
+ t CFixedSizePropertyContainer::SetPropertyErrorLocked(unsigned int, vr::ETrackedPropertyError, bool*)
+ t CFixedSizePropertyContainer::SetPropertyRawLocked(unsigned int, void const*, unsigned int, unsigned int, bool*)
+ t CFixedSizePropertyContainer::UnsetPropertyLocked(unsigned int, bool*)
+ t CFixedSizePropertyContainer::WriteLock()
+ t CFixedSizePropertyContainer::WriteUnlock()
  t CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long long, IHandPoseLogic*, vr::EVRHandSide)
  t CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long long, IHandPoseLogic*, vr::EVRHandSide) [clone .cold]
  t CHandAnimEvaluator::EvaluateGripLimit()
@@ -4790,6 +5505,32 @@
  t CHandAnimEvaluator::Update(float)
  t CHandAnimEvaluator::Update(float) [clone .part.0]
  t CHandAnimEvaluator::~CHandAnimEvaluator()
+ t CIPCPipe::CIPCPipe()
+ t CIPCPipe::ClosePipe()
+ t CIPCPipe::ClosePipe() [clone .cold]
+ t CIPCPipe::ConnectPipe(char const*, bool)
+ t CIPCPipe::ConnectPipe(char const*, bool) [clone .cold]
+ t CIPCPipe::CreatePipe(char const*, bool)
+ t CIPCPipe::CreatePipe(char const*, bool) [clone .cold]
+ t CIPCPipe::CreatePipeInternal()
+ t CIPCPipe::CreatePipeInternal() [clone .cold]
+ t CIPCPipe::GetEndpointProcess() const
+ t CIPCPipe::GetEndpointProcessId() const
+ t CIPCPipe::GetMessagePayload(void*, unsigned int)
+ t CIPCPipe::GetNextMessage(unsigned int*, unsigned int*, unsigned int*, unsigned int)
+ t CIPCPipe::IsValid() const
+ t CIPCPipe::SendMessageInternal(void*, unsigned int)
+ t CIPCPipe::SendMessageInternal(void*, unsigned int) [clone .cold]
+ t CIPCPipe::SendPackedMessage(unsigned int, unsigned int, void const*, unsigned int)
+ t CIPCPipe::SendPackedMessage(unsigned int, unsigned int, void const*, unsigned int) [clone .cold]
+ t CIPCPipe::SendSimpleMessage(unsigned int, unsigned int)
+ t CIPCPipe::SendSimpleMessage(unsigned int, unsigned int) [clone .cold]
+ t CIPCPipe::UpdatePipeValidity()
+ t CIPCPipe::UpdatePipeValidity() [clone .cold]
+ t CIPCPipe::WaitForConnection(unsigned int, CIPCPipe**)
+ t CIPCPipe::WaitForConnection(unsigned int, CIPCPipe**) [clone .cold]
+ t CIPCPipe::WaitForData(unsigned int)
+ t CIPCPipe::~CIPCPipe()
  t CISPConfig::from_json(Json::Value const&)
  t CISPConfig::from_json(Json::Value const&) [clone .cold]
  t CISPConfig::to_json() const
@@ -5158,6 +5899,82 @@
  t CPoseUpdateResources::CPoseUpdateResources(CAnimSkeleton const*)
  t CPreviewThread::Run()
  t CPreviewThread::~CPreviewThread()
+ t CPropertyContainer::AddPropertyTable()
+ t CPropertyContainer::AddPropertyTable() [clone .cold]
+ t CPropertyContainer::BInit(std::string const&, bool)
+ t CPropertyContainer::BInit(std::string const&, bool) [clone .cold]
+ t CPropertyContainer::CPropertyContainer()
+ t CPropertyContainer::Compact()
+ t CPropertyContainer::Compact() [clone .cold]
+ t CPropertyContainer::CopyFromStorage(void*, unsigned int, unsigned int)
+ t CPropertyContainer::CopyToStorage(void const*, unsigned int, unsigned int)
+ t CPropertyContainer::CreateNewContainer(std::string const&, bool)
+ t CPropertyContainer::CreateNewContainer(std::string const&, bool) [clone .cold]
+ t CPropertyContainer::FindOrAddProperty(unsigned int)
+ t CPropertyContainer::FindProperty(unsigned int)
+ t CPropertyContainer::FindPropertyIndex(unsigned int)
+ t CPropertyContainer::GetAllProperties(std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> >*)
+ t CPropertyContainer::GetAllProperties(std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> >*) [clone .cold]
+ t CPropertyContainer::GetAllPropertiesWithTag(unsigned int, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> >*)
+ t CPropertyContainer::GetAllPropertiesWithTag(unsigned int, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> >*) [clone .cold]
+ t CPropertyContainer::GetEnableChangeNotifications()
+ t CPropertyContainer::GetPropertyCount()
+ t CPropertyContainer::GetPropertyCount() [clone .cold]
+ t CPropertyContainer::GetPropertyRaw(unsigned int, void*, unsigned int, unsigned int*, unsigned int*)
+ t CPropertyContainer::GetPropertyRaw(unsigned int, void*, unsigned int, unsigned int*, unsigned int*) [clone .cold]
+ t CPropertyContainer::GetPropertyRawLocked(unsigned int, void*, unsigned int, unsigned int*, unsigned int*)
+ t CPropertyContainer::GetPropertyRawLocked(unsigned int, void*, unsigned int, unsigned int*, unsigned int*) [clone .cold]
+ t CPropertyContainer::GetPropertyTableEntry(unsigned int)
+ t CPropertyContainer::GetStorageBlock(unsigned int)
+ t CPropertyContainer::GetStorageBlock(unsigned int) [clone .cold]
+ t CPropertyContainer::ReadLock()
+ t CPropertyContainer::ReadUnlock()
+ t CPropertyContainer::SetPropertyError(unsigned int, vr::ETrackedPropertyError, bool*)
+ t CPropertyContainer::SetPropertyError(unsigned int, vr::ETrackedPropertyError, bool*) [clone .cold]
+ t CPropertyContainer::SetPropertyErrorLocked(unsigned int, vr::ETrackedPropertyError, bool*)
+ t CPropertyContainer::SetPropertyRaw(unsigned int, void const*, unsigned int, unsigned int, bool*)
+ t CPropertyContainer::SetPropertyRaw(unsigned int, void const*, unsigned int, unsigned int, bool*) [clone .cold]
+ t CPropertyContainer::SetPropertyRawLocked(unsigned int, void const*, unsigned int, unsigned int, bool*)
+ t CPropertyContainer::UnsetProperty(unsigned int, bool*)
+ t CPropertyContainer::UnsetProperty(unsigned int, bool*) [clone .cold]
+ t CPropertyContainer::UnsetPropertyLocked(unsigned int, bool*)
+ t CPropertyContainer::WriteLock()
+ t CPropertyContainer::WriteUnlock()
+ t CPropertyContainer::~CPropertyContainer()
+ t CPropertyContainerReader::~CPropertyContainerReader()
+ t CPropertyContainerWriter::CPropertyContainerWriter(ILockedPropertyContainer*)
+ t CPropertyContainerWriter::~CPropertyContainerWriter()
+ t CPropertyManager::BClientMode() const
+ t CPropertyManager::CPropertyManager()
+ t CPropertyManager::CreateFixedSizeContainerForRead(unsigned long long*, void const*, unsigned int)
+ t CPropertyManager::CreateFixedSizeContainerForRead(unsigned long long*, void const*, unsigned int) [clone .cold]
+ t CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long long*, void*, unsigned int)
+ t CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long long*, void*, unsigned int) [clone .cold]
+ t CPropertyManager::CreatePropertyContainer(unsigned long long)
+ t CPropertyManager::CreatePropertyContainerInternal(unsigned long long, bool)
+ t CPropertyManager::CreatePropertyContainerInternal(unsigned long long, bool) [clone .cold]
+ t CPropertyManager::DestroyPropertyContainer(unsigned long long)
+ t CPropertyManager::EnableChangeNotifications(unsigned long long, bool)
+ t CPropertyManager::FindOrAddContainer(unsigned long long)
+ t CPropertyManager::GetAllContainers()
+ t CPropertyManager::GetAllContainers() [clone .cold]
+ t CPropertyManager::GetAllProperties(unsigned long long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> >*)
+ t CPropertyManager::GetAllPropertiesWithTag(unsigned long long, unsigned int, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> >*)
+ t CPropertyManager::GetContainerReader(unsigned long long)
+ t CPropertyManager::GetContainerReader(unsigned long long) [clone .cold]
+ t CPropertyManager::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
+ t CPropertyManager::Init()
+ t CPropertyManager::Init() [clone .cold]
+ t CPropertyManager::InitIfNeeded()
+ t CPropertyManager::PropertyContainerToTrackedDevice(unsigned long long)
+ t CPropertyManager::ReadPropertyBatch(unsigned long long, vr::PropertyRead_t*, unsigned int)
+ t CPropertyManager::ReadPropertyBatch(unsigned long long, vr::PropertyRead_t*, unsigned int) [clone .cold]
+ t CPropertyManager::ReleaseFixedSizeContainer(unsigned long long)
+ t CPropertyManager::ReleaseFixedSizeContainer(unsigned long long) [clone .cold]
+ t CPropertyManager::TrackedDeviceToPropertyContainer(unsigned int)
+ t CPropertyManager::WritePropertyBatch(unsigned long long, vr::PropertyWrite_t*, unsigned int)
+ t CPropertyManager::WritePropertyBatch(unsigned long long, vr::PropertyWrite_t*, unsigned int) [clone .cold]
+ t CPropertyManager::~CPropertyManager()
  t CRefCount::Release() const
  t CSDLDynamic::Init()
  t CSDLDynamic::Unload()
@@ -5166,6 +5983,155 @@
  t CScopedEventDuration::~CScopedEventDuration()
  t CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
  t CScopedWatchdogDetailStringViaIVRServer::~CScopedWatchdogDetailStringViaIVRServer()
+ t CServerDriverHost_002::GetDeviceFromIndex(unsigned int)
+ t CServerDriverHost_002::GetSettings(char const*)
+ t CServerDriverHost_002::IsExiting()
+ t CServerDriverHost_002::MCImageUpdated()
+ t CServerDriverHost_002::PhysicalIpdSet(unsigned int, float)
+ t CServerDriverHost_002::PollNextEvent(vr::VREvent_t*, unsigned int)
+ t CServerDriverHost_002::ProximitySensorState(unsigned int, bool)
+ t CServerDriverHost_002::TrackedDeviceAdded(char const*)
+ t CServerDriverHost_002::TrackedDeviceAxisUpdated(unsigned int, unsigned int, vr::VRControllerAxis_t const&)
+ t CServerDriverHost_002::TrackedDeviceButtonPressed(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_002::TrackedDeviceButtonTouched(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_002::TrackedDeviceButtonUnpressed(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_002::TrackedDeviceButtonUntouched(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_002::TrackedDevicePoseUpdated(unsigned int, vr::DriverPose_t const&)
+ t CServerDriverHost_002::TrackedDevicePropertiesChanged(unsigned int)
+ t CServerDriverHost_002::VendorSpecificEvent(unsigned int, vr::EVREventType, vr::VREvent_Data_t const&, double)
+ t CServerDriverHost_002::VsyncEvent(double)
+ t CServerDriverHost_003::GetDeviceFromIndex(unsigned int)
+ t CServerDriverHost_003::GetSettings(char const*)
+ t CServerDriverHost_003::IsExiting()
+ t CServerDriverHost_003::MCImageUpdated()
+ t CServerDriverHost_003::PhysicalIpdSet(unsigned int, float)
+ t CServerDriverHost_003::PollNextEvent(vr::VREvent_t*, unsigned int)
+ t CServerDriverHost_003::ProximitySensorState(unsigned int, bool)
+ t CServerDriverHost_003::TrackedDeviceAdded(char const*)
+ t CServerDriverHost_003::TrackedDeviceAxisUpdated(unsigned int, unsigned int, vr::VRControllerAxis_t const&)
+ t CServerDriverHost_003::TrackedDeviceButtonPressed(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_003::TrackedDeviceButtonTouched(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_003::TrackedDeviceButtonUnpressed(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_003::TrackedDeviceButtonUntouched(unsigned int, vr::EVRButtonId, double)
+ t CServerDriverHost_003::TrackedDevicePoseUpdated(unsigned int, vr::DriverPose_t const&)
+ t CServerDriverHost_003::TrackedDevicePropertiesChanged(unsigned int)
+ t CServerDriverHost_003::VendorSpecificEvent(unsigned int, vr::EVREventType, vr::VREvent_Data_t const&, double)
+ t CServerDriverHost_003::VsyncEvent(double)
+ t CServerTrackedDeviceProvider::FindOrCreateDeviceAdapter(void*, vr::EVRInitError*)
+ t CServerTrackedDeviceProvider::InitInterfaceVersions()
+ t CServerTrackedDeviceProvider::InitInterfaceVersions() [clone .cold]
+ t CServerTrackedDeviceProvider::InitWithAdapter(std::string const&)
+ t CServerTrackedDeviceProvider::InitWithAdapter(std::string const&) [clone .cold]
+ t CServerTrackedDeviceProvider::~CServerTrackedDeviceProvider()
+ t CServerTrackedDeviceProvider_002::Cleanup()
+ t CServerTrackedDeviceProvider_002::EnterStandby()
+ t CServerTrackedDeviceProvider_002::GetDriverContextLatest()
+ t CServerTrackedDeviceProvider_002::GetInterfaceVersions()
+ t CServerTrackedDeviceProvider_002::GetSourceVersion()
+ t CServerTrackedDeviceProvider_002::Init(vr::IVRDriverContext*)
+ t CServerTrackedDeviceProvider_002::LeaveStandby()
+ t CServerTrackedDeviceProvider_002::RunFrame()
+ t CServerTrackedDeviceProvider_002::ShouldBlockStandbyMode()
+ t CServerTrackedDeviceProvider_002::~CServerTrackedDeviceProvider_002()
+ t CServerTrackedDeviceProvider_003::Cleanup()
+ t CServerTrackedDeviceProvider_003::EnterStandby()
+ t CServerTrackedDeviceProvider_003::GetDriverContextLatest()
+ t CServerTrackedDeviceProvider_003::GetInterfaceVersions()
+ t CServerTrackedDeviceProvider_003::GetSourceVersion()
+ t CServerTrackedDeviceProvider_003::Init(vr::IVRDriverContext*)
+ t CServerTrackedDeviceProvider_003::LeaveStandby()
+ t CServerTrackedDeviceProvider_003::RunFrame()
+ t CServerTrackedDeviceProvider_003::ShouldBlockStandbyMode()
+ t CServerTrackedDeviceProvider_003::~CServerTrackedDeviceProvider_003()
+ t CServerTrackedDeviceProvider_Latest::Cleanup()
+ t CServerTrackedDeviceProvider_Latest::EnterStandby()
+ t CServerTrackedDeviceProvider_Latest::GetDriverContextLatest()
+ t CServerTrackedDeviceProvider_Latest::GetInterfaceVersions()
+ t CServerTrackedDeviceProvider_Latest::GetSourceVersion()
+ t CServerTrackedDeviceProvider_Latest::Init(vr::IVRDriverContext*)
+ t CServerTrackedDeviceProvider_Latest::LeaveStandby()
+ t CServerTrackedDeviceProvider_Latest::RunFrame()
+ t CServerTrackedDeviceProvider_Latest::ShouldBlockStandbyMode()
+ t CServerTrackedDeviceProvider_Latest::~CServerTrackedDeviceProvider_Latest()
+ t CSettingsManager::CSettingsManager()
+ t CSettingsManager::CSettingsManager() [clone .cold]
+ t CSettingsManager::FillJsonValueWithSettingsValues(bool, Json::Value&)
+ t CSettingsManager::FillJsonValueWithSettingsValues(bool, Json::Value&) [clone .cold]
+ t CSettingsManager::GenerateChangeNotifications()
+ t CSettingsManager::GenerateChangeNotifications() [clone .cold]
+ t CSettingsManager::GetBool(char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::GetBool(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetConfigPath(std::string const&)
+ t CSettingsManager::GetConfigPath(std::string const&) [clone .cold]
+ t CSettingsManager::GetCurrentDirtyCount(char const*)
+ t CSettingsManager::GetDefaultBool(char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::GetDefaultBool(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetDefaultNumeric(char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::GetDefaultNumeric(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetDefaultSettingsFilename()
+ t CSettingsManager::GetDefaultSettingsFilename() [clone .cold]
+ t CSettingsManager::GetDefaultString(char const*, char const*, char*, unsigned int, vr::EVRSettingsError*)
+ t CSettingsManager::GetDefaultString(char const*, char const*, char*, unsigned int, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetDefaultString(char const*, char const*, std::string*, vr::EVRSettingsError*)
+ t CSettingsManager::GetDefaultString(char const*, char const*, std::string*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetFloat(char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::GetHiddenDefaultValues(Json::Value&)
+ t CSettingsManager::GetHiddenDefaultValues(Json::Value&) [clone .cold]
+ t CSettingsManager::GetInt32(char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::GetKeysInSection(char const*, std::vector<std::string, std::allocator<std::string> >*, vr::EVRSettingsError*)
+ t CSettingsManager::GetKeysInSection(char const*, std::vector<std::string, std::allocator<std::string> >*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetNumeric(char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::GetSetting(char const*, char const*, bool, ESettingValueType)
+ t CSettingsManager::GetSetting(char const*, char const*, bool, ESettingValueType) [clone .cold]
+ t CSettingsManager::GetSetting(std::pair<std::string, std::string> const&, bool, ESettingValueType)
+ t CSettingsManager::GetSetting(std::pair<std::string, std::string> const&, bool, ESettingValueType) [clone .cold]
+ t CSettingsManager::GetSetting(std::string const&, std::string const&, bool, ESettingValueType)
+ t CSettingsManager::GetSetting(std::string const&, std::string const&, bool, ESettingValueType) [clone .cold]
+ t CSettingsManager::GetSettingsErrorNameFromEnum(vr::EVRSettingsError)
+ t CSettingsManager::GetString(char const*, char const*, char*, unsigned int, vr::EVRSettingsError*)
+ t CSettingsManager::GetString(char const*, char const*, char*, unsigned int, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetString(char const*, char const*, std::string*, vr::EVRSettingsError*)
+ t CSettingsManager::GetString(char const*, char const*, std::string*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&)
+ t CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&) [clone .cold]
+ t CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*)
+ t CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*) [clone .cold]
+ t CSettingsManager::Init(CDriverManager*, IVRServer*)
+ t CSettingsManager::Init(CDriverManager*, IVRServer*) [clone .cold]
+ t CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&)
+ t CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&) [clone .cold]
+ t CSettingsManager::LoadDriverDefaultSettings(std::string const&, CDriverManager*, Json::Value&)
+ t CSettingsManager::LoadDriverDefaultSettings(std::string const&, CDriverManager*, Json::Value&) [clone .cold]
+ t CSettingsManager::LoadRuntimeDefaultSettings(std::string&, Json::Value&)
+ t CSettingsManager::LoadUserSettings(std::string&, Json::Value&)
+ t CSettingsManager::LoadUserSettings(std::string&, Json::Value&) [clone .cold]
+ t CSettingsManager::MarkSectionDirtyFlags(std::string const&, std::string const&)
+ t CSettingsManager::MergeAdditionalDeviceSettings(unsigned int, std::string)
+ t CSettingsManager::MergeAdditionalDeviceSettings(unsigned int, std::string) [clone .cold]
+ t CSettingsManager::ParseSettingsFromString(std::string const&, std::string const&, Json::Value&)
+ t CSettingsManager::ParseSettingsFromString(std::string const&, std::string const&, Json::Value&) [clone .cold]
+ t CSettingsManager::PopulateSettingsFromJson(Json::Value&, bool)
+ t CSettingsManager::PopulateSettingsFromJson(Json::Value&, bool) [clone .cold]
+ t CSettingsManager::ReadRawUserSettingsFileToString(std::string const&, std::string const&)
+ t CSettingsManager::ReadRawUserSettingsFileToString(std::string const&, std::string const&) [clone .cold]
+ t CSettingsManager::RemoveKeyInSection(char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::RemoveKeyInSection(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::RemoveSection(char const*, vr::EVRSettingsError*)
+ t CSettingsManager::RemoveSection(char const*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::SetBool(char const*, char const*, bool, vr::EVRSettingsError*)
+ t CSettingsManager::SetFloat(char const*, char const*, float, vr::EVRSettingsError*)
+ t CSettingsManager::SetInt32(char const*, char const*, int, vr::EVRSettingsError*)
+ t CSettingsManager::SetNumeric(char const*, char const*, double, vr::EVRSettingsError*)
+ t CSettingsManager::SetString(char const*, char const*, char const*, vr::EVRSettingsError*)
+ t CSettingsManager::SetString(char const*, char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::ToJson(Json::Value&, bool)
+ t CSettingsManager::WriteToDiskIfNeeded(vr::EVRSettingsError*)
+ t CSettingsManager::WriteToDiskIfNeeded(vr::EVRSettingsError*) [clone .cold]
+ t CSettingsManager::~CSettingsManager()
+ t CSettingsValue::~CSettingsValue()
+ t CSharedResourceNamespaceClient::~CSharedResourceNamespaceClient()
+ t CSharedResourceNamespaceServer::Run()
+ t CSharedResourceNamespaceServer::~CSharedResourceNamespaceServer()
  t CSkeletonList::GetSkeletonDescription(ESkeletonID)
  t CSkeletonList::GetSkeletonDescription(char const*)
  t CSkeletonList::GetSkeletonDescription(unsigned long long)
@@ -5327,6 +6293,10 @@
  t CTrackedDeviceConfig::to_json() const
  t CTrackedDeviceConfig::to_json() const [clone .cold]
  t CTrackedDeviceConfig::~CTrackedDeviceConfig()
+ t CTrackedDeviceServerDriverAdapter::Create(void*, vr::IVRDriverContext*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CTrackedDeviceServerDriverAdapter::Create(void*, vr::IVRDriverContext*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&) [clone .cold]
+ t CTrackedDeviceServerDriverAdapter::LegacyGetDeviceInfo(std::string*, vr::ETrackedDeviceClass*)
+ t CTrackedDeviceServerDriverAdapter::ReadAllProperties()
  t CTransform::CTransform(vr::VRBoneTransform_t const&)
  t CTransform::ToBoneTransform() const
  t CTwoBoneIKPoseOperation::Evaluate(CPoseUpdateContext&, CTwoBoneIKPoseOperation::OpSettings const*)
@@ -5371,6 +6341,200 @@
  t CVRAudioDevices::UnwatchDeviceVolumeMute(std::string const&, IVRAudioVolumeNotification*)
  t CVRAudioDevices::WatchDeviceVolumeMute(std::string const&, IVRAudioVolumeNotification*)
  t CVRAudioDevices::~CVRAudioDevices()
+ t CVRCameraComponentAdapter* CVRCameraComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRCameraComponentAdapter* CVRCameraComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRCameraComponent_001::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
+ t CVRCameraComponent_001::GetCameraDistortion(float, float, float*, float*)
+ t CVRCameraComponent_001::GetCameraFirmwareDescription(char*, unsigned int)
+ t CVRCameraComponent_001::GetCameraFirmwareVersion(unsigned long long*)
+ t CVRCameraComponent_001::GetCameraFrameBounds(vr::EVRTrackedCameraFrameType, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CVRCameraComponent_001::GetCameraFrameBufferingRequirements(int*, unsigned int*)
+ t CVRCameraComponent_001::GetCameraFrameDimensions(vr::ECameraVideoStreamFormat, unsigned int*, unsigned int*)
+ t CVRCameraComponent_001::GetCameraIntrinsics(vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*)
+ t CVRCameraComponent_001::GetCameraProjection(float, float, float, float, vr::HmdMatrix44_t*)
+ t CVRCameraComponent_001::GetCameraVideoStreamFormat()
+ t CVRCameraComponent_001::GetRecommendedCameraUndistortion(unsigned int*, unsigned int*)
+ t CVRCameraComponent_001::GetVideoStreamElapsedTime()
+ t CVRCameraComponent_001::GetVideoStreamFrame()
+ t CVRCameraComponent_001::HasCamera()
+ t CVRCameraComponent_001::IsVideoStreamActive()
+ t CVRCameraComponent_001::IsVideoStreamPaused()
+ t CVRCameraComponent_001::PauseVideoStream()
+ t CVRCameraComponent_001::ReleaseVideoStreamFrame(vr::CameraVideoStreamFrame_t const*)
+ t CVRCameraComponent_001::ResumeVideoStream()
+ t CVRCameraComponent_001::SetAutoExposure(bool)
+ t CVRCameraComponent_001::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
+ t CVRCameraComponent_001::SetCameraFrameBuffering(int, void**, unsigned int)
+ t CVRCameraComponent_001::SetCameraUndistortion(unsigned int, unsigned int)
+ t CVRCameraComponent_001::SetCameraVideoSinkCallback(vr::ICameraVideoSinkCallback*)
+ t CVRCameraComponent_001::SetCameraVideoStreamFormat(vr::ECameraVideoStreamFormat)
+ t CVRCameraComponent_001::SetFrameRate(int, int)
+ t CVRCameraComponent_001::StartVideoStream()
+ t CVRCameraComponent_001::StopVideoStream()
+ t CVRCameraComponent_001::~CVRCameraComponent_001()
+ t CVRCameraComponent_002::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
+ t CVRCameraComponent_002::GetCameraDistortion(unsigned int, float, float, float*, float*)
+ t CVRCameraComponent_002::GetCameraFrameBounds(vr::EVRTrackedCameraFrameType, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CVRCameraComponent_002::GetCameraFrameBufferingRequirements(int*, unsigned int*)
+ t CVRCameraComponent_002::GetCameraFrameDimensions(vr::ECameraVideoStreamFormat, unsigned int*, unsigned int*)
+ t CVRCameraComponent_002::GetCameraIntrinsics(unsigned int, vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*, vr::EVRDistortionFunctionType*, double*)
+ t CVRCameraComponent_002::GetCameraProjection(unsigned int, vr::EVRTrackedCameraFrameType, float, float, vr::HmdMatrix44_t*)
+ t CVRCameraComponent_002::GetCameraVideoStreamFormat()
+ t CVRCameraComponent_002::GetVideoStreamFrame()
+ t CVRCameraComponent_002::IsVideoStreamActive(bool*, float*)
+ t CVRCameraComponent_002::PauseVideoStream()
+ t CVRCameraComponent_002::ReleaseVideoStreamFrame(vr::CameraVideoStreamFrame_t const*)
+ t CVRCameraComponent_002::ResumeVideoStream()
+ t CVRCameraComponent_002::SetAutoExposure(bool)
+ t CVRCameraComponent_002::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
+ t CVRCameraComponent_002::SetCameraFrameBuffering(int, void**, unsigned int)
+ t CVRCameraComponent_002::SetCameraVideoSinkCallback(vr::ICameraVideoSinkCallback*)
+ t CVRCameraComponent_002::SetCameraVideoStreamFormat(vr::ECameraVideoStreamFormat)
+ t CVRCameraComponent_002::SetFrameRate(int, int)
+ t CVRCameraComponent_002::StartVideoStream()
+ t CVRCameraComponent_002::StopVideoStream()
+ t CVRCameraComponent_002::~CVRCameraComponent_002()
+ t CVRCameraComponent_Latest::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
+ t CVRCameraComponent_Latest::GetCameraDistortion(unsigned int, float, float, float*, float*)
+ t CVRCameraComponent_Latest::GetCameraFrameBounds(vr::EVRTrackedCameraFrameType, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CVRCameraComponent_Latest::GetCameraFrameBufferingRequirements(int*, unsigned int*)
+ t CVRCameraComponent_Latest::GetCameraFrameDimensions(vr::ECameraVideoStreamFormat, unsigned int*, unsigned int*)
+ t CVRCameraComponent_Latest::GetCameraIntrinsics(unsigned int, vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*, vr::EVRDistortionFunctionType*, double*)
+ t CVRCameraComponent_Latest::GetCameraProjection(unsigned int, vr::EVRTrackedCameraFrameType, float, float, vr::HmdMatrix44_t*)
+ t CVRCameraComponent_Latest::GetCameraVideoStreamFormat()
+ t CVRCameraComponent_Latest::GetVideoStreamFrame()
+ t CVRCameraComponent_Latest::IsVideoStreamActive(bool*, float*)
+ t CVRCameraComponent_Latest::PauseVideoStream()
+ t CVRCameraComponent_Latest::ReleaseVideoStreamFrame(vr::CameraVideoStreamFrame_t const*)
+ t CVRCameraComponent_Latest::ResumeVideoStream()
+ t CVRCameraComponent_Latest::SetAutoExposure(bool)
+ t CVRCameraComponent_Latest::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
+ t CVRCameraComponent_Latest::SetCameraFrameBuffering(int, void**, unsigned int)
+ t CVRCameraComponent_Latest::SetCameraVideoSinkCallback(vr::ICameraVideoSinkCallback*)
+ t CVRCameraComponent_Latest::SetCameraVideoStreamFormat(vr::ECameraVideoStreamFormat)
+ t CVRCameraComponent_Latest::SetFrameRate(int, int)
+ t CVRCameraComponent_Latest::StartVideoStream()
+ t CVRCameraComponent_Latest::StopVideoStream()
+ t CVRCameraComponent_Latest::~CVRCameraComponent_Latest()
+ t CVRControllerComponentAdapter* CVRControllerComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRControllerComponentAdapter* CVRControllerComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRControllerComponent_Latest::GetControllerState()
+ t CVRControllerComponent_Latest::TriggerHapticPulse(unsigned int, unsigned short)
+ t CVRControllerComponent_Latest::~CVRControllerComponent_Latest()
+ t CVRDisplayComponentAdapter* CVRDisplayComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRDisplayComponentAdapter* CVRDisplayComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRDisplayComponent_001::ComputeDistortion(vr::EVREye, float, float)
+ t CVRDisplayComponent_001::CreateSwapTextureSet(unsigned int, unsigned int, unsigned int, unsigned int, void* (*) [3])
+ t CVRDisplayComponent_001::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDisplayComponent_001::DestroySwapTextureSet(void*)
+ t CVRDisplayComponent_001::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_001::GetNextSwapTextureSetIndex(void**, unsigned int (*) [2])
+ t CVRDisplayComponent_001::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+ t CVRDisplayComponent_001::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t CVRDisplayComponent_001::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_001::IsDisplayOnDesktop()
+ t CVRDisplayComponent_001::IsDisplayRealDisplay()
+ t CVRDisplayComponent_001::Present(void*)
+ t CVRDisplayComponent_001::SubmitLayer(void**, vr::VRTextureBounds_t const (&) [2], vr::HmdMatrix34_t const*)
+ t CVRDisplayComponent_001::~CVRDisplayComponent_001()
+ t CVRDisplayComponent_002::ComputeDistortion(vr::EVREye, float, float)
+ t CVRDisplayComponent_002::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_002::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+ t CVRDisplayComponent_002::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t CVRDisplayComponent_002::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_002::IsDisplayOnDesktop()
+ t CVRDisplayComponent_002::IsDisplayRealDisplay()
+ t CVRDisplayComponent_002::~CVRDisplayComponent_002()
+ t CVRDisplayComponent_Latest::ComputeDistortion(vr::EVREye, float, float)
+ t CVRDisplayComponent_Latest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
+ t CVRDisplayComponent_Latest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_Latest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+ t CVRDisplayComponent_Latest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t CVRDisplayComponent_Latest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_Latest::IsDisplayOnDesktop()
+ t CVRDisplayComponent_Latest::IsDisplayRealDisplay()
+ t CVRDisplayComponent_Latest::~CVRDisplayComponent_Latest()
+ t CVRDriverDirectModeComponentAdapter* CVRDriverDirectModeComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRDriverDirectModeComponentAdapter* CVRDriverDirectModeComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRDriverDirectModeComponentAdapter* CreateLatestAdapter<CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponentAdapter, CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&, char const*, char const*)
+ t CVRDriverDirectModeComponentAdapter* CreateLatestAdapter<CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponentAdapter, vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&, char const*, char const*)
+ t CVRDriverDirectModeComponentAdapter::~CVRDriverDirectModeComponentAdapter()
+ t CVRDriverDirectModeComponent_001::CreateSwapTextureSet(unsigned int, unsigned int, unsigned int, unsigned int, void* (*) [3])
+ t CVRDriverDirectModeComponent_001::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_001::DestroySwapTextureSet(void*)
+ t CVRDriverDirectModeComponent_001::GetNextSwapTextureSetIndex(void**, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_001::Present(void*)
+ t CVRDriverDirectModeComponent_001::SubmitLayer(void**, vr::VRTextureBounds_t const (&) [2], vr::HmdMatrix34_t const*)
+ t CVRDriverDirectModeComponent_001::~CVRDriverDirectModeComponent_001()
+ t CVRDriverDirectModeComponent_002::CreateSwapTextureSet(unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long (*) [3])
+ t CVRDriverDirectModeComponent_002::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_002::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_002::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_002::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_002::SubmitLayer(unsigned long long*, vr::VRTextureBounds_t const (&) [2], vr::HmdMatrix34_t const*)
+ t CVRDriverDirectModeComponent_002::~CVRDriverDirectModeComponent_002()
+ t CVRDriverDirectModeComponent_003::CreateSwapTextureSet(unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long (*) [3])
+ t CVRDriverDirectModeComponent_003::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_003::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_003::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_003::PostPresent()
+ t CVRDriverDirectModeComponent_003::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_003::SubmitLayer(unsigned long long*, vr::VRTextureBounds_t const (&) [2], vr::HmdMatrix34_t const*)
+ t CVRDriverDirectModeComponent_003::~CVRDriverDirectModeComponent_003()
+ t CVRDriverDirectModeComponent_004::CreateSwapTextureSet(unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long (*) [3])
+ t CVRDriverDirectModeComponent_004::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_004::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_004::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t CVRDriverDirectModeComponent_004::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_004::PostPresent()
+ t CVRDriverDirectModeComponent_004::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_004::SubmitLayer(unsigned long long*, vr::VRTextureBounds_t const (&) [2], vr::HmdMatrix34_t const*)
+ t CVRDriverDirectModeComponent_004::~CVRDriverDirectModeComponent_004()
+ t CVRDriverDirectModeComponent_005::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, unsigned long long (*) [3])
+ t CVRDriverDirectModeComponent_005::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_005::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_005::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t CVRDriverDirectModeComponent_005::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_005::PostPresent()
+ t CVRDriverDirectModeComponent_005::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_005::SubmitLayer(IVRDriverDirectModeComponent_005::SubmitLayerPerEye_t const (&) [2], vr::HmdMatrix34_t const*)
+ t CVRDriverDirectModeComponent_005::~CVRDriverDirectModeComponent_005()
+ t CVRDriverDirectModeComponent_006::CreateSwapTextureSet(unsigned int, IVRDriverDirectModeComponent_006::SwapTextureSetDesc_t const*, unsigned long long (*) [3])
+ t CVRDriverDirectModeComponent_006::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_006::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_006::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t CVRDriverDirectModeComponent_006::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_006::PostPresent()
+ t CVRDriverDirectModeComponent_006::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_006::SubmitLayer(IVRDriverDirectModeComponent_006::SubmitLayerPerEye_t const (&) [2])
+ t CVRDriverDirectModeComponent_006::~CVRDriverDirectModeComponent_006()
+ t CVRDriverDirectModeComponent_007::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t CVRDriverDirectModeComponent_007::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_007::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_007::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t CVRDriverDirectModeComponent_007::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_007::PostPresent()
+ t CVRDriverDirectModeComponent_007::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_007::SubmitLayer(IVRDriverDirectModeComponent_006::SubmitLayerPerEye_t const (&) [2])
+ t CVRDriverDirectModeComponent_007::~CVRDriverDirectModeComponent_007()
+ t CVRDriverDirectModeComponent_008::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t CVRDriverDirectModeComponent_008::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_008::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_008::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t CVRDriverDirectModeComponent_008::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_008::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+ t CVRDriverDirectModeComponent_008::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_008::SubmitLayer(IVRDriverDirectModeComponent_006::SubmitLayerPerEye_t const (&) [2])
+ t CVRDriverDirectModeComponent_008::~CVRDriverDirectModeComponent_008()
+ t CVRDriverDirectModeComponent_Latest::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t CVRDriverDirectModeComponent_Latest::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_Latest::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_Latest::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t CVRDriverDirectModeComponent_Latest::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_Latest::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+ t CVRDriverDirectModeComponent_Latest::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_Latest::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
+ t CVRDriverDirectModeComponent_Latest::~CVRDriverDirectModeComponent_Latest()
  t CVRLog::AddLogListener(ILogListener*)
  t CVRLog::AddLogListener(ILogListener*) [clone .cold]
  t CVRLog::CVRLog(bool)
@@ -5466,6 +6630,54 @@
  t CVRReplyMailbox::SendMailboxMessageAndWaitForResponse(std::string const&, Json::Value&&, std::string const&, Json::Value*)
  t CVRReplyMailbox::SendMailboxMessageAndWaitForResponse(std::string const&, Json::Value&&, std::string const&, Json::Value*) [clone .cold]
  t CVRReplyMailbox::~CVRReplyMailbox()
+ t CVRSharedState::BInit(CVRSharedState::SharedStatePermissions, unsigned int, std::string const&, std::string const&, bool)
+ t CVRSharedState::BOpen(CVRSharedState::SharedStatePermissions, unsigned int, std::string const&, IPC::CIPCHandle const (&) [2], bool)
+ t CVRSharedState::Cleanup()
+ t CVRSharedState::GetSharedStatePointer()
+ t CVRSharedState::InitForExport(IPC::CIPCHandle (&) [2], unsigned int)
+ t CVRSharedState::IsValid() const
+ t CVRSharedState::LockSharedMem()
+ t CVRSharedState::UnlockSharedMem()
+ t CVRSharedStatePtrBase::CVRSharedStatePtrBase(CVRSharedState const*)
+ t CVRSharedStatePtrBase::CVRSharedStatePtrBase(CVRSharedState*)
+ t CVRSharedStatePtrBase::DoLock()
+ t CVRSharedStatePtrBase::GetSharedStatePointer()
+ t CVRSharedStatePtrBase::~CVRSharedStatePtrBase()
+ t CVRTrackedDevice_004::Activate(unsigned int)
+ t CVRTrackedDevice_004::CopyPropertiesToPropertyManager()
+ t CVRTrackedDevice_004::Deactivate()
+ t CVRTrackedDevice_004::DebugRequest(char const*, char*, unsigned int)
+ t CVRTrackedDevice_004::EnterStandby()
+ t CVRTrackedDevice_004::GetBoolTrackedDeviceProperty(vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+ t CVRTrackedDevice_004::GetComponent(char const*)
+ t CVRTrackedDevice_004::GetFloatTrackedDeviceProperty(vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+ t CVRTrackedDevice_004::GetInt32TrackedDeviceProperty(vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+ t CVRTrackedDevice_004::GetMatrix34TrackedDeviceProperty(vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+ t CVRTrackedDevice_004::GetNativeDevice()
+ t CVRTrackedDevice_004::GetPose()
+ t CVRTrackedDevice_004::GetStringTrackedDeviceProperty(vr::ETrackedDeviceProperty, char*, unsigned int, vr::ETrackedPropertyError*)
+ t CVRTrackedDevice_004::GetUint64TrackedDeviceProperty(vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+ t CVRTrackedDevice_004::LegacyGetDeviceInfo(std::string*, vr::ETrackedDeviceClass*)
+ t CVRTrackedDevice_004::~CVRTrackedDevice_004()
+ t CVRTrackedDevice_Latest::Activate(unsigned int)
+ t CVRTrackedDevice_Latest::Deactivate()
+ t CVRTrackedDevice_Latest::DebugRequest(char const*, char*, unsigned int)
+ t CVRTrackedDevice_Latest::EnterStandby()
+ t CVRTrackedDevice_Latest::GetComponent(char const*)
+ t CVRTrackedDevice_Latest::GetNativeDevice()
+ t CVRTrackedDevice_Latest::GetPose()
+ t CVRTrackedDevice_Latest::LegacyGetDeviceInfo(std::string*, vr::ETrackedDeviceClass*)
+ t CVRTrackedDevice_Latest::~CVRTrackedDevice_Latest()
+ t CVRVirtualDisplayComponentAdapter* CVRVirtualDisplayComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRVirtualDisplayComponentAdapter* CVRVirtualDisplayComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRVirtualDisplayComponent_001::GetTimeSinceLastVsync(float*, unsigned long long*)
+ t CVRVirtualDisplayComponent_001::Present(unsigned long long)
+ t CVRVirtualDisplayComponent_001::WaitForPresent()
+ t CVRVirtualDisplayComponent_001::~CVRVirtualDisplayComponent_001()
+ t CVRVirtualDisplayComponent_Latest::GetTimeSinceLastVsync(float*, unsigned long long*)
+ t CVRVirtualDisplayComponent_Latest::Present(vr::PresentInfo_t const*, unsigned int)
+ t CVRVirtualDisplayComponent_Latest::WaitForPresent()
+ t CVRVirtualDisplayComponent_Latest::~CVRVirtualDisplayComponent_Latest()
  t CVrcDecodeTagged::Decode(unsigned char, unsigned char const*, int)
  t CVrcDecodeTagged::DecodeSensorHits(unsigned char const*, int)
  t CVrcDecodeTagged::DecodeSensorHits(unsigned char const*, int) [clone .cold]
@@ -5492,6 +6704,10 @@
  t CWatchdogDriver_Lighthouse::UsbDeviceAttached()
  t CWatchdogDriver_Lighthouse::UsbDeviceAttached() [clone .cold]
  t CWatchdogDriver_Lighthouse::~CWatchdogDriver_Lighthouse()
+ t CWatchdogTrackedDeviceProvider_Latest::Cleanup()
+ t CWatchdogTrackedDeviceProvider_Latest::GetSourceVersion()
+ t CWatchdogTrackedDeviceProvider_Latest::Init(vr::IVRDriverContext*)
+ t CWatchdogTrackedDeviceProvider_Latest::~CWatchdogTrackedDeviceProvider_Latest()
  t CWirelessConnectionMonitor::OnUnhandledData(vortex::CLighthouseIMUThread::IMonitorCallback::Unhandled)
  t CWirelessConnectionMonitor::~CWirelessConnectionMonitor()
  t CWirelessDecoder::GetControllerSubprotocolVersion() const
@@ -5522,13 +6738,19 @@
  t ClampImage(ImageView_s const&, int, unsigned char, unsigned char)
  t CleanupDriverLog()
  t CleanupInternalInterfaces()
+ t CleanupSharedResourceNamespace()
  t CloseLog()
  t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
  t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t CompareSerialNumbers(wchar_t const*, wchar_t const*)
+ t ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>::CreateAdapter(void*, std::string const&)
+ t ComputePaddedSize(unsigned int)
+ t CreateCompositorDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
+ t CreateServerDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
  t CreateSimpleProcess
  t CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
  t CreateUserDataImageBuilder()
+ t CreateWatchdogDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
  t CropImage(ImageView_s const&, int)
  t DXGI2::CreateDisplaySwapChain(void*, void*, unsigned int, void**)
  t DXGI2::FindHiddenDisplay(int, void**)
@@ -5561,6 +6783,7 @@
  t Distortion_Model::to_json() const
  t Distortion_Model::to_json() const [clone .cold]
  t Distortion_TypeFromName(char const*)
+ t DriverCompare(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)
  t DriverLog(char const*, ...)
  t DriverLogString(char const*)
  t DriverLogVarArgs(char const*, char*)
@@ -5653,6 +6876,9 @@
  t EyeFromName(char const*)
  t FileSelect(dirent const*)
  t FillDataStruct(_finddata_t*)
+ t FillPipeAddr(sockaddr_un&, std::string)
+ t FillPipeAddr(sockaddr_un&, std::string) [clone .cold]
+ t FindBestInterfaceMatch(char const*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
  t FindLanguageTag(Json::Value const&, std::string const&)
  t FindLanguageTag(Json::Value const&, std::string const&) [clone .cold]
  t FindUserDataByName(unsigned char const*, unsigned int, char const*, int*)
@@ -5672,20 +6898,57 @@
  t GetFilenameTimeString()
  t GetGMUnixTime()
  t GetGMUnixTimeAtNextLocalTime(unsigned long long, int, int, int)
+ t GetHmdErrorPriority(vr::EVRInitError)
  t GetIDForVRInitError(vr::EVRInitError)
  t GetIndexPastAccumulatedFraction(Histogram_s const&, float)
+ t GetInputValueVisibilityFromString(char const*)
  t GetModuleRelativeRuntimeDir()
  t GetModuleRelativeRuntimeDir() [clone .cold]
+ t GetNamespacingUid()
+ t GetNamespacingUid() [clone .cold]
  t GetNextEventId()
  t GetResourceBaseDir()
  t GetResourceBaseDir() [clone .cold]
+ t GetSharedResourceNamespace()
+ t GetSharedResourceNamespace() [clone .cold]
  t GetSteamLanguage(ISteamUtils*)
+ t GetStringForCompositorError(vr::EVRCompositorError)
+ t GetStringForInputActionType(EInputActionType)
+ t GetStringForInputValueType(EInputValueType)
+ t GetStringForInputValueVisibility(EInputValueVisibility)
+ t GetStringForPropertyError(vr::ETrackedPropertyError)
+ t GetStringForPropertyTypeTag(unsigned int)
+ t GetStringForRenderModelError(vr::EVRRenderModelError)
+ t GetStringForScalarType(vr::EVRScalarType)
+ t GetStringForScalarUnits(vr::EVRScalarUnits)
+ t GetStringForSceneApplicationState(vr::EVRSceneApplicationState)
+ t GetStringForTrackedControllerRole(vr::ETrackedControllerRole)
+ t GetStringForTrackedDeviceClass(vr::ETrackedDeviceClass)
+ t GetStringForTrackedDeviceProperty(vr::ETrackedDeviceProperty)
+ t GetStringForTrackerRole(ETrackerRole)
+ t GetStringForVRApplicationType(vr::EVRApplicationType)
+ t GetStringForVRApplicationsError(vr::EVRApplicationError)
+ t GetStringForVRButtonId(vr::EVRButtonId)
+ t GetStringForVRControllerAxisType(vr::EVRControllerAxisType)
+ t GetStringForVREventType(vr::EVREventType)
+ t GetStringForVRInputError(vr::EVRInputError)
+ t GetStringForVRMsgType(VRMsgType)
+ t GetStringForVRNotificationError(vr::EVRNotificationError)
+ t GetStringForVROverlayError(vr::EVROverlayError)
+ t GetStringForVROverlayFlags(vr::VROverlayFlags)
+ t GetStringForVRSettingsError(vr::EVRSettingsError)
+ t GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)
  t GetSystemBaseTicks()
  t GetSystemTicksFromTime(double)
  t GetSystemTime()
  t GetSystemTimeFrequency()
  t GetSystemTimeFromTicks(unsigned long long)
  t GetSystemTimeInTicks()
+ t GetTrackedControllerRoleFromString(char const*)
+ t GetTrackedDeviceClassFromString(char const*)
+ t GetTrackedDeviceProperties()
+ t GetTrackedDeviceProperties() [clone .cold]
+ t GetTrackerRoleFromString(std::string const&)
  t GetUserDataHeader(unsigned char const*, unsigned int, int*, unsigned int*, unsigned int*)
  t GetUserDataHeaderPrefix(unsigned int*, unsigned int*)
  t GetUserDocumentsPath()
@@ -5710,7 +6973,48 @@
  t ICeresFunctor<double>* CeresFunctorFactory<double, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0>::Dispatch<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<-1, 0> >::_Create<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel*&, vortex::CLighthouseBaseConfig const*&, int const&, double&>(vortex::CLighthouseModel*&, vortex::CLighthouseBaseConfig const*&, int const&, double&)
  t ICeresFunctor<double>* CeresFunctorFactory<double, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0>::Dispatch<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<-1, 0> >::_Create<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel*&, vortex::CLighthouseBaseConfig const*&, int const&, double&>(vortex::CLighthouseModel*&, vortex::CLighthouseBaseConfig const*&, int const&, double&)
  t ICeresFunctor<double>* CeresFunctorFactory<double, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0>::Dispatch<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits>::CSensorPositionAngular<-1, 0>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<-1, 0> >::_Create<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits>::CSensorPositionAngular<0, -1>, vortex::CLighthouseModel*&, vortex::CLighthouseBaseConfig const*&, int const&, double&>(vortex::CLighthouseModel*&, vortex::CLighthouseBaseConfig const*&, int const&, double&)
+ t IPC::CIPCHandle::Import() const
+ t IPC::CIPCHandle::InitForExport(IPC::TSharedHandleBase<int, -1>, unsigned int)
+ t IPC::CreateEvent(char const*, bool, bool, bool*, bool)
+ t IPC::CreateEventWithNamespace(std::string const&, bool, bool, bool*)
+ t IPC::CreateEventWithNamespace(std::string const&, bool, bool, bool*) [clone .cold]
+ t IPC::CreateMutex(char const*, bool, bool*, bool)
+ t IPC::CreateMutexWithNamespace(std::string const&, bool, bool*)
+ t IPC::CreateMutexWithNamespace(std::string const&, bool, bool*) [clone .cold]
+ t IPC::CreateSharedMem(char const*, unsigned int, IPC::ISharedMem::Access, bool*, bool)
+ t IPC::CreateSharedMemWithNamespace(std::string const&, unsigned int, IPC::ISharedMem::Access, bool*)
+ t IPC::CreateSharedMemWithNamespace(std::string const&, unsigned int, IPC::ISharedMem::Access, bool*) [clone .cold]
+ t IPC::ISharedMem::GetOpaque() const
+ t IPC::ISyncObject::GetOpaque() const
+ t IPC::InitializeSharedObjectManager()
+ t IPC::LinuxSharedFd::Init(unsigned long long)
+ t IPC::LinuxSharedFd::SendTrampoline(void*)
+ t IPC::PosixSharedMemory::Destroy()
+ t IPC::PosixSharedMemory::IsValid() const
+ t IPC::PosixSharedMemory::Pointer() const
+ t IPC::PosixSharedMemory::~PosixSharedMemory()
+ t IPC::PurgeAllDead()
+ t IPC::PurgeCurrentProcess()
+ t IPC::ReceiveSharedFd(unsigned long long, int&)
+ t IPC::SendSharedFd(int, unsigned long long&)
+ t IPC::SendSharedFd(int, unsigned long long&) [clone .cold]
+ t IPC::SharedObjMgr()
+ t IPC::SharedObjectEvent::Destroy()
+ t IPC::SharedObjectEvent::ResetEvent()
+ t IPC::SharedObjectEvent::SetEvent()
+ t IPC::SharedObjectEvent::Wait(unsigned int)
+ t IPC::SharedObjectEvent::~SharedObjectEvent()
+ t IPC::SharedObjectManager::Init(bool)
+ t IPC::SharedObjectManager::~SharedObjectManager()
+ t IPC::SharedObjectMutex::Destroy()
+ t IPC::SharedObjectMutex::Release()
+ t IPC::SharedObjectMutex::Wait(unsigned int)
+ t IPC::SharedObjectMutex::~SharedObjectMutex()
+ t IPC::WaitMultiple(unsigned int, unsigned int, IPC::ISyncObject*, ...)
  t IVRAudioDevices::CVRAudioDeviceInfo::~CVRAudioDeviceInfo()
+ t IVRCameraComponent002::GetCameraDistortion(float, float, float*, float*)
+ t IVRCameraComponent002::GetCameraIntrinsics(vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*)
+ t IVRCameraComponent002::GetCameraProjection(vr::EVRTrackedCameraFrameType, float, float, vr::HmdMatrix44_t*)
  t InitCameraHAL.cold
  t InitDriverLog(vr::IVRDriverLog*)
  t InitDriverLog(vr::IVRDriverLog*) [clone .cold]
@@ -5724,11 +7028,18 @@
  t InitInternalInterfacesNonStandard(void* (*)(char const*)) [clone .cold]
  t InitLog(char const*, char const*)
  t InitMainThread()
+ t InitSharedResourceNamespace()
+ t InitSharedResourceNamespace() [clone .cold]
+ t InitSharedResourceNamespaceAsWatchdog()
+ t InitSharedResourceNamespaceAsWatchdog() [clone .cold]
+ t InitSharedResourceNamespaceForTest()
  t InitSystemBaseTimeTicks(unsigned long long)
  t InitSystemTime(unsigned long long) [clone .part.0]
+ t InterfaceStringMatchesPrefixAndVersion(std::string const&, std::string const&, int)
  t IpAndPortToString(unsigned int, unsigned short)
  t IpToString(unsigned int)
  t IsDriverLogActive()
+ t IsExtendedStorage(PropertyTableEntry_t const*, unsigned int*, unsigned int*, unsigned int*)
  t IsOnLaptop()
  t IsOnMainBranch()
  t IsPosix()
@@ -5737,6 +7048,9 @@
  t IsRunningFromPerforce() [clone .cold]
  t IsRunningInAppContainer()
  t IsRunningInAppContainer() [clone .cold]
+ t IsSteamStreamingLaunch()
+ t IsSteamStreamingLaunch() [clone .cold]
+ t IsValidApplicationPropertyError(vr::ETrackedPropertyError)
  t IsWorkstationLocked()
  t Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
  t Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -6165,6 +7479,8 @@
  t Json::valueToString(unsigned long long)
  t Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
  t Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
+ t LfMutexLockRobust(LfMutex*, timespec const*)
+ t LfMutexUnlockRobust(LfMutex*)
  t LiquidVR::BCanRunDirectModeBasedOnDriverVersion(unsigned int, unsigned int)
  t LiquidVR::BCanRunVulkanBasedOnDriverVersion()
  t LiquidVR::CVcetMotionEstimator::~CVcetMotionEstimator()
@@ -6385,15 +7701,22 @@
  t RepairUTF8(std::string const&, std::string&)
  t ReplaceSubstr(std::string&, std::string const&, std::string const&)
  t ReturnStdString(std::string const&, char*, unsigned int)
+ t RoundExtendedStorage(unsigned int)
  t SDLDynamic()
  t SDLDynamic() [clone .cold]
  t SanityCheckUserDataHeader(int*, unsigned char const*, unsigned int)
  t SecondsToSystemTicks(double)
  t SetCurrentProcessExplicitAppUserModelID()
  t SetEnvironmentVariable(char const*, char const*)
+ t SetExtendedStorage(PropertyTableEntry_t*, unsigned int, unsigned int, unsigned int)
+ t SetInitErrorIfHigherPriority(vr::EVRInitError*, int*, vr::EVRInitError)
  t SetMaxLogLevel(ELogLevel)
  t SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned int)
  t SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned int) [clone .cold]
+ t SettingsIdToEvent(ESettingsSectionId)
+ t SettingsIdToSectionName(ESettingsSectionId)
+ t SettingsSectionNameToId(char const*)
+ t SettingsSectionNameToId(char const*) [clone .part.0]
  t SharedLib_GetFunction(void*, char const*)
  t SharedLib_Load(char const*, std::string*)
  t SharedLib_Unload(void*)
@@ -6643,6 +7966,7 @@
  t WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool) [clone .cold]
  t WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&)
  t WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&) [clone .cold]
+ t _GLOBAL__sub_I.00101_ipcposix.cpp
  t _GLOBAL__sub_I_addposeoperation.cpp
  t _GLOBAL__sub_I_aitcam_linux.cpp
  t _GLOBAL__sub_I_aitcamera.cpp
@@ -6676,6 +8000,7 @@
  t _GLOBAL__sub_I_disambiguation_tdm.cpp
  t _GLOBAL__sub_I_driver_lighthouse.cpp
  t _GLOBAL__sub_I_driverlog.cpp
+ t _GLOBAL__sub_I_drivermanager.cpp
  t _GLOBAL__sub_I_dynamic_message.cc
  t _GLOBAL__sub_I_eh_alloc.cc
  t _GLOBAL__sub_I_etroncamera.cpp
@@ -6690,8 +8015,10 @@
  t _GLOBAL__sub_I_hiddenarea.cpp
  t _GLOBAL__sub_I_hiddevice.cpp
  t _GLOBAL__sub_I_hmddisplay.cpp
+ t _GLOBAL__sub_I_hmderrors.cpp
  t _GLOBAL__sub_I_htchmdusb.cpp
  t _GLOBAL__sub_I_imu_only_tracker.cpp
+ t _GLOBAL__sub_I_ipcpipe.cpp
  t _GLOBAL__sub_I_keyframeddataresource.cpp
  t _GLOBAL__sub_I_keyframeddataresource.cpp.cold
  t _GLOBAL__sub_I_keyframesamplerposeoperation.cpp
@@ -6727,10 +8054,13 @@
  t _GLOBAL__sub_I_openvr_internal.cpp
  t _GLOBAL__sub_I_poserecipe.cpp
  t _GLOBAL__sub_I_poseupdatecontext.cpp
+ t _GLOBAL__sub_I_propertymanager.cpp
  t _GLOBAL__sub_I_quaternionaligned.cpp
  t _GLOBAL__sub_I_reflection.cpp
  t _GLOBAL__sub_I_reflection_ops.cc
  t _GLOBAL__sub_I_repeated_field.cc
+ t _GLOBAL__sub_I_settingsmanager.cpp
+ t _GLOBAL__sub_I_sharedresourcenamespace.cpp
  t _GLOBAL__sub_I_skeletonlist.cpp
  t _GLOBAL__sub_I_stringprintf.cc
  t _GLOBAL__sub_I_strtod.cc
@@ -6750,6 +8080,7 @@
  t _GLOBAL__sub_I_threadwatchdog_server.cpp
  t _GLOBAL__sub_I_tiny_gltf.cpp
  t _GLOBAL__sub_I_tokenizer.cc
+ t _GLOBAL__sub_I_trackeddeviceadapters.cpp
  t _GLOBAL__sub_I_transform.cpp
  t _GLOBAL__sub_I_twoboneikposeoperation.cpp
  t _GLOBAL__sub_I_unknown_field_set.cc
@@ -6946,6 +8277,9 @@
  t base_of_encoded_value(unsigned char, _Unwind_Context*)
  t base_of_encoded_value(unsigned char, _Unwind_Context*) [clone .cold]
  t base_of_encoded_value.cold
+ t bool CSettingsValue::Set<bool>(bool const&)
+ t bool CSettingsValue::Set<double>(double const&)
+ t bool CSettingsValue::Set<std::string>(std::string const&)
  t bool __gnu_cxx::operator==<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
  t bool __gnu_cxx::operator==<char const*, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string> const&, __gnu_cxx::__normal_iterator<char const*, std::string> const&)
  t bool __gnu_cxx::operator==<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
@@ -6954,6 +8288,7 @@
  t bool __gnu_cxx::operator==<wchar_t const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >(__gnu_cxx::__normal_iterator<wchar_t const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&, __gnu_cxx::__normal_iterator<wchar_t const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&)
  t bool __gnu_cxx::operator==<wchar_t*, std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >(__gnu_cxx::__normal_iterator<wchar_t*, std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&, __gnu_cxx::__normal_iterator<wchar_t*, std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&)
  t bool __gnu_cxx::operator==<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >(__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&, __gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&)
+ t bool const& CSettingsValue::Get<bool>() const
  t bool nlohmann::detail::parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >::sax_parse_internal<nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >(nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >*)
  t bool nlohmann::detail::parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >::sax_parse_internal<nlohmann::detail::json_sax_dom_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >(nlohmann::detail::json_sax_dom_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >*)
  t bool std::(anonymous namespace)::read_bom<char const, true, 3u>(std::(anonymous namespace)::range<char const, true>&, unsigned char const (&) [3u]) [clone .constprop.0]
@@ -7204,6 +8539,8 @@
  t double Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 0, -1, -1> const, 1, -1, false> const> const, Eigen::Block<Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> > const, -1, 1, true> const> >::redux<Eigen::internal::scalar_sum_op<double, double> >(Eigen::internal::scalar_sum_op<double, double> const&) const
  t double Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 0, -1, -1> const, 1, -1, false> const> const, Eigen::Block<Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> > const, -1, 1, true> const> >::redux<Eigen::internal::scalar_sum_op<double, double> >(Eigen::internal::scalar_sum_op<double, double> const&) const
  t double Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, Eigen::Transpose<Eigen::Block<Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> > const, 1, -1, false> const> const, Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, -1, 1, false> const> >::redux<Eigen::internal::scalar_sum_op<double, double> >(Eigen::internal::scalar_sum_op<double, double> const&) const
+ t double const& CSettingsManager::GetValue<double>(char const*, char const*, vr::EVRSettingsError*)
+ t double const& CSettingsValue::Get<double>() const
  t double distort_math::bspline::BSplineEval<double, double>(double const*, int, double)
  t double vortex::lighthouse::UnwrapAngle<double>(double const&)
  t double& std::vector<double, std::allocator<double> >::emplace_back<double>(double&&)
@@ -8077,6 +9414,147 @@
  t non-virtual thunk to CLighthouseHmdProvider::DBBaseDeviceAdded(unsigned int)
  t non-virtual thunk to CLighthouseHmdProvider::DBUniverseSelected(unsigned long long)
  t non-virtual thunk to CLighthouseHmdProvider::UsbDeviceAttached()
+ t non-virtual thunk to CPropertyManager::CreateFixedSizeContainerForRead(unsigned long long*, void const*, unsigned int)
+ t non-virtual thunk to CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long long*, void*, unsigned int)
+ t non-virtual thunk to CPropertyManager::CreatePropertyContainer(unsigned long long)
+ t non-virtual thunk to CPropertyManager::DestroyPropertyContainer(unsigned long long)
+ t non-virtual thunk to CPropertyManager::ReleaseFixedSizeContainer(unsigned long long)
+ t non-virtual thunk to CSettingsManager::GetKeysInSection(char const*, std::vector<std::string, std::allocator<std::string> >*, vr::EVRSettingsError*)
+ t non-virtual thunk to CSettingsManager::GetNumeric(char const*, char const*, vr::EVRSettingsError*)
+ t non-virtual thunk to CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*)
+ t non-virtual thunk to CSettingsManager::SetNumeric(char const*, char const*, double, vr::EVRSettingsError*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraDistortion(unsigned int, float, float, float*, float*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraFrameBounds(vr::EVRTrackedCameraFrameType, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraFrameBufferingRequirements(int*, unsigned int*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraFrameDimensions(vr::ECameraVideoStreamFormat, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraIntrinsics(unsigned int, vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*, vr::EVRDistortionFunctionType*, double*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraProjection(unsigned int, vr::EVRTrackedCameraFrameType, float, float, vr::HmdMatrix44_t*)
+ t non-virtual thunk to CVRCameraComponent_002::GetCameraVideoStreamFormat()
+ t non-virtual thunk to CVRCameraComponent_002::GetVideoStreamFrame()
+ t non-virtual thunk to CVRCameraComponent_002::IsVideoStreamActive(bool*, float*)
+ t non-virtual thunk to CVRCameraComponent_002::PauseVideoStream()
+ t non-virtual thunk to CVRCameraComponent_002::ReleaseVideoStreamFrame(vr::CameraVideoStreamFrame_t const*)
+ t non-virtual thunk to CVRCameraComponent_002::ResumeVideoStream()
+ t non-virtual thunk to CVRCameraComponent_002::SetAutoExposure(bool)
+ t non-virtual thunk to CVRCameraComponent_002::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
+ t non-virtual thunk to CVRCameraComponent_002::SetCameraFrameBuffering(int, void**, unsigned int)
+ t non-virtual thunk to CVRCameraComponent_002::SetCameraVideoSinkCallback(vr::ICameraVideoSinkCallback*)
+ t non-virtual thunk to CVRCameraComponent_002::SetCameraVideoStreamFormat(vr::ECameraVideoStreamFormat)
+ t non-virtual thunk to CVRCameraComponent_002::SetFrameRate(int, int)
+ t non-virtual thunk to CVRCameraComponent_002::StartVideoStream()
+ t non-virtual thunk to CVRCameraComponent_002::StopVideoStream()
+ t non-virtual thunk to CVRCameraComponent_002::~CVRCameraComponent_002()
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraDistortion(unsigned int, float, float, float*, float*)
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraFrameBounds(vr::EVRTrackedCameraFrameType, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraFrameBufferingRequirements(int*, unsigned int*)
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraFrameDimensions(vr::ECameraVideoStreamFormat, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraIntrinsics(unsigned int, vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*, vr::EVRDistortionFunctionType*, double*)
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraProjection(unsigned int, vr::EVRTrackedCameraFrameType, float, float, vr::HmdMatrix44_t*)
+ t non-virtual thunk to CVRCameraComponent_Latest::GetCameraVideoStreamFormat()
+ t non-virtual thunk to CVRCameraComponent_Latest::GetVideoStreamFrame()
+ t non-virtual thunk to CVRCameraComponent_Latest::IsVideoStreamActive(bool*, float*)
+ t non-virtual thunk to CVRCameraComponent_Latest::PauseVideoStream()
+ t non-virtual thunk to CVRCameraComponent_Latest::ReleaseVideoStreamFrame(vr::CameraVideoStreamFrame_t const*)
+ t non-virtual thunk to CVRCameraComponent_Latest::ResumeVideoStream()
+ t non-virtual thunk to CVRCameraComponent_Latest::SetAutoExposure(bool)
+ t non-virtual thunk to CVRCameraComponent_Latest::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
+ t non-virtual thunk to CVRCameraComponent_Latest::SetCameraFrameBuffering(int, void**, unsigned int)
+ t non-virtual thunk to CVRCameraComponent_Latest::SetCameraVideoSinkCallback(vr::ICameraVideoSinkCallback*)
+ t non-virtual thunk to CVRCameraComponent_Latest::SetCameraVideoStreamFormat(vr::ECameraVideoStreamFormat)
+ t non-virtual thunk to CVRCameraComponent_Latest::SetFrameRate(int, int)
+ t non-virtual thunk to CVRCameraComponent_Latest::StartVideoStream()
+ t non-virtual thunk to CVRCameraComponent_Latest::StopVideoStream()
+ t non-virtual thunk to CVRCameraComponent_Latest::~CVRCameraComponent_Latest()
+ t non-virtual thunk to CVRControllerComponent_Latest::GetControllerState()
+ t non-virtual thunk to CVRControllerComponent_Latest::TriggerHapticPulse(unsigned int, unsigned short)
+ t non-virtual thunk to CVRControllerComponent_Latest::~CVRControllerComponent_Latest()
+ t non-virtual thunk to CVRDisplayComponent_Latest::ComputeDistortion(vr::EVREye, float, float)
+ t non-virtual thunk to CVRDisplayComponent_Latest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
+ t non-virtual thunk to CVRDisplayComponent_Latest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRDisplayComponent_Latest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+ t non-virtual thunk to CVRDisplayComponent_Latest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRDisplayComponent_Latest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRDisplayComponent_Latest::IsDisplayOnDesktop()
+ t non-virtual thunk to CVRDisplayComponent_Latest::IsDisplayRealDisplay()
+ t non-virtual thunk to CVRDisplayComponent_Latest::~CVRDisplayComponent_Latest()
+ t non-virtual thunk to CVRDriverDirectModeComponent_001::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_001::~CVRDriverDirectModeComponent_001()
+ t non-virtual thunk to CVRDriverDirectModeComponent_002::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_002::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_002::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_002::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_002::~CVRDriverDirectModeComponent_002()
+ t non-virtual thunk to CVRDriverDirectModeComponent_003::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_003::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_003::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_003::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_003::~CVRDriverDirectModeComponent_003()
+ t non-virtual thunk to CVRDriverDirectModeComponent_004::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_004::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_004::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_004::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_004::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_004::~CVRDriverDirectModeComponent_004()
+ t non-virtual thunk to CVRDriverDirectModeComponent_005::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_005::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_005::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_005::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_005::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_005::~CVRDriverDirectModeComponent_005()
+ t non-virtual thunk to CVRDriverDirectModeComponent_006::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_006::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_006::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_006::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_006::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_006::~CVRDriverDirectModeComponent_006()
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::~CVRDriverDirectModeComponent_007()
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_008::~CVRDriverDirectModeComponent_008()
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::~CVRDriverDirectModeComponent_Latest()
+ t non-virtual thunk to CVRTrackedDevice_004::Activate(unsigned int)
+ t non-virtual thunk to CVRTrackedDevice_004::Deactivate()
+ t non-virtual thunk to CVRTrackedDevice_004::DebugRequest(char const*, char*, unsigned int)
+ t non-virtual thunk to CVRTrackedDevice_004::EnterStandby()
+ t non-virtual thunk to CVRTrackedDevice_004::GetComponent(char const*)
+ t non-virtual thunk to CVRTrackedDevice_004::GetNativeDevice()
+ t non-virtual thunk to CVRTrackedDevice_004::GetPose()
+ t non-virtual thunk to CVRTrackedDevice_004::LegacyGetDeviceInfo(std::string*, vr::ETrackedDeviceClass*)
+ t non-virtual thunk to CVRTrackedDevice_004::~CVRTrackedDevice_004()
+ t non-virtual thunk to CVRTrackedDevice_Latest::Activate(unsigned int)
+ t non-virtual thunk to CVRTrackedDevice_Latest::Deactivate()
+ t non-virtual thunk to CVRTrackedDevice_Latest::DebugRequest(char const*, char*, unsigned int)
+ t non-virtual thunk to CVRTrackedDevice_Latest::EnterStandby()
+ t non-virtual thunk to CVRTrackedDevice_Latest::GetComponent(char const*)
+ t non-virtual thunk to CVRTrackedDevice_Latest::GetNativeDevice()
+ t non-virtual thunk to CVRTrackedDevice_Latest::GetPose()
+ t non-virtual thunk to CVRTrackedDevice_Latest::LegacyGetDeviceInfo(std::string*, vr::ETrackedDeviceClass*)
+ t non-virtual thunk to CVRTrackedDevice_Latest::~CVRTrackedDevice_Latest()
+ t non-virtual thunk to CVRVirtualDisplayComponent_Latest::GetTimeSinceLastVsync(float*, unsigned long long*)
+ t non-virtual thunk to CVRVirtualDisplayComponent_Latest::Present(vr::PresentInfo_t const*, unsigned int)
+ t non-virtual thunk to CVRVirtualDisplayComponent_Latest::WaitForPresent()
+ t non-virtual thunk to CVRVirtualDisplayComponent_Latest::~CVRVirtualDisplayComponent_Latest()
  t non-virtual thunk to CWatchdogConnectionMonitor::OnAxisData(int, float const*, int)
  t non-virtual thunk to CWatchdogConnectionMonitor::OnBatteryStatus(float, bool)
  t non-virtual thunk to CWatchdogConnectionMonitor::OnButtonData(unsigned long long, unsigned long long, unsigned long long)
@@ -8410,6 +9888,10 @@
  t std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned int, std::string const&, unsigned int) const
  t std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned int, unsigned int const&)
  t std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find(std::string const&)
+ t std::_Hashtable<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned int, std::string const&, unsigned int) const
+ t std::_Hashtable<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned int, unsigned int const&)
+ t std::_Hashtable<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find(std::string const&)
+ t std::_Hashtable<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
  t std::_List_base<vortex::CSyncDetect::SyncCluster_t, std::allocator<vortex::CSyncDetect::SyncCluster_t> >::_M_clear()
  t std::_List_iterator<vortex::ILighthouseDBListener*> std::__remove_if<std::_List_iterator<vortex::ILighthouseDBListener*>, __gnu_cxx::__ops::_Iter_equals_val<vortex::ILighthouseDBListener* const> >(std::_List_iterator<vortex::ILighthouseDBListener*>, std::_List_iterator<vortex::ILighthouseDBListener*>, __gnu_cxx::__ops::_Iter_equals_val<vortex::ILighthouseDBListener* const>)
  t std::_Rb_tree<CAnimSkeleton const*, std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources> > >, std::_Select1st<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources> > > >, std::less<CAnimSkeleton const*>, std::allocator<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources> > > > >::_M_erase(std::_Rb_tree_node<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources> > > >*)
@@ -8430,6 +9912,8 @@
  t std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, std::string> >*)
  t std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_get_insert_unique_pos(int const&)
  t std::_Rb_tree<std::pair<std::string, int>, std::pair<std::pair<std::string, int> const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > >, std::less<std::pair<std::string, int> >, std::allocator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > > >::_M_erase(std::_Rb_tree_node<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > >*)
+ t std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CSettingsSetting*>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> > >::_M_erase(std::_Rb_tree_node<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> >*)
+ t std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CSettingsSetting*>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> > >::_M_get_insert_unique_pos(std::pair<std::string, std::string> const&)
  t std::_Rb_tree<std::pair<unsigned int, int>, std::pair<std::pair<unsigned int, int> const, vortex::COnlineVariance>, std::_Select1st<std::pair<std::pair<unsigned int, int> const, vortex::COnlineVariance> >, std::less<std::pair<unsigned int, int> >, std::allocator<std::pair<std::pair<unsigned int, int> const, vortex::COnlineVariance> > >::_M_erase(std::_Rb_tree_node<std::pair<std::pair<unsigned int, int> const, vortex::COnlineVariance> >*)
  t std::_Rb_tree<std::pair<unsigned int, int>, std::pair<std::pair<unsigned int, int> const, vortex::COnlineVariance>, std::_Select1st<std::pair<std::pair<unsigned int, int> const, vortex::COnlineVariance> >, std::less<std::pair<unsigned int, int> >, std::allocator<std::pair<std::pair<unsigned int, int> const, vortex::COnlineVariance> > >::_M_get_insert_unique_pos(std::pair<unsigned int, int> const&)
  t std::_Rb_tree<std::string, std::pair<std::string const, CWatchdogConnectionMonitor*>, std::_Select1st<std::pair<std::string const, CWatchdogConnectionMonitor*> >, std::less<std::string>, std::allocator<std::pair<std::string const, CWatchdogConnectionMonitor*> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, CWatchdogConnectionMonitor*> >*)
@@ -8504,6 +9988,9 @@
  t std::_Rb_tree<unsigned int, std::pair<unsigned int const, vortex::LighthouseBaseUniverseReference_t>, std::_Select1st<std::pair<unsigned int const, vortex::LighthouseBaseUniverseReference_t> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, vortex::LighthouseBaseUniverseReference_t> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<unsigned int const, vortex::LighthouseBaseUniverseReference_t> >*)
  t std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*)
  t std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_get_insert_unique_pos(unsigned int const&)
+ t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, CPropertyContainer*>, std::_Select1st<std::pair<unsigned long long const, CPropertyContainer*> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, CPropertyContainer*> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, CPropertyContainer*> >*)
+ t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, CPropertyContainer*>, std::_Select1st<std::pair<unsigned long long const, CPropertyContainer*> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, CPropertyContainer*> > >::_M_get_insert_unique_pos(unsigned long long const&)
+ t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > >, std::_Select1st<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >*)
  t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, unsigned int>, std::_Select1st<std::pair<unsigned long long const, unsigned int> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, unsigned int> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, unsigned int> >*)
  t std::_Rb_tree<vortex::CSyncDetect::BasestationInfo_t const*, vortex::CSyncDetect::BasestationInfo_t const*, std::_Identity<vortex::CSyncDetect::BasestationInfo_t const*>, std::less<vortex::CSyncDetect::BasestationInfo_t const*>, std::allocator<vortex::CSyncDetect::BasestationInfo_t const*> >::_M_erase(std::_Rb_tree_node<vortex::CSyncDetect::BasestationInfo_t const*>*)
  t std::_Rb_tree<vr::ECameraHAL_OpenError, std::pair<vr::ECameraHAL_OpenError const, char const*>, std::_Select1st<std::pair<vr::ECameraHAL_OpenError const, char const*> >, std::less<vr::ECameraHAL_OpenError>, std::allocator<std::pair<vr::ECameraHAL_OpenError const, char const*> > >::_M_erase(std::_Rb_tree_node<std::pair<vr::ECameraHAL_OpenError const, char const*> >*)
@@ -8540,6 +10027,7 @@
  t std::_Rb_tree_iterator<std::pair<unsigned int const, vortex::CLighthouseFrameRetimer> > std::_Rb_tree<unsigned int, std::pair<unsigned int const, vortex::CLighthouseFrameRetimer>, std::_Select1st<std::pair<unsigned int const, vortex::CLighthouseFrameRetimer> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, vortex::CLighthouseFrameRetimer> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned int const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned int const, vortex::CLighthouseFrameRetimer> >, std::piecewise_construct_t const&, std::tuple<unsigned int const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<unsigned int const, vortex::CLighthouseSyncClient::SpeculativeBootData_t> > std::_Rb_tree<unsigned int, std::pair<unsigned int const, vortex::CLighthouseSyncClient::SpeculativeBootData_t>, std::_Select1st<std::pair<unsigned int const, vortex::CLighthouseSyncClient::SpeculativeBootData_t> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, vortex::CLighthouseSyncClient::SpeculativeBootData_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned int const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned int const, vortex::CLighthouseSyncClient::SpeculativeBootData_t> >, std::piecewise_construct_t const&, std::tuple<unsigned int const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<unsigned int const, vortex::LighthouseBaseTilt_t> > std::_Rb_tree<unsigned int, std::pair<unsigned int const, vortex::LighthouseBaseTilt_t>, std::_Select1st<std::pair<unsigned int const, vortex::LighthouseBaseTilt_t> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, vortex::LighthouseBaseTilt_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned int const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned int const, vortex::LighthouseBaseTilt_t> >, std::piecewise_construct_t const&, std::tuple<unsigned int const&>&&, std::tuple<>&&)
+ t std::_Rb_tree_iterator<std::pair<unsigned long long const, CPropertyContainer*> > std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, CPropertyContainer*>, std::_Select1st<std::pair<unsigned long long const, CPropertyContainer*> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, CPropertyContainer*> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, CPropertyContainer*> >, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<unsigned int> std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_insert_<unsigned int const&, std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, unsigned int const&, std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_Alloc_node&) [clone .isra.0]
  t std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> > const*, std::_Rb_tree_node_base*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&)
  t std::_Rb_tree_node<std::pair<std::string const, double> >* std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::_M_copy<std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::_Alloc_node>(std::_Rb_tree_node<std::pair<std::string const, double> > const*, std::_Rb_tree_node_base*, std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::_Alloc_node&)
@@ -9373,12 +10861,14 @@
  t std::__destroy_ios_failure(void*)
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, std::string>, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.0]
+ t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, unsigned long long>, true> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<std::string const, unsigned long long>, true>*) [clone .isra.0]
  t std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)
  t std::__detail::_List_node_base::_M_reverse()
  t std::__detail::_List_node_base::_M_transfer(std::__detail::_List_node_base*, std::__detail::_List_node_base*)
  t std::__detail::_List_node_base::_M_unhook()
  t std::__detail::_List_node_base::swap(std::__detail::_List_node_base&, std::__detail::_List_node_base&)
  t std::__detail::_Map_base<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string&&)
+ t std::__detail::_Map_base<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string&&)
  t std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned int, unsigned int, unsigned int) const
  t std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned int) const
  t std::__facet_shims::(anonymous namespace)::collate_shim<char>::do_compare(char const*, char const*, char const*, char const*) const
@@ -11151,6 +12641,7 @@
  t std::pair<std::_Rb_tree_iterator<std::pair<std::string const, std::unique_ptr<CAnimFactoryBase::CFactoryMaker, std::default_delete<CAnimFactoryBase::CFactoryMaker> > > >, bool> std::_Rb_tree<std::string, std::pair<std::string const, std::unique_ptr<CAnimFactoryBase::CFactoryMaker, std::default_delete<CAnimFactoryBase::CFactoryMaker> > >, std::_Select1st<std::pair<std::string const, std::unique_ptr<CAnimFactoryBase::CFactoryMaker, std::default_delete<CAnimFactoryBase::CFactoryMaker> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::unique_ptr<CAnimFactoryBase::CFactoryMaker, std::default_delete<CAnimFactoryBase::CFactoryMaker> > > > >::_M_emplace_unique<char const*, std::unique_ptr<CAnimFactoryBase::CFactoryMaker, std::default_delete<CAnimFactoryBase::CFactoryMaker> > >(char const*&&, std::unique_ptr<CAnimFactoryBase::CFactoryMaker, std::default_delete<CAnimFactoryBase::CFactoryMaker> >&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<std::string const, std::unique_ptr<COctaveLogger, std::default_delete<COctaveLogger> > > >, bool> std::_Rb_tree<std::string, std::pair<std::string const, std::unique_ptr<COctaveLogger, std::default_delete<COctaveLogger> > >, std::_Select1st<std::pair<std::string const, std::unique_ptr<COctaveLogger, std::default_delete<COctaveLogger> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::unique_ptr<COctaveLogger, std::default_delete<COctaveLogger> > > > >::_M_emplace_unique<std::pair<std::string, std::unique_ptr<COctaveLogger, std::default_delete<COctaveLogger> > > >(std::pair<std::string, std::unique_ptr<COctaveLogger, std::default_delete<COctaveLogger> > >&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<std::string const, vortex::CLighthouseInput*> >, bool> std::_Rb_tree<std::string, std::pair<std::string const, vortex::CLighthouseInput*>, std::_Select1st<std::pair<std::string const, vortex::CLighthouseInput*> >, std::less<std::string>, std::allocator<std::pair<std::string const, vortex::CLighthouseInput*> > >::_M_emplace_unique<std::pair<std::string, vortex::CLighthouseInput*> >(std::pair<std::string, vortex::CLighthouseInput*>&&)
+ t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > >, std::_Select1st<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > > >::_M_emplace_unique<std::pair<unsigned long long, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >(std::pair<unsigned long long, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > >&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, unsigned int> >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, unsigned int>, std::_Select1st<std::pair<unsigned long long const, unsigned int> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, unsigned int> > >::_M_emplace_unique<std::pair<unsigned long long, int> >(std::pair<unsigned long long, int>&&)
  t std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string const&>(std::string const&)
  t std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string>(std::string&&)
@@ -11187,6 +12678,9 @@
  t std::set_terminate(void (*)())
  t std::set_unexpected(void (*)())
  t std::string __gnu_cxx::__to_xstring<std::string, char>(int (*)(char*, unsigned int, char const*, char*), unsigned int, char const*, ...)
+ t std::string const& CSettingsManager::GetDefaultValue<std::string>(char const*, char const*, vr::EVRSettingsError*)
+ t std::string const& CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)
+ t std::string const& CSettingsValue::Get<std::string>() const
  t std::string nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>::get<std::string, std::string, 0>() const
  t std::string& std::vector<std::string, std::allocator<std::string> >::emplace_back<std::string>(std::string&&)
  t std::string** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<std::string*>(std::string* const*, std::string* const*, std::string**)
@@ -11450,11 +12944,14 @@
  t std::underflow_error::underflow_error(std::string const&)
  t std::underflow_error::~underflow_error()
  t std::unexpected()
+ t std::unique_lock<std::mutex>::unlock() [clone .isra.0]
  t std::unique_lock<std::recursive_mutex>::unlock() [clone .isra.0]
  t std::unique_ptr<CLogBuffer, std::default_delete<CLogBuffer> >::~unique_ptr()
  t std::unique_ptr<CLogCallback, std::default_delete<CLogCallback> >::~unique_ptr()
  t std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::_M_default_append(unsigned int)
  t std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::~vector()
+ t std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::_M_fill_insert(__gnu_cxx::__normal_iterator<CDriverManager::DriverDevice_t*, std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> > >, unsigned int, CDriverManager::DriverDevice_t const&)
+ t std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> >::~vector()
  t std::vector<CISPConfig, std::allocator<CISPConfig> >::operator=(std::vector<CISPConfig, std::allocator<CISPConfig> > const&)
  t std::vector<CISPConfig::CISPStream, std::allocator<CISPConfig::CISPStream> >::operator=(std::vector<CISPConfig::CISPStream, std::allocator<CISPConfig::CISPStream> > const&)
  t std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration> >::operator=(std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration> > const&)
@@ -11519,6 +13016,7 @@
  t std::vector<vortex::Edid_t, std::allocator<vortex::Edid_t> >::operator=(std::vector<vortex::Edid_t, std::allocator<vortex::Edid_t> > const&)
  t std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::_M_erase(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >)
  t std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::operator=(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > const&)
+ t std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty> >::~vector()
  t std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::reserve(unsigned int)
  t std::vector<vr::VRBoneTransform_t, std::allocator<vr::VRBoneTransform_t> >::_M_default_append(unsigned int)
  t std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
@@ -11789,6 +13287,9 @@
  t virtual thunk to std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_ostringstream()
  t virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
  t virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_stringstream()
+ t void CSettingsManager::SetValue<bool, (ESettingValueType)0>(char const*, char const*, bool const&, vr::EVRSettingsError*)
+ t void CSettingsManager::SetValue<double, (ESettingValueType)1>(char const*, char const*, double const&, vr::EVRSettingsError*)
+ t void CSettingsManager::SetValue<std::string, (ESettingValueType)2>(char const*, char const*, std::string const&, vr::EVRSettingsError*)
  t void CeresAngleAxisPoseProduct<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
  t void CeresAngleAxisPoseProduct<double>(double const*, double const*, double*)
  t void CeresAngleAxisPoseToQuaternionPose<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
@@ -11843,6 +13344,7 @@
  t void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace)::range<char16_t const, false>&, std::codecvt_mode&)
  t void std::_Destroy_aux<false>::__destroy<std::string*>(std::string*, std::string*)
  t void std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique<int*>(int*, int*)
+ t void std::__adjust_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, int, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, int, double, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, int, int, double, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, int, float, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, int, int, float, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, int, vortex::(anonymous namespace)::SyncHit_s, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, int, int, vortex::(anonymous namespace)::SyncHit_s, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
@@ -11890,6 +13392,7 @@
  t void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, false>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
  t void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
  t void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
+ t void std::__insertion_sort<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
@@ -11897,6 +13400,7 @@
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__introselect<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, int, __gnu_cxx::__ops::_Iter_less_iter)
+ t void std::__introsort_loop<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, int, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, int, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, int, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
@@ -11905,6 +13409,7 @@
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, int, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
  t void std::__move_median_to_first<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
  t void std::__push_heap<std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, int, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_val<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s> > > >(std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, int, int, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_val<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s> > >&)
+ t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
  t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Val_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, __gnu_cxx::__ops::_Val_less_iter) [clone .isra.0]
  t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__ops::_Val_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}> >(__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t*, std::vector<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t, std::allocator<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t> > >, __gnu_cxx::__ops::_Val_comp_iter<vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::{lambda(vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&, vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int> >&)::BaseStationSort_t const&)#1}>) [clone .isra.0]
  t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Val_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId> >(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, __gnu_cxx::__ops::_Val_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
@@ -11923,21 +13428,28 @@
  t void std::vector<CAnimState, std::allocator<CAnimState> >::_M_realloc_insert<CAnimState>(__gnu_cxx::__normal_iterator<CAnimState*, std::vector<CAnimState, std::allocator<CAnimState> > >, CAnimState&&)
  t void std::vector<CAssertCallback*, std::allocator<CAssertCallback*> >::_M_realloc_insert<CAssertCallback* const&>(__gnu_cxx::__normal_iterator<CAssertCallback**, std::vector<CAssertCallback*, std::allocator<CAssertCallback*> > >, CAssertCallback* const&)
  t void std::vector<CCircularProtobuf*, std::allocator<CCircularProtobuf*> >::_M_realloc_insert<CCircularProtobuf* const&>(__gnu_cxx::__normal_iterator<CCircularProtobuf**, std::vector<CCircularProtobuf*, std::allocator<CCircularProtobuf*> > >, CCircularProtobuf* const&)
+ t void std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::_M_realloc_insert<CDriverManager::DriverDevice_t>(__gnu_cxx::__normal_iterator<CDriverManager::DriverDevice_t*, std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> > >, CDriverManager::DriverDevice_t&&)
+ t void std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::_M_realloc_insert<unsigned int&, vr::ITrackedDeviceServerDriver*&, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&>(__gnu_cxx::__normal_iterator<CDriverManager::DriverDevice_t*, std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> > >, unsigned int&, vr::ITrackedDeviceServerDriver*&, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t void std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> >::_M_realloc_insert<CDriverManager::HmdDriver_t const&>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, CDriverManager::HmdDriver_t const&)
  t void std::vector<CISPConfig, std::allocator<CISPConfig> >::_M_realloc_insert<CISPConfig const&>(__gnu_cxx::__normal_iterator<CISPConfig*, std::vector<CISPConfig, std::allocator<CISPConfig> > >, CISPConfig const&)
  t void std::vector<CISPConfig::CISPStream, std::allocator<CISPConfig::CISPStream> >::_M_realloc_insert<CISPConfig::CISPStream>(__gnu_cxx::__normal_iterator<CISPConfig::CISPStream*, std::vector<CISPConfig::CISPStream, std::allocator<CISPConfig::CISPStream> > >, CISPConfig::CISPStream&&)
  t void std::vector<CLogCallback*, std::allocator<CLogCallback*> >::_M_realloc_insert<CLogCallback* const&>(__gnu_cxx::__normal_iterator<CLogCallback**, std::vector<CLogCallback*, std::allocator<CLogCallback*> > >, CLogCallback* const&)
  t void std::vector<CPoseRecipe::PoseOpDesc, std::allocator<CPoseRecipe::PoseOpDesc> >::_M_realloc_insert<CPoseRecipe::PoseOpDesc const&>(__gnu_cxx::__normal_iterator<CPoseRecipe::PoseOpDesc*, std::vector<CPoseRecipe::PoseOpDesc, std::allocator<CPoseRecipe::PoseOpDesc> > >, CPoseRecipe::PoseOpDesc const&)
  t void std::vector<CPreviewThread::buff_t, std::allocator<CPreviewThread::buff_t> >::_M_realloc_insert<CPreviewThread::buff_t const&>(__gnu_cxx::__normal_iterator<CPreviewThread::buff_t*, std::vector<CPreviewThread::buff_t, std::allocator<CPreviewThread::buff_t> > >, CPreviewThread::buff_t const&)
+ t void std::vector<CPropertyContainer::PropertyIndexCacheEntry_t, std::allocator<CPropertyContainer::PropertyIndexCacheEntry_t> >::_M_realloc_insert<CPropertyContainer::PropertyIndexCacheEntry_t>(__gnu_cxx::__normal_iterator<CPropertyContainer::PropertyIndexCacheEntry_t*, std::vector<CPropertyContainer::PropertyIndexCacheEntry_t, std::allocator<CPropertyContainer::PropertyIndexCacheEntry_t> > >, CPropertyContainer::PropertyIndexCacheEntry_t&&)
  t void std::vector<CThreadWatchdog::Status_s*, std::allocator<CThreadWatchdog::Status_s*> >::_M_realloc_insert<CThreadWatchdog::Status_s* const&>(__gnu_cxx::__normal_iterator<CThreadWatchdog::Status_s**, std::vector<CThreadWatchdog::Status_s*, std::allocator<CThreadWatchdog::Status_s*> > >, CThreadWatchdog::Status_s* const&)
  t void std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration> >::_M_realloc_insert<CTrackedCameraCalibration const&>(__gnu_cxx::__normal_iterator<CTrackedCameraCalibration*, std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration> > >, CTrackedCameraCalibration const&)
+ t void std::vector<CTrackedDeviceServerDriverAdapter*, std::allocator<CTrackedDeviceServerDriverAdapter*> >::_M_realloc_insert<CTrackedDeviceServerDriverAdapter* const&>(__gnu_cxx::__normal_iterator<CTrackedDeviceServerDriverAdapter**, std::vector<CTrackedDeviceServerDriverAdapter*, std::allocator<CTrackedDeviceServerDriverAdapter*> > >, CTrackedDeviceServerDriverAdapter* const&)
  t void std::vector<CWirelessConnectionMonitor*, std::allocator<CWirelessConnectionMonitor*> >::_M_realloc_insert<CWirelessConnectionMonitor* const&>(__gnu_cxx::__normal_iterator<CWirelessConnectionMonitor**, std::vector<CWirelessConnectionMonitor*, std::allocator<CWirelessConnectionMonitor*> > >, CWirelessConnectionMonitor* const&)
  t void std::vector<CWirelessDecoder::SobData_s, std::allocator<CWirelessDecoder::SobData_s> >::_M_realloc_insert<CWirelessDecoder::SobData_s const&>(__gnu_cxx::__normal_iterator<CWirelessDecoder::SobData_s*, std::vector<CWirelessDecoder::SobData_s, std::allocator<CWirelessDecoder::SobData_s> > >, CWirelessDecoder::SobData_s const&)
+ t void std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t> >::_M_realloc_insert<DriverPresenceEntry_t const&>(__gnu_cxx::__normal_iterator<DriverPresenceEntry_t*, std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t> > >, DriverPresenceEntry_t const&)
  t void std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >::_M_realloc_insert<Eigen::Matrix<double, 3, 1, 0, 3, 1> >(__gnu_cxx::__normal_iterator<Eigen::Matrix<double, 3, 1, 0, 3, 1>*, std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >, Eigen::Matrix<double, 3, 1, 0, 3, 1>&&)
  t void std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >::_M_realloc_insert<Eigen::Matrix<double, 3, 1, 0, 3, 1> >(__gnu_cxx::__normal_iterator<Eigen::Matrix<double, 3, 1, 0, 3, 1>*, std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >, Eigen::Matrix<double, 3, 1, 0, 3, 1>&&)
  t void std::vector<Eigen::Quaternion<double, 0>, Eigen::aligned_allocator<Eigen::Quaternion<double, 0> > >::_M_realloc_insert<Eigen::Quaternion<double, 0> >(__gnu_cxx::__normal_iterator<Eigen::Quaternion<double, 0>*, std::vector<Eigen::Quaternion<double, 0>, Eigen::aligned_allocator<Eigen::Quaternion<double, 0> > > >, Eigen::Quaternion<double, 0>&&)
  t void std::vector<Eigen::Quaternion<double, 0>, Eigen::aligned_allocator<Eigen::Quaternion<double, 0> > >::_M_realloc_insert<Eigen::Quaternion<double, 0> const&>(__gnu_cxx::__normal_iterator<Eigen::Quaternion<double, 0>*, std::vector<Eigen::Quaternion<double, 0>, Eigen::aligned_allocator<Eigen::Quaternion<double, 0> > > >, Eigen::Quaternion<double, 0> const&)
  t void std::vector<ICeresFunctor<double>*, std::allocator<ICeresFunctor<double>*> >::_M_realloc_insert<ICeresFunctor<double>* const&>(__gnu_cxx::__normal_iterator<ICeresFunctor<double>**, std::vector<ICeresFunctor<double>*, std::allocator<ICeresFunctor<double>*> > >, ICeresFunctor<double>* const&)
  t void std::vector<ILogListener*, std::allocator<ILogListener*> >::_M_realloc_insert<ILogListener* const&>(__gnu_cxx::__normal_iterator<ILogListener**, std::vector<ILogListener*, std::allocator<ILogListener*> > >, ILogListener* const&)
+ t void std::vector<IPC::ISharedMem*, std::allocator<IPC::ISharedMem*> >::_M_realloc_insert<IPC::ISharedMem* const&>(__gnu_cxx::__normal_iterator<IPC::ISharedMem**, std::vector<IPC::ISharedMem*, std::allocator<IPC::ISharedMem*> > >, IPC::ISharedMem* const&)
  t void std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError> >::_M_realloc_insert<Json::OurReader::StructuredError const&>(__gnu_cxx::__normal_iterator<Json::OurReader::StructuredError*, std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError> > >, Json::OurReader::StructuredError const&)
  t void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::_M_realloc_insert<Json::PathArgument const*>(__gnu_cxx::__normal_iterator<Json::PathArgument const**, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > >, Json::PathArgument const*&&)
  t void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_realloc_insert<Json::PathArgument const&>(__gnu_cxx::__normal_iterator<Json::PathArgument*, std::vector<Json::PathArgument, std::allocator<Json::PathArgument> > >, Json::PathArgument const&)
@@ -11945,6 +13457,7 @@
  t void std::vector<LighthouseScaleData_t, std::allocator<LighthouseScaleData_t> >::_M_realloc_insert<std::string, double, std::vector<math::Vec3T<float>, std::allocator<math::Vec3T<float> > > >(__gnu_cxx::__normal_iterator<LighthouseScaleData_t*, std::vector<LighthouseScaleData_t, std::allocator<LighthouseScaleData_t> > >, std::string&&, double&&, std::vector<math::Vec3T<float>, std::allocator<math::Vec3T<float> > >&&)
  t void std::vector<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t, std::allocator<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t> >::_M_realloc_insert<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t const&>(__gnu_cxx::__normal_iterator<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t*, std::vector<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t, std::allocator<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t> > >, LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t const&)
  t void std::vector<OpResult, std::allocator<OpResult> >::_M_realloc_insert<OpResult const&>(__gnu_cxx::__normal_iterator<OpResult*, std::vector<OpResult, std::allocator<OpResult> > >, OpResult const&)
+ t void std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> >::_M_realloc_insert<PropertyDumpEntry_t const&>(__gnu_cxx::__normal_iterator<PropertyDumpEntry_t*, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t> > >, PropertyDumpEntry_t const&)
  t void std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t> >::_M_realloc_insert<Reflection::TypeInfo::BaseClassInfo_t const&>(__gnu_cxx::__normal_iterator<Reflection::TypeInfo::BaseClassInfo_t*, std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t> > >, Reflection::TypeInfo::BaseClassInfo_t const&)
  t void std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*> >::_M_realloc_insert<amdgpu_bo*>(__gnu_cxx::__normal_iterator<amdgpu_bo**, std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*> > >, amdgpu_bo*&&)
  t void std::vector<char const*, std::allocator<char const*> >::_M_realloc_insert<char const*>(__gnu_cxx::__normal_iterator<char const**, std::vector<char const*, std::allocator<char const*> > >, char const*&&)
@@ -11999,6 +13512,7 @@
  t void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char*, unsigned char*, std::forward_iterator_tag)
  t void std::vector<unsigned char, std::allocator<unsigned char> >::_M_realloc_insert<unsigned char>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char&&)
  t void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_insert<unsigned int const&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int const&)
+ t void std::vector<unsigned long long, std::allocator<unsigned long long> >::_M_realloc_insert<unsigned long long const&>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long, std::allocator<unsigned long long> > >, unsigned long long const&)
  t void std::vector<void (*)(), std::allocator<void (*)()> >::_M_emplace_back_aux<void (* const&)()>(void (* const&)())
  t void std::vector<void*, std::allocator<void*> >::_M_emplace_back_aux<void* const&>(void* const&)
  t void std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> >::_M_realloc_insert<vortex::(anonymous namespace)::SyncHit_s const&>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s> > >, vortex::(anonymous namespace)::SyncHit_s const&)
@@ -12020,6 +13534,7 @@
  t void std::vector<vortex::LighthouseDynamicStateEntry_t, std::allocator<vortex::LighthouseDynamicStateEntry_t> >::_M_realloc_insert<vortex::LighthouseDynamicStateEntry_t const&>(__gnu_cxx::__normal_iterator<vortex::LighthouseDynamicStateEntry_t*, std::vector<vortex::LighthouseDynamicStateEntry_t, std::allocator<vortex::LighthouseDynamicStateEntry_t> > >, vortex::LighthouseDynamicStateEntry_t const&)
  t void std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::_M_realloc_insert<vortex::lighthouse::SensorHit_s const&>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, vortex::lighthouse::SensorHit_s const&)
  t void std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::_M_realloc_insert<vortex::lighthouse::SensorHit_s>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, vortex::lighthouse::SensorHit_s&&)
+ t void std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty> >::_M_realloc_insert<vr::ETrackedDeviceProperty const&>(__gnu_cxx::__normal_iterator<vr::ETrackedDeviceProperty*, std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty> > >, vr::ETrackedDeviceProperty const&)
  t void std::vector<vr::HmdMatrix34_t, std::allocator<vr::HmdMatrix34_t> >::_M_realloc_insert<vr::HmdMatrix34_t const&>(__gnu_cxx::__normal_iterator<vr::HmdMatrix34_t*, std::vector<vr::HmdMatrix34_t, std::allocator<vr::HmdMatrix34_t> > >, vr::HmdMatrix34_t const&)
  t void std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::_M_realloc_insert<vr::PathRead_t>(__gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, vr::PathRead_t&&)
  t void std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t> >::_M_realloc_insert<vr::PathWrite_t const&>(__gnu_cxx::__normal_iterator<vr::PathWrite_t*, std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t> > >, vr::PathWrite_t const&)
@@ -13377,6 +14892,13 @@
  t vortex::lighthouse::SensorVecContainsHit(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > const&, vortex::lighthouse::SensorHit_s const&)
  t vr::CVRPropertyHelpers::GetStringProperty(unsigned long long, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
  t vr::CameraVideoStreamFormatFromFourCC(unsigned int)
+ t vr::IVRDriverDirectModeComponent::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long long)
+ t vr::IVRDriverDirectModeComponent::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t vr::IVRDriverDirectModeComponent::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t vr::IVRDriverDirectModeComponent::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+ t vr::IVRDriverDirectModeComponent::Present(unsigned long long)
+ t vr::IVRDriverDirectModeComponent::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
  t vr::IVRSharedResource::CreateFD()
  t vr::PathRead_t& std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::emplace_back<vr::PathRead_t>(vr::PathRead_t&&)
  t vr::TrackedCamera_ConvertMJPGToRGBX32_CPU(void const*, int, void*, int, int)
@@ -13496,6 +15018,7 @@
  udev_list_entry_get_next
  udev_new
  udev_unref
+ umask
  uname
  ungetc
  ungetwc

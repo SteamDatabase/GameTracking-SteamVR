@@ -467,7 +467,7 @@
 "SystemReport_Title" "Báo cáo hệ thống"
 "SystemReport_Refresh" "Làm mới"
 "SystemReport_CopyToClipboard" "Chép vào khay nhớ tạm"
-"SystemReport_SaveToFile" "Lưu vào tệp"
+"SystemReport_SaveToFile" "Lưu thành file"
 "SystemReport_SaveSystemReport" "Lưu báo cáo hệ thống"
 "SystemReport_UnableToOpenFile" "Không thể mở tệp"
 "SystemReport_Data" "Dữ liệu"

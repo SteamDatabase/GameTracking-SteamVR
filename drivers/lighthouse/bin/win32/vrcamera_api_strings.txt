@@ -15,8 +15,10 @@
   SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
  %41g
  0$0(0<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
+ 4(CxC
  Capability Size: 
  Height: 
+ PU~7
  Width: 
  s;Wj
  sCWj
@@ -28,7 +30,6 @@ $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 $_^[]
-$scy9P]
 %.0Lf
 %H : %M
 %H : %M : %S
@@ -51,9 +52,9 @@ $scy9P]
 +o'q)}
 +p$+p
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
+,*[2A^
 ,0I0\0
 ,W5y+
-,\CKkD
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -313,7 +314,7 @@ $scy9P]
 .tls$
 .tls$ZZZ
 .xdata$x
-/M/9{
+/D'|'
 0 0$0<0L0P0`0d0h0l0p0x0
 0 0(00080@0H0P0X0`0h0p0x0
 0 00040D0H0L0T0l0|0
@@ -434,7 +435,7 @@ $scy9P]
 220323000000Z
 220801000000Z
 230714000000Z
-240525010522Z0/
+240724173803Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1492,7 +1493,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDS1
+RSDS 
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1598,6 +1599,7 @@ Y__^[
 [K]taM?
 [SPj"
 [tc9]
+\1@BXr
 \SVW3
 ]J<0"0i3
 _$@;Ghr
@@ -1682,6 +1684,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
+at;#-$
 b1	3C3
 bad address
 bad allocation
@@ -1888,6 +1891,7 @@ unknown error
 upper
 v	N+D$
 v=Y]Bv
+vVwGM
 value too large
 vector<T> too long
 vector<bool> too long

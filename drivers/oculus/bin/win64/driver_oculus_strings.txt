@@ -64,6 +64,7 @@
 !&.37<
 !(0)"
 !hn7!
+!} /{
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
@@ -212,6 +213,7 @@ $w!Hc
 , column 
 , last executing in 
 , requestedBytes 
+,#:MQW
 ,9k0t%H
 ,9{0t%H
 ,W5y+
@@ -464,7 +466,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240525011329Z0/
+240724174103Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -508,7 +510,6 @@ $w!Hc
 9k0t_D
 9k0tcH
 9l$Lt	E
-9x:Nh
 9|$@u
 : one or more FS callback not set
 ; expected 
@@ -1099,7 +1100,7 @@ IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -1218,7 +1219,6 @@ LoadLibraryW
 LocalizationManager
 M H1E
 M98u/
-M=f*R
 MB(iVR
 MSVCP140.dll
 MS_:F
@@ -1293,6 +1293,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSt
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1300,7 +1301,6 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S(2VE
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1818,7 +1818,6 @@ hand_right_poses.glb
 handlers
 headset
 height
-hmN5]
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1915,6 +1914,7 @@ jsonid
 k0i0$
 ko_kr
 koreana
+ktQGY
 l$ ATAVAWH
 l$ E3
 l$ H;
@@ -2249,6 +2249,7 @@ shaders/d3d11/distort_geom_reflect_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_simplified_ps.fxo
 shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_spherical_vs.fxo
 shaders/d3d11/distort_geom_tan_vs.fxo
 shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
@@ -2519,7 +2520,6 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{i~Uq)
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png
@@ -2570,6 +2570,7 @@ znear
 |$`M+
 |LL\t
 |Lu?c
+|U^dSN
 }LuHO
 ~+fff
 ~3LcD$(L

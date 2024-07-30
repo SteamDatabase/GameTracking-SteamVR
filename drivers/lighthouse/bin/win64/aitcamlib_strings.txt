@@ -1,6 +1,5 @@
 																																																																																																																
 	!s99
-	$Ys6
 	D$HA
 	|$HA
     A
@@ -21,6 +20,7 @@
 !hn7!
 "9k0t
 #*1892+$
+#3>c;
 #9i0t
 #?RADIANCE
 #?RGBE
@@ -29,7 +29,6 @@
 %,3:;4-&
 %9k0t
 %9{0t
-%bMa&
 &9k0t
 &D9c0t
 &D9k0t
@@ -68,6 +67,7 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
+-S9DQ
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -179,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525011102Z0/
+240724173829Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -215,9 +215,10 @@
 9k0t_D
 9k0tcH
 9l$Lt	E
-:Qf5r0
+:4)w+bs(q
 ;D$ht6
 <0:08
+<unknown>
 =ETLP
 =IBgC
 =SNRtt%
@@ -297,7 +298,6 @@ AitUVCExtApi.dll
 AuthD
 BMP RLE
 Bellevue1
-C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
 CT$ H
 CallCreateObject
@@ -334,6 +334,7 @@ D9{0t
 D9{0t'H
 D9{0t?H
 D9{0tZD
+D`0nF_
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -401,7 +402,7 @@ IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -601,7 +602,6 @@ Z9k0tUD
 \$pfD
 ]9k0tVD
 ]J<0"0i3
-]Q;R"
 ]g@8yhu
 ^9k0tWD
 _Cnd_destroy_in_situ
@@ -715,6 +715,7 @@ cameraFrameRate
 cameraISPSyncDivisor
 cameraSensorFrameRate
 can't merge dc and ac
+cbL/#rc
 corrupt
 cs_cz
 czech
@@ -891,7 +892,6 @@ u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uH@8}
 uJf9X
-u`qCa
 uk_ua
 ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -908,7 +908,6 @@ vi_vn
 vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
-wk3Bhi
 wrong channel count
 wrong color format
 wrong version

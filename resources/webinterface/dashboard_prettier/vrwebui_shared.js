@@ -2487,7 +2487,7 @@
         (0, i.gn)([o.ak], I.prototype, "show", null),
         (0, i.gn)([o.ak], I.prototype, "hide", null),
         (I = (0, i.gn)([l.Pi], I));
-      let O = class extends _.d9 {
+      let D = class extends _.d9 {
         constructor(e) {
           super(e),
             (this.m_mailbox = new s.Nv()),
@@ -2598,15 +2598,15 @@
           );
         }
       };
-      (O.Name = "openxr_settings"),
-        (0, i.gn)([o.ak], O.prototype, "OnSetAsOpenXRRuntime", null),
-        (O = (0, i.gn)([l.Pi], O));
-      let D = class extends _.d9 {
+      (D.Name = "openxr_settings"),
+        (0, i.gn)([o.ak], D.prototype, "OnSetAsOpenXRRuntime", null),
+        (D = (0, i.gn)([l.Pi], D));
+      let O = class extends _.d9 {
         constructor(e) {
           super(e);
         }
       };
-      (D.Name = "developer_settings"), (D = (0, i.gn)([l.Pi], D));
+      (O.Name = "developer_settings"), (O = (0, i.gn)([l.Pi], O));
       var x = n(2743);
       let F = class extends _.d9 {
         constructor(e) {
@@ -2663,7 +2663,7 @@
         }
       };
       (F.Name = "general_settings"), (F = (0, i.gn)([l.Pi], F));
-      const P = (e) => {
+      const H = (e) => {
         var t;
         const [n, i] = (0, c.useState)(!1),
           o =
@@ -2793,7 +2793,7 @@
               " Do Center Track ",
             );
       };
-      let H = class extends c.Component {
+      let P = class extends c.Component {
         constructor(e) {
           super(e),
             (this.m_eyeTrackingServerStatusHandle = null),
@@ -2934,7 +2934,7 @@
                   c.Fragment,
                   null,
                   "\t",
-                  c.createElement(P, {
+                  c.createElement(H, {
                     onApplyCal: () => {
                       this.doEyeTrackingCal();
                     },
@@ -2947,15 +2947,15 @@
       };
       (0, i.gn)(
         [o.ak],
-        H.prototype,
+        P.prototype,
         "onEyeTrackingServerEnabledEventUpdate",
         null,
       ),
-        (0, i.gn)([o.ak], H.prototype, "stopEyeTrackingServer", null),
-        (0, i.gn)([o.ak], H.prototype, "startEyeTrackingServer", null),
-        (0, i.gn)([o.ak], H.prototype, "doEyeTrackingCal", null),
-        (0, i.gn)([o.ak], H.prototype, "SetEyeTrackingVisualization", null),
-        (H = (0, i.gn)([l.Pi], H));
+        (0, i.gn)([o.ak], P.prototype, "stopEyeTrackingServer", null),
+        (0, i.gn)([o.ak], P.prototype, "startEyeTrackingServer", null),
+        (0, i.gn)([o.ak], P.prototype, "doEyeTrackingCal", null),
+        (0, i.gn)([o.ak], P.prototype, "SetEyeTrackingVisualization", null),
+        (P = (0, i.gn)([l.Pi], P));
       var G = n(9669),
         N = n.n(G);
       function U() {
@@ -2998,7 +2998,7 @@
                 v.Kr.Separator,
                 { value: h.T2, sLabel: "Steam (VRGamepadUI)" },
                 v.Kr.Separator,
-                { value: h.O5, sLabel: "Recent Games (Old Dashboard)" },
+                { value: h.po, sLabel: "Recent Games (Old Dashboard)" },
                 { value: h.PF, sLabel: "Now Playing" },
                 v.Kr.Separator,
                 { value: h.gB, sLabel: "Desktop View" },
@@ -3167,11 +3167,6 @@
               }),
             ),
           }),
-          c.createElement(_.wy, {
-            name: "/settings/dashboard/allowQuickLaunchInVRGamepadUI",
-            label: "Show QuickLaunch overlay in VRGamepadUI",
-            requiresRestart: !0,
-          }),
         );
       }
       function Z(e) {
@@ -3329,9 +3324,9 @@
                 ),
                 c.createElement(_.U4, {
                   name: "/settings/dashboard/verticalOffsetCm_2",
-                  label: "Vertical Offset (cm)",
-                  min: -9,
-                  max: 9,
+                  label: "Dashboard Vertical Offset (cm)",
+                  min: -25,
+                  max: 25,
                   valueStyleVariant: w.px.OnHandle,
                   detents: [0],
                   renderValue: (e) => e.toFixed(0) + " cm",
@@ -3363,6 +3358,7 @@
                   swapOnOff: !0,
                   label: (0, m.Xx)("#Settings_Animations"),
                 }),
+                !1,
                 c.createElement(K, null),
                 c.createElement(W, null),
                 c.createElement(U, null),
@@ -4330,7 +4326,7 @@
           const t = e.controller ? e.controller : "generic",
             n = this.state.sActiveSettingSection === e.controller,
             i =
-              [C, pe, ie, x.Yw, A, F, T, O, D, $, k.P].find(
+              [C, pe, ie, x.Yw, A, F, T, D, O, $, k.P].find(
                 (e) => e.Name === t,
               ) || _.d9;
           return c.createElement(i, { key: e.title, section: e, active: n });
@@ -4342,7 +4338,12 @@
             !S.G3.settings.get(he.k_sShowInternalSettings)
           )
             return !1;
-          if (e.controller == O.Name && (0, s.Op)() == s.qA.Overlay) return !1;
+          if (
+            e.controller == D.Name &&
+            (0, s.Op)() == s.qA.Overlay &&
+            !S.G3.settings.get(he.k_sForceShowOpenXRSettings)
+          )
+            return !1;
           if (
             !e.show_without_hmd &&
             !(null === s.Co || void 0 === s.Co ? void 0 : s.Co.HasHMD())
@@ -4400,7 +4401,9 @@
           });
         }
       });
-      (ve.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
+      (ve.k_sForceShowOpenXRSettings =
+        "/settings/steamvr/forceShowOpenXRSettings"),
+        (ve.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
         (ve.k_sShowDashboardSettings =
           "/settings/steamvr/showDashboardSettings"),
         (0, i.gn)([o.ak], ve.prototype, "renderSectionButton", null),
@@ -4420,7 +4423,7 @@
     },
     7095: (e, t, n) => {
       "use strict";
-      n.d(t, { P: () => V, f: () => B });
+      n.d(t, { P: () => I, f: () => B });
       var i = n(655),
         s = n(7294),
         o = n(7056),
@@ -5465,7 +5468,186 @@
         (0, i.gn)([o.ak], T.prototype, "show", null),
         (0, i.gn)([o.ak], T.prototype, "hide", null),
         (T = (0, i.gn)([r.Pi], T));
-      let V = class extends c.d9 {
+      let V = class extends s.Component {
+        constructor(e) {
+          super(e),
+            (this.m_mailbox = new u.Nv()),
+            (this.m_DeviceEventCallbackHandle = null),
+            (this.m_DeviceFirmwareEventCallbackHandle = null),
+            (this.state = { bShowingModal: !1, controllers: [] }),
+            (this.m_mailbox = new u.Nv()),
+            this.m_mailbox
+              .Init("UpdateControllersModal")
+              .then(() => {
+                this.m_mailbox.RegisterHandler(
+                  "controller_firmware_update_status",
+                  this.OnControllerUpdateStatus,
+                );
+              })
+              .catch((e) => {
+                console.log(
+                  "Failed to open UpdateControllersModal mailbox " + e,
+                );
+              });
+        }
+        OnControllerUpdateStatus(e) {
+          this.setState({ controllers: e.controllers });
+        }
+        StartUpdate(e) {
+          let t = {
+            type: "update_start",
+            returnAddress: this.m_mailbox.name,
+            serial: e,
+          };
+          this.m_mailbox.SendMessage("controller_firmware_update", t),
+            console.log("StartUpdate " + e);
+        }
+        onDeviceEvent(e, t, n) {
+          this.state.bShowingModal && this.forceUpdate();
+        }
+        onFirmwareStateChanged(e) {
+          this.state.bShowingModal && this.forceUpdate();
+        }
+        componentDidMount() {
+          (this.m_DeviceEventCallbackHandle =
+            null === VRHTML || void 0 === VRHTML
+              ? void 0
+              : VRHTML.RegisterForDeviceEvents(this.onDeviceEvent)),
+            (this.m_DeviceFirmwareEventCallbackHandle =
+              null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.RegisterForFirmwareStateChangedEvents(
+                    this.onFirmwareStateChanged,
+                  ));
+        }
+        componentWillUnmount() {
+          this.m_DeviceEventCallbackHandle &&
+            (this.m_DeviceEventCallbackHandle.unregister(),
+            (this.m_DeviceEventCallbackHandle = null)),
+            this.m_DeviceFirmwareEventCallbackHandle &&
+              (this.m_DeviceFirmwareEventCallbackHandle.unregister(),
+              (this.m_DeviceFirmwareEventCallbackHandle = null));
+        }
+        show() {
+          this.setState({ bShowingModal: !0 });
+        }
+        hide() {
+          this.setState({ bShowingModal: !1 });
+        }
+        render() {
+          var e, t, n;
+          let i = [];
+          for (let o of null === VRHTML || void 0 === VRHTML
+            ? void 0
+            : VRHTML.VRSystem.GetTrackedDeviceClasses().filter(
+                (e) => e.eClass == u.qR.Controller,
+              )) {
+            let r =
+                null !==
+                  (e =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.VRProperties.GetStringProperty(
+                          o.unIndex,
+                          u.Uk.ModelNumber_String,
+                        )) && void 0 !== e
+                  ? e
+                  : "Unknown Controller",
+              a =
+                null !==
+                  (t =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.VRProperties.GetStringProperty(
+                          o.unIndex,
+                          u.Uk.SerialNumber_String,
+                        )) && void 0 !== t
+                  ? t
+                  : "",
+              l =
+                null !==
+                  (n =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.VRProperties.GetBoolProperty(
+                          o.unIndex,
+                          u.Uk.Firmware_UpdateAvailable_Bool,
+                        )) &&
+                void 0 !== n &&
+                n,
+              c = null;
+            this.state.controllers.some((e) => e.serial == a && ((c = e), !0));
+            let p = s.createElement(
+              "div",
+              { key: a },
+              s.createElement("div", null, r, " - ", a),
+              s.createElement(
+                "div",
+                null,
+                !l &&
+                  !(null == c ? void 0 : c.updateInProgress) &&
+                  s.createElement("div", null, "Up to date"),
+                (null == c ? void 0 : c.updateInProgress) &&
+                  s.createElement("progress", { value: c.updateProgress }),
+                l &&
+                  !c &&
+                  s.createElement(
+                    d.z,
+                    {
+                      className: "ButtonControl",
+                      onClick: () => this.StartUpdate(a),
+                    },
+                    " ",
+                    "Update",
+                    " ",
+                  ),
+                l &&
+                  (null == c ? void 0 : c.updateError) &&
+                  s.createElement(
+                    d.z,
+                    {
+                      className: "ButtonControl",
+                      onClick: () => this.StartUpdate(a),
+                    },
+                    " ",
+                    "Retry",
+                    " ",
+                  ),
+              ),
+            );
+            i.push(p);
+          }
+          const o = 0 == i.length;
+          return s.createElement(
+            s.Fragment,
+            null,
+            s.createElement(
+              c.GV,
+              { className: "SettingsItem" },
+              s.createElement(
+                d.z,
+                { className: "ButtonControl", onClick: this.show },
+                "Update Controllers",
+              ),
+            ),
+            this.state.bShowingModal &&
+              s.createElement(
+                c.TB,
+                { header: "Update Controllers", onDismissRequested: this.hide },
+                s.createElement(s.Fragment, null, i),
+                o && s.createElement("h1", null, "No controllers connected."),
+              ),
+          );
+        }
+      };
+      (0, i.gn)([o.ak], V.prototype, "OnControllerUpdateStatus", null),
+        (0, i.gn)([o.ak], V.prototype, "StartUpdate", null),
+        (0, i.gn)([o.ak], V.prototype, "onDeviceEvent", null),
+        (0, i.gn)([o.ak], V.prototype, "onFirmwareStateChanged", null),
+        (0, i.gn)([o.ak], V.prototype, "show", null),
+        (0, i.gn)([o.ak], V.prototype, "hide", null),
+        (V = (0, i.gn)([r.Pi], V));
+      let I = class extends c.d9 {
         constructor(e) {
           super(e),
             (this.m_mailbox = new u.Nv()),
@@ -5490,7 +5672,7 @@
             i =
               null !==
                 (t = l.G3.settings.get(
-                  "/settings/dashboard/showControllerTrackingReset",
+                  "/settings/dashboard/allowInHeadsetControllerUpdate",
                 )) &&
               void 0 !== t &&
               t;
@@ -5506,24 +5688,13 @@
             s.createElement(M, null),
             s.createElement(k, { mailbox: this.m_mailbox }),
             n && s.createElement(T, null),
-            i &&
-              s.createElement(
-                d.z,
-                {
-                  className: "ButtonControl",
-                  onClick: () =>
-                    this.m_mailbox.SendMessage("controller_tracking", {
-                      type: "reset_persistent_calibration",
-                    }),
-                },
-                (0, a.Xx)("#Settings_Controller_ResetTracking"),
-              ),
+            i && s.createElement(V, null),
           );
         }
       };
-      (V.Name = "controller_settings"),
-        (0, i.gn)([o.ak], V.prototype, "ResetToDefaults", null),
-        (V = (0, i.gn)([r.Pi], V));
+      (I.Name = "controller_settings"),
+        (0, i.gn)([o.ak], I.prototype, "ResetToDefaults", null),
+        (I = (0, i.gn)([r.Pi], I));
     },
     8242: (e, t, n) => {
       "use strict";
@@ -5535,15 +5706,15 @@
         ls: () => K,
         uc: () => q,
         Ei: () => U,
-        Xp: () => D,
+        Xp: () => O,
         TB: () => z,
         U5: () => j,
         t0: () => x,
         D3: () => I,
         U4: () => F,
-        wy: () => O,
+        wy: () => D,
         hR: () => G,
-        vE: () => H,
+        vE: () => P,
       });
       var i,
         s,
@@ -5701,7 +5872,7 @@
               });
               break;
             case "toggle":
-              t = r.createElement(O, {
+              t = r.createElement(D, {
                 key: e.name,
                 name: e.name,
                 swapOnOff: e.inverted,
@@ -5718,7 +5889,7 @@
                   value: e.value,
                   sLabel: (0, l.Xx)(e.label),
                 }));
-              t = r.createElement(D, {
+              t = r.createElement(O, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? (0, l.Xx)(e.label) : "",
@@ -6040,7 +6211,7 @@
         (0, o.gn)([a.ak], I.prototype, "onOptionMouseEnter", null),
         (0, o.gn)([a.ak], I.prototype, "onOptionMouseLeave", null),
         (I = (0, o.gn)([d.Pi], I));
-      let O = class extends r.Component {
+      let D = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6096,8 +6267,8 @@
           });
         }
       };
-      O = (0, o.gn)([d.Pi], O);
-      let D = class extends r.Component {
+      D = (0, o.gn)([d.Pi], D);
+      let O = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6163,9 +6334,9 @@
           );
         }
       };
-      (0, o.gn)([c.Fl], D.prototype, "value", null),
-        (0, o.gn)([a.ak], D.prototype, "onChange", null),
-        (D = (0, o.gn)([d.Pi], D));
+      (0, o.gn)([c.Fl], O.prototype, "value", null),
+        (0, o.gn)([a.ak], O.prototype, "onChange", null),
+        (O = (0, o.gn)([d.Pi], O));
       let x = class extends r.Component {
         constructor(e) {
           if (
@@ -6299,7 +6470,7 @@
           );
         }
       };
-      function P(e) {
+      function H(e) {
         return (
           "#" +
           ("0" + Math.floor(e.r).toString(16)).slice(-2) +
@@ -6313,7 +6484,7 @@
         (0, o.gn)([c.Fl], F.prototype, "value", null),
         (0, o.gn)([a.ak], F.prototype, "onChange", null),
         (F = (0, o.gn)([d.Pi], F));
-      let H = (i = class extends r.Component {
+      let P = (i = class extends r.Component {
         static HueToRGB(e, t, n) {
           return 6 * (n = (n + 1) % 1) < 1
             ? e + (t - e) * n * 6
@@ -6402,9 +6573,9 @@
           });
         }
       });
-      (H.WHITE_SIZE_PERCENT = 0.03),
-        (0, o.gn)([a.ak], H.prototype, "onSliderChanged", null),
-        (H = i = (0, o.gn)([d.Pi], H));
+      (P.WHITE_SIZE_PERCENT = 0.03),
+        (0, o.gn)([a.ak], P.prototype, "onSliderChanged", null),
+        (P = i = (0, o.gn)([d.Pi], P));
       let G = class extends r.Component {
         get value() {
           return this.props.name
@@ -6484,7 +6655,7 @@
           onAlphaChange(e) {
             const t = this.value,
               n = { r: t.r, g: t.g, b: t.b, a: e };
-            this.props.name && u.G3.SetSettingsValue(this.props.name, P(n)),
+            this.props.name && u.G3.SetSettingsValue(this.props.name, H(n)),
               this.props.nameA &&
                 u.G3.SetSettingsValue(this.props.nameA, e * this.alphaScale),
               this.props.onChange && this.props.onChange(n);
@@ -6497,7 +6668,7 @@
           }
           onColorChange(e) {
             const t = { r: e.r, g: e.g, b: e.b, a: this.value.a };
-            this.props.name && u.G3.SetSettingsValue(this.props.name, P(t)),
+            this.props.name && u.G3.SetSettingsValue(this.props.name, H(t)),
               this.props.nameR && u.G3.SetSettingsValue(this.props.nameR, t.r),
               this.props.nameG && u.G3.SetSettingsValue(this.props.nameG, t.g),
               this.props.nameB && u.G3.SetSettingsValue(this.props.nameB, t.b),
@@ -6538,7 +6709,7 @@
                     onDismissRequested: this.hideModal,
                     header: this.props.label,
                   },
-                  r.createElement(H, {
+                  r.createElement(P, {
                     label: (0, l.Xx)("#Settings_Chaperone_BoundsColor"),
                     onChange: this.onColorChange,
                     value: e,
@@ -6704,7 +6875,7 @@
         render() {
           const e = this.makeAppChoiceList(),
             t = this.state.currentApp ? this.state.currentApp.key : null;
-          return r.createElement(D, {
+          return r.createElement(O, {
             label: this.props.label,
             items: e,
             value: t,
@@ -9073,19 +9244,19 @@
           case a.F.RightStickClick:
             return r.createElement(T, { bIsKnockout: n, className: t });
           case a.F.LeftTrackpad:
-            return r.createElement(P, { bIsKnockout: n, className: t });
+            return r.createElement(H, { bIsKnockout: n, className: t });
           case a.F.RightTrackpad:
             return r.createElement(G, { bIsKnockout: n, className: t });
           case a.F.LeftTrackpadClick:
-            return r.createElement(H, { bIsKnockout: n, className: t });
+            return r.createElement(P, { bIsKnockout: n, className: t });
           case a.F.RightTrackpadClick:
             return r.createElement(N, { bIsKnockout: n, className: t });
           case a.F.RearLeftUpper:
-            return r.createElement(O, { bIsKnockout: n, className: t });
+            return r.createElement(D, { bIsKnockout: n, className: t });
           case a.F.RearRightUpper:
             return r.createElement(x, { bIsKnockout: n, className: t });
           case a.F.RearLeftLower:
-            return r.createElement(D, { bIsKnockout: n, className: t });
+            return r.createElement(O, { bIsKnockout: n, className: t });
           case a.F.RearRightLower:
             return r.createElement(F, { bIsKnockout: n, className: t });
           default:
@@ -10128,7 +10299,7 @@
               }),
             );
       }
-      function O(e) {
+      function D(e) {
         var { bIsKnockout: t } = e,
           n = (0, i._T)(e, ["bIsKnockout"]);
         return t
@@ -10176,7 +10347,7 @@
               }),
             );
       }
-      function D(e) {
+      function O(e) {
         var { bIsKnockout: t } = e,
           n = (0, i._T)(e, ["bIsKnockout"]);
         return t
@@ -10320,7 +10491,7 @@
               }),
             );
       }
-      function P(e) {
+      function H(e) {
         var { bIsKnockout: t } = e,
           n = (0, i._T)(e, ["bIsKnockout"]);
         return t
@@ -10363,7 +10534,7 @@
               }),
             );
       }
-      function H(e) {
+      function P(e) {
         var { bIsKnockout: t } = e,
           n = (0, i._T)(e, ["bIsKnockout"]);
         return t
@@ -12007,7 +12178,6 @@
         MZ: () => f,
         Ml: () => pe,
         N9: () => re,
-        O5: () => c,
         PF: () => d,
         Pt: () => L,
         Pv: () => s,
@@ -12022,14 +12192,15 @@
         WF: () => se,
         WR: () => T,
         Xl: () => E,
+        YL: () => ie,
         ZO: () => K,
-        aT: () => P,
+        aT: () => H,
         bU: () => ce,
         bp: () => U,
         bt: () => x,
         dG: () => I,
         eW: () => F,
-        f$: () => O,
+        f$: () => D,
         f8: () => b,
         fY: () => X,
         fj: () => ee,
@@ -12037,14 +12208,14 @@
         gC: () => v,
         hK: () => i,
         jW: () => a,
-        je: () => D,
+        je: () => O,
         jw: () => k,
         k_: () => $,
         ml: () => B,
         nf: () => z,
         o1: () => q,
-        oh: () => H,
-        r0: () => ie,
+        oh: () => P,
+        po: () => c,
         r4: () => h,
         rl: () => R,
         ro: () => ae,
@@ -12085,12 +12256,12 @@
         T = "DashboardControlStrip",
         V = "DashboardControlStripTransform",
         I = "DashboardGrabHandleTransform",
-        O = "DashboardGrabHandleTransform_Legacy",
-        D = "/settings/steamvr/enableHomeApp",
+        D = "DashboardGrabHandleTransform_Legacy",
+        O = "/settings/steamvr/enableHomeApp",
         x = "/settings/steamvr/supersampleManualOverride",
         F = "/settings/steamvr/supersampleScale",
-        P = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
-        H = "/settings/camera/roomViewStyle",
+        H = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
+        P = "/settings/camera/roomViewStyle",
         G = "/settings/steamvr/backgroundCameraHeight",
         N = "/settings/steamvr/backgroundDomeRadius",
         U = "/settings/steamvr/analogGain",
@@ -12108,7 +12279,7 @@
         ee = "/settings/dashboard/enableWindowView",
         te = "/settings/dashboard/maxInlineTabs",
         ne = "/settings/steamvr/maxRecommendedResolution",
-        ie = "/settings/dashboard/allowQuickLaunchInVRGamepadUI",
+        ie = "/settings/dashboard/allowLegacyQuickLaunch",
         se = "/settings/openxr/metaUnityPluginCompatibility",
         oe = "/settings/input/overlayFilteringEnabled",
         re = "/settings/input/overlayFilteringMinCutoff",
@@ -18317,4 +18488,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=a27209f15f3d2b8c7ff4
+//# sourceMappingURL=vrwebui_shared.js.map?v=43530d75b8246d19c912

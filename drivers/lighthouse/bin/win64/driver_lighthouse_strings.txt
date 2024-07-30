@@ -35,7 +35,6 @@
 	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
 	TYPE_BOOL
 	TYPE_ENUM
-	Uhse
 	enum_type
 	extension
 	name_part
@@ -164,7 +163,6 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- ;=aY$
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -1397,7 +1395,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240525011228Z0/
+240724173958Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1420,7 +1418,6 @@ $w!Hc
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-69EyD
 6<framesToThrottle
 6I]Dc
 6OB,n_
@@ -1475,7 +1472,7 @@ $w!Hc
 9C s.H
 9C }(H
 9C$|'H
-9CTt=
+9GTt=
 9H(|)A
 9N,t#
 9T$XJ
@@ -1570,7 +1567,6 @@ $w!Hc
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
-:QfF/
 ; expected 
 ; last read: '
 ;.u H
@@ -1638,6 +1634,7 @@ $w!Hc
 ?&x0O
 ?'1(?
 ?)\o?;
+?0&uT
 ?333333
 ?333?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -1791,6 +1788,7 @@ $w!Hc
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+?y!)`
 @ D9A s
 @$A9B
 @(9B(}
@@ -2143,11 +2141,6 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Accessor
 Add Json firmware manifest from %s
 AddAccessAllowedAce
-AddAccessAllowedAce failed for administrator. GetLastError returned: %d
-AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
-AddAccessAllowedAce failed for steam. GetLastError returned: %d
-AddAccessAllowedAce failed for test app. GetLastError returned: %d
-AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
 AddBool
 AddDouble
 AddEnum
@@ -2201,6 +2194,7 @@ B<I;_X
 B@H+P0
 B@H+P0I
 BA99u	
+BD9%^
 BL Init
 BL requested by app
 BL requested by buttons
@@ -2558,7 +2552,6 @@ Compute Client
 ConnectToPrism
 Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x
 ConvertStringSidToSidA
-ConvertStringSidToSidA failed for test app %d
 CopySid
 Could add as alternate, but disallowed by LighthouseDB
 Could boot, but disallowed by LighthouseDB
@@ -2591,7 +2584,6 @@ CreateResamplerBuffer (output) failed: hr = 0x%08x
 CreateThread
 CreateThread for playback failed: last error is %u
 CreateWellKnownSid
-CreateWellKnownSid failed for WinBuiltinAnyPackageSid
 CreateWindowExA
 Creating new universe %llu because there were no %sexisting universes
 Creating playback mirror thread for device %s
@@ -3041,6 +3033,7 @@ Discard
 Discarded IMU sample in ImuOnlyTracker because they were backing up.
 Discarding %u haptic events because there were too many this frame
 Discarding duplicate universe %llu at index %d when parsing db json file %s
+DismissedWarnings
 DispatchMessageA
 Display
 Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
@@ -3201,7 +3194,7 @@ F(HcH
 F,9ATu
 F,9G,
 F-A+F%
-F0D85x
+F0D85X
 F8@85
 F<@85
 F@@8h)u
@@ -3225,10 +3218,6 @@ Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
-Failed creating auto reset event %s (GLE: %u)
-Failed creating file mapping %s: %u
-Failed creating mutex %s (GLE: %u)
-Failed mapping view for %s; Error code: 0x%08x
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
 Failed to connect to pipe %s because %s
 Failed to connect to pipe %s because %s... retrying
@@ -3256,9 +3245,6 @@ Failed to get log path for persistent statistics.
 Failed to import client event handle from pipe %s after connecting
 Failed to import server event handle from pipe %s after connecting
 Failed to load external 'uri' for image[
-Failed to open event %s because access was denied
-Failed to open file mapping %s because access was denied
-Failed to open mutex %s because access was denied
 Failed to parse JSON object
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
@@ -3315,11 +3301,6 @@ Firmware
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 Flextronics
-Forced create of Win32 mutex %s but it already existed
-Forced create of Win32Event %s but it already existed
-Forced create of Win32Event but it already existed
-Forced create of Win32Mutex but it already existed
-Forced create of file mapping %s but it already existed
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
@@ -3433,6 +3414,7 @@ GetUInt64
 GetWindowLongPtrA
 Getting devnode property store failed: hr = 0x%08x
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
+GpuSpeed
 GxiV@
 H I;	r
 H SVWH
@@ -3490,21 +3472,15 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
+H9-1e!
 H91u 
 H92u&
 H92u,
 H93t	H
-H95"Y)
-H95,}+
-H95]q+
-H95`}+
-H95dv+
-H95kx+
+H95&{)
 H97t	H
 H98t	H
 H9;uAA
-H9=6t+
-H9=Rt+
 H9A s
 H9A u&
 H9A u6
@@ -3569,9 +3545,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=#V
-H;=+O
-H;=PP
+H;=Cy
+H;=Sx
+H;=[q
 H;Axt
 H;B0t
 H;C sAH
@@ -3634,6 +3610,7 @@ HA^A]_[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
+HL9-c
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
 HMD Report:
@@ -3789,7 +3766,6 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IL9-$d(
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -3828,11 +3804,18 @@ IPCPipe(%s): Wrote %u bytes of total message length
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND
+IServerTrackedDeviceProvider_002
+IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_
+ITrackedDeviceServerDriver_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
+IVRCameraComponent_
+IVRCameraComponent_001
+IVRCameraComponent_002
 IVRCameraComponent_003
 IVRChaperoneInternal_001
 IVRChaperoneSetup_006
@@ -3841,9 +3824,13 @@ IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
 IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
+IVRControllerComponent_
 IVRDebug_001
+IVRDisplayComponent_
+IVRDisplayComponent_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
+IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
@@ -3857,7 +3844,7 @@ IVRMCStore_001
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -3865,6 +3852,7 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
+IVRServerDriverHost_004
 IVRServerDriverHost_006
 IVRServer_XXX
 IVRSettingsInternal_001
@@ -3872,6 +3860,8 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+IVRVirtualDisplay_
+IVRVirtualDisplay_001
 IVRVirtualDisplay_002
 IVRWatchdogHost_002
 IVRWatchdogProvider_001
@@ -3915,13 +3905,11 @@ InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s
 InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.
 InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.
 InitializeAcl
-InitializeAcl failed. GetLastError returned: %d
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 InitializeSecurityDescriptor
-InitializeSecurityDescriptor failed. GetLastError returned: %d
 Integer out of range.
 Interpreting non ascii codepoint %d.
 Invalid
@@ -4138,37 +4126,17 @@ L+H@I
 L+P@H
 L+Q@I
 L80L;
+L9%( )
+L9%N!)
+L9%u )
 L9&u"
-L9-	b(
-L9-3w(
-L9-6c(
-L9-9h(
-L9-;j(
-L9-?z(
-L9-Fs(
-L9-Nf(
-L9-]o(
-L9-_e(
-L9-_{(
-L9-bt(
-L9-hk(
-L9-i|(
-L9-ll(
-L9-mb(
-L9-sp(
-L9-xu(
-L9-{~(
 L90H;
 L90M;
 L92u'
 L97u0H
-L9=55'
-L9=Q,'
-L9=R1'
-L9=V;'
-L9=^<'
-L9=h-'
-L9=h4'
+L9=.S'
+L9=@P'
+L9=eV'
 L9?u,H
 L9@ s
 L9A r
@@ -4227,6 +4195,7 @@ LPC11 App
 LPC11 BL
 Label
 Last sample %d %lf %lf
+LastKnown
 Lc E3
 LcA0L
 LcCHI
@@ -4278,7 +4247,6 @@ M9H s
 M;A r
 MAX10
 MB(iVR
-MD85H
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4391,6 +4359,7 @@ O(;H(}+I
 O(H9O0t
 O*9y]
 O0H9Q
+O?A'w
 OPAQUE
 OTGT timed out
 OZw3(?
@@ -4535,7 +4504,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDSk
+RSDSE
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4719,7 +4688,6 @@ SetRepeatedString
 SetRepeatedUInt32
 SetRepeatedUInt64
 SetSecurityDescriptorDacl
-SetSecurityDescriptorDacl failed. GetLastError returned: %d
 SetString
 SetThreadPriority
 SetUInt32
@@ -4743,7 +4711,6 @@ SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
-SharedMem access invalid: %x
 Shutdown
 ShutdownCameraHAL
 Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json
@@ -4890,7 +4857,6 @@ TerminateProcess
 Test mode ena: 
 TextureInfo
 TfD;u
-The owner SID is invalid.
 The total number of bytes read was 
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
 This program requires version 
@@ -4927,6 +4893,7 @@ UATAVAWI
 UATAWH
 UAUAVAWH
 UAVAWH
+UKz.U
 UNKNOWN
 UNPLUGGED
 USAGE: set_lenscal <device_json_path>
@@ -5093,6 +5060,7 @@ VATAUAVH
 VATAUH
 VATAVH
 VAVAWH
+VAh'-
 VBus: 
 VCRUNTIME140.dll
 VDEST
@@ -5443,7 +5411,7 @@ WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)
+WaitNamedPipe %s failed because no one is listening at that name.
 WaitNamedPipeA
 Waiting
 Waiting for best bootstrap base station candidate...
@@ -5485,6 +5453,7 @@ Watchman flash log downloaded for %s
 Watchman flash log:
 Watchman saw FIFO overflow event
 WatchmanFPGA
+WebInterface
 WideCharToMultiByte
 Win 10
 WinRT
@@ -5505,12 +5474,12 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y51G!
-Y5hN$
+Y5qg!
 Y9"SD
 Y?33s?
 YAHH+
 YAPH+
+YL9%1
 Yl$ M
 Yl$4E
 Yl$hfD
@@ -5548,6 +5517,33 @@ ZL$Xf
 [DepthAugmentedPassthrough] : failed to create the mesh block queue (%d)
 [DepthAugmentedPassthrough] supported on this system: %d
 [FORCEUPDATE]
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
+[IPC] ConvertStringSidToSidA failed for test app %d
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid
+[IPC] Existing file mapping for %s was found
+[IPC] Failed creating auto reset event %s (GLE: %u)
+[IPC] Failed creating file mapping %s: %u
+[IPC] Failed creating mutex %s (GLE: %u)
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x
+[IPC] Failed to open event %s because access was denied
+[IPC] Failed to open file mapping %s because access was denied
+[IPC] Failed to open mutex %s because access was denied
+[IPC] Forced create of Win32 mutex %s but it already existed
+[IPC] Forced create of Win32Event %s but it already existed
+[IPC] Forced create of Win32Event but it already existed
+[IPC] Forced create of Win32Mutex but it already existed
+[IPC] Forced create of file mapping %s but it already existed
+[IPC] GetTokenInformation failed. GetLastError returned: %d
+[IPC] InitializeAcl failed. GetLastError returned: %d
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d
+[IPC] OpenProcessToken failed. GetLastError returned: %d
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d
+[IPC] SharedMem access invalid: %x
+[IPC] The owner SID is invalid.
 [K]taM?
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
@@ -5640,6 +5636,7 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
+\O@K&
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -5972,6 +5969,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthou
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
+cMmO4
 cal_method
 calloc
 camera
@@ -5996,6 +5994,7 @@ closed
 closest
 coeffs
 collectComments
+collisionBounds
 color
 compatible 
 componentType
@@ -6048,6 +6047,7 @@ d$xL;
 d3d11.dll
 da_dk
 danish
+dashboard
 data error
 data->IsInitialized()
 data:application/gltf-buffer;base64,
@@ -6102,6 +6102,7 @@ double
 doubleSided
 double_value
 driver
+driver_holographic
 driver_lighthouse
 driver_lighthouse message window
 driver_lighthouse.dll
@@ -6115,6 +6116,7 @@ driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()
 driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)
 driver_lighthouse: Tracking stopped
 driver_lighthouse: enumerating attached Lighthouse devices HMDs:
+driver_null
 drivers
 drop %08X u%d (i%d)
 dsc_bppx16
@@ -6442,6 +6444,7 @@ insufficient memory
 int32
 int64
 intensity
+internet
 interpolation
 intrinsics
 invalid
@@ -6535,6 +6538,7 @@ joints
 k0i0$
 k?KPm?
 kcizf
+keyboard
 keylength >= 2^30
 known_objects
 known_universes
@@ -6717,6 +6721,7 @@ modelId
 modelNormals
 modelPoints
 model_number
+modelskins
 multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
@@ -6758,6 +6763,7 @@ not enough pixels
 not present
 not running
 not wireless endpoint
+notifications
 ntdll.dll
 ntelD
 null literal
@@ -6861,6 +6867,7 @@ pbrMetallicRoughness
 pd$ D
 pd$@D
 pd$`D
+perfcheck
 perspective
 pitch
 pl_pl
@@ -7226,14 +7233,13 @@ tKfA9
 tPD8B
 tPL9-
 tPfA9i
-tQH95
+tQH95W
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
 tTL9-
-tTL9-ag(
+tTL9-(
 tUA91uPH
-tW'BD
 tXH+A
 tXfff
 t[D8p
@@ -7264,7 +7270,6 @@ texCoord
 text format contains deprecated field "
 text/plain
 textures
-tgfff
 th_th
 the global scope
 the sparse object ob ths accessor doesn't have values
@@ -7285,6 +7290,7 @@ too many codes
 too many length or distance symbols
 toupper
 tpH9.t	H
+tqfff
 trH9}
 tr_tr
 trackedCamera
@@ -7293,6 +7299,7 @@ tracked_camera1
 tracked_cameras
 tracked_controller_role
 tracked_object_json
+trackers
 tracking_camera_intrinsics
 tracking_camera_unique_id
 tracking_reference
@@ -7310,10 +7317,10 @@ twos_complement
 tx<	u#
 t|C9D
 t|SUVH
-t}H9=vt+
+t}H9=F
 t~L9=
-t~L9=09'
-t~L9=Q7'
+t~L9=(Y'
+t~L9=`Z'
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7330,7 +7337,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-
+u<L9-K
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7339,7 +7346,7 @@ uDf9X
 uJf9X
 uKb!?6mH
 uRf;>tM
-uSL9-wd(
+uSL9-
 uSfff
 uZEeu
 ubHcC0I
@@ -7376,6 +7383,7 @@ usbVID
 usePrism
 usedisambiguation
 userdata
+userinterface
 u{L9=
 v(M;l
 v9fff
@@ -7383,7 +7391,7 @@ v=Y]Bv
 v@L;D$P
 vE;E`M
 vHcD$LH
-vOL9-R
+vOL9-
 vQO+t
 value
 values
@@ -8057,7 +8065,7 @@ vrprismhost_startup timed out after %u ms before being set by the new vrprismhos
 vrwebhelper
 vuf?H
 vulkan-1.dll
-v}L9-@k'
+v}L9-p
 w(M9w0tH
 w+OQvr
 wUD;C$}OH

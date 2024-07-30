@@ -60,6 +60,7 @@
 (unknown)
 )D$ L
 )t$ H
+*EE\@r
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -171,7 +172,7 @@
 220801000000Z
 230714000000Z
 2333333
-240525011402Z0/
+240724174135Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -243,7 +244,6 @@
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
-?ofO+
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
@@ -410,7 +410,6 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 G(L9w 
-G;h	!P
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -530,7 +529,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSH3c\p
+RSDS3
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -566,6 +565,7 @@ Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+St,-M
 Syntax error: value, object or array expected.
 T$ A;
 T$0H;
@@ -638,6 +638,7 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
+Wrx%;
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -645,9 +646,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-Y;QfJC
 [K]taM?
-[f5r*
 \$ I;]
 \$ UAVAWH
 \$ UH
@@ -715,6 +714,7 @@ _unlock_file
 `A^A]^[]
 `A_A^A\_^
 `A_A^A]A\_^]
+a4_[.8
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -878,6 +878,7 @@ utf8_to_wide get size error:
 v=Y]Bv
 vector<T> too long
 verbose
+wf?pz
 wide_to_utf8 convert string error: 
 wide_to_utf8 get size error: 
 www.digicert.com1!0

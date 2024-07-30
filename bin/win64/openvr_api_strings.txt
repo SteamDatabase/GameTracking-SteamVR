@@ -34,7 +34,7 @@
  Class Hierarchy Descriptor'
  Complete Object Locator'
  D8d$8t
- D;=8
+ D;=H
  D;j0u
  H3E H3E
  Type Descriptor'
@@ -413,7 +413,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-240525011044Z0/
+240724173807Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -463,7 +463,6 @@ $iMBm
 8_	u7E3
 8_^][
 8ke?;
-8lS'%
 91~/E3
 9>powf
 9Cu,fD9y
@@ -835,6 +834,7 @@ D8|$Ht
 D8|$`t
 D8}?t	H
 D9&tXA
+D9-+ 
 D9B,t
 D9G$s5
 D9J,w
@@ -846,6 +846,7 @@ D9d$$u
 D9g@~2Ic
 D9h(uiE
 D9k(u
+D;%*[
 D;d$$A
 D;d$$u
 D;j0v
@@ -885,13 +886,12 @@ Duplicate key: '
 DuplicateHandle
 DynamicProgressFeedback
 E'i}p&b
-E(f95h
+E(f95x
 E+BHH
 E+BhIcBhM
 E0HcH
 E0Lcx
 E0t H
-E6D&sp)
 E8X@t8A
 E;B0E
 E;Bl}DM
@@ -907,6 +907,7 @@ EnterUmsSchedulingMode
 EnumSystemLocalesEx
 EnumSystemLocalesW
 Eo%lf
+Ew5,L
 Exceeded stackLimit in readValue().
 ExecuteUmsThread
 ExitProcess
@@ -1026,9 +1027,11 @@ H97u+A
 H97uWH
 H98t%H
 H99u{
-H9=C0
-H9=K7
-H9=g1
+H9='/
+H9=/6
+H9=S0
+H9=[7
+H9=w1
 H9A u
 H9Ahs
 H9D$@u
@@ -1196,7 +1199,7 @@ L$pE3
 L$pH3
 L$xfD
 L+t$0
-L9%8	
+L9%H	
 L9L$(D
 L9`8u'L
 L9l$0
@@ -1252,7 +1255,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
-N	>zql
 N3`d?
 N>O=I9
 NAN(IND)
@@ -1268,6 +1270,7 @@ O0LcQ
 OF>;^
 October
 On laptop, HMD detected over USB, but Monitor not found (213)
+P1`A[
 P>q_Y~
 PA^_^
 PA_A^A]A\_^]
@@ -1369,6 +1372,7 @@ T$PH;T$Xu
 T$hH;T$pu
 T$pE3
 T$xD;D$x
+TF+mJ'
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1386,6 +1390,7 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
 U(t	Ak
+U0?jd1
 UA>N0Wl
 UATAUAVAWH
 UAVAWH
@@ -1725,6 +1730,7 @@ Y9"SD
 Y>kX>M
 YD$@f
 YYyhe"B
+Yxi{q
 Z(D9Z
 Z\>z8
 Zod(^?
@@ -2168,6 +2174,7 @@ runtime
 s WATAUAVAWH
 s WAVAWH
 sQA^7&^7%sP@
+s_4O9}
 snan)
 stackLimit
 state not recoverable
@@ -2227,7 +2234,7 @@ t6L;C
 t;LcF
 t<ffff
 t?8_:t
-t?H95e
+t?H95u
 t@LcM
 tA8_:t
 tAm4@
@@ -2323,7 +2330,6 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
-yBlf8$&G
 yH;YXtl
 y\PD>!
 y^QZ8(O*
@@ -2381,6 +2387,7 @@ zwom}
 }LuHO
 }o@8{
 ~ $s%r
+~,7QP
 ~`D8I!t-
 ~qj#k"
 ~t&LN

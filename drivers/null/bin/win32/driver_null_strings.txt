@@ -1,13 +1,14 @@
 	!s99
  %41g
 !hn7!
+$7EeJ
 ',=?k
 (f*^[0
+)&c?%
 +Xt@(
 +o'q)}
 ,W5y+
--e,|[
--ha_+
+-%o"-D
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -72,7 +73,6 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-/vaW3DM^ /
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
 0 0'0l0u0~0
 0$0)0.03080=0B0G0L0Q0V0a0f0k0p0u0z0
@@ -85,16 +85,16 @@
 130801120000Z
 1@2M2t2|2
 1P3Y3q3
+1X4\4`4d4h4l4p4t4x4(5,5054585<5@5D5H5`5d5h5l5p5t5x5|5
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240525010631Z0/
+240724173911Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2X4\4`4d4h4l4p4t4x4(5,5054585<5@5D5H5`5d5h5l5p5t5x5|5
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 303H3N3^3
@@ -162,6 +162,8 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E:R#"bO
+F	f7/
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -270,7 +272,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-kcg^,
 l2|X/gGe
 m0k0$
 malloc
@@ -285,6 +286,7 @@ serialNumber
 steamvr
 string too long
 uCVj@
+u[	 n
 v=Y]Bv
 vector<T> too long
 windowHeight

@@ -31,6 +31,7 @@
 (t$@H
 (|$ H
 )D$ L
+)Rs(^q
 )t$ H
 )t$0H
 )t$@H
@@ -39,7 +40,6 @@
 +o'q)}
 , last executing in 
 ,W5y+
--/e	>
 -1e+9999
 -Infinity
 -u-I;
@@ -148,6 +148,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/mrC/
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -182,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525011848Z0/
+240724174625Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -211,6 +212,7 @@
 </u#H
 <0:08
 <unknown>
+=>Uf_(>
 =rIQU
 >0<0:
 >Mp$d
@@ -428,7 +430,6 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
-E9o$S
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -451,6 +452,7 @@ Error setting foreground window.
 Error setting window position.
 Error showing window.
 Error uploading cursor texture for desktop %d.
+Ewi#l!
 Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
@@ -520,7 +522,6 @@ GetWindowRect
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
-Gm|{:
 GraphicsCaptureSession is not supported.
 H!C@H
 H+SpI
@@ -582,7 +583,7 @@ IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -644,7 +645,6 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
-MSxiq 
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -657,7 +657,6 @@ Missing '}' or object member name
 NPH9Q
 OLEAUT32.dll
 OpenProcess
-OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
 PA^_^
 PA_A^A]A\_^]
@@ -670,7 +669,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS5
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -793,6 +791,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WideCharToMultiByte
+Will not cache name for PID: %d, reason: %d
 WindowView_%s
 WindowsCreateString
 WindowsCreateStringReference
@@ -899,13 +898,11 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cf{-^1
 cs_cz
 czech
 d$`H=
 d$`L;
 d3d11.dll
-d>10iuX
 da_dk
 danish
 dashboard
@@ -915,7 +912,6 @@ desktopview
 dutch
 dwmapi.dll
 dxgi.dll
-e>u?bh
 el_gr
 en_us
 enableWindowView
@@ -936,6 +932,7 @@ french
 german
 gfffffffH
 gfffffffI
+ggCa`
 greek
 h_^[]
 handlers
@@ -1083,7 +1080,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
-w<Qf*
 window_view_created
 window_view_destroyed
 windows
@@ -1091,7 +1087,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-x[G	e-
 zh_cn
 zh_tw
 {un'%

@@ -67,6 +67,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+/7,t&C
 0 0$0(0,0L0P0|0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0q0v0
 0!0'0/070<0B0J0R0W0]0e0m0r0x0
@@ -91,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525010639Z0/
+240724173918Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -111,7 +112,6 @@
 370322235959Z0c1
 380115120000Z0b1
 384<4@4D4\4`4h4
-3as|\
 3mq+<
 3v4!5_5s5}5
 4$4*4/454@4F4U4\4a4j4o4x4
@@ -119,7 +119,6 @@
 4&565>5F5
 4'414;4E4O4Y4c4m4w4
 4'4L4n4
-4[7z(G
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5X6\6`6d6h6l6p6t6x6|6
 5$5(5,545L5\5`5p5t5x5
@@ -245,6 +244,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
+IC$T4
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -270,8 +270,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JrI[Z
-Jxu_o
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -284,6 +282,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+O+ UW
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -333,6 +332,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
+[ rPN
+[67E3=
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -471,7 +472,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-x.fE2
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

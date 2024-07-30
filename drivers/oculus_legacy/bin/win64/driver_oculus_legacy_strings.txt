@@ -5,8 +5,9 @@
  9D$D
  A__^
  H3E H3E
+ p*V#
 !hn7!
-"jAo}
+"B+j5[
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -19,7 +20,6 @@
 )\$pD
 )d$`D
 )t$pu.H
-*\IYxW
 +Xt@(
 +o'q)}
 , last executing in 
@@ -88,12 +88,13 @@
 0w0c1
 0}0i1
 130801120000Z
+1w~Ag?}@oe
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240525011333Z0/
+240724174106Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -106,7 +107,7 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5#]R1?+
+5/,S$O
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -129,7 +130,6 @@
 ;k sAH
 ;k sDH
 <0:08
-<;Qf_
 =rIQU
 >0<0:
 >Mp$d
@@ -188,6 +188,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Ep$SJ
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -239,7 +240,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-K9OEm
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -254,6 +254,7 @@ LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
+Lpoj)p
 M H1E
 M98u/
 MB(iVR
@@ -262,6 +263,7 @@ MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
+O'}c$
 OD$DH
 OVR Runtime Init
 OVRRuntimeWindowThread
@@ -273,7 +275,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS[
+RSDS 
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -319,6 +321,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W E+J
 WATAUAVAWH
 WaitForSingleObject
 WakeAllConditionVariable
@@ -379,6 +382,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
+bv](z
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 camera
 d$`H=
@@ -389,19 +393,19 @@ effffff
 f9<Xu
 getenv
 gfffffffH
-hABUa
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-j]?09
 jj@0HK4
 k0i0$
 l$8E3
 l2|X/gGe
+m+BW8r<
 m0k0$
+m:"T@
 malloc
 map/set<T> too long
 memcmp
@@ -457,6 +461,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+qH3M{
 startup
 string too long
 strncpy
@@ -467,7 +472,6 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t>~Q`
 tIL95
 tXfff
 tdh.dll

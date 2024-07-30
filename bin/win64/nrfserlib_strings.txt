@@ -68,6 +68,7 @@
 !hn7!
 %%.%dg
 %4.4X:%4.4X
+%Oj(S[f
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
@@ -124,7 +125,6 @@
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
-,W7(h
 -1e+9999
 -Infinity
 -external
@@ -633,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525011106Z0/
+240724173833Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -646,7 +646,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3w@[=
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -755,6 +754,7 @@
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?e7~q[
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -1174,6 +1174,7 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
+EMEmV
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1517,8 +1518,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RQ-7U
-RSDS-
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1724,6 +1723,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Washington1
 WideCharToMultiByte
+WndJU
 Write SOB Channel %d.
 Write to BS1 PM Characteristic.
 Write to BS1 PM Characteristic. %d
@@ -1777,8 +1777,8 @@ Zipfile is corrupt or not a zipfile
 \u=H;
 ]J<0"0i3
 ]gfff
+^R0X+
 ^[0-9]+$
-^}3Ug
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1937,6 +1937,7 @@ ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
+j}A.:
 k0i0$
 l$ H=
 l$ VAVAWH
@@ -2178,7 +2179,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-yN#gWHC:
 {un'%
 {x\u!H
 {|?uWH

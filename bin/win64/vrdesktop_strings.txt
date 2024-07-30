@@ -16,8 +16,10 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+$&{0d
 %%.%dg
 %s%s%s%s%s
+& im#
 ' is not a number.
 ',=?k
 (A\_^[
@@ -40,6 +42,7 @@
 , last executing in 
 ,W5y+
 -1e+9999
+-@	EO
 -Infinity
 -u-I;
 .00cfg
@@ -165,7 +168,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525011838Z0/
+240724174614Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -178,7 +181,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4{UIH
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -304,7 +306,6 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
 AttemptSendInput failed.
 AuthD
-BBYWk
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -515,7 +516,7 @@ IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -542,6 +543,7 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
+KyYN>w|
 K}*n:	
 L$ E3
 L$ H;
@@ -572,6 +574,7 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
+M#S|:
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -586,7 +589,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
 OpenProcess
-OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
 PA^_^
 PA_A^A]A\_^]
@@ -599,13 +601,13 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSZ
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+RyMkZ
 S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
@@ -638,6 +640,7 @@ T$ M+
 T$(H9T$0t!H
 T$@fI
 T$XH+
+TJ-)0(
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
@@ -694,6 +697,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+Will not cache name for PID: %d, reason: %d
 Y9"SD
 [K]taM?
 \$ E3
@@ -832,7 +836,6 @@ in Json::Value::setComment(): Comments must start with /
 invalid string position
 it_it
 italian
-j!}23v
 ja_jp
 japanese
 jj@0HK4
@@ -848,7 +851,6 @@ l2|X/gGe
 latam
 list<T> too long
 m0k0$
-m<Qf@
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox

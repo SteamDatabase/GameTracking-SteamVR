@@ -18,6 +18,8 @@
   	"TrackerRole_RightElbow" : "{tundra_labs}/input/tracker/tundra_tracker_right_elbow_profile.json",
   	"TrackerRole_LeftKnee" : "{tundra_labs}/input/tracker/tundra_tracker_left_knee_profile.json",
   	"TrackerRole_RightKnee" : "{tundra_labs}/input/tracker/tundra_tracker_right_knee_profile.json",
+    "TrackerRole_LeftWrist" : "{tundra_labs}/input/tracker/tundra_tracker_left_wrist_profile.json",
+    "TrackerRole_RightWrist" : "{tundra_labs}/input/tracker/tundra_tracker_right_wrist_profile.json",
   	"TrackerRole_Waist" : "{tundra_labs}/input/tracker/tundra_tracker_waist_profile.json",
   	"TrackerRole_Chest" : "{tundra_labs}/input/tracker/tundra_tracker_chest_profile.json",
   	"TrackerRole_Camera" : "{tundra_labs}/input/tracker/tundra_tracker_camera_profile.json",

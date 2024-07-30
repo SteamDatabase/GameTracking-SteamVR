@@ -56,6 +56,7 @@
 !0E0R0[0
 !hn7!
 "0)0C0
+"YIJd
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
@@ -74,12 +75,15 @@ $Vh&*
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
 ' is not a number.
+'%lTZ
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+*L30$
+*\%Xep
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -708,7 +712,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240525010532Z0/
+240724173810Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1635,7 +1639,6 @@ Discovered Service. UUID: 0x%04X, start_handle: %d, end_handle: %d
 Discovering Characteristics on handles [%d..%d].
 Discovering Descriptors on handles [%d..%d]
 Discovering Services at %d.
-DizXP
 DoAttributeDiscoveryContext
 DoAuthenticationContext
 DoBootloaderModeContext
@@ -1646,7 +1649,6 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
-E[>pD
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1908,6 +1910,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS[
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2067,7 +2070,6 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
-W'%WM
 W9shvN3
 WAKEUP
 WOKEN
@@ -2202,6 +2204,7 @@ c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.
 calloc
 close
 cntrl
+d2%+8
 dat_file
 data error
 deque<T> too long
@@ -2292,7 +2295,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-qC?y[BKH#
 realloc
 s?=2N
 sd_ble_cfg_set

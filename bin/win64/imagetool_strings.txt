@@ -3720,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240525011354Z0/
+240724174127Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3887,6 +3887,7 @@ $wtpt
 595x842
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
+5=HgD-3
 5?rM5?
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -4167,7 +4168,6 @@ $wtpt
 ;G$|*H
 ;GIF89a
 ;H91v4
-;HFZ|
 ;M {x
 ;P?<jP?|
 ;Q0t	
@@ -5004,6 +5004,7 @@ A,3B,
 A0D9D
 A0Ic@
 A1YD8K ~
+A2EM4`
 A5~:/y;/u>.z4)
 A8>tZf
 A8H;U v
@@ -10003,7 +10004,6 @@ Levelize/Image
 LevelizeImage
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LiL$p
-Li`9Pt
 Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 Libpng jmp_buf still allocated
 Light
@@ -10138,7 +10138,6 @@ M' pozz magna' o'vetr, e nun m' fa mal.
 M'(:fjgl4
 M(u	I
 M)AxI
-M*ml.T
 M+^(M
 M-|];
 M0v	D
@@ -11653,7 +11652,6 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
-Q;QfG
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -14254,6 +14252,7 @@ ZEK|D
 ZLIBEncodeImage
 ZSoft IBM PC Paintbrush
 ZSoft IBM PC multi-page Paintbrush
+ZUq5o
 ZX-Spectrum SCREEN$
 ZYXbH
 ZYXgH
@@ -14536,7 +14535,6 @@ _CxxThrowException
 _RDATA
 _R_\HES;2?);E0BJ69A04;.49578,LW3r
 _W4~w
-_ZR\QF
 _\cf3
 __C_specific_handler
 __CxxFrameHandler3
@@ -17182,6 +17180,7 @@ iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWj
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
+i]w9,
 iacute
 ibm737
 ibm775
@@ -18801,6 +18800,7 @@ roundRectangle %g,%g %g,%g %g,%g
 row_break_type != G_UNICODE_BREAK_SPACE
 rpelcnt:
 rq@[wa
+rqYP/
 rt+rld
 rtnmH
 rtrpt,
@@ -20810,7 +20810,6 @@ yellow3
 yellow4
 yep:%d:%04x
 yi~(@`
-ymx7ub
 yrI,D
 z"u A
 z#u!H

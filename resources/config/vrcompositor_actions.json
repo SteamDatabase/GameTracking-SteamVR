@@ -189,6 +189,19 @@
       "name": "/actions/dualanalog/in/ModeSwitch2",
       "type": "boolean",
       "scope": "application"
+    },
+    {
+      "name": "/actions/quickmouse/in/ActivateQuickMouse",
+      "type": "boolean",
+      "scope": "application"
+    },
+    {
+      "name": "/actions/locomotion/in/Movement",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/locomotion/in/Rotation",
+      "type": "vector2"
     }
   ],
   "default_bindings": [
@@ -263,6 +276,14 @@
     },
     {
       "name": "/actions/dualanalog",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/quickmouse",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/locomotion",
       "usage": "leftright"
     }
   ],

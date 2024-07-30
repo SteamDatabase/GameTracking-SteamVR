@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	(|\lk
  !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
@@ -68,7 +67,6 @@ $Phdd
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
-(D2PG
 (HANDLE:)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})(-)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})\s([0-9A-F]*)
@@ -82,12 +80,10 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
-(rify#
 +KL+SL_;
 +Xt@(
 +o'q)}
 ,W5y+
-,h._EEM
 -1e+9999
 -ADDR %s
 -Infinity
@@ -220,6 +216,7 @@ $Phdd
 1T3Y3g3l3x4~4
 1X2\2`2d2h2l2p2e3
 1Z2d2l2z2
+1[0~;
 1c2|2
 1e+9999
 1o2w2
@@ -240,7 +237,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240525010537Z0/
+240724173814Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -356,7 +353,6 @@ $Phdd
 7$7-767@7D7H7L7P7T7X7\7`7d7h7l7p7
 7+80868?8
 7-828[8
-7-XUe
 7.7L7v7
 70503
 737:7S7
@@ -392,6 +388,7 @@ $Phdd
 9-999X9]9
 989c9
 9<: <r<
+9?C<>
 9A0t+
 9L=p=|=
 9LHB-u
@@ -715,6 +712,7 @@ Found: %s, size: %d
 G ;B 
 G$;B$
 G0_^]
+GEA\D
 GH+G@
 Gd;Fd|:
 Gd;Fd}$V
@@ -826,6 +824,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS=
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -989,6 +988,7 @@ ViveLinkError_NotFound
 ViveLinkError_Success
 ViveLinkError_Timeout
 ViveLinkLib_GetBaseStationWirelessInterface
+W7h#7
 W9shvN3
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
@@ -1078,7 +1078,6 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
-`9QfVI
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -1094,7 +1093,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
-a|0$h
 bad allocation
 bad array new length
 bad cast
@@ -1110,11 +1108,11 @@ dat_file
 data error
 deque<T> too long
 digit
+e"Rbm
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 f=DFu
-fJT8w
 false
 fclose
 file error
@@ -1131,6 +1129,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iiU.W
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1206,6 +1205,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+r@b0cF-
 realloc
 runas
 space
@@ -1227,7 +1227,6 @@ t hpC
 t0-"N
 t8;G,t
 t<-"N
-tX 0i
 t]SPR
 t`9~\u
 thh(Z
