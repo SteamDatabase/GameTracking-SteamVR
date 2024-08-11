@@ -1,48 +1,49 @@
-	%	V	i	n	
-	)x7+[
- @[(;
-!T$ V
-!This program cannot be run in DOS mode.
-!`-L(`
-")]y*
+ e5r
+!uD0
+!vD0
 #Blob
 #GUID
 #Strings
 'TMPro.TMP_InputField+<CaretBlink>d__267
-(3\-+
+(pz0
 *kV+g
-+R	-#
--^d-,
--t	"`
+-h8I
 .cctor
 .ctor
-.text
-0Yn	jZkX
+0X}k
+0X~0
+0Yn\tjZkX
+0Yvk
+0ik.
 1TMPro.TMP_InputField+<MouseDragOutsideRect>d__285
-1_p	0
+1_p\t0
+1q~W
+2)V\nY
+2Qz0
+2X}j
+2X}k
+3P~W
+4$H0
 4TMPro.TMP_Dropdown+<DelayedDestroyDropdownList>d__72
 4aK(0
 6R{!V
+6X}k
+7.w1
 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46
+7VD0
+7q#V
 8TMPro.TMP_SpriteAnimator+<DoSpriteAnimationInternal>d__7
+8X5K
+95#R
 9E6378168821DBABB7EE3D0154346480FAC8AEF1
 9ZX()
-:*$ V
-:*8 V
+:LD0
 ;i1"V
-;k[+g
+;lD0
 <.cctor>b__3_0
 <>1__state
 <>2__current
 <>4__this
-<>9__100_0
-<>9__101_0
-<>9__32_0
-<>9__33_0
-<>9__6_0
-<>9__6_1
-<>9__7_0
-<>9__7_1
 <>c__DisplayClass10_0
 <>c__DisplayClass12_0
 <>c__DisplayClass13_0
@@ -74,7 +75,6 @@
 <SortKerningPairs>b__7_0
 <SortKerningPairs>b__7_1
 <Start>d__2
-<ZX()
 <autoSizeTextContainer>k__BackingField
 <charInfo>5__3
 <countAll>k__BackingField
@@ -86,10 +86,14 @@
 <targetTime>5__8
 <vertexIndex>5__5
 >Wk(9
+?XiY
 ?Xik"
-?ZX}{
-@.reloc
+?Xis
 A3R-(
+A;H0
+ANIM
+AOg'
+AOr'
 APOSTROPHE
 AThe TextContainer is now obsolete. Use the RectTransform instead.
 AbstractEventData
@@ -134,12 +138,14 @@ Application
 Apply
 Approximately
 ArrayToString
-AscII_Left
-AscII_Right
+As-7
 AssignPositioningIfNeeded
 AsyncCallback
 AutoCorrect
 Autocorrected
+B8j-
+BLUE
+BSJB
 BaseEventData
 BaseInput
 BaseInputModule
@@ -157,13 +163,18 @@ BottomGeoAligned
 BottomJustified
 BottomLeft
 BottomRight
+Bu4-
 ButtonClickedEvent
 C:\perforce\keithb_ZACHT\vr\unity\main\tutorial_2018\Temp\Unity.TextMeshPro.pdb
 COLOR_GRADIENT_PROPERTY_EVENT
 CZik}
+CZil
+CZil\n#
+CZz0
 CalculateLayoutInputHorizontal
 CalculateLayoutInputVertical
 CalculatePreferredValues
+Call
 CameraCallback
 CanvasGroup
 CanvasRenderer
@@ -177,6 +188,7 @@ CaplineLeft
 CaplineRight
 CaretBlink
 CaretInfo
+Ceil
 Center
 CenterGeoAligned
 CenterLine
@@ -218,6 +230,7 @@ Continue
 ConvertLegacyKerningData
 ConvertToFloat
 ConvertToUtf32
+Copy
 CopyMaterialPresetProperties
 CopyMeshInfoVertexData
 CopyPropertiesFromMaterial
@@ -267,6 +280,7 @@ DrawTextHighlight
 DrawUnderlineMesh
 DropdownEvent
 DropdownItem
+EAC\t
 EditState
 Ellipsis
 EmailAddress
@@ -274,6 +288,7 @@ EnableKeyword
 EnableMasking
 EndInvoke
 EnforceContentType
+Enum
 Enumerable
 Epsilon
 Equals
@@ -284,6 +299,7 @@ EventType
 ExecuteAlways
 ExtensionAttribute
 ExtraLight
+F2#R
 FALSE
 FLOAT_MAX
 FLOAT_MIN
@@ -294,9 +310,11 @@ FastAction
 FastAction`1
 FastAction`2
 FastAction`3
+Fel\r|
 FillCharacterVertexBuffers
 FillMesh
 FillSpriteVertexBuffers
+Find
 FindIndex
 FindInstanceID
 FindIntersectingCharacter
@@ -315,6 +333,7 @@ Finish
 FlipLayoutOnAxis
 FloatTween
 FloatTweenCallback
+Font
 FontAssetCreationSettings
 FontEngineError
 FontFeatureLookupFlags
@@ -326,6 +345,7 @@ ForceMeshUpdate
 FormerlySerializedAsAttribute
 FourCornersGradient
 Func`2
+GDH0
 GREEN
 GUIUtility
 GenerateCaret
@@ -432,6 +452,7 @@ HasCharacters
 HasProperty
 Heavy
 HexCharsToColor
+Hide
 HideFlags
 HorizontalGradient
 I6j%r
@@ -521,6 +542,7 @@ IUpdateSelectedHandler
 IgnoreLigatures
 ImmediateDestroyDropdownList
 IndexOf
+Init
 InitializeArray
 InitializeDictionaryLookupTables
 InitializeFontEngine
@@ -568,6 +590,7 @@ IsValidChar
 IsWhiteSpace
 Italic
 IteratorStateMachineAttribute
+KcD0
 KerningPairKey
 KeyCode
 KeyPressed
@@ -579,11 +602,17 @@ Keyword_MASK_TEX
 Keyword_Outline
 Keyword_Ratios
 Keyword_Underlay
+Kgb\r)
+L4Ho
+L8 V
+L\nu\vt
 LastIndexOfAny
 LateUpdate
 Layout/Text Container
 LayoutComplete
 LayoutRebuilder
+Ldb\n
+Lerp
 LineBreakingTable
 LineDownCharacterPosition
 LineHeight
@@ -601,6 +630,7 @@ LoadStyleDictionaryInternal
 LogError
 LogWarning
 LowerCase
+M54q
 MATERIAL
 MATERIAL_PROPERTY_EVENT
 MAX_16BIT
@@ -655,11 +685,15 @@ MultiLineSubmit
 MulticastDelegate
 MultiplyPoint3x4
 N"9%m
+NAME
 NON_BREAKING_HYPHEN
+Na61
 Navigation
 NextPowerOfTwo
+None
 NotSupportedException
 NumericalValue
+O26\f
 ON_COLOR_GRAIDENT_PROPERTY_CHANGED
 ON_COMPUTE_DT_EVENT
 ON_DRAG_AND_DROP_MATERIAL_CHANGED
@@ -703,10 +737,13 @@ OnScrollbarValueChange
 OnSelectItem
 OnTransformParentChanged
 OnUpdateSelected
+Open
 OperatingSystemFamily
 OptionDataList
 OrderBy
 Overflow
+P=6l
+PLUS
 PLUS_EM
 PLUS_PCT
 PLUS_PERCENTAGE
@@ -718,6 +755,7 @@ Paragraph
 ParamArrayAttribute
 ParseInputText
 Password
+Peek
 PerformUpdateForCanvasRendererObjects
 PerformUpdateForMeshRendererObjects
 Pixel
@@ -733,10 +771,12 @@ ProcessEvent
 Processing
 ProgressPercentage
 PropertyToID
+Push
 Quaternion
 R+3 V
 RESOURCE_LOAD_EVENT
 RIGHT_SINGLE_QUOTATION
+RSDS
 RWq(9
 RangeAttribute
 RangeInt
@@ -899,10 +939,12 @@ SetVertexColorGradient
 SetVertices
 SetVerticesDirty
 SetupTemplate
+Sg6\f)
 ShaderTag_CullMode
 ShaderTag_ZTestMode
 ShaderUtilities
 ShadowCastingMode
+Show
 Single
 SingleLine
 SmallCaps
@@ -960,6 +1002,7 @@ TEXTMESHPRO_PROPERTY_EVENT
 TEXTMESHPRO_UGUI_PROPERTY_EVENT
 TEXT_CHANGED_EVENT
 TEXT_STYLE_PROPERTY_EVENT
+TINT
 TMP_Asset
 TMP_Character
 TMP_CharacterInfo
@@ -1018,6 +1061,7 @@ TMPro.SpriteAssetUtilities
 TMPro.TweenRunner`1+<Start>d__2
 TMPro_EventManager
 TMPro_ExtensionMethods
+TRUE
 TabWidth
 TagUnitType
 TagValueType
@@ -1035,6 +1079,8 @@ TextureFormat
 TextureMappingOptions
 TexturePacker
 ThenBy
+Thin
+Tint
 ToArray
 ToList
 ToLower
@@ -1074,8 +1120,8 @@ TryGetValue
 TryPackGlyphInAtlas
 TweenRunner`1
 UI/Dropdown - TextMeshPro#
-UI/TextMeshPro - Input Field
-UI/TextMeshPro - Text (UI)
+UI/TextMeshPro - Input Field\v
+UI/TextMeshPro - Text (UI)\v
 UIBehaviour
 UISystemProfilerApi
 UIVertex
@@ -1135,6 +1181,7 @@ UpgradeFontAsset
 UpgradeGlyphAdjustmentTableToFontFeatureTable
 UpgradeSpriteAsset
 UpperCase
+VWH1
 ValidTarget
 Validate
 ValidateHtmlTag
@@ -1143,39 +1190,74 @@ Vector4
 VertexHelper
 VertexSortingOrder
 VerticalGradient
-W'{!V
 WORD_JOINER
+Whz0
 WillRenderCanvases
 WrapNonExceptionThrows
+XT+A
+XT+C
+XT+w
+XT8@
+XT8Q
+XT8y
+X\n8G
+X\n8j
+X\n8o
+X\n8q
 XadvanceOffset
-Y/g(`
-Y/t(`
+Y/e1
+Y>A2
+Y@D0
 YELLOW
+YT*N
+YZX}
 YZX}{
 YZY}{
-Z	kZX
+Yk(B
+YkZX
 ZERO_WIDTH_SPACE
 ZXX}k
-\"?%m
-\.m8|
-\Ob$+
+ZX}L
+ZX}y
+ZY}K
+Z\tkZX
+\Nz0
+\f DlK
+\f fKP
+\f#\f;\fJ\f^\fl\fr\f}\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r
+\n>\nJ\nf\n]\vc\vo\v
+\nAscII_Left
+\nZXs
+\niZX\n
+\rm_kerningInfo
+\vAscII_Right
+\vzQ%t
+\vzp%u
+\vzz%v
+]9H0
+_26\fI
 _CorDllMain
 _HorizontalAlignmentOptions
 _VerticalAlignmentOptions
 __StaticArrayInitTypeSize=12
 __StaticArrayInitTypeSize=40
-`-G(`
-`.rsrc
-a\#%h
+_lL0
+`44q
 accuracy
 actionOnGet
 actionOnRelease
 add_beginFrameRendering
 add_willRenderCanvases
 addedChar
+adj\v
 adjustmentRecord
 allowedContentTypes
 anchor
+arg0
+arg1
+arg2
 array
 ascender
 ascii_Left
@@ -1184,16 +1266,19 @@ ascii_left
 ascii_right
 aspectRatio
 atlas
+bUK*
 background
 baseID
 baseLine
 baselineStack
 basicStyleStack
 blocker
+bold
 boldSpacing
 boldStyle
 bottomLeft
 bottomRight
+c6C\rs
 callback
 camera
 cameras
@@ -1222,9 +1307,13 @@ controlCharacterCount
 coords
 coroutineContainer
 count
+ctrl
 currentCharacter
 currentValue
 cursor
+d7z0
+d8 V
+data
 delay
 delegates
 descender
@@ -1237,9 +1326,11 @@ empty
 endIndex
 endScale
 eventData
+fWx\v
 fallackMaterial
 fallbackID
 fallbackSpriteAssets
+file
 filename
 first
 firstAdjustments
@@ -1257,6 +1348,7 @@ framerate
 frames
 gUnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 gUnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+ge]y
 get_Chars
 get_Count
 get_First
@@ -1635,7 +1727,10 @@ goToFirstChar
 goToLastChar
 gradient
 gradientPreset
+h1H0
+hTS2
 hUnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+hX}k
 hexChars
 highlight
 ignoreInactive
@@ -1643,6 +1738,7 @@ ignoreTextAutoSizing
 includeFallbacks
 includeFontFeatures
 index_X4
+info
 inputField
 insertionIndex
 instant
@@ -1664,8 +1760,14 @@ isVolumetric
 italic
 italicStyle
 italicTypeface
+item
 itemTemplate
 items
+iv!V
+jV+f
+k5g"
+k5v"
+k@D0
 kBv!V
 kEmailSpecialCharacters
 kHScrollSpeed
@@ -1674,6 +1776,9 @@ kThickHeight
 kThinHeight
 kVScrollSpeed
 kWidth
+kXY\f
+kX}k
+kZs/
 k_DefaultCapacity
 k_DefaultColor
 k_DefaultColorMode
@@ -1698,6 +1803,10 @@ k_lookupStringU
 k_searchedFontAssets
 k_searchedSpriteAssets
 kerningPairs
+knob
+lCH0
+lX}j
+lX}k
 lastCharacterIndex
 lastIndex
 lastVisibleCharIndex
@@ -1713,9 +1822,11 @@ linkIdLength
 linkInfo
 linkTextLength
 linkTextfirstCharacterIndex
+list
 lookup
 loopCountA
 lowercase
+m2%p
 m_ActionOnGet
 m_ActionOnRelease
 m_AllowInput
@@ -2059,7 +2170,6 @@ m_isUsingBold
 m_isUsingLegacyAnimationComponent
 m_isVolumetricText
 m_isWaitingOnResourceLoad
-m_kerningInfo
 m_lastCharacterOfLine
 m_lastVisibleCharacterOfLine
 m_layoutAlreadyDirty
@@ -2176,6 +2286,7 @@ m_worldCorners
 m_xAdvance
 m_xmlAttribute
 marginSize
+mask
 maskCoords
 materialHashCode
 materialReference
@@ -2188,6 +2299,7 @@ missingCharacters
 missingUnicodes
 mscoree.dll
 mscorlib
+mz$1
 nameHashCode
 newMaterial
 newValue
@@ -2196,6 +2308,9 @@ normal
 normalSpacingOffset
 normalStyle
 number
+o;H0
+oX}j
+oX}k
 object
 offset
 old_key
@@ -2213,7 +2328,7 @@ op_Subtraction
 order
 origin
 originalPos
-p*.(a
+pDz0
 packingMode
 pageCount
 pageInfo
@@ -2225,6 +2340,9 @@ previousLineAscender
 previousLineScale
 previous_WordBreak
 progress
+ptC&
+qSx\r
+rX}k
 record
 referenceCount
 referencedFontAssetGUID
@@ -2530,6 +2648,7 @@ set_xPlacement
 set_yAdvance
 set_yPlacement
 shift
+sig!
 simpleVert
 slider
 smallcaps
@@ -2565,6 +2684,9 @@ style_padding
 subscript
 superscript
 syncTextInputBox
+t.s8
+t06&
+t6H0
 tabSize
 tagCount
 tagLength
@@ -2578,12 +2700,16 @@ targetMaterial
 textElement
 textObject
 thickness
+tint
 toRelease
 topLeft
 topRight
 total_CharacterCount
 trimmed
 tweenInfo
+uB#R
+uV#R
+uX}k
 underline
 unicodes
 unitType
@@ -2593,6 +2719,8 @@ uploadChanges
 uploadGeometry
 uppercase
 useAlpha
+uvs0
+uvs2
 v4.0.30319
 vThe fontInfo property and underlying type is now obsolete. Please use the faceInfo property and FaceInfo type instead.
 validRect
@@ -2615,11 +2743,19 @@ visibleOnly
 visible_CharacterCount
 visible_LinkCount
 visible_SpriteCount
+w5#6
+wga 
+wkZ"
 wordCount
 wordInfo
 worldPoint
 writeIndex
 xOffset
+xb01
 y"9%k
 yOffset
-{Y()x
+zF%n
+zF%u
+zQ%n
+zQ%u
+zkZ"

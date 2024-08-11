@@ -1,348 +1,47 @@
-					
-							
-												
-																																												
-																																																																																																																
-								 ( vLinearColor.b <= 0.0031308 ) ? vLinearSegment.b : vExpSegment.b );
-								 ( vLinearColor.g <= 0.0031308 ) ? vLinearSegment.g : vExpSegment.g,
-						  float2 vTexCoord, float2 vDdx, float2 vDdy )
-				 ( -( 12 * B ) - 48 * C ) * f +
-				 ( -18 + 12 * B + 6 * C ) * f2 +
-				 ( 6 - 2 * B ) ) / 6.0;
-				 + ( 6 * B + 30 * C ) * f2 +
-				 8 * B + 24 * C ) / 6.0;
-				centert =  saturate(sin(r*400.0+0.1)*0.5+0.5-r*30.);
-				float r = length( uvcx );
-			// Bottom Image (Fit) (Works the way for scene app + overlays)
-			// Don't do anything if 1:1
-			// Only show pip if filtering is off.
-			float centert = 0.;
-			float outert = max(uvcx.x, uvcx.y) > 0.48;
-			float r2 = dot( rel, rel );
-			float weight = _KernelFcn( sqrt( r2 ) );
-			float2 pixel_offset = texelCenter - vTexCoord;
-			float2 rel = pixel_offset * ddxyRadiusInv * _KernelScale;
-			float2 texelCenter = baseNearestTexelCenter + float2( m, n );
-			float2 uvcx = (uv - float2(0.5,0.75)) * float2(1.0,2.0);
-			if( !( ( ( uint ) g_extraFlags ) & 0x200 ) ) // 512
-			rv.y -= g_RBSize.y/2;
-			samp = lerp( samp, float( 1.0 ), max( centert, outert ) );
-			total_samp += weight * tex.SampleLevel( samplerState, texelCenter * invTextureSize, 0 );
-			total_weight += weight;
-			uv.x = uv.x * 2.0;
-			uv.y = uv.y * 2.0;
-			uvcx = abs( uvcx );
-		#elif PRECODE == 1
-		#elif PRECODE == 1		
-		#else
-		#endif
-		#if PRECODE == 0
-		// Address it so (0,0) is in the top left
-		// Chroma for foveated region.
-		// Convert back into normalized space.
-		// Correctly apply app submitted UVs.
-		// I think this is the right way to do this conversion, back into the soruce image's UVs.
-		// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.
-		// Now it's in [gamesubmittedxy] space, where top corner of box is 0,0.
-		// There's also occasionally an issue at 0.5, since that bumps us into the next pixels, so we're going to do +0.1
-		// Top Image (Foveated), Luma
-		// We have to add 0.1 because if we do 0.0 then the floating point math will sometimes end us up on the wrong side of the pixel and we'll get crunchy pixels.
-		// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.
-		// rv is in 0...g_RBSize space.
-		//samp.rgba *= float4( 0.0, 0.75, 1.0, 1.0 );
-		Texture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );
-		[ %d, 
-		[%d
-		col_b = (fidx == cx && fidy == cy) ? 1.0 : 0.0;
-		col_b = 0.0;
-		col_g = (fidx == cx && fidy == cy) ? 1.0 : 0.0;
-		col_g = 0.0;
-		col_r = (fidx == cx && fidy == cy) ? 1.0 : 0.0;
-		col_r = 1.0;
-		fidx = (CLOCKX-1) - fid % CLOCKX;
-		fidx = fid % CLOCKX;
-		float2 invTextureSize = 1.0 / textureSize;
-		float2 rv = float2( uv.x, 1.0 - uv.y ); // Flip so we're in normal UV space. (the UV going in is flipped)
-		float2 rv = input.position_clip.xy * ((int)SampleScale);
-		float2 textureSize = float2( texsizelevels.x, texsizelevels.y );
-		for ( int n = -DIM; n <= DIM; n++ )
-		if ( ( ( ( uint ) g_extraFlags ) & 0x100 ) ) // 256
-		if ( g_nEye > 0 )
-		int2 SampleCoordFromSubmittedTexture = int2( rv * texsizelevels.xy + 0.1 );
-		int3 texsizelevels;
-		return ( ( -B - 6 * C ) * f3
-		return ( ( 12 - 9 * B - 6 * C ) * f3 +
-		return 0.0;
-		rv += g_CenterAreaOffsetXY;
-		rv /= g_GameSubmittedSizeXY.xy;
-		rv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );
-		rv.x -= g_RBSize.y/2;
-		rv.xy = rv.xy * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy) + g_uvAppSubmittedMinMax.xy;
-		samp = Texture0.Load( int3( SampleCoordFromSubmittedTexture, 0 )  );
-		samp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );
-	!s99
-	"cPingHistogramv1" : [
-	"cRXFailHistogramv1" : [
-	"deltaTimingLog" : [
-	"encTimeHistogramv1" : [
-	"eyeTracking" : [ 
-	"inputDebugAnalog" : [
-	"inputDebugDigital" : [
-	"latencyLog" : [
-	"logVersion" : 1,
-	"networkBandwidthTarget" : %f,
-	"networkBandwidthTest" : "%s",
-	"nowTS" : %u,
-	"nowUS" : %llu,
-	"remoteVersion" : %d,
-	"sAllTimePingHistogramSum" : [
-	"sAllTimePingHistogramSumOS" : [
-	"sPingHistogramv1" : [
-	"sRXFailHistogramv1" : [
-	"soundData" : [
-	"thisVersion" : %d,
-	"variables" : [
-	#elif PRECODE == 1
-	#else
-	#endif
-	#if PRECODE == 0
-	%f Hz
-	// 15 asm instructions
-	//float col;
-	//if (redpixel_at_zero_pos && (!fidx && !fidy && !cx && !cy)) {
-	//samp.rgb = float3( 1000.0/1023.0, 100.0/1023.0, 100.0/1023.0 );
-	0. , 0. );
-	D$HA
-	b!~H
-	bS%HD
-	bSeHD
-	bSmHD
-	bq}J
-	bq}L
-	ddxyRadius2 = max( _MinRadius2, ddxyRadius2 );
-	else
-	else if ( f >= 1.0 && f < 2.0 )
-	else if ( g_bDirectFoveatedSample > 0 )
-	else {
-	float   g_SpatialEncodingMode;
-	float   g_bDirectFoveatedSample;
-	float   g_extraFlags;
-	float   g_nEye;
-	float  g_atlasMode;
-	float  g_presentNumber;
-	float Y = a * rgb.r + b * rgb.g + c * rgb.b;
-	float a = 0.2126;
-	float b = 0.7152;
-	float c = 0.0722;
-	float cb = ( rgb.b - Y ) * d_inv;
-	float col_b;
-	float col_g;
-	float col_r;
-	float cr = ( rgb.r - Y ) * e_inv;
-	float cx = fragpos.x%CLOCKX;
-	float cy = (fragpos.y%CLOCKY);
-	float d_inv = 0.5389092476826902;
-	float ddxyRadius2 = 0.5 * ( dot( vDdx, vDdx ) + dot( vDdy, vDdy ) );
-	float ddxyRadiusInv = 1.0 / sqrt( ddxyRadius2 );
-	float e_inv = 0.63500127000254;
-	float f = abs( x );
-	float f2 = f * f;
-	float f3 = f2 * f;
-	float midpoint = 512.0/1023.0;
-	float total_weight = 0;
-	float2  g_CenterAreaOffsetXY;
-	float2  g_GameSubmittedSizeXY;
-	float2  g_GameTexSize; //NOT GAME TEXT SIZE!!!! OUTPUT TEXT SIZE!!!
-	float2  g_RBSize;
-	float2 baseNearestTexelCenter = floor( vTexCoord ) + 0.5;
-	float2 g_unused; // Formerly squinch
-	float2 uv = input.position_scr.xy;
-	float3 fYUV = RGB709_to_YUV( samp );
-	float3 position_local : POS;
-	float3 texture_local : TEX;
-	float3 vExpSegment = ( 1.055 * pow( vLinearColor.rgb, float3( 1.0 / 2.4, 1.0 / 2.4, 1.0 / 2.4 ) ) ) - 0.055;
-	float3 vGammaColor = float3( ( vLinearColor.r <= 0.0031308 ) ? vLinearSegment.r : vExpSegment.r,
-	float3 vLinearSegment = vLinearColor.rgb * 12.92;
-	float4 clockParameters; // clockParameters[01] = coordinate of clock 0,0; clockParameters[2] = clock
-	float4 g_uvAppSubmittedMinMax;// uMin, vMin, uMax, vMax;
-	float4 position_clip : SV_POSITION;
-	float4 position_scr : TEXCOORD0;
-	float4 samp = FoveatedSample( input, 1.0 );
-	float4 samp = FoveatedSample( input, 2.0 );
-	float4 samp;
-	float4 total_samp = float4( 0.0, 0.0, 0.0, 0.0 );
-	float4 uvMinMax;
-	for ( int m = -DIM; m <= DIM; m++ )
-	if ( f < 1.0 )
-	if (redpixel_at_zero_pos && !(frameid % 64)) {
-	if( fidy & 1 )
-	if( true )
-	if( uv.x < 0.5 )
-	if( uv.y < 0.5 )
-	input.texture_local.x * ( muvMinMax.z - muvMinMax.x ) + muvMinMax.x,
-	input.texture_local.y * ( muvMinMax.y - muvMinMax.w ) + muvMinMax.w,
-	int fid = floor(clockParameters.z/CLOCK_TIME_STEP + 0.5 );
-	int fidx = 0;
-	int fidy = (fid % (CLOCKX*CLOCKY)) / CLOCKX;
-	int frameid = floor(clockParameters.z + 0.5);
-	int redpixel_at_zero_pos = 0; //used for debugging
-	int2 fragpos = (Pos.xy-clockParameters.xy)/CLOCK_CURSOR_SIZE;
-	output.position_clip = float4( input.position_local, 1.0 );
-	output.position_scr = float4( input.texture_local.x, input.texture_local.y, input.texture_local.z, 0.0 );
-	return 0.5;
-	return float4( fYUV.g, fYUV.b, 0, samp.a );
-	return float4( fYUV.r, 0, 0, samp.a );
-	return float4(col_r, col_g, col_b, 1.);
-	return output;
-	return samp;
-	return saturate( float3( Y, cb + midpoint, cr + midpoint ) );
-	return total_samp;
-	return vGammaColor.rgb;
-	samp.rgb = SrgbLinearToGamma( samp.rgb );
-	total_samp *= 1.0 / total_weight;
-	vDdx *= textureSize;
-	vDdy *= textureSize;
-	vTexCoord *= textureSize;
-	vs_out output = (vs_out)0;
-	|$HA
                                                                 0000000000000000000000000000000000000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````````````````````````````````````pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
                                 00000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````pppppppppppppppppppppppppppppppp
                 0000000000000000@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPP````````````````pppppppppppppppp
-    A
-    float3 position_local : POS;
-    float3 texture_local : TEX;
-    float4 position_clip : SV_POSITION; // required output of VS
-    float4 position_tex   : TEXCOORD0;
-  //vs_out output = (vs_out)0; // zero the memory first
-  float4 muvMinMax = uvMinMax;
-  output.position_clip = float4(input.position_local, 1.0);
-  output.position_tex = float4( 
-  output.position_tex = float4(input.texture_local, 1.0);
-  return output;
-  vs_out output;
- !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?Sample message for keylen=blocklen
  !$%(),-"#&'*+./014589<=2367:;>?
  "!#$&%'(*)+,.-/021346578:9;<>=?
- %41g
- %d%c
- '-46
  (does the path point to a directory?)
- *!P"
- ;]X|
- =RDHI
- A]A\_
- A]_^][
- A^A]A\_^
- A^_[
- A^_^
- A_A\[
- A_A\_
- A_A]A\_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\
- A_A^A]A\_
- A_A^]
- A_A^^
- A_A^_
- A_A^_][
- A_A^_^]
- A_^[
- A__[
- A__^
- H3E H3E
- H9O`
  at line 
- bQ}J
- bS}H9
- bq}K
- for detail.
- in Buffer
- in `
- sJE3
- t1J;
- utE3
- u~E3
+ for detail.\n
+ in Buffer\n
  wZiK
- |1fE
- |:fE
-!!cB!!cB
-!""""""
-!&.37<
-!(0)"
 !H88p
-!bq}J
-!bq}L
-!hn7!
 !tI)i
 !tX)i
-!zod:
 " not found in the scene.
-"""""""
-""#$$
-""Df**T~
 "%/28;=#$019:>?
-"%s", "%s"
-"%s", %f
 ". Must be "perspective" or "orthographic"
 "3DUfw
-"9k0t
-"Df"*T~*
+"3ii
 "Q>W1
-"accessors" object not found in .gltf
-"asset" object not found in .gltf or not an object type
-"bR}H|
-"bufferViews" object not found in .gltf
-"buffers" object not found in .gltf
-"nodes" object not found in .gltf
+"accessors" object not found in .gltf\n
+"asset" object not found in .gltf or not an object type\n
+"bufferViews" object not found in .gltf\n
+"buffers" object not found in .gltf\n
+"nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
-"scenes" object not found in .gltf or not an array type
+"scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
-#################### NVENC: %s
+#################### NVENC: %s\n
 ##eF##eFii
-#%N?,=
-#*1892+$
 #0Kz9
-#9i0t
 #?RADIANCE
+#?RADIANCE\n
 #?RGBE
-#D9c0t
-#D9{0t
-#^ak+
+#?RGBE\n
 #bundle
-#define B 0.0
-#define C 0.5
-#define CLOCKX 8
-#define CLOCKY 8
-#define CLOCK_CURSOR_SIZE (8.)
-#define CLOCK_TIME_STEP (1.)
-#define DIM 2
-#define _KernelFcn CatmullRom
-#define _KernelScale 1.0
-#define _MinRadius2 1.0
-#undef DIM
-#undef _KernelScale
-#undef _MinRadius2
-$ %2&8'.(
-$$Hl\\
-$><>t(
-$><>u
-$Hl$\
-$fE1A
-$w!Hc
-%%.%dg
-%%Jo..\r
+$3br
 %%oJ%%oJ$$lH$$lHss
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%,3:;4-&
-%..r\..r\
-%.3f	
 %02X:%02X:%02X
-%02x	
+%02x\t
 %12s: %9s
 %12s:%10.3f
 %13s:%9.3f
@@ -351,223 +50,70 @@ $w!Hc
 %16s:%6.3f
 %3.1fms Opt Net+Dec
 %3.1fms Wt
-%33333
-%3333D3
-%6.3f mbps %3d FPS
-%9k0t
-%9{0t
+%6.3f mbps %3d FPS\n
 %F-%H-%M-%S
-%H8\<
 %I64d
-%UUUU3
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %c%sFailFuzz
 %d ms
-%d, %d%c
-%d,%d
 %d,%d,%d,%d
 %d.%d.%d.%d:%u
-%d/%d hw max [%d], %d in
+%d/%d hw max [%d], %d in\nPair: %s
 %dx%d
-%f %d %d %d %08x
-%f, %f, 
-%s %d
-%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s
-%s [%s] - 
+%f %d %d %d %08x\n
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s begin_ctx=%llu
 %s end_ctx=%llu
-%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x
+%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %u of %u datalinks failed to initialize. Returning the last failure.
-%u,%u
 %u,%u,%u,%u
-%wwwwD
 &&Lj66lZ??~A
-&''Ni
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &5L_jy
-&9k0t
-&D9c0t
-&D9k0t
-&D9{0t
 &Lj&6lZ6?~A?
 ' is not a number.
 ' property is missing
 ' property is missing in 
-' property is missing.
-' property is missing. 
-' property is not a JSON object.
-' property is not a bool type.
-' property is not a number type.
-' property is not a number.
-' property is not a positive integer.
-' property is not a string type.
+' property is missing. \n'
+' property is missing.\n
+' property is not a JSON object.\n
+' property is not a bool type.\n
+' property is not a number type.\n
+' property is not a number.\n
+' property is not a positive integer.\n
+' property is not a string type.\n
 ' property is not an array
-' property is not an integer type.
-' property is not an object.
-' value is not an integer type.
+' property is not an integer type.\n
+' property is not an object.\n
+' value is not an integer type.\n
 '&%$#"! /.-,+*)(76543210?>=<;:98
-''iN''iN
-',=?k
 '.5<=6/7>????????????????
-'9k0t
-'D9c0t
+'SrN
 '[', '{', or a literal
-'bq}Ho
-'uri' is missing from non binary glTF file buffer.
+'uri' is missing from non binary glTF file buffer.\n
 ("<6PZDNxrlf
 (3-!0,1'8"5.*2$
-(?%fU7
-(A\^][
-(A\_^[
-(A^A\^[
-(A^A]^[
-(A^A]_[
-(A_A^A]A\_^][
-(A_A^^[
-(A_A^_[
-(A_A^_]
-(D$ A
-(D$ H
-(D$ I
-(D$ f
-(D$0D
-(D$0H
-(D$0f
-(D$@H
-(D$@L
-(D$@f
-(D$PH
-(L$ D
-(L$ f
-(L$`D
-(L$`E
-(L$pL
-(T$ H
-(T$PD
-(\$@L
-(bq}K
-(d$pD
-(f*^[0
-(o-\-n
-(o-^Dy
-(oA&bs
-(oAdb
-(oAhI
-(oAhM1
-(oAhb
-(oI&bs
-(oQ&b
-(oi&b
-(oy&bs
-(t$ 2
-(t$ H
-(t$0H
-(t$@H
-(t$@L
-(t$@fA
-(t$@sBH
-(t$PD
-(t$PH
-(t$PI
-(t$`H
-(t$p@
-(t$pD
-(t$pL
-(|$ H
-(|$0A
-(|$0H
-(|$0L
-(|$@D
-(|$PL
-(|$Pf
-(|$`D
-(|$`I
-(|$pL
-)){R)){R
 )5lX8
-)9k0t
-)D$ I
-)D$ L
-)D$ f
-)D$0D
-)D$0fD
-)D$0s"L
-)D$0s'A
-)D$@A
-)D$PH
-)L$ fD
-)L$P@
-)L$PL
-)L$pA
-)\$@D
-)bq}J
-)bq}L
-)l$PD
-)t$ A
-)t$ H
-)t$ f
-)t$0A
-)t$0H
-)t$@3
-)t$@D
-)t$@H
-)t$@f
-)t$@fA
-)t$PL;
-)t$Pf
-)t$`3
-)t$pD
-)t$pH
-)w--Z
-)|$ D
-)|$ H
-)|$0E3
-)|$0H
-)|$0Lc
-)|$0f
-)|$0fA
-)|$@D
-)|$@f
-)|$PD
-)|$`D
-)|$`H
-)|$pE
-)|$pf
-**~T**~T
-*uXI;
-+D$$=
-+D$|D
++2Hp
 +HpXhE
-+L$4f
-+Xt@(
-+o'q)}
-,  @`
 , binary size = 
 , but got 
 , column 
 , last executing in 
 , requestedBytes 
-,2FjV
-,4$8_@
-,9k0t%H
-,9l$4L
-,9{0t%H
-,W5y+
---wZ--wZ
+,\n\t"cPingHistogramv1" : [
+,\n\t"cRXFailHistogramv1" : [
+,\n\t"encTimeHistogramv1" : [
+,\n\t"sAllTimePingHistogramSum" : [
+,\n\t"sAllTimePingHistogramSumOS" : [
+,\n\t"sRXFailHistogramv1" : [
+,fff
 -1e+9999
--9k0t&H
--9{0t%H
--D9c0t%H
--H8T8
--H8T9
--H8T:
 -Infinity
 -SC Custom 0 %d
 -startup
--u-I;
 .00cfg
-.6$:g
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -788,7 +334,6 @@ $w!Hc
 .?AVvideoamfenc@@
 .?AVvideoenc@@
 .?AVvideonvenc@@
-.@(t 
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -802,11 +347,11 @@ $w!Hc
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.D9c0t&H
+.HPN
+.bss
 .data
 .data$r
 .edata
-.fA3T0
 .h265
 .idata$2
 .idata$3
@@ -824,23 +369,21 @@ $w!Hc
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.s@t#
 .text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
+.txt
 .xdata
 .xdata$x
-/* outputs from vertex shader go here. can be interpolated to pixel shader */
-/* vertex attributes go here to input to the vertex shader */
-//==============================================================================================
-//q^//q^
+//==============================================================================================\n
 /7?'rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-/9{0t'H
+/9RZ
 /avatar/parameters/LeftEyeLid
 /avatar/parameters/LeftEyeLidExpandedSqueeze
 /avatar/parameters/LeftEyeSqueezeToggle
@@ -899,7 +442,6 @@ $w!Hc
 /output/haptic
 /pose/raw
 /proximity
-/r*L+
 /skeleton/hand/right
 /sl/eyeTrackedGazePoint
 /sl/xrfb/facec/LowerFace
@@ -1011,223 +553,72 @@ $w!Hc
 0(`xPH
 0-pixel image
 00P`00P`
-0A]A\_
-0A^_[
-0A^_^
-0A_A^A\
-0A_A^A\_^
-0A_A^A]A\^
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^^][
-0A_A^_
-0A_A^_^[
-0A_A^_^]
-0A__[
-0A__^
-0D9c0t'H
-0bS}H9
-0bq}K
-0w0c1
+0\v2;i
+0`P0
+0a\v6<
+0n\n&pa
 0x%I64x
-0}0i1
 1 Sec
 1/2/4/8/16-bit only
-10-bit format isn't supported by H264 encoder(NV_ENC_ERR_INVALID_PARAM)
+10-bit format isn't supported by H264 encoder(NV_ENC_ERR_INVALID_PARAM)\n
 10bit
 11 4 22 44 44 22 444444
-11#?*0
 11Sb11Sb""fD""fD77Yn77Yn66Zl66Zl
 127.0.0.1
-130801120000Z
-1G			
-1['E!D
-1bq}J
-1bq}K
-1bq}L
+1bS1
 1e+9999
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-2333333
-240724174114Z0/
-241009235959Z0a1
-2D$x2
-2D$x@2
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2+ss
 2Ht\l
-2T$x2
-2bA~Ho$3bq
-2dV2:tN:
-2dataCount too high (%u)
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2dV2:tN:\n
+2dataCount too high (%u)\n
 3"((xP((xPWW
-311109235959Z0b1
 3333333333333333333333333333333333333333333333333333333333333333
 33Uf33Uf
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3?9y>m0_D@H_
-3ba~H
-3ba~Ho,0bq
-3ba~Ho<0bq
-3ba~I
-3ba~J
-3mq+<
+33fU
+33s?
 3xU)"P
 44\h44\h++}V++}V
 4ESample #4
 4h8px
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4h\4
 55_j55_j,,tX,,tX``
 55j_WW
-5@D5"
-5@D5&Uu
-5@D5*Mu
-5@D54?}
-5@D5F
-5@D5FT
-5@D5J[
-5@D5b
-5@D5f
-5@D5rK|
-5@D5xdq
-5@D5~
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
+5I)7
+6-nn
 6666666666666666\\\\\\\\\\\\\\\\
-6I]Dc
-6OB,n_
-6bA~Ho47bq
-6p7M=:P_:}u
-70503
 7^d[L
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7nY7m
-7u;H;
 88Hp88Hp
-8A^A\
-8A_A^A]A\_[
-8A_A^A]A\_^][
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8\t	H
-8_^][
-8bq}K
+88pH
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8pH8
+8v?i
+9-UA
 99Kr99Kr
 99rKJJ
-9A4uxB
-9C }'L
-9C }.H
-9D$ ti
-9T$XJ
-9\$Hu@H9
-9]pu2
-9b!5@
-9ba5@
-9bq}J
-9bq}L
+9JLX
+9a&g
 9hwN6p
-9k0t$H
-9k0t[D
-9k0t\D
-9k0t_D
-9k0tcH
-9l$@t
-9l$Lt	E
 9p:T;x<
 9rK9J
-9t$4vb
-9|$0ub
-9|$<u
-9|$@u
-: @		fA
-: A		f
-: A		fE
-: B		fA
-: D$	
-: E		f
-: H		fA
-: I		f
-: J		f
-: J		fA
-: P		fA
-: Q		f
-: R		fA
-: X		fA
-: Y		f
-: ]		fA
-: `		fA
-: a		fA
-: b		f
-: b		fE
 : exception thrown in JSON library
-: h		fA
-: j		f
 : one or more FS callback not set
-: p		fA
-: x		fA
-: z		f
 :fff?
 ; expected 
 ; last read: '
-;22dV::tN
-;@l]~
-;K };H
-;K }CH
-;T$$A
-;b35H8
+;22dV::tN\n\n
+;2dt
 ;fD4~
-;f[4~
-;odtQ
-;t$0}
-;t$@sH
-;|$ r
-;|$4r
-< t+<
-</u#H
-<0:08
-<0bA|(
 <3"-xwfiDKZU
-<<Dx<<Dx
-<KG@?
-<U+%.4X>
 <option requires an argument -- %c
 <parse error>
 <uninitialized>
 <unknown>
-='9-6d
-=7p7M}
-================================================================================================
-==Gz==Gz
+================================================================================================\n
 ==zGdd
-=ETLP
-=IBgC
-=SNRtt%
-=TADIt<=DNEI
 =j&&LZ66lA??~
-=p=j?
-=rIQU
-={$H]
->"t-H
->//^q
->0<0:
->4$8,@
->Mp$d
->W`.]tB3?
->ff&?
 ?&&jL&&jLaa
 ?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -1250,8 +641,6 @@ $w!Hc
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
-????????
-??A~??A~
 ??Bid@locale@std@@QEAA_KXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
@@ -1259,9 +648,7 @@ $w!Hc
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?@s#0?LD
-?D85+
-?Error: CreateBuffer could not generate draw geometry.
+?Error: CreateBuffer could not generate draw geometry.\n
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -1315,7 +702,6 @@ $w!Hc
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
-?u='?
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
@@ -1323,317 +709,82 @@ $w!Hc
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@	bq}K
-@ fA9
-@.data
-@.reloc
-@24$A2
-@2t$x@2
-@848u
-@849u
-@8I+@0H
-@8|$pu6
-@A\^]
-@A]A\[
-@A]A\_
-@A]_^
-@A]_^][
-@A^A]A\[]
-@A^A]A\_^
-@A^A]A\_^][
-@A^_^
-@A^_^][
-@A_A\]
-@A_A\_
-@A_A]A\_[
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\_
-@A_A^A]A\_^[
-@A_A^A]A\_^]
-@A_A^A]_[
-@A_A^A]_^][
-@A_A^_
-@A_A^_^]
-@D6/,`H
 @Fatal
-@H9J`
-@HcQdH
-@LcqHD
-@SATAUAVAWH
-@SATAUH
-@SATAWH
-@SATH
-@SAUAVAWH
-@SAUH
-@SAWH
-@SUVATH
-@SUVAVAWH
-@SUVH
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SUVWAUAVAWH
-@SUVWAUH
-@SUVWAVAWH
-@SUVWAVH
-@SUVWH
-@SUWATAUH
-@SUWATAVAWH
-@SUWAVAWH
-@SVATAVH
-@SVAUAVH
-@SVAVAWH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAVAWH
-@SVWATAWH
-@SVWATH
-@SVWAUAV
-@SVWH
-@SWATAUAWH
-@SWATAWH
-@SWAUAVAWH
-@SWAVAWH
-@SWAVH
-@SWAWH
-@UATAUAVAWH
-@UATAVH
-@UATAWH
-@UAUAWH
-@UAVH
-@USATAUAVH
-@USATH
-@USAUAVAWH
-@USAVH
-@USVATAVH
-@USVAVH
-@USVH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAUAWH
-@USVWATAVAWH
-@USVWATAWH
-@USVWATH
-@USVWAUAVAWH
-@USVWAUAVH
-@USVWAUH
-@USVWAWH
-@USVWH
-@USWATAUH
-@USWAUAVAWH
-@USWAUAVH
-@USWAWH
-@UVATAUAVH
-@UVATH
-@UVAUH
-@UVAVH
-@UVWATAUAVAWH
-@UVWATAUAWH
-@UVWATH
-@UVWAUH
-@UVWH
-@UWATAVAWH
-@UWAVAWH
-@UWAWH
-@VATH
-@VAVH
-@VWATH
-@VWAUH
-@VWAVH
-@VWAWH
-@WATAUAVAWH
-@_RDATA
-@b1|@
-@bS}H9
 @fff>fff>fff>fff>
 @jAjB
 @option requires an argument -- %c
-@r0bR}HZQ
-@r2H3
-@r6bR}HZQ
-A	bq}J
-A	bq}L
-A bb5@
-A fA9
-A recoverable error happened to SVLAudioWSAPI.  This will happen until there is a sound source available.
+A recoverable error happened to SVLAudioWSAPI.  This will happen until there is a sound source available.\n
 A valid JSON document must be either an array or an object value.
-A z		
-A"bb5@
-A"br5H
-A$bb5@
-A&bb5@
-A&br5H
-A(bb5@
-A*bb5@
-A*br5H
-A,bb5@
-A.bb5@
-A.br5H
-A0bb5@
-A2bb5@
-A2br5H
-A2bru@
-A3bS%HD
-A3bSmHD
-A3y@H
-A6bb5@
-A9A A
-A9L$4
-A9Q }EI
-A9v0H
-A:bb5@
-A;Q }?I
-A;bS%HD
-A;bSmHD
-A>bb5@
+A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
-ABbb5@
 ACTIVE
-ACbS%HD
-ACbSmHD
 ADVAPI32.dll
-AKbS%HD
-AKbSmHD
-AMF AMFVideoEncoder_HEVC capabilities query failed [ %s ]
-AMF AMFVideoEncoder_HEVC input capabilities query failed [ %s ]
-AMF AMFVideoEncoder_HEVC reports max bitrate %llu
-AMF CreateComponent AMFVideoEncoder_HEVC failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_BITRATE) failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL) failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_THROUGHPUT) failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER) failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_QUERY_TIMEOUT_SUPPORT) failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_REQUESTED_THROUGHPUT) failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_ROI) failed [ %s ]
-AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_SUPPORT_SLICE_OUTPUT) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_COLOR_BIT_DEPTH) = AMF_COLOR_BIT_DEPTH_10 failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_COLOR_BIT_DEPTH) = AMF_COLOR_BIT_DEPTH_8 failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_ENFORCE_HRD) ( true ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_FRAMERATE) ( %d ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_GOP_SIZE) ( 0 ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INITIAL_VBV_BUFFER_FULLNESS) ( %lld ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INPUT_COLOR_PRIMARIES) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INPUT_COLOR_PROFILE) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INPUT_TRANSFER_CHARACTERISTIC) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_MAX_AU_SIZE) ( %lld ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_NOMINAL_RANGE) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_COLOR_PRIMARIES) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_MODE) ( %d ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_TRANSFER_CHARACTERISTIC) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN_10 failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN_10 failed [ %s ]; forcing 8-bit.
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_RATE_CONTROL_SKIP_FRAME_ENABLE) ( false ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_SLICES_PER_FRAME) ( %d ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_TARGET_BITRATE) ( %lld ) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_USAGE) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_VBV_BUFFER_SIZE) ( %lld ) failed [ %s ]
-AMF Version: %llu.%llu.%llu.%llu
-AMF Warning: ROI / Timeout ( %d , %d ).
-AMF Warning: insufficient bitrate/throughput ( %lld , %lld ).
-AMF encoder GetCaps() failed [ %s ]
-AMF encoder Init() failed [ %s ]
-AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL reports %d
-AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER reports %d
+AES0
+AMF AMFVideoEncoder_HEVC capabilities query failed [ %s ]\n
+AMF AMFVideoEncoder_HEVC input capabilities query failed [ %s ]\n
+AMF AMFVideoEncoder_HEVC reports max bitrate %llu\n
+AMF CreateComponent AMFVideoEncoder_HEVC failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_BITRATE) failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL) failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_THROUGHPUT) failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER) failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_QUERY_TIMEOUT_SUPPORT) failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_REQUESTED_THROUGHPUT) failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_ROI) failed [ %s ]\n
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_SUPPORT_SLICE_OUTPUT) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_COLOR_BIT_DEPTH) = AMF_COLOR_BIT_DEPTH_10 failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_COLOR_BIT_DEPTH) = AMF_COLOR_BIT_DEPTH_8 failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_ENFORCE_HRD) ( true ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_FRAMERATE) ( %d ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_GOP_SIZE) ( 0 ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INITIAL_VBV_BUFFER_FULLNESS) ( %lld ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INPUT_COLOR_PRIMARIES) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INPUT_COLOR_PROFILE) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INPUT_TRANSFER_CHARACTERISTIC) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_MAX_AU_SIZE) ( %lld ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_NOMINAL_RANGE) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_COLOR_PRIMARIES) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_MODE) ( %d ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_TRANSFER_CHARACTERISTIC) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN_10 failed [ %s ]; forcing 8-bit.\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN_10 failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_RATE_CONTROL_SKIP_FRAME_ENABLE) ( false ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_SLICES_PER_FRAME) ( %d ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_TARGET_BITRATE) ( %lld ) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_USAGE) failed [ %s ]\n
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_VBV_BUFFER_SIZE) ( %lld ) failed [ %s ]\n
+AMF Version: %llu.%llu.%llu.%llu\n
+AMF Warning: ROI / Timeout ( %d , %d ).\n
+AMF Warning: insufficient bitrate/throughput ( %lld , %lld ).\n
+AMF encoder GetCaps() failed [ %s ]\n
+AMF encoder Init() failed [ %s ]\n
+AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL reports %d\n
+AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER reports %d\n
 AMFInit
 AMFQueryVersion
-AOba~(
-APH+AHH
-ASSERT: "%s" at %s:%d.
-ATAUAVAWA
-ATAUAVAWL
-ATAUAWH
-ATAUH
-ATAVAWH
-ATAVH
-ATAWH
-AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY
-AUDCLNT_E_OUT_OF_ORDER
-AUDIO FAILURE ON m_pAudioClient->GetBufferSize HR Returned: %d
-AUDIO FAILURE ON m_pAudioClient->GetService HR Returned: %d
-AUDIO FAILURE ON m_pAudioClient->SetEventHandle HR Returned: %d
-AUDIO FAILURE: CreateEventEx failed for capture event
-AUDIO FAULURE on m_pAudioClient->Initialize HR Returned: %d
-AUDIO MIC FAILURE ON m_pAudioClient->GetService HR Returned: %d
-AUDIO MIC FAILURE ON m_pAudioClient->Start HR Returned: %d
-AUDIO MIC FAULURE on m_pAudioClient->Initialize HR Returned: %d
+ASSERT: "%s" at %s:%d.\n
+AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
+AUDCLNT_E_OUT_OF_ORDER\n
+AUDIO FAILURE ON m_pAudioClient->GetBufferSize HR Returned: %d\n
+AUDIO FAILURE ON m_pAudioClient->GetService HR Returned: %d\n
+AUDIO FAILURE ON m_pAudioClient->SetEventHandle HR Returned: %d\n
+AUDIO FAILURE: CreateEventEx failed for capture event\n
+AUDIO FAULURE on m_pAudioClient->Initialize HR Returned: %d\n
+AUDIO MIC FAILURE ON m_pAudioClient->GetService HR Returned: %d\n
+AUDIO MIC FAILURE ON m_pAudioClient->Start HR Returned: %d\n
+AUDIO MIC FAULURE on m_pAudioClient->Initialize HR Returned: %d\n
 AUDIO: 
 AUDIO: %s
-A\_^[]
-A\_^]
-A]A\[
-A]A\^
-A]A\_^][
-A]_[]
-A]_^[]
-A]_^]
-A^A\]
-A^A\^
-A^A\^[]
-A^A\_
-A^A\_]
-A^A\_^]
-A^A]A\
-A^A]A\^]
-A^A]A\_^[]
-A^A]_[]
-A^A]_^[]
-A^^[]
-A^_[]
-A^_^][
-A_A\[]
-A_A\_
-A_A\_[
-A_A\_][
-A_A\_^[
-A_A\_^[]
-A_A\_^]
-A_A]A\^[]
-A_A]A\_^[]
-A_A]A\_^]
-A_A]]
-A_A]^]
-A_A]_[]
-A_A^A\
-A_A^A\^]
-A_A^A\_]
-A_A^A\_][
-A_A^A\_^
-A_A^A\_^[
-A_A^A\_^[]
-A_A^A\_^][
-A_A^A]A\
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_H
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A][
-A_A^A][]
-A_A^A]]
-A_A^A]]_^[
-A_A^A]^[]
-A_A^A]_]
-A_A^A]_^[]
-A_A^A]_^][
-A_A^]
-A_A^_
-A_A^_^[]
-A_A^_^]
-A_A^_^][
-A__[]
-A__^[]
 Accessor
 AcquireSRWLockExclusive
 AcquireSRWLockShared
-Activate Error: Unsupported controller type "%s"
-Activating controller on TrackedDeviceIndex_t %d
-Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p p8814Link:%p
+Activate Error: Unsupported controller type "%s"\n
+Activating controller on TrackedDeviceIndex_t %d\n
+Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p p8814Link:%p\n
 ActualHMDDriver
-Adapter is not supported by vrlink (vendor ID %d).
+Adapter is not supported by vrlink (vendor ID %d).\n
 Adding dashboard transform to request
 Adjust relative FOV
 Adobe
@@ -1642,127 +793,65 @@ AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
-Audio %s
-Audio (WASAPI) warning: Failed to get mic playback volume range: 0x%08x
-Audio (WASAPI) warning: Failed to get mic recording endpoint volume
-Audio (WASAPI) warning: Failed to get mic recording volume range: 0x%08x
-Audio (WASAPI): Mic playback volume range: %f - %f (%f)
-Audio (WASAPI): Mic recording volume range: %f - %f (%f). Scale %f
-Audio (WASAPI): Microphone input format changed. Reinitializing.
-Audio (WASAPI): SetEndpointParameters(): GetDeviceFormat failed: hr = 0x%08x
-Audio (WASAPI): SetEndpointParameters(): SetDeviceFormat failed: hr = 0x%08x
-Audio (WASAPI): SetEndpointParameters(): Unknown channel count: %d
-Audio (WASAPI): Speakers format changed. Reinitializing.
-Audio (WASAPI): Steam Streaming Microphone input changed (%d)
-Audio (WASAPI): Steam Streaming Microphone output changed (%d)
-Audio (WASAPI): Steam Streaming Speakers changed (%d)
-Audio (WSAPI): Microphone output format changed. Reinitializing.
-AudioDeviceChangeNotice (noting refresh): %d, device = %s
-AudioThread Error in CoInitializeEx, hr = 0x%08x
-AudioThread finished
-AudioThread started
-AuthD
+Audio %s\n
+Audio (WASAPI) warning: Failed to get mic playback volume range: 0x%08x\n
+Audio (WASAPI) warning: Failed to get mic recording endpoint volume\n
+Audio (WASAPI) warning: Failed to get mic recording volume range: 0x%08x\n
+Audio (WASAPI): Mic playback volume range: %f - %f (%f)\n
+Audio (WASAPI): Mic recording volume range: %f - %f (%f). Scale %f\n
+Audio (WASAPI): Microphone input format changed. Reinitializing.\n
+Audio (WASAPI): SetEndpointParameters(): GetDeviceFormat failed: hr = 0x%08x\n
+Audio (WASAPI): SetEndpointParameters(): SetDeviceFormat failed: hr = 0x%08x\n
+Audio (WASAPI): SetEndpointParameters(): Unknown channel count: %d\n
+Audio (WASAPI): Speakers format changed. Reinitializing.\n
+Audio (WASAPI): Steam Streaming Microphone input changed (%d)\n
+Audio (WASAPI): Steam Streaming Microphone output changed (%d)\n
+Audio (WASAPI): Steam Streaming Speakers changed (%d)\n
+Audio (WSAPI): Microphone output format changed. Reinitializing.\n
+AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
+AudioThread Error in CoInitializeEx, hr = 0x%08x\n
+AudioThread finished\n
+AudioThread started\n
+Auto
 Autodetected %s
 Autodetected Oculus Quest 2
 Autodetected Oculus Quest 3
 Autodetected Oculus Quest Pro
 AvRevertMmThreadCharacteristics
-AvRevertMmThreadCharacteristics failed: last error is %d
+AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 AvgPing
-AyoQ 
-AyoQ0
-AyoQ@
-AyoQP
-AyoQ`
-AyoQp
-AyoX0
-AyoX@
-Ayo``
-Ayop0
-AyopP
-Ayopp
-Ayox 
-Ayox0
-Ayox@
-AyoxP
-Ayox`
-Ayoxp
-Ay~d$
-AzoA I
-AzoA0I
-AzoA@I
-AzoAPI
-AzoA`I
-AzoApI
-Azo] 
-Azod$
-Azoe0
-A~oU 
-B H+B
-B(L+B8b
-B0u6H
+A~Se
 B7=fo
-B8H9B(
 BMP RLE
+BWQP
 Bad escape sequence in string
-Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d
+Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d\n
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bandwidth Selected: %f; Ratio above 60ms: %f
-Bc!! 0
-Bellevue1
-Binding UDP socket to %s
+Bandwidth Selected: %f; Ratio above 60ms: %f\n
+BinW
+Binding UDP socket to %s\n
 BitBlt
 Bookend
-BrqkY
 Buffer
 BufferView
 Bytes received for control connection %d: %d
-C ;s@
-C @8{
-C D8s
-C D8{
-C$9|$0t
-C$E3C
-C%8\7 
-C(H9C0t
-C-8T6 
-C0L9$
-C58L5
-C58L5 
 C77nYmm
-C8H+C0H
-C9 @		
-C9 A		
-C9 C	
 C://temp//firstframes_
 C:\temp
 C:\temp\eventlog.txt
 C:\temp\firstframeslog.txt
 C:\temp\recentlog_
 C:\temp\vrlink_verboselog.json
-C=8D4 
+C@gw
 CAnimResource
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
-CAudioJitterBuffer init: %d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d
+CAudioJitterBuffer init: %d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n
 CBoneMaskResource
-CD$ 3
-CD$(H
-CD$03
-CD$0H
-CD$@3
-CD$P3
-CD$`H
 CKeyframedDataResource
-CL$ 3
-CL$ A
-CL$ H
-CL$0H
-CL$PH
-CL$`H
 CMMNotificationClient::Register
 CN Got Bookend0 %d
 CN Got Bookend1 %d
@@ -1800,13 +889,6 @@ CR Roll Double %d
 CR Roll Norm %d
 CR Roll Skip %d
 CR WaitGetPoses Up %d
-CT$ 3
-CT$ D
-CT$ H
-CT$ L
-CT$(L
-CT$0H
-CT$pH
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
 CVRAudioDeviceImpl::GetDeviceSoundVolume
@@ -1818,20 +900,7 @@ CVRAudioDeviceImpl::SetDeviceSoundVolumeMute
 CVRAudioDevices::GetDefaultAudioDevice
 CVRAudioDevices::Refresh
 CVRLog::LogDirect
-C\$0D
-C\$0H
-C\$0L
-C\$0M
-C\$PE
-C\$PH
-C\$PL
-C\$PM
-C\$`L
-C\$hL9=
-C\$hM
-C\$pH
-C\$pL
-Call to NvEncodeAPIGetMaxSupportedVersion failed.
+Call to NvEncodeAPIGetMaxSupportedVersion failed.\n
 Camera
 CancelIPChangeNotify
 Change Controller Prediction time.
@@ -1839,17 +908,17 @@ Change HMD Prediction in milliseconds.
 Change bandwidth limit.
 Change frame phase of when waitgetposes is requested.
 Change target frame deadline.
-Channel: %d
-ChaperoneReceiver::SetChaperone (len %d)
+Channel: %d\n
+ChaperoneReceiver::SetChaperone (len %d)\n
 Classic
-Client Network Test Result: %s
-Client sent SYST_CLIENT_SHUTDOWN
+Client Network Test Result: %s\n
+Client sent SYST_CLIENT_SHUTDOWN\n
 CloseHandle
 CloseServiceHandle
 CoCreateInstance
-CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x
+CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
 CoInitializeEx
-CoInitializeEx, hr = 0x%08x
+CoInitializeEx, hr = 0x%08x\n
 CoTaskMemAlloc
 CoTaskMemFree
 CoUninitialize
@@ -1859,44 +928,43 @@ Complete reinit success. Took: %0.1fms
 Completing videonvenc::GetEncodedDataThread
 Completing videonvenc::ManageFramesThread
 Completing videonvenc::StartEncodeDataThread
-Configuring VRLINK Chaperone Prop container %08x: Universe %llu
-Connection %s at %f
+Configuring VRLINK Chaperone Prop container %08x: Universe %llu\n
+Connection %s at %f\n
 Connection from %s
-Connection inactive for %f > %d seconds. Sending quit event.
-Connection inactive for %f > %d seconds. Waiting to quit for scene app %s.
-Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x
+Connection inactive for %f > %d seconds. Sending quit event.\n
+Connection inactive for %f > %d seconds. Waiting to quit for scene app %s.\n
+Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
 Control Connection %d closing...
-Could not create OpenGL Context/Window + Debug Window
+Could not create OpenGL Context/Window + Debug Window\n
 Could not find NvEncodeAPICreateInstance in nvEncodeAPI64.dll
 Could not find NvEncodeAPIGetMaxSupportedVersion in nvEncodeAPI64.dll
 Could not find universeID in JSON.
 Could not find universes in JSON.
-Could not load nvEncodeAPI64.dll; Error: %s
-Could not log to disk.
+Could not load nvEncodeAPI64.dll; Error: %s\n
+Could not log to disk.\n
 CreateBitmap
 CreateCompatibleBitmap
 CreateCompatibleDC
-CreateConnectionInfo PermanentFailure.  Code %d
-CreateConnectionInfo failed.  Code %d
+CreateConnectionInfo PermanentFailure.  Code %d\n
+CreateConnectionInfo failed.  Code %d\n
 CreateDirectoryA
 CreateDirectoryW
 CreateEventA
-CreateEventEx failed
+CreateEventEx failed\n
 CreateEventExA
 CreateEventW
 CreateFileA
 CreateFileW
-CreateMediaType(pwfxIn) failed hr = 0x%08x
-CreateMediaType(pwfxOut) failed hr = 0x%08x
-CreateResampler failed: hr = 0x%08x
-CreateResamplerBuffer (input) failed: hr = 0x%08x
-CreateResamplerBuffer (output) failed: hr = 0x%08x
-CreateSwapTextureSet: %dx%d(%d) %d
+CreateMediaType(pwfxIn) failed hr = 0x%08x\n
+CreateMediaType(pwfxOut) failed hr = 0x%08x\n
+CreateResampler failed: hr = 0x%08x\n
+CreateResamplerBuffer (input) failed: hr = 0x%08x\n
+CreateResamplerBuffer (output) failed: hr = 0x%08x\n
 CreateThread
-CreateThread for playback failed: last error is %u
+CreateThread for playback failed: last error is %u\n
 CreateWindowExA
-Creating canvas"%s"
-Creating playback mirror thread for device %s
+Creating canvas"%s"\n
+Creating playback mirror thread for device %s\n
 CryptAcquireContextA
 CryptDecrypt
 CryptDestroyKey
@@ -1907,148 +975,7 @@ CryptImportKey
 CryptReleaseContext
 CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
-Current Driver Version does not support this NvEncodeAPI version, please upgrade driver
-C|$ H
-C|$0H
-C|$0L
-C|$@H
-C|$PL
-D",0M
-D$ A2
-D$ A;
-D$ D+
-D$ E3
-D$ E;
-D$ H+]
-D$ H;
-D$ HcH
-D$ L+
-D$ L;
-D$ Lmff
-D$ M+
-D$ \+
-D$ fA
-D$ fA3
-D$ fD
-D$ fE
-D$ t 
-D$"kcizf
-D$$E3
-D$$fA+
-D$(@88
-D$(A;
-D$(E3
-D$(H+
-D$(H+]
-D$(H9D$ 
-D$(H9D$0t
-D$(H;
-D$(Hi
-D$(I+
-D$(I;
-D$(L;D$PtVI
-D$(M+
-D$(bq
-D$(fD+D$ 
-D$(fI
-D$,9Y
-D$,D;l$8
-D$,I+
-D$,f+D$$fD;
-D$,vT2
-D$/H;
-D$0@8
-D$0D9
-D$0E+
-D$0E3
-D$0H+
-D$0H9Q
-D$0H;
-D$0H;D$Pt
-D$0HrK
-D$0I;
-D$0I;G 
-D$0L;
-D$0L;D$htVI
-D$0fA
-D$0fD
-D$0fff
-D$0tx
-D$1fD
-D$1fpVb
-D$1h~
-D$3Xl5
-D$4I;
-D$8H+
-D$8H;
-D$8Hc
-D$8I;
-D$8L+
-D$8bq
-D$@E3
-D$@H1
-D$@H9Q
-D$@H9Q@t
-D$@H9S@t
-D$@HcH
-D$@I3F
-D$@I;
-D$@fA
-D$@ff
-D$@u'H
-D$DE3
-D$HE3
-D$HHi
-D$Hbq
-D$IfA
-D$P9\$Hu
-D$PE3
-D$PH1
-D$PH9Q
-D$PH;
-D$PI;
-D$PM;
-D$PMc
-D$PfA
-D$PfD
-D$TI;
-D$XA#
-D$XH+
-D$XH9D$8
-D$XH9Q
-D$XHc
-D$XL+
-D$Xbq
-D$Xu)H
-D$`<Qt
-D$`H9D$@
-D$`H;
-D$`H;D$h
-D$`HcH
-D$`I;
-D$`L;
-D$`fA
-D$`fD
-D$`fE
-D$`fI
-D$dA+
-D$hH9D$H
-D$hH;
-D$hHc
-D$hL;
-D$hfA
-D$pE3
-D$pH+
-D$pH;
-D$pH;D$x
-D$pHcH
-D$pI;
-D$pL;
-D$pfA
-D$x9|$<t
-D$xH+
-D$xHc
-D+L$xD
+Current Driver Version does not support this NvEncodeAPI version, please upgrade driver\n
 D3D11CreateDevice
 D3DCOMPILER_47.dll
 D3DCompile2
@@ -2056,46 +983,19 @@ D3DCompileFromFile
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
-D8,8u
-D8-"%
-D848u
-D8d$P
-D8fht/H
-D8o)tJ
-D8o)tU
-D8|$ t A
-D90uGH
-D9@ }
-D9D$D
-D9b4u
-D9c0t
-D9c0t)H
-D9d$(t
-D9vDu
-D9w u-H
-D9{0t
-D9{0t'H
-D9{0t?H
-D9{0tZD
-D9|$@
 D:E^F
-D;L$Dr
-D;l$0
-D;t$$A
-D;v(s
-D;}H|
-D;}Tr
-DD$@H
-DDHfA
+DD.9
+DDec
 DEBUG
-DEBUGGER FAST RESET STREAM
-DEBUGGER FULL RESET STREAM
-DEBUGGER RESET STREAM
+DEBUGGER FAST RESET STREAM\n
+DEBUGGER FULL RESET STREAM\n
+DEBUGGER RESET STREAM\n
+DEnc
 DISABLED
 DPing
 DSend
 Data Link Startup with Options: nTimedRetryOption = %d, nQoSOption = %d
-Datalink failed with %d
+Datalink failed with %d\n
 DeadL %4.1fms
 DefWindowProcA
 DeleteCriticalSection
@@ -2103,17 +1003,9 @@ DeleteFileW
 DeleteObject
 DestroyWindow
 Detail
-Detected %d playback and %d record devices
+Detected %d playback and %d record devices\n
 DeviceMessageWindow_t::RunFrame
-DeviceType %s
-Df""T~**;
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+DeviceType %s\n
 DisableThreadLibraryCalls
 Disconnected VRLink Headset
 Disconnection from %s
@@ -2122,35 +1014,24 @@ Doption requires an argument -- %c
 Dump Frame Log to C:\temp\recentlog.tsv
 Dump Hist
 Duplicate key: '
-E 8<$
-E uBH
 E+pqrstuvwxyz{|}~
-E3]@E
-E8ba~H
-E8ba~I
-E97t8
-E;u`|
-ERROR: AMF CreateContext() failed [ %s ]
-ERROR: AMF CreateSurfaceFromDX11Native on input frame failed [ %s ]
-ERROR: AMF Failed to initialize [ %d ]
-ERROR: AMF InitDX11() failed [ %s ]
-ERROR: AMF SubmitInput() failed [ %s ]
+E1;a
+ERROR: AMF CreateContext() failed [ %s ]\n
+ERROR: AMF CreateSurfaceFromDX11Native on input frame failed [ %s ]\n
+ERROR: AMF Failed to initialize [ %d ]\n
+ERROR: AMF InitDX11() failed [ %s ]\n
+ERROR: AMF SubmitInput() failed [ %s ]\n
 ERROR: Could not initialize UDP driver; unknown session type requested.
 ERROR: Failed to get encryption engine.
-ERROR: Null VTE_CLIENT_SESSION_ID!
-ERROR: Requested GRT type is not supported (type != DIRECTX)
-ERROR: Shaders sum to > 64kB
-ERROR: While trying to request retransmission of packet #%d, too many packets were missing even to retransmit.  Aborting stream.
-ERROR: failed to create/reset encoder in videoamfenc::SubmitFrame()
-ERROR: frame metadata index mismatch
+ERROR: Null VTE_CLIENT_SESSION_ID!\n
+ERROR: Requested GRT type is not supported (type != DIRECTX)\n
+ERROR: Shaders sum to > 64kB\n
+ERROR: While trying to request retransmission of packet #%d, too many packets were missing even to retransmit.  Aborting stream.\n
+ERROR: failed to create/reset encoder in videoamfenc::SubmitFrame()\n
+ERROR: frame metadata index mismatch\n
 EVTYPE_LDASH_PAUSE: Remote was continued
 EVTYPE_LDASH_PAUSE: Remote was paused
-EXH+U
-EXba~H
-EXba~I
-Early TX Failure Streak Hit %d; Aborting and reconnecting.
-EgH9Q@t
-EgH9S@t
+Early TX Failure Streak Hit %d; Aborting and reconnecting.\n
 Empty escape sequence in string
 Empty file.
 EncModeFromString is set to auto. Defaulting to open mode unless overridden.
@@ -2160,83 +1041,79 @@ Encryption mechanism failed encryption test.
 Encryption mechanism fialed to decode.
 Encryption mechanism fialed to encode.
 Encryption not giving expected result %x
-Encryption type: %s
-Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x
-Endpoint topology GetConnector(0) failed: hr = 0x%08x
+Encryption type: %s\n
+Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
+Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
-EnumAudioEndpoints failed: hr = 0x%08x
-Eo%lf
-EoI9W
+EnumAudioEndpoints failed: hr = 0x%08x\n
 Error
-Error activating HMD, unexpected device index: %d
-Error activating controller, Prop_ControllerType_String not set
-Error activating controller, Prop_ModelNumber_String not set
-Error activating controller, VTE_StaticProps_t not available
-Error allocating a MB_MGR
-Error opening override file; Error: %s
-Error parsing json %s
-Error reading %s: Bytes read invalid.
+Error activating HMD, unexpected device index: %d\n
+Error activating controller, Prop_ControllerType_String not set\n
+Error activating controller, Prop_ModelNumber_String not set\n
+Error activating controller, VTE_StaticProps_t not available\n
+Error allocating a MB_MGR\n
+Error opening override file; Error: %s\n
+Error parsing json %s\n
+Error reading %s: Bytes read invalid.\n
 Error sending to control connection %d: %d
-Error setting client handles dashboard state
-Error! EventWriteString Severe: %s
-Error: %s
-Error: Cannot open file %s
-Error: Could not allocate resource for NVENC (%d x %d, %d, %d, %p)  Error: %d
-Error: Could not bind socket
-Error: Could not connect to host connect(%d)
-Error: Could not create sampler
-Error: CreateRenderTargetView could not generate target view.
-Error: D3DCompile2 failed on pixel shader with file %s (%08x)
-Error: D3DCompileFromFile failed on pixel shader with file %s (%08x)
-Error: Failed during nvEncReconfigureEncoder. Errorcode: %d // Would be fatal: %d // %d / %d / %d / %d / %d
-Error: Failed nvEncEncodePicture. Errorcode: %d
-Error: Failed on CreateInputLayout with file %s
-Error: Failed on CreatePixelShader with file %s
-Error: Failed on CreateVertexShader with file %s
-Error: Failed to Unregister completion event %p. Error: %d
-Error: Failed to Unregister resource %p. Error: %d
-Error: Failed to close handle for completion event %p.
-Error: Failed to create completion event %p. Error: %d
-Error: Failed to destroy bitstream buffer %p. Error: %d
+Error setting client handles dashboard state\n
+Error! EventWriteString Severe: %s\n
+Error: %s\n
+Error: Cannot open file %s\n
+Error: Could not allocate resource for NVENC (%d x %d, %d, %d, %p)  Error: %d\n
+Error: Could not bind socket\n
+Error: Could not connect to host connect(%d)\n
+Error: Could not create sampler\n
+Error: CreateRenderTargetView could not generate target view.\n
+Error: D3DCompile2 failed on pixel shader with file %s (%08x)\n
+Error: D3DCompileFromFile failed on pixel shader with file %s (%08x)\n
+Error: Failed during nvEncReconfigureEncoder. Errorcode: %d // Would be fatal: %d // %d / %d / %d / %d / %d\n
+Error: Failed nvEncEncodePicture. Errorcode: %d\n
+Error: Failed on CreateInputLayout with file %s\n
+Error: Failed on CreatePixelShader with file %s\n
+Error: Failed on CreateVertexShader with file %s\n
+Error: Failed to Unregister completion event %p. Error: %d\n
+Error: Failed to Unregister resource %p. Error: %d\n
+Error: Failed to close handle for completion event %p.\n
+Error: Failed to create completion event %p. Error: %d\n
+Error: Failed to destroy bitstream buffer %p. Error: %d\n
 Error: Failed to generate crypt random data.
-Error: Failed to lock output bitstream (%d) = %p. Error: 
-Error: Failed to map input resource[%d] %p. Errorcode: %d
-Error: Failed to parse JSON.
-Error: Failed to unlock output bitstream (%d) = %p. Error: %d
-Error: Failed to unmap input resource %p. Error: %d
-Error: Failed to unmap input resource (%d) = %p. Error: %d
-Error: Got error code %d when trying to create textures. (Fmt: %d / %d)
-Error: Got error during nvEncEncodePicture EOS with NVENCSTATUS. %d
-Error: Got error during nvEncEncodePicture EOS with NVENCSTATUS. %d. Error: %s
+Error: Failed to lock output bitstream (%d) = %p. Error: \n
+Error: Failed to map input resource[%d] %p. Errorcode: %d\n
+Error: Failed to parse JSON.\n
+Error: Failed to unlock output bitstream (%d) = %p. Error: %d\n
+Error: Failed to unmap input resource %p. Error: %d\n
+Error: Failed to unmap input resource (%d) = %p. Error: %d\n
+Error: Got error code %d when trying to create textures. (Fmt: %d / %d)\n
+Error: Got error during nvEncEncodePicture EOS with NVENCSTATUS. %d. Error: %s\n
+Error: Got error during nvEncEncodePicture EOS with NVENCSTATUS. %d\n
 Error: Input resource was null when trying to unmap. Index: %d
-Error: Payload VTE is too small.
+Error: Payload VTE is too small.\n
 Error: Perf: Frame %d not in expected state. Waited 2 seconds for it to resolve but still failed.
-Error: Reinit m_nvenc.nvEncReconfigureEncoder failed with %d
-Error: SVLRoot: Completed server status string too big.
-Error: UDP Could not bind socket
-Error: Unhandled nSpatialEncodeMode, cannot determine nNumSlices
+Error: Reinit m_nvenc.nvEncReconfigureEncoder failed with %d\n
+Error: SVLRoot: Completed server status string too big.\n
+Error: UDP Could not bind socket\n
+Error: Unhandled nSpatialEncodeMode, cannot determine nNumSlices\n
 Error: Unknown transport mode (%s) requested
 Error: XOR0 transport specified, but len too short.
-Error: Your GPU does not support %s for video compression
-Error: cannot create bitstream buffer = %p. Error: %d
-Error: detection unknown (%d)
-Error: enc failed to initialize the session.
-Error: enc uninitialized when submitting a frame
-Error: m_fec not initialized!
-Error: nvEncDestroyEncoder() failed to destroy. Error: %d
-Error: nvEncInitializeEncoder failed
-Error: unsupported mode in CheckOrGenerateSpatialRateControl
+Error: Your GPU does not support %s for video compression\n
+Error: cannot create bitstream buffer = %p. Error: %d\n
+Error: detection unknown (%d)\n
+Error: enc failed to initialize the session.\n
+Error: enc uninitialized when submitting a frame\n
+Error: m_fec not initialized!\n
+Error: nvEncDestroyEncoder() failed to destroy. Error: %d\n
+Error: nvEncInitializeEncoder failed\n
+Error: unsupported mode in CheckOrGenerateSpatialRateControl\n
 EstBW
 EventRegister
 EventUnregister
 EventWriteString
-EventWriteStringThread
-EventWriteStringThread: Could not map view of file (%d).
-EventWriteStringThread: Could not open file mapping object (%d).
-EventWriteStringThread: shared memory mapped %p
+EventWriteStringThread: Could not map view of file (%d).\n
+EventWriteStringThread: Could not open file mapping object (%d).\n
+EventWriteStringThread: shared memory mapped %p\n
+EventWriteStringThread\n
 EventWriteTransfer
-Exba~H
-Exba~I
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
 Extra non-whitespace after JSON value.
@@ -2245,28 +1122,25 @@ Eye Cross %s
 Eye Filt %s
 Eye Pherphery Q Value
 Eye Trk %s
-F8<1u
-FAILED to Activate DirectX 11 Device.
-FAILED: Could not create constant buffer.
+F2`a
+FAILED to Activate DirectX 11 Device.\n
+FAILED: Could not create constant buffer.\n
 FALSE
-FATAL: Failed to open log file %s
-FAULT: Packet too big!!! Can't send!!! Dropping
-FD$0L9
-FD$4L;
-FD$8H;\$X
-FEC decode failure %d %d %d
+FATAL: Failed to open log file %s\n
+FAULT: Packet too big!!! Can't send!!! Dropping\n
+FEC decode failure %d %d %d\n
 FJQ>Wb
 FORMAT=32-bit_rle_rgbe
 FPR: %5.0f%%
 FPR: UNSET
-FS callback[s] not set
+FS callback[s] not set\n
 Fail this % of packets, incoming on this side.
 Fail to TX this % of packets on this side.
 Fail to Video TX this % of packets on this side
 FailHistC
 FailHistH
 Failed to create d3d11textures
-Failed to create d3d11textures: %08x
+Failed to create d3d11textures: %08x\n
 Failed to create shader resource view for texture
 Failed to create window in DeviceMessageWindow_t::Create
 Failed to decode 'uri' : 
@@ -2275,17 +1149,17 @@ Failed to get HINSTANCE in DeviceMessageWindow_t::Create
 Failed to get shared handle interface for d3d11textures
 Failed to get shared handle the shared texture.
 Failed to load external 'uri' for image[
-Failed to parse JSON object
+Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
-Failed to send OGS row update
-Failed to send link bandwidth measurement
-Failed to set thread %p priority: invalid priority %d
+Failed to send OGS row update\n
+Failed to send link bandwidth measurement\n
+Failed to set thread %p priority: invalid priority %d\n
 False
-Fatal: Bad server address with -c [server] : %s
-Fault, SVLFEC Received ExperiencedAnUnrecoverableError()
+Fatal: Bad server address with -c [server] : %s\n
+Fault, SVLFEC Received ExperiencedAnUnrecoverableError()\n
 File is empty : 
 File not found : 
 File open error : 
@@ -2293,26 +1167,18 @@ File open error for writing :
 File read error : 
 File size mismatch : 
 File write error: 
-Finished encoder reinit (%d). Took: %0.3fms
+Finished encoder reinit (%d). Took: %0.3fms\n
 Flags
 Forced Stream reset has failed. Code: 0x13 
 Format string parse failure
-FramesToThrottle
 FreeLibrary
 Full Reinit
-G f9F
-G(M+G I
-G,;O8u
-G0L9g8u
-G8<1u
-G8H9G(
-G8ba~
-G8ba~Ho
+F~Tb
+GAME
 GDI32.dll
-GPU supports %dMB per frame
-GPU supports %dMB per second
-GPU supports 10BIT_ENCODE for video compression
-Gd$hw+I
+GPU supports %dMB per frame\n
+GPU supports %dMB per second\n
+GPU supports 10BIT_ENCODE for video compression\n
 GetACP
 GetAdaptersAddresses
 GetClassInfoA
@@ -2323,9 +1189,9 @@ GetCurrentThread
 GetCurrentThreadId
 GetDC
 GetData
-GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x
-GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x
-GetDefaultAudioEndpoint failed: hr = 0x%08x
+GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetEnvironmentVariableA
 GetExitCodeThread
 GetFileAttributesW
@@ -2334,7 +1200,7 @@ GetFileTime
 GetFullPathNameW
 GetIpNetTable
 GetLastError
-GetMediaSubtype failed hr = 0x%08x
+GetMediaSubtype failed hr = 0x%08x\n
 GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleA
@@ -2346,523 +1212,78 @@ GetSystemTimeAsFileTime
 GetTickCount64
 GetWindowLongPtrA
 GetWindowRect
-Getting devnode property store failed: hr = 0x%08x
-Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
+Getting devnode property store failed: hr = 0x%08x\n
+Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 Got Debug message from client
 Got permanent SVL init failure on hotplug attempt
 GtH|ITJ8K
-Gxba~
-Gxba~Ho
-H	bA}J
-H SVWH
-H SWH
-H!C@H
-H!G0H
-H#E0L
-H#K0L
-H#O0H
-H%l$	
-H+C H;
-H+C0H
-H+D$(I
-H+L$0H
-H+SpH
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H+WpJ
-H+_pH
-H+i8b
-H-^Eu
-H1|$ I
-H3D$(H
-H3D$8H
-H3T$ I
-H3T$8M
-H3|$ 
-H93t	H
-H95o	
-H9A H
-H9Ahs
-H9C t
-H9D$@
-H9D$@u
-H9D$@vPH
-H9D$@vTH
-H9D$P
-H9E8u$H
-H9G t
-H9L$8tDE
-H9Qhv#H
-H9s v9
-H;0u7
-H;0u8H
-H;0u:H
-H;9u|A
-H;Axt
-H;C r
-H;C(v
-H;Cxu
-H;S8r
-H;X`H
-H;Y t
-H;\$(H
-H;\$8
-H;\$HH
-H;\$X
-H;\$h
-H;_ t+H
-H;_ t,H
-H;_ u
-H;s(r
-H;t$`
-H;x`L
-H;{XH
-H;|$0t
-H;|$Pt
-H;|$X
-H;|$Xt
-H;|$`
-H;|$x
-H;}Ht
-H;}PtwH
-H?%Vk
-H?%bl
-H?%y?
-HA_A^A]A\_^][
-HandleUnrecoverableError( %d )
-HcB Hi
-HcD$ Hi
-HcD$$Hi
-HcD$x
-HcF$H
-HcF(;
-HcF(L
-HcFdH
-HcK I
-HcMgH
-HcMgI
-HcOXH
-HcS H
-HcT$ H
-HcT$0A
-Hc]gI
-Hct$@L+
-HiD$0@B
-HiD$8@B
-HiD$@@B
+H6s<
+HandleUnrecoverableError( %d )\n
 HistogramC
 HistogramH
-HkEpd
-HkExd
 HmdDriverFactory
-Ho	bQ
-Ho	ba
-Ho	bq
-Ho bq
-Ho!bq
-Ho$$b
-Ho%	Q<
-Ho% u
-Ho%"s
-Ho%#p>
-Ho%$P
-Ho%%n
-Ho%&N
-Ho%'K
-Ho%(l>
-Ho%)I
-Ho%+?<
-Ho%-h>
-Ho%/.~
-Ho%0c
-Ho%1;<
-Ho%1cu
-Ho%1d>
-Ho%2a
-Ho%57<
-Ho%7`>
-Ho%8*>
-Ho%:3<
-Ho%;\>
-Ho%>&>
-Ho%?/<
-Ho%@X>
-Ho%C+<
-Ho%C`|
-Ho%DT>
-Ho%F^
-Ho%Ht
-Ho%I'<
-Ho%IP>
-Ho%Iyq
-Ho%Ko
-Ho%M#<
-Ho%ML>
-Ho%Mm
-Ho%NM}
-Ho%OJ
-Ho%QH
-Ho%RH>
-Ho%V1~
-Ho%WD>
-Ho%W`u
-Ho%Xb
-Ho%Z`
-Ho%[@>
-Ho%\U
-Ho%`<>
-Ho%f,I
-Ho%jO
-Ho%l_
-Ho%mu=
-Ho%n]
-Ho%sn
-Ho%sq=
-Ho%v%I
-Ho%wm=
-Ho%|i=
-Ho&bQ
-Ho-	Cy
-Ho-	sz
-Ho- 1|
-Ho-!	v
-Ho-!&
-Ho-!7w
-Ho-!pz
-Ho-!}z
-Ho-#7
-Ho-$Jn
-Ho-$Mq
-Ho-%Cp
-Ho-&X
-Ho-'-u
-Ho-'9q
-Ho-(6
-Ho-)&m
-Ho-)1x
-Ho-*zs
-Ho-+2
-Ho-+;x
-Ho-,|p
-Ho-/!y
-Ho-/.v
-Ho-/Un
-Ho-0G}
-Ho-2;
-Ho-2f
-Ho-4Np
-Ho-4\
-Ho-5x
-Ho-6$u
-Ho-6Hx
-Ho-6ap
-Ho-70
-Ho-7mz
-Ho-7v
-Ho-9>x
-Ho-9S
-Ho-9Tr
-Ho-;<}
-Ho-;Q
-Ho-=a
-Ho->L
-Ho-?y
-Ho-@	s
-Ho-AAx
-Ho-ATw
-Ho-BB
-Ho-B[v
-Ho-By
-Ho-C)s
-Ho-D8|
-Ho-Fj
-Ho-Gd
-Ho-HVr
-Ho-Hwm
-Ho-I3w
-Ho-M2r
-Ho-Mkx
-Ho-Nbu
-Ho-O!q
-Ho-Oyw
-Ho-R$|
-Ho-R`m
-Ho-SUm
-Ho-S[y
-Ho-Sr
-Ho-T5u
-Ho-T7p
-Ho-UFr
-Ho-V?|
-Ho-Vb
-Ho-W-x
-Ho-XYs
-Ho-Y5
-Ho-Y]
-Ho-Z+n
-Ho-[*p
-Ho-[n
-Ho-\.
-Ho-]%s
-Ho-]w
-Ho-^!
-Ho-_(y
-Ho-_=n
-Ho-_Ir
-Ho-_Or
-Ho-_u
-Ho-_uy
-Ho-`Mw
-Ho-`]u
-Ho-`_|
-Ho-`r
-Ho-aR
-Ho-aW|
-Ho-a_y
-Ho-bp
-Ho-cxv
-Ho-dD
-Ho-dM
-Ho-e(~
-Ho-eWw
-Ho-fK
-Ho-fxq
-Ho-g)m
-Ho-g,m
-Ho-gcy
-Ho-gpq
-Ho-h2v
-Ho-h@u
-Ho-i!s
-Ho-iDv
-Ho-iLr
-Ho-jmn
-Ho-jr
-Ho-j{
-Ho-k{x
-Ho-me
-Ho-ngy
-Ho-oc
-Ho-oky
-Ho-pE
-Ho-rov
-Ho-tdn
-Ho-u	m
-Ho-w7y
-Ho-wJx
-Ho-wbz
-Ho-y!~
-Ho-z`v
-Ho-|Sp
-Ho-}-r
-Ho-}^s
-Ho4$b
-Ho5)W
-Ho5,n
-Ho5.=k
-Ho5:G;
-Ho5?$
-Ho5OB
-Ho5a$
-Ho5by
-Ho5m{
-Ho5xB
-Ho8bA
-Ho:ba
-Ho='#C
-Ho=,'2
-Ho=,]6
-Ho=/+C
-Ho=:q2
-Ho=>W4
-Ho=>]4
-Ho=>c4
-Ho=>i4
-Ho=Ea
-Ho=Hf5
-Ho=L_A
-Ho=Q E
-Ho=Y2C
-Ho=`P4
-Ho=m%;
-Ho=pG;
-Ho=r%8
-Ho=u$
-Ho=x{L
-Ho=z[2
-Ho={m
-Ho=~p@
-Ho@	b
-HoA	b
-HoA	bQ
-HoALL
-HoB	b
-HoB	ba
-HoH	b
-HoH	bQ
-HoI	b
-HoI	bQ
-HoI b
-HoI2ba
-HoIBba
-HoJ	b
-HoJ	bq
-HoL$	b
-HoP	b
-HoP	bQ
-HoQ	b
-HoQ!b
-HoQ3ba
-HoQCba
-HoT$	b
-HoT$`b
-HoX	b
-HoY	L
-HoY	b
-HoY4ba
-HoYDba
-Ho\$	bq
-Ho\$ab
-Ho`	b
-Ho`	bq
-Hoa	b
-Hoa5bq
-HoaEbq
-Hoh	b
-Hoi	b
-Hoi	bq
-HoiIbq
-Hoj	b
-Hol$	bq
-Hop	b
-Hoq	b
-HoqIb
-HoqJbq
 HostMacPrefix
-Hot$	b
-Hox	b
-Hoy	b
-Hoy	bq
-HoyJH
-HoyJb
-HoyKb
-Ho|$	b
-Hu"Hc
-Hv%%R
-Hv%.j
-Hv%3{
-Hv%^u
-Hv-0X
-Hv-[R
-Hv-dj
-Hv-i{
-I	bq}L
-I!bb-@
-I#bb-@
-I#br-H
-I%bb-@
-I'bb-@
-I'br-H
-I(+K H
-I(I+I H
-I)bb-@
-I+bb-@
-I+br-H
-I-bb-@
-I/bb-@
-I/br-H
-I1bb-@
-I3bSeHD
-I3bSmHD
-I3bb-@
-I3br-H
-I3brm@
-I7bb-@
-I90umf
-I91u_H
-I96u43
-I9<$u
-I9Bhs
-I9F(I
-I9L38|
-I;4$H
-I;4$L
-I;8u?H
-I;V8r
-I;bSeHD
-I;bSmHD
-I;bb-@
-I?bb-@
-IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u
-IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x
-IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x
-IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x
-IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x
-IAudioClient::GetDevicePeriod failed: hr = 0x%08x
-IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms
-IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms
-IAudioClient::GetMixFormat failed: hr = 0x%08x
-IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x
-IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x
-IAudioClient::Stop failed: hr = 0x%08x
-IAudioClientFrom::GetBufferSize failed: hr = 0x%08x
-IAudioClientFrom::Initialize failed: hr = 0x%08x
-IAudioClientFrom::Start failed: hr = 0x%08x
-IAudioClientTo::GetBufferSize failed: hr = 0x%08x
-IAudioClientTo::Initialize failed: hr = 0x%08x
-IAudioClientTo::IsFormatSupported failed: hr = 0x%08x
-IAudioClientTo::SetEventHandle failed: hr = 0x%08x
-IAudioClientTo::Start failed: hr = 0x%08x
-IAudioEndpointVolume supports hardware mute
-IAudioEndpointVolume supports hardware volume
-IAudioEndpointVolume(IAudioClientFrom) supports hardware mute
-IAudioEndpointVolume(IAudioClientFrom) supports hardware volume
-IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x
-IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x
-IAudioEndpointVolume::GetMute failed: hr = 0x%08x
-IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x
-IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x
-IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x
-IAudioEndpointVolume::SetMute failed: hr = 0x%08x
-IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer
-IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
-IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
-ICbSeHD
-ICbSmHD
-ICbb-@
-IDATH
-IE+D$ D+
-IKbSeHD
-IKbSmHD
-IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
-IMFMediaBuffer::Lock failed: hr = 0x%08x
-IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
-IMFMediaBuffer::Unlock failed: hr = 0x%08x
-IMFSample::AddBuffer failed: hr = 0x%08x
-IMFTransform->SetInputType failed hr = 0x%08x
-IMFTransform->SetOutputType failed hr = 0x%08x
-IMFTransform::ProcessInput failed: hr = 0x%08x
-IMFTransform::ProcessOutput failed: hr = 0x%08x
-IMMDevice invalid ID: %ls -> %s
-IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x
-IMMDevice::Activate failed: hr = 0x%08x
-IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x
-IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x
-IMMDevice::GetId failed: hr = 0x%08x
-IMMDevice::GetState failed: hr = 0x%08x
-IMMDevice::Item(%u) failed: hr = 0x%08x
-IMMDevice::OpenPropertyStore failed: hr = 0x%08x
+IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
+IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x\n
+IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod failed: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms\n
+IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms\n
+IAudioClient::GetMixFormat failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x\n
+IAudioClient::Stop failed: hr = 0x%08x\n
+IAudioClientFrom::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientFrom::Initialize failed: hr = 0x%08x\n
+IAudioClientFrom::Start failed: hr = 0x%08x\n
+IAudioClientTo::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientTo::Initialize failed: hr = 0x%08x\n
+IAudioClientTo::IsFormatSupported failed: hr = 0x%08x\n
+IAudioClientTo::SetEventHandle failed: hr = 0x%08x\n
+IAudioClientTo::Start failed: hr = 0x%08x\n
+IAudioEndpointVolume supports hardware mute\n
+IAudioEndpointVolume supports hardware volume\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware mute\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware volume\n
+IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMute failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x\n
+IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMute failed: hr = 0x%08x\n
+IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer\n
+IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x\n
+IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x\n
+IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Lock failed: hr = 0x%08x\n
+IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Unlock failed: hr = 0x%08x\n
+IMFSample::AddBuffer failed: hr = 0x%08x\n
+IMFTransform->SetInputType failed hr = 0x%08x\n
+IMFTransform->SetOutputType failed hr = 0x%08x\n
+IMFTransform::ProcessInput failed: hr = 0x%08x\n
+IMFTransform::ProcessOutput failed: hr = 0x%08x\n
+IMMDevice invalid ID: %ls -> %s\n
+IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x\n
+IMMDevice::Activate failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x\n
+IMMDevice::GetId failed: hr = 0x%08x\n
+IMMDevice::GetState failed: hr = 0x%08x\n
+IMMDevice::Item(%u) failed: hr = 0x%08x\n
+IMMDevice::OpenPropertyStore failed: hr = 0x%08x\n
 IN %d
 IPHLPAPI.DLL
-IPba~(
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND\n
+IPv6
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
@@ -2907,277 +1328,66 @@ IVRSystem_022
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
-Index Controller CreateSkeletonComponent failed.  Error: %i
+Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Infinity
+Info
 Init state
-Init took: %0.3fms.
+Init took: %0.3fms.\n
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-Initializing VRAudioDevices
-Initializing streaming microphone volume to 100
-InputProfilePath %s
-Intel IPSEC AES PERF: %f MByte/s
-Invalid ChromaFormatIDC (NV_ENC_ERR_INVALID_PARAM)
-Invalid ChromaFormatIDC(NV_ENC_ERR_INVALID_PARAM)
-Invalid PixelBitdepth (NV_ENC_ERR_INVALID_PARAM)
+Initializing VRAudioDevices\n
+Initializing streaming microphone volume to 100\n
+InputProfilePath %s\n
+Intel IPSEC AES PERF: %f MByte/s\n
+Invalid ChromaFormatIDC (NV_ENC_ERR_INVALID_PARAM)\n
+Invalid ChromaFormatIDC(NV_ENC_ERR_INVALID_PARAM)\n
+Invalid PixelBitdepth (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.
+Invalid binary data in `Buffer'.\n
 Invalid camera type: "
-Invalid codec guid (NV_ENC_ERR_INVALID_PARAM)
+Invalid codec guid (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid dest on control message
-Invalid encoder width and height (NV_ENC_ERR_INVALID_PARAM)
+Invalid encoder width and height (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid file size : 
 Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
 Invalid network test; no = on first.
-Invalid network test; no;
+Invalid network test; no;\n
 Invalid payload on message to %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsWindow
-IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d
-IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
+IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
+IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 Issues Stream Reset
 Issues complete stream teardown and reinit
 Issues fast stream reset
-Iv%0K
-Iv%9c
-Iv%kx
-Iv=2Q
-Iv=8]
-Iv=\N
-Iv=]K
-Iv=fc
 J16(p
-J3<6H
-J>@G_
-JSON string too short.
-J`H;L
-Jv%*r
-Jv%,p
-Jv%Kb
-Jv%M`
-Jv%oS
-Jv%qQ
-Jv=Vu
-Jv=Xs
+JFIF
+JSON string too short.\n
 KERNEL32.dll
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
-Kf;;u
-KfD;3u
-Kv%.M
-Kv%7e
-Kv%mv
-Kv=4O
-Kv=6_
-Kv=ZP
-Kv=_I
-Kv=ha
-K}*n:	
-L#=#~
-L#=(~
-L#=I$
-L#=R$
-L#=U!
-L#=[$
-L#=^!
-L#=d$
-L#=g!
-L#=m$
-L#=p!
-L#=v$
-L#=y!
-L#F0H
-L#F0L
-L#T$PI
-L$	bq
-L$ E3
-L$ H+
-L$ H3
-L$ H;
-L$ Hc
-L$ HcQ
-L$ I;
-L$ L+
-L$ L;
-L$ M+
-L$ SH
-L$ SUVWAVH
-L$ SUVWH
-L$ SVW
-L$ SVWH
-L$ SW
-L$ SWH
-L$ USVWH
-L$ UVWATAUAVAWH
-L$ UWAUAVAWH
-L$ WATAUAVAWH
-L$ fD
-L$ fE
-L$"H;
-L$$Ic
-L$$f;K
-L$(E3
-L$(H3T$0I
-L$(H9U
-L$(H;
-L$(H;L$`tKH
-L$)bq
-L$0E3
-L$0H3
-L$0H9
-L$0H;
-L$0I3
-L$0Mc
-L$0fA
-L$0fD
-L$0fE
-L$0fI
-L$4D;
-L$4E3
-L$89s(udL
-L$8A+
-L$8D;
-L$8H+
-L$8H;
-L$8H;L$0
-L$8L;
-L$8ff
-L$9bq
-L$@D8	u
-L$@D;
-L$@E3
-L$@H3
-L$@H9t$@ujH
-L$@H;
-L$@L+
-L$@fD
-L$@fE
-L$CI;
-L$HH3
-L$HHc
-L$HI+
-L$HI9T$Xt
-L$Ibq
-L$P@89@
-L$PE3
-L$PH3
-L$PI#
-L$PI+
-L$PfE
-L$XE3
-L$XH3
-L$XHc
-L$XM+
-L$Ybq
-L$\+T$P+L$T
-L$\E3
-L$`E3
-L$`H+
-L$`fD
-L$`fE
-L$`fI
-L$hH3
-L$pE3
-L$pH3
-L$pHcQ
-L$pfD
-L$pfE
-L$xH3
-L$xH;
-L$xM1
-L347H
-L38H+
-L3D$ I
-L3D$(I
-L3D$0I
-L3D$8I
-L3D$@I
-L3D$HI
-L3D$PI
-L3D$XI
-L3D$`I
-L3D$hI
-L3D$pI
-L3D$xI
-L9=2\
-L9=4U
-L9=;V
-L9=;^
-L9=<[
-L9=HW
-L9=MY
-L9=P]
-L9=eT
-L9=vZ
-L9E(H
-L9g u'
-L9g0t
-L9g8tNf
-L9g@t
-L9gHu'
-L9gXu
-L9gXu'
-L9ght
-L9ghu
-L9ghu'
-L9gpu
-L9gpu'
-L9gpv
-L9gpv-L9ghu'
-L9gxu'
-L9gxu8
-L9k8v
-L9l$0
-L9m'u
-L9r@t
-L9rXtgH
-L9rhu
-L9rpu
-L9rpv
-L9rxuZ
-L9t$@
-L9t$@u
-L9|$@
-L9|$`
-L9|$p
-L;8u6H
-L;9~hM
-L;D$x
-L;l$H
-L;l$P
-L;l$p
-L;t$h
-L;|$ t
-L;|$8t
-L<pL;
-L?n(Zy&
-LDHfA
+KwZi
 LINEAR
 LZsYCB
-LaserMouseHmdAngleDegrees %f
+LaserMouseHmdAngleDegrees %f\n
 LastKnown
 Late init successful
 Latency
-Lc E3
-LcD$0A
-Lcl$$I
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
-Link BW hist: w %f  %s
-Link BW: Est %0.01f Mbit/s (auto: %d)
+Link BW hist: w %f  %s\n
+Link BW: Est %0.01f Mbit/s (auto: %d)\n
 Listening for incoming control connections on %d via socket %d
 Lj&&lZ66~A??
 Llist<T> too long
@@ -3190,78 +1400,62 @@ LocalAlloc
 LocalFree
 LocalizationManager
 Logic
-Lv%%a
-Lv%IR
-Lv%tL
-Lv%}d
-Lv=0t
-Lv=[n
-Lv=|^
+LwH'
 LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
-M H1E
 M3fU3
-M98u/
-M9V(M
 M;;va
-M@8t$
-MAJOR WARNING: Something went very wrong with the TX Frame queue
+MAJOR WARNING: Something went very wrong with the TX Frame queue\n
+MAT2
+MAT3
+MAT4
 MAX %3d mbit
-MB(iVR
 MFCreateMediaType
 MFCreateMemoryBuffer
-MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
+MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
 MFCreateSample
-MFCreateSample failed: hr = 0x%08x
+MFCreateSample failed: hr = 0x%08x\n
+MGiI
+MID0
 MMfU33
 MSVCP140.dll
-MS_:F
-MT$dA
-MXD9d$H
-Mailbox %s received message %s, which it didn't have a handler for
+Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
-ManufacturerName %s
+ManufacturerName %s\n
 MapViewOfFile
+MbP?\f
 Mbp?H
 MessageBoxA
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Microsoft Base Cryptographic Provider v1.0
 Microsoft Enhanced RSA and AES Cryptographic Provider
-Mirroring from %s to %ls
-Mirroring is same as source %s, not mirroring
+Mirroring from %s to %ls\n
+Mirroring is same as source %s, not mirroring\n
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing required param "path"
-ModelNumber %s
+ModelNumber %s\n
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
-Mv%'w
-Mv%Rq
-Mv%sa
-Mv="b
-Mv=~t
 MyClass
-N I9N(
 NO SOUND
 NOTPRESENT
-NPH9Q
-NVENC EncodeAPI not found
-NVENC Failed to open an encode session
-NVENC Is now degated.
-NVENC: TearDownEncoder (%p)
-NVENC: TearDownEncoder complete (no encoder to teardown).
-NVENC: TearDownEncoder complete.
-NVENCODER.cpp m_bDebugErrorsFatal = %d
-NVENCODER.cpp m_bOutputInVideoMemory resized to size = %d
-NVENCODER.cpp m_encodeConfig.frameIntervalP = %d
-NVENCODER.cpp m_encodeConfig.rcParams.lookaheadDepth = %d
-NVENCODER.cpp m_nEncoderBuffer = %d
-NVENCODER.cpp m_nMaxPoolBuffers = %d
+NULL
+NVENC EncodeAPI not found\n
+NVENC Failed to open an encode session\n
+NVENC Is now degated.\n
+NVENC: TearDownEncoder (%p)\n
+NVENC: TearDownEncoder complete (no encoder to teardown).\n
+NVENC: TearDownEncoder complete.\n
+NVENCODER.cpp m_bDebugErrorsFatal = %d\n
+NVENCODER.cpp m_bOutputInVideoMemory resized to size = %d\n
+NVENCODER.cpp m_encodeConfig.frameIntervalP = %d\n
+NVENCODER.cpp m_encodeConfig.rcParams.lookaheadDepth = %d\n
+NVENCODER.cpp m_nEncoderBuffer = %d\n
+NVENCODER.cpp m_nMaxPoolBuffers = %d\n
 NVIDIA
 NV_ENC_CAPS_ASYNC_ENCODE_SUPPORT
 NV_ENC_CAPS_DYNAMIC_QUERY_ENCODER_CAPACITY
@@ -3313,30 +1507,29 @@ NV_ENC_CAPS_SUPPORT_WEIGHTED_PREDICTION
 NV_ENC_CAPS_SUPPORT_YUV444_ENCODE
 NV_ENC_CAPS_WIDTH_MAX
 NV_ENC_CAPS_WIDTH_MIN
-NXH9Q
-N`H9y
 N`O0P@Q
-NbQ}Ip
 Neither required `bufferView` nor `uri` defined for image[
-New Session detected; Invalidating.
+New Session detected; Invalidating.\n
 New control connection %d from %s failed in OnConnect
-No IPSEC available
+No IPSEC available\n
 No Link
-No LoadImageData callback specified.
+No LoadImageData callback specified.\n
 No Pair
-No default audio device found to listen to
+No default audio device found to listen to\n
+None
 NormalTextureInfo
+Note
 NotifyRouteChange
-NvAPI_EnumPhysicalGPUs() returned %d
+NrZl
+NvAPI_EnumPhysicalGPUs() returned %d\n
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
-O3,'H
 O44h\
 OPAQUE
+OPEN
 OSCInPort
 OSCOutPort
 OUT %d
-O`J;L
 Object
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)
@@ -3347,59 +1540,39 @@ Oculus Quest2 (Right Controller)
 Oculus Quest3
 Oculus Quest3 (Left Controller)
 Oculus Quest3 (Right Controller)
-OnDefaultDeviceChanged: flow = %s, role = %s, device = %s
-OnDeviceAdded: device = %s
-OnDeviceRemoved: device = %s
-OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s
+OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
+OnDeviceAdded: device = %s\n
+OnDeviceRemoved: device = %s\n
+OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenFileMappingA
 OpenSCManagerW
-OpenSSL AES PERF: %f MByte/s
+OpenSSL AES PERF: %f MByte/s\n
 OpenServiceW
 Orhographic camera description not found.
 OrthographicCamera
-Out of thread local storage!
+Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-Overriding Quest specific properties for %s
-P	bQ}J
-P	bq}K
-P(D9}w
-P(H9|$h
-P(fD;{
+Overriding Quest specific properties for %s\n
+P00`
 P<xD<
-PA\_[
-PA]A\_[]
-PA]A\_][
-PA^_^
-PA^_^][
-PA_A]A\_^
-PA_A^A]A\[
-PA_A^A]A\]
-PA_A^A]A\_
-PA_A^A]A\_^[
-PA_A^A]A\_^]
-PA_A^A]_^][
-PA_A^]
-PA_A^_
-PA_A^_^]
-PAq=?Mp#
 PCGNV_ENC_CAPS_NUM_MAX_BFRAMES
+PICT
+PID_
+PNG\r\n
 PPxD<<%
 PRECODE
-Pair: %s
-Pairing to address: %s
-Pairing to broadcast address not allowed.
+Pairing to address: %s\n
+Pairing to broadcast address not allowed.\n
 Parse error: 
-Parse failed for JSON message in mailbox %s: %s
-Parsing of JSON string "%s" failed: %s
+Parse failed for JSON message in mailbox %s: %s\n
+Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
-PbS}H9
 PeekMessageA
 Perf warning: Getting from SubmitFrame to StartEncode took %0.3fms
 Perspective camera description not found.
 PerspectiveCamera
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PolyPolygon
 PolyPolyline
 Pose from headset invalid. Ignoring.
@@ -3410,66 +1583,34 @@ Primitive
 Pro Audio
 PropVariantClear
 Public
-Pz}b!
-Q	bq}J
-Q	bq}L
-Q bb%@
-Q br=H
-Q j		
-Q"bb%@
-Q$bb%@
-Q$br=H
-Q&bb%@
-Q(bb%@
-Q(br=H
-Q*bb%@
-Q,bb%@
-Q,br=H
-Q.bb%@
-Q0bb%@
-Q0br=H
-Q0br}@
-Q2bb%@
-Q4bb%@
-Q8bb%@
-Q<bb%@
-Q@bb%@
-QDbb%@
-QL9r0t
 QPeA~S
-QQba~(
 QSeA~
-QZ^&A
-QZ^&QZ^&QZ^&QZ^&
 QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&
 Qkkbal
-QoS is Disabled.  Not setting SIO_SET_QOS
+QoS is Disabled.  Not setting SIO_SET_QOS\n
 QoSEnabled
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R##Fe
-R$fE;B*
-R(D9ug
-R09\$`L
-R89|$0u
 R;vM;
-RFOV: %d%%
 RPCRT4.dll
 RRvM;;
+RSDS
 RX Fail:%d
+R\vpL
 RaiseException
-Rate Remark: %d %d
-Ready to activate controller %s
+Rate Remark: %d %d\n
+Ready to activate controller %s\n
 Received 0 byte message on control connection. Disconnecting
-Received GPU Architecture %d
-Received frame outside of backtrack window.  Resetting.
-Received mirror reset event
-Received mirror reset event after %u passes, %llu samples
-Received mirror stop event
-Received mirror stop event after %u passes, %llu samples
+Received GPU Architecture %d\n
+Received frame outside of backtrack window.  Resetting.\n
+Received mirror reset event after %u passes, %llu samples\n
+Received mirror reset event\n
+Received mirror stop event after %u passes, %llu samples\n
+Received mirror stop event\n
 ReceivedHMDStaticProps.  Model Number: %s (%d)
-Refreshing audio devices
+Refreshing audio devices\n
 RegCloseKey
 RegEnumValueW
 RegOpenKeyExW
@@ -3479,9 +1620,8 @@ RegisterDeviceNotificationA
 Release
 ReleaseSRWLockExclusive
 ReleaseSRWLockShared
-RemapTimeMS
-RenderModelName %s
-Reported HMD model is %d
+RenderModelName %s\n
+Reported HMD model is %d\n
 ReqEncMode
 Reserved1
 Reserved2
@@ -3492,11 +1632,10 @@ Reserved6
 Reset Fast
 Reset Stream
 Reset video stream because frame ID was not what we expected. wgp id (%d) - last id (%d) = diff: (%d)
-Reset video stream because we had a stream reset request [wgpReset:%d != lastReset:%d]
+Reset video stream because we had a stream reset request [wgpReset:%d != lastReset:%d]\n
 ResetEvent
-ResourceRoot %s
+ResourceRoot %s\n
 Retry
-RlK8`K8
 RootNode
 RouterMacPrefix
 RpcStringFreeA
@@ -3507,13 +1646,7 @@ RtlVirtualUnwind
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S0Q0O
 S11b?
-S8H+S0H
-S8H+S`H
-SATAUAVAWH
-SATAUH
-SA|X=G
 SC Custom 1 %d
 SC Custom 2 %d
 SC Custom 3 %d
@@ -3534,6 +1667,7 @@ SE Unknown 7 %d
 SE Unknown 8 %d
 SE Unknown 9 %d
 SE Wait For Encode Data %d
+SEnc
 SHELL32.dll
 SHGetFolderPathW
 SN Debug Mark A %d
@@ -3559,8 +1693,6 @@ SN SendBookendN %d
 SN SendDone %d
 SN SendProcessRetry nr=%d
 SN Unknown1 %d
-SPB8t
-SPB8u,
 SR PostPresent %d
 SR PostPresent Hold %d
 SR Preesnt Done %d
@@ -3579,35 +1711,23 @@ SR Unknown6 %d
 SR WGP Acquired %d
 SR WGP Failed %d
 SSend
-SUAWH
-SUCCESS: Shader compilation successful. %s
-SUVWATAUAVAWH
-SUVWATAUAVAWIc
-SUVWATAUAVH
-SUVWATAUH
-SUVWATAVH
-SUVWAU
-SUVWAUAVAWH
-SUVWAVAWH
-SUVWAVH
-SUVWH
-SUWATAWH
+SUCCESS: Shader compilation successful. %s\n
 SVLAudioWSAPI::AudioThread
-SVLAudioWSAPI::SVLAudioWSAPI(...)
-SVLControllerDriver::ProcessEvent: Haptic Failed to send
+SVLAudioWSAPI::SVLAudioWSAPI(...)\n
+SVLControllerDriver::ProcessEvent: Haptic Failed to send\n
 SVLCryptWindows CryptAcquireContext succeeded for generation.
 SVLCryptWindows CryptAcquireContext succeeded.
 SVLCryptWindows Error during CryptAcquireContext (Error = %08x)
 SVLCryptWindows Error during CryptAcquireContext for random generation (Error = %08x)
 SVLCryptWindows Failed to CryptImportKey key %08x
 SVLCryptWindows Failed to create key.
-SVLDataLink::HandleFECChange( %d )
-SVLDataLink::InitCrypt() With %lu remaining key max
+SVLDataLink::HandleFECChange( %d )\n
+SVLDataLink::InitCrypt() With %lu remaining key max\n
 SVLDataLink::InitCrypt() m_TransportMode = %d // %d
 SVLDataLink::InitCrypt(...,%d,%d)
-SVLDataLinkUDP -> Post Shutdown Sock: %d
-SVLDataLinkUDP -> Sending: %d
-SVLDataLinkUDP -> r = %d
+SVLDataLinkUDP -> Post Shutdown Sock: %d\n
+SVLDataLinkUDP -> Sending: %d\n
+SVLDataLinkUDP -> r = %d\n
 SVLDataLinkUDP: Found available QOS service! (Socket creation = %d)
 SVLDataLinkUDP: LocalAlloc failed with %d
 SVLDataLinkUDP: No QOS service found (But created socket anyway)
@@ -3617,20 +1737,20 @@ SVLDataLinkUDP: WSAEnumProtocols failed with %d
 SVLDataLinkUDP: WSAIoctl failed with %d
 SVLDataLinkUDP::Disconnect()
 SVLDataLinkUDP::RXThread
-SVLDataLinkUDP::RXThread() Cleaned up
+SVLDataLinkUDP::RXThread() Cleaned up\n
 SVLDataLinkUDP::Reconnect() Failure
 SVLDataLinkUDP::Reconnect() Join Complete
 SVLDataLinkUDP::Reconnect() Joining Thread %p
 SVLDataLinkUDP::Reconnect() Thread Create Complete
-SVLDataLinkUDP::Shutdown(); Disconnect() complete
-SVLDataLinkUDP::Shutdown(); Thread Join Complete.
-SVLDataLinkUDP::Shutdown(); m_nQuit = %d
-SVLDriver::ActivateHMDNow()
-SVLDriver::Init()
-SVLDriver::Init() Complete
+SVLDataLinkUDP::Shutdown(); Disconnect() complete\n
+SVLDataLinkUDP::Shutdown(); Thread Join Complete.\n
+SVLDataLinkUDP::Shutdown(); m_nQuit = %d\n
+SVLDriver::ActivateHMDNow()\n
+SVLDriver::Init() Complete\n
 SVLDriver::Init() failed. Returning failure from init so we'll be unloaded.
-SVLFEC: frame %d was entirely dropped, initializing and re-requesting
-SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, bookend %d)
+SVLDriver::Init()\n
+SVLFEC: frame %d was entirely dropped, initializing and re-requesting\n
+SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, bookend %d)\n
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
 SVLFEC::ProcessTXVideoFrameThreadFunction
 SVLFEC::ReportStreamReset() (m_iLastAcknowledgeFrameNumber = %d)
@@ -3643,48 +1763,39 @@ SVLHMDDriver::InitializeOSC: OSC was (re)initialized successfully. In Port: %i, 
 SVLHMDDriver::InitializeOSC: OSC was disabled
 SVLHMDDriver::PostPresent
 SVLHMDDriver::Present
-SVLHMDDriverD3D11::Activate() D3D11CreateDevice(...) = %d
+SVLHMDDriverD3D11::Activate() D3D11CreateDevice(...) = %d\n
 SVLHMDDriverD3D11::CreateSwapTextureSet() completed.
 SVLHMDDriverD3D11::ReleaseSync
-SVLHMDDriverD3D11::SVLHMDDriverD3D11() %s
-SVLHMDDriverDirectX11::SubmitLayer() can't find texture %p
+SVLHMDDriverD3D11::SVLHMDDriverD3D11() %s\n
+SVLHMDDriverDirectX11::SubmitLayer() can't find texture %p\n
 SVLRoot::EventsThread
-SVLRoot::SVLRoot() Arg Parsed
-SVLRoot::SVLRoot() Parsing Arg (%d)
-SVLRoot::SVLRoot() Parsing Data
-SVLRoot::SVLRoot() sReqEncMode = %s
-SVLRoot::Shutdown() complete
-SVLRoot::Shutdown() m_pAudio->Stop() done
-SVLRoot::Shutdown() m_pLink->PrepareForPossibleShutdown()
-SVLRoot::Shutdown() m_thdEventsThread complete
-SVLRoot::Shutdown() start
-SVLServer::SVLServer(...)
-SVLServer::Shutdown()
-SVWATAU
-SVWATAUAVAWH
-SVWATAUAVH
-SVWATAUf
-SVWAVAWH
-SVWUAUAVAWH
-SWATAUAVAWH
-SWATH
-SWAUAVH
-SWAWH
+SVLRoot::SVLRoot() Arg Parsed\n
+SVLRoot::SVLRoot() Parsing Arg (%d)\n
+SVLRoot::SVLRoot() Parsing Data\n
+SVLRoot::SVLRoot() sReqEncMode = %s\n
+SVLRoot::Shutdown() complete\n
+SVLRoot::Shutdown() m_pAudio->Stop() done\n
+SVLRoot::Shutdown() m_pLink->PrepareForPossibleShutdown()\n
+SVLRoot::Shutdown() m_thdEventsThread complete\n
+SVLRoot::Shutdown() start\n
+SVLServer::SVLServer(...)\n
+SVLServer::Shutdown()\n
+S\vJsf
 Sample message for keylen=blocklen
-SamplerState SampleType;
 SbEwd
 ScreenToClient
+See 
 SelectObject
 SendUpdatedFramerateRequest: Failed to find preferred refresh rate of %.2f in available display frequencies. Using set display frequency
 SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
 Sending quit event because SteamVR launched for streaming and client has quit.
-SerialNumber %s
+SerialNumber %s\n
 SessionID
 Set sideband error for 15s
-Set thread %p priority to: %d
+Set thread %p priority to: %d\n
 SetBitmapBits
-SetDefaultAudioDevice: device = %s, role = %d
+SetDefaultAudioDevice: device = %s, role = %d\n
 SetEvent
 SetFileAttributesW
 SetLastError
@@ -3692,10 +1803,10 @@ SetPixel
 SetThreadPriority
 SetUnhandledExceptionFilter
 SetWindowLongPtrA
-Setting VTE_USE_ENCODE_TARGET_WIDTH = %d
-Setting m_nTargetEncodeWidth: %d
-Setting up context with NvAPI_D3D1x_CreateLowLatencyDeviceHint() = %d
-Setting up context with NvAPI_D3D1x_DeclareVRProcessType(NVAPI_VR_PROCESS_COMPOSITOR) = %d
+Setting VTE_USE_ENCODE_TARGET_WIDTH = %d\n
+Setting m_nTargetEncodeWidth: %d\n
+Setting up context with NvAPI_D3D1x_CreateLowLatencyDeviceHint() = %d\n
+Setting up context with NvAPI_D3D1x_DeclareVRProcessType(NVAPI_VR_PROCESS_COMPOSITOR) = %d\n
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
 SetupDiGetClassDevsW
@@ -3708,21 +1819,21 @@ ShowWindow
 Sideband Err
 Single block msg
 Single block msgKU8O
+Skin
 Sleep
 SleepConditionVariableCS
-Socket bound to port %d
-Soft AES PERF: %f MByte/s
+Socket bound to port %d\n
+Soft AES PERF: %f MByte/s\n
 Sound
 Spot light description not found.
-StartEncMS
 StartNvEnc
-Starting NVENC reset configuration Cause Mask: %d%d%d%d%d%d
-Starting encoder reset (%d)...
-Starting encoder reset with reallocate (%d)...
-Starting session in mode %d
+Starting NVENC reset configuration Cause Mask: %d%d%d%d%d%d\n
+Starting encoder reset (%d)...\n
+Starting encoder reset with reallocate (%d)...\n
+Starting session in mode %d\n
 Starting session with AES Mode 0
 Starting session with ID: %08x
-Steam Argument Count: %d
+Steam Argument Count: %d\n
 Steam Streaming Microphone
 Steam Streaming Speakers
 SteamStreaming
@@ -3730,97 +1841,29 @@ SteamVR Remote Detailed Debug
 SteamVRDriverVRLinkBwStats
 SteamVRDriverVrlink
 Still no dongle after USB device detection
-Stopping playback mirror thread
+Stopping playback mirror thread\n
 SubFlags%d
 Submit
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
-T$	bq
-T$ D+
-T$ D3
-T$ E3
-T$ E;
-T$ H1
-T$ H;
-T$ I;
-T$ Ic
-T$ M+
-T$ fD
-T$$I+
-T$$f;
-T$&ba~I
-T$(ATAUAV
-T$(ATAUAVfD
-T$(H+
-T$(H9T$0t!H
-T$(H;
-T$(M	
-T$(fD
-T$*bq
-T$.ba~
-T$.ba~I
-T$0E3
-T$0H+
-T$0I+
-T$0fA
-T$6ba~I
-T$8;T$<
-T$8H+
-T$8uBH
-T$:bq
-T$>ba~
-T$>ba~I
-T$@H;
-T$@Hc
-T$@I;
-T$@L;
-T$@fD
-T$HE3
-T$HH;
-T$HHc
-T$Jbq
-T$PA;
-T$PH;T$Xu
-T$PL;
-T$PM;
-T$PfD
-T$XA#
-T$XE3
-T$XH;
-T$Zbq
-T$`D+
-T$`D;
-T$`ff
-T$fbq~K
-T$hH;T$pu
-T$pD;
-T$pE3
-T$pL;
-T$pfA
-T$pfD
-T$xE3
-T$xH;
-T$xL;
 T00`P
-T6$:.
+TEST
 THROTTLE EVENT: %d
 TRR: %d
+TRUE
 TX Fail:%d
-TX Failure Streak Hit %d; Aborting and reconnecting.
-T[$:.6
+TX Failure Streak Hit %d; Aborting and reconnecting.\n
 TdhEnumerateManifestProviderEvents
-Temporary AMF encoder Init() succeeded for 10-bit
-Temporary AMF encoder Init() with 10-bit failed [ %s ]; forcing 8-bit.
+Temporary AMF encoder Init() succeeded for 10-bit\n
+Temporary AMF encoder Init() with 10-bit failed [ %s ]; forcing 8-bit.\n
 TerminateProcess
-Texture2D  Texture0;
 TextureInfo
-TfD;u
-The VRLink Driver encountered a fatal error:
+The VRLink Driver encountered a fatal error:\n%s\n
 This Program Requires Windows NT
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
-Timed out waiting for another accepted video packet, trying to force the stream reset
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
+Timed out waiting for another accepted video packet, trying to force the stream reset\n
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -3829,80 +1872,47 @@ Toggle Cross in center of image.
 Toggle Eye Filtering.
 Toggle foveated transmission (eye tracking).
 Too short data size for glTF Binary.
-Tp=9y>m0_D@H_
-TrackingSystemName %s
+TrackingSystemName %s\n
 TranslateMessage
-Trying to submit frames out-of-order.  Only possible on catastrophic network failure
-U 8,$
+True
+Trying to submit frames out-of-order.  Only possible on catastrophic network failure\n
+Ts\ne
 U(Px(
-U@8l$
-UATAUAVAW
-UATAUAVAWH
-UATAUAVAWI
-UAUAVAWH
-UAVAWH
-UDP BIND: %d CONN: %d
-UDP Driver
+U33f
+U4ot
+UDP BIND: %d CONN: %d\n
+UDP Driver\n
 UNKNOWN
 UNPLUGGED
 UPing
-USATAWH
-USATH
 USER32.dll
 USERNAME
-USVATAUAWH
-USVAUAVAWH
-USVWATAUAVAWH
-USVWATAUAVH
-USVWAUH
-USVWAVAWH
-USVWAVAWI
-USWAUAVH
-USWAUAWH
-USWAUH
-USWAVH
 UUPx((
-UUUUA3
-UUUUE3
-UUUUUUU
 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
-UVATAVAWH
-UVATH
-UVAUAWH
-UVAUH
-UVWATAUAVAWH
-UVWATAUAWH
-UVWATAVH
-UVWATAWH
-UVWAVAWH
-UWATAVAWH
-UWATAVH
-UWAVH
-UWAWH
 U^cQ`
 Unable to determine VR Path Registry filename
-Unable to get IMMDeviceEnumerator, hr = 0x%08x
-Unable to get default from IMMDevice, hr = 0x%08x
-Unable to get to IMMDevice %s, hr = 0x%08x
-Unable to load avrt.dll
-Unable to load bind mfplat.dll and/or avrt.dll
-Unable to load mfplat.dll
+Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
+Unable to get default from IMMDevice, hr = 0x%08x\n
+Unable to get to IMMDevice %s, hr = 0x%08x\n
+Unable to load avrt.dll\n
+Unable to load bind mfplat.dll and/or avrt.dll\n
+Unable to load mfplat.dll\n
 Unable to open svl/driver device mailbox
 Unable to open vrlink client mailbox for %s
 Unable to parse 
 Unable to parse control connection message %s: %s
 Unable to parse token length
 Unable to read VR Path Registry from 
-Unable to set UDP socket to SO_BROADCAST
+Unable to set UDP socket to SO_BROADCAST\n
 Unacc
-Unexpected WaitForMultipleObjects return value %u
-Unexpected WaitForMultipleObjects return value %u on pass %u
+Unexpected WaitForMultipleObjects return value %u on pass %u\n
+Unexpected WaitForMultipleObjects return value %u\n
 Unhandled VTE_DASHBOARD_ACTION evType %d
 UnhandledExceptionFilter
 UniDither
 Unknown
-Unknown / confusing key identifier: %s
-Unknown VTE: %d [%d/%d/%d]
+Unknown / confusing key identifier: %s\n
+Unknown VTE: %d [%d/%d/%d]\n
 Unknown control connection message type %d
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
@@ -3913,24 +1923,23 @@ UnregisterClassA
 UnregisterDeviceNotification
 Unsupported `type` for accessor object. Got "
 UpdateWindow
-Using 10bit mode: %d
-Using AVX
-Using AVX2
-Using NOAESNI
-Using SSE
+Using 10bit mode: %d\n
+Using AVX2\n
+Using AVX\n
+Using NOAESNI\n
+Using SSE\n
 UuidCreate
 UuidFromStringA
 UuidToStringA
-V H+V
-V)/^]4
 V22dN::t
-VATAUH
-VATAVH
-VAVAWH
 VCRUNTIME140.dll
 VDEST
+VEC2
+VEC3
+VEC4
 VERSION MISMATCH
-VR Path Registry node %s is not an array
+VID_
+VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
 VRLinkRX
 VRLinkTX
@@ -3942,51 +1951,34 @@ VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VTE_AVAILABLE_DISPLAY_FREQUENCIES: Available frametimes packet mismatch!
 VTE_AVAILABLE_DISPLAY_FREQUENCIES: Available frametimes received
-VTE_AVAILABLE_DISPLAY_FREQUENCIES: Availble HMD Frequencies:
-VTE_REQ_FRAMETIME_US = %d
-VTE_STRING_VERSION_NUMBER = %s
-VTE_STRING_VERSION_NUMBER was not formatted in 3 parts. Error. %s
+VTE_AVAILABLE_DISPLAY_FREQUENCIES: Availble HMD Frequencies:\n
+VTE_REQ_FRAMETIME_US = %d\n
+VTE_STRING_VERSION_NUMBER = %s\n
+VTE_STRING_VERSION_NUMBER was not formatted in 3 parts. Error. %s\n
 VTX Fail:%d
-VWATAUAVAWD
-VWATAUAVAWL
-VWATAUAVH
-VWATAUAWH
-VWATAVAWH
-VWATH
-VWAUAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 VerSetConditionMask
 VerifyVersionInfoW
 Version
 W  `@  `@LL
-W8H+W`I
-WARNING Initializing frame number %d.  Expected size too large (%d > %d).
-WARNING: Corrupt UDP packet went long (%d size, %d left, %d total length)
-WARNING: Could not acquire encoded data buffer from codec.
+WARNING Initializing frame number %d.  Expected size too large (%d > %d).\n
+WARNING: Corrupt UDP packet went long (%d size, %d left, %d total length)\n
+WARNING: Could not acquire encoded data buffer from codec.\n
 WARNING: Could not find steam streaming microphone output.
-WARNING: Could not initialize frame on hardware.
-WARNING: GPU Does not support 10BIT_ENCODE for video compression
-WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]
-WARNING: SVLFECRXFrame::Initialize called before SVLRenderer available.
-WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.
-WASAPI Could not get policy config
-WASAPI: EnumAudioEndpoints failed: hr = 0x%08x
-WASAPI: FAILED to find Steam Streaming Microphone
-WASAPI: Found Device ID match
-WASAPI: Found Device: %s
-WASAPI: IMMDevice invalid ID: %ls -> %s
-WASAPI: IMMDevice::GetId failed: hr = 0x%08x
-WASAPI: IMMDevice::Item(%u) failed: hr = 0x%08x
-WASAPI: pCurrentDevice->Activate = 0x%08x (Failed = %d)
-WASAPI: pCurrentDevice->Activate IAudioEndpointVolume = 0x%08x (Failed = %d)
-WATAUAVAW
-WATAUAVAWH
-WATAUH
-WAVAWH
+WARNING: Could not initialize frame on hardware.\n
+WARNING: GPU Does not support 10BIT_ENCODE for video compression\n
+WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
+WARNING: SVLFECRXFrame::Initialize called before SVLRenderer available.\n
+WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.\n
+WASAPI Could not get policy config\n
+WASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n
+WASAPI: FAILED to find Steam Streaming Microphone\n
+WASAPI: Found Device ID match\n
+WASAPI: Found Device: %s\n
+WASAPI: IMMDevice invalid ID: %ls -> %s\n
+WASAPI: IMMDevice::GetId failed: hr = 0x%08x\n
+WASAPI: IMMDevice::Item(%u) failed: hr = 0x%08x\n
+WASAPI: pCurrentDevice->Activate = 0x%08x (Failed = %d)\n
+WASAPI: pCurrentDevice->Activate IAudioEndpointVolume = 0x%08x (Failed = %d)\n
 WGPRX
 WINMM.dll
 WS2_32.dll
@@ -3995,21 +1987,21 @@ WSAIoctl
 WSAIoctl ok
 WSAPI: CoCreateInstance = %d
 WSAPI: CoCreateInstance failed %d
-WSAPI: FAIL: m_pCaptureClient=%p
-WSAPI: FAILED to find Steam Streaming Speakers
-WSAPI: FAILED to get Steam Streaming Speakers audio client
-WSAPI: FAILED to get Steam Streaming Speakers mic render client
-WSAPI: Found Steam Streaming Microphone but it is disabled (%d): %s
-WSAPI: Found Steam Streaming Microphone: %s
-WSAPI: Found Steam Streaming Speakers but it is disabled (%d): %s
-WSAPI: Found Steam Streaming Speakers: %s
-WSAPI: Requesting Steam Streaming Audio Device driver install.
-WSAPI: SUCCESS: m_pCaptureClient=%p
-WSAPI: Warning: Failed to find Steam Streaming Audio Devices.
-WSAPI: capture starting: ->Start() = %08x (Failed = %d)
+WSAPI: FAIL: m_pCaptureClient=%p\n
+WSAPI: FAILED to find Steam Streaming Speakers\n
+WSAPI: FAILED to get Steam Streaming Speakers audio client\n
+WSAPI: FAILED to get Steam Streaming Speakers mic render client\n
+WSAPI: Found Steam Streaming Microphone but it is disabled (%d): %s\n
+WSAPI: Found Steam Streaming Microphone: %s\n
+WSAPI: Found Steam Streaming Speakers but it is disabled (%d): %s\n
+WSAPI: Found Steam Streaming Speakers: %s\n
+WSAPI: Requesting Steam Streaming Audio Device driver install.\n
+WSAPI: SUCCESS: m_pCaptureClient=%p\n
+WSAPI: Warning: Failed to find Steam Streaming Audio Devices.\n
+WSAPI: capture starting: ->Start() = %08x (Failed = %d)\n
 WSASocketA
-WSAStartup failed with error: %d
-WSAStartup failed: %d
+WSAStartup failed with error: %d\n
+WSAStartup failed: %d\n
 WTSAPI32.dll
 WTSFreeMemory
 WTSQuerySessionInformationA
@@ -4020,84 +2012,56 @@ WakeAllConditionVariable
 Warning
 Warning on network test item #%d (Insufficient ping tests)
 Warning on network test item #%d (No:)
-Warning: Attempted reset outside of time window and streaming is still paused. Attemping a severe reset.
+Warning: Attempted reset outside of time window and streaming is still paused. Attemping a severe reset.\n
 Warning: Driver forcing 10bit mode via 'force10bit' setting.
-Warning: Failed to set microphone mute
-Warning: Failed to set microphone out mute
-Warning: Failed to set microphone out volume
-Warning: Failed to set microphone volume
+Warning: Failed to set microphone mute\n
+Warning: Failed to set microphone out mute\n
+Warning: Failed to set microphone out volume\n
+Warning: Failed to set microphone volume\n
 Warning: HMD does not support 10bit.
 Warning: Overflow: Frame %d not in expected state. Expecting: %d. Got: %d. Waiting 100 and trying again.
-Warning: Received empty frame size from NVENC. Reallocating next frame.
+Warning: Received empty frame size from NVENC. Reallocating next frame.\n
 Warning: Skipping ResetVideoStream because we have one pending.
-Warning: Trying to set a height (%d) that is higher than the max (%d). Setting to max instead.
-Warning: Trying to set a width (%d) that is higher than the max (%d). Setting to max instead.
-Warning: Watchdog %s not properly cleaned up%s%s
+Warning: Trying to set a height (%d) that is higher than the max (%d). Setting to max instead.\n
+Warning: Trying to set a width (%d) that is higher than the max (%d). Setting to max instead.\n
+Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: packet received with wrong identifier. Expected 0x02...... got: %08x
-Warning: received packet ID %d in frame %d, but packet id exceeded max frame size
-Warning: received packet with invalid session ID (%08x/%08x/%08x)
-Warning: res field incorrect [clear mode] %04x
-Warning: res field incorrect [encryption mode] %08x on packet size %d
-Warning: retransmit request for unknown message %d (frame number=%d
-Warning: unMaxBitRate (%u) over m_nMaxMBPerSecond (%u)
-Warning: unVbvBufferSizeBits (%u) over m_unMaxBitsPerFrame (%u)
-Washington1
-We lost the HMD wars -- another HMD activated
+Warning: received packet ID %d in frame %d, but packet id exceeded max frame size\n
+Warning: received packet with invalid session ID (%08x/%08x/%08x)\n
+Warning: res field incorrect [clear mode] %04x\n
+Warning: res field incorrect [encryption mode] %08x on packet size %d\n
+Warning: retransmit request for unknown message %d (frame number=%d\n
+Warning: unMaxBitRate (%u) over m_nMaxMBPerSecond (%u)\n
+Warning: unVbvBufferSizeBits (%u) over m_unMaxBitsPerFrame (%u)\n
+We lost the HMD wars -- another HMD activated\n
 WideCharToMultiByte
 WiredSession
 WirelessHost
-Wr0L+
-X	bQ}J
-X	bq}K
-X UVWH
-XA^A]A\_^[
-XA^^[]
-XA_A^^[
+Wz*7
 XXXX PNG chunk not known
-X_^][
-Xt,,4.
-Y	bq}J
-Y	bq}L
-Y `		
-Y a		
-Y b		
-Y!bb=@
-Y#bb=@
-Y%bb=@
-Y'bb=@
-Y)bb=@
-Y+bb=@
-Y-bb=@
-Y/bb=@
-Y1bb=@
-Y5bb=@
-Y9"SD
-Y9bb=@
+XhHp
+Y77n
 Y;;Mv;;Mv
-Y=bb=@
-YAbb=@
-YRba~(
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
-Your GPU supports %s for video compression
-Z9k0tUD
-ZL$Xf
-[Alloc] Created bitstream buffer = %p
-[Alloc] Created d3d11 texture = %p
-[Alloc] Created m_vpCompletionEvent %p
-[Alloc] Registered texture resource = %p
-[Cleanup] Closed handle for completion event %p
-[Cleanup] Unmapped input resource %p
-[Cleanup] Unregister completion event %p
-[Cleanup] Unregister resource %p
-[Cleanup] nvEncDestroyBitstreamBuffer %p
+Your GPU supports %s for video compression\n
+ZiKw
+Zjz\v
+[Alloc] Created bitstream buffer = %p\n
+[Alloc] Created d3d11 texture = %p\n
+[Alloc] Created m_vpCompletionEvent %p\n
+[Alloc] Registered texture resource = %p\n
+[Cleanup] Closed handle for completion event %p\n
+[Cleanup] Unmapped input resource %p\n
+[Cleanup] Unregister completion event %p\n
+[Cleanup] Unregister resource %p\n
+[Cleanup] nvEncDestroyBitstreamBuffer %p\n
 [DelayedCleanup] Adding frame[%d] to delete queue: %p
 [DelayedCleanup] Init new frame[%d]: %p
 [DelayedCleanup] Using pool frame[%d]: %p
 [EOS] EOS Frame never finished encoding (%p). Waited 10s. Attempting full reinit.
 [EOS] Encoder not setup, not sending EOS.
-[EOS] Error: Frame %d failed to reset completion event %p
+[EOS] Error: Frame %d failed to reset completion event %p\n
 [EOS] Threads never reset. Waited 10s. Timed out.
-[K]taM?
 [Manage] Deallocate: %p. Queue size: %d
 [Manage] Initialize new frame[%d]: %p
 [Manage] New pool frame: %p. (size: %d)
@@ -4132,106 +2096,44 @@ ZL$Xf
 [json.exception.
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
-\$	bq}
-\$ AVH
-\$ A^_^
-\$ E3
-\$ H+
-\$ H;
-\$ I;
-\$ L;
-\$ UATAUAVAWH
-\$ UAVAWH
-\$ UH
-\$ UVAVH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ UWATH
-\$ UWAWH
-\$ VH
-\$ VWAVH
-\$ WH
-\$$bc
-\$%bc
-\$&bc
-\$'bc
-\$(E3
-\$(E;
-\$(H9V
-\$(H;
-\$(HcC
-\$+bq
-\$,bc
-\$-bc
-\$.bc
-\$/bc
-\$0E3
-\$0H;
-\$0I+
-\$0fE
-\$0u!H
-\$4bc
-\$5bc
-\$6bc
-\$7bc
-\$8D;
-\$8H;
-\$8I+
-\$8I9\$@tGH
-\$;bq
-\$<bc
-\$=bc
-\$>bc
-\$?bc
-\$@E;
-\$@H9
-\$@H;
-\$@L;
-\$@fA
-\$HH9Q
-\$HH;
-\$HL;d$0t/E
-\$HM1
-\$Kbq
-\$PA;
-\$PA;Y
-\$PH;
-\$PI;
-\$PfD
-\$XI;
-\$XLc
-\$[bq
-\$`E3
-\$`H+
-\$`fD
-\$hAi
-\$hH;
-\$hI;
-\$pI;
-\$pfD
-\$pfE
-\$xH;
-\$xM1
-\h!T[
+\44h
+\frrrrrrrrrrrrrrrr
 \mfpmp.exe
-\u=H;
-\|$,H
-\|$`D
+\nbad png sig
+\ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 g_uvAppSubmittedMinMax;// uMin, vMin, uMax, vMax;\n\tfloat2 g_unused; // Formerly squinch\n\tfloat  g_presentNumber;\n\tfloat  g_atlasMode;\n\tfloat2  g_RBSize;\n\tfloat   g_extraFlags;\n\tfloat   g_nEye;\n\tfloat2  g_GameTexSize; //NOT GAME TEXT SIZE!!!! OUTPUT TEXT SIZE!!!\n\tfloat2  g_CenterAreaOffsetXY;\n\tfloat2  g_GameSubmittedSizeXY;\n\tfloat   g_SpatialEncodingMode;\n\tfloat   g_bDirectFoveatedSample;\n};\n\n\nstruct vs_in\n{\n\tfloat3 position_local : POS;\n\tfloat3 texture_local : TEX;\n};\n\nstruct vs_out\n{\n\tfloat4 position_clip : SV_POSITION;\n\tfloat4 position_scr : TEXCOORD0;\n};\n\nvs_out vs_main( vs_in input )\n{\n\tvs_out output = (vs_out)0;\n\toutput.position_clip = float4( input.position_local, 1.0 );\n\toutput.position_scr = float4( input.texture_local.x, input.texture_local.y, input.texture_local.z, 0.0 );\n\treturn output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\nfloat3 SrgbLinearToGamma( float3 vLinearColor )\n{\n\t// 15 asm instructions\n\tfloat3 vLinearSegment = vLinearColor.rgb * 12.92;\n\tfloat3 vExpSegment = ( 1.055 * pow( vLinearColor.rgb, float3( 1.0 / 2.4, 1.0 / 2.4, 1.0 / 2.4 ) ) ) - 0.055;\n\n\tfloat3 vGammaColor = float3( ( vLinearColor.r <= 0.0031308 ) ? vLinearSegment.r : vExpSegment.r,\n\t\t\t\t\t\t\t\t ( vLinearColor.g <= 0.0031308 ) ? vLinearSegment.g : vExpSegment.g,\n\t\t\t\t\t\t\t\t ( vLinearColor.b <= 0.0031308 ) ? vLinearSegment.b : vExpSegment.b );\n\treturn vGammaColor.rgb;\n}\n\n#define B 0.0\n#define C 0.5\n\nfloat CatmullRom( float x )\n{\n\tfloat f = abs( x );\n\tfloat f2 = f * f;\n\tfloat f3 = f2 * f;\n\n\tif ( f < 1.0 )\n\t{\n\t\treturn ( ( 12 - 9 * B - 6 * C ) * f3 +\n\t\t\t\t ( -18 + 12 * B + 6 * C ) * f2 +\n\t\t\t\t ( 6 - 2 * B ) ) / 6.0;\n\t}\n\telse if ( f >= 1.0 && f < 2.0 )\n\t{\n\t\treturn ( ( -B - 6 * C ) * f3\n\t\t\t\t + ( 6 * B + 30 * C ) * f2 +\n\t\t\t\t ( -( 12 * B ) - 48 * C ) * f +\n\t\t\t\t 8 * B + 24 * C ) / 6.0;\n\t}\n\telse\n\t{\n\t\treturn 0.0;\n\t}\n}\n\n#define _KernelFcn CatmullRom\n#define _KernelScale 1.0\n#define _MinRadius2 1.0\n\nfloat4 Kernel_Iso_Circle( Texture2D tex, SamplerState samplerState, float2 textureSize, float2 invTextureSize,\n\t\t\t\t\t\t  float2 vTexCoord, float2 vDdx, float2 vDdy )\n{\n\tvTexCoord *= textureSize;\n\tvDdx *= textureSize;\n\tvDdy *= textureSize;\n\tfloat2 baseNearestTexelCenter = floor( vTexCoord ) + 0.5;\n\tfloat4 total_samp = float4( 0.0, 0.0, 0.0, 0.0 );\n\tfloat total_weight = 0;\n\tfloat ddxyRadius2 = 0.5 * ( dot( vDdx, vDdx ) + dot( vDdy, vDdy ) );\n\tddxyRadius2 = max( _MinRadius2, ddxyRadius2 );\n\tfloat ddxyRadiusInv = 1.0 / sqrt( ddxyRadius2 );\n#define DIM 2\n\tfor ( int m = -DIM; m <= DIM; m++ )\n\t{\n\t\tfor ( int n = -DIM; n <= DIM; n++ )\n\t\t{\n#undef DIM\n\t\t\tfloat2 texelCenter = baseNearestTexelCenter + float2( m, n );\n\t\t\tfloat2 pixel_offset = texelCenter - vTexCoord;\n\t\t\tfloat2 rel = pixel_offset * ddxyRadiusInv * _KernelScale;\n\t\t\tfloat r2 = dot( rel, rel );\n\t\t\tfloat weight = _KernelFcn( sqrt( r2 ) );\n\t\t\ttotal_samp += weight * tex.SampleLevel( samplerState, texelCenter * invTextureSize, 0 );\n\t\t\ttotal_weight += weight;\n\t\t}\n\t}\n\n\ttotal_samp *= 1.0 / total_weight;\n\treturn total_samp;\n}\n\n#undef _KernelScale\n#undef _MinRadius2\n\nfloat4 FoveatedSample( vs_out input, float SampleScale )\n{\n\tfloat2 uv = input.position_scr.xy;\n\tfloat4 samp;\n\t\n\t#if PRECODE == 0\n\tif( uv.y < 0.5 )\n\t#elif PRECODE == 1\n\tif( uv.x < 0.5 )\n\t#else\n\tif( true )\n\t#endif\n\t{\n\t\t#if PRECODE == 0\n\t\t\t// Bottom Image (Fit) (Works the way for scene app + overlays)\n\t\t\tuv.y = uv.y * 2.0;\n\t\t#elif PRECODE == 1\n\t\t\tuv.x = uv.x * 2.0;\n\t\t#else\n\t\t\t// Don't do anything if 1:1\n\t\t#endif\n\t\n\t\tfloat2 rv = float2( uv.x, 1.0 - uv.y ); // Flip so we're in normal UV space. (the UV going in is flipped)\n\n\t\t// I think this is the right way to do this conversion, back into the soruce image's UVs.\n\t\trv.xy = rv.xy * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy) + g_uvAppSubmittedMinMax.xy;\n\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t\t//samp.rgba *= float4( 0.0, 0.75, 1.0, 1.0 );\n\t}\n\telse if ( g_bDirectFoveatedSample > 0 )\n\t{\n\t\t// Top Image (Foveated), Luma\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t\n\t\t#if PRECODE == 0\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#elif PRECODE == 1\t\t\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t\n\t\t// Address it so (0,0) is in the top left\n\t\trv += g_CenterAreaOffsetXY;\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\n\t\t// We have to add 0.1 because if we do 0.0 then the floating point math will sometimes end us up on the wrong side of the pixel and we'll get crunchy pixels.\n\t\t// There's also occasionally an issue at 0.5, since that bumps us into the next pixels, so we're going to do +0.1\n\t\tint2 SampleCoordFromSubmittedTexture = int2( rv * texsizelevels.xy + 0.1 );\n\n\t\tsamp = Texture0.Load( int3( SampleCoordFromSubmittedTexture, 0 )  );\n\n\t\tif ( ( ( ( uint ) g_extraFlags ) & 0x100 ) ) // 256\n\t\t{\n\t\t\tfloat2 uvcx = (uv - float2(0.5,0.75)) * float2(1.0,2.0);\n\t\t\tuvcx = abs( uvcx );\n\t\t\tfloat centert = 0.;\n\t\t\t// Only show pip if filtering is off.\n\t\t\tif( !( ( ( uint ) g_extraFlags ) & 0x200 ) ) // 512\n\t\t\t{\n\t\t\t\tfloat r = length( uvcx );\n\t\t\t\tcentert =  saturate(sin(r*400.0+0.1)*0.5+0.5-r*30.);\n\t\t\t}\n\t\t\tfloat outert = max(uvcx.x, uvcx.y) > 0.48;\n\t\t\tsamp = lerp( samp, float( 1.0 ), max( centert, outert ) );\n\t\t}\n\t}\n\telse\n\t{\n\t\t// Chroma for foveated region.\n\t\t\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\t#if PRECODE == 0\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#else\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t// rv is in 0...g_RBSize space.\n\n\t\trv += g_CenterAreaOffsetXY;\n\n\t\t// Now it's in [gamesubmittedxy] space, where top corner of box is 0,0.\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t}\n\tsamp.rgb = SrgbLinearToGamma( samp.rgb );\n\t//samp.rgb = float3( 1000.0/1023.0, 100.0/1023.0, 100.0/1023.0 );\n\treturn samp;\n}\n\nfloat3 RGB709_to_YUV( float3 rgb )\n{\n\tfloat a = 0.2126;\n\tfloat b = 0.7152;\n\tfloat c = 0.0722;\n\tfloat d_inv = 0.5389092476826902;\n\tfloat e_inv = 0.63500127000254;\n\tfloat midpoint = 512.0/1023.0;\n\tfloat Y = a * rgb.r + b * rgb.g + c * rgb.b;\n\tfloat cb = ( rgb.b - Y ) * d_inv;\n\tfloat cr = ( rgb.r - Y ) * e_inv;\n\treturn saturate( float3( Y, cb + midpoint, cr + midpoint ) );\n}\n\nfloat4 ps_main( vs_out input, float4 screenSpace : SV_Position ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 1.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.r, 0, 0, samp.a );\n}\n\nfloat4 ps_main_chroma( vs_out input ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 2.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.g, fYUV.b, 0, samp.a );\n}\n
+\ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 uvMinMax;\n\tfloat4 clockParameters; // clockParameters[01] = coordinate of clock 0,0; clockParameters[2] = clock\n};\n\n/* vertex attributes go here to input to the vertex shader */\nstruct vs_in {\n    float3 position_local : POS;\n    float3 texture_local : TEX;\n};\n\n/* outputs from vertex shader go here. can be interpolated to pixel shader */\nstruct vs_out {\n    float4 position_clip : SV_POSITION; // required output of VS\n    float4 position_tex   : TEXCOORD0;\n};\n\nvs_out vs_main(vs_in input) {\n  //vs_out output = (vs_out)0; // zero the memory first\n  vs_out output;\n  output.position_clip = float4(input.position_local, 1.0);\n  output.position_tex = float4(input.texture_local, 1.0);\n\n  float4 muvMinMax = uvMinMax;\n  output.position_tex = float4( \n\tinput.texture_local.x * ( muvMinMax.z - muvMinMax.x ) + muvMinMax.x,\n\tinput.texture_local.y * ( muvMinMax.y - muvMinMax.w ) + muvMinMax.w,\n\t0. , 0. );\n\n  return output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\n#define CLOCKX 8\n#define CLOCKY 8\n\n#define CLOCK_CURSOR_SIZE (8.)\n#define CLOCK_TIME_STEP (1.)\n\nfloat4 ps_main(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\tint2 fragpos = (Pos.xy-clockParameters.xy)/CLOCK_CURSOR_SIZE;\n\tint fid = floor(clockParameters.z/CLOCK_TIME_STEP + 0.5 );\n\tint frameid = floor(clockParameters.z + 0.5);\n\tint fidx = 0;\n\tint fidy = (fid % (CLOCKX*CLOCKY)) / CLOCKX;\n\tif( fidy & 1 )\n\t{\n\t\tfidx = (CLOCKX-1) - fid % CLOCKX;\n\t}\n\telse\n\t{\n\t\tfidx = fid % CLOCKX;\n\t}\n\n\tfloat cx = fragpos.x%CLOCKX;\n\tfloat cy = (fragpos.y%CLOCKY);\n\t//float col;\n\tfloat col_r;\n\tfloat col_g;\n\tfloat col_b;\n\tint redpixel_at_zero_pos = 0; //used for debugging\n\t\n\t//if (redpixel_at_zero_pos && (!fidx && !fidy && !cx && !cy)) {\n\tif (redpixel_at_zero_pos && !(frameid % 64)) {\n\t\tcol_r = 1.0;\n\t\tcol_g = 0.0;\n\t\tcol_b = 0.0;\n\t}\n\telse {\n\t\tcol_r = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_g = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_b = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t}\n\n\treturn float4(col_r, col_g, col_b, 1.);\n}\n\n\nfloat4 ps_main_chroma(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\treturn 0.5;\n}\n\n
+\r8STs\ne
+\r8STs\neTs\neTs\neTs\ne
+\r8STs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\ne
+\r8STs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\ne
+\r\fexpaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
+\r\fpacketCount too high (%u)\n
+\t"deltaTimingLog" : [\n
+\t"inputDebugDigital" : [\n
+\t"logVersion" : 1,\n
+\t"networkBandwidthTarget" : %f,\n
+\t"networkBandwidthTest" : "%s",\n
+\t"nowTS" : %u,\n
+\t"nowUS" : %llu,\n
+\t"remoteVersion" : %d,\n
+\t"thisVersion" : %d,\n
+\t"variables" : [\n
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t],\n\t"eyeTracking" : [ 
+\t],\n\t"inputDebugAnalog" : [\n
+\t],\n\t"latencyLog" : [\n
+\t],\n\t"sPingHistogramv1" : [
+\t],\n\t"soundData" : [\n
+\txYn
+\vCreateSwapTextureSet: %dx%d(%d) %d
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
-] name = "
-] name = [
-]9k0tVD
-]@8d$
-]J<0"0i3
+]1bO
 ]SVLHMDDriverD3D11::AcquireSync
-]g@8yhu
-^9k0tWD
 ^lX8k
-_>>B|>>B|
+_55j
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -4242,10 +2144,6 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
-_D9c0tWD
-_D9k0tWD
-_D9s0tWD
-_D9w0tWD
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -4290,7 +2188,6 @@ _errno
 _execute_onexit_table
 _fdtest
 _fseeki64
-_gUT^
 _get_stream_buffer_pointers
 _initialize_narrow_environment
 _initialize_onexit_table
@@ -4317,50 +2214,31 @@ _wcsnicmp
 _wfopen_s
 _wfsopen
 _wstat64i32
-`	bq}K
-` UAVAWH
-`.rdata
-`.rodata
 `3QbE
 `3SbE
-`A^A]_^[
-`A^_^
-`A_A^A]A\_^[
-`A_A^A]A\_^]
-`A__^
+`P00
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
-`bS}H9
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
-`input` field is missing in animation.sampler
+`input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target
+`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
-`output` field is missing in animation.sampler
-`path` field is missing in animation.channels.target
-`sampler` field is missing in animation channels
+`output` field is missing in animation.sampler\n
+`path` field is missing in animation.channels.target\n
+`sampler` field is missing in animation channels\n
 `samplers' does not contain an JSON object.
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-a	bq}J
-a	bq}L
-a Y		
-a Z		
-a ]		
 a5j_5W
-a7hIw
-aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
-aSba~(
-aXb3%H8
+aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 aaj_55
-abQ}Hp
 abort
-abq}Hp
-accept failed with error: %d
+accept failed with error: %d\n
 accessor[
 accessors
 acosf
@@ -4377,8 +2255,9 @@ allowSpecialFloats
 allowVolumeSync
 alphaCutoff
 alphaMode
+alse
 ambiguous option -- %.*s
-amfenc dropping metadata entry ( %lld , %lld )
+amfenc dropping metadata entry ( %lld , %lld )\n
 animations
 anims
 api-ms-win-crt-convert-l1-1-0.dll
@@ -4398,152 +2277,15 @@ asset
 asyncSend
 asyncStartEncode
 atan2f
+atof
+atoi
 atoll
 attributes
+auto
 automaticBandwidth
 automaticStreamFormatWidth
 avrt.dll
-b#%(D
-b#%@%
-b#%HD
-b#-@%
-b#=@D
-b#E@D
-b#U D
-b#U@D
-b#]HD
-b#e D
-b#e@D
-b#eHD
-b#u@%
-b#}@%
-b3%(D
-b3%H8
-b3%H8\8
-b3%HD
-b3-(D
-b3-H8
-b3-HD
-b35H8
-b35H8L;
-b35H8L>
-b35H8L?
-b3=HD
-b3E(D
-b3EHD
-b3M(D
-b3M@D
-b3MHD
-b3U(D
-b3UHD
-b3](D
-b3]HD
-b3e(D
-b3eHD
-b3m(D
-b3mHD
-b3}(9
-b3}H9
-bA5Hb
-bA5Hj
-bA=Hb
-bA=Hj
-bA}Ho
-bA~Ho
-bC% 8
-bC- 8U
-bC5 8
-bC= 8E
-bQ}Ho b
-bQ}Ho`
-bQ}Ho`	b
-bQ}Ho` b
-bQ}Ho`!b
-bQ}Ho`"b
-bQ}Ho`#b
-bQ}Ho`$b
-bQ}Ho`%b
-bQ}Ho`&b
-bQ}Ho`'b
-bQ}Ho`(b
-bQ}Ho`)b
-bQ}Ho`*b
-bQ}Ho`+b
-bQ}Ho`,b
-bQ}Ho`-b
-bQ}Ho`.b
-bQ}Ho`/b
-bQ}Ho`0b
-bQ}Ho`1b
-bQ}Ho`2b
-bQ}Ho`3b
-bQ}Ho`4b
-bQ}Ho`5b
-bQ}Ho`6b
-bQ}Ho`7b
-bQ}Ho`8b
-bQ}Ho`9b
-bQ}Ho`:b
-bQ}Ho`;b
-bQ}Ho`<b
-bQ}Ho`=b
-bQ}Ho`>b
-bQ}Ho`?b
-bQ}Ho`@b
-bQ}Ho`AbQ
-bQ}Ho`BbQ
-bQ}Ho`CbQ
-bQ}Ho`DbQ
-bQ}Ho`EbQ
-bQ}Ho`FbQ
-bQ}Ho`GbQ
-bQ}Ho`HbQ
-bQ}Ho`IbQ
-bQ}Ho`JbQ
-bQ}Ho`KbQ
-bQ}Ho`LbQ
-bQ}Ho`MbQ
-bQ}Ho`NbQ
-bQ}Ho`ObQ
-bQ}Ho`Pb
-bQ}Hp
-bQ}Ip
-bQ}Jo@
-bQ}JoH	bQ}JoP
-bQ}JoX
-bQ}Jo`
-bQ}Joh
-bQ}Jop
-bQ}Jox
-bQ~Ho
-bR5Hu
-bREHu
-bR}HX
-bR}HX+bR}HXs
-bR}HX/bR}HXw
-bR}HXA
-bR}HXE
-bR}HXI
-bR}HXM
-bR}HXQ
-bR}HXU
-bR}HXY
-bR}HX]
-bR}HX{
-bR}HZQ
-bR}H|
-bS%(8
-bS%H%
-bS%HD
 bS11*?
-bS=HC
-bSMHD
-bSUHD
-bS]HD
-bSeHD
-bSmHD
-bS}(9
-bS}H9
 backoffRecoveryCoefficient
 bad AC huff
 bad APP len
@@ -4584,17 +2326,14 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
-bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
 bad zlib header
 baseColorFactor
 baseColorTexture
-bcmHq
-bcuHq
 bg_bg
-bind failed with error: %d
+bind failed with error: %d\n
 bonemask_grip.txt
 bonemask_index.txt
 bonemask_indexcurl.txt
@@ -4602,678 +2341,9 @@ bonemask_indexnocarpal.txt
 bonemask_middle.txt
 bonemask_middlenocarpal.txt
 bonemask_thumb.txt
-bq}Ho
-bq}Ho%#P
-bq}Ho%KQ
-bq}Ho'b
-bq}Ho-
-bq}Hog
-bq}Hog	b
-bq}Hog b
-bq}Hog!b
-bq}Hog"b
-bq}Hog#b
-bq}Hog$b
-bq}Hog%b
-bq}Hog&b
-bq}Hog'b
-bq}Hog(b
-bq}Hog)b
-bq}Hog*b
-bq}Hog+b
-bq}Hog,b
-bq}Hog-b
-bq}Hog.b
-bq}Hog/b
-bq}Hog0b
-bq}Hog1L
-bq}Hog1bQMH
-bq}Hog2L
-bq}Hog2bQUH
-bq}Hog3L
-bq}Hog3bQ]H
-bq}Hog4L
-bq}Hog4bQeH
-bq}Hog5L
-bq}Hog5bQmH
-bq}Hog6L
-bq}Hog6bQuH
-bq}Hog7L
-bq}Hog7bQ}H
-bq}Hog8L
-bq}Hog8bQEH
-bq}Hog9L
-bq}Hog9bQMH
-bq}Hog:L
-bq}Hog:bQUH
-bq}Hog;L
-bq}Hog;bQ]H
-bq}Hog<L
-bq}Hog<bQeH
-bq}Hog=L
-bq}Hog=bQmH
-bq}Hog>L
-bq}Hog>bQuH
-bq}Hog?L
-bq}Hog?bQ}H
-bq}Hog@L
-bq}Hog@b
-bq}Hoi
-bq}Hop
-bq}Hoq
-bq}Hox
-bq}JoA
-bq}JoI	bq}JoQ
-bq}JoY
-bq}Joa
-bq}Joi
-bq}Joq
-bq}Joy
-bq}Ko@
-bq}KoH	bq}KoP
-bq}KoX
-bq}Ko`
-bq}Koh
-bq}Kop
-bq}Kox
-bq}LoA
-bq}LoI	bq}LoQ
-bq}LoY
-bq}Loa
-bq}Loi
-bq}Loq
-bq}Loy
 brazilian
-br}HX*br}HXr
-br}HXA
-br}HXB
-br}HXF
-br}HXI
-br}HXJ
-br}HXN
-br}HXQ
-br}HXR
-br}HXV
-br}HXY
-br}HXZ
-br}HX^
-br}HXz
-br}H|
-bs%HD
-bs5@D5
-bs5@D5$Zw
-bs5@D5&
-bs5@D52Sv
-bs5@D5<	|
-bs5@D5@
-bs5@D5D
-bs5@D5FL
-bs5@D5G
-bs5@D5N
-bs5@D5Q
-bs5@D5R
-bs5@D5U
-bs5@D5W
-bs5@D5ZPx
-bs5@D5]"p
-bs5@D5b
-bs5@D5hzn
-bs5@D5r
-bs5@D5y
-bs5@D5~
-bs5@D5~Yr
-bs5HD
-bs5HD5
-bs5HD5	
-bs5HD5!
-bs5HD5%k|
-bs5HD5+
-bs5HD5,
-bs5HD5/
-bs5HD5/yt
-bs5HD50vt
-bs5HD51Q}
-bs5HD54st
-bs5HD55b|
-bs5HD59
-bs5HD5:~t
-bs5HD5;
-bs5HD5>
-bs5HD5?
-bs5HD5C
-bs5HD5Duo
-bs5HD5F
-bs5HD5I
-bs5HD5IP}
-bs5HD5Jut
-bs5HD5Kg|
-bs5HD5Q
-bs5HD5R
-bs5HD5T
-bs5HD5Ua|
-bs5HD5Y
-bs5HD5YZ}
-bs5HD5\R}
-bs5HD5\to
-bs5HD5]O}
-bs5HD5`zt
-bs5HD5a
-bs5HD5aL}
-bs5HD5d
-bs5HD5e
-bs5HD5gW}
-bs5HD5i
-bs5HD5jtt
-bs5HD5l~o
-bs5HD5o
-bs5HD5ovo
-bs5HD5pso
-bs5HD5tpo
-bs5HD5w
-bs5HD5wN}
-bs5HD5y
-bs5HD5z{o
-bs5HD5|h|
-bs=HD
-bs=HD5
-bs=HD5	
-bs=HD5 
-bs=HD5 [~
-bs=HD5!
-bs=HD5$qu
-bs=HD5%
-bs=HD5&
-bs=HD5&f~
-bs=HD5'
-bs=HD5'iu
-bs=HD5(!{
-bs=HD5(1~
-bs=HD5(fu
-bs=HD5+'o
-bs=HD5,
-bs=HD5,V{
-bs=HD5,cu
-bs=HD5/
-bs=HD50
-bs=HD51
-bs=HD52
-bs=HD52nu
-bs=HD56
-bs=HD56]~
-bs=HD57
-bs=HD58
-bs=HD59"t
-bs=HD59$o
-bs=HD59p
-bs=HD5:
-bs=HD5:S{
-bs=HD5>&{
-bs=HD5Beu
-bs=HD5D
-bs=HD5F
-bs=HD5H {
-bs=HD5I
-bs=HD5J
-bs=HD5JJ{
-bs=HD5L
-bs=HD5Lb~
-bs=HD5Mm}
-bs=HD5P
-bs=HD5Q!t
-bs=HD5R
-bs=HD5T
-bs=HD5U
-bs=HD5V
-bs=HD5V\~
-bs=HD5X5~
-bs=HD5Xju
-bs=HD5Z
-bs=HD5\
-bs=HD5]
-bs=HD5^
-bs=HD5^t
-bs=HD5`
-bs=HD5a+t
-bs=HD5b
-bs=HD5bdu
-bs=HD5c
-bs=HD5d
-bs=HD5d#t
-bs=HD5e
-bs=HD5e t
-bs=HD5f~q
-bs=HD5h
-bs=HD5i
-bs=HD5j
-bs=HD5j{q
-bs=HD5l
-bs=HD5lq
-bs=HD5n
-bs=HD5o
-bs=HD5o'{
-bs=HD5o(t
-bs=HD5p
-bs=HD5p4~
-bs=HD5t
-bs=HD5w
-bs=HD5x
-bs=HD5y
-bs=HD5z
-bs=HD5zN{
-bs=HD5{
-bs=HD5|h
-bs=HD5}c~
-bs=HD5~
-bs=Hq
-bsE@D
-bsEH%
-bsEHD
-bsEHD5
-bsEHD5%
-bsEHD5&At
-bsEHD5'
-bsEHD5+
-bsEHD5-
-bsEHD51
-bsEHD5ET~
-bsEHD5J
-bsEHD5N)z
-bsEHD5Q
-bsEHD5T
-bsEHD5U>t
-bsEHD5V
-bsEHD5`
-bsEHD5cE{
-bsEHD5f>o
-bsEHD5gm{
-bsEHD5k
-bsEHD5q
-bsEHD5tQ~
-bsEHD5}
-bsEHq
-bsM@D
-bsMH%
-bsMHq
-bsU D
-bsU@D
-bsUH%
-bsUHD
-bsUHD5
-bsUHD5	
-bsUHD5 
-bsUHD5 bs
-bsUHD5 cs
-bsUHD5!
-bsUHD5!Hv
-bsUHD5"
-bsUHD5"2q
-bsUHD5"3q
-bsUHD5"Ss
-bsUHD5#
-bsUHD5#O
-bsUHD5$
-bsUHD5$*p
-bsUHD5%
-bsUHD5&
-bsUHD5&3|
-bsUHD5'(r
-bsUHD5'>
-bsUHD5(
-bsUHD5(	~
-bsUHD5('u
-bsUHD5(=n
-bsUHD5(Rr
-bsUHD5(}s
-bsUHD5)
-bsUHD5)[p
-bsUHD5)|y
-bsUHD5*
-bsUHD5+
-bsUHD5+Pq
-bsUHD5-
-bsUHD5-%
-bsUHD5-Tr
-bsUHD5.
-bsUHD5.;u
-bsUHD5.Hp
-bsUHD5/
-bsUHD5/8s
-bsUHD5/Br
-bsUHD50
-bsUHD50Ow
-bsUHD51
-bsUHD51=q
-bsUHD51Yn
-bsUHD52
-bsUHD52Nn
-bsUHD52S
-bsUHD52ys
-bsUHD52}m
-bsUHD53
-bsUHD54
-bsUHD54-s
-bsUHD54Gp
-bsUHD54hn
-bsUHD55
-bsUHD55my
-bsUHD56
-bsUHD56>w
-bsUHD56xz
-bsUHD57
-bsUHD57$v
-bsUHD58
-bsUHD58.r
-bsUHD581y
-bsUHD58On
-bsUHD58`p
-bsUHD58rx
-bsUHD59
-bsUHD590n
-bsUHD59dv
-bsUHD59gs
-bsUHD59ym
-bsUHD5:
-bsUHD5:0s
-bsUHD5;
-bsUHD5;=
-bsUHD5<
-bsUHD5=
-bsUHD5>
-bsUHD5>3s
-bsUHD5>_n
-bsUHD5?
-bsUHD5@
-bsUHD5@$y
-bsUHD5@Cq
-bsUHD5@us
-bsUHD5A
-bsUHD5B
-bsUHD5B:|
-bsUHD5BG
-bsUHD5C
-bsUHD5C#n
-bsUHD5C&n
-bsUHD5D?r
-bsUHD5E
-bsUHD5EUw
-bsUHD5F
-bsUHD5F	u
-bsUHD5G
-bsUHD5H
-bsUHD5I
-bsUHD5I>r
-bsUHD5Ips
-bsUHD5J
-bsUHD5Jt
-bsUHD5K
-bsUHD5L
-bsUHD5L^z
-bsUHD5M
-bsUHD5Mqr
-bsUHD5N
-bsUHD5O
-bsUHD5P
-bsUHD5P.y
-bsUHD5P;y
-bsUHD5P{v
-bsUHD5Q
-bsUHD5R
-bsUHD5RAw
-bsUHD5Rrr
-bsUHD5S
-bsUHD5S}x
-bsUHD5T
-bsUHD5T<m
-bsUHD5TMs
-bsUHD5U
-bsUHD5U"m
-bsUHD5U:r
-bsUHD5UNm
-bsUHD5V
-bsUHD5V;r
-bsUHD5VGs
-bsUHD5W
-bsUHD5W!
-bsUHD5W&q
-bsUHD5WPy
-bsUHD5Wow
-bsUHD5X
-bsUHD5X'q
-bsUHD5XWp
-bsUHD5Y
-bsUHD5Y+|
-bsUHD5Z
-bsUHD5Z	n
-bsUHD5ZOm
-bsUHD5ZR
-bsUHD5ZYm
-bsUHD5ZZm
-bsUHD5Zvm
-bsUHD5[
-bsUHD5\
-bsUHD5]
-bsUHD5]As
-bsUHD5^
-bsUHD5^)
-bsUHD5^Lq
-bsUHD5^jw
-bsUHD5^uz
-bsUHD5_
-bsUHD5_ew
-bsUHD5`
-bsUHD5`7r
-bsUHD5`im
-bsUHD5a6r
-bsUHD5b
-bsUHD5b/p
-bsUHD5c
-bsUHD5d
-bsUHD5d9
-bsUHD5drv
-bsUHD5e
-bsUHD5ezz
-bsUHD5f
-bsUHD5f)r
-bsUHD5f+y
-bsUHD5fEx
-bsUHD5fOr
-bsUHD5g$
-bsUHD5g[w
-bsUHD5g`w
-bsUHD5h
-bsUHD5h&m
-bsUHD5h]
-bsUHD5i
-bsUHD5j
-bsUHD5j5n
-bsUHD5j:w
-bsUHD5k
-bsUHD5kBn
-bsUHD5kvx
-bsUHD5l
-bsUHD5l4x
-bsUHD5lDw
-bsUHD5lvr
-bsUHD5m
-bsUHD5m,s
-bsUHD5n
-bsUHD5n)m
-bsUHD5o
-bsUHD5o?v
-bsUHD5p
-bsUHD5q
-bsUHD5q(v
-bsUHD5q^n
-bsUHD5qgn
-bsUHD5r
-bsUHD5rCn
-bsUHD5rc
-bsUHD5riv
-bsUHD5rln
-bsUHD5rwr
-bsUHD5s=y
-bsUHD5t
-bsUHD5t-
-bsUHD5u
-bsUHD5v
-bsUHD5w
-bsUHD5w/s
-bsUHD5w5s
-bsUHD5wQw
-bsUHD5wTq
-bsUHD5x
-bsUHD5x,m
-bsUHD5yBq
-bsUHD5yEv
-bsUHD5z
-bsUHD5zGw
-bsUHD5z~
-bsUHD5{
-bsUHD5{Kx
-bsUHD5|
-bsUHD5|7u
-bsUHD5|@
-bsUHD5|Mp
-bsUHD5|_r
-bsUHD5}
-bsUHD5}Xq
-bsUHD5}ts
-bsUHD5~
-bsUHq
-bs] C
-bs]H%
-bs]HD
-bs]Hq
-bse D
-bse@D
-bse@D5
-bse@D5	
-bse@D5 
-bse@D5!
-bse@D5"
-bse@D5#
-bse@D5$
-bse@D5%
-bse@D5&
-bse@D5&/t
-bse@D5'
-bse@D5(p|
-bse@D5)
-bse@D5)k~
-bse@D5)zu
-bse@D5*
-bse@D5*t|
-bse@D5+o~
-bse@D5+z
-bse@D5.5o
-bse@D5/d{
-bse@D50
-bse@D51
-bse@D52
-bse@D530{
-bse@D55su
-bse@D56
-bse@D57
-bse@D57wu
-bse@D58b}
-bse@D59
-bse@D5;
-bse@D5;+o
-bse@D5;7{
-bse@D5<2{
-bse@D5<Z{
-bse@D5=
-bse@D5?
-bse@D5@
-bse@D5@3t
-bse@D5@k}
-bse@D5@q|
-bse@D5A
-bse@D5A'z
-bse@D5Al~
-bse@D5C
-bse@D5D
-bse@D5EB~
-bse@D5G
-bse@D5H
-bse@D5H<t
-bse@D5Hx|
-bse@D5I
-bse@D5Is|
-bse@D5Is~
-bse@D5Jn~
-bse@D5K
-bse@D5L
-bse@D5Mtu
-bse@D5N
-bse@D5O
-bse@D5S
-bse@D5Ta}
-bse@D5U
-bse@D5U{u
-bse@D5V
-bse@D5Vvu
-bse@D5Wh}
-bse@D5X$z
-bse@D5[
-bse@D5\
-bse@D5\2t
-bse@D5]
-bse@D5^
-bse@D5^c}
-bse@D5_
-bse@D5_9t
-bse@D5_F~
-bse@D5`
-bse@D5a
-bse@D5a1{
-bse@D5b
-bse@D5d
-bse@D5e
-bse@D5f
-bse@D5f,o
-bse@D5f4t
-bse@D5g
-bse@D5gO~
-bse@D5g[{
-bse@D5h8{
-bse@D5i
-bse@D5j
-bse@D5j\}
-bse@D5k
-bse@D5l
-bse@D5l`}
-bse@D5m
-bse@D5nr|
-bse@D5nx
-bse@D5om~
-bse@D5p	o
-bse@D5q
-bse@D5r	x
-bse@D5r-t
-bse@D5s
-bse@D5t
-bse@D5t1t
-bse@D5u
-bse@D5uy|
-bse@D5v
-bse@D5vt~
-bse@D5z
-bse@D5{E~
-bse@D5{uu
-bse@D5}
-bse@D5~
-bse@D5~L~
-bseH%
-bseHq
-bsmH%
-bsuH%
-bs}(9
-bs}H%
-bs}H9
-bs}H9B
 buffer
-bufferFrameCount = %d, samples per sec = %d, channels = %d bits_per_sample=%d nBlockAlign=%d
+bufferFrameCount = %d, samples per sec = %d, channels = %d bits_per_sample=%d nBlockAlign=%d\n
 bufferView
 bufferViews
 buffers
@@ -5282,61 +2352,14 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c	 w		
-c! _		
 c!!B0
-c!D5,1z
-c!D52
-c!D53Ft
-c!D54
-c!D5>
-c!D5RY~
-c!D5sCo
-c!D5tr{
-c) W		
-c)D5"(
-c)D5)
-c)D50.
-c)D55Y
-c)D5:
-c)D5;:
-c)D5<
-c)D5>
-c)D5Th
-c)D5W
-c)D5Xd
-c)D5j
-c)D5n0
-c)D5x
-c1 O		
-c1D5%rt
-c1D54
-c1D5RK}
-c1D5Z
-c1D5eoo
-c5D51
-c5D5b
-c9 G		
-c9D5S
-c9D5Y
-c9D5Z
-c9D5[zq
-c9D5e
-c9D5y/~
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
-c=D51
-c=D57
-c=D5G
-c=D5Ig
-c=D5f
-c=D5m
-cAD5&xq
-cAD5n
+c=qx
 cAoption requires an argument -- %c
 cAudBufAvg
 cAudBufMax
@@ -5351,25 +2374,6 @@ cAudRew
 cAudUnd
 cFramePhase
 cPingAMS
-cQD5 >s
-cQD5-
-cQD5-Xw
-cQD52
-cQD542}
-cQD5D<s
-cQD5M
-cQD5RGu
-cQD5Rnp
-cQD5V
-cQD5cNx
-cQD5f
-cQD5f0m
-cQD5o
-cQD5p[q
-cQD5r
-cQD5r2m
-cQD5x
-cQD5~
 cRXFailFuzz
 cRXerr
 cRXpass
@@ -5377,89 +2381,14 @@ cRXpps
 cRunStartO
 cTXFailFuzz
 cTXerr
-cUD5#
-cUD5'
-cUD5,+n
-cUD5.
-cUD50.m
-cUD5=
-cUD5B:s
-cUD5KC|
-cUD5V
-cUD5^
-cUD5dkp
-cUD5f
-cUD5k
-cUD5q
-cUD5qBy
 cVTXFailFuzz
-caD5%
-caD5*u}
-caD5,
-caD50
-caD52"x
-caD53K
-caD5<
-caD5>z
-caD5A
-caD5AH
-caD5E
-caD5Hx
-caD5M
-caD5OM
-caD5O`
-caD5P
-caD5U
-caD5Vy
-caD5[
-caD5c
-caD5d
-caD5h
-caD5q
-caD5rn
-caD5u
-caD5x
-caD5z
-caD5{}
 calloc
 camera
 cameras
 can't merge dc and ac
-cbuffer VS_CONSTANT_BUFFER : register(b2)
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU:
 channels
 children
-ciD5!
-ciD5# 
-ciD5%
-ciD5/o
-ciD50
-ciD53n
-ciD54
-ciD55
-ciD59
-ciD5G
-ciD5H*
-ciD5K
-ciD5L)
-ciD5Q
-ciD5R
-ciD5U
-ciD5V
-ciD5^
-ciD5_
-ciD5_w
-ciD5b
-ciD5c
-ciD5cv
-ciD5g
-ciD5k
-ciD5k)
-ciD5o(
-ciD5pJ
-ciD5tI
-ciD5{z
-ciD5~O
 clientTCPEnable
 clientTCPRemote
 clientUDPEnable
@@ -5479,53 +2408,9 @@ controller_path
 corrupt
 count
 cs_cz
-cyD5#Z
-cyD5=4
-cyD5>
-cyD5?e
-cyD5D
-cyD5D2
-cyD5F;
-cyD5P r
-cyD5Y]z
-cyD5]
-cyD5_"r
-cyD5c
-cyD5j
-cyD5k
-cyD5o
-cyD5r
-cyD5t
 czech
-d$	ba|(
-d$ AUAVAWD
-d$ UAVAWH
-d$ fE
-d$ fH
-d$$E3
-d$(E3
-d$(Hi
-d$(M;
-d$,bq
-d$0A]A\_^[
-d$0E3
-d$0M9g 
-d$<Mc
-d$<bq
-d$@E3
-d$DfD
-d$HMc
-d$Lbq
-d$PfD
-d$XL9%
-d$\bq
-d$`H=
-d$`L;
-d$`fD
-d$`fE
-d$bHc
-d$pfD
 d3d11.dll
+d45H
 dBWMux
 dCTRCompUS
 dCurBW
@@ -5543,11 +2428,13 @@ dProblemBW
 dQThrottle
 dRelFOV
 dRunStart
+dTXQ
 dTargetBW
 dV22tN::
 da_dk
 danish
 dashboard_transform
+data
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
 data:image/bmp;base64,
@@ -5563,6 +2450,7 @@ dbgSyncOff
 dbgTXWaitMS
 de_de
 deque<T> too long
+dest
 devicescannermsgwindow-
 disableQoS
 displayFrequency
@@ -5570,19 +2458,17 @@ doubleSided
 driver_lighthouse message window
 driver_vrlink
 driver_vrlink.dll
-driver_vrlink: Display Frequency: %f
-driver_vrlink: IPD: %f
-driver_vrlink: Render Target: %d %d
-driver_vrlink: Serial Number: %s
+driver_vrlink: Display Frequency: %f\n
+driver_vrlink: IPD: %f\n
+driver_vrlink: Render Target: %d %d\n
+driver_vrlink: Serial Number: %s\n
 dropNullPlaceholders
 dutch
-e##F^
 eCapture
 eCommunications
 eConsole
 eMultimedia
 eRender
-effffff
 el_gr
 emissiveFactor
 emissiveTexture
@@ -5601,65 +2487,33 @@ error
 errorsAsFatal
 es_es
 es_mx
-eventtest
+eventtest\n
 eventwritestringshm
 exception thrown in JSON library
+exit
 expaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
 expand 32-byte k
 expand 32-byte kexpand 32-byte k
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
+expf
 extensions
 extensionsRequired
 extensionsUsed
 external_drivers
 extras
-f""D~**T
-f9+t4
-f9,Cu
-f98tZH
-f98t\H
-f9C s.H
-f9H s
-f9\$`u
-f9x s
-f;K sIH
-f;z s
-f;|$pt_H
-fA#l$
-fA#|$
-fA1D$
-fA1T$
-fA3)fA
-fA3,$fA3
-fA3L$
-fA3T0
-fA3l$
-fA3|$
-fA9A 
-fA9A A
-fA9P 
-fA9Q sEI
-fB9,@u
-fD9	u
-fD9&u
-fD;3t
-fE1L$
-fE1\$
-fE31fE3
-fE3T$
-fE3\$
+fNt7
 failIfExtra
-failed to get EncodingTimeStartUS property from frame [ %s ]
-failed to get SubmitIndex propety from frame [ %s ]
-failed to get frame type property from frame [ %s ]
-failed to set EncodingTimeStartUS as propety on frame [ %s ]
-failed to set SubmitIndex as propety on frame [ %s ]
+failed to get EncodingTimeStartUS property from frame [ %s ]\n
+failed to get SubmitIndex propety from frame [ %s ]\n
+failed to get frame type property from frame [ %s ]\n
+failed to set EncodingTimeStartUS as propety on frame [ %s ]\n
+failed to set SubmitIndex as propety on frame [ %s ]\n
 false
 false literal
+fcTZ
 fclose
-ffffff
-fffffff
+feof
 ffgvh
 fflush
 fgetc
@@ -5668,15 +2522,6 @@ fi_fi
 fields
 finnish
 first not IHDR
-float CatmullRom( float x )
-float3 RGB709_to_YUV( float3 rgb )
-float3 SrgbLinearToGamma( float3 vLinearColor )
-float4 FoveatedSample( vs_out input, float SampleScale )
-float4 Kernel_Iso_Circle( Texture2D tex, SamplerState samplerState, float2 textureSize, float2 invTextureSize,
-float4 ps_main( vs_out input, float4 screenSpace : SV_Position ) : SV_TARGET{
-float4 ps_main(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {
-float4 ps_main_chroma( vs_out input ) : SV_TARGET{
-float4 ps_main_chroma(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {
 fminf
 fopen
 fopen_s
@@ -5686,6 +2531,7 @@ fputc
 fputs
 fr_fr
 fread
+free
 freeaddrinfo
 french
 frmDeadline
@@ -5694,53 +2540,33 @@ fseek
 fsetpos
 ftell
 fwrite
-g&3gH
-g+V}+
-g9k0t_D
+g&3g
 gK99r
 gLimitMBPS
 generator
 generic
 german
-getDeviceProperty returned empty
-getDeviceProperty returned wrong type %d
+getDeviceProperty returned empty\n
+getDeviceProperty returned wrong type %d\n
 getaddrinfo
-getaddrinfo failed with error: %d
-gffffA
-gfffffffH
-gfffffffH+
-gfffffffI
-ggV}++
+getaddrinfo failed with error: %d\n
 greek
-h	bQ}J
-h	bq}K
 h8,4$
-hA\^][
-hA]A\
-hA_A^A]_[]
+hHpX
+hOM/
 h\44Q
 hand_right_poses.glb
 handle_link_button
 handle_recenter
 handlers
 height
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
+hist
 hu_hu
 hungarian
-i	bq}J
-i	bq}L
-i Q		
-i W		
-i(H;i8
 iFjtk
 iQ %5.2f
-iTba~(
+i]Wb
 iauds
-ig@-?e
 illegal code in raster
 image/bmp
 image/gif
@@ -5820,110 +2646,32 @@ invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
 invalid vector<T> subscript
 inverseBindMatrices
+iolj
 isalnum
 isalpha
 isdigit
 it_it
 italian
-ix`fA
 ja_jp
 japanese
-jj@0HK4
 joints
-k0i0$
 k22Vd22Vd
 kZ3nT]
 keylength >= 2^30
-kht H
 ko_kr
 koreana
-l$ ATAVAWH
-l$ E3
-l$ H;
-l$ H=
-l$ UAVAWH
-l$ VATAUAVAWH
-l$ VH
-l$ VWATAUAVAW
-l$ VWATAUAVH
-l$ VWATAVAWH
-l$ VWATH
-l$ VWAVH
-l$ VWAWH
-l$ WATAUH
-l$ WATAWH
-l$ WAVHc|$8I
-l$ WH
-l$ bq
-l$ fA
-l$ fD
-l$$bq
-l$%bq
-l$&bq
-l$(bq
-l$,bq
-l$-bq
-l$.bq
-l$0A^_
-l$0E3
-l$0H+
-l$0M9o 
-l$0fA
-l$0fD
-l$0fG
-l$4H;
-l$4bq
-l$5bq
-l$6bq
-l$8E3
-l$8M;
-l$<bq
-l$=bq
-l$>bq
-l$@H;
-l$@fA
-l$@fD
-l$@t[
-l$@t^
-l$BHc
-l$Mbq
-l$PA_A^A]A\_^
-l$PD+
-l$PI;
-l$PM9n
-l$PfA
-l$PfD
-l$PfE
-l$PfG
-l$TD;
-l$XH;
-l$]bq
-l$`fA
-l$`fD
-l$pL;l$P
-l$pfA
-l$pfD
-l$pfG
-l$xE3
-l$xLc
-l$xM+
-l2|X/gGe
-l\$pf
+lHt\
+lNrZ
 latam
 ldexp
 lights
 link_action
-listen failed with error: %d
-ll$Pf
+listen failed with error: %d\n
 localeconv
 logFirstFrames
-m e-2Uf
-m e-C;f
-m e-H
-m e-Y
-m0k0$
-mH?%g
-mL$PH
+logf
+lpHP
+m_ka
 m_nMaxLogBufferingSize > 0
 m_pVideoEnc->SubmitFrame
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -5935,12 +2683,13 @@ materials
 matrix
 max value > 255
 maxVideoQueueLatencyUs
-md$pf
+mbps
 memchr
 memcmp
 memcpy
 memmove
 memset
+mesh
 meshes
 message_id
 metallicFactor
@@ -5952,15 +2701,16 @@ mimeType
 minFilter
 minVersion
 missing color table
-mt$Pf
+mode
+modf
 multiple IHDR
 muted
-n0_D@
-nD$pH
 nFramesSkippedPS
 nKeyLen + sConnectionInfo.length() < vPassKey.size() - 1
 nLayerCount
 nPrimaryLayer
+nY77
+name
 nb_no
 nfinity
 nl_nl
@@ -5971,6 +2721,7 @@ no SOI
 no clear code
 no header height
 no preset dict
+node
 nodes
 normalTexture
 normalized
@@ -5981,378 +2732,18 @@ not HDR
 not PSD
 not enough pixels
 ntdll.dll
-ntelD
+null
 null literal
 number literal
 number overflow parsing '
-nvEncDestroyEncoder() failed to destroy
+nvEncDestroyEncoder() failed to destroy\n
 nvEncodeAPI64.dll
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o$1bA~
-o$3bq
-o$:bQ%H
-o%	=a
-o% 8e
-o% hd
-o%!fa
-o%" d
-o%"0c
-o%"3b
-o%"vb
-o%#Aa
-o%%:e
-o%%Jr..\$
-o%%|a
-o%&De
-o%&Ja
-o%&Ra
-o%&_d
-o%'=a
-o%(nb
-o%)[d
-o%*dc
-o%,<b
-o%-+b
-o%-5a
-o%-mc
-o%-sa
-o%-uc
-o%./b
-o%.Fa
-o%0eb
-o%1Cc
-o%2wa
-o%38c
-o%3Id
-o%4#c
-o%5ib
-o%7$d
-o%8Lc
-o%9'b
-o%:0a
-o%;,c
-o%<4c
-o%<zb
-o%=oa
-o%>@b
-o%>hd
-o%?rb
-o%@Na
-o%@ab
-o%AAa
-o%C:e
-o%C|a
-o%D8b
-o%D9a
-o%DJa
-o%EIb
-o%F<e
-o%Fnb
-o%GDd
-o%G[d
-o%Gqc
-o%Gzd
-o%J@d
-o%KGc
-o%L.d
-o%L/b
-o%N'c
-o%NPc
-o%Pwa
-o%Q d
-o%Q0c
-o%Q3b
-o%Q8c
-o%Qvb
-o%Rcd
-o%S5e
-o%Sib
-o%UDe
-o%URa
-o%U_d
-o%V=a
-o%XDb
-o%Y#a
-o%[<b
-o%[Mb
-o%\+b
-o%\sa
-o%\uc
-o%]Fa
-o%]rb
-o%^Na
-o%_eb
-o%`Cc
-o%`]a
-o%b8b
-o%bId
-o%f$d
-o%gLc
-o%h@d
-o%hTc
-o%j.d
-o%k4c
-o%kzb
-o%m@b
-o%mhd
-o%o d
-o%o3b
-o%ovb
-o%pAa
-o%r:e
-o%r|a
-o%sDe
-o%sJa
-o%sRa
-o%s_d
-o%tIb
-o%t~d
-o%u<e
-o%uQb
-o%unb
-o%vDd
-o%vFe
-o%v[d
-o%vzd
-o%y<b
-o%zGc
-o%{/b
-o%|'a
-o%}Pc
-o%}Xc
-o%~)d
-o%~Cc
-o,$fE
-o,0bq
-o,:bQ%H
-o-%Zw
-o-?'g
-o-[Px
-o-yYr
-o4$fD
-o4$fE
-o47bq
-o<$fD
-o<$fE
-o<0bq
-o=	wM
-o=!Y^
-o="#c
-o='$b
-o='9a
-o='hc
-o=)F`
-o=*^b
-o=1+b
-o=4eb
-o=5j`
-o=80c
-o=I,^
-o=Ina
-o=Klc
-o=Lh^
-o=L~M
-o=XU`
-o=XX^
-o=ZJa
-o=\E`
-o=^8a
-o=k"_
-o=o/c
-o=orb
-o=s~_
-o=t"`
-o=xK_
-o={'`
-o@ fA
-o@ fE
-o@0fA
-o@0fE
-o@@fA
-o@@fD
-o@@fE
-oA fA
-oA fD
-oA fE
-oA0fA
-oA0fD
-oA0fE
-oA@fD
-oA@fE
-oANb3%
-oANb3M
-oANb3U
-oANb3]
-oANb3e
-oANb3m
-oAPfD
-oAPfE
-oA`fD
-oA`fE
-oApfD
-oApfE
-oB fA
-oB0fA
-oB@fA
-oBPfA
-oB`fA
-oBpfA
-oD$ H
-oD$ f
-oD$ fA
-oD$ fD
-oD$0f
-oD$0fA
-oD$0fD
-oD$@H
-oD$@L
-oD$@fA
-oD$@fD
-oD$PH
-oD$PfA
-oD$PfD
-oD$`fA
-oD$`fD
-oD$pfA
-oD4 A
-oF fA
-oF0fA
-oF`fD
-oG fA
-oG0fA
-oG`fD
-oH0fA
-oH@fA
-oHPfA
-oH`fA
-oHpfA
-oI0fD
-oIPfE
-oJ	bq
-oJ bq
-oJ!bq
-oJ"bq
-oJ#bq
-oJ$bq
-oJ%bq
-oJ&bq
-oJ'bq
-oJ(bq
-oJ)bq
-oJ*bq
-oJ+bq
-oJ,bq
-oJ-bq
-oJ.bq
-oJ/bq
-oJ@bq
-oJ@fD
-oJAbq
-oJBbq
-oJCbq
-oJDbq
-oJEbq
-oJFbq
-oJGbq
-oJHbq
-oJIbq
-oJJbq
-oJKbq
-oJLbq
-oJMbq
-oJNbq
-oJObq
-oJ`bq
-oJabq
-oJbbq
-oJcbq
-oJdbq
-oJebq
-oJfbq
-oJgbq
-oJhbq
-oJibq
-oJjbq
-oJkbq
-oJlbq
-oJmbq
-oJnbq
-oJobq
-oL$ f
-oL$ fE
-oL$0fD
-oL$0fE
-oL$@fD
-oL$@fE
-oL$PfE
-oL$`L
-oL$`fD
-oL$`fE
-oL$pfD
-oL$pfE
-oM fD
-oM0fD
-oP fA
-oPPfE
-oP`fA
-oPpfA
 oQ %5.2f
-oQ fA
-oQ fD
-oQ0fD
-oQ@fD
-oQNb#
-oQNb#%
-oQNb#U
-oQNb#e
-oQPfD
-oQ`fD
-oQ`fE
-oQpfD
-oR fA
-oT$ f
-oT$0f
-oT$@fD
-oT$PH
-oT$PfD
-oT$pfD
-oV0fD
-oW0fD
-oX0fA
-oX0fE
-oX@fA
-oX@fE
-oXpfA
-oY0fA
-oY0fD
-oYPfD
-oYpfE
-oZ`fD
-o\$	bq}
-o\$0f
-o\$PfD
-o\$`f
-o\$`fD
-o] fA
-o^`fD
-o_`fD
-o`@fA
-o``fA
-o``fE
-oa.bq
-oa@fD
-oa`fD
-ob0fD
-ob0fE
-obPfD
-obPfE
 object
 object key
 object separator
-obpfD
-obpfE
-oc fE
 occlusionTexture
 oculus
 oculus_quest2_controller
@@ -6361,82 +2752,19 @@ oculus_quest_plus_controller
 oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
-od$ f
-od$@f
-od$`H
-od$`fD
-od$pfD
-oe0fA
-oh fA
-ohPfA
-oi fA
-oi.bq
-oiPfD
-oipfD
-oj fA
-oj fD
-ok0fE
-ol$ f
-ol$ fE
-ol$0f
-ol$0fE
-ol$@fE
-ol$Pf
-ol$PfE
-ol$`fE
-ol$pH
-ol$pfD
-ol$pfE
-ol. H
-ol.0H
-ol.@H
-ol.PH
-ol.`H
-ol.pH
 ole32.dll
 only 8-bit
-op fA
-op0fA
-op@fA
-opPfA
-op`fA
+open
 openDashboardOnConnectionLoss
 open_dashboard
 openvr
 openvr.tool.steamvr_environments
 openvr.tool.steamvr_media_player
 openvrpaths.vrpath
-oppfA
 option doesn't take an argument -- %.*s
 option requires an argument -- %c
 option requires an argument -- %s
-oq fA
-oq0fA
-oq`fD
-or0fA
-or0fD
-or@fA
 orthographic
-ot$ fD
-ot$ fE
-ot$0M1
-ot$0f
-ot$0fD
-ot$0fE
-ot$@f
-ot$@fD
-ot$@fE
-ot$HH
-ot$Pf
-ot$PfD
-ot$PfE
-ot$`H
-ot$`f
-ot$`fD
-ot$`fE
-ot$pL
-ot$pfD
-ot$pfE
 out_of_range
 outerConeAngle
 outofdata
@@ -6445,68 +2773,27 @@ output
 output buffer limit
 overrideRenderHeight
 overrideRenderWidth
-ox fA
-ox0fA
-ox@fA
-oxPfA
-ox`fA
-oxpfA
-oxpfE
-oy.bq
-oy0fA
-oypfD
-oz@fD
-oz`fA
-oz`fD
-ozpfA
-o|$	L
-o|$ fD
-o|$ fE
-o|$0fE
-o|$@H
-o|$@fD
-o|$@fE
-o|$PI
-o|$Pf
-o|$PfD
-o|$PfE
-o|$`fE
-o|$pfD
-o|$pfE
-o~0fD
-p	bq}K
-p ATAVAWH
-p WATAVH
-p$D+;
-p>|B>
-pA]A\^
-pA^^]
-pA^_^
-pA_A]A\
-pA_A^A\_^[]
-pA_A^A]A\[
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-pA_A^_
-pA_A^_^]
-pHA_A^A]A\
+pH88
 pNewResource
 pNewResource->Load( absFilePath )
+pXhH
 pZlNr
 p\lHtW
 p`q4r<s
-packetCount too high (%u)
-parameter must be a string or number / number array.
+parameter must be a string or number / number array.\n
 params
 parse error
 parse_error
+path
 payload
-pbS}H9
 pbrMetallicRoughness
 perspective
+ping
 pl_pl
 polish
+pong
 portuguese
+powf
 pp|B>>q
 precision
 preferredRefreshRate
@@ -6517,62 +2804,24 @@ ps_main
 ps_main_chroma
 pt_br
 pt_pt
-p|*fD
-p|0fD
-q	bq}J
-q	bq}K
-q	bq}L
-q H		
-q I		
-q J		
-q K		
-q O		
-qD9}gt(
-qMFCreateMediaType failed hr = 0x%08x
-qUba~(
+qMFCreateMediaType failed hr = 0x%08x\n
 qWSAPI: SVLAudioWSAPI::Init( %d )
+qZt$
 qualitySharpeningThresholdMbit
-r	`!^
-r*t H
-r*t I
-r,fff
-r.t#I
-r2t)H
-r3t*H
-r5t,H
-r<t3H
-r<t3I
-rBt8H
-rBt8I
-rHt=I
-rHt?H
-rIt@H
-rKtBH
-rND9{0t
-rStIH
-rStII
-rTtIH
-rTtII
-rUtIH
-r[tPH
-r[tPI
-r\tPI
-r_tUH
-r`tVH
+rK99
+rZlN
+rand
 range
-rbtXH
-rctWI
-rdtWI
 read past buffer
 realloc
 received VTE_DASHBOARD_ACTION %d %d
 received VTE_DASHBOARD_ACTION close_dashboard
 received VTE_DASHBOARD_ACTION open_dashboard
-recv failed with error: %d
+recv failed with error: %d\n
 rejectDupKeys
 renderHeight
 renderWidth
-repeating AMF SubmitInput() [ %s ]
+repeating AMF SubmitInput() [ %s ]\n
 reqEncMode
 request_handlers
 request_handlers_response
@@ -6580,30 +2829,16 @@ result
 returnAddress
 rexmitReq
 rexmitSent
-rit`H
-rit`I
-rjtaH
-rjtaI
-rktbH
+rift
 ro_ro
 romanian
 room_setup
 rotation
 roughnessFactor
-rrrrrrrrrrrrrrrr
-rstiH
-rstiI
-rttjI
 rtus_test
 ru_ru
 runtime
 russian
-rutlH
-rvtmH
-rxtoH
-r}trI
-r~tsI
-s UAVAWI
 s11bS
 sBWFECLim
 sChannel
@@ -6631,7 +2866,7 @@ send_to_remote
 send_to_remote message is larger than 65535 bytes: %u
 send_to_remote message received with an invalid dest
 send_to_remote message received with an invalid payload
-sendto error %d
+sendto error %d\n
 sent VTE_DASHBOARD_EVENT EVTYPE_CLOSE_DASHBOARD
 sequence
 serverTCPEnable
@@ -6640,16 +2875,18 @@ session_id_field_name
 session_ogs_row
 setvbuf
 showAdvancedGraphs
-shutdown failed with error: %d
+shutdown failed with error: %d\n
+sinf
 skeleton
 skeletons
+skin
 skins
-socket failed with error: %d
+socket failed with error: %d\n
 source
 spanish
 sparse
 spoofAtStart
-stD9}gt
+spot
 stackLimit
 startcapture
 statscontrol
@@ -6675,143 +2912,22 @@ strtol
 strtoll
 strtoul
 strtoull
-struct vs_in
-struct vs_in {
-struct vs_out
-struct vs_out {
 sv_se
 svl/driver
 svl/linkbwmon
 svlserver:
 swedish
 syntax error 
-t L9g
-t L9r
-t"D+s
-t"E8`8u
-t#fff
-t$ @2
-t$ AVH
-t$ AW
-t$ AWH
-t$ E3
-t$ H;
-t$ HcH
-t$ L;
-t$ UH
-t$ UWATAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WATAWH
-t$ WAV
-t$ WAVAWH
-t$ WH
-t$ fA
-t$ fD
-t$ fE
-t$ fG
-t$$A3
-t$$L+
-t$(A_
-t$(H+
-t$(H;
-t$(M	
-t$,H+>H
-t$.bq
-t$0A^_
-t$0E3
-t$0H+
-t$0H;
-t$0Hc
-t$0M1
-t$0fA
-t$0fD
-t$0fE
-t$0fG
-t$8E3
-t$8H+
-t$8H;
-t$8HcA
-t$8L9t$@tg
-t$8L;kht`L;kptZL
-t$>bq
-t$@E3
-t$@H+
-t$@H;
-t$@H=
-t$@fA
-t$@fD
-t$@fE
-t$@fG
-t$@u/H
-t$DA+
-t$DA3
-t$H99t	H
-t$HA;
-t$HH+
-t$HH;
-t$HHi
-t$HL;
-t$Nbq
-t$PE3
-t$PH=
-t$PHc
-t$PI+
-t$PfA
-t$PfD
-t$PfE
-t$PfG
-t$^bq
-t$`A+
-t$`D;
-t$`H;
-t$`I+
-t$`L;
-t$`Li
-t$`Lk
-t$`fA
-t$`fD
-t$`fE
-t$`fG
-t$hHc
-t$hL;
-t$pI;
-t$pfA
-t$pfD
-t$pfE
-t$pfG
-t%<~u
-t&D+r
-t,,X.
-t,M9x
-t,wdH
-t1Hcl$@
 t4uLv
-t5qxf
-t9fff
-t=`Uf
-t>H9n
-t>y#I
-t?y$I
-t?y&I
-tAy&H
-tCLc{
-tKfA9
-tQH95
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tU@8p uOH
-tXH+A
-tXfff
-t[H+A
 t\lHBW
 tabcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 table
 target
 targetBandwidth
 targets
-tb9l$Xt@9n$~;
 tchinese
 tdh.dll
 terminate
@@ -6819,6 +2935,7 @@ texCoord
 text/plain
 textures
 th_th
+thai
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
 timeBeginPeriod
@@ -6833,36 +2950,15 @@ touch_poses_right.glb
 toupper
 tr_tr
 translation
+true
 true literal
-tsFrameTimeAbsolute	Wire	Encode	FEC	XPort	Sound	Retry	Logic	Note	Exceptions	MCS	DbgWait	QThrottle	TimeSinceLastWGPMS	EstimatedPingMS	ExpectedPingMS	X	Y	Z	W	X	Y	Z	tEncodeTimeMS
+tsFrameTimeAbsolute\tWire\tEncode\tFEC\tXPort\tSound\tRetry\tLogic\tNote\tExceptions\tMCS\tDbgWait\tQThrottle\tTimeSinceLastWGPMS\tEstimatedPingMS\tExpectedPingMS\tX\tY\tZ\tW\tX\tY\tZ\ttEncodeTimeMS\nFramesToThrottle\nRemapTimeMS\nStartEncMS\n
 tsLastWGP
 turkish
 txTimeMS
-t|SUVH
-t}H9=
+type
 t}WF<7
 u!!Bc
-u(H90u#9x
-u*H9w`t$H
-u*H9{`t$H
-u,L9'u2
-u,fff
-u-fff
-u.H9{`t(H
-u0H9U
-u4D9m#u.D8mwt(H
-u<A_A^A]
-u>f9X u8f9X0u2f9X@u,f9XPu&
-u>f9X"u8f9X2u2f9XBu,f9XRu&
-uDf9X
-uGfff
-uH8L<
-uH8L=
-uH8L>
-uJf9X
-uP@8;uo
-uRf;>tM
-ua9|$ tX
 uk_ua
 ukrainian
 unexpected 
@@ -6886,32 +2982,28 @@ useOSCEyes
 useOSCFace
 usePool
 useSpecialFloats
-v=Y]Bv
-vD;EHL
-vE;E`M
-vHcD$LH
+vRQ>
 value
 values
 valve.steam.desktopgame.
 vector<T> too long
 vector<bool> too long
 version
-vfA'I
 vi_vn
-videoamfenc first frame or reset in SubmitFrame():  %d  %d  %d  %d  %d  %d
-videoamfenc: Terminate encoder for restart
-videoamfenc: failed to force idr frame [ %s ]
-videoamfenc: failed to insert aud [ %s ]
-videoamfenc: failed to insert header [ %s ]
-videoamfenc::CreateEncoder failed
-videoamfenc::CreateEncoder( %d, %d )
-videoamfenc::CreateEncoder( %d, %d ) succeeded
-videoamfenc::GetDataThread() hit EOF, exiting
-videoamfenc::GetDataThread() hit error, exiting [ %s ]
-videoamfenc::GetDataThread() submitting %llu bytes, frame type %lld
-videoamfenc::Init()
-videoamfenc::Init() succeeded
-videoamfenc::Resize( %d, %d )
+videoamfenc first frame or reset in SubmitFrame():  %d  %d  %d  %d  %d  %d\n
+videoamfenc: Terminate encoder for restart\n
+videoamfenc: failed to force idr frame [ %s ]\n
+videoamfenc: failed to insert aud [ %s ]\n
+videoamfenc: failed to insert header [ %s ]\n
+videoamfenc::CreateEncoder failed\n
+videoamfenc::CreateEncoder( %d, %d ) succeeded\n
+videoamfenc::CreateEncoder( %d, %d )\n
+videoamfenc::GetDataThread() hit EOF, exiting\n
+videoamfenc::GetDataThread() hit error, exiting [ %s ]\n
+videoamfenc::GetDataThread() submitting %llu bytes, frame type %lld\n
+videoamfenc::Init() succeeded\n
+videoamfenc::Init()\n
+videoamfenc::Resize( %d, %d )\n
 videonvenc->nvEncEncodePicture
 videonvenc::GetEncodedDataThread
 videonvenc::ManageFramesThread
@@ -6928,17 +3020,14 @@ vrlink_debug.json
 vrlink_device
 vs_5_0
 vs_main
-vs_out vs_main( vs_in input )
-vs_out vs_main(vs_in input) {
-w(M9w0tH
-warning: could not set socket buffer size
+wF\ro
+warning: could not set socket buffer size\n
 watchForShaderChanges
 wcsrchr
 wcsstr
 weights
 whichDevice
 while parsing 
-whtEH
 width
 win64
 wirelessShutdownTimeout
@@ -6949,235 +3038,19 @@ wrapT
 wrong channel count
 wrong color format
 wrong version
-wsfff
-www.digicert.com1!0
-www.digicert.com1$0"
-wxL9B0
-x	bq}K
-x AVH
-x%Jo%.\r.
 x((Pz
-x(D$@
-x(L$0
-x(t$@
-x)D$@
-x)L$0H
-x)l$P
-x)t$@
-xA^A\_^][
-xA_A^A]A\_^][
-x` u6H
-x` u6L
+xmag
 xxJo%%\r..8$
-y	bq}J
-y	bq}L
-y	bs5@D5
-y	bs5@D5	 u
-y	bs5@D5	\v
-y	bs5@D5!
-y	bs5@D5!5u
-y	bs5@D5!>
-y	bs5@D5!Tp
-y	bs5@D5#
-y	bs5@D5#d
-y	bs5@D5$
-y	bs5@D5% |
-y	bs5@D5%T
-y	bs5@D5&Hu
-y	bs5@D5'
-y	bs5@D5(
-y	bs5@D5)
-y	bs5@D5)$}
-y	bs5@D5+
-y	bs5@D5,op
-y	bs5@D5-Iq
-y	bs5@D5.j
-y	bs5@D5/
-y	bs5@D51
-y	bs5@D53
-y	bs5@D54
-y	bs5@D55
-y	bs5@D56;
-y	bs5@D56tv
-y	bs5@D57
-y	bs5@D57M
-y	bs5@D58
-y	bs5@D59
-y	bs5@D5=T
-y	bs5@D5=n
-y	bs5@D5>
-y	bs5@D5?
-y	bs5@D5?]p
-y	bs5@D5A
-y	bs5@D5AOp
-y	bs5@D5Di
-y	bs5@D5E
-y	bs5@D5Ekv
-y	bs5@D5F
-y	bs5@D5G
-y	bs5@D5Hav
-y	bs5@D5Hlp
-y	bs5@D5I
-y	bs5@D5M#q
-y	bs5@D5M0}
-y	bs5@D5O
-y	bs5@D5SD
-y	bs5@D5T
-y	bs5@D5V
-y	bs5@D5W
-y	bs5@D5WA|
-y	bs5@D5X,p
-y	bs5@D5Yu
-y	bs5@D5[
-y	bs5@D5[4|
-y	bs5@D5\
-y	bs5@D5]
-y	bs5@D5_
-y	bs5@D5b
-y	bs5@D5b/q
-y	bs5@D5c
-y	bs5@D5e
-y	bs5@D5g
-y	bs5@D5gH
-y	bs5@D5h
-y	bs5@D5iO
-y	bs5@D5j
-y	bs5@D5k
-y	bs5@D5k$|
-y	bs5@D5k1u
-y	bs5@D5kEu
-y	bs5@D5l
-y	bs5@D5m&
-y	bs5@D5m-u
-y	bs5@D5m;|
-y	bs5@D5m^
-y	bs5@D5n
-y	bs5@D5o
-y	bs5@D5oa
-y	bs5@D5pYq
-y	bs5@D5q
-y	bs5@D5q:q
-y	bs5@D5s
-y	bs5@D5s6
-y	bs5@D5tDp
-y	bs5@D5wep
-y	bs5@D5x
-y	bs5@D5y
-y	bs5@D5{
-y	bs5@D5|L
-y	bs5@D5}
-y A		
-y D$	
-y E		
-y G		
-y"E{M
+y-au
 y3y3y3y3y3y3y3y3c
-yNba~(
-yo%YX]
-yo- c
-yo-"]
-yo-,4
-yo-3=
-yo-4d
-yo-7d
-yo-82
-yo-;+
-yo-KD
-yo-Lu
-yo-M7
-yo-R<
-yo-TD
-yo-Uj
-yo-]9
-yo-]W
-yo-bq
-yo-h$
-yo-m*
-yo-m{
-yo-o(
-yo-q 
-yo-w.
-yo-|3
-yo=#\W
-yo=0kX
-yo=3!W
-yo=?_Y
-yo=FMW
-yo=GQY
-yo=c[W
-yo=idX
-yo=keY
-yo=o#Y
-yo=qVX
-yoD$ 
-yoD$ H
-yoD$0
-yoD$P
-yoD$`
-yoD$`I
-yoL$ 
-yoL$0
-yoL$@
-yoL$P
-yoL$`
-yoL$p
-yoT$@
-yoT$P
-yoT$p
-yo\$P
-yo\$`
-yod$ 
-yod$0
-yod$@
-yod$P
-yod$`
-yod$`H
-yod$p
-yol$ 
-yol$0
-yol$@
-yol$P
-yol$`
-yol$p
-yol$pH
-yot$ 
-yot$0
-yot$@
-yot$P
-yot$`
-yot$p
-yo|$ 
-yo|$0
-yo|$@
-yo|$P
-yo|$`
-yo|$p
-ypb a
-ypfff
-yxxxxxxxH
-yxxxxxxxH+
-yxxxxxxxI
-y~QDC
-y~QDH
-y~RDH
-y~UDL
+yfov
+ymag
+zfar
+zhOM
 zh_cn
 zh_tw
 zlib corrupt
 znear
-zoJ L
-zoJ0bq
-zoJ@M
-zoT$ 
-zo\$0
-zol$ 
-zol$0
-zol$@
-zol$P
-zol$`
-zot$P
-zo|$`
-{%s}%s
 {oculus}/icons/quest_headset_alert_searching.png
 {oculus}/icons/quest_headset_error.png
 {oculus}/icons/quest_headset_off.png
@@ -7203,7 +3076,6 @@ zo|$`
 {oculus}/icons/rifts_right_controller_searching_alert.png
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
-{un'%
 {vrlink}
 {vrlink}/shaders/client_construct_override.frag
 {vrlink}/shaders/client_construct_override.vert
@@ -7216,145 +3088,7 @@ zo|$`
 {vrlink}/shaders/cursor.vert
 {vrlink}/shaders/genforencode.hlsl
 {vrlink}/shaders/override_shader_params.json
-|$ ATAUAVAW
-|$ ATAUAVAWD
-|$ ATAUAVAWH
-|$ ATAUAVAWM
-|$ ATAVAWH
-|$ ATH
-|$ AV
-|$ AVAW
-|$ AVAWD
-|$ AVH
-|$ D3L$(
-|$ E3
-|$ M;
-|$ UATAUAVAWH
-|$ UAVAWH
-|$ UH
-|$ fA
-|$ fD
-|$ ff
-|$'bq
-|$(A^
-|$(E3
-|$(H;
-|$(I9V
-|$0A_A^
-|$0Ai
-|$0E3
-|$0H9
-|$0H;
-|$0Hk
-|$0I;
-|$0Ic
-|$0L9n0u-H
-|$0Mc
-|$0fA
-|$0fD
-|$7bq
-|$8A+
-|$8H1
-|$8H9S
-|$8H;
-|$9H+
-|$<I;
-|$@A_A^A]A\
-|$@D3T$H
-|$@D;
-|$@H+
-|$@H1
-|$@H;
-|$@Hc
-|$@M;
-|$@fA
-|$@fD
-|$Gbq
-|$HA+
-|$HE3
-|$HH;
-|$HH=
-|$HI+
-|$HM+
-|$PH+
-|$PH;
-|$PI;
-|$PL9~
-|$PLc
-|$PM+
-|$PfA
-|$PfD
-|$PfE3
-|$Wbq
-|$X@2
-|$XH+
-|$XH;
-|$`H+G8H=@B
-|$`M+
-|$`fA
-|$`fD
-|$h@2
-|$hu/H
-|$pA;
-|$pH+
-|$pL;
-|$pfA
-|$pfD
-|$xL;
-|(bR}HZQ
-|Lu?c
-}0H9U
-}HX!b
-}HX"b
-}HX&b
-}HZ$>b
-}HZ%4
-}HZ%PWf
-}HZ%f
-}HZd9
-}HZd>
-}HZd> b
-}HZd>0b
-}HZd>@b
-}HZd>Pb
-}HZd>`b
-}HZd>pb
-}Ho-u
-}LuHO
-}o="-N
-}o='cM
-}o=K3R
-}o=MQR
-}o=P\M
-}oD$ 
-}oD$@
-}oD$`
-}oL$ 
-}oL$@
-}oL$`
-}ol$ 
-}ol$@
-}ol$`
-}ot$ 
-}ot$@
-}ot$`
-}o|$ 
-}o|$@
-}o|$`
-}{))R>
 ~%d~%d~%d,%d,%d~~~~
-~)HcB
-~+fff
-~3LcD$(L
-~6HcD$ I
-~:<Su
-~=zG=d
-~Ho$1bA~Ho
-~Ho,0H
-~Ho<0H
-~Hot5
-~T$dE3
-~XH9~`t+H
-~qj#k"
-~t&LN
-~~zG==
+~SeA
+~TbF
+~X0S

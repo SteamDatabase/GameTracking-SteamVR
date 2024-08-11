@@ -1,16 +1,7 @@
-
-%Y-%m-%d
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
-%p
-%s %s
-%s -
-%s%c%s
-*.*
-..
 .tmp
 /dev/%s
-/e%s%s
 /proc
 /proc/%d/status
 /proc/%u/stat
@@ -23,8 +14,7 @@
 17CCameraWorkThread
 17CLinuxVideoStream
 25ICameraCompletionCallback
-:
->jm
+>VR_COMBINED_LOGGING
 AITAPI_AitExtGet(void*, unsigned short, unsigned char*, unsigned long, unsigned long*)
 AITAPI_AitExtSet(void*, unsigned short, unsigned char*, unsigned long, unsigned long*)
 AITAPI_CloseDevice(void**)
@@ -59,7 +49,7 @@ CAitCamera::IsVideoStreamPaused()
 CAitCamera::LogMessage(LogLevel, char const*, ...)
 CAitCamera::OnCamSyncEvent(double)
 CAitCamera::OnCameraCommandCompleted(CameraCommand_t*, bool)
-CAitCamera::OnCameraCommandCompleted(CameraCommand_t*, bool) [clone .part.17]
+CAitCamera::OnCameraCommandCompleted(CameraCommand_t*, bool) (.part.17)
 CAitCamera::OnISPSyncEvent(double)
 CAitCamera::OnStartCommand_StartVideoStreamInternal(CameraCommand_t*)
 CAitCamera::OnStopCommand_StopVideoStreamInternal(CameraCommand_t*)
@@ -145,12 +135,13 @@ CVRLog::SetMaxLogLevel(LogLevel)
 CVRLog::WillLog(LogLevel)
 CVRLog::~CVRLog()
 CXXABI_1.3
+CameraWork
 CloseLog()
 CreateSimpleProcess
 CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
 DW.ref.__gxx_personality_v0
 DeclareCurrentThreadIsMainThread
-DumpLogStrings(std::vector<std::string, std::allocator<std::string> >&)
+DumpLogStrings(std::vector<std::string, std::allocator<std::string>>&)
 Enabled
 FileSelect(dirent const*)
 FillDataStruct(_finddata_t*)
@@ -163,7 +154,6 @@ GLIBC_2.2.5
 GLIBC_2.3.2
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GetCameraHALInterface
 GetEnvironmentVariable(char const*)
 GetFileLength(char const*)
@@ -181,21 +171,21 @@ HOME
 InitLog(char const*, char const*)
 InitMainThread()
 InitSystemBaseTimeTicks(unsigned long)
-InitSystemTime(unsigned long) [clone .part.0]
+InitSystemTime(unsigned long) (.part.0)
 IsPosix()
-Log Level Set to %d
+Log Level Set to %d\n
 Log(LogLevel, char const*, ...)
 Log(char const*, ...)
 LogIncremental(LogLevel, char const*, ...)
 LogIncremental(char const*, ...)
 MGiI
 MakeFileWriteable(char const*)
-N
+MbP?
 N16SteamThreadTools7CThreadE
 N2vr10ICameraHALE
 N@/sys/class/video4linux/%s/device/../%s
 Not Available
-Out of thread local storage!
+Out of thread local storage!\n
 Path_Compact(std::string const&, char)
 Path_Exists(std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&)
@@ -244,7 +234,7 @@ SteamThreadTools::CThread::GetResult() const
 SteamThreadTools::CThread::GetThreadProc()
 SteamThreadTools::CThread::Init()
 SteamThreadTools::CThread::IsAlive()
-SteamThreadTools::CThread::IsAlive() [clone .part.4]
+SteamThreadTools::CThread::IsAlive() (.part.4)
 SteamThreadTools::CThread::IsThreadRunning()
 SteamThreadTools::CThread::Join(unsigned int)
 SteamThreadTools::CThread::OnExit()
@@ -261,7 +251,7 @@ SteamThreadTools::CThread::ThreadProc(void*)
 SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
 SteamThreadTools::CThread::Yield()
 SteamThreadTools::CThread::~CThread()
-SteamThreadTools::CThread::~CThread() [clone .part.8]
+SteamThreadTools::CThread::~CThread() (.part.8)
 SteamThreadTools::CThreadEvent::CThreadEvent(bool)
 SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
 SteamThreadTools::CThreadEvent::Check()
@@ -306,12 +296,12 @@ SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
 SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
 SteamThreadTools::CThreadSyncObject::operator!() const
 SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
-SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.2]
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() (.part.2)
 SuspendResumePthread(unsigned long, int)
 SystemTicksToSeconds(unsigned long)
 SystemTimeSleep(unsigned int)
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
@@ -357,35 +347,34 @@ ThreadTerminateProcessCode
 ThreadWaitForProcessExit
 ThreadYield()
 TracerPid:
-TrackedCamera: CloseCamera()
-TrackedCamera: Degenerate Frame Buffering size %d.
-TrackedCamera: Expecting drivers at '%s'
-TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X
-TrackedCamera: Failed to get firmware version.
-TrackedCamera: Failed to queue.
-TrackedCamera: Failed to start preview!
-TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X
-TrackedCamera: Frame Buffering, missing buffer %d.
-TrackedCamera: ISP Sync: %s (Divisor:%d).
-TrackedCamera: Incompatible firmware version: %llu.
-TrackedCamera: No Frame Buffers established. Video preview not available.
-TrackedCamera: OpenCamera()
-TrackedCamera: StartVideoStream() took %.0f ms
-TrackedCamera: Starting Video Stream.
-TrackedCamera: Stopping Video Stream For Camera Shutdown.
-TrackedCamera: Stopping Video Stream.
-TrackedCamera: Video Stream Stopped (abnormal shutdown).
-TrackedCamera: Video Stream Stopped (failed startup).
-TrackedCamera: Video Stream Stopped.
-TrackedCamera: failed to open device using video graph interface!
+TrackedCamera: CloseCamera()\n
+TrackedCamera: Degenerate Frame Buffering size %d.\n
+TrackedCamera: Expecting drivers at '%s'\n
+TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Failed to get firmware version.\n
+TrackedCamera: Failed to queue.\n
+TrackedCamera: Failed to start preview!\n
+TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Frame Buffering, missing buffer %d.\n
+TrackedCamera: ISP Sync: %s (Divisor:%d).\n
+TrackedCamera: Incompatible firmware version: %llu.\n
+TrackedCamera: No Frame Buffers established. Video preview not available.\n
+TrackedCamera: OpenCamera()\n
+TrackedCamera: StartVideoStream() took %.0f ms\n
+TrackedCamera: Starting Video Stream.\n
+TrackedCamera: Stopping Video Stream For Camera Shutdown.\n
+TrackedCamera: Stopping Video Stream.\n
+TrackedCamera: Video Stream Stopped (abnormal shutdown).\n
+TrackedCamera: Video Stream Stopped (failed startup).\n
+TrackedCamera: Video Stream Stopped.\n
+TrackedCamera: failed to open device using video graph interface!\n
 USER
 UnixTimeToDateString(unsigned long)
 UnlinkFile(char const*)
-VTT for std::basic_ifstream<char, std::char_traits<char> >
+VTT for std::basic_ifstream<char, std::char_traits<char>>
 Version: %X%X.%X%X.%X%X Date: %s
 VideoSinkCallback(unsigned int, void*, void*)
 WillLog(LogLevel)
-_
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I_aitcamera.cpp
@@ -535,7 +524,6 @@ _findfirst(char const*, _finddata_t*)
 _findnext(long, _finddata_t*)
 _fini
 _init
-a
 abort@@GLIBC_2.2.5
 add_fdes
 adds.8985
@@ -550,7 +538,7 @@ cameraFrameCaptureOffsetTime
 cameraFrameRate
 cameraISPSyncDivisor
 cameraSensorFrameRate
-char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string>>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
 chdir
 chdir@@GLIBC_2.2.5
 chmod
@@ -631,9 +619,9 @@ idProduct
 idVendor
 init_dwarf_reg_size_table
 ioctl
-ioctl EXU1_CS_GET_MMP_RESULT failed, err %d
-ioctl EXU1_CS_SET_ISP failed, err %d
-ioctl EXU1_CS_SET_MMP failed, err %d
+ioctl EXU1_CS_GET_MMP_RESULT failed, err %d\n
+ioctl EXU1_CS_SET_ISP failed, err %d\n
+ioctl EXU1_CS_SET_MMP failed, err %d\n
 ioctl@@GLIBC_2.2.5
 isalpha
 isalpha@@GLIBC_2.2.5
@@ -647,7 +635,6 @@ libstdc++.so.6
 linear_search_fdes
 localtime
 localtime@@GLIBC_2.2.5
-m
 malloc
 malloc@@GLIBC_2.2.5
 marker.8723
@@ -728,7 +715,6 @@ pthread_setschedparam
 pthread_setschedparam@@GLIBC_2.2.5
 pthread_setspecific
 pthread_setspecific@@GLIBC_2.2.5
-rb
 read_encoded_value_with_base
 read_sleb128
 readdir
@@ -760,24 +746,24 @@ sigaction@@GLIBC_2.2.5
 sigemptyset
 sigemptyset@@GLIBC_2.2.5
 size_of_encoded_value
-std::_Deque_base<CameraCommand_t*, std::allocator<CameraCommand_t*> >::~_Deque_base()
-std::_Deque_base<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*> >::_M_initialize_map(unsigned long)
-std::_Deque_base<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*> >::~_Deque_base()
+std::_Deque_base<CameraCommand_t*, std::allocator<CameraCommand_t*>>::~_Deque_base()
+std::_Deque_base<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*>>::_M_initialize_map(unsigned long)
+std::_Deque_base<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*>>::~_Deque_base()
 std::__basic_file<char>::~__basic_file()
 std::__throw_bad_alloc()
 std::__throw_out_of_range(char const*)
-std::basic_filebuf<char, std::char_traits<char> >::basic_filebuf()
-std::basic_filebuf<char, std::char_traits<char> >::close()
-std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode)
-std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf()
-std::basic_ifstream<char, std::char_traits<char> >::~basic_ifstream()
-std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::deque<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*> >::_M_reallocate_map(unsigned long, bool)
+std::basic_filebuf<char, std::char_traits<char>>::basic_filebuf()
+std::basic_filebuf<char, std::char_traits<char>>::close()
+std::basic_filebuf<char, std::char_traits<char>>::open(char const*, std::_Ios_Openmode)
+std::basic_filebuf<char, std::char_traits<char>>::~basic_filebuf()
+std::basic_ifstream<char, std::char_traits<char>>::~basic_ifstream()
+std::basic_ios<char, std::char_traits<char>>::clear(std::_Ios_Iostate)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::deque<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*>>::_M_reallocate_map(unsigned long, bool)
 std::ios_base::ios_base()
 std::ios_base::~ios_base()
 std::istream& std::istream::_M_extract<unsigned int>(unsigned int&)
@@ -824,7 +810,6 @@ systemBaseTicks
 systemSecondsPerTick
 systemTicksPerSecond
 systemTimeInitialized
-t
 terminator.8829
 time@@GLIBC_2.2.5
 toupper
@@ -858,9 +843,9 @@ uw_init_context_1
 uw_install_context_1
 uw_update_context
 uw_update_context_1
-void std::deque<CameraCommand_t*, std::allocator<CameraCommand_t*> >::_M_push_back_aux<CameraCommand_t* const&>(CameraCommand_t* const&)
-void std::vector<CPreviewThread::buff_t, std::allocator<CPreviewThread::buff_t> >::_M_emplace_back_aux<CPreviewThread::buff_t const&>(CPreviewThread::buff_t const&)
-void std::vector<void*, std::allocator<void*> >::_M_emplace_back_aux<void* const&>(void* const&)
+void std::deque<CameraCommand_t*, std::allocator<CameraCommand_t*>>::_M_push_back_aux<CameraCommand_t* const&>(CameraCommand_t* const&)
+void std::vector<CPreviewThread::buff_t, std::allocator<CPreviewThread::buff_t>>::_M_emplace_back_aux<CPreviewThread::buff_t const&>(CPreviewThread::buff_t const&)
+void std::vector<void*, std::allocator<void*>>::_M_emplace_back_aux<void* const&>(void* const&)
 vrcombined_log.previous.txt
 vrcombined_log.txt
 vtable for CAitCamera
@@ -873,12 +858,10 @@ vtable for SteamThreadTools::CThread
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-vtable for std::basic_filebuf<char, std::char_traits<char> >
-vtable for std::basic_ifstream<char, std::char_traits<char> >
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
+vtable for std::basic_filebuf<char, std::char_traits<char>>
+vtable for std::basic_ifstream<char, std::char_traits<char>>
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
 vtable for vr::ICameraHAL
-w
 waitpid
 waitpid@@GLIBC_2.2.5
-wb

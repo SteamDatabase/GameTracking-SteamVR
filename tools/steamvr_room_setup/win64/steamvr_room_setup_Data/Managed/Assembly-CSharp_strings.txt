@@ -1,13 +1,7 @@
-	)	U	
-	,4r[
-	,<~!
- (|+	
  AZ6)
- A[}(
- A[}Z
+ AZi
  SteamVR_Render+<RenderLoop>d__29
  Time to offset playback of sound
-!This program cannot be run in DOS mode.
 "333?
 "SteamVR_LoadLevel+<LoadLevel>d__45
 "The audio listener for this player
@@ -19,27 +13,23 @@
 $Maximum duration of the haptic pulse
 $Minimum duration of the haptic pulse
 $SteamVR_PlayArea+<UpdateBounds>d__14
-%J	XT
+%J\tXT
 'Valve.VR.InteractionSystem.Interactable
 (SteamVR_RenderModel+<SetModelAsync>d__20
 *BSJB
 *SteamVR_RenderModel+<FreeRenderModel>d__23
 *The linear mapping driving the haptic rack
-+&	,#
 +GlobalManagerRS2D+<AutoFitPlayVolume>d__126
-+h	-e
-,?	{H
 ,Inital time before the first repetion starts
 ,Valve.VR.InteractionSystem.Hand+<Start>d__47
 ,Valve.VR.InteractionSystem.VelocityEstimator
-,Wr#1
--@	o<
 .cctor
 .ctor
 .eBZ(
-.text
 /Percent chance that the wave file will not play
+05I 
 1The flags used to attach this object to the hand.
+1fC\f
 2If limited, event invoked when maxAngle is reached
 2If limited, event invoked when minAngle is reached
 2Maximum pitch that will be used when randomly set.
@@ -48,15 +38,18 @@ $SteamVR_PlayArea+<UpdateBounds>d__14
 3Maximum volume that will be used when randomly set.
 3Minimum volume that will be used when randomly set.
 3These objects are enabled when SteamVR is available
+4CX"
 4Valve.VR.InteractionSystem.Util+<WrapCoroutine>d__43
 5The speed at which the line segments of the arc move.
 5Valve.VR.InteractionSystem.ChaperoneInfo+<Start>d__21
+5[o3
 6How many frames to average over for computing velocity
 6Start a wave file playing on awake, but after a delay.
 6Valve.VR.InteractionSystem.DistanceHaptics+<Start>d__4
 6Valve.VR.InteractionSystem.Throwable+<LateDetach>d__24
 7GlobalManagerRS2D+<TriggerAddPointHapticFeedback>d__153
 7Valve.VR.InteractionSystem.Longbow+<ResetDrawAnim>d__56
+8)P4
 8236C0CC36A2E3B682228FAF16E4A74BE79F3DE1
 8Use min and max random pitch levels when playing sounds.
 8Valve.VR.InteractionSystem.ArcheryTarget+<FallDown>d__11
@@ -68,20 +61,6 @@ $SteamVR_PlayArea+<UpdateBounds>d__14
 <>1__state
 <>2__current
 <>4__this
-<>8__1
-<>8__2
-<>8__3
-<>8__4
-<>9__124_0
-<>9__131_0
-<>9__132_0
-<>9__132_1
-<>9__15_0
-<>9__15_1
-<>9__36_0
-<>9__45_0
-<>9__47_0
-<>c__47`1
 <>c__DisplayClass120_0
 <>c__DisplayClass120_1
 <>c__DisplayClass120_2
@@ -144,6 +123,7 @@ $SteamVR_PlayArea+<UpdateBounds>d__14
 <Valve.VR.InteractionSystem.CircularDrive+<HapticPulses>d__43
 <Wait>d__7
 <WrapCoroutine>d__43
+<ZoW
 <angleForward>5__2
 <aspect>k__BackingField
 <calibrating>k__BackingField
@@ -161,7 +141,6 @@ $SteamVR_PlayArea+<UpdateBounds>d__14
 <hmd>k__BackingField
 <holder>5__2
 <hoverLocked>k__BackingField
-<i>5__3
 <index>k__BackingField
 <initialized>k__BackingField
 <initializing>k__BackingField
@@ -196,21 +175,18 @@ $SteamVR_PlayArea+<UpdateBounds>d__14
 <textureBounds>k__BackingField
 <undistorted>k__BackingField
 <valid>k__BackingField
-<x>5__3
 =Loop the sound after the wave file variation has been chosen.
 >How many frames to average over for computing angular velocity
-?	[(X
-?	q	&
 ?"fff?s
 ?Valve.VR.InteractionSystem.ArrowHand+<ArrowReleaseHaptics>d__25
+?XoW
 ?YZ(q
-@.reloc
-@@X6+
+?\tq\t&\v.\vS\v[\ve\v7\f
 @The number of haptic pulses evenly distributed along the mapping
-@Z	s,
 @ZZk[
 AValve.VR.InteractionSystem.Teleport+<TeleportHintCoroutine>d__105
 AcceptsGamepadEvents
+Acos
 Acquire
 ActionManifestURL_String
 ActionNoArgs
@@ -256,10 +232,11 @@ Assembly-CSharp
 Assembly-CSharp.dll
 AsyncCallback
 AsyncOperation
+Atan
 AttachMode
 AttachToCamera
-Audio Sources
 AudioListener
+Auto
 AutoFitPlayVolume
 BackButton
 BadMaskPrimitive
@@ -281,6 +258,7 @@ BezierInterpolate4
 BinaryPath_String
 BindPose
 BindingFlags
+Blit
 BlueGreen
 BodyCollider
 Boolean
@@ -297,6 +275,7 @@ ButtonPress_1
 ButtonPress_2
 ButtonPress_3
 ButtonType
+Byte
 C:\Users\Keith\Perforce\keithb_home_new\vr\unity\main\RoomSetup\Temp\Assembly-CSharp.pdb
 COLLISION_BOUNDS_STYLE_ADVANCED
 COLLISION_BOUNDS_STYLE_BEGINNER
@@ -329,6 +308,7 @@ CVRSpatialAnchors
 CVRSystem
 CVRTrackedCamera
 CWhen detaching the object, should it return to its original parent?
+CZA\v
 CalculateBounds
 CalculateLinearMapping
 CalculateMappingChangeRate
@@ -522,7 +502,9 @@ Cursor
 CursorLockMode
 Curved
 CustomEvents
+D/4C\f
 D3D12TextureData_t
+D4pC
 DXGISharedHandle
 DarkGray
 Debug
@@ -530,7 +512,6 @@ DebugUI
 DebuggableAttribute
 DebuggerHiddenAttribute
 DebuggingModes
-Delay Time
 DescriptorTooLong
 DestroyImmediate
 DestroyOnDetachedFromHand
@@ -692,6 +673,7 @@ Enumerable
 EnumerateTrackedObjects
 Environment
 Equals
+Er9\r
 Error_BaseStationConflict
 Error_BaseStationUninitialized
 Error_CollisionBoundsInvalid
@@ -706,6 +688,7 @@ EventSystem
 Execute
 ExecuteEvents
 ExecuteInEditMode
+Exit
 Expand
 Explicit_ApplicationPerformsPostPresentHandoff
 Explicit_RuntimePerformsPostPresentHandoff
@@ -721,6 +704,7 @@ FThe amount of time in seconds to predict the motion of the projectile.
 FadeAction
 FadeReady
 FadeReadyAction
+Fail
 FailedToGetGLTextureId
 FallDown
 FallbackCameraController
@@ -748,6 +732,7 @@ FinishEstimatingVelocity
 FireArrow
 FireExposure
 FireSource
+Fist
 FixedJoint
 FixedUpdate
 FixupNewlines
@@ -900,6 +885,11 @@ GreenYellow
 GripLimit
 GroundStabilityThreshold
 GuessCurrentHandType
+H/9C\f
+HBob
+HBs,
+HC(9
+HD(q
 HMDStatusIconRS2D
 HTCLinkBox
 HandAttachedUpdate
@@ -917,6 +907,7 @@ Hashtable
 HeaderAttribute
 HeadsetType
 HiddenAreaMesh_t
+Hide
 HideAllButtonHints
 HideAllText
 HideAllTextHints
@@ -952,7 +943,6 @@ HmdVector4_t
 HorizontalLayout
 HorizontalSlider
 HoverUnlock
-I@	YX
 IAsyncResult
 IDictionaryEnumerator
 IDisposable
@@ -1039,6 +1029,7 @@ IncompatibleVersion
 IndexOf
 IndexOutOfRange
 Index_Middle
+Init
 InitController
 Init_AlreadyRunning
 Init_AnotherAppLaunching
@@ -1169,6 +1160,7 @@ ItemPackageReference
 ItemPackageSpawner
 ItemPackageType
 IteratorStateMachineAttribute
+JZP\v
 JsonParseFailed
 KeepWidthGreaterThanHeight
 KeyCode
@@ -1176,12 +1168,15 @@ KeyInUse
 KeyTooLong
 KeyValuePair`2
 KeyboardAlreadyInUse
+Kill
 KilometersToMiles
 KnucklesLeftInvalidSprite
 KnucklesLeftValidSprite
 KnucklesRightInvalidSprite
 KnucklesRightValidSprite
+L70 
 L=X6/
+L=YV
 LIf limited is true, the specifies the lower limit, otherwise value is unused
 LIf limited is true, the specifies the upper limit, otherwise value is unused
 Label
@@ -1214,6 +1209,7 @@ LinkLost
 List of audio clips to play.
 List`1
 Listen
+Live
 LoadAudio
 LoadComponents
 LoadFrame
@@ -1243,11 +1239,13 @@ LowerText
 MAX_CAMERA_FRAME_TYPES
 MAX_DISTORTION_FUNCTION_TYPES
 MValve.VR.InteractionSystem.VelocityEstimator+<EstimateVelocityCoroutine>d__13
+MYq\n
 MakeOverlaysInteractiveIfVisible
 MakeSpace
 Marshal
 MarshalRenderModel
 MarshalRenderModel_TextureMap
+Math
 Mathf
 Matrix4x4
 MaxCapacityReached
@@ -1271,6 +1269,7 @@ Minimize
 MinimizeButton
 MismatchedActionManifest
 MissingSkeletonData
+Mono
 MonoBehaviour
 MonoPanorama
 Mouse
@@ -1312,6 +1311,7 @@ NotSupportedForThisDevice
 NotTracking
 NotificationBitmap_t
 NotificationQueueFull
+Npt\r
 Nullable`1
 OAfter the audio clip finishes playing, disable the game object the sound is on.
 OculusInvalidSprite
@@ -1414,6 +1414,7 @@ OverlapBoxNonAlloc
 OverlayIntersectionPrimitiveType_Circle
 OverlayIntersectionPrimitiveType_Rectangle
 OverlayLimitExceeded
+P/CC\f
 PadBottom
 PadLeft
 PadRight
@@ -1430,6 +1431,7 @@ PhysicalBoundsWidgetRS2D
 Physics
 PhysicsAttach
 PhysicsDetach
+Pk7\t
 PlatformID
 PlayAudioClip
 PlayBowTensionClicks
@@ -1656,11 +1658,9 @@ QueueUserWorkItem
 Qx?(X
 RGSS4X
 RSDSv
+RZZ\v
 Random
-Random Pitch
 Random Silence
-Random Time
-Random Volume
 RandomWithLookback
 RangeAttribute
 RawImage
@@ -1695,7 +1695,6 @@ RemoveListener
 RemoveMatchingItemTypesFromHand
 RemoveMatchingItemsFromHandStack
 RemoveRange
-Render Panel
 RenderExternalCamera
 RenderFar
 RenderLoop
@@ -1780,7 +1779,6 @@ SampleHeight
 Saturate
 SaveConfiguration
 SaveCursorState
-Scene Objects
 SceneManager
 ScreenPointToRay
 ScreenshotAlreadyInProgress
@@ -1788,6 +1786,7 @@ Searching
 Searching_Alert
 SeeThru
 Selectable
+Send
 SendMessage
 SendMessageOptions
 SendMessageUpwards
@@ -1862,6 +1861,7 @@ Shuffle
 ShutDown
 SideBySide_Crossed
 SideBySide_Parallel
+Sign
 Single
 SizeOf
 SkinQuality
@@ -1876,7 +1876,7 @@ Smallest2DConvexPolygon
 SmoothFollowHeadset
 SnapOnAttach
 Solve
-Sort Frames
+Sort
 SortFrames
 SortWithNonSceneOverlays
 SoundBowClick
@@ -1895,6 +1895,7 @@ SpawnParticles
 SpawnRenderModel
 SphereCastAll
 Split
+Sqrt
 StageLogic
 Stages
 StandingOnlyAnimation
@@ -1946,6 +1947,7 @@ StereoIpdMm
 StereoPanorama
 StereoTargetEyeMask
 StickInTarget
+Stop
 StopAllCoroutines
 StopCoroutine
 Stopwatch
@@ -1961,6 +1963,7 @@ Submit_TextureWithDepth
 Submit_TextureWithPose
 Substring
 SuppressFinalize
+Swap
 SwitchLayerRecursively
 SwitchToNewScene
 System.Collections
@@ -1985,7 +1988,7 @@ SystemAction
 SystemInfo
 SystemLanguage
 SystemWithUserValueAlreadyExists
-T( ,	
+T/HC\f
 TValue
 TakeBackItem
 Tampered
@@ -2001,6 +2004,7 @@ TeleportType
 TeleportTypeUseCollider
 TeleportTypeUseTerrain
 TeleportTypeUseZeroY
+Temp
 TerrainCollider
 TestButtonHints
 TestTextHints
@@ -2076,6 +2080,7 @@ Treadmill
 TriggerAddPointHapticFeedback
 TriggerHapticDelay
 TriggerHoldDuration
+Trim
 TrimEnd
 TrimStart
 TryGetValue
@@ -2472,6 +2477,7 @@ VideoStreamTexture
 ViewportToWorldPoint
 VioletBlue
 VisibleInDashboard
+Vive
 ViveInvalidSprite
 VivePro
 ViveProInvalidSprite
@@ -2528,6 +2534,7 @@ WS_THICKFRAME
 WS_TILED
 WS_VISIBLE
 WS_VSCROLL
+Wait
 WaitCallback
 WaitForEndOfFrame
 WaitForSeconds
@@ -2542,7 +2549,6 @@ WasTeleportButtonReleased
 WasTouched
 WasUnTouched
 Welcome
-Welcome Panel
 WelcomePanel
 WelcomePanelTitle
 Where
@@ -2563,17 +2569,45 @@ WrongDriver
 WrongTransformType
 WrongType
 WrongVisibilityType
+X/MC\f
+X80 
 XAxis
 XRDevice
 XRSettings
+XZr\v
 YAxis
 YIf true, the transform of the GameObject this component is on will be rotated accordingly
 YawOf
 YellowOrange
 ZAxis
 ZIf debugPath is true, this is the maximum number of GameObjects to create to draw the path
-ZjXsB
+ZX*R
+Zero
+ZkXk
 [These objects are enabled when SteamVR is not available, or when the user toggles out of VR
+\f/\f@\fG\fZ\f_\fp\fz\f
+\fRandom Pitch
+\fRender Panel
+\n*rt3
+\nDelay Time
+\nXY(X
+\nXZX\n
+\nYke
+\nYoY
+\nZXV
+\nZXsl
+\nZjXsB
+\nrK2
+\nrQ8
+\nrs6
+\nrw8
+\rAudio Sources
+\rRandom Volume
+\rScene Objects
+\rWelcome Panel
+\vRandom Time
+\vSort Frames
+\v\t\t\f\f\f\f\f\f\f\f
 _200x150
 _300x225
 _400x300
@@ -2918,8 +2952,7 @@ __StaticArrayInitTypeSize=96
 _callback
 _copysign
 _event
-`'H*	
-`.rsrc
+aD(r
 aUnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 acceptDifferentItems
 actionManifest
@@ -2979,6 +3012,10 @@ areaHighlightedMaterial
 areaLockedMaterial
 areaMesh
 areaVisibleMaterial
+arg0
+arg1
+arg2
+args
 argumentName
 array
 arrowHand
@@ -3112,6 +3149,7 @@ childCollider
 clearPointsWhenTriggerPulledInAdvancedMode
 clipMaterial
 clipQuad
+cmV\v
 colliderLocalPositions
 colliderLocalRotations
 colliders
@@ -3161,8 +3199,10 @@ cursor
 curved
 curvedRange
 customParticles
+d)m5
 dIf limited is true, this forces the starting angle to be startAngle, clamped to [minAngle, maxAngle]
 dIf not null, the TextMesh will display the linear value and the angular value of this circular drive
+data
 dbgHandObjects
 dbgObjectCount
 dbgObjectIndex
@@ -3183,6 +3223,7 @@ deltaColor
 deltaX
 deltaY
 deltaZ
+dest
 destRenderer
 destinationReticleTransform
 destroyAfterPlayOnce
@@ -3222,6 +3263,7 @@ eButtonId
 eCameraError
 eCode
 eDirection
+eEye
 eFrameType
 eLineInputMode
 eMotionRange
@@ -3262,6 +3304,7 @@ fDistance
 fDurationSeconds
 fFarZ
 fFrequency
+fIPD
 fName of the attachment transform under in the hand's hierarchy which the object should should snap to.
 fNearZ
 fPredictedSecondsFromNow
@@ -3291,6 +3334,7 @@ failedLoadInterface
 fallTime
 fallenDownTransform
 farOffset
+farZ
 filenameType
 fireHapticsOnHightlight
 fireObject
@@ -3587,7 +3631,9 @@ gotReleventComponents
 gridDivs
 gridScale
 gridWidth
+h3\vr
 hTrackedCamera
+hWnd
 hWndInsertAfter
 hairTriggerDelta
 hairTriggerLimit
@@ -3644,10 +3690,15 @@ hoverLock
 hoverSphereRadius
 hoverSphereTransform
 hoverUpdateInterval
+hwnd
+i3\nrn
 iUnityEngine.AudioListener, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+iXk7
+iY\v+N
 ignitionDelay
 ignitionSound
 ignitionTime
+ikY}
 inFlight
 inNockRange
 indices
@@ -3671,6 +3722,7 @@ invalidReticleMinScaleDistance
 invalidReticleScale
 invalidReticleTargetRotation
 invalidReticleTransform
+ioC\v
 ipdMeters
 isActive
 isBurning
@@ -3689,6 +3741,7 @@ isParentedToHand
 isQuitting
 isStandingOnly
 isValid
+item
 itemIsSpawned
 itemPrefab
 joint
@@ -3696,6 +3749,7 @@ jointDist
 jointXform
 justPickedUpItem
 kIf limited is true and forceStart is true, the starting angle will be this, clamped to [minAngle, maxAngle]
+kZX}
 k_EButton_A
 k_EButton_ApplicationMenu
 k_EButton_Axis0
@@ -3966,9 +4020,19 @@ k_unVROverlayMaxKeyLength
 k_unVROverlayMaxNameLength
 k_unWildcardPropertyTag
 keyboard
+kf2\f
+kf7\f
+kfA\f
+kfF\f
+kfK\f
+kfW\f
+kfc\v
+kfh\v
+kfl\n
+kfm\v
+kfy\v
 knucklesLeft
 knucklesRight
-l'M*	
 labels
 lastCursorPosition
 lastFrameUpdated
@@ -3980,6 +4044,7 @@ lastUpdate
 lastValue
 lateUpdatePos
 lateUpdateRot
+left
 leftIndex
 lerpBackToZeroRotation
 lerpCompleteDistance
@@ -3993,6 +4058,9 @@ lifetimeEndSound
 limited
 lineRenderers
 linearMapping
+list
+lm2\v
+lmI\v
 loadAdditive
 loadAsync
 loadingScreen
@@ -4011,12 +4079,15 @@ lockPhysicsUpdateRateToRenderFrequency
 lockedAnimation
 lockedIcon
 lockedTintColor
+logo
 logoHeight
 lookAtJointTransform
 lookAtPosition
 looping
 loopingAudioMaxVolume
 loopingAudioSource
+low1
+low2
 lowest
 lpClassName
 lpPoint
@@ -4148,6 +4219,7 @@ minPull
 minSpawnTime
 minStrainTickTime
 minimumPulseDuration
+mode
 model
 modelOverride
 modelSkinSettingsHaveChangedAction
@@ -4275,12 +4347,17 @@ overlayCam
 overlayHandle
 overlayName
 overrideHoverLock
+p*r5
+p*rI
+p*rW
+p*rm
 p0End
 p0Start
 p1End
 p1Start
 pAPIType
 pActionData
+pA}6\f
 pBoneCount
 pBounds
 pBuffer
@@ -4292,6 +4369,7 @@ pControllerState
 pD3D11Device
 pD3D11DeviceOrResource
 pDistortionCoordinates
+pDst
 pDstTexture
 pFlags
 pFocalLength
@@ -4345,6 +4423,7 @@ pSizeX
 pSizeZ
 pSkeletalSummaryData
 pSkeletalTrackingLevel
+pSrc
 pStartupInfo
 pState
 pStats
@@ -4367,10 +4446,14 @@ padPressed
 padRightButton
 padTopButton
 padTouched
+padX
+padY
 parentObject
 particlePrefab
 particles
+pass
 passedInhand
+path
 pathAppKey
 pathControllerType
 pathDevice
@@ -4470,6 +4553,8 @@ pfTop
 pfWidthInMeters
 pglSharedTextureHandle
 pglTextureId
+phi0
+phi1
 physParent
 physicalBoundsLines
 physicalBoundsScreenPositions
@@ -4576,6 +4661,7 @@ progressBarWidthInMeters
 progressCorrespondingToYSweep
 progressUpdate
 projectileVelocity
+prop
 propType
 property
 pulBuffer
@@ -4796,6 +4882,7 @@ rig2DFallback
 rigSteamVR
 rightIndex
 rigidBodies
+rkH\t
 roomMeasurementDirection
 roomMeasurementLastCheckPoint
 roomMeasurementPoints
@@ -5037,7 +5124,6 @@ systemEvents
 szLine
 szString
 szToken
-t'R*	
 tagFilter
 takeBackItem
 target
@@ -5047,6 +5133,7 @@ targetDist
 targetEnabled
 targetPhysMaterial
 targetRadius
+task
 taskID
 taskPool
 teethCount
@@ -5127,10 +5214,13 @@ triggerPressed
 trigger_if_destroyed_early
 uAxis
 uFlags
+uMax
+uMin
 uOrigin
 uProperties
 uScale
 uUserValue
+ufU\n
 ulActionHandle
 ulActionSet
 ulAppContainer
@@ -5146,6 +5236,7 @@ ulOverlayHandleParent
 ulRestrictToDevice
 ulRestrictedToDevice
 ulSecondaryActionSet
+ulTo
 ulUserValue
 unActionDataSize
 unAppKeyBufferLen
@@ -5227,6 +5318,7 @@ useTag
 user32.dll
 usingSpeakers
 uvOffset
+u}C4
 v4.0.30319
 vAccel
 vAngularVelocity
@@ -5239,6 +5331,8 @@ vCorners3
 vDirection
 vGyro
 vIntersection
+vMax
+vMin
 vNormal
 vOrigin
 vPoint
@@ -5246,6 +5340,7 @@ vRange
 vScale
 vSource
 vTopLeft
+vUVs
 validLocation
 value__
 values
@@ -5276,11 +5371,18 @@ wireframe
 wireframeHeight
 worldPlaneNormal
 x1024
+x1\C\f
 xBest
 xForm
+xMax
+xMin
 xdelta
 yBest
+yMax
+yMin
 ydelta
+zDoX
 zeroPosePosition
 zeroPoseRotation
-|'R*	
+zmL\v
+|1aC\f

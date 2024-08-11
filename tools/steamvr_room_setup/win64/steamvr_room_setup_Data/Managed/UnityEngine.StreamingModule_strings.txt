@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -50,13 +49,10 @@ $UnityEngine.UnityWebRequestWWWModule
 &UnityEngine.UnityWebRequestAudioModule
 'Modules/Streaming/StreamingController.h
 (UnityEngine.UnityWebRequestTextureModule
-*BSJB
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 Assembly-CSharp-testable
 Behaviour
 Camera
@@ -77,11 +73,11 @@ System.Diagnostics
 System.Runtime.CompilerServices
 System.Security
 System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Type
 Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -155,8 +151,10 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 WrapNonExceptionThrows
+\n*BSJB
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 aUnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 activateCameraOnTimeout
 disableCameraCuttingFrom

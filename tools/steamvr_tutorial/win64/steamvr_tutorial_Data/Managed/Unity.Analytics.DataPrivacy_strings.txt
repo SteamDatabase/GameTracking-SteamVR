@@ -1,19 +1,17 @@
-!This program cannot be run in DOS mode.
 !Unity.Analytics.DataPrivacy.Tests
 #Blob
 #GUID
 #Strings
 ,Unity.Analytics.DataPrivacy.WebRequest.Tests
 .ctor
-.text
 <>c__DisplayClass9_0
 <FetchPrivacyUrl>b__0
 <Module>
-@.reloc
 Action`1
 AddListener
 AnalyticsSessionInfo
 Application
+BSJB
 ButtonClickedEvent
 C:\perforce\keithb_ZACHT\vr\unity\main\tutorial_2018\Temp\Unity.Analytics.DataPrivacy.pdb
 CompilationRelaxationsAttribute
@@ -44,6 +42,8 @@ OnFailure
 OpenDataPrivacyUrl
 OpenURL
 OpenUrl
+Post
+RSDS
 RemoteSettings
 RuntimeCompatibilityAttribute
 RuntimePlatform
@@ -81,7 +81,6 @@ UserPostData
 ValueType
 WrapNonExceptionThrows
 _CorDllMain
-`.rsrc
 add_completed
 appid
 async2

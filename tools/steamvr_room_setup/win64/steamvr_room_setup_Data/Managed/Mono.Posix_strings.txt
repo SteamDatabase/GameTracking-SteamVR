@@ -1,29 +1,11 @@
-		^=H
-		^=H;	V
-	$H7	
-	&	(M
-  y*V
- !s\A#
- %_W<b
- &9+V
  /7X7
- /9W<0
- 0_A,
- 1LW<	
- 1LW<?
- 6]L=
- 9{W<m
  :gC1
- :{g<"
- :{g<l
  ;t7BY
  >HHD4
- @D+EP
  E7j7
  F:04l
  RdlBm
  Tfg<
- Uc\=
  Use Mono.Unix.Native.AccessModes
  Use Mono.Unix.Native.Stat.st_dev
  Use Mono.Unix.Native.Stat.st_gid
@@ -31,18 +13,9 @@
  Use Mono.Unix.Native.Stat.st_uid
  Use Mono.Unix.Native.WaitOptions
  Y]VD9
- [5,={
- [;a=#
- [`"<
- [{a=<
- ]]9F-
  dTl<J
  dbW<
- j_W</
- l<W<7
- l<W<~
- lD+EO
- od>@
+ lD+EO\n
  odF@
  odO@
  odX@
@@ -50,19 +23,13 @@
  ps7B
  t:I4q
  tu-36
- wJ/;
  wgD8@
- }_W<G
 !8H+V
-!This program cannot be run in DOS mode.
 !Use Mono.Unix.Native.Stat.st_mode
 !Use Mono.Unix.Native.Stat.st_rdev
 !Use Mono.Unix.Native.Stat.st_size
-!`@0e
-")y*V
-".'+t
 "Mono.Unix.Native.FileNameMarshaler
-"Nobody knows precisely what cuserid() does... DO NOT USE cuserid().
+"Nobody knows precisely what cuserid() does... DO NOT USE cuserid().\n`string' must hold L_cuserid characters.  Use getlogin_r instead.
 "Use Mono.Unix.Native.Stat.st_atime
 "Use Mono.Unix.Native.Stat.st_ctime
 "Use Mono.Unix.Native.Stat.st_mtime
@@ -72,23 +39,21 @@
 #Qt*6
 #Strings
 #Use Mono.Unix.Native.Stat.st_blocks
+$PMf
 $Use Mono.Unix.Native.FilePermissions
 $Use Mono.Unix.Native.Stat.st_blksize
+%AMf
 %sgA&
-& y*V
+&5l\fV
 &Syscall.mkstemp() should be preferred.
-'.=+c
+'NMf
 'This is insecure and should not be used
-)	2	9	B	I	O	Y	^	d	k	q	
-*.r)%
-*?,?Q
-+'	{X
+)\t2\t9\tB\tI\tO\tY\t^\td\tk\tq\t
+*OMf
 +Use Mono.Unix.Native.FilePermissions.S_IFMT
 +Use Mono.Unix.Native.FilePermissions.S_RWXG
 +Use Mono.Unix.Native.FilePermissions.S_RWXO
 +Use Mono.Unix.Native.FilePermissions.S_RWXU
-,)Z+V
-,,	{V
 ,Use Mono.Unix.Native.FilePermissions.S_IFBLK
 ,Use Mono.Unix.Native.FilePermissions.S_IFCHR
 ,Use Mono.Unix.Native.FilePermissions.S_IFDIR
@@ -107,22 +72,44 @@ $Use Mono.Unix.Native.Stat.st_blksize
 ,Use Mono.Unix.Native.FilePermissions.S_IXGRP
 ,Use Mono.Unix.Native.FilePermissions.S_IXOTH
 ,Use Mono.Unix.Native.FilePermissions.S_IXUSR
-,_	,\
 -Use Mono.Unix.Native.FilePermissions.S_IFSOCK
 -Use Mono.Unix.Native.NativeConvert.ToDateTime
-.%M+V
+.NET
 .cctor
 .ctor
-.text
 /Users/bokken/build/output/Unity-Technologies/mono/mcs/class/lib/unityjit/Mono.Posix.pdb
 196C4B58AA62E4EA5C13C2030E7307DDB1614E33
+1>jK
+1BMf
+1JW\n
 1Use Mono.Unix.Native.NativeConvert.LocalUnixEpoch
+1\vXQ
+2qC\r
 334CEFB15AEE8839C3F8550C41BECCDA956F98D6
+33dK
 35AE02CEBF62F9053BDDB56B8F50FCB647D962B1
-5	9+V
 5*R+6
+5\t9+V
+5ds+
+5dw+
+5fD@
+5fMf
+5mDC
+5uDL
+5y\r9
+5}DP
+7AMf
+8W<B\n
+8r<O
+8y<P
 9EFED28B74C231DEEF6D70A9103BD713A46849B3
-:@bHL	
+9R+1
+9Z0\n4
+9Z0\n<
+9Z0\nE
+:GMf
+:PMf
+:gJ1
 <>c__DisplayClass327_0
 <>c__DisplayClass381_0
 <AsyncProcessRequest>b__6_0
@@ -134,13 +121,9 @@ $Use Mono.Unix.Native.Stat.st_blksize
 <readlinkat>b__0
 <sun_path>k__BackingField
 <sun_path_len>k__BackingField
-=Hg<+
-?(y*V
-?*y*V
-?t@B\
+=VmI
+>mMf
 ?tKB_
-@.reloc
-@?H+V
 ACCESSPERMS
 AF_ALG
 AF_APPLETALK
@@ -190,6 +173,7 @@ AT_REMOVEDIR
 AT_SYMLINK_FOLLOW
 AT_SYMLINK_NOFOLLOW
 ATime
+A\nbq
 Abort
 AbstractUnixEndPoint
 Accept
@@ -255,8 +239,11 @@ AsyncProcessResponse
 AttributeTargets
 AttributeUsageAttribute
 AuH+V
+BQt*
+BSJB
 BeginInvoke
 BinaryFormatter
+Bind
 BindToType
 Blocks
 BufferedStream
@@ -266,6 +253,7 @@ CDRom
 CHl0q
 CLSCompliantAttribute
 CTime
+C\nzq
 CallingConvention
 CallingConventions
 CanAccess
@@ -273,6 +261,7 @@ CancelConnection
 CancelSignal
 Catalog
 CdeclFunction
+Ch0\nD
 ChannelServices
 CharDevice
 CharSet
@@ -285,6 +274,7 @@ Clear
 ClientConnection
 Clone
 Close
+Co4+
 ComVisibleAttribute
 Combine
 CompilationRelaxationsAttribute
@@ -320,6 +310,7 @@ CreateSymbolicLink
 CreateSymbolicLinkTo
 CreateType
 DEFFILEMODE
+DH3<
 DN_ACCESS
 DN_ATTRIB
 DN_CREATE
@@ -327,6 +318,9 @@ DN_DELETE
 DN_MODIFY
 DN_MULTISHOT
 DN_RENAME
+DQ3>
+DX3?
+Da3A
 DateTimeKind
 DebuggableAttribute
 DebuggingModes
@@ -344,13 +338,14 @@ DeserializeMethodResponse
 DictionaryEntry
 DirectoryNotFoundException
 DispatchReplyMessage
+Dj3C
 DoReadlinkFun
 Double
-E	9+V
 E2BIG
 EACCES
 EADDRINUSE
 EADDRNOTAVAIL
+EADV
 EAFNOSUPPORT
 EAGAIN
 EALREADY
@@ -379,6 +374,7 @@ EDEADLK
 EDEADLOCK
 EDESTADDRREQ
 EDEVERR
+EDOM
 EDOTDOT
 EDQUOT
 EEXIST
@@ -510,10 +506,12 @@ EUSERS
 EWOULDBLOCK
 EXDEV
 EXFULL
+E\t9+V
 Empty
 EndInvoke
 Enter
 EntryPointNotFoundException
+Enum
 EnvironmentVersion
 EpollEvent
 EpollOp
@@ -524,7 +522,12 @@ EscapeByte
 EscapeFormatString
 Exchange
 F(y*V
+F*JS\n
+F+ER\n
+F8Mf
 F:B4p
+FWC\v
+F\ny*V
 F_DUPFD
 F_GETFD
 F_GETFL
@@ -535,6 +538,7 @@ F_GETSIG
 F_LOCK
 F_NOCACHE
 F_NOTIFY
+F_OK
 F_RDLCK
 F_SETFD
 F_SETFL
@@ -571,6 +575,9 @@ FromTimeT
 FromUnixPermissionString
 FxFileVersion
 FxVersion
+GGdK
+G\f1x
+Ge*6
 GetAddress
 GetAddressBytes
 GetBuffer
@@ -679,9 +686,14 @@ GroupMask
 GroupRead
 GroupReadWriteExecute
 GroupWrite
+H1\tX
+H3dK
+HBD3
+HVvI
 HandleHeaders
 HandleRef
 Hashtable
+HnMf
 HostConnectionPool
 I/y*V
 IAsyncResult
@@ -709,6 +721,7 @@ IMessageCtrl
 IMessageSink
 IMethodCallMessage
 IMethodMessage
+IMf\n
 INode
 IPPROTO_AH
 IPPROTO_BEETPH
@@ -734,6 +747,7 @@ IPPROTO_TCP
 IPPROTO_TP
 IPPROTO_UDP
 IPPROTO_UDPLITE
+ISR+
 IServerChannelSink
 IServerChannelSinkProvider
 IServerChannelSinkStack
@@ -741,8 +755,10 @@ IServerFormatterSinkProvider
 IServerResponseChannelSinkStack
 ISurrogateSelector
 ITransportHeaders
+I\vY8
 Ignore
 IndexOfAny
+Init
 InitCanReadWrite
 InitStream
 InitializeArray
@@ -761,13 +777,27 @@ IsCharPresent
 IsFileType
 IsOneWay
 IsPathRooted
-J0H:	E
-J0HZ	
-J6H:	N
-J6HZ	
-JF+EQ
+Item
+J0H:\tE
+J0HZ\t
+J6H:\tN
+J6HZ\t
+JAMf
+JF+EQ\n
+JM+1
+Join
+Jr5K
+K$w\fP
+KJ1&
+KV8%
+K\ry*V
+K\vQ8
 KeepAlive
-LIH?	
+Kill
+KyBu
+L5-r
+LIBC
+LIH?\t
 LOG_ALERT
 LOG_AUTH
 LOG_AUTHPRIV
@@ -802,6 +832,9 @@ LOG_SYSLOG
 LOG_USER
 LOG_UUCP
 LOG_WARNING
+LW<a
+LW<k
+L\fy*V
 L_INCR
 L_SET
 L_XTND
@@ -813,7 +846,7 @@ LoadWithPartialName
 LocalUnixEpoch
 LocalUtcOffset
 Locale
-M@VHJ	
+M@VHJ\t
 MAP_ANON
 MAP_ANONYMOUS
 MAP_DENYWRITE
@@ -855,12 +888,14 @@ MS_ASYNC
 MS_INVALIDATE
 MS_SYNC
 MTime
+M\nhb
 MapAttribute
 MarshalByRefObject
 MarshalManagedToNative
 MarshalNativeToManaged
 MarshalStrings
 Match
+Math
 MaxOffset
 MaxValue
 MemberInfo
@@ -869,7 +904,10 @@ MethodAttributes
 MethodBuilder
 MethodCallHeaderHandler
 MethodInfo
+MfDF
+MgQ1
 MinValue
+MmDI
 ModuleBuilder
 Monitor
 Mono.Posix
@@ -1213,10 +1251,13 @@ Mono_Unix_UnixSignal_install
 Mono_Unix_UnixSignal_uninstall
 Mono_Unix_VersionString
 MoveNext
+MuDT
 MulticastDelegate
 MustBeWrapped
+M}DX
 NDropped in POSIX 1003.1-2001.  Use Syscall.sysconf (SysconfName._SC_PAGESIZE).
 NLinks
+NW8*
 NativeConvert
 Network
 NetworkStream
@@ -1226,6 +1267,26 @@ Normal
 NotImplementedException
 NotSupportedException
 NullReferenceException
+OL t
+OL u
+OL w
+OL@w
+OL@z
+OLA)
+OLA*
+OLA+
+OLC\n
+OLC\r
+OLC\t
+OL`2
+OL`o
+OL`w
+OL`x
+OL`z
+OLa)
+OLa+
+OLc\t
+OU8*
 O_APPEND
 O_ASYNC
 O_CLOEXEC
@@ -1244,6 +1305,8 @@ O_SYNC
 O_WRONLY
 ObjectDisposedException
 ObsoleteAttribute
+Og{K
+Open
 OpenRead
 OpenWrite
 OperatingSystem
@@ -1261,7 +1324,7 @@ OwnerExecute
 OwnerMask
 OwnerRead
 OwnerWrite
-PNot necessarily portable due to cdecl restrictions.
+PNot necessarily portable due to cdecl restrictions.\nUse printf (string) instead.
 POLLNVAL
 POSIX_FADV_DONTNEED
 POSIX_FADV_NOREUSE
@@ -1289,6 +1352,7 @@ PeerCred
 PeerCredData
 Pending
 PlatformID
+Poll
 PreLoad
 Prelink
 ProcessMessages
@@ -1302,8 +1366,14 @@ PublicKeyToken
 Pulse
 PulseAll
 PurgeConnections
+Push
 Q/y*V
+QJf\nm
+Q\nqb
 QueueUserWorkItem
+RSA1
+RSDS
+R_OK
 Random
 RdUBc
 ReAllocHeap
@@ -1349,6 +1419,7 @@ SCM_RIGHTS
 SEEK_CUR
 SEEK_END
 SEEK_SET
+SGid
 SHUT_RD
 SHUT_RDWR
 SHUT_WR
@@ -1458,6 +1529,8 @@ ST_REMOUNT
 ST_SYNCHRONOUS
 ST_WRITE
 SThis is not safe; use Mono.Unix.UnixSignal for signal delivery or SetSignalAction()
+SUid
+S\nHq
 S_IFBLK
 S_IFCHR
 S_IFDIR
@@ -1532,6 +1605,7 @@ StatMode
 StatModeMasks
 StdioFileStream
 Stdlib
+Stop
 StopListening
 StreamRead
 StreamingContext
@@ -1540,7 +1614,6 @@ StringToHGlobalAuto
 StringToHeap
 Substring
 SuppressFinalize
-SuppressFlags
 SymLink
 SyncProcessMessage
 System.Collections
@@ -1566,9 +1639,11 @@ System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=4.0.0
 System.Text
 System.Text.RegularExpressions
 System.Threading
-T	9+V
+T\t9+V
 T`F0f
 TextWriter
+Tg<L
+ThR+
 ThreadPool
 ThreadStart
 ThrowArgumentException
@@ -1595,6 +1670,7 @@ ToUniversalTime
 ToUnixPermissionString
 Translate
 TranslateHandler
+Trim
 TryCopy
 TryFromAccessModes
 TryFromAtFlags
@@ -1680,8 +1756,10 @@ TryToXattrFlags
 TypeAttributes
 TypeBuilder
 TypeMask
+UH\v0F
 UInt16
 UInt64
+UL p
 UTF32Encoding
 UTF7Encoding
 UTF8Encoding
@@ -1737,11 +1815,6 @@ Use Mono.Unix.Native.Stat
 Use Mono.Unix.Native.Syscall.
 Use Mono.Unix.PeerCred
 Use Mono.Unix.UnixEndPoint
-Use fprintf (IntPtr, string) instead.
-Use printf (string) instead.
-Use snprintf (StringBuilder, string) instead.
-Use syslog(SyslogFacility, SyslogLevel, string) instead.
-Use syslog(SyslogLevel, string) instead.
 UserExecute
 UserRead
 UserReadWriteExecute
@@ -1749,12 +1822,15 @@ UserWrite
 ValueType
 VersionCheck
 VersionStringPtr
+Void
 VolumeSeparatorChar
 VsFileVersion
 VsVersion
 W/9+V
 WNOHANG
 WUNTRACED
+W_OK
+Wait
 WaitCallback
 WaitForConnections
 WaitForExit
@@ -1768,18 +1844,41 @@ WriteLine
 WriteToBuffer
 Writing
 X$9+V
-X&%+V
+X5\v1
+X5\vy
 XATTR_AUTO
 XATTR_CREATE
 XATTR_REPLACE
 XPrintf
 XPrintfFunctions
-YNot necessarily portable due to cdecl restrictions.
-\Not necessarily portable due to cdecl restrictions.
-]]]D<
-^CH;	Y
-_.!+W
-_5#=w
+X_OK
+Xe*6
+Y1\vr
+YNot necessarily portable due to cdecl restrictions.\nUse fprintf (IntPtr, string) instead.
+Y\nrc
+ZC\n9k
+ZI\t5
+ZXI\f
+ZXI\n
+Zero
+ZnMf
+Z~Mf\n
+[Ji\nw
+\Not necessarily portable due to cdecl restrictions.\nUse syslog(SyslogLevel, string) instead.
+\f\v\f/\f>\fG\fN\f\\ft\f
+\fgMf
+\fstruct flock
+\fstruct iovec
+\nioB
+\nzse
+\r#\r9\rH\rM\r^\r
+\rPA6
+\rPa6
+\rSuppressFlags
+\rstruct linger
+\rstruct pollfd
+]r5K
+^dJm\n
 _CS_GNU_LIBC_VERSION
 _CS_GNU_LIBPTHREAD_VERSION
 _CS_LFS64_CFLAGS
@@ -2093,20 +2192,27 @@ _serverChannel
 _sinkProvider
 _stream
 _strictBinding
-`.rsrc
-`string' must hold L_cuserid characters.  Use getlogin_r instead.
-aNot necessarily portable due to cdecl restrictions.
+_uri
+aL9x
+aNot necessarily portable due to cdecl restrictions.\nUse snprintf (StringBuilder, string) instead.
+aU9z
 abort
+acct
 actime
 addr0
 addr1
 advice
 allowedProperties
+args
+argv
 array
 assemblyBuilder
 assemblyName
 b(y*V
+bPMf\n
+b\f9+V
 backlog
+be9}
 bind_textdomain_codeset
 bindtextdomain
 bl$8:
@@ -2119,8 +2225,9 @@ bufsize
 byteCount
 byteIndex
 bytes
-c	y*V
 c/4+V
+c4:K
+c\ty*V
 callback
 canRead
 canSeek
@@ -2135,6 +2242,7 @@ chroot
 clientSink
 clientSinkProvider
 closedir
+cmsg
 cmsg_len
 cmsg_level
 cmsg_type
@@ -2154,18 +2262,24 @@ default_size
 dentries
 dentry
 dereference
+desc
 destination
 dev_tAttribute
 dirname
+dirp
 disposed
 disposing
 doReadlink
+dup2
 encoding
 encrypt
 end_data_segment
+envp
+epfd
 epoll_ctl
 errno
 errnum
+exec
 execb
 execv
 execvp
@@ -2195,6 +2309,7 @@ filedes
 filename
 fopen_modes
 force
+fork
 format
 fs_file
 fs_freq
@@ -2210,6 +2325,10 @@ fstab_lock
 fsync
 fullPath
 g&4+V
+g@0i
+gH+V
+gT0i
+g]8E
 get_AddressFamily
 get_AvailableFreeSpace
 get_BinaryCore
@@ -2397,15 +2516,19 @@ getresuid
 getsid
 getuid
 getusername
+gf8G
 gid_tAttribute
+go8I
 gr_gid
 gr_mem
 gr_name
 gr_passwd
 grbuf
 grbufp
+grm1
 group
 grp_lock
+gv8J
 handle
 have_handler
 headers
@@ -2417,8 +2540,15 @@ hostlong
 hostshort
 htonl
 htons
+i1\vr1
+iXs"
+i[WU
 ident
 ignore
+ij(r
+ij1\r
+ij6\vru
+ij}w
 in_fd
 increment
 index
@@ -2428,10 +2558,17 @@ ino_tAttribute
 inode
 instring
 interval
+intl
 iov_base
 iov_len
 iovcnt
-lNot necessarily portable due to cdecl restrictions.
+j1\vr
+j3\f(n
+j3\vr
+k0\nS
+k}WU
+l48=
+lNot necessarily portable due to cdecl restrictions.\nUse syslog(SyslogFacility, SyslogLevel, string) instead.
 l_len
 l_linger
 l_onoff
@@ -2445,6 +2582,7 @@ leftOver
 leftOverBits
 leftOverCount
 length
+libc
 library
 linuxAbstractNamespace
 listen
@@ -2453,6 +2591,7 @@ listening
 localEndPoint
 localedir
 m)4+V
+mMf\n
 machine
 map_Mono_Posix_AccessMode
 map_Mono_Posix_FileMode
@@ -2463,6 +2602,7 @@ maxevents
 members
 message
 method
+mhd+
 millisecondsTimeout
 mkstemp
 modtime
@@ -2479,6 +2619,7 @@ msg_controllen
 msg_flags
 msg_iovlen
 msg_name
+msgh
 msvcrt
 munlockall
 n_^90
@@ -2492,11 +2633,14 @@ newPath
 new_size
 newdirfd
 newpath
+next
 nextSink
 next_raw
 next_sink
+nfds
 ngettext
 ngroups
+nice
 nlink_tAttribute
 nlinks
 nmemb
@@ -2508,6 +2652,8 @@ nullSockaddr
 o/y*V
 object
 objectURI
+oda@
+oe0o
 off_tAttribute
 oldFileDescriptor
 oldPath
@@ -2530,9 +2676,13 @@ output
 overloads
 owner
 ownsHandle
+p 4g
+p)4k
+pHMf
 package
 parameterTypes
 parameters
+part
 path1
 pathname
 paths
@@ -2545,8 +2695,17 @@ pid_tAttribute
 pipecnt
 pipelock
 plural
+posn
+pr2\v
+prU 
+prY"
+prk!
+prn\f
+prot
 protocol
 providerData
+prx)
+ps0E
 ptr_msg_control
 ptr_msg_iov
 putchar
@@ -2560,7 +2719,13 @@ pw_uid
 pwbuf
 pwbufp
 pwd_lock
+q'BU
+q.BW
+q6D1
 q:R4s
+qr<V
+rW<A\n
+rW<q
 read_fd
 readb
 readdir_lock
@@ -2588,9 +2753,13 @@ revoke
 rmdir
 rt_offset
 rtsig
-s.&+* 
+ruid
+sPA 
 s_addr
+salt
 savedEP
+sbrk
+seed
 server
 serverSink
 serverSinkProvider
@@ -2671,6 +2840,7 @@ sin_port
 singular
 sinkStack
 so_peercred
+sock
 sockatmark
 socket1
 socket2
@@ -2702,10 +2872,6 @@ storage
 strerror_lock
 stringArray
 struct cmsghdr
-struct flock
-struct iovec
-struct linger
-struct pollfd
 struct sockaddr_in
 struct sockaddr_in6
 struct timespec
@@ -2832,6 +2998,8 @@ syscall_waitpid
 sysname
 system
 t:[4u
+tJ8;
+tW<o
 target
 tcgetpgrp
 tcsetpgrp
@@ -2851,12 +3019,18 @@ typeName
 tz_dsttime
 tz_minuteswest
 u)y*V
+u9w+
 ualarm
+ud`y
+ufds
 uid_tAttribute
+umMf
+unix
 unlink
 useMaxLength
 use_buf
 usecs
+user
 usershell_lock
 v4.0.30319
 value__
@@ -2864,6 +3038,7 @@ values
 version
 versionCheckPerformed
 vhangup
+wJA;
 wait_options
 wexitstatus
 wgV8D
@@ -2877,9 +3052,16 @@ wstopsig
 wtermsig
 xbitonly
 xboth
+yAWU
+ytMf
 z)y*V
-}(9+V
-})H9	=
-}kHM	
-}kHm	
-}uHS	`
+z]FR
+zhFW
+{nMf
+|5WU
+}F0g
+}M0h
+}kHm\t
+}lJw\n
+~NMf
+~VX1

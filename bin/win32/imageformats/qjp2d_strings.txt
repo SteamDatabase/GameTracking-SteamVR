@@ -1,11 +1,8 @@
-	%	:	O	d	y	
-	?color@QImage@@QBEIH@Z
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
-         cblk %5d %5d %5d %5d
+         cblk %5d %5d %5d %5d\n
         %3d %3d %3d %3d %3d %3d %3d %3d
         %4u %4u %4u %4u %4u %4u %4u %4u
-        prc %5d %5d %5d %5d (%5d %5d)
-      band %5d %5d %5d %5d
+        prc %5d %5d %5d %5d (%5d %5d)\n
+      band %5d %5d %5d %5d\n
     Component %d: %dhx%dv q=%d
     Component %d: dc=%d ac=%d
     Component type: %ld
@@ -16,67 +13,38 @@
     Signedness: %d
     Vertical subsampling factor: %ld
     Width: %ld
-    rlvl %5d %5d %5d %5d
+    rlvl %5d %5d %5d %5d\n
     with %d x %d thumbnail image
-  Pj(
-  Pjt
   Ss=%d, Se=%d, Ah=%d, Al=%d
-  tcmpt %5d %5d %5d %5d
+  tcmpt %5d %5d %5d %5d\n
  %02x
- %s %s %d %ld %ld
- A l 
- BGRt
- ZYXt
- baLt
+ %s %s %d %ld %ld\n
+ ZYX
  data=%s
  f(%d,%d)=%ld
- len = %d;
+ lmx
+ lru
  rate=%1
  serl
-!H!u!
-!This program cannot be run in DOS mode.
 !acsp
 !weakref.load()
-"'"U"
-#8#f#
-$M$|$
+$3br
 $lumi
 $tech
-%	%8%h%
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %02x 
 %04x:
 %08x:
-%0L0t0y0
-%d %d
 %ld%c
-%lu %lu
 %s%4ld
 %s%ld
-&'&W&
+%s\n_jp2overhead=%lu\n
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-'010<0C0|0
-'I'z'
-(%f, %f, %f)
-(4,4044484<4@4D4
-(?(q(
-)0Q0t5y5
-)8)k)
-*3M<Y<q<}<
-*5*h*
-+6+i+
-+QdRh8
+(%f, %f, %f)\n
 +wtpt
-,0004080f0k0}0
-,9,n,
 ,Reference Viewing Condition in IEC61966-2.1
 ,Restricted ICC profile describing sRGB-grey
--7]7b7h7~7
--<7<A<">
--A-v-
--HP  
 -JPEG
-.00cfg
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQJp2Handler@@
@@ -87,443 +55,35 @@ $tech
 .?AVexception@std@@
 .?AVtype_info@@
 .IEC 61966-2.1 Default RGB colour space - sRGB
-.idata
-.text
-/$/Z/
 /TF<)VGy#WH
-0 0$0(0,0004080<0
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-0"0,060
-0&111>1F1
-0(0D0h0
-0*070X0
-0,040<0I0N0X0d0k0w0
-0,080@0L0P0T0`0t0
-0/<6<0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?
 050l0
-0:0j0
-0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
-0T1Y1c1o1v1
-0V0`0
-0[1`1f1
-0[?`?f?
-0n192
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-1 1%1/1;1B1Z1_1i1u1|1
-1!1+1
-1!191>1D1
-1"2z2
-1&2+2=2R2a2i2~2
-1'1T1^1
-1)1;1M1V1
-1)3A3)4.444
-1*1P1X1
-1-1J1^1{1
 1.900.1
-1797;
-1D1^1o1y1
-1G2L2R2
-1J1_1l1u1
-1M2p2
-1P3b3l3v3
-1Q2g2
-1a2f2l2
-1i4I5U6
-2!2D2j2r2
-2"2)21292A2L2Q2W2a2k2
-2"3'313=3D3U3^3
-2#2*2B2G2Q2]2d2|2
-2'8,828
+1tfm
 2*2c2
-2*6~6
-2,252
-2.2o4t4z4
-2.3j3o3y3
-263;3M3k3v4&5A5
-2;2^2
-2;>;V;b;n;
-2?2h2
-2?3T3
-2A3F3L3Z3|3
-2`4e4k4
-2e3r3
-2j3I5
-2j6S8X8^8s9x9~9
-2y3"4<4m4
-3"3(3.343:3@3F3L3R3X3^3d3j3p3v3|3
-3$3+32393A3I3Q3\3a3g3q3
-3$3=3V3
-3$3Z3
+2tfm
 333333
-394>4D4U4
-3<5A5G5J6O6U6O8T8Z8W9
-3@>E>K>
-3C4^7
-3J4T4i4
-3P3|387d8
-3T4X4\4`4d4
-3W5}:
+3\r3F3
 3desc
-3n4w4
-4 4&4,42484>4D4J4P4V4\4b4h4n4t4z4
-4 4&4{4
-4 4*464=4
-4!4A4b4
-4$4*40464<4B4H4N4T4Z4`4f4l4r4x4~4
-4%5K5
-4&454
 4+4e4
-455^5
-4F8K8Q8'9,929
-4M7O9T9Z9`<d<h<l<
-4Q5V5`5l5s5
-4T4Y4_4
-4Vj`j
-4W6~6
-4a6n6}6
-4b5$6t6y6
-4c5h5n5<6A6G6
-4f4k4q4
-4k5x5
-5	6)6
-5 5,585<5@5L5X5\5`5d5l5x5|5
-5!5+5
-5"5(5.545:5@5F5L5R5X5^5d5j5p5v5|5
-5(5=5
-5(5@5H5\5`5t5|5
-5(646L6X6d6l6t6|6
-5(6c6
-5/5W5
-526N6
-5>5_5
-5E6c6
-5Genu
-5L6u6
-5W6z6
-5_7d7j7)8P8
-6!6;6U6o6
-6"6|6
-6$6,6@6D6X6`6h6
-6&6/6J6W6`6
-6(7z8
-6*6;6h6
-6*;6;N;Z;
-6,6L6l6
-627@7o7}7
-636{6
 676r6
-6::a:f:l:
-6D=H=L=P=u?z?
-6E7v7
-6G6~6G7
-6N7j7s7
-6O7W7
-6R7W7]7v7{7
-6b6n6
-7	8:8C8
-7!8<8A8G8]8b8h8~8
-7!8_8
-7#7M7
 7$7`7
-7%7?7Y7s7
-7(7A7J7T7]7z7
-7):.:4:J:
-7.7O7l7
-7.8N9
-727F7Z7
-747L7P7d7l7p7t7|7
-74898?8
-7:7B:N:a:
-7<8`8
-7E<f<t<x<|<
-7G9L9R9
-7J7V7h7z7
-7Z8#9
-7^9h9r9|9
-7d?h?
-8 8$80848@8D8P8T8`8d8p8t8
-8"8K8
-8#9Z>
-8#9w<
-8%8=8
-8'818;8E8O8Y8W<
-8'8G8Z8
-8(9/9N9
-8)8C8]8w8
-8-9;9|9
-8.9R9u9
-818F8]8b8h8
-829U9z9
-8A8M8\8r8
-8A:F:L:
-8W>\>b>
 8c  16-Jan-2011
-8h:O;q;
-8i8n8t8
-8p8u8{8w;
-9 9$90949@9D9P9T9`9d9p9t9
-9 :C:V:
-9"9)959>9G9P9Y9b9w9
-9$9-959b9l9u9~:
-9(:,:0:4:8:<:
-9+9[9`9f9=<B<H<
-959<9C9L9Q9V9r9y9
-97:<:B:
-97;G;X;
-9A:d:w:
-9J0urj
-9J8rK
-9L:Q:W:g:
-9P$}5
-9P(u)
-9X:]:c:
-9`9l9r9
-9c9p9
-9k:6;
-: :$:0:4:@:D:P:T:`:d:p:t:
-: :0:4:8:<:D:H:L:P:T:X:`:d:h:l:p:t:|:
-:#:-:7:
-:$:,:4:<:t:|:
-:%;a;w;};/<U<
-:):0:7:@:E:J:d:);I;m;
-:);U;
-:*;~<
-:.:A:T:g:z:
-:.;3;9;
-:0:8:B:K:T:p:x:
-:0:d:
-:0;5;;;
-:3J319G9z9
-:4;9;?;H;Y;`;"<*<
-:5;m;
-:6:t:
-:C:t:
-:X;];c;
-:c;o;
-:g;<<
-;	<*<
-; ;$;0;4;@;D;P;T;`;d;p;t;
-;"<'<-<)?y?
-;%;8;K;^;q;
-;%;=;I;
-;';N;[;a;o;u;
-;);2;:;
-;-;k;
-;.;I;
-;.<j<s<}<
-;B r&
-;B }I
-;B }L
-;B }h
-;B$} 
-;B$}Dh
-;B$}s
-;B$}u
-;B(}V
-;B0}]
-;B8}$
-;B8}A
-;B8}`
-;BL|3
-;BL})
-;BL}-
-;BL}<
-;BL}N
-;B`v	
-;B||#
-;B|~	
-;H s=
-;H$}.
-;H$}A
-;H$}R
-;H,v	
-;H0}0
-;H8}+
-;H<}\
-;HL}C
-;HL}IkU
-;HL}L
-;HL}P
-;HL}S
-;HL}W
-;Hd}$
-;Hd}y
-;P0} 
-;P4w]
-;PL}R
-;PL}V
-;Q$}.
-;Q,}3
-;Q0}.
-;Q8}D
-;Q8}R
-;QL}*
-;QL}<
-;QL}C
-;c;h;n;~;
-;j<}<
-< <$<0<4<@<D<P<T<`<d<p<t<
-<"<(<M<
-<"=R=
-<#<]<f<n<
-<$<*<
-<'<e<
-<)=1=:=A=P=
-<-<Y<x<
-</<B<r<
-<4<><V<`<x<
-<8<=<C<]=b=h=
-<<=A=Y=c={=
-<D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
-<L?Q?W?
-<Vj@j
-<]<p<
-<j=z=
-<k<|<
-= =$=0=4=@=D=P=T=`=d=p=t=
-="=4=e=
-="=[=
-="=a=
-=$=*=
-=(>C>J>e>l>
-=+=I=
-=->x>
-=8><>@>D>H>
-=9B9H9
-=@=H=
-=D=b=
-=J=b=g=
-=J>V>
-=K>U>
-=X>d>l>
-=Y>^>d>
-=`>I?Y?h?
-> >$>(>,>4>8><>@>D>L>P>T>X>\>d>l>p>t>|>
-> >`>
->)?5?U?\?
->5>J>P>n>u>{>
->;>@>F>i>
-? ?,?A?M?S?\?d?
-?!?'???D?J?
-?!?(?@?
-?!?a?
-?"?)?>?C?M?V?]?
-?$?,?0?4?<?T?\?`?d?l?p?t?x?|?
-?%?R?W?]?
-?2a2!3Y3m3w3
-?<?\?k?
-??0QByteArray@@QAE@ABV0@@Z
-??0QByteArray@@QAE@PBDH@Z
-??0QByteArray@@QAE@UQByteArrayDataPtr@@@Z
-??0QByteArray@@QAE@XZ
-??0QChar@@QAE@UQLatin1Char@@@Z
-??0QImage@@QAE@HHW4Format@0@@Z
-??0QImage@@QAE@XZ
-??0QImageIOHandler@@QAE@XZ
-??0QImageIOPlugin@@QAE@PAVQObject@@@Z
-??0QMessageLogger@@QAE@PBDH0@Z
-??0QString@@QAE@ABV0@@Z
-??0QString@@QAE@VQLatin1String@@@Z
-??0QString@@QAE@XZ
-??0QVariant@@QAE@ABVQByteArray@@@Z
-??0QVariant@@QAE@H@Z
-??0QVariant@@QAE@XZ
-??1QByteArray@@QAE@XZ
-??1QImage@@UAE@XZ
-??1QImageIOHandler@@UAE@XZ
-??1QImageIOPlugin@@UAE@XZ
-??1QString@@QAE@XZ
-??4QByteArray@@QAEAAV0@$$QAV0@@Z
-??4QByteArray@@QAEAAV0@ABV0@@Z
-??4QImage@@QAEAAV0@$$QAV0@@Z
-??4QImage@@QAEAAV0@ABV0@@Z
-??4QString@@QAEAAV0@VQLatin1String@@@Z
-??YQString@@QAEAAV0@ABV0@@Z
-??YQString@@QAEAAV0@VQLatin1String@@@Z
-?C?H?N?
-?allGray@QImage@@QBE_NXZ
-?append@QListData@@QAEPAPAXXZ
-?arg@QString@@QBE?AV1@NHDHVQChar@@@Z
-?begin@QListData@@QBEPAPAXXZ
-?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
-?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?constData@QByteArray@@QBEPBDXZ
-?currentImageNumber@QImageIOHandler@@UBEHXZ
-?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
-?data@QByteArray@@QAEPADXZ
-?debug@QMessageLogger@@QBAXPBDZZ
-?depth@QImage@@QBEHXZ
-?detach@QListData@@QAEPAUData@1@H@Z
-?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
-?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dispose@QListData@@QAEXXZ
-?dispose@QListData@@SAXPAUData@1@@Z
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
-?end@QListData@@QBEPAPAXXZ
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
-?isEmpty@QByteArray@@QBE_NXZ
-?isOpen@QIODevice@@QBE_NXZ
-?isReadable@QIODevice@@QBE_NXZ
-?isWritable@QIODevice@@QBE_NXZ
-?peek@QIODevice@@QAE?AVQByteArray@@_J@Z
-?qstrcmp@@YAHABVQByteArray@@PBD@Z
-?qstrdup@@YAPADPBD@Z
-?qt_assert@@YAXPBD0H@Z
-?qt_check_pointer@@YAXPBDH@Z
-?readAll@QIODevice@@QAE?AVQByteArray@@XZ
-?shared_null@QListData@@2UData@1@B
-?size@QByteArray@@QBEHXZ
-?startsWith@QByteArray@@QBE_NABV1@@Z
-?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
-?toByteArray@QVariant@@QBE?AVQByteArray@@XZ
-?toInt@QVariant@@QBEHPA_N@Z
-?toLatin1@QString@@QGBE?AVQByteArray@@XZ
-?toLocal8Bit@QString@@QHAE?AVQByteArray@@XZ
-?u='@
-?write@QIODevice@@QAE_JPBD_J@Z
-?{r}+G
-@#@d@
-@.data
-@.qtmetad
-@.reloc
-@.rsrc
-@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-@0E0K0
-@8G8N8W8\8a8}8
-@<;B@|
-@<;B@|!
-@<;B@|$
+?4x3
+@Wgl
 A!;I2
-A(;B@
 A)AjA
-A,;BD
-A4;BHs
-A<+B4
-A<;B@|
-AL;B$t
-AL;BH|
 ALIGN_TYPE is wrong, please fix
-AP;B(u
-AREG = %08x, CREG = %08x, CTREG = %d
-A`jXj
+AREG = %08x, CREG = %08x, CTREG = %d\n
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Ahd=<c]^7if1Rjg
 Application transferred too few scanlines
 Application transferred too many scanlines
 Arithmetic table 0x%02x was not defined
 At marker 0x%02x, recovery action %d
-Ax;B`r#
-Ax;B`r&
-Ax;B`s
-Ax;B`sr
 B0BrB
-B0G0M0
-B<Ph\h
-BAND %d
+BAND %d\n
 BKbhTb~XBK!;
+BPCC
 Backing store not supported
 Bogus DAC index %d
 Bogus DAC value 0x%x
@@ -539,17 +99,19 @@ Bogus sampling factors
 Bogus virtual array access
 Buffer passed to JPEG library is too small
 C:C}C
+C@j5
 CCIR601 sampling not implemented yet
-CODE BLOCK %d
-CODE BLOCK GROUP %d
+CDEF
+CMAP
+CODE BLOCK %d\n
+CODE BLOCK GROUP %d\n
+COLR
 CRT curv
-CTX = %d, 
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
 Cannot transcode due to multiple use of quantization table %d
 Caution: quantization tables are too coarse for baseline JPEG
-CloseHandle
 Closed temporary file %s
 Color model (space): %d, %s - %s
 Component %d:
@@ -564,9 +126,7 @@ Corrupt JPEG data: bad Huffman code
 Corrupt JPEG data: bad arithmetic code
 Corrupt JPEG data: found marker 0x%02x instead of RST%d
 Corrupt JPEG data: premature end of data segment
-CreateEventW
 Creator: JasPer Version %s
-D6,;E
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 Da\">c]$8c^
@@ -574,50 +134,32 @@ Define Arithmetic Table 0x%02x: 0x%02x
 Define Huffman Table 0x%02x
 Define Quantization Table %d  precision %d
 Define Restart Interval %u
-DeleteCriticalSection
 Didn't expect more than one scan
-DisableThreadLibraryCalls
 Empty JPEG image (DNL not supported)
 Empty input file
 End Of Image
-EnterCriticalSection
 F"FgF
 F:\qt5\qtimageformats\plugins\imageformats\qjp2d.pdb
+FTYP
 Failed to create temporary file %s
 Fractional sampling not implemented yet
 Freed EMS handle %u
 Freed XMS handle %u
-G1L1R1
 G5G{G
-GK?imageCount@QImageIOHandler@@UBEHXZ
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetModuleHandleW
-GetProcAddress
-GetStartupInfoW
-GetSystemTimeAsFileTime
-H$;M 
-H(QhTH
-HLino
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
-I<;H@|
-I<;H@|!
-I<;H@|$
-ICC Profile CS %08x
+ICC Profile CS %08x\n
 IEC http://www.iec.ch
 IEC sRGB
-IF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATA
-IND %d, MPS %d, QEVAL %x
-IND = %02d, MPS = %d, QEVAL = %04x
+IHDR
+IND %d, MPS %d, QEVAL %x\n
+IND = %02d, MPS = %d, QEVAL = %04x\n
 Image height: %ld
 Image too wide for this implementation
 Image width: %ld
 Improper call to JPEG library in state %d
 Inconsistent progression sequence for component %d coefficient %d
 InitializeConditionVariable
-InitializeSListHead
 Input file read error
 Insufficient memory (case %d)
 Invalid JPEG file structure: SOS before SOF
@@ -632,15 +174,7 @@ Invalid memory pool code %d
 Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
 Invalid progressive parameters at scan script entry %d
 Invalid scan script at entry %d
-IsDebuggerPresent
-IsProcessorFeaturePresent
-J(;H8u
-J,;H<u
-J0;H up
-J4;HHs
 J7J}J
-J<;H@|
-J?hasAlphaChannel@QImage@@QBE_NXZ
 JAS_CLRSPC_CIELAB
 JAS_CLRSPC_CIEXYZ
 JAS_CLRSPC_FAM_GRAY
@@ -661,6 +195,9 @@ JFIF extension marker: RGB thumbnail image, length %u
 JFIF extension marker: palette thumbnail image, length %u
 JFIF extension marker: type 0x%02x, length %u
 JP2 box: 
+JP2C
+JP2H
+JP2I
 JPEG (ISO/IEC 10918-1)
 JPEG 2000 reader expected 1 or 2 components, got %d
 JPEG 2000 reader expected 3 or 4 components, got %d
@@ -674,27 +211,19 @@ JPEGMEM
 Jasper Library initialization failed
 Jasper library can't decode Jpeg2000 image data
 Jpeg2000 decoder is not able to handle color space %s - %s
-K?height@QImage@@QBEHXZ
-KERNEL32.dll
+KNQ\rMO
 KODAsGry
+K\fKSK
 L*LrL
-L1Q1W1x1}1
-L6T6t6|6
-L?jumpToImage@QImageIOHandler@@UAE_NH@Z
-L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
-LUT[%d][%d]=%d
-LeaveCriticalSection
+LUT[%d][%d]=%d\n
 Lkh9Fgc^A
-M ;HD|	
-M'@[KX
-M?loopCount@QImageIOHandler@@UBEHXZ
 MAX_ALLOC_CHUNK is wrong, please fix
+MG@k
 MQC,ARD
 MQDEC A = %08lx, C = %08lx, CT=%08lx, 
 Maximum supported image dimension is %u pixels
-MetaData
+MbP?
 Microsoft Bitmap (BMP)
-MimeTypes
 Miscellaneous marker 0x%02x, length %u
 Missing Huffman code table entry
 My Image Format (MIF)
@@ -702,53 +231,35 @@ N%NnN
 Not a JPEG file: starts with 0x%02x 0x%02x
 Not implemented yet
 Number of image components: %d
-O?nextImageDelay@QImageIOHandler@@UBEHXZ
 Obtained EMS handle %u
 Obtained XMS handle %u
 Opened temporary file %s
 Output file write error --- out of disk space?
 P'PqP
-P,;Q(u
-P,;Q<u
-P.tls
-P4;Q<
-P4;Q<}S
-P<;Q@|
-P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-PVj j
+PCLR
 Portable Graymap/Pixmap (PNM)
 Premature end of JPEG file
 Premature end of input file
 Q2XXR
-Q<Rh@k
 QJp2Plugin
-QJp2Plugin1
-QTMETADATA  qbjs
 Qt JPEG 2000 reader does not support signed components
-Qt5Cored.dll
-Qt5Guid.dll
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
-QueryPerformanceCounter
 R1R|R
-R<;Q@|
-R<;Q@|!
-R<;Q@|$
-R?scanLine@QImage@@QAEPAEH@Z
-RESOLUTION LEVEL %d
+RESC
+RESD
+RESOLUTION LEVEL %d\n
+RSDS
 RST%d
 Read failed on temporary file
 Read from EMS failed
 Read from XMS failed
 Requested feature was omitted at compile time
-ResetEvent
 Sampling factors too large for interleaved scan
 Scan script does not transmit all data
 Seek failed on temporary file
 Selected %d colors for quantization
-SetEvent
-SetUnhandledExceptionFilter
 SleepConditionVariableCS
 Smoothing not supported with nonstandard sampling ratios
 Start Of Frame 0x%02x: width=%u, height=%u, components=%d
@@ -756,24 +267,21 @@ Start Of Scan: %d components
 Start of Image
 Sun Rasterfile (RAS)
 Suspension not allowed here
-T8\8d8l8t8|8
-T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
-THAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.
-THE BMP FORMAT IS NOT FULLY SUPPORTED!
-TO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.
-TerminateProcess
-The BMP format cannot be used to represent an image with this geometry.
-The PNM format cannot be used to represent an image with this geometry.
+THE BMP FORMAT IS NOT FULLY SUPPORTED!\nTHAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.\nIF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATA\nTO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.\n
+The BMP format cannot be used to represent an image with this geometry.\n
+The PNM format cannot be used to represent an image with this geometry.\n
 The Qt JPEG 2000 reader does not support components with precision != 8
 The Qt JPEG 2000 reader does not support images where component geometry differs from image geometry
 The Qt JPEG 2000 reader was unable to convert colorspace to RGB or grayscale
-The RAS format cannot be used to represent an image with this geometry.
+The RAS format cannot be used to represent an image with this geometry.\n
 Too many color components: %d, max %d
 U(UuU
+UINF
+ULST
 UNKNOWN
+UUID
 Unable to handle color depth %d
 Unexpected marker 0x%02x
-UnhandledExceptionFilter
 Unknown
 Unknown APP0 marker (not JFIF), length %u
 Unknown APP14 marker (not Adobe), length %u
@@ -785,11 +293,8 @@ Unsupported JPEG process: SOF type 0x%02x
 Unsupported color conversion request
 Unsupported marker type 0x%02x
 UokOP
-VCRUNTIME140D.dll
 VeaFOfb
 Virtual array controller messed up
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
@@ -798,392 +303,304 @@ Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %d, caller expects %d
 X/X}X
-Y0|031V1
-YARGt"
-YARGt&
-You may not be able to read or correctly display the resulting PNM data with other software.
+XYZ 
+You may not be able to read or correctly display the resulting PNM data with other software.\n
 YpU_Z
-Z?width@QImage@@QBEHXZ
-Z@&LHA'
+Z@&LHA'\r:C(
 Zpm"U
-]']x]
-_CrtDbgReportW
-_CxxThrowException
-__acrt_iob_func
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__stdio_common_vfprintf
-__stdio_common_vfscanf
-__stdio_common_vsprintf
-__stdio_common_vsscanf
+\fHLino
+\fbTRC
+\fgTRC
+\frTRC
+\ftext
+\n%lu %lu\n%ld\n
+\r\r\r&\r@\rZ\rt\r
+\t%\t:\tO\td\ty\t
+\tN1a
+\v\v\v"\v9\vQ\vi\v
 __thiscall Jpeg2000JasperReader::Jpeg2000JasperReader(class QIODevice *,const enum SubFormat)
-__vcrt_InitializeCriticalSectionEx
-_callnewh
-_cexit
-_close
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_except1
-_except_handler4_common
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
 _jp2overhead
-_jp2overhead=%lu
-_lseek
-_open
-_read
-_register_onexit_function
-_seh_filter_dll
-_setmode
-_unlink
-_wassert
-_write
-`.rdata
-abort
 acspMSFT
-alignment failed
-ascii = "%s"
-attrno=%d; attrname="%s"(0x%08x); attrtype="%s"(0x%08x)
-b3g3m3
+alignment failed\n
+ascii = "%s"\n
+attrno=%d; attrname="%s"(0x%08x); attrtype="%s"(0x%08x)\n
+bXYZ
 ba.ref.isStatic()
 bad allocation
 bad array new length
 bigendian
+bkpt
 bool __thiscall Jpeg2000JasperReader::read(class QImage *)
 bool __thiscall Jpeg2000JasperReader::write(const class QImage &,int)
-box type %s
-byteorder=%s sgnd=%s prec=%d width=%d height=%d
-c2pjt
-cannot copy box data
-cannot get (EPH) marker segment
-cannot get header
-cannot get info
-cannot get marker segment
-cannot get tab table
-cannot open tmp file
-cannot parse box data
-cannot use real mode for lossless coding
-cannot write COD marker
-cannot write COM marker
-cannot write EOI marker
-cannot write SIZ marker
-cannot write SOC marker
-cannot write SOD marker
-cannot write SOT marker
-caps = 0x%02x;
+box type %s\n
+byteorder=%s sgnd=%s prec=%d width=%d height=%d\n
+c2pj
+cannot copy box data\n
+cannot get (EPH) marker segment\n
+cannot get header\n
+cannot get info\n
+cannot get marker segment\n
+cannot get tab table\n
+cannot open tmp file\n
+cannot parse box data\n
+cannot use real mode for lossless coding\n
+cannot write COD marker\n
+cannot write COM marker\n
+cannot write EOI marker\n
+cannot write SIZ marker\n
+cannot write SOC marker\n
+cannot write SOD marker\n
+cannot write SOT marker\n
+caps = 0x%02x;\n
 cblkheight
 cblkwidth
-cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x;
-cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x; qmfbid = %d;
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x; qmfbid = %d;\n
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x;\n
 ccpbD
-ccpbth
-channo=%d; type=%d; assoc=%d
-className
-cmptno=%d; map=%d; pcol=%d
-code block size too large
-coding pass failed passtype=%d segtype=%d
-compno = %d; csty = 0x%02x; numdlvls = %d;
-compno = %d; qntsty = %d; numguard = %d; numstepsizes = %d
-compno = %d; roisty = %d; roishift = %d
+channo=%d; type=%d; assoc=%d\n
+cmptno=%d; map=%d; pcol=%d\n
+code block size too large\n
+coding pass failed passtype=%d segtype=%d\n
+compno = %d; csty = 0x%02x; numdlvls = %d;\n
+compno = %d; qntsty = %d; numguard = %d; numstepsizes = %d\n
+compno = %d; roisty = %d; roishift = %d\n
 component
 component tlx=%ld tly=%ld sampperx=%ld samppery=%ld width=%ld height=%ld prec=%d sgnd=%d
+cprl
+cprt
 cs[%d] = %d; ce[%d] = %d; 
+csed
 cserp
-csid=%d
-csty = 0x%02x;
-d>i>o>s>y>}>
-data =
+csid=%d\n
+csty = 0x%02x;\n
+curv
+data
 data = 
+data =\n
 debug
-dotile failed
+desc
+diuu
+dmnd
+dotile failed\n
 dserx
 e[%d][%d]=%f 
-entry[%d] = %f
-error: BMP format does not support color space
-error: JPG format does not support color space
-error: PNM support required
-error: RLE encoding method not supported
-error: The JPG encoder cannot handle an image with this geometry.
-error: bad signature
-error: cannot decode code stream
-error: cannot get box
-error: encoding method not supported
-error: expecting signature box
-error: invalid CMAP LUT index
-error: invalid component number in CMAP box
-error: missing IHDR box
-error: missing color component
-error: no COLR box
-error: no code stream found
-error: no components
-error: no memory
-error: possibly bad bitmap offset?
-error: too few guard bits (need at least %d)
-error: unsupported BMP encoding
-error: unsupported color space
-error: unsupported compression type
-expecting file type box
-expn[%d] = 0x%04x; mant[%d] = 0x%04x;
+end\n
+entry[%d] = %f\n
+error: BMP format does not support color space\n
+error: JPG format does not support color space\n
+error: PNM support required\n
+error: RLE encoding method not supported\n
+error: The JPG encoder cannot handle an image with this geometry.\n
+error: bad signature\n
+error: cannot decode code stream\n
+error: cannot get box\n
+error: encoding method not supported\n
+error: expecting signature box\n
+error: invalid CMAP LUT index\n
+error: invalid component number in CMAP box\n
+error: missing IHDR box\n
+error: missing color component\n
+error: no COLR box\n
+error: no code stream found\n
+error: no components\n
+error: no memory\n
+error: possibly bad bitmap offset?\n
+error: too few guard bits (need at least %d)\n
+error: unsupported BMP encoding\n
+error: unsupported color space\n
+error: unsupported compression type\n
+expecting file type box\n
+expn[%d] = 0x%04x; mant[%d] = 0x%04x;\n
 f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-fclose
 fedcd
-fedctz
-ferror
-fflush
-fgetc
-floor
-fputc
-fputs
-fread
-fseek
-fwrite
-gamma = %f
-getenv
-h  Pj
+fniu
+gXYZ
+gamma = %f\n
 h2pj4
-hCRTb
-hCRTg
-hCRTk
-hCRTr
-hPhxW
-hQhxV
-hZYXr
-hc2pj
-hccpb
-hdrlen=%lu bodylen=%lu 
+hdrlen=%lu bodylen=%lu \n
 height
-hfedc
-hh2pj
-hoff[%d] = %d; voff[%d] = %d
-hpytf
-hrdhi
-hrloc
-i3n3t3
-ignoring bad quality specifier %s
-ignoring bad rate specifier %s
-ignoring invalid mode %s
-ignoring invalid progression order %s
+hoff[%d] = %d; voff[%d] = %d\n
+i2pj
+ignoring bad quality specifier %s\n
+ignoring bad rate specifier %s\n
+ignoring invalid mode %s\n
+ignoring invalid progression order %s\n
 ilyrrates
-image/jp2
-image/jpm
-image/jpx
 imgareatlx
 imgareatly
-incorrect magic number
-ind=%d; len = %d;
-intermediate layer rates must increase monotonically
-invalid JP encoder options
-invalid PNM encoder options specified
-invalid code block height %d
-invalid code block width %d
-invalid component number in COC marker segment
-invalid component number in QCC marker segment
-invalid component number in RGN marker segment
-invalid number of guard bits
-invalid precinct height
-invalid precinct width
-invalid tile grid offset (%lu, %lu)
-invalid tile height %lu
-invalid tile number in SOT marker segment
-invalid tile width %lu
-isalpha
-isdigit
-isprint
-isspace
+incorrect magic number\n
+ind=%d; len = %d;\n
+intermediate layer rates must increase monotonically\n
+invalid JP encoder options\n
+invalid PNM encoder options specified\n
+invalid code block height %d\n
+invalid code block width %d\n
+invalid component number in COC marker segment\n
+invalid component number in QCC marker segment\n
+invalid component number in RGN marker segment\n
+invalid number of guard bits\n
+invalid precinct height\n
+invalid precinct width\n
+invalid tile grid offset (%lu, %lu)\n
+invalid tile height %lu\n
+invalid tile number in SOT marker segment\n
+invalid tile width %lu\n
 j'Vlk
-jfh #
-jpc_dec_decodecblks failed
-jpc_dec_decodepkts failed
-jph0n
-jrh d
-kH((Q
-kH0$Q
-kQ 	R
-kQ 4R
-kQ$XRj
-kQ,8R
-kQ4	;
-le[%d] = %d
+jpc_dec_decodecblks failed\n
+jpc_dec_decodepkts failed\n
+kTRC
+lazy
+le[%d] = %d\n
 littleendian
+lrcp
 lwtpt
-lyrno = %02d
-lyrno=%02d cmptno=%02d rlvlno=%02d bandno=%02d prcno=%02d cblkno=%03d passno=%03d
-maclen = %d
-malloc
-maxlen=%08ld actuallen=%08ld thresh=%f
+lyrno = %02d\n
+lyrno=%02d cmptno=%02d rlvlno=%02d bandno=%02d prcno=%02d cblkno=%03d passno=%03d\n
+maclen = %d\n
+maxlen=%08ld actuallen=%08ld thresh=%f\n
 maxlyrs
 maxpkts
-memcmp
-memcpy
-memmove
-memset
-method=%d; pri=%d; approx=%d
-min rdslope = %f max rdslope = %f
-missing EPH marker segment
-missing SOP marker segment
-missing argument for option %s
+meas
+method=%d; pri=%d; approx=%d\n
+min rdslope = %f max rdslope = %f\n
+missing EPH marker segment\n
+missing SOP marker segment\n
+missing argument for option %s\n
 mntrRGB XYZ 
+mode
 mode=real
-must be at least one resolution level
-no palettized image support for BMP format
-node %p, parent %p, value %d, lower %d, known %d
+must be at least one resolution level\n
+no palettized image support for BMP format\n
+node %p, parent %p, value %d, lower %d, known %d\n
 nomct
-numattrs=%d
-number of entires = %d
-numchans = %d
-numdlvls = %d; qmfbid = %d; mctrans = %d
-numents=%d; numchans=%d
+numattrs=%d\n
+number of entires = %d\n
+numchans = %d\n
+numdlvls = %d; qmfbid = %d; mctrans = %d\n
+numents=%d; numchans=%d\n
 numgbits
-numinchans=%d, numoutchans=%d, clutlen=%d
-numintabents=%d, numouttabents=%d
+numinchans=%d, numoutchans=%d, clutlen=%d\n
+numintabents=%d, numouttabents=%d\n
 numrlvls
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
-packet body offset=%06ld
-packet offset=%08ld prg=%d cmptno=%02d rlvlno=%02d prcno=%03d lyrno=%02d
+packet body offset=%06ld\n
+packet offset=%08ld prg=%d cmptno=%02d rlvlno=%02d prcno=%03d lyrno=%02d\n
 pamc\
+pcrl
 pdmdd
 po[%d] = %d; 
 prcheight
 prcwidth
-prcwidth[%d] = %d, prcheight[%d] = %d
-prec=%d, sgnd=%d, cmpttype=%d
-prec[%d] = %d; sgnd[%d] = %d; hsamp[%d] = %d; vsamp[%d] = %d
-prg = %d; numlyrs = %d;
+prcwidth[%d] = %d, prcheight[%d] = %d\n
+prec
+prec=%d, sgnd=%d, cmpttype=%d\n
+prec[%d] = %d; sgnd[%d] = %d; hsamp[%d] = %d; vsamp[%d] = %d\n
+prg = %d; numlyrs = %d;\n
 pterm
 pytf,
-pytft
-q0v0|0
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qjp2d.dll
 qjp2handler.cpp
-qntsty = %d; numguard = %d; numstepsizes = %d
-qsort
+qntsty = %d; numguard = %d; numstepsizes = %d\n
 qt_plugin_instance
 qt_plugin_query_metadata
 quality
-r2|246
-r7y7@8D8H8L8P8:;
-rbCYt
+rXYZ
+rate
 rdhi<
-rdhit&
-read error
-realloc
-refcnt = %d; type = 0x%08x %s
-regid = %d;
+read error\n
+real
+refcnt = %d; type = 0x%08x %s\n
+regid = %d;\n
 resetprob
-rewind
+rlcp
 rlcpT
-rlcpth
 rlocL
-rlocw1
+rpcl
 rs[%d] = %d; re[%d] = %d; 
 sAmTb
 sRGB IEC61966-2.1
 sampperx
 samppery
-sccode = %d
+sccode = %d\n
 scnrGRAYXYZ 
 segsym
-seqno = %d;
+seqno = %d;\n
+sgnd
+sig 
 signed
-skipping unknown data in BMP file
-start=%d end=%d type=%d term=%d lyrno=%d firstchar=%02x size=%ld pos=%ld
-strcat
-strchr
-strcmp
-strcpy
-string = "%s"
-strlen
-strncpy
+skipping unknown data in BMP file\n
+start=%d end=%d type=%d term=%d lyrno=%d firstchar=%02x size=%ld pos=%ld\n
+string = "%s"\n
 strongref.load() <= 0
-strrchr
-strtok
-success %d goodthresh %f
-t.hH>
-t1hZYXb
-tchZYXg
+success %d goodthresh %f\n
 termall
-terminate
+text
 tilegrdtlx
 tilegrdtly
 tileheight
-tileno = %d; len = %d; partno = %d; numparts = %d
+tileno = %d; len = %d; partno = %d; numparts = %d\n
 tilewidth
-tilewidth = %d; tileheight = %d; tilexoff = %d; tileyoff = %d;
-tmpfile
-tmpnam
-too many layers
+tilewidth = %d; tileheight = %d; tilexoff = %d; tileyoff = %d;\n
+too many layers\n
+tscu
 txetp
 type = 0x%04x (%s);
-type=%c%s%c (0x%08x); length=%d
-u5hTS
-u6j@j
-uBh,>
-uBj(j
-uclangcode = %d; uclen = %d
-ucrtbased.dll
-unexpected marker segment type
-unknown long option %s
-unknown short option %s
+type=%c%s%c (0x%08x); length=%d\n
+uclangcode = %d; uclen = %d\n
+unexpected marker segment type\n
+unknown long option %s\n
+unknown short option %s\n
 unsigned
-unsupported BMP encoding
-unsupported image type
+unsupported BMP encoding\n
+unsupported image type\n
 vcausal
-version
-video/mj2
+view
 void __thiscall Jpeg2000JasperReader::printColorSpaceError(void)
 void __thiscall Jpeg2000JasperReader::printMetadata(jas_image_t *)
-vruct
-vrucu
-warning: bad segmentation symbol
-warning: bad termination pattern detected
-warning: cannot handle large 64-bit box length
-warning: color space apparently not RGB
-warning: component data type mismatch
-warning: corrupt code stream
-warning: empty layer generated
-warning: ignoring BMP decoder options
-warning: ignoring BMP encoder options
-warning: ignoring RAS decoder options
-warning: ignoring RAS encoder options
-warning: ignoring invalid option %s
-warning: ignoring options
-warning: ignoring trailing garbage (%lu bytes)
-warning: ignoring unknown marker segment
-warning: ignoring unsupported options
-warning: inaccurate color
-warning: intermediate layer rates must be less than overall rate
-warning: invalid intermediate layer rates specifier ignored (%s)
-warning: missing CMAP box or superfluous PCLR box
-warning: missing PCLR box or superfluous CMAP box
-warning: not enough tile data (%lu bytes)
-warning: number of components mismatch
-warning: overriding imgareatlx value
-warning: overriding imgareatly value
-warning: palettized images not fully supported
-warning: possibly corrupt code stream
-warning: specified rate is unreasonably large (%lu > %lu)
-warning: stopping decode prematurely as requested
-warning: superfluous BPCC box
-warning: support for signed sample data requires use of nonstandard extension to PNM format
-warning: trailing garbage in marker segment (%ld bytes)
+vruc
+vued
+warning: bad segmentation symbol\n
+warning: bad termination pattern detected\n
+warning: cannot handle large 64-bit box length\n
+warning: color space apparently not RGB\n
+warning: component data type mismatch\n
+warning: corrupt code stream\n
+warning: empty layer generated\n
+warning: ignoring BMP decoder options\n
+warning: ignoring BMP encoder options\n
+warning: ignoring RAS decoder options\n
+warning: ignoring RAS encoder options\n
+warning: ignoring invalid option %s\n
+warning: ignoring options\n
+warning: ignoring trailing garbage (%lu bytes)\n
+warning: ignoring unknown marker segment\n
+warning: ignoring unsupported options\n
+warning: inaccurate color\n
+warning: intermediate layer rates must be less than overall rate\n
+warning: invalid intermediate layer rates specifier ignored (%s)\n
+warning: missing CMAP box or superfluous PCLR box\n
+warning: missing PCLR box or superfluous CMAP box\n
+warning: not enough tile data (%lu bytes)\n
+warning: number of components mismatch\n
+warning: overriding imgareatlx value\n
+warning: overriding imgareatly value\n
+warning: palettized images not fully supported\n
+warning: possibly corrupt code stream\n
+warning: specified rate is unreasonably large (%lu > %lu)\n
+warning: stopping decode prematurely as requested\n
+warning: superfluous BPCC box\n
+warning: support for signed sample data requires use of nonstandard extension to PNM format\n
+warning: trailing garbage in marker segment (%ld bytes)\n
 width
-width = %d; height = %d; xoff = %d; yoff = %d;
-write component failed
-xs =%d, ys = %d, xe = %d, ye = %d, w = %d, h = %d
-y2@-!
-yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
-z$ u`
-zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
+width = %d; height = %d; xoff = %d; yoff = %d;\n
+write component failed\n
+xs =%d, ys = %d, xe = %d, ye = %d, w = %d, h = %d\n
+yR@4
+yb@m
+yr@T
 zp@Nd
 {@Ggk

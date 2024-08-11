@@ -1,44 +1,26 @@
-
-!
-"
-"%s"
+ ( def. "%s" )
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
 "%s" = "%s"
-#
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
-$
 $ORIGIN
-%
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %f %f %f %f
-%hd
-%hu
 %i %i %i %i
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%s
-%s%d
-%s,
-%s/
-%s: string format requested %d chars
-%u
+%s: string format requested %d chars\n
 'is NOT active'
 'is active'
-( def. "%s" )
-(*%s*),
-*
-,
-,%d
--
--------------------- PollInputState_SDL (frame %llu, elapsed ms = %.2f) --------------------
---> SDL_PumpEvents - %d new events (elapsed time from last pump %.2f ms)
+-------------------- PollInputState_SDL (frame %llu, elapsed ms = %.2f) --------------------\n
+--> SDL_PumpEvents - %d new events (elapsed time from last pump %.2f ms)\n
 -cursor_scale_percent
 -disable_cursor_clip
 -input_button_code_is_scan_code
@@ -46,15 +28,11 @@ $ORIGIN
 -inputss_update_spew
 -noime
 -pass_vk_processkey
-...
 ../public/ordered_constructor.h
 ../public/tier1/utlrbtree.h
 /cursor.res
-0
-0.3
 0x%016llX
 0x%p
-1
 10ConCommand
 10IAppSystem
 12CInputSystem
@@ -74,35 +52,21 @@ $ORIGIN
 17IInputStackSystem
 18CPlaceholderConVar
 19IKeyValuesErrorSpew
-2
 20CPostConnectCallback
 22CSchemaInstallCallback
 23IConCommandBaseAccessor
 26CDefaultKeyValuesErrorSpew
-5
-6
+5t~BC
 6ConVar
-7
 7IConVar
-8
 8CFmtStrNILi256ELb0EE
-9
-:
-;
-<
-<< NULL >>
+<< NULL >>\n
 <NULL>
 <deferred>
 <no deferred ref found>
 <no failure reason set>
 <null>
 <unconnected>
-=
->
-?
-???
-@
-A
 ACUTE_ACCENT
 AC_BACK
 AC_BOOKMARKS
@@ -111,10 +75,8 @@ AC_HOME
 AC_REFRESH
 AC_SEARCH
 AC_STOP
-AE
 ALTERASE
-APP
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 ASTERISK
 AUDIOMUTE
 AUDIONEXT
@@ -128,19 +90,20 @@ A_WITH_DIAERESIS
 A_WITH_GRAVE
 A_WITH_RING_ABOVE
 A_WITH_TILDE
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 Analog axis range before a button press is registered.
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
-App activation changed: %s
+App activation changed: %s\n
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
 Automatic cursor size scaling.
-B
+B-nojoy
 BRIGHTNESSDOWN
 BRIGHTNESSUP
 BROKEN_BAR
@@ -151,7 +114,6 @@ Bad expression token: %c
 BakedLODBuilderMgr001
 BenchmarkService001
 BinaryProperties_GetValue
-C
 CALCULATOR
 CANCEL
 CAPSLOCK
@@ -161,18 +123,18 @@ CBufferString::Concat(char const*, char const*, ...)
 CBufferString::Insert(int, char const*, int, bool)
 CBufferString::Purge(int)
 CBufferString::Relinquish(CBufferString::EAllocationOption_t)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CENT_SIGN
-CInputStackSystem:  %s IME %s
-CInputStackSystem:  %s capture set to 0x%p
-CInputStackSystem:  %s cursor %s
-CInputStackSystem:  %s cursor clip set to 0x%p
-CInputStackSystem:  %s is %s for state %x
-CInputStackSystem:  %s relative mouse mode %s
-CInputStackSystem:  empty
-CInputStackSystem:  nothing enabled
-CInputSystem::AttachToWindow: Tried to attach to the same window twice!
+CInputStackSystem:  %s IME %s\n
+CInputStackSystem:  %s capture set to 0x%p\n
+CInputStackSystem:  %s cursor %s\n
+CInputStackSystem:  %s cursor clip set to 0x%p\n
+CInputStackSystem:  %s is %s for state %x\n
+CInputStackSystem:  %s relative mouse mode %s\n
+CInputStackSystem:  empty\n
+CInputStackSystem:  nothing enabled\n
+CInputSystem::AttachToWindow: Tried to attach to the same window twice!\n
 CInputSystem::SleepUntilInput
 CLEARAGAIN
 CMemAllocSystemInitialize
@@ -196,10 +158,9 @@ CThreadSyncObject::~CThreadSyncObject()
 CURRENCYSUBUNIT
 CURRENCYUNIT
 CURRENCY_SIGN
-CUT
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CVProfNode::EnterScope()
 CVProfNode::ExitScope()
 CVProfNode::GetSubNode(char const*, int, char const*, int)
@@ -207,15 +168,14 @@ CXXABI_1.3
 C_WITH_CEDILLA
 CommandLine
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
 CreateInterface
-Current coordinate bias %s: %g,%g scale %g,%g
+Current coordinate bias %s: %g,%g scale %g,%g\n
 Cursor size scaling factor.
-D
 DECIMALSEPARATOR
 DEGREE_SYMBOL
 DEMO
@@ -227,11 +187,8 @@ DebugTextureInfo001
 DevMsg
 DevMsg(char const*, ...)
 DotaCardGameClient_001
-E
 EJECT
-END
 ESCAPE
-ETH
 EURO_SIGN
 EXCLAIM
 EXECUTE
@@ -246,61 +203,33 @@ EconItemToolModel_001
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 EventSystem001
-F
-F1
-F10
-F11
-F12
-F13
-F14
-F15
-F16
-F17
-F18
-F19
-F2
-F20
-F21
-F22
-F23
-F24
-F3
-F4
-F5
-F6
-F7
-F8
-F9
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
 FEMININE_ORDINAL_INDICATOR
 FIND
-Failed to load cursor from '%s'
-Failed to load image for cursor from %s: %s
+Failed to load cursor from '%s'\n
+Failed to load image for cursor from %s: %s\n
 Failed to scale image for cursor to %d,%d (hot %d,%d; scaling %g): %s
 FlattenedSerializersVersion001
 FontManager_001
 FormatV
-G
 GAMECONSOLE
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
 GetResourceManifestCount
 GetResourceManifests
-H
+HDff
 HELP
 HIGHDPI
 HammerMapLoader001
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-I
 IE_ActivateApp
 IE_ActivateWindow
 IE_AnalogValueChanged
@@ -332,24 +261,23 @@ IE_WindowMove
 IE_WindowSizeChanged
 IMEManager001
 INACTIVE
-INS
 INVERTED_EXCLAMATION_MARK
 INVERTED_QUESTION_MARK
 IQuickTime001
-ISS: Cursor clip %s from '%s'
-ISS: Cursor clip disabled from default
-ISS: Cursor icon from '%s'
-ISS: Cursor invisible from '%s'
-ISS: Cursor invisible from default
-ISS: IME %s from '%s'
-ISS: IME allowed from default
-ISS: Mouse capture disabled from '%s'
-ISS: Mouse capture disabled from default
-ISS: Mouse capture enabled from '%s'
-ISS: Relative mouse %s from '%s'
-ISS: Relative mouse disabled from default
-ISS: Standard cursors from '%s'
-ISS: Standard cursors from default
+ISS: Cursor clip %s from '%s'\n
+ISS: Cursor clip disabled from default\n
+ISS: Cursor icon from '%s'\n
+ISS: Cursor invisible from '%s'\n
+ISS: Cursor invisible from default\n
+ISS: IME %s from '%s'\n
+ISS: IME allowed from default\n
+ISS: Mouse capture disabled from '%s'\n
+ISS: Mouse capture disabled from default\n
+ISS: Mouse capture enabled from '%s'\n
+ISS: Relative mouse %s from '%s'\n
+ISS: Relative mouse disabled from default\n
+ISS: Standard cursors from '%s'\n
+ISS: Standard cursors from default\n
 I_WITH_ACUTE
 I_WITH_CIRCUMFLEX
 I_WITH_DIAERESIS
@@ -358,12 +286,11 @@ InputService_001
 InputStackSystemVersion001
 InputSystem
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
-J
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 JOY1
 JOY10
 JOY11
@@ -396,13 +323,12 @@ JOY6
 JOY7
 JOY8
 JOY9
-JSON error, unterminated element:
-K
+JSON error, unterminated element: 
 KBDILLUMDOWN
 KBDILLUMTOGGLE
 KBDILLUMUP
-KEYDOWN (%s): sdlkeycode=%d sdlscancode=%d SDL_GetKeyName='%s' buttoncode=%d buttonname='%s' ButtonCode_GetLocalKeyNameUTF8='%s'
-KEYUP (%s) sdlkeycode=%d sdlscancode=%d buttoncode=%d buttonname='%s'
+KEYDOWN (%s): sdlkeycode=%d sdlscancode=%d SDL_GetKeyName='%s' buttoncode=%d buttonname='%s' ButtonCode_GetLocalKeyNameUTF8='%s'\n
+KEYUP (%s) sdlkeycode=%d sdlscancode=%d buttoncode=%d buttonname='%s'\n
 KEY_CYRILLIC_BE
 KEY_CYRILLIC_E
 KEY_CYRILLIC_HA
@@ -473,12 +399,11 @@ KP_VERTICALBAR
 KP_XOR
 KV Conditional Evaluation Error
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
-L
 LEFTARROW
 LEFT_CURLY_BRACKET
 LEFT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK
@@ -496,7 +421,6 @@ LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ..
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-M
 MACRON
 MAIL
 MASCULINE_ORDINAL_INDICATOR
@@ -512,7 +436,7 @@ MOUSE2
 MOUSE3
 MOUSE4
 MOUSE5
-MOUSEWHEEL delta %d (raw %d)
+MOUSEWHEEL delta %d (raw %d)\n
 MOUSE_WHEEL
 MOUSE_X
 MOUSE_Y
@@ -526,7 +450,6 @@ MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
 ModelDocUtils001
-N
 NOT_SIGN
 NULL
 NUMLOCK
@@ -540,18 +463,15 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
-No cursor image files for '%s'
-O
+No cursor image files for '%s'\n
 OPER
-OSX
-OUT
 O_WITH_ACUTE
 O_WITH_CIRCUMFLEX
 O_WITH_DIAERESIS
 O_WITH_GRAVE
 O_WITH_STROKE
 O_WITH_TILDE
-P
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 PASTE
 PAUSE
 PGDN
@@ -566,7 +486,6 @@ POV_RIGHT
 POV_UP
 PRINTSCREEN
 PRIOR
-PS3
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -599,13 +518,11 @@ Plat_UnloadModule
 Plat_WindowToOsSpecificHandle
 Plat_WindowToScreenCoords
 PostProcessingSystem_001
-PrimaryUserId is %d
+PrimaryUserId is %d\n
 PropertyEditorSystem_001
-Q
 QUESTION
 QUOTEDBL
 QueuedLoaderVersion001
-R
 RALT
 RCTRL
 REGISTERED_SIGN
@@ -620,7 +537,6 @@ R_AXIS_NEG
 R_AXIS_POS
 R_SHOULDER
 R_TRIGGER
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -628,7 +544,7 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Release
 RenderDevice003
@@ -651,28 +567,28 @@ S2_RIGHT
 S2_UP
 SCROLLLOCK
 SCROLLLOCKTOGGLE
-SDL is %s relative mouse
-SDL says cursor is %s and is set to 0x%p
-SDL:  got %s
-SDL: Display %d orientation changed to %d
-SDL: Display %d unknown event %d (data1 %d)
-SDL: Mouse entered window %d
-SDL: Mouse left window %d
-SDL: Window %d closed
-SDL: Window %d exposed
-SDL: Window %d gained keyboard focus
-SDL: Window %d got unknown event %d
-SDL: Window %d hidden
-SDL: Window %d hit test
-SDL: Window %d lost keyboard focus
-SDL: Window %d maximized
-SDL: Window %d minimized
-SDL: Window %d moved to %d,%d
-SDL: Window %d offered focus
-SDL: Window %d resized to %dx%d
-SDL: Window %d restored
-SDL: Window %d shown
-SDL: Window %d size changed [%d,%d]
+SDL is %s relative mouse\n
+SDL says cursor is %s and is set to 0x%p\n
+SDL:  got %s\n
+SDL: Display %d orientation changed to %d\n
+SDL: Display %d unknown event %d (data1 %d)\n
+SDL: Mouse entered window %d\n
+SDL: Mouse left window %d\n
+SDL: Window %d closed\n
+SDL: Window %d exposed\n
+SDL: Window %d gained keyboard focus\n
+SDL: Window %d got unknown event %d\n
+SDL: Window %d hidden\n
+SDL: Window %d hit test\n
+SDL: Window %d lost keyboard focus\n
+SDL: Window %d maximized\n
+SDL: Window %d minimized\n
+SDL: Window %d moved to %d,%d\n
+SDL: Window %d offered focus\n
+SDL: Window %d resized to %dx%d\n
+SDL: Window %d restored\n
+SDL: Window %d shown\n
+SDL: Window %d size changed [%d,%d]\n
 SDL_APP_DIDENTERBACKGROUND
 SDL_APP_DIDENTERFOREGROUND
 SDL_APP_LOWMEMORY
@@ -736,8 +652,8 @@ SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 SerializedEntitiesVersion001
 ServerUploadGameStats001
-SetCursorClip:  %s SDL_SetWindowGrab on 0x%p (%s) %s
-SetCursorClip:  disabling SDL_SetWindowGrab on 0x%p (%s)
+SetCursorClip:  %s SDL_SetWindowGrab on 0x%p (%s) %s\n
+SetCursorClip:  disabling SDL_SetWindowGrab on 0x%p (%s)\n
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
@@ -756,8 +672,7 @@ Source2Server001
 Source2ServerSerializers002
 StatsService_001
 SteamAudio001
-T
-TEXTINPUT '%s'
+TEXTINPUT '%s'\n
 THORN
 THOUSANDSSEPARATOR
 TestFormatA
@@ -786,7 +701,7 @@ U_WITH_ACUTE
 U_WITH_CIRCUMFLEX
 U_WITH_DIAERESIS
 U_WITH_GRAVE
-UpdateCursorClipOnFocusChange:  %s SDL_SetWindowGrab on 0x%p (%s) %s
+UpdateCursorClipOnFocusChange:  %s SDL_SetWindowGrab on 0x%p (%s) %s\n
 Updates game keyboard layout to current windows keyboard setting.
 UserInfoChangeService_001
 VApplication001
@@ -875,10 +790,9 @@ VisBuilder_001
 WIN32
 WINDOWS
 WINXP
-WWW
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
-Window activation changed: %s
+Warning:  %s = '%s' is infinite, clamping value.\n
+Window activation changed: %s\n
 Wingman warrior centering hack.
 Wingman warrior hack related to turn axes.
 WorkshopSetup001
@@ -889,7 +803,6 @@ X_AXIS
 X_AXIS_NEG
 X_AXIS_POS
 X_BUTTON
-Y
 YEN_SIGN
 Y_AXIS
 Y_AXIS_NEG
@@ -897,16 +810,10 @@ Y_AXIS_POS
 Y_BUTTON
 Y_WITH_ACUTE
 Y_WITH_DIAERESIS
-Z
 Z_AXIS
 Z_AXIS_NEG
 Z_AXIS_POS
-[
-[%.3f server clamped to %.3f]
-\
-]
-^
-_
+\rStall
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -937,76 +844,61 @@ _edata
 _end
 _fini
 _vsz%u.bmp
-`
-a
 archive
-aux
-b
 binary
 binary_auto
 binary_bc
 binary_lz4
 borrow
-c
 cheat
 cl_auto_cursor_scale
 cl_cursor_scale
 client
 clientcmd_can_execute
 configvalue.cpp
-d
 delete
 developer
 disabled
 disabling
 disallowed
 down
-e
 enabled
 enabling
-f
 float( %f )
-g
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_VProfCurrentProfile
 g_pMemAlloc
 game
 generic
-h
 hidden
 hotx
 hoty
-initializing SDL joystick %d %s
+initializing SDL joystick %d %s\n
 inputsystem
 int( %d = 0x%X )
 interfaces.cpp
-j
 joy_axisbutton_threshold
 joy_wingmanwarrior_centerhack
 joy_wingmanwarrior_turnhack
-joystick not found -- driver not present
+joystick not found -- driver not present\n
 key_updatelayout
 keyc
 keyvalues.cpp
-l
 libc.so.6
 libinputsystem.so
 libpthread.so.0
 libstdc++.so.6
 libtier0.so
 libvstdlib.so
-max. %f
 memcpy
 memmove
 mempool.cpp
-min. %f
-mouse %d %s (%d) at %d %d on window %d
-mouse motion %d %d at %d %d with buttons "%s" on window %d
+mouse %d %s (%d) at %d %d on window %d\n
+mouse motion %d %d at %d %d with buttons "%s" on window %d\n
 not using
 notconnected
 notify
-off
 operator delete(void*)
 operator delete[](void*)
 operator new(unsigned long)
@@ -1020,15 +912,12 @@ pthread_mutex_unlock
 pthread_mutexattr_init
 pthread_mutexattr_settype
 ptr( 0x%p )
-q
-rb
 replicated
 scan
 schemabindings.cpp
 server_can_execute
 shown
 singleplayer
-ss
 ss_added
 strchr
 strcmp
@@ -1039,19 +928,13 @@ typeinfo for CThreadSyncObject
 u64( %lld = 0x%llX )
 unknown event
 unset
-up
 update
 user
 utlstring.cpp
-v
 visible
 vstdlib
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-wb
 wcscmp
 wcslen
-z
-{
-{}()':

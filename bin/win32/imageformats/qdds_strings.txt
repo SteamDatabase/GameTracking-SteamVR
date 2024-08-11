@@ -1,9 +1,3 @@
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
- +D$,
- tSj hXz
-!This program cannot be run in DOS mode.
-$Phxy
-$SUVWP
 -Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
 .00cfg
 .?AVQDDSHandler@@
@@ -27,6 +21,7 @@ $SUVWP
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -35,7 +30,6 @@ $SUVWP
 .idata$4
 .idata$5
 .idata$6
-.qtmetad$
 .qtmetadata
 .rdata
 .rdata$T
@@ -48,99 +42,14 @@ $SUVWP
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata$x
-0 0-0:0G0t0
-0!0B0G0`0e0r0
-0$1C1X1`1h1p1
-040<0D0L0T0\0d0l0t0|0
-0>0f0{0
-1!181@1
-1$1,141<1D1L1T1\1d1l1t1|1
-1%1c1u1/2b2
-1,191F1s1
-152;2Z2
-1u2}2
-2 3/3<3L3V3^3x3
-2#2\2u2
-2$2,242<2D2L2T2t2
-2&2r2
-2&343S3
-2d6h6l6p6t6x6|6
-3)353Z3n3t3
-373^3f3
-383T3
-383T3X3`3h3p3t3|3
-3@3W3
-3k4r4
-4*4@4U4]4e4m4w4
-4+545=5K5T5g5H6h6r6
-4C5P5]5j5
-4E4h4p4
-5&505:5P5X5c5o5u5
-5.5@5I5W5c5m5
-5/575D5Q5
-526Q6=7t7
-5ineI
-5ntel
-6%7w7
-6X7u7
-7%8Q8^8k8x8
-7-73797?7E7K7Q7W7]7c7i7o7
-7.8G8h8
-727A7J7W7n7
-8"8/8Y8c8
-8$8,818W8\8
-8$9I9T9`9
-9"949
-989a9p9
-9B:[:w:
-9D$$vL
-9D$8vL
-9\$ vC
-:':T:l:
-:Y;a;x;
-;$;7;H;U;[;f;l;w;~;
-;';M;
-;5;A;N;W;_;k;x;
-;D$ r
-;D$$r
-;D$8r
-;L$ r
-;[<k<
-;\$ r
-;|$$r
-< <$<(<<<@<D<
-<#<-<;<C<
-<1=9=I=
-<8<D<Q<Z<h<
-<D=(><>e>
-= =$=<=@=P=T=X=\=d=|=
-= =@=F=e=
-=-???G?O?Y?z?
-=DXT1
-=DXT2
-=DXT3
-=DXT4
-=DXT5
-=GRGB
-=RGBG
-=RXGB
-=UYVY
-=YUY2
->%>1>:>?>E>O>Y>i>y>
->3>C>d>
->4>8>P>`>d>x>|>
->>>H>l>t>
->t.=ATI2t
-? ?$?,?D?T?X?h?l?p?t?|?
-?$?,?7?<?B?L?V?i?n?}?
-?)?6?
+9\f?floatingPointPrecision@QDataStream@@QBE?AW4FloatingPointPrecision@1@XZ
 ??0QByteArray@@QAE@ABV0@@Z
 ??0QByteArray@@QAE@PBDH@Z
 ??0QDataStream@@QAE@PAVQIODevice@@@Z
@@ -174,19 +83,6 @@ $SUVWP
 ?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
 ?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
 ?constData@QByteArray@@QBEPBDXZ
-?convertToFormat_helper@QImage@@IBE?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UBEHXZ
-?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
-?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
-?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dispose@QListData@@SAXPAUData@1@@Z
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?fill@QImage@@QAEXI@Z
-?floatingPointPrecision@QDataStream@@QBE?AW4FloatingPointPrecision@1@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
 ?isOpen@QIODevice@@QBE_NXZ
 ?isReadable@QIODevice@@QBE_NXZ
 ?isWritable@QIODevice@@QBE_NXZ
@@ -201,8 +97,6 @@ $SUVWP
 ?toLower@QByteArray@@QHAE?AV1@XZ
 ?toUpper@QByteArray@@QGBE?AV1@XZ
 ?warning@QMessageLogger@@QBE?AVQDebug@@XZ
-@.data
-@.reloc
 A16B16G16R16
 A16B16G16R16F
 A1R5G5B5
@@ -211,34 +105,20 @@ A2B10G10R10_XR_BIAS
 A2R10G10B10
 A2W10V10U10
 A32B32G32R32F
+A4L4
+A4P4
 A4R4G4B4
 A8B8G8R8
+A8L8
+A8P8
 A8R3G3B2
 A8R8G8B8
+ATI2
 BinaryBuffer
 Can't read image with w/h bigger than INT_MAX
 CloseHandle
 CreateEventW
 CxV8U8
-D$ Pj
-D$ _^
-D$$9D$
-D$$;D$
-D$$PVVV
-D$$Pj
-D$(Pj
-D$,9D$ 
-D$,Pj
-D$,_^][
-D$09D$ 
-D$0;D$ 
-D$0Pj
-D$0_^[
-D$<Pj
-D$TDDS 
-D$`QRP
-D$pUP
-D$pVP
 D15S1
 D16Lockable
 D24FS8
@@ -247,19 +127,22 @@ D24X4S4
 D24X8
 D32FLockable
 D32Lockable
+DDS 
 DDSHandler::canRead() called with no device
-DXT2t
-DXT4u,
+DXT1
+DXT2
+DXT3
+DXT4
+DXT5
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
-F;t$$r
 Format
 G16R16
 G16R16F
 G32R32F
 G8R8_G8B8
-GRGBt#
+GRGB
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -273,40 +156,32 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 K?height@QImage@@QBEHXZ
 KERNEL32.dll
-L$ _^][3
-L$$9L$ 
-L$$;L$ 
-L$09L$ 
-L$0;L$ 
-L$8;y
-L$DPh\y
-L$Df;
 L6V5U5
 L?isNull@QImage@@QBE_NXZ
 L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
 LeaveCriticalSection
 M?loopCount@QImageIOHandler@@UBEHXZ
-MetaData
-MimeTypes
+MET1
 Multi2ARGB8
 O?nextImageDelay@QImageIOHandler@@UBEHXZ
 O?pixel@QImage@@QBEIHH@Z
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
 Q16W16V16U16
 Q8W8V8U8
 QDDSPlugin
-QTMETADATA  qbjs
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
+R16F
+R32F
 R3G3B2
 R5G6B5
 R8G8B8
 R8G8_B8G8
 R?scanLine@QImage@@QAEPAEH@Z
 R?scanLine@QImage@@QBEPBEH@Z
-RGBGt
+RGBG
+RXGB
 ResetEvent
 S8Lockable
 S?setColor@QImage@@QAEXHI@Z
@@ -317,11 +192,12 @@ SleepConditionVariableCS
 T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
 TerminateProcess
 U?setPixel@QImage@@QAEXHHI@Z
+UYVY
 UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5RXGBATI2n
-UYVYt
 UnhandledExceptionFilter
 Unknown exception
 V16U16
+V8U8
 VCRUNTIME140.dll
 VertexData
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
@@ -335,11 +211,22 @@ X4R4G4B4
 X8B8G8R8
 X8L8V8U8
 X8R8G8B8
-Y__^[
+YUY2
 Z?width@QImage@@QBEHXZ
+\\n?convertToFormat_helper@QImage@@IBE?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+\n?currentImageNumber@QImageIOHandler@@UBEHXZ
+\n?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+\n?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+\n?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPAUData@1@@Z
+\n?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+\r?fill@QImage@@QAEXI@Z
+\t?customEvent@QObject@@MAEXPAVQEvent@@@Z
+\v?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+\v?event@QObject@@UAE_NPAVQEvent@@@Z
+\v?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
 _CxxThrowException
-_^][3
-_^][u@
 __std_exception_copy
 __std_exception_destroy
 __std_type_info_destroy_list
@@ -358,30 +245,21 @@ _libm_sse2_pow_precise
 _libm_sse2_sqrt_precise
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
 expected =
-image/x-dds
+free
 is not supported
-l$(VW
 malloc
 memcpy
 memset
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qdds.dll
 qt_plugin_instance
 qt_plugin_query_metadata
-tihdy
 uT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
 unknown
 unknown format
 vT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
-version
-{\DX10u
-|tSj|hXz

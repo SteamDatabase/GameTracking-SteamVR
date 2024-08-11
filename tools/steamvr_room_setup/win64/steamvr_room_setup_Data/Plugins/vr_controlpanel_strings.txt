@@ -1,19 +1,7 @@
-					
-							
-												
-																																												
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- A^^]
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^_
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -21,28 +9,14 @@
  Type Descriptor'
  delete
  delete[]
- for detail.
- new[]
- t>D9
- tDE3
-!This program cannot be run in DOS mode.
-!t$(H!t$ I
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-#fD9M
-%D8D$ t
+ for detail.\n
+ new
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
-%s - 
 ' is not a number.
 ( 8PX
 ('8PW
-(A_A^
 (null)
-)fD;A
-*uWI;
-,+<:w
-,X< w
 -64OS
 .?AVDefaultValueAllocator@Json@@
 .?AVValueAllocator@Json@@
@@ -58,111 +32,27 @@
 .?AVout_of_range@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.pdata
-.text
 0123456789abcdefABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
-0A^_^
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]_^
 1#IND
 1#INF
 1#QNAN
 1#SNAN
+2\vpX
 700PP
 700WP
-80tVD
-8D$8t
-8L$@t
-8UXt$@
-8\$ t
 8c8f13b1-60eb-4b6a-a433-de86104115ac
-9D$@t
-9D$LupE
-9D$`t
-9T$`t
-9\$ ~>L
-9\$(tlM
-9\$lu
-9\$pu
-9\$xu
-9\$|u
-:/t	L9
-;\$ |
-< tD<	t@
-<-uYE
-<0|B<9
->%u=A
-?:u*H
-?:u\H
-@.data
-@.reloc
-@83t'
-@8l$8t
-@8t$8t
-@A^A\_
-@A^_^
-@A^_^][
-@A_A^A\
-@A_A^A]A\_
-@HcyH
-@SUVWATAVAWH
-@SUVWAVH
-@SUVWH
-@SUWH
-@SVWATAUAVAWH
-@SVWH
-@UATAUAVAWH
-@UAVH
-@USVAVH
-@USVWATAUAVAWH
-@USVWATAUAWH
-@USVWAVH
-@USVWH
-@USWATH
-@USWH
-@UVWATAUAVAWH
-@UVWH
-@WATAUAVAWH
-@WAVH
 A valid JSON document must be either an array or an object value.
-A81t@@8r
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
-ATAVAWH
-AUAVAWH
-AVAWH
-A\_[]
-A\_^]
-A^A\_
-A^A\_^[]
-A^^[]
-A^_^[]
-A^_^][
-A_A]A\_^[]
-A_A^A\
-A_A^A\_^
-A_A^A]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^]
-A_A^_
 Another app was already launching (117)
 App info manager init failed (114)
 April
 AreFileApisANSI
 August
-AuthA
-B(A9C
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-CT$8L
 CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
@@ -180,57 +70,6 @@ CreateSemaphoreExW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
-D!l$h3
-D$ E3
-D$ H9
-D$ H;
-D$(A9h
-D$(E3
-D$0A+
-D$0E3
-D$0H;
-D$0L9
-D$8L9
-D$<A;
-D$@!\$(H!\$ 
-D$@H+
-D$@L;D$Hu
-D$DD9T$X
-D$HHcH
-D$L0A
-D$XD+
-D$XE3
-D$`E3
-D$`Hc
-D$p H
-D)\$4A;
-D+%{h
-D+moA
-D1:Hc
-D8&t!
-D8&t4H
-D8't6
-D82u&H
-D8D$Pt
-D8L$Ht
-D8d$8t
-D8d$Ht
-D8eoupH
-D8t$Ht
-D8|$0
-D8|$0u
-D9T$x
-D9d$du
-D9d$hu
-D9d$pu
-D9d$tu
-D9d$xu
-D9d$|t
-D9l$`
-D9l$dtXH
-D9t$htrH
-D9|$ 
-D9|$pt
 December
 DecodePointer
 DeleteCriticalSection
@@ -240,9 +79,6 @@ Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
 Driver runtime is out of date (204)
-E0HcH
-E0Lcx
-E;Z(L
 Empty escape sequence in string
 EncodePointer
 EnterCriticalSection
@@ -250,7 +86,6 @@ EnumSystemLocalesEx
 EventRegister
 EventWriteString
 ExitProcess
-F9D9H
 Factory Function Not Found (104)
 February
 File Not Found (103)
@@ -268,11 +103,6 @@ FreeEnvironmentStringsW
 FreeLibrary
 FreeLibraryWhenCallbackReturns
 Friday
-G 9\$tu
-G D9d$lu
-G(A9A
-G0Hc	H
-G@8.u
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -318,20 +148,6 @@ GetTimeFormatW
 GetTimeZoneInformation
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-H AVH
-H(H9J(u
-H3E H3E
-H92u'
-H9Q s
-H9q tSf
-H9s r
-H9s t
-H9s u
-H;8u7H
-H;8ulI
-H;Cxu
-H;s r
-H;s smH
 HH:mm:ss
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -350,24 +166,12 @@ HMD found, but problems with the data (1111)
 HMD found, but problems with the data (1112)
 HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
-HcC H
-HcD$0
-HcD$PH;
-HcE Hc
-HcE8H
-HcH<H
-HcM H
-HcO H
-Hct$@H
-Hc{HH
+HMXB
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
 Hmd Not Found (108)
-I!>E3
-I;*t:H
-I;:t>H
 IVRApplications_002
 IVRChaperoneSetup_004
 IVRChaperone_003
@@ -393,50 +197,13 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocaleName
-J;D9@
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
-K0LcQ
+July
+June
 KERNEL32.dll
-L!|$@L!
-L$ A3
-L$ E3
-L$ H;
-L$ USVWH
-L$ USWH
-L$ UVWATAUAVAWH
-L$ WH
-L$(9i
-L$(H3
-L$0A3
-L$0H3
-L$0H9
-L$0H;
-L$0Hc
-L$4A;
-L$8H3
-L$@;|
-L$@E3
-L$@H3
-L$Df;
-L$HH3
-L$PE3
-L$PH3
-L$XH3
-L$`H3
-L$`Lc
-L$hE3
-L$pH3
-L$xH3
-L0	A:
-L09A:
-L0:A:
-L9g0u
 LCMapStringEx
 LCMapStringW
-LcA<E3
-LcepA
-Lc}hA
 LeaveCriticalSection
 Line %d, Column %d
 LoadLibraryExA
@@ -452,37 +219,34 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
+NKeb
 No Error (0)
 Not Initialized (109)
 Not starting vrserver for background app (121)
 November
-O0HcQ
 OPENGL32.dll
 October
-Out of thread local storage!
+Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-PA^_^
-PA_A^A\_^][
-PA_A^A]A\_^[
-PA_A^_
 PeekNamedPipe
 QueryPerformanceCounter
 RPCRT4.dll
+RSDS
+R\vpX
 RaiseException
 ReadConsoleW
 ReadFile
-Rich(~h
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
+S;uD
 SHELL32.dll
 SHGetFolderPathW
-SUVWH
-SVWATAUAVAWH
 Saturday
+See 
 September
 SetDefaultDllDirectories
 SetEndOfFile
@@ -506,17 +270,6 @@ Sunday
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 SystemTimeToTzSpecificLocalTime
-T$ E3
-T$ H;
-T$&@8t$&t9@8r
-T$(9r
-T$0E3
-T$@E3
-T$HHc
-T$PE3
-T$`E3
-T$eLc
-T$xD+
 TerminateProcess
 The requested interface is in compatible with the compositor and the compositor is running (122)
 This interface is not availble to utility applications (123)
@@ -528,22 +281,14 @@ TlsSetValue
 Too many tracked objects (120)
 Tuesday
 Type is not convertible to string
-UATAUAVAWH
-UAVAWH
 UNICODE
-USVWATAUAVAWH
-USVWATAVH
 UTF-16LE
 UTF-8
-UVAVH
-UVWATAUAVAWH
-UVWATH
-UWAVH
 Unable to connect to Oculus Runtime (1000)
-Unable to determine VR Path Registry filename
+Unable to determine VR Path Registry filename\n
 Unable to find Steam installation (2000)
-Unable to parse %s: %s
-Unable to read VR Path Registry from %s
+Unable to parse %s: %s\n
+Unable to read VR Path Registry from %s\n
 Unable to write path registry (113)
 UnhandledExceptionFilter
 UnityHooks_EventWriteString
@@ -558,8 +303,7 @@ Unknown exception
 User Canceled Init (116)
 User Config Directory Invalid (107)
 UuidFromStringA
-Uy]E3
-VR Path Registry node %s is not an array
+VR Path Registry node %s is not an array\n
 VR Server Init Failed (300)
 VR system shutting down (119)
 VRApplications
@@ -883,30 +627,12 @@ VR_IsRuntimeInstalled
 VR_LOG_PATH
 VR_OVERRIDE
 VR_Shutdown
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-WATAUAVAWH
-WATAVH
-WAVAWH
 WaitForThreadpoolTimerCallbacks
 Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-XA_A^A]A\_^[]
-X_^[]
-\$ UH
-\$ UVWATAUAVAWH
-\$ UWAWH
-\$ WH
-\$(fD
-\$0D9=
-\$0E3
-\$0H3
-\$0H;
-\$@tD
-\L96t
+\r\f\v\v\n\n\t\t\t\t\t
 __based(
 __cdecl
 __clrcall
@@ -923,10 +649,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-` AUAVAWH
-`.rdata
-`A^_]
-`A^_^][
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -937,7 +659,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -965,6 +686,7 @@ _nextafter
 `vftable'
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
+acos
 additional six characters expected to parse unicode surrogate pair.
 address family not supported
 address in use
@@ -974,8 +696,11 @@ address_in_use
 address_not_available
 already connected
 already_connected
+alse
 argument list too long
 argument out of domain
+asin
+atan
 atan2
 bad address
 bad allocation
@@ -986,7 +711,7 @@ bad_address
 bad_file_descriptor
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Release\win64\openvr_api.pdb
-cAMDD
+ceil
 config
 connection aborted
 connection already in progress
@@ -996,14 +721,8 @@ connection_aborted
 connection_already_in_progress
 connection_refused
 connection_reset
+cosh
 cross device link
-d$ E3
-d$4A+
-d$4A;
-d$4E3
-d$4t	fD
-d$HI;
-d$|fD
 dddd, MMMM dd, yyyy
 deque<T> too long
 destination address required
@@ -1011,27 +730,19 @@ destination_address_required
 device or resource busy
 directory not empty
 e+000
-e0A_A^A]A\_^]
-eHA_A^A]A\_^[]
-entiE
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
-fA9	u
-fD90t
-fD93u
+fabs
 false
-fffff
-fffffff
 file exists
 file too large
 filename too long
 filename_too_long
 floor
+fmod
 frexp
 function not supported
 generic
-gfffA
-gfffffffH
 glGetFramebufferAttachmentParameteriv
 host unreachable
 host_unreachable
@@ -1047,15 +758,13 @@ io error
 iostream
 iostream stream error
 is a directory
-l$ VWATAVAWH
-l$ VWAVH
-l$ WH
-l$XD+
+kU'9
 ldexp
 log10
 map/set<T> too long
 message size
 message_size
+modf
 network down
 network reset
 network unreachable
@@ -1085,7 +794,6 @@ not enough memory
 not supported
 not_a_socket
 not_connected
-ntelD
 opengl32.dll
 openvr
 openvr_api.dll
@@ -1100,113 +808,42 @@ operation_not_supported
 operation_would_block
 operator
 owner dead
-p AWH
-p WAVAWH
-pA_A^A]A\_^]
 permission denied
 permission_denied
 protocol error
 protocol not supported
 protocol_not_supported
-r"fD;A
-r=D8v
 read only file system
 resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
 runtime
-sYHcL$HH
+sinh
+sqrt
 state not recoverable
 stream timeout
 string too long
 system
-t#fA;
-t$ AVH
-t$ E3
-t$ UH
-t$ UWAVH
-t$ WATAUAVAW
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$4A;
-t$8H+
-t$8Hc0I
-t$@E3
-t$@H+
-t$@fA
-t$DA;
-t$Du^
-t$Dub
-t$PD8|$8t
-t$PE3
-t$\9D$`t
-t$`I;
-t$pE+
-t$xI;
-t/A8]
-t8A9~
-t8HcP
-t=L95
-tXfA;
-tcH95
+tanh
 text file busy
 timed out
 timed_out
-tmfD9C
 too many files open
 too many files open in system
 too many links
 too many symbolic link levels
 too_many_files_open
-tpHcy
-tpIc^
-ttI9<
-ttIcF
-u	A!B
-uAiD$P
+true
 unknown error
-utfD9K
 value too large
 vector<T> too long
 vrclient Shared Lib Not Found (102)
 vrclient_x64.dll
-w*H9Q
-w,I9P
-wYIcH
 wglGetProcAddress
 wrong protocol type
 wrong_protocol_type
-x ATAVAWH
-x AUAVAWH
-x AVH
-x AWH
-xA_A^A]A\_^[]
-x_^][
 xppwpp
 xpxxxx
 z?aUY
 zc%C1
-|$ ;=ZW
-|$ AVH
-|$ D!
-|$ H+
-|$ H;
-|$ Hc
-|$ UATAUAVAWH
-|$ UH
-|$0-H
-|$<A;
-|$@-D
-|$@-H
-|$DA;
-|$Dtp
-|$PD;
-|$XE3
-|$`H;
-|$h+t$D+
-|$hH+
-|$xE3
-}'r	H
-~`HcE H

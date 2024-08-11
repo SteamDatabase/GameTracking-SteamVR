@@ -1,692 +1,154 @@
-	t(HuH
-	t(IuH
-	t9Ht
-	tRIt*
-	t^Ht6
-	tdIt6
                           
-         ->cannot do aligned memory accesses anymore
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"&&#&#&#&#&#&#&#&#&#&&&&&&&&&&&
- @8X&F>^`
- PjPW
-!This program cannot be run in DOS mode.
-#U,#E0
-#]0#},
-#}0#E,
-$0< u
-$0<0tI
-$0<0u1
-$D<\"B:Zd
-$PjQW
-%1.3f 
-%dx%d -> %dx%d
-%dx%d -> %dx%d is invalid scaling dimension
-%ibpp not supported by yuv2rgb
-%s is not supported as input pixel format
-%s is not supported as output pixel format
-%s output is not supported with half chroma resolution, switching to full
-&&&&&
-&&&&&&&&&
-&?~YK|
-(7D7H7h7
-)0.030X1]1b1
-*PjTW
-+E$+u(
-+E(+M$
-+E(+U$
-+E(+u$
-+E(+}$
-+M$+u(
-+PjUW
-+U$+u(
-+t"HHt
-,070B0J0U0]0
-,PjVW
-,SVWj0X
-,]_^[
-,_[^]
+#D5p
+%dx%d -> %dx%d is invalid scaling dimension\n
+%dx%d -> %dx%d\n
+%ibpp not supported by yuv2rgb\n
+%s is not supported as input pixel format\n
+%s is not supported as output pixel format\n
+%s output is not supported with half chroma resolution, switching to full\n
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
 -64OS
--PjWW
--jd[;
--t*j0X;
-.K="=
-.PjRW
-.idata
-.text
-/PjSW
-0 0(00080@0H0P0X0`0h0p0x0
-0!0'080=0E0K0\0a0
-0!1(1,1014181<1@1D1
-0#060@0J0Q0
-0#1.1T2
-0(1E6
-0*0t0
-0*1H1
-0,080Z0e0
-0,131;1
-0-020A0F0U0Z0d0i0x0}0
-0.0=0
-0.1U1y1
-0/1T1n1
-0/1q1
-00A0O0m0{0
-031:1D1S1b1q1}1
-050m0
-080L0W0i0s0
-0G0u0I1
-0H0L0x0|0
-0H0O0x0
-0I0S0r0
-0M3[3
-0O1_1
 0P(H6V.Np
-0\1c1
-0]0y2
-0h2m2r2^3c3h3x4}4
-0j0u0
-0t0x0|0
-0v9~9
-1 1(10181@1H1P1X1`1h1p1x1
-1 1@1L1n1z1
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1%3,3
-1'2<2E2N2x2
-1.181>1U1a1g1
-1@1I1`1
-1C2r3
-1D2L2$3,3
-1H1Q1
-1I2U2e2q2
-1N_^[
-1T2x2
-1Z1e1
-1d2 3
-2	2F7
-2	3e3
-2 2$2(2
-2 2(20282@2H2P2X2`2h2p2x2
-2 2T2[2g2n2
-2"3'313e3z3
-2$2+2
-2$21272H2N2]2c2}2
-2&252D2S2b2q2
-2'2@2r2
-2(242Z2d2
-2+252D2N2]2l2
-2,2q2w2|2
-233[3i3
-292`2
-2C4H4M4e6j6o6
-2P2f2y2
-2i4r4
 2ieO=
-3 3(30383@3H3P3X3`3h3p3x3
-3 3+31373B3H3N3Y3_3e3y3
-3 3,383D3P3\3h3t3
-3 3B3N3
-3!3'3-333:3A3H3O3V3]3d3l3t3|3
-3#3(3
-3$3,3D3W3]3c3j3s3x3~3
-3%313;3B3I3P3W3^3e3l3s3z3
-3%343C3R3g3n3x3
-3+323B3Q3X3_3f3n3|3/:6:h:o:c;k;
-3,60687
-3-343;3C3P3[3{8
-3.3g9
-323P3n3
-323d3n3
 333333
-344S4i4u4
-384=4B4
-3:3Y3c3m3t3
-3E8P8r8}8
-3W4b4
-3h3m3r3
-3n5u5{5
-3t4T5
-4 4(40484@4H4P4X4`4h4p4x4
-4!474M4b4s4
-4"4(4.444:4A4H4O4V4]4d4k4s4{4
-4#4)41464<4D4I4O4W4\4b4j4o4u4}4
-4#4)41474=4E4K4Q4Y4_4e4m4s4y4
-4(44435;5l5u5
-4(444@4L4X4d4p4|4
-4(4:4L4^4p4
-4(5V5
-4)434=4D4Z4d4n4u4
-4)454A4M4Y4e4q4}4
-4*525:5B5
-4,5I5h5"6,6G6
-4.4?4E4Q4a4g4v4}4
-4/545F5K5\5a5n5s5
-4<5E5
-4J:/<*>
-4R6W6\6=7B7G7#?(?-?
 4T,L2R*Jt
-4\4`4
-4a6k8
-4d5$6
-5 5(5-535;5@5F5N5S5Y5a5f5l5t5y5
-5 5(50585@5H5P5X5`5h5p5x5
-5 5N5Z5f5|5
-5 :%:*:s>x>}>
-5"6}6-747
-5#5'5+5/53575;5?5C5G5N5T5Z5`5f5l5r5x5~5
-5#5)535>5
-5$505<5H5T5`5l5x5
-5$535B5L5[5e5t5~5
-5$6(6,6064686X8]8b8
-5&5-545;5C5K5S5^5c5i5s5
-5+828
-5,5054585<5@5D5H5
-515<5E5y5
-535L5S5[5`5d5h5
-5@=L=X=d=p=|=
-5B6H6L6P6T6
-5Genu
-5H6M6R6.7
-5X5]5b5
-5m8t8
-5ntel
-6 6&6,62686>6D6J6P6V6\6b6h6n6t6z6
-6 6(60686@6H6P6X6`6h6p6x6
-6!6-6C6L6U6
-6#626A6P6_6n6}6
-6%6F6R6
-6&7l7
-6'7B7
-6(6@6W6\6f6k6
-6*606J6P6k6y6
-6/6g6o6
-636<6E6
-656<6C6J6b6q6{6
-676A6
-6`7h7p7$8,848
-6x7}7
-7!8D8g8
-7#727<7G7
-7'70797[7d7j7p7
-7'787N7d7y7
-7+787@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7
-7.7:7
-737;7[7c7
-757P7h7t7
-757t7
-7;8E8g8
-7>7R7
-7?7q7x7|7
-7@8H8W8
-7^7q7
-7m8r8w8
-7p9~9
-8 8$8(8,8084888<8@8D8H8L8
-8$8t8
-8%8*8E8J8q8
-8'8-8A8M8m8s8
-8(8-8>8C8P8U8f8
-8(9-929
-8.9?9o9w9
-809<9R9d9t9|9
-818B8Q8
-829:9
-84989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-888X8t8x8
-88:=:B:]:b:g:|:
-8C8H8W8\8k8p8z8
-8J82:|:
-8V9^9e9l9s9z9
-8c9j9
-8j9r9~9
-9 9$9(9,9094989<9
-9#9m9
-9$9,949<9D9L9T9\9d9l9t9|9
-9$9-9
-9%9+9c9o9
-9%:1:<;c;};
-9(:-:2:
-9*959W9b9
-9*9M9w9
-9+;2;n;u;
-9/:`:
-90989w9
-91;;;C;N;V;j;
-939H9M9T9Y9
-93=3A3E3I3M3Q3U3Y3]3a3e3i3m3q3u3y3}3
-94989X9x9
-98:E:K:g:t:z:
-98;|=
-9C>H>M>
-9FLu&
-9L:P:T:X:
-9P:X:4;<;$<,<
-9P:g:t:
-9U$~E
-9W:|:
-9] t"
-9c9o9
-9t:4;
-9u$~;
-9u$~=
-9u$~>
-9u$~@
-9x9}9
-9}$~@
-9}$~E
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-: :3:I:_:s:
-:":5:G:U:
-:$:):0:7:`:g:l:s:
-:$:,:4:<:D:L:T:\:d:l:t:|:
-:&:;:K:W:c:k:
-:(:1:<:
-:(:H:h:
-:(;H;
-:(<-<2<
-:):4:a:l:~:
-:);5;W;f;
-:-:8:X:i:
-:0:;:
-:0:g:
-:7;\;d;l;t;
-:9:S:[:f:}:
-:J:o:
-:]=O>
-:c:i:p:
-:h"?bC
-:s<x<}<
-; ;$;(;,;0;4;8;<;@;D;H;L;t;
-; ;$;H;L;P;
-;!;%;);-;1;5;9;=;A;E;I;M;Q;`<
-;!;-;2;9;>;M;e;z;
-;";b;
-;"<7<=<^<
-;"=*=
-;$;,;4;<;D;L;T;\;d;l;t;|;
-;$;:;C;O;Z;
-;&;;;K;W;c;k;
-;'<3<U<d<
-;)<8<D<P<\<h<u<
-;)<=<D<X<h<w<
-;+;0;O;
-;/;@;Q;e;v;
-;0;P;p;
-;5;l;
-;E<y<
-;G;{;
-;H;P;
-;K;R;
-;\$,|
-;_tr.
-;f=p=|=
-;t$,v-
-<	="=G=f=
-< <(<
-< t8<	t4
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<$<p<|<
-<$tPf
-<%<E<S<_<i<
-<%=1=Y=j=
-<&<4<@<E<P<X<`<h<p<x<
-<'<7<D</=t=
-<(<,<T<X<\<
-<.=:=H=R=o={=
-</<4<9<T<Y<^<y<~<
-</<s<
-<0|m<9
+4g%6
 <8bunz8
-<9?@?M?T?
-<:<k<x<
-<<<D<L<T<l<t<|<
 <@En[vP
-<D=L=T=4><>D>
-<Y=k>
-<h>m>r>
-<zQ}<
-<{Q}<
-=!>^>
-=#=5=B=J=R=Z=k={=
-=#=6=B=U=a=q=}=
-=$=,=4=<=D=L=T=\=d=l=t=|=
-=&=+=8=
-='=.=4=B=H=]=n=z=
-=,===E=U=f=
-=0>A>t>
-=2=7=<=W=\=a=|=
-=3>h>
-==>g>
-=B>N>
-=D=H=L=t=x=|=
-=L=R=X=^=d=O>
-=Y>g>y>
-=\uI=
-=t>d?
-> ?2?r?}?
->!>_?i?
->">(>,>2>6><>@>F>J>P>T>Z>^>d>h>n>r>x>|>
->$>+>2>9>@>G>N>U>\>c>j>q>x>
->$>,>4><>D>L>T>\>d>l>t>|>
->$>0><>H>
->$>3>:>A>I>V>d>
->$?(?,?T?X?\?
->%>2>:>B>J>[>k>s>{>
->,'1D=
->->d>p>
->.>3>8>
->.>L>4?_?
->0?4?
->4>8><>d>h>l>
->5>:>?>Z>_>d>
->??F?M?
->Cu/f9F
->I>r>
->N>Z>{>
->m?r?w?
-? ?.?
-?#%X.y
-?$?,?4?<?D?L?T?\?d?l?t?|?
-?$?V?
-?%?D?_?k?z?
-?(FN\
-?)???R?d?r?
-?,?6?B?L?
+?1mm
+?3xj
+?5a1
 ?7Tf(
-?A?g?
-?F?}?
 ?IT$7
+?Ltm
+?PiB
 ?RbSQ
 ?UUUUUU
-?V?l?
 ?X&eB
-?\?`?d?h?l?p?t?x?|?
-?g)([|X>=
-?h6_~
-?o?v?
+?pow
 ?uZEeu
-?|I7Z#
-@.data
-@.reloc
-@.rodata
-@@@@@@@@
-@H#?43
-@PSjU
+@VNQ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A_^[]
+Ai0T
 AiFC.
 April
-AreFileApisANSI
 Area Averaging scaler, 
-Assertion %s failed at %s:%d
+Assertion %s failed at %s:%d\n
 August
-Ax#?uN}*
 BICUBIC scaler, 
 BILINEAR scaler, 
+Bfe9
 Bicubic spline scaler, 
-CT;CLuY
-CX;CPuQ
-Cannot allocate memory.
-CloseHandle
+Cannot allocate memory.\n
 CloseThreadpoolTimer
 CloseThreadpoolWait
 CompareStringEx
-CompareStringW
 CorExitProcess
 CqTR;
 CreateEventExW
-CreateEventW
-CreateFileW
 CreateSemaphoreExW
-CreateSemaphoreW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
 December
-DeleteCriticalSection
-E )M 
-E )u )}
-E,;u$|
-E1J1O1
 Eb2]A=
-EnterCriticalSection
 EnumSystemLocalesEx
-EnumSystemLocalesW
-Exactly one scaler algorithm must be chosen
-ExitProcess
+Exactly one scaler algorithm must be chosen\n
 Experimental scaler, 
 F0$?3=1
-F4;E u+9
 FAST_BILINEAR scaler, 
-FVWPP
-FatalAppExitA
 February
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
-FlushFileBuffers
 FlushProcessWriteBuffers
-FreeEnvironmentStringsW
-FreeLibrary
 FreeLibraryWhenCallbackReturns
 Friday
-F||<##
-G Pj*S
-G$Pj+S
-G(Pj,S
-G,Pj-S
-G0Pj.S
-G4Pj/S
-G8PjDS
-G<PjES
-G@PjFS
-GDPjGS
-GHPjHS
-GLPjIS
-GPPjJS
-GTPjKS
-GWVj	
-GXPjLS
-G\PjMS
-G`PjNS
+GYM=
 Gaussian scaler, 
-GdPjOS
-GetACP
 GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetConsoleCP
-GetConsoleMode
 GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
 GetCurrentProcessorNumber
-GetCurrentThread
-GetCurrentThreadId
 GetDateFormatEx
-GetDateFormatW
-GetEnvironmentStringsW
 GetFileInformationByHandleExW
-GetFileType
 GetLastActivePopup
-GetLastError
 GetLocaleInfoEx
-GetLocaleInfoW
 GetLogicalProcessorInformation
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetProcAddress
-GetProcessHeap
 GetProcessWindowStation
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemTimeAsFileTime
-GetTickCount
 GetTickCount64
 GetTimeFormatEx
-GetTimeFormatW
-GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-GhPj8S
-GlPj9S
-GpPj:S
-GtPj;S
-GxPj<S
-G|Pj=S
 HH:mm:ss
-HPjPW
-H`$?h|
-HeapAlloc
-HeapFree
-HeapReAlloc
-HeapSize
-Ht+Ht$Ht
-InitializeCriticalSectionAndSpinCount
+HMXB
+Ht=c
 InitializeCriticalSectionEx
-IsDebuggerPresent
-IsProcessorFeaturePresent
-IsValidCodePage
-IsValidLocale
 IsValidLocaleName
-J;O;T;
 January
-K<<H!
-KERNEL32.dll
+July
+June
 LCMapStringEx
-LCMapStringW
-LPjQW
+La8i
 Lanczos scaler, 
-LeaveCriticalSection
-LoadLibraryExW
-M,;u$|
-M0;E$|
+Le?2
 MM/dd/yy
 March
 MessageBoxW
+MkK?
 Monday
-MultiByteToWideChar
+NKeb
 Nearest Neighbor / POINT scaler, 
-No accelerated colorspace conversion found from %s to %s.
+No accelerated colorspace conversion found from %s to %s.\n
 November
 October
-OutputDebugStringW
-PP9E u
-PPPPP
-PPPPj
-PPWVj
-PSSSSV
-PSSSj
-PVVVVQ
-PWWWWV
 Pex?0
-Pj@Sj
-PjOSj
-PjdSQ
-QQQQQ
-QWVRS
-QueryPerformanceCounter
 RSDS-T
-RaiseException
-Rich)M
-RtlUnwind
-S7X7]7u9z9
-SPPP+
-SSSSS
-SVWPP
-SVWUj
-SVWjA_jZ+
-SVjA[jZ^+
+S;uD
 SWScaler
 Saturday
 September
-SetConsoleCtrlHandler
 SetDefaultDllDirectories
 SetFileInformationByHandleW
-SetFilePointerEx
-SetLastError
-SetStdHandle
 SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
-SetUnhandledExceptionFilter
 Sinc scaler, 
-Sleep
-Slices start in the middle!
+Slices start in the middle!\n
 Sunday
-SwScaler: reducing / aligning filtersize %d -> %d
+SwScaler: reducing / aligning filtersize %d -> %d\n
 SystemFunction036
-TerminateProcess
 Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
 Tuesday
 T~OXu
-U4;U0
-UQPXY]Y[
-URPQQh
-UnhandledExceptionFilter
 Unknown format
-V%A+=
-VVVVV
-WHPh@
-WPPPPj
-WWWWW
 WaitForThreadpoolTimerCallbacks
-Warning: dstStride is not aligned!
+Warning: dstStride is not aligned!\n         ->cannot do aligned memory accesses anymore\n
 Wednesday
-WideCharToMultiByte
-Wj0XPV
-WriteConsoleW
-WriteFile
-X0]0b0M1R1W1j2o2t2
-Y;5xL
-Y;=L;
-Y=^=c=
-YYhD:
-Y_^[]
-Y__^[
-Yu2Vj@h
-]$)E$
-]vQ<)8
+X4I+
 _cabs
 _hypot
 _logb
 _nextafter
-_tcPVj@
-`.rdata
+aDJ=
 abcdefghijklmnopqrstuvwxyz
 accurate rounding
 accurate_rnd
+acos
+area
+asin
+atan
 atan2
-av_free
-av_freep
-av_get_bits_per_pixel
-av_get_cpu_flags
-av_get_pix_fmt_name
-av_log
-av_malloc_tracked
-av_mallocz_tracked
-av_opt_set_defaults
-av_pix_fmt_desc_get
-av_pix_fmt_swap_endianness
 averaging area
-avpriv_snprintf
-avpriv_strtod
-bad dst image pointers
-bad src image pointers
+bad dst image pointers\n
+bad src image pointers\n
 bicubic
 bicublin
 bilinear
@@ -694,81 +156,86 @@ bitexact
 c:\buildslave\libav_win32\build\dev\libswscale/swscale_internal.h
 c:\buildslave\libav_win32\build\dev\libswscale\libswscale-3.pdb
 c:\buildslave\libav_win32\build\dev\libswscale\swscale_internal.h
-chr srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d
-d9l9t9|9
+c?e2
+ceil
+chr srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
+cosh
 dddd, MMMM dd, yyyy
+desc
 destination format
 destination height
 destination range
 destination width
 dst_format
 dst_range
+dsth
+dstw
 e+000
+e<bN
 ehh flags invalid?! 
 exp10
 experimental
-f-00f=
+fUUU
+fabs
 fast bilinear
 fast_bilinear
 floor
+fmod
 frexp
 from %s to %s%s 
 full chroma input
 full chroma interpolation
-full chroma interpolation for destination format '%s' not yet implemented
+full chroma interpolation for destination format '%s' not yet implemented\n
 full_chroma_inp
 full_chroma_int
 gauss
 gaussian
 hI{L[
 hb?O2
-internal error %s -> %s converter
-j	PjYV
-j	Yf;
-j.Yf;
-j0Xf;
-j0Yf;
-j;Yf9
-j@j _W
-jAZjZ^
-jA[jZZ+
-jXYf;
-jxYf;
+internal error %s -> %s converter\n
+j\n @8X&F>^`
+k:UG
+kU'9
 l,kg<i
 lanczos
 ldexp
-libavutil-54.dll
 libswscale license: LGPL version 2.1 or later
 libswscale-3.dll
 libswscale/utils.c
 libswscale/yuv2rgb.c
 log10
-lum srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d
+ls1=
+lum srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
 luma BICUBIC / chroma BILINEAR scaler, 
 luma bicubic, chroma bilinear
-m0_$@
 m1WY$
+modf
 natural bicubic spline
 nearest neighbor
 neighbor
 np?z 
 param0
 param1
+pnJ=
 print info
 print_info
-r%f;M
 r7Yr7=
 sU0&?W
 scaler flags
 scaler param 0
 scaler param 1
+sinc
+sinh
 source format
 source height
 source range
 source width
 spline
+sqrt
 src_format
 src_range
+srch
+srcw
 sws_addVec
 sws_allocVec
 sws_alloc_context
@@ -807,45 +274,17 @@ swscale_configuration
 swscale_license
 swscale_version
 swscaler
-t WW9}
-t#hdI
-t)_^3
-t5_^3
-t@VSP
-tMj_S
-tO9=PT
-tfHtWHtHHt/
-tyPVj@W
-u#h,I
-u#hHI
-u#j,Xf;
-u$)E$
-u$SWV
-u'j0X
-u,C;]
+tLVv
+tanh
 u?^p?o4
-uBjAYjZ+
-uCPVj
-uChBh
-uHjAXf;
-uWjAXf;
+uXO=
 uZEeu
-unsupported planar RGB conversion %s -> %s
-using C
-using unscaled %s -> %s special converter
-v	N+D$
-v0QRP
-v<'*6
-vlhL;
-wtVj	
-y1~?|"
+unsupported planar RGB conversion %s -> %s\n
+using C\n
+using unscaled %s -> %s special converter\n
+z1}B
 z?aUY
 zc%C1
-|)P!?Ua0
+zyC7
+{4Wf
 |W8A=
-} j@W
-}89u$~;
-~';_t|%3
-~pjCXf
-~ySVW
-~}SVW

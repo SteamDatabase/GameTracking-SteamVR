@@ -1,122 +1,30 @@
-							
-											
-															
-																		
-																																																																																																	
-	 	$	6	I	Y	h	s	z	
-	,	m	s
-	4	N	\a
-	89Q&
-	9H(}$A
-	9H,uEH
-	?blue@QColor@@QEBAHXZ
-	?blueBufferSize@QSurfaceFormat@@QEBAHXZ
-	?canWrite@QImageWriter@@QEBA_NXZ
-	?capabilities@QTouchDevice@@QEBA?AV?$QFlags@W4CapabilityFlag@QTouchDevice@@@@XZ
-	?cleanup@QPlatformAccessibility@@UEAAXXZ
-	?clipboard@QGuiApplication@@SAPEAVQClipboard@@XZ
-	?cloneWithSize@QFontEngine@@UEBAPEAV1@N@Z
-	?closeSubpath@QPainterPath@@QEAAXXZ
-	?color@QBrush@@QEBAAEBVQColor@@XZ
-	?color@QImage@@QEBAIH@Z
-	?color@QPalette@@QEBAAEBVQColor@@W4ColorGroup@1@W4ColorRole@1@@Z
-	?colorCount@QImage@@QEBAHXZ
-	?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
-	?createUuid@QUuid@@SA?AV1@XZ
-	?critical@QMessageLogger@@QEBA?AVQDebug@@XZ
-	?critical@QMessageLogger@@QEBAXPEBDZZ
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-	H;D$Ps^
-	M?keyBindings@QPlatformTheme@@UEBA?AV?$QList@VQKeySequence@@@@W4StandardKey@QKeySequence@@@Z
-	Q?qt_metacall@QPlatformIntegrationPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-	char c = (i & 0xFF);
-	kD$4
-	kD$<
- 	?contains@QRect@@QEBA_NAEBVQPoint@@_N@Z
-      
                                 
-                "disable_desktopgl"
-                "op": "<=",
-                "type": "win"
-                "value": "10.18.10.3277"
-            "description": "Desktop OpenGL is unreliable on some Intel HD laptops (QTBUG-43263, QTBUG-42240)",
-            "device_id": [ "0x0A16" ],
-            "driver_version": {
-            "features": [
-            "id": 1,
-            "os": {
-            "vendor_id": "0x8086",
-            ]
-            },
          Card name: 
-         Device ID: 0x
-         SubSys ID: 0x
-         Vendor ID: 0x
-        {
-        }
-       Driver Name: 
-       Revision ID: 0x
-    "entries": [
-    "name": "Qt built-in GPU driver blacklist",
-    "version": "5.5",
-    Driver Version: 
-    ExStyle from 
-    HGLRC=
-    Obtained : 
-    Requested: 
-    Style from 
-    [
-    ]
     checking  
-    default: 
-    from 
-    from: 
-    obtained #
-    obtained px #
-    returns: 
-    to 
-    to: 
   Color: 
-  HTML: '
   Image: 
-  Text: '
   Text=
-  URLs: 
   close cubicTo
   closeSubpath
   cubicTo
   deadkey
   end point is on curve, start is not
-  exStyle=
   lineTo
   start and end point are not on curve
   start at
-  style=
-  topLevel=
- "@^@h
  (best 
- 5Auth
- 5Genu
- < C O [ c
  Active: 
  Attributes: 
  Color=
  DEVICE
- DPI: 
  Depth: 
  Disabled: 
- FDBH
- FFCH
  Format: 
  GL_ARB_multisample 
- H3D$0H
  HTML=
- HcL$ Hk
- HcL$0Hk
- HkL$  H
- HkL$0 H
  Image=
  Inactive: 
+ Ng4
  PFD_DIRECT3D_ACCELERATED
  PFD_DOUBLEBUFFER
  PFD_DRAW_TO_BITMAP
@@ -138,7 +46,6 @@
  TRUETYPE
  TTF=
  URLs=
- V?setStyleHint@QFont@@QEAAXW4StyleHint@1@W4StyleStrategy@1@@Z
  WS_CHILD
  WS_CLIPCHILDREN
  WS_CLIPSIBLINGS
@@ -236,10 +143,8 @@
  reconv=
  requested: 
  resultEffect=0x
- resulting 
  returns 
  returns 0x
- rgb: #
  right/bottom=
  samples=
  scalable=
@@ -252,21 +157,15 @@
  supported actions=
  surroundingText=
  swap interval: 
- t&HcD$ H
  tan pressure: 
  title=
  tool=
  tracked window =
- tvcH
  virtual desktop
  weight=
-!	?contains@QRect@@QEBA_NHH@Z
-!!!!!!
-!This program cannot be run in DOS mode.
 !]KwG
 !face_
 !isEmpty()
-!kD$H
 !m_fontDatas.contains(key)
 !m_image.isNull()
 !m_nativeDialog.isNull()
@@ -275,49 +174,18 @@
 !qFuzzyIsNull(c)
 !result || int(*length) > 0
 !weakref.load()
-!w}Hc
 !x->ref.isStatic()
-"("4"<"Da
-"HcD$,L
-"[?windowState@QWindow@@QEBA?AW4WindowState@Qt@@XZ
-#%1: 
-#*/<IOu
 #*2IOu
-#2X?(
-#HcD$ HcL$0H
-#HcD$@HcL$0H
-#HcD$`HcL$XH
-#HcD$lHcL$\H
-#P?populateFamily@QPlatformFontDatabase@@UEAAXAEBVQString@@@Z
-#S?sessionId@QPlatformSessionManager@@UEBA?AVQString@@XZ
-#\#g#w#
-$2$r$
 $27:Mcz
-$;D$@|
-$<;{d
-$H9H t
-$H;D$HsU
-$Hc@<H
-$K?hotSpot@QCursor@@QEBA?AVQPoint@@XZ
-$T?setDevicePixelRatio@QImage@@QEAAXN@Z
-$V?setSupported@QSupportedWritingSystems@@QEAAXW4WritingSystem@QFontDatabase@@_N@Z
-$~lHcD$
+$7Rz
 %!FontType
 %!PS-Adobe-3.0 Resource-CIDFont
 %!PS-AdobeFont
 %!PS-TrueTypeFont
 %&&201<CDPber
-%.2X 
 %1 specification: v%2.%3 implementation: v%4.%5 options: 0x%6
-%2%6%:%>%B%F%J%N%R%V0
-%=*K<C
 %ADOBeginFontDict
-%HcD$ HcL$0H
-%HcD$XL
 %IDATx^
-%K?hotSpot@QDrag@@QEBA?AVQPoint@@XZ
-%N?maximumHeight@QWindow@@QEBAHXZ
-%r%v%z%~%
 %s invoked with no native dialog present.
 %s%s%p%s%zd%s%d%s%s%s%s%s
 %s: '%s' requested for null backingstore or backingstore without handle.
@@ -379,65 +247,30 @@ $~lHcD$
 %s: wglGetPixelFormatAttribIVARB() failed for basic parameters.
 %s: wglShareLists() failed.
 &2&6&:&>&B&F&J&N&R&V0
-&M?lastRightBearing@QFontEngine@@IEAA?AUQFixed@@AEBUQGlyphLayout@@_N@Z
-&S?sessionKey@QPlatformSessionManager@@UEBA?AVQString@@XZ
-&T?setDevicePixelRatio@QPixmap@@QEAAXN@Z
-&V?setSwapBehavior@QSurfaceFormat@@QEAAXW4SwapBehavior@1@@Z
-&r&v&z&~&
+&nfq
 ' '$'(','0'4'8'<'@0
 ' is being used without being initialized.
 ' is not available. Available formats: 
 ' was corrupted.
 '!$J$N$R$V$Z$^$b$f$j$n0
-'E:`wp
-'P?pos@QCursor@@SA?AVQPoint@@XZ
-'T?setDevicePixelRatio@QRasterPlatformPixmap@@UEAAXN@Z
+'1nD
 '\'`'d'h'l'p't'x'|'
+'\r%2%6%:%>%B%F%J%N%R%V0
+'p\fvL
 'zO{T
 ( ($(((,(0(4(8(<(@0
-(A_A]A\^
-(D(~(
-(HcD$0H
-(HcD$8H
 (Hex)
 (Z(^(b(f(j(n(r(v(z1
-(kD$@@H
+(eE\fv
 (packet
-) dev:
 ) for format: 
-)*)4);
-)P)y)
-)[?windowTitle@QFileDialogOptions@@QEBA?AVQString@@XZ
-*)nE;
 *.otf
 *.pfa
 *.pfb
 *.ttc
 *.ttf
-*D$8H
-*D$<H
-*D$@H
-*D$DH
-*I*T*e*l*u
 *length == GDI_ERROR || int(*length) > 0
 *node == e || (*node)->next
-+!+5-
-+>-V-
-+D$ +D$(
-+D$ H
-+D$,H
-+D$4H
-+D$@9D$0
-+D$DiL$L
-+D$PH
-+D$h9D$Dr
-+L$<;
-+N?maximumSize@QWindow@@QEBA?AVQSize@@XZ
-+T?setDiscardCommand@QPlatformSessionManager@@UEAAXAEBVQStringList@@@Z
-+W?shareHandle@QOpenGLContext@@QEBAPEAVQPlatformOpenGLContext@@XZ
-+X?styleHint@QPlatformDialogHelper@@UEBA?AVQVariant@@W4StyleHint@1@@Z
-+Z+^+b7
-, ,^,
 , Extension-API present
 , deviceId=
 , driver: 
@@ -449,23 +282,11 @@ $~lHcD$
 , subSysId=
 , transient parent: 
 , version=
-,6,:,>,B,F,J,N,R,V,Z0
 ,SampleBuffers
 ,Scaling=
-,W?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
-,X?styleHint@QPlatformIntegration@@UEBA?AVQVariant@@W4StyleHint@1@@Z
-,t,x,|,
--	?boundingBox@QFontEngine@@UEAA?AUglyph_metrics_t@@IAEBVQTransform@@@Z
--.-2-6-:->-B-F-J-N-R0
 -.9>?IJKT
 -j'j2j>jU
--t9HcD$ H
--v-z-~-
-.	?boundingBox@QFontEngineMulti@@UEAA?AUglyph_metrics_t@@AEBUQGlyphLayout@@@Z
-.	?contains@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 .        c None
-.".08
-.(.,1
 ...............XXXX.....
 .............XXaaaaXX...
 ............XaaaaaaaaX..
@@ -481,7 +302,6 @@ $~lHcD$
 .......aXXa.XaaaaaaaaX..
 ......aXXa.....XXXX.....
 ..\gui\text\qfontengine_ft.cpp
-.00cfg
 .?AUIAccessible2@@
 .?AUIAccessible@@
 .?AUIAccessibleAction@@
@@ -612,40 +432,24 @@ $~lHcD$
 .AppleDouble/
 .B.F.J.N.R.V.Z.^2
 .Current/.
-.N?maximumWidth@QWindow@@QEBAHXZ
 .P%B.NJJNNJJ.P%*.@
+.\v1o0
 .notdef
 .null
-.pdata
 .resource/
-.text
-.u/HcD$0H
-/	?boundingBox@QFontEngineMulti@@UEAA?AUglyph_metrics_t@@I@Z
-/"/&/*0
 /..namedfork/rsrc
-/./f/
 /27:Mcz
-/4*&{
-/@(v1H
-/D$(v
-/D$Xw
+/5\n,6,:,>,B,F,J,N,R,V,Z0
 /Fonts
 /rsrc
 /sfnts
-0	+R+f+
 0!0%0)0-014
 001.000
 001.001
 001.002
 001.003
 050s0
-09D$@}
-09D$@~
-0K0O0S0W0[0_0c0g0k0o0
-0O?object@QAccessibleEvent@@QEBAPEAVQObject@@XZ
-0S?setActive@QPlatformAccessibility@@QEAAX_N@Z
-0T?setDotsPerMeterX@QImage@@QEAAXH@Z
-0Y?toImage@QPixmap@@QEBA?AVQImage@@XZ
+0\fDQ
 1"1i3
 1*1V1[0
 1.1.4
@@ -653,1354 +457,64 @@ $~lHcD$
 1:1>1B1F1J1N1R0
 1a1e1
 2)202<2U2e2
-2/SOH
 24 30 3 1
+2C2L
+2H+h
 2IDATx^
-2R?removeGlyphFromCache@QFontEngine@@UEAAXI@Z
-2T?setDotsPerMeterY@QImage@@QEAAXH@Z
-2U?setNativeHandle@QOpenGLContext@@QEAAXAEBVQVariant@@@Z
 2q2z2
 3)323A3O3
-3D$ 3D$(
-3D$8H
-3Y?toImage@QRasterPlatformPixmap@@UEBA?AVQImage@@AEBVQRect@@@Z
+3h3q
+4%43
 4G4Pe
-4HcD$0
-4Q?qt_metacast@QInternalMimeData@@UEAAPEAXPEBD@Z
 4XeZP
-4Y?toImage@QRasterPlatformPixmap@@UEBA?AVQImage@@XZ
 4j4r4}4
-5K?icon@QWindow@@QEBA?AVQIcon@@XZ
+575A
+5G5S
+5Y!2
 5_5i5p
-6*6.6[
-6HcD$ H
+5gib
+646B
+6K6S
 6o6v6
-7	?convert@QVariant@@QEAA_NH@Z
 797k7
 7F7W7c
-7M?leading@QFontEngineMulti@@UEBA?AUQFixed@@XZ
-7W?shouldLoadFontEngineForCharacter@QFontEngineMulti@@MEBA_NHI@Z
-8	?convert@QVariant@@QEBA_NHPEAX@Z
-80RFPu$H
-80|#H
-80|8H
-89D$H|
-89D$H}
-89D$H}?
-8@u+A
-8@u1L
-8HcD$HHk
-8HcD$PH
-8[?write@QImageWriter@@QEAA_NAEBVQImage@@@Z
-8tzHkD$  H
-8tzHkD$0 H
-9*'@R
-9:~LL
+7\n0K0O0S0W0[0_0c0g0k0o0
+8859
+8n8y
 9@9Y9`9y9
-9D$ r
-9D$ r L
-9D$ r)H
-9D$ r,H
-9D$ s
-9D$ s%
-9D$ s'
-9D$ s6
-9D$ s8
-9D$ s9
-9D$ sB
-9D$ sG
-9D$ sLH
-9D$ sM
-9D$ sWH
-9D$ s`
-9D$ sd
-9D$ t
-9D$ tU
-9D$ u
-9D$ u H
-9D$ u!H
-9D$ u&H
-9D$ v
-9D$ v L
-9D$ wU
-9D$ |?H
-9D$ |NH
-9D$ }
-9D$ }!
-9D$ }$
-9D$ }&
-9D$ }'HcD$ H
-9D$ }/
-9D$ }1
-9D$ }3HcD$ H
-9D$ }5HcD$ H
-9D$ }7
-9D$ }]H
-9D$ }wHcD$ H
-9D$ }~HcD$ Hk
-9D$ ~
-9D$ ~&H
-9D$$s
-9D$$s#
-9D$$s%
-9D$$s7L
-9D$$sDH
-9D$$sc
-9D$$sv
-9D$$s{
-9D$$u
-9D$$u'H
-9D$$v
-9D$$w
-9D$$| 
-9D$$|"H
-9D$$}
-9D$$}"
-9D$$}&HcD$$H
-9D$$}*H
-9D$$}+HcD$$Hk
-9D$$}0
-9D$$}3HcD$$Hk
-9D$$}7
-9D$$}F
-9D$$}N
-9D$$}l
-9D$$}v
-9D$$~
-9D$(r
-9D$(r*H
-9D$(rl
-9D$(s
-9D$(s	
-9D$(u
-9D$(w
-9D$(}
-9D$(}&HcD$(H
-9D$(}OH
-9D$(}dHcD$(H
-9D$(~
-9D$(~8
-9D$,r
-9D$,r!H
-9D$,u
-9D$,v
-9D$,}
-9D$,}F
-9D$,~
-9D$0r
-9D$0r&H
-9D$0s
-9D$0s"H
-9D$0s@
-9D$0sO
-9D$0sT
-9D$0sUH
-9D$0sX
-9D$0sl
-9D$0t(H
-9D$0u
-9D$0v
-9D$0w
-9D$0}
-9D$0})
-9D$0}+HcD$0Hi
-9D$0}AH
-9D$0~
-9D$4r
-9D$4t
-9D$4v
-9D$4|
-9D$4}
-9D$4}(HcD$4H
-9D$4}UH
-9D$8r
-9D$8s
-9D$8s	
-9D$8s&
-9D$8s1
-9D$8s7
-9D$8s>
-9D$8sNH
-9D$8sq
-9D$8t
-9D$8u
-9D$8v
-9D$8v	
-9D$8w
-9D$8|
-9D$8}
-9D$8} H
-9D$8}-HcD$8H
-9D$8}0HcD$8H
-9D$8};H
-9D$8~
-9D$<s
-9D$<s4
-9D$<t
-9D$<u.
-9D$<v
-9D$<v|
-9D$<w
-9D$<}9
-9D$<~
-9D$@r
-9D$@s
-9D$@s!
-9D$@s,
-9D$@s9L
-9D$@sBH
-9D$@v
-9D$@|
-9D$@|;
-9D$@}
-9D$@~
-9D$Dr
-9D$Ds
-9D$Ds9HcD$H
-9D$Du/H
-9D$Dw
-9D$D~
-9D$Hr
-9D$Hr1
-9D$HrrH
-9D$Hs
-9D$Hs	
-9D$Ht
-9D$Hu
-9D$Hu'H
-9D$Hu(H
-9D$Hv
-9D$Hv/H
-9D$Hw
-9D$H}
-9D$H}*
-9D$H}EH
-9D$H~
-9D$H~3H
-9D$Ls4H
-9D$Lu
-9D$Lw
-9D$L}
-9D$L}/
-9D$L~
-9D$Pr
-9D$Ps
-9D$Ps[
-9D$PtTH
-9D$Pu
-9D$P}
-9D$P};
-9D$P~
-9D$Tt
-9D$Xr
-9D$Xt
-9D$Xt*H
-9D$Xu
-9D$Xv
-9D$X|
-9D$X}
-9D$X~
-9D$\r1H
-9D$\tP
-9D$\|
-9D$\}
-9D$`r
-9D$`tIH
-9D$`v
-9D$`|
-9D$`}2
-9D$`}}
-9D$dv
-9D$d}BHcD$dHk
-9D$d}XHcD$dH
-9D$hr
-9D$hs1
-9D$hs\
-9D$ht
-9D$h|
-9D$h}=HcD$hH
-9D$lu
-9D$ps6
-9D$psj
-9D$psl
-9D$pso
-9D$pt
-9D$pv
-9D$p|
-9D$p}
-9D$tr
-9D$t}
-9D$xr
-9D$xs
-9D$xt
-9D$xu
-9D$xv
-9D$x|
-9D$x}A
-9D$|r1H
-9D$|u
-9D$|uMH
-9H,w(H
-9S?setAlphaBufferSize@QSurfaceFormat@@QEAAXH@Z
-9V?setText@QClipboard@@QEAAXAEBVQString@@W4Mode@1@@Z
-9X?subPixelPositionForX@QFontEngine@@UEBA?AUQFixed@@U2@@Z
+9D`y
+9F9O
+9g9p
+9mG-
 : Invalid CLSID: 
 : Unable to convert DIB image. The image converter plugin for '
 : Unhandled scheme: 
 : on curve =
 : wglCreateContextAttribsARB() failed (GL error code: 0x
-:4	/B/F/J/N/R/V/Z/^/b0
-:>:H:`:g:
+:4\t/B/F/J/N/R/V/Z/^/b0
 :qmemoryfonts/
-;(;1;?;];
-;A uhH
-;D$ s
-;D$ u
-;D$ |
-;D$$v
-;D$(r7
-;D$(s
-;D$(u
-;D$(u%
-;D$,v
-;D$,|(
-;D$0|;
-;D$4|
-;D$4|(
-;D$8s
-;D$8u8
-;D$8v
-;D$<s
-;D$@r
-;D$@s
-;D$@tWD
-;D$@v
-;D$@}
-;D$Hs
-;D$Hu*H
-;D$Hvk
-;D$H}
-;D$H}$A
-;D$H~
-;D$L~
-;D$Ts
-;D$Ts 
-;D$Xs
-;D$Xu
-;D$Xut
-;D$Xv
-;D$\u
-;D$\v
-;D$`u
-;D$`v
-;D$pu
-;D$xt
-;D$xu
-;D$x|9H
-;D$x}
-;D$||
-;W?show@QWindow@@QEAAXXZ
-;Z?type@QAccessibleEvent@@QEBA?AW4Event@QAccessible@@XZ
 ;index=
 <!--EndFragment-->
 <!--StartFragment-->
-<$(}%
-<$@t*
-<$Qs+Hk
-<HkD$0 H
-<U<`<k<y<
-<W?showEvent@QWindow@@MEAAXPEAVQShowEvent@@@Z
-<X?subpixelAntialiasingTypeHint@QPlatformFontDatabase@@QEBA?AW4SubpixelAntialiasingType@QFontEngine@@XZ
 <unknown error>
-=T?setFamily@QFont@@QEAAXAEBVQString@@@Z
-=Z?type@QFontEngine@@QEBA?AW4Type@1@XZ
+<wt2
 >7>Ba
->H>T>
->W?showInputPanel@QPlatformInputContext@@UEAAXXZ
->\>i>t
-? ?(?-
-?9D$0w"H
-?9D$0w+H
-?9D$0w3H
-?9D$0w7H
-??0?$QVector@VQPointF@@@@QEAA@AEBV0@@Z
-??0?$QVector@VQPointF@@@@QEAA@XZ
-??0Gpu@QOpenGLConfig@@QEAA@AEBU01@@Z
-??0QBitmap@@QEAA@AEBVQSize@@@Z
-??0QBrush@@QEAA@AEBVQColor@@W4BrushStyle@Qt@@@Z
-??0QBuffer@@QEAA@PEAVQByteArray@@PEAVQObject@@@Z
-??0QByteArray@@QEAA@$$QEAV0@@Z
-??0QByteArray@@QEAA@AEBV0@@Z
-??0QByteArray@@QEAA@HD@Z
-??0QByteArray@@QEAA@PEBDH@Z
-??0QByteArray@@QEAA@UQByteArrayDataPtr@@@Z
-??0QByteArray@@QEAA@XZ
-??0QChar@@QEAA@G@Z
-??0QChar@@QEAA@H@Z
-??0QChar@@QEAA@UQLatin1Char@@@Z
-??0QChar@@QEAA@XZ
-??0QColor@@QEAA@AEBV0@@Z
-??0QColor@@QEAA@HHHH@Z
-??0QColor@@QEAA@W4GlobalColor@Qt@@@Z
-??0QColor@@QEAA@XZ
-??0QCursor@@QEAA@AEBV0@@Z
-??0QCursor@@QEAA@AEBVQPixmap@@HH@Z
-??0QCursor@@QEAA@W4CursorShape@Qt@@@Z
-??0QCursor@@QEAA@XZ
-??0QDataStream@@QEAA@PEAVQByteArray@@V?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-??0QDebug@@QEAA@AEBV0@@Z
-??0QDebug@@QEAA@PEAVQString@@@Z
-??0QDebugStateSaver@@QEAA@AEAVQDebug@@@Z
-??0QDir@@QEAA@AEBVQString@@@Z
-??0QEventDispatcherWin32@@QEAA@PEAVQObject@@@Z
-??0QFile@@QEAA@AEBVQString@@@Z
-??0QFileInfo@@QEAA@AEBVQString@@@Z
-??0QFont@@QEAA@AEBV0@@Z
-??0QFont@@QEAA@AEBVQString@@HH_N@Z
-??0QFontDatabase@@QEAA@XZ
-??0QFontEngine@@IEAA@W4Type@0@@Z
-??0QFontEngineMulti@@QEAA@PEAVQFontEngine@@HAEBVQStringList@@@Z
-??0QImage@@QEAA@$$QEAV0@@Z
-??0QImage@@QEAA@AEBV0@@Z
-??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
-??0QImage@@QEAA@HHW4Format@0@@Z
-??0QImage@@QEAA@PEAEHHHW4Format@0@P6AXPEAX@Z2@Z
-??0QImage@@QEAA@PEAEHHW4Format@0@P6AXPEAX@Z2@Z
-??0QImage@@QEAA@PEBEHHHW4Format@0@P6AXPEAX@Z2@Z
-??0QImage@@QEAA@XZ
-??0QImageReader@@QEAA@PEAVQIODevice@@AEBVQByteArray@@@Z
-??0QImageWriter@@QEAA@PEAVQIODevice@@AEBVQByteArray@@@Z
-??0QInputMethodEvent@@QEAA@AEBVQString@@AEBV?$QList@VAttribute@QInputMethodEvent@@@@@Z
-??0QInputMethodEvent@@QEAA@XZ
-??0QInternalMimeData@@QEAA@XZ
-??0QKeySequence@@QEAA@HHHH@Z
-??0QLocale@@QEAA@XZ
-??0QLoggingCategory@@QEAA@PEBD@Z
-??0QMessageLogger@@QEAA@PEBDH00@Z
-??0QMessageLogger@@QEAA@PEBDH0@Z
-??0QMessageLogger@@QEAA@XZ
-??0QMutex@@QEAA@W4RecursionMode@0@@Z
-??0QMutexLocker@@QEAA@PEAVQBasicMutex@@@Z
-??0QObject@@QEAA@PEAV0@@Z
-??0QPainter@@QEAA@PEAVQPaintDevice@@@Z
-??0QPalette@@QEAA@$$QEAV0@@Z
-??0QPalette@@QEAA@AEBV0@@Z
-??0QPalette@@QEAA@AEBVQColor@@000000@Z
-??0QPixmap@@QEAA@AEBV0@@Z
-??0QPixmap@@QEAA@AEBVQString@@PEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-??0QPixmap@@QEAA@HH@Z
-??0QPixmap@@QEAA@QEBQEBD@Z
-??0QPixmap@@QEAA@XZ
-??0QPlatformAccessibility@@QEAA@XZ
-??0QPlatformBackingStore@@QEAA@PEAVQWindow@@@Z
-??0QPlatformClipboard@@QEAA@XZ
-??0QPlatformCursor@@QEAA@XZ
-??0QPlatformDrag@@QEAA@XZ
-??0QPlatformFileDialogHelper@@QEAA@XZ
-??0QPlatformFontDatabase@@QEAA@XZ
-??0QPlatformInputContext@@QEAA@XZ
-??0QPlatformIntegration@@QEAA@XZ
-??0QPlatformIntegrationPlugin@@QEAA@PEAVQObject@@@Z
-??0QPlatformNativeInterface@@QEAA@XZ
-??0QPlatformOpenGLContext@@QEAA@XZ
-??0QPlatformScreen@@QEAA@XZ
-??0QPlatformServices@@QEAA@XZ
-??0QPlatformSessionManager@@QEAA@AEBVQString@@0@Z
-??0QPlatformTheme@@QEAA@XZ
-??0QPlatformWindow@@QEAA@PEAVQWindow@@@Z
-??0QPoint@@QEAA@HH@Z
-??0QPoint@@QEAA@XZ
-??0QPointF@@QEAA@AEBVQPoint@@@Z
-??0QPointF@@QEAA@NN@Z
-??0QPointF@@QEAA@XZ
-??0QRasterPlatformPixmap@@QEAA@W4PixelType@QPlatformPixmap@@@Z
-??0QRasterWindow@@QEAA@PEAVQWindow@@@Z
-??0QRect@@QEAA@AEBVQPoint@@0@Z
-??0QRect@@QEAA@AEBVQPoint@@AEBVQSize@@@Z
-??0QRect@@QEAA@HHHH@Z
-??0QRect@@QEAA@XZ
-??0QRectF@@QEAA@AEBVQPointF@@AEBVQSizeF@@@Z
-??0QRectF@@QEAA@NNNN@Z
-??0QRectF@@QEAA@XZ
-??0QRegExp@@QEAA@AEBVQString@@W4CaseSensitivity@Qt@@W4PatternSyntax@0@@Z
-??0QRegion@@QEAA@AEBV0@@Z
-??0QRegion@@QEAA@AEBVQRect@@W4RegionType@0@@Z
-??0QRegion@@QEAA@HHHHW4RegionType@0@@Z
-??0QRegion@@QEAA@XZ
-??0QRegularExpression@@QEAA@AEBVQString@@V?$QFlags@W4PatternOption@QRegularExpression@@@@@Z
-??0QSettings@@QEAA@AEBVQString@@W4Format@0@PEAVQObject@@@Z
-??0QSharedData@@QEAA@XZ
-??0QSize@@QEAA@HH@Z
-??0QSize@@QEAA@XZ
-??0QSizeF@@QEAA@AEBVQSize@@@Z
-??0QSizeF@@QEAA@NN@Z
-??0QSizeF@@QEAA@XZ
-??0QString@@QEAA@$$QEAV0@@Z
-??0QString@@QEAA@AEBV0@@Z
-??0QString@@QEAA@PEBVQChar@@H@Z
-??0QString@@QEAA@UQStringDataPtr@@@Z
-??0QString@@QEAA@VQChar@@@Z
-??0QString@@QEAA@VQLatin1String@@@Z
-??0QString@@QEAA@XZ
-??0QSupportedWritingSystems@@QEAA@XZ
-??0QSurfaceFormat@@QEAA@AEBV0@@Z
-??0QSurfaceFormat@@QEAA@XZ
-??0QTextBoundaryFinder@@QEAA@W4BoundaryType@0@AEBVQString@@@Z
-??0QTextCharFormat@@QEAA@XZ
-??0QTextFormat@@QEAA@AEBV0@@Z
-??0QTextStream@@QEAA@PEAVQString@@V?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-??0QTextStreamManipulator@@QEAA@P8QTextStream@@EAAXH@ZH@Z
-??0QTextStreamManipulator@@QEAA@P8QTextStream@@EAAXVQChar@@@Z0@Z
-??0QThread@@QEAA@PEAVQObject@@@Z
-??0QThreadStorageData@@QEAA@P6AXPEAX@Z@Z
-??0QTouchDevice@@QEAA@XZ
-??0QTransform@@QEAA@XZ
-??0QUrl@@QEAA@AEBV0@@Z
-??0QUrl@@QEAA@AEBVQString@@W4ParsingMode@0@@Z
-??0QUrl@@QEAA@XZ
-??0QUuid@@QEAA@AEBVQString@@@Z
-??0QVariant@@QEAA@$$QEAV0@@Z
-??0QVariant@@QEAA@AEBV0@@Z
-??0QVariant@@QEAA@AEBV?$QList@VQVariant@@@@@Z
-??0QVariant@@QEAA@AEBV?$QMap@VQString@@VQVariant@@@@@Z
-??0QVariant@@QEAA@AEBVQByteArray@@@Z
-??0QVariant@@QEAA@AEBVQString@@@Z
-??0QVariant@@QEAA@AEBVQStringList@@@Z
-??0QVariant@@QEAA@AEBVQUrl@@@Z
-??0QVariant@@QEAA@H@Z
-??0QVariant@@QEAA@HPEBXI@Z
-??0QVariant@@QEAA@N@Z
-??0QVariant@@QEAA@VQLatin1String@@@Z
-??0QVariant@@QEAA@W4Type@0@@Z
-??0QVariant@@QEAA@XZ
-??0QVariant@@QEAA@_N@Z
-??0QVector2D@@QEAA@XZ
-??0glyph_metrics_t@@QEAA@UQFixed@@00000@Z
-??0glyph_metrics_t@@QEAA@XZ
-??1?$QVector@VQPointF@@@@QEAA@XZ
-??1Connection@QMetaObject@@QEAA@XZ
-??1Gpu@QOpenGLConfig@@QEAA@XZ
-??1QBitmap@@UEAA@XZ
-??1QBrush@@QEAA@XZ
-??1QBuffer@@UEAA@XZ
-??1QByteArray@@QEAA@XZ
-??1QCursor@@QEAA@XZ
-??1QDataStream@@QEAA@XZ
-??1QDateTime@@QEAA@XZ
-??1QDebug@@QEAA@XZ
-??1QDebugStateSaver@@QEAA@XZ
-??1QDir@@QEAA@XZ
-??1QEventDispatcherWin32@@UEAA@XZ
-??1QFile@@UEAA@XZ
-??1QFileInfo@@QEAA@XZ
-??1QFont@@QEAA@XZ
-??1QFontEngine@@UEAA@XZ
-??1QFontEngineMulti@@UEAA@XZ
-??1QIcon@@QEAA@XZ
-??1QImage@@UEAA@XZ
-??1QImageReader@@QEAA@XZ
-??1QImageWriter@@QEAA@XZ
-??1QInputMethodEvent@@UEAA@XZ
-??1QInternalMimeData@@UEAA@XZ
-??1QKeySequence@@QEAA@XZ
-??1QLocale@@QEAA@XZ
-??1QLoggingCategory@@QEAA@XZ
-??1QMutex@@QEAA@XZ
-??1QMutexLocker@@QEAA@XZ
-??1QObject@@UEAA@XZ
-??1QPainter@@QEAA@XZ
-??1QPalette@@QEAA@XZ
-??1QPixmap@@UEAA@XZ
-??1QPlatformAccessibility@@UEAA@XZ
-??1QPlatformBackingStore@@UEAA@XZ
-??1QPlatformClipboard@@UEAA@XZ
-??1QPlatformCursor@@UEAA@XZ
-??1QPlatformDrag@@UEAA@XZ
-??1QPlatformFileDialogHelper@@UEAA@XZ
-??1QPlatformFontDatabase@@UEAA@XZ
-??1QPlatformInputContext@@UEAA@XZ
-??1QPlatformIntegration@@UEAA@XZ
-??1QPlatformIntegrationPlugin@@UEAA@XZ
-??1QPlatformNativeInterface@@UEAA@XZ
-??1QPlatformOpenGLContext@@UEAA@XZ
-??1QPlatformScreen@@UEAA@XZ
-??1QPlatformServices@@UEAA@XZ
-??1QPlatformSessionManager@@UEAA@XZ
-??1QPlatformTheme@@UEAA@XZ
-??1QPlatformWindow@@UEAA@XZ
-??1QRasterPlatformPixmap@@UEAA@XZ
-??1QRasterWindow@@UEAA@XZ
-??1QRegExp@@QEAA@XZ
-??1QRegion@@QEAA@XZ
-??1QRegularExpression@@QEAA@XZ
-??1QRegularExpressionMatch@@QEAA@XZ
-??1QSettings@@UEAA@XZ
-??1QString@@QEAA@XZ
-??1QStringRef@@QEAA@XZ
-??1QSupportedWritingSystems@@QEAA@XZ
-??1QSurfaceFormat@@QEAA@XZ
-??1QTextBoundaryFinder@@QEAA@XZ
-??1QTextCharFormat@@QEAA@XZ
-??1QTextFormat@@QEAA@XZ
-??1QTextStream@@UEAA@XZ
-??1QThread@@UEAA@XZ
-??1QThreadStorageData@@QEAA@XZ
-??1QUrl@@QEAA@XZ
-??1QVariant@@QEAA@XZ
-??4QBitmap@@QEAAAEAV0@AEBV0@@Z
-??4QByteArray@@QEAAAEAV0@$$QEAV0@@Z
-??4QByteArray@@QEAAAEAV0@AEBV0@@Z
-??4QByteArray@@QEAAAEAV0@PEBD@Z
-??4QByteRef@@QEAAAEAV0@D@Z
-??4QCharRef@@QEAAAEAV0@VQChar@@@Z
-??4QFont@@QEAAAEAV0@AEBV0@@Z
-??4QImage@@QEAAAEAV0@$$QEAV0@@Z
-??4QPixmap@@QEAAAEAV0@$$QEAV0@@Z
-??4QPixmap@@QEAAAEAV0@AEBV0@@Z
-??4QString@@QEAAAEAV0@$$QEAV0@@Z
-??4QString@@QEAAAEAV0@AEBV0@@Z
-??4QString@@QEAAAEAV0@VQLatin1String@@@Z
-??4QSupportedWritingSystems@@QEAAAEAV0@AEBV0@@Z
-??4QSurfaceFormat@@QEAAAEAV0@AEBV0@@Z
-??4QUrl@@QEAAAEAV0@$$QEAV0@@Z
-??4QUrl@@QEAAAEAV0@AEBV0@@Z
-??4QVariant@@QEAAAEAV0@$$QEAV0@@Z
-??4QVariant@@QEAAAEAV0@AEBV0@@Z
-??6@YA?AVQDebug@@V0@AEBVQColor@@@Z
-??6@YA?AVQDebug@@V0@AEBVQFont@@@Z
-??6@YA?AVQDebug@@V0@AEBVQMargins@@@Z
-??6@YA?AVQDebug@@V0@AEBVQPoint@@@Z
-??6@YA?AVQDebug@@V0@AEBVQPointF@@@Z
-??6@YA?AVQDebug@@V0@AEBVQRect@@@Z
-??6@YA?AVQDebug@@V0@AEBVQRegion@@@Z
-??6@YA?AVQDebug@@V0@AEBVQSize@@@Z
-??6@YA?AVQDebug@@V0@AEBVQSurfaceFormat@@@Z
-??6@YA?AVQDebug@@V0@AEBVQUrl@@@Z
-??6@YA?AVQDebug@@V0@AEBVQVariant@@@Z
-??6@YA?AVQDebug@@V0@AEBVQVersionNumber@@@Z
-??6@YA?AVQDebug@@V0@PEBVQAccessibleInterface@@@Z
-??6@YA?AVQDebug@@V0@PEBVQObject@@@Z
-??6@YA?AVQDebug@@V0@W4Type@QVariant@@@Z
-??6QDebug@@QEAAAEAV0@AEBVQByteArray@@@Z
-??6QDebug@@QEAAAEAV0@AEBVQString@@@Z
-??6QDebug@@QEAAAEAV0@AEBVQStringRef@@@Z
-??6QDebug@@QEAAAEAV0@D@Z
-??6QDebug@@QEAAAEAV0@G@Z
-??6QDebug@@QEAAAEAV0@H@Z
-??6QDebug@@QEAAAEAV0@I@Z
-??6QDebug@@QEAAAEAV0@J@Z
-??6QDebug@@QEAAAEAV0@K@Z
-??6QDebug@@QEAAAEAV0@N@Z
-??6QDebug@@QEAAAEAV0@P6AAEAVQTextStream@@AEAV1@@Z@Z
-??6QDebug@@QEAAAEAV0@PEBD@Z
-??6QDebug@@QEAAAEAV0@PEBX@Z
-??6QDebug@@QEAAAEAV0@VQLatin1String@@@Z
-??6QDebug@@QEAAAEAV0@_J@Z
-??6QDebug@@QEAAAEAV0@_K@Z
-??6QDebug@@QEAAAEAV0@_N@Z
-??6QTextStream@@QEAAAEAV0@AEBVQByteArray@@@Z
-??6QTextStream@@QEAAAEAV0@AEBVQString@@@Z
-??6QTextStream@@QEAAAEAV0@D@Z
-??6QTextStream@@QEAAAEAV0@H@Z
-??6QTextStream@@QEAAAEAV0@PEBD@Z
-??8@YA_NAEBVQString@@0@Z
-??8QBrush@@QEBA_NAEBV0@@Z
-??8QString@@QEBA_NVQLatin1String@@@Z
-??9QBrush@@QEBA_NAEBV0@@Z
-??AQByteArray@@QEAA?AVQByteRef@@H@Z
-??AQDir@@QEBA?AVQString@@H@Z
-??AQString@@QEAA?AVQCharRef@@H@Z
-??BQByteArray@@QEBAPEBDXZ
-??BQImage@@QEBA?AVQVariant@@XZ
-??BQTextFormat@@QEBA?AVQVariant@@XZ
-??BQUuid@@QEBA?AU_GUID@@XZ
-??M@YA_NAEBVQString@@0@Z
-??YQByteArray@@QEAAAEAV0@AEBV0@@Z
-??YQByteArray@@QEAAAEAV0@AEBVQString@@@Z
-??YQByteArray@@QEAAAEAV0@D@Z
-??YQByteArray@@QEAAAEAV0@PEBD@Z
-??YQPointF@@QEAAAEAV0@AEBV0@@Z
-??YQRegion@@QEAAAEAV0@AEBVQRect@@@Z
-??YQString@@QEAAAEAV0@AEBV0@@Z
-??YQString@@QEAAAEAV0@VQChar@@@Z
-??ZQPoint@@QEAAAEAV0@AEBV0@@Z
-??_0QSize@@QEAAAEAV0@N@Z
-??_4QRegion@@QEAAAEAV0@AEBVQRect@@@Z
-?QStringList_contains@QtPrivate@@YA_NPEBVQStringList@@AEBVQString@@W4CaseSensitivity@Qt@@@Z
-?QStringList_join@QtPrivate@@YA?AVQString@@PEBVQStringList@@PEBVQChar@@H@Z
-?WindowsVersion@QSysInfo@@2W4WinVersion@1@B
-?_Debug_message@std@@YAXPEB_W0I@Z
-?absoluteFilePath@QDir@@QEBA?AVQString@@AEBV2@@Z
-?absoluteFilePath@QFileInfo@@QEBA?AVQString@@XZ
-?accept@QPlatformDialogHelper@@QEAAXXZ
-?acceptMode@QFileDialogOptions@@QEBA?AW4AcceptMode@1@XZ
-?acceptedAction@QPlatformDropQtResponse@@QEBA?AW4DropAction@Qt@@XZ
-?accessibleInterface@QAccessible@@SAPEAVQAccessibleInterface@@I@Z
-?accessibleRoot@QWindow@@UEBAPEAVQAccessibleInterface@@XZ
-?actionInterface@QAccessibleInterface@@QEAAPEAVQAccessibleActionInterface@@XZ
-?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z
-?actualSize@QIcon@@QEBA?AVQSize@@AEBV2@W4Mode@1@W4State@1@@Z
-?addBitmapFontToPath@QFontEngine@@QEAAXNNAEBUQGlyphLayout@@PEAVQPainterPath@@V?$QFlags@W4RenderFlag@QTextItem@@@@@Z
-?addGlyphsToPath@QFontEngine@@UEAAXPEAIPEAUQFixedPoint@@HPEAVQPainterPath@@V?$QFlags@W4RenderFlag@QTextItem@@@@@Z
-?addOutlineToPath@QFontEngine@@UEAAXNNAEBUQGlyphLayout@@PEAVQPainterPath@@V?$QFlags@W4RenderFlag@QTextItem@@@@@Z
-?addOutlineToPath@QFontEngineMulti@@UEAAXNNAEBUQGlyphLayout@@PEAVQPainterPath@@V?$QFlags@W4RenderFlag@QTextItem@@@@@Z
-?adjusted@QUrl@@QEBA?AV1@V?$QUrlTwoFlags@W4UrlFormattingOption@QUrl@@W4ComponentFormattingOption@2@@@@Z
-?allKeys@QSettings@@QEBA?AVQStringList@@XZ
-?allWindows@QGuiApplication@@SA?AV?$QList@PEAVQWindow@@@@XZ
-?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
-?allocateNode@QHashData@@QEAAPEAXH@Z
-?alphaBufferSize@QSurfaceFormat@@QEBAHXZ
-?alphaMapBoundingBox@QFontEngine@@UEAA?AUglyph_metrics_t@@IUQFixed@@AEBVQTransform@@W4GlyphFormat@1@@Z
-?alphaMapForGlyph@QFontEngine@@UEAA?AVQImage@@I@Z
-?alphaMapForGlyph@QFontEngine@@UEAA?AVQImage@@IAEBVQTransform@@@Z
-?alphaMapForGlyph@QFontEngine@@UEAA?AVQImage@@IUQFixed@@@Z
-?alphaMapForGlyph@QFontEngine@@UEAA?AVQImage@@IUQFixed@@AEBVQTransform@@@Z
-?alphaMapForGlyph@QFontEngineMulti@@UEAA?AVQImage@@I@Z
-?alphaMapForGlyph@QFontEngineMulti@@UEAA?AVQImage@@IAEBVQTransform@@@Z
-?alphaMapForGlyph@QFontEngineMulti@@UEAA?AVQImage@@IUQFixed@@@Z
-?alphaMapForGlyph@QFontEngineMulti@@UEAA?AVQImage@@IUQFixed@@AEBVQTransform@@@Z
-?alphaRGBMapForGlyph@QFontEngine@@UEAA?AVQImage@@IUQFixed@@AEBVQTransform@@@Z
-?alphaRGBMapForGlyph@QFontEngineMulti@@UEAA?AVQImage@@IUQFixed@@AEBVQTransform@@@Z
-?answerRect@QPlatformDragQtResponse@@QEBA?AVQRect@@XZ
-?append@QByteArray@@QEAAAEAV1@AEBV1@@Z
-?append@QByteArray@@QEAAAEAV1@D@Z
-?append@QByteArray@@QEAAAEAV1@PEBDH@Z
-?append@QListData@@QEAAPEAPEAXAEBU1@@Z
-?append@QListData@@QEAAPEAPEAXXZ
-?append@QString@@QEAAAEAV1@AEBV1@@Z
-?applicationDirPath@QCoreApplication@@SA?AVQString@@XZ
-?applicationName@QCoreApplication@@SA?AVQString@@XZ
-?applicationVersion@QCoreApplication@@SA?AVQString@@XZ
-?arg@QString@@QEBA?AV1@AEBV1@HVQChar@@@Z
-?arg@QString@@QEBA?AV1@HHHVQChar@@@Z
-?arg@QString@@QEBA?AV1@IHHVQChar@@@Z
-?arg@QString@@QEBA?AV1@KHHVQChar@@@Z
-?arg@QString@@QEBA?AV1@_KHHVQChar@@@Z
-?ascent@QFontEngineMulti@@UEBA?AUQFixed@@XZ
-?at@QByteArray@@QEBADH@Z
-?at@QListData@@QEBAPEAPEAXH@Z
-?at@QString@@QEBA?BVQChar@@H@Z
-?attributes@QInputMethodEvent@@QEBAAEBV?$QList@VAttribute@QInputMethodEvent@@@@XZ
-?autoInsertSpaces@QDebug@@QEBA_NXZ
-?availableGeometry@QScreen@@QEBA?AVQRect@@XZ
-?averageCharWidth@QFontEngine@@UEBA?AUQFixed@@XZ
-?averageCharWidth@QFontEngineMulti@@UEBA?AUQFixed@@XZ
-?background@QPalette@@QEBAAEBVQBrush@@XZ
-?base@QPalette@@QEBAAEBVQBrush@@XZ
-?begin@QListData@@QEBAPEAPEAXXZ
-?bitmap@QCursor@@QEBAPEBVQBitmap@@XZ
-?bitmapForGlyph@QFontEngine@@UEAA?AVQImage@@IUQFixed@@AEBVQTransform@@@Z
-?bits@QImage@@QEAAPEAEXZ
-?bottom@QRect@@QEBAHXZ
-?boundaryReasons@QTextBoundaryFinder@@QEBA?AV?$QFlags@W4BoundaryReason@QTextBoundaryFinder@@@@XZ
-?canConvert@QVariant@@QEBA_NH@Z
-?categoryName@QLoggingCategory@@QEBAPEBDXZ
-?cell@QChar@@QEBAEXZ
-?center@QRect@@QEBA?AVQPoint@@XZ
-?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?className@QMetaObject@@QEBAPEBDXZ
-?cleanPath@QDir@@SA?AVQString@@AEBV2@@Z
-?clear@QByteArray@@QEAAXXZ
-?clear@QString@@QEAAXXZ
-?close@QFileDevice@@UEAAXXZ
-?closingDown@QCoreApplication@@SA_NXZ
-?closingDown@QEventDispatcherWin32@@UEAAXXZ
-?color@QMapNodeBase@@QEBA?AW4Color@1@XZ
-?colorData@QMimeData@@QEBA?AVQVariant@@XZ
-?commit@QPlatformInputContext@@UEAAXXZ
-?commitData@QGuiApplicationPrivate@@QEAAXXZ
-?commitString@QInputMethodEvent@@QEBAAEBVQString@@XZ
-?compare@QString@@SAHAEBV1@VQLatin1String@@W4CaseSensitivity@Qt@@@Z
-?composeAndFlush@QPlatformBackingStore@@UEAAXPEAVQWindow@@AEBVQRegion@@AEBVQPoint@@PEAVQPlatformTextureList@@PEAVQOpenGLContext@@_N@Z
-?connectImpl@QObject@@CA?AVConnection@QMetaObject@@PEBV1@PEAPEAX01PEAVQSlotObjectBase@QtPrivate@@W4ConnectionType@Qt@@PEBHPEBU3@@Z
-?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?constData@QByteArray@@QEBAPEBDXZ
-?constData@QString@@QEBAPEBVQChar@@XZ
-?constData@QVariant@@QEBAPEBXXZ
-?convertToFormat@QImage@@QEGBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?convertToFormat@QImage@@QEHAA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?convertToPostscriptFontFamilyName@QFontEngine@@SA?AVQByteArray@@AEBV2@@Z
-?copy@QImage@@QEBA?AV1@AEBVQRect@@@Z
-?copy@QRasterPlatformPixmap@@UEAAXPEBVQPlatformPixmap@@AEBVQRect@@@Z
-?create@QPlatformInputContextFactory@@SAPEAVQPlatformInputContext@@XZ
-?create@QPlatformIntegrationPlugin@@UEAAPEAVQPlatformIntegration@@AEBVQString@@AEBVQStringList@@@Z
-?createCompatiblePlatformPixmap@QRasterPlatformPixmap@@UEBAPEAVQPlatformPixmap@@XZ
-?createIconEngine@QPlatformTheme@@UEBAPEAVQIconEngine@@AEBVQString@@@Z
-?createImagePaintEngine@QPlatformIntegration@@UEBAPEAVQPaintEngine@@PEAVQPaintDevice@@@Z
-?createPlatformMenu@QPlatformTheme@@UEBAPEAVQPlatformMenu@@XZ
-?createPlatformMenuBar@QPlatformTheme@@UEBAPEAVQPlatformMenuBar@@XZ
-?createPlatformMenuItem@QPlatformTheme@@UEBAPEAVQPlatformMenuItem@@XZ
-?createPlatformOffscreenSurface@QPlatformIntegration@@UEBAPEAVQPlatformOffscreenSurface@@PEAVQOffscreenSurface@@@Z
-?createPlatformPixmap@QPlatformIntegration@@UEBAPEAVQPlatformPixmap@@W4PixelType@2@@Z
-?createPlatformSharedGraphicsCache@QPlatformIntegration@@UEBAPEAVQPlatformSharedGraphicsCache@@PEBD@Z
-?createPlatformSystemTrayIcon@QPlatformTheme@@UEBAPEAVQPlatformSystemTrayIcon@@XZ
-?createPlatformTheme@QPlatformIntegration@@UEBAPEAVQPlatformTheme@@AEBVQString@@@Z
-?cubicTo@QPainterPath@@QEAAXAEBVQPointF@@00@Z
-?currentChanged@QPlatformFileDialogHelper@@QEAAXAEBVQUrl@@@Z
-?currentDrag@QPlatformDrag@@QEBAPEAVQDrag@@XZ
-?cursorRectangle@QInputMethod@@QEBA?AVQRectF@@XZ
-?cursorRectangleChanged@QInputMethod@@QEAAXXZ
-?dark@QPalette@@QEBAAEBVQBrush@@XZ
-?darker@QColor@@QEBA?AV1@H@Z
-?data@QArrayData@@QEAAPEAXXZ
-?data@QArrayData@@QEBAPEBXXZ
-?data@QByteArray@@QEAAPEADXZ
-?data@QByteArray@@QEBAPEBDXZ
-?data_ptr@QImage@@QEAAAEAPEAUQImageData@@XZ
-?date@QDateTime@@QEBA?AVQDate@@XZ
-?day@QDate@@QEBAHXZ
-?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?debug@QMessageLogger@@QEBA?AVQDebug@@P6AAEBVQLoggingCategory@@XZ@Z
-?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
-?debug@QMessageLogger@@QEBAXPEBDZZ
-?dec@@YAAEAVQTextStream@@AEAV1@@Z
-?decodeName@QFile@@SA?AVQString@@AEBVQByteArray@@@Z
-?decreaseAction@QAccessibleActionInterface@@SAAEBVQString@@XZ
-?defaultAction@QPlatformDrag@@UEBA?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
-?defaultFont@QPlatformFontDatabase@@UEBA?AVQFont@@XZ
-?defaultFramebufferObject@QPlatformOpenGLContext@@UEBAIPEAVQPlatformSurface@@@Z
-?defaultSuffix@QFileDialogOptions@@QEBA?AVQString@@XZ
-?defaultWindowState@QPlatformIntegration@@UEBA?AW4WindowState@Qt@@V?$QFlags@W4WindowType@Qt@@@@@Z
-?depth@QImage@@QEBAHXZ
-?depthBufferSize@QSurfaceFormat@@QEBAHXZ
-?descent@QFontEngineMulti@@UEBA?AUQFixed@@XZ
-?desktopEnvironment@QPlatformServices@@UEBA?AVQByteArray@@XZ
-?desktopSettingsAware@QGuiApplication@@SA_NXZ
-?destroy@QPlatformIntegration@@UEAAXXZ
-?destroyScreen@QPlatformIntegration@@IEAAXPEAVQPlatformScreen@@@Z
-?det@QTransform@@QEBANXZ
-?detach@QByteArray@@QEAAXXZ
-?detach@QListData@@QEAAPEAUData@1@H@Z
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
-?devType@QPaintDevice@@UEBAHXZ
-?device@QDataStream@@QEBAPEAVQIODevice@@XZ
-?devicePixelRatio@QPixmap@@QEBANXZ
-?devicePixelRatio@QRasterPlatformPixmap@@UEBANXZ
-?devicePixelRatio@QWindow@@QEBANXZ
-?directoryEntered@QPlatformFileDialogHelper@@QEAAXAEBVQUrl@@@Z
-?discardCommand@QPlatformSessionManager@@UEBA?AVQStringList@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@QEAAXXZ
-?dispose@QListData@@SAXPEAUData@1@@Z
-?doKerning@QFontEngine@@UEBAXPEAUQGlyphLayout@@V?$QFlags@W4ShaperFlag@QFontEngine@@@@@Z
-?doKerning@QFontEngineMulti@@UEBAXPEAUQGlyphLayout@@V?$QFlags@W4ShaperFlag@QFontEngine@@@@@Z
-?dragCursor@QDrag@@QEBA?AVQPixmap@@W4DropAction@Qt@@@Z
-?drawImage@QPainter@@QEAAXAEBVQRect@@AEBVQImage@@0V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?drawPixmap@QPainter@@QEAAXAEBVQPoint@@AEBVQPixmap@@@Z
-?drawPixmap@QPainter@@QEAAXHHAEBVQPixmap@@@Z
-?drawPixmap@QPainter@@QEAAXHHHHAEBVQPixmap@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?editableTextInterface@QAccessibleInterface@@QEAAPEAVQAccessibleEditableTextInterface@@XZ
-?elementAt@QPainterPath@@QEBA?AVElement@1@H@Z
-?elementCount@QPainterPath@@QEBAHXZ
-?emSquareSize@QFontEngine@@UEBA?AUQFixed@@XZ
-?emitChanged@QPlatformClipboard@@QEAAXW4Mode@QClipboard@@@Z
-?encodeName@QFile@@SA?AVQByteArray@@AEBVQString@@@Z
-?end@QListData@@QEBAPEAPEAXXZ
-?endPaint@QPlatformBackingStore@@UEAAXXZ
-?endsWith@QByteArray@@QEBA_ND@Z
-?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
-?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
-?engine@QFontEngineMulti@@QEBAPEAVQFontEngine@@H@Z
-?ensureFallbackFamiliesQueried@QFontEngineMulti@@MEAAXXZ
-?equals@Gpu@QOpenGLConfig@@QEBA_NAEBU12@@Z
-?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
-?event@QEventDispatcherWin32@@UEAA_NPEAVQEvent@@@Z
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?event@QPaintDeviceWindow@@MEAA_NPEAVQEvent@@@Z
-?event@QThread@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?exec@QTextStreamManipulator@@QEAAXAEAVQTextStream@@@Z
-?exists@QFile@@SA_NAEBVQString@@@Z
-?exposeEvent@QPaintDeviceWindow@@MEAAXPEAVQExposeEvent@@@Z
-?faceId@QFontEngine@@UEBA?AUFaceId@1@XZ
-?fallbackFamilyAt@QFontEngineMulti@@QEBA?AVQString@@H@Z
-?fallbacksForFamily@QPlatformFontDatabase@@UEBA?AVQStringList@@AEBVQString@@W4Style@QFont@@W4StyleHint@5@W4Script@QChar@@@Z
-?families@QFontDatabase@@QEBA?AVQStringList@@W4WritingSystem@1@@Z
-?family@QFont@@QEBA?AVQString@@XZ
-?fatal@QMessageLogger@@QEBAXPEBDZZ
-?fileIconPixmap@QPlatformTheme@@UEBA?AVQPixmap@@AEBVQFileInfo@@AEBVQSizeF@@V?$QFlags@W4IconOption@QPlatformTheme@@@@@Z
-?fileMode@QFileDialogOptions@@QEBA?AW4FileMode@1@XZ
-?fileName@QFileInfo@@QEBA?AVQString@@XZ
-?filePath@QFileInfo@@QEBA?AVQString@@XZ
-?fill@QImage@@QEAAXI@Z
-?fill@QPixmap@@QEAAXAEBVQColor@@@Z
-?fill@QRasterPlatformPixmap@@UEAAXAEBVQColor@@@Z
-?fillRect@QPainter@@QEAAXAEBVQRect@@AEBVQColor@@@Z
-?filterEvent@QPlatformInputContext@@UEAA_NPEBVQEvent@@@Z
-?filterNativeEvent@QAbstractEventDispatcher@@QEAA_NAEBVQByteArray@@PEAXPEAJ@Z
-?filterSelected@QPlatformFileDialogHelper@@QEAAXAEBVQString@@@Z
-?find@QPixmapCache@@SA_NAEBVQString@@AEAVQPixmap@@@Z
-?firstNode@QHashData@@QEAAPEAUNode@1@XZ
-?flags@QWindow@@QEBA?AV?$QFlags@W4WindowType@Qt@@@@XZ
-?flush@QEventDispatcherWin32@@UEAAXXZ
-?flushWindowSystemEvents@QWindowSystemInterface@@SAXV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-?focusInEvent@QWindow@@MEAAXPEAVQFocusEvent@@@Z
-?focusObject@QGuiApplication@@SAPEAVQObject@@XZ
-?focusObject@QWindow@@UEBAPEAVQObject@@XZ
-?focusOutEvent@QWindow@@MEAAXPEAVQFocusEvent@@@Z
-?focusWindow@QGuiApplication@@SAPEAVQWindow@@XZ
-?fontDir@QPlatformFontDatabase@@UEBA?AVQString@@XZ
-?fontEngineMulti@QPlatformFontDatabase@@UEAAPEAVQFontEngineMulti@@PEAVQFontEngine@@W4Script@QChar@@@Z
-?fontsAlwaysScalable@QPlatformFontDatabase@@UEBA_NXZ
-?foreground@QPalette@@QEBAAEBVQBrush@@XZ
-?format@QImage@@QEBA?AW4Format@1@XZ
-?format@QOpenGLContext@@QEBA?AVQSurfaceFormat@@XZ
-?format@QWindow@@UEBA?AVQSurfaceFormat@@XZ
-?formatWindowTitle@QPlatformWindow@@KA?AVQString@@AEBV2@0@Z
-?formats@QInternalMimeData@@UEBA?AVQStringList@@XZ
-?formatsHelper@QInternalMimeData@@SA?AVQStringList@@PEBVQMimeData@@@Z
-?freeData@QMapDataBase@@SAXPEAU1@@Z
-?freeNode@QHashData@@QEAAXPEAX@Z
-?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
-?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
-?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
-?fromData@QRasterPlatformPixmap@@UEAA_NPEBEIPEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromDevice@Gpu@QOpenGLConfig@@SA?AU12@IIVQVersionNumber@@@Z
-?fromFile@QPlatformPixmap@@UEAA_NAEBVQString@@PEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromImage@QPixmap@@SA?AV1@AEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromImage@QRasterPlatformPixmap@@UEAAXAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromImageInPlace@QRasterPlatformPixmap@@UEAAXAEAVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromImageReader@QRasterPlatformPixmap@@UEAAXPEAVQImageReader@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromLatin1@QString@@SA?AV1@PEBDH@Z
-?fromLocal8Bit@QString@@SA?AV1@AEBVQByteArray@@@Z
-?fromLocal8Bit@QString@@SA?AV1@PEBDH@Z
-?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
-?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
-?fromScale@QTransform@@SA?AV1@NN@Z
-?fromUtf16@QString@@SA?AV1@PEBGH@Z
-?fromUtf8@QString@@SA?AV1@AEBVQByteArray@@@Z
-?fromUtf8@QString@@SA?AV1@PEBDH@Z
-?fromWCharArray@QString@@SA?AV1@PEB_WH@Z
-?geometry@QScreen@@QEBA?AVQRect@@XZ
-?geometry@QWindow@@QEBA?AVQRect@@XZ
-?get@QObjectPrivate@@SAPEAV1@PEAVQObject@@@Z
-?get@QThreadStorageData@@QEBAPEAPEAXXZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?getCMap@QFontEngine@@SAPEBEPEBEIPEA_NPEAH@Z
-?getGlyphBearings@QFontEngine@@UEAAXIPEAN0@Z
-?getGlyphBearings@QFontEngineMulti@@UEAAXIPEAN0@Z
-?getGlyphPositions@QFontEngine@@QEAAXAEBUQGlyphLayout@@AEBVQTransform@@V?$QFlags@W4RenderFlag@QTextItem@@@@AEAV?$QVarLengthArray@I$0BAA@@@AEAV?$QVarLengthArray@UQFixedPoint@@$0BAA@@@@Z
-?getPointInOutline@QFontEngine@@UEAAHIHIPEAUQFixed@@0PEAI@Z
-?getSfntTable@QFontEngine@@QEBA?AVQByteArray@@I@Z
-?getSfntTableData@QFontEngine@@UEBA_NIPEAEPEAI@Z
-?getTrueTypeGlyphIndex@QFontEngine@@SAIPEBEI@Z
-?getUnscaledGlyph@QFontEngine@@UEAAXIPEAVQPainterPath@@PEAUglyph_metrics_t@@@Z
-?hasColor@QMimeData@@QEBA_NXZ
-?hasHtml@QMimeData@@QEBA_NXZ
-?hasImage@QMimeData@@QEBA_NXZ
-?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
-?hasPendingEvents@QEventDispatcherWin32@@UEAA_NXZ
-?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
-?hasShrunk@QHashData@@QEAAXXZ
-?hasText@QMimeData@@QEBA_NXZ
-?hasUrls@QMimeData@@QEBA_NXZ
-?height@QRect@@QEBAHXZ
-?height@QSize@@QEBAHXZ
-?height@QSizeF@@QEBANXZ
-?hex@@YAAEAVQTextStream@@AEAV1@@Z
-?highSurrogate@QChar@@SAGI@Z
-?hour@QTime@@QEBAHXZ
-?html@QMimeData@@QEBA?AVQString@@XZ
-?imageData@QMimeData@@QEBA?AVQVariant@@XZ
-?indexOf@QByteArray@@QEBAHDH@Z
-?indexOf@QByteArray@@QEBAHPEBDH@Z
-?indexOf@QString@@QEBAHAEBV1@HW4CaseSensitivity@Qt@@@Z
-?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
-?indexOfSignal@QMetaObject@@QEBAHPEBD@Z
-?inherits@QObject@@QEBA_NPEBD@Z
-?insert@QString@@QEAAAEAV1@HAEBV1@@Z
-?insert@QString@@QEAAAEAV1@HVQChar@@@Z
-?instance@QAbstractEventDispatcher@@SAPEAV1@PEAVQThread@@@Z
-?instance@QCoreApplication@@SAPEAV1@XZ
-?interrupt@QEventDispatcherWin32@@UEAAXXZ
-?isAbsolute@QFileInfo@@QEBA_NXZ
-?isAbsolutePath@QDir@@SA_NAEBVQString@@@Z
-?isCriticalEnabled@QLoggingCategory@@QEBA_NXZ
-?isDebugEnabled@QLoggingCategory@@QEBA_NXZ
-?isDir@QFileInfo@@QEBA_NXZ
-?isEmpty@QByteArray@@QEBA_NXZ
-?isEmpty@QListData@@QEBA_NXZ
-?isEmpty@QSize@@QEBA_NXZ
-?isEmpty@QString@@QEBA_NXZ
-?isEmpty@QUrl@@QEBA_NXZ
-?isFile@QFileInfo@@QEBA_NXZ
-?isHighSurrogate@QChar@@QEBA_NXZ
-?isLetter@QChar@@QEBA_NXZ
-?isLocalFile@QUrl@@QEBA_NXZ
-?isLowSurrogate@QChar@@QEBA_NXZ
-?isNativePath@QFileInfo@@QEBA_NXZ
-?isNull@QChar@@QEBA_NXZ
-?isNull@QDate@@QEBA_NXZ
-?isNull@QDateTime@@QEBA_NXZ
-?isNull@QString@@QEBA_NXZ
-?isNull@QTime@@QEBA_NXZ
-?isNull@QUuid@@QEBA_NXZ
-?isNull@QVariant@@QEBA_NXZ
-?isRoot@QFileInfo@@QEBA_NXZ
-?isRunning@QThread@@QEBA_NXZ
-?isSurrogate@QChar@@QEBA_NXZ
-?isValid@QDate@@QEBA_NXZ
-?isValid@QDateTime@@QEBA_NXZ
-?isValid@QRect@@QEBA_NXZ
-?isValid@QRectF@@QEBA_NXZ
-?isValid@QRegExp@@QEBA_NXZ
-?isValid@QRegularExpression@@QEBA_NXZ
-?isValid@QTime@@QEBA_NXZ
-?isValid@QVariant@@QEBA_NXZ
-?isWarningEnabled@QLoggingCategory@@QEBA_NXZ
-?isWritable@QIODevice@@QEBA_NXZ
-?killTimer@QObject@@QEAAXH@Z
-?language@QLocale@@QEBA?AW4Language@1@XZ
-?languageToString@QLocale@@SA?AVQString@@W4Language@1@@Z
-?lastIndexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-?left@QRect@@QEBAHXZ
-?length@QByteArray@@QEBAHXZ
-?length@QString@@QEBAHXZ
-?load@QSystemLibrary@@SAPEAUHINSTANCE__@@PEB_W_N@Z
-?locate@QStandardPaths@@SA?AVQString@@W4StandardLocation@1@AEBV2@V?$QFlags@W4LocateOption@QStandardPaths@@@@@Z
-?location@QLibraryInfo@@SA?AVQString@@W4LibraryLocation@1@@Z
-?lock@QMutex@@QEAAXXZ
-?lowSurrogate@QChar@@SAGI@Z
-?manhattanLength@QPoint@@QEBAHXZ
-?marginsRemoved@QRect@@QEBA?AV1@AEBVQMargins@@@Z
-?match@QRegularExpression@@QEBA?AVQRegularExpressionMatch@@AEBVQString@@HW4MatchType@1@V?$QFlags@W4MatchOption@QRegularExpression@@@@@Z
-?maybeSpace@QDebug@@QEAAAEAV1@XZ
-?metaObject@QObject@@UEBAPEBUQMetaObject@@XZ
-?metaObject@QThread@@UEBAPEBUQMetaObject@@XZ
-?mid@QByteArray@@QEBA?AV1@HH@Z
-?mid@QString@@QEBA?AV1@HH@Z
-?midRef@QString@@QEBA?AVQStringRef@@HH@Z
-?minute@QTime@@QEBAHXZ
-?month@QDate@@QEBAHXZ
-?move@QListData@@QEAAXHH@Z
-?moveCenter@QRectF@@QEAAXAEBVQPointF@@@Z
-?moveTo@QRect@@QEAAXAEBVQPoint@@@Z
-?moveTo@QRect@@QEAAXHH@Z
-?moveTopLeft@QRect@@QEAAXAEBVQPoint@@@Z
-?msec@QTime@@QEBAHXZ
-?nameToType@QVariant@@SA?AW4Type@1@PEBD@Z
-?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-?nextNode@QMapNodeBase@@QEBAPEBU1@XZ
-?noDebug@QMessageLogger@@QEBA?AVQNoDebug@@XZ
-?noquote@QDebug@@QEAAAEAV1@XZ
-?normalizedType@QMetaObject@@SA?AVQByteArray@@PEBD@Z
-?noshowbase@@YAAEAVQTextStream@@AEAV1@@Z
-?nospace@QDebug@@QEAAAEAV1@XZ
-?number@QByteArray@@SA?AV1@IH@Z
-?number@QByteArray@@SA?AV1@_KH@Z
-?number@QString@@SA?AV1@HH@Z
-?number@QString@@SA?AV1@JH@Z
-?number@QString@@SA?AV1@KH@Z
-?number@QString@@SA?AV1@_KH@Z
-?objectName@QObject@@QEBA?AVQString@@XZ
-?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-?path@QUrl@@QEBA?AVQString@@V?$QFlags@W4ComponentFormattingOption@QUrl@@@@@Z
-?position@QTextBoundaryFinder@@QEBAHXZ
-?prepend@QListData@@QEAAPEAPEAXXZ
-?prepend@QString@@QEAAAEAV1@AEBV1@@Z
-?prepend@QString@@QEAAAEAV1@VQChar@@@Z
-?processEvents@QCoreApplication@@SAXV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-?processEvents@QEventDispatcherWin32@@UEAA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-?property@QObject@@QEBA?AVQVariant@@PEBD@Z
-?qAddPostRoutine@@YAXP6AXXZ@Z
-?qAppName@@YA?AVQString@@XZ
-?qEnvironmentVariableIsSet@@YA_NPEBD@Z
-?qErrnoWarning@@YAXHPEBDZZ
-?qErrnoWarning@@YAXPEBDZZ
-?qHash@@YAIAEBVQByteArray@@I@Z
-?qHash@@YAIAEBVQString@@I@Z
-?qHash@@YAIAEBVQVersionNumber@@I@Z
-?qRegisterResourceData@@YA_NHPEBE00@Z
-?qUnregisterResourceData@@YA_NHPEBE00@Z
-?qgetenv@@YA?AVQByteArray@@PEBD@Z
-?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
-?qt_QMetaEnum_debugOperator@@YA?AVQDebug@@AEAV1@HPEBUQMetaObject@@PEBD@Z
-?qt_QMetaEnum_flagDebugOperator@@YA?AVQDebug@@AEAV1@_KPEBUQMetaObject@@PEBD@Z
-?qt_assert@@YAXPEBD0H@Z
-?qt_assert_x@@YAXPEBD00H@Z
-?qt_check_pointer@@YAXPEBDH@Z
-?qt_metacall@QEventDispatcherWin32@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-?qt_metacall@QThread@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-?qt_metacast@QEventDispatcherWin32@@UEAAPEAXPEBD@Z
-?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-?qt_metacast@QThread@@UEAAPEAXPEBD@Z
-?quit@QCoreApplication@@SAXXZ
-?read@QIODevice@@QEAA_JPEAD_J@Z
-?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
-?realloc@QListData@@QEAAXH@Z
-?recalcMostLeftNode@QMapDataBase@@QEAAXXZ
-?refresh@QDir@@QEBAXXZ
-?registerConverterFunction@QMetaType@@SA_NPEBUAbstractConverterFunction@QtPrivate@@HH@Z
-?registerEventNotifier@QEventDispatcherWin32@@UEAA_NPEAVQWinEventNotifier@@@Z
-?registerNormalizedType@QMetaType@@SAHAEBVQByteArray@@P6AXPEAX@ZP6APEAX1PEBX@ZHV?$QFlags@W4TypeFlag@QMetaType@@@@PEBUQMetaObject@@@Z
-?registerNormalizedTypedef@QMetaType@@SAHAEBVQByteArray@@H@Z
-?registerSocketNotifier@QEventDispatcherWin32@@UEAAXPEAVQSocketNotifier@@@Z
-?registerTimer@QEventDispatcherWin32@@UEAAXHHW4TimerType@Qt@@PEAVQObject@@@Z
-?registeredTimers@QEventDispatcherWin32@@UEBA?AV?$QList@UTimerInfo@QAbstractEventDispatcher@@@@PEAVQObject@@@Z
-?remainingTime@QEventDispatcherWin32@@UEAAHH@Z
-?remove@QByteArray@@QEAAAEAV1@HH@Z
-?remove@QListData@@QEAAXH@Z
-?remove@QString@@QEAAAEAV1@AEBV1@W4CaseSensitivity@Qt@@@Z
-?remove@QString@@QEAAAEAV1@AEBVQRegularExpression@@@Z
-?remove@QString@@QEAAAEAV1@HH@Z
-?remove@QString@@QEAAAEAV1@VQChar@@W4CaseSensitivity@Qt@@@Z
-?replace@QByteArray@@QEAAAEAV1@DPEBD@Z
-?replace@QString@@QEAAAEAV1@AEBV1@0W4CaseSensitivity@Qt@@@Z
-?replace@QString@@QEAAAEAV1@AEBVQRegExp@@AEBV1@@Z
-?replace@QString@@QEAAAEAV1@HHAEBV1@@Z
-?requiresSurrogates@QChar@@SA_NI@Z
-?reserve@QByteArray@@QEAAXH@Z
-?resetFormat@QDebug@@QEAAAEAV1@XZ
-?resize@QByteArray@@QEAAXH@Z
-?resize@QString@@QEAAXH@Z
-?right@QRect@@QEBAHXZ
-?rightRef@QString@@QEBA?AVQStringRef@@H@Z
-?row@QChar@@QEBAEXZ
-?scheme@QUrl@@QEBA?AVQString@@XZ
-?second@QTime@@QEBAHXZ
-?sendEvent@QCoreApplication@@SA_NPEAVQObject@@PEAVQEvent@@@Z
-?sendPostedEvents@QCoreApplication@@SAXPEAVQObject@@H@Z
-?set@QThreadStorageData@@QEAAPEAPEAXPEAX@Z
-?setAutoInsertSpaces@QDebug@@QEAAX_N@Z
-?setByteOrder@QDataStream@@QEAAXW4ByteOrder@1@@Z
-?setColor@QMapNodeBase@@QEAAXW4Color@1@@Z
-?setFieldWidth@QTextStream@@QEAAXH@Z
-?setFilterRules@QLoggingCategory@@SAXAEBVQString@@@Z
-?setNameFilters@QDir@@QEAAXAEBVQStringList@@@Z
-?setObjectName@QObject@@QEAAXAEBVQString@@@Z
-?setPadChar@QTextStream@@QEAAXVQChar@@@Z
-?setParent@QMapNodeBase@@QEAAXPEAU1@@Z
-?setPosition@QTextBoundaryFinder@@QEAAXH@Z
-?setQObjectShared@ExternalRefCountData@QtSharedPointer@@QEAAXPEBVQObject@@_N@Z
-?setSize@QRect@@QEAAXAEBVQSize@@@Z
-?setSize@QRectF@@QEAAXAEBVQSizeF@@@Z
-?setX@QPoint@@QEAAXH@Z
-?setY@QPoint@@QEAAXH@Z
-?sharedNull@QArrayData@@SAPEAU1@XZ
-?shared_null@QHashData@@2U1@B
-?shared_null@QListData@@2UData@1@B
-?shared_null@QMapDataBase@@2U1@B
-?showbase@@YAAEAVQTextStream@@AEAV1@@Z
-?size@QByteArray@@QEBAHXZ
-?size@QListData@@QEBAHXZ
-?size@QRect@@QEBA?AVQSize@@XZ
-?size@QRectF@@QEBA?AVQSizeF@@XZ
-?size@QString@@QEBAHXZ
-?split@QString@@QEBA?AVQStringList@@VQChar@@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
-?start@QThread@@QEAAXW4Priority@1@@Z
-?startTimer@QObject@@QEAAHHW4TimerType@Qt@@@Z
-?startingUp@QCoreApplication@@SA_NXZ
-?startingUp@QEventDispatcherWin32@@UEAAXXZ
-?startsWith@QByteArray@@QEBA_NPEBD@Z
-?startsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
-?startsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
-?startsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
-?staticMetaObject@QEventDispatcherWin32@@2UQMetaObject@@B
-?staticMetaObject@QObject@@2UQMetaObject@@B
-?staticQtMetaObject@QObject@@1UQMetaObject@@B
-?status@QDataStream@@QEBA?AW4Status@1@XZ
-?surrogateToUcs4@QChar@@SAIV1@0@Z
-?terminate@QThread@@QEAAXXZ
-?testAttribute@QCoreApplication@@SA_NW4ApplicationAttribute@Qt@@@Z
-?text@QMimeData@@QEBA?AVQString@@XZ
-?time@QDateTime@@QEBA?AVQTime@@XZ
-?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
-?toBool@QVariant@@QEBA_NXZ
-?toByteArray@QUuid@@QEBA?AVQByteArray@@XZ
-?toDateTime@QVariant@@QEBA?AVQDateTime@@XZ
-?toDouble@QVariant@@QEBANPEA_N@Z
-?toInt@QByteArray@@QEBAHPEA_NH@Z
-?toInt@QStringRef@@QEBAHPEA_NH@Z
-?toInt@QVariant@@QEBAHPEA_N@Z
-?toLatin1@QString@@QEHAA?AVQByteArray@@XZ
-?toLocal8Bit@QString@@QEGBA?AVQByteArray@@XZ
-?toLocal8Bit@QString@@QEHAA?AVQByteArray@@XZ
-?toLocalFile@QUrl@@QEBA?AVQString@@XZ
-?toLongLong@QVariant@@QEBA_JPEA_N@Z
-?toLower@QByteArray@@QEGBA?AV1@XZ
-?toLower@QChar@@QEBA?AV1@XZ
-?toNativeSeparators@QDir@@SA?AVQString@@AEBV2@@Z
-?toNextBoundary@QTextBoundaryFinder@@QEAAHXZ
-?toPoint@QPointF@@QEBA?AVQPoint@@XZ
-?toPreviousBoundary@QTextBoundaryFinder@@QEAAHXZ
-?toRect@QRectF@@QEBA?AVQRect@@XZ
-?toString@QUrl@@QEBA?AVQString@@V?$QUrlTwoFlags@W4UrlFormattingOption@QUrl@@W4ComponentFormattingOption@2@@@@Z
-?toString@QVariant@@QEBA?AVQString@@XZ
-?toString@QVersionNumber@@QEBA?AVQString@@XZ
-?toUInt@QVariant@@QEBAIPEA_N@Z
-?toULongLong@QVariant@@QEBA_KPEA_N@Z
-?toUpper@QChar@@QEBA?AV1@XZ
-?toUtf8@QString@@QEGBA?AVQByteArray@@XZ
-?toUtf8@QString@@QEHAA?AVQByteArray@@XZ
-?toWCharArray@QString@@QEBAHPEA_W@Z
-?top@QRect@@QEBAHXZ
-?topLeft@QRect@@QEBA?AVQPoint@@XZ
-?topLeft@QRectF@@QEBA?AVQPointF@@XZ
-?translated@QRect@@QEBA?AV1@AEBVQPoint@@@Z
-?trimmed@QString@@QEGBA?AV1@XZ
-?trimmed@QString@@QEHAA?AV1@XZ
-?truncate@QString@@QEAAXH@Z
-?type@QEvent@@QEBA?AW4Type@1@XZ
-?type@QVariant@@QEBA?AW4Type@1@XZ
-?typeName@QMetaType@@SAPEBDH@Z
-?unicode@QChar@@QEAAAEAGXZ
-?unicode@QChar@@QEBAGXZ
-?unicode@QString@@QEBAPEBVQChar@@XZ
-?unlock@QMutex@@QEAAXXZ
-?unregisterConverterFunction@QMetaType@@SAXHH@Z
-?unregisterEventNotifier@QEventDispatcherWin32@@UEAAXPEAVQWinEventNotifier@@@Z
-?unregisterSocketNotifier@QEventDispatcherWin32@@UEAAXPEAVQSocketNotifier@@@Z
-?unregisterTimer@QEventDispatcherWin32@@UEAA_NH@Z
-?unregisterTimers@QEventDispatcherWin32@@UEAA_NPEAVQObject@@@Z
-?uppercasedigits@@YAAEAVQTextStream@@AEAV1@@Z
-?urls@QMimeData@@QEBA?AV?$QList@VQUrl@@@@XZ
-?userType@QVariant@@QEBAHXZ
-?utf16@QString@@QEBAPEBGXZ
-?value@QSettings@@QEBA?AVQVariant@@AEBVQString@@AEBV2@@Z
-?wait@QThread@@QEAA_NK@Z
-?wakeUp@QEventDispatcherWin32@@UEAAXXZ
-?warning@QMessageLogger@@QEBA?AVQDebug@@XZ
-?warning@QMessageLogger@@QEBAXPEBDZZ
-?width@QRect@@QEBAHXZ
-?width@QSize@@QEBAHXZ
-?width@QSizeF@@QEBANXZ
-?willGrow@QHashData@@QEAA_NXZ
-?windowsVersion@QSysInfo@@SA?AW4WinVersion@1@XZ
-?write@QIODevice@@QEAA_JPEBD_J@Z
-?x@QPoint@@QEBAHXZ
-?x@QPointF@@QEBANXZ
-?x@QRect@@QEBAHXZ
-?y@QPoint@@QEBAHXZ
-?y@QPointF@@QEBANXZ
-?y@QRect@@QEBAHXZ
-?year@QDate@@QEBAHXZ
-@ 9D$$s"
-@ 9D$$sQ
-@ 9D$$sx
-@ 9D$0v
-@ H9D$ 
-@ H9D$0t
-@ H9D$8t3H
-@ H9D$H
-@'@0a
-@(9D$
-@(9D$ 
-@(9D$ se
-@(9D$$
-@(9D$0
-@(9D$0}?HcD$0H
-@(9D$0}W
-@(9D$4
-@(9D$4|
-@(9D$4}_
-@(9D$8}:HcD$8H
-@(9D$8}=HcD$8H
-@(9D$<
-@(9D$@}&D
-@(9D$D}t
-@(9D$H|
-@(9D$`}uHcD$`Hk
-@(H9D$Hr
-@(H9D$Hu
-@(HcL$hHi
-@,9D$D|
-@,9D$XvaH
-@.data
-@.idata
-@.qtmetadF
-@.reloc
-@.rsrc
-@09D$ ~!H
-@09D$4sQ
-@09D$Pu
-@09D$l~9H
-@49D$
-@49D$H
-@89D$
-@89D$ s
-@89D$ sLH
-@89D$ }9HcD$ H
-@89D$0|
-@89D$0}VH
-@89D$4
-@89D$<}NHcD$<H
-@89D$@
-@89D$XsZ
-@89D$Xt#
-@89D$l}FHcD$lH
-@8@C@N
-@8H9D$
-@8H9D$0
-@8H9D$0u
-@8kL$`0
-@<9D$$s
-@@9D$4w$H
-@@9D$4w&H
-@@H9D$H
-@@H9D$`s-H
-@D9D$ps3
-@E9D$ps3
-@F9D$ps3
-@G9D$ps6
-@HH9D$
-@HH9D$ u
-@HH9D$(
-@HH9D$(u}H
-@HH9D$0
-@HH9D$`u
-@HH9D$h
-@HcD$ 
-@L9D$ sLH
-@P9D$
-@PH9D$(s
-@PH9D$(s!H
-@PH9D$hs!H
 @Qm6t
-@SUWATAUAVAWH
-@UVWAVH
-@X9D$ sZ
-@XH9D$0w
-@XHcL$0H
-@\9D$$u
-@`ltuo
-@`ltuo3
-@`ltuoH
-@`pmoc
-@`pmocH
-@`stib
-@`stibH
-@l9D$p
-@l9D$p}[H
-@l9D$p~cH
-@}`}i
-A HcD$t
-A cast to a smaller data type has caused a loss of data.  If this was intentional, you should mask the source of the cast with the appropriate bitmask.  For example:  
-A local variable was used before it was initialized
+A cast to a smaller data type has caused a loss of data.  If this was intentional, you should mask the source of the cast with the appropriate bitmask.  For example:  \n\r\tchar c = (i & 0xFF);\n\rChanging the code in this way will not affect the quality of the resulting optimized code.\n\r
+A local variable was used before it was initialized\n\r
 A variable is being used without being initialized.
-A'qQU
-A09D$$u
-A;4$rn
+A'qQU\v
+A*A3
 A;AAA[
-A@kD$`0
 ADD_STYLE_NAME
-ADVAPI32.dll
 AEsmall
-AHcD$ H
-AHcD$0H
+AJAU
 ARB::choosePixelFormat
 ARB::createContext
 ARB::qSurfaceFormatFromHDC
 AVERAGE_WIDTH
 AVG_CAPITAL_WIDTH
 AVG_LOWERCASE_WIDTH
-A^_^]
-A_A][]
-A_A^A]A\_][
 Aacute
 Aacutesmall
 AccessibleApplication::QI(): IID_IAccessibleApplication
@@ -2011,17 +525,12 @@ Action
 Acutesmall
 AddClipboardFormatListener
 AddClipboardFormatListener() failed.
-AddFontMemResourceEx
-AddFontResourceExW
-Address: 0x
 Adieresis
 Adieresissmall
-AdjustWindowRectEx
 Agrave
 Agravesmall
 Aharoni
 AiAtA
-Allocation number within this function: 
 Andale Mono
 Andalus
 Angsana New
@@ -2043,17 +552,16 @@ Automatic mouse capture
 Automatic mouse capture for missing buttondown event
 AxisLabel
 AxisType
+B5*S
 B<B{B
 BBBhhh
 BFBQB[Bb
 BITMAP
-BODAH
 Basic wglCreateContext gives version %d.%d
 Baskerville
 Batang
 BeUNO
-BeginPaint
-BitBlt
+BiBr
 Bitstream Vera Sans
 Black
 BlendAxisTypes
@@ -2063,32 +571,27 @@ BlueFuzz
 BlueScale
 BlueShift
 BlueValues
+Bold
 Bold Italic
 Bold/BoldItalic Class
 Bold/Italic/BoldItalic Class
+Book
 Brevesmall
 Browallia New
 BrowalliaUPC
 Bsmall
 BuildCharArray
 CAP_HEIGHT
-CBDAH
-CBDAt
-CF = 
-CFF H
 CHARS
 CHARSET_COLLECTIONS
 CHARSET_ENCODING
 CHARSET_REGISTRY
-CHcD$$H
 CID Type 1
 CIDCount
 CIDFontName
 CIDFontType
 CIDFontVersion
 CIDMapOffset
-CLBCH
-CLBEH
 COM error 0x
 COMMENT
 COMPATTR 
@@ -2099,9 +602,9 @@ CO_E_ALREADYINITIALIZED
 CO_E_NOTINITIALIZED
 CO_E_NOT_SUPPORTED
 CQCtC
-CR?renderDataHelper@QInternalMimeData@@SA?AVQByteArray@@AEBVQString@@PEBVQMimeData@@@Z
-CS?setApplicationIcon@QPlatformIntegration@@UEBAXAEBVQIcon@@@Z
 CURSORPOS 
+CWCf
+C\nM4
 Cacute
 Cannot launch '%s': There is no mail program installed.
 CapHeight
@@ -2114,31 +617,16 @@ Cedillasmall
 Century
 Century Gothic
 Chalkboard
-ChangeClipboardChain
-Changing the code in this way will not affect the quality of the resulting optimized code.
 CharStrings
 CharWidth
 CharacterSet
 Characters
-CheckRemoteDebuggerPresent
-ChildWindowFromPointEx
-ChoosePixelFormat
 Circumflexsmall
 Clear type: 
-ClientToScreen
 Clipboard changed owned 
 Clipboard owner on shutdown, releasing.
-CloseHandle
 CloseTouchInputHandle
-CoCreateGuid
-CoCreateInstance
 CoCreateInstance failed
-CoGetMalloc
-CoInitialize
-CoLockObjectExternal
-CoTaskMemAlloc
-CoTaskMemFree
-CombineRgn
 Comic Sans MS
 Consolas
 ContextFormat: v
@@ -2147,849 +635,17 @@ CordiaUPC
 Core MS Legacy Fonts
 Courier
 Courier New
-CreateCaret
-CreateCompatibleBitmap
-CreateCompatibleDC
-CreateCursor
-CreateDCW
-CreateDIBSection
-CreateEventW
-CreateFontIndirectW
-CreateIconIndirect
-CreateProcessW
-CreateRectRgn
 CreateWindowEx: 
 CreateWindowEx: returns 
-CreateWindowExW
 Created desktop window 
 Creating context version
 Csmall
 CursorEntry:
 CursorShape
-D	?boundingRect@QRegion@@QEBA?AVQRect@@XZ
-D$ 9D$
-D$ 9D$$
-D$ 9D$$shH
-D$ 9D$$sjkD$$
-D$ 9D$$}&
-D$ 9D$(}*
-D$ 9D$,
-D$ 9D$,s
-D$ 9D$0
-D$ 9D$4
-D$ 9D$4uCH
-D$ 9D$8
-D$ 9D$@}
-D$ 9D$p
-D$ D+
-D$ E3
-D$ H9D$
-D$ H9D$(
-D$ H9D$(u
-D$ H9D$(u4H
-D$ H=
-D$ Hc
-D$ Hc@0H
-D$ Hc@8H
-D$ Hc@<H
-D$ Hc@DH
-D$ HcD$
-D$ HcD$ 3
-D$ HcD$ H
-D$ HcD$ HcL$0H
-D$ HcD$,H
-D$ HcD$0H
-D$ HcD$@H
-D$ HcD$PHk
-D$ HcD$xH
-D$ HcL$,H
-D$ Hi
-D$ Hk
-D$ Hk@
-D$ TSOPD
-D$ _^
-D$ iD$ 
-D$ tnfsD
-D$ xtmhH
-D$ xtmvH
-D$$9D$ 
-D$$9D$ s
-D$$9D$ s"
-D$$9D$ s%
-D$$9D$ s(
-D$$9D$ s;L
-D$$9D$ sA
-D$$9D$ spH
-D$$9D$ t
-D$$9D$ v
-D$$9D$ |
-D$$9D$ }&
-D$$9D$ }&H
-D$$9D$ }XH
-D$$9D$(
-D$$9D$(s
-D$$9D$(sS
-D$$9D$(u
-D$$9D$(uyH
-D$$9D$,
-D$$9D$0r%
-D$$9D$8
-D$$9D$8ul
-D$$9D$H}D
-D$$9D$L}AHcD$LH
-D$$HcD$ H
-D$$HcD$$Hk
-D$$HcD$\H
-D$$HcL$,H
-D$$Hk
-D$$fA
-D$$kD$8
-D$(9D$ 
-D$(9D$ s2
-D$(9D$ sJ
-D$(9D$ v
-D$(9D$ |
-D$(9D$ }
-D$(9D$ }U
-D$(9D$$
-D$(9D$$uqH
-D$(9D$$}
-D$(9D$$}#HcD$$
-D$(9D$,
-D$(9D$,|
-D$(9D$0w
-D$(9D$4wC
-D$(9D$8
-D$(9D$@
-D$(E3
-D$(H9
-D$(H9D$
-D$(H9D$ 
-D$(H9D$ s
-D$(H9D$ s+H
-D$(H9D$ s-H
-D$(H9D$ s4
-D$(H9D$ s=
-D$(H9D$ s?
-D$(H9D$ s@
-D$(H9D$ sCH
-D$(H9D$ t
-D$(H9D$ u
-D$(H9D$ v
-D$(H9D$0t
-D$(H9D$Ht
-D$(H9D$Hu
-D$(Hc
-D$(Hc@
-D$(HcD$ H
-D$(HcD$(H
-D$(HcD$pHi
-D$(HcD$xH
-D$(HcL$ H
-D$(Hk
-D$(k@8
-D$(kD$ 
-D$(kD$(
-D$,9D$ 
-D$,9D$$
-D$,9D$$rGH
-D$,9D$$s
-D$,9D$$s0
-D$,9D$$sR
-D$,9D$$}8
-D$,9D$(
-D$,9D$(}
-D$,9D$(~
-D$,9D$0
-D$,9D$0}
-D$,9D$@
-D$,9D$D
-D$,9D$Xw
-D$,HcD$,H
-D$,Hk
-D$,j6
-D$,kD$p
-D$09D$ 
-D$09D$ }-
-D$09D$$
-D$09D$$}
-D$09D$(
-D$09D$(st
-D$09D$(~
-D$09D$,
-D$09D$,s
-D$09D$,s0
-D$09D$,t
-D$09D$,u
-D$09D$,uf
-D$09D$,v
-D$09D$4r
-D$09D$4}
-D$09D$4~
-D$09D$4~:H
-D$09D$8
-D$09D$8s
-D$09D$8|@
-D$09D$8}
-D$09D$@}cHcD$@H
-D$09D$D|
-D$09D$H
-D$09D$L}$HcD$L
-D$09D$P
-D$09D$P}
-D$09D$Tv
-D$09D$p
-D$0D#
-D$0E3
-D$0H9
-D$0H9D$
-D$0H9D$ 
-D$0H9D$ sB
-D$0H9D$ sj
-D$0H9D$ t
-D$0H9D$(
-D$0H9D$(r
-D$0H9D$(s
-D$0H9D$(t8H
-D$0H9D$(t@H
-D$0H9D$(u
-D$0H9D$(uAH
-D$0H9D$(v#H
-D$0H9D$(v3H
-D$0H9D$@u
-D$0H9D$`sHL
-D$0Hc
-D$0Hc@
-D$0Hc@ H=
-D$0Hc@8Hk
-D$0HcD$ H
-D$0HcD$0
-D$0HcD$0H
-D$0HcD$8H
-D$0HcL$pH
-D$0Hi
-D$0Hk
-D$0iD$0
-D$0kD$(
-D$1E3
-D$49D$ 
-D$49D$ w^H
-D$49D$ }
-D$49D$ }~
-D$49D$$
-D$49D$$}
-D$49D$(
-D$49D$(u
-D$49D$(v
-D$49D$,
-D$49D$,uY
-D$49D$,w
-D$49D$0
-D$49D$0u{
-D$49D$0v
-D$49D$0|
-D$49D$0~
-D$49D$0~<
-D$49D$8
-D$49D$8s
-D$49D$8t<D
-D$49D$8}
-D$49D$8}7HcD$8H
-D$49D$8}`HcD$8Hk
-D$49D$<~
-D$49D$Ds
-D$49D$Du3
-D$49D$H
-D$49D$H~
-D$49D$L~
-D$49D$P
-D$49D$Tu.
-D$4D+
-D$4HcD$ Hk
-D$4HcD$0
-D$4HcD$4H
-D$4Hk
-D$4HkD$(
-D$4kD$(
-D$89D$
-D$89D$ 
-D$89D$ |
-D$89D$$vTL
-D$89D$(
-D$89D$(sp
-D$89D$(u
-D$89D$(}
-D$89D$,
-D$89D$,s#H
-D$89D$,}
-D$89D$0
-D$89D$0v[
-D$89D$0v^
-D$89D$0vf
-D$89D$0}7H
-D$89D$4
-D$89D$4r
-D$89D$4s
-D$89D$4s7H
-D$89D$4sKH
-D$89D$4suH
-D$89D$4u
-D$89D$4u!H
-D$89D$4}
-D$89D$<
-D$89D$<uJH
-D$89D$<v
-D$89D$<}8H
-D$89D$@
-D$89D$@s
-D$89D$H
-D$89D$H}
-D$89D$Lr
-D$89D$Lt@H
-D$89D$L}
-D$89D$T
-D$89D$Tu
-D$89D$hs
-D$8;D$(u
-D$8E3
-D$8H%
-D$8H9D$
-D$8H9D$ 
-D$8H9D$ s*
-D$8H9D$ u
-D$8H9D$ v
-D$8H9D$(
-D$8H9D$(r
-D$8H9D$(s
-D$8H9D$(s9H
-D$8H9D$(s}H
-D$8H9D$(t
-D$8H9D$(t@H
-D$8H9D$(u
-D$8H9D$0
-D$8H9D$0r
-D$8H9D$0s
-D$8H9D$0s H
-D$8H9D$0t
-D$8H9D$@t
-D$8H9D$hvOH
-D$8Hc
-D$8Hc@
-D$8Hc@8H
-D$8Hc@8L
-D$8HcD$ H
-D$8HcD$0
-D$8HcD$@H
-D$8HcD$HH
-D$8HcD$xH
-D$8Hi
-D$8Hk
-D$8headH
-D$8k@
-D$8kD$ 
-D$<9D$(
-D$<9D$(}
-D$<9D$,u	2
-D$<9D$0s_
-D$<9D$0sb
-D$<9D$0sj
-D$<9D$0u
-D$<9D$0w&
-D$<9D$0w*H
-D$<9D$0wX
-D$<9D$0~
-D$<9D$4
-D$<9D$4t
-D$<9D$4v
-D$<9D$4vs
-D$<9D$4|
-D$<9D$8
-D$<9D$8s
-D$<9D$8u
-D$<9D$8uH
-D$<9D$8v
-D$<9D$8w#
-D$<9D$8w%
-D$<9D$8~
-D$<9D$@|3
-D$<9D$Dw
-D$<9D$H
-D$<9D$L
-D$<9D$Pv
-D$<9D$Tv
-D$<E3
-D$<Hk
-D$@9D$ 
-D$@9D$$
-D$@9D$$}-HcD$$HcL$$H
-D$@9D$(}
-D$@9D$0
-D$@9D$0w
-D$@9D$0w.
-D$@9D$0w^
-D$@9D$0} 
-D$@9D$0}1
-D$@9D$4t 
-D$@9D$4t&
-D$@9D$8
-D$@9D$D
-D$@9D$D~
-D$@9D$H|
-D$@E3
-D$@H9D$
-D$@H9D$ t
-D$@H9D$(s+
-D$@H9D$(u
-D$@H9D$(u	H
-D$@H9D$0
-D$@H9D$0u
-D$@H9D$0|3L
-D$@H9D$0}.H
-D$@H9D$8
-D$@H9D$8u
-D$@H9D$8u	H
-D$@H9D$Hs@D
-D$@H9D$Ht
-D$@H9D$Ht@H
-D$@H9D$P
-D$@H9D$Xr
-D$@H9D$Xs
-D$@H9D$XvG
-D$@Hc
-D$@Hc@
-D$@Hc@0H
-D$@Hc@8H
-D$@HcD$ Hk
-D$@HcD$$H
-D$@HcD$0H
-D$@HcD$@H
-D$@HcD$hHi
-D$@Hk
-D$@HkD$@
-D$@fA9
-D$@k@
-D$@kD$(
-D$AHcD$HH
-D$D9D$ t"H
-D$D9D$(|
-D$D9D$0
-D$D9D$0thH
-D$D9D$0u=
-D$D9D$0~
-D$D9D$8
-D$D9D$<u
-D$D9D$<v
-D$D9D$@
-D$D9D$@r
-D$D9D$H
-D$D9D$H}
-D$D9D$H~)H
-D$D9D$P
-D$D9D$P~
-D$D9D$Tr
-D$D9D$Ts
-D$D9D$T~
-D$D9D$X}
-D$D9D$\}@HcD$\H
-D$DHcD$0H
-D$DHcD$D3
-D$DHcD$DH
-D$DHcD$PH
-D$DHk
-D$DHkL$  H
-D$DHkL$0 H
-D$DkD$D0
-D$FHcD$0H
-D$H9D$ 
-D$H9D$ r
-D$H9D$ s"
-D$H9D$ s7H
-D$H9D$ soH
-D$H9D$ t
-D$H9D$ v
-D$H9D$$r
-D$H9D$$s23
-D$H9D$,v
-D$H9D$0
-D$H9D$0~*
-D$H9D$4s
-D$H9D$4}
-D$H9D$8}
-D$H9D$<s
-D$H9D$@
-D$H9D$@sT
-D$H9D$D
-D$H9D$D}0H
-D$H9D$L
-D$H9D$LtaH
-D$H9D$L|
-D$H9D$L}
-D$H9D$L~
-D$H9D$`w
-D$H9D$|tp
-D$H9D$|}
-D$HE3
-D$HH+D$xH
-D$HH9D$
-D$HH9D$ s
-D$HH9D$ tHH
-D$HH9D$(
-D$HH9D$(r
-D$HH9D$(s
-D$HH9D$(srH
-D$HH9D$(s{H
-D$HH9D$(t|3
-D$HH9D$(u
-D$HH9D$8r
-D$HH9D$8s
-D$HH9D$8s-H
-D$HH9D$8u
-D$HH9D$@
-D$HH9D$@u
-D$HH9D$@v H
-D$HH9D$P
-D$HH9D$Ps-H
-D$HHc
-D$HHc@
-D$HHcD$0L
-D$HHcD$H3
-D$HHcD$hHi
-D$HHk
-D$HHk@
-D$HHkD$0 HkL$0 H
-D$Hcinu
-D$HiD$P
-D$Hk@
-D$HkD$H
-D$L9D$ 
-D$L9D$$
-D$L9D$$}
-D$L9D$$}1
-D$L9D$(w
-D$L9D$,s
-D$L9D$0srH
-D$L9D$4}'HcD$4H
-D$L9D$4~
-D$L9D$8
-D$L9D$<
-D$L9D$D
-D$L9D$H
-D$L9D$Ht_
-D$L9D$H}0H
-D$L9D$P
-D$L9D$Pt(
-D$L9D$T}+H
-D$L9D$xtz
-D$L9D$x|
-D$L=MZ
-D$LE3
-D$LHcD$4H
-D$LHcD$LH
-D$NE3
-D$P9D$
-D$P9D$ 
-D$P9D$ s)
-D$P9D$ s<
-D$P9D$ v
-D$P9D$(u
-D$P9D$,
-D$P9D$0
-D$P9D$0}
-D$P9D$4}:HcD$4H
-D$P9D$@r
-D$P9D$L
-D$P9D$Tr
-D$P9D$Tt
-D$P9D$Tu)
-D$P9D$Tv
-D$P9D$Tw
-D$P9D$T~2H
-D$P9D$hs$H
-D$PD+
-D$PE3
-D$PH%
-D$PH9
-D$PH9D$ uuH
-D$PH9D$(
-D$PH9D$(s
-D$PH9D$(tMH
-D$PH9D$(u
-D$PH9D$(uPH
-D$PH9D$0
-D$PH9D$0r
-D$PH9D$0s
-D$PH9D$0sLH
-D$PH9D$0u
-D$PH9D$0v6
-D$PH9D$8t
-D$PH9D$@
-D$PH9D$Hr
-D$PH9D$Ht
-D$PH9D$Ht&H
-D$PH9D$Ht,H
-D$PH9D$HtMH
-D$PH9D$Xr*
-D$PHc
-D$PHc@
-D$PHc@0H
-D$PHc@8H
-D$PHc@pH
-D$PHcD$$H
-D$PHcD$$Hk
-D$PHcD$$L
-D$PHcD$DH
-D$PHcD$LHk
-D$PHcD$PH
-D$PHcL$4H
-D$PHk
-D$PkD$L
-D$T9D$,wZ
-D$T9D$0sk
-D$T9D$0|
-D$T9D$<vl
-D$T9D$@
-D$T9D$H
-D$T9D$P
-D$T9D$Ps9H
-D$T9D$Ps_H
-D$T9D$Pu{
-D$T9D$X
-D$T9D$\}DH
-D$T=NE
-D$T=PE
-D$THcD$TH
-D$X1tal
-D$X9D$ r
-D$X9D$ s
-D$X9D$ s0
-D$X9D$ v
-D$X9D$(u
-D$X9D$,
-D$X9D$,}
-D$X9D$0
-D$X9D$0}
-D$X9D$0}'HkD$(
-D$X9D$4s2
-D$X9D$8
-D$X9D$<
-D$X9D$@
-D$X9D$@v
-D$X9D$P
-D$X9D$Pu
-D$X9D$P~
-D$X9D$T
-D$X9D$Tv
-D$X9D$Tw
-D$X9D$\
-D$X9D$\sRH
-D$X9D$\}
-D$XBODA3
-D$XCBDA
-D$XD+
-D$XE3
-D$XEBDA
-D$XH9
-D$XH9D$
-D$XH9D$ 
-D$XH9D$ s
-D$XH9D$ s"H
-D$XH9D$(
-D$XH9D$(sLH
-D$XH9D$(sQH
-D$XH9D$(u
-D$XH9D$0
-D$XH9D$0u
-D$XH9D$8
-D$XH9D$8v
-D$XH9D$@r
-D$XH9D$Pr
-D$XH9D$Pre
-D$XH9D$Pt<H
-D$XH9D$PtNH
-D$XH9D$`t
-D$XHc@
-D$XHcD$$Hk
-D$XHcD$0H
-D$XHcD$XH
-D$XHcD$`H
-D$XHk
-D$XHkD$`HH
-D$XcinuE3
-D$XkD$p
-D$\9D$ 
-D$\9D$Lt&
-D$\9D$Tt4H
-D$\9D$X
-D$\9D$Xv
-D$\9D$X}
-D$\9D$`~
-D$\HcD$4H
-D$`% 
-D$`' 
-D$`9D$ 
-D$`9D$ s.
-D$`9D$ sq
-D$`9D$ t
-D$`9D$4}0H
-D$`9D$4}IH
-D$`9D$<v
-D$`9D$T
-D$`9D$Tr
-D$`9D$\s
-D$`9D$d
-D$`9D$h~4
-D$`E3
-D$`H9
-D$`H9D$ 
-D$`H9D$(
-D$`H9D$(u
-D$`H9D$0
-D$`H9D$0u
-D$`H9D$8r
-D$`H9D$8s%
-D$`H9D$8s?
-D$`H9D$8sS
-D$`H9D$8sm
-D$`H9D$@slH
-D$`H9D$H
-D$`H9D$Hv
-D$`H9D$Ps
-D$`H9D$Xr
-D$`H9D$Xt
-D$`H9D$XtBH
-D$`H9D$XtFH
-D$`H9D$XtNH
-D$`H9D$XtPH
-D$`H9D$XtTH
-D$`H9D$XtVH
-D$`Hc
-D$`Hc@
-D$`Hc@0H
-D$`HcD$$H
-D$`HcD$(H
-D$`HcD$0H
-D$`Hk
-D$`Hk@
-D$`nameH
-D$d9D$ ~
-D$d9D$4~
-D$d9D$<s
-D$d9D$D
-D$d9D$Hr
-D$d9D$HsQH
-D$dHcD$dH
-D$dHk
-D$h1tal
-D$h9D$ }
-D$h9D$ ~
-D$h9D$4
-D$h9D$8s2
-D$h9D$<r
-D$h9D$@}
-D$h9D$H
-D$h9D$Hv
-D$h9D$H}|HcD$H
-D$h9D$`~
-D$h9D$d~
-D$h9D$l
-D$h9D$lv&D
-D$h9D$pv
-D$hBODA3
-D$hCBDA
-D$hE3
-D$hEBDA
-D$hH9D$(
-D$hH9D$(r
-D$hH9D$(s0H
-D$hH9D$(u
-D$hH9D$0
-D$hH9D$0r
-D$hH9D$0u
-D$hH9D$@
-D$hH9D$@wFH
-D$hH9D$P
-D$hH9D$Pu
-D$hH9D$Xu
-D$hH9D$`v
-D$hH9D$pt
-D$hHc
-D$hHc@
-D$hHcD$,H
-D$hHcD$HH
-D$hHi
-D$hHk
-D$hHkD$H H
-D$hcinuE3
-D$l9D$8s,
-D$l9D$8s_
-D$l9D$Hs
-D$l9D$Hs0H
-D$lHcD$8H
-D$lHcD$@H
-D$lHcD$lH
-D$lkD$(
-D$p9D$ 
-D$p9D$$|
-D$p9D$(|
-D$p9D$4su
-D$p9D$8
-D$p9D$@s8
-D$p9D$@s@
-D$p9D$H
-D$p9D$P
-D$p9D$T~
-D$p9D$h
-D$p9D$ht
-D$pE3
-D$pH9
-D$pH9D$ 
-D$pH9D$(
-D$pH9D$0
-D$pH9D$8
-D$pH9D$@v
-D$pH9D$@}3H
-D$pH9D$Ht
-D$pH9D$P
-D$pH9D$P}
-D$pH9D$P}?H
-D$pH9D$`
-D$pH9D$htWH
-D$pH9D$htlH
-D$pHc
-D$pHc@
-D$pHcD$ Hk
-D$pHcD$$H
-D$pHk
-D$t9D$Ts
-D$t9D$Xv
-D$t9D$lu
-D$t9D$pt
-D$t9D$xt`
-D$x9D$0
-D$x9D$0s.
-D$x9D$0s9
-D$x9D$4t
-D$x9D$8
-D$x9D$8s H
-D$x9D$8s"
-D$xH9D$@
-D$xH9D$@s
-D$xH9D$@s'H
-D$xH9D$@s+H
-D$xH9D$PtZH
-D$xHc
-D$xHc@
-D$xHcD$ HcL$0H
-D$xHcD$DH
-D$xHcD$HHk
-D$xHcD$xH
-D$xHk
-D$|9D$4
-D$|9D$x
-D$|HcD$t
 D&D4a
 D:\qt5\qtbase\plugins\platforms\qwindowsd.pdb
 DEFAULT_CHAR
+DEST
 DESTINATION
 DEVICE_FONT_NAME
 DFKai-SB
@@ -2998,39 +654,23 @@ DFKaiShu
 DL-t(
 DWDbDgD
 DWIDTH
-DWrite.dll
-DWriteCreateFactory
 Dark Courier
-Data: <
 David
 David Transparent
-DefWindowProcW
 DejaVu Sans
-DeleteCriticalSection
-DeleteDC
-DeleteObject
 Delta
 Depth=
 Descender
-DescribePixelFormat
 DesignVector
-DestroyCaret
-DestroyCursor
-DestroyIcon
-DestroyWindow
 Dieresissmall
 Digitizers:
 DilleniaUPC
 Direct3DCreate9
-DisableThreadLibraryCalls
 Disabling ANGLE: 
 Disabling D3D11: 
 Disabling D3D9: 
 Disabling Desktop GL: 
-DkD$D
-DkL$D
-DkT$D
-DoDragDrop
+DmDs
 Dotaccentsmall
 DpiAwareness=
 Droid Sans
@@ -3041,17 +681,14 @@ DwmEnableBlurBehindWindow
 DwmIsCompositionEnabled
 E+E\HTH\HfHrH
 E3EAEL
-EBDAH
-EBDTH
 ENCODING
 ENDCHAR
 ENDFONT
 ENDPROPERTIES
 END_SPACE
+EQC 
 ET2g(
-ET?setFillRule@QPainterPath@@QEAAXW4FillRule@Qt@@@Z
 EVENT: hwd=
-EW?showPlatformMenuBar@QPlatformTheme@@UEAAXXZ
 E_ABORT
 E_FAIL
 E_HANDLE
@@ -3068,9 +705,7 @@ Edieresis
 Edieresissmall
 Egrave
 Egravesmall
-EkD$,
 EnEyE
-EnableMenuItem
 Encoding
 EncodingScheme
 EndAxis
@@ -3078,37 +713,30 @@ EndCharMetrics
 EndComposites
 EndDirection
 EndFontMetrics
-EndFragment:0000000000
 EndHTML:
-EndHTML:0000000000
 EndKernData
 EndKernPairs
-EndPaint
 EndTrackKern
-EnterCriticalSection
 Entering 
-EnumDisplayMonitors
-EnumFontFamiliesExW
-EnumWindows
 EscChar
 Esmall
 Estrangelo Edessa
 Ethsmall
 EucrosiaUPC
 Event window: 
-ExpandEnvironmentStringsW
 ExpansionFactor
 ExpertEncoding
-ExtTextOutW
-Extensions: 
 External WM_DESTROY received for 
 F'F2F>F\Fsa
 FACE_NAME
 FAMILY_NAME
+FC\r4
 FDArray
 FDBytes
-FFOwt
+FH-H
 FIGURE_WIDTH
+FKFV
+FONT
 FONTBOUNDINGBOX
 FONTDATA
 FONTDEF
@@ -3129,8 +757,8 @@ FamilyBlues
 FamilyName
 FamilyOtherBlues
 FangSong_GB2312
+FbFi
 Fixed Miriam Transparent
-FlashWindowEx
 FontBBox
 FontDirectory
 FontMatrix
@@ -3139,427 +767,60 @@ FontType
 ForceBold
 ForceBoldThreshold
 Foreign window: 
-Format: 
-FormatMessageW
 FrankRuehl
 Franklin Gothic Medium
-FreeLibrary
 FreesiaUPC
 Fsmall
 FullName
 G!G&C
 G+GXGfGkGpGuG{G
 G7G;G@GEGJM
+G87M
+G9\n-.-2-6-:->-B-F-J-N-R0
 GDBytes
-GDI32.dll
 GDI::choosePixelFormat
 GDI::createContext
-GHcD$\H
 GL_ARB_multisample 
 GL_ARB_robustness
 GPGTB
 GPU features:
-GQ?qt_metacast@QPlatformFileDialogHelper@@UEAAPEAXPEBD@Z
-GX?supported@QSupportedWritingSystems@@QEBA_NW4WritingSystem@QFontDatabase@@@Z
-GZ?type@QTouchDevice@@QEBA?AW4DeviceType@1@XZ
 G^GbF
 Garamond
 Gautami
 Gbreve
-GdiFlush
 Generating leave event for 
 Geneva
 Georgia
-GetAncestor
-GetAsyncKeyState
-GetBitmapBits
-GetCapture
-GetCaretBlinkTime
-GetCharABCWidthsFloatW
-GetCharABCWidthsI
-GetCharABCWidthsW
 GetCharWidthI
-GetClassInfoW
-GetClientRect
-GetClipboardFormatNameW
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetCursor
-GetCursorInfo
-GetCursorPos
-GetDC
-GetDesktopWindow
-GetDeviceCaps
-GetDoubleClickTime
 GetDpiForMonitor
-GetFocus
-GetFontData
-GetForegroundWindow
-GetGlyphOutlineW
-GetIconInfo
-GetKeyState
-GetKeyboardLayout
-GetKeyboardLayoutList
-GetKeyboardState
-GetLastError
-GetLocaleInfoW
-GetMenu
-GetMessageExtraInfo
-GetModuleHandleW
-GetMonitorInfoW
-GetObjectW
 GetOpenFileNameW
-GetOutlineTextMetricsW
-GetParent
-GetPixelFormat
-GetProcAddress
 GetProcessDpiAwareness
-GetProcessHeap
 GetSaveFileNameW
-GetStartupInfoW
-GetStockObject
-GetSysColor
-GetSysColorBrush
-GetSystemMenu
-GetSystemMetrics
-GetSystemTimeAsFileTime
-GetTextExtentPoint32W
-GetTextFaceW
-GetTextMetricsW
 GetTouchInputInfo
-GetUpdateRect
-GetUserDefaultLangID
-GetUserDefaultLocaleName
-GetWindowLongPtrW
-GetWindowLongW
-GetWindowPlacement
-GetWindowRect
-GetWindowTextW
-GetWindowThreadProcessId
 Gill Sans
-GlobalAlloc
-GlobalLock
-GlobalSize
-GlobalUnlock
 GpuDescription(vendorId=
 Gravesmall
 Gsmall
 Gulim
-H	?brightText@QPalette@@QEBAAEBVQBrush@@XZ
-H+D$ 3
-H+D$(3
-H+D$(H
-H+D$03
-H+D$P9D$$w
-H+D$XH
-H+D$`9D$$w
-H+D$`9D$,w
-H+D$p9D$<w
-H0HcD$DH
-H8HcD$xH
-H9APt.H
-H9D$ 
-H9D$ r#
-H9D$ r1
-H9D$ r4
-H9D$ s%H
-H9D$ t$A
-H9D$ t)H
-H9D$ tIH
-H9D$ tJH
-H9D$ tKH
-H9D$ tm
-H9D$ tn
-H9D$ tq
-H9D$ tv
-H9D$ u
-H9D$(
-H9D$(r
-H9D$(s
-H9D$(t$A
-H9D$(t$H
-H9D$(t.H
-H9D$(t2H
-H9D$(u
-H9D$0
-H9D$0r	H
-H9D$0s
-H9D$0s7H
-H9D$0sYH
-H9D$0saH
-H9D$0t
-H9D$0t;H
-H9D$0tGH
-H9D$0u
-H9D$0uX
-H9D$8
-H9D$8s
-H9D$8t
-H9D$8t/H
-H9D$8t;H
-H9D$8tfH
-H9D$8thH
-H9D$8tiH
-H9D$8tzH
-H9D$8v
-H9D$@
-H9D$@r
-H9D$@s;H
-H9D$@sDH
-H9D$@t
-H9D$@t!H
-H9D$@tPH
-H9D$@u
-H9D$@uQL
-H9D$@v
-H9D$H
-H9D$Hr
-H9D$Hs
-H9D$Ht
-H9D$Ht/H
-H9D$HtPH
-H9D$Hv
-H9D$HvAH
-H9D$P
-H9D$Pv
-H9D$Xs2
-H9D$Xv
-H9D$`
-H9D$`s$H
-H9D$`v
-H9D$h
-H9D$hr
-H9D$hs
-H9D$hs$H
-H9D$hs0H
-H9D$hu
-H9D$hw
-H9D$x
-H9D$xr+
-H9D$xs!H
-H9D$xu
-H9E(v
-H9H u
-H9H(u(H
-H;D$(
-H;D$(ss
-H;D$(t(H
-H;D$(v
-H;D$0s*H
-H;D$0v
-H;D$8
-H;D$8s
-H;D$8v
-H;D$@
-H;D$@s{H
-H;D$@v
-H;D$@w
-H;D$@w1
-H;D$H
-H;D$Ht
-H;D$Hv
-H;D$P
-H;D$Ps0A
-H;D$Ps3A
-H;D$X
-H;D$Xs0A
-H;D$Xs3A
-H;D$Xsb
-H;D$Xu
-H;D$Xv
-H;D$`r
-H;D$`sN
-H;D$`v
-H;D$h
-H;D$hv
-H;D$pu
-H;D$pw
-H;D$xv
+H=HF
 HCURSOR
 HEZLOCUS
 HFONT
 HKEY_CURRENT_USER\AppEvents\Schemes\Apps\.Default\
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes
 HPLTE
-HX?supportedActions@QDrag@@QEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
-HZ?type@QTransform@@QEBA?AW4TransformationType@1@XZ
-Hc@,H
-Hc@0H
-Hc@8L
-Hc@<H
-HcD$ 
-HcD$ H
-HcD$ HcL$(H
-HcD$ HcL$0H
-HcD$ Hi
-HcD$ Hk
-HcD$ L
-HcD$$
-HcD$$H
-HcD$$Hk
-HcD$$L
-HcD$(
-HcD$(3
-HcD$(A
-HcD$(H
-HcD$(Hk
-HcD$,3
-HcD$,H
-HcD$,L
-HcD$,fA
-HcD$0
-HcD$0H
-HcD$0HcL$ H
-HcD$0HcL$8H
-HcD$0Hk
-HcD$0L
-HcD$4
-HcD$43
-HcD$4H
-HcD$4H%
-HcD$4HcL$8H
-HcD$4Hk
-HcD$8
-HcD$8H
-HcD$8Hi
-HcD$8Hk
-HcD$<
-HcD$<H
-HcD$<Hk
-HcD$@
-HcD$@H
-HcD$@HcL$0H
-HcD$DH
-HcD$DHk
-HcD$HH
-HcD$HHk
-HcD$HL
-HcD$L
-HcD$LH
-HcD$LHk
-HcD$PH
-HcD$PHk
-HcD$TE3
-HcD$TH
-HcD$THk
-HcD$XH
-HcD$XL
-HcD$XfA
-HcD$\H
-HcD$`
-HcD$`H
-HcD$`HcL$XH
-HcD$dH
-HcD$dHk
-HcD$dL
-HcD$hH
-HcD$hHk
-HcD$lH
-HcD$lHcL$\H
-HcD$p
-HcD$pH
-HcD$t
-HcD$xH
-HcL$ 
-HcL$ H
-HcL$ Hk
-HcL$$H
-HcL$$Hk
-HcL$(;
-HcL$(H
-HcL$(HcT$0H
-HcL$,
-HcL$,H
-HcL$,HcT$(L
-HcL$0
-HcL$0H
-HcL$0Hk
-HcL$4H
-HcL$4Hk
-HcL$83
-HcL$8H
-HcL$8H;
-HcL$8Hk
-HcL$<
-HcL$@H
-HcL$DH+
-HcL$HH
-HcL$HH;
-HcL$HHk
-HcL$PH
-HcL$PHk
-HcL$X
-HcL$XH
-HcL$\H
-HcL$dH
-HcL$hH
-HcL$lH
-HcL$pH
-HcT$ Hk
-HcT$(L
-HcT$0Hk
-HcT$@
-HcT$@H
-HcT$xL
-HeapAlloc
-HeapFree
 Helvetica
 Helvetica Neue
-HiD$`
-HideCaret
-HkD$ 
-HkD$  H
-HkD$  HkL$  H
-HkD$(
-HkD$0 H
-HkD$8
-HkD$H H
-HkD$PHH
-HkD$`HH
-HkD$x
-HkL$  H
-HkL$(
-HkL$0 H
-Ho	hwh
+Ho\thwh
 Hsmall
 HuaTianKaiTi?
 HuaTianSongTi?
 Hungarumlautsmall
-I 9H4v
-I 9H`t
-I 9H`u
 I&I,I:IJ
-I09H0
-I09H0t
-I09H0}
-I09H0~
-I09H0~-H
-I09H<s!
-I09H<s%H
-I0H9H8r
-I0H9H8s
-I49H4t
-I49H4}
-I49H4}(H
-I49H4~
-I49H4~&H
-I49H8ufH
-I5	/z/~/
 I7{^A
-I89H@spH
-I8H9H0w
-I@H9H8s$H
-I@H9HPtcH
-I@H9HPtlH
-ID9H@
-ID9H@rc
-ID9HDs
 IDATx^
+IEND
 IFileDialog::Advise failed
-IH9HLufH
-IHH9HXu
-IHcD$<
 IID_IAccessible
 IID_IAccessible2
 IID_IAccessibleAction
@@ -3579,15 +840,10 @@ IID_IDispatch
 IID_IOleWindow
 IID_IServiceProvider
 IID_IUnknown
-IMM32.dll
 INSERTCHAR 
 ISOLatin1Encoding
 ITALIC_ANGLE
-IX9H\
-IX9Hht,H
-IXH9HP
 IZgnM
-I`9H t
 IaIrI
 Iacute
 Iacutesmall
@@ -3598,335 +854,54 @@ Idieresissmall
 Idotaccent
 Igrave
 Igravesmall
-Ih9H@r
 Image is null.
-ImmAssociateContext
-ImmGetCompositionStringW
-ImmGetContext
-ImmGetDefaultIMEWnd
-ImmGetVirtualKey
-ImmNotifyIME
-ImmReleaseContext
-ImmSetCandidateWindow
-ImmSetCompositionWindow
 Impact
 InitializeConditionVariable
-InitializeSListHead
+Inr?
 Internal KeyRecorder
 Invalid value
 Invalid value set for 
-InvalidateRect
-Ip9Hl|_H
 IrisUPC
 IsBaseFont
 IsCIDFont
-IsChild
-IsDebuggerPresent
 IsFixedPitch
 IsFixedV
 IsHungAppWindow
-IsIconic
-IsProcessorFeaturePresent
 IsTouchWindow
-IsValidLanguageGroup
-IsValidLocale
-IsWindowVisible
-IsZoomed
 Ismall
-It9Hl
 Italic
 ItalicAngle
 J1J7JU
-J9*`+
-J?graphicsBuffer@QPlatformBackingStore@@UEBAPEAVQPlatformGraphicsBuffer@@XZ
-J?green@QColor@@QEBAHXZ
-J?greenBufferSize@QSurfaceFormat@@QEBAHXZ
-J?handle@QBackingStore@@QEBAPEAVQPlatformBackingStore@@XZ
-J?handle@QOpenGLContext@@QEBAPEAVQPlatformOpenGLContext@@XZ
-J?handle@QScreen@@QEBAPEAVQPlatformScreen@@XZ
-J?handle@QWindow@@QEBAPEAVQPlatformWindow@@XZ
-J?handleCloseEvent@QWindowSystemInterface@@SAXPEAVQWindow@@PEA_N@Z
-J?handleContentOrientationChange@QPlatformWindow@@UEAAXW4ScreenOrientation@Qt@@@Z
-J?handleContextMenuEvent@QWindowSystemInterface@@SAXPEAVQWindow@@_NAEBVQPoint@@2V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
-J?handleDrag@QWindowSystemInterface@@SA?AVQPlatformDragQtResponse@@PEAVQWindow@@PEBVQMimeData@@AEBVQPoint@@V?$QFlags@W4DropAction@Qt@@@@@Z
-J?handleDrop@QWindowSystemInterface@@SA?AVQPlatformDropQtResponse@@PEAVQWindow@@PEBVQMimeData@@AEBVQPoint@@V?$QFlags@W4DropAction@Qt@@@@@Z
-J?handleEnterEvent@QWindowSystemInterface@@SAXPEAVQWindow@@AEBVQPointF@@1@Z
-J?handleEnterWhatsThisEvent@QWindowSystemInterface@@SAXXZ
-J?handleExposeEvent@QWindowSystemInterface@@SAXPEAVQWindow@@AEBVQRegion@@@Z
-J?handleExtendedKeyEvent@QWindowSystemInterface@@SAXPEAVQWindow@@W4Type@QEvent@@HV?$QFlags@W4KeyboardModifier@Qt@@@@IIIAEBVQString@@_NG@Z
-J?handleFrameStrutMouseEvent@QWindowSystemInterface@@SAXPEAVQWindow@@AEBVQPointF@@1V?$QFlags@W4MouseButton@Qt@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@W4MouseEventSource@Qt@@@Z
-J?handleGeometryChange@QWindowSystemInterface@@SAXPEAVQWindow@@AEBVQRect@@1@Z
-J?handleLeaveEvent@QWindowSystemInterface@@SAXPEAVQWindow@@@Z
-J?handleMouseEvent@QWindowSystemInterface@@SAXPEAVQWindow@@AEBVQPointF@@1V?$QFlags@W4MouseButton@Qt@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@W4MouseEventSource@Qt@@@Z
-J?handleNativeEvent@QWindowSystemInterface@@SA_NPEAVQWindow@@AEBVQByteArray@@PEAXPEAJ@Z
-J?handleScreenGeometryChange@QWindowSystemInterface@@SAXPEAVQScreen@@AEBVQRect@@1@Z
-J?handleScreenLogicalDotsPerInchChange@QWindowSystemInterface@@SAXPEAVQScreen@@NN@Z
-J?handleScreenOrientationChange@QWindowSystemInterface@@SAXPEAVQScreen@@W4ScreenOrientation@Qt@@@Z
-J?handleTabletEnterProximityEvent@QWindowSystemInterface@@SAXHH_J@Z
-J?handleTabletEvent@QWindowSystemInterface@@SAXPEAVQWindow@@AEBVQPointF@@1HHV?$QFlags@W4MouseButton@Qt@@@@NHHNNH_JV?$QFlags@W4KeyboardModifier@Qt@@@@@Z
-J?handleTabletLeaveProximityEvent@QWindowSystemInterface@@SAXHH_J@Z
-J?handleThemeChange@QWindowSystemInterface@@SAXPEAVQWindow@@@Z
-J?handleTouchEvent@QWindowSystemInterface@@SAXPEAVQWindow@@PEAVQTouchDevice@@AEBV?$QList@UTouchPoint@QWindowSystemInterface@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
-J?handleWheelEvent@QWindowSystemInterface@@SAXPEAVQWindow@@AEBVQPointF@@1HW4Orientation@Qt@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
-J?handleWindowActivated@QWindowSystemInterface@@SAXPEAVQWindow@@W4FocusReason@Qt@@@Z
-J?handleWindowScreenChanged@QWindowSystemInterface@@SAXPEAVQWindow@@PEAVQScreen@@@Z
-J?handleWindowStateChanged@QWindowSystemInterface@@SAXPEAVQWindow@@W4WindowState@Qt@@@Z
-J?harfbuzzFace@QFontEngine@@QEBAPEAXXZ
-J?hasAlpha@QSurfaceFormat@@QEBA_NXZ
-J?hasAlphaChannel@QImage@@QEBA_NXZ
-J?hasAlphaChannel@QRasterPlatformPixmap@@UEBA_NXZ
-J?hasCapability@QPlatformIntegration@@UEBA_NW4Capability@1@@Z
-J?hasFamily@QFontDatabase@@QEBA_NAEBVQString@@@Z
-J?hasFormat@QInternalMimeData@@UEBA_NAEBVQString@@@Z
-J?hasFormatHelper@QInternalMimeData@@SA_NAEBVQString@@PEBVQMimeData@@@Z
-J?hasInternalCaching@QFontEngine@@UEBA_NXZ
-J?hasShortcutForKeySequence@QShortcutMap@@QEBA_NAEBVQKeySequence@@@Z
-J?hasUnreliableGlyphOutline@QFontEngine@@UEBA_NXZ
-JHcT$(L
-JHcT$,L
-JHkD$(
-JQ?qt_metacast@QPlatformInputContext@@UEAAPEAXPEBD@Z
-JR?renderableType@QSurfaceFormat@@QEBA?AW4RenderableType@1@XZ
-JZ?type@QWindow@@QEBA?AW4WindowType@Qt@@XZ
+J?JH
 JasmineUPC
 Jsmall
-JvKsK}l	J
+JvKsK}l\tJ
 K&K8KFKQ
-K?height@QImage@@QEBAHXZ
-K?height@QPixmap@@QEBAHXZ
-K?height@QWindow@@QEBAHXZ
-K?hideEvent@QWindow@@MEAAXPEAVQHideEvent@@@Z
-K?hideInputPanel@QPlatformInputContext@@UEAAXXZ
-K?initiallySelectedFiles@QFileDialogOptions@@QEBA?AV?$QList@VQUrl@@@@XZ
-K?initiallySelectedNameFilter@QFileDialogOptions@@QEBA?AVQString@@XZ
-K?inputDirection@QPlatformInputContext@@UEBA?AW4LayoutDirection@Qt@@XZ
-K?inputMethod@QGuiApplication@@SAPEAVQInputMethod@@XZ
-K?inputMethodAccepted@QPlatformInputContext@@QEBA_NXZ
-K?insert@QPixmapCache@@SA_NAEBVQString@@AEBVQPixmap@@@Z
-K?instance@QGuiApplicationPrivate@@SAPEAV1@XZ
-K?invalidate@QPlatformFontDatabase@@UEAAXXZ
-K?invokeAction@QPlatformInputContext@@UEAAXW4Action@QInputMethod@@H@Z
-K?isAccepted@QPlatformDropQtResponse@@QEBA_NXZ
-KERNEL32.dll
-KN?metaObject@QInternalMimeData@@UEBAPEBUQMetaObject@@XZ
 KUMUX
+K^Kd
 KaiTi_GB2312
 Keyboard recorder buffer overflow, consider increasing QT_MAX_KEY_RECORDINGS
 KeyboardModifiers
+Klqt
 KodchiangUPC
 Ksmall
-L$ +A
-L$ 9A4}
-L$ 9A8
-L$ 9H
-L$ E3
-L$ H#
-L$ H+
-L$ H3
-L$ H9
-L$ H9H
-L$ H9H tVH
-L$ H9H u
-L$ H9HPt
-L$ H;
-L$ H;A
-L$ H;A@s=H
-L$ H;A@sTH
-L$ H;A@slH
-L$ Hk
-L$ SWH
-L$ WH
-L$ fD
-L$ kI4
-L$ kI4	;
-L$$E3
-L$$Hc
-L$$HcT$ L
-L$$Hk
-L$(9H
-L$(;A
-L$(;A4
-L$(E3
-L$(H+
-L$(H9
-L$(H9A
-L$(H9H
-L$(H9H u
-L$(H;
-L$(Hc
-L$(kI4
-L$(kI4	;
-L$,9H
-L$0+A
-L$09A
-L$09H
-L$0;A
-L$0E3
-L$0H+
-L$0H3
-L$0H9
-L$0HcI
-L$0Hk
-L$49H8}&H
-L$49Hxt"H
-L$4E3
-L$4Hk
-L$8+A
-L$89A
-L$89H
-L$89H u H
-L$89H4|
-L$8;A
-L$8E3
-L$8H+
-L$8H3
-L$8H9
-L$8H9H u[H
-L$8H;
-L$8HcI
-L$<+L$tH
-L$<E3
-L$<H;
-L$@+A
-L$@9H
-L$@;A
-L$@E3
-L$@H+
-L$@H3
-L$@H9
-L$@H9Apt&H
-L$@H9H
-L$@H;
-L$@H;A
-L$@H;APu
-L$@Hc
-L$D9H
-L$D9HXt
-L$DE3
-L$DH+
-L$H+A
-L$H9H
-L$H9HP
-L$H;A0r
-L$HE+
-L$HE3
-L$HH+
-L$HH3
-L$HH9
-L$HH9H
-L$HH9H(u
-L$HH;
-L$LE3
-L$LHk
-L$P+AlH
-L$P9A
-L$P9A0v
-L$P9H
-L$P;A
-L$P;A t
-L$PE3
-L$PH+
-L$PH3
-L$PH9
-L$PH9A
-L$PH9A 
-L$PH;A
-L$PHk
-L$T9H
-L$TE3
-L$X9A
-L$X9H
-L$X;A
-L$X;A u
-L$XE3
-L$XH+
-L$XH3
-L$XH9
-L$XH9H(v%
-L$XHc
-L$\9H
-L$`+AlH
-L$`9A
-L$`9A u*H
-L$`9H
-L$`;A
-L$`E3
-L$`H+
-L$`H3
-L$`H9
-L$`H9Apu
-L$`H9H(u9
-L$`H;
-L$`H;A@v
-L$dE3
-L$dHk
-L$h9A
-L$h9Hl}
-L$h;A u
-L$hE3
-L$hH+
-L$hH3
-L$hH9
-L$hH9H(u5H
-L$lE3
-L$p9H
-L$p;A
-L$p;A0~
-L$p;A@rz
-L$p;A@v
-L$pE3
-L$pH+
-L$pH3
-L$pH9
-L$pH9AH
-L$pH;
-L$pH;A0r
-L$pH;A0r!H
-L$t9H
-L$x9H
-L$xE3
-L$xH+
-L$xH3
-L$xH9
-L$xH;
-L$|9H
 L'LZa
 L0L:LA
-L?isAnimating@QPlatformInputContext@@UEBA_NXZ
-L?isNull@QIcon@@QEBA_NXZ
-L?isNull@QImage@@QEBA_NXZ
-L?isNull@QPixmap@@QEBA_NXZ
-L?isPhase2@QPlatformSessionManager@@UEBA_NXZ
-L?isPrivateFontFamily@QPlatformFontDatabase@@UEBA_NAEBVQString@@@Z
-L?isSharing@QPlatformOpenGLContext@@UEBA_NXZ
-L?isSupportedUrl@QPlatformFileDialogHelper@@UEBA_NAEBVQUrl@@@Z
-L?isTopLevel@QWindow@@QEBA_NXZ
-L?isValid@QPlatformInputContext@@UEBA_NXZ
-L?isValid@QPlatformOpenGLContext@@UEBA_NXZ
-L?isVisible@QWindow@@QEBA_NXZ
+LHLQ
 LOGFONT
-LQ?qt_metacast@QPlatformIntegrationPlugin@@UEAAPEAXPEBD@Z
-LU?setOption@QSurfaceFormat@@QEAAXW4FormatOption@1@_N@Z
-LX?supportedImageFormats@QImageReader@@SA?AV?$QList@VQByteArray@@@@XZ
-L[?writingSystems@QFontDatabase@@QEBA?AV?$QList@W4WritingSystem@QFontDatabase@@@@AEBVQString@@@Z
+LaLj
 LanguageGroup
 Latha
 Launching
-LcD$,B
-LcD$0Mk
-LeaveCriticalSection
+Lb`w
+Lc8g
 Legacy Sans Fonts
 Levenim MT
 Liberation Sans
 Light
 LilyUPC
-LoadCursorW
-LoadIconW
-LoadImageW
-LoadLibraryA
 Lobster
 Local variable used before initialization
-LocalFree
 LrMDM
 LresultFromObject
 Lslash
@@ -3936,22 +911,6 @@ Lucida Console
 Lucida Grande
 Lucida Sans Typewriter
 Lucida Sans Unicode
-Lw/HcD$
-M	?count@QByteArray@@QEBAHD@Z
-M?keyPressEvent@QWindow@@MEAAXPEAVQKeyEvent@@@Z
-M?keyReleaseEvent@QWindow@@MEAAXPEAVQKeyEvent@@@Z
-M?keyboardRect@QPlatformInputContext@@UEBA?AVQRectF@@XZ
-M?labelText@QFileDialogOptions@@QEBA?AVQString@@W4DialogLabel@1@@Z
-M?loadFromData@QImage@@QEAA_NAEBVQByteArray@@PEBD@Z
-M?loadKerningPairs@QFontEngine@@QEAAXUQFixed@@@Z
-M?locale@QPlatformInputContext@@UEBA?AVQLocale@@XZ
-M?lockedAlphaMapForGlyph@QFontEngine@@UEAAPEAVQImage@@IUQFixed@@W4GlyphFormat@1@AEBVQTransform@@PEAVQPoint@@@Z
-M?m11@QTransform@@QEBANXZ
-M?m12@QTransform@@QEBANXZ
-M?m21@QTransform@@QEBANXZ
-M?m22@QTransform@@QEBANXZ
-M?majorVersion@QSurfaceFormat@@QEBAHXZ
-M?mapFromGlobal@QWindow@@QEBA?AVQPoint@@AEBV2@@Z
 MAX_SPACE
 MINMAXINFO maxSize=
 MIN_SPACE
@@ -3962,19 +921,16 @@ MS Legacy Fonts
 MS Mincho
 MS Shell Dlg
 MS UI Gothic
-MSVCP140D.dll
 MV Boli
+M^5X
 Macronsmall
 Mangal
-MapVirtualKeyW
 MappingScheme
 Marlett
 Max touch points:
 Medium
 MenuCommand
 MenuPopup
-MessageBeep
-MetaData
 MetricsSets
 Microsoft Sans Serif
 MinFeature
@@ -3986,81 +942,36 @@ Miriam
 Miriam Fixed
 Miriam Transparent
 Misc Legacy Fonts
+MjMs
 Monaco
 MouseButtons
-MoveWindow
 Msmall
-MultiByteToWideChar
+MtY&
+N$XA
 N;NHNQNkN
-N?mask@QCursor@@QEBAPEBVQBitmap@@XZ
-N?mask@QPixmap@@QEBA?AVQBitmap@@XZ
-N?maxCharWidth@QFontEngineMulti@@UEBANXZ
-N?metric@QRasterPlatformPixmap@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
-N?metric@QRasterWindow@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
-N?mid@QPalette@@QEBAAEBVQBrush@@XZ
-N?midlight@QPalette@@QEBAAEBVQBrush@@XZ
-N?mimeData@QDrag@@QEBAPEAVQMimeData@@XZ
-N?minLeftBearing@QFontEngine@@UEBANXZ
-N?minLeftBearing@QFontEngineMulti@@UEBANXZ
-N?minRightBearing@QFontEngine@@UEBANXZ
-N?minRightBearing@QFontEngineMulti@@UEBANXZ
-N?minimumHeight@QWindow@@QEBAHXZ
-N?minimumSize@QWindow@@QEBA?AVQSize@@XZ
-N?minimumWidth@QWindow@@QEBAHXZ
-N?minorVersion@QSurfaceFormat@@QEBAHXZ
-N?modalWindow@QGuiApplication@@SAPEAVQWindow@@XZ
-N?modifier_buttons@QGuiApplicationPrivate@@2V?$QFlags@W4KeyboardModifier@Qt@@@@A
-N?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
-N?mouseDoubleClickEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?mouseMoveEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?mousePressEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?mouseReleaseEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?mouse_buttons@QGuiApplicationPrivate@@2V?$QFlags@W4MouseButton@Qt@@@@A
-N?moveEvent@QWindow@@MEAAXPEAVQMoveEvent@@@Z
-N?moveTo@QPainterPath@@QEAAXAEBVQPointF@@@Z
-N?nameFilters@QFileDialogOptions@@QEBA?AVQStringList@@XZ
-N?nativeEvent@QWindow@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
-N?nativeHandle@QOpenGLContext@@QEBA?AVQVariant@@XZ
-N?nativeInterface@QPlatformIntegration@@UEBAPEAVQPlatformNativeInterface@@XZ
-N?nativeModifiers@QKeyEvent@@QEBAIXZ
-N?nativeOrientation@QPlatformScreen@@UEBA?AW4ScreenOrientation@Qt@@XZ
-N?nativeResourceForBackingStore@QPlatformNativeInterface@@UEAAPEAXAEBVQByteArray@@PEAVQBackingStore@@@Z
-N?nativeResourceForScreen@QPlatformNativeInterface@@UEAAPEAXAEBVQByteArray@@PEAVQScreen@@@Z
-N?nativeResourceFunctionForBackingStore@QPlatformNativeInterface@@UEAAP6APEAXPEAVQBackingStore@@@ZAEBVQByteArray@@@Z
-N?nativeResourceFunctionForContext@QPlatformNativeInterface@@UEAAP6APEAXPEAVQOpenGLContext@@@ZAEBVQByteArray@@@Z
-N?nativeResourceFunctionForIntegration@QPlatformNativeInterface@@UEAAP6APEAXXZAEBVQByteArray@@@Z
-N?nativeResourceFunctionForScreen@QPlatformNativeInterface@@UEAAP6APEAXPEAVQScreen@@@ZAEBVQByteArray@@@Z
-N?nativeResourceFunctionForWindow@QPlatformNativeInterface@@UEAAP6APEAXPEAVQWindow@@@ZAEBVQByteArray@@@Z
-N?nativeVirtualKey@QKeyEvent@@QEBAIXZ
 NCCALCSIZE_PARAMS 
 NOMOVECARET 
 NORM_SPACE
 NOTICE
-NY?toTexture@QPlatformBackingStore@@UEBAIAEBVQRegion@@PEAVQSize@@PEAV?$QFlags@W4TextureFlag@QPlatformBackingStore@@@@@Z
-N[?writingSystemsFromTrueTypeBits@QPlatformFontDatabase@@SA?AVQSupportedWritingSystems@@QEAI0@Z
+NWNb
 N_3haO
 Narkisim
 New Monitor: 
 Normal
 Notice
-NotifyWinEvent
+NqNy
 Nsmall
 Ntilde
 Ntildesmall
 O(hHj
 O5OFO\OgO
-O?paintEngine@QPaintDeviceWindow@@EEBAPEAVQPaintEngine@@XZ
-O?paintEngine@QRasterPlatformPixmap@@UEBAPEAVQPaintEngine@@XZ
-O?palette@QGuiApplication@@SA?AVQPalette@@XZ
-O?parent@QPlatformWindow@@QEBAPEAV1@XZ
-O?parent@QWindow@@QEBAPEAV1@XZ
-O?pixmap@QCursor@@QEBA?AVQPixmap@@XZ
 OEsmall
 OIDATx^c 
-OLEAUT32.dll
 OLE_E_WRONGCOMPOBJ
-OS/2H
-OTTOt
+OQOV
+OS/2
+OTTO
+OY<0
 Oacute
 Oacutesmall
 Oblique
@@ -4068,18 +979,11 @@ Ocircumflex
 Ocircumflexsmall
 Odieresis
 Odieresissmall
-OffsetRgn
 Ogoneksmall
 Ograve
 Ogravesmall
-OleFlushClipboard
-OleGetClipboard
-OleInitialize
-OleIsCurrentClipboard
-OleSetClipboard
 OleSetClipboard: Failed to clear the clipboard: 0x%lx
 OleSetClipboard: Failed to set mime data (%s) on clipboard: %s
-OleUninitialize
 Omega
 OpOti
 OpenGL 1.x entry points not found
@@ -4087,7 +991,6 @@ OpenGL 2.0 entry points available
 OpenGL 2.0 entry points not found
 OpenGL version too low
 OpenGL: 
-OpenProcess
 Opened tablet context 
 OpticalSize
 Optima
@@ -4098,63 +1001,29 @@ Osmall
 OtherBlues
 Otilde
 Otildesmall
-P	?count@QDir@@QEBAIXZ
-P(P;P`
-P.tls
-P?pixmap@QDrag@@QEBA?AVQPixmap@@XZ
-P?pixmap@QIcon@@QEBA?AVQPixmap@@AEBVQSize@@W4Mode@1@W4State@1@@Z
-P?platformIntegration@QGuiApplicationPrivate@@SAPEAVQPlatformIntegration@@XZ
-P?platformNativeInterface@QGuiApplication@@SAPEAVQPlatformNativeInterface@@XZ
-P?pointSize@QFont@@QEBAHXZ
-P?pointerEvent@QPlatformCursor@@UEAAXAEBVQMouseEvent@@@Z
-P?properties@QFontEngine@@UEBA?AUProperties@1@XZ
-P?qAccessibleLocalizedActionDescription@@YA?AVQString@@AEBV1@@Z
-P?qt_addBitmapToPath@@YAXNNPEBEHHHPEAVQPainterPath@@@Z
-P?qt_createIconMask@@YAPEAUHBITMAP__@@AEBVQBitmap@@@Z
-P?qt_fontdata_from_index@@YA?AVQByteArray@@H@Z
-P?qt_metacall@QInternalMimeData@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+P.P5
+PAPU
 PDBOpenValidate5
-PH9D$(}
-PH9D$,
-PHHcL$DH
-PHcL$$
 PIXELFORMATDESCRIPTOR 
 PIXEL_SIZE
+PLTE
 PMingLiU
+PNG\r\n
 POINT_SIZE
-PPHcL$$HcT$8L
-PPHcL$DH
-PQ` E@	
 Packet #
 PaintType
 Palatino Linotype
-PeekMessageW
-PlaySoundW
 PmXh]=b
-PostMessageW
 Private
 Psmall
 Q)Q7QWQ
-Q?qt_metacall@QPlatformFileDialogHelper@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-Q?qt_metacall@QPlatformInputContext@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-Q?qt_metacall@QPlatformNativeInterface@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-Q?qt_metacall@QRasterWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-Q?qt_window_private@@YAPEAVQWindowPrivate@@PEAVQWindow@@@Z
-Q?quadTo@QPainterPath@@QEAAXAEBVQPointF@@0@Z
-Q?queryFocusObject@QInputMethod@@SA?AVQVariant@@W4InputMethodQuery@Qt@@V2@@Z
-Q?read@QImageReader@@QEAA?AVQImage@@XZ
-Q?recalcAdvances@QFontEngineMulti@@UEBAXPEAUQGlyphLayout@@V?$QFlags@W4ShaperFlag@QFontEngine@@@@@Z
-Q?rects@QRegion@@QEBA?AV?$QVector@VQRect@@@@XZ
-Q?red@QColor@@QEBAHXZ
-Q?redBufferSize@QSurfaceFormat@@QEBAHXZ
-Q?redirected@QRasterWindow@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z
+Q=QH
 QApplication::regClass: Registering window class '%s' failed.
 QFlags(
 QFontDatabase: Cannot find font directory %s - is Qt installed correctly?
 QFontEngine: Glyph neither outline nor bitmap format=%d
 QFontEngineWin::addOutlineToPath, unhandled switch case
 QHash::erase
-QHcD$H
 QList
 QList::erase
 QList<T>::at
@@ -4166,9 +1035,8 @@ QMargins
 QMessageBox
 QMimeData: 
 QOpenGLStaticContext::create
-QQ?qt_metacast@QPlatformNativeInterface@@UEAAPEAXPEBD@Z
 QQuickWindow
-QTMETADATA  qbjs
+QSet
 QT_ANGLE_PLATFORM
 QT_DEVICE_PIXEL_RATIO
 QT_NO_FT_CACHE
@@ -4183,7 +1051,6 @@ QVector::QVector
 QVector::insert
 QVector<T>::at
 QVector<T>::operator[]
-QW?size@QImage@@QEBA?AVQSize@@XZ
 QWGLNativeContext
 QWidget: Incompatible window flags: the window can't be on top and on bottom at the same time
 QWidgetWindow
@@ -4343,39 +1210,16 @@ QWindowsWindow::setWindowFlags
 QWindowsWindow::setWindowState_sys
 QWindowsWindow::setWindowTitle
 QWindowsXpNativeFileDialog
-QZ?underlinePosition@QFontEngine@@UEBA?AUQFixed@@XZ
 Q_ASSUME()
+Q_Qd
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
 Qsmall
-Qt5Cored.dll
-Qt5Guid.dll
 Qt: Internal keyboard buffer overflow
 Qt: Using WGL and OpenGL from
 QtMetaTypePrivate::QSequentialIterableImpl
-QueryPerformanceCounter
 R%R<RqS
-R?registerAccessibleInterface@QAccessible@@SAIPEAVQAccessibleInterface@@@Z
-R?registerAliasToFontFamily@QPlatformFontDatabase@@SAXAEBVQString@@0@Z
-R?registerFont@QPlatformFontDatabase@@SAXAEBVQString@@00W4Weight@QFont@@W4Style@4@W4Stretch@4@_N4H4AEBVQSupportedWritingSystems@@PEAX@Z
-R?registerFontFamily@QPlatformFontDatabase@@SAXAEBVQString@@@Z
-R?registerTouchDevice@QWindowSystemInterface@@SAXPEAVQTouchDevice@@@Z
-R?reject@QPlatformDialogHelper@@QEAAXXZ
-R?resolveFontFamilyAlias@QPlatformFontDatabase@@UEBA?AVQString@@AEBV2@@Z
-R?restartCommand@QPlatformSessionManager@@UEBA?AVQStringList@@XZ
-R?restartHint@QPlatformSessionManager@@UEBA?AW4RestartHint@QSessionManager@@XZ
-R?retrieveData@QInternalMimeData@@MEBA?AVQVariant@@AEBVQString@@W4Type@2@@Z
-R?rgb@QColor@@QEBAIXZ
-R?samples@QSurfaceFormat@@QEBAHXZ
-R?save@QImage@@QEBA_NAEBVQString@@PEBDH@Z
-R?scaled@QPixmap@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
-R?scanLine@QImage@@QEAAPEAEH@Z
-R?scanLine@QImage@@QEBAPEBEH@Z
-R?screen@QPlatformScreen@@QEBAPEAVQScreen@@XZ
-R?screen@QPlatformWindow@@QEBAPEAVQPlatformScreen@@XZ
-R?screen@QWindow@@QEBAPEAVQScreen@@XZ
-R?screenAdded@QPlatformIntegration@@IEAAXPEAVQPlatformScreen@@_N@Z
-R?screenForGeometry@QPlatformWindow@@IEBAPEAVQPlatformScreen@@AEBVQRect@@@Z
+R+R2
 RAW_ASCENT
 RAW_AVERAGE_WIDTH
 RAW_AVG_CAPITAL_WIDTH
@@ -4413,80 +1257,47 @@ RESOLUTION_X
 RESOLUTION_Y
 RESULTSTR 
 RFRQR\Rf
-RHcD$(H
-RL?isEmpty@QRegion@@QEBA_NXZ
-RO?openGLModuleType@QOpenGLContext@@SA?AW4OpenGLModuleType@1@XZ
 RPC_E_CHANGED_MODE
 RPC_E_THREAD_NOT_INIT
 RPC_E_WRONG_THREAD
 RSDS[v
-RZ?underlinePosition@QFontEngineMulti@@UEBA?AUQFixed@@XZ
+RX0e
 Raavi
-RaiseException
 Ready:
-RealGetWindowClassW
 RegCloseKey
 RegOpenKeyExW
 RegQueryValueExW
-RegisterClassExW
-RegisterClassW
-RegisterClipboardFormatW
-RegisterDragDrop
 RegisterTouchWindow
 RegisterTouchWindow() failed for window '%s'.
-RegisterWindowMessageW
 Registry
 Regular
 Regular Class
 Regular/Bold Class
 Regular/Italic Class
-ReleaseCapture
-ReleaseDC
-ReleaseStgMedium
 Releasing automatic mouse capture 
 RemoveClipboardFormatListener
-RemoveFontMemResourceEx
-RemoveFontResourceExW
 Removing Monitor:
-ResetEvent
-RevokeDragDrop
 Ringsmall
 Rod Transparent
 Role: 
 Roman
 Rsmall
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlVirtualUnwind
 Run-Time Check Failure #%d - %s
 S%S?a
-S?scroll@QRasterPlatformPixmap@@UEAA_NHHAEBVQRect@@@Z
-S?sendWindowSystemEvents@QWindowSystemInterface@@SA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-S?setBrush@QPalette@@QEAAXW4ColorGroup@1@W4ColorRole@1@AEBVQBrush@@@Z
-S?setCapabilities@QTouchDevice@@QEAAXV?$QFlags@W4CapabilityFlag@QTouchDevice@@@@@Z
-S?setColor@QPalette@@QEAAXW4ColorGroup@1@W4ColorRole@1@AEBVQColor@@@Z
-S?setColor@QPalette@@QEAAXW4ColorRole@1@AEBVQColor@@@Z
-S?setColorGroup@QPalette@@QEAAXW4ColorGroup@1@AEBVQBrush@@11111111@Z
-S?setCommitString@QInputMethodEvent@@QEAAXAEBVQString@@HH@Z
-S?setCompositionMode@QPainter@@QEAAXW4CompositionMode@1@@Z
-S?setDC@QRasterPaintEngine@@QEAAXPEAUHDC__@@@Z
+S+S6
 SDBytes
 SETWIDTH_NAME
-SHBrowseForFolderW
 SHCreateItemFromIDList
 SHCreateItemFromParsingName
-SHELL32.dll
-SHGetFileInfoW
 SHGetImageList
 SHGetKnownFolderIDList
-SHGetMalloc
-SHGetPathFromIDListW
 SHGetStockIconInfo
-SK?increaseAction@QAccessibleActionInterface@@SAAEBVQString@@XZ
+SIZE
 SLANT
 SLSnSzS
 SMALL_CAP_SIZE
 SPACING
+SRSd
 STARTCHAR
 STARTFONT
 STARTPROPERTIES
@@ -4499,48 +1310,22 @@ SUPERSCRIPT_SIZE
 SUPERSCRIPT_X
 SUPERSCRIPT_Y
 SWIDTH
+S[bH
 S_FALSE
+S_OK
 Scaron
 Scaronsmall
 Scedilla
 Screen "
-ScreenToClient
 Segoe UI
-SelectObject
 Semibold
-SendMessageW
-SetBkMode
-SetCapture
-SetCaretPos
-SetClipboardViewer
-SetCursor
-SetCursorPos
-SetEvent
-SetFocus
-SetForegroundWindow
-SetGraphicsMode
 SetLayeredWindowAttributes
-SetMenuItemInfoW
-SetParent
-SetPixelFormat
 SetPixelFormat failed.
 SetProcessDPIAware
 SetProcessDPIAware() failed
 SetProcessDpiAwareness
 SetProcessDpiAwareness failed:
-SetTextAlign
-SetTextColor
-SetUnhandledExceptionFilter
-SetWindowLongPtrW
-SetWindowLongW
-SetWindowPlacement
-SetWindowPos
-SetWindowRgn
-SetWindowTextW
-SetWorldTransform
 ShellExecute '%s' failed (error %s).
-ShellExecuteW
-ShowWindow
 Shruti
 SimHei
 SimSun
@@ -4548,17 +1333,17 @@ Simplified Arabic
 Simplified Arabic Fixed
 Simsun
 Size must be greater than or equal to 0.
-Size: 
 Slant
 SleepConditionVariableCS
 Ssmall
 Stack area around _alloca memory reserved by this function is corrupted
+Stack area around _alloca memory reserved by this function is corrupted\n
 Stack around _alloca corrupted
 Stack around the variable '
 Stack corrupted near unknown variable
-Stack memory around _alloca was corrupted
+Stack memory around _alloca was corrupted\n\r
 Stack memory corruption
-Stack memory was corrupted
+Stack memory was corrupted\n\r
 Stack pointer corruption
 StandardEncoding
 StartAxis
@@ -4567,9 +1352,7 @@ StartComposites
 StartData
 StartDirection
 StartFontMetrics
-StartFragment:0000000000
 StartHTML:
-StartHTML:0000000107
 StartKernData
 StartKernPairs
 StartKernPairs0
@@ -4584,56 +1367,24 @@ SubrCount
 SubrMapOffset
 Subrs
 Supplement
-SwapBuffers
 Sylfaen
 Symbol
 Synthetic leave for 
-SystemParametersInfoW
 T#T.Tk
-T$ +J
-T$ H9
-T$ Hk
-T$$Hc
-T$,9T
-T$0H+
-T$0H3
-T$0Hk
-T$89L
-T$@+J
-T$D9T
-T$H9T
-T$HH9
-T$P9T
-T$`H+
-T$`H9
-T$pH9
-T?setDefaultHintStyle@QFontEngine@@UEAAXW4HintStyle@1@@Z
-T?setDepthBufferSize@QSurfaceFormat@@QEAAXH@Z
-T?setFormat@QWindow@@QEAAXAEBVQSurfaceFormat@@@Z
-T?setFramePosition@QWindow@@QEAAXAEBVQPoint@@@Z
-T?setGeometry@QPlatformWindow@@UEAAXAEBVQRect@@@Z
-T?setGeometry@QWindow@@QEAAXAEBVQRect@@@Z
-T?setGreenBufferSize@QSurfaceFormat@@QEAAXH@Z
-T?setItalic@QFont@@QEAAX_N@Z
-T?setMajorVersion@QSurfaceFormat@@QEAAXH@Z
-T?setManagerProperty@QPlatformSessionManager@@UEAAXAEBVQString@@0@Z
-T?setManagerProperty@QPlatformSessionManager@@UEAAXAEBVQString@@AEBVQStringList@@@Z
-TDBCH
-TDBEH
+T4T;
 TETNTc
 THEZOCQS
-THkD$@
-TLCPH
+THxV
 TPLTE
+TTT[
 Tablet PC:
 Tablet support: 
 TabletDevice id:
 Tahoma
 Tcommaaccent
-TerminateProcess
 The specified iterator argument 'before' is invalid
 The specified iterator argument 'it' is invalid
-The value of ESP was not properly saved across a function call.  This is usually a result of calling a function declared with one calling convention with a function pointer declared with a different calling convention.
+The value of ESP was not properly saved across a function call.  This is usually a result of calling a function declared with one calling convention with a function pointer declared with a different calling convention.\n\r
 The variable '
 This version of Windows is not supported (User32.dll is missing the symbols 'SetLayeredWindowAttributes', 'UpdateLayeredWindow').
 Thorn
@@ -4642,12 +1393,9 @@ Thread terminated.
 Tildesmall
 Times
 Times New Roman
-ToAscii
-ToUnicode
+Tn9{
 TrackKern
-TrackMouseEvent
 TrackMouseEvent failed.
-TrackPopupMenuEx
 Traditional Arabic
 Trebuchet MS
 TrueType
@@ -4655,23 +1403,11 @@ Tsmall
 Tunga
 Type 1
 Type 42
-U?setMaximumTouchPoints@QTouchDevice@@QEAAXH@Z
-U?setMinorVersion@QSurfaceFormat@@QEAAXH@Z
-U?setPointSizeF@QFont@@QEAAXN@Z
-U?setProfile@QSurfaceFormat@@QEAAXW4OpenGLContextProfile@1@@Z
-U?setRedBufferSize@QSurfaceFormat@@QEAAXH@Z
-U?setRenderableType@QSurfaceFormat@@QEAAXW4RenderableType@1@@Z
-U?setRestartCommand@QPlatformSessionManager@@UEAAXAEBVQStringList@@@Z
-U?setRestartHint@QPlatformSessionManager@@UEAAXW4RestartHint@QSessionManager@@@Z
-U?setRootObject@QPlatformAccessibility@@UEAAXPEAVQObject@@@Z
-U?setSamples@QSurfaceFormat@@QEAAXH@Z
 UEUeUt
 UIDBase
 UNDERLINE_POSITION
 UNDERLINE_THICKNESS
-USAUAWH
-USER32.dll
-UT?setFlags@QWindow@@QEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
+U\r8r+
 Uacute
 Uacutesmall
 Ubuntu
@@ -4690,60 +1426,35 @@ Unable to open tablet.
 Unable to set queue size on tablet. The tablet will not work.
 UnderlinePosition
 UnderlineThickness
-UnhandledExceptionFilter
 UniqueID
 Unknown
 Unknown Filename
 Unknown Module Name
-Unknown Runtime Check Error
+Unknown Runtime Check Error\n\r
 Unknown exception
 Unknown option
 UnregisterClass failed for '%s'
-UnregisterClassW
 UnregisterTouchWindow
 UpdateLayeredWindow
 UpdateLayeredWindowIndirect
 Usmall
 V$VYW
 V,V7VB
-V?setStencilBufferSize@QSurfaceFormat@@QEAAXH@Z
-V?setStereo@QSurfaceFormat@@QEAAX_N@Z
-V?setStrikeOut@QFont@@QEAAX_N@Z
-V?setUserData@QFontEngine@@IEAAXAEBVQVariant@@@Z
-V?setWeight@QFont@@QEAAXH@Z
-V?setWindowFilePath@QPlatformWindow@@UEAAXAEBVQString@@@Z
-V?setWindowModified@QPlatformWindow@@UEAA_N_N@Z
-VATAUAWH
-VCRUNTIME140D.dll
-VHcD$ L
-VQ?qt_metacast@QRasterWindow@@UEAAPEAXPEBD@Z
-VR?requestActivate@QWindow@@QEAAXXZ
-VU?setOrientationUpdateMask@QPlatformScreen@@UEAAXV?$QFlags@W4ScreenOrientation@Qt@@@@@Z
 VVector
 Value
 Verdana
 Verdana Clones
 Verdana and Clones
 Version
-Version:1.0
+Version:1.0\r\nStartHTML:0000000107\r\nEndHTML:0000000000\r\nStartFragment:0000000000\r\nEndFragment:0000000000\r\n\r\n
 VgVrV
-VirtualQuery
+Vh`D
 Vsmall
 W$W>WBWSW
 W'tVa
-W?shape@QCursor@@QEBA?AW4CursorShape@Qt@@XZ
-W?standardButtonText@QPlatformTheme@@UEBA?AVQString@@H@Z
-W?standardPixmap@QPlatformTheme@@UEBA?AVQPixmap@@W4StandardPixmap@1@AEBVQSizeF@@@Z
-W?standardSizes@QPlatformFontDatabase@@UEBA?AV?$QList@H@@XZ
-W?staticMetaObject@QGuiApplication@@2UQMetaObject@@B
-W?staticMetaObject@QInputMethod@@2UQMetaObject@@B
-W?staticMetaObject@QPlatformInputContext@@2UQMetaObject@@B
-W?staticMetaObject@QPlatformIntegrationPlugin@@2UQMetaObject@@B
-W?staticMetaObject@QPlatformNativeInterface@@2UQMetaObject@@B
+W,W6
 WEIGHT
 WEIGHT_NAME
-WHcD$ H
-WINMM.dll
 WJ?,C
 WM_ACTIVATE
 WM_ACTIVATEAPP
@@ -4823,6 +1534,7 @@ WM_WINDOWPOSCHANGING
 WM_XBUTTONDBLCLK
 WM_XBUTTONDOWN
 WM_XBUTTONUP
+WST_
 WTClose
 WTEnable
 WTGetW
@@ -4832,12 +1544,11 @@ WTOverlap
 WTPacketsGet
 WTQueueSizeGet
 WTQueueSizeSet
-WaitForSingleObjectEx
 WakeAllConditionVariable
 Webdings
 Weight
 WeightVector
-WideCharToMultiByte
+WiWr
 Width
 WinDisc
 WindowCreationData: 
@@ -4853,39 +1564,16 @@ Wrote
 Wsmall
 X        c #FFFFFF
 X7iii9P
-X?stencilBufferSize@QSurfaceFormat@@QEBAHXZ
-X?stereo@QSurfaceFormat@@QEBA_NXZ
-X?stringToCMap@QFontEngineMulti@@UEBA_NPEBVQChar@@HPEAUQGlyphLayout@@PEAHV?$QFlags@W4ShaperFlag@QFontEngine@@@@@Z
-X?swapBehavior@QSurfaceFormat@@QEBA?AW4SwapBehavior@1@XZ
-X?swapInterval@QSurfaceFormat@@QEBAHXZ
-X?sync@QPlatformIntegration@@UEAAXXZ
-X?synthesized@QFontEngine@@UEBAHXZ
-X?tableCellInterface@QAccessibleInterface@@QEAAPEAVQAccessibleTableCellInterface@@XZ
-X?tableInterface@QAccessibleInterface@@QEAAPEAVQAccessibleTableInterface@@XZ
-X?tabletEvent@QWindow@@MEAAXPEAVQTabletEvent@@@Z
-X?tabletPressTarget@QGuiApplicationPrivate@@2PEAVQWindow@@EA
-X?testOption@QFileDialogOptions@@QEBA_NW4FileDialogOption@1@@Z
-X?testOption@QSurfaceFormat@@QEBA_NW4FormatOption@1@@Z
-X?text@QClipboard@@QEBA?AVQString@@W4Mode@1@@Z
-X?text@QPalette@@QEBAAEBVQBrush@@XZ
-X?textInterface@QAccessibleInterface@@QEAAPEAVQAccessibleTextInterface@@XZ
 XCXVXac
-XHcD$hHk
+XClK
 XHeight
 XIDATx^c
+XIXP
+XJQ\vx
 X_HEIGHT
-XiD$p
 Xsmall
-Y!Q!t!
-Y?themeHint@QPlatformTheme@@UEBA?AVQVariant@@W4ThemeHint@1@@Z
-Y?title@QWindow@@QEBA?AVQString@@XZ
-YD$8H
-YD$@H
 YFDAt
 YLYVh
-YR?requestPhase2@QPlatformSessionManager@@UEAAXXZ
-YU?setOverline@QFont@@QEAAX_N@Z
-YX?supportsOpenGL@QSurface@@QEBA_NXZ
 Y]Ym[u[
 Yacute
 Yacutesmall
@@ -4893,64 +1581,62 @@ Ydieresis
 Ydieresissmall
 YeYii
 Ysmall
-Z?transformed@QPixmap@@QEBA?AV1@AEBVQTransform@@W4TransformationMode@Qt@@@Z
-Z?transformed@QPlatformPixmap@@UEBA?AVQPixmap@@AEBVQTransform@@W4TransformationMode@Qt@@@Z
-Z?transformed@glyph_metrics_t@@QEBA?AU1@AEBVQTransform@@@Z
-Z?transientParent@QWindow@@QEBAPEAV1@XZ
-Z?translate@QTransform@@QEAAAEAV1@NN@Z
-Z?valueInterface@QAccessibleInterface@@QEAAPEAVQAccessibleValueInterface@@XZ
-Z?virtualGeometry@QScreen@@QEBA?AVQRect@@XZ
-Z?weightFromInteger@QPlatformFontDatabase@@SA?AW4Weight@QFont@@H@Z
-Z?wheelEvent@QWindow@@MEAAXPEAVQWheelEvent@@@Z
-Z?width@QImage@@QEBAHXZ
+Z!Z1
 ZDZUZ]Zj
-ZW?size@QPixmap@@QEBA?AVQSize@@XZ
 Zcaron
 Zcaronsmall
 ZkHm~
 Zsmall
-[	?buffer@QRasterPlatformPixmap@@UEAAPEAVQImage@@XZ
+Z{\r\n    "name": "Qt built-in GPU driver blacklist",\r\n    "version": "5.5",\r\n    "entries": [\r\n        {\r\n            "id": 1,\r\n            "description": "Desktop OpenGL is unreliable on some Intel HD laptops (QTBUG-43263, QTBUG-42240)",\r\n            "vendor_id": "0x8086",\r\n            "device_id": [ "0x0A16" ],\r\n            "os": {\r\n                "type": "win"\r\n            },\r\n            "driver_version": {\r\n                "op": "<=",\r\n                "value": "10.18.10.3277"\r\n            },\r\n            "features": [\r\n                "disable_desktopgl"\r\n            ]\r\n        }\r\n    ]\r\n}\r\n
 [#[/[:[[[c[n
-[*L@n
 [0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{8}
-[?O?T?Y?e
-[?width@QPixmap@@QEBAHXZ
-[?width@QWindow@@QEBAHXZ
-[?winId@QWindow@@QEBA_KXZ
-[?window@QPlatformBackingStore@@QEBAPEAVQWindow@@XZ
-[?window@QPlatformWindow@@QEBAPEAVQWindow@@XZ
-[O?options@QFileDialogOptions@@QEBA?AV?$QFlags@W4FileDialogOption@QFileDialogOptions@@@@XZ
-[P?primaryScreen@QGuiApplication@@SAPEAVQScreen@@XZ
-[R?requestUpdate@QPlatformWindow@@UEAAXXZ
 \!\(\A\\\~\
-\$ WH
-\$PL+
 \Fonts\
-\[?xHeight@QFontEngine@@UEBA?AUQFixed@@XZ
-]!])a
+\f(\f6\fC\fP\f_\fn\f|\f
+\fQ0D
+\n         Device ID: 0x
+\n         SubSys ID: 0x
+\n         Vendor ID: 0x
+\n       Driver Name: 
+\n       Revision ID: 0x
+\n    Driver Version: 
+\n    ExStyle from 
+\n    HGLRC=
+\n    Obtained : 
+\n    Requested: 
+\n    Style from 
+\n    default: 
+\n    from: 
+\n    obtained #
+\n    obtained px #
+\n    returns: 
+\n  exStyle=
+\n  style=
+\n  topLevel=
+\n from 
+\n resulting 
+\n"\n)\n7\nA\nH\nS\nc\np\n|\n
+\nAddress: 0x
+\nAllocation number within this function: 
+\nExtensions: 
+\nFormat: 
+\nSize: 
+\nZmG
+\nrequested: 
+\r%\r1\rB\rQ\rZ\rf\rr\r~\r
+\rIDATx^
+\rIHDR
+\rVXE
+\t \t$\t6\tI\tY\th\ts\tz\t
+\t49Z
+\t89Q&
+\v"\v,\v9\vE\vR\v[\ve\vr\v
 ]/qNn
-]Z?uniqueId@QAccessible@@SAIPEAVQAccessibleInterface@@@Z
-][?xHeight@QFontEngineMulti@@UEBA?AUQFixed@@XZ
-^D$@H
-^D$PH
-^L^S^\^r
-^N?metaObject@QPlatformFileDialogHelper@@UEBAPEBUQMetaObject@@XZ
-^O?options@QPlatformFileDialogHelper@@QEBAAEBV?$QSharedPointer@VQFileDialogOptions@@@@XZ
-^R?requestedFormat@QWindow@@QEBA?AVQSurfaceFormat@@XZ
 ^a=Wl
-_	?button@QPalette@@QEBAAEBVQBrush@@XZ
-_A`:`
-_CrtDbgReport
-_CrtDbgReportW
-_CxxThrowException
-_HcD$$H
 _MULE_BASELINE_OFFSET
 _MULE_RELATIVE_COMPOSE
-_W_a_x_
-_X?supportsSubPixelPositions@QFontEngine@@UEBA_NXZ
 _XFREE86_GLYPH_RANGES
 __$AllocaPad$
-__C_specific_handler
 __cdecl QWindowCreationContext::QWindowCreationContext(const class QWindow *,const class QRect &,const class QMargins &,unsigned long,unsigned long)
 __cdecl QWindowsBackingStore::QWindowsBackingStore(class QWindow *)
 __cdecl QWindowsBackingStore::~QWindowsBackingStore(void)
@@ -4971,53 +1657,18 @@ __cdecl QWindowsOleDropTarget::~QWindowsOleDropTarget(void)
 __cdecl QWindowsOleEnumFmtEtc::QWindowsOleEnumFmtEtc(const class QVector<struct tagFORMATETC *> &)
 __cdecl QWindowsOleEnumFmtEtc::QWindowsOleEnumFmtEtc(const class QVector<struct tagFORMATETC> &)
 __int64 __cdecl qWindowsWndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)
-__intrinsic_setjmp
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__stdio_common_vsprintf
-__stdio_common_vsprintf_s
-__vcrt_GetModuleFileNameW
-__vcrt_GetModuleHandleW
-__vcrt_InitializeCriticalSectionEx
-__vcrt_LoadLibraryExW
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
-_invalid_parameter
-_purecall
 _q_embedded_native_parent_handle
 _q_showWithoutActivating
 _q_windowsCustomMargins
 _q_windowsDropShadow
-_register_onexit_function
-_seh_filter_dll
-_wmakepath_s
-_wsplitpath_s
-_w~<H
-`*`0a
-`.rdata
-`B`M`X
-`M?light@QPalette@@QEBAAEBVQBrush@@XZ
 `PLTE
 `anonymous-namespace'::CustomFontFileLoader::CustomFontFileLoader
 `anonymous-namespace'::DirectWriteFontFileLoader::CreateStreamFromKey
-`iD$H
-a	?country@QLocale@@QEBA?AW4Country@1@XZ
-a	]u]
 a        c #000000
 a'aCaYb"b8b
+a-a8
 a.....aXXa..............
-aHcD$ HcL$8H
-aM?lighter@QColor@@QEBA?AV1@H@Z
+aJaP
 aXXXXXXXXXa.............
 aXXXXXXXXa..............
 aXXXXXXXa...............
@@ -5031,6 +1682,7 @@ aXXa....................
 aXXaaXXa................
 aXa.....................
 aXa..aXXa...............
+a\ft/tOtet
 aa......................
 aa...aXXa...............
 aacute
@@ -5042,13 +1694,12 @@ accessible\comutils.cpp
 accessible\iaccessible2.cpp
 accessible\qwindowsmsaaaccessible.cpp
 acircumflex
-acolH
 acute
 addFontToDatabase
 adieresis
-aehhH
-aehvH
+aeam
 agrave
+ahoj
 allowedEffects=0x
 ampersand
 ampersandsmall
@@ -5068,16 +1719,22 @@ asuperior
 asyncExpose
 atilde
 attributes
+auto
 autofitter
+b(b0
 bBbMb
-bW?size@QWindow@@UEBA?AVQSize@@XZ
-bX?supportsTransformation@QFontEngine@@UEBA_NAEBVQTransform@@@Z
+bONI
+bTbm
+b\fp\v0
+b\rVBP
+b^be
 ba.ref.isStatic()
 backslash
 bad allocation
 bad array new length
+beep
 bitmap.pixel_mode == FT_PIXEL_MODE_GRAY
-bmysu9A
+bmys
 bool __cdecl QWindowsClipboard::clipboardViewerWndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64,__int64 *)
 bool __cdecl QWindowsClipboard::ownsMode(enum QClipboard::Mode) const
 bool __cdecl QWindowsContext::windowsProc(struct HWND__ *,unsigned int,enum QtWindows::WindowsEventType,unsigned __int64,__int64,__int64 *)
@@ -5118,9 +1775,12 @@ bsuperior
 bullet
 button:
 buttons
+bwb~
+c c2
 c.bitmap()
 c.mask()
 c7cPc
+c>cG
 cZcccqc
 cacute
 called with
@@ -5129,15 +1789,13 @@ caron
 ccaron
 ccedilla
 cedilla
+cent
 centinferior
 centoldstyle
 centsuperior
 changed packet queue size 
-cinuE3
-cinuH
-cinut
-cinuu!
-cinuu|H
+char
+cinu
 circumflex
 class QByteArray __cdecl writeDib(const class QImage &)
 class QFlags<enum QWindowsOpenGLTester::Renderer> __cdecl QWindowsOpenGLTester::detectSupportedRenderers(const struct GpuDescription &,bool)
@@ -5172,7 +1830,6 @@ class QWindow *__cdecl QWindowsScreen::topLevelAt(const class QPoint &) const
 class QWindow *__cdecl QWindowsScreen::windowAt(const class QPoint &,unsigned int)
 class QWindowsNativeDialogBase *__cdecl QWindowsDialogHelperBase<class QPlatformFileDialogHelper>::nativeDialog(void) const
 class QWindowsTabletSupport *__cdecl QWindowsTabletSupport::create(void)
-className
 classNameIn
 classNameTemplate
 close
@@ -5182,8 +1839,6 @@ closedhandcursor_64.png
 closefile
 closing
 clsid
-cmapH
-colbH
 colon
 colonmonetary
 comma
@@ -5200,12 +1855,13 @@ currency
 currentChanged
 currentlyLockedAlphaMap.isNull()
 cursorRectChanged
-cursors:
+cursors:\n
 d != Data::unsharableEmpty()
 d->alloc >= uint(aalloc)
 d->data()
 d->size == asize
 d3d11
+d3d9
 d6d?a
 d:\qt5\qtbase\include\qtcore\../../src/corelib/global/qglobal.h
 d:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
@@ -5223,17 +1879,14 @@ d:\qt5\qtbase\include\qtcore\5.5.0\qtcore\private\../../../../../src/corelib/too
 d:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/painting/qdrawhelper_p.h
 d:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
 d:\qt5\qtbase\src\plugins\platforms\windows\accessible\qwindowsmsaaaccessible.h
-dX?surface@QPlatformSurface@@QEBAPEAVQSurface@@XZ
+dX&L
 d]dbdpdyd
-daehH
 dagger
 daggerdbl
 darkening-parameters
 dcroat
-debug
 default-script
 degree
-dehbH
 desktop
 dhdl3
 dialogs=
@@ -5265,8 +1918,8 @@ dropAction=
 dsuperior
 dwFlags=
 e e%e.e=eM
-eR?reset@QPlatformInputContext@@UEAAXXZ
 eZe}e
+e\rxG+E\4XR
 eacute
 ebegeq
 ecircumflex
@@ -5282,7 +1935,6 @@ eightinferior
 eightoldstyle
 eightsuperior
 ellipsis
-emanH
 emdash
 empty distance tree with lengths
 endash
@@ -5293,8 +1945,6 @@ enum Qt::DropAction __cdecl QWindowsDrag::drag(class QDrag *)
 equal
 esuperior
 et=0x
-eurtt
-eurtu
 eventProc
 excepInfo
 exclam
@@ -5302,21 +1952,21 @@ exclamdown
 exclamdownsmall
 exclamsmall
 f!f=fEfwf
-fD9TD@t
+f'f5
 fEscapePressed=
-fV?setType@QTouchDevice@@QEAAXW4DeviceType@1@@Z
+fPfo
+fWfc
 fails
 fallback-script
-fclose
-fcttu
 ffffff
-fflush
 field < Fragment::size_array_max
 figuredash
 fijkdbh
+file
 filter
 filterSelected
 filterSeparatorRE.isValid()
+five
 fiveeighths
 fiveinferior
 fiveoldstyle
@@ -5326,27 +1976,19 @@ florin
 fontEngine->ref.load() == 0
 fontdatabases\basic\qbasicfontdatabase.cpp
 fontengine=
-fopen
 for option
 format != Format_None
 format listener:
 found cell? 
+four
 fourinferior
 fouroldstyle
 foursuperior
-fpgiu
 fraction
 franc
-fread
 freetype
-fseek
-ftell
-fylgH
-g	?countryToString@QLocale@@SA?AVQString@@W4Country@1@@Z
 g5g>gK
-gV?setUnderline@QFont@@QEAAX_N@Z
 gZgnhKhWhci
-g]a^+^B^
 gamma: 
 gbreve
 germandbls
@@ -5404,7 +2046,6 @@ glTexParameteriv
 glTexSubImage2D
 glViewport
 glhandle
-glyfH
 glyph-dict
 glyph-to-script-map
 glyph_buffer_size <= bitmap_buffer_size
@@ -5413,40 +2054,33 @@ grave
 greater
 greaterequal
 grfKeyState=
-gs != 0
 guillemotleft
 guillemotright
 guilsinglleft
 guilsinglright
-h=kV 
-hHcD$xHk
-hJ?glyphCount@QFontEngine@@UEBAHXZ
-hQ?qt_needs_a8_gamma_correction@@3_NA
-hX?surfaceHandle@QWindow@@EEBAPEAVQPlatformSurface@@XZ
-hY?topLevelWindows@QGuiApplication@@SA?AV?$QList@PEAVQWindow@@@@XZ
+h>5q
+hJuA
 handle
 handled=
-headH
 hhh/09GGG+,7
 hideFiltersDetails
 hinting-engine
 hj(5W<
 hotspot:
 hr=0x
-htdwu
+hsxD
 hungarumlaut
 hyphen
 hypheninferior
 hyphensuperior
 i(i4i:iP
 iIDATx^
-iK?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
 iacute
 icircumflex
+icon
 idieresis
 idx >= 0 && idx < s
 igrave
-ikD$$
 imeNotifyCancelComposition
 incomplete distance tree
 incomplete dynamic bit lengths tree
@@ -5478,34 +2112,26 @@ isDetached()
 isFixedPitch
 isuperior
 iterator hasn't a next item
-j	?bytesPerLine@QImage@@QEBAHXZ
-jHcD$0
-jJ?glyphIndex@QFontEngineMulti@@UEBAII@Z
-jK?initialDirectory@QFileDialogOptions@@QEBA?AVQUrl@@XZ
-jV?setUnderlineStyle@QTextCharFormat@@QEAAXW4UnderlineStyle@1@@Z
-jX?surfaceType@QWindow@@UEBA?AW4SurfaceType@QSurface@@XZ
+jDjK
 j[ros
 jsIM]G
 k k.k;m
-kD$8	
-kD$d*
-kK?initialGeometry@QPlatformWindow@@SA?AVQRect@@PEBVQWindow@@AEBV2@HH@Z
-kL$H@;
-kL$x0
-kZ?unlockAlphaMapForGlyph@QFontEngine@@UEAAXXZ
 kZkjk
+k\vnK
 kerning
+key=
 keyName=
 keys=
+kjO}
 known
+l*l3
 lElblrl
-lHcD$,HcL$(H
-lQ?qt_pixmapFromWinHBITMAP@@YA?AVQPixmap@@PEAUHBITMAP__@@H@Z
-lS?setBackground@QTextFormat@@QEAAXAEBVQBrush@@@Z
+lKlV
 launchMail
 leave proximity for device #
 lenBuildCharArray
 lenIV
+less
 lessequal
 load glyph failed due to broken hinting bytecode in font, switching to auto hinting
 load glyph failed err=%x face=%p, glyph=%d
@@ -5620,18 +2246,13 @@ long __cdecl QWindowsOleDropTarget::DragLeave(void)
 long __cdecl QWindowsOleDropTarget::DragOver(unsigned long,struct _POINTL,unsigned long *)
 long __cdecl QWindowsOleDropTarget::Drop(struct IDataObject *,unsigned long,struct _POINTL,unsigned long *)
 long __cdecl `anonymous-namespace'::DirectWriteFontFileLoader::CreateStreamFromKey(const void *,unsigned int,struct IDWriteFontFileStream **)
-longjmp
 lozenge
 lslash
 lsuperior
-ltuoH
-ltuot
-m	m9e
-mN?metaObject@QRasterWindow@@UEBAPEBUQMetaObject@@XZ
-mQ?qt_pixmapFromWinHICON@@YA?AVQPixmap@@PEAUHICON__@@@Z
-mR?resize@QRasterPlatformPixmap@@UEAAXHH@Z
+ltuo
 mRmom}m
-mY?touchEvent@QWindow@@MEAAXPEAVQTouchEvent@@@Z
+mXme
+m\tm9e
 m_clipboardViewer:
 m_data.hwnd
 m_directWriteFontFace
@@ -5644,14 +2265,8 @@ macron
 mailCommand
 mailto
 makeCurrent(): context loss detected
-malloc
-memchr
-memcmp
-memcpy
-memmove
-memset
 metrics != 0
-mgpfH
+mime
 mimeIn
 mimeType
 minus
@@ -5662,38 +2277,38 @@ msg=0x
 msuperior
 multi-masters
 multiply
+n2n?
 nArgErr
-nK?initialize@QPlatformAccessibility@@UEAAXXZ
-nL?isInputPanelVisible@QPlatformInputContext@@UEBA_NXZ
-nQ?qt_pixmapToWinHBITMAP@@YAPEAUHBITMAP__@@AEBVQPixmap@@H@Z
-nameH
+nNy~
+nPnq
+n^nf
+name
 native
 native=
 need dictionary
 next:
+nine
 nineinferior
 nineoldstyle
 ninesuperior
+nmra
 no-stem-darkening
 nomousefromtouch
 nonbreakingspace
+none
 nonmarkingreturn
 notequal
-nrekH
 nsuperior
 ntilde
 numbersign
 oEoOoZoaozo
 oIDATx^
-oJ?glyphMargin@QFontEngine@@UEAAHW4GlyphFormat@1@@Z
-oQ?qt_pixmapToWinHICON@@YAPEAUHICON__@@AEBVQPixmap@@@Z
-oR?resize@QWindow@@QEAAXAEBVQSize@@@Z
 oacute
 ocircumflex
 odieresis
 ogonek
 ograve
-ole32.dll
+ohoq
 oleacc
 onedotenleader
 oneeighth
@@ -5712,7 +2327,6 @@ openhandcursor_64.png
 options=
 ordfeminine
 ordmasculine
-org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3
 oslash
 osuperior
 otilde
@@ -5722,9 +2336,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 owner
 p#p7pP
-pK?initialize@QPlatformOpenGLContext@@UEAAXXZ
-pM?lineThickness@QFontEngine@@UEBA?AUQFixed@@XZ
-pamcH
 paragraph
 parenleft
 parenleftinferior
@@ -5743,12 +2354,12 @@ period
 periodcentered
 periodinferior
 periodsuperior
-perpH
 perrinfo
 perthousand
 pfr-metrics
 pixmap
 platform
+plus
 plusminus
 pointer:
 possible Actions=0x
@@ -5759,22 +2370,15 @@ pqgjy
 processing 
 product
 properties
-psagH
 psaux
+psei
 pshinter
 psnames
-pxamH
-q	?cacheKey@QPixmap@@QEBA_JXZ
-q	?createData@QMapDataBase@@SAPEAU1@XZ
 q4qIqQ
 qIDATx^
-qL?isLabelExplicitlySet@QFileDialogOptions@@QEAA_NW4DialogLabel@1@@Z
-qM?lineThickness@QFontEngineMulti@@UEBA?AUQFixed@@XZ
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qY?tr@QAccessibleActionInterface@@SA?AVQString@@PEBD0H@Z
 qYqaqnq
-qsort
 qt.qpa.accessibility
 qt.qpa.backingstore
 qt.qpa.dialogs
@@ -5830,16 +2434,12 @@ qwindowstabletsupport.cpp
 qwindowstheme.cpp
 qwindowswindow.cpp
 r*r4r;
+r?RJ
+rQr\
 radical
 raster1
 raster5
-ravaH
-ravcH
-ravfH
-ravgH
-rcniu&HcD$4Hk
 readDib
-realloc
 registerMimeType
 registerWindowClass
 registerWindowsMime
@@ -5849,7 +2449,6 @@ releasedc
 renderer: 
 renderingcontext
 reportedPerformedEffect=0x
-requested: 
 resource.frk/
 result.hwnd
 results in
@@ -5858,12 +2457,12 @@ returns
 returns 0x
 rgvarg
 rgwParams
+ring
 rotation:
 rsuperior
 rupiah
+s&sg
 s1s:sHsX
-s6HcD$H
-sR?resizeEvent@QWindow@@MEAAXPEAVQResizeEvent@@@Z
 scaron
 scedilla
 section
@@ -5874,11 +2473,13 @@ seveneighths
 seveninferior
 sevenoldstyle
 sevensuperior
+sfnt
 sfnt-table
 sfnts
 short
 sibling
 signature
+sijs
 sixinferior
 sixoldstyle
 sixsuperior
@@ -5888,9 +2489,10 @@ slot->bitmap.pixel_mode == FT_PIXEL_MODE_MONO
 smooth
 smooth-lcd
 smooth-lcdv
+smsv
+snaw
 software
 space
-spgiu
 splithcursor_32.png
 splithcursor_48.png
 splithcursor_64.png
@@ -5900,16 +2502,7 @@ splitvcursor_64.png
 ssuperior
 sterling
 str.ref.isStatic()
-strcat
-strcat_s
-strcmp
-strcpy_s
-strlen
-strncmp
-strncpy
 strongref.load() <= 0
-strrchr
-strstr
 struct HBITMAP__ *__cdecl createDIB(struct HDC__ *,int,int,enum QImage::Format,unsigned char **)
 struct HGLRC__ *__cdecl ARB::createContext(const class QOpenGLStaticContext &,struct HDC__ *,const class QSurfaceFormat &,const struct QWindowsOpenGLAdditionalFormat &,struct HGLRC__ *)
 struct HICON__ *__cdecl QWindowsCursor::createSystemCursor(const class QCursor &)
@@ -5921,40 +2514,21 @@ struct tagLOGFONTW __cdecl QWindowsFontDatabase::fontDefToLOGFONT(const struct Q
 summation
 surface->surface()->supportsOpenGL()
 symbol
-t	kD$<
-t$ WH
-t(HkD$0 H
-t.HcD$0
-t.HcD$4H
-t/tOtet
 t1cid
-t4HcD$0
-t7HcD$<H
-t=HcD$(H
-t=iD$L
-tIHcD$8Hk
-tJHkD$(
-tM?lineTo@QPainterPath@@QEAAXAEBVQPointF@@@Z
-tMHcD$ Hk
+t5tF
 tName
-tUHcD$$Hk
-tXHcD$ H
+tRNS
+tUt[
 tXT9bq^F
-t]HcD$PHk
-t_HcD$hH
 tabletabsoluterange
-tadbH
 tag =
 tagName.size() == 4
 tanP:
 target:
 tcommaaccent
-terminate
 text/html
 text/plain
 text/uri-list
-thHcD$8Hk
-thgwu
 thorn
 three
 threeeighths
@@ -5965,14 +2539,14 @@ threequartersemdash
 threesuperior
 tilde
 tilt:
-tnlsu
+tlt~
 too many length or distance symbols
-toupper
+tq\n$S
 trademark
 triggered=
+true
 truetype
 truetype-engine
-tsopH
 tsuperior
 tt-cmaps
 tt-glyf
@@ -5983,18 +2557,11 @@ twosuperior
 twothirds
 type1
 type42
-t|HcD$0
-u HcD$lH
-u#L9=C
-u'HcD$$Hk
-u*HcD$0H
 u,uEu
-u:HcD$ Hk
-uBHcD$4Hk
-uKHcD$(H
+uKu`
+uX\tP
 uacute
 ucircumflex
-ucrtbased.dll
 udieresis
 ugrave
 uint(d->size) <= d->alloc
@@ -6005,13 +2572,7 @@ unknown compression method
 unregisterWindowsMime
 unsigned int __cdecl QStringIterator::next(unsigned int)
 unsigned int __cdecl parseOptions(const class QStringList &,int *,enum QtWindows::ProcessDpiAwareness *)
-uqHcD$ H
-uqHcD$0H
-u|HcD$PH
 v8vUb
-vCHcD$0L
-vHcD$LH
-vQ?qt_scrollRectInImage@@YAXAEAVQImage@@AEBVQRect@@AEBVQPoint@@@Z
 vaResult
 verbose
 version
@@ -6086,15 +2647,10 @@ void __cdecl WindowCreationData::initialize(const class QWindow *,struct HWND__ 
 void __cdecl accessibleDebugClientCalls_helper(const char *,const class QAccessibleInterface *)
 void __cdecl describeFormats(struct HDC__ *)
 void __cdecl imeNotifyCancelComposition(struct HWND__ *)
+w%nc
+wBz)
 wDwNwYw`wy
-wHcD$pH
-wJ?gpuFeatures@QOpenGLConfig@@SA?AV?$QSet@VQString@@@@AEBUGpu@1@AEBVQString@@@Z
-wNHcD$$H
-w\HcD$ H
-wcscmp
-wcscpy_s
-wcslen
-wcsncmp
+warp
 wglChoosePixelFormatARB
 wglCreateContext
 wglCreateContextAttribsARB
@@ -6109,6 +2665,7 @@ wglSetPixelFormat
 wglShareLists
 wglSwapBuffers
 wglSwapIntervalEXT
+wgwp
 widget=
 win%1_%2.png
 windir
@@ -6119,232 +2676,24 @@ windows
 windows_generic_MSG
 winfonts
 writeDib
-x == d
-x ltuou
 x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-x8ltuou%H
-x8ltuoulH
 x>xoxyx~
-xG+E\4XR
 xIxRx[xe
-xS?setBlueBufferSize@QSurfaceFormat@@QEAAXH@Z
-xT?setForeground@QTextFormat@@QEAAXAEBVQBrush@@@Z
-x`ltuo
-x`ltuot
-x`ltuou!H
-x`ltuou$H
-x`ltuouHH
-x`ltuou[H
-x`pmoc
-x`pmoct
-x`pmoctP
-x`pmocu0H
-x`stib
-x`stibt
-x`stibt^H
-x`stibu
 xf86-driver-name
-xibsH
-xmdhH
 xzroesc
-y	?createInternalHwnd@QEventDispatcherWin32@@IEAAXXZ
+y#uL
 y'y6y?yMa
-yZ?update@QPaintDeviceWindow@@QEAAXXZ
 yZygy
 yacute
 ydieresis
-z	?canRead@QImageReader@@QEBA_NXZ
+ymyx
 z<zRz_zvz
-zZ?update@QPlatformInputContext@@UEAAXV?$QFlags@W4InputMethodQuery@Qt@@@@@Z
+zCzI
 zcaron
+zero
 zeroinferior
 zerooldstyle
 zerosuperior
-zspou
-{	?canReadData@QInternalMimeData@@SA_NAEBVQString@@@Z
-{HcD$TH
-{O?ownsDragObject@QPlatformDrag@@UEBA_NXZ
-{P?profile@QSurfaceFormat@@QEBA?AW4OpenGLContextProfile@1@XZ
+zezn
 {Sl"v
-{U{c{
-|$ 	u
-|$ 	}.HcD$ Hk
-|$ 	~\3
-|$  @
-|$  t
-|$  |"
-|$  }
-|$ !@
-|$ ,t
-|$ -t
-|$ 0}
-|$ 8}
-|$ ;u
-|$ @|
-|$ @}
-|$ E3
-|$ J}RHcD$ H
-|$ OTTOt7
-|$ P}
-|$ UH
-|$ gt	
-|$ ht6
-|$ truet-
-|$ ttcf
-|$ typ1t#H
-|$$	u
-|$$ |zH
-|$$ }
-|$$%tv
-|$$(t
-|$$(tE
-|$$(}*
-|$$-wQHcD$$H
-|$$0}
-|$$6}
-|$$7w`HcD$$H
-|$$9wnH
-|$$<tS
-|$$@|
-|$$@}
-|$$Xt	
-|$$Yt
-|$$dsy
-|$${t	
-|$${tD
-|$$|u
-|$$}t
-|$(	u
-|$(	}
-|$(*}
-|$(0}
-|$(6}
-|$(Xt	
-|$(Yt,
-|$(stibt
-|$,	v
-|$, DICuA
-|$, }
-|$,(}*
-|$,)t	
-|$,0}
-|$,1PYTu?
-|$,1pytt
-|$,@u
-|$,Zt
-|$,tt
-|$,ut
-|$0 r
-|$0 tvct
-|$0 ~
-|$08t
-|$0@r
-|$0@}-
-|$0Bw
-|$0mgpft
-|$0perpt 
-|$4	u
-|$4	}@HcD$4H
-|$4 |
-|$41pytt
-|$4@}
-|$4@~
-|$4FFOwua3
-|$4OTTOt.
-|$4T}
-|$4eurtt$
-|$4fctt
-|$4fcttt8
-|$8&t
-|$8/s>HkD$8
-|$8`v
-|$8qt
-|$8rt
-|$< v
-|$< ~
-|$<1talt+
-|$<9wI
-|$<CBDAt|
-|$<bmyst^
-|$<cinut
-|$<nmrat5
-|$@ gnptZ
-|$@ gpjtn
-|$@"u
-|$@$~
-|$@%u&H
-|$@,t
-|$@-t
-|$@ATEMu
-|$@GNISu
-|$@daeht
-|$@dehb
-|$@epudt*
-|$@ffittP
-|$@lbgrtZ
-|$D u
-|$H	t
-|$H	u
-|$H ~
-|$H0~
-|$H:t
-|$Hcinuu
-|$L }
-|$L6s
-|$L@v
-|$POTTOt(H
-|$X	t
-|$X.|
-|$X4~
-|$X9D$h~
-|$X@}
-|$`@}
-|$d@t
-|$p@B
-|$t.~-
-|$t9~
-|$xWv
-|&HcD$8H
-|)HcD$`Hk
-|+HcD$HHk
-|7HcD$ 
-|=|K|^|n|
-|>HcD$0
-|DHcD$0Hk
-|HcD$<
-|PHcD$$H
-|cHcD$ H
-}	?canRender@QFontEngine@@UEBA_NPEBVQChar@@H@Z
-}!HcD$0H
-}%}.}I
-}'HcD$ HcL$0H
-}'HcD$@HcL$0H
-}'HcD$`HcL$XH
-}'HcD$lHcL$\H
-})HcD$ HcL$0H
-}-HcD$$H
-}2HcD$
-}3kD$4
-}8HcD$$
-}BHcD$0Hk
 }D"pN
-}HHcD$(Hk
-}HHcD$,Hk
-}HcD$LH
-}MHcD$
-}V}|~
-}Z?updateAction@QPlatformDrag@@QEAAXW4DropAction@Qt@@@Z
-}hHcD$
-}lHcD$ H
-~	?canRender@QFontEngineMulti@@UEBA_NPEBVQChar@@H@Z
-~&HcD$0H
-~+HcD$0HcL$8H
-~-~E~W~
-~FHcD$(H
-~GHcD$ 
-~XHcD$ H
-~[HcD$ H
-~_HcD$4H
-~_HcD$@H
-~c~{~
-~hHcD$0

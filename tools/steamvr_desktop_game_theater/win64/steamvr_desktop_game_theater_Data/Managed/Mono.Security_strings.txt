@@ -1,24 +1,15 @@
-					
-										
-	*ri+
-	I/>$#
-	KnXX
-	Q/0$#
- '!K!]!~!
- DSS1;
- DSS2;
- G m 
- RSA1;
- RSA2;
+ DSS1;\v
+ DSS2;\v
+ RSA1;\v
+ RSA2;\v
  TNLCoH
  di(H
-!6 &S
-!This program cannot be run in DOS mode.
+ vT2
 !_w7V
-#(#a#v#
 #Blob
 #GUID
 #Strings
+#Zg6
 $$field-0
 $$field-1
 $$field-10
@@ -61,53 +52,50 @@ $ArrayType$64
 $ArrayType$8
 $ArrayType$96
 $R"3V
-$^<7V
 $f|7Q
-%)%P%
-%K	XT
-%K	XT*
+%K\tXT
 %_w7V
 &'&,&2&C&S&d&
 &JF#Q
-'$'L'h'
 '$(*(6(G(m(t(}(
+(U45
 (c) 2003-2004 Various Authors
-),)B)
-)]<7V
-)k,:b
-*"*K*f*v*
+*Y26
 *_w7V
-*l_:g
+*ryQ
 +8+D+U+^+k+
-,0-h-
-,:,b,r,
--&./.
--e	9B
-../mono.pub
+-e\t9B
 ._w7V
 .cctor
 .ctor
-.text
-/9/T/j/
 0Ma2$
 0Ma2]
+0Y(4
+0Zt6
 0^<7V
 1%1<1K1\1l1q1w1
 1R"3V
 2+2<2I2n2{2
+2FF#
 2_w7V
 343B3i3x3
+3F#Q
+3Y26
+3raV
 3x~=N
 4!4*4m4
+4U45
 5$5/5f5s5z5
+5F#Q
+5mmQ
 5n}:u
+5r!C
 676P6\6n6
 7 7^7
+7VM5
 8(8G8[8
 889u9
 ;E;Z;`;s;{;
-;]<7V
-<3<=<O<g<
 <>f__am$cache2
 <>f__am$cache3
 <>f__switch$map0
@@ -138,20 +126,20 @@ $f|7Q
 <Module>
 <PrivateImplementationDetails>
 =Q-3Q
-=^<7V
-?C?M?|?
 ?k3:c
 ?lf:h
-@.reloc
 @1@?@P@j@}@
-@j^iY
-A	B!B;BKB
+@VM5
 A$A0A>AHAMASA^AiAqA
 AACompromise
 ACC_CDATA
 ACC_CHARS_STATE_CHANGE
+AI)f
+AI)i
 ARC4Managed
+ASN1
 ASN1Convert
+A\tB!B;BKB
 AbbreviatedHandshake
 AccessDenied
 ActionCode
@@ -232,7 +220,9 @@ AuthenticodeDeformatter
 AuthenticodeFormatter
 Authority
 AuthorityKeyIdentifierExtension
+BANG
 BLOCK_SIZE_BYTES
+BSJB
 BadCertificate
 BadRecordMAC
 BagOID
@@ -256,6 +246,7 @@ Buffer
 Build
 BuildCertificatesCollection
 BuildCrlsCollection
+Byte
 BytesRead
 CACompromise
 CHARS
@@ -263,6 +254,8 @@ CLNTSRVRSRVR
 CLSCompliantAttribute
 CRLDistributionPointsExtension
 CRLIssuer
+C\r84t
+C\r@4u
 CanChange
 CanRead
 CanReuseTransform
@@ -296,6 +289,7 @@ ChallengeResponse
 ChangeCipherSpec
 ChangeProtocol
 ChangeValue
+Char
 CharKind
 CheckCertRevocationStatus
 CheckDisposed
@@ -342,6 +336,7 @@ ClientWriteMAC
 Clone
 Close
 CloseNotify
+Code
 CoffSymbolTableOffset
 CollectionBase
 Column
@@ -378,8 +373,10 @@ ContentInfo
 ContentType
 Context
 Convert
+Copy
 CopyFrom
 CopyTo
+Core
 Count
 Counter
 CountryName
@@ -393,6 +390,7 @@ CreateKeyExchange
 CreatePremasterSecret
 CreateSignature
 Critical
+Crls
 CryptoApiPasswordLimit
 CryptoConfig
 CryptoConvert
@@ -503,16 +501,19 @@ EndWrite
 EndsWith
 Enter
 Entries
+Enum
 EnvelopedData
 Environment
 Equals
 ErrorCode
+EsF<
 Escape
 EventArgs
 EventWaitHandle
 Exception
 ExchangeAlgorithmType
 Exists
+Exit
 Expand
 ExpandedKeyMaterialSize
 Exponent
@@ -529,6 +530,7 @@ FatalErr
 FeedBackByte
 FeedBackIter
 FeedbackSizeValue
+File
 FileAccess
 FileMode
 FileName
@@ -550,6 +552,7 @@ Flush
 Format
 FormatException
 Fortezza
+Fr6H
 FromBase64String
 FromCapiKeyBlob
 FromCapiKeyBlobDSA
@@ -632,8 +635,11 @@ GetUnixTime
 GetUnsignedBigInteger
 GetValue
 GivenName
+Gr1U
 Group
 GroupCollection
+Guid
+HMAC
 HMACSHA1
 H]<7V
 HandlerAdapter
@@ -643,6 +649,7 @@ HandshakeMessage
 HandshakeMessages
 HandshakeState
 HandshakeType
+Hash
 HashAlgorithm
 HashAlgorithmName
 HashAlgorithmType
@@ -657,13 +664,13 @@ Hashtable
 HaveRemoteValidation2Callback
 Header
 HelloRequest
+High
 HnW9v
+Host
 HostName
 HttpWebRequest
 HttpsClientStream
-I/>$ 
-I/>$H
-I/>$`
+I(fQ
 I2OSP
 IAsyncResult
 IAttrList
@@ -756,9 +763,14 @@ IssuerAndSerialNumber
 IssuerName
 IssuerUniqueId
 IssuerUniqueIdentifier
+Item
 IterationCount
+IuF#
 IvSize
-KGS!@#$%
+JYo5
+Jd1\n
+Jd1\r
+K$w\fP
 KeepAlive
 KeepLastBlock
 Kernel
@@ -790,9 +802,12 @@ KeyUsageExtension
 KeyUsages
 KeyValue
 KeyedHashAlgorithm
+Keys
+KnXX
 L6<&V
 LEFT_BR
 LEFT_SQBR
+LVM5
 LastHandshakeMsg
 LastIndexOf
 LeftShift
@@ -800,6 +815,8 @@ LegalBlockSizesValue
 LegalKeySizesValue
 Length
 Level
+Line
+Load
 LoadCertificate
 LoadCertificates
 LoadCrl
@@ -810,12 +827,14 @@ LocalMachine
 Locale
 LocalityName
 LowestSetBit
+LwH'
 MAX_FRAGMENT_SIZE
 MD2Managed
 MD2Transform
 MD4Managed
 MD4Transform
 MD5SHA1
+MGF1
 MONO CLI
 MONO development team
 MacHeaderLength
@@ -827,6 +846,7 @@ MasterSecret
 Match
 MatchCollection
 Matches
+Math
 Maximum
 MaximumPasswordLength
 Medium
@@ -871,6 +891,8 @@ Multiply
 MultiplyByDword
 MultiplyMod2p32pmod
 NTLMSSP
+NY26
+Name
 Names
 Negative
 Negotiate128
@@ -895,6 +917,7 @@ NoError
 NoPathLengthConstraint
 NoRenegotiation
 Nonce
+None
 Normalize
 NotAfter
 NotBefore
@@ -904,6 +927,7 @@ NotSupportedException
 NotTimeNested
 NotTimeValid
 NtlmFlags
+Null
 NumberStyles
 OS2IP
 O^<7V
@@ -924,15 +948,18 @@ OnRemoteCertificateValidation
 OnRemoteCertificateValidation2
 OnStartElement
 OnStartParsing
+Open
 OpenRead
 OpenText
 OpenWrite
 OperatingSystem
+Opus
 OrganizationName
 OrganizationalUnitName
 OtherPeople
 OutputBlockSize
 OverflowException
+P'3N
 PEOffset
 PI_MARK
 PI_SUBST
@@ -942,6 +969,7 @@ PKCS5
 PKCS7
 PKCS8
 PKCS9
+PO#N
 PROC_CHAR_REF
 Padding
 PaddingMode
@@ -952,7 +980,9 @@ ParseExact
 PartialChain
 Password
 PasswordToKey
+Path
 PathLenConstraint
+Peek
 Personal
 Pkcs8ShroudedKeyBagSafeBag
 PlatformID
@@ -960,6 +990,7 @@ PlusEq
 Position
 Positive
 PostTrialDivisionTests
+Pr]F
 PrepareDESKey
 PrepareMessage
 PrimalityTest
@@ -972,6 +1003,7 @@ PrivateKeySelection
 PrivateKeySelectionCallback
 PrivateKeyUsagePeriodExtension
 PrivilegeWithdrawn
+PrkN
 ProceedAfterHandshake
 Process
 ProcessAlert
@@ -997,13 +1029,17 @@ PublicKey
 PublicKeyToken
 PublicOnly
 Purpose
-Q/0$ 
+Push
+Q"3V
 Q/0$H
-Q/0$`
+QV3U
+Q_3W
+R"3V
 RFC822
 RIGHT_BR
 RIGHT_SQBR
 RNGCryptoServiceProvider
+RSA1
 RSACryptoServiceProvider
 RSADP
 RSAEP
@@ -1036,6 +1072,7 @@ RandomNumberGenerator
 RandomSC
 Randomize
 RawData
+Read
 ReadAttribute
 ReadByte
 ReadBytes
@@ -1085,6 +1122,7 @@ RevocationDate
 RightShift
 Rijndael
 Rk9:c
+Root
 RsaKeyX
 RsaParameters
 RsaSign
@@ -1095,6 +1133,7 @@ RuntimeTypeHandle
 SEND_CHARS
 SET_ATTR_NAME
 SET_ATTR_VAL
+SHA1
 SHA224
 SHA224Managed
 SHA256
@@ -1110,6 +1149,8 @@ START_ELEM
 STATE_CHANGE
 SafeBag
 SafeReceiveRecord
+Salt
+Save
 SaveToFile
 SearchForChildByTag
 SecretBagSafeBag
@@ -1123,6 +1164,8 @@ SecurityParser
 SecurityProtocol
 SecurityProtocolFlags
 SecurityProtocolType
+Seed
+Seek
 SeekOrigin
 SelectBestEncoding
 SelectedClientCertificate
@@ -1163,6 +1206,10 @@ SetContextInCache
 SetHashAlgorithm
 SetKey
 SetLength
+Sha1
+Sig0
+Sig1
+Sign
 Sign_v15
 Signature
 SignatureAlgorithm
@@ -1179,10 +1226,13 @@ SmallPrimeSppTest
 Smime
 SmimeCA
 SoftwarePublisherCertificate
+Sort
 SortedSet
 SpecialFolder
 Split
 SquarePositive
+Ssl2
+Ssl3
 Ssl3Marker
 SslCA
 SslCipherSuite
@@ -1271,6 +1321,7 @@ System.Text.RegularExpressions
 System.Threading
 TLS1_PROTOCOL_CODE
 TargetHost
+Test
 TestBit
 ThisUpdate
 ThrowBadPaddingException
@@ -1328,6 +1379,7 @@ Transform
 TransformBlock
 TransformFinalBlock
 TrialDivisionBounds
+Trim
 TripleDES
 TripleDes
 TrustAnchors
@@ -1337,9 +1389,12 @@ TrustedRoot
 TrustedRootCACrls
 TrustedRootCertificates
 TryGetValue
+Type
 Type1Message
 Type2Message
 Type3Message
+U68#
+U:5V
 UInt16
 UInt32
 UInt64
@@ -1348,6 +1403,7 @@ ULongFromBytes
 UNIX_BASE_TICKS
 UNKNOWN
 UShortFromBytes
+U_w7
 Ull:h
 UnauthenticatedAttributes
 UnexpectedMessage
@@ -1395,6 +1451,7 @@ WaitOne
 WaitTimeOut
 Warning
 WasCurrent
+Weak
 WebClient
 WebHeaderCollection
 WebRequest
@@ -1406,6 +1463,7 @@ WriteByte
 WriteInt24
 WriteLine
 WriteSequenceNumber
+X501
 X509Builder
 X509Certificate
 X509Certificate2
@@ -1421,8 +1479,49 @@ X509ExtensionCollection
 X509Store
 X509StoreManager
 X509Stores
+X520
 XMLError
+XX}5
+X\f8Y
+X\ns6
+X\vs6
+Xjo^
+Xlat
+YW6V
+Y\n8s
 Y]<7V
+Yj\n8
+Yj\n8/
+ZW6V
+ZXK9
+ZXK:\f
+ZXXT
+Zero
+Zh(F
+Zlib
+Zr'S
+[VM5
+\fKnZ
+\fN4x
+\f\t\t\t\t\t\t\t\t\t\t
+\fbYi
+\fnoW
+\n&rsY
+\n*riR
+\nKnXX
+\nKnZ
+\nz.ra
+\nzrg\t
+\r8STs\ne
+\rKnXX
+\tKnXX
+\tXtn
+\tYo5
+\tt7n
+\v../mono.pub
+\vKnZ
+]77V
+^kK\r2U
 _CanSecure
 _CorDllMain
 _IsMachineProtected
@@ -1431,7 +1530,6 @@ _ProcessingBuffer
 _ProcessingBufferCount
 _ProtectMachine
 _ProtectUser
-_^<7V
 _algorithm
 _asn1
 _asyncException
@@ -1446,10 +1544,12 @@ _challenge
 _container
 _content
 _count
+_crl
 _crls
 _data
 _disposed
 _domain
+_dsa
 _encrypted
 _encryptionAlgorithm
 _filename
@@ -1461,6 +1561,7 @@ _initialBuffer
 _intermediate
 _issuer
 _iterations
+_key
 _keyBags
 _keyBagsChanged
 _keyvalue
@@ -1475,6 +1576,7 @@ _names
 _nonce
 _ntpwd
 _offset
+_oid
 _other
 _params
 _password
@@ -1484,12 +1586,15 @@ _recipientInfos
 _record
 _request
 _resultingBuffer
+_rng
 _root
+_rsa
 _safeBags
 _salt
 _secretBags
 _secretBagsChanged
 _serial
+_ski
 _status
 _storePath
 _trusted
@@ -1502,7 +1607,7 @@ _userState
 _userStore
 _username
 _version
-`.rsrc
+aOff
 abbreviatedHandshake
 actual
 add_ClientCertSelection
@@ -1516,14 +1621,19 @@ alert
 alertDesc
 alertLevel
 algName
+algo
 algorithm
 algorithmOid
 anLength
 anPos
 anTag
+ar3E
+arWB
+args
 array
 array1
 array2
+asn1
 asyncResult
 attrValue
 attributeType
@@ -1532,17 +1642,21 @@ attrs
 authenticatedAttributes
 authenticode
 authority
+b\rAB%
 bagOID
 bigInt
 bitLength
 bitNum
 bitlen
+bits
+blob
 block
 blockCount
 blockLength
 blockMode
 blockNo
 blockSize
+bryE
 buffer
 buffer1
 buffer2
@@ -1555,6 +1669,7 @@ callback
 canRead
 canWrite
 cbSize
+cert
 certBag
 certhash
 certificate
@@ -1599,7 +1714,9 @@ clientSettings
 clientWriteIV
 clientWriteKey
 clientWriteMAC
+code
 coffSymbolTableOffset
+coll
 collection
 column
 commercialCodeSigning
@@ -1623,10 +1740,14 @@ createEncryptionCipher
 createServerHandshakeMessage
 createSignature
 crlBag
+crls
 ctbits
 cultureAwareCompare
 current
+dJ51
 dOffset
+da*f
+data
 dataEncipherment
 dcrFragment
 dcrMAC
@@ -1654,6 +1775,8 @@ dnsName
 dnsNames
 domainComponent
 dsaParameters
+e)9D
+e29E
 eAs+c
 effectiveKeyBits
 effectiveKeyBytes
@@ -1693,18 +1816,25 @@ extensions
 extnCritical
 extnOid
 extnValue
+f29E
+f6q7
 fQV3T
+fW9I
 fileExtension
 fileHash
 fileName
 fileblock
 filename
+fl9L
+fl9N
 footer
 format
 found
 fragment
 friendlyName
 fromWrite
+f{9M
+gVM5
 getClientCertRSA
 getUnsignedBigInteger
 get_ASCII
@@ -2019,6 +2149,7 @@ get_Write
 get_WriteSequenceNumber
 get_Year
 givenName
+hNA!
 h]<7V
 handMsg
 handle
@@ -2026,6 +2157,7 @@ handler
 handshakeMessages
 handshakeState
 handshakeType
+hash
 hashAlgorithm
 hashAlgorithmType
 hashName
@@ -2037,15 +2169,20 @@ hashoid
 header
 headerLock
 headers
+host
 hostname
-i	YoU
+h|7S
+i\tYoU
 ibStart
+ih(F
+ihoF
 inData
 includePrivate
 includePrivateKey
 includePrivateParameters
 index
 inferAlertLevel
+info
 initial
 initialBuffer
 initialCapacity
@@ -2072,6 +2209,8 @@ iterationCount
 iterations
 ivDiversifier
 ivSize
+kL:d
+kR:d
 key56bits
 keyAgreement
 keyBag
@@ -2095,11 +2234,16 @@ keypairGenerated
 kfQ9I
 kubits
 l1G!5
+l5<7
+lY:g
 label
 lastBlock
 lastHandshakeMsg
+leaf
 length
 level
+line
+ll:i
 localKeyId
 localityName
 locker
@@ -2134,21 +2278,30 @@ messageType
 metadataLength
 metadataPosition
 method
+mg\f5NJ
 mgfSeed
 modInverse
 modulus
+mp:s
 mscoree.dll
 mscorlib
 multiByteDivide
-n	jX<
+mv:s
 nLength
+nXC$
+nXXT
+nZX\f
+n\tjX<
+name
 names
 negotiate
 negotiating
 negotiationComplete
+nem*
 newValue
 nextUpdate
 nonRepudiation
+none
 notAfter
 notBefore
 nullEncMagic
@@ -2181,9 +2334,11 @@ output
 outputBuffer
 outputOffset
 ownsStream
-p*r/)
-p*r[)
 p*ri+
+pYdq
+p\tsw
+pad1
+pad2
 padding
 param
 parameters
@@ -2191,6 +2346,7 @@ parent
 parser
 password
 password_max_length
+path
 pathLenConstraint
 pattern
 pbeWithMD2AndDESCBC
@@ -2212,6 +2368,8 @@ policies
 position
 potentialRoot
 potentialTrusted
+pr5\r
+prH7
 preMasterSecret
 prefix
 privKey
@@ -2222,8 +2380,9 @@ protocol
 protocolNegotiated
 publicKey
 py~=R
-q(<!V
+qInv
 quotes
+rHA0
 rL%2"
 rL%2K
 rL%2]
@@ -2232,6 +2391,7 @@ radix
 random
 randomCS
 randomSC
+read
 readOnly
 readSequenceNumber
 reader
@@ -2271,6 +2431,7 @@ rgbIV
 rgbKey
 rgbSignature
 rgvIV
+root
 roots
 rsaEncryption
 rsaParameters
@@ -2281,6 +2442,7 @@ s_legalKeySizes
 safeBag
 safeBags
 safeContentsBag
+salt
 sbStart
 sdsiCertificate
 secret
@@ -2289,6 +2451,7 @@ secretLen
 sections
 securityProtocol
 securityProtocolType
+seed
 selectCipherSuite
 selectCompressionMethod
 sendLength
@@ -2416,6 +2579,7 @@ set_Weak
 set_WriteSequenceNumber
 shiftVal
 sh|7S
+sign
 signature
 signatureLength
 signatureOID
@@ -2429,6 +2593,7 @@ signerChain
 signerInfo
 signingCertificate
 signingTime
+size
 small
 smallPrimes
 spcIndirectDataContext
@@ -2443,6 +2608,8 @@ startIndex
 state
 stateOrProvinceName
 storeName
+strA
+strB
 strName
 stream
 streetAddress
@@ -2453,10 +2620,12 @@ supportedCiphers
 surname
 symmAlgo
 targetHost
+temp
 temp2
 temp_size
 thisUpdate
 throwException
+time
 timestamp
 timestampChain
 timestampCountersignature
@@ -2468,15 +2637,19 @@ trustedRoot
 trustedTimestampRoot
 tryNonStandardEncoding
 twoCharBuff
+type
+uK\n1DP
 unauthenticatedAttributes
 unixTime
 upperBound
+uris
 usage
 userCallback
 userState
 user_denied
 userid
 v2.0.50727
+vRQ>
 validateCertificates
 validuntil
 value
@@ -2484,18 +2657,25 @@ value__
 values
 verifySignature
 version
+vsn<
+w1=Q
+w8C"
+weak
 wkSpace
 workBuff
 workout
 write
 writeSequenceNumber
-x4;%>
+x509
 x509Certificate
 x509Crl
+xLen
 xOffset
 xmlString
 xmldoc
+yLen
 yOffest
 yOffset
+yYI6
+yYz6
 zkE:c
-~]<7V

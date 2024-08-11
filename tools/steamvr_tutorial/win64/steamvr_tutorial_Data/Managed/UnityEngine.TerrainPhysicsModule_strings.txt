@@ -3,7 +3,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -54,9 +53,7 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 Assembly-CSharp-testable
 CompilationRelaxationsAttribute
 DebuggableAttribute
@@ -64,6 +61,7 @@ DebuggingModes
 GoogleAR.UnityNative
 InternalsVisibleToAttribute
 NativeHeaderAttribute
+RSDS
 Raycast
 RaycastHit
 Raycast_Injected
@@ -79,7 +77,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -158,8 +155,9 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 get_terrainData
 hasHit
 hitHoles

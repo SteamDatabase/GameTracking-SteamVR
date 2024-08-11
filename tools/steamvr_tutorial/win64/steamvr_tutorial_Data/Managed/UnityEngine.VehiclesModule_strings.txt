@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -52,10 +51,9 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 Assembly-CSharp-testable
+BSJB
 CompilationRelaxationsAttribute
 ConfigureVehicleSubsteps
 DebuggableAttribute
@@ -64,12 +62,12 @@ GetGroundHit
 GetWorldPose
 GoogleAR.UnityNative
 InternalsVisibleToAttribute
-IsGrounded
 JointSpring
 NativeHeaderAttribute
 NativeNameAttribute
 PhysicsScriptingClasses.h
 Quaternion
+RSDS
 RuntimeCompatibilityAttribute
 SkipVerification
 System
@@ -81,7 +79,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -164,12 +161,16 @@ WheelCollider
 WheelFrictionCurve
 WheelHit
 WrapNonExceptionThrows
+\fsidewaysSlip
+\nIsGrounded
+\nforwardDir
+\vUnity.Burst
+\vUnityEngine
+\vforwardSlip
+\vsidewaysDir
 _CorDllMain
-`.rsrc
 collider
 force
-forwardDir
-forwardSlip
 get_brakeTorque
 get_center
 get_center_Injected
@@ -209,6 +210,7 @@ mscoree.dll
 mscorlib
 normal
 point
+quat
 set_brakeTorque
 set_center
 set_center_Injected
@@ -233,8 +235,6 @@ set_suspensionDistance
 set_suspensionSpring
 set_suspensionSpring_Injected
 set_wheelDampingRate
-sidewaysDir
-sidewaysSlip
 speedThreshold
 stepsAboveThreshold
 stepsBelowThreshold

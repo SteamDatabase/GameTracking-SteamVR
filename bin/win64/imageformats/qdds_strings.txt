@@ -1,13 +1,3 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- H3E H3E
- tmE3
-!This program cannot be run in DOS mode.
-(L$ D
-(L$pI
-(t$ H
-(t$ f
-(t$PL
-)t$PA
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AVQDDSHandler@@
@@ -31,6 +21,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -51,19 +42,17 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-9CXu 
-9\$Lvd
-9\$Lvg
+9\f?floatingPointPrecision@QDataStream@@QEBA?AW4FloatingPointPrecision@1@XZ
 ??0QByteArray@@QEAA@AEBV0@@Z
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QDataStream@@QEAA@PEAVQIODevice@@@Z
@@ -97,19 +86,6 @@
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@SAXPEAUData@1@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fill@QImage@@QEAAXI@Z
-?floatingPointPrecision@QDataStream@@QEBA?AW4FloatingPointPrecision@1@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
@@ -124,18 +100,6 @@
 ?toLower@QByteArray@@QEHAA?AV1@XZ
 ?toUpper@QByteArray@@QEGBA?AV1@XZ
 ?warning@QMessageLogger@@QEBA?AVQDebug@@XZ
-@.data
-@.qtmetad$
-@.reloc
-@A^_^
-@SATAUAVAWH
-@SUAUAVAWH
-@SUWATAVAWH
-@SVWH
-@USVWATAUAVH
-@USWAVH
-@USWH
-@UVATAUAVH
 A16B16G16R16
 A16B16G16R16F
 A1R5G5B5
@@ -144,22 +108,20 @@ A2B10G10R10_XR_BIAS
 A2R10G10B10
 A2W10V10U10
 A32B32G32R32F
+A4L4
+A4P4
 A4R4G4B4
 A8B8G8R8
+A8L8
+A8P8
 A8R3G3B2
 A8R8G8B8
-A^A]A\^]
-A^A]A\_^[]
-A_A^A\_][
-A_A^A]A\[
-AuthD
+ATI2
 BinaryBuffer
 Can't read image with w/h bigger than INT_MAX
 CloseHandle
 CreateEventW
 CxV8U8
-D$<;D$H
-D$<A;
 D15S1
 D16Lockable
 D24FS8
@@ -168,12 +130,13 @@ D24X4S4
 D24X8
 D32FLockable
 D32Lockable
-D9|$H
-D9|$Pt[H
-D;d$H
-D;|$H
+DDS 
 DDSHandler::canRead() called with no device
-DXT2t
+DXT1
+DXT2
+DXT3
+DXT4
+DXT5
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
@@ -182,15 +145,13 @@ G16R16
 G16R16F
 G32R32F
 G8R8_G8B8
-GRGBt
-GenuA
+GRGB
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-HcE(H
 Index32
 InitializeConditionVariable
 InitializeSListHead
@@ -198,44 +159,32 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 K?height@QImage@@QEBAHXZ
 KERNEL32.dll
-L$ E3
-L$<A;
-L$@E3
-L$P;A
-L$PfA;
-L$`E3
-L$pE3
 L6V5U5
 L?isNull@QImage@@QEBA_NXZ
 L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
-Lce(L
 LeaveCriticalSection
-M H1E
 M?loopCount@QImageIOHandler@@UEBAHXZ
-M@HcQ
-M@HcU(HcY
-MetaData
-MimeTypes
+MET1
 Multi2ARGB8
 O?nextImageDelay@QImageIOHandler@@UEBAHXZ
 O?pixel@QImage@@QEBAIHH@Z
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 Q16W16V16U16
 Q8W8V8U8
 QDDSPlugin
-QTMETADATA  qbjs
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
+R16F
+R32F
 R3G3B2
 R5G6B5
 R8G8B8
 R8G8_B8G8
 R?scanLine@QImage@@QEAAPEAEH@Z
 R?scanLine@QImage@@QEBAPEBEH@Z
-RGBGt
-RGBGt*A
+RGBG
+RXGB
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -246,17 +195,16 @@ Sequential devices are not supported
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T$@E3
 T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TerminateProcess
 U?setPixel@QImage@@QEAAXHHI@Z
+UYVY
 UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5RXGBATI2n
-UYVYt
 UnhandledExceptionFilter
 Unknown exception
 V16U16
+V8U8
 VCRUNTIME140.dll
-VWAVH
 VertexData
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
@@ -269,12 +217,21 @@ X4R4G4B4
 X8B8G8R8
 X8L8V8U8
 X8R8G8B8
-XA^_[]
-YUY2tCA
+YUY2
 Z?width@QImage@@QEBAHXZ
-\$ UH
-\$ WH
-\$@E3
+\\n?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\r?fill@QImage@@QEAAXI@Z
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -292,37 +249,23 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-`A_A^A]][
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 bad allocation
 bad array new length
-className
-dDX10u
-debug
 expected =
-ffffff
-image/x-dds
+free
 is not supported
-l$0D;
 malloc
 memcmp
 memcpy
 memset
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qdds.dll
 qt_plugin_instance
 qt_plugin_query_metadata
-u@Hc^
-u@Ic_
+sqrt
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 unknown
 unknown format
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-|$ AVH
-|$,D;
-|tjE3

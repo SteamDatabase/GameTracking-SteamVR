@@ -1,47 +1,15 @@
-	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 'L>[
- 9Qht.H
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\_
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- H3E H3E
  Type Descriptor'
- []_^A\A^A_
- []_^A^
- [_^A\A]A^A_
- [_^A^A_
  delete
  delete[]
- new[]
- tDE3
- t^D9
- vJH+
-!>6'Y
-!This program cannot be run in DOS mode.$
-([]_^
-([]_^A\A]A^A_
-([]_^A^A_
-([_^A\A^A_
-([_^A^
-(t$ H
-(t$PH
-(t$`H
-)>6{1n
-)t$ H
-)t$`L
+ new
 *StO9>T
-+M<7>
-+f)>0'
-+h->|
-,/<-w
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
 .?AVbad_exception@std@@
@@ -50,154 +18,54 @@
 .?AVlogic_error@std@@
 .?AVout_of_range@std@@
 .?AVtype_info@@
-.pdata
-.rsrc
-.text
 .xJ>Hf
-/>58d%
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^_
-0A_A^_^]
-0[]_^A^
-0[_^A^A_
 0iN>/
 1.4 SwiftShader 4.1.0.2
-1<.	/>:
+11Y@
+2\n0\tP
+37>k
 3>N;kU
 3>fvw
-8[_^A\A^A_
-8[_^A^
-;H9>&X
-;I9}(tiH
-< t=<	t9
+=cQ6
 =imb;D
+>cQ6
 >jtm}S
 ?7zQ6$
-?:kP<
-?QY^&
 ?UUUUUU
 ?f`Y4
-@ 9B u
-@,9B,u_H
-@,9B,unA
-@.00cfg
-@.data
-@.gfids
-@.reloc
-@.tls
-@09B0unL
-@09B0uwA
-@8<)u
-@8l$Ht
-@8|$^t
-@<9B<u"A
-@>%>b
-@A^A]A\_^
-@A^_^
-@A_A^A]A\_^]
-@A_A^_^]
-@SVWATAUAVAWH
-@SVWH
-@UATAUAVAWH
-@USVWATAVAWH
-@[_^A^A_
-@d9Bdu
-@l9Blu4A
-@p9Bpu+A
-@t9Btu
-A84.u
-A9Q M
-A9p L
+?qBJ
+?ysB
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ATAUAVH
-AUAVAWH
-AVVWSH
-AVVWUSH
-AWAVATVWSH
-AWAVATVWUSH
-AWAVAUATVWSH
-AWAVAUATVWUSH
-AWAVVWSH
-AWAVVWUSH
-A^A]A\
-A^_^[]
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^]
-A_A^_^]
 AppPolicyGetProcessTerminationMethod
 April
 August
-AuthD
-B(I9A(u
-BC?>6t9^	c:>
+BC?>6t9^\tc:>
 BF>^G
-B`A;@`
-C8<(u
 CloseHandle
 CorExitProcess
 CreateEventW
 CreateFileW
-D!l$xA
-D$ E3
-D$(80
-D$(H9
-D$(H;
-D$,+T$ D+D$$;V@u	@
-D$0E3
-D$0HcH
-D$8L9
-D$@H+
-D$@[H
-D$HH9A
-D$PH+
-D$PI;
-D$XH)
-D$XH+D$PH
-D$XM9
-D$`Hc
-D$pH9
-D$pI;
-D8&t 
-D8&t4H
-D9c t
-D;FDt4H
 December
 DeleteCriticalSection
-E0HcH
-E0Lcx
 EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_EXT_platform_base
 EGL_KHR_create_context EGL_KHR_get_all_proc_addresses EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_image_base EGL_KHR_surfaceless_context EGL_ANGLE_iosurface_client_buffer EGL_ANDROID_framebuffer_target EGL_ANDROID_recordable
-EP*?H
+ET5>
 EncodePointer
 EnterCriticalSection
 ExitProcess
-F 9G u
-F<9G<u
-Fd9Gdu
 February
 FindClose
 FindFirstFileExW
 FindNextFileW
-Fl9Glu.
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-Fp9Gpu&
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-Ft9Gtu
-G0Hc	H
-G4;F4
 GDI32.dll
 GetACP
 GetCPInfo
@@ -227,33 +95,11 @@ GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
 Google Inc.
-H!D$ H
-H!T$0D
-H91u%L
-H9=!o
-H9>u+A
-H9t$(u
-H;T$@
-H;XXs
-H;l$(
-H;l$(H
-H;xXu5
 HH:mm:ss
-H[]_^
-H[]_^A\A]A^A_
-H[]_^A^A_
-H[_^A\A^A_
-H[_^A^
-HcC H
-HcK H
-Hc[4I
-Hc]`M
-Hc^xH
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-I9Q M
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
@@ -264,58 +110,27 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsWindow
 January
-K&>.yC
+July
+June
 KERNEL32.dll
-K~Je#>!
-L!|$(L!
-L$ I;
-L$ L;
-L$ VWAVH
-L$ WH
-L$ fff
-L$ |+L;
-L$&8\$&t,8Y
-L$(H1
-L$0H1
-L$0H3
-L$0H;
-L$8H1
-L$8H3
-L$@;|
-L$@H1
-L$@H3
-L$HH1
-L$PH1
-L$XE3
-L$XH1
-L$`H1
-L9	u%L
-L9`8u'L
-L9d$Pv
-L9|$Pv
-L;B @
+L>ev
 LCMapStringEx
 LCMapStringW
 LLD PDB.
-LcA<E3
 LeaveCriticalSection
-Lj[;>
 LoadLibraryA
 LoadLibraryExW
 LocaleNameToLCID
-M H1E
 MM/dd/yy
 March
 Monday
 MultiByteToWideChar
 November
-O0HcQ
-O0LcQ
+OZQ%
 October
 OpenGL_ES
-P[]_^A^
-P[_^A\A]A^A_
 QueryPerformanceCounter
+RSDS
 RaiseException
 ReleaseDC
 ResetEvent
@@ -324,7 +139,7 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-SVWATAUAVAWH
+S9>H
 Saturday
 September
 SetEvent
@@ -335,14 +150,7 @@ SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
 Sunday
-T$ tRH
-T$0E1
-T$8E1
-T$8H9
-T$PE3
-T$`H9
 TUUUU
-TUUUUUU
 TerminateProcess
 Thursday
 TlsAlloc
@@ -350,47 +158,17 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Tuesday
-UATAUAVAWH
 USER32.dll
-USVWAVH
 UUUUUU
-UVWATAUAVAWH
-UVWAVAWH
-UWATAVAWH
-UWAVH
 UnhandledExceptionFilter
 Unknown exception
-V6E>`"(5
-VWATAVAW
-VWATAVAWH
-VWAVH
-VWUSH
-WATAUAVAWH
-WAVAWH
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X[]_^
-X[_^A\A^A_
-X[_^A^
-[]_^A\A]A^A_
-[_^A\A]A^A_
-[_^A^A_
-\$ E1
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ VWATAUAVH
-\$ WH
-\$(H9
-\$0H;
-\$0eH
-\$8I;
-\$@H;
-\$@t]
+\tkE>fvw
 __based(
 __cdecl
 __clrcall
@@ -404,9 +182,6 @@ __swift
 __thiscall
 __unaligned
 __vectorcall
-`.rdata
-`A^_^
-`A_A^A]A\_^]
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -446,12 +221,8 @@ abcdefghijklmnopqrstuvwxyz
 bad allocation
 bad array new length
 bad exception
-bp(=>?g
-c [1>H'
-c(>\,
 dddd, MMMM dd, yyyy
-e0A_A^A]A\]
-effffff
+eF>t
 eglBindAPI
 eglBindTexImage
 eglChooseConfig
@@ -506,17 +277,6 @@ eglWaitGL
 eglWaitNative
 eglWaitSync
 eglWaitSyncKHR
-fD90t
-fD94Fu
-fD94H}0L
-fD96u
-fD98t
-fD98u
-fD9t$b
-fffff
-ffffff
-fffffff
-h[]_^A\A]A^A_
 invalid string position
 libEGL.dll
 libEGL.dll.pdb
@@ -528,76 +288,14 @@ libGLES_V2_translator.dll
 libGLESv2.dll
 libGLESv2_swiftshader
 log10
-mL+6H
+mG4>
 map/set<T> too long
 n03>Pu
-ntelD
 operator
 operator "" 
 operator co_await
-ot$ H
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-r	Vr.>T
-r>@8o
+r\tVr.>T
 restrict(
-ri9O vdH
 string too long
-t"<.u
-t$ E3
-t$ WH
-t$(H9
-t$(H;3u
-t$(HcFPH9
-t$8E1
-t$8H+
-t/I;1t
-t0H;}
-t4I;1t
-t5HcP
-t:H;^
-t:H;w
-t<ffff
-tRLcY
-ttIcF
-t}H;7u
-u HcA<H
-u(8J(t
-u3HcH<H
-u4I9}(
-ue!T$(H!T$ 
 uzKs@>
-v0D8eou\H
 vector<T> too long
-x ATAVAWH
-x AVAWE3
-x AVH
-x[]_^A\A]A^A_
-y\PD>!
-|$ AVH
-|$ D!
-|$ E3
-|$ UH
-|$(M9
-|$0A_A^
-|$8;3
-|$8E1
-|$\.u
-|$p9W$
-|$p9W(
-|$p9W,
-|$p9W0
-|$p9W4
-|$p9W8
-|$p9W<A
-|$p9W@
-|$p9WD
-|$p9WH
-|$p9WL
-|$p9WP
-|$p9WX
-|$p9W\
-|$p9Wp
-|$p9Wt
-|$p9Wx
-|b=})>

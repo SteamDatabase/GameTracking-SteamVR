@@ -1,12 +1,9 @@
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
-+*.~	
 .ctor
-.text
 <Module>
-@.reloc
+BSJB
 C:\perforce\keithb_ZACHT\vr\unity\main\tutorial_2018\Temp\SteamVR_Actions.pdb
 CompilationRelaxationsAttribute
 Create
@@ -22,6 +19,7 @@ PreInitialize
 PreinitializeActionDictionaries
 PreinitializeActionSetDictionaries
 PreinitializeFinishActionSets
+RSDS
 RuntimeCompatibilityAttribute
 SHA256
 StartPreInitActionSets
@@ -45,7 +43,6 @@ System.Runtime.CompilerServices
 Valve.VR
 WrapNonExceptionThrows
 _CorDllMain
-`.rsrc
 actionSets
 actions
 actionsBoolean

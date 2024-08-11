@@ -1,5 +1,3 @@
-	$	/	5	>	D	X	^	g	m	x	~	
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  !"#$%&'()*+,-./0123456789:;<=>?
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
@@ -8,31 +6,20 @@
  !#$&')*,-/0235689;<>?????????????????????
  "#%&()+,./124578:;=>???????????????????
  "#%&()+,./124578:;=>????????????????????
- 121)3.343
+ C\vw&CG
  bn0s}Q_@r~aoPq
 !"$%'(*+-.0134679:<=????????????????????
 !"$%'(*+-.0134679:<=?????????????????????
 !/?WiZF4%
-!This program cannot be run in DOS mode.
 !weakref.load()
 "b}b*XhUu
 #CfU7
 $1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
-$5)5/53595=5C5G5M5W5
 %*Di-,D 6.D
 %A Is
+%daT
 &5G[ncRB0#
-&xr(*
-(0,00040
-(0-030
-(2L2j2
-(xA=6
-*0?0K0[0
-+;OfV>. 
-,*/vu
 ,BAl@B=6UB
--22282<4[6
-.00cfg
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
@@ -42,443 +29,79 @@ $5)5/53595=5C5G5M5W5
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.idata
-.text
-0 0D0h0
-0!0'0+01050;0?0E0I0O0S0Y0]0c0g0m0q0w0{0
-0%262
-0(0-030
-0,01070$1)1/1M1
-0-0i1n1t1
-00050;0_0d0j0
-01060<0[0p0
-070<0B0X0]0c0y0~0
-0:1h1
-0A0]0
-0B2G2M2h2m2s2
-0F3K3Q3n3
-0N1x4j5
-0O2P3T3X3\3`3d3h3
-0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
-0S0s0a7
-0b2m2x2
-1!1*111@1
-1$22292T2r2y2
-164;4A4f7k7q7
-1>3j6
-1@1T2
-1K1X1t1z1
-1W1\1b1
-1[2c2k2-3f3u3
-2"282=2C2[2`2f2
-2$3G3
-2%282=2C2V2[2a2"3'3-3@3E3K3^3c3i3
-2%2:2@2^2e2k2r2
-2*282F2T2b2
-2/2^2f2u2
-21363<3~3t4
-21373=3C3I3O3U3[3a3g3m3s3y3
-233l3
-2:3H4l4
-2:3p4
-2G2L2R2
-2V3[3a3
-2V3~3
-3	3u3
-3 4Q5
-3!3'3c3
-3%3E3L3
-3&4.4&6+616Y6^6d6:8{9
-3.3J4
-30555;5O566I6
+0000
 333333
 333333"@
-3:3g3
-3<3B3H3N3T3Z3`3f3l3r3x3~3
-3>3{3
-3A3N3{3
-3B4G4M4
-3H4P4t4
-3L9W9
-3\4a4g4
-3y4~4
-4 4&4,42484>4D4J4P4V4\4b4h4n4t4z4
-4!4'4-43494?4E4K4Q4W4]4c4i4o4u4{4
-4#4)4
-4%4Z4o4|4
-4'5G:
-4'7_:
-4(4-434#515
-4,484P4h4p4t4|4
-4/545:5q6v6|6
-406l6p6t6x6|6
-425Q6F7M8
-44>8><>@>D>H>L>P>T>X>\>`>d>h>
-4P4w4
-4S5X5^5 6%6+6J6O6U6
-4Z5r5
-4\7e7
-4f4|4
-4n6s6y6
-4~4:7
-505H5P5d5h5|5
-526E6
-54696?6
 5;FJ$,XEK4<
-5?5h5
-5@7u7
-5Genu
-5P6U6[6n6s6y6
-5X6]6c6v7
-5_7m7{7
-5c6k6
-6 6$62666D6H6=:6;
-6 6&6T6t6
-6"7F7l7
-6$6*6=6B6H6
-6%6*606
-6'646A6G7j;Q<
-6(8Y8
-6*616P6p6p8
-6,606>6B6P6T6b6f6l6w6
-6,64686@6X6p6t6
-6-7Q7u7
-6-82888V8[8a8%9*909
-6/7S7{7
-6/848:8
-6:%+H
-6F6\6+7
-6K6\6s6
-6L7Q7W7
-6O6T6Z6
-6_7g7
-7$7*7(8-838p8u8{8
-7$7-7
 7&F|If
-7-72787Q7V7\7t7y7
-718o8
-74898?8Z9r9":':-:C:H:N:
-7B:h:
-7d;i;o;R=W=]=
-7i8n8t8
-7k8p8v8
-7pC&"wCw
-8!8&8,8":A:F:L:g:l:r:
+7T2,
 8"3hrf
-8$8*8'9,929
-8$878<8B8U8Z8`8s8x8~8j9
-8$8:8?8E8a8f8l8
-8&;+;1;
-8(8/8
-8+90969T9|:
-8/8a8f8l8x;};
-839I>R>[>d>m>v>
-89<9@9D9H9L9`?
-8<>A>G>
-8@9E9K9h9m9s9
-8@9E9K9t9
-8B9G9M9
-8M8x8
-8o9}9
-8z8J9E;
-9!9=9B9I9R9Y9q9v9
-9!;:;R;k;
-9"9(9
-90P1H2r2
-9<9C9g9
-9Bd}	
-9E:h;
-9E;J;P;
-9H9R9
-9K:e:
-9`9e9k9
-9i>n>t>
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:
-: :9:>:D:
-:!:):5:L:X:|:
-:#:):
-:$:(:.:2:8:<:B:F:L:P:V:Z:`:k:}:
-:&>V>
-:,:W<m<'=
-:0:K:c:
-:;;O;V;L=
-:G<P=c=
-:M:V:^:y:
-:b;g;m;
-:d;w;+<0<6<
-:dD8XfD
-:l;\<g<B=M=v>_?j?
-; >%>+>
-;"<'<-<
-;#;);-;3;7;=;A;
-;#;);9;>;D;T;Y;_;q;v;|;
-;#<?=D=J=
-;$<Z<g<{<
-;%;7;S;`;y;
-;%;C<H<N<
-;+;H;
-;1;~;
-;3;];e;m;
-;4;X;
-;6<;<A<
-;<<A<G<
-;=<B<H<
-;A(u%
-;AX}P
-;B uk
-;B8~3
-;C=H=N=^=c=i=y=~=
-;H sp
-;H4}A
-;H<}>
-;HX~	
-;M }5
-;M(}H
-;QT}&
-;QX~	
-;\>`>
-;n<|<
-< <$<(<,<0<4<8<<<
-<%<8<=<C<P<T<X<\<`<d<h<l<p<t<x<
-<%=N=j=t=
-<%>*>0>o>
-<(=w=
-<)<A<
-<+===
-<-<S<X<y<~<
-<?=L=d=w=
-<@<L<V<b<j<r<z<
-<@>E>K>h>m>s>
-<B?F?T?X?e?i?w?{?
-<E?J?P?
-<J?b?
-<L<O>.?
-<L<R<X<^<d<j<q<x<
-<L=Q=W=
+969p
+9A\n(xA=6
+:dD8XfD\vwhD
 <ZZ<ZZZZZZZ
-<o=t=z=
-=!=;=X=p=
-=$=*=
-=*>V>[>a>
-=/>4>:>
-=1>T>g>
-=4=:=D=H=N=R=X=\=b=f=l=p=v=
-=9>>>D>
-=>=C=I=
-=?>D>J>
-=F>p>
-=RIFFu
-=WEBPt
-=j?o?u?
-> >$>2>6><>G>Y>_>
->!>'>1>;>P>U>
->(>->3>Q?V?\?r?w?}?
->+>]>
->-?2?8?
->0?@?^?r?
->8?=?C?W?j?v?{?
->9>U>q>
-><?A?G?
->E>~>
->I?N?T?
->g?l?r?
-?!?,?1?7?A?s?
-?"?4?F?[?
-?%?)?/?3?9?=?C?G?M?Q?W?[?a?e?k?o?u?y?
-?(?o?
-?,?8?L?X?`?l?p?t?
 ?0D6J2D
-?8?<?@?\?`?d?
-?:?B?R?\?|?
-?>?H?
-?>?K?Q?_?e?z?
-??0QByteArray@@QAE@ABV0@@Z
-??0QByteArray@@QAE@UQByteArrayDataPtr@@@Z
-??0QImage@@QAE@ABV0@@Z
-??0QImage@@QAE@HHW4Format@0@@Z
-??0QImageIOHandler@@QAE@XZ
-??0QImageIOPlugin@@QAE@PAVQObject@@@Z
-??0QMessageLogger@@QAE@PBDH0@Z
-??0QSize@@QAE@HH@Z
-??0QVariant@@QAE@ABVQSize@@@Z
-??0QVariant@@QAE@H@Z
-??0QVariant@@QAE@XZ
-??1QByteArray@@QAE@XZ
-??1QDebug@@QAE@XZ
-??1QImage@@UAE@XZ
-??1QImageIOHandler@@UAE@XZ
-??1QImageIOPlugin@@UAE@XZ
-??4QImage@@QAEAAV0@$$QAV0@@Z
-??4QImage@@QAEAAV0@ABV0@@Z
-??6QDebug@@QAEAAV0@H@Z
-??6QDebug@@QAEAAV0@PBD@Z
-?bits@QImage@@QAEPAEXZ
-?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
-?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?constData@QByteArray@@QBEPBDXZ
-?convertToFormat@QImage@@QGBE?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UBEHXZ
-?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
-?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
-?endsWith@QByteArray@@QBE_NPBD@Z
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?format@QImage@@QBE?AW4Format@1@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
-?isEmpty@QByteArray@@QBE_NXZ
-?isOpen@QIODevice@@QBE_NXZ
-?isReadable@QIODevice@@QBE_NXZ
-?isWritable@QIODevice@@QBE_NXZ
-?peek@QIODevice@@QAE?AVQByteArray@@_J@Z
-?qstrcmp@@YAHABVQByteArray@@PBD@Z
-?qt_assert@@YAXPBD0H@Z
-?readAll@QIODevice@@QAE?AVQByteArray@@XZ
-?size@QByteArray@@QBEHXZ
-?startsWith@QByteArray@@QBE_NPBD@Z
-?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
-?toInt@QVariant@@QBEHPA_N@Z
-?u?z?
-?warning@QMessageLogger@@QBAXPBDZZ
-?warning@QMessageLogger@@QBE?AVQDebug@@XZ
-?write@QIODevice@@QAE_JPBD_J@Z
-@.data
-@.qtmetad^
-@.reloc
-@.rsrc
-@8E8K8
 @@@@@@@@@@@@@@@@
-@Y>)F
-A<+B8
-AH;BD~
-ALPHt
-ALPHwP
-ANIMtU
+ALPH
+ANIM
+ANMF
 Bad code word
-CloseHandle
 Could not decode alpha data.
-CreateEventW
-D6J6a6e6k6o6u6y6
 DBM&(
-DeleteCriticalSection
-DisableThreadLibraryCalls
+DB\f Dv
 E<G&Iw
-EXIFw(
-EnterCriticalSection
+EXIF
 F:\qt5\qtimageformats\plugins\imageformats\qwebpd.pdb
+FRGM
 Frame not displayable.
 Frame setup failed
-GK?imageCount@QImageIOHandler@@UBEHXZ
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetModuleHandleW
-GetProcAddress
-GetStartupInfoW
-GetSystemTimeAsFileTime
-Gf95)1&!
-I:e:w:?<D<J<]<b<h<
-ICCPw$
+Gf95)1&!\ry9I
+ICCP
+Ik6 
 Incorrect keyframe parameters.
 InitializeConditionVariable
-InitializeSListHead
-IsDebuggerPresent
-IsProcessorFeaturePresent
-JL;HP|
-JP+HL
-JU?setOption@QImageIOHandler@@UAEXW4ImageOption@1@ABVQVariant@@@Z
-JX+HT+M
-K?height@QImage@@QBEHXZ
-KERNEL32.dll
 KQD2cSDy{UD
-L?isNull@QImage@@QBE_NXZ
-L?jumpToImage@QImageIOHandler@@UAE_NH@Z
-L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
-LeaveCriticalSection
-M ;M$|
-M(+M,
-M?loopCount@QImageIOHandler@@UBEHXZ
-MetaData
-MimeTypes
 MnZ/rs
 NULL VP8Io parameter in VP8Decode().
 N_U9203
 Not a key frame.
-O?nextImageDelay@QImageIOHandler@@UBEHXZ
 Output aborted.
-P$;Q(u
-P.tls
-P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-Phh\	
-Pht\	
+PURH
 Premature end-of-file encountered.
 Premature end-of-partition0 encountered.
-P~6-U~/W
-QTMETADATA  qbjs
 QWebpHandler::canRead() called with no device
 QWebpPlugin
-Qt5Cored.dll
-Qt5Guid.dll
-QueryPerformanceCounter
+RIFF
 RSDS1
 R_T5Y
-ResetEvent
 Sequential devices are not supported
-SetEvent
-SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
-T@Tg]@
-TerminateProcess
 Truncated header.
-U%	>G
-U7>F%+%
 UUUUUU
 U\8h(
-UnhandledExceptionFilter
 Unknown exception
-V1`8e8k8
-VCRUNTIME140D.dll
-VP8 ti
-VP8Lt&
-VP8Ltg
+VP8 
+VP8L
+VP8X
 VP8X@j
-VP8Xt
 VZ#-DLU[3=h
-W%	s;M@
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WDG,r3
-WaitForSingleObjectEx
+WEBP
 WakeAllConditionVariable
-Z?width@QImage@@QBEHXZ
-[C2zbCSTiC
-_CrtDbgReportW
-_CxxThrowException
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__vcrt_InitializeCriticalSectionEx
-_byteswap_ulong
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_except1
-_except_handler4_common
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
-_register_onexit_function
-_seh_filter_dll
-_wassert
-`.rdata
+XMP 
+[C2zbCSTiC\n7pC&"wCw
+\f#\f<\fB\fK\fQ\f\\fb\fk\fq\f
+\f,\f2\f;\fA\fL\fR\f[\fa\fu\f{\f
+\n!\n5\n;\nD\nJ\nU\n[\nd\nj\n
+\n"\n;\nA\nJ\nP\n[\na\nj\np\n
+\r \r)\r/\r:\r@\rI\rO\rh\rn\rw\r}\r
+\r!\r,\r2\r;\rA\r
+\r"\r(\r1\r7\rP\rV\r_\re\rp\rv\r
+\t$\t/\t5\t>\tD\tX\t^\tg\tm\tx\t~\t
+\v \v&\v/\v5\vI\vO\vX\v^\vi\vo\vx\v~\v
+\v'\v-\v8\v>\vG\vM\va\vg\vp\vv\v
+_wjb
 `n`lns
-b0m0x0
 ba.ref.isStatic()
 bad allocation
 bad array new length
@@ -486,77 +109,43 @@ bad partition length
 bool __cdecl QWebpHandler::canRead(class QIODevice *)
 bool __thiscall QWebpHandler::ensureScanned(void) const
 bool __thiscall QWebpHandler::write(const class QImage &)
-calloc
+bwD`
 cannot parse filter header
 cannot parse partitions
 cannot parse picture header
 cannot parse segment header
-className
-debug
 dlBNvz!/u{1?cmR^
 dqe-KO{/3
 f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-f=G%"5
 failed to encode webp picture, error code: 
 failed to import image data to webp picture.
 failed to init webp picture and config
 ffffff
 fj".T\CMek2>x
-g0l0r0
-h	?byteCount@QImage@@QBEHXZ
-hRIFF
-hVP8X
-hWEBP
-i8n8t8
-image/webp
-j	?bytesPerLine@QImage@@QBEHXZ
-j1o1u1
-jZh "	
-jZhHj
-jah`!
-jchX"
-jehP#
-jfh8w
-jyhX#	
-jzh8X
 kGCu!NC
-log10
-malloc
-memcmp
-memcpy
-memmove
-memset
 no memory during frame initialization.
 no object
 null VP8Io passed to VP8GetHeaders()
 o KPBf
 oY.o<
 opqMU
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qsort
 qt_plugin_instance
 qt_plugin_query_metadata
 qwebpd.dll
 qwebphandler.cpp
 sD}>uD
 source image is null.
-strcmp
 strongref.load() <= 0
-terminate
 thread initialization failed.
-u/hh\	
-ucrtbased.dll
-version
-x$_^]
+t|AO
+vIK \f3
+webp
+wyS]
 x0Ysqx
-yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
-zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
 {N{N{N{N{N{N{N{N
-}$2~	
-}Rich
 ~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

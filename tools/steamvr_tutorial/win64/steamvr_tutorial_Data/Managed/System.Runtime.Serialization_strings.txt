@@ -1,106 +1,77 @@
-	,$	{M
-	,+	oK
-	,3(w
-	Inherited
-	MinLength
-	Namespace.http://schemas.datacontract.org/2004/07/System
-	Namespace9http://schemas.microsoft.com/2003/10/Serialization/Arrays
  !"#$%&'()*+,-./0123
+ 433
  System.Runtime.Serialization.dll
- b	X*"
 !4333333
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Mono Common Language Infrastructure
 #Strings
-&*B~H
-&*F~H
-&.!+4
+&r1r
+&r9r
 (c) Various Mono authors
-*.sb	
-*1-rZ
-*2ruC
-*VrD<
 *VrjX
+*bsc
+*bse
+*bsw
 *nr`L
-*~r	=
-+$r-J
-+&r5E
-+)r'5
-++	oz
-++~l	
+*rUI
+*rik
 +6raF
 +6r{a
 +7rHx
-,#r,S
-,#rW@
-,#rZ;
-,$r].
-,$rdR
-,)rV|
-,)rY5
-,+r7#
-,+rV!
-,-rYi
-,-rdf
-,/r{5
-,1ro 
+,2rz
 ,3rgP
 ,7rS(
 ,7rSG
 ,8r]a
-,<r5h
-,=rU=
-,>	-;
-,Krfq
-,S	{`
-,Srvs
+,Nra
 ,Ur{Y
-,]	oa
--#rK"
--#r](
--'r- 
--'rxV
--'r}U
--(rJ&
--,r{i
 --rZu
+-2rD
 -3rgP
+-6rz
 -9r=M
--=rf>
--K	oZ
-.-rwW
-../ecma.pub
+-Vse
+-\vrwW
 .7rS(
 .Lr~S
-.YrN)
 .cctor
 .ctor
-.text
-/.g+A
+/8r4
+0 1Q
 0953DF544832295E4A5B19928F95C351F25DA86A
+0YX\v
 14A9DC09E10179B15BEAF94C0AED53904ACE0336
+16r 
 16rEQ
+1a+H
+2.rL\n
 226CF119B78825F1720CF2CA485C2D85113D68C6
 29r=M
 2:r6O
 2A819C73D5892FC12A45F8232E1E03B764F9EB84
+2Cr%
+2\nrO
 3/rQ6
 32D10C7B8CF96570CA04CE37F2A19D84240D3A89
 364A37E6F67B6074B93346D4E369336F4433B1C5
 3:r6O
 3Kr)%
+4 LQ
+4!ul
+4(j2
 4.0.0.0
 4.6.57.0
 4A9C42A40F7A2C45C3BC0622FC68D70E1194A14A
 52642297909BC88C99EAEE55EE6CC77EB807B54E
 577C1328D31B8277AC320C63F2A94D9988BFC9C1
+5Cp+
 66928E6CBB59C3A3BCE606959EF4A865FE04E642
 6AD618784EF9475526FEC47F0466559A788B4A49
 6System.Runtime.Serialization.Configuration.TypeElement
 71599C20F1747A39DEDFB726ADBFA0E04AA71448
 79103F7D0A100F893D3D18C66F3F8397ED8BFFD9
+8(s2
 9D35D7AE7F9C8159DCA3A47B8D6D155D5B53897C
 9E8419627B46E6737DEF6B4A11ED2CFF7138723F
 ;System.Runtime.Serialization.Configuration.ParameterElement
@@ -109,7 +80,6 @@
 <>3__contract
 <>7__wrap1
 <>7__wrap2
-<>9__1
 <>c__DisplayClass0_0
 <>c__DisplayClass1_0
 <>c__DisplayClass22_0
@@ -155,11 +125,10 @@
 <WriteValue>b__0
 <WriteValue>b__1
 <WriteValue>b__2
->.	+#
 >System.Runtime.Serialization.Configuration.DeclaredTypeElement
+?16r
 ?456789:;<=
 ?_XGR
-@.reloc
 A11F11A5D2F4D7E2E917B8E9B818AE383B384C7D
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/encodingutf-8<?xml version="1.0" encoding="abcdefghijklmnopqrstuvwxyz"?>
 AbstractElementNotSupported
@@ -187,7 +156,6 @@ AddElementForm
 AddExtensionData
 AddGlobalTypeName
 AddImportStatement
-AddItemName	parameterTU
 AddKeys
 AddKnownDataContracts
 AddKnownTypeContracts
@@ -222,7 +190,6 @@ AddXmlnsAttribute
 AdjustBlockSize
 Advance
 AdvanceToContentOnElement
-AllowMultiple
 AllowPartiallyTrustedCallersAttribute
 Always
 AmbiguousReferencedCollectionTypes1
@@ -283,6 +250,7 @@ AttributedTypesCannotInheritFromNonAttributedSerializableTypes
 AutoComplete
 BACKSPACE
 BACK_SLASH
+BSJB
 BadImageFormatException
 BaseAdd
 BaseClear
@@ -696,7 +664,6 @@ DefaultOnElementNotSupported
 DefaultOrder
 DefaultPropertySuffix
 DefaultTypeName
-DefaultValue
 DefaultValueLocalName
 DefaultVersion
 DelimittedReadStream
@@ -817,6 +784,7 @@ EventTraceActivity
 ExceededMaxItemsQuota
 ExceptionTrace
 ExceptionUtility
+Exit
 ExitJsonScope
 ExpandGenericParameters
 ExpectingElement
@@ -854,6 +822,7 @@ FORWARD_SLASH
 FactoryObjectContainsSelfReference
 FactoryTypeNotISerializable
 FactoryTypePrefix
+Fail
 FalseText
 FalseTextWithEndElement
 FatalException
@@ -1205,6 +1174,7 @@ GuidArrayHelperWithDictionaryString
 GuidArrayHelperWithString
 GuidLocalName
 GuidTextWithEndElement
+H!7o
 HIGH_SURROGATE_START
 HORIZONTAL_TABULATION
 HandleCollectionAssignedToObject
@@ -1292,6 +1262,8 @@ IXmlSerializableWritePastSubTree
 IXmlTextParser
 IXmlTextReaderInitializer
 IXmlTextWriterInitializer
+I\tKr
+I\tWr
 IdLocalName
 IfModifiedSinceString
 IgnoreDataMemberAttribute
@@ -1333,6 +1305,7 @@ IndexOfAny
 IndexOfLocalName
 IndexOutOfRangeException
 IndexedPropertyCannotBeSerialized
+Init
 InitArgs
 InitClassDataContract
 InitCollectionDataContract
@@ -1506,7 +1479,6 @@ IsReadingClassExtensionData
 IsReadingCollectionExtensionData
 IsReferenceGetOnlyCollectionsNotSupported
 IsReferenceProperty
-IsRequired
 IsRequiredDataMemberOnIsReferenceDataContractType
 IsRequiredProperty
 IsRootElement
@@ -1547,6 +1519,7 @@ IsWhitespaceUTF8
 IsWhitespaceUnicode
 IsXmlAnyElementType
 IsXmlAnyType
+Item
 IteratorStateMachineAttribute
 JsonAttributeAlreadyWritten
 JsonAttributeMustHaveElement
@@ -1648,10 +1621,13 @@ KnownTypeConfigIndexOutOfBounds
 KnownTypeConfigIndexOutOfBoundsZero
 KnownTypeConfigObject
 KnownTypeDataContractResolver
+L tR
 LOW_SURROGATE_END
 LanguageDataContract
+Last
 LastIndexOf
 LastModifiedString
+Load
 LoadArray
 LoadKnownTypesFromConfig
 LoadMemberValue
@@ -1669,6 +1645,7 @@ MakeReadOnly
 MatchDelimitter
 MatchRemainder
 MatchState
+Math
 MaxArrayEntries
 MaxAttribute
 MaxBoolChars
@@ -1804,12 +1781,14 @@ NMTOKENDataContract
 NMTOKENLocalName
 NMTOKENSDataContract
 NMTOKENSLocalName
-Name	FullTrust
+Name
 NameState
 NameValueCollection
 NameValueSeparatorByte
 NameValueSeparatorChar
 NameValueSeparatorString
+Name\rOffsetMinutesT
+Name\tFullTrust
 NamespaceContainsType
 NamespacesEqual
 NeedsExplicitNamespace
@@ -1830,6 +1809,7 @@ NonAttributedSerializableTypesMustHaveDefaultConstructor
 NonNegativeIntegerDataContract
 NonOptionalFieldMemberOnIsReferenceSerializableType
 NonPositiveIntegerDataContract
+None
 Normal
 NormalizedStringDataContract
 NotImplementedException
@@ -1846,7 +1826,6 @@ ObjectReferenceStack
 ObjectTableOverflow
 ObjectToIdCache
 OccursUnbounded
-OffsetMinutesT
 OnComplete
 OnContinueWork
 OnDeserialization
@@ -1874,6 +1853,7 @@ OrderCannotBeNegative
 OrderProperty
 Other
 OverflowException
+P-7r
 ParamArrayAttribute
 ParameterCountMismatch
 ParameterElement
@@ -1909,8 +1889,13 @@ PartialTrustIXmlSerializableTypeNotPublic
 PartialTrustIXmlSerialzableNoPublicConstructor
 PartialTrustNonAttributedSerializableTypeNoPublicConstructor
 PlatformNotSupportedException
+PoH\n
+PoJ\n
+PoK\n
+PoM\n
 PopElement
 PopKnownDataContracts
+Pos\n
 PostDeserialize
 PreSerialize
 PrefixAttributeA
@@ -2032,6 +2017,7 @@ PropertyInfo
 PropertyInformation
 PropertyInformationCollection
 PropertyValueOrigin
+Push
 PushElement
 PushKnownDataContracts
 QNameDictionaryTextWithEndElement
@@ -2357,6 +2343,7 @@ ShouldTraceError
 ShouldTraceInformation
 ShouldTraceVerbose
 ShouldTraceWarning
+Sign
 SignEndElement
 SignNode
 SignScope
@@ -2380,6 +2367,7 @@ SkipVerification
 SkipWS
 SkipWhitespace
 SkipWhitespaceInBufferReader
+Sort
 SortAttributes
 SourceSwitch
 SpecialTypeDataContract
@@ -2387,6 +2375,7 @@ SpecialTypeDataContractCriticalHelper
 SpecialWhitespace
 SpecifiedTypeNotFoundInSchema
 SpecifyKind
+Sqrt
 StandaloneText
 StartAsync
 StartCanonicalization
@@ -2492,10 +2481,13 @@ System.Xml.Serialization.IXmlTextParser.get_WhitespaceHandling
 System.Xml.Serialization.IXmlTextParser.set_Normalized
 System.Xml.Serialization.IXmlTextParser.set_WhitespaceHandling
 System.Xml.XPath
+T iS
 TArgument
 TArray
+TQ\fDefaultValue
 TargetInvocationException
 TargetMethods
+Task
 TaskAwaiter
 TaskExtensions
 TaskFactory
@@ -2655,7 +2647,9 @@ TraceImportError
 TraceInstruction
 TracePayload
 TraceUtility
+Trim
 TrimArraySize
+True
 TrueText
 TrueTextWithEndElement
 TruncateDefaultDataContractNamespace
@@ -2743,7 +2737,6 @@ Unity
 UnknownConstantType
 UnknownXmlType
 UnrecognizedAttributesFound
-Unrestricted
 UnsafeDecode
 UnsafeEncode
 UnsafeGetInt32
@@ -3002,11 +2995,15 @@ WriteXmlAttribute
 WriteXmlValue
 WriteXmlnsAttribute
 WroteAttributeValue
+X'7V
 XPathNavigator
 XPathQueryGenerator
 XPathSeparator
 XSDIDLocalName
 XT*n 
+XT+A
+X\f88
+X\nok
 XmlArrayTooSmall
 XmlArrayTooSmallInput
 XmlArrayTooSmallOutput
@@ -3248,20 +3245,71 @@ XsiTypeLocalName
 XsiTypeName
 XsiTypeNamespace
 XsiTypePrefix
-Y	Y/)
-Y*.s_	
 Y1$rw2
+Y1)r
+Y1*r
+Y1*r\n
+Y1-r
 Y1-rF
-Y1-rZ
+Y1-r\v
 Y1/rF
 Y1/re
+Y10r
+YT~V
+YX}3
 ZSystem.ServiceModel.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 ZXH`*j
+ZXI 
+ZXI(
+ZXIS
 ZXIS*J
+ZXT*
 ZeroText
 ZeroTextWithEndElement
 [[[[[[[[[[[[[[[[
 [ji(R
+[jiX
+[jio
+[jis
+\fUnrestricted
+\n%r1r
+\n%rEr
+\n*2ruC
+\n,Krfq
+\n,Srvs
+\n-2rr
+\n3(r2
+\nIsRequired
+\nR\tom
+\nXsf
+\nY1-rZ\f
+\nZYX
+\nZYY
+\n\trby
+\niox
+\njZYiX
+\njZYiY
+\nr61
+\nr9r
+\nrEr
+\nrIF
+\nrLw
+\nrOe
+\nrOr
+\nrcr
+\nrn1
+\nrnw
+\nrxy
+\rAllowMultiple
+\rdeclaredTypes
+\tInherited
+\tMinLength
+\tNamespace.http://schemas.datacontract.org/2004/07/System
+\tNamespace9http://schemas.microsoft.com/2003/10/Serialization/Arrays
+\v../ecma.pub
+\vAddItemName\tparameterTU
+\vrIF
+_16r
 _CorDllMain
 __StaticArrayInitTypeSize=128
 __StaticArrayInitTypeSize=16
@@ -3277,8 +3325,6 @@ __StaticArrayInitTypeSize=6
 __StaticArrayInitTypeSize=64
 __StaticArrayInitTypeSize=80
 _knownInterfaces
-`.rsrc
-a.%+b
 abbrev
 actual
 actualByteCount
@@ -3299,6 +3345,10 @@ anytypeQualifiedName
 appSettingsLock
 appendString
 applicationJsonMediaType
+arg1
+arg2
+arg3
+args
 array
 arrayCount
 arrayItemIndex
@@ -3338,6 +3388,8 @@ attributeType
 attributeValue
 attributes
 attributesInXmlData
+bXGR
+bXh*
 base64
 base64Buffer
 base64Chars
@@ -3383,6 +3435,7 @@ byteOffset
 bytes
 bytesRead
 bytesRemaining
+cXGR
 c`XGR
 cache
 cacheLock
@@ -3493,7 +3546,9 @@ currentValue
 customAttribuetProvider
 customData
 customDataTypes
+d!xr
 dDictionaryString
+data
 dataContract
 dataContractAttribute
 dataContractCache
@@ -3526,7 +3581,6 @@ declaredType
 declaredTypeContract
 declaredTypeHandle
 declaredTypeID
-declaredTypes
 defattr
 defaultClrAssemblyName
 defaultClrTypeName
@@ -3561,6 +3615,8 @@ document
 documentState
 dstMax
 dstOffset
+ekV+
+elW+
 elemTypeName
 element
 elementBuffer
@@ -3640,6 +3696,7 @@ extensionDataReader
 extensionDataSetExplicitMethodInfo
 extensionDataSetMethod
 extensionDataValueType
+f.J8
 factoryTypeName
 factoryTypeNamespace
 fieldName
@@ -4401,6 +4458,7 @@ get_classDataContract
 get_collectionDataContract
 graph
 graphType
+guid
 guidLength
 handle
 handleWriteBlock
@@ -4423,12 +4481,13 @@ helper
 hexBinaryLocalName
 highChar
 i.9r^j
+i1+r
 i1+r&
-i1+rL
+i1+rL\n
+i1,r
 i1,r4
 i1,rE
-i2:	 
-i3?~ 
+i1Hr
 idHigh
 idLow
 identifier
@@ -4452,6 +4511,7 @@ indent
 indentChars
 indentLevel
 index
+info
 infosetReader
 infosetWriter
 initBuiltInContractsLock
@@ -4547,10 +4607,7 @@ itemString
 itemType
 items
 iterator
-j*^~n
 j2O+!
-jZYiX
-jZYiY
 jsonFormatGetOnlyReaderDelegate
 jsonFormatReaderDelegate
 jsonFormatWriterDelegate
@@ -4558,9 +4615,12 @@ jsonName
 jsonReader
 jsonWriter
 jsonerrorString
+key1
+key2
 keyName
 keyValueContract
 keyValueType
+kind
 knownContracts
 knownDataContracts
 knownType
@@ -4570,7 +4630,9 @@ knownTypeResolver
 knownTypes
 knownTypesAddedInCurrentScope
 knownTypesForObject
+l!ss
 l[kV+
+lang
 languageLocalName
 lastNameSpace
 length
@@ -4578,6 +4640,7 @@ length1
 length2
 level
 lineNumber
+list
 listCount
 listValue
 localName
@@ -4594,6 +4657,7 @@ m_currentCount
 m_ids
 m_isWrapped
 m_objs
+maps
 matchBuffer
 maxArrayLength
 maxBuffer
@@ -4639,6 +4703,7 @@ mimeParts
 mimeReader
 mimeWriter
 minCount
+mode
 modifiedQuotas
 moveToContentMethod
 moveToNextElementMethod
@@ -4676,6 +4741,7 @@ nextKey
 nextNodeType
 nextOperation
 nextPrefix
+node
 nodeFlags
 nodeState
 nodeType
@@ -4698,6 +4764,8 @@ nullNodeWriter
 nullString
 nullables
 numberString
+obj1
+obj2
 objLocal
 objSerialized
 objType
@@ -4768,6 +4836,8 @@ outputStream
 ownerDocument
 ownsStream
 p*rUI
+pQ~L
+p\n+&r5E
 param
 param0
 paramContracts
@@ -4784,6 +4854,9 @@ pathToMember
 perCallXsiTypeAlreadyEmitted
 position
 positiveIntegerLocalName
+pr.L
+prXR
+prX\n
 prefix
 prefix1
 prefix2
@@ -4804,9 +4877,10 @@ processedContracts
 properties
 propertyName
 provider
+prqT
+pr}W
 pubid
 publicString
-q./+Q
 qname
 qnameType
 quotas
@@ -5129,12 +5203,14 @@ surrogateSelector
 surrogatedDeclaredType
 syncLock
 sysid
+t.J8
 target
 targetType
 textFragmentWriter
 textJsonMediaType
 textNode
 textNodeOffset
+that
 thisPtr
 throwArrayExceededSizeExceptionMethod
 throwDuplicateMemberExceptionMethod
@@ -5173,6 +5249,7 @@ trailCount
 trimArraySizeMethod
 trueString
 tryCreate
+type
 type1
 type2
 typeArgs
@@ -5369,7 +5446,7 @@ xmlSerializableReader
 xmlSerializableWriter
 xmlString2
 xmlWriter
-xmlhttp://www.w3.org/XML/1998/namespace
+xmlhttp://www.w3.org/XML/1998/namespace\r\n\r\n\r\n--
 xmlns
 xmlnsAttribute
 xmlnsAttribute1
@@ -5382,4 +5459,9 @@ xmlnsOffset
 xmlnsPrefix
 xmlnsStartOffset
 xsdType
+z\frq
+z\toa\n
+z\vrD
+z\vrO
+zr{i
 |XHXXX@HXXXXXZZXZZZZZZZZZZXX@XXXX[[[[[[[[[[[[[[[[[[[[[[[[[[XXPX[X[[[[[[[[[[[[[[[[[[[[[[[[[[XXXXX[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[

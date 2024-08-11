@@ -1,8 +1,109 @@
-
-!
-!g*
-"
-" because it is missing required fields:
+                    
+            Not Before: 
+        Issuer:%c
+        Serial Number:
+        Subject OCSP hash: 
+        Subject Public Key Info:\n
+        Subject:%c
+        Validity\n
+    (But connection is idle, so treating this as idle timeout on our end.)
+    Remote host is in data center '%s'\n
+    Signature Algorithm: 
+   Cannot communicate with relays without network config.
+  ##%%&&))**,,//1122447788;;==>>@@CCEEFFIIJJLLOOQQRRTTWWXX[[]]^^aabbddgghhkkmmnnppssuuvvyyzz||
+  (No valid certs)
+  +%d load balance penalty.
+  +%d route penalty.
+  Comment started here.
+  Connection gap %.0fms.
+  Local routes: %s\n
+  Migration target.
+  Offline in %ds.
+  Peer routes: %s\n
+  Ping = %d+%d=%d (front+back=total)\n
+  Ping to relay = %d\n
+  Requested migration.
+ !"#$%&'()*+,-./0123
+ !"#$%&'()*+,-./0123Key type %d doesn't know how to load from buffer
+ %4[^ =\t] =%d
+ %4hf
+ ' ) - 3 G M Q _ c e i w } 
+ (%ld unused bits)\n
+ (INVALID PSS PARAMETERS)\n
+ (Negative)
+ (session)
+ 8f\ff
+ = { <proto text format> }". To set fields within it, use syntax like "
+ BackUp() can only be called after Next().
+ Can't back up over more bytes than were returned by the last call to Next().
+ FLK
+ FWa
+ GMT
+ Jtl
+ Outdent() without matching Indent().
+ Parameter to BackUp() can't be negative.
+ T;6P/Arc
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ Xia
+ [default = $0
+ ^LXjt
+ _GDK\tZ
+ a protocol 
+ ack_relay
+ ack_relay_fwd_target
+ ack_routes
+ args were given.  Full format string was: "
+ arguments. 
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ characters
+ contains invalid 
+ downwarn
+ e2e.life
+ e2e.rate
+ filename="%s"%s
+ filename="smime.p7s"%s%s
+ fwd_target
+ is not valid for field 
+ message of type "
+ micalg="
+ name=
+ name="%s"%s
+ name="smime.p7s"%s
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ of type 
+ offset=
+ protocol="%ssignature";
+ relay.life
+ relay.rate
+ request_ack
+ request_ack_asap
+ request_ack_e2e
+ request_ack_immediate
+ request_ack_relay
+ rkC
+ routes
+ smime-type=%s;
+ stats.life
+ stats.rate
+ thread=%lu, file=%s, line=%d, info="
+ vJza\r
+ with 
+ } routes:{
+!#QRFt
+!,wze
+!3mmXs
+!5!A!I!O!Y![!_!s!}!
+!9iV
+!AECO
+!HRN
+!\fmHs8
+!fUY\n
+!s8p
+" because it is missing required fields: 
 " conflicts with the existing symbol "
 " for field "
 " for option "
@@ -19,7 +120,7 @@
 " is already defined in file "
 " is already defined.
 " is an atomic type, not a message.
-" is missing required fields:
+" is missing required fields: 
 " is not a field or extension of message "
 " is not a message type.
 " is not a type.
@@ -31,7 +132,7 @@
 " is resolved to "(
 " is specified along with field "
 " is specified multiple times.
-" must be unique within
+" must be unique within 
 " not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
 " seems to be defined in "
 " unknown.
@@ -41,108 +142,119 @@
 " was not found or had errors.
 " which is not used.
 " which is.
+"!"%"+"1"9"K"O"c"g"s"u"
 "$0" does not declare $1 as an extension number.
-"(
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
 ", another member of oneof "
-", but only
-", field number
-", found "
+", but only 
+", field number 
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". This appears to be a value from a sibling type.
 ". Value: "
-".)
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-":
+"2MR
+"6.Bl
+"6\n\nERelayMode
 "; boundary="----%s"%s%s
+"????'????????????????????????????????????????????????????\????
+"?\n!CMsgSteamDatagramGameServerSample
+"A\n(CMsgSteamDatagramClientPingSampleRequest
+"IYW
+"J\n'CMsgSteamDatagramSessionCryptInfoSigned
 "MutableRawRepeatedField"
+"Wlw
+"YEu
+"Y\n*CMsgSteamDatagramLegacyGameserverPingReply
+"_\n*CMsgSteamDatagramP2PBadRouteRouterToRouter
+"cs73KI
 "e" must be followed by exponent.
-"g*
+"l7ql`R2lWf
+"qVS
 "type mismatch! call is<type>() before get<type>()" && is<array>()
 "type mismatch! call is<type>() before get<type>()" && is<double>()
 "type mismatch! call is<type>() before get<type>()" && is<object>()
 "type mismatch! call is<type>() before get<type>()" && is<std::string>()
-#
-#%u %s
+"u\n"CMsgSteamDatagramCertificateSigned
+"x\n"CMsgSteamDatagramP2PSessionRequest
+"x\n&CMsgSteamDatagramSignedRelayAuthTicket
+"z\n\rMethodOptions
+"zbe
 #%u %s '%s'
-#g*
-$
-$(
-$0  extend .$1 {
-$0  extensions $1 to $2;
+#P0_?G0
+#Q7z
+#\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
+#]hK Ed
+#k+ka\T
+#lyj
+#y"jl
+$)$=$A$C$M$_$g$k$y$}$
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
 $0  message $1
-$0  }
-$0 oneof $1 {
-$0$1 = $2
+$0 oneof $1 {\n
 $0$1$2 $3 = $4
-$0enum $1 {
-$0option $1;
+$0enum $1 {\n
+$0option $1;\n
 $0rpc $1(.$2) returns (.$3)
-$0}
-$@
-$g*
+$4cC
+$>Mm/JhA
+$@D4Z
+$Cw!R
+$F09Y
+$GIRu
+$HypYkf
+$J6"t
+$JXsZ
+$XI(6
+$\n k_ESteamDatagramMsg_NoConnection
+$f;Zv9l\r
+$g#8lu#
+$hRh 
 $tIsteamnetworkingsockets_sdr_p2p.cpp
-%
-%%%d
-%*s
-%*s%s
-%*s%s OF %s {
-%*s%s:
-%*s%s:%*s
-%*s<EMPTY>
+%'%1%=%C%K%O%s%
+%*s%s OF %s {\n
+%*s<EMPTY>\n
 %*s<Not Supported>
 %*s<Parse Error>
-%*sAlias: %s
-%*sCPS: %s
-%*sCRL Issuer:
-%*sExplicit Text: %s
-%*sExtensions:
-%*sFull Name:
-%*sIndirect CRL
-%*sIssuer:
-%*sKey Id:
-%*sLog ID    :
-%*sNo Qualifiers
-%*sNo Rejected Uses.
-%*sNo Trusted Uses.
-%*sNumber%s:
-%*sOnly Attribute Certificates
-%*sOnly CA Certificates
-%*sOnly User Certificates
-%*sOrganization: %s
-%*sPath Length Constraint:
-%*sPolicy Language:
-%*sPolicy Text: %s
-%*sPolicy:
-%*sRejected Uses:%*s
-%*sRelative Name:%*s
-%*sSignature :
+%*sAlias: %s\n
+%*sCPS: %s\n
+%*sCRL Issuer:\n
+%*sExplicit Text: %s\n
+%*sFull Name:\n
+%*sIndirect CRL\n
+%*sIssuer: 
+%*sKey Id: 
+%*sNo Qualifiers\n
+%*sNo Rejected Uses.\n
+%*sNo Trusted Uses.\n
+%*sNumber%s: 
+%*sOnly Attribute Certificates\n
+%*sOnly CA Certificates\n
+%*sOnly User Certificates\n
+%*sOrganization: %s\n
+%*sPath Length Constraint: 
+%*sPolicy Language: 
+%*sPolicy Text: %s\n
+%*sPolicy: 
+%*sRejected Uses:\n%*s
+%*sRelative Name:\n%*s
 %*sSigned Certificate Timestamp:
-%*sTimestamp :
-%*sTrusted Uses:%*s
-%*sUnknown Qualifier:
-%*sUser Notice:
-%*sVersion   :
+%*sTrusted Uses:\n%*s
+%*sUnknown Qualifier: 
+%*sUser Notice:\n
 %*sVersion: %ld (0x%lX)
-%*sZone: %s, User:
-%*scrlNum:
-%*scrlTime:
-%*scrlUrl:
-%*s}
+%*scrlNum: 
+%*scrlTime: 
+%*scrlUrl: 
 %-18s
-%-8d
-%.*g
-%.0f
 %.14s.%03dZ
 %.18g
-%.1f
-%.2f
 %019lu
 %02X%02X
 %02X:
@@ -150,173 +262,280 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 %02x%c
 %02x%s
 %04d%02d%02d%02d%02d%02dZ
-%04x -
-%12s%s
-%12sPublic Key Algorithm:
-%12sUnable to load Public Key
-%2x
-%5d%%
+%0nP
+%0nV4
+%12sPublic Key Algorithm: 
+%12sUnable to load Public Key\n
 %5dms
 %5ld:
-%5lu file=%s, line=%d,
-%6s
-%7s
-%8sIssuer Unique ID:
-%8sSubject Unique ID:
-%8sVersion: %lu (0x%lx)
+%5lu file=%s, line=%d, 
+%8sIssuer Unique ID: 
+%8sSubject Unique ID: 
+%8sVersion: %lu (0x%lx)\n
+%ATP
+%E5u(
+%Gdnv
 %[0-9]-%[0-9]
+%\n!k_ESteamDatagramMsg_P2PStatsRelay
+%aIwV
+%bw+s
 %d byte buffer not big enough; %d bytes required
 %d byte packet is too small
 %d consecutive session request timeouts at %s; marking address as failed.
 %d%+d/%d%+d
-%d%n
 %d.%d.%d.%d/%d.%d.%d.%d
 %d.%d.%d.%d:%d
-%f
-%g
-%g*
+%eyu~
 %hu:%u:%u%c
 %i.%i.%i.%i
 %i.%i.%i.%i:%i
-%ld
-%ld bytes leaked in %d chunks
+%ld bytes leaked in %d chunks\n
 %lli
-%lu:%s:%s:%d:%s
-%s
-%s          <1     1-2     2-5    5-10   10-20     >20
-%s         0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
-%s    %6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%
-%s    %7.1f%%%7.1f%%%7.1f%%%7.1f%%%7.1f%%%7.1f%%
-%s    %7d%7d%7d%7d%7d%7d%7d%7d%7d
-%s    %8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%
-%s    %8d%8d%8d%8d%8d%8d
-%s    %9d%9d%9d%9d%9d%9d%9d%9d%9d
-%s    Dropped   :%11s pkts%7.2f%%
-%s    Duplicate :%11s pkts%7.2f%%
-%s    OutOfOrder:%11s pkts%7.2f%%
-%s    Recv w seq:%11s pkts
-%s    Recv:%11s pkts %15s bytes
-%s    Sent:%11s pkts %15s bytes
-%s    SeqLurch  :%11s pkts%7.2f%%
-%s    perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+%lu:%s:%s:%d:%s\n
+%s          <1     1-2     2-5    5-10   10-20     >20\n
+%s         0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+\n
+%s    %6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%%6.1f%%\n
+%s    %7.1f%%%7.1f%%%7.1f%%%7.1f%%%7.1f%%%7.1f%%\n
+%s    %7d%7d%7d%7d%7d%7d%7d%7d%7d\n
+%s    %8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%%8.1f%%\n
+%s    %8d%8d%8d%8d%8d%8d\n
+%s    %9d%9d%9d%9d%9d%9d%9d%9d%9d\n
+%s    Dropped   :%11s pkts%7.2f%%\n
+%s    Duplicate :%11s pkts%7.2f%%\n
+%s    OutOfOrder:%11s pkts%7.2f%%\n
+%s    Recv w seq:%11s pkts\n
+%s    Recv:%11s pkts %15s bytes\n
+%s    Sent:%11s pkts %15s bytes\n
+%s    SeqLurch  :%11s pkts%7.2f%%\n
+%s    perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead\n
 %s %2d %02d:%02d:%02d %d%s
 %s %2d %02d:%02d:%02d%.*s %d%s
-%s %s HTTP/1.0
-%s %s%lu (%s0x%lx)
-%s (%s)
-%s 0
-%s algorithm "%s" unsupported
-%s appears to be SDR public address.
+%s %s HTTP/1.0\r\n
+%s %s%lu (%s0x%lx)\n
+%s algorithm "%s" unsupported\n
+%s appears to be SDR public address.\n
 %s downtime warning expired; assumed back online.
 %s isn't valid SteamID for identity.
-%s sent routing secret in msg 0x%02x.  Marking as fully trusted.  (Previous trust was %d)
-%s#%d (%s)
+%s sent routing secret in msg 0x%02x.  Marking as fully trusted.  (Previous trust was %d)\n
 %s%02X
-%s%s
-%s(%d):
-%s(%d): OpenSSL internal error, assertion failed: %s
-%s-%s:%d
+%s(%d): OpenSSL internal error, assertion failed: %s\n
 %s------%s%s
 %s------%s--%s%s
 %s/ISteamApps/GetSDRConfig/v1?appid=%u&partner=%s
-%s: (%d bit)
-%s:%d
-%s=%lld
-%s=%llu
-%s=%s
-%sBytes buffered: %s
-%sConnection quality distribution:
-%sConnection quality histogram: (%d measurement intervals)
-%sCurrent rates:
-%sEst avail bandwidth: %.1fKB/s
-%sLatency variance histogram not available
-%sLatency variance histogram: (%d total measurements)
-%sLifetime stats received from remote host %.1fs ago:
-%sLifetime stats:
-%sNo connection quality distribution available.  (%d measurement intervals)
-%sNo lifetime stats received from remote host
-%sNo ping distribution available.  (%d samples)
-%sNo rate stats received from remote host
-%sPing distribution:
-%sPing histogram: (%d total samples)
-%sPing:%sms    Max latency variance: %sms
-%sQuality:%5s%%  (Dropped:%4s%%  WeirdSeq:%4s%%)
-%sRate stats received from remote host %.1fs ago:
-%sRecv:%6.1f pkts/sec%6.1f K/sec
-%sSent:%6.1f pkts/sec%6.1f K/sec
-%sTotals
+%s: (%d bit)\n
+%sBytes buffered: %s\n
+%sConnection quality distribution:\n
+%sConnection quality histogram: (%d measurement intervals)\n
+%sCurrent rates:\n
+%sEst avail bandwidth: %.1fKB/s  \n
+%sLatency variance histogram not available\n
+%sLatency variance histogram: (%d total measurements)\n
+%sLifetime stats received from remote host %.1fs ago:\n
+%sLifetime stats:\n
+%sNo connection quality distribution available.  (%d measurement intervals)\n
+%sNo lifetime stats received from remote host\n
+%sNo ping distribution available.  (%d samples)\n
+%sNo rate stats received from remote host\n
+%sPing distribution:\n
+%sPing histogram: (%d total samples)\n
+%sPing:%sms    Max latency variance: %sms\n
+%sQuality:%5s%%  (Dropped:%4s%%  WeirdSeq:%4s%%)\n
+%sRate stats received from remote host %.1fs ago:\n
+%sRecv:%6.1f pkts/sec%6.1f K/sec\n
+%sSent:%6.1f pkts/sec%6.1f K/sec\n
+%sTotals\n
+%steamnetworkingsockets_messages.proto"
+%steamnetworkingsockets_messages.proto"n\n%CMsgSteamSockets_UDP_ChallengeRequest
 %u.%u.%u.%u
 %u.%u.%u.%u:%u
-%u:%u:%u
-%x
-&
-&g*
+&'&)&5&;&?&K&S&Y&e&i&o&{&
+&1j@U
+&8@Cb
+&AK(h
+&OzJ
+&V6J
+&Ylb
+&\n"k_ESteamDatagramMsg_ConnectRequest
+&\n"k_ESteamDatagramMsg_P2PStatsClient
+&\n"k_ESteamNetworkingUDPMsg_ConnectOK
 &p^?CSI
-'
+&ut8
 '()+,-./:=?
-')
-','
-'g*
+'5'7'M'S'U'_'k'm's'w'
+'6J~U\fm
+'O6n
+'Z9t%
+'\n#k_ESteamDatagramMsg_RouterPingReply
+'g0dW
 'out_location' must not be NULL
-(
-(%ld unused bits)
-(%u)
-(But connection is idle, so treating this as idle timeout on our end.)
-(INVALID PSS PARAMETERS)
-(Negative)
-(No valid certs)
+'pSN.F
+'sp3s
+'s~h9g
+(!(1(=(?(I(Q([(](a(g(u(
+(0'yX
+(1ec_print.c
+(5Me
+(5jP
+(BZq
+(D4D
+(U1h
+(ZdOt\n&
+(\f"R\n#CMsgSteamDatagramCertificateRequest
+(\f"d\n(CMsgSteamDatagramCachedCredentialsForApp
+(\f"q\n-CMsgSteamDatagramHostedServerAddressPlaintext
+(\n$k_ESteamDatagramMsg_ConnectionClosed
+(\n$k_ESteamNetworkingSocketsCipher_NULL
+(\r"Y\n!CMsgSteamSockets_UDP_NoConnection
+(\r"y\n+CMsgSteamDatagramGameServerSampleDataCenter
+(\v2 .CMsgSteamDatagramConnectRequest
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.CMsgSteamDatagramP2PRoutes.Route
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2".CMsgSteamDatagramConnectionClosed
+(\v2".CMsgSteamDatagramGameServerSample"
+(\v2#.CMsgSteamDatagramCertificateSigned
+(\v2#.CMsgSteamDatagramCertificateSigned"
+(\v2#.CMsgSteamDatagramConnectionQuality
+(\v2#.CMsgSteamDatagramLinkLifetimeStats*
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.CMsgSteamDatagramDataCenterState.Server
+(\v2(.CMsgSteamDatagramDataCenterState.Server"
+(\v2(.CMsgSteamDatagramLinkInstantaneousStats
+(\v2(.CMsgSteamDatagramP2PRoutes.RelayCluster
+(\v2(.CMsgSteamDatagramSessionCryptInfoSigned
+(\v2(.CMsgSteamNetworkingIdentityLegacyBinary
+(\v2(.CMsgSteamNetworkingIdentityLegacyBinary"
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).CMsgSteamDatagramRouterHealth.DataCenter
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2,.CMsgSteamDatagramDataCenterState.DataCenter
+(\v2,.CMsgSteamDatagramGameServerSampleDataCenter"
+(\v2,.CMsgSteamDatagramRelayAuthTicket.ExtraField
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
+(\v20.CMsgSteamDatagramRouterPingReply.RouteException
+(\v22.CMsgSteamDatagramClientPingSampleReply.DataCenter
+(\v25.CMsgSteamDatagramClientSwitchedPrimary.RouterQuality
+(\v26.CMsgSteamDatagramClientPingSampleReply.RoutingCluster
 (any)
 (cannot determine missing fields for lite message)
-(g*
-(merge
+(d4t8
+(fS{ggRcjh
+(i/Al
+(jvg;
+(merge 
 (none)
 (null)
-(session)
 (unknown)
-(x%d)
-)
+(vQF
+(wMww
+)!)#)?)G)])e)i)o)u)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)g*
-*
+)Ck?B
+)Fmk
+)J9o
+)TpH
+)Urz
+)\n!authorized_client_identity_string
+)\n!legacy_gameserver_identity_binary
+)\n%k_ESteamDatagramMsg_P2PSessionRequest
+)\n%k_ESteamDatagramMsg_RouterPingRequest
+)\n%k_ESteamNetworkingUDPMsg_NoConnection
+)fuG
+*%*/*O*U*_*e*k*m*s*
+**qXU
+*,vJEd
+*0fT
+*1~Pt
+*5pB
+*DQW%
 *N6google8protobuf12_GLOBAL__N_123AggregateErrorCollectorE
 *N6google8protobuf12_GLOBAL__N_123GeneratedMessageFactoryE
 *N6google8protobuf12_GLOBAL__N_129FieldValuePrinterUtf8EscapingE
+*UlS
+*Y$ve
 *Z68SteamAPI_ISteamNetworkingSockets_RunConnectionStatusChangedCallbacksE15CallbackAdapter
 *ZN25SteamNetworkingSocketsLib24CSteamNetworkingUtilsSDR23BeginFetchNetworkConfigEbEUlPNS_14HTTPResponse_tEE_
-*g*
-+
-+%d
-+%d load balance penalty.
-+%d route penalty.
-+g*
-,
+*\fhsD
+*\n"forward_target_relay_routing_token
+*\n"legacy_gameserver_relay_session_id
+*\n&k_ESteamDatagramMsg_DataClientToRouter
+*\n&k_ESteamDatagramMsg_DataRouterToClient
+*\n&k_ESteamDatagramMsg_DataRouterToServer
+*\n&k_ESteamDatagramMsg_DataServerToRouter
+*gFBk
+*it%2
+*kf[R
++'+1+3+=+?+K+O+U+i+m+o+{+
++D5X
++Sgs
++\n'k_ESteamDatagramMsg_GameserverPingReply
++\n'k_ESteamNetworkingSocketsCipher_INVALID
++\n'k_ESteamNetworkingUDPMsg_ChallengeReply
++\n'k_ESteamNetworkingUDPMsg_ConnectRequest
++gC&s
++steamnetworkingsockets_messages_certs.proto
++steamnetworkingsockets_messages_certs.proto"
++v30Y
 , Type=
 , from:
 , not just within "
 , path=
 , retcode=
 , value=
+,#,/,5,9,A,W,Y,i,w,
+,3g4
 ,7~5d
-,AckPeerRoutes
+,ARu@y6
+,AckPeerRoutes 
 ,AlsoSentViaRelay
+,CBKE
 ,Reason=
 ,RoutesChanged
-,g*
+,ShfPQ
+,ZFDGn
+,fQM(
+,h11]
+,hmQ#
+,kXKlQT
+,kj8\te
 ,name:
+,oYR
 ,section=
 ,value:
--
------BEGIN
------BEGIN %s-----
------END
------END %s-----
-->
--g*
+-"ke6
+-+ziV
+-----BEGIN 
+-----BEGIN %s-----\n
+-----END %s-----\n
+-5X5
+-;-C-I-M-a-e-q-
+-AvRJ
+-D65K
+-U`5K
+-\6G5
+-\n)k_ESteamDatagramMsg_ClientPingSampleReply
+-\n)k_ESteamDatagramMsg_GameserverPingRequest
+-\n)k_ESteamDatagramMsg_P2PSessionEstablished
+-\n)k_ESteamDatagramMsg_RelayToRelayPingReply
+-\n)k_ESteamNetworkingUDPMsg_ChallengeRequest
+-\n)k_ESteamNetworkingUDPMsg_ConnectionClosed
+-\t47Cd1z
 -inf
-.
+-l34
+-mB:t
+-~T\viMOb
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%lu
+.%.-.3.7.9.?.W.[.o.y.
 ....................
 ../../common/crypto_25519_donna.cpp
 ../../common/crypto_openssl.cpp
@@ -326,8 +545,11 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 ../../common/steamdatagram_messages_auth.pb.cc
 ../../common/steamdatagram_messages_sdr.pb.cc
 ../../common/steamid.cpp
+../../common/steamnetworkingsockets_messages.pb.cc
+../../common/steamnetworkingsockets_messages_certs.pb.cc
 ../../common/steamnetworkingsockets_messages_udp.pb.cc
 ../../tier1/netadr.cpp
+../../tier1/utlbuffer.cpp
 ../../tier1/utlmemory.cpp
 ../../vstdlib/strtools.cpp
 ../percentile_generator.h
@@ -342,17 +564,44 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 ../steamnetworkingsockets_internal.h
 ../steamnetworkingsockets_shared.cpp
 ../steamnetworkingsockets_stats.cpp
+..uR5&m
 ./google/protobuf/descriptor.pb.h
 ./google/protobuf/generated_message_util.h
 ./google/protobuf/repeated_field.h
 ./google/protobuf/stubs/common.h
 ./google/protobuf/unknown_field_set.h
+.4bb
+.5P<e
+.CMsgSteamDatagramCertificateB
+.CMsgSteamDatagramConnectOK
+.CMsgSteamDatagramP2PRoutes
+.ESteamNetworkingSocketsCipher"'\n
 .PLACEHOLDER_VALUE
+.Q.Ol
+.\n*k_ESteamDatagramMsg_GameserverRegistration
+.bmxz
 .dummy
+.dx_LV9
 .foo = value".
-.g*
+.google.protobuf.EnumOptions"l\n
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions"
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo"
 .placeholder.proto
-/
+.yAu[7
+/'/)/A/E/K/M/Q/W/o/u/}/
+/)IMT
+/2x1
+/5dJ
+/OTN
+/RIv
+/\n+k_ESteamDatagramMsg_ClientPingSampleRequest
+/\n+k_ESteamDatagramMsg_RelayToRelayPingRequest
+/\n+k_ESteamNetworkingSocketsCipher_AES_256_GCM
+/\n\nconnect_ok
 /dev/egd-pool
 /dev/random
 /dev/srandom
@@ -360,8 +609,8 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 /dev/urandom
 /etc/egd-pool
 /etc/entropy
-/g*
 /home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/external/protobuf-2.6.1/src/google/protobuf/repeated_field.h
+/home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/public/tier1/bitstring.h
 /home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/public/tier1/netadr.h
 /home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/public/tier1/utlbuffer.h
 /home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/public/tier1/utlhashmap.h
@@ -369,29 +618,76 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 /home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/public/tier1/utlmemory.h
 /home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/public/tier1/utlpriorityqueue.h
 /home/buildbot/buildslave/sdr_public_ubuntu64_linux/build/src/public/tier1/utlvector.h
+/proc/%d/status
 /usr/local/ssl
 /usr/local/ssl/cert.pem
 /usr/local/ssl/certs
 /usr/local/ssl/private
 /var/run/egd-pool
-0
+/wo4:
+/zt1
 0../steamdatagram_internal.h
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-0g*
-1
+02V8[
+05=k
+09,h
+0;Q5[
+0<cz
+0?0L
+0M2~@p
+0Ntl
+0W/5
+0Z@q
+0\n(legacy_authorized_client_identity_binary
+0\n,k_ESteamDatagramMsg_GameserverSessionRequest
+0\r0#0)070;0U0Y0[0g0q0y0}0
+0\r8np
+0e\r8
+0tU+xc:
+0}dV
+1!1'1-191C1E1K1]1a1g1m1s1
+11nN
+12'0
+12v)
 13CCallbackBase
 14 (default)
 14CCryptoKeyBase
 15CEC25519KeyBase
+15\tr\
 18CUtlCharConversion
-19
 19CECSigningPublicKey
 19CUtlNoEscConversion
-1g*
-2
+1:uV+T
+1=fI
+1Ag a
+1FV\
+1GNK
+1L$1
+1\n-k_ESteamDatagramMsg_LegacyGameserverPingReply
+1b4Ef
+1f\t3Qg^y
+1j!6
+1m2{
+1nds
+1t;K
+1u+@A
+1xT$
+1}oP
+2#.google.protobuf.FieldOptions.CType:
+2&.CMsgSteamDatagramCertificate.EKeyType
+2).google.protobuf.FileOptions.OptimizeMode:
+2)252Y2]2c2k2o2u2w2{2
+2)Ab`
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.CMsgSteamDatagramSessionCryptInfo.EKeyType
+2+.google.protobuf.FieldDescriptorProto.Label
+2+~,@\r;Zj09
+2-.CMsgSteamDatagramConnectionClosed.ERelayMode
 20CECSigningPrivateKey
+20t\f
 21CEC25519PublicKeyBase
 21CUtlCStringConversion
 21ISteamNetworkingUtils
@@ -401,20 +697,42 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 24CCryptoKeyBase_RawBuffer
 24CECKeyExchangePrivateKey
 24ISteamNetworkingMessages
+24U\n
 25th
 26CMsgSteamDatagramConnectOK
 26CMsgSteamDatagramP2PRoutes
 26CMsgSteamSockets_UDP_Stats
 27CMsgSteamDatagramDiagnostic
+27d7
 28CMsgSteamDatagramCertificate
+28Vm
 29CMsgSteamDatagramNoConnection
 29CMsgSteamDatagramRouterHealth
-2g*
-2nd
-3
+2:3maJ
+2:pS
+2GJH
+2I y)
+2T26
+2Tm=#
+2Uiwp"9
+2Zq)
+2\fWQx
+2\rlhp
+2^pV
+2a"l
+2bT~
+2cb:RO
+2d\v
+2f)l=
+2nIg
+2p"6
+3%3+3/353A3G3[3_3g3k3s3y3
+3,IE),W
+3-WH
 30CMsgSteamDatagramP2PRendezvous
 30CMsgSteamSockets_UDP_ConnectOK
 31CMsgSteamDatagramConnectRequest
+31tPR
 32CMsgSteamDatagramDataCenterState
 32CMsgSteamDatagramP2PRoutes_Route
 32CMsgSteamDatagramRelayAuthTicket
@@ -429,13 +747,16 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 34CMsgSteamDatagramConnectionQuality
 34CMsgSteamDatagramLinkLifetimeStats
 34CMsgSteamDatagramP2PSessionRequest
+35-w
 35CMsgSteamDatagramCertificateRequest
 35CMsgSteamSockets_UDP_ChallengeReply
 35CMsgSteamSockets_UDP_ConnectRequest
 36CMsgSteamDatagramGameserverPingReply
+36w-
 37CMsgSteamDatagramNoSessionRelayToPeer
 37CMsgSteamSockets_UDP_ChallengeRequest
 37CMsgSteamSockets_UDP_ConnectionClosed
+37LQ
 38CMsgSteamDatagramClientPingSampleReply
 38CMsgSteamDatagramClientSwitchedPrimary
 38CMsgSteamDatagramGameserverPingRequest
@@ -448,8 +769,22 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 39CMsgSteamDatagramP2PRoutes_RelayCluster
 39CMsgSteamDatagramSessionCryptInfoSigned
 39CMsgSteamNetworkingIdentityLegacyBinary
-3g*
-4
+3Cn(
+3Ej%Tb
+3HLhx 
+3M5cWAK
+3Wk1^
+3YH_!
+3g\f8
+3icq
+3ja~
+3ki\rgz
+3rUZ
+3w2URu
+3wQ]
+3x&>Z
+4)#bH
+4)m1
 40CMsgSteamDatagramCachedCredentialsForApp
 40CMsgSteamDatagramClientPingSampleRequest
 40CMsgSteamDatagramRouterHealth_DataCenter
@@ -465,10 +800,12 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 43CMsgSteamDatagramRelayAuthTicket_ExtraField
 45CMsgSteamDatagramGameserverSessionEstablished
 45CMsgSteamDatagramHostedServerAddressPlaintext
+46$a
 46CMsgSteamDatagramConnectionStatsClientToRouter
 46CMsgSteamDatagramConnectionStatsRouterToClient
 46CMsgSteamDatagramConnectionStatsRouterToServer
 46CMsgSteamDatagramConnectionStatsServerToRouter
+474E4U4W4c4i4m4
 47CMsgSteamDatagramGameserverPingReply_SignedData
 47CMsgSteamDatagramRouterPingReply_RouteException
 49CMsgSteamDatagramClientPingSampleReply_DataCenter
@@ -476,76 +813,273 @@ $tIsteamnetworkingsockets_sdr_p2p.cpp
 49CMsgSteamDatagramConnectionStatsP2PRouterToClient
 49CMsgSteamDatagramConnectionStatsP2PRouterToRouter
 49CMsgSteamDatagramSignedGameCoordinatorServerLogin
-4B
-4g*
-4~
-5
+4<Td
+4Ch;
+4F0I
+4Mv8
+4Zis
+4\fPl
+4\n0k_ESteamDatagramMsg_GameserverSessionEstablished
+4f h
+4f$H
+4zj@1;IJ
+5'0v2ZP
+5-535;5A5Q5e5o5q5w5{5}5
+5-\rGw
+50Q5
 50th
 52CMsgSteamDatagramClientSwitchedPrimary_RouterQuality
+52pk
 53CMsgSteamDatagramClientPingSampleReply_RoutingCluster
-5g*
-6
+5A10K
+5EwO
+5Itc
+5N{j
+5\n1k_ESteamDatagramMsg_ClientToRouterSwitchedPrimary
+5\n\vnested_type
+5\vFuo
+5b!g
+5ceTk
+5dO7
+5giP
+5hcr
+5s\nl
+5t?F
+5~EW
+6#6165676;6M6O6S6Y6a6k6m6
+6#RDP#
+6%vi
+6*Fc7
+6,2K
+6-zeZ
+62$|S)6f
 6666666666666666\\\\\\\\\\\\\\\\bn_add.c
-6g*
-7
+67-s
+6H,N
+6O|T%
+6PNi&\f
+6Qd=
+6\n\fmessage_type
+6_wEX
+6afD
+6bX+
+6c&0|vvX
+6cot
+6i$R\nQ
+6l13
+6lkc
+6myY;
+6qo~
+6r-m_v
+6r1ij
+6ynV\f8%
+7$U8[
+7%Ot\f
+7*QR
+71iB
 75th
-7g*
-8
-8J
-8g*
-9
+7?7E7I7O7]7a7u7
+7?XEAVn
+7E\vy
+7GK2
+7OsR
+7W}2
+7\n\tenum_type
+7\rayf+
+7\tFq?
+7gS_
+7i@X
+7m:e
+7o4H
+7qp9
+7q|Q@
+7sAP'
+7wKR
+7zRQ
+8+Qw
+8.K%G
+80F2<
+851Pe
+88n|
+8<pl
+8= zp
+8A6j
+8GZS
+8IaiS/8,
+8SIffK5W
+8TZvrv<
+8\n\textension
+8\n\vquality_e2e
+8\v8!83858A8G8K8S8W8_8e8o8q8}8
+8]Vc2
+8ca1
+8dS2
+8pe7?
+8q-S*]X
+8sOy
+9#9%9)9/9=9A9M9[9k9y9}9
+9)jx
+9*VU
+95\r9{
 95th
 98th
-9g*
-:
+9966
+9:dzGN
+9@Xp&
+9IGv
+9J9;6
+9N1=@
+9PE,$
+9QTA
+9Y@nJM
+9Zr4
+9\n\noneof_decl
+9\not
+9\tiI
+9]ZV
+9aDW
+9c,Y0x
+9dYeiJ
+9eZI
+9fkj
+9g3|3\rX
+9kQp
+9o!5
+9oB#
+9q6\r#m
+9r#xV
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
-: Tried to copy from a message with a different type. to:
-: Tried to merge from a message with a different type.  to:
-: [
-:%X
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
+:':+:1:K:Q:[:c:g:m:y:
+:.JlN
+:5ptI.T(
 ::google::protobuf::FieldDescriptorProto_Label_IsValid(value)
 ::google::protobuf::FieldDescriptorProto_Type_IsValid(value)
 ::google::protobuf::FieldOptions_CType_IsValid(value)
 ::google::protobuf::FileOptions_OptimizeMode_IsValid(value)
 :BAD OBJECT
-:EXTERNAL TYPE %s
-:g*
-;
-;g*
-<
+:EXTERNAL TYPE %s\n
+:NAy
+:QYJ
+:Vlq
+:\n\rquality_relay
+:cwd|
+:eaI
+:gN(dq
+:mIR
+:w4v
+; zp%Jj
+;!;#;-;9;E;S;Y;_;q;{;
+;4hP
+;5jNf
+;K+PW
+;LGEW
+;Qo0
+;`Fzc
+;bwP*
+;dy>p
+<)<5<C<O<S<[<e<k<q<
+<3AC|[sqb
+<4E87
 <<ERROR>>
-<ABSENT>
+<ABSENT>\n
 <ASN1 %d>
 <ASN1 11>
 <ASN1 13>
 <ASN1 14>
 <ASN1 15>
 <ASN1 29>
+<BWK
+<Hs2)
 <INVALID>
+<K4Q
 <NULL>
-<g*
-=
-= { <proto text format> }". To set fields within it, use syntax like "
-=g*
->
->g*
-?
-???
-?g*
-@
-@@
-@g*
-A
+<SVX
+<YGr+
+<YVtV&
+=!=-=3=7=?=C=o=s=u=y={=
+=&sf9
+=O?AqP
+=Q9M
+=Tie
+=VX7
+=asyv
+=cdE
+>#>)>/>3>A>W>c>e>w>
+>0PFJ
+>4|6eXg_e
+>7^0g
+>I{TrEX
+>Sem
+>WK6
+>\n\frelay_sample
+>\v?\r?7?;?=?A?Y?_?e?g?y?}?
+>csteamnetworkingmessages.cpp
+>fN46R^
+>l\rur
+>p00<
+>w^23
+>yhP
+>ztq
+?456789:;<=
+???\f???????\n???\r?\t?\v
+?HP4
+?QfZ
+?Unexpected end of string.
+?VBH;
+?\n\fdata_centers
+?\n\rinstantaneous
+?\n\rserver_sample
+?d86L
+?dt]X
+?fuP=
+?gwL
+?jOb
+?md_rand.c
+?srJO
+?tr#6
+?tya
+?uWS
+?w8'g
+?x29
+@!@%@+@1@?@C@E@]@a@g@m@
+@?33s?H
+@BH]f
+@MfKZ
+@Pgl
+@Pu\rm
+@WE]X
+@X!pf
+@Zs3
+@\f1OJ
+@c5U
+@dKb]
+@i1V
 A connection with that ID already exists.
 A file with this name is already in the pool.
 A listen socket handle was used where a poll group handle was expected
 A poll group handle was used where a listen socket handle was expected
-A protocol message was rejected because it was too big (more than
-A:
+A protocol message was rejected because it was too big (more than 
+A!A3A5A;A?AYAeAkAwA{A
+A%N_A
+A,uw"
+A.00h
+A2VPD
+A4Wn>
+A9ue_
+A9ur
+A;DC04
+A<fP
+A>x8
 AA Compromise
 AACompromise
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+AC2,h
 ACCESS_DESCRIPTION
+ACK_REQUEST_E2E
+ACK_REQUEST_IMMEDIATE
+ACK_REQUEST_RELAY
 AD Time Stamping
 AD_DVCS
 AES-128-CBC
@@ -577,8 +1111,10 @@ AES-256-CTR
 AES-256-ECB
 AES-256-OFB
 AES-256-XTS
+AGgV
 ANSI X9.62
 ANY PRIVATE KEY
+AOZs\!yA*
 APISendMessageToConnection failed with result code %d
 ASCII
 ASN1 OID: %s
@@ -612,6 +1148,11 @@ ASN1_UTF8STRING
 ASN1_VISIBLESTRING
 AUTHORITY_INFO_ACCESS
 AUTHORITY_KEYID
+AW:S
+AWt.
+A\n\nrelay_mode
+A\rjW
+AbW_
 Abandoning attempt to migrate to %s, relay is shutting down soon.
 Abandoning migration to %s.  We obtained a session on this relay, but decided to use %s as the primary instead.
 AcceptConnection
@@ -620,7 +1161,6 @@ Acceptable OCSP Responses
 Ack count of %llu<<3 is crazy
 Ack range underflow, end=%lld, num=%lld
 AckTimeout
-Actual    :
 AddBool
 AddDouble
 AddEnum
@@ -631,16 +1171,16 @@ AddMessage
 AddString
 AddUInt32
 AddUInt64
-Adding SDR ticket for server %s vport %d to cache.  Expiry=%u
+Adding SDR ticket for server %s vport %d to cache.  Expiry=%u\n
 Address mismatch in shared cluster data and global network config?
 Address too small!
 Affiliation Changed
-Ag*
+Ag*g*
 All apps excluded by auth chain!
 All pops excluded by auth chain!
 Already have a listen socket on P2P virtual port %d
-Already have a ticket for server '%s' vport %d with expiry at %u.  Discarding ticket with expiry at %u
-Already have a ticket for server '%s' with older expiry %u.  Discarding and replacing with new ticket expiring at %u
+Already have a ticket for server '%s' vport %d with expiry at %u.  Discarding ticket with expiry at %u\n
+Already have a ticket for server '%s' with older expiry %u.  Discarding and replacing with new ticket expiring at %u\n
 Already saw decimal point or exponent; can't have another one.
 Already talking to %s on this shared socket, cannot add another remote host!
 Any Extended Key Usage
@@ -649,11 +1189,10 @@ Any language
 App %u is using legacy (unencrypted) server addresses in tickets
 App did not respond to Messages session request in time, discarding.
 App didn't accept or close incoming connection in time.
-AppIDs . . :
+AppIDs . . : 
 Application closed connection
 Application closed connection in an unusual way
 Application didn't accept or close incoming connection in a reasonable amount of time.  This is probably a bug.
-Apr
 Assertion Failed: !( m_recvPktNumberMask[ idxRecvBitmask ] & bit )
 Assertion Failed: !( msgStatsIn.flags() & msgStatsIn.ACK_REQUEST_E2E )
 Assertion Failed: !(pQueue->m_pLast->*pMbrLinks).m_pNext
@@ -1257,24 +1796,29 @@ Attempt #%d to fetch config from %s
 Attempt to register more config values after table is already initialized
 Attempt to set target think time to %lld
 Attempting
-Attempting to connect via steam datagram using unsigned ticket, as per steamdatagram_client_debugticket_address
+Attempting to connect via steam datagram using unsigned ticket, as per steamdatagram_client_debugticket_address\n
 Attemt to send packet, but socket has been closed!
-Aug
-Auth ticket failed to parse.  %s
+Auth ticket failed to parse.  %s\n
 AuthStatus (%s interface):  %s  (%s)
 AuthStatus (%s):  %s  (%s)
 AuthenticAMD
 Authority Information Access
-B
+Av $1
+B!rA
+B#B)B/BCBSBUB[BaBsB}B
+B+N3
+B+Uk=
 B-163
 B-233
 B-283
 B-409
 B-571
-B:
+B.z\85p
+B8Z"h
+B>J7I
 BAD ENUMERATED
 BAD INTEGER
-BAD RECURSION DEPTH
+BAD RECURSION DEPTH\n
 BAD-TYPE
 BASIC_CONSTRAINTS
 BC (default)
@@ -1284,7 +1828,8 @@ BF-CBC
 BF-CFB
 BF-ECB
 BF-OFB
-BIO
+BFEo
+BIGNUM
 BIO lib
 BIO routines
 BIT STRING
@@ -1292,7 +1837,7 @@ BITLIST
 BITSTR
 BITSTRING
 BITWRAP
-BMP
+BK+O
 BN lib
 BOOL ABSENT
 BRecvCryptoHandshake
@@ -1301,52 +1846,74 @@ BRecvCryptoHandshake failed creating loopback pipe socket pair
 BSteamNetworkingIdentityToProtobufInternal failed?  %s
 BSteamNetworkingIdentityToProtobufInternal failed??  %s
 BSteamNetworkingSocketsLowLevelAddRef
+BT5f
+BT]Q@
 BUF lib
 BUG!
 BUG: Duplicate connection ID!
 BUG_network_config_mismatch
 BUG_no_ping_data
-BackUp() can only be called after Next().
+BY_Lq)
+BZZn\rN]#8f'
+B\nYY
+B\n\fdata_centers
+B\n\fextra_fields
+B`4I
 BackUp() can only be called after a successful Next().
 Backup router %s going offline in %d seconds; seeking replacement
-Backup router: %s  Ping = %d+%d=%d (front+back=total)
+Backup router: %s  Ping = %d+%d=%d (front+back=total)\n
 Bad IV size
-Bad P2P signal from '%s': no connect_request or (
-Bad P2P signal: invalid from_identity '%s'
-Bad P2P signal: no from_identity
-Bad boolean
+Bad P2P signal from '%s': no connect_request or (\n
+Bad P2P signal: invalid from_identity '%s'\n
+Bad P2P signal: no from_identity\n
+Bad boolean\n
 Bad cert identity.  %s
 Bad cert: %s
-Bad client_identity_string '%s'
-Bad from_identity_string '%s'
+Bad client_identity_string '%s'\n
+Bad from_identity_string '%s'\n
 Bad identity in cert.  %s
 Bad identity in stats
 Bad identity.  %s
-Bad pkt 0x%02x from %s:
+Bad pkt 0x%02x from %s: 
 Bad private key size returned by callback
 Bad tag size
 Bad time value
 Basic OCSP Response
-Basis Type: %s
+Basis Type: %s\n
+BcT`
+Bd]U
 BeginFetchNetworkConfig
-Bg*
 Big Number part of OpenSSL 1.0.2s  28 May 2019
 Biometric Info
+Bnl1l
+BoX5
 Bogus cipher %d
 Bookkeeping bug!
 Bookkeeping bug: Can't remove logical socket from physical socket's table, it isn't there
 Boolean default must be true or false.
+Bs'n
+Bt-N
+Bu 5
 Buffer isn't big enough to hold padded+encrypted data and tag
 Buffer might not be big enough to hold decrypted data
-But we still have a valid cert, continuing with that one
+But we still have a valid cert, continuing with that one\n
+BvVlZ\
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C
+B{Y.w
+C q'O
+C!OFtq74
+C%C'C3C7C9COCWCiC
 C& google::protobuf::internal::scoped_array<C>::operator[](std::ptrdiff_t) const [with C = int; std::ptrdiff_t = long int]
 C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google::protobuf::UnknownFieldSet]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
+C-gr
+C../../tier1/bitstring.cpp
+C6DN
+C6pH[
+C7HSY
 CA Compromise
 CA Issuers
 CA Repository
@@ -1354,7 +1921,8 @@ CA key %llu (or an antecedent) expired %lld seconds ago!
 CA key %llu is not known
 CA key %llu is not known to us
 CA key %llu is not trusted.  %s
-CA key %llu not trusted.
+CA key %llu not trusted.  
+CAAz
 CACompromise
 CAMELLIA-128-CBC
 CAMELLIA-128-CFB
@@ -1378,145 +1946,150 @@ CAST5-CBC
 CAST5-CFB
 CAST5-ECB
 CAST5-OFB
+CB4cJQlAc
+CBI]6
 CCrypto::Base64Decode: insufficient output buffer (up to n*3/4+2 bytes required)
 CCrypto::Base64Encode: insufficient output buffer (up to n*4/3+5 bytes required, plus linebreaks)
-CCrypto::Base64Encode: insufficient output buffer for encoding, needed %d got %d
+CCrypto::Base64Encode: insufficient output buffer for encoding, needed %d got %d\n
 CCrypto::HexDecode: insufficient output buffer (input length %u, output size %u)
+CD1mB"
 CERTIFICATEPOLICIES
-CHECK failed: !checkpoints_.empty():
-CHECK failed: !coded_out.HadError():
-CHECK failed: !extension->is_repeated:
-CHECK failed: !is_closed_:
-CHECK failed: !iter->second.is_repeated:
-CHECK failed: !out.HadError():
-CHECK failed: (&from) != (this):
-CHECK failed: (&from) != (to):
-CHECK failed: (&other) != (this):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: (0) == (BufferSize()):
-CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()):
-CHECK failed: (backup_bytes_) == (0):
-CHECK failed: (buffer_size) >= (0):
-CHECK failed: (buffer_used_) == (buffer_size_):
-CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization):
-CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization):
-CHECK failed: (count) <= (buffer_used_):
-CHECK failed: (count) <= (last_returned_size_):
-CHECK failed: (count) <= (target_->size()):
-CHECK failed: (count) >= (0):
-CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (current_size_) > (0):
-CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()):
-CHECK failed: (digits) < (100):
-CHECK failed: (end - target) == (size):
-CHECK failed: (extension->is_packed) == (other_extension.is_packed):
-CHECK failed: (extension->is_packed) == (packed):
-CHECK failed: (extension->type) == (other_extension.type):
-CHECK failed: (extensions_offset_) != (-1):
-CHECK failed: (field->message_type()) == (desc):
-CHECK failed: (field->options().ctype()) == (ctype):
-CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES):
-CHECK failed: (final_byte_count) < (target_byte_count):
-CHECK failed: (from.GetDescriptor()) == (descriptor):
-CHECK failed: (index) < (size()):
-CHECK failed: (index) >= (0):
-CHECK failed: (last_returned_size_) > (0):
-CHECK failed: (len) >= (0):
-CHECK failed: (message1->GetReflection()) == (this):
-CHECK failed: (message2->GetReflection()) == (this):
-CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP):
-CHECK failed: (output->ByteCount()) == (expected_endpoint):
-CHECK failed: (size()) < (Capacity()):
-CHECK failed: (size) <= (6):
-CHECK failed: (str.size()) <= (kuint32max):
-CHECK failed: (target - output->data()) == (output->size()):
-CHECK failed: (temp[0]) == ('1'):
-CHECK failed: (temp[size-1]) == ('5'):
-CHECK failed: (to->GetDescriptor()) == (descriptor):
-CHECK failed: (type) != (WireFormatLite::TYPE_ENUM):
-CHECK failed: (type) != (WireFormatLite::TYPE_GROUP):
-CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE):
-CHECK failed: (type) == (WireFormatLite::TYPE_ENUM):
-CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs):
-CHECK failed: IsInitialized():
-CHECK failed: allow_unknown_field_:
-CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL:
-CHECK failed: builder_:
-CHECK failed: checkpoints_.empty():
-CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE:
-CHECK failed: dest:
-CHECK failed: dynamic.get() != NULL:
-CHECK failed: errors == NULL:
-CHECK failed: extension->is_repeated:
-CHECK failed: fallback_database_ == NULL:
-CHECK failed: field != NULL:
-CHECK failed: field->is_repeated() || (index == -1):
-CHECK failed: fields_ != NULL:
-CHECK failed: file != NULL:
-CHECK failed: generated_database_->Add(encoded_file_descriptor, size):
-CHECK failed: has_default_value():
-CHECK failed: i >= 0:
-CHECK failed: is_prototype():
-CHECK failed: is_repeated:
-CHECK failed: iter != extensions_.end():
-CHECK failed: iter == extensions_.end():
-CHECK failed: mutex_ == NULL:
-CHECK failed: options->ParseFromString(buf):
-CHECK failed: options_descriptor:
-CHECK failed: original_uninterpreted_options_field != NULL:
-CHECK failed: output->message_prototype != NULL:
-CHECK failed: output:
-CHECK failed: prototype != NULL:
-CHECK failed: result != NULL:
-CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize:
-CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize:
-CHECK failed: trees:
-CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP:
-CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE:
-CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE:
-CHECK failed: uninterpreted_options_field != NULL:
-CHECK failed: value.size() <= kint32max:
+CGP%AI
+CHECK failed: !checkpoints_.empty(): 
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !extension->is_repeated: 
+CHECK failed: !is_closed_: 
+CHECK failed: !iter->second.is_repeated: 
+CHECK failed: !out.HadError(): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: (0) == (BufferSize()): 
+CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()): 
+CHECK failed: (backup_bytes_) == (0): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (buffer_used_) == (buffer_size_): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (count) <= (buffer_used_): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (current_size_) > (0): 
+CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()): 
+CHECK failed: (digits) < (100): 
+CHECK failed: (end - target) == (size): 
+CHECK failed: (extension->is_packed) == (other_extension.is_packed): 
+CHECK failed: (extension->is_packed) == (packed): 
+CHECK failed: (extension->type) == (other_extension.type): 
+CHECK failed: (extensions_offset_) != (-1): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES): 
+CHECK failed: (final_byte_count) < (target_byte_count): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (index) < (size()): 
+CHECK failed: (index) >= (0): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (len) >= (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (size()) < (Capacity()): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (str.size()) <= (kuint32max): 
+CHECK failed: (target - output->data()) == (output->size()): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
+CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
+CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs): 
+CHECK failed: IsInitialized(): 
+CHECK failed: allow_unknown_field_: 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+CHECK failed: builder_: 
+CHECK failed: checkpoints_.empty(): 
+CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE: 
+CHECK failed: dest: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: errors == NULL: 
+CHECK failed: extension->is_repeated: 
+CHECK failed: fallback_database_ == NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: field->is_repeated() || (index == -1): 
+CHECK failed: fields_ != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: i >= 0: 
+CHECK failed: is_prototype(): 
+CHECK failed: is_repeated: 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: iter == extensions_.end(): 
+CHECK failed: mutex_ == NULL: 
+CHECK failed: options->ParseFromString(buf): 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: output: 
+CHECK failed: prototype != NULL: 
+CHECK failed: result != NULL: 
+CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize: 
+CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize: 
+CHECK failed: trees: 
+CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP: 
+CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE: 
+CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value.size() <= kint32max: 
 CHTTPRequest to %s being destructed, but we never executed the callback or canceled it
+CKh/Q
 CMAC
-CMS
+CMB!
 CMS routines
 CMS_ATTRIBUTES
 CMS_Attributes_Sign
@@ -1555,6 +2128,7 @@ CMS_SharedInfo
 CMS_SignedData
 CMS_SignerIdentifier
 CMS_SignerInfo
+CMsgSteamDatagramCertificate
 CMsgSteamDatagramCertificateSigned failed protobuf parse
 CMsgSteamDatagramClientPingSampleRequest
 CMsgSteamDatagramConnectOK
@@ -1565,14 +2139,18 @@ CMsgSteamDatagramConnectionStatsP2PRouterToClient
 CMsgSteamDatagramConnectionStatsRouterToClient
 CMsgSteamDatagramConnectionStatsRouterToClient from %s missing seq_num_r2c
 CMsgSteamDatagramConnectionStatsRouterToServer
-CMsgSteamDatagramConnectionStatsRouterToServer with missing / invalid envelope fields.  [ %s ]
+CMsgSteamDatagramConnectionStatsRouterToServer with missing / invalid envelope fields.  [ %s ]\n
+CMsgSteamDatagramDiagnostic
 CMsgSteamDatagramGameserverPingRequest
 CMsgSteamDatagramGameserverSessionEstablished
 CMsgSteamDatagramNoConnection
 CMsgSteamDatagramNoSessionRelayToClient
 CMsgSteamDatagramNoSessionRelayToPeer
 CMsgSteamDatagramP2PBadRouteRouterToClient
+CMsgSteamDatagramP2PRendezvous
+CMsgSteamDatagramP2PRoutes
 CMsgSteamDatagramP2PSessionEstablished
+CMsgSteamDatagramRouterHealth
 CMsgSteamDatagramSignedRelayAuthTicket protobuf parse failed
 CMsgSteamDatagramSignedRelayAuthTicket.ticket protobuf parse failed
 CMsgSteamSockets_UDP_ChallengeReply
@@ -1581,8 +2159,10 @@ CMsgSteamSockets_UDP_ConnectOK
 CMsgSteamSockets_UDP_ConnectRequest
 CMsgSteamSockets_UDP_ConnectionClosed
 CMsgSteamSockets_UDP_NoConnection
-CN
+CMsgSteamSockets_UDP_Stats
 CONF lib
+CORD
+CPBQ
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -1592,6 +2172,7 @@ CPPTYPE_INT64
 CPPTYPE_STRING
 CPPTYPE_UINT32
 CPPTYPE_UINT64
+CR&C
 CRL Sign
 CRL signing
 CRLDistributionPoints
@@ -1603,15 +2184,15 @@ CSDRHTTPRequest::Cancel
 CSDRHTTPRequest::Think
 CSPName
 CSharedSocket client table corruption!
-CSteamNetworkConnectionP2PSDR inbound connection received stats while in state 'connecting'.
-CSteamNetworkConnectionP2PSDR received ProcessMessage_P2PSessionEstablished while in state %d.  Rejecting packet with ConnectionClosed message.
+CSteamNetworkConnectionP2PSDR inbound connection received stats while in state 'connecting'.\n
+CSteamNetworkConnectionP2PSDR received ProcessMessage_P2PSessionEstablished while in state %d.  Rejecting packet with ConnectionClosed message.\n
 CSteamNetworkConnectionPipe connections shouldn't try to send 'packets'!
 CSteamNetworkConnectionPipe::BInitConnection failed.  %s
-CSteamNetworkConnectionSDRClientBase received data packet while in state %d.  Rejecting packet with ConnectionClosed message.
-CSteamNetworkConnectionSDRClientBase received data packet while in the 'connecting' state.  Dropping packet; resending ConnctRequest
-CSteamNetworkConnectionToSDRServer received ProcessMessage_GameserverSessionEstablished while in state %d.  Rejecting packet with ConnectionClosed message.
-CSteamNetworkConnectionToSDRServer received Stats while in state %d.  Rejecting packet with ConnectionClosed message.
-CSteamNetworkConnectionToSDRServer received e2e stats while in Connecting state.  Resending ConnectRequest.
+CSteamNetworkConnectionSDRClientBase received data packet while in state %d.  Rejecting packet with ConnectionClosed message.\n
+CSteamNetworkConnectionSDRClientBase received data packet while in the 'connecting' state.  Dropping packet; resending ConnctRequest\n
+CSteamNetworkConnectionToSDRServer received ProcessMessage_GameserverSessionEstablished while in state %d.  Rejecting packet with ConnectionClosed message.\n
+CSteamNetworkConnectionToSDRServer received Stats while in state %d.  Rejecting packet with ConnectionClosed message.\n
+CSteamNetworkConnectionToSDRServer received e2e stats while in Connecting state.  Resending ConnectRequest.\n
 CSteamNetworkConnectionlocalhostLoopback::BInitConnection failed.  %s
 CSteamNetworkListenSocketP2P::BInit failed?  %s
 CSteamNetworkingMessages::DestroySession
@@ -1625,19 +2206,27 @@ CT Certificate SCTs
 CT Precertificate Poison
 CT Precertificate SCTs
 CT Precertificate Signer
+CType
+CUcR1
 CUtlBuffer::GetStringFast: binary buffers only
 CUtlBuffer::GetStringFast: no string termination
-CUtlLinkedList overflow!
+CUtlLinkedList overflow!\n
+CVcn
 CXXABI_1.3
 CXXABI_1.3.5
+C[L6
+C\lVQ
+C\tD\vD
+C\tr9rW
 Cache-Control
 Callback doesn't fit!
 Callbacks backing up and not being checked.  Need to check them more frequently!
 Called SteamDatagramClient_SetLauncher called after library already initialized!
-Can's serialize gameserver identity '%s' for unsigned ticket.  %s
-Can's serialize local identity '%s' for unsigned ticket.  %s
+Cam\v;
+Can's serialize gameserver identity '%s' for unsigned ticket.  %s\n
+Can's serialize local identity '%s' for unsigned ticket.  %s\n
+Can't 
 Can't BackUp() after failed Next().
-Can't back up over more bytes than were returned by the last call to Next().
 Can't get Steam interface '%s'
 Can't get here.
 Can't get here: failed to get default value as string
@@ -1650,18 +2239,17 @@ Can't send P2P signal; failed CMsgSteamDatagramP2PRendezvous parse
 Cannot accept connection #%u; invalid connection handle
 Cannot accept connection %u from %s, because we don't know how to reply back to them?  How did we already lose track of their session?
 Cannot acception UDP connection.  No transport?
-Cannot allocate buffer larger than kint32max for
+Cannot allocate buffer larger than kint32max for 
 Cannot call BuildFile on a DescriptorPool that uses a DescriptorDatabase.  You must instead find a way to get your file into the underlying database.
-Cannot communicate with relays without network config.
-Cannot connect to proxied gameserver %s via steam datagram.  Library has not been initialized yet (or it failed).
-Cannot connect to proxied gameserver %s via steam datagram.  We don't have an authorization ticket!
+Cannot connect to proxied gameserver %s via steam datagram.  Library has not been initialized yet (or it failed).\n
+Cannot connect to proxied gameserver %s via steam datagram.  We don't have an authorization ticket!\n
 Cannot create IPv4 connection.  %s
 Cannot create P2P connection to %s.  %s
 Cannot create P2P connection.  %s
 Cannot create SDR connection to hosted dedicated server.  %s
 Cannot create hosted dedicated server listen socket.  %s
 Cannot create listen socket.  %s
-Cannot create shared steam datagram socket.  %s
+Cannot create shared steam datagram socket.  %s\n
 Cannot deduce public IP.  Datacenter environment variables misconfigured!
 Cannot deserialize CMsgSteamDatagramP2PRendezvous rejection?
 Cannot find session to mark as MRU!
@@ -1674,10 +2262,10 @@ Cannot use specific IP address.
 Cert allows POPID %s, but CA trust chain does not
 Cert allows appid %u, but CA trust chain does not
 Cert does not authorize us for App %u
-Cert expired %d seconds ago.  Discarding and requesting another
+Cert expired %d seconds ago.  Discarding and requesting another\n
 Cert expired %lld seconds ago
-Cert expires in %d seconds.  Not requesting another
-Cert expires in %d seconds.  Requesting another, but keeping current cert in case request fails
+Cert expires in %d seconds.  Not requesting another\n
+Cert expires in %d seconds.  Requesting another, but keeping current cert in case request fails\n
 Cert failed protobuf decode
 Cert failed protobuf parse
 Cert failure %d: %s
@@ -1696,26 +2284,27 @@ Cert is not restricted by appid, by CA trust chain is, and does not authorize %u
 Cert isn't a valid PEM-like text block
 Cert must be bound to an AppID.
 Cert public key does not match our private key
-Cert request for %s failed with reason code %d.  %s
+Cert request for %s failed with reason code %d.  %s\n
 Cert request returned invalid cert
 Cert request returned invalid key type %d
 Cert request returned invalid private key
 Cert request returned invalid public key
 Cert request returned invalid signature
 Cert request returned public/private key mismatch
-Cert signed by CA
+Cert signed by CA 
 Cert was issued to %s, not %s
 Cert with no identity must be scoped to PoPID.
 Certificate Hold
 Certificate Sign
-Certificate:
+Certificate:\n
 Certs with no identity can only by anonymous gameservers, not %s
 Cessation Of Operation
-Cg*
+ChGg
 Challenge too old.
 ChallengeReply
 ChallengeRequest
 Char=
+ClQ(|
 Claiming protocol V%u now, but earlier was using V%u
 ClearField
 Client message using SessionID 0x%x, without a client identity or connection ID.  We don't recognize that address+SessionID.  Why does the relay think we know the connection info?
@@ -1732,9 +2321,8 @@ Cluster bookkeeping error
 Cluster is tagged to keep, but we don't know the ping time?
 Code Signing
 Code=
-Cofactor:
-Comment started here.
-Communicating via relay in '%s'
+Cofactor: 
+Communicating via relay in '%s'\n
 Communication with at least one Steam Datagram routing cluster has been restored.
 Communications with routing cluster '%s' established.
 Communications with routing cluster '%s' have been disrupted.
@@ -1751,10 +2339,9 @@ ConnectToHostedDedicatedServer
 ConnectToHostedDedicatedServer should not be called through a gameserver's ISteamSocketNetworking
 Connecting P2P socket to self (%s).  Traffic will be relayed over the Internet
 Connection %s has detatched from messages session, but is in state %d
-Connection already has %u bytes pending, cannot queue any more messages
+Connection already has %u bytes pending, cannot queue any more messages\n
 Connection already open.
 Connection dropped
-Connection gap %.0fms.
 Connection list bookeeping corruption
 Connection/session linkage bookkeeping bug!  %s state %d
 ConnectionClosed
@@ -1764,11 +2351,12 @@ Content-Transfer-Encoding: base64%s
 Content-Transfer-Encoding: base64%s%s
 Content-Type: %smime;
 Content-Type: %ssignature;
-Content-Type: application/ocsp-requestContent-Length: %d
-Content-Type: text/plain
+Content-Type: application/ocsp-request\r\nContent-Length: %d\r\n\r\n
+Content-Type: multipart/signed;
+Content-Type: text/plain\r\n\r\n
 Control message of type %d failed serialization consistency check!  (%d, expected %d)
 Control message of type %d is too big.  (%d bytes; max is %d)
-Could not create an instance of
+Could not create an instance of 
 Could not find field named "
 Could not find field type.
 Couldn't parse default value "
@@ -1777,15 +2365,25 @@ CreateListenSocketIP
 CreateListenSocketP2P
 CreatePollGroup
 CreateSocketPair
-Created
+Created 
 CrlID
 Crypt info failed protobuf decode
 Crypto handshake missing cert or session data
-Current primary relay '%s' is no longer eligible for selection.  Deselecting
+Current primary relay '%s' is no longer eligible for selection.  Deselecting\n
+Cw!K
 Cycle detected in trust chain!  (Cert for key %llu, signed by CA key %llu)
-D
-DC
-DEK-Info:
+D"bu
+D#D)D;D?DEDKDQDSDYDeDoD
+D(n%6
+D*64
+D.Hog^
+D.]ppM
+D2Lb!
+D514p
+DBDc
+DD5z
+DDli
+DEK-Info: 
 DER:
 DES-CDMF
 DES-CFB
@@ -1811,8 +2409,9 @@ DH lib
 DIRECTORYSTRING
 DISPLAYTEXT
 DIST_POINT_NAME
+DIq*\tW
 DNS:%s
-DOD
+DNkv
 DSA lib
 DSA-SHA
 DSA-SHA1
@@ -1824,40 +2423,50 @@ Data Encipherment
 Data contains revision %d, not newer than current revision %d; ignoring.
 Data has success=false. message=%s
 Data has success=false. message=document is not an object
-Data:
 DataPacket
 DataRouterToClient
-Dec
+Dd g4X3
 Decipher Only
-Deduced universe %d from certificate
+Deduced universe %d from certificate\n
 Default value for an enum field must be an identifier.
+Dependency unavailable
+DescriptorProto
+DescriptorProtosH
 Destroy() not used properly
 DestroyPollGroup
-Dg*
+Dhq0\ri
 Didn't find quality metrics for old primary?
 Didn't send valid connection ID
 Diffie-Hellman based MAC
 Diffie-Hellman routines
 Digital Signature
 DirName
-DirName:
+DirName: 
 Directory
-Discarding handshake timestamp that's %lldms old, not sending in ConnectOK
+Discarding handshake timestamp that's %lldms old, not sending in ConnectOK\n
 Discarding inactive session %s for connection %u.  %s
 Discarding invalid CMsgSteamDatagramP2PRendezvous from %s
 Discarding invalid CMsgSteamDatagramP2PRendezvous from %s, messages has invalid from_identity '%s'
 Discarding invalid CMsgSteamDatagramP2PRendezvous from %s.  Must specify exactly one of connect_request or to_connection_id
 Discarding invalid SteamNetworkingSocketsRecvP2PRendezvous_t - invalid SteamID or ConnectionID
-Discarding oldest SDR ticket for server %s.  Expiry=%u
+Discarding oldest SDR ticket for server %s.  Expiry=%u\n
+DnRv
 Don't have network config. Check Internet connection
 Don't know Steam universe.  Order of init bug?
 Don't know identity of gameserver; not logged on?
 Don't know our AppID.  Order of init bug?
-Don't lookup extension types if they aren't present (1).
-Don't lookup extension types if they aren't present (2).
+Don't lookup extension types if they aren't present (1). 
+Don't lookup extension types if they aren't present (2). 
+Dq;n
 Dropping connect request from %s.  Existing connection on virtual port %d, now they are asking for virtual port %d!?
+DsBV
 Duplicate relay session key!
-E
+DwWzO
+Dyp~B\n1
+E"Y6
+E)2G\
+E+E1EAEIESEUEaEwE}E
+E,v\nX
 E-mail Protection
 E2EAllStats
 E2EInstantaneousStats
@@ -1865,60 +2474,83 @@ E2EKeepalive
 E2ELifetimeStats
 E2ETimingOutKeepalive
 E2EUrgentPing
-EC
+E;5k
+EA/c
 EC lib
 ECDSA-Parameters
 ECDSA_SIG
 ECPARAMETERS
 ECPKPARAMETERS
 EC_PRIVATEKEY
+ED25519
 EDIPARTYNAME
+EG{M
+EKeyType
+ELF0
+EN2 s/
 ENCRYPTED
 ENCRYPTED PRIVATE KEY
-END
 ENGINE lib
-EOC
+EQuM}
 ERROR
-ERROR: selector [%d] invalid
+ERROR: selector [%d] invalid\n
+ESteamDatagramMsgID
+ESteamNetworkingSocketsCipher
+ESteamNetworkingUDPMsgID
+ET`K\
+ETh7
 EVP lib
 EVP part of OpenSSL 1.0.2s  28 May 2019
 EVP_CIPHER_CTX_iv_length(ctx) <= (int)sizeof(ctx->iv)
 EVP_CIPHER_iv_length(cipher) <= 16
 EVP_CIPHER_key_length(cipher) <= (int)sizeof(md_tmp)
 EVP_DecryptUpdate failed?
-EXP
 EXPLICIT
 EXTENDED_KEY_USAGE
 EXTERNAL
+E[3M
+E\nQc
+EcxmV4
 Ed25519 key public doesn't match private!
 EdiPartyName
 EdiPartyName:<unsupported>
-Eg*
+Ee{5
+EhQ,[3
+EjNG
 Empty POP entry '%s'
 Empty identity msg
 Encipher Only
 Encrypted size doesn't make sense for tag size
 End-of-file inside block comment.
-End-to-end connection: BUG: invalid state %d!
-End-to-end connection: closed by remote host, reason code %d.  (%s)
-End-to-end connection: closed due to problem detected locally, reason code %d.  (%s)
-End-to-end connection: closed, reason code %d.  (%s)
-End-to-end connection: connected
-End-to-end connection: connecting
-End-to-end connection: performing rendezvous
+End-to-end connection: BUG: invalid state %d!\n
+End-to-end connection: closed by remote host, reason code %d.  (%s)\n
+End-to-end connection: closed due to problem detected locally, reason code %d.  (%s)\n
+End-to-end connection: closed, reason code %d.  (%s)\n
+End-to-end connection: connected\n
+End-to-end connection: connecting\n
+End-to-end connection: performing rendezvous\n
+EndToEnd
 Enter PEM pass phrase:
 Enterprises
 Enum type "
+EnumDescriptorProto
+EnumValueDescriptorProto
+EnumValueOptions
 EnumerateDevVars
 Enums must contain at least one value.
+EovVY
+Ep0u
 Eric Young's PKCS#1 RSA
-Error in encoding
+Error in encoding\n
 Error initializing crypto
-Error parsing text-format
+Error parsing text-format 
 Error reporting not implemented.
 Error setting option %d
 Error while parsing option value for "
 Error with crypto.  %s
+EtL?
+EvLa
+Ew`)9Q
 Excluded
 Expect a decimal number.
 Expected "
@@ -1931,15 +2563,15 @@ Expected identifier.
 Expected integer or identifier.
 Expected integer.
 Expected string.
-Expecting:
+Expecting: 
 Experimental
-Expires. . :
+Expires. . : 
 Expiring packet gap, which had pending NACK
 Extended OCSP Status
 Extension
 Extension "
-Extension conflicts with extension already in database: extend
-Extension factory's GetPrototype() returned NULL for extension:
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
 Extension not found.
 Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
 Extension number $0 has already been used in "$1" by extension "$2".
@@ -1948,21 +2580,39 @@ Extension numbers must be positive integers.
 Extension range $0 to $1 includes field "$2" ($3).
 Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range end number must be greater than start number.
+ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
-F
+F#bgn?MwN|%
+F'pY
+F+Zb
+F,mZq
+F/o4
+F2M+
+F7!z
+F9q'
+F<mb
 FALSE
 FATAL
+FCtD}
+FDA~i
+FF!w
 FILE pointer
 FIPS routines
+FN|p
+FOC+
 FORM
 FORMAT
+FU\n-XP
+FV|FgUV
+F\n\foptimize_for
+F\rH'4
 Failed
 Failed crypto init in ConnectOK packet.  %s
 Failed crypto init.  %s
 Failed signature verification (against CA key %llu)
 Failed to Base64 decode cert
-Failed to accept connection from %s.  %s
+Failed to accept connection from %s.  %s\n
 Failed to accept connection.
 Failed to add cert beginning with '%.32s'.  %s
 Failed to allocate %d-byte message buffer
@@ -1986,9 +2636,9 @@ Failed to parse gameserver identity.  %s
 Failed to parse string
 Failed to send P2P signal
 Failed to serialize identity to %s message.  %s
-Failed to set socket for IPv6 only (IPV6_V6ONLY=1).  Error code 0x%08X.  Continuing anyway.
+Failed to set socket for IPv6 only (IPV6_V6ONLY=1).  Error code 0x%08X.  Continuing anyway.\n
 Failed to set socket for dual stack (IPV6_V6ONLY=0).  Error code 0x%08X.
-Failed to set socket for dual stack (IPV6_V6ONLY=0).  Error code 0x%08X.  Continuing using IPv6 only!
+Failed to set socket for dual stack (IPV6_V6ONLY=0).  Error code 0x%08X.  Continuing using IPv6 only!\n
 Failed to set socket nonblocking mode.  Error code 0x%08x.
 Failed to set socket recv buffer size.  Error code 0x%08x.
 Failed to set socket send buffer size.  Error code 0x%08x.
@@ -2004,7 +2654,7 @@ FakePacketReorder_Recv
 FakePacketReorder_Send
 FakePacketReorder_Time
 False
-FastHexToBuffer() wants non-negative integers, not
+FastHexToBuffer() wants non-negative integers, not 
 Fatal Assertion Failed: (uint8 *)pEncryptedDataAndTag + cbEncryptedWithoutTag == pOut
 Fatal Assertion Failed: EVP_DecryptInit_ex( ctx, nullptr, nullptr, nullptr, (const uint8*)pIV ) == 1
 Fatal Assertion Failed: EVP_DigestFinal(ctx.ctx, *pOutDigest, &digest_len) == 1
@@ -2030,12 +2680,13 @@ Fatal Assertion Failed: pPrivateKey->SetRawDataAndWipeInput( rgubSecretData, 32 
 Fatal Assertion Failed: s_dev_urandom_fd >= 0
 Fatal Assertion Failed: urandom_result > 0 || ( urandom_result < 0 && errno == EINTR )
 Fatal Assertion Failed: x.GetRawData( tmp ) == cbData
-Feb
+Fe81
 Feel free to add support for more if you need it.
-Fg*
-Field       :
+Ff,n
+Fgi?)
+Fi:je
 Field "
-Field Type: %s
+Field Type: %s\n
 Field does not match message type.
 Field is repeated; the method requires a singular field.
 Field is singular; the method requires a repeated field.
@@ -2043,36 +2694,49 @@ Field number $0 has already been used in "$1" by field "$2".
 Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
 Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
-Field type:
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
-Field:
+Field: 
 Field=
+FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
 FieldDescriptorProto.oneof_index should not be set for extensions.
 FieldSize
 Fields of oneofs must themselves have label LABEL_OPTIONAL.
-File already exists in database:
-File appears to be in generated pool but wasn't registered:
-File is already registered:
-File recursively imports itself:
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File recursively imports itself: 
+FileDescriptorProto
+FileDescriptorSet
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
+Flags
 FlushMessagesOnConnection
+Fm{#t
+Fop]
 For best results, you can download the nework config ahead of time and set SDR_NETWORK_CONFIG to the full path to that file.
-G
-G:
+F{e6
+F|w)a]c
+G0Tv~:
+G1b1
+G2bQ
+G2xVo\?
+G3oML
+GBd<}v
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
 GENERAL_NAME
+GENERAL_NAMES
 GENERAL_SUBTREE
 GENSTR
 GENTIME
+GL.n
 GLIBCXX_3.4
 GLIBCXX_3.4.11
 GLIBCXX_3.4.14
@@ -2088,8 +2752,7 @@ GLIBC_2.3.2
 GLIBC_2.3.4
 GLIBC_2.4
 GLIBC_2.7
-GMT
-GNU
+GNNw
 GOST 28147-89
 GOST 28147-89 Cryptocom ParamSet
 GOST 28147-89 MAC
@@ -2107,7 +2770,10 @@ GOST R 34.11-94 with GOST R 34.10-94
 GOST R 34.11-94 with GOST R 34.10-94 Cryptocom
 GOST R 3410-2001 Parameter Set Cryptocom
 GRAPHICSTRING
-Gameserver logged on to Steam, assigned identity %s
+GTsW
+GXqN
+GXy{
+Gameserver logged on to Steam, assigned identity %s\n
 GameserverSessionEstablished
 GeneralNames
 GeneralString
@@ -2150,54 +2816,87 @@ GetString
 GetStringReference
 GetUInt32
 GetUInt64
-Gg*
+Gew}
+GoJJw
+GoXis
+Go^ldg
 Got CMsgSteamDatagramGameserverPingRequest from %s with your_public_ip=%s.  But we put %s in our routing blob!
 Got SDR network config.  %s
 Got callback for wrong request?
-Got cert for %s from Steam
+Got cert for %s from Steam\n
 Got incoming Messages session connection request when we already had a connection.  This could happen legit, but we aren't handling it right now.
-H
-HEX
+Gz,J
+GzV%E$;
+G{Ol
+H.aR
+H0+G+R
+H3wQ
+H5gRR-
+H7_Ya
+H8,2
+H=`HY
+HH&a
 HMAC
 HMAC GOST 34.11-94
 HMAC routines
+HO8?
 HTTP %d.  %s
 HTTPRequestCompleted_t
+HU>mA$_E*
+H\n\fdata_centers
 HasField
-Hash Algorithm:
+Hash Algorithm: 
+HbAta
+Hc S
+Hc8a"
+HdEu
 Hex and octal numbers must be integers.
-Hg*
+Hf-2
+Hg>?S
+Hhr+g
+Hofw
 Hold Instruction Call Issuer
 Hold Instruction Code
 Hold Instruction None
 Hold Instruction Reject
-Host is configured with multiple public IPs.  Using %s; ignoring %s
+Host is configured with multiple public IPs.  Using %s; ignoring %s\n
 How did we already get connected?  We should be finding route?
 How do we have an active SDR client connection with no sessions?
 How do we not have a parent listen socket?
-I
-IA5
+Hp)X?
+Hq,r/f
+Ht4qw
+Hw~J
+I"9|OxTex
+I+8G
+I/t1
+I2nC
+I5=T
+I;b_b
 IANA
+IC'W
 ICC or token signature
+IC\n4]
+IChq
 ID%llu
 IDEA-CBC
 IDEA-CFB
 IDEA-ECB
 IDEA-OFB
-IMP
+IEN$
+IEw!
 IMPLICIT
 INVALID
 INVALID_CPPTYPE
+INdK
 IP Address
 IP Address:%d.%d.%d.%d
 IP Address:<invalid>
-IP:
 IPSec End System
 IPSec Tunnel
 IPSec User
 IP_AllowWithoutAuth
 IRawUDPSocket::Close
-ISO
 ISO Member Body
 ISO US Member Body
 ISO-US
@@ -2206,37 +2905,39 @@ ISteamHTTP::CreateHTTPRequest failed
 ISteamHTTP::SendHTTPRequest failed
 ISteamHTTP::SetHTTPRequestHeaderValue failed
 ISteamNetworkingSocketsSerialized::GetCertAsync failed
+ITc[
 Identity %s isn't valid for Messages sessions.  (Only SteamIDs currently supported).
 Identity is blank
-Ig*
-Ignored bad %s from %s.  %s
+Ignored bad %s from %s.  %s\n
 Ignoring P2P CMsgSteamDatagramConnectRequest from %s; can't get NetworkingMessages interface!
 Ignoring P2P CMsgSteamDatagramConnectRequest from %s; missing required fields
-Ignoring P2P CMsgSteamDatagramConnectRequest from %s; we're not listening on virtual port %d
-Ignoring P2P connect request through Steam backend from %s; no virual_port!
-Ignoring P2P connect_ok from %s, since they initiated the connection
-Ignoring P2P connection request from %s.  We cannot accept it since we don't have a cert from Steam yet!
+Ignoring P2P CMsgSteamDatagramConnectRequest from %s; we're not listening on virtual port %d\n
+Ignoring P2P connect request through Steam backend from %s; no virual_port!\n
+Ignoring P2P connect_ok from %s, since they initiated the connection\n
+Ignoring P2P connection request from %s.  We cannot accept it since we don't have a cert from Steam yet!\n
 Ignoring P2P signal from %s.  For our cxn #%u, they first used remote cxn #%u, not using #%u
-Ignoring P2PFailure notification about unknown ConnectionID %u from %s
-Ignoring P2PRendezvous from %s to unknown connection #%u
-Ignoring bad ping time override '%s'
-Ignoring inavlid forced relay cluster '%s'
-Ignoring invalid forced relay address '%s'
+Ignoring P2PFailure notification about unknown ConnectionID %u from %s\n
+Ignoring P2PRendezvous from %s to unknown connection #%u\n
+Ignoring bad ping time override '%s'\n
+Ignoring inavlid forced relay cluster '%s'\n
+Ignoring invalid forced relay address '%s'\n
 Ignoring nonsensical migration request from %s to migrate to %s, which is his own address
-Ignoring ping override for unknown cluster '%s'
+Ignoring ping override for unknown cluster '%s'\n
 Ignoring request by %s to migrate to %s.  Can't locate requesting relay shared cluster data???
 Ignoring request by %s to migrate to %s.  Failed to allocate resources to talk to that relay.
 Ignoring request by %s to migrate to %s.  Target address appears to be in a different relay cluster?  (%s)
 Ignoring request by %s to migrate to %s.  We already know that relay is shutting down very soon.
 Ignoring request by %s to migrate to %s.  We don't recognize that target address in the network config.
 Ignoring request by %s to migrate to %s.  We had problems communicating with that relay %.1fs ago.
-Ignoring stray packet from %s received on port %d.  Should only be talking to %s on that port.
+Ignoring stray packet from %s received on port %d.  Should only be talking to %s on that port.\n
 Ignoring unsolicited/spoofed/late packet from %s.
-Ignoring weird timestamp %llu in ChallengeReply, current time is %llu.
-Ignoring weird timestamp %llu in ConnectOK, current time is %llu, remote delay was %lld.
+Ignoring weird timestamp %llu in ChallengeReply, current time is %llu.\n
+Ignoring weird timestamp %llu in ConnectOK, current time is %llu, remote delay was %lld.\n
 Ignoring/abandoning migration request.  Current primary %s is requesting to send us to %s, but our migration target is %s?
 Ignoring/abandoning migration request.  Current primary %s no longer has a request active
 Ignoring/abandoning migration request.  SDR client deactivated, or no primary selected
+Ij)s
+Ik\f`dub`D
 Import "
 Inconceivable!
 Incorrect challenge.  Could be spoofed.
@@ -2247,13 +2948,13 @@ Incorrect connection ID.  Message is stale or could be spoofed, ignoring.
 Independent
 Index must be -1 for non-repeated fields
 Index must be -1 for singular fields.
-Index must be in range of repeated field values.
+Index must be in range of repeated field values. 
 Index out-of-bounds (field is empty).
 Inherit all
 Inhibit Policy Mapping
 InitAuthentication
 Initial attempt to contact %s failed.  Giving up after %d consecutive failures
-Initialized low level socket/threading support.
+Initialized low level socket/threading support.\n
 Initted interface twice?
 Integer out of range.
 Internal P2P message from %s is %d bytes; that's not big enough for the header!
@@ -2284,7 +2985,7 @@ Invalid control characters encountered in text.
 Invalid encoded message length %d.  Packet is %d bytes.
 Invalid escape sequence in string literal.
 Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
-Invalid float number:
+Invalid float number: 
 Invalid generic bytes (len=%d)
 Invalid generic string '%s'
 Invalid identity
@@ -2301,30 +3002,63 @@ Invalid signature
 Invalid signature length
 Invalid state %d
 Invalid strings::Substitute() format string: "
-Invalid symbol name:
+Invalid symbol name: 
 Invalid value for boolean field "
 Invalid weak dependency index.
-Invalid wire type for CPPTYPE_INT32:
-Invalid wire type for CPPTYPE_INT64:
-Invalid wire type for CPPTYPE_MESSAGE:
-Invalid wire type for CPPTYPE_UINT32:
-Invalid wire type for CPPTYPE_UINT64:
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
 Invalidity Date
-Issuer:%c
-J
+IquO
+Iw,e=2-b[
+IytF
+I{i3|G
+J#}QU^u
+J0X|
+J5W\ne
+J>D2\r
+JAohR
+JD<t
+JM0L
 JOINT-ISO-ITU-T
+JPQv
 JSON file is empty
-Jan
-Jg*
-Jul
-Jun
-K
+JS_!0
+JZIX
+J\rS%H
+J`KL
+JpL9=
+Jq;v
+Jq?a
+Jr\tA
+Jvp)
+Jy).A
+Jy;B`]A
+K(\f]C15
 K-163
 K-233
 K-283
 K-409
 K-571
+K/VTR
+K1m;
+K4K 
+K5!n^n
+K8uH
+KCsJ
+KFz"
 KISA
+KMBo8[
+KNx[
+KQSlB
+KRB8+
+KSV<
+KV;-W
+KWjI
+K[C7W+
+Kbf}
 Key %llu not trusted: %s
 Key Agreement
 Key Compromise
@@ -2333,24 +3067,44 @@ Key collision on key ID %lld!?  Almost certainly a bug.
 Key exchange failed
 Key not initialized, cannot generate signature
 Key not initialized, cannot verify signature
-Kg*
-L
+KhSK
+KlD#
+KsF8
+Ksg4X
+KuBEN
+K{"Kb,p
+K|oT
+L+5d
+L0fO*'
+L4Eud
+L4uGv~;6
+L5^x|S
+L@4T
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
+LG.HK
+LT[N
+LXKQ
+LY\r5
+Label
 LagPacket
 Lagged packet remains in queue after socket destroyed or queued for destruction!
+LbWf
 Lead byte %d invalid for ticket blob
 Lead byte 0x%02x not a known message ID
-Lg*
-Library has not been initialized yet (or it failed).
+Library has not been initialized yet (or it failed).\n
 Listen socket child list corruption!
 Listen socket handle bookkeeping bug!
 Listening for SDR before network config is available!  We don't know what relays to whitelist or where to send ping probes!
 Listening for SDR relayed traffic on UDP port %d (virtual port %d).
 Loaded network config revision %d OK
-Loaded network config revision %d from '%s' as per SDR_NETWORK_CONFIG
+Loaded network config revision %d from '%s' as per SDR_NETWORK_CONFIG\n
 Loaded revision %d OK
-Local identity established from certificate.  We are '%s'
-Local routes: %s
+Local identity established from certificate.  We are '%s'\n
 LocalKeySet
+Location
+Lock not held.  %s
 LogLevel_AckRTT
 LogLevel_Message
 LogLevel_P2PRendezvous
@@ -2363,22 +3117,34 @@ Lost connection to all relays. Check Internet connection
 Lost connection to steam
 Lost connectivity to ALL %d Steam Datagram routing clusters.  Possible problem with local internet connection?
 Lost primary session %s for connection %u.  %s
-M
+LqH!)8
+LsiX
+Ltc$
+M%J3\nUc7
+M'Ezb
+M*jg7
+M0 E
+MASK:
+MBb!\v
 MD5-SHA1
 MGF1
+MGrB
 MIC-CLEAR
 MIC-ONLY
 MIME MHS
 MIME-Version: 1.0%s
+MS[;6
 MTU / header size problem!
 MTU_DataSize is readonly
 MTU_PacketSize
+MZL}
+M\vOj
 Mail
 Malformed CMsgSteamDatagramConnectRequest.  Missing / invalid envelope fields.  [ %s ]
 Malformed CMsgSteamDatagramConnectionClosed.  Bad identity.  %s
 Malformed CMsgSteamDatagramConnectionClosed.  Missing / invalid envelope fields.  [ %s ]
-Malformed CMsgSteamDatagramNoConnection.  Missing / invalid envelope fields.  [ %s ]
-Malformed CMsgSteamDatagramNoSession.  Missing / invalid relay session.  [ %s ]
+Malformed CMsgSteamDatagramNoConnection.  Missing / invalid envelope fields.  [ %s ]\n
+Malformed CMsgSteamDatagramNoSession.  Missing / invalid relay session.  [ %s ]\n
 Malformed MsgSteamDatagramDataRouterToClient from %s: Failed to varint decode size of stats message
 Malformed MsgSteamDatagramDataRouterToClient from %s: Flags indicate presence of TimeSincePrev, but no room for it.  Stats message size %d, packet size %d
 Malformed MsgSteamDatagramDataRouterToClient from %s: packet too small
@@ -2390,31 +3156,31 @@ Malformed MsgSteamDatagramDataRouterToServer: packet too small
 Malformed MsgSteamDatagramDataRouterToServer: protobuf failed to parse inline stats message
 Malformed MsgSteamDatagramDataRouterToServer: stats message size %d doesn't make sense.
 Management
-Mar
-Mask Algorithm:
-May
+Mask Algorithm: 
+MbP?
+Mc]T=
 Message class "
 Message extensions cannot have required fields.
-Message missing required fields:
+Message missing required fields: 
 Message of type "
 Message size %d is too big.  Max is %d
 Message type "
-Message type:
+MessageOptions
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
 Messages session %s: Can't create P2P connection.  %s
 Messages session %s: Can't create P2P signaling.  %s
-Messages session %s: Creating connection %s
-Messages session %s: Implicitly accepted connection %s via SendMessageToUser
-Messages session %s: Posting P2PSessionConnectFail_t, code %d
-Messages session %s: connection [%s] %s: %d %s
-Messages session %s: connection [%s] is idle timing out, but we have a partial message from our peer.  Assuming a message was sent just at the timeout deadline.   Extending timeout.
-Messages session %s: connection [%s] is idle timing out.  But we still have unacked sent data?!?  This seems bad
-Messages session %s: created
-Messages session %s: idle timed out.  Destroying
-Messages session %s: idle timing out.  Closing connection [%s] and destroying session
-Mg*
+Messages session %s: Creating connection %s\n
+Messages session %s: Implicitly accepted connection %s via SendMessageToUser\n
+Messages session %s: Posting P2PSessionConnectFail_t, code %d\n
+Messages session %s: connection [%s] %s: %d %s\n
+Messages session %s: connection [%s] is idle timing out, but we have a partial message from our peer.  Assuming a message was sent just at the timeout deadline.   Extending timeout.\n
+Messages session %s: connection [%s] is idle timing out.  But we still have unacked sent data?!?  This seems bad\n
+Messages session %s: created\n
+Messages session %s: idle timed out.  Destroying\n
+Messages session %s: idle timing out.  Closing connection [%s] and destroying session\n
+MethodDescriptorProto
 Microsoft CSP Name
 Microsoft Commercial Code Signing
 Microsoft Encrypted File System
@@ -2425,7 +3191,10 @@ Microsoft Server Gated Crypto
 Microsoft Smartcardlogin
 Microsoft Trust List Signing
 Microsoft Universal Principal Name
-Migration target.
+MinghuaQu
+MinghuaQu)
+MinghuaQuS
+MinghuaQuw
 Missing / incorrect routing secret
 Missing CA Key ID
 Missing Steam interfaces, cannot tell what universe we're running in
@@ -2434,8 +3203,13 @@ Missing connection_id.
 Missing field: FileDescriptorProto.name.
 Missing name.
 Missing required 'pops' list.
+MlT8
+Mlt(J
 Modulus:
+Mq~h
+MrFW
 Msg type %d is %d bytes, larger than MTU of %d bytes
+Mtb\t4
 Multiple extension registrations for type "
 Multiple sessions on %s with the same connection ID %u?
 Must be called through a gameserver ISteamSocketNetworking
@@ -2443,9 +3217,15 @@ Must init either user or gameserver interface before accessing SDR network.
 Must specify local port.
 MutableRawRepeatedField
 MutableRepeatedMessage
-N
+M}8vhJ
+N!vh
+N#ih
+N'L&R/l
+N.8U}
+N1e\n*
 N25SteamNetworkingSocketsLib13CPacketLaggerE
 N25SteamNetworkingSocketsLib13CSharedSocket10RemoteHostE
+N25SteamNetworkingSocketsLib15CSDRHTTPRequestE
 N25SteamNetworkingSocketsLib15IBoundUDPSocketE
 N25SteamNetworkingSocketsLib16LinkStatsTrackerINS_24LinkStatsTrackerEndToEndEEE
 N25SteamNetworkingSocketsLib16LinkStatsTrackerINS_27LinkStatsTrackerRelayClientEEE
@@ -2496,6 +3276,7 @@ N25SteamNetworkingSocketsLib37CSteamNetworkingSocketsCallResultBaseE
 N25SteamNetworkingSocketsLib40CSteamNetworkConnectionlocalhostLoopbackE
 N25SteamNetworkingSocketsLib44CSteamNetworkAcceptedConnectionFromSDRClientE
 N25SteamNetworkingSocketsLib8IThinkerE
+N5dIn9
 N6google8protobuf10ReflectionE
 N6google8protobuf10TextFormat17FieldValuePrinterE
 N6google8protobuf10TextFormat6FinderE
@@ -2556,6 +3337,7 @@ N6google8protobuf30DescriptorProto_ExtensionRangeE
 N6google8protobuf7ClosureE
 N6google8protobuf7MessageE
 N6google8protobuf8internal12FieldSkipperE
+N6google8protobuf8internal15ExtensionFinderE
 N6google8protobuf8internal16FunctionClosure0E
 N6google8protobuf8internal16FunctionClosure1IPSt4pairIPKNS0_20FileDescriptorTablesEPKNS0_14SourceCodeInfoEEEE
 N6google8protobuf8internal22MessageSetFieldSkipperE
@@ -2564,13 +3346,14 @@ N6google8protobuf8internal26GeneratedMessageReflectionE
 N6google8protobuf8internal27UnknownFieldSetFieldSkipperE
 N6google8protobuf8internal29CodedOutputStreamFieldSkipperE
 N6google8protobuf8internal29DescriptorPoolExtensionFinderE
+N7CJ'
+N=Knn
 NACK
 NAME_CONSTRAINTS
 NETSCAPE_SPKAC
 NETSCAPE_SPKI
 NEW CERTIFICATE REQUEST
-NEW: %s
-NIST CURVE: %s
+NIST CURVE: %s\n
 NIST/SECG curve over a 163 bit binary field
 NIST/SECG curve over a 224 bit prime field
 NIST/SECG curve over a 283 bit binary field
@@ -2585,15 +3368,22 @@ NO X509_NAME
 NOTICEREF
 NSt6thread10_Impl_baseE
 NSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
-NULL
 NULL output buffer with non-zero size passed to Base64Decode
 NULL output buffer with non-zero size passed to Base64Encode
 NULL shared library method
+NULL\n
 NUMERIC
 NUMERICSTRING
+NWzl\n\
+NXfT>o
+N[Ox
+N[iY 
+N\v7e_
+N`UaK
 Nack count of %llu<<3 is crazy
 Nack range underflow, end=%lld, num=%lld
 NagleTime
+NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Netscape
@@ -2613,20 +3403,20 @@ Netscape SSL server
 Netscape Server Gated Crypto
 Network config missing revision identifier.
 Network config router list/map mismatch!
-Network configuration: %s
+Network configuration: %s\n
 NetworkRevisionChanged
 NewRelaySession
-Ng*
+Ni.f
 No ClientNetworkingUtils, cannot init SDR support
 No ISteamHTTP.
 No ISteamNetworkingSocketsSerialized
 No ISteamNetworkingSocketsSerialized; old steam client binaries
-No ISteamUtils: Using local time!
+No ISteamUtils: Using local time!\n
 No P2P rights for this app
 No blob return buffer
 No cert data
 No certs?
-No client identity
+No client identity\n
 No data
 No default value
 No dropped packets, but pkt num %lld -> %lld and bit is not set?
@@ -2634,7 +3424,7 @@ No field named "uninterpreted_option" in the Options proto.
 No identity data
 No identity data is present
 No partner pipe?
-No ping data available.
+No ping data available.\n
 No public key
 No response from server
 No signature
@@ -2645,20 +3435,30 @@ Non Critical
 Non Repudiation
 Non-primitive types can't be packed.
 Non-repeated field "
-None of %d certs trusted.  (E.g.:
-Not After :
-Not After:
+None
+None of %d certs trusted.  (E.g.: 
+Not After: 
 Not Attempted
-Not Before:
 Not configured to lsten for for SDR
 Not from trusted address; dropped
 Not in manual poll mode!
 Not initialized
 Not initialized!
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov
+NrPn
+Nu6Q
 Numbers starting with leading zero must be in octal.
-O
+Nw!qB
+NwJ\rH
+Nz3I#B
+N|rO
+O!YNO
+O#wjk
+O05"
+O1NzNfj'fGv
+O7v%
+O?#7n
+O@RJ
 OBJ lib
 OBJECT DESCRIPTOR
 OCSP
@@ -2689,32 +3489,31 @@ OCSP_REVOKEDINFO
 OCSP_SERVICELOC
 OCSP_SIGNATURE
 OCSP_SINGLERESP
-OCT
 OCTET STRING
 OCTETSTRING
 OCTWRAP
-OID
-OLD: %s
+OHVO
 OPENSSH PRIVATE KEY
 OPENSSL_ALLOW_PROXY_CERTS
 OPENSSL_CONF
 OPENSSL_finish
 OPENSSL_ia32cap
 OPENSSL_init
-ORG
 OTHERNAME
-OU
+O\n\nDataCenter
+O\r5x
+O_yG|
 Oakley-EC2N-3
 Oakley-EC2N-4
 Object Signer
 Object Signing
 Object Signing CA
-Oct
-Offline in %ds.
-Og*
+Oh%u'
+Oh7{j
 Old/incorrect connection ID.  Message is for a stale connection, or is spoofed.  Ignoring.
 OnNetworkConfigFetchCompleted
 Oneof must have at least one field.
+OneofDescriptorProto
 Only ED25519 public key supported
 Only Some Reasons
 OpenRawUDPSocketInternal
@@ -2736,23 +3535,26 @@ Option field "
 Option must have a name.
 Option must not use reserved name "uninterpreted_option".
 Options list is NULL, but nOptions != 0?
-Order:
-Outdent() without matching Indent().
+Order: 
+OrqK
 Overflow serializing packet ack varint count
 Overflow serializing packet nack varint count
-P
+Ow!y
+P!bxo
+P(UH 
 P-192
 P-224
 P-256
 P-384
 P-521
 P2P %s
-P2P signal failed protobuf parse
-P2PFailure via Steam from %s, connection %u.  Reason: %d %d %s
+P2P signal failed protobuf parse\n
+P2PFailure via Steam from %s, connection %u.  Reason: %d %d %s\n
 P2PSession destroyed
 P2PSessionEstablished
-P:
+P5[1
 P?steamnetworkingsockets_udp.cpp
+PAGN_4
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -2771,9 +3573,13 @@ PBES2
 PBKDF2
 PBKDF2PARAM
 PBMAC1
+PEIF
 PEM lib
 PEM part of OpenSSL 1.0.2s  28 May 2019
 PEM routines
+PGr]
+PHAG2
+PHhn}Y
 PKCS #7 SIGNED DATA
 PKCS12
 PKCS12 lib
@@ -2801,6 +3607,7 @@ PKCS7_SIGN_ENVELOPE
 PKCS8_PRIV_KEY_INFO
 PKEY_USAGE_PERIOD
 PKIX
+PL^m
 POLICYINFO
 POLICYQUALINFO
 POLICY_CONSTRAINTS
@@ -2810,23 +3617,24 @@ POP %s has empty relay
 POP %s has invalid relay ipv4 address '%s'
 POP %s router %s has missing/invalid port range
 POP '%s' lists invalid alias '%s'
-POPs . . . :
+POPs . . . : 
 POST
+PPz\v=
 PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
 PSPECIFIED
+PT\ra)
 Packet is %d bytes, must be padded to at least %d bytes.
 Packet lag time must be positive!
 Packet of size %d is too small.
-Parameter to BackUp() can't be negative.
 Parse failure.  Length=%d, data begins %s
-Payload exceeded max size of %d
+Payload exceeded max size of %d\n
+Pb1m
 Peer is running old software and needs to be udpated
 Peer is running old software and needs to be updated.  (V%u, >=V%u is required)
 Peer isn't logged in
 Peer isn't running the app
 Peer must be identified by SteamID
-Peer routes: %s
 Peer sent CMsgSteamDatagramP2PRoutes_RelayCluster without a ping?  Why bother?
 Peer sent us a route with a score of %d, but ping to relay on their end is %d.  Does not compute.
 Peer sent us a route with a score, but didn't sent ping to relay on their end?!
@@ -2836,26 +3644,27 @@ Pending ping measurement until network config is obtained.
 Performing ping measurement
 Permanent Identifier
 Permitted
-Pg*
-Ping = %d+%d=%d (front+back=total)
+PiI\r
 Ping = %d+%d=%d (front+back=total).
-Ping data good enough to make routing decisions.  First ping received %.1fs ago, great=%d, good+=%d, ok+=%d, valid=%d
+Ping data good enough to make routing decisions.  First ping received %.1fs ago, great=%d, good+=%d, ok+=%d, valid=%d\n
 Ping failure to cluster %s was %.1fs ago.  Discarding record of failure, might try again.
-Ping location: %s
+Ping location: %s\n
 Ping measurement completed
-Ping timed out to %s
+Ping timed out to %s\n
 Ping to %s timed out.  Giving up after %d consecutive failures
-Ping to relay = %d
 PingDataGoodEnoughForRouting
 PingMeasurementCompleted
 Pinging %s (%s).
 Pkt number lurch by %lld; %04x->%04x
+Pm8A?
+PmR"H?
 Policy Qualifier CPS
 Policy Qualifier User Notice
 Poll group handle bookkeeping bug!
 Polynomial:
 Pop ID '%s' appears more than once in the config.  (Possibly as an alias.)
 Port failure on %s was %.1fs ago.  Discarding record of failure on that port, might try again.
+Pr"V
 PrepareSessionRequest
 PrepareSessionRequest_ConfirmOK
 PrepareSessionRequest_ConfirmRecent
@@ -2866,13 +3675,10 @@ Private
 Private Key
 Private key doesn't match public key from cert
 Private key mismatch
-Private-Key: (%d bit)
+Private-Key: (%d bit)\n
 Privilege Withdrawn
 Probe
-Problem     :
-Problem     : Enum value did not match field type:    Expected  :
-Problem     : Field is not the right type for this message:    Expected  :
-Proc-Type:
+Proc-Type: 
 Proc-Type: 4,
 Processed thinkers %d times -- probably one thinker keeps requesting an immediate wakeup call.
 Processing a packet multiple times
@@ -2880,17 +3686,35 @@ Protobuf failed to parse
 Protobuf failed to parse CMsgSteamDatagramCertificateSigned
 Protobuf parse failed %s
 Protobuf parse failed.
-Protocol Buffer reflection usage error:  Method      : google::protobuf::Reflection::
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Certificate Information
-Public key
-Public key OCSP hash:
-Public-Key: (%d bit)
-Q
-Q:
-Qg*
-R
+Public Key
+Public key 
+Public-Key: (%d bit)\n
+P|iC\r
+Q$By5
+Q*hd
+Q/xtJ2
+Q4EX
+Q6p]
+Q9gZ
+QTk$
+QXzc
+Q`uV
+Qdsma
+Qg$ZO4Z
+Qj{Jd
+Qm_:R
+QoOG
+Qpr2
+Qs(8%
+QtJ\f?
+Q{qk
+R/Qs
+R5=D
+R=1C&b
 RAND lib
 RC2-40-CBC
 RC2-64-CBC
@@ -2902,7 +3726,10 @@ RC5-CBC
 RC5-CFB
 RC5-ECB
 RC5-OFB
+RD6O
 RDNS
+RE!r
+RE4\t
 REAL
 RFC 5639 curve over a 160 bit prime field
 RFC 5639 curve over a 192 bit prime field
@@ -2911,8 +3738,11 @@ RFC 5639 curve over a 256 bit prime field
 RFC 5639 curve over a 320 bit prime field
 RFC 5639 curve over a 384 bit prime field
 RFC 5639 curve over a 512 bit prime field
-RID
-RLE
+RFCY
+RH/Y
+RM~]qY
+RO%s.
+RP;e!
 RSA Data Security, Inc.
 RSA Data Security, Inc. PKCS
 RSA lib
@@ -2934,9 +3764,13 @@ RSASSA-PSS
 RSA_OAEP_PARAMS
 RSA_PSS_PARAMS
 RSA_blinding
+RX\r
+R\r1>Vp
+R]Di
 Ranges should not overlap in this map!
+Rbg.E
 Reached an unintended state: CPPTYPE_MESSAGE
-Reading dangerously large protocol message.  If the message turns out to be larger than
+Reading dangerously large protocol message.  If the message turns out to be larger than 
 ReceiveMessagesOnChannel
 ReceiveMessagesOnConnection
 ReceiveMessagesOnPollGroup
@@ -2947,32 +3781,32 @@ Received %s from %s with matching session/connection ID, but wrong client type!?
 Received CMsgSteamDatagramGameserverSessionEstablished from %s with unknown stale/invalid connection ID %u
 Received CMsgSteamDatagramP2PSessionEstablished from %s with unknown stale/invalid connection ID %u
 Received CMsgSteamDatagramP2PSessionEstablished without token?
-Received ConnectOK for ConnectionID %u to %s, but connection already closed.
-Received ConnectOK for ConnectionID %u to %s.
+Received ConnectOK for ConnectionID %u to %s, but connection already closed.\n
+Received ConnectOK for ConnectionID %u to %s.\n
 Received ConnectRequest in P2P rendezvous message, but we are the 'client'!
 Received GameserverSessionEstablished from %s for connection ID %u
-Received Steam datagram ticket for server %s vport %d.%s
+Received Steam datagram ticket for server %s vport %d.%s\n
 Received SteamNetworkingSocketsRecvP2PRendezvous_t, but no ISteamNetworkingSocketsSerialized?
 Received client message from %s using RelaySessionID %u for %s connection %u.  But previously that session was for client %s connection %u!  This is suspicious.  Unlinking that session from this connection.
 Received malformed %s from %s
 Received malformed CMsgSteamDatagramDiagnostic from %s
 Received message for connection %s associated with Messages interface, but no session.  Connection state is %d
 Received packet of invalid size %d from %s
-Received redundant ConnectOK for ConnectionID %u to %s.
+Received redundant ConnectOK for ConnectionID %u to %s.\n
 Received request to migrate to %s from %s.
 Received successful communication from Steam Datagram routing cluster.
 Received unexpected P2P 'non connection' signal
 Received unknown control message %d from %s
-Received unreliable msg %lld offset %d twice.  Sizes %d,%d
+Received unreliable msg %lld offset %d twice.  Sizes %d,%d\n
 ReceivedP2PCustomSignal
-Recv %s stats from %s for %s:%s
+Recv %s stats from %s for %s:%s\n
 RecvP2PBadRoute
 RecvPeerRoutes
 RecvUDPPacket
 Refreshing ping measurements
 Registered ID
 Registered duplicate config value %d
-Rejecting connection request from %s at %s, connection ID %u.  That steamID/ConnectionID pair already has a connection from %s
+Rejecting connection request from %s at %s, connection ID %u.  That steamID/ConnectionID pair already has a connection from %s\n
 Rejecting connection request from %s for unknown virtual port %d
 Relay %s downtime warning adjusted?  %.1f second earlier than before, %d seconds from now
 Relay %s is going offline in %d seconds
@@ -2997,14 +3831,12 @@ ReleaseMessage
 Reliable message number lurch.  Last reliable %lld, offset %llu, highest seen %lld
 Reliable message size %d too large.
 Reliable message size too large.  (%llu<<5 + %d)
-Remote host is in data center '%s'
 Remove From CRL
 RemoveLast
 Repeated fields can't have default values.
 Reply from %s timed out.  (Consecutive failure #%d.)
-Requested migration.
 Requesting cert
-Requesting cert for %s from Steam
+Requesting cert for %s from Steam\n
 Requesting session from %s.  Ping = %d+%d=%d (front+back=total).
 Require Explicit Policy
 Reserved reliable stream pos size
@@ -3012,19 +3844,39 @@ Retrying
 Retrying cert request
 Retrying ping measurements
 Revoked
+Rg4I
+RgD/X
+RoVZcz
+Route
 RouteCheck
-Router network: %s
+RouteException
+Router network: %s\n
 RouterPingReply
 RouterPingReply from %s latency lists not the same length.  %d vs %d.  Ignoring message
 RouterPingReply from %s, %dms
+RoutingCluster
+Rq[R
+RrBoN
+Rs$c~B
+RtIF
 Running in anonymous mode, can't get cert from Steam.
-S
+RxT\f0<1
+Rxy3
+RzQU
+S#FI
+S&x0
+S+Re
 S/MIME
 S/MIME CA
 S/MIME Capabilities
 S/MIME email
 S/MIME encryption
 S/MIME signing
+S0F_
+S8#w
+S<Fb
+S<hN-AO
+SDQn]
 SDR client %s
 SDR network config fetch attempt #%d failed.  %s.  But we do have a valid config, so SDR functionality is available.
 SDR network config fetch attempt #%d failed.  %s.  Giving up.  SDR functionality will not be available!
@@ -3042,19 +3894,19 @@ SDRClient_MinPingsBeforePingAccurate
 SDRClient_SingleSocket
 SDR_CERT
 SDR_IP
-SDR_IP = '%s'
+SDR_IP = '%s'\n
 SDR_IP='%s', which isn't a valid IP address
 SDR_LISTEN_PORT
-SDR_LISTEN_PORT = %s
+SDR_LISTEN_PORT = %s\n
 SDR_LISTEN_PORT is set, but SDR_NETWORK_CONFIG is not.  Fetching the network config using HTTP.
-SDR_LISTEN_PORT is set, but not SDR_CERT & SDR_PRIVATE_KEY.  Using a self-signed cert.  This is OK for dev, but should not happen in production!
+SDR_LISTEN_PORT is set, but not SDR_CERT & SDR_PRIVATE_KEY.  Using a self-signed cert.  This is OK for dev, but should not happen in production!\n
 SDR_LISTEN_PORT not set, should not call CreateHostedDedicatedServerListenSocket
 SDR_NETWORK_CONFIG
-SDR_POPID = '%s'
-SDR_POPID is set, but not SDR_PRIVATE_KEY/SDR_CERT!  Certs are required in production data centers.
-SDR_POPID=%s, but our cert is not valid for that PoP ID!
+SDR_POPID = '%s'\n
+SDR_POPID is set, but not SDR_PRIVATE_KEY/SDR_CERT!  Certs are required in production data centers.\n
+SDR_POPID=%s, but our cert is not valid for that PoP ID!\n
 SDR_PRIVATE_KEY
-SDR_PRIVATE_KEY/SDR_CERT are set, but not SDR_POPID!  We don't know what data center we are in.
+SDR_PRIVATE_KEY/SDR_CERT are set, but not SDR_POPID!  We don't know what data center we are in.\n
 SDR_PROBE_RELAY_INTERVAL
 SDR_PROBE_RELAY_INTERVAL_BUSY
 SECG curve over a 112 bit prime field
@@ -3075,12 +3927,12 @@ SEED-CBC
 SEED-CFB
 SEED-ECB
 SEED-OFB
-SEQ
 SEQWRAP
+SER<
 SETWRAP
+SEqS
 SMIME
 SMIME-CAPS
-SN
 SNMPv2
 SNP data chunk decode overflow, varint for %s
 SNP decode ack latest pktnum %lld (%llx mod %llx), but next outoing packet is %lld (%llx).
@@ -3089,10 +3941,14 @@ SNP decode first reliable stream pos underflow.  %llx mod %llx, expected next %l
 SNP decode overrun %d bytes for %s segment data.
 SNP decode overrun, %d bytes for %s
 SNP decode unreliable msgnum underflow.  %llx mod %llx, highest seen %llx
-SNP expiring unreliable segments for msg %lld, while receiving unreliable segments for msg %lld
+SNP expiring unreliable segments for msg %lld, while receiving unreliable segments for msg %lld\n
 SNP next think time must be in in the future.  It's %lldusec in the past
 SNP stop waiting reduced %lld (pkt %lld) -> %lld (pkt %lld)
 SNPFlushAcks
+SNtu
+SO~c
+SPEED
+SQ8_d`\
 SSL CA
 SSL Client
 SSL Server
@@ -3104,11 +3960,17 @@ SSL_CERT_FILE
 STEAMDATAGRAM CERT
 STEAMHTTP_INTERFACE_VERSION003
 STEAM_
+STRING
+SUWs
 SXNET
 SXNETID
 SXNetID
+S[TR
+S\vQN
+S_gO
 Salt Length: 0x
 Scheduled next think time must be in in the future.  It's %lldusec in the past
+Sd:z
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
 Secure Electronic Transactions
@@ -3123,20 +3985,21 @@ SendMessages
 SendRateMax
 SendRateMin
 SendUDPacket
-Sender sent abs latest recv pkt number using %llx mod %llx, next send %llx
-Sender sent abs unreliable message number using %llx mod %llx, highest seen %llx
-Sender sent reliable stream pos using %llx mod %llx, expected next %llx
-Sending ConnectRequest for ConnectionID %u to %s via primary relay %s.
-Sending ping probe to %s in %s
-Sep
-Serial Number:
+Sender sent abs latest recv pkt number using %llx mod %llx, next send %llx\n
+Sender sent abs unreliable message number using %llx mod %llx, highest seen %llx\n
+Sender sent reliable stream pos using %llx mod %llx, expected next %llx\n
+Sending ConnectRequest for ConnectionID %u to %s via primary relay %s.\n
+Sending ping probe to %s in %s\n
 Serialized inline stats message (%s) is %d bytes, still won't fit, ever after clearing connection quality stats?  %s
 Serialized stats message still won't fit, ever after clearing everything?
+Server
 Server must select exactly only one cipher!
-Service thread exiting.
-Service thread is not running, and manual poll mode was turned off, starting service thread.
-Service thread is running, and manual poll mode actiavted.  Stopping service thread.
-Service thread running.
+Service thread exiting.\n
+Service thread is not running, and manual poll mode was turned off, starting service thread.\n
+Service thread is running, and manual poll mode actiavted.  Stopping service thread.\n
+Service thread running.\n
+ServiceDescriptorProto
+ServiceOptions
 ServiceThread
 Session Idle Timeout
 SessionRequestCheck
@@ -3170,15 +4033,17 @@ Should not be called before calling SteamDatagramServer_Init.
 Shouldn't be receiving this unless on accepted connections, only connections initiated locally.
 Shouldn't be sending end-to-end connect request!  Connection was initiated remotely!
 Shouldn't need to ask this question
-Shutting down low level socket/threading support.
-Signature Algorithm:
+Shutting down low level socket/threading support.\n
 Signature has invalid length
 Signature verification failed
 Signed blob is %d bytes, won't fit in %d byte buffer
 Size mismatch after serializing inline stats blob
+Sn^G
 Socket was left open!
 Something wrong with m_nTotalPorts!
+SourceCodeInfo
 Specified only one of SDR_PRIVATE_KEY and SDR_CERT
+Sr89[
 St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
 St19_Sp_make_shared_tag
@@ -3308,38 +4173,43 @@ Stray data packet from host with no connection.  Ignoring.
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
-StringPrintfVector currently only supports up to
+StringPrintfVector currently only supports up to 
 Strong Extranet ID
 Subject Information Access
-Subject OCSP hash:
-Subject Public Key Info:
-Subject:%c
 Superseded
 Swap
 SwitchConfirm
 Symbol name "
-T
-T61
+T*8U
+T5w?30d
+T72[t
+TB)I
+TC\tf\
 TELETEXSTRING
 TLS Web Client Authentication
 TLS Web Server Authentication
+TM=U*
+TPS'
+TPk+L
 TRUE
 TRUSTED CERTIFICATE
 TS lib
 TSA server
+TXJw^{
 TYPE=
 The remote host closed the connection.
-The total number of bytes read was
+The total number of bytes read was 
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
 This is an S/MIME signed message%s%s
-This program requires version
-This program was compiled against version
+This program requires version 
+This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
 Ticket blob of %d bytes is too small to be valid
 Ticket has %d extra fields.  Only retaining the first %d
 Ticket has no routing information
 Ticket is missing AppID
 Ticket we're about to send to request session fails to parse back.  %s
+Tiid
 Time Stamp signing
 TimeWhenFlushAcks - we're shut down!
 Timed out attempting to connect
@@ -3360,9 +4230,7 @@ TimeoutConnected
 TimeoutInitial
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::Message*; From = const google::protobuf::MessageLite]
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::UninterpretedOption*; From = const google::protobuf::Message]
-Tokenizer::ParseFloat() passed text that could not have been tokenized as a float:
-Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer:
-Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string:
+To google::protobuf::internal::down_cast(From*) [with To = google::protobuf::Message*; From = google::protobuf::MessageLite]
 Told peer to stop acking up to %lld, but latest packet we have sent is %lld
 Too many connections.
 Too many expected acks!  Either we're sending packts requiring acks too fast, or else we're not expiring them properly
@@ -3372,7 +4240,7 @@ Tried to connect request, but crypt not ready
 Tried to lag a packet on a socket that has already been closed and is pending destruction!
 Tried to lag a packet that w as too big!
 Tried to make a pessimistic ping estimate without any ping data at all!
-Tried to merge messages of different types
+Tried to merge messages of different types 
 Tried to register a non-generated type with the generated type registry.
 Tried to use encrypted OpenSSH private key
 True
@@ -3381,22 +4249,39 @@ Trusted root is hardcoded, cannot add more self-signed certs
 Trying to accept when we already have transport?
 Trying to close low level socket support, but we still have sockets open!
 Trying to connect when we already have a socket?
-Trying to send a very large (%d bytes) unreliable message.  Sending as reliable instead.
-Type appears to be in generated pool but wasn't
-Type is already registered:
-U
+Trying to send a very large (%d bytes) unreliable message.  Sending as reliable instead.\n
+Tu\t(OR
+Type
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
+Tz$o
+T~a@E
+U RDn
+U).ovc
+U)l:T^8rv\n
+U0Es
+U13\v9}
+U79Pc
+U7{8+S
+U?Y5qX}\tf
 UDP %s
 UDP %s@%s
+UEax
+UFJ\ns
 UNDEF
 UNIV
 UNRELIABLE
-URI
 URI:%s
 USERNOTICE
-UTC
-UTF-8 data when
+UTF-8 data when 
 UTF8
 UTF8String
+UUUUUUUUUUUUUU<o(
+UUUUUUUUUUUa\f\v
+U^Pg
+U`2d
+Ugi<
+UiCL
 Unable to accept connection from %s.  %s
 Unable to communicate with ANY of %d Steam Datagram routing cluster.  Possible problem with local internet connection?
 Unable to create a bound socket on the shared socket.
@@ -3408,12 +4293,13 @@ Unauthenticated connections not allowed.
 Unencrypted
 Unexpected AvailAnyRouterCommunication %d
 Unexpected NoConnection
-Unexpected failure while serializing option submessage
+Unexpected failure while serializing option submessage 
 Unexpected g_eAvailAnyRelay %d while ping measurement in progress
 Unexpected g_eAvailNetworkConfig %d
 Unexpected valid ping count %d
 Unexpected value for 'Unencrypted' config value
-Unimplemented type:
+Unimplemented type: 
+UninterpretedOption
 Universe changing %d -> %d?
 Unknown GameID type
 Unknown callback type %d!
@@ -3421,7 +4307,7 @@ Unknown control message
 Unknown enumeration value of "
 Unknown extra field type %d
 Unknown network config availability %d
-Unprocessed type %d
+Unprocessed type %d\n
 Unrecognized identity format
 Unrecognized identity format.  (%d unknown field(s), first ID=%d)
 Unrecognized identity type %d
@@ -3430,12 +4316,27 @@ Unspecified
 Unsupported DH key type
 Unsupported key type %d
 Unused
-Using cert from SDR_PRIVATE_KEY and SDR_CERT environment vars
-V
+Using cert from SDR_PRIVATE_KEY and SDR_CERT environment vars\n
+Ut]<E
+Uv1t
+Uz_G3=
+U|Ei
+V07;m
+V3 s
+V5u f
+V8zc5\e
+VDPr
+VF+c
+VGG@
 VIDEOTEXSTRING
 VISIBLE
-Validity
-Value
+VIgq qC:
+VM%G]f
+VRa\r
+VY5[;o
+V\rKk
+V_a|I
+Value 
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
 Value must be identifier for enum-valued option "
@@ -3449,25 +4350,49 @@ Value must be quoted string for string option "
 Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
-Verify failure
+VbfOc,p
+Vcsc 
+Vemn\t
+Verify failure\n
 Verifying - %s
+Vg3LE
+VggjeK uO5n
 Virtual port number must be a small, positive number
-Virtual port number should be a small, non-negative number
+Virtual port number should be a small, non-negative number\n
 Virtual port number should be a small, positive number
-W
+Vp>u
+Vql4
+Vt_9
+V~~Vq
+W!Uf
+W"Fe~
+W%0Qv4AV
+W'6S`
+W2Q=
+W3fp
+W3i+,
+W>peSp>9
 WARNING
 WARNING: Hardcoded trust key is in revocation list.  We won't be able to trust anything, ever!
 WARNING: Relay at %s is only trusted because of whitelist from network config!  Msg 0x%02x.  If this was a newly deployed relay, we would have dropped this!
+WD%g"0Q-)
 WIN32
+WL6e}:
+WLs6
+WOCR
+WP4$!
+WRw[
 WTLS curve over a 112 bit prime field
 WTLS curve over a 113 bit binary field
 WTLS curve over a 160 bit prime field
 WTLS curvs over a 224 bit prime field
+WZTR
+W\noB
 Waited %.1fms for SteamNetworkingSockets lock
 Waited %lldusec to take second lock on the same thread??
 Waiting
 Waiting for Steam login
-Warning parsing text-format
+Warning parsing text-format 
 Warning: Unused import: "
 We are pursuing a session on cluster %s, but that cluster is relay type %d.  Why are we doing this?
 We are the 'client' who initiated the connection, so 'server' shouldn't be sending us this!
@@ -3489,10 +4414,14 @@ We shouldn't be asking about sending packets when not fully connected
 We shouldn't be trying to think SNP when not fully connected
 We shouldn't get this callback after being canceled!
 We're not logged into Steam
+We_A0
 Weird RouterPingReply timestamps from %s.  Reply contained %u, current is %u (elapsed %d)
+WfMD{
 Why are making API calls on this connection?
 Why are we asking this?
-X
+Wmn|CH
+Wn4'
+WrgoI
 X400Name
 X400Name:<unsupported>
 X500
@@ -3569,90 +4498,150 @@ X9_62_CURVE
 X9_62_FIELDID
 X9_62_PENTANOMIAL
 X9cm
-Y
-You must type in
+X:vS
+XBB0a
+XB`i|
+XD{p7
+XFle
+XG[r
+XH1l
+XLuC'4
+XMM{*
+XMd~w
+XNU`{3
+XWY]
+XYD%
+X\tQo
+Xd3h
+Xe7H&e
+XfJ7
+XjfR
+XqgA+
+Xuub
+Xw:vP
+XwA0
+Xz"7
+X|IQ
+Y-Ny
+Y1qh
+Y4i%
+Y93a=7c@
+Y;C;8V
+YGi\n
+YH%c
+YMI( 
+YS1n
+YU=E
+YWQa:B
+Y\f\vtw
+Y\vQlJ
+Y`\fpV
+Yb6N4
+YbKh
+Ydh-
+Ye80D=
+YeKlt
+Ye\B
+YedcCH}
+Ykg"
+You must type in 
 You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
 Your ping location string buffer is too small, truncation is possible
-Z
+Ys/MA
+YsRX
+Z"T-47\f8
+Z#Pe
+Z+5AS
+Z0zd
+Z7"c
+Z72\v
+Z:hluv
+ZF]:Ba?
+ZH^r
+ZL9L
 ZLIB
 ZLONG
-[
-[$0]
-[%02d:%02d:%02d]
-[%s]   decode pkt %lld ack last block ack begin %lld
-[%s]   decode pkt %lld latest recv %lld
-[%s]   decode pkt %lld nack [%lld,%lld) ack [%lld,%lld)
-[%s]   decode pkt %lld peer reliable pos = %lld
-[%s]   decode pkt %lld reliable range [%lld,%lld)
+ZSz@
+ZXF,`i
+Zd[w
+ZjLS
+Zod6
+Zpwz
+Z~wl
+[%02d:%02d:%02d] 
+[%s]   decode pkt %lld ack last block ack begin %lld\n
+[%s]   decode pkt %lld latest recv %lld\n
+[%s]   decode pkt %lld nack [%lld,%lld) ack [%lld,%lld)\n
+[%s]   decode pkt %lld peer reliable pos = %lld\n
+[%s]   decode pkt %lld reliable range [%lld,%lld)\n
 [%s]   decode pkt %lld stop waiting: %lld (was %lld)
-[%s]   decode pkt %lld valid reliable bytes = %d [%lld,%lld)
-[%s]   encode pkt %lld last recv %lld (%d blocks, actual last recv=%lld)
-[%s]   encode pkt %lld last recv %lld (no blocks, actual last recv=%lld)
-[%s]   encode pkt %lld last recv %lld (no loss)
-[%s]   encode pkt %lld nack [%lld,%lld) ack [%lld,%lld)
-[%s]   encode pkt %lld reliable msg %lld offset %d+%d=%d range [%lld,%lld)
+[%s]   decode pkt %lld valid reliable bytes = %d [%lld,%lld)\n
+[%s]   encode pkt %lld last recv %lld (%d blocks, actual last recv=%lld)\n
+[%s]   encode pkt %lld last recv %lld (no blocks, actual last recv=%lld)\n
+[%s]   encode pkt %lld last recv %lld (no loss)\n
+[%s]   encode pkt %lld nack [%lld,%lld) ack [%lld,%lld) \n
+[%s]   encode pkt %lld reliable msg %lld offset %d+%d=%d range [%lld,%lld)\n
 [%s]   encode pkt %lld stop_waiting offset %lld = %lld
-[%s]   encode pkt %lld unreliable msg %lld offset %d+%d=%d
-[%s]   updating min_waiting_on_ack %lld -> %lld
-[%s] %d reply timeouts, last recv %.1fms ago.  Sending keepalive.
-[%s] %s
+[%s]   encode pkt %lld unreliable msg %lld offset %d+%d=%d\n
+[%s]   updating min_waiting_on_ack %lld -> %lld\n
+[%s] %d reply timeouts, last recv %.1fms ago.  Sending keepalive.\n
 [%s] %s (%s) appears preferable to current primary %s (%s), but we aren't sure.  Pinging current primary.
 [%s] %s (%s) appears preferable to current primary %s (%s), but we aren't sure.  Pinging new proposed primary.
-[%s] %s=%s
+[%s] %s=%s\n
 [%s] AcceptConnection put the connection into state %d
 [%s] Cannot accept connection, current state is %d.
 [%s] Cannot accept connection; already closed by remote host.
-[%s] Cannot use unsigned cert; failing connection.
-[%s] Client switching active relay %s -> %s (msgID %d)
+[%s] Cannot use unsigned cert; failing connection.\n
+[%s] Client switching active relay %s -> %s (msgID %d)\n
 [%s] ConnectionTimedOut didn't do what it is supposed to! (%d -> %d)
 [%s] ConnectionTimedOut didn't do what it is supposed to, state=%d!
-[%s] Continuing with self-signed cert.
-[%s] Deselecting active session #%d.  We no longer have a route through that cluster.  Previous route went through remote relay in '%s'
+[%s] Continuing with self-signed cert.\n
+[%s] Deselecting active session #%d.  We no longer have a route through that cluster.  Previous route went through remote relay in '%s'\n
 [%s] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number is OK?
 [%s] Forgetting relay session %s.  Last communication was %.1f seconds ago
-[%s] Got P2P signal from %s.  Wrong connection type!
-[%s] Got P2P signal from wrong remote identity '%s'
+[%s] Got P2P signal from %s.  Wrong connection type!\n
+[%s] Got P2P signal from wrong remote identity '%s'\n
 [%s] Ignoring really large ping estimate %u in connect request
 [%s] Malformed MsgSteamDatagramDataRouterToClient from %s: protobuf failed to parse inline stats message
-[%s] P2P route through '%s' now forwarding to '%s', revision %d
+[%s] P2P route through '%s' now forwarding to '%s', revision %d\n
 [%s] Packet data chunk failed to decrypt!  Could be tampering/spoofing or a bug.
 [%s] Peer acked our routes for revision %u, but our latest revision is %u!
-[%s] RATELIM QueueTime is %.1fms, SendRate=%.1fk, BytesQueued=%d
-[%s] RX msg %lld offset %d+%d=%d %02x ... %02x
-[%s] Received ConnectOK in P2P Rendezvous from %s.
-[%s] Received NoSession from %s, RelaySessionID=%u.  Discarded relay session (remote conn #%u).  %d session(s) remain to talk to this client
-[%s] Received NoSession from %s, RelaySessionID=%u.  Ignoring, since remote client connection ID #%u is incorrect, correct connection ID is #%u
-[%s] Received P2P routes ack for revision %u (latest revision is %u).
-[%s] Received P2P routes, revision %u.  Contains %u clusters and %u routes
-[%s] Received P2PBadRoute from %s regarding peer's session on cluster %s.  Clearing session in our copy of peer's routing candidates.
-[%s] Received P2PBadRoute from %s.  Ignored, since we aren't using the bad remote session token.  (Maybe already cleared it.)
+[%s] RATELIM QueueTime is %.1fms, SendRate=%.1fk, BytesQueued=%d\n
+[%s] RX msg %lld offset %d+%d=%d %02x ... %02x\n
+[%s] Received ConnectOK in P2P Rendezvous from %s.\n
+[%s] Received NoSession from %s, RelaySessionID=%u.  Discarded relay session (remote conn #%u).  %d session(s) remain to talk to this client\n
+[%s] Received NoSession from %s, RelaySessionID=%u.  Ignoring, since remote client connection ID #%u is incorrect, correct connection ID is #%u\n
+[%s] Received P2P routes ack for revision %u (latest revision is %u).\n
+[%s] Received P2P routes, revision %u.  Contains %u clusters and %u routes\n
+[%s] Received P2PBadRoute from %s regarding peer's session on cluster %s.  Clearing session in our copy of peer's routing candidates.\n
+[%s] Received P2PBadRoute from %s.  Ignored, since we aren't using the bad remote session token.  (Maybe already cleared it.)\n
 [%s] Received P2PSessionEstablished from %s
-[%s] Received Stats while in state %d.  Rejecting packet with ConnectionClosed message.
-[%s] Received end-to-end P2PStats while in the 'FindingRoute' state.
-[%s] Received invalid routes in P2P stats message from %s
-[%s] Recv %s stats:%s
-[%s] Recv P2PRendezvous
-[%s] RecvMessage MsgNum=%lld sz=%d
-[%s] Recvd %s stats from %s:%s
-[%s] Relay %s acked routing forwarding revision %u.
-[%s] Relay %s acking wrong routing forwarding revision (%u instead of %u); forcing re-ack.
-[%s] Remote host is using an unsigned cert.  Allowing connection, but it's not secure!
-[%s] Reply timeout, last recv %.1fms ago.  Sending keepalive.
-[%s] Route through '%s' is '%s'
-[%s] Route through '%s' is now '%s' (was '%s')
-[%s] Routes recalculated (%s).  No relevant change, revision %d.
-[%s] Routes through '%s' to '%s'  lost.  No P2P route available through that cluster
-[%s] Routes updated (%s), now at revision %d.
+[%s] Received Stats while in state %d.  Rejecting packet with ConnectionClosed message.\n
+[%s] Received end-to-end P2PStats while in the 'FindingRoute' state.\n
+[%s] Received invalid routes in P2P stats message from %s\n
+[%s] Recv %s stats:%s\n
+[%s] Recv P2PRendezvous\n
+[%s] RecvMessage MsgNum=%lld sz=%d\n
+[%s] Recvd %s stats from %s:%s\n
+[%s] Relay %s acked routing forwarding revision %u.\n
+[%s] Relay %s acking wrong routing forwarding revision (%u instead of %u); forcing re-ack.\n
+[%s] Remote host is using an unsigned cert.  Allowing connection, but it's not secure!\n
+[%s] Reply timeout, last recv %.1fms ago.  Sending keepalive.\n
+[%s] Route through '%s' is '%s'\n
+[%s] Route through '%s' is now '%s' (was '%s')\n
+[%s] Routes recalculated (%s).  No relevant change, revision %d.\n
+[%s] Routes through '%s' to '%s'  lost.  No P2P route available through that cluster\n
+[%s] Routes updated (%s), now at revision %d.\n
 [%s] Selecting %s as backup #%d (%s)
 [%s] Selecting %s as primary.  (%s)
-[%s] SendMessage %s: MsgNum=%lld sz=%d
-[%s] Sending P2P ConnectOK via Steam, remote cxn %u
-[%s] Sending P2P ConnectRequest via Steam
-[%s] Sending P2PRendezvous (%s)
-[%s] Sending graceful P2P ConnectionClosed, remote cxn %u
-[%s] Sent %s stats:%s
-[%s] Sent P2P %s to %s, but we have reason to believe that it might not get through end-to-end.  Also sending via steam
-[%s] Sent stats (%s) via %s:%s
+[%s] SendMessage %s: MsgNum=%lld sz=%d\n
+[%s] Sending P2P ConnectOK via Steam, remote cxn %u\n
+[%s] Sending P2P ConnectRequest via Steam\n
+[%s] Sending P2PRendezvous (%s)\n
+[%s] Sending graceful P2P ConnectionClosed, remote cxn %u\n
+[%s] Sent %s stats:%s\n
+[%s] Sent P2P %s to %s, but we have reason to believe that it might not get through end-to-end.  Also sending via steam\n
+[%s] Sent stats (%s) via %s:%s\n
 [%s] Sent stats for reason '%s', but still need to send for reason '%s'
 [%s] Sequence number from relay is duplicate or old, and end-to-end sequence number is duplicate or old or fails to decrypt
 [%s] Sequence number from relay is duplicate or old, but end-to-end sequence number is OK?
@@ -3660,72 +4649,293 @@ ZLONG
 [%s] StatsRouterToServer: Discarding end-to-end packet number %lld (latest %lld), but relay pkt num is OK %lld (last %lld)
 [%s] Switched primary to %s (%s) from %s (%s)
 [%s] Switched to backup #%d %s (%s) as primary, from %s (%s)
-[%s] Timed out.  %.1fms since last recv, %.1fms since timeout started, %d consecutive failures
-[%s] Timed out.  Cannot send end-to-end.  %.1fms since last recv, %d consecutive failures
+[%s] Timed out.  %.1fms since last recv, %.1fms since timeout started, %d consecutive failures\n
+[%s] Timed out.  Cannot send end-to-end.  %.1fms since last recv, %d consecutive failures\n
 [%s] Trying to send a packet via steam datagram when no network configuration is available.
 [%s] Trying to send a packet via steam datagram, but we have lost connectivity to all relays.  Check your Internet connection.  Cannot send packet.
 [%s] Trying to send a packet via steam datagram, but we have not yet established a session on any relays.  This is common for the first few packets, but is a problem if it persists.
 [%s] Trying to send a packet via steam datagram, but we were never able to establish connectivity with any relays.  Check your Internet connection.  Cannot send packet.
-[%s] We have sessions and just received stats, but we cannot select a session as active?
-[%s] closed by peer
-[%s] connected
-[%s] decode pkt %lld
-[%s] decode pkt %lld abort.  %lld bytes reliable data buffered [%lld-%lld), new size would be %lld to %lld
-[%s] decode pkt %lld abort.  Reliable stream already has %d fragments, first is [%lld,%lld), last is [%lld,%lld), new segment is [%lld,%lld)
-[%s] decode pkt %lld abort.  Reliable stream already has %d fragments, first is [%lld,%lld), last is [%lld,%lld).  We don't want to fragment [%lld,%lld) with new segment [%lld,%lld)
-[%s] decode pkt %lld empty reliable segment?
-[%s] decode pkt %lld latest recv %lld delay %.1fms elapsed %.1fms ping %dms
-[%s] decode pkt %lld latest recv %lld delay %lluusec INVALID ping %lldusec
+[%s] We have sessions and just received stats, but we cannot select a session as active?\n
+[%s] closed by peer\n
+[%s] connected\n
+[%s] decode pkt %lld abort.  %lld bytes reliable data buffered [%lld-%lld), new size would be %lld to %lld\n
+[%s] decode pkt %lld abort.  Reliable stream already has %d fragments, first is [%lld,%lld), last is [%lld,%lld), new segment is [%lld,%lld)\n
+[%s] decode pkt %lld abort.  Reliable stream already has %d fragments, first is [%lld,%lld), last is [%lld,%lld).  We don't want to fragment [%lld,%lld) with new segment [%lld,%lld)\n
+[%s] decode pkt %lld empty reliable segment?\n
+[%s] decode pkt %lld latest recv %lld delay %.1fms elapsed %.1fms ping %dms\n
+[%s] decode pkt %lld latest recv %lld delay %lluusec INVALID ping %lldusec\n
 [%s] decode pkt %lld, first packet in gap, reduced to [%lld,%lld)
 [%s] decode pkt %lld, gap split [%lld,%lld) and [%lld,%lld)
 [%s] decode pkt %lld, last packet in gap, reduced to [%lld,%lld)
 [%s] decode pkt %lld, single pkt gap filled
-[%s] discarding pkt %lld
+[%s] decode pkt %lld\n
+[%s] discarding pkt %lld\n
 [%s] drop %d pkts [%lld-%lld)
 [%s] encode pkt %lld
-[%s] finding route
-[%s] pkt %lld %s, queueing retry of reliable range [%lld,%lld)
-[%s] problem detected locally (%d): %s
-[%s] received data packet from relay %s while in the 'FindingRoute' state.  Marking connection as connected
-[%s] received e2e stats while in Connecting state.  Resending ConnectRequest.
+[%s] finding route\n
+[%s] pkt %lld %s, queueing retry of reliable range [%lld,%lld)\n
+[%s] problem detected locally (%d): %s\n
+[%s] received data packet from relay %s while in the 'FindingRoute' state.  Marking connection as connected\n
+[%s] received e2e stats while in Connecting state.  Resending ConnectRequest.\n
 [%s] stats disconnected, but in state %d?
-[%s]:%u
 [A:%u:%u:%u]
-[C:%u:%u]
-[G:%u:%u]
+[D55
 [HEX DUMP]:
-[I:%u:%u]
-[L:%u:%u]
+[HTiW
 [M:%u:%u:%u]
-[P:%u:%u]
-[T:%u:%u]
-[TRACE %s] Recv %s (0x%02x):%s
-[TRACE %s] Send %s (0x%02x):%s
+[OdP
+[S2k
+[TRACE %s] Recv %s (0x%02x):\n%s\n
+[TRACE %s] Send %s (0x%02x):\n%s\n
 [U:%u:%u:%u]
-[U:%u:%u]
-[[%s]]
-[a:%u:%u]
-[c:%u:%u]
-[default = $0
-[g:%u:%u]
-[i:%u:%u]
+[\nr5Z
+[buf_str.c
+[f7@7F
+[fo@e
 [lazy = true] can only be specified for submessage fields.
-[libprotobuf %s %s:%d] %s
+[libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
-\
+[uCu
+[ucS
+[ve,P
+[y_GE
 \%02X
 \%03o
+\1kYL\r
+\43n7
+\5Ok\n
+\6Sp
+\Nbl
 \U%04lX
 \U%08x
 \W%08lX
-\\
+\Y|W2
+\\MVT
+\\n\nExtraField
+\f"ICEqn.s
+\f%\f/\f1\fA\f[\f_\fa\fm\fs\fw\f
+\f1 VC
+\f7ig
+\fGB z
+\fKS1
+\fW9c
+\fXu"L
+\f]ne3
+\fdhWTh
+\fiaR
+\ful2
+\fy&3Gl
+\l:ArR
+\n            Not After : 
+\n        Public key OCSP hash: 
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n CMsgSteamDatagramDataCenterState
+\n CMsgSteamDatagramRelayAuthTicket
+\n CMsgSteamDatagramRouterPingReply
+\n google/protobuf/descriptor.proto
+\n steamdatagram_messages_sdr.proto
+\n!CMsgSteamDatagramConnectionClosed
+\n!CMsgSteamDatagramRelayToRelayPing
+\n!CMsgSteamDatagramSessionCryptInfo
+\n!\n1\n9\n=\nI\nW\na\nc\ng\no\nu\n{\n
+\n!steamdatagram_messages_auth.proto
+\n"CMsgSteamDatagramConnectionQuality
+\n"CMsgSteamDatagramLinkLifetimeStats
+\n#CMsgSteamSockets_UDP_ChallengeReply
+\n#CMsgSteamSockets_UDP_ConnectRequest
+\n$CMsgSteamDatagramGameserverPingReply
+\n%*s            
+\n%*sExtensions: 
+\n%*sLog ID    : 
+\n%*sSignature : 
+\n%*sTimestamp : 
+\n%*sVersion   : 
+\n%*sZone: %s, User: 
+\n%12s%s
+\n%CMsgSteamDatagramNoSessionRelayToPeer
+\n%CMsgSteamSockets_UDP_ConnectionClosed
+\n%steamnetworkingsockets_messages.proto"
+\n&CMsgSteamDatagramClientPingSampleReply
+\n&CMsgSteamDatagramClientSwitchedPrimary
+\n&CMsgSteamDatagramGameserverPingRequest
+\n&CMsgSteamDatagramP2PSessionEstablished
+\n&CMsgSteamDatagramP2PSessionRequestBody
+\n'CMsgSteamDatagramLinkInstantaneousStats
+\n'CMsgSteamDatagramNoSessionRelayToClient
+\n'CMsgSteamNetworkingIdentityLegacyBinary
+\n)CMsgSteamDatagramGameserverSessionRequest
+\n)steamnetworkingsockets_messages_udp.proto
+\n*CMsgSteamDatagramP2PBadRouteRouterToClient
+\n+CMsgSteamDatagramGameCoordinatorServerLogin
+\n+steamnetworkingsockets_messages_certs.proto"
+\n-CMsgSteamDatagramGameserverSessionEstablished
+\n.CMsgSteamDatagramConnectionStatsClientToRouter
+\n.CMsgSteamDatagramConnectionStatsRouterToClient
+\n.CMsgSteamDatagramConnectionStatsRouterToServer
+\n.CMsgSteamDatagramConnectionStatsServerToRouter
+\n1CMsgSteamDatagramConnectionStatsP2PClientToRouter
+\n1CMsgSteamDatagramConnectionStatsP2PRouterToClient
+\n1CMsgSteamDatagramConnectionStatsP2PRouterToRouter
+\n1CMsgSteamDatagramSignedGameCoordinatorServerLogin
+\n5a=Z
+\nO1Ie
+\n\fClosedByPeer
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fca_signature
+\n\fdouble_value
+\n\fis_extension
+\n\fjava_package
+\n\fmy_timestamp
+\n\fpackets_recv
+\n\fpackets_sent
+\n\frequest_date
+\n\fstring_value
+\n\ftime_created
+\n\fvia_relay_id
+\n\fvirtual_port
+\n\nCURVE25519
+\n\nDataCenter
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\nend_to_end
+\n\nfront_ping
+\n\ngo_package
+\n\ninput_type
+\n\nkludge_pad
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rclient_cookie
+\n\rconnection_id
+\n\rdata_pkts_sec
+\n\rdatacenter_id
+\n\rdefault_value
+\n\rfixed64_value
+\n\rfrom_identity
+\n\rfront_ping_ms
+\n\rgeneric_bytes
+\n\ripv6_and_port
+\n\rpeer_steam_id
+\n\rrelay_tickets
+\n\rscore_penalty
+\n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
+\n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
+\n\tack_relay
+\n\tback_ping
+\n\tca_key_id
+\n\tchallenge
+\n\tdummy_pad
+\n\tfrom_port
+\n\tmy_pop_id
+\n\tname_part
+\n\tpublic_ip
+\n\tsignature
+\n\ttype_name
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\ve2e_ping_ms
+\n\vint64_value
+\n\voneof_index
+\n\voutput_type
+\n\vping_est_ms
+\n\vprivate_key
+\n\vreason_code
+\n\vrxspeed_max
+\n\vseq_num_c2r
+\n\vseq_num_e2e
+\n\vseq_num_r2c
+\n\vseq_num_r2r
+\n\vseq_num_r2s
+\n\vseq_num_s2r
+\n\vserver_time
+\n\vsigned_data
+\n\vtime_expiry
+\n\vto_identity
+\n\vtxspeed_max
+\n\vyour_pop_id
+\nqYu
+\ntM(ie-V
+\r!\r+\r-\r=\r?\rO\rU\ri\ry\r
+\r@h!Aq8
+\rB6uZ
+\rEuR 
+\rKT8v
+\rMinghuaQu\f
+\rTxL
+\rUHz4Z}\r
+\rWhO
+\rY=QX
+\rYYHl
+\r\n\tCODE_SIZE
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
+\r\vpL1
+\r^mX
+\ri1I
+\rjwB\t
+\roKK
+\rrCj
+\t#\t%\t+\t/\t5\tC\tI\tM\tO\tU\tY\t_\tk\tq\tw\t
+\t,L2y
+\tBbj
+\tJm_9
+\tLa0+
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t00000000000000007777777777777777cons: 
+\toRE
+\t}BzJ88
+\v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
+\vBCeA
+\vGt5
+\vNCE\v
+\vUY6[E
+\vj0k
+\vjC7
+\vssh-ed25519
 \x%02x
-]
-^
-_
+]1h=bfz
+]FhSD}
+]GT7]
+]G\nY1
+]MSd
+][LK~lO
+]gy73
+^.om5r
+^CuY
+^DQQI
+^DnJ
+^DqPt
+^J_spY
+^Nij
+^QyY
+^RB!r
+_Ek6b]
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
+_Lx6
+_YWL
 _ZNKSs13find_first_ofEPKcm@@GLIBCXX_3.4
 _ZNKSs17find_first_not_ofEPKcm@@GLIBCXX_3.4
 _ZNKSs2atEm@@GLIBCXX_3.4
@@ -3886,16 +5096,43 @@ __vfprintf_chk
 __vfprintf_chk@@GLIBC_2.3.4
 __vsnprintf_chk
 __vsnprintf_chk@@GLIBC_2.3.4
+_a7C
 _edata
 _end
 _fini
 _init
-`
-`'
-a
-a protocol
-a+
+_jPo
+_rDd
+_}eOk
+`28)fk
+`:zQF
+`DZG
+`ITS
+`URp
+`VX:H
+`YfA
+`fPw.\vM
+`h9T~
+`o_je
+`yNT
+a(hq
+a4H>
+a5<p
+a;Tg
+a@XZ
+aA0k
+aD/x
+aF<7u
+aGw\t4*
+aMo^
+aPw0
+aRWZ5
+aRe.
 aRecord
+aXvC
+a\n\rRouterQuality
+a\v3rB
+a]?xG
 a_bitstr.c
 a_bool.c
 a_bytes.c
@@ -3926,12 +5163,13 @@ ack block header
 ack delay
 ack latest pktnum
 ack num blocks
-ack_relay
-ack_relay_fwd_target
-ack_routes
+ack_forward_target_revision
+ack_peer_routes_revision
+active_sessions
 ad dvcs
 ad_timestamping
 additional verification
+address
 address=
 aes(partial)
 aes-128-cbc
@@ -3969,16 +5207,21 @@ aes-256-ecb
 aes-256-gcm
 aes-256-ofb
 aes-256-xts
+aevF~
 affiliationChanged
 aggregate_value
+ai`UJ4\f
 alias
 aliases
 always
 ameth_lib.c
 ansi-X9-62
-any
 anyExtendedKeyUsage
 anyPolicy
+app_id
+app_ids
+appdata
+appid
 appl [ %d ]
 application/pkcs7-
 application/pkcs7-mime
@@ -3986,13 +5229,14 @@ application/pkcs7-signature
 application/x-pkcs7-
 application/x-pkcs7-mime
 application/x-pkcs7-signature
+aql*
+arPf
 archiveCutoff
-args were given.  Full format string was: "
-arguments.
 array_ != __null
 asn1
 asn1 encoding routines
 asn1 length mismatch
+asn1_gen.c
 asn1_lib.c
 asn_mime.c
 asn_pack.c
@@ -4004,10 +5248,25 @@ audio
 authorityInfoAccess
 authorityKeyIdentifier
 authorityRevocationList
+authorized_public_ip
 authsafes
-b
+awO8
+axfb5
+aybSr
+a|G2
+a|gj(
+a|w9i
 b <= sizeof(ctx->buf)
 b <= sizeof(ctx->final)
+b0M%
+b5o-
+b=G3
+bGu\r
+bPb:L7X)
+bSh&+
+bV}TS
+b\fzUkm
+b]jY
 b_print.c
 bad asn1 object header
 bad get asn1 object call
@@ -4022,6 +5281,9 @@ bf-cfb
 bf-ecb
 bf-ofb
 bf_buff.c
+bgD$
+bh.b|C
+bie.+
 bignum routines
 bind
 bind@@GLIBC_2.2.5
@@ -4032,8 +5294,8 @@ bio_lib.c
 bio_ndef.c
 biometricInfo
 bl <= (int)sizeof(ctx->buf)
-bn
-bn(%d,%d)
+bmMV
+bmNP
 bn_blind.c
 bn_ctx.c
 bn_div.c
@@ -4041,14 +5303,18 @@ bn_exp.c
 bn_exp2.c
 bn_gcd.c
 bn_gf2m.c
+bn_lib.c
+bn_mod.c
 bn_mont.c
 bn_print.c
 bn_rand.c
 bn_recp.c
 bn_shift.c
 bn_sqrt.c
+body
 bool
 boundary
+bpFh
 brainpoolP160r1
 brainpoolP160t1
 brainpoolP192r1
@@ -4066,14 +5332,16 @@ brainpoolP512t1
 broadcast
 bss_file.c
 bss_mem.c
-buffer. Use the 'bytes' type if you intend to send raw
+bt1+
+bu\N
+buffer. Use the 'bytes' type if you intend to send raw 
+buffer.c
 buildingName
 businessCategory
+bvVd
 bytes
-bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
-bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
-bytes.
-c
+bytes. 
+c2\f?C\t
 c2onb191v4
 c2onb191v5
 c2onb239v4
@@ -4094,9 +5362,16 @@ c2tnb239v2
 c2tnb239v3
 c2tnb359v1
 c2tnb431r1
+c51.l
+c5@O
 cACertificate
+cL;p
 cNAMERecord
+cNUGK
+cO!r
 cRLSign
+c\r1m
+c`FE%
 caIssuers
 caRepository
 called a function that was disabled at compile-time
@@ -4124,6 +5399,9 @@ cast5-cbc
 cast5-cfb
 cast5-ecb
 cast5-ofb
+cc_generic_services
+cdP%
+cert
 certBag
 certId
 certStatus
@@ -4139,15 +5417,23 @@ certs-only
 cessationOfOperation
 challenge
 challengePassword
+challenge_time
 characteristic-two-field
-characters
+chc1
+checksum
+ci;e*
+ciO"A
 cipher
+ciphers
 clearance
 cleartext track 2
 clientAuth
+client_connection_id
+client_identity_string
+client_timestamp
 clock_gettime
 clock_gettime@@GLIBC_2.2.5
-close() failed:
+close() failed: 
 close@@GLIBC_2.2.5
 closed by peer
 cluster %s comms_disrupted
@@ -4161,6 +5447,7 @@ cluster_data_rebuild
 clusters:{
 cmac
 cmac.c
+cms_dd.c
 cms_enc.c
 cms_env.c
 cms_io.c
@@ -4168,9 +5455,12 @@ cms_kari.c
 cms_lib.c
 cms_pwri.c
 cms_sd.c
+co7S
+code
 codeSigning
 coefficient:
 cofactor
+com.google.protobufB
 common libcrypto routines
 commonName
 compatible
@@ -4183,12 +5473,13 @@ conf_mod.c
 configuration file routines
 connect
 connect@@GLIBC_2.2.5
+connect_request
+connection_closed
 consecutive_ping_timeout
 const google::protobuf::UnknownFieldSet& google::protobuf::UnknownField::group() const
 const string& google::protobuf::UnknownField::length_delimited() const
 const string& google::protobuf::internal::GetEmptyStringAlreadyInited()
 cont [ %d ]
-contains invalid
 content types
 content-type
 contentEncryptionAlgorithm
@@ -4200,6 +5491,11 @@ counter
 counter:
 countersignature
 countryName
+cpLm
+cpu_cost_per_packet
+cpu_cost_per_user
+cpu_load
+cq#p
 critical
 critical,
 crlBag
@@ -4211,6 +5507,8 @@ crlUrl
 crls
 crlsign
 crossCertificatePair
+crypt
+cryptlib.c
 cryptocom
 cryptopro
 csteamnetworkingsockets.cpp
@@ -4235,7 +5533,9 @@ ctx->cipher->block_size == 1 || ctx->cipher->block_size == 8 || ctx->cipher->blo
 ctx->digest->md_size <= EVP_MAX_MD_SIZE
 ctx->length <= (int)sizeof(ctx->enc_data)
 ctx->tmp_len <= 3
-d
+ctype
+cuxG
+cz>Sp
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -4276,19 +5576,36 @@ d.usernotice
 d.v1AttrCert
 d.v2AttrCert
 d.x400Address
+d/rRw
 d2i_pr.c
-d=%-2d hl=%ld l=%4ld
-d=%-2d hl=%ld l=inf
+d35P
+d4\tp
+d=%-2d hl=%ld l=%4ld 
+d=%-2d hl=%ld l=inf  
+dAN"
+dDV8
+dHHp
 dITRedirect
 dNSDomain
+dOj\f,
+dPH/
 dSAQuality
+dWry
+dZ!2.
+dZK<),F8
+d[kHy 
+d_r_0
 dataEncipherment
+data_center_id
+db("0
 dcObject
 dcobject
+debug
 debug_malloc
 debug_malloc2
 decipherOnly
 default_value
+delay_time_usec
 deltaCRL
 deltaRevocationList
 dependency
@@ -4312,6 +5629,7 @@ des-ofb
 description
 destinationIndicator
 desx-cbc
+df)r
 dh-cofactor-kdf
 dh-std-kdf
 dhKeyAgreement
@@ -4325,6 +5643,7 @@ dhSinglePass-stdDH-sha224kdf-scheme
 dhSinglePass-stdDH-sha256kdf-scheme
 dhSinglePass-stdDH-sha384kdf-scheme
 dhSinglePass-stdDH-sha512kdf-scheme
+dh\tI
 dh_ameth.c
 dh_gen.c
 dh_key.c
@@ -4354,6 +5673,7 @@ dl_iterate_phdr@@GLIBC_2.2.5
 dmdName
 dmp1
 dmq1
+dn3@
 dnQualifier
 doapr()
 document
@@ -4364,13 +5684,11 @@ documentPublisher
 documentSeries
 documentTitle
 documentVersion
-dod
 domain
 domainComponent
 domainRelatedObject
 double
 downtime_warning_reached
-downwarn
 dsa routines
 dsaEncryption
 dsaEncryption-old
@@ -4388,16 +5706,25 @@ dsa_pmeth.c
 dsa_sign.c
 dsa_with_SHA224
 dsa_with_SHA256
-dso
 dso_lib.c
+dummy_legacy_identity_binary
+dummy_steam_id
 dumy
 dynamic
 dynlock
-e
-e2e.life
-e2e.rate
+e+3E
+e+ZQT
+eBeL
+eC z
 eContent
 eContentType
+eN.d\tA
+eODj
+ePts
+eTU\n
+eXQd
+e\Gg77
+e\tcCPtH
 e_aes.c
 ec2_mult.c
 ec2_oct.c
@@ -4409,6 +5736,7 @@ ec_key.c
 ec_lib.c
 ec_mult.c
 ec_param_enc
+ec_paramgen_curve
 ec_pmeth.c
 ec_pre_comp
 ecdh
@@ -4430,8 +5758,10 @@ ecp_nist.c
 ecp_nistp224.c
 ecp_nistz256.c
 ecp_oct.c
+ecp_smpl.c
 ecs_lib.c
 ecs_ossl.c
+egUkr
 elliptic curve routines
 email:%s
 emailAddress
@@ -4456,7 +5786,6 @@ enterprises
 entityUInfo
 enum
 enveloped-data
-err
 err.c
 error:%08lX:%s:%s:%s
 evp_asn1.c
@@ -4466,6 +5795,7 @@ evp_lib.c
 evp_pbe.c
 evp_pkey
 evp_pkey.c
+ex"y
 ex_data
 ex_data.c
 excluded
@@ -4479,19 +5809,41 @@ exponent1:
 exponent2:
 exptext
 extReq
-extend .$0 {
+extend .$0 {\n
 extendedCertificateAttributes
 extendedKeyUsage
 extendedStatus
+extendee
+extension_range
+eyBH_
+eyj5yR
 f == __null || dynamic_cast<To>(f) != __null
+f#9i\n
+f%wyLmX:
+f&dy
+f1cK%
+f45\r
+f;\fu8
+fBB\fy
+fG;P^
+fL\ri
+fP;y
+fPec_oct.c
+fUnh\
+f\trixZ
 f_int.c
+f_string.c
 facsimileTelephoneNumber
+failed_relay_routing_token
+false
 fatal
 favouriteDrink
 fclose
 fclose@@GLIBC_2.2.5
+fdxfv%
 feof
 feof@@GLIBC_2.2.5
+feop(
 ferror
 ferror@@GLIBC_2.2.5
 fflush
@@ -4499,16 +5851,18 @@ fflush()
 fflush@@GLIBC_2.2.5
 fgets
 fgets@@GLIBC_2.2.5
+field
 fieldID
 fieldType
+file
 file:
-filename="%s"%s
-filename="smime.p7s"%s%s
 fileno
 fileno@@GLIBC_2.2.5
 fips
 fips2
 first reliable streampos
+fjW>J
+flags
 float
 floorf
 floorf@@GLIBC_2.2.5
@@ -4518,6 +5872,8 @@ fopen64
 fopen64@@GLIBC_2.2.5
 fopen@@GLIBC_2.2.5
 forward
+forward_target_revision
+fpnS
 fputc
 fputc@@GLIBC_2.2.5
 fputs
@@ -4532,25 +5888,56 @@ freshestCRL
 friendlyCountry
 friendlyCountryName
 friendlyName
+from_active_packets_recv
+from_active_time
+from_connection_id
+from_dropped_reason
+from_identity_string
+from_ip
+from_quality_now
+from_quality_then
+from_relay_session_id
+from_router_cluster
+fsSWR
 fseek
 fseek@@GLIBC_2.2.5
 ftell
 ftell@@GLIBC_2.2.5
 func(%lu)
-fwd_target
 fwrite
 fwrite@@GLIBC_2.2.5
-g
-g*
+fxv^
+g u}DE
+g&3g
+g'L0X7b
+g4FA
+g5}6
+g9rB
+gB>d
+gF{A
+gHAx
+gTH.M
+gXC.nT\v
+gZFySTa(
+g\n\nDataCenter
+g]i/H
 g_eAvailNetworkConfig is Current, but failed to select random relay to probe?
 g_mapConnections corruption!
 gameserver
+gameserver_address
+gameserver_datacenter_ids
+gameserver_identity_string
+gameserver_relay_session_id
+gap_ms
+gb`X
 gcm128.c
+gdPI
 gen:
 generate cryptogram
 generationQualifier
 generator:
 generic cryptogram
+generic_string
 getegid
 getegid@@GLIBC_2.2.5
 getenv
@@ -4573,10 +5960,13 @@ getsockname@@GLIBC_2.2.5
 getuid
 getuid@@GLIBC_2.2.5
 ggendsa_asn1.c
+gi%3e
 givenName
+gj8(
 gmtime_r
 gmtime_r@@GLIBC_2.2.5
 go_package
+google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
 google.protobuf.EnumValueOptions
@@ -4620,12 +6010,42 @@ gost2001cc
 gost89
 gost89-cnt
 gost94cc
+gp\r3
 group=
-h
+gxv>
+g{syW*
+g|FeW\v
+g|MT
+h&eC
+h*Ax
+h0XB
+h2Wl
+h2n_\
+h5N.
+hEM&!
+hF\rDz
+hFcg
+hJxRX@_
+hN2D
+hRB.
+hR}S
+hW*m
+hW1M
+hW_z
+hX@e
+h`Zr
+hash
 hashAlgorithm
 hashFunc
+hb`V
+hbvc
+hc[N
+hc\raF
 hex:
 hexkey
+hhwi
+hl5v
+hloav\\t
 hm_ameth.c
 hm_pmeth.c
 hmac
@@ -4636,6 +6056,7 @@ hmacWithSHA224
 hmacWithSHA256
 hmacWithSHA384
 hmacWithSHA512
+hnM<
 holdInstructionCallIssuer
 holdInstructionCode
 holdInstructionNone
@@ -4644,18 +6065,31 @@ homePostalAddress
 homeTelephoneNumber
 host
 houseIdentifier
+hr_H
 http://10.1.1.18:8282
 http://steam-api.8686c.com
 https://127.0.0.1:8283
 https://api.beta.steampowered.com
 https://api.steampowered.com
 https://partner.steam-api.com
-i
-i <= n
-i >= 0
+hvL&
+h|gg
+h~0Q.
+i%YR
+i%|kB
 i2d_pr.c
+i4a."
+i5BH
 iA5StringSyntax
+iC!l
+iFFp}A
+iFjt
+iILV]
+iSXc
+iU[&l
+iVY2L
 ia5org
+ia7@\t H9
 iana
 id-DHBasedMac
 id-Gost28147-89-CryptoPro-A-ParamSet
@@ -4899,13 +6333,20 @@ idea-ecb
 idea-ofb
 identified-organization
 identifier_value
-ids
-import "$0";
-import public "$0";
-import weak "$0";
+identity_string
+if.F<h
+ifTK
+ihD5
+ik.R
+import "$0";\n
+import public "$0";\n
+import weak "$0";\n
+in_bytes_per_sec
+in_packets_per_sec_x10
 indirectCRL
 infinite
 infinity
+info
 inhibitAnyPolicy
 inhibitPolicyMapping
 initial_ping_timeout
@@ -4924,7 +6365,6 @@ invalidityDate
 ioctl
 ioctl@@GLIBC_2.2.5
 ioctlsocket
-ip:
 ip_and_port field has invalid length %d
 ipsec3
 ipsec4
@@ -4932,9 +6372,9 @@ ipsecEndSystem
 ipsecTunnel
 ipsecUser
 ipv4
+ipv6
 iqmp
-is not valid for field
-iso
+ir@r`
 isspace
 isspace@@GLIBC_2.2.5
 issuer capabilities
@@ -4946,22 +6386,85 @@ issuerUID
 issuer_and_serial
 issuingDistributionPoint
 iter
-j
+i~wKVA\
 j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
+j"MRX
+j&LQ
+j0ksJ
+j2ty
+j3kg
+jA(U
+jB#W
+jHLy
+jL?1]
+jLTKTz
+jNXcA
+jOJw"
+jTuf
+jV*d9O
+jZ=F
+j[6Z
+j\vIP{s
 janetMailbox
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
 java_outer_classname
 java_package
+java_string_check_utf8
+jb:5
+jcn,T,>
+jfz1
+jitter_histogram_1
+jitter_histogram_10
+jitter_histogram_2
+jitter_histogram_20
+jitter_histogram_5
+jitter_histogram_negligible
 joint-iso-itu-t
+jt(@L
+jtv2@
 jurisdictionC
 jurisdictionCountryName
 jurisdictionL
 jurisdictionLocalityName
 jurisdictionST
 jurisdictionStateOrProvinceName
-k
-k3
+j|Ym
+k"5d
+k%bf
+k'h\rD
+k+Aq
+k/sn
+k0>Z,
+k26C*
+k53i
+k8\vD
+k8fo
+k8xA
+kIoQ
+kL+v<
+kLg\t
+kR;X
+kSN6'
+kV!DA
+kV'0
+kVV\t/
+k\n\fRelayCluster
+k\r"pbA
+k^ZP
+k_ESteamDatagramMsg_ConnectOK
+k_ESteamDatagramMsg_Diagnostic
+k_ESteamDatagramMsg_Invalid
+k_ESteamDatagramMsg_NoSession
+k_ESteamDatagramMsg_P2PBadRoute
+k_ESteamDatagramMsg_RelayHealth
+k_ESteamDatagramMsg_Stats
 k_cbMaxSteamDatagramGameCoordinatorServerLoginSerialized set too small, we are close to overflowing!
+ka`O
+kb_recv
+kb_sent
 kekid
 keyAgreement
 keyAttr
@@ -4975,20 +6478,55 @@ keyEncryptionAlgorithm
 keyIdentifier
 keyInfo
 keyUsage
+key_data
 key_enc_algor
+key_id
+key_type
 keyfunc
 keyid
 keylen <= sizeof(key)
 keylength
 kisa
-l
+kjy\v
+kp3/y*U
+kpEKI
+kte'
+kw.6#
+k|9R
+k~Rz
 l <= sizeof(c->iv)
+l&rB6
+l4Ot
+l7@J
+lC57
+lDcW
+lEsim
+lM2p
+label
 lastModifiedBy
 lastModifiedTime
 lastUpdate
+latency_datacenter_ids
+latency_ping_ms
+lazy
 ld-linux-x86-64.so.2
 leading_comments
-length is greater than %ld
+legacy_ack_e2e
+legacy_authorized_steam_id
+legacy_client_steam_id
+legacy_from_identity_binary
+legacy_from_steam_id
+legacy_gameserver_net_id
+legacy_gameserver_pop_id
+legacy_gameserver_steam_id
+legacy_gameserver_steamid
+legacy_identity_binary
+legacy_protocol_version
+legacy_relay_session_id
+legacy_server_steam_id
+legacy_steam_id
+lei5:
+length is greater than %ld\n
 lhash.c
 lib(%lu)
 libc.so.6
@@ -4996,7 +6534,8 @@ libm.so.6
 libpthread.so.0
 librt.so.1
 libstdc++.so.6
-line
+lifetime
+line 
 listen
 localKeyID
 localeconv
@@ -5006,13 +6545,29 @@ localtime_r
 localtime_r@@GLIBC_2.2.5
 location
 locator
+login
 loopback
 lseek
 lseek@@GLIBC_2.2.5
-m
+lvs&4
+m&9W
+m*Zu
+m4}O
+m>FC*a7H
+m>gh
+mAFr
+mDJe
+mK<v
+mOD:V
+mS'7
 mXRecord
+mZKB
+mZzW\v
+m\ta=\ruWb
 m_sigver.c
+ma\v\r01!
 macAlgorithm
+magic
 mailPreferenceOption
 malloc
 malloc failure
@@ -5026,9 +6581,7 @@ maskGenAlgorithm
 maskGenFunc
 maximum
 maxsize=
-md2
 md2WithRSAEncryption
-md4
 md4WithRSAEncryption
 md5-sha1
 md5WithRSA
@@ -5056,22 +6609,26 @@ merchant initiated auth
 message $0
 message digest
 message extensions
-message of type "
 messageDigest
+message_set_wire_format
+method
 mgf1
 mgf1 with sha1 (default)
 mgmt
-micalg="
+migrate_request_ip
+migrate_request_port
 mime-mhs
 mime-mhs-bodies
 mime-mhs-headings
 minimum
 minsize=
 missing asn1 eos
+mllt!
 mobileTelephoneNumber
 module=
 modulus:
 move
+mpkQ
 msCTLSign
 msCodeCom
 msCodeInd
@@ -5081,31 +6638,48 @@ msSGC
 msSmartcardLogin
 msUPN
 multipart/signed
-m
-n
+mzP"T
+n)M5
+n0?X
+n1Z 
+n5cM
+n<!TH+9
+n@PK
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
+nCRD
 nSRecord
+nStf,a
+nSw}Z\tu
+n\fjST
+n\nNKF
+n\r2S
+n`3i
 nack count upper bits
+name
 name.fullname
 name.relativename
-name=
-name="%s"%s
-name="smime.p7s"%s
 nameAssigner
 nameConstraints
 name_part
-nan
+ne[9
+negative_int_value
 nested asn1 error
 netadr_t::GetIP called on IPv6 address
 network_config_changed_different_cluster
 network_config_changed_removed
+network_config_version
 nextUpdate
+nhsR
 niv <= EVP_MAX_IV_LENGTH
 nkey <= EVP_MAX_KEY_LENGTH
+nmI\n8
+nmvos^\n
 noCheck
 noRevAvail
+no_standard_descriptor_accessor
 nombstr
 nonRepudiation
+nonce
 none
 notAfter
 notBefore
@@ -5125,10 +6699,27 @@ nsRevocationUrl
 nsSGC
 nsSslServerName
 nssslserver
-number=%d, address=%08lX
-o
+number
+number=%d, address=%08lX\n
+nyYn
+o$g31\f
+o&1m&
+o)nV
+o-\vBs
+o1+v3
+o=*oh
+oB4Do4
+oBFX}k6U
+oE"z
+oG)e5L
+oMinghuaQu
+oN86
+oWnS
+oXHT
 o_names.c
+oad2:,
 oaep
+ob4\vo
 objCA
 obj_dat.c
 obj_lib.c
@@ -5137,11 +6728,10 @@ object identifier routines
 objsign
 ocsp_ht.c
 ocsphelper
+od?;7y
+odMsh
 oeap
-of the Protocol Buffer runtime library, but the installed version is
-of the Protocol Buffer runtime library, which is not compatible with the installed version (
-of type
-offset=
+oi3o
 only-if-cached, max-stale=2678400
 onlyAA
 onlyCA
@@ -5159,6 +6749,8 @@ operator new(unsigned long)
 operator new[](unsigned long)
 optional
 optionalSignature
+options
+orOF
 order
 organizationName
 organizationalStatus
@@ -5168,17 +6760,24 @@ oriValue
 originator
 originatorInfo
 originatorSignatureValue
+osM@\vQ}
+otT)
 otherCert
 otherCertFormat
 otherMailbox
 otherRevInfo
 otherRevInfoFormat
+other_pkts_sec
 othername
 othername:<unsupported>
+out_bytes_per_sec
+out_packets_per_sec_x10
 output specified is NULL
 output_type
 owner
-p
+p!PcA1|
+p)ou}
+p+"\tHr9
 p.char_two
 p.onBasis
 p.other
@@ -5186,20 +6785,44 @@ p.ppBasis
 p.prime
 p.tpBasis
 p12_add.c
+p12_crpt.c
 p12_decr.c
 p12_key.c
 p12_p8e.c
 p12_utl.c
+p2{l
+p4Z3
+p5Z3
+p5\nL,
 p5_crpt.c
 p5_crpt2.c
 p5_pbe.c
 p5_pbev2.c
-pA
+p618
+pG_*h
+pIp 
+pO0h
+pP@fJ
+pRTH
+pSPo
 pSourceFunc
 pSpecified
+pT6w.
+pU>\AL
+p^i9
+p_sign.c
 p_verify.c
-package $0;
+package
+package $0;\n\n
+packed
 packet
+packets_dropped_pct
+packets_recv_dropped
+packets_recv_duplicate
+packets_recv_lurch
+packets_recv_out_of_order
+packets_recv_sequenced
+packets_weird_sequence_pct
 pagerTelephoneNumber
 parsing
 partyName
@@ -5226,8 +6849,11 @@ pcy_cache.c
 pcy_data.c
 pcy_node.c
 pcy_tree.c
+peak_jitter_usec
+peer_connection_id
 pem_lib.c
 pem_oth.c
+penalty
 perfectworld
 permitted
 permittedSubtrees
@@ -5245,9 +6871,26 @@ pilotObject
 pilotObjectClass
 pilotOrganization
 pilotPerson
+ping_histogram_100
+ping_histogram_125
+ping_histogram_150
+ping_histogram_200
+ping_histogram_25
+ping_histogram_300
+ping_histogram_50
+ping_histogram_75
+ping_histogram_max
+ping_ms
+ping_ntile_50th
+ping_ntile_5th
+ping_ntile_75th
+ping_ntile_95th
+ping_ntile_98th
 pipe
+pk7_attr.c
 pk7_doit.c
 pk7_lib.c
+pkL'
 pkcs
 pkcs1
 pkcs3
@@ -5274,18 +6917,21 @@ policyMappings
 policyid
 poll
 poll@@GLIBC_2.2.5
+pop_id
 pops
 port
 port_range
+positive_int_value
 postOfficeBox
 postalAddress
 postalCode
+pp&c
 pqualid
 preferredDeliveryMethod
 presentationAddress
-prf
 prf-gostr3411-94
-prim:
+prh[
+prim: 
 prime-field
 prime192v1
 prime192v2
@@ -5297,24 +6943,25 @@ prime239v3
 prime256v1
 prime2:
 prime:
-priv [ %d ]
+priv [ %d ] 
 priv:
 priv_key
 private-key:
 privateExponent:
 privateKey
 privateKeyUsagePeriod
+private_key_data
 privilegeWithdrawn
 problem detected locally
 producedAt
 protobuf failed to parse inline stats message
 protobuf serialization failed?
-protocol="%ssignature";
 protocolInformation
+protocol_version
 proxyCertInfo
 proxyPolicy
+ps(crh
 pseudonym
-pss
 pthread_getschedparam
 pthread_getschedparam@@GLIBC_2.2.5
 pthread_mutex_destroy
@@ -5322,12 +6969,12 @@ pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
 pthread_mutex_init@@GLIBC_2.2.5
 pthread_mutex_lock
-pthread_mutex_lock:
+pthread_mutex_lock: 
 pthread_mutex_lock@@GLIBC_2.2.5
 pthread_mutex_timedlock
 pthread_mutex_timedlock@@GLIBC_2.2.5
 pthread_mutex_unlock
-pthread_mutex_unlock:
+pthread_mutex_unlock: 
 pthread_mutex_unlock@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
@@ -5336,36 +6983,79 @@ pthread_self@@GLIBC_2.2.5
 pthread_setschedparam
 pthread_setschedparam@@GLIBC_2.2.5
 ptr_ != __null
-pub:
+pub: 
 pub_key
 pubkey
 public-key:
 publicExponent:
 publicKey
+public_dependency
 public_key
-q
+py_generic_services
+q&A\nn
+q/\rg2
+q2'<Kv
+q27_A
+q6Kl
+qCJ.
+qDGqT
+qE7\t8
+qF{qc\t
+qIRH
+qOy*o
+qPq2k
+qTm_fC=
 qcStatements
+qeei
+qf`ny
 qsort
 qsort@@GLIBC_2.2.5
 qualifiers
 qualityLabelledData
+quality_histogram_1
+quality_histogram_100
+quality_histogram_50
+quality_histogram_75
+quality_histogram_90
+quality_histogram_95
+quality_histogram_97
+quality_histogram_99
+quality_histogram_dead
+quality_ntile_25th
+quality_ntile_2nd
+quality_ntile_50th
+quality_ntile_5th
 quick_exit
 quick_exit@@GLIBC_2.10
-r
-r+
-r:
+qx(q
+r$0I
+r-IE
+r/2O
+r184
+r<\rND
+rAGW
+rC3rp
+rD B
+rF6?
 rFC822localPart
+rFur`7\t
+rKE\t
+rL[i+
+rRfKR
+rX&O0
+rZ$2
+rZ1VwGf5
+rZPM
+r\vDi
 rand2
 rand@@GLIBC_2.2.5
 random number generator
-rb
 rc2-40-cbc
 rc2-64-cbc
 rc2-cbc
 rc2-cfb
 rc2-ecb
 rc2-ofb
-rc4
 rc4-40
 rc4-hmac-md5
 rc5-cbc
@@ -5383,16 +7073,17 @@ received_nosession
 recipientEncryptedKeys
 recipientInfos
 recipientinfo
-recommended-private-length: %d bits
+recommended-private-length: %d bits\n
 recv
 recv@@GLIBC_2.2.5
 recvfrom
 recvfrom@@GLIBC_2.2.5
 registeredAddress
 reject
-relay.life
-relay.rate
+relay_clusters
 relay_ping_only
+relay_routing_token
+relay_session_id
 relays
 reliable streampos offset
 removeFromCRL
@@ -5401,15 +7092,12 @@ reqCert
 req_info
 requestExtensions
 requestList
-request_ack
-request_ack_asap
-request_ack_e2e
-request_ack_immediate
-request_ack_relay
+request_timestamp
 requestorName
 requireExplicitPolicy
 required
 reserved
+reserved_do_not_use
 responderId
 response
 responseBytes
@@ -5426,15 +7114,22 @@ revoked_keys
 rewind
 rewind@@GLIBC_2.2.5
 rfc822Mailbox
-rid
+rg#E
 ripemd160
 ripemd160WithRSA
+rjg\v
+rkqg
+rmhD
 roleOccupant
 room
 roomNumber
+route_exceptions
 router_ping_reply %s
+router_timestamp
 routes
-rsa
+routing
+routing_clusters
+routing_secret
 rsa routines
 rsaEncryption
 rsaOAEPEncryptionSET
@@ -5453,6 +7148,7 @@ rsa_oaep_label
 rsa_oaep_md
 rsa_padding_mode
 rsa_pk1.c
+rsa_pmeth.c
 rsa_pss.c
 rsa_pss_saltlen
 rsa_saos.c
@@ -5462,13 +7158,45 @@ rsa_x931.c
 rsadsi
 rsaesOaep
 rsassaPss
+rtE1
 run length compression
-s
-s:
+rw4rs
+rxspeed_histogram_1024
+rxspeed_histogram_128
+rxspeed_histogram_16
+rxspeed_histogram_256
+rxspeed_histogram_32
+rxspeed_histogram_512
+rxspeed_histogram_64
+rxspeed_histogram_max
+rxspeed_ntile_50th
+rxspeed_ntile_5th
+rxspeed_ntile_75th
+rxspeed_ntile_95th
+rxspeed_ntile_98th
+r~s-v7
+s%95
+s(Fdi
+s-}24
+s6!TYK
+s=%(nh0
+s=QT
+s?uj
+s@'0q
+sD9>&
+sF29
+sJfw>7G9@>
+sK2?
+sKu{~X
 sOARecord
+sT5w!
+sV u\t
+s\tor
+saJ!
 safeContentsBag
 salt
 saltLength
+sao5
 sbgp-autonomousSysNum
 sbgp-ipAddrBlock
 sbgp-routerIdentifier
@@ -5478,8 +7206,12 @@ sched_get_priority_min
 sched_get_priority_min@@GLIBC_2.2.5
 sched_yield
 sched_yield@@GLIBC_2.2.5
+score
+scoring_penalty_relay_cluster
 sdsiCertificate
 searchGuide
+seconds_until_down
+seconds_until_shutdown
 secp112r1
 secp112r2
 secp128r1
@@ -5528,14 +7260,19 @@ send
 send@@GLIBC_2.2.5
 sendmsg
 sendmsg@@GLIBC_2.2.5
+seq_num
 serialNumber
 serialize
 serializing
 serverAuth
+server_connection_id
 server_steam_id doesn't match who we expect to be connecting to!
-service $0 {
+servers
+service
+service $0 {\n
 serviceLocator
 session_inactivity_timeout
+session_relay_routing_token
 session_request_timeout
 set-addPolicy
 set-attr
@@ -5669,9 +7406,10 @@ setext-pinSecure
 setext-track2
 setsockopt
 setsockopt@@GLIBC_2.2.5
+severity
 sfixed32
 sfixed64
-sha
+sh;7
 sha-256
 sha-384
 sha-512
@@ -5686,7 +7424,6 @@ sha512
 sha512WithRSAEncryption
 shaWithRSAEncryption
 shutdown
-sid
 sig_alg
 sig_algor
 sigaction
@@ -5706,24 +7443,29 @@ singleLevelQuality
 singleRequestExtensions
 sint32
 sint64
-smime-type=%s;
 smime.p7m
 smime.p7z
 smime_sign
 smimeencrypt
 smimesign
+sm{c
+sn_d.
 snmpv2
+so=H*m
 socket
 socket() call failed.  Error code 0x%08x.
 socket@@GLIBC_2.2.5
 socketpair
 socketpair() call failed.  Error code 0x%08x.
 socketpair@@GLIBC_2.2.5
+source_code_info
+span
 spkac
 sqrt
 sqrt@@GLIBC_2.2.5
 srand
 srand@@GLIBC_2.2.5
+ss3Y!
 sscanf@@GLIBC_2.2.5
 ssh-ed25519 %nAAAA%*s%n
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJrsoE4XUc5iaNVpACyh4fobLbwm02tOo6AIOtNygpuE ID18220590129359924542
@@ -5737,20 +7479,22 @@ ssl_sess_cert
 ssl_session
 sslclient
 sslv23
+stLDp
 stack.c
 standalone
+start
+state
 stateOrProvinceName
+stats
 stats message size doesn't make sense.  Stats message size %d, packet size %d
-stats.life
-stats.rate
 std::_Hash_bytes(void const*, unsigned long, unsigned long)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::_Rb_tree_iterator<std::pair<std::string const, std::string> > std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, std::string> >, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
-std::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int> > >::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int> > >(std::pair<std::string const, std::pair<void const*, int> >&&)
-std::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int> > >::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int> > const&>(std::pair<std::string const, std::pair<void const*, int> > const&)
+std::_Rb_tree_iterator<std::pair<std::string const, std::string>> std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, std::string>>, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
+std::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int>>>::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int>> const&>(std::pair<std::string const, std::pair<void const*, int>> const&)
+std::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int>>>::_Rb_tree_node<std::pair<std::string const, std::pair<void const*, int>>>(std::pair<std::string const, std::pair<void const*, int>>&&)
 std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
 std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
@@ -5760,13 +7504,13 @@ std::__throw_bad_function_call()
 std::__throw_length_error(char const*)
 std::__throw_logic_error(char const*)
 std::__throw_system_error(int)
-std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+std::basic_ios<char, std::char_traits<char>>::clear(std::_Ios_Iostate)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
 std::chrono::_V2::steady_clock::now()
 std::ctype<char>::_M_widen_init() const
 std::exception::~exception()
@@ -5832,7 +7576,8 @@ stderr
 stderr@@GLIBC_2.2.5
 stdin
 stdin@@GLIBC_2.2.5
-steamdatagram_client_debugticket_address value '%s' isn't a valid address
+steam_id
+steamdatagram_client_debugticket_address value '%s' isn't a valid address\n
 steamdatagram_messages_auth.proto
 steamdatagram_messages_sdr.proto
 steamid:
@@ -5866,6 +7611,7 @@ streetAddress
 strerror
 strerror@@GLIBC_2.2.5
 string=
+strings::Substitute format string invalid: asked for "$
 strlen
 strlen(objstr) + 23 + 2 * enc->iv_len + 13 <= sizeof(buf)
 strlen@@GLIBC_2.2.5
@@ -5909,15 +7655,31 @@ suppPubInfo
 supportedAlgorithms
 supportedApplicationContext
 surname
-syntax = "proto2";
-syntax error at line %d near:
+syntax = "proto2";\n\n
+syntax error at line %d near: 
 system lib
 system library
-t
+s{5F
+t(1pC
+t(ydU
+t+RW
+t0;?ZlP*m
+t2U 
+t4O_
+t80z
+tA`KO/3G!\n7h=
+tDwg
+tGTS
+tLY^m`6
+tLl 
+tLsq
+tNt5
 t_x509.c
 tag=
 targetInformation
 tasn_dec.c
+tasn_enc.c
+tasn_new.c
 tasn_prn.c
 tasn_utl.c
 tbsRequest
@@ -5926,32 +7688,58 @@ tcgetattr
 tcgetattr@@GLIBC_2.2.5
 tcsetattr
 tcsetattr@@GLIBC_2.2.5
+td5)
+tdAW
+tdXn
+tdYv
 telephoneNumber
 teletexTerminalIdentifier
 telexNumber
 test
+text
 text format contains deprecated field "
 text/plain
 text:
 textEncodedORAddress
 textNotice
+tfjgvmfv
 the global scope
 thisUpdate
-thread=%lu,
-thread=%lu, file=%s, line=%d, info="
+thread=%lu, 
+ticket
 time stamp routines
 time@@GLIBC_2.2.5
 timeStamping
+time_generated
 timestampsign
 title
+to_connection_id
+to_quality_now
+to_quality_then
+to_relay_session_id
 tolower
 tolower@@GLIBC_2.2.5
+tq}a
 trailerField
 trailing_comments
 tried to send packet to server, but socket not opened
 true
 trust
 trustRoot
+txspeed_histogram_1024
+txspeed_histogram_128
+txspeed_histogram_16
+txspeed_histogram_256
+txspeed_histogram_32
+txspeed_histogram_512
+txspeed_histogram_64
+txspeed_histogram_max
+txspeed_ntile_50th
+txspeed_ntile_5th
+txspeed_ntile_75th
+txspeed_ntile_95th
+txspeed_ntile_98th
+type
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
 type() == TYPE_GROUP
@@ -5963,21 +7751,38 @@ typeinfo for SteamAPI_ISteamNetworkingSockets_RunConnectionStatusChangedCallback
 typeinfo for std::exception
 typeinfo for std::overflow_error
 typeinfo for std::runtime_error
-u
-ucl
-ui
+u#A\rlG
+u%WX
+u%gc
+u)4A
+u0Az
+u1\m
+u5bB
+u6Bm
+u;{Gk
+uBY+
+uC<[rR
+uD>\nh
+uE]*P
+uJ4CA2
+uQ'ZH
+uQbK!
+u\vMW
+uaqf
+ub=A
+ug>c
 ui_lib.c
 ui_openssl.c
 uint32
 uint64
-ukm
+ujR\f
 unauthAttrs
 unauth_attr
 undefined
 uninterpreted_option
 uniqueMember
 unknown library
-unknown%*s
+unknown\n%*s
 unprotectedAttrs
 unreliable
 unreliable data offset
@@ -5995,7 +7800,13 @@ userId
 userNotice
 userPassword
 utf8only
+uxX/
+v'A>M6
+v)56
+v0o/5
 v1(0)
+v1GZ
+v3\vt
 v3_akey.c
 v3_alt.c
 v3_bcons.c
@@ -6017,7 +7828,16 @@ v3_scts.c
 v3_skey.c
 v3_sxnet.c
 v3_utl.c
+v<d2}
+v>XB
+vAj}
+vAr>
+vAu&
+vF'l
+vW3N&
+v\v$m8
 validity
+value
 value.bag
 value.byKey
 value.byName
@@ -6042,25 +7862,44 @@ vector::_M_emplace_back_aux
 vector::_M_insert_aux
 vector::reserve
 version
+vm:u
 void google::protobuf::FieldDescriptorProto::set_label(google::protobuf::FieldDescriptorProto_Label)
 void google::protobuf::FieldDescriptorProto::set_type(google::protobuf::FieldDescriptorProto_Type)
+void google::protobuf::FieldOptions::set_ctype(google::protobuf::FieldOptions_CType)
 void google::protobuf::FileOptions::set_optimize_for(google::protobuf::FileOptions_OptimizeMode)
-void std::vector<char const*, std::allocator<char const*> >::emplace_back<char const*>(char const*&&)
-void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int const&>(int const&)
-void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)
-void std::vector<std::string, std::allocator<std::string> >::emplace_back<std::string>(std::string&&)
-void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int const&>(unsigned int const&)
-void std::vector<unsigned long long, std::allocator<unsigned long long> >::_M_emplace_back_aux<unsigned long long>(unsigned long long&&)
-void std::vector<void (*)(), std::allocator<void (*)()> >::_M_emplace_back_aux<void (* const&)()>(void (* const&)())
-void std::vector<void*, std::allocator<void*> >::_M_emplace_back_aux<void* const&>(void* const&)
+void std::vector<char const*, std::allocator<char const*>>::emplace_back<char const*>(char const*&&)
+void std::vector<int, std::allocator<int>>::_M_emplace_back_aux<int const&>(int const&)
+void std::vector<int, std::allocator<int>>::emplace_back<int>(int&&)
+void std::vector<std::string, std::allocator<std::string>>::_M_emplace_back_aux<std::string const&>(std::string const&)
+void std::vector<std::string, std::allocator<std::string>>::_M_emplace_back_aux<std::string>(std::string&&)
+void std::vector<std::string, std::allocator<std::string>>::emplace_back<std::string>(std::string&&)
+void std::vector<unsigned int, std::allocator<unsigned int>>::_M_emplace_back_aux<unsigned int const&>(unsigned int const&)
+void std::vector<unsigned long long, std::allocator<unsigned long long>>::_M_emplace_back_aux<unsigned long long>(unsigned long long&&)
+void std::vector<void (*)(), std::allocator<void (*)()>>::_M_emplace_back_aux<void (* const&)()>(void (* const&)())
+void std::vector<void*, std::allocator<void*>>::_M_emplace_back_aux<void* const&>(void* const&)
+vqw0\nU
 vtable for SteamAPI_ISteamNetworkingSockets_RunConnectionStatusChangedCallbacks::CallbackAdapter
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 vv == NULL
-w
+vzcrR
+w"ZXb
+w+Ce
+w-g2
+w0A4k
+w8i_q
+w=Zk
+w>mMS
+wAXu
+wE2C
+wI-S
+wOUigi<
+wQ0"
+wR\fe3c
+wRlb.
+wY[K,
+w_5&#R4
 wap-wsg
 wap-wsg-idm-ecid-wtls1
 wap-wsg-idm-ecid-wtls10
@@ -6073,12 +7912,26 @@ wap-wsg-idm-ecid-wtls6
 wap-wsg-idm-ecid-wtls7
 wap-wsg-idm-ecid-wtls8
 wap-wsg-idm-ecid-wtls9
+wap}Q\n
+wbW_0O#
+wci.
+we?0
+weak
+weak_dependency
+wfA'@7
+wfDJ@
+wge6
 whirlpool
-with
+wlLYP
+wm"h
+wn)*T$4?5z
 write@@GLIBC_2.2.5
 wrong submessage type
-wt
-x
+wxT%
+w{Z0
+x#Nb
+x,5J
+x/OA
 x121Address
 x500UniqueIdentifier
 x509
@@ -6101,24 +7954,96 @@ x509_vfy.c
 x509_vpm.c
 x509name.c
 x931
+xFKF
+xOu\vsF
+xQfF
+xUN'
+x\n\nSignedData
+x\v6V
 x_crl.c
 x_long.c
 x_name.c
 x_pubkey.c
 x_x509.c
+xbox_pairwise_id
 xboxpwid:
 xboxpwid:%s
-xn--
-y
-z
+xg-9Ja
+xj)9
+xp$=S
+xxH}
+xzxv
+y#y&Jb
+y0JY
+y2Cu
+y;w9
+y?iLa
+yG/9
+yH/Yy
+yH3f
+yHs8=
+yJ;Bf
+yRnkB\t
+yS/h
+yWTb?
+y\teE
+y_jO
+ya<O
+yb_A
+ye"Y
+yf2)
+your_public_ip
+your_timestamp
+yu]4if
+yyX\f
+yyen
+z(ov
+z/B,9d
+z4BP
+z4Hg
+z<d2
+z>Hz
+zF):O4
+zG2m8
+zRXU 
+zlVO
 zlib compression
 zone
-{
-{$0$1}
-|
-}
-} routes:{
-}O-+`Zt
-~
+zxNIjo
+zz2K
+{5`q@roz?
+{8w1
+{9d:c
+{H}yq
+{OYK
+{ghz6
+{ry\W
+{zFd
+{ziv
+|11Jv
+|3ox
+|47?6
+|<C!FReQ
+|InzT
+|XYl
+|hdX)
+|}Eq1
+}5bIqLk
+}9]Jn+LhyK
+}CQBf
+}VKRZ
+}W70d
+}Xee+
+}gE3
+}n2W
+}o]9s
+~2sP
 ~4ecp_nistp521.c
-
+~9ob
+~If D
+~P2T
+~R65Fu
+~TD7(
+~jLRG
+~w]UG
+~yhZ

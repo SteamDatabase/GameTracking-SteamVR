@@ -2,13 +2,6 @@
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 9(X`
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]
- A_A^A]A\_
- A_A^_
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -16,31 +9,13 @@
  Type Descriptor'
  delete
  delete[]
- new[]
- t>D9
- tDE3
-!t$(H!t$ I
-#fD9M
+ new
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%s%c%s
-%s\%s
-&0$0"
-'Symantec Time Stamping Services CA - G2
-'Symantec Time Stamping Services CA - G20
+%llu
 ( 8PX
 ('8PW
-(A^_^[
-(DigiCert SHA2 Assured ID Code Signing CA
-(DigiCert SHA2 Assured ID Code Signing CA0
 (null)
-)fD;A
-+Symantec Time Stamping Services Signer - G40
-+http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
-+http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
-,!10	
-,X< w
-,|%)v
 -64OS
 .?AV?$CCallResult@VCAddAppDependencyResult_t_result@@UAddAppDependencyResult_t@@@@
 .?AV?$CCallResult@VCAddUGCDependencyResult_t_result@@UAddUGCDependencyResult_t@@@@
@@ -122,96 +97,36 @@
 .?AVlogic_error@std@@
 .?AVout_of_range@std@@
 .?AVtype_info@@
-.http://crl.thawte.com/ThawteTimestampingCA.crl0
-.pdata
-.text
-/http://crl3.digicert.com/sha2-assured-cs-g1.crl05
-/http://crl4.digicert.com/sha2-assured-cs-g1.crl0K
 0123456789ABCDEF
-061110000000Z
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]][
-0A_A^A]_^
-0A_A^_^[
-0r0^1
+03B;
+04B;
+08B;
+0yB;
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-121018000000Z
-121221000000Z
-131022120000Z
-150925000000Z
-170711180934Z0#
-181003120000Z0M1
-201229235959Z0b1
-201230235959Z0^1
-281022120000Z0r1
-311110000000Z0e1
-4049185P
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
-50301
+43B;
+49B;
 700PP
 700WP
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
-80604
-80tVD
-8A^_^[
-8D$8t
-8L$@t
-8UXt$@
-9D$`t
-9P uVA
-9T$`t
-< tD<	t@
-<-uYE
->"hcS
->%u=A
-@.data
-@.reloc
-@.rsrc
-@84/u
-@8l$8t
-@A^A\_
-@A_A\]
-@A_A^A]A\_
-@SUAUAVAWH
-@SUVWATAVAWH
-@SUVWAVH
-@SUVWH
-@SVWATAUAVAWH
-@SVWAVAWH
-@SVWH
-@UATAUAVAWH
-@UAVH
-@USVWH
-@UWATAVH
-A81t@@8r
-A84>u
+82B;
+83B;
+87B;
+8NB;
+8OB;
+8PB;
+8QB;
+8RB;
+8UB;
+8VB;
+8WB;
+8zB;
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
-ATAVAWH
-AUAVAWH
-A^A\_
-A^A\_]
-A^_^][
-A_A^A\_^
-A_A^A]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^]
-A_A^_
 April
 AreFileApisANSI
 August
-AuthA
-Bellevue1
-BfD9;u
-Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
 Breakpad_SteamMiniDumpInit
 Breakpad_SteamSetAppID
 Breakpad_SteamSetSteamID
@@ -339,7 +254,7 @@ CUserStatsReceived_t_RemoveCallResult
 CUserStatsReceived_t_RemoveCallback
 CUserStatsReceived_t_SetCallResult
 CUserStatsReceived_t_SetCallback
-Calling BreakpadMiniDumpSystemInit
+Calling BreakpadMiniDumpSystemInit\n
 CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
@@ -353,53 +268,11 @@ CreateSemaphoreExW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
-D!l$h3
-D$(A9h
-D$(E3
-D$0L9
-D$8L9
-D$<A;
-D$@L;D$Hu
-D$DD9T$X
-D$HHcH
-D$L0A
-D$XD+
-D$`Hc
-D$hH9
-D$p H
-D)\$4A;
-D+moA
-D0B07
-D1:Hc
-D8$/u
-D8$1u
-D8$8u
-D8$>u
-D82u&H
-D8</u
-D8L$Ht
-D8ePtoA
-D8eoupH
-D8t$Ht
-D8|$0
-D8|$0u
-D9A }
-D9H A
-D9H }
-D9l$`
-D9l$dtXH
-D9|$ 
-D9|$pt
-D;H A
+D3B;
+D9B;
 December
 DecodePointer
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-Durbanville1
-E0HcH
-E0Lcx
-Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
 EncodePointer
 EnterCriticalSection
 EnumSystemLocalesEx
@@ -411,13 +284,11 @@ FlsGetValue
 FlsSetValue
 FlushFileBuffers
 FlushProcessWriteBuffers
-Forcing breakpad minidump interfaces to load
+Forcing breakpad minidump interfaces to load\n
 FreeEnvironmentStringsW
 FreeLibrary
 FreeLibraryWhenCallbackReturns
 Friday
-G0Hc	H
-G@8.u
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -460,21 +331,20 @@ GetTickCount64
 GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-H SVWAVH
-H(H9J(u
-H0F08
-H3E H3E
-H9k(um
+H3B;
+H6B;
 HH:mm:ss
+HKCR
+HKCU
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER
 HKEY_LOCAL_MACHINE
-HcC H
-HcD$PH;
-HcH<H
-HcM H
-HcO H
-Hct$@H
+HKLM
+HMXB
+HNB;
+HQB;
+HTB;
+HWB;
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -487,61 +357,61 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocaleName
 January
-K0LcQ
+July
+June
 KERNEL32.dll
-L!|$@L!
-L$ E3
-L$ H;
-L$ SH
-L$ WH
-L$(9i
-L$09B
-L$0E3
-L$0H;
-L$0L;A s
-L$4A;
-L$8A9B
-L$8H3
-L$@;|
-L$@E3
-L$Df;
-L$HH3
-L$`H3
-L$hE3
-L$pH3
-L$xH3
-L0	A:
-L09A:
-L0:A:
-L92u'
-L9@ s
-L9H A
-L9H s
-L9g0u
-L;H A
+L3B;
+L9B;
 LCMapStringEx
 LCMapStringW
-LcA<E3
-LcD$0H
 LeaveCriticalSection
 LoadLibraryExA
 LoadLibraryExW
-Looking up breakpad interfaces from steamclient
-M9P(t\A
+Looking up breakpad interfaces from steamclient\n
 MM/dd/yy
 March
 MessageBoxW
 Monday
 MultiByteToWideChar
+NKeb
 November
-O0HcQ
 October
 OpenProcess
 OutputDebugStringA
 OutputDebugStringW
-PADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
-PA^_^
-PA_A^A\_^][
+P2B;
+P3B;
+P4B;
+P8B;
+PPB;
+PRB;
+PVB;
+PYB;
+PZB;
+PaB;
+PbB;
+PcB;
+PdB;
+PeB;
+PfB;
+PgB;
+PhB;
+PiB;
+PiC;
+PjB;
+PkB;
+PlB;
+PmB;
+PnB;
+PoB;
+PoC;
+PpB;
+PqB;
+PrB;
+PsB;
+PtB;
+PuB;
+PvB;
 QueryPerformanceCounter
 RSDS(e
 RaiseException
@@ -555,9 +425,8 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
+S;uD
 SHELL32.dll
-SVWATAUAVAWH
-SVWAVH
 Saturday
 September
 SetDefaultDllDirectories
@@ -571,7 +440,7 @@ SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
 SetUnhandledExceptionFilter
-Setting breakpad minidump AppID = %u
+Setting breakpad minidump AppID = %u\n
 ShellExecuteW
 Sleep
 Software\Valve\Steam
@@ -1306,72 +1175,41 @@ Steam_GetHSteamUserCurrent
 Steam_RegisterInterfaceFuncs
 Steam_ReleaseThreadLocalMemory
 Steam_RunCallbacks
-Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]
-Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld
+Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
+Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
 Sunday
-Symantec Corporation100.
-Symantec Corporation1402
-T$&@8t$&t9@8r
-T$0E3
-T$HHc
-T$PE3
-T$`E3
-TUUUUUU
+T3B;
+T9B;
 TerminateProcess
-Thawte Certification1
-Thawte Timestamping CA0
-Thawte1
 Thursday
-TimeStamp-2048-10
-TimeStamp-2048-20
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
 Tuesday
 UNICODE
-USVWATAUAVAWH
 UTF-16LE
 UTF-8
-UVWATAUAVAWH
-UWAVH
 UnhandledExceptionFilter
 Unknown exception
-Using breakpad crash handler
-Uy]E3
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-Valve0
-Valve1
-WATAUAVAWH
-WATAVH
-WAVAWH
+Using breakpad crash handler\n
 WaitForThreadpoolTimerCallbacks
 Wednesday
-Western Cape1
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-XA_A^A]A\_^[]
-Y-aT,%
-[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
-[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s
+X3B;
+XOB;
+XTB;
+XUB;
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
+[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
 [S_API FAIL] SteamAPI_Init() failed; connect to global user failed.
 [S_API FAIL] SteamAPI_Init() failed; create pipe failed.
-[S_API FAIL] SteamAPI_Init() failed; no appID found.
-[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.
-[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.
-\$ UATAWH
-\$ UH
-\$ UVWATAUAVAWH
-\$ WH
-\$0D9=
-\$0H3
-\$0H;
+[S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.\n
 \steam.exe
-\vnO^
-]jxdE
 __based(
 __cdecl
 __clrcall
@@ -1388,9 +1226,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-` AUAVAWH
-`.rdata
-`A^_]
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -1401,7 +1236,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -1429,6 +1263,7 @@ _nextafter
 `vftable'
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
+acos
 address family not supported
 address in use
 address not available
@@ -1439,6 +1274,8 @@ already connected
 already_connected
 argument list too long
 argument out of domain
+asin
+atan
 atan2
 bad address
 bad allocation
@@ -1450,7 +1287,7 @@ bad_file_descriptor
 bin\clientui.dll
 broken pipe
 c:\buildslave\steam_rel_client_win64\build\src\steam_api\win64\Release\steam_api64.pdb
-cAMDD
+ceil
 connection aborted
 connection already in progress
 connection refused
@@ -1459,45 +1296,38 @@ connection_aborted
 connection_already_in_progress
 connection_refused
 connection_reset
+cosh
 cross device link
-d$4A+
-d$4A;
-d$4E3
-d$4t	fD
+d3B;
+d9B;
 dddd, MMMM dd, yyyy
 destination address required
 destination_address_required
 device or resource busy
 directory not empty
 e+000
-entiE
 executable format error
-fA9	u
-fD90t
-fD93u
-fD9<Bt
-fffff
-fffffff
+fabs
 file exists
 file too large
 filename too long
 filename_too_long
 floor
+fmod
 frexp
 function not supported
-g0e0*
 g_pSteamClientGameServer
 gameoverlayrenderer64.dll
 generic
-gfffA
-gfffffffH
+h3B;
+h5B;
+h9B;
+hPB;
+hTB;
+hUB;
+hVB;
 host unreachable
 host_unreachable
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0N
-http://ocsp.thawte.com0
-http://ts-ocsp.ws.symantec.com07
-https://www.digicert.com/CPS0
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1510,15 +1340,15 @@ io error
 iostream
 iostream stream error
 is a directory
-l$ VWATAVAWH
-l$(fA
-l$XD+
+kU'9
+l3B;
+l9B;
 ldexp
 log10
-m0k0$
 map/set<T> too long
 message size
 message_size
+modf
 network down
 network reset
 network unreachable
@@ -1548,7 +1378,6 @@ not enough memory
 not supported
 not_a_socket
 not_connected
-ntelD
 operation canceled
 operation in progress
 operation not permitted
@@ -1559,23 +1388,27 @@ operation_not_supported
 operation_would_block
 operator
 owner dead
-p AWH
-p0n05
-p1f3q>
-pA_A^A]A\_^]
+p2B;
+p3B;
+p4B;
+p6B;
+p9B;
+pOB;
+pQB;
+pRB;
 permission denied
 permission_denied
 protocol error
 protocol not supported
 protocol_not_supported
-r"fD;A
-r=D8v
+puC;
 read only file system
 resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
-sYHcL$HH
+sinh
+sqrt
 state not recoverable
 steam2.dll
 steam://run/%u
@@ -1589,23 +1422,8 @@ steamui.dll
 stream timeout
 string too long
 system
-t$ UH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$4A;
-t$8H+
-t$8Hc0I
-t$@fA
-t$DA;
-t$Du^
-t$Dub
-t$PD8|$8t
-t$\9D$`t
-t$htF
-t8A9~
-t8HcP
-tcH95
+t3B;
+tanh
 text file busy
 timed out
 timed_out
@@ -1614,43 +1432,18 @@ too many files open in system
 too many links
 too many symbolic link levels
 too_many_files_open
-tpIc^
-ttIcF
-u	A!B
 unknown error
 value too large
 win64\audio.dll
 wrong protocol type
 wrong_protocol_type
-www.digicert.com1$0"
-www.digicert.com110/
-x ATAVAWH
-x AUAVAWH
-x AVH
-x AWH
-x0v0$
-x_^][
+x3B;
+x9B;
+xNB;
+xSB;
+xTB;
+xUB;
 xppwpp
 xpxxxx
-y3+.{
-z0x0:
 z?aUY
 zc%C1
-|$ ;=z
-|$ AVE3
-|$ AVH
-|$ D!
-|$ H;
-|$ Hc
-|$ UATAUAVAWH
-|$(A^
-|$0-H
-|$<A;
-|$@-D
-|$@-H
-|$@E3
-|$Dtp
-|$PD;
-|$PtjL
-|$h+t$D+
-|$xE3

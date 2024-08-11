@@ -1,7 +1,82 @@
-
-!
+                           %-10s %s\n
+    %8d % 3d %% %s\n
+    %8lu KB %8lu %-48s\n
+    i                   i   f   v    ii  i   ff  ii  ii  i   i           i   v  i    i  ff   ii ii  i    i               i   i  i   ii  ii  i   f   f   fi  fi  i   i   ii  ii  v   v   vi  vi       i   i   ii i   i   f   f                    i   i   i  ii  ii  ii  ii  ii  if  if  ix  ix  ix  i   i   i   i   i   ix  iv  ii  ii  ii  ii  ii  ii  ii  ii  fi  fi  xi  xi  vi  iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii i   i   i   i   i   i       ii  ii  ff  vv  v   ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii                  i   i   i   i   i                                                                                                                   iii iii iii iii iii iii iii iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  fi  fi  ii  ii  ii  ii  ii  ii  ii  iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  i   i   i   i   i   fi  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii                                          fii fii fii iii iii iii iii iii iii iii iii iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  fi  fi  ii  ii  fi  ii  ii  ii  ii  ii  ii  iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  iii ii  iii ii  iii iii ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  i   i   i   i   i                                                                                   fff fff fff fff fff fff fff ff  ff  if  if  if  if  ff  ff  if  if  if  if  if  if  if  fff fff fff fff fff fff if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  iff iff iff iff iff ifi ifi ifi ifi ifi if  ff  if  if  i   i       ii           i      iii iii iii iii iii iii iii iii iii iii iii iii iii ii  iii ii  iii ii  iii ii   i  ii  ii  ii  ii  ii  ii      ii  iii iii iii iii ff  ff  ff  ff  ff  ff  ff  ii  ii  ii   ii                     i   i    i           i  xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xx  xx  xx  xx  xx  xx  xx  xx  xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xx  xx  ix  xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx ix  fi  ix  ix  ix  ix  fx  ix  xxi ix  xii xxi xxf xxf xxi xf  ix  xi  xi  xi  xi  xf  xi  xf   i  xx  x   x   iii iii ii  ii  iii iii iii ii  ii  iii     iiiiiiiiiii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii          i   ii  i       i   ii ii   i  ii   i   i   i   i   i   i   ii  ii  ii  ii  ii  ii iii iii iii iii iii iii  i       i   i   i  iii ii   ii  f  fi  fi   i   i       i  ff  ff   ii  i   ii  ii  i   ii  ii  ii  ii  ii  ii  ii  i   i   i   i   i   i  iii iii iii iii iii iii iii     
+   ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ 
+  Callers (with count) that contribute at least for 1%%:\n
+  R%d -> R%d\n
+  Type failed due to %s\n
+  [%03d][UUID %03d][SLOT %03d][SIZE  %03d] interface %s.%s\n
+  [UIID %d] interface %s\n
+  address=<hostname>:<port>\tAddress to connect to (mandatory)\n
+  at <unknown> <0x%05x>\n
+  defer=y/n\t\t\tWhether to allow deferred client attaching.\n
+  help\t\t\t\tPrint this help.\n
+  logfile=<file>\t\tFile to log to (defaults to stdout)\n
+  loglevel=<n>\t\t\tLog level (defaults to 0)\n
+  parent slot offset: %03d, method count: %03d, iid: %03d %s\n
+  slot assigned: %03d, slot index: %03d %s\n
+  slot offset: %03d, method count: %03d, iid: %03d %s\n
+  suspend=y/n\t\t\tWhether to suspend after startup.\n
+  timeout=<n>\t\t\tTimeout for connecting in milliseconds.\n
+  transport=<transport>\t\tTransport to use for connecting to the debugger (mandatory, possible values: 'dt_socket')\n
+ !"#$%&'()*+,-./0123
+ %02X
+ %s + 0x%x (%p %p) [%p - %s]
+ (Espanya)
+ (Lietuva)
+ (Rom
+ (Slovensk
+ (delta is %d)\n
+ (temporary)\n
+ ---> heapsize = %lu bytes\n
+ 1ai
+ 1ff
+ 1iii
+ 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+ 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+ <spill ins>
+ A E M O Q a e i k 
+ Add load for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]\n
+ Add move for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]\n
+ Add store for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]\n
+ BB%d
+ Cannot bind to the target method because its signature differs from that of the delegate type
+ EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ Spill load added for R%d (R%d -> R%d) at %x\n
+ Spill store added for R%d (R%d -> R%d) at %x\n
+ Spill store/load added for R%d (R%d -> R%d) at %x\n
+ [%s + 0x%lx]
+ [%s + 0x%lx] <-
+ [%s <- R%d]
+ [R%d + 0x%lx]
+ [R%d + 0x%lx] <-
+ \t \n \v \f \r 
+ adai
+ aii
+ aiii
+ at %p, rank: %d, length: %d\n
+ at slot %d: %s (%d) overrides %s (%d)\n
+ cab
+ cai
+ clobbers: %c
+ daa
+ daai
+ dai
+ ddai
+ ddi
+ exec
+ hai
+ object at %p (klass: %p)\n
+ owns (
+ republika)
+ tid=0x%p this=0x%p %s\n
+ with value 
+! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
+! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 ! is_global_ireg (hreg)
-!'
+!!!#!'!3!5!7!?!A!C!I!K!M!Q!S!U!W!Y!_!g!i!o!q!s!u!y!{!}!
+!#wrapper_type < MONO_WRAPPER_NUM
 !(cfg->comp_done & MONO_COMP_LIVENESS)
 !(cfg->comp_done & MONO_COMP_LOOPS)
 !(cfg->comp_done & MONO_COMP_SSA)
@@ -13,6 +88,10 @@
 !(index > arr->max_length - len)
 !(res->flags & METHOD_ATTRIBUTE_PINVOKE_IMPL)
 !(res->iflags & METHOD_IMPL_ATTRIBUTE_INTERNAL_CALL)
+!/!<!E!R!e!m!}!
+!8!A!Q!m!|!
+!This program cannot be run in DOS mode.\r\r\n$
+!\t!\n!\v!\f!\r!
 !_WAPI_FD_HANDLE(type)
 !_WAPI_SHARED_HANDLE(_wapi_handle_type (handle))
 !_WAPI_SHARED_HANDLE(type)
@@ -37,6 +116,7 @@
 !container->is_method
 !context->method_inst || !context->method_inst->is_open
 !context_used
+!dV9^U
 !domain->jit_info_free_queue
 !domain->thunk_free_lists [0]
 !error
@@ -75,6 +155,7 @@
 !mono_method_signature (method)->ret->byref
 !obj
 !obj->vtable->klass->marshalbyref
+!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 !pass_vtable
 !pinvoke
 !return_var
@@ -86,25 +167,22 @@
 !subclass->generic_class
 !t->byref
 !this
+!u]Ju
 !vmethod->klass->generic_class || !vmethod->klass->generic_class->context.class_inst->is_open
 !vmethod->klass->generic_container
 !vtable->klass->generic_container
 !vtable_arg
 !vtable_slot
-"
-"%s"
-"%s",
-"<threadpool thread>"
-"<unnamed thread>"
-"@
-"L+
+" "!"""#"$"%"&"'"(")"*"+","-"."/"0"1"2"3"4"5"6"7"8"9":";"<"=">"?"@"A"B"C"D"E"F"G"H"I"J"K"L"M"N"O"P"Q"R"S"T"U"V"W"X"Y"Z"["\"]"^"_"`"a"b"c"d"e"f"g"h"i"j"k"l"m"n"o"p"q"r"s"t"u"v"w"x"y"z"{"|"}"~"
+"+bmiw
+",02080+
+"-"C"Z"j"u"
+"L%L%L%L.LDLHL"L
 "SkipVerification"
-"\
-"gt
-"o
-"t
-"}
-#
+"Y,CH
+"\t"\n"\v"\f"\r"
+# #!#"###$#%#&#'#(#)#*#+#,#-#.#/#0#1#2#3#4#5#6#7#8#9#:#;#<#=#>#?#@#A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#[#\#]#^#_#`#a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#{#|#}#~#
+# ' G ] c g o y q } { w 
 # Bytes in all Heaps
 # GC Handles
 # Gen 0 Collections
@@ -129,28 +207,23 @@
 # of current recognized threads
 # of marshalling
 # of total recognized threads
-#"
-########################
-########################%8lu KB %s
-#-
+########################\n
+########################\n%8lu KB %s\n
 #GUID
+#Png
 #Strings
-#US
 #VER:2
-#ad
-#o
-#~
-$
-$"
-$+
-$@
+#\r%\r)\r-\r/\r1\r
+#\t#\n#\v#\f#\r#
+#nsa
+$ $!$"$#$$$%$&$'$($)$*$+$,$-$.$/$0$1$2$3$4$5$6$7$8$9$:$;$<$=$>$?$@$A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$[$\$]$^$_$`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$t$u$v$w$x$y$z${$|$}$~$
 $PRIVATE$
-$b
+$\t$\n$\v$\f$\r$
+$fWmSx@
 $graph->set_legend(qw(
-$stattitle = 'Compilations times for %s';
-$stattitle = 'Mono Benchmark Results (various optimizations)';
-%
-% 8.3f
+$lVX
+$stattitle = 'Compilations times for %s';\n
+$stattitle = 'Mono Benchmark Results (various optimizations)';\n
 % DCP Time
 % Interrupt Time
 % Privileged Time
@@ -159,56 +232,40 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 % Time in JIT
 % Time in RT checks
 % User Time
-%!
-%"
-%'
+%'%4%C%T%i%z%W
+%+%<%N%n%}%
 %-10s
-%-10s %s
-%-36s: %.2f
-%-36s: %d
-%-36s: %lld
-%-36s: %llu
-%-36s: %s
-%-36s: %u
-%-9s %s
-%02X
+%-36s: %.2f\n
+%-36s: %lld\n
+%-36s: %llu\n
 %02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X
 %02x,
 %08x_%08x_%08x
-%32s
-%3x (%3d) [%7s] %4u %s (%s)
-%3x [%7s] %s %d
-%7lu
-%8d % 3d %% %s
-%8lu KB %8lu %-48s
+%32s\n
+%3x (%3d) [%7s] %4u %s (%s)\n
+%3x [%7s] %s %d 
+%7d\t%5.2f %% %s\n
+%7lu 
 %Lu %Lu %Lu %Lu %Lu %Lu %Lu
-%Z
-%d item(s) on exit from B%d
-%d methods are generic (%d%%)
-%d methods contain absolute addresses (%d%%)
-%d methods contain lmf pointers (%d%%)
-%d methods have other problems (%d%%)
-%d threads suspended.
-%d,
+%d item(s) on exit from B%d\n
+%d methods are generic (%d%%)\n
+%d methods contain absolute addresses (%d%%)\n
+%d methods contain lmf pointers (%d%%)\n
+%d methods have other problems (%d%%)\n
+%d threads suspended.\n
 %d.%d.%d.%d_%s_%s
-%d/%s
-%f,
-%g
 %ld%ld%ld%ld%ld%ld%ld%*d%ld%ld%ld%ld%ld%ld%ld
-%lf
-%lu finalization table entries; %lu disappearing links
-%lu iterations
+%lu finalization table entries; %lu disappearing links\n
+%lu iterations\n
 %lu msecs
-%lu objects are eligible for immediate finalization
-%lu/%lu blacklisted
+%lu objects are eligible for immediate finalization\n
+%lu/%lu blacklisted\n
 %r10
 %r11
 %r12
 %r13
 %r14
 %r15
-%r8
-%r9
 %rax
 %rbp
 %rbx
@@ -217,49 +274,24 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 %rdx
 %rsi
 %rsp
-%s
-%s %d: [IN:
-%s %s (%d) in memory: base register %s + %d
-%s %s (%d) in register %s
-%s (%s %s)
-%s + 0x%x (%p %p) [%p - %s]
-%s - %s
-%s - %s %d
+%s %s (%d) in memory: base register %s + %d\n
+%s %s (%d) in register %s\n
 %s - %s + %d
 %s - UNLOADED
-%s <-
-%s ValueType (type: %p) at %p
-%s doesn't implement interface %s
-%s statistics
-%s%c
-%s%c%s
-%s%d
-%s%s%s
-%s%s%s%s
-%s%s%s:%s
+%s ValueType (type: %p) at %p\n
+%s doesn't implement interface %s\n
 %s%s%s::%s(%s)
-%s%s:
-%s%s:%s%s
 %s%s:%s%s (%s)
-%s&
-%s(%s
-%s*
-%s-%s%s
 %s-mono-cachepath
 %s.config
 %s.dll
 %s.mdb
-%s.s
 %s.tmp
-%s/
-%s/%s
-%s/%s%s.so
 %s/.mono-%d
 %s/.mono/aot-profile-data/%s-%d
-%s:
 %s: Attempting to ref unused handle %p
 %s: Attempting to unref unused handle %p
-%s: Bad encoding for '%s'Consider using MONO_EXTERNAL_ENCODINGS
+%s: Bad encoding for '%s'\nConsider using MONO_EXTERNAL_ENCODINGS\n
 %s: Couldn't create handle collection thread: %s
 %s: Couldn't initialise networking
 %s: CreateSemaphore error 0x%x
@@ -308,48 +340,36 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 %s: semget error opening old key 0x%x (%s) - trying again
 %s: semget error: %s
 %s: semget error: %s key 0x%x - trying again
-%s: semget error: %s.  Try deleting some semaphores with ipcs and ipcrmor increase the maximum number of semaphore in the system.
+%s: semget error: %s.  Try deleting some semaphores with ipcs and ipcrm\nor increase the maximum number of semaphore in the system.
 %s: shared file [%s] is not big enough! (found %ld, need %d bytes)
 %s: shared file [%s] lseek error: %s
 %s: shared file [%s] open error
 %s: shared file [%s] open error: %s
 %s: shared file [%s] write error: %s
 %s:%d: assertion '%s' failed
-%s:%s (%s)
-%s::%s)
-%sException Rethrown at:
-%sK_I_%x
-%s_p
+%s\nException Rethrown at:\n
 %sas %s %s -o %s
-%se_%x_p
 %sglobals
 %sglobals_hash
 %sld %s -shared -o %s %s.o
-%sm_%x
-%sm_%x_p
 %sme_%x
 %snamed_%s
-%sp_%d
 %u.%u.%u.%u
-&
-&!
-&"
-&@
-&N
-&PY
-'
-'%c' (%d 0x%04x)
+&)*).)2)6):)>)B)F)J)N)R)W
+&*&5&G&]&q&
+&M,2q
+&a,a,a,a,aJa
+' H:mm:ss
+' dd MM, dddd
+' dd MM, dddd H:mm:ss
+' dddd
+'%c' (%d 0x%04x)\n
 '%s' in MONO_GAC_PREFIX doesn't exist or has wrong permissions.
 '%s' in MONO_PATH doesn't exist or has wrong permissions.
-'U`
-'Y
-'\'
+')'<'M'_'p'
 'den 'd MMM yyyy
 'den 'd MMM yyyy HH.mm.ss z
 'den 'd MMM yyyy HH:mm:ss
-(
-(%d,F)
-(%d,T)
 (%lu:%lu,%lu)
 (((((((((((((((((((((
 (((((((((((((((((((((((((((
@@ -359,121 +379,93 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 ((MonoObject *)this)->vtable->klass == mono_defaults.transparent_proxy_class
 ((ins->dreg == -1) && (regtype == ' ')) || ((ins->dreg != -1) && (regtype != ' '))
 ((sreg == -1) && (regtype == ' ')) || ((sreg != -1) && (regtype != ' '))
-(@
+(*(4(D(S(b(o(
 (GPOINTER_TO_UINT (handle) & _WAPI_PROCESS_UNHANDLED) != _WAPI_PROCESS_UNHANDLED
 (GPOINTER_TO_UINT (test) & _WAPI_PROCESS_UNHANDLED) != _WAPI_PROCESS_UNHANDLED
 (Locked by %d)
-(N
 (N.N.N.N>NjGnGWGPN
+(Qf5Q
 (Unlocked)
-([
 (assembly->code.index % 4) == 0
 (assembly->resources.index % 4) == 0
-(attempt %ld)
+(attempt %ld)\n
 (cfg->comp_done & MONO_COMP_IDOM)
 (code - buf) <= 538
 (code - buf) <= size
 (code - start) < 128
 (code - start) < 20
+(code - start) < 64
 (code - start) < buf_len
 (code - start) <= 64
 (const void *) image->tables_base == (const void *) rows
 (current > *staddr) && (current < *staddr + *stsize)
-(delta is %d)
 (field->offset % sizeof(gpointer)) == 0
 (fklass->byval_arg.type == MONO_TYPE_PTR) || (fklass->byval_arg.type == MONO_TYPE_FNPTR)
-(g
-(gK
 (guint8*)addr < (guint8*)jinfo->code_start + jinfo->code_size
 (guint8*)addr >= (guint8*)jinfo->code_start
 (guint8*)chunk->data [pos]->code_start + chunk->data [pos]->code_size <= (guint8*)ji->code_start + ji->code_size
 (hazard_index) == 0 || (hazard_index) == 1
 (impl & MONO_IMPLEMENTATION_MASK) == MONO_IMPLEMENTATION_FILE
-(kind(0=ptrfree,1=normal,2=unc.,%lu=stubborn):size_in_bytes, #_marks_set)
+(kind(0=ptrfree,1=normal,2=unc.,%lu=stubborn):size_in_bytes, #_marks_set)\n
 (mono_debug_debugger_version == 4) || (mono_debug_debugger_version == 5)
 (none)
-(null)
+(null)\n
 (p - (const unsigned char*)meta->tables [i].base) == (meta->tables [i].rows * meta->tables [i].row_size)
 (p - (unsigned char*)meta->raw_metadata) < assembly->tstream.offset
 (p - buf) < buf_size
-(pO
 (parent & MONO_TYPEDEFORREF_MASK) == MONO_MEMBERREF_PARENT_TYPEREF
 (parent & MONO_TYPEDEFORREF_MASK) == MONO_TYPEDEFORREF_TYPESPEC
 (ranges: zero [%d,%d], variable [%d,%d])
 (scope & MONO_RESOLTION_SCOPE_MASK) == MONO_RESOLTION_SCOPE_ASSEMBLYREF
 (t->attrs & PARAM_ATTRIBUTE_OUT)
 (temporary && do_free) || (!temporary && !do_free)
-(temporary)
-(u
 (unknown return type %x)
-(unmapped)
-(wrapper %s)
+(unmapped)\n
+(wrapper %s) 
 (wrapper delegate-begin-invoke):%s (%s)
 (wrapper delegate-end-invoke):%s (%s)
 (wrapper delegate-invoke):%s (%s)
 (wrapper runtime-invoke):%s (%s)
 (wrapper runtime-invoke-dynamic)
-)
-) (out:
-) ip: %p
-)#
-));
-)R
-)W]
-)Y
-)]
-*
-* Assertion at %s:%d, condition `%s' not met
-* Assertion: should not be reached at %s:%d
-*!
-*#
-*()
+)=d11
+)P/P/P/PCP
+* Assertion at %s:%d, condition `%s' not met\n
+* Assertion: should not be reached at %s:%d\n
+*&*+*4*?*F*U*`*m*W
 *(table->next_value (value)) == NULL
-***>Full mark for collection %lu after %ld allocd bytes
-***Blocks in use:
-***Finalization statistics:
-***Free blocks:
-***Heap sections:
-***Section from 0x%lx to 0x%lx
-***Static roots:
-*@
-*Q
-*h
-*r
-*s
+***>Full mark for collection %lu after %ld allocd bytes\n
+***Section from 0x%lx to 0x%lx\n
+***Static roots:\n
+*U0U0U0UEU
+*endbuf <= limit
 *sig == 0x06
 *vtable_slot
-*y
-+
-+ 0x%lx
-+!
-+"
-+%s
-+P
-+r
-,
-, %p
+*zLrz
++"2"8"?"D"J"P"V"Z"^"b"f"j"n"r"z"
++&+1+<+H+K+P+U+Z+_+d+i+v+
++.+M+W+b+m+x+
++LR2~N
++gu'2
 , %s, Version=%d.%d.%d.%d, Culture=%s, PublicKeyToken=%s%s
-, OUT:
+, ,!,",#,$,%,&,',(,),*,+,,,-,.,
+, ,1,A,T,g,p,|,
 , Retargetable=Yes
-, [
 , caught
-, ranges already computed, result:
+, ranges already computed, result: 
 , ranges not computed
 , uncaught
-,%d
-,@
--
--!
--'
----------- Begin address map ----------
----------- End address map ----------
----> heapsize = %lu bytes
---64
---> Marking for collection %lu
+,#,),/,5,;,A,H,O,W
+,W2W2W2WBW
+,Z2Z2Z2ZBZWZ)I
+,\t,\n,\v,\f,\r,
+- -!-"-#-$-%-
+-"-3-D-M-X-c-p-}-
+-%-9-I-Y-o-
+---------- Begin address map ----------\n
+---------- End address map ----------\n
+--> Marking for collection %lu 
 --agent=
 --aot
---aot=
 --attach=
 --batch
 --break
@@ -486,7 +478,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 --debug=
 --debugger-agent=
 --desktop
---ex
 --full-aot
 --graph
 --graph=
@@ -516,23 +507,12 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 --verify-all
 --version
 --wapi=
--> R%d
+-I0I0I0I:I@IDI-I
 -Infinity
--N
--O=
--V
--]R
--e
--f
--h
--v
-.
-."
-.*
+-\t-\n-\v-\f-\r-
 ../../mono/io-layer/handles-private.h
 ../../unity/unity_liveness.c
-.@
-.L
+.A/dev/urandom
 .LDIE_BOOLEAN
 .LDIE_CHAR
 .LDIE_I
@@ -568,7 +548,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 .Lglobals
 .Lglobals_hash
 .Lloclist_%d
-.Ltext0:
+.Ltext0:\n
 .NET CLR Exceptions
 .NET CLR Interop
 .NET CLR JIT
@@ -577,10 +557,9 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 .NET CLR Memory
 .NET CLR Remoting
 .NET CLR Security
+.V9b
 .XXXXXX
-.b
 .bss
-.byte %d
 .ctor
 .ctor(char*)
 .ctor(char*,int,int)
@@ -598,48 +577,45 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 .dynamic
 .dynstr
 .dynsym
+.eNQ
 .exe
-.gL
 .got.plt
 .hash
 .hword
-.la
 .long
 .mono
 .mono/config
 .quad
+.r2r
 .rel.dyn
 .rela.dyn
 .reloc
 .rsrc
-.section "%s"
+.section "%s"\n
 .shstrtab
 .skip
-.so
-.stabd 68,0,%d
+.stabs\t"",100,0,0,.Ltext0\n
+.stabs\t"<BB>",100,0,0,.Ltext0\n
 .string
 .strtab
-.subsection %d
+.subsection %d\n
 .symtab
 .text
+.uwx
 .wapi
-/
-/!
 /.libs/
-// %s
 /1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/bin/
 /1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/etc
 /1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/1234567890/lib
+/G2G2G2G<GOGSG/G
 /bin
 /dev/null
 /dev/random
 /dev/shm
 /dev/shm/
 /dev/zero
-/e
 /etc/mnttab
 /etc/mtab
-/e|
 /mint
 /mono
 /mono-shared-%d-%s
@@ -662,223 +638,183 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';
 /proc/self/exe
 /proc/self/maps
 /proc/stat
+/proc/uptime
 /proc/xen
 /tmp
 /tmp/.mono_attach_pid%d
 /tmp/minidtree.graph
 /tmp/mono-%s
-/}
-0
+/x3x
 0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,
 0.0.0.0
-0.0.0.0:%u
 0.0.0.0_%s_%s
+000I0^0w0
 0123456789ABCDEF
-0123456789abcdefattach: disabled listening on an IPC socket when running in setuid mode.
-08
-0@
-0W
-0u
-0x%016llx,
+0123456789abcdefattach: disabled listening on an IPC socket when running in setuid mode.\n
+0]6]6]6]K]^]_HY
+0x%016llx, 
 0x%lx (
-0x%lx and 0x%lx are not in the same object
-0x%lx does not point to valid object displacement
+0x%lx and 0x%lx are not in the same object\n
+0x%lx does not point to valid object displacement\n
 0x%lx in object at 0x%lx(
-0x%lx is not a GC visible pointer location
-0x%x
-1
-1!
-1.0
-10
-11
-12
+0x%lx is not a GC visible pointer location\n
+0x%x 
+1$gq
+1'141\1
+1.1A1T1j1}1
+11eU%
 127.0.0.1
-1@
-1H
-1O
-1ai
-1ff
+1H4H4H4H<HBHFH1H
+1J4J4J4J9JCJGJ1J
+1aai
+1fff
+1i5i
 1iib
 1iii
-2
-2!
-2.0
-2.1
+1iis
+1l@J
+1xxx
+2!212A2T2[2e2u2
 2.6.5
-21
-2@
-2N
-2u
-3
-31
-3@
-4
-4(
-4.0
-41
-4@
-4b
-4e
-4gN
-4l
-4m/
-5
-51
-5O
-5[:
-5r
-6
-61
-66
-6N
-6O
-6b
-6pP
-6r
-6
-7
-71
-7u
-7~
-8
-81
-8O
-8S
-8\
-9
-9!
-9!;!=!a!
-91
-9@
-9N
-:
-:%ld)
-:%ld, sz=%ld)
-:%ld, sz=%ld,
+263b3y3
+2?<X<12q<
+2V8V8V8VQV
+3"3&3*3.3r"z"2383
+3.;.F.P.[.d.m.w.z.}.
+3/#eD
+33333333ffffffff
+3DKDTD]D
+3DKDTD]DhDqD~D
+3G C
+3if-
+4)4B4U4_4i4v4
+4,4H4f4o4
+4AHx
+4\t5%5C5L5[5h5y5
+4f:k
+4l8l
+4v.5
+5#535O5e5{5W
+5'@'J'S'^'j'u'
+59E9^9q9
+5:I,U
+5WdIo
+5k9k
+6$4K
+6&6<6Q6g6{6
+646M6]6s6
+6A_p
+6QIw
+6T<T<T<TQT
+6WB\r7\t-
+6\r7)7G7a7
+7!7.7A7`7y7
+7#B#O#^#k#x#
+752!
+7uKHO
+8#9?9]9q9|9
+8-8<8P8^8l8z8
+8@HP
+9+959E9^9q9
+99,!-9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+99999
+9999999999999999999999999
+999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+:%ld, sz=%ld)\n
+:%ld, sz=%ld, 
 :.ctor(int)
 :.ctor(int,int,int,int)
-:1
-:M3
-:R
-:\/.
-:gV
-:y
-;
-;!
-;1
-;K$
-;S
-;\
-;r
-;u
-<
-<"
+:2:E:U:e:}:
+:M=M=M=MEMUMO
+:R@R@R@RSR
+;*;C;V;l;s;
+;K>K>K>KIKSKWK;K
 <%p - JIT trampoline for %s>
+<.1A1
 <0x%08x>
-<1
 <INVALID UTF8>
 <Module>
-<O
-<[%d]>
 <all>
 <buffer>
 <bundled>
+<cBcBcBcScsc+G
 <generic_trampoline>
+<gny
 <invalid signature>
+<j1}1
 <no_image>
 <null>
-<smashed>, appr. sz = %ld)
-<spill ins>
+<smashed>, appr. sz = %ld)\n
 <stderr>
 <stdin>
 <stdout>
 <unknown>
-<y
-=
-=!
-=1
-=================================================================Got a %s while executing native code. This usually indicatesa fatal error in the mono runtime or one of the native libraries used by your application.=================================================================
-=O
->
->1
->@
->y
->|
->
-?
-?1
-?N
-?Q
-?S
-?\
-?r
-@
-@1
-@KL
-@Q
-@X
-@c
-@ca
+= =*=0=7=?=C=]\vG=L=P=T=Y=a=j=p=v={=
+=12q<
+=9tau
+=YCYCYCYXYjY
+=bC-T
+=hAh
+=j1}1
+=tAt
+>\D\D\D\S\o\+G
+>`jcF
+?3E3L3U3\3d3W
+?456789:;<=
+?Csize <= static_data_size [static_data->idx]
+?aot-runtime.c
+?get_simd_vreg:: could not infer source simd vreg for op
+?mHh
+?sCs
+?vCv
+@3PH
+@BXV
+@InvalidCastException
+@aQY
 @cab
 @cai
 @cfb
 @cfi
-@ci
-@data = (
-@gO
-@w
-@z
-@@
-A
+@co1
+@igO
 A null value was found where an object instance was required
 A temporary error occurred on an authoritative name server.  Try again later.
-A"
-A1
-ABCREM BLOCK %d:
+A0U0\
 ADAP HDW error
-AE
-AED
-AF
-AFK
-AFN
-AFTER DECOMPOSE-ARRAY-ACCESS-OPTS
-AFTER HANDLE-REG-CONSTRAINTS
-AFTER LOWER-VTYPE-OPTS
+AFTER DECOMPOSE-ARRAY-ACCESS-OPTS 
+AFTER HANDLE-REG-CONSTRAINTS 
+AFTER LOWER-VTYPE-OPTS 
 AFTER METHOD-TO-IR
 AFTER REMOVE SSA:
 AFTER SSA COPYPROP
-AG
-AI
-AL
-ALL
-ALLOCATED R%d(%d) TO HREG %d COST %d
-AM
-AMD
-AN
-ANG
-ANY
-AO
-AOA
-AOT : Unknown argument '%s'.
-AOT FOUND AOT compiled code for %s %p - %p %p
-AOT FOUND function '%s' in AOT file '%s'.
-AOT Module %s is unusable because a dependency is out-of-date.
-AOT NOT FOUND: %s.
+ALLOCATED R%d(%d) TO HREG %d COST %d\n
+AOT : Unknown argument '%s'.\n
+AOT FOUND AOT compiled code for %s %p - %p %p\n
+AOT FOUND function '%s' in AOT file '%s'.\n
+AOT Module %s is unusable because a dependency is out-of-date.\n
+AOT NOT FOUND: %s.\n
 AOT creating directory %s
-AOT failed to load AOT module %s: %s
+AOT failed to load AOT module %s: %s\n
 AOT failed: %s
 AOT failed: %s.
-AOT loaded AOT Module for %s.
-AOT module %s has wrong file format version (expected %s got %s)
-AOT module %s is compiled against runtime version '%s' while this runtime has version '%s'.
-AOT module %s is compiled with --aot=full.
-AOT module %s is out of date (Older than dependency %s).
-AOT module %s is out of date.
-AOT module %s is unusable because dependency %s is not found.
+AOT loaded AOT Module for %s.\n
+AOT module %s has wrong file format version (expected %s got %s)\n
+AOT module %s is compiled against runtime version '%s' while this runtime has version '%s'.\n
+AOT module %s is compiled with --aot=full.\n
+AOT module %s is out of date (Older than dependency %s).\n
+AOT module %s is out of date.\n
+AOT module %s is unusable because dependency %s is not found.\n
 AOT not found.
-AOT of image %s failed.
+AOT of image %s failed.\n
 AOT pagefaults
-AOT precompiling assembly '%s'...
+AOT precompiling assembly '%s'... 
 AOT succeeded.
 AOT trying to load from cache: '%s'.
 APPBASE
@@ -887,51 +823,25 @@ APPDOMAIN_CREATE
 APPDOMAIN_UNLOAD
 APP_CONFIG_FILE
 APP_NAME
-AR
-ARA
-ARB
-ARE
-ARG
-ARH
-ARI
-ARJ
-ARK
-ARL
-ARM
-ARO
-ARQ
-ARRAY-ACCESS: Removed lower bound check on array %d with index %d
-ARRAY-ACCESS: Removed upper bound check (through constant) on array %d with index %d
-ARRAY-ACCESS: Removed upper bound check (through variable) on array %d with index %d
-ARRAY-ACCESS: removed bounds check on array %d with index %d
+ARRAY-ACCESS: Removed lower bound check on array %d with index %d\n
+ARRAY-ACCESS: Removed upper bound check (through constant) on array %d with index %d\n
+ARRAY-ACCESS: Removed upper bound check (through variable) on array %d with index %d\n
+ARRAY-ACCESS: removed bounds check on array %d with index %d\n
 ARRAY-ACCESS: removed check_this instruction.
 ARRAY_REF
-ARS
-ART
-ARU
-ARY
-AS
 ASP.NET
 ASSEMBLY_LOAD
-AT
 ATOMIC UNCOLLECTABLE
-AU
-AUD
-AW
-AWG
-AZ
-AZM
-Abandoned stopped marking after
-Abandoning stopped marking after
+AWi@
+Abandoned stopped marking after 
+Abandoning stopped marking after 
 Abort_internal(object)
 Aborting of threads in domain %s timed out.
-Abr
 Abril
-Abs
 Absurd stack bottom value
 Accept_internal(intptr,int&,bool)
-Accepted connection from client, connection fd=%d.
-Accepted connection on %d
+Accepted connection from client, connection fd=%d.\n
+Accepted connection on %d\n
 Access denied
 Access disabled by policy
 Accessibility
@@ -943,10 +853,6 @@ Acos
 ActivationServices
 Activator
 Active connections
-Add
-Add load for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]
-Add move for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]
-Add store for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]
 Add(int&,int)
 Add(long&,long)
 AddEventFrame
@@ -955,10 +861,10 @@ AddRefInternal
 AddSub
 AddWatch
 AddWithSaturation
-Added symmetric summarized value for variable variable %d (to %d):
-Adding relation 1 on variable %d:
-Adding relation 2 on variable %d:
-Addr: %p
+Added symmetric summarized value for variable variable %d (to %d): 
+Adding relation 1 on variable %d: 
+Adding relation 2 on variable %d: 
+Addr: %p\n
 Address already associated
 Address already in use
 Address not associated
@@ -968,18 +874,16 @@ Afrikaans
 Afrikaans (South Africa)
 Afrikaanse
 Afrikaanse (Suid-Afrika)
-Ago
 Agosti
 Agosto
-Agu
 Agustus
+AjEj
 Albania
 Albanian
 Albanian (Albania)
 Albanian Lek
 Algeria
 Algerian Dinar
-Alh
 Alhamisi
 Alias exists
 All nodes not available
@@ -989,9 +893,8 @@ AllocHGlobal
 AllocateUninitializedClassInstance
 Allocated Bytes/sec
 Allocated Objects
-Allocated code size:    %ld
-Allocated vars:         %ld
-Allocation profiler
+Allocated code size:    %ld\n
+Allocated vars:         %ld\n
 Allotted space exceeded
 AllowPartiallyTrustedCallersAttribute
 Already assigned
@@ -1001,10 +904,8 @@ Already marked
 Already running lkg
 Already waiting
 Alsatian (France)
-Am
 American Samoa
 Amharic (Ethiopia)
-An
 An address incompatible with the requested protocol was used
 An assembly was referenced, but could not be found
 An established connection was aborted in your host machine.
@@ -1021,10 +922,8 @@ Appdomain is already being unloaded.
 Appdomain is already unloaded.
 Apphelp block
 ApplicationException
-Apr
 April
 Aprili
-Ara
 Arabic
 Arabic (Algeria)
 Arabic (Bahrain)
@@ -1043,8 +942,8 @@ Arabic (Tunisia)
 Arabic (U.A.E.)
 Arabic (United Arab Emirates)
 Arabic (Yemen)
+Aral
 Arena trashed
-Arg
 ArgIterator
 Argentina
 Argentine Peso
@@ -1077,14 +976,14 @@ Aruban Guilder
 Asin
 Assamese (India)
 Assembly
-Assembly %d referenced from assembly %s not found
-Assembly %s %p added to domain %s, ref_count=%d
-Assembly '%s' doesn't have an entry point.
-Assembly '%s' has the non-standard metadata heap #-.Recompile it correctly (without the /incremental switch or in Release mode).
+Assembly %d referenced from assembly %s not found 
+Assembly %s %p added to domain %s, ref_count=%d\n
+Assembly '%s' doesn't have an entry point.\n
+Assembly '%s' has the non-standard metadata heap #-.\nRecompile it correctly (without the /incremental switch or in Release mode).\n
 Assembly Loader loaded assembly from location: '%s'.
 Assembly Loader probing location: '%s'.
 Assembly Loader shadow-copied assembly to: '%s'.
-Assembly Ref addref %s %p -> %s %p: %d
+Assembly Ref addref %s %p -> %s %p: %d\n
 Assembly culture `%s' is invalid
 Assembly culture is an invalid index
 Assembly name `%s' contains invalid chars
@@ -1115,19 +1014,18 @@ AssemblyRefOS
 AssemblyRefProcessor
 AsyncReadHandler
 AsyncResult
-At %p (ofs: %2d) %s:
-At %s, offset 0x%zx
+At %p (ofs: %2d) %s: 
+At %s, offset 0x%zx\n
 Atan
 Atan2
 Atomic locks not supported
-Attempt to free invalid pointer %lx
+Attempt to free invalid pointer %lx\n
 Attempt to load field address from object in another appdomain.
 Attempt to load field address from object in another context.
-Attempt to reallocate invalid pointer %lx
+Attempt to reallocate invalid pointer %lx\n
 Attempting check removal...
-Attempting to JIT compile method '%s' while running with --aot-only.
-Attempting to allocate from the global code manager while running with --aot-only.
-Aug
+Attempting to JIT compile method '%s' while running with --aot-only.\n
+Attempting to allocate from the global code manager while running with --aot-only.\n
 August
 Augustus
 Australia
@@ -1135,8 +1033,8 @@ Australian Dollar
 Austria
 Auto
 Autodataseg exceeds 64k
-Available options:
-Available options: 'handle-sigint', 'keep-delegates', 'collect-pagefault-stats', 'break-on-unverified', 'no-gdb-backtrace', 'dont-free-domains', 'suspend-on-sigsegv', 'dyn-runtime-invoke', 'gdb', 'explicit-null-checks'
+Available options: 'handle-sigint', 'keep-delegates', 'collect-pagefault-stats', 'break-on-unverified', 'no-gdb-backtrace', 'dont-free-domains', 'suspend-on-sigsegv', 'dyn-runtime-invoke', 'gdb', 'explicit-null-checks'\n
+Available options:\n
 Available_internal(intptr,int&)
 Average
 Azerbaijan
@@ -1144,62 +1042,24 @@ Azerbaijanian Manat
 Azeri (Cyrillic)
 Azeri (Latin)
 Azeri (Latin) (Azerbaijan)
-A~
-B
-B/
-B1
-BA
-BAM
-BB
-BB%d
-BB%d (%d) (len: %d): %s
-BB%d -> BB%d;
+B'KU&
+B9/u
+BB%d -> BB%d;\n
 BB%d [%sshape=record,labeljust=l,label="{BB%d|
-BB%d [color=blue];
-BB%d [color=green];
-BB%d [color=yellow];
-BB%d(%d)
-BB0 [shape=doublecircle];
-BB1 [color=red];
-BBD
-BD
-BDT
-BE
-BEFORE DECOMPOSE-ARRAY-ACCESS-OPTS
-BEFORE HANDLE-REG-CONSTRAINTS
-BEFORE LOWER-VTYPE-OPTS
-BEL
-BF
-BG
-BGN
-BGR
-BH
-BHD
-BI
-BIF
+BB%d [color=blue];\n
+BB%d [color=green];\n
+BB%d [color=yellow];\n
+BB0 [shape=doublecircle];\n
+BB1 [color=red];\n
+BEFORE DECOMPOSE-ARRAY-ACCESS-OPTS 
+BEFORE HANDLE-REG-CONSTRAINTS 
+BEFORE LOWER-VTYPE-OPTS 
 BINPATH_PROBE_ONLY
-BJ
-BM
-BMD
-BN
-BND
-BO
-BOB
-BR
 BREAKPOINT
-BRL
-BS
-BSD
 BSJB
-BT
-BV
-BW
-BWP
-BY
-BYR
-BZ
-BZD
-Back height not available: Rebuild collector with -DMAKE_BACK_GRAPH
+BVtube
+BZo>
+Back height not available: Rebuild collector with -DMAKE_BACK_GRAPH\n
 Bad DB
 Bad GET_MEM arg
 Bad address
@@ -1259,14 +1119,14 @@ Bahasa Indonesia
 Bahasa Indonesia (Indonesia)
 Bahrain
 Bahraini Dinar
-Bal
+Baland
 Bangladesh
 Bangladesh Taka
 Barbados
 Barbados Dollar
 Bashkir (Russia)
-Basic block %d starting at offset 0x%x
-Basic blocks:           %ld
+Basic block %d starting at offset 0x%x\n
+Basic blocks:           %ld\n
 Basque
 Basque (Spain)
 BeginInvoke
@@ -1282,14 +1142,13 @@ Bengali (India)
 Benin
 Bermuda
 Bermudan Dollar
-Biggest method:         %ld (%s)
+Biggest method:         %ld (%s)\n
 Binary instruction applyed to ill formed stack (%s x %s)
 Binary instruction is not verifiable (%s x %s)
 Bind_internal(intptr,System.Net.SocketAddress,int&)
-Bir
 BlockCopyInternal
 Blocking_internal(intptr,bool,int&)
-BoE
+Bmonitor.c
 Bolivia
 Boliviano
 Boolean
@@ -1302,7 +1161,6 @@ Bosnian (Latin, Bosnia and Herzegovina)
 Botswana
 Botswanan Pula
 Bouvet Island
-Box
 Branch optimizations
 Branch or EH block at [0x%04x] targets middle instruction at 0x%04x
 Branch or EH block targets between prefix '%s' and instruction at 0x%04x
@@ -1322,7 +1180,6 @@ Broken pipe
 Broken recursive ring in ABC removal
 Brunei
 Brunei Dollar
-Bs
 Buffer overflow
 BuildingObject
 Bulgaria
@@ -1335,7 +1192,6 @@ Burundi Franc
 Bus reset
 Busy
 Busy drive
-Bv
 ByRef of ByRef at 0x%04x
 ByRefType
 Byref array marshalling to managed code is not implemented.
@@ -1346,38 +1202,18 @@ Bytes Received/sec
 Bytes Sent/sec
 Bytes Total/sec
 Bytes in Loader Heap
-C
-C"
-C$
-C1
-CA
+C:j+ep
 CACHE_BASE
-CAD
-CAT
-CC
-CCOPY/2: R%d -> R%d
-CCOPY: R%d -> R%d
-CD
-CDF
-CF
+CCOPY/2: R%d -> R%d\n
+CCOPY: R%d -> R%d\n
 CFA Franc BCEAO
 CFA Franc BEAC
 CFG after IR opts
 CFG after SSA
 CFG showing code
 CFP Franc
-CG
-CH
-CHF
-CHS
-CHT
-CI
-CK
-CL
-CLASS %s failed to resolve methods
+CLASS %s failed to resolve methods\n
 CLI header missing
-CLP
-CM
 CMD_APPDOMAIN_CREATE_BOXED_VALUE
 CMD_APPDOMAIN_CREATE_STRING
 CMD_APPDOMAIN_GET_ASSEMBLIES
@@ -1444,30 +1280,15 @@ CMD_VM_RESUME
 CMD_VM_SET_PROTOCOL_VERSION
 CMD_VM_SUSPEND
 CMD_VM_VERSION
-CN
-CNY
-CO
-COALESCE: R%d -> R%d
+COALESCE: R%d -> R%d\n
 COLUMNS
-COMPUTE SSA %d (R%d-)
 CONSTANT %d
-CONVERTED R%d(%d) TO VREG.
-COP
-COSTLY: %s R%d G%d C%d %s
-COSTLY: R%d C%d C%d %s
-CR
-CRC
+CONVERTED R%d(%d) TO VREG.\n
+COSTLY: %s R%d G%d C%d %s\n
+COSTLY: R%d C%d C%d %s\n
 CSC share offline
-CSY
-CU
-CUP
-CV
-CVE
-CX
-CY
-CYP
-CZ
-CZK
+C[%p: %.5f %d] 
+C_I_I_I_I_`_
 CacheProxy
 Call not implemented
 CallConvCdecl
@@ -1475,9 +1296,8 @@ CallConvFastcall
 CallConvStdcall
 CallConvThiscall
 Callback supplied invalid data
-Callee: %s
-Caller: %s
-Callers (with count) that contribute at least for 1%%:
+Callee: %s\n
+Caller: %s\n
 Cambodia
 Cambodian Riel
 Cameroon
@@ -1485,7 +1305,7 @@ Can not complete
 Can not del local wins
 Can not marshal 'parameter #%d': Pointers can not reference marshaled structures. Use byref instead.
 Can not marshal string to native type '%02x': Invalid managed/unmanaged type combination (String fields must be paired with LPStr, LPWStr, BStr or ByValTStr).
-Can not open image %s
+Can not open image %s\n
 Can't access domain info
 Can't access file
 Can't delete last item
@@ -1499,15 +1319,14 @@ Can't open
 Can't open anonymous
 Can't read
 Can't resolve filename
-Can't start up: not enough memory
-Can't use AOT image '%s' in aot-only mode because it is not compiled with --aot=full.
+Can't start up: not enough memory\n
+Can't use AOT image '%s' in aot-only mode because it is not compiled with --aot=full.\n
 Can't write
 Canada
 Canadian Dollar
 Cancel violation
 Cancelled
 Cannot  pass a byref argument to a tail %s at 0x%04x
-Cannot bind to the target method because its signature differs from that of the delegate type
 Cannot call a constructor outside one at 0x%04x
 Cannot call a constructor to a type diferent that this or super at 0x%04x
 Cannot call a non-final virtual method from an objet diferent thant the this pointer at 0x%04x
@@ -1516,12 +1335,10 @@ Cannot call a valuetype baseclass at 0x%04x
 Cannot copy
 Cannot detect driver failure
 Cannot detect process abort
-Cannot determine the text encoding for argument %d (%s).
-Cannot determine the text encoding for the assembly location: %s
 Cannot find WND class
-Cannot find an assembly referenced from this one.
+Cannot find an assembly referenced from this one.\n
 Cannot find initializer function %s in profiler module: %s (%s)
-Cannot find method %s
+Cannot find method %s\n
 Cannot find the specified file
 Cannot get runtime version from assembly `%s'
 Cannot handle corlib user type %s
@@ -1535,8 +1352,8 @@ Cannot load type '%s'
 Cannot load type from token 0x%08x for %s at 0x%04x
 Cannot make
 Cannot merge stacks due to a TypeLoadException %s at 0x%04x
-Cannot open agent assembly '%s': %s.
-Cannot open assembly '%s': %s.
+Cannot open agent assembly '%s': %s.\n
+Cannot open assembly '%s': %s.\n
 Cannot open profile
 Cannot override a non virtual method in a base type
 Cannot override a static method in a base type
@@ -1564,7 +1381,7 @@ Cannot use ldvirtftn with a constructor at 0x%04x
 Cannot use stobj with a boxed source value that is not a reference type at 0x%04x
 Cannot use the generic type definition in a boxable type position for %s at 0x%04x
 CannotUnloadAppDomainException
-Cant initialize GC_invalid_map: insufficient memory
+Cant initialize GC_invalid_map: insufficient memory\n
 Cape Verde
 Cape Verde Escudo
 Capture
@@ -1573,10 +1390,11 @@ Catalan (Spain)
 Catch clause %d with invalid type
 CategoryDelete
 CategoryHelpInternal
-Caught signal %d: looping in handler
+Caught signal %d: looping in handler\n
 Cayman Islands
 Cayman Islands Dollar
 Central African Republic
+ChN"
 Chad
 Channels
 Character out of range for UTF-16
@@ -1680,12 +1498,11 @@ Clusterlog corrupt
 Clusterlog exceeds maxsize
 Clusterlog not enough space
 Clusterlog record exceeds maxsize
-Cmt
 CoClassAttribute
 Cocos Islands
 Code overrun starting with 0x%x at 0x%04x
-Code reallocs:          %ld
-Code: %d Info: %d Ex Info: %d Unwind Info: %d Class Info: %d PLT: %d GOT Info: %d GOT Info Offsets: %d GOT: %d Offsets: %d
+Code reallocs:          %ld\n
+Code: %d Info: %d Ex Info: %d Unwind Info: %d Class Info: %d PLT: %d GOT Info: %d GOT Info Offsets: %d GOT: %d Offsets: %d\n
 Collecting from unknown thread.
 Collection %lu finished
 CollectionCount
@@ -1719,12 +1536,12 @@ CompareNotLessEqual
 CompareNotLessThan
 CompareOrdered
 CompareUnordered
-Compilation of %s failed with exception '%s':
-Compiled %d out of %d methods (%d%%)
-Compiled CIL code size: %ld
-Compiled methods:       %ld
-Compiling %d %s
-Complete collection took %lu msecs
+Compilation of %s failed with exception '%s':\n
+Compiled %d out of %d methods (%d%%)\n
+Compiled CIL code size: %ld\n
+Compiled methods:       %ld\n
+Compiling %d %s\n
+Complete collection took %lu msecs\n
 Complex
 Conditional moves
 Config attempting to parse: '%s'.
@@ -1747,7 +1564,7 @@ Constant
 Constant folding
 Constant propagation
 Constructor %s not visible from %s at 0x%04x
-Constructor not calling super
+Constructor not calling super\n
 ConstructorBuilder
 ConstructorInfo
 ConstructorOnTypeBuilderInst
@@ -1760,7 +1577,7 @@ ContantValue: not enough space to decode size
 Contention Rate / sec
 Context Proxies
 Context expired
-Context status:
+Context status: 
 Context-Bound Classes Loaded
 Context-Bound Objects Alloc / sec
 ContextBoundObject
@@ -1774,14 +1591,13 @@ Controlling ieport
 Cook Islands
 Copy propagation
 CopyFile(string,string,bool,System.IO.MonoIOError&)
-Copyright (c) 1991-1995 by Xerox Corporation.  All rights reserved.
-Copyright (c) 1996-1998 by Silicon Graphics.  All rights reserved.
-Copyright (c) 1999-2001 by Hewlett-Packard Company.  All rights reserved.
-Copyright 1988,1989 Hans-J. Boehm and Alan J. Demers
+Copyright (c) 1991-1995 by Xerox Corporation.  All rights reserved. 
+Copyright (c) 1996-1998 by Silicon Graphics.  All rights reserved. 
+Copyright (c) 1999-2001 by Hewlett-Packard Company.  All rights reserved. 
+Copyright 1988,1989 Hans-J. Boehm and Alan J. Demers 
 Core resource
-Corlib not in sync with this runtime: %s
+Corlib not in sync with this runtime: %s\n
 Corsican (France)
-Cos
 Cosh
 Costa Rica
 Costa Rican Colon
@@ -1816,14 +1632,14 @@ Could not resolve signature of method %s:%s
 Could not resolve the signature of a virtual method
 Could not resolve typespec token %08x
 Could not resolve underlying type of %x at %d
-Could not retrieve method signature for %s
+Could not retrieve method signature for %s\n
 Could not retrieve the vtable for type %s in mono_field_get_value_object
 Could not retrieve type token for %s at 0x%04x
 Could not setup the interfaces
 Couldn't create thread
 Couldn't read /proc/self/stat
-Count lock:
-Count: %d
+Count lock: 
+Count: %d\n
 Counter timeout
 CounterCategoryExists
 Create
@@ -1839,21 +1655,19 @@ CreateMutex_internal(bool,string,bool&)
 CreatePipe
 CreatePipe(intptr&,intptr&)
 CreateProcess
-CreateProcess: %s
+CreateProcess: %s\n
 CreateProcess_internal(System.Diagnostics.ProcessStartInfo,intptr,intptr,intptr,System.Diagnostics.Process/ProcInfo&)
 CreateProxyForType
 CreateRCW
 CreateSemaphore_internal(int,int,string,bool&)
 CreateString
 CreateThread
-Created object count:   %ld
 CriticalFinalizerObject
 Croatia
 Croatian
 Croatian (Bosnia and Herzegovina)
 Croatian (Croatia)
 Croatian Kuna
-Cs
 Ctx PD not found
 Ctx TD error
 Ctx WD not found
@@ -1897,7 +1711,6 @@ Cuba
 Cuban Peso
 Culture=
 CultureInfo
-Cum
 Cuma
 Cumartesi
 Current Assemblies
@@ -1927,34 +1740,18 @@ Cy-uz-UZ
 Cycle found while resolving parent
 Cyprus
 Cyprus Pound
-Cz
 Czech
 Czech (Czech Republic)
 Czech Republic
 Czech Republic Koruna
-D
-D"
-D)5:
-D1
-D@
-DAN
 DBNull
 DC not found
 DDE fail
-DE
-DEA
-DEL
-DES
-DEU
+DG-nDRR
 DHCP address conflict
 DISABLED
-DJ
-DJF
-DK
-DKK
 DLL init failed
 DLL not found
-DM
 DNS error AXFR
 DNS error CNAME collision
 DNS error CNAME loop
@@ -2040,9 +1837,6 @@ DNS status dotted name
 DNS status single part name
 DNS warning PTR create failed
 DNS warning domain undeleted
-DO
-DOP
-DS
 DS GC not available
 DS admin limit exceeded
 DS affects multiple dsas
@@ -2398,14 +2192,9 @@ DS user buffer too small
 DS wrong linked att syntax
 DS wrong om obj class
 DSJSJSJS[S_JcJKJoS
-DU
-DUMP BLOCK %d:
+DUMP BLOCK %d:\n
 DWP-Handshake
-DY
 DYNAMIC_BASE
-DZ
-DZD
-Da
 DangerousAddRef
 DangerousRelease
 Danish
@@ -2421,17 +2210,14 @@ Database full
 Datatype mismatch
 DateTime
 Dead code elimination
-Debug info from gdb:
-Debuggable object at 0x%lx had non-debug finalizer.
+Debuggable object at 0x%lx had non-debug finalizer.\n
 Debugger
-Debugger agent not initialized yet: dropping %s
-Debugger client is not connected: dropping %s
-Debugging options:   --debug[=OPTIONS]     Enable debugging support, optional OPTIONS is a comma                         separated list of optionsOPTIONS is composed of:    casts                Enable more detailed InvalidCastException messages.    mdb-optimizations    Disable some JIT optimizations which are normally                         disabled when running inside the debugger.                         This is useful if you plan to attach to the running                         process with the debugger.
-Dec
+Debugger agent not initialized yet: dropping %s\n
+Debugger client is not connected: dropping %s\n
+Debugging options:\n   --debug[=OPTIONS]     Enable debugging support, optional OPTIONS is a comma\n                         separated list of options\n\nOPTIONS is composed of:\n    casts                Enable more detailed InvalidCastException messages.\n    mdb-optimizations    Disable some JIT optimizations which are normally\n                         disabled when running inside the debugger.\n                         This is useful if you plan to attach to the running\n                         process with the debugger.\n
 December
 Decembro
 Decimal
-Decl security check   : %ld
 DeclSecurity
 DeclaringMethod can only be used on generic arguments
 Decrement
@@ -2441,20 +2227,18 @@ DecryptInternal
 Decryption failed
 Delegate type %s with bad Invoke method at 0x%04x
 Delegates cannot be marshalled from native code into a domain other than their home domain
-Delegates created:      %ld
+Delegates created:      %ld\n
 Delete pending
 DeleteFile(string,System.IO.MonoIOError&)
 Deleting ICM xform
-Demand (code gen)     : %ld
+Demand (code gen)     : %ld\n
 Democratic Republic of the Congo
-Den
 Denmark
 Dependency already exists
 Dependency not allowed
 Dependency not found
 Dependent resource exists
 Dependent services running
-Des
 Desemba
 Desember
 DeserializeCallData
@@ -2466,6 +2250,7 @@ Destination is a boxed value type.
 Destroy object of other thread
 DestroyStructure
 Deutsch
+Deutsch (
 Deutsch (Deutschland)
 Deutsch (Luxemburg)
 Deutsch (Schweiz)
@@ -2479,20 +2264,16 @@ Device not partitioned
 Device reinitialization needed
 Device removed
 Device requires cleaning
-Dez
 Dezember
-Dhj
-Di
-Die
 Dienstag
 Different service account
 Dinsdag
 Dir EFS disallowed
 Direct access handle
-Direct calls: %d (%d%%)
+Direct calls: %d (%d%%)\n
 Directory not empty
 Directory not root
-Disappearing links:
+Disappearing links:\n
 Discarded
 Disconnect_internal(intptr,bool,int&)
 Disk change
@@ -2508,7 +2289,6 @@ DivideByZeroException
 Division by zero
 Djibouti
 Djibouti Franc
-Dl&
 DllImport attempting to load: '%s'.
 DllImport error loading library '%s'.
 DllImport error loading library: '%s'.
@@ -2519,13 +2299,11 @@ DllImport unable to load library '%s'.
 DllImportAttribute
 DllImportAttributeClass
 DllNotFoundException
-Do
-Do not report this as a bug unless you're sure you have updated correctly:you probably have a broken mono install.
+Do not report this as a bug unless you're sure you have updated correctly:\nyou probably have a broken mono install.\n
 DoAssemblyLoad
 DoAssemblyResolve
 DoDomainUnload
 DoTypeResolve
-Dom
 Domain controller exists
 Domain controller not found
 Domain exists
@@ -2540,7 +2318,8 @@ Donderdag
 Donnerstag
 Double
 Downgrade detected
-Download a newer corlib or a newer runtime at http://www.go-mono.com/daily.
+Download a newer corlib or a newer runtime at http://www.go-mono.com/daily.\n
+DqD~D
 Drive locked
 Drive media mismatch
 Driver blocked
@@ -2548,7 +2327,7 @@ Dump interface flags:
 Dup domain name
 Duplicate
 Duplicate large block deallocation
-Duplicate large block deallocation of 0x%lx
+Duplicate large block deallocation of 0x%lx\n
 Duplicate name
 Duplicate name '%s` in File row %d
 Duplicate name '%s` in ModuleRef row %d
@@ -2562,54 +2341,36 @@ Duplicated metadata stream header %s
 Dutch
 Dutch (Belgium)
 Dutch (Netherlands)
-Dynamic code allocs:    %ld
-Dynamic code bytes:     %ld
-Dynamic code frees:     %ld
+Duu\T
+Dynamic code allocs:    %ld\n
+Dynamic code bytes:     %ld\n
+Dynamic code frees:     %ld\n
 DynamicAssembly %s
 DynamicInvoke
 DynamicMethod
 DynamicType 0x%08x
 Dynlink from invalid ring
-E
-E!
-E"
-E1
+E)[pE
+E9Er\n
+E:F<F
+E:FaF
 EA access denied
 EA file corrupt
 EA list inconsistent
 EA table full
 EAS didnt fit
 EAs not supported
-EC
-ECS
 EDISCON
-EE
 EEE, yyyy'eko' MMM'ren' dd'a'
 EEE, yyyy'eko' MMM'ren' dd'a' HH:mm:ss
-EEK
 EFS disabled
 EFS server not trusted
 EFS version not support
-EG
-EGP
-EH
 EINVALIDPROCTABLE
 EINVALIDPROVIDER
-ELL
 EMPTY(smashed?)
-ENA
-ENC
-END COMPUTE SSA.
-ENG
-ENI
 ENOMORE
-ENP
-ENS
-ENT
 ENTER: %s(
-ENU
-ENW
-ENZ
 EOM overflow
 EPROCLIM
 EPROVIDERFAILEDINIT
@@ -2617,68 +2378,43 @@ EPT S Can't create
 EPT S Can't perform op
 EPT S Invalid entry
 EPT S Not registered
-EQ
-ER
 EREFUSED
-ERN
 ERROR
-ES
-ESA
-ESB
-ESC
-ESD
-ESE
-ESF
-ESG
-ESH
-ESI
-ESL
-ESM
-ESN
-ESO
-ESP
-ESR
-ESS
-ESU
-ESV
-ESY
-ESZ
-ET
-ETB
-ETI
 ETS alg blob too big
-EUQ
-EUR
 EVALUATION_COMPLETED
 EVALUATION_IN_PROGRESS
 EVALUATION_NOT_STARTED
 EVENT
 EVENT_REQUEST
 EXCEPTION
-EXCEPTION: catch found at clause %d of %s
-EXCEPTION: fault clause %d of %s
-EXCEPTION: finally clause %d of %s
-EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+EXCEPTION: catch found at clause %d of %s\n
+EXCEPTION: fault clause %d of %s\n
+EXCEPTION: finally clause %d of %s\n
 E_CANCELLED
 E_NO_MORE
 East Caribbean Dollar
+EcEfEjEnEsEwEyE
 Ecuador
 Ecuador Sucre
 Eesti
 Eesti (Eesti)
+EfEjEnEsEwEyE
+EfEjEnEsEwEyE\f
+EfEjEnEsEwEyE\t
+EfEjEnEsEwEyE\v
 Egypt
 Egyptian Pound
 Either SizeConst or SizeParamIndex should be specified when marshalling arrays to managed code.
-Eki
+EjEnEsEwEyE
 Ekim
 El Salvador
 El Salvador Colon
-Elapsed time: %f secs (%f, %f), Code size: %d
+Elapsed time: %f secs (%f, %f), Code size: %d\n\n
 ElementAddr
 ElementAddr_%d_%d
 Emit per-domain code
 Empty
-Empty events list: dropping %s
+Empty events list: dropping %s\n
 EnableProxyActivation
 EncryptInternal
 Encryption failed
@@ -2701,7 +2437,6 @@ English (Trinidad and Tobago)
 English (United Kingdom)
 English (United States)
 English (Zimbabwe)
-Enj
 Enter
 Entropy error! Error in read (%s).
 Entropy problem! Can't create or connect to egd socket %s
@@ -2734,8 +2469,8 @@ Error parsing %s: %s
 Error reading from pipe.
 Error verifying %s: %s
 Error!!
-Error: Loaded assembly '%s' doesn't match original file name '%s'. Set MONO_PATH to the assembly's location.
-Error: invalid method name '%s'
+Error: Loaded assembly '%s' doesn't match original file name '%s'. Set MONO_PATH to the assembly's location.\n
+Error: invalid method name '%s'\n
 Estonia
 Estonian
 Estonian (Estonia)
@@ -2744,8 +2479,8 @@ Ethiopia
 Ethiopian Birr
 Euro
 Eval stack must be empty in jmp at 0x%04x
-Evaluating variable %d (target variable %d)
-Evaluation of variable %d (target variable %d) already in progress
+Evaluating variable %d (target variable %d)\n
+Evaluation of variable %d (target variable %d) already in progress\n
 Event
 EventBuilder
 EventInfo
@@ -2756,13 +2491,15 @@ EventPtr
 Eventlog can't start
 Eventlog file changed
 Eventlog file corrupt
+EwEyE
+EwEyE\t
 Exception %s.%s raised in C code
 Exception clause inside filter
 Exception clauses overlap
 Exception clauses with shared protected block are neither catch or filter
 Exception handlers overlap
 Exception in service
-Exception inside UnhandledException handler with invalid message (Invalid characters)
+Exception inside UnhandledException handler with invalid message (Invalid characters)\n
 Exception inside function without unwind info
 ExceptionHandlingClause
 Exchange(T&,T)
@@ -2776,15 +2513,14 @@ Exclusive semaphore already owned
 Exe machine type mismatch
 Exe marked invalid
 ExecuteAssembly
-Executing the native assembler: %s
-Executing the native linker: %s
+Executing the native assembler: %s\n
+Executing the native linker: %s\n
 ExecutionContext
 ExecutionEngineException
 Exit
 ExitCode_internal(intptr)
 ExitTime_internal(intptr)
-Exiting...
-Exp
+Exiting...\n
 Expected < to start the document
 Expected a managed pointer for mkrefany, but found %s at 0x%04x
 Expected a reference type on stack for %s but found %s at 0x%04x
@@ -2807,30 +2543,20 @@ ExportedType table row %d has null Implementation token
 ExportedType table should be empty if File table is empty
 Extended error
 ExtractByteMask
-Eyl
-F
-F0
-F1
+EyIy
+E{E$F
+E{E6F
+E{EAF
+E{ENF
+E{E\F
+E{E\vF
+E{E\vG
+E{E_F
+E{E~F
+E}aj
+F8\r2
 FAMNextEvent
-FAR
-FI
-FIN
-FJ
-FJD
-FK
-FKP
-FM
-FO
-FOO
 FORCE_CACHE_INSTALL
-FOS
-FP=%f
-FR
-FRA
-FRB
-FRC
-FRL
-FRS
 FRS err authentication
 FRS err child to parent comm
 FRS err insufficient priv
@@ -2864,15 +2590,15 @@ Failed to create shadow copy (invalid characters in file name).
 Failed to create shadow copy (invalid characters in shadow directory name).
 Failed to create shadow copy .ini file.
 Failed to create shadow copy of sibling data (CopyFile).
-Failed to execute '%s'.
-Failed to expand heap by %ld bytes
+Failed to execute '%s'.\n
+Failed to expand heap by %ld bytes\n
 Failed to get response from egd socket
-Failed to grow mark stack to %lu frames
-Failed to load AOT module '%s' in aot-only mode.
-Failed to load AOT module '%s' while running in aot-only mode because a dependency cannot be found or it is out of date.
-Failed to load AOT module '%s' while running in aot-only mode.
-Failed to load assembly %s %p
-Failed to load method 0x%x from '%s'.
+Failed to grow mark stack to %lu frames\n
+Failed to load AOT module '%s' in aot-only mode.\n
+Failed to load AOT module '%s' while running in aot-only mode because a dependency cannot be found or it is out of date.\n
+Failed to load AOT module '%s' while running in aot-only mode.\n
+Failed to load assembly %s %p\n
+Failed to load method 0x%x from '%s'.\n
 Failed to open egd socket
 Failed to regain lock
 Failed to send request to egd socket
@@ -2892,16 +2618,16 @@ FastCopy
 FastMonitorEnter
 FastMonitorExit
 FcEfEjEnEsEwEyE
-Feb
+FcEfEjEnEsEwEyE\v
 Febreiro
 Februar
 Februari
 Februarie
 February
-Fgu
 Fi-FI
+FiYW
 Field
-Field `%s' is inaccessible from method `%s'
+Field `%s' is inaccessible from method `%s'\n
 Field doesn't have an RVA
 Field not large enough to fill array
 Field passed in is not a marshaled member of the type %s
@@ -2940,16 +2666,16 @@ FileNotFoundException
 FileVersionInfo
 Filemark detected
 Filename exceeds range
-Fileshare hwm: %d
-Fileshare:
+Fileshare hwm: %d\n
+Fileshare: 
 Filipino (Philippines)
 Fill offline
 FillName
-Finalizable object: 0x%lx
+Finalizable object: 0x%lx\n
 Finalization Survivors
 Finalization of domain %s timed out.
 Finalize
-Finalizers:
+Finalizers:\n
 Find
 FindClose
 FindFirstFile
@@ -2969,14 +2695,14 @@ Floppy wrong cylinder
 Flush(intptr,System.IO.MonoIOError&)
 FormatMessage
 Found as '%s'.
-Found statically linked AOT module '%s'.
+Found statically linked AOT module '%s'.\n
 Found use of uninitialized 'this ptr' ref at 0x%04x
-Fr
+FqJq
 Fr-CH
-Frames for %p(tid=%lx):
+Frames for %p(tid=%lx):\n
 France
-Free list %ld:
-Free memory: %d
+Free list %ld:\n
+Free memory: %d\n
 FreeBSTR
 FreeCoTaskMem
 FreeData
@@ -2995,38 +2721,34 @@ French (Switzerland)
 French Guiana
 French Polynesia
 French Southern Territories
-Fri
 Friday
 Frisian (Netherlands)
+From 0x%lx to 0x%lx 
 FromOADate
-Ft
 Full backup
 Full screen mode
 Full thread dump:
 Function failed
 Function not called
 Function pointer signature '%s' doesn't match delegate's signature '%s' at 0x%04x
-G
-G!
-G"
-G1
-GA
-GB
-GBP
-GC
-GC Warning: Bad initial heap size %s - ignoring it.
-GC Warning: Bad maximum heap size %s - ignoring it.
-GC Warning: Couldn't read /proc/stat
-GC Warning: Duplicate suspend signal in thread %lx
-GC Warning: Finalization cycle involving %lx
-GC Warning: GC_LARGE_ALLOC_WARN_INTERVAL environment variable has bad value: Ignoring
-GC Warning: GC_PAUSE_TIME_TARGET environment variable value too small or bad syntax: Ignoring
-GC Warning: GC_get_nprocs() returned %ld
-GC Warning: Header allocation failed: Dropping block.
-GC Warning: Lost some threads during GC_stop_world?!
-GC Warning: Out of Memory!  Returning NIL!
-GC Warning: Out of Memory!  Trying to continue ...
-GC Warning: Too close to address space limit: blacklisting ineffective
+Fw^(9
+G'G+G
+G/O/d
+G9Bz
+GC Warning: Bad initial heap size %s - ignoring it.\n
+GC Warning: Bad maximum heap size %s - ignoring it.\n
+GC Warning: Couldn't read /proc/stat\n
+GC Warning: Duplicate suspend signal in thread %lx\n
+GC Warning: Finalization cycle involving %lx\n
+GC Warning: GC_LARGE_ALLOC_WARN_INTERVAL environment variable has bad value: Ignoring\n
+GC Warning: GC_PAUSE_TIME_TARGET environment variable value too small or bad syntax: Ignoring\n
+GC Warning: GC_get_nprocs() returned %ld\n
+GC Warning: Header allocation failed: Dropping block.\n
+GC Warning: Lost some threads during GC_stop_world?!\n
+GC Warning: Out of Memory!  Returning NIL!\n
+GC Warning: Out of Memory!  Trying to continue ...\n
+GC Warning: Repeated allocation of very large block (appr. size %ld):\n\tMay lead to memory leak and poor performance.\n
+GC Warning: Too close to address space limit: blacklisting ineffective\n
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
 GCC: (Ubuntu/Linaro 4.6.4-1ubuntu1~12.04) 4.6.4
 GC_ALL_INTERIOR_POINTERS
@@ -3049,10 +2771,10 @@ GC_PRINT_STATS
 GC_RETRY_SIGNALS
 GC_USE_DLL_MAIN
 GC_base (obj) == (char*)obj - offset
-GC_check_heap_block: found smashed heap objects:
-GC_debug_free called on pointer %lx wo debugging info
-GC_debug_free: found previously deallocated (?) object at
-GC_debug_free: found smashed location at
+GC_check_heap_block: found smashed heap objects:\n
+GC_debug_free called on pointer %lx wo debugging info\n
+GC_debug_free: found previously deallocated (?) object at 
+GC_debug_free: found smashed location at 
 GC_debug_gcj_fast_malloc(%ld, 0x%lx) returning NIL (
 GC_debug_gcj_malloc(%ld, 0x%lx) returning NIL (
 GC_debug_malloc(%ld) returning NIL (
@@ -3061,12 +2783,12 @@ GC_debug_malloc_atomic_ignore_off_page(%ld) returning NIL (
 GC_debug_malloc_atomic_uncollectable(%ld) returning NIL (
 GC_debug_malloc_ignore_off_page(%ld) returning NIL (
 GC_debug_malloc_uncollectable(%ld) returning NIL (
-GC_debug_realloc called on pointer %lx wo debugging info
-GC_debug_realloc: encountered bad kind
-GC_debug_realloc: found smashed location at
-GC_debug_register_finalizer called with non-base-pointer 0x%lx
-GC_debug_register_finalizer_ignore_self called with non-base-pointer 0x%lx
-GC_debug_register_finalizer_no_order called with non-base-pointer 0x%lx
+GC_debug_realloc called on pointer %lx wo debugging info\n
+GC_debug_realloc: encountered bad kind\n
+GC_debug_realloc: found smashed location at 
+GC_debug_register_finalizer called with non-base-pointer 0x%lx\n
+GC_debug_register_finalizer_ignore_self called with non-base-pointer 0x%lx\n
+GC_debug_register_finalizer_no_order called with non-base-pointer 0x%lx\n
 GC_delete_thread
 GC_end_blocking
 GC_err_printf clobbered stack
@@ -3078,22 +2800,12 @@ GC_mark_some: bad state
 GC_notify_event
 GC_printf clobbered stack
 GC_push_all_stack
-GC_push_all_stacks: sp not set!
-GC_root_size incorrect: %ld!!
+GC_push_all_stacks: sp not set!\n
+GC_root_size incorrect: %ld!!\n
 GC_same_obj test failed
 GC_start_blocking
-GC_try_to_collect_inner: finishing collection in progress
+GC_try_to_collect_inner: finishing collection in progress\n
 GC_unix_get_mem: Memory returned by mmap is not aligned to HBLKSIZE.
-GD
-GE
-GEL
-GF
-GH
-GHC
-GI
-GIP
-GL
-GLC
 GLIBC_2.11
 GLIBC_2.15
 GLIBC_2.2.5
@@ -3102,21 +2814,7 @@ GLIBC_2.3.2
 GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
-GM
-GMD
-GN
-GNF
-GNU
-GP
-GQ
-GR
-GT
-GTQ
-GU
-GUJ
-GY
-GYD
-G^,
+GTh@
 Gabon
 Galician
 Galician (Spain)
@@ -3124,9 +2822,8 @@ Gallegan
 Gallegan (Spain)
 Gambia
 Gambia Dalasi
-Gcj-style type information is disabled!
-Ge6
-Geg
+Gcj-style type information is disabled!\n
+Gegu
 Gen 0 Promoted Bytes/Sec
 Gen 0 heap size
 Gen 1 Promoted Bytes/Sec
@@ -3138,10 +2835,10 @@ Generic not mapped
 Generic type definition failed to load
 Generic virtual cases
 Generic virtual thunk bytes
-Generic vtables:        %ld
+Generic vtables:        %ld\n
 GenericComparer`1
 GenericEqualityComparer`1
-GenericInst: Invalid GenericInst kind %x
+GenericInst: Invalid GenericInst kind %x\n
 GenericInst: Not enough room for argument count
 GenericInst: Not enough room for kind
 GenericInst: Not enough room for type token
@@ -3162,7 +2859,7 @@ GenericParamConstraint table row %d has invalid Owner token %08x
 GenericParamConstraint table row %d has null Constraint token
 GenericTypeParameterBuilder
 Generics
-Generics virtual invokes: %ld
+Generics virtual invokes: %ld\n
 Georgia
 Georgian
 Georgian (Georgia)
@@ -3174,7 +2871,6 @@ German (Liechtenstein)
 German (Luxembourg)
 German (Switzerland)
 Germany
-Get
 GetAbortExceptionState
 GetAddrOfPinnedObject
 GetAppDomainTarget
@@ -3333,30 +3029,27 @@ GetVersionInfo_internal(string)
 GetVirtualMethod
 GetWindowsFolderPath
 GetWorkingSet_internal(intptr,int&,int&)
-Getting values for sem: 0x%x
+Getting values for sem: 0x%x\n
 Ghana
 Ghana Cedi
 Gibraltar
 Gibraltar Pound
 Global only hook
-Gr
 Graceful disconnect
-Grd
 Greece
 Greek
 Greek (Greece)
 Greenland
 Greenlandic (Greenland)
 Grenada
-Grew dl table to %lu entries
-Grew fo table to %lu entries
-Grew mark stack to %lu frames
+Grew dl table to %lu entries\n
+Grew fo table to %lu entries\n
+Grew mark stack to %lu frames\n
 Group exists
 Group not available
 Group not found
 Group not online
-Gs
-Gsh
+Gruod
 Guadeloupe
 Guam
 Guatemala
@@ -3368,17 +3061,12 @@ Gujarati
 Gujarati (India)
 Guyana
 Guyana Dollar
-H
-H"
+H H)H-H
 H'h'm'min's's' z
-H+*
 H.mm.ss
-H1
 H:mm
 H:mm:ss
 H:mm:ss z
-HANDLE-GLOBAL-VREGS BLOCK %d:
-HEB
 HH.mm
 HH.mm.ss
 HH.mm.ss z
@@ -3387,40 +3075,26 @@ HH:mm:ss
 HH:mm:ss (z)
 HH:mm:ss d MMMM yyyy
 HH:mm:ss z
-HIN
-HK
-HK$
-HKD
-HM
-HN
-HNL
+HIKIKIKIRIYI]IHI
 HOME
-HR
-HRK
-HRV
-HU
-HUF
-HUN
-HW
 HWNDs have different parent
-HY
-HYE
+HXNXNXNX^XUMO
+H\tI\rI
 Handle EOF
 Handle disk full
 HandleRef
 HandleRefs can not be returned from unmanaged code (or passed by ref)
-Handles:
+Handles: 
 Hash algorithm 0x%x unknown
 Hausa (Nigeria, Latin)
-Haz
-Hazardous pointers:     %ld
+Hazardous pointers:     %ld\n
 Haziran
 Heard Island and McDonald Islands
 Hebrew
 Hebrew (Israel)
 Hindi
 Hindi (India)
-Hm0
+HoZh
 Hoduras Lempira
 Honduras
 Hong Kong Dollar
@@ -3438,63 +3112,49 @@ Host node not resource owner
 Host unreachable
 Hotkey already registered
 Hotkey not registered
+HrLr
 Hungarian
 Hungarian (Hungary)
 Hungarian Forint
 Hungary
-Hy
-I
-I"
-I1
+I%I)I
 I18N
 I18N.CJK
 I18N.MidEast
 I18N.Other
 I18N.Rare
 I18N.West
-I@
 ICM not enabled
 ICollection`1
 IComparable`1
 ICustomMarshaler
-ID
-IDR
 IDispatch
-IE
 IEnumerable`1
 IEnumerator`1
-II
-III
-IL
 IL Bytes Jitted/Sec
-ILS
 IL_%04x
-IL_%04x:
+IL_%04x: 
 IL_%04x: mono_classconst <%s>
 IL_%04x: mono_icall <%s>
 IList
 IList`1
-IMT colliding slots:    %ld
-IMT max collisions:     %ld
-IMT methods at max col: %ld
-IMT number of methods:  %ld
-IMT number of tables:   %ld
-IMT tables size:        %ld
-IMT thunks size:        %ld
-IMT used slots:         %ld
-IN
-IND
-INLINE ABORTED %s
-INLINE END %s -> %s
-INLINE START %p %s -> %s
-INR
-IO
+IMT colliding slots:    %ld\n
+IMT max collisions:     %ld\n
+IMT methods at max col: %ld\n
+IMT number of methods:  %ld\n
+IMT number of tables:   %ld\n
+IMT tables size:        %ld\n
+IMT thunks size:        %ld\n
+IMT used slots:         %ld\n
+INLINE ABORTED %s\n
+INLINE END %s -> %s\n
+INLINE START %p %s -> %s\n
 IO incomplete
 IO pending
 IOException
 IOPL not enabled
-IP %p at offset 0x%x of method %s (%p %p)[domain %p - %s]
-IP %p is a JIT trampoline for %s
+IP %p at offset 0x%x of method %s (%p %p)[domain %p - %s]\n
+IP %p is a JIT trampoline for %s\n
 IPSEC IKE add update key failed
 IPSEC IKE attrib fail
 IPSEC IKE auth fail
@@ -3600,40 +3260,26 @@ IPSEC transport filter pending deletion
 IPSEC tunnel filter exists
 IPSEC tunnel filter not found
 IPSEC tunnel filter pending deletion
-IQ
-IQD
-IR
-IR code for method %s
+IR code for method %s\n
 IRQ busy
-IRR
 IRemotingTypeInfo
 IRemotingTypeInfo:CanCastTo
-IS
-ISK
-ISL
 IS_JIT_INFO_TOMBSTONE (chunk->data [pos])
+IS_MONOTYPE (type)
 ISerializable
-IT
-ITA
-ITS
-IV
-IX
-Ian
 Iceland
 Icelandic
 Icelandic (Iceland)
 Icelandic Krona
-If you see other errors or faults after this message they are probably related
-IfW
-Ignoring invocation of an instance method on a NULL instance.
-Iju
+If you see other errors or faults after this message they are probably related\n
+Ignoring invocation of an instance method on a NULL instance.\n
 Ijumaa
 Ill formed password
 Illegal element address
 Illegal value set on stack 0x%02x at %d
 Image %s with invalid assemblyref token %08x.
 Image %s with self-referencing typeref token %08x.
-Image addref %s %p -> %s %p: %d
+Image addref %s %p -> %s %p: %d\n
 ImplMap
 Implement type 0x%02x in get_enum_info
 Implement type 0x%02x in get_hashcode
@@ -3641,7 +3287,7 @@ Import Address Table
 Import Address Table rva %x different from data directory entry %x
 Import Lookup Table
 Import table size %d is smaller than 40
-In class
+In class 
 Inc backup
 Incalid appdomain state %d
 Incompatible method signature class token 0x%08x field name %s token 0x%08x on image %s
@@ -3656,7 +3302,7 @@ Incompatible type '%s' on stack cannot be stored to local %d with type '%s' at 0
 Inconsistent generic parameter count.  Signature says %d, generic_params table says %d for method 0x%08x from image %s
 Incorrect address
 Incorrect value returned from break policy callback
-Increasing heap size by %lu after %lu allocated bytes
+Increasing heap size by %lu after %lu allocated bytes\n
 Increment
 Increment(int&)
 Increment(long&)
@@ -3677,19 +3323,18 @@ Inflated classes
 Inflated classes size
 Inflated methods size
 Inflated signatures size
-Inflated types:         %ld
+Inflated types:         %ld\n
 Infloop in reloc chain
 InheritanceDemand
 InheritanceDemandSecurityException
 InitMessage
 InitializeArray
 InitializeInterfaceAddresses
-Initialized classes:    %ld
-Initiating full world-stop collection %lu after %ld allocd bytes
+Initiating full world-stop collection %lu after %ld allocd bytes\n
 Initobj %s not compatible with value on stack %s at 0x%04x
 Inline method calls
-Inlineable methods:     %ld
-Inlined methods:        %ld
+Inlineable methods:     %ld\n
+Inlined methods:        %ld\n
 Install UI failure
 Install already running
 Install failure
@@ -3713,18 +3358,19 @@ InstanceExistsInternal
 Instruction cpblk is not verifiable at 0x%04x
 Instruction initblk is not verifiable at 0x%04x
 Instruction localloc in never verifiable at 0x%04x
-Instruction metadata for %s inconsistent.
+Instruction metadata for %s inconsistent.\n
 Instruction scheduling
 Insufficient buffer
-Insufficient memory for black list
+Insufficient memory for black list\n
+Insufficient space for initial table allocation
 IntGetNextArg()
 IntGetNextArg(intptr)
 IntGetNextArgType
-Interface flags:
-Interface: assigned id %d to %s|%s|%d
+Interface flags: 
+Interface: assigned id %d to %s|%s|%d\n
 InterfaceImpl
 InterfaceTypeAttribute
-Interfaces %s.%s (max_iid = %d)
+Interfaces %s.%s (max_iid = %d)\n
 InterleaveHigh
 InterleaveLow
 Interlocked
@@ -3787,7 +3433,7 @@ InvSqrt
 Invalid
 Invalid %s type at 0x%04x
 Invalid 'this ptr' argument for constructor at 0x%04x
-Invalid --wapi suboption: '%s'
+Invalid --wapi suboption: '%s'\n
 Invalid ACL
 Invalid CLI header flags
 Invalid CLS name '%s` in Event row %d
@@ -3829,7 +3475,7 @@ Invalid GW command
 Invalid Hint / Name: '%s'
 Invalid Hint/Name rva %d for %s
 Invalid ID authority
-Invalid IL code in %s: %s
+Invalid IL code in %s: %s\n
 Invalid ImplMap row %d Flags field %08x
 Invalid ImplMap row %d ImportName Token %x
 Invalid ImplMap row %d Invalid ImportScope token %x
@@ -3916,7 +3562,7 @@ Invalid data
 Invalid data directory %d
 Invalid data directory %d rva/size pair %x/%x
 Invalid datatype
-Invalid debug option `%s', use --help-debug for details
+Invalid debug option `%s', use --help-debug for details\n
 Invalid delegate constructor at 0x%04x
 Invalid destination of cpobj operation at 0x%04x
 Invalid destination of stobj operation at 0x%04x
@@ -3969,7 +3615,7 @@ Invalid generic type (%s%s) (argument out of range or %s is not generic) at 0x%0
 Invalid generic type argument %d
 Invalid generic type instantiation of type %s.%s (generic args don't respect target's constraints) at 0x%04x
 Invalid generic type instantiation of type %s.%s at 0x%04x
-Invalid graph name provided: %s
+Invalid graph name provided: %s\n
 Invalid group attributes
 Invalid group name
 Invalid handle
@@ -4009,8 +3655,8 @@ Invalid message
 Invalid message dest
 Invalid message name
 Invalid metadata signature, expected 0x424A5342 but got %08x
-Invalid method name %s
-Invalid method name: %s
+Invalid method name %s\n
+Invalid method name: %s\n
 Invalid method on stack to create delegate %s construction at 0x%04x
 Invalid method row %d .ctor or .cctor has generic param
 Invalid method row %d ParamList be be >= 1
@@ -4062,12 +3708,12 @@ Invalid non-pointer argument to stind at 0x%04x
 Invalid null type at 0x%04x
 Invalid object address for initobj at 0x%04x
 Invalid object argument, it is not the this pointer, to ldftn with virtual method at  0x%04x
-Invalid opcode %d argument %d max opcode %d
+Invalid opcode %d argument %d max opcode %d\n
 Invalid operation
 Invalid operation on quorum
 Invalid oplock protocol
-Invalid optimization name `%s'
-Invalid option for the MONO_DEBUG env variable: %s
+Invalid optimization name `%s'\n
+Invalid option for the MONO_DEBUG env variable: %s\n
 Invalid optional header magic %d
 Invalid optional header size %d
 Invalid ordinal
@@ -4129,7 +3775,7 @@ Invalid thread ID
 Invalid time
 Invalid token %x for ldftn  at 0x%04x
 Invalid token 0x%x for ldtoken at 0x%04x
-Invalid trampoline sequence: %x %x %x %x %x %x %x
+Invalid trampoline sequence: %x %x %x %x %x %x %x\n
 Invalid transform
 Invalid type %s at stack for unbox operation at 0x%04x
 Invalid type %s at stack for unbox.any operation at 0x%04x
@@ -4142,7 +3788,7 @@ Invalid type at stack for ldojb operation at 0x%04x
 Invalid type at stack for unary not at 0x%04x
 Invalid type in _wapi_shm_attach ()
 Invalid type on stack for throw, expected reference type at 0x%04x
-Invalid type on stack for throw, expected reference type but found unboxed %s  at 0x%04x
+Invalid type on stack for throw, expected reference type but found unboxed %s  at 0x%04x 
 Invalid type token %x at 0x%04x
 Invalid type token 0x%08x
 Invalid type token 0x%08x at 0x%04x
@@ -4185,8 +3831,7 @@ InvalidProgramException
 Invariant Language (Invariant Country)
 InvokeInDomain
 InvokeMember
-Invoking method '%s' when running in no-exec mode.
-Iq
+Invoking method '%s' when running in no-exec mode.\n
 Iran
 Iranian Rial
 Iraq
@@ -4222,34 +3867,29 @@ Issuing CA untrusted
 It is illegal to get the value on a field on a type loaded using the ReflectionOnly methods.
 It is illegal to invoke a method on a type loaded using the ReflectionOnly api.
 It is illegal to set the value on a field on a type loaded using the ReflectionOnly methods.
-It should have been installed in the `%s' directory.
+It should have been installed in the `%s' directory.\n
 Italian
 Italian (Italy)
 Italian (Switzerland)
 Italy
 Iterated data exceeds 64k (and that should be enough for anybody!)
-Iul
-Iun
-Iy
-J
-J1
-JIT
-JIT info table inserts: %ld
-JIT info table lookups: %ld
-JIT info table removes: %ld
-JIT time: %d ms, Generation time: %d ms, Assembly+Link time: %d ms.
+IwMw
+IxMx
+J!J)J-J
+J0b8L%
+JHJHJHQH[H_HY
+JIT info table inserts: %ld\n
+JIT info table lookups: %ld\n
+JIT info table removes: %ld\n
+JIT time: %d ms, Generation time: %d ms, Assembly+Link time: %d ms.\n
 JITted code
-JM
-JMD
-JO
-JOD
-JP
-JPN
-JPY
+JLdz9)
+JNt3
+J^P^P^P^d^{^_HY
 Ja-JP
+JaTg
 Jamaica
 Jamaican Dollar
-Jan
 Januar
 Januari
 Januarie
@@ -4258,8 +3898,7 @@ Japan
 Japanese
 Japanese (Japan)
 Japanese Yen
-Jmo
-Jnn
+Jg,(k7
 Join to join
 Join to subst
 Join_internal
@@ -4269,68 +3908,36 @@ Journal delete in progress
 Journal entry deleted
 Journal hook set
 Journal not active
-Jpi
-Jtn
-Jtt
-Jul
 Julai
 Juli
 Julie
 July
-Jum
 Jumamosi
 Jumanne
 Jumapili
 Jumat
 Jumatano
 Jumatatu
-Jun
 June
 Juni
 Junie
-Jw
-K
+K!K!K!K)K3K7K
 K'iche (Guatemala)
-K0
-K1
-KAN
-KAT
-KE
-KES
-KG
-KGS
-KH
-KHR
-KI
-KM
+KFsUr
+KJNJNJNJVJ_JcJKJ
+KKh0
 KM driver blocked
-KMF
-KN
-KNK
-KOQ
-KOR
-KP
-KPW
-KR
-KRW
-KSh
-KW
-KWD
-KY
-KYD
-KZ
-KZT
-Kam
+KP'REt
+K\r87
+K]\fyK
+K]\fyKaU
 Kamis
 Kannada
 Kannada (India)
-Kas
 Kazakh
 Kazakh (Kazakhstan)
 Kazakhstan
 Kazakhstan Tenge
-Kb
-Kbn
 KeepAlive
 Kenya
 Kenyan Shilling
@@ -4343,65 +3950,39 @@ Kinyarwanda (Rwanda)
 Kiribati
 Kiswahili
 Kiswahili (Kenya)
-Kn
 Konkani
 Konkani (India)
-Kor
 Korean
 Korean (Korea)
 Korean (South Korea)
-Kov
 Kovo
-Kt
 Kuwait
 Kuwaiti Dinar
 Kyrgystan Som
 Kyrgyz (Cyrillic)
 Kyrgyz (Kyrgyzstan)
 Kyrgyzstan
-L
-L.
-L0
-L1
-LA
-LAK
+L#^r{Nx
 LANG
-LAST AOT METHOD: %p %d
-LAST AOT METHOD: %s%s%s.%s.
-LB
+LAST AOT METHOD: %p %d\n
+LAST AOT METHOD: %s%s%s.%s.\n
 LB without tabstops
-LBP
-LC
 LC_ALL
 LEAVE: %s
-LI
-LINEAR SCAN 2 for %s:
 LINES
-LIVENESS 3 %s
-LIVENESS BLOCK BB%d:
-LK
-LKR
-LL,
+LIVENESS 3 %s\n
+LIVENESS BLOCK BB%d:\n
+LLOLOLOLWLaLeLLL
 LM cross encryption required
-LOCAL REGALLOC: BASIC BLOCK %d:
-LR
-LRD
-LT
-LTH
-LTL
-LU
 LUIDs exhausted
-LV
-LVI
-LVL
-LY
-LYD
+LVxC
+L\fP\fO
 Label too long
 Language Neutral
 Lao (Lao PDR)
 Laos
 Laotian Kip
-Lap
+Lapkri
 Large Object Heap size
 Last admin
 Latvia
@@ -4409,13 +3990,12 @@ Latvian
 Latvian (Latvia)
 Latvian Lats
 Leaf procedures optimizations
-Leaked atomic object at
-Leaked composite object at
+Leaked atomic object at 
+Leaked composite object at 
 Leave not allowed in finally block at 0x%04x
 Lebanese Pound
 Lebanon
-Lek
-LgP
+LiL)W
 Liberia
 Liberian Dollar
 Library full
@@ -4423,23 +4003,23 @@ Library offline
 Libya
 Libyan Dinar
 Licence quota exceeded
-Lie
 Liechtenstein
 Liepos
+Lietuvi
 Linear scan global reg allocation
 LingerOption
 LinkDemand
-LinkDemand (aptc)     : %ld
-LinkDemand (icall)    : %ld
-LinkDemand (pinvoke)  : %ld
-LinkDemand (user)     : %ld
+LinkDemand (aptc)     : %ld\n
+LinkDemand (icall)    : %ld\n
+LinkDemand (pinvoke)  : %ld\n
+LinkDemand (user)     : %ld\n
 LinkDemandFullTrust
 LinkDemandSecurityException
 LinkDemandUnmanaged
-Linking symbol: '%s'.
+Linking symbol: '%s'.\n
 Listbox ID not found
 Listen_internal(intptr,int,int&)
-Listening on %s:%d (timeout=%d ms)...
+Listening on %s:%d (timeout=%d ms)...\n
 Literal and InitOnly cannot be both set in Field row %d
 Literal needs also Static set in Field row %d
 Lithuania
@@ -4452,26 +4032,26 @@ LoadAssembly
 LoadAssemblyRaw
 LoadFrom
 LoadPermissions
-Loaded from: %s
+Loaded from: %s\n
 Loaded method is not visible for ldftn/ldvirtftn at 0x%04x
 LoadedFromMemory
 Local
 Local user session key
 LocalEndPoint_internal(intptr,int&)
 LocalVariableInfo
-Locals stack size:      %ld
+Locals stack size:      %ld\n
 LocalsSig: Error parsing local %d
 LocalsSig: Not enough room for signature
 LocalsSig: Not enough room for the param count
 LocalsSig: Not enough room for type
 LocalsSig: Signature is not 0x28 or 0x08: %x
-Lock %p in object %p held by thread %p, nest level: %d
-Lock %p in object %p untaken
+Lock %p in object %p held by thread %p, nest level: %d\n
+Lock %p in object %p untaken\n
 Lock failed
 Lock violation
 Lock(intptr,long,long,System.IO.MonoIOError&)
+LockFile
 Locked
-Log
 Log file full
 Log10
 LogicalRightShift
@@ -4484,41 +4064,22 @@ Logon session exists
 Logon type not granted
 Loop related optimizations
 Lower Sorbian (Germany)
-Ls
-Lt
 Lt-az-AZ
 Lt-sr-SP
 Lt-uz-UZ
-Lun
 Luns
 Luxembourg
 Luxembourgish (Luxembourg)
-M
-M"
+Lzw\n
+M"M2M6M
+M'G+G
 M/d/yy
 M/d/yyyy
-M0
-M1
-MA
-MAD
-MAR
-MC
-MD
-MDL
-METHOD %s(%s)
+METHOD %s(%s)\n
 METHOD_ENTRY
 METHOD_EXIT
-MG
-MGF
-MH
-MK
-MKD
-MKI
-ML
-MM
 MM/dd/yy
 MM/dd/yyyy
-MMK
 MMMM
 MMMM d
 MMMM d 'd.'
@@ -4529,12 +4090,11 @@ MMMM dd
 MMMM dd, yyyy
 MMMM dd, yyyy H:mm:ss
 MMMM yyyy
+MMMM yyyy '
 MMMM' de 'yyyy
 MMMM'ta'yyyy
 MMMM, yyyy
-MN
-MNT
-MO
+MOGSG/G%N
 MONO
 MONO_AOT_CACHE
 MONO_CFG_DIR
@@ -4575,31 +4135,10 @@ MONO_VALGRIND_LEAK_CHECK
 MONO_VARINFO (cfg, i)->reg == -1
 MONO_VERBOSE_METHOD
 MONO_XDEBUG
-MOP
-MP
-MQ
-MR
 MRGCTX bytes alloced
 MRGCTX num arrays alloced
-MRO
-MS
 MS-DOS lfanew offset points to outside of the file
-MT
-MTL
-MU
-MUR
-MV
 MVAR %d (%s) cannot be expanded in this context with %d instantiations
-MVR
-MW
-MWK
-MX
-MXN
-MY
-MYR
-MZ
-MZM
-Ma
 Maandag
 Maart
 Macao Pataca
@@ -4613,11 +4152,9 @@ Machine locked
 Madagascar
 Madagascar Franc
 Magazine not present
-Mai
 Maio
-Maj
-Major GC collections:   %ld
-Major GC time in msecs: %lf
+Major GC collections:   %ld\n
+Major GC time in msecs: %lf\n
 MakeGenericMethod
 MakeGenericMethod_impl
 MakeGenericType
@@ -4642,7 +4179,7 @@ ManifestResource table row %d has invalid Flags VisibilityMask %08x
 ManifestResource table row %d has invalid Implementation token %08x
 ManifestResource table row %d has invalid Implementation token table %08x
 ManifestResource table row %d has invalid Name %08x
-ManifestResource table row %d invalid Offset field %08x
+ManifestResource table row %d invalid Offset field %08x 
 ManifestResource table row %d points to a file but has non-zero offset
 Manual
 ManualResetEvent
@@ -4650,14 +4187,13 @@ Maori
 Maori (New Zealand)
 Mapped alignment
 Mapudungun (Chile)
-Mar
 Marathi
 Marathi (India)
 March
 Maret
 Mark
-Mark stack overflow; current size = %lu entries
-Marked from %lu dirty pages
+Mark stack overflow; current size = %lu entries\n
+Marked from %lu dirty pages\n
 MarshalByRefObject
 MarshalDirectiveException
 MarshalManagedToNative
@@ -4676,13 +4212,11 @@ Mauritania
 Mauritania Ouguiya
 Mauritius
 Mauritius Rupee
-Max
-Max basic blocks:       %ld
-Max code size ratio:    %.2f (%s)
+Max basic blocks:       %ld\n
+Max code size ratio:    %.2f (%s)\n
 Max code space allocated in a domain
 Max native code in a domain
 Max thrds reached
-May
 Mayotte
 Media changed
 Media incompatible
@@ -4690,7 +4224,6 @@ Media not available
 Media offline
 Media unavailable
 Medium not accessible
-Mei
 Member in alias
 Member in group
 Member not in alias
@@ -4702,8 +4235,9 @@ Memberref parent unknown: class: %d, index %d
 Memberref signature cache size
 Members primary group
 MemberwiseClone
-Memory available again ...
+Memory available again ...\n
 MemoryBarrier
+Mempool %p stats:\n
 Menu item not found
 Message exceeds max size
 Message sync only
@@ -4729,15 +4263,15 @@ MetadataToken is not supported for type '%s.%s'
 Metafile not supported
 Method
 Method %s does not have any IL associated
-Method %s emitted as %s
-Method %s emitted at %p to %p (code length %d) [%s]
+Method %s emitted as %s\n
+Method %s emitted at %p to %p (code length %d) [%s]\n
 Method %s is not accessible at 0x%04x
 Method %s is too complex.
 Method %s stack is too big.
-Method '%s' in assembly '%s' contains native code that cannot be executed by Mono on this platform. The assembly was probably created using C++/CLI.
-Method AppDomain.DoAssemblyResolve not found.
-Method AppDomain.DoTypeResolve not found.
-Method `%s' is inaccessible from method `%s'
+Method '%s' in assembly '%s' contains native code that cannot be executed by Mono on this platform. The assembly was probably created using C++/CLI.\n
+Method AppDomain.DoAssemblyResolve not found.\n
+Method AppDomain.DoTypeResolve not found.\n
+Method `%s' is inaccessible from method `%s'\n
 Method belongs to a different class than the declared one
 Method contains unsupported native code
 Method doesn't have argument %d
@@ -4749,10 +4283,10 @@ Method from token 0x%08x not a constructor at 0x%04x
 Method must be virtual to override a base type
 Method must not be static to override a base type
 Method name is in a bad format in --break-at-bb command line option.
-Method name is in a bad format in --inject-async-exc command line option
+Method name is in a bad format in --inject-async-exc command line option\n
 Method overrides a class or interface that extended or implemented by this type
 Method returns byref, TypedReference, ArgIterator or RuntimeArgumentHandle at 0x%04x
-Method trampolines:     %ld
+Method trampolines:     %ld\n
 Method with locals variable but without init locals set
 MethodAccessException
 MethodBody
@@ -4808,35 +4342,32 @@ MethodSpec: Invalid call convention 0x%x, expected 0x0A
 MethodSpec: Not enough room for call convention
 MethodSpec: Not enough room for parameter count
 MethodSpec: Zero generic argument count
-Methods cache lookup:   %ld
-Methods from AOT:       %ld
-Methods without GOT slots: %d (%d%%)
-Methods:                %ld
+Methods cache lookup:   %ld\n
+Methods from AOT:       %ld\n
+Methods without GOT slots: %d (%d%%)\n
+Methods:                %ld\n
 Mexican Peso
 Mexico
-Mi
 Micronesia
 Microsoft.VisualBasic
 Microsoft.VisualC
-Min
 Minggu
 Missing
-Missing assembly reference in %s/mscorlib.dll
+Missing assembly reference in %s/mscorlib.dll\n
 Missing field %s in class %s (type token %d)
 Missing field layout info for %s
-Missing header!!(%ld)
+Missing header!!(%ld)\n
 Missing medatata section in the CLI header
 Missing method %s in assembly %s, type %s
 Missing method %s.%s.%s in assembly %s token %x
 Missing method %s::%s in assembly %s, referenced in assembly %s
-Missing method name in --break command line option
+Missing method name in --break command line option\n
 Missing method name or bb num in --break-at-bb command line option.
-Missing method name or position in --inject-async-exc command line option
+Missing method name or position in --inject-async-exc command line option\n
 Missing or incorrect header for method %s
 MissingFieldException
 MissingMethodException
 Mittwoch
-Mo
 Module
 Module has a non zero Enc field %x
 Module has a non zero EncBase field %x
@@ -4849,7 +4380,6 @@ Moduleref
 Mohawk (Mohawk)
 Moldova
 Moldovan Leu
-Mon
 Monaco
 Monday
 Mongolia
@@ -4868,12 +4398,12 @@ Monitor_try_enter
 Monitor_wait
 Mono
 Mono AOT Compiler %s
-Mono Ahead of Time compiler - compiling assembly %s
-Mono JIT compiler version %sCopyright (C) 2002-2010 Novell, Inc and Contributors. www.mono-project.com
-Mono Jit statistics
+Mono Ahead of Time compiler - compiling assembly %s\n
+Mono JIT compiler version %s\nCopyright (C) 2002-2010 Novell, Inc and Contributors. www.mono-project.com\n
+Mono Jit statistics\n
 Mono Memory
-Mono requires /proc to be mounted.
-Mono runtime is shutting down: dropping %s
+Mono requires /proc to be mounted.\n
+Mono runtime is shutting down: dropping %s\n
 Mono.Cairo
 Mono.CompilerServices.SymbolWriter
 Mono.Data
@@ -4899,8 +4429,8 @@ Mono.Tasklets.Continuation::mark
 Mono.Tasklets.Continuation::restore
 Mono.Tasklets.Continuation::store
 Mono.Xml.Ext
-Mono: Error %d with text %s is improperly sorted in io-layer/messages.c
-Mono: Incorrect message sorted in io-layer/messages.c at index %d (msg=%s)
+Mono: Error %d with text %s is improperly sorted in io-layer/messages.c\n
+Mono: Incorrect message sorted in io-layer/messages.c at index %d (msg=%s)\n
 MonoArrayMethod
 MonoAsyncCall
 MonoBehaviour
@@ -4929,63 +4459,40 @@ Morocco
 MoveFile(string,string,System.IO.MonoIOError&)
 Mozambique
 Mozambique Metical
-Mprotect failed at 0x%lx (length %ld) with errno %ld
+Mprotect failed at 0x%lx (length %ld) with errno %ld\n
 Mprotect remapping failed
 Mr Mid not found
-Mrz
-Mscorlib mempool size:  %d
+Mscorlib mempool size:  %d\n
+MtMiL
+MtMtM)W
 MulticastDelegate
 MultiplyStoreHigh
 Must be >= 0
 Mutual auth failed
 Myanmar
 Myanmar Kyat
-N
-N!
 N.Event
 N.Mutex
 N.Sem
-N0
-N1
-N@
-NC
-NE
-NF
-NG
-NGN
-NI
-NIO
-NL
-NLB
-NLD
-NM
-NO
-NOK
-NON
-NOR
+N.kE5m<=
+N0sk
 NORMAL
-NOT REGVAR: %d
-NP
-NPR
-NR
+NOT REGVAR: %d\n
+NOTOTOTOTO\rH
 NT cross encryption required
-NT$
-NU
-NU$
-NZ
-NZD
-Na
-NaN
 Name '%s` in ModuleRef row %d doesn't have a match in File table
-Namespace:
+Namespace: 
 Native Int
 Native Pointer
-Native code size:       %ld
+Native code size:       %ld\n
 Native int is not a verifiable type to reference a field at 0x%04x
-Native stacktrace:
 Nauru
-Ne
+NbTbTbTbTbjb
+NdP#
+NdTdTdTdgd{d-H
+Nede
 Nederlands
+Nederlands (Belgi
 Nederlands (Nederland)
 Negative seek
 Nepal
@@ -5012,15 +4519,14 @@ Network unreachable
 New Caledonia
 New Zealand
 New Zealand Dollar
-Ng
 Nicaragua
 Nicaraguan Cordoba Oro
 Niger
 Nigeria
 Nigerian Naira
-Nis
 Nisan
 Niue
+NlDw`z
 No EFS
 No PInvoke conversion exists for value passed to Object-typed parameter.
 No access
@@ -5036,8 +4542,9 @@ No log space
 No logon servers
 No match
 No media in drive
+No memory left
 No message specified
-No method at %p
+No method at %p\n
 No more devices
 No more files
 No more items
@@ -5057,7 +4564,7 @@ No security on object
 No shutdown in progress
 No signal sent
 No sitename
-No space for mark stack
+No space for mark stack\n
 No spool space
 No such alias
 No such domain
@@ -5106,6 +4613,7 @@ Norway
 Norwegian
 Norwegian (Bokmal)
 Norwegian (Nynorsk)
+Norwegian Bokm
 Norwegian Bokm?l (Norway)
 Norwegian Krone
 Norwegian Nynorsk (Norway)
@@ -5144,7 +4652,6 @@ Not supported on standard server
 NotImplementedException
 NotSupportedException
 Notify enum dir
-Nov
 Novell.Directory.Ldap
 Novemba
 November
@@ -5153,17 +4660,17 @@ Npgsql
 Null LM password
 NullReferenceException
 Nullable`1
-Num chunks: %d
-O
-O!
-O0
-O1
+Num chunks: %d\n
+O)qF
+O8M2
+OBHFH1H
 OBJECT_REF
-OM
-OMR
+OBuf
+OC,i
 OR Invalid OID
 OR Invalid OXID
 OR Invalid set
+O[H_HY
 Object already exists
 Object does not match target type.
 Object in list
@@ -5171,15 +4678,10 @@ Object is not a managed pointer for a constrained call at 0x%04x
 Object is remote
 Object not compatible with constrained type at 0x%04x
 Object reference not set to an instance of an object
-Object: 0x%lx, Link:0x%lx
-Oca
+Object: 0x%lx, Link:0x%lx\n
 Ocak
-Oct
 October
-Oe
-Of]
 OffsetOf
-Okt
 Oktoba
 Oktober
 Old corlib found. Install a new one
@@ -5207,57 +4709,27 @@ Operation not supported
 Operation on non-blocking socket would block
 Oplock not granted
 Optimize exception catch blocks
-Out
 Out of memory
 Out of paper
 Out of structures
 OutOfMemoryException
-Output file: '%s'.
+Output file: '%s'.\n
 Outubro
-Overall results: tests: %d, 100%% pass, opt combinations: %d
-Overall results: tests: %d, failed: %d, opt combinations: %d (pass: %.2f%%)
+Overall results: tests: %d, 100%% pass, opt combinations: %d\n
+Overall results: tests: %d, failed: %d, opt combinations: %d (pass: %.2f%%)\n
 Override no changes
-P
-P0
-P1
-PA
-PAB
-PD
-PE
+OxH|HcH
 PEAPI
-PEN
-PF
-PG
-PGK
-PH
 PHI (
-PHP
-PK
 PK init client failure
 PK init failure
-PKR
-PL
-PLK
-PLN
-PM
-PN
-PN=
-PR
-PRECOMPILE: %s.
+PRECOMPILE: %s.\n
 PRIVATE_BINPATH
-PT
-PTB
-PTG
 PTRFREE
-PW
-PY
-PYG
-P[
-P]
-P_
+P\tI\rI
 PackWithSignedSaturation
 PackWithUnsignedSaturation
-Packed interface table for class %s has size %d
+Packed interface table for class %s has size %d\n
 Packing size %d in class layout row %d is invalid
 Paged system resources
 Pagefile quota
@@ -5301,20 +4773,17 @@ Patch package rejected
 Patch package unsupported
 Patch target not found
 Path busy
-Paz
 Pazar
 Pazartesi
 Peephole postpass
 PeerCredData
 Penktadienis
-Per
 Persian
 Persian (Iran)
 Peru
 Peruvian Sol Nuevo
 Philippine Peso
 Philippines
-Pi
 Piatok
 Pipe
 Pipe busy
@@ -5323,10 +4792,8 @@ Pipe listening
 Pipe not connected
 Pirmadienis
 Pitcairn
-Pk
-Please add the correct encoding to MONO_EXTERNAL_ENCODINGS and try again.
-Pn
-Po
+PkTk
+Please add the correct encoding to MONO_EXTERNAL_ENCODINGS and try again.\n
 Point not found
 PointerType
 Poland
@@ -5345,9 +4812,7 @@ Portuguese (Brazil)
 Portuguese (Portugal)
 Possible deadlock
 Potential file found
-Pow
-Pr
-Pre
+Pr*Zw
 Precompile all methods before executing Main
 PrefetchNonTemporal
 PrefetchTemporal1stLevelCache
@@ -5355,7 +4820,6 @@ PrefetchTemporal2ndLevelCache
 PrefetchTemporalAllCacheLevels
 Prelink
 PrelinkAll
-Pri
 Print cancelled
 Print monitor already installed
 Print monitor in use
@@ -5384,11 +4848,10 @@ ProcessModule
 ProcessName_internal(intptr)
 ProcessStartInfo
 Process_free_internal(intptr)
-Processing (%d):
-Processing R%d:
-Processing block %d [dfn %d] done.
-Processing block %d [dfn %d]...
-Processing instruction %d
+Processing (%d): 
+Processing R%d: 
+Processing block %d [dfn %d] done.\n
+Processing instruction %d\n
 Processor
 ProcessorArchitecture=
 Product uninstalled
@@ -5418,7 +4881,6 @@ Protocol not supported
 Protocol option not supported
 Protocol unreachable
 Protocol wrong type for socket
-Pt
 PtrToStringAnsi(intptr)
 PtrToStringAnsi(intptr,int)
 PtrToStringBSTR
@@ -5433,13 +4895,9 @@ PublicKeyToken=
 Puerto Rico
 Punjabi
 Punjabi (India)
-Py
-Pzt
-Q
-Q0
-Q1
-QA
-QAR
+Q#Q=Q=QXQ@InQrQuQ
+Q%I)I
+Q9Mc{[
 QOS admission failure
 QOS bad object
 QOS bad style
@@ -5467,12 +4925,10 @@ QOS request confirmed
 QOS reserved petype
 QOS senders
 QOS traffic ctrl error
-QS
-QY
+QYI]IHI
+QaWaWaWaka
 Qatar
 Qatari Rial
-Qer
-Qso
 Quechua (Bolivia)
 Quechua (Ecuador)
 Quechua (Peru)
@@ -5486,29 +4942,16 @@ Quorum resource
 Quorum resource online failed
 Quorumlog open failed
 Quota exceeded
-Q
-R
-R$
-R%d
-R%d %d
-R%d -> R%d
-R%d <-
-R%d END=0x%x
-R%d START=0x%x
-R%d is volatile
-R0
-R1
-RD$
-RE
+QzI~IaI
+R%d END=0x%x\n
+R%d START=0x%x\n
+R%d is volatile 
+R)J-J
 RECURSIVELY_ASCENDING
 RECURSIVELY_DESCENDING
 RECURSIVELY_INDEFINITE
-REGALLOC-ADD SPILL CODE %d (DFN 0x%x):
-REGALLOC-REWRITE BLOCK %d:
-REGION BB%d IL_%04x ID_%08X
-REGVAR R%d G%d C%d %s
-REMOVE SSA %d:
-RENAME VARS BLOCK %d:
+REGION BB%d IL_%04x ID_%08X\n
+REGVAR R%d G%d C%d %s\n
 RGCTX max slot number
 RGCTX num alloced
 RGCTX num lazy fetch trampolines
@@ -5519,9 +4962,6 @@ RGCTX oti num markers
 RGCTX template bytes allocted
 RGCTX template num allocted
 RGCTX unmanaged lookups
-RO
-ROL
-ROM
 RPC S Address error
 RPC S Already listening
 RPC S Already registered
@@ -5635,21 +5075,15 @@ RPC X byte count too small
 RPC X enum value out of range
 RPL not allowed
 RTSpecialName needs also SpecialName set in Field row %d
-RU
-RUR
-RUS
-RW
-RWF
-Rab
+R^Zc
 Rabu
-Ran out of trampolines of type %d in '%s' (%d)
-Ranges for variable %d (target variable %d) computed:
+Ran out of trampolines of type %d in '%s' (%d)\n
+Ranges for variable %d (target variable %d) computed: 
 Rate of Assemblies
 Rate of Classes Loaded
 Rate of Load Failures
 Rate of appdomains
 Rate of appdomains unloaded
-Rd
 ReAllocCoTaskMem
 ReAllocHGlobal
 ReRegisterForFinalize
@@ -5673,8 +5107,8 @@ Reciprocal
 RecordPressure
 Recursive type definition detected
 Recursivity accepted (
-Recursivity detected for variable %d (target variable %d), status
-Recursivity for variable %d (target variable %d) discards computation, status
+Recursivity detected for variable %d (target variable %d), status 
+Recursivity for variable %d (target variable %d) discards computation, status 
 Recursivity rejected (some relation in the cycle is not a defintion)
 RecvFrom_internal(intptr,byte[],int,int,System.Net.Sockets.SocketFlags,System.Net.SocketAddress&,int&)
 Redir paused
@@ -5686,9 +5120,9 @@ RegisterToken
 Registry IO failed
 Registry corrupt
 Registry recovered
-Regression ERRORS!
-Regvars:                %ld
-Relation
+Regression ERRORS!\n
+Regvars:                %ld\n
+Relation 
 Relation is a back-edge in this traversal, skipping
 ReleaseComObjectInternal
 ReleaseInterfaces
@@ -5705,7 +5139,6 @@ RemoteEndPoint_internal(intptr,int&)
 RemotingServices
 RemoveDirectory(string,System.IO.MonoIOError&)
 RemoveWatch
-Removing array bound checks in %s
 Reparse attribute conflict
 Reparse tag invalid
 Reparse tag mismatch
@@ -5717,7 +5150,7 @@ Requests Queued
 Requests Total
 Requests/Sec
 Requires interactive windowstation
-Resent %ld signals after timeout
+Resent %ld signals after timeout\n
 ResetAbort_internal()
 ResetEvent_internal
 Resmon create failed
@@ -5744,8 +5177,8 @@ Resource property unchangeable
 Resource section is too small, must be at least 16 bytes long but it's %d long
 Resource section is too small, the number of entries (%d) doesn't fit on it's size %d
 Resource type not found
-Results: total tests: %d, all pass
-Results: total tests: %d, failed: %d, cfailed: %d (pass: %.2f%%)
+Results: total tests: %d, all pass \n
+Results: total tests: %d, failed: %d, cfailed: %d (pass: %.2f%%)\n
 ResumeThread
 Resume_internal()
 Retained input file.
@@ -5756,11 +5189,10 @@ Returned SafeHandles should not be abstract
 RevertToSelf
 Revision mismatch
 Revocation offline
-Rgc
-Rgp
-Rgs
+RiVi
 Ring2 stack in use
 Ring2seg must be movable
+RmVm
 Rmode app
 RngClose
 RngGetBytes
@@ -5773,12 +5205,14 @@ Romanian Leu
 Romansh (Switzerland)
 Round
 Round2
-Rp
+RtR/A
+Rugpj
+Rugs
 Run ahead of method code at 0x%04x
 RunClassConstructor
 RunModuleConstructor
-Running '%s' ...
-Runtime and JIT debugging options:    --breakonex            Inserts a breakpoint on exceptions    --break METHOD         Inserts a breakpoint at METHOD entry    --break-at-bb METHOD N Inserts a breakpoint in METHOD at BB N    --compile METHOD       Just compile METHOD in assembly    --compile-all          Compiles all the methods in the assembly    --ncompile N           Number of times to compile METHOD (default: 1)    --print-vtable         Print the vtable of all used classes    --regression           Runs the regression test contained in the assembly    --statfile FILE        Sets the stat file to FILE    --stats                Print statistics about the JIT operations    --wapi=hps|semdel|seminfo IO-layer maintenance    --inject-async-exc METHOD OFFSET Inject an asynchronous exception at METHOD    --verify-all           Run the verifier on all methods    --full-aot             Avoid JITting any code    --agent=ASSEMBLY[:ARG] Loads the specific agent assembly and executes its Main method with the given argument before loading the main assembly.    --no-x86-stack-align   Don't align stack on x86Other options:    --graph[=TYPE] METHOD  Draws a graph of the specified method:
+Running '%s' ...\n
+Runtime and JIT debugging options:\n    --breakonex            Inserts a breakpoint on exceptions\n    --break METHOD         Inserts a breakpoint at METHOD entry\n    --break-at-bb METHOD N Inserts a breakpoint in METHOD at BB N\n    --compile METHOD       Just compile METHOD in assembly\n    --compile-all          Compiles all the methods in the assembly\n    --ncompile N           Number of times to compile METHOD (default: 1)\n    --print-vtable         Print the vtable of all used classes\n    --regression           Runs the regression test contained in the assembly\n    --statfile FILE        Sets the stat file to FILE\n    --stats                Print statistics about the JIT operations\n    --wapi=hps|semdel|seminfo IO-layer maintenance\n    --inject-async-exc METHOD OFFSET Inject an asynchronous exception at METHOD\n    --verify-all           Run the verifier on all methods\n    --full-aot             Avoid JITting any code\n    --agent=ASSEMBLY[:ARG] Loads the specific agent assembly and executes its Main method with the given argument before loading the main assembly.\n    --no-x86-stack-align   Don't align stack on x86\n\nOther options:\n    --graph[=TYPE] METHOD  Draws a graph of the specified method:\n
 RuntimeArgumentHandle
 RuntimeFieldHandle
 RuntimeHelpers
@@ -5793,77 +5227,29 @@ Rwanda
 Rwandan Franc
 Rxact commit failure
 Rxact invalid state
-S
-S$
-S/
-S/.
-S0
-S1
-SA
-SAR
-SB
-SBD
 SByte
-SC
-SCR
-SD
-SDD
-SE
-SEK
+SCJGJ1JAS
 SERVICE_NOT_FOUND
 SFr.
-SG
-SGD
-SH
 SHADOW_COPY_DIRS
-SHP
-SI
 SIGABRT
 SIGILL
 SIGSEGV
-SIT
-SJ
-SK
-SKIPPING DEAD OP at %x
-SKK
-SKY
-SL
-SLL
-SLV
-SM
-SN
-SO
-SOS
-SPILL BLOCK %d:
-SPILL OFFSETS:
+SKIPPING DEAD OP at %x\n
+SNYNYNYNjNzN
 SPL no addjob
 SPL no startdoc
-SQI
-SR
-SRG
-SSA CONSPROP BB%d:
+SQlN
 SSA based Partial Redundancy Elimination
 SSE2 instructions on x86
-ST
 STACK_FRAME
 START_TEXT_RVA == assembly->sections [MONO_SECTION_TEXT].rva
 STAThreadAttribute
-STD
 STEP
 STRING_REF
 STUBBORN
-SV
-SVC
-SVE
-SVF
-SWK
-SY
-SYP
 SYSNOTREADY
-SZ
-SZL
-Sa
-Sab
+S\tS\tS\tS
 Sabtu
 SafeArrayCreate
 SafeArrayDestroy
@@ -5879,7 +5265,6 @@ Saint Kitts and Nevis
 Saint Lucia
 Saint Pierre and Miquelon
 Saint Vincent and the Grenadines
-Sal
 Sam init failure
 Same drive
 Sami (Northern) (Norway)
@@ -5899,10 +5284,8 @@ Sanskrit
 Sanskrit (India)
 Sao Tome and Principe
 Sao Tome and Principe Dobra
-Sat
 Saterdag
 Saturday
-Sau
 Saudi Arabia
 Saudi Riyal
 Sausio
@@ -5911,7 +5294,7 @@ Sched E service not localsystem
 Screen already locked
 Searching for '%s'.
 Secret too long
-Section %ld from 0x%lx to 0x%lx
+Section %ld from 0x%lx to 0x%lx 
 Sector not found
 Security
 SecurityCriticalAttribute
@@ -5922,25 +5305,22 @@ Seek
 Seek on device
 Seek(intptr,long,System.IO.SeekOrigin,System.IO.MonoIOError&)
 Sekmadienis
-Sel
 Selasa
 Select_internal(System.Net.Sockets.Socket[]&,int,int&)
 Sem not found
-Sem_wait returned %ld
+Sem_wait returned %ld\n
 Semaphore is set
 Semaphore owner died
 Semaphore timeout
 Semaphore user limit
-Sen
 Send egd request failed %d
 SendFile(intptr,string,byte[],byte[],System.Net.Sockets.TransmitFileOptions)
 SendTo_internal_real(intptr,byte[],int,int,System.Net.Sockets.SocketFlags,System.Net.SocketAddress,int&)
 Send_internal(intptr,System.Net.Sockets.Socket/WSABUF[],System.Net.Sockets.SocketFlags,int&)
 Send_internal(intptr,byte[],int,int,System.Net.Sockets.SocketFlags,int&)
-Sending command %s failed.
+Sending command %s failed.\n
 Senegal
 Senin
-Sep
 Septemba
 September
 Serbian (Cyrillic)
@@ -5975,7 +5355,6 @@ Service request timeout
 Service specific error
 Service start hang
 Session credential conflict
-Set
 Set not found
 Set power state failed
 Set power state vetoed
@@ -5988,10 +5367,10 @@ SetCurrentDirectory(string,System.IO.MonoIOError&)
 SetCurrentToken
 SetData
 SetEcho
-SetEndOfFile returned %d
+SetEndOfFile returned %d\n
 SetEvent_internal
 SetFileAttributes(string,System.IO.FileAttributes,System.IO.MonoIOError&)
-SetFilePointer returned %d
+SetFilePointer returned %d\n
 SetFileTime(intptr,long,long,long,System.IO.MonoIOError&)
 SetGenericValueImpl
 SetLength(intptr,long,System.IO.MonoIOError&)
@@ -6016,18 +5395,15 @@ Setmark detected
 Setup
 Seychelles
 Seychelles Rupee
-Sg
-Sharable generic methods: %ld
+Sharable generic methods: %ld\n
 Share generics
 Shared generic lookups
-Shared generic methods: %ld
+Shared generic methods: %ld\n
 Shared policy
 Sharing buffer exceeded
 Sharing paused
 Sharing violation
 ShellExecuteEx_internal(System.Diagnostics.ProcessStartInfo,System.Diagnostics.Process/ProcInfo&)
-Shk
-Sht
 Shuffle
 ShuffleHigh
 ShuffleLow
@@ -6035,7 +5411,7 @@ Shutdown cluster
 Shutdown in progress
 Shutdown_internal(intptr,System.Net.Sockets.SocketShutdown,int&)
 Shutting down finalizer thread timed out.
-Shutting down the runtime...
+Shutting down the runtime...\n
 Sierra Leone
 Sierra Leone Leone
 Signal pending
@@ -6049,7 +5425,6 @@ SignedPackWithSignedSaturation
 SignedPackWithUnsignedSaturation
 Simd intrinsics
 SimdRuntime
-Sin
 Singapore
 Singapore Dollar
 Single
@@ -6057,25 +5432,24 @@ Single instance app
 Sinh
 Sinhala (Sri Lanka)
 SizeOf
-Sk
-Skip (abs call): %s
-Skip (disabled): %s
-Skip (patches): %s
+Skip (abs call): %s\n
+Skip (disabled): %s\n
+Skip (patches): %s\n
 SkipVerification
 Sleep_internal
 Slovak
 Slovak (Slovakia)
 Slovak Koruna
 Slovakia
+Sloven
 Slovenia
 Slovenia Tolar
 Slovenian
 Slovenian (Slovenia)
-Slowest method to compile (sec): %.4g: %s
+Slowest method to compile (sec): %.4g: %s\n
 Smartcard cert expired
 Smartcard cert revoked
 Smartcard subsystem failure
-So
 Sobota
 Socket
 Socket is already connected
@@ -6095,7 +5469,6 @@ South Africa
 South African Rand
 South Korea
 South Korean Won
-Spa
 Spain
 Spalio
 Spanish
@@ -6125,35 +5498,31 @@ Special account
 Special group
 Special user
 Specific trampolines
-Spill load added for R%d (R%d -> R%d) at %x
-Spill store added for R%d (R%d -> R%d) at %x
-Spill store/load added for R%d (R%d -> R%d) at %x
 SpinWait_nop
 Spool file not found
 Sqrt
 Sri Lanka
 Sri Lanka Rupee
-St
 Stack Walk Depth
 Stack item type is not an int32 for endfilter at 0x%04x
 Stack must have only size item in localloc at 0x%04x
 Stack not empty (%d) after ret at 0x%04x
 Stack overflow
 Stack overflow at 0x%04x
-Stack overflow in unmanaged: IP: %p, fault addr: %p
+Stack overflow in unmanaged: IP: %p, fault addr: %p\n
 Stack size must have one item for endfilter at 0x%04x
 Stack underflow, required %d, but have %d at 0x%04x
 StackFrame
 StackOverflowException
 StackTrace
-Stacktrace:
+Stacktrace:\n\n
 Stale NFS file handle
 StandAloneSig: Could not decode signature header
 StandAloneSig: Not enough room for the call conv
 StandaloneSig
 Standard Jit Failures
 StartTime_internal(intptr)
-Static data size:       %ld
+Static data size:       %ld\n
 Static init
 StaticAddEventAdapterFrame
 StaticGetterAdapterFrame
@@ -6161,7 +5530,7 @@ StoreAligned
 StoreNonTemporal
 StreamingContext
 Streda
-String at %p, length: %d, '%s'
+String at %p, length: %d, '%s'\n
 StringBuilder
 StringFileInfo
 StringToBSTR
@@ -6179,16 +5548,14 @@ Success restart required
 Sudan
 Sudanese Dinar
 SumOfAbsoluteDifferences
-Summarized variable %d:
-Sun
+Summarized variable %d: 
 Sunday
 SuppressFinalize
 SuppressUnmanagedCodeSecurityAttribute
 Suriname
 Suriname Guilder
 Suspend_internal
-Suspending all threads...
-Sv
+Suspending all threads...\n
 Svalbard and Jan Mayen
 Swahili
 Swahili (Kenya)
@@ -6285,15 +5652,15 @@ Sxs unknown encoding group
 Sxs untranslatable hresult
 Sxs version conflict
 Sxs wrong section type
-Symbol '%s' not found in AOT file '%s'.
+Symbol '%s' not found in AOT file '%s'.\n
 Symbol file %s doesn't match image %s
 Symbol file %s has incorrect version (expected %d.%d, got %d)
 Symbol file %s is not a mono symbol file
 Sync foreground refresh required
 SynchronizationLockException
-Syntax error at or around '%s'
-Syntax error in trace option specification
-Syntax error; expected debug option name
+Syntax error at or around '%s'\n
+Syntax error in trace option specification\n
+Syntax error; expected debug option name\n
 Syria
 Syriac
 Syriac (Syria)
@@ -6303,7 +5670,7 @@ SysFreeString
 SysStringLen
 System
 System call failed
-System error: %s
+System error: %s\n
 System trace
 System.Activator
 System.AppDomain
@@ -6483,59 +5850,23 @@ System_Reflection_Emit_TypeBuilder
 System_Reflection_Emit_UnmanagedMarshalClass
 System_Reflection_MonoGenericClass
 System_Version
-Sze
-Szo
-T
-T0
-T1
-T@
-TAM
-TC
-TCP
-TD
-TEL
+Sz/vd
+T(+EW
+T3K7K
 TEMP
-TF
-TG
-TH
-THA
-THB
 THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
 THREAD
 THREAD_DEATH
 THREAD_START
-TJ
-TJS
-TK
-TL
 TLW with wschild
-TM
-TMM
-TMP
 TMPDIR
-TN
-TND
-TO
-TOP
-TR
-TRK
-TRL
 TRUE
 TRUE:%d
-TS
-TT
-TTD
-TV
-TW
-TWD
-TWf
-TY
-TYPE: %d
+TSKWK;K
+TYPE: %d\n
 TYPE_LOAD
 TYPE_NOT_FOUND
-TZ
-TZS
-T[
+T\fY\f]\fa\ff\fl\ft\f
 Table schemata size (%d) too small to for decoding row counts (requires %d bytes)
 Table schemata size (%d) too small to for initial decoding (requires 24 bytes)
 Tables data require %d bytes but the only %d are available in the #~ stream
@@ -6552,25 +5883,23 @@ Tajikistan Somoni
 Tamazight (Algeria, Latin)
 Tamil
 Tamil (India)
-Tan
 Tanh
 Tanzania
 Tanzanian Shilling
-Target variable reached (%d), continuing to evaluate relations with constants
+Target variable reached (%d), continuing to evaluate relations with constants\n
 TargetException
 TargetParameterCountException
 Tatar
 Tatar (Russia)
 Telugu
 Telugu (India)
-Tem
 Temmuz
 Template should end with XXXXXX
 Template should not have any /
-Test '%s' failed compilation.
-Test '%s' failed result (got %d, expected %d).
-Test run: image=%s, opts=%s
-Tet
+Test '%s' failed compilation.\n
+Test '%s' failed result (got %d, expected %d).\n
+Test run: image=%s, opts=%s\n
+TfAX
 Th 2
 Th 3
 Th 4
@@ -6583,31 +5912,31 @@ Thai Baht
 Thailand
 The IAsyncResult object provided does not match this delegate.
 The Mono Debugger is currently using the `%s' runtime, but the assembly `%s' requires version `%s'
-The assembly mscorlib.dll was not found or could not be loaded.
-The assembly was not found in the Global Assembly Cache, a path listed in the MONO_PATH environment variable, or in the location of the executing assembly (%s).
+The assembly mscorlib.dll was not found or could not be loaded.\n
+The assembly was not found in the Global Assembly Cache, a path listed in the MONO_PATH environment variable, or in the location of the executing assembly (%s).\n
 The async result object is null or of an unexpected type.
 The class %s could not be loaded, used in %s
-The currently installed mscorlib doesn't match this runtime version.
+The currently installed mscorlib doesn't match this runtime version.\n
 The default appdomain can not be unloaded.
 The delegate must have only one target
 The descriptor is not a socket
-The entry point method could not be loaded
-The entry point method of assembly '%s' could not be loaded
-The error is: %s
-The file %s/mscorlib.dll is an invalid CIL image
+The entry point method could not be loaded\n
+The entry point method of assembly '%s' could not be loaded\n
+The error is: %s\n
+The file %s/mscorlib.dll is an invalid CIL image\n
 The file does not contain a manifest
-The file exists but is not a valid assembly.
-The following assembly referenced from %s could not be loaded:     Assembly:   %s    (assemblyref_index=%d)     Version:    %d.%d.%d.%d     Public Key: %s%s
+The file exists but is not a valid assembly.\n
+The following assembly referenced from %s could not be loaded:\n     Assembly:   %s    (assemblyref_index=%d)\n     Version:    %d.%d.%d.%d\n     Public Key: %s\n%s
 The metadata verifier doesn't support null ResolutionScope tokens for typeref row %d
 The metadata verifies doesn't support MS specific table %x
-The out of sync library is: %s
+The out of sync library is: %s\n
 The proxy call returned an incorrect number of output arguments
 The request to load the assembly %s v%d.%d.%d.%d was remapped to v%d.%d.%d.%d
 The requested address is not valid in this context
 The requested operation caused a stack overflow.
 The socket has been shut down
 The socket is not connected
-The soft-debug AOT option requires the --debug option.
+The soft-debug AOT option requires the --debug option.\n
 The type `%s.%s' layout needs to be Sequential or Explicit
 The value passed in must be an enum base or an underlying type for an enum, such as an Int32.
 Thg 1
@@ -6642,15 +5971,15 @@ Thread_internal
 Throw to Catch Depth/Sec
 ThrowException
 ThrowExceptionForHR
-Thu
 Thursday
 Tibetan (Bhutan)
 Tibetan (PRC)
 Time skew
-Time(ms) Count   P/call(ms) Method name
+Time(ms) Count   P/call(ms) Method name\n
 Timeout
 Times
 Timor-Leste
+TnXn
 ToOADate
 ToObject
 ToObjectInternal
@@ -6661,6 +5990,7 @@ Token already in use
 Token and source types of cpobj don't match at 0x%04x
 Token and source types of stobj don't match at 0x%04x
 Tonga
+Tonga Pa
 Too many LUIDs requested
 Too many SIDs
 Too many TCBs
@@ -6679,7 +6009,7 @@ Too many names
 Too many open files
 Too many posts
 Too many references: cannot splice
-Too many root sets
+Too many root sets\n
 Too many secrets
 Too many semaphore requests
 Too many semaphores
@@ -6696,21 +6026,20 @@ Total Remote Calls
 Total Runtime Checks
 Total appdomains unloaded
 Total code space allocated
-Total heap size: %lu
-Total locks (in %d array(s)): %d, used: %d, on freelist: %d, to recycle: %d
+Total heap size: %lu\n
+Total locks (in %d array(s)): %d, used: %d, on freelist: %d, to recycle: %d\n
 Total mem
-Total mem allocated: %d
-Total memory allocated: %lu KB
-Total number of calls: %lld
-Total of %lu bytes on free list
-Total size: %ld
-Total time spent compiling %d methods (sec): %.4g
-Tr
-Tracing options:   --trace[=EXPR]        Trace every call, optional EXPR controls the scopeEXPR is composed of:    all                  All assemblies    none                 No assemblies    program              Entry point assembly    assembly             Specifies an assembly    M:Type:Method        Specifies a method    N:Namespace          Specifies a namespace    T:Type               Specifies a type    EXPR                 Includes expression    -EXPR                Excludes expression    EXPR,EXPR            Multiple expressions    disabled             Don't print any output until toggled via SIGUSR2
+Total mem allocated: %d\n
+Total memory allocated: %lu KB\n
+Total number of calls: %lld\n
+Total of %lu bytes on free list\n
+Total size: %ld\n
+Total time spent compiling %d methods (sec): %.4g\n
+Tracing options:\n   --trace[=EXPR]        Trace every call, optional EXPR controls the scope\n\nEXPR is composed of:\n    all                  All assemblies\n    none                 No assemblies\n    program              Entry point assembly\n    assembly             Specifies an assembly\n    M:Type:Method        Specifies a method\n    N:Namespace          Specifies a namespace\n    T:Type               Specifies a type\n    EXPR                 Includes expression\n    -EXPR                Excludes expression\n    EXPR,EXPR            Multiple expressions\n    disabled             Don't print any output until toggled via SIGUSR2\n
 Transform not supported
 Transparent code cannot call Critical code
 Transport full
-Transport handshake failed!
+Transport handshake failed!\n
 Tree propagation
 Trinidad and Tobago
 Trinidad and Tobago Dollar
@@ -6722,8 +6051,8 @@ Try to enter try block with a non-empty stack at 0x%04x
 Trying to instantiate an abstract or interface type at 0x%04x
 Tswana
 Tswana (South Africa)
+Tt6*
 TtySetup
-Tue
 Tuesday
 Tunisia
 Tunisian Dinar
@@ -6748,7 +6077,6 @@ Type 0x%x not CLS compliant in Constant row %d
 Type at stack is a boxed valuetype and is not compatible to reference the field at 0x%04x
 Type at stack is a managed pointer to a reference type and is not compatible to reference the field at 0x%04x
 Type at stack is not accessible at 0x%04x
-Type failed due to %s
 Type invalid in Event row %d
 Type must be a type provided by the runtime.
 Type must be an array type
@@ -6763,7 +6091,7 @@ Type: Could not parse method pointer signature
 Type: Could not parse pointer type
 Type: Failed to parse array element custom attr
 Type: Failed to parse pointer custom attr
-Type: Invalid type kind %x
+Type: Invalid type kind %x\n
 Type: Invalid type typedref& for local %d
 Type: Not enough room for byref type for local %d
 Type: Not enough room for the type token
@@ -6790,37 +6118,22 @@ Typedbyref field is an unverfiable type at 0x%04x
 Typedbyref field is an unverfiable type in store static field at 0x%04x
 Typedef table must have exactly at least one row
 Typespec 0x%08x
-U
 U.S. Virgin Islands
-U0
-U1
-UA
-UAH
-UG
-UGX
+U1(\Q
+U9KW 
 UInt16
 UInt32
 UInt64
 UIntPtr
-UKR
-UM
-UNLINK UNUSED BBLOCKS:
 URI contains an invalid escape sequence
 URI does not start with the file: scheme
-US
 US Dollar
-USD
 USER
 UTF-16LE
 UTF-8
 UTF8
 UTF_16LE
-UU
-UY
-UYU
-UZ
-UZS
-UfZ
+UXmu
 Uganda
 Ugandan Shilling
 Uighur (PRC)
@@ -6828,14 +6141,13 @@ Ukraine
 Ukrainian
 Ukrainian (Ukraine)
 Ukrainian Hryvnia
-Un
 Unable to cast object of type '%s' to type '%s'.
 Unable to clean
-Unable to create log file '%s': %s.
-Unable to create temporary file '%s': %s
+Unable to create log file '%s': %s.\n
+Unable to create temporary file '%s': %s\n
 Unable to eject mounted media
-Unable to find seq points for method '%s'.
-Unable to insert breakpoint at %s:%d, seq_points=%d
+Unable to find seq points for method '%s'.\n
+Unable to insert breakpoint at %s:%d, seq_points=%d\n
 Unable to inventory drive
 Unable to inventory slot
 Unable to inventory transport
@@ -6844,12 +6156,12 @@ Unable to lock media
 Unable to move replacement
 Unable to move replacement 2
 Unable to remove replaced
-Unable to rename '%s' to '%s': %s
+Unable to rename '%s' to '%s': %s\n
 Unable to reset abort because no abort was requested
-Unable to resolve pinvoke method '%s' Re-run with MONO_LOG_LEVEL=debug for more information.
+Unable to resolve pinvoke method '%s' Re-run with MONO_LOG_LEVEL=debug for more information.\n
 Unable to unload media
 Unbox
-Undefined label: '%s'.
+Undefined label: '%s'.\n
 Unexpected error from pthread_mutex_trylock
 Unexpected net error
 Unexpected object for ldvirtftn at 0x%04x
@@ -6858,8 +6170,7 @@ Unfinished element
 Unfinished escape.
 Unfinished quote.
 Unfinished sequence
-Unhandled Exception: %s
-Unhandled case for MarshalAction: %d
+Unhandled case for MarshalAction: %d\n
 UnhandledException
 UnhandledExceptionEventArgs
 United Arab Emirates
@@ -6868,13 +6179,13 @@ United Kingdom
 United States
 United States Minor Outlying Islands
 UnityEngine
-Unknown command line option: '%s'
+Unknown command line option: '%s'\n
 Unknown component
-Unknown errno: %s
+Unknown errno: %s\n
 Unknown extended opcode %x in LNT
 Unknown feature
 Unknown generic sharing option `%s'.
-Unknown heap type: %s
+Unknown heap type: %s\n
 Unknown opcode '%s' in opcode_to_type
 Unknown port
 Unknown print monitor
@@ -6882,21 +6193,21 @@ Unknown printer driver
 Unknown printprocessor
 Unknown product
 Unknown property
-Unknown relocation '%s'
+Unknown relocation '%s'\n
 Unknown revision
-Unknown stack type %x
+Unknown stack type %x\n
 Unknown standard opcode %x in LNT
 Unknown table for custom attr type %08x
 Unknown token 0x%08x in ldtoken
-Unknown trace flag: %s
-Unknown trace loglevel: %s
+Unknown trace flag: %s\n
+Unknown trace loglevel: %s\n
 Unknown type 0x%02x for object type encoding in custom attr
 Unloading assembly %s [%p].
-Unloading domain %s %p, assembly %s %p, refcount=%d
+Unloading domain %s %p, assembly %s %p, refcount=%d\n
 Unloading image %s [%p].
 Unlock(intptr,long,long,System.IO.MonoIOError&)
 UnlockFile
-Unmanaged code called delegate of type %s which was already garbage collected.See http://www.go-mono.com/delegate.html for an explanation and ways to fix this.
+Unmanaged code called delegate of type %s which was already garbage collected.\nSee http://www.go-mono.com/delegate.html for an explanation and ways to fix this.
 Unmanaged pointer is not a verifiable type at 0x%04x
 UnmanagedFunctionPointerAttribute
 UnmanagedMarshal
@@ -6906,25 +6217,26 @@ UnpackLow
 Unprotect
 Unrecognised media
 Unrecognised volume
-Unregistered icall '%s'
+Unregistered icall '%s'\n
 UnsafeAddrOfPinnedArrayElement
-Unsharable generic methods: %ld
-Unsupported command line option: '%s'
+Unsharable generic methods: %ld\n
+Unsupported command line option: '%s'\n
 Unused
 Unwind info size
 UpdateValue
 Upper Sorbian (Germany)
+UqKuK[K'U
 Urdu
 Urdu (Islamic Republic of Pakistan)
 Uruguay
 Uruguay Peso Uruguayo
-Usage is: mono [options] program [program-options]Development:    --aot                  Compiles the assembly to native code    --debug[=<options>]    Enable debugging support, use --help-debug for details    --debugger-agent=options Enable the debugger agent    --profile[=profiler]   Runs in profiling mode with the specified profiler module    --trace[=EXPR]         Enable tracing, use --help-trace for details    --help-devel           Shows more options available to developersRuntime:    --config FILE          Loads FILE as the Mono config    --verbose, -v          Increases the verbosity level    --help, -h             Show usage information    --version, -V          Show version information    --runtime=VERSION      Use the VERSION runtime, instead of autodetecting    --optimize=OPT         Turns on or off a specific optimization                           Use --list-opt to get a list of optimizations    --security[=mode]      Turns on the unsupported security manager (off by default)                           mode is one of cas, core-clr, verifiable or validil    --attach=OPTIONS       Pass OPTIONS to the attach agent in the runtime.                           Currently the only supported option is 'disable'.
+Usage is: mono [options] program [program-options]\n\nDevelopment:\n    --aot                  Compiles the assembly to native code\n    --debug[=<options>]    Enable debugging support, use --help-debug for details\n    --debugger-agent=options Enable the debugger agent\n    --profile[=profiler]   Runs in profiling mode with the specified profiler module\n    --trace[=EXPR]         Enable tracing, use --help-trace for details\n    --help-devel           Shows more options available to developers\n\nRuntime:\n    --config FILE          Loads FILE as the Mono config\n    --verbose, -v          Increases the verbosity level\n    --help, -h             Show usage information\n    --version, -V          Show version information\n    --runtime=VERSION      Use the VERSION runtime, instead of autodetecting\n    --optimize=OPT         Turns on or off a specific optimization\n                           Use --list-opt to get a list of optimizations\n    --security[=mode]      Turns on the unsupported security manager (off by default)\n                           mode is one of cas, core-clr, verifiable or validil\n    --attach=OPTIONS       Pass OPTIONS to the attach agent in the runtime.\n                           Currently the only supported option is 'disable'.\n
 Usage of Ahead Of Time compiled code
-Usage: mini --ncompile num --compile method assembly
-Usage: mono --debugger-agent=[<option>=<value>,...] ...
+Usage: mini --ncompile num --compile method assembly\n
+Usage: mono --debugger-agent=[<option>=<value>,...] ...\n
 Use of the `unused' opcode
 Use plain SSA form
-Used classes:           %ld
+Used classes:           %ld\n
 User defined subclasses of System.Type are not yet supported
 User defined subclasses of System.Type are not yet supported22
 User exists
@@ -6932,61 +6244,42 @@ User mapped file
 User string offset beyond heap_us size
 User string oveflow heap_us
 User string size overflow
-Using default runtime: %s
+Using default runtime: %s\n
 Using native pointer to ldobj at 0x%04x
-Using profile data file '%s'
-Ut
+Using profile data file '%s'\n
 Utorok
 Uzbek (Cyrillic)
 Uzbek (Latin)
 Uzbek (Latin) (Uzbekistan)
 Uzbekistan
 Uzbekistan Sum
-V
-V0
-V1
-V: %s
-VA
-VALUERET:%p,
+VALUERET:%p, 
 VARIABLE %d, delta %d
-VC
 VC disconnected
-VE
-VEB
+VDLHL"L
 VERNOTSUPPORTED
 VER_1
-VG
-VI
-VII
 VIII
-VIT
-VM
-VM death event has been sent: dropping %s
-VM start event not sent yet: dropping %s
+VM death event has been sent: dropping %s\n
+VM start event not sent yet: dropping %s\n
 VM_DEATH
 VM_START
-VN
-VND
-VREG R%d used in BB%d and BB%d made global.
+VREG R%d used in BB%d and BB%d made global.\n
 VS_VERSION_INFO
-VTable %s (vtable entries = %d, interfaces = %d)
-VTable data size:       %ld
+VTable %s (vtable entries = %d, interfaces = %d)\n
+VTable data size:       %ld\n
 VTable setup of type %s failed
-VU
-VUV
-V_%d
+VaLeLLL
 Value
 ValueType
 Vanuatu
 Vanuatu Vatu
-Var R%d live at enter, add range to R%d: [%x, %x)
-Var R%d live at exit, set last_use to %x
+Var R%d live at enter, add range to R%d: [%x, %x)\n
+Var R%d live at exit, set last_use to %x\n
 VarFileInfo
-Variable %d (target variable %d) already in a recursive ring, skipping
-Vas
+Variable %d (target variable %d) already in a recursive ring, skipping\n
 Vasario
 Vatican
-Ve
 Vector16b
 Vector16sb
 Vector2d
@@ -6998,20 +6291,18 @@ Vector4ui
 Vector8s
 Vector8us
 VectorOperations
-Ven
 Venezuela
 Venezuelan Bolivar
 Venres
 VerificationException
 Version=
-Vg
+VhZh
 Vietnam
 Vietnamese
 Vietnamese (Viet Nam)
 Vietnamese (Vietnam)
 Vietnamese Dong
 Virtual Bytes
-Vl'
 VmData
 VmHWM
 VmPeak
@@ -7047,16 +6338,12 @@ VolatileWrite(ulong&,ulong)
 Volume contains sys files
 Volume not sis enabled
 Volume not support EFS
-Vr
 Vrydag
-Vy
-W
-W0
-W1
 W32ErrorMessage
+W4vC
 WAPI
-WARNING: The runtime version supported by this application is unavailable.
-WF
+WARNING: The runtime version supported by this application is unavailable.\n
+WGZGZGZGbGjGnGWG
 WMI DP failed
 WMI DP not found
 WMI ItemID not found
@@ -7072,21 +6359,19 @@ WMI unresolved instance ref
 WMU GUID disconnected
 WMU GUID not found
 WMU already enabled
-WPa
-WS
 WSAGetLastError_internal
 WSAIoctl
 WSAIoctl(intptr,int,byte[],byte[],int&)
-WST
-WW
-WWW
 WWWW
 WWWWW
 WWWWWWWW
 WWWWWWWWWW
+WWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WW]W]W]WnW
+W^p8G
 Wait no children
 Wait timeout
 WaitAll_internal
@@ -7095,34 +6380,31 @@ WaitForExit_internal(intptr,int)
 WaitForInputIdle_internal(intptr,int)
 WaitForPendingFinalizers
 WaitOne_internal
-Waiting for %d(%d) threads to suspend...
+Waiting for %d(%d) threads to suspend...\n
 Wallis and Futuna
-Wed
 Wednesday
 Welsh
 Welsh (United Kingdom)
 Western Sahara
 Western Samoa Tala
-When you update one from svn you need to update, compile and installthe other too.
-Will retry suspend signal if necessary.
+Will retry suspend signal if necessary.\n
 Window not combobox
 Window not dialog
 Window of other thread
 WindowsIdentity._GetRoles should never be called on POSIX
 Wins internal
 Winsock not initialised
-Wo
 Woensdag
 Wolof (Senegal)
 Working Set
 Working set quota
-World-stopped marking took %lu msecs
+World-stopped marking took %lu msecs\n
 WrapperlessIcall
 Write fault
 Write protect
 Write(intptr,byte[],int,int,System.IO.MonoIOError&)
 WriteByte
-WriteFile returned %d
+WriteFile returned %d\n
 WriteInt16
 WriteInt32
 WriteInt64
@@ -7130,168 +6412,115 @@ WriteIntPtr
 WriteStringToUnityLog(string)
 WriteToFile
 WriteWindowsDebugString
-WriteWindowsDebugString called and PLATFORM_WIN32 not defined!
+WriteWindowsDebugString called and PLATFORM_WIN32 not defined!\n
 Wrong EFS
 Wrong disk
 Wrong password
 Wrong target name
-Wt
-X
-X0
-X1
-XAF
-XCD
-XI
-XII
-XOF
-XPF
-XX,
-Xan
+X)X2M6M
+X7k\f
+XRi}l]
 Xaneiro
-Xge
+Xe\RR?V
 Xhosa
 Xhosa (South Africa)
-Xov
+XlMpMYMPN
 Xoves
-Xul
 Xullo
-Y
-Y0
-Y1
-Y@
-YE
-YER
-YM4
-YN
-YT
-YU
-YUM
+Xv\v
+YJ9?
+YM\M\M\MeMlMpMYM
+Y_HY
 Yakut (Russia)
+YdeT
 Yemen
 Yemeni Rial
 Yi (PRC)
 Yoruba (Nigeria)
-Your mono runtime and class libraries are out of sync.
-Yr
-Yu
 Yugoslavia
 Yugoslavian Noviy Dinar
-Z
-Z$
-Z0
-Z1
-ZA
-ZAR
-ZHH
-ZHI
-ZHM
-ZM
-ZMK
-ZW
-ZWD
-ZX
+Z"cd
+Z5d@4
+Z8J/*
+ZP`P`P`PpP
+ZPq:0
 Zambia
 Zambian Kwacha
+Zf<T7
 Zimbabwe
 Zimbabwe Dollar
+Zo^o
 Zulu
 Zulu (South Africa)
-[
-[!
-[%03d][UUID %03d][SLOT %03d][SIZE  %03d] interface %s.%s
+Z~IaI
 [%15s] %s count: %5u
 [%15s] own: %5d:%5ld, count: %5u
 [%15s] val: %5u, max: %5d
 [%20s] acc: %c%c%c, shr: %c%c%c, attrs: %5u
 [%25.25s] pid: %5u exit: %u
-[%d (
-[%d]
-[%f]
-[%lld]
-[%p:] EXCEPTION handling: %s
-[%p] (%d) Resuming vm...
-[%p] (%d) Suspending vm...
-[%p] Breakpoint hit, method=%s, ip=%p, offset=0x%x, sp il offset=0x%x.
-[%p] Expected value of type %s, got 0x%0x.
-[%p] Hit step-over breakpoint in inner recursive function, continuing single stepping.
-[%p] Ignored during single threaded invoke.
-[%p] Interrupting %p...
-[%p] Invoke finished, resume_count = %d.
-[%p] Invoking method '%s' on receiver '%s'.
-[%p] Received interrupt while at %p, treating as suspended.
-[%p] Received interrupt while at %s(%p), continuing.
-[%p] Received single step event for suspending.
-[%p] Removing stale data for tid %p.
-[%p] Resumed.
-[%p] Resuming thread...
-[%p] Same source line, continuing single stepping.
-[%p] Sent event %s, suspend=%d.
-[%p] Single step event (depth=%s) at %s (%p), sp %p, last sp %p
-[%p] Suspended.
-[%p] Thread started, obj=%p, tls=%p.
-[%p] Thread terminated, obj=%p, tls=%p.
-[%p] thread_start () called multiple times for %p, ignored.
-[%s + 0x%lx]
-[%s + 0x%lx] <-
-[%s <- R%d]
-[%s.%s:%p]
-[%s.%s:%p],
-[%s]
-[%s] <-
-[%x-%x]
-[0
-[1
-[B%dB%d]
-[B%d]
-[BB%d]
+[%p:] EXCEPTION handling: %s\n
+[%p] (%d) Resuming vm...\n
+[%p] (%d) Suspending vm...\n
+[%p] Breakpoint hit, method=%s, ip=%p, offset=0x%x, sp il offset=0x%x.\n
+[%p] Expected value of type %s, got 0x%0x.\n
+[%p] Hit step-over breakpoint in inner recursive function, continuing single stepping.\n
+[%p] Ignored during single threaded invoke.\n
+[%p] Interrupting %p...\n
+[%p] Invoke finished, resume_count = %d.\n
+[%p] Invoking method '%s' on receiver '%s'.\n
+[%p] Received interrupt while at %p, treating as suspended.\n
+[%p] Received interrupt while at %s(%p), continuing.\n
+[%p] Received single step event for suspending.\n
+[%p] Removing stale data for tid %p.\n
+[%p] Resumed.\n
+[%p] Resuming thread...\n
+[%p] Same source line, continuing single stepping.\n
+[%p] Sent event %s, suspend=%d.\n
+[%p] Single step event (depth=%s) at %s (%p), sp %p, last sp %p\n
+[%p] Suspended.\n
+[%p] Thread started, obj=%p, tls=%p.\n
+[%p] Thread terminated, obj=%p, tls=%p.\n
+[%p] thread_start () called multiple times for %p, ignored.\n
+[%s.%s:%p], 
 [BOOLEAN:%p:%d]
-[BYREF:%p],
+[BYREF:%p], 
 [INT32:%p:%d]
-[INT32:%p:%d],
+[INT32:%p:%d], 
 [INT64:%p:%lld]
-[K%
-[LEVEL %d] Implemented interfaces by class %s:
+[K^K^K^KfKqKuK[K
+[LEVEL %d] Implemented interfaces by class %s:\n
 [MarshalAs] attribute required to marshal arrays to managed code.
 [OBJECT:%p]
-[R%d + 0x%lx]
-[R%d + 0x%lx] <-
-[R%d] <-
+[OKC
 [STRING:%p:%s]
-[STRING:null],
-[TYPE:%s],
-[UIID %d] interface %s
-[]
-[dbg] Agent thread started, pid=%p
-[dbg] Bad client connection
-[dbg] Can't attach, aborting debugger thread.
+[STRING:null], 
+[TYPE:%s], 
+[UuFR+
+[ZaZaZaZ|Z
+[dbg] Agent thread started, pid=%p\n
+[dbg] Bad client connection\n
+[dbg] Can't attach, aborting debugger thread.\n
 [dbg] Debugger thread exited.
-[dbg] Detached - restarting clean debugger thread.
-[dbg] Inserted breakpoint at %s:0x%x.
-[dbg] Invalid listening socket
-[dbg] Protocol version %d.%d, client protocol version %d.%d.
-[dbg] Received command %s %s(%d), id=%d.
-[dbg] Setting %sbreakpoint at %s:0x%x.
-[dbg] Socket closed.
-[f?
-[r
-[simd-simplify] R%d first used by:
-[simd-simplify] R%d has many bb in use
-[simd-simplify] R%d has other ops on bb0
-[simd-simplify] R%d has single bb use
-[simd-simplify] R%d has vzero:
-[simd-simplify] R%d has xzero only
-[simd-simplify] R%d used by many bb:
-[simd-simplify] R%d used:
-[simd-simplify] max vreg is %d
-[simd-simplify] processing var %d with vreg %d
+[dbg] Detached - restarting clean debugger thread.\n
+[dbg] Inserted breakpoint at %s:0x%x.\n
+[dbg] Invalid listening socket\n
+[dbg] Protocol version %d.%d, client protocol version %d.%d.\n
+[dbg] Received command %s %s(%d), id=%d.\n
+[dbg] Setting %sbreakpoint at %s:0x%x.\n
+[dbg] Socket closed.\n
+[dbg] \tEXCEPTION_ONLY filter (%s%s%s).\n
+[simd-simplify] R%d first used by: 
+[simd-simplify] R%d has many bb in use\n
+[simd-simplify] R%d has other ops on bb0\n
+[simd-simplify] R%d has single bb use\n
+[simd-simplify] R%d has vzero: 
+[simd-simplify] R%d has xzero only\n
+[simd-simplify] R%d used by many bb: 
+[simd-simplify] R%d used: 
+[simd-simplify] max vreg is %d\n
+[simd-simplify] processing var %d with vreg %d\n
 [var%d <= %d]
 [var%d >= %d]
-[}
-\
-\//:
-\0
-\1
-\S
 \StringFileInfo\
 \StringFileInfo\%02X%02X%02X%02X\Comments
 \StringFileInfo\%02X%02X%02X%02X\CompanyName
@@ -7306,27 +6535,182 @@ Zulu (South Africa)
 \StringFileInfo\%02X%02X%02X%02X\ProductVersion
 \StringFileInfo\%02X%02X%02X%02X\SpecialBuild
 \VarFileInfo\Translation
-\n
-]
-]!
-],
-],[
-]0
-]1
+\f \f!\f"\f#\f$\f%\f&\f'\f(\f)\f*\f+\f,\f-\f.\f/\f0\f1\f2\f3\f4\f5\f6\f7\f8\f9\f:\f;\f<\f=\f>\f?\f@\fA\fB\fC\fD\fE\fF\fG\fH\fI\fJ\fK\fL\fM\fN\fO\fP\fQ\fR\fS\fT\fU\fV\fW\fX\fY\fZ\f[\f\\f]\f^\f_\f`\fa\fb\fc\fd\fe\ff\fg\fh\fi\fj\fk\fl\fm\fn\fo\fp\fq\fr\fs\ft\fu\fv\fw\fx\fy\fz\f{\f|\f}\f~\f
+\f#\f*\f5\f<\fD\fL\fP\fO
+\f#\f3\f<\fE\fN\fW\f`\fl\fx\f
+\f$\f*\f0\f6\f<\fB\fH\fN\f
+\f1ii
+\f\t\f\n\f\v\f\f\f\r\f
+\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
+\n \n&\n,\n2\n8\n>\nD\nJ\nP\nV\n\\nb\nh\nn\nt\nz\n
+\n!\n(\n/\n6\n=\nF\nO\nV\n]\nd\nk\nW
+\n"<threadpool thread>"
+\n"<unnamed thread>"
+\n%s %d: [IN: 
+\n%s statistics\n
+\n***Blocks in use:\n
+\n***Finalization statistics:\n
+\n***Free blocks:\n
+\n***Heap sections:\n
+\n.byte %d
+\n.stabd 68,0,%d\n
+\n7\n:\n=\n@\nL\n
+\n=================================================================\nGot a %s while executing native code. This usually indicates\na fatal error in the mono runtime or one of the native libraries \nused by your application.\n=================================================================\n\n
+\nABCREM BLOCK %d:\n
+\nAllocation profiler\n
+\nBB%d (%d) (len: %d): %s
+\nCOMPUTE SSA %d (R%d-)\n\n
+\nCannot determine the text encoding for argument %d (%s).\n
+\nCannot determine the text encoding for the assembly location: %s\n
+\nCreated object count:   %ld\n
+\nDebug info from gdb:\n\n
+\nDecl security check   : %ld\n
+\nEND COMPUTE SSA.\n
+\nE\rG\rI\r9\v_\v
+\nHANDLE-GLOBAL-VREGS BLOCK %d:\n
+\nInitialized classes:    %ld\n
+\nLINEAR SCAN 2 for %s:\n
+\nLOCAL REGALLOC: BASIC BLOCK %d:\n
+\nNative stacktrace:\n\n
+\nProcessing block %d [dfn %d]...\n
+\nREGALLOC-ADD SPILL CODE %d (DFN 0x%x):\n
+\nREGALLOC-REWRITE BLOCK %d:\n
+\nREMOVE SSA %d:\n
+\nRENAME VARS BLOCK %d:\n
+\nRemoving array bound checks in %s\n
+\nSPILL BLOCK %d:\n
+\nSPILL OFFSETS:\n
+\nSSA CONSPROP BB%d:\n
+\nUNLINK UNUSED BBLOCKS:
+\nUnhandled Exception: %s\n
+\nWhen you update one from svn you need to update, compile and install\nthe other too.\n
+\nYour mono runtime and class libraries are out of sync.\n
+\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\n\t\n\n\n\v\n\f\n\r\n
+\n\tidom: BB%d\n
+\nblocks = %lu, bytes = %lu\n
+\njkq'
+\r \r!\r"\r#\r$\r%\r&\r'\r(\r)\r*\r+\r,\r-\r.\r/\r0\r1\r2\r3\r4\r5\r6\r7\r8\r9\r:\r;\r<\r=\r>\r?\r@\rA\rB\rC\rD\rE\rF\rG\rH\rI\rJ\rK\rL\rM\rN\rO\rP\rQ\rR\rS\rT\rU\rV\rW\rX\rY\rZ\r[\r\\r]\r^\r_\r`\ra\rb\rc\rd\re\rf\rg\rh\ri\rj\rk\rl\rm\rn\ro\rp\rq\rr\rs\rt\ru\rv\rw\rx\ry\rz\r{\r|\r}\r~\r
+\r'\r1\r9\rE\rM\rW\r`\rc\rf\ri\rl\ro\rr\ru\r~\r
+\r(\r0\r7\r?\rG\rO\rZ\rb\rj\ry\r
+\r1iib
+\r\t\r\n\r\v\r\f\r\r\r
+\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
+\t cfold -> 
+\t!"#$%&'()89999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t!\t%\v'\v*\v.\v$\tP\vR\vU\v
+\t!\t)\t0\t7\tB\tL\tU\t^\tg\tp\tx\t
+\t$\t*\t0\t6\t<\tB\tH\tN\tT\tZ\t`\tf\tl\tr\tx\t~\t
+\t$\t+\t2\t9\t@\tU\tl\t{\t
+\t-\t@\tS\t`\tp\t}\t
+\t.balign %d\n
+\t.globl %s\n
+\t.local %s\n
+\t.size %s,%s-%s\n
+\t.type %s,@%s\n
+\t0x%lx 
+\t0x%lx size %lu 
+\t9999
+\t999999
+\t99999999999999999999999999999999999999
+\t9999999999999999999999999999999999999999999999999999999999999999999999
+\t9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999*+./01234567
+\t99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t99999999999999\n
+\tADD R%d <- R%d in BB%d\n
+\tAdd BB%d to worklist\n
+\tAdd PHI R%d <- R%d to BB%d\n
+\tAssigned hreg %d to R%d\n
+\tBranch -> CMove optimization (2) in BB%d on\n
+\tBranch -> CMove optimization in BB%d on\n
+\tFrame: %s %d %d %d\n
+\tInterval R%d became active\n
+\tInterval R%d became inactive\n
+\tInterval R%d has expired\n
+\tNo cfold on 
+\tNo free register found, splitting and spilling R%d\n
+\tPreferred register is hreg %d\n
+\tQw1
+\tR%d needs PHI functions in 
+\tRegister %d is available until %x, splitting current.\n
+\tReverse copyprop in BB%d on 
+\tSPILLED LOAD (%d at 0x%08lx(%%ebp)) R%d (freed %s)\n
+\tSPILLED STORE (%d at 0x%08lx(%%ebp)) R%d (from %s)\n
+\tSigned->unsigned compare optimization in BB%d on\n
+\tSplit R%d into R%d and R%d at %x\n
+\tSplitting R%d(current) at first use pos %x, spilling the first part.\n
+\tState of R%d set to %d\n
+\tTLS:           __thread\n\tGC:            Included Boehm (with typed GC)\n\tSIGSEGV:       normal\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n
+\tUnlinked BB%d\n
+\tUse pos: %x\n
+\tWaiting on semaphore %p: %d\n
+\t\n99999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t\n999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+\t\tBlock not on free list %ld!!\n
+\t\tBlock on list %ld, should be on %ld!!\n
+\t\tUse lvreg R%d for R%d.\n
+\t\t\t\n\t\v\t\f\t\r\t
+\t\tavailable regmask: 0x%08lu\n
+\t\texcluding dreg %s\n
+\t\texcluding sreg%d %s %d\n
+\t\tselected register %s has assignment %d\n
+\t\tsucc:
+\tadd range to R%d: [%x, %x]\n
+\tallocated preferred reg R%d to %s\n
+\targ [%d]: 
+\tassigned arg reg %s to R%d\n
+\tassigned dreg %s to dest R%d\n
+\tassigned sreg%d %s to R%d\n
+\tassigned sreg1 %s to R%d\n
+\tcfold on 
+\tchanging dreg R%d to %s from %s\n
+\tdead def of R%d eliminated\n
+\tdead def of R%d, add range to R%d: [%x, %x]\n
+\tdfrontier
+\tdominators
+\tforced copy from %s to %s\n
+\tforced spill of R%d\n
+\tforced spill of clobbered reg R%d\n
+\tfree block of size 0x%lx bytes
+\tfreeable %s (R%d) (born in %d)\n
+\threg %d becomes free at %x\n
+\threg %d is busy (R%d)\n
+\tlast use of R%d set to %x\n
+\tneed to copy sreg1 %s to dreg %s\n
+\tneed to copy sreg2 %s to reg %s\n
+\tprev:
+\treturn : 
+\tshortcut assignment of R%d to %s\n
+\tstart regmask to assign R%d: 0x%08lu (R%d <- R%d R%d R%d)\n
+\tthis: 
+\tused for blocks of size 0x%lx bytes\n
+\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
+\v"\v(\v.\v4\v:\v@\vF\vL\vR\vX\v^\vd\vj\vp\vv\v|\v
+\v.\v7\v@\vL\vU\va\vs\v
+\v1ii
+\v8'8=8S8i8
+\v\t\v\n\v\v\v\f\v\r\v
+\v\v\v\v\v\v\v\v\v\v\v\v
+\vgfile-posix.c
 ]E`E]E`E]E`E
-]N
-]y
-^
-^0
-^1
-^X
-^gf
-^y
-_
-_'
-_-|> <.
-_0
-_1
+]E`E]E`E]E`E,FcEfEjEnEsEwEyE\v
+]E`E]E`E]E`EDFcEfEjEnEsEwEyE\v
+]E`E]E`E]E`ERFcEfEjEnEsEwEyE\v
+]E`E]E`E]E`EfFcEfEjEnEsEwEyE\v
+]E`E]E`E]E`EtFcEfEjEnEsEwEyE\v
+]xEc
+^5Y'6
+_#vEP8
 _CanSecure
 _CorDllMain
 _CorExeMain
@@ -7335,6 +6719,7 @@ _GetRoles
 _IsMachineProtected
 _IsUserProtected
 _Jv_RegisterClasses
+_Le7
 _ProtectMachine
 _ProtectUser
 _Total
@@ -7394,16 +6779,15 @@ __stack_chk_fail
 __stfld_wrapper_%p_%s.%s
 __strcpy_chk
 __strncpy_chk
-__this__
 __tls_get_addr
 __vfprintf_chk
 __vprintf_chk
 __vsnprintf_chk
 __vsprintf_chk
 __xstat
-_eU
-_ec
 _edata
+_jcj
+_rcr
 _wapi_accept
 _wapi_bind
 _wapi_collection_init
@@ -7437,37 +6821,17 @@ _wapi_thread_abandon_mutexes
 _wapi_thread_disown_mutex
 _wapi_thread_own_mutex
 _wapi_thread_set_termination_details
-`
+` ` ` `/`K`+G
 `!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
-`"
-`,
-`0
-`1
-`a
-`|
-a
 a method does not have any IL associated
-a!
-a"
-a'
-a,
-a-
-a.m.
-a0
-a1
-aQ
-aR
-a_
+a-feira
+aIdIdIdIoIzI~IaI
+a\fb-H
 abcrem
 abcremoval.c
-abe
 abendua
-abi
-abr
 abr.
 abril
-abs
-abu
 abuztua
 ac != NULL
 ac->rank
@@ -7484,9 +6848,7 @@ actual_method
 actual_method->klass == klass
 ad->data != NULL
 adai
-adc
 adc_imm
-add
 add != NULL
 add.ovf
 add.ovf.un
@@ -7501,29 +6863,27 @@ addr2line
 address=
 addsubpd
 addsubps
-af
 af-ZA
 af-za
-afa
-afr
-afs
-after %lu allocd bytes + %lu wasted bytes
-ag.
-ago
+after %lu allocd bytes + %lu wasted bytes\n
 agost
 agosto
-aii
 aiii
 ainfo->pair_storage [0] == ArgInIReg
 ainfo->pair_storage [1] == ArgInIReg
 ainfo->pair_storage [1] == ArgNone
 ainfo->storage == ArgValuetypeInReg
-al
+ais (Belgique)
+ais (Canada)
+ais (France)
+ais (Luxembourg)
+ais (Suisse)
 alignment <= MIN_ALIGN
 alloc
 alloc,time,jit
 alloc_type != -1
 allow_open
+amba
 amd64_add_membase_imm
 amd64_add_membase_reg
 amd64_add_reg_membase
@@ -7559,28 +6919,24 @@ amd64_xor_membase_imm
 amd64_xor_membase_reg
 amd64_xor_reg_membase
 aname
-and
-and you need to fix your mono install first.
+and you need to fix your mono install first.\n
 and_imm
 andnpd
 andnps
 andpd
 andps
+anga
 ansi_x3.4_1968
 ansi_x3.4_1986
-aot
 aot-cache
 aot-compiler.c
 aot_const
-api
 apirila
 appdomain.c
-apr
 april
 aprile
 aprilie
 aprill
-ar
 ar-AE
 ar-BH
 ar-DZ
@@ -7613,8 +6969,6 @@ ar-sa
 ar-sy
 ar-tn
 ar-ye
-ara
-arg
 arg->type
 arg->vtable->klass == mono_defaults.int_class
 arg_class
@@ -7624,10 +6978,8 @@ args [0]->type == STACK_MP || args [0]->type == STACK_PTR
 argv != NULL
 arr->obj.vtable->klass->element_class == mono_defaults.char_class
 array is multi-dimensional
-as
 as -gstabs %s -o %s
 asin
-asm
 asmonly
 asmwriter
 assRef != NULL
@@ -7637,6 +6989,7 @@ assembly->guid.offset + assembly->guid.index < meta_size
 assembly.c
 assemblyBinding
 assemblyFile
+assemblyIdentity
 assembly_load_field
 assembly_load_method
 assertion `%s' failed
@@ -7645,12 +6998,9 @@ asteartea
 asteazkena
 astelehena
 async_call_klass
-at %p, rank: %d, length: %d
 at %s <0x%05x>
 at %s <IL 0x%05x, 0x%05x>
 at %s [0x%05x] in %s:%d
-at <unknown> <0x%05x>
-at slot %d: %s (%d) overrides %s (%d)
 atan
 atan2
 atoi
@@ -7671,20 +7021,19 @@ attach %ld
 attach.c
 attach: Connected.
 attach: Disconnected.
-attach: Listening on '%s'...
-attach: Loading agent '%s'.
-attach: directory '%s' is not owned by the current user.
-attach: directory '%s' should have protection 0700.
-attach: failed to bind IPC socket '%s': %s
+attach: Listening on '%s'...\n
+attach: Loading agent '%s'.\n
+attach: directory '%s' is not owned by the current user.\n
+attach: directory '%s' should have protection 0700.\n
+attach: failed to bind IPC socket '%s': %s\n
 attach: failed to create IPC socket
 attach: failed to set permissions on IPC socket
-attach: getpwuid_r () failed.
-attach: listen () failed: %s
+attach: getpwuid_r () failed.\n
+attach: listen () failed: %s\n
 attach: lstat () failed
-attach: message from server has unknown header.
+attach: message from server has unknown header.\n
 attach: mkdir () failed
-attach: path '%s' is not a directory.
-aug
+attach: path '%s' is not a directory.\n
 aug.
 aug_len == 0
 august
@@ -7692,25 +7041,17 @@ augusti
 augusts
 augustus
 augusztus
-avg
 avgust
 avr.
 avril
-az
-aza
 azaroa
-b
-b"
-b'
-b,
-b0
-b1
-bZ
-b\
+b)bGb+G
 background_change_event != NULL
 backtrace
 backtrace_symbols
 bad kind
+bado
+bank < MONO_NUM_REGBANKS
 bank == 1
 baseaddr
 basetype
@@ -7718,40 +7059,28 @@ basic_init
 bb->flags & BB_REACHABLE
 bb->last_ins->inst_false_bb == bbn
 bbn->in_bb [0] == bb
-bc
-be
 be-BY
 be-by
-bel
-beq
 beq.s
-bf
-bg
 bg-BG
 bg-bg
-bge
 bge.s
 bge.un
 bge.un.s
-bgt
 bgt.s
 bgt.un
 bgt.un.s
-bi
 bigmul
 bigmul_un
 bind
 bind-to-runtime-version
 bindingRedirect
 bits in valid must be zero above 0x2d (II - 23.1.6)
-bk
-ble
 ble.s
 ble.un
 ble.un.s
-block merge triggered %d -> %d
-blocks = %lu, bytes = %lu
-blt
+blica Dominicana)
+block merge triggered %d -> %d\n
 blt.s
 blt.un
 blt.un.s
@@ -7762,13 +7091,11 @@ bool
 boolean
 bounds
 bounds_check
-box
-br
-br removal triggered %d -> %d
+br removal triggered %d -> %d\n
 br.s
 br_reg
 branch
-branch to branch triggered %d -> %d -> %d
+branch to branch triggered %d -> %d -> %d\n
 branch-opts.c
 break
 break-on-unverified
@@ -7779,21 +7106,18 @@ brtrue.s
 bsearch
 buf_len >= sizeof (DynCallArgs)
 build_metadata
-bul
-bx
+byLQB_
 byte == 1
-c
-c!
-c,
+c"c5c-H
 c->cb->mhandle
-c0
 c0->opcode == OP_ICONST
-c1
-ca
+cA!(cfg->comp_done & MONO_COMP_DOM)
+cEfEjEnEsEwEyE\v
+cHfHfHfHmHxH|HcH
+c\rd-H
+c\rf\rV
 ca-ES
 ca-es
-cab
-cai
 call
 call_filter
 call_filter_func
@@ -7818,21 +7142,16 @@ cant resolve internal call to "%s" (tested without signature also)
 cant unload root domain
 carray [ins->dreg]->opcode == OP_ICONST
 carray [var->dreg]
-cas
 castclass
 casts
-cat
-cb
-cbranch to throw block triggered %d.
-cbranch1 to branch triggered %d -> (%d) %d (0x%02x)
-cbranch2 to branch triggered %d -> (%d) %d (0x%02x)
+catal
+cbranch to throw block triggered %d.\n
+cbranch1 to branch triggered %d -> (%d) %d (0x%02x)\n
+cbranch2 to branch triggered %d -> (%d) %d (0x%02x)\n
 ccw->gc_handle
 ccw->ref_count > 0
-ceq
-ces
+cembre
 ceturtdiena
-cf
-cfg
 cfg->cbb == first_bb
 cfg->code_len < cfg->code_size
 cfg->comp_done & MONO_COMP_SSA
@@ -7853,7 +7172,6 @@ cfg->rgctx_var->opcode == OP_REGOFFSET && (cfg->rgctx_var->inst_basereg == AMD64
 cfg->vret_addr->opcode == OP_REGVAR
 cfold
 cfold.c
-cgt
 cgt.un
 chdir
 checkthis
@@ -7869,11 +7187,10 @@ cie_version == 1
 cifs
 cindex
 cinfo->sig_cookie.storage == ArgOnStack
-ck
 ckfinite
-class %s should come before class %s
-class %s.%s needs init call for %s
-class %s.%s needs init call for ctor
+class %s should come before class %s\n
+class %s.%s needs init call for %s\n
+class %s.%s needs init call for ctor\n
 class->field.count == 0
 class->generic_container || type_argc
 class->image->dynamic || field->offset > 0
@@ -7888,12 +7205,10 @@ class_name_table
 clause_index >= 0 && clause_index < header->num_clauses
 cleanup_managed
 cleanup_native
-clobbers: %c
 clock
 clock_getres
 clock_gettime
 closedir
-clt
 clt.un
 cm->slot < max_vtsize
 cmethod->is_inflated
@@ -7920,7 +7235,6 @@ cmov_lle_un
 cmov_llt
 cmov_llt_un
 cmov_lne_un
-cne
 coda
 code
 code - buf <= tramp_size
@@ -7937,11 +7251,12 @@ col < table->columns
 col count mismatch in %d: %d %d
 collect-pagefault-stats
 collection.c
-collection: %d sem: 0x%x
+collection: %d sem: 0x%x\n
 collections
 color=red,
 cominterop
 cominterop-invoke
+cominterop.c
 cominterop_get_ccw
 cominterop_get_ccw_object
 cominterop_get_function_pointer
@@ -7963,8 +7278,8 @@ complete == NULL
 comppd
 compps
 compressed signed value appears to use 29 bits for compressed representation: %x (raw: %8x)
-compute_class_bitmap: Invalid type %x for field %s:%s
-cond branch removal triggered in %d %d
+compute_class_bitmap: Invalid type %x for field %s:%s\n
+cond branch removal triggered in %d %d\n
 cond_exc_c
 cond_exc_eq
 cond_exc_ge
@@ -8013,7 +7328,6 @@ container->parent == NULL || container->is_method
 contents != NULL
 context != NULL
 context->class_inst || context->method_inst
-conv != -1
 conv.i
 conv.i1
 conv.i2
@@ -8048,14 +7362,13 @@ conv.u2
 conv.u4
 conv.u8
 converting (in B%d: stack: %d) %s
-converting method %s
-converting shared method %s
+converting method %s\n
+converting shared method %s\n
 copy_from_unmanaged
 copy_to_unmanaged
 copyprop
 core-clr
 core-clr-test
-cos
 cosh
 costs > 0
 could not find a caller outside reflection
@@ -8063,7 +7376,6 @@ count <= length
 cp367
 cpblk
 cpobj
-cpu
 createDomain
 create_culture
 create_dynamic_method
@@ -8073,16 +7385,17 @@ create_modified_type
 create_runtime_class
 create_unmanaged_type
 create_version
-created temp %d (R%d) of type %s
-creating locals
-creating vars
+created temp %d (R%d) of type %s\n
+creating locals\n
+creating vars\n
 critical
 critical-sections.c
-cs
 cs-CZ
 cs-cz
 csascii
+csgs
 csunicode11utf7
+ctgt
 ctx != NULL
 ctx->eval.size < ctx->max_stack
 ctx->eval.size > 0
@@ -8094,12 +7407,11 @@ current->interval->range->from == 0
 current_chunk->current_offset + size + 8 == current_chunk->allocated_size
 current_lcid()
 custom marshalling of type %x is currently not supported
-cze
 czerwiec
 czwartek
-d
 d MMMM
 d MMMM yyyy
+d MMMM yyyy '
 d MMMM yyyy H:mm:ss
 d MMMM yyyy H:mm:ss z
 d MMMM yyyy HH.mm.ss z
@@ -8114,14 +7426,12 @@ d MMMM, yyyy
 d MMMM, yyyy H:mm:ss
 d MMMM, yyyy h:mm:ss t
 d MMMM, yyyy hh:mm:ss tt
-d"
 d' de 'MMMM
 d' de 'MMMM' de 'yyyy
 d' de 'MMMM' de 'yyyy H:mm:ss
 d' de 'MMMM' de 'yyyy HH:mm:ss
 d' de 'MMMM' de 'yyyy HH:mm:ss z
 d' de 'MMMM' de 'yyyy hh:mm:ss tt
-d,
 d, MMMM
 d-M-yy
 d-M-yyyy
@@ -8146,21 +7456,17 @@ d.MM.yyyy
 d/M/yyyy
 d/MM/yy
 d/MM/yyyy
-d0
-d1
-d\
-da
+d0dGd-H
+dUjUjUjU}U
+dYNyGyG
+d\r9\r7\r;\r=\r?\rA\rC\rK\rM\r
 da-DK
 da-dk
-daa
 daai
-dai
-dan
 data-%p
 data->new_sem != NULL
 data_align == DWARF_DATA_ALIGN
 dbnull_value_field
-dc.
 dd MMM yyyy
 dd MMM yyyy t hh:mm:ss
 dd MMMM
@@ -8186,6 +7492,7 @@ dd. MMMM yyyy
 dd. MMMM yyyy H:mm:ss
 dd. MMMM yyyy HH:mm:ss
 dd.M.yy
+dd.M.yyyy '
 dd.MM.yy
 dd.MM.yyyy
 dd/MM/yy
@@ -8200,8 +7507,6 @@ dddd, dd MMMM yyyy hh:mm:ss tt
 dddd, dd MMMM, yyyy
 dddd, dd' de 'MMMM' de 'yyyy
 dddd, dd' de 'MMMM' de 'yyyy H:mm:ss
-ddi
-de
 de-AT
 de-CH
 de-DE
@@ -8219,22 +7524,21 @@ debug-mono-symfile.c
 debug_info_size < buf_size
 debugfs
 debugger-agent.c
-debugger-agent: DWP handshake failed.
-debugger-agent: Error setting TCP_NODELAY.
-debugger-agent: The 'address' option is mandatory.
-debugger-agent: The 'transport' option is mandatory.
-debugger-agent: The format of the 'address' options is '<host>:<port>'
-debugger-agent: The only supported value for the 'transport' option is 'dt_socket'.
-debugger-agent: The valid values for the '%s' option are 'y' and 'n'.
-debugger-agent: Timed out waiting to connect.
-debugger-agent: Unable to connect to %s:%d
-debugger-agent: Unable to connect to %s:%d: %s
-debugger-agent: Unable to listen on %d
-debugger-agent: Unable to setup listening socket: %s
+debugger-agent: DWP handshake failed.\n
+debugger-agent: Error setting TCP_NODELAY.\n
+debugger-agent: The 'address' option is mandatory.\n
+debugger-agent: The 'transport' option is mandatory.\n
+debugger-agent: The format of the 'address' options is '<host>:<port>'\n
+debugger-agent: The only supported value for the 'transport' option is 'dt_socket'.\n
+debugger-agent: The valid values for the '%s' option are 'y' and 'n'.\n
+debugger-agent: Timed out waiting to connect.\n
+debugger-agent: Unable to connect to %s:%d: %s\n
+debugger-agent: Unable to connect to %s:%d\n
+debugger-agent: Unable to listen on %d\n
+debugger-agent: Unable to setup listening socket: %s\n
 debugger_thread_handle
 debugger_thread_id != GetCurrentThreadId ()
 debugger_thread_id == GetCurrentThreadId ()
-dec
 dec.
 december
 decembrie
@@ -8256,7 +7560,7 @@ decl->slot != -1
 declaring->token
 decompose.c
 default:
-default_class_from_mono_type: implement me 0x%02x
+default_class_from_mono_type: implement me 0x%02x\n
 default_locale
 defer
 defer=
@@ -8269,7 +7573,6 @@ delegate_invoke_impl_has_target
 delegate_invoke_impl_target_%d
 delimiter != NULL
 delimiter[0] != 0
-des
 des.
 desember
 desembre
@@ -8278,19 +7581,14 @@ dest->size <= src->size
 destroy_dynamic_method
 dets
 detsember
-deu
-dev: 0x%llx ino: %lld open pid: %d share: 0x%x access: 0x%x refs: %d
+dev: 0x%llx ino: %lld open pid: %d share: 0x%x access: 0x%x refs: %d\n
 devpts
-dez
 dezembro
-dg.
-dgQ
 dhjetor
-di
-dic
 dicembre
 diciembre
-digraph %s {
+diena
+digraph %s {\n
 dijous
 dilluns
 dim.
@@ -8307,7 +7605,6 @@ displacement > 0
 displacement >= 0
 dissabte
 diumenge
-div
 div-MV
 div.un
 div_imm
@@ -8315,8 +7612,6 @@ div_un_imm
 divendres
 divpd
 divps
-dj.
-dl.
 dl_iterate_phdr
 dlclose
 dlerror
@@ -8325,8 +7620,6 @@ dllmap
 dlname
 dlopen
 dlsym
-do
-dom
 domain != NULL && ((name != NULL) || (tb != NULL))
 domain != NULL && fname != NULL
 domain->empty_string == NULL
@@ -8345,53 +7638,44 @@ double double double
 double int32
 double2decimal
 dreg >= 0
-ds.
-dst
 dst != NULL
-dt.
 dt_socket
 dtree
 duben
+duhu
+duminic
 dummy
 dummy_store
 dummy_use
-dup
 dup2
 duppd
 dupps_high
 dupps_low
-dv.
 dwarfwriter.c
 dyn-runtime-invoke
 dyn_call
 dynamic-method
-e
+dziernik
 e diel
 e enjte
+e mart
 e premte
-e!
-e"
-e0
-eQ
-e\
+e shtun
+e0u0j
+e\fq\fb\fn\fk\fw\fh\ft\f
 ec->inited
 eclass->reflection_info && !eclass->wastypebuilder
-ee7
 eglib: g_filename_from_uri: hostname not handled
 eglib: g_filename_to_uri: hostname not handled
-eka
 ekaina
-el
 el-GR
 el-gr
 elab
 element_class->size_inited != 0
-ell
-elo
+elio
 elokuu
-em
+embe
 embedding=
-en
 en-AU
 en-BZ
 en-CA
@@ -8423,9 +7707,7 @@ endfilter outside filter clause at 0x%04x
 endfinally
 endfinally must be used inside a finally/fault handler at 0x%04x
 endmac
-ene
 enero
-eng
 entry->key > 0
 entryaddr
 enumType
@@ -8433,22 +7715,22 @@ env_class
 epoll_create
 epoll_create() failed. Using plain poll().
 epoll_ctl
-epoll_ctl(MOD): %d %s
+epoll_ctl(MOD): %d %s\n
 epoll_wait
-epoll_wait: %d %s
-err == 0
+epoll_wait: %d %s\n
 errno_to_WSA
 error != NULL
 error == NULL || *error == NULL
 error->error_code != MONO_ERROR_NONE
-error: --compile option requires a method name argument
-error: --config requires a filename argument
-error: --debug=casts not supported on this platform..
-error: --graph option requires a method name argument
-error: --ncompile requires an argument
-error: --security= option has invalid argument (cas, core-clr, verifiable or validil)
-error: --statfile requires a filename argument
-es
+error: --compile option requires a method name argument\n
+error: --config requires a filename argument\n
+error: --debug=casts not supported on this platform.\n.
+error: --graph option requires a method name argument\n
+error: --ncompile requires an argument\n
+error: --security= option has invalid argument (cas, core-clr, verifiable or validil)\n
+error: --statfile requires a filename argument\n
+erven
+ervenec
 es-AR
 es-BO
 es-CL
@@ -8490,14 +7772,14 @@ es-sv
 es-uy
 es-ve
 esize == sizeof (gpointer)
-est
-et
+esmasp
+espa
 et-EE
 et-ee
-eu
+etrtek
+etvrtak
 eu-ES
 eu-es
-eus
 euskara
 euskara (Espainia)
 event_create
@@ -8512,16 +7794,14 @@ ex_info
 ex_info_offsets
 exc_class
 exception
-exception inside UnhandledException handler: %s
+exception inside UnhandledException handler: %s\n
 exception.c
 exceptions-amd64.c
 exclusion ranges overlap
-exec
 execution_context_field
 execv
 execve
 exit_method
-exp
 expand_i1
 expand_i2
 expand_i4
@@ -8546,15 +7826,14 @@ extract_r8
 extract_u1
 extract_u2
 extractx_u2
-ey
-f
+ezen
 f->fb->handle
 f->field->parent
 f->type->attrs & FIELD_ATTRIBUTE_STATIC
-f0
-fQ
-f[
-fa
+f/A/xs
+fU\f\nW
+fVfQp
+f\n_MR;uD
 fa-IR
 fa-ir
 failed to load assembly: %s
@@ -8562,9 +7841,6 @@ fallout of filter block at 0x%04x
 fallout of handler block at 0x%04x
 fallthru handler block at 0x%04x
 fallthru off try block at 0x%04x
-fao
-fas
-fb
 fcall
 fcall_membase
 fcall_reg
@@ -8576,23 +7852,20 @@ fcompare
 fconv_to_r8_x
 fde_len != 0xffffffff && fde_len != 0
 fdopen
-feb
 feb.
 febbraio
+febr
 febr.
 febrer
 febrero
+febru
 februar
 februari
 februarie
 ferror
-fev
 fevereiro
-ff
-fff
 fflush
 fgets
-fi
 fi-FI
 fi-fi
 field %s in %s should have RVA data, but hasn't
@@ -8609,8 +7882,6 @@ field_name
 file != NULL
 file %s: line %d (%s): assertion failed: (%s)
 file://
-file:///
-file:///%s
 file_flush
 file_getfilesize
 file_getfiletime
@@ -8631,13 +7902,13 @@ fileprivatepart
 fileversion
 filter clause must come before the handler clause at 0x%04x
 filter clause out of bounds at 0x%04x
-fim
 fimmtudagur
-fin
 finalize_slot > 0
 first != NULL
 flags == 0
+fljl
 float
+float conv.ovf.un opcodes not supported.
 float_add
 float_add_ovf
 float_add_ovf_un
@@ -8708,24 +7979,21 @@ float_sub
 float_sub_ovf
 float_sub_ovf_un
 floor
-fm
 fmod
 fmove
-fo
 fo-FO
 fo-fo
 fopen
 fork
 format != NULL
-found call to intrinsic %s::%s/%d -> %s
-found exception to optimize - returning branch to BB%d (%s) (instead of throw) for method %s:%s
+found call to intrinsic %s::%s/%d -> %s\n
+found exception to optimize - returning branch to BB%d (%s) (instead of throw) for method %s:%s\n
 found sentinel for methoddef or no vararg method 0x%08x on image %s
 found sentinel twice in the same signature for method 0x%08x on image %s
-found unreachable code in BB%d
+found unreachable code in BB%d\n
 fphi
 fputc
 fputs
-fr
 fr-BE
 fr-CA
 fr-CH
@@ -8737,8 +8005,7 @@ fr-ca
 fr-ch
 fr-fr
 fr-lu
-fra
-fre
+fran
 fread
 fredag
 free(invalid pointer)
@@ -8751,20 +8018,16 @@ fseek
 fsync
 ftok
 ftruncate
-function %s::%s/%d requires unsuported SIMD instruction set %s
-function doesn't have a simd intrinsic %s::%s/%d
+function %s::%s/%d requires unsuported SIMD instruction set %s \n
+function doesn't have a simd intrinsic %s::%s/%d\n
 fuse
 fwrite
-fx
-g
-g,
-g0
-gG
-gRX
+gJjJjJjJuJ
 g_free
-gac
 gai_strerror
 galego
+galego (Espa
+garray.c
 gc took %d usecs
 gc_thread_vtable
 gclass
@@ -8773,9 +8036,7 @@ gclass->generic_container
 gclass->is_dynamic
 gcomparer
 gdate-unix.c
-gdb
 gdir-unix.c
-gen
 gen-seq-points
 gen.
 gener
@@ -8872,7 +8133,7 @@ get_base_definition
 get_bundled_machine_config
 get_code_base
 get_enum_info
-get_event_from_state: unknown value in switch!!!
+get_event_from_state: unknown value in switch!!!\n
 get_event_info
 get_fullname
 get_global_assembly_cache
@@ -8919,28 +8180,23 @@ getter
 gettimeofday
 gettypefromhandle_method
 getuid
-gfp
+ggjadagur
 ghashtable.c
 ghc_slot > 0
-gi
-gio
-giu
+gioved
 giugno
 gklass->reflection_info
-gl
 gl-ES
 gl-es
-glg
 gmarkup.c
 gmisc-unix.c
-gn;
 gnome-open
 gnu_dev_makedev
 got more than 64 modifiers in type
 got type %x
 got unexpected table 0x%02x in fixup
 got wrong token in custom attr
-got wrong token: 0x%08x
+got wrong token: 0x%08x\n
 got_end
 got_entry
 got_info
@@ -8951,25 +8207,22 @@ gptrarray.c
 graph.c
 greg <= PARAM_REGS
 groovy
-gru
+grudzie
 gsctx
 gshared
 gshell.c
 gspawn.c
 gstr.c
+gstring.c
 gtimer-unix.c
 gtype->type == MONO_TYPE_GENERICINST
-gu
 gu-IN
 gu-in
-guj
 gusht
-h
-h,
 h.mm.ss tt
 h.mm.ss.t z
 h.mm.t
-h0
+h:OH~
 h:mm t
 h:mm tt
 h:mm:ss t
@@ -8977,9 +8230,6 @@ h:mm:ss t z
 h:mm:ss tt
 h:mm:ss tt dd MMMM yyyy
 h:mm:ss.tt
-hQ
-hV
-ha
 haddpd
 haddps
 handle-sigint
@@ -8992,10 +8242,9 @@ hard_nop
 hash != NULL
 hash->key_extract_func (value) == key
 hazard_table != NULL
-he
 he-IL
 he-il
-heb
+hein
 helmi
 helmikuu
 helper->type == 2
@@ -9003,39 +8252,30 @@ helper_ldstr
 helper_ldstr_mscorlib
 helper_newobj_mscorlib
 helper_stelem_ref_check
-hfs
 hh:mm t
 hh:mm tt
 hh:mm:ss t z
 hh:mm:ss tt
-hi
 hi-IN
 hi-in
 highest < hazard_table_size
-hin
 hint_table_rva != INVALID_OFFSET
 hpfs
-hr
 hr-HR
 hr-hr
 hreg < MONO_MAX_IREGS
 hreg < regbank_size [bank]
-hrv
 hrvatski
 hrvatski (Hrvatska)
 hsubpd
 hsubps
-hu
 hu-HU
 hu-hu
 huhti
 huhtikuu
-hun
-hy
 hy-AM
 hy-am
-hye
-i
+hyly
 i < iter->sig->param_count
 i < klass->method.count
 i < len
@@ -9043,28 +8283,19 @@ i < length
 i < target->in_count
 i <= acfg->num_relocs
 i <= buf_len
-i == 0
 i == 0 || i == 1
-i == 2
-i == 3
 i == 4 || i == 5
 i == nfields
 i == nmethods
 i == nprops
-i == sel
 i == vmv->idx
-i > 0
-i!
-i,
-i0
+i hai
+i8(2
 i8const
-iL-
-iQ
-iS
-i_
+iLlLlLlLrL
+iadienis
 ianuarie
-ib
-ibi
+ibia
 ibm367
 ic->rank == 1
 icall.c
@@ -9079,7 +8310,6 @@ iconv_close
 iconv_open
 iconv_to_r8_raw
 iconv_to_x
-id
 id < HAZARD_TABLE_MAX_SIZE
 id < hazard_table_size
 id <= GPOINTER_TO_UINT (*data)
@@ -9088,21 +8318,13 @@ id >= 0 && id < small_id_table_size
 id-ID
 id-id
 idom
-idx != -1
 idx < max_vars
 idx < t->rows
 idx > 0 && idx <= meta->tables [table].rows
 idxs
-if
 ifIndex
-ifb
-iff
-ig
 igandea
-ii
-iib
 iid <= 65535
-iii
 ilist_offset >= 0 && icollection_offset >= 0 && ienumerable_offset >= 0
 illegal
 image != NULL
@@ -9120,13 +8342,13 @@ implement type compare for %0x!
 import_rva != INVALID_OFFSET
 imt_slot >= 0 && imt_slot < MONO_IMT_SIZE
 imt_thunks
-in (unmanaged) %p
+in (unmanaged) %p\n
 in (unmanaged) %s
-in object at
+in object at 
 in register
 in root set
 in->klass
-ind
+ina (Slovenija)
 index != 0xffffff
 index < G_N_ELEMENTS (current_runtime->version_sets)
 index < meta->heap_blob.size
@@ -9167,6 +8389,7 @@ ins->klass
 ins->next->next->opcode == OP_LOAD_MEMBASE
 ins->next->sreg1 == ins->dreg
 ins->opcode == OP_REGOFFSET
+ins->opcode > MONO_CEE_LAST
 ins->opcode >= MONO_CEE_LAST
 ins->prev == prev
 ins->sreg1 != AMD64_RAX
@@ -9305,9 +8528,9 @@ intrins
 invalid utf-16 sequence at %d (missing surrogate head)
 invalid utf-16 sequence at %d (missing surrogate tail)
 invalid utf-8 sequence at %d (codepoint range excess)
+invalid utf-8 sequence at %d (illegal first byte)
 invalid utf-8 sequence at %d (illegal following bytes)
 invalid utf-8 sequence at %d (overlong)
-io >= 0
 io_job_added != NULL
 ioctl
 ioctlsocket
@@ -9315,9 +8538,7 @@ ip == tblock->cil_code
 ipv4Supported
 ipv6Supported
 ir-emit.h
-ira
 iraila
-is
 is-IS
 is-is
 is_field_on_inst (f)
@@ -9327,7 +8548,6 @@ is_var || type == MONO_TYPE_MVAR
 isatty
 isdebug
 isinst
-isl
 iso646_us
 iso9660
 iso_10646_ucs2
@@ -9338,12 +8558,10 @@ ispatched
 isprerelease
 isprivatebuild
 isspecialbuild
-it
 it-CH
 it-IT
 it-ch
 it-it
-ita
 italiano
 italiano (Italia)
 italiano (Svizzera)
@@ -9352,32 +8570,30 @@ item->size > size
 iter->sig->call_convention == MONO_CALL_VARARG
 iter->sig->sentinelpos <= iter->sig->param_count
 iter->slot_index != -2
-itf
 itf->interface_count && itf->interfaces[0]
 iulie
 iunie
-iv
 ival < 0x20000000
-ix
-j
 j == new_table->num_chunks
-j,
-ja
+j%VM
+j+2#N
+j1Vx
+jRpRpRpR
 ja-JP
 ja-jp
 jaan
 jaanuar
-jan
 jan.
 janar
 janeiro
+janu
 januar
 januari
+janv
 janv.
 janvier
 jeu.
 jeudi
-jgR
 ji->data.method
 ji->from_aot
 ji->method
@@ -9385,7 +8601,7 @@ ji->method != NULL
 ji->method->is_inflated
 ji_to_amodule
 jinfo
-jit icall already defined "%s"
+jit icall already defined "%s"\n
 jit-icalls.c
 jit_ex
 jit_icall_hash_addr
@@ -9393,19 +8609,14 @@ jit_icall_hash_name
 jit_info
 jit_tls->abort_func
 jit_tls->end_of_stack
-jm
-jmp
 jmp cannot escape exception blocks at 0x%04x
-joi
 joulu
 joulukuu
-jpn
-jue
+judagur
 jueves
 juil.
 juillet
 juin
-jul
 jul.
 julho
 juli
@@ -9413,7 +8624,6 @@ julij
 julio
 juliol
 jump_table
-jun
 junho
 juni
 junij
@@ -9421,18 +8631,11 @@ junio
 juny
 juuli
 juuni
-k
+jvZ(
 k < G_N_ELEMENTS (basic_types)
-k!
-k,
-kQ
-ka
+kPKtf
 ka-GE
 ka-ge
-kan
-kat
-ke
-ke8
 kedd
 keep-delegates
 keep-temps
@@ -9457,41 +8660,32 @@ klass->rank == 1
 klass->rank > 0
 klass->type_token
 klassc->idepth > 0
-km
-kn
 kn-IN
 kn-in
-ko
 ko-KR
 ko-kr
-kok
 kok-IN
 kok-in
-kol
+kolmap
 kolovoz
-kor
 korrik
-kp
-kr
-kr.
-kwi
-kx
+kqoq
+kwiecie
 ky-KZ
-l
-l,
+l (Norge)
+l (Norway)
 l->hreg != -1
-la
 label
-label="CFG for %s";
-label="Dominator tree for %s";
-label="loop_%d"
+label="CFG for %s";\n
+label="Dominator tree for %s";\n
+label="loop_%d"\n
 language
 larunbata
-lau
+latvie
 lauantai
 laugardagur
 launch=
-lav
+laup
 lcall
 lcall_membase
 lcall_reg
@@ -9578,36 +8772,33 @@ left == right
 legacyUnhandledExceptionPolicy
 legalcopyright
 legaltrademarks
-lei
 len > 0
 length < (1 << 16)
 lengths
-ley
 leygardagur
 lf-eol
-lib
 lib%s
 libMonoSupportW.so
 libc.so.6
 libdir
 libdl.so.2
 libfam.so
+libgamin-1.so
 libm.so.6
 libmono.so.0
 liboleaut32.so
 libpthread.so.0
 librt.so.1
+lijs
 linear-scan.c
 linears
 linux
-lip
 lipanj
 lipiec
-lis
 listen
 listopad
-lit
-liveness: %s [%d - %d]
+lius
+liveness: %s [%d - %d]\n
 liverange_end
 liverange_start
 lmove
@@ -9634,7 +8825,7 @@ loadi4_memindex
 loadi8_mem
 loadi8_membase
 loadi8_memindex
-loading %d from temp %d
+loading %d from temp %d\n
 loadr4_membase
 loadr4_memindex
 loadr8_membase
@@ -9656,9 +8847,10 @@ local
 local-propagation.c
 local_slots
 local_slots field not found in Thread class
+locales.c
 localloc
 localloc_imm
-locals done
+locals done\n
 localtime
 log10
 logfile=
@@ -9756,39 +8948,30 @@ long_sub_ovf_un
 long_xor
 long_xor_imm
 loop
-lr
 lresult=0x%16llx
 lseek
-lt
 lt-LT
 lt-lt
-lug
 luglio
-lun
 lun.
 lundi
+luned
 lunes
 luni
-lut
 luty
-lv
 lv-LV
 lv-lv
 lvregs_len < 1024
-m
 m != method
-m!
-m"
 m->is_generic
 m->klass->generic_class || m->klass->generic_container
 m->mb->mhandle
 m->orig_conv_args [argnum]
 m->retobj_var
-m.
-mQ
+mLLYU\tl3
+mVsVsVsV
 m_Address
 m_Numbers
-ma
 maalis
 maaliskuu
 maanantai
@@ -9796,25 +8979,21 @@ maandag
 maart
 machine.config
 madvise
-mag
 maggio
 magyar
-mai
+magyar (Magyarorsz
 maiatza
 maig
 maijs
 main_args==NULL
 maio
-maj
 make_array_type
 make_byref_type
 malloc
-man
 managed-to-managed
 managed-to-native
 mandag
 manual: %s
-mar
 mar.
 mardi
 marec
@@ -9827,6 +9006,7 @@ marshal_native_to_managed
 marshaling conversion %d not implemented
 marshaling type %02x not implemented
 marshalling bool as native type %x is currently not supported
+marted
 martes
 martie
 marts
@@ -9835,14 +9015,11 @@ marzec
 marzo
 mask & (gsize)1
 match_class
-max
 maxpd
 maxps
-may
 mayo
-mb
+mb != NULL
 mdb-optimizations
-mei
 mem_end
 memcmp
 memcpy
@@ -9850,21 +9027,21 @@ memmove
 memory_barrier
 memory_size
 memset
-mer
 mer.
+mercoled
 mercredi
-merge false branch target triggered BB%d -> BB%d
+merge false branch target triggered BB%d -> BB%d\n
 messages.c: A message was found on the uncommon code path: %d - %s
 metadata-only
 metadata-verify.c
 metadata.c
-method %s should come before method %s
+method %s should come before method %s\n
 method && method->klass->parent == mono_defaults.multicastdelegate_class && !strcmp (method->name, "BeginInvoke")
 method && method->klass->parent == mono_defaults.multicastdelegate_class && !strcmp (method->name, "EndInvoke")
 method && method->klass->parent == mono_defaults.multicastdelegate_class && !strcmp (method->name, "Invoke")
 method == method_to_compile
 method body is empty.
-method to IR %s
+method to IR %s\n
 method->context.method_inst
 method->dynamic
 method->flags & METHOD_ATTRIBUTE_PINVOKE_IMPL
@@ -9893,12 +9070,8 @@ method_addresses
 method_offsets
 method_order
 methods_end
-mf{
-mi
 miercuri
-mik
 mikudagur
-min
 mini-amd64.c
 mini-codegen.c
 mini-exceptions.c
@@ -9908,10 +9081,8 @@ mini-trampolines.c
 minpd
 minps
 missing_value_field
-mk
 mk-MK
 mk-mk
-mkd
 mkdir
 mklass != NULL
 mkrefany
@@ -9920,6 +9091,7 @@ mktime
 mmap
 mmap(...PROT_NONE...) failed
 mn-MN
+mnD"
 module->image
 modulename
 mon->nest == 1
@@ -9946,9 +9118,9 @@ mono-sha1.c
 mono-value-hash.c
 mono.
 mono/1.0
-mono/marshal: SafeHandles missing MANAGED_CONV_IN
-mono/marshal: SafeHandles missing MANAGED_CONV_OUT
-mono/marshal: SafeHandles missing MANAGED_CONV_RESULT
+mono/marshal: SafeHandles missing MANAGED_CONV_IN\n
+mono/marshal: SafeHandles missing MANAGED_CONV_OUT\n
+mono/marshal: SafeHandles missing MANAGED_CONV_RESULT\n
 mono_add_internal_call
 mono_alloc_special_static_data
 mono_amd64_get_original_ip
@@ -10071,7 +9243,7 @@ mono_class_from_generic_parameter
 mono_class_from_mono_type
 mono_class_from_mono_type (klass->fields [0].type) == param_class
 mono_class_from_mono_type (klass->fields [1].type) == mono_defaults.boolean_class
-mono_class_from_mono_type: implement me 0x%02x
+mono_class_from_mono_type: implement me 0x%02x\n
 mono_class_from_name
 mono_class_from_name_case
 mono_class_from_typeref
@@ -10718,7 +9890,7 @@ mono_method_get_flags
 mono_method_get_generic_container
 mono_method_get_header
 mono_method_get_header (cfg->method)->num_clauses == 0
-mono_method_get_imt_slot: %s.%s.%s is not an interface MonoMethod
+mono_method_get_imt_slot: %s.%s.%s is not an interface MonoMethod\n
 mono_method_get_index
 mono_method_get_last_managed
 mono_method_get_marshal_info
@@ -11093,22 +10265,19 @@ monobitset.c
 monolist_item_vtable
 moonlight
 move
-mr
 mr-IN
 mr-in
 mremap
-mrt
 ms < 1000
 ms-BN
 ms-MY
 mscoree.dll
 mscorlib.dll
-mscorlib.dll loaded at: %s
+mscorlib.dll loaded at: %s\n
 msdos
 mspec
 mtype != NULL
 mtype->type->type
-mul
 mul.ovf
 mul.ovf.un
 mul_imm
@@ -11122,14 +10291,14 @@ mutex_is_owned
 mutex_own
 mutex_release
 mutexes.c
-my
-n
 n >= 0 && n < 30
-n"
-n)
-n/a
-n\
+n7fX
+nTtTtTtT
+nXPO
+nYtYtYtYtY
+n]dB
 nachm.
+nadagur
 name_%d
 name_rva != INVALID_OFFSET
 namedevent_create
@@ -11150,19 +10319,17 @@ namedsema_own
 nanosleep
 native type %02x not implemented
 native-to-managed
-nb
 nb-NO
 nb-no
 nclass
 ncpfs
-ne
+ndag
 nearest
-ned
 nedelja
 nedjelja
 need to encode type %x
 need_push
-neg
+neljap
 neutral
 new->chunks [new_chunk]->num_elements > 0
 newVersion
@@ -11173,71 +10340,76 @@ newarr
 newobj
 newsize <= size
 nfields == 0
-nfs
 nfs4
+ng Vi
+ng b
+ng ba
+ng ch
+ng hai
+ng m
+ng n
+ng s
+ng t
+nia)
 niedziela
+nijs
 nimt-trampolines=
-nl
+nius
 nl-BE
 nl-NL
 nl-be
 nl-nl
 nl_langinfo
-nld
-nn
 nn-NO
 nn-no
-nno
-no
+nner
 no SSA info available (use -O=deadce)
-no implementation for interface method %s::%s(%s) in class %s
+no implementation for interface method %s::%s(%s) in class %s\n
 no-gdb-backtrace
-no.
-nob
-node [fontsize=12.0]edge [len=1,color=red]
+node [fontsize=12.0]\nedge [len=1,color=red]\n
 nodebug
 noiembrie
+non imported interfaces on \t\t\timported classes is not yet implemented.
 none
-nop
-nor
 norsk
+norsk bokm
 norsk nynorsk (Noreg)
-not
 not a widening conversion
-not black listed
+not black listed\n
 not waiting
 not yet implemented
 not_null
 not_reached
-nov
 nov.
 november
 novembre
 novembris
 novembro
 noviembre
-nq
 nregs <= NUM_REGS
 nrgctx-trampolines=
+ntek
 ntfs
 ntfs-3g
+ntor
 ntrampolines=
+nudagur
 null ResolutionScope not yet handled
 nullified_class_init_trampoline
-nullify block triggered %d
+nullify block triggered %d\n
 num_sections < num
 num_sregs <= 2
 num_sregs == info->sig->param_count
 nvtypes < 256
-o
-o"
-o0
+oK+5
+oOuOuOuO
+oPe*
+o\fmC!
 obj ptr
 obj->type
 obj->vtable->klass->valuetype
 obj_address
 objdump -l -d %s %s
-object at %p (klass: %p)
 object int
 object int object
 object int object object
@@ -11248,29 +10420,44 @@ object ptr int int
 object ptr int int int
 object.c
 object_context.class_inst || object_context.method_inst
-oct
 oct.
 octobre
 octombrie
 octubre
 odp.
-ofd
 offset != 0
 offset != INVALID_OFFSET
 offset < (1 << 30)
 offset >= 0 && offset < klass->method.count
 offset1 <= offset
 offset: 0x%x
-og
-okt
+ojdB;?
 okt.
 oktober
 oktobris
 oktoober
+ol (Argentina)
+ol (Bolivia)
+ol (Chile)
+ol (Colombia)
+ol (Costa Rica)
+ol (Ecuador)
+ol (El Salvador)
+ol (Espa
+ol (Guatemala)
+ol (Honduras)
+ol (M
+ol (Nicaragua)
+ol (Panam
+ol (Paraguay)
+ol (Per
+ol (Puerto Rico)
+ol (Rep
+ol (Uruguay)
+ol (Venezuela)
+ol&b<P
 oldVersion
 oldhandle
-on
-ons
 onsdag
 onthrow
 onthrow=
@@ -11299,7 +10486,6 @@ open /dev/rtc
 opendir
 opt_param_types && (mono_method_signature (method)->sentinelpos >= 0)
 optc
-or
 or_imm
 orig_method
 originalfilename
@@ -11308,13 +10494,9 @@ orps
 os_handle
 osteguna
 ostirala
-oti
 otrdiena
-ots
 otsaila
-ott
 ottobre
-out
 outarg_vt
 outarg_vtretaddr
 outfile=
@@ -11323,8 +10505,6 @@ outubro
 over
 overhang > (2 << DECIMAL_MAX_INTFACTORS)
 overlapped == NULL
-owns (
-p
 p + length <= limit
 p - buf < 4096
 p - buf < buf_size
@@ -11332,11 +10512,8 @@ p - buf < size
 p - buf <= buf_size
 p - buf <= size
 p - buffer <= buflen
-p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!!
-p"
-p.
-p.m.
-p0
+p!Sz
+p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 p:xmm0
 p:xmm1
 p:xmm10
@@ -11353,8 +10530,7 @@ p:xmm6
 p:xmm7
 p:xmm8
 p:xmm9
-pN
-pS
+pUn's
 pUnk
 pa-IN
 packd
@@ -11370,11 +10546,10 @@ paddw
 paddw_sat
 paddw_sat_un
 pand
-param %d:
+param %d:  
 param%d
 paramterless constructor required
-parent slot offset: %03d, method count: %03d, iid: %03d %s
-partially black listed
+partially black listed\n
 patch_info
 patch_info->data.bb->native_offset
 patch_info->data.table->table [i]->native_offset
@@ -11393,22 +10568,18 @@ pcmpgtq
 pcmpgtw
 pcount == (m->klass->rank * 2)
 pcount == (rank * 2)
-pe
 peephole
 perjantai
 perror
-pet
 petak
 petek
-pgT
-phi
 piektdiena
 piinfo->addr
 pipe
 pipe_read
 pipe_write
 pirmdiena
-pl
+pktk
 pl-PL
 pl-pl
 plt_
@@ -11437,16 +10608,14 @@ pmul_high_un
 pmuld
 pmulq
 pmulw
-po
-pol
 policy.%d.%d.%s
 polski
 polski (Polska)
-pon
+pond
 ponedeljek
 ponedjeljak
-pop
-por
+poniedzia
+portugu
 pos < block_to
 pos < set->size
 pos < table_len
@@ -11456,7 +10625,6 @@ pos > interval->range->from && pos <= interval->last_range->to
 pos >= 0 && pos < jit->num_locals
 pos >= 0 && pos < jit->num_params
 posix_fadvise
-pow
 power >= 0
 precomp
 predicate != NULL
@@ -11471,9 +10639,9 @@ prefix6
 prefix7
 prefixref
 prev_handle == INTERRUPTION_REQUESTED_HANDLE
+prilis
 prill
 privatePath
-pro
 probing
 proc_count > 0
 process_set_current
@@ -11487,9 +10655,9 @@ productminorpart
 productname
 productprivatepart
 productversion
-prof counts: total/unmanaged: %d/%d
-profiler : Unknown argument '%s'.
-profiler : cannot open profile output file '%s'.
+prof counts: total/unmanaged: %d/%d\n
+profiler : Unknown argument '%s'.\n
+profiler : cannot open profile output file '%s'.\n
 profiler.c
 program != NULL
 prosinac
@@ -11525,7 +10693,6 @@ psubw
 psubw_sat
 psubw_sat_un
 psumabsdiff
-pt
 pt-BR
 pt-PT
 pt-br
@@ -11572,39 +10739,34 @@ ptr object int32 int32
 ptr object ptr
 ptr object ptr ptr
 ptr ptr ptr ptr
-pu
 publicKeyToken
 putchar
-pw
 pxor
-q
-q"
-q0
-q\
-qe:
+q!be
+q4u!%
+q<PF
+qbwbwbwb
 qershor
 qnx4
 qsort
-qt
-qua
 quarta-feira
-qui
 quinta-feira
-r
-r"
-r,
-r0
 r11_save_code == after_r11_save_code
 r4const
 r8const
-r^
+rGyGyGyG
+rHJ:
+rSxSxSxS
 raise
 ramfs
 rank <= 255
 rank == pcount
 rate of recognized threads / sec
-rb
+rcius
+rcoles
+rcores
 rcpps
+rdag
 readdir
 readlink
 readonly.
@@ -11631,28 +10793,23 @@ regs
 regvar
 reiserfs
 relaxed_nop
-rem
 rem.un
 rem_imm
 rem_un_imm
 remoting not installed
 remoting-invoke
 remoting-invoke-with-check
-remove_block_if_useless, removed BB%d
+remove_block_if_useless, removed BB%d\n
 remove_critical_edges, AFTER BB%d (in:
 remove_critical_edges, BEFORE BB%d (in:
-remove_critical_edges, added helper BB%d jumping to BB%d
-remove_critical_edges, removed critical edge from BB%d to BB%d (added BB%d)
+remove_critical_edges, added helper BB%d jumping to BB%d\n
+remove_critical_edges, removed critical edge from BB%d to BB%d (added BB%d)\n
 rename
-requested method token for %s
-requested token for %s
+requested method token for %s\n
+requested token for %s\n
 requiredRuntime
 res != (MonoReflectionType*)tb
-res != -1
 res != NULL
-res == 0
-res == 1
-res >= 0
 res->token
 res->vtable->klass == mono_defaults.int_class
 res_size == count
@@ -11664,7 +10821,6 @@ result != NULL
 result == len - 1
 result=%d
 result=%p
-ret
 ret cannot escape exception blocks at 0x%04x
 ret_class
 rethrow
@@ -11675,20 +10831,24 @@ return_reg == DWARF_PC_REG
 rgctx
 rgctx_fetch_trampoline_%u
 rgctx_template
+ria)
 rint
+rkiye)
+rkur
 rmdir
 rmethod
-ro
+rmvm
+rnap
 ro-RO
 ro-ro
-ron
+roda
 round
-rpS
+royar)
+royskt
+royskt (F
 rsqrtps
-ru
 ru-RU
 ru-ru
-ruj
 rujan
 runtime invoke called on uninitialized runtime
 runtime-invoke
@@ -11696,13 +10856,10 @@ runtime_invoke
 runtime_invoke_dynamic
 runtime_invoke_reset_abort
 runtime_invoke_virtual
-rus
-r
-s
-s"
-s,
-s0
+s (Brasil)
+s (Portugal)
 s1 != NULL
+s1\vm\
 s2 != NULL
 s:xmm0
 s:xmm1
@@ -11721,12 +10878,7 @@ s:xmm7
 s:xmm8
 s:xmm9
 sFr.
-sY
-s\z
-s^
-s_
 sa-IN
-sab
 sabato
 safe_wait_handle
 sam.
@@ -11734,14 +10886,15 @@ samedi
 save-symfiles
 save-temps
 save_lmf
+sax~Z
 sb->str
 sb_ctor
-sbb
 sbb_imm
 sbyte
 sched
 sched_setaffinity
 sched_yield
+sdagur
 secman.allowpartiallytrustedcallers
 secman.demand
 secman.demandchoice
@@ -11761,7 +10914,6 @@ security-core-clr.c
 security-manager.c
 security.c
 securityfs
-seg
 segunda-feira
 select
 sem_create
@@ -11784,7 +10936,6 @@ send
 sendfile
 sendmsg
 sendto
-sep
 separator != NULL
 sept
 sept.
@@ -11797,7 +10948,6 @@ seq_point
 seq_points
 server=
 sestdiena
-set
 set rtc freq
 set.
 set_CheckExecutionRights
@@ -11843,34 +10993,31 @@ setter
 setup_enum_type
 setup_generic_class
 setup_internal_class
-sex
 sext_i1
 sext_i2
 sext_i4
 sexta-feira
-sfd
 shadow
 shared
 shared->type == type
 shared.c
 shared_data-%s-%s-%s-%d-%d-%d
 shared_fileshare-%s-%s-%s-%d-%d-%d
-sharing failed for method %s.%s.%s/%d opcode %s line %d
+sharing failed for method %s.%s.%s/%d opcode %s line %d\n
 shkurt
-shl
 shl_imm
 shm_open
 shm_semaphores_init
 shm_unlink
 shqipe
-shr
+shqipe (Shqip
 shr.un
 shr_imm
 shr_un_imm
 shtator
 shutdown
 shutting_down
-sie
+sierpie
 sig->generic_param_count
 sig->param_count < 3
 sig->param_count == 1
@@ -11890,12 +11037,11 @@ sigfillset() failed
 sigprocmask
 sigsetmask
 sigsuspend
-sij
+sije
 simd
 simd-intrinsics.c
-sin
 single
-single step
+single step 
 sinh
 size < 10000
 size < max_size
@@ -11903,22 +11049,18 @@ size <= (buf->end - buf->buf)
 size == mono_array_length (dest)
 size > 1
 sizeof
-sk
 sk-SK
 sk-sk
-sl
 sl-SI
 sl-si
-slk
+sland)
+slenska
+slenska (
 slot >= 0
-slot assigned: %03d, slot index: %03d %s
-slot offset: %03d, method count: %03d, iid: %03d %s
-slv
+slovensk
 small_id_table [id] != NULL
 small_id_table [id] == NULL
 smbfs
-so
-sob
 sobota
 socket
 socket-io.c
@@ -11928,7 +11070,6 @@ sockets.c
 soft-debug
 somebody
 source != NULL
-spa
 spec [MONO_INST_CLOB] != '1'
 spec [MONO_INST_DEST] != 'f'
 spec->native == MONO_NATIVE_LPARRAY
@@ -11938,30 +11079,21 @@ specific_trampoline_lazy_fetch_%u
 specific_trampoline_monitor_enter
 specific_trampoline_monitor_exit
 specific_trampolines
-sq
 sq-AL
 sq-al
-sqi
 sqrt
 sqrtpd
 sqrtps
-src
 src != NULL
 src->size <= dest->size
 src1->size <= dest->size
 src2->size <= dest->size
-sre
 sreda
-sreg != -1
 sregs [j] != -1
-srg
-sri
 srijeda
-srp
 srpanj
 srpen
 ss_req == req
-ssa
 ssa.c
 ssapre
 sscanf
@@ -11971,14 +11103,13 @@ sse41
 sse42
 sse4a
 ssse3
-st
-stack type %d to monotype not handled
-stack type %d to montype not handled
+stack type %d to monotype not handled\n
+stack type %d to montype not handled\n
 stack walk not installed
 stack_history_len < stack_history_size
 starg
 starg.s
-start black listed
+start black listed\n
 start rtc
 start: 0x%lx, appr. length: %ld
 startIndex
@@ -12004,6 +11135,7 @@ stelem.r8
 stelem.ref
 stelemref
 step_thread_id
+sterreich)
 stfld
 stfld-remote
 stind.i
@@ -12049,7 +11181,7 @@ storex_aligned_membase_reg
 storex_membase
 storex_membase_reg
 storex_nta_membase_reg
-storing %d to temp %d
+storing %d to temp %d\n
 str != NULL
 str_array != NULL
 strcasecmp
@@ -12079,11 +11211,9 @@ strtok_r
 strtol
 strtoul
 stsfld
-stu
+studagur
 studeni
-sty
-su
-sub
+stycze
 sub.ovf
 sub.ovf.un
 sub_imm
@@ -12094,12 +11224,12 @@ subcc_imm
 subclass->image == image
 subclass_oti.data
 subclass_template
+subgraph cluster_%d {\n
 subota
 subpd
 subps
 success
 suffix != NULL
-sun
 sunnudagur
 sunnuntai
 suomi
@@ -12108,7 +11238,6 @@ supportedRuntime
 suspend-on-sigsegv
 suspend=
 suspend_count > 0
-sv
 sv-FI
 sv-SE
 sv-fi
@@ -12116,13 +11245,9 @@ sv-se
 svenska
 svenska (Finland)
 svenska (Sverige)
-svi
 svibanj
-sw
 sw-KE
 sw-ke
-swa
-swe
 switch
 symbol_func != NULL
 synchronized
@@ -12138,18 +11263,18 @@ szept.
 szeptember
 szerda
 szombat
-s|
-t
+t (Vi
+t Nam)
 t h:mm
+t hh'
 t hh:mm
 t hh:mm:ss
-t"
+t%rv
 t->attrs & PARAM_ATTRIBUTE_OUT
 t->type == MONO_TYPE_OBJECT
-t0
-tM5
-t^
-ta
+t7Pr^2>#
+tB{B
+tMxMxMxM
 ta-IN
 ta-in
 table + pos <= amodule->method_order_end
@@ -12162,14 +11287,13 @@ table->table != NULL
 table->table [i] == bbn
 table_index < table->rows
 table_size < 65000
+tadienis
 tail prefix must be used only with call opcodes at 0x%04x
 tail.
 tailc
 tailcall
-tam
 tammi
 tammikuu
-tan
 tanh
 tarball
 target->type == MONO_TYPE_ARRAY
@@ -12183,35 +11307,34 @@ tblock->native_offset
 tcflush
 tcgetattr
 tcsetattr
-te
+tdiena
+te d'Ivoire
 te-IN
 te-in
-tel
+teisip
 temporary-smcs-hack
-ter
 test_
 tetor
+texp > 0
 text_len >= 0
-tf
-th
 th-TH
 th-th
 th:mm
-tha
 that
+thh'
 this->datetime_index >= 0
 this->number_format != 0
 this->vtable->klass == mono_defaults.transparent_proxy_class
 this->vtable->klass->enumtype
-this:%p[%s.%s %s],
-this:NULL,
-this:[STRING:%p:%s],
+this:%p[%s.%s %s], 
+this:NULL, 
+this:[STRING:%p:%s], 
 this_argument->vtable->klass->inited
 thr_ret == 0
 thread != NULL
 thread == mono_thread_current ()
 thread apply all bt
-thread handle %p state :
+thread handle %p state : 
 thread handle %p state : lookup failure
 thread->abort_exc->object.vtable->domain != domain
 thread->abort_exc->object.vtable->domain == domain
@@ -12223,15 +11346,13 @@ threadpool.c
 threads=
 throw
 throw_pending_exception
-ti
-tid=0x%p this=0x%p %s
 tiistai
 timeout=
 timer != NULL
-tir
+tina
+tina (
 tirsdag
 tisdag
-tls
 tls->has_context
 tls->resume_count
 tls_get
@@ -12240,23 +11361,19 @@ tmp_handle_class
 tmp_klass
 tmp_shared != NULL
 tmpfs
-to
 to >= from
 to_oadate
 to_spill
 token != NULL
 tool-prefix=
-tor
 torek
 torsdag
 torstai
 total_size + 9 < DATA_TABLE_CHUNK_SIZE
 touko
 toukokuu
-tr
 tr-TR
 tr-tr
-tra
 trace.c
 tramp
 tramp-amd64.c
@@ -12270,15 +11387,16 @@ trunc_i4
 try block (at 0x%04x) includes handler block (at 0x%04x)
 try clause len <= 0 at 0x%04x
 try clause out of bounds at 0x%04x
+tt h'
 tt h:mm
 tt h:mm:ss
+tt hh'
 tt hh:mm
 tt hh:mm:ss
 tt-TA
-tur
 turvwsxyz{pq
-tu|~}xyz{pq
-tv
+tvrtek
+tvrtok
 type != MONO_TYPE_VOID
 type %x not implemented
 type 0x%02x not handled in GetTypeCode()
@@ -12302,27 +11420,22 @@ type_argc >= 0
 type_from_obj
 type_is_assignable_from
 type_is_subtype_of
-tz
-u
-u"
-u,
-u0
-uS
+u (Latvija)
+uYy\f
+ubat
 ucs_2
-udf
-ufs
 uint
 uint16
 uint32
 uint32 double
 uint8
 uintptr
-uk
+ujak
 uk-UA
 uk-ua
-ukr
 ulong
 ulong double
+um=Q
 umask
 unable to handle jump info %d
 unaligned.
@@ -12335,6 +11448,7 @@ unexpected state
 unhandled type %d
 unhandled type in custom attr
 unicodefffe
+union
 unitext != NULL
 unity_mono_exit
 unity_mono_install_memory_callbacks
@@ -12347,8 +11461,9 @@ unknown MONO_PATCH_INFO_INTERNAL_METHOD %s
 unknown MONO_PATCH_INFO_JIT_ICALL_ADDR %s
 unknown address family 0x%x
 unknown name
-unknown opcode %02x in mono_type_from_opcode
-unknown opcode %s in %s()
+unknown opcode %02x in mono_type_from_opcode 
+unknown opcode %s in %s()\n
+unknown opcode name for %d
 unknown token type %x
 unknown type %02x in conversion
 unknown type 0x%02x in check_call_signature
@@ -12378,6 +11493,7 @@ unsetenv
 unshared details
 unsupported calling convention : 0x%04x for method 0x%08x from image %s
 unused
+unused details
 unused1
 unused10
 unused11
@@ -12443,14 +11559,10 @@ unused9
 unused99
 unwind.c
 unwind_info
-uoG
 ur-PK
 uri != NULL
-urr
 urria
-urt
 urtarrila
-us
 us_ascii
 user32
 user32.dll
@@ -12458,34 +11570,32 @@ ushort
 using byref native int at 0x%04x
 usize == info->native_size
 usleep
+ustos
 ut_%d
 ut_e_%d
 utf8!=NULL
 utf_16
 utf_16be
 utime
-uto
 utorak
-uzt
+uvyv
 uztaila
-v
-v"
-v,
-v0
 v1.0.3705
 v1.1.4322
 v2.0.50215
 v2.0.50727
 v4.0.20506
+vH7B
 val != NULL
-val == 0
 validil
-value:%p,
+value:%p, 
 value__
 var->klass == klass
 var->opcode == OP_REGOFFSET
 variant_clear
 vasprintf
+vc6;F
+vcC1]
 vcall
 vcall2
 vcall2_membase
@@ -12495,10 +11605,11 @@ vcall_reg
 vcallvirt
 veebr
 veebruar
-vel
-ven
+velja
+vember
 ven.
 vendredi
+venerd
 verifiable
 version_info
 versioninfo.c
@@ -12507,15 +11618,15 @@ ves_array_new_va_
 ves_array_new_va_%d
 ves_icall_System_Delegate_CreateDelegate_internal
 ves_icall_System_Environment_GetWindowsFolderPath should only be called on Windows!
+ves_icall_System_Net_Sockets_Socket_Poll_internal
 ves_icall_System_Net_Sockets_Socket_Select_internal
 ves_icall_System_Threading_Thread_ResetAbort
+ves_icall_System_Threading_Thread_Thread_internal
 vfat
-vg[
-vi
 vi-VN
 vi-vn
-vie
 viernes
+vikudagur
 vineri
 vmove
 void
@@ -12542,41 +11653,29 @@ volatile.
 vorm.
 vphi
 vprintf
-vr
-vreg != -1
 vreg >= MONO_MAX_IREGS
 vreg >= regbank_size [bank]
 vreg_to_lvreg [sreg] != -1
 vret_addr =
+vret_addr = 
+vrier
 vrijdag
-vt
 vtable [im_slot] == override_im
 vtable->init_failed
 vtable_slot || klass
 vtarg_addr
-vv
 vzero
-w
-w!
-w"
-w+
-w+b
-w0
-waiting on %p : %s
+wait.c
+waiting on %p : %s 
 waitpid
 wapi_sendfile
 warning
-wb
 wb_generic
 we can't encode valuetypes
 we don't encode constant type 0x%02x yet
-we;
-with value
-wk
-wm
-wo
 woensdag
 wordsize
+wqBv/?
 wrapper_native_
 wrapper_native_%p
 write to stderr failed
@@ -12586,12 +11685,10 @@ write-symbols
 wrong maximal instruction length of instruction %s (expected %d, got %ld)
 wrong signature for locals blob
 wrong token %x to get_generic_param_row
-wrz
+wrzesie
+wsj=
 wthreads.c
 wtorek
-x
-x"
-x0
 x86-64
 x86_add_membase_imm
 x86_add_membase_reg
@@ -12634,46 +11731,34 @@ x86_xchg
 x86_xor_membase_imm
 x86_xor_membase_reg
 x86_xor_reg_membase
+x95K
+xNe;
+xQ~Q~Q~Q
 x_unicode_1_1_utf_7
 x_unicode_1_1_utf_8
 x_unicode_2_0_utf_7
 x_unicode_2_0_utf_8
-xb
-xc
 xconv_r8_to_i4
 xdb.il
 xdb.s
 xdg-open
 xdomain-dispatch
 xdomain-invoke
-xe
-xf
-xi
-xii
+xico)
 xmove
-xor
 xor_imm
 xorpd
 xorps
 xphi
-xx
-xxf
-xxi
-xxx
+xxxf
+xxxi
 xzero
-xz|
-y
 y MMMM
 y MMMM d
 y MMMM d HH:mm:ss z
-y"
-y0
-yK&
-yes
-yf@
-yk
-yr
-yx
+yK|K|K|K
+ymL{
+yn}n
 yy'-'MM'-'dd
 yy-M-d
 yy-MM-dd
@@ -12684,14 +11769,16 @@ yy/M/d
 yy/M/d' ('ddd')'
 yy/MM/dd
 yy/MM/dd' ('ddd')'
+yyyy '
 yyyy 'm.' MMMM
 yyyy 'm.' MMMM d 'd.'
 yyyy 'm.' MMMM d 'd.' HH:mm:ss
 yyyy 'm.' MMMM d 'd.' HH:mm:ss z
 yyyy MMMM
-yyyy MMMM d
+yyyy MMMM d 
 yyyy MMMM d  HH:mm:ss z
 yyyy MMMM d  h.mm.ss tt
+yyyy'
 yyyy'. gada 'MMMM
 yyyy'. gada 'd. MMMM
 yyyy'. gada 'd. MMMM H:mm:ss
@@ -12710,17 +11797,13 @@ yyyy/M/d
 yyyy/M/d' ('ddd')'
 yyyy/MM/d
 yyyy/MM/dd
-y
-z
-z"
-z0
-z^
-za
+yz@l
+z^KD
 zaterdag
+zc%C1
 zext_i1
 zext_i2
 zext_i4
-zh
 zh-CHS
 zh-CHT
 zh-CN
@@ -12735,31 +11818,10 @@ zh-hk
 zh-mo
 zh-sg
 zh-tw
-zho
-zo
 zondag
-zpT
+zt~t
 zzzz
-{
-{"
-{0
-{c
-{g
-{|
-|
-|"
-|0
-|T
-||| R%d
-}
-}"
-}"];
-}0
-}ex
-}sp
-}v
-~
-
-^
-dW
-y
+{8pjU'9
+{E}E{E}E{E}E
+}xyz{pq
+~cU4

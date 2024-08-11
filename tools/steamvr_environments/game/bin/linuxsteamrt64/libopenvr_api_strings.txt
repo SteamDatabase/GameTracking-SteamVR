@@ -1,20 +1,18 @@
+ for detail.\n
 %llu
 %s: __pos (which is %zu) > this->size() (which is %zu)
 ' is not a number.
-*
-,
 .config
 .tmp
 /proc/self/exe
 0123456789ABCDEF
-:
 A valid JSON document must be either an array or an object value.
-All
 Another app was already launching (117)
 App info manager init failed (114)
 BCreateDirectory(char const*)
 BCreateDirectoryRecursive(char const*)
 Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 CVRPathRegistry_Public::BLoadFromFile()
 CVRPathRegistry_Public::BSaveToFile() const
@@ -22,7 +20,7 @@ CVRPathRegistry_Public::CVRPathRegistry_Public()
 CVRPathRegistry_Public::GetConfigPath() const
 CVRPathRegistry_Public::GetLogPath() const
 CVRPathRegistry_Public::GetOpenVRConfigPath()
-CVRPathRegistry_Public::GetPaths(std::string*, std::string*, std::string*, char const*, char const*, std::vector<std::string, std::allocator<std::string> >*)
+CVRPathRegistry_Public::GetPaths(std::string*, std::string*, std::string*, char const*, char const*, std::vector<std::string, std::allocator<std::string>>*)
 CVRPathRegistry_Public::GetRuntimePath() const
 CVRPathRegistry_Public::GetVRPathRegistryFilename()
 CVRPathRegistry_Public::ToJsonString(std::string&)
@@ -68,10 +66,9 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GetEnglishStringForHmdError(vr::EVRInitError)
 GetEnvironmentVariable(char const*)
-GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetEnvironmentVariableAsBool(char const*, bool)
 GetIDForVRInitError(vr::EVRInitError)
 GetIDForVRInitError(vr::EVRInitError)::buf
@@ -127,7 +124,7 @@ Json::BuiltStyledStreamWriter::writeArrayValue(Json::Value const&)
 Json::BuiltStyledStreamWriter::writeCommentAfterValueOnSameLine(Json::Value const&)
 Json::BuiltStyledStreamWriter::writeCommentBeforeValue(Json::Value const&)
 Json::BuiltStyledStreamWriter::writeIndent()
-Json::BuiltStyledStreamWriter::writeIndent() [clone .part.18] [clone .constprop.76]
+Json::BuiltStyledStreamWriter::writeIndent() (.part.18) (.constprop.76)
 Json::BuiltStyledStreamWriter::writeValue(Json::Value const&)
 Json::BuiltStyledStreamWriter::writeWithIndent(std::string const&)
 Json::BuiltStyledStreamWriter::~BuiltStyledStreamWriter()
@@ -193,10 +190,10 @@ Json::OurReader::recoverFromError(Json::OurReader::TokenType)
 Json::OurReader::skipCommentTokens(Json::OurReader::Token&)
 Json::OurReader::skipSpaces()
 Json::Path::Path(std::string const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&)
-Json::Path::addPathInArg(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&, __gnu_cxx::__normal_iterator<Json::PathArgument const* const*, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > >&, Json::PathArgument::Kind)
+Json::Path::addPathInArg(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*>> const&, __gnu_cxx::__normal_iterator<Json::PathArgument const* const*, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*>>>&, Json::PathArgument::Kind)
 Json::Path::invalidPath(std::string const&, int)
 Json::Path::make(Json::Value&) const
-Json::Path::makePath(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&)
+Json::Path::makePath(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*>> const&)
 Json::Path::resolve(Json::Value const&) const
 Json::Path::resolve(Json::Value const&, Json::Value const&) const
 Json::PathArgument::PathArgument()
@@ -301,7 +298,7 @@ Json::Value::Value(Json::StaticString const&)
 Json::Value::Value(Json::Value const&)
 Json::Value::Value(Json::Value&&)
 Json::Value::Value(Json::ValueType)
-Json::Value::Value(Json::ValueType) [clone .part.55]
+Json::Value::Value(Json::ValueType) (.part.55)
 Json::Value::Value(bool)
 Json::Value::Value(char const*)
 Json::Value::Value(char const*, char const*)
@@ -410,15 +407,15 @@ Json::Value::type() const
 Json::Value::~Value()
 Json::ValueConstIterator::ValueConstIterator()
 Json::ValueConstIterator::ValueConstIterator(Json::ValueIterator const&)
-Json::ValueConstIterator::ValueConstIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
+Json::ValueConstIterator::ValueConstIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> const&)
 Json::ValueConstIterator::operator=(Json::ValueIteratorBase const&)
 Json::ValueIterator::ValueIterator()
 Json::ValueIterator::ValueIterator(Json::ValueConstIterator const&)
 Json::ValueIterator::ValueIterator(Json::ValueIterator const&)
-Json::ValueIterator::ValueIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
+Json::ValueIterator::ValueIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> const&)
 Json::ValueIterator::operator=(Json::ValueIterator const&)
 Json::ValueIteratorBase::ValueIteratorBase()
-Json::ValueIteratorBase::ValueIteratorBase(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
+Json::ValueIteratorBase::ValueIteratorBase(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> const&)
 Json::ValueIteratorBase::computeDistance(Json::ValueIteratorBase const&) const
 Json::ValueIteratorBase::copy(Json::ValueIteratorBase const&)
 Json::ValueIteratorBase::decrement()
@@ -463,6 +460,7 @@ N4Json10CharReaderE
 N4Json10FastWriterE
 N4Json10LogicErrorE
 N4Json12RuntimeErrorE
+N4Json12StreamWriter7FactoryE
 N4Json12StreamWriterE
 N4Json12StyledWriterE
 N4Json13OurCharReaderE
@@ -477,7 +475,7 @@ Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 On laptop, HMD detected over USB, but Monitor not found (213)
 PFbcE
-ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .constprop.36]
+ParseStringListFromJson(std::vector<std::string, std::allocator<std::string>>*, Json::Value const&, char const*) (.constprop.36)
 Path_Compact(std::string const&, char)
 Path_Exists(std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&)
@@ -517,7 +515,7 @@ Rebooting In Progress (137)
 RepairUTF8(char const*, char const*, std::string&)
 RepairUTF8(std::string const&, std::string&)
 ReturnStdString(std::string const&, char*, unsigned int)
-See
+See 
 SetEnvironmentVariable(char const*, char const*)
 Settings manager init failed (118)
 Shared IPC Compositor Connect Failed (306)
@@ -538,7 +536,7 @@ StringHasPrefix(std::string const&, std::string const&)
 StringHasPrefixCaseSensitive(std::string const&, std::string const&)
 StringHasSuffix(std::string const&, std::string const&)
 StringHasSuffixCaseSensitive(std::string const&, std::string const&)
-StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*) [clone .constprop.35]
+StringListToJson(std::vector<std::string, std::allocator<std::string>> const&, Json::Value&, char const*) (.constprop.35)
 StringToLower(std::string const&)
 StringToUint64(std::string const&)
 StringToUpper(std::string const&)
@@ -554,13 +552,13 @@ UTF8to16(char const*)
 Uint64ToString(unsigned long)
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
-Unable to create path registry directory %s
-Unable to determine VR Path Registry filename
+Unable to create path registry directory %s\n
+Unable to determine VR Path Registry filename\n
 Unable to find Steam installation (2000)
-Unable to parse %s: %s
+Unable to parse %s: %s\n
 Unable to parse token length
-Unable to read VR Path Registry from %s
-Unable to write VR path registry to %s
+Unable to read VR Path Registry from %s\n
+Unable to write VR path registry to %s\n
 Unable to write path registry (113)
 Unknown error (%d)
 User Canceled Init (116)
@@ -570,7 +568,7 @@ VR Dashboard startup failed (134)
 VR Home Not Found (135)
 VR Monitor Not Found (127)
 VR Monitor startup failed (128)
-VR Path Registry node %s is not an array
+VR Path Registry node %s is not an array\n
 VR Server Init Failed (300)
 VR home startup failed (136)
 VR system shutting down (119)
@@ -781,12 +779,12 @@ VR_PATHREG_OVERRIDE
 VR_RuntimePath
 VR_RuntimePath::rchBuffer
 VR_ShutdownInternal
-VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
 V_StripExtension(std::string&)
 V_URLDecode(char*, int, char const*, int)
 V_URLDecodeInternal(char*, int, char const*, int, bool)
-V_URLDecodeInternal(char*, int, char const*, int, bool) [clone .part.19]
+V_URLDecodeInternal(char*, int, char const*, int, bool) (.part.19)
 V_URLDecodeNoPlusForSpace(char*, int, char const*, int)
 V_URLEncode(char*, int, char const*, int)
 V_URLEncodeFullPath(char*, int, char const*, int)
@@ -794,18 +792,6 @@ V_URLEncodeInternal(char*, int, char const*, int, bool, std::function<bool (char
 V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
 Watchdog disabled in settings (132)
 XDG_CONFIG_HOME
-[
-[.
-[]
-\"
-\\
-\b
-\f
-\n
-\r
-\t
-\u
-]
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I_json_value.cpp
@@ -1009,6 +995,7 @@ allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
+assert json failed
 base_from_cb_data
 base_from_object
 base_of_encoded_value
@@ -1017,10 +1004,9 @@ basic_string::_S_construct null not valid
 basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
 basic_string::erase
 basic_string::substr
-bin
 cIntToHexDigit(int)
 call_gmon_start
-char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string>>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
 char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
 chdir
 chdir@@GLIBC_2.2.5
@@ -1061,7 +1047,6 @@ fde_unencoded_compare
 file://
 fopen
 fopen@@GLIBC_2.2.5
-for detail.
 fputs
 fputs@@GLIBC_2.2.5
 frame_downheap
@@ -1114,7 +1099,6 @@ libpthread.so.0
 libstdc++.so.6
 linear_search_fdes
 linux64
-log
 malloc
 malloc@@GLIBC_2.2.5
 marker.9290
@@ -1129,7 +1113,6 @@ mkdir@@GLIBC_2.2.5
 modf
 modf@@GLIBC_2.2.5
 nfinity
-no
 null
 object_mutex
 once_regsizes.9654
@@ -1146,7 +1129,6 @@ pthread_mutex_unlock
 pthread_mutex_unlock@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
-rb
 read_encoded_value_with_base
 readlink
 readlink@@GLIBC_2.2.5
@@ -1164,28 +1146,28 @@ sscanf
 sscanf@@GLIBC_2.2.5
 stackDepth_g
 stackLimit
-std::_Deque_base<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_create_nodes(Json::OurReader::ErrorInfo**, Json::OurReader::ErrorInfo**) [clone .isra.103]
-std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_create_nodes(Json::Reader::ErrorInfo**, Json::Reader::ErrorInfo**) [clone .isra.86]
-std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_initialize_map(unsigned long)
-std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::_M_initialize_map(unsigned long)
-std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::~_Deque_base()
+std::_Deque_base<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_create_nodes(Json::OurReader::ErrorInfo**, Json::OurReader::ErrorInfo**) (.isra.103)
+std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_create_nodes(Json::Reader::ErrorInfo**, Json::Reader::ErrorInfo**) (.isra.86)
+std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_initialize_map(unsigned long)
+std::_Deque_base<Json::Value*, std::allocator<Json::Value*>>::_M_initialize_map(unsigned long)
+std::_Deque_base<Json::Value*, std::allocator<Json::Value*>>::~_Deque_base()
 std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, Json::Value::CZString const&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_unique_pos(Json::Value::CZString const&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::equal_range(Json::Value::CZString const&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::find(Json::Value::CZString const&)
-std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_erase(std::_Rb_tree_node<std::string>*)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>*)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, Json::Value::CZString const&)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_get_insert_unique_pos(Json::Value::CZString const&)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::equal_range(Json::Value::CZString const&)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::find(Json::Value::CZString const&)
+std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_erase(std::_Rb_tree_node<std::string>*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_insert_unique_<std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&)
-std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> > const*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&)
+std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_insert_unique_<std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node&)
+std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>> const*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node&)
 std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
 std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
 std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
@@ -1214,46 +1196,46 @@ std::__throw_logic_error(char const*)
 std::__throw_out_of_range_fmt(char const*, ...)
 std::__throw_range_error(char const*)
 std::__throw_system_error(int)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
-std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_mutate(unsigned long, unsigned long, unsigned long)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_replace_safe(unsigned long, unsigned long, wchar_t const*, unsigned long)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_dispose(std::allocator<wchar_t> const&) [clone .part.10]
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::resize(unsigned long, wchar_t)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)
+std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_istringstream()
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>> std::operator+<char, std::char_traits<char>, std::allocator<char>>(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_leak_hard()
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_mutate(unsigned long, unsigned long, unsigned long)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_replace_safe(unsigned long, unsigned long, wchar_t const*, unsigned long)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_M_dispose(std::allocator<wchar_t> const&) (.part.10)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_empty_rep_storage
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::resize(unsigned long, wchar_t)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned long, unsigned long)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::~basic_stringbuf()
 std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
 std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
 std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
 std::ctype<char>::_M_widen_init() const
 std::ctype<char>::do_widen(char) const
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_default_append(unsigned long) [clone .part.153]
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>)
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_default_append(unsigned long) [clone .part.151]
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>, std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>)
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_default_append(unsigned long) (.part.153)
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>)
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_new_elements_at_back(unsigned long)
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_reallocate_map(unsigned long, bool)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_default_append(unsigned long) (.part.151)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_destroy_data_aux(std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>, std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_new_elements_at_back(unsigned long)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_reallocate_map(unsigned long, bool)
 std::exception::~exception()
 std::ios_base::Init::Init()
 std::ios_base::Init::~Init()
@@ -1263,22 +1245,22 @@ std::istream& std::istream::_M_extract<double>(double&)
 std::locale::locale()
 std::locale::~locale()
 std::ostream::operator<<(int)
-std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*)
+std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char>>*)
 std::pair<Json::Value::CZString const, Json::Value>::~pair()
-std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string>(std::string&&)
+std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_insert_unique<std::string>(std::string&&)
 std::piecewise_construct
 std::string __gnu_cxx::__to_xstring<std::string, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
 std::string::_M_leak_hard()
 std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
 std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long)
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.0]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.1]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.2]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.5]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.7]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.8]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.9]
+std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.0)
+std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.1)
+std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.2)
+std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.5)
+std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.7)
+std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.8)
+std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.9)
 std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
 std::string::_Rep::_S_empty_rep_storage
 std::string::append(char const*, unsigned long)
@@ -1293,10 +1275,10 @@ std::string::reserve(unsigned long)
 std::string::resize(unsigned long, char)
 std::string::rfind(char, unsigned long) const
 std::string::swap(std::string&)
-std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
-std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
-std::vector<std::string, std::allocator<std::string> >::~vector()
-std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+std::vector<std::string, std::allocator<std::string>>::operator=(std::vector<std::string, std::allocator<std::string>> const&)
+std::vector<std::string, std::allocator<std::string>>::reserve(unsigned long)
+std::vector<std::string, std::allocator<std::string>>::~vector()
+std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char>>::~wstring_convert()
 stderr
 stderr@@GLIBC_2.2.5
 strcasecmp
@@ -1380,19 +1362,19 @@ uw_update_context
 uw_update_context_1
 vector::reserve
 version
-void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
-void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
-void std::deque<Json::Value*, std::allocator<Json::Value*> >::_M_push_back_aux<Json::Value*>(Json::Value*&&)
-void std::deque<Json::Value*, std::allocator<Json::Value*> >::emplace_back<Json::Value*>(Json::Value*&&)
-void std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError> >::_M_emplace_back_aux<Json::OurReader::StructuredError const&>(Json::OurReader::StructuredError const&)
-void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::_M_emplace_back_aux<Json::PathArgument const*>(Json::PathArgument const*&&)
-void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::emplace_back<Json::PathArgument const*>(Json::PathArgument const*&&)
-void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_emplace_back_aux<Json::PathArgument const&>(Json::PathArgument const&)
-void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_emplace_back_aux<Json::PathArgument>(Json::PathArgument&&)
-void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::emplace_back<Json::PathArgument>(Json::PathArgument&&)
-void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError> >::_M_emplace_back_aux<Json::Reader::StructuredError const&>(Json::Reader::StructuredError const&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)
+void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
+void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
+void std::deque<Json::Value*, std::allocator<Json::Value*>>::_M_push_back_aux<Json::Value*>(Json::Value*&&)
+void std::deque<Json::Value*, std::allocator<Json::Value*>>::emplace_back<Json::Value*>(Json::Value*&&)
+void std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError>>::_M_emplace_back_aux<Json::OurReader::StructuredError const&>(Json::OurReader::StructuredError const&)
+void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*>>::_M_emplace_back_aux<Json::PathArgument const*>(Json::PathArgument const*&&)
+void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*>>::emplace_back<Json::PathArgument const*>(Json::PathArgument const*&&)
+void std::vector<Json::PathArgument, std::allocator<Json::PathArgument>>::_M_emplace_back_aux<Json::PathArgument const&>(Json::PathArgument const&)
+void std::vector<Json::PathArgument, std::allocator<Json::PathArgument>>::_M_emplace_back_aux<Json::PathArgument>(Json::PathArgument&&)
+void std::vector<Json::PathArgument, std::allocator<Json::PathArgument>>::emplace_back<Json::PathArgument>(Json::PathArgument&&)
+void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError>>::_M_emplace_back_aux<Json::Reader::StructuredError const&>(Json::Reader::StructuredError const&)
+void std::vector<std::string, std::allocator<std::string>>::_M_emplace_back_aux<std::string const&>(std::string const&)
+void std::vector<std::string, std::allocator<std::string>>::_M_emplace_back_aux<std::string>(std::string&&)
 vr-input-workshop://
 vr::CleanupInternalInterfaces()
 vr::VR_LoadHmdSystemInternal()
@@ -1433,19 +1415,15 @@ vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__function_type_info
 vtable for __cxxabiv1::__pointer_type_info
 vtable for __cxxabiv1::__si_class_type_info
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
 vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
 vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
-w
-wb
 wcslen
 wcslen@@GLIBC_2.2.5
 wstring_convert::from_bytes
 wstring_convert::to_bytes
-yes
-{
-{}
+xZ4%

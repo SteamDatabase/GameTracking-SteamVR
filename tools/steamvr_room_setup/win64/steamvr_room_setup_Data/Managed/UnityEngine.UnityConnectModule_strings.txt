@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -53,13 +52,12 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 /warning No longer supported and will do nothing
 0Modules/UnityConnect/UnityAds/UnityAdsSettings.h
 7warning No longer supported and will always return true
 <Module>
-@.reloc
 Assembly-CSharp-testable
+BSJB
 DebuggableAttribute
 DebuggingModes
 GetGameId
@@ -88,7 +86,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -165,8 +162,9 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 gameId
 get_configUrl
 get_enabled

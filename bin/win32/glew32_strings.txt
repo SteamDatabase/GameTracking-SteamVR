@@ -1,493 +1,24 @@
-	 	!	"	#	$	%	&	'	(	)	*	+	,	-	.	/	0	1	2	3	4	5	6	7	8	9	:	;	<	=	>	?	@	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	[	\	]	^	_	`	a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	{	|	}	~	
                           
-        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-!This program cannot be run in DOS mode.
-%090}0
-):_^]
-)j	h|
-+t"HHt
-,SVWj0X
 -64OS
--jd[;
-.rsrc
-.text
-0 0$0
-0 0'03080D0I0U0Z0g0z0
-0 0'060=0L0S0b0i0x0
-0 0'060=0L0S0q0w0~0
-0 0@0`0
-0!0(0/060=0E0M0U0a0j0o0u0
-0!00070F0M0\0c0r0y0
-0#02090R0X0_0d0m0r0
-0#02090T0Y0b0g0q0
-0#0D0I0R0W0a0p0w0
-0$0)02070A0P0W0f0m0
-0$0,040<0D0L0T0\0d0l0t0|0
-0$00050A0F0R0W0d0w0
-0$00050B0U0^0e0r0
-0%040;0J0Q0`0g0v0}0
-0&0-0<0C0R0Y0h0o0~0
-0'030L0X0q0}0
-0(0/0>0E0T0[0j0q0
-0*0/0;0@0L0Q0]0b0o0v0
-0+0B0K0R0_0v0
-0,030B0I0X0_0n0u0
-0-090R0^0w0
-0.0:0S0_0x0
-010;0
-010=0V0b0{0
-020>0W0c0|0
-04090B0G0Q0`0g0v0}0
-050A0Z0f0
-1	1"1(1/141=1B1d1i1r1w1
-1	1$1)12171A1P1W1f1m1|1
-1	2"2.2G2S2l2x2
-1 1'1A1G1N1a1g1n1
-1!1(151H1Q1X1e1x1
-1!1-121?1V1_1f1r1w1
-1!10171F1M1\1c1r1y1
-1"1'111@1G1V1]1l1s1
-1"1(1/141=1B1d1i1r1w1
-1"1)181?1N1U1d1k1z1
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1,141<1D1L1T1\1d1l1t1|1
-1$171@1G1T1g1p1w1
-1%141;1J1Q1`1g1v1}1
-1&1-1<1C1R1Y1h1o1~1
-1'1.1;1N1W1^1k1~1
-1(1,101
-1(1/1>1E1T1[1j1q1
-1)12191F1Y1b1i1u1z1
-1)272N2Y2
-1+171V1o1{1
 1.11.0
-1.151D1K1Z1a1p1w1
-101<1U1a1z1
-111=1V1b1{1
-141@1Y1e1~1
-142@2
-181D1]1i1
-191q1v1
-1N_^[
 1_2_1
-2 2$2(2,2024282<2@2D2H2L2P2\2`2d2h2l2p2t2x2|2
-2!20272F2M2\2c2r2y2
-2"2'242G2P2W2c2h2t2y2
-2"2)262I2R2Y2e2j2w2
-2"2)282?2N2U2d2k2z2
-2"2;2G2`2l2
-2#23292H2O2_2e2k2s2y2
-2$2)22272A2P2W2f2m2|2
-2$2,242<2D2L2T2\2d2l2t2|2
-2$20252A2F2R2W2c2h2t2y2
-2&2-2<2C2R2Y2h2o2~2
-2&2-2<2C2R2Y2t2y2
-2'20272D2W2`2g2s2x2
-2(2/2;2@2L2Q2]2b2n2s2
-2*212@2G2V2]2l2s2
-2,232B2I2X2_2n2u2
-2-292R2^2w2
-2.252D2K2Z2a2p2w2
-22282?2D2M2R2q2w2~2
-22282?2D2M2R2t2y2
-232M2Z2i2s2
-232\2b2
-242@2Y2e2~2
-242]2x2
-272C2\2h2
-2\2k2
-3"3'313@3G3V3]3l3s3
-3"3)383?3N3U3d3k3z3
-3#3(34393E3J3V3[3g3l3y3
-3#3*373J3S3Z3g3z3
-3#32393H3O3^3e3t3{3
-3$3,343<3D3L3T3X3`3h3p3x3
-3$3;3D3K3W3\3i3
-3%343;3J3Q3`3g3v3}3
-3%3>3J3c3o3
-3&3^3s3
-3'3@3L3k3
-3(3/3>3E3T3[3j3q3
-3)3.3;3B3O3b3k3r3
-3*313@3G3V3]3l3s3
-3+343;3H3[3d3k3w3|3
-3,333B3I3X3_3n3u3
-3.353D3K3Z3a3p3w3
-3/3;3J3S3`3
-303<3U3a3z3
-31373>3R3X3_3d3m3r3
-32383?3D3M3R3r3x3
-34393B3G3Q3`3g3
-34393B3G3Q3`3g3v3}3
-343@3Y3e3
-343D3T3d3t3
-353B3K3o3
-373C3\3h3
-373L3V3o3y3
-3<4e4
-3@4Q4e4k4p4
 3DFX_
-3F4o4
-3S3k3
-4 4'464=4L4S4b4i4x4
-4 4(40484@4H4P4X4`4h4p4x4
-4 4)404=4P4Y4`4l4q4}4
-4 4*4
-4 4-4@4I4P4]4p4y4
-4 434<4C4P4c4l4s4
-4!4'4.4A4G4N4b4h4o4t4}4
-4!40474F4M4\4c4r4y4
-4!4:4F4_4k4
-4"4(4/444=4B4b4h4o4t4}4
-4"4;4G4`4l4
-4#4/4H4T4s4
-4#42494H4O4^4e4t4{4
-4$4)42474A4P4W4f4m4|4
-4$4+4:4A4P4W4f4m4|4
-4$4C4\4h4
-4$5)52575A5P5W5f5m5
-4&4-4<4C4R4Y4h4o4~4
-4'484>4N4V4\4k4u4{4
-4'4>4G4N4[4r4{4
-4*414@4G4V4]4l4s4
-4,434B4I4a4g4n4
-4-464=4J4]4f4m4z4
+3DL_
 422_pixels
-434?4X4d4}4
-44494B4G4Q4`4g4v4}4
-5 5(50585@5H5P5X5`5h5p5x5
-5 5)505<5A5N5a5j5q5}5
-5 5,5E5Q5j5v5
-5!5'5.5D5I5R5W5a5p5w5
-5!50575F5M5\5c5r5y5
-5!545=5D5P5U5a5f5r5w5
-5!5:5F5_5k5
-5"5'515@5G5V5]5l5s5
-5"5)585?5N5U5d5k5z5
-5#5)5/565?5D5J5R5W5]5e5j5p5x5}5
-5#52595H5O5r5x5
-5#52595T5Y5b5g5q5
-5$5-545A5T5]5d5q5
-5$50555B5I5U5Z5f5k5w5|5
-5$5=5I5b5n5
-5%5>5J5c5o5
-5&5-5<5C5R5Y5h5o5~5
-5'6_6g6
-5(5/5>5E5T5[5j5q5
-5)5@5O5
-5+5B5K5R5_5v5
-5,535B5I5X5_5n5u5
-5.555D5K5Z5a5p5w5
-565B5[5g5
-565a5
-5Genu
-5l9p9t9x9|9
-5ntel
-6 6'666=6L6S6b6i6x6
-6 6'666=6d6i6r6w6
-6 6(60686@6H6P6X6`6h6p6x6
-6 696E6^6j6
-6!60676F6M6\6c6
-6!60676F6M6\6c6r6y6
-6"6'63686D6I6U6Z6g6n6{6
-6"6(6/646=6B6d6i6r6w6
-6"6)686?6N6U6d6k6
-6"6)686?6N6U6d6k6z6
-6"656>6E6Q6V6b6g6t6
-6"6;6G6`6l6
-6#6(6.666;6A6I6N6S6\6a6g6o6t6z6
-6#6/6H6T6m6y6
-6#62696H6O6^6e6
-6$6-626T6Y6b6g6q6
-6%646;6J6Q6`6g6v6}6
-6'6,686=6J6]6f6m6z6
-6'6@6L6e6q6
-6'6s6y6
-6(6/6>6E6T6[6j6q6
-6)6>6N6b6w6
-6*6=6F6M6Z6m6v6}6
-6.6:6S6_6x6
-64696B6G6Q6`6g6v6}6
-646=6D6P6U6b6y6
-7 7'767=7a7g7n7
-7 7(70787@7H7P7X7`7h7p7x7
-7 7)707<7A7N7a7j7q7~7
-7 7,717=7B7O7b7k7r7
-7 777@7G7T7k7t7{7
-7!7'7.7D7I7R7W7a7p7w7
-7!70777F7M7\7c7r7y7
-7"7'717@7G7V7]7
-7"7)70777>7E7L7S7]7e7y7
-7"7)787?7N7U7d7k7z7
-7"7;7G7`7l7
-7#72797H7O7^7e7t7{7
-7#7<7H7a7m7
-7#8,8B8a8|8
-7$7-727T7Y7b7g7q7
-7%7-72787@7E7K7S7X7^7f7k7q7y7~7
-7%7>7J7c7o7
-7&7-797>7J7O7\7o7x7
-7&7-7<7C7R7Y7h7o7~7
-7&7-7T7Y7b7g7q7
-7(7/7>7E7T7[7j7q7
-7*717@7G7V7]7l7s7
-7*7C7O7h7t7
-7,737B7I7X7_7n7u7
-7-7H7`7l7{7
-7/7A7S7e7w7
-70797@7M7`7i7p7}7
-717=7V7b7{7
-738=8_8z8
-74797B7G7Q7`7g7v7}7
-7O718q8|8
-7X:\:`:d:h:l:p:t:x:|:
-8 8'868=8L8S8b8i8x8
-8 8'8B8H8O8T8]8b8
-8 8(80888@8H8P8X8`8h8p8x8
-8 8*888A8K8Y8b8l8z8
-8 838<8C8O8T8`8e8q8v8
-8!8-8F8R8k8w8
-8!949D9
-8"8'818@8G8V8]8l8s8
-8"8)888?8N8U8d8k8z8
-8"8;8G8`8l8
-8#8/848A8T8]8d8q8
-8#82898H8O8^8e8t8{8
-8$8-848@8E8R8e8n8u8
-8%8,8084888<8@8D8H8
-8%848;8J8Q8`8g8v8}8
-8%8>8J8c8o8
-8&8-8Q8W8^8t8y8
-8&8?8K8d8p8
-8(8/8>8E8T8[8j8q8
-8*818@8G8V8]8
-8.858D8K8Z8a8p8w8
-81878>8R8X8_8d8m8r8
-81878>8T8Y8b8g8q8
-818:8A8N8a8j8q8~8
-84898B8G8Q8`8g8v8}8
-848U8
-85:S:l:s:{:
-8:8S8_8x8
-8J8S8
-8S8{8
-9	9'949<9X9d9j9u9
-9 9'969=9L9S9b9i9x9
-9 9(90989@9H9P9X9`9h9p9x9
-9!9*919>9Q9Z9a9m9r9~9
-9!90979F9M9\9c9r9y9
-9!:':.:B:H:O:T:]:b:
-9"9'919@9G9d9i9r9w9
-9#92999H9O9t9y9
-9#969?9F9S9f9o9v9
-9#9A9G9N9d9i9r9w9
-9$9+9:9A9P9W9f9m9|9
-9$909I9U9n9z9
-9%9*969;9G9L9X9]9j9q9}9
-9%9>9J9c9o9
-9&9-9<9C9R9Y9h9o9~9
-9&9-9T9Y9b9g9q9
-9&9/969C9V9_9f9s9
-9(9/9;9@9M9`9i9p9|9
-9(9/9>9E9T9[9j9q9
-9(9/9>9E9b9h9o9t9}9
-9(9A9M9f9r9
-9)9B9N9g9s9
-9.:4:8:<:@:
-90979<9@9D9e9
-91979>9T9Y9b9g9q9
-919=9V9b9{9
-94999B9G9Q9`9g9v9}9
-96:>:Q:\:a:q:}:
-9:9S9_9x9
-9:r:3
-9L9T9\9d9l9t9|9
-9] t"
-:	;";.;G;S;l;x;
-: :%:1:6:C:V:_:f:s:
-: :(:0:8:@:H:P:X:`:h:p:
-: :,:E:Q:j:v:
-:":):8:?:N:U:d:k:z:
-:":=:G:u:
-:$:):2:7:A:P:W:f:m:
-:$:):2:7:A:P:W:f:m:|:
-:$:-:2:T:Y:b:g:q:
-:%:.:5:A:F:R:W:d:w:
-:&:-:<:C:R:Y:h:o:~:
-:&:-:<:C:R:Y:q:w:~:
-:&:2:7:D:W:`:g:s:x:
-:&:3:F:O:V:c:v:
-:':3:L:X:q:}:
-:':::C:J:V:[:h:{:
-:(:A:M:f:r:
-:*:H:
-:+:D:P:i:u:
-:,:3:B:I:X:_:n:u:
-:.:5:D:K:Z:a:p:w:
-:1:=:V:b:{:
-:4:9:B:G:Q:`:g:v:}:
-:4:@:Y:e:~:
-;	<"<.<G<S<l<x<
-; ;';6;=;L;S;b;i;x;
-;!;+;A;T;j;s;
-;!;0;7;F;M;\;c;r;y;
-;!;0;7;R;X;_;d;m;r;
-;";(;/;4;=;B;b;h;o;t;};
-;#;/;H;T;m;y;
-;#;6;?;F;S;f;o;v;
-;$;);2;7;A;P;W;f;m;|;
-;%;*;6;;;H;_;
-;%;4;;;J;Q;`;g;v;};
-;&;+;8;K;T;[;h;{;
-;&;2;7;C;H;U;h;q;x;
-;(<-<R<g<m<
-;*;1;@;G;V;];l;s;
-;*;6;O;[;t;
-;+;D;P;i;u;
-;,;3;B;I;X;_;
-;,;3;R;X;_;d;m;r;
-;-;6;=;J;];f;m;y;~;
-;.;5;D;K;Z;a;
-;.;5;D;K;Z;a;p;w;
-;.;5;Q;W;^;t;y;
-;4;@;Y;e;
-;5;I;y;
-;7;C;\;h;
-;;<R<
-;_tr.
-;b;h;l;p;t;
-;t$,v-
-< <'<6<=<L<S<b<i<x<
-< <'<A<G<N<d<i<r<w<
-< t8<	t4
-<!<(<5<H<Q<X<e<x<
-<!<:<F<_<k<
-<"</<B<K<R<^<c<p<
-<#<2<9<H<O<^<e<t<{<
-<%<1<J<V<o<{<
-<%<D<I<R<W<a<p<w<
-<&<-<9<><J<O<[<`<l<q<~<
-<&<-<<<C<R<Y<h<o<~<
-<&<2<K<W<p<|<
-<'<3<L<X<q<}<
-<(</<;<@<L<Q<^<q<z<
-<(</<><E<T<[<
-<(</<><E<T<[<j<q<
-<(</<><E<d<i<r<w<
-<-<9<R<^<w<
-</assembly>
-<2<8<?<D<M<R<q<w<~<
-<2<Q<p<
-<4<9<B<G<Q<`<g<v<}<
-<5<_<
-<8<=<I<N<m<
-<<=C=K=
-<<D<L<T<\<d<l<t<|<
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<D<I<R<W<a<p<w<
-<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
-<v5h"
-= =$=(=,=0=4=8=<=@=D=P=T=X=\=`=d=h=l=t=x=
-= ='=6===d=i=r=w=
-= ='=D=I=R=W=a=p=w=
-=!=0=7=F=M=\=c=r=y=
-=!=A=G=N=a=g=n=
-="=)=5=:=G=Z=c=j=v={=
-=">*>
-=#=0=C=L=S=_=d=p=u=
-=#=<=H=a=m=
-=$=+=:=A=P=W=f=m=|=
-=$=,=4=<=D=L=T=\=d=l=t=|=
-=$>)>2>7>A>P>W>f>m>|>
-=%=1=6=B=G=S=X=e=x=
-=%=1=J=V=o={=
-=%=x=
-=&=-=<=C=R=Y=h=o=~=
-=&=-=<=C=R=Y=r=x=
-=&=2=7=C=H=T=Y=f=y=
-=(=/=>=E=T=[=j=q=
-=(=/=>=E=d=i=r=w=
-=(=4=M=Y=r=~=
-=)=5=N=Z=s=
-=*=1=@=G=V=]=
-=*=6=O=[=t=
-=.=5=D=K=Z=a=p=w=
-=0=<=U=a=z=
-=1=7=>=T=Y=b=g=q=
-=1>=>
-=3=?=X=d=
-=@=L=
-=@>F>M>
-=D=I=R=W=a=p=w=
-> >'>6>=>L>S>b>i>x>
->!>0>7>F>M>\>c>r>y>
->!?'?.?B?H?O?T?]?b?
->">)>6>I>R>Y>e>j>w>
->#>2>9>H>O>^>e>t>{>
->#>U>[>`>j>p>
->$>(>H>T>p>|>
->$>,>4><>D>L>T>\>d>l>t>|>
->%>4>;>J>Q>`>g>v>}>
->&>2>K>W>p>|>
->&>?>K>d>p>
->'>3>L>X>q>}>
->'?,?k?p?y?~?
->(>->9>>>K>^>g>n>{>
->(>4>M>Y>r>~>
->+>4>;>H>[>d>k>x>
->+>7>P>\>u>
->,>3>B>I>X>_>n>u>
->,>8>Q>]>v>
->.>7>>>J>O>\>o>x>
->3>?>X>d>}>
->4>9>B>G>Q>`>g>v>}>
->>?n?
->D>I>R>W>a>p>w>
-? ?'?6?=?L?S?b?i?x?
-? ?,?1?=?B?N?S?`?s?|?
-? ?,?1?>?Q?Z?a?n?
-?"?'?1?@?G?V?]?l?s?
-?"?'?1?@?G?b?h?o?t?}?
-?"?)?8???N?U?q?w?~?
-?"?D?I?R?W?a?p?w?
-?"?I?V?[?i?
-?$?)?2?7?A?P?W?q?w?~?
-?$?+?7?<?H?M?Y?^?k?~?
-?$?+?:?A?P?W?f?m?|?
-?$?,?4?<?D?L?T?\?d?l?t?|?
-?$?0?I?U?n?z?
-?%?4?;?J?Q?`?g?v?}?
-?%?>?d?j?q?v?~?
-?&?-?T?Y?b?g?q?
-?(?-?9?>?J?O?[?`?m?t?
-?(?/?>?E?T?[?j?q?
-?+?7?P?\?u?
-?,?3?B?I?X?_?n?u?
-?.?:?S?_?x?
-?/?;?T?`?y?
-?0?<?[?t?
-?8?D?]?i?
-?8?T?X?x?
-?T?`?
-@.data
-@.reloc
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AMD_
 ANGLE_
 APPLE_
+ARB_
 ATIX_
-A_^[]
+ATI_
 April
 August
 Cg_shader
@@ -512,11 +43,11 @@ ES1_1_compatibility
 ES2_compatibility
 ES3_1_compatibility
 ES3_compatibility
+EXT_
 EncodePointer
 EnterCriticalSection
 EnumSystemLocalesEx
 ExitProcess
-FVWPP
 February
 FlsAlloc
 FlsFree
@@ -1058,7 +589,6 @@ GL_WIN_phong_shading
 GL_WIN_specular_fog
 GL_WIN_swap_hint
 GREMEDY_
-GWVj	
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -1095,10 +625,13 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 HH:mm:ss
+HMXB
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
+I3D_
+IBM_
 INGR_
 INTEL_
 InitializeCriticalSectionAndSpinCount
@@ -1108,7 +641,11 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocaleName
 January
+July
+June
 KERNEL32.dll
+KHR_
+KTX_
 LCMapStringEx
 LCMapStringW
 LeaveCriticalSection
@@ -1121,28 +658,26 @@ MessageBoxW
 Missing GL version
 Monday
 MultiByteToWideChar
+NKeb
+NVX_
 No error
 November
+OES_
+OML_
 OPENGL32.dll
 October
 OutputDebugStringW
-PP9E u
-PPPPP
-PSSSSV
-PWWWWV
-PjdSQ
+PGI_
 QueryPerformanceCounter
 REGAL_
 REND_
-Richi
 RtlUnwind
+S;uD
 SGIS_
 SGIX_
-SPPP+
-SSSSS
+SGI_
 SUNX_
-SVWPP
-SVWUj
+SUN_
 Saturday
 September
 SetDefaultDllDirectories
@@ -1163,12 +698,10 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Tuesday
-UQPXY]Y[
-URPQQhp
 UnhandledExceptionFilter
 Unknown error
 VERSION_
-VVVVV
+WGL_
 WGL_3DFX_multisample
 WGL_3DL_stereo_control
 WGL_AMD_gpu_association
@@ -1223,123 +756,19 @@ WGL_NV_vertex_array_range
 WGL_NV_video_capture
 WGL_NV_video_output
 WGL_OML_sync_control
-WVh )
-WVh 8
-WVh 9
-WVh C
-WVh R
-WVh$%
-WVh$4
-WVh$h
-WVh$i
-WVh$l
-WVh('
-WVh((
-WVh(-
-WVh(.
-WVh(3
-WVh(5
-WVh(D
-WVh(E
-WVh(K
-WVh(P
-WVh(Q
-WVh(g
-WVh(j
-WVh,*
-WVh,H
-WVh,W
-WVh,Y
-WVh,[
-WVh0+
-WVh0?
-WVh0I
-WVh0N
-WVh0T
-WVh0U
-WVh0X
-WVh4/
-WVh4O
-WVh8)
-WVh<9
-WVh<F
-WVh<R
-WVh<S
-WVh<V
-WVh@.
-WVh@L
-WVh@W
-WVhD(
-WVhD0
-WVhD6
-WVhD=
-WVhDB
-WVhDI
-WVhDN
-WVhH'
-WVhH5
-WVhHX
-WVhHZ
-WVhHi
-WVhLD
-WVhLG
-WVhP3
-WVhPA
-WVhPY
-WVhT6
-WVhTF
-WVhTM
-WVhTT
-WVhTh
-WVhX%
-WVhX/
-WVhX7
-WVhX8
-WVhX9
-WVhX<
-WVhXV
-WVh\)
-WVh\.
-WVh\?
-WVh\C
-WVh\W
-WVh\k
-WVh`G
-WVh`K
-WVh`X
-WVhh2
-WVhhQ
-WVhhT
-WVhl'
-WVhl*
-WVhl6
-WVhlW
-WVhlY
-WVhli
-WVhp8
-WVhpF
-WVhpR
-WVht%
-WVht9
-WVht?
-WVhtB
-WVhtN
-WVhtj
-WVhx<
-WVhxO
-WVh|/
-WVh|G
-WVh|I
-WWWWW
+WIN_
 WaitForThreadpoolTimerCallbacks
 Wednesday
 WideCharToMultiByte
-Wj0XPV
 WriteConsoleW
 WriteFile
-YYh<Q
-Y_^[]
-Y__^[
+\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
+\n\t\n\n\n\v\n\f\n\r\n
+\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
+\t\t\t\n\t\v\t\f\t\r\t
+\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
+\v\t\v\n\v\v\v\f\v\r\v
+\vglew32.dll
 __GLEW_3DFX_multisample
 __GLEW_3DFX_tbuffer
 __GLEW_3DFX_texture_compression_FXT1
@@ -4366,129 +3795,16 @@ _glewInit@0
 _glewIsSupported@4
 _wglewGetExtension@4
 _wglewIsSupported@4
-`.rdata
 abcdefghijklmnopqrstuvwxyz
+abgr
 arrays_of_arrays
 async
 async_histogram
 async_pixel
 aux_depth_stencil
-bWVh S
-bWVh U
-bWVh$&
-bWVh$1
-bWVh$2
-bWVh$6
-bWVh$:
-bWVh$@
-bWVh$A
-bWVh$V
-bWVh(,
-bWVh(F
-bWVh(L
-bWVh,0
-bWVh,<
-bWVh,B
-bWVh,Z
-bWVh0;
-bWVh0G
-bWVh4%
-bWVh47
-bWVh4=
-bWVh4>
-bWVh4J
-bWVh4k
-bWVh82
-bWVh8:
-bWVh8@
-bWVh8C
-bWVh8M
-bWVh8j
-bWVh8l
-bWVh<1
-bWVh<8
-bWVh<E
-bWVh<K
-bWVh@&
-bWVh@,
-bWVh@-
-bWVh@<
-bWVh@P
-bWVh@g
-bWVh@h
-bWVhD*
-bWVhD4
-bWVhD?
-bWVhDQ
-bWVhHH
-bWVhHO
-bWVhHU
-bWVhHk
-bWVhL;
-bWVhP+
-bWVhP2
-bWVhPJ
-bWVhPj
-bWVhT*
-bWVhT:
-bWVhT@
-bWVhTE
-bWVhTl
-bWVhX&
-bWVhX1
-bWVhX=
-bWVhX>
-bWVhXP
-bWVhXR
-bWVhXg
-bWVh\,
-bWVh\0
-bWVh\B
-bWVh\N
-bWVh\O
-bWVh`H
-bWVh`S
-bWVh`Z
-bWVhd-
-bWVhd3
-bWVhd4
-bWVhdI
-bWVhdL
-bWVhdU
-bWVhdh
-bWVhh(
-bWVhhM
-bWVhl+
-bWVhl5
-bWVhl;
-bWVhlA
-bWVhlD
-bWVhlJ
-bWVhlP
-bWVhll
-bWVhp:
-bWVhp=
-bWVhp>
-bWVhp@
-bWVhpV
-bWVhpg
-bWVhpk
-bWVht,
-bWVht7
-bWVhtC
-bWVhtE
-bWVhtN
-bWVhtU
-bWVhx&
-bWVhx.
-bWVhx0
-bWVhx1
-bWVhxH
-bWVhxX
-bWVh|h
-b_^[]
 base_instance
 be+000
+bgra
 bindable_uniform
 bindless_multi_draw_indirect
 bindless_multi_draw_indirect_count
@@ -4508,7 +3824,6 @@ blend_subtract
 buffer_region
 buffer_storage
 byte_coordinates
-b} j@W
 cl_event
 clear_buffer_object
 clear_texture
@@ -6923,7 +6238,6 @@ glWindowPos4ivMESA
 glWindowPos4sMESA
 glWindowPos4svMESA
 glWriteMaskEXT
-glew32.dll
 glewExperimental
 global_alpha
 gpu_affinity
@@ -6958,11 +6272,7 @@ internalformat_query
 internalformat_query2
 invalidate_subdata
 ir_instrument1
-j	hDq
-j h,w
-j!h<|
-j@j _W
-jA[jZZ+
+kU'9
 light_max_exponent
 light_texture
 list_priority
@@ -7047,6 +6357,7 @@ robustness
 robustness_application_isolation
 robustness_share_group_isolation
 row_bytes
+s3tc
 sample_positions
 sample_shading
 sampler_objects
@@ -7113,9 +6424,8 @@ swap_frame_lock
 swap_frame_usage
 swap_group
 swap_hint
+sync
 sync_control
-t@VSP
-tO9=d
 tag_sample_buffer
 tbuffer
 tessellation_program5
@@ -7202,7 +6512,6 @@ texture_texture4
 texture_usage
 texture_view
 timer_query
-toj	h
 transform_feedback
 transform_feedback2
 transform_feedback3
@@ -7214,9 +6523,7 @@ transform_hint
 translated_shader_source
 transpose_matrix
 triangle_list
-u'j0X
 uniform_buffer_object
-v	N+D$
 vdpau_interop
 vertex
 vertex_array
@@ -7376,12 +6683,9 @@ wglSwapLayerBuffersMscOML
 wglWaitForMscOML
 wglWaitForSbcOML
 window_pos
-wtVj	
 x11_sync_object
 ycbcr_422
 ycbcr_texture
 ycrcb
 z?aUY
 zc%C1
-~';_t|%3
-~pjCXf

@@ -1,58 +1,15 @@
-
-!
-!(
-!>
-!I
-!T
-"
-"!
-"%s" is not a legal field name
-"(
-":
-"E
-"P
-"X
-"_
-#
-#(
-#)
-#C
-#K
-#M
-#V
-#Y
-#a
-#b
-#c
-#g
-$
-$(
-$.
-$/
-$;
-$@
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Control
+"# !$%'&()*+,
+"%s" is not a legal field name\n
+$%&'()*+,-./0123
 $ORIGIN/../../lib
 $QTCOMPOSE
-$W
-$d
-$e
-%
-%(
 %15s
-%7
-%H
-%J
-%L
-%P
-%S
-%d include paths could not be added:
-%d include paths searched:
-%f
-%s of boolean values not permitted
-%s of strings not permitted
-%s%s
-%s%s(
-%s%s()%s
+%d include paths could not be added:\n
+%d include paths searched:\n
+%s of boolean values not permitted\n
+%s of strings not permitted\n
 %s%s(button=
 %s%s(controls=%s%s)%s
 %s%s(group=%s%d%s%s)%s
@@ -60,145 +17,53 @@ $e
 %s%s(screen=%s%d,%ssame)%s
 %s%s(type=0x%02x,data[0]=0x%02x,data[1]=0x%02x,data[2]=0x%02x,data[3]=0x%02x,data[4]=0x%02x,data[5]=0x%02x,data[6]=0x%02x)%s
 %s%s(x=%s%d,y=%s%d%s)%s
-%s+%s(%s)
-%s/%s/%s
 %s/.xkb
-%s: no buffer specified
-%s: no file specified
-%s: unrecognized flags: %#x
-%s: unsupported keymap format: %d
-%s:%u:%u: %s
-%s:%u:%u: identifier too long
-%s:%u:%u: illegal new line escape; must appear at end of line
-%s:%u:%u: invalid %%-expansion in value; not used
-%s:%u:%u: invalid index in %%-expansion; may only index layout or variant
-%s:%u:%u: invalid mapping: "%.*s" cannot be followed by a group index; ignoring rule set
-%s:%u:%u: invalid mapping: "%.*s" may only be followed by a valid group index; ignoring rule set
-%s:%u:%u: invalid mapping: %.*s appears twice on the same line; ignoring rule set
-%s:%u:%u: invalid mapping: %.*s is not a valid value here; ignoring rule set
-%s:%u:%u: invalid mapping: must have at least one value on the left hand side; ignoring rule set
-%s:%u:%u: invalid mapping: must have at least one value on the right hand side; ignoring rule set
-%s:%u:%u: invalid rule: must have same number of values as mapping line; ignoring rule
-%s:%u:%u: malformed number literal
-%s:%u:%u: unexpected character after '$'; expected name
-%s:%u:%u: unexpected token
-%s:%u:%u: unknown escape sequence in string literal
-%s:%u:%u: unrecognized keysym
-%s:%u:%u: unrecognized token
-%s:%u:%u: unterminated key name literal
-%s:%u:%u: unterminated string literal
+%s: no buffer specified\n
+%s: no file specified\n
+%s: unrecognized flags: %#x\n
+%s: unsupported keymap format: %d\n
+%s:%u:%u: %s\n
+%s:%u:%u: identifier too long\n
+%s:%u:%u: illegal new line escape; must appear at end of line\n
+%s:%u:%u: invalid %%-expansion in value; not used\n
+%s:%u:%u: invalid index in %%-expansion; may only index layout or variant\n
+%s:%u:%u: invalid mapping: "%.*s" cannot be followed by a group index; ignoring rule set\n
+%s:%u:%u: invalid mapping: "%.*s" may only be followed by a valid group index; ignoring rule set\n
+%s:%u:%u: invalid mapping: %.*s appears twice on the same line; ignoring rule set\n
+%s:%u:%u: invalid mapping: %.*s is not a valid value here; ignoring rule set\n
+%s:%u:%u: invalid mapping: must have at least one value on the left hand side; ignoring rule set\n
+%s:%u:%u: invalid mapping: must have at least one value on the right hand side; ignoring rule set\n
+%s:%u:%u: invalid rule: has more values than the mapping line; ignoring rule\n
+%s:%u:%u: invalid rule: must have same number of values as mapping line; ignoring rule\n
+%s:%u:%u: malformed number literal\n
+%s:%u:%u: unexpected character after '$'; expected name\n
+%s:%u:%u: unexpected token\n
+%s:%u:%u: unknown escape sequence in string literal\n
+%s:%u:%u: unrecognized keysym\n
+%s:%u:%u: unrecognized token\n
+%s:%u:%u: unterminated key name literal\n
+%s:%u:%u: unterminated string literal\n
 %sNoAction()%s
-&
-&(
-&+
-&H
-'
-'(
-(
-(#
-((
-(/
-(P
-(Q
 (input string)
 (unknown file)
-)
-)!
-)(
-)6
-)D
-)I
-)`
-*
-*(
-*5
-*8
-*A
-+
-+(
-+*
-+<
-+>
-+U
-+e
-,
+(unnamed)
++TOEk
 ,!accel
-,"
-,%
-,(
-,,
-,8
-,9
-,C
-,K
-,O
-,_
+,\n\t\tactions[Group%u]= [ 
 ,affect=lock
 ,affect=neither
 ,affect=unlock
 ,clearLocks
 ,count=%d
 ,latchToLock
-,q
--
--"
--(
--.
--?
--F
--G
--H
--W
-.
-.(
-.)
 ../../../3rdparty/xkbcommon/src/darray.h
-.8
-.=
-.L
-.Y
-.q
-/
-/(
-//
-/7
-/J
-/M
-/P
 /compose.dir
 /locale.alias
 /usr/share/X11/xkb
-0
-0!
-0&
-0(
-04
-0@
-0S
-0c
-0g
-0q
-0x
 0x%08x
 0x%x
-1
-1(
 17QInputMethodEvent
-1:
-1I
-1K
-1Q
-2
-2(
 20QComposeInputContext
-26
-2;
-2E
-2I
-2a
-3
-3#
-3(
 3270_AltCursor
 3270_Attn
 3270_BackTab
@@ -230,113 +95,15 @@ $e
 3270_Setup
 3270_Test
 34QComposePlatformInputContextPlugin
-3V
-3X
-4
-4(
-47<
-4G
-4`
-5
-5"
-5(
-5C
-5T
-5X
-5d
-6
-6$
-6(
-6.
-6>
-6P
-6W
-7
-7(
-7J
-7N
-7S
-7]
-7b
-7e
-7q
-8
-8(
-88
-8O
-9
-9(
-95
-97
-9A
-9I
-:
-:!
-:(
-:*
-:/
-:=
-:Q
-:T
-:Y
-;
-;(
-;9
-;G
-;W
-<
-<%s>
-<(
-<+
-<<
-<C
-<N
-=
-=&
-=(
-=8
-=L
->
->"
->#
->(
->)
->6
->@
->D
->S
->_
->a
->c
->g
-?
-?(
-?,
-?.
-?1
-?8
-?;
-?I
-?U
-?f
-@
-@(
-@>
-@F
-@V
-@]
-A
-A private action has 7 data bytes; Illegal data ignored
-A!
-A(
-AE
-AF
-AH
+45678
+>?CBJ
+A private action has 7 data bytes; Illegal data ignored\n
+ABBBCDDDEEFGGGGGHHIIJJJJJJJJKKLLLLLLLLLLLLLLLMMMNOPQQRRSTTUUVWXXXYYYYYZZ[\]^^__`aabbbbbccddeeffghhijjkkkllmnooooppqqqqqqqqqqqrrsssssttuuvvvvvvwwwwwwwwxxyzzzz{{{{||}}}}~
 Aacute
-Abandoning compatibility map "%s"
-Abandoning keycodes file "%s"
-Abandoning keytypes file "%s"
-Abandoning symbols file "%s"
+Abandoning compatibility map "%s"\n
+Abandoning keycodes file "%s"\n
+Abandoning keytypes file "%s"\n
+Abandoning symbols file "%s"\n
 Abelowdot
 Abreve
 Abreveacute
@@ -356,19 +123,18 @@ Acircumflexgrave
 Acircumflexhook
 Acircumflextilde
 ActionMessage
-Actions for key %s, group %u already defined
+Actions for key %s, group %u already defined\n
 Adiaeresis
 Agrave
 Ahook
-Alias of %s for %s declared more than once; First definition ignored
-All data for a private action must be 0..255; Illegal datum %d ignored
+Alias of %s for %s declared more than once; First definition ignored\n
+All data for a private action must be 0..255; Illegal datum %d ignored\n
 AllOf
-Allocation failure in IncludeCreate; Using only part of the include
+Allocation failure in IncludeCreate; Using only part of the include\n
 Alt_L
 Alt_R
 Amacron
-An explicit group was specified for the '%s' map, but it provides a name for a group other than Group1 (%d); Ignoring group name '%s'
-Any
+An explicit group was specified for the '%s' map, but it provides a name for a group other than Group1 (%d); Ignoring group name '%s'\n
 AnyLevel
 AnyOf
 AnyOfOrNone
@@ -544,29 +310,23 @@ Armenian_yech
 Armenian_yentamna
 Armenian_za
 Armenian_zhe
-Array subscript must be integer; Illegal subscript ignored
-Assignment operator not implemented yet
+Array subscript must be integer; Illegal subscript ignored\n
+Assignment operator not implemented yet\n
 Atilde
-Attempt to alias %s to non-existent key %s; Ignored
-Attempt to create alias with the name of a real key; Alias "%s = %s" ignored
+Attempt to alias %s to non-existent key %s; Ignored\n
+Attempt to create alias with the name of a real key; Alias "%s = %s" ignored\n
 AudibleBell
 AudibleBell_Enable
 AutoRepeat
-B
-B$
-B(
-B4
-B?
-BK
 Babovedot
 BackSpace
 BackTab
-Bad expression type (%d) for action list value; Ignoring actions for group %u of %s
+Bad expression type (%d) for action list value; Ignoring actions for group %u of %s\n
 Begin
 BounceKeys
 BounceKeys_Enable
 Break
-Button must specify default or be in the range 1..5; Illegal button value %d ignored
+Button must specify default or be in the range 1..5; Illegal button value %d ignored\n
 Button1
 Button2
 Button3
@@ -574,58 +334,47 @@ Button4
 Button5
 Byelorussian_SHORTU
 Byelorussian_shortu
-C
-C(
-C/
-CE
-CG
-CH
-CJ
 CXXABI_1.3
-C_H
-C_h
 Cabovedot
 Cacute
-Can't add a virtual modifier named "%s"; there is already a non-virtual modifier with this name! Ignored
+Can't add a virtual modifier named "%s"; there is already a non-virtual modifier with this name! Ignored\n
 Cancel
-Cannot %s masks; Illegal operation ignored
-Cannot change defaults in an action definition; Ignoring attempt to change %s.%s
-Cannot compile a %s file alone into a keymap
-Cannot define %s in a keymap file
-Cannot divide by zero: %d / %d
-Cannot realloc for name (%s/%s/%s)
-Cannot resolve virtual modifier: "%s" was not previously declared
-Cannot resolve virtual modifier: found %s where a virtual modifier name was expected
-Cannot set a global default value from within a key statement; Move statements to the global file scope
-Cannot set a global default value from within an interpret statement; Move statements to the global file scope
-Cannot set default pointer button to "default"; Illegal default button setting ignored
-Cannot set defaults for "%s" element in indicator map; Assignment to %s.%s ignored
-Cannot set explicit group to %d - must be between 1..%d; Ignoring group number
+Cannot %s masks; Illegal operation ignored\n
+Cannot change defaults in an action definition; Ignoring attempt to change %s.%s\n
+Cannot compile a %s file alone into a keymap\n
+Cannot define %s in a keymap file\n
+Cannot divide by zero: %d / %d\n
+Cannot realloc for name (%s/%s/%s)\n
+Cannot resolve virtual modifier: "%s" was not previously declared\n
+Cannot resolve virtual modifier: found %s where a virtual modifier name was expected\n
+Cannot set a global default value from within a key statement; Move statements to the global file scope\n
+Cannot set a global default value from within an interpret statement; Move statements to the global file scope\n
+Cannot set default pointer button to "default"; Illegal default button setting ignored\n
+Cannot set defaults for "%s" element in indicator map; Assignment to %s.%s ignored\n
+Cannot set explicit group to %d - must be between 1..%d; Ignoring group number\n
 Caps_Lock
 Ccaron
 Ccedilla
 Ccircumflex
-Ce
-Ch
 Clear
 ClearLine
 Codeinput
 ColonSign
-Compat files may not include other types; Ignoring %s
-Compiling %s "%s"
-Compiling from KcCGST: keycodes '%s', types '%s', compat '%s', symbols '%s'
-Compiling from RMLVO: rules '%s', model '%s', layout '%s', variant '%s', options '%s'
+Compat files may not include other types; Ignoring %s\n
+Compiling %s "%s"\n
+Compiling from KcCGST: keycodes '%s', types '%s', compat '%s', symbols '%s'\n
+Compiling from RMLVO: rules '%s', model '%s', layout '%s', variant '%s', options '%s'\n
 Compose
 Control_L
 Control_R
-Couldn't determine matching modifiers; Symbol interpretation ignored
-Couldn't find an automatic type for key '%s' group %d with %lu levels; Using the default type
-Couldn't find file "%s/%s" in include paths
-Couldn't look up rules '%s', model '%s', layout '%s', variant '%s', options '%s'
-Couldn't process include statement for '%s'
-Couldn't process include statement for '%s(%s)'
-Couldn't read XKB file %s: %s
-Couldn't read rules file "%s": %s
+Couldn't determine matching modifiers; Symbol interpretation ignored\n
+Couldn't find an automatic type for key '%s' group %d with %lu levels; Using the default type\n
+Couldn't find file "%s/%s" in include paths\n
+Couldn't look up rules '%s', model '%s', layout '%s', variant '%s', options '%s'\n
+Couldn't process include statement for '%s'\n
+Couldn't process include statement for '%s(%s)'\n
+Couldn't read XKB file %s: %s\n
+Couldn't read rules file "%s": %s\n
 CruzeiroSign
 Cyrillic_A
 Cyrillic_BE
@@ -731,22 +480,17 @@ Cyrillic_yu
 Cyrillic_ze
 Cyrillic_zhe
 Cyrillic_zhe_descender
-D
-D(
-D,
-D5
 DRemove
-DT
 Dabovedot
 Dacute_accent
 Dcaron
 Dcedilla_accent
 Dcircumflex_accent
 Ddiaeresis
-Declaration of %s ignored
-Default "%s.%s" of type boolean is unknown
-Default "%s.%s" of type int is unknown
-Default "%s.%s" of type string not found
+Declaration of %s ignored\n
+Default "%s.%s" of type boolean is unknown\n
+Default "%s.%s" of type int is unknown\n
+Default "%s.%s" of type string not found\n
 Delete
 DeleteChar
 DeleteLine
@@ -760,17 +504,7 @@ Down
 Dring_accent
 Dstroke
 Dtilde
-Duplicate names for level %d of key type %s; Ignored
-E
-E(
-E7
-E:
-EL
-ENG
-ES
-ETH
-EZH
-E`
+Duplicate names for level %d of key type %s; Ignored\n
 Eabovedot
 Eacute
 Ebelowdot
@@ -783,76 +517,33 @@ Ecircumflexhook
 Ecircumflextilde
 EcuSign
 Ediaeresis
-Eg
 Egrave
 Ehook
 Eisu_Shift
 Eisu_toggle
 Emacron
-End
 Eogonek
 Escape
-Eth
 Etilde
 EuroSign
 Exactly
 Execute
-Expected a list of symbols, found %s; Ignoring symbols for group %u of %s
-Expected a virtual modifier mask, found %s; Ignoring virtual modifiers definition for key %s
-Expected an action definition, found %s
+Expected a list of symbols, found %s; Ignoring symbols for group %u of %s\n
+Expected a virtual modifier mask, found %s; Ignoring virtual modifiers definition for key %s\n
+Expected an action definition, found %s\n
 Ext16bit_L
 Ext16bit_R
-F
-F(
-F1
-F10
-F11
-F12
-F13
-F14
-F15
-F16
-F17
-F18
-F19
-F2
-F20
-F21
-F22
-F23
-F24
-F25
-F26
-F27
-F28
-F29
-F3
-F30
-F31
-F32
-F33
-F34
-F35
-F4
-F5
-F6
-F7
-F8
-F9
 FFrancSign
-FM
 FOUR_LEVEL
 FOUR_LEVEL_ALPHABETIC
 FOUR_LEVEL_KEYPAD
 FOUR_LEVEL_SEMIALPHABETIC
-FW
-FY
 Fabovedot
-Failed to compile %s
-Failed to compile keymap
-Failed to generate parsed XKB file from components
-Failed to parse input xkb file
-Failed to parse input xkb string
+Failed to compile %s\n
+Failed to compile keymap\n
+Failed to generate parsed XKB file from components\n
+Failed to parse input xkb file\n
+Failed to parse input xkb string\n
 Farsi_0
 Farsi_1
 Farsi_2
@@ -864,26 +555,19 @@ Farsi_7
 Farsi_8
 Farsi_9
 Farsi_yeh
-Fd
-Field %s is not defined for an action of type %s; Action definition ignored
+Field %s is not defined for an action of type %s; Action definition ignored\n
 Find
 First_Virtual_Screen
-For the map %s an explicit group specified, but key %s has more than one group defined; All groups except first one will be ignored
-Found a %s where an enumerated value was expected
-Found constant of type %s where a mask was expected
-Found constant of type %s where an int was expected
-Found constant of type %s where boolean was expected
-Found constant of type %s, expected a string
-G
-G!
-G"
-G(
-G.
+For the map %s an explicit group specified, but key %s has more than one group defined; All groups except first one will be ignored\n
+Found a %s where an enumerated value was expected\n
+Found constant of type %s where a mask was expected\n
+Found constant of type %s where an int was expected\n
+Found constant of type %s where boolean was expected\n
+Found constant of type %s, expected a string\n
 GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
 Gabovedot
 Gbreve
 Gcaron
@@ -928,9 +612,9 @@ Georgian_we
 Georgian_xan
 Georgian_zen
 Georgian_zhar
-Global "groupsclamp" not supported; Ignored
-Global "groupsredirect" not supported; Ignored
-Global "groupswrap" not supported; Ignored
+Global "groupsclamp" not supported; Ignored\n
+Global "groupsredirect" not supported; Ignored\n
+Global "groupswrap" not supported; Ignored\n
 Greek_ALPHA
 Greek_ALPHAaccent
 Greek_BETA
@@ -1006,8 +690,8 @@ Greek_upsilonaccentdieresis
 Greek_upsilondieresis
 Greek_xi
 Greek_zeta
-Group index %u is out of range (1..%d)
-Group name must be a string; Illegal name for group %d ignored
+Group index %u is out of range (1..%d)\n
+Group name must be a string; Illegal name for group %d ignored\n
 Group1
 Group2
 Group3
@@ -1016,11 +700,6 @@ Group5
 Group6
 Group7
 Group8
-H
-H"
-H(
-H8
-HA
 HOME
 Hangul
 Hangul_A
@@ -1140,13 +819,9 @@ Home
 Hstroke
 Hyper_L
 Hyper_R
-I
-I(
-I=
-IH
+IIIIIII
 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-IO
-IQ
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 ISOLock
 ISO_Center_Object
 ISO_Continuous_Underline
@@ -1193,53 +868,39 @@ Iacute
 Ibelowdot
 Ibreve
 Icircumflex
-Identical definitions for preserve[%s] in %s; Ignored
-Identifier "%s" of type boolean is unknown
-Identifier "%s" of type int is unknown
-Identifier "%s" of type string not found
+Identical definitions for preserve[%s] in %s; Ignored\n
+Identifier "%s" of type boolean is unknown\n
+Identifier "%s" of type int is unknown\n
+Identifier "%s" of type string not found\n
 Idiaeresis
 IgnoreGroupLock
 Igrave
 Ihook
-Illegal action definition for %s; Action for group %u/level %u ignored
-Illegal group index for %s of key %sDefinition with non-integer array index ignored
-Illegal group index for redirect of key %s; Definition with non-integer group ignored
-Illegal group index for type of key %s; Definition with non-integer array index ignored
-Illegal groupsClamp setting for %s; Non-boolean value ignored
-Illegal groupsWrap setting for %s; Non-boolean value ignored
-Illegal identifier %s; expected one of:
-Illegal include statement "%s"; Ignored
-Illegal index in group name definition; Definition with non-integer array index ignored
-Illegal indicator index (%d) specified; must be between 1 .. %d; Ignored
-Illegal keycode %lld: must be between 0..%u; Key ignored
-Illegal modifier map definition; Ignoring map for non-modifier "%s"
-Illegal modifier predicate "%s"; Ignored
-Illegal repeat setting for %s; Non-boolean repeat setting ignored
-Illegal value for preserve[%s] in type %s; Converted %s to %s
+Illegal action definition for %s; Action for group %u/level %u ignored\n
+Illegal group index for %s of key %s\nDefinition with non-integer array index ignored\n
+Illegal group index for redirect of key %s; Definition with non-integer group ignored\n
+Illegal group index for type of key %s; Definition with non-integer array index ignored\n
+Illegal groupsClamp setting for %s; Non-boolean value ignored\n
+Illegal groupsWrap setting for %s; Non-boolean value ignored\n
+Illegal identifier %s; expected one of:\n
+Illegal include statement "%s"; Ignored\n
+Illegal index in group name definition; Definition with non-integer array index ignored\n
+Illegal indicator index (%d) specified; must be between 1 .. %d; Ignored\n
+Illegal keycode %lld: must be between 0..%u; Key ignored\n
+Illegal modifier map definition; Ignoring map for non-modifier "%s"\n
+Illegal modifier predicate "%s"; Ignored\n
+Illegal repeat setting for %s; Non-boolean repeat setting ignored\n
+Illegal value for preserve[%s] in type %s; Converted %s to %s\n
 Imacron
-Include file of wrong type (expected %s, got %s); Include file "%s" ignored
-Indicator name "%s" was not declared in the keycodes section; Adding new indicator
+Include file of wrong type (expected %s, got %s); Include file "%s" ignored\n
+Indicator name "%s" was not declared in the keycodes section; Adding new indicator\n
 Insert
 InsertChar
 InsertLine
 Invalid
 Iogonek
 Itilde
-J
-J#
-J&
-J(
-J/
-J6
-J9
-Ja
-Jb
 Jcircumflex
-K
-K(
-K*
-K>
-KJ
 KP_0
 KP_1
 KP_2
@@ -1278,51 +939,31 @@ KP_Space
 KP_Subtract
 KP_Tab
 KP_Up
-KX
 Kana_Lock
 Kana_Shift
 Kanji
 Kanji_Bangou
 Katakana
 Kcedilla
-Key "%s" added to modifier map for multiple modifiers; Using %s, ignoring %s
-Key "%s" not found in symbol map; Modifier map entry for %s not updated
-Key %s not found in keycodes; Modifier map entry for %s not updated
-Key %s not found in keycodes; Symbols ignored
-Key behaviors not supported; Ignoring locking specification for key %s
-Key name %s assigned to multiple keys; Using %d, ignoring %d
-Key type files may not include other declarations; Ignoring %s
-Key type mask field must be a modifier mask; Key type definition ignored
-Keycode files may define key and indicator names only; Ignoring %s
-Kf
+Key "%s" added to modifier map for multiple modifiers; Using %s, ignoring %s\n
+Key "%s" not found in symbol map; Modifier map entry for %s not updated\n
+Key %s not found in keycodes; Modifier map entry for %s not updated\n
+Key %s not found in keycodes; Symbols ignored\n
+Key behaviors not supported; Ignoring locking specification for key %s\n
+Key name %s assigned to multiple keys; Using %d, ignoring %d\n
+Key type files may not include other declarations; Ignoring %s\n
+Key type mask field must be a modifier mask; Key type definition ignored\n
+Keycode files may define key and indicator names only; Ignoring %s\n
 Korean_Won
-L
-L(
-L1
-L10
-L2
-L3
-L4
-L5
-L6
-L7
-L8
-L9
-L<
-L@
-LI
-LK
-LS
 Lacute
 Last_Virtual_Screen
 LatchGroup
 LatchMods
 Lbelowdot
-Lc
 Lcaron
 Lcedilla
 Left
-Level specifications in a key type must be integer; Ignoring malformed level specification
+Level specifications in a key type must be integer; Ignoring malformed level specification\n
 Level1
 Level2
 Level3
@@ -1346,13 +987,6 @@ LockPointerButton
 LockPtrBtn
 LockPtrButton
 Lstroke
-M
-M!
-M(
-M+
-M4
-M;
-ML
 Mabovedot
 Macedonia_DSE
 Macedonia_GJE
@@ -1361,25 +995,24 @@ Macedonia_dse
 Macedonia_gje
 Macedonia_kje
 Mae_Koho
-Map entry for unused modifiers in %s; Using %s instead of %s
-Map for indicator %s redefined; Earlier definition ignored
-Map for indicator %s redefined; Using %s definition for duplicate fields
+Map entry for unused modifiers in %s; Using %s instead of %s\n
+Map for indicator %s redefined; Earlier definition ignored\n
+Map for indicator %s redefined; Using %s definition for duplicate fields\n
 Massyo
 Menu
 MessageAction
 Meta_L
 Meta_R
-Mg
 MillSign
-Missing subscript for %s %s; Ignoring illegal assignment in %s
+Missing subscript for %s %s; Ignoring illegal assignment in %s\n
 Mod1
 Mod2
 Mod3
 Mod4
 Mod5
 Mode_switch
-Modmap entries may contain only key names or keysyms; Illegal definition for %s modifier ignored
-More than one %s section in keymap file; All sections after the first ignored
+Modmap entries may contain only key names or keysyms; Illegal definition for %s modifier ignored\n
+More than one %s section in keymap file; All sections after the first ignored\n
 MouseKeys
 MouseKeysAccel
 MouseKeys_Accel_Enable
@@ -1388,56 +1021,43 @@ MovePointer
 MovePtr
 Muhenkan
 Multi_key
-Multiple actions for level %d/group %u on key %s; Using %s, ignoring %s
-Multiple definitions for "%s"; Earlier interpretation ignored
-Multiple definitions for alias %s; Using %s, ignoring %s
-Multiple definitions for group %d type of key %s; Using %s, ignoring %s
-Multiple definitions for preserve[%s] in %s; Using %s, ignoring %s
-Multiple definitions of the %s key type; Earlier definition ignored
-Multiple definitions of the %s key type; Later definition ignored
-Multiple identical key name definitions; Later occurrences of "%s = %d" ignored
-Multiple indicators named "%s"; Identical definitions ignored
-Multiple indicators named %s; Using %d, ignoring %d
-Multiple interpretations of "%s"; Using %s definition for duplicate fields
-Multiple map entries for %s in %s; Using %d, ignoring %d
-Multiple modifier mask definitions for key type %s; Using %s, ignoring %s
-Multiple names for indicator %d; Using %s, ignoring %s
-Multiple names for keycode %d; Using %s, ignoring %s
-Multiple names for level %d of key type %s; Using %s, ignoring %s
-Multiple occurrences of map[%s]= %d in %s; Ignored
-Multiple symbols for level %d/group %u on key %s; Using %s, ignoring %s
+Multiple actions for level %d/group %u on key %s; Using %s, ignoring %s\n
+Multiple definitions for "%s"; Earlier interpretation ignored\n
+Multiple definitions for alias %s; Using %s, ignoring %s\n
+Multiple definitions for group %d type of key %s; Using %s, ignoring %s\n
+Multiple definitions for preserve[%s] in %s; Using %s, ignoring %s\n
+Multiple definitions of the %s key type; Earlier definition ignored\n
+Multiple definitions of the %s key type; Later definition ignored\n
+Multiple identical key name definitions; Later occurrences of "%s = %d" ignored\n
+Multiple indicators named "%s"; Identical definitions ignored\n
+Multiple indicators named %s; Using %d, ignoring %d\n
+Multiple interpretations of "%s"; Using %s definition for duplicate fields\n
+Multiple map entries for %s in %s; Using %d, ignoring %d\n
+Multiple modifier mask definitions for key type %s; Using %s, ignoring %s\n
+Multiple names for indicator %d; Using %s, ignoring %s\n
+Multiple names for keycode %d; Using %s, ignoring %s\n
+Multiple names for level %d of key type %s; Using %s, ignoring %s\n
+Multiple occurrences of map[%s]= %d in %s; Ignored\n
+Multiple symbols for level %d/group %u on key %s; Using %s, ignoring %s\n
 MultipleCandidate
-N
-N"
-N(
-N,
 Nacute
 NairaSign
 Ncaron
 Ncedilla
 NdOi
-Ne
-New default button value must be in the range 1..5; Illegal default button value %d ignored
+New default button value must be in the range 1..5; Illegal default button value %d ignored\n
 NewSheqelSign
 Next
 Next_Virtual_Screen
-No components returned from XKB rules "%s"
-No symbols defined for %s
+No components returned from XKB rules "%s"\n
+No symbols defined for %s\n
 NoAction
 NoSymbol
-Non-string name for level %d in key type %s; Ignoring illegal level name definition
+Non-string name for level %d in key type %s; Ignoring illegal level name definition\n
 NoneOf
 Ntilde
 Num_Lock
-O
-O(
-O.
-O5
-OC
-OE
-OL
 ONE_LEVEL
-O_
 Oacute
 Obarred
 Obelowdot
@@ -1466,9 +1086,7 @@ Overlay1
 Overlay1_Enable
 Overlay2
 Overlay2_Enable
-Overlays not supported; Ignoring overlay specification for key %s
-P
-P(
+Overlays not supported; Ignoring overlay specification for key %s\n
 Pabovedot
 Page_Down
 Page_Up
@@ -1504,18 +1122,15 @@ Pointer_Right
 Pointer_Up
 Pointer_UpLeft
 Pointer_UpRight
-Preserve for modifiers not used by the %s type; Index %s converted to %s
-Preserve value in a key type is not a modifier mask; Ignoring preserve[%s] in type %s
+Preserve for modifiers not used by the %s type; Index %s converted to %s\n
+Preserve value in a key type is not a modifier mask; Ignoring preserve[%s] in type %s\n
 Prev_Virtual_Screen
 PreviousCandidate
 Print
 Prior
 Private
-Private action type must be in the range 0..255; Illegal type %d ignored
-Private actions of type %s are not supported; Ignored
-Q
-Q(
-Q7
+Private action type must be in the range 0..255; Illegal type %d ignored\n
+Private actions of type %s are not supported; Ignored\n
 QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)
 QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
 QArrayData::shared_null
@@ -1536,8 +1151,6 @@ QFile::open(QFlags<QIODevice::OpenModeFlag>)
 QFile::~QFile()
 QFileDevice::atEnd() const
 QFileDevice::close()
-QG
-QH
 QIODevice::readLine(char*, long long)
 QInputMethodEvent::QInputMethodEvent()
 QInputMethodEvent::setCommitString(QString const&, int, int)
@@ -1600,32 +1213,9 @@ Qt Warning: Compose file: "%1" can't be found
 Qt Warning: Could not find a location of the system's Compose files. Consider setting the QTCOMPOSE environment variable.
 Qt Warning: XCOMPOSEFILE doesn't point to a valid Compose file
 QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
-R
-R(
-R1
-R10
-R11
-R12
-R13
-R14
-R15
-R2
-R3
-R4
-R5
-R6
-R7
-R8
-R9
-RI
-RQ
-RWU
-RX
-RY
-R`
 Racute
-Radio groups not supported; Ignoring "allownone" specification
-Radio groups not supported; Ignoring radio group specification for key %s
+Radio groups not supported; Ignoring "allownone" specification\n
+Radio groups not supported; Ignoring radio group specification for key %s\n
 Rcaron
 Rcedilla
 Redirect
@@ -1633,26 +1223,19 @@ RedirectKey
 Redo
 RepeatKeys
 RepeatKeys_Enable
-Required section %s missing from keymap
+Required section %s missing from keymap\n
 Reset
 Return
 Right
 Romaji
 RupeeSign
-S
-S(
-S)
-S?
 SCHWA
-SD
-SU
-S^
 Sabovedot
 Sacute
 Scaron
 Scedilla
 Scircumflex
-Screen index must be in the range 1..255; Illegal screen value %d ignored
+Screen index must be in the range 1..255; Illegal screen value %d ignored\n
 Scroll_Lock
 Select
 Serbian_DJE
@@ -1673,7 +1256,7 @@ SetMods
 SetPointerDefault
 SetPtrDflt
 Shift
-Shift level %d is out of range
+Shift level %d is out of range\n
 Shift_L
 Shift_Lock
 Shift_R
@@ -1796,23 +1379,16 @@ SunVideoLowerBrightness
 SunVideoRaiseBrightness
 Super_L
 Super_R
-Support for changing the default type has been removed; Statement ignored
+Support for changing the default type has been removed; Statement ignored\n
 SwitchScreen
-Symbol "%s" added to modifier map for multiple modifiers; Using %s, ignoring %s
-Symbol map for key %s redefined; Using %s definition for conflicting fields
-Symbols files may not include other types; Ignoring %s
-Symbols for key %s, group %u already defined; Ignoring duplicate definition
+Symbol "%s" added to modifier map for multiple modifiers; Using %s, ignoring %s\n
+Symbol map for key %s redefined; Using %s definition for conflicting fields\n
+Symbols files may not include other types; Ignoring %s\n
+Symbols for key %s, group %u already defined; Ignoring duplicate definition\n
 Sys_Req
 System
-T
-T!
-T(
-TE
 THORN
-TS
-TV
 TWO_LEVEL
-Tab
 TableGenerator::keysymToUtf8 - buffer too small
 Tabovedot
 Tcaron
@@ -1820,7 +1396,6 @@ Tcedilla
 Terminate
 TerminateServer
 Terminate_Server
-Tg
 Thai_baht
 Thai_bobaimai
 Thai_chochan
@@ -1905,40 +1480,35 @@ Thai_totao
 Thai_wowaen
 Thai_yoyak
 Thai_yoying
-The ! operator cannot be applied to an integer
-The "%s" field in indicator statements is unsupported; Ignored
-The "allowExplicit" field in indicator statements is unsupported; Ignored
-The "group" statement in compat is unsupported; Ignored
-The "index" field in indicator statements is unsupported; Ignored
-The "locking" field in symbol interpretation is unsupported; Ignored
-The %s %s field is not an array; Ignoring illegal assignment in %s
-The %s %s field must be a %s; Ignoring illegal assignment in %s
-The %s field in the %s action is not an array; Action definition ignored
-The %s field in the %s action must be in range %d..%d; Action definition ignored
-The %s operator cannot be used with a mask
-The count field must have a value in the range 0..255; Illegal count %d ignored
-The data for a private action is %lu bytes long; Attempt to use data[%d] ignored
-The modifiers field of a key type is not an array; Illegal array subscript ignored
-The type "%s" for key '%s' group %d was not previously defined; Using the default type
-The type field of a key symbol map must be a string; Ignoring illegal type definition
-There are no include paths to search
+The ! operator cannot be applied to an integer\n
+The "%s" field in indicator statements is unsupported; Ignored\n
+The "allowExplicit" field in indicator statements is unsupported; Ignored\n
+The "group" statement in compat is unsupported; Ignored\n
+The "index" field in indicator statements is unsupported; Ignored\n
+The "locking" field in symbol interpretation is unsupported; Ignored\n
+The %s %s field is not an array; Ignoring illegal assignment in %s\n
+The %s %s field must be a %s; Ignoring illegal assignment in %s\n
+The %s field in the %s action is not an array; Action definition ignored\n
+The %s field in the %s action must be in range %d..%d; Action definition ignored\n
+The %s operator cannot be used with a mask\n
+The count field must have a value in the range 0..255; Illegal count %d ignored\n
+The data for a private action is %lu bytes long; Attempt to use data[%d] ignored\n
+The modifiers field of a key type is not an array; Illegal array subscript ignored\n
+The type "%s" for key '%s' group %d was not previously defined; Using the default type\n
+The type field of a key symbol map must be a string; Ignoring illegal type definition\n
+There are no include paths to search\n
 Thorn
-Too many groups of %s for key %s (max %u); Ignoring %s defined for extra groups
-Too many indicators (maximum is %d); Indicator name "%s" ignored
-Too many modifiers defined (maximum %d)
+Too many groups of %s for key %s (max %u); Ignoring %s defined for extra groups\n
+Too many indicators (maximum is %d); Indicator name "%s" ignored\n
+Too many modifiers defined (maximum %d)\n
 Touroku
 Tslash
-Type "%s" has %d levels, but %s has %d levels; Ignoring extra symbols
-U
+Type "%s" has %d levels, but %s has %d levels; Ignoring extra symbols\n
 U%0*lX
-U(
-U/
-U>
 Uacute
 Ubelowdot
 Ubreve
 Ucircumflex
-Ud
 Udiaeresis
 Udoubleacute
 Ugrave
@@ -1965,52 +1535,33 @@ Ukranian_je
 Ukranian_yi
 Umacron
 Undo
-Unexpected %s in mask expression; Expression Ignored
-Unexpected operator %d in ResolveLhs
-Unknown %s field %s in %s; Ignoring assignment to unknown field in %s
-Unknown action %s
-Unknown element %s encountered; Default for field %s ignored
-Unknown field %s in a symbol interpretation; Definition ignored
-Unknown field %s in key type %s; Definition ignored
-Unknown field %s in map for %s indicator; Definition ignored
-Unknown field encountered; Assignment to field %s ignored
-Unknown field name %s
-Unknown operator %d in ResolveBoolean
-Unknown operator %d in ResolveInteger
-Unknown operator %d in ResolveKeyCode
-Unknown operator %d in ResolveMask
-Unknown operator %d in ResolveString
+Unexpected %s in mask expression; Expression Ignored\n
+Unexpected operator %d in ResolveLhs\n
+Unknown %s field %s in %s; Ignoring assignment to unknown field in %s\n
+Unknown action %s\n
+Unknown element %s encountered; Default for field %s ignored\n
+Unknown field %s in a symbol interpretation; Definition ignored\n
+Unknown field %s in key type %s; Definition ignored\n
+Unknown field %s in map for %s indicator; Definition ignored\n
+Unknown field encountered; Assignment to field %s ignored\n
+Unknown field name %s\n
+Unknown operator %d in ResolveBoolean\n
+Unknown operator %d in ResolveInteger\n
+Unknown operator %d in ResolveKeyCode\n
+Unknown operator %d in ResolveMask\n
+Unknown operator %d in ResolveString\n
 Uogonek
-Up
 Uring
 User
 Utilde
-V
-V#
-V(
-V.
-VK
-Value of %s field must be of type %s; Action %s definition ignored
-Vb
-Virtual modifier %s defined multiple times; Using %s, ignoring %s
+Value of %s field must be of type %s; Action %s definition ignored\n
+Virtual modifier %s defined multiple times; Using %s, ignoring %s\n
 VoidSymbol
-W
-W(
-WA
-WC
-WM
-WT
 Wacute
 Wcircumflex
 Wdiaeresis
-Wf
 Wgrave
 WonSign
-X
-X(
-X,
-X4
-X@
 XCOMPOSEFILE
 XF86AddFavorite
 XF86ApplicationLeft
@@ -2190,7 +1741,6 @@ XF86ZoomIn
 XF86ZoomOut
 XF86_
 XF86iTouch
-XJ
 XKB_DEFAULT_LAYOUT
 XKB_DEFAULT_MODEL
 XKB_DEFAULT_OPTIONS
@@ -2198,66 +1748,56 @@ XKB_DEFAULT_RULES
 XKB_DEFAULT_VARIANT
 XKB_LOG_LEVEL
 XKB_LOG_VERBOSITY
-Xa
 Xabovedot
-Y
-Y"
-Y&
-Y(
-Y+
-YG
-YH
-YX
-Y_
 Yacute
 Ybelowdot
-Yc
 Ycircumflex
 Ydiaeresis
-Ye
 Ygrave
 Yhook
-You must specify an index when specifying a group name; Group name definition without array subscript ignored
+You must specify an index when specifying a group name; Group name definition without array subscript ignored\n
 Ytilde
-Z
-Z(
-Z9
-Z:
-ZF
-ZM
 Zabovedot
 Zacute
 Zcaron
 Zen_Koho
 Zenkaku
 Zenkaku_Hankaku
-Zg
 Zstroke
-[
-[!
-[(
-[;
-[I
-\
-\(
-\*
-\6
-\=
-]
-] };
-](
-]S
-]`
-^
-^(
-^W
-^Y
-_
-_(
-_7
-_8
-_>
-_C
+\n\t\tgroupsClamp,
+\n\t\tgroupsRedirect= Group%u,
+\n\t\trepeat= No,
+\n\t\trepeat= Yes,
+\n\t\tsymbols[Group%u]= [ 
+\n\t\ttype= "%s",
+\n\t\ttype[group%u]= "%s",
+\n\t\tvirtualMods= %s,
+\t%-20s = %u;\n
+\t\taction= 
+\t\tcontrols= %s;\n
+\t\tgroups= 0x%02x;\n
+\t\tlevel_name[Level%u]= "%s";\n
+\t\tmap[%s]= Level%u;\n
+\t\tmodifiers= %s;\n
+\t\tpreserve[%s]= %s;\n
+\t\trepeat= True;\n
+\t\tuseModMapMods=level1;\n
+\t\tvirtualModifier= %s;\n
+\t\twhichGroupState= %s;\n
+\t\twhichModState= %s;\n
+\talias %-14s = %s;\n
+\tindicator "%s" {\n
+\tindicator %u = "%s";\n
+\tinterpret %s+%s(%s) {\n
+\tinterpret.repeat= False;\n
+\tinterpret.useModMapMods= AnyLevel;\n
+\tkey %-20s {
+\tmaximum = %u;\n
+\tminimum = %u;\n
+\tmodifier_map %s { %s };\n
+\tname[group%u]="%s";\n
+\ttype "%s" {\n
+\tvirtual_modifiers 
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -2275,18 +1815,7 @@ _edata
 _end
 _fini
 _init
-`
-`(
-`5
-`U
-`X
-a
-a(
-a,
-aG
-aH
 aacute
-ab
 abelowdot
 abovedot
 abreve
@@ -2307,13 +1836,11 @@ action declaration
 acute
 addition
 adiaeresis
-ae
 affect
 affect=button,button=%s%d
 agrave
 ahook
 alias
-all
 allowexplicit
 allownone
 alphanumeric_keys
@@ -2321,7 +1848,6 @@ alternate
 alternate_group
 amacron
 ampersand
-any
 aogonek
 apostrophe
 approxeq
@@ -2334,19 +1860,11 @@ asciitilde
 asprintf
 assignment
 asterisk
-at
 atilde
 augment
-b
-b"
-b#
-b(
-b4
-ba
 babovedot
 backslash
 ballotcross
-bar
 base
 because
 bitwise inversion
@@ -2636,16 +2154,6 @@ braille_dots_8
 breve
 brokenbar
 bsearch
-c
-c"
-c(
-c)
-c*
-c?
-cJ
-cM
-c_h
-c`a_Z\
 cabovedot
 cacute
 calloc
@@ -2657,7 +2165,6 @@ ccedilla
 ccircumflex
 cedilla
 cent
-ch
 checkerboard
 checkmark
 circle
@@ -2674,28 +2181,16 @@ controls
 controls mask
 copyright
 count
-cr
 crit
 crossinglines
 ctrls
 cuberoot
 currency
 cursor
-d
-d!
-d"
-d(
-d+
-dE
-dI
-dQ
-dS
 dabovedot
 dagger
 darray_next_alloc
 data
-dbg
-dc
 dcaron
 dead_A
 dead_E
@@ -2757,7 +2252,6 @@ default
 defaultbutton
 degree
 device
-df
 dfltbtn
 diaeresis
 diamond
@@ -2776,12 +2270,6 @@ downshoe
 downstile
 downtack
 dstroke
-e
-e(
-e.
-e<
-eL
-eW
 eabovedot
 eacute
 ebelowdot
@@ -2794,7 +2282,6 @@ ecircumflexhook
 ecircumflextilde
 ediaeresis
 effective
-eg
 egrave
 ehook
 eightsubscript
@@ -2814,32 +2301,21 @@ emspace
 endash
 enfilledcircbullet
 enfilledsqbullet
-eng
 enopencircbullet
 enopensquarebullet
 enspace
 eogonek
 equal
-err
-eth
 etilde
 evdev
 exclam
 exclamdown
 expression
-ezh
-f
-f(
-f@
-fA
-fV
 fabovedot
-failed to add default include path %s
+failed to add default include path %s\n
 false
 fclose
-fe
 femalesymbol
-ff
 field reference
 figdash
 filledlefttribullet
@@ -2864,19 +2340,13 @@ from
 fseek
 ftell
 function
+function use
 function_keys
-g
-g(
-gC
-gT
-gX
-g_
 gabovedot
 gbreve
 gcaron
 gcedilla
 gcircumflex
-gd
 genKeyEvent
 generateKeyEvent
 getenv
@@ -2893,8 +2363,6 @@ groupswrap
 guilder
 guillemotleft
 guillemotright
-h
-h(
 hairspace
 hcircumflex
 heart
@@ -2969,14 +2437,7 @@ hpmute_asciitilde
 hpmute_diaeresis
 hpmute_grave
 hstroke
-ht
 hyphen
-i
-i(
-iD
-iG
-iH
-i`
 iacute
 ibelowdot
 ibreve
@@ -3004,7 +2465,6 @@ indicatordriveskbd
 indicatordriveskeyboard
 infinity
 info
-int
 integer
 integer (0..255)
 integer (range 1..5)
@@ -3014,22 +2474,7 @@ interpret
 intersection
 iogonek
 itilde
-j
-j(
-j*
-j9
-j>
-jK
 jcircumflex
-jot
-jq
-k
-k(
-k+
-k,
-kN
-kW
-kY
 kana_A
 kana_CHI
 kana_E
@@ -3097,9 +2542,7 @@ kana_ya
 kana_yo
 kana_yu
 kappa
-kc
 kcedilla
-key
 key alias definition
 key name definition
 key symbols definition
@@ -3109,19 +2552,11 @@ keycode
 keyname
 keypad_keys
 keys
-kra
-l
-l(
-l4
-lJ
-lV
-l^
 lacute
 last
 latched
 latincross
 layout
-lb
 lbelowdot
 lcaron
 lcedilla
@@ -3145,8 +2580,6 @@ level name
 level specification
 level_name
 levelname
-lf
-lg
 libGL.so.1
 libQt5Core.so.5
 libQt5Gui.so.5
@@ -3171,14 +2604,6 @@ longminus
 lowleftcorner
 lowrightcorner
 lstroke
-m
-m!
-m(
-m7
-m8
-m;
-mI
-mM
 mabovedot
 macron
 malesymbol
@@ -3205,7 +2630,6 @@ modifier mask
 modifier_keys
 modifier_map
 modmap
-mu
 multiplication
 multiply
 musicalflat
@@ -3215,14 +2639,6 @@ mute_asciicircum
 mute_asciitilde
 mute_diaeresis
 mute_grave
-n
-n#
-n(
-n6
-n:
-n=
-nN
-na
 nabla
 nacute
 ncaron
@@ -3230,8 +2646,6 @@ ncedilla
 need < (2147483647 * 2U + 1U) / itemSize / 2
 ninesubscript
 ninesuperior
-nl
-no
 nobreakspace
 nosymbol
 notapproxeq
@@ -3242,8 +2656,6 @@ notsign
 ntilde
 numbersign
 numerosign
-o
-o(
 oacute
 obarred
 obelowdot
@@ -3256,8 +2668,6 @@ ocircumflexhook
 ocircumflextilde
 odiaeresis
 odoubleacute
-oe
-off
 ogonek
 ograve
 ohook
@@ -3334,12 +2744,6 @@ overbar
 overlay
 overline
 override
-p
-p"
-p(
-p0
-p1
-pX
 pabovedot
 paragraph
 parenleft
@@ -3347,7 +2751,6 @@ parenright
 partdifferential
 partial
 partialderivative
-pc
 pc105
 percent
 period
@@ -3364,16 +2767,7 @@ preserve
 preserve entry
 prolongedsound
 punctspace
-q
-q(
-q-
-q5
-q@
 qEnvironmentVariableIsSet(char const*)
-qG
-qH
-qU
-qf
 qgetenv(char const*)
 qt_plugin_instance
 qt_plugin_query_metadata
@@ -3383,14 +2777,6 @@ questiondown
 quotedbl
 quoteleft
 quoteright
-r
-r(
-r+
-r.
-r<
-rC
-rF
-rV
 racute
 radical
 rcaron
@@ -3415,12 +2801,7 @@ rightshoe
 rightsinglequotemark
 rightt
 righttack
-row
 rules
-s
-s(
-s?
-sL
 sabovedot
 sacute
 same
@@ -3431,7 +2812,6 @@ schwa
 scircumflex
 screen
 script_switch
-se
 seconds
 section
 semicolon
@@ -3440,7 +2820,6 @@ setlocale
 seveneighths
 sevensubscript
 sevensuperior
-sg
 shape
 signaturemark
 signifblank
@@ -3449,7 +2828,7 @@ singlelowquotemark
 sixsubscript
 sixsuperior
 slash
-snprintf error (%s/%s/%s)
+snprintf error (%s/%s/%s)\n
 solid
 soliddiamond
 space
@@ -3477,12 +2856,6 @@ subtraction
 symbol interpretation
 symbol interpretation definition
 syntax error
-t
-t(
-t>
-tQ
-tS
-t_
 tabovedot
 tcaron
 tcedilla
@@ -3498,7 +2871,6 @@ threequarters
 threesubscript
 threesuperior
 tintegral
-to
 topintegral
 topleftparens
 topleftradical
@@ -3523,19 +2895,12 @@ typeinfo for QInputMethodEvent
 typeinfo for QPlatformInputContext
 typeinfo for QPlatformInputContextPlugin
 typeinfo name for QInputMethodEvent
-u
-u(
-u*
-uE
-uJ
-u`
 uacute
 ubelowdot
 ubreve
 ucircumflex
 udiaeresis
 udoubleacute
-ug
 ugrave
 uhook
 uhorn
@@ -3559,15 +2924,12 @@ uprightcorner
 upshoe
 upstile
 uptack
-uq
 uring
 usemodmap
 usemodmapmods
 utilde
 utsv
 utvwxyz|}
-v
-v(
 value
 variable definition
 variant
@@ -3587,36 +2949,24 @@ vmods
 voicedsound
 voidsymbol
 vsnprintf
-vt
 vtable for QInputMethodEvent
 vtable for __cxxabiv1::__si_class_type_info
-w
-w(
-w)
-wT
 wacute
 warn
 wcircumflex
 wdiaeresis
-wg
 wgrave
 whichgroupstate
 whichmodifierstate
 whichmodstate
 wrapgroups
 wxyz{|}nop
-x
-x(
-x4
-xI
-xY
 xabovedot
-xb
 xkb_compat
 xkb_compat_map
 xkb_compatibility
-xkb_compatibility "%s" {
-xkb_compatibility {
+xkb_compatibility "%s" {\n
+xkb_compatibility {\n
 xkb_compatibility_map
 xkb_context_get_log_level
 xkb_context_get_log_verbosity
@@ -3641,10 +2991,10 @@ xkb_key_mod_mask_remove_consumed
 xkb_key_num_groups
 xkb_key_repeats
 xkb_keycodes
-xkb_keycodes "%s" {
-xkb_keycodes {
+xkb_keycodes "%s" {\n
+xkb_keycodes {\n
 xkb_keymap
-xkb_keymap {
+xkb_keymap {\n
 xkb_keymap_get_as_string
 xkb_keymap_key_for_each
 xkb_keymap_key_get_syms_by_level
@@ -3719,80 +3069,26 @@ xkb_state_unref
 xkb_state_update_key
 xkb_state_update_mask
 xkb_symbols
-xkb_symbols "%s" {
-xkb_symbols {
+xkb_symbols "%s" {\n
+xkb_symbols {\n
 xkb_types
-xkb_types "%s" {
-xkb_types {
-xkbcommon: CRITICAL:
-xkbcommon: DEBUG:
-xkbcommon: ERROR:
-xkbcommon: INFO:
-xkbcommon: WARNING:
-y
-y!
-y(
-y1
-yG
-yH
+xkb_types "%s" {\n
+xkb_types {\n
+xkbcommon: CRITICAL: 
+xkbcommon: DEBUG: 
+xkbcommon: ERROR: 
+xkbcommon: INFO: 
+xkbcommon: WARNING: 
 yacute
 ybelowdot
 ycircumflex
-yd
 ydiaeresis
-yen
-yes
 ygrave
 yhook
 ytilde
-y{
-z
-z#
-z$
-z(
-z8
 zabovedot
 zacute
 zcaron
-ze
 zerosubscript
 zerosuperior
 zstroke
-{
-{(
-{/
-{1
-{C
-{N
-{c
-|
-|"
-|(
-|6
-|@
-|D
-|a
-}
-}(
-}/
-}0
-}1
-};
-}I
-}S
-}W
-~
-~(
-~9
-~E
-~d
-~f
-
-(
-.
-/
->
-K
-M
-S
-^

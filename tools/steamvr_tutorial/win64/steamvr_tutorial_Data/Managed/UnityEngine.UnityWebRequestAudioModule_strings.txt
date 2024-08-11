@@ -3,7 +3,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -51,14 +50,13 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 4MovieTexture is deprecated. Use VideoPlayer instead.
 <Module>
 >Modules/UnityWebRequestAudio/Public/DownloadHandlerAudioClip.h
-@.reloc
 AModules/UnityWebRequestAudio/Public/DownloadHandlerMovieTexture.h
 Assembly-CSharp-testable
 AudioType
+BSJB
 CompilationRelaxationsAttribute
 Create
 DebuggableAttribute
@@ -82,7 +80,7 @@ NativeThrowsAttribute
 NotSupportedException
 Object
 ObsoleteAttribute
-RSDS@\
+RSDS@\\n4
 Runtime/Video/MovieTexture.h
 RuntimeCompatibilityAttribute
 SkipVerification
@@ -95,7 +93,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -178,8 +175,9 @@ UnityWebRequestMultimedia
 UnverifiableCodeAttribute
 UploadHandler
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 audioType
 get_AbsoluteUri
 get_audioClip

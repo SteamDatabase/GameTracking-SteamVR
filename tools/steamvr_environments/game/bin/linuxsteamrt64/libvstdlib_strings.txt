@@ -1,61 +1,41 @@
-"%s"
+    Max committed memory: %u KB out of %d KB\n
+    Total committed memory: %d KB\n
+    Total used memory:      %d KB\n
+ ( def. "%s" )
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
 "%s" = "%s"
-"%s","%s",%s,"%s"
+"%s","%s",%s,"%s"\n
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
 $@processutils.cpp
 $ORIGIN
-%
-%%-%ds
-%-120s
-%-120s - %s
-%-32s
-%-4d    %-32s    %-10s
-%-4s    %-32s    %-10s    %-10s    %-32s    %-32s
-%-8.3f
-%-80s : %-16s : %-32s : %s
-%-8i
+%-120s - %s\n
+%-120s\n
+%-4d    %-32s    %-10s    
+%-4s    %-32s    %-10s    %-10s    %-32s    %-32s\n
+%-80s : %-16s : %-32s : %s\n
 %f %f %f %f
-%g
-%hd
-%hu
 %i %i %i %i
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%s %c%s
-%s %d
-%s %s
-%s %s %s %s
+%s %s %s %s\n
 %s %s -nominidumps
-%s not implemented right now
-%s%d
-%s%s
-%s,
-%s/
-%s: Unable to progress %d jobs to finished state (%llums elapsed)
-%s: string format requested %d chars
-%u
-'
-( def. "%s" )
-(*%s*),
+%s not implemented right now\n
+%s: Unable to progress %d jobs to finished state (%llums elapsed)\n
+%s: string format requested %d chars\n
 (main)
 (no name set)
 (none)
-(once).
 *ZN11CThreadPool11GetDummyJobEvE9CDummyJob
-+-
-,
-- %s
---------------%3i convars/concommands for [%s]
---------------%3i total convars/concommands
-----------------------------------------------------------------------------------------------------------------------------------------------------
--->
+----------------------------------------------------------------------------------------------------------------------------------------------------\n
+--------------\n%3i convars/concommands for [%s]\n
+--------------\n%3i total convars/concommands\n
 -attachtodebugger
 -breakimmediately
 -dedicated
@@ -76,10 +56,8 @@ $ORIGIN
 ../public/tier1/utlrbtree.h
 ../public/tier1/utltshash.h
 /dev/urandom
-0
 0123456789abcdef
 0x%016llX
-0x%08X
 0x%p
 10CJobThread
 10ConCommand
@@ -150,37 +128,34 @@ $ORIGIN
 30CAsyncScheduledFunctionManager
 5CCvar
 5ICvar
+5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
 8CProcess
 8IProcess
+8eventdispatcherutils.cpp
 9IPipeRead
-;
-<!--
 </script>
-<<
-<< NULL >>
+<< NULL >>\n
 <NULL>
 <deferred>
+<frame_end
 <invalid handle>
-<li>
 <no deferred ref found>
 <null>
 <unconnected>
 <unknown>
 <unspecified>
->>
-?
-@
-A
+?utlobjectregistry.cpp
 ACCESSIBLE_FROM_THREADS
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE\n
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
 AddCompletionCallback
+AddRef
 AllocInternal
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
@@ -191,16 +166,18 @@ AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
 AsyncScheduledFunctions
-Attempted to access global configuration value "%s" as if it was a per-user value!
-Attempted to access per-user configuration value "%s" with a bogus slot #!
-Attempted to add job to job queue that has already been completed
-Attempted to apply queued config changes but the queue is locked!
-Attempted to set global configuration value "%s" but specified a splitscreen slot!
-Attempted to set per-user configuration value "%s" for an invalid splitscreen slot!
-Attempted to set read-only configuration value "%s"!
-Attempted to set unknown configuration value %s!
-Attempted to set unknown configuration value!
-Available flags to search for:
+Attempted to access global configuration value "%s" as if it was a per-user value!\n
+Attempted to access per-user configuration value "%s" with a bogus slot #!\n
+Attempted to add job to job queue that has already been completed\n
+Attempted to apply queued config changes but the queue is locked!\n
+Attempted to set configuration value "%s" using incorrect data type!\n\tExpected %s, encountered %s.\n
+Attempted to set global configuration value "%s" but specified a splitscreen slot!\n
+Attempted to set per-user configuration value "%s" for an invalid splitscreen slot!\n
+Attempted to set read-only configuration value "%s"!\n
+Attempted to set unknown configuration value %s!\n
+Attempted to set unknown configuration value!\n
+Available flags to search for: \n
+BCFunctorCallback0
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -211,9 +188,9 @@ CBufferString::Concat(char const*, char const*, ...)
 CBufferString::Insert(int, char const*, int, bool)
 CBufferString::Purge(int)
 CBufferString::Relinquish(CBufferString::EAllocationOption_t)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
-CConfigurationSystem::ReadConfiguration: Error parsing configuration file!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
+CConfigurationSystem::ReadConfiguration: Error parsing configuration file!\n
 CFiber::IsReadyToResume()
 CFiber::ReachedZeroReferences()
 CFiber::ResumeJob(void*)
@@ -222,19 +199,20 @@ CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
 CGaussianRandomStream::RandomFloat(float, float)
 CKeyValuesSystem::hash_item_t CUtlMemoryPool
 CKeyValuesSystem::m_Strings
+CKeyValuesSystem::m_pMemPool
 CLIENTCMD_CAN_EXECUTE
 CLIENTDLL
 CMemAllocSystemInitialize
-CMemoryStack %s
+CMemoryStack %s\n
 COLORCORRECTION_VERSION_1
 COneTimeEvent::Allocate()
 CPooledFunctorJob CUtlMemoryPool
 CTSQueue corruption
 CTestScriptMgr: not initialized.
-CTestScriptMgr::InsertCommandsBeforeCheckpoint()
-CTestScriptMgr::InsertCommandsBeforeCheckpoint() adding to tail
-CTestScriptMgr::InsertCommandsBeforeCheckpoint() before checkpoint "%s"
-CTestScriptMgr::InsertCommandsBeforeCheckpoint() currently waiting on checkpoint "%s", executing commands now
+CTestScriptMgr::InsertCommandsBeforeCheckpoint() adding to tail\n
+CTestScriptMgr::InsertCommandsBeforeCheckpoint() before checkpoint "%s"\n
+CTestScriptMgr::InsertCommandsBeforeCheckpoint() currently waiting on checkpoint "%s", executing commands now\n
+CTestScriptMgr::InsertCommandsBeforeCheckpoint()\n
 CTestScriptMgr::LoopCount( %s ): no loop with this name exists.
 CTestScriptMgr::LoopForNumSeconds( %s ): no loop with this name exists.
 CTestScriptMgr::StartLoop( %s ): loop already exists.
@@ -281,22 +259,22 @@ CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::Wait(unsigned int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
-CUniformRandomStream had an array overrun: tried to write to element %d of 0..31.
+CUniformRandomStream had an array overrun: tried to write to element %d of 0..31. \n
 CUniformRandomStream::CUniformRandomStream()
 CUniformRandomStream::GenerateRandomNumber()
 CUniformRandomStream::RandomFloat(float, float)
 CUniformRandomStream::RandomFloatExp(float, float, float)
 CUniformRandomStream::RandomInt(int, int)
 CUniformRandomStream::SetSeed(int)
-CUtlFixedMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlFixedMemory overflow!\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
-CUtlStringTokenSystem could not open database file "%s" for writing. Aborting update operation
-CUtlStringTokenSystem could not update token database "%s" because the file is read-only.
-CUtlStringTokenSystem: Encountered string token collision: "%s" and "%s" both hash to %X!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
+CUtlStringTokenSystem could not open database file "%s" for writing. Aborting update operation\n
+CUtlStringTokenSystem could not update token database "%s" because the file is read-only.\n
+CUtlStringTokenSystem: Encountered string token collision: "%s" and "%s" both hash to %X!\n
 CVAR_
 CVProfNode::EnterScope()
 CVProfNode::ExitScope()
@@ -305,22 +283,24 @@ CVProfile::FindOrCreateCounter(char const*, CounterGroup_t)
 CWorkerThread::CWorkerThread()
 CXXABI_1.3
 Can't open file (%s) passed to -testscript
-Cannot add a thread job already committed to another thread pool
-Cannot mix and match tag specifiers with channel name specifiers.
+Cannot add a thread job already committed to another thread pool\n
+Cannot mix and match tag specifiers with channel name specifiers.\n
 ChangePriority
 Channel Name
 CmpJob
 Color
 CommandLine
-ConCommand %s has conflicting %s flags (child: %s%s, parent: %s%s, parent wins)
+ConCommand %s has conflicting %s flags (child: %s%s, parent: %s%s, parent wins)\n
+ConCommand %s has multiple help strings:\n\tparent (wins): "%s"\n\tchild: "%s"\n
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
 Console
-Convar %s has conflicting %s flags (child: %s%s, parent: %s%s, parent wins)
+Convar %s has conflicting %s flags (child: %s%s, parent: %s%s, parent wins)\n
+Convar %s has multiple help strings:\n\tparent (wins): "%s"\n\tchild: "%s"\n
 Convars/CCvar::FindCommandBase
 Coroutine_Cancel
 Coroutine_Continue
@@ -334,8 +314,9 @@ Coroutine_ReleaseThreadMemory
 Coroutine_Test
 Coroutine_ValidateGlobals
 Coroutine_YieldToMain
-Could not execute the command:   %sOS error message:   "%s"
-Couldn't open '%s' for writing!
+Could not execute the command:\n   %s\nOS error message:\n   "%s"\n
+Could not read from pipe associated with command %s\nOS error message:\n   "%s"\n
+Couldn't open '%s' for writing!\n
 CreateInterface
 CreateNewThreadPool
 CreateSimpleThread
@@ -355,15 +336,16 @@ EXECUTE_PER_TICK
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
-Enabling flag '%s' on channel '%s'.
+Enabling flag '%s' on channel '%s'.\n
 EngineServiceMgr001
 EnvironmentMapBuilder_001
-Error parsing configuration defaults file "cfg/configdefaults.linux.vcfg"!
-Error parsing configuration schema file "cfg/configschema.vcfg"!
-Error parsing default value for config value "%s", default value "%s"!
-Error parsing value to set configuration value "%s" to ("%s")!
-Error reading configuration defaults file "cfg/configdefaults.linux.vcfg"!
-Error starting testscript '%s'
+Error in configuration schema file "%s":\n\tInvalid variable type "%s"!\n
+Error parsing configuration defaults file "cfg/configdefaults.linux.vcfg"!\n
+Error parsing configuration schema file "cfg/configschema.vcfg"!\n
+Error parsing default value for config value "%s", default value "%s"!\n
+Error parsing value to set configuration value "%s" to ("%s")!\n
+Error reading configuration defaults file "cfg/configdefaults.linux.vcfg"!\n
+Error starting testscript '%s'\n
 ErrorIfNotInitted
 EventSystem001
 Event_CreateHandle
@@ -376,22 +358,22 @@ FCVAR_DONTRECORD
 FCVAR_NEVER_AS_STRING
 FCVAR_REPLICATED
 FRENCH
-Field %s has inverted min/max values![%f->%f]
-Field %s tried to quantize an out-of-range value (%f, range is %f->%f) clamping.
-Field %s tried to quantize an out-of-range value (%f, range is %f->%f), clamping.
-Field %s was flagged QFE_ENCODE_INTEGERS_EXACTLY, but didn't specify enough bits, upping bitcount from %d to %d for range [%f->%f]
-Field %s was flagged to both round up and down, these flags are mutually exclusive [%f->%f]
-Field %s was flagged to encode zero exactly, but min/max range doesn't span zero [%f->%f]
+Field %s has inverted min/max values![%f->%f]\n
+Field %s tried to quantize an out-of-range value (%f, range is %f->%f) clamping.\n
+Field %s tried to quantize an out-of-range value (%f, range is %f->%f), clamping.\n
+Field %s was flagged QFE_ENCODE_INTEGERS_EXACTLY, but didn't specify enough bits, upping bitcount from %d to %d for range [%f->%f]\n
+Field %s was flagged to both round up and down, these flags are mutually exclusive [%f->%f]\n
+Field %s was flagged to encode zero exactly, but min/max range doesn't span zero [%f->%f]\n
 Find concommands by flags.
 Find concommands with the specified string in their name/help text.
 Find help about a convar/concommand.
 FindOrCreateQuantizedFloatEncoder
 FindRegisteredGlobalObjectInternal
-First character of flag specifier must be + or -.
+First character of flag specifier must be + or -.\n
 Flags
 FlattenedSerializersVersion001
 FontManager_001
-Forced execute test failed!
+Forced execute test failed!\n
 FormatV
 GAMECONSOLE
 GAMEDLL
@@ -402,7 +384,6 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -425,7 +406,6 @@ Help Text
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-ID
 IOJob
 IQuickTime001
 ITALIAN
@@ -435,21 +415,21 @@ InitFromCommandLine
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallUniformRandomStream
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 JAPANESE
-JSON error, unterminated element:
+JSON error, unterminated element: 
 KOREAN
 KV Conditional Evaluation Error
-KV Conditional: Unknown symbol %s
+KV Conditional: Unknown symbol %s\n
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 LINKED_CONCOMMAND
 LINUX
 LOG_GENERAL
@@ -458,7 +438,7 @@ LoadConfigSchema
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LockGlobalObjectRegistry
-Log Function Help:     log_verbosity <channel specifiers> <verbosity>    log_color <channel specifiers> <hex color>    log_flags <channel specifiers> <+/-flag>All functions are case insensitive.A channel specifier is either:1) tag specifiers: +/-tag1 +/-tag2 ...      // Narrows down to channels with & without given tags.2) channel names: name1 name2 ...           // Lists channels by name.verbosity: off, essential, default,         // Sets how verbose a channel is allowed to be.           detailed, max                     // 'off' turns all spew off                                            // 'essential' turns on vital logs                                            // 'default' turns on most messages                                            // 'detailed' allows for walls of text that are usually useful                                            // 'max' allows everythinghex color: RRGGBBAA                         // A hexadecimal color value in the order RGBA.flag: <+/->DoNotEcho                        // Enable/disable a flag to turn off echoing to the console.      <+/->ConsoleOnly                      // Enable/disable a flag to send text only to the console.e.g.    log_verbosity +console -developer verbose   // Sets minimum spew level of channels with the tag                                            // 'console' but without the tag 'developer' to 'verbose'.    log_color renderdebug bsp FFC08040      // Sets the 'renderdebug' and 'bsp' channels to the RGBA color (64, 128, 192, 255).    log_flags +developer +donotecho         // Turns on the LCF_DO_NOT_ECHO flag for all channels with the 'developer' tag.
+Log Function Help: \n    log_verbosity <channel specifiers> <verbosity>\n    log_color <channel specifiers> <hex color>\n    log_flags <channel specifiers> <+/-flag>\nAll functions are case insensitive.\n\nA channel specifier is either:\n1) tag specifiers: +/-tag1 +/-tag2 ...      // Narrows down to channels with & without given tags.\n2) channel names: name1 name2 ...           // Lists channels by name.\n\nverbosity: off, essential, default,         // Sets how verbose a channel is allowed to be.\n           detailed, max                     // 'off' turns all spew off\n                                            // 'essential' turns on vital logs\n                                            // 'default' turns on most messages\n                                            // 'detailed' allows for walls of text that are usually useful\n                                            // 'max' allows everything\nhex color: RRGGBBAA                         // A hexadecimal color value in the order RGBA.\nflag: <+/->DoNotEcho                        // Enable/disable a flag to turn off echoing to the console.\n      <+/->ConsoleOnly                      // Enable/disable a flag to send text only to the console.\ne.g.\n    log_verbosity +console -developer verbose   // Sets minimum spew level of channels with the tag\n                                            // 'console' but without the tag 'developer' to 'verbose'.\n\n    log_color renderdebug bsp FFC08040      // Sets the 'renderdebug' and 'bsp' channels to the RGBA color (64, 128, 192, 255).\n\n    log_flags +developer +donotecho         // Turns on the LCF_DO_NOT_ECHO flag for all channels with the 'developer' tag.\n\n
 LoggingSystem_FirstTag
 LoggingSystem_GetChannel
 LoggingSystem_GetChannelCount
@@ -486,7 +466,6 @@ MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
-Max committed memory: %u KB out of %d KB
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -508,8 +487,8 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
-Not continuing coroutine due to g_bPreventCoroutineContinue, %s
-OSX
+Not continuing coroutine due to g_bPreventCoroutineContinue, %s\n
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 Out of keyvalue string space
 Out of memory allocation hash_item_t
 POLISH
@@ -517,13 +496,12 @@ PORTUGUESE
 POSIX
 PRINTABLEONLY
 PROTECTED
-PS3
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-Parent and child ConVars with different default values! %s child: %s parent: %s (parent wins)
+Parent and child ConVars with different default values! %s child: %s parent: %s (parent wins)\n
 ParticleSystemMgr003
-Perf warning: Forgot to unregister listeners on event queue %p
+Perf warning: Forgot to unregister listeners on event queue %p\n
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 Plat_DebugPrint
@@ -559,22 +537,23 @@ RandomFloat
 RandomFloatExp
 RandomGaussianFloat
 RandomSeed
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
-RegisterConfigValue: Cannot register two different completion callbacks for config value "%s"!
-RegisterConfigValue: Error registering config value "%s", the hash of its name collides with another config value %s, rename it!
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Cannot register two different completion callbacks for config value "%s"!\n
+RegisterConfigValue: Error registering config value "%s", the hash of its name collides with another config value %s, rename it!\n
+RegisterConfigValue: Error with config value "%s"\n\tValue is actually %s, code is expecting a %s value\n
+RegisterConfigValue: Error with config value "%s"\n\tValue is actually type %s, code is expecting a %s type value\n
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterConfigValueInternal
 RegisterKeyValuesSystem
 RegisterStringToken
 Release
 ReleaseThreadHandle
-Removing string token database entry "%s" for reason "%s"
+Removing string token database entry "%s" for reason "%s"\n
 RenderDevice003
 RenderDeviceMgr001
 RenderHardwareConfig002
@@ -587,17 +566,15 @@ ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
 ReturnJobManualEventToPool
-Run
 RunTSListTests
 RunTSQueueTests
 RunThreadPoolTests
 SCHINESE
 SERVER_CANNOT_QUERY
 SERVER_CAN_EXECUTE
-SKIPPED due to %u job queues in g_pTestThreadPool
+SKIPPED due to %u job queues in g_pTestThreadPool\n
 SPANISH
 SPONLY
-SS
 SS_ADDED
 SceneSystem_002
 SceneUtils_001
@@ -613,8 +590,8 @@ Set the color of a logging channel.
 Set the flags on a logging channel.
 Set the spew level of a logging channel.
 Set the verbosity of a logging channel.
-Setting channel '%s' color to %08X.
-Setting channel '%s' verbosity to '%s'.
+Setting channel '%s' color to %08X.\n
+Setting channel '%s' verbosity to '%s'.\n
 Severity
 Show all convars which are not at their default values (optional restricted to specific flags).
 Show the list of convars/concommands.
@@ -644,11 +621,11 @@ StartLoop
 StatsService_001
 SteamAudio001
 TCHINESE
-TESTSCRIPT: CheckPoint -> '%s'.
-TESTSCRIPT: waiting for checkpoint '%s'%s
+TESTSCRIPT: CheckPoint -> '%s'.\n
+TESTSCRIPT: waiting for checkpoint '%s'%s\n
 Tags
-TestForcedExecute
-TestForcedExecute DONE
+TestForcedExecute DONE\n
+TestForcedExecute\n
 TestFormatA
 TestFormatB
 TestFormatC
@@ -656,7 +633,7 @@ TestFormatD
 TestFormatE
 TestScriptMgr001
 Test_Checkpoint
-Test_Checkpoint: requires checkpoint name
+Test_Checkpoint: requires checkpoint name\n
 Test_ExitProcess
 Test_ExitProcess <exit code> - immediately kill the process.
 Test_Loop
@@ -677,7 +654,7 @@ Test_StartLoop
 Test_StartLoop <loop name> - Denote the start of a loop. Really just defines a named point you can jump to.
 Test_StartLoop: requires a loop name.
 Test_StartScript
-Test_StartScript: requires filename of script to start (file must be under testscripts directory).
+Test_StartScript: requires filename of script to start (file must be under testscripts directory).\n
 Test_Wait
 Test_Wait: requires seconds parameter.
 Test_WaitForCheckPoint
@@ -694,16 +671,16 @@ ThreadMultiWait
 ThreadMultiWaitObjectSetCreate
 ThreadMultiWaitObjectSetCreate(pollfd const*, ThreadMultiWaitExtra_t const*, int)
 ThreadMultiWaitObjectSetDestroy
-ThreadPoolTest:         %d threads -- %d (%d) jobs processed in %fms, %fms to suspend (%f/%f) [ (main) %d, %d, %d, %d, %d, %d, %d, %d, %d]
-ThreadPoolTest:         Testing with %d jobs! Sleep %d, interleave %d, prioritized %d
-ThreadPoolTest:     Distribute
-ThreadPoolTest:     Distribute NO Sleep
-ThreadPoolTest:     NO Sleep
-ThreadPoolTest:     Non-distribute
-ThreadPoolTest:   NOT to completion
-ThreadPoolTest:   To completion
-ThreadPoolTest: Job distribution speed
-ThreadPoolTest: Jobs doing work, %s main thread
+ThreadPoolTest:         %d threads -- %d (%d) jobs processed in %fms, %fms to suspend (%f/%f) [ (main) %d, %d, %d, %d, %d, %d, %d, %d, %d]\n
+ThreadPoolTest:         Testing with %d jobs! Sleep %d, interleave %d, prioritized %d \n
+ThreadPoolTest:     Distribute NO Sleep\n
+ThreadPoolTest:     Distribute\n
+ThreadPoolTest:     NO Sleep\n
+ThreadPoolTest:     Non-distribute\n
+ThreadPoolTest:   NOT to completion\n
+ThreadPoolTest:   To completion\n
+ThreadPoolTest: Job distribution speed\n
+ThreadPoolTest: Jobs doing work, %s main thread\n
 ThreadSetAffinity
 ThreadSetAffinityPreference
 ThreadSetPriority
@@ -713,33 +690,30 @@ ThreadSleep
 ThreadTerminateProcessCode
 ThreadWaitForProcessExit
 ThreadYield
-Too many channel specifiers (max: %d).
+Too many channel specifiers (max: %d).\n
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-Total committed memory: %d KB
-Total used memory:      %d KB
 TransferMemory
-Tried to install the same listener on the same event id + queue twice!
-Tst
+Tried to install the same listener on the same event id + queue twice!\n
 UNLOGGED
 UPDATE_STRING_TOKEN_DATABASE
 USERINFO
 UnRegisterGlobalObject
-Unable to create multiwait object set
-Unable to create thread in %s
-Unable to exec '%s'
+Unable to create multiwait object set\n
+Unable to create thread in %s\n
+Unable to exec '%s'\n
 Unknown
 UnlockGlobalObjectRegistry
-Unrecognized flag: %s.
-Unrecognized severity: %s.
-Unrecognized verbosity: %s.
-Usage:  find <string> [<string>...]
-Usage:  findflags <string>
-Usage:  help <cvarname>
+Unrecognized flag: %s.\n
+Unrecognized severity: %s.\n
+Unrecognized verbosity: %s.\n
+Usage:  find <string> [<string>...]\n
+Usage:  findflags <string>\n
+Usage:  help <cvarname>\n
 UserInfoChangeService_001
 VApplication001
 VAvi001
@@ -787,11 +761,11 @@ V_PathContainsPath
 V_RandomString(int)
 V_RemoveDotSlashes
 V_SetErrno
-V_SplitString(char const*, char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >&, bool)
-V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int> >&)
-V_SplitString2(char const*, char const**, int, CUtlVector<char*, CUtlMemory<char*, int> >&)
-V_SplitString2InPlace(char*, char const**, int, CUtlVector<char const*, CUtlMemory<char const*, int> >&)
-V_SplitStringInPlace(char*, char const*, CUtlVector<char const*, CUtlMemory<char const*, int> >&)
+V_SplitString(char const*, char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString, int>>&, bool)
+V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int>>&)
+V_SplitString2(char const*, char const**, int, CUtlVector<char*, CUtlMemory<char*, int>>&)
+V_SplitString2InPlace(char*, char const**, int, CUtlVector<char const*, CUtlMemory<char const*, int>>&)
+V_SplitStringInPlace(char*, char const*, CUtlVector<char const*, CUtlMemory<char const*, int>>&)
 V_SplitWString
 V_SplitWString2
 V_StrTrim
@@ -847,13 +821,13 @@ V_wcsistr(wchar_t const*, wchar_t const*)
 V_wcstod
 V_wcstoi64
 VisBuilder_001
-WARNING: unable to link %s and %s because both ConCommands are not marked FCVAR_LINKED_CONCOMMAND
+WARNING: unable to link %s and %s because both ConCommands are not marked FCVAR_LINKED_CONCOMMAND\n
 WIN32
 WINDOWS
 WINXP
 WITH
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
@@ -864,17 +838,9 @@ X360LODEF
 X360SPLITSCREEN
 X360WIDE
 YieldWait
-[
-[%.3f server clamped to %.3f]
 [%f %f %f %f]
-[%f %f %f]
-[%f %f]
-[0 0 0 0]
-[0 0 0]
-[0 0]
 [ConsoleOnly]
 [DoNotEcho]
-\
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -913,9 +879,7 @@ _end
 _exit
 _fini
 _setjmp
-all
 alphasort64
-app
 appears in lower database
 application
 bin\stringtokendatabase.txt
@@ -926,26 +890,22 @@ binary_lz4
 bool
 borrow
 bounds
-br
 cfg/configdefaults.linux.vcfg
 cfg/configschema.vcfg
 chdir
 cheat
-cl
 cl_language
 client
 clientcmd_can_execute
 closedir
-cmd
 config
 configurationsystem.cpp
 configvalue.cpp
 consoleonly
 corrupted entry
-cvar list--------------
+cvar list\n--------------\n
 cvarlist
-cvarlist:  [log logfile] [ partial ]
-d
+cvarlist:  [log logfile] [ partial ]\n
 default
 defaultValue
 defaults
@@ -955,9 +915,9 @@ detailed
 developer
 devonly
 differences
+differences 
 disconnected
 donotecho
-dup
 dup2
 dupe
 english
@@ -966,12 +926,12 @@ essential
 eventsystem.cpp
 execute_per_tick
 execvpe
-f
 false
 fcntl
 fdatasync
 find
 findflags
+findflags 
 float( %f )
 float32
 fork
@@ -988,17 +948,16 @@ g_pThreadPool
 game
 generic
 getdtablesize
-has
+has 
 help
+help 
 help text
-help:  no cvar or command named %s
-img
+help:  no cvar or command named %s\n
 int( %d = 0x%X )
 interfaces.cpp
 jobthread.cpp
 keyvalues.cpp
 keyvaluessystem.cpp
-l
 launch
 ld-linux-x86-64.so.2
 libc.so.6
@@ -1012,30 +971,24 @@ log_color
 log_dumpchannels
 log_flags
 log_level
-log_level is deprecated, please use log_verbosity. Severity '%s' translates to verbosity '%s'.
+log_level is deprecated, please use log_verbosity. Severity '%s' translates to verbosity '%s'.\n
 log_verbosity
 longjmp
 lseek64
 machine
-max
-max. %f
 memcmp
 memcpy
 memmove
 mempool.cpp
 memset
-min. %f
 nTries < 10000000
 name
-nf
-no
-no results
+no results\n
 nolog
 norecord
 notconnected
 notify
 numeric
-off
 once
 open
 open64
@@ -1054,7 +1007,6 @@ pipe
 poll
 posix_fadvise64
 prctl
-pre
 pread64
 print
 prot
@@ -1068,15 +1020,12 @@ ptr( 0x%p )
 pwrite64
 qangle
 random.cpp
-rb
-rb+
 readdir64
 readlink
 release
 reload_materials
 reload_textures
 render_thread
-rep
 replicated
 s_dev_urandom_fd >= 0
 scandir64
@@ -1084,7 +1033,6 @@ schema
 server_can_execute
 server_cant_query
 singleplayer
-sp
 sqrtf
 ss_added
 stderr
@@ -1095,7 +1043,6 @@ strcpy
 strerror
 strlen
 strrchr
-sv
 test string
 testscript_debug
 testscriptmgr.cpp
@@ -1128,14 +1075,9 @@ vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 warning
-wb
-wb+
 wcscmp
 wcslen
 without
 xbox_archive
-zD
-{
 {%d %d %d %d}
 {0 0 0 255}
-{}()':

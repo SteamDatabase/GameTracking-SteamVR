@@ -5,7 +5,6 @@ GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
 QObject::childEvent(QChildEvent*)
 QObject::connectNotify(QMetaMethod const&)
 QObject::customEvent(QEvent*)
@@ -68,4 +67,3 @@ qt_plugin_query_metadata
 strcmp
 typeinfo for QPlatformIntegrationPlugin
 vtable for __cxxabiv1::__si_class_type_info
-xcb

@@ -1,6 +1,3 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- H3E H3E
-!This program cannot be run in DOS mode.
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AUTga16Reader@@
@@ -28,6 +25,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -48,12 +46,12 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
@@ -79,15 +77,6 @@
 ??4QString@@QEAAAEAV0@$$QEAV0@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?getChar@QIODevice@@QEAA_NPEAD@Z
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
@@ -95,13 +84,6 @@
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?translate@QCoreApplication@@SA?AVQString@@PEBD00H@Z
 ?warning@QMessageLogger@@QEBAXPEBDZZ
-@.data
-@.qtmetad$
-@.reloc
-@A^_^
-@SVWH
-@VATH
-AuthD
 CloseHandle
 Could not read footer
 Could not read image data
@@ -112,7 +94,6 @@ DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
 FK?imageCount@QImageIOHandler@@UEBAHXZ
-GenuA
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -128,20 +109,13 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
-L$ E3
-L$HH3
 L?isNull@QImage@@QEBA_NXZ
 L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 LeaveCriticalSection
-M H1E
 M?loopCount@QImageIOHandler@@UEBAHXZ
-MetaData
-MimeTypes
 O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-QTMETADATA  qbjs
 QTgaFile
 QTgaHandler::canRead() called with no device
 QTgaPlugin
@@ -164,11 +138,19 @@ U?setPixel@QImage@@QEAAXHHI@Z
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-VWAVH
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
-\$ UH
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?getChar@QIODevice@@QEAA_NPEAD@Z
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -187,26 +169,17 @@ _initterm_e
 _purecall
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
-ffffff
-image/x-tga
+free
 malloc
 memset
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qt_plugin_instance
 qt_plugin_query_metadata
 qtga.dll
 strncmp
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-|$ AVH
-|$@u2

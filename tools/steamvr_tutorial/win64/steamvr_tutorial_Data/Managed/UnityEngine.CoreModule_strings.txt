@@ -1,26 +1,3 @@
-	BoxOffset
-	GetIsDone
-	Inherited
-	IsVariant
-	IsVisible
-	LightType
-	ProbeType
-	SetActive
-	SetParent
-	SetString
-	ZX(6
-	arguments
-	m_Data[0]
-	m_Data[1]
-	m_Data[2]
-	m_Data[3]
-	m_Data[4]
-	m_Data[5]
-	m_Data[6]
-	m_Data[7]
-	m_Data[8]
-	m_Data[9]
-	m_Enabled
  CameraScripting::RenderToCubemap
  CullingGroup_Bindings::IsVisible
  DeveloperConsole_OpenConsoleFile
@@ -80,7 +57,7 @@
 !Light_Bindings::GetCommandBuffers
 !Light_Bindings::SetShadowStrength
 !MeshScripting::MeshFromInstanceId
-!PLATFORM_WIN && !PLATFORM_XBOXONE
+!PLATFORM_WIN && !PLATFORM_XBOXONE\fMatrix4x4f()
 !PlayableHandleBindings::IsDelayed
 !QuaternionScripting::LookRotation
 !RenderTextureScripting::SetActive
@@ -102,7 +79,6 @@
 !ShaderScripting::SetGlobalTexture
 !SpritesBindings::OverrideGeometry
 !Texture2DScripting::GenerateAtlas
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -249,6 +225,7 @@ $UnityEngine.UnityWebRequestWWWModule
 $Use Object.DontDestroyOnLoad instead
 $Use RenderTexture.dimension instead.
 $VideoCaptureBindings::StartVideoMode
+$\f\f\f\f\f\f\f\f\f\f\f
 $systeminfo::GetOperatingSystemFamily
 $systeminfo::GetProcessorFrequencyMHz
 %Application_Bindings::GetUnityVersion
@@ -450,7 +427,6 @@ $systeminfo::GetProcessorFrequencyMHz
 *This field is no longer used for anything.
 *UnityDisplayManager_SetRenderingResolution
 *Use SceneManager.sceneCountInBuildSettings
-+:	l(
 +Application_Bindings::SetLogCallbackDefined
 +CullingGroup_Bindings::SetBoundingDistances
 +GetTagManager().IsSortingLayerUniqueIDValid
@@ -481,9 +457,7 @@ $systeminfo::GetProcessorFrequencyMHz
 +UnityDisplayManager_DisplaySystemResolution
 +use Resources.FindObjectsOfTypeAll instead.
 ,#r6Z
-,#rK!
 ,#ruY
-,#r~[
 ,,reh
 ,AnimationCurveBindings::AddKeySmoothTangents
 ,CalculateInterpolatedLightAndOcclusionProbes
@@ -510,14 +484,24 @@ $systeminfo::GetProcessorFrequencyMHz
 ,ScriptingGraphicsCaps::GetGraphicsMemorySize
 ,ScriptingGraphicsCaps::SupportsTextureFormat
 ,ShaderScripting::GetPropertyTextureDimension
+,Tr4
 ,UnityDisplayManager_RequiresBlitToBackbuffer
 ,UnityEngine.UnityWebRequestAssetBundleModule
 ,UnityEngineObjectBindings::FindObjectsOfType
 ,Use QualitySettings.pixelLightCount instead.
 ,Use UnityEngine.Diagnostics.Utils.ForceCrash
 ,Xbox360 is no longer supported in Unity 5.5+
+,\vrKl
+,\vrSP
+,\vrXM
+,\vrXU
+,\vrcq
+,\vrdx
+,\vrkl
+,\vrqq
+,\vrsy
+,nr\ff
 -(SystemLanguage)systeminfo::GetSystemLanguage
--;	oy
 -Editor/Src/Properties/DrivenPropertyManager.h
 -GetApplicationInfo().GetApplicationIdentifier
 -GraphicsScripting::SetRandomWriteTargetBuffer
@@ -567,7 +551,6 @@ $systeminfo::GetProcessorFrequencyMHz
 .ctor
 .eBZ+
 .eBZV*>
-.text
 /Assert.Equals should not be used for Assertions
 /CalculateProjectionMatrixFromPhysicalProperties
 /GetTagManager().GetSortingLayerNameFromUniqueID
@@ -593,6 +576,9 @@ $systeminfo::GetProcessorFrequencyMHz
 /ScriptingGraphicsCaps::SupportsAsyncGPUReadback
 /Use startWidth, endWidth or widthCurve instead.
 /VideoCaptureBindings::StartRecordingVideoToDisk
+0,p6
+0.0F
+0.0f
 0AreVRStereoViewMatricesWithinSingleCullTolerance
 0CopyProbeOcclusionArrayToPropertySheetFromScript
 0CullingGroup_Bindings::SetDistanceReferencePoint
@@ -624,6 +610,8 @@ $systeminfo::GetProcessorFrequencyMHz
 0Use Cursor.lockState and Cursor.visible instead.
 0Vertex program support is required in Unity 5.0+
 0Wii U is no longer supported as of Unity 2018.1.
+1.0f
+1>P1
 1NPOTSupport.None does not happen on any platforms
 1NaCl export is no longer supported in Unity 5.0+.
 1PS3 export is no longer supported in Unity >=5.5.
@@ -646,6 +634,7 @@ $systeminfo::GetProcessorFrequencyMHz
 1ScriptingGraphicsCaps::GetMaxComputeWorkGroupSize
 1ScriptingGraphicsCaps::MaxComputeBufferInputsHull
 1ScriptingGraphicsCaps::SupportedRenderTargetCount
+2/xj
 2Direct3D 9 is no longer supported in Unity 2017.2+
 2GetTextureStreamingManager().GetTotalTextureMemory
 2MaterialScripting::GetTexturePropertyNamesInternal
@@ -665,6 +654,10 @@ $systeminfo::GetProcessorFrequencyMHz
 2ScriptingGraphicsCaps::SupportsTessellationShaders
 2UnityEngineObjectBindings::ForceLoadFromInstanceID
 2Use startColor, endColor or colorGradient instead.
+3 iS
+3!Bn
+3000
+3>P1
 3GetTextureStreamingManager().GetTargetTextureMemory
 3GetUncheckedRealGfxDevice().GetFrameTimingManager()
 3GraphicsScripting::DrawProceduralIndexedIndirectNow
@@ -689,7 +682,6 @@ $systeminfo::GetProcessorFrequencyMHz
 3ScriptingGraphicsCaps::SupportsMultisampledTextures
 3This was an internal method which is no longer used
 3UnityEngineObjectBindings::FindObjectFromInstanceID
-4"("O
 4GetRenderBufferManager().GetTextures().GetTempBuffer
 4GetTextureStreamingManager().GetCurrentTextureMemory
 4GetTextureStreamingManager().GetDesiredTextureMemory
@@ -707,7 +699,10 @@ $systeminfo::GetProcessorFrequencyMHz
 4ScriptingGraphicsCaps::SupportsVertexAttributeFormat
 4SpritesBindings::CreateSpriteWithoutTextureScripting
 4Xbox360 export is no longer supported in Unity 5.5+.
+5!Xn
+5!pn
 5(PLATFORM_WIN || PLATFORM_WINRT) && !PLATFORM_XBOXONE
+5>P1
 5GetTextureStreamingManager().GetStreamingTextureCount
 5PlayableOutputHandleBindings::AddNotificationReceiver
 5RenderingCommandBuffer_Bindings::CopyTexture_Internal
@@ -728,7 +723,6 @@ $systeminfo::GetProcessorFrequencyMHz
 5Use SetColor instead (UnityUpgradable) -> SetColor(*)
 5Use SetFloat instead (UnityUpgradable) -> SetFloat(*)
 5Use SetStackTraceLogType/GetStackTraceLogType instead
-6"*"O
 6ExposedPropertyTableBindings::ResolveReferenceInternal
 6GetTextureStreamingManager().GetStreamingRendererCount
 6PlayStationMobile is no longer supported in Unity 5.3+
@@ -743,6 +737,9 @@ $systeminfo::GetProcessorFrequencyMHz
 6Runtime/Export/Graphics/GraphicsDeviceDebug.bindings.h
 6ScriptingGraphicsCaps::SupportedRandomWriteTargetCount
 6WebPlayer export is no longer supported in Unity 5.4+.
+7!0o
+7,87
+7>P1
 7Property wasCanceled is deprecated, use status instead.
 7RenderTexture.enabled is always now, no need to use it.
 7Runtime/Export/Director/PlayableOutputHandle.bindings.h
@@ -752,8 +749,9 @@ $systeminfo::GetProcessorFrequencyMHz
 7Use SetMatrix instead (UnityUpgradable) -> SetMatrix(*)
 7Use SetVector instead (UnityUpgradable) -> SetVector(*)
 7supportsStencil always returns true, no need to call it
-8","O
+8-PE
 8Assert.ReferenceEquals should not be used for Assertions
+8BZ"
 8FlashPlayer export is no longer supported in Unity 5.0+.
 8GetRenderBufferManager().GetTextures().ReleaseTempBuffer
 8GetTextureStreamingManager().GetNonStreamingTextureCount
@@ -765,6 +763,8 @@ $systeminfo::GetProcessorFrequencyMHz
 8RenderingCommandBuffer_Bindings::WaitOnGPUFence_Internal
 8Runtime/Export/Director/TexturePlayableOutput.bindings.h
 8ScriptableRenderPipeline_Bindings::GetShadowCasterBounds
+9-xE
+9>P1
 9GetTextureStreamingManager().GetNonStreamingTextureMemory
 9RenderingCommandBuffer_Bindings::Internal_DispatchCompute
 9RenderingCommandBuffer_Bindings::IssuePluginEventInternal
@@ -773,10 +773,7 @@ $systeminfo::GetProcessorFrequencyMHz
 9Runtime/Graphics/ScriptableRenderLoop/ScriptableCulling.h
 9Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.h
 9Use SetTexture instead (UnityUpgradable) -> SetTexture(*)
-:"."O
-::IsBatchmode
 ::IsHumanControllingUs
-::IsTestRun
 :ConvertAndCopySHCoefficientArraysToPropertySheetFromScript
 :GetTextureStreamingManager().GetStreamingMipmapUploadCount
 :RenderingCommandBuffer_Bindings::Internal_SetComputeFloats
@@ -798,16 +795,10 @@ $systeminfo::GetProcessorFrequencyMHz
 ;Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1
 ;UnityEngineObjectBindings::FindObjectsOfTypeIncludingAssets
 ;graphicsPixelFillrate is no longer supported in Unity 5.0+.
-<"0"O
 <.cctor>b__7_0
 <.ctor>b__20_0
 <.ctor>b__20_1
 <.ctor>b__20_2
-<>9__0_0
-<>9__20_0
-<>9__20_1
-<>9__20_2
-<>9__5_0
 <>c__DisplayClass12_0
 <>c__DisplayClass13_0
 <>c__DisplayClass20_0
@@ -925,7 +916,6 @@ $systeminfo::GetProcessorFrequencyMHz
 =RenderingCommandBuffer_Bindings::SetRandomWriteTarget_Texture
 =Use lightmapColor property (UnityUpgradable) -> lightmapColor
 =VideoCaptureBindings::GetUnsafePointerToVideoDeviceController
->"$"O
 >RenderingCommandBuffer_Bindings::IssuePluginCustomBlitInternal
 >RenderingCommandBuffer_Bindings::ValidateAgainstExecutionFlags
 >revertValues parameter is ignored. Please use Clear() instead.
@@ -935,11 +925,8 @@ $systeminfo::GetProcessorFrequencyMHz
 ?Runtime/Graphics/ScriptableRenderLoop/ScriptableRenderContext.h
 ?SamsungTVPlayer export is no longer supported in Unity 2017.3+.
 ?ScriptableRenderPipeline_Bindings::GetReflectionProbeIndexCount
-?XiT	
-?_d`U*
+?XiT\t
 ?supportsRenderToCubemap always returns true, no need to call it
-@"2"O
-@.reloc
 @GetTextureStreamingManager().GetStreamingTexturePendingLoadCount
 @RenderingCommandBuffer_Bindings::Internal_DrawProceduralIndirect
 @RenderingCommandBuffer_Bindings::Internal_SetComputeTextureParam
@@ -947,6 +934,8 @@ $systeminfo::GetProcessorFrequencyMHz
 @Runtime/Export/RenderPipeline/ScriptableRenderContext.bindings.h
 @ScriptableRenderPipeline_Bindings::GetCullingParameters_Internal
 @[XsS
+A,x8
+A/Dk
 A10R10G10B10_XRSRGBPack32
 A10R10G10B10_XRUNormPack32
 A1R5G5B5_UNormPack16
@@ -958,6 +947,9 @@ A2R10G10B10_UIntPack32
 A2R10G10B10_UNormPack32
 A2R10G10B10_XRSRGBPack32
 A2R10G10B10_XRUNormPack32
+A>P1
+AABB
+AIFF
 AIUpdate
 AIUpdatePostScript
 APIUpdaterRuntimeHelpers
@@ -1003,6 +995,7 @@ ASTC_RGB_8x8
 AUDIOQUEUE
 Abort
 AccessViolation
+Acos
 Activate
 ActivateDisplayImpl
 Activator
@@ -1015,7 +1008,6 @@ AddBatch_Injected
 AddBlendShapeFrame
 AddBlendShapeFrameFromScriptT
 AddCache
-AddCachePath
 AddCache_Injected
 AddCall
 AddColor
@@ -1092,7 +1084,6 @@ AllGPUOperations
 Allocate
 AllowEnlightenSupportForUpgradedProject
 AllowInvoke
-AllowMultiple
 AllowVerticalFlip
 Alpha0
 Alpha1
@@ -1134,7 +1125,6 @@ AnimationCurveBindings::GetKey
 AnimationCurveBindings::GetKeys
 AnimationCurveBindings::MoveKey
 AnimationCurveBindings::SetKeys
-AnisoLimit
 AnisotropicFiltering
 AnisotropicTextures
 AnyEmissive
@@ -1167,6 +1157,7 @@ ArgumentNullException
 ArgumentOutOfRangeException
 ArrayFromGenericList
 ArrayOfTypeReferencedByFirstArgument
+Asin
 Assembly-CSharp-testable
 AssemblyIsEditorAssembly
 AssemblyName
@@ -1186,6 +1177,7 @@ AsyncQueueSynchronisation
 AsyncReadManager
 AsyncReadManagerManaged::Read
 AsyncUploadTimeSlicedUpdate
+Atan
 Atan2
 AttachmentDescriptor
 AttemptDetectAllowUnalignedRead
@@ -1204,7 +1196,6 @@ Automatic
 AutomaticLocal
 AutomaticWorld
 AvailabilityEditor
-B"&"f
 B10G11R11_UFloatPack32
 B4G4R4A4_UNormPack16
 B5G5R5A1_UNormPack16
@@ -1219,6 +1210,7 @@ B8G8R8_SNorm
 B8G8R8_SRGB
 B8G8R8_UInt
 B8G8R8_UNorm
+BC6H
 BGR101010_XR
 BGRA10101010_XR
 BGRA32
@@ -1319,12 +1311,14 @@ Blit_Texture
 Blit_Texture_Injected
 Blob8
 BlockUntilRecvMsg
+Blue
 Bone1
 Bone2
 Bone4
 BoneWeight
 BoneWeight1
 BooleanFailureMessage
+Both
 Bottom
 BottomCenter
 BottomLeft
@@ -1352,13 +1346,17 @@ Bulgarian
 BurstCompilerService
 BurstCompilerService::Get()
 BurstDiscardAttribute
+C/dk
+C>P1
 CPUSynchronisation
 CRenderingCommandBuffer_Bindings::Internal_DrawMeshInstancedIndirect
 CRenderingCommandBuffer_Bindings::Internal_SetRayTracingTextureParam
 CRuntime/Export/PlayerConnection/PlayerConnectionInternal.bindings.h
+CXV+
+CZ(2
+CZ(5
 CacheIndex
 CacheLineSize
-CacheWrapper
 Cache_ClearCache
 Cache_ClearCache_Expiration
 Cache_GetCachingDiskSpaceUsed
@@ -1448,14 +1446,18 @@ CapturePhotoToDisk_Internal
 CapturePhotoToMemory
 CapturePhotoToMemory_Internal
 CaptureResultType
+Card
 Caret
+Cast
 CastHelper`1
 Catalan
+Ceil
 CeilToInt
 Ceiling
 CellCenter
 CellCorner
 ChainSelector
+Char
 CheckAttributeTypeMatchesAndThrow
 CheckCanAccessSubmesh
 CheckCanAccessSubmeshIndices
@@ -1493,14 +1495,12 @@ CleanupRenderPipeline
 Clear
 ClearAllCachedVersions
 ClearBlendShapes
-ClearCache
 ClearCache_Int
 ClearCachedVersion
 ClearCachedVersionInternal
 ClearCachedVersionInternal_Injected
 ClearCachedVersions
 ClearCachedVersions_Injected
-ClearCommands
 ClearDeveloperConsole
 ClearImmediateRenderers
 ClearImpl
@@ -1516,9 +1516,7 @@ ClearRenderTarget
 ClearRenderTarget_Injected
 ClearRequestedMipmapLevel
 ClearUpdateZones
-ClearVariants
 ClearWithSkybox
-CloneObject
 CloneScriptInstance
 CloneScriptInstanceFromEngineObject
 CloneScriptInstanceFromIClonable
@@ -1534,13 +1532,10 @@ CollectIncremental
 CollectIncrementalWrapper
 Colon
 Color(255,255,255,255)
-Color.white
 Color32
 ColorBurn
 ColorDodge
-ColorFormat
 ColorHSV
-ColorRGBAf
 ColorUsageAttribute
 ColorUtility
 ColorWriteMask
@@ -1687,7 +1682,6 @@ CreateNativeObject
 CreateNonReadableException
 CreateOptions
 CreateOutput
-CreatePing
 CreatePlayableHandle
 CreatePlayableHandle_Injected
 CreatePrimitive
@@ -1753,11 +1747,14 @@ CycleSkipInstances
 CycleSkipSystems
 Cylinder
 Czech
+D-GF
 D3DHDRDisplayBitDepth
 D3DHDRDisplayBitDepth10
 D3DHDRDisplayBitDepth16
 DSPClock
+DXT1
 DXT1Crunched
+DXT5
 DXT5Crunched
 Danish
 Darken
@@ -1768,7 +1765,6 @@ DateTimeKind
 DeactivateDeformableBuffer
 Deallocate
 DebugBreak
-DebugDrawLine
 DebugLogHandler
 DebugScreenCapture
 DebuggableAttribute
@@ -1876,6 +1872,7 @@ DisableScissorRect
 DisableShaderKeyword
 Disabled
 DisallowMultipleComponent
+Disc
 DiscLight
 DiscardContents
 Discharging
@@ -1958,6 +1955,7 @@ DrawWireSphere_Injected
 DrivenPropertyManager
 DrivenRectTransformTracker
 DrivenTransformProperties
+Dual
 Dutch
 DynamicGI
 DynamicGI.UpdateMaterials(Renderer) is deprecated; instead, use extension method from RendererExtensions: 'renderer.UpdateGIMaterials()' (UnityUpgradable).
@@ -1967,13 +1965,14 @@ DynamicGeometry
 DynamicLightmap
 DynamicTransform
 DynamicallyScalable
+E-GF
 E5B9G9R9_UFloatPack32
+E>P1
 EAC_R
 EAC_RG
 EAC_RG_SIGNED
 EAC_R_SIGNED
 ENABLE_MEMORY_MANAGER
-ENABLE_MONO
 ENABLE_ONSCREEN_KEYBOARD
 ENABLE_PROFILER
 ENABLE_PROFILER && UNITY_EDITOR
@@ -2048,6 +2047,7 @@ ExcludeFromObjectFactoryAttribute
 ExcludeFromPresetAttribute
 Exclusion
 ExclusiveFullScreen
+Exec
 Execute
 ExecuteAlways
 ExecuteCommandBuffer
@@ -2062,11 +2062,12 @@ ExecuteJobFunction
 ExecuteMainThreadJobs
 ExecutePendingTasks
 ExecuteTasks
+Exit
 Expand
 Exponential
 ExponentialSquared
 ExposedPropertyResolver
-ExposedReference	 
+ExposedReference\t 
 ExposedReference`1
 ExtensionOfNativeClassAttribute
 ExternalEval
@@ -2094,7 +2095,6 @@ ExtractMatrixArray
 ExtractMatrixArrayFromScript
 ExtractMatrixArrayImpl
 ExtractMeshComponentFromScriptT
-ExtractPlanes
 ExtractStackTrace
 ExtractStringFromException
 ExtractStringFromExceptionInternal
@@ -2104,9 +2104,11 @@ ExtractVectorArrayImpl
 EyeLinear
 EyeTexture
 FDeprecated. Use InitState() function or Random.state property instead.
+FP16
 FRuntime/Graphics/ScriptableRenderLoop/ScriptableDrawRenderersUtility.h
 FScriptingGraphicsCaps::HasDynamicUniformArrayIndexingInFragmentShaders
 FadeOut
+Fail
 FailedToLoadScriptObject
 FallbackLightmapper
 FallbackLightmapperByRef
@@ -2114,6 +2116,7 @@ FallbackMixedLightingMode
 FallbackMixedLightingModeByRef
 Fantastic
 Faroese
+Fast
 Fastest
 FatalError
 FieldInfo
@@ -2123,6 +2126,7 @@ FieldOfViewToFocalLength_Safe
 FileAttributes
 FileInfo
 FileSystemInfo
+Fill
 FillLightAndReflectionProbeIndices
 FillLightIndexMap
 FillLightIndexMapScriptable
@@ -2133,6 +2137,7 @@ FilteringSettings
 FinalizeAssetCreation
 FinalizeSnapshot
 FinalizerFailure
+Find
 FindBuiltin
 FindChild
 FindGameObjectWithTag
@@ -2164,10 +2169,10 @@ Fixed
 FixedBufferAttribute
 FixedElementField
 FixedLength
-FixupEdges
 FlagsAttribute
 FlareLayer
 FlashPlayer
+Flat
 FlipHorizontal
 FlipVertical
 Float16
@@ -2185,9 +2190,7 @@ FogMode
 ForceCrash
 ForceEnable
 ForceEvenIfCameraIsNotActive
-ForceIntoRT
 ForceLOD
-ForceLODLevel
 ForceLoadFromInstanceID
 ForceNoMotion
 ForcePixel
@@ -2196,6 +2199,7 @@ ForceUpdateRectTransforms
 ForceVertex
 Forced
 ForcedCrashCategory
+Form
 FormatSwizzle
 FormatSwizzle0
 FormatSwizzle1
@@ -2224,6 +2228,9 @@ FullScreenMode
 FullScreenWindow
 Func`1
 Func`2
+G!4r
+G-XF
+G>P1
 GBuffer0
 GBuffer1
 GBuffer2
@@ -2257,6 +2264,7 @@ GRenderingCommandBuffer_Bindings::Internal_SetRayTracingVectorArrayParam
 GRenderingCommandBuffer_Bindings::IssuePluginCustomTextureUpdateInternal
 GThis property is deprecated, please use SplashScreen.isFinished instead
 GUIClearEvents
+Game
 GameObjectBindings::CompareTagT
 GameObjectBindings::Find4
 GameObjectBindings::GetScene
@@ -2273,7 +2281,6 @@ GenerateAtlasImpl
 GenerateEventIdForPayload
 GeneratePointsToKeep2D
 GeneratePointsToKeep3D
-GenerateProxy
 GenerateSimplifiedPoints2D
 GenerateSimplifiedPoints3D
 GenericStack
@@ -2353,7 +2360,6 @@ GetBoneWeightsNonAllocImpl
 GetBones
 GetBonesPerVertex
 GetBonesPerVertexArray
-GetBufferSize
 GetBuildIndexByScenePath
 GetBuildIndexInternal
 GetBuildSettings()
@@ -2401,7 +2407,6 @@ GetColorFromScript
 GetColorGradientCopy
 GetColorImpl
 GetColorImpl_Injected
-GetColorSpace
 GetColors
 GetColumn
 GetCommandBuffers
@@ -2504,7 +2509,6 @@ GetFullscreenMode
 GetGPUProjectionMatrix
 GetGPUProjectionMatrix_Injected
 GetGUIDInternal
-GetGameObject
 GetGateFittedFieldOfView
 GetGateFittedLensShift
 GetGateFittedLensShift_Injected
@@ -2604,8 +2608,6 @@ GetIsDirtyInternal
 GetIsLoadedInternal
 GetIsOrientationEnabled
 GetIsPowerOfTwo
-GetIsReadable
-GetIsReady
 GetIsStaticDeprecated!
 GetJobData
 GetJobData_Injected
@@ -2617,7 +2619,6 @@ GetJobType
 GetJobType_Injected
 GetKernelThreadGroupSizes
 GetKey
-GetKeyCount
 GetKey_Injected
 GetKeyboardStatus
 GetKeyboardType
@@ -2627,7 +2628,6 @@ GetKeywordName
 GetKeywordName_Injected
 GetKeywordType
 GetKeywordType_Injected
-GetLODCount
 GetLODGroupManager()
 GetLODs
 GetLODs_Binding
@@ -2700,7 +2700,6 @@ GetMaxTextureSize
 GetMaximumDiskSpaceAvailable
 GetMembers
 GetMemoryManager()
-GetMeshMetric
 GetMessage
 GetMethod
 GetMethodSignature
@@ -2732,8 +2731,6 @@ GetNotificationReceivers_Injected
 GetNpotTexelSize
 GetNullDependencies
 GetNumBatches
-GetNumImages
-GetNumIndices
 GetNumScenesInBuildSettings
 GetNumVertices
 GetNumberOfCameras
@@ -2815,11 +2812,9 @@ GetPreserveFramebufferAlpha
 GetPreviousTime
 GetPreviousTime_Injected
 GetPrimaryVertexStreamSize
-GetPriority
 GetProcessorCount
 GetProcessorFrequencyMHz
 GetProcessorType
-GetProgress
 GetProjection
 GetProjection_Injected
 GetPropagateSetTime
@@ -2908,7 +2903,6 @@ GetSceneByName
 GetSceneByName_Injected
 GetSceneByPath
 GetSceneByPath_Injected
-GetSceneCount
 GetSceneManager()
 GetScenePathByBuildIndex
 GetScreenManager()
@@ -2928,7 +2922,6 @@ GetShaderPassEnabled
 GetShaderPassName
 GetShadowCasterBounds
 GetShadowCullingPlane
-GetShadowType
 GetSharedMaterial
 GetSharedMaterialArray
 GetSharedMaterials
@@ -2949,7 +2942,7 @@ GetSpeed_Injected
 GetSprite
 GetSpriteAtlasManager()
 GetSpriteAtlasTextureScale
-GetSpriteBounds
+GetSpriteBounds\n 
 GetSprites
 GetSpritesScripting
 GetSpritesWithNameScripting
@@ -3095,7 +3088,6 @@ GetVertexCount
 GetVertices
 GetVerticesInternal
 GetWasCanceled
-GetWebCamMode
 GetWeight
 GetWeight_Injected
 GetWidth
@@ -3108,12 +3100,10 @@ GetWorldScaleLossy
 GetWorldToLocalMatrix
 GetWorldViewMatrix
 GetWorldViewMatrix_Injected
-GetWrapModeU
 GetWritableImageData
-GizmoBindings
 GizmoSubset
-GlobalAABB
 GlobalMaximumShaderLOD
+Good
 GoogleAR.UnityNative
 GpuTimestamp
 GradientAlphaKey
@@ -3154,6 +3144,7 @@ Greater
 GreaterEqual
 Greek
 Green
+H!dr
 HDR10
 HDROutputSettings
 HOT_RELOAD_AVAILABLE
@@ -3165,13 +3156,13 @@ HSLSaturation
 HSVToRGB
 HalfToFloat
 Handheld
+Hard
 HardLight
 HardOnly
 HasARGV
 HasAlphaChannel
 HasBoneWeights
 HasChangedDeprecated
-HasChannel
 HasDynamicUniformArrayIndexingInFragmentShaders
 HasError
 HasError_Injected
@@ -3200,15 +3191,18 @@ Header!Runtime/2D/Sorting/SortingGroup.h
 Header$Runtime/2D/SpriteAtlas/SpriteAtlas.h
 Header*Runtime/Jobs/ScriptBindings/JobsBindings.h
 Header-Runtime/Export/HotReload/HotReload.bindings.h
-Header.Runtime/Scripting/ScriptingCoverage.bindings.h
-Header.Runtime/Scripting/ScriptingCoverage.bindings.h	
+Header.Runtime/Scripting/ScriptingCoverage.bindings.h\t
+Header.Runtime/Scripting/ScriptingCoverage.bindings.h\v
 Header;Runtime/Transform/ScriptBindings/TransformAccess.bindings.hTU}UnityEngine.Bindings.CodegenOptions, UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 Hebrew
+Help
 HelpURLAttribute
 HideAndDontSave
 HideFlags
 HideInHierarchy
 HideInInspector
+Hold
+Home
 HorizontalToVerticalFieldOfView
 HotReload::CreateEmptyAsset
 HotReload::DeserializeAsset
@@ -3219,6 +3213,8 @@ HotReload::Prepare
 HotReload::RemapInstanceIds
 HotReloadDeserializer
 Hungarian
+I-pF
+I>P1
 IAsyncResult
 ICloneable
 ICollection
@@ -3242,6 +3238,7 @@ IEquatable`1
 IExposedPropertyTable
 IFormatProvider
 IFormattable
+IJob
 IJobExtensions
 IJobFor
 IJobForExtensions
@@ -3301,12 +3298,12 @@ IndirectArguments
 IndirectOnly
 IndividualFaces
 Indonesian
+Init
 InitBuffer
 InitNoBake
 InitPostAllocation
 InitState
 Initialization
-Initialize
 InitializeInternal
 InitializeSortSettings
 InitializeSynchronizationContext
@@ -3587,15 +3584,12 @@ IsFloatFormat
 IsFlushToZeroEnabled
 IsFormatSupported
 IsFreeFunction
-IsFullscreen
 IsGenericListBlittable
 IsGyroAvailable
 IsHalfFormat
 IsIEEE754Format
 IsIdentity
 IsIdentity_Injected
-IsInitialized
-IsInputHidden
 IsInside
 IsIntegerFormat
 IsInvoking
@@ -3641,14 +3635,11 @@ IsRunning_Internal
 IsSIntFormat
 IsSNormFormat
 IsSRGBFormat
-IsSelfActives
 IsSignedFormat
 IsSplashScreenFinished
 IsStaticBatchableE
 IsStencilFormat
-IsSupported
 IsSwizzleFormat
-IsThreadSafe
 IsTrue
 IsUIntFormat
 IsUNormFormat
@@ -3668,7 +3659,6 @@ IsVersionCached_Injected
 IsVisible
 IsVisibleInScene
 IsVolatile
-IsWarmedUp
 IsWorldPlaying
 IsXRFormat
 IssuePluginCustomBlit
@@ -3681,8 +3671,10 @@ IssuePluginEventAndData
 IssuePluginEventAndDataInternal
 IssuePluginEventInternal
 Italian
+Item
 Itself
 JDelayed is obsolete; use a custom ScriptPlayable to implement this feature
+JPEG
 Japanese
 JetBrains.Annotations
 JobDataPtr
@@ -3871,6 +3863,8 @@ JoystickButton6
 JoystickButton7
 JoystickButton8
 JoystickButton9
+K,h9
+K>P1
 KGetDelay is obsolete; use a custom ScriptPlayable to implement this feature
 KSetDelay is obsolete; use a custom ScriptPlayable to implement this feature
 KeyCode
@@ -3903,11 +3897,12 @@ LODBias
 LODFadeMode
 LODGroup
 LRenderingCommandBuffer_Bindings::Internal_SetRayTracingAccelerationStructure
+LXU*
+LaU*
 Landscape
 LastIndexOf
 Latvian
 LayerToName
-LayerToString
 LazyLoadReference`1
 LeftAlt
 LeftApple
@@ -3930,6 +3925,7 @@ LerpAngle
 LerpUnclamped
 LerpUnclamped_Injected
 Lerp_Injected
+Less
 LessEqual
 LightBakingOutput
 LightData
@@ -3970,7 +3966,6 @@ LineStrip
 LineTextureMode
 LineUtility
 LinearColor
-LinearFogEnd
 LinearFogStart
 LinearToGammaSpace
 LinqTunnelAttribute
@@ -3982,7 +3977,6 @@ Lithuanian
 LoadAndVerifyAssembly
 LoadAsync
 LoadAsyncInternal
-LoadFromFile+
 LoadIdentity
 LoadLevel
 LoadLevelAdditive
@@ -4037,9 +4031,11 @@ LowMemoryCallback
 LowerResBlitTexture
 LowerResBlitTextureDontStripMe
 Lwarning bakedIndex has been removed please use bakingOutput.isBaked instead.
+M>P1
 MDataStreamType is no longer required and will be removed in a future release.
 MGetKeywordName is deprecated. Use ShaderKeyword.GetGlobalKeywordName instead.
 MGetKeywordType is deprecated. Use ShaderKeyword.GetGlobalKeywordType instead.
+MPEG
 MSAA2x
 MSAA4x
 MSAA8x
@@ -4077,12 +4073,11 @@ MaterialID
 MaterialPropertyBlock
 MaterialScripting::Lerp
 MaterialScripting::SetPass
+Math
 Mathf
 Mathf.Infinity
 MathfInternal
 Matrix4x4
-Matrix4x4f
-Matrix4x4f()
 MatrixScripting::Frustum
 MatrixScripting::Inverse
 MatrixScripting::LookAt
@@ -4113,10 +4108,10 @@ MemberInfo
 MemberwiseClone
 MemoryFrameMaintenance
 MemoryProfiler
-Memoryless
 MemorylessManager
 MergeScenes
 MergeScenes_Injected
+Mesh
 MeshContainer
 MeshScripting::ClearBlendShapesT
 MeshScripting::CombineMeshesT
@@ -4141,6 +4136,7 @@ MessageCallbackInternal
 MessageEvent
 MessageEventArgs
 MessageTypeSubscribers
+Meta
 Metal
 Method is not meant to be used at runtime. Please, replace this call with GameObject.AddComponent<T>()/GameObject.AddComponent(Type).
 MethodBase
@@ -4162,6 +4158,7 @@ Modules/IMGUI/GUIStyle.h
 Modules/UI/Canvas.h
 Modules/UI/CanvasManager.h
 Monitor
+Mono
 MonoAddComponentT
 MonoAddComponentWithTypeT
 MonoOrStereoscopicEye
@@ -4207,9 +4204,13 @@ MustExtensions
 MustNotBeApproximatelyEqual
 MustNotBeEqual
 MustNotBeNull
+N-DG
+N3DS
 NGetName() has been deprecated. Use ShaderKeyword.GetGlobalKeywordName instead.
 NRenderingCommandBuffer_Bindings::Internal_BuildRayTracingAccelerationStructure
-Name	GetHeightT
+NV12
+NaCl
+Name
 Name CrashReport_Bindings::GetReportsT
 Name CubemapArrayScripting::GetPixelsT
 Name CubemapArrayScripting::SetPixelsT
@@ -4260,7 +4261,7 @@ Name#RendererScripting::HasPropertyBlockT
 Name#RendererScripting::SetMaterialArrayT
 Name#RendererScripting::SetPropertyBlockT
 Name#SetMeshComponentFromArrayFromScriptT
-Name#ShaderWarmupScripting::WarmupShader
+Name#ShaderWarmupScripting::WarmupShader\f
 Name#TrailRendererScripting::AddPositionT
 Name$CustomRenderTextureScripting::Create
 Name$GetBlendShapeFrameVerticesFromScriptT
@@ -4420,7 +4421,7 @@ Name1GetTextureStreamingManager().GetDiscardUnusedMips=
 Name1GetTextureStreamingManager().GetLoadedMipmapLevelT
 Name1GetTextureStreamingManager().SetDiscardUnusedMips>
 Name1RayTracingAccelerationStructure_Bindings::GetSizeT
-Name1ShaderWarmupScripting::WarmupShaderFromCollection
+Name1ShaderWarmupScripting::WarmupShaderFromCollection\n
 Name2BillboardRenderer_Bindings::MakeMaterialPropertiesT
 Name2BillboardRenderer_Bindings::SetIndicesInternalListT
 Name2GetTextureStreamingManager().GetDesiredMipmapLevelT
@@ -4456,6 +4457,10 @@ NameARayTracingAccelerationStructure_Bindings::UpdateInstanceTransformT
 NamePhonePad
 NameToID
 NameToLayer
+Name\fIsSelfActives
+Name\fLoadFromFile+
+Name\rSetSelfActive
+Name\tGetHeightT
 NativeAllocationSites
 NativeAllocations
 NativeArrayDebugView`1
@@ -4497,6 +4502,7 @@ NativeThrowsAttribute
 NativeTypeAttribute
 NativeWarning
 NativeWritableSelfAttribute
+Near
 NeedsLighting
 NeedsReflectionProbes
 NegativeInfinity
@@ -4546,6 +4552,9 @@ NumberFormatInfo
 NumberPad
 NumbersAndPunctuation
 Numlock
+O!0s
+O-zG
+O>P1
 OGGVORBIS
 OSXDashboardPlayer
 OSXEditor
@@ -4592,6 +4601,7 @@ OneMinusSrcColor
 OnlyUsedForTesting1
 OnlyUsedForTesting2
 OpaqueSortMode
+Open
 OpenConsoleFile
 OpenGL2
 OpenGLCore
@@ -4630,6 +4640,10 @@ OverrideGeometry
 OverridePhysicsShape
 OverridePhysicsShapeCount
 Overscan
+P!As
+P!Qs
+P=4C
+PSP2
 PScriptableRenderPipeline_Bindings::ComputeSpotShadowMatricesAndCullingPrimitives
 PShaderHardwareTier was renamed to GraphicsTier (UnityUpgradable) -> GraphicsTier
 PVRTC_RGB2
@@ -4652,7 +4666,6 @@ Passthrough
 PatchBufferMinMaxRanges
 PathReferenceAttribute
 PauseCycleMode
-PauseEditor
 PauseLimitExceeded
 Pause_Injected
 Paused
@@ -4695,6 +4708,7 @@ PinGCObjectAndGetAddress
 PinSystemArrayAndGetAddress
 PinSystemObjectAndGetAddress
 PingPong
+Pipe
 Pivot
 PivotX
 PivotY
@@ -4752,8 +4766,10 @@ PollPlayerConnection
 PopMatrix
 PopulateReports
 Portuguese
+Pose
 PositionEnumerator
 PositionsCount
+Post
 PostImageEffects
 PostLateUpdate
 PostRegisteredAtlas
@@ -4808,10 +4824,12 @@ PushMatrix
 PushNotification
 PushNotification_Injected
 Pyramid
+Q!hs
 QScriptableRenderPipeline_Bindings::ComputePointShadowMatricesAndCullingPrimitives
 QThis function is obsolete and will always return -1. Use IsVersionCached instead.
 QUADS
 QUse RenderSettings.ambientIntensity instead (UnityUpgradable) -> ambientIntensity
+Quad
 Quads
 QualityMode
 QualitySettingsNames
@@ -4826,6 +4844,8 @@ QuaternionScripting::Slerp
 QuaternionScripting::ToEuler
 QueryIndices
 Question
+R/Dl
+R/tl
 R11G11B10
 R16G16B16A16_SFloat
 R16G16B16A16_SInt
@@ -4880,6 +4900,8 @@ R8G8_UNorm
 RASSettings
 RBlendWeights is obsolete. Use SkinWeights instead (UnityUpgradable) -> SkinWeights
 RFloat
+RG16
+RG32
 RGB111110Float
 RGB24
 RGB565
@@ -4939,6 +4961,8 @@ RG_BC5_UNorm
 RG_EAC_SNorm
 RG_EAC_UNorm
 RHalf
+RInt
+RSDS
 RTToTexture
 RUse SerializeField on the private variables that you want to be serialized instead
 R_BC4_SNorm
@@ -5287,7 +5311,6 @@ SInt8
 SNorm16
 SNorm8
 SOnBehaviourDelay is obsolete; use a custom ScriptPlayable to implement this feature
-SRGBReadWrite
 SafeLength
 SameSide
 SamsungTVPlayer
@@ -5296,7 +5319,6 @@ ScalableBufferManager
 ScaleX
 ScaleY
 ScaleZ
-SceneBindings
 SceneManager
 SceneManagerBindings
 SceneUtility
@@ -5322,7 +5344,6 @@ ScreenPointToRay_Injected
 ScreenScripting::GetCutouts
 ScreenScripting::GetResolutions
 ScreenSpaceShadows
-ScreenTimeout
 ScreenToViewportPoint
 ScreenToViewportPoint_Injected
 ScreenToWorldPoint
@@ -5364,7 +5385,6 @@ SelectionBaseAttribute
 Semicolon
 SendEvents
 SendFile
-SendMessage
 SendMessageOptions
 SendMessageUpwards
 SendMouseEvents
@@ -5481,7 +5501,6 @@ SetFloatImpl
 SetFloats
 SetFramebufferDepthMemorylessMode
 SetFromToRotation
-SetGLViewport
 SetGlobalAnisoLimits
 SetGlobalAnisotropicFilteringLimits
 SetGlobalBuffer
@@ -5629,7 +5648,6 @@ SetPosition_Injected
 SetPositions
 SetPostInfinity
 SetPreInfinity
-SetPriority
 SetProjectFolder
 SetProjectionMatrix
 SetProjectionMatrix_Injected
@@ -5681,7 +5699,6 @@ SetScriptInstance_Injected
 SetScriptingCallback
 SetScriptingCallback_Injected
 SetSeed
-SetSelfActive
 SetShaderKeywords
 SetShaderMode
 SetShaderModeScript
@@ -5829,6 +5846,7 @@ ShortMix
 ShouldSupportTiling
 Shutdown
 SideBySide
+Sign
 SignedAngle
 Simplify
 SingleOrDefault
@@ -5860,10 +5878,12 @@ SmoothDampAngle
 SmoothEdges
 SmoothStep
 SmoothTangents
+Snap
 SnapAxis
 SnapAxisFilter
 Snapping
 Social
+Soft
 SoftLight
 SolidColor
 SortGameObjectsForStaticbatching
@@ -5871,7 +5891,6 @@ SortingGroup
 SortingGroupsUpdate
 SortingLayer
 SortingOrder
-Space.Self
 SpaceAttribute
 Spanish
 Sparse
@@ -5883,6 +5902,7 @@ SpeedTree
 SphereMap
 SphericalHarmonicsL2
 SpookyHash
+Spot
 SpotBoxShape
 SpotLight
 SpotLightBoxShape
@@ -5962,7 +5982,6 @@ StopImmediate
 StopMultiEye
 StopMultiEye_Internal
 StopMultiEye_Internal_Injected
-StopPhotoMode
 StopPhotoModeAsync
 StopRecordingAsync
 StopVideoModeAsync
@@ -5979,7 +5998,6 @@ String16
 StringBuilder
 StringFormatMethodAttribute
 StringToHash128
-StringToLayer
 Structured
 SubMeshDescriptor
 SubMeshInstance
@@ -6031,6 +6049,7 @@ SupportsVertexAttributeFormatNative
 SupportsVibration
 SuppressFinalize
 Swedish
+Sync
 SynchronisationStage
 SynchronisationStageFlags
 SynchronizeInputs
@@ -6062,19 +6081,20 @@ SystemException
 SystemInfo.supportsGPUFence has been deprecated, use SystemInfo.supportsGraphicsFence instead (UnityUpgradable) ->  supportsGraphicsFence
 SystemLanguage
 SystemSetting
+TKey
 TRIANGLES
 TRIANGLE_STRIP
 TThis function is obsolete. Please use ClearCache.  (UnityUpgradable) -> ClearCache()
 TUnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1
 TUse Graphics.activeTier instead (UnityUpgradable) -> UnityEngine.Graphics.activeTier
-TUyUnityEngine.Bindings.TargetType, UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+TUyUnityEngine.Bindings.TargetType, UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\nTargetType
 TValue
 TagToID
 TakePhotoAsync
 TakeSnapshot
 TakeTempSnapshot
 TangoUpdate
-TargetType
+Temp
 TempJob
 TestClass
 TestPlanesAABB
@@ -6121,6 +6141,7 @@ TexturePlayableOutput
 TexturePlayableOutputBindings
 TextureToRT
 TextureWrapMode
+Thai
 ThenBy
 This property is only used for the current cache, use Cache.maximumAvailableStorageSpace to access the maximum available storage space per cache.
 ThreadAndSerializationSafeAttribute
@@ -6183,9 +6204,9 @@ Transpose
 Transpose_Injected
 TriggerEndOfFrameCallbacks
 TriggerInitialization
-TriggerUpdate
 Trilight
 Trilinear
+Trim
 TryCreatePlaneFromPolygon
 TryGetCameraToWorldMatrix
 TryGetComponent
@@ -6202,17 +6223,18 @@ Turkish
 TwoBones
 TwoEyes
 TwoSided
+Type
 TypeInferenceRuleAttribute
 TypeInferenceRules
 TypeOfFirstArgument
 TypeReferencedBySecondArgument
+U.Oa
 UI::RectTransform
 UIDetails
 UInt16
 UInt8
 UNITY_ASSERTIONS
 UNITY_COLORSPACE_GAMMA
-UNITY_EDITOR
 UNITY_ENABLE_DETAIL_NORMALMAP
 UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS
 UNITY_ENABLE_REFLECTION_BUFFERS
@@ -6438,7 +6460,6 @@ UnregisterPersistentListener
 UnregisterProperties
 UnregisterProperty
 UnregisterPropertyPartial
-UnsafeUtility
 UnsafeValueTypeAttribute
 UnscaledGameTime
 Unused
@@ -6512,6 +6533,7 @@ UsesLoadStoreActions
 UsesLuminPlatformLevelAttribute
 UsesLuminPrivilegeAttribute
 UsesReversedZBuffer
+V.ha
 VFXUpdate
 VRTextureUsage
 VRTextureUsage.None
@@ -6526,12 +6548,10 @@ ValidateRenderTextureDesc
 ValidateSize
 ValidateType
 ValueCollection
+Vec3
 Vector2
 Vector2Int
 Vector2f
-Vector3.one
-Vector3.up
-Vector3.zero
 Vector3Int
 Vector3f
 Vector4
@@ -6568,6 +6588,7 @@ VisibleLightFlags
 VisibleOutsideMask
 VisibleReflectionProbe
 VisibleToOtherModulesAttribute
+Void
 Vulkan
 WP8Player
 WSAPlayerARM
@@ -6598,7 +6619,6 @@ WarmupShader
 WarmupShaderFromCollection
 WarmupShaderFromCollection_Injected
 WarmupShader_Injected
-WarmupShaders
 WebCam::GetInstance()
 WebCamMode
 WebGLPlayer
@@ -6606,6 +6626,7 @@ WebSearch
 WeffectiveParentDelay is obsolete; use a custom ScriptPlayable to implement this feature
 WhenLODFading
 Where
+WiiU
 WindUpdate
 Windowed
 WindowsEditor
@@ -6627,31 +6648,191 @@ WriteIntToByteArray
 WriteStringToByteArray
 WriteStringToUnityLog
 WriteStringToUnityLogImpl
+X/tm
 XBOX360
+XLXU
 XREarlyUpdate
 XRFixedUpdate
 XRPostPresent
 XRUpdate
 XSystem.Byte, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 XSystem.Byte, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
+XZX}
 Xbox360
 XboxOne
 XboxOneD3D12
 YFuture versions of Unity are expected to always throw exceptions and not have this field.
 YIssuePluginEvent(eventID) is deprecated. Use IssuePluginEvent(callback, eventID) instead.
 YSystem.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+YUY2
+YZX\n+
 YZY(R
+YZYZ
 ZApplication.RegisterLogCallback is deprecated. Use Application.logMessageReceived instead.
 ZGPUFence has been deprecated. Use GraphicsFence instead (UnityUpgradable) -> GraphicsFence
 ZSystem.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
-ZSystem.UInt32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ZSystem.UInt32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\n
 ZUse UnityEngine.Networking.PlayerConnection.PlayerConnection.instance.isConnected instead.
-ZX		ZX
+ZXIn
 ZXInX
+ZXJ(
+ZXJT
 ZXJT*
+ZXK\r
 ZXKnX
+ZXLX
 ZXLXU
+ZXLX\r
+ZXMs
+ZXN\r+
+ZX\t\tZX
 ZXk( 
+ZXl(
+ZXsS
+ZX}6
+ZX}7
+ZX}T
+ZX}U
+ZX}V
+ZX}W
+ZX}Z
+ZY(6
+\fAddCachePath
+\fCacheWrapper
+\fCancelInvoke
+\fGetNumImages
+\fGetTransform
+\fGetWrapModeU
+\fIsFullscreen
+\fIsThreadSafe
+\fLXU
+\fLaU
+\fLinearFogEnd
+\fMarkModified
+\fPhotoCapture
+\fRotateAround
+\fSortingGroup
+\fUNITY_EDITOR
+\fVector3.zero
+\f\f\f\f\f\f\f\f\f\f\f\f
+\fm_WidthScale
+\nAnisoLimit
+\nClearCache
+\nColorRGBAf
+\nCreatePing
+\nFixupEdges
+\nGetIsReady
+\nGlobalAABB
+\nHasChannel
+\nInitialize
+\nIsInvoking
+\nIsWarmedUp
+\nLXU
+\nLaU
+\nLightShape
+\nMatrix4x4f
+\nMemoryless
+\nSpace.Self
+\nVector3.up
+\nYoO
+\nbuiltintex
+\nm_Data[10]
+\nm_Data[11]
+\nm_Data[12]
+\nm_Data[13]
+\nm_Data[14]
+\nm_Data[15]
+\nmethodName
+\nrGq
+\nraB
+\nzrZ
+\r+Iso
+\r::IsBatchmode
+\rAllowMultiple
+\rClearCommands
+\rClearVariants
+\rDebugDrawLine
+\rExtractPlanes
+\rForceLODLevel
+\rGenerateProxy
+\rGetBufferSize
+\rGetColorSpace
+\rGetGameObject
+\rGetIsReadable
+\rGetLightmapST
+\rGetMeshMetric
+\rGetNumIndices
+\rGetSceneCount
+\rGetShadowType
+\rGetWebCamMode
+\rGizmoBindings
+\rIsInitialized
+\rIsInputHidden
+\rLayerToString
+\rSRGBReadWrite
+\rSceneBindings
+\rScreenTimeout
+\rSetGLViewport
+\rSetLightmapST
+\rShadowQuality
+\rStopPhotoMode
+\rStringToLayer
+\rTriggerUpdate
+\rUnsafeUtility
+\rWarmupShaders
+\rfloatArgument
+\rm_HeightScale
+\tBoxOffset
+\tGetIsDone
+\tInherited
+\tIsVariant
+\tIsVisible
+\tLXU
+\tLaU
+\tLightType
+\tProbeType
+\tSetActive
+\tSetParent
+\tSetString
+\tZX(6
+\targuments
+\tm_Data[0]
+\tm_Data[1]
+\tm_Data[2]
+\tm_Data[3]
+\tm_Data[4]
+\tm_Data[5]
+\tm_Data[6]
+\tm_Data[7]
+\tm_Data[8]
+\tm_Data[9]
+\tm_Enabled
+\v::IsTestRun
+\vCloneObject
+\vColor.white
+\vColorFormat
+\vCopyTexture
+\vDestroyPing
+\vENABLE_MONO
+\vForceIntoRT
+\vGetKeyCount
+\vGetLODCount
+\vGetPriority
+\vGetProgress
+\vInstantiate
+\vIsSupported
+\vLXU
+\vLaU
+\vMarkDynamic
+\vPauseEditor
+\vSendMessage
+\vSetPriority
+\vUnity.Burst
+\vUnityEngine
+\vVector3.one
+\v\v\v\v\v\v\v\v\v\v\v\v
+\vintArgument
+\vm_Listeners
 ]Enum member Local has been deprecated. Use TransformZ instead (UnityUpgradable) -> TransformZ
 ]Method SetSourceInputPort has been deprecated. Use SetSourcePlayable(Playable, Port) instead.
 ]System.Attribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -6660,11 +6841,10 @@ _CorDllMain
 _Creating materials from shader source string is no longer supported. Use Shader assets instead.
 _Debug.logger is obsolete. Please use Debug.unityLogger instead (UnityUpgradable) -> unityLogger
 _See QualitySettings.names, QualitySettings.SetQualityLevel, and QualitySettings.GetQualityLevel
-_c_k"
 _mainDisplay
 _rule
 _unity_self
-`.rsrc
+aabb
 absmax
 accelStruct
 accelerationStructure
@@ -6728,6 +6908,11 @@ annotations
 applyBaseVertex
 applyDefaultsAndReset
 applyExpensiveChanges
+arg0
+arg1
+arg2
+arg3
+args
 args0
 args1
 args2
@@ -6752,6 +6937,7 @@ associatedSceneObject
 atPort
 atlasSize
 attachments
+attr
 attributes
 audioState
 ausedHeapSize has been deprecated since it is limited to 4GB. Please use usedHeapSizeLong instead.
@@ -6759,6 +6945,7 @@ authorizationKey
 autoUdpateAPI
 autoUpdateAPI
 autocorrection
+axis
 bUse SceneManager.sceneCount and SceneManager.GetSceneAt(int index) to loop the all scenes instead.
 backVector
 bakeType
@@ -6771,6 +6958,7 @@ batchVisibility
 batchVisibilityCount
 beginIndex
 behaviour
+bias
 binding
 binormal
 blend
@@ -6788,7 +6976,6 @@ bufferRangePatchData
 bufferType
 bufferWithArgs
 buildTags
-builtintex
 byteArray
 byteBuffer
 bytesUsed
@@ -6798,6 +6985,7 @@ cacheIndex
 cachePath
 cachePaths
 cachedBundle
+call
 callback
 camera
 cameraAspect
@@ -6821,6 +7009,7 @@ className
 clipPlane
 cloneDestroyedMessage
 cmdCount
+cmds
 coefficient
 collection
 colorBuffers
@@ -6893,6 +7082,7 @@ currentVelocity
 cursorMode
 curve
 customProps
+d/5I
 dThis property is only used for the current cache, use Cache.spaceFree to get unused bytes per cache.
 dataArraySize
 dataPointer
@@ -6917,8 +7107,10 @@ depthSA
 depthSlice
 depthStore
 depthTest
+desc
 description
 desiredJobCount
+dest
 destDepthSlice
 destIndex
 destStart
@@ -6929,12 +7121,14 @@ destinationInputPort
 destinationScene
 destinationStride
 directions
+disc
 discardColor
 discardDepth
 disconnectionEvent
 displayName
 displays
 disposing
+dist
 distanceIndex
 distances
 dominantcolor
@@ -6948,7 +7142,10 @@ dstIndex
 dstMip
 dstOffsetBytes
 dstPtr
+dstX
+dstY
 dstformat
+edge
 editorAsset
 editorToPlayerInstanceIdMap
 editorToPlayerInstanceIdMapKeys
@@ -7005,6 +7202,7 @@ fence
 fencePtr
 fenceType
 field
+file
 fileOutputFormat
 filename
 filter
@@ -7014,7 +7212,7 @@ firstIndex
 firstSubMesh
 firstWait
 fixedLength
-floatArgument
+flag
 focus
 folder
 folderRuntime
@@ -7027,6 +7225,7 @@ fovBias
 frameIndex
 frameInterval
 frameWeight
+from
 fromDirection
 fromThat
 frontTriangleCounterClockwise
@@ -8339,6 +8538,7 @@ indicesLength
 indicesStart
 indirectBuffer
 indirectColor
+info
 innerConeAngle
 innerException
 innerloopBatchCount
@@ -8354,7 +8554,6 @@ instance
 instanceCount
 instancesCount
 instantiateInWorldSpace
-intArgument
 intVal
 intValue
 internalReports
@@ -8383,6 +8582,10 @@ jBlendWeights.OneBone is obsolete. Use SkinWeights.OneBone instead (UnityUpgrada
 jThis property is deprecated, please use LoadLevelAsync to detect if a specific scene is currently loading.
 jUse Quaternion.AngleAxis instead. This function was deprecated because it uses radians instead of degrees.
 jUse Vector3.Angle instead. AngleBetween uses radians instead of degrees and was deprecated for this reason
+jXs\
+job0
+job1
+job2
 jobData2
 jobGroup
 jobHandle
@@ -8390,6 +8593,7 @@ jobIndex
 jobReflectionData
 jobType
 jobdata
+jobs
 kAutorotateToLandscapeLeft
 kAutorotateToLandscapeRight
 kAutorotateToPortrait
@@ -8444,6 +8648,7 @@ lUse Quaternion.eulerAngles instead. This function was deprecated because it use
 layerIndex
 layerName
 layerNames
+left
 leftBorder
 leftBorderColor
 leftVector
@@ -8459,10 +8664,12 @@ lightmapperPtr
 lights
 lightsOutput
 linenumber
+list
 listData
 listDataAtomicSafetyHandle
 listener
 loadExistingContents
+lods
 logOptions
 logString
 logType
@@ -8543,12 +8750,6 @@ m_CullingResults
 m_CullingSphere
 m_CurrentFrameWork
 m_CustomAxis
-m_Data[10]
-m_Data[11]
-m_Data[12]
-m_Data[13]
-m_Data[14]
-m_Data[15]
 m_DelagateCallback
 m_DelagateState
 m_DeltaTime
@@ -8590,8 +8791,8 @@ m_Handle
 m_Hash
 m_HdrData
 m_Height
-m_HeightScale
 m_HologramOpacity
+m_Id
 m_Importance
 m_InTangent
 m_InWeight
@@ -8612,7 +8813,6 @@ m_Light
 m_LightIndex
 m_LightType
 m_LightmapScaleOffset
-m_Listeners
 m_LoadAction
 m_LoadSceneMode
 m_LoadStoreTarget
@@ -8744,7 +8944,6 @@ m_Weight2
 m_Weight3
 m_WeightedMode
 m_Width
-m_WidthScale
 m_WorldToCameraMatrix
 m_WriteEnabled
 m_WriteMask
@@ -8810,7 +9009,6 @@ messageTypeSubscribers
 metadata
 metadataCount
 method
-methodName
 methods
 millisecondsTimeout
 minBrightness
@@ -8829,6 +9027,8 @@ mipmap
 mixedLightingMode
 mixedMode
 mmethodName
+mode
+mono
 mscoree.dll
 mscorlib
 msgReceived
@@ -8837,6 +9037,8 @@ multiline
 multiplier
 mustCompleteNextFrame
 myArray
+n TV
+name
 nameID
 nameSpace
 nameSpaceHasChanged
@@ -8855,13 +9057,23 @@ nearClip
 needSwap
 negativeInfinityVector
 newActiveScene
+newW
+newX
+newY
+newZ
 ngameObject.SetActiveRecursively() is obsolete. Use GameObject.SetActive(), which is now inherited by children.
+nia\n
+none
 normalizedCamViewport
 normalizedRectCoordinates
 notification
+null
 numFrames
 numSubSystems
 numberOfBytes
+o!Qs
+obj1
+obj2
 object
 objectArgument
 objectArgumentAssemblyTypeName
@@ -8918,8 +9130,11 @@ outer
 outputPort
 outputType
 owner
+p/DI
 pBlendWeights.FourBones is obsolete. Use SkinWeights.FourBones instead (UnityUpgradable) -> SkinWeights.FourBones
 pMethod GetSourceInputPort has been renamed to GetSourceOutputPort (UnityUpgradable) -> GetSourceOutputPort<U>(*)
+pQrZ
+p\v83
 packedSphere
 padding
 paperWhite
@@ -8927,6 +9142,7 @@ parameter
 parameterName
 parameters
 parentId
+pass
 passIndex
 passName
 passOperation
@@ -8944,6 +9160,7 @@ physicsMode
 physicsShape
 physicsShapeCount
 physicsShapes
+pipe
 pipelineAsset
 pixel
 pixelsCount
@@ -8964,11 +9181,21 @@ position
 positionsCount
 positiveInfinityVector
 power
+pr#m
+pr+j
+pr0\r
+pr2M
+pr4'
+prE(
+prKj
+prds
 predicate
 preferredRefreshRate
 preserveCounterValue
 previousActiveScene
 print
+prmC
+pro3
 probe
 probeEvent
 probeOcclusionLightIndex
@@ -8977,16 +9204,22 @@ profiler_is_area_enabled
 profiler_is_availableT
 profiler_is_enabledT
 profiler_set_area_enabled
+proj
 projMatrix
 projectFolder
 projectionFar
 projectionIsOblique
 projectionNear
+prop
 properties
 propertyIndex
 propertyName
 propertyPath
+ptr1
+ptr2
 ptrToDouble
+q GW
+q XW
 qApplication.webSecurityEnabled is no longer supported, since the Unity Web Player is no longer supported by Unity
 qGameObject.active is obsolete. Use GameObject.SetActive(), GameObject.activeSelf or GameObject.activeInHierarchy.
 qSecurity.PrefetchSocketPolicy is no longer supported, since the Unity Web Player is no longer supported by Unity.
@@ -9090,6 +9323,7 @@ reverse
 revertBackFaces
 revertValues
 rgbColor
+rgba
 right
 rightBorder
 rightBorderColor
@@ -9120,6 +9354,7 @@ s_RegisterLogCallbackDeprecated
 s_RequestLightsDelegate
 s_Right
 s_SupportedResolutions
+s_Up
 s_Zero
 samplerName
 samples
@@ -9880,14 +10115,42 @@ shape1
 shapeIdx
 shapeIndex
 shapeName
+shb0
+shb1
+shb2
+shb3
+shb4
+shb5
+shb6
+shb7
+shb8
+shg0
+shg1
+shg2
+shg3
+shg4
+shg5
+shg6
+shg7
+shg8
 showAlpha
 showHolograms
+shr0
+shr1
+shr2
+shr3
+shr4
+shr5
+shr6
+shr7
+shr8
 simplifiedPoints
 sizeX
 sizeY
 sizeZ
 size_of
 sizes
+skip
 sleepAtStartOfGraphicsJobs
 sleepBeforeTextureUpload
 slice
@@ -9896,6 +10159,7 @@ slopeBias
 smoothCorners
 smoothRegionWidthInPixels
 smoothTime
+snap
 sorter
 sourceAssembly
 sourceBindingType is no longer supported on PlayableBinding. Use outputBindingType instead to get the required output target type, and the appropriate binding create method (e.g. AnimationPlayableBinding.Create(name, key)) to create PlayableBindings
@@ -9927,6 +10191,9 @@ srcHeight
 srcIndex
 srcMip
 srcWidth
+srcX
+srcY
+srgb
 stackDepth
 stackTrace
 stackTraceType
@@ -9971,6 +10238,9 @@ systeminfo::GetProcessorType
 systeminfo::GetRuntimePlatform
 systeminfo::SupportsAudio
 systeminfo::SupportsVibration
+t/II
+tag1
+tag2
 tagId
 tagName
 tangent
@@ -9978,6 +10248,7 @@ targetFlags
 targetObj
 targetObject
 targetRenderer
+temp
 template
 textPlaceholder
 textureFormat
@@ -9993,12 +10264,14 @@ threadGroupsY
 threadGroupsZ
 threadName
 threaded
+tier
 tileX
 tileY
 timeEnd
 timeStart
 timeout
 timings
+tint
 toDirection
 tolerance
 tooltip
@@ -10017,12 +10290,17 @@ translation
 trianglesArrayLength
 trianglesLength
 trianglesStart
+true
 ttarget
+tvOS
 typeName
 typesToReset
+u!4v
+u/2n
 uBrightness and exposure parameters are no longer used for anything. Use ColorUsageAttribute(bool showAlpha, bool hdr)
 uThis property is only used for the current cache, use Cache.expirationDelay to access the expiration delay per cache.
 uncoveredSequencePoints
+unit
 unityEventBase
 unityStackTrace
 unsupportedIdentifier
@@ -10051,6 +10329,7 @@ userJobType
 userMessage
 uvIndex
 uvSetIndex
+v-hH
 v2.0.50727
 validate
 valueCount
@@ -10096,12 +10375,21 @@ worldToCamera
 worldToProjectionMatrix
 worldUp
 wrapperJobType
+x/NI
 xAngle
+xmax
+xmin
+y TX
+y<P1
 yAngle
 yEnum member GPUMemory has been deprecated. All compute buffers now follow the behavior previously defined by this member.
 yGetTotalAllocatedMemory has been deprecated since it is limited to 4GB. Please use GetTotalAllocatedMemoryLong() instead.
+ymax
+ymin
 zAngle
+zDZ"
 zFailOperation
+zFar
 zNear
 zeroMatrix
 zeroVector

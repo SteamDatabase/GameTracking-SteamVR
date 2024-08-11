@@ -1,10 +1,3 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- A_A^A\
- COTH
- COTt1
- H3E H3E
-!This program cannot be run in DOS mode.
-(A__^[
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AVQICNSHandler@@
@@ -28,6 +21,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -48,12 +42,12 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
@@ -101,18 +95,7 @@
 ?close@QBuffer@@UEAAXXZ
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?fromData@QImage@@SA?AV1@AEBVQByteArray@@PEBD@Z
-?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
@@ -132,29 +115,12 @@
 ?toUInt@QString@@QEBAIPEA_NH@Z
 ?warning@QMessageLogger@@QEBAXPEBDZZ
 ?writeRawData@QDataStream@@QEAAHPEBDH@Z
-@.data
-@.qtmetad(
-@.reloc
-@A^_^
-@SATAVAWH
-@SUWH
-@SVWAWH
-@UAVH
-@USVAUH
-@USWH
-@WAUAVH
-A]^[]
-A^A]_
-A_A^A]_[]
-AuthD
 CloseHandle
 CreateEventW
-D$(E3
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
 FU?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
-GenuA
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
@@ -166,20 +132,12 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 K?height@QImage@@QEBAHXZ
 KERNEL32.dll
-L$ E3
-L$(E3
-L$0HcB
-L$HE3
-L$`;A
 L?isNull@QImage@@QEBA_NXZ
 LeaveCriticalSection
-M H1E
 M?loopCount@QImageIOHandler@@UEBAHXZ
-MetaData
-MimeTypes
 O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+PNG\r\n
 QICNSHandler::canRead() called on a sequential device
 QICNSHandler::canRead() called without a readable device
 QICNSHandler::read(): Failed, compressed format "%s" is not supported by your Qt library or this file is corrupt. OSType: "%s"
@@ -189,42 +147,43 @@ QICNSHandler::scanDevice(): Failed, bad header at pos %s. OSType "%s", length %u
 QICNSHandler::scanDevice(): Failed, file is incomplete.
 QICNSHandler::scanDevice(): Warning! Table of contents contains a bad entry! Stop at device pos: %s bytes. This file may be corrupted.
 QICNSPlugin
-QTMETADATA  qbjs
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
 R?save@QImage@@QEBA_NPEAVQIODevice@@PEBDH@Z
 R?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
 R?scanLine@QImage@@QEAAPEAEH@Z
-Reason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
 ResetEvent
-RichY
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S?setColorTable@QImage@@QEAAXV?$QVector@I@@@Z
-Scan of the icon variant container ("%s") failed at pos %s.
+Scan of the icon variant container ("%s") failed at pos %s.\nReason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
 T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 U?setPixel@QImage@@QEAAXHHI@Z
-UAVAWH
-USVWATAVAWH
-USWAUAVAWH
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-VWAVH
-W(D9w(t)E3
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Z?width@QImage@@QEBAHXZ
-\$ D9c
-\$ UH
-\$ptcH
+\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
+_\f?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
 __C_specific_handler
 __std_exception_copy
 __std_exception_destroy
@@ -241,44 +200,24 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-`A_A^A\_^[]
-`A_A^]
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
-ffffff
-hA_A^A\[
-image/x-icns
-l$HH;
-l$HMc
-l$`L;~(t
+free
+icns
 malloc
 memcmp
 memcpy
 memset
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 parseIconEntryInfo(): Failed, 32bit icon from an unknown group. OSType: "%s"
 parseIconEntryInfo(): Failed, OSType doesn't match: "%s"
 qicns.dll
 qt_plugin_instance
 qt_plugin_query_metadata
 readMask(): Failed, unusual bit depth: %u OSType: "%s"
-snciH
-t$@H;
-t$@Ic
-tulct
-u6HcC
-u:HcW
+sqrt
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 unknown
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-|$ ATAVAWH
-|$ AVH
-~!LcC

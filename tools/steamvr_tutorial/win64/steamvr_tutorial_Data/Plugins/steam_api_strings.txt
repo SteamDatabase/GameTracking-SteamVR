@@ -1,9 +1,3 @@
-						
-											
-												
-																	
-																																			
-																																															
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
@@ -12,47 +6,27 @@
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- Data: <%s> %s
- H3D$0H
- HcD$ 
- HcL$0Hk
+ Data: <%s> %s\n
  Type Descriptor'
  delete
  delete[]
- new[]
+ new
  throw(
  volatile
-!HcD$ H
-!This program cannot be run in DOS mode.
-"HcD$
 #File Error#(%d) : 
-$Hc@<H
-$HcD$
-$HcL$
-%.2X 
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%Id bytes in %Id %hs Blocks.
-%hs located at 0x%p is %Iu bytes long.
-%hs(%d) : 
-%s%c%s
+%Id bytes in %Id %hs Blocks.\n
+%hs located at 0x%p is %Iu bytes long.\n
+%hs located at 0x%p is %Iu bytes long.\n\nMemory allocated at %hs(%d).\n
+%llu
 %s(%d) : %s
-%s\%s
 ( 8PX
 ('8PW
-(HcD$0Hk
-(kD$p
 (null)
-*HcD$`H
-*HcD$tHk
-*HcD$xHk
-*HcD$|Hk
-+HcD$@Hk
-+HcD$DHk
 , Line 
 ,<ellipsis>
 -64OS
--s'Hc
 .?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
 .?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
 .?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
@@ -133,99 +107,38 @@ $HcL$
 .?AVregex_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.HcD$@Hk
-.HcD$DHk
-.pdata
-.text
-/D$(v
-/D$Pv
+00M;
 0123456789ABCDEF
-0HcD$0HcL$0H
-0HcD$@Hk
-0HcD$DHk
+02M;
+0RM;
+0bM;
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1HcD$@Hk
-1HcD$DHk
-2HcD$@Hk
-2HcD$DHk
-5Auth
-5Genu
-6HcD$@H
+2TM;
+40M;
+4TM;
 700PP
 700WP
-8HcD$HH
-9D$ s
-9D$ s(
-9D$ u
-9D$ uHH
-9D$ w(
-9D$ w@
-9D$ |bH
-9D$ }
-9D$ } HcD$ Hk
-9D$ ~
-9D$(~
-9D$4}
-9D$<t
-9D$<u2HcD$<H
-9D$@t
-9D$@u
-9D$@}
-9D$@~
-9D$Dr
-9D$Du
-9D$Dw
-9D$D|EH
-9D$D}
-9D$Hr
-9D$H~
-9D$L}[H
-9D$Ps
-9D$Pw
-9D$P} HcD$PHk
-9D$X}
-9D$X}[H
-9D$X~
-9D$`s
-9D$`}
-9D$d}
-9D$d~
-9D$d~FD
-9D$h|0H
-:cD$ @
-:wDHc
-:wEHc
-;D$ u&H
-;D$(u5
-;D$(uA
-;D$4t"
-;D$4t-
-;D$Pu
-;D$lu
+80M;
+83M;
+8aM;
+8dM;
+8eM;
+8hL;
+8hM;
 <ellipsis>
 <file unknown>
 <program name unknown>
 <unknown>
-@ H9D$PvFH
-@.data
-@.idata
-@.reloc
-@.rsrc
-@0Hc@
-A#D$8
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ADVAPI32.dll
-AH9D$P
 April
-AreFileApisANSI
 Assertion failed!
 Assertion failed: 
 August
-BHcD$0H
-Bad memory block found at 0x%p.
+Bad memory block found at 0x%p.\n
+Bad memory block found at 0x%p.\n\nMemory allocated at %hs(%d).\n
 Breakpad_SteamMiniDumpInit
 Breakpad_SteamSetAppID
 Breakpad_SteamSetSteamID
@@ -281,9 +194,6 @@ CLobbyMatchList_t_RemoveCallResult
 CLobbyMatchList_t_SetCallResult
 CNumberOfCurrentPlayers_t_RemoveCallResult
 CNumberOfCurrentPlayers_t_SetCallResult
-CRT detected that the application wrote to a heap buffer that was freed.
-CRT detected that the application wrote to memory after end of heap buffer.
-CRT detected that the application wrote to memory before start of heap buffer.
 CRemoteStorageDeletePublishedFileResult_t_RemoveCallResult
 CRemoteStorageDeletePublishedFileResult_t_SetCallResult
 CRemoteStorageDownloadUGCResult_t_RemoveCallResult
@@ -332,547 +242,111 @@ CUserStatsReceived_t_RemoveCallResult
 CUserStatsReceived_t_RemoveCallback
 CUserStatsReceived_t_SetCallResult
 CUserStatsReceived_t_SetCallback
-Calling BreakpadMiniDumpSystemInit
+Calling BreakpadMiniDumpSystemInit\n
 Client
-Client hook allocation failure at file %hs line %d.
-Client hook allocation failure.
-Client hook free failure.
-Client hook re-allocation failure at file %hs line %d.
-Client hook re-allocation failure.
-CloseHandle
+Client hook allocation failure at file %hs line %d.\n
+Client hook allocation failure.\n
+Client hook free failure.\n
+Client hook re-allocation failure at file %hs line %d.\n
+Client hook re-allocation failure.\n
 CloseThreadpoolTimer
 CloseThreadpoolWait
 CompareStringEx
-CompareStringW
 CorExitProcess
 CreateEventExW
-CreateEventW
 CreateFile2
-CreateFileW
 CreateInterface
-CreateMutexA
 CreateSemaphoreExW
-CreateSemaphoreW
 CreateSymbolicLinkW
-CreateThread
 CreateThreadpoolTimer
 CreateThreadpoolWait
-D$ %?
-D$ 9D$X~
-D$ E3
-D$ H9D$@u
-D$ H9D$Xs
-D$ HcD$ H
-D$ HcD$ Hk
-D$ Hk
-D$ T=
-D$$9D$ 
-D$$9D$ sAH
-D$$9D$(
-D$$9D$(t$H
-D$$9D$Pt1
-D$$HcD$ Hk
-D$$HcD$$Hk
-D$(9D$0t
-D$(E3
-D$(H9
-D$(H9D$ r
-D$(H9D$ s
-D$(H9D$ u	
-D$(H9D$0s	
-D$(Hc
-D$(Hc@
-D$(HcD$ H
-D$(Hk
-D$(kD$h
-D$0%@
-D$09D$ 
-D$0H9
-D$0H9D$ 
-D$0H9D$(t"
-D$0H9D$8r
-D$0H9D$8s*H
-D$0H9D$8u
-D$0H9D$hr
-D$0H9D$pr
-D$0Hc
-D$0Hc@
-D$0Hc@<H
-D$0HcD$ H
-D$0HcD$0H
-D$0HcD$0H=
-D$0HcD$0Hk
-D$0HcD$@H
-D$0HcD$lH
-D$0Hk
-D$49D$
-D$49D$0
-D$49D$8t
-D$4HcD$ 
-D$8%@
-D$8H9D$0s"H
-D$8H9D$0t>H
-D$8Hc
-D$8Hc@
-D$8HcD$ H
-D$8HcD$83
-D$<9D$8
-D$<HcD$ H
-D$<HcL$0H
-D$@%0
-D$@9D$Hu;
-D$@E3
-D$@H9D$Hr1
-D$@H9D$Ht(H
-D$@Hc@
-D$@HcD$0H
-D$@HcD$`H
-D$@Hk
-D$@kL$D
-D$@pH
-D$AxH
-D$BxH
-D$CpH
-D$D%0
-D$D9D$,u1H
-D$D9D$0
-D$D]H
-D$E]H
-D$H%0
-D$H9D$ s"
-D$H9D$(
-D$H9D$@r 
-D$H9D$@t
-D$H9D$@u,3
-D$H9D$D
-D$HE3
-D$HH%
-D$HH9D$ tSH
-D$HH9D$8s
-D$HH9D$@
-D$HH9D$@s-
-D$HH9D$@t&H
-D$HH9D$@u0H
-D$HH9D$hw
-D$HHcD$<H
-D$HHcD$XH
-D$L9D$P}eHcD$PH
-D$P9D$ }pHcD$ H
-D$P9D$@t
-D$PH%
-D$PH9
-D$PH9D$ s&H
-D$PH9D$8t9H
-D$PHc@
-D$PHcD$<H
-D$PHcD$PE3
-D$PHcD$PH
-D$T9D$@
-D$T9D$@r 
-D$T9D$@u,3
-D$XH9
-D$XH9D$Ht
-D$XH9D$Ht:H
-D$XHc
-D$XHc@
-D$`9D$0}UH
-D$`H9D$0r
-D$`H9D$0u!
-D$`H9D$@r6H
-D$`H9D$@u'
-D$`H9D$@uL
-D$`Hc@
-D$d9D$`
-D$h9D$
-D$h9D$t
-D$h9D$t~
-D$hH9
-D$hHc
-D$hHcD$4H
-D$p9D$@|
-D$p9D$D
-D$p9D$D~
-D$p9D$t~
-D$p9D$x~
-D$pH9D$@r<H
-D$pH9D$@uR
-D$pHc
-D$pHc@
-D$pHcD$<H
-D$pHcD$tHk
-D$pHcD$xHk
-D$t9D$@
-D$t9D$@~
-D$t9D$x~
-D$t9D$|~
-D$tHcD$xHk
-D$tHcD$|Hk
-D$xH9D$h
-D$xH9D$hr
+D0M;
 DAMAGED
-Damage before 0x%p which was allocated by aligned routine
+Damage before 0x%p which was allocated by aligned routine\n
 December
-DecodePointer
-DeleteCriticalSection
-Detected memory leaks!
-Dumping objects ->
-Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
-EncodePointer
-EnterCriticalSection
+Detected memory leaks!\n
+Dumping objects ->\n
 EnumSystemLocalesEx
-EnumSystemLocalesW
-Error: memory allocation: bad memory block type.
+Error: memory allocation: bad memory block type.\n
+Error: memory allocation: bad memory block type.\n\nMemory allocated at %hs(%d).\n
 Error: possible heap corruption at or near 0x%p
-ExitProcess
 F:\full\Steam\main\src\steam_api\win64\Debug\steam_api64.pdb
-FatalAppExitA
 February
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
-FlushFileBuffers
 FlushProcessWriteBuffers
-Forcing breakpad minidump interfaces to load
-FreeEnvironmentStringsW
-FreeLibrary
+Forcing breakpad minidump interfaces to load\n
+Free
 FreeLibraryWhenCallbackReturns
 Friday
-GetACP
 GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetConsoleCP
-GetConsoleMode
 GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
 GetCurrentProcessorNumber
-GetCurrentThread
-GetCurrentThreadId
 GetDateFormatEx
-GetDateFormatW
-GetEnvironmentStringsW
-GetEnvironmentVariableA
-GetExitCodeProcess
 GetFileInformationByHandleExW
-GetFileType
 GetHSteamPipe
 GetHSteamUser
 GetLastActivePopup
-GetLastError
 GetLocaleInfoEx
-GetLocaleInfoW
 GetLogicalProcessorInformation
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleA
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetProcAddress
-GetProcessHeap
 GetProcessWindowStation
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemInfo
-GetSystemTimeAsFileTime
-GetTickCount
 GetTickCount64
 GetTimeFormatEx
-GetTimeFormatW
-GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-H#D$p
-H+D$8L
-H+D$@H
-H+D$P
-H+D$PH
-H+D$X
-H+D$XH
-H+D$`
-H+D$pH
-H9A w)3
-H9D$ t
-H9D$ t!H
-H9D$ t#H
-H9D$ tbH
-H9D$ u
-H9D$(s
-H9D$(t
-H9D$(t!H
-H9D$(t#H
-H9D$(u!H
-H9D$0
-H9D$0rY
-H9D$0s}H
-H9D$0t
-H9D$0w
-H9D$0w<H
-H9D$8
-H9D$8r
-H9D$8r H
-H9D$8s
-H9D$8s&H
-H9D$8t[H
-H9D$8u
-H9D$@
-H9D$@s
-H9D$@s,H
-H9D$@t
-H9D$@u
-H9D$@vR
-H9D$@w
-H9D$Hs
-H9D$Hu)H
-H9D$P
-H9D$PseH
-H9D$PsjH
-H9D$PtlH
-H9D$Pv:H
-H9D$P}
-H9D$Xrd
-H9D$XsL
-H9D$Xu
-H9D$`t
-H9D$hu
-H9D$hu8H
-H9D$p
-H9D$psaH
-H9D$xv
-H9H t
-H9H(t
-H9H0t
-H9H8t
-H9H@t
-H9HHt
-H9HXt
-H9H`t
-H9Hht
-H9Hpt
-H9Hxt
-H;D$ s
-H;D$ v	
-H;D$8
-H;D$8s
-H;D$8w
-H;D$Hs
-H;D$Ht
-H;D$Ps
-H;D$Pv
-H;D$Pw
-H;D$`r
-H;D$`u
-H;D$ht
-H;D$pv
-H;D$x
-H;D$xsg
-H;D$xsi
-HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.
-HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.
-HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.
+H0M;
+H4M;
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n\nMemory allocated at %hs(%d).\n
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n\nMemory allocated at %hs(%d).\n
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n\nMemory allocated at %hs(%d).\n
 HH:mm:ss
-HHcD$PH
+HKCR
+HKCU
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER
 HKEY_LOCAL_MACHINE
-HcD$ 
-HcD$ H
-HcD$ H=
-HcD$ Hk
-HcD$$H
-HcD$$Hk
-HcD$(H
-HcD$,H
-HcD$0
-HcD$0H
-HcD$0HcL$0H
-HcD$0HcL$4H
-HcD$0Hk
-HcD$4
-HcD$4H
-HcD$4L
-HcD$8H
-HcD$<H
-HcD$@A
-HcD$@H
-HcD$@Hk
-HcD$D
-HcD$DH
-HcD$DHk
-HcD$HH
-HcD$HHcL$ H
-HcD$LH
-HcD$PH
-HcD$TH
-HcD$TH9
-HcD$X
-HcD$XH
-HcD$`H
-HcD$lH
-HcD$tHk
-HcD$xH
-HcD$xHk
-HcD$|Hk
-HcE H
-HcI H
-HcL$ 
-HcL$ H
-HcL$ HcD
-HcL$ Hk
-HcL$ L
-HcL$$Hk
-HcL$0H
-HcL$0L
-HcL$4H
-HcL$4H;
-HcL$8H
-HcL$PH
-HcL$Pf
-HcL$XH
-HcL$hH
-HcL$xH
-HcT$8Hk
-HcT$@LcD$@H
-HcT$DH
-HeapAlloc
-HeapFree
-HeapQueryInformation
-HeapReAlloc
-HeapSize
-HeapValidate
-HkD$@
-HkD$@(H
-HkD$@0H
-I(H9H(u
-I0HcI
-IHcD$0H
+HKLM
+HMXB
+HhL;
+HiM;
 Ignore
-InitializeCriticalSectionAndSpinCount
+Init
 InitializeCriticalSectionEx
 InstallPath
-Invalid allocation size: %Iu bytes.
-IsDebuggerPresent
-IsProcessorFeaturePresent
-IsValidCodePage
-IsValidLocale
+Invalid allocation size: %Iu bytes.\n
+Invalid allocation size: %Iu bytes.\n\nMemory allocated at %hs(%d).\n
 IsValidLocaleName
-JHcD$pL
 January
-KERNEL32.dll
-KHcD$0Hk
-L$ 9H
-L$ E3
-L$ H#
-L$ H+
-L$ H3
-L$ H9
-L$ Hk
-L$ WH
-L$ fD
-L$(H#
-L$(H+
-L$(H3
-L$(H9
-L$(H9A uaH
-L$(H;
-L$(HcI
-L$0;A
-L$0E3
-L$0H#
-L$0H+
-L$0H+A
-L$0H3
-L$0H9
-L$0H9A
-L$0Hc	H
-L$0Hk
-L$8E3
-L$8H+
-L$8H3
-L$8H9
-L$8H9H
-L$8H;
-L$8HcD
-L$<E3
-L$@E3
-L$@H+
-L$@H3
-L$@H9
-L$@Hc	H
-L$@HcI
-L$HE3
-L$HH+
-L$HH3
-L$HH9
-L$HH9H
-L$HH9H s
-L$HH;
-L$PE3
-L$PH#
-L$PH+
-L$PH9
-L$PH;A
-L$PHcI
-L$XE3
-L$XH#
-L$XH+
-L$XH3
-L$XH9H 
-L$XHcI
-L$`E3
-L$`H+
-L$`H9H
-L$`HcI
-L$hH+
-L$hH3
-L$hH9
-L$hHcI
-L$pH+
-L$pH3
-L$pH;
-L$pHcI
-L$x9H
-L$xE3
-L$xH+
-L$xH9H
+July
+June
+L0M;
 LCMapStringEx
-LCMapStringW
-Largest number used: %Id bytes.
-LeaveCriticalSection
-LoadLibraryExA
-LoadLibraryExW
-Looking up breakpad interfaces from steamclient
+Largest number used: %Id bytes.\n
+LoL;
+Looking up breakpad interfaces from steamclient\n
 MM/dd/yy
 March
-Memory allocated at %hs(%d).
 MessageBoxW
 Monday
-MultiByteToWideChar
+NKeb
+NULL
 Normal
 November
-Object dump complete.
+Object dump complete.\n
 October
-OpenProcess
-OutputDebugStringA
-OutputDebugStringW
-QueryPerformanceCounter
-RaiseException
-ReadConsoleW
-ReadFile
-RegCloseKey
-RegOpenKeyExA
-RegQueryValueExA
-ReleaseMutex
-Rich&z
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlPcToFileHeader
-RtlUnwindEx
-RtlVirtualUnwind
-SHELL32.dll
+P0C;
+P0M;
+P2M;
+PbM;
+PcM;
+PhM;
+RSDS
+S;uD
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION007
 STEAMHTMLSURFACE_INTERFACE_VERSION_003
@@ -889,21 +363,12 @@ STEAMVIDEO_INTERFACE_V001
 Saturday
 Second Chance Assertion Failed: File 
 September
-SetConsoleCtrlHandler
 SetDefaultDllDirectories
-SetEndOfFile
-SetEnvironmentVariableA
 SetFileInformationByHandleW
-SetFilePointerEx
-SetLastError
-SetStdHandle
 SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
-SetUnhandledExceptionFilter
-Setting breakpad minidump AppID = %u
-ShellExecuteA
-Sleep
+Setting breakpad minidump AppID = %u\n
 Software\Valve\Steam
 Software\Valve\Steam\ActiveProcess
 Standard C++ Libraries Invalid Argument
@@ -1621,51 +1086,37 @@ Steam_GetAPICallResult
 Steam_GetHSteamUserCurrent
 Steam_RegisterInterfaceFuncs
 Steam_RunCallbacks
-Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]
-Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld
+Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
+Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
 Sunday
 SystemFunction036
-T$ H9L
-T$@H+
-T$HH+
-T$PH9L
-T$`H+
-T$hH+
-T$xH+
-TerminateProcess
+T0M;
 The Block at 0x%p was allocated by aligned routines, use _aligned_free()
 The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
 The block at 0x%p was not allocated by _aligned routines, use free()
 The block at 0x%p was not allocated by _aligned routines, use realloc()
 Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
-Total allocations: %Id bytes.
+Total allocations: %Id bytes.\n
 Tuesday
 UNICODE
 UNKNOWN
 UTF-16LE
 UTF-8
-UUUUUUU
-UnhandledExceptionFilter
 Unknown exception
 UpdateDLLWrapper.dll
-Using breakpad crash handler
-WHcD$ H
-WaitForSingleObject
-WaitForSingleObjectEx
+Using breakpad crash handler\n
 WaitForThreadpoolTimerCallbacks
 Wednesday
-WideCharToMultiByte
-WriteConsoleW
-WriteFile
-[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
-[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s
-[S_API FAIL] SteamAPI_Init() failed; no appID found.
-[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.
-[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.
+X0M;
+X3M;
+XaM;
+XhL;
+XhM;
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
+[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
+[S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.\n
 [thunk]:
 \steam.exe
 _CrtDbgReport: String too long or IO Error
@@ -1687,17 +1138,15 @@ __stdcall
 __thiscall
 __unaligned
 __vectorcall
-__w64 
 _cabs
-_heapchk fails with _HEAPBADBEGIN.
-_heapchk fails with _HEAPBADEND.
-_heapchk fails with _HEAPBADNODE.
-_heapchk fails with _HEAPBADPTR.
-_heapchk fails with unknown return value!
+_heapchk fails with _HEAPBADBEGIN.\n
+_heapchk fails with _HEAPBADEND.\n
+_heapchk fails with _HEAPBADNODE.\n
+_heapchk fails with _HEAPBADPTR.\n
+_heapchk fails with unknown return value!\n
 _hypot
 _logb
 _nextafter
-`.rdata
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -1710,7 +1159,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static destructor helper'
 `local static guard'
@@ -1746,6 +1194,7 @@ _nextafter
 `vtordispex{
 `vtordisp{
 abcdefghijklmnopqrstuvwxyz
+acos
 address family not supported
 address in use
 address not available
@@ -1758,6 +1207,8 @@ already connected
 already_connected
 argument list too long
 argument out of domain
+asin
+atan
 atan2
 bad address
 bad allocation
@@ -1768,12 +1219,15 @@ bad message
 bad_address
 bad_file_descriptor
 blank
+bool
 broken pipe
+ceil
+char
 char 
 class 
 cli::array<
 cli::pin_ptr<
-client block at 0x%p, subtype %x, %Iu bytes long.
+client block at 0x%p, subtype %x, %Iu bytes long.\n
 cntrl
 coclass 
 cointerface 
@@ -1787,8 +1241,10 @@ connection_refused
 connection_reset
 const
 const 
+cosh
 cross device link
-crt block at 0x%p, subtype %x, %Iu bytes long.
+crt block at 0x%p, subtype %x, %Iu bytes long.\n
+d0M;
 dddd, MMMM dd, yyyy
 destination address required
 destination_address_required
@@ -1828,14 +1284,14 @@ f:\dd\vctools\crt\crtw32\stdio\input.c
 f:\dd\vctools\crt\crtw32\stdio\output.c
 f:\dd\vctools\crt\crtw32\stdio\setvbuf.c
 f:\dd\vctools\crt\crtw32\stdio\stream.c
-fffff
-fffffff
+fabs
 file exists
 file too large
 filename too long
 filename_too_long
 float
 floor
+fmod
 frexp
 function not supported
 g_pSteamClientGameServer
@@ -1843,11 +1299,14 @@ gameoverlayrenderer64.dll
 generic
 generic-type-
 graph
+h0M;
+hiM;
 host unreachable
 host_unreachable
 identifier removed
 illegal byte sequence
 inappropriate io control operation
+int 
 interrupted
 invalid argument
 invalid seek
@@ -1857,16 +1316,18 @@ io error
 iostream
 iostream stream error
 is a directory
-jHcD$H
-kD$0 
+kU'9
+l0M;
 ldexp
 list<T> too long
 log10
+long
 long 
 lower
 map/set<T> too long
 message size
 message_size
+modf
 network down
 network reset
 network unreachable
@@ -1888,7 +1349,7 @@ no such file or directory
 no such process
 no_buffer_space
 no_protocol_option
-normal block at 0x%p, %Iu bytes long.
+normal block at 0x%p, %Iu bytes long.\n
 not a directory
 not a socket
 not a stream
@@ -1897,10 +1358,6 @@ not enough memory
 not supported
 not_a_socket
 not_connected
-oD$ f
-oD$0f
-oD$@f
-oD$Pf
 operation canceled
 operation in progress
 operation not permitted
@@ -1911,8 +1368,13 @@ operation_not_supported
 operation_would_block
 operator
 owner dead
+p0M;
+p4M;
+pbM;
+pcM;
 permission denied
 permission_denied
+phM;
 print
 private: 
 protected: 
@@ -1921,9 +1383,6 @@ protocol not supported
 protocol_not_supported
 public: 
 punct
-rOHcD$@H
-rOHcD$DH
-rXHcD$HH
 read only file system
 regex_error
 regex_error(error_backref): The expression contained an invalid back reference.
@@ -1945,13 +1404,12 @@ resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
-s!HcD$P
-s(HcD$ H
-s0HcD$0HcL$0H
 short
 short 
 signed 
+sinh
 space
+sqrt
 state not recoverable
 static 
 std::nullptr_t
@@ -1968,210 +1426,38 @@ stream timeout
 string too long
 struct 
 system
-t"HcD$ H
-t$HcD$ H
-t$PH;D$Xs
-t$hH;D$ps
-t&HcD$0H
-t&HcD$@H
-t&HcD$DH
-t)HcD$HH
-t,HcD$@A
-t-HcD$
-t.HcD$ H
-t.HcD$PH
-t3HcD$@H
-t5HcD$0Hk
-t;HcD$ Hk
-tD$@f
-tD$Pf
-tKHcD$ Hk
-tKHcD$0Hk
-tQHcD$0Hk
-tbHcD$ H
-tbHcD$ Hk
-teHcD$0Hk
+t0M;
+tanh
 template-parameter-
 text file busy
-tgHcD$0Hk
 timed out
 timed_out
-tjHcD$PE3
 too many files open
 too many files open in system
 too many links
 too many symbolic link levels
 too_many_files_open
-u"HcD$0Hk
-u$HcD$ Hk
-u&HcD$ H
-u9HcD$0Hk
-u<HcD$ H
-uBHcD$DHk
-uBHcD$tHk
-uBHcD$xHk
-uCHcD$@Hk
-uCHcD$xHk
-uCHcD$|Hk
-uD$ f
-uD$0f
-uOHcD$@H
-uUHcD$$Hk
-ufHcD$0Hk
 union 
 unknown error
 unsigned 
-upHcD$@H
 upper
-uvHcD$DH
 value too large
 virtual 
+void
 void 
 volatile
 volatile 
-wOHcD$0H
 wchar_t
-wfHcD$ H
 win64\audio.dll
 wrong protocol type
 wrong_protocol_type
+x0M;
+x2M;
+xaM;
 xdigit
 xppwpp
 xpxxxx
-yHcD$PH
 z?aUY
 zc%C1
-{%ld} 
 {flat}
 {for 
-|$ $w	
-|$ $}THcD$ Hk
-|$ $}nHcD$ Hk
-|$ $}~HcD$ Hk
-|$ )uqH
-|$ 0t
-|$ 2t
-|$ 5t.
-|$ @u&H
-|$ At
-|$ Btz
-|$ MOC
-|$ RCC
-|$ Zt
-|$ csm
-|$ zu
-|$$1t
-|$$3t
-|$$5t	
-|$$7t
-|$$FtD
-|$$Gt
-|$$Ht\
-|$$It/
-|$$Jt
-|$$XtV
-|$$Zt
-|$$_t
-|$,H|/
-|$,J~
-|$00t"
-|$01t~
-|$0@t
-|$0Ata
-|$0Bt,
-|$0Ur
-|$0Xt)
-|$0csm
-|$4	|
-|$4 uA
-|$4+u%
-|$4+u@
-|$4+uF
-|$4-u
-|$4-u'H
-|$4-u_H
-|$48}
-|$4et
-|$8	v
-|$8@sX
-|$8@s[
-|$8d|4
-|$<	v
-|$<@tn
-|$<Et
-|$<Gt
-|$<It
-|$<Kt	
-|$<Mt
-|$@	u
-|$@	~
-|$@@t?H
-|$@A|
-|$@_t
-|$@d}
-|$Dd}
-|$H0t2
-|$Hat@
-|$Hd|IH
-|$Hrt	
-|$Hwt
-|$LFu
-|$Lct
-|$Lct#
-|$Lct]
-|$Lnt
-|$LntA
-|$Lou!
-|$Lou$
-|$Lou*
-|$Lpu8
-|$Lpu;
-|$LpuA
-|$Lst
-|$Lsu
-|$Lxt
-|$Lxt-
-|$L{t
-|$L{u
-|$L{u=H
-|$PArO
-|$PZwH
-|$ParO
-|$PzwH
-|$X@t
-|$\mu
-|$`	u
-|$hAu4H
-|$hEu7H
-|$hat
-|$het
-|$hfu,H
-|$l t8
-|$l#t>
-|$l+t
-|$l-t	
-|$l0t7
-|$pPtSH
-|$t t'
-|$t0t-
-|$t@t3
-|$x:wKHcD$xH
-|$x:wLHcD$xH
-|$| t8
-|$|#t>
-|$|+t
-|$|-t	
-|$|0t7
-|$|:wAHcD$|H
-|$|:wBHcD$|H
-|KHcD$ H
-|LHcD$ H
-} HcD$ HcL$ H
-} HcD$ Hk
-}!HcD$ HcL$ H
-}#HcD$ HcL$ H
-}(HcD$0Hk
-}(HcD$@H
-}bHcD$@H
-~2HcD$ H
-~cHcD$0H

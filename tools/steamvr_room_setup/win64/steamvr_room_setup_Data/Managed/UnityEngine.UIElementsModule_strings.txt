@@ -1,15 +1,10 @@
-	*F"o
-	/	Y	
-	Q	{3
- '!6!K!_!
+ Aoq
  Unity.IntegrationTests.Framework
  UnityEngine.CrashReportingModule
  UnityEngine.FileSystemHttpModule
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!3"]"
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -44,7 +39,6 @@
 #GUID
 #Strings
 #UnityEngine.UnityTestProtocolModule
-$)%T%v%
 $ArrayType=108
 $ArrayType=8
 $Unity.InternalAPIEngineBridgeDev.001
@@ -60,46 +54,32 @@ $field-FFFA20AC7F974DC25FC0899A32D1C89331EA09DC
 $locvar0
 $locvar1
 $this
-% &o&''i'
-%8&V&{&
 %Unity.IntegrationTests.UnityAnalytics
-&3'w'
 &Modules/UIElements/UIRendererUtility.h
 &UnityEngine.PerformanceReportingModule
 &UnityEngine.UnityWebRequestAudioModule
-'5(>(H(Q(
-'[(g(3)C)
 (Modules/UIElements/TextNative.bindings.h
 (Modules/UIElements/YogaNative.bindings.h
 (UnityEngine.UnityWebRequestTextureModule
-) 8X	
-)X)`)v)
-*"*^*f*
-*"+z+
 *Modules/UIElements/ImmediateStylePainter.h
-+',=,
-,3,O,Y,u,
-,U-X-
 ,UnityEngine.UnityWebRequestAssetBundleModule
--@.L.
-. .0.v.
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .cctor
 .ctor
-.text
-/4/`/
 /d0%101C1R1^1n1~1
+0\f\f\f\f\f\f\f\f\f\f\f
 2$3-3
 242M2s2
+2mq\n
 3j3s3
 4#4C4k4
+4\ro\fH
+4\ro\ft
 5&525F5V5j5
 6#6-6<6H6a6u6
 717H7U7l7x7
 919D9l9s9
 9H:d:
-:W;b;
-;8<e<|<
 <>c__Iterator0
 <>c__Iterator1
 <>f__am$cache0
@@ -114,7 +94,6 @@ $this
 <>f__mg$cache7
 <>f__mg$cache8
 <>f__mg$cache9
-<>m__0
 <AppendAction>c__AnonStorey0
 <CloneSetupRecursively>c__AnonStorey0
 <Foldout>m__0
@@ -320,13 +299,9 @@ $this
 <visualTreeAsset>k__BackingField
 <width>k__BackingField
 <yogaNode>k__BackingField
-=D>S>q>
-><>c>
-@.reloc
-@;@N@
-@[Y8 
 A A<A
 A8BNB
+A\nBABVBtBzB
 AboutToGrabFocus
 AboutToReleaseFocus
 Absolute
@@ -420,7 +395,7 @@ AsyncCallback
 AtMost
 AttachToPanelEvent
 AttributeOverride
-BABVBtBzB
+BSJB
 BackgroundColor
 BackgroundImage
 BaseFieldTraits`2
@@ -448,6 +423,7 @@ BindingFlags
 BlitInfo
 BlitSingle
 BlockAllocator
+Blur
 BlurEvent
 BoneTransform
 Boolean
@@ -477,6 +453,7 @@ CanStartManipulation
 CanStopManipulation
 Cancellable
 CaptureMouse
+Ceil
 Center
 ChainBuilderStats
 ChangeCoordinatesTo
@@ -558,6 +535,7 @@ ConvertValueToFloat
 ConvertValueToInt
 ConvertValueToLong
 ConvertValueToString
+Copy
 CopyFrom
 CopyFromPtr
 CopyIfEqualOrGreaterSpecificity
@@ -590,6 +568,7 @@ CustomStyleProperty`1
 CustomStyleResolvedEvent
 CutCopyActionStatus
 D)DNDVD^DfDoDxD
+D\nDe
 DataSet`1
 DblClickSnap
 DblClickSnapping
@@ -679,10 +658,13 @@ DropdownMenu
 DropdownMenuAction
 DropdownMenuItem
 DropdownMenuSeparator
+E4\tD
 EatSpace
 EdgeCorner
 EdgeHorizontal
 EdgeVertical
+EkU\n
+El\tw
 ElementAt
 EmptyValue
 EnableInClassList
@@ -734,6 +716,7 @@ Fatal
 FieldInfo
 FilterMode
 FinalizeLayout
+Find
 FindAncestorUserData
 FindClosestPropertyName
 FindClosingCommandInsertionPoint
@@ -753,6 +736,7 @@ FlipRectYAxis
 FlipWinding
 FlipY
 FlushAllPendingDeviceDisposes
+Fn\f\rw
 FocusController
 FocusEventBase`1
 FocusInEvent
@@ -878,6 +862,7 @@ Graphics
 GraphicsDeviceType
 GraphicsFormat
 GreaterThan
+Grl\vPe
 GroupAtLeastOne
 GroupTransform
 H"ImI
@@ -903,7 +888,6 @@ HierarchyChangeType
 HierarchyEvent
 HighLowCollide
 HighToLow
-I	J&J5JBJHJ^JrJ
 IAsyncResult
 IAtlasMonitor
 IBindable
@@ -965,6 +949,7 @@ IVisualElementScheduledItem
 IVisualElementScheduler
 IVisualPredicateWrapper
 IVisualTreeUpdater
+I\tJ&J5JBJHJ^JrJ
 Ignore
 ImmediateModeElement
 ImmediateRepaint
@@ -1043,16 +1028,18 @@ IsText
 IsTextureFormatSupported
 IsTextureValid
 IsTextured
-IsThreadSafe
 IsTrue
 IsUndefined
 IsUnitMissing
 IsUnsupportedColor
 IsUpper
 IsViewDataPersitenceSupportedOnChildren
+Item
 J;KCKXKaKlKtK
+Join
 JsonUtility
 JsonWrapper
+K\tBa
 KeyCode
 KeyCollection
 KeyDownEvent
@@ -1062,6 +1049,7 @@ KeyboardEventDispatchingStrategy
 KeyboardTextEditorEventHandler
 KickRanges
 KmLxL
+Kmt\n
 LandClipRegisterMesh
 LandClipUnregisterMeshDrawCommand
 LastQueryMatcher
@@ -1070,8 +1058,13 @@ LayoutCache
 LayoutFromContainer
 LeftMouse
 LengthUnit
+Lerp
 LessThan
 LevenshteinDistance
+Lf4\f
+LfD\f
+Lfd\f
+Lfl\f
 LifeCycleStatus
 LinkedListNode`1
 LinkedList`1
@@ -1095,6 +1088,7 @@ LogWarningFormat
 LowToHigh
 M'N-NdNwN
 M/MnMwM
+Make
 MakeCurrentIMGUIContainerDirty
 MakeQuad
 MakeRect
@@ -1132,6 +1126,7 @@ MatchResultInfo
 MatchRightToLeft
 MatchUrl
 MatchesSelector
+Math
 Mathf
 Matrix4x4
 MeasureInternal
@@ -1179,7 +1174,10 @@ MultiplyMatrix44Point2
 MultiplyPoint3x4
 MultiplyVector
 NQOdO
-Name YogaCallback::RemoveBaselineFunc	
+Name
+Name YogaCallback::RemoveBaselineFunc\t
+Name\fYGConfigFreeT
+Name\nYGNodeFreeT
 NativeArrayOptions
 NativeArrayUnsafeUtility
 NativeArray`1
@@ -1210,6 +1208,7 @@ NotifyOfUIREvents
 NudgeVerticesToNewSpace
 Nullable`1
 NumberFormatInfo
+O\rP*PAPcPuP
 ObjectPool`1
 ObsoleteAttribute
 OnAfterDeserialize
@@ -1272,6 +1271,7 @@ OnceCondition
 OneOrMore
 OneOrMoreComma
 Opacity
+Open
 OpenBrace
 OpenBracket
 OpenGate
@@ -1283,8 +1283,9 @@ Overlaps
 Overwrite
 OverwriteFromViewData
 OwnsId
-P*PAPcPuP
+PCH"
 PCHs[
+P\to6
 PadRight
 PageStatistics
 PaintSubTree
@@ -1302,6 +1303,7 @@ ParseRanges
 ParseTerm
 PasteActionStatus
 Pause
+Peek
 PeekNext
 PerformPick
 PerformTimerUpdate
@@ -1313,6 +1315,7 @@ Pixel
 PlaceBehind
 PlaceInFront
 Player
+Plus
 PollElementsWithBindings
 PoolItem
 PopDispatcherContext
@@ -1367,6 +1370,7 @@ PropagationPaths
 PropagationPhase
 PropertyToID
 PseudoStateData
+Push
 PushDispatcherContext
 PushScissor
 PushView
@@ -1377,6 +1381,8 @@ Quaternion
 QuestionMark
 Queue`1
 Queued
+Qxt\rw
+R1\v\rRM\v
 R=SnS
 RaiseEngineUpdate
 RaiseFlushPendingResources
@@ -1461,6 +1467,7 @@ RestoreValueAndText
 Resume
 RetargetElement
 Return
+Rfu\t
 RightMouse
 Round
 RoundToInt
@@ -1473,6 +1480,7 @@ RuntimeHelpers
 RuntimePlatform
 RuntimeTypeHandle
 SYUaUiU
+S\nx2
 SaveBackup
 SaveGlobals
 SaveMark
@@ -1585,6 +1593,8 @@ SingleElementTypeQuery
 SingleQueryMatcher
 SingleQuote
 SizeOf
+SkV\n
+Skip
 SkipVerification
 Slice
 SliderDirection
@@ -1645,6 +1655,7 @@ StyleValueKeyword
 StyleValueType
 Substring
 SuppressFinalize
+Swap
 SwitchFocus
 SwitchFocusOnEvent
 SyncIMGUIFocus
@@ -1688,6 +1699,9 @@ TTraits
 TUserArgsType
 TValueType
 TValueUxmlAttributeType
+T\nJ3
+T\nX3
+T\ns3
 TakeCapture
 TargetAndBubbleUp
 TempDataAlloc`1
@@ -1711,7 +1725,7 @@ TextInputBaseField`1
 TextNative
 TextNative::ComputeTextHeight)
 TextNative::ComputeTextWidth)
-TextNative::GetCursorPosition
+TextNative::GetCursorPosition\n
 TextNative::GetOffset
 TextNative::GetVertices!
 TextStylePainterParameters
@@ -1760,6 +1774,7 @@ TreeViewItemWrapper
 TreeViewItem`1
 TrickleDownAndTarget
 TricklesDown
+Trim
 TryAllocFromPage
 TryAllocate
 TryCheckAccess
@@ -1821,7 +1836,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections
 Unity.Collections.LowLevel.Unsafe
@@ -2324,9 +2338,11 @@ VisualTreeTransformClipUpdater
 VisualTreeUpdatePhase
 VisualTreeViewDataUpdater
 VisualsHierarchy
+Vl^\n77
 WaitForCPUFencePassed
 Waiting
 WantsEvent
+Warn
 WeakReference
 WebFlexBasis
 WheelEvent
@@ -2340,10 +2356,8 @@ WrapReverse
 WrapUpGfxDeviceRecreate
 WriteToGUIStyle
 X:XEX}X
-Y	kZ(
 YGConfigFree
 YGConfigFreeInternal
-YGConfigFreeT
 YGConfigGetDefault
 YGConfigGetInstanceCount
 YGConfigGetUseWebDefaults
@@ -2357,7 +2371,6 @@ YGNodeCalculateLayout
 YGNodeCopyStyle
 YGNodeFree
 YGNodeFreeInternal
-YGNodeFreeT
 YGNodeGetHasNewLayout
 YGNodeGetInstanceCount
 YGNodeInsertChild
@@ -2485,20 +2498,26 @@ YogaUnit
 YogaValueExtensions
 YogaWrap
 Z5[F[
-ZXJ	@	
 ZXJT8T
+ZXJ\f8
+ZX\tT
+ZY\n8'
 ZZX(@
 ZZY(@
+Z\nh6
+Zero
 ZeroOrMore
 ZeroOrOne
-[F]n]
-[V[_[l[
-\.]Y]
-\?\r\
-]l^u^
-^	_&_
+Zk(4\f
+ZkV\n
+Zrn\v|e
+Z}k\fd
+\fIsThreadSafe
+\nj]io
+\nr0R
+\vUnity.Burst
+\vUnityEngine
 ^ _4_M_Y_k_}_
-_/`R`
 _CorDllMain
 _baselineFunction
 _config
@@ -2508,8 +2527,7 @@ _projection
 _viewport
 _ygConfig
 _ygNode
-`.a|a
-`.rsrc
+a\nb7b>bDbJb[blb}b
 actionCallback
 actionName
 actionStatusCallback
@@ -2559,7 +2577,6 @@ attributeName
 availableBlocksCount
 availableHeight
 availableWidth
-b7b>bDbJb[blb}b
 basis
 before
 blitInfos
@@ -2613,6 +2630,7 @@ colors
 combinator
 command
 commandCount
+comp
 comparer
 completeInit
 complexSelector
@@ -2649,6 +2667,7 @@ dependencyPseudoMask
 depth
 desiredHeight
 desiredWidth
+dest
 detectFocusChange
 dirtiedValues
 dirtyID
@@ -2680,8 +2699,11 @@ dstNode
 durationMs
 e"e0e>eLeZeceqe
 e,fdf
+ed\tl
+edge
 editorPlayModeTintColor
-eg	t	
+eg\tt\t
+elem
 elemCount
 elemStride
 elementCount
@@ -2701,6 +2723,8 @@ exception
 excess
 existing
 existingState
+e|I\fD
+f\rg[gdg
 factor
 factory
 factoryList
@@ -2711,9 +2735,12 @@ filter2
 firstClosingCommand
 firstIndex
 firstVertex
+fl\tx\v
 flags
+flex
 flipHorizontal
 floats
+fo\tD\f
 focusChangeDirection
 fontColor
 forceSwitch
@@ -2721,8 +2748,12 @@ fragmentation
 freeSize
 freesDeferred
 funcCall
+fx\tt
 g0gNg
-g[gdg
+g4\f/A
+gD\f/A
+gd\flC
+gd\fw
 getCursorIdFunc
 get_AlignContent
 get_AlignItems
@@ -3257,6 +3288,7 @@ gpuData
 graphicalCursorPos
 groupTransformAncestor
 groupTransformElementsChanged
+grow
 guiChanged
 h:i\i
 hFhghuh
@@ -3268,18 +3300,26 @@ handles
 hasBorder
 hasFocusableControls
 hasNewLayout
+hash
+hd\fw
+head
 heightMode
 hierarchical
 highBound
 highButtonUssClassName
 highLimitPosition
 higherValue
+hint
+hmu\n
+hmv\n
+hmw\n
 horizontalVariantUssClassName
 hotspotX
 hotspotY
-i	iAiJi
+i\tiAiJi
 idToChildren
-ij]i(P
+ij]i(P\n
+ij]i\n
 imguiContainerHavingKeyboardControl
 imguiKeyboardControlID
 immediateException
@@ -3292,6 +3332,7 @@ indexOffset
 indexPlus1
 indexStart
 indices
+info
 inheritedStencilClippedChanged
 inheritedTransformIDChanged
 initialAtlasSize
@@ -3321,9 +3362,14 @@ isScheduled
 isShared
 isStencilClipped
 isUnityStyleSheet
+item
 itemSelectedVariantUssClassName
 itemUssClassName
+j)D\nL3
 j9jQjfj
+jG\nl/
+jL\n\0
+json
 k9kLkbk
 kDefaultHighValue
 kDefaultPageSize
@@ -3335,8 +3381,12 @@ kMaxValidateLayoutCount
 kMaxValidatePersistentDataCount
 kMinUpdateDelay
 kSubdivisions
-k[iX(=
-k[iY(>
+kW\nV6
+kY(4\f
+kY(D
+kY[\n8
+kZ~f
+k\fl:lPl
 k_ComputeIsAvailableTag
 k_ComputeIsAvailableTrue
 k_DefaultPropagationDepth
@@ -3359,7 +3409,6 @@ k_TextureSlotCount
 k_UnlimitedRect
 keyboardOnScreen
 l+m<n,q6qCqMqkquq
-l:lPl
 labelDraggerVariantUssClassName
 labelUssClassName
 largestAvailableBlock
@@ -3371,6 +3420,9 @@ leftBorder
 leftWidth
 length
 level
+lg\nd:
+lgd\f<e
+list
 loadResourceFunc
 localPoint
 location
@@ -3501,6 +3553,7 @@ m_HighLimit
 m_HighValue
 m_HighWatermark
 m_HorizontalPageSize
+m_Id
 m_Image
 m_ImageIsInline
 m_ImguiEvent
@@ -3697,6 +3750,7 @@ m_TransformID
 m_TransformPages
 m_Type
 m_TypeName
+m_UV
 m_UVs
 m_Unit
 m_UnscheduleTransactions
@@ -3749,6 +3803,7 @@ maxThumbUssClassName
 menuBuilder
 menuItems
 menuManager
+mesh
 meshAlloc
 meshHandle
 message
@@ -3760,12 +3815,14 @@ minThumbUssClassName
 mockBuffer
 mockDevice
 mockPage
+mode
 monitor
 mscoree.dll
 mscorlib
 multiplier
 mustDirtyWorldClip
 mustDirtyWorldTransform
+n+\vhM
 nameBase
 nativeEventPtr
 needsClosing
@@ -3780,6 +3837,7 @@ newKeyboardFocusControlID
 newMeshAllocations
 newText
 newTransform
+next
 nextAvailable
 nextDirtyClipping
 nextDirtyTransformOrSize
@@ -3790,6 +3848,7 @@ nextText
 nid = {id}, keyword = {keyword}, number = {number}, boolean = {boolean}, color = {color}, resource = {resource}
 noLabelVariantUssClassName
 noTextVariantUssClassName
+node
 nonRecursiveVisualUpdates
 nudgeTransformed
 numAllocs
@@ -3816,6 +3875,9 @@ otherValue
 outputWordDelimiter
 owner
 p"p.p:pFpRpdp{p
+pC\v\P
+pQ\vPU
+page
 pages
 painterParameters
 painterParams
@@ -3831,14 +3893,22 @@ permPage
 picked
 pixelCache
 pixelsInPoint
+poW\r
 point
 pointValue
+pool
 poolNext
 popScissorClip
 popViewMatrix
+posZ
 positionToConvert
 positionType
+pr19
+pr56
+prA8
+prU9
 predicate
+prev
 prevAvailable
 prevText
 previous
@@ -3854,9 +3924,15 @@ propertyId
 propertyName
 propertySyntax
 propertyValue
+prq\v
+pru;
+prw9
+pry6
 pseudoStateMask
 pseudoStatesMask
+pzy\fL
 q+rQrgr
+qY\vla
 radius
 rangeCount
 rangeCursorIndex
@@ -3868,6 +3944,7 @@ rangesReady
 rangesStart
 rcPosition
 rcTexCoord
+rd\v}c
 receivedFocus
 record
 recreate
@@ -3911,6 +3988,7 @@ returnValueAddress
 richText
 rightBorder
 rightWidth
+root
 rootScopeList
 rowHeight
 rowIndex
@@ -4392,6 +4470,7 @@ subscribe
 syntax
 systemEvent
 t*uqu
+t4y\f;
 takeCapture
 takenFromPool
 targetAndBubblePath
@@ -4416,6 +4495,7 @@ timeSliced
 timerState
 timerUpdateEvent
 timerUpdateStopCondition
+tint
 toRelease
 toggleUssClassName
 token
@@ -4492,11 +4572,14 @@ viewportUssClassName
 visualElement
 visualListCleanup
 visualUpdateTransformed
+vkV*
 vl[k"
 w'w<wIw
 widthMode
 willGiveFocusTo
 willTakeFocusFrom
+wjC\n
+wmz\n
 wordWrapWidth
 worldMatrix
 wrappers
@@ -4504,10 +4587,7 @@ writeRangeEnd
 writeRangeStart
 x3x;x
 xmlSchemaNamespace
-z({U{
 z8{Z{
 zDZj(
-|;|W|
-|L}e}s}
-}P~y~
-~9~B~o~
+zDZj\n8
+}gd\fw

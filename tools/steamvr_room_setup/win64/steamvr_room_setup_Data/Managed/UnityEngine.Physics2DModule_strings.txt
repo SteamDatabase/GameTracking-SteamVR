@@ -1,4 +1,3 @@
-	rigidbody
  5!L!V!\!q!
  GetAttachedCollidersList_Binding
  GetColliderContactsArray_Binding
@@ -12,13 +11,11 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!A#O#l(
 !GetAttachedCollidersArray_Binding
 !GetRigidbodyContactsArray_Binding
 !Modules/Physics2D/SliderJoint2D.h
 !Modules/Physics2D/SpringJoint2D.h
 !Modules/Physics2D/TargetJoint2D.h
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -80,7 +77,6 @@ $UnityEngine.UnityWebRequestWWWModule
 (Modules/Physics2D/Public/BoxCollider2D.h
 (UnityEngine.UnityWebRequestTextureModule
 )Modules/Physics2D/Public/EdgeCollider2D.h
-*-.=.
 *BSJB
 +Modules/Physics2D/Public/CircleCollider2D.h
 ,GetColliderContactsCollidersOnlyList_Binding
@@ -90,23 +86,22 @@ $UnityEngine.UnityWebRequestWWWModule
 ,Modules/Physics2D/Public/PhysicsMaterial2D.h
 ,Modules/Physics2D/Public/PolygonCollider2D.h
 ,UnityEngine.UnityWebRequestAssetBundleModule
--'p ]
 -GetColliderContactsCollidersOnlyArray_Binding
 -GetRigidbodyContactsCollidersOnlyList_Binding
 -Mathf.Infinity
 -Modules/Physics2D/Public/PhysicsScripting2D.h
-.7G!*
 .GetRigidbodyContactsCollidersOnlyArray_Binding
 .Modules/Physics2D/Public/CompositeCollider2D.h
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .cctor
 .ctor
-.text
+.eBZ\n
 /Modules/Physics2D/Public/PhysicsSceneHandle2D.h
 4BI&N
+5T#Y
+6b 9
 <Module>
 ='fixedAngle' is no longer supported. Use constraints instead.
-@.reloc
 AddForce
 AddForceAtPosition
 AddForceAtPosition_Injected
@@ -141,6 +136,7 @@ BoxCast_Internal
 BoxCast_Internal_Injected
 BoxCollider2D
 BuoyancyEffector2D
+CDQ!
 CapsuleCast
 CapsuleCastAll
 CapsuleCastAll_Binding
@@ -201,10 +197,10 @@ CompareTo
 CompositeCollider2D
 Constant
 ConstantForce2D
-ContactFilter
 ContactFilter2D
 ContactPoint2D
 Continuous
+Copy
 CreateLegacyFilter
 CreatePrimitive
 CreatePrimitive_Internal
@@ -216,6 +212,7 @@ DebuggableAttribute
 DebuggingModes
 DefaultRaycastLayers
 DefaultValueAttribute
+Df!i
 Discrete
 Dispose
 Distance
@@ -228,6 +225,7 @@ EditorBrowsableAttribute
 EditorBrowsableState
 EffectorForceMode2D
 EffectorSelection2D
+Enum
 Enum member CollisionDetectionMode2D.None has been deprecated. Use CollisionDetectionMode2D.Discrete instead (UnityUpgradable) -> Discrete
 EqualLimits
 Equals
@@ -248,7 +246,6 @@ FreezeRotation
 FrictionJoint2D
 GameObject
 GenerateGeometry
-GenerateProxy
 GenerationType
 GeometryType
 GetAttachedColliders
@@ -282,7 +279,6 @@ GetIgnoreLayerCollision_Internal
 GetJointAngularSpeed
 GetLayerCollisionMask
 GetLayerCollisionMask_Internal
-GetMaterial
 GetMotorForce
 GetMotorTorque
 GetPath
@@ -302,7 +298,6 @@ GetPhysicsSceneFromUnityScene
 GetPhysicsScene_Internal
 GetPhysicsScene_Internal_Injected
 GetPoint
-GetPointCount
 GetPointVelocity
 GetPointVelocity_Injected
 GetPoint_Injected
@@ -413,6 +408,7 @@ LogWarning
 LowerLimit
 Manual
 Material
+Math
 Mathf
 Mathf.Infinity
 Modules/Physics2D/Effector2D.h
@@ -425,6 +421,7 @@ MoveRotation_Angle
 MoveRotation_Quaternion
 MoveRotation_Quaternion_Injected
 N.X&R
+N5\n%q
 NativeClassAttribute
 NativeHeaderAttribute
 NativeMethodAttribute
@@ -432,6 +429,7 @@ NativeNameAttribute
 NeverSleep
 NoFilter
 NoShapes
+None
 NormalAngleUpperLimit
 NotNullAttribute
 NullReferenceException
@@ -561,7 +559,6 @@ SetEditorDragMovement
 SetLayerCollisionMask
 SetLayerCollisionMask_Internal
 SetLayerMask
-SetMaterial
 SetNormalAngle
 SetPath
 SetPathList_Binding
@@ -604,7 +601,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -684,16 +680,37 @@ UnityString
 UnverifiableCodeAttribute
 ValueType
 Vector2
-Vector2.one
-Vector2.zero
 Vector3
 Vertical
+Wake
 WakeUp
 WheelJoint2D
 WrapNonExceptionThrows
 WritableAttribute
+\fClosestPoint
+\fMoveRotation
+\fRaycastHit2D
+\fVector2.zero
+\nIsTouching
+\nm_MaxDepth
+\nm_MinDepth
+\nm_UseDepth
+\nseparation
+\rContactFilter
+\rGenerateProxy
+\rGetPointCount
+\rm_UseTriggers
+\rnormalImpulse
+\rotherCollider
+\trigidbody
+\vGetMaterial
+\vSetMaterial
+\vSetRotation
+\vUnity.Burst
+\vUnityEngine
+\vVector2.one
+\vm_LayerMask
 _CorDllMain
-`.rsrc
 a)A$L
 autoRefresh
 capsuleDirection
@@ -710,6 +727,7 @@ distance
 dragged
 dragging
 enabled
+f2S/
 fraction
 get_Current
 get_alwaysShowColliders
@@ -935,6 +953,8 @@ get_zero
 ignore
 ignoreSiblingColliders
 index
+jDQ!
+l*dh
 layer1
 layer2
 layerMask
@@ -961,14 +981,11 @@ m_IslandSolverContactsPerJob
 m_IslandSolverCostThreshold
 m_IslandSolverJointCostScale
 m_LastDisabledRigidbody2D
-m_LayerMask
 m_LegacyContacts
 m_LowerAngle
 m_LowerTranslation
-m_MaxDepth
 m_MaxNormalAngle
 m_MaximumMotorTorque
-m_MinDepth
 m_MinNormalAngle
 m_MotorSpeed
 m_NewContactsPerJob
@@ -990,28 +1007,27 @@ m_UpdateTriggerContactsPerJob
 m_UpperAngle
 m_UpperTranslation
 m_UseConsistencySorting
-m_UseDepth
 m_UseLayerMask
 m_UseMultithreading
 m_UseNormalAngle
 m_UseOutsideDepth
 m_UseOutsideNormalAngle
-m_UseTriggers
 maxDepth
 maxNormalAngle
 minDepth
 minNormalAngle
+mode
 mscoree.dll
 mscorlib
+name
 normal
-normalImpulse
+objs
 op_Addition
 op_Equality
 op_Implicit
 op_Inequality
 op_Multiply
 other
-otherCollider
 otherRigidbody
 physicsScene
 point
@@ -1023,7 +1039,6 @@ s>r$X
 scale
 scene
 scriptMaterial
-separation
 set_alwaysShowColliders
 set_anchor
 set_anchor_Injected
@@ -1202,6 +1217,7 @@ set_velocity_Injected
 set_vertexDistance
 sides
 start
+step
 struct ContactFilter;
 struct PhysicsJobOptions2D;
 struct RaycastHit2D;
@@ -1209,6 +1225,8 @@ struct ScriptingContactPoint2D;
 t)G$L
 tangentImpulse
 timeStep
+true
+u2X/
 useDepth
 useLayerMask
 useNormalAngle
@@ -1216,10 +1234,8 @@ useOutsideDepth
 useOutsideNormalAngle
 useTriggers
 v2.0.50727
-vC_	g
+vC_\tg
 value
 value__
 vector
-x@I#*
 x@Q A
-}DQ!*

@@ -1,54 +1,63 @@
-					
-	4	K	s	
-	Inherited
- "h~b
- *![b
- -]Z6
- >!cb
+ LYa
+ vT2
 !System.ServiceModel.Internals.dll
-!This program cannot be run in DOS mode.
-"^s_J
+"WFl\n
 #Blob
 #GUID
 #Strings
+#Vbs
+#Vbt
 $a9b8c4b5-b4a9-4800-8268-e8ec3b93d9ac
-)-]Z6
-*![b}
-*FrF	
-+%	o 
-+a*_,
-+a*_F
-+a*_I
-+s	o-
-../ecma.pub
+(HTj
+*Brz
 .B+HrP
+.KLj
 .cctor
 .ctor
-.text
+.dth
 /Users/bokken/build/output/Unity-Technologies/mono/mcs/class/lib/unityjit/System.ServiceModel.Internals.pdb
+0Y*R
+1+le
+1@eC
+1\vxX
 3 +l1
+3#ra
+3M<h
 3System.Runtime.TypeHelper+<GetCompatibleTypes>d__24
 4.6.57.0
 45inQ
+4ELj
 4System.Runtime.TaskExtensions+<UpcastPrivate>d__11`2
+4Z'R
+4\tqG
 5-]Z6
+5R\fZ
+5\vxX
+7:in
+7B1a
+7B8a
+7K/\vt
+7K/\vy
+7}b\ny
+9'in
+99in
 9SMDiagnostics, PublicKey=00000000000000000400000000000000
+9\vxX
 :Contains share code for some System.ServiceModel libraries
-;uJ_?
-<,]Z6
+:dmh
+;KLj
+;Vbv
 <>1__state
 <>2__current
 <>3__enumerable
 <>3__targetType
 <>4__this
 <>7__wrap1
-<>9__8_0
 <>c__DisplayClass0_0`1
 <>c__DisplayClass1_0
 <>l__initialThreadId
 <>m__Finally1
 <>t__builder
-<>u__1
 <Arguments>k__BackingField
 <AsAsyncResult>b__0
 <AssemblyName>k__BackingField
@@ -101,8 +110,9 @@ $a9b8c4b5-b4a9-4800-8268-e8ec3b93d9ac
 >For System.Runtime.dll use only. Call FxTrace.EventLog instead
 ?J1]p
 ?System.ServiceModel, PublicKey=00000000000000000400000000000000
-@.reloc
+@Bbi
 @System.IdentityModel, PublicKey=00000000000000000400000000000000
+AB'R
 ADVAPI32
 Abort
 ActionItemCallbackInvoked
@@ -129,7 +139,6 @@ Alloc
 AllocNextChunk
 AllocateByteArray
 AllocateCharArray
-AllowMultiple
 AllowPartiallyTrustedCallersAttribute
 Analytic
 AppDomain
@@ -222,8 +231,11 @@ AvoidUncalledPrivateCode
 AvoidUninstantiatedInternalClasses
 AvoidUnsealedAttributes
 AwaitUnsafeOnCompleted
+B%gs
 B9EF176A54F91ED30BF0775494A7BCF7243E156C
 BED87A2CCF180E558D235309068F42A19229A3A2
+BK\3
+BSJB
 BackoffTimeoutHelper
 BadCopyToArray
 BaseGet
@@ -251,8 +263,10 @@ CLSCompliantAttribute
 CODE_ANALYSIS_CDF
 CSystem.Runtime.Collections.OrderedDictionary`2+<GetEnumerator>d__20
 CSystem.ServiceModel.Web, PublicKey=00000000000000000400000000000000
+CVvk
 CacheAttribute
 CacheEntry
+Call
 CallbackException
 CancelTimer
 CancellationToken
@@ -329,9 +343,12 @@ CreateTraceSource
 CreateWaitableTimer
 CultureInfo
 CurrentThreadRequiresSecurityContextCapture
+D&Jn
 D002CBBE1FF33721AF7C4D1D3ECAD1B7DB5258B7
 DBNull
 DEBUG
+DN\vt
+DQ\fr
 DataItemsTag
 DataPointer
 DebugBreak
@@ -463,6 +480,7 @@ ExtensionAttribute
 ExternalResourceAttribute
 ExternallyManaged
 FILETIME
+FXfM
 FailFastEventLogCategory
 FailFastException
 FailFastMessage
@@ -493,6 +511,7 @@ FlushBytes
 FormatException
 FrameworkPublicKeyFull
 FrameworkPublicKeyFull2
+Free
 FriendAccessAllowedAttribute
 FromFieldType
 FromMilliseconds
@@ -507,11 +526,14 @@ Func`2
 FxCop
 FxFileVersion
 FxVersion
+G,Jn
 GCBufferManager
 GCHandle
 GCHandleType
 GP9]s
 GSystem.Runtime.Collections.NullableKeyDictionary`2+<GetEnumerator>d__24
+GY\4
+G_5k
 GatherExpiredItems
 GenerateLegacyTraceCode
 GenerateMsdnTraceCode
@@ -563,8 +585,11 @@ GetTypeCode
 GetTypeFromHandle
 GetValues
 GetWaiters
+Gg\4
 GuaranteeNonBlockingAttribute
 GuidAttribute
+HBl\rA
+HBv\r
 HSystem.Runtime.Serialization, PublicKey=00000000000000000400000000000000
 HandleAtThreadBase
 HandleException
@@ -591,6 +616,7 @@ HiShift
 HopperCache
 HostProtectionAttribute
 HttpValueCollection
+Hv\8
 IAsyncEventArgs
 IAsyncResult
 IAsyncStateMachine
@@ -617,6 +643,7 @@ IQueueReader
 IQueueWaiter
 ISystem.IdentityModel.Services, PublicKey=00000000000000000400000000000000
 ITraceSourceStringProvider
+I\nHW
 IdentifiersShouldBeSpelledCorrectly
 IdentifiersShouldHaveCorrectSuffix
 IdentifiersShouldNotContainTypeNames
@@ -695,6 +722,7 @@ IsSafe
 IsTooLarge
 IsTypeAptca
 IsVolatile
+Item
 ItemQueue
 IteratorStateMachineAttribute
 J3;g}
@@ -739,6 +767,7 @@ MarkISerializableTypesWithSerializable
 MarkMembersAsStatic
 Marshal
 Match
+Math
 MaxEventLogsInPT
 MaxExceptionDepth
 MaxExceptionStringLength
@@ -765,6 +794,8 @@ MicrosoftVSDesigner
 MinValue
 MissingNecessaryEnhancedKeyUsage
 MissingNecessaryKeyUsage
+MksZ
+Mnd!
 Monitor
 MonitorEnter
 MonitorExplicit
@@ -829,6 +860,7 @@ OnSingleItemRemoved
 OnTimerComplete
 OnUnhandledException
 OnWaitCallback
+Open
 OperatingSystem
 OperationCanceledException
 OperationState
@@ -856,6 +888,7 @@ ParticipantRecoveryLogEntryCreationFailure
 Pause
 PendingCompletion
 PendingEntry
+Perf
 Performance
 PerformanceCounterInitializationFailure
 PerformanceCounterNameAttribute
@@ -869,6 +902,7 @@ PiiLoggingNotAllowed
 PiiLoggingOn
 PlatformID
 PooledBufferManager
+Post
 PrepareAsyncCompletion
 PrepareConstrainedRegions
 PrivatePrimitive
@@ -888,13 +922,18 @@ ProtocolStopped
 Pulse
 PulseAll
 PurgeCache
+Push
+Q5Jn
 QueryPerformanceCounter
 QueueAttribute
 QueueState
 Queued
+RSDS
 Random
+Rate
 ReactivateWaitableTimer
 ReactivateWaitableTimers
+Read
 ReadByte
 ReadNotSupported
 ReadOnlyCollection`1
@@ -970,6 +1009,7 @@ SecurityPermissionAttribute
 SecuritySafeCriticalAttribute
 SeekNotSupported
 SeekOrigin
+Send
 SendOrPostCallback
 SendOrPostThunk
 Separator
@@ -1016,8 +1056,10 @@ SignalGate
 SignalGate`1
 SignalPending
 Single
+Skip
 SkipVerification
 Sleep
+Slot
 SourceLevels
 SourceSwitch
 SourceTag
@@ -1034,6 +1076,7 @@ StartErrorPublish
 StartTimerIfNecessary
 StartsWith
 StaticHolderTypesShouldNotHaveConstructors
+Stop
 StreamingContext
 StringBuilder
 StringBuilderPool
@@ -1144,12 +1187,15 @@ TAsyncResult
 TBase
 TDerived
 TException
+TKey
 TParameter
 TPreferredException
 TResult
 TValue
 TWireTool, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 TWsatTest, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
+T\tGJ
+Take
 TakeBuffer
 TakeFromPerThreadPool
 TargetInvocationException
@@ -1255,6 +1301,7 @@ TypeValue
 TypedAsyncResult`1
 TypesMustHaveXamlCallableConstructors
 TypesShouldHavePublicParameterlessConstructors
+UBbr
 UInt16
 UInt32
 UInt64
@@ -1262,6 +1309,7 @@ UIntType
 ULongType
 USMSvcHost, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 UShortType
+UgL`
 Unbounded
 UnhandledExceptionEventArgs
 UnhandledExceptionEventHandler
@@ -1271,8 +1319,6 @@ UnhandledStateMachineExceptionRecordDescription
 UnknownListenerAdapterError
 Unlock
 Unlocked
-UnmanagedCode
-Unrestricted
 UnsafeCreateEventLogger
 UnsafeGetProcessId
 UnsafeGetProcessName
@@ -1305,11 +1351,15 @@ UrlUtility
 UseEventsWhereAppropriate
 UseNewGuidHelperRule
 UsePropertiesWhereAppropriate
+UvQ\f
+UvSh
+VV\fQ
 ValidatingCollection`1
 ValueCollectionUpdatesNotAllowed
 ValueMustBeNonNegative
 ValueTag
 VariableNamesShouldNotMatchFieldNames
+Void
 VoidType
 VsFileVersion
 VsVersion
@@ -1326,6 +1376,7 @@ WaitThunk
 WaitTimeWithDrift
 WasConnectionTimedout
 WasDisconnected
+Wc'R
 WeakReference
 WebHost
 WebHostFailedToListen
@@ -1365,8 +1416,13 @@ WriteTo
 WriteTraceSource
 WriteTransferEvent
 WriteXmlElementString
+Wsat
+XAVb
 XPathNavigator
+XQ\fX
 XXsdBuildTask, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
+X_SZ
+Xaml
 XamlVisibleAttribute
 XmlBracketsLength
 XmlBracketsLengthForNullValue
@@ -1379,11 +1435,26 @@ Y30_-
 Y3Q_D
 YSystem.IO.Log, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 YXamlBuildTask, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
-ZX	n}
+Yj\to
+YlY[
+ZX\tn}
+Za'R
+ZjY}
 [ 6bc
 [6+lQ
-\-]Z6
-],]Z6
+\CFl
+\f#\f/\f5\f>\fG\fj\fv\f}\f
+\fUnrestricted
+\f|Nbl
+\qLj
+\rAllowMultiple
+\rUnmanagedCode
+\rrPa
+\tInherited
+\tP\n\\ng\no\n}\n
+\tSrd
+\tzPo
+\v../ecma.pub
 ]System.Activities, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 _CorDllMain
 _System.Runtime.Xaml, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
@@ -1397,9 +1468,9 @@ _charBuffer
 _encoding
 _numBytes
 _numChars
-`.rsrc
 `NSN.
 `WCF.CIT.ChannelModel, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
+aFl\n
 aborted
 abortedExceptionGenerator
 activityId
@@ -1422,6 +1493,7 @@ appDomainFriendlyName
 appdomainName
 aptca
 areQuotasBeingTuned
+args
 argumentName
 arguments
 array
@@ -1449,6 +1521,8 @@ bufferReturned
 bufferSizes
 bytes
 bytesRead
+c/Z1
+cCZQ
 cSystem.ServiceModel.Web, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 cSystem.WorkflowServices, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 cacheAttrition
@@ -1485,6 +1559,8 @@ currentChunk
 currentChunkSize
 currentTraceLevel
 dCDF.CIT.Scenarios.Common, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
+d\tQK
+data
 dataBuffer
 dataCount
 dataDescriptor
@@ -1577,6 +1653,7 @@ flowLegacyActivityId
 freeStringBuilders
 fullCheck
 g.]Z6
+gR`U
 gSystem.ServiceModel.Routing, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 getServiceReference
 get_ASCII
@@ -1768,14 +1845,17 @@ get_WaitableTimer
 get_Waiter
 get_Waiters
 globalPool
+guid
 guidString
 h.]Z6
 hEventLog
 hSystem.Activities.Statements, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 hSystem.Runtime.Collections.NullableKeyDictionary`2+NullKeyDictionaryKeyCollection`2+<GetEnumerator>d__11
 hSystem.ServiceModel.Channels, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
+haBd
 handle
 haveListeners
+head
 headTail
 headTailLowPri
 highWatermark
@@ -1783,6 +1863,8 @@ hopperSize
 hostReference
 iMicrosoft.Transactions.Bridge, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 iSystem.ServiceModel.Discovery, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
+iVbu
+ic'R
 idleTimeout
 idleTimeoutEnabled
 idleTimer
@@ -1790,6 +1872,7 @@ ignoreAscii
 inFullTrust
 increment
 index
+info
 initialBufferCount
 initialSize
 initialWaitTime
@@ -1802,6 +1885,7 @@ innerPool
 inputQueue
 invokeControllerCallback
 invokeWithoutContextCallback
+iots
 isCompleted
 isDisposed
 isEnabled
@@ -1815,6 +1899,7 @@ isScheduled
 isSignaled
 isTypicallyCanceledShortlyAfterBeingSet
 isVistaOrGreater
+item
 itemAvailable
 itemQueue
 items
@@ -1823,16 +1908,26 @@ jSystem.Activities.Presentation, PublicKey=0024000004800000940000000602000000240
 jSystem.Runtime.Collections.NullableKeyDictionary`2+NullKeyDictionaryValueCollection`2+<GetEnumerator>d__11
 jSystem.ServiceModel.Activation, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 jSystem.ServiceModel.Activities, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
+jX(q
 jX]~Y
+jZY}
+k+li
+k0\1
+k0\R
+kBd{
 kMicrosoft.ServiceModel.Web.Test, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
+kQ\fq
 kernel32.dll
+kfM\n
 lSystem.Runtime.DurableInstancing, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 lSystem.ServiceModel.LocalChannel, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
 leaseTimeout
 leaseTimeoutEnabled
 legacyEventId
+lfM\n
 limit
 limitedHopper
+list
 localName
 logCountForPT
 logValues
@@ -1842,7 +1937,10 @@ lowWatermark
 lpBuffer
 lpOutputString
 mSystem.Runtime.Serialization.Xaml, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9
+mY'R\n
+m_5k
 m_channel
+m_id
 m_keywords
 m_level
 m_opcode
@@ -1890,11 +1988,13 @@ mscorlib
 msdnTraceCode
 mustBeZero
 mustBeZeroAlso
+name
 nameGenerator
 nameType
 nativeOverlapped
 newId
 nextAsyncCompletion
+node
 nullKeyDictionary
 nullKeyValue
 numStrings
@@ -1926,12 +2026,21 @@ originalTimeout
 other
 outstandingHopper
 overlapped
+p>q\rA
+p\n+6r
+p\n+6r7
+p\n+Frn
+p\n+Nrb
+p\n+dr2
+p\t6L
+p\tsq
 param0
 param1
 paramName
 parameter
 parent
 payload
+peak
 pending
 pendingCount
 pendingExceptionGenerator
@@ -1968,7 +2077,10 @@ result
 resultData
 resume
 returnCount
+s!4Z
 s,]Z6
+sDBa
+s\tZ1
 scheduler
 secondTicks
 semaphore
@@ -2038,6 +2150,8 @@ set_Waiter
 settings
 shouldTrace
 sidBA
+size
+slot
 slots
 slotsLowPri
 source
@@ -2054,6 +2168,8 @@ syncObject
 syncWaiterCount
 systemTimeResolutionTicks
 t,]Z6
+t3'R
+tFl\n
 targetInvocationException
 thisLock
 thisThreadID
@@ -2094,7 +2210,9 @@ traceString
 tracingEnabled
 transferEventDescriptor
 tuningLock
+type
 typesEncountered
+ug\rA
 uncServerName
 urlencoded
 userData
@@ -2103,6 +2221,8 @@ userSID
 v-]Z6
 v4.0.30319
 v`+le
+val1
+val2
 value
 value1
 value10
@@ -2134,8 +2254,14 @@ waitableTimers
 waiterList
 waiters
 watermark
+weak
 wrapped
 writer
-|w'`|
+x7Fl
+x>Jn
+zMZ!
+{6in
+{AVb
+{KJn
 }XF]x
 ~UVb{

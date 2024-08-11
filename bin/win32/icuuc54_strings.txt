@@ -1,60 +1,20 @@
-						
-	 	!	"	#	$	%	&	'	(	)	*	+	,	-	.	/	0	1	2	3	4	5	6	7	8	9	:	;	<	=	>	?	@	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	[	\	]	^	_	`	a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	{	|	}	~	
-	 	!	"	#	$	%	&	'	(	)	*	+	,	-	.	/	_	0	1	2	3	4	5	6	7	8	9	
-	%	%	+	+	+	+	2	2	@	@	8	8	?	?
-	4	2	6
-	A	A	A
-	icuuc54.dll
-	k	s	
-	unj/
-	~	~	
-	~	~	~	~	
  !"#$%&'()*+,-./0123
- 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
- >	?	@	A	B	C	F	G	H	E	J	K	L	I	M	<	d	
  Standard Time
-!"#$%&'
-!"$%'
-!"$%'/
-!"&&(
-!"&&(01(((
-!$*);^-/
-!This program cannot be run in DOS mode.
-"$%'/1')'
+"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v
 #!V!W!"!&!r%!%#%%%'%)%c%e%g%C%<!"%$%&%(%*%+%-%/%1%3%5%7%9%;%=%?%A%D%F%H%J%K%L%M%N%O%R%U%X%[%^%_%`%a%b%d%f%h%i%j%k%l%m%o%s%+!,!
-##!!((
-###!!(
-#A8t"
-#A8t2
-$%'/1')'
-$vTt	
+#\r#\r \r \r \r#\r
 %%ALIAS
 %%Parent
 %%ParentIsRoot
-%'/1'
-%'/1J
-%'/1S
-%'/1V
-%+1.1f
-&151m1
-'/1')L
-'u!j'j\
-(01((M
-(:)z)
-)1P1*2';M;f>u>F?`?z?
-):*z*
-*:+z+
+&\r&\r&\r&\r&\r&\r&\r&\r&\r&\r&\r
 *NULL*
 *NULL* 
-+:,z,
-+A49E
-,%_>?
++\n.\n1\n4\n7\n:\n
++\v+\v+\v+\v+\v+\v+\v+\v+\v+\v!\f!\f!\f!\f!\f!\f!\f!\f
 ,,,,,,,,7/7,--..
-,:-z-
+,\n,\n,\n,\n,\n,\n,\n,\n,\n
 ,swaplfnl
--:.z.
-.:/z/
-.<(+|&
+-\f-\f-\f9\f9\f9\f9\f-\f-\f9\f9\f9\f
 .?AVAppendable@icu_54@@
 .?AVBMPSet@icu_54@@
 .?AVBTLinearMatchNode@BytesTrieBuilder@icu_54@@
@@ -156,688 +116,36 @@ $vTt
 .?AV_System_error_category@std@@
 .?AVerror_category@std@@
 .?AVtype_info@@
-.rsrc
-.text
+.dat
+.txt
 /:0z0
 /cygdrive/c/work/build/qtsdk/packaging-tools/icu_install/lib/icu
-0	*	0	*	
-0 0$0(0
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-0 0$0(000H0X0\0l0p0t0x0
-0 0&0,02090@0G0N0U0\0c0k0s0{0
-0 0(0
-0 040H0\0o0
-0 0@0H0T0t0|0
-0 0V1h1
-0#1)1g4
-0$0,040<0D0L0T0\0d0l0t0|0
-0$0.0D0N0f0l0
-0$0D0d0
-0&030
-0&030K0
-0&131
-0&181
-0&=L=
-0'0]0
-0*8/8<8A8d8}8
-0,0<0@0D0H0L0P0d0h0x0|0
-0,10181<1@1D1X1\1
-0014181<1h1l1p1t1
 0123456789
 0123456789ABCDEF<>-
 0123456789abcdef
-0171t5x5|5
-020]0
-020d0
-030?0
-040@0`0h0p0x0
-040Z0
-042v3
-061E1Y1
-061E1]1
-062E2
-062H2}2
-071P3p3t3x3|3
-081<1@1D1H1_2
 0:1z1
-0C667I7Q7d7s7|7
-0D1L1P1T1X1\1`1h1t1`2d2h2l2p2
-0F1S1z1
-0F1b1
-0J12:G:h:
-0`1U2]2l2v2
-0f1u1
-0g1p113
-0}0j1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-1 1$1(1,14181<1@1D1H1L1P1T1T3X3\3`3d3p3t3x3|3
-1!1(191R1}1
-1#151>1O1X1a1
-1$1(1,1014181<1@1D1H1L1X1\1`1d1h1l1p1t1x1|1
-1$1,141<1D1L1T1\1d1l1t1|1
-1$1<1L1P1`1d1h1l1t1
-1$2=2L2S2l2{2
-1$2H2
-1%191
-1&585Y5s5x5
-1(1,1014181<1@1H1`1p1t1
-1(2,20242\2
-1*2l2
-10181I1b1
-141@1`1h1t1
-141@1`1l1
-141L1l1
+0BTT
+0CUV
 18030
-181D1d1l1x1
-191;3Y3
-1<1h1
-1@2D2H2L2
-1B1R1
-1C2x2
-1F2S2z2
-1J1}1
-1J2a2
-1J3j4
-1K1e1
-1Q4m4
-1V2h2
-1`2&383
-1f2u2
-1m1}1
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2,2L2T2\2d2p2
-2 2024282<2D2\2l2p2
-2 2@2`2
-2 2y3q4
-2$2)2D2I2Z2a2z2
-2$2,242<2D2L2T2\2d2l2t2|2
-2$2A2m2
-2&333K3
+1\v.\v1\v.\v1\v.\v1\v.\v1\v.\v1\v.\v1\v.\v
 2'a)b+k-r
-2(202<2\2h2
-2(2P2`2
-2(414
-2+2B2G8M8
-2,282X2d2
-2,3M3a3h3y3
-2-2A2H2Y2r2
-2.2S2
-202@2D2T2X2\2`2h2
-20@0J0
-24383<3@3D3H3L3P3|3
-253j3
-263C3j3
-2=2Q2X2i2
-2>3D3|3
-2?3V3_3
-2D2x2
-2D4H4L4P4T4t6
-2F4U4f4
-2I2l2(6H6h6
-2K2V2
-2L2}2
-2Q4X4a4t4
-2V7e7
-2\3e3
+2\n2\nf
+2\r5\r8\r;\r>\rA\rD\rG\rK\rP\rT\rW\rZ\r]\r`\rc\rf\ri\rl\ro\rs\rx\r}\r
 2_3ae4lmy:
-2e3I5
-2f3u3
-2f4u4
-2f:u:
-2i3v3
-2irTu
-2irTu 
-2o3w3
-2w9e;h<
-2y3~3
-3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-3 3$3(3<3
-3 3(343T3`3
-3 30343D3H3L3P3X3p3
-3$3,343<3D3L3T3\3d3l3t3|3
-3$303P3\3|3
-3$5(5,5H5L5P5T5
-3%4e4
-3&454
-3&45448F8U8
-3&454K4Q4]4
-3(3,3034383@3X3h3l3p3t3
-3(30383@3H3P3X3d3
-3(3F3U3v4
-3(4,4044484<4@4
-3*4j4
-3,343<3H3h3p3|3
-3,494E4x4
-3044484<4@4D4H4L4P4
-344z4
-364C4j4
-3<3d3
-3<4p4
-3C3s3
-3D3k3
-3E3u3
-3I5s5
-3J9O9\9w9
-3L3m3
-3Q5V5c5
-3T4w:
-3V3c3
-3V5h5
 3c4e5g6i0]1_2a
-3e4w4
-3f4x4f5x5
-3f7x7
-3h4p4P5X546<6@6D6H6L6d6h8l8p8t8x8
-4 4$4(4,404
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4$4(40484@4H4P4X4`4h4p4x4
-4 4(40484@4L4l4x4
-4#5S5
-4$4(484<4@4D4L4d4t4x4
-4$4,444<4D4L4T4\4d4l4t4|4
-4$4D4P4p4x4
-4&434K4
-4&535Z5e5
-4&757l8q8^9c9v<
-4'5l5
-4*5m5
-4,484X4d4
-4,4<4@4D4H4P4h4x4|4
-4,565
-4-4?4|4
-4/444l4
-404<4\4d4p4
-405h5
-4080<0@0D0H0L0P0T0X0\0`0
-4282<2@2
-434c4
-464E4
-4:4j4
-4:5e5
-4>5p5u5
-4C4\4
-4E4j4
-4F9U9
-4L4m4
-4R5Z5d5l5
-4f5u5
-4g7W8
-5	6$6>6Y6s6
-5 5$5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5(50585X5t5x5
-5 5,5L5T5\5h5
-5 585H5L5\5`5p5t5x5|5
-5 6%696
-5"6*646<6Q6`6
-5$5(5,50545H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5$5,545<5D5L5T5\5d5l5t5|5
-5&757
-5'5S5v9
-5'6\6
-5'6y6
-5(5,5054585@5X5h5l5|5
-5(5H5P5\5|5
-5(5V5
-5+535P7U7b7
-5,585X5`5l5
-545]5
-555r5
-567x:|:
-569E9
-575W5w5
-5:5D5N566C6j6
-5;5H5^7g7
-5<6F6O6i6}6
-5=6z6
-5?6A7C8E9G001<2B3N4=4
-5@5x5
-5C8u8
-5F6S6z6
-5F6S6~6
-5F=U=
-5H=L=P=T=X=\=`=
-5K5W5
-5L7f7s7
-5Q5}5
-5S6U7W8Y9[0I1K2M3O4Q
-5f5s5
-6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-6 6$6(6,6064686<6@6D6H6L6P6T6X6`6h6p6x6
-6 6,6L6T6`6
-6"6)636
-6"646?6L6]6n6}6
-6";);d;h;l;p;t;
-6$6,646<6D6L6T6\6d6l6t6|6
-6$606P6\6|6
-6$7T7
-6&757M7
-6(6,6064686@6X6h6l6|6
-6(606<6\6h6
-6(6d6
-6)6?6Y6c6
-6+7h7
-6,606@6D6H6L6P6X6p6
-6,7074787<7@7D7P7X7\7H8P8H9L9P9T9l9
-6.6^6
-60C0n0&131K1
-60E0D1I1j3
-626<6g6q6
-626]6
-64787<7@7D7H7L7X7\7`7d7
-656>6F6O6
-667C7[7
-668E8
-68;?;
-6>7_7s7}7
-6@8E8
-6F7U7
-6F7X7
-6G7t7
-6H6M6s6
-6M7T7
-6T7Z7
-6W7b7j7
-6`7h7H8P80989
-6o9t9
-7	8"8M8
-7	8o<
-7	>	'
-7	?	G	O	W	[	c	/	{	
-7 7$7(7,7074787<7
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7$7(7,7074787<7@7D7H7L7P7X7\7`7d7h7l7p7t7x7|7
-7 7$7(7,7074787N7
-7 7(70787@7H7P7X7`7
-7!7(797R7}7'8l8
-7"8':b;
-7#7;7
-7#7J7
-7$7,747<7D7L7T7\7d7l7t7|7
-7$707T7t7|7
-7$7<7L7P7`7d7h7p7
-7$7>8~8
-7$8L8p8
-7%768E8
-7%7=7
-7%8<8e8
-7&9596;E;
-7'737F7d7q7x7
-7'8-868E8N8f8y8
-7(7D9
-7(7H7P7\7|7
-7*7=7I7
-7*8Z8
-7,7074787<7@7H7`7p7t7
-7,7F7a7{7
-7-7w7
-707T7x7
-718f8u8
-73898
-74849
-748:8M8S8f8
-77-,,66
-788x8
-7:9E9N9
-7<7H7h7p7x7
-7D7j7
-7E8$9-9 :):
-7F8S8
-7L7j9
-7P7Z7
-7V8e8
-7X:`:o:y:
-7^8j8v8B9L9a9
-8	8#8<8A8[8t8y8
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8084888<8@8D8H8P8h8x8|8
-8"929W9
-8$8,848<8D8L8T8\8d8l8t8|8
-8%8&959
-8%8y<
-8%929A9J9
-8(888<8L8P8T8X8`8x8
-8);Y;`;2<q<
-8*848>8U8^8y8
-8,838
-8-878?8D8R8';
-808<8\8h8
-80:5:h:
-80:8:
-80>0X0^0&151
-828]8
-848[8z8
-859<9v9H;L;P;T;z;
-869C9j9
-869E9]9i9
-888D8d8p8
-8<8D8P8p8x8
-8<9H9U9
-8=8^8
-8>9t9
-8F9U9
-8F9[9
-8F:U:$<
-8F:U:>;6=E=
-8T9}9
-8V8e8D:d:
-8V9e9&<5<
-8V>h>|><?e?s?x?
-8b9/:
-8z9n:s:
-8{9~;
-9	9.9W9
-9 9$9(9,9094989<9@9D9H9L9P9T9
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9 9$9(9094989<9@9D9H9L9P9T9`9d9h9l9p9t9x9|9
-9 9$90949@9D9P9T9`9d9p9t9x9|9
-9 9$9<9
-9 9094989<9@9H9`9p9t9
-9 90949D9H9L9P9T9\9t9
-9 9@9H9T9t9|9
-9 :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-9 ;r;
-9!9(999R9}9
-9!9;9T9Y9s9
-9"9,969I9P9c9
-9$9,949<9D9L9T9\9d9l9t9|9
-9$9,949<9D9L9T9\9h9
-9&:3:^:
-9&:5:\:
-9&;3;\;
-9&=8=
-9(9/9(;,;0;4;L;P;T;X;\;`;d;2<
-9(:=:
-9(:w:
-9)9B9m9
-9*9K9Y9^9
-9*:j:
-9,:M:a:h:y:
-9,:{:
-92irTt
-96;C;j;
-989D9d9l9x9
-9:9m9
-9<9l9
-9>9v9
-9>:w:}:
-9?:J:c:p:
-9ALup
-9Bl})
-9F;U;
-9H9}9
-9J t2
-9J4t/
-9J4u8
-9L=P=T=X=h=m=
-9M<)=o=
-9T:X:\:`:d:h:g;6<
-9X:]:
-9Y:W;
-9f;u;
-9}(kE
-9}0kE
-:	:9:A:F:K:P:V:
-:	;F;P;n;x;
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:x:|:
-:#:N:
-:$:,:4:<:D:L:T:\:d:l:t:|:
-:$:,:4:@:`:l:
-:$:,:8:X:d:
-:$:.:
-:%:=:
-:%:S:Y:
-:&:3:K:
-:';B>
-:(:}:
-:,:0:4:8:@:X:h:l:|:
-:,:0:@:D:H:L:P:X:p:
-:,:6:h:0;;;E;
-:,:L:T:\:d:l:t:|:
-:0; <
-:0@0O0Y0
-:1:8:I:b:
-:2;.<
-:6;C;j;
-:6;K;n;
-:8:T:s:g<
-:::j:
-:<<@@=
-:A;J;
-:D:l:
-:F<Y<[=q=
-:G;M;
-:I;v;
-:L:W:l:v:
-:L<Q<
-:M:z:
-:P:t:i<*>
-:Z<{<
-:d<h<l<p<t<x<|<
-:eirTt
-:f<u<
-:};b<
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-; ;$;(;,;0;4;8;<;@;D;H;d;h;l;p;t;x;|;
-; ;$;(;,;0;4;@;D;P;T;`;d;p;t;
-; ;$;(;,;<;@;D;
-; ;(;@;P;T;d;h;l;p;t;x;
-; ;,;8;D;P;\;h;t;
-; ;I;z;
-;#;;;p<
-;#;Z;
-;$;,;4;<;D;L;T;\;d;l;t;|;
-;$;,;4;<;H;h;p;|;
-;%;2;9;X;q;x;
-;&<8<
-;(;,;
-;(;4;T;`;
-;(=X=
-;,;0;4;8;@;X;h;l;|;
-;,<0<4<8<
-;-<b<
-;-<|<
-;/<h?o?
-;3;z;
-;4;@;`;l;
-;4;D;Z;
-;6;C;
-;6<C<[<
-;8<><
-;:;m;
-;<<]<q<x<
-;=;Q;X;i;
-;B r?
-;B uR
-;B ~1
-;B$|D
-;B$|N
-;B$|P
-;B$|]
-;B$}L
-;B,})
-;B,}v
-;B8~-
-;BL~	
-;BPv$
-;BP~	
-;BT|4
-;D;H;
-;D<L<P<T<X<\<`<h<t<
-;E }&
-;E$t8
-;F<U<
-;F<U<P=
-;H r|
-;H t>
-;H ~	
-;H$|L
-;H,}1
-;H8~	
-;HXt*
-;H\~'
-;L;m;
-;L;t;
-;L<\<	?
-;L<l<
-;M ~	
-;Q r4
-;Q rP
-;Q v=
-;Q v>
-;Q ~	
-;Q$uA
-;Q$|+
-;Q0}y
-;Q8r'
-;Q8~	
-;QPr	
-;Q\|k
-;U$t;
-;U;p;};
-;W;];
-;Y=	?u?
-;Z<l<
-;\<`<h<l<p<t<
-;`<d<
-;d<h<l<p<
-;f<X?
-;h?m?
-;p>t>x>|>
-<	<	'
-<	<	<	9	9	
-< <$<(<,<0<4<8<<<@<D<
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-< <$<(<,<0<4<e<w<
-< <$<(<,<0<8<P<`<d<t<x<|<
-< <$<0<4<8<<<@<D<H<L<T<\<d<h<l<x<|<
-< <(<4<T<`<
-< <,<0<4<8<L<P<T<X<\<`<d<h<l<p<t<x<|<
-<#=X=
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<$<L<l<
-<%<Q<
-<&>3>Z>
-<(<,<<<@<D<H<L<T<l<|<
-<(<4<@<L<X<d<p<|<
-<(<H<
-<(<T<
-<(<q<
-<(=;=
-<(=Z=
-<+<t<
-<,<6<<=V=e=}=
-<-=+>
-<-=Z=
-</<^<
-<0<<<\<d<p<
-<6=F=
-<6?x?|?
-<8<<<@<D<H<L<P<X<\<x<|<
-<8<D<d<p<
-<8===J=t=
-<>=Q=
-<H?P?X?`?h?p?x?
-<L<m<
-<M<`<h<q<
-<M=Z=
-<O=j=
-<V<c<
-<a=?>
-<p>t>x>|>
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-= =$=4=8=<=@=D=H=P=h=x=|=
-= =$=8=<=
-= =&=,=2=8=>=D=
-= =(=@=P=T=d=h=l=p=x=
-= =@=L=l=x=
-=!=Q=
-=#>|>Z?
-=$=(=,=0=4=8=<=@=D=
-=$=,=4=<=D=L=T=\=d=l=t=|=
-=&>:>N>
-=*>Z>
-=+=l=
-=,=4=@=`=l=
-=,=P=
-=,>Z>
-=0===I=V=x=
-=1>6>D>J>\>
-=4=<=D=L=T=\=d=p=
-=4>[>
-=5>M>j>
-=6=E=
-=6>C>n>
-=8=<=@=D=H=L=P=X=\=
-=9=F=X=`=u=
-=9=p=t=x=|=
-=<=@=P=T=d=h=x=|=
-=<?l?
-=B=L={=
-=F>S>k>
-=H=t=
-=K>t>
-=V=e=
-=V?e?
-=X>~>
-=_>l>
-=f>&?5?\?
-=f>s>
-=l>p>x>|>
-=q>x>
->	?\?a?
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
-> >(>0>8>@>H>T>x>
-> >,>L>T>\>h>
->#>J>T>V?c?
->#>J>T>p?
->$>,>4><>D>L>T>\>d>l>t>|>
->$?\?
->&?5?
->(>,><>@>D>H>L>T>l>|>
->(>8><>L>P>T>\>t>
->(?,?0?4?8?
->(?-?g?|?
->,>0>@>D>T>X>h>l>|>
->->E>
->->]>
->2>t>
->4>Z>F?S?z?
->4>`>
->5?l?
->7?a?
-><>D>L>X>x>
->>?`?
->>?z?
->B>G>
->G>h>
->H>X>}>
->J>S>^>g>v>
->O?V?
->T?Y?
->V?c?
->V?e?
->f?m?
->p?t?x?|?
-?	Q	B	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	Q	
-? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-? ?$?4?8?<?@?D?L?d?h?
-? ?(?,?0?4?H?L?
-? ?(?0?8?@?H?T?x?
-?#?8?D?R?W?r?w?
-?$?,?4?<?D?L?T?\?d?l?t?|?
-?%?+?2?9?@?G?N?U?\?d?l?t?
-?%?P?
-?(?,?<?@?D?L?d?t?x?
-?(?0?<?\?d?p?
-?.?t?
-?2^2i2]5
+54.1
+5\n5\n5\n5\n5\n5\n5\n5\n%\v%\v%\v%\v%\v%\v%\v%\vF
+5\v6K6
+7\t?\tG\tO\tW\t[\tc\t/\t{\t
+8\n8\n+\v+\v+\v+\v+\v+\v+\v+\v+\v+\v+\v+\v
+8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r8\r/\r/\r5\r5\r/\r
+8\v5\v9\v=\vAK5KE
+9\f9\f-\f9\f9\f9\f9\f9\f9\f0\f0\f0\f
+9\rA\rI\rQ\rY\r]\re\r#
+<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f<\f
+=\n@\nC\nF\nI\nL\n
+=\v@\vD\vI\vM\vP\vS\vV\vY\v\\v_\vb\ve\vh\vk\vn\vq\vt\vw\vz\v}\v
 ?456789:;<=
-?8?<?@?D?X?
-?8?\?
-?<?H?h?t?
 ??0?$MaybeStackArray@D$0CI@@icu_54@@AAE@ABV01@@Z
 ??0?$MaybeStackArray@D$0CI@@icu_54@@QAE@XZ
 ??0Appendable@icu_54@@QAE@ABV01@@Z
@@ -1308,6 +616,8 @@ $vTt
 ?TRIE_TYPE_BYTES@DictionaryData@icu_54@@2HB
 ?TRIE_TYPE_MASK@DictionaryData@icu_54@@2HB
 ?TRIE_TYPE_UCHARS@DictionaryData@icu_54@@2HB
+?\f?\f6\f6\f6\f6\f6\f6\f6\f6\f6\f6\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\fB\f
+?\tQ\tB\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\tQ\t
 ?_Syserror_map@std@@YAPBDH@Z
 ?_Winerror_map@std@@YAPBDH@Z
 ?_Xbad_alloc@std@@YAXXZ
@@ -2577,31 +1887,35 @@ $vTt
 ?writeValueAndFinal@UCharsTrieBuilder@icu_54@@EAEHHC@Z
 ?writeValueAndType@BytesTrieBuilder@icu_54@@EAEHCHH@Z
 ?writeValueAndType@UCharsTrieBuilder@icu_54@@EAEHCHH@Z
-@(;B,}`
-@(;B,}c
-@.data
-@.reloc
-A	D	o
-A$;B(|
-A(;B,}1
-A8+B<
-A@;B0u	
+@\fiRnXp
+@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n
+@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n
+@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f
+@\n@\n@\n@\n@\n@\n@\nK
+@\nmBnHp
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
-AK5KE
+AHex
 ALetter
 AOSCCCD>PEFL;;HHKIIIJ
-AP+BLP
 ASCII
 ASCII_Hex_Digit
+ATAR
+ATBL
 ATerm
+A\tD\to
+Aa.e
 Above
 Above_Left
 Above_Right
 Aegean_Numbers
+Afak
+Aghb
+Ahom
 Alaph
 Alchemical
 Alchemical_Symbols
+Alef
 Alpha
 Alphabetic
 Alphabetic_PF
@@ -2611,6 +1925,7 @@ Ancient_Greek_Music
 Ancient_Greek_Musical_Notation
 Ancient_Greek_Numbers
 Ancient_Symbols
+Arab
 Arabic
 Arabic_Ext_A
 Arabic_Extended_A
@@ -2626,6 +1941,8 @@ Arabic_Presentation_Forms_B
 Arabic_Sup
 Arabic_Supplement
 Armenian
+Armi
+Armn
 Arrows
 Assigned
 Attached_Above
@@ -2633,19 +1950,25 @@ Attached_Above_Right
 Attached_Below
 Attached_Below_Left
 Avestan
-BEPh\{
+Avst
 BOCU-1
+Bali
 Balinese
+Bamu
 Bamum
 Bamum_Sup
 Bamum_Supplement
 Basic_Latin
+Bass
 Bassa_Vah
 Batak
+Batk
 Below
 Below_Left
 Below_Right
+Beng
 Bengali
+Beth
 Bidi_C
 Bidi_Class
 Bidi_Control
@@ -2654,21 +1977,27 @@ Bidi_Mirrored
 Bidi_Mirroring_Glyph
 Bidi_Paired_Bracket
 Bidi_Paired_Bracket_Type
+Blis
 Block
 Block_Elements
+Bopo
 Bopomofo
 Bopomofo_Ext
 Bopomofo_Extended
 Boundary_Neutral
 Box_Drawing
+Brah
 Brahmi
+Brai
 Braille
 Braille_Patterns
 Break_After
 Break_Before
 Break_Both
 Break_Symbols
+Bugi
 Buginese
+Buhd
 Buhid
 Burushaski_Yeh_Barree
 ByCYD9E
@@ -2736,11 +2065,17 @@ CJK_Unified_Ideographs_Extension_C
 CJK_Unified_Ideographs_Extension_D
 CODEPOINTS
 COMPOUND_TEXT
+CSel
+CWCF
+CWCM
 CWKCF
+Cakm
 Canadian_Aboriginal
 Canadian_Syllabics
 Canonical
 Canonical_Combining_Class
+Cans
+Cari
 Carian
 Carriage_Return
 Case_Folding
@@ -2750,14 +2085,17 @@ Cased
 Cased_Letter
 Caucasian_Albanian
 Chakma
+Cham
 Changes_When_Casefolded
 Changes_When_Casemapped
 Changes_When_Lowercased
 Changes_When_NFKC_Casefolded
 Changes_When_Titlecased
 Changes_When_Uppercased
+Cher
 Cherokee
 Circle
+Cirt
 Close
 CloseHandle
 Close_Parenthesis
@@ -2781,11 +2119,13 @@ Connector_Punctuation
 Contingent_Break
 Control
 Control_Pictures
+Copt
 Coptic
 Coptic_Epact_Numbers
 Counting_Rod
 Counting_Rod_Numerals
 Countries
+Cprt
 CreateEventA
 CreateFileA
 CreateFileMappingA
@@ -2805,10 +2145,12 @@ Cyrillic_Extended_B
 Cyrillic_Sup
 Cyrillic_Supplement
 Cyrillic_Supplementary
-D	L	'
-D0H0L0P0T0
+Cyrl
+Cyrs
+D\rA\rA\rA\r>\rD\rA\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\rM\r
 Da4bJdPf
 Dalath_Rish
+Dash
 Dash_Punctuation
 DataVersion
 Decimal
@@ -2818,6 +2160,7 @@ Decomposition_Type
 Default_Ignorable_Code_Point
 Deprecated
 Deseret
+Deva
 Devanagari
 Devanagari_Ext
 Devanagari_Extended
@@ -2834,14 +2177,20 @@ Domino_Tiles
 Double_Above
 Double_Below
 Double_Quote
+Dsrt
 Dual_Joining
+Dupl
 Duployan
-E ;E,s"
-E Ph`s
 ERROR: Could not load entrypoint
 ERROR: could not load library
+EURO
+E\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fE\fT\fT\fT\fT\fT\fT\fK\fK\fK\fK\fK\fH\f]\f]\f]\fW\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\fW\f]\f]\f]\f]\fQ\fQ\fZ\fZ\fZ\fZ\fN\fN\fN\fN\fN\fT\f
 East_Asian_Width
+Egyd
+Egyh
+Egyp
 Egyptian_Hieroglyphs
+Elba
 Elbasan
 Emoticons
 Enclosed_Alphanum
@@ -2855,6 +2204,7 @@ Enclosed_Ideographic_Supplement
 Enclosing_Mark
 EncodePointer
 EnterCriticalSection
+Ethi
 Ethiopic
 Ethiopic_Ext
 Ethiopic_Ext_A
@@ -2865,33 +2215,38 @@ Ethiopic_Supplement
 European_Number
 European_Separator
 European_Terminator
+ExE\n
 Exclamation
 Extend
 ExtendNumLet
 Extender
-F0U0V1e1
-F2M2$3(3,303W3
-F2U2h7
+F\vF\vF\vF\v@\v@\vC\v
+F\vF\vF\vF\vF\vF\vF\vF\vF\vF\vF\vF\vF\v
 Fallback
 False
 Farsi_Yeh
+Fc@2
 Final
 Final_Punctuation
 Final_Semkath
 First_Strong_Isolate
+Font
 Format
 Fraction
 Full_Composition_Exclusion
 Fullwidth
 G?NQB
 GB18030
+G\nG\nG\nG\nG\nG\nG\nG\nG\ny\v
 Gamal
 General_Category
 General_Category_Mask
 General_Punctuation
+Geok
 Geometric_Shapes
 Geometric_Shapes_Ext
 Geometric_Shapes_Extended
+Geor
 Georgian
 Georgian_Sup
 Georgian_Supplement
@@ -2905,11 +2260,15 @@ GetThreadLocale
 GetTimeZoneInformation
 GetUserGeoID
 GetVersionExA
+Glag
 Glagolitic
+Glue
+Goth
 Gothic
 Gr_Base
 Gr_Ext
 Gr_Link
+Gran
 Grantha
 Grapheme_Base
 Grapheme_Cluster_Break
@@ -2919,15 +2278,18 @@ Greek
 Greek_And_Coptic
 Greek_Ext
 Greek_Extended
+Grek
 Gujarati
+Gujr
 Gurmukhi
-H	H	H	H	H	H	H	H	H	H	H	H	H	H	H	H	E	E	E	E	E	E	E	E	E	E	E	
-H6L6P6T6X6\6`6d6h6l6p6t6x6|64787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+Guru
+H\vC\fc
 Half_And_Full_Forms
 Half_Marks
 Halfwidth
 Halfwidth_And_Fullwidth_Forms
 Hamza_On_Heh_Goal
+Hang
 Hangul
 Hangul_Compatibility_Jamo
 Hangul_Jamo
@@ -2935,22 +2297,35 @@ Hangul_Jamo_Extended_A
 Hangul_Jamo_Extended_B
 Hangul_Syllable_Type
 Hangul_Syllables
+Hani
+Hano
+Hans
+Hant
 Hanunoo
+Hatr
+Hebr
 Hebrew
 Hebrew_Letter
 Heh_Goal
+Heth
 Hex_Digit
 High_PU_Surrogates
 High_Private_Use_Surrogates
 High_Surrogates
+Hira
 Hiragana
+Hluw
+Hmng
+Hrkt
+Hung
 Hyphen
-I(;H,}_
 ICUDATA
 ICUDATA-
 ICU_DATA
 ICU_PLUGINS
 ICU_TIMEZONE_FILES_DIR
+IDSB
+IDST
 IDS_Binary_Operator
 IDS_Trinary_Operator
 ID_Continue
@@ -2972,13 +2347,16 @@ ISO_2022_CN
 ISO_2022_JP
 ISO_2022_KR
 ISO_Comment
+Ideo
 Ideographic
 Ideographic_Description_Characters
 Ig3g8h@k^lfm
 Imperial_Aramaic
 Indic_Number_Forms
+Inds
 Infix_Numeric
 Inherited
+Init
 Initial
 Initial_Punctuation
 InitializeCriticalSection
@@ -2992,25 +2370,21 @@ Iota_Subscript
 IsDebuggerPresent
 IsProcessorFeaturePresent
 Isolated
+Ital
 I{J[K;L
 J Copyright (C) 2014, International Business Machines Corporation and others. All Rights Reserved. 
-J$;H(|
-J(;H,
-J(;H,|+j
-J(;H,}	
-J(;H,~
-J0;H,
-J4;H4t
-J8+H<
-J<;H<t
+JIPS
 JISO8859_7
 JLanguages
-JPh<V
 JSOFTWARE\Microsoft\Windows\CurrentVersion\Time Zones
 JU_USING_FALLBACK_WARNING
 JZzzz
+J\rG\rJ\rG\rG\r>\r>\r>\r>\r>\r>\r
+J\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rJ\rG\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\rV\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\rt\r.
+Jamo
 Jamo_Ext_A
 Jamo_Ext_B
+Java
 Javanese
 Jcnvalias
 Jdictionaries
@@ -3019,26 +2393,32 @@ Jicudt54l-brkitr
 Jiostream
 JkeyTypeData
 JlistPattern
+Jnrm
 Join_C
 Join_Causing
 Join_Control
 Joining_Group
 Joining_Type
+Jpan
+Jpos
 Jres_index
 Jrfc3491
 Jroot
 Jsystem
-Jucnvsel_swap(): data format %02x.%02x.%02x.%02x is not recognized as UConverterSelector data
-Judict_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as dictionary data
+Jucnvsel_swap(): data format %02x.%02x.%02x.%02x is not recognized as UConverterSelector data\n
+Judict_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as dictionary data\n
 Junassigned
-Junorm2_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as Normalizer2 data
+Junorm2_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as Normalizer2 data\n
+Jurc
 Juts46
 JxJxJ
-J}%kU
-J}|kU
+K4K4
 K4K<KDKLKTK\KdKlKtK,
+KEIS
 KERNEL32.dll
 Kaithi
+Kali
+Kana
 Kana_Sup
 Kana_Supplement
 Kana_Voicing
@@ -3046,18 +2426,27 @@ Kanbun
 Kangxi
 Kangxi_Radicals
 Kannada
+Kaph
 Katakana
 Katakana_Ext
 Katakana_Or_Hiragana
 Katakana_Phonetic_Extensions
 Kayah_Li
+Keys
 Khaph
+Khar
 Kharoshthi
 Khmer
 Khmer_Symbols
+Khmr
+Khoj
 Khojki
 Khudawadi
+Knda
 Knotted_Heh
+Kore
+Kpel
+Kthi
 LMBCS-1
 LMBCS-11
 LMBCS-16
@@ -3074,7 +2463,11 @@ LOCALE
 LVT_Syllable
 LV_Syllable
 Lamadh
+Lana
 Languages
+Laoo
+Latf
+Latg
 Latin
 Latin_1
 Latin_1_Sup
@@ -3091,19 +2484,25 @@ Latin_Extended_B
 Latin_Extended_C
 Latin_Extended_D
 Latin_Extended_E
+Latn
 Lead_Canonical_Combining_Class
 Leading_Jamo
 LeaveCriticalSection
+Left
 Left_Joining
 Left_To_Right
 Left_To_Right_Embedding
 Left_To_Right_Isolate
 Left_To_Right_Override
+Lepc
 Lepcha
 Letter
 Letter_Number
 Letterlike_Symbols
+Limb
 Limbu
+Lina
+Linb
 Line_Break
 Line_Feed
 Line_Separator
@@ -3111,22 +2510,32 @@ Linear_A
 Linear_B
 Linear_B_Ideograms
 Linear_B_Syllabary
+Lisu
 Logical_Order_Exception
+Loma
 Low_Surrogates
 Lower
 Lowercase
 Lowercase_Letter
 Lowercase_Mapping
+Lyci
 Lycian
+Lydi
 Lydian
 MSVCP120.dll
 MSVCR120.dll
+M\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nl
+M\nM\nM\nM\nP\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nP\nl
+M\rM\rM\rM\rM\rM\rM\r
 Mahajani
+Mahj
 Mahjong
 Mahjong_Tiles
 Malayalam
+Mand
 Mandaic
 Mandatory_Break
+Mani
 Manichaean
 Manichaean_Aleph
 Manichaean_Ayin
@@ -3156,19 +2565,27 @@ Manichaean_Waw
 Manichaean_Yodh
 Manichaean_Zayin
 MapViewOfFile
+Mark
+Math
 Math_Alphanum
 Math_Operators
 Math_Symbol
 Mathematical_Alphanumeric_Symbols
 Mathematical_Operators
+Maya
 Maybe
 Medial
+Meem
 Meetei_Mayek
 Meetei_Mayek_Ext
 Meetei_Mayek_Extensions
+Mend
 Mende_Kikakui
+Merc
+Mero
 Meroitic_Cursive
 Meroitic_Hieroglyphs
+Miao
 MidLetter
 MidNum
 MidNumLet
@@ -3184,11 +2601,18 @@ Miscellaneous_Symbols
 Miscellaneous_Symbols_And_Arrows
 Miscellaneous_Symbols_And_Pictographs
 Miscellaneous_Technical
+Mlym
+Modi
 Modifier_Letter
 Modifier_Letters
 Modifier_Symbol
 Modifier_Tone_Letters
+Mong
 Mongolian
+Moon
+Mroo
+Mtei
+Mult
 Music
 Musical_Symbols
 Myanmar
@@ -3196,6 +2620,7 @@ Myanmar_Ext_A
 Myanmar_Ext_B
 Myanmar_Extended_A
 Myanmar_Extended_B
+Mymr
 NChar
 NFC_Inert
 NFC_QC
@@ -3210,20 +2635,28 @@ NFKD_Inert
 NFKD_QC
 NFKD_Quick_Check
 Nabataean
+Name
+Narb
 Narrow
+Nbat
 Neutral
 New_Tai_Lue
 Newline
 Next_Line
+Nkgb
+Nkoo
 No_Block
 No_Joining_Group
 Nobreak
 Non_Joining
 Noncharacter_Code_Point
+None
 Nonspacing_Mark
 Nonstarter
+Noon
 Not_Applicable
 Not_Reordered
+Nshu
 Nukta
 Number
 Number_Forms
@@ -3231,18 +2664,25 @@ Numeric
 Numeric_Type
 Numeric_Value
 OLetter
+O\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vO\vI\vI\vL\v
+Ogam
 Ogham
 Ol_Chiki
+Olck
 Old_Italic
 Old_North_Arabian
 Old_Permic
 Old_Persian
 Old_South_Arabian
 Old_Turkic
+Open
 Open_Punctuation
 Optical_Character_Recognition
 Oriya
+Orkh
 Ornamental_Dingbats
+Orya
+Osma
 Osmanya
 Other
 Other_Letter
@@ -3251,16 +2691,9 @@ Other_Number
 Other_Punctuation
 Other_Symbol
 Overlay
-P	S	V	Y	
-P(;Q,u.j
-P(;Q,|'j
-P(;Q,|.j
-P0;Q0u/
-P8+Q<
-P@;Q@u
-PD;QDu
 PINYIN
 Pahawh_Hmong
+Palm
 Palmyrene
 Paragraph_Separator
 Pat_Syn
@@ -3268,15 +2701,23 @@ Pat_WS
 Pattern_Syntax
 Pattern_White_Space
 Pau_Cin_Hau
+Pauc
+Perm
+Phag
 Phags_Pa
 Phaistos
 Phaistos_Disc
+Phli
+Phlp
+Phlv
+Phnx
 Phoenician
 Phonetic_Ext
 Phonetic_Ext_Sup
 Phonetic_Extensions
 Phonetic_Extensions_Supplement
 Playing_Cards
+Plrd
 Pop_Directional_Format
 Pop_Directional_Isolate
 Postfix_Numeric
@@ -3284,16 +2725,18 @@ Prefix_Numeric
 Prepend
 Private_Use
 Private_Use_Area
+Prti
 Psalter_Pahlavi
 Punctuation
 PyQYR9S
-Q$Rj@
 QMark
+Qaac
+Qaai
+Qaph
 Qi$nS
 QueryPerformanceCounter
 Quotation
 Quotation_Mark
-R(;Q,}`
 REORDER_CODE
 Radical
 RegCloseKey
@@ -3308,32 +2751,45 @@ Returns %d.  Status = %p.
 Returns.
 Returns.  Status = %d.
 Reversed_Pe
-Rich	
 Right
 Right_Joining
 Right_To_Left
 Right_To_Left_Embedding
 Right_To_Left_Isolate
 Right_To_Left_Override
+Rjng
 Rohingya_Yeh
+Roro
+Rumi
 Rumi_Numeral_Symbols
 Runic
+Runr
+S=J0
+SCSU
 SCSU,locale=ja
 SContinue
 SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones\
 SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones\GMT
 SOFTWARE\Microsoft\Windows\CurrentVersion\Time Zones\
+SSJ2
 STROKE
 STUVWXYZ
 STerm
 SYSTEM\CurrentControlSet\Control\TimeZoneInformation\
+S\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\no
+S\rS\rS\rS\rS\rS\rS\rS\rS\rS\rS\rS\rS\rS\rS\rS\rP\rP\rP\rP\rP\rP\rP\rP\rP\rP\r
 Sadhe
 Samaritan
+Samr
+Sara
+Sarb
+Saur
 Saurashtra
 Script
 Script_Extensions
 Scripts
 Scripts%stand-alone
+Seen
 Segment_Separator
 Segment_Starter
 Semkath
@@ -3342,16 +2798,23 @@ Sentence_Break
 Separator
 SetEvent
 SetSecurityDescriptorDacl
+Sgnw
 Sharada
 Shavian
+Shaw
 Shift-JIS
+Shin
 Shorthand_Format_Controls
+Shrd
+Sidd
 Siddham
 Simple_Case_Folding
 Simple_Lowercase_Mapping
 Simple_Titlecase_Mapping
 Simple_Uppercase_Mapping
+Sind
 Single_Quote
+Sinh
 Sinhala
 Sinhala_Archaic_Numbers
 Sleep
@@ -3360,6 +2823,7 @@ Small_Form_Variants
 Small_Forms
 Sn:o@pFqJr
 Soft_Dotted
+Sora
 Sora_Sompeng
 Space
 Space_Separator
@@ -3370,6 +2834,7 @@ Specials
 Square
 StandardName
 Straight_Waw
+Sund
 Sundanese
 Sundanese_Sup
 Sundanese_Supplement
@@ -3392,33 +2857,55 @@ Supplementary_Private_Use_Area_A
 Supplementary_Private_Use_Area_B
 Surrogate
 Swash_Kaf
+Sylo
 Syloti_Nagri
 Symbol
+Syrc
+Syre
 Syriac
 Syriac_Waw
-T	T	T	N	N	N	N	N	N	N	N	K	N	K	
+Syrj
+Syrn
 T_CString_int64ToString_54
 T_CString_integerToString_54
 T_CString_stringToInteger_54
 T_CString_toLowerCase_54
 T_CString_toUpperCase_54
 Tagalog
+Tagb
 Tagbanwa
+Tags
 Tai_Le
 Tai_Tham
 Tai_Viet
 Tai_Xuan_Jing
 Tai_Xuan_Jing_Symbols
+Takr
 Takri
+Tale
+Talu
 Tamil
+Taml
+Tang
+Tavt
 Teh_Marbuta
 Teh_Marbuta_Goal
+Telu
 Telugu
+Teng
+Term
 Terminal_Punctuation
+Teth
+Tfng
+Tglg
+Thaa
 Thaana
+Thai
 Tibetan
+Tibt
 Tifinagh
 TimeZoneKeyName
+Tirh
 Tirhuta
 Titlecase_Letter
 Titlecase_Mapping
@@ -3427,11 +2914,9 @@ Trailing_Jamo
 Transparent
 Transport_And_Map
 Transport_And_Map_Symbols
-Tri2u
-Trieu
+True
 Types
-U,+U 
-U8[8`8f8n8
+UCAS
 UCAS_Ext
 UCNV_FROM_U_CALLBACK_ESCAPE_54
 UCNV_FROM_U_CALLBACK_SKIP_54
@@ -3457,6 +2942,7 @@ UTF-7
 UTF-7,version=1
 UTF-8
 UTF-EBCDIC
+U\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vU\vR\vR\v
 U_AMBIGUOUS_ALIAS_WARNING
 U_ARGUMENT_TYPE_MISMATCH
 U_BAD_VARIABLE_DEFINITION
@@ -3594,6 +3080,7 @@ U_USING_DEFAULT_WARNING
 U_VARIABLE_RANGE_EXHAUSTED
 U_VARIABLE_RANGE_OVERLAP
 U_ZERO_ERROR
+Ugar
 Ugaritic
 Unassigned
 Unicode_1_Name
@@ -3606,10 +3093,11 @@ Upper
 Uppercase
 Uppercase_Letter
 Uppercase_Mapping
-V0e0V2e2
-V0e0z0
-V1h1I3N4V5e5
+V?J2
 VS_Sup
+V\nV\nY\nY\nV\nV\nV\nV\nV\nV\nV\nV\nr
+V\rV\rV\rV\rV\rV\r
+Vaii
 Variants
 Variation_Selector
 Variation_Selectors
@@ -3617,40 +3105,94 @@ Variation_Selectors_Supplement
 Vedic_Ext
 Vedic_Extensions
 Version
+Vert
 Vertical
 Vertical_Forms
 Virama
+Visp
 Vowel_Jamo
-W0X9X:8=h=
 WSpace
 WaitForSingleObject
+Wara
 Warang_Citi
 White_Space
+Wide
+Wole
 Word_Break
 Word_Joiner
 W{X[Y;Z
+X=J2
+XIDC
+XIDS
 XID_Continue
 XID_Start
-Y__^[
+Xpeo
+Xsux
+Y\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\rY\r
 Yeh_Barree
 Yeh_With_Tail
 Yi_Radicals
 Yi_Syllables
+Yiii
 Yijing
 Yijing_Hexagram_Symbols
+Yudh
 Yudh_He
-Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	Z	W	W	W	W	W	W	W	W	W	W	W	
 ZWSpace
+Z\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tZ\tW\tW\tW\tW\tW\tW\tW\tW\tW\tW\tW\t
+Zain
 Zhain
+Zinh
+Zmth
+Zsym
+Zxxx
+Zyyy
+Zzzz
 [BOGUS Trace Function Number]
 [BOGUS UErrorCode]
-\	_	b	
-\0b0j0|0
-\2`2d2h2l2p2t2
-]	f	f	]	]	]	0
+[\n^\na\nd\ng\nj\n=
+[\t5\n5?6A7C8E9G001<2B3N4=4
+[\v[\v[\v[\v[\v[\v[\v[\v[\v[\v[\v[\v[\v
+\f#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r#\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r&\r&\r&\r&\r&\r&\r&\r&\r&\r&\r&\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r)\r
+\f@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n@\n}\f\t
+\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\fo\f
+\n$\f$\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\f
+\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n
+\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n
+\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\t
+\r=\v:\v=\v:\v=\v:\v=\v:\v=\v:\v=\v:\v=\v:\v=\v:\v"
+\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r\\r
+\r\r@\n@\v@\n@\n@\n@\n@\n@\n
+\r]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\fW\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\f]\fQ\fQ\fQ\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\fT\f`\f`\f`\f`\f`\f`\f`\f`\f`\f`\f`\f`\f`\f`\f
+\rx\rx\rx\rx\rx\rx\r0
+\r}\r}\r}\r}\r}\r}\r
+\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
+\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t_\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t\r >\t?\t@\tA\tB\tC\tF\tG\tH\tE\tJ\tK\tL\tI\tM\t<\td\t
+\t%\t%\t+\t+\t+\t+\t2\t2\t@\t@\t8\t8\t?\t?
+\t5\n5S6U7W8Y9[0I1K2M3O4Q
+\t\t\t\n\t\v\t\f\t\r\t
+\ti3i
+\ticuuc54.dll
+\tuTv
+\v,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r,\r-
+\v;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\n;\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nM\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\nh\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\nk\nk\n
+\v@\n@\n@\n@\n@\n@\n
+\v@\n@\n@\n@\n@\n@\n@\n@\n
+\v@\n@\n@\n@\n@\n@\n@\n@\n;\f[\f@\n@\n
+\vH\tH\tH\tH\tH\tH\tH\tH\tH\tH\tH\tH\tH\tH\tH\tH\tE\tE\tE\tE\tE\tE\tE\tE\tE\tE\tE\t
+\vT\tT\tT\tN\tN\tN\tN\tN\tN\tN\tN\tK\tN\tK\t
+\v\r\v\n\v\n\v\n\v\n\v
+\v\v777
+\vk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\n
+\vk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\n
+\vm\vj\vm\vj\vm\vj\vm\vj\vm\vj\vm\vj\vm\vj\vm\vj\vm\vj\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vm\vj\vm\vj\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vg\vm\vj\vg\vg\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vv\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vv\vv\vv\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vp\vs\vp\vp\vp\v
+]\tf\tf\t]\t]\t]\t0
+^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v^\v
 ^y_Y`9a
 _CxxThrowException
 _POSIX
+_\fb\fe\fh\fk\fn\f
+_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n
 __CppXcptFilter
 __CxxFrameHandler3
 __RTDynamicCast
@@ -3674,13 +3216,15 @@ _onexit
 _purecall
 _tzset
 _unlock
-`.rdata
-`0x0m4
-`:#@'="
-`:l:x:
+a$iS
 a$imj
+a$l9
+a$si
+a$sq
+a$v1
 a*b2s
 a,bLd
+a0bz
 a0e4i
 a0eJi
 a0pDu
@@ -3706,13 +3250,20 @@ a@m\p
 aQgSp(u0yWT
 aXmpw
 a\b)c
+a\va\va\va\va\va\va\va\va\va\va\va\va\va\va\va\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vd\vg\vg\vg\vm\vj\v
 a`c1e/n-o
 abcdefghi
 abcdefghijklmnopqrstuvwxyz
+abic
+aceU
+ace_
 ached
 acingmark5cDe\ljoxp
 acterrecognition
+adaK
+adaM
 adcanonic
+adhO
 adiansyllabicsc
 adicalU
 adicals
@@ -3722,13 +3273,16 @@ aext*
 af_ZA
 agana
 agolitic
+ahli
 ailcanonic
 airedbracket
 akana
 akanaL
+alac
 alcombiningclass
 alfmarks
 alfwidth% 
+ali)
 allform
 alnotation
 alnum
@@ -3736,9 +3290,11 @@ alorderexceptionK
 alse! 
 alsymbols
 alterpahlavi
+alue
 am_ET
 amedh
 amentaldingbats
+amo\
 anagari>
 andatorybreak-
 andpunctuation
@@ -3746,6 +3302,7 @@ anese
 angeswhen
 anmarX
 ansportandmap
+anwa
 anwa{
 apped
 ar_AE
@@ -3769,16 +3326,20 @@ aractercodepointQ
 arangciti
 aratiE
 archaicnumbers
+are;
+area
 ariants
 aritan
 aritic
 arkSf
+arks
 arksforsymbolsw
 arn_CL
 arree}mln
 art-lojban
 art_LOJBAN
 as_IN
+ase5
 asefolding
 ashkafma.e8h
 ashtra
@@ -3787,16 +3348,21 @@ assigned#n
 ataean
 atb|t
 ateusesurrogates
+athO
+athe
 athoperators
 athrish/
 athsymbols
 atjamo
+atol
 attribute
 aultig
+avah
 awhhmong
 ayalamO
 ayalamU
 aybe% 
+ayin
 ayingcards
 az_AZ
 az_AZ_CYRL
@@ -3808,6 +3374,9 @@ az_Latn_AZ
 b4f<r
 b7i(l)n+
 b:fJr
+bRtF
+b\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\n+
+b\rb\rb\rb\rn\rn\rn\rn\r
 b^c0eHl
 ba_RU
 basan
@@ -3816,6 +3385,7 @@ bcpTypeAlias
 be_BY
 betic!
 bg_BG
+bic8
 biguous#$
 bin_NG
 biningmark
@@ -3827,6 +3397,7 @@ bo_BT
 bo_CN
 bocu1
 boundaries
+bove
 br_FR
 brew7a
 brewletter=aFcRd
@@ -3838,6 +3409,7 @@ bs_Latn
 bs_Latn_BA
 buddhist
 c0k6l
+c0sb
 c2n<o"
 c4dWenf
 c6eFp1t2
@@ -3846,6 +3418,7 @@ c<j^s
 cDlln~t
 cPlht
 cTmtp
+c\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fc\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\fr\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f
 ca_ES
 ca_ES_PREEURO
 ca_ES_VALENCIA
@@ -3853,6 +3426,7 @@ calendar
 caseL
 case\
 casianalbanian
+ceil
 cel-gaulish
 cesu8
 cferi
@@ -3892,7 +3466,6 @@ currency symbol
 cy_GB
 d(n<sA<
 d.n2o
-d074)9
 d3l5o6
 da_DK
 danese
@@ -3913,20 +3486,26 @@ de__PHONEBOOK
 decimal digit number
 default
 dekikakui
+deo[
 deograms
 deographicsup
 deographs
 dfhjs
+dham
 dianaboriginalq
 difier
 digit
 digit;
 direct
+disc
 drawing
 dsb_DE
 dv_MV
-e	h	k	
-e-f;o(
+e#f5
+e$i9
+e$io
+e$rO
+e$to
 e0f6s
 e6l9u,
 e7iIo9
@@ -3938,6 +3517,10 @@ e>l[oFsEuF
 e>sdu
 eJmfp
 eKgLw
+eTv(
+e\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\ne\n
+e\rh\rh\rh\rh\rh\rh\rh\rh\r
+ea2h
 eblzo
 echnical
 ectorpunctuation
@@ -3946,11 +3529,10 @@ efixnumericMJ
 eftjoining'$
 egmentseparator1n
 eiform
-eirTu
-eirTuK
 ekikakui
 el_GR
 el_GR_PREEURO
+elow
 ematicala
 ementa
 en-GB-oed
@@ -3999,18 +3581,22 @@ ensions
 ensions+
 ensitivee
 entstarters
+enty
 eographic=>
 eographs
 epactnumbers
 eparator'
 epend7
 eralpunctuationq
+eret
 eret3
 erited#d
 erlay#
+erm#
 erm3<
 erminator)
 ersedpea
+ert@
 es@collation=traditional
 es_419
 es_AR
@@ -4056,29 +3642,39 @@ eu_ES_PREEURO
 extended
 extension
 extensions
-e{f[g;h	
-f	f	0
-f	f	c	0
-f	f	i	f	i	i	i	]	0
-f	g	h	i	j	k	l	m	n	o	
 f4n>tBy"
 f:iJs
+fAiM
 fLgRhXr^v
 f[iYoOr$sI
+f\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\f
+f\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\f
+f\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\f
+f\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\f
+f\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\ff\f
+f\tf\t0
+f\tf\tc\t0
+f\tf\ti\tf\ti\ti\ti\t]\t0
+f\tg\th\ti\tj\tk\tl\tm\tn\to\t
 fa_AF
 fa_IR
+fabs
 fclose
+feFm
 ffFdDf[
 ff_Latn
 ff_Latn_SN
 fgets
 fi_FI
 fi_FI_PREEURO
+fier
 fil_PH
 final punctuation
 fkccasefolded
 floor
+fmod
 fo_FO
+font
 fopen
 fore+
 format
@@ -4102,6 +3698,7 @@ fr_MC
 fr_ML
 fr_RE
 fr_SN
+free
 ftdottedW
 fter)
 fttoright 
@@ -4129,6 +3726,7 @@ gionalindicator9
 gionalindicator;
 gionalindicatoro
 git%"
+git3
 gl_ES
 gl_ES_PREEURO
 gmodifierletters-
@@ -4142,7 +3740,7 @@ grapheme
 graphicC
 gsw_FR
 gu_IN
-h2l2p2
+h$s3
 h2lHnTy
 h2oBs
 h8lJu
@@ -4152,26 +3750,35 @@ ha_Latn
 ha_Latn_NG
 habeticp
 halaP
+hame
 hanumericsymbols
+harQ
 haw_US
 he_IL
 hematicalsymbols
 hemical
+her!
 herneutral5e
 hexagramsymbols
 hi_IN
 hi__DIRECT
+hiki
 hingyayeh
 hiopic^
 hitespacew
+hqws
 hr_BA
 hr_HR
 hsb_DE
 hsymbol
 hu_HU
+huta
 hy_AM
 h|hTi
 i#l4m
+i$lg
+i$r3
+i$ra
 i*l1s
 i,k0y
 i-ami
@@ -4192,11 +3799,15 @@ i:oDr
 i<lDnHtVy
 i>nHp`s~t
 i>nJpbs
-iRnXp
+i\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\f
 i_ipo
+iac;
 iacriticalmarks.
+ial/
+ial3
 iationselectors
 ibb_NG
+ibm-
 ibm-1041_P100-1995
 ibm-1088_P100-1995
 ibm-1363_P110-1997
@@ -4247,17 +3858,21 @@ icuplugins
 icuver
 id_ID
 ide+"
+ideC
 idtha
 iedideograph[
 ieroglyphs
 ifiedcanadianabo
 ig_NG
+ight
 ightjoining)*
+igit
 ii_CN
 iistJu
 ility
 illic2
 imapmailboxname
+imel
 inagh
 inalpunctuationY
 inaryoperatorE>
@@ -4268,7 +3883,9 @@ ingentbreak/
 inhau
 ining
 iningmark3ajb/jkl0
+init
 initial punctuation
+ink9
 invalid string position
 iostream stream error
 iptioncharacters
@@ -4288,6 +3905,7 @@ itespace_
 ithtail
 itialpunctuation
 itialpunctuationY
+itic
 itiona
 itivee
 itlecased
@@ -4303,18 +3921,24 @@ ivateuseCa,cMdGeK
 iw_IL
 ixnumericA
 j<rhs
+j\tA\nk
 ja_JP
 ja_JP_TRADITIONAL
+jang
+jani
 japanese
+jips
 jisx-212
 jklmnopqr
 k/o0r!u
 k<o@u
 kLnPrvu
 kXltn
-k[o#o<rLv
+k\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\nk\n
+k\rk\rk\rk\rk\rk\rq\rq\rh\r
 ka_GE
 kathi
+keis
 keyMap
 kk_KZ
 kl_GL
@@ -4329,14 +3953,10 @@ ks_Arab_IN
 ks_Deva_IN
 ks_IN
 ksc_5601
+kta/
 ku_Arab
 ku_Arab_IQ
 ky_KG
-l	l	l	l	l	l	l	0
-l	l	l	l	l	l	l	l	l	0
-l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	0
-l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	l	0
-l	t	u
 l$r7$
 l2m8nDv
 l2t4v
@@ -4350,21 +3970,34 @@ l@nJpVs
 lDrJs
 lP}M]\Nk`Ka
 lRtVv^x
+l\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\fx\f
+l\tl\tl\tl\tl\tl\tl\t0
+l\tl\tl\tl\tl\tl\tl\tl\tl\t0
+l\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\t0
+l\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\tl\t0
+l\tt\tu
 la_IT
 lated1
+lavi
 layout
 lb_LU
+lccc
 lctevg
 lead surrogate
+left
+let7
+leth
 letter number
 letter#
 lettersandmonths
 lexcontextQ
 likelySubtags
+line
 line separator
 lines
 ljapanesestarterk
 llaneous
+lle}
 llic1
 lmb-excp
 lmbcs1
@@ -4383,6 +4016,7 @@ lo_LA
 locale=
 localeDisplayPattern
 locale_getKeywordsStart_54
+logu
 lose% 
 lowercase letter
 lphabeticsymbols
@@ -4392,8 +4026,7 @@ luguK
 lusterbreak
 lv_LV
 lvariant
-lvo6o0r8s`x
-m)o(t'u#*
+m$uA
 m.n4s
 m.n6s
 m.nJt
@@ -4402,21 +4035,24 @@ m8qFu
 m:slt
 m@rXu
 mAo(t1u%`
-mBnHp
 mQm3o(pir5
+m\np\ns\nv\nG
 m_m:nHszv
 malloc
 manya
 mapTimezones
 mapping
 marbutat
+mask
 math symbol
 matical
 maticaloperators
 mbedding7
 mbedding=
+mber
 mberforms{
 mbiguous#&
+mbol
 mbols
 memcmp
 memcpy
@@ -4430,6 +4066,7 @@ mericG
 metaZones
 mi_NZ
 middle
+mino
 mk_MK
 ml_IN
 mmonseparator-
@@ -4440,11 +4077,14 @@ mn_Mong
 mn_Mong_CN
 mn_Mong_MN
 mni_IN
+modf
 modifier letter
 modifier symbol
 mofo+
 moh_CA
+mon!
 mpex3a.c
+mple
 mr_IN
 ms_BN
 ms_MY
@@ -4452,7 +4092,6 @@ mt_MT
 mukhiC
 my_MM
 myrene
-n#o$r%
 n%s't)u
 n.n,r>tVu!
 n9nFoNsEu
@@ -4460,6 +4099,7 @@ n<sFt
 nBoFt
 nHrdu
 nWnRo^s
+n\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\rn\r
 nagari5
 naka0e
 nalpunctuation
@@ -4473,6 +4113,7 @@ nclosingmark
 nclosingmark/
 nctuation1
 ndcoptic1
+nded
 ndeda
 ndformatcontrols
 ndfullforms
@@ -4489,10 +4130,12 @@ nertk
 nertm
 nerto
 nertq
+nese
 neseparator
 neseparator;cDd
 nfcinert
 nfdinert
+nfkc
 nfkc_cf
 nfkcinert
 nfkdinert
@@ -4520,6 +4163,7 @@ no_NO
 no_NO_NY
 non spacing mark
 noncharacter
+none
 noowg(iCowD
 norablecodepoint+*
 nsions
@@ -4528,6 +4172,7 @@ nspacingmark
 nspacingmark-
 nspacingmarkC
 nstarterE
+ntha
 ntingrod
 ntrol#
 ntrol%
@@ -4537,17 +4182,20 @@ numerals
 numeralsymbols
 numlet/
 nvsQs>t\w
-o	o	o	
-o	o	o	9
-o!	r1r4s\t1v3x
+o!\tr1r4s\t1v3x
+o$qA
 o(oWp4u
 o,uPy
 o0p6t
+o2u&
 o6oNr^u
 o9o2t
 o=oZpvuzy
+o>rL
 o@oHrtt
 oTphu
+o\fw\fS
+o\to\to\t9
 oc_FR
 ockelements
 ode1name
@@ -4566,8 +4214,10 @@ omofo
 ompat
 ompatibilityjamo
 ompositiontype
+one!\rn
 oneletters
 oneticextensions
+onic
 onical#
 onjoining!(
 ontinue=.
@@ -4579,8 +4229,11 @@ oqodr
 or_IN
 orhiragana
 ormatA
+orms
 orsymbolsw
 ortharabian
+ose%
+osep
 osepunctuation
 osepunctuationK
 oshthi
@@ -4594,11 +4247,13 @@ other symbol
 oticons
 otinagri
 ottedhehK
-out of memory swapping %u unames.icu tokens
+out of memory swapping %u unames.icu tokens\n
 outharabian
 oweljamo%"
 owercased
 owercasemapping
+ows}
+oyan
 p0t6u
 p:uny
 pCp6rjs
@@ -4609,11 +4264,13 @@ pace_
 pap_AN
 paragraph separator
 parator
+pat%
 pattern
 patterns
 pdirectional
 pen#$
 per5aFcRedfrl
+per\
 perators
 percaseletter#
 percaseletter%
@@ -4627,6 +4284,7 @@ pl_PL
 plement
 plement%
 ployan
+pool
 posix
 ppercased
 ppercasemapping
@@ -4640,6 +4298,8 @@ pt_PT_PREEURO
 ptianhieroglyphs
 ptsandsubscriptss
 punct
+qa\g
+qs6t
 qu_BO
 qu_EC
 qu_PE
@@ -4649,7 +4309,6 @@ quz_EC
 quz_PE
 r(v0w
 r5rDsdu
-r\9;t
 r_rFs
 rable?
 radicals
@@ -4670,6 +4329,7 @@ rdjoiner]
 reak7
 realloc
 recated-
+reek
 rencysymbolsu
 renthesisi
 res_countArrayItems_54
@@ -4698,39 +4358,51 @@ rfc4518ci
 rgroup
 riacwawo
 riationselectori
+rics
 right
 riginalsyllabicsb
+riot
 riotsyllabary
 ritan
 rm_CH
+rmat
 rmat%
-rmat'
+rmat'\rlvo6o0r8s`x
 rmatA
 rmgi<l
 ro_MD
 ro_RO
 rokeea
 rokes
+rol?
 root-en-es-pt-zh-ja-ko-de-fr-it-ar+he+fa+ru-nl-pl-th-tr-
 ropean
 roshthi
+roup
+row5
 rrencysymbol
 rrencysymbolS 
 rriagereturn5
 rrogate
 rrogateE
 rrogateS
-rrow)
+rrow)\rn
 rrows
 rsiyeh
 rststrongisolateGaNb
+rtAD
+rtha
 ru_MD
 ru_RU
+rue#\nk[o#o<rLv
 rw_RW
 s,t0w
+s8t*
 sFsBurw~x
 sa_IN
 sah_RU
+scan
+scsu
 sd_IN
 sd_PK
 se_FI
@@ -4782,12 +4454,14 @@ sr_SP_CYRL
 sr_SP_LATN
 sr_YU_CYRILLIC
 st_ZA
+stan
 standard
 start
 start punctuation
 stasianwidth
 states
 stfixnumericK
+stos
 strcat
 strchr
 strcmp
@@ -4803,6 +4477,7 @@ strtod
 strtol
 strtoul
 stuvwxyz
+sup$
 supplement
 surrogate
 surrogates
@@ -4813,28 +4488,18 @@ swaplfnl
 syllable+
 symbols
 syr_SY
-t!hxl
-t"hp~
 t"t8wLy
-t$hTl
-t*h$l
-t6h Z
-t6h c
-t6h0Y
-t6h@\
-t6h`\
-t>x>|>
-tHhHl
-t]h@l
 ta_IN
 ta_LK
 takana'
 talic
 talic]
+tano
 tapplicable!&
 tartc`
 tarts
 tasubscript
+tccc
 te_IN
 teimayek
 tend'(
@@ -4846,8 +4511,9 @@ tg_Cyrl_TJ
 th_TH
 th_TH_TRADITIONAL
 ther!
-ther!	nJn4oDs`u
+ther!\tnJn4oDs`u
 thian
+thic
 thsymbolQ
 ti_ER
 ti_ET
@@ -4872,15 +4538,15 @@ trl?B
 trolpictures
 ts_ZA
 tt_RU
+tter
 tternumber5
-ttj h
-tyh4u
+type
 typeAlias
 typeMap
 tzm_Latn
 tzm_Latn_DZ
 tzm_Tfng_MA
-u!hxz
+u\fu\fu\fu\fu\fu\fu\fu\fu\fu\f
 u_UCharsToChars_54
 u_austrcpy_54
 u_austrncpy_54
@@ -5074,6 +4740,7 @@ ubidi_setReorderingMode_54
 ubidi_setReorderingOptions_54
 ubidi_writeReordered_54
 ubidi_writeReverse_54
+uble
 ublequoteA
 ublock_getCode_54
 ubrk_close_54
@@ -5096,9 +4763,9 @@ ubrk_refreshUText_54
 ubrk_safeClone_54
 ubrk_setText_54
 ubrk_setUText_54
-ubrk_swap(): RBBI Data header is invalid.
-ubrk_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized
-ubrk_swap(): too few bytes (%d after ICU Data header) for break data.
+ubrk_swap(): RBBI Data header is invalid.\n
+ubrk_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized\n
+ubrk_swap(): too few bytes (%d after ICU Data header) for break data.\n
 ubrk_swap_54
 ucache_compareKeys_54
 ucache_deleteKey_54
@@ -5129,12 +4796,12 @@ ucasemap_utf8FoldCase_54
 ucasemap_utf8ToLower_54
 ucasemap_utf8ToTitle_54
 ucasemap_utf8ToUpper_54
-uchar_swapNames(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as unames.icu
-uchar_swapNames(): too few bytes (%d after header) for unames.icu
-uchar_swapNames(): too few bytes (%d after header) for unames.icu algorithmic range %u
-uchar_swapNames(): unknown type %u of algorithmic range %u
-uchar_swapNames(prefix string of algorithmic range %u) failed
-uchar_swapNames(token strings) failed
+uchar_swapNames(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as unames.icu\n
+uchar_swapNames(): too few bytes (%d after header) for unames.icu algorithmic range %u\n
+uchar_swapNames(): too few bytes (%d after header) for unames.icu\n
+uchar_swapNames(): unknown type %u of algorithmic range %u\n
+uchar_swapNames(prefix string of algorithmic range %u) failed\n
+uchar_swapNames(token strings) failed\n
 uchar_swapNames_54
 ucln_cleanupOne_54
 ucln_registerCleanup_54
@@ -5208,21 +4875,21 @@ ucnv_setFromUCallBack_54
 ucnv_setSubstChars_54
 ucnv_setSubstString_54
 ucnv_setToUCallBack_54
-ucnv_swap(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not recognized as an ICU .cnv conversion table
-ucnv_swap(): error swapping converter name
-ucnv_swap(): too few bytes (%d after header) for an ICU .cnv conversion table
-ucnv_swap(): too few bytes (%d after headers) for an ICU MBCS .cnv conversion table
-ucnv_swap(): too few bytes (%d after headers) for an ICU MBCS .cnv conversion table with extension data
-ucnv_swap(): unknown conversionType=%d!=UCNV_MBCS
-ucnv_swap(): unsupported MBCS output type 0x%x
-ucnv_swap(): unsupported _MBCSHeader.version %d.%d
-ucnv_swap(): unsupported combination of makeconv --small with SBCS
-ucnv_swapAliases().swapInvChars(charset names) failed
-ucnv_swapAliases().uprv_sortArray(%u items) failed
-ucnv_swapAliases(): data format %02x.%02x.%02x.%02x (format version %02x) is not an alias table
-ucnv_swapAliases(): table of contents contains unsupported number of sections (%u sections)
-ucnv_swapAliases(): too few bytes (%d after header) for an alias table
-ucnv_swapAliases(): unable to allocate memory for sorting tables (max length: %u)
+ucnv_swap(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not recognized as an ICU .cnv conversion table\n
+ucnv_swap(): error swapping converter name\n
+ucnv_swap(): too few bytes (%d after header) for an ICU .cnv conversion table\n
+ucnv_swap(): too few bytes (%d after headers) for an ICU MBCS .cnv conversion table with extension data\n
+ucnv_swap(): too few bytes (%d after headers) for an ICU MBCS .cnv conversion table\n
+ucnv_swap(): unknown conversionType=%d!=UCNV_MBCS\n
+ucnv_swap(): unsupported MBCS output type 0x%x\n
+ucnv_swap(): unsupported _MBCSHeader.version %d.%d\n
+ucnv_swap(): unsupported combination of makeconv --small with SBCS\n
+ucnv_swapAliases().swapInvChars(charset names) failed\n
+ucnv_swapAliases().uprv_sortArray(%u items) failed\n
+ucnv_swapAliases(): data format %02x.%02x.%02x.%02x (format version %02x) is not an alias table\n
+ucnv_swapAliases(): table of contents contains unsupported number of sections (%u sections)\n
+ucnv_swapAliases(): too few bytes (%d after header) for an alias table\n
+ucnv_swapAliases(): unable to allocate memory for sorting tables (max length: %u)\n
 ucnv_swapAliases_54
 ucnv_swap_54
 ucnv_toAlgorithmic_54
@@ -5238,9 +4905,9 @@ ucnvsel_open_54
 ucnvsel_selectForString_54
 ucnvsel_selectForUTF8_54
 ucnvsel_serialize_54
-ucnvsel_swap(): format version %02x is not supported
-ucnvsel_swap(): too few bytes (%d after header) for UConverterSelector data
-ucnvsel_swap(): too few bytes (%d after header) for all of UConverterSelector data
+ucnvsel_swap(): format version %02x is not supported\n
+ucnvsel_swap(): too few bytes (%d after header) for UConverterSelector data\n
+ucnvsel_swap(): too few bytes (%d after header) for all of UConverterSelector data\n
 ucol_close
 ucol_getLocale
 ucol_getSortKey
@@ -5251,16 +4918,16 @@ ucol_openFromShortString
 ucol_strcoll
 ucol_strcollIter
 ucol_strcollUTF8
-ucol_swap(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not recognized as collation data
-ucol_swap(formatVersion=3): endianness %d or charset %d does not match the swapper
-ucol_swap(formatVersion=3): magic 0x%08x or format version %02x.%02x is not a collation binary
-ucol_swap(formatVersion=3): too few bytes (%d after header) for collation data
-ucol_swap(formatVersion=4): too few bytes (%d after header) for collation data
-ucol_swap(formatVersion=4): unknown data at IX_RESERVED10_OFFSET
-ucol_swap(formatVersion=4): unknown data at IX_RESERVED18_OFFSET
-ucol_swap(formatVersion=4): unknown data at IX_RESERVED8_OFFSET
-ucol_swapInverseUCA(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not an inverse UCA collation file
-ucol_swapInverseUCA(): too few bytes (%d after header) for inverse UCA collation data
+ucol_swap(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not recognized as collation data\n
+ucol_swap(formatVersion=3): endianness %d or charset %d does not match the swapper\n
+ucol_swap(formatVersion=3): magic 0x%08x or format version %02x.%02x is not a collation binary\n
+ucol_swap(formatVersion=3): too few bytes (%d after header) for collation data\n
+ucol_swap(formatVersion=4): too few bytes (%d after header) for collation data\n
+ucol_swap(formatVersion=4): unknown data at IX_RESERVED10_OFFSET\n
+ucol_swap(formatVersion=4): unknown data at IX_RESERVED18_OFFSET\n
+ucol_swap(formatVersion=4): unknown data at IX_RESERVED8_OFFSET\n
+ucol_swapInverseUCA(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not an inverse UCA collation file\n
+ucol_swapInverseUCA(): too few bytes (%d after header) for inverse UCA collation data\n
 ucol_swapInverseUCA_54
 ucol_swap_54
 udata_closeSwapper_54
@@ -5279,13 +4946,13 @@ udata_readInt32_54
 udata_setAppData_54
 udata_setCommonData_54
 udata_setFileAccess_54
-udata_swapDataHeader(): header size mismatch - headerSize %d infoSize %d length %d
-udata_swapDataHeader(): initial bytes do not look like ICU data
+udata_swapDataHeader(): header size mismatch - headerSize %d infoSize %d length %d\n
+udata_swapDataHeader(): initial bytes do not look like ICU data\n
 udata_swapDataHeader_54
 udata_swapInvStringBlock_54
-udict_swap(): too few bytes (%d after header) for all of dictionary data
-udict_swap(): too few bytes (%d after header) for dictionary data
-udict_swap(): unknown trie type!
+udict_swap(): too few bytes (%d after header) for all of dictionary data\n
+udict_swap(): too few bytes (%d after header) for dictionary data\n
+udict_swap(): unknown trie type!\n
 udict_swap_54
 uenum_close_54
 uenum_count_54
@@ -5437,7 +5104,7 @@ umtx_condWait_54
 umtx_lock_54
 umtx_unlock_54
 unames
-unames/makeTokenMap() finds variant character 0x%02x used (input charset family %d)
+unames/makeTokenMap() finds variant character 0x%02x used (input charset family %d)\n
 unctuation
 unctuationO
 und-x-i-enochian
@@ -5465,8 +5132,8 @@ unorm2_normalize_54
 unorm2_openFiltered_54
 unorm2_quickCheck_54
 unorm2_spanQuickCheckYes_54
-unorm2_swap(): too few bytes (%d after header) for Normalizer2 data
-unorm2_swap(): too few bytes (%d after header) for all of Normalizer2 data
+unorm2_swap(): too few bytes (%d after header) for Normalizer2 data\n
+unorm2_swap(): too few bytes (%d after header) for all of Normalizer2 data\n
 unorm2_swap_54
 unorm_compare_54
 unorm_concatenate_54
@@ -5503,7 +5170,7 @@ uplug_setPlugNoUnload_54
 uppercase letter
 upplement
 uprv_aestrncpy_54
-uprv_asciiFromEbcdic() string[%d] contains a variant character in position %d
+uprv_asciiFromEbcdic() string[%d] contains a variant character in position %d\n
 uprv_asciitolower_54
 uprv_calloc_54
 uprv_ceil_54
@@ -5512,14 +5179,14 @@ uprv_compareEBCDICPropertyNames_54
 uprv_compareInvEbcdicAsAscii_54
 uprv_convertToLCID_54
 uprv_convertToPosix_54
-uprv_copyEbcdic() string[%] contains a variant character in position %d
-uprv_copyFromAscii() string[%d] contains a variant character in position %d
+uprv_copyEbcdic() string[%] contains a variant character in position %d\n
+uprv_copyFromAscii() string[%d] contains a variant character in position %d\n
 uprv_deleteUObject_54
 uprv_dl_close_54
 uprv_dl_open_54
 uprv_dlsym_func_54
 uprv_eastrncpy_54
-uprv_ebcdicFromAscii() string[%d] contains a variant character in position %d
+uprv_ebcdicFromAscii() string[%d] contains a variant character in position %d\n
 uprv_ebcdicFromAscii_54
 uprv_ebcdicToLowercaseAscii_54
 uprv_ebcdictolower_54
@@ -5624,18 +5291,18 @@ ures_openFillIn_54
 ures_openU_54
 ures_open_54
 ures_resetIterator_54
-ures_swap().swapArray16(16-bit units[%d]) failed
-ures_swap().udata_swapInvStringBlock(keys[%d]) failed
-ures_swap(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not a resource bundle
-ures_swap(): resource top %d exceeds bundle length %d
-ures_swap(): too few bytes (%d after header) for a resource bundle
-ures_swap(): too few indexes for a 1.1+ resource bundle
-ures_swap(): unable to allocate memory for sorting tables (max length: %d)
-ures_swap(): unable to allocate memory for tracking resources
-ures_swapResource(array res=%08x)[%d].recurse(%08x) failed
-ures_swapResource(root res=%08x) failed
-ures_swapResource(table res=%08x).uprv_sortArray(%d items) failed
-ures_swapResource(table res=%08x)[%d].recurse(%08x) failed
+ures_swap().swapArray16(16-bit units[%d]) failed\n
+ures_swap().udata_swapInvStringBlock(keys[%d]) failed\n
+ures_swap(): data format %02x.%02x.%02x.%02x (format version %02x.%02x) is not a resource bundle\n
+ures_swap(): resource top %d exceeds bundle length %d\n
+ures_swap(): too few bytes (%d after header) for a resource bundle\n
+ures_swap(): too few indexes for a 1.1+ resource bundle\n
+ures_swap(): unable to allocate memory for sorting tables (max length: %d)\n
+ures_swap(): unable to allocate memory for tracking resources\n
+ures_swapResource(array res=%08x)[%d].recurse(%08x) failed\n
+ures_swapResource(root res=%08x) failed\n
+ures_swapResource(table res=%08x).uprv_sortArray(%d items) failed\n
+ures_swapResource(table res=%08x)[%d].recurse(%08x) failed\n
 ures_swap_54
 urkic
 urrogates
@@ -5715,13 +5382,14 @@ uset_span_54
 uset_toPattern_54
 usets
 ushaskiyehbarree
+usic
 usprep_close_54
 usprep_openByType_54
 usprep_open_54
 usprep_prepare_54
-usprep_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as StringPrep .spp data
-usprep_swap(): too few bytes (%d after header) for StringPrep .spp data
-usprep_swap(): too few bytes (%d after header) for all of StringPrep .spp data
+usprep_swap(): data format %02x.%02x.%02x.%02x (format version %02x) is not recognized as StringPrep .spp data\n
+usprep_swap(): too few bytes (%d after header) for StringPrep .spp data\n
+usprep_swap(): too few bytes (%d after header) for all of StringPrep .spp data\n
 usprep_swap_54
 usrdt54l
 ustr_hashCharsN_54
@@ -5765,6 +5433,8 @@ utf32be
 utf32le
 utf32oppositeendian
 utf32platformendian
+utf7
+utf8
 utf8_appendCharSafeBody_54
 utf8_back1SafeBody_54
 utf8_countTrailBytes_54
@@ -5831,12 +5501,15 @@ ven_ZA
 verride9
 verride?
 version=
+vert
 vi_VN
 wcslen
 wcstombs
 wen_DE
+wer)
 wercaseletter%e(i<l%
 wercaseletter)c=e(iBl)
+wide
 windows-%d
 windows-1251
 windows-1254
@@ -5850,19 +5523,22 @@ windows-950
 windowsZones
 wline9
 wo_SN
+word
 wsurrogates
 wtailue
-x	x	u	u	u	u	u	u	r	u	u	u	u	u	u	9
 x!n`o
 x0y6z
 x11-compound-text
 x11compoundtext
+x\rx\rL
+x\tx\tu\tu\tu\tu\tu\tu\tr\tu\tu\tu\tu\tu\tu\t9
 xdigit
 xh_ZA
 xtend7
 xtended
 xtg-x-cel-gaulish
 xtline[
+yaGc
 yllabary
 yllable)
 yllables
@@ -5876,7 +5552,7 @@ yo_NG
 yprivateusearea
 yrene
 yy!i0m4s
-z Pt	
+z\rz\rz\rz\rz\rz\rz\rz\rz\rz\r
 z^L~no
 zantinemusic
 zaonhehgoal=
@@ -5886,6 +5562,7 @@ zh-min
 zh-min-nan
 zh-xiang
 zh@collation=stroke
+zhTW
 zh_CHS
 zh_CHT
 zh_CN
@@ -5916,7 +5593,12 @@ zh_YUE
 zoneinfo64
 zu_ZA
 {ABCDEFGHI
+{\f{\f{\f{\f{\f{\f
+{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f{\f
+{\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f~\f
 {abcdefghi
+|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v|\v
 }JKLMNOPQR
+}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n
 }jklmnopqr
 ~stuvwxyz

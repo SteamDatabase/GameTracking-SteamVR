@@ -8,7 +8,6 @@ GIF87a
 GIF89a
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
 NETSCAPE
 QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)
 QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
@@ -16,6 +15,7 @@ QArrayData::shared_null
 QByteArray::QByteArray(char const*, int)
 QByteArray::append(QByteArray const&)
 QByteArray::remove(int, int)
+QGifHandler::canRead() called with no device
 QGifPlugin
 QIODevice::isReadable() const
 QIODevice::peek(char*, long long)
@@ -72,7 +72,6 @@ _end
 _fini
 _init
 default
-gif
 libGL.so.1
 libQt5Core.so.5
 libQt5Gui.so.5
@@ -83,6 +82,7 @@ libpthread.so.0
 libstdc++.so.6
 memcpy
 memset
+nX(r
 operator delete(void*)
 operator delete[](void*)
 operator new(unsigned long)

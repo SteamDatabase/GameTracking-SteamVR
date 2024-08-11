@@ -1,55 +1,16 @@
-	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 'L>[
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^A]_^
- A_A^_
  Base Class Array'
  Base Class Descriptor at (
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- D;5u
- H3E H3E
  Type Descriptor'
  delete
  delete[]
- new[]
- t?D9
- tDE3
- vJH+
-!>6'Y
-!This program cannot be run in DOS mode.
-&D;j0u
-(D$ H
-(D$ f
-(D$PH
-(L$@D
-(t$ H
-(t$@H
-(t$@L
-(t$PH
-(|$ H
-(|$0I
-)>6{1n
-)D$03
-)D$@H
-)D$`A
-)t$0H
-)t$@H
+ new
 *StO9>T
-+J$D8M@
-+M<7>
-+f)>0'
-+h->|
-,/<-w
-,t0D9J0v*L
 .00cfg
 .?AU?$_InitialTaskHandle@XV<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
 .?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
@@ -201,6 +162,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -216,175 +178,57 @@
 .rdata$T
 .rdata$r
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xJ>Hf
 .xdata
 .xdata$x
-/>58d%
-0A^_^
-0A_A^A\
-0A_A^A\_^
-0A_A^A\_^][
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^_
-0A_A^_^[
-0A_A^_^]
 0iN>/
-1<.	/>:
+11Y@
 1eaB@
-2333333
+37>k
 3>N;kU
 3>fvw
-3A8A#
-5@8|$"t.9|
-8A^_^[
-8A_A^A]A\_^][
-8D$ u+I
-8Y0t]
-8\$`t
-91t0H
-91~/E3
+6\fXO>\ntA
 9>exp
-9D$(}y
-9G$vAD
-9WP~GM
-9WP~HM
-9WP~KM
-9X@u4
-9YD~/3
-9_D~/3
-9_D~H3
-9_P~OE3
-9oP~2E3
-9oP~3E3
-;B$vUH
-;B$vvI
-;Ct~EH
-;Ct~MH
-;Ct~ZH
-;Ct~bH
-;H9>&X
-;Vl}fD
-< t;<	t7
 <sqrt
+=cQ6
 =imb;D
->ffffff
+>cQ6
 >jtm}S
 ?7zQ6$
 ?8bunz8
-?:kP<
 ?@En[vP
-?H33H
-?QY^&
 ?UUUUUU
 ?f`Y4
-?{Q}<
-@(A+@4;
-@.data
-@.gfids
-@.reloc
-@.tls
-@09D$0
-@8|$^t
-@>%>b
-@A^A\_^]
-@A^_^
-@A_A^A\_^][
-@A_A^A]A\_
-@A_A^A]A\_^]
-@A_A^]
-@A_A^_
-@A_A^_^]
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SVWATAUAVAWH
-@SVWH
-@UATAUAVAWH
-@UATAVH
-@UAVAWH
-@USVWATAUAVAWH
-@VWATAVAWH
-@VWAVH
-@WAVAWH
-A$+A,t[3
-A(9B(D
-A+n H
-A,A9A(v&L
-A,u+H
-A0H9P
-A81t@@8r
-A84.u
-A86taH
-A9FHt
-A9FHtQI
-A;6}#I
-A;H$s
-A;H$v}H
+?qBJ
+?ysB
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ATAVAWH
-AUAVAWH
-A^A\]
-A^A]A\_[]
-A^_^[]
-A^_^][
-A_A^A\
-A_A^A\_]
-A_A^A\_^
-A_A^A]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_]
-A_A^A]_^
-A_A^]
-A_A^_
-A_A^_^]
-A`D9L8
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
 AirAbsorption
 April
 August
-AuthE
-B(I9A(
-B0E8XAt
-B8|09
-BC?>6t9^	c:>
+BC?>6t9^\tc:>
 BF>^G
 Bad dynamic_cast!
 Binaural
 Blends between omni and dipole directivity.
 Bypass the effect during initialization.
 BypassAtInit
-C$u	H
-C(9C u&
-C,9C$u
-C0H9C(r
-C0HcF
-C4D+@ H
-C8<(u
-C9|)$u?C
 C:\buildslave\phonon_rel_win64\build\unity\bin\windows-vs2015-x64-release\audioplugin_phonon.pdb
 ChangeTimerQueueTimer
 CloseHandle
@@ -410,61 +254,6 @@ CreateTimerQueue
 CreateTimerQueueTimer
 CreateUmsCompletionList
 CreateUmsThreadContext
-D$ !\$$H
-D$ 3A
-D$ E3
-D$ H;
-D$ I;
-D$(H;
-D$0C+D0(
-D$0E3
-D$0HcH
-D$0L;
-D$0f;UPu
-D$0tbA
-D$8HcJ
-D$8L9
-D$@E3
-D$@H+
-D$@H;
-D$@Ic
-D$@csm
-D$HL+
-D$PE;O
-D$PH+
-D$PH;
-D$PI;
-D$PIc
-D$XL+
-D$`E3
-D$`Hc
-D$`L+
-D$hA;
-D$xL+
-D08@t	
-D18 t
-D82u&H
-D8;tAH
-D8M@t
-D8M@t^
-D8l$`
-D8sAt
-D8t$Ht
-D8{$t1H
-D9B,t
-D9G$s5
-D9J,w
-D9c t
-D9d$(u
-D9f@~0Hc
-D9x(uiE
-D9{(u
-D9|$ 
-D;j0v
-D;z,u
-D;z,v
-D;z,v(A
-DD$$H
 DP_AirAbsHigh
 DP_AirAbsLow
 DP_AirAbsMid
@@ -502,15 +291,7 @@ DirectPath transmission, mid.
 Distance
 DuplicateHandle
 DynamicProgressFeedback
-E+H(A
-E0HcH
-E0Lcx
-E8X@t8A
-E;Bl}NE
-E;F$w
-EP*?@
-EPHc@
-ET$(H
+ET5>
 Enable air absorption.
 Enable distance attenuation.
 Enable indirect sound.
@@ -521,9 +302,6 @@ EnterUmsSchedulingMode
 ExecuteUmsThread
 ExitProcess
 ExitThread
-F(LcF I
-F0LcFDI
-F8HcNDI
 Fail to schedule the chore!
 February
 FindClose
@@ -540,12 +318,7 @@ FreeLibrary
 FreeLibraryAndExitThread
 FreeLibraryWhenCallbackReturns
 Friday
-FxH9Fp
-G H9F
-G$;G,
-G0Hc	H
-G8Hc@
-Genu3
+GCTL
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -594,56 +367,13 @@ GetTraceEnableLevel
 GetTraceLoggerHandle
 GetUmsCompletionListEvent
 GetVersionExW
-H!D$ E
-H!T$0D
-H!\$(L
-H!\$03
-H!u H
-H#N(H
-H#t$0tB
-H$E+H,toA
-H+C H=
-H+D$hH+D$P3
-H+D$pH
-H+G H=
-H3\$HH
-H98u	H
-H99u{
-H9A(s
-H9BhuTH
-H9D$PuCI
-H9D$p
-H9J t1
-H9K u
-H9_ht0H
-H9s@u
-H;@0u
-H;@Xu
-H;D$Pu
-H;D$`
-H;XXs
-H;YXt 
-H;xXu9
-HA_A]A\_^[
-HA_A^A]A\_^][
 HH:mm:ss
 HRTF interpolation.
 HRTFIndex
-Hc;HcK
-HcC H
-HcFTL
-HcGl;Gh}
-HcH<H
-HcK H
-HcKhH
-Hc]`M
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-Ht)I;
-I9}(t9H
-IcI A
 Index of the HRTF to use.
 IndirBinaural
 IndirLevel
@@ -664,54 +394,18 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
 January
-K 9N v@H
-K H9y
-K&>.yC
-K0u,H
-K4A+H 
+July
+June
 KERNEL32.dll
-K~Je#>!
-L!|$(L!
-L$ SVWH
-L$ UATAUAVAWH
-L$ UVWATAUAVAWH
-L$ WATAUAVAWH
-L$ WH
-L$$D;
-L$&@8t$&t0@8q
-L$(E3
-L$0H3
-L$0H;
-L$8H3
-L$8H=
-L$@;|
-L$@H3
-L$PH3
-L$XE3
-L$XH3
-L$`E;
-L$`tcA
-L$pH3
-L9`8tA
-L9w t#H
-L9x8u
-L9|$p
-L9~ t
-L;EHt
+L>ev
 LCMapStringEx
 LCMapStringW
-LcA<E3
-LcCP3
-LcFDI
-LcGP3
 LeaveCriticalSection
-Lj[;>
 LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 LocaleNameToLCID
 Lock already taken
-M H1E
 MM/dd/yy
 March
 MaxConcurrency
@@ -720,22 +414,18 @@ Mbp?333333
 MinConcurrency
 Monday
 MultiByteToWideChar
-N0Hci
+N>VF
+Name
 November
-O,D9O(vcH
-O0HcQ
+OZQ%
 OcclusionMethod
 OcclusionMode
 October
 OverrideHRTF
-PA^_^
-PA_A^_^]
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
 QueueUserWorkItem
-R(A9P4A
-R0E8XAt
 RSDS}
 Radius of the source.
 RaiseException
@@ -754,14 +444,8 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
+S9>H
 S>$hkDh$h>[2
-SUVWATAUAVAWH
-SUVWAVH
-SVWATAUAVAWH
-SVWATAUAWH
-SVWATAVAWH
-SVWAVAWH
-SVWAVH
 Saturday
 SchedulerKind
 SchedulingProtocol
@@ -797,17 +481,6 @@ Steam Audio Spatializer
 SubmitThreadpoolWork
 Sunday
 SwitchToThread
-T$ A3
-T$ A;
-T$ D+
-T$ E3
-T$0E3
-T$@H;
-T$PE3
-T$`H;
-T$pD;
-T$pE3
-T$pLk
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
@@ -820,19 +493,9 @@ TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
+Type
 UA>N0Wl
-UATAUAVAWH
-UAVAWH
-USVWATAUAVAWH
-USVWAVH
-USWATAUAVH
 UUUUUU
-UVWATAUAVAWH
-UVWATAVH
-UVWAVAWH
-UWATAVAWH
-UWAUAVAWH
-UWAVH
 UmsThreadYield
 UnhandledExceptionFilter
 Unique identifier for the source.
@@ -843,20 +506,9 @@ UnregisterWait
 UnregisterWaitEx
 UpdateProcThreadAttribute
 Uses static listener.
-V0;Ct~ZH
-V6E>`"(5
-VWATAUAVAWL
-VWATAVAW
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-V`;Ct~bH
 VirtualAlloc
 VirtualFree
 VirtualProtect
-W8HcH
-WATAUAVAWH
-WAVAWH
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
@@ -867,26 +519,9 @@ WideCharToMultiByte
 WinRTInitialization
 WriteConsoleW
 WriteFile
-X E9z
-X(D9y(
-XA_A^A\_^[
-Y$D;R
-Y0t>H
-Z(D9Z
 [*ncd>0
-\$ H;
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ WH
-\$(I;
-\$0H;
-\$4E;O
-\$@H;
-\$PE3
-\$pE3
-\ffff
+\nk>oB
+\tkE>fvw
 __based(
 __cdecl
 __clrcall
@@ -899,10 +534,6 @@ __stdcall
 __thiscall
 __unaligned
 __vectorcall
-` UAVAWH
-`.rdata
-`A_A^A]A\_^]
-`A_A^_^]
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -953,40 +584,22 @@ bad exception
 bad file descriptor
 bad function call
 bad message
-bp(=>?g
 broken pipe
 broken promise
-c [1>H'
-c(>\,
-cAMDD
 connection aborted
 connection already in progress
 connection refused
 connection reset
 count
 cross device link
-d$ D;
-d$ E3
-d$DE;
-d$`H+
-d$hE3
 dddd, MMMM dd, yyyy
 deque<T> too long
 destination address required
 device or resource busy
 directory not empty
-e0A_A^A]A\]
-e@A_A^]
-entiA
+eF>t
 eventObject
 executable format error
-fA9	u/I
-fD90t
-fD94Fu
-fD96u
-fD9t$b
-ffffff
-fffffff
 file exists
 file too large
 filename too long
@@ -999,7 +612,6 @@ host unreachable
 identifier removed
 illegal byte sequence
 inappropriate io control operation
-ineIA
 interrupted
 invalid argument
 invalid seek
@@ -1055,20 +667,10 @@ iplUnitySetCurrentSOFAFile
 iplUnitySetEnvironment
 iplUnitySetListener
 is a directory
-k0t$I
-kxu/H
-l$ VWATAUAVAWE3
-l$ VWATAVAWH
-l$ VWAVH
-l$ WAVAWH
-l$0E3
-l$HA_A^A]A\_^
-l$PA_A^A]A\_^
-l$`C9,
 list<T> too long
 log10
+mG4>
 message size
-n D9e
 n03>Pu
 network down
 network reset
@@ -1093,7 +695,6 @@ not a stream
 not connected
 not enough memory
 not supported
-ntelE
 operation canceled
 operation in progress
 operation not permitted
@@ -1101,11 +702,7 @@ operation not supported
 operation would block
 operator
 operator "" 
-ot$ H
 owner dead
-p AWH
-pA_A^A]A\_^[
-pA_A^A]A\_^]
 pContext
 pEvents
 pExecutionResource
@@ -1113,119 +710,31 @@ pScheduler
 pThreadProxy
 permission denied
 ppVirtualProcessorRoots
+proc
 promise already satisfied
 protocol error
 protocol not supported
-q(9YD~tE3
-r	Vr.>T
-r	uOD;d$(uH
-r 9_ t
-r:D8v
-rBu/H
 rLp>B
+r\tVr.>T
 read only file system
 resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
-ri9V vdH
-s	A9;A
-s@t%@
 sqrtf
 state not recoverable
 stream timeout
 string too long
 switchState
-t H9X8tN
-t"<.u
-t$ AVH
-t$ E3
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$$E3
-t$0f9u
-t$4E3
-t$8H+
-t$H;^Xt
-t$Pu1H
-t$`9w
-t$`;w
-t$h9~
-t&D8{9
-t'B;| 
-t*H9X8u$@8
-t+H;G
-t.8\$P
-t4McF
-t:LcM
-t;A9;
-tCHcP
-tDD9V
-tGH;~XtA
-tP@8|$!u4@8|$"t-
-tSK;D
-tXLcQ
-tbD9R
 text file busy
 timed out
-tlLcA
-tlMcH
 too many files open
 too many files open in system
 too many links
 too many symbolic link levels
-trLcJ
-ttIcF
-tvLcK
-twH;^XtH3
-u	9w$
-u!!D$(H
-u%!D$@H
-u)!t$(H
-u2A8D
-u3HcH<H
-uf!T$(H!T$ 
-uh@8|$!t,
 unknown error
-uuHcF
-uxHcOP
 uzKs@>
-v A9~ w
 value too large
 vector<T> too long
 version
 wrong protocol type
-x ATAVA
-x ATAVAWH
-x AV3
-x AVE2
-x AVE3
-x AVH
-x AVHcA
-x AWH
-xA_A^A]A\_^][
-y\PD>!
-{ ATAVAWH
-{ AVH
-{(H9n
-|$ AVH
-|$ D!
-|$ E3
-|$ UATAUAVAWH
-|$ UAVAWH
-|$(A^
-|$(I;
-|$0@"
-|$0A^A\
-|$4E;
-|$89^
-|$8;3
-|$@H;
-|$XHcU
-|$\.u
-|$h9i
-|$pE3
-|b=})>
-~(HcNDI
-~`8A!t

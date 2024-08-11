@@ -1,12 +1,10 @@
 $ORIGIN/../../lib
-1
 11QGLXContext
 11QGLXPbuffer
 13QXcbGlxWindow
 18QXcbGlxIntegration
 24QXcbGlxIntegrationPlugin
 29QXcbGlxNativeInterfaceHandler
-ATI
 CXXABI_1.3
 Chromium
 Could not initialize GLX
@@ -20,7 +18,6 @@ GLX_ARB_get_proc_address
 GLX_EXT_create_context_es2_profile
 GLX_EXT_swap_control
 GLX_MESA_swap_control
-GNU
 LIBGL_ALWAYS_SOFTWARE
 Mesa Project and SGI
 QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)

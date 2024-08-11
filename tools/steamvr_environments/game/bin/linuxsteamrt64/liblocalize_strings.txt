@@ -1,7 +1,10 @@
-"
-"%s"
+  %s (path ID '%s')\n
+  string data: %s bytes (%s extra waste) in %s blocks\n
+ ( def. "%s" )
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
 "%s" = "%s"
-"lang"{"Language" "English""Tokens"{
+"lang"\r\n{\r\n"Language" "English"\r\n"Tokens"\r\n{\r\n
 #GameUI_Language_Brazilian
 #GameUI_Language_Bulgarian
 #GameUI_Language_Czech
@@ -108,57 +111,39 @@
 #Valve_SelectLanguage_Ukrainian
 #Valve_SelectLanguage_Vietnamese
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
-$@
 $ORIGIN
-$U
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %04d
 %04d_%02d_%02d_%02d_%02d_%02d
 %f %f %f %f
-%hd
-%hu
 %i %i %i %i
 %language%
 %lld
 %llu
 %ls [wstring, len = %d]
-%s
-%s (path ID '%s')
-%s failed to localize: %s
-%s localization, %s tokens
-%s%d
-%s,
-%s/
-%s\%s
+%s failed to localize: %s\n
+%s localization, %s tokens\n
 %s\Settings
-%s_[%s]
-( def. "%s" )
-(*%s*),
-*.*
 *.txt
--
 -all_languages
 -ccsyntax
 -enablejongsung
 -language
 -textlanguage
 -textsublanguage
-...
 ../public/ordered_constructor.h
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier1/utlsymbol.h
-//
 /content/
 /game/
-04
 0x%016llX
 0x%p
 10ConCommand
@@ -174,16 +159,15 @@ $U
 20CPostConnectCallback
 22CSchemaInstallCallback
 23IConCommandBaseAccessor
+5t~BC
 6ConVar
 7IConVar
-8
 8CFmtStrNILi256ELb0EE
 9CLocalize
 9CRegistry
 9ILocalize
 9IRegistry
-<
-<< NULL >>
+<< NULL >>\n
 <NULL>
 <deferred>
 <floating-point value out of range>
@@ -200,13 +184,12 @@ $U
 <null>
 <space>
 <unconnected>
->
-A$
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+>WIN32
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 ARS$
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
-Add
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 AddTokenMiss
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
@@ -222,8 +205,6 @@ Bad expression token: %c
 BakedLODBuilderMgr001
 BenchmarkService001
 BinaryProperties_GetValue
-Br
-C$
 CBufferString::AppendFormat(char const*, ...)
 CBufferString::Concat(char const*, char const*, ...)
 CBufferString::ExtendPath(char const*, char)
@@ -234,11 +215,10 @@ CBufferString::Relinquish(CBufferString::EAllocationOption_t)
 CBufferString::RemovePartialUTF8Tail(bool)
 CBufferString::SetPtr(char*, int, int, bool, bool)
 CBufferString::ShortenPath()
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
-CHF
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CLP$
-CLocalize::InstallChangeCallback: Attempted to add the same callback twice!
+CLocalize::InstallChangeCallback: Attempted to add the same callback twice!\n
 CMemAllocSystemInitialize
 COL$
 COLORCORRECTION_VERSION_1
@@ -254,24 +234,23 @@ CThreadSpinRWLock::UnlockRead(char const*, int)
 CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
-CUtlBlockMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlBlockMemory overflow!\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CXXABI_1.3
 ChangeSize
 CommandLine
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
 CreateInterface
 DEMO
-DH
 DebugTextureInfo001
 DevMsg
 DevMsg(char const*, ...)
@@ -279,23 +258,22 @@ DotaCardGameClient_001
 DuplicateTokensAssert
 DuplicateTokensFail
 DuplicateTokensWarning
-ERROR: Duplicate string token '%s' found in %s (original in %s)
+ERROR: Duplicate string token '%s' found in %s (original in %s)\n
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 EventSystem001
-F
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-Failed to read localization file %s
-File change watching failed for '%s', retraversing
+Failed to read localization file %s\n
+File change watching failed for '%s', retraversing\n
 FindSafe
 FindSafeAsWString
 FlattenedSerializersVersion001
 FontManager_001
-Full paths not allowed in localization file specification '%s'
+Full paths not allowed in localization file specification '%s'\n
 GAMECONSOLE
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GLIBC_2.14
@@ -303,31 +281,28 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
 GetResourceManifestCount
 GetResourceManifests
 HIGHDPI
-HK$
 HammerMapLoader001
 HangWatchdog_IndicateActivity
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-ILocalize::AddFile() failed to load file "%s".
+ILocalize::AddFile() failed to load file "%s".\n
 IQuickTime001
-Ignoring unsupported encoding in localization file '%s'
+Ignoring unsupported encoding in localization file '%s'\n
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
-KD
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 KeyValueCache001
 KeyValuesSystem
 LANG
@@ -350,12 +325,12 @@ LOWVIOLENCE
 Language
 Latam_Spanish
 List all loaded localization files
-Loaded localization files:
-Localization key '%s' has a conditional that is too long. Truncating.
-Localization key '%s' has a value that is too long. Truncating.
-Localization key '%s' is too long. Truncating.
-Localization string too long: %d chars in '%.20s...'
-Localization watching these dirs for changes:
+Loaded localization files:\n
+Localization key '%s' has a conditional that is too long. Truncating.\n
+Localization key '%s' has a value that is too long. Truncating.\n
+Localization key '%s' is too long. Truncating.\n
+Localization string too long: %d chars in '%.20s...'\n
+Localization watching these dirs for changes:\n
 Localize
 Localize_001
 Localize_Create
@@ -375,10 +350,7 @@ MeshSystem001
 MeshUtils001
 Mex$
 ModelDocUtils001
-NT$
 NULL
-NZ$
-NaN
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -387,9 +359,8 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 None
-OSX
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 POSIX
-PS3
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -410,13 +381,9 @@ Plat_gmtime
 Plat_localtime
 PostProcessingSystem_001
 PropertyEditorSystem_001
-QR
 QueuedLoaderVersion001
-R$
-RM
-ReadToken overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Release
 RenderDevice003
 RenderDeviceMgr001
@@ -428,9 +395,6 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
-Rp
-S/.
-SR
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
@@ -457,8 +421,6 @@ Source2Server001
 Source2ServerSerializers002
 StatsService_001
 SteamAudio001
-T
-TL
 TestFormatA
 TestFormatB
 TestFormatC
@@ -476,9 +438,8 @@ ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
 Traditional_Chinese
-U
-Unable to find localization token '%s'
-Unable to watch '%s'
+Unable to find localization token '%s'\n
+Unable to watch '%s'\n
 UserInfoChangeService_001
 VApplication001
 VAvi001
@@ -559,20 +520,16 @@ V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 VisBuilder_001
-WARNING: CDirWatcher not implemented
-WARNING: Duplicate string token '%s' found in %s (original in %s)
+WARNING: CDirWatcher not implemented\n
+WARNING: Duplicate string token '%s' found in %s (original in %s)\n
 WINDOWS
 WINXP
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 X360
-Y@
-[!$
-[$
-[%.3f server clamped to %.3f]
 [english]
 [unknown string]
 [unknown]
@@ -611,7 +568,6 @@ _edata
 _end
 _english.txt
 _fini
-a
 alphasort64
 archive
 bg_BG
@@ -622,29 +578,22 @@ binary_lz4
 borrow
 brazilian
 bulgarian
-c
 cheat
 client
 clientcmd_can_execute
 close
 closedir
 configvalue.cpp
-cs
 cs_CZ
 czech
-da
 da_DK
 danish
 de_DE
 delete
 developer
 dump_localization_files
-dup
 dutch
-e
-el
 el_GR
-en
 en_US
 english
 es-419
@@ -653,16 +602,13 @@ es_ES
 false
 fcntl
 fdatasync
-fi
 fi_FI
 finnish
 float( %f )
-fr
 fr_FR
 free
 french
 ftruncate64
-g
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_pMemAlloc
@@ -673,22 +619,16 @@ getenv
 greek
 hu_HU
 hungarian
-i
 int( %d = 0x%X )
 interfaces.cpp
-it
 it_IT
 italian
-ja
 ja_JP
 japanese
 keyvalues.cpp
-ko
 ko_KR
 korean
 koreana
-kr
-l
 latam
 ld-linux-x86-64.so.2
 libc.so.6
@@ -699,22 +639,16 @@ libtier0.so
 localize
 localize_imp.cpp
 lseek64
-max. %f
 memcpy
 memmove
 mempool.cpp
 memset
-min. %f
-n
-nl
 nl_NL
-no
 no_NO
 none
 norwegian
 notconnected
 notify
-o
 open64
 opendir
 operator delete(void*)
@@ -724,7 +658,6 @@ operator new(unsigned long, std::nothrow_t const&)
 operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
 pipe
-pl
 pl_PL
 polish
 portuguese
@@ -740,20 +673,15 @@ pthread_mutexattr_init
 pthread_mutexattr_settype
 ptr( 0x%p )
 pwrite64
-r
-rb
 read
 readdir64
 readlink
 replicated
 resource/valve_%language%.txt
-ro
 ro_RO
 romanian
-ru
 ru_RU
 russian
-s
 scandir64
 schemabindings.cpp
 schinese
@@ -765,23 +693,18 @@ strcasecmp
 strchr
 strcmp
 strcpy
-string data: %s bytes (%s extra waste) in %s blocks
 strlen
 strrchr
-sv
 sv_SE
 swedish
-t
 tchinese
 text
 th_TH
 thai
-tr
 tr_TR
 turkish
 typeinfo for CThreadSyncObject
 u64( %lld = 0x%llX )
-uk
 uk_UA
 ukrainian
 unknown
@@ -790,21 +713,13 @@ update
 user
 utlstring.cpp
 utlsymbol.cpp
-v
-vi
 vi_VN
 vietnamese
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-wb
 wcscmp
 wcslen
 write
-zh
 zh_CN
 zh_TW
-{
-{}()':
-}
-}}

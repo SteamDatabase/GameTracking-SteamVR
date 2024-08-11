@@ -1,35 +1,10 @@
-					
-							
-												
-																			
-																									
-																												
-																																												
-	!s99
-	<bu 
-	@81t/@8q
-   Driver Description: %s
-   Driver Inf Path: %s
-   Driver Inf Section: %s
-   Friendly Name: %s
-   Manufacturer: %s
-   Service: %s
- !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
- %41g
- A^A]A\^]
- A^_^
- A_A\[
- A_A]A\
- A_A]A\_[
- A_A^A\
- A_A^A]A\_
- A_A^]
- A_A^_
- A_^[
- A__^
- H3E H3E
+   Driver Description: %s\n
+   Driver Inf Path: %s\n
+   Driver Inf Section: %s\n
+   Friendly Name: %s\n
+   Manufacturer: %s\n
+   Service: %s\n
  aborted.
- ack#:
  but should be in STATE_START. This state is not valid.
  bytes received. Data will not be sent to transport layer above.
  close:
@@ -40,7 +15,7 @@
  does not have exit criteria associated with it. Will continue to close the H5Transport.
  err_code:0x
  failed. Error: 
- for detail.
+ for detail.\n
  handlers.
  header_checksum:
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
@@ -53,7 +28,6 @@
  reliable:
  resetSent:
  resetWait:
- seq#:
  seq_num is: 
  sliding-window-size:
  stateMachineThread exists, this should not happen. Terminating.
@@ -62,74 +36,30 @@
  syncReceived:
  syncRspReceived:
  syncSent:
- t;A;
  times.
  version-number:
-!hn7!
-%%.%dg
-%4.4X:%4.4X
-%Oj(S[f
-%s (%4.4X:%4.4X Serial: %s)
-%s data received. (handle: %d, bytes: %d) '%s'
-%s setup error from %s
-%s: %s, SD v%d, %s, Attempt: %d
-%s: Failed in state: %d (nrf_error: %s)
+%02X
+%06d
+%4.4X:%4.4X\n
+%s (%4.4X:%4.4X Serial: %s)\n
+%s data received. (handle: %d, bytes: %d) '%s'\n
+%s setup error from %s\n
+%s: %s, SD v%d, %s, Attempt: %d\n
+%s: Failed in state: %d (nrf_error: %s)\n
 ' is not a number.
-',=?k
-()$^.*+?[]|\-{},:=!
-(9Q|uWH
-(A^A]A\^
-(A^A]^[
-(A_A^^[
-(D$ f
-(D$0L
-(D$0f
-(D$@H
-(D$@f
-(D$Pf
-(L$@H
-(L$@f
-(L$PL
+()$^.*+?[]|\-{},:=!\n\r
+(COM
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
-(_^][
-(f*^[0
-(t$ H
-(t$@H
-(t$`H
-(t$`L
-(t$pA;
-(|$0H
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-)D$ H
-)D$ L
-)D$03
-)D$0H
-)D$0L
-)D$@H
-)D$PH
-)D$PL
-)D$`H
-)D$p3
-)D$pH
-)t$@H
-)t$`H
-)t$pA
-*D8|$h
-*uXI;
-+9kdt	H
-+Xt@(
-+o'q)}
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
-,W5y+
 -1e+9999
 -Infinity
 -external
 -internal
--u-I;
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
@@ -575,6 +505,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -592,12 +523,12 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
@@ -608,93 +539,17 @@
 000084211212EFDE1523785FEABCD124
 0000CB0000001000800000805F9B34FB
 0000CB0100001000800000805F9B34FB
-0A^^[
-0A^^]
-0A^_]
-0A^_^
-0A_A^A\
-0A_A^A\^[
-0A_A^A\_^
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^^
-0A_A^_
-0A_A^_^[
-0A__[
-0A__^
-0w0c1
-0}0i1
-130801120000Z
 1e+9999
 2.0.0
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173833Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-3333333
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
 64-bit
-666666666
-6666666666666
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8A^A]^]
-8A_A^A]]
-8D$Ru
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
-8]8vPH
-8_^][
-9C }&L
-9C }(H
-9\$Pt
-9\u-H
-9\u4H
-9l$pt
-9t$0t
-9t$0u
-9t$`t
-9|$0u
-9|$@t
-9|$@u
-9|$Pt
-9|$`t
-:\u-L
-:\u6L
-;K }DH
-;Q |	H
-</u#H
-<0:08
-<= Exiting Context: (%.2f seconds)
-<Bu'H
-======================
-==============================
-=> Entering Context
-=rIQU
->0<0:
->Mp$d
+9a&g
+<= Exiting Context: (%.2f seconds)\n
+==============================\n
+======================\n
+=> Entering Context\n
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -754,7 +609,6 @@
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-?e7~q[
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -779,123 +633,15 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@.data
-@.reloc
-@81t)@8q
-@8sPt
-@A^][
-@A^_]
-@A^_^
-@A^_^][
-@A_A\_^]
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\_
-@A_A^A]A\_^[
-@A_A^]
-@A_A^_
-@A_A^_^[
-@LcqHD
-@SATAWH
-@SAUAVAWH
-@SAVAWH
-@SAVH
-@SAWH
-@SUVATAUAVAWH
-@SUVATH
-@SUWATAVAWH
-@SUWAVAWH
-@SUWAVH
-@SUWH
-@SVAUAVH
-@SVAVAWH
-@SVAVH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAUH
-@SVWATAWH
-@SVWAVAWH
-@SVWAVH
-@SVWH
-@SWATAUAWH
-@SWAUAVH
-@SWAVAWH
-@SWAVH
-@SWAWH
-@UAUAVAWH
-@USVWATAUAVAWH
-@USVWATAVAWH
-@USVWAVAWH
-@USVWAVH
-@USVWAWH
-@USWATAUH
-@USWATAWH
-@USWATH
-@USWAVH
-@UVATAUAVH
-@UVAUAVH
-@UVWATAUAVAWH
-@UVWATAVAWH
-@UVWATAWH
-@UVWAVAWH
-@UVWH
-@UWAVH
-@VATAUAVH
-@VWAVH
-@WAVAWH
 A valid JSON document must be either an array or an object value.
-A9q }EI
-A;A A
-A;q }?I
 ACL_DATA_PACKET
 ADVAPI32.dll
-ATAVAWH
-A\_[]
-A]A\_[]
-A]A\_^[
-A]_^[]
-A^A\]
-A^A\^
-A^A\_^]
-A^A]A\_[]
-A^_[]
-A^_^[
-A^_^[]
-A_A\]
-A_A\_]
-A_A\_^[
-A_A\_^]
-A_A]A\^[]
-A_A^A\
-A_A^A\_]
-A_A^A\_][
-A_A^A\_^
-A_A^A\_^[]
-A_A^A]A\]
-A_A^A]A\^][
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^]H
-A_A^A][
-A_A^A]_^[]
-A_A^[
-A_A^]
-A_A^_
-A_A^_][
-A_A^_^[
-A_A^_^[]
-A_A^_^]
-A__^[]
-A__^]
-Address:  %s
+Address:  %s\n
 Already open
 Attribute Discovery
-AuthD
 Authentication
-Authentication status failed. (auth_status: %s)
-BLE Serialization Shutdown.
+Authentication status failed. (auth_status: %s)\n
+BLE Serialization Shutdown.\n
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
 BLE_GAP_SEC_STATUS_CONFIRM_VALUE
@@ -985,35 +731,18 @@ BS2_SetPowerState
 BS2_SetSyncOnBeamChannel
 BS_ReadProperties
 BS_Scan
+B\fp\v0
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Baud rate: 
-Bellevue1
 Bluetooth_Initialize
 Bootloader Mode
-C$9C w
-C0L9$
-CD$(H
-CD$0H
-CL$ 3
-CL$0H
-CL$HH
-CL$XL
 CLSIDFromProgID
 CLSIDFromString
 CONFIG [
 CONFIG_RESP [
 CONNECTION_ACTIVE
-CT$(L
-CT$@L
-CT$PH
-CT$`L
-CT$pH
-C\$0H
-C\$0L
-C\$PL
-C\$pH
 Caller: additions to the zip have already been ended
 Caller: can only get memory of a memory zipfile
 Caller: faulty arguments
@@ -1021,23 +750,22 @@ Caller: mixing creation and opening of zip
 Caller: not enough space allocated for memory zipfile
 Caller: the file had already been partially unzipped
 Caller: there was a previous error
-Characteristic Declaration handle: %d, Value handle: %d, Characteristic UUID: 0x%04X
-Characteristic discovery failed. (gatt_status: %s)
-Cl$ M
+Characteristic Declaration handle: %d, Value handle: %d, Characteristic UUID: 0x%04X\n
+Characteristic discovery failed. (gatt_status: %s)\n
 CloseHandle
 CoGetClassObject
 CoGetObject
 CoInitialize
 CoUninitialize
-Completed. Transfer took %.2f seconds.
+Completed. Transfer took %.2f seconds.\n
 Connect To Target
-Connecting to %s, attempt: %d
-Connection Request Failed. (nrf_error: %s)
-Connection Timeout.
+Connecting to %s, attempt: %d\n
+Connection Request Failed. (nrf_error: %s)\n
+Connection Timeout.\n
 Connection active
-Connection cancel failed. (nrf_error: %s)
-Connection established to handle %d.
-Connection params update failed. (nrf_error: %s)
+Connection cancel failed. (nrf_error: %s)\n
+Connection established to handle %d.\n
+Connection params update failed. (nrf_error: %s)\n
 ContainerID
 Continue
 Couldn't create/open file
@@ -1045,68 +773,8 @@ CreateDirectoryA
 CreateEventW
 CreateFileA
 CreateIoCompletionPort
-Creating BLE Serial Transport on %s at %d.
-Ct$0A
-Ct$`H
+Creating BLE Serial Transport on %s at %d.\n
 Culdn't duplicate handle
-Cx<au
-Cx<bu
-Cx<cuW
-Cx<fu
-C|$ H
-C|$0H
-C|$PM
-C|$xfff
-D$ @B
-D$ A;
-D$ E3
-D$ H;
-D$ f#
-D$(H;
-D$(I;
-D$0E3
-D$0H+
-D$0H;
-D$0HcH
-D$0L;
-D$8A9
-D$8E9f
-D$8H9D$@t
-D$8L;
-D$@</t
-D$@A8
-D$@E3
-D$@H;
-D$@HcH
-D$@I;
-D$@fD
-D$HE3
-D$HH;
-D$HL;
-D$PE3
-D$PH;
-D$PfA9
-D$QD:
-D$XA+
-D$XH;
-D$Xf;D$Pw
-D$`H;
-D$`H;E
-D$`HcH
-D$`I;
-D$`fI
-D$h9C
-D$pH;
-D$pHcH
-D$pI+
-D$xH;
-D$xI;
-D9@ }
-D9\$ u
-D9wps
-D;C |
-D;l$0
-D;v sWH
 DFU Post
 DFU_EXT_ERROR_FW_VERSION_FAILURE
 DFU_EXT_ERROR_HASH_FAILED
@@ -1142,25 +810,18 @@ DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
 DeleteCriticalSection
-Descriptor discovery failed. (gatt_status: %s)
-Descriptor handle: %d, UUID: 0x%04X
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+Descriptor discovery failed. (gatt_status: %s)\n
+Descriptor handle: %d, UUID: 0x%04X\n
 DisableThreadLibraryCalls
-Disconnected, reason: %s
-Disconnecting.
-Disconnecting. Forcing connection cancel.
-Disconnecting. Waiting for missing connection event.
-Disconnection Failed. (nrf_error: %s)
-Discovered Service. UUID: 0x%04X, start_handle: %d, end_handle: %d
-Discovering Characteristics on handles [%d..%d].
-Discovering Descriptors on handles [%d..%d]
-Discovering Services at %d.
+Disconnected, reason: %s\n
+Disconnecting. Forcing connection cancel.\n
+Disconnecting. Waiting for missing connection event.\n
+Disconnecting.\n
+Disconnection Failed. (nrf_error: %s)\n
+Discovered Service. UUID: 0x%04X, start_handle: %d, end_handle: %d\n
+Discovering Characteristics on handles [%d..%d].\n
+Discovering Descriptors on handles [%d..%d]\n
+Discovering Services at %d.\n
 DoAttributeDiscoveryContext
 DoAuthenticationContext
 DoBootloaderModeContext
@@ -1171,10 +832,6 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
-E M;G
-E9e ~7I
-E@HcH
-EMEmV
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1189,73 +846,58 @@ Error sending packet to target. Code: 0x
 Error setting up serial port 
 Error starting serial port work thread. 
 Error writing to file
-Error. Received Write TX. (gatt_status: %s)
-Error. Write operation failed. (gatt_status: %s)
+Error. Received Write TX. (gatt_status: %s)\n
+Error. Write operation failed. (gatt_status: %s)\n
 Error: 
-ExM;n0I
 Exceeded stackLimit in readValue().
-Exchange MTU Request Failed. (nrf_error: %s)
-Existing Bootloader mode.
-Extended Error: %s, %s
-F8$3u
-F<f9G
-Failed to GAP Auth Key Reply. (nrf_error: %s)
-Failed to GAP Authenticate. (nrf_error: %s)
-Failed to GAP Security Params Reply. (nrf_error: %s)
-Failed to GAP encrypt. (nrf_error: %s)
-Failed to GATT Write. (nrf_error: %s)
-Failed to GATT Write. (nrf_error: %s), queue: %d
-Failed to GATTC Handle value confirm. (nrf_error: %s)
-Failed to acquire radio.
+Exchange MTU Request Failed. (nrf_error: %s)\n
+Existing Bootloader mode.\n
+Extended Error: %s, %s\n
+Failed to GAP Auth Key Reply. (nrf_error: %s)\n
+Failed to GAP Authenticate. (nrf_error: %s)\n
+Failed to GAP Security Params Reply. (nrf_error: %s)\n
+Failed to GAP encrypt. (nrf_error: %s)\n
+Failed to GATT Write. (nrf_error: %s), queue: %d\n
+Failed to GATT Write. (nrf_error: %s)\n
+Failed to GATTC Handle value confirm. (nrf_error: %s)\n
+Failed to acquire radio.\n
 Failed to allocate memory
-Failed to close nRF BLE Driver. (nrf_error: %s)
-Failed to continue a GAP Scan. (nrf_error: %s)
-Failed to create 16-bit UUID for 128-bit UUID. (nrf_error: %s)
-Failed to create data link layer.
-Failed to create physical layer.
-Failed to create serial transport adapter.
-Failed to create transport layer.
+Failed to close nRF BLE Driver. (nrf_error: %s)\n
+Failed to continue a GAP Scan. (nrf_error: %s)\n
+Failed to create 16-bit UUID for 128-bit UUID. (nrf_error: %s)\n
+Failed to create data link layer.\n
+Failed to create physical layer.\n
+Failed to create serial transport adapter.\n
+Failed to create transport layer.\n
 Failed to decode event, error code is 
-Failed to disconnect properly.
-Failed to enable BLE stack. (nrf_error: %s)
-Failed to find target COM port.
-Failed to initiate a GAP Scan Start. (nrf_error: %s)
-Failed to initiate a GAP Scan Stop. (nrf_error: %s)
-Failed to initiate a GATT read characteristic value procedure. (nrf_error: %s)
-Failed to initiate or continue a GATT Characeristics Discovery procedure. (nrf_error: %s)
-Failed to initiate or continue a GATT Descriptors Discovery procedure. (nrf_error: %s)
-Failed to initiate or continue a GATT Primary Service Discovery procedure. (nrf_error: %s)
-Failed to open DFU zip file '%s'
-Failed to open nRF BLE Driver. (nrf_error: %s)
+Failed to disconnect properly.\n
+Failed to enable BLE stack. (nrf_error: %s)\n
+Failed to find target COM port.\n
+Failed to initiate a GAP Scan Start. (nrf_error: %s)\n
+Failed to initiate a GAP Scan Stop. (nrf_error: %s)\n
+Failed to initiate a GATT read characteristic value procedure. (nrf_error: %s)\n
+Failed to initiate or continue a GATT Characeristics Discovery procedure. (nrf_error: %s)\n
+Failed to initiate or continue a GATT Descriptors Discovery procedure. (nrf_error: %s)\n
+Failed to initiate or continue a GATT Primary Service Discovery procedure. (nrf_error: %s)\n
+Failed to open DFU zip file '%s'\n
+Failed to open nRF BLE Driver. (nrf_error: %s)\n
 Failed to receive response for command
-Failed.
-Failed. Base needs power cycle.
+Failed. Base needs power cycle.\n
+Failed.\n
 File not found in the zipfile
 FileTimeToSystemTime
 FindBaseStationContext
-Firmware: %s
-Fixup Write to BS2 Power Control Point, On before Off.
+Firmware: %s\n
+Fixup Write to BS2 Power Control Point, On before Off.\n
 Flow control: 
 FormatMessageA
-Found target %s (%4.4X:%4.4X Serial: %s)
-Found: %s, size: %d
+Found target %s (%4.4X:%4.4X Serial: %s)\n
+Found: %s, size: %d\n
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
-G<f9F
-G>f9F
-G@9E0t
-G@f9F
-GATT Write With Response. (handle: %d, length: %d) '%s'
-GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'
-GATTC Send handle value confirmation to handle %d
-GBf9F
-GD9E0t
-GDf9F
-GFf9F
-GH9E0t
-GXA_A^A]A\_^]
-G`f9F
-Gdf9F
-Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d
+GATT Write With Response. (handle: %d, length: %d) '%s'\n
+GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'\n
+GATTC Send handle value confirmation to handle %d\n
+Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d\n
 GetCommState
 GetCurrentDirectoryA
 GetCurrentProcess
@@ -1270,150 +912,55 @@ GetProcessHeap
 GetQueuedCompletionStatus
 GetSystemTimeAsFileTime
 GetTickCount64
-H!C@H
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H-^Eu
-H90t#H
-H9Ahs
-H9C s(H
-H9D$@u
-H9P s
-H9Qhv#H
-H9U`t
-H9\$`u+H
-H9_Xu
-H9l$Xu
-H9qHt&H
-H;0u:H
-H;9u|A
-H;>uBI
-H;Cxu
-H;H r
-H;H s
-H;K sIH
-H;P s
-HA^_][
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
 HTC BS
-HcF,=
-HcFHE2
-HcMxI
 HeapAlloc
 HeapFree
-I9Bhs
-I9U t
-I9]8ta
-I9q sEI
-I;4$L
-I;8u?H
-I;Fxu!
-I;q s?I
-I@H9k8u
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Indication
 Infinity
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
-Invalid BS1 nonce.
-Invalid adapter.
-Invalid address.
+Invalid BS1 nonce.\n
+Invalid adapter.\n
+Invalid address.\n
 Invalid flowcontrol setting 
-Invalid nonce %d
+Invalid nonce %d\n
 Invalid parity setting 
-Invalid power state.
+Invalid power state.\n
 Invalid service owner.
 Invalid stopbits setting 
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 KERNEL32.dll
-K}*n:	
-L$ H+
-L$ H;
-L$ L;
-L$ SH
-L$ SUVWAVH
-L$ SUVWH
-L$ SVWH
-L$ SWH
-L$ UAVAWH
-L$ USWATAUAVH
-L$ UVWATAUAVAWH
-L$ UWAVH
-L$ fD
-L$(E3
-L$(H;
-L$(I;
-L$0D8k
-L$0D8n
-L$0E3
-L$0H+
-L$0H;
-L$@E3
-L$@H3
-L$@HcQ
-L$@L;
-L$PH3
-L$PH9H s
-L$XH3
-L$`H3
-L$`t I
-L$hH3
-L$pE3
-L$pH+
-L$pH3
-L$pH;
-L+g@M
-L9@ s
-L9a8u
-L9l$p
-L9|$p
-L9}gsBH
-L;8u6H
-L;B ruH
-L;I s
-L;gHu
-L?n(Zy&
+LHB-
 LHB-DFU
 LHB-Unlock
 LINK_CONTROL_PACKET
+LOG(
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LocalFree
-Looking for external adpater.
-Looking for internal adpater.
-M H1E
-M rFM
-M0 E3
-M98u/
-M9f`u$L
-M9o`u$L
-M9oht
-MB(iVR
+Looking for external adpater.\n
+Looking for internal adpater.\n
+MGiI
 MSVCP140.dll
-MTU exchange request reply failed. (nrf_error: %s)
-MTU response received. New ATT_MTU is %d
+MTU exchange request reply failed. (nrf_error: %s)\n
+MTU response received. New ATT_MTU is %d\n
 MainThrd
 Master
 MessageBoxW
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Missing %s from %s
+Missing %s from %s\n
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-Missing manifest file %s from %s
+Missing manifest file %s from %s\n
 MultiByteToWideChar
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
@@ -1479,21 +1026,14 @@ NRF_ERROR_TIMEOUT
 NRF_SUCCESS
 No response from device. Tried to send packet 
 No response to data sent to device.
-Nonce:    %d
+Nonce:    %d\n
 Not able to decode packet. Code 0x
 Not able to encode packet. Code: 0x
 Not able to open, current state is not valid
 Notification
 OLEAUT32.dll
-OXL9OPt
-Out of thread local storage!
-PA^A]_^]
-PA^_]
-PA^_^
-PA_A^_
-PA_A^_^]
-PA_][
-PAq=?Mp#
+Out of thread local storage!\n
+PID_
 PID_%04X
 PKT_DECODE_ERROR
 PKT_ENCODE_ERROR
@@ -1503,63 +1043,60 @@ PKT_UNEXPECTED
 PROGRAM LOGIC ERROR: app_ble_gap_adv_buf_register not called from context REQUEST_REPLY_CODEC_CONTEXT, terminating
 ParentIdPrefix
 Parity: 
-Parsing of JSON string "%s" failed: %s
+Parsing of JSON string "%s" failed: %s\n
 PerformDFUContext
-Performing DFU:
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Performing DFU:\n
 PortName
 PostQueuedCompletionStatus
 Power Control
-Progress: %d%% (%d/%d)
-Pz}b!
+Progress: %d%% (%d/%d)\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS
 RaiseException
 Read Characteristic String
-Read Characteristic Value (handle: %d, offset: %d)
+Read Characteristic Value (handle: %d, offset: %d)\n
 Read Properties
-Read SOB Channel %d.
-Read characteristic value failed. (gatt_status: %s)
-Read characteristic value response (handle: %d offset: %d, length: %d) '%s'
+Read SOB Channel %d.\n
+Read characteristic value failed. (gatt_status: %s)\n
+Read characteristic value response (handle: %d offset: %d, length: %d) '%s'\n
 ReadCharacteristicStringContext
 ReadFile
 Received SERIALIZATION_RESPONSE but command did not provide a buffer for the reply.
 Received SERIALIZATION_RESPONSE with a packet that is larger than the allocated buffer.
-Received Write TX Complete (completed: %d, available: %d)
-Received advertisement report, address: %s name: %s RSSI: %d
-Received an empty BLE event
-Received an un-handled event with ID: %d
-Received characteristic discovery response, characteristics count: %d
-Received characteristic discovery response, end of list.
-Received descriptor discovery response, descriptor count: %d
-Received descriptor discovery response, end of list.
-Received service discovery response, end of list.
-Received service discovery response, service count: %d
-Received write response on handle %d.
+Received Write TX Complete (completed: %d, available: %d)\n
+Received advertisement report, address: %s name: %s RSSI: %d\n
+Received an empty BLE event\n
+Received an un-handled event with ID: %d\n
+Received characteristic discovery response, characteristics count: %d\n
+Received characteristic discovery response, end of list.\n
+Received descriptor discovery response, descriptor count: %d\n
+Received descriptor discovery response, end of list.\n
+Received service discovery response, end of list.\n
+Received service discovery response, service count: %d\n
+Received write response on handle %d.\n
 RegCloseKey
 RegEnumKeyExA
 RegOpenKeyExA
 RegQueryInfoKeyA
 RegQueryValueExA
-Rejecting malformed advertisement report, address: %s name: %s
+Rejecting malformed advertisement report, address: %s name: %s\n
 ResetEvent
-Response: %s, %s
-Restart:  %s
+Response: %s, %s\n
+Restart:  %s\n
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S0Q0O
-SA|X=G
-SD RPC APP Status: %s, %s
-SD RPC Debug: %s
-SD RPC Error: %s
-SD RPC Info: %s
-SD RPC Log: %s
-SD RPC Warning: %s
+SD RPC APP Status: %s, %s\n
+SD RPC Debug: %s\n
+SD RPC Error: %s\n
+SD RPC Info: %s\n
+SD RPC Log: %s\n
+SD RPC Warning: %s\n
 SEGGER
 SETUPAPI.dll
 SLEEP
@@ -1573,34 +1110,31 @@ STATE_RESET
 STATE_START
 STATE_UNINITIALIZED
 STATE_UNKNOWN
-SUAVH
-SUAWH
-SUVWH
-SVATAVAWH
-SVWATAUAVAWH
-SVWAVAWH
+SYNC
 SYNC_DATA_PACKET
 SYNC_RESP
 SYSTEM\CurrentControlSet\Enum\USB
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s\%s
-Scan Stopped. Scan state cleanup.
-Scan Timeout.
-Selecting Data Packet:
-Selecting Init Packet:
-Send Authentication Request.
-Send Authorization Key Reply %s.
-Send CRC Command.
-Send Create Object %s
-Send Encryption Request.
-Send Enter Bootloader Command.
-Send Execute Command.
-Send Security Params Reply.
-Send Select Object %s
-Service 0x%4.4X not found.
+Scan
+Scan Stopped. Scan state cleanup.\n
+Scan Timeout.\n
+See 
+Selecting Data Packet:\n
+Selecting Init Packet:\n
+Send Authentication Request.\n
+Send Authorization Key Reply %s.\n
+Send CRC Command.\n
+Send Create Object %s\n
+Send Encryption Request.\n
+Send Enter Bootloader Command.\n
+Send Execute Command.\n
+Send Security Params Reply.\n
+Send Select Object %s\n
+Service 0x%4.4X not found.\n
 Service already exists.
-Service discovery failed. (gatt_status: %s)
-Set CCCD (handle %d). Notifications: %d, Indications: %d
+Service discovery failed. (gatt_status: %s)\n
+Set CCCD (handle %d). Notifications: %d, Indications: %d\n
 SetCommState
 SetCommTimeouts
 SetEvent
@@ -1619,36 +1153,20 @@ SetupDiOpenDevRegKey
 Setupapi.dll
 Sleep
 SleepConditionVariableCS
-Start Scanning...
-Starting MTU Exchange.
+Start Scanning...\n
+Starting MTU Exchange.\n
 State 
 State change: 
 Still more data to unzip
-Stop Scanning. All scan completion candidates found.
-Stopping Scan...
+Stop Scanning. All scan completion candidates found.\n
+Stopping Scan...\n
 StringFromGUID2
 Success
 Successfully opened 
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
-T$ E3
-T$0H;
-T$@E3
-T$HI;
-T$PA;m
-T$PH;
-T$PHi
-T$TE3
-T$XL;
-T$XM;
-T$`H+
-T$`H;
-T$hH+
-T$pH+
-T$pH;
-T$xH+
-TX Queue Full, retrying at offset %d
-TX Queue Full, timeout at offset %d
+TX Queue Full, retrying at offset %d\n
+TX Queue Full, timeout at offset %d\n
 Target Reset performed
 TerminateProcess
 TerminateThread
@@ -1659,27 +1177,8 @@ TlsGetValue
 TlsSetValue
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
-UATAUAVAWH
-UATAVH
-UAVAWH
 UNKNOWN[0x
 USER32.dll
-USVATAUAWH
-USVWAUAVAWH
-USVWAUH
-UVATAWH
-UVAVH
-UVWATAUAVAWH
-UVWATAUAVAWL
-UVWATAWH
-UVWAUAVH
-UVWAVAWH
-UVWAWH
-UWATAVAWH
-UWATAWH
-UWATH
-UWAVH
-UWAWH
 UnhandledExceptionFilter
 Unknown
 Unknown AUTH Status (0x%X)
@@ -1693,92 +1192,44 @@ Unknown NRFError (%d)
 Unknown Nordic Semiconductor vendor specific packet received
 Unknown RPC App Status (%d)
 Unknown exception
-VATAVH
-VAVAWH
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
+VID_
 VID_%04X
 VID_1366
-VWATAUH
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 VerSetConditionMask
 VerifyVersionInfoA
-W@I9WHt
 WAKEUP
-WATAUAVAWH
-WAVAW
-WAVAWH
 WOKEN
 WS2_32.dll
-WXM9WPt(E
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Washington1
 WideCharToMultiByte
-WndJU
-Write SOB Channel %d.
-Write to BS1 PM Characteristic.
-Write to BS1 PM Characteristic. %d
-Write to BS2 Identify Control Point.
-Write to BS2 Power Control Point. %d.
-Write to Power Control Point.
-Write to SOB Channel.
+Write SOB Channel %d.\n
+Write to BS1 PM Characteristic. %d\n
+Write to BS1 PM Characteristic.\n
+Write to BS2 Identify Control Point.\n
+Write to BS2 Power Control Point. %d.\n
+Write to Power Control Point.\n
+Write to SOB Channel.\n
 WriteFile
-XA]A\_^
-XA^A]_[H
-XA^_][H
-XA_A\^]
-XA_A^_[H
 XX.XX.XXXXXXX
-Y9"SD
-Zip Error: %s
+Zip Error: %s\n
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
 Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
-[%s] Initialization attempt: %d
-[%s] Initialization failed after %d attempts and %.3f seconds
-[%s] Initialization succeeded after %d attempts and %.3f seconds
+Zjz\v
+[%s] Initialization attempt: %d\n
+[%s] Initialization failed after %d attempts and %.3f seconds\n
+[%s] Initialization succeeded after %d attempts and %.3f seconds\n
 [0]*([1-9][0-9]+)
 [DFU]
-[K]taM?
-\$ E3
-\$ UAVAWH
-\$ UH
-\$ UVWATAVH
-\$ UVWH
-\$ UWATH
-\$ WAVAWH
-\$ WH
-\$0H+
-\$0H;
-\$0I;
-\$8H;
-\$@E3
-\$@H;
-\$PH;
-\$PI;
-\$XD8n
-\$XH;
-\$hI;
-\$pH;
-\$pI;
 \Device Parameters
-\u=H;
-]J<0"0i3
-]gfff
-^R0X+
-^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1823,7 +1274,6 @@ _crt_atexit
 _dtest
 _errno
 _execute_onexit_table
-_gUT^
 _gmtime64
 _initialize_narrow_environment
 _initialize_onexit_table
@@ -1840,13 +1290,10 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
-`.rdata
-`A_A^A\_^
-`A_A^_^]
-a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
+alse
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -1861,6 +1308,11 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
+atoi
+b\fp\v0
+b\fp\vP
+b\np\t0
+b\vp\n0
 bad allocation
 bad array new length
 bad cast
@@ -1871,43 +1323,28 @@ bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
+ceil
 close
 cntrl
-d$0D)#
-d$@E3
-d$`H=
-d$pfD
 dat_file
 data error
 deque<T> too long
 digit
 empty distance tree with lengths
+even
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-fD9$xu
-fD9&u
-fD9+u
-fE9&t2H
 false
 file error
 floor
+free
 generic
-gfffffffD
-gfffffffH
-gfffffffI
-gfffffffM
 graph
-h AVH
 h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
-hA_A^A\_^]
 hardware
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
+i]Wb
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1935,36 +1372,17 @@ invalid string position
 invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
+iocp
 isxdigit
-jj@0HK4
-j}A.:
-k0i0$
-l$ H=
-l$ VAVAWH
-l$ VWAVH
-l$ WAVAWH
-l$ WH
-l$(E3
-l$0E3
-l$8E3
-l$8L;m
-l$PE3
-l$PM9n
-l$Pff
-l$XE3
-l$pM+
-l$pM;
-l$xfD
-l2|X/gGe
 list<T> too long
 lower
-m0k0$
 malloc
 manifest
-manifest file %s parse error from %s
-manifest file %s setup error from %s
+manifest file %s parse error from %s\n
+manifest file %s setup error from %s\n
 manifest.json
 map/set<T> too long
+mbed
 memchr
 memcmp
 memcpy
@@ -1972,25 +1390,21 @@ memmove
 memset
 mutex
 need dictionary
+none
 nrfserlib.dll
-ntelD
-oL$PH
 ole32.dll
+open
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-p UWATAVAWH
-pA^_^
-pA_A\_[]
-pA_A^A]A\_^]
+pqcs
 print
 punct
 realloc
-s#fff
 sd_ble_cfg_set
-sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
-sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)
-sd_ble_cfg_set() failed when attempting to set BLE_GAP_CFG_ROLE_COUNT. (nrf_error: %s)
+sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)\n
+sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)\n
+sd_ble_cfg_set() failed when attempting to set BLE_GAP_CFG_ROLE_COUNT. (nrf_error: %s)\n
 sd_ble_enable
 sd_ble_gap_addr_get
 sd_ble_gap_addr_set
@@ -2099,121 +1513,19 @@ strstr
 strtok_s
 strtoul
 system
-t$ 92u
-t$ AVH
-t$ AWH
-t$ E3
-t$ UH
-t$ UWAVH
-t$ WAVAWH
-t$ WH
-t$$E3
-t$(E3
-t$0D)3
-t$0E3
-t$2E3
-t$8E3
-t$8H;
-t$8tIH
-t$@D;
-t$@E3
-t$@H=
-t$@uL
-t$HH;
-t$PH=
-t$XE3
-t$hE3
-t$hH;
-t$hM;
-t$xH9^
-t$xL;
-t(D8g
-t1H9]
-t4L9%
-t4L9-
-t4L9-U
-t4L9-V
-t4L9=
-t4L9=]
-t:fff
-t>y#I
-t?y&I
-tAy&H
-tAy'H
-tEfD9
-tS@8uw
-tXfff
-tbL;B r\H
 terminate
 too many length or distance symbols
+true
 type:
-u%9P }
-u,fff
-u:D8e
-u:D8m
-u:D8}
-uAfff
-uH9=(
-uKfff
-uL8]8v>H
-uT8\$xvEH
-ub'vb'v
 unknown
 unknown CONTROL packet type 0x
 unknown compression method
 unknown error
 unknown zip result code
-upH;~ uj
 upper
-v=Y]Bv
 vector<T> too long
 vector<bool> too long
 wcschr
 winsock
 wn>Jj
-www.digicert.com1!0
-www.digicert.com1$0"
-x AVH
-x UATAUAVAWH
-xA\^][
-xA^A]_[
-xAtAL
 xdigit
-{un'%
-{x\u!H
-{|?uWH
-|$ ATAUAVAWH
-|$ ATAUAWH
-|$ ATAVAWH
-|$ AVH
-|$ D+
-|$ E3
-|$ H;
-|$ UATAUAVAWH
-|$ UATAWH
-|$ UH
-|$0D;
-|$0E3
-|$0uIH
-|$8H;
-|$@	u
-|$@A_A^A]A\
-|$A:t
-|$HE3
-|$HH;
-|$HH=
-|$PH;
-|$PL9~
-|$Pfff
-|$XH=
-|$p.L
-|$pE2
-|$pI+
-|$pL+
-|$pf;
-|$ps`H
-|Lu?c
-}LuHO
-~'HcB
-~qj#k"
-~t&LN

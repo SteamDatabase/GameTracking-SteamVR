@@ -1,11 +1,9 @@
-	*.sQ
- N!]!p!
  Unity.IntegrationTests.Framework
  UnityEngine.CrashReportingModule
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
+ oM\vT
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -34,19 +32,13 @@
 !UnityEngine.ImageConversionModule
 !UnityEngine.SharedInternalsModule
 !UnityEngine.UnityWebRequestModule
-"&"6"D"k"
 "Assembly-CSharp-firstpass-testable
 "Unity.RuntimeTests.Framework.Tests
-"]tQ?Y%
-#+#4#=#M#
-#4$X$a$u$
 #Blob
 #GUID
 #Strings
 #UnityEngine.UnityTestProtocolModule
-#Y#k#q#
 $0%7%>%G%f%
-$@$I$
 $Unity.InternalAPIEngineBridgeDev.001
 $Unity.InternalAPIEngineBridgeDev.002
 $Unity.InternalAPIEngineBridgeDev.003
@@ -54,59 +46,96 @@ $Unity.InternalAPIEngineBridgeDev.004
 $Unity.InternalAPIEngineBridgeDev.005
 $UnityEngine.UnityWebRequestWWWModule
 $Use Background.FromTexture2D instead
-%-&}&
+$lf\vp
+$lz\v0
 %Unity.IntegrationTests.UnityAnalytics
+%r1c
+%r3e
+%r3g
+%r5W
+%r5i
+%r7a
+%r7h
+%r9b
+%rAf
+%rCc
+%rCd
+%rEX
+%rGV
+%rGg
+%rGi
+%rKZ
+%rMb
+%rOh
+%rSU
+%rSa
+%rUe
+%rWc
+%rWi
+%rYW
+%raY
+%rcb
+%rcg
+%rei
+%riU
+%rke
+%roa
+%rof
+%rqW
+%rqc
+%rsh
+%rwV
+%rwb
+%ryd
 &&'-'9'~'{(
-&C&I&S&e&
 &Modules/UIElements/UIRendererUtility.h
 &UnityEngine.PerformanceReportingModule
 &UnityEngine.UnityWebRequestAudioModule
-'C'U'
 (Modules/UIElements/TextNative.bindings.h
 (Modules/UIElements/YogaNative.bindings.h
 (UnityEngine.UnityWebRequestTextureModule
-)$*F+
-)B)x)
-)T	`k
 *.rI0
+*Bro
 *Modules/UIElements/ImmediateStylePainter.h
-*U*{*
 *jre.
 *jrz%
-*~r_H
-+&r83
 +Override PreDispatch(IPanel panel) instead.
 ,Override PostDispatch(IPanel panel) instead.
 ,UnityEngine.UnityWebRequestAssetBundleModule
--)u	Fb
+,\vrBL
+,\vrzA
 -Modules/UIElements/UIElementsRuntimeUtility.h
--V-^-f-n-
-.!+'"
-.).n.y.
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .cctor
 .ctor
-.text
 /-/W/^/e/m/
 /10j0
 0D0r0
+0oF\t
 1=2N2W2`2i2r2{2
+1oF\t
 2"3p3
 2J3\3w3
+2oF\t
+3\r0T
+3oF\t
 454V4q4
 4C38C1FA610B3186B8DB90956E36AFF01EA40094
 4G4f4
+4oF\t
 515e5
+5oF\t
 656J6
-7%7,7<7w7
+6\f7%7,7<7w7
+6oF\t
+7\ttK
+7oF\t
 8%8)969;;
 8:8V8^8
-9	P	j	
+8oF\t
+9oF\t
 :#:/:?:O:n:x:
-;1;_;
 ;VisualElement.cacheAsBitmap is deprecated and has no effect
-<(<1<:<
-<+	GI
 <.cctor>b__25_0
 <.cctor>b__25_1
 <.ctor>b__0_0
@@ -117,29 +146,7 @@ $Use Background.FromTexture2D instead
 <>1__state
 <>2__current
 <>3__rootItems
-<>3__t
 <>4__this
-<>9__0_0
-<>9__0_1
-<>9__10_0
-<>9__20_0
-<>9__254_0
-<>9__254_1
-<>9__255_0
-<>9__255_1
-<>9__256_0
-<>9__256_1
-<>9__257_0
-<>9__257_1
-<>9__258_0
-<>9__258_1
-<>9__259_0
-<>9__259_1
-<>9__30_0
-<>9__31_0
-<>9__3_0
-<>9__4_0
-<>9__5_0
 <>c__DisplayClass120_0
 <>c__DisplayClass236_0
 <>c__DisplayClass237_0
@@ -155,12 +162,8 @@ $Use Background.FromTexture2D instead
 <>l__initialThreadId
 <>m__Finally1
 <>m__Finally2
-<>s__1
-<>s__2
-<>s__4
 <AppendAction>b__0
 <AssignMeasureFunction>b__206_0
-<C<J<
 <CloneSetupRecursively>b__0
 <Count>k__BackingField
 <GetAllAttributeDescriptionForType>b__10_0
@@ -450,22 +453,12 @@ $Use Background.FromTexture2D instead
 <visualTreeAsset>k__BackingField
 <width>k__BackingField
 <yogaNode>k__BackingField
-='>J>w>
-=4=C=
-=\		d?
->6>>>i>
-?5"	{ 
-?5<	{
-?E?|?
-?YZ(,
 ?ZZX(
 ?ZZY(
-@.reloc
-@@YZ"
-@R@b@
-A	B/BLB
 A?AOA
+ALP\n
 AWBgBpB
+A\tB/BLB
 AboutToGrabFocus
 AboutToReleaseFocus
 Absolute
@@ -528,6 +521,7 @@ AllocateRect
 AllocatesID
 AlwaysDisabled
 AlwaysEnabled
+AoF\t
 Append
 AppendAction
 AppendFunction
@@ -572,7 +566,10 @@ AtlasRectMatchesPage
 AttachToPanelEvent
 AttributeOverride
 AutoScope
+AyT\f
 BMPAlloc
+BSJB
+BZ}a
 BackgroundColor
 BackgroundImage
 BaseFieldTraits`2
@@ -600,6 +597,7 @@ BindingFlags
 BitmapAllocator32
 BlitInfo
 BlitOneNow
+Blur
 BlurEvent
 BoneTransform
 Boolean
@@ -635,6 +633,7 @@ CanStopManipulation
 Cancellable
 CaptureMouse
 CapturePointer
+Ceil
 Center
 ChainBuilderStats
 ChangeCoordinatesTo
@@ -725,6 +724,7 @@ ConvertValueToEnum
 ConvertValueToFloat
 ConvertValueToInt
 ConvertValueToLong
+Copy
 CopyFrom
 CopyFromPtr
 CopyIfEqualOrGreaterSpecificity
@@ -817,7 +817,7 @@ DisposeHelper
 DisposeImmediate
 DisposeRenderChain
 DisposeRuntimePanel
-Dl	Aa
+Dl\tAa
 DoBlit
 DoComputeTextHeight
 DoComputeTextHeight_Injected
@@ -868,6 +868,7 @@ DropdownMenuItem
 DropdownMenuSeparator
 DynamicTransform
 E(E<EHE\EeEtE
+Ease
 Easing
 EatSpace
 EdgeCorner
@@ -928,10 +929,14 @@ ExpressionMultiplier
 ExpressionMultiplierType
 ExpressionType
 ExtensionAttribute
+F24\vH
+F2D\nH
+F2t\n
 FastLookup
 Fatal
 FieldInfo
 FinalizeLayout
+Find
 FindAncestorUserData
 FindClosestPropertyName
 FindClosingCommandInsertionPoint
@@ -978,6 +983,7 @@ Func`2
 Func`3
 Func`4
 FunctionSeparator
+Fx1\f
 GCHandle
 GPUBufferAllocator
 GPUBufferType
@@ -1109,6 +1115,7 @@ GfxUpdateBufferRange
 GlobCharacter
 GlobalCallbackRegistry
 GlyphRenderMode
+GoU\v
 GoogleAR.UnityNative
 GradientSettings
 GradientType
@@ -1201,10 +1208,17 @@ ITextInputField
 ITransform
 ITransitionAnimations
 ITreeViewItem
-IUb	@Z
-IUd	`[
-IUg	p^
-IUu	Pb
+IU4\v\tI
+IUT\n\tI
+IUT\v1
+IUb\t@Z
+IUc\t
+IUe\t
+IUf\t
+IUg\tp^
+IUl\n1
+IUl\vP%
+IUu\tPb
 IUxmlAttributes
 IUxmlFactory
 IValueAnimation
@@ -1214,7 +1228,9 @@ IVisualElementScheduledItem
 IVisualElementScheduler
 IVisualPredicateWrapper
 IVisualTreeUpdater
+I\t5O
 Ignore
+Iim\n
 ImageSource
 ImmediateModeElement
 ImmediateRepaint
@@ -1273,6 +1289,7 @@ InvokeCallbacks
 InvokeGenerateVisualContent
 InvokeHierarchyChanged
 InvokeStandardShaderChanged
+IoP\f
 IsAssignableFrom
 IsAtlasTexturedBilinear
 IsAtlasTexturedPoint
@@ -1323,7 +1340,6 @@ IsSolid
 IsText
 IsTextureFormatSupported
 IsTextureValid
-IsThreadSafe
 IsTrue
 IsUndefined
 IsUnitMissing
@@ -1334,11 +1350,17 @@ IsVarFunction
 IsVectorImageBackground
 IsViewDataPersitenceSupportedOnChildren
 IssuePendingAtlasBlits
+Item
 J#KRKaKyK
 J-JEJhJ
 J5K>KpK
+J\tFO
+Join
 K)LPLrL
 K0LGL^L
+KZj\n
+K\tNO
+K\tWO
 KeepAlive
 KeyCode
 KeyCollection
@@ -1350,6 +1372,9 @@ KeyboardTextEditorEventHandler
 KickRanges
 L!M9MdM
 L*MlMzM
+LSc\v
+LSg\v
+L\thO
 LandClipRegisterMesh
 LandClipUnregisterMeshDrawCommand
 LastQueryMatcher
@@ -1360,8 +1385,11 @@ LeftMouse
 LegacyAlignmentToNewAlignment
 LegacyStyleToNewStyle
 LengthUnit
+Lerp
 LessThan
 LevenshteinDistance
+Lf!\nD
+LgE\n
 LifeCycleStatus
 Linear
 LinkedListNode`1
@@ -1370,6 +1398,7 @@ LinkedPoolItem`1
 LinkedPool`1
 ListQueryMatcher
 ListViewRefresh
+Load
 LoadPixelMatrix
 LoadProjectionMatrix
 LoadProperties
@@ -1389,6 +1418,9 @@ LogWarning
 LogWarningFormat
 LooseCompare
 LowToHigh
+M\tpO
+M\tyO
+Make
 MakeBorder
 MakeCurrentIMGUIContainerDirty
 MakeFromPointerEvent
@@ -1438,8 +1470,10 @@ MatchResultInfo
 MatchRightToLeft
 MatchUrl
 MatchesSelector
+Math
 Mathf
 Matrix4x4
+MbP?
 MeasureInternal
 MeasureOutput
 MeasureTextSize
@@ -1491,7 +1525,10 @@ MultiplyPoint
 MultiplyPoint3x4
 MultiplyVector
 NDNfNnN|N
+Name
 Name YogaCallback::RemoveBaselineFunc
+Name\fYGConfigFreeT
+Name\nYGNodeFreeT
 NativeArrayOptions
 NativeArrayUnsafeUtility
 NativeArray`1
@@ -1590,6 +1627,7 @@ OnceCondition
 OneOrMore
 OneOrMoreComma
 OpacityAllocToVertexData
+Open
 OpenBrace
 OpenBracket
 OpenGate
@@ -1602,6 +1640,10 @@ Overwrite
 OverwriteFromViewData
 OwnsId
 P;QBQqQ
+PCH"
+PCHs
+PT\t1
+P\tow
 PadRight
 PaddingBox
 PageStatistics
@@ -1620,6 +1662,7 @@ ParseTerm
 ParseVarFunction
 PasteActionStatus
 Pause
+Peek
 PeekNext
 PerformPick
 PerformTimerUpdate
@@ -1629,6 +1672,7 @@ PickAllWithoutValidatingLayout
 PlaceBehind
 PlaceInFront
 Player
+Plus
 PointerCancelEvent
 PointerCaptureDispatchingStrategy
 PointerCaptureEventBase`1
@@ -1704,10 +1748,12 @@ PropagateToParents
 PropagationPhase
 PropertyToID
 PseudoStateData
+Push
 PushDispatcherContext
 PushScissor
 PushView
 PutChildAtIndex
+Px3\fP
 QualitySettings
 Quaternion
 QuestionMark
@@ -1715,6 +1761,7 @@ QueueBlit
 Queue`1
 Queued
 R6RIReRvR
+RSDS
 Radial
 RaiseFlushPendingResources
 RaiseGraphicsResourcesRecreate
@@ -1967,6 +2014,7 @@ SingleElementTypeQuery
 SingleQueryMatcher
 SingleQuote
 SizeOf
+Skip
 SkipVerification
 SlerpUnclamped
 SliderDirection
@@ -1982,12 +2030,15 @@ SpaceAround
 SpaceBetween
 Spacing
 SplitBlock
+Sqrt
 Stack`1
 StartAnimation
 StartTracking
 StartTrackingRecursive
 StartingIn
 Stencil
+Step
+Stop
 StopDispatch
 StopImmediatePropagation
 StopPropagation
@@ -2040,6 +2091,7 @@ StyleVariableResolver
 SubstractBorderPadding
 Substring
 SuppressFinalize
+Swap
 SwitchFocus
 SwitchFocusOnEvent
 SyncGUIStyle
@@ -2079,7 +2131,6 @@ System.Text.RegularExpressions
 System.Threading
 SystemInfo
 T2UBU}U
-T=	<L
 TCallbackArgs
 TCreatedType
 TEnterEvent
@@ -2090,7 +2141,8 @@ TTraits
 TUserArgsType
 TValueType
 TValueUxmlAttributeType
-TY	dR
+TY\tdR
+T\f\f\f\f\f\f\f\f\f\f
 TakeCapture
 TargetAndBubbleUp
 TempDataAlloc`1
@@ -2121,7 +2173,7 @@ TextInput
 TextInputBaseField`1
 TextNative::ComputeTextHeight)
 TextNative::ComputeTextWidth)
-TextNative::GetCursorPosition
+TextNative::GetCursorPosition\n
 TextNative::GetOffset
 TextNative::GetVertices!
 TextOverflowMode
@@ -2178,6 +2230,7 @@ TreeViewItemWrapper
 TreeViewItem`1
 TrickleDownAndTarget
 TricklesDown
+Trim
 TryAllocFromPage
 TryCheckAccess
 TryFindVariable
@@ -2206,6 +2259,7 @@ TryReadFloat
 TryReadResourcePath
 TryReadString
 TryReadVariable
+TyW\f
 TypedUxmlAttributeDescription`1
 U U)UPUYUbUkUtU
 UIEOnChildAdded
@@ -2245,7 +2299,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections
 Unity.Collections.LowLevel.Unsafe
@@ -2765,6 +2818,7 @@ Use Checked() instead
 Use NotChecked() instead
 UsingEntry
 UsingEntryComparer
+Ut\nH
 UxmlAttributeDescription
 UxmlBoolAttributeDescription
 UxmlChildElementDescription
@@ -2802,7 +2856,7 @@ VersionChangeType
 Vertex3
 VertexFlags
 VerticalAndHorizontal
-Vh	4_
+Vh\t4_
 Visibility
 VisualElement
 VisualElementAnimationSystem
@@ -2828,9 +2882,14 @@ VisualTreeViewDataUpdater
 Visuals
 VisualsHierarchy
 VsW{W
+W\t4P
+W\tTP
+W\ttP
 WaitForCPUFencePassed
 Waiting
 WantsEvent
+Warn
+Wd\vS
 WeakReference
 WebFlexBasis
 WheelEvent
@@ -2846,10 +2905,10 @@ WriteRawFloat4Packed
 WriteRawInt2Packed
 X Y6YFYMYVYlY
 X0XCXeX
-Xe	[}
+XIoP\f
+Xo3\t
 YGConfigFree
 YGConfigFreeInternal
-YGConfigFreeT
 YGConfigGetDefault
 YGConfigGetInstanceCount
 YGConfigGetUseWebDefaults
@@ -2863,7 +2922,6 @@ YGNodeCalculateLayout
 YGNodeCopyStyle
 YGNodeFree
 YGNodeFreeInternal
-YGNodeFreeT
 YGNodeGetComputedFlexBasis
 YGNodeGetHasNewLayout
 YGNodeGetInstanceCount
@@ -2964,6 +3022,9 @@ YGNodeStyleSetWidth
 YGNodeStyleSetWidthAuto
 YGNodeStyleSetWidthPercent
 YGSetManagedObject
+YZY\f
+YZY\n
+YZY\v
 YogaAlign
 YogaBaselineFunc
 YogaCallback::RemoveMeasureFunc
@@ -2991,34 +3052,43 @@ YogaSize
 YogaUnit
 YogaValueExtensions
 YogaWrap
-Z		ZX
 Z$[Q[U\q\z\
 ZBZgZ
 ZX%N"
-ZXIoP
+ZXIoP\f
 ZXJT+P
+ZXN"
+Z\t\tZX
+Zero
 ZeroOrMore
 ZeroOrOne
-[2[r[
-\4\F\^\
-]!]U]i]
-]3	7K
-]5	hK
-]]^	tX
-]t?Y%
-^$^?^U^c^z^
+ZkXZ\f+
+Zzz\f"
+\fIsThreadSafe
+\f\f\f\f\f\f\f\f\f\f\f\f
+\nYZX}
+\nZXV
+\nZYV
+\nZsZ
+\nj]io
+\nrE8
+\nrwB
+\nrz6
+\r4\fES
+\rL\fES
+\rd\fES
+\t4\nk0
+\tr2O
+\vUnity.Burst
+\vUnityEngine
+]3\t7K
+]5\thK
+]\v^$^?^U^c^z^
 ^IResolvedStyle.borderColor is deprecated. Use left/right/top/bottom border properties instead.
-_A_T_
 _CorDllMain
-_D`T`\`
 __StaticArrayInitTypeSize=108
 __StaticArrayInitTypeSize=6
-_b`T*
-_b`o`
 _baselineFunction
-_bf_T**
-_bf_o`
-_bj_-
 _config
 _logger
 _measureFunction
@@ -3027,9 +3097,8 @@ _viewport
 _ygConfig
 _ygNode
 `#aza
-`.rsrc
 a3bBbQb`b
-aIaYaaa
+a\naIaYaaa
 actionCallback
 actionName
 actionStatusCallback
@@ -3068,6 +3137,7 @@ allocatedSize
 allocator
 allocatorData
 anchor
+anim
 anims
 areaNode
 argCount
@@ -3149,6 +3219,7 @@ colors32
 combinator
 command
 commandCount
+comp
 comparer
 completeInit
 complexSelector
@@ -3183,6 +3254,8 @@ cursorPosition
 custom
 customCommand
 customPropertyHandle
+cx6\f|
+d\vFb
 d_eke
 dataType
 defAlloc
@@ -3193,6 +3266,7 @@ dependencyPseudoMask
 depth
 desiredHeight
 desiredWidth
+dest
 destIndex
 destX
 destY
@@ -3234,7 +3308,10 @@ dstNode
 dstPos
 eAewe
 easing
+edge
 editorPlayModeTintColor
+eiq\n
+elem
 elemCount
 elemStride
 elementCount
@@ -3242,6 +3319,7 @@ elementStride
 elements
 elementsAdded
 elementsRemoved
+en#\vT
 enable
 enablePersistence
 endContainerGUIFromException
@@ -3257,7 +3335,8 @@ exception
 excess
 existing
 existingState
-f_q	Q
+f5\nD
+f_q\tQ
 factor
 factory
 factoryList
@@ -3276,6 +3355,7 @@ firstPageX
 firstPageY
 firstVertex
 flags
+flex
 flipHorizontal
 floats
 focusChangeDirection
@@ -3295,6 +3375,7 @@ fullOpacityTexel
 fullOpacityValue
 funcCall
 g@gbg
+gT\nL
 getCursorIdFunc
 get_AlignContent
 get_AlignItems
@@ -3900,7 +3981,9 @@ gradientType
 graphicalCursorPos
 groupTransformAncestor
 groupTransformElementsChanged
+grow
 guiChanged
+h$au
 h:hjh
 hPi]i
 hScrollerUssClassName
@@ -3911,8 +3994,11 @@ hasAtlasMan
 hasFocusableControls
 hasNewLayout
 hasVectorImageMan
+hash
+head
 heads
 heightMode
+hgH\nd
 hierarchical
 hierarchyDepth
 highBound
@@ -3920,6 +4006,7 @@ highButtonUssClassName
 highLimitPosition
 highResolutionImage
 higherValue
+hint
 horizontalVariantUssClassName
 i%i9i
 idToChildren
@@ -3931,6 +4018,7 @@ identityTransformTexel
 idsAddFlags
 idsFlags
 ij]i(5
+ij]i\r
 imguiContainerDescendantCount
 imguiContainerHavingKeyboardControl
 imguiKeyboardControlID
@@ -3947,6 +4035,7 @@ indices
 infiniteClipRect
 infiniteClipRectTexel
 infiniteClipRectValue
+info
 inheritedClipRectIDChanged
 inheritedStencilClippedChanged
 initialAtlasSize
@@ -3966,6 +4055,7 @@ interpolant
 interval
 invalidPointerId
 inverseYAxis
+ioa\v 
 isAncestorOfChangeSkinned
 isAtlassed
 isBoundingBoxDirty
@@ -3984,11 +4074,12 @@ isStencilClipped
 isTextEntry
 isUnityStyleSheet
 isWorldBoundingBoxDirty
+item
 itemSelectedVariantUssClassName
 itemUssClassName
+iyY\f
 j$j7jMjcj
-jZ	ja
-k	l<lil
+jZ\tja\n
 k,k2k@kOkUkckqk
 kCustomPropertyMarker
 kDefaultHighValue
@@ -4002,8 +4093,8 @@ kMaxValidatePersistentDataCount
 kMinUpdateDelay
 kPageWidth
 kSubdivisions
-k[iX(_
-k[iY(`
+kXZk\v+
+k\tl<lil
 k_ClearZ
 k_DefaultDurationMs
 k_DefaultMaxPoolSize
@@ -4032,6 +4123,9 @@ k_VertexTexturingIsAvailableTag
 k_VertexTexturingIsAvailableTrue
 keyboardOnScreen
 l m-mYmam
+l\f\f\f\f\f\f\f\f\f\f\f\f\f
+l\tJa
+l\tRa
 labelDraggerVariantUssClassName
 labelUssClassName
 largestAvailableBlock
@@ -4047,6 +4141,7 @@ leftSlice
 leftWidth
 level
 limit
+list
 localPoint
 location
 lostFocus
@@ -4055,6 +4150,9 @@ lowButtonUssClassName
 lowLimitPosition
 lowerValue
 m.n7n
+mW\vd
+m\tca
+m\tla
 m_1SidePadding
 m_2SidePadding
 m_APIUsesStraightYCoordinateSystem
@@ -4205,6 +4303,7 @@ m_HighValue
 m_HighWatermark
 m_HorizontalPageSize
 m_IDsFlags
+m_Id
 m_Image
 m_ImageIsInline
 m_ImguiEvent
@@ -4438,6 +4537,7 @@ m_TriggerMouseEvent
 m_TriggerPointerEvent
 m_Type
 m_TypeName
+m_UV
 m_UVRegion
 m_UVs
 m_Unit
@@ -4504,11 +4604,13 @@ maxThumbUssClassName
 menuBuilder
 menuItems
 menuManager
+mesh
 meshAlloc
 meshHandle
 meshInfo
 message
 method
+mf\vz
 middleStringCaseHandler
 minDepths
 minIndexVal
@@ -4518,6 +4620,7 @@ miterOffset
 mockBuffer
 mockDevice
 mockPage
+mode
 mouse
 mousePointerId
 mscoree.dll
@@ -4525,6 +4628,11 @@ mscorlib
 multiplier
 mustDirtyWorldClip
 mustDirtyWorldTransform
+mzu\f
+n7\v4
+n8\vL
+n9\vl
+nEc\v
 nTn~n
 nameBase
 nativeEventPtr
@@ -4540,6 +4648,7 @@ newKeyboardFocusControlID
 newMeshAllocations
 newText
 newVertexCount
+next
 nextAvailable
 nextDirty
 nextInTable
@@ -4547,8 +4656,10 @@ nextIndex
 nextNewVertex
 nextText
 nid = {id}, keyword = {keyword}, number = {number}, boolean = {boolean}, color = {color}, resource = {resource}
+nn$\vl
 noLabelVariantUssClassName
 noTextVariantUssClassName
+node
 nonRecursiveClipUpdates
 nonRecursiveVisualUpdates
 normalImage
@@ -4557,11 +4668,13 @@ numAllocs
 number
 o+opo
 o7o>oxo
+o\fp+pup
 object
 offset
 offsetFromWriteStart
 onDataChanged
 onValueChanged
+oo\vp
 op_Addition
 op_Division
 op_Equality
@@ -4588,9 +4701,14 @@ outputWordDelimiter
 overflowMode
 owned
 p /kU
+p Gc
 p OO/
 p iii
-p+pup
+p$fu
+p\v+&r83
+p\v+6r
+p\v+Fr
+page
 pageLine
 pages
 painterParams
@@ -4613,25 +4731,50 @@ permAllocVerts
 permPage
 pickPosition
 picked
+pir\n
+pit\n
 pixelsInPoint
 playmodeTintColor
+poH\t
 point
 pointValue
 pointerEvent
 pointerPos
+pool
 poolNext
 popScissorClip
 popViewMatrix
+poq\t
+posZ
 positionToConvert
 positionType
 power
+pr!V
+pr(s
+pr*t
+pr,r
+pr-w
+pr5W
+pr7o
+pr<r
+pr=p
+prIw
+prM]
+prQ[
+prYW
+pr\fr
+pr\rV
+pr\tp
+pr\vX
 predicate
+prev
 prevAvailable
 prevDirty
 prevText
 previous
 previousTopElementUnderMouse
 previousTopElementUnderPointer
+prmp
 processEvent
 processResult
 propagatedStyle
@@ -4639,6 +4782,7 @@ propertyId
 propertyName
 propertySyntax
 propertyValue
+pruo
 pseudoStateMask
 pseudoStatesMask
 q(q9qnq
@@ -4705,11 +4849,13 @@ resource
 results
 retargetAgainst
 returnValueAddress
+rgba
 richText
 rightBorder
 rightColor
 rightSlice
 rightWidth
+root
 rootScopeList
 rowHeight
 rowIndex
@@ -5232,6 +5378,7 @@ shader
 shaderInfo
 shaderInfoAllocator
 sharedValue
+shd\nL
 sheet
 sheetInstanceID
 sheetPath
@@ -5246,6 +5393,7 @@ sliderLength
 sliderUssClassName
 slotName
 sourceUV
+spec
 srcNode
 srcRect
 startIndex
@@ -5278,6 +5426,7 @@ svgVertices
 svgWidth
 syntax
 systemEvent
+t$ku
 t)t:tpt
 tails
 takeCapture
@@ -5305,6 +5454,7 @@ timeSliced
 timerState
 timerUpdateEvent
 timerUpdateStopCondition
+tint
 toRelease
 toggleUssClassName
 token
@@ -5359,6 +5509,7 @@ ussFoldoutDepthClassName
 ussFoldoutMaxDepth
 ussValue
 uvIsDisplacement
+uvs0
 v2.0.50727
 vBvWv
 vScrollerUssClassName
@@ -5400,12 +5551,14 @@ writeRangeEnd
 writeRangeStart
 x*yoy
 x=x~x
+xG\fH\n
 xform
 xformClipPages
 xmlSchemaNamespace
+xx8\f
 y=zbz
 zDZj(
+zDZj\n+
+zq\f4
 {$|/|E|m|7}l}t}
-|;|U|]|e|
-}&}U}
-~-~L~|~
+|he\np

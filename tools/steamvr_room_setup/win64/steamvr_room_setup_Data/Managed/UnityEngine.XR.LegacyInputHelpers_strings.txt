@@ -1,4 +1,3 @@
-!This program cannot be run in DOS mode.
 !UnityEditor.XR.LegacyInputHelpers
 "33s?6
 #Blob
@@ -6,12 +5,12 @@
 #Strings
 .cctor
 .ctor
-.text
+33s?
+4Cs3
 :Portion of controller rotation applied to the elbow joint.
 :Portion of controller rotation applied to the wrist joint.
 <Module>
 =Portion of controller rotation applied to the shoulder joint.
-@.reloc
 ANGULAR_VELOCITY_DIVISOR
 ApplyArmModel
 ApplyExtensionOffset
@@ -20,6 +19,7 @@ ApplyRotationToJoints
 ArmModelBlendData
 ArmModelTransition
 Array
+BSJB
 BasePoseProvider
 C:\Users\Keith\Perforce\keithb_home_new\vr\unity\main\RoomSetup\Temp\UnityEngine.XR.LegacyInputHelpers.pdb
 CalculateExtensionRatio
@@ -51,6 +51,7 @@ InternalsVisibleToAttribute
 Inverse
 LERP_CLAMP_THRESHOLD
 LExponent applied to the joint shift ratio to control the curve of the shift.
+Lerp
 List`1
 LogErrorFormat
 MAX_ACTIVE_TRANSITIONS
@@ -115,7 +116,6 @@ XRNodeState
 [Portion of controller rotation applied to the wrist joint when the controller is backwards.
 ^Portion of controller rotation applied to the shoulder joint when the controller is backwards.
 _CorDllMain
-`.rsrc
 angVel
 angularAccel
 armModelBlendData
@@ -201,6 +201,7 @@ m_WristRotationRatio
 mscoree.dll
 mscorlib
 newArmModel
+node
 op_Addition
 op_Equality
 op_Multiply

@@ -6,7 +6,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -60,10 +59,9 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 Assembly-CSharp-testable
+BSJB
 Behaviour
 Bounds
 CellLayout
@@ -78,6 +76,7 @@ CompilationRelaxationsAttribute
 DebuggableAttribute
 DebuggingModes
 DoNothing
+Enum
 FreeFunctionAttribute
 GetBoundsLocal
 GetBoundsLocalOriginSize
@@ -88,6 +87,7 @@ GetCellCenterWorld
 GetLayoutCellCenter
 GetLayoutCellCenter_Injected
 GoogleAR.UnityNative
+Grid
 GridBindings::CellSwizzle
 GridBindings::GetCellGap
 GridBindings::GetCellSize
@@ -117,6 +117,7 @@ LocalToWorld_Injected
 Modules/Grid/Public/Grid.h7
 NativeHeaderAttribute
 NativeTypeAttribute
+RSDS
 Rectangle
 RequireComponent
 RequiredByNativeCodeAttribute
@@ -127,11 +128,11 @@ System.Diagnostics
 System.Runtime.CompilerServices
 System.Security
 System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Type
 Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -216,8 +217,9 @@ WorldToCell_Injected
 WorldToLocal
 WorldToLocal_Injected
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 cellPosition
 dUnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 get_cellGap
@@ -239,6 +241,7 @@ set_cellLayout
 set_cellSize
 set_cellSize_Injected
 set_cellSwizzle
+size
 swizzle
 v2.0.50727
 value

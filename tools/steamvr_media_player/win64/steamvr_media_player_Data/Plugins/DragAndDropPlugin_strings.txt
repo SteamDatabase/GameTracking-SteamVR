@@ -1,5 +1,3 @@
- H3E H3E
-!This program cannot be run in DOS mode.
 .00cfg
 .?AV?$CCallback@VCVRStatsTracker@@UGameStatsSessionClosed_t@@$0A@@@
 .?AV?$CCallback@VCVRStatsTracker@@UGameStatsSessionIssued_t@@$0A@@@
@@ -23,10 +21,10 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
-.gfids
 .gfids$y
 .idata$2
 .idata$3
@@ -44,32 +42,20 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-8A^_^[
-9D$ u
-</assembly>
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
 ?_Xbad_alloc@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
-@.data
-@.reloc
-@.rsrc
-@.tls
-@A^_^
-@SVWH
 AppID
-AuthE
 CallNextHookEx
 ChangeWindowMessageFilterEx
 ClientToScreen
@@ -77,11 +63,6 @@ CloseHandle
 CommandLineToArgvW
 CreateEventW
 CreateMutexW
-D$(+D$ 
-D$,+D$$
-D$0""
-D$0E3
-D$@E3
 DeleteCriticalSection
 DragAcceptFiles
 DragAndDropPlugin.dll
@@ -98,7 +79,7 @@ FisheyeAngle
 FisheyeDir
 Format
 FrameUpdate
-Genu3
+GCTL
 GetClientHeight
 GetClientPositionX
 GetClientPositionY
@@ -121,26 +102,21 @@ GetWindowPositionY
 GetWindowRect
 GetWindowThreadProcessId
 GetWindowWidth
-H9-g|
-H9=fV
 HalfWide
 InitializeConditionVariable
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
-L$(H3
-L$0H3
-L$@H3
 Layout
 LeaveCriticalSection
 LengthInSecondsTotal
 LocalFree
-M H1E
 MSVCP140.dll
 MediaIndex
 NumSeeks
 QueryPerformanceCounter
+RSDS
 RecordSteamStatsForSingleFile
 ResetEvent
 RtlCaptureContext
@@ -161,7 +137,6 @@ STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
 STEAMVIDEO_INTERFACE_V002
-SVWAVH
 ScreenSize
 SendMessageW
 SessionID
@@ -205,12 +180,10 @@ UnhandledExceptionFilter
 UniqueKey
 Unknown exception
 VCRUNTIME140.dll
-VWAVH
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
 WatchDirectoryNeedsRefresh
-\$ UH
 _CxxThrowException
 __C_specific_handler
 __CxxFrameHandler3
@@ -231,28 +204,22 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-cAMDD
-entiA
-f9,Cu
-ineIA
+exit
+free
 invalid string position
-l$@E3
 malloc
 memcpy
 memmove
 memset
-ntelE
 steam_api64.dll
 strcpy_s
 string too long
 strncpy_s
 wcsstr
 wcstombs_s
-|$ AVH

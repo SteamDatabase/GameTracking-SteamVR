@@ -1,5 +1,4 @@
  Unity.IntegrationTests.Framework
-!This program cannot be run in DOS mode.
 !Unity.IAP.Purchasing.RunTimeTests
 "Unity.RuntimeTests.Framework.Tests
 #Blob
@@ -7,11 +6,9 @@
 #Strings
 *BSJB
 .ctor
-.text
 3This property has been renamed 'useCatalogProvider'
 <>f__am$cache0
 <>f__am$cache1
-<>m__0
 <AddProducts>m__0
 <AddProducts>m__1
 <FetchAdditionalProducts>m__0
@@ -43,7 +40,6 @@
 <useCatalogProvider>k__BackingField
 <useCloudCatalog>k__BackingField
 <useTransactionLog>k__BackingField
-@.reloc
 AbstractPurchasingModule
 AbstractStore
 Action
@@ -61,6 +57,7 @@ ArgumentException
 BindConfiguration
 BindExtension
 BitConverter
+Byte
 CheckForInitialization
 Clear
 ClearTransactionLog
@@ -91,6 +88,7 @@ Dispose
 DuplicateTransaction
 DynamicProxyGenAssembly2
 Empty
+Enum
 Enumerable
 Enumerator
 Equals
@@ -144,6 +142,7 @@ InvalidOperationException
 Invoke
 IsDefined
 IsNullOrEmpty
+Item
 JsonUtility
 KeyValuePair`2
 List`1
@@ -167,6 +166,7 @@ OnSetupFailed
 Other
 ParamArrayAttribute
 Parse
+Path
 Payload
 PaymentDeclined
 PayoutDefinition
@@ -233,6 +233,7 @@ Transaction
 TransactionID
 TransactionLog
 TryGetValue
+Type
 UnifiedReceipt
 UnionWith
 Unity.Automation
@@ -253,7 +254,6 @@ WithID
 WithStoreSpecificID
 WrapNonExceptionThrows
 _CorDllMain
-`.rsrc
 analytics
 availableToPurchase
 binder
@@ -264,8 +264,10 @@ cloudProducts
 controller
 currency
 currencyCode
+data
 defaultValue
 definition
+desc
 description
 developerPayload
 enabled
@@ -275,6 +277,7 @@ factory
 failCallback
 first
 forwardTo
+func
 get_Chars
 get_Count
 get_Current
@@ -360,6 +363,7 @@ message
 metadata
 mscoree.dll
 mscorlib
+name
 newPayouts
 op_Equality
 payload
@@ -382,6 +386,7 @@ reason
 receipt
 remainingModules
 response
+rest
 service
 set_Item
 set_availableToPurchase
@@ -425,6 +430,7 @@ title
 transactionID
 transactionId
 transactionIdentifier
+type
 typeString
 useCatalog
 useCatalogProvider

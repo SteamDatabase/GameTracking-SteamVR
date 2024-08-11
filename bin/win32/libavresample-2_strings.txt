@@ -1,374 +1,53 @@
                           
-  %0.3f 
-  (SKIP)
-  (ZERO)
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- PjPW
- SVW3
-!This program cannot be run in DOS mode.
-$PjQW
-(:4:@:L:X:d:p:|:
-*020{0
-*PjTW
-+PjUW
-+t"HHt
-,PjVW
-,SVWj0X
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
 -64OS
--PjWW
--jd[;
--t*j0X;
-.PjRW
-.idata
-.text
-/PjSW
-0 0$0
-0!0;0t0{0
-0#0.030
-0$0,040<0D0L0T0\0d0l0t0|0
-0*010Z0a0f0p0
-050:0O0T0l0q0
-080?0h0o0t0~0
-090?0P0V0g0m0
-090D0f0q0
-0@1H1
-0A0K0U0j0q0
-0H1j1
-0d0h0l0p0t0x0|0
-0|6x7|7
-1 1(10181@1H1P1X1`1h1p1x1
-1!1%1)1-1115191=1A1E1I1M1Q1U1Y1]1a1e1i1m1q1u1
-1!1'1-13191@1G1N1U1\1c1j1r1z1
-1!1'1/151;1C1I1O1W1`1g1o1x1
-1"2(2.242:2@2G2N2U2\2c2j2q2y2
-1#1-1U7
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1%1*1?1D1\1a1v1{1
-1%2d2
-1&1,1G1M1]1e1k1z1
-1)232=2R2Y2i2p2
-1+171F1k1
-1,13181B1W1q1
-111;1E1Z1a1q1x1
 16-bit 8.8 Fixed-Point
 16-bit signed integer
 16-bit signed integer planar
-181?1D1N1c1}1
-1:2M2
-1?1J1
-1A1H1L1P1T1X1\1`1d1
-1D3g3
-1F1M1j1q1
-1N_^[
-1k5o5s5w5{5
-1l2x2
-2 2(20282@2H2P2X2`2h2p2x2
-2 252O2
-2 282=2R2W2o2t2
-2!2-232G2[2s2y2
-2&3>3;5k5
-2'2@2
-2)2C2|2
-2*2E2^2o2
-2+404G4L4n4s4
-2<2C2l2s2x2
-2@2D2p2t2
-2j2t2
-3 3(30383@3H3P3X3`3h3p3x3
-3 4'4D4K4t4{4
-3"3&3*3.32363:3>3B3F3J3X3
-3"3*3/353=3B3H3P3U3[3c3h3n3v3{3
-3%3,333:3A3I3Q3Y3d3i3o3y3
-3)4<5Z548R8Q9Y:5=:=O=T=q=v=
-3*414N4U4~4
-3,30343\3`3d3
-3,60687
 32-bit 17.15 Fixed-Point
 32-bit float
 32-bit float planar
 32-bit signed integer
 32-bit signed integer planar
-353?3I3^3e3u3|3
-383X3x3
-3>3E3J3T3i3
-3J3P3V3\3b3h3n3t3z3
-3L3n4
-3N3U3r3y3
-3X3_3|3
-3X5|5
-3a3}3
-3c3o3
-4	5d5
-4 4$4L4P4T4|4
-4 4(40484@4H4P4X4`4h4p4x4
-4!4&4+44494?4G4L4R4Z4_4e4m4r4x4
-4#4R4
-4%474I4[4m4
-4&4/454;4Y4f4n4
-4&404@4
-4&4;4U4
-4(5;5R5d5~5
-4-5V5c5i5
-4/4>4_4
-44484T4X4x4
-4E4O4Y4n4u4
-4H5U5
-4P6g6
-4Q4^4
-4R4\4b4l4{4
-5 5'5P5W5\5f5{5
-5 5(50585@5H5P5X5`5h5p5x5
-5 5,585D5P5\5h5t5
-5 51565
-5 515w5
-5 575<5V5[5{5
-5 595C5P5Z5
-5 5K5\5n;
-5!6,6>6
-5"5b5
-5"6)6.686M6g6
-5#5+50565>5C5I5Q5V5[5d5i5o5w5}5
-5$5,545<5D5L5T5\5d5l5t5|5
-5$6[6u6
-5%6,6Z6h6w6
-5'5`5g5
-5(545@5`5
-5(767E7s748P8q8>9
-5(7d7
-5+5E5}5
-52696V6]6
-536[6i6
-586g6{6
-5<5@5D5l5p5t5
-5F5M5R5\5q5
-5G6]6i6o6
-5Genu
-5ntel
-5w6G7
-6 6(60686@6H6P6X6`6h6p6x6
-6 7$7P7T7
-6"6(6.646:6@6F6L6R6X6^6d6j6p6v6|6
-6"6,6A6[6
-6&6+62696@6E6L6S6Z6_6f6m6t6y6
-6'6/6
-6(6H6T6p6
-6+626?6H6R6X6
-6,7I7
-60646`6d6
 64-bit double
 64-bit double planar
-696z6
-6;7X7^7u7
-6<6A6X6]6w6|6
-6M6T6q6x6
-6[7{8
-6f7q7
-7 7(70787@7H7P7X7`7h7p7x7
-7!7'7I7S7Y7k7~7
-7$7*70767<7B7H7N7T7
-7$7:7Y7
-7$7A7H7p7w7|7
-7%969J9P9U9
-7(7/7X7_7d7n7
-7,7=7E7U7f7	8
-7-7e7l7
-7-7f7{7
-727?7K7[7a7r7
-767;7R7W7u7z7
-768=8Z8a8
-797r7y7
-7g8V9.:k:
-8 8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8%818N8T8i8
-8*81868@8U8o8
 8-bit unsigned integer
 8-bit unsigned integer planar
-81979?9y9
-82878N8S8q8v8
-838L8S8[8`8d8h8
-858P8X8f8k8z8
-8;9):y:
-8<8@8D8l8p8t8
-8?8W8
-8@8G8L8V8k8
-8B9H9L9P9T9
-8D8K8h8o8
-8P8Y8w8
-8P8b8
-8P9^9~9	:
-8Z9p9
-8[9c9z9
-8\8c8j8x8
-8l>o?
-9$949D9d9p9t9x9|9
-9%949;9L9Z9e9m9z9
-9'979v9
-9'9A9y9
-9(9=9W9
-9*:h:
-9,90949`9d9
-9,919H9M9m9r9
-9,939\9c9h9r9
-9:9A9j9q9v9
-9@9S9
-9D:M:*;5;H;\;
-9S9r9
-9W ~R3
-9] t"
-9^,~#W3
-9f9{9
-: :$:L:P:T:|:
-:$:,:4:<:D:L:T:\:d:l:t:|:
-:':_:f:
-:(:-:D:I:c:h:
-:+;@;J;T;
-:.:5:::D:Y:s:
-:0:::h:{:
-:0;7;T;[;
-:<:C:H:R:g:
-:?:q:x:|:
-:A;M;
-:B: =?=S=h=
-:F;K;];{;
-:J:Q:n:u:
-:J;U;a;
-:J<z>
-:T?_?
-:_:s:
-:f;q;G<Q<W<k<w<
-:j<b=
-:o<x<
-;";?;F;n;u;z;
-;#;9?D?
-;$;);@;E;e;j;
-;$;,;4;<;D;L;T;\;d;l;t;|;
-;$;0;<;H;T;`;l;x;
-;$;9;S;
-;&;<;g;
-;+;E;~;
-;-<2<
-;5;U;{;
-;B<G<L<c<
-;E<Z<t<
-;_tr.
-;t$,v-
-;u=T>
-< <,<8<D<P<\<h<t<
-< t8<	t4
-<"=)=F=M=v=}=
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<$=+=0=:=O=i=
-<$tPf
-<%<,<T<[<`<j<
-<%<^<e<
-<'<3=<=(>r>{>
-<*<<<
-<+<2<Y<f<k<y<
-<+=0=9=E=J=t=
-<.<T<
-</=6=S=Z=
-<0|m<9
-<6<;<[<`<w<|<
-<@<G<L<V<k<
-<C=d=
-<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-<K=Q=
-<O<X<a<
-<P<W<t<{<
-<`<h<
-<c=J>
-=!=8===W=\=s=x=
-=!>'>3>>>M>X>
-=!>x>
-="=0=
-=">)>c?m?
-=$=,=4=<=D=L=T=\=d=l=t=|=
-=$>*>6>m>
-=%>->
-=(===W=
-=*>{>\?m?
-=+=9=
-=->8>C>K>
-=0Y0a0f0
-=1=9=W=_=
-=1?8?>?E?
-=4>a>C?~?
-=C>Z>
->	>%>+>6>=>Q>W>y>
->!>&>>>C>X>]>u>z>
->!>;>s>z>
->$>+>T>[>`>j>
->$>,>4><>D>L>T>\>d>l>t>|>
->$?+?0?:?O?i?
->)>b>i>
->+?:?Y?l?
->.>3>R>W>n>s>
->4?;?X?_?
->:?@?L?
->Cu/f9F
->H>O>T>^>s>
->X>d>p>
-?!?&?0?E?_?p?u?
-?!?<?p?}?
-?#?+?0?4?8?a?
-?$?,?4?<?D?L?T?\?d?l?t?|?
-?'?4?c?k?
-?+?0?N?S?j?o?
-?4?9?Q?V?k?p?
-?C?J?g?n?
-?C?q?
+?1mm
 ?UUUUUU
 ?uZEeu
-@.data
-@.reloc
-@.rodata
-@PSjU
-@uKh`
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AVAudioResampleContext
-A_^[]
 April
-AreFileApisANSI
 AudioData
 August
 Blackman Nuttall Windowed Sinc
 Center Mix Level
-CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
 CompareStringEx
-CompareStringW
 CorExitProcess
 CreateEventExW
-CreateEventW
-CreateFileW
 CreateSemaphoreExW
-CreateSemaphoreW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
 Cubic
 Cutoff Frequency Ratio
 December
-DeleteCriticalSection
 Dither Method
 Dolby
 Dolby Pro Logic II
-EnterCriticalSection
 EnumSystemLocalesEx
-EnumSystemLocalesW
-Error reallocating resampling buffer
-ExitProcess
-F$9FH}G3
-FLSVW
-FVWPP
-FatalAppExitA
+Error reallocating resampling buffer\n
+FMA4
 February
 Filter Type
 Floating-Point
@@ -376,295 +55,108 @@ FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
-FlushFileBuffers
 FlushProcessWriteBuffers
 Force Resampling
-FreeEnvironmentStringsW
-FreeLibrary
 FreeLibraryWhenCallbackReturns
 Friday
-G Pj*S
-G _^[
-G$Pj+S
-G(Pj,S
-G,Pj-S
-G0Pj.S
-G4Pj/S
-G8PjDS
-G<PjES
-G@PjFS
-GDPjGS
-GHPjHS
-GLPjIS
-GPPjJS
-GTPjKS
-GWVj	
-GXPjLS
-G\PjMS
-G`PjNS
-GdPjOS
-GetACP
 GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetConsoleCP
-GetConsoleMode
 GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
 GetCurrentProcessorNumber
-GetCurrentThread
-GetCurrentThreadId
 GetDateFormatEx
-GetDateFormatW
-GetEnvironmentStringsW
 GetFileInformationByHandleExW
-GetFileType
 GetLastActivePopup
-GetLastError
 GetLocaleInfoEx
-GetLocaleInfoW
 GetLogicalProcessorInformation
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetProcAddress
-GetProcessHeap
 GetProcessWindowStation
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemTimeAsFileTime
-GetTickCount
 GetTickCount64
 GetTimeFormatEx
-GetTimeFormatW
-GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-GhPj8S
-GlPj9S
-GpPj:S
-GtPj;S
-GxPj<S
-G|Pj=S
 HH:mm:ss
-HPjPW
-HeapAlloc
-HeapFree
-HeapReAlloc
-HeapSize
-Ht+Ht$Ht
-InitializeCriticalSectionAndSpinCount
+HMXB
 InitializeCriticalSectionEx
 Input Channel Layout
 Input Sample Format
 Input Sample Rate
 Internal Sample Format
-Invalid channel counts
-Invalid channel layouts
-Invalid channel map
-Invalid input channel layout
-Invalid input channel layout: %llu
-Invalid mix coeff type
-Invalid output channel layout: %llu
-IsDebuggerPresent
-IsProcessorFeaturePresent
-IsValidCodePage
-IsValidLocale
+Invalid channel counts\n
+Invalid channel layouts\n
+Invalid channel map\n
+Invalid input channel layout: %llu\n
+Invalid input channel layout\n
+Invalid mix coeff type\n
+Invalid output channel layout: %llu\n
 IsValidLocaleName
-J1P1V142E2T2
 January
-KERNEL32.dll
+July
+June
 Kaiser Window Beta
 Kaiser Windowed Sinc
 LCMapStringEx
-LCMapStringW
 LFE Mix Level
-LPjQW
-LeaveCriticalSection
-LoadLibraryExW
 MM/dd/yy
 March
 Matrixed Stereo Encoding
 MessageBoxW
 Mixing Coefficient Type
 Monday
-MultiByteToWideChar
-N ;OPt
-ND;N |
+NKeb
 No Dithering
+None
 Normalize Mix Level
 November
 October
 Output Channel Layout
 Output Sample Format
 Output Sample Rate
-OutputDebugStringW
-Ox9Oth$F
-PP9E u
-PPPPP
-PPPPj
-PPWVj
-PSSSSV
-PSSSj
-PVVVVQ
-PWWWWV
-Pj@Sj
-PjOSj
-PjdSQ
-QQQQQ
-QhD$0
-QhD$P
-QhL$ 
-QhL$@
-QhL$`
-QhT$0 
-QhT$@ 
-QhT$P 
-QhT$` 
-QhT$p 
-Qh\$@0
-Qh\$P0
-Qh\$`0
-Qh\$p0
-QueryPerformanceCounter
 RSDSm{7
-RaiseException
 Rectangular Dither
 Resampling Filter Size
 Resampling Phase Shift
-RtlUnwind
-SHPh(
-SPPP+
+S;uD
+SSE2
 SSE2SLOW
+SSE4
 SSSE3
-SSSSS
-SVWPP
-SVWUj
-SVWjA_jZ+
-SVjA[jZ^+
 Saturday
 September
-SetConsoleCtrlHandler
 SetDefaultDllDirectories
 SetFileInformationByHandleW
-SetFilePointerEx
-SetLastError
-SetStdHandle
 SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
-SetUnhandledExceptionFilter
-Sleep
 Sunday
 Surround Mix Level
 SystemFunction036
-TerminateProcess
-The resampling context is already open.
+The resampling context is already open.\n
 Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
 Triangular Dither
 Triangular Dither With High Pass
 Triangular Dither With Noise Shaping
 Tuesday
-UQPXY]Y[
-URPQQh
-UnhandledExceptionFilter
-Unsupported internal format for mixing: %s
-Unsupported internal format for resampling: %s
+Unsupported internal format for mixing: %s\n
+Unsupported internal format for resampling: %s\n
 Use Linear Interpolation
-Using %s as internal sample format
-VVVVV
-VVh0y
-Vjdh|C
-WPPPPj
-WWWWW
+Using %s as internal sample format\n
 WaitForThreadpoolTimerCallbacks
 Wednesday
-WideCharToMultiByte
-Wj0XPV
-Wj5_f;
-WriteConsoleW
-WriteFile
-YYhD*
-Y_^[]
-Y__^[
-YhD$ 
-YhD$@
-YhD$`
-YhL$0
-YhL$P
-YhT$@ 
-YhT$P 
-YhT$` 
-YhT$p 
-Yh\$00
-Yh\$@0
-Yh\$P0
-Yh\$`0
-Yh\$p0
-Yu2Vj@h(
 [%d to %d] 
 [%d to any] 
 [any to %d] 
 [any to any] 
-[t;h0
-]9a9e9i9m9q9u9y9}9
-_0p0v0
 _cabs
 _hypot
 _logb
 _nextafter
-_tcPVj@
-`.rdata
-`7h7w7
 abcdefghijklmnopqrstuvwxyz
-ahD$0
-ahL$ 
-ahL$@
+acos
+asin
+atan
 atan2
-audio_convert: found function: %-4s to %-4s (%s)
-audio_mix: %s to %s
-audio_mix: NO FUNCTION FOUND: [fmt=%s] [c=%s] [%d to %d]
-audio_mix: found function: [fmt=%s] [c=%s] %s(%s)
-av_audio_fifo_alloc
-av_audio_fifo_drain
-av_audio_fifo_free
-av_audio_fifo_read
-av_audio_fifo_size
-av_audio_fifo_write
-av_default_item_name
-av_frame_get_buffer
-av_free
-av_freep
-av_get_bytes_per_sample
-av_get_channel_layout_nb_channels
-av_get_channel_layout_string
-av_get_cpu_flags
-av_get_packed_sample_fmt
-av_get_planar_sample_fmt
-av_get_sample_fmt_name
-av_lfg_init
-av_log
-av_malloc_tracked
-av_mallocz_tracked
-av_opt_free
-av_opt_set_defaults
-av_reduce
-av_rescale_rnd
-av_sample_fmt_is_planar
-av_samples_alloc
-av_samples_fill_arrays
-av_samples_get_buffer_size
-av_samples_set_silence
-avpriv_snprintf
-avpriv_strtod
+audio_convert: found function: %-4s to %-4s (%s)\n
+audio_mix: %s to %s\n
+audio_mix: NO FUNCTION FOUND: [fmt=%s] [c=%s] [%d to %d]\n
+audio_mix: found function: [fmt=%s] [c=%s] %s(%s)\n
 avresample_alloc_context
 avresample_available
 avresample_build_matrix
@@ -688,70 +180,46 @@ avresample_set_matrix
 avresample_version
 blackman_nuttall
 c:\buildslave\libav_win32\build\dev\libavresample\libavresample-2.pdb
-cannot remap packed format during conversion
-cannot remap packed format during copy
+cannot remap packed format during conversion\n
+cannot remap packed format during copy\n
+ceil
 center_mix_level
+cosh
 cubic
 cutoff
-d$ ]_^[
-d$ ^[
-d$0]_^[
-d$@]_^[
-d$@^[
-d$@_^[
-d$P]_^[
-d$P^[
-d$`]_^[
-d$p_^[
+dblp
 dddd, MMMM dd, yyyy
 dither flt buffer
 dither s16 buffer
 dither_method
-dithering %s to %s is not supported
+dithering %s to %s is not supported\n
 dolby
 dplii
-dst is read-only
+dst is read-only\n
 e+000
-error during resampling
-error reallocating dst
-error reallocating output
-error setting mix matrix
+error during resampling\n
+error reallocating dst\n
+error reallocating output\n
+error setting mix matrix\n
 exp10
-f-00f=
+fabs
 filter_size
 filter_type
 floor
+fltp
+fmod
 force_resampling
 frexp
-ihD$ 
-ihD$0
-ihD$@
-ihL$0
-ihL$@
-ihL$P
-ihL$`
-ihL$p
 in_buffer
 in_channel_layout
 in_sample_fmt
 in_sample_rate
 input
 internal_sample_fmt
-invalid NULL pointer for src[%d]
-invalid channel count: %d
-invalid sample format
-j	PjYV
-j	Yf;
-j j j
-j.Yf;
-j0Xf;
-j0Yf;
-j;Yf9
-j@j _W
-jAZjZ^
-jA[jZZ+
-jXYf;
-jxYf;
+invalid NULL pointer for src[%d]\n
+invalid channel count: %d\n
+invalid sample format\n
+kU'9
 kaiser
 kaiser_beta
 ldexp
@@ -765,81 +233,39 @@ libavresample/dither.c
 libavresample/options.c
 libavresample/resample.c
 libavresample/utils.c
-libavutil-54.dll
 linear_interp
 log10
-m0_$@
-matrix is not set
-matrix size: %d x %d
+matrix is not set\n
+matrix size: %d x %d\n
 matrix_encoding
-mhL$ 
-mhL$@
-mhL$`
 mix_coeff_type
+modf
+none
 normalize_mix_level
-oTQ f
-o\Q0f
-offset out-of-bounds: src=%d dst=%d
+offset out-of-bounds: src=%d dst=%d\n
 out_buffer
 out_channel_layout
 out_sample_fmt
 out_sample_rate
 output
 phase_shift
-r%f;M
 rectangular
 resample buffer
-resample: %s from %d Hz to %d Hz
+resample: %s from %d Hz to %d Hz\n
 resample_cutoff
 resample_out_buffer
-sample format mismatch
-sample rate must be 48000 or 44100 Hz for triangular_ns dither. using triangular_hp instead.
+s16p
+s32p
+sample format mismatch\n
+sample rate must be 48000 or 44100 Hz for triangular_ns dither. using triangular_hp instead.\n
+sinh
+sqrt
 surround_mix_level
-t WW9}
-t"h0F
-t2hXF
-t4#{,
-t;h L
-t;h@9
-t;h@O
-t;hP>
-t;hp`
-t@VSP
-tMj_S
-tPHt)H
-tQHt*H
-tRHt+H
-tZh :
-t\Ht0H
-t\h`1
-tchx1
-tfHtWHtHHt/
+tanh
 triangular
 triangular_hp
 triangular_ns
-tvh d
-tvh0D
-tvh@R
-tyPVj@W
-u#j,Xf;
-u'j0X
-uBjAYjZ+
-uCPVj
-uHjAXf;
-uWjAXf;
 uZEeu
-uhh0.
-v	N+D$
-w]_^[
-wtVj	
-y	[_^
-y&h /
-y'[_^
-y4_^[
 z?aUY
 zc%C1
-{@\Rich
 {no name}
-} j@W
-~';_t|%3
-~pjCXf

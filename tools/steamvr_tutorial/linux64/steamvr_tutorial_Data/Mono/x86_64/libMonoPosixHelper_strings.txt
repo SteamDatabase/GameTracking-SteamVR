@@ -1,34 +1,22 @@
-
-!
-"
-%
+ unzip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
+ zip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
 %02X
-%s/%s%s.so
 %s:%d: assertion '%s' failed
-'\'
-* Assertion at %s:%d, condition `%s' not met
-* Assertion: should not be reached at %s:%d
-,
--
-..
+* Assertion at %s:%d, condition `%s' not met\n
+* Assertion: should not be reached at %s:%d\n
+, ,!,",#,$,%,&,',(,),*,+,,,-,.,
+,\t,\n,\v,\f,\r,
+- -!-"-#-$-%-
+-\t-\n-\v-\f-\r-
 .XXXXXX
 /dev/null
 /tmp
-0
 0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,
+0123456789ABCDEFgstring.c
 1.2.3.3
-2!
-4
-:
-@
-A
-B
-C
 Character out of range for UTF-16
 CloseZStream
 CreateZStream
-D
-E
 ERROR
 Error creating pipe.
 Error in exec (%d -> %s)
@@ -43,9 +31,7 @@ Expected an = after the attribute name `%s'
 Expected an element
 Expected an element name
 Expected the attribute value to start with a quote
-F
 Flush
-G
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
 GLIBC_2.15
@@ -55,16 +41,9 @@ GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
 GLIBC_2.7
-GNU
-H
 HOME
-I
 Invalid multi-byte sequence on input
 Invalid sequence in conversion input
-J
-K
-L
-M
 Mono_Posix_FromAccessModes
 Mono_Posix_FromConfstrName
 Mono_Posix_FromDirectoryNotifyFlags
@@ -296,26 +275,17 @@ Mono_Posix_ToXattrFlags
 Mono_Unix_UnixSignal_WaitAny
 Mono_Unix_UnixSignal_install
 Mono_Unix_UnixSignal_uninstall
-N
-N!
+No memory left
 Not an absolute filename
-O
 Open quote
-P
 PATH
 Partial character sequence
-Q
-R
 ReadZStream
-S
-T
 TEMP
-TMP
 TMPDIR
 Template should end with XXXXXX
 Template should not have any /
 Too many closing tags, not enough open tags
-U
 URI contains an invalid escape sequence
 URI does not start with the file: scheme
 USER
@@ -324,15 +294,9 @@ Unfinished element
 Unfinished escape.
 Unfinished quote.
 Unfinished sequence
-Unknown error
-V
-W
+Unknown error 
 WriteZStream
-X
-Y
-Z
-\
-_-|> <.
+\vgfile-posix.c
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -364,18 +328,10 @@ _edata
 _end
 _fini
 `!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
-`,
-a
-a,
-aR
 abort
 access
 argv != NULL
-b
-b,
 breakprop
-c
-c,
 cfsetispeed
 cfsetospeed
 chdir
@@ -385,8 +341,6 @@ command_line
 contents != NULL
 context != NULL
 crc32
-d
-d,
 deflate
 deflateEnd
 deflateInit2_
@@ -401,7 +355,6 @@ dlerror
 dlopen
 dlsym
 dup2
-e
 eglib: g_filename_from_uri: hostname not handled
 eglib: g_filename_to_uri: hostname not handled
 error != NULL
@@ -409,14 +362,12 @@ error == NULL || *error == NULL
 execv
 execve
 exit
-f
 fclose
 fclose_file_func
 ferror
 ferror_file_func
 fflush
 file://
-file:///
 filename != NULL
 fill_fopen_filefunc
 first != NULL
@@ -430,8 +381,6 @@ fsync
 ftell_file_func
 func != NULL
 fwrite_file_func
-g
-g,
 g_array_append_vals
 g_array_free
 g_array_insert_vals
@@ -671,16 +620,12 @@ gshell.c
 gspawn.c
 gstr.c
 gtimer-unix.c
-h
-h,
 hash != NULL
 helper_Mono_Posix_GetGroupName
 helper_Mono_Posix_GetUserName
 helper_Mono_Posix_Stat
 helper_Mono_Posix_getpwnamuid
 helper_Mono_Posix_readdir
-i
-i,
 iconv
 iconv_close
 iconv_open
@@ -691,17 +636,11 @@ internal: invalid format string %s
 invalid utf-16 sequence at %d (missing surrogate head)
 invalid utf-16 sequence at %d (missing surrogate tail)
 invalid utf-8 sequence at %d (codepoint range excess)
+invalid utf-8 sequence at %d (illegal first byte)
 invalid utf-8 sequence at %d (illegal following bytes)
 invalid utf-8 sequence at %d (overlong)
 ioctl
 iter->slot_index != -2
-j
-j,
-k
-k,
-l
-l,
-lib
 libMonoPosixHelper.so
 libc.so.6
 libdl.so.2
@@ -709,7 +648,6 @@ libm.so.6
 libpthread.so.0
 libz.so.1
 list_serial_devices
-m
 map_Mono_Posix_AccessMode
 map_Mono_Posix_FileMode
 map_Mono_Posix_OpenFlags
@@ -718,14 +656,11 @@ map_Mono_Posix_Signals
 map_Mono_Posix_WaitOptions
 memmove
 mkstemp
-n
 nl_langinfo
 num_strings < MAX_OFFSETS
-o
 open_serial
 opendir
-p
-p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!!
+p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 path != NULL
 pattern != NULL
 poll
@@ -736,17 +671,10 @@ program != NULL
 pspec != NULL
 pthread_mutex_lock
 pthread_mutex_unlock
-q
 qsort
-r
-r+b
-r,
 raise
-rb
 read_serial
 result != NULL
-s
-s,
 s1 != NULL
 s2 != NULL
 select
@@ -772,15 +700,12 @@ strncpy
 strrchr
 strtok_r
 suffix != NULL
-t
 tcflush
 tcgetattr
 tcsendbreak
 tcsetattr
 text_len >= 0
 timer != NULL
-u
-u,
 unzClose
 unzCloseCurrentFile
 unzGetCurrentFileInfo
@@ -804,16 +729,11 @@ unzSetOffset
 unzStringFileNameCompare
 unz_copyright
 unzeof
-unzip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
 unztell
 uri != NULL
-v
-v,
 val != NULL
 vasprintf
-w
 waitpid
-wb
 wexitstatus
 wifexited
 wifsignaled
@@ -821,11 +741,7 @@ wifstopped
 write_serial
 wstopsig
 wtermsig
-x
 x-struct-str.c
-y
-z
-zip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
 zipClose
 zipCloseFileInZip
 zipCloseFileInZipRaw

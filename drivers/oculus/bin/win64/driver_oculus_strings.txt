@@ -1,231 +1,67 @@
-					
-							
-												
-																																												
-																																																																																																																
-			"translation" : [ 0, 0, 0 ],
-			"yaw" : 0
-			[ -0.5, 0, -0.5 ]
-			[ -0.5, 0, -0.5 ],
-			[ -0.5, 0, 0.5 ]
-			[ -0.5, 0, 0.5 ],
-			[ -0.5, 2.43, -0.5 ],
-			[ -0.5, 2.43, 0.5 ],
-			[ 0.5, 0, -0.5 ]
-			[ 0.5, 0, -0.5 ],
-			[ 0.5, 0, 0.5 ]
-			[ 0.5, 0, 0.5 ],
-			[ 0.5, 2.43, -0.5 ],
-			[ 0.5, 2.43, 0.5 ],
-		"collision_bounds" : [
-		"play_area" : [ 1, 1 ],
-		"seated" : {
-		"standing" : {
-	!s99
-	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
-	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
-	D$HA
-	w=%d, h=%d, format=%d
-	|$HA
-    A
- !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
- %41g
- '-46
  (Camera
  (Left Controller)
  (Right Controller)
  (does the path point to a directory?)
  (libfound)
  (noexist)
- 9D$D
- ;]X|
- =RDHI
- A^A]A\_^
- A^_^
- A_A\_
- A_A]A\_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^]
- A_A^^
- A_A^_
- A_A^_][
- A_A^_^]
- A_^[
- A__[
- A__^
- H3E H3E
  at line 
- in Buffer
- in `
- sJE3
-!&.37<
-!(0)"
-!hn7!
-!} /{
+ in Buffer\n
 " not found in the scene.
-"""""""
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
-"9k0t
-"accessors" object not found in .gltf
-"asset" object not found in .gltf or not an object type
-"bufferViews" object not found in .gltf
-"buffers" object not found in .gltf
-"nodes" object not found in .gltf
+"accessors" object not found in .gltf\n
+"asset" object not found in .gltf or not an object type\n
+"bufferViews" object not found in .gltf\n
+"buffers" object not found in .gltf\n
+"nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
-"scenes" object not found in .gltf or not an array type
+"scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
-#*1892+$
-#9i0t
 #?RADIANCE
+#?RADIANCE\n
 #?RGBE
-#D9c0t
-#D9{0t
+#?RGBE\n
 #oculus_requested_quit
-$w!Hc
-%%.%dg
+$3br
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%,3:;4-&
-%9k0t
-%9{0t
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
+%llu
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&9k0t
-&D9c0t
-&D9k0t
-&D9{0t
 ' is not a number.
 ' property is missing
 ' property is missing in 
-' property is missing.
-' property is missing. 
-' property is not a JSON object.
-' property is not a bool type.
-' property is not a number type.
-' property is not a number.
-' property is not a positive integer.
-' property is not a string type.
+' property is missing. \n'
+' property is missing.\n
+' property is not a JSON object.\n
+' property is not a bool type.\n
+' property is not a number type.\n
+' property is not a number.\n
+' property is not a positive integer.\n
+' property is not a string type.\n
 ' property is not an array
-' property is not an integer type.
-' property is not an object.
-' value is not an integer type.
-',=?k
+' property is not an integer type.\n
+' property is not an object.\n
+' value is not an integer type.\n
 '.5<=6/7>????????????????
-'9k0t
-'D9c0t
 '[', '{', or a literal
-'uri' is missing from non binary glTF file buffer.
-(A\^][
-(A\_^[
-(A^A]^[
-(A^A]_[
-(A_A^
-(A_A^^[
-(A_A^_[
-(A_A^_]
-(D$ H
-(D$ I
-(D$ f
-(D$0D
-(D$0H
-(D$0f
-(D$@H
-(D$PL
-(L$ D
-(L$`E
-(L$pL
-(T$ H
-(T$PD
+'uri' is missing from non binary glTF file buffer.\n
 (Unable to load LibOVR)
-(d$pD
-(f*^[0
-(l$0L
-(t$ 2
-(t$ D
-(t$ H
-(t$0H
-(t$@H
-(t$@L
-(t$PD
-(t$PH
-(t$pD
-(t$pH
-(t$pL
-(t$pfD
-(|$ H
-(|$0H
-(|$0s
-(|$@D
-(|$PL
-(|$`D
-(|$`I
-(|$`M
-)9k0t
-)D$ L
-)D$0A
-)D$0D
-)D$0H
-)D$0fD
-)D$0s"L
-)D$0s'A
-)D$@A
-)D$PD
-)D$pI
-)L$ fD
-)L$P@
-)L$PL
-)L$pA
-)l$0D
-)t$ D
-)t$ H
-)t$0A
-)t$0H
-)t$@H
-)t$@f
-)t$Pf
-)t$pD
-)t$pH
-)t$pu.H
-)|$ D
-)|$ H
-)|$0E3
-)|$0f
-)|$@D
-)|$@f
-)|$PD
-)|$`D
-)|$`H
-)|$pf
-***** Reloading Shaders Begin
-***** Reloading Shaders End
-*uXI;
-+Xt@(
-+o'q)}
+***** Reloading Shaders Begin\n
+***** Reloading Shaders End\n
 , binary size = 
 , but got 
 , column 
 , last executing in 
 , requestedBytes 
-,#:MQW
-,9k0t%H
-,9{0t%H
-,W5y+
 -1003
 -1e+9999
 -3003
--9k0t&H
--9{0t%H
--D9c0t%H
 -Infinity
 -startup
--u-I;
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -357,7 +193,8 @@ $w!Hc
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.D9c0t&H
+.HPN
+.bss
 .data
 .data$r
 .edata
@@ -377,17 +214,16 @@ $w!Hc
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-/9{0t'H
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -440,101 +276,21 @@ $w!Hc
 /user/wrist/right
 0 width
 0-pixel image
-0A^_^
-0A_A^A\_^
-0A_A^A]A\^
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^^][
-0A_A^_
-0A_A^_^[
-0A_A^_^]
-0A__^
-0D9c0t'H
-0w0c1
-0}0i1
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-130801120000Z
 1e+9999
 2.5.4.3
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-2333333
-240724174103Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3?9y>m0_D@H_
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-69k0t1
-6I]Dc
-6OB,n_
-6p7M=:P_:}u
 7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7u;H;
-8A^A\
-8D$!t
-8D$#u
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9C s.H
-9T$Pu9A
-9T$XJ
-9]pu2
-9k0t$H
-9k0t[D
-9k0t\D
-9k0t_D
-9k0tcH
-9l$Lt	E
-9|$@u
+9a&g
 : one or more FS callback not set
 ; expected 
 ; last read: '
-;K sCH
-;K sUH
-;S sAH
-;S sDH
-< t+<
-</u#H
-<0:08
-<U+%.4X>
 <parse error>
 <uninitialized>
 <unknown>
-=7p7M}
-=ETLP
-=IBgC
-=SNRtt%
-=TADIt<=DNEI
-=rIQU
->0<0:
->Mp$d
->W`.]tB3?
->ff&?
 ?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -561,7 +317,6 @@ $w!Hc
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?@s#0?LD
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
@@ -609,7 +364,6 @@ $w!Hc
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
-?u='?
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
@@ -617,194 +371,46 @@ $w!Hc
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@.data
-@.reloc
-@.rsrc
-@8I+@0H
-@A\^]
-@A^A]A\[]
-@A^_^
-@A^_^][
-@A_A\]
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\_^[
-@A_A^A]_[
-@A_A^_
-@HcQdH
-@LcqHD
-@SATAUAVAWH
-@SAUAVAWH
-@SAWH
-@SUVATH
-@SUVAVAWH
-@SUVH
-@SUWATAVH
-@SUWAVAWH
-@SVAUAVH
-@SVAVAWH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAUAWH
-@SVWATAWH
-@SVWATH
-@SVWH
-@SWAUAVAWH
-@SWAVAWH
-@SWAWH
-@UATAUAVAWH
-@UATAWH
-@UAUAWH
-@UAUH
-@UAVH
-@USATAUAVH
-@USAUAVAWH
-@USVATAVH
-@USVAVH
-@USVH
-@USVWATAUAVH
-@USVWATAVAWH
-@USVWATH
-@USVWAUAVAWH
-@USVWAUAVH
-@USVWH
-@USWATAWH
-@USWH
-@UVATAUAVH
-@UVATH
-@UVAUH
-@UVAWH
-@UWAVAWH
-@UWAVH
-@VAVH
-@VWAVH
-@VWAWH
-@_RDATA
 @fff>fff>fff>fff>
 A valid JSON document must be either an array or an object value.
-A9A A
-A9Q sEI
-A;Q s?I
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
-APH+AHH
-ASSERT: "%s" at %s:%d.
-ATAVAWH
-ATAVH
-ATAWH
-AVAWH
-A\_^[]
-A]A\^
-A]A\_^][
-A]_[]
-A^A\^
-A^A\^[]
-A^A\_
-A^A\_]
-A^A\_][
-A^A]A\^]
-A^A]A\_^[]
-A^A]_[]
-A^A]_^[]
-A^A]_^]
-A^_[]
-A_A\[]
-A_A\_
-A_A\_[]
-A_A\_][
-A_A\_^[
-A_A\_^]
-A_A]A\^[]
-A_A]A\_^[
-A_A]A\_^]
-A_A]]
-A_A]^]
-A_A]_[]
-A_A^A\
-A_A^A\_]
-A_A^A\_^[]
-A_A^A]
-A_A^A]A\]
-A_A^A]A\^
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A][
-A_A^A][]
-A_A^A]_]
-A_A^A]_^[]
-A_A^A]_^][
-A_A^]
-A_A^_
-A_A^_^[]
-A_A^_^]
-A__[]
+ASSERT: "%s" at %s:%d.\n
 Accessor
 Adobe
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
-AuthD
 BINORMAL
 BMP RLE
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bellevue1
 Buffer
 BufferView
-C ;s@
-C @8{
-C D8s
-C D8{
-C(H9C0t
-C0L9$
-C8H+C0H
 CAnimResource
 CBoneMaskResource
-CD$03
-CD$@3
-CD$P3
-CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle
-CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.
-CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.
-CD3D11VRRenderer::Initialize(): Failed to create compute shader %s!
-CD3D11VRRenderer::Initialize(): Failed to create input layout for vertex shader %s!
-CD3D11VRRenderer::Initialize(): Failed to create pixel shader %s!
-CD3D11VRRenderer::Initialize(): Failed to create vertex shader %s!
-CD3D11VRRenderer::Initialize(): Failed to load compute shader %s! (size=%d)
-CD3D11VRRenderer::Initialize(): Failed to load pixel shader %s! (size=%d)
-CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)
+CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle\n
+CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.\n
+CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.\n
+CD3D11VRRenderer::Initialize(): Failed to create compute shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to create input layout for vertex shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to create pixel shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to create vertex shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to load compute shader %s! (size=%d)\n
+CD3D11VRRenderer::Initialize(): Failed to load pixel shader %s! (size=%d)\n
+CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)\n
 CD3D11VRRenderer::Signal
-CD3D11VRRenderer::UnampTexture: dangling data pointer
+CD3D11VRRenderer::UnampTexture: dangling data pointer\n
 CKeyframedDataResource
-CL$0E3
-CL$0H
-CL$PH
 COLOR
 COculusHmdLatest::UpdateThread
 COculusState::CreateSession
 CServerDriver_Oculus::Cleanup
-CT$ H
-CT$pH
-C\$0D
-C\$0H
-C\$0L
-C\$0L9%
-C\$0L9%>
-C\$0M
-C\$PE
-C\$PH
-C\$PL
-C\$PM
-C\$pH
-C\$pL
 Camera
 CertGetNameStringW
-Chaperone updated with universe ID %d
+Chaperone updated with universe ID %d\n
 CloseHandle
 CreateDXGIFactory1
 CreateEventA
@@ -812,131 +418,24 @@ CreateEventW
 CreateFileW
 CreateSession was invoked without calling DestroySession, textures may have been leaked.
 CreateThread
-C|$PL
-D$ A;
-D$ E3
-D$ E;
-D$ H+]
-D$ H;
-D$ HcH
-D$ fE
-D$ ff
-D$$E3
-D$(@88
-D$(H+
-D$(H+]
-D$(H;
-D$(Hi
-D$(I+
-D$(I;
-D$(L;D$PtVI
-D$,D;l$8
-D$,I+
-D$0E+
-D$0E3
-D$0H+
-D$0H9Q
-D$0H;
-D$0H;D$Pt
-D$0L;D$htVI
-D$0fD
-D$0fff
-D$0tx
-D$4I;
-D$8H;
-D$8I;
-D$8L+
-D$@E3
-D$@H9Q
-D$@H9Q@t
-D$@H9S@t
-D$@fA
-D$DE3
-D$HE3
-D$HHi
-D$PH9Q
-D$PH;
-D$PI;
-D$PM;
-D$PMc
-D$PfA
-D$TI;
-D$XA#
-D$XH+
-D$XH9D$8
-D$XH9Q
-D$XHc
-D$`H9D$@
-D$`H;
-D$`HcH
-D$`I;
-D$`L;
-D$`fI
-D$hH9D$H
-D$hH;
-D$pE3
-D$pH;
-D$pHcH
-D$pI;
-D$pL;
-D$xH+
-D$xHc
 D3D11CreateDevice
-D8$0u
-D8$3u
-D8,8u
-D8d$P
-D8fht/H
-D8o)tJ
-D8o)tU
-D90uGH
-D9@ s
-D9H s
-D9c0t
-D9c0t)H
-D9d$Lt
-D9w u
-D9x s
-D9{0t
-D9{0t'H
-D9{0t?H
-D9{0tZD
-D;A s
-D;I s
-D;l$0
-D;v(s
-D;z s
-D;}Tr
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
 DXGI_ERROR_DRIVER_INTERNAL_ERROR
 DXGI_ERROR_INVALID_CALL
-Default audio playback device: %s
-Default audio recording device: %s
+Default audio playback device: %s\n
+Default audio recording device: %s\n
 DeleteCriticalSection
-Detected new Oculus Touch controller: %d/%d
-Detected new Oculus tracker: %d
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+Detected new Oculus Touch controller: %d/%d\n
+Detected new Oculus tracker: %d\n
 DisableThreadLibraryCalls
 DuplicateHandle
-E H9Q
-E0H+E(H
-E0HcH
-E;u`|
-ERROR: Failed to dup handle!
-EgH9Q@t
-EgH9S@t
+ERROR: Failed to dup handle!\n
 Empty escape sequence in string
 Empty file.
 EnterCriticalSection
-Error! EventWriteString Severe: %s
+Error! EventWriteString Severe: %s\n
 EventRegister
 EventUnregister
 EventWriteString
@@ -944,32 +443,32 @@ EventWriteTransfer
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
 FORMAT=32-bit_rle_rgbe
-FS callback[s] not set
-Failed CreateTexture2D with 0x%X
-Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
-Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
-Failed to convert guardian data to chaperone
-Failed to create DepthStencilView for texture %s
-Failed to create RTV for texture
+FS callback[s] not set\n
+Failed CreateTexture2D with 0x%X\n\tw=%d, h=%d, format=%d\n\tArraySize=%d, Usage=%d, SampleDesc.Count=%d\n\tCPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
+Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
+Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
+Failed to convert guardian data to chaperone\n
+Failed to create DepthStencilView for texture %s\n
 Failed to create RTV for texture lod=%d
+Failed to create RTV for texture\n
 Failed to create SRV for texture lod=%d
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
-Failed to get default audio playback device
-Failed to get default audio recording device
-Failed to initalize OVR direct mode support.
-Failed to initialize Oculus Touch controller driver with unsupported hand type %d
-Failed to initialized Oculus device
+Failed to get default audio playback device\n
+Failed to get default audio recording device\n
+Failed to initalize OVR direct mode support.\n
+Failed to initialize Oculus Touch controller driver with unsupported hand type %d\n
+Failed to initialized Oculus device\n
 Failed to load external 'uri' for image[
-Failed to open oculus_hmd mailbox (%d)
-Failed to parse JSON object
+Failed to open oculus_hmd mailbox (%d)\n
+Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
 Failed to read file: 
-Failed to send mailbox message (%d)
-Failed to set thread %p priority: invalid priority %d
-Failed to start update thread
-Failed to update guardian data
+Failed to send mailbox message (%d)\n
+Failed to set thread %p priority: invalid priority %d\n
+Failed to start update thread\n
+Failed to update guardian data\n
 File is empty : 
 File not found : 
 File open error : 
@@ -977,11 +476,9 @@ File open error for writing :
 File read error : 
 File size mismatch : 
 File write error: 
-Forcing chaperone update
+Forcing chaperone update\n
 Found path: 
 FreeLibrary
-G(M+G I
-G8$1u
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
@@ -1003,76 +500,14 @@ GetProcessHeap
 GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
-Graphics LUID changed
-Guardian changed, updating chaperone
-H SVWH
-H SWH
-H!C@H
-H+C H;
-H+C0H
-H+L$0H
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H-^Eu
-H93t	H
-H9Ahs
-H9D$@
-H9D$@u
-H9D$P
-H9E8u$H
-H9Qhv#H
-H9UPt
-H;0u8H
-H;0u:H
-H;9u|A
-H;C(v
-H;Cxu
-H;H r
-H;H s
-H;S8r
-H;Y t
-H;\$X
-H;\$h
-H;_ t+H
-H;_ t,H
-H;_ u
-H;s(r
-H;t$`
-H;{XH
-H;|$0t
-H;|$Pt
-H;|$X
-H;|$Xt
-H;|$`
-H;|$x
-H;}PtwH
+Graphics LUID changed\n
+Guardian changed, updating chaperone\n
 HMD no longer present
-HcB Hi
-HcC H
-HcD$ H
-HcD$x
-HcF$H
-HcFdH
-HcOXH
-Hct$@L+
 HeapAlloc
 HeapFree
-Hmd not found.
+Hmd not found.\n
 HmdDriverFactory
-Hu"Hc
-I(+K H
-I(I+I H
-I+O0D
-I9<$u
-I9Bhs
-I;4$H
-I;4$L
-I;8u?H
-I;V8r
 ID3D11DeviceContext4::Signal
-IDATH
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
@@ -1117,28 +552,23 @@ IVRSystem_022
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-I\$(H
-IcV E3
-IcV H
-IcV0E3
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
-Index Controller CreateSkeletonComponent failed.  Error: %i
+Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Infinity
-InitDirectMode: DX11 level hardware required!
-InitDirectMode: Failed to create D3D11 device! (err=%u)
-InitDirectMode: Failed to start signal thread!
-Initialization failed due to an invalid Oculus state.
+InitDirectMode: DX11 level hardware required!\n
+InitDirectMode: Failed to create D3D11 device! (err=%u)\n
+InitDirectMode: Failed to start signal thread!\n
+Initialization failed due to an invalid Oculus state.\n
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
-Initialized Oculus device %s
+Initialized Oculus device %s\n
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.
+Invalid binary data in `Buffer'.\n
 Invalid camera type: "
 Invalid file size : 
 Invalid glTF binary.
@@ -1147,119 +577,53 @@ Invalid magic.
 IsDebuggerPresent
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
-J>@G_
-JSON string too short.
+JFIF
+JSON string too short.\n
 KERNEL32.dll
 KHR_lights_punctual
-K}*n:	
-L$ E3
-L$ H;
-L$ Hc
-L$ HcQ
-L$ I;
-L$ L;
-L$ SH
-L$ SUVWAVH
-L$ SUVWH
-L$ SVWH
-L$ SWH
-L$ UWAUAVAWH
-L$"H;
-L$$Ic
-L$(E3
-L$(H9U
-L$(H;
-L$0E3
-L$0fE
-L$4D;
-L$89s(udL
-L$8A+
-L$8D;
-L$8H;
-L$8H;L$0
-L$8L;
-L$@D8	u
-L$@D;
-L$@E3
-L$@H;
-L$@L+
-L$@fD
-L$HI+
-L$HI9T$Xt
-L$PE3
-L$PH3
-L$XE3
-L$XM+
-L$\E3
-L$`E3
-L$`fD
-L$p@2
-L$pE3
-L$pHcQ
-L9%w	
-L9k8v
-L9t$@
-L9|$p
-L;8u6H
-L;D$x
-L;l$P
-L;l$p
-L;t$h
-L<pL;
-L?n(Zy&
 LINEAR
-Lc E3
-LcD$0L
-Lcl$$I
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LibOVRRT64_1.dll
 LoadLibraryA
 LoadLibraryW
 LocalizationManager
-M H1E
-M98u/
-MB(iVR
+MAT2
+MAT3
+MAT4
+MGiI
 MSVCP140.dll
-MS_:F
-MT$dA
 MainThrd
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-N I9N(
-N0H9Q
 NORMAL
-NPH9Q
+NULL
 Neither required `bufferView` nor `uri` defined for image[
-No LoadImageData callback specified.
-No valid guardian bounds. Creating standing chaperone
+No LoadImageData callback specified.\n
+No valid guardian bounds. Creating standing chaperone\n
 NormalTextureInfo
 Not writing %s because the texture was null
-O8I+O0H
 OPAQUE
 OVR Runtime Init
-OVR runtime requested recenter
+OVR runtime requested recenter\n
 OVRInitThread
 OVRRuntimeWindowThread
 OVRSignalThread
-OVRSignalThread thread ending
+OVRSignalThread thread ending\n
 Object
 Oculus
 Oculus API has been in a failure state for at least %d ms, requesting disconnect/reconnect.
-Oculus Touch controller driver rejected by vrserver
+Oculus Touch controller driver rejected by vrserver\n
 Oculus device attached but Oculus service does not report it. The Oculus link has probably not been manually enabled.
 Oculus device attached but the Oculus service is uninstalled or not running.
 Oculus driver requested quit.
-Oculus driver requires restart for bad LUID.
-Oculus remote %s %s.
-Oculus session was recreated but display is still lost.
-Oculus touch %s controller state %s.
-Oculus tracker %s %s.
-Oculus tracker driver rejected by vrserver
+Oculus driver requires restart for bad LUID.\n
+Oculus remote %s %s.\n
+Oculus session was recreated but display is still lost.\n
+Oculus touch %s controller state %s.\n
+Oculus tracker %s %s.\n
+Oculus tracker driver rejected by vrserver\n
 OculusLinkNotEnabled
 Oculus\Support\oculus-runtime
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
@@ -1267,36 +631,24 @@ OpenEventW
 OpenProcess
 Orhographic camera description not found.
 OrthographicCamera
-Out of thread local storage!
+Out of thread local storage!\n
 OutputDebugStringW
-PA^_^
-PA^_^][
-PA_A]A\_^
-PA_A^A\^]
-PA_A^A]A\[
-PA_A^A]A\]
-PA_A^A]A\_^[
-PA_A^A]A\_^]
-PA_A^_
-PA_A^_^]
-PAq=?Mp#
+PATH
+PICT
+PNG\r\n
 POSITION
 Path_Exists( absFilePath )
 Perspective camera description not found.
 PerspectiveCamera
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Primitive
 Program Files
-Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R$fE;B*
 RPCRT4.dll
 RSDSt
 RaiseException
 ResetEvent
-RlK8`K8
 RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -1304,31 +656,15 @@ RtlVirtualUnwind
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S0Q0O
-S8H+S0H
-SATAUAVAWH
-SA|X=G
 SCALAR
 SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
 SETUPAPI.dll
-SPB8t
-SPB8u,
-SUVWATAUAVAWH
-SUVWATAUH
-SUVWATAVH
-SUVWAUAVAWH
-SUVWAVH
-SUVWH
-SUWATAWH
-SVWATAUAVAWH
-SVWAVAWH
-SWAUAVH
 SearchPathW
-Session created!
-Set thread %p priority to: %d
+Session created!\n
+Set thread %p priority to: %d\n
 SetEnvironmentVariableA
 SetEvent
 SetThreadPriority
@@ -1337,88 +673,36 @@ SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInterfaces
 SetupDiGetClassDevsA
 SetupDiGetDeviceInterfaceDetailA
+Skin
 Sleep
 SleepConditionVariableCS
 Spot light description not found.
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
-T$ E3
-T$ H;
-T$ I;
-T$ fD
-T$$H;
-T$$I+
-T$(H9T$0t!H
-T$0fA
-T$8;T$<
-T$@H;
-T$@Hc
-T$@I;
-T$@L;
-T$HH;
-T$PL;
-T$PM;
-T$XA#
-T$XH;
-T$pD;
-T$pL;
-T$xH;
-T$xL;
 TANGENT
 TEXCOORD
-TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
 TextureInfo
 This is not a D3D11 object
 This is not a Vulkan object
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 Timeout calling ovr_Initialize
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
-Tp=9y>m0_D@H_
-U0H9U8t
-UATAUAVAWH
-UAVAWH
 UNNAMED
-USATAWH
-USATH
-USVATAUAWH
-USVWATAUAVAWH
-USVWATAUAVH
-USVWAUAVAWH
-USVWAVAWH
-USVWAVAWI
-USWAUAVH
-USWAUAWH
-USWAUH
-USWAVH
-USWAWH
-UUUUUUU
-UVATAVAWH
-UVAUAWH
-UVWATAUAVAWH
-UVWATAUAWH
-UVWATAWH
-UVWAUAVH
-UVWAVAWH
-UWATAVAWH
-UWATAVH
-UWAVH
-UWAWH
-Unable to create texture set for pid %u: %s
-Unable to destroy %d swap textures due to invalid session
-Unable to init Oculus Touch controller
-Unable to init Oculus tracker
+Unable to destroy %d swap textures due to invalid session\n
+Unable to init Oculus Touch controller\n
+Unable to init Oculus tracker\n
 Unable to load LibOVRRT DLL
 Unable to locate LibOVRRT symbol: 
-Unable to write chaperone info to %s
+Unable to write chaperone info to %s\n
 UnableToConnectToOculusRuntime
 UnhandledExceptionFilter
 Unknown exception
@@ -1429,42 +713,25 @@ Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
-VATAUAVAWH
-VATAUH
-VATAVH
-VAVAWH
 VCRUNTIME140.dll
+VEC2
+VEC3
+VEC4
 VRInitError_VendorSpecific_OculusRuntimeBadInstall 
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
-VWATAUAWH
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-WATAUAVAWH
-WAVAWH
 WINMM.dll
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Warning: Watchdog %s not properly cleaned up%s%s
-Washington1
+Warning: Watchdog %s not properly cleaned up%s%s\n
 WinVerifyTrust
-X UVWH
-XA^^[]
 XXXX PNG chunk not known
-Y9"SD
-Z9k0tUD
-ZL$Xf
-[K]taM?
+Zjz\v
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
 [OculusDirect] !!!! AcquireSync FAILED with WAIT_ABANDONED
@@ -1479,55 +746,14 @@ ZL$Xf
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
-\$ E3
-\$ H;
-\$ I;
-\$ UATAUAVAWH
-\$ UAVAWH
-\$ UH
-\$ UVAVH
-\$ UVWATAUAVAWH
-\$ UWATH
-\$ UWAVH
-\$ VH
-\$ WH
-\$(H9V
-\$(H;
-\$(HcC
-\$0H;
-\$0I+
-\$8D;
-\$8H;
-\$8I+
-\$8I9\$@tGH
-\$@H;
-\$HH9Q
-\$HH;
-\$PH;
-\$PI;
-\$PfD
-\$XI;
-\$XLc
-\$`E3
-\$`H+
-\$hH;
-\$hI;
-\$pI;
-\$pfD
-\$xH;
-\u=H;
-\|$`D
+\nbad png sig
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\vUnable to create texture set for pid %u: %s\n
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
-] name = "
-] name = [
-]9k0tVD
-]J<0"0i3
 ][OculusDirect] AquireSync
-]g@8yhu
-^9k0tWD
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1540,10 +766,6 @@ _Cnd_wait
 _Controller_Left
 _Controller_Right
 _CxxThrowException
-_D9c0tWD
-_D9k0tWD
-_D9s0tWD
-_D9w0tWD
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -1580,7 +802,6 @@ _dtest
 _errno
 _execute_onexit_table
 _fseeki64
-_gUT^
 _get_stream_buffer_pointers
 _initialize_narrow_environment
 _initialize_onexit_table
@@ -1599,29 +820,23 @@ _unlock_file
 _wfopen_s
 _wgetenv_s
 _wstat64i32
-` UAVAWH
-`.rdata
-`A_A^A]A\_^[
-`A_A^A]A\_^]
-`A__^
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
-`input` field is missing in animation.sampler
+`input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target
+`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
-`output` field is missing in animation.sampler
-`path` field is missing in animation.channels.target
-`sampler` field is missing in animation channels
+`output` field is missing in animation.sampler\n
+`path` field is missing in animation.channels.target\n
+`sampler` field is missing in animation channels\n
 `samplers' does not contain an JSON object.
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-a7hIw
 abort
 accessor[
 accessors
@@ -1629,6 +844,7 @@ acosf
 additional six characters expected to parse unicode surrogate pair.
 alphaCutoff
 alphaMode
+alse
 animations
 anims
 api-ms-win-crt-convert-l1-1-0.dll
@@ -1646,6 +862,7 @@ array
 aspectRatio
 assert json failed
 asset
+atof
 attributes
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
@@ -1687,7 +904,6 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
-bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
@@ -1736,20 +952,6 @@ corrupt
 count
 cs_cz
 czech
-d$ H;
-d$ UAVAWH
-d$$E3
-d$(E3
-d$(Hi
-d$(M;
-d$<Mc
-d$HMc
-d$PE3
-d$PfD
-d$`H=
-d$`L;
-d$`fD
-d$bHc
 d3d11.dll
 da_dk
 danish
@@ -1772,7 +974,6 @@ dxgi.dll
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
-effffff
 el_gr
 emissiveFactor
 emissiveTexture
@@ -1783,49 +984,42 @@ es_es
 es_mx
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
+expf
 extensions
 extensionsRequired
 extensionsUsed
 extras
-fD9	u
-fD9&u
 false
 false literal
 fclose
+feof
 fflush
 fgetc
 fgetpos
 fi_fi
 finnish
 first not IHDR
+fmod
 fopen_s
 fputc
 fputs
 fr_fr
 fread
+free
 french
 fseek
 fsetpos
 fwrite
-g9k0t_D
 generator
 german
-gfffffffH
-gfffffffH+
-gfffffffI
 greek
 hand_right_poses.glb
 handlers
 headset
 height
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 hu_hu
 hungarian
-ig@-?e
+i]Wb
 illegal code in raster
 image/bmp
 image/gif
@@ -1905,54 +1099,18 @@ inverseBindMatrices
 isalnum
 it_it
 italian
-ix`fA
 ja_jp
 japanese
-jj@0HK4
 joints
 jsonid
-k0i0$
 ko_kr
 koreana
-ktQGY
-l$ ATAVAWH
-l$ E3
-l$ H;
-l$ H=
-l$ VATAUAVAWH
-l$ VH
-l$ VWATAUAVH
-l$ VWAVH
-l$ VWAWH
-l$ WATAWH
-l$ WAVAWH
-l$ WAVHc|$8I
-l$ WH
-l$ fI
-l$(E3
-l$0A^_
-l$0E3
-l$4H;
-l$8E3
-l$8L;
-l$8M;
-l$@H;
-l$@t^
-l$PI;
-l$PM9n
-l$TD;
-l$XH;
-l$`I+
-l$pL;l$P
-l$xLc
-l2|X/gGe
 latam
 ldexp
 left_controller
 lights
 list<T> too long
 localeconv
-m0k0$
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1968,6 +1126,7 @@ memcmp
 memcpy
 memmove
 memset
+mesh
 meshes
 message_id
 metallicFactor
@@ -1976,8 +1135,10 @@ mimeType
 minFilter
 minVersion
 missing color table
+mode
+modf
 multiple IHDR
-n0_D@
+name
 nb_no
 nl_nl
 no IDAT
@@ -1987,6 +1148,7 @@ no SOI
 no clear code
 no header height
 no preset dict
+node
 nodes
 normalTexture
 normalized
@@ -1996,16 +1158,10 @@ not GIF
 not HDR
 not PSD
 not enough pixels
-ntelD
+null
 null literal
 number literal
 number overflow parsing '
-o@@fD
-oD$ fD
-oD$0f
-oD$0fD
-oL$ f
-oT$0f
 object
 object key
 object separator
@@ -2028,19 +1184,18 @@ oculus_rifts_controller_right
 oculus_touch
 only 8-bit
 orthographic
-ot$Pf
 out_of_range
 outerConeAngle
 outofdata
 outofmem
 output
 output buffer limit
-ovrHmd_Create failed(%d)
+ovrHmd_Create failed(%d)\n
 ovr_BeginFrame
-ovr_BeginFrame(%d) failed: [%d] %s
+ovr_BeginFrame(%d) failed: [%d] %s\n
 ovr_ClearShouldRecenterFlag
 ovr_CommitTextureSwapChain
-ovr_CommitTextureSwapChain(%d) failed: %s
+ovr_CommitTextureSwapChain(%d) failed: %s\n
 ovr_Create
 ovr_CreateMirrorTextureDX
 ovr_CreateMirrorTextureGL
@@ -2056,7 +1211,7 @@ ovr_DestroyTextureSwapChain
 ovr_Detect
 ovr_EnableExtension
 ovr_EndFrame
-ovr_EndFrame(%d) failed: %s
+ovr_EndFrame(%d) failed: %s\n
 ovr_GetAudioDeviceInGuid
 ovr_GetAudioDeviceInGuidStr
 ovr_GetAudioDeviceInWaveId
@@ -2086,7 +1241,7 @@ ovr_GetMirrorTextureBufferDX
 ovr_GetMirrorTextureBufferGL
 ovr_GetMirrorTextureBufferVk
 ovr_GetPerfStats
-ovr_GetPerfStats(%d) failed: %s
+ovr_GetPerfStats(%d) failed: %s\n
 ovr_GetPredictedDisplayTime
 ovr_GetRenderDesc2
 ovr_GetSessionPhysicalDeviceVk
@@ -2108,10 +1263,10 @@ ovr_GetTrackingState
 ovr_GetVersionString
 ovr_IdentifyClient
 ovr_Initialize
-ovr_Initialize failed with ovrErrorType %d
-ovr_Initialize failed with ovrErrorType %d - %s
+ovr_Initialize failed with ovrErrorType %d - %s\n
+ovr_Initialize failed with ovrErrorType %d\n
 ovr_Initialize never called
-ovr_Initialize second attempt failed with ovrErrorType %d - %s
+ovr_Initialize second attempt failed with ovrErrorType %d - %s\n
 ovr_IsExtensionSupported
 ovr_Lookup
 ovr_RecenterTrackingOrigin
@@ -2130,7 +1285,7 @@ ovr_SetInt
 ovr_SetString
 ovr_SetSynchronizationQueueVk
 ovr_SetTrackingOriginType
-ovr_SetTrackingOriginType failed with ovrErrorType %d - %s
+ovr_SetTrackingOriginType failed with ovrErrorType %d - %s\n
 ovr_Shutdown
 ovr_SpecifyTrackingOrigin
 ovr_SubmitControllerVibration
@@ -2140,21 +1295,13 @@ ovr_TestBoundary
 ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
-ovr_WaitToBeginFrame(%d) failed: %s
-p WATAVH
-p$D+;
-pA^^]
-pA_A^A]A\[
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-pA_A^^
-pA_A^_
-pA_A^_^]
+ovr_WaitToBeginFrame(%d) failed: %s\n
 pNewResource
 pNewResource->Load( absFilePath )
-parameter must be a string or number / number array.
+parameter must be a string or number / number array.\n
 parse error
 parse_error
+path
 pbrMetallicRoughness
 perspective
 pid_%04x
@@ -2162,12 +1309,13 @@ pl_pl
 play_area
 polish
 portuguese
+powf
 primitive indices accessor out of bounds
 primitives
 pt_br
 pt_pt
 quest
-rND9{0t
+r\vp!K
 range
 read past buffer
 realloc
@@ -2184,7 +1332,6 @@ roughnessFactor
 roundf
 ru_ru
 russian
-s fff
 sampler
 samplers
 sc_schinese
@@ -2349,12 +1496,15 @@ shaders/d3d11/unlit_motion_vectors_ps.fxo
 shaders/d3d11/unlit_ps.fxo
 shaders/d3d11/unlit_sint16_ps.fxo
 shaders/d3d11/unlit_vs.fxo
+sinf
 skeleton
 skeletons
+skin
 skins
 source
 spanish
 sparse
+spot
 standing
 strcmp
 strength
@@ -2373,97 +1523,36 @@ strtoull
 sv_se
 swedish
 syntax error 
-t#fff
-t$ AVH
-t$ AWH
-t$ E3
-t$ H;
-t$ HcH
-t$ I;
-t$ L;
-t$ UH
-t$ UWATAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WATAWH
-t$ WAV
-t$ WAVAWH
-t$ WH
-t$,H+>H
-t$0A^_
-t$0H+
-t$8E3
-t$8H+
-t$8H;
-t$8HcA
-t$8I;
-t$8L9t$@tg
-t$@E3
-t$@H+
-t$@H;
-t$@H=
-t$DA+
-t$HH+
-t$HHi
-t$PE3
-t$PH=
-t$PHc
-t$`D;
-t$`H;
-t$`L;
-t$`Li
-t$`Lk
-t$hHc
-t$hL;
-t$pI;
-t$pfA
-t$pfD
-t1Hcl$@
-t9fff
-t>H9n
-t>y#I
-t?y$I
-t?y&I
-tAy&H
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tXH+A
-tXfff
-t[D8p
-t[H+A
 target
 targets
-tb9l$Xt@9n$~;
 tchinese
 tdh.dll
-teHcD$P
 terminate
 texCoord
 text/plain
 textures
 th_th
+thai
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
+time
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
 timeSetEvent
-tkH97t	H
 tolower
 too large
 too many codes
 touch_poses_right.glb
 tr_tr
 translation
+true
 true literal
 turkish
-t|SUVH
-u>f9X u8f9X0u2f9X@u,f9XPu&
-u>f9X"u8f9X2u2f9XBu,f9XRu&
-uDf9X
-uJf9X
-uTL9%
+type
 uk_ua
 ukrainian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
@@ -2479,24 +1568,18 @@ unknown token
 unsupported bit depth
 unsupported data layout
 unsupported format
-v4fff
-v=Y]Bv
-vE;E`M
-vHcD$LH
 value
 values
 vector<T> too long
 vector<bool> too long
 version
-version %s
-vfA'I
+version %s\n
 vi_vn
 vid_%04x
 vietnamese
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
-w(M9w0tH
 weights
 while parsing 
 width
@@ -2507,19 +1590,15 @@ wrapT
 wrong channel count
 wrong color format
 wrong version
-www.digicert.com1!0
-www.digicert.com1$0"
-x AVH
-x UAVAWH
-xA^A\_^][
-yxxxxxxxH
-yxxxxxxxH+
-yxxxxxxxI
+xmag
+yfov
+ymag
+zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
-{%s}%s
+{\n\t\t"collision_bounds" : [\n\t\t[\n\t\t\t[ -0.5, 0, -0.5 ],\n\t\t\t[ -0.5, 2.43, -0.5 ],\n\t\t\t[ -0.5, 2.43, 0.5 ],\n\t\t\t[ -0.5, 0, 0.5 ]\n\t\t],\n\t\t[\n\t\t\t[ -0.5, 0, 0.5 ],\n\t\t\t[ -0.5, 2.43, 0.5 ],\n\t\t\t[ 0.5, 2.43, 0.5 ],\n\t\t\t[ 0.5, 0, 0.5 ]\n\t\t],\n\t\t[\n\t\t\t[ 0.5, 0, 0.5 ],\n\t\t\t[ 0.5, 2.43, 0.5 ],\n\t\t\t[ 0.5, 2.43, -0.5 ],\n\t\t\t[ 0.5, 0, -0.5 ]\n\t\t],\n\t\t[\n\t\t\t[ 0.5, 0, -0.5 ],\n\t\t\t[ 0.5, 2.43, -0.5 ],\n\t\t\t[ -0.5, 2.43, -0.5 ],\n\t\t\t[ -0.5, 0, -0.5 ]\n\t\t]\n\t\t],\n\t\t"play_area" : [ 1, 1 ],\n\t\t"seated" : {\n\t\t\t"translation" : [ 0, 0, 0 ],\n\t\t\t"yaw" : 0\n\t\t},\n\t\t"standing" : {\n\t\t\t"translation" : [ 0, 0, 0 ],\n\t\t\t"yaw" : 0\n\t\t},\n\t}
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png
@@ -2530,51 +1609,3 @@ znear
 {oculus}/input/rift_dk2.json
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
-{un'%
-|$ ATAUAVAWH
-|$ ATAVAWH
-|$ AUAVAWH
-|$ AVH
-|$ E3
-|$ M;
-|$ UATAUAVAWH
-|$ UAVAWH
-|$ UH
-|$(E3
-|$(I9V
-|$0H;
-|$0Hk
-|$0Mc
-|$8H9S
-|$8H;
-|$8I+
-|$8M;
-|$<I;
-|$@A_A^A]A\
-|$@D;
-|$@H+
-|$@Hc
-|$@M;
-|$HE3
-|$HH;
-|$HH=
-|$HI+
-|$PH+
-|$PH;
-|$PL9~
-|$PLc
-|$PM+
-|$XH;
-|$XuMH
-|$`H;
-|$`M+
-|LL\t
-|Lu?c
-|U^dSN
-}LuHO
-~+fff
-~3LcD$(L
-~6HcD$ I
-~XH9~`t+H
-~qj#k"
-~t&LN

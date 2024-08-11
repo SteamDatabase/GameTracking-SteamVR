@@ -1,46 +1,22 @@
-					
-	 	&	|	
-	Flame gun
-	Lightmaps
-	Material2
-	Particles
-	eY(_
-	kZ(O
  AZ(x
- A[(^
  Kino Image Effects/Analog Glitch
  Steam Audio/Steam Audio Geometry
  Steam Audio/Steam Audio Listener
  Steam Audio/Steam Audio Material
  The seconds variable to convert.
  overrideRealtimeReflectionProbes
-!C"Z"+#[$
 !CowLoopManager+<checkCowLoop>d__3
 !Example02_bullet_group+<Fire>d__5
 !JSONObject+<StringifyAsync>d__111
 !Kino Image Effects/Digital Glitch
 !Steam Audio/Steam Audio Probe Box
-!This program cannot be run in DOS mode.
-"333?
-"333?	Z
-"333?"
-"333?(
-"333?()
+"333?\tZ
 "333?}Y
-"33s?"
 "33s?"ff
-"38	,$
-"5";"L"c"
 "Interval between firing in seconds
 "ff>A}S
-"fff?	Z
-"fff?"
-"fff?}
+"fff?\tZ
 "fff?}l
-# , I 
-#=")\
-#=Y"VU
-#=Z(K
 #Blob
 #Event invoked when this item breaks
 #GUID
@@ -49,57 +25,69 @@
 #SuperSplines/Other/Branching Spline
 #TriggerTool_Eval+<RunCooldown>d__34
 $0$?$D$J$b$
-$1%|%
 $overrideBillboardsFaceCameraPosition
+%1A1
+%1A7
+%1AL
+%1AM
+%1AN
+%1AO
+%1AP
+%1AQ
+%1AR
+%1AS
+%1AT
+%1AU
+%1Ag
+%1C0
+%1C6
+%1C7
+%1aL
+%1aM
+%1aN
+%1aO
+%1aP
+%1aQ
+%1aR
+%1aS
+%1aT
+%1aU
+%1av
+%1aw
+%1c0
+%1c1
+%1c5
 %CFX_Demo+<RandomSpawnsCoroutine>d__15
 %CFX_ShurikenThreadFix+<WaitFrame>d__2
-%J	XT
+%J\tXT
 %TutorialManager+<DoKnuxElevator>d__85
-&"&(&1&9&
-&*z~/
-&.?e.
 &An object to spawn as a pooled object.
 &Give each bullet this initial velocity
 &SaveRestore+<RestoreJSONCoroutine>d__7
 &Steam Audio/Steam Audio Dynamic Object
 &The lowest pitch that will be reached.
+'76b
 'How often to do the check (in seconds).
-'L'R'f'
 'Steam Audio/Steam Audio Custom Settings
 'SuperSplines/Animation/Gravity Animator
 'SuperSplines/Animation/Regular Animator
 'The highest pitch that will be reached.
 (1(B(H(P(^(
 (Event invoked when a projectile is fired
-(M)e)
 (Store the result in this float variable.
 (TutorialManager+<TutorialCoroutine>d__83
-)#)>)
 )Steam Audio/Steam Audio Ambisonics Source
-*.sT	
 *;*A*_*f*u*
 *A string variable to store the time value.
 *Kino Image Effects/Analog Glitch (Credits)
 *Number of objects to instantiate initially
 *TutorialManager+<SoundCheckCoroutine>d__79
-+!r5+
-+#+=+`+
-+*^~L
-+0	o6
-+C	o'
+*VsV
+*rIN
 +CFX_AutoDestructShuriken+<CheckIfAlive>d__2
 +Time in seconds to reach the target volume.
-,(	oc	
-,+r+(
-,/,9,B,w,
-,K,R,
 ,ObjectPool+<AllowReallocationNextFrame>d__19
 ,TutorialManager+<InstructionDelayTimer>d__80
--!rZS
--)	rw$
--)-X-`-
--)r3:
--@	oh
 -PlaySound3Part+<Play3PartSoundCoroutine>d__10
 -Steam Audio/Steam Audio Custom Speaker Layout
 -SuperSplines/Animation/Closest Point Animator
@@ -107,18 +95,17 @@ $overrideBillboardsFaceCameraPosition
 .(.1.7.?.D.J.m.
 .cctor
 .ctor
-.text
-/*	o6
-/?/R/d/t/
 /Amount of time to lerp to the next pitch value.
 /Requires 'Directional Specular' General GI Mode
 /\0c0}0
 0+070C0
+0.91
 02E4414E7DFA0F3AA2387EE8EA7AB31431CB406A
 0Emgen.VertexCache+<GetRawTriangleEnumerator>d__9
 0TutorialController+<FlipTrackpadCoroutine>d__137
 1F99C3FF707D9FF1BE42A08173ABD6B1F1EB451B
 1Only this many objects can ever exist at one time
+1\nG3
 2Maximum pitch that will be used when randomly set.
 2Minimum pitch that will be used when randomly set.
 2Steam Audio/Steam Audio Baked Static Listener Node
@@ -126,12 +113,16 @@ $overrideBillboardsFaceCameraPosition
 2kZs>
 3*rU5
 393EA32ACA2B24715BF7B75BFB710B8967F7FE98
+3B"d
 3Maximum volume that will be used when randomly set.
 3Minimum volume that will be used when randomly set.
 3SteamAudio.SteamAudioManager+<EndOfFrameUpdate>d__5
 4A floor volume to reach before the sound is stopped.
-4AZX}+	
-4AZX}2	
+4AZX}+\t
+4AZX}2\t
+4CX"
+4CX}
+4C}k
 4The pieces to be spawned when this item is destroyed
 5D2BC0184BEAA127ACED08A622677A8266A8176D
 68A9B8E862E4BB24F8767B71202076346D07CED1
@@ -139,6 +130,7 @@ $overrideBillboardsFaceCameraPosition
 6Shows Debug Overlay [Shift+F1] or launch with -vrdebug
 7MovePlayerToStartTransform+<MovePlayerWhenHMDReady>d__4
 7SuperSplines/Other/Spline Mesh Modifiers/Twist Modifier
+8.C1
 87137E630C3837BC71D4E9D0A4EB1E7CF85C9909
 8Use min and max random pitch levels when playing sounds.
 9365FDAD4BD75AEF9446E0B22483D217BE36E309
@@ -156,122 +148,6 @@ $overrideBillboardsFaceCameraPosition
 <>4__this
 <>7__wrap1
 <>7__wrap2
-<>9__129_0
-<>9__13_0
-<>9__13_1
-<>9__2_0
-<>9__50_0
-<>9__60_0
-<>9__66_0
-<>9__66_1
-<>9__67_0
-<>9__73_0
-<>9__73_1
-<>9__73_2
-<>9__73_3
-<>9__74_0
-<>9__74_1
-<>9__77_0
-<>9__83_0
-<>9__83_1
-<>9__83_10
-<>9__83_11
-<>9__83_12
-<>9__83_13
-<>9__83_14
-<>9__83_15
-<>9__83_16
-<>9__83_17
-<>9__83_18
-<>9__83_19
-<>9__83_2
-<>9__83_20
-<>9__83_21
-<>9__83_22
-<>9__83_23
-<>9__83_24
-<>9__83_25
-<>9__83_26
-<>9__83_27
-<>9__83_28
-<>9__83_29
-<>9__83_3
-<>9__83_30
-<>9__83_31
-<>9__83_32
-<>9__83_33
-<>9__83_34
-<>9__83_35
-<>9__83_36
-<>9__83_37
-<>9__83_38
-<>9__83_39
-<>9__83_4
-<>9__83_40
-<>9__83_41
-<>9__83_42
-<>9__83_43
-<>9__83_44
-<>9__83_45
-<>9__83_46
-<>9__83_47
-<>9__83_48
-<>9__83_49
-<>9__83_5
-<>9__83_50
-<>9__83_51
-<>9__83_52
-<>9__83_53
-<>9__83_54
-<>9__83_55
-<>9__83_56
-<>9__83_57
-<>9__83_58
-<>9__83_59
-<>9__83_6
-<>9__83_60
-<>9__83_61
-<>9__83_62
-<>9__83_63
-<>9__83_64
-<>9__83_65
-<>9__83_66
-<>9__83_67
-<>9__83_68
-<>9__83_69
-<>9__83_7
-<>9__83_70
-<>9__83_71
-<>9__83_72
-<>9__83_73
-<>9__83_74
-<>9__83_75
-<>9__83_76
-<>9__83_77
-<>9__83_78
-<>9__83_79
-<>9__83_8
-<>9__83_80
-<>9__83_81
-<>9__83_82
-<>9__83_83
-<>9__83_84
-<>9__83_85
-<>9__83_86
-<>9__83_87
-<>9__83_88
-<>9__83_89
-<>9__83_9
-<>9__83_90
-<>9__83_91
-<>9__83_92
-<>9__83_93
-<>9__83_94
-<>9__83_95
-<>9__83_96
-<>9__83_97
-<>9__83_98
-<>9__83_99
 <>c__DisplayClass10_0
 <>c__DisplayClass5_0
 <>c__DisplayClass5_1
@@ -463,10 +339,8 @@ $overrideBillboardsFaceCameraPosition
 <checkCowLoop>d__3
 <controllersAcknowledged>5__14
 <controllersAcknowledged>5__7
-<f>5__13
 <fadeRate>5__8
 <headsetActivityTimer>5__3
-<i>5__2
 <iconUrl>k__BackingField
 <instructionsCanvasGroup>5__9
 <isGamepadPresent>5__6
@@ -477,7 +351,6 @@ $overrideBillboardsFaceCameraPosition
 <laserImpactEffect>5__2
 <localizedDescription>k__BackingField
 <localizedName>k__BackingField
-<ps>5__2
 <quantity>k__BackingField
 <root>5__2
 <set_IsPaused>b__66_0
@@ -491,27 +364,26 @@ $overrideBillboardsFaceCameraPosition
 <vrcam>k__BackingField
 <wakeUpTimer>5__11
 ="333?s
-="B`e<"
 =Automatically adjusts render quality to maintain VR framerate
 =Object to use as the look direction. Defaults to Main Camera.
 =Repeat every frame. Useful if any of the values are changing.
-?"333?"
-?"fff?"
 ?60~D
 ?Default skybox material to use when this gameObject is enabled.
 ?Repeat every frame. Useful if the seconds variable is changing.
 ?SuperSplines/Other/Spline Mesh Modifiers/Mesh Modifier Template
 ?UUUUUU
+?ZX2
 ?ZX4(
 ?ZY6(
-@.reloc
+?ZsF
 @ZXkV
 @ZXkV*N
-@ZYZ(^
 ALPHA
 ARRAY
 AWAKE
+A\tiv
 Absorb
+Acos
 ActionCategory
 ActionCategoryAttribute
 Activator
@@ -599,7 +471,6 @@ Atlas_BalloonRoom
 AttachSubtitlesToNPC
 AttachToHand
 AttachedObject
-Audio Pool
 AudioClip
 AudioContainers
 AudioEngineAmbisonicsSourceFactory
@@ -621,10 +492,14 @@ AvatarIKGoal
 AvgRateType
 BAKED
 BE92F6167D702450450E66BB54B843DEA5ECD0C1
+BLUE
+BOOL
+BSJB
 BSpline
 BSplineInterpolator
 BThe VRPlayer will be moved to this transform when the HMD is ready
 BUTTON
+B\tkZ
 BackLeft
 BackRight
 BackgroundImage
@@ -665,6 +540,7 @@ BendMesh
 BezierInterpolator
 Bilinear
 BitConverter
+Blit
 BoneAxis
 BoneColliderDiameter
 BoneColliderLength
@@ -674,6 +550,7 @@ BoneColliderType
 BoneListNamesNoColliders
 BoneListNamesStatic
 BoneWeight
+Bool
 BoolValue
 BorderlessWindow
 Bottom
@@ -701,6 +578,8 @@ ButtonClickedEvent
 ButtonLabelOpacitySynchronizer
 BySplineParameter
 BySplineSegment
+Byte
+C E\nU
 C:\perforce\keithb_ZACHT\vr\unity\main\tutorial_2018\Temp\Assembly-CSharp.pdb
 CCreateItemResult_t_CallResult
 CFX_AutoDestructShuriken
@@ -906,9 +785,11 @@ CurvedScreenRenderer3DRight
 CurvedScreenTransform
 CustomMatrix
 CutoutOverlay
+D;sA
 DESTROY
 DIRECTIONAL_LIGHT_PULLBACK_DISTANCE
 DISABLE
+DZ(F
 DebugDraw
 DebugLoop
 Debug_ForceTrigger
@@ -1005,6 +886,7 @@ Embree
 Emgen
 EmissionModule
 EmissionRamp
+Emit
 EmitPoint
 EnableAllEvals
 EnableHint
@@ -1023,6 +905,7 @@ EndVertical
 EndsWith
 EnoughNodes
 Enqueue
+Enum
 Envelope
 EnvironmentAnimator
 Epsilon
@@ -1089,7 +972,9 @@ FFTWindow
 FLOAT
 FMODStudio
 FPSObjectShooter
-FZY	o6
+FULL
+FZY"
+FZY\to6
 FZYs>
 FaceHMD
 FacePlayer
@@ -1098,6 +983,7 @@ FadeInAtStart
 FadeInAtStart+<Start>d__3
 FadeOutDelay
 FadeOutTime
+Fail
 FallbackTypeIndex
 FallbackTypeKey
 FancySubtitles
@@ -1118,6 +1004,7 @@ FindOrCreateLeaderboard
 FindOverlay
 FindWindow
 Finish
+Fire
 FireConfetti
 FireLaser
 FireLaserCoroutine
@@ -1147,6 +1034,7 @@ FloorToInt
 FlushPlugin
 FnTable
 FoldoutList
+Font
 FontStyle
 FootPlant
 ForEach
@@ -1159,6 +1047,7 @@ ForwardOnSpline
 Forwards
 FrameRate
 FrameTimerID
+Free
 FreeHGlobal
 Friend
 FriendGameInfo_t
@@ -1421,7 +1310,6 @@ GlobalManagerLMV
 GlobalManagerTST
 GoToCenterVideoPrefab
 Gradient
-Gradient Fog
 Graphic
 Graphics
 GraphicsDeviceType
@@ -1431,6 +1319,10 @@ Gravel
 GripMeters
 GripMetersSettings
 Guided
+HB(A
+HB(g
+HBo.
+HBs_
 HMDRemapper
 HMDtoLineSegment
 HRTFDatabaseType
@@ -1472,7 +1364,6 @@ HeadsetVideoPrefabRetail
 HeadsetVideoTarget
 HeadsetVideoTargetRetail
 HeadsetVideoTargetRetailInHeadset
-Height Fog
 Helper
 Hermite
 HermiteInterpolator
@@ -1565,7 +1456,6 @@ Insert
 Instantiate
 InstantiateGO
 InstantiateGameObject
-Instatiate
 InstatiateActive
 InstatiateCutoff
 InstatiateGameObjects
@@ -1631,6 +1521,7 @@ IsSkinnedMesh
 IsWindowsMR
 Isolate
 IssuePluginEvent
+Item
 ItemDefs
 ItemPackage
 ItemPackageReference
@@ -1641,29 +1532,33 @@ JSONObject
 JSONObject+<BakeAsync>d__106
 JSONObject+<PrintAsync>d__108
 JSONTemplates
+Join
 JointDrive
 JunctionController
 KA view angle (in degrees) the target must be inside before the event fires.
 KEYBOARD
+K[Av
 KeyCode
 KeyCollection
 KeyValuePair`2
+Kill
+Kino
 KinoCutoff
 KinoMaxEffectValue
 KinoReturnSpeed
 KinoSampleFromSpectrumPoint
 KinoTriggerValue
+Knux
 KnuxSqueezeDisplays
-L=")\
 L="B`e="B`e="o
-L>")\
-L>X(+
-L>ZV+!
+L=ZX\v
+L=o9
+L>Zo
+LINE
 LOCAL
 LOSSY
 LargeScreenScale
 Laser
-Laser impulse
 LaserCollider
 LaserDuration
 LaserGeometryLength
@@ -1685,15 +1580,14 @@ LeftSpeakerTestSource
 LengthData
 LerpTool
 LerpTool_Component
+Life
 Lifetime
 LightBakingOutput
 LightShadows
 LightType
-Lightmap UVs
 LightmapData
 LightmapSettings
 LightmapsMode
-Lightning gun
 LightningBolt
 LightningGun
 LightningGunClose
@@ -1763,6 +1657,8 @@ LookUpVertex
 LoopingFrames
 LowFreqAbsorption
 LowFreqTransmission
+LpA\r
+Lpc\f
 MAX_BONES
 MAX_DEPTH
 MAX_LIGHTS
@@ -1807,6 +1703,7 @@ MaterialTriggerColor
 MaterialTriggerValue
 MaterialTypeKey
 MaterialValue
+Math
 Mathf
 MaxBeamLength
 MaxFloatValueInclusive
@@ -1845,13 +1742,13 @@ Minimum time between spawns.
 MinusX
 MinusY
 MinusZ
-Miscellaneous
 MissileType
 ModifyNormal
 ModifyTangent
 ModifyUV
 ModifyVertex
 Monitor
+Mono
 MonoBehaviour
 MonoEvent
 MorphFactor
@@ -1875,6 +1772,8 @@ MultiplyPoint3x4
 MultiplyVector
 MyEditorUpdate
 NEGINFINITY
+NONE
+NULL
 NUMBER
 NativeEntrypoints
 NavMesh
@@ -1888,6 +1787,7 @@ NodeBasedLine
 NodeCreator
 NodeParameterRegister
 NodeParameters
+None
 NormalMode
 Normalize
 Normalized
@@ -1980,16 +1880,18 @@ OscillateTime
 OscillateTimerID
 OutOfMemory
 Override Simulation Settings
+P!41
+P/41
 PARTIAL
 PERIODIC
 PITCH_MAX
 PITCH_MIN
 POINT_LIGHT
+P\fq2\t
 PadLeft
 ParamArrayAttribute
 ParameterName
 ParameterType
-Parameters
 ParseBoneIndices
 Partial
 ParticleBlendReturnSpeed
@@ -2007,6 +1909,7 @@ ParticlesTriggerValue
 ParticlesYOffsetD
 PathDistance
 PauseEditorEveryFrame
+Peek
 PendingTextTime
 Perlin
 PersistAfterPlayMode
@@ -2030,9 +1933,7 @@ PhysicsManagerRuntime
 PingPong
 PitchRandomness
 PlanarRealtimeReflection
-Plasma beam
 Plasma beam heavy
-Plasma gun
 PlasmaBeam
 PlasmaBeamClose
 PlasmaBeamHeavy
@@ -2123,6 +2024,7 @@ QueueUserWorkItem
 Queue`1
 RMinimum amount of time (in seconds) that the target must be inside the view angle.
 RRMouseLook
+RSDS
 Radeon Rays Settings
 RadeonRays
 Rail gun
@@ -2259,6 +2161,7 @@ RightChannelIcon
 RightHand
 RightSpeakerTestSource
 RigidTransform
+Rock
 RoomFloor
 RoomFoldaway
 RoomLampBaseSubstitute
@@ -2303,6 +2206,8 @@ RuntimeHelpers
 RuntimePlatform
 RuntimeTypeHandle
 SHA256
+SN3D
+SOFA
 START
 STRING
 SWP_ASYNCWINDOWPOS
@@ -2486,7 +2391,6 @@ SetupRopeLinks
 SetupRopeMaterials
 SetupSplinePositions
 SevenPointOne
-Shape Button
 ShapeButton
 ShapeCollider
 ShapeCurved
@@ -2535,7 +2439,6 @@ SimulationSettings
 SimulationSettingsPreset
 SimulationSettingsPresetList
 SimulationSettingsValue
-Size Button
 SizeButton
 SizeCollider
 SizeLarge
@@ -2567,7 +2470,7 @@ SoloGun
 SoloGunHit
 SoloGunImpact
 SoloGunShot
-Sort Frames
+Sort
 SortFrames
 Sound Check UI
 SoundCheck
@@ -2598,6 +2501,7 @@ SplineSineScaleModifier
 SplineTwistModifier
 SplitMode
 SqrMagnitude
+Sqrt
 Start3PartSound
 StartAudioTrigger
 StartCoroutine
@@ -2718,11 +2622,14 @@ System.Text.RegularExpressions
 System.Threading
 SystemInfo
 SystemLanguage
+T/91
 TAudioSource
 TIMER
 TOJSON
 TRIGGER_ENTER
 TRIGGER_EXIT
+T\fl2\t
+Take
 TangentMode
 TaskPool
 TerrainData
@@ -2738,7 +2645,6 @@ TextureDimension
 TextureUpdater
 TextureWrapMode
 Texture_t
-The Valuae
 The base end reference
 The base start reference
 The lifetime of the spawn pieces in seconds, if 0, live forever. TODO: Should get from some object manager which will manage the lifetime
@@ -2746,6 +2652,7 @@ The target end reference
 The target start reference
 ThreadPool
 ThreadStart
+Tick
 TimeManagerRuntime
 TimeMult
 TimeOffset
@@ -2793,7 +2700,6 @@ TrailRenderer
 TransformEventUtils
 TransitionType
 TranslatingBehavior
-Translation
 TranslationCutoff
 TranslationMax
 TranslationReturnSpeed
@@ -2814,13 +2720,13 @@ TriggerTool_Out
 TriggersColorBlend
 TriggersEmmissionToggle
 TriggersSizeBlend
+Trim
 TrimExcess
 TrimStart
 TrueAudioNext
 TryGetGPUTimeLastFrame
 TryGetValue
 TryParse
-Turret setup
 TurretSocket
 TutorialAudioAnimator
 TutorialAudioSpectrumOutput
@@ -2842,6 +2748,7 @@ UInt64
 UUUUUU
 UVMode
 UVTime
+U\nG3
 UltimateRope
 UltimateRopeLink
 UnLoadScenes
@@ -2927,6 +2834,7 @@ UseQuad
 UseTangents
 UserStat
 UsesBakedStaticListener
+Util
 VECTOR2
 VECTOR3
 VFX Pool
@@ -3033,26 +2941,89 @@ WindowHeight
 WindowNameToFind
 WindowNameToFindAndMinimize
 WindowWidth
+Wood
 World
 WrapNonExceptionThrows
 WrapValue
 WriteAllBytes
 WriteAllText
-X/>1.
 XRDevice
 XRSettings
 XRStats
+X\fg2\t
+X\v81
+XkV*
 Y?Z41
 YShould we allow active objects to be allocated from the pool? Useful for sounds/particles
+YZY}
+YkZX
 YkZX(
-Yk[	kZ
+YkZi\n
 Yk[ZY
+Yk[\tkZ
+Ykk[
 ZUnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ZX\tX
 ZXkZ(
+ZXo,
+ZXs>
+ZX}I
+ZZX}
+Zero
+Zk}a\n
 ZombieLookAt
 [As percentage of logical processors used on end users machine. Minimum of 1 thread is used.
 \As percentage of logical processors used on developers machine. Minimum of 1 thread is used.
-]-M+E
+\f+nr2
+\fGradient Fog
+\fLightmap UVs
+\fShape Button
+\fTurret setup
+\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\n*Vsn
+\nAudio Pool
+\nHeight Fog
+\nInstatiate
+\nParameters
+\nPlasma gun
+\nQsm
+\nThe Valuae
+\nXoH
+\nZXV
+\nesF
+\nkZ(F
+\nkZ\tk0
+\nkZi
+\nkZi\n
+\nkZi\v
+\nksF
+\nr0I
+\nr13
+\nr4H
+\nr4J
+\nr75
+\nrLK
+\nrjK
+\nrrL
+\nrvH
+\rLaser impulse
+\rLightning gun
+\rMiscellaneous
+\rSaveRestoreId
+\rSteamAPI_Core
+\r\f\f\f\f\f\f\f\f\f\f\f\f
+\rkZX(
+\tFlame gun
+\tLightmaps
+\tMaterial2
+\tParticles
+\tPov
+\tkZ(O
+\vPlasma beam
+\vSize Button
+\vSort Frames
+\vTranslation
 _AbortTransition
 _CorDllMain
 _ForceQuitProcess
@@ -3088,13 +3059,15 @@ _shader
 _trashFrame1
 _trashFrame2
 _verticalJumpTime
-`.rsrc
 `UnityEngine.Light, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 aBindPosesDestiny
 aBindPosesSource
 aBoneWeightsDestiny
 aBoneWeightsSource
 aHigh
+aLow
+aMid
+aSrc
 aUnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 absorptionHigh
 absorptionLow
@@ -3143,6 +3116,7 @@ anTrianglesRopeSource
 anTrianglesSectionsDestiny
 anTrianglesSectionsSource
 anchorType
+anim
 animatedObject
 animation
 animationStateEvents
@@ -3157,6 +3131,7 @@ applyDistanceAttenuation
 applyOnStart
 applyPosition
 applyRotation
+args
 array
 arrayLength
 aspectRatio
@@ -3202,6 +3177,7 @@ av3VerticesSource
 av4TangentsDestiny
 av4TangentsSource
 avoidSilenceDuringInit
+axes
 bAppendHash
 bAutoSpaceAtStart
 bBreakable
@@ -3229,6 +3205,8 @@ bResetNodePositions
 bSegmentBroken
 bSpline
 bVisible
+b\rMf
+b\rke
 backgroundPanel
 bakeBounces
 bakeCallback
@@ -3385,6 +3363,8 @@ curvePoints
 customAudioAnimatorObject
 customValue
 dValve.VR.InteractionSystem.PlaySound, SteamVR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+dXk"
+d\fb2\t
 dashboardShowing
 dataLayerInfo
 dataRequest
@@ -3410,6 +3390,7 @@ derivationOrder
 description
 despawn
 despawnDelay
+dest
 destination
 destroyAfterPlayOnce
 destroyEntireGameObject
@@ -3417,6 +3398,7 @@ detonationDistance
 device
 deviceFilter
 deviceReferenceTexture
+diff
 dipolePower
 dipoleWeight
 directPath
@@ -3431,6 +3413,7 @@ displacementStrength
 displayInSceneView
 displayType
 dissasembleSounds
+dist
 distFnc
 distanceAttenuation
 distanceOffset
@@ -3455,6 +3438,7 @@ eMagnitude of the collision relative velocity required to destroy this object an
 eMight cause shadow acne on skinned meshes, but can be more efficient in scenes without skinned meshes
 eRopeExtensionMode
 eUnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+edge
 effect
 emissionMeters
 emissionTips
@@ -3489,6 +3473,7 @@ endingScale
 endv2
 endv3
 environment
+eval
 evalEnabled
 evalType
 eventData
@@ -3501,6 +3486,7 @@ exampleIndex
 exception
 exceptionNames
 exceptions
+exit
 explosionPrefab
 exportAllChildren
 exportOBJ
@@ -3535,6 +3521,7 @@ fadeStartColor
 fadeTime
 fadingIn
 fadingOut
+fail
 fallback
 falloff
 farClip
@@ -3563,6 +3550,7 @@ followPosition
 footIK
 force
 format
+fqc\v
 fractionCUsForIRUpdate
 fractionComputeUnitsForIRUpdate
 frameCounter
@@ -3992,13 +3980,18 @@ grassLayer
 gravityConstant
 gripReadings
 groundMat
+grow
+guid
 hUnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+hWnd
 hWndInsertAfter
+hand
 handName
 handSkin
 handType
 hatchPosition
 headWeight
+heat
 heightAboveFloor
 heightFogBaseHeight
 heightFogColor
@@ -4006,6 +3999,7 @@ heightFogFalloff
 heightFogThickness
 hideObjectsInHierarchy
 highAccuracy
+hips
 hipsHeight
 hipsHit
 hipsPosition
@@ -4027,6 +4021,10 @@ hrtfData
 hrtfIndex
 hrtfParams
 hubAngle
+hwnd
+i23r
+iXk7
+i\nG3
 idCounter
 identifier
 identifiers
@@ -4037,6 +4035,8 @@ ignoreOnAwake
 ignoreTags
 ikActive
 ikOnUpdate
+ikY}
+imag
 imageHeight
 index
 index0
@@ -4198,13 +4198,17 @@ itemList
 itemPackage
 iteminfo
 iterations
+j63 
 joint
+json
 jsonSource
 juiciness
-k *!G!b!
-kZ	k0
-kZX}a
-k[	k(
+kZX(
+kZX}
+kZX}a\n
+kZi\n
+kZs>
+k[sF
 k_binauralModeIndex
 k_hrtfIndexIndex
 k_overrideHRTFIndexIndex
@@ -4212,7 +4216,9 @@ keyIndex
 knuxCommandLineArg
 knuxElevator
 knuxExitAudio
+l?Z6
 lUnityEngine.TextMesh, UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+l\fS2\t
 laserFiring
 laserImpulseDelay
 laserImpulseHit
@@ -4221,6 +4227,7 @@ laserImpulseImpact
 laserImpulseMuzzle
 laserImpulseProjectile
 laserImpulseShot
+last
 lastConditionState
 lastCursorPosition
 lastFrameUpdated
@@ -4260,10 +4267,12 @@ lineDensityMultiplier
 linePoints
 lineRenderer
 lineResolution
+link
 link1
 link2
 linkJointBreaksProcessed
 linkJoints
+list
 listenerAhead
 listenerIdentifier
 listenerInfluence
@@ -4484,6 +4493,7 @@ manager
 managerData
 managerSingleton
 mapping
+mask
 matchRotation
 matchScale
 matchTranslation
@@ -4577,6 +4587,7 @@ nNewSegmentSides
 nNode
 nNumLinks
 nOriginalLayer
+nPhi
 nPoint
 nStartChar
 nStartIndex
@@ -4594,6 +4605,7 @@ nextParticle
 nextTaskID
 nextUpdateTime
 noAudioStopTalkingTime
+node
 node0
 node1
 nodeA
@@ -4602,6 +4614,7 @@ nodeCount
 nodeIndices
 nodes
 noise
+norm
 normalMode
 normalizedIndex
 normalizedParam
@@ -4620,6 +4633,7 @@ numberAgentsPerSpawn
 objectBakingCurrently
 objectsToPreload
 objectsToPreloadTimes
+objs
 occlusionFactor
 occlusionMethod
 occlusionMode
@@ -4690,12 +4704,13 @@ overrideShadowCascades
 overrideShadowDistance
 overrideTransform
 owner
-p	r{Y
 p*r%7
 p*r'5
 p*r'6
 p*r;6
 p*rK6
+p*r\r6
+p*r\v7
 p*r]6
 p*rm6
 pA6+"
@@ -4710,6 +4725,8 @@ pSteamUGCQueryCompleted_t
 pSubmitItemUpdateResult_t
 pThis
 pUserStatsReceived_t
+p\to6
+p\tr{Y
 p_delay
 p_lifetime
 packMargin
@@ -4742,6 +4759,7 @@ particles
 passedTime
 passedgo
 patch
+path
 pathObject
 pathWaypointVecs
 pathWaypoints
@@ -4797,6 +4815,7 @@ playerHead
 playerLookedAt
 playerPoking
 pointerDots
+pool
 poolCursors
 poolItems
 poolLength
@@ -4837,6 +4856,7 @@ punctuationDelay
 qInitialLocalRot
 qLocalOrientation
 qOriginalLocalRot
+quad
 quadCorners
 railgunBeam
 railgunDelay
@@ -4862,7 +4882,9 @@ rayStride
 rayTracerOption
 raycastDirection
 raycastLayers
+rays
 reachedEND
+real
 realRoot
 realWrist
 realtimeBounces
@@ -4925,6 +4947,7 @@ rtRot
 runInEditor
 sNode
 sParam
+sPos
 sUnityEngine.ParticleSystem, UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 s_InsideRendering
 s_allLights
@@ -4968,6 +4991,7 @@ segmentLinks
 segmentStart
 selectedButton
 selectedButtonDown
+self
 sensitivityX
 sensitivityY
 setOnStart
@@ -5375,13 +5399,21 @@ systems
 szLine
 szToken
 tHigh
+tLow
+tMid
+tVel
+t\f52\t
+tagA
+tagB
 tagFilter
+tags
 tangent
 target
 targetEnd
 targetLastPos
 targetStart
 targetVolume
+task
 taskID
 template
 terrain
@@ -5464,8 +5496,11 @@ triggeredOnce
 turretParts
 twistCount
 twistOffset
+u<sA
 u="X94="X94<sA
 uFlags
+uMax
+uMin
 unBaseStationID
 unBufferLen
 unDeviceIdex
@@ -5520,6 +5555,8 @@ vCorners0
 vCorners1
 vCorners2
 vCorners3
+vMax
+vMin
 vOffset
 vSoftBoundsOffset
 vTranslation
@@ -5566,6 +5603,9 @@ withinDistance
 worldPos
 wristDots
 xyScale
+zD(A
+zD}e
+zigs
 zombie01
 zombie02
 zombie03

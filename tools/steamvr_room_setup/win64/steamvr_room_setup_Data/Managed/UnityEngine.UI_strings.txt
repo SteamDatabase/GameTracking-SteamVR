@@ -1,22 +1,5 @@
-	4T	"
-	Microsoft
-	UI/Button
-	UI/Slider!
-	UI/Toggle
-	alignment
-	delegates
-	fontStyle
-	guisystem
-	inputType
-	m_EndEdit
  AZ(P
  Microsoft 2013
- V<!@
- }(&,
- }(&Q
-!(^ V
-!This program cannot be run in DOS mode.
-!Y[X}r
 "Is the toggle currently on or off?
 #Blob
 #GUID
@@ -24,47 +7,48 @@
 $Rn)j
 $UnityEngine.EventSystems.EventSystem
 $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
-&*J(@
 &Can the Selectable be interacted with?
-&E	,+
+&Ss\fm
 'Use BaseMeshEffect.ModifyMeshes instead
+(L\roq
+*Frl\r
 *UnityEngine.UI.Button+<OnFinishSubmit>d__9
-+%	o	
-+*	ob
-+0	{r
-+I	{u
++QoF\n
 +UnityEngine.UI.Scrollbar+<ClickRepeat>d__57
-+n*%o
-,2	{u
 ,UnityEngine.UI.InputField+<CaretBlink>d__159
 ,Use OnPopulateMesh(VertexHelper vh) instead.
 -lastSelectedGameObject is no longer supported
-.Uu (
 .cctor
 .ctor
-.text
-/*E!E
 /po!Q
+00*S
+0D*W
 0onValueChange has been renamed to onValueChanged
 1.0.0.0
 1The DPI to assume if the screen DPI is not known.
 1UnityEngine.UI.LayoutGroup+<DelayedSetDirty>d__56
-3R<!;
-3l	{r
+1w9$
+23\na
+3BA\r{
+3B~z
+3l\t{r
 4Determines how UI elements in the Canvas are scaled.
 4Please use sortOrderPriority and renderOrderPriority
 4Scales all UI elements in the Canvas by this factor.
+4Su 
 4Su )
 4Su 1
 4Su N
 4The physical unit to specify positions and sizes in.
-6	;	R	x	~	
-6@u +
-6@u -
 6@u U
 6UnityEngine.UI.InputField+<MouseDragOutsideRect>d__179
+6u 2
+6u O
+72$M
 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46
 7UnityEngine.UI.CoroutineTween.TweenRunner`1+<Start>d__2
+7foF
+92 Z
 9Please use triggers instead (UnityUpgradable) -> triggers
 9UnityEngine.UI.Dropdown+<DelayedDestroyDropdownList>d__74
 9use IMeshModifier.ModifyMesh (VertexHelper verts) instead
@@ -74,21 +58,6 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 <>1__state
 <>2__current
 <>4__this
-<>9__10_0
-<>9__12_0
-<>9__12_1
-<>9__12_2
-<>9__12_3
-<>9__13_0
-<>9__24_0
-<>9__3_0
-<>9__4_0
-<>9__4_1
-<>9__5_0
-<>9__6_0
-<>9__7_0
-<>9__7_1
-<>9__8_0
 <>c__DisplayClass62_0
 <ActiveToggles>b__13_0
 <AnyTogglesOn>b__12_0
@@ -145,8 +114,10 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 <useLegacyMeshGeneration>k__BackingField
 <worldNormal>k__BackingField
 <worldPosition>k__BackingField
+=3a4
+>WoF\n
 ?YZYV
-@.reloc
+A;oF\n
 A]d*Y
 AbstractEventData
 ActivateInputField
@@ -170,6 +141,7 @@ AddUIVertexTriangleStream
 AddUnique
 AddVert
 AdjustBounds
+Afm,
 AllSelectablesNoAlloc
 AlphaFadeList
 Alphanumeric
@@ -202,6 +174,8 @@ AutoHideAndExpandViewport
 Autocorrected
 Automatic
 Awake
+BSJB
+B\t\ro8
 Backspace
 BaseInput
 BaseInputModule
@@ -214,8 +188,11 @@ Boolean
 BottomLeft
 BottomRight
 BottomToTop
+Br\nq
 ButtonClickedEvent
 C:\Users\Keith\Perforce\keithb_home_new\vr\unity\main\RoomSetup\Temp\UnityEngine.UI.pdb
+CLH&
+CM1'
 CacheCanvas
 CalcAlongAxis
 CalculateLayoutInputHorizontal
@@ -231,6 +208,7 @@ CeilToInt
 Ceiling
 Centimeters
 ChangeEventModule
+Ci2+
 Clamp
 Clamp01
 ClampPos
@@ -264,6 +242,7 @@ Contains
 ContainsKey
 ContentSizeFitter
 Continue
+Copy
 CopyFromTo
 CopyTo
 Copyright 
@@ -323,10 +302,12 @@ DoMeshGeneration
 DoSpriteSwap
 DoStateTransition
 DoUpdateDrag
+Dos\fa
 DrivenRectTransformTracker
 DrivenTransformProperties
 DropdownEvent
 DropdownItem
+E]00
 EditState
 EditorBrowsableAttribute
 EditorBrowsableState
@@ -341,6 +322,7 @@ EnforceContentType
 EnforceTextHOverflow
 EnsureLayoutHasRebuilt
 EnsureValidState
+Enum
 EnvelopeParent
 EqualityComparer`1
 Equals
@@ -363,9 +345,13 @@ ExecuteAlways
 ExecuteEvents
 ExecuteHierarchy
 Explicit
+FL\t9
+FL\ty
+Fade
 FakeTouches
 FillMesh
 Filled
+Find
 FindCommonRoot
 FindCullAndClipWorldRect
 FindFirstRaycast
@@ -494,12 +480,16 @@ GetTypeFromHandle
 GetUIVertexStream
 GetUnclampedCharacterLineFromPosition
 GetWorldCorners
+GoF\n
+Gpd!
 Gpd!J
 GraphicRaycaster
 GraphicRegistry
 GraphicUpdateComplete
 GridLayoutGroup
 GuidAttribute
+HCsj
+HK6u\n
 HandleConstantPhysicalSize
 HandleConstantPixelSize
 HandlePointerExitAndEnter
@@ -565,6 +555,7 @@ ImmediateDestroyDropdownList
 Inches
 IndexOf
 IndexedSet`1
+Init
 Initialize
 InitializeArray
 InitializeListIfRequired
@@ -609,14 +600,21 @@ IsSelectionVisible
 IsSurrogate
 IsUpper
 IsValidChar
+Item
 IteratorStateMachineAttribute
+Iu\roA
+JAG,
+JC\r V
 KeepAlive
 KeyCode
 KeyPressed
 KeyValuePair`2
 Km2%s
 Km;%z
+L6u 
 L6u 3
+L6u \n
+LGoF\n
 LastIndexOfAny
 LatePreRender
 LateUpdate
@@ -640,7 +638,9 @@ LogException
 LogWarning
 LowerLeft
 LowerRight
+MEu 
 MEu .
+MEu \f
 MakeByRefType
 MapCoordinate
 MarkGeometryAsDirty
@@ -650,6 +650,7 @@ MaskEnabled
 MaskUtilities
 MaskableGraphic
 MatEntry
+Math
 Mathf
 Matrix4x4
 MaxUpdateValue
@@ -658,6 +659,7 @@ MemberInfo
 MethodInfo
 Middle
 Millimeters
+Misc
 ModifyMesh
 ModifyVertices
 MonoBehaviour
@@ -676,8 +678,10 @@ MulticastDelegate
 MultipleDisplayUtilities
 MultiplyPoint
 MultiplyPoint3x4
+NQoF
 NThis method is no longer checked, overriding it with return true does nothing!
 Navigate
+None
 Not supported anymore
 Not supported anymore.
 Not used anymore
@@ -727,6 +731,7 @@ OnSiblingGraphicEnabledDisabled
 OnTransformChildrenChanged
 OnTransformParentChanged
 OnUpdateSelected
+Open
 OperatingSystemFamily
 OptionDataList
 Origin180
@@ -736,10 +741,12 @@ OriginHorizontal
 OriginVertical
 Outline
 Overlaps
+P\t\roA
 ParamArrayAttribute
 ParentCount
 ParentMaskStateChanged
 Password
+Peek
 PerformClipping
 PerformLayoutCalculation
 PerformLayoutControl
@@ -773,6 +780,9 @@ ProcessMousePress
 ProcessMove
 ProcessTouchEvents
 ProcessTouchPress
+Push
+QGA(
+QLN&
 Quaternion
 RSDSL
 Radial180
@@ -834,6 +844,7 @@ RuntimePlatform
 RuntimeTypeHandle
 SHA256
 SUse either pointerCurrentRaycast.worldPosition or pointerPressRaycast.worldPosition
+S\g0
 SampleType
 Screen
 ScreenPointToLocalPointInRectangle
@@ -918,21 +929,27 @@ ShouldActivateModule
 ShouldIgnoreEventsOnNoFocus
 ShouldSendToComponent
 ShouldStartDrag
+Show
 Shrink
+Sign
 Simple
 Single
 SingleLine
 Sliced
 SliderEvent
 SmoothDamp
+Sn)h
+Sort
 SortLayoutList
 SortingLayer
 SpaceAttribute
 SplitUIVertexStreams
+Spo!
 Spo!J
 SpriteAtlas
 SpriteAtlasManager
 SpriteRenderer
+Sqrt
 Stack`1
 StandaloneInputModule
 Standard
@@ -978,6 +995,7 @@ The resolution the UI layout is designed for. If the screen resolution is larger
 ThreeD
 TickModules
 Tiled
+Tn)i
 ToLower
 ToString
 ToUpper
@@ -999,25 +1017,24 @@ TriggerEvent
 TryGetValue
 TryRegisterCanvasElementForGraphicRebuild
 TryRegisterCanvasElementForLayoutRebuild
+Tu 2
 TweenRunner`1
-UI/Dropdown#
+TwoD
 UI/Effects/Outline
 UI/Effects/Position As UV1
 UI/Effects/Shadow
-UI/Image
+UI/Image\v
 UI/Input Field
-UI/Mask
-UI/Raw Image
-UI/Rect Mask 2D
+UI/Mask\r
+UI/Rect Mask 2D\r
 UI/Scroll Rect%
-UI/Scrollbar"
-UI/SelectableF
-UI/Text
+UI/Text\n
 UI/Toggle Group 
 UIBehaviour
 UICharInfo
 UILineInfo
 UISystemProfilerApi
+ULS/
 UReplaced with allSelectablesArray to have better performance when disabling a element
 UnRegisterCanvasElementForRebuild
 UnTrackImage
@@ -1085,6 +1102,7 @@ Use IMeshModifier instead
 Use Material.Add instead.
 Use OnPopulateMesh instead.
 UseFakeInput
+V8\f%g
 VH*!6
 ValidController
 ValidTarget
@@ -1097,28 +1115,76 @@ Vector2
 Vector3
 Vector4
 VerticalWrapMode
+W.oF
+W/oF
 WaitForEndOfFrame
 Where
 WidthControlsHeight
 WillRenderCanvases
 WorldToScreenPoint
 WrapNonExceptionThrows
+XX\roA
+Xesj
 YDetermines if the scaling is using the width or height as reference, or a mix in between.
 Y[X}r
 Y[X}u
+YkY+
 YkZ(G
+YkZX
 Ylz)!
+ZF\ro
 [U9(z
-[V	{r
+\fUI/Raw Image\f
+\fUI/Scrollbar"
+\fYsj
+\fasteriskChar
+\ffadeDuration
+\fkeyboardType
+\fpressedColor
+\n*rsB
+\nV2(x
+\nXV~x
+\nYZY*
+\nYkXV
+\nYsT
+\nYsj
+\nZX(R
+\nZX(T
+\nZX(j
+\nZXV
+\nZXsj
+\n\n\r\r\r\r\r\r\n\f\f\n\f\f\n\f\f\n\f\f
+\nm_OnSubmit
+\nm_Selected
+\nnavigation
+\ntransition
+\nvalidation
+\rUI/SelectableF
+\rdisabledColor
+\rnormalTrigger
+\ronValueChange
+\tMicrosoft
+\tUI/Button
+\tUI/Slider!
+\tUI/Toggle
+\tYsT
+\talignment
+\tdelegates
+\tfontStyle
+\tguisystem
+\tinputType
+\tm_EndEdit
+\tvem
+\vUI/Dropdown#
+\vnormalColor
+\vspriteState
 ]The amount of pixels per unit to use for dynamically created bitmaps in the UI, such as Text.
 ]YkY+
 ^Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.
 ^TouchInputModule is no longer required as Touch input is now handled in StandaloneInputModule.
 _CorDllMain
 _UnityEngine.Canvas, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-_W<!?
 __StaticArrayInitTypeSize=12
-`.rsrc
 aUnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 actionOnGet
 actionOnRelease
@@ -1133,7 +1199,7 @@ anchor
 animationTriggers
 array
 arrayIndex
-asteriskChar
+au 3
 axisName
 background
 baseMat
@@ -1145,7 +1211,9 @@ buttonData
 buttonId
 buttonName
 buttonState
+bwE!
 bwE!>
+c6n&
 callback
 callbackFunction
 candidates
@@ -1179,17 +1247,17 @@ corners
 coroutineContainer
 count
 create
+ctrl
 currentOverGo
 currentPointerData
 currentPos
 currentValue
 cursorPos
 customMat
-c|$%l
+data
 deadZone
 defaultValue
 delay
-disabledColor
 disabledTrigger
 displayIndex
 displays
@@ -1197,7 +1265,10 @@ distanceToClipPlane
 driven
 dropdown
 dropdownList
+dzn)
 dzn)|
+e6u 
+eQoF
 element
 eventAlphaThreshold has been deprecated. Use eventMinimumAlphaThreshold instead (UnityUpgradable) -> alphaHitTestMinimumThreshold
 eventChain
@@ -1205,13 +1276,16 @@ eventDisplayIndex
 eventID
 executing
 extents
-fadeDuration
 father
+fill
 flexible
 floatPercentage
+font
 fontSize
 foundGraphics
+from
 functor
+gT}9\n
 gUnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 generateOutOfBounds
 generationExtents
@@ -1689,18 +1763,23 @@ highlightedColor
 highlightedTrigger
 hovered
 i3'~7
+idx0
+idx1
+idx2
 ignoreReversedGraphics
 includeRectLayouts
 index
 indices
+info
+inh&
 inputField
 instant
 invert
 isPointerDownAndNotDragging
 isVertical
+item
 itemTemplate
 items
-k	k[(
 kDefaultDisabledAnimName
 kDefaultHighlightedAnimName
 kDefaultNormalAnimName
@@ -1722,7 +1801,7 @@ kThinHeight
 kVScrollSpeed
 kWidth
 k_MaxTextLength
-keyboardType
+knob
 lPreserveAspect
 layoutRoot
 leading
@@ -1941,7 +2020,6 @@ m_OnDirtyLayoutCallback
 m_OnDirtyMaterialCallback
 m_OnDirtyVertsCallback
 m_OnEndEdit
-m_OnSubmit
 m_OnValidateInput
 m_OnValueChange
 m_OnValueChanged
@@ -1994,7 +2072,6 @@ m_SelectOnDown
 m_SelectOnLeft
 m_SelectOnRight
 m_SelectOnUp
-m_Selected
 m_SelectedColor
 m_SelectedSprite
 m_SelectedTrigger
@@ -2081,6 +2158,7 @@ m_WholeNumbers
 m_WillRemove
 m_WorldCorners
 m_sendNavigationEvents
+mask
 masks
 match
 method
@@ -2089,19 +2167,15 @@ moveDeadZone
 mscoree.dll
 mscorlib
 nThis function is no longer used. Please use RectTransformUtility.ScreenPointToLocalPointInRectangle() instead.
-navigation
 newEnterTarget
 newGroup
 newSprite
 newValue
-normalColor
-normalTrigger
 object
 offset
 onClick
 onSubmit
 onValidateInput
-onValueChange
 op_Addition
 op_Division
 op_Equality
@@ -2114,9 +2188,11 @@ operation
 originalPos
 other
 overStretching
-p	",@
+p oF
+p6u 
 p6u 1
 p6u Q
+pbn\fa
 point1
 point2
 pointer
@@ -2127,9 +2203,9 @@ posMin
 preferred
 pressPos
 pressed
-pressedColor
 pressedTrigger
 property
+qTQ$
 quadPositions
 quadUVs
 raycast2D
@@ -2147,6 +2223,7 @@ result
 resultAppendList
 results
 richText
+root
 roundingOffset
 s_BeginDragHandler
 s_CancelHandler
@@ -2194,9 +2271,11 @@ s_ThickElementSize
 s_ThinElementSize
 s_UVScratch
 s_UpdateSelectedHandler
+s_Uv
 s_VertScratch
 s_VertexHelper
 s_WhiteTexture
+s_Xy
 screen
 screenPoint
 screenPosition
@@ -2483,7 +2562,6 @@ sortLayoutFunction
 sortingLayer
 spriteAtlas
 spriteSize
-spriteState
 standard
 start
 startCharIdx
@@ -2494,15 +2572,16 @@ stopAfter
 stream
 tangent
 target
+text
 textAnchor
 threshold
 toFill
 toRelease
 toggleTransition
+topY
 totalFlexible
 totalMin
 totalPreferred
-transition
 triggername
 tweenInfo
 uallowActivationOnStandalone has been deprecated. Use forceModuleActive instead (UnityUpgradable) -> forceModuleActive
@@ -2513,13 +2592,13 @@ useAlphaClip
 useRGB
 uvMax
 uvMin
+v2v&
 v2v&,
 v2v&/
 v2v&P
 v4.0.30319
 validRect
 validTemplate
-validation
 value__
 vertex
 vertexHelper
@@ -2531,10 +2610,8 @@ writeMask
 xA mode used to scale the canvas area if the aspect ratio of the current resolution doesn't fit the reference resolution.
 xAxisEnabled
 xScrollingNeeded
-xT(&,
 xT(&Q
 y3 X+
 zS<!C
-zes	y
-}!s) 
-}]o*Y
+zes\ty
+zoF\n

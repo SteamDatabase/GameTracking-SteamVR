@@ -1,22 +1,7 @@
-"
-","cat":"
-","dur":
-","name":"
 "-Infinity"
-":
 "Infinity"
 "NULL"
 "NaN"
-,
-,"args":{
-,"id":"0x
-,"ph":"
-,"scope":"
-,"tdur":
-,"tid":
-,"ts":
-,"tts":
-.0
 CXXABI_1.3
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBCXX_3.4
@@ -24,19 +9,10 @@ GLIBCXX_3.4.18
 GLIBCXX_3.4.9
 GLIBC_2.14
 GLIBC_2.2.5
-GNU
 V8 WorkerThread
 V8_Fatal
-VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
-\"
-\\
-\b
-\f
-\n
-\r
-\t
-]}
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _ITM_deregisterTMCloneTable
@@ -84,29 +60,29 @@ operator delete[](void*)
 operator new(unsigned long)
 operator new[](unsigned long)
 register_tm_clones
-std::_Hashtable<v8::Platform::TraceStateObserver*, v8::Platform::TraceStateObserver*, std::allocator<v8::Platform::TraceStateObserver*>, std::__detail::_Identity, std::equal_to<v8::Platform::TraceStateObserver*>, std::hash<v8::Platform::TraceStateObserver*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<v8::Platform::TraceStateObserver*, false>*)
-std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > >, std::_Select1st<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > >, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > > >::_M_erase(std::_Rb_tree_node<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > >*)
-std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > >, std::_Select1st<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > >, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > >, v8::Isolate* const&)
-std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > >, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > > >, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > > > >::_M_erase(std::_Rb_tree_node<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > > >*)
-std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > >, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > > >, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > > > >::_M_erase(std::_Rb_tree_node<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > > >*)
+std::_Hashtable<v8::Platform::TraceStateObserver*, v8::Platform::TraceStateObserver*, std::allocator<v8::Platform::TraceStateObserver*>, std::__detail::_Identity, std::equal_to<v8::Platform::TraceStateObserver*>, std::hash<v8::Platform::TraceStateObserver*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, true, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<v8::Platform::TraceStateObserver*, false>*)
+std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>, std::_Select1st<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>>::_M_erase(std::_Rb_tree_node<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>*)
+std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>, std::_Select1st<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>, v8::Isolate* const&)
+std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>>, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>>>::_M_erase(std::_Rb_tree_node<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>>*)
+std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>>, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>>>::_M_erase(std::_Rb_tree_node<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>>*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::_Rb_tree_iterator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > > std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > >, std::_Select1st<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > >, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >, std::greater<std::pair<double, v8::Task*> > > > >, std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > > > std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > >, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > > >, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> > > > >, std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > > > std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > >, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > > >, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*> > > > >, std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>> std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>, std::_Select1st<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::priority_queue<std::pair<double, v8::Task*>, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>, std::greater<std::pair<double, v8::Task*>>>>>, std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>> std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>>, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::queue<v8::IdleTask*, std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>>>>, std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>> std::_Rb_tree<v8::Isolate*, std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>, std::_Select1st<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>>, std::less<v8::Isolate*>, std::allocator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<v8::Isolate* const, std::queue<v8::Task*, std::deque<v8::Task*, std::allocator<v8::Task*>>>>>, std::piecewise_construct_t const&, std::tuple<v8::Isolate* const&>&&, std::tuple<>&&)
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
 std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
 std::__throw_bad_alloc()
 std::__throw_length_error(char const*)
 std::__throw_logic_error(char const*)
-std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)
+std::basic_ios<char, std::char_traits<char>>::clear(std::_Ios_Iostate)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned long, unsigned long)
 std::ios_base::ios_base()
 std::ios_base::~ios_base()
 std::locale::locale()
@@ -125,7 +101,7 @@ std::string::assign(char const*, unsigned long)
 std::string::assign(std::string const&)
 std::string::find(char, unsigned long) const
 std::string::swap(std::string&)
-std::vector<std::unique_ptr<v8::platform::tracing::TraceBufferChunk, std::default_delete<v8::platform::tracing::TraceBufferChunk> >, std::allocator<std::unique_ptr<v8::platform::tracing::TraceBufferChunk, std::default_delete<v8::platform::tracing::TraceBufferChunk> > > >::_M_default_append(unsigned long)
+std::vector<std::unique_ptr<v8::platform::tracing::TraceBufferChunk, std::default_delete<v8::platform::tracing::TraceBufferChunk>>, std::allocator<std::unique_ptr<v8::platform::tracing::TraceBufferChunk, std::default_delete<v8::platform::tracing::TraceBufferChunk>>>>::_M_default_append(unsigned long)
 strcmp
 strdup
 strlen
@@ -141,8 +117,7 @@ tracing categories exhausted; must increase MAX_CATEGORY_GROUPS
 tracing-controller.cc
 true
 unreachable code
-v8
-v8::Platform::AddTraceEvent(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat> >*, unsigned int)
+v8::Platform::AddTraceEvent(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat>>*, unsigned int)
 v8::Platform::AddTraceEvent(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, unsigned int)
 v8::Platform::AddTraceStateObserver(v8::Platform::TraceStateObserver*)
 v8::Platform::CallIdleOnForegroundThread(v8::Isolate*, v8::IdleTask*)
@@ -175,7 +150,7 @@ v8::base::ThreadTicks::Now()
 v8::base::TimeDelta::FromMilliseconds(long)
 v8::base::TimeTicks::HighResolutionNow()
 v8::platform::CreateDefaultPlatform(int)
-v8::platform::DefaultPlatform::AddTraceEvent(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat> >*, unsigned int)
+v8::platform::DefaultPlatform::AddTraceEvent(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat>>*, unsigned int)
 v8::platform::DefaultPlatform::AddTraceStateObserver(v8::Platform::TraceStateObserver*)
 v8::platform::DefaultPlatform::CallDelayedOnForegroundThread(v8::Isolate*, v8::Task*, double)
 v8::platform::DefaultPlatform::CallIdleOnForegroundThread(v8::Isolate*, v8::IdleTask*)
@@ -229,13 +204,13 @@ v8::platform::tracing::TraceBufferRingBuffer::~TraceBufferRingBuffer()
 v8::platform::tracing::TraceConfig::AddIncludedCategory(char const*)
 v8::platform::tracing::TraceConfig::CreateDefaultTraceConfig()
 v8::platform::tracing::TraceConfig::IsCategoryGroupEnabled(char const*) const
-v8::platform::tracing::TraceObject::Initialize(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat> >*, unsigned int)
-v8::platform::tracing::TraceObject::InitializeForTesting(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat> >*, unsigned int, int, int, long, long, unsigned long, unsigned long)
+v8::platform::tracing::TraceObject::Initialize(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat>>*, unsigned int)
+v8::platform::tracing::TraceObject::InitializeForTesting(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat>>*, unsigned int, int, int, long, long, unsigned long, unsigned long)
 v8::platform::tracing::TraceObject::UpdateDuration()
 v8::platform::tracing::TraceObject::~TraceObject()
 v8::platform::tracing::TraceWriter::CreateJSONTraceWriter(std::ostream&)
 v8::platform::tracing::TraceWriter::~TraceWriter()
-v8::platform::tracing::TracingController::AddTraceEvent(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat> >*, unsigned int)
+v8::platform::tracing::TracingController::AddTraceEvent(char, unsigned char const*, char const*, char const*, unsigned long, unsigned long, int, char const**, unsigned char const*, unsigned long const*, std::unique_ptr<v8::ConvertableToTraceFormat, std::default_delete<v8::ConvertableToTraceFormat>>*, unsigned int)
 v8::platform::tracing::TracingController::AddTraceStateObserver(v8::Platform::TraceStateObserver*)
 v8::platform::tracing::TracingController::GetCategoryGroupEnabled(char const*)
 v8::platform::tracing::TracingController::GetCategoryGroupEnabledInternal(char const*)
@@ -252,17 +227,18 @@ v8::platform::tracing::TracingController::~TracingController()
 v8::platform::tracing::g_category_group_enabled
 v8::platform::tracing::g_category_groups
 v8::platform::tracing::g_category_index
-void std::__adjust_heap<__gnu_cxx::__normal_iterator<std::pair<double, v8::Task*>*, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > > >, long, std::pair<double, v8::Task*>, std::greater<std::pair<double, v8::Task*> > >(__gnu_cxx::__normal_iterator<std::pair<double, v8::Task*>*, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > > >, long, long, std::pair<double, v8::Task*>, std::greater<std::pair<double, v8::Task*> >)
-void std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*> >::_M_push_back_aux<v8::IdleTask* const&>(v8::IdleTask* const&)
-void std::deque<v8::Task*, std::allocator<v8::Task*> >::_M_push_back_aux<v8::Task* const&>(v8::Task* const&)
-void std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*> > >::_M_emplace_back_aux<std::pair<double, v8::Task*> >(std::pair<double, v8::Task*>&&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)
-void std::vector<v8::platform::WorkerThread*, std::allocator<v8::platform::WorkerThread*> >::_M_emplace_back_aux<v8::platform::WorkerThread*>(v8::platform::WorkerThread*&&)
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+vector::_M_default_append
+void std::__adjust_heap<__gnu_cxx::__normal_iterator<std::pair<double, v8::Task*>*, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>>, long, std::pair<double, v8::Task*>, std::greater<std::pair<double, v8::Task*>>>(__gnu_cxx::__normal_iterator<std::pair<double, v8::Task*>*, std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>>, long, long, std::pair<double, v8::Task*>, std::greater<std::pair<double, v8::Task*>>)
+void std::deque<v8::IdleTask*, std::allocator<v8::IdleTask*>>::_M_push_back_aux<v8::IdleTask* const&>(v8::IdleTask* const&)
+void std::deque<v8::Task*, std::allocator<v8::Task*>>::_M_push_back_aux<v8::Task* const&>(v8::Task* const&)
+void std::vector<std::pair<double, v8::Task*>, std::allocator<std::pair<double, v8::Task*>>>::_M_emplace_back_aux<std::pair<double, v8::Task*>>(std::pair<double, v8::Task*>&&)
+void std::vector<std::string, std::allocator<std::string>>::_M_emplace_back_aux<std::string>(std::string&&)
+void std::vector<v8::platform::WorkerThread*, std::allocator<v8::platform::WorkerThread*>>::_M_emplace_back_aux<v8::platform::WorkerThread*>(v8::platform::WorkerThread*&&)
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 vtable for v8::Platform
 vtable for v8::platform::DefaultPlatform
 vtable for v8::platform::WorkerThread
@@ -271,6 +247,4 @@ vtable for v8::platform::tracing::TraceBuffer
 vtable for v8::platform::tracing::TraceBufferRingBuffer
 vtable for v8::platform::tracing::TraceWriter
 worker-thread.cc
-{"pid":
 {"traceEvents":[
-}}

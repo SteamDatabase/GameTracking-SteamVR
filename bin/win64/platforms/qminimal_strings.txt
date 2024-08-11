@@ -1,12 +1,7 @@
-	?clipboard@QPlatformIntegration@@UEBAPEAVQPlatformClipboard@@XZ
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- H3E H3E
  P?populateFamily@QPlatformFontDatabase@@UEAAXAEBVQString@@@Z
-!This program cannot be run in DOS mode.
+$\n?composeAndFlush@QPlatformBackingStore@@UEAAXPEAVQWindow@@AEBVQRegion@@AEBVQPoint@@PEAVQPlatformTextureList@@PEAVQOpenGLContext@@_N@Z
 &U?setMouseGrabEnabled@QPlatformWindow@@UEAA_N_N@Z
 'X?styleHint@QPlatformIntegration@@UEBA?AVQVariant@@W4StyleHint@1@@Z
-(D$ E3
-(D$ f
 ,Y?toImage@QPlatformBackingStore@@UEBA?AVQImage@@XZ
 .00cfg
 .?AVDummyFontDatabase@@
@@ -41,6 +36,7 @@
 .CRT$XTA
 .CRT$XTZ
 .S?setAlertState@QPlatformWindow@@UEAAX_N@Z
+.bss
 .data
 .data$r
 .edata
@@ -61,17 +57,18 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
 8X?subpixelAntialiasingTypeHint@QPlatformScreen@@UEBA?AW4SubpixelAntialiasingType@1@XZ
+=\f?flush@QEventDispatcherWin32@@UEAAXXZ
 ??0QChar@@QEAA@UQLatin1Char@@@Z
 ??0QEventDispatcherWin32@@QEAA@PEAVQObject@@@Z
 ??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
@@ -107,35 +104,8 @@
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?closingDown@QEventDispatcherWin32@@UEAAXXZ
 ?compare@QString@@QEBAHVQLatin1String@@W4CaseSensitivity@Qt@@@Z
-?composeAndFlush@QPlatformBackingStore@@UEAAXPEAVQWindow@@AEBVQRegion@@AEBVQPoint@@PEAVQPlatformTextureList@@PEAVQOpenGLContext@@_N@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?create@QPlatformIntegrationPlugin@@UEAAPEAVQPlatformIntegration@@AEBVQString@@AEBVQStringList@@AEAHPEAPEAD@Z
-?createImagePaintEngine@QPlatformIntegration@@UEBAPEAVQPaintEngine@@PEAVQPaintDevice@@@Z
-?createPlatformOffscreenSurface@QPlatformIntegration@@UEBAPEAVQPlatformOffscreenSurface@@PEAVQOffscreenSurface@@@Z
-?createPlatformOpenGLContext@QPlatformIntegration@@UEBAPEAVQPlatformOpenGLContext@@PEAVQOpenGLContext@@@Z
-?createPlatformPixmap@QPlatformIntegration@@UEBAPEAVQPlatformPixmap@@W4PixelType@2@@Z
-?createPlatformSessionManager@QPlatformIntegration@@UEBAPEAVQPlatformSessionManager@@AEBVQString@@0@Z
-?createPlatformSharedGraphicsCache@QPlatformIntegration@@UEBAPEAVQPlatformSharedGraphicsCache@@PEBD@Z
-?createPlatformTheme@QPlatformIntegration@@UEBAPEAVQPlatformTheme@@AEBVQString@@@Z
-?cursor@QPlatformScreen@@UEBAPEAVQPlatformCursor@@XZ
-?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
-?defaultFont@QPlatformFontDatabase@@UEBA?AVQFont@@XZ
-?defaultWindowState@QPlatformIntegration@@UEBA?AW4WindowState@Qt@@V?$QFlags@W4WindowType@Qt@@@@@Z
-?destroy@QPlatformIntegration@@UEAAXXZ
-?detach@QListData@@QEAAPEAUData@1@H@Z
-?devicePixelRatio@QPlatformScreen@@UEBANXZ
-?devicePixelRatio@QPlatformWindow@@UEBANXZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@SAXPEAUData@1@@Z
-?drag@QPlatformIntegration@@UEBAPEAVQPlatformDrag@@XZ
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?endPaint@QPlatformBackingStore@@UEAAXXZ
-?event@QEventDispatcherWin32@@UEAA_NPEAVQEvent@@@Z
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fallbacksForFamily@QPlatformFontDatabase@@UEBA?AVQStringList@@AEBVQString@@W4Style@QFont@@W4StyleHint@5@W4Script@QChar@@@Z
-?flush@QEventDispatcherWin32@@UEAAXXZ
 ?fontDatabase@QPlatformIntegration@@UEBAPEAVQPlatformFontDatabase@@XZ
 ?fontDir@QPlatformFontDatabase@@UEBA?AVQString@@XZ
 ?fontEngine@QPlatformFontDatabase@@UEAAPEAVQFontEngine@@AEBUQFontDef@@PEAX@Z
@@ -145,11 +115,7 @@
 ?format@QPlatformWindow@@UEBA?AVQSurfaceFormat@@XZ
 ?frameMargins@QPlatformWindow@@UEBA?AVQMargins@@XZ
 ?frameStrutEventsEnabled@QPlatformWindow@@UEBA_NXZ
-?fromAscii_helper@QString@@CAPEAU?$QTypedArrayData@G@@PEBDH@Z
 ?geometry@QPlatformWindow@@UEBA?AVQRect@@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?hasPendingEvents@QEventDispatcherWin32@@UEAA_NXZ
-?interrupt@QEventDispatcherWin32@@UEAAXXZ
 ?metaObject@QEventDispatcherWin32@@UEBAPEBUQMetaObject@@XZ
 ?processEvents@QEventDispatcherWin32@@UEAA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
 ?qEnvironmentVariableIntValue@@YAHPEBDPEA_N@Z
@@ -170,14 +136,8 @@
 ?unregisterTimer@QEventDispatcherWin32@@UEAA_NH@Z
 ?unregisterTimers@QEventDispatcherWin32@@UEAA_NPEAVQObject@@@Z
 ?wakeUp@QEventDispatcherWin32@@UEAAXXZ
-@.data
-@.qtmetad
-@.reloc
-@A_A^_^[
-AuthD
 CloseHandle
 CreateEventW
-D$PI;
 D:\qt5\qtbase\plugins\platforms\qminimal.pdb
 DeleteCriticalSection
 DisableThreadLibraryCalls
@@ -198,32 +158,26 @@ J?graphicsBuffer@QPlatformBackingStore@@UEBAPEAVQPlatformGraphicsBuffer@@XZ
 J?handle@QScreen@@QEBAPEAVQPlatformScreen@@XZ
 J?handleContentOrientationChange@QPlatformWindow@@UEAAXW4ScreenOrientation@Qt@@@Z
 J?hasCapability@QPlatformIntegration@@UEBA_NW4Capability@1@@Z
+J\f?drag@QPlatformIntegration@@UEBAPEAVQPlatformDrag@@XZ
 K?inputContext@QPlatformIntegration@@UEBAPEAVQPlatformInputContext@@XZ
 K?invalidate@QPlatformFontDatabase@@UEAAXXZ
 K?invalidateSurface@QPlatformWindow@@UEAAXXZ
 KERNEL32.dll
 KL?isEmbedded@QPlatformWindow@@UEBA_NPEBV1@@Z
-L$ E3
-L$@E3
-L$HLcB
 L?isActive@QPlatformWindow@@UEBA_NXZ
 L?isAlertState@QPlatformWindow@@UEBA_NXZ
 L?isPrivateFontFamily@QPlatformFontDatabase@@UEBA_NAEBVQString@@@Z
 LeaveCriticalSection
-M H1E
 M?logicalDpi@QPlatformScreen@@UEBA?AU?$QPair@NN@@XZ
 M?lower@QPlatformWindow@@UEAAXXZ
 M?mapFromGlobal@QPlatformWindow@@UEBA?AVQPoint@@AEBV2@@Z
 M?mapToGlobal@QPlatformWindow@@UEBA?AVQPoint@@AEBV2@@Z
 MW?size@QImage@@QEBA?AVQSize@@XZ
-MetaData
 N?name@QPlatformScreen@@UEBA?AVQString@@XZ
 N?nativeInterface@QPlatformIntegration@@UEBAPEAVQPlatformNativeInterface@@XZ
 N?nativeOrientation@QPlatformScreen@@UEBA?AW4ScreenOrientation@Qt@@XZ
 O?normalGeometry@QPlatformWindow@@UEBA?AVQRect@@XZ
 O?physicalSize@QPlatformScreen@@UEBA?AVQSizeF@@XZ
-P.rsrc
-P?platform_integration@QGuiApplicationPrivate@@2PEAVQPlatformIntegration@@EA
 PO?openGLModuleType@QPlatformIntegration@@UEAA?AW4OpenGLModuleType@QOpenGLContext@@XZ
 Q?qt_metacall@QPlatformIntegrationPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 Q?queryKeyboardModifiers@QPlatformIntegration@@UEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
@@ -233,7 +187,6 @@ QMinimalBackingStore::QMinimalBackingStore:
 QMinimalBackingStore::flush() saving contents to
 QMinimalBackingStore::paintDevice
 QMinimalIntegrationPlugin
-QTMETADATA  qbjs
 QT_DEBUG_BACKINGSTORE
 Qt5Core.dll
 Qt5Gui.dll
@@ -243,15 +196,13 @@ R?resolveFontFamilyAlias@QPlatformFontDatabase@@UEBA?AVQString@@AEBV2@@Z
 R?save@QImage@@QEBA_NAEBVQString@@PEBDH@Z
 R?screenAdded@QPlatformIntegration@@IEAAXPEAVQPlatformScreen@@_N@Z
 R?scroll@QPlatformBackingStore@@UEAA_NAEBVQRegion@@HH@Z
+RSDS
 RU?setOrientationUpdateMask@QPlatformScreen@@UEAAXV?$QFlags@W4ScreenOrientation@Qt@@@@@Z
 ResetEvent
-Richl^
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S0tHE3
 S?services@QPlatformIntegration@@UEBAPEAVQPlatformServices@@XZ
-SVWAVAWH
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
@@ -260,6 +211,7 @@ T?setGeometry@QPlatformWindow@@UEAAXAEBVQRect@@@Z
 T?setKeyboardGrabEnabled@QPlatformWindow@@UEAA_N_N@Z
 T?setMask@QPlatformWindow@@UEAAXAEBVQRegion@@@Z
 TR?requestActivateWindow@QPlatformWindow@@UEAAXXZ
+U\f?fromAscii_helper@QString@@CAPEAU?$QTypedArrayData@G@@PEBDH@Z
 UnhandledExceptionFilter
 Unknown exception
 V?setVisible@QPlatformWindow@@UEAAX_N@Z
@@ -270,7 +222,6 @@ V?setWindowModified@QPlatformWindow@@UEAA_N_N@Z
 V?setWindowState@QPlatformWindow@@UEAAXW4WindowState@Qt@@@Z
 V?setWindowTitle@QPlatformWindow@@UEAAXAEBVQString@@@Z
 VCRUNTIME140.dll
-VWAVH
 W?standardSizes@QPlatformFontDatabase@@UEBA?AV?$QList@H@@XZ
 W?startSystemResize@QPlatformWindow@@UEAA_NAEBVQPoint@@W4Corner@Qt@@@Z
 W?staticMetaObject@QPlatformIntegrationPlugin@@2UQMetaObject@@B
@@ -279,13 +230,42 @@ WakeAllConditionVariable
 X?sync@QPlatformIntegration@@UEAAXXZ
 XP?primaryScreen@QGuiApplication@@SAPEAVQScreen@@XZ
 XR?requestUpdate@QPlatformWindow@@UEAAXXZ
-Y?themeNames@QPlatformIntegration@@UEBA?AVQStringList@@XZ
 Z?virtualSiblings@QPlatformScreen@@UEBA?AV?$QList@PEAVQPlatformScreen@@@@XZ
 [?winId@QPlatformWindow@@UEBA_KXZ
 [?windowEvent@QPlatformWindow@@UEAAXPEAVQEvent@@@Z
-\$ UH
 \L?isExposed@QPlatformWindow@@UEBA_NXZ
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?hasPendingEvents@QEventDispatcherWin32@@UEAA_NXZ
+\fP?platform_integration@QGuiApplicationPrivate@@2PEAVQPlatformIntegration@@EA
+\fY?themeNames@QPlatformIntegration@@UEBA?AVQStringList@@XZ
+\n?create@QPlatformIntegrationPlugin@@UEAAPEAVQPlatformIntegration@@AEBVQString@@AEBVQStringList@@AEAHPEAPEAD@Z
+\n?createImagePaintEngine@QPlatformIntegration@@UEBAPEAVQPaintEngine@@PEAVQPaintDevice@@@Z
+\n?createPlatformOffscreenSurface@QPlatformIntegration@@UEBAPEAVQPlatformOffscreenSurface@@PEAVQOffscreenSurface@@@Z
+\n?createPlatformOpenGLContext@QPlatformIntegration@@UEBAPEAVQPlatformOpenGLContext@@PEAVQOpenGLContext@@@Z
+\n?createPlatformPixmap@QPlatformIntegration@@UEBAPEAVQPlatformPixmap@@W4PixelType@2@@Z
+\n?createPlatformSessionManager@QPlatformIntegration@@UEBAPEAVQPlatformSessionManager@@AEBVQString@@0@Z
+\n?createPlatformSharedGraphicsCache@QPlatformIntegration@@UEBAPEAVQPlatformSharedGraphicsCache@@PEBD@Z
+\n?createPlatformTheme@QPlatformIntegration@@UEBAPEAVQPlatformTheme@@AEBVQString@@@Z
+\n?cursor@QPlatformScreen@@UEBAPEAVQPlatformCursor@@XZ
+\n?detach@QListData@@QEAAPEAUData@1@H@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\n\f?devicePixelRatio@QPlatformScreen@@UEBANXZ
+\r?fallbacksForFamily@QPlatformFontDatabase@@UEBA?AVQStringList@@AEBVQString@@W4Style@QFont@@W4StyleHint@5@W4Script@QChar@@@Z
+\r?interrupt@QEventDispatcherWin32@@UEAAXXZ
+\t?clipboard@QPlatformIntegration@@UEBAPEAVQPlatformClipboard@@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?defaultFont@QPlatformFontDatabase@@UEBA?AVQFont@@XZ
+\v?defaultWindowState@QPlatformIntegration@@UEBA?AW4WindowState@Qt@@V?$QFlags@W4WindowType@Qt@@@@@Z
+\v?destroy@QPlatformIntegration@@UEAAXXZ
+\v?event@QEventDispatcherWin32@@UEAA_NPEAVQEvent@@@Z
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+\v\f?devicePixelRatio@QPlatformWindow@@UEBANXZ
 _CxxThrowException
+_\n?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
+_\r?endPaint@QPlatformBackingStore@@UEAAXXZ
 __C_specific_handler
 __std_exception_copy
 __std_exception_destroy
@@ -302,30 +282,22 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 `O?orientation@QPlatformScreen@@UEBA?AW4ScreenOrientation@Qt@@XZ
 `Y?topLevelAt@QPlatformScreen@@UEBAPEAVQWindow@@AEBVQPoint@@@Z
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
 enable_fonts
-ffffff
+free
 malloc
 memset
 minimal
 nK?initialize@QPlatformIntegration@@UEAAXXZ
-ntelD
-org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3
 output%1.png
 qminimal.dll
 qt_plugin_instance
 qt_plugin_query_metadata
-version
 wU?setParent@QPlatformWindow@@UEAAXPEBV1@@Z
-|$ AVH
-|$ Hc^
 }J?grabWindow@QPlatformScreen@@UEBA?AVQPixmap@@_KHHHH@Z
 }P?propagateSizeHints@QPlatformWindow@@UEAAXXZ

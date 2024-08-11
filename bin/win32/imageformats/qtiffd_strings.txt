@@ -1,61 +1,56 @@
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
-    %2d: %5g %5g
+    %2d: %5g %5g\n
     %2lu: %5u
-    %3lu: [%8I64u, %8I64u]
-   %5lu: %5u %5u %5u
-  %lu %s:
-  %s: 
-  %s: "
-  Bad Fax Lines: %lu
-  Bits/Sample: %u
+    %3lu: [%8I64u, %8I64u]\n
+   %5lu: %5u %5u %5u\n
+  Bad Fax Lines: %lu\n
+  Bits/Sample: %u\n
   Color Map: 
   Compression Scheme: 
-  Consecutive Bad Fax Lines: %lu
-  Dot Range: %u-%u
+  Consecutive Bad Fax Lines: %lu\n
+  Dot Range: %u-%u\n
   Extra Samples: %u<
   Fax Data:
   FillOrder: 
   Group 3 Options:
   Group 4 Options:
-  Halftone Hints: light %u dark %u
-  ICC Profile: <present>, %lu bytes
+  Halftone Hints: light %u dark %u\n
+  ICC Profile: <present>, %lu bytes\n
   Image Width: %lu Image Length: %lu
   Ink Names: 
   Ink Set: 
-  Max Sample Value: %u
-  Min Sample Value: %u
+  Max Sample Value: %u\n
+  Min Sample Value: %u\n
   Orientation: 
-  Page Number: %u-%u
+  Page Number: %u-%u\n
   Photometric Interpretation: 
-  Photoshop Data: <present>, %lu bytes
+  Photoshop Data: <present>, %lu bytes\n
   Planar Configuration: 
-  Position: %g, %g
+  Position: %g, %g\n
   Predictor: 
-  Reference Black/White:
+  Reference Black/White:\n
   Resolution: %g, %g
-  RichTIFFIPTC Data: <present>, %lu bytes
+  RichTIFFIPTC Data: <present>, %lu bytes\n
   Rows/Strip: 
   SMax Sample Value:
   SMin Sample Value:
   Sample Format: 
-  Sample to Nits conversion factor: %.4e
-  Samples/Pixel: %u
+  Sample to Nits conversion factor: %.4e\n
+  Samples/Pixel: %u\n
   SubIFD Offsets:
   Subfile Type:
   Thresholding: 
   Tile Width: %lu Tile Length: %lu
   Transfer Function: 
-  White Point: %g-%g
-  XMLPacket (XMP Metadata):
+  White Point: %g-%g\n
+  XMLPacket (XMP Metadata):\n
   YCbCr Positioning: 
-  YCbCr Subsampling: %u, %u
+  YCbCr Subsampling: %u, %u\n
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %5I64u
- (%lu = 0x%lx)
- (%u = 0x%x)
+ (%lu = 0x%lx)\n
+ (%u = 0x%x)\n
  (unit %u = 0x%x)
  (unitless)
- 2$2(2,2024282T=
  Image Depth: %lu
  Tile Depth: %lu
  clean
@@ -63,20 +58,10 @@
  pixels/inch
  receiver regenerated
  uncorrected errors
-!!!!!!
-!!!!!!!!
-!!!!!!!!!!!!!!!!!!
-!1&1,1k1p1v1<2I2V2
-!This program cannot be run in DOS mode.
 !weakref.load()
 !x->ref.isStatic()
 "%s": Bad mode
-"0g0|0
 "Predictor" value %d not supported
-$h,A	
-$hLA	
-$hd;	
-$hd=	
 %.100s: Can not read TIFF directory
 %I64d
 %I64u
@@ -124,15 +109,8 @@ $hd=
 %sunassoc-alpha
 %suncompressed data
 %sunspecified
-%u (0x%x)
-&h@@	
-&hpA	
-(infinite)
-(present)
-):5:R:t:
-,11171?1
-,6P6t6
-.00cfg
+(infinite)\n
+(present)\n
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
@@ -142,488 +120,17 @@ $hd=
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.idata
-.text
 0 (0x0)
-0 0$0(0,0004080u0|0
-0!1+1=1U1
-0"0(0.040:0@0F0L0R0X0^0d0j0p0v0|0
-0&2+212I2N2T2
-0(000<0@0D0P0d0
-0(090
-0+101
-0/040:0
-000G0S0`0l0x0
-02171=1V1[1a1
-0:0K0
-0=0I0p0
-0@0d0
-0@1g1t1}1
-0B0L0X0d0p0
-0B1G192>2
-0D0J0e0z0
-0D1H1P1
-0L1S1
-0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
-0R0X0%1*1/151
-0T?setDotsPerMeterX@QImage@@QAEXH@Z
-0U1`1k1p1
-0V1[1
-0]1b1h1
-0k1p1
-0r0w0}0
 0x%I64x
 0x%lx
-1 1$1,10181<1D1H1P1T1\1`1h1l1t1x1
-1!191m1
-1"1)1<1@1D1H1L1P1T1X1T2
-1#212?2^2w2
-1$1*10161<1B1H1N1T1Z1`1f1l1r1x1~1
-1%1+11171=1C1I1O1U1[1a1g1m1s1y1
-1%1Y1o1
-1'2D3H3L3P3T3
-1+1G1
-1+1Z3x3
-1+202
-1+282m2
-1-1|1
+0x%x
 1.2.5
-101C1V1i1|1
-181=1C1
-192>2
-193H3W3|3
-1<1`1
-1D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-1F4`4
-1K2P2
-1K2c2o2
-1O1T1y8~8
-1P2]2j2
-1Y1e1
-1\1a1g1
-1t4x4
-2 242A2_2{2
-2 2e2l2
-2!2'2-23292?2E2K2Q2W2]2c2i2o2u2{2
-2#202=2J2W2
-2$2)2U2Z2
-2'3,323
-2+323
-2+343e3
-2.373
-2/2V2}2
-213L3m3z3
-24282<2@2D2H2L2P2T2X2
-24292?2
-255A5e6
-264;4h4m4
-282\2
-292[2
-2>3C3I3a3f3l3
-2D2j2p2
-2E>h>
-2G2L2R2
-2Q3V3
-2S3[3y3
-2T?setDotsPerMeterY@QImage@@QAEXH@Z
-2U3Z3_3e3A>F>K>Q>
-2X2l2
-2\:i:v:
-2b2l2~2
-2d3i3o3?4D4
-2p3w3
-2r3{3
-2w3|3
-2x3|3
-3 3$3(3,3034383v3}3
-3 3l3q3w3
-3$4R4q4
-3'4,424K4P4V4
-3-353[3k3v4~4
-3-7l9p9t9x9|9
-343X3|3
-373c3
-3?4F4
-3@3E3K3
-3D7\7q7z7
-3I3N3w3|3
-3J4w4
-3N3w3
-3O5T5Z5j576<6B6
-3W4\4
-3g4l4r4
-3x4}4
-4 5P5]5
-4%4b4z4
-4(4L4p4
-4)4g4}4
-4-4K4
-404T4x4
-444l4
-44?8?<?@?D?H?L?P?T?X?\?`?d?h?
-4:4k4
-4D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-4D5I5
-4F4o4
-4H6M6
-4K5P5
-4K6,7074787<7{7
-4Q4V4\4
-4Y5q5
-4^4s4
-4a5f5%656=6
-4hT>	
-4m6u6
-4t5y5
-4t5y5|6
-5 585@5D5L5d5|5
-5 6D6h6
-5"5/5<5I5V5
-5$5)5/5
-5$5H5l5
-5%525J5O5
-5(5-5
-5)585t5
-5+6O6f6n6
-5,5P5t5
-5,60646(7-737;7
-5.63696`6e6
-5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5
-51666<6m6r6,71777
-53686>6V6[6a6
-54696?6
-555:5@5d5i5
-566=6d6h6l6p6t6
-597@7	;
-5;7H7^7j7
-5=5o5
-5@7D7H7L7P7
-5D5W5j5
-5E6J6P6i6n6t6
-5Genu
-5M6W6i6
-5Z6g6
-5^7c7
-5n6s6
-5w5|5
-6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-6 64686L6T6\6t6
-6 6D6I6G7
-6 7D7h7
-6!7&7^:c:
-6#6)6`6e6
-6#606L6h6z6
-6%7,7
-6(6L6p6
-6)666
-686B6
-6;7c7
-6A7p7!898F8^8m8
-6C7H7N7f7k7q7
-6F6N6V6
-6H6M6
-6R7W7
-6V7[7
-6a7f7
-6b6g6m6
-6c7h7
-6n:s:
-7	8#8=8m8
-7	8;8S8
 7 (0x7)
-7 8D8h8
-7#7)7
-7$7H7l7
-7&7w7
-7(7@7D7X7`7d7h7p7
-7(8|8
-7+7U7x7
-7,8j8
-727J7e7
-748>8`8|8
-7:7C7
-7;8G8
-7@7d7
-7@;x;};
-7B8G8t8
-7D7p7
-7M8R8
-7T?X?x?
-7X8}8
-7\8a8g8
-7^8c8i8
-7_9d9
-7`8e8k8{8<:A:G:T:
-7b8g8m8
-7e8j8p8
-8!858A8H9M9
-8#8a8f8l8
-8#9(9
-8&9+9=9\9
-8(9I9j9
-8+:b:
-80959;9i9p:t:x:|:
-819D9
-8;9Z9{9
-8<8`8
-8@8d8
-8A8W8
-8B9G9M9h9m9s9
-8F9K9Q9
-8I9N9
-8N9S9Y9q9v9|97:<:B:Z:_:e: ;%;+;D;I;O;
-8P9U9[9n9s9y9
-8V:[:a:
-8\9a9
-8`;d;|;
-9	:y:
-9 9$9(9
-9 9$9(9,9094989<9@9D9n9s9y9_:h:}:
-9 959Y9p9{9
-9!9'9Q9V9
-9$9(9,9094989<9@9D9u9|9
-9$9*9/9P9\9
-90959;9
-92:\:
-949X9|9
-989\9
-9<9B9H9N9T9Z9a9h9o9v9}9
-9<9`9
-9<:I:V:c:t:|:
-9C9H9i9n9|9
-9E9Z9
-9G9[9h9p9
-9G:L:
-9JPt#hD 	
-9L<[<q<
-9T;Y;
-9U:b:o:|:
-9h|=	
-9j:o:u:
-9o:t:z:
-9v:{:
-:!;*;<;E;
-:#:):
-:$:):.:
-:';h;
-:+:b:
-:-;x;
-:.:p:Z;_;e;
-:/:4:l:q:w:
-:/:G:
-:4:X:|:
-:5;:;
-:8:\:
-:=:P:s:
-:C:K:]:%;2;
-:P;T;X;\;`;
-:P=T=l=p=t=x=|=
-:X;\;p;t;x;|;
-:_;h;w;
-:f>k>q>
-:h:m:E;J;
-:hL@	
-:j;u;
-:w; </<Z<
-; ;$;(;,;0;4;8;
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;
-;!;+;@;E;
-;"<@<[<v<
-;#;(;~=
-;,;1;7;O;T;Z;
-;-;2;8;N;S;Y;
-;0;T;x;
-;2;B;T;
-;2<_<|<
-;2=:=F=[=
-;3<8<
-;4;X;|;
-;4<8<<<@<D<
-;4<k<P=
-;6;P;g;
-;<;z;
-;?=F=
-;C>V>[>
-;E t#h
-;F<f<k<q<
-;N;S;Y;
-;Q|rC
-;Q|rI
-;\=`=d=h=l=p=t=x=|=
-;i;n;
-;i<n<t<N=S=
-;p=t=x=|=
-<	<"<'<-<
-<	<t<y<
-< =D=h=
-<!<'<1<c<t<
-<!=i>
-<"=+=4=
-<%<R<W<;>@>D?I?
-<&<+<1<b>g>m>
-<&<7<N<
-<'=0=D=W=f=s=
-<'=A=P=
-<+<j<
-<,<P<t<
-<-<2<
-<.<3<9<M<R<
-<.<5<?<a<k<
-<0<T<x<
-<0N0V0c0~0
-<2I2V2
-<3=8=>=V=[=a=A>F>z>
-<4<U<v<
-<D=N=`=x=
-<E>J>
-<G=Q=c={=
-<f<k<
-<i=n=t=
-<l?p?t?x?|?
-<r<w<}<
-<s<x<
-<t=y=
+8&Kx
 <unknown>
 <unsupported data type in TIFFPrint>
-<v={=
-=	>O>
-= =$=(=,=0=4=8=<=@=
-="='=,=1=:=?=
-="=(=A=F=L=e=j=p=
-=(=,=0=<=@=D=H=L=P=T=
-=(=L=p=
-=*>X>z>
-=+=:=
-=,=P=t=
-=.>3>9>]>n>
-=/=;=K=
-=0F0Y0^0
-=2>7>=>
-=4=W=~=
-=7><>v>{>
-=:=[=
-=:>`>l>x>
-=<>@>D>H>L>P>T>X>\>`>d>h>l>p>t>
-=B=J=R=
-=E=L=
 =No space for "TransferFunction" tag
-=Y?t?x?|?
-=c>h>T?y?
-=h?l?p?t?x?|?
-=j=t=
-=k=p=v=
-=l?q?
-=m?r?x?
->	>5>
-> >$>(>,>0>4>8><>
-> >&>z>
-> ?D?h?l?
->#?H?T?y?
->$>H>l>
->%?K?P?
->&>B>S>[>
->&?R?c?
->(>L>p>
->)>=>P>d>
->.>?>O>T>Z>
->0E0w0
->1>Q>Y>a>l>x>
->1?8?
->;>H>d>j>
->>>a>
->D>I>O>
->D>|>
->M?R?
->U?o?t?y?
->`>e>	?
->v?{?
-? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?
-?"?(?
-?#?)?
-?#?0?5?
-?&?T?\?d?o?{?
-?,?A?J?c?
-?.?V?
-?/?D?j?r?
-?4?R?Y?t?
-?8?m?
-??0QByteArray@@QAE@PBDH@Z
-??0QImage@@QAE@ABVQSize@@W4Format@0@@Z
-??0QImageIOHandler@@QAE@XZ
-??0QImageIOPlugin@@QAE@PAVQObject@@@Z
-??0QMessageLogger@@QAE@PBDH0@Z
-??0QSize@@QAE@HH@Z
-??0QSize@@QAE@XZ
-??0QString@@QAE@ABV0@@Z
-??0QString@@QAE@VQLatin1String@@@Z
-??0QVariant@@QAE@ABVQSize@@@Z
-??0QVariant@@QAE@H@Z
-??0QVariant@@QAE@XZ
-??1QByteArray@@QAE@XZ
-??1QImage@@UAE@XZ
-??1QImageIOHandler@@UAE@XZ
-??1QImageIOPlugin@@UAE@XZ
-??1QString@@QAE@XZ
-??4QImage@@QAEAAV0@$$QAV0@@Z
-?C?m?r?
 ?EPredictorSetup
-?Y?a?j?q?
-?allocate@QArrayData@@SAPAU1@IIIV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
-?append@QListData@@QAEPAPAXXZ
-?begin@QListData@@QBEPAPAXXZ
-?bits@QImage@@QAEPAEXZ
-?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
-?colorTable@QImage@@QBE?AV?$QVector@I@@XZ
-?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?constData@QByteArray@@QBEPBDXZ
-?convertToFormat@QImage@@QHAE?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?copy@QImage@@QBE?AV1@HHHH@Z
-?currentImageNumber@QImageIOHandler@@UBEHXZ
-?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
-?data@QArrayData@@QAEPAXXZ
-?deallocate@QArrayData@@SAXPAU1@II@Z
-?detach@QListData@@QAEPAUData@1@H@Z
-?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
-?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dispose@QListData@@QAEXXZ
-?dispose@QListData@@SAXPAUData@1@@Z
-?dotsPerMeterX@QImage@@QBEHXZ
-?dotsPerMeterY@QImage@@QBEHXZ
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
-?e?j?
-?end@QListData@@QBEPAPAXXZ
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?format@QImage@@QBE?AW4Format@1@XZ
-?fromRawData@QByteArray@@SA?AV1@PBDH@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
-?height@QSize@@QBEHXZ
-?isEmpty@QByteArray@@QBE_NXZ
-?isOpen@QIODevice@@QBE_NXZ
-?isReadable@QIODevice@@QBE_NXZ
-?isWritable@QIODevice@@QBE_NXZ
-?peek@QIODevice@@QAE?AVQByteArray@@_J@Z
-?q?v?
-?qstrcmp@@YAHABVQByteArray@@PBD@Z
-?qt_assert@@YAXPBD0H@Z
-?qt_assert_x@@YAXPBD00H@Z
-?qt_check_pointer@@YAXPBDH@Z
-?read@QIODevice@@QAE_JPAD_J@Z
-?sharedNull@QArrayData@@SAPAU1@XZ
-?shared_null@QListData@@2UData@1@B
-?size@QByteArray@@QBEHXZ
-?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
-?toInt@QVariant@@QBEHPA_N@Z
-?type@QVariant@@QBE?AW4Type@1@XZ
-?warning@QMessageLogger@@QBAXPBDZZ
-?width@QSize@@QBEHXZ
-?write@QIODevice@@QAE_JPBD_J@Z
-@.data
-@.qtmetad
-@.reloc
-@.rsrc
-@0D0H0h0l0p0
 ASCII value for tag "%s" contains null byte in value; value incorrectly truncated during reading due to implementation limitations
 ASCII value for tag "%s" does not end in null byte
 ActiveArea
@@ -639,18 +146,12 @@ AsShotWhiteXY
 Assuming 8-bit colormap
 Attempt to reset field on directory not already on disk.
 Attempt to write value larger than 0xFFFFFFFF in Classic TIFF file.
-B2Ph 
-BDPhB
-BQhTB	
-BXPh`c	
-BXPh|2
 Bad code word at line %u of %s %u (x %u)
 BadFaxLines
 BaselineExposure
 BaselineNoise
 BaselineSharpness
 BayerGreenSplit
-BbPhU
 BestQualityScale
 Bits/sample must be 1 for Group 3/4 encoding/decoding
 BitsPerSample
@@ -672,8 +173,9 @@ CFALayout
 CFAPattern
 CFAPlaneColor
 CIE L*a*b*
-CIE Log2(L)
-CIE Log2(L) (u',v')
+CIE Log2(L) (u',v')\n
+CIE Log2(L)\n
+CMYK\n
 CalibrationIlluminant1
 CalibrationIlluminant2
 CameraCalibration1
@@ -705,7 +207,6 @@ CellWidth
 ChromaBlurRadius
 CleanFaxData
 ClipPath
-CloseHandle
 CodingMethods
 Color channels
 ColorMap
@@ -724,13 +225,7 @@ Compression scheme does not support access to raw uncompressed data
 ConsecutiveBadFaxLines
 Contrast
 Copyright
-Copyright (c) 1988-1996 Sam Leffler
-Copyright (c) 1991-1996 Silicon Graphics, Inc.
 Corrupted LZW table at scanline %d
-CreateEventW
-CreateFileA
-CreateFileMappingW
-CreateFileW
 CurrentICCProfile
 CurrentPreProfileMatrix
 CustomRendered
@@ -750,18 +245,15 @@ DefaultCropOrigin
 DefaultCropSize
 DefaultScale
 Deflate
-DeleteCriticalSection
 DeviceSettingDescription
 DigitalZoomRatio
 Directory %d does not exist
-DisableThreadLibraryCalls
 Discarding %lu bytes to avoid buffer overrun
 DocumentName
 DotRange
 DumpModeDecode
 EXIFIFDOffset
 Encoder error: %s
-EnterCriticalSection
 Error fetching directory count
 Error fetching directory link
 Error flushing data before directory write
@@ -818,33 +310,19 @@ Fractional scanlines cannot be read
 Fractional scanlines cannot be written
 FreeByteCounts
 FreeOffsets
-GK?imageCount@QImageIOHandler@@UBEHXZ
 GPSIFDOffset
 GainControl
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetFileSize
-GetLastError
-GetModuleHandleW
-GetProcAddress
-GetStartupInfoW
-GetSystemTimeAsFileTime
-Gh<>	
 GlobalParametersIFD
 GrayResponseCurve
 GrayResponseUnit
 Group3Options
 Group4Options
-H,Qh,!	
-H.Qht>	
-HVQhS
 HalftoneHints
 Horizontal differencing "Predictor" not supported with %d-bit samples
 HostComputer
 ICC L*a*b*
 ICC Profile
-IEEE floating point
+IEEE floating point\n
 IO error during reading of "%s"
 IO error during reading of "%s"; tag ignored
 IO error writing directory
@@ -871,7 +349,6 @@ Incorrect value for "%s"; tag ignored
 Indexed
 InitCCITTFax3
 InitializeConditionVariable
-InitializeSListHead
 InkNames
 InkSet
 Integer arithmetic overflow
@@ -887,16 +364,9 @@ Invalid YCbCr subsampling
 Invalid YCbCr subsampling (%dx%d)
 Invalid strip byte count %I64u, strip %lu
 Invalid td_samplesperpixel value
-IsDebuggerPresent
-IsProcessorFeaturePresent
-J?hasAlphaChannel@QImage@@QBE_NXZ
-K?height@QImage@@QBEHXZ
-KERNEL32.dll
-L2Q2W2a2v2{2
-L?isNull@QImage@@QBE_NXZ
-L?jumpToImage@QImageIOHandler@@UAE_NH@Z
-L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
-LIBTIFF, Version 4.0.3
+JPEG
+LIBTIFF, Version 4.0.3\nCopyright (c) 1988-1996 Sam Leffler\nCopyright (c) 1991-1996 Silicon Graphics, Inc.
+LZMA
 LZWDecode
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Strip %d not terminated with EOI code
@@ -904,7 +374,6 @@ LZWDecodeCompat
 LZWPreDecode
 LZWSetupDecode
 LZWSetupEncode
-LeaveCriticalSection
 LensInfo
 LightSource
 Line length mismatch
@@ -919,12 +388,9 @@ LogLuvInitState
 LogLuvSetupDecode
 LogLuvSetupEncode
 LogLuvVSetField
-M?logicalDpiX@QPaintDevice@@QBEHXZ
-M?logicalDpiY@QPaintDevice@@QBEHXZ
-M?loopCount@QImageIOHandler@@UBEHXZ
+Make
 MakerNote
 MakerNoteSafety
-MapViewOfFile
 MaskedAreas
 MatrixWorldToCamera
 MatrixWorldToScreen
@@ -940,9 +406,7 @@ Merging PixarLog codec-specific tags failed
 Merging Predictor codec-specific tags failed
 Merging SGILog codec-specific tags failed
 Merging common CCITT Fax codec-specific tags failed
-MetaData
 MeteringMode
-MimeTypes
 MinSampleValue
 Missing needed %s tag
 Missing required "Colormap" tag
@@ -951,6 +415,7 @@ ModeNumber
 Model
 Must set "ImageWidth" before writing data
 Must set "PlanarConfiguration" before writing data
+NeXT
 NeXTDecode
 No "get" routine setup
 No "put" routine setupl; probably can not handle image format
@@ -977,6 +442,7 @@ No space to expand strip arrays
 No space to register compression scheme %s
 No support for converting user data format to LogL
 No support for converting user data format to LogLuv
+None
 Nonstandard tile length %d, convert file
 Nonstandard tile width %d, convert file
 Not a TIFF file, bad BigTIFF offsetsize %d (0x%x)
@@ -991,7 +457,6 @@ Not enough data for scanline %ld
 Not enough data for scanline %lu
 Not enough data for scanline %lu, expected a request for at most %I64d bytes, got a request for %I64d bytes
 NumberOfInks
-O?nextImageDelay@QImageIOHandler@@UBEHXZ
 Old-style JPEG
 Old-style LZW codes, convert file
 OldSubfileType
@@ -1005,27 +470,15 @@ Out of memory allocating %ld byte temp buffer.
 Out of memory for colormap copy
 Out of memory reading of "%s"
 Out of memory reading of "%s"; tag ignored
-P.tls
-P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
 PackBits
 PackBitsDecode
 PageName
 PageNumber
 PerSample
-Ph I	
-Ph m	
-Ph(2	
-Ph(V	
-Ph8?	
-PhDH	
-PhDM	
-PhH<	
-PhlO	
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Php?	
 PixarLog
 PixarLog compression can't handle %d bit linear encodings
 PixarLog compression can't handle bits depth/data format combination (depth: %d)
@@ -1048,41 +501,16 @@ Premature EOF at line %u of %s %u (x %u)
 Premature EOL
 PrimaryChromaticities
 ProfileType
-Q$RhL=	
-Q:Rh4
-QHRhC
-QTMETADATA  qbjs
 QTiffHandler::canRead() called with no device
 QTiffPlugin
 QVarLengthArray::QVarLengthArray()
 QVector::QVector
 QVector<T>::at
 QVector<T>::operator[]
-QW?size@QImage@@QBE?AVQSize@@XZ
-QXRh43
-QXRhD"	
-QXRhX
-QXRhl
-QXRhl4
-QXRhtc	
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
-QbRhT
-Qh O	
-Qh(?	
-Qh(P	
-QhH?	
-QhLY	
-QhP%	
-QhX@	
-QhX]	
-Qt5Cored.dll
-Qt5Guid.dll
-QueryPerformanceCounter
-Q|Rh(
-R?scanLine@QImage@@QAEPAEH@Z
-R?scanLine@QImage@@QBEPBEH@Z
 RGB color
+RSDS
 RawDataUniqueID
 Read error at row %lu, col %lu, tile %lu; got %I64u bytes, expected %I64u
 Read error at row %lu, col %lu; got %I64u bytes, expected %I64u
@@ -1090,32 +518,17 @@ Read error at scanline %lu, strip %lu; got %I64u bytes, expected %I64u
 Read error at scanline %lu; got %I64u bytes, expected %I64u
 Read error on strip %lu; got %I64u bytes, expected %I64u
 ReadDirEntryArray
-ReadFile
 ReductionMatrix1
 ReductionMatrix2
 ReferenceBlackWhite
 Registering anonymous field with tag %d (0x%x) failed
 RelatedSoundFile
-ResetEvent
 ResolutionUnit
-Rh(=	
-Rh@m	
-RhD;	
-RhDB	
-RhP;	
-RhPL	
-RhTX	
-Rhl 	
-RhlZ	
-RhpM	
-RhtX	
-Rh|B	
 RichTIFFIPTC
 Row passed to TIFFReadRGBAStrip() must be first in a strip.
 Row pixels integer overflow (rowpixels %u)
 Row/col passed to TIFFReadRGBATile() must be topleft corner of a tile.
 RowsPerStrip
-S?setColorTable@QImage@@QAEXV?$QVector@I@@@Z
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
@@ -1142,9 +555,6 @@ Seek error at row %lu, col %lu, tile %lu
 Seek error at scanline %lu
 Seek error at scanline %lu, strip %lu
 SensingMethod
-SetEvent
-SetFilePointer
-SetUnhandledExceptionFilter
 Setting up field info failed
 ShadowScale
 Sharpness
@@ -1178,10 +588,8 @@ SubjectArea
 SubjectDistance
 SubjectDistanceRange
 SubjectLocation
-T0Y0_0x0}0
 T82Options
-T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
-TIFF Directory at offset 0x%I64x (%I64u)
+TIFF Directory at offset 0x%I64x (%I64u)\n
 TIFF directory is missing required "%s" field
 TIFF directory is missing required "StripByteCounts" field, calculating from imagelength
 TIFFAdvanceDirectory
@@ -1254,9 +662,10 @@ TIFFWriteEncodedTile
 TIFFWriteRawStrip
 TIFFWriteRawTile
 TIFFWriteScanline
+TRUE
+Tag 
 Tag %d
 TargetPrinter
-TerminateProcess
 Terminating PackBitsDecode due to lack of data.
 TextureFormat
 TextureWrapModes
@@ -1274,36 +683,27 @@ TileWidth
 Tiles
 Too much
 TransferFunction
-U$RkE
 Uncompressed data (not supported) at line %u of %s %u (x %u)
-UnhandledExceptionFilter
 UniqueCameraModel
 Unknown
 Unknown data format %d for LogLuv compression
 Unknown encoding %d for LogLuv compression
 Unknown exception
 Unknown field with tag %d (0x%x) encountered
-UnmapViewOfFile
 Unsupported bits/sample: %d
 UserComment
-VCRUNTIME140D.dll
 Value exceeds 32bit range of output type.
 VersionYear
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning, 
 WhiteBalance
 WhiteLevel
 WhitePoint
-WideCharToMultiByte
 Write error at scanline %lu
-WriteFile
 Wrong "StripByteCounts" field, ignoring and calculating from imagelength
 Wrong bitspersample value (%d), Thunder decoder only supports 4bits per sample.
 Wrong data type %d for "%s"; tag ignored
 Wrong length of decoded string: data probably corrupted at scanline %d
-X0]0g0p0w0
 XClipPathUnits
 XMLPacket
 XPosition
@@ -1316,7 +716,6 @@ YCbCrSubsampling
 YClipPathUnits
 YPosition
 YResolution
-Z?width@QImage@@QBEHXZ
 ZIPDecode
 ZIPEncode
 ZIPPostEncode
@@ -1327,69 +726,37 @@ ZIPSetupEncode
 ZIPVSetField
 ZLib cannot deal with buffers this size
 ZLib error: %s
-Zh$>	
-[0`0f0
 \%03o
-_CrtDbgReportW
-_CxxThrowException
 _TIFFMergeFields
 _TIFFSetupFields
 _TIFFVGetField
 _TIFFVSetField
-__acrt_iob_func
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__stdio_common_vfprintf
-__stdio_common_vsprintf
-__vcrt_InitializeCriticalSectionEx
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_except1
-_except_handler4_common
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
-_register_onexit_function
-_seh_filter_dll
-_wassert
-`.rdata
 aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
 aoB>"
 asize >= 0 && asize <= aalloc
-atan2
+b\rr\nn\vv
 bad allocation
 bad array new length
-bilevel art scan
+bilevel art scan\n
 bool __cdecl QTiffHandlerPrivate::canRead(class QIODevice *)
-bsearch
-centered
+centered\n
 class QFlags<enum QImageIOHandler::Transformation> __cdecl exif2Qt(int)
-className
-complex IEEE floating point
-complex signed integer
-cosited
+complex IEEE floating point\n
+complex signed integer\n
+cosited\n
 custom tag binary object
 d != Data::unsharableEmpty()
 d->alloc >= uint(aalloc)
 d->data()
 d->size == asize
-debug
-error diffused
+error diffused\n
 f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvarlengtharray.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s
+field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s\n
 floating point predictor 
-floor
 for "StripByteCounts" array
 for Group 3/4 run arrays
 for IFD list
@@ -1398,14 +765,11 @@ for chopped "StripOffsets" array
 for field buffer.
 for fields array
 for strip array
-fputc
-fputs
 gtStripSeparate
 gtTileSeparate
-halftone or dithered scan
+halftone or dithered scan\n
 horizontal differencing 
 idx >= 0 && idx < s
-image/tiff
 incorrect count for field "%s" (%llu, expecting %u); tag ignored
 incorrect count for field "%s" (%llu, expecting %u); tag trimmed
 incorrect count for field "%s", expected %d, got %d
@@ -1416,33 +780,21 @@ initYCbCrConversion
 int __cdecl qt2Exif(class QFlags<enum QImageIOHandler::Transformation>)
 int(d->alloc) == aalloc
 isDetached()
-isprint
-j`hxH	
-jdhp^	
-j|hHI	
-lsb-to-msb
-malloc
-memcmp
-memcpy
-memmove
-memset
+lsb-to-msb\n
 min-is-black
 min-is-white
-msb-to-lsb
+msb-to-lsb\n
 must be either LogLUV or LogL
+n$Kx
 none 
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
-pPhd@	
 palette color (RGB from colormap)
 pseudo-
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qsort
 qt_plugin_instance
 qt_plugin_query_metadata
 qtiffd.dll
 qtiffhandler.cpp
-realloc
 row 0 bottom, col 0 lhs
 row 0 bottom, col 0 rhs
 row 0 lhs, col 0 bottom
@@ -1451,69 +803,23 @@ row 0 rhs, col 0 bottom
 row 0 rhs, col 0 top
 row 0 top, col 0 lhs
 row 0 top, col 0 rhs
-s#h8]	
 scanline
-separate image planes
+separate image planes\n
 separated
-signed integer
-single image plane
-strchr
-strcmp
-strcpy
+signed integer\n
+single image plane\n
 stride %lu is not a multiple of sample count, %lu, data truncated.
 strip
 strips
-strlen
-strncmp
 strongref.load() <= 0
-t!h0M	
-t#h8Y	
-t#h8c	
-t#hTV	
-t#hhV	
-t#hpY	
-t%h|V	
 tableSize <= 256
-terminate
+tiff
+tile
 tiles
 to read TIFF directory
-tohhB	
-tphTA	
 transparency mask
-tyh(@	
-u hty
-u!h$Q	
-u"hH[	
-u#h@6	
-u#htR
-u#htx
-u$h4Z	
-u$hXm	
-u$hdS
-u$ht]	
-u)h(Y	
-u2h('
-u8h(x
-u:h\w
-u^h0;	
-ucrtbased.dll
 uint(d->size) <= d->alloc
-ulhh7
 unknown tagname
-unsigned integer
-version
-x == d
+unsigned integer\n
+void\n
 x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-x^j=|
-yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
-zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
-z_deflate
-z_deflateEnd
-z_deflateInit_
-z_deflateParams
-z_deflateReset
-z_inflate
-z_inflateEnd
-z_inflateInit_
-z_inflateReset
-z_inflateSync

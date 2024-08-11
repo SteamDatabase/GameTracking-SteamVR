@@ -1,35 +1,18 @@
-	 ?type@QGraphicsItem@@UBEHXZ
-	?contains@QByteArray@@QBE_NPBD@Z
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
-	?devType@QWidget@@UBEHXZ
-           1.0);
-           texture2D(texU, textureCoord.st).r,
-           texture2D(texV, textureCoord.st).r,
-           texture2D(texY, textureCoord.st).r,
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-    color = colorMatrix * color;
-    gl_FragColor = colorMatrix * color;
-    gl_FragColor = vec4(color.rgb, texture2D(texRgb, textureCoord.st).a);
-    gl_FragColor = vec4(color.rgb, texture2D(texRgb, textureCoord.st).r);
-    highp vec4 color = vec4(
-    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).bgr, 1.0);
-    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).gba, 1.0);
-    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).rgb, 1.0);
-   gl_Position = positionMatrix * vertexCoordArray;
-   textureCoord = textureCoordArray;
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
  !?wheelEvent@QWidget@@MAEXPAVQWheelEvent@@@Z
-!!ARBfp1.0
+!!ARBfp1.0\nPARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };\nTEMP argb;\nTEX argb, fragment.texcoord[0], texture[0], 2D;\nMOV argb.w, matrix[3].w;\nDP4 result.color.x, argb.zyxw, matrix[0];\nDP4 result.color.y, argb.zyxw, matrix[1];\nDP4 result.color.z, argb.zyxw, matrix[2];\nTEX result.color.w, fragment.texcoord[0], texture, 2D;\nEND
+!!ARBfp1.0\nPARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };\nTEMP ayuv;\nTEX ayuv, fragment.texcoord[0], texture[0], 2D;\nMOV ayuv.x, matrix[3].w;\nDP4 result.color.x, ayuv.yzwx, matrix[0];\nDP4 result.color.y, ayuv.yzwx, matrix[1];\nDP4 result.color.z, ayuv.yzwx, matrix[2];\nEND
+!!ARBfp1.0\nPARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };\nTEMP ayuv;\nTEX ayuv, fragment.texcoord[0], texture[0], 2D;\nMOV ayuv.x, matrix[3].w;\nDP4 result.color.x, ayuv.yzwx, matrix[0];\nDP4 result.color.y, ayuv.yzwx, matrix[1];\nDP4 result.color.z, ayuv.yzwx, matrix[2];\nTEX result.color.w, fragment.texcoord[0], texture, 2D;\nEND
+!!ARBfp1.0\nPARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };\nTEMP rgb;\nTEX rgb, fragment.texcoord[0], texture[0], 2D;\nMOV rgb.w, matrix[3].w;\nDP4 result.color.x, rgb, matrix[0];\nDP4 result.color.y, rgb, matrix[1];\nDP4 result.color.z, rgb, matrix[2];\nTEX result.color.w, fragment.texcoord[0], texture, 2D;\nEND
+!!ARBfp1.0\nPARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };\nTEMP xrgb;\nTEX xrgb.xyz, fragment.texcoord[0], texture[0], 2D;\nMOV xrgb.w, matrix[3].w;\nDP4 result.color.x, xrgb.zyxw, matrix[0];\nDP4 result.color.y, xrgb.zyxw, matrix[1];\nDP4 result.color.z, xrgb.zyxw, matrix[2];\nEND
+!!ARBfp1.0\nPARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };\nTEMP yuv;\nTEX yuv.x, fragment.texcoord[0], texture[0], 2D;\nTEX yuv.y, fragment.texcoord[0], texture[1], 2D;\nTEX yuv.z, fragment.texcoord[0], texture[2], 2D;\nMOV yuv.w, matrix[3].w;\nDP4 result.color.x, yuv, matrix[0];\nDP4 result.color.y, yuv, matrix[1];\nDP4 result.color.z, yuv, matrix[2];\nEND
 !?glGetError@QOpenGLFunctions@@QAEIXZ
 !?wheelEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneWheelEvent@@@Z
-!This program cannot be run in DOS mode.
-(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+"\r?indexOf@QLayout@@UBEHPAVQWidget@@@Z
+#\n?dragMoveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
+&\v?end@QListData@@QBEPAPAXXZ
+(\v?extension@QGraphicsItem@@MBE?AVQVariant@@ABV2@@Z
 +!?widget@QLayoutItem@@UAEPAVQWidget@@XZ
+-\n?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z
 .00cfg
 .?AVQAbstractVideoSurface@@
 .?AVQBoxLayout@@
@@ -72,6 +55,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -84,34 +68,16 @@
 .rdata$r
 .rdata$sxdata
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .xdata$x
-0 0$0(0,00080<0@0P0T0X0h0l0p0
-0!0&01060A0F0Q0V0
-0"0)0a0l0
-0#0*080B0_0j0
-0$0*00060<0B0H0N0T0Z0`0f0l0r0x0~0
-0)030J0U0\0c0x0
-0-0j0y0
-0?1X1
-1 1<1T1p1
-1"1)101g1n1u1
-1#11171J1P1^1
-1$1+171=1H1P1Z1j1v1
-1'1]1c1
-1-1?1G1t1
-1;2@2t2
-1>1H1R1^1e1x1
-1O2l2
+0\n?data@QArrayData@@QAEPAXXZ
 1_q_brightnessChanged(int)
 1_q_contrastChanged(int)
 1_q_dimensionsChanged()
@@ -124,18 +90,6 @@
 1formatChanged(QVideoSurfaceFormat)
 1frameChanged()
 1viewportDestroyed()
-2 2I2P2k2p2
-2!212B2I2o2
-2"2;2@2M2
-2#313o3
-2(202D2L2T2\2`2d2l2
-2.3k3p3
-202B2W2i2
-202X2x2
-253X3
-2>2L2
-2`3d3h3l3p3t3x3|3
-2`3d3l3p3t3
 2brightnessChanged(int)
 2contrastChanged(int)
 2destroyed()
@@ -145,120 +99,12 @@
 2nativeSizeChanged()
 2saturationChanged(int)
 2surfaceFormatChanged(QVideoSurfaceFormat)
-3#323Y3`3
-3$3@3X3t3
-3%303E3T3g3q3
-3*424D4N4
-323>3_3k3
-334;4Q4h4
-3<4@4H4
-3>3P3
-4 4$4I4P4e4w4
-4 4I4P4
-4!5@5M5^5|5
-4"5*5K5P5
-4&43494
-434A4_4w4
-4<5G5[5f5v5
-4D4h4
-4W4`4
-5	6 676P6a6w6
-5$5(5@5P5T5X5\5`5d5l5
-5$505J5O5[5u5
-5&6i6p6
-5-555=5C5S5Z5g5q5y5
-5/6=6S6_6q6
-525c5
-585V5t5
-5:6Q6b6i6w6
-5^5g5o5
-5ineI
-5ntel
-6 6$6(6,6064686U6n6
-6 6$6,6D6T6X6h6l6|6
-6#6*61696A6I6U6^6c6i6s6}6
-6$6C6O6V6]6h6s6
-6(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-6S7Z7
-7 7074787L7P7`7d7h7p7
-7"7;7Y7_7
-7$7-7<7f7|7
-7*747>7r7~7
-7*7J7R7\7k7
-7.7V7^7p7|7
-7:7_7q7
-7C8J8
-8	?convert@QVariant@@QBE_NHPAX@Z
-8'8/8:8E8O8k8
-8(888<8L8P8T8X8\8d8|8
-8)828m8
-8/8;8{8
-8:8J8r8
-8R8k8s8
-8SUVW
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9p9t9x9|9
-9 9$9<9L9P9T9h9l9|9
-9$9C9p9{9
-9&:,:Z:
-94:8:<:@:D:H:L:f:
-95=;=\=
-9A9J9o9
-9J9s9
-9V$t-
-9V(t-
-9V,t-
-9V0t-
-9x:|:
-: :$:(:0:H:X:\:`:d:l:
-:#:-:
-:$:;:R:i:
+8\t?convert@QVariant@@QBE_NHPAX@Z
 :%?glGetString@QOpenGLFunctions@@QAEPBEI@Z
-:);0;Y;`;
-:1:@:R:o:
-:F;];t;
-:G;V;^;v;
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-;$;(;,;0;8;P;T;l;|;
-;%;7;X;
-;%;e;
-;,<4<<<Y<y<
-;7;>;G;U;b;
-;:<d<
-;c<j<
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-< <8<H<L<\<`<p<t<x<|<
-< <L<b<u<
-<$<B<V<\<x<~<
-<-===E=
-</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
-<3=>=H=X=p=
-<4=J=
-<=<Q<n<
-<I<q<
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-= =$=(=,=0=4=8=<=@=D=H=L=
-= ='=Y=d=l=s=
-=!=I=Q=a=r=y=
-=!>a>l>z>
-=(=8=<=@=D=L=d=t=x=
-=+=K=x=
+;\r?initPainter@QWidget@@MBEXPAVQPainter@@@Z
 =?glTexImage2D@QOpenGLFunctions@@QAEXIHHHHHIIPBX@Z
->!>/>J>U>\>k>z>
->$>4>8>H>L>T>l>|>
 >)?glIsEnabled@QOpenGLFunctions@@QAEEI@Z
->+>7>S>p>z>
->,>>>^>
->.?5?@?I?S?Z?a?l?|?
->1>=>Q>W>q>w>
->1>>>F>L>d>i>p>
->9>B>K>Y>b>u>
->;>z>
 >?glTexParameteri@QOpenGLFunctions@@QAEXIIH@Z
-? ?$?(?,?0?4?
-? ?&?,?2?8?>?D?J?P?V?\?b?h?n?t?z?
-?%?.?W?
-?/?e?p?{?
-?1?E?c?i?s?
 ??0QAbstractVideoSurface@@QAE@PAVQObject@@@Z
 ??0QBrush@@QAE@ABV0@@Z
 ??0QBrush@@QAE@W4GlobalColor@Qt@@W4BrushStyle@2@@Z
@@ -346,7 +192,6 @@
 ??_FQGraphicsVideoItem@@QAEXXZ
 ??_FQVideoWidget@@QAEXXZ
 ??_FQVideoWidgetControl@@QAEXXZ
-?O?W?a?t?
 ?accept@QEvent@@QAEXXZ
 ?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z
 ?activate@QMetaObject@@SAXPAVQObject@@PBU1@HPAPAX@Z
@@ -395,59 +240,18 @@
 ?controlTypes@QLayout@@UBE?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ
 ?count@QBoxLayout@@UBEHXZ
 ?currentContext@QGLContext@@SAPBV1@XZ
-?currentContext@QOpenGLContext@@SAPAV1@XZ
 ?d_func@QCameraViewfinder@@AAEPAVQCameraViewfinderPrivate@@XZ
 ?d_func@QCameraViewfinder@@ABEPBVQCameraViewfinderPrivate@@XZ
 ?d_func@QGraphicsVideoItem@@AAEPAVQGraphicsVideoItemPrivate@@XZ
 ?d_func@QGraphicsVideoItem@@ABEPBVQGraphicsVideoItemPrivate@@XZ
 ?d_func@QVideoWidget@@AAEPAVQVideoWidgetPrivate@@XZ
 ?d_func@QVideoWidget@@ABEPBVQVideoWidgetPrivate@@XZ
-?data@QArrayData@@QAEPAXXZ
-?deallocate@QArrayData@@SAXPAU1@II@Z
-?detach@QListData@@QAEPAUData@1@H@Z
-?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
-?deviceTransform@QPainter@@QBEABVQTransform@@XZ
-?disconnect@QObject@@SA_NPBV1@PBD01@Z
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dispose@QListData@@SAXPAUData@1@@Z
-?dragEnterEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
-?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z
-?dragLeaveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
-?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z
-?dragMoveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
-?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z
-?drawImage@QPainter@@QAEXABVQRectF@@ABVQImage@@0V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?drawPixmap@QPainter@@QAEXABVQRectF@@ABVQPixmap@@0@Z
-?dropEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
-?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z
-?dx@QTransform@@QBENXZ
-?dy@QTransform@@QBENXZ
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
 ?enableAttributeArray@QGLShaderProgram@@QAEXPBD@Z
-?end@QListData@@QBEPAPAXXZ
-?endNativePainting@QPainter@@QAEXXZ
-?enterEvent@QWidget@@MAEXPAVQEvent@@@Z
-?event@QGraphicsObject@@MAE_NPAVQEvent@@@Z
-?event@QObject@@UAE_NPAVQEvent@@@Z
 ?event@QVideoWidget@@MAE_NPAVQEvent@@@Z
-?event@QWidget@@MAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?expandingDirections@QBoxLayout@@UBE?AV?$QFlags@W4Orientation@Qt@@@@XZ
-?extension@QGraphicsItem@@MBE?AVQVariant@@ABV2@@Z
-?fillRect@QPainter@@QAEXABVQRect@@ABVQBrush@@@Z
-?fillRect@QPainter@@QAEXABVQRectF@@ABVQBrush@@@Z
-?fillRect@QPainter@@QAEXABVQRectF@@W4GlobalColor@Qt@@@Z
-?focusInEvent@QGraphicsItem@@MAEXPAVQFocusEvent@@@Z
-?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z
-?focusNextPrevChild@QWidget@@MAE_N_N@Z
-?focusOutEvent@QGraphicsItem@@MAEXPAVQFocusEvent@@@Z
-?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z
 ?frameSize@QVideoSurfaceFormat@@QBE?AVQSize@@XZ
 ?fullScreenChanged@QVideoWidget@@QAEX_N@Z
 ?fullScreenChanged@QVideoWidgetControl@@QAEX_N@Z
 ?functions@QOpenGLContext@@QBEPAVQOpenGLFunctions@@XZ
-?geometry@QLayout@@UBE?AVQRect@@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
 ?getProcAddress@QGLContext@@QBEP6AXXZABVQString@@@Z
 ?glBindTexture@QOpenGLFunctions@@QAEXII@Z
 ?glDeleteTextures@QOpenGLFunctions@@QAEXHPBI@Z
@@ -458,32 +262,12 @@
 ?handle@QVideoFrame@@QBE?AVQVariant@@XZ
 ?handleType@QVideoFrame@@QBE?AW4HandleType@QAbstractVideoBuffer@@XZ
 ?handleType@QVideoSurfaceFormat@@QBE?AW4HandleType@QAbstractVideoBuffer@@XZ
-?hasHeightForWidth@QBoxLayout@@UBE_NXZ
-?hasHeightForWidth@QWidget@@UBE_NXZ
 ?hasOpenGLShaderPrograms@QGLShaderProgram@@SA_NPBVQGLContext@@@Z
-?height@QRect@@QBEHXZ
-?height@QRectF@@QBENXZ
-?height@QSize@@QBEHXZ
-?height@QSizeF@@QBENXZ
-?heightForWidth@QBoxLayout@@UBEHH@Z
-?heightForWidth@QWidget@@UBEHH@Z
 ?hideEvent@QVideoWidget@@MAEXPAVQHideEvent@@@Z
-?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z
-?hoverEnterEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
-?hoverLeaveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
-?hoverMoveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
 ?hue@QVideoWidget@@QBEHXZ
 ?hueChanged@QVideoWidget@@QAEXH@Z
 ?hueChanged@QVideoWidgetControl@@QAEXH@Z
 ?imageFormatFromPixelFormat@QVideoFrame@@SA?AW4Format@QImage@@W4PixelFormat@1@@Z
-?indexOf@QLayout@@UBEHPAVQWidget@@@Z
-?initPainter@QWidget@@MBEXPAVQPainter@@@Z
-?inputMethodEvent@QGraphicsItem@@MAEXPAVQInputMethodEvent@@@Z
-?inputMethodEvent@QWidget@@MAEXPAVQInputMethodEvent@@@Z
-?inputMethodQuery@QGraphicsItem@@MBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
-?inputMethodQuery@QWidget@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
-?intersects@QRect@@QBE_NABV1@@Z
-?invalidate@QBoxLayout@@UAEXXZ
 ?isActive@QAbstractVideoSurface@@QBE_NXZ
 ?isEmpty@QLayout@@UBE_NXZ
 ?isEmpty@QSize@@QBE_NXZ
@@ -681,37 +465,9 @@
 ?y@QRect@@QBEHXZ
 ?y@QRectF@@QBENXZ
 ?yCbCrColorSpace@QVideoSurfaceFormat@@QBE?AW4YCbCrColorSpace@1@XZ
-@.data
-@.reloc
 @X?subtracted@QRegion@@QBE?AV1@ABV1@@Z
 ARB_fragment_program
 ARB_shader_objects
-D$ PV
-D$$)\
-D$$;Gx
-D$(h(
-D$,5^
-D$,h(
-D$0h(
-D$0h\
-D$4h\
-D$DPj
-D$dPj
-DP4 result.color.x, argb.zyxw, matrix[0];
-DP4 result.color.x, ayuv.yzwx, matrix[0];
-DP4 result.color.x, rgb, matrix[0];
-DP4 result.color.x, xrgb.zyxw, matrix[0];
-DP4 result.color.x, yuv, matrix[0];
-DP4 result.color.y, argb.zyxw, matrix[1];
-DP4 result.color.y, ayuv.yzwx, matrix[1];
-DP4 result.color.y, rgb, matrix[1];
-DP4 result.color.y, xrgb.zyxw, matrix[1];
-DP4 result.color.y, yuv, matrix[1];
-DP4 result.color.z, argb.zyxw, matrix[2];
-DP4 result.color.z, ayuv.yzwx, matrix[2];
-DP4 result.color.z, rgb, matrix[2];
-DP4 result.color.z, xrgb.zyxw, matrix[2];
-DP4 result.color.z, yuv, matrix[2];
 DisableThreadLibraryCalls
 E!?winId@QWidget@@QBEIXZ
 GLContext
@@ -726,7 +482,6 @@ IsProcessorFeaturePresent
 J ?update@QGraphicsItem@@QAEXABVQRectF@@@Z
 K!?windowFlags@QWidget@@QBE?AV?$QFlags@W4WindowType@Qt@@@@XZ
 KERNEL32.dll
-L$hh@
 L?isOpenGLES@QOpenGLContext@@QBE_NXZ
 M?m11@QTransform@@QBENXZ
 M?m12@QTransform@@QBENXZ
@@ -735,19 +490,10 @@ M?m21@QTransform@@QBENXZ
 M?m22@QTransform@@QBENXZ
 M?m23@QTransform@@QBENXZ
 M?m33@QTransform@@QBENXZ
-MOV argb.w, matrix[3].w;
-MOV ayuv.x, matrix[3].w;
-MOV rgb.w, matrix[3].w;
-MOV xrgb.w, matrix[3].w;
-MOV yuv.w, matrix[3].w;
 O?paintEngine@QPainter@@QBEPAVQPaintEngine@@XZ
 OO?openGLModuleType@QOpenGLContext@@SA?AW4OpenGLModuleType@1@XZ
 OPENGL32.dll
 P ?update@QWidget@@QAEXABVQRect@@@Z
-P0_^]2
-P3T3X3\3h3l3p3t3h:l:p:t:x:|:
-P<_^[
-PARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };
 Q?rect@QPaintEvent@@QBEABVQRect@@XZ
 Q?rects@QRegion@@QBE?AV?$QVector@VQRect@@@@XZ
 QCameraViewfinder
@@ -782,36 +528,65 @@ S ?update@QWidget@@QAEXXZ
 S?setColor@QPalette@@QAEXW4ColorRole@1@ABVQColor@@@Z
 SetUnhandledExceptionFilter
 T>?glTexParameterf@QOpenGLFunctions@@QAEXIIM@Z
-TEMP argb;
-TEMP ayuv;
-TEMP rgb;
-TEMP xrgb;
-TEMP yuv;
-TEX argb, fragment.texcoord[0], texture[0], 2D;
-TEX ayuv, fragment.texcoord[0], texture[0], 2D;
-TEX result.color.w, fragment.texcoord[0], texture, 2D;
-TEX rgb, fragment.texcoord[0], texture[0], 2D;
-TEX xrgb.xyz, fragment.texcoord[0], texture[0], 2D;
-TEX yuv.x, fragment.texcoord[0], texture[0], 2D;
-TEX yuv.y, fragment.texcoord[0], texture[1], 2D;
-TEX yuv.z, fragment.texcoord[0], texture[2], 2D;
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
 Y?transform@QPainter@@QBEABVQTransform@@XZ
-YD$$j
-YD$<j
-YD$Dj
-YD$lj
-Y__^[
 Z!?windowState@QWidget@@QBE?AV?$QFlags@W4WindowState@Qt@@@@XZ
 Z?translate@QPainter@@QAEXNN@Z
+Z\f?hasHeightForWidth@QBoxLayout@@UBE_NXZ
+Z\r?endNativePainting@QPainter@@QAEXXZ
 [?window@QPalette@@QBEABVQBrush@@XZ
-\$(u*
-\$(u.
-\$0u*
-\$PUV
+\\n?deallocate@QArrayData@@SAXPAU1@II@Z
+\\n?dropEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
+\f?deviceTransform@QPainter@@QBEABVQTransform@@XZ
+\f?drawPixmap@QPainter@@QAEXABVQRectF@@ABVQPixmap@@0@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+\f?heightForWidth@QWidget@@UBEHH@Z
+\f?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z
+\f?hoverEnterEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
+\f?hoverLeaveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
+\f?hoverMoveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
+\n?currentContext@QOpenGLContext@@SAPAV1@XZ
+\n?detach@QListData@@QAEPAUData@1@H@Z
+\n?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+\n?disconnect@QObject@@SA_NPBV1@PBD01@Z
+\n?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPAUData@1@@Z
+\n?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z
+\n?dragLeaveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
+\n?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z
+\n?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+\n?enterEvent@QWidget@@MAEXPAVQEvent@@@Z
+\n?event@QGraphicsObject@@MAE_NPAVQEvent@@@Z
+\n?event@QWidget@@MAE_NPAVQEvent@@@Z
+\r?dx@QTransform@@QBENXZ
+\r?dy@QTransform@@QBENXZ
+\r?fillRect@QPainter@@QAEXABVQRect@@ABVQBrush@@@Z
+\r?fillRect@QPainter@@QAEXABVQRectF@@ABVQBrush@@@Z
+\r?fillRect@QPainter@@QAEXABVQRectF@@W4GlobalColor@Qt@@@Z
+\r?height@QRect@@QBEHXZ
+\r?height@QRectF@@QBENXZ
+\r?height@QSize@@QBEHXZ
+\r?height@QSizeF@@QBENXZ
+\r?inputMethodQuery@QWidget@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+\r?intersects@QRect@@QBE_NABV1@@Z
+\r?invalidate@QBoxLayout@@UAEXXZ
+\t ?type@QGraphicsItem@@UBEHXZ
+\t?contains@QByteArray@@QBE_NPBD@Z
+\t?customEvent@QObject@@MAEXPAVQEvent@@@Z
+\t?devType@QWidget@@UBEHXZ
+\v?event@QObject@@UAE_NPAVQEvent@@@Z
+\v?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+\v?expandingDirections@QBoxLayout@@UBE?AV?$QFlags@W4Orientation@Qt@@@@XZ
+\v?focusInEvent@QGraphicsItem@@MAEXPAVQFocusEvent@@@Z
+\v?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z
+\v?focusNextPrevChild@QWidget@@MAE_N_N@Z
+\v?focusOutEvent@QGraphicsItem@@MAEXPAVQFocusEvent@@@Z
+\v?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z
+\v?geometry@QLayout@@UBE?AVQRect@@XZ
+\v\n?dragEnterEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneDragDropEvent@@@Z
 ^V?setTransform@QPainter@@QAEXABVQTransform@@_N@Z
 ^X?surface@QOpenGLContext@@QBEPAVQSurface@@XZ
 _CxxThrowException
@@ -840,14 +615,12 @@ _q_saturationChanged
 _q_serviceDestroyed
 _q_updateNativeSize
 _seh_filter_dll
-`.rdata
-`0p0-1A1P1\1v1
+a\f?hasHeightForWidth@QWidget@@UBE_NXZ
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 aspectRatioMode
-attribute highp vec2 textureCoordArray;
-attribute highp vec4 vertexCoordArray;
+attribute highp vec4 vertexCoordArray;\nattribute highp vec2 textureCoordArray;\nuniform highp mat4 positionMatrix;\nvarying highp vec2 textureCoord;\nvoid main(void)\n{\n   gl_Position = positionMatrix * vertexCoordArray;\n   textureCoord = textureCoordArray;\n}\n
 bad allocation
 bad array new length
 brightness
@@ -858,6 +631,7 @@ contrastChanged
 format
 formatChanged
 frameChanged
+free
 fullScreen
 fullScreenChanged
 glActiveTexture
@@ -870,13 +644,14 @@ glProgramLocalParameter4fARB
 glProgramStringARB
 glTexCoordPointer
 glVertexPointer
-h6p6t6x6|6
+h\n?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z
 hueChanged
-k@][3
+j\r?inputMethodEvent@QGraphicsItem@@MAEXPAVQInputMethodEvent@@@Z
 malloc
 mediaObject
 memcpy
 memset
+mode
 nativeSize
 nativeSizeChanged
 offset
@@ -886,6 +661,7 @@ org.qt-project.qt.videowidgetcontrol/5.0
 org.qt-project.qt.videowindowcontrol/5.0
 positionMatrix
 q ?updateGeometry@QWidget@@QAEXXZ
+r\r?inputMethodEvent@QWidget@@MAEXPAVQInputMethodEvent@@@Z
 sK?initializeOpenGLFunctions@QOpenGLFunctions@@QAEXXZ
 saturation
 saturationChanged
@@ -895,18 +671,20 @@ setContrast
 setFullScreen
 setHue
 setSaturation
-t$$Sj
+size
 texRgb
+texU
+texV
+texY
 textureCoordArray
-u"hpX
-uniform highp mat4 positionMatrix;
-uniform mediump mat4 colorMatrix;
-uniform sampler2D texRgb;
-uniform sampler2D texU;
-uniform sampler2D texV;
-uniform sampler2D texY;
-varying highp vec2 textureCoord;
+uniform sampler2D texRgb;\nuniform mediump mat4 colorMatrix;\nvarying highp vec2 textureCoord;\nvoid main(void)\n{\n    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).bgr, 1.0);\n    color = colorMatrix * color;\n    gl_FragColor = vec4(color.rgb, texture2D(texRgb, textureCoord.st).a);\n}\n
+uniform sampler2D texRgb;\nuniform mediump mat4 colorMatrix;\nvarying highp vec2 textureCoord;\nvoid main(void)\n{\n    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).bgr, 1.0);\n    gl_FragColor = colorMatrix * color;\n}\n
+uniform sampler2D texRgb;\nuniform mediump mat4 colorMatrix;\nvarying highp vec2 textureCoord;\nvoid main(void)\n{\n    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).gba, 1.0);\n    color = colorMatrix * color;\n    gl_FragColor = vec4(color.rgb, texture2D(texRgb, textureCoord.st).r);\n}\n
+uniform sampler2D texRgb;\nuniform mediump mat4 colorMatrix;\nvarying highp vec2 textureCoord;\nvoid main(void)\n{\n    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).gba, 1.0);\n    gl_FragColor = colorMatrix * color;\n}\n
+uniform sampler2D texRgb;\nuniform mediump mat4 colorMatrix;\nvarying highp vec2 textureCoord;\nvoid main(void)\n{\n    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).rgb, 1.0);\n    color = colorMatrix * color;\n    gl_FragColor = vec4(color.rgb, texture2D(texRgb, textureCoord.st).a);\n}\n
+uniform sampler2D texY;\nuniform sampler2D texU;\nuniform sampler2D texV;\nuniform mediump mat4 colorMatrix;\nvarying highp vec2 textureCoord;\nvoid main(void)\n{\n    highp vec4 color = vec4(\n           texture2D(texY, textureCoord.st).r,\n           texture2D(texU, textureCoord.st).r,\n           texture2D(texV, textureCoord.st).r,\n           1.0);\n    gl_FragColor = colorMatrix * color;\n}\n
 vertexCoordArray
 viewportDestroyed
-void main(void)
-}*SVWU
+x\r?inputMethodQuery@QGraphicsItem@@MBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+z\f?drawImage@QPainter@@QAEXABVQRectF@@ABVQImage@@0V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+z\f?heightForWidth@QBoxLayout@@UBEHH@Z

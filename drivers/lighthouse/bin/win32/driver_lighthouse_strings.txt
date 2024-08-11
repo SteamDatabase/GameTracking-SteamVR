@@ -1,55 +1,8 @@
-					
-							
-								
-												
-																																												
-																																																																																																																
-	!s99
-	#jT$
-	CODE_SIZE
-	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
-	PQh<
-	PQh\
-	PQhl6
-	TYPE_BOOL
-	TYPE_ENUM
-	enum_type
-	extension
-	name_part
-	type_name
-     
-      
-               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],
-               "type" : "DISTORT_EXTENDED_FTHETA"
-            "center_x" : 480,
-            "center_y" : 480,
-            "distort" : {
-            "focal_x" : 417,
-            "focal_y" : 417,
-            "height" : 960,
-            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],
-            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],
-            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],
-            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],
-            "position" : [ -0.06749, -0.03294, 0.06881 ]
-            "position" : [ 0.06749, -0.03294, 0.06881 ]
-            "width" : 960
-            },
-         "extrinsics" : {
-         "intrinsics" : {
-         "name" : "left",
-         "name" : "right",
-         }
-         },
       status = 
-      {
-      }
-      },
-    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f
-    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f
-    %X, %X: s/n %s: %s (interface %d)
-    %d: x: %d, y: %d, w: %d, h: %d edid: %s
-    %s
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f\n
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f\n
+    %X, %X: s/n %s: %s (interface %d)\n
+    %d: x: %d, y: %d, w: %d, h: %d edid: %s\n
     .codec = 
     .cs47l35_error = 
     .jack = 
@@ -59,13 +12,9 @@
     .state = 
     .tfa9892_left_error = 
     .tfa9892_right_error = 
-    Actual    : 
-    Expected  : 
-    Field type: 
-    No devices
-    trackref_from_head: %s
-    trackref_from_imu: %s
-   "tracked_cameras" : [
+    No devices\n
+    trackref_from_head: %s\n
+    trackref_from_imu: %s\n
   .audio_cs47l35_timer_stats[0] = 
   .audio_cs47l35_timer_stats[1] = 
   .audio_reserved = 
@@ -85,7 +34,6 @@
   .video_state = 
   .video_status_word = 
   .video_subsystem_status = 
-  BL 
   Comment started here.
   DP audio 16 bit sample size.
   DP audio 48 kHz audio sample rate.
@@ -94,24 +42,13 @@
   Error: DP audio invalid sample rate.
   Error: DP audio invalid sample size.
   Error: No DP audio samples detected.
-  Field       : 
-  Message type: 
-  Problem     : 
-  Problem     : Enum value did not match field type:
-  Problem     : Field is not the right type for this message:
   wmstatus.audio_tf9892_sregs 
- !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- %41g
- '-46
- (cal)
  (does the path point to a directory?)
  (generation changed)
  (object had no JSON IMU cal)
  (right sync)
  (selected 
- ) = 
- * Available base %08X
+ * Available base %08X\n
  - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  .anx_dp_error = 
  .anx_dp_height = 
@@ -132,49 +69,40 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- 02080C0j0r1x1
- 0H0p0
- ;rH|
- ;w,|
- ;y8|
- ;~0|
  = { <proto text format> }". To set fields within it, use syntax like "
  BackUp() can only be called after Next().
  Backlights:
  Brightness: 
  Can't back up over more bytes than were returned by the last call to Next().
- G;{0|
  Outdent() without matching Indent().
  Parameter to BackUp() can't be negative.
  Peripheral MCU %u
  Radio %u
- SetDefaultAudioDevice: device = %s, role = %d
+ SetDefaultAudioDevice: device = %s, role = %d\n
  Subsystem statuses (0 = not started, 127 = ok, negative = problem)
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
  VRC %u
  Video subsystem details:
- [$0]
  [default = $0
  also seeing 
  args were given.  Full format string was: "
  at all
  at line 
  back-facing hits
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
  deg/s
  disambiguator
- for detail.
- hitf
+ for detail.\n
  hits0=
  hits1=
- in Buffer
- in `
+ in Buffer\n
  inflate 1.2.5 Copyright 1995-2010 Mark Adler 
  is not valid for field 
  len 
- m/s/s
  message of type "
  nohit=
  non-clustered hits
@@ -185,17 +113,11 @@
  period=
  ppm=
  rejected updates
- sDQj
- sec)
  seeing 
  sensors~
  sigma 
  syncs=
-!&.37<
-!(0)"
-!0I0\0r0
-!9~ t
-!hn7!
+!AxU
 !leftSyncIsReal
 !rightSyncIsRealAsItGets
 " because it is missing required fields: 
@@ -239,12 +161,12 @@
 " which is.
 "$0" does not declare $1 as an extension number.
 "%/28;=#$019:>?
+"'\n\vCBaseConfig
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
 ", another member of oneof "
 ", but only 
-", found "
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
 ".  To use it here, please add the necessary import.
@@ -255,119 +177,104 @@
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
 "MutableRawRepeatedField"
-"accessors" object not found in .gltf
-"asset" object not found in .gltf or not an object type
-"bufferViews" object not found in .gltf
-"buffers" object not found in .gltf
+"accessors" object not found in .gltf\n
+"asset" object not found in .gltf or not an object type\n
+"bufferViews" object not found in .gltf\n
+"buffers" object not found in .gltf\n
 "e" must be followed by exponent.
-"nodes" object not found in .gltf
+"nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
-"scenes" object not found in .gltf or not an array type
+"r\n\nCImuSample
+"scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
-#*1892+$
+"z\n\rMethodOptions
 #?RADIANCE
+#?RADIANCE\n
 #?RGBE
+#?RGBE\n
 #bML"
-$0  extend .$1 {
-$0  extensions $1 to $2;
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
 $0  message $1
-$0  }
-$0 oneof $1 {
-$0$1 = $2
+$0 oneof $1 {\n
 $0$1$2 $3 = $4
-$0enum $1 {
-$0option $1;
-$9^ t
-$PRh(6
-$Qjnj
-$SWj8
-$Vh0K
-$WhP)
+$0enum $1 {\n
+$0option $1;\n
+$3br
 $tAUUPE
 $tI<unknown>
-%%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%,3:;4-&
-%3333
-%UUUU
-%Y-%m-%d
-%d.%d.%d
+%02x
+%04X
 %hu,%hu,'%4c',%hu
-%s %c: 
-%s - Unable to init
-%s - Unable to start replay of "%s"
-%s created to play "%s"
-%s disambiguator provided base configuration. Rotor count: %d
+%llu
+%s - Unable to init\n
+%s - Unable to start replay of "%s"\n
+%s created to play "%s"\n
+%s disambiguator provided base configuration. Rotor count: %d\n
 %s pitch ~%0.1f deg roll ~%0.1f deg 
 %s%s%s%s%s%s%s
-%s: %d, %d, %d, %d
-%s: %s
-%s: %s IMU calibration: Accel bias change %.2fm/s/s%s
-%s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total
-%s: Applying scale %0.04f from reference object %s
-%s: Attached device ID not set.  No controller input available.
-%s: Can't create source of type "%s"
-%s: Checking to see if display has connected...
-%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x
-%s: Connected to receiver %s
-%s: Controller subprotocol changed version %d
-%s: Device does not have a stored config
-%s: Disconnected from receiver %s
-%s: ERROR: could not query version from watchman board.
-%s: ERROR: firmware does not meet minimum required version (%d). Please update device.
-%s: Enabling IMU tracking fallback
-%s: Expected %u bytes of config but only found %d. Rejecting config
-%s: Firmware Version %s
-%s: Ignoring unlikely saved IMU calibration %s
+%s: %d, %d, %d, %d\n
+%s: %s IMU calibration: Accel bias change %.2fm/s/s%s\n
+%s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
+%s: Applying scale %0.04f from reference object %s\n
+%s: Attached device ID not set.  No controller input available.\n
+%s: Can't create source of type "%s"\n
+%s: Checking to see if display has connected...\n
+%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
+%s: Connected to receiver %s\n
+%s: Controller subprotocol changed version %d\n
+%s: Device does not have a stored config\n
+%s: Disconnected from receiver %s\n
+%s: ERROR: could not query version from watchman board.\n
+%s: ERROR: firmware does not meet minimum required version (%d). Please update device.\n
+%s: Enabling IMU tracking fallback\n
+%s: Expected %u bytes of config but only found %d. Rejecting config\n
+%s: Firmware Version %s\n
+%s: Ignoring unlikely saved IMU calibration %s\n
 %s: Log recorded at %s
-%s: Not loading device config because its size is too large: 0x%X bytes
-%s: Optical subprotocol changed version %d
-%s: Packet received after %.3fs, keepalive (%d/%d)
-%s: Protocol versioning supported, requesting %d
-%s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes
-%s: Reading %s from device (Attempt %d of %d)
-%s: Received short %d byte packet when expecting config
-%s: Receiving wireless data, but unable to talk to controller main board.
-%s: Retry protocol version request for %d
-%s: Similar CAD but scale mismatch to reference object %s
-%s: Transition to protocol version %d
-%s: Triggered keepalive (%s)
-%s: Unable to fetch gyro/accelerometer range modes from the device
-%s: Unable to request config start from device
-%s: WARNING: Malformed wireless packet v%d: %s
-%s: WARNING: Unable to set sync detect mode %d
-%s: Warning, can't request wireless protocol version
-%s: Warning: Unknown disambiguation mode: %s
-%s: Warning: Unknown disambiguation option "%s" in: %s
-%s: Wireless controller %s disconnected
+%s: Not loading device config because its size is too large: 0x%X bytes\n
+%s: Optical subprotocol changed version %d\n
+%s: Packet received after %.3fs, keepalive (%d/%d)\n
+%s: Protocol versioning supported, requesting %d\n
+%s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
+%s: Reading %s from device (Attempt %d of %d)\n
+%s: Received short %d byte packet when expecting config\n
+%s: Receiving wireless data, but unable to talk to controller main board.\n
+%s: Retry protocol version request for %d\n
+%s: Similar CAD but scale mismatch to reference object %s\n
+%s: Transition to protocol version %d\n
+%s: Triggered keepalive (%s)\n
+%s: Unable to fetch gyro/accelerometer range modes from the device\n
+%s: Unable to request config start from device\n
+%s: WARNING: Malformed wireless packet v%d: %s\n
+%s: WARNING: Unable to set sync detect mode %d\n
+%s: Warning, can't request wireless protocol version\n
+%s: Warning: Unknown disambiguation mode: %s\n
+%s: Warning: Unknown disambiguation option "%s" in: %s\n
+%s: Wireless controller %s disconnected\n
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&050Z0n0x0
-&0D0V0g0
-&0W1Z2\3
 ' is not a number.
 ' property is missing
 ' property is missing in 
-' property is missing.
-' property is missing. 
-' property is not a JSON object.
-' property is not a bool type.
-' property is not a number type.
-' property is not a number.
-' property is not a positive integer.
-' property is not a string type.
+' property is missing. \n'
+' property is missing.\n
+' property is not a JSON object.\n
+' property is not a bool type.\n
+' property is not a number type.\n
+' property is not a number.\n
+' property is not a positive integer.\n
+' property is not a string type.\n
 ' property is not an array
-' property is not an integer type.
-' property is not an object.
-' value is not an integer type.
-',=?k
+' property is not an integer type.\n
+' property is not an object.\n
+' value is not an integer type.\n
 '.5<=6/7>????????????????
-'0\3o3
 '[', '{', or a literal
-'uri' is missing from non binary glTF file buffer.
-(0.0c0i0
+'uri' is missing from non binary glTF file buffer.\n
 (Enumerating)
 (Failed Enumeration)
 (General Failure)
@@ -377,32 +284,32 @@ $tI<unknown>
 (Not Enough Power)
 (Overcurrent)
 (Reset)
-(T$ f
-(f*^[0
+(\t"+\n\rCDynamicState
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2).lighthouse.pb.CBaseConfigAndDynamicState"
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (merge 
 ) deg
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)020r0
-);[_^]
-)<-<<<@<M<Q<
-)D$0f
-)S}`:
-)\ZEo^m/
-*+N43
-*+N4C
-*+N@3
-*+N@C
-*0F0T0
-*0Z0k0t0}0
-*191J1
-+F +F
-+Xt@(
+*5KS
 +laser0
 +laser1
 +motor0
 +motor1
-+o'q)}
 +temp_high
 +temp_low
 +unknown
@@ -416,33 +323,44 @@ $tI<unknown>
 , max interval 
 , not just within "
 , requestedBytes 
-,0<	w
-,0<	wP
-,0E0L0e0l0
-,W5y+
-,^_[]
------ BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
------ CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
------ DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
------ RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----
------ SECONDARY base %08X distance %0.2fm%*s-----
--0D0X0l0
--0E0o0u0
+----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----\n
+----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----\n
+----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago\n
+----- RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----\n
+----- SECONDARY base %08X distance %0.2fm%*s-----\n
 -1e+9999
 -Infinity
--ediu5
+-\n\nimu_sample
+-inf
 -openvr
--t!?Ks
 -t1?Ks
 -tA?Ks
 -tQ?x
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-... Moving the base for tracking too, which might cause a pop
-.... BaseStation Map has %d entries
-../..
+... Moving the base for tracking too, which might cause a pop\n
+.... BaseStation Map has %d entries\n
+..\src\google\protobuf\descriptor.cc
+..\src\google\protobuf\descriptor.pb.cc
+..\src\google\protobuf\descriptor_database.cc
+..\src\google\protobuf\dynamic_message.cc
+..\src\google\protobuf\extension_set.cc
+..\src\google\protobuf\extension_set_heavy.cc
+..\src\google\protobuf\generated_message_reflection.cc
+..\src\google\protobuf\io\coded_stream.cc
+..\src\google\protobuf\io\strtod.cc
+..\src\google\protobuf\io\tokenizer.cc
+..\src\google\protobuf\io\zero_copy_stream.cc
+..\src\google\protobuf\io\zero_copy_stream_impl.cc
+..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+..\src\google\protobuf\message.cc
+..\src\google\protobuf\message_lite.cc
+..\src\google\protobuf\reflection_ops.cc
+..\src\google\protobuf\stubs\common.cc
+..\src\google\protobuf\stubs\substitute.cc
+..\src\google\protobuf\text_format.cc
+..\src\google\protobuf\wire_format.cc
+..\src\google\protobuf\wire_format_lite.cc
 .00cfg
-.04090\0i0Q5c5s5
-.1<1@1D1H1L1P1
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -533,6 +451,10 @@ $tI<unknown>
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
+.?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
+.?AVArrayInputStream@io@protobuf@google@@
+.?AVArrayOutputStream@io@protobuf@google@@
 .?AVBlendMatrix3x3PoseMaker@@
 .?AVCAnimResource@@
 .?AVCAnimSkeleton@@
@@ -597,9 +519,40 @@ $tI<unknown>
 .?AVCWirelessDecoderWv2@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
+.?AVClosure@protobuf@google@@
+.?AVCopyingFileInputStream@FileInputStream@io@protobuf@google@@
+.?AVCopyingInputStream@io@protobuf@google@@
+.?AVCopyingInputStreamAdaptor@io@protobuf@google@@
+.?AVDescriptorDatabase@protobuf@google@@
+.?AVDescriptorPoolExtensionFinder@internal@protobuf@google@@
+.?AVDescriptorProto@protobuf@google@@
+.?AVDescriptorProto_ExtensionRange@protobuf@google@@
+.?AVDynamicMessage@protobuf@google@@
+.?AVDynamicMessageFactory@protobuf@google@@
+.?AVEncodedDescriptorDatabase@protobuf@google@@
+.?AVEnumDescriptorProto@protobuf@google@@
+.?AVEnumOptions@protobuf@google@@
+.?AVEnumValueDescriptorProto@protobuf@google@@
+.?AVEnumValueOptions@protobuf@google@@
+.?AVErrorCollector@io@protobuf@google@@
 .?AVException@Json@@
+.?AVExtensionFinder@internal@protobuf@google@@
 .?AVFactory@CharReader@Json@@
 .?AVFastWriter@Json@@
+.?AVFatalException@protobuf@google@@
+.?AVFieldDescriptorProto@protobuf@google@@
+.?AVFieldOptions@protobuf@google@@
+.?AVFieldSkipper@internal@protobuf@google@@
+.?AVFieldValuePrinter@TextFormat@protobuf@google@@
+.?AVFileDescriptorProto@protobuf@google@@
+.?AVFileDescriptorSet@protobuf@google@@
+.?AVFileInputStream@io@protobuf@google@@
+.?AVFileOptions@protobuf@google@@
+.?AVFinder@TextFormat@protobuf@google@@
+.?AVFunctionClosure0@internal@protobuf@google@@
+.?AVGeneratedExtensionFinder@internal@protobuf@google@@
+.?AVGeneratedMessageFactory@?A0xaa88a5bd@protobuf@google@@
+.?AVGeneratedMessageReflection@internal@protobuf@google@@
 .?AVIAudioEndpointVolumeCallbackImpl@@
 .?AVIAuxEventCallback@CLighthouseIMUThread@vortex@@
 .?AVICVrControllerHapticWrapperClient@vortex@@
@@ -635,12 +588,31 @@ $tI<unknown>
 .?AVLogStream@LogMessage@google@@
 .?AVLogStreamBuf@base_logging@google@@
 .?AVLogicError@Json@@
+.?AVMessage@protobuf@google@@
+.?AVMessageFactory@protobuf@google@@
+.?AVMessageLite@protobuf@google@@
+.?AVMessageOptions@protobuf@google@@
+.?AVMethodDescriptorProto@protobuf@google@@
+.?AVMethodOptions@protobuf@google@@
+.?AVOneofDescriptorProto@protobuf@google@@
 .?AVOurCharReader@Json@@
+.?AVParserErrorCollector@ParserImpl@Parser@TextFormat@protobuf@google@@
+.?AVReflection@protobuf@google@@
 .?AVRuntimeError@Json@@
+.?AVServiceDescriptorProto@protobuf@google@@
+.?AVServiceOptions@protobuf@google@@
+.?AVSourceCodeInfo@protobuf@google@@
+.?AVSourceCodeInfo_Location@protobuf@google@@
 .?AVStaticPoseMaker@@
+.?AVStringOutputStream@io@protobuf@google@@
 .?AVStyledWriter@Json@@
 .?AVTypeInfo@Reflection@@
+.?AVUninterpretedOption@protobuf@google@@
+.?AVUninterpretedOption_NamePart@protobuf@google@@
+.?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
 .?AVWriter@Json@@
+.?AVZeroCopyInputStream@io@protobuf@google@@
+.?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV_Facet_base@std@@
 .?AV_Pad@std@@
 .?AV_Ref_count_base@std@@
@@ -672,11 +644,21 @@ $tI<unknown>
 .CRT$XTA
 .CRT$XTZ
 .PLACEHOLDER_VALUE
+.bak
+.bog
+.bss
 .data
 .data$r
 .dummy
 .edata
 .foo = value".
+.google.protobuf.EnumOptions"l\n
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions"
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo"
 .idata$2
 .idata$3
 .idata$4
@@ -705,13 +687,14 @@ $tI<unknown>
 .text$mn
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
+.tmp
 .vrstats
 .xdata$x
-/0C0P0]0h0
-/C,v$
-/Fhvnj
+/P8i
+/\n\vbase_config
 /bin/mail
 /devices/lighthouse/
 /factory_accel_bias
@@ -720,6 +703,7 @@ $tI<unknown>
 /factory_gyro_scale
 /factory_head_from_imu
 /firmware/
+/imu
 /input/a/click
 /input/a/touch
 /input/application_menu/click
@@ -770,9 +754,9 @@ $tI<unknown>
 /output/haptic
 /pose/raw
 /proximity
+/sec
 /skeleton/hand/left
 /skeleton/hand/right
-/t;_^2
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -791,2412 +775,55 @@ $tI<unknown>
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0	1U1x1
-0 0$0(0,0004080<0@0D0H0L0P0
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-0 0$0(0,00080P0T0l0p0
-0 0$0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-0 0%0*010x0
-0 0+0>0
-0 030Z0
-0 0@0D0\0`0d0h0l0p0t0x0|0
-0 0H1L1P1
+/yQA
 0 width
-0!0(010G0M0T0]0s0y0
-0!0)0A0F0K0P0U0Z0_0d0i0n0s0x0}0
-0!0*0/040;0
-0!010A0Q0a0q0
-0"0/050<0J0U0
-0"00080>0L0T0b0j0p0~0
-0"020B0R0b0r0
-0"030D0U0
-0"0L0
-0#0(0-02070<0A0F0K0P0a0f0k0p0u0z0
-0#0(0-02070<0A0F0Q0V0[0`0e0j0o0t0y0~0
-0#0]0
-0#121;1E1J1
-0#1N1\1z1
-0#1^1
-0#1u1
-0$0*050P0
-0$0,0
-0$0,040<0D0L0T0\0d0l0t0|0
-0$050:0_0
-0$090>0T0^0
-0$0D0h0t0|0
-0$0H0T0\0|0
-0$0H0W0
-0$262
-0%030G0]0r0
-0&050i0
-0&0P0
-0&0i0
-0&0v0
-0&1/1
-0&141U1
-0&181
-0'040<0P0c0t0|0
-0'0@0K0
-0'2W6
-0(0,0<0@0D0H0P0h0x0|0
-0(020A0Q0a0q0}0
-0(050U0w0
-0(1X1
-0(444
-0)0.0D0N0
-0)020>0G0a0k0t0
-0)121;1D1I1N1U1f1x1
-0*0T0{0
-0*1c1j1
-0+0?0^0n0s0
-0,0004080<0
-0,0004080@0X0h0l0|0
-0,000@0D0H0L0P0X0p0t0
-0,0<0@0P0T0X0\0d0|0
-0,161
-0,1R1r1
-0-050Z041
-0-0N0V0c0q0
 0-pixel image
-0/0H0t0y0
-0/0I0N0_0p0x0
-0/0^0
-0/2V2e2
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\x%02x
-000<0\0d0p0
-000?1P1z1
-000O0`0
-000j0
-00292j2:3
-010Z0
-011Z1
 0123456789abcdef
-020}0
-022Z2
-030@0
-030}0
-04090
-040D0p0x0
-040H0t0|0
-040T0\0d0l0t0|0
-040X0d0l0
-041I1
-041r1
-044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4
-050<0C0W0b0q0
-051h1
-060S0r0
-061E1e1t1
-06355r5w6
-0686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-080D0L0l0
-081x1
-090j0
-090x0
-097_^
-0:091L1u1
-0:0K0T0`0e0j0q0
-0;0B0u0
-0;1F1
-0<0`0l0t0
-0<1I1
-0=0]0|0
-0=0m0
-0=1u1
-0>0C0P0c3
-0?0H0M0T0]0
-0@0l0
-0@1a1
-0A1T1\1h1w1
-0B6H6
-0C1^1
-0D0H0L0P0T0X0\0`0d0h0v0
-0D0\0d0l0x0
-0D0x0
-0E1Q1
-0F1L1f1l1
-0F1U1
-0G0M0
-0G0_1
-0G0r0
-0H1h1o1
-0I1_1
-0J1x1
-0L1R1X1p1}1
-0L1_1
-0O1+2|2
-0O1Z1
-0P4T4X4\4`4d4h4l4p4t4x4|4
-0Pj	W
-0Q0h0
-0Q1W1v2
-0Q6T7
-0S1j1~1
-0SVWh
-0SVWj
-0T1b1}1
-0X0\0`0d0h0l0p022
-0Z1b1
-0[0b0|0
-0[0f0"1-1
-0\1f1
-0^_[]
-0cbJ<H
-0cbZ<H
-0d2v2
-0f1u1
-0h0w0
-0m1I2
-0p0g1'4
-0w0c1
 0x%08llx
-0x1|1
-0}0i1
-1	2M2
-1	2`2
-1 1$1(1,1014181<1@1D1H1L1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-1 1$1(101H1X1\1l1p1t1|1
-1 1&1-161I1O1V1_1s1y1
-1 1'1
-1 1(10181@1H1P1X1`1h1p1x1
-1 1(141T1\1h1
-1 1)12171<1F1
-1 1014181@1X1h1l1|1
-1 1[1p1
-1 2,242T2x2
-1!1&1+10151:1?1D1I1N1S1X1]1b1g1l1q1v1{1
-1!1'1O1
-1!111A1Q1a1q1
-1!1:1B1
-1!1^1g1p1y1~1
-1!1f1z1
-1!2e2t2
-1"1)1
-1"1<1Z1`1
-1"1=1H1\1`1d1h1l1
-1"1C1U1s1
-1"2(242
-1#1(1-12171<1A1F1K1P1a1f1k1p1u1z1
-1#1(121A1F1K1P1U1Z1_1d1i1n1s1x1}1
-1#1+171`1l1
-1#1/1E1N1
-1#141<1L1_1p1x1
-1#292\2
-1$1(1,10141<1T1X1p1
-1$1)1.13181=1B1G1L1Q1V1[1`1q1{1
-1$1,1L1p1|1
-1$1.1
-1$1.1=1N1V1b1l1w1
-1$1.1_2d2
-1$10191J1O1 2(252=2_2
-1$262
-1$2P2
-1%1+11171=1C1I1O1U1
-1%101g1|1
-1%1?1s1
-1%2@2
-1&1/181C1H1M1U1s1|1
-1&141?1E1S1[1a1o1w1}1
-1&161
-1&1:1e1
-1&252R2u2
-1'101<1E1J1d1r1{1
-1'181
-1'2f2s2
-1(1.191>1O1`1
-1(1:1
-1(1H1T1t1|1
-1(1T1\1
-1(1n1v1
-1(2]2
-1(333n3i4'5
-1)1?1H1o1
-1)1F1a1o1
-1)1m1n2
-1)2j2u2
-1*1f1
-1*1p1
-1*2H2L2|3
-1+131;1
-1+181M1Z1o1
-1,1014181@1X1h1l1|1
-1,181@1`1
-1,1P1\1d1
-1,1Y1l1
-1,2024282<2@2D2
-1,2024282<2@2D2H2L2P2p2t2
-1,2d2
-1-121E1n1
-1-162F2
-1-2p2
-1-2w2
-1.151<1J1
-1.151e1n1w1
 1.2.5
-1/14191@1Y1`1y1~1
-1/1N1
-1/1\1
-1/1u1
-1/2-7c9|9
 1/2/4/8/16-bit only
-10141L1P1h1l1
-102M2
-1080U0
 11 4 22 44 44 22 444444
-112~2
-121F1R1
-121M1O2j2q2
-122=2c2
-130801120000Z
-131Z1z1
-133=3e3
-141A1d1
-142K2
-151=1W1
-152>2G2P2U2Z2a2
-162D2e2
-162E2o2
-172<2Q2V2l2v2
-172@2I2R2W2\2c2
-172A2F2L2d2r2w2}253<3F3
-181<1@1D1H1g1x1J2
-181@1H1P1X1`1h1p1x1
-185<5
-192_2
-192o2
-1<1`1l1t1
-1=1g1l1y1
-1=2v5
-1@1L1T1t1
-1@1h1
-1A1_1
-1A1f1
-1A2%3g3
 1A26b
-1A2J2S2\2a2f2m2
-1B2\2
-1B2q2
-1C1H1
-1D1L1d1p1
-1D4H4L4P4T4X4\4
-1F163v3f5
-1F2K5@6f6
-1F2S2
-1F3X3&585
-1J3r3
-1N2`2,4K4
-1N2y3
-1P1p1t1
-1Q1g1q1v1
-1R2r2
-1V2v2
-1V7d7
-1[1q1
-1[2T3e3l3
-1\4`4d4h4l4p4t4x4|4
-1]1f1o1x1}1
-1_1h1q1z1
-1a1P4
-1d8O9
 1e+9999
-1g2}2
-1l2V3(4~5
-1n2X4
-1o2t2
-1q1'2
-1s1z2F3U3
 1wsHp
-2	3%3
-2	3B3H3
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$2(2,2024282<2@2D2H2L2x2|2
-2 2$2(2,2024282<2@2D2H2v2
-2 2$2,2D2T2X2h2l2p2x2
-2 2$24282H2L2\2`2p2t2
-2 2%2*2/24292>2C2H2M2R2W2\2a2f2k2p2
-2 2(202X2`2h2p2x2
-2 2*2/2^2
-2 2.2S2\2e2n2s2x2
-2 2<2@2D2H2L2P2T2X2\2`2d2h2x2|2
-2 2H2
-2 3&3.3
-2!212;2F2P2]2g2p2
-2!212A2Q2a2q2
-2!3A3G3P3W3\3p3
-2"2,262?2R2]2~2
-2"2/252<2I2O2V2c2i2p2}2
-2"2:2
-2"313
-2#2(2-22272<2A2F2K2P2c2m2
-2#2(2-22272<2A2F2Q2V2[2`2e2j2o2t2y2~2
-2#2(2/2
-2#2+292H2o2u2}2
-2#3D3?4a5
-2$2,282X2d2
-2$2.282B2L2V2`2j2t2~2
-2$2/24292@2
-2$24282<2@2D2L2d2t2x2|2
-2$242=2
-2$262@2u2{2
-2$2<2L2P2X2p2
-2$2C2L2S2Z2a2h2o2v2}2
-2$2D2h2t2|2
-2$2H2T2\2|2
-2$2P2X2p2x2
-2$3+373A3_3f3r3|3
-2$373
-2$393E3
-2$3D3
-2$3P6T6X6\6`6
-2%2-2i2}2
-2%2-2v3A4I4Q4`5
-2%2/2A2R2Y2a2v2
-2%2H2
-2%2\2
-2%2]2v2
-2%2t3
-2&22292M2f2n2
-2&2D2b2
-2&3+5d7s7
-2&353F3R3Y3m3
-2&353_3x3
-2&484V6h6v7
-2'2.2G2N2g2n2
-2'2]2j2s2
-2'313x3
-2'3=3
-2'3a3
-2(202:2I2Z2b2l2{2
-2(21262;2B2
-2(252@2
-2).lighthouse.pb.CBaseConfigAndDynamicState"
-2)2F2M2
-2)2K2y2
-2)2Q2x2
-2)323;3D3I3N3\3
-2)3W3u3
-2*30383F3Z3
-2*3g3
-2+3A3
-2+3N3c3
-2,20242
-2,2<2@2P2T2X2`2x2
-2,2X2`2
-2,2\2
-2,3R4f4
-2,3Z3
-2-272
-2-3^3
-2.2<2K2d2
-2.2B2X2
-2.2u3
-2/2W2q2
-2/3g3
-202<2`2
-202>2L2~2
-203D3
-2090L0
-20S001
-210429000000Z
-211007000000Z
-213`3
-21E1Q1Y1a1
-220323000000Z
-220801000000Z
-223R3
-230714000000Z
-2393l3p3t3x3|3
-240724173909Z0/
-241009235959Z0a1
-242@2H2h2
-242X2d2l2
-242n2
-243\3
-252U2
-262c2
-263H3i4
-263M3Y3
-263X3a3j3s3x3}3
-263^3
-272R2m2x2
-273'4g4
-283@3H3P3\3|3
-2:2R2
-2:3P3
-2:4V4`4
-2;3l5
-2<2K2S2[2e2j2
-2<3@3D3H3L3P3T3X3\3`3d3
-2=2V2k2
-2@223Z3
-2@3`3
-2B2l2
-2B3l3o4
-2D2M2V2_2d2i2p2
-2D2n2
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2F2t2
-2F3T3
-2F3T3u3
-2G3~4
-2G4Q4
-2G6|6
-2H2h2
-2H3L3P3T3l3p3x3
-2I4Q4Y4
-2K3^3g3p3u3z3
-2O2b2
-2Q3W3v4
-2S2x2
-2SPV9
-2T4]?
-2V2e2
-2V3e3
-2X3}3
-2X4k6
-2Z2r2
-2Z3k3
-2`5r5
-2b2f2u2y2
-2d3h3l3p3B8I8~8
-2e2y2
-2h3y3
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2j3u3
-2m2(3o3
-2o3%5
-2r4v4
-2t497\8
-3	4<4f4l4
-3	6'6Q6W6j6
-3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-3 3$3(3,3034383<3@3V3e3
-3 3$3(3,30343d3
-3 3$3(3,343L3\3`3p3t3x3|3
-3 3$3(3,363
-3 3$3(303D3L3`3h3p3x3|3
-3 3$383<3@3;4B4\4c4
-3 3%3*3/34393>3C3H3M3R3W3\3a3f3k3p3u3z3
-3 3(30383D3d3l3t3|3
-3 3)3.333A3u3
-3 3,3L3X3x3
-3 3H3\3
-3 4,444T4x4
-3 4^4
-3!3&3+303A3F3K3P3U3Z3_3d3i3n3s3x3}3
-3!3&3+303A3Q3[3`3f3p3~3
-3!3/3>3e3k3s3
-3!313A3Q3a3q3
-3!323u3
-3!4]4i4
-3"3'3,31363;3@3E3J3O3T3Y3^3c3h3m3r3w3|3
-3$3,3L3p3|3
-3$3-3p3~3
-3$303@3Q3g3~3
-3$313B3S3
-3$393>3T3^3
-3$3A3
-3%3/383D3M3^3
-3%3k3t3}3
-3%4`4
-3&3/383=3B3I3
-3&33393@3M3S3Z3g3m3t3
-3&3]3g3p3y3
-3&3b3k3t3}3
-3&585F6X6V7h7
-3&585n5
-3(3,3034383W3h3:4{4
-3(343
-3(343<3\3
-3(383<3L3P3T3\3t3
-3(3H3P3\3
-3(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4W5^5
-3(4h4
-3(4r4[5
-3)3.3`3q3<4@4D4H4L4P4T4X4\4`4v4
-3)3/3E3K3f3o3
-3)303I3N3j3q3
-3*3;3p3u3{3
-3+303=3Z3
-3+3W3f3s3z3
-3,30343<3T3X3p3
-3,30383P3`3d3t3x3|3
-3,346
-3,3P3\3d3
-3,3`3
-3-4Z4
-3/3H3t3y3
-3/3T3
-3/484A4J4O4T4[4
-304Y4
-30@0M0\0
-311109235959Z0b1
-313L3g3
-313P3`3e3
-31T1Y2{2
-32383>3C3I3f3l3}3
-323D3v3
-334:4
-341013235959Z0H1
-343D3H3X3\3l3p3
-343K4
-344U4
-360428235959Z0i1
-36365f5
-364E4
-364E4w4N5
-364s5
-370322235959Z0c1
-374J4b426
-380115120000Z0b1
-3:3Z3
-3:3^3
-3:4S4
-3;3K3
-3;3S3[3u3
-3;4a4
-3;4s4
-3<3`3l3t3
-3<3l3
-3=4y6
-3>3[3r3
-3>4G4K4
-3?3X3
-3@3t3
-3@4I4f4
-3A4J4S4\4a4f4m4
-3B4I4a4|4
-3C3O6
-3F4*6=6
-3F4=5
-3F4U4
-3F4k4r4
-3I4c4U5l5
-3K3j3
-3M3n3|3
+2#.google.protobuf.FieldOptions.CType:
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.google.protobuf.FieldDescriptorProto.Label
 3Pole
-3Q3x3
-3Q4s4
-3R5f5t5
-3V6h6
-3V8d8
-3W4\4h4
-3W4\4q4v4
-3Y4z4
-3\3e3n3s3x3
-3\4d4
-3^4(5L5m5
-3`5x5
-3a4 6=6V6'7
-3b4l4
-3b4l4t4
-3f4u4
-3f7}7
-3g4p4y4
-3i3t3}3
-3k4r4z4
-3mq+<
-3n3|3
-3p6u6}6
-3q4|4
-3q6\7`7d7h7l7p7t7x7|7
-3x6|6
-3z4j5
-4	575F5L5
-4 4$4(4,4044484<4
-4 4$4(4,4044484<4@44585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4%4*4/44494>4C4H4M4R4W4\4a4f4k4p4
-4 4%4,4
-4 4'4
-4 4,4L4T4\4h4
-4 4044484<4@4H4`4d4|4
-4 4044484@4X4h4l4|4
-4 4@4d4p4x4
-4 4@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-4 4P4W4`4i4r4{4
-4!4&4+40454:4?4D4I4N4S4X4]4b4g4l4q4v4{4
-4!4'4<4P4o4~4
-4!4,4`4p4z4
-4!414A4Q4a4q4
-4!4>4
-4!4P6Q7j7q7x7.858<8D8m8t8{849;9A9`9|9
-4!4[4
-4!4|4
-4!5,595B5N5W5k5
-4"4(4.444:4@4F4L4R4X4^4d4j4p4v4|4
-4"4(4.4c4
-4"4,4
-4"4,454x4
-4"404O4Y4e4v4
-4"5*5a5
-4"545>5
-4"5o5
-4"6+646\6`6d6h6l6p6t6x6|6
-4#4(4-42474<4A4F4S4X4b4s4x4
-4#4*474=4D4Q4W4^4k4q4x4
-4#4T4Z4b4p4
-4$4)4.43484=4B4G4L4Q4V4[4`4e4j4o4t4y4~4
-4$4,444<4D4L4T4\4d4l4t4|4
-4$4;4\4e4
-4$4D4L4X4
-4$4D4h4t4|4
-4$5.5M5S5|5
-4$5J5h5
-4$5X5
-4$5f5
-4%444\4b4j4u4
-4&4+40474e4n4w4
-4&434R4k4
-4&515Q5
-4&585J6w7
-4&5F5
-4'4F4W4v4
-4'4N4V4o4
-4'5H5
-4(4,444L4\4`4p4t4x4
-4(424P4
-4(444<4\4
-4(476A6
-4(4n4x4
-4(5R5
-4)434X4_4k4w4
-4)4b4y4
-4*527]7
-4*656
-4+434;4
-4+4:4D5T5_5l5	6
-4+4:4F4R4_4i4
-4,434L4S4n4
-4,444<4D4L4T4\4d4l4x4
-4,4Q4
-4,5@5T5h5|5
-4-5H5
-404<4D4d4
-404<4D4d4t4
-404C4
-404D4S4_4g4n4{4
-4080<0@0D0n2
-416z6
-424l4
-43484
-434v5
-44484P4`4d4l4
-444D4H4X4\4`4d4h4p4
-444H4P4t4
-444X4d4l4
-445+8
-445B5
-455l5
-464?4T4[4a4r4
-464H4b4r4
-477B7
-484d4i4
-484h4|4
-495Z5
-496M6
-4:4M4b4r4
-4:5J5R5_5q5
-4:6O7/9
-4<4\4
-4<4j4
-4=4V4
-4>4G4P4[4`4e4s4
-4>5I5}5L6S6|7
-4A5[7b7v7|7
-4C4g4
-4C5u5
-4D4l4
-4D5N5Y5a5i5q536
-4F4U4f4r4y4
-4J5U5
-4J5k5
-4K4|4
-4K5]5e5
-4L4T4a4t4
+3\n\rdynamic_state
+3\n\roptical_frame
 4Pole
-4Q4o4
-4S4\4e4n4s4x4
-4S4y4
-4V4_4h4q4v4{4
-4X4\4`4d4h4l4p4t4x4|4
-4X5w6
-4Z5$6.6B6
-4[4e4
-4\4{4T5
-4\5,6K7
-4`5i5
-4a596
-4f5u5
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4k647F7X<j<
-4l6_8s8
-4o5t5
-4r5y5
-4r5}5
-4v566
-5 5$5
-5 5$5(5(7
-5 5$5(5,5054585<5@5D5H5L5P5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5$5:5T5_5
-5 5%5*5/54595>5C5H5M5R5W5\5a5f5k5p5
-5 5,5L5T5`5
-5 6-6E6d6
-5 6I6r6
-5!5.5|5
-5!51565R5\5e5n5s5x5
-5!515A5Q5a5q5
-5!6@6P6
-5!6M6Z6{6
-5!6s6
-5"5'5,5:5
-5"5+54595>5E5
-5"5/6
-5"585F5J5
-5#5(5-52575<5A5F5K5P5U5Z5_5d5i5n5s5x5}5
-5#5(5-545u5~5
-5#5)5
-5#505
-5#5A5
-5#5A5P5r5
-5#6Y6
-5$5,545<5H5h5p5|5
-5$5.5C5H5V5f5s5
-5$50585X5|5
-5$515<5r5
-5$585H5l5x5
-5$5<5L5P5`5d5h5p5
-5$5_7
-5$616r6}6
-5$6G6
-5%575L5T5}5
-5%5x5
-5&5/585=5B5I5
-5&676
-5&6I6
-5&6X8::
-5&777
-5&7f8
-5'5,5B5L5
-5'5;6a6n6{6
-5'5K5
-5'7W8M:S:&;4;Q;^;
-5(5,545L5\5`5d5l5
-5(50555C5T5\5d5o5
-5(545<5\5
-5(595@5J5[5b5l5}5
-5(5G5R5\5s5
-5(5H5P5\5
-5(6,6
-5(6,6064686<6@6D6H6L6V6e6
-5(616:6C6H6M6T6
-5*636<6E6J6O6`6r6{6
-5,50585P5T5l5|5
-5,5@5
-5,5J5O5V5_5
-5,60646T6X6\6
-5-595
-5.585B5R5]5~5
-505<5\5d5
-505@5D5L5d5t5x5
-505@5D5T5X5`5x5
-505j5
-506D7t7
-506d6
-527-9;9e9
-53595A5O5e5
-54536T6
-545;5A5R5
-545N5g5r5z5
-545X5d5x5
-54686<6@6D6l6
-555;5H5
-555W5^5x5
-556:6X6l6
-565>5f5u5
-565A5
-566(8f8
-566E6
-575`5
-57:E:Y:
-585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-585@5H5P5X5`5h5p5x5
-585D5L5l5
-586P6g6
-587N7h7
-5:5?5\5
-5:5E5{5
-5;6C6
-5;7i7~7
-5<5T5x5
-5<5`5l5t5
-5<5t5
-5<6X6
-5=6E6
-5@5I5R5[5`5e5l5
-5@5]5
-5@6h6p6|6
-5@6o6#7
-5B5L5V5b5
-5C5R5Z5g5
-5C6\6
-5D5I5
-5D5o5
-5F6U6}6
-5FjiT
-5Genu
-5H6L6P6T6X6\6`6
-5H6T6
-5H7f:x:
-5I5O5[5`5
-5J6e6
-5M7U7b7
-5N516?6Q6_6q6
-5N5B6
-5Q6z6
-5R6q6
-5T9}9
-5U5{5
-5Z6/8E8
-5Z6d6~6
-5[5`5h5y5
-5\6e6n6w6|6
-5_5h5q5z5
-5a6(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;
-5b5m6
-5b6"8n:
-5d6x6
-5f6)8F8
-5f6z6
-5f7u7
-5h6l6p6t6x6|6
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5ineI
-5l5|5
-5n7t7
-5o6%8
-5p6|6
-5q7|7G8K8X8\8
-5t3j>hL
-6 6$6(6,6
-6 6$6(6,606
-6 6$6(6,60646$8(8,8X:\:`:d:h:l:p:t:x:|:
-6 6$6(6,6064686<6@6D6H6L6
-6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-6 6$6(6,666E6
-6 6$6,6D6T6X6h6l6t6
-6 6%6*6/64696>6C6H6M6R6W6\6a6f6k6p6u6z6
-6 6(60686<6D6X6`6h6p6t6x6
-6 6064686@6X6h6l6|6
-6 60646D6H6L6P6X6p6
-6 60646D6H6L6T6l6p6
-6 6<6v6
-6 6?6f7x7
-6 6~6
-6 7j7
-6!6&6+606A6F6K6P6U6Z6_6d6i6n6s6x6}6
-6!6.6q6z6
-6!616A6Q6a6q6
-6!6>6[6x6
-6!7*7
-6"6)6=6V6^6
-6"6+6A6T6c6o6v6}6
-6"6/696C6L6o6w6
-6"61656H6r6
-6"626B6R6b6r6
-6"6@6V6e6
-6"7(707>7C7T7a7
-6"7;7
-6#626
-6#7(7w7
-6#7-7
-6#737=7I7q7{7
-6#8X8{8
-6$6,646<6D6L6T6\6d6l6t6|6
-6$6,686X6d6
-6$6=6t6}6
-6$6D6h6t6|6
-6$7T7
-6%6*6/666
-6%6+646:6@6D6J6O6\6b6
-6%6I6Q6a6i6y6
-6%6J6^6h6
-6%6n6x6
-6%7=7Z7c7l7v7{7
-6%7W;
-6&6/636
-6&606D6N6c6h6v6
-6&6E6R6e6}6
-6&7.767>7y9
-6(6,646L6\6`6p6t6x6|6
-6(606P6t6
-6(61696>6E6
-6(646l6x6
-6(686
-6(6Y6^6s6x6
-6(7-7@7
-6(7-7H7Q7\7b7h7
-6(70787@7H7P7X7`7h7p7x7
-6(767k7
-6*6@6F6N6T6`6v6
-6*f(_
-6+676F6L6b6k6x6~6
-6+6?6I6
-6+6\6b6j6x6
-6,686|6
-6,7@7T7h7|7
-6,7p7
-6-62686]6n6v6
-6/7Z7
-60)1{5
-606<6D6d6t6
-606u6
-6074787<7@7D7d7
-607;7A7F7T7Y7a7n7t7{7
-60878N8p8w8
-616G6L6Y6w6
-617k7
-618?9
-61H1%3+3
-62686O6c6
-627j7
-63E3p3
-646=6T6h6
-646T6\6d6l6t6|6
-647a7j7s7|7
-647}7
-666C6x7K9i9
-666V7c7i7p7w7
-676?6a6{6D7`7h7
-676V6
-677,8W8
-686d6i6
-687G7X7
-687L7}7]8k8
-687n7
-6:8{8
-6;7F7
-6;wHtn
-6<6`6l6t6
-6<7]7
-6<;B;s=
-6=7d9h9l9p9t9x9|9
-6>6H6R6^6
-6>6N6X6b6q6w6{6
-6>7f7s7
-6?7s7
-6@6L6T6t6
-6A6J6S6\6a6f6m6
-6A6V6[6
-6A7g7
-6C6k6
-6C6{6
-6D6h6t6|6
-6D8H8L8P8
-6F7U7
-6F7X7
-6G7L7a7f7|7
-6H7W7h7
-6I7p8t8x8|8
-6I]Dc
-6K7V7]7g7r7
-6K~N[
-6L8T8a8n8
-6N7h8q8z8
-6OB,n_
-6P7T7X7
-6PVh$
-6PVh`
-6PjMjBh
-6QPVh
-6R7s7
-6RPVh
-6SVhD
-6V6<8v8k:
-6X6g6x6
-6Z6j6
-6Z758[8
-6[7c7
-6\7`7d7h7l7
-6]6G7+8V8
-6]7l7
-6`6f6
-6c6}667H7h7
-6c8g8v8z8
-6f6t6
-6f7q7
-6f7w7
-6h6w6
-6j6H9s9
-6k7y7
-6x;|;
-6|7D8P8`9
-7	8!8)8
-7	8X8&:
-7 7$7(7,7074787
-7 7$7(7,7074787<7
-7 7$7(7,7074787<7@7D7H7L7P7
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7$7(7,7074787<7@7D7H7X7
-7 7$7(7,7074787<7d7h7l7p7t7x7|7
-7 7$7(7,707P7T748<8D8L8T8\8d8l8t8|8
-7 7%757
-7 7(7D7d7l7t7
-7 70747D7H7X7\7`7h7
-7 797
-7 7N7
-7 8'8
-7 8)828;8@8E8L8
-7 8,848T8x8
-7 8.8x8
-7!717A7Q7a7q7
-7!8]8
-7"7,777I7O7U7_7i7r7x7
-7"767U7`7j7
-7"8:8N8Y8h8n8}8
-7"9~9
-7#747i7r7
-7#797O7e7{7
-7#7<8
-7#7g7p7y7
-7$7+7l7r7|7
-7$7,747<7D7L7T7`7
-7$7,7L7p7|7
-7$70787X7|7
-7$74787H7L7T7l7|7
-7$7<7L7P7`7d7t7x7|7
-7$7D7h7t7|7
-7$7H7T7\7|7
-7$7K7R7
-7$8)8v8
-7$8~8
-7%7+7
-7%7+7?7^7n7v7
-7%767B7I7]7r7
-7%767B7I7]7v7~7
-7%7C7
-7%7Q7a7
-7&78758;8
-7&797E7L7`7|7
-7&828
-7&8?8
-7&8O8^8j8y8
-7'7K7
-7'7U7
-7'7~7
-7'818=8l8v8
-7'8@8S8
-7(7.767@7
-7(70787@7H7P7X7`7l7
-7(727D7\7
-7(787<7L7P7T7X7`7x7
-7(878H8
-7(9{:
-7)747j7t7z7
-7)8g8
-7*737<7E7J7O7d7
-7*7:7@7E7K7Q7Z7`7f7j7q7~7
-7+7?7^7f7p7
-7+7]7k7
-7,747<7D7L7X7x7
-7,767@7T7^7q7w7
-7,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8]9d9
-7-787L7P7T7X7\7
-7-7:7_7s7
-7-8A8X8
-7.7:7h7s7
-7/777@7L7]7e7n7z7
-7/7C7b7r7w7
-70503
-707[7
-70A0s0x0
-717B7
-717H7
-727?7L7W7w7W8k8
-72N2Y2
-737D7
-737M7o7
-738:8
-747<7v7
-747=8^8
-747D7H7X7\7`7h7
-748p8
-757H7
-757V7g7
-758I8
-777\7c7}7
-777b7
-787D7h7
-787^7
-787d7i7
-7;8}8
-7<7|7
-7<8@8D8H8L8P8T8X8\8`8v8
-7<8|8
-7=8N8V8^8f8
-7>7H7R7[7e7
-7>9J9c9o9
-7?8h8
-7?8i8
-7?9b9y9
-7@8d8
-7@PVW
-7A8[8
-7C8f8L:v:e<
-7D8e8
-7E7K7X7
-7E8Y8
-7F8U8
-7F8X8
-7F8s:F;
-7F:X:F;X;F<X<f=x=T>_>
-7H7Y7b7n7y7~7
-7H7x7
-7J8^8
-7J9U9
-7L7V7_7k7t7
-7L8V8
-7M7V7c7
-7M7b7
-7N8h8
-7P7b7
-7Q8f8
-7T8X8\8`8d8h8l8p8P:T:X:\:`:d:h:l:
-7V7e7
-7V7h7
-7W8]8t8
-7X8c8
-7X8d8r8
-7Z7a7
-7\8k8|8
-7^8r8z8	:
+52F*
+5I)7
+5\n\vnested_type
+6/aG
+6\n\fmessage_type
+7\n\tenum_type
 7^d[L
-7d8f9
-7f7u7
-7g8L:
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7i9v:
-7o8 =
-7s7|8
-7y7m9
-7{8!9i:f;
-8	8)8n8t8
-8 8$8(8,808
-8 8$8(8,80848
-8 8$8(8,8084888<8
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8(848T8`8
-8 8*848>8J8P8a8f8k8p8u8z8
-8 8*:.:
-8 8,8L8X8
-8 8/8q8
-8 80848D8H8X8\8`8h8
-8 8w8
-8 9'9
-8 9,949T9x9
-8 9-9>9F9
-8 9.9B9
-8 9<9X9
-8 9p9
-8!8&8<8F8
-8!818A8Q8a8q8
-8!8J9
-8"8(828:8A8G8T8b8h8r8z8
-8"8+858:8?8D8N8
-8"8,848h9
-8"8,878=8E8O8Z8`8h8r8
-8"8Q8y8
-8"9(9?9S9r9}9
-8"969J9i9o9
-8#8h8
-8$8(888<8D8\8l8p8
-8$8(8<8@8P8T8X8`8x8
-8$8*818:8@8G8Q8k8
-8$8,848
-8$8,848<8H8h8p8|8
-8$8,848@8`8h8p8x8
-8$8,8L8p8|8
-8$878J8]8p8
-8$9D9\9|9
-8$9I9
-8%8C8
-8%8R8k8
-8%9O9i9
-8%:`:
-8&828C8
-8&828C8K8T8`8q8y8
-8&969I9U9\9p9
-8&979
-8'8,8L8V8
-8'848e8k8s8
-8'878=8C8Q8f8t8
-8'888
-8'888[8u8
-8'9P9r9
-8(8,8084888H8L8P8T8X8 9
-8(8,80888P8`8d8t8x8|8
-8(8-828A8P8Y8b8k8p8u8|8
-8(8.8
-8(888<8@8D8H8P8h8x8|8
-8(8B8F8Z8
-8(8P8
-8(:A:H:_:
-8)8.8D8N8
-8)8B8K8T8]8b8g8u8
-8)9N9
-8*808D8c8z8
-8*9.9=9A9b9f9u9y9
-8*989b9
-8+8]8k8
-8+91999G9]9
-8,888@8`8
-8,8P8\8d8
-8,8c8l8u8~8
-8,:u:w;
-8-8>8P8
-8-959:9
-8-9e9
-8-:9:A:Q:[:h;)<P<
-8.u@j
-8.uYj
-8.usSP
-8/9A9
-8/9L9Q9X9_9f9
-8/9o9
-8/:Y:_:r:";A<F<
-808S9
-809h9
-80G0X0
-829L9
-82u	@
-838T8u8
-848^8
-84989<9@9D9H9L9P9T9X9
-858G8s8x8
-85:_:e:r:
-868C8e8
-868E8V8b8i8}8
-869D9
-869E9y9
-879t9
-888D8d8l8t8|8
-888E8K8Q8
-898A8I8
-898]8
-898h8
-899g9
-8:u	@
-8;8J8a8f8k8p8u8z8
-8;9z9
-8;s\u
-8<8H8i8	9&9/989A9F9K9Y9
-8<8`8l8t8
-8<9v9
-8<9|9
-8<?@?D?H?L?P?T?X?\?`?d?h?l?p?
-8=8d8y8
-8=8t8
-8A8`9
-8D8V8f8w8
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8E$u h
-8E9_9
-8F8K8^8~8
-8F9U9
-8F9_9p9
-8F:u;F>
-8FAtS
-8G9L9a9f9|9
-8G:t"
-8H8R8q8w8
-8J8R8
-8K9U9^9i9
-8K9r9
-8K:f:H<O<f<O=
-8Knu 
-8L8|8
-8M;:<>=r=M>
-8N9U9
-8P8t8
-8P<T<X<
-8Q	tmH
-8Q8^8
-8Q:j:}:
-8SVW3
-8SVWj
-8T9b9
-8U8a8u8
-8V8e8
-8V9b9V:e:F;U;
-8V9d9
-8V9e9
-8V9h9
-8WPRQ
-8Z8s8c:r:
-8[8p8y8
-8\8`8d8h8l8p8t8x8|8
-8^	t1j{h
-8^	t4h
-8_	t4h
-8_^[]
-8b9s9
+7~8A
+8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
-8centu
 8d8f13b1-60eb-4b6a-a433-de86104115ac
-8d9V:k:|:
-8d:h:l:p:t:x:|:
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8e9j9x9
-8e9n9
-8f9t9
-8g8q8
-8i<D=|=
-8jpu9
-8k9+;
-8l9z:
-8leftu
-8o9x9
-8opt_u
-8play
-8pnuM
-8reco
-8rewiuKf
-8righu
-8slowu>
-8spot
-8stopuD
-8stylu
-8treau
-8unknu
-8utahu?j
-8v9{9
-8viveu
-9	: :O;[;
-9	:;:B:p:
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9 9$9(9,9m:q:
-9 9$9(9H9L9`9h9l9p9t9x9|9
-9 9%9*9/94999>9C9H9M9R9W9\9a9f9k9p9
-9 9'9.959<9C9J9Q9X9_9f9m9t9{9
-9 9(9.959?9F9L9S9]9d9j9q9{9
-9 9(9@9P9T9d9h9l9t9
-9 9)92979<9D9
-9 9094989@9X9h9l9|9
-9 9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9 :,:=:E:N:Z:k:s:x:
-9 :.:6:
-9 :h:
-9 u	A
-9!9&9+90959:9?9D9I9N9S9X9]9b9g9l9q9v9{9
-9!9*9/949H9f9o9x9
-9!919A9Q9a9q9
-9!939E9W9d9u9
-9!:):
-9!:Q:
-9"9(9.949:9I9O9Z9`9f9j9q9~9
-9"9+90959<9z9
-9"9/9R9
-9"91969;9@9E9J9O9T9Y9^9c9h9m9r9w9|9
-9"9T9
-9":*:8:n:
-9":7:@:I:T:Y:^:e:
-9#:!;-;
-9#:*:{:v;
-9#:-:7:A:U:e:
-9$9(9,9094989<9@9
-9$9(909H9X9\9l9p9t9|9
-9$9,949<9D9L9T9\9d9l9x9
-9$939N9j9
-9$9<9
-9$9D9h9t9|9
-9$:):v:
-9$:C:k:s:
-9$:d:
-9%9-9G9[9
-9%9.93989D9X9f9r9{9
-9%979=9
-9%9>9a9r9
-9%9I9P9
-9%9O9h9
-9%:2:S:
-9%:B<
-9&9 :]:~:
-9&9.9V9e9v9
-9&:8:u;
-9&:E:
-9&:F;f<
-9&:N:
-9'9/989D9U9]9k9q9
-9'949?9
-9'9F9
-9':R:
-9(9,9094989u9{9
-9(9,9<9@9D9L9d9t9x9
-9(949<9\9
-9(959Q9
-9(9;9T9j9x9
-9(9S9d9
-9(9h9n9
-9(9r9
-9)9.9A9F9U9m9~9
-9)9.9D9N9
-9)9A9{9
-9)9b9w9
-9):q:
-9*9f9
-9+9]9k9
-9+9f9
-9+:h:n:
-9,909H9L9d9t9x9
-9,949<9H9h9p9|9
-9,:7:
-9,:Z:
-9.9A9T9g9z9
-9.9o9
-9/:4:I:N:d:n:
-90989D9h9
-909<9D9\9d9p9
-909A9I9Q9Y9
-90?0I0S0^0d0p0w0
-90I0R0]0b0g0
-90t$A
-919:9g9
-919A9U9Z9n9
-919U9y9
-91:o:E;b;u;
-92:V:v:
-92;8;
-93989F9V9c9u9|9
-949@9H9h9
-949X9d9l9
-95: =
-969;9A9
-969E9R9`9l9v9~9
-979H9
-97:w:
-989@9L9l9x9
-989H9T9\9
-98:u:
-9:;E;
-9;9E9Q9
-9<:@:D:H:L:P:|:
-9=9C9P9X9e9m9v9{9
-9?9M9i9
-9?9_9
-9?=C=P=T=X=\=`=d=h=l=p=t=x=|=
-9@:Q:
-9@<w<
-9C,~e3
-9C9c9r9
-9D:x>
-9E9p9
-9EV2.u
-9F9M9
-9F:M:V:_:h:
-9F:T:f:
-9F:k:
-9Glra
-9H<~v3
-9H\tP
-9J:O:a:h:x:
-9K ~$
-9K4~p3
-9K:U:^:j:s:
-9K:j:
-9L9S9
-9L:V:j:u:
-9L:|:
-9L;p;
-9N$~^
-9N,~6
-9N9X9W;a;
-9N9q9
-9N:9;$<
-9O,~g
-9O8~B
-9O9V9
-9OD~03
-9OT~03
-9Od~53
-9Ot~23
-9P:_:<;w;
-9Q4vV
-9R9h9v9
-9Rootu	
-9T:X:\:`:d:
-9T;	<!<.<;<F<
-9U9d9
-9V8~<
-9V:7;
-9V:d:
-9V:e:
-9X<\<`<d<h<l<p<t<x<
-9Z9x9
-9Z:|:
-9[9h9p9}9
-9\;{;A<V<
-9^$t4h9
-9^$~"
-9^(~!
-9_^[]
-9_xtD
-9`9d:y:
-9b9q9
-9d9s9
-9f9u9
-9f9x9
-9f:I<M<\<`<M=X=`=
-9f:u:
-9f;w;
-9g;>=H=R=t=~=
-9i:>;T;_;
-9lensu
-9lhjs
-9r?~?
-9s$~"3
-9s(~'3
-9s<~#3
-9s@~)3
-9t:x:|:
-9w$~"3
-9w(~#
-9w,~"3
-9w<~"3
-9w>`?j?p?
-9x9|9
-9}:F<
-9~$~7
-9~(~(3
-9~(~2
-9~(~:S
-9~,~:
-9~0~(3
-9~0~.3
-9~0~@S
-9~8~:
-9~@~(3
-9~@~Y3
-9~H~4
-9~T~9
-9~\~6
-9~d~9
-9~t~9
-:	;V;d;v<
-:	;};
-: :$:(:,:0:4:8:<:
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-: :$:(:0:H:X:\:l:p:x:
-: :$:1:5:W:[:j:n:}:
-: :%:*:1:
-: :(:0:8:@:H:P:\:|:
-: :(:4:T:`:
-: :(:@:P:T:X:\:`:h:
-: :(:H:P:X:p:
-: :::W:
-: :<:D:]:
-: :=:E:a:h:
-: :M:V:_:h:m:r:y:
-: :O:Y:e:
-: ;&;,;2;
-: ;,;4;T;x;
-: ;/;3>
+9\n\noneof_decl
+9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 : one or more FS callback not set
-: ppm=
-:!:':3:9:?:J:[:j:o:y:
-:!:1:7:A:Q:a:q:
-:!:1:A:Q:a:q:
-:!:7:T:
-:!:J:E;O;Y;e;
-:!;B;k;
-:!;e;
-:":':,:1:6:;:@:E:J:O:T:Y:^:c:h:m:r:w:|:
-:":':,:1:6:A:F:K:P:U:Z:_:d:i:n:s:x:}:
-:":,:E:\:
-:":c:l:u:~:
-:";B;b;
-:#:*:1:8:?:F:M:T:[:b:i:p:w:~:
-:#:?:n:
-:#:T:Z:b:p:
-:#:[:
-:#;?;L;q;|;
-:$:,:9:
-:$:,:L:p:|:
-:$:1:6:A:F:Q:V:[:`:e:j:o:t:y:~:
-:$:4:8:H:L:T:l:|:
-:$:D:L:T:\:d:l:t:|:
-:$;5;F;j;{;
-:%:8:K:^:q:
-:%:L:R:
-:%;*;=;J;q;
-:%<V<@>v>
-:&:/:5:<:L:t:
-:&:5:
-:':0:5:::N:
-:':P:w:
-:(:4:<:\:
-:(:8:<:L:P:T:X:\:`:d:l:
-:);/;4;/<9<W<
-:);@;T;\;d;i;
-:);n;
-:*;0;{;
-:,;0;4;p;t;x;
-:-:F:N:v:
-:/:W:r:
-:/;B;
-:0:8:n:
-:0:<:D:d:
-:0:@:D:T:X:\:d:|:
-:0:P:h:p:x:
-:0;7;T;
-:0;`;
-:2:@:
-:2;c;z;
-:2;q;
-:3:\:`:d:h:
-:4:B:M:p:
-:4;=;G;P;l;v;
-:6:I:
-:6;E;o;
-:6;E;r;
-:7;j;E<J=
-:8:D:N:W:e:o:x:
-:8:I:Z:
-:8:p:
-:9;V<
-:;;4<
-:<$u:
-:<:H:P:p:
-:<:`:l:t:
-:<:p:
-:=;F;O;X;];b;i;
-:>;j<
-:>;k;
-:@:_:
-:@:`:h:p:x:
-:A;t;y;
-:B:v:
-:C;U;
-:D:J:b:
-:D;e;Y<b<
-:F`tP
-:FatK
-:FbtK
-:FctK
-:FdtK
-:G:6;_;
-:G:q:
-:G:{:
-:G;[;
-:H:W:
-:I;R;[;f;k;p;w;
-:M:b:o:|:
-:M:r:
-:O:\:l:|:
-:U:^:g:p:u:z:
-:U:v:
-:V:d:
-:V;d;
-:V;e;
-:W:y:
-:W;!?
-:X;L=
-:X;q;T<e<
-:[:b:x:
-:[;f;
-:]:a:
-:a:q:
-:b;s;
-:d;v;6=F?
-:f;u;
-:h:t:
-:h;l;p;
-:h;l;p;t;x;|;
-:j<}<
-:k;f<u<
-:rota
-:v:(;L;
-:v;A<_<
-:v;K=v=C?
-;	;);F;U;
-; ;$;
-; ;$;(;
-; ;$;(;,;0;4;8;<;@;<<@<D<H<L<P<T<X<\<`<
-; ;$;(;,;0;4;8;<;@;D;H;L;P;
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-; ;$;(;,;0;8;P;`;d;t;x;|;
-; ;(;2;:;a;f;p;
-; ;-;
-; ;D;P;X;x;
-; <=<
 ; expected 
 ; last read: '
-;!;&;3;=;Q;_;d;r;w;
-;!;*;/;4;;;|;
-;!;+;0;Q;_;l;v;{;
-;!;1;A;Q;a;
-;";';2;?;H;V;_;d;v;
-;";6;A;
-;"<(<,<0<4<_<
-;"<_<P>
-;"=-=c=F>U>y>
-;"=^=
-;#;(;-;2;7;<;A;F;K;P;a;f;k;p;u;z;
-;#;(;-;2;7;<;A;F;K;P;a;r;{;
-;#;.;K<Q<
-;#;4;L;
-;$;(;0;H;X;\;l;p;x;
-;$;(;8;<;@;H;`;p;t;
-;$;);.;5;n;y;
-;$;+;X;a;j;s;x;};
-;$;,;4;<;H;h;p;|;
-;$;0;X;|;
-;$;2;>;];b;s;y;~;
-;$;8;D;d;l;t;|;
-;$;D;h;t;|;
-;$;W;
-;$;X;
-;$<H<t<
-;%;*;>;Q;^;l;u;
-;%;,;3;:;A;H;O;V;];d;~;
-;%;6=E=
-;&;,;=;B;
-;&;-;4;;;B;I;P;W;^;e;l;s;
-;&;-;b<v<
-;&;2;9;M;f;n;
-;&<5<F<R<Y<m<
-;&<5<_<x<b=
-;&<5<r<
-;&=7=
-;(;,;<;@;D;H;P;h;x;|;
-;(;.;K;_;~;
-;(;0;8;@;L;l;t;|;
-;(;1;:;?;D;L;y;
-;(<0<p>
-;(<O=
-;(<z<
-;);0;4<h<v<
-;);1;:;R;c;k;p;{;
-;);=;D;K;R;q;
-;);{;
-;)<`<
-;*<4<<<J<e<y<
-;*<z<
-;+;@;F;
-;+<S<p<
-;,;0;4;8;@;X;h;l;|;
-;,;4;<;D;P;x;
-;,;5;<;E;J;
-;,;P;w;
-;,<v<
-;-;5;F;m;
-;-;L;Q;[;t;n<
-;-<K<
-;.<6<
-;/;:;D;[;t;
-;0;5;A;p;0<G<_<
-;0;8;P;x;
-;0;8;T;f;l;s;
-;0;<;D;d;
-;1;u;
-;1<^<v<*=
-;2;=;Y;
-;3;R;Z;b;j;q;
-;3;h;m;x;
-;3t"W
-;3u3;
-;4;>;
-;4>?>
-;5;^;
-;5<=<J<
-;5=B=L=W=f=
-;6;N;`;
-;7;>;
-;7=B=
-;8;D;L;l;
-;9<N<[<h<s<
-;9=[=#>j>
-;9tpSV
-;:<]<
-;;;@;G;P;f;
-;;;W;s;
-;;<S<Z<
-;<;M;\;h;p;w;
-;<;_;
-;<;l;*<
-;<;p;
-;<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-;=<C<R<'=-=6=g=
-;?;q;
-;@;h;r;
-;A;p;
-;A;q;
-;A<S<
-;ADt!
-;ADt$
-;B;R;j;
-;B<K<T<]<b<g<n<
-;C<d<
-;CDt$
-;Cts=
-;D;e;
-;D<5=L=P=T=X=\=`=d=h=Q>^>y>
-;E(|m
-;F$^t
-;F;T;u;
-;F;V;i;u;|;
-;F<U<
-;F<X<
-;FDuA
-;Fd^t
-;G;o;
-;G<_<
-;H;v;
-;H<i<t<
-;H<ufh#
-;I;b;
-;J;l;
-;K<R<b<h<
-;K<a<
-;L;S;h;o;
-;M<Y=#>5>X>
-;O u1
-;O;x;|;
-;O<T<f<
-;Q<p<
-;R<j<
-;T<X<\<`<d<b=v=
-;U<s<
-;V>e>
-;W<v<
-;Z<v<
-;\<p<
-;\>d>l>t>|>
-;_;r;
-;_<d<y<~<
-;f<s<
-;f<u<
-;f<x<5=i=u=|=
-;g<l<
-;h=}>
-;j<q<x<
-;l<v<
-;w<7>
-;w<}<
-;y>}>
-;{4tF
-;|3 v0
-;~ ~Bh
-<	<!<2<:<C<[<l<t<}<
-< <$<(<,<0<4<8<
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l< =X>
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-< <$<(<,<0<4<8<<<@<V<e<
-< <$<(<,<0<<>@>D>H>
-< <$<(<0<H<X<\<l<p<t<x<
-< <$<4<8<H<L<P<X<p<
-< <$<x=|=
-< <'<.<5<<<C<J<Q<X<_<f<m<t<{<
-< <)<2<7<<<C<H<X<z<
-< <0<4<8<<<@<D<H<L<P<T<X<
-< <0<4<D<H<P<h<x<|<
-< =,=4=T=x=
-<!<&<+<0<5<:<?<D<I<N<S<X<]<b<g<l<q<v<{<
-<!<U<
-<"<+<6<><H<P<[<a<g<q<{<
-<"<1<A<Q<a<q<
-<"<2<<<g<q<{<
-<"<Z<
-<"=E=h=
-<#<-<3<=<E<S<X<f<m<|<
-<#<6<C<
-<#=*=;=
-<#=+=
-<#=J=t=
-<$<(<8<<<@<H<`<p<t<
-<$<,<4<<<H<l<
-<$<,<L<p<|<
-<$<-<4<9<@<I<P<U<\<e<l<r<w<
-<$<0<<<H<T<`<l<x<
-<$<1<B<K<W<\<a<x<
-<$<L<p<|<
-<$=i=
-<%</<b=r=
-<%<3<A<K<T<]<k<
-<%<O<h<
-<%=]=
-<&<,<3<P<X<t<
-<&=4=
-<&=5=e=
-<&={=
-<&>8>
-<'<0<9<><C<Q<n<w<
-<'<;<
-<'<H<X<`<h<t<|<
-<'=/=:=B=K=
-<(<-<2<9<
-<(<4<
-<(<4<<<\<
-<(<A<
-<(<H<T<t<|<
-<(<L<X<`<
-<(=M=
-<)<=<P<W<^<o<~<
-<*=i=
-<*=r=}>
-<+<2<<<M<T<^<o<v<
-<+=O=[=
-<,<L<
-<,=U=^=i=n=s=
-<-u];]
-<.=O=
-<.?h?
-</=4=I=N=d=n=
-</=X=\=`=d=h=
-<0:08
-<0<D<S<l<
-<0<N<u<}<
-<0=9=B=K=P=U=^=
-<0=u=
-<0>H>s>u?
-<0D0\0h0
-<0E0K0
-<0[0!161
-<1<B<U<f<k<w<
-<1<T<u<
-<2=<=
-<3=<=E=N=S=X=_=
-<3=T=
-<4<><
-<4<D<H<X<\<`<h<
-<4<T<\<d<l<t<|<
-<4=<=
-<5<v<
-<6<D<V<b<r<
-<6<D<e<
-<6<[<v<
-<6<d=
-<6<f<
-<6=;=
-<6=H=O>U>
-<7=A=J=V=[=
-<8<D<L<l<
-<8<S<
-<9~Y<etU<EtQ<+tM<-tI
-<:<\<
-<:=\=
-<<<D<L<T<\<d<l<
-<<=]=
-<==*>k>
-<>=1?
-<>=Y=
-<>@>D>
-<?=D=Y=^=t=~=
-<??J?
-<@<L<T<t<
-<@<~<
-<@=D=H=L=
-<@=U=b=o=z=
-<E<{<
-<E=5>}>
-<E=I=X=\=
-<F=R?
-<H<_<
-<I=Y=b=k=t=y=~=
-<J<T<
-<O<]<d<k<r<{<
-<P=T=X=\=`=d=h=l=p=t=x=|=
-<R<u<
-<R=X=
-<R>X>
-<S=t=
-<SVWj
-<SVj;
-<T=R>Z>t?{?
-<U+%.4X>
-<V<b<y<
-<V=B>I>a>|>
-<V=a=
-<V=d=
-<V=h=
-<W<`<i<r<w<|<
-<Y=s={=
-<Z>e>
-<\t;</t7
-<_=d=y=~=
-<_uQ<
-<`>d>h>l>p>t>x>|>
-<b=h=
-<f=	>
-<f=o=x=
-<f=r=
-<f=u=
-<f=v>
-<h=8>
 <hidden>
-<i=T>m>z>
-<l<_=
-<l=v=~=
-<n=U>`>
-<o=x=
 <parse error>
 <redirected>
-<u={=v>
 <uninitialized>
-=	=k=z=
-=	>9>O>
-= =$=(=,=0=4=8=<=@=D=
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-= =$=(=,=0=4=8=<=F=U=
-= =$=(=,=0=4=f=v=6>H>
-= =$=(=0=H=X=\=l=p=t=x=
-= =&=.=8=C=I=Q=[=
-= =(=0=8=@=H=P=\=|=
-= =(=0=<=\=d=p=
-= =(=[=
-= =*=;=B=L=]=d=n=
-= =1=;=@=Q=[=a=e=q=v=}=
-= =8=H=L=\=`=d=h=p=
-= =<=`=
-= =L=T=t=
-= =x=
-=!=,=6=M=f=t=
-=!=0=Z=
-=!=1=6=;=@=E=J=O=T=Y=^=c=h=m=r=w=|=
-=!=1=A=Q=a=q=
-="='=,=1=6=;=@=E=J=O=T=Y=^=c=h=m=r=w=|=
-="='=/=9=E=Y=e=
-="=-={=
-="=/=A=K=U=^=~=
-="=Z=j=t=~=
-=">(>?>S>r>
-=">/>?>O>Y>^>|>
-=">I>N>_>
-=#=*=1=8=?=F=M=T=[=b=i=p=w=~=
-=#=1=B=
-=#=l=z=
-=$=(=,=0=4=8=@=X=\=t=x=
-=$=(=8=<=@=D=H=L=P=T=X=\=`=d=h=
-=$=-=2=7=>=
-=$=1=>=I=
-=$=9=?=
-=$=D=d=
-=$=H=T=\=|=
-=$>9>F>S>^>
-=$>Y>c>o>
-=$>d>
-=%=*=8===E=R=X=_=l=r=y=
-=%=.=:=C=H=
-=%=2=
-=%>+>1>7>
-=%>i>
-=&=5=n=
-=&=:=^=f=n=v=
-=&>5>U>a>h>|>
-=&>m>
-='=6=?=H=Q=V=[=b=
-='=:=?=\=c=h=
-='=C=H=R=a=q=}=
-='=D=O=
-='>->;>G>V>
-='>L>o>
-=(=,=<=@=H=`=p=t=
-=(=,=@=D=T=X=`=x=
-=(=>=
-=(=H=P=X=d=
-=(=p=x=
-=(>\>
-=+>P>
-=,=6=D=N=W=c=l=q=
-=,=B=t=
-=->O>
-=->k>
-=->s>|>
-=/>M>k>q>
-=0=;=U=^=v=
-=0=<=D=d=
-=0=B=Q=]=q=
-=0=T=`=h=
-=0>G>a>
-=1=?=l=
-=1>k>
-=1>l>
-=1?t?
-=21VNt
-=2=R=r=
-=2>7>U>i>
-=2>b>
-=2YUYw,tC=GPJMt
-=3=8=
-=3>^?
-=4=F=L=S=p=x=
-=5^:>
-=6>C>
-=6>E>V>b>i>}>
-=8=D=d=p=
-=8=I=R=e=
-=8=\=
-=8>>>G>
-=8>A>
-=8>M>Z>g>r>i?
-=8>l>
-=9>[>
-=:>Y>
-=:>_>
-=<=B=N=_=p=
-=<>(?t?
-=<>B>Y>m>
-=<>O>Y>b>k>w>
-=<>T>p>
-===E=
-=>=[=b=j=
-=>>G>P>Y>^>c>j>
-=?>h>l>p>t>x>
-=?>o>
-=@=L=T=t=
-=ABGRu*
-=AMDiu
-=Authu
-=C>S>(?
-=D>Q>[>d>m>x>}>
-=D>R>
-=E>P>^>z>
-=Genuu
-=H=L=P=T=B?r?
-=H=L=P=T=X=\=`=d=h=v=
-=H=Q=Z=c=h=m=t=
-=H=u=
-=O=b=~=
-=V= ?
-=V=c=
-=V>e>
-=VYUYt
-=X>_>f>~>
-=X>k>w>
-=Y>b>k>t>y>~>
-=Z>{>
-=]>i>x>
-=^=s=
-=^>p>
-=_=j=s=|=
-=_?d?y?~?
-=`>l>u>
-=`>|>
-=abgrt
-=b=l=v=
-=c=H>
-=c?u?
-=d>s>|>
-=h=l=p=t=x=|=
-=h>$?P?
-=i>r>{>
-=q=J?
-=rIQU
-=s=x=
-=svuyt
->	?0?O?V?`?
->	?2?H?x?
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
-> >$>(>,>0>4>8><>@>D>H>L>P>m>
-> >%>*>/>4>9>>>C>H>M>R>W>\>a>f>q>~>
-> >*>4>>>H>R>\>f>p>z>
-> >0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>
->!>1>A>Q>a>q>
->!>2>:>?>J>[>y>
->"?+?4???D?I?P?
->#>(>->2>7><>A>F>K>P>U>Z>_>d>i>n>s>x>}>
->#?c?o?
->#?s?}?
->$>)>.>3>8>=>B>G>L>Q>V>[>`>e>j>o>t>y>~>
->$>,>4><>D>L>T>`>
->$>.>
->$><>L>P>`>d>h>p>
->$>D>L>T>\>d>l>t>|>
->$>H>T>\>|>
->%>/>:>@>M>
->%>d?w?
->%?a?
->%?e?
->&>+>1>;>E>U>e>u>~>
->&>->4>;>B>I>P>W>^>
->&>/>4>9>@>
->&>V>
->&?5?\?u?
->&?K?p?
->'>4>
->'>E>f>
->'>L>n>
->'?0?9?B?G?L?S?
->'?h?
->(>,><>@>D>L>d>t>x>
->(>4><>\>
->(>8><>L>P>T>X>`>x>
->(>G>a>
->(?4?
->)>0>B>R>b>r>
->)>5>N>Z>g>w>
->*>/>6>E>V>y>
->*>4>=> ?*?1?
->*>>>]>m>r>
->+>I>f>
->+>a>
->+?c?
->,>0>4><>T>d>h>x>|>
->,>0>@>D>H>P>h>x>|>
->,>@>L>T>t>|>
->,>P>\>d>
->,?E?^?
->->6>
->->B>
->->G>g>
->->|>
->-?;?I?
->.>v>
->.?=?N?
->.?B?H?b?
->0<0:
->0>5>D>N>S>i>
->0>8>
->0><>D>\>d>|>
->1>6>L>V>7?<?Q?V?l?v?
->1>>>g>
->1>w>
->1?9?F?
->2>K>6?E?r?
->2>^>
->3>(?
->3?E?
->3?t?
->4>9>
->4>9>O>Y>
->4>H>t>|>
->5>i>
->5?>?G?R?W?\?j?
->6>f>
->6>z>
->8>@>H>`>l>
->8>D>L>l>
->8>X>t>
->8>X>x>
->8>d>i>
->8?<?@?D?H?L?P?T?X?\?`?d?h?l?
->8?<?@?D?H?l?
->9?B?
->9?E?
->:>]>
->=>u>
->??S?`?m?x?
->B?K?y?
->B?]?p?|?
->B?j?
->B`E?)\
->D>M>V>a>f>k>r>
->D?_?
->E>o>t>
->F?S?
->G>^>
->I?T?
->J>P>U>
->J>T>^>i>q>{>
 >KPm?
->M>T>
->Mp$d
->N?n?x?
->O?T?i?n?
->R?a?
->T?{?
 >X9t?
->X?\?`?d?h?l?p?t?
->Y>b>k>t>y>~>
->Z>+?[?
->]?q?
->^>f>
->`>k>
->f>t>
->f?x?
->h?t?
->i>m>
->l>p>t>x>|>
->p>t>x>|>
->u?{?
-?	?<?B?w?}?
-? ?$?(?,?0?
-? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-? ?$?,?D?T?X?h?l?p?x?
-? ?%?*?/?4?9?>?C?H?M?R?W?\?a?f?k?p?
-? ?)?5?>?C?t?
-? ?)???E?L?U?k?q?x?
-? ?0?4?<?T?d?h?x?|?
-? ?4?T?`?
-? ?8?H?L?\?`?d?h?p?
-? ?w?
-?!?*?4?B?j?q?|?
-?!?1?A?Q?a?q?
-?!?H?L?P?T?X?w?
-?"?2?B?R?b?r?
-?#?(?.?8?B?U?Z?i?
-?#?)?.?7?>?G?L?V?b?
-?#?*?1?8???F?M?T?[?b?i?p?w?~?
-?#?<?U?p?{?
-?$?)?.?3?8?=?B?G?L?Q?V?[?`?
-?$?)?=?_?j?w?
-?$?*?0?6?<?B?L?Z?v?
-?$?,?4?@?`?h?p?x?
-?%?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-?%?0?I?T?g?
-?%?4?;?B?G?N?
-?%?`?w?
-?&?`?
 ?&x0O
-?'1(?
-?'?/?
-?(?,?<?@?D?H?P?h?x?|?
-?(?1?:???D?K?
-?(?8?<?L?P?T?X?`?x?
-?(?<?D?d?x?
-?(?<?L?`?h?
-?(?H?P?X?`?|?
-?(?R?
-?)?4?o?
-?)?=?E?S?d?l?
-?)?i?
-?)\o?;
-?*?C?\?
-?+?0?6?@?Q?Z?`?n?v?
-?,?2?7?E?J?R?_?e?l?y?
-?,?P?\?d?
-?-?D?\?w?
-?-?f?u?
-?/?4?E?f?l?
-?/?R?
-?0?<?D?d?
-?0?b?
-?1?6?L?V?
-?2?|?
 ?333333
-?3?8?
-?3?K?
-?4?<?D?P?p?x?
-?4?X?d?l?
-?5?;?V?\?r?x?
-?5?P?
-?6?T?r?
-?7?B?J?
-?8?e?
-?8?p?
-?<?F?
-?<?_?
-?<?`?l?t?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -3221,7 +848,6 @@ $tI<unknown>
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_K@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z
-???E?z?
 ??Bid@locale@std@@QAEIXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
@@ -3229,22 +855,9 @@ $tI<unknown>
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?@?L?T?t?
-?D?b?
-?D?s?
-?J?R?X?c?
-?J?T?^?i?q?{?
-?N?V?
-?N?}?
 ?Nbp?
-?Q?m?
-?QWPj
-?U?q?~?
 ?UUUUUU
 ?VUUUUU
-?X?d?
-?Xb&<
-?Z?d?m?v?
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z
@@ -3271,12 +884,9 @@ $tI<unknown>
 ?_Xout_of_range@std@@YAXPBD@Z
 ?always_noconv@codecvt_base@std@@QBE_NXZ
 ?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
-?d?h?l?p?t?x?|?
 ?es-8R
-?f?x?
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
-?g?~?
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ
 ?gyro_scale
@@ -3291,7 +901,6 @@ $tI<unknown>
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
-?r?}?
 ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PAV32@@Z
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
@@ -3312,7 +921,6 @@ $tI<unknown>
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@U_Mbstatet@@@2@XZ
 ?tellp@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@U_Mbstatet@@@2@XZ
-?u='?
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?uncaught_exceptions@std@@YAHXZ
@@ -3322,52 +930,25 @@ $tI<unknown>
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
-@ WPj
-@$(_^
-@$RPj
-@$SPj
-@$WPj
-@(_^[
-@.data
-@.reloc
-@.rsrc
-@0QPj
-@0WPj
-@SVWj
 @UUUUUU
-@VWj?
-@^8U)zj
 @fff>fff>fff>fff>
-@jdj@
-@tWPj
-A PQV
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
-A(;B(_
-A0K0a0n0
-A0y0]1c1z1
-A49A0u"hpp
-A8PQV
-A;O |
-A;O(r
+A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
-AD;G$u
 ADVAPI32.dll
 AHJzrJbk
 ALVRDisplayInit
 ALVRInit
-AP;A(|
-ASSERT: "%s" at %s:%d.
-AT;A,|
-AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY
+ASSERT: "%s" at %s:%d.\n
+AUAA
+AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDIO: 
 AUDIO: %s
-AX,0<	w
-AX<0|
 Accessor
-Add Json firmware manifest from %s
+Add Json firmware manifest from %s\n
 AddBool
 AddDouble
 AddEnum
@@ -3378,14 +959,12 @@ AddMessage
 AddString
 AddUInt32
 AddUInt64
-Additional system report data updated for %s
+Additional system report data updated for %s\n
 Adobe
-Ah;A\r
-Ah;A\se
 Alfred
 Alias
 Already saw decimal point or exponent; can't have another one.
-Already tracking from %d bases
+Already tracking from %d bases\n
 AnimationChannel
 Anx temp: 
 App CRC invalid
@@ -3393,34 +972,29 @@ App Init
 App not found
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
-Assertion failed:  Explicit right sync does not match pending frame
+Assertion failed:  Explicit right sync does not match pending frame\n
 Asset
-At+Ap
-Attached HID Devices:
-Attempt to add tilt observation to DB for %08X which has never had a dynamic state observation
+Attached HID Devices:\n
+Attempt to add tilt observation to DB for %08X which has never had a dynamic state observation\n
 Attempted Default Load: 
 Attempted Gold Load: 
-Attempting HID Open %s: %s
+Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-AudioDeviceChangeNotice (noting refresh): %d, device = %s
+AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AvRevertMmThreadCharacteristics
-AvRevertMmThreadCharacteristics failed: last error is %d
+AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
-Available samples not sufficient for booting (%s)
-B [_^]
-B(+B$
-B0K0T0]0b0g0y0
-BD9x(u
+Available samples not sufficient for booting (%s)\n
+BETA
 BL Init
 BL requested by app
 BL requested by buttons
 BMP RLE
-BP;BTu
 BQ27421
 BQ27520
-BRAND NEW BASE %08X recorded
+BRAND NEW BASE %08X recorded\n
 BackUp() can only be called after a successful Next().
 Backlight Init
 Backlight Init Error
@@ -3429,46 +1003,36 @@ Bad State
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Base %08X (modelid: %d) transmitting faults %s (%08X)
-Base %08X already has pose to global. Not changing anything
-Base %08X axis %d appears to have failed
-Base %08X is learning to get to %08X because of direct observation
-Base %08X is learning to get to global from %08X because of chain
-Base %08X is learning to get to global from %08X because of direct observation
-Base %08X reset count changed.  Base may have been bumped or power cycled.
-Base station driver for %08X rejected by vrserver
+Base %08X (modelid: %d) transmitting faults %s (%08X)\n
+Base %08X already has pose to global. Not changing anything\n
+Base %08X axis %d appears to have failed\n
+Base %08X is learning to get to %08X because of direct observation\n
+Base %08X is learning to get to global from %08X because of chain\n
+Base %08X is learning to get to global from %08X because of direct observation\n
+Base %08X reset count changed.  Base may have been bumped or power cycled.\n
+Base station driver for %08X rejected by vrserver\n
 Batman
 Batt: 
-Bellevue1
-Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
+Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f\n
 Beyond
 Bigscreen
 Bigscreen Beyond
 Boolean default must be true or false.
 Boot to app
-Bootstrap failed because no IMU data was available%s
-Bootstrap pose is out of range at %0.1fm
-BootstrapFinished setting tilt base to %08X
+Bootstrap failed because no IMU data was available%s\n
+Bootstrap pose is out of range at %0.1fm\n
+BootstrapFinished setting tilt base to %08X\n
 Boy/Girl
 Buffer
 BufferView
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C(PVjPj
-C0S0`0u0
-C4;C8
-C4PVjXj
-C9P,|
-C;ZX|
-C;^$|
-C;^\|
+C-Yn
 CAnimResource
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
-CBaseConfig
 CBaseConfigAndDynamicState
 CBoneMaskResource
-CDisambiguatorFramer: Non monotonicity in ProcessSensorHit
-CDynamicState
+CDisambiguatorFramer: Non monotonicity in ProcessSensorHit\n
 CHECK failed: !coded_out.HadError(): 
 CHECK failed: !is_closed_: 
 CHECK failed: !out.HadError(): 
@@ -3515,8 +1079,7 @@ CHECK failed: trees:
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
 CHeader
-CHidDevice: Can't open USB device VID %08x, PID %08x %s %d
-CImuSample
+CHidDevice: Can't open USB device VID %08x, PID %08x %s %d\n
 CKeyframedDataResource
 CLighthouseHmdDriver::InitTracking
 CLighthouseHmdDriver::RunFrame
@@ -3529,7 +1092,7 @@ CLighthouseHmdProvider::RunFrame/LighthouseDB
 CLighthouseHmdProvider::RunFrame/WirelessDeviceDiscovery
 CLighthousePairing::RunFrame
 CMMNotificationClient::Register
-COpticalFrame
+CORD
 COpticalSample
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
@@ -3542,7 +1105,7 @@ CPPTYPE_STRING
 CPPTYPE_UINT32
 CPPTYPE_UINT64
 CRecord
-CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....
+CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
 CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
@@ -3559,64 +1122,52 @@ Cal Fail
 Calibration failed
 Camera
 Can't 
-Can't create connection to %s for Bluetooth services.
-Can't create lighthouse connection to %s
+Can't create connection to %s for Bluetooth services.\n
+Can't create lighthouse connection to %s\n
 Can't get here.
 Can't get here: failed to get default value as string
-Can't parse HMD config from USB: %s
+Can't parse HMD config from USB: %s\n
 CancelIo
 Cannot allocate buffer larger than kint32max for 
-Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
+Clamping MC to %d (%0.1f%%) %d (%0.1f%%)\n
 ClearField
 CloseHandle
 CloseServiceHandle
 CoCreateInstance
-CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x
+CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
 CoInitializeEx
-CoInitializeEx, hr = 0x%08x
+CoInitializeEx, hr = 0x%08x\n
 CoTaskMemFree
 CoUninitialize
-Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x
-Could add as alternate, but disallowed by LighthouseDB
-Could boot, but disallowed by LighthouseDB
+Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
+Could add as alternate, but disallowed by LighthouseDB\n
+Could boot, but disallowed by LighthouseDB\n
 Could not create an instance of 
 Could not find field named "
 Could not find field type.
-Could not find monitor of expected size %d x %d Attached monitors: %d
-Could not open "%s": %s
-Could not open device %u, %u, %s to read its config
+Could not find monitor of expected size %d x %d Attached monitors: %d\n
+Could not open "%s": %s\n
+Could not open device %u, %u, %s to read its config\n
 Could not open replay file "
 Could not read header from file "
 Couldn't parse default value "
 CreateDXGIFactory2
 CreateDirectoryW
 CreateEventA
-CreateEventEx failed
+CreateEventEx failed\n
 CreateEventExA
 CreateEventW
 CreateFileA
-CreateMediaType(pwfxIn) failed hr = 0x%08x
-CreateMediaType(pwfxOut) failed hr = 0x%08x
-CreateResampler failed: hr = 0x%08x
-CreateResamplerBuffer (input) failed: hr = 0x%08x
-CreateResamplerBuffer (output) failed: hr = 0x%08x
+CreateMediaType(pwfxIn) failed hr = 0x%08x\n
+CreateMediaType(pwfxOut) failed hr = 0x%08x\n
+CreateResampler failed: hr = 0x%08x\n
+CreateResamplerBuffer (input) failed: hr = 0x%08x\n
+CreateResamplerBuffer (output) failed: hr = 0x%08x\n
 CreateThread
-CreateThread for playback failed: last error is %u
+CreateThread for playback failed: last error is %u\n
 CreateWindowExA
-Creating new universe %llu because there were no %sexisting universes
-Creating playback mirror thread for device %s
-Ct;Cxu
-D$ XX
-D$$Pj
-D$$WP
-D$$h2
-D$,PS
-D$,PhtS
-D$,j@
-D$4U3
-D$@PQ
-D$@SVW3
-D$LVP
+Creating new universe %llu because there were no %sexisting universes\n
+Creating playback mirror thread for device %s\n
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 DISABLED
@@ -3641,63 +1192,52 @@ DISTORT_RPOLY2_1
 DISTORT_RPOLY2_2
 DISTORT__COUNT
 DP Init
-DVWj1
-DVWjQ
 Data Invalid
 DefWindowProcA
 Default value for an enum field must be an identifier.
-Defaulting Edid to TSB and 0x8888 because we don't know it
+Defaulting Edid to TSB and 0x8888 because we don't know it\n
 Delayed State Change
 DeleteCriticalSection
 DeleteFileW
 DescriptorProto
 DescriptorProtosH
 DestroyWindow
-Detected %d playback and %d record devices
+Detected %d playback and %d record devices\n
 Dev Error
-Device %s powering off upon entering standby.
+Device %s powering off upon entering standby.\n
 Device %s requires driver %s, which is not present
-Device JSON: Found entry... overriding TrackedCameraCalibrations extrinsics
-Device JSON: Overriding Head Position (%s)
-Device JSON: Overriding IPD control to enabled (%s)
-Device JSON: Overriding display_color_mult
-Device JSON: Overriding incorrect device normal (%s)
-Device JSON: Overriding input_profile (%s)
-Device JSON: Overriding input_profile to %s (%s)
-Device JSON: Overriding parallel_render_cameras to enabled (%s)
-Device JSON: Overriding proximityEnable to %d (%s)
-Device JSON: Overriding resource_root (%s)
-Device JSON: Overriding subpixel_shift (%s)
-Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)
+Device JSON: Found entry... overriding TrackedCameraCalibrations extrinsics\n
+Device JSON: Overriding Head Position (%s)\n
+Device JSON: Overriding IPD control to enabled (%s)\n
+Device JSON: Overriding display_color_mult\n
+Device JSON: Overriding incorrect device normal (%s)\n
+Device JSON: Overriding input_profile (%s)\n
+Device JSON: Overriding input_profile to %s (%s)\n
+Device JSON: Overriding parallel_render_cameras to enabled (%s)\n
+Device JSON: Overriding proximityEnable to %d (%s)\n
+Device JSON: Overriding resource_root (%s)\n
+Device JSON: Overriding subpixel_shift (%s)\n
+Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)\n
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
-Devices with no on-device calibration are not supported in the Lighthouse driver.
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+Devices with no on-device calibration are not supported in the Lighthouse driver.\n
 DisableThreadLibraryCalls
 Disabled
 Disabled by Config
-Discarded IMU sample in ImuOnlyTracker because they were backing up.
-Discarding %u haptic events because there were too many this frame
-Discarding duplicate universe %llu at index %d when parsing db json file %s
+Discarded IMU sample in ImuOnlyTracker because they were backing up.\n
+Discarding %u haptic events because there were too many this frame\n
+Discarding duplicate universe %llu at index %d when parsing db json file %s\n
 DismissedWarnings
 DispatchMessageA
 Display
 DisplayFPGA
-Disregard world_from_global entry in universe %llu
+Disregard world_from_global entry in universe %llu\n
 Distortion_Type
 Dongle
 DongleV2
-Dropped %s during the previous tracking session
-Duplicate basestation serials detected.
+Dropped %s during the previous tracking session\n
+Duplicate basestation serials detected.\n
 Duplicate key: '
-Dz/h0
-E(VSP
 ECameraHAL_OpenError_ToString
 ERROR
 ERROR: Expected 1 float args, fDegrees'
@@ -3705,68 +1245,67 @@ ERROR: Expected 1 float args, fPitchDegrees'
 ERROR: Expected 2 float args, '
 ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
 ERROR: Expected 2 float args, fDegreesLeft fDegreesRight'
-ERROR: GetEdidId (%d)
-ERROR: GetVideoConfig (%d)
-ERROR: No display or device
-ERROR: SetEdidId (%d)
-ERROR: SetVideoConfig (%d)
-Edid already edid_id %d, no change needed
+ERROR: GetEdidId (%d)\n
+ERROR: GetVideoConfig (%d)\n
+ERROR: No display or device\n
+ERROR: SetEdidId (%d)\n
+ERROR: SetVideoConfig (%d)\n
+Edid already edid_id %d, no change needed\n
 Empty escape sequence in string
 Empty file.
 Enabling Prism Correction... overriding loaded device JSON
 End-of-file inside block comment.
-Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x
-Endpoint topology GetConnector(0) failed: hr = 0x%08x
+Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
+Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
 Entered Debug
 Entry #
 Enum type "
-EnumAudioEndpoints failed: hr = 0x%08x
+EnumAudioEndpoints failed: hr = 0x%08x\n
 EnumDescriptorProto
 EnumDisplayDevicesA
 EnumDisplayMonitors
-EnumOptions
 EnumValueDescriptorProto
 EnumValueOptions
-Enumerating displays...
+Enumerating displays...\n
 Enums must contain at least one value.
-Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)
-Error SetVideoConfigAndWaitForDisplayReenumeration
-Error creating component: %d (%s) in %s
-Error getting Watchman HMD Status.
-Error getting Watchman Status.
-Error loading HMD overrides from file
-Error loading MC data '%s'
-Error loading MC data. Buffer too small to contain image.
-Error loading MC info '%s'
-Error loading device profile: %s
-Error on GetFeatureReport
-Error on Watchman_Feature_EdidEnumerate
-Error on Watchman_Feature_EdidInfo
-Error on reply_version
-Error parsing all digits of rootserial. Skipping overrides
-Error parsing device profile JSON: %s: %s
+Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)\n
+Error SetVideoConfigAndWaitForDisplayReenumeration\n
+Error creating component: %d (%s) in %s\n
+Error getting Watchman HMD Status.\n
+Error getting Watchman Status.\n
+Error loading HMD overrides from file\n
+Error loading MC data '%s'\n
+Error loading MC data. Buffer too small to contain image.\n
+Error loading MC info '%s'\n
+Error loading device profile: %s\n
+Error on GetFeatureReport\n
+Error on Watchman_Feature_EdidEnumerate\n
+Error on Watchman_Feature_EdidInfo\n
+Error on reply_version\n
+Error parsing all digits of rootserial. Skipping overrides\n
+Error parsing device profile JSON: %s: %s\n
 Error parsing text-format 
-Error querying Index HMD panel stats
-Error querying IndexHmdColumnCorrectionMode
+Error querying Index HMD panel stats\n
+Error querying IndexHmdColumnCorrectionMode\n
 Error reading tracked device config from path 
-Error serializing persistent statistics entry
-Error setting column correction
-Error setting index audio mute state
-Error setting index backlight gain
-Error unzipping config data: %s
+Error serializing persistent statistics entry\n
+Error setting column correction\n
+Error setting index audio mute state\n
+Error setting index backlight gain\n
+Error unzipping config data: %s\n
 Error while parsing option value for "
-Error! Unable to load firmware manifest %s after allocating memory
-Error: Override File %s cannot be read
-Error: Override File %s crc mismatch. Actual: %08X, expected %08X 
-Error: Override File %s defined unknown format %d (expected 0x01)
-Error: Override File %s is empty.
-Error: Override File %s is not a valid override file (magic number mismatch)
-Error: Override File %s is too small, or cannot be read
-Error: Override File %s is too small. Actual size: %d, expected size %d 
-Error: Override File does not have entry for device key 0x%08X
-Error: Override file %s exceeds maximum size %d
-Errors when parsing lighthouse database %s:
+Error! Unable to load firmware manifest %s after allocating memory\n
+Error: Override File %s cannot be read\n
+Error: Override File %s crc mismatch. Actual: %08X, expected %08X \n
+Error: Override File %s defined unknown format %d (expected 0x01)\n
+Error: Override File %s is empty.\n
+Error: Override File %s is not a valid override file (magic number mismatch)\n
+Error: Override File %s is too small, or cannot be read\n
+Error: Override File %s is too small. Actual size: %d, expected size %d \n
+Error: Override File does not have entry for device key 0x%08X\n
+Error: Override file %s exceeds maximum size %d\n
+Errors when parsing lighthouse database %s:\n%s\n
 Errors!
 EventRegister
 EventUnregister
@@ -3775,7 +1314,7 @@ ExpandEnvironmentStringsA
 ExpandEnvironmentStringsW
 Expect a decimal number.
 Expected "
-Expected MC Images:
+Expected MC Images:\n
 Expected double.
 Expected eight hex digits up to 10ffff for \U escape sequence
 Expected four hex digits for \u escape sequence.
@@ -3798,77 +1337,21 @@ ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
-Eye Displays must be adjacent: left (%d, %d), right (%d, %d)
-F ;FLu9h
-F C+F
-F G+F
-F WPj
-F!WPj
-F"WPj
-F#WPj
-F$_^[
-F(+F$
-F(;G(
-F(Q9F,t
-F(SPj
-F(Wj0
+Eye Displays must be adjacent: left (%d, %d), right (%d, %d)\nUse Screen Resolution control panel to fix
 F(cannot determine missing fields for lite message)
-F(j4f
-F)SPj
-F*SPj
-F,;F0
-F,;F0~
-F,;N0
-F,;V0
-F,C+F(
-F,[_3
-F09F,uu
-F0U0*191J1R1Z1
-F1V1V2e2f3u3v4
-F;w |
-F;w(|
-F;w,|
-F;w4|
-F;w8|
-F;w`|
-F<9F8uu
-F<I#NDW
-F<J#VD
-F<WPj
-F<\uD
-F=WPj
-F>9F0~
-F>WPj
 FATAL
-FH;FDu
-FHWPj	
-FH_^]
-FIWPj
-FJWPj
-FLQ9FPt
 FORMAT=32-bit_rle_rgbe
 FPGA susp: 
-FS callback[s] not set
-FU:C9t
+FS callback[s] not set\n
 FW App
 FW Assert
 FW BL
 FW Update Finish
 FW Update Load
 FW Update Start
-FX,0<	
-FX< t
-FX<"u
-FX<*tM</tI<
-FX</u&
-FX<0t
-FX<0|
-FX<a|
-FX<et
-FX<ft
-FX<xt
-Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
-Failed to create IMU IOBuffer for %d (error=%d, handle=%d)
+F\n\foptimize_for
+Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
+Failed to create IMU IOBuffer for %d (error=%d, handle=%d)\n
 Failed to create window in DeviceMessageWindow_t::Create
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
@@ -3887,19 +1370,19 @@ Failed to find entrypoint WINRT_ReleaseDisplay
 Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
-Failed to get log path for persistent statistics.
+Failed to get log path for persistent statistics.\n
 Failed to load external 'uri' for image[
-Failed to parse JSON object
+Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
-Failed to read config when activating watchdog on button press: %s
+Failed to read config when activating watchdog on button press: %s\n
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
-Failed to send OTGT result
-Failed to send pairing result mailbox message. Maybe it didn't have a return address?
-Failed to send reply to discover_dongles message: %d
-Failed to start pairing on dongle %s
-Failed to write file %s
+Failed to send OTGT result\n
+Failed to send pairing result mailbox message. Maybe it didn't have a return address?\n
+Failed to send reply to discover_dongles message: %d\n
+Failed to start pairing on dongle %s\n
+Failed to write file %s\n
 False
 Field "
 Field does not match message type.
@@ -3916,7 +1399,6 @@ FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
 FieldDescriptorProto.oneof_index should not be set for extensions.
-FieldOptions
 FieldSize
 Fields of oneofs must themselves have label LABEL_OPTIONAL.
 File already exists in database: 
@@ -3933,63 +1415,24 @@ File write error:
 File: 
 FileDescriptorProto
 FileDescriptorSet
-FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 Firmware
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
-Fl+Fp=
 Flextronics
-Flf+Fp
-Found Direct Mode Display
-Found default audio playback device %s, VID:%04x/PID:%04x %s
-Found default audio recording device %s, VID:%04x/PID:%04x %s
-Found per-device override of unhandled type %d
-Found two different DeviceIDs for monitor %s: %s and %s
-Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).
-Framer sensorType: %d
-Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d
+Found Direct Mode Display\n
+Found default audio playback device %s, VID:%04x/PID:%04x %s\n
+Found default audio recording device %s, VID:%04x/PID:%04x %s\n
+Found per-device override of unhandled type %d\n
+Found two different DeviceIDs for monitor %s: %s and %s\n
+Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).\n
+Framer sensorType: %d\n
+Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d\n
 FreeLibrary
 Fuel Gauge Reset
-Full base station info: >>>%s<<<
+Full base station info: >>>%s<<<\n
 Future Model
-G PVj
-G!+G%
-G$;FDt
-G(SPj
-G(SPj!
-G,9r8~*3
-G-+G%
-G0L0a0f0|0
-G49rH~*3
-G4^_]
-G8_^[
-G;~$|
-G;~(|
-G;~,|
-G;~0|
-G;~8|
-G;~<|
-G;~D|
-G;~H|
-G;~L|
-G;~T|
-G;~X|
-G;~\|
-G;~d|
-G;~d}
-G;~h|
-G;~l|
-G;~t|
-G;~x|
-G<9ZX~t
-G@+G<
-GD)wp)wl)w\
-GD9r(~23
-GH+G@
-GH+G@HP
-GH+G@P
 GLOG_alsologtoemail
 GLOG_alsologtostderr
 GLOG_colorlogtostderr
@@ -4011,11 +1454,10 @@ GLOG_vmodule
 GOOGLE_ALSOLOGTOSTDERR
 GOOGLE_LOGTOSTDERR
 GOOGLE_LOG_DIR
-GPJMtG
 General reset
-Generating hidden area mesh for mode "%d" %s
+Generating hidden area mesh for mode "%d" %s\n
 GetACP
-GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 GetBool
 GetCameraHALInterface
 GetClassInfoA
@@ -4023,13 +1465,13 @@ GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
-GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x
-GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x
-GetDefaultAudioEndpoint failed: hr = 0x%08x
+GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetDouble
 GetEnum
 GetEnvironmentVariableA
-GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeThread
 GetFileAttributesExW
 GetFileAttributesW
@@ -4040,7 +1482,7 @@ GetFullPathNameW
 GetInt32
 GetInt64
 GetLastError
-GetMediaSubtype failed hr = 0x%08x
+GetMediaSubtype failed hr = 0x%08x\n
 GetMessage
 GetModuleFileNameA
 GetModuleFileNameW
@@ -4070,26 +1512,16 @@ GetTickCount64
 GetUInt32
 GetUInt64
 GetWindowLongA
-Getting devnode property store failed: hr = 0x%08x
-Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
-Gl;Gx|fj#hTs
-Gp_^]
+Getting devnode property store failed: hr = 0x%08x\n
+Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 GpuSpeed
+H$6t
 H*0"ZOW
-H-^Eu
-H1f1f2
-H;r8|
-H;s$|
-H;s(|
-H;w$|
-H;~(|
-HAPTICDEBUG %s:%d age: %f	 sec: %f	 freq: %f	 amp: %f
-HG;{(|
-HID opened: VID %04x PID %04x serial %S seq %d | if %d
-HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
-HMD Model: %s
+HAPTICDEBUG %s:%d age: %f\t sec: %f\t freq: %f\t amp: %f\n
+HID opened: VID %04x PID %04x serial %S seq %d | if %d\n
+HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)\nUse Screen Resolution control panel to fix\n
+HMD Model: %s\n
 HMD Report:
-HSVWj
 HTC SR-1
 HTC V2-XC
 HTC V2-XD/XE
@@ -4098,11 +1530,9 @@ HTC Vive Developer Edition
 HTC Vive Pro
 HTC-VIVE
 HWID Signature not found
-HWPRQ
-HXWSR
 HasField
 Hex and octal numbers must be integers.
-Hid not open
+Hid not open\n
 HidD_FreePreparsedData
 HidD_GetAttributes
 HidD_GetFeature
@@ -4113,76 +1543,76 @@ HidD_GetProductString
 HidD_GetSerialNumberString
 HidD_SetFeature
 HidP_GetCaps
-HmdDeviceConnect( %u, %u, %llu, %llu )
+HmdDeviceConnect( %u, %u, %llu, %llu )\n
 HmdDriverFactory
-I0g0o0
-IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u
-IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x
-IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x
-IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x
-IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x
-IAudioClient::GetDevicePeriod failed: hr = 0x%08x
-IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms
-IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms
-IAudioClient::GetMixFormat failed: hr = 0x%08x
-IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x
-IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x
-IAudioClient::Stop failed: hr = 0x%08x
-IAudioClientFrom::GetBufferSize failed: hr = 0x%08x
-IAudioClientFrom::Initialize failed: hr = 0x%08x
-IAudioClientFrom::Start failed: hr = 0x%08x
-IAudioClientTo::GetBufferSize failed: hr = 0x%08x
-IAudioClientTo::Initialize failed: hr = 0x%08x
-IAudioClientTo::IsFormatSupported failed: hr = 0x%08x
-IAudioClientTo::SetEventHandle failed: hr = 0x%08x
-IAudioClientTo::Start failed: hr = 0x%08x
-IAudioEndpointVolume(IAudioClientFrom) supports hardware mute
-IAudioEndpointVolume(IAudioClientFrom) supports hardware volume
-IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x
-IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x
-IAudioEndpointVolume::GetMute failed: hr = 0x%08x
-IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x
-IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x
-IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x
-IAudioEndpointVolume::SetMute failed: hr = 0x%08x
-IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer
-IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
-IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
+IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
+IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x\n
+IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod failed: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms\n
+IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms\n
+IAudioClient::GetMixFormat failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x\n
+IAudioClient::Stop failed: hr = 0x%08x\n
+IAudioClientFrom::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientFrom::Initialize failed: hr = 0x%08x\n
+IAudioClientFrom::Start failed: hr = 0x%08x\n
+IAudioClientTo::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientTo::Initialize failed: hr = 0x%08x\n
+IAudioClientTo::IsFormatSupported failed: hr = 0x%08x\n
+IAudioClientTo::SetEventHandle failed: hr = 0x%08x\n
+IAudioClientTo::Start failed: hr = 0x%08x\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware mute\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware volume\n
+IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMute failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x\n
+IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMute failed: hr = 0x%08x\n
+IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer\n
+IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x\n
+IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x\n
 ICE40
-IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
-IMFMediaBuffer::Lock failed: hr = 0x%08x
-IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
-IMFMediaBuffer::Unlock failed: hr = 0x%08x
-IMFSample::AddBuffer failed: hr = 0x%08x
-IMFTransform->SetInputType failed hr = 0x%08x
-IMFTransform->SetOutputType failed hr = 0x%08x
-IMFTransform::ProcessInput failed: hr = 0x%08x
-IMFTransform::ProcessOutput failed: hr = 0x%08x
-IMMDevice invalid ID: %ls -> %s
-IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x
-IMMDevice::Activate failed: hr = 0x%08x
-IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x
-IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x
-IMMDevice::GetId failed: hr = 0x%08x
-IMMDevice::GetState failed: hr = 0x%08x
-IMMDevice::Item(%u) failed: hr = 0x%08x
-IMMDevice::OpenPropertyStore failed: hr = 0x%08x
+IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Lock failed: hr = 0x%08x\n
+IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Unlock failed: hr = 0x%08x\n
+IMFSample::AddBuffer failed: hr = 0x%08x\n
+IMFTransform->SetInputType failed hr = 0x%08x\n
+IMFTransform->SetOutputType failed hr = 0x%08x\n
+IMFTransform::ProcessInput failed: hr = 0x%08x\n
+IMFTransform::ProcessOutput failed: hr = 0x%08x\n
+IMMDevice invalid ID: %ls -> %s\n
+IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x\n
+IMMDevice::Activate failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x\n
+IMMDevice::GetId failed: hr = 0x%08x\n
+IMMDevice::GetState failed: hr = 0x%08x\n
+IMMDevice::Item(%u) failed: hr = 0x%08x\n
+IMMDevice::OpenPropertyStore failed: hr = 0x%08x\n
 IMU Tracker
-IMU data received again...
+IMU data received again...\n
 IMU misalignment unreasonably large 
 IMU off scale
 IMU only!
 IMU samples
-IMU went off scale.
+IMU went off scale.\n
+INFO
 INFO: firmware_config %s
 INVALID
 INVALID_CPPTYPE
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND\n
 IServerTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
@@ -4244,7 +1674,6 @@ IVRVirtualDisplay_001
 IVRVirtualDisplay_002
 IVRWatchdogHost_002
 IVRWatchdogProvider_001
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 IiGM>nw
 Image data is empty for image[
 Image height mismatch. for image[
@@ -4253,28 +1682,28 @@ ImageBridge
 Import "
 In BL: 
 Index
-Index Controller CreateSkeletonComponent failed.  Error: %i
+Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Index HMD
 Index out-of-bounds (field is empty).
 Infinity
 InitCameraHAL
-InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.
-InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.
-InitTrackedCamera(): Failed to find expected interface on (%s). Camera services not available.
-InitTrackedCamera(): Failed to find primary configuration for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to get compatibility mode for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to get firmware description for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to get firmware version for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to open expected camera on (%s): %s. Camera services not available.
-InitTrackedCamera(): Failed to set video format for camera on (%s). Camera services not available.
-InitTrackedCamera(): Forcing camera exposure time to %2.2f %s
-InitTrackedCamera(): Forcing camera framerate to %d %s
-InitTrackedCamera(): Forcing camera gain to %2.2f %s
-InitTrackedCamera(): Forcing camera white balance to %d %s
-InitTrackedCamera(): No calibration configuration for camera found on (%s). Camera services not available.
-InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s
-InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.
-InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.
+InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.\n
+InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.\n
+InitTrackedCamera(): Failed to find expected interface on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to find primary configuration for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to get compatibility mode for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to get firmware description for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to get firmware version for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to open expected camera on (%s): %s. Camera services not available.\n
+InitTrackedCamera(): Failed to set video format for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Forcing camera exposure time to %2.2f %s\n
+InitTrackedCamera(): Forcing camera framerate to %d %s\n
+InitTrackedCamera(): Forcing camera gain to %2.2f %s\n
+InitTrackedCamera(): Forcing camera white balance to %d %s\n
+InitTrackedCamera(): No calibration configuration for camera found on (%s). Camera services not available.\n
+InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s\n
+InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.\n
+InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.\n
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
@@ -4288,13 +1717,13 @@ Interpreting non ascii codepoint %d.
 Invalid
 Invalid Arg
 Invalid Device
-Invalid HMD interrupt packet length %u
-Invalid HMD interrupt packet tag %X
-Invalid TDM lock on matched serial / phase.
+Invalid HMD interrupt packet length %u\n
+Invalid HMD interrupt packet tag %X\n
+Invalid TDM lock on matched serial / phase.\n
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.
+Invalid binary data in `Buffer'.\n
 Invalid camera type: "
 Invalid control characters encountered in text.
 Invalid data!
@@ -4305,14 +1734,14 @@ Invalid float number:
 Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
-Invalid persistent statistics serial
+Invalid persistent statistics serial\n
 Invalid proto descriptor for file "
 Invalid public dependency index.
-Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
-Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 Invalid strings::Substitute() format string: "
 Invalid symbol name: 
-Invalid universe ID %llu when parsing universe
+Invalid universe ID %llu when parsing universe\n
 Invalid value for boolean field "
 Invalid weak dependency index.
 Invalid wire type for CPPTYPE_INT32: 
@@ -4325,50 +1754,39 @@ IsDebuggerPresent
 IsManual
 IsProcessorFeaturePresent
 IsWow64Process
-J0+J(
-J>@G_
+JFIF
+JSON
 JSON Update
-JSON string too short.
-JSONuTS
-Jd;J`}
-K8+K4
-KDWVP
+JSON string too short.\n
 KERNEL32.dll
 KHR_lights_punctual
 Knuckles
 Knuckles EV1.3
 Knuckles EV1.4
-K}*n:	
-L$ Wj
-L$,QSUR
-L$<QS
-L$@QVW
 L=333?O
-L?n(Zy&
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
 LG Prototype
 LHB-%08X
+LHR-
 LHR-%08X
 LHR-00000000
 LINEAR
-LITE_RUNTIME
 LPC11 App
 LPC11 BL
 Label
-Last sample %d %lf %lf
+Last sample %d %lf %lf\n
 LastKnown
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-Lighthouse %s HID device error
-Lighthouse %s HID opened
-Lighthouse DB Base station %08X has a zero serialNumber in JSON
-Lighthouse DB Base station %08X has no serialNumber in JSON
-Lighthouse HMD failed sanity-check
+Lighthouse %s HID device error\n
+Lighthouse %s HID opened\n
+Lighthouse DB Base station %08X has a zero serialNumber in JSON\n
+Lighthouse DB Base station %08X has no serialNumber in JSON\n
+Lighthouse HMD failed sanity-check\n
 LighthouseDirect
-LighthouseDirect:  Unexpected backwards optical sample time
-LighthouseDirect: Optical data at time %.6f < filter at %.6f%s
+LighthouseDirect:  Unexpected backwards optical sample time\n
+LighthouseDirect: Optical data at time %.6f < filter at %.6f%s\n
 LighthouseUSB
 Line %d, Column %d
 Line: 
@@ -4376,34 +1794,35 @@ LiquidVR
 LoadLibraryA
 LoadLibraryExW
 LoadLibraryW
-Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f
-Loading MC file '%s'
-Loading of firmware manifest file (%s) not successful: (%d)
-Loading override file: %s
+Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f\n
+Loading MC file '%s'\n
+Loading of firmware manifest file (%s) not successful: (%d)\n
+Loading override file: %s\n
 LocalAlloc
 LocalFree
 LocalizationManager
 Location
 Log Erase
-Looking for default audio playback device matching VID:%04x/PID:%04x %s
-Looking for default audio recording device matching VID:%04x/PID:%04x %s
-Lost default audio playback %s
-Lost default audio recording %s
-L~Zs@
-M 9u$tV
-M$SVW
-M0I1^4Z6
+Looking for default audio playback device matching VID:%04x/PID:%04x %s\n
+Looking for default audio recording device matching VID:%04x/PID:%04x %s\n
+Lost default audio playback %s\n
+Lost default audio recording %s\n
+M8MF
+MAT2
+MAT3
+MAT4
 MAX10
-MB(iVR
 MFCreateMediaType
 MFCreateMemoryBuffer
-MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
+MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
 MFCreateSample
-MFCreateSample failed: hr = 0x%08x
+MFCreateSample failed: hr = 0x%08x\n
+MGiI
 MIPI Init
 MIPI Init Error
+MSB 
 MSVCP140.dll
-Mailbox %s received message %s, which it didn't have a handler for
+Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MainThrd
 ManualURL
@@ -4414,7 +1833,6 @@ Mark 4
 Max watchdog reset count
 Mb ?QFo
 MbP?GUQ?
-Mb`?|
 Mbp?USERNAME
 Message class "
 Message extensions cannot have required fields.
@@ -4426,38 +1844,32 @@ MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
 MethodDescriptorProto
-MethodOptions
-Mf9/t%
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Mirroring from %s to %ls
-Mirroring is same as source %s, not mirroring
+Mirroring from %s to %ls\n
+Mirroring is same as source %s, not mirroring\n
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing String for %s (%d)
-Missing base serial number in base universe reference
-Missing base station array when parsing universe %llu
+Missing base serial number in base universe reference\n
+Missing base station array when parsing universe %llu\n
 Missing field: FileDescriptorProto.name.
 Missing name.
 Missing required param "filename"
-Missing target pose in base universe reference
-Moving base %08X %.0fmm and %.1f deg because of relationship with %08X, which is closer to the origin
+Missing target pose in base universe reference\n
+Moving base %08X %.0fmm and %.1f deg because of relationship with %08X, which is closer to the origin\n
 MultiByteToWideChar
-Multiple TDM masters in mode B.
-Multiple TDM slaves in mode A/C.
-Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.
+Multiple TDM masters in mode B.\n
+Multiple TDM slaves in mode A/C.\n
+Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.\n
 MutableRawRepeatedField
 MutableRepeatedMessage
-N(9N0u
 NJ2"v
 NOTPRESENT
 NRF52
 NRF52 DTM
 NVAPI_DEBUG_DISPLAY_MODES
 NamePart
-Nd;N`}
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Neither required `bufferView` nor `uri` defined for image[
@@ -4465,61 +1877,54 @@ Neo V0
 New App Version
 New BL Version
 New HWID
-New Normal: %f %f %f 
+New Normal: %f %f %f \n
 New Radio Version
-New sample  %d %lf %lf (end diff: %lf)
-Nl#N4
-No IMU data in past %d seconds
-No LoadImageData callback specified.
-No additional system report data for %s:
-No base stations seen...
-No default audio device found to listen to
+New sample  %d %lf %lf (end diff: %lf)\n
+No IMU data in past %d seconds\n
+No LoadImageData callback specified.\n
+No additional system report data for %s:\n
+No base stations seen...\n
+No default audio device found to listen to\n
 No default value
 No field named "uninterpreted_option" in the Options proto.
-No optical frames in past %d seconds
-Nodet3
+No optical frames in past %d seconds\n
 Non-Production BL
 Non-primitive types can't be packed.
 Non-repeated field "
+None
 NormalTextureInfo
-Not enough contiguous samples for a bootstrap pose
-Not generating hidden area meshes for unknown hidden area mode %d
-Not the preferred basestation
+Not enough contiguous samples for a bootstrap pose\n
+Not generating hidden area meshes for unknown hidden area mode %d\n
+Not the preferred basestation\n
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
-NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!
-NvAPI: DirectModeGetDisplayModes trying again with older API!
-NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
-NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d
-O	u~w
+NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
+NvAPI: DirectModeGetDisplayModes trying again with older API!\n
+NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
+NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d\n
 O*9y]
-O8j	P
-O8j%h
-O8j(h
-O8j1h
-OH_^[
 OPAQUE
-OTGT timed out
+OTGT timed out\n
 OZw3(?
+O\tu~w
 Object
-Old Normal: %f %f %f 
-OnDefaultDeviceChanged: flow = %s, role = %s, device = %s
-OnDeviceAdded: device = %s
-OnDeviceRemoved: device = %s
-OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s
+Old Normal: %f %f %f \n
+OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
+OnDeviceAdded: device = %s\n
+OnDeviceRemoved: device = %s\n
+OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
 Oneof must have at least one field.
 OneofDescriptorProto
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
-Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 OpenSCManagerW
 OpenServiceW
 OpenVR
 Operation Failed
 Optical
-Optical frames received again...
-OptimizeMode
+Optical frames received again...\n
 Option "
 Option field "
 Option must have a name.
@@ -4527,35 +1932,18 @@ Option must not use reserved name "uninterpreted_option".
 Orhographic camera description not found.
 Original Left Camera Extrinsics: %s
 Original Right Camera Extrinsics: %s
-Original shift blue in pixels: %f %f
-Original shift red in pixels:  %f %f
-Original: %f %f %f 
+Original shift blue in pixels: %f %f\n
+Original shift red in pixels:  %f %f\n
+Original: %f %f %f \n
 OrthographicCamera
-Ot+Op
-Out of thread local storage!
+Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-P [_^
-P _^[]
-P$_^[
-P$_^]
-P(_^[
-P8Ph r
-P9O t
-P;r(|
-P;s<|
-P;s@|
-P;w<|
-P;~@|
-PAq=?Mp#
-PG;{@|
-PH90trj@h 
-PH90trjMh 
+PICT
+PID_
 PLACEHOLDER_VALUE
 PLAY-
-PQRh4
-PQSVW
-PQj!f
+PNG\r\n
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -4583,71 +1971,54 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PRVQh
-PSSSj
-PVh,	
-PVhLr
-PVhX	
-PVhX3
-P`]s 
-P`]sG
 Pairing Failed
 Pairing Start
 Pairing Success
 Panel Init
 Panel Init Error
-Panic in TDM. basestation offset is invalid: %f
+Panic in TDM. basestation offset is invalid: %f\n
 Parse error: 
-Parse failed for JSON message in mailbox %s: %s
-Parse of lighthouse scale JSON "%s" failed: %s
-Parsing LighthouseDB from file %s
-Parsing of JSON file "%s" failed: %s
-Parsing of JSON string "%s" failed: %s
+Parse failed for JSON message in mailbox %s: %s\n
+Parse of lighthouse scale JSON "%s" failed: %s\n
+Parsing LighthouseDB from file %s\n
+Parsing of JSON file "%s" failed: %s\n
+Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
+Pe6^
 PeekMessageA
 PeripheralApplication
-Persistent statistics file does not exist. Creating new %s
+Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Primitive
 Pro Audio
 PropVariantClear
-Protocol Buffer reflection usage error:
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Prototype
-Pz}b!
-Q9F t
-QPQPh
-QT_[3
-QWh,+
 Qk6eV5RE
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-R(_^]
-R0d0j0
 R1h58
-R8F;u
 RENDERDOC_GetAPI
 RPCRT4.dll
-RPj#h
-RQPhx
+RSDS\nr
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
 ReadFile
 Reading dangerously large protocol message.  If the message turns out to be larger than 
-Reading persistent statistics file from %s
-Received mirror reset event
-Received mirror reset event after %u passes, %llu samples
-Received mirror stop event
-Received mirror stop event after %u passes, %llu samples
-RecommendedRenderTargetSize: %u, %u (viewport %u, %u scaled by %.2f)
-Recording to "%s"
-Refreshing audio devices
+Reading persistent statistics file from %s\n
+Received mirror reset event after %u passes, %llu samples\n
+Received mirror reset event\n
+Received mirror stop event after %u passes, %llu samples\n
+Received mirror stop event\n
+RecommendedRenderTargetSize: %u, %u (viewport %u, %u scaled by %.2f)\n
+Recording to "%s"\n
+Refreshing audio devices\n
 RegCloseKey
 RegEnumValueW
 RegOpenKeyExW
@@ -4658,7 +2029,7 @@ ReleaseLast
 ReleaseMessage
 RemindVersion
 RemoveLast
-RenderDoc connected
+RenderDoc connected\n
 Repeated fields can't have default values.
 ReplaceFileW
 Replay failed to parse base configuration: 
@@ -4666,41 +2037,32 @@ Replay failed to parse base dynamic state:
 Reset
 Reset Video Error
 ResetEvent
-Resetting all state to synchronize with recording...
+Resetting all state to synchronize with recording...\n
 Resetting tracking
 Restart
 ResumeThread
-Returning failure when parsing lighthouse DB from %s because of base station errors
-Returning failure when parsing lighthouse DB from %s because of universe errors
+Returning failure when parsing lighthouse DB from %s because of base station errors\n
+Returning failure when parsing lighthouse DB from %s because of universe errors\n
 Right
 Robin
 Robin 2
-RootSerial %s
-Rotors on basestation out of 180-degree phase lock.
+RootSerial %s\n
+Rotors on basestation out of 180-degree phase lock.\n
 RpcStringFreeA
 RtlGetNtVersionNumbers
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S0Q0O
-S5W5e5i5
-S9~D~;
-S;~<t\;~@tW
-S<.uW
-SA|X=G
 SCALAR
 SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
-SNRtt(
+SKyu
 SOB total=
 SOB: add 
 SOB: drop 
-SPB8t
-SPB8u
 SPEED
 SRB-0
-SSVRP
 STEAMVR_VERBOSE_HAPTIC_LOG
 STEREO_DEV_BENCRUSHER2_MICROVISION
 STEREO_DEV_BENCRUSHER_MICROVISION
@@ -4720,58 +2082,41 @@ STEREO_DEV_ST1080_UPWARD_GLUE_GUN_SPECIAL
 STEREO_DEV_TEST
 STEREO_DEV_VUZIX_STAR_1200
 STRING
-STRING_PIECE
-SUVW3
-SVW9U
-SVW;E
-SVW;M
-SVWPj
-SVWhX
-SVWhd
-SVWhl8
-SVWj0j
-SVWj8
-SVWj<
-SVWj=
-SVWjA
-SVWtN
-SVj%h@.
-SWSRP
-SWhl?
-Samples didn't yield successful bootstrap pose
-Saved LighthouseDB rev %u to %s
-Saw %d early IMU related panics, using factory IMU cal
-Saw %u bases and none are the preferred base %08X
-Saw demod rate %.0f/s, enabling Sync on Beam
+Samples didn't yield successful bootstrap pose\n
+Saved LighthouseDB rev %u to %s\n
+Saw %d early IMU related panics, using factory IMU cal\n
+Saw %u bases and none are the preferred base %08X\n
+Saw demod rate %.0f/s, enabling Sync on Beam\n
 Sc?Nb
-Searching for camera extrinsics calibration override (deviceKey=%08X)
+Searching for camera extrinsics calibration override (deviceKey=%08X)\n
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
-SelectVideoConfig:         refresh=%f
-SelectVideoConfig:     edid_id=%d
-SelectVideoConfig: Could not query watchman firmware version in SelectNonDefaultHmdEdid
-SelectVideoConfig: Current VideoMode EdidId=%d HDCP14LegacyCompat=%d PreEmphSwingValid=%d PreEmphasis=%d Swing=%d
-SelectVideoConfig: DP HDCP14LegacyCompatibility support: %d
-SelectVideoConfig: DP Training Mode support: %d
-SelectVideoConfig: Error GetEdidId failed %d
-SelectVideoConfig: Error Querying PreferredRefreshRate
-SelectVideoConfig: Error Setting Video Config %d
-SelectVideoConfig: Error: GetVideoConfig failed %d
-SelectVideoConfig: HMD has exposed %d EDIDs
-SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.
-SelectVideoConfig: No Video Mode Change required
-SelectVideoConfig: Selecting solo HMD EDID
-SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed
-SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d
-SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d
-SelectVideoConfig: driver_lighthouse.disableRuntimeEdidOverride=true. Leaving device video mode unchanged
-SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
-Selected existing universe %llu (%08X is %s)
+See 
+SelectVideoConfig:         refresh=%f\n
+SelectVideoConfig:     edid_id=%d\n
+SelectVideoConfig: Could not query watchman firmware version in SelectNonDefaultHmdEdid\n
+SelectVideoConfig: Current VideoMode EdidId=%d HDCP14LegacyCompat=%d PreEmphSwingValid=%d PreEmphasis=%d Swing=%d\n
+SelectVideoConfig: DP HDCP14LegacyCompatibility support: %d\n
+SelectVideoConfig: DP Training Mode support: %d\n
+SelectVideoConfig: Error GetEdidId failed %d\n
+SelectVideoConfig: Error Querying PreferredRefreshRate\n
+SelectVideoConfig: Error Setting Video Config %d\n
+SelectVideoConfig: Error: GetVideoConfig failed %d\n
+SelectVideoConfig: HMD has exposed %d EDIDs\n
+SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.\n
+SelectVideoConfig: No Video Mode Change required\n
+SelectVideoConfig: Selecting solo HMD EDID\n
+SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed\n
+SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d\n
+SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d\n
+SelectVideoConfig: driver_lighthouse.disableRuntimeEdidOverride=true. Leaving device video mode unchanged\n
+SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
+Selected existing universe %llu (%08X is %s)\n
 ServiceDescriptorProto
 ServiceOptions
 SessionID
-Set column correction %f %d %f %d
-Set index backlight gain: %f
+Set column correction %f %d %f %d\n
+Set index backlight gain: %f\n
 Set initial
 SetAllocatedMessage
 SetBool
@@ -4797,14 +2142,14 @@ SetThreadPriority
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
-SetVideoConfig nPreEmphasis %d nSwingLevel %d
-SetVideoConfig to edid_id %d HDCP14LegacyCompat %d
+SetVideoConfig nPreEmphasis %d nSwingLevel %d\n
+SetVideoConfig to edid_id %d HDCP14LegacyCompat %d\n
 SetWindowLongA
-Setting %08X as the origin of universe %llu
-Setting Edid VendorID %X and product ID %X from json
-Setting Edid to edid_id %d...
-Setting firmware manifest beta override: %d
-Setting universe tilt from %08X %s: pitch %0.2f deg roll %0.2f deg
+Setting %08X as the origin of universe %llu\n
+Setting Edid VendorID %X and product ID %X from json\n
+Setting Edid to edid_id %d...\n
+Setting firmware manifest beta override: %d\n
+Setting universe tilt from %08X %s: pitch %0.2f deg roll %0.2f deg\n
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
 SetupDiEnumDeviceInterfaces
@@ -4817,68 +2162,44 @@ SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
 Shutdown
 ShutdownCameraHAL
-Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json
+Skin
+Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json\n
 Sleep
 SleepConditionVariableCS
 Software Reset
-Source: %s -- Preferred basestation %08X
+Source: %s -- Preferred basestation %08X\n
 SourceCodeInfo
 Spot light description not found.
 Stable
 Standby toggled
-Standby unknown hmd
+Standby unknown hmd\n
 Start
-Start test failed
-Started pairing dongle serial=%s timeout=%f
-Starting test
-Still waiting for Direct Mode Display...
-Stopped tracking with universe %llu
-Stopping playback mirror thread
-Stopping recording...
+Start test failed\n
+Started pairing dongle serial=%s timeout=%f\n
+Starting test\n
+Still waiting for Direct Mode Display...\n
+Stopped tracking with universe %llu\n
+Stopping playback mirror thread\n
+Stopping recording...\n
 String literals cannot cross line boundaries.
 StringOutputStream.
 Success
 Success: 
-Successfully parsed Lighthouse DB rev %u from %s
-SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d
-SwSyncDetect selected %s
-Switching IMU Only -> Lighthouse
-Switching Lighthouse -> IMU Only
+Successfully parsed Lighthouse DB rev %u from %s\n
+SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d\n
+SwSyncDetect selected %s\n
+Swap
+Switching IMU Only -> Lighthouse\n
+Switching Lighthouse -> IMU Only\n
 Symbol name "
 Syntax error: value, object or array expected.
 Sys Temp: 
 Sys clk: 
-T$ RQ
-T$(RW
-T$,RhtS
-T$@RP
-T$LVR
-T2$6w=
-T3,9U
-T309L34w
-T5X5\5`5d5h5
-TADItA
-TDM only works with matched single / double rotor pairs.
-TDM sensorType changed to: %d
-TDM supports max of 2 basestations.
-TDM total=%d invalid_long=%d runt=%d sync_miss=%d samples_in_sync_guard_band=%d
+TDM only works with matched single / double rotor pairs.\n
+TDM sensorType changed to: %d\n
+TDM supports max of 2 basestations.\n
+TDM total=%d invalid_long=%d runt=%d sync_miss=%d samples_in_sync_guard_band=%d\n
 TEST_TMPDIR
-TYPE_BYTES
-TYPE_DOUBLE
-TYPE_FIXED32
-TYPE_FIXED64
-TYPE_FLOAT
-TYPE_GROUP
-TYPE_INT32
-TYPE_INT64
-TYPE_MESSAGE
-TYPE_SFIXED32
-TYPE_SFIXED64
-TYPE_SINT32
-TYPE_SINT64
-TYPE_STRING
-TYPE_UINT32
-TYPE_UINT64
 Target fw version: 
 Task Suspended
 TdhEnumerateManifestProviderEvents
@@ -4890,9 +2211,9 @@ This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means 
 This program requires version 
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 Time: 
 Timed Out
 TlsAlloc
@@ -4900,63 +2221,66 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
-Tracking thread peak duty cycle %0.0f%% (over %0.1fs).  Blocked in SendOnPoseChange %0.0f%% of that.
+Tracking thread peak duty cycle %0.0f%% (over %0.1fs).  Blocked in SendOnPoseChange %0.0f%% of that.\n
 Transition Err
 TranslateMessage
 Tried to merge messages of different types 
 Triggered by system report: 
+True
 Trying to %s %08X: %s
 Tundra Labs
 Tundra Tracker
+Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
+U4ot
+U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
 UNKNOWN
 UNPLUGGED
 USAGE: set_lenscal <device_json_path>
-USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels
+USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels\n
 USB status (rates over 
 USER32.dll
 UUUUUU
-UVWu%
-Unable to SetLcmBrightness
+Unable to SetLcmBrightness\n
 Unable to determine VR Path Registry filename
-Unable to fetch %s to store MC data
-Unable to get IMMDeviceEnumerator, hr = 0x%08x
-Unable to get default from IMMDevice, hr = 0x%08x
-Unable to get to IMMDevice %s, hr = 0x%08x
+Unable to fetch %s to store MC data\n
+Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
+Unable to get default from IMMDevice, hr = 0x%08x\n
+Unable to get to IMMDevice %s, hr = 0x%08x\n
 Unable to init base station driver for %X
-Unable to init zlib
-Unable to load avrt.dll
-Unable to load bind mfplat.dll and/or avrt.dll
-Unable to load mfplat.dll
+Unable to init zlib\n
+Unable to load avrt.dll\n
+Unable to load bind mfplat.dll and/or avrt.dll\n
+Unable to load mfplat.dll\n
 Unable to parse 
-Unable to parse Lighthouse base target pose
-Unable to parse base at index %d in db json file %s
-Unable to parse base station config for info
-Unable to parse base station index %d in universe %llu
-Unable to parse base station info
-Unable to parse dynamic state %d in %08X
-Unable to parse object at index %d in db json file %s
-Unable to parse target pose for base %08X
+Unable to parse Lighthouse base target pose\n
+Unable to parse base at index %d in db json file %s\n
+Unable to parse base station config for info\n
+Unable to parse base station index %d in universe %llu\n
+Unable to parse base station info\n
+Unable to parse dynamic state %d in %08X\n
+Unable to parse object at index %d in db json file %s\n
+Unable to parse target pose for base %08X\n
 Unable to parse token length
-Unable to parse universe at index %d in db json file %s
-Unable to query MC Image size
-Unable to read Lighthouse DB from file %s
+Unable to parse universe at index %d in db json file %s\n
+Unable to query MC Image size\n
+Unable to read Lighthouse DB from file %s\n
 Unable to read VR Path Registry from 
-Unable to read device config for dongle %s device %s (%s). Ignoring it
-Unable to read device config for vid 0x%X pid 0x%X serial %s. Rejecting it
-Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
-Unable to request wireless pairing
-Unable to save backup database for revision %u to %s
-Unable to set room view to '%s' for HMD Hid device
-Unable to set tilt origin from %08X because it has no pose to global but there is already an origin
-Unable to set work state to %d for HMD Hid device
-Unable to store MC image: %s
-Unable to turn on polling for HMD Hid device
-Unable to write database version %u to file %s
-Unexpected WaitForMultipleObjects return value %u
-Unexpected WaitForMultipleObjects return value %u on pass %u
-Unexpected centroid ordering error %.3fms S-%d
+Unable to read device config for dongle %s device %s (%s). Ignoring it\n
+Unable to read device config for vid 0x%X pid 0x%X serial %s. Rejecting it\n
+Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+Unable to request wireless pairing\n
+Unable to save backup database for revision %u to %s\n
+Unable to set room view to '%s' for HMD Hid device\n
+Unable to set tilt origin from %08X because it has no pose to global but there is already an origin\n
+Unable to set work state to %d for HMD Hid device\n
+Unable to store MC image: %s\n
+Unable to turn on polling for HMD Hid device\n
+Unable to write database version %u to file %s\n
+Unexpected WaitForMultipleObjects return value %u on pass %u\n
+Unexpected WaitForMultipleObjects return value %u\n
+Unexpected centroid ordering error %.3fms S-%d\n
 Unexpected end of string.
 Unexpected failure while serializing option submessage 
 UnhandledExceptionFilter
@@ -4964,10 +2288,10 @@ Unidentified
 Unimplemented type: 
 Uninitialized
 UninterpretedOption
-Universe %llu already has an origin, can't set it to %08X
+Universe %llu already has an origin, can't set it to %08X\n
 Unknown
-Unknown Hmd Interrupt packet: report ID %d
-Unknown base %08X in base universe reference
+Unknown Hmd Interrupt packet: report ID %d\n
+Unknown base %08X in base universe reference\n
 Unknown entry type
 Unknown enumeration value of "
 Unknown error (%d)
@@ -4980,20 +2304,21 @@ Unsupported `type` for accessor object. Got "
 Updated
 Updated Left Camera Extrinsics: %s
 Updated Right Camera Extrinsics: %s
-Updated shift blue in pixels: %f %f
-Updated shift red in pixels:  %f %f
-Updated:  %f %f %f 
-Updating %s
-Updating additional system report data for %s
-Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
-Use Screen Resolution control panel to fix
+Updated shift blue in pixels: %f %f\n
+Updated shift red in pixels:  %f %f\n
+Updated:  %f %f %f \n
+Updating %s\n
+Updating additional system report data for %s\n
+Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g\n
+User
 User reset
 UserData
-UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x
-UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d
-UserData Error: Unable to send start user data feature report 
-Using default hidden area meshes for model %s
-Using monitor index %d
+UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x\n
+UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d\n
+UserData Error: Unable to send start user data feature report \n
+Using default hidden area meshes for model %s\n
+Using monitor index %d\n
+Utah
 Utah DV
 Utah EV1
 Utah EV2
@@ -5001,12 +2326,15 @@ Utah MP
 UuidCreate
 UuidFromStringA
 UuidToStringA
-V2 HMD with bogus trackrefs detected in configuration:
+V2 HMD with bogus trackrefs detected in configuration:\n
 VBus: 
 VCRUNTIME140.dll
 VDEST
+VEC2
+VEC3
+VEC4
 VERSION.dll
-VGWPQht
+VID_
 VIVE Pro
 VIVE Pro Mutimedia Audio
 VIVE Tracker 3.0
@@ -5014,9 +2342,7 @@ VIVE Tracker Pro MV
 VIVE_DVT
 VIVE_Pro EVT
 VIVE_Pro MV
-VQRh"
-VQRhE
-VR Path Registry node %s is not an array
+VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
 VRC-%s
 VRInitError_Compositor_CannotConnectToDisplayServer
@@ -5241,9 +2567,6 @@ VR_LOG_DEBUG
 VR_LOG_PATH
 VR_OVERRIDE
 VR_PATHREG_OVERRIDE
-VW+H$
-V_:X1:
-V_~]	,
 Value 
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
@@ -5259,30 +2582,30 @@ Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
 Valve
-Valve Corp.0
-Valve Corp.1
 Valve Corporation
 Valve SR
 Valve SR Blinker
 Valve SR EV2
 Valve SR Imp
 Valve VR Radio & HMD Mic
+Vc0a
 VerQueryValueA
 VerSetConditionMask
-VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)
-VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device
-VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...
-VerifyUSBUserDataInDirectory: %s validated
-VerifyUSBUserDataInDirectory: Error parsing user data for index %d
-VerifyUSBUserDataInDirectory: Error reading USB user data from device for file %s
-VerifyUSBUserDataInDirectory: Error writing file %s
-VerifyUSBUserDataInDirectory: Skipping %s (header.crc=%08X)
-VerifyUSBUserDataInDirectory: error parsing user data header
-VerifyUSBUserDataInDirectory: header failed sanity check
+VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)\n
+VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device\n
+VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...\n
+VerifyUSBUserDataInDirectory: %s validated\n
+VerifyUSBUserDataInDirectory: Error parsing user data for index %d\n
+VerifyUSBUserDataInDirectory: Error reading USB user data from device for file %s\n
+VerifyUSBUserDataInDirectory: Error writing file %s\n
+VerifyUSBUserDataInDirectory: Skipping %s (header.crc=%08X)\n
+VerifyUSBUserDataInDirectory: error parsing user data header\n
+VerifyUSBUserDataInDirectory: header failed sanity check\n
 VerifyVersionInfoW
 Version
 Video Failure
 Video state: 
+Vive
 Vive 2.0
 Vive 2.0 DVT
 Vive DVT
@@ -5300,15 +2623,12 @@ Vive_Pro
 Vive_Pro DVT
 Vortex Error
 VrController
-Vt/W3
-W(PQR
-W0PQR
 WARNING
-WARNING: Base %08X has no factory calibration and will be ignored
-WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
-WARNING: Saw sync on beam channel conflict on ch %d
-WARNING: Speculative Start Collision for base %0X (removing %s)
-WARNING: large time gap between IMU samples (%f -> %f diff=%f)
+WARNING: Base %08X has no factory calibration and will be ignored\n
+WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1\n
+WARNING: Saw sync on beam channel conflict on ch %d\n
+WARNING: Speculative Start Collision for base %0X (removing %s)\n
+WARNING: large time gap between IMU samples (%f -> %f diff=%f)\n
 WINMM.dll
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -5324,91 +2644,127 @@ WINRT_Release
 WINRT_ReleaseDisplay
 WINRT_SetDisplayMode
 WINRT_WaitForPresent
-WPhPD
-WVVVU
 Wait For Sync
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 Waiting
-Waiting for best bootstrap base station candidate...
+Waiting for best bootstrap base station candidate...\n
 WakeAllConditionVariable
 WakeConditionVariable
-Warned about misattributed base %08X
+Warned about misattributed base %08X\n
 Warning parsing text-format 
-Warning:  HMD Display %s is Primary display
-Warning: CVrController::CreateInputComponents called on empty input_profile
-Warning: Could not interpret 'type' of %s (%s) in %s
-Warning: Edid VendorID / product ID not specified in json (direct mode)
-Warning: Found multiple monitors matching size %d x %d, using first
-Warning: Framer decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
-Warning: Framer sensorType NotYetAvailable
-Warning: Framer unknown sensorType: %d
-Warning: MC images must be equal size and components.
-Warning: SOB decoded ootx incorrectly specifies non-SOB mode. Forcing to MODE_SOB.
-Warning: SOB decoded ootx specifies incorrect SOB channel. Forcing to known correct value.
-Warning: TDM decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
-Warning: TDM sensorType NotYetAvailable
-Warning: TDM sensorType changed to unknown type: %d
-Warning: TDM unknown sensorType
+Warning:  HMD Display %s is Primary display\nUse Screen Resolution control panel to fix\n
+Warning: CVrController::CreateInputComponents called on empty input_profile\n
+Warning: Could not interpret 'type' of %s (%s) in %s\n
+Warning: Edid VendorID / product ID not specified in json (direct mode)\n
+Warning: Found multiple monitors matching size %d x %d, using first\n
+Warning: Framer decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.\n
+Warning: Framer sensorType NotYetAvailable\n
+Warning: Framer unknown sensorType: %d\n
+Warning: MC images must be equal size and components.\n
+Warning: SOB decoded ootx incorrectly specifies non-SOB mode. Forcing to MODE_SOB.\n
+Warning: SOB decoded ootx specifies incorrect SOB channel. Forcing to known correct value.\n
+Warning: TDM decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.\n
+Warning: TDM sensorType NotYetAvailable\n
+Warning: TDM sensorType changed to unknown type: %d\n
+Warning: TDM unknown sensorType\n
 Warning: Unused import: "
-Warning: Watchdog %s not properly cleaned up%s%s
-Washington1
+Warning: Watchdog %s not properly cleaned up%s%s\n
 Watchdog count: 
 Watchdog reset
-WatchdogWakeUp because of HMD button
-WatchdogWakeUp because of new system button press
-WatchdogWakeUp because of new wireless connection
+WatchdogWakeUp because of HMD button\n
+WatchdogWakeUp because of new system button press\n
+WatchdogWakeUp because of new wireless connection\n
 Watchman
-Watchman device log download failed or not supported for %s
-Watchman device log downloaded for %s
-Watchman device log:
-Watchman flash log download failed or not supported for %s
-Watchman flash log downloaded for %s
-Watchman flash log:
-Watchman saw FIFO overflow event
+Watchman device log download failed or not supported for %s\n
+Watchman device log downloaded for %s\n
+Watchman device log:\n
+Watchman flash log download failed or not supported for %s\n
+Watchman flash log downloaded for %s\n
+Watchman flash log:\n
+Watchman saw FIFO overflow event\n
 WatchmanFPGA
 WebInterface
 WideCharToMultiByte
 Win 10
 WinRT
-Wj5h`
 WriteFile
-X9\9`9d9h9l9p9t9x9|9
 XXXX PNG chunk not known
-Y9"SD
-Y__^[
-Z	u'V3
-Z _^]
-Z(rDf
-Z* ,	
-[-&LMb#{'
-[0k0{0
-[DepthAugmentedPassthrough] supported on this system: %d
+XsBI
+Zjz\v
+[DepthAugmentedPassthrough] supported on this system: %d\n
 [FORCEUPDATE]
-[K]taM?
+[h1R
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
+[libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
 \mfpmp.exe
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n google/protobuf/descriptor.proto
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fdouble_value
+\n\fideal_period
+\n\fis_extension
+\n\fjava_package
+\n\fstring_value
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\ngo_package
+\n\ninput_type
+\n\nsync_width
+\n\rCOpticalFrame
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rdefault_value
+\n\rserial_number
+\n\tname_part
+\n\ttype_name
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\voneof_index
+\n\voutput_type
+\nbad png sig
+\r\n\tCODE_SIZE
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
+\rlighthouse.pb"(\n
+\rmj>zjZ
+\tEdid already edid_id %d and hdcp14legacycompat %d, no change needed\n
+\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
-] name = "
-] name = [
-]J<0"0i3
-]QcHHR
-^$Q9C
-^<#0e
-^<Q9C
-^X_^[
-^[;Glv
 ^oEZ_
-_0_[]
-_0_^]
 _CIacos
 _CIfmod
 _CIpow
@@ -5434,9 +2790,6 @@ _Thrd_join
 _Thrd_sleep
 _Thrd_start
 _Xtime_get_ticks
-_[;Flv
-_^;Clv
-_^u%j
 __CxxFrameHandler3
 __RTDynamicCast
 __acrt_iob_func
@@ -5474,10 +2827,8 @@ _except_handler3
 _except_handler4_common
 _execute_onexit_table
 _fseeki64
-_gUT^
 _get_stream_buffer_pointers
 _getpid
-_hanu
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -5488,7 +2839,6 @@ _localtime64
 _lock_file
 _open
 _parsefailed.json
-_prou
 _purecall
 _read
 _register_onexit_function
@@ -5506,37 +2856,31 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-`.rdata
-`0_dL
-`0_tL
-`SVWj%h@.
-``````````````````````````````````````````````````````````````````````````````````````````````````
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
-`input` field is missing in animation.sampler
+`input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target
+`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
-`output` field is missing in animation.sampler
-`path` field is missing in animation.channels.target
-`sampler` field is missing in animation channels
+`output` field is missing in animation.sampler\n
+`path` field is missing in animation.channels.target\n
+`sampler` field is missing in animation channels\n
 `samplers' does not contain an JSON object.
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-a0f0R1b1|1
-a7hIw
-aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
+aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 abort
 acc_bias
 acc_scale
 accel
 accessor[
 accessors
+adcr
 add a secondary base
 add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
@@ -5544,7 +2888,6 @@ adjust_panel_cant
 adjust_panel_cant %f %f
 adjust_panel_pitch
 adjust_panel_pitch %f %f
-af}{f
 aggregate_value
 aitcamlib.dll
 allowComments
@@ -5552,9 +2895,10 @@ allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
-allow_alias
 alphaCutoff
 alphaMode
+alse
+amps
 analogGain
 angle
 animations
@@ -5570,11 +2914,14 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
+aref
 array
 as new origin
 aspectRatio
 assert json failed
 asset
+atof
+atoi
 attached_device_id
 attributes
 audio
@@ -5584,9 +2931,10 @@ audio_playback_device_vid
 audio_recording_device_name
 audio_recording_device_pid
 audio_recording_device_vid
+auto
 average_period
 avrt.dll
-axisSW
+axis
 bad AC huff
 bad APP len
 bad BMP
@@ -5627,21 +2975,21 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
-bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
 bad zlib header
-base %08X u%d r%d (i%d)
+base
+base %08X u%d r%d (i%d)\n
 baseCalibration
 baseColorFactor
 baseColorTexture
 baseName
-base_config
 base_config_json
 base_serial_number
 base_stations
 basestation_mode
+best
 bg_bg
 bigscreenbeyond
 bit_offset
@@ -5659,6 +3007,7 @@ bonemask_ring.txt
 bonemask_squeeze.txt
 bonemask_thumb.txt
 bonemask_thumb_and_wrist.txt
+bool
 brazilian
 buffer
 buffer error
@@ -5666,22 +3015,20 @@ bufferView
 bufferViews
 buffers
 bulgarian
-bxk.f
 byteLength
 byteOffset
 byteStride
 bytes
-b}gqf
 c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
 c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
 c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win32\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
-cAMDt
 cal_method
 calloc
 camera
@@ -5691,6 +3038,7 @@ can't merge dc and ac
 canceled
 cannot set backlight gain
 cc_generic_services
+ceil
 center
 center_x
 center_y
@@ -5698,9 +3046,9 @@ channelMap
 channelOrder
 channels
 children
-cjkNf
 clips
 clkoor
+clks
 close() failed: 
 closed
 closest
@@ -5708,6 +3056,7 @@ coeffs
 collectComments
 collisionBounds
 color
+com.google.protobufB
 compatible 
 componentType
 compositordebug
@@ -5725,9 +3074,7 @@ count
 cs_cz
 ctype
 czech
-d1h1l1p1t1x1|1
-d<h<l<p<t<x<|<
-dSVWj
+dQy/
 da_dk
 danish
 dashboard
@@ -5740,13 +3087,11 @@ data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
 dbhistory
+dcil
 de_de
 deactivateStandbyOverride
 default_mm
-default_value
 delayed
-dependency
-deprecated
 deque<T> too long
 device
 deviceClass
@@ -5779,29 +3124,28 @@ distort
 distortion
 distortion_blue
 distortion_red
-dmilu
 dongles
 double
 doubleSided
-double_value
+doze
 driver
 driver_holographic
 driver_lighthouse
 driver_lighthouse message window
 driver_lighthouse.dll
-driver_lighthouse: Activate(%p %d)
-driver_lighthouse: Activate: Tracking started
-driver_lighthouse: Deactivate(%p  %d)
-driver_lighthouse: GetEyeOutputViewport(%u, %u, %u, %u)
-driver_lighthouse: GetRecommendedRenderTargetSize(%u, %u)
-driver_lighthouse: GetWindowBounds(%d, %d, %u, %u)
-driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()
-driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)
-driver_lighthouse: Tracking stopped
-driver_lighthouse: enumerating attached Lighthouse devices HMDs:
+driver_lighthouse: Activate(%p %d)\n
+driver_lighthouse: Activate: Tracking started\n
+driver_lighthouse: Deactivate(%p  %d)\n
+driver_lighthouse: GetEyeOutputViewport(%u, %u, %u, %u)\n
+driver_lighthouse: GetRecommendedRenderTargetSize(%u, %u)\n
+driver_lighthouse: GetWindowBounds(%d, %d, %u, %u)\n
+driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()\n
+driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)\n
+driver_lighthouse: Tracking stopped\n
+driver_lighthouse: enumerating attached Lighthouse devices HMDs:\n
 driver_null
 drivers
-drop %08X u%d (i%d)
+drop %08X u%d (i%d)\n
 dsc_bppx16
 dsc_slices
 dsc_version
@@ -5835,12 +3179,11 @@ enableMJPEGMode
 enableRawMode
 end of input
 english
-entiu
+enum
 error
 es-8R
 es_es
 es_mx
-ev3Ff
 ewh/?y
 exception thrown in JSON library
 expected marker
@@ -5849,7 +3192,7 @@ expected_bases
 expected_controllers
 expecting another \u token to begin the second half of a unicode surrogate pair
 experimental_map_key
-extend .$0 {
+extend .$0 {\n
 extendee
 extension_range
 extensions
@@ -5862,26 +3205,27 @@ eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 eye_tracking
-f9l$@tU
-f;A*stSW
-f;F@_^
-f;w@s\
+fP~V
 failIfExtra
 failed
 failed to send to device
 failed_to_start
+fake
 fakeHtcHmdMainboard
 false
 false literal
+fast
 faults
 fclose
-fff?PQ
+feof
+fff?
 fflush
 fgetc
 fgetpos
 fi_fi
 field
 fields
+file
 file error
 file is empty or does not exist
 filename
@@ -5902,6 +3246,7 @@ focal_x
 focal_y
 fopen
 fopen_s
+for 
 forceSoloEdid
 force_old_controller_radio
 forcedExposureTime
@@ -5913,11 +3258,13 @@ fputs
 fr_fr
 framer
 fread
+free
 french
 from base 
 fseek
 fsetpos
 ftell
+fu`z
 fwrite
 gc/250_v0.gc
 generator
@@ -5925,36 +3272,36 @@ generic_controller
 generic_hmd
 generic_tracker
 german
-getDeviceProperty returned empty
-getDeviceProperty returned wrong type %d
+getDeviceProperty returned empty\n
+getDeviceProperty returned wrong type %d\n
 get_eye_to_head
 get_radio_mode
 getenv
-gfff+
-gfff+KP
-gfff+M
-gfff+Q,
-gfff+U
-gfffS
-gfffSV
-gfffSW
-gfffVW
-gfffW
-giikf
-go_package
+google.protobuf"G\n
+google.protobuf.Empty
+google.protobuf.EnumOptions
+google.protobuf.EnumValueOptions
+google.protobuf.FieldOptions
+google.protobuf.FileOptions
+google.protobuf.MessageOptions
+google.protobuf.MethodOptions
+google.protobuf.ServiceOptions
+google.protobuf.StreamOptions
+google/protobuf/descriptor.proto
+gqr<
 gravity_vector
 greek
 group
 grow_for_undistort
-gu3jd
+gyro
 gyro_bias
-h0l0p0t0x0|0
-hGenu
+hPU3
 hand_right_closeanim.glb
 hand_right_poses.glb
 handlers
 hardware_revision
 hdcp14legacyCompatibility
+head
 head_from_camera
 header crc mismatch
 height
@@ -5984,16 +3331,12 @@ high_mm
 hits: 
 htc/vive_controller
 htc/vive_tracker
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
 hu_hu
 hungarian
+i91k
+i]Wb
 iauds
-ideal_period
 identifier_value
 illegal code in raster
 image
@@ -6004,7 +3347,6 @@ image/png
 image[
 images
 immediate
-imu_sample
 in Json::Value::asCString(): requires stringValue
 in Json::Value::clear(): requires complex value
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -6031,13 +3373,11 @@ indexcontroller
 indexcontroller_anim_closesqueeze.glb
 indexhmd
 indices
-ineIu
 infinity
 innerConeAngle
 input
 input_components
 input_profile
-input_type
 insufficient memory
 int32
 int64
@@ -6114,58 +3454,21 @@ inverseBindMatrices
 inverse_distortion
 ipdOffset
 isPairing
-is_extension
 isalnum
 isalpha
 isdigit
+isps
 isspace
 it_it
 italian
-j	h47
-j	h@;
-j	h@D
-j j j
-j!h`3
-j!j!hA
-j$hd@
-j'h0t
-j(hll
-j-hl}
-j.hxs
-j1j1ha	
-j2=3A4
-j5h48
-j;Qj;P
-j?Pj&
-j?Pj2
-j@j P
-j`Ph0
 ja_jp
 japanese
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
 java_outer_classname
-java_package
 java_string_check_utf8
-jd@Ph
-jdQPj
-jdQPj	
-jdj>Pj
-jdj?Ph
-jdj?Pj
-jdj?Pj!
-jdj?Pj"
-jdj?Pj&
-jdj?f
-jdj@Pj
-jdj@Pj 
-jj@0HK4
 joints
-k0i0$
-k0y0C2
-kOy~f
-kcizf
 kernel32
 keyboard
 keylength >= 2^30
@@ -6175,19 +3478,20 @@ knuckles
 knuckles_ev1
 ko_kr
 koreana
-l!;b	F
-l)n;n
-l2|X/gGe
 l6qnk
 l?Nb0?
-lEyeFile:%s width:%d height:%d components:%d
+lDa>
+lEyeFile:%s width:%d height:%d components:%d\n
 label
 lastChaperoneCommit
 last_eye
 last_id
 latam
+lazy
 ldexp
+ldiv
 leading_comments
+left
 left eye
 left_sync_is_real
 left_sync_time
@@ -6196,13 +3500,12 @@ lh_basestation_03_robin
 lh_basestation_valve_gen2
 lh_basestation_vive
 lighthouse
-lighthouse.pb"(
 lighthouse:
 lighthouse_config
 lighthouse_db_json
 lighthouse_debug.proto
 lighthouse_pairing
-lighthousedb write error: baseStation is not an array type, but is %d
+lighthousedb write error: baseStation is not an array type, but is %d\n
 lighthousedb.json
 lighthousedriver:
 lights
@@ -6211,8 +3514,6 @@ localeconv
 location
 low_mm
 lstrcmpW
-m0k0$
-mZe}f
 m_ulHandle != vr::k_ulInvalidMailbox
 magFilter
 malloc
@@ -6232,11 +3533,11 @@ memchr
 memcpy
 memmove
 memset
+mesh
 meshes
 message
 message_id
 message_set_wire_format
-message_type
 metallicFactor
 metallicRoughnessTexture
 method
@@ -6249,21 +3550,22 @@ minimum_ipd_step
 minstep_mm
 missing color table
 missing values from "device" section
-mj>zjZ
+mode
 modelCad
 modelId
 modelNormals
 modelPoints
 model_number
 modelskins
+modf
+mtpb
 multiple IHDR
 muteMicMonitor
-n5r5M7
 nSplineCtrlPts
+name
 nb_no
 need dictionary
 negative_int_value
-nested_type
 nfinity
 nl_nl
 no IDAT
@@ -6276,9 +3578,11 @@ no optical samples
 no preset dict
 no_standard_descriptor_accessor
 noclk
+node
 nodes
 non-finite elements of state vector: 
 nonce
+none
 normalTexture
 normalized
 norwegian
@@ -6291,8 +3595,9 @@ not present
 not running
 not wireless endpoint
 notifications
+ns3G
 ntdll.dll
-ntelu
+null
 null literal
 num_windows
 number
@@ -6304,21 +3609,22 @@ object
 object key
 object separator
 occlusionTexture
+ocds
+off!
 offset
 ole32.dll
-oneof_decl
-oneof_index
 onesided
 only 8-bit
-ootx %08X u%d r%d (i%d)
+ootx
+ootx %08X u%d r%d (i%d)\n
 ootxVersion
+open
 openvrpaths.vrpath
-optical_frame
 optical_sample
-optimize_for
 optional
 options
 orthographic
+otds
 otg_device
 out_of_range
 outerConeAngle
@@ -6327,35 +3633,32 @@ outofmem
 output
 output buffer limit
 output_path
-output_type
 pNewResource
 pNewResource->Load( absFilePath )
-pO Df
-pO`Df
 package
 packed
 pairing_result
-panel_burn_time_s: %d %d
-panel_on_time_deprecated_s: %d %d
-panel_on_time_s: %d %d
+panel_burn_time_s: %d %d\n
+panel_on_time_deprecated_s: %d %d\n
+panel_on_time_s: %d %d\n
 parallel_render_cameras
-parameter must be a string or number / number array.
+parameter must be a string or number / number array.\n
 params
 parse
 parse error
 parse_error
+path
 pbrMetallicRoughness
 perfcheck
 perspective
-pg0Df
-pgpDf
 pitch
 pl_pl
+plss
 plus_x
 plus_z
-poPDf
 polish
 portuguese
+pose
 position
 position out of bounds 
 positive_int_value
@@ -6381,26 +3684,18 @@ proximity
 pt_br
 pt_pt
 public_dependency
-pxEh	
+pxEh\t
 py_generic_services
-q ;5@
-q0k1q1}1
-q@;p s
-q@;p(s
-qMFCreateMediaType failed hr = 0x%08x
-r	_]3
+qMFCreateMediaType failed hr = 0x%08x\n
 r2max
-r?'1(?
-rEyeFile:%s width:%d height:%d components:%d
-rP;rT
+rEyeFile:%s width:%d height:%d components:%d\n
 range
 read past buffer
 realloc
 recorded
 recorder
 recorder + 
-recording
-recou;f
+recording\n
 registered: 
 registered_device_type_prefix
 rejectDupKeys
@@ -6416,6 +3711,8 @@ request_handlers
 request_handlers_response
 required
 required_peer_driver
+res0
+res1
 reset_count
 resource_root
 result
@@ -6427,25 +3724,22 @@ right_hand
 right_sync_is_real_as_it_gets
 right_sync_time
 ro_ro
+roll
 romanian
 rootserial
 rotating at 
 rotation
 roughnessFactor
 roundf
+ru&o
 ru_ru
 runtime
 russian
-s$;s(t
-s$;s(t3
-s(+CD
-s4;s8
-sX;s\t]
+s?Ks
 sample_angle_estimate
 sampler
 samplers
 samples
-sbetuw
 sc_schinese
 scalar
 scale
@@ -6459,7 +3753,6 @@ seconds_from_vsync_to_photons
 sendStatusUpdates
 serial
 serialNumber
-serial_number
 service
 session_id_field_name
 set_chromatic_correction_factors
@@ -6485,18 +3778,23 @@ sint32
 sint64
 skeleton
 skeletons
+skin
 skins
 sobChannel
 source
 source_code_info
+span
 spanish
 sparse
 special_value_zero
+spks
+spot
 stackLimit
 start
 start tracking from base
 start_pairing
 startup
+stby
 steamvr
 stmute
 stmuteb
@@ -6514,7 +3812,6 @@ strictRoot
 string
 string literal
 string too long
-string_value
 strings::Substitute format string invalid: asked for "$
 strncmp
 strncpy
@@ -6533,77 +3830,27 @@ success
 supported
 sv_se
 swedish
-sw{@f
-sync_width
 synconbeam
 syntax error 
 systime
-t	_^2
-t	f=/
-t!RPV
-t!Vh@}
-t$,RW
-t$j$h
-t&Vj4
-t&jHj
-t'jvh
-t(VPRQ
-t*h\&
-t.jdj
-t/Vj4
-t0VWf
-t0f=/
-t2jHj
-t3j@j
-t5j=hL
-t7hx[
-t9f=/
-t9hT&
-t;Pj@
-t;f=/
-t<h83
-t=hpx
-t=j?h(
-t>x>|>
-t?hH0
-t?jAh(
-t@;1u1
-tA;9u2
-tB;9u3
-tE<	u
-tEF;w8|
-tEj&h
-tHhH&
-tIPj@
-tJ_^2
-tMh`[
-tNF;u
-tP<	u
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tSjmhH
 tTyY1
-tXVW3
-tYSVW
-t_hau
 table
 target
 target_pose
 target_serial_number
 targets
-tchH[
 tchinese
-td9C4tHhp
 tdh.dll
-tdm sync acquired
-tdm sync lost
+tdm sync acquired\n
+tdm sync lost\n
 tdmerr
 tdmstat0
 tdmstat1
 tdmstat2
 tdmulter
-ter!uo
 terminate
 testhtclcm %d
 teststandby
@@ -6612,16 +3859,18 @@ text format contains deprecated field "
 text/plain
 textures
 th_th
+thai
 the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
+tilt
 tilt_to_pose_method
+time
 timeBeginPeriod
 timeEndPeriod
 time_last_seen
 timeout
 timeoutSeconds
-tkSVP
 tolower
 too large
 too many codes
@@ -6643,55 +3892,12 @@ trackref_from_head
 trackref_from_imu
 trailing_comments
 translation
+true
 true literal
 turkish
-tv9D7
 twos_complement
-txSRQ
-tyh8[
-t~=UUU
-t~=fff
-t~hl0
-u	j/h 
-u	j0h
-u	j0ht
-u	j1h
-u ;0t.
-u hDx
-u h\,
-u$WVS
-u(_^2
-u(_^[
-u(h`o
-u+htw
-u,PVj
-u.PPPP
-u/h|}
-u1hPo
-u4hl	
-u4hv#
-u4hx	
-u5jdh
-u6hhn
-u9Vhx
-u;9|$
-u<Vj0
-u<f9C u6f9C0u0f9C@u*f9CPu$
-u=f9.t8
-u=j7h
-uAf9^
-uBVj@
-uBf9C
-uCVj@
-uDj^hH
-uEVj@
-uFj9hH
-uGhD3
+type
 uKb!?6mH
-uKj@P
-uWj&h4
-uZVj(
-u_9|$
 uint32
 uint64
 uk_ua
@@ -6703,6 +3909,7 @@ unexpected
 ungetc
 uninterpreted_option
 unique_base_id
+unit
 unknown
 unknown BMP
 unknown code
@@ -6718,34 +3925,25 @@ unsupported data layout
 unsupported format
 updated lenscal
 updated subpixel_shift(s)
-upj@j"P
 usbPID
 usbVID
 usedisambiguation
 userdata
 userinterface
-uvVj@
-uwj	h
-uwj	h(.
-uwj	h4.
-v	N+D$
-v	_^2
-v0PRV
-v0fff
-v=Y]Bv
-v>;T3$r8w
-vDQPh8B
+uvds
+uvlo
 vQO+t
 value
 values
 valve/index_controller
 variance
 vboost_ok
+vdds
 vector<T> too long
 vector<bool> too long
 velocity %0.2fm/s 
 version
-version %s
+version %s\n
 version.txt
 vi_vn
 via transform to global
@@ -6762,26 +3960,24 @@ vr_glove_right_skeleton.glb
 vr_tracker_vive_1_0
 vref_ok
 vrwebhelper
-w QVR
-w$Rh A
+vuf?
 w+OQvr
-w,9w0t-
-w0SPV
-w0hP1
-w4_^]
-wP;wTt
+w3Xc
+wXR\r
+wake
 wcscmp
 wcslen
 wcsncmp
 wcsrchr
 wcsstr
+weak
 weak_dependency
 weights
 while parsing 
 white_balance
 width
 winrtdisplay.dll
-wipe%s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d
+wipe%s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d\n
 wireless_dongle_serial_number
 wn>Jj
 world_from_global
@@ -6793,23 +3989,14 @@ wrong channel count
 wrong color format
 wrong submessage type
 wrong version
-www.digicert.com1!0
-www.digicert.com1$0"
-xRjdj@
-xejdj:
-xx@ef
-y%PWh
-y/Ph<
-y/Phl
-y1j\h
-y3jVh
-y4+A0
-yxxx+
-y~Kmf
-y~Lff
+xmag
+y9*O
+y@0u
+yfov
+ymag
 z?X9T?
-zZ*"1
 zd?/n
+zfar
 zh_cn
 zh_tw
 zlib corrupt
@@ -6817,9 +4004,7 @@ znear
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
-{%s}%s
-{@^_[
-{Kz}f
+{\n   "tracked_cameras" : [\n      {\n         "name" : "left",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],\n            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ 0.06749, -0.03294, 0.06881 ]\n         }\n      },\n      {\n         "name" : "right",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],\n            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ -0.06749, -0.03294, 0.06881 ]\n         }\n      }\n   ]\n}
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json
@@ -6837,41 +4022,10 @@ znear
 {indexhmd}/additional.vrsettings
 {indexhmd}/index_hmd_overrides.bin
 {indexhmd}/input/indexhmd_profile.json
+{kHw
 {knuckles}
 {knuckles}valve_controller_knu_ev1_3_left
 {knuckles}valve_controller_knu_ev1_3_right
 {knuckles}valve_controller_knu_ev2_0_left
 {knuckles}valve_controller_knu_ev2_0_right
-{un'%
-{}`cf
-|$$PW
-|Lu?c
-|cj#hTs
-|f`af
-|fu0f
-|{Cff
-|{Y`f
-||E~f
-}	jCh
 }/lighthouse_scale.json
-}LuHO
-}M?/n
-}Pjdj
-}qj<hHu
-}zjS@
-~(_^[
-~,uMW
-~3j?hL
-~3jUh
-~6VVS
-~@#rn
-~AVVW
-~F0Pf
-~G Wf
-~X0uT
-~X0ua
-~mxef
-~qj#k"
-~t&LN
-~t<a|
-~zgmf

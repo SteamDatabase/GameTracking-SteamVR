@@ -1,34 +1,17 @@
-!
-!=
-%
+  what():  
+ [clone 
+ __vector(
+ const
+ restrict
+ volatile
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%=
-%ld
 %llu
-%s%c%s
 %s/.steam/%s
 %s/.steam/steam
-&&
-&=
-(%zu) Descend: %s, (%s), %s
-(%zu) readdir failed to find '%s' in '%s'
-()
+(%zu) Descend: %s, (%s), %s\n
+(%zu) readdir failed to find '%s' in '%s'\n
 (anonymous namespace)
-)#
-*=
-++
-+=
-,
---
--=
-->
-->*
--in-
-.*
-...
-./
-/=
 /proc/self/cmdline
 /steam.sh
 0123456789ABCDEF
@@ -103,18 +86,7 @@
 9CCallbackI12CCallbackMgr23SteamAPICallCompleted_tLb1EE
 9CCallbackI20CUserStatsReceived_t19UserStatsReceived_tLb0EE
 9CCallbackI23CGetOPFSettingsResult_t22GetOPFSettingsResult_tLb0EE
-:
-::*
-<<
-<<=
-==
->(
->>
->>=
-?
-Apr
-Aug
-Breaking '%s' in '%s'
+Breaking '%s' in '%s'\n
 Breakpad_SteamMiniDumpInit
 Breakpad_SteamSetAppID
 Breakpad_SteamSetSteamID
@@ -246,12 +218,10 @@ CUserStatsReceived_t_RemoveCallResult
 CUserStatsReceived_t_RemoveCallback
 CUserStatsReceived_t_SetCallResult
 CUserStatsReceived_t_SetCallback
-Calling BreakpadMiniDumpSystemInit
+Calling BreakpadMiniDumpSystemInit\n
 CreateInterface
 DBG_PATHMATCH
-Dec
-Feb
-Forcing breakpad minidump interfaces to load
+Forcing breakpad minidump interfaces to load\n
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
 GLIBC_2.14
@@ -259,19 +229,13 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GetHSteamPipe
 GetHSteamUser
 HOME
 JArray
-Jan
-Jul
-Jun
-Looking up breakpad interfaces from steamclient
-Lowered '%s' -> '%s'
-Mar
-Matched '%s' -> '%s'
-May
+Looking up breakpad interfaces from steamclient\n
+Lowered '%s' -> '%s'\n
+Matched '%s' -> '%s'\n
 N10__cxxabiv115__forced_unwindE
 N10__cxxabiv117__class_type_infoE
 N10__cxxabiv119__foreign_exceptionE
@@ -280,13 +244,11 @@ N10__cxxabiv121__vmi_class_type_infoE
 N9__gnu_cxx20recursive_init_errorE
 N9__gnu_cxx24__concurrence_lock_errorE
 N9__gnu_cxx26__concurrence_unlock_errorE
-Nov
-Oct
-Sep
-Setting breakpad minidump AppID = %u
+Setting breakpad minidump AppID = %u\n
 St13bad_exception
 St9bad_alloc
 St9exception
+St9type_info
 SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
@@ -1031,31 +993,31 @@ Steam_GetHSteamUserCurrent
 Steam_RegisterInterfaceFuncs
 Steam_ReleaseThreadLocalMemory
 Steam_RunCallbacks
-Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]
-Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld
-TLS init function for
-TLS wrapper function for
-Unmatched %s
-Using breakpad crash handler
-VTT for
-[S_API FAIL] SteamAPI_Init() failed
+Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
+Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
+TLS init function for 
+TLS wrapper function for 
+Unmatched %s\n
+Using breakpad crash handler\n
+VTT for 
 [S_API FAIL] SteamAPI_Init() failed; connect to global user failed.
 [S_API FAIL] SteamAPI_Init() failed; create pipe failed.
-[S_API FAIL] SteamAPI_Init() failed; no appID found.Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
-[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.
-[S_API FAIL] SteamAPI_Init(): Sys_LoadModule failed to load: %s
-[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
-[S_API] SteamAPI_Init(): Sys_LoadModule failed to load: %s
+[S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.\n
+[S_API FAIL] SteamAPI_Init() failed\n
+[S_API FAIL] SteamAPI_Init(): Sys_LoadModule failed to load: %s\n
+[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.\n
+[S_API] SteamAPI_Init(): Sys_LoadModule failed to load: %s\n
 [abi:
-[clone
-^
-^=
+\nwith error:\n
+\t(%zu) comparing %s with %s\n
 _Accum
 _Fract
+_GLOBAL_
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_Sat
+_Sat 
 __bss_start
 __ctype_tolower_loc
 __ctype_tolower_loc@@GLIBC_2.3
@@ -1090,7 +1052,6 @@ __strncat_chk
 __strncat_chk@@GLIBC_2.3.4
 __tls_get_addr
 __tls_get_addr@@GLIBC_2.3
-__vector(
 __vsnprintf_chk
 __vsnprintf_chk@@GLIBC_2.3.4
 __xmknod
@@ -1103,53 +1064,38 @@ _edata
 _end
 _fini
 _init
-aN
-aS
-aa
 abort
 abort@@GLIBC_2.2.5
 access
 access@@GLIBC_2.2.5
-ad
-alignof
+alignof 
 auto
-az
 basic_iostream
 basic_istream
 basic_ostream
 bool
 boolean
 byte
-cc
 char16_t
 char32_t
 chmod
 chmod@@GLIBC_2.2.5
 chown@@GLIBC_2.2.5
-cl
 clientui.so
 close@@GLIBC_2.2.5
 closedir
 closedir@@GLIBC_2.2.5
-cm
-co
-complex
-const
+complex 
 const_cast
-construction vtable for
-covariant return thunk to
-dV
-da
-dc
-de
+construction vtable for 
+covariant return thunk to 
 decimal128
 decimal32
 decimal64
 decltype (
 decltype(nullptr)
-delete
-delete[]
-dl
+delete 
+delete[] 
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dlclose
@@ -1159,18 +1105,13 @@ dlerror@@GLIBC_2.2.5
 dlmopen
 dlmopen@@GLIBC_2.3.4
 dlopen
-dlopen failed trying to load:
+dlopen failed trying to load:\n
 dlopen@@GLIBC_2.2.5
 dlsym
 dlsym@@GLIBC_2.2.5
-ds
-dt
-dv
 dynamic_cast
-eO
-eo
-eq
 false
+false 
 fclose
 fclose@@GLIBC_2.2.5
 fgets
@@ -1194,27 +1135,21 @@ fwrite
 fwrite@@GLIBC_2.2.5
 g_pSteamClientGameServer
 gameoverlayrenderer.so
-ge
 getenv
 getenv@@GLIBC_2.2.5
-global constructors keyed to
-global destructors keyed to
-gs
-gt
-guard variable for
+global constructors keyed to 
+global destructors keyed to 
+guard variable for 
 half
-hidden alias for
-imaginary
-ix
-java Class for
-java resource
+hidden alias for 
+imaginary 
+java Class for 
+java resource 
 kill
 kill@@GLIBC_2.2.5
-lS
 lchown
 lchown@@GLIBC_2.2.5
 ld-linux-x86-64.so.2
-li
 libaudio.so
 libc.so.6
 libdl.so.2
@@ -1224,9 +1159,6 @@ libsteam.so
 libsteam_api.so
 link@@GLIBC_2.2.5
 long double
-ls
-mI
-mL
 malloc
 malloc@@GLIBC_2.2.5
 memcmp
@@ -1235,48 +1167,30 @@ memcpy
 memcpy@@GLIBC_2.14
 memset
 memset@@GLIBC_2.2.5
-mi
 mkdir
 mkdir@@GLIBC_2.2.5
 mkfifo
 mkfifo@@GLIBC_2.2.5
-ml
-mm
 mount
 mount@@GLIBC_2.2.5
-na
-new
+new 
 new[]
-no
-non-transaction clone for
-non-virtual thunk to
-nw
-oR
-oo
+non-transaction clone for 
+non-virtual thunk to 
 open64@@GLIBC_2.2.5
 open@@GLIBC_2.2.5
 opendir
 opendir@@GLIBC_2.2.5
 operator
-operator""
-pL
-pl
-pm
-pp
-ps
-pt
+operator 
+operator"" 
 pthread_mutex_lock
 pthread_mutex_lock@@GLIBC_2.2.5
 pthread_mutex_unlock
 pthread_mutex_unlock@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
-pure virtual method called
-qu
-rM
-rS
-rb
-rc
+pure virtual method called\n
 read@@GLIBC_2.2.5
 readdir64
 readdir64@@GLIBC_2.2.5
@@ -1288,13 +1202,9 @@ reference temporary #
 reinterpret_cast
 rename
 rename@@GLIBC_2.2.5
-restrict
-rm
 rmdir
 rmdir@@GLIBC_2.2.5
 root
-rs
-sc
 scandir
 scandir64
 scandir64@@GLIBC_2.2.5
@@ -1302,7 +1212,7 @@ scandir@@GLIBC_2.2.5
 sdk64
 setenv
 setenv@@GLIBC_2.2.5
-sizeof
+sizeof 
 sscanf
 sscanf@@GLIBC_2.2.5
 static_cast
@@ -1310,7 +1220,6 @@ statvfs
 statvfs64
 statvfs64@@GLIBC_2.2.5
 statvfs@@GLIBC_2.2.5
-std
 std::allocator
 std::bad_alloc
 std::bad_exception
@@ -1358,17 +1267,15 @@ syscall
 syscall@@GLIBC_2.2.5
 system
 system@@GLIBC_2.2.5
-sz
 terminate called after throwing an instance of '
-terminate called recursively
-terminate called without an active exception
+terminate called recursively\n
+terminate called without an active exception\n
 this
 throw
-tr
+throw 
 true
-tw
-typeinfo fn for
-typeinfo for
+typeinfo fn for 
+typeinfo for 
 typeinfo for __cxxabiv1::__class_type_info
 typeinfo for __cxxabiv1::__forced_unwind
 typeinfo for __cxxabiv1::__foreign_exception
@@ -1377,7 +1284,7 @@ typeinfo for __cxxabiv1::__vmi_class_type_info
 typeinfo for __gnu_cxx::__concurrence_lock_error
 typeinfo for __gnu_cxx::__concurrence_unlock_error
 typeinfo for __gnu_cxx::recursive_init_error
-typeinfo name for
+typeinfo name for 
 typeinfo name for __cxxabiv1::__class_type_info
 typeinfo name for __cxxabiv1::__forced_unwind
 typeinfo name for __cxxabiv1::__foreign_exception
@@ -1386,7 +1293,6 @@ typeinfo name for __cxxabiv1::__vmi_class_type_info
 typeinfo name for __gnu_cxx::__concurrence_lock_error
 typeinfo name for __gnu_cxx::__concurrence_unlock_error
 typeinfo name for __gnu_cxx::recursive_init_error
-ull
 unlink
 unlink@@GLIBC_2.2.5
 unsigned
@@ -1401,7 +1307,6 @@ utime@@GLIBC_2.2.5
 utimes
 utimes@@GLIBC_2.2.5
 void
-volatile
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__forced_unwind
 vtable for __cxxabiv1::__foreign_exception
@@ -1410,17 +1315,9 @@ vtable for __cxxabiv1::__vmi_class_type_info
 vtable for __gnu_cxx::__concurrence_lock_error
 vtable for __gnu_cxx::__concurrence_unlock_error
 vtable for __gnu_cxx::recursive_init_error
-wa+
 wchar_t
-what():
-with error:
 write@@GLIBC_2.2.5
-yes
 {default arg#
 {lambda(
 {parm#
 {unnamed type#
-|=
-||
-}::
-~

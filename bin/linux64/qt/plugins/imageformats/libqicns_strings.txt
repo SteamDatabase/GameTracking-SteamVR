@@ -1,30 +1,12 @@
-
-"
-#
-$
 $ORIGIN/../../lib
-(
-)
-,
--
-0
-0@
-1
 11QICNSPlugin
-2
-3
-4
-<
->
-?
-A
+12QICNSHandler
 CXXABI_1.3
-D
 GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
+PNG\r\n
 QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)
 QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
 QArrayData::shared_null
@@ -115,13 +97,7 @@ QString::toLocal8Bit_helper(QChar const*, int)
 QString::toUInt(bool*, int) const
 QVariant::QVariant(QByteArray const&)
 QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
-Scan of the icon variant container ("%s") failed at pos %s.Reason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
-U
-Z
-[
-\
-]
-^
+Scan of the icon variant container ("%s") failed at pos %s.\nReason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -135,20 +111,8 @@ _edata
 _end
 _fini
 _init
-a
-d
 default
-e
-f
-g
-h
-h@
-ic
 icns
-icp
-j
-jp2
-k
 libGL.so.1
 libQt5Core.so.5
 libQt5Gui.so.5
@@ -157,35 +121,21 @@ libgcc_s.so.1
 libm.so.6
 libpthread.so.0
 libstdc++.so.6
-m
 memcmp
 memcpy
 memset
-n
-o
 operator delete(void*)
 operator new(unsigned long)
-p
 parseIconEntryInfo(): Failed, 32bit icon from an unknown group. OSType: "%s"
 parseIconEntryInfo(): Failed, OSType doesn't match: "%s"
-png
 qt_plugin_instance
 qt_plugin_query_metadata
-r
 readMask(): Failed, unusual bit depth: %u OSType: "%s"
-s
 sqrt
 strcmp
 strlen
-t
 typeinfo for QImageIOHandler
 typeinfo for QImageIOPlugin
-u
 unknown
 vtable for QImage
 vtable for __cxxabiv1::__si_class_type_info
-w
-z
-{
-|
-}

@@ -349,12 +349,12 @@
           return r.bShouldAbort
             ? null
             : i
-            ? (o.length > 0 && (i.children = o), [i])
-            : o.length > 0
-            ? 1 == o.length
-              ? o
-              : [{ children: o }]
-            : null;
+              ? (o.length > 0 && (i.children = o), [i])
+              : o.length > 0
+                ? 1 == o.length
+                  ? o
+                  : [{ children: o }]
+                : null;
         }
         (P.s_nNextMailboxNumber = 1),
           (0, C.gn)([B.ak], P.prototype, "OpenWebSocketToHost", null),
@@ -1117,11 +1117,11 @@
               p && p.length > 0
                 ? (l.properties.key = p)
                 : c
-                ? (l.properties.key = c)
-                : (l.properties.overlay_handle =
-                    null === VRHTML || void 0 === VRHTML
-                      ? void 0
-                      : VRHTML.VROverlay.ThisOverlayHandle()),
+                  ? (l.properties.key = c)
+                  : (l.properties.overlay_handle =
+                      null === VRHTML || void 0 === VRHTML
+                        ? void 0
+                        : VRHTML.VROverlay.ThisOverlayHandle()),
               (l.properties.uv_min =
                 null !== (r = be(this.m_UVsMin)) && void 0 !== r ? r : void 0),
               (l.properties.uv_max =

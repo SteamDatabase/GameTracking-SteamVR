@@ -1,5 +1,3 @@
-	MonoBurst
-	StrengthX
  ParticleSystemScriptingClasses.h
  SyncJobs()->EmitParticleExternal
  Unity.IntegrationTests.Framework
@@ -9,7 +7,6 @@
  UnityEngine.UnityAnalyticsModule
 !SyncJobs()->EmitParticlesExternal
 !SyncJobs(false)->GetParticleCount
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -40,6 +37,7 @@
 !UnityEngine.UnityWebRequestModule
 "Assembly-CSharp-firstpass-testable
 "Dn)F
+"O\f0V
 "SyncJobs(false)->SetAutoRandomSeed
 "Unity.RuntimeTests.Framework.Tests
 #Blob
@@ -59,25 +57,26 @@ $UnityEngine.UnityWebRequestWWWModule
 &UnityEngine.UnityWebRequestAudioModule
 'Modules/ParticleSystem/ParticleSystem.h
 (UnityEngine.UnityWebRequestTextureModule
-*=])Y
 ,UnityEngine.UnityWebRequestAssetBundleModule
--(i!;
+-O\f0V
 -a"3V
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
-.^&>y
+.Wx\vS
 .ctor
-.text
 /Modules/ParticleSystem/ParticleSystemRenderer.h
+174)
 17y)H
 1HI>!
 1Modules/ParticleSystem/ParticleSystemForceField.h
 2Modules/ParticleSystem/ParticleSystemGeometryJob.h
-3?7<	
 3loop property is deprecated. Use main.loop instead.
-48<))
+4y)A
 8Modules/ParticleSystem/ParticleSystemForceFieldManager.h
 8UnityEngine.ParticleSystemJobs.ParticleSystemJobStruct`1
+8y)V
+9e\t\fS
 9useRandomRow property is deprecated. Use rowMode instead.
+:go9
 :meshScale property is deprecated.Please use scale instead.
 ;duration property is deprecated. Use main.duration instead.
 <Module>
@@ -93,11 +92,8 @@ $UnityEngine.UnityWebRequestWWWModule
 <sizes>k__BackingField
 <startColors>k__BackingField
 <velocities>k__BackingField
-?(@0@X@`@
-?8@h@
-?:?N?
 ?startColor property is deprecated. Use main.startColor instead.
-@.reloc
+AC.m
 AddInfluence
 AddInfluence_Injected
 AddSprite
@@ -120,11 +116,13 @@ AscalingMode property is deprecated. Use main.scalingMode instead.
 Assembly-CSharp-testable
 AsyncCallback
 Automatic
+BSJB
 BakeMesh
 BakeTrailsMesh
 BeginInvoke
 Birth
 BitConverter
+Blue
 BoxEdge
 BoxShell
 BurstSpread
@@ -146,6 +144,7 @@ CombineDependencies
 CompilationRelaxationsAttribute
 CompilerGeneratedAttribute
 Concat
+Cone
 ConeShell
 ConeVolume
 ConeVolumeShell
@@ -172,7 +171,6 @@ Custom2XYZ
 Custom2XYZW
 CustomDataModule
 Cylinder
-D= ),
 D=e)Z
 DModules/ParticleSystem/ScriptBindings/ParticleSystemScriptBindings.h
 Death
@@ -187,33 +185,38 @@ Disable
 DisableVertexStreams
 Disabled
 DistributePerSegment
+Dn)D
 Donut
-E))&;
 EEnableVertexStreams is deprecated.Use SetActiveVertexStreams instead.
 EmissionModule
+Emit
 Emit with a single particle structure is deprecated. Pass a ParticleSystem.EmitParams parameter instead, which allows you to override some/all of the emission properties
 Emit with specific parameters is deprecated. Pass a ParticleSystem.EmitParams parameter instead, which allows you to override some/all of the emission properties
 EmitOld_Internal
 EmitParams
 Emit_Injected
 Emit_Internal
+En)K
 EnableVertexStreams
 EndInvoke
 Enter
+Enum
 Evaluate
 Execute
 ExecuteJobFunction
+Exit
 ExtensionAttribute
 ExternalForcesModule
 FDisableVertexStreams is deprecated.Use SetActiveVertexStreams instead.
 Facing
 FlagsAttribute
+Fn)R
 ForceOverLifetimeModule
-ForceShape
 FreeFunctionAttribute
 GameObject
 GcX>D
 Gc^>1
+Ged'
 GetActiveVertexStreams
 GetAutoRandomSeed
 GetBurst
@@ -251,7 +254,6 @@ GetPlane
 GetPlane_Injected
 GetPlaybackState
 GetPlaybackState_Injected
-GetRandomSeed
 GetSafeCollisionEventSize
 GetSafeTriggerParticlesSize
 GetSprite
@@ -276,7 +278,9 @@ GetWorkStealingRange
 GoogleAR.UnityNative
 GplaybackSpeed property is deprecated. Use main.simulationSpeed instead.
 Green
+Grid
 Gsize property is deprecated. Use startSize or GetCurrentSize() instead.
+H9n*
 HUnityEngine.ParticleSystemJobs.ParticleSystemParallelForBatchJobStruct`1
 HasExplicitThis
 Header4Runtime/Scripting/ScriptingCommonStructDefinitions.h
@@ -285,6 +289,7 @@ HemisphereShell
 HflipU property is deprecated. Use ParticleSystemRenderer.flip.x instead.
 HflipV property is deprecated. Use ParticleSystemRenderer.flip.y instead.
 Hierarchy
+High
 HorizontalBillboard
 IAreVertexStreamsEnabled is deprecated.Use GetActiveVertexStreams instead.
 IAsyncResult
@@ -314,7 +319,8 @@ IsAffectedBy
 IsAffectedBy_Injected
 IsAlive
 IsimulationSpace property is deprecated. Use main.simulationSpace instead.
-JQ	3V
+Item
+JQ\t3V
 Jcolor property is deprecated. Use startColor or GetCurrentColor() instead.
 JobProducerTypeAttribute
 JobRanges
@@ -327,11 +333,11 @@ K2t y
 KInternal_GetVertexStreams is deprecated.Use GetActiveVertexStreams instead.
 KInternal_SetVertexStreams is deprecated.Use SetActiveVertexStreams instead.
 KModules/ParticleSystem/ScriptBindings/ParticleSystemModulesScriptBindings.h
-L)	&;
-L)i*;
+Kill
 LModules/ParticleSystem/ScriptBindings/ParticleSystemRendererScriptBindings.h
 LayerMask
 LayerMaskAndList
+Lerp
 Light
 LightsModule
 LimitVelocityOverLifetimeModule
@@ -339,7 +345,10 @@ LimitX
 LimitXMultiplier
 List`1
 Local
+Loop
 LoopUntilReplaced
+M8H*
+MX.z
 MainModule
 Manual
 Mathf
@@ -350,7 +359,7 @@ MonoMinMaxCurve
 MonoMinMaxGradient
 MonoParticleTrails
 MulticastDelegate
-N9	9;
+N9\t9;
 Name"ParticleSystemScriptBindings::PlayT
 Name"ParticleSystemScriptBindings::StopT
 Name#ParticleSystemScriptBindings::ClearT
@@ -366,7 +375,7 @@ Name-ParticleSystemRendererScriptBindings::SetMeshT
 Name/ParticleSystemRendererScriptBindings::GetMeshesT
 Name/ParticleSystemRendererScriptBindings::SetMeshesT
 Name/ParticleSystemScriptBindings::TriggerSubEmitterT
-Name0ParticleSystemScriptBindings::GetCollisionEvents
+Name0ParticleSystemScriptBindings::GetCollisionEvents\f
 Name1ParticleSystemScriptBindings::GetTriggerParticles
 Name1ParticleSystemScriptBindings::SetTriggerParticles
 Name2ParticleSystemScriptBindings::GetParticleMeshIndexT
@@ -397,12 +406,16 @@ NoiseModule
 NoiseSumX
 NoiseSumXY
 NoiseSumXYZ
+None
 NotImplementedException
 NotNullAttribute
+OK@t
+O\f0V
 ObsoleteAttribute
 OldestInFront
 Optional
 Outside
+PMc9
 ParticleCollisionEvent
 ParticlePhysicsExtensions
 ParticleSystemAnimationMode
@@ -455,10 +468,16 @@ ParticleSystemVertexStreams
 Pause
 PauseAndCatchup
 PauseUntilReplaced
+Pcd>
 Pck>2
 PerParticle
 PingPong
 Planes
+Play
+Q2\vN
+Q7\vN
+Q\f0V
+RQi&
 RSDSJ
 RandomColor
 Rectangle
@@ -498,6 +517,7 @@ RotationSpeed
 RotationSpeed3D
 RuntimeCompatibilityAttribute
 RuntimeTypeHandle
+R|A\fS
 Schedule
 ScheduleBatch
 ScheduleManagedJob
@@ -565,8 +585,8 @@ StableRandomXYZ
 StableRandomXYZW
 StartRotationZ
 StartRotationZMultiplier
-StartSizeX
 StartSizeXMultiplier
+Stop
 StopEmitting
 StopEmittingAndClear
 StrengthXMultiplier
@@ -588,12 +608,15 @@ System.Reflection
 System.Runtime.CompilerServices
 System.Security
 System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+T"3V
 Tangent
+Tcr>
 Texture2D
 Texture3D
 TextureSheetAnimationModule
 ThreadSafeAttribute
 ThrowNotImplemented
+Tile
 ToSingle
 ToUInt32
 TrailModule
@@ -613,7 +636,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections
 Unity.Collections.LowLevel.Unsafe
@@ -699,6 +721,8 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 UsedByNativeCodeAttribute
+V"3V
+V\f0V
 ValueType
 VaryingRandomX
 VaryingRandomXY
@@ -709,27 +733,48 @@ Vector3
 Vector4
 Vertex
 VerticalBillboard
+View
+W\t3V
 WholeSheet
 World
 WrapNonExceptionThrows
-XMultiplier
+X\f0V
+Y2 Z
 YI"3V
 YParticleSystemVertexStreams is deprecated. Please use ParticleSystemVertexStream instead.
+Y\f0V
 YoungestInFront
 YstartSize property is deprecated. Use main.startSize or main.startSizeMultiplier instead.
+ZKS-
+Zero
 [Please use scale instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/ShapeModule.scale
+\fGn)T
+\fmeshIndexSet
+\fstartSizeSet
+\nForceShape
+\nStartSizeX
+\rGetRandomSeed
+\rrandomSeedSet
+\rstartColorSet
 \startDelay property is deprecated. Use main.startDelay or main.startDelayMultiplier instead.
 \startSpeed property is deprecated. Use main.startSpeed or main.startSpeedMultiplier instead.
-]x/>D
+\tMonoBurst
+\tStrengthX
+\vUnity.Burst
+\vUnityEngine
+\vXMultiplier
+\vpositionSet
+\vrotationSet
+\vvelocitySet
 ]xW$1
 ]xa$A
 _CorDllMain
 _unity_self
-`.rsrc
 additionalData
 applyShapeToPosition
 automaticCullingEnabled property is deprecated. Use proceduralSimulationSupported instead (UnityUpgradable) -> proceduralSimulationSupported
 axisOfRotationSet
+b\f0V
 backPositions
 bufferRangePatchData
 burst
@@ -744,15 +789,20 @@ collisionEvents
 component
 crandomValue property is deprecated. Use randomSeed instead to control random behavior of particles.
 dUnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+data
 dependsOn
+e8P*
+ei\vS
 emissionRate property is deprecated. Use emission.rateOverTime, emission.rateOverDistance, emission.rateOverTimeMultiplier or emission.rateOverDistanceMultiplier instead.
 emitParams
 emitProbability
 estartLifetime property is deprecated. Use main.startLifetime or main.startLifetimeMultiplier instead.
 estartRotation property is deprecated. Use main.startRotation or main.startRotationMultiplier instead.
+f"3V
 field
 fixedTimeStep
 frontPositions
+f|j5
 get_Count
 get_Item
 get_activeVertexStreamsCount
@@ -1371,13 +1421,16 @@ get_zero
 hPlease use flipRotation instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/MainModule.flipRotation
 handle
 hrateMultiplier property is deprecated. Use rateOverTimeMultiplier or rateOverDistanceMultiplier instead.
+i"3V
+i@n\fZ
+iQ'\nJ
 index
 innerLoopBatchCount
 instanceID
 jobData
 jobIndex
 jobReflectionData
-k,	6;
+kR\f0V
 kgravityModifier property is deprecated. Use main.gravityModifier or main.gravityModifierMultiplier instead.
 lerpFactor
 listDataPtr
@@ -1456,7 +1509,6 @@ m_Velocity
 m_VelocitySet
 maxPositionsPerTrailCount
 maxTrailCount
-meshIndexSet
 meshes
 method
 minIndicesPerJobCount
@@ -1480,13 +1532,11 @@ particleSystemParticle
 particles
 playbackState
 positionCounts
-positionSet
 properties
-randomSeedSet
+ptrs
 ranges
 restart
 result
-rotationSet
 rotationalSpeedSet
 sA;.l
 sConeShell is deprecated and does nothing. Please use ShapeModule.radiusThickness instead, to control edge emission.
@@ -2050,11 +2100,9 @@ set_z
 set_zMultiplier
 set_zMultiplier_Injected
 set_z_Injected
-startColorSet
 startIndex
 startLifetimeSet
 startRotation3D property is deprecated. Use main.startRotationX, main.startRotationY and main.startRotationZ instead. (Or main.startRotationXMultiplier, main.startRotationYMultiplier and main.startRotationZMultiplier).
-startSizeSet
 stopBehavior
 stream
 streamIndex
@@ -2067,21 +2115,23 @@ tCircleEdge is deprecated and does nothing. Please use ShapeModule.radiusThickne
 trailData
 transform
 uSphereShell is deprecated and does nothing. Please use ShapeModule.radiusThickness instead, to control edge emission.
+u\f0V
 unusedPtr
 useTransform
 v2.0.50727
 value
 value__
-velocitySet
 withChildren
 xbirth0 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 xbirth1 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 xdeath0 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 xdeath1 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
+xen\vS
+xxz.
 yConeVolumeShell is deprecated and does nothing. Please use ShapeModule.radiusThickness instead, to control edge emission.
 yHemisphereShell is deprecated and does nothing. Please use ShapeModule.radiusThickness instead, to control edge emission.
 yPlease use Particle.remainingLifetime instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/Particle.remainingLifetime
-|7<)"
+z=C\vC
 |collision0 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 |collision1 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 }v"3V

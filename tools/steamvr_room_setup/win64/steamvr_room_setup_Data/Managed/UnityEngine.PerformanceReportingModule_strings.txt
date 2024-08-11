@@ -5,7 +5,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -53,11 +52,10 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 :Modules/PerformanceReporting/PerformanceReportingManager.h
 <Module>
-@.reloc
 Assembly-CSharp-testable
+BSJB
 DebuggableAttribute
 DebuggingModes
 GetGfxDoneTime
@@ -80,7 +78,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -155,8 +152,9 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 get_enabled
 get_graphicsInitializationFinishTime
 mscoree.dll

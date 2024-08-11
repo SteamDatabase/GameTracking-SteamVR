@@ -1,9 +1,5 @@
-	*	<	
-	2	b	
-	Inherited
  2016
  Unity.Timeline.Tests.Performance
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
@@ -13,19 +9,18 @@ $6A10B290-9283-487F-913B-00D94CD3FAF5
 'Unity.Timeline.Tests.Performance.Editor
 'UnityEngine.Timeline.AudioPlayableAsset
 )UnityEngine.Timeline.ControlPlayableAsset
-+*B~J
-+,5	(
 +UnityEngine.Timeline.AnimationPlayableAsset
 +Use m_InfiniteClipOffsetEulerAngles Instead
 ,UnityEngine.Timeline.ActivationPlayableAsset
 .cctor
 .ctor
-.text
 /The source AnimationClip loops during playback.
 1.0.0.0
+1=s2
 1UnityEngine.Timeline.AudioTrack+<get_outputs>d__5
 2UnityEngine.Timeline.TrackAsset+<get_outputs>d__63
 2applyOffset is deprecated. Use trackOffset instead
+34z@
 5UnityEngine.Timeline.TimelineAsset+<get_outputs>d__27
 6Please use m_InfiniteClip (on AnimationTrack) instead.
 6UnityEngine.Timeline.AnimationTrack+<get_outputs>d__49
@@ -39,11 +34,6 @@ $6A10B290-9283-487F-913B-00D94CD3FAF5
 <>4__this
 <>7__wrap1
 <>7__wrap2
-<>9__117_0
-<>9__12_0
-<>9__13_0
-<>9__13_1
-<>9__2_0
 <>c__DisplayClass0_0
 <>c__DisplayClass0_1
 <>l__initialThreadId
@@ -58,6 +48,7 @@ $6A10B290-9283-487F-913B-00D94CD3FAF5
 <SortClips>b__117_0
 <SortClipsByStartTime>b__2_0
 <SortNotifications>b__12_0
+<ZlX
 <appliedOffsetMode>k__BackingField
 <controllingDirectors>k__BackingField
 <controllingParticles>k__BackingField
@@ -74,7 +65,6 @@ $6A10B290-9283-487F-913B-00D94CD3FAF5
 <useEditMode>k__BackingField
 =For best performance use PlayableAsset and PlayableBehaviour.
 >UnityEngine.Timeline.AnimationPlayableAsset+<get_outputs>d__45
-@.reloc
 @underlyingAsset property is obsolete. Use asset property instead
 Action`1
 Action`3
@@ -99,7 +89,6 @@ AddSubTracksRecursive
 AddTrackInternal
 AllocateTrack
 AllowCreateComponent
-AllowMultiple
 AnimatedTrackProperties
 AnimatesRootTransform
 AnimationClipPlayable
@@ -152,11 +141,14 @@ AudioPlayableBinding
 AudioPlayableOutput
 AudioSource
 AudioTrack
+Auto
+BSJB
 BasedOnClips
 BasicPlayableBehaviour
 BlendCurveMode
 BuildCache
 C:\Users\Keith\Perforce\keithb_home_new\vr\unity\main\RoomSetup\Temp\Unity.Timeline.pdb
+CND2\n
 CacheTrack
 CalculateDuration
 CalculateExtrapolationTimes
@@ -203,6 +195,7 @@ ConvertInfiniteTrack
 ConvertRootMotion
 ConvertRotationToEuler
 ConvertRotationsToEuler
+Copy
 Copyright 
 CreateActivationPlayable
 CreateAndAddNewClipOfType
@@ -230,6 +223,7 @@ CreateTrackOutput
 CreateTrackPlayable
 CustomSignalEventDrawer
 CustomStyleAttribute
+DM\t\fw
 Debug
 DebuggableAttribute
 DebuggerHiddenAttribute
@@ -252,6 +246,7 @@ DoubleToDiscreteTime
 EaseInOut
 EditorBrowsableAttribute
 EditorBrowsableState
+Enum
 Environment
 Equals
 Evaluate
@@ -279,6 +274,7 @@ FromFrames
 FromLocalTimeUnbound
 FromTicks
 Func`2
+GF\t\fC
 GatherProperties
 GenerateUniqueActorName
 GetAnimationClipHash
@@ -357,6 +353,7 @@ HashUtility
 HideFlags
 HideInInspector
 HideInMenuAttribute
+Hold
 Hybrid
 ICollection`1
 IComparable
@@ -415,6 +412,7 @@ IsPostExtrapolatedTime
 IsPreExtrapolatedTime
 IsValid
 IsWhiteSpace
+Item
 IteratorStateMachineAttribute
 LastIndexOf
 LeaveAsIs
@@ -428,13 +426,16 @@ MainModule
 Manual
 Match
 MatchTargetFieldConstants
+Math
 Mathf
+MbP?
 MemberInfo
 MinMaxCurve
 MonoBehaviour
 MoveLastTrackBefore
 MoveNext
 NoRootTransform
+None
 NormalizeMixer
 NotKeyableAttribute
 NotSupportedException
@@ -470,6 +471,7 @@ ParseTimeCode
 ParticleControlPlayable
 ParticleSystemStopBehavior
 PingPong
+Pl\nf
 PlayableDirector
 PlayableHandle
 PlayableOutputExtensions
@@ -492,6 +494,7 @@ PushUndo
 Quaternion
 Query
 QueryRange
+RSDS
 Random
 RangeAttribute
 Rebuild
@@ -504,7 +507,6 @@ RemoveClip
 RemoveSubTrack
 RemoveTrack
 RequiresMotionXPlayable
-Reset Offsets
 ResetOffsets
 Resolve
 Restore_internal
@@ -576,6 +578,7 @@ SignalTrack
 Simulate
 Single
 SnapToNearestTick
+Sort
 SortClips
 SortClipsByStartTime
 Split
@@ -655,7 +658,7 @@ Trigger_internal
 TrimEnd
 TryGetValue
 TryParse
-UNITY_EDITOR
+U"D2
 Unity Technologies
 Unity Timeline
 Unity.Timeline
@@ -723,10 +726,20 @@ Video
 WeightInfo
 WeightUtility
 WrapNonExceptionThrows
-_)VE	
+ZlX*
+\fUNITY_EDITOR
+\nlZY(
+\nm_animClip
+\nzsw
+\rAllowMultiple
+\rReset Offsets
+\rSignalEmitter
+\tHKS
+\tInherited
+\vD2\fi
+\vDV\td
 _CorDllMain
 __internalAwake
-`.rsrc
 aMediaType has been deprecated. It is no longer required, and will be removed in a future release.
 aPent
 add_OnClipPlayableCreate
@@ -742,6 +755,7 @@ animatesRootTransform
 autoRebalance
 blend
 capacity
+caps
 center
 charToRemoveFunc
 checkState
@@ -761,6 +775,7 @@ controlableScripts
 createOutputs
 currentTime
 curvesClipName
+data
 defaultValue
 director
 directors
@@ -773,6 +788,7 @@ fTrackMediaType has been deprecated. It is no longer required, and will be remov
 fields
 finishTail
 first
+flag
 format
 frame
 frameData
@@ -957,10 +973,12 @@ hUse Texture MediaType instead. (UnityUpgradable) -> UnityEngine.Timeline.Timeli
 hashes
 index
 infiniteClipName
+info
 inputCount
 inspectedType
 intervalTreeNode
 isLegacy
+item
 kCenterUnknown
 kDefaultClipCaps
 kDefaultClipDurationInSeconds
@@ -988,6 +1006,8 @@ k_LatestVersion
 k_MaxRandInt
 k_MaxTimelineDurationInSeconds
 k_Tick
+last
+left
 levels
 localTime
 loopMode
@@ -1119,20 +1139,22 @@ m_TrackProperties
 m_Tracks
 m_UseTrackMatchFields
 m_Version
-m_animClip
 m_bufferingTime
 m_started
 m_timeControl
 marker
 masterAsset
 mixerPlayable
+mode
 modulate
 mscoree.dll
 mscorlib
 muteAudioScrubbing
+n7TA
 newClip
 newKey
 newValue
+node
 notification
 notificationFired
 objectToDestroy
@@ -1167,12 +1189,12 @@ particleSystems
 payload
 playableTime
 playerData
+port
 portIndex
 positionOffset
 postPlayback
 prefabGameObject
 previousTime
-q=Z*"
 reaction
 remove_OnClipPlayableCreate
 remove_OnEnableCallback
@@ -1282,6 +1304,8 @@ trackAssetParent
 trackName
 trackType
 tracks
+tree
+type
 updateDirector
 updateITimeControl
 updateParticle

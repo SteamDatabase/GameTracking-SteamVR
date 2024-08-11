@@ -1,43 +1,44 @@
-"></img>
-$@
+         Sum (%s)
+    %s %d: proc %d (group %u:%u)\n
+   Avg Time/Call (%s)
+   Avg Time/Frame (%s)
+  %02d: %u:0x%llx\n
+  %2u - proc %2u (grp %u:%-2u / phy %u / cor %u / smt %u): max freq %llu\n
+  %52.52s%12d%12.3f%12.3f%7.2f%12.3f%7.2f%12.3f%12.3f%12.3f%12.3f\n
+  %s slot %d combined mask %u:0x%llx\n
+  ---------- --------  
+  ------------ ----------  
+  ------------ ------------  
+  ---------------------------------------------------- ----------- ----------- ----------- ------ ----------- ------ ----------- ----------- ----------- -----------\n
+  Count  
+  Scope                                                      Calls Calls/Frame  Time+Child    Pct        Time    Pct   Avg/Frame    Avg/Call Avg-NoChild        Peak\n
+ %12.3f %12.2f
+ %12s %12s
+ (DISABLED)
+ (forced)
+ (including user space up to 63 bits)
+ bytes
+ failed to dlopen "%s" error=%s\n
+ failed to dlopen %s error=%s\n
+ low
 $ORIGIN
-$tI
-%
-%%.%if
-%%.%if%s
-%*s%ld
-%.0f pct of time accounted for
-%.2f
-%0*llx bytes at %0*llx is the largest open user-space VA region%s
-%0*llx bytes of %s at %0*llx%s
-%0*llx: address after highest user-space virtual region
-%02d: %u:0x%llx
-%12.3f %12.2f
-%12s %12s
+%.0f pct of time accounted for\n
+%0*llx bytes at %0*llx is the largest open user-space VA region%s\n
+%0*llx bytes of %s at %0*llx%s\n
+%0*llx: address after highest user-space virtual region\n
 %2d.%03d
-%2u - proc %2u (grp %u:%-2u / phy %u / cor %u / smt %u): max freq %llu
-%52.52s%12d%12.3f%12.3f%7.2f%12.3f%7.2f%12.3f%12.3f%12.3f%12.3f
 %6.2f
-%8.4f / %9.2f:  %s
-%8.4f / %9.2f:  Writing profile data to '%s'
+%8.4f / %9.2f:  %s\n
+%8.4f / %9.2f:  Writing profile data to '%s'\n
 %8.8x-%4.4x-%4.4x-%2.2x%2.2x-%2.2x%2.2x%2.2x%2.2x%2.2x%2.2x
 %8x-%4x-%4x-%2x%2x-%2x%2x%2x%2x%2x%2x
-%9d
-%d
-%d frames sampled for %.2f seconds
-%d.
+%d frames sampled for %.2f seconds\n
 %d:%02d.%03d
 %d:%02d:%02d.%03d
-%i
-%i%s
-%lf
-%llu,%u,%u,%s
-%s %d: proc %d (group %u:%u)
-%s %i %s
-%s '%s'
+%llu,%u,%u,%s\r\n
 %s (%d) : %s
-%s (%i) : %s
-%s slot %d combined mask %u:0x%llx
+%s (%d) : %s\n
+%s (%i) : %s\n
 %s specified, allocating %d MB%s
 %s test: multithread interleaved push/pop, %s
 %s test: multithread push, multithread pop, %s
@@ -45,38 +46,34 @@ $tI
 %s test: multithread push, single thread pop, %s
 %s test: sequential push, multithread pop, %s
 %s test: single thread push, multithread pop, %s
-%s test: single thread push/pop, in order...
-%s test: single thread push/pop, interleaved...
-%s total bytes in user-space regions (%s bytes in kernel-space regions)
+%s test: single thread push/pop, in order... 
+%s test: single thread push/pop, interleaved... 
+%s total bytes in user-space regions (%s bytes in kernel-space regions)\n
 %s(%d%%) %s
-%s():%s
 %s/source_engine_%u.lock
-%s: %s
 %s: Unable to get executable filename (%d byte buffer).
-%s: Unable to load SDL
-%s: added string size %d overflows (added to %d)
-%s: capacity request for %d can't be satisfied (max %d)
-%s: different number of names and flags
-%s: different number of names and pointers
-%s: invalid capacity %d requested
-%s: invalid flag byte count
-%s: invalid nBufferChars %d
-%s: invalid nByteIndex %d (string %d)
-%s: invalid nChars %d (index %d, string %d)
-%s: invalid nChars %d (string %d)
-%s: invalid nIndex %d (string %d)
-%s: invalid nNewChars %d
-%s: invalid nOldChars %d (string %d)
-%s: invalid nStart %d (string %d)
-%s: invalid pointer byte count
-%s: requested conversion of %d chars
-%s: string format requested %d chars
-%s: string length overflows (is %d, adding %d)
-%s: unable to find %s in '%s'
-%s: unable to load '%s', error %d
+%s: Unable to load SDL\n
+%s: added string size %d overflows (added to %d)\n
+%s: capacity request for %d can't be satisfied (max %d)\n
+%s: different number of names and flags\n
+%s: different number of names and pointers\n
+%s: invalid capacity %d requested\n
+%s: invalid flag byte count\n
+%s: invalid nBufferChars %d\n
+%s: invalid nByteIndex %d (string %d)\n
+%s: invalid nChars %d (index %d, string %d)\n
+%s: invalid nChars %d (string %d)\n
+%s: invalid nIndex %d (string %d)\n
+%s: invalid nNewChars %d\n
+%s: invalid nOldChars %d (string %d)\n
+%s: invalid nStart %d (string %d)\n
+%s: invalid pointer byte count\n
+%s: requested conversion of %d chars\n
+%s: string format requested %d chars\n
+%s: string length overflows (is %d, adding %d)\n
+%s: unable to find %s in '%s'\n
+%s: unable to load '%s', error %d\n
 %zu %zu %zu %zu %zu %zu %zu
-&
-&#039;
 &AElig;
 &Aacute;
 &Acirc;
@@ -134,7 +131,6 @@ $tI
 &frac12;
 &frac14;
 &frac34;
-&gt;
 &iacute;
 &icirc;
 &iexcl;
@@ -144,7 +140,6 @@ $tI
 &laquo;
 &ldquo;
 &lsquo;
-&lt;
 &macr;
 &mdash;
 &micro;
@@ -185,33 +180,25 @@ $tI
 &yacute;
 &yen;
 &yuml;
-'%s' %s
-(
-(DISABLED)
 (Missing)
 (Unaccounted)
-(forced)
-(including user space up to 63 bits)
-***** OUT OF MEMORY! /+/ attempted allocation size: %llu ****
-******** BEGIN VPROF REPORT ********
-******** END VPROF REPORT ********
+***** OUT OF MEMORY! /+/ attempted allocation size: %llu ****\n
+******** BEGIN VPROF REPORT ********\n
+******** END VPROF REPORT ********\n
++tPOu
 ,%03d
--- Hierarchical Call Graph --
+-- Hierarchical Call Graph --\n
 -- Profile scopes sorted by average time (including children) --
 -- Profile scopes sorted by average time (without children) --
 -- Profile scopes sorted by peak --
 -- Profile scopes sorted by peak over average (including children) --
 -- Profile scopes sorted by time (including children) --
 -- Profile scopes sorted by time (without children) --
--- Summary --
----------
----------- --------
------------- ----------
------------- ------------
--------------------------------------------
----------------------------------------------------- ----------- ----------- ----------- ------ ----------- ------ ----------- ----------- ----------- -----------
+-- Summary --\n
+-------------------------------------------\n
 --hint
 -2GB
+-HEAP WARNING: memory block at %p appears to be corrupt\n
 -allowmultiple
 -assertbreak
 -clearassertstate
@@ -224,7 +211,6 @@ $tI
 -force_battery_level
 -force_battery_level_battery
 -force_dpi
--i
 -ignorecontentasserts
 -inset_bottom
 -inset_left
@@ -241,18 +227,11 @@ $tI
 -profile
 -retail
 -start_resource_profiling
--t
 -testmode
-.%c
-............|
-../
+............| 
 ../public/ordered_constructor.h
 ../public/tier0/globallist.h
 ../public/tier0/tslist.h
-.\
-.so
-//
-/e%s%s
 /etc/SUSE-release
 /etc/debian_release
 /etc/fedora-release
@@ -274,9 +253,7 @@ $tI
 /sys/devices/system/cpu/cpu%u/topology/physical_package_id
 /tmp
 /tmp/.steam-sem-names
-0
 0123456789ABCDEF
-0@
 10CTestSuite
 10ITestSuite
 12CCommandLine
@@ -350,52 +327,35 @@ $tI
 7CSignalILi8EE
 7CSignalILi9EE
 7CThread
-8
 9CTestCase
 9IMemAlloc
 9ITestCase
-:
+9a&g
 ::<lambda_
 ::_CAssertFastInternal::AssertionFailed
-</a>
-</b>
-</h1>
-</i>
-</pre>
-</s>
-</u>
-</ul>
-<b>
-<br>
-<h1>
-<i>
 <img src="
-<li>
 <pre>
-<s>
-<u>
-<ul>
 >::operator ()
-?
-@
-@X@
-A
-AbortMessage({
+?/proc/self/status
+?\tt\nn\rr""\\
+@MiniDumpExceptionHandler() is undefined for this platform\n
+@debugdraw.cpp
 AddRef
-Affinity preferences: %d logical processors, limiting to %d
-Affinity preferences: %d speeds, preference split at sort index %d
-Affinity preferences: '%s' thread assigned to all-procs mask %u:0x%llx
-Affinity preferences: '%s' thread assigned to proc mask %u:0x%llx (index %d)%s, next proc mask %u:0x%llx (index %d)
-Affinity preferences: all-procs gather crossed group boundary
-Affinity preferences: disabled (%u physical procs, %u logical)
-Affinity preferences: explicitly disabled
-Affinity preferences: no logical processor speed variation
-Affinity preferences: no logical processor split fit
-Affinity preferences: no per-logical-processor information
-Affinity preferences: no preferences, skipping assignment
-Affinity preferences: no-pref all-procs does not set affinity
-Affinity preferences: only one logical processor
-Affinity preferences: turned off for internal reason
+Affinity preferences: %d logical processors, limiting to %d\n
+Affinity preferences: %d speeds, preference split at sort index %d\n
+Affinity preferences: '%s' thread assigned to all-procs mask %u:0x%llx\n
+Affinity preferences: '%s' thread assigned to proc mask %u:0x%llx (index %d)%s, next proc mask %u:0x%llx (index %d)\n
+Affinity preferences: all-procs gather crossed group boundary\n
+Affinity preferences: disabled (%u physical procs, %u logical)\n
+Affinity preferences: explicitly disabled\n
+Affinity preferences: no logical processor speed variation\n
+Affinity preferences: no logical processor split fit\n
+Affinity preferences: no per-logical-processor information\n
+Affinity preferences: no preferences, skipping assignment\n
+Affinity preferences: no-pref all-procs does not set affinity\n
+Affinity preferences: only one logical processor\n
+Affinity preferences: turned off for internal reason\n
+AllocTag
 AllocateEvent
 Always Ignore
 Android
@@ -418,15 +378,15 @@ AssertMsg_ConditionFailed_ContextFunc
 AssertValidStringPtr
 AssertValidWStringPtr
 Assertion Failed
-Assertion Failed in function %s():%s
+Assertion Failed in function %s():\n%s
+Assertion Failure: %s (%d)\n\t%s\n
 AssertionFailureListenerMiniDumpContext_t
 AuthenticAMD
-Average %.2f fps, %.2f ms per frame
-Avg Time/Call (%s)
-Avg Time/Frame (%s)
-Bad node link detected
+Average %.2f fps, %.2f ms per frame\n
+Bad node link detected\n
 BasicStatStructFieldDesc::DescribeField(unsigned char*, unsigned long)
 BinaryProperties_GetValue
+BlibSDL2-2.0.so.0
 Break
 BroadcastAssertionMiniDumpContext_t
 BuiltDebug
@@ -510,9 +470,9 @@ CCallStackStatsGatherer_Base::STUB_RemoveSharedInstanceData(CallStackStatsGather
 CCallStackStatsGatherer_Base::STUB_UnlockEntry(unsigned int)
 CDeferredCallStackMarker::Insert()
 CDeferredCallStackMarker::Remove()
-CDynamicFunction: Closing library '%s' (%p)
-CDynamicFunction: Loading library '%s' (%p)
-CDynamicFunction: Lookup of '%s' in '%s': %p
+CDynamicFunction: Closing library '%s' (%p)\n
+CDynamicFunction: Loading library '%s' (%p)\n
+CDynamicFunction: Lookup of '%s' in '%s': %p\n
 CEventListNode::AllocTempNode()
 CEventListNode::FreeTempNode(CEventListNode*)
 CEventRWLock::DuplicateReadLock()
@@ -542,9 +502,8 @@ CFiber::SetCurrentFiber(CFiber*)
 CFiber::SetThreadFiberMemoryRange(unsigned long)
 CFiber::WaitForJobCompletion(CEventListNode&)
 CFiber::~CFiber()
-CLoggingSystem::AllocTag overflowed!
+CLoggingSystem::AllocTag overflowed!\n
 CMemAllocSystemInitialize
-CMiniDumpComment encountered an error while generating the comment
 CMiniDumpComment::AppendComment(char const*)
 CMiniDumpComment::AppendFormattedComment(char const*, ...)
 CMiniDumpComment::AppendOSComment()
@@ -784,7 +743,7 @@ CWorkerThread::WaitForCall(unsigned int, unsigned int*)
 CWorkerThread::WaitForReply(unsigned int)
 CWorkerThread::WaitForReply(unsigned int, unsigned int (*)(unsigned int, CThreadEvent**, int, unsigned int))
 CXXABI_1.3
-Called Resume() on a thread that is not suspended!
+Called Resume() on a thread that is not suspended!\n
 Cannot flush timstamped event log with no listener!
 Cannot register two timestamped event listeners!
 Capture
@@ -793,6 +752,7 @@ CatchAndWriteMiniDumpEx
 CatchAndWriteMiniDumpExForVoidPtrFn
 CatchAndWriteMiniDumpExReturnsInt
 CatchAndWriteMiniDumpForVoidPtrFn
+Cdbg.cpp
 Client Game
 Client Input/Output
 Client Physics
@@ -805,13 +765,13 @@ ConColorMsg(Color const&, char const*, ...)
 ConDMsg
 ConMsg(char const*, ...)
 Corefile
-Couldn't window icon! %s
-Count
+Couldn't window icon! %s\n
 CrackSmokingCompiler
 CreateCommandLine
 CreateInterface
 CreateSimpleProcess
 CreateSimpleThread
+D"A/oyu
 DEBUG_EXITPROCESS
 DWARF_LOCAL_TRANSLATE
 DeclareCurrentThreadIsMainThread
@@ -826,32 +786,30 @@ Diff
 DoAssertDialog: invalid Assert response returned from dialog/vxconsole - breaking to debugger
 ENABLE_ASSERT_DIALOG_PRINT
 ERROR: Alloc exceeded allocation limit /+/ %llu > %llu
-ERROR: HangWatchdogInternal_BeginScope() - Hang watchdog not implemented for this platform!
-ERROR: HangWatchdogInternal_EndScope() - Hang watchdog not implemented for this platform!
-ERROR: HangWatchdog_IndicateActivity() - Hang watchdog not implemented for this platform!
-ERROR: HangWatchdog_Initialize() - Hang watchdog not implemented for this platform!
-ERROR: HangWatchdog_SetHangImageRGBA() - Hang watchdog not implemented for this platform!
-ERROR: HangWatchdog_SetMainThreadWindow() - Hang watchdog not implemented for this platform!
-ERROR: HangWatchdog_Shutdown() - Hang watchdog not implemented for this platform!
+ERROR: HangWatchdogInternal_BeginScope() - Hang watchdog not implemented for this platform!\n
+ERROR: HangWatchdogInternal_EndScope() - Hang watchdog not implemented for this platform!\n
+ERROR: HangWatchdog_IndicateActivity() - Hang watchdog not implemented for this platform!\n
+ERROR: HangWatchdog_Initialize() - Hang watchdog not implemented for this platform!\n
+ERROR: HangWatchdog_SetHangImageRGBA() - Hang watchdog not implemented for this platform!\n
+ERROR: HangWatchdog_SetMainThreadWindow() - Hang watchdog not implemented for this platform!\n
+ERROR: HangWatchdog_Shutdown() - Hang watchdog not implemented for this platform!\n
 ERROR: Virtual reservation exceeded limit /+/ %llu > %llu
 EarlyInit_Tier0
 EnsureAddedCapacity
 EnsureCapacity
 Error reading args file
 Exit Process
-Exiting due to logging LR_ABORT request.
-F
-FAIL: !IsEmpty()
-FAIL: !Validate()
-FAIL: Not all items popped
+Exiting due to logging LR_ABORT request.\n
+FAIL: !IsEmpty()\n
+FAIL: !Validate()\n
+FAIL: Not all items popped\n
 Fatal Error
-File: %sLine: %iExpr: %s
+File: %s\nLine: %i\nExpr: %s
 FileSystem
 FlushBuffer
-Found Application AutoArgs file '%s'
+Found Application AutoArgs file '%s'\n
 Frame Boundary
 FreeCommandLine
-G
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GLIBCXX_3.4
 GLIBCXX_3.4.15
@@ -866,7 +824,6 @@ GLIBC_2.4
 GLIBC_2.7
 GLIBC_2.8
 GLIBC_2.9
-GNU
 General
 GenuineIntel
 GetAddressTranslationData
@@ -889,12 +846,11 @@ GetSymbolNameFromAddress
 GetThreadedLoadLibraryFunc
 GetUnitTest
 GetWin32ConsoleCursorColumnIndex
-H
-H@
-HEAP WARNING: memory block at %p is unexpectedly allocated
-HEAP WARNING: memory block at %p is unexpectedly free
-HEAP WARNING: memory block at %p is unexpectedly unrecognized
-HEAP WARNING: memory pointer %p is invalid
+H$BQ
+HEAP WARNING: memory block at %p is unexpectedly allocated\n
+HEAP WARNING: memory block at %p is unexpectedly free\n
+HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
+HEAP WARNING: memory pointer %p is invalid\n
 HH:MM:SS.z
 HOME
 HangWatchdog
@@ -905,8 +861,7 @@ HangWatchdog_Initialize
 HangWatchdog_SetHangImageRGBA
 HangWatchdog_SetMainThreadWindow
 HangWatchdog_Shutdown
-Heap: standard allocator
-I
+Heap: standard allocator\n
 IAssertionFailureListener::AssertionFailure()
 IMemAlloc::DumpStats: could not open output file %s
 Ignore All Asserts
@@ -916,20 +871,19 @@ Illegal char string format specifier '%c' (%d) in '%s'
 Illegal wchar_t string format specifier '%c' (%d) in '%s'
 InitWin32ConsoleColorContext
 InstallProgressReportHandler
-Intentionally vague touch behavior for %p
+Intentionally vague touch behavior for %p\n
 Interpolation
 InvokeMiniDumpHandler
 IterateCapturedStackAnnotations
-J
 JmpToAlternateStack
 Jobs/Coroutines
-KB
-L
+KM^bM
 LOADING
 LOG_GENERAL
 Launch Debugger
 LengthOfMatchingPaths
 Linux
+Linux 
 Linux 2.2
 Linux 2.4
 Linux 2.6
@@ -990,7 +944,7 @@ LoggingSystem_SetChannelVerbosityByTag
 LoggingSystem_SetLoggingResponsePolicy
 LoggingSystem_TagName
 LoggingSystem_UnregisterLoggingListener
-MB
+MGiI
 Mac OS
 MacOS 10.10
 MacOS 10.11
@@ -1028,35 +982,30 @@ MinidumpSetMiniDumpComment
 MinidumpUserStreamInfoAppend
 MinidumpUserStreamInfoGet
 MinidumpUserStreamInfoSetHeader
-Module %s is a debug build
+Module %s is a debug build\n
 N11TSListTests8CListOpsE
 N11TSListTests8CTestOpsE
 N11TSListTests9CQueueOpsE
-NOTE: this is the total bytes of the regions above, not the growth since the old snapshot
+NOTE: this is the total bytes of the regions above, not the growth since the old snapshot\n
 NO_GAME_ASSERT_DIALOG
 NO_RAISE_ON_ASSERT
 NPCs
 Networking
-No samples
+No samples\n
 NoteAlloc
-O
-OK
-OS memory stats:
-OS type: %s (%d)
-OS: %s
+OS type: %s (%d)\n
 OSTypesAreCompatible
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 Other VScript
-Out of logging channels.
-Out of thread ids. Decrease the number of threads or increase MAX_RECYCLEABLE_THREAD_IDS so we can recycle more
-PS3
-Parameter file '%s' not found, skipping...
+Out of logging channels.\n
+Out of thread ids. Decrease the number of threads or increase MAX_RECYCLEABLE_THREAD_IDS so we can recycle more\n
+Parameter file '%s' not found, skipping...\n
 Particle Simulation
 Particle/Effect_Rendering
-Peak
-Peak %.2f ms frame
-Peak resident virtual bytes: %s
-Peak total virtual bytes: %s
-Peak working set: %s
+Peak %.2f ms frame\n
+Peak resident virtual bytes: %s\n
+Peak total virtual bytes: %s\n
+Peak working set: %s\n
 Plat_AlertUser
 Plat_AlertUser(PlatWindow_t__*, wchar_t const*, wchar_t const*)
 Plat_AppendMiniDumpErrorString
@@ -1073,7 +1022,7 @@ Plat_CreateDirectory
 Plat_CreateGameInstanceMutex
 Plat_CreateUUIDImpl
 Plat_CreateWindow
-Plat_CreateWindow:  Could not create SDL window: %s
+Plat_CreateWindow:  Could not create SDL window: %s\n
 Plat_DebugPrint
 Plat_DebugPrintV
 Plat_DebugString
@@ -1085,9 +1034,9 @@ Plat_EnableCustomerMachineMode
 Plat_EnableHeadlessMode
 Plat_EndWatchdogTimer
 Plat_EnterHibernation
-Plat_EnterHibernation()
+Plat_EnterHibernation()\n
 Plat_ExitHibernation
-Plat_ExitHibernation()
+Plat_ExitHibernation()\n
 Plat_ExitProcess
 Plat_FastVerifyHardwareKey
 Plat_FileExists
@@ -1191,6 +1140,7 @@ Plat_LoadSDL
 Plat_MSTime
 Plat_MSTime64
 Plat_MessageBox
+Plat_MessageBox() called in headless mode:\n\tTitle: %s\n\tMessage: %s\n
 Plat_MicroSecTickDiff
 Plat_MicroSecTickDiffF
 Plat_MilliSecTickDiff
@@ -1285,7 +1235,10 @@ Push
 PushMiniProfilerTS
 PushPopThread
 PushThread
+QguI
+Qkkbal
 Qt_GetCustomAllocators
+RD?4KF?=GH?9FJ?8HL?
 RegisterAssertionFailureListener
 RegisterHibernationListener
 RegisterKeyValuesSystem
@@ -1298,15 +1251,15 @@ RemoveAtUTF8
 RemoveMiniProfilerFromList
 ReplaceAt
 ReportProgress
-Resident virtual bytes: %s
+Resident virtual bytes: %s\n
 RestoreWin32ConsoleColor
 ReverseChars
 Root
 RunTSListTests
 RunTSQueueTests
 RunWithAlternateStack
-Running %s...
-S
+Running %s...\n
+S>T7W>
 SDL_AudioStreamAvailable
 SDL_AudioStreamClear
 SDL_AudioStreamFlush
@@ -1404,7 +1357,7 @@ SDL_RWFromFile
 SDL_RaiseWindow
 SDL_RestoreWindow
 SDL_SetClipboardText
-SDL_SetClipboardText failed: %s
+SDL_SetClipboardText failed: %s\n
 SDL_SetCursor
 SDL_SetHint
 SDL_SetRelativeMouseMode
@@ -1473,7 +1426,6 @@ SIGXCPU
 SIGXFSZ
 STEAM_RUNTIME=0 LD_LIBRARY_PATH="$SYSTEM_LD_LIBRARY_PATH" PATH="$SYSTEM_PATH" /usr/bin/xdg-open
 STUB_GetStatStructName
-Scope                                                      Calls Calls/Frame  Time+Child    Pct        Time    Pct   Avg/Frame    Avg/Call Avg-NoChild        Peak
 SendActionToAssertDialog
 SeriousWarning
 SeriousWarning(int, Color, char const*, ...)
@@ -1513,16 +1465,13 @@ StackTools_InstallModuleMappingListener
 StackTools_RemoveModuleMappingListener
 StackTools_VerifyLoadedModuleMappings
 Steam
-Stop has been called on thread.
-Sum (%s)
-T
+Stop has been called on thread.\n
 TMPDIR
-TSList cannot hold more that %d nodes
-Test bucket %d has an invalid value %d
-Testing %d threads:
+TSList cannot hold more that %d nodes\n
+Test bucket %d has an invalid value %d\n
 Tests done, purging test memory...
-Thread failed to initialize
-Thread failed to respond, probably exited
+Thread failed to initialize\n
+Thread failed to respond, probably exited\n
 Thread(%p/0x%llx)
 ThreadCloseProcess
 ThreadGetCurrentHandle
@@ -1574,16 +1523,17 @@ TimestampedEvent_RegisterListenerAndFlushBuffer
 ToLowerFast
 ToUpperFast
 Tools
-Total virtual bytes: %s
+Total virtual bytes: %s\n
 TracerPid:
 TranslateStackInfo
 UCS-2
+URdN
 USER
 UTF-8
-Unable to create event, error %d
-Unable to create semaphore, error %d
-Unable to determine CPU Frequency
-Unable to load SDL2
+Unable to create event, error %d\n
+Unable to create semaphore, error %d\n
+Unable to determine CPU Frequency\n
+Unable to load SDL2\n
 Unaccounted
 UnicodeCaseConvert
 UnitTestCount
@@ -1593,7 +1543,6 @@ Unknown (invalid)
 UnknownOS
 UnregisterAssertionFailureListener
 UnregisterHibernationListener
-V
 VALVE_DISABLE_CLOCK_SPEED_CALCULATION
 VALVE_TESTMODE
 VCRT_isalnum
@@ -1604,7 +1553,7 @@ VCRT_tolower
 VCRT_toupper
 VGAME
 VPROJECT
-VProf spike "%s" from %f to %f ms
+VProf spike "%s" from %f to %f ms\n
 V_AbbreviatePathInPlace
 V_AddBackSlashesToSpecialChars
 V_AreFileNamesEqual
@@ -1861,7 +1810,7 @@ V_towupper32
 V_vfprintf
 V_vscprintf
 V_vsnprintf
-V_vsnprintf truncated to %u without QUIET_TRUNCATION specified! String: "%s"
+V_vsnprintf truncated to %u without QUIET_TRUNCATION specified! String: "%s"\n
 V_vsnprintfRet
 V_vsnprintfSize
 V_vsnprintfWarnTrunc
@@ -1875,22 +1824,21 @@ V_wcstod
 V_wcstoi64
 V_wcstoui64
 ValidateStringFormatSpecifiers
-Virtual Memory %s Report for PID %u
-Virtual memory regions sorted by size:
+Virtual Memory %s Report for PID %u\n
+Virtual memory regions sorted by size:\n
 VmHWM
 VmPeak
 VmRSS
 VmSize
 VoidFnPtrLookup_Tier0
-W
 WARNING: Large alloc of %llu bytes of memory (limit %llu)
 WARNING: Large virtual reservation of %llu bytes of memory (limit %llu)
-WARNING: there were errors during information capture, this report may be incomplete
-WARNING: total wall clock time was %.2f seconds, results may be invalid
-WARNING: truncated input line
+WARNING: there were errors during information capture, this report may be incomplete\n
+WARNING: total wall clock time was %.2f seconds, results may be invalid\n
+WARNING: truncated input line\n
 WARNING: unable to parse line: '%s'
-WARNING: zero-length line in maps
-Warning: Fell out of small block heap!
+WARNING: zero-length line in maps\n
+Warning: Fell out of small block heap!\n
 WatchDog! Server took too long to process (probably infinite loop)
 Windows
 Windows 10
@@ -1910,31 +1858,27 @@ Windows ME
 Windows NT
 Windows Vista
 Windows XP
-Working set: %s
-Y
+Working set: %s\n
+XS&Y+
+Zjz\v
 [   func+child         func ]
 [   func+child       func ]
 [ func+child     func ]
-[*]
-[/b]
 [/code]
-[/h1]
-[/i]
-[/img]
 [/list]
-[/s]
-[/u]
-[/url]
-[b]
+[1;31m%s
+[1;33mASSERT: 
 [code]
-[h1]
-[i]
 [img]
 [list]
-[s]
-[u]
 [url=
-_
+\D2%4
+\n4Zv
+\nAbortMessage({
+\nOS memory stats:\n
+\nTesting %d threads:\n
+\n\nCMiniDumpComment encountered an error while generating the comment
+\t6RtcZO"
 _AssertValidReadPtr
 _AssertValidReadWritePtr
 _AssertValidWritePtr
@@ -2011,22 +1955,20 @@ _edata
 _end
 _exit
 _fini
-a
+a?y#c?sIe?
+aco-nz
 alarm
 asctime
 asctime_r
 assert_dialog.cpp
-at+
 backtrace
 bin/linuxsteamrt64/libtier0.so
 buffer_string.cpp
-bytes
 calloc
 chdir
 clock_gettime
 core id
 cpu.cpp
-d
 detailed
 distributed...
 dladdr
@@ -2034,7 +1976,8 @@ dlclose
 dlerror
 dlopen
 dlsym
-done
+done\n
+ds\fw
 epoll_create1
 epoll_ctl
 epoll_wait
@@ -2042,15 +1985,13 @@ error
 eventfd
 execlp
 exitprocess_%d
-failed to dlopen "%s" error=%s
-failed to dlopen %s error=%s
 false
 fchmod
 fcntl
-fcntl(%d) for %s failed
+fcntl(%d) for %s failed\n
 fibertools.cpp
 fopen64
-forced dump
+forced dump\n
 fork
 free
 freopen64
@@ -2097,14 +2038,11 @@ gmtime_r
 hibernate.cpp
 high
 higher
-i
-iOS
+i]Wb
 ignored_assertions.txt
 int:transient:1
 isspace
-k
 ld-linux-x86-64.so.2
-lib
 libc.so.6
 libdl.so.2
 libm.so.6
@@ -2115,11 +2053,12 @@ libtier0.so
 linux
 localtime_r
 logging.cpp
-low
 lower
+m?H5p?
 macos
 malloc
 malloc_usable_size
+mem_helpers.cpp
 memstats_%d.txt
 memstd.cpp
 message
@@ -2127,23 +2066,23 @@ mkdir
 mkostemps64
 mmap64
 mprotect
-ms
 munmap
 nTries < 10000000
 nanosleep
 nexttoken
 no affinity...
+noicon
 nopref-all
 notify-send
 open
-open(%s) failed
+open(%s) failed\n
 operator delete(void*)
 operator delete[](void*)
 operator new(unsigned long)
 operator new[](unsigned long)
-p
 p?&quot;
-pass
+pass\n
+pb>pAf>
 pclose
 physical id
 platform.cpp
@@ -2180,15 +2119,16 @@ pthread_setspecific
 pthread_yield
 putenv
 qsort_r
-queue force advance
-queue max wait
+queue force advance\n
+queue max wait\n
 raise
-rb
 readlink
 realloc
 rename
 rmdir
 round
+s3o\
+sVwES
 sched_setaffinity
 semctl
 semget
@@ -2200,7 +2140,7 @@ sigemptyset
 sigprocmask
 srand
 stacktools.cpp
-std::_Rb_tree<char const*, std::pair<char const* const, unsigned long long>, std::_Select1st<std::pair<char const* const, unsigned long long> >, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char const* const, unsigned long long> >*)
+std::_Rb_tree<char const*, std::pair<char const* const, unsigned long long>, std::_Select1st<std::pair<char const* const, unsigned long long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long long>>>::_M_erase(std::_Rb_tree_node<std::pair<char const* const, unsigned long long>>*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
@@ -2208,10 +2148,10 @@ std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_b
 std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)
 std::__detail::_List_node_base::_M_unhook()
 std::__throw_bad_alloc()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
 std::ios_base::Init::Init()
 std::ios_base::Init::~Init()
-std::pair<std::_Rb_tree_iterator<std::pair<char const* const, unsigned long long> >, bool> std::_Rb_tree<char const*, std::pair<char const* const, unsigned long long>, std::_Select1st<std::pair<char const* const, unsigned long long> >, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long long> > >::_M_insert_unique<std::pair<char const*, unsigned long> >(std::pair<char const*, unsigned long>&&)
+std::pair<std::_Rb_tree_iterator<std::pair<char const* const, unsigned long long>>, bool> std::_Rb_tree<char const*, std::pair<char const* const, unsigned long long>, std::_Select1st<std::pair<char const* const, unsigned long long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long long>>>::_M_insert_unique<std::pair<char const*, unsigned long>>(std::pair<char const*, unsigned long>&&)
 std::string::_M_leak_hard()
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
 std::string::_Rep::_S_empty_rep_storage
@@ -2227,12 +2167,11 @@ strtoull
 sysconf
 sysinfo
 system
-t
 threadtools.cpp
 tier0
 tier0_strtools.cpp
 timestamped.log
-tsc
+tsc\n
 typeinfo for BasicStatStructFieldDesc
 typeinfo for CTestCase
 typeinfo for CTestSuite
@@ -2279,9 +2218,9 @@ vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 vtune
+w!hy
 waitpid
 warning
-wb+
 wcscoll
 wcslen
 wcsncat
@@ -2289,6 +2228,6 @@ wcsncpy
 wcstoll
 wcstoull
 windows
-wt
-})
-~
+wn>Jj
+wo=N
+z`%1Is}

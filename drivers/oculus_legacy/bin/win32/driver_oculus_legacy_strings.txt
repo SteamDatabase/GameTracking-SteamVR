@@ -1,14 +1,8 @@
-	!s99
- %41g
  (Camera)
-!hn7!
-',=?k
+%lld
+%llu
 (Unable to load LibOVR)
-(f*^[0
-+Xt@(
-+o'q)}
 , last executing in 
-,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -40,6 +34,8 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.HPN
+.bss
 .data
 .data$r
 .edata
@@ -52,161 +48,31 @@
 .rdata$T
 .rdata$r
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata$x
-/7,t&C
-0 0$0(0,0L0P0|0
-0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0q0v0
-0!0'0/070<0B0J0R0W0]0e0m0r0x0
-0,040<0@0H0\0d0l0t0x0|0
-0;0=4T4
-0J0T0^0i0s0
-0f0k0
-0w0c1
-0}0i1
-1!111Z2
-1!141=1B1b1C2V2\2z2
-1"1'1,11161A1F1K1P1U1Z1_1d1i1n1s1x1}1
-1"1*1/151=1E1J1P1X1`1e1k1s1{1
-1%1*1C1H1U1
-1%101=1b1r1|1
-1(1,1<1@1D1H1L1P1T1X1\1`1d1
-130801120000Z
-2"2(20282=2C2K2S2X2^2f2n2s2y2
-2"2-22272?2D2M2T2Y2`2i2p2u2|2
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173918Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2H2l2
-2N2`2
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3!3(3
-3#3-373A3K3U3_3i3s3}3
-3'313;3H3R3X3_3c3i3s3}3
-3-3A3T3
-311109235959Z0b1
-341013235959Z0H1
-34383
-343\3x3
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-384<4@4D4\4`4h4
-3mq+<
-3v4!5_5s5}5
-4$4*4/454@4F4U4\4a4j4o4x4
-4&4/484A4J4S4\4;5T5X5\5`5d5h5l5p5
-4&565>5F5
-4'414;4E4O4Y4c4m4w4
-4'4L4n4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5 5X6\6`6d6h6l6p6t6x6|6
-5$5(5,545L5\5`5p5t5x5
-545U5
-5FjiT
-5Genu
-5M6C7a7
-5^5g5p5y5~5
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5ineI
-6"6I6
-6"7]7
-6$6(686<6D6\6l6p6
-6$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-6*f(_
-6I]Dc
-6OB,n_
-6^6d6~6
-6a7j7q7
-7#7)737J7{7
-7#7,71767D7S7\7e7n7s7x7
-7+737;7
-7/8C8L8X8^8d8o8
-70503
-747D7H7X7\7l7p7x7
-768B8l8
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8$84888H8L8\8`8h8
-8'8-878A8K8U8_8i8v8
-80969<9C9I9i9
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9"90999L9-:M:W:r:
-9#9.9;9M9W9a9l9w9
-9+9Q9h9
-93:z:
-9T?X?\?`?d?h?l?p?t?x?
-9W9a9k9y9
-9h;x;
-:";+;4;=;B;G;N;S;_;
-:&;/;8;A;F;K;R;b;
-:/:=:F:O:X:]:b:i:
-:4:=:F:O:T:Y:`:p:
-:>:G:R:h:
-;!;*;7;O;
-;)<6=
-;;;q;
-< =,=4=T=x=
-<!<*<3<8<=<D<
-<#<-<7<A<K<U<_<i<s<}<
-<$<)<<<T<]<h<o<
-<,<5<><G<L<Q<X<
-<0:08
-<U<a<y<
-= =*=:=J=Z=c=r=x=~=
-= >/>B>N>^>o>
-=&=m=v=
-=`>x>|>
-=f>q>
-=j)hX
-=rIQU
-> >B>d>n>w>
->$>*>0>6><>B>H>N>T>Z>`>f>l>r>x>~>
->(>4><>\>
->0<0:
->8?E?l?t?
->:>B>I>Q>V>\>d>l>q>w>
-><>y>
->Mp$d
-?!?)?.?4?<?D?I?O?W?_?d?j?r?z?
-?!?1?A?Q?a?q?
-?$?(?8?\?h?p?
-?(?J?}?
-?\?b?p?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPBD@Z
 ?_Xout_of_range@std@@YAXPBD@Z
-@.data
-@.reloc
 ADVAPI32.dll
-Bellevue1
 COculusHmdLatest::UpdateThread
-Camera tracker driver for rejected by vrserver
+Camera tracker driver for rejected by vrserver\n
 CloseHandle
 Code: -1003
 Code: -3003
@@ -215,21 +81,14 @@ CreateEventW
 CreateThread
 D3D11CreateDevice
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Error! EventWriteString Severe: %s
+Error! EventWriteString Severe: %s\n
 EventRegister
 EventUnregister
 EventWriteString
 EventWriteTransfer
-Failed to initalize OVR direct mode support.
-Failed to initialized Oculus device
+Failed to initalize OVR direct mode support.\n
+Failed to initialized Oculus device\n
 FreeLibrary
 GetCurrentDirectoryW
 GetCurrentProcess
@@ -242,9 +101,7 @@ GetModuleHandleExW
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-H-^Eu
 HmdDriverFactory
-IC$T4
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -260,41 +117,29 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
-InitDirectMode: DX11 level hardware required!
-InitDirectMode: Failed to create D3D11 device! (err=%u)
+InitDirectMode: DX11 level hardware required!\n
+InitDirectMode: Failed to create D3D11 device! (err=%u)\n
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
-Initialized Oculus device %s
+Initialized Oculus device %s\n
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 KERNEL32.dll
-K}*n:	
-L?n(Zy&
 LIBOVR_DLL_DIR
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
-MB(iVR
 MSVCP140.dll
 MainThrd
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-O+ UW
+NULL
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
-Out of thread local storage!
-PAq=?Mp#
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
+Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
+RSDS
 RaiseException
-S0Q0O
-SA|X=G
 SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
@@ -306,15 +151,14 @@ SleepConditionVariableCS
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Unable to create texture set for pid %u: %s
-Unable to init oculus camera tracker
+Unable to init oculus camera tracker\n
 UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
@@ -323,24 +167,15 @@ VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 WaitForSingleObject
 WakeAllConditionVariable
-Warning: Watchdog %s not properly cleaned up%s%s
-Washington1
-Y9"SD
-Y__^[
-[ rPN
-[67E3=
-[K]taM?
+Warning: Watchdog %s not properly cleaned up%s%s\n
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
-]J<0"0i3
+\vUnable to create texture set for pid %u: %s\n
 ][OculusDirect] Begin AcquireSync
 _Camera
 _Cnd_destroy_in_situ
@@ -368,7 +203,6 @@ _except1
 _except_handler3
 _except_handler4_common
 _execute_onexit_table
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -378,8 +212,6 @@ _purecall
 _register_onexit_function
 _seh_filter_dll
 _stricmp
-`.rdata
-a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -390,31 +222,22 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
+ceil
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
-f;A*stSW
+free
 getenv
 headset
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 invalid string position
-jdjdh
-jj@0HK4
-k0i0$
-l2|X/gGe
-m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
 oculus
-ovrHmd_ConfigureTracking failed for %d
-ovrHmd_Create failed
+ovrHmd_ConfigureTracking failed for %d\n
+ovrHmd_Create failed\n
 ovr_ConfigureTracking
 ovr_Create
 ovr_CreateMirrorTextureD3D11
@@ -457,7 +280,7 @@ ovr_SetQueueAheadFraction
 ovr_SetString
 ovr_Shutdown
 ovr_SubmitFrame
-ovr_SubmitFrame failed: %s
+ovr_SubmitFrame failed: %s\n
 ovr_TraceMessage
 startup
 string too long
@@ -466,12 +289,7 @@ strncpy_s
 strstr
 tdh.dll
 terminate
-u7j8Q
-uCVj@
-v=Y]Bv
 vector<T> too long
-www.digicert.com1!0
-www.digicert.com1$0"
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -481,8 +299,3 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_ready_alert.png
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
-{un'%
-|Lu?c
-}LuHO
-~qj#k"
-~t&LN

@@ -3,7 +3,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -52,11 +51,10 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 AddInput
 Assembly-CSharp-testable
+BSJB
 CheckConnectionToServer
 ClusterInput
 ClusterInputType
@@ -66,6 +64,7 @@ DebuggableAttribute
 DebuggingModes
 ENABLE_CLUSTERINPUT
 EditInput
+Enum
 GetAxis
 GetButton
 GetTrackerPosition
@@ -79,6 +78,7 @@ NativeHeaderAttribute
 Object
 Quartenion::identity
 Quaternion
+RSDS
 RuntimeCompatibilityAttribute
 SetAxis
 SetButton
@@ -97,7 +97,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -177,13 +176,16 @@ UnverifiableCodeAttribute
 Vector3
 Vector3f(0.0f, 0.0f, 0.0f)
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 deviceName
 index
 mscoree.dll
 mscorlib
+name
 serverUrl
+type
 v2.0.50727
 value
 value__

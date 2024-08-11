@@ -1,6 +1,3 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- H3E H3E
-!This program cannot be run in DOS mode.
 (W?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
@@ -27,6 +24,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -47,19 +45,18 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
 6S?setAlphaChannel@QImage@@QEAAXAEBV1@@Z
 6V?setText@QImage@@QEAAXAEBVQString@@0@Z
-9"Z\}C4
 ??0QBuffer@@QEAA@PEAVQByteArray@@PEAVQObject@@@Z
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QByteArray@@QEAA@XZ
@@ -85,22 +82,7 @@
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?createAlphaMask@QImage@@QEBA?AV1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?devType@QImage@@UEBAHXZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@SAXPEAUData@1@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fill@QImage@@QEAAXI@Z
 ?fromData@QImage@@SA?AV1@AEBVQByteArray@@PEBD@Z
-?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
@@ -115,32 +97,18 @@
 ?warning@QMessageLogger@@QEBAXPEBDZZ
 ?write@QIODevice@@QEAA_JAEBVQByteArray@@@Z
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-@.data
-@.qtmetad<
-@.reloc
-@A^_^
-@SAVH
-@SVWH
-@USVWAVAWH
-A_A^_^[]
-AuthD
 CloseHandle
 CreateEventW
-D$H@2
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
 FU?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
-GenuA
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-HcD$0HcJ
-HcL$0H
-HcT$0IcJ
 InitializeConditionVariable
 InitializeSListHead
 IsDebuggerPresent
@@ -149,25 +117,15 @@ J?hasAlphaChannel@QImage@@QEBA_NXZ
 K?height@QImage@@QEBAHXZ
 K?invertPixels@QImage@@QEAAXW4InvertMode@1@@Z
 KERNEL32.dll
-L$ E3
-L$(H3
-L$0H3
-L$@fA
-L$HH3
-L$xHc
 L?isNull@QImage@@QEBA_NXZ
 LeaveCriticalSection
-M H1E
 M?loopCount@QImageIOHandler@@UEBAHXZ
-MetaData
-MimeTypes
 O?nextImageDelay@QImageIOHandler@@UEBAHXZ
 O?paintEngine@QImage@@UEBAPEAVQPaintEngine@@XZ
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+PNG\r\n
 Q?redirected@QPaintDevice@@MEBAPEAV1@PEAVQPoint@@@Z
 QICOPlugin
-QTMETADATA  qbjs
 Qt5Core.dll
 Qt5Gui.dll
 QtIcoHandler::canRead() called with no device
@@ -175,7 +133,6 @@ QueryPerformanceCounter
 R?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
 R?scanLine@QImage@@QEAAPEAEH@Z
 ResetEvent
-Rich}C4
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -184,20 +141,32 @@ S?setColorCount@QImage@@QEAAXH@Z
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T$0HcA
 T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TerminateProcess
 U?setPixel@QImage@@QEAAXHHI@Z
-UWAUI
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-VWAVH
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Z?width@QImage@@QEBAHXZ
-\$ UH
+\\n?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\n?createAlphaMask@QImage@@QEBA?AV1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\npng
+\r?fill@QImage@@QEAAXI@Z
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?devType@QImage@@UEBAHXZ
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -216,38 +185,20 @@ _initterm_e
 _q_icoOrigDepth
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 bad allocation
 bad array new length
-className
-d$xLc
-debug
-ffffff
+free
 hK?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
-image/vnd.microsoft.icon
-j	?bytesPerLine@QImage@@QEBAHXZ
-l$ WH
-l$8E2
+j\t?bytesPerLine@QImage@@QEBAHXZ
 malloc
 memcmp
 memset
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qico.dll
 qt_plugin_instance
 qt_plugin_query_metadata
-t$ AVH
-t$XHc
+r\f?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-w3@8t$+u,f
-|$ AVH
-|$. v
-|$0u<
-|$@HcG
 }N?metric@QImage@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
-~4fff
-~tH9^

@@ -1,81 +1,10 @@
-					
-							
-								
-												
-																																												
-																																																																																																																
-			"P1": 0,
-			"P2": 0,
-			"SADWindowSize": 9,
-			"closeDepthStrategy": "SmartDilatationOfClosDepth",
-			"disp12MaxDiff": 0, // left <> right check disabled
-			"keepInputDepthValues": true, 
-			"preFilterCap": 63,
-			"preventInitialValuesToChangeDuringOptimization": true,
-			"speckleRange": 1,
-			"speckleWindowSize": 200,
-			"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",
-			"uniquenessRatio": 20,
-		"addDilatedController": "onTopOfWarpedFrame",
-		"controllerRenderingType":"GPU",
-		"fillRightDepthFrame" : true,
-		"hardwareFriendlyBilateralSolver": {
-		"initialDepthAlgo": "StereoSGBM",
-		"postProcessingStrategy":"None",
-		"postprocesssingFilter":"HardwareFriendlyBilateral",
-		"sgbm":
-		"sparseDepthCleaningAlgo": "None",
-		"useBackgroundProcessingForFullDepthEstimation": true,
-		"useMaskOnTheBorders" : true,
-		"useRawDepthHistory" : true,
-	!s99
-	#jT$
-	CODE_SIZE
-	D$HA
-	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
-	TYPE_BOOL
-	TYPE_ENUM
-	enum_type
-	extension
-	name_part
-	type_name
-	w2Hc
-	|$HA
-     
-      
-               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],
-               "type" : "DISTORT_EXTENDED_FTHETA"
-            "center_x" : 480,
-            "center_y" : 480,
-            "distort" : {
-            "focal_x" : 417,
-            "focal_y" : 417,
-            "height" : 960,
-            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],
-            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],
-            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],
-            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],
-            "position" : [ -0.06749, -0.03294, 0.06881 ]
-            "position" : [ 0.06749, -0.03294, 0.06881 ]
-            "width" : 960
-            },
-         "extrinsics" : {
-         "intrinsics" : {
-         "name" : "left",
-         "name" : "right",
-         }
-         },
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
       status = 
-      {
-      }
-      },
-    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f
-    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f
-    %X, %X: s/n %s: %s (interface %d)
-    %d: x: %d, y: %d, w: %d, h: %d edid: %s
-    %s
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f\n
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f\n
+    %X, %X: s/n %s: %s (interface %d)\n
+    %d: x: %d, y: %d, w: %d, h: %d edid: %s\n
     .codec = 
     .cs47l35_error = 
     .jack = 
@@ -85,18 +14,13 @@
     .state = 
     .tfa9892_left_error = 
     .tfa9892_right_error = 
-    A
-    Actual    : 
     Bucket: size:%zu timeline:%s
     Bucket: size:%zu timeline:none
-    Expected  : 
-    Field type: 
-    No devices
+    No devices\n
     Unused Resources: size:%zu
     Unused timelines: size:%zu
-    trackref_from_head: %s
-    trackref_from_imu: %s
-   "tracked_cameras" : [
+    trackref_from_head: %s\n
+    trackref_from_imu: %s\n
   .audio_cs47l35_timer_stats[0] = 
   .audio_cs47l35_timer_stats[1] = 
   .audio_reserved = 
@@ -116,7 +40,6 @@
   .video_state = 
   .video_status_word = 
   .video_subsystem_status = 
-  BL 
   Comment started here.
   DP audio 16 bit sample size.
   DP audio 48 kHz audio sample rate.
@@ -125,24 +48,13 @@
   Error: DP audio invalid sample rate.
   Error: DP audio invalid sample size.
   Error: No DP audio samples detected.
-  Field       : 
-  Message type: 
-  Problem     : 
-  Problem     : Enum value did not match field type:
-  Problem     : Field is not the right type for this message:
   wmstatus.audio_tf9892_sregs 
- !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- %41g
- '-46
- (cal)
  (does the path point to a directory?)
  (generation changed)
  (object had no JSON IMU cal)
  (right sync)
  (selected 
- ) = 
- * Available base %08X
+ * Available base %08X\n
  - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  .anx_dp_error = 
  .anx_dp_height = 
@@ -163,73 +75,41 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
- =RDHI
- A]A\_
- A^A]A\_^
- A^][
- A^^]
- A^_[
- A^_^
- A^_^][
- A_A\[
- A_A\^
- A_A\^][
- A_A\_
- A_A]A\_^
- A_A^A\
- A_A^A\_^
- A_A^A\_^H
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^]
- A_A^^
- A_A^_
- A_A^_H
- A_A^_][
- A_A^_^]
- A_^[
- A__[
- A__]
- A__^
  BackUp() can only be called after Next().
  Backlights:
  Brightness: 
  Can't back up over more bytes than were returned by the last call to Next().
- H3E H3E
  Outdent() without matching Indent().
  Parameter to BackUp() can't be negative.
  Peripheral MCU %u
  Radio %u
- SetDefaultAudioDevice: device = %s, role = %d
+ SetDefaultAudioDevice: device = %s, role = %d\n
  Subsystem statuses (0 = not started, 127 = ok, negative = problem)
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
  VRC %u
  Video subsystem details:
- [$0]
  [default = $0
  also seeing 
  args were given.  Full format string was: "
  at all
  at line 
  back-facing hits
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
  deg/s
  disambiguator
- for detail.
+ for detail.\n
  formatting error code 
- hitf
  hits0=
  hits1=
- in Buffer
- in `
+ in Buffer\n
  inflate 1.2.5 Copyright 1995-2010 Mark Adler 
  is not valid for field 
  len 
- m/s/s
  message of type "
  nohit=
  non-clustered hits
@@ -240,24 +120,16 @@
  period=
  ppm=
  rejected updates
- sJE3
- sec)
  seeing 
  sensors~
  sigma 
  syncs=
- utE3
- u~E3
-!! refusing to trigger minidump with debugger attached
-!""""""
-!&.37<
+!! refusing to trigger minidump with debugger attached\n
 !( pDedicatedBuffer && pDedicatedImage )
-!(0)"
-!HcS0
+!AxU
 !IsInUse()
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
-!hn7!
 !leftSyncIsReal
 !m_stackFreeResources.empty()
 !rightSyncIsRealAsItGets
@@ -300,15 +172,14 @@
 " was not found or had errors.
 " which is not used.
 " which is.
-"""""""
 "$0" does not declare $1 as an extension number.
 "%/28;=#$019:>?
+"'\n\vCBaseConfig
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
 ", another member of oneof "
 ", but only 
-", found "
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
 ".  To use it here, please add the necessary import.
@@ -318,128 +189,117 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"9k0t
 "MutableRawRepeatedField"
-"accessors" object not found in .gltf
-"asset" object not found in .gltf or not an object type
-"bufferViews" object not found in .gltf
-"buffers" object not found in .gltf
+"accessors" object not found in .gltf\n
+"asset" object not found in .gltf or not an object type\n
+"bufferViews" object not found in .gltf\n
+"buffers" object not found in .gltf\n
 "e" must be followed by exponent.
-"nodes" object not found in .gltf
+"nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
-"scenes" object not found in .gltf or not an array type
+"r\n\nCImuSample
+"scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
-#*1892+$
-#9i0t
+"z\n\rMethodOptions
 #?RADIANCE
+#?RADIANCE\n
 #?RGBE
-#D9c0t
-#D9{0t
+#?RGBE\n
 #bML"
-$0  extend .$1 {
-$0  extensions $1 to $2;
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
 $0  message $1
-$0  }
-$0 oneof $1 {
-$0$1 = $2
+$0 oneof $1 {\n
 $0$1$2 $3 = $4
-$0enum $1 {
-$0option $1;
-$9k0t
+$0enum $1 {\n
+$0option $1;\n
+$3br
 $tAUUPE
-$w!Hc
-%%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%,3:;4-&
-%9k0t
-%9{0t
-%Y-%m-%d
-%d.%d.%d
+%02x
+%04X
 %hu,%hu,'%4c',%hu
-%s %c: 
-%s - Unable to init
-%s - Unable to start replay of "%s"
+%llu
+%s - Unable to init\n
+%s - Unable to start replay of "%s"\n
 %s begin_ctx=%llu
 %s called without first releasing previous slot!
-%s created to play "%s"
-%s disambiguator provided base configuration. Rotor count: %d
+%s created to play "%s"\n
+%s disambiguator provided base configuration. Rotor count: %d\n
 %s end_ctx=%llu
 %s pitch ~%0.1f deg roll ~%0.1f deg 
-%s%s%s%s%s
 %s%s%s%s%s%s%s
-%s-%d
 %s-CommandBuffer-%d
 %s-Image
 %s-ImageView
 %s-Memory
-%s: %d, %d, %d, %d
-%s: %s
+%s: %d, %d, %d, %d\n
 %s: %s #%d already pending acquire
 %s: %s #%d already pending release
 %s: %s #%d already pending release (lock)
-%s: %s IMU calibration: Accel bias change %.2fm/s/s%s
-%s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total
+%s: %s IMU calibration: Accel bias change %.2fm/s/s%s\n
+%s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
 %s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL
 %s: AcquireSync FAILED with E_FAIL
 %s: AcquireSync FAILED with WAIT_ABANDONED
 %s: AcquireSync FAILED with WAIT_TIMEOUT
 %s: AcquireSync FAILED with unknown hr
 %s: An error occurred while recording command buffer: %s
-%s: Applying scale %0.04f from reference object %s
-%s: Attached device ID not set.  No controller input available.
-%s: Can't create source of type "%s"
-%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x
-%s: Connected to receiver %s
-%s: Controller subprotocol changed version %d
+%s: Applying scale %0.04f from reference object %s\n
+%s: Attached device ID not set.  No controller input available.\n
+%s: Can't create source of type "%s"\n
+%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
+%s: Connected to receiver %s\n
+%s: Controller subprotocol changed version %d\n
 %s: D3D11 feature level required for interop
-%s: Device does not have a stored config
-%s: Disconnected from receiver %s
-%s: ERROR: could not query version from watchman board.
-%s: ERROR: firmware does not meet minimum required version (%d). Please update device.
-%s: Enabling IMU tracking fallback
-%s: Expected %u bytes of config but only found %d. Rejecting config
+%s: Device does not have a stored config\n
+%s: Disconnected from receiver %s\n
+%s: ERROR: could not query version from watchman board.\n
+%s: ERROR: firmware does not meet minimum required version (%d). Please update device.\n
+%s: Enabling IMU tracking fallback\n
+%s: Expected %u bytes of config but only found %d. Rejecting config\n
 %s: Failed to allocate command buffer: %d
-%s: Failed to allocate memory
 %s: Failed to allocate memory for command buffer
+%s: Failed to allocate memory\n
 %s: Failed to begin command buffer
 %s: Failed to create command buffer pool: %d
 %s: Failed to create vulkan device: %d
-%s: Failed to determine a compatible memory type
+%s: Failed to determine a compatible memory type\n
 %s: Failed to get queue: %u:%u
 %s: Failed to initialize compute queue.
 %s: Failed to initialize graphics queue.
 %s: Failed to reset command buffer: %d
 %s: Failed to submit to queue: %u:%u
-%s: Firmware Version %s
-%s: Ignoring unlikely saved IMU calibration %s
+%s: Firmware Version %s\n
+%s: Ignoring unlikely saved IMU calibration %s\n
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
 %s: Invalid interop API: %d
 %s: Log recorded at %s
-%s: Not loading device config because its size is too large: 0x%X bytes
-%s: Optical subprotocol changed version %d
-%s: Packet received after %.3fs, keepalive (%d/%d)
-%s: Protocol versioning supported, requesting %d
-%s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes
-%s: Reading %s from device (Attempt %d of %d)
-%s: Received short %d byte packet when expecting config
-%s: Receiving wireless data, but unable to talk to controller main board.
+%s: Not loading device config because its size is too large: 0x%X bytes\n
+%s: Optical subprotocol changed version %d\n
+%s: Packet received after %.3fs, keepalive (%d/%d)\n
+%s: Protocol versioning supported, requesting %d\n
+%s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
+%s: Reading %s from device (Attempt %d of %d)\n
+%s: Received short %d byte packet when expecting config\n
+%s: Receiving wireless data, but unable to talk to controller main board.\n
 %s: ReleaseSync FAILED with E_FAIL
 %s: ReleaseSync FAILED with unknown hr
-%s: Retry protocol version request for %d
-%s: Similar CAD but scale mismatch to reference object %s
-%s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d
-%s: Transition to protocol version %d
-%s: Triggered keepalive (%s)
-%s: Unable to fetch gyro/accelerometer range modes from the device
-%s: Unable to request config start from device
-%s: WARNING: Malformed wireless packet v%d: %s
-%s: WARNING: Unable to set sync detect mode %d
-%s: Warning, can't request wireless protocol version
-%s: Warning: Unknown disambiguation mode: %s
-%s: Warning: Unknown disambiguation option "%s" in: %s
-%s: Wireless controller %s disconnected
+%s: Retry protocol version request for %d\n
+%s: Similar CAD but scale mismatch to reference object %s\n
+%s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d\n
+%s: Transition to protocol version %d\n
+%s: Triggered keepalive (%s)\n
+%s: Unable to fetch gyro/accelerometer range modes from the device\n
+%s: Unable to request config start from device\n
+%s: WARNING: Malformed wireless packet v%d: %s\n
+%s: WARNING: Unable to set sync detect mode %d\n
+%s: Warning, can't request wireless protocol version\n
+%s: Warning: Unknown disambiguation mode: %s\n
+%s: Warning: Unknown disambiguation option "%s" in: %s\n
+%s: Wireless controller %s disconnected\n
 %s: allocator not initialized
 %s: at least one signal point is required
 %s: attempt to block on incomplete query set: %s
@@ -502,7 +362,7 @@ $w!Hc
 %s: failed to export client buffer
 %s: failed to export client swapchain image
 %s: failed to export client timeline
-%s: failed to export memory (%d)
+%s: failed to export memory (%d)\n
 %s: failed to export timeline %s
 %s: failed to find a suitable vulkan device
 %s: failed to get D3D11 interop resource handle
@@ -533,7 +393,7 @@ $w!Hc
 %s: failed to open the prism process
 %s: failed to query resource interface
 %s: failed to register compositor resources
-%s: failed to register debug callback
+%s: failed to register debug callback\n
 %s: failed to register resources
 %s: failed to release sync
 %s: failed to set debug name
@@ -593,292 +453,63 @@ $w!Hc
 %s:ForceAcquireImageTimeline
 %s:SyncTexture
 %s:Timeline
-%u != %zu
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&9k0t
-&D9c0t
-&D9k0t
-&D9{0t
 ' is not a number.
 ' property is missing
 ' property is missing in 
-' property is missing.
-' property is missing. 
-' property is not a JSON object.
-' property is not a bool type.
-' property is not a number type.
-' property is not a number.
-' property is not a positive integer.
-' property is not a string type.
+' property is missing. \n'
+' property is missing.\n
+' property is not a JSON object.\n
+' property is not a bool type.\n
+' property is not a number type.\n
+' property is not a number.\n
+' property is not a positive integer.\n
+' property is not a string type.\n
 ' property is not an array
-' property is not an integer type.
-' property is not an object.
-' value is not an integer type.
-',=?k
+' property is not an integer type.\n
+' property is not an object.\n
+' value is not an integer type.\n
 '.5<=6/7>????????????????
-'9k0t
-'D9c0t
 '[', '{', or a literal
-'f?FO-
-'uri' is missing from non binary glTF file buffer.
-(;^,|
-(;s,|
-(A\^][
-(A\_^[
-(A]_^[
-(A^A]A\_
-(A^A]^[
-(A^A]_[
-(A_A\
-(A_A]_^
-(A_A^A\[
-(A_A^A]A\_^][
-(A_A^][
-(A_A^^[
-(A_A^_[
-(A_A^_]
-(D$ A
-(D$ H
-(D$ Hc
-(D$ I
-(D$ f
-(D$0D
-(D$0H
-(D$0I
-(D$0L
-(D$0f
-(D$@D
-(D$@H
-(D$@I
-(D$@I+
-(D$PD
-(D$PH
-(D$`H
-(D$`f
-(D$pH
-(D;}8
-(E;~,
+'uri' is missing from non binary glTF file buffer.\n
 (Enumerating)
 (Failed Enumeration)
 (General Failure)
-(H;Ehu
 (Hub Nested Too Deeply)
 (In Legacy Hub)
-(L$ D
-(L$ H
-(L$ f
-(L$0D
-(L$0I+
-(L$@D
-(L$PD
-(L$PH
-(L$PfH
-(L$`D
-(L$`E
-(L$`H
-(L$pD
 (Not Enough Bandwidth)
 (Not Enough Power)
 (Overcurrent)
 (Reset)
-(T$ H
-(T$0D
-(T$0H
-(T$@D
-(T$@H
-(T$PD
-(T$Pf
-(T$`H
-(T$`I
-(T$pf
-(\$ D
-(\$0A
-(\$0D
-(\$`D
+(\t"+\n\rCDynamicState
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2).lighthouse.pb.CBaseConfigAndDynamicState"
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (cannot determine missing fields for lite message)
-(d$ H
-(d$PD
-(d$`B
-(d$`L
-(d$pD
-(f*^[0
-(l$0D
-(l$0I
-(l$@D
-(l$`D
-(l$pH
 (merge 
-(t$ 2
-(t$ @
-(t$ E
-(t$ H
-(t$ L
-(t$ f
-(t$ t
-(t$02
-(t$0D
-(t$0H
-(t$0L
-(t$0vs
-(t$@D
-(t$@H
-(t$@I
-(t$@L
-(t$@r
-(t$PD
-(t$PH
-(t$PL
-(t$Pf
-(t$`E
-(t$`H
-(t$`L
-(t$`t
-(t$pD
-(t$pH
-(t$pI
-(t$pL
-(|$ 2
-(|$ D
-(|$ H
-(|$0A
-(|$0D
-(|$0H
-(|$0L
-(|$0s
-(|$@D
-(|$@H
-(|$@I
-(|$PD
-(|$PE
-(|$PH
-(|$PI
-(|$PL
-(|$Pt
-(|$`D
-(|$`H
-(|$`I
-(|$pD
-(|$pH
-(|$pL
 ) deg
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)9k0t
-)D$ D
-)D$ H
-)D$ L
-)D$0D
-)D$0E
-)D$0H
-)D$0I;
-)D$0L
-)D$0M;
-)D$0fD
-)D$0s"L
-)D$0s'A
-)D$0u
-)D$@A
-)D$@H
-)D$@L
-)D$PD
-)D$PE
-)D$PH
-)D$PL
-)D$`E
-)D$`H
-)D$`L
-)D$pE
-)D$pH
-)D$pf
-)L$ D
-)L$ fD
-)L$0A
-)L$0D
-)L$0H
-)L$0fff
-)L$@H
-)L$PD
-)L$PM;
-)L$pA
-)L$pH
-)T$ H
-)T$0H
-)T$@E
-)T$PI
-)T$Pf
-)T$`H
-)T$pD
-)\$pI
-)\ZEo^m/
-)d$`H
-)d$pD
-)l$ D
-)l$0D
-)l$0E
-)l$@D
-)l$`D
-)l$pD
-)t$ A
-)t$ D
-)t$ H
-)t$ H=
-)t$ I
-)t$ f
-)t$0@
-)t$0A
-)t$0D
-)t$0H
-)t$0f
-)t$@H
-)t$@f
-)t$PD
-)t$PE
-)t$PH
-)t$PL
-)t$Pf
-)t$`D
-)t$`H
-)t$pD
-)t$pE3
-)t$pH
-)t$pM
-)t$pf
-)|$ A
-)|$ D
-)|$ E2
-)|$ H
-)|$ f
-)|$0A
-)|$0D
-)|$0H
-)|$0f
-)|$@A
-)|$@D
-)|$@E3
-)|$@H
-)|$@f
-)|$PD
-)|$PH
-)|$PM
-)|$`D
-)|$`H
-)|$`f
-)|$pH
-)|$pI
-)|$pf
-*H+KXI
-*T$4I
-*uXI;
-+C,+C
-+D9c0t H
-+Xt@(
+*5KS
 +laser0
 +laser1
 +motor0
 +motor1
-+o'q)}
 +temp_high
 +temp_low
 +unknown
@@ -892,34 +523,43 @@ $w!Hc
 , max interval 
 , not just within "
 , requestedBytes 
-,$HiL$h
-,+<:w
-,0<6w H
-,9k0t%H
-,9{0t%H
-,W5y+
------ BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
------ CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
------ DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
------ RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----
------ SECONDARY base %08X distance %0.2fm%*s-----
+----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----\n
+----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----\n
+----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago\n
+----- RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----\n
+----- SECONDARY base %08X distance %0.2fm%*s-----\n
 -1e+9999
--9k0t&H
--9{0t%H
--<	u#
--D9c0t%H
 -IPCWrapper
 -Infinity
--t!?Ks
+-\n\nimu_sample
+-inf
 -t1?Ks
 -tA?Ks
--u-I;
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-... Moving the base for tracking too, which might cause a pop
-.... BaseStation Map has %d entries
-../..
+... Moving the base for tracking too, which might cause a pop\n
+.... BaseStation Map has %d entries\n
+..\src\google\protobuf\descriptor.cc
+..\src\google\protobuf\descriptor.pb.cc
+..\src\google\protobuf\descriptor_database.cc
+..\src\google\protobuf\dynamic_message.cc
+..\src\google\protobuf\extension_set.cc
+..\src\google\protobuf\extension_set_heavy.cc
+..\src\google\protobuf\generated_message_reflection.cc
+..\src\google\protobuf\io\coded_stream.cc
+..\src\google\protobuf\io\strtod.cc
+..\src\google\protobuf\io\tokenizer.cc
+..\src\google\protobuf\io\zero_copy_stream.cc
+..\src\google\protobuf\io\zero_copy_stream_impl.cc
+..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+..\src\google\protobuf\message.cc
+..\src\google\protobuf\message_lite.cc
+..\src\google\protobuf\reflection_ops.cc
+..\src\google\protobuf\stubs\common.cc
+..\src\google\protobuf\stubs\substitute.cc
+..\src\google\protobuf\text_format.cc
+..\src\google\protobuf\wire_format.cc
+..\src\google\protobuf\wire_format_lite.cc
 .00cfg
-.>u%A
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -1022,6 +662,10 @@ $w!Hc
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
+.?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
+.?AVArrayInputStream@io@protobuf@google@@
+.?AVArrayOutputStream@io@protobuf@google@@
 .?AVBlendMatrix3x3PoseMaker@@
 .?AVCAnimResource@@
 .?AVCAnimSkeleton@@
@@ -1103,9 +747,40 @@ $w!Hc
 .?AVCWirelessDecoderWv2@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
+.?AVClosure@protobuf@google@@
+.?AVCopyingFileInputStream@FileInputStream@io@protobuf@google@@
+.?AVCopyingInputStream@io@protobuf@google@@
+.?AVCopyingInputStreamAdaptor@io@protobuf@google@@
+.?AVDescriptorDatabase@protobuf@google@@
+.?AVDescriptorPoolExtensionFinder@internal@protobuf@google@@
+.?AVDescriptorProto@protobuf@google@@
+.?AVDescriptorProto_ExtensionRange@protobuf@google@@
+.?AVDynamicMessage@protobuf@google@@
+.?AVDynamicMessageFactory@protobuf@google@@
+.?AVEncodedDescriptorDatabase@protobuf@google@@
+.?AVEnumDescriptorProto@protobuf@google@@
+.?AVEnumOptions@protobuf@google@@
+.?AVEnumValueDescriptorProto@protobuf@google@@
+.?AVEnumValueOptions@protobuf@google@@
+.?AVErrorCollector@io@protobuf@google@@
 .?AVException@Json@@
+.?AVExtensionFinder@internal@protobuf@google@@
 .?AVFactory@CharReader@Json@@
 .?AVFastWriter@Json@@
+.?AVFatalException@protobuf@google@@
+.?AVFieldDescriptorProto@protobuf@google@@
+.?AVFieldOptions@protobuf@google@@
+.?AVFieldSkipper@internal@protobuf@google@@
+.?AVFieldValuePrinter@TextFormat@protobuf@google@@
+.?AVFileDescriptorProto@protobuf@google@@
+.?AVFileDescriptorSet@protobuf@google@@
+.?AVFileInputStream@io@protobuf@google@@
+.?AVFileOptions@protobuf@google@@
+.?AVFinder@TextFormat@protobuf@google@@
+.?AVFunctionClosure0@internal@protobuf@google@@
+.?AVGeneratedExtensionFinder@internal@protobuf@google@@
+.?AVGeneratedMessageFactory@?A0xaa88a5bd@protobuf@google@@
+.?AVGeneratedMessageReflection@internal@protobuf@google@@
 .?AVIAudioEndpointVolumeCallbackImpl@@
 .?AVIAuxEventCallback@CLighthouseIMUThread@vortex@@
 .?AVICVrControllerHapticWrapperClient@vortex@@
@@ -1150,15 +825,34 @@ $w!Hc
 .?AVLogStream@LogMessage@google@@
 .?AVLogStreamBuf@base_logging@google@@
 .?AVLogicError@Json@@
+.?AVMessage@protobuf@google@@
+.?AVMessageFactory@protobuf@google@@
+.?AVMessageLite@protobuf@google@@
+.?AVMessageOptions@protobuf@google@@
+.?AVMethodDescriptorProto@protobuf@google@@
+.?AVMethodOptions@protobuf@google@@
+.?AVOneofDescriptorProto@protobuf@google@@
 .?AVOurCharReader@Json@@
+.?AVParserErrorCollector@ParserImpl@Parser@TextFormat@protobuf@google@@
+.?AVReflection@protobuf@google@@
 .?AVRuntimeError@Json@@
+.?AVServiceDescriptorProto@protobuf@google@@
+.?AVServiceOptions@protobuf@google@@
+.?AVSourceCodeInfo@protobuf@google@@
+.?AVSourceCodeInfo_Location@protobuf@google@@
 .?AVStaticPoseMaker@@
+.?AVStringOutputStream@io@protobuf@google@@
 .?AVStyledWriter@Json@@
 .?AVTypeInfo@Reflection@@
+.?AVUninterpretedOption@protobuf@google@@
+.?AVUninterpretedOption_NamePart@protobuf@google@@
+.?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
 .?AVWin32Event@IPC@@
 .?AVWin32Mutex@IPC@@
 .?AVWin32SharedMemory@IPC@@
 .?AVWriter@Json@@
+.?AVZeroCopyInputStream@io@protobuf@google@@
+.?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV_Facet_base@std@@
 .?AV_Pad@std@@
 .?AV_Ref_count_base@std@@
@@ -1176,9 +870,6 @@ $w!Hc
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.@Pt*
-.A t/
-.A(u	
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -1192,14 +883,22 @@ $w!Hc
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.D9c0t&H
-.G t-H
 .PLACEHOLDER_VALUE
+.bak
+.bog
+.bss
 .data
 .data$r
 .dummy
 .edata
 .foo = value".
+.google.protobuf.EnumOptions"l\n
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions"
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo"
 .idata$2
 .idata$3
 .idata$4
@@ -1230,19 +929,15 @@ $w!Hc
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
+.tmp
 .vrstats
 .xdata
 .xdata$x
-/1v]H
-/7v&Hc
-/8v8f
-/9{0t'H
-/D$hs:I
-/D8pH
-/F@v	L
-/Z v"
+/P8i
+/\n\vbase_config
 /bin/mail
 /delivery_rate
 /devices/lighthouse/
@@ -1258,6 +953,7 @@ $w!Hc
 /frame_size
 /frame_time_monotonic
 /height
+/imu
 /input/a/click
 /input/a/touch
 /input/application_menu/click
@@ -1317,6 +1013,7 @@ $w!Hc
 /output/haptic
 /pose/raw
 /proximity
+/sec
 /server_time_ticks
 /skeleton/hand/left
 /skeleton/hand/right
@@ -1339,302 +1036,60 @@ $w!Hc
 /user/wrist/left
 /user/wrist/right
 /width
-0	FAJ
+/yQA
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
-0A;nh|
-0A\][
-0A]A\_
-0A]A\_^[
-0A^A\^
-0A^A\_
-0A^A][
-0A^][
-0A^_]
-0A^_^
-0A^_^][
-0A_A\^
-0A_A\_
-0A_A^A\
-0A_A^A\_^
-0A_A^A]A\^
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^A]_^][
-0A_A^^
-0A_A^^][
-0A_A^_
-0A_A^_^[
-0A_A^_^]
-0A__[
-0A__^
-0D9c0t'H
-0_^[H
-0_^]H
-0w0c1
+0\tFAJ
+0a\v6<framesToThrottle
 0x%08llx
-0}0i1
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-130801120000Z
 1A26b
-1A9p 
-1I9p 
 1e+9999
 1wsHp
-2).lighthouse.pb.CBaseConfigAndDynamicState"
-210429000000Z
-211007000000Z
-21VNt
-220323000000Z
-220801000000Z
-230714000000Z
-2333333
-240724173958Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2HcB,
-2YUYw,tE
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-3333333
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3?9y>m0_D@H_
+2#.google.protobuf.FieldOptions.CType:
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.google.protobuf.FieldDescriptorProto.Label
 3Pole
-3mq+<
-42HcF,
+3\n\rdynamic_state
+3\n\roptical_frame
 4Pole
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6<framesToThrottle
-6I]Dc
-6OB,n_
-6p7M=:P_:}u
-70503
-7HcC,
+52F*
+5I)7
+5\n\vnested_type
+6/aG
+6\n\fmessage_type
+7\n\tenum_type
 7^d[L
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7u;H;
-8"u	H
-8*u	H
-8.u9I
-8.u?I
-8.uPI
-82u	H
-8:u	H
-8A	t	E
-8A]A\_]
-8A^A\
-8A^A]_[
-8A^^][
-8A^_][
-8A^_^[
-8A^_^]
-8A_A]A\[
-8A_A]_^
-8A_A^A]A\_^][
-8A_A^_^][
-8Bu	H
-8CytW
-8D$Xt
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8E;~X|
-8H)t,E
-8H;^pu
-8O0u]A
-8\$@t
-8\t	H
-8\u7H
-8^Ht!D8fIt
-8_^][
+7~8A
+8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8s4A;X u.
-9APuC
-9ApuM
-9AtuB
-9A|6H
-9C s'L
-9C s.H
-9C }(H
-9C$|'H
-9GTt=
-9H(|)A
-9N,t#
-9T$XJ
-9U8~&E
-9Y ~5H
-9Y ~aH
-9Y$~9H
-9ZH~43
-9ZX~;
-9]pu2
-9^(~F3
-9^,~#3
-9^,~B3
-9^@~E3
-9^X~E3
-9^p~:3
-9_,~*f
-9_@~;H
-9_X~63
-9_x~33
-9i ~0H
-9k(~$H
-9k0t H
-9k0t$H
-9k0t[D
-9k0t\D
-9k0t_D
-9k0tcH
-9k0~%H
-9k0~)H
-9k@~&H
-9kH~@H
-9kP~4H
-9kP~aH
-9kX~&H
-9kp~&H
-9l$Lt	E
-9l$\u
-9q ~&H
-9s ~CL
-9s ~SL
-9s0~)H
-9s8~)L
-9s8~AH
-9s8~ZL
-9s@~;L
-9s@~SH
-9s@~[H
-9sX~)L
-9sh~/L
-9sp~IH
-9y4~9H
-9yh~-H
-9yl~1H
-9z,~23
-9{ ~6L
-9{$~4H
-9{(~0H
-9{(~YH
-9{,~4H
-9{0~0H
-9{0~6H
-9{0~;L
-9{0~[H
-9{0~^H
-9{0~`H
-9{@~#L
-9{@~%H
-9{D~0L
-9{D~4H
-9{H~1L
-9{H~43
-9{T~4H
-9{X~)L
-9{X~63
-9{\~0L
-9{h~)L
-9{h~XH
-9{l~)L
-9{p~)L
-9{t~'L
-9{x~?3
-9|$@u
-9}gu(H
+9\n\noneof_decl
+9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 : one or more FS callback not set
-: ppm=
-:0u(H
-:0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
-:EotB
 ; expected 
 ; last read: '
-;.u H
-;<$uCB
-;Ch}(
-;D$lu H
-;K s;H
-;K sFH
-;K sIH
-;K sQH
-;K(tMH
-;S sIH
-;S sLH
-;S sMH
-;S }EH
-;S8}n
-;W,}(
-;^,}	
-;s sSH
-;t$@sH
-;w,~PA
-;{(} H
-;|$ r
-<	u(H
-<	vzH
-<	w'H
-< t+<
-<$Hc\
-<*tq</tm<
-<*ufH
-</u#H
-<0:08
-<1uHH
-<9w/H
-<9waH
-<:$u<B
-<Eu1H
-<U+%.4X>
-<^w&E
 <hidden>
 <parse error>
 <redirected>
 <uninitialized>
 <unknown>
-=5^:>
-=7p7M}
-=ETLP
-=IBgC
-=SNRtt%
-=TADIt<=DNEI
-=q=J?
-=rIQU
->"t-H
->#u&H
->$u>I
->-ufH
->0<0:
->B`E?)\
->Mp$d
->W`.]tB3?
 >X9t?
 >fff?
 ?!std::isnan( flSystemTimeInSeconds )
-?%s: Checking to see if display has connected...
+?%s: Checking to see if display has connected...\n
 ?&x0O
-?'1(?
-?)\o?;
-?0&uT
 ?333333
 ?333?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -1678,13 +1133,10 @@ $w!Hc
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?@s#0?LD
 ?CVkDevice::CreateDevice
-?HcC,H
 ?Nbp?
 ?UUUUUU
 ?VUUUUU
-?Xb&<
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
@@ -1777,8 +1229,6 @@ $w!Hc
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
 ?tellp@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
 ?translation@Matrix4@ST@@QEBA?AU?$Vector3@M@2@XZ
-?u='?
-?uZEeu
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?uncaught_exceptions@std@@YAHXZ
@@ -1788,358 +1238,25 @@ $w!Hc
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-?y!)`
-@ D9A s
-@$A9B
-@(9B(}
-@(A9@
-@.data
-@.reloc
-@.rsrc
-@8<(u
-@8<0u
-@8I+@0H
-@8hFu
-@8k t
-@8k$t:
-@8k4t
-@8kDt
-@8kFuDD
-@8nxt:E3
-@8o4t
-@8oxt
-@8p)u]
-@8s$t
-@8s,u
-@8w A
-@8|$@t$
-@@H+H0
-@@H+H0I
-@@H+P0
-@@H+P0I
-@@H;L$ u
-@@L+@0
-@@L+@0I
-@A\^]
-@A]A\[
-@A]A\^][H
-@A]A\_
-@A]_[
-@A]_^][
-@A^A]A\[]
-@A^A]A\_^
-@A^][
-@A^_[
-@A^_^
-@A_A\]
-@A_A^A\
-@A_A^A\H
-@A_A^A\_^
-@A_A^A]A\_
-@A_A^A]A\_^[
-@A_A^A]A\_^]
-@A_A^A]_[
-@A_A^A]_^
-@A_A^A]_^][
-@A_A^^
-@A_A^_
-@A__]
-@A__]H
-@HcQdH
-@LcqHD
-@PH;L$ u
-@SATAUAVAWH
-@SATAUH
-@SATAVAWH
-@SATAWH
-@SAUAVAWH
-@SAUAVH
-@SAUH
-@SAVH
-@SAWH
-@SUATH
-@SUAVAWH
-@SUAVH
-@SUAWH
-@SUVATAWH
-@SUVATH
-@SUVAUAVAWH
-@SUVAVAWH
-@SUVAVH
-@SUVH
-@SUVWATAUAVAWH
-@SUVWATAUAWH
-@SUVWATAVAWH
-@SUVWATH
-@SUVWAUAVAWH
-@SUVWAUH
-@SUVWAVAWH
-@SUVWAVH
-@SUVWH
-@SUWAVAWH
-@SUWAWH
-@SVAUAVH
-@SVAVAWH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAWH
-@SVWATH
-@SVWAUAVH
-@SVWAUH
-@SVWAVAWH
-@SVWAVH
-@SVWAWH
-@SVWH
-@SWATAVH
-@SWAUAVAWH
-@SWAUAVH
-@SWAUH
-@SWAVAWH
-@SWAVH
-@SWAWH
-@UATAUAVAWH
-@UATAUH
-@UATAWH
-@UAUAWH
-@UAVAWH
-@UAVH
-@UAWH
-@USATAUAVH
-@USATAVAWH
-@USATAWH
-@USATH
-@USAUAVAWH
-@USAUAVH
-@USAVH
-@USAWH
-@USVATAVH
-@USVAVH
-@USVH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAUH
-@USVWATAVAWH
-@USVWATH
-@USVWAUAVAWH
-@USVWAUAVH
-@USVWAUAWH
-@USVWAVH
-@USVWAWH
-@USVWH
-@USWATAUH
-@USWAVH
-@USWH
-@UVATAUAVH
-@UVATH
-@UVAUAVAWH
-@UVAUH
-@UVAVH
-@UVAWH
-@UVWATAUAVAWH
-@UVWATH
-@UVWAUH
-@UVWAVAWH
-@UVWAVH
-@UVWH
-@UWATAUAVH
-@UWATAUH
-@UWATAVAWH
-@UWAUAWH
-@UWAUH
-@UWAVAWH
-@UWAVH
-@UWAWH
-@VATAUAVAW
-@VATAVAWH
-@VATAWL
-@VATH
-@VAVH
-@VWATAVAWH
-@VWATH
-@VWAUAWH
-@VWAVH
-@VWAWH
-@WATAUAVAWH
-@WATAWH
-@^8U)zj
-@_RDATA
 @fff>fff>fff>fff>
-A H+A
-A H;A
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
-A$A9B
-A(9B(}
-A(9C(}
-A(A9@
-A(A9@(}
-A(A9C(}
-A)}HA
-A+H,A
-A,9AT|
-A0H9i8u
-A8	r 
-A8IcA0I
-A8^Zt
-A8t$qt
-A8t$r
-A9@$}VM
-A9@(r"A
-A9A A
-A9B$|
-A9B(r
-A9B(|
-A9Blu
-A9E|s]f
-A9N,t.A
-A9P }
-A9Q sEI
-A9Q }
-A9R }
-A9^H~,3
-A9^x~93
-A9nh~}E3
-A9q }EI
-A9x s
-A;@ r
-A;@0}
-A;B r
-A;L$8}
-A;M0v"A
-A;O0}
-A;P s
-A;Q s?I
-A;X s
-A;^H|
-A;^x|
-A;_h|
-A;h r
-A;q }?I
-A;wX|
-A@H+A8H
-A@H+H0
-A@H+H0I
-A@H+P0
-A@H+P0I
-A@L+H0
+A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-ABGRu*
 ACTIVE
 ADVAPI32.dll
 AHJzrJbk
 ALVRDisplayInit
 ALVRInit
-AMDiuE
-APH+AHH
-ASSERT: "%s" at %s:%d.
-ATAUAWH
-ATAVAWH
-ATAVH
-ATAWH
-AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY
+ASSERT: "%s" at %s:%d.\n
+AUAA
+AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDIO: 
 AUDIO: %s
-A\_^[]
-A\_^]
-A\_^][
-A]A\[
-A]A\]
-A]A\^
-A]A\_[]
-A]A\_^[]
-A]A\_^][
-A]^[]
-A]^[]H
-A]_[]
-A]_[]H
-A]_^[]
-A]_^]
-A^A\^
-A^A\^[]
-A^A\_
-A^A\_[
-A^A\_[H
-A^A\_[]
-A^A\_]
-A^A\_^]
-A^A]A\[]
-A^A]A\^]
-A^A]A\_]
-A^A]A\_^[]
-A^A][
-A^A][]
-A^A]_[]
-A^A]_^[]
-A^A]_^]
-A^^[]
-A^_[]
-A^_^[]
-A^_^[]H
-A^_^]
-A^_^][
-A_A\[]
-A_A\]
-A_A\^
-A_A\^]
-A_A\_
-A_A\_][
-A_A\_^[
-A_A\_^]
-A_A]A\
-A_A]A\[]
-A_A]A\^[]
-A_A]A\_]
-A_A]A\_^[]
-A_A]A\_^]
-A_A]]
-A_A]^]
-A_A]_[]
-A_A]_]
-A_A]_^[]
-A_A]_^[]H
-A_A^A\
-A_A^A\[]
-A_A^A\]
-A_A^A\^
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A\_^[]H
-A_A^A\_^][
-A_A^A]
-A_A^A]A\
-A_A^A]A\]
-A_A^A]A\^
-A_A^A]A\_
-A_A^A]A\_][
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^]H
-A_A^A]A\_^][
-A_A^A][
-A_A^A][]
-A_A^A]]
-A_A^A]^]
-A_A^A]_]
-A_A^A]_^
-A_A^A]_^[]
-A_A^A]_^][
-A_A^]
-A_A^^
-A_A^_
-A_A^_H
-A_A^_^[]
-A_A^_^]
-A_A^_^][
-A_^][
-A__[]
-A__^[]
-A__^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Accessor
-Add Json firmware manifest from %s
+Add Json firmware manifest from %s\n
 AddAccessAllowedAce
 AddBool
 AddDouble
@@ -2151,12 +1268,12 @@ AddMessage
 AddString
 AddUInt32
 AddUInt64
-Additional system report data updated for %s
+Additional system report data updated for %s\n
 Adobe
 Alfred
 Alias
 Already saw decimal point or exponent; can't have another one.
-Already tracking from %d bases
+Already tracking from %d bases\n
 AnimationChannel
 Anx temp: 
 App CRC invalid
@@ -2165,46 +1282,31 @@ App not found
 ArcturusPerception.dll
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
-Assertion failed:  Explicit right sync does not match pending frame
+Assertion failed:  Explicit right sync does not match pending frame\n
 Asset
-Attached HID Devices:
-Attempt to add tilt observation to DB for %08X which has never had a dynamic state observation
+Attached HID Devices:\n
+Attempt to add tilt observation to DB for %08X which has never had a dynamic state observation\n
 Attempt to init shared state %s twice
 Attempted Default Load: 
 Attempted Gold Load: 
-Attempting HID Open %s: %s
+Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-AudioDeviceChangeNotice (noting refresh): %d, device = %s
-AuthD
-Authu
+AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AvRevertMmThreadCharacteristics
-AvRevertMmThreadCharacteristics failed: last error is %d
+AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
-Available samples not sufficient for booting (%s)
-B fA;
-B$A9A
-B(A9A
-B(A9C
-B(teH
-B,9A,
-B98Fyt
-B<I;_X
-B@H+P0
-B@H+P0I
-BA99u	
-BD9%^
+Available samples not sufficient for booting (%s)\n
+BETA
 BL Init
 BL requested by app
 BL requested by buttons
 BMP RLE
-BPH;BXu
 BQ27421
 BQ27520
-BRAND NEW BASE %08X recorded
-BXL9BPu#M
-B\$@H
+BRAND NEW BASE %08X recorded\n
+B\reBh
 BackUp() can only be called after a successful Next().
 Backlight Init
 Backlight Init Error
@@ -2213,90 +1315,38 @@ Bad State
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Base %08X (modelid: %d) transmitting faults %s (%08X)
-Base %08X already has pose to global. Not changing anything
-Base %08X axis %d appears to have failed
-Base %08X is learning to get to %08X because of direct observation
-Base %08X is learning to get to global from %08X because of chain
-Base %08X is learning to get to global from %08X because of direct observation
-Base %08X reset count changed.  Base may have been bumped or power cycled.
-Base station driver for %08X rejected by vrserver
+Base %08X (modelid: %d) transmitting faults %s (%08X)\n
+Base %08X already has pose to global. Not changing anything\n
+Base %08X axis %d appears to have failed\n
+Base %08X is learning to get to %08X because of direct observation\n
+Base %08X is learning to get to global from %08X because of chain\n
+Base %08X is learning to get to global from %08X because of direct observation\n
+Base %08X reset count changed.  Base may have been bumped or power cycled.\n
+Base station driver for %08X rejected by vrserver\n
 Batman
 Batt: 
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
-Bellevue1
-Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
+Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f\n
 Beyond
-Bf9LB
 Bigscreen
 Bigscreen Beyond
 Boolean default must be true or false.
 Boot to app
-Bootstrap failed because no IMU data was available%s
-Bootstrap pose is out of range at %0.1fm
-BootstrapFinished setting tilt base to %08X
+Bootstrap failed because no IMU data was available%s\n
+Bootstrap pose is out of range at %0.1fm\n
+BootstrapFinished setting tilt base to %08X\n
 Boy/Girl
 Buffer
 BufferView
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C ;G 
-C ;s@
-C ?t23
-C @8{
-C D8s
-C D8{
-C D;pxu
-C D;px|
-C H9S
-C H;K(u
-C(9C 
-C(9~(~FL
-C(H9C0t
-C,HcK(H
-C09w(~:L
-C0;C,s
-C0L9$
-C4;C,A
-C4LcC0H
-C8;C<
-C8;K<
-C8@8l$8t.
-C8D;C<
-C8H+C0H
-C8H;s0t!H
-C@9C0~'H
-C@9E |
-C@H+H0
-C@H+H0I
-C@H+P0I
-C@H+X0
+C-Yn
 CAnimResource
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
-CB9C0~%H
-CBaseConfig
 CBaseConfigAndDynamicState
 CBoneMaskResource
-CD$ H
-CD$(H
-CD$03
-CD$0H
-CD$83
-CD$8D
-CD$@3
-CD$@I
-CD$HH
-CD$P3
-CD$PH
-CD$PL
-CD$`I
-CD$`J
-CD$hH
-CD$pH
-CDHcK@H
-CDisambiguatorFramer: Non monotonicity in ProcessSensorHit
-CDynamicState
+CDisambiguatorFramer: Non monotonicity in ProcessSensorHit\n
 CHECK failed: !coded_out.HadError(): 
 CHECK failed: !is_closed_: 
 CHECK failed: !out.HadError(): 
@@ -2343,23 +1393,8 @@ CHECK failed: trees:
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
 CHeader
-CHidDevice: Can't open USB device VID %08x, PID %08x %s %d
-CImuSample
+CHidDevice: Can't open USB device VID %08x, PID %08x %s %d\n
 CKeyframedDataResource
-CL$ 3
-CL$ H
-CL$0H
-CL$0f
-CL$8E3
-CL$HM;
-CL$PH
-CL$PL
-CL$PM;
-CL$`H
-CL$`H;
-CL$pL
-CL$pL;
-CLD#C|L#
 CLighthouseHmdDriver::InitTracking
 CLighthouseHmdDriver::RunFrame
 CLighthouseHmdDriver::RunFrame/ControllerState
@@ -2370,9 +1405,8 @@ CLighthouseHmdProvider::RunFrame/HapticDispatch
 CLighthouseHmdProvider::RunFrame/LighthouseDB
 CLighthouseHmdProvider::RunFrame/WirelessDeviceDiscovery
 CLighthousePairing::RunFrame
-CM'M;
 CMMNotificationClient::Register
-COpticalFrame
+CORD
 COpticalSample
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
@@ -2388,35 +1422,18 @@ CPrismDirect::CreateSwapTextureSet
 CPrismDirect::GetNextSwapTextureSetIndex
 CPrismDirect::Initialize
 CRecord
-CSharedResourceNamespaceClient::Init(): failed connect
-CSharedResourceNamespaceClient::Init(): failed to get server response
-CSharedResourceNamespaceClient::Init(): failed to retreive payload
-CSharedResourceNamespaceClient::Init(): invalid payload size %u
-CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u
-CSharedResourceNamespaceClient::Init(): received namespace data %u
-CSharedResourceNamespaceClient::Init(): received unexpected message type %u
-CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data
-CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace
-CSharedResourceNamespaceClient::Init(): timed out waiting for server reply
+CSharedResourceNamespaceClient::Init(): failed connect\n
+CSharedResourceNamespaceClient::Init(): failed to get server response\n
+CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
+CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
+CSharedResourceNamespaceClient::Init(): received namespace data %u\n
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
 CSharedResourceNamespaceClient::InitIfNeeded
-CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....
-CT$ H
-CT$(L
-CT$0D
-CT$0E3
-CT$0H
-CT$0L
-CT$@H
-CT$H+L$x
-CT$HE+
-CT$HH
-CT$PD
-CT$XH
-CT$XL
-CT$pD
-CT$pH
-CT$xD
-CT9F,t3@2
+CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
 CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
@@ -2468,42 +1485,18 @@ CVkTimeline::ImportTimeline
 CVkTimeline::Initialize
 CVkTimeline::WaitMultiple
 CVortex Error
-CXL+CPI
-C\$0D
-C\$0H
-C\$0L
-C\$0M
-C\$8M
-C\$@H
-C\$@M
-C\$PE
-C\$PH
-C\$PL
-C\$PM
-C\$`H
-C\$`L
-C\$pH
-C\$pL
-C\$pL9%
-C\$pM
-C\HcKXH
-C`9C(uq
-C`H9F
 Cal Fail
 Calibration failed
 Camera
 Can't 
-Can't create connection to %s for Bluetooth services.
-Can't create lighthouse connection to %s
+Can't create connection to %s for Bluetooth services.\n
+Can't create lighthouse connection to %s\n
 Can't get here.
 Can't get here: failed to get default value as string
-Can't parse HMD config from USB: %s
+Can't parse HMD config from USB: %s\n
 CancelIo
 Cannot allocate buffer larger than kint32max for 
-Cb9CP~(H
-Ch9C,uiH
-ClHcKhH
-Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
+Clamping MC to %d (%0.1f%%) %d (%0.1f%%)\n
 ClearField
 Clearing HmdDisplayNotFound error due to PrismInit success.
 Client (%s) app container state: %d
@@ -2539,431 +1532,55 @@ ClientQueryPool-%llu:%d
 ClientTimeline:%llu
 CloseHandle
 CloseServiceHandle
-Closing pipe %s because it was broken from the other end
+Closing pipe %s because it was broken from the other end\n
 CoCreateInstance
-CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x
+CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
 CoInitializeEx
-CoInitializeEx, hr = 0x%08x
+CoInitializeEx, hr = 0x%08x\n
 CoTaskMemFree
 CoUninitialize
 CompositionState
 CompositionStateMutex
 Compute Client
 ConnectToPrism
-Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x
+Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
 ConvertStringSidToSidA
 CopySid
-Could add as alternate, but disallowed by LighthouseDB
-Could boot, but disallowed by LighthouseDB
+Could add as alternate, but disallowed by LighthouseDB\n
+Could boot, but disallowed by LighthouseDB\n
 Could not create an instance of 
 Could not find field named "
 Could not find field type.
-Could not find monitor of expected size %d x %d Attached monitors: %d
-Could not open "%s": %s
-Could not open device %u, %u, %s to read its config
+Could not find monitor of expected size %d x %d Attached monitors: %d\n
+Could not open "%s": %s\n
+Could not open device %u, %u, %s to read its config\n
 Could not open replay file "
 Could not read header from file "
 Couldn't parse default value "
-CpHcL0
-CpHcO4D
 CreateDXGIFactory2
 CreateDirectoryW
 CreateEventA
-CreateEventEx failed
+CreateEventEx failed\n
 CreateEventExA
 CreateEventW
 CreateFileA
 CreateFileMappingA
-CreateMediaType(pwfxIn) failed hr = 0x%08x
-CreateMediaType(pwfxOut) failed hr = 0x%08x
+CreateMediaType(pwfxIn) failed hr = 0x%08x\n
+CreateMediaType(pwfxOut) failed hr = 0x%08x\n
 CreateMutexA
 CreateProcessA
-CreateResampler failed: hr = 0x%08x
-CreateResamplerBuffer (input) failed: hr = 0x%08x
-CreateResamplerBuffer (output) failed: hr = 0x%08x
+CreateResampler failed: hr = 0x%08x\n
+CreateResamplerBuffer (input) failed: hr = 0x%08x\n
+CreateResamplerBuffer (output) failed: hr = 0x%08x\n
 CreateThread
-CreateThread for playback failed: last error is %u
+CreateThread for playback failed: last error is %u\n
 CreateWellKnownSid
 CreateWindowExA
-Creating new universe %llu because there were no %sexisting universes
-Creating playback mirror thread for device %s
-Ct$0H
-Ct$XH
-Ct$XI
-CtHcKpH
-C|$0H
-C|$0L
-C|$PL
-D#C|D
-D#G|D
-D#K|M#
-D$ 9D$ H
-D$ @f
-D$ A;
-D$ D88
-D$ E3
-D$ E;
-D$ Eb0
-D$ Fo0
-D$ H#
-D$ H+
-D$ H+]
-D$ H3
-D$ H9V
-D$ H;
-D$ HcH
-D$ Hy
-D$ I;
-D$ Ii
-D$ Ji
-D$ Ji0
-D$ Jif
-D$ K|fff
-D$ L;
-D$ M;
-D$ Mz
-D$ Mzff
-D$ Nmf
-D$ Vy0
-D$ Z|0
-D$ ^i
-D$ ^offf
-D$ `3
-D$ fE
-D$ fI
-D$ ff
-D$ tX
-D$ u!H
-D$ v5
-D$!``
-D$!`a
-D$!bt
-D$!h}}Y
-D$!j|
-D$!lyyA
-D$!nf
-D$!yx~v
-D$"b}gqf
-D$"giikf
-D$"kOy~f
-D$"mZe}
-D$"sw{@f
-D$"xx@ef
-D$"y~Km
-D$"y~Lf
-D$"||E~A
-D$"||E~f
-D$"~mxef
-D$"~zgmf
-D$#cjkNf
-D$#rks
-D$#{Kz}f
-D$#{}`cf
-D$#|f`af
-D$#|{Cff
-D$#|{Y`f
-D$$E3
-D$%d`dy
-D$%j}8	H
-D$%j}:	
-D$%j};	
-D$%|oy`
-D$&DUyx
-D$&J`mk
-D$&Mwmb
-D$&aexA
-D$&buFu
-D$&cb=A
-D$&cb>A
-D$&cb?A
-D$&kmy
-D$&oGy
-D$&ox8
-D$&ox9
-D$&ox;
-D$&|\koA
-D$&~ibx
-D$'\jl`
-D$'bf{G
-D$'cj}]
-D$'c{nh
-D$'lx8
-D$'lx9
-D$'lx:
-D$'n{f`
-D$'{{jb
-D$(@88
-D$(E3
-D$(H#
-D$(H+
-D$(H+]
-D$(H9D$ 
-D$(H9D$0t
-D$(H;
-D$(Hc
-D$(HcA
-D$(Hi
-D$(I+
-D$(I9x
-D$(I9~
-D$(I;
-D$(I;G
-D$(I;H
-D$(L;
-D$(L;D$PtVI
-D$(\E3
-D$(t3
-D$)2tsm
-D$)]ny
-D$*bcy
-D$*bdyz
-D$*k}<
-D$*k}=
-D$*k}?
-D$*}a`
-D$+`cj
-D$+aB|
-D$+ak|
-D$+fhg
-D$+jBy
-D$,+D$$
-D$,D;l$8
-D$,I+
-D$-hiBm
-D$.zsdY
-D$0+D$(
-D$0E+
-D$0E3
-D$0H+
-D$0H9Q
-D$0H9V8t
-D$0H;
-D$0H;D$Pt
-D$0I+
-D$0I;
-D$0L;
-D$0L;D$htVI
-D$0M;
-D$0fD
-D$0fH
-D$0fff
-D$0tx
-D$1or{t
-D$28I
-D$2BQB
-D$4I;
-D$5qx3w
-D$88X4tJ
-D$8;D$<u3D
-D$8D8
-D$8E3
-D$8H+
-D$8H;C
-D$8I+
-D$8I;
-D$8L+
-D$8fff
-D$9nrs
-D$<H9W@
-D$<SX
-D$?I;
-D$@8B
-D$@;D$D
-D$@E3
-D$@H9D$8
-D$@H9Q
-D$@H9Q@t
-D$@H9S@t
-D$@H9W
-D$@H;
-D$@H;CHt
-D$@H;G
-D$@H;Y
-D$@HcH
-D$@I+
-D$@I;
-D$@L+
-D$@L;D$Hu
-D$@Lc@
-D$@M+
-D$@fA
-D$@u'H
-D$A8B
-D$B8B
-D$HE3
-D$HH#
-D$HH+
-D$HHi
-D$Hfff
-D$PE3
-D$PH+
-D$PH9
-D$PH9Q
-D$PH;
-D$PHcC
-D$PHcH
-D$PI+
-D$PI9Q
-D$PI9T$
-D$PI9VPt
-D$PI;
-D$PL+
-D$PL;D$Xu
-D$PM;
-D$PMc
-D$PfA
-D$TI;
-D$XA#
-D$XE3
-D$XH+
-D$XH9D$8
-D$XH9Q
-D$XH;
-D$XHc
-D$XI;
-D$XIc
-D$Xaxis
-D$XuQH
-D$Xv?
-D$] fra
-D$`A9
-D$`D9
-D$`E3
-D$`H9D$@
-D$`H9Q
-D$`H9~
-D$`H;
-D$`HcH
-D$`I;
-D$`I;}
-D$`L;
-D$`M+
-D$`fI
-D$ames
-D$h8\$pu#
-D$h;X(|
-D$h;X@|
-D$h;XX|
-D$h;Xp|
-D$h;p,|
-D$h;xx|
-D$hH3
-D$hH9D$H
-D$hH;
-D$hH;F0u
-D$hHc
-D$hHcA,H
-D$hIc
-D$hL;
-D$hL;d$p
-D$hL;d$x
-D$hM+
-D$hfff
-D$lA;
-D$p(;M8
-D$pD9u
-D$pE3
-D$pE9fx|+
-D$pH;
-D$pH;X
-D$pHcH
-D$pI;
-D$pL;
-D$pfA
-D$xH+
-D$xH;
-D$xHc
-D$xL;
+Creating new universe %llu because there were no %sexisting universes\n
+Creating playback mirror thread for device %s\n
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D8,2u
-D8,7u
-D8,8u
-D840u
-D8D$9t$
-D8D$hH
-D8L$(t
-D8MoD
-D8`)t#E
-D8d$H
-D8d$P
-D8fht/H
-D8gXt
-D8h)t
-D8mpt
-D8o)tJ
-D8o)tU
-D8s4t
-D8t$P
-D8x)t!E3
-D8{4t
-D90uGH
-D9>u:H
-D9@ s
-D9@ }
-D9@$|
-D9A }
-D9B }
-D9D$D
-D9H s
-D9S,~XA
-D9` s
-D9` urH
-D9`(u
-D9`Pu
-D9ahty
-D9c0t
-D9c0t)H
-D9d$<t
-D9d$<u
-D9p s
-D9p,~9I
-D9q(u
-D9s,u
-D9sh~)H
-D9u4t
-D9ugt
-D9w u-H
-D9x0u
-D9y s
-D9{0t
-D9{0t'H
-D9{0t?H
-D9{0tZD
-D9{H~7I
-D9{X~7I
-D9|$@
-D9~hu
-D:t$P
-D;@ }
-D;A s
-D;B }
-D;C }
-D;C }JH
-D;C0|
-D;D$hu0H
-D;E8|
-D;I s
-D;K,|
-D;L$Dr
-D;R s
-D;S,|
-D;a s
-D;b s
-D;d$p
-D;l$0
-D;l$0}K
-D;q s
-D;r8|
-D;sh}(
-D;v(s
-D;vh|
-D;x s
-D;y s
-D;{ |
-D;}Tr
-DD$(H
 DISABLED
 DISTORT_BSPLINE
 DISTORT_DPOLY3
@@ -2990,7 +1607,7 @@ Data Invalid
 DebugMessengerCallback
 DefWindowProcA
 Default value for an enum field must be an identifier.
-Defaulting Edid to TSB and 0x8888 because we don't know it
+Defaulting Edid to TSB and 0x8888 because we don't know it\n
 Delayed State Change
 DeleteCriticalSection
 DeleteFileW
@@ -2999,90 +1616,60 @@ DescriptorProto
 DescriptorProtosH
 DestroyWindow
 Detail
-Detected %d playback and %d record devices
+Detected %d playback and %d record devices\n
 Dev Error
-Device %s powering off upon entering standby.
+Device %s powering off upon entering standby.\n
 Device %s requires driver %s, which is not present
-Device JSON: Found entry... overriding TrackedCameraCalibrations extrinsics
-Device JSON: Overriding Head Position (%s)
-Device JSON: Overriding IPD control to enabled (%s)
-Device JSON: Overriding display_color_mult
-Device JSON: Overriding incorrect device normal (%s)
-Device JSON: Overriding input_profile (%s)
-Device JSON: Overriding input_profile to %s (%s)
-Device JSON: Overriding parallel_render_cameras to enabled (%s)
-Device JSON: Overriding proximityEnable to %d (%s)
-Device JSON: Overriding resource_root (%s)
-Device JSON: Overriding subpixel_shift (%s)
-Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)
+Device JSON: Found entry... overriding TrackedCameraCalibrations extrinsics\n
+Device JSON: Overriding Head Position (%s)\n
+Device JSON: Overriding IPD control to enabled (%s)\n
+Device JSON: Overriding display_color_mult\n
+Device JSON: Overriding incorrect device normal (%s)\n
+Device JSON: Overriding input_profile (%s)\n
+Device JSON: Overriding input_profile to %s (%s)\n
+Device JSON: Overriding parallel_render_cameras to enabled (%s)\n
+Device JSON: Overriding proximityEnable to %d (%s)\n
+Device JSON: Overriding resource_root (%s)\n
+Device JSON: Overriding subpixel_shift (%s)\n
+Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)\n
 DeviceGC
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
-Devices with no on-device calibration are not supported in the Lighthouse driver.
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+Devices with no on-device calibration are not supported in the Lighthouse driver.\n
 DisableThreadLibraryCalls
 Disabled
 Disabled by Config
 Discard
-Discarded IMU sample in ImuOnlyTracker because they were backing up.
-Discarding %u haptic events because there were too many this frame
-Discarding duplicate universe %llu at index %d when parsing db json file %s
+Discarded IMU sample in ImuOnlyTracker because they were backing up.\n
+Discarding %u haptic events because there were too many this frame\n
+Discarding duplicate universe %llu at index %d when parsing db json file %s\n
 DismissedWarnings
 DispatchMessageA
 Display
 Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 DisplayFPGA
-Disregard world_from_global entry in universe %llu
+Disregard world_from_global entry in universe %llu\n
 Distortion_Type
 Dongle
 DongleV2
-Dropped %s during the previous tracking session
-Duplicate basestation serials detected.
+Dropped %s during the previous tracking session\n
+Duplicate basestation serials detected.\n
 Duplicate key: '
 DuplicateHandle
-E$HcM H
-E(L9M
-E)eHD
-E0H+E(H
-E0Lc$
-E8g(tDD8
-E9>~eI
-E9A(|
-E9x s
-E;A }
-E;p s
-E;u`|
-E@H+h0H
-E@L9M
 ECameraHAL_OpenError_ToString
-ED$(H
-EHAiWh
-EHI;FHu
 ERROR
 ERROR: Expected 1 float args, fDegrees'
 ERROR: Expected 1 float args, fPitchDegrees'
 ERROR: Expected 2 float args, '
 ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
 ERROR: Expected 2 float args, fDegreesLeft fDegreesRight'
-ERROR: GetEdidId (%d)
-ERROR: GetVideoConfig (%d)
-ERROR: No display or device
-ERROR: SetEdidId (%d)
-ERROR: SetVideoConfig (%d)
+ERROR: GetEdidId (%d)\n
+ERROR: GetVideoConfig (%d)\n
+ERROR: No display or device\n
+ERROR: SetEdidId (%d)\n
+ERROR: SetVideoConfig (%d)\n
 EV2.0
-E\$@f;
-E_H9U
-Edid already edid_id %d, no change needed
-Ef;K@
-EgH9Q@t
-EgH9S@t
-EgH9V
+Edid already edid_id %d, no change needed\n
 Empty escape sequence in string
 Empty file.
 Enabling Prism Correction... overriding loaded device JSON
@@ -3090,76 +1677,70 @@ Encountered error
 End-of-file inside block comment.
 EndFrame called w/ incorrect client frame index.
 EndSession
-Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x
-Endpoint topology GetConnector(0) failed: hr = 0x%08x
+Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
+Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
 Entered Debug
 Entry #
 Enum type "
-EnumAudioEndpoints failed: hr = 0x%08x
+EnumAudioEndpoints failed: hr = 0x%08x\n
 EnumDescriptorProto
 EnumDisplayDevicesA
 EnumDisplayMonitors
-EnumOptions
 EnumValueDescriptorProto
 EnumValueOptions
-Enumerating displays...
+Enumerating displays...\n
 Enums must contain at least one value.
-Eo%lf
-Ep9H(tRA
-Epfff
 Error
-Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)
-Error SetVideoConfigAndWaitForDisplayReenumeration
-Error creating component: %d (%s) in %s
-Error getting Watchman HMD Status.
-Error getting Watchman Status.
-Error loading HMD overrides from file
-Error loading MC data '%s'
-Error loading MC data. Buffer too small to contain image.
-Error loading MC info '%s'
-Error loading device profile: %s
-Error on GetFeatureReport
-Error on Watchman_Feature_EdidEnumerate
-Error on Watchman_Feature_EdidInfo
-Error on reply_version
-Error parsing all digits of rootserial. Skipping overrides
-Error parsing device profile JSON: %s: %s
+Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)\n
+Error SetVideoConfigAndWaitForDisplayReenumeration\n
+Error creating component: %d (%s) in %s\n
+Error getting Watchman HMD Status.\n
+Error getting Watchman Status.\n
+Error loading HMD overrides from file\n
+Error loading MC data '%s'\n
+Error loading MC data. Buffer too small to contain image.\n
+Error loading MC info '%s'\n
+Error loading device profile: %s\n
+Error on GetFeatureReport\n
+Error on Watchman_Feature_EdidEnumerate\n
+Error on Watchman_Feature_EdidInfo\n
+Error on reply_version\n
+Error parsing all digits of rootserial. Skipping overrides\n
+Error parsing device profile JSON: %s: %s\n
 Error parsing text-format 
-Error querying Index HMD panel stats
-Error querying IndexHmdColumnCorrectionMode
+Error querying Index HMD panel stats\n
+Error querying IndexHmdColumnCorrectionMode\n
 Error reading tracked device config from path 
-Error serializing persistent statistics entry
-Error setting column correction
-Error setting index audio mute state
-Error setting index backlight gain
-Error unzipping config data: %s
+Error serializing persistent statistics entry\n
+Error setting column correction\n
+Error setting index audio mute state\n
+Error setting index backlight gain\n
+Error unzipping config data: %s\n
 Error while parsing option value for "
-Error! EventWriteString Severe: %s
-Error! Unable to load firmware manifest %s after allocating memory
-Error: Override File %s cannot be read
-Error: Override File %s crc mismatch. Actual: %08X, expected %08X 
-Error: Override File %s defined unknown format %d (expected 0x01)
-Error: Override File %s is empty.
-Error: Override File %s is not a valid override file (magic number mismatch)
-Error: Override File %s is too small, or cannot be read
-Error: Override File %s is too small. Actual size: %d, expected size %d 
-Error: Override File does not have entry for device key 0x%08X
-Error: Override file %s exceeds maximum size %d
-Errors when parsing lighthouse database %s:
+Error! EventWriteString Severe: %s\n
+Error! Unable to load firmware manifest %s after allocating memory\n
+Error: Override File %s cannot be read\n
+Error: Override File %s crc mismatch. Actual: %08X, expected %08X \n
+Error: Override File %s defined unknown format %d (expected 0x01)\n
+Error: Override File %s is empty.\n
+Error: Override File %s is not a valid override file (magic number mismatch)\n
+Error: Override File %s is too small, or cannot be read\n
+Error: Override File %s is too small. Actual size: %d, expected size %d \n
+Error: Override File does not have entry for device key 0x%08X\n
+Error: Override file %s exceeds maximum size %d\n
+Errors when parsing lighthouse database %s:\n%s\n
 Errors!
 EventRegister
 EventUnregister
 EventWriteString
 EventWriteTransfer
-EwD9u
-ExH9Q
 Exceeded stackLimit in readValue().
-Executable: %s
+Executable: %s\n
 ExpandEnvironmentStringsA
 Expect a decimal number.
 Expected "
-Expected MC Images:
+Expected MC Images:\n
 Expected double.
 Expected eight hex digits up to 10ffff for \U escape sequence
 Expected four hex digits for \u escape sequence.
@@ -3182,46 +1763,28 @@ ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
-Eye Displays must be adjacent: left (%d, %d), right (%d, %d)
-E|A;Epr
-F 9C@|
-F 9G |
-F @8p)u]
-F!A+F%H
-F$HcN H
-F()h(H
-F(HcH
-F,9ATu
-F,9G,
-F-A+F%
-F0D85X
-F8@85
-F<@85
-F@@8h)u
+Eye Displays must be adjacent: left (%d, %d), right (%d, %d)\nUse Screen Resolution control panel to fix
 FACET_VULKAN_VALIDATION
 FATAL
 FORMAT=32-bit_rle_rgbe
 FPGA susp: 
-FS callback[s] not set
+FS callback[s] not set\n
 FW App
 FW Assert
 FW BL
 FW Update Finish
 FW Update Load
 FW Update Start
-FX@8h(t
-FX@8h)u
-F`@8h)u
-F`H9X
+F\n\foptimize_for
 Facet
-Failed Watchdog timeout in thread %s after %f seconds
-Failed Watchdog timeout in thread %s after %f seconds. Aborting.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
-Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
-Failed to connect to pipe %s because %s
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds\n
+Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
 Failed to connect to pipe %s because %s... retrying
-Failed to create IMU IOBuffer for %d (error=%d, handle=%d)
+Failed to connect to pipe %s because %s\n
+Failed to create IMU IOBuffer for %d (error=%d, handle=%d)\n
 Failed to create vrprismhost_startup
 Failed to create window in DeviceMessageWindow_t::Create
 Failed to decode 'uri' : 
@@ -3241,25 +1804,25 @@ Failed to find entrypoint WINRT_ReleaseDisplay
 Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
-Failed to get log path for persistent statistics.
-Failed to import client event handle from pipe %s after connecting
-Failed to import server event handle from pipe %s after connecting
+Failed to get log path for persistent statistics.\n
+Failed to import client event handle from pipe %s after connecting\n
+Failed to import server event handle from pipe %s after connecting\n
 Failed to load external 'uri' for image[
-Failed to parse JSON object
+Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
-Failed to read config when activating watchdog on button press: %s
+Failed to read config when activating watchdog on button press: %s\n
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
-Failed to send OTGT result
-Failed to send pairing result mailbox message. Maybe it didn't have a return address?
-Failed to send reply to discover_dongles message: %d
-Failed to set thread %p priority: invalid priority %d
-Failed to start pairing on dongle %s
+Failed to send OTGT result\n
+Failed to send pairing result mailbox message. Maybe it didn't have a return address?\n
+Failed to send reply to discover_dongles message: %d\n
+Failed to set thread %p priority: invalid priority %d\n
+Failed to start pairing on dongle %s\n
 Failed to start vrprismhost: %s
-Failed to write app container status to pipe %s after connecting because %s
-Failed to write event process handle after connecting because %s
-Failed to write file %s
+Failed to write app container status to pipe %s after connecting because %s\n
+Failed to write event process handle after connecting because %s\n
+Failed to write file %s\n
 False
 Fatal
 Field "
@@ -3277,7 +1840,6 @@ FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
 FieldDescriptorProto.oneof_index should not be set for extensions.
-FieldOptions
 FieldSize
 Fields of oneofs must themselves have label LABEL_OPTIONAL.
 File already exists in database: 
@@ -3294,7 +1856,6 @@ File write error:
 File: 
 FileDescriptorProto
 FileDescriptorSet
-FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 Firmware
@@ -3304,27 +1865,18 @@ Flextronics
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
-Found Direct Mode Display
-Found default audio playback device %s, VID:%04x/PID:%04x %s
-Found default audio recording device %s, VID:%04x/PID:%04x %s
-Found per-device override of unhandled type %d
-Found two different DeviceIDs for monitor %s: %s and %s
-Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).
-Framer sensorType: %d
-Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d
+Found Direct Mode Display\n
+Found default audio playback device %s, VID:%04x/PID:%04x %s\n
+Found default audio recording device %s, VID:%04x/PID:%04x %s\n
+Found per-device override of unhandled type %d\n
+Found two different DeviceIDs for monitor %s: %s and %s\n
+Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).\n
+Framer sensorType: %d\n
+Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d\n
 FreeLibrary
 Fuel Gauge Reset
-Full base station info: >>>%s<<<
+Full base station info: >>>%s<<<\n
 Future Model
-G 8X@t:H
-G A9F |
-G(M+G I
-G,+G$
-G,HcO(H
-G,iV(
-G8@8n4t{H
-G8D8t$8t/A
-GHiVX
 GLOG_alsologtoemail
 GLOG_alsologtostderr
 GLOG_colorlogtostderr
@@ -3346,14 +1898,10 @@ GLOG_vmodule
 GOOGLE_ALSOLOGTOSTDERR
 GOOGLE_LOGTOSTDERR
 GOOGLE_LOG_DIR
-GPI+GHf
-GPJMt
-GPJMtUH
-GXkVp8H
 General reset
-Generating hidden area mesh for mode "%d" %s
+Generating hidden area mesh for mode "%d" %s\n
 GetACP
-GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 GetBool
 GetCameraHALInterface
 GetClassInfoA
@@ -3362,13 +1910,13 @@ GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetDXGISharedHandle
-GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x
-GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x
-GetDefaultAudioEndpoint failed: hr = 0x%08x
+GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetDouble
 GetEnum
 GetEnvironmentVariableA
-GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeThread
 GetFileAttributesExW
 GetFileAttributesW
@@ -3380,7 +1928,7 @@ GetInt32
 GetInt64
 GetLastError
 GetLengthSid
-GetMediaSubtype failed hr = 0x%08x
+GetMediaSubtype failed hr = 0x%08x\n
 GetMessage
 GetModuleFileNameA
 GetModuleFileNameW
@@ -3408,211 +1956,19 @@ GetSystemPowerStatus
 GetSystemTimeAsFileTime
 GetTickCount64
 GetTokenInformation
-GetTokenInformation failed. GetLastError returned: %d
+GetTokenInformation failed. GetLastError returned: %d\n
 GetUInt32
 GetUInt64
 GetWindowLongPtrA
-Getting devnode property store failed: hr = 0x%08x
-Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
+Getting devnode property store failed: hr = 0x%08x\n
+Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 GpuSpeed
-GxiV@
-H I;	r
-H SVWH
-H SWH
-H!C@H
-H!CxH
-H#C0H
-H#C0L
-H#G0L
-H#KxH
-H#KxL
-H#L$8H
-H#N0H
-H#P(H
-H#W0H
-H(9J(}
-H(9K(}
-H(A9H
-H(A9H(}
-H(A9K(}
-H(fff
+H$6t
 H*0"ZOW
-H+C H;
-H+C(D
-H+C(H
-H+C0H
-H+C@H
-H+D$8
-H+EpH
-H+H@H
-H+H@I
-H+K(H
-H+KPH
-H+KXI
-H+KpI
-H+KpL
-H+L$0
-H+L$0H
-H+L$8H
-H+L$HH
-H+NhH
-H+Q0H
-H+Q@H
-H+Q@HcO,H
-H+SpH
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H+WpJ
-H+Y@H
-H+_@H
-H+_pH
-H+q@HcO,H
-H-^Eu
-H0Ic@,Hc
-H9)u 
-H9-1e!
-H91u 
-H92u&
-H92u,
-H93t	H
-H95&{)
-H97t	H
-H98t	H
-H9;uAA
-H9A s
-H9A u&
-H9A u6
-H9A(u$
-H9A(u&
-H9A(u6
-H9A0u$
-H9A0u&
-H9A0u6
-H9A@u&
-H9A@u6
-H9AHu&
-H9APu&
-H9APu6
-H9AXu&
-H9AXu6
-H9Ahs
-H9C s'L
-H9C s(H
-H9C s.H
-H9C t
-H9D$@
-H9D$@u
-H9D$Hu
-H9D$P
-H9E8u$H
-H9G u6
-H9G(u6
-H9G0u6
-H9GHu'
-H9GPu'
-H9H s
-H9H s*
-H9H@t`H
-H9HXt
-H9P A
-H9P s
-H9PXt
-H9Q@t
-H9Qhv#H
-H9T$@t.
-H9UPt
-H9V8t
-H9X s
-H9Y uRA
-H9Z s
-H9\$@H
-H9\$pt:H
-H9t$hu
-H9uou
-H9w u#
-H9w0u#
-H9x@u
-H9y r
-H9{Xu
-H9|$@
-H9|$pH
-H;+u*
-H;0t(H
-H;0u7
-H;0u8H
-H;0u:H
-H;8u9
-H;9u|A
-H;=Cy
-H;=Sx
-H;=[q
-H;Axt
-H;B0t
-H;C sAH
-H;C sIH
-H;C(v
-H;C`u
-H;Cxu
-H;D$@
-H;D$P
-H;H s
-H;K sOH
-H;K u
-H;K(u
-H;P A
-H;Q r
-H;Q s
-H;S s?H
-H;S sAH
-H;S8r
-H;X s
-H;X`H
-H;Y s
-H;Y t
-H;YptV
-H;Z s
-H;\$0t
-H;\$Ht
-H;\$Htf
-H;\$Hu
-H;\$X
-H;\$h
-H;\$ht
-H;\$hu
-H;\$p
-H;](t
-H;](u
-H;]Hu
-H;^Hu
-H;_ t+H
-H;_ t,H
-H;_ u
-H;s(r
-H;t$8
-H;t$@
-H;t$`
-H;t$x
-H;x`L
-H;{8t7
-H;{XH
-H;|$0t
-H;|$Pt
-H;|$X
-H;|$Xt
-H;|$`
-H;|$x
-H;}PtwH
-H@L+A0
-HAPTICDEBUG %s:%d age: %f	 sec: %f	 freq: %f	 amp: %f
-HA^A]_[
-HA_A^A]_][
-HA_A^][
-HID opened: VID %04x PID %04x serial %S seq %d | if %d
-HL9-c
-HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
-HMD Model: %s
+HAPTICDEBUG %s:%d age: %f\t sec: %f\t freq: %f\t amp: %f\n
+HID opened: VID %04x PID %04x serial %S seq %d | if %d\n
+HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)\nUse Screen Resolution control panel to fix\n
+HMD Model: %s\n
 HMD Report:
 HTC SR-1
 HTC V2-XC
@@ -3622,62 +1978,9 @@ HTC Vive Developer Edition
 HTC Vive Pro
 HTC-VIVE
 HWID Signature not found
-H_^][
 HasField
-HcA A
-HcA,H
-HcA,L
-HcA0H
-HcB Hi
-HcB,A
-HcB,H
-HcC(N
-HcC,H
-HcD$x
-HcD7,A
-HcE,H
-HcF$H
-HcF,A
-HcF,H
-HcFdH
-HcG,A
-HcG,H
-HcI,H
-HcI,I
-HcI4M
-HcK4M
-HcKHH
-HcKXH
-HcN,H
-HcN0L
-HcN4E
-HcN4H
-HcN4L
-HcO,A
-HcO,H
-HcO,I
-HcO,L
-HcO4D
-HcO4E
-HcO4H
-HcO4Hi
-HcO4L
-HcOXH
-HcQ0H
-HcS B
-HcT$$
-HcT$PH
-HcT$`L
-HcW,H
-HcW,L
-HcW|H
-HcY(I
-Hc\$ 
-Hct$0
-Hct$@L+
 Hex and octal numbers must be integers.
-HiL$ 
-Hid not open
+Hid not open\n
 HidD_FreePreparsedData
 HidD_GetAttributes
 HidD_GetFeature
@@ -3688,122 +1991,83 @@ HidD_GetProductString
 HidD_GetSerialNumberString
 HidD_SetFeature
 HidP_GetCaps
-HkEpd
-HkExd
-HmdDeviceConnect( %u, %u, %llu, %llu )
+HmdDeviceConnect( %u, %u, %llu, %llu )\n
 HmdDriverFactory
-Hu"Hc
-I#HHI
-I#Q0L
-I(+K H
-I(9J(}
-I(I+I H
-I+G@H
-I9<$u
-I9A A
-I9B A
-I9Bhs
-I9FXw
-I9GPu
-I9H@t
-I9I@t
-I9Q sEI
-I9U tDH
-I9V t
-I9q sEI
-I;4$H
-I;4$L
-I;8u?H
-I;B r
-I;F t/H
-I;F u
-I;I r
-I;P s
-I;Q s?I
-I;V8r
-I;\$ t
-I;\$`I
-I;]xH
-I;^Hu
-I;^hu
-I;q s?I
-I;x r
-I;}`I
-IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u
-IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x
-IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x
-IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x
-IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x
-IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x
-IAudioClient::GetDevicePeriod failed: hr = 0x%08x
-IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms
-IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms
-IAudioClient::GetMixFormat failed: hr = 0x%08x
-IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x
-IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x
-IAudioClient::Stop failed: hr = 0x%08x
-IAudioClientFrom::GetBufferSize failed: hr = 0x%08x
-IAudioClientFrom::Initialize failed: hr = 0x%08x
-IAudioClientFrom::Start failed: hr = 0x%08x
-IAudioClientTo::GetBufferSize failed: hr = 0x%08x
-IAudioClientTo::Initialize failed: hr = 0x%08x
-IAudioClientTo::IsFormatSupported failed: hr = 0x%08x
-IAudioClientTo::SetEventHandle failed: hr = 0x%08x
-IAudioClientTo::Start failed: hr = 0x%08x
-IAudioEndpointVolume(IAudioClientFrom) supports hardware mute
-IAudioEndpointVolume(IAudioClientFrom) supports hardware volume
-IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x
-IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x
-IAudioEndpointVolume::GetMute failed: hr = 0x%08x
-IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x
-IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x
-IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x
-IAudioEndpointVolume::SetMute failed: hr = 0x%08x
-IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer
-IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
-IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
+IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
+IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x\n
+IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod failed: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms\n
+IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms\n
+IAudioClient::GetMixFormat failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x\n
+IAudioClient::Stop failed: hr = 0x%08x\n
+IAudioClientFrom::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientFrom::Initialize failed: hr = 0x%08x\n
+IAudioClientFrom::Start failed: hr = 0x%08x\n
+IAudioClientTo::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientTo::Initialize failed: hr = 0x%08x\n
+IAudioClientTo::IsFormatSupported failed: hr = 0x%08x\n
+IAudioClientTo::SetEventHandle failed: hr = 0x%08x\n
+IAudioClientTo::Start failed: hr = 0x%08x\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware mute\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware volume\n
+IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMute failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x\n
+IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMute failed: hr = 0x%08x\n
+IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer\n
+IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x\n
+IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x\n
 ICE40
-IDATH
-IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
-IMFMediaBuffer::Lock failed: hr = 0x%08x
-IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
-IMFMediaBuffer::Unlock failed: hr = 0x%08x
-IMFSample::AddBuffer failed: hr = 0x%08x
-IMFTransform->SetInputType failed hr = 0x%08x
-IMFTransform->SetOutputType failed hr = 0x%08x
-IMFTransform::ProcessInput failed: hr = 0x%08x
-IMFTransform::ProcessOutput failed: hr = 0x%08x
-IMMDevice invalid ID: %ls -> %s
-IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x
-IMMDevice::Activate failed: hr = 0x%08x
-IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x
-IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x
-IMMDevice::GetId failed: hr = 0x%08x
-IMMDevice::GetState failed: hr = 0x%08x
-IMMDevice::Item(%u) failed: hr = 0x%08x
-IMMDevice::OpenPropertyStore failed: hr = 0x%08x
+IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Lock failed: hr = 0x%08x\n
+IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Unlock failed: hr = 0x%08x\n
+IMFSample::AddBuffer failed: hr = 0x%08x\n
+IMFTransform->SetInputType failed hr = 0x%08x\n
+IMFTransform->SetOutputType failed hr = 0x%08x\n
+IMFTransform::ProcessInput failed: hr = 0x%08x\n
+IMFTransform::ProcessOutput failed: hr = 0x%08x\n
+IMMDevice invalid ID: %ls -> %s\n
+IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x\n
+IMMDevice::Activate failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x\n
+IMMDevice::GetId failed: hr = 0x%08x\n
+IMMDevice::GetState failed: hr = 0x%08x\n
+IMMDevice::Item(%u) failed: hr = 0x%08x\n
+IMMDevice::OpenPropertyStore failed: hr = 0x%08x\n
 IMU Tracker
-IMU data received again...
+IMU data received again...\n
 IMU misalignment unreasonably large 
 IMU off scale
 IMU only!
 IMU samples
-IMU went off scale.
+IMU went off scale.\n
+INFO
 INFO: firmware_config %s
 INVALID
 INVALID_CPPTYPE
 IPC::CIPCHandle::InitForExport
 IPCPipe(%s) failed to read payload of %u bytes
-IPCPipe(%s) failed to write message of %u bytes because %s
-IPCPipe(%s): Next message type %u, seq %u, len %u
-IPCPipe(%s): Sending simple message type %u, seq %u
-IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal
-IPCPipe(%s): Wrote %u bytes of total message length
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG
-IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND
+IPCPipe(%s) failed to write message of %u bytes because %s\n
+IPCPipe(%s): Next message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
+IPCPipe(%s): Wrote %u bytes of total message length\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND\n
 IServerTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
@@ -3865,15 +2129,6 @@ IVRVirtualDisplay_001
 IVRVirtualDisplay_002
 IVRWatchdogHost_002
 IVRWatchdogProvider_001
-Ic@,A
-Ic@,I
-IcA,H
-IcD$ f
-IcE4J
-IcL$,
-IcN,H
-IcO4H
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 IiGM>nw
 Image data is empty for image[
 Image height mismatch. for image[
@@ -3882,28 +2137,29 @@ ImageBridge
 Import "
 In BL: 
 Index
-Index Controller CreateSkeletonComponent failed.  Error: %i
+Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Index HMD
 Index out-of-bounds (field is empty).
 Infinity
+Info
 InitCameraHAL
-InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.
-InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.
-InitTrackedCamera(): Failed to find expected interface on (%s). Camera services not available.
-InitTrackedCamera(): Failed to find primary configuration for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to get compatibility mode for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to get firmware description for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to get firmware version for camera on (%s). Camera services not available.
-InitTrackedCamera(): Failed to open expected camera on (%s): %s. Camera services not available.
-InitTrackedCamera(): Failed to set video format for camera on (%s). Camera services not available.
-InitTrackedCamera(): Forcing camera exposure time to %2.2f %s
-InitTrackedCamera(): Forcing camera framerate to %d %s
-InitTrackedCamera(): Forcing camera gain to %2.2f %s
-InitTrackedCamera(): Forcing camera white balance to %d %s
-InitTrackedCamera(): No calibration configuration for camera found on (%s). Camera services not available.
-InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s
-InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.
-InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.
+InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.\n
+InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.\n
+InitTrackedCamera(): Failed to find expected interface on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to find primary configuration for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to get compatibility mode for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to get firmware description for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to get firmware version for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Failed to open expected camera on (%s): %s. Camera services not available.\n
+InitTrackedCamera(): Failed to set video format for camera on (%s). Camera services not available.\n
+InitTrackedCamera(): Forcing camera exposure time to %2.2f %s\n
+InitTrackedCamera(): Forcing camera framerate to %d %s\n
+InitTrackedCamera(): Forcing camera gain to %2.2f %s\n
+InitTrackedCamera(): Forcing camera white balance to %d %s\n
+InitTrackedCamera(): No calibration configuration for camera found on (%s). Camera services not available.\n
+InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s\n
+InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.\n
+InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.\n
 InitializeAcl
 InitializeConditionVariable
 InitializeCriticalSection
@@ -3916,13 +2172,13 @@ Invalid
 Invalid Arg
 Invalid Arguments
 Invalid Device
-Invalid HMD interrupt packet length %u
-Invalid HMD interrupt packet tag %X
-Invalid TDM lock on matched serial / phase.
+Invalid HMD interrupt packet length %u\n
+Invalid HMD interrupt packet tag %X\n
+Invalid TDM lock on matched serial / phase.\n
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.
+Invalid binary data in `Buffer'.\n
 Invalid camera type: "
 Invalid control characters encountered in text.
 Invalid data!
@@ -3933,14 +2189,14 @@ Invalid float number:
 Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
-Invalid persistent statistics serial
+Invalid persistent statistics serial\n
 Invalid proto descriptor for file "
 Invalid public dependency index.
-Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
-Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 Invalid strings::Substitute() format string: "
 Invalid symbol name: 
-Invalid universe ID %llu when parsing universe
+Invalid universe ID %llu when parsing universe\n
 Invalid value for boolean field "
 Invalid weak dependency index.
 Invalid wire type for CPPTYPE_INT32: 
@@ -3953,270 +2209,39 @@ IsDebuggerPresent
 IsManual
 IsProcessorFeaturePresent
 IsValidSid
-J 9H s
-J(9O(|
-J>@G_
+JFIF
+JSON
 JSON Update
-JSON string too short.
-K(9J(}
-K(u1H
-K@H+K8H
-K@H+Y0I
+JSON string too short.\n
 KERNEL32.dll
 KHR_lights_punctual
-K`H;S
-Kf;;u
-KfD;3u
 Knu RevB
 Knuckles
 Knuckles EV1.3
 Knuckles EV1.4
-KpLcW4
-K}*n:	
-L#AxJ
-L#F0H
-L#F0L
-L#N0H
-L#O0H
-L#Q0L
-L#Q0M
-L#V0M
-L#n0M
-L$ +G H
-L$ 8J4tjH
-L$ 9D$ H
-L$ ;o(|
-L$ ;o@|
-L$ ;oX|
-L$ ;op|
-L$ ATAUAVH
-L$ AVH
-L$ D+
-L$ D8I	tR
-L$ E2
-L$ E3
-L$ H+
-L$ H3
-L$ H9U
-L$ H;
-L$ Hc
-L$ HcQ
-L$ I+
-L$ I9Vpt(
-L$ I;
-L$ L;
-L$ M;
-L$ SH
-L$ SUVWH
-L$ SUWATH
-L$ SVW
-L$ SVWATAUH
-L$ SVWH
-L$ SWH
-L$ USVWH
-L$ UVWATAUAVAWH
-L$ UVWATAVH
-L$ UWAUAVAWH
-L$ VWAUAVAWH
-L$ WATAUAVAWH
-L$ WH
-L$!f;
-L$"@*
-L$"H;
-L$$Ic
-L$(@8t$ u
-L$(E3
-L$(H+
-L$(H3
-L$(H9U
-L$(H9V
-L$(H;
-L$(I+
-L$(I9W
-L$(K9
-L$(L+
-L$(fI
-L$*fff
-L$0;L$DuLD
-L$0E3
-L$0H+
-L$0H3
-L$0H9
-L$0H9W
-L$0H;
-L$0I9H@t
-L$0I9V
-L$0M;
-L$0fE
-L$0ff
-L$4D;
-L$4E3
-L$4L;
-L$5yEA
-L$89s(udL
-L$8A+
-L$8D;
-L$8E3
-L$8H+L$0H
-L$8H;
-L$8H;L$0
-L$8HcQx
-L$8I#
-L$8I9H@t
-L$8L+
-L$8L;
-L$@D8	u
-L$@D;
-L$@E3
-L$@H+
-L$@H3
-L$@H9Q
-L$@H9W@t
-L$@H9t$@ujH
-L$@H;
-L$@HcQ
-L$@Ic
-L$@L#
-L$@L+
-L$@L;L$P
-L$@fD
-L$HH+
-L$HH3
-L$HI#
-L$HI+
-L$HI9T$Xt
-L$HIk
-L$HL+
-L$PE3
-L$PH3
-L$PH;
-L$X@8
-L$XE3
-L$XH3
-L$XH;
-L$XM+
-L$\E3
-L$`A8
-L$`E3
-L$`H3
-L$`H9D$0t
-L$`Hi
-L$`L;
-L$`LcC,B
-L$`fD
-L$h;^H
-L$hE3
-L$hH3
-L$pE3
-L$pH3
-L$pHcQ
-L$pI+
-L$pL+
-L$x;Oh
-L$xD9u
-L$xE3
-L$xH3
-L$xL;
-L$xfA
-L$xu83
-L+@@H
-L+@@I
-L+H@H
-L+H@I
-L+P@H
-L+Q@I
-L80L;
-L9%( )
-L9%N!)
-L9%u )
-L9&u"
-L90H;
-L90M;
-L92u'
-L97u0H
-L9=.S'
-L9=@P'
-L9=eV'
-L9?u,H
-L9@ s
-L9A r
-L9E(H
-L9H@u
-L9J s
-L9J u
-L9d$ A
-L9jhu
-L9k8v
-L9l$0
-L9l$@H
-L9l$`u
-L9l$pH
-L9l$ptLH
-L9t$@
-L9w u
-L9{0t^H
-L9|$(u
-L9|$@
-L9|$`
-L9|$p
-L;(u?H
-L;8u6H
-L;8u9
-L;9u9
-L;9u;
-L;C u=
-L;D$0u
-L;D$@u	
-L;D$x
-L;H s
-L;R s
-L;\$`
-L;d$ 
-L;l$P
-L;l$p
-L;t$P
-L;t$h
-L;|$ t
-L;|$8t
-L;|$`t
-L;|$h
-L<pL;
-L?n(Zy&
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
 LG Prototype
 LHB-%08X
+LHR-
 LHR-%08X
 LHR-00000000
 LINEAR
-LITE_RUNTIME
 LPC11 App
 LPC11 BL
 Label
-Last sample %d %lf %lf
+Last sample %d %lf %lf\n
 LastKnown
-Lc E3
-LcA0L
-LcCHI
-LcCXI
-LcI,N
-LcIhE3
-LcJ,H
-LcN,L
-LcO,H+H@I
-LcQ(I
-Lcl$$I
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-Lighthouse %s HID device error
-Lighthouse %s HID opened
-Lighthouse DB Base station %08X has a zero serialNumber in JSON
-Lighthouse DB Base station %08X has no serialNumber in JSON
-Lighthouse HMD failed sanity-check
+Lighthouse %s HID device error\n
+Lighthouse %s HID opened\n
+Lighthouse DB Base station %08X has a zero serialNumber in JSON\n
+Lighthouse DB Base station %08X has no serialNumber in JSON\n
+Lighthouse HMD failed sanity-check\n
 LighthouseDirect
-LighthouseDirect:  Unexpected backwards optical sample time
-LighthouseDirect: Optical data at time %.6f < filter at %.6f%s
+LighthouseDirect:  Unexpected backwards optical sample time\n
+LighthouseDirect: Optical data at time %.6f < filter at %.6f%s\n
 LighthouseUSB
 Line %d, Column %d
 Line: 
@@ -4224,42 +2249,35 @@ LiquidVR
 LoadLibraryA
 LoadLibraryExW
 LoadLibraryW
-Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f
-Loading MC file '%s'
-Loading of firmware manifest file (%s) not successful: (%d)
-Loading override file: %s
+Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f\n
+Loading MC file '%s'\n
+Loading of firmware manifest file (%s) not successful: (%d)\n
+Loading override file: %s\n
 LocalAlloc
 LocalFree
 LocalizationManager
 Location
 Log Erase
-Looking for default audio playback device matching VID:%04x/PID:%04x %s
-Looking for default audio recording device matching VID:%04x/PID:%04x %s
-Lost default audio playback %s
-Lost default audio recording %s
-L~Zs?D9
-M H1E
-M#V0M
-M#W0M
-M#e0I
-M98u/
-M9H s
-M;A r
+Looking for default audio playback device matching VID:%04x/PID:%04x %s\n
+Looking for default audio recording device matching VID:%04x/PID:%04x %s\n
+Lost default audio playback %s\n
+Lost default audio recording %s\n
+M8MF
+MAT2
+MAT3
+MAT4
 MAX10
-MB(iVR
 MFCreateMediaType
 MFCreateMemoryBuffer
-MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
+MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
 MFCreateSample
-MFCreateSample failed: hr = 0x%08x
-MH;H(s
-MH;H8s
+MFCreateSample failed: hr = 0x%08x\n
+MGiI
 MIPI Init
 MIPI Init Error
+MSB 
 MSVCP140.dll
-MS_:F
-MT$dA
-Mailbox %s received message %s, which it didn't have a handler for
+Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MainThrd
 ManualURL
@@ -4271,9 +2289,7 @@ Mark 4
 Max watchdog reset count
 Mb ?QFo
 MbP?GUQ?
-Mb`?+
 Mbp?USERNAME
-McA0I
 Message class "
 Message extensions cannot have required fields.
 Message missing required fields: 
@@ -4284,42 +2300,33 @@ MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
 MethodDescriptorProto
-MethodOptions
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Minidump comment truncated
-Mirroring from %s to %ls
-Mirroring is same as source %s, not mirroring
+Mirroring from %s to %ls\n
+Mirroring is same as source %s, not mirroring\n
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing String for %s (%d)
-Missing base serial number in base universe reference
-Missing base station array when parsing universe %llu
+Missing base serial number in base universe reference\n
+Missing base station array when parsing universe %llu\n
 Missing field: FileDescriptorProto.name.
 Missing name.
 Missing required param "filename"
-Missing target pose in base universe reference
-Moving base %08X %.0fmm and %.1f deg because of relationship with %08X, which is closer to the origin
+Missing target pose in base universe reference\n
+Moving base %08X %.0fmm and %.1f deg because of relationship with %08X, which is closer to the origin\n
 MultiByteToWideChar
-Multiple TDM masters in mode B.
-Multiple TDM slaves in mode A/C.
-Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.
+Multiple TDM masters in mode B.\n
+Multiple TDM slaves in mode A/C.\n
+Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.\n
 MutableRawRepeatedField
 MutableRepeatedMessage
-MwE9'~MI
-N H+N
-N H;N
-N I9N(
-N(D9q(u
 NJ2"v
 NOTPRESENT
-NPH9Q
 NRF52
 NRF52 DTM
+NULL
 NVAPI_DEBUG_DISPLAY_MODES
-NXH9Q
 NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
@@ -4328,67 +2335,59 @@ Neo V0
 New App Version
 New BL Version
 New HWID
-New Normal: %f %f %f 
+New Normal: %f %f %f \n
 New Radio Version
-New sample  %d %lf %lf (end diff: %lf)
-No IMU data in past %d seconds
-No LoadImageData callback specified.
-No additional system report data for %s:
-No base stations seen...
-No default audio device found to listen to
+New sample  %d %lf %lf (end diff: %lf)\n
+No IMU data in past %d seconds\n
+No LoadImageData callback specified.\n
+No additional system report data for %s:\n
+No base stations seen...\n
+No default audio device found to listen to\n
 No default value
 No field named "uninterpreted_option" in the Options proto.
-No optical frames in past %d seconds
+No optical frames in past %d seconds\n
 Non-Production BL
 Non-primitive types can't be packed.
 Non-repeated field "
+None
 NormalTextureInfo
-Not enough contiguous samples for a bootstrap pose
-Not generating hidden area meshes for unknown hidden area mode %d
-Not the preferred basestation
+Not enough contiguous samples for a bootstrap pose\n
+Not generating hidden area meshes for unknown hidden area mode %d\n
+Not the preferred basestation\n
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
-NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!
-NvAPI: DirectModeGetDisplayModes trying again with older API!
-NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
-NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d
-O	u~w
-O(;H(}+I
-O(H9O0t
+NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
+NvAPI: DirectModeGetDisplayModes trying again with older API!\n
+NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
+NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d\n
 O*9y]
-O0H9Q
-O?A'w
 OPAQUE
-OTGT timed out
+OTGT timed out\n
 OZw3(?
-O`H9Q
-O`H;W
 Object
-Old Normal: %f %f %f 
-OnDefaultDeviceChanged: flow = %s, role = %s, device = %s
-OnDeviceAdded: device = %s
-OnDeviceRemoved: device = %s
-OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s
+Old Normal: %f %f %f \n
+OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
+OnDeviceAdded: device = %s\n
+OnDeviceRemoved: device = %s\n
+OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
 Oneof must have at least one field.
 OneofDescriptorProto
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
-OpH9Q
-Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 OpenEventA
 OpenFileMappingA
 OpenMutexA
 OpenProcess
 OpenProcessToken
-OpenProcessToken failed. GetLastError returned: %d
+OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
 OpenVR
 Operation Failed
 Optical
-Optical frames received again...
-OptimizeMode
+Optical frames received again...\n
 Option "
 Option field "
 Option must have a name.
@@ -4396,36 +2395,18 @@ Option must not use reserved name "uninterpreted_option".
 Orhographic camera description not found.
 Original Left Camera Extrinsics: %s
 Original Right Camera Extrinsics: %s
-Original shift blue in pixels: %f %f
-Original shift red in pixels:  %f %f
-Original: %f %f %f 
+Original shift blue in pixels: %f %f\n
+Original shift red in pixels:  %f %f\n
+Original: %f %f %f \n
 OrthographicCamera
-Out of thread local storage!
+Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-P(H9|$h
-P;A(|
-PA^A]A\_^[]
-PA^A]_^[
-PA^_]
-PA^_^
-PA^_^][
-PA_A]A\_^
-PA_A^A]A\[
-PA_A^A]A\]
-PA_A^A]A\_
-PA_A^A]A\_^[
-PA_A^A]A\_^]
-PA_A^]
-PA_A^_
-PA_A^_^]
-PA_A^_^]H
-PA_[]
-PAq=?Mp#
-PH@8|$HtAA
-PI;\$ u
+PICT
+PID_
 PLACEHOLDER_VALUE
 PLAY-
+PNG\r\n
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -4453,27 +2434,26 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-P`]s 
 Pairing Failed
 Pairing Start
 Pairing Success
 Panel Init
 Panel Init Error
-Panic in TDM. basestation offset is invalid: %f
+Panic in TDM. basestation offset is invalid: %f\n
 Parse error: 
-Parse failed for JSON message in mailbox %s: %s
-Parse of lighthouse scale JSON "%s" failed: %s
-Parsing LighthouseDB from file %s
-Parsing of JSON file "%s" failed: %s
-Parsing of JSON string "%s" failed: %s
+Parse failed for JSON message in mailbox %s: %s\n
+Parse of lighthouse scale JSON "%s" failed: %s\n
+Parsing LighthouseDB from file %s\n
+Parsing of JSON file "%s" failed: %s\n
+Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
+Pe6^
 PeekMessageA
 PeekNamedPipe
 PeripheralApplication
-Persistent statistics file does not exist. Creating new %s
+Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PoolGC
 Primitive
 Prism only supports DPOLY3 and DPOLY3_SCALED distortiong functions
@@ -4487,39 +2467,35 @@ PrismTimeline:%llu
 Pro Audio
 Projection
 PropVariantClear
-Protocol Buffer reflection usage error:
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Prototype
-Pz}b!
-Q@D85
 Qk6eV5RE
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-R$fE;B*
 R1h58
-R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
-RPH;SXt
 RSDSE
+R\vp~i
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
 ReadFile
-ReadFile failed on %s after event was signaled because %s
-ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer
+ReadFile failed on %s after event was signaled because %s\n
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
 Reading dangerously large protocol message.  If the message turns out to be larger than 
-Reading persistent statistics file from %s
-Received mirror reset event
-Received mirror reset event after %u passes, %llu samples
-Received mirror stop event
-Received mirror stop event after %u passes, %llu samples
-RecommendedRenderTargetSize: %u, %u (viewport %u, %u scaled by %.2f)
-Recording to "%s"
-Refreshing audio devices
+Reading persistent statistics file from %s\n
+Received mirror reset event after %u passes, %llu samples\n
+Received mirror reset event\n
+Received mirror stop event after %u passes, %llu samples\n
+Received mirror stop event\n
+RecommendedRenderTargetSize: %u, %u (viewport %u, %u scaled by %.2f)\n
+Recording to "%s"\n
+Refreshing audio devices\n
 RegCloseKey
 RegEnumValueW
 RegOpenKeyA
@@ -4531,10 +2507,10 @@ RegisterDeviceNotificationA
 ReleaseLast
 ReleaseMessage
 ReleaseMutex
-Releasing OS object failed: invalid parameter
+Releasing OS object failed: invalid parameter\n
 RemindVersion
 RemoveLast
-RenderDoc connected
+RenderDoc connected\n
 RenderEnd
 RenderStart
 Repeated fields can't have default values.
@@ -4544,47 +2520,34 @@ Replay failed to parse base dynamic state:
 Reset
 Reset Video Error
 ResetEvent
-Resetting all state to synchronize with recording...
+Resetting all state to synchronize with recording...\n
 Resetting tracking
 Restart
 ResumeThread
-Returning failure when parsing lighthouse DB from %s because of base station errors
-Returning failure when parsing lighthouse DB from %s because of universe errors
+Returning failure when parsing lighthouse DB from %s because of base station errors\n
+Returning failure when parsing lighthouse DB from %s because of universe errors\n
 Right
-RlK8`K8
 Robin
 Robin 2
 RootNode
-RootSerial %s
-Rotors on basestation out of 180-degree phase lock.
+RootSerial %s\n
+Rotors on basestation out of 180-degree phase lock.\n
 RpcStringFreeA
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S H9K
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S0IcH
-S0Q0O
-S8H+S0H
-SATAUAVAWH
-SATAUAWH
-SATAUH
-SAUAVH
-SAVAWH
-SA|X=G
 SCALAR
 SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
-SL9SHuv
+SKyu
 SOB total=
 SOB: add 
 SOB: drop 
-SPB8t
-SPB8u,
 SPEED
 SRB-0
 STEAMVR_DISABLE_CRASH_REPORTING
@@ -4609,64 +2572,43 @@ STEREO_DEV_ST1080_UPWARD_GLUE_GUN_SPECIAL
 STEREO_DEV_TEST
 STEREO_DEV_VUZIX_STAR_1200
 STRING
-STRING_PIECE
-SUATAVH
-SUVATAUH
-SUVAWH
-SUVWATAUAVAWH
-SUVWATAUH
-SUVWATAVH
-SUVWAUAVAWH
-SUVWAVH
-SUVWH
-SUWATAUAVAWH
-SUWATAWH
-SUWAUAVAWH
-SUWAVH
-SVWATAUAVAWH
-SVWATH
-SVWAVAWH
-SVWAVH
-SWAUAVH
-SWAUH
-SWAWH
-S\9SXuv
-Samples didn't yield successful bootstrap pose
-Saved LighthouseDB rev %u to %s
-Saw %d early IMU related panics, using factory IMU cal
-Saw %u bases and none are the preferred base %08X
-Saw demod rate %.0f/s, enabling Sync on Beam
+Samples didn't yield successful bootstrap pose\n
+Saved LighthouseDB rev %u to %s\n
+Saw %d early IMU related panics, using factory IMU cal\n
+Saw %u bases and none are the preferred base %08X\n
+Saw demod rate %.0f/s, enabling Sync on Beam\n
 Sc?Nb
-Searching for camera extrinsics calibration override (deviceKey=%08X)
+Searching for camera extrinsics calibration override (deviceKey=%08X)\n
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
-SelectVideoConfig:         refresh=%f
-SelectVideoConfig:     edid_id=%d
-SelectVideoConfig: Could not query watchman firmware version in SelectNonDefaultHmdEdid
-SelectVideoConfig: Current VideoMode EdidId=%d HDCP14LegacyCompat=%d PreEmphSwingValid=%d PreEmphasis=%d Swing=%d
-SelectVideoConfig: DP HDCP14LegacyCompatibility support: %d
-SelectVideoConfig: DP Training Mode support: %d
-SelectVideoConfig: Error GetEdidId failed %d
-SelectVideoConfig: Error Querying PreferredRefreshRate
-SelectVideoConfig: Error Setting Video Config %d
-SelectVideoConfig: Error: GetVideoConfig failed %d
-SelectVideoConfig: HMD has exposed %d EDIDs
-SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.
-SelectVideoConfig: No Video Mode Change required
-SelectVideoConfig: Selecting solo HMD EDID
-SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed
-SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d
-SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d
-SelectVideoConfig: driver_lighthouse.disableRuntimeEdidOverride=true. Leaving device video mode unchanged
-SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
-Selected existing universe %llu (%08X is %s)
+See 
+SelectVideoConfig:         refresh=%f\n
+SelectVideoConfig:     edid_id=%d\n
+SelectVideoConfig: Could not query watchman firmware version in SelectNonDefaultHmdEdid\n
+SelectVideoConfig: Current VideoMode EdidId=%d HDCP14LegacyCompat=%d PreEmphSwingValid=%d PreEmphasis=%d Swing=%d\n
+SelectVideoConfig: DP HDCP14LegacyCompatibility support: %d\n
+SelectVideoConfig: DP Training Mode support: %d\n
+SelectVideoConfig: Error GetEdidId failed %d\n
+SelectVideoConfig: Error Querying PreferredRefreshRate\n
+SelectVideoConfig: Error Setting Video Config %d\n
+SelectVideoConfig: Error: GetVideoConfig failed %d\n
+SelectVideoConfig: HMD has exposed %d EDIDs\n
+SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.\n
+SelectVideoConfig: No Video Mode Change required\n
+SelectVideoConfig: Selecting solo HMD EDID\n
+SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed\n
+SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d\n
+SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d\n
+SelectVideoConfig: driver_lighthouse.disableRuntimeEdidOverride=true. Leaving device video mode unchanged\n
+SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
+Selected existing universe %llu (%08X is %s)\n
 ServiceDescriptorProto
 ServiceOptions
 SessionID
-Set column correction %f %d %f %d
-Set index backlight gain: %f
+Set column correction %f %d %f %d\n
+Set index backlight gain: %f\n
 Set initial
-Set thread %p priority to: %d
+Set thread %p priority to: %d\n
 SetAllocatedMessage
 SetBool
 SetDouble
@@ -4693,14 +2635,14 @@ SetThreadPriority
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
-SetVideoConfig nPreEmphasis %d nSwingLevel %d
-SetVideoConfig to edid_id %d HDCP14LegacyCompat %d
+SetVideoConfig nPreEmphasis %d nSwingLevel %d\n
+SetVideoConfig to edid_id %d HDCP14LegacyCompat %d\n
 SetWindowLongPtrA
-Setting %08X as the origin of universe %llu
-Setting Edid VendorID %X and product ID %X from json
-Setting Edid to edid_id %d...
-Setting firmware manifest beta override: %d
-Setting universe tilt from %08X %s: pitch %0.2f deg roll %0.2f deg
+Setting %08X as the origin of universe %llu\n
+Setting Edid VendorID %X and product ID %X from json\n
+Setting Edid to edid_id %d...\n
+Setting firmware manifest beta override: %d\n
+Setting universe tilt from %08X %s: pitch %0.2f deg roll %0.2f deg\n
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
 SetupDiEnumDeviceInterfaces
@@ -4713,158 +2655,69 @@ SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
 Shutdown
 ShutdownCameraHAL
-Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json
+Skin
+Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json\n
 Sleep
 SleepConditionVariableCS
 Software Reset
 Software\Valve\Steam\ActiveProcess
-Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
 Somebody created vrprismhost_startup before driver_lighthouse started prism. Something has gone wrong.
-Somebody else should have created event %s to go with pipe %s in WaitForConnection
+Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
-Source: %s -- Preferred basestation %08X
+Source: %s -- Preferred basestation %08X\n
 SourceCodeInfo
 Spot light description not found.
 Stable
 Standby toggled
-Standby unknown hmd
+Standby unknown hmd\n
 Start
-Start test failed
+Start test failed\n
 StartSession
-Started pairing dongle serial=%s timeout=%f
-Starting test
+Started pairing dongle serial=%s timeout=%f\n
+Starting test\n
 SteamVR_Namespace
 SteamXR Interop Device
-Still waiting for Direct Mode Display...
-Stopped tracking with universe %llu
-Stopping playback mirror thread
-Stopping recording...
+Still waiting for Direct Mode Display...\n
+Stopped tracking with universe %llu\n
+Stopping playback mirror thread\n
+Stopping recording...\n
 String literals cannot cross line boundaries.
 StringOutputStream.
 Submit
 Submit: %s
 Success
 Success: 
-Successfully parsed Lighthouse DB rev %u from %s
-SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d
-SwSyncDetect selected %s
+Successfully parsed Lighthouse DB rev %u from %s\n
+SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d\n
+SwSyncDetect selected %s\n
+Swap
 Swapchain-WaitImage
-Switching IMU Only -> Lighthouse
-Switching Lighthouse -> IMU Only
+Switching IMU Only -> Lighthouse\n
+Switching Lighthouse -> IMU Only\n
 Symbol name "
 Syntax error: value, object or array expected.
 Sys Temp: 
 Sys clk: 
-T$ E3
-T$ H+
-T$ H;
-T$ HcN
-T$ I9Vpt,D
-T$ I;
-T$ L+
-T$ M+
-T$ M;
-T$ fD
-T$ fff
-T$$A;
-T$$I+
-T$(@2
-T$(E3
-T$(H+
-T$(H9T$0t
-T$(H9T$0t!H
-T$(H;u
-T$(L+
-T$(L;
-T$(M;A
-T$0E3
-T$0H+
-T$0H;
-T$0fA
-T$4I+
-T$8;T$<
-T$8H+
-T$8H;
-T$@A;
-T$@E3
-T$@H+
-T$@H9T$Ht
-T$@H;
-T$@H;]
-T$@Hc
-T$@I;
-T$@L;
-T$@fA
-T$@fI
-T$HE3
-T$HH9T$Pt
-T$HH;
-T$PE3
-T$PH;
-T$PH;T$Xu
-T$PL;
-T$PM;
-T$XA#
-T$XE3
-T$XH;
-T$`H3
-T$`H;
-T$`fA
-T$hC8
-T$hE3
-T$hH9T$pt
-T$hH;T$pu
-T$hL+
-T$pD;
-T$pE3
-T$pH;
-T$pL;
-T$xE3
-T$xH;
-T$xL+
-T$xL;
-T$xMk
-TDM only works with matched single / double rotor pairs.
-TDM sensorType changed to: %d
-TDM supports max of 2 basestations.
-TDM total=%d invalid_long=%d runt=%d sync_miss=%d samples_in_sync_guard_band=%d
+TDM only works with matched single / double rotor pairs.\n
+TDM sensorType changed to: %d\n
+TDM supports max of 2 basestations.\n
+TDM total=%d invalid_long=%d runt=%d sync_miss=%d samples_in_sync_guard_band=%d\n
 TEST_TMPDIR
-TT$0f
-TT$@f
-TUUUUUU
-TYPE_BYTES
-TYPE_DOUBLE
-TYPE_FIXED32
-TYPE_FIXED64
-TYPE_FLOAT
-TYPE_GROUP
-TYPE_INT32
-TYPE_INT64
-TYPE_MESSAGE
-TYPE_SFIXED32
-TYPE_SFIXED64
-TYPE_SINT32
-TYPE_SINT64
-TYPE_STRING
-TYPE_UINT32
-TYPE_UINT64
-T\$0f
-T\$@f
 Target fw version: 
 Task Suspended
 TdhEnumerateManifestProviderEvents
 TerminateProcess
 Test mode ena: 
 TextureInfo
-TfD;u
 The total number of bytes read was 
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
 This program requires version 
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
 Time: 
@@ -4875,137 +2728,76 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
-Tp=9y>m0_D@H_
-Tracking thread peak duty cycle %0.0f%% (over %0.1fs).  Blocked in SendOnPoseChange %0.0f%% of that.
+Tracking thread peak duty cycle %0.0f%% (over %0.1fs).  Blocked in SendOnPoseChange %0.0f%% of that.\n
 Transition Err
 TranslateMessage
 Tried to merge messages of different types 
 Triggered by system report: 
+True
 Trying to %s %08X: %s
 Tundra Labs
 Tundra Tracker
+Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
-U0H9U8t
-UATAUAVAWH
-UATAUH
-UATAVAWI
-UATAWH
-UAUAVAWH
-UAVAWH
-UKz.U
+U4ot
+U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
 UNKNOWN
 UNPLUGGED
 USAGE: set_lenscal <device_json_path>
-USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels
-USATAUAWH
-USATAWH
-USATH
-USAUH
+USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels\n
 USB status (rates over 
 USER32.dll
-USVATAUAWH
-USVAUI
-USVAVH
-USVWATAUAVAWH
-USVWATAUAVAWI
-USVWATAUAVH
-USVWATAUAWH
-USVWATAVAWH
-USVWATAVH
-USVWATH
-USVWAUAVAWH
-USVWAUAVI
-USVWAUH
-USVWAUI
-USVWAVAWH
-USVWAVAWI
-USVWAVH
-USVWAVI
-USVWH
-USVWI
-USWATAVH
-USWAUAVH
-USWAUAWH
-USWAUH
-USWAUI
-USWAVH
-USWAWI
 UUUUUU
-UUUUUUU
-UVATAWH
-UVAUAWH
-UVAVH
-UVAWH
-UVWATAUAVAWH
-UVWATAUAWH
-UVWATAWH
-UVWAUAVH
-UVWAUAVI
-UVWAUH
-UVWAVAWH
-UVWAVH
-UVWAWH
-UWATAUAVH
-UWATAUAWI
-UWATAVAWH
-UWATAVH
-UWATI
-UWAUAVAWH
-UWAUH
-UWAVH
-UWAWH
-UXu.H
-UhH9Upt"A
-Unable to SetLcmBrightness
-Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
-Unable to create event %s to go with pipe %s in WaitForConnection
-Unable to create shared memory %s for IPC client
-Unable to create shared mutex %s for IPC client
-Unable to create shared state %s because namespace wasn't available
+Unable to SetLcmBrightness\n
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
+Unable to create event %s to go with pipe %s in WaitForConnection\n
+Unable to create shared memory %s for IPC client\n
+Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
 Unable to determine VR Path Registry filename
-Unable to fetch %s to store MC data
-Unable to get IMMDeviceEnumerator, hr = 0x%08x
-Unable to get default from IMMDevice, hr = 0x%08x
-Unable to get to IMMDevice %s, hr = 0x%08x
+Unable to fetch %s to store MC data\n
+Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
+Unable to get default from IMMDevice, hr = 0x%08x\n
+Unable to get to IMMDevice %s, hr = 0x%08x\n
 Unable to init base station driver for %X
-Unable to init zlib
-Unable to load avrt.dll
-Unable to load bind mfplat.dll and/or avrt.dll
-Unable to load mfplat.dll
-Unable to open current process for duplicating handles because %s
-Unable to open process id=%d from pipe %s after connecting because %s
+Unable to init zlib\n
+Unable to load avrt.dll\n
+Unable to load bind mfplat.dll and/or avrt.dll\n
+Unable to load mfplat.dll\n
+Unable to open current process for duplicating handles because %s\n
+Unable to open process id=%d from pipe %s after connecting because %s\n
 Unable to parse 
-Unable to parse Lighthouse base target pose
-Unable to parse base at index %d in db json file %s
-Unable to parse base station config for info
-Unable to parse base station index %d in universe %llu
-Unable to parse base station info
-Unable to parse dynamic state %d in %08X
-Unable to parse object at index %d in db json file %s
-Unable to parse target pose for base %08X
+Unable to parse Lighthouse base target pose\n
+Unable to parse base at index %d in db json file %s\n
+Unable to parse base station config for info\n
+Unable to parse base station index %d in universe %llu\n
+Unable to parse base station info\n
+Unable to parse dynamic state %d in %08X\n
+Unable to parse object at index %d in db json file %s\n
+Unable to parse target pose for base %08X\n
 Unable to parse token length
-Unable to parse universe at index %d in db json file %s
-Unable to query MC Image size
-Unable to read Lighthouse DB from file %s
+Unable to parse universe at index %d in db json file %s\n
+Unable to query MC Image size\n
+Unable to read Lighthouse DB from file %s\n
 Unable to read VR Path Registry from 
-Unable to read device config for dongle %s device %s (%s). Ignoring it
-Unable to read device config for vid 0x%X pid 0x%X serial %s. Rejecting it
-Unable to read event handles from pipe %s after connecting because %s
-Unable to read event salt from pipe %s after connecting because %s
-Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
-Unable to read pid from pipe %s after connecting because %s
-Unable to request wireless pairing
-Unable to save backup database for revision %u to %s
-Unable to set room view to '%s' for HMD Hid device
-Unable to set tilt origin from %08X because it has no pose to global but there is already an origin
-Unable to set work state to %d for HMD Hid device
-Unable to store MC image: %s
-Unable to turn on polling for HMD Hid device
-Unable to write database version %u to file %s
-Unexpected WaitForMultipleObjects return value %u
-Unexpected WaitForMultipleObjects return value %u on pass %u
-Unexpected centroid ordering error %.3fms S-%d
+Unable to read device config for dongle %s device %s (%s). Ignoring it\n
+Unable to read device config for vid 0x%X pid 0x%X serial %s. Rejecting it\n
+Unable to read event handles from pipe %s after connecting because %s\n
+Unable to read event salt from pipe %s after connecting because %s\n
+Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+Unable to read pid from pipe %s after connecting because %s\n
+Unable to request wireless pairing\n
+Unable to save backup database for revision %u to %s\n
+Unable to set room view to '%s' for HMD Hid device\n
+Unable to set tilt origin from %08X because it has no pose to global but there is already an origin\n
+Unable to set work state to %d for HMD Hid device\n
+Unable to store MC image: %s\n
+Unable to turn on polling for HMD Hid device\n
+Unable to write database version %u to file %s\n
+Unexpected WaitForMultipleObjects return value %u on pass %u\n
+Unexpected WaitForMultipleObjects return value %u\n
+Unexpected centroid ordering error %.3fms S-%d\n
 Unexpected end of string.
 Unexpected failure when checking for timeline signal
 Unexpected failure while serializing option submessage 
@@ -5014,10 +2806,10 @@ Unidentified
 Unimplemented type: 
 Uninitialized
 UninterpretedOption
-Universe %llu already has an origin, can't set it to %08X
+Universe %llu already has an origin, can't set it to %08X\n
 Unknown
-Unknown Hmd Interrupt packet: report ID %d
-Unknown base %08X in base universe reference
+Unknown Hmd Interrupt packet: report ID %d\n
+Unknown base %08X in base universe reference\n
 Unknown entry type
 Unknown enumeration value of "
 Unknown error (%d)
@@ -5031,21 +2823,22 @@ Unsupported `type` for accessor object. Got "
 Updated
 Updated Left Camera Extrinsics: %s
 Updated Right Camera Extrinsics: %s
-Updated shift blue in pixels: %f %f
-Updated shift red in pixels:  %f %f
-Updated:  %f %f %f 
-Updating %s
-Updating additional system report data for %s
-Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
-Use Screen Resolution control panel to fix
+Updated shift blue in pixels: %f %f\n
+Updated shift red in pixels:  %f %f\n
+Updated:  %f %f %f \n
+Updating %s\n
+Updating additional system report data for %s\n
+Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g\n
+User
 User reset
 UserData
-UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x
-UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d
-UserData Error: Unable to send start user data feature report 
-Using default hidden area meshes for model %s
-Using monitor index %d
+UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x\n
+UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d\n
+UserData Error: Unable to send start user data feature report \n
+Using default hidden area meshes for model %s\n
+Using monitor index %d\n
 Using physical device: %s
+Utah
 Utah DV
 Utah EV1
 Utah EV2
@@ -5053,18 +2846,15 @@ Utah MP
 UuidCreate
 UuidFromStringA
 UuidToStringA
-V H+V
-V2 HMD with bogus trackrefs detected in configuration:
-V8H;C
-VATAUAVH
-VATAUH
-VATAVH
-VAVAWH
-VAh'-
+V2 HMD with bogus trackrefs detected in configuration:\n
 VBus: 
 VCRUNTIME140.dll
 VDEST
+VEC2
+VEC3
+VEC4
 VERSION.dll
+VID_
 VIVE Pro
 VIVE Pro Mutimedia Audio
 VIVE Tracker 3.0
@@ -5080,7 +2870,7 @@ VK_KHR_external_semaphore_win32
 VK_KHR_present_id
 VK_LAYER_KHRONOS_validation
 VK_NV_compute_shader_derivatives
-VR Path Registry node %s is not an array
+VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
 VRC-%s
 VRInitError_Compositor_CannotConnectToDisplayServer
@@ -5306,18 +3096,6 @@ VR_LOG_PATH
 VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VSYNC:  %8d>%07.4f
-VUUUH
-VWATAUAVH
-VWATAUAWH
-VWATAVAWH
-VWATH
-VWAUAVAWH
-VWAUAWH
-VWAVH
-VWAWH
-VYUYt
-V_:X1:
-V_~]	,
 Value 
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
@@ -5333,30 +3111,30 @@ Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
 Valve
-Valve Corp.0
-Valve Corp.1
 Valve Corporation
 Valve SR
 Valve SR Blinker
 Valve SR EV2
 Valve SR Imp
 Valve VR Radio & HMD Mic
+Vc0a
 VerQueryValueA
 VerSetConditionMask
-VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)
-VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device
-VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...
-VerifyUSBUserDataInDirectory: %s validated
-VerifyUSBUserDataInDirectory: Error parsing user data for index %d
-VerifyUSBUserDataInDirectory: Error reading USB user data from device for file %s
-VerifyUSBUserDataInDirectory: Error writing file %s
-VerifyUSBUserDataInDirectory: Skipping %s (header.crc=%08X)
-VerifyUSBUserDataInDirectory: error parsing user data header
-VerifyUSBUserDataInDirectory: header failed sanity check
+VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)\n
+VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device\n
+VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...\n
+VerifyUSBUserDataInDirectory: %s validated\n
+VerifyUSBUserDataInDirectory: Error parsing user data for index %d\n
+VerifyUSBUserDataInDirectory: Error reading USB user data from device for file %s\n
+VerifyUSBUserDataInDirectory: Error writing file %s\n
+VerifyUSBUserDataInDirectory: Skipping %s (header.crc=%08X)\n
+VerifyUSBUserDataInDirectory: error parsing user data header\n
+VerifyUSBUserDataInDirectory: header failed sanity check\n
 VerifyVersionInfoW
 Version
 Video Failure
 Video state: 
+Vive
 Vive 2.0
 Vive 2.0 DVT
 Vive DVT
@@ -5372,25 +3150,13 @@ Vive. EVT
 Vive. MV
 Vive_Pro
 Vive_Pro DVT
-VpH9Vxt'
 VrController
-W(LcB
-W0H;C
-W8H;C
-W8I9W@t
-W<H;C
 WARNING
-WARNING: Base %08X has no factory calibration and will be ignored
-WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
-WARNING: Saw sync on beam channel conflict on ch %d
-WARNING: Speculative Start Collision for base %0X (removing %s)
-WARNING: large time gap between IMU samples (%f -> %f diff=%f)
-WATAUAVAWH
-WATAUAVH
-WATAUH
-WATAVH
-WAVAWH
-WHH;C
+WARNING: Base %08X has no factory calibration and will be ignored\n
+WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1\n
+WARNING: Saw sync on beam channel conflict on ch %d\n
+WARNING: Speculative Start Collision for base %0X (removing %s)\n
+WARNING: large time gap between IMU samples (%f -> %f diff=%f)\n
 WINMM.dll
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -5406,269 +3172,187 @@ WINRT_Release
 WINRT_ReleaseDisplay
 WINRT_SetDisplayMode
 WINRT_WaitForPresent
+Wait
 Wait For Sync
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
-WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name.
+WaitNamedPipe %s failed because %s\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 Waiting
-Waiting for best bootstrap base station candidate...
+Waiting for best bootstrap base station candidate...\n
 WakeAllConditionVariable
 WakeConditionVariable
-Warned about misattributed base %08X
+Warned about misattributed base %08X\n
 Warning
 Warning parsing text-format 
-Warning:  HMD Display %s is Primary display
-Warning: CVrController::CreateInputComponents called on empty input_profile
-Warning: Could not interpret 'type' of %s (%s) in %s
-Warning: Edid VendorID / product ID not specified in json (direct mode)
-Warning: Found multiple monitors matching size %d x %d, using first
-Warning: Framer decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
-Warning: Framer sensorType NotYetAvailable
-Warning: Framer unknown sensorType: %d
-Warning: MC images must be equal size and components.
-Warning: SOB decoded ootx incorrectly specifies non-SOB mode. Forcing to MODE_SOB.
-Warning: SOB decoded ootx specifies incorrect SOB channel. Forcing to known correct value.
-Warning: TDM decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
-Warning: TDM sensorType NotYetAvailable
-Warning: TDM sensorType changed to unknown type: %d
-Warning: TDM unknown sensorType
+Warning:  HMD Display %s is Primary display\nUse Screen Resolution control panel to fix\n
+Warning: CVrController::CreateInputComponents called on empty input_profile\n
+Warning: Could not interpret 'type' of %s (%s) in %s\n
+Warning: Edid VendorID / product ID not specified in json (direct mode)\n
+Warning: Found multiple monitors matching size %d x %d, using first\n
+Warning: Framer decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.\n
+Warning: Framer sensorType NotYetAvailable\n
+Warning: Framer unknown sensorType: %d\n
+Warning: MC images must be equal size and components.\n
+Warning: SOB decoded ootx incorrectly specifies non-SOB mode. Forcing to MODE_SOB.\n
+Warning: SOB decoded ootx specifies incorrect SOB channel. Forcing to known correct value.\n
+Warning: TDM decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.\n
+Warning: TDM sensorType NotYetAvailable\n
+Warning: TDM sensorType changed to unknown type: %d\n
+Warning: TDM unknown sensorType\n
 Warning: Unused import: "
-Warning: Watchdog %s not properly cleaned up%s%s
+Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: unexpected vulkan major version
-Washington1
 Watchdog count: 
 Watchdog reset
-WatchdogWakeUp because of HMD button
-WatchdogWakeUp because of new system button press
-WatchdogWakeUp because of new wireless connection
+WatchdogWakeUp because of HMD button\n
+WatchdogWakeUp because of new system button press\n
+WatchdogWakeUp because of new wireless connection\n
 Watchman
-Watchman device log download failed or not supported for %s
-Watchman device log downloaded for %s
-Watchman device log:
-Watchman flash log download failed or not supported for %s
-Watchman flash log downloaded for %s
-Watchman flash log:
-Watchman saw FIFO overflow event
+Watchman device log download failed or not supported for %s\n
+Watchman device log downloaded for %s\n
+Watchman device log:\n
+Watchman flash log download failed or not supported for %s\n
+Watchman flash log downloaded for %s\n
+Watchman flash log:\n
+Watchman saw FIFO overflow event\n
 WatchmanFPGA
 WebInterface
 WideCharToMultiByte
 Win 10
 WinRT
 WriteFile
-X USVWATAVAWH
-X UVWAVAWH
-X UVWH
-XA;6|
-XA;?|
-XA\_^[
-XA^A\][
-XA^A]A\^
-XA^^[]
-XA_A^A]^][
-XD$XH
-XE;>|
-XL$hL
 XXXX PNG chunk not known
-X_^][
-Xt$HH
-Y5qg!
-Y9"SD
+XsBI
 Y?33s?
-YAHH+
-YAPH+
-YL9%1
-Yl$ M
-Yl$4E
-Yl$hfD
-Z* ,	
-Z9k0tUD
-ZL$Xf
-[ UVWAVAWI
-[ UWATAVAWI
-[(HcS
-[-&LMb#{'
-[DepthAugmentedPassthrough] : Clean depthFromStereo and stop internal processing thread 
-[DepthAugmentedPassthrough] : Connecting to the frame block queue ...
-[DepthAugmentedPassthrough] : Could not access controller model for controller id : %i.  error %i 
-[DepthAugmentedPassthrough] : Could not access controller role for  id : %i. error %i 
+Zjz\v
+[DepthAugmentedPassthrough] : Clean depthFromStereo and stop internal processing thread \n
+[DepthAugmentedPassthrough] : Connecting to the frame block queue ...\n
+[DepthAugmentedPassthrough] : Could not access controller model for controller id : %i.  error %i \n
+[DepthAugmentedPassthrough] : Could not access controller role for  id : %i. error %i \n
 [DepthAugmentedPassthrough] : Couldn't access the camera frame layout information (err : %i)
 [DepthAugmentedPassthrough] : Couldn't access the camera to head transform. Depth can't be computed without it (err : %i)
-[DepthAugmentedPassthrough] : Couldn't get access to the IVRServerDriverHost,  early return 
-[DepthAugmentedPassthrough] : Creating the mesh block queue ...
-[DepthAugmentedPassthrough] : ERROR with preset setDepthFromStereoConfig %s
-[DepthAugmentedPassthrough] : ERROR with preset setDepthFromStereoConfig UNKNOWN EXCEPTION
-[DepthAugmentedPassthrough] : Grabbing model at path %s for controller id %i 
-[DepthAugmentedPassthrough] : Invalid frame format type received when trying to do depth-aware frame.
-[DepthAugmentedPassthrough] : Main processing thread fetching frame was stopped. CDepthAugmentedPassthrough is cleaned and can be destroyed safely 
-[DepthAugmentedPassthrough] : Main processing thread has started. We will wait until we get a listener before really launching the processing ... 
-[DepthAugmentedPassthrough] : Object is created 
-[DepthAugmentedPassthrough] : Object is destroyed 
-[DepthAugmentedPassthrough] : Registered a new index headset id : %i 
-[DepthAugmentedPassthrough] : Registered a new left controller device. id : %i 
-[DepthAugmentedPassthrough] : Registered a new right controller device. id : %i 
-[DepthAugmentedPassthrough] : Unregistering tracked device. id : %i, TrackedDeviceType %i 
-[DepthAugmentedPassthrough] : We can't create the mesh block queue. We don't have the mesh size ...
-[DepthAugmentedPassthrough] : We fail to connect to the frame block queue ...
-[DepthAugmentedPassthrough] : We failed registering the controller. id : %i 
-[DepthAugmentedPassthrough] : We have a consumer. Initialization of DepthFromStereo 
-[DepthAugmentedPassthrough] : failed to create the mesh block queue (%d)
-[DepthAugmentedPassthrough] supported on this system: %d
+[DepthAugmentedPassthrough] : Couldn't get access to the IVRServerDriverHost,  early return \n
+[DepthAugmentedPassthrough] : Creating the mesh block queue ...\n
+[DepthAugmentedPassthrough] : ERROR with preset setDepthFromStereoConfig %s\n
+[DepthAugmentedPassthrough] : ERROR with preset setDepthFromStereoConfig UNKNOWN EXCEPTION\n
+[DepthAugmentedPassthrough] : Grabbing model at path %s for controller id %i \n
+[DepthAugmentedPassthrough] : Invalid frame format type received when trying to do depth-aware frame.\n
+[DepthAugmentedPassthrough] : Main processing thread fetching frame was stopped. CDepthAugmentedPassthrough is cleaned and can be destroyed safely \n
+[DepthAugmentedPassthrough] : Main processing thread has started. We will wait until we get a listener before really launching the processing ... \n
+[DepthAugmentedPassthrough] : Object is created \n
+[DepthAugmentedPassthrough] : Object is destroyed \n
+[DepthAugmentedPassthrough] : Registered a new index headset id : %i \n
+[DepthAugmentedPassthrough] : Registered a new left controller device. id : %i \n
+[DepthAugmentedPassthrough] : Registered a new right controller device. id : %i \n
+[DepthAugmentedPassthrough] : Unregistering tracked device. id : %i, TrackedDeviceType %i \n
+[DepthAugmentedPassthrough] : We can't create the mesh block queue. We don't have the mesh size ...\n
+[DepthAugmentedPassthrough] : We fail to connect to the frame block queue ...\n
+[DepthAugmentedPassthrough] : We failed registering the controller. id : %i \n
+[DepthAugmentedPassthrough] : We have a consumer. Initialization of DepthFromStereo \n
+[DepthAugmentedPassthrough] : failed to create the mesh block queue (%d)\n
+[DepthAugmentedPassthrough] supported on this system: %d\n
 [FORCEUPDATE]
-[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
-[IPC] ConvertStringSidToSidA failed for test app %d
-[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid
-[IPC] Existing file mapping for %s was found
-[IPC] Failed creating auto reset event %s (GLE: %u)
-[IPC] Failed creating file mapping %s: %u
-[IPC] Failed creating mutex %s (GLE: %u)
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x
-[IPC] Failed to open event %s because access was denied
-[IPC] Failed to open file mapping %s because access was denied
-[IPC] Failed to open mutex %s because access was denied
-[IPC] Forced create of Win32 mutex %s but it already existed
-[IPC] Forced create of Win32Event %s but it already existed
-[IPC] Forced create of Win32Event but it already existed
-[IPC] Forced create of Win32Mutex but it already existed
-[IPC] Forced create of file mapping %s but it already existed
-[IPC] GetTokenInformation failed. GetLastError returned: %d
-[IPC] InitializeAcl failed. GetLastError returned: %d
-[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d
-[IPC] OpenProcessToken failed. GetLastError returned: %d
-[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d
-[IPC] SharedMem access invalid: %x
-[IPC] The owner SID is invalid.
-[K]taM?
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
+[IPC] ConvertStringSidToSidA failed for test app %d\n
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
+[IPC] Existing file mapping for %s was found\n
+[IPC] Failed creating auto reset event %s (GLE: %u)\n
+[IPC] Failed creating file mapping %s: %u\n
+[IPC] Failed creating mutex %s (GLE: %u)\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed to open event %s because access was denied\n
+[IPC] Failed to open file mapping %s because access was denied\n
+[IPC] Failed to open mutex %s because access was denied\n
+[IPC] Forced create of Win32 mutex %s but it already existed\n
+[IPC] Forced create of Win32Event %s but it already existed\n
+[IPC] Forced create of Win32Event but it already existed\n
+[IPC] Forced create of Win32Mutex but it already existed\n
+[IPC] Forced create of file mapping %s but it already existed\n
+[IPC] GetTokenInformation failed. GetLastError returned: %d\n
+[IPC] InitializeAcl failed. GetLastError returned: %d\n
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
+[IPC] OpenProcessToken failed. GetLastError returned: %d\n
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
+[IPC] SharedMem access invalid: %x\n
+[IPC] The owner SID is invalid.\n
+[h1R
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
+[libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
-\$ ATAVAWH
-\$ E3
-\$ H#
-\$ H+
-\$ H;
-\$ I;
-\$ I;]
-\$ UATAUAVAWH
-\$ UAVAWH
-\$ UH
-\$ UVAVH
-\$ UVWATAUAVAWH
-\$ UVWH
-\$ UWATH
-\$ UWAUAVAWH
-\$ UWAVH
-\$ UWAWH
-\$ VATAVH
-\$ VATAWH
-\$ VH
-\$ VWAVH
-\$ WH
-\$$8Y
-\$$9Y
-\$$9Y0u
-\$$H;
-\$$L;
-\$(H9V
-\$(H;
-\$(HcC
-\$0)p(H
-\$0E3
-\$0H9
-\$0H;
-\$0I+
-\$0fI
-\$0fff
-\$4A9_0
-\$88_
-\$8D;
-\$8H;
-\$8I#
-\$8I+
-\$8I9H@t
-\$8I9\$@tGH
-\$8I;
-\$@H;
-\$@L;
-\$HH+
-\$HH9Q
-\$HH;
-\$HHc
-\$HI;
-\$HfA
-\$PH;
-\$PI;
-\$PL9I(uA
-\$PfD
-\$XE3
-\$XH+
-\$XH;
-\$XHc
-\$XI;
-\$XL;
-\$XLc
-\$Xrv
-\$`E3
-\$`H+
-\$`H9Q
-\$`H;\$h
-\$`ff
-\$hH;
-\$hI;
-\$hM;
-\$pD;
-\$pD;},
-\$pH;
-\$pI;
-\$pI;\$xtIH
-\$pfD
-\$xH;
-\$xHk
-\$xI;
-\$xM;
-\$xMk
 \%03o
-\1??I
-\D$ A
-\O@K&
-\T$@IcD$ H
 \U%08x
-\\.\pipe\
-\\\\\\\\
-\d$`f
 \mfpmp.exe
-\u=H;
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n google/protobuf/descriptor.proto
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fdouble_value
+\n\fideal_period
+\n\fis_extension
+\n\fjava_package
+\n\fstring_value
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\ngo_package
+\n\ninput_type
+\n\nsync_width
+\n\rCOpticalFrame
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rdefault_value
+\n\rserial_number
+\n\tname_part
+\n\ttype_name
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\voneof_index
+\n\voutput_type
+\nbad png sig
+\r\n\tCODE_SIZE
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
+\rlighthouse.pb"(\n
+\rmj>zjZ
+\tEdid already edid_id %d and hdcp14legacycompat %d, no change needed\n
+\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \x%02x
-\|$`D
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
-] name = "
-] name = [
-]7H9_
-]9k0tVD
-]@H;]Ht@H
-]@L)]HA
-]J<0"0i3
-]g;]w}
-]g@8yhu
-]wfHc
-^9k0tWD
-^@H;^Ht
-^@I;^Ht
-^@I;^Ht&f
-^@I;^Ht*ff
-^HH9|$hu
-^`I;^h
 ^oEZ_
-_0IcG
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -5679,10 +3363,6 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
-_D9c0tWD
-_D9k0tWD
-_D9s0tWD
-_D9w0tWD
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -5690,7 +3370,6 @@ _Mtx_init
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
-_PI;_X
 _Query_perf_counter
 _Query_perf_frequency
 _RDATA
@@ -5727,7 +3406,6 @@ _errno
 _execute_onexit_table
 _fdtest
 _fseeki64
-_gUT^
 _get_stream_buffer_pointers
 _getpid
 _initialize_narrow_environment
@@ -5758,47 +3436,33 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-`	P!A
-` UAVAWH
-`.rdata
-`A^_]
-`A^_^
-`A_A]A\_^][
-`A_A^A\_^][
-`A_A^A]A\_^[
-`A_A^A]A\_^]
-`A_A^[
-`A_A^_^]
-`A__^
-`_^]H
-``````````````````````````````````````````````````````````````````````````````````````````````````
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
-`input` field is missing in animation.sampler
+`input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target
+`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
-`output` field is missing in animation.sampler
-`path` field is missing in animation.channels.target
-`sampler` field is missing in animation channels
+`output` field is missing in animation.sampler\n
+`path` field is missing in animation.channels.target\n
+`sampler` field is missing in animation channels\n
 `samplers' does not contain an JSON object.
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-a7hIw
-aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
-abgrt
+aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 abort
 acc_bias
 acc_scale
 accel
 accessor[
 accessors
+acos
 acosf
+adcr
 add a secondary base
 add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
@@ -5807,7 +3471,6 @@ adjust_panel_cant
 adjust_panel_cant %f %f
 adjust_panel_pitch
 adjust_panel_pitch %f %f
-af}{f
 aggregate_value
 aitcamlib.dll
 allowComments
@@ -5815,9 +3478,10 @@ allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
-allow_alias
 alphaCutoff
 alphaMode
+alse
+amps
 analogGain
 angle
 animations
@@ -5833,13 +3497,18 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
+aref
 array
 as new origin
+asin
 aspectRatio
 assert json failed
 asset
+atan
 atan2
 atan2f
+atof
+atoi
 attached_device_id
 attributes
 audio
@@ -5849,8 +3518,10 @@ audio_playback_device_vid
 audio_recording_device_name
 audio_recording_device_pid
 audio_recording_device_vid
+auto
 average_period
 avrt.dll
+axis
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
@@ -5894,21 +3565,21 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
-bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
 bad zlib header
-base %08X u%d r%d (i%d)
+base
+base %08X u%d r%d (i%d)\n
 baseCalibration
 baseColorFactor
 baseColorTexture
 baseName
-base_config
 base_config_json
 base_serial_number
 base_stations
 basestation_mode
+best
 bg_bg
 bigscreenbeyond
 bin\win64\vrprismhost.exe
@@ -5927,6 +3598,7 @@ bonemask_ring.txt
 bonemask_squeeze.txt
 bonemask_thumb.txt
 bonemask_thumb_and_wrist.txt
+bool
 brazilian
 buffer
 buffer error
@@ -5934,13 +3606,10 @@ bufferView
 bufferViews
 buffers
 bulgarian
-bxk.f
 byteLength
 byteOffset
 byteStride
 bytes
-c H9K
-c0D9cTt$D
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
@@ -5964,12 +3633,11 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
-cAMDt
-cMmO4
 cal_method
 calloc
 camera
@@ -5989,6 +3657,7 @@ children
 client
 clips
 clkoor
+clks
 close() failed: 
 closed
 closest
@@ -5996,6 +3665,7 @@ coeffs
 collectComments
 collisionBounds
 color
+com.google.protobufB
 compatible 
 componentType
 compositordebug
@@ -6014,37 +3684,8 @@ create
 cs_cz
 ctype
 czech
-d$ E3
-d$ IcA,H
-d$ UAVAWH
-d$$E3
-d$(E3
-d$(H;
-d$(Hi
-d$(M+
-d$(M;
-d$0E2
-d$8E3
-d$<Mc
-d$@H9k
-d$@fD
-d$HL;
-d$HMc
-d$PE9~X~QE3
-d$PM;A
-d$PfD
-d$XE3
-d$XH;
-d$`H=
-d$`L;
-d$`fD
-d$bHc
-d$hE3
-d$hH3
-d$hHcC,L
-d$pI;
-d$xL;
 d3d11.dll
+dQy/
 da_dk
 danish
 dashboard
@@ -6058,13 +3699,11 @@ data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
 dbhistory
+dcil
 de_de
 deactivateStandbyOverride
 default_mm
-default_value
 delayed
-dependency
-deprecated
 deque<T> too long
 device
 deviceClass
@@ -6100,32 +3739,31 @@ distortion_red
 dongles
 double
 doubleSided
-double_value
+doze
 driver
 driver_holographic
 driver_lighthouse
 driver_lighthouse message window
 driver_lighthouse.dll
-driver_lighthouse: Activate(%p %d)
-driver_lighthouse: Activate: Tracking started
-driver_lighthouse: Deactivate(%p  %d)
-driver_lighthouse: GetEyeOutputViewport(%u, %u, %u, %u)
-driver_lighthouse: GetRecommendedRenderTargetSize(%u, %u)
-driver_lighthouse: GetWindowBounds(%d, %d, %u, %u)
-driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()
-driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)
-driver_lighthouse: Tracking stopped
-driver_lighthouse: enumerating attached Lighthouse devices HMDs:
+driver_lighthouse: Activate(%p %d)\n
+driver_lighthouse: Activate: Tracking started\n
+driver_lighthouse: Deactivate(%p  %d)\n
+driver_lighthouse: GetEyeOutputViewport(%u, %u, %u, %u)\n
+driver_lighthouse: GetRecommendedRenderTargetSize(%u, %u)\n
+driver_lighthouse: GetWindowBounds(%d, %d, %u, %u)\n
+driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()\n
+driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)\n
+driver_lighthouse: Tracking stopped\n
+driver_lighthouse: enumerating attached Lighthouse devices HMDs:\n
 driver_null
 drivers
-drop %08X u%d (i%d)
+drop %08X u%d (i%d)\n
 dsc_bppx16
 dsc_slices
 dsc_version
 dualSpeakerAndJackOutput
 dual_extrinsics
 dutch
-dvNL9
 dxgi.dll
 dynamic_state
 dynamic_state_json
@@ -6140,11 +3778,8 @@ eEYE_R
 eEYE_RIGHT
 eMultimedia
 eNUM_EYES
-ePIcD$ 
 eRender
-e_H9U
 echo %127s
-effffff
 el_gr
 emissiveFactor
 emissiveTexture
@@ -6156,12 +3791,11 @@ enableMJPEGMode
 enableRawMode
 end of input
 english
-entiu
+enum
 error
 es-8R
 es_es
 es_mx
-ev3Ff
 ewh/?y
 exception thrown in JSON library
 expected marker
@@ -6170,7 +3804,8 @@ expected_bases
 expected_controllers
 expecting another \u token to begin the second half of a unicode surrogate pair
 experimental_map_key
-extend .$0 {
+expf
+extend .$0 {\n
 extendee
 extension_range
 extensions
@@ -6183,20 +3818,7 @@ eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 eye_tracking
-f(I;^
-f9+t4
-f98tZH
-f98t\H
-f9\$`u
-f;D$T
-f;t$V
-f;|$pt_H
-fB9<Bu
-fD9	u
-fD9&u
-fD9<Bu
-fD;3t
-fF9<Au
+fP~V
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -6256,19 +3878,21 @@ failIfExtra
 failed
 failed to send to device
 failed_to_start
+fake
 fakeHtcHmdMainboard
 false
 false literal
+fast
 faults
 fclose
-ffffff
-fffffff
+feof
 fflush
 fgetc
 fgetpos
 fi_fi
 field
 fields
+file
 file error
 file is empty or does not exist
 filename
@@ -6286,10 +3910,12 @@ flWaitTime < 1.0
 flags
 flags2
 float
+fmod
 focal_x
 focal_y
 fopen
 fopen_s
+for 
 forceSoloEdid
 force_old_controller_radio
 forcedExposureTime
@@ -6301,59 +3927,50 @@ fputs
 fr_fr
 framer
 fread
+free
 french
 from base 
 fseek
 fsetpos
 ftell
+fu`z
 fwrite
-g9k0t_D
 gc/250_v0.gc
 generator
 generic_controller
 generic_hmd
 generic_tracker
 german
-getDeviceProperty returned empty
-getDeviceProperty returned wrong type %d
+getDeviceProperty returned empty\n
+getDeviceProperty returned wrong type %d\n
 get_eye_to_head
 get_radio_mode
 getenv
-gfffA
-gfffD+
-gfffM
-gfffffff
-gfffffffE
-gfffffffH
-gfffffffH+
-gfffffffH+L$8H
-gfffffffH+Q@H
-gfffffffI
-gfffffffI+
-gfffffffL
-gfffffffL+
-gfffffffM
-go_package
+google.protobuf"G\n
+google.protobuf.Empty
+google.protobuf.EnumOptions
+google.protobuf.EnumValueOptions
+google.protobuf.FieldOptions
+google.protobuf.FileOptions
+google.protobuf.MessageOptions
+google.protobuf.MethodOptions
+google.protobuf.ServiceOptions
+google.protobuf.StreamOptions
+google/protobuf/descriptor.proto
+gqr<
 gravity_vector
 greek
 group
 grow_for_undistort
+gyro
 gyro_bias
-h AVH
-h UAVAWH
-h VAVAWH
-hA\^][
-hA^A\_^[]
-hA^A]^[
-hA_A^_^][
-hA__][
-hA__^[H
-h_^][
+hPU3
 hand_right_closeanim.glb
 hand_right_poses.glb
 handlers
 hardware_revision
 hdcp14legacyCompatibility
+head
 head_from_camera
 header crc mismatch
 height
@@ -6383,19 +4000,13 @@ high_mm
 hits: 
 htc/vive_controller
 htc/vive_tracker
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
 hu_hu
 hungarian
-i H9i0u
+i91k
+i]Wb
 iauds
-ideal_period
 identifier_value
-ig@-?e
 illegal code in raster
 image
 image.pSwapchain->m_images[ image.nImageIndex ].GetState() == CImage::State_t::PrismLocked || m_pClient->m_pendingRelease.find( { image.pSwapchain, image.nImageIndex } ) != m_pClient->m_pendingRelease.end()
@@ -6407,7 +4018,6 @@ image[
 images
 immediate
 import
-imu_sample
 in Json::Value::asCString(): requires stringValue
 in Json::Value::clear(): requires complex value
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -6439,7 +4049,6 @@ innerConeAngle
 input
 input_components
 input_profile
-input_type
 insufficient memory
 int32
 int64
@@ -6517,27 +4126,22 @@ inverseBindMatrices
 inverse_distortion
 ipdOffset
 isPairing
-is_extension
 isalnum
 isalpha
 isdigit
+isps
 isspace
 it_it
 italian
-ix`fA
 ja_jp
 japanese
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
 java_outer_classname
-java_package
 java_string_check_utf8
-jj@0HK4
 joints
-k0i0$
 k?KPm?
-kcizf
 keyboard
 keylength >= 2^30
 known_objects
@@ -6546,82 +4150,20 @@ knuckles
 knuckles_ev1
 ko_kr
 koreana
-l!;b	F
-l$ 8Y 
-l$ ATAVAWH
-l$ AVH
-l$ E3
-l$ H;
-l$ H=
-l$ HcF,H
-l$ L+
-l$ L;
-l$ UAVAWH
-l$ VATAUAVAWH
-l$ VATAWH
-l$ VAVAWH
-l$ VH
-l$ VWATAUAVH
-l$ VWATH
-l$ VWAVH
-l$ VWAWH
-l$ WATAUH
-l$ WATAWH
-l$ WAVAWH
-l$ WAVHc|$8I
-l$ WH
-l$(H;
-l$(L+
-l$0A^_
-l$0E3
-l$0H+
-l$0H;
-l$0Hc
-l$0I;
-l$0Ic] 
-l$4D9e
-l$4D;l$@u=
-l$4H;
-l$8E3
-l$8Hc
-l$8M;
-l$@(I
-l$@H;
-l$@t[
-l$@t^
-l$Hu$
-l$PH;
-l$PI;
-l$PM9n
-l$PfA
-l$TD;
-l$XH9
-l$XH;
-l$XI+
-l$XL+
-l$`H;
-l$`Hc
-l$h9s8~F
-l$h9{X~&L
-l$pH;
-l$pL;l$P
-l$pM+
-l$xHc
-l$xLc
-l$xLi
-l$xM+
-l$xM;
-l2|X/gGe
 l6qnk
 l?Nb0?
-lEyeFile:%s width:%d height:%d components:%d
+lDa>
+lEyeFile:%s width:%d height:%d components:%d\n
 label
 lastChaperoneCommit
 last_eye
 last_id
 latam
+lazy
 ldexp
+ldiv
 leading_comments
+left
 left eye
 left_hand
 left_sync_is_real
@@ -6634,13 +4176,12 @@ lh_basestation_vive
 lhjsonfx
 lhs->m_pTimeline == rhs->m_pTimeline
 lighthouse
-lighthouse.pb"(
 lighthouse:
 lighthouse_config
 lighthouse_db_json
 lighthouse_debug.proto
 lighthouse_pairing
-lighthousedb write error: baseStation is not an array type, but is %d
+lighthousedb write error: baseStation is not an array type, but is %d\n
 lighthousedb.json
 lighthousedriver:
 lights
@@ -6648,8 +4189,6 @@ list<T> too long
 localeconv
 location
 low_mm
-m0_$@
-m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_data.details.hImportHandle.Valid()
@@ -6697,17 +4236,16 @@ memcmp
 memcpy
 memmove
 memset
+mesh
 meshes
 message
 message_id
 message_set_wire_format
-message_type
 metallicFactor
 metallicRoughnessTexture
 method
 mfg_build_info
 mfplat.dll
-mgI;](
 mimeType
 minFilter
 minVersion
@@ -6715,17 +4253,18 @@ minimum_ipd_step
 minstep_mm
 missing color table
 missing values from "device" section
-mj>zjZ
+mode
 modelCad
 modelId
 modelNormals
 modelPoints
 model_number
 modelskins
+modf
+mtpb
 multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
-n0_D@
 nArrayIndex < m_details.nArrayLayerCount
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -6733,10 +4272,10 @@ nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
 nSplineCtrlPts
+name
 nb_no
 need dictionary
 negative_int_value
-nested_type
 nfinity
 nl_nl
 no IDAT
@@ -6749,9 +4288,11 @@ no optical samples
 no preset dict
 no_standard_descriptor_accessor
 noclk
+node
 nodes
 non-finite elements of state vector: 
 nonce
+none
 normalTexture
 normalized
 norwegian
@@ -6764,8 +4305,9 @@ not present
 not running
 not wireless endpoint
 notifications
+ns3G
 ntdll.dll
-ntelD
+null
 null literal
 num_windows
 number
@@ -6773,35 +4315,28 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o@@fD
-oD$ fD
-oD$0H
-oD$0f
-oD$0fD
-oL$ f
-oT$0f
 object
 object key
 object separator
 occlusionTexture
+ocds
+off!
 offset
 ole32.dll
-oneof_decl
-oneof_index
 onesided
 only 8-bit
-ootx %08X u%d r%d (i%d)
+ootx
+ootx %08X u%d r%d (i%d)\n
 ootxVersion
+open
 openvr
 openvrpaths.vrpath
 opt_out
-optical_frame
 optical_sample
-optimize_for
 optional
 options
 orthographic
-ot$Pf
+otds
 otg_device
 out_of_range
 outerConeAngle
@@ -6810,75 +4345,54 @@ outofmem
 output
 output buffer limit
 output_path
-output_type
-p AVH
-p UAVAWH
-p WATAVH
-p$D+;
-pA]A\^
-pA^A]A\
-pA^^]
-pA^_^
-pA^_^[]H
-pA^_^][
-pA_A^A\_^[]
-pA_A^A]A\[
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-pA_A^_
-pA_A^_^[
 pBuffer != nullptr
 pClient
 pCmdBuf
 pCmdBuf != nullptr
 pDevice
-pH0Df
 pImage != nullptr
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
-pP DfD
-pP@Df
-pP`DfD
 pResource
 pSourceBuffer
 pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
 pSwapchain != nullptr
-pT$0Df
-pT$PD
-pT$pDfD
 pTextureSet->pSwapchain
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+p\r`\f0\vPhO
 package
 packed
 pairing_result
-panel_burn_time_s: %d %d
-panel_on_time_deprecated_s: %d %d
-panel_on_time_s: %d %d
+panel_burn_time_s: %d %d\n
+panel_on_time_deprecated_s: %d %d\n
+panel_on_time_s: %d %d\n
 parallel_render_cameras
-parameter must be a string or number / number array.
+parameter must be a string or number / number array.\n
 params
 parse
 parse error
 parse_error
+path
 pbrMetallicRoughness
-pd$ D
-pd$@D
-pd$`D
 perfcheck
 perspective
 pitch
 pl_pl
+play
+plss
 plus_x
 plus_z
 polish
 portuguese
+pose
 position out of bounds 
 positive_int_value
 power
 powerOffOnExit
+powf
 preferred
 preferredRefreshRate
 prescale
@@ -6901,18 +4415,9 @@ pt_br
 pt_pt
 public_dependency
 py_generic_services
-qMFCreateMediaType failed hr = 0x%08x
-r	D;@(}
-r+w.I
-r,fff
-r/w0H
+qMFCreateMediaType failed hr = 0x%08x\n
 r2max
-r2w	A
-r6w%H
-r?'1(?
-rEyeFile:%s width:%d height:%d components:%d
-rND9{0t
-rZw%H
+rEyeFile:%s width:%d height:%d components:%d\n
 range
 read past buffer
 realloc
@@ -6920,7 +4425,7 @@ record
 recorded
 recorder
 recorder + 
-recording
+recording\n
 registered: 
 registered_device_type_prefix
 rejectDupKeys
@@ -6936,6 +4441,8 @@ request_handlers
 request_handlers_response
 required
 required_peer_driver
+res0
+res1
 reset_count
 resource_root
 result
@@ -6947,30 +4454,23 @@ right eye
 right_hand
 right_sync_is_real_as_it_gets
 right_sync_time
-rnw(I
 ro_ro
+roll
 romanian
 rootserial
 rotating at 
 rotation
 roughnessFactor
 roundf
+ru&o
 ru_ru
 runtime
 russian
-r|fff
-s AVH
-s H9S
-s UAVAWI
-s fff
-s0H;s t!H
-s@fff
-sFL9c
+s?Ks
 sample_angle_estimate
 sampler
 samplers
 samples
-sbetu=
 sc_schinese
 scalar
 scale
@@ -6984,7 +4484,6 @@ seconds_from_vsync_to_photons
 sendStatusUpdates
 serial
 serialNumber
-serial_number
 server
 service
 session_id_field_name
@@ -7008,23 +4507,29 @@ sfixed32
 sfixed64
 short_alloc: spilling into system allocator
 short_bad
+sinf
 sint32
 sint64
 skeleton
 skeletons
+skin
 skins
 slow-edid
 sobChannel
 source
 source_code_info
+span
 spanish
 sparse
 special_value_zero
+spks
+spot
 stackLimit
 start
 start tracking from base
 start_pairing
 startup
+stby
 steamvr
 stmute
 stmuteb
@@ -7045,7 +4550,6 @@ strictRoot
 string
 string literal
 string too long
-string_value
 strings::Substitute format string invalid: asked for "$
 strncat
 strncmp
@@ -7066,203 +4570,28 @@ succeeded
 success
 supported
 sv_se
-svuyt
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
-sync_width
 synconbeam
 syntax error 
 systime
-t	9P A
-t LcC
-t!HcO4E
-t#@8(t
-t#HcO4D
-t#fff
-t$ 8Y
-t$ 9q ~
-t$ 9q ~5L
-t$ @2
-t$ AVH
-t$ AWH
-t$ E3
-t$ H+
-t$ H9Q
-t$ H;
-t$ HcH
-t$ I;
-t$ L+
-t$ L;
-t$ M;
-t$ UAVAWH
-t$ UH
-t$ UWATAUAVH
-t$ UWATAUAWH
-t$ UWATAVAWH
-t$ UWAUAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WATAUAVL
-t$ WATAWH
-t$ WAV
-t$ WAVAWH
-t$ WH
-t$ fI
-t$ uOH
-t$$@8qxuPA
-t$$H;
-t$(A^
-t$(E3
-t$(H+
-t$(H;
-t$(Hi
-t$(L+
-t$(L;
-t$(fD
-t$,H+>H
-t$09kh~FH
-t$09s ~/L
-t$09s(~OH
-t$09s8~f
-t$09{(~/L
-t$09{,~-H
-t$09{0~%L
-t$0A^_
-t$0E3
-t$0H+
-t$0H9Q
-t$0H;
-t$0Hc
-t$0I9H@t
-t$0M;
-t$0fff
-t$4H;
-t$8E3
-t$8H+
-t$8H;
-t$8HcA
-t$8I+
-t$8I;
-t$8L9t$@tg
-t$8L;kht`L;kptZL
-t$@9kX~FH
-t$@A^A]A\_
-t$@E3
-t$@H+
-t$@H;
-t$@H=
-t$@I;
-t$@L;
-t$@LcGh
-t$@r_A
-t$@tK
-t$@tuH
-t$@u/H
-t$DA+
-t$H99t	H
-t$HH+
-t$HHi
-t$HI;
-t$HcO4D
-t$Hff
-t$HuJH
-t$P;k
-t$PA;
-t$PE3
-t$PH;
-t$PH=
-t$PHc
-t$PI;
-t$PM+
-t$PM;
-t$Tu0H
-t$XE3
-t$XtQH
-t$`8Y
-t$`D;
-t$`E3
-t$`H;
-t$`I+
-t$`I;
-t$`L;
-t$`Li
-t$`Lk
-t$`M+
-t$`M9f
-t$h9k0
-t$hD;
-t$hE3
-t$hH9W
-t$hHc
-t$hI;
-t$hI;}
-t$hL;
-t$pH+
-t$pH;
-t$pI;
-t$pfA
-t$pfD
-t$xE2
-t$xH+
-t%HcO4D
-t%HcO4L
-t&HcO4D
-t'8Ypt
-t(HcW,H
-t(LcK,C
-t)HcO4
-t,HcI
-t,HcKT
-t,M9x
-t,fff
-t/HcK
-t0fff
-t1Hcl$@
-t4L9{
-t9fff
-t:fff
-t<Lc@xE
-t>H9n
-t>y#I
-t?fff
-t?y$I
-t?y&I
-tAy&H
-tFA;Q r@w
-tKfA9
-tPD8B
-tPL9-
-tPfA9i
-tQH95W
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tTL9-
-tTL9-(
-tUA91uPH
-tXH+A
-tXfff
-t[D8p
-t[H+A
 table
 target
 target_pose
 target_serial_number
 targets
-tb9l$Xt@9n$~;
 tchinese
-tdLc\$HIc
 tdh.dll
-tdm sync acquired
-tdm sync lost
+tdm sync acquired\n
+tdm sync lost\n
 tdmerr
 tdmstat0
 tdmstat1
 tdmstat2
 tdmulter
-teH9EXtPA
-teL9L$ptGI
-ter!u53
 terminate
 testhtclcm %d
 teststandby
@@ -7271,11 +4600,13 @@ text format contains deprecated field "
 text/plain
 textures
 th_th
+thai
 the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
-ti<	u#
+tilt
 tilt_to_pose_method
+time
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
@@ -7283,15 +4614,11 @@ timeSetEvent
 time_last_seen
 timeout
 timeoutSeconds
-tnLc6H
 tolower
 too large
 too many codes
 too many length or distance symbols
 toupper
-tpH9.t	H
-tqfff
-trH9}
 tr_tr
 trackedCamera
 tracked_camera
@@ -7309,52 +4636,16 @@ trackref_from_imu
 trailing_comments
 translation
 treadmill
+true
 true literal
-ttfD;W@smE
 turkish
-tvfff
 twos_complement
-tx<	u#
-t|C9D
-t|SUVH
-t}H9=F
-t~L9=
-t~L9=(Y'
-t~L9=`Z'
-u	A;p(s
-u	A;y(s
-u	D;X
-u#9}(w	A
-u#D9A
-u(HcI(H
-u(K9<
-u)IcA,D
-u.fA9q
-u09}(u
-u0f;M
-u18E4t
-u2H9P s
-u6fff
-u9fff
-u;H9{(L
-u<L9-K
-u=L;Mhu7IcG
-u>f9X u8f9X0u2f9X@u,f9XPu&
-u>f9X"u8f9X2u2f9XBu,f9XRu&
-uAfff
-uDf9X
-uJf9X
+type
 uKb!?6mH
-uRf;>tM
-uSL9-
-uSfff
-uZEeu
-ubHcC0I
 uint32
 uint64
 uk_ua
 ukrainian
-umM;~
 undist_height
 undist_width
 undistort_r2_cutoff
@@ -7362,6 +4653,7 @@ unexpected
 ungetc
 uninterpreted_option
 unique_base_id
+unit
 unknown
 unknown BMP
 unknown code
@@ -7375,7 +4667,6 @@ unlikely gravity
 unsupported bit depth
 unsupported data layout
 unsupported format
-upHcH
 updated lenscal
 updated subpixel_shift(s)
 usbPID
@@ -7384,29 +4675,23 @@ usePrism
 usedisambiguation
 userdata
 userinterface
-u{L9=
-v(M;l
-v9fff
-v=Y]Bv
-v@L;D$P
-vE;E`M
-vHcD$LH
-vOL9-
+utah
+uvds
+uvlo
 vQO+t
 value
 values
 valve/index_controller
 valve_controller_knu_1_0
 variance
-vb'vb'v
 vboost_ok
+vdds
 vector<T> too long
 vector<bool> too long
 velocity %0.2fm/s 
 version
-version %s
+version %s\n
 version.txt
-vfA'I
 vi_vn
 via transform to global
 vibration
@@ -8063,21 +5348,22 @@ vref_ok
 vrprismhost_startup
 vrprismhost_startup timed out after %u ms before being set by the new vrprismhost process
 vrwebhelper
-vuf?H
 vulkan-1.dll
-v}L9-p
-w(M9w0tH
 w+OQvr
-wUD;C$}OH
+w3Xc
+wXR\r
+wake
 wcsncmp
 wcsrchr
 wcsstr
+weak
 weak_dependency
 weights
 while parsing 
 white_balance
 width
 winrtdisplay.dll
+wipe
 wireless_dongle_serial_number
 wn>Jj
 world_from_global
@@ -8089,46 +5375,24 @@ wrong channel count
 wrong color format
 wrong submessage type
 wrong version
-www.digicert.com1!0
-www.digicert.com1$0"
-w{L9=
-x ATAVAWH
-x AVH
-x UATAUAVAWH
-x UAVAWH
-x2A;O0},I
-xA\_][
-xA^A\_^][
-xA_A]_]
-xA_A^_^][
-x_^][
+xmag
+y9*O
 y@tTyY1
-yxxxxxxx
-yxxxxxxxE
-yxxxxxxxH
-yxxxxxxxH+
-yxxxxxxxI
-yxxxxxxxL;
-yxxxxxxxf
-yxxxxxxxu!H
-z+u)H
-z/u-H
-z2u0H
-z4u2H
+yfov
+ymag
 z?X9T?
 zd?/n
+zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
-zuusA
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
-{ AVH
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
-{%s}%s
-{,	u#
-{8@8l$8t1
+{\n   "tracked_cameras" : [\n      {\n         "name" : "left",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],\n            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ 0.06749, -0.03294, 0.06881 ]\n         }\n      },\n      {\n         "name" : "right",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],\n            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ -0.06749, -0.03294, 0.06881 ]\n         }\n      }\n   ]\n}
+{\n\t\t"useBackgroundProcessingForFullDepthEstimation": true,\n\t\t"initialDepthAlgo": "StereoSGBM",\n\t\t"sparseDepthCleaningAlgo": "None",\n\t\t"useRawDepthHistory" : true,\n\t\t"fillRightDepthFrame" : true,\n\t\t"sgbm":\n\t\t{\n\t\t\t"SADWindowSize": 9,\n\t\t\t"preFilterCap": 63,\n\t\t\t"disp12MaxDiff": 0, // left <> right check disabled\n\t\t\t"P1": 0,\n\t\t\t"P2": 0,\n\t\t\t"speckleRange": 1,\n\t\t\t"speckleWindowSize": 200,\n\t\t\t"uniquenessRatio": 20,\n\t\t},\n\t\t"postprocesssingFilter":"HardwareFriendlyBilateral",\n\t\t"hardwareFriendlyBilateralSolver": {\n\t\t\t"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",\n\t\t\t"preventInitialValuesToChangeDuringOptimization": true,\n\t\t\t"closeDepthStrategy": "SmartDilatationOfClosDepth",\n\t\t\t"keepInputDepthValues": true, \n\t\t},\n\t\t"controllerRenderingType":"GPU",\n\t\t"addDilatedController": "onTopOfWarpedFrame",\n\t\t"postProcessingStrategy":"None",\n\t}
+{\n\t\t"useBackgroundProcessingForFullDepthEstimation": true,\n\t\t"initialDepthAlgo": "StereoSGBM",\n\t\t"sparseDepthCleaningAlgo": "None",\n\t\t"useRawDepthHistory" : true,\n\t\t"useMaskOnTheBorders" : true,\n\t\t"sgbm":\n\t\t{\n\t\t\t"SADWindowSize": 9,\n\t\t\t"preFilterCap": 63,\n\t\t\t"disp12MaxDiff": 0, // left <> right check disabled\n\t\t\t"P1": 0,\n\t\t\t"P2": 0,\n\t\t\t"speckleRange": 1,\n\t\t\t"speckleWindowSize": 200,\n\t\t\t"uniquenessRatio": 20,\n\t\t},\n\t\t"postprocesssingFilter":"HardwareFriendlyBilateral",\n\t\t"hardwareFriendlyBilateralSolver": {\n\t\t\t"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",\n\t\t\t"preventInitialValuesToChangeDuringOptimization": true,\n\t\t\t"closeDepthStrategy": "SmartDilatationOfClosDepth",\n\t\t\t"keepInputDepthValues": true, \n\t\t},\n\t\t"controllerRenderingType":"GPU",\n\t\t"addDilatedController": "onTopOfWarpedFrame",\n\t\t"postProcessingStrategy":"None",\n\t}
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json
@@ -8146,152 +5410,10 @@ zuusA
 {indexhmd}/additional.vrsettings
 {indexhmd}/index_hmd_overrides.bin
 {indexhmd}/input/indexhmd_profile.json
+{kHw
 {knuckles}
 {knuckles}valve_controller_knu_ev1_3_left
 {knuckles}valve_controller_knu_ev1_3_right
 {knuckles}valve_controller_knu_ev2_0_left
 {knuckles}valve_controller_knu_ev2_0_right
-{un'%
-|$ 9kh~
-|$ 9y ~=H
-|$ @8y
-|$ ATAUAVAW
-|$ ATAUAVAWH
-|$ ATAVAW
-|$ ATAVAWH
-|$ ATH
-|$ AUAVAWH
-|$ AVE
-|$ AVH
-|$ AVL
-|$ E+
-|$ E3
-|$ H+
-|$ H;
-|$ I;
-|$ M;
-|$ UATAUAVAWH
-|$ UATAWH
-|$ UAVAWH
-|$ UH
-|$ r}H
-|$ t 
-|$ t@
-|$$9y0tAA
-|$$H;
-|$(@8:t
-|$(A^
-|$(E3
-|$(H;
-|$(I9V
-|$(L+
-|$(M;
-|$0E3
-|$0H+
-|$0H9
-|$0H;
-|$0HcC0
-|$0HcH
-|$0Hk
-|$0I;
-|$0L9n0u-H
-|$0Mc
-|$0t@I
-|$0u,A
-|$0uS
-|$89q ~ 
-|$8A;_0
-|$8A_A^A\
-|$8E3
-|$8H+
-|$8H9S
-|$8H;
-|$8H;t$p
-|$8L9|$`t 
-|$8tCH
-|$<I;
-|$@A_A^A]A\
-|$@D;
-|$@E2
-|$@E3
-|$@E;
-|$@H+
-|$@H99t
-|$@H;
-|$@Hc
-|$@I;
-|$@M+
-|$@M;
-|$HE3
-|$HH9
-|$HH9q
-|$HH9y
-|$HH;
-|$HH=
-|$HHc
-|$HI+
-|$HM;
-|$Hff
-|$PE3
-|$PH+
-|$PH;
-|$PI;~X
-|$PL9~
-|$PLc
-|$PM+
-|$Pt+H
-|$XD9c
-|$XH;
-|$XI;
-|$XL9w@
-|$`H+
-|$`H9Q
-|$`H;
-|$`L+
-|$`M+
-|$hH;
-|$hI9}
-|$pD9y8
-|$pH+
-|$pH9Q
-|$pH;
-|$pH;\$@
-|$pHk
-|$pI9}
-|$pI;
-|$p\u
-|$x@2
-|$xE3
-|$xH+
-|$xH9s
-|$xHc
-|$xHcF4
-|$xIi
-|$xIk
-|@E;F
-|D;k(|?uyH
-|Lu?c
-|Wu	A
-|fu0f
-|s;K(tnA
-}(Hcv4I
-}(M98t
 }/lighthouse_scale.json
-}5fff
-}7fff
-}8HcF,H
-}</uyH
-}LuHO
-}M?/n
-}Ufff
-}`H+}XH
-}o;Dr_
-~'HcB
-~+fff
-~-HcK,H+
-~3LcD$(L
-~6HcD$ I
-~:fD9
-~XH9~`t+H
-~qj#k"
-~t&LN

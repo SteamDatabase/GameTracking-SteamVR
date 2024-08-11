@@ -1,260 +1,704 @@
-
-!
-!'
+                                
+  AWwbr
+  OHhoj
+ !"#$%&'()*+,-./01234
+ !"#%'()*+.01234569;<=8>?@ABCDEFGHIJLMPQSVTUXYZ[\]_`bdefghiklnpqrtuwx{|}~
+ %04x
+ %08x
+ ABAach
+ ABYyso
+ AEZzne
+ AGNngl
+ AGSsgs
+ AHCcho
+ AHKkjp
+ AHTti
+ AHZzea
+ AIRril
+ AIRrki
+ ALSsd
+ AMHms
+ AMLmi
+ ANIibb
+ ANSsel
+ ANSsnk
+ ANTto
+ ARAarb
+ ARAarn
+ ARFfrc
+ ATIiu
+ ATNnoe
+ AUGgno
+ AUKkjh
+ AURrwr
+ AUTts
+ AVSsw
+ AWAay
+ AWSaio
+ BAKkam
+ BAKkde
+ BATtcy
+ BBIid
+ BDNndc
+ BDNnsk
+ BECcgg
+ BISnd
+ BITbpy
+ BJOojs
+ BMBbn
+ BMKkar
+ BMLlij
+ BMUunr
+ BNPprs
+ BRSsrr
+ BSCctg
+ BSLdv
+ BSUht
+ BULlua
+ BULluo
+ BZAazj
+ BZUuzn
+ BZUuzs
+ BZUve
+ CAKkfy
+ CBBbci
+ CCPpcd
+ CDNnds
+ CDPpes
+ CEVvls
+ CGBbgq
+ CRFfrp
+ CRL
+ CRLbr
+ CRLlt
+ CRLlv
+ CUGguk
+ CUQquz
+ DABbft
+ DAGgag
+ DALlmn
+ DAMmag
+ DASsc
+ DBXkht
+ DCPpce
+ DDTte
+ DISsjd
+ DKMmku
+ DLNnn
+ DNHhne
+ DNHho
+ DNIie
+ DNMmns
+ DNSse
+ DNZzu
+ DOTyao
+ DRSscn
+ DRUuz
+ DUJlb
+ EAGgez
+ EDKkdr
+ EDMmer
+ EFMmg
+ EHCceb
+ ELFvi
+ ELIig
+ ELMmdf
+ ELMmen
+ EONnog
+ ERBbra
+ ERCcrh
+ EVSsva
+ EWEefi
+ EYHhz
+ EZAazb
+ EZAba
+ FKBble
+ FLWxal
+ GABbg
+ GAGgbm
+ GAMmai
+ GANnah
+ GAPpam
+ GAWwle
+ GDNnga
+ GGCch
+ GHCshn
+ GISsu
+ GISwry
+ GISxwo
+ GLMmh
+ GLPpdc
+ GLPplp
+ GLPrej
+ GNAar
+ GNDady
+ GNEeo
+ GNIio
+ GNMmnc
+ GOGgon
+ GONnov
+ GOSgu
+ GOXxom
+ GRAang
+ GSTtt
+ GTCcts
+ GTPpwo
+ GUBbxr
+ GULli
+ GYUuk
+ HAMmhr
+ HANnap
+ HCAada
+ HCBbe
+ HCMmni
+ HHChno
+ HHZzh-mo
+ HIPpl
+ HMAamf
+ HNSsid
+ HOMmos
+ HRBbrx
+ HSBbai
+ HSKksh
+ HSKksw
+ HTAatv
+ HTLlu
+ HTMmak
+ HULluz
+ IAHhu
+ IBEijc
+ ICOoj
+ IFEekk
+ IHBbhk
+ IHCnym
+ IIJyo
+ IJFfo
+ IKLlld
+ ILBban
+ INMmnk
+ IPTtr
+ IQSsr
+ IRAak
+ IRBbrh
+ IRDps
+ IRFga
+ IRHhaw
+ IRIgaa
+ IRKkrl
+ IRMmin
+ IROos
+ ISKkhb
+ ITBbto
+ ITBes
+ ITEel
+ ITEeu
+ IUKkw
+ IUKky
+ IVLlzz
+ IWTalt
+ IWTty
+ JAMmr
+ JARrbb
+ JATth
+ JERria
+ JILlis
+ JJBbjt
+ JUGguc
+ KALlbj
+ KAMvo
+ KAYsas
+ KBAabq
+ KBCce
+ KDLlez
+ KFAaii
+ KHCcop
+ KHPpi
+ KIBbcq
+ KIBbho
+ KIBbin
+ KIBbm
+ KIBbts
+ KIBcu
+ KIKkj
+ KLBbln
+ KLGgn
+ KLPpll
+ KNDdiq
+ KNMen
+ KNMmdc
+ KNMmkw
+ KNMmn
+ KNMmt
+ KNMmwl
+ KNMmyv
+ KNSso
+ KOKko
+ KOKkpe
+ KOMmdr
+ KPIilo
+ KRArm
+ KRKkab
+ KRSsl
+ KRTtru
+ KUSsuq
+ KVEfa
+ KWSswb
+ KWSswv
+ KYKkqy
+ LAGgld
+ LAKkm
+ LAPpih
+ LEBbem
+ LESsg
+ LETtem
+ LEWda
+ LGTtmh
+ LIBca
+ LIGnl
+ LIHhnd
+ LIPfj
+ LKNoc
+ LLEemk
+ LMBbal
+ LMSsop
+ LOMmoh
+ LOVvro
+ LPKkpv
+ LRFfuv
+ LRKkru
+ LSCcv
+ LSIit
+ LSSxst
+ LUFfi
+ LUJdz
+ LUTtdd
+ LUZzum
+ LWMmwr
+ LYSsyr
+ LZSta
+ MAJjbo
+ MALlmo
+ MAPpap
+ MATtab
+ MDUug
+ MEBber
+ MHKkmb
+ MILlif
+ MKTtl
+ MLKxh
+ MOKkvd
+ MORrom
+ MRBmym
+ MRKkdt
+ MSAast
+ MSIsms
+ MSKsk
+ MSLsmn
+ MSNseh
+ MSSsmj
+ MTWwo
+ MUKkv
+ MUTtw
+ MYAaz
+ MYNnyn
+ MZTudm
+ NABbar
+ NADdap
+ NAJjam
+ NAKknn
+ NAMmnw
+ NANglk
+ NAPpag
+ NASsah
+ NBHan
+ NBMkmw
+ NCSsco
+ NEBbo
+ NEMmyq
+ NEVvec
+ NGTtpi
+ NHKkhw
+ NHSsi
+ NIFfil
+ NIHhil
+ NILlo
+ NIMmk
+ NKKkfr
+ NLBbla
+ NLBblk
+ NLWwar
+ NMKkg
+ NMTtet
+ NOFfr
+ NOGgl
+ NOGgog
+ NOGgrt
+ NOKkha
+ NOMmo
+ NRGkln
+ NRKkbd
+ NUDdoi
+ NUHhy
+ NUMur
+ NURro
+ NUSsuk
+ NVEevn
+ NYNno
+ NZDee
+ NZMna
+ OALlrc
+ OAYyi
+ OBIigb
+ OBJjv
+ OCSscs
+ ODEbjj
+ ODIis
+ OGDdhd
+ OGSsga
+ OHBbi
+ OHCchp
+ OIAaiw
+ OJIijo
+ OJIik
+ OKNnr
+ OLIinh
+ OMHhoc
+ OMKkn
+ OMKxsl
+ OMLln
+ OMSsma
+ ORGgru
+ OROor
+ ORVwa
+ OTNeot
+ OULlus
+ OWPqu
+ PAMary
+ PANnb
+ PAPpcc
+ PAPpms
+ PENnew
+ PHCchr
+ PJKkk
+ PJLlki
+ POCcr
+ POKkok
+ POSsq
+ PRFfur
+ PSEet
+ PURrw
+ QGBbhb
+ QIDdje
+ QTSstv
+ QUEeve
+ RABbbc
+ RADde
+ RAFff
+ RAFphk
+ RAHhr
+ RAMmrj
+ RAWwbm
+ RCDcy
+ RCEcrl
+ RCEcrm
+ RCMcrx
+ RCOom
+ RDMmdy
+ REBbfq
+ REHhi
+ REHia
+ REMmfe
+ RFAab
+ RGBbgc
+ RGDdsb
+ RGTtiv
+ RHCchy
+ RIKkyu
+ RJDdng
+ RKMman
+ RKUumb
+ RLMmlq
+ RMCswh
+ RNKkri
+ ROCkxc
+ ROKkoi
+ ROMas
+ RONnco
+ RONnod
+ RRCcs
+ RRSss
+ RUKckt
+ RUKkum
+ RUSsv
+ RVAawa
+ RWIhz
+ RYSszl
+ SANnso
+ SAPpt
+ SASsat
+ SDNne
+ SGSsgw
+ SHXxog
+ SHZzh-hant
+ SHZzh-hk
+ SHZzh-tw
+ SIBbik
+ SILljp
+ SINdar
+ SINza
+ SKSsn
+ SMKkxu
+ SMPpnb
+ SMRrmy
+ SOBbtb
+ SOFfon
+ SOMmpe
+ SSOpa
+ STBbug
+ STMmtr
+ SUMmve
+ SURrue
+ TACcbk
+ TAKkaa
+ TALlad
+ TASsck
+ TATtum
+ TETtg
+ THTtyv
+ THZoff
+ THZzh-hans
+ THZzh-sg
+ TIVvmw
+ TLAam
+ TLAav
+ TLBbfy
+ TOSny
+ TOSstq
+ TRCcrj
+ TRKkr
+ TSAath
+ UABbcl
+ UAHhar
+ UANnag
+ UBRbyn
+ UEDdgo
+ UHCcwd
+ UINniv
+ UNIja
+ UUKks
+ UXSsyl
+ UYKla
+ VAJka
+ VIDdyu
+ VITtk
+ VLSsm
+ VONnqo
+ VRHhsb
+ VUFfy
+ VUTtyz
+ WAGgd
+ WAHhay
+ WAMdin
+ WAMmus
+ WAMmwk
+ WAMmww
+ WAMsa
+ WAMsxu
+ WAMwtm
+ WENng
+ WHKki
+ WKMml
+ WMLniu
+ WSKku
+ WWMmy
+ XNMha
+ XRBbs
+ YAHhaz
+ YDAaf
+ YGTtig
+ YHCckb
+ YKSskr
+ YLMmsc
+ YMRrn
+ YORru
+ YPBbqi
+ YSCcsb
+ YSRrup
+ YUKkex
+ ZAHhe
+ ZAKkl
+ ZALmad
+ ZEGggo
+ ZELlg
+ ZIMluy
+ ZMGguz
+ ZOKkpy
+ ZREmzn
+ ZTLlbe
+ ZUGgv
+ ZUQquc
+ ZUQraj
+ ZWSst
+ ZYTtzm
+ [marker]
+ [marker] 
+ colon 
+ contains 
+ hmttn
+ quest 
+!#$%&()*+./0123456789;<>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^abcdefghijklmnopqrstuvwxyz{|}~(w)
+!Ft2
 !allocated_var_bytes[i]
 !buffer->has_separate_output ()
 !has_reph
 !this->ran_out_of_room
-"
-""
+"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRS
 "%s" is not known boolean
 "%s": not a valid double
 "%s": not a valid integer
-"'
-#
-#'
-$
-$ P
-$'
-$@
-$es
-$t
-%
+$&-/7:KNORW^acjmosyz
 %!FontType
 %!PS-Adobe-3.0 Resource-CIDFont
 %!PS-AdobeFont
 %!PS-TrueTypeFont
-%'
-%04x
 %04x:
-%08x
 %ADOBeginFontDict
-%d(i)
-%f %f
 %g %g %g %g
-%g(f)
-%hd
-%ld
 %lg %lg %lg %lg
 %s charset
-%s list after
-%s list before
-%s(%u)
-%s: %g
-%s: %s: missing directory: %s
-%s: cleaning cache directory
+%s list after 
+%s list before 
+%s: %s: missing directory: %s \n
+%s: cleaning cache directory\n
 %s: invalid %s id %u for "%s" of type '%s' in '%s'
-%s: invalid cache file: %s
-%s: not cleaning %s cache directory
-&
-&!W
-&'
-'
-''
-(
-(=)
-(?)
+%s: invalid cache file: %s\n
+%s: not cleaning %s cache directory\n
+&2&6&:&>&B&F&J&N&R&V0
+' '$'(','0'4'8'<'@0
+'!$J$N$R$V$Z$^$b$f$j$n0
+'\'`'d'h'l'p't'x'|'
+'\r%2%6%:%>%B%F%J%N%R%V0
+( ($(((,(0(4(8(<(@0
+()/<>[]{}\t\f\r\n 
 (Hex)
-(es
-(f
-(font)
+(Z(^(b(f(j(n(r(v(z1
+(font) 
 (ignore blanks)
-(o
-(pattern)
-(q
-(r
-(t
+(pattern) 
 (uintptr_t) pos % sizeof (scratch_buffer_t) == 0
-({
-)
-)'
-*
-*'
-*t
-*x
-+
-+'
-,
-,'
-,es
-,}
-,~
--
--'
+****************\r*
+****************\r***
+**************\r
+**************\r*
+**************\r***
+**************\r/**
+*********+******\r***
+*********-******\r*
+*******.******\r/**
+*******.**.***\r/**
+*\r*******-******\r*
+,D0j
+-./123456789:;<=
 -abcdefghijklmnopqrstuvwxyz
+-j'j2j>jU
 -le64.cache-4
-.
-.'
 .AppleDouble/
-._
+.B.F.J.N.R.V.Z.^2
+.\v1o0
 .notdef
 .null
 .resource/
-.t
-.u
-/
-/'
-/..
-/1
+/5\n,6,:,>,B,F,J,N,R,V,Z0
 /home/buildbot/buildslave/pango_linux/build/fontconfig-2.11.1/lib64/var/cache/fontconfig
 /home/buildbot/buildslave/pango_linux/build/pango-1.36.8/lib64/lib:/valve/steam-runtime/runtime/amd64/usr/lib/x86_64-linux-gnu
 /proc/self/exe
 /sfnts
 /usr/share/fonts
-0
 0 == strcmp (allocated_var_owner[i], owner)
-0'
+0!0%0)0-014
 0.9.35
-00
 001.000
 001.001
 001.002
 001.003
-01
 0123456789
+0123456789abcdef
 0123456789abcdefFcCacheFini
-0`
-0e
-0es
-0f
-0g
-0j
-0k
-0m
-0n
-0o
-0p
-0q
-0u
-1
+050s0
 1 <= pref_len && pref_len <= 2
-1'
+1"1i3
+1*1V1[0
 1.2.46
+1000 160
 10646
-2
-2'
+1:1>1B1F1J1N1R0
+1a1e1
+2)202<2U2e2
+2*E{1
 20 25 38 25 05
-2w
-3
-3'
-4
-4"\
-4'
-4es
-5
-5'
-6
-6'
-6|
-7
-7'
-8
-8'
-88
+2C2L
+2Jq]\nU
+2q2z2
+3)323A3O3
+3h3q
+4%43
+4G4Pe
+4j4r4}4
+575A
+5G5S
+5_5i5p
+5gib
+646B
+6K6S
+6o6v6
+789:;<=>?@ABCDEFGHIJKLMNOPQRST
+797k7
+7F7W7c
+7HMz
+7\n0K0O0S0W0[0_0c0g0k0o0
 8859
-8\
-8es
-8k
-8l
-8p
-8q
-8s
-8v
-9
-9'
-:
-:'
-:z
-;
-;'
-<
-<"~
-<'
-<es
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8n8y
+9@9Y9`9y9
+9F9O
+9`B\fY
+9g9p
+:4\t/B/F/J/N/R/V/Z/^/b0
 <match target="scan"> cannot edit user-defined object "%s"
 <ultra
 <unknown>
 <void>
-=
-='
-=_:
->
->'
->u
->v
->y
->}
-?
-?'
-?0
-@
-@ @
-@'
-@0
-@@
-@A
-@D
-@P
-@es
-@o
-@p
-@q
-@t
-@
-A
-A'
-ABAach
-ABYyso
+>7>Ba
+?IA__FcFontSetMatch
+?PangoFcFamily
+?ffffff
+@1PD
+@433333
+A*A3
+A;AAA[
 ADBE
 ADD_STYLE_NAME
-AE
-AEZzne
 AEsmall
 AGFA
-AGNngl
-AGSsgs
-AHCcho
-AHKkjp
-AHTti
-AHZzea
-AIRril
-AIRrki
+AHNAn"
+AJAU
 ALLOW_X_DMOVE_Rules
-ALSsd
 ALTS
 ALWAYS_DO_DELTAP_Rules
 ALWAYS_SKIP_DELTAP_Rules
 ALWAYS_USE_100_Rules
-AMHms
-AMLmi
-ANIibb
-ANSsel
-ANSsnk
-ANTto
 APPL
-ARAarb
-ARAarn
-ARFfrc
 ARPH
 ASCII
 ATEC
-ATIiu
-ATNnoe
-AUGgno
-AUKkjh
-AURrwr
-AUTts
-AVSsw
-AWAay
-AWSaio
-AWwbr
 Aacute
 Aacutesmall
 Acircumflex
 Acircumflexsmall
 Acutesmall
-Add
-Add Subst
+Add 
+Add Subst 
 Adieresis
 Adieresissmall
 Adobe
@@ -263,7 +707,7 @@ AdobeSymbolEnt
 Agrave
 Agravesmall
 Aharoni
-And
+AiAtA
 Andale Mono
 Andalus
 Angsana New
@@ -275,6 +719,7 @@ Arial
 Arial Black
 Arial Narrow
 Arial Unicode MS
+Arimo
 Aring
 Aringsmall
 Ascender
@@ -285,60 +730,38 @@ Atilde
 Atildesmall
 AxisLabel
 AxisType
-B
-B&H
-B'
-BAKkam
-BAKkde
-BATtcy
-BBIid
-BBX
-BDF
+Az@{EG
+B<B{B
+BDEC
 BDF_Face_Done
 BDF_Face_Init
 BDF_Glyph_Load
 BDF_Size_Request
 BDF_Size_Select
-BDNndc
-BDNnsk
-BECcgg
+BFBQB[Bb
 BIG-5
-BISnd
 BITMAP
 BITS
-BITbpy
-BJOojs
-BMBbn
-BMKkar
-BMLlij
-BMUunr
-BNPprs
 BRIGHTNESS_Rules
-BRSsrr
-BSCctg
-BSLdv
-BSUht
-BULlua
-BULluo
 BUSGSOPGAppend
 BUSGSOPGPangoOTRuleset
 BZ2_bzDecompress
 BZ2_bzDecompressEnd
 BZ2_bzDecompressInit
-BZAazj
-BZUuzn
-BZUuzs
-BZUve
+B\nU0
 BasicEngineFc
 BasicScriptEngineFc
 Baskerville
 Batang
+BcSX
 Best score
 Bezier_Down
 Bezier_Up
+BiBr
 Bigelow
 Bitstream
 Bitstream Vera Sans
+Bitstream Vera Sans Mono
 Black
 BlendAxisTypes
 BlendDesignMap
@@ -357,54 +780,41 @@ Brevesmall
 Browallia New
 BrowalliaUPC
 Bsmall
-C
-C'
 CACHEDIR.TAG
-CAKkfy
 CANO
-CBBbci
-CCPpcd
-CDNnds
-CDPpes
-CDV
-CEVvls
-CFF
-CGBbgq
-CH
+CB$F
 CHARS
 CHARSET_COLLECTIONS
 CHARSET_ENCODING
 CHARSET_REGISTRY
-CID
 CID Type 1
 CIDCount
+CIDFontName
 CIDFontType
 CIDFontVersion
 CIDMapOffset
-CLM
 COMMENT
 COMPATIBILITY_MODE_Rules
 COMPATIBLE_WIDTHS_Rules
 CONTRAST_Rules
 COPYRIGHT
 COURIER_NEW_2_HACK_Rules
-CRFfrp
-CRL
-CRLbr
-CRLlt
-CRLlv
+CQCtC
 CSWTCH.18
 CSWTCH.53
 CSWTCH.62
 CSWTCH.64
 CSWTCH.66
 CSWTCH.79
-CUGguk
-CUQquz
+CWCf
 Cacute
+Calibri
+Candara
 Cannot load config file "%s"
 Cannot load default config file
 Cannot open config dir "%s"
+Cantarell
+Canwell
 CapHeight
 Caronsmall
 Ccaron
@@ -412,6 +822,7 @@ Ccedilla
 Ccedillasmall
 Cedillasmall
 Ceil
+Ceil 
 Century
 Century Gothic
 Chalkboard
@@ -420,8 +831,9 @@ CharStrings
 CharWidth
 CharacterSet
 Characters
-Checking the existence of %s.orth
+Checking the existence of %s.orth\n
 Circumflexsmall
+Comfortaa
 Comic Sans MS
 Comma
 Compute_Funcs
@@ -430,26 +842,19 @@ Condensed
 Conic_To
 Consolas
 Const
+Corbel
 Cordia New
 CordiaUPC
 Core MS Legacy Fonts
 Courier
 Courier New
-Created CACHEDIR.TAG at %s
+Cousine
+Created CACHEDIR.TAG at %s\n
 Csmall
 Cubic_To
 Current_Ppem
 Current_Ratio
-D
-D'
-DABbft
-DAGgag
-DALlmn
-DAMmag
-DASsc
-DBXkht
-DCPpce
-DDTte
+D&D4a
 DEEMBOLDEN_Rules
 DEFAULT_CHAR
 DESTINATION
@@ -457,30 +862,21 @@ DEVICE_FONT_NAME
 DFKai-SB
 DFKaiSho-SB
 DFKaiShu
-DISsjd
-DKMmku
-DLNnn
-DNHhne
-DNHho
-DNIie
-DNMmns
-DNSse
-DNZzu
-DOTyao
 DO_SHPIX_Rules
-DRSscn
-DRUuz
-DUJlb
+DRW+
+DWDbDgD
 DWIDTH
 DYNA
 Dark Courier
 David
 David Transparent
 DejaVu Sans
+DejaVu Sans Mono
+Dejavu Sans
+Dejavu Sans Mono
 Delete
 DeleteAll
 Delta
-Des
 Descender
 DesignVector
 Dieresissmall
@@ -492,46 +888,31 @@ Direct_Move_Orig_Y
 Direct_Move_X
 Direct_Move_Y
 Divide
+DmDs
 Dotaccentsmall
 Double
 Droid Sans
 Droid Sans Mono
 Dsmall
 Dual_Project
-E
-E"@
-E'
-EAGgez
-EDKkdr
-EDMmer
-EFMmg
-EHCceb
-ELFvi
-ELIig
-ELMmdf
-ELMmen
+E+E\HTH\HfHrH
+E3EAEL
 EMBOLDEN_Rules
 ENDCHAR
 ENDFONT
 ENDPROPERTIES
-EONnog
 EPSN
-ERBbra
-ERCcrh
-EVSsva
-EWEefi
-EYHhz
-EZAazb
-EZAba
+E\f\nBP
 Eacute
 Eacutesmall
 Ecircumflex
 Ecircumflexsmall
 Edieresis
 Edieresissmall
-Edit %s
+Edit %s 
 Egrave
 Egravesmall
+EnEyE
 EncodingScheme
 EndAxis
 EndCharMetrics
@@ -546,8 +927,8 @@ Error getting DPI from fontconfig, using 72.0
 Error in FT_Set_Char_Size: %d
 EscChar
 Esmall
+Essential PragmataPro
 Estrangelo Edessa
-Eth
 Ethsmall
 EucrosiaUPC
 ExpansionFactor
@@ -555,20 +936,18 @@ ExpertEncoding
 Expression doesn't take any effects for delete and delete_all
 Extra Light
 Extra Thin
-F
-F'
+F'F2F>F\Fsa
 FACE_NAME
 FAMILY_CLASS_Rules
 FAMILY_NAME
-FC4
+FC\r4
 FC_DEBUG
-FC_DEBUG=%s
+FC_DEBUG=%s\n
 FC_LANG
 FDArray
 FDBytes
-FJ
-FKBble
-FLWxal
+FGHIJK
+FKFV
 FNT_Face_Done
 FNT_Face_Init
 FNT_Load_Glyph
@@ -768,6 +1147,7 @@ FamilyBlues
 FamilyName
 FamilyOtherBlues
 FangSong_GB2312
+FbFi
 FcAlignSize
 FcAtomicCreate
 FcAtomicDeleteNew
@@ -794,7 +1174,7 @@ FcCacheObjectDereference
 FcCacheObjectReference
 FcCacheSubdir
 FcCacheTimeValid
-FcCacheTimeValid dir "%s" cache checksum %d dir checksum %d
+FcCacheTimeValid dir "%s" cache checksum %d dir checksum %d\n
 FcCharIsPunct
 FcCharSetAddChar
 FcCharSetAddLeaf
@@ -909,9 +1289,10 @@ FcConfigSetRescanInterval
 FcConfigSetRescanInverval
 FcConfigSetSysRoot
 FcConfigSubstitute
+FcConfigSubstitute 
 FcConfigSubstitute done
 FcConfigSubstitute edit
-FcConfigSubstitute test
+FcConfigSubstitute test 
 FcConfigSubstituteWithPat
 FcConfigUptoDate
 FcConfigValues
@@ -941,7 +1322,7 @@ FcDirCacheUnload
 FcDirCacheValid
 FcDirCacheValidateHelper
 FcDirCacheWrite
-FcDirCacheWriteDir dir "%s" file "%s"
+FcDirCacheWriteDir dir "%s" file "%s"\n
 FcDirChecksum
 FcDirChecksumScandirFilter
 FcDirChecksumScandirSorter
@@ -1019,7 +1400,7 @@ FcLangCompare
 FcLangContains
 FcLangGetCharSet
 FcLangNormalize
-FcLangSet
+FcLangSet 
 FcLangSetAdd
 FcLangSetCompare
 FcLangSetCompareStrSet
@@ -1249,11 +1630,12 @@ FcValueSave
 FcVendorFoundries
 Field
 Final font pattern:
-First font
+First font 
 Fixed Miriam Transparent
 Floor
-Font %d
-Font %s:%s matches language %d
+Floor 
+Font %d 
+Font %s:%s matches language %d\n
 Font Map
 Font glyphs corrupted or missing fields
 Font header corrupted or missing fields
@@ -1261,72 +1643,48 @@ Font21
 FontBBox
 FontDirectory
 FontMatrix
-FontSet %d of %d
-Fontconfig %s:
-Fontconfig %s: "%s", line %d:
-Fontconfig %s: line %d:
-Fontconfig error: %s: allocation failure
-Fontconfig error: %s: out of memory
+FontSet %d of %d\n
+Fontconfig %s: 
+Fontconfig %s: "%s", line %d: 
+Fontconfig %s: line %d: 
+Fontconfig error: %s: allocation failure\n
+Fontconfig error: %s: out of memory\n
 Fontconfig error: out of memory
-Fontconfig warning: <name> tag has target="font" in a <match target="pattern">.
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: <name> tag has target="font" in a <match target="pattern">.\n
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.\n
 Fontconfig warning: FcPattern object %s does not accept value
-Fontconfig warning: adding <cachedir prefix="xdg">fontconfig</cachedir>
-Fontconfig warning: adding <cachedir>%s</cachedir>
-Fontconfig warning: ignoring %s: not a valid language tag
-Fontconfig warning: ignoring %s: not a valid region tag
-Fontconfig warning: no <cachedir> elements found. Check configuration.
+Fontconfig warning: adding <cachedir prefix="xdg">fontconfig</cachedir>\n
+Fontconfig warning: adding <cachedir>%s</cachedir>\n
+Fontconfig warning: ignoring %s: not a valid language tag\n
+Fontconfig warning: ignoring %s: not a valid region tag\n
+Fontconfig warning: no <cachedir> elements found. Check configuration.\n
 ForceBold
 ForceBoldThreshold
 FrankRuehl
 Franklin Gothic Medium
+FreeMono
+FreeSans
 FreeSerif
+Freesans
+Freeserif
 FreesiaUPC
 Fsmall
 FullName
-G
-G'
-GABbg
-GAGgbm
-GAMmai
-GANnah
-GAPpam
-GAWwle
+Futura
+G!G&C
+G+GXGfGkGpGuG{G
+G7G;G@GEGJM
+G9\n-.-2-6-:->-B-F-J-N-R0
 GB2312
 GCC: (crosstool-NG 1.17.0) 4.6.3
 GDBytes
-GDNnga
-GGCch
-GHCshn
-GISsu
-GISwry
-GISxwo
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.7
-GLMmh
-GLPpdc
-GLPplp
-GLPrej
-GNAar
-GNDady
-GNEeo
-GNIio
-GNMmnc
-GNU
-GOGgon
-GONnov
-GOSgu
-GOXxom
-GRAang
-GSTtt
-GTCcts
-GTPpwo
-GUBbxr
-GULli
-GYUuk
+GPGTB
+G^GbF
 Garamond
 Gautami
 Gbreve
@@ -1340,55 +1698,27 @@ Gnat
 Gravesmall
 Gsmall
 Gulim
-H
-H'
-HAMmhr
-HANnap
+H=HF
 HB_OPTIONS
 HB_SHAPER_LIST
-HCAada
-HCBbe
-HCMmni
 HEZLOCUS
-HHChno
-HHZzh-mo
-HIPpl
-HMAamf
-HNSsid
-HOMmos
-HRBbrx
-HSBbai
-HSKksh
-HSKksw
-HTAatv
-HTLlu
-HTMmak
-HULluz
 HanYang System
 Handwriting
 Having multiple <family> in <alias> isn't supported and may not work as expected
 Having multiple values in <test> isn't supported and may not work as expected
 Helvetica
+Helvetica CY
 Helvetica Neue
-Hes
-Hg
-Hn
+Ho\thwh
 Horizontal_Sweep_Drop
 Horizontal_Sweep_Init
 Horizontal_Sweep_Span
 Horizontal_Sweep_Step
-Hq
-Hs
 Hsmall
-Hu
 HuaTianKaiTi?
 HuaTianSongTi?
 Hungarumlautsmall
-Hx
-H}
-I
-I'
-IAHhu
+I&I,I:IJ
 IA__FcAtomicCreate
 IA__FcAtomicDeleteNew
 IA__FcAtomicDestroy
@@ -1590,17 +1920,6 @@ IA__FcValueDestroy
 IA__FcValueEqual
 IA__FcValuePrint
 IA__FcValueSave
-IBEijc
-IBM
-ICOoj
-IFEekk
-IHBbhk
-IHCnym
-IIJyo
-IJ
-IJFfo
-IKLlld
-ILBban
 IMPR
 INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS
 INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE
@@ -1608,32 +1927,10 @@ INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE
 INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE
 INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE
 INF_FT_Settings
-INMmnk
-IPTtr
-IQSsr
-IRAak
-IRBbrh
-IRDps
-IRFga
-IRHhaw
-IRIgaa
-IRKkrl
-IRMmin
-IROos
-ISKkhb
 ISO-8859-1
 ISOLatin1Encoding
 ITALIC_ANGLE
-ITBbto
-ITBes
-ITC
-ITEel
-ITEeu
-IUKkw
-IUKky
-IVLlzz
-IWTalt
-IWTty
+IaIrI
 Iacute
 Iacutesmall
 Icircumflex
@@ -1644,6 +1941,7 @@ Idotaccent
 Igrave
 Igravesmall
 Impact
+Inconsolata
 Ins_ALIGNRP.isra.29
 Ins_DELTAC.isra.47
 Ins_DELTAP
@@ -1676,117 +1974,39 @@ IsMacResource
 Ismall
 Italic
 ItalicAngle
-J
-J'
-JAMmr
-JARrbb
-JATth
-JERria
-JILlis
-JJBbjt
-JUGguc
+J1J7JU
+J?JH
 JasmineUPC
 Johab
 Jsmall
-K
-K'
-KALlbj
-KAMvo
-KAYsas
-KBAabq
-KBCce
-KDLlez
-KFAaii
-KHCcop
-KHPpi
-KIBbcq
-KIBbho
-KIBbin
-KIBbm
-KIBbts
-KIBcu
-KIKkj
-KLBbln
-KLGgn
-KLPpll
-KNDdiq
-KNMen
-KNMmdc
-KNMmkw
-KNMmn
-KNMmt
-KNMmwl
-KNMmyv
-KNSso
-KOKko
-KOKkpe
-KOMmdr
-KP
-KPH
-KPIilo
-KPX
-KPY
-KRArm
-KRKkab
-KRSsl
-KRTtru
-KUSsuq
-KVEfa
-KWSswb
-KWSswv
-KYKkqy
+JvKsK}l\tJ
+K&K8KFKQ
+KUMUX
+K^Kd
 KaiTi_GB2312
 KodchiangUPC
 Ksmall
-L
-L9
-LAGgld
-LAKkm
-LAPpih
+L'LZa
+L0L:LA
 LARA
 LC_ALL
 LC_CTYPE
 LEAF
-LEBbem
-LESsg
 LETR
-LETtem
-LEWda
-LGTtmh
-LIBca
-LIGnl
-LIHhnd
+LHLQ
 LINO
 LINOTYPE-HELL
-LIPfj
-LKNoc
-LLEemk
-LMBbal
-LMSsop
-LOMmoh
-LOVvro
-LPKkpv
-LRFfuv
-LRKkru
-LSCcv
-LSIit
-LSSxst
-LUFfi
-LUJdz
-LUTtdd
-LUZzum
-LWMmwr
-LYSsyr
-LZSta
+LaLj
 LangSet
 LanguageGroup
 Latha
 Legacy Sans Fonts
-Les
 Less
 LessEqual
 Levenim MT
+Liberation Mono
 Liberation Sans
+Liberation Sans Narrow
 Light
 LilyUPC
 Line_To
@@ -1795,59 +2015,32 @@ Linotype
 Listing
 Load_SBit_Png
 Lobster
+LrMDM
 Lslash
 Lslashsmall
 Lsmall
-Lu
 Lucida Console
 Lucida Grande
 Lucida Sans Typewriter
 Lucida Sans Unicode
-Lx
-M
-M'
+Luxi Sans
+LwH'
 MACINTOSH
 MACR
-MAJjbo
-MALlmo
-MAPpap
-MATtab
 MD5Transform
-MDUug
-MEBber
-MHKkmb
 MIAP_HACK_Rules
-MILlif
-MKTtl
-MLKxh
-MOKkvd
+MJM|a
 MONO
-MORrom
-MRBmym
-MRKkdt
-MS
+MRM\Mc
 MS Gothic
 MS Legacy Fonts
 MS Mincho
-MSAast
-MSIsms
-MSKsk
-MSLsmn
-MSNseh
-MSSsmj
-MT
-MTWwo
-MUKkv
-MUTtw
 MV Boli
-MYAaz
-MYNnyn
-MZTudm
 Macronsmall
 Mangal
 MappingScheme
 Marlett
-Match
+Match 
 Medium
 MetricsSets
 Microsoft
@@ -1862,6 +2055,7 @@ Miriam
 Miriam Fixed
 Miriam Transparent
 Misc Legacy Fonts
+MjMs
 Monaco
 Mono
 Monospace
@@ -1872,124 +2066,64 @@ Move_CVT
 Move_CVT_Stretched
 Move_Zp2_Point
 Msmall
-N
-NABbar
-NADdap
-NAJjam
-NAKknn
-NAMmnw
-NANglk
-NAPpag
-NASsah
-NBHan
-NBMkmw
-NCSsco
-NDV
-NEBbo
-NEC
-NEMmyq
-NEVvec
-NGTtpi
-NHKkhw
-NHSsi
-NIFfil
-NIHhil
-NILlo
-NIMmk
-NKKkfr
-NLBbla
-NLBblk
-NLWwar
-NMKkg
-NMTtet
-NOFfr
-NOGgl
-NOGgog
-NOGgrt
-NOKkha
-NOMmo
+Myriad Pro
+N;NHNQNkN
 NORMAL_ROUND_Rules
 NOTICE
 NO_ALIGNRP_AFTER_IUP_Rules
 NO_CALL_AFTER_IUP_Rules
 NO_DELTAP_AFTER_IUP_Rules
-NRGkln
-NRKkbd
-NUDdoi
-NUHhy
-NUMur
-NURro
-NUSsuk
-NVEevn
-NYNno
-NZDee
-NZMna
+NWNb
 Narkisim
 Narrow
 New_Profile
-Nil
+Nina
 No <test> nor <edit> elements in <match>
 No match
 Normal
 Normalize.isra.45
-Not
+Not 
 Not adding
 NotContains
 NotEqual
 Notice
+NqNy
 Nsmall
 Ntilde
 Ntildesmall
 Null pattern
-O
-O'
-OALlrc
-OAYyi
-OBIigb
-OBJjv
-OCSscs
-ODEbjj
-ODIis
-OE
+O5OFO\OgO
 OEsmall
-OGDdhd
-OGSsga
-OHBbi
-OHCchp
-OHhoj
-OIAaiw
-OJIijo
-OJIik
-OKNnr
-OLIinh
-OMHhoc
-OMKkn
-OMKxsl
-OMLln
-OMSsma
-ORGgru
-OROor
-ORVwa
+OPQRST
+OQOV
 OT::AlternateSubstFormat1::apply(OT::hb_apply_context_t*) const
 OT::AlternateSubstFormat1::closure(OT::hb_closure_context_t*) const
 OT::AlternateSubstFormat1::collect_glyphs(OT::hb_collect_glyphs_context_t*) const
 OT::Anchor::get_anchor(hb_font_t*, unsigned int, int*, int*) const
-OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*)
-OT::ArrayOf<OT::LookupRecord, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*)
-OT::ArrayOf<OT::OffsetTo<OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::ChainRule, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::ChainRuleSet, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::Coverage, OT::IntType<unsigned int, 4u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::Coverage, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::Lookup, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::PosLookup, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::RuleSet, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::Sequence, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::OffsetTo<OT::SubstLookup, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::Record<OT::Feature>, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::Record<OT::LangSys>, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::ArrayOf<OT::Record<OT::Script>, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*)
+OT::ArrayOf<OT::LookupRecord, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*)
+OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::OffsetTo<OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::ChainRule, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::ChainRuleSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::Coverage, OT::IntType<unsigned int, 4u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::Coverage, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>>(OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::Lookup, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::PosLookup, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::RuleSet, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::Sequence, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::OffsetTo<OT::SubstLookup, OT::IntType<unsigned short, 2u>>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::Record<OT::Feature>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::Record<OT::LangSys>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::ArrayOf<OT::Record<OT::Script>, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
 OT::ChainContext::sanitize(OT::hb_sanitize_context_t*)
 OT::ChainContextFormat1::apply(OT::hb_apply_context_t*) const
 OT::ChainContextFormat1::closure(OT::hb_closure_context_t*) const
@@ -2005,7 +2139,7 @@ OT::ChainRuleSet::apply(OT::hb_apply_context_t*, OT::ChainContextApplyLookupCont
 OT::ChainRuleSet::closure(OT::hb_closure_context_t*, OT::ChainContextClosureLookupContext&) const
 OT::ChainRuleSet::would_apply(OT::hb_would_apply_context_t*, OT::ChainContextApplyLookupContext&) const
 OT::ClassDef::add_class(hb_set_t*, unsigned int) const
-OT::ClassDef::add_class(hb_set_t*, unsigned int) const [clone .part.109]
+OT::ClassDef::add_class(hb_set_t*, unsigned int) const (.part.109)
 OT::ClassDef::get_class(unsigned int) const
 OT::ClassDefFormat1::intersects_class(hb_set_t const*, unsigned int) const
 OT::ClassDefFormat2::intersects_class(hb_set_t const*, unsigned int) const
@@ -2013,14 +2147,17 @@ OT::Context::sanitize(OT::hb_sanitize_context_t*)
 OT::ContextFormat2::apply(OT::hb_apply_context_t*) const
 OT::ContextFormat2::closure(OT::hb_closure_context_t*) const
 OT::ContextFormat2::collect_glyphs(OT::hb_collect_glyphs_context_t*) const
+OT::Coverage* OT::hb_serialize_context_t::extend_min<OT::Coverage>(OT::Coverage&)::__PRETTY_FUNCTION__
 OT::Coverage::Iter::init(OT::Coverage const&)
 OT::Coverage::Iter::next()
 OT::Coverage::get_coverage(unsigned int) const
 OT::Coverage::intersects(hb_set_t const*) const
-OT::Coverage::intersects_coverage(hb_set_t const*, unsigned int) const [clone .part.97]
+OT::Coverage::intersects_coverage(hb_set_t const*, unsigned int) const (.part.97)
+OT::CoverageFormat1* OT::hb_serialize_context_t::extend_min<OT::CoverageFormat1>(OT::CoverageFormat1&)::__PRETTY_FUNCTION__
+OT::CoverageFormat2* OT::hb_serialize_context_t::extend_min<OT::CoverageFormat2>(OT::CoverageFormat2&)::__PRETTY_FUNCTION__
 OT::CursivePosFormat1::apply(OT::hb_apply_context_t*) const
 OT::CursivePosFormat1::sanitize(OT::hb_sanitize_context_t*)
-OT::Device::get_delta(unsigned int, int) const [clone .part.86]
+OT::Device::get_delta(unsigned int, int) const (.part.86)
 OT::Extension<OT::ExtensionPos>::sanitize(OT::hb_sanitize_context_t*)
 OT::Extension<OT::ExtensionSubst>::get_type() const
 OT::Extension<OT::ExtensionSubst>::sanitize(OT::hb_sanitize_context_t*)
@@ -2032,13 +2169,20 @@ OT::GPOS::sanitize(OT::hb_sanitize_context_t*)
 OT::GSUB::sanitize(OT::hb_sanitize_context_t*)
 OT::GSUBGPOS::find_script_index(unsigned int, unsigned int*) const
 OT::GSUBGPOS::sanitize(OT::hb_sanitize_context_t*)
+OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend<OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>>(OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend_min<OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>>(OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::IntType<unsigned short, 2u>* OT::hb_serialize_context_t::extend_min<OT::IntType<unsigned short, 2u>>(OT::IntType<unsigned short, 2u>&)::__PRETTY_FUNCTION__
+OT::Ligature* OT::hb_serialize_context_t::extend_min<OT::Ligature>(OT::Ligature&)::__PRETTY_FUNCTION__
 OT::Ligature::apply(OT::hb_apply_context_t*) const
+OT::LigatureSet* OT::hb_serialize_context_t::extend_min<OT::LigatureSet>(OT::LigatureSet&)::__PRETTY_FUNCTION__
 OT::LigatureSet::closure(OT::hb_closure_context_t*) const
+OT::LigatureSubstFormat1* OT::hb_serialize_context_t::extend_min<OT::LigatureSubstFormat1>(OT::LigatureSubstFormat1&)::__PRETTY_FUNCTION__
 OT::LigatureSubstFormat1::apply(OT::hb_apply_context_t*) const
 OT::LigatureSubstFormat1::closure(OT::hb_closure_context_t*) const
 OT::LigatureSubstFormat1::collect_glyphs(OT::hb_collect_glyphs_context_t*) const
-OT::LigatureSubstFormat1::serialize(OT::hb_serialize_context_t*, OT::Supplier<OT::IntType<unsigned short, 2u> >&, OT::Supplier<unsigned int>&, unsigned int, OT::Supplier<OT::IntType<unsigned short, 2u> >&, OT::Supplier<unsigned int>&, OT::Supplier<OT::IntType<unsigned short, 2u> >&)
+OT::LigatureSubstFormat1::serialize(OT::hb_serialize_context_t*, OT::Supplier<OT::IntType<unsigned short, 2u>>&, OT::Supplier<unsigned int>&, unsigned int, OT::Supplier<OT::IntType<unsigned short, 2u>>&, OT::Supplier<unsigned int>&, OT::Supplier<OT::IntType<unsigned short, 2u>>&)
 OT::LigatureSubstFormat1::would_apply(OT::hb_would_apply_context_t*) const
+OT::Lookup* OT::hb_serialize_context_t::extend_min<OT::Lookup>(OT::Lookup&)::__PRETTY_FUNCTION__
 OT::Lookup::serialize(OT::hb_serialize_context_t*, unsigned int, unsigned int, unsigned int)
 OT::MarkArray::apply(OT::hb_apply_context_t*, unsigned int, unsigned int, OT::AnchorMatrix const&, unsigned int, unsigned int) const
 OT::MarkArray::sanitize(OT::hb_sanitize_context_t*)
@@ -2052,12 +2196,12 @@ OT::MarkMarkPosFormat1::apply(OT::hb_apply_context_t*) const
 OT::MultipleSubstFormat1::apply(OT::hb_apply_context_t*) const
 OT::MultipleSubstFormat1::closure(OT::hb_closure_context_t*) const
 OT::MultipleSubstFormat1::collect_glyphs(OT::hb_collect_glyphs_context_t*) const
-OT::OffsetTo<OT::ClassDef, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::OffsetTo<OT::Coverage, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::OffsetTo<OT::Device, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::OffsetTo<OT::LigCaretList, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::OffsetTo<OT::LigGlyph, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
-OT::OffsetTo<OT::MarkArray, OT::IntType<unsigned short, 2u> >::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::OffsetTo<OT::ClassDef, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::OffsetTo<OT::Coverage, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::OffsetTo<OT::Device, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::OffsetTo<OT::LigCaretList, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::OffsetTo<OT::LigGlyph, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
+OT::OffsetTo<OT::MarkArray, OT::IntType<unsigned short, 2u>>::sanitize(OT::hb_sanitize_context_t*, void*)
 OT::PairPosFormat1::apply(OT::hb_apply_context_t*) const
 OT::PairPosFormat1::collect_glyphs(OT::hb_collect_glyphs_context_t*) const
 OT::PairPosFormat1::sanitize(OT::hb_sanitize_context_t*)
@@ -2078,19 +2222,24 @@ OT::Sanitizer<OT::GPOS>::sanitize(hb_blob_t*)
 OT::Sanitizer<OT::GSUB>::sanitize(hb_blob_t*)
 OT::Script::find_lang_sys_index(unsigned int, unsigned int*) const
 OT::SinglePos::sanitize(OT::hb_sanitize_context_t*)
-OT::SingleSubst::serialize(OT::hb_serialize_context_t*, OT::Supplier<OT::IntType<unsigned short, 2u> >&, OT::Supplier<OT::IntType<unsigned short, 2u> >&, unsigned int)
+OT::SingleSubst::serialize(OT::hb_serialize_context_t*, OT::Supplier<OT::IntType<unsigned short, 2u>>&, OT::Supplier<OT::IntType<unsigned short, 2u>>&, unsigned int)
+OT::SingleSubstFormat1* OT::hb_serialize_context_t::extend_min<OT::SingleSubstFormat1>(OT::SingleSubstFormat1&)::__PRETTY_FUNCTION__
+OT::SingleSubstFormat2* OT::hb_serialize_context_t::extend_min<OT::SingleSubstFormat2>(OT::SingleSubstFormat2&)::__PRETTY_FUNCTION__
 OT::SingleSubstFormat2::closure(OT::hb_closure_context_t*) const
 OT::SingleSubstFormat2::collect_glyphs(OT::hb_collect_glyphs_context_t*) const
+OT::SortedArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend<OT::SortedArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>>(OT::SortedArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
+OT::SortedArrayOf<OT::RangeRecord, OT::IntType<unsigned short, 2u>>* OT::hb_serialize_context_t::extend<OT::SortedArrayOf<OT::RangeRecord, OT::IntType<unsigned short, 2u>>>(OT::SortedArrayOf<OT::RangeRecord, OT::IntType<unsigned short, 2u>>&)::__PRETTY_FUNCTION__
 OT::SubstLookup* OT::hb_serialize_context_t::copy<OT::SubstLookup>()
+OT::SubstLookup* OT::hb_serialize_context_t::copy<OT::SubstLookup>()::__PRETTY_FUNCTION__
 OT::SubstLookup::apply_recurse_func(OT::hb_apply_context_t*, unsigned int)
 OT::SubstLookup::get_subtable(unsigned int) const
 OT::SubstLookupSubTable const& OT::Extension<OT::ExtensionSubst>::get_subtable<OT::SubstLookupSubTable>() const
 OT::SubstLookupSubTable::sanitize(OT::hb_sanitize_context_t*, unsigned int)
-OT::Supplier<OT::IntType<unsigned short, 2u> >::operator[](unsigned int) const [clone .isra.14] [clone .part.15]
+OT::Supplier<OT::IntType<unsigned short, 2u>>::operator[](unsigned int) const (.isra.14) (.part.15)
 OT::ValueFormat::apply_value(hb_font_t*, hb_direction_t, void const*, OT::IntType<unsigned short, 2u> const*, hb_glyph_position_t&) const
 OT::ValueFormat::sanitize_value_devices(OT::hb_sanitize_context_t*, void*, OT::IntType<unsigned short, 2u>*)
 OT::ValueFormat::sanitize_values_stride_unsafe(OT::hb_sanitize_context_t*, void*, OT::IntType<unsigned short, 2u>*, unsigned int, unsigned int)
-OT::ValueFormat::sanitize_values_stride_unsafe(OT::hb_sanitize_context_t*, void*, OT::IntType<unsigned short, 2u>*, unsigned int, unsigned int) [clone .part.201]
+OT::ValueFormat::sanitize_values_stride_unsafe(OT::hb_sanitize_context_t*, void*, OT::IntType<unsigned short, 2u>*, unsigned int, unsigned int) (.part.201)
 OT::_NullIndex
 OT::_NullLangSys
 OT::_NullPool
@@ -2124,15 +2273,15 @@ OT::hb_closure_context_t::return_t OT::Extension<OT::ExtensionSubst>::dispatch<O
 OT::hb_closure_context_t::return_t OT::SubstLookup::dispatch<OT::hb_closure_context_t>(OT::hb_closure_context_t*) const
 OT::hb_closure_context_t::return_t OT::SubstLookup::dispatch_recurse_func<OT::hb_closure_context_t>(OT::hb_closure_context_t*, unsigned int)
 OT::hb_closure_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_closure_context_t>(OT::hb_closure_context_t*, unsigned int) const
-OT::hb_closure_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_closure_context_t>(OT::hb_closure_context_t*, unsigned int) const [clone .part.210]
-OT::hb_collect_glyphs_context_t::return_t OT::ChainContext::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*) const [clone .part.213]
+OT::hb_closure_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_closure_context_t>(OT::hb_closure_context_t*, unsigned int) const (.part.210)
+OT::hb_collect_glyphs_context_t::return_t OT::ChainContext::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*) const (.part.213)
 OT::hb_collect_glyphs_context_t::return_t OT::Context::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*) const
 OT::hb_collect_glyphs_context_t::return_t OT::Extension<OT::ExtensionSubst>::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*) const
 OT::hb_collect_glyphs_context_t::return_t OT::PosLookupSubTable::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*, unsigned int) const
 OT::hb_collect_glyphs_context_t::return_t OT::SubstLookup::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*) const
 OT::hb_collect_glyphs_context_t::return_t OT::SubstLookup::dispatch_recurse_func<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*, unsigned int)
 OT::hb_collect_glyphs_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*, unsigned int) const
-OT::hb_collect_glyphs_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*, unsigned int) const [clone .part.214]
+OT::hb_collect_glyphs_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_collect_glyphs_context_t>(OT::hb_collect_glyphs_context_t*, unsigned int) const (.part.214)
 OT::hb_get_coverage_context_t::return_t OT::ChainContext::dispatch<OT::hb_get_coverage_context_t>(OT::hb_get_coverage_context_t*) const
 OT::hb_get_coverage_context_t::return_t OT::Context::dispatch<OT::hb_get_coverage_context_t>(OT::hb_get_coverage_context_t*) const
 OT::hb_get_coverage_context_t::return_t OT::Extension<OT::ExtensionPos>::dispatch<OT::hb_get_coverage_context_t>(OT::hb_get_coverage_context_t*) const
@@ -2140,34 +2289,11 @@ OT::hb_get_coverage_context_t::return_t OT::Extension<OT::ExtensionSubst>::dispa
 OT::hb_get_coverage_context_t::return_t OT::PosLookupSubTable::dispatch<OT::hb_get_coverage_context_t>(OT::hb_get_coverage_context_t*, unsigned int) const
 OT::hb_get_coverage_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_get_coverage_context_t>(OT::hb_get_coverage_context_t*, unsigned int) const
 OT::hb_sanitize_context_t::check_array(void const*, unsigned int, unsigned int) const
-OT::hb_serialize_context_t::copy<OT::SubstLookup>()::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend<OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend<OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> > >(OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend<OT::SortedArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> > >(OT::SortedArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend<OT::SortedArrayOf<OT::RangeRecord, OT::IntType<unsigned short, 2u> > >(OT::SortedArrayOf<OT::RangeRecord, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::Offset<OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::OffsetTo<OT::Ligature, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> > >(OT::ArrayOf<OT::OffsetTo<OT::LigatureSet, OT::IntType<unsigned short, 2u> >, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::Coverage>(OT::Coverage&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::CoverageFormat1>(OT::CoverageFormat1&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::CoverageFormat2>(OT::CoverageFormat2&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> > >(OT::HeadlessArrayOf<OT::IntType<unsigned short, 2u>, OT::IntType<unsigned short, 2u> >&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::IntType<unsigned short, 2u> >(OT::IntType<unsigned short, 2u>&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::Ligature>(OT::Ligature&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::LigatureSet>(OT::LigatureSet&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::LigatureSubstFormat1>(OT::LigatureSubstFormat1&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::Lookup>(OT::Lookup&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::SingleSubstFormat1>(OT::SingleSubstFormat1&)::__PRETTY_FUNCTION__
-OT::hb_serialize_context_t::extend_min<OT::SingleSubstFormat2>(OT::SingleSubstFormat2&)::__PRETTY_FUNCTION__
 OT::hb_would_apply_context_t::return_t OT::ChainContext::dispatch<OT::hb_would_apply_context_t>(OT::hb_would_apply_context_t*) const
 OT::hb_would_apply_context_t::return_t OT::Context::dispatch<OT::hb_would_apply_context_t>(OT::hb_would_apply_context_t*) const
 OT::hb_would_apply_context_t::return_t OT::Extension<OT::ExtensionSubst>::dispatch<OT::hb_would_apply_context_t>(OT::hb_would_apply_context_t*) const
 OT::hb_would_apply_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_would_apply_context_t>(OT::hb_would_apply_context_t*, unsigned int) const
-OT::hb_would_apply_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_would_apply_context_t>(OT::hb_would_apply_context_t*, unsigned int) const [clone .part.215]
+OT::hb_would_apply_context_t::return_t OT::SubstLookupSubTable::dispatch<OT::hb_would_apply_context_t>(OT::hb_would_apply_context_t*, unsigned int) const (.part.215)
 OT::intersects_class(hb_set_t*, OT::IntType<unsigned short, 2u> const&, void const*)
 OT::intersects_coverage(hb_set_t*, OT::IntType<unsigned short, 2u> const&, void const*)
 OT::intersects_glyph(hb_set_t*, OT::IntType<unsigned short, 2u> const&, void const*)
@@ -2177,10 +2303,7 @@ OT::match_coverage(unsigned int, OT::IntType<unsigned short, 2u> const&, void co
 OT::match_glyph(unsigned int, OT::IntType<unsigned short, 2u> const&, void const*)
 OT::match_input(OT::hb_apply_context_t*, unsigned int, OT::IntType<unsigned short, 2u> const*, bool (*)(unsigned int, OT::IntType<unsigned short, 2u> const&, void const*), void const*, unsigned int*, unsigned int*, bool*, unsigned int*)
 OT::match_lookahead(OT::hb_apply_context_t*, unsigned int, OT::IntType<unsigned short, 2u> const*, bool (*)(unsigned int, OT::IntType<unsigned short, 2u> const&, void const*), void const*, unsigned int)
-OTNeot
 OTTO
-OULlus
-OWPqu
 Oacute
 Oacutesmall
 Oblique
@@ -2192,21 +2315,17 @@ Ogoneksmall
 Ograve
 Ogravesmall
 Omega
+OpOti
+Open Sans
 OpticalSize
 Optima
-Or
 Ordering
 Oslash
 Oslashsmall
 Osmall
 Otilde
 Otildesmall
-P
-P!
-P'
-P?
-P@
-PAMary
+P.P5
 PANGO_FT2_IS_FONT (font)
 PANGO_FT2_IS_FONT_MAP (fontmap)
 PANGO_IS_FC_DECODER (decoder)
@@ -2214,36 +2333,20 @@ PANGO_IS_FC_FONT (fcfont)
 PANGO_IS_FC_FONT (font)
 PANGO_IS_FC_FONT_MAP (fcfontmap)
 PANGO_IS_LAYOUT (layout)
-PANnb
-PAPpcc
-PAPpms
+PAPU
 PARA
-PCC
-PCF
 PCF_Face_Done
 PCF_Face_Init
 PCF_Glyph_Load
 PCF_Size_Request
 PCF_Size_Select
-PENnew
-PFR
-PHCchr
 PIXEL_HINTING_Rules
-PJKkk
-PJLlki
 PMingLiU
 PNG12_0
-POCcr
-POKkok
 POSIX
-POSsq
-PRFfur
-PSEet
 PS_Conv_Strtol
 PS_Conv_ToFixed
 PS_Conv_ToInt
-PURrw
-P[
 PaintType
 Palatino Linotype
 Pango
@@ -2269,15 +2372,12 @@ PangoOTInfo_private_offset
 PangoOTRuleset_private_offset
 PangoRenderFc
 Pattern
-Pc
-Pes
-Ph
-Pk
-Pl
+Pattern has %d elts (size %d)\n
 Plus
-Pn
+PmXh]=b
 Pop_Push_Count
 PostScript (post) table missing
+Pragmata
 Prepend
 PrependFirst
 Private
@@ -2285,25 +2385,14 @@ Project
 Project_x
 Project_y
 Psmall
-Pw
-Q
-Q'
-QGBbhb
-QIDdje
+Q)Q7QWQ
+Q=QH
 QMSI
-QTSstv
-QUEeve
+Q_Qd
 Qsmall
 Quest
-R
-R'
-R@
-RABbbc
-RADde
-RAFff
-RAFphk
-RAHhr
-RAMmrj
+R%R<RqS
+R+R2
 RASTERIZER_35_Rules
 RAW_ASCENT
 RAW_AVERAGE_WIDTH
@@ -2333,56 +2422,23 @@ RAW_SUPERSCRIPT_Y
 RAW_UNDERLINE_POSITION
 RAW_UNDERLINE_THICKNESS
 RAW_X_HEIGHT
-RAWwbm
-RCDcy
-RCEcrl
-RCEcrm
-RCMcrx
-RCOom
-RDMmdy
-REBbfq
-REHhi
-REHia
 RELATIVE_SETWIDTH
 RELATIVE_WEIGHT
-REMmfe
 RESOLUTION
 RESOLUTION_X
 RESOLUTION_Y
-RFAab
-RGBbgc
-RGDdsb
-RGTtiv
-RHCchy
+RFRQR\Rf
 RICO
-RIKkyu
-RJDdng
-RKMman
-RKUumb
-RLMmlq
-RMCswh
-RNKkri
-ROCkxc
-ROKkoi
-ROMas
-RONnco
-RONnod
 ROUND_NONPIXEL_Y_MOVES_Rules
 ROUND_NONPIXEL_Y_MOVES_Rules_Exceptions
-RRCcs
-RRSss
-RUKckt
-RUKkum
-RUSsv
-RVAawa
-RWIhz
-RYSszl
 Raavi
+Raleway
 Range
+Raw pattern:
 Read_CVT
 Read_CVT_Stretched
-Regexp compile error: %s
-Regexp exec error: %s
+Regexp compile error: %s\n
+Regexp exec error: %s\n
 Registry
 Regular
 Regular Class
@@ -2390,10 +2446,11 @@ Regular/Bold Class
 Regular/Italic Class
 Render_Single_Pass
 Ringsmall
-Rod
 Rod Transparent
+Rokkitt
 Roman
 Round
+Round 
 Round_Down_To_Grid
 Round_None
 Round_Super
@@ -2403,25 +2460,13 @@ Round_To_Grid
 Round_To_Half_Grid
 Round_Up_To_Grid
 Rsmall
-Ry
-S
-SANnso
-SAPpt
-SASsat
+S%S?a
+S+S6
+S5|D~
 SDBytes
-SDNne
 SETUP_INFINALITY_FT_Settings
 SETWIDTH_NAME
 SFNT font table missing
-SGSsgw
-SHXxog
-SHZzh-hant
-SHZzh-hk
-SHZzh-tw
-SIBbik
-SILljp
-SINdar
-SINza
 SJIS
 SJIS-WIN
 SKIP_IUP_Rules
@@ -2430,11 +2475,8 @@ SKIP_NONPIXEL_Y_MOVES_Rules
 SKIP_NONPIXEL_Y_MOVES_Rules_Exceptions
 SKIP_OFFPIXEL_Y_MOVES_Rules
 SKIP_OFFPIXEL_Y_MOVES_Rules_Exceptions
-SKSsn
 SLANT
-SMKkxu
-SMPpnb
-SMRrmy
+SLSnSzS
 SNAPPING_EDGE_DETECTION_Rules
 SNAPPING_M_Rules
 SNAPPING_NO_BEARING_CORRECTION_Rules
@@ -2443,20 +2485,14 @@ SNAPPING_STEM_TRANSLATING_ONLY_Rules
 SNAPPING_STEM_TRANSLATING_Rules
 SNAPPING_STEM_WIDTHS_Rules
 SNAPPING_SYNTHESIZE_STEMS_Rules
-SOBbtb
-SOFfon
-SOMmpe
 SPACING
-SSOpa
+SRSd
 STARTCHAR
 STARTFONT
 STARTPROPERTIES
-STBbug
-STMmtr
 STYLE_CLASS_Rules
-SUMmve
-SURrue
 SWIDTH
+Samba
 Sans
 Scaron
 Scaronsmall
@@ -2468,7 +2504,7 @@ Semibold
 Serialized pattern:
 SetSuperRound
 Shruti
-Signature: 8a477f597d28d172789f06886806bc55# This file is a cache directory tag created by fontconfig.# For information about cache directory tags, see:#       http://www.brynosaurus.com/cachedir/
+Signature: 8a477f597d28d172789f06886806bc55\n# This file is a cache directory tag created by fontconfig.\n# For information about cache directory tags, see:\n#       http://www.brynosaurus.com/cachedir/\n
 SimHei
 Simplified Arabic
 Simplified Arabic Fixed
@@ -2476,6 +2512,7 @@ Simsun
 SkipCode
 Slant
 Sort
+Sort 
 Split_Conic
 Split_Cubic
 Ssmall
@@ -2485,6 +2522,7 @@ StartCharMetrics
 StartComposites
 StartData
 StartDirection
+StartFontMetrics
 StartKernData
 StartKernPairs
 StartKernPairs0
@@ -2502,7 +2540,7 @@ Subrs
 Supplement
 Sylfaen
 Symbol
-T
+T#T.Tk
 T1_Compute_Max_Advance
 T1_Done_Blend.isra.3
 T1_Driver_Done
@@ -2539,27 +2577,12 @@ T42_Size_Done
 T42_Size_Init
 T42_Size_Request
 T42_Size_Select
-TACcbk
-TAKkaa
-TALlad
-TASsck
-TATtum
-TETtg
+T4T;
+TETNTc
 THEZOCQS
-THTtyv
-THZoff
-THZzh-hans
-THZzh-sg
 TIMES_NEW_ROMAN_HACK_Rules
-TIVvmw
-TLAam
-TLAav
-TLBbfy
-TOSny
-TOSstq
-TRCcrj
-TRKkr
-TSAath
+TMu,
+TTT[
 TT_Access_Glyph_Frame
 TT_Done_Context
 TT_Forget_Glyph_Frame
@@ -2578,7 +2601,6 @@ TT_Set_Var_Design
 TT_Vary_Get_Glyph_Deltas
 Tahoma
 Tcommaaccent
-Tes
 The PangoFc font map this font is associated with (Since: 1.26)
 The fontconfig pattern for this font
 Thorn
@@ -2592,6 +2614,7 @@ Trebuchet MS
 True
 TrueType
 Trunc
+Trunc 
 Tsmall
 Tunga
 Type 42
@@ -2618,27 +2641,12 @@ Type* OT::hb_serialize_context_t::extend_min(Type&) [with Type = OT::Ligature]
 Type* OT::hb_serialize_context_t::extend_min(Type&) [with Type = OT::Lookup]
 Type* OT::hb_serialize_context_t::extend_min(Type&) [with Type = OT::SingleSubstFormat1]
 Type* OT::hb_serialize_context_t::extend_min(Type&) [with Type = OT::SingleSubstFormat2]
-Tz
-T|
-T~
-U
-UABbcl
-UAHhar
-UANnag
-UBRbyn
 UCS-2BE
-UEDdgo
-UHCcwd
+UEUeUt
 UIDBase
-UINniv
-UNIja
-URW
 UTF-16BE
 UTF-8
-UUKks
 UVWXYZ
-UXSsyl
-UYKla
 Uacute
 Uacutesmall
 Ubuntu
@@ -2648,27 +2656,18 @@ Udieresis
 Udieresissmall
 Ugrave
 Ugravesmall
-Unable to create CACHEDIR.TAG at %s
-Unable to normalize %s
-Unable to open font file %s for font %s, exiting
-Unable to open font file %s for font %s, falling back to %s
+Unable to create CACHEDIR.TAG at %s\n
+Unable to normalize %s\n
+Unable to open font file %s for font %s, exiting\n
+Unable to open font file %s for font %s, falling back to %s\n
 UnderlinePosition
 UnderlineThickness
 UniqueID
 Unknown FreeType2 error %#x
 Update_Max.part.36
 Usmall
-V
-V'
-VAJka
-VIDdyu
-VITtk
-VLSsm
-VONnqo
-VRHhsb
-VUFfy
-VUTtyz
-VV
+V$VYW
+V,V7VB
 VVector
 Verdana
 Verdana Clones
@@ -2677,50 +2676,28 @@ Vertical_Sweep_Drop
 Vertical_Sweep_Init
 Vertical_Sweep_Span
 Vertical_Sweep_Step
-Vs
+VgVrV
 Vsmall
-W
-W0
-W0X
-W0Y
-W1
-W1X
-W1Y
-WAGgd
-WAHhay
-WAMdin
-WAMmus
-WAMmwk
-WAMmww
-WAMsa
-WAMsxu
-WAMwtm
+W$W>WBWSW
+W,W6
 WEIGHT_NAME
-WENng
-WHKki
-WKMml
-WMLniu
-WSKku
-WWMmy
-WX
-WY
 Wansung
 Webdings
 Weight
 WeightVector
+WiWr
 Windows FNT
 Wingdings
 Write_CVT
 Write_CVT_Stretched
 Wsmall
-X
-X `
-X'
+XCXVXac
 XDG_CACHE_HOME
 XDG_CONFIG_HOME
 XDG_DATA_HOME
 XFree86
 XHeight
+XIXP
 XML_ErrorString
 XML_GetBuffer
 XML_GetCurrentLineNumber
@@ -2732,76 +2709,77 @@ XML_SetCharacterDataHandler
 XML_SetDoctypeDeclHandler
 XML_SetElementHandler
 XML_SetUserData
-XNMha
-XRBbs
+XP@n2
 X_SCALING_Rules
-Xo
 Xorg
-Xp
-Xr
-Xs
 Xsmall
-Xt
-Y
-Y&Y
-Y'
-Y@ -
-YAHhaz
-YDAaf
-YGTtig
-YHCckb
-YKSskr
-YLMmsc
-YMRrn
-YORru
-YPBbqi
-YSCcsb
-YSRrup
-YUKkex
+YLYVh
+Y]Ym[u[
 Yacute
 Yacutesmall
 Ydieresis
 Ydieresissmall
+YeYii
 Ysmall
-Z
-Z'
-ZAHhe
-ZAKkl
-ZALmad
-ZEGggo
-ZELlg
-ZIMluy
-ZMGguz
-ZOKkpy
-ZREmzn
-ZTLlbe
-ZUGgv
-ZUQquc
-ZUQraj
-ZWSst
-ZYTtzm
+Z!Z1
+ZDZUZ]Zj
 Zcaron
 Zcaronsmall
 Zsmall
-[
+[#[/[:[[[c[n
 [%g %g; %g %g]
-['
 [edit]
-[marker]
 [test]
-\
-\'
-\-:,
-\=_:,
-]
-]'
-^
-^'
-^q
-^y
-^|
-^
-_
+\!\(\A\\\~\
+\]^_`abcdef
+\f$\f1\f=\fH\fU\fa\fl\fy\f
+\f(\f6\fC\fP\f_\fn\f|\f
+\f0fr
+\f4fr
+\f8fr
+\f\v\n\f\v\n\f\v\n\f\v
+\fdUy
+\fzh-hk
+\n"\n)\n7\nA\nH\nS\nc\np\n|\n
+\n0es
+\n4es
+\n8es
+\nDes
+\nHes
+\nLes
+\nPes
+\nTes
+\n\t\n\t\t\t\n\t\n\t\t
+\ncharsets %d -> %d leaves %d -> %d\n
+\r#\r4\rE\rV\rg\r
+\r%\r1\rB\rQ\rZ\rf\rr\r~\r
+\r8STs\ne
+\t \t$\t6\tI\tY\th\ts\tz\t
+\t'\t8\tI\tZ\tx\t
+\t0PP
+\t0en
+\t4en
+\tDen
+\tHen
+\tLoading config file %s\n
+\tMissing bitmap %s\n
+\tMissing string %s\n
+\tScanning config dir %s\n
+\tScanning dir %s\n
+\tScanning file %s...
+\tStyle %s maps to decorative %d\n
+\tStyle %s maps to slant %d\n
+\tStyle %s maps to weight %d\n
+\tStyle %s maps to width %d\n
+\tType1 weight %s maps to %d\n
+\t\vhb-ot-shape-complex-thai.cc
+\tos2 weight class %d maps to weight %d\n
+\tos2 width class %d maps to width %d\n
+\tsetwidth %s maps to %d\n
+\v"\v,\v9\vE\vR\v[\ve\vr\v
+\vD]GW
+\v\f\f\v\n\f\v\n\f\v\n\f\v\t\f
+\v\v\v\v\v\v\v\v\v\v\v\v
 _DYNAMIC
 _FcBaseConstants
 _FcConfigHomeEnabled
@@ -2815,7 +2793,6 @@ _Jv_RegisterClasses
 _MULE_BASELINE_OFFSET
 _MULE_RELATIVE_COMPOSE
 _XFREE86_GLYPH_RANGES
-_Zt@
 __CTOR_END__
 __CTOR_LIST__
 __DTOR_END__
@@ -3000,12 +2977,6 @@ _sea_syllable_machine_trans_targs
 _setjmp
 _setjmp@@GLIBC_2.2.5
 _try_writable(hb_blob_t*)
-`
-`!
-`$
-`&
-`,
-`2@
 `BBX' field missing
 `BBX' too big
 `CHARS' field missing
@@ -3015,16 +2986,8 @@ _try_writable(hb_blob_t*)
 `SIZE' field missing
 `STARTCHAR' field missing
 `STARTFONT' field missing
-`f
-`j
-`q
-`u
-`}
-a
-a$
-a'
-a1
-a10
+a'aCaYb"b8b
+a-a8
 a100
 a101
 a102
@@ -3035,14 +2998,12 @@ a106
 a107
 a108
 a109
-a11
 a110
 a111
 a112
 a117
 a118
 a119
-a12
 a120
 a121
 a122
@@ -3053,7 +3014,6 @@ a126
 a127
 a128
 a129
-a13
 a130
 a131
 a132
@@ -3064,7 +3024,6 @@ a136
 a137
 a138
 a139
-a14
 a140
 a141
 a142
@@ -3075,7 +3034,6 @@ a146
 a147
 a148
 a149
-a15
 a150
 a151
 a152
@@ -3086,7 +3044,6 @@ a156
 a157
 a158
 a159
-a16
 a160
 a161
 a162
@@ -3097,7 +3054,6 @@ a166
 a167
 a168
 a169
-a17
 a170
 a171
 a172
@@ -3108,7 +3064,6 @@ a176
 a177
 a178
 a179
-a18
 a180
 a181
 a182
@@ -3119,7 +3074,6 @@ a186
 a187
 a188
 a189
-a19
 a190
 a191
 a192
@@ -3130,8 +3084,6 @@ a196
 a197
 a198
 a199
-a2
-a20
 a200
 a201
 a202
@@ -3139,95 +3091,9 @@ a203
 a204
 a205
 a206
-a21
-a22
-a23
-a24
-a25
-a26
-a27
-a28
-a29
-a2i
-a3
-a30
-a31
-a32
-a33
-a34
-a35
-a36
-a37
-a38
-a39
-a4
-a40
-a41
-a42
-a43
-a44
-a45
-a46
-a47
-a48
-a49
-a5
-a50
-a51
-a52
-a53
-a54
-a55
-a56
-a57
-a58
-a59
-a6
-a60
-a61
-a62
-a63
-a64
-a65
-a66
-a67
-a68
-a69
-a7
-a70
-a71
-a72
-a73
-a74
-a75
-a76
-a77
-a78
-a79
-a8
-a81
-a82
-a83
-a84
-a85
-a86
-a87
-a88
-a89
-a9
-a90
-a91
-a92
-a93
-a94
-a95
-a96
-a97
-a98
-a99
-aa
+aJaP
+a\ft/tOtet
 aacute
-ab
 abcdefghijklmnopqrstuvwxyz
 accept
 acceptfont
@@ -3235,12 +3101,12 @@ access
 access@@GLIBC_2.2.5
 acircumflex
 acute
-adding fonts from%s
+adding fonts from%s\n
 addtag
 adieresis
+adnK
 adobe
-ae
-af
+aeam
 af_autofitter_done
 af_autofitter_init
 af_autofitter_interface
@@ -3406,33 +3272,27 @@ afm_tokenize
 agfa
 agrave
 ahoj
-ak
 alias
-all
+all 
 all_shapers
 alltype
 altsys
-am
 ampersand
 ampersandsmall
-an
 analysis != NULL
-and
 antialias
 antiqua
-any
+any 
 append
 append_last
 apple
-apply_string<GPOSProxy>(OT::hb_apply_context_t*, GPOSProxy::Lookup const&, hb_ot_layout_lookup_accelerator_t const&)::__PRETTY_FUNCTION__
 approxequal
-ar
 arabic_fallback_features
 arabic_fallback_plan_destroy(arabic_fallback_plan_t*)
 arabic_fallback_plan_nil
 arabic_fallback_shape(hb_ot_shape_plan_t const*, hb_font_t*, hb_buffer_t*)
-arabic_fallback_synthesize_lookup_ligature(hb_ot_shape_plan_t const*, hb_font_t*) [clone .isra.40]
-arabic_fallback_synthesize_lookup_single(hb_ot_shape_plan_t const*, hb_font_t*, unsigned int) [clone .isra.41]
+arabic_fallback_synthesize_lookup_ligature(hb_ot_shape_plan_t const*, hb_font_t*) (.isra.40)
+arabic_fallback_synthesize_lookup_single(hb_ot_shape_plan_t const*, hb_font_t*, unsigned int) (.isra.41)
 arabic_features
 arabic_shaping_action
 arabic_state_table
@@ -3440,17 +3300,14 @@ argument stack underflow
 aring
 arphic
 array allocation size too large
-as
 asciicircum
 asciitilde
 aspect
 assign
 assign_replace
 asso_values.6503
-ast
 asterisk
 asuperior
-at
 atexit
 atexit.c
 atilde
@@ -3458,30 +3315,26 @@ autofit.c
 autofit_module_class
 autofitter
 autohint
-av
 avaJ
-ay
-az
+aveD
+ayrO
 az-az
 az-ir
-b
-b$
-b&h
-b'
-b,
-ba
+b%DD
+b(b0
+bBbMb
+bTbm
+b^be
 backslash
 bad alias
 bad argument
 bad font selector
-bar
 basic-fc.c
 basic_engine_fc_class_init
 basic_engine_fc_type
 basic_engine_shape
 basic_features
 basic_scripts
-bdf
 bdf.c
 bdf_cmap_char_index
 bdf_cmap_char_next
@@ -3496,36 +3349,28 @@ bdf_get_charset_id
 bdf_get_font_property
 bdf_service_bdf
 bdf_services
-be
 ber-dz
 ber-ma
-bg
-bh
-bho
-bi
-bin
 bin2hex
 binding
 bitmap != NULL
 bitstream
 blank
-bm
-bn
-bo
+bmys
 book
 bool
-bool OT::OffsetTo<OT::AnchorMatrix, OT::IntType<unsigned short, 2u> >::sanitize<unsigned int>(OT::hb_sanitize_context_t*, void*, unsigned int)
-bool OT::OffsetTo<OT::FeatureParams, OT::IntType<unsigned short, 2u> >::sanitize<unsigned int>(OT::hb_sanitize_context_t*, void*, unsigned int)
-bool OT::OffsetTo<OT::OffsetListOf<OT::AnchorMatrix>, OT::IntType<unsigned short, 2u> >::sanitize<unsigned int>(OT::hb_sanitize_context_t*, void*, unsigned int)
+bool OT::OffsetTo<OT::AnchorMatrix, OT::IntType<unsigned short, 2u>>::sanitize<unsigned int>(OT::hb_sanitize_context_t*, void*, unsigned int)
+bool OT::OffsetTo<OT::FeatureParams, OT::IntType<unsigned short, 2u>>::sanitize<unsigned int>(OT::hb_sanitize_context_t*, void*, unsigned int)
+bool OT::OffsetTo<OT::OffsetListOf<OT::AnchorMatrix>, OT::IntType<unsigned short, 2u>>::sanitize<unsigned int>(OT::hb_sanitize_context_t*, void*, unsigned int)
 bool OT::hb_apply_context_t::skipping_backward_iterator_t::prev()
 bool OT::hb_apply_context_t::skipping_forward_iterator_t::next()
 bool OT::hb_would_apply_context_t::dispatch<OT::ChainContextFormat3>(OT::ChainContextFormat3 const&)
 bool apply_string(OT::hb_apply_context_t*, const typename Proxy::Lookup&, const hb_ot_layout_lookup_accelerator_t&) [with Proxy = GPOSProxy, typename Proxy::Lookup = OT::PosLookup]
+bool apply_string<GPOSProxy>(OT::hb_apply_context_t*, GPOSProxy::Lookup const&, hb_ot_layout_lookup_accelerator_t const&)::__PRETTY_FUNCTION__
 bool apply_string<GSUBProxy>(OT::hb_apply_context_t*, GSUBProxy::Lookup const&, hb_ot_layout_lookup_accelerator_t const&)
 bool hb_buffer_t::make_room_for(unsigned int, unsigned int)
 bool hb_buffer_t::move_to(unsigned int)
 bool hb_buffer_t::shift_forward(unsigned int)
-br
 braceleft
 braceright
 bracketleft
@@ -3535,29 +3380,23 @@ broken file
 broken offset within table
 broken table
 brokenbar
-brx
-bs
 bsearch
 bsearch@@GLIBC_2.2.5
 bsuperior
-bt
-btt
-bua
 buffer->content_type == HB_BUFFER_CONTENT_TYPE_GLYPHS
 buffer->content_type == HB_BUFFER_CONTENT_TYPE_UNICODE
 buffer->content_type == HB_BUFFER_CONTENT_TYPE_UNICODE || (!buffer->len && buffer->content_type == HB_BUFFER_CONTENT_TYPE_INVALID)
 buffer->have_positions
 bullet
+bwb~
 by_encoding
-byn
 byte_i < 8 && byte_i + count <= 8
-c
-c$
-c&
-c'
-ca
+c c2
+c7cPc
+c>cG
+cZcccqc
 cache
-cache scan dir %s
+cache scan dir %s\n
 cache_lock
 cache_tag_contents.7177
 cached_buffer
@@ -3577,7 +3416,7 @@ caps
 caron
 ccaron
 ccedilla
-ce
+cdefgh
 cedilla
 ceil
 ceil@@GLIBC_2.2.5
@@ -3617,7 +3456,6 @@ cf2_stack_getReal
 cf2_stack_popFixed
 cf2_stack_popInt
 cf2_stack_pushInt
-cff
 cff.c
 cff_builder_add_contour
 cff_builder_add_point.isra.6
@@ -3697,19 +3535,15 @@ cff_slot_init
 cff_slot_load
 cff_standard_encoding
 cff_subfont_load
-ch
 charToValue
 character map (cmap) table missing
 charcell
 charheight
 charset
-charsets %d -> %d leaves %d -> %d
 charwidth
 check_type1_format
-chm
 chmod
 chmod@@GLIBC_2.2.5
-chr
 cid_driver_done
 cid_driver_init
 cid_face_done
@@ -3736,6 +3570,7 @@ cid_size_request
 cid_slot_done
 cid_slot_init
 cid_slot_load_glyph
+cinu
 circumflex
 class.17172
 clear_syllables(hb_ot_shape_plan_t const*, hb_font_t*, hb_buffer_t*)
@@ -3745,7 +3580,6 @@ closedir@@GLIBC_2.2.5
 closefile
 cmap_cache->ref_count > 0
 cmpstringp
-co
 code overflow
 collect_features_arabic(hb_ot_shape_planner_t*)
 collect_features_hangul(hb_ot_shape_planner_t*)
@@ -3767,7 +3601,7 @@ compare_offsets
 compare_uni_maps
 compareulong
 completed.5889
-complex_ features in this font: %s
+complex_ features in this font: %s\n
 compose_hebrew(hb_ot_shape_normalize_context_t const*, unsigned int, unsigned int, unsigned int*)
 compose_hebrew(hb_ot_shape_normalize_context_t const*, unsigned int, unsigned int, unsigned int*)::sDageshForms
 compose_indic(hb_ot_shape_normalize_context_t const*, unsigned int, unsigned int, unsigned int*)
@@ -3783,22 +3617,15 @@ could not find context
 coverages
 create_face
 create_family
-crh
 crtstuff.c
-cs
 cs2c
-csb
-cu
 culmus
 currency
-cv
-cy
-d
-d$
-d'
-da
+d6d?a
+d]dbdpdyd
 dagger
 daggerdbl
+darkening-parameters
 data_create_arabic(hb_ot_shape_plan_t const*)
 data_create_hangul(hb_ot_shape_plan_t const*)
 data_create_indic(hb_ot_shape_plan_t const*)
@@ -3807,8 +3634,7 @@ data_destroy_hangul(void*)
 data_destroy_indic(void*)
 dcroat
 ddigits
-de
-decompose(hb_ot_shape_normalize_context_t const*, bool, unsigned int) [clone .constprop.8]
+decompose(hb_ot_shape_normalize_context_t const*, bool, unsigned int) (.constprop.8)
 decompose_indic(hb_ot_shape_normalize_context_t const*, unsigned int, unsigned int*, unsigned int*)
 decompose_unicode(hb_ot_shape_normalize_context_t const*, unsigned int, unsigned int*, unsigned int*)
 decorative
@@ -3829,13 +3655,12 @@ desc != NULL
 destroy_charmaps
 destroy_face
 destroy_size
+dhdl3
 dieresis
-dir
 direction_strings
 divide
 division by zero
 do_fixed
-doi
 dollar
 dollarinferior
 dollaroldstyle
@@ -3843,31 +3668,24 @@ dollarsuperior
 dotaccent
 dotlessi
 double
-dpi
 dsuperior
 dtor_idx.5891
 dual
 dunhill
-dup
-dv
 dynalab
-dz
-e
-e$
-e&
-e'
+e e%e.e=eM
+eZe}e
 eacute
+ebegeq
 ecircumflex
 edieresis
 edit
-ee
 eexec
 egrave
 eight
 eightinferior
 eightoldstyle
 eightsuperior
-el
 ellipsis
 embeddedbitmap
 embolden
@@ -3877,21 +3695,14 @@ empty
 empty cache directory name ignored
 empty font directory name ignored
 empty font pattern name ignored
-en
 en-us
 endash
 engine_type_id.17379
-eo
 epson
-eq
 equal
 error
 error_callback
-es
 esuperior
-et
-eth
-eu
 exclam
 exclamdown
 exclamdownsmall
@@ -3904,18 +3715,16 @@ extrabold
 extracondensed
 extraexpanded
 extralight
-f
-f$
-f&
-f'
-fa
+f!f=fEfwf
+f'f5
+fPfo
+fWfc
 failed reading config file
 fallback
 fallback-script
 false
 family
 familylang
-fat
 fcCacheChains
 fcCacheChains[i] == ((void *)0)
 fcCacheMaxLevel
@@ -3969,20 +3778,17 @@ features
 feof
 feof@@GLIBC_2.2.5
 ferp
-ff
-ffi
-ffl
+ferpfvbafwlbftspserpsvbaswlbstsptsid
+fffiflffifflstst
 fflush
 fflush@@GLIBC_2.2.5
 fhpr
 fhprferpfwlbftspserpsvbaswlbstsptsidmvbamwlb
-fi
 figuredash
 fijkdbh
-fil
 file
 final_reordering(hb_ot_shape_plan_t const*, hb_font_t*, hb_buffer_t*)
-final_reordering_syllable(hb_ot_shape_plan_t const*, hb_buffer_t*, unsigned int, unsigned int) [clone .isra.18]
+final_reordering_syllable(hb_ot_shape_plan_t const*, hb_buffer_t*, unsigned int, unsigned int) (.isra.18)
 final_reordering_syllable(hb_ot_shape_plan_t const*, hb_buffer_t*, unsigned int, unsigned int)::__PRETTY_FUNCTION__
 find_unicode_charmap
 find_variant_selector_charmap.isra.9
@@ -3991,8 +3797,6 @@ fiveeighths
 fiveinferior
 fiveoldstyle
 fivesuperior
-fj
-fl
 flah
 floor
 floor@@GLIBC_2.2.5
@@ -4004,7 +3808,6 @@ fnt_cmap_class_rec
 fnt_cmap_init
 fnt_font_done
 fnt_font_load
-fo
 font
 font != ((void *)0)
 font != NULL
@@ -4023,9 +3826,9 @@ fopen
 fopen@@GLIBC_2.2.5
 found ENDF opcode in execution stream
 found debug opcode
-found family (n %2d p %d e %d l 0x%04x) %s
-found full   (n %2d p %d e %d l 0x%04x) %s
-found style  (n %2d p %d e %d l 0x%04x) %s
+found family (n %2d p %d e %d l 0x%04x) %s\n
+found full   (n %2d p %d e %d l 0x%04x) %s\n
+found style  (n %2d p %d e %d l 0x%04x) %s\n
 foundry
 four
 fourinferior
@@ -4036,7 +3839,6 @@ fputc
 fputc@@GLIBC_2.2.5
 fputs
 fputs@@GLIBC_2.2.5
-fr
 fraction
 frame_dummy
 franc
@@ -4048,6 +3850,7 @@ free_langs()
 free_metrics_info
 free_static_shaper_list()
 free_static_shapers()
+frkr
 fstatfs
 fstatfs@@GLIBC_2.2.5
 ft2font->face
@@ -4173,18 +3976,14 @@ fullname
 fullnamelang
 func_interface
 funcs.16195
-fur
 fvar_fields.6931
 fvaraxis_fields.6932
 fvba
 fwlb
 fwrite
 fwrite@@GLIBC_2.2.5
-fy
-f{
-g
-g$
-g'
+g5g>gK
+gZgnhKhWhci
 g__cached_buffer_lock
 g_array_append_vals
 g_array_free
@@ -4288,10 +4087,8 @@ g_value_take_object
 g_weak_ref_clear
 g_weak_ref_get
 g_weak_ref_set
-ga
 gamma_ramp.4323
 gbreve
-gd
 germandbls
 get_first_font
 get_gravity_class
@@ -4304,18 +4101,16 @@ getenv
 getenv@@GLIBC_2.2.5
 getpid
 getpid@@GLIBC_2.2.5
-gez
-gid
 gid%u
-gl
 glob
 globaladvance
 glyph to big for hinting
 glyph-dict
 glyph-to-script-map
 glyph_index
+glyph_props
 glyphs != NULL
-gn
+gneB
 gneBaveDrjuGuruGadnKbmiLmylMayrOhniSdnuSolySlmaTuleTtbiTinaHpc2c
 grave
 gray_conic_to
@@ -4336,19 +4131,12 @@ gray_render_span
 gray_set_cell
 greater
 greaterequal
-gu
 guillemotleft
 guillemotright
 guilsinglleft
 guilsinglright
-gv
 gvar_fields.6870
-h
-h$
-h'
 h.6494
-h^
-ha
 hangul_features
 hangul_shaping_feature
 hanyang
@@ -4358,7 +4146,6 @@ hash_free
 hash_insert
 hash_lookup
 have_output
-haw
 hb-blob.cc
 hb-buffer.cc
 hb-common.cc
@@ -4370,6 +4157,7 @@ hb-glib.cc
 hb-open-type-private.hh
 hb-ot-layout-gsubgpos-private.hh
 hb-ot-layout.cc
+hb-ot-map-private.hh
 hb-ot-map.cc
 hb-ot-shape-complex-arabic.cc
 hb-ot-shape-complex-default.cc
@@ -4410,10 +4198,6 @@ hb_buffer_add_codepoints
 hb_buffer_add_utf16
 hb_buffer_add_utf32
 hb_buffer_add_utf8
-hb_buffer_add_utf<false, unsigned int>(hb_buffer_t*, unsigned int const*, int, unsigned int, int)::__PRETTY_FUNCTION__
-hb_buffer_add_utf<true, unsigned char>(hb_buffer_t*, unsigned char const*, int, unsigned int, int)::__PRETTY_FUNCTION__
-hb_buffer_add_utf<true, unsigned int>(hb_buffer_t*, unsigned int const*, int, unsigned int, int)::__PRETTY_FUNCTION__
-hb_buffer_add_utf<true, unsigned short>(hb_buffer_t*, unsigned short const*, int, unsigned int, int)::__PRETTY_FUNCTION__
 hb_buffer_allocation_successful
 hb_buffer_clear_contents
 hb_buffer_create
@@ -4585,8 +4369,8 @@ hb_font_set_user_data
 hb_font_subtract_glyph_origin_for_direction
 hb_font_t::em_scale_y(short)
 hb_font_t::get_glyph_contour_point_for_origin(unsigned int, unsigned int, hb_direction_t, int*, int*)
-hb_font_t::get_glyph_origin_for_direction(unsigned int, hb_direction_t, int*, int*) [clone .part.13]
-hb_font_t::get_glyph_origin_for_direction(unsigned int, hb_direction_t, int*, int*) [clone .part.15]
+hb_font_t::get_glyph_origin_for_direction(unsigned int, hb_direction_t, int*, int*) (.part.13)
+hb_font_t::get_glyph_origin_for_direction(unsigned int, hb_direction_t, int*, int*) (.part.15)
 hb_ft_face_create
 hb_ft_face_create_cached
 hb_ft_face_finalize(FT_FaceRec_*)
@@ -4687,7 +4471,7 @@ hb_set_create
 hb_set_del
 hb_set_del_range
 hb_set_destroy
-hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u> > >::may_have(unsigned int) const
+hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u>>>::may_have(unsigned int) const
 hb_set_get_empty
 hb_set_get_empty::_hb_set_nil
 hb_set_get_max
@@ -4707,7 +4491,7 @@ hb_set_set_user_data
 hb_set_subtract
 hb_set_symmetric_difference
 hb_set_t::add(unsigned int)
-hb_set_t::next(unsigned int*) const [clone .part.6]
+hb_set_t::next(unsigned int*) const (.part.6)
 hb_set_union
 hb_shape
 hb_shape_full
@@ -4769,12 +4553,10 @@ hb_version
 hb_version_atleast
 hb_version_string
 hdigits
-he
 header_fields.4237
 heavy
 hex.6530
-hg
-hi
+hijklmnopqrstuvwxyz{|}~
 hintfull
 hinting
 hinting-engine
@@ -4782,49 +4564,25 @@ hintmedium
 hintnone
 hintslight
 hintstyle
-hl
-hm
-hmttn
-hne
 hniS
-ho
 horizontal header (hhea) table missing
 horizontal metrics (hmtx) table missing
 horizontal_features
-hq
-hr
-hs
-hsb
-ht
-hu
 hungarumlaut
 hwan
-hy
 hyphen
 hypheninferior
 hyphensuperior
-hz
-i
-i <= len
 i <= out_len + (len - idx)
-i$
-i'
-ia
+i(i4i:iP
 iacute
-ibm
 icircumflex
-id
 idieresis
 idx >= count
-ie
-if
-ig
 ignore
 ignore-blanks
 ignore_missing
 igrave
-ii
-ik
 impress
 include
 increase-x-height
@@ -4841,21 +4599,20 @@ inflateEnd
 inflateInit2_
 inflateReset
 initial_reordering(hb_ot_shape_plan_t const*, hb_font_t*, hb_buffer_t*)
-initial_reordering_consonant_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) [clone .isra.27]
-initial_reordering_consonant_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) [clone .isra.6]
-initial_reordering_consonant_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) [clone .isra.8]
+initial_reordering_consonant_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) (.isra.27)
+initial_reordering_consonant_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) (.isra.6)
+initial_reordering_consonant_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) (.isra.8)
 initial_reordering_consonant_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int)::__PRETTY_FUNCTION__
 initial_reordering_standalone_cluster(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int)
 initial_reordering_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int)
-initial_reordering_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) [clone .isra.10]
-initial_reordering_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) [clone .isra.8]
+initial_reordering_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) (.isra.10)
+initial_reordering_syllable(hb_ot_shape_plan_t const*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int) (.isra.8)
 initialize.3855
 initialized.6621
 initialized_gamma.4322
 initstate_r
 initstate_r@@GLIBC_2.2.5
-int
-int OT::SortedArrayOf<OT::RangeRecord, OT::IntType<unsigned short, 2u> >::bsearch<unsigned int>(unsigned int const&) const
+int OT::SortedArrayOf<OT::RangeRecord, OT::IntType<unsigned short, 2u>>::bsearch<unsigned int>(unsigned int const&) const
 integral
 interleaf
 interpolate_position
@@ -4911,56 +4668,31 @@ invalid test ignore-blanks "%s"
 invalid test qual "%s"
 invalid test target "%s"
 invalid vertical metrics
-io
-is
 isFixedPitch
 is_alias_family
 is_member_of_family_class.part.38
 is_member_of_style_class.part.39
 is_zero_width_char(hb_font_t*, unsigned int)
 isuperior
-it
 italic
-itc
-iu
-j
-j'
-ja
+j02^
+jDjK
+j[ros
 joining_table
-jv
-jw
-k
-k'
+k k.k;m
+k(I\tAB
 k.6503
-ka
-kaa
-kab
+kZkjk
+k\vnK
 kerning
-ki
-kj
-kk
-kl
-km
-kn
-ko
-kok
-kr
-ks
-ku
 ku-am
 ku-iq
 ku-ir
 ku-tr
-kum
 kursiv
-kv
-kw
-kwm
-ky
-l
-l'
-la
-lah
+l*l3
+lElblrl
+lKlV
 lang
 lang_compare_first_component(char const*, char const*)
 langs
@@ -4968,7 +4700,6 @@ langset
 langset (alloc error)
 langset:
 larabiefonts
-lb
 lcddefault
 lcdfilter
 lcdlegacy
@@ -4981,9 +4712,6 @@ less
 less_eq
 lessequal
 letraset
-lez
-lg
-li
 libbz2.so.1.0
 libc.so.6
 libdl.so.2
@@ -5000,8 +4728,7 @@ ligature_table
 line != NULL
 link@@GLIBC_2.2.5
 linotype
-ln
-lo
+lmaT
 load_post_names
 load_truetype_glyph
 localeconv
@@ -5016,16 +4743,12 @@ lozenge
 lryCkerGrbeHntaL
 lslash
 lsuperior
-lt
 ltit
-ltr
-lv
-m
-m'
-m,
+mRmom}m
+mXme
+m\tm9e
 macromedia
 macron
-mai
 make_alias_description
 malloc@@GLIBC_2.2.5
 match
@@ -5045,9 +4768,6 @@ memory_stream_close
 memset
 memset@@GLIBC_2.2.5
 metrics_header_fields.4363
-mg
-mh
-mi
 microsoft
 minspace
 minus
@@ -5059,18 +4779,14 @@ missing pattern element name
 missing property
 missing test expression
 missing test name
-mk
 mkdir
 mkdir@@GLIBC_2.2.5
 mkostemp
 mkostemp@@GLIBC_2.7
-ml
 mmap
 mmap@@GLIBC_2.2.5
 mn-cn
 mn-mn
-mni
-mo
 mode
 module version is too low
 module-defs-fc.c
@@ -5081,45 +4797,39 @@ more
 more_eq
 mprotect
 mprotect@@GLIBC_2.2.5
-mr
-ms
 msuperior
-mt
-mu
 multi-masters
 multiply
 munmap
 munmap@@GLIBC_2.2.5
-my
+mvba
+mwlb
+myanmar_category
 myanmar_position
-n
-n'
-na
+mylM
+n2n?
+nJ,pf
+nPnq
+n^nf
 name
 name table missing
 name_record_fields.4269
 name_table_fields.4268
 nameid_order
 namelang
-nb
 ndro
-nds
-ne
-nec
 negative height while rastering
 nested DEFS
 nested frame access
 next_id
-ng
+nhka
 nibble_mask
-nil
 nine
 nineinferior
 nineoldstyle
 ninesuperior
-nl
-nn
-no
+nlah
+nmra
 no Unicode glyph name found
 no error
 no-stem-darkening
@@ -5129,38 +4839,29 @@ non-integer rescan
 nonbreakingspace
 nonmarkingreturn
 normal
-normalized: %s -> %s
-not
+normalized: %s -> %s\n
 not_contains
 not_eq
 not_first
+not_first 
 notequal
-nqo
-nr
-nso
 nsuperior
 ntilde
 nuke_joiners(hb_ot_shape_plan_t const*, hb_font_t*, hb_buffer_t*)
 num_items > 0
 number
 numbersign
-nv
-nw
-ny
-o
-o'
+oEoOoZoaozo
 oacute
 oblique
-oc
 ocircumflex
 odieresis
-oe
 offset_table_fields.4212
 ogonek
 ograve
-om
+ohoq
 omega
-one
+omjlomjvomjt
 onedotenleader
 oneeighth
 onefitted
@@ -5178,12 +4879,10 @@ open_face_PS_from_sfnt_stream.isra.23
 open_face_from_buffer
 opendir
 opendir@@GLIBC_2.2.5
-or
 ordfeminine
 ordinals_coverage
 ordinals_feature
 ordmasculine
-os
 os2_fields.4298
 os2_fields_extra1.4299
 os2_fields_extra2.4300
@@ -5192,7 +4891,6 @@ oslash
 osuperior
 ot_languages
 ot_languages_zh
-ota
 other_features
 other_types
 otilde
@@ -5205,11 +4903,9 @@ override_features_hangul(hb_ot_shape_planner_t*)
 override_features_indic(hb_ot_shape_planner_t*)
 override_features_myanmar(hb_ot_shape_planner_t*)
 override_features_sea(hb_ot_shape_planner_t*)
-p
 p != ((void *)0)
-p'
+p#p7pP
 p@PangoOTInfo
-pa
 pa-pk
 pacp
 pango-ot-buffer.c
@@ -5396,7 +5092,7 @@ pango_ft2_get_unknown_glyph
 pango_ft2_global_fontmap
 pango_ft2_new_face_substitute
 pango_ft2_render
-pango_ft2_render: Unrecognized glyph bitmap pixel mode %d
+pango_ft2_render: Unrecognized glyph bitmap pixel mode %d\n
 pango_ft2_render_layout
 pango_ft2_render_layout_line
 pango_ft2_render_layout_line_subpixel
@@ -5517,8 +5213,9 @@ pat != ((void *)0)
 patelt
 pats->ref_count > 0
 pattern
+pattern 
 pattern != NULL
-pcf
+pc2c
 pcf.c
 pcf_accel_header
 pcf_accel_msb_header
@@ -5559,8 +5256,6 @@ petite_capitals_coverage
 petite_capitals_feature
 petite_capitals_from_capitals_coverage
 petite_capitals_from_capitals_feature
-pf
-pfr
 pfr-metrics
 pfr.c
 pfr_aux_name_load
@@ -5592,11 +5287,7 @@ pfr_services
 pfr_slot_done
 pfr_slot_init
 pfr_slot_load
-ph
-pi
 pixelsize
-pj
-pl
 platform_order
 plus
 plusminus
@@ -5645,7 +5336,6 @@ png_set_strip_16
 png_set_strip_16@@PNG12_0
 png_set_tRNS_to_alpha
 png_set_tRNS_to_alpha@@PNG12_0
-po
 position not on list
 posix_fadvise
 posix_fadvise@@GLIBC_2.2.5
@@ -5654,12 +5344,9 @@ postscript-cmaps
 postscript-font-name
 postscript-info
 postscriptname
-pow
 pow@@GLIBC_2.2.5
 power_tens
-pp
 pqgjy
-pr
 prefer
 prefix
 premultiply_data
@@ -5674,7 +5361,6 @@ properties
 property
 proportional
 props->direction != HB_DIRECTION_INVALID
-ps
 ps-af
 ps-pk
 ps_dimension_add_t1stem
@@ -5751,7 +5437,6 @@ psnames
 psnames.c
 psnames_get_service
 psnames_module_class
-pt
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
@@ -5763,13 +5448,10 @@ pthread_mutex_unlock@@GLIBC_2.2.5
 putchar
 putchar@@GLIBC_2.2.5
 puts@@GLIBC_2.2.5
-q
-q'
-qms
+q4qIqQ
+qYqaqnq
 qsort
 qsort@@GLIBC_2.2.5
-qu
-quest
 question
 questiondown
 questiondownsmall
@@ -5782,9 +5464,8 @@ quoteleft
 quoteright
 quotesinglbase
 quotesingle
-quz
-r
-r'
+r*r4r;
+rQr\
 ra_chars
 raccess_guess_apple_double
 raccess_guess_apple_generic.isra.13
@@ -5808,6 +5489,7 @@ raster overflow
 raster uninitialized
 raster.c
 raster1
+raster5
 rasterizer
 read@@GLIBC_2.2.5
 readFromStack.7497
@@ -5848,60 +5530,47 @@ result != ((void *)0)
 rgba
 ricoh
 ring
-rm
+rjuG
 rmdir
 rmdir@@GLIBC_2.2.5
 rmhK
-rn
-ro
 roman
 romansc
 round
 rsuperior
-rtl
-ru
 ruby_coverage
 ruby_feature
 ruleset.17421
 rupiah
-rw
-rz
-s
-s'
+s&sg
+s1s:sHsX
 s_FT_New_Face
 s_pchFilterString
-sa
-sah
 same
 sans
-sat
 saw %s, expected %s
 sbus
-sc
 scalable
 scale
-scan
+scan 
 scandir
 scandir@@GLIBC_2.2.5
 scaron
 scedilla
 scientific_inferiors_coverage
 scientific_inferiors_feature
-sco
 script_engines
 scripts
-sd
-se
 sea_category
 sea_position
 section
-sel
 selectfont
 semibold
 semicolon
 semicondensed
 semiexpanded
 serif
+serp
 setlocale
 setlocale@@GLIBC_2.2.5
 sets != ((void *)0)
@@ -5937,61 +5606,45 @@ sfnt_service_sfnt_table
 sfnt_services
 sfnt_stream_close
 sfnt_table_info
-sg
-sh
 shadow
 shape_plan->face_unsafe == font->face
 shaping_table
-shs
 shutdown_font
-si
-sid
-six
+sijs
 sixinferior
 sixoldstyle
 sixsuperior
 size
-sk
 skip_literal_string
 skip_procedure
 skip_spaces
 skip_string
-sl
 slant
 slantConsts
 slash
 sliding_scale
-sm
-sma
 small_capitals_coverage
 small_capitals_feature
 small_capitals_from_capitals_coverage
 small_capitals_from_capitals_feature
-smj
-smn
 smooth
 smooth-lcd
 smooth-lcdv
 smooth.c
-sms
-sn
+smsv
+snaw
 snprintf
 snprintf@@GLIBC_2.2.5
-so
 space
 spacing
 sph_test_tweak
 sprintf@@GLIBC_2.2.5
 spus
-sq
 sqrt
 sqrt@@GLIBC_2.2.5
-sr
-ss
 sscanf
 sscanf@@GLIBC_2.2.5
 ssuperior
-st
 stack overflow
 stage <= stages[table_index].len
 statebuf.6620
@@ -6034,9 +5687,9 @@ strtol
 strtol@@GLIBC_2.2.5
 strtoul
 strtoul@@GLIBC_2.2.5
+stsp
 style
 stylelang
-su
 subscript_coverage
 subscript_feature
 summation
@@ -6044,17 +5697,14 @@ superblack
 superbold
 superscript_coverage
 superscript_feature
-sv
+svba
 svbaswlbmvbamwlb
-sw
+swlb
 syllable
 symlink
 symlink@@GLIBC_2.2.5
-syr
 sysconf
 sysconf@@GLIBC_2.2.5
-t
-t'
 t1_allocate_blend
 t1_args_count
 t1_builder_add_contour
@@ -6134,17 +5784,15 @@ t42_service_glyph_dict
 t42_service_ps_font_name
 t42_service_ps_info
 t42_services
-ta
+t5tF
+tUt[
 table_dir_entry_fields.4195
 table_tags
-tan
 tan@@GLIBC_2.2.5
 target
+tcjc
 tcommaaccent
-te
 test
-tg
-th
 thai_above_start_state
 thai_above_state_machine
 thai_below_start_state
@@ -6166,11 +5814,9 @@ threeoldstyle
 threequarters
 threequartersemdash
 threesuperior
-ti
 ti-er
 ti-et
 tibetan_features
-tig
 tilde
 time
 time@@GLIBC_2.2.5
@@ -6180,11 +5826,9 @@ tiniidemaniflosigilr
 tiro
 titling_coverage
 titling_feature
-tk
-tl
+tkun
 tlacgilcsrucnrekagiltlcr
-tn
-to
+tlt~
 too few arguments
 too many elements in range
 too many extensions
@@ -6193,7 +5837,6 @@ too many hints
 too many instruction definitions
 too many modules
 too many registered caches
-tr
 trademark
 trick_names.5306
 true
@@ -6201,9 +5844,8 @@ truetype
 truetype-engine
 truetype.c
 trunc
-ts
+tsid
 tsuperior
-tt
 tt-cmaps
 tt-glyf
 tt_cmap0_char_index
@@ -6350,38 +5992,32 @@ tt_size_reset
 tt_size_run_prep
 tt_size_select
 tt_slot_init
-ttb
 ttc_header_fields.5714
-tw
-two
 twodotenleader
 twoinferior
 twooldstyle
 twosuperior
 twothirds
-ty
 type1
 type1.c
 type1cid.c
 type42
 type42.c
-tyv
-u
-u'
-u,
+u,uEu
+uKu`
 uacute
 ucircumflex
 udieresis
-ug
 ugrave
-uk
+uleT
 ultrablack
 ultrabold
 ultracondensed
 ultraexpanded
 ultralight
+uluzu
 underscore
-uni
+unicode_props0
 unicode_props1
 unimplemented feature
 uniquify_pattern
@@ -6397,32 +6033,34 @@ unlisted object
 unlock_cache
 unsupported glyph image format
 unwritable
-ur
-urw
+uruG
 userconf.8047
 userdir.8046
-using FreeType family "%s"
-using FreeType style "%s"
-using filename for family %s
-uz
-v
-v'
+using FreeType family "%s"\n
+using FreeType style "%s"\n
+using filename for family %s\n
+utav
+uvwxy
+v8vUb
+vRQ>
 valueToChar
 vbgr
-ve
 verticallayout
 vfprintf
 vfprintf@@GLIBC_2.2.5
-vi
-vo
+vnvyv
 void
 void OT::Coverage::add_coverage<hb_set_t>(hb_set_t*) const
-void OT::SubstLookup::add_coverage<hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u> > > >(hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u> > >*) const
+void OT::SubstLookup::add_coverage<hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u>>>>(hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u>>>*) const
 void final_reordering_syllable(const hb_ot_shape_plan_t*, hb_buffer_t*, unsigned int, unsigned int)
 void hb_buffer_add_utf(hb_buffer_t*, const T*, int, unsigned int, int) [with bool validate = false, T = unsigned int, hb_buffer_t = hb_buffer_t]
 void hb_buffer_add_utf(hb_buffer_t*, const T*, int, unsigned int, int) [with bool validate = true, T = short unsigned int, hb_buffer_t = hb_buffer_t]
 void hb_buffer_add_utf(hb_buffer_t*, const T*, int, unsigned int, int) [with bool validate = true, T = unsigned char, hb_buffer_t = hb_buffer_t]
 void hb_buffer_add_utf(hb_buffer_t*, const T*, int, unsigned int, int) [with bool validate = true, T = unsigned int, hb_buffer_t = hb_buffer_t]
+void hb_buffer_add_utf<false, unsigned int>(hb_buffer_t*, unsigned int const*, int, unsigned int, int)::__PRETTY_FUNCTION__
+void hb_buffer_add_utf<true, unsigned char>(hb_buffer_t*, unsigned char const*, int, unsigned int, int)::__PRETTY_FUNCTION__
+void hb_buffer_add_utf<true, unsigned int>(hb_buffer_t*, unsigned int const*, int, unsigned int, int)::__PRETTY_FUNCTION__
+void hb_buffer_add_utf<true, unsigned short>(hb_buffer_t*, unsigned short const*, int, unsigned int, int)::__PRETTY_FUNCTION__
 void hb_buffer_normalize_glyphs(hb_buffer_t*)
 void hb_buffer_t::allocate_var(unsigned int, unsigned int, const char*)
 void hb_buffer_t::assert_var(unsigned int, unsigned int, const char*)
@@ -6435,22 +6073,16 @@ void hb_ot_map_t::apply<GPOSProxy>(GPOSProxy const&, hb_ot_shape_plan_t const*, 
 void hb_ot_map_t::apply<GSUBProxy>(GSUBProxy const&, hb_ot_shape_plan_t const*, hb_font_t*, hb_buffer_t*) const
 void hb_ot_map_t::get_stage_lookups(unsigned int, unsigned int, const hb_ot_map_t::lookup_map_t**, unsigned int*) const
 void initial_reordering_consonant_syllable(const hb_ot_shape_plan_t*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int)
-vot
 vrgb
-v|
-w
-w'
-wa
-wal
+wDwNwYw`wy
 warn_conf.8060
 warn_confd.8061
 warning
 warning_callback
-wb
 weak
 weight
 weightConsts
-wen
+wgwp
 width
 widthConsts
 winfnt.c
@@ -6468,48 +6100,33 @@ winpe32_section_fields
 winpe_rsrc_data_entry_fields
 winpe_rsrc_dir_entry_fields
 winpe_rsrc_dir_fields
-wo
 woff_header_fields.5681
 wordlist.6562
-would_substitute_feature_t::init(hb_ot_map_t const*, unsigned int, bool) [clone .part.26]
+would_substitute_feature_t::init(hb_ot_map_t const*, unsigned int, bool) (.part.26)
 write cache
 write@@GLIBC_2.2.5
 wrong number of matrix elements
-x
-x'
 x-hbot
-xdg
+x>xoxyx~
+xIxRx[xe
 xf86-driver-name
 xfree86
-xh
-xl
-xm
-xo
 xorg
-xp
-xq
-xs
-xx
 xzroesc
-y
-y&y
-y'
+y'y6y?yMa
+yZygy
 yacute
-yap
 ybur
 ydieresis
-yen
-yi
-yo
-z
-z'
-za
+ymyx
+z<zRz_zvz
+zCzI
 zcaron
 zero
 zeroinferior
 zerooldstyle
 zerosuperior
-zh
+zezn
 zh-Hans
 zh-Hant
 zh-cn
@@ -6517,27 +6134,3 @@ zh-hk
 zh-mo
 zh-sg
 zh-tw
-zu
-{
-{'
-|
-|'
-|v
-|}
-|
-}
-}'
-~
-~'
-~,
-~r
-~s
-~t
-~z
-
-'
-,
-.
-=
-
-=

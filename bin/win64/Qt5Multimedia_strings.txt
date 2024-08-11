@@ -1,68 +1,14 @@
-	;QT}
-	;QT}	Hc
-	?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
-	?currentPath@QDir@@SA?AVQString@@XZ
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
- A\_^][
- A]_^
- A^^]
- A^_^
- A^_^][
- A_A\_
- A_A]A\_^
- A_A]_^[
- A_A^A\_^
- A_A^A]A\_
- A_A^]
- A_A^_
- A__]
- H3E H3E
  out of limit[
- wHHc
-!This program cannot be run in DOS mode.
 #EXTINF:
 #EXTM3U
-$M;7u7H;
+#\v?end@QJsonArray@@QEBA?AVconst_iterator@1@XZ
 %1 does not exist
 %1 playlist type is unknown
-%1%2.%3
-%1*.%2
 %1:%2.%3 - %4:%5.%6
 %1:%2.%3 - forever
 %1:%2:%3.%4 - %5:%6:%7.%8
 %1:%2:%3.%4 - forever
-(A^A\^]
-(A^_^[
-(A_A^
-(A_A^A]]
-(A_A^_^][
-(D$ H
-(D$0A
-(D$0E
-(D$0E+
-(D$0H
-(D$0f
-(D$@E
-(D$@H
-(D$@f
-(D$Pf
-(D$`H
-(t$ H
-(t$0H
-(t$PH
-(t$pH
-(|$@H
-(|$pL
-)t$ H
-)t$0H
-)t$PH
+&\v?end@QListData@@QEBAPEAPEAXXZ
 , byteOrder=
 , codec=
 , handleType=
@@ -71,6 +17,7 @@ $M;7u7H;
 , sampleType=
 , viewport=
 , yCbCrColorSpace=
+,\f?firstNode@QHashData@@QEAAPEAUNode@1@XZ
 .00cfg
 .?AUQAudioSystemFactoryInterface@@
 .?AUQMediaPlaylistIOInterface@@
@@ -231,6 +178,7 @@ $M;7u7H;
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -250,29 +198,16 @@ $M;7u7H;
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-0A^_^
-0A^_^H
-0A_A^A\
-0A_A^A\_^
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]_^
-0A_A^^
-0A_A^_
-0A_A^_^[
-0A_A^_^]
-0A__^
-0_][H
 1_q_availabilityChanged()
 1_q_availabilityChanged(QMultimedia::AvailabilityStatus)
 1_q_error(int,QString)
@@ -312,6 +247,7 @@ $M;7u7H;
 1sampleReady()
 1screenOrientationChanged(Qt::ScreenOrientation)
 1stateChanged(QAudio::State)
+2\vp!R
 2activated(QMediaContent)
 2activeInputChanged(QString)
 2actualLocationChanged(QUrl)
@@ -424,16 +360,10 @@ $M;7u7H;
 2volumeChanged(int)
 2volumeChanged(qreal)
 2writableChanged(bool)
-3k$A3
-8	?convert@QVariant@@QEBA_NHPEAX@Z
-8A u$H
-8A^A]
-8A_A^[]
-8A_A^^]
-8A__^[
-9wPt*3
-</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+3\n?data@QByteArray@@QEAAPEADXZ
+4\n?data@QByteArray@@QEBAPEBDXZ
+8\t?convert@QVariant@@QEBA_NHPEAX@Z
+>\n?data@QString@@QEBAPEBVQChar@@XZ
 ??0QAbstractAudioBuffer@@QEAA@AEBV0@@Z
 ??0QAbstractAudioBuffer@@QEAA@XZ
 ??0QAbstractAudioDeviceInfo@@QEAA@XZ
@@ -1456,11 +1386,7 @@ $M;7u7H;
 ?d_func@QRadioTuner@@AEBAPEBVQRadioTunerPrivate@@XZ
 ?data@QAudioBuffer@@QEAAPEAXXZ
 ?data@QAudioBuffer@@QEBAPEBXXZ
-?data@QByteArray@@QEAAPEADXZ
-?data@QByteArray@@QEBAPEBDXZ
 ?data@QSample@@QEBAAEBVQByteArray@@XZ
-?data@QString@@QEBAPEBVQChar@@XZ
-?data@QVariant@@QEAAPEAXXZ
 ?dataSize@QMediaResource@@QEBA_JXZ
 ?decoderError@QSample@@AEAAXXZ
 ?decoderReady@QSample@@AEAAXXZ
@@ -1471,14 +1397,10 @@ $M;7u7H;
 ?defaultLocation@QMediaStorageLocation@@QEBA?AVQDir@@W4MediaType@1@@Z
 ?defaultOutputDevice@QAudioDeviceInfo@@SA?AV1@XZ
 ?defaultServiceProvider@QMediaServiceProvider@@SAPEAV1@XZ
-?deleteLater@QObject@@QEAAXXZ
 ?deleteOnComplete@QSound@@AEAAXXZ
 ?denoisingLevel@QCameraImageProcessing@@QEBANXZ
 ?description@QCameraInfo@@QEBA?AVQString@@XZ
 ?destroyResourceSet@QMediaResourcePolicy@@SAXPEAVQObject@@@Z
-?detach@QListData@@QEAAPEAUData@1@H@Z
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
 ?device@QMediaServiceProviderHint@@QEBA?AVQByteArray@@XZ
 ?deviceDescription@QCamera@@SA?AVQString@@AEBVQByteArray@@@Z
 ?deviceDescription@QMediaServiceProvider@@UEAA?AVQString@@AEBVQByteArray@@0@Z
@@ -1488,11 +1410,6 @@ $M;7u7H;
 ?devicesChanged@QVideoDeviceSelectorControl@@QEAAXXZ
 ?digitalZoom@QCameraFocus@@QEBANXZ
 ?digitalZoomChanged@QCameraFocus@@QEAAXN@Z
-?disconnect@QObject@@QEBA_NPEBDPEBV1@0@Z
-?disconnect@QObject@@QEBA_NPEBV1@PEBD@Z
-?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@SAXPEAUData@1@@Z
 ?duration@QAudioBuffer@@QEBA_JXZ
 ?duration@QAudioDecoder@@QEBA_JXZ
 ?duration@QMediaPlayer@@QEBA_JXZ
@@ -1505,7 +1422,6 @@ $M;7u7H;
 ?durationChanged@QMediaRecorderControl@@QEAAX_J@Z
 ?durationForBytes@QAudioFormat@@QEBA_JH@Z
 ?durationForFrames@QAudioFormat@@QEBA_JH@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
 ?earliestTime@QMediaTimeRange@@QEBA_JXZ
 ?elapsedUSecs@QAudioInput@@QEBA_JXZ
 ?elapsedUSecs@QAudioOutput@@QEBA_JXZ
@@ -1518,14 +1434,8 @@ $M;7u7H;
 ?encodingOptions@QImageEncoderSettings@@QEBA?AV?$QMap@VQString@@VQVariant@@@@XZ
 ?encodingOptions@QVideoEncoderSettings@@QEBA?AV?$QMap@VQString@@VQVariant@@@@XZ
 ?encodingSettings@QCameraImageCapture@@QEBA?AVQImageEncoderSettings@@XZ
-?end@QJsonArray@@QEBA?AVconst_iterator@1@XZ
-?end@QListData@@QEBAPEAPEAXXZ
 ?end@QMediaTimeInterval@@QEBA_JXZ
 ?endTime@QVideoFrame@@QEBA_JXZ
-?endsWith@QByteArray@@QEBA_ND@Z
-?endsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
-?entryList@QDir@@QEBA?AVQStringList@@AEBV2@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
-?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 ?error@QAbstractVideoSurface@@QEBA?AW4Error@1@XZ
 ?error@QAudioDecoder@@QEAAXW4Error@1@@Z
 ?error@QAudioDecoder@@QEBA?AW4Error@1@XZ
@@ -1558,32 +1468,22 @@ $M;7u7H;
 ?errorString@QAudioDecoder@@QEBA?AVQString@@XZ
 ?errorString@QCamera@@QEBA?AVQString@@XZ
 ?errorString@QCameraImageCapture@@QEBA?AVQString@@XZ
-?errorString@QIODevice@@QEBA?AVQString@@XZ
 ?errorString@QMediaPlayer@@QEBA?AVQString@@XZ
 ?errorString@QMediaPlaylist@@QEBA?AVQString@@XZ
 ?errorString@QMediaRecorder@@QEBA?AVQString@@XZ
 ?errorString@QRadioData@@QEBA?AVQString@@XZ
 ?errorString@QRadioTuner@@QEBA?AVQString@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?exists@QFile@@SA_NAEBVQString@@@Z
-?exists@QFileInfo@@QEBA_NXZ
-?exit@QThread@@QEAAXH@Z
 ?exposure@QCamera@@QEBAPEAVQCameraExposure@@XZ
 ?exposureCompensation@QCameraExposure@@QEBANXZ
 ?exposureCompensationChanged@QCameraExposure@@QEAAXN@Z
 ?exposureMode@QCameraExposure@@QEBA?AW4ExposureMode@1@XZ
 ?features@QMediaServiceProviderHint@@QEBA?AV?$QFlags@W4Feature@QMediaServiceProviderHint@@@@XZ
 ?fieldType@QVideoFrame@@QEBA?AW4FieldType@1@XZ
-?fileName@QFile@@UEBA?AVQString@@XZ
 ?fileName@QSound@@QEBA?AVQString@@XZ
-?fileName@QTemporaryFile@@UEBA?AVQString@@XZ
-?fileTemplate@QTemporaryFile@@QEBA?AVQString@@XZ
 ?findPlaylistType@QPlaylistFileParser@@SA?AW4FileType@1@AEBVQString@@0PEBXI@Z
 ?finished@QAudioDecoder@@QEAAXXZ
 ?finished@QAudioDecoderControl@@QEAAXXZ
 ?finished@QPlaylistFileParser@@QEAAXXZ
-?firstNode@QHashData@@QEAAPEAUNode@1@XZ
 ?flashMode@QCameraExposure@@QEBA?AV?$QFlags@W4FlashMode@QCameraExposure@@@@XZ
 ?flashReady@QCameraExposure@@QEAAX_N@Z
 ?flashReady@QCameraFlashControl@@QEAAX_N@Z
@@ -1614,41 +1514,26 @@ $M;7u7H;
 ?frameWidth@QVideoSurfaceFormat@@QEBAHXZ
 ?framesForBytes@QAudioFormat@@QEBAHH@Z
 ?framesForDuration@QAudioFormat@@QEBAH_J@Z
-?freeData@QMapDataBase@@SAXPEAU1@@Z
-?freeNode@QHashData@@QEAAXPEAX@Z
-?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
-?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
-?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
 ?frequency@QRadioTuner@@QEBAHXZ
 ?frequencyChanged@QRadioTuner@@QEAAXH@Z
 ?frequencyChanged@QRadioTunerControl@@QEAAXH@Z
 ?frequencyRange@QRadioTuner@@QEBA?AU?$QPair@HH@@W4Band@1@@Z
 ?frequencyStep@QRadioTuner@@QEBAHW4Band@1@@Z
-?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
-?fromLatin1@QString@@SA?AV1@PEBDH@Z
-?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
-?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?fullScreenChanged@QVideoWindowControl@@QEAAX_N@Z
 ?generateFileName@QMediaStorageLocation@@QEBA?AVQString@@AEBV2@AEBVQDir@@0@Z
 ?generateFileName@QMediaStorageLocation@@QEBA?AVQString@@AEBV2@W4MediaType@1@00@Z
 ?get@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?handle@QAbstractVideoBuffer@@UEBA?AVQVariant@@XZ
 ?handle@QAudioDeviceInfo@@AEBA?AVQByteArray@@XZ
 ?handle@QVideoFrame@@QEBA?AVQVariant@@XZ
 ?handleType@QAbstractVideoBuffer@@QEBA?AW4HandleType@1@XZ
 ?handleType@QVideoFrame@@QEBA?AW4HandleType@QAbstractVideoBuffer@@XZ
 ?handleType@QVideoSurfaceFormat@@QEBA?AW4HandleType@QAbstractVideoBuffer@@XZ
-?hasNotifySignal@QMetaProperty@@QEBA_NXZ
-?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
-?hasShrunk@QHashData@@QEAAXXZ
 ?hasSupport@QAudioDecoder@@SA?AW4SupportEstimate@QMultimedia@@AEBVQString@@AEBVQStringList@@@Z
 ?hasSupport@QMediaPlayer@@SA?AW4SupportEstimate@QMultimedia@@AEBVQString@@AEBVQStringList@@V?$QFlags@W4Flag@QMediaPlayer@@@@@Z
 ?hasSupport@QMediaServiceProvider@@UEBA?AW4SupportEstimate@QMultimedia@@AEBVQByteArray@@AEBVQString@@AEBVQStringList@@H@Z
 ?header@QNetworkReply@@QEBA?AVQVariant@@W4KnownHeaders@QNetworkRequest@@@Z
-?height@QSize@@QEBAHXZ
 ?height@QVideoFrame@@QEBAHXZ
-?homePath@QDir@@SA?AVQString@@XZ
 ?hueChanged@QVideoWindowControl@@QEAAXH@Z
 ?iid@QMediaPlayerResourceSetInterface@@SA?AVQString@@XZ
 ?imageAvailable@QCameraImageCapture@@QEAAXHAEBVQVideoFrame@@@Z
@@ -1664,30 +1549,18 @@ $M;7u7H;
 ?imageProcessing@QCamera@@QEBAPEAVQCameraImageProcessing@@XZ
 ?imageSaved@QCameraImageCapture@@QEAAXHAEBVQString@@@Z
 ?imageSaved@QCameraImageCaptureControl@@QEAAXHAEBVQString@@@Z
-?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
-?indexOfEnumerator@QMetaObject@@QEBAHPEBD@Z
-?indexOfProperty@QMetaObject@@QEBAHPEBD@Z
-?insert@QJsonObject@@QEAA?AViterator@1@AEBVQString@@AEBVQJsonValue@@@Z
-?insert@QListData@@QEAAPEAPEAXH@Z
 ?insertMedia@QMediaNetworkPlaylistProvider@@UEAA_NHAEBV?$QList@VQMediaContent@@@@@Z
 ?insertMedia@QMediaNetworkPlaylistProvider@@UEAA_NHAEBVQMediaContent@@@Z
 ?insertMedia@QMediaPlaylist@@QEAA_NHAEBV?$QList@VQMediaContent@@@@@Z
 ?insertMedia@QMediaPlaylist@@QEAA_NHAEBVQMediaContent@@@Z
 ?insertMedia@QMediaPlaylistProvider@@UEAA_NHAEBV?$QList@VQMediaContent@@@@@Z
 ?insertMedia@QMediaPlaylistProvider@@UEAA_NHAEBVQMediaContent@@@Z
-?instance@QCoreApplication@@SAPEAV1@XZ
-?instance@QFactoryLoader@@QEBAPEAVQObject@@H@Z
 ?instance@QMediaPluginLoader@@QEAAPEAVQObject@@AEBVQString@@@Z
 ?instances@QMediaPluginLoader@@QEAA?AV?$QList@PEAVQObject@@@@AEBVQString@@@Z
-?interval@QTimer@@QEBAHXZ
 ?intervals@QMediaTimeRange@@QEBA?AV?$QList@VQMediaTimeInterval@@@@XZ
-?invoke@QMetaMethod@@QEBA_NPEAVQObject@@VQGenericArgument@@111111111@Z
-?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
 ?isActive@QAbstractVideoFilter@@QEBA_NXZ
 ?isActive@QAbstractVideoSurface@@QEBA_NXZ
 ?isActive@QAudioProbe@@QEBA_NXZ
-?isActive@QTimer@@QEBA_NXZ
 ?isActive@QVideoProbe@@QEBA_NXZ
 ?isAlternativeFrequenciesEnabled@QRadioData@@QEBA_NXZ
 ?isAntennaConnected@QRadioTuner@@QEBA_NXZ
@@ -3037,108 +2910,11 @@ $M;7u7H;
 ?writeData@QFileDevice@@MEAA_JPEBD_J@Z
 ?yCbCrColorSpace@QVideoSurfaceFormat@@QEBA?AW4YCbCrColorSpace@1@XZ
 ?zoomTo@QCameraFocus@@QEAAXNN@Z
-@%1:%2.%3
 @%1:%2:%3.%4
-@.data
-@.reloc
-@.rsrc
-@8i t
-@8i tBH
-@A^_]
-@A^_^
-@A_A\[
-@A_A][
-@A_A^A\_]
-@A_A^A]A\_^]
-@A_A^A]_^[]
-@A_A^^
-@A_A^_^[
-@A_[]
-@A__^
-@SATAWH
-@SAUAWH
-@SAUH
-@SAVH
-@SUATH
-@SUVH
-@SUVWATAVAWH
-@SUVWATH
-@SUVWAVH
-@SUVWH
-@SUWH
-@SVWATAUAVAWH
-@SVWAUAWH
-@SVWAVAWH
-@SVWAVH
-@SVWAWH
-@SVWH
-@UAUAVAWH
-@UAVH
-@USATAUH
-@USAUH
-@USAVAWH
-@USAWH
-@USVATAUAWH
-@USVATH
-@USVWATAVAWH
-@USVWAUAVH
-@USVWAVAWH
-@USVWAVH
-@USVWAWH
-@USWATAUAWH
-@USWAWH
-@USWH
-@UVATAVH
-@UVATH
-@UVAVAWH
-@UVAVH
-@UVAWH
-@UVWATH
-@UVWH
-@UWATAUAWH
-@VATH
-@VAVAWH
-@VAVH
-@WAUH
-@WAWH
-A A9@ u
-A$A9@$u	
-A(9B(t
-A(A9@(t
-ATAUH
-AUAVH
-AVAWH
-A\^[]
-A]A\[]
-A]A\_^[]
-A^A\_^]
-A^A]A\^]
-A^A]A\_^[]
-A^A][]
-A^A]_^[]
-A^_^[]
-A_A\]
-A_A\_^[]
-A_A\_^]
-A_A]A\^[]
-A_A]A\_[]
-A_A]A\_]
-A_A]A\_^[]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^]
-A_A^_^]
-A__[]
-A__^[]
-Ab)'A
 AccessDeniedError
 ActiveState
 ActiveStatus
 AdultHits
-Ae)'A
 Alarm
 AlarmTest
 AlbumArtist
@@ -3149,20 +2925,14 @@ AudioBitRate
 AudioCodec
 AudioInput
 AudioOutput
-AuthD
 Author
+Auto
 AutoFocus
 AverageLevel
-B 9A 
-B 9A u1
-B 9A u5
-B 9A uZ
-B$9A$
-B$9A$u)H
-B(9A(
-B,9A,
-B09A0
+B\n?data@QVariant@@QEAAPEAXXZ
+B\np\tP
 BackFace
+Band
 BigEndian
 BottomField
 BottomToTop
@@ -3170,7 +2940,6 @@ Brightness
 BrightnessAdjustment
 BufferedMedia
 BufferingMedia
-CLu+A
 CameraError
 CameraManufacturer
 CameraModel
@@ -3220,15 +2989,9 @@ Culture
 CurrentAffairs
 CurrentItemInLoop
 CurrentItemOnce
-D$(E3
-D$0E3
-D$0H;
-D$@E3
-D$HE3
-D$XE3
-D$p.I
-D3C$E3
 D:\qt5\qtmultimedia\lib\Qt5Multimedia.pdb
+D\v?endsWith@QByteArray@@QEBA_ND@Z
+Date
 DateTimeDigitized
 DateTimeOriginal
 DecodingState
@@ -3245,19 +3008,11 @@ DisableThreadLibraryCalls
 Documentary
 Drama
 Duration
-E0H;M(t9
-E3A$E3
-E\$4H
-E\$PH
-E\$`H
 EasyListening
-Ed$8H
-Ed$<H
 Education
 Empty file provided
 EndOfMedia
 EnterCriticalSection
-EpH;Ex
 Error
 Event
 ExposureAction
@@ -3290,9 +3045,10 @@ ExposureTheatre
 ExposureTime
 ExtendedExposureParameter
 ExtendedParameter
-F0H9F8
 FNumber
+F\v?endsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
 FatalError
+File
 FinalizingStatus
 Finance
 Flash
@@ -3362,7 +3118,6 @@ Format_YUV444
 Format_YUYV
 Format_YV12
 FrontFace
-G(9C(t
 GLTextureHandle
 GPSAltitude
 GPSAreaInformation
@@ -3387,64 +3142,7 @@ GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-H)U8L
-H)V8L
-H+_HH
-H9CxtfH
-H;\$0
-H;^xtdH
-HA\_^]
-HA]A\
-HA_A^H
-H_^][
-HcD$HH
-HcD$PH
-HcD$PI
-HcD$XH
-HcD$XI
-HcD$`H
-HcD$hI
-HcE8I
-HcE@H
-HcEoH
-HcEoI
-HcEwH
-HcL$@H
-HcL$@M
-HcL$HD
-HcL$HH
-HcL$PH
-HcL$PL
-HcL$XH
-HcL$`H
-HcL$`L
-HcL$hH
-HcM8H
-HcM8L
-HcM@I
-HcM@L
-HcMoH
-HcMoL
-HcMwH
-HcMwL
-HcT$HH
-HcT$P
-HcT$PL
-HcT$XH
-HcT$XI
-HcT$`L
-Hc\$@H
-Hc\$PL
-Hc]8H
-Hc]@H
-Hc]oH
-Hc]wH
-Hc|$hH
 HyperfocalFocus
-I;4$r
-I;4$s(
-I;<$r
-I;<$s9H
 IOError
 ISOSpeedRatings
 IdleState
@@ -3462,28 +3160,13 @@ InvalidMedia
 InvalidRequestError
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 JazzMusic
-K&@a)'A
 KERNEL32.dll
+K\r?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
 Keywords
-L$ E3
-L$(E3
-L$(H3
-L$099H
-L$0E3
-L$8H3
-L$@H3
-L$HH3
-L$PH+
-L$PH3
-L$XH3
-L$`H3
-L$`I)O8L
-L$hH3
-L$xH;D$p
-L)C8L
+L\f?freeData@QMapDataBase@@SAXPEAU1@@Z
 Language
-LcD$HM
 LeadPerformer
 LeaveCriticalSection
 Leisure
@@ -3507,20 +3190,10 @@ LockTemporaryLost
 LockType
 LockWhiteBalance
 Locked
+Loop
 Lyrics
-M H1E
-M"@w)'A
-M#@i)'A
-M$@g)'A
-M%@b)'ARichc)'A
-M&@a)'A
-M&@d)'Ac)&A
-M'@b)'A
-M94$r
-M97sQL
-M97sSL
-M;7uCH;
 MW?size@QImage@@QEBA?AVQSize@@XZ
+M\f?freeNode@QHashData@@QEAAXPEAX@Z
 MacroFocus
 ManualFocus
 MediaIsPlaylist
@@ -3530,9 +3203,12 @@ MeteringAverage
 MeteringMatrix
 MeteringMode
 MeteringSpot
+Mood
 N?nativeOrientation@QScreen@@QEBA?AW4ScreenOrientation@Qt@@XZ
+N\f?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
 NationalMusic
 NetworkError
+News
 NoError
 NoHandle
 NoLock
@@ -3541,18 +3217,16 @@ Nostalgia
 NotMapped
 NotReadyError
 NotSupportedFeatureError
-O 8W8tk
+Null
+O\f?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
 OldiesMusic
 OpenError
 Orientation
 OtherMusic
 OutOfRangeError
 OutOfSpaceError
-PA\][
-PA_A^A\_^][
-PA_A^A]A\_^]
-PA__^[]
 PLSParser
+P\f?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
 ParentalRating
 ParserBase
 PausedState
@@ -3575,8 +3249,6 @@ ProgramType
 ProgressiveFrame
 Public
 Publisher
-PxH9FH|
-PxH9GH|
 QAbstractAudioDeviceInfo
 QAbstractAudioInput
 QAbstractAudioOutput
@@ -3758,6 +3430,9 @@ Qt5Network.dll
 Qt::ScreenOrientation
 QtMetaTypePrivate::QSequentialIterableImpl
 QueryPerformanceCounter
+RIFF
+RIFX
+RSDS
 Random
 RatingOrganization
 ReadOnly
@@ -3777,8 +3452,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 SU?setOrientationUpdateMask@QScreen@@QEAAXV?$QFlags@W4ScreenOrientation@Qt@@@@@Z
-SUVWAVAWH
-SVWAVAWH
 SampleRate
 Saturation
 SaturationAdjustment
@@ -3798,8 +3471,10 @@ SharpeningAdjustment
 Sharpness
 ShutterSpeed
 SignedInt
+Size
 SleepConditionVariableCS
 SocialAffairs
+Soft
 SoftRhythmAndBlues
 SoftRock
 SoundEffect: loops should be SoundEffect.Infinite, 0 or positive integer
@@ -3819,11 +3494,7 @@ SubTitle
 Subject
 SubjectDistance
 SuspendedState
-T$ H;
-T$ M;
-T$0E3
-T$0I;
-T$@E3
+Talk
 TerminateProcess
 The QAudioDecoder object does not have a valid service
 The QMediaPlayer object does not have a valid service
@@ -3839,28 +3510,7 @@ TorchPower
 TrackCount
 TrackNumber
 Travel
-UATAWH
-UAVAWH
-USATAUH
-USATAWH
-USAUAVH
-USAUI
-USAWH
-USVATH
-USVWATAUAVAWH
-USVWATAUAVH
-USVWATAUAWH
-USVWATAUH
-USVWATAWH
-USVWAUAVAWH
-UVATAUAVH
-UVATH
-UVWATAUAVAWH
-UVWATAVH
-UVWATAWH
-UVWAVAWH
-UWAVH
-UWAWH
+U\r?indexOfEnumerator@QMetaObject@@QEBAHPEBD@Z
 UnSignedInt
 UnavailableStatus
 Undefined
@@ -3880,15 +3530,11 @@ UserRating
 UserRequest
 UserType(%1)
 VCRUNTIME140.dll
-VWATAUAWH
-VWATAVAWH
-VWAVH
 Varied
 VideoBitRate
 VideoCodec
 VideoFrameRate
-WATAUAVAWH
-WAVAWH
+WAVE
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Weather
@@ -3907,8 +3553,8 @@ WhiteBalanceTungsten
 WhiteBalanceVendor
 WriteOnly
 Writer
-XA_A^_^[]
 XP?primaryScreen@QGuiApplication@@SAPEAVQScreen@@XZ
+X\v?entryList@QDir@@QEBA?AVQStringList@@AEBV2@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 XvShmImageHandle
 YCbCr_BT601
 YCbCr_BT709
@@ -3917,20 +3563,50 @@ YCbCr_JPEG
 YCbCr_Undefined
 YCbCr_xvYCC601
 YCbCr_xvYCC709
+Y\r?indexOfProperty@QMetaObject@@QEBAHPEBD@Z
+Year
+[\v?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 [no timestamp]
 [playlist]
-\$ UH
-\$ UVWH
-\$ VAVAWH
-\$ VH
-\$ VWAUAVAWH
-\$ VWAUH
-\$ WH
-\$8Hc_
-\$PHc{
-\$hI;
+\f?fromUtf8@QString@@SA?AV1@PEBDH@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?hasNotifySignal@QMetaProperty@@QEBA_NXZ
+\n?detach@QListData@@QEAAPEAUData@1@H@Z
+\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+\n?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
+\n?disconnect@QObject@@QEBA_NPEBDPEBV1@0@Z
+\n?disconnect@QObject@@QEBA_NPEBV1@PEBD@Z
+\n?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\r?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
+\r?hasShrunk@QHashData@@QEAAXXZ
+\r?height@QSize@@QEBAHXZ
+\r?homePath@QDir@@SA?AVQString@@XZ
+\r?insert@QJsonObject@@QEAA?AViterator@1@AEBVQString@@AEBVQJsonValue@@@Z
+\r?insert@QListData@@QEAAPEAPEAXH@Z
+\r?instance@QCoreApplication@@SAPEAV1@XZ
+\r?instance@QFactoryLoader@@QEBAPEAVQObject@@H@Z
+\r?interval@QTimer@@QEBAHXZ
+\r?invoke@QMetaMethod@@QEBA_NPEAVQObject@@VQGenericArgument@@111111111@Z
+\r?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
+\r?isActive@QTimer@@QEBA_NXZ
+\t?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
+\t?currentPath@QDir@@SA?AVQString@@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?errorString@QIODevice@@QEBA?AVQString@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+\v?exists@QFile@@SA_NAEBVQString@@@Z
+\v?exists@QFileInfo@@QEBA_NXZ
+\v?exit@QThread@@QEAAXH@Z
+\v?fileName@QFile@@UEBA?AVQString@@XZ
+\v?fileName@QTemporaryFile@@UEBA?AVQString@@XZ
+\v?fileTemplate@QTemporaryFile@@QEBA?AVQString@@XZ
 ] with line content >= 4096 bytes.
 _CxxThrowException
+_\f?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
 __C_specific_handler
 __std_exception_copy
 __std_exception_destroy
@@ -3978,9 +3654,7 @@ _q_updateNotifyInterval
 _q_updateState
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-`A^_]
-`A_A^A]A\_^]
+`\f?fromLatin1@QString@@SA?AV1@PEBDH@Z
 aO?orientation@QScreen@@QEBA?AW4ScreenOrientation@Qt@@XZ
 activated
 active
@@ -4029,6 +3703,7 @@ availableOutputsChanged
 availablePlaybackRangesChanged
 bad allocation
 bad array new length
+band
 bandChanged
 bit, channelCount=
 brightness
@@ -4040,7 +3715,6 @@ bufferFormatChanged
 bufferReady
 bufferStatus
 bufferStatusChanged
-c)'Ac)'Ac)'AjQ
 cancelCapture
 cancelSearch
 capture
@@ -4067,11 +3741,7 @@ currentMediaChanged
 currentOpticalZoomChanged
 customFocusPoint
 customFocusPointChanged
-d$ E3
-d$0E3
-d$8E3
-d$XE3
-d$xE3
+data
 decoderError
 decoderReady
 default
@@ -4093,12 +3763,12 @@ errorString
 exposureCompensation
 exposureCompensationChanged
 exposureMode
-ffffff
 fileName
 finished
 flashMode
 flashReady
 flush
+fmt 
 focusMode
 focusModeChanged
 focusPointMode
@@ -4113,14 +3783,14 @@ frameHeight
 frameRate
 frameSize
 frameWidth
+free
 frequency
 frequencyChanged
 fullScreen
 fullScreenChanged
-h	?byteCount@QImage@@QEBAHXZ
-hA\^[]
-hA][H
-hA_A\[]
+game
+h\f?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
+h\t?byteCount@QImage@@QEBAHXZ
 handleData
 handleType
 hueChanged
@@ -4135,16 +3805,9 @@ invalid line in playlist file
 isLoadingChanged
 isoSensitivity
 isoSensitivityChanged
-j	?bytesPerLine@QImage@@QEBAHXZ
-l$ AVH
-l$ VH
-l$ VWATAVAWH
-l$ VWAVH
-l$ VWAWH
-l$ WATAWH
-l$0t`H
-l$@ff
-l$HE3
+j\t?bytesPerLine@QImage@@QEBAHXZ
+jump
+load
 loadFailed
 loaded
 loadedChanged
@@ -4158,6 +3821,7 @@ loopCountChanged
 loops
 loopsRemaining
 loopsRemainingChanged
+m3u8
 malloc
 maximumDigitalZoomChanged
 maximumOpticalZoomChanged
@@ -4180,19 +3844,21 @@ metaDataWritable
 metaDataWritableChanged
 meteringMode
 milliSeconds
+mode
 muted
 mutedChanged
+name
 nativeResolution
 nativeResolutionChanged
 nativeSizeChanged
 networkConfigurationChanged
 newItem
 newState
+next
 nextMediaChanged
 notify
 notifyInterval
 notifyIntervalChanged
-ntelD
 opticalZoom
 opticalZoomChanged
 org.qt-project.qt.audiodecode
@@ -4246,7 +3912,6 @@ org.qt-project.qt.videorenderercontrol/5.0
 orientation
 orientationChanged
 outputLocation
-pA_A^A\_^][
 parameter
 parameterRangeChanged
 parsingError
@@ -4254,6 +3919,7 @@ pause
 percentFilled
 pixelAspectRatio
 pixelFormat
+play
 play()
 playbackMode
 playbackModeChanged
@@ -4274,10 +3940,11 @@ programType
 programTypeChanged
 programTypeName
 programTypeNameChanged
-q	?createData@QMapDataBase@@SAPEAU1@XZ
+q\t?createData@QMapDataBase@@SAPEAU1@XZ
 radioData
 radioText
 radioTextChanged
+rate
 readSample
 ready
 readyForCapture
@@ -4359,6 +4026,7 @@ statusChanged
 stereo
 stereoMode
 stereoStatusChanged
+stop
 strcmp
 stream
 streamsChanged
@@ -4366,63 +4034,10 @@ strncmp
 supportedFormatsChanged
 surfaceFormatChanged
 surroundingItemsChanged
-t"fff
-t$ ATAVAWH
-t$ AVH
-t$ AWH
-t$ Hc^
-t$ UH
-t$ UWATAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$(t`H
-t$0Hc^
-t$0uBE3
-t$8Hc^
-t$@H;
-t$@HcE
-t$@Hc^
-t$XHc^
-t$`Hc^
-t$fff
-t$hHc^
-t.I;}
-t>;{H
-tAH;V
-tFH9Y t@H
-tL@8iHu5L
-tTH9^ tNI
-t\fff
 text/uri-list
-tuH9^XtY
-tuH9h
-tzH9^HttI
-t{H9j
-u)HcF
-u0Ic^
-u7Hc^
-u8Hc^
-u8Ic_
-u9Ic^
-u9Ic~
-u;Hc^
-u=Hc^
-u=Hc_
-u=Ic^
-u?Hc^
-u@Hc~
-uAHc_
-uBHc^
-uCHc^
-uHHc^
-uHHc_
-uQIc^
-ubHcF
+type
 unload
 unlock
-uoD9e
 using null deviceinfo, none available
 using null input device, none available
 using null output device, none available
@@ -4437,31 +4052,4 @@ volumeChanged
 writable
 writableChanged
 yCbCrColorSpace
-{HH9kPu4
-|$ ATAVAWH
-|$ AVH
-|$ E3
-|$ HcE
-|$ Hc^
-|$ UH
-|$ tpH
-|$0HcG
-|$8Hc_
-|$8Hk
-|$8L+
-|$@Hc_
-|$PHc_
-|$XHc_
-|$`Hc_
-|$pHc_
-}(Hc_
-}0Hc_
-}8Hc_
-}@Hc_
-}HHc_
-}PHcG
-}XHc_
-}gHc_
-}oHc_
-}pHc_
-}wHc_
+~\n?deleteLater@QObject@@QEAAXXZ

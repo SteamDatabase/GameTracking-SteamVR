@@ -1,6 +1,3 @@
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
-!This program cannot be run in DOS mode.
-%Rich
 -Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
 .00cfg
 .?AVQGifHandler@@
@@ -24,6 +21,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -32,7 +30,6 @@
 .idata$4
 .idata$5
 .idata$6
-.qtmetad 
 .qtmetadata
 .rdata
 .rdata$T
@@ -45,47 +42,13 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata$x
-0%0+0R0\0s0
-0%0.070<0[0	1D1{1
-040P0p0
-1.161A1^1
-141u1
-2 2$2(2,2
-2!2(2:2A2d2q2
-2!3+353S3
-2#3)3/353;3A3G3M3S3Y3_3e3k3q3w3}3
-2)2/2I2[2d2r2~2
-2)2Q2Y2k2w2
-203K3
-40444
-4181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x162B2
-4<6@6D6H6L6x6
-5 5054585@5X5\5t5
-5!545@5P5a5w5
-5*676^6f6
-5ineI
-5ntel
-606@6D6X6\6l6p6x6
-7$74787H7L7P7T7\7t7
-7(7/747=7B7K7_7g7z7
-7-7B7d7z7
-71898P8V8\8g8o8y8
-7O9]9i9t9
-9=:Z:d:r:
-9W:v:
-;4;8;@;H;P;T;\;p;x;
-;7<O<U<j<
-=#=9=E=N=Y=`=
->+>;>K>T>f>t>
->.?7???{?
-?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?
 ??0QByteArray@@QAE@PBDH@Z
 ??0QByteArray@@QAE@XZ
 ??0QImage@@QAE@HHW4Format@0@@Z
@@ -113,15 +76,6 @@
 ?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
 ?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
 ?constData@QByteArray@@QBEPBDXZ
-?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
-?deallocate@QArrayData@@SAXPAU1@II@Z
-?detach@QImage@@QAEXXZ
-?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
 ?isReadable@QIODevice@@QBE_NXZ
 ?peek@QIODevice@@QAE_JPAD_J@Z
 ?qstrcmp@@YAHABVQByteArray@@PBD@Z
@@ -130,31 +84,11 @@
 ?shared_null@QArrayData@@2QBU1@B
 ?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
 ?warning@QMessageLogger@@QBAXPBDZZ
-@.data
-@.reloc
-@9F0u
-@9F0uP
-CESUVQ
 CloseHandle
 CreateEventW
-D$(;D$ |
-D$(S3
-D$(hpR
-D$(hxR
-D$(u-;
-D$,_^]+
-D$LF@;
-D$Qh0R
-D4LF;
-D4LF<!t <,t
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
-F0;F8
-F0;F8u
-F4;FH
-F\;FT|
-F`;FX}7
 GIF87a
 GIF89a
 GetCurrentProcess
@@ -169,28 +103,19 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 K?height@QImage@@QBEHXZ
 KERNEL32.dll
-L$(PV
-L$P]3
 L?isNull@QImage@@QBE_NXZ
 L?jumpToImage@QImageIOHandler@@UAE_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
-LD$ P
 LeaveCriticalSection
-MetaData
-MimeTypes
 NETSCAPE
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
 QGifHandler::canRead() called with no device
 QGifPlugin
-QTMETADATA  qbjs
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
 R?scanLine@QImage@@QAEPAEH@Z
 ResetEvent
-SEUVP
-SEUVPW
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
@@ -202,8 +127,17 @@ VCRUNTIME140.dll
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Y__^[
 Z?width@QImage@@QBEHXZ
+\\n?deallocate@QArrayData@@SAXPAU1@II@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+\n?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+\t?customEvent@QObject@@MAEXPAVQEvent@@@Z
+\v?detach@QImage@@QAEXXZ
+\v?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+\v?event@QObject@@UAE_NPAVQEvent@@@Z
+\v?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
 _CxxThrowException
 __std_exception_copy
 __std_exception_destroy
@@ -221,29 +155,20 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
-h	?byteCount@QImage@@QBEHXZ
-image/gif
-j	?bytesPerLine@QImage@@QBEHXZ
+free
+h\t?byteCount@QImage@@QBEHXZ
+j\t?bytesPerLine@QImage@@QBEHXZ
 malloc
 memcpy
 memset
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qgif.dll
 qt_plugin_instance
 qt_plugin_query_metadata
 strncmp
-t$$Uj
-u"hTq
-u-h@R
 uT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
 vT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
-version
-|mfff

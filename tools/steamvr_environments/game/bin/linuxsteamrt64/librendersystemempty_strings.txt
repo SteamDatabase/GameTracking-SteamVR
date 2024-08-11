@@ -1,9 +1,25 @@
-
-!
-"
-"%s"
+        %3d %3d %3d %3d %3d %3d %3d %3d
+        %4u %4u %4u %4u %4u %4u %4u %4u
+    Component %d: %dhx%dv q=%d
+    Component %d: dc=%d ac=%d
+    with %d x %d thumbnail image
+  %s / %s MB (non-evictable: %s MB)\n
+  %s / %s MB\n
+  CB: %u buffers, %.2f MB\n
+  IB: %d buffers, %.2f MB\n
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+  TEX: %u textures, %.2f MB\n
+  TOTAL: %.2f MB\n
+  VB: %d buffers, %.2f MB\n
+ ( def. "%s" )
+ -shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld\n
+ Can't specify initial state of dynamic constant buffers at creation time!\n
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
+ libpng version 1.5.2 - March 31, 2011\n\n
+!1AQaq
 "%s" = "%s"
-"@
+"2BRbr
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
@@ -12,65 +28,46 @@
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
-#
-# of channels is zero.
-#;
+# of channels is zero.\n
+#3CScs
 #RenderSystem_CannotCreateDevice
 #RenderSystem_UnableToStartGame
 #bML
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
-$
-$@
+$4DTdt
 $ORIGIN
-%
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %01d
 %02d
 %03d
 %04d
 %05d
 %06d
-%3d %3d %3d %3d %3d %3d %3d %3d
-%4u %4u %4u %4u %4u %4u %4u %4u
+%5EUeu
 %d %s %d %02d:%02d:%02d +0000
 %f %f %f %f
-%hd
-%hu
 %i %i %i %i
 %ld%c
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%s / %s MB
-%s / %s MB (non-evictable: %s MB)
-%s%d
-%s,
-%s/
-%s: string format requested %d chars
-&
-'
-(
-( def. "%s" )
-(%s): ADD %s = %s
-(%s): Setting %s to %s
-(*%s*),
-(>q
-)
-*
-*0"Z
-+
+%s: string format requested %d chars\n
+&6FVfv
+'7GWgw
+(%s): ADD %s = %s\n
+(%s): Setting %s to %s\n
+(8HXhx
+)9IYiy
+*:JZjz
 +OQv
-,
-, channels =
-, height =
--
+, channels = 
+, height = 
 -adapter
 -autoconfig
 -autoconfig_level
@@ -83,7 +80,6 @@ $ORIGIN
 -dx9
 -empty
 -force_recommend_gl
--gl
 -ignoredxsupportcfg
 -mantle
 -maxdxlevel
@@ -93,13 +89,10 @@ $ORIGIN
 -rendersystem_thread_mode
 -shaderstats
 -shadowTargetSize
--shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld
 -sse2
 -sse3
 -sse4
 -vulkan
-.
-...
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/memstack.h
@@ -107,23 +100,20 @@ $ORIGIN
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier1/utltshash.h
+.eB5
 .exr
 .jpg
 .pfm
 .png
 .psd
 .tif
-/
 /P8i
-0
+0123456789ABCDEF
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0A
 0x%016llX
 0x%p
-1
 1.2.5
 1.5.2
-1.8
 10ConCommand
 10IAppSystem
 11CFunctorJob
@@ -165,9 +155,6 @@ $ORIGIN
 19CTextureManagerBase
 19IKeyValuesErrorSpew
 19IRenderShaderBuffer
-2
-2.0
-2.2
 20CPostConnectCallback
 20CRefCountServiceBaseILb1E6CRefMTE
 20CRenderDeviceMgrBase
@@ -186,28 +173,17 @@ $ORIGIN
 26ICommandCompletionCallback
 27CSchemaUtlVectorManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEES1_E
 28ISchemaCollectionManipulator
-3
 37CSchemaRegistration_rendersystemempty
-3C
-4
-4C
-5
-6
+5cfg/moddefaults.txt
+5t~BC
 6ConVar
-7
 7IConVar
-8
 8CFmtStrNILi256ELb0EE
 8CFunctor
+8PNG load error %s\n
 8b  16-May-2010
-9
 9.1.15
-:
-:1X:
-:X1:
-;
-<
-<< NULL >>
+<< NULL >>\n
 <NULL>
 <deferred>
 <invalid %d>
@@ -218,29 +194,22 @@ $ORIGIN
 <unconnected>
 <unknown multisample type
 <x360>
-=
->
->!h
->jm
-?
-?"N
-?(3w
-@
-@&LH
-@@
-A
-A':
-A8
+>Too many bytes for PNG signature
+?N24CFieldPathHuffmanEncoder5INodeE
+?Out of Memory
+@vb_created_input_layout
+A!;I2
+AJob
 ALIGN_TYPE is wrong, please fix
-AMD
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 ASCII conversion buffer too small
 ATI1N
 ATI2N
 ATI_DST16
 ATI_DST24
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 AllocInternal
 AllocateAndUploadSequenceData
@@ -252,7 +221,6 @@ Application built with libpng-%.20s but running with %.20s
 Application must supply a known background gamma
 Application transferred too few scanlines
 Application transferred too many scanlines
-Apr
 Arithmetic table 0x%02x was not defined
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
@@ -264,11 +232,9 @@ AsyncHookUpTextureBits
 AsyncTextureHookup
 At marker 0x%02x, recovery action %d
 Attempt to set buffer size beyond max ignored
-Aug
 B channel not found
-B channel not found!
+B channel not found!\n
 BC6H
-BC7
 BGR565
 BGR888_BLUESCREEN
 BGRA1010102
@@ -276,8 +242,9 @@ BGRA4444
 BGRA5551
 BGRA8888_LINEAR
 BGRX8888_LINEAR
+BKbhTb~XBK!;
 Backing store not supported
-Bad VTEX data for '%s'
+Bad VTEX data for '%s'\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -294,12 +261,11 @@ Bogus JPEG colorspace
 Bogus buffer control mode
 Bogus input colorspace
 Bogus marker length
+Bogus message code %d
 Bogus sampling factors
 Bogus virtual array access
 Buffer error in compressed datastream in %s chunk
 Buffer passed to JPEG library is too small
-C
-CB: %u buffers, %.2f MB
 CBufferString::AppendConcat(int, char const* const*, int const*, bool)
 CBufferString::AppendFormatV(char const*, __va_list_tag*)
 CBufferString::ComposeFileName(char const*, char const*, char)
@@ -324,8 +290,8 @@ CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
 CCIR601 sampling not implemented yet
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CCommandBufferChunk CUtlMemoryPoolMT
 CEntityIndex
 CLargeCommandBufferChunk CUtlMemoryPoolMT
@@ -335,13 +301,13 @@ COLORCORRECTION_VERSION_1
 CONTENT
 CONTENTROOT
 CRC error
-CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s
+CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
 CRenderDeviceBase::InitPerFrameMemoryStack
 CResourceArray
 CResourceString
 CTSQueue corruption
-CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.
-CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.
+CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.\n
+CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.\n
 CThreadEvent::CThreadEvent(bool)
 CThreadEvent::Set()
 CThreadFastMutex::Lock(char const*, int, unsigned long long, unsigned int) volatile
@@ -368,14 +334,14 @@ CUBEMAP_FACE_NEGATIVE_Z
 CUBEMAP_FACE_POSITIVE_X
 CUBEMAP_FACE_POSITIVE_Y
 CUBEMAP_FACE_POSITIVE_Z
-CUtlBlockMemory overflow!
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlFixedMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlBlockMemory overflow!\n
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
+CUtlFixedMemory overflow!\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CUtlString
 CUtlStringToken
 CUtlSymbol
@@ -384,33 +350,30 @@ CUtlVector
 CXXABI_1.3
 CXXABI_1.3.3
 Call to NULL read function
-Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
-Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL
-Can't detect memory size on this platform!
+Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request\n
+Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL\n
+Can't detect memory size on this platform!\n
 Can't discard critical data on CRC error
 Can't set both read_data_fn and write_data_fn in the same structure
-Can't specify initial state of dynamic constant buffers at creation time!
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
-Cannot read a file
-Cannot read file
+Cannot read a file 
+Cannot read file 
 Cannot reconstruct lineOffset table in DecodeEXRImage.
 Cannot transcode due to multiple use of quantization table %d
 Cannot write a file
 Caution: quantization tables are too coarse for baseline JPEG
 ChangeCallbackOnChange
-Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
+Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore\n
 Closed temporary file %s
 CommandLine
-Component %d: %dhx%dv q=%d
-Component %d: dc=%d ac=%d
 Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
-Compressed texture decoded in %.2f ms
+Compressed texture decoded in %.2f ms\n
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
 CopyAttrFrom
@@ -424,18 +387,15 @@ CreateInterface
 CreateNewThreadPool
 CubeMapFace_t
 D15S1
-D16
 D16_SHADOW
 D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
-D32
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 DEMO
 DX11
-DX9
 DXT1
 DXT1_ONEBITALPHA
 DXT3
@@ -444,8 +404,7 @@ DXT5_NM
 Data error in compressed datastream in %s chunk
 Data size too short
 DebugTextureInfo001
-Dec
-Decompressed %i texture mips in %.2f ms (%.1fmb/s)
+Decompressed %i texture mips in %.2f ms (%.1fmb/s)\n
 Decompression Error
 Decompression error
 Define Arithmetic Table 0x%02x: 0x%02x
@@ -453,14 +412,14 @@ Define Huffman Table 0x%02x
 Define Quantization Table %d  precision %d
 Define Restart Interval %u
 DegreeEuler
-Deleting texture with outstanding streaming request (%s)
+Deleting texture with outstanding streaming request (%s)\n
 DevMsg
 DevMsg(char const*, ...)
 DevWarning(char const*, ...)
 Didn't expect more than one scan
 Direct3D 11
 Direct3D 9
-Discarding abandoned streaming texture load for %s
+Discarding abandoned streaming texture load for %s\n
 Display GPU memory usage.
 DotaCardGameClient_001
 Duplicate PLTE chunk
@@ -477,15 +436,15 @@ Duplicate sCAL chunk
 Duplicate sRGB chunk
 Duplicate tIME chunk
 Duplicate tRNS chunk
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+ERROR: Specified full path %s does not lie under the mod search path!)\n
+ERROR: Specified path %s could not be made content-relative\n
 EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EXRHeader variable is not initialized.
-EXRReadFile() - B channel not found!
-EXRReadFile() - G channel not found!
-EXRReadFile() - R channel not found!
+EXRReadFile() - B channel not found!\n
+EXRReadFile() - G channel not found!\n
+EXRReadFile() - R channel not found!\n
 EarlyInit_Tier0
 EconItemToolModel_001
 Empty
@@ -500,42 +459,41 @@ Evict all resident texture.
 Exceeded size limit while expanding chunk
 Extra compressed data
 Extra compression data
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-Failed AllocateTexture for '%s'
-Failed to compute channel layout.
-Failed to create device. Modules loaded: %s
+Failed AllocateTexture for '%s'\n
+Failed to compute channel layout.\n
+Failed to create device. Modules loaded: %s\n
 Failed to create temporary file %s
 Failed to parse EXR version
-Failed to parse attribute
+Failed to parse attribute\n
 Failed to parse channel info
-Failed to parse channel info.
-Failed to read attribute.
-Failed to save video settings config to '%s'
-Feb
-File size is zero :
-File size too short
+Failed to parse channel info.\n
+Failed to read attribute.\n
+Failed to save video settings config to '%s'\n
+File size is zero : 
+File size too short 
 FileKeys
 FillAttr
 FilterFrom
 FindClosestMatchingRegion
-FindOrCreateTexture: Cannot create static textures with no data!
-FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s
-FindOrCreateTexture: Only dynamic textures can have non-global scope!
-FindOrCreateTexture: Texture scope is unspecified!
-FindOrCreateTexture: Texture usage is unspecified!
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FindOrCreateTexture: Cannot create static textures with no data!\n
+FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s\n
+FindOrCreateTexture: Only dynamic textures can have non-global scope!\n
+FindOrCreateTexture: Texture scope is unspecified!\n
+FindOrCreateTexture: Texture usage is unspecified!\n
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 FloatBitMap::QuarterSize
 FontManager_001
 FormatV
-Found %d streaming textures in array, but in-flight count is %d
+Found %d streaming textures in array, but in-flight count is %d\n
 Fractional sampling not implemented yet
 Freed EMS handle %u
 Freed XMS handle %u
 G channel not found
-G channel not found!
+G channel not found!\n
 GAME
 GAMECONSOLE
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
@@ -554,17 +512,16 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
-GPU reports %dMB available memory which is too low, using %d MB
+GPU reports %dMB available memory which is too low, using %d MB\n
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
 GenerateDistanceField
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 GetCPUInformation
 GetResourceManifestCount
 GetResourceManifests
-Graphics Device changed, resetting video config
+Graphics Device changed, resetting video config\n
 Grow
 HIGHDPI
 HammerMapLoader001
@@ -573,9 +530,7 @@ HookUpConfigValue
 HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
-I
 IA88
-IB: %d buffers, %.2f MB
 INPUT_LAYOUT_VARIATION_DEFAULT
 INPUT_LAYOUT_VARIATION_MAX
 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
@@ -596,7 +551,7 @@ Ignoring incorrect cHRM value when sRGB is also present
 Ignoring incorrect gAMA value when sRGB is also present
 Ignoring nonzero compression type in iCCP chunk
 IiGM
-Image data size is zero or too large: width =
+Image data size is zero or too large: width = 
 Image height exceeds user limit in IHDR
 Image height is zero in IHDR
 Image is too high to process with png_read_png()
@@ -623,14 +578,14 @@ InputLayoutVariation_t
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Insufficient data length.
-Insufficient data size for attributes.
+Insufficient data length.\n
+Insufficient data size for attributes.\n
 Insufficient data size in offset table.
-Insufficient data size.
-Insufficient header/data size.
+Insufficient data size.\n
+Insufficient header/data size.\n
 Insufficient memory (case %d)
 Insufficient memory for hIST chunk data
 Insufficient memory for pCAL parameter
@@ -644,7 +599,7 @@ Insufficient memory to store iTXt chunk
 Insufficient memory to store text
 Insufficient memory to store zTXt chunk
 Intel
-Intentionally vague touch behavior for %p
+Intentionally vague touch behavior for %p\n
 Interlace handling should be turned on when using png_read_image
 Invalid EXR header.
 Invalid IHDR chunk
@@ -656,7 +611,7 @@ Invalid JPEG file structure: two SOI markers
 Invalid PLTE after IDAT
 Invalid SOS parameters for sequential JPEG
 Invalid `part number' in EXR header chunks.
-Invalid access of deferred ConVarRef for '%s'
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid argument for DecodeEXRImage().
 Invalid argument for LoadDeepEXR
 Invalid argument for LoadEXR()
@@ -685,9 +640,9 @@ Invalid color type in IHDR
 Invalid color type/bit depth combination in IHDR
 Invalid component ID %d in SOS
 Invalid crop request
-Invalid data found when decoding pixels.
+Invalid data found when decoding pixels.\n
 Invalid data height value
-Invalid data width or data height:
+Invalid data width or data height: 
 Invalid data width value
 Invalid filter method in IHDR
 Invalid format for pCAL parameter
@@ -725,11 +680,11 @@ Invalid sCAL width ignored
 Invalid sPLT after IDAT
 Invalid sRGB after IDAT
 Invalid scan script at entry %d
-Invalid sequence number %d!!!
+Invalid sequence number %d!!!\n
 Invalid tRNS after IDAT
-Invalid thread index (%d) given
-Invalid tile size x :
-Invalid tile size y :
+Invalid thread index (%d) given\n
+Invalid tile size x : 
+Invalid tile size y : 
 JFIF APP0 marker: version %d.%02d, density %dx%d  %d
 JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
@@ -738,18 +693,15 @@ JFIF extension marker: type 0x%02x, length %u
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
-JSON error, unterminated element:
-Jan
-Jul
-Jun
+JSON error, unterminated element: 
 KMeansQuantization
-KNQ
+KNQ\r
 KV Conditional Evaluation Error
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 LE_BGRA8888
 LE_BGRX8888
@@ -769,9 +721,9 @@ LMb#
 LOG_GENERAL
 LOWVIOLENCE
 Linear
-LoadEXRImageFromMemory() failed! Error message: %s
+LoadEXRImageFromMemory() failed! Error message: %s\n
 LoadFromBuffer: expected '{', found '%s'
-Loaded video settings config from '%s'
+Loaded video settings config from '%s'\n
 Loading multipart or DeepImage is not supported  in LoadEXR() API
 Localize_001
 LoggingSystem_IsChannelEnabled
@@ -780,7 +732,6 @@ LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ..
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-M0@
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MGiI
@@ -797,19 +748,16 @@ MNetworkPriority
 MNetworkRemoveAll
 MNetworkSerializer
 MNetworkUserGroup
-MOD
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 Malformed iCCP chunk
 Malformed iTXt chunk
 Mantle
 MapListService_001
-Mar
 MaterialUtils_001
 MathLib_Init
 MaxDeviceID
 Maximum supported image dimension is %u pixels
-May
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Memory allocation failed while processing sCAL
@@ -842,7 +790,6 @@ Missing PLTE before cHRM
 Missing PLTE before hIST
 Missing PLTE before tRNS
 ModelDocUtils001
-N
 N24CFieldPathHuffmanEncoder12InternalNodeE
 N24CFieldPathHuffmanEncoder8LeafNodeE
 NETWORK_FIELD_LOWEST_PRIORITY
@@ -882,17 +829,14 @@ Not enough memory to process iTXt chunk
 Not enough memory to process text chunk
 Not enough memory to process zTXt chunk
 Not implemented yet
-Nov
-O
 O*9y
-OSX
-OUTSTANDING_HOOKUP_REQUEST
+OUTSTANDING_HOOKUP_REQUEST 
 Obtained EMS handle %u
 Obtained XMS handle %u
-Oct
 Only immediately load textures which have a fullmipchain.
 OpenGL
 Opened temporary file %s
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 Out of memory processing zTXt chunk
 Out of memory while processing sCAL chunk
 Out of memory while processing sPLT chunk
@@ -905,26 +849,21 @@ Out of place sRGB chunk
 Out of place tIME chunk
 Output file write error --- out of disk space?
 Output memory size is zero
-Overall System GPU memory use:
-Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!
-Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!
-P
-P8
-P@
+Overall System GPU memory use:\n
+Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!\n
+Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!\n
 PARALLEL_PROCESS tinyexr_impl.cpp:163
-PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
-PF%d %d-1.000000
+PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.\n
+PF\n%d %d\n-1.000000\n
 PNG file corrupted by ASCII conversion
 PNG unsigned integer out of range
 POSIX
-PS3
-PWL
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-ParseEXRHeaderFromMemory() failed! Error message: %s
+ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ParticleSystemMgr003
-Pf%d %d-1.000000
+Pf\n%d %d\n-1.000000\n
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 Plat_DebugPrint
@@ -967,9 +906,8 @@ QuarterSizeAttrWithBoxFilter
 Quaternion
 QueuedLoaderVersion001
 R channel not found
-R channel not found!
+R channel not found!\n
 R11_EAC
-R16
 R16F
 R16F_EXPAND
 R32F
@@ -1065,10 +1003,10 @@ RST%d
 RadianEuler
 RandomFloat
 RandomSeed
+Read Error
 Read failed on temporary file
 Read from EMS failed
 Read from XMS failed
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -1076,10 +1014,10 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Release
 RemoveTextureFromAnyQueues
-Render Device Empty
+Render Device Empty\n
 RenderBufferFlags_t
 RenderDevice003
 RenderDeviceMgr001
@@ -1103,10 +1041,9 @@ ResourceManifestRegistry001
 ResourceSystem013
 ReturnJobManualEventToPool
 Row has too many bytes to allocate in memory
-S
 SSE and SSE2 are required.
 Sampling factors too large for interleaved scan
-Saved video settings config to '%s'
+Saved video settings config to '%s'\n
 Scan script does not transmit all data
 SceneSystem_002
 SceneUtils_001
@@ -1116,7 +1053,6 @@ SchemaTestExternal_Two_001
 Screen Gamma (only in fullscreen modes)
 Seek failed on temporary file
 Selected %d colors for quantization
-Sep
 SequenceFloatParam_t
 SerializedEntitiesVersion001
 SeriousWarning
@@ -1124,6 +1060,7 @@ ServerUploadGameStats001
 SheetFrameImage_t
 SheetSequenceFrame_t
 SheetSequence_t
+Sheet_t
 Smoothing not supported with nonstandard sampling ratios
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -1141,26 +1078,22 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-Ss=%d, Se=%d, Ah=%d, Al=%d
 Start Of Frame 0x%02x: width=%u, height=%u, components=%d
 Start Of Scan: %d components
 Start of Image
 StatsService_001
 SteamAudio001
-Streaming Validation: %s
+Streaming Validation: %s 
 Suspension not allowed here
-TEX: %u textures, %.2f MB
-TEXMAN: %s MarkTextureBitsLoaded (%s)
-TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)
-TEXMAN: Abandoning job in %s
-TEXMAN: Abandoning streaming request early in %s
-TEXMAN: Abandoning streaming request in %s
-TEXMAN: Adding %s, %llx to abandoned hookup jobs
-TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)
-TEXMAN: Deleting %d textures
-TEXMAN: Outstanding stream count %d -> %d (%s)
-TF<)
-TOTAL: %.2f MB
+TEXMAN: %s MarkTextureBitsLoaded (%s)\n
+TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)\n
+TEXMAN: Abandoning job in %s\n
+TEXMAN: Abandoning streaming request early in %s\n
+TEXMAN: Abandoning streaming request in %s\n
+TEXMAN: Adding %s, %llx to abandoned hookup jobs\n
+TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)\n
+TEXMAN: Deleting %d textures\n
+TEXMAN: Outstanding stream count %d -> %d (%s)\n
 TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
@@ -1190,10 +1123,10 @@ TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
-Texture Streaming:
-Texture manager out of space! Can't allocate new texture!
-Texture memory discrepancy! %llu != %llu
-Texture streaming validation OK (%d texture loads in flight).
+Texture Streaming:\n
+Texture manager out of space! Can't allocate new texture!\n
+Texture memory discrepancy! %llu != %llu\n
+Texture streaming validation OK (%d texture loads in flight).\n
 TextureSpecificationFlags_t
 ThreadGetCurrentId
 ThreadMultiWait
@@ -1201,7 +1134,7 @@ ThreadSleep
 ThreadYield
 Too many IDATs found
 Too many color components: %d, max %d
-Too many threads (%d) accessing the render device, need to increase -r_max_device_threads (%d)
+Too many threads (%d) accessing the render device, need to increase -r_max_device_threads (%d)\n
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -1213,17 +1146,16 @@ Truncated iTXt chunk
 Truncated zTXt chunk
 Truncating incorrect info tRNS chunk length
 Truncating incorrect tRNS chunk length
-Trying to set dxlevel (%d) which is higher than the card can support (%d)!
-Trying to set dxlevel (%d) which is lower than the card can support (%d)!
-U
+Trying to set dxlevel (%d) which is higher than the card can support (%d)!\n
+Trying to set dxlevel (%d) which is lower than the card can support (%d)!\n
 UNKNOWN
 UV88
 UVLX8888
 UVWQ8888
-Unable to read file %s
-Unable to stream in resource file "%s" (Error: %s)
+Unable to read file %s\n
+Unable to stream in resource file "%s" (Error: %s)\n
 Unexpected marker 0x%02x
-Unexpected resource version '%d' for '%s'
+Unexpected resource version '%d' for '%s'\n
 Unknown
 Unknown APP0 marker (not JFIF), length %u
 Unknown APP14 marker (not Adobe), length %u
@@ -1241,19 +1173,17 @@ Unrecognized component IDs %d %d %d, assuming YCbCr
 Unrecognized equation type for pCAL chunk
 Unsupported JPEG data precision %d
 Unsupported JPEG process: SOF type 0x%02x
-Unsupported PSD color mode!
+Unsupported PSD color mode!\n
 Unsupported color conversion request
-Unsupported component value :
+Unsupported component value : 
 Unsupported compression format
-Unsupported compression type :
+Unsupported compression type : 
 Unsupported marker type 0x%02x
 Unsupported version or scanline
 Upper limit on texture pool size.
 UserInfoChangeService_001
-V
 VApplication001
 VAvi001
-VB: %d buffers, %.2f MB
 VBAllocTracker001
 VBaseFileSystem011
 VBik001
@@ -1285,7 +1215,7 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
-VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 V_CopyMemory3D
 V_FixDoubleSlashes
 V_FixSlashes
@@ -1351,21 +1281,22 @@ Vector4D
 VectorAligned
 VendorID
 Version
-Video Card %s (%04x : %04x)
-Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.
+Video Card %s (%04x : %04x)\n
+Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.\n
 Virtual array controller messed up
 VisBuilder_001
 VsInputSignatureElement_t
+VsInputSignature_t
 Vulkan
-WAITING_FOR_HOOKUP_JOB
-WAITING_FOR_IO
-WARNING: Trying to create a CRenderContextPtr without a valid context.
+WAITING_FOR_HOOKUP_JOB 
+WAITING_FOR_IO 
+WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WIN32
 WINDOWS
 WINXP
-Warning:  %s = '%s' is infinite, clamping value.
-Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d
-Warning: have oustanding per-frame memory stack with %d allocations
+Warning:  %s = '%s' is infinite, clamping value.\n
+Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d\n
+Warning: have oustanding per-frame memory stack with %d allocations\n
 Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
 Width is too large for libpng to process pixels
@@ -1376,21 +1307,17 @@ Write failed on temporary file --- out of disk space?
 Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %d, caller expects %d
-X
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
 Xbox 360
-Y
-Z
-Z"0*
 ZEo^
 ZFP compression is not supported in this build
 ZFP compression is not supported.
 Zero length tRNS chunk
-[
-[%.3f server clamped to %.3f]
+\nlibpng version 1.5.2 - March 31, 2011\nCopyright (c) 1998-2011 Glenn Randers-Pehrson\nCopyright (c) 1996-1997 Andreas Dilger\nCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.\n
+\r<unknown>
 ^oEZ
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -1420,7 +1347,7 @@ __cxa_pure_virtual
 __cxa_rethrow
 __fprintf_chk
 __gmon_start__
-__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > std::vector<unsigned char, std::allocator<unsigned char> >::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >)
+__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>> std::vector<unsigned char, std::allocator<unsigned char>>::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>)
 __gxx_personality_v0
 __isnanf
 __longjmp_chk
@@ -1431,42 +1358,35 @@ __pthread_key_create
 __sprintf_chk
 __stack_chk_fail
 __tls_get_addr
-_c
 _edata
 _end
 _fini
 _setjmp
 _tools.txt
-_z0
 `chunkCount' attribute is not found in the header.
 `fread' error. file may be corrupted.
-a
-a\">
 abort
-after solve err=%f
+after solve err=%f\n
 alpha
 archive
-b;!l
 basic_string::_S_construct null not valid
-before solve err=%f
+before solve err=%f\n
 binary
 binary_auto
 binary_bc
 binary_lz4
-blocking issue in occlusion queries!!
+blocking issue in occlusion queries!!\n
 borrow
 box2i
 buf error
-c
 cHRM Blue X
+cHRM Blue Y
 cHRM Green X
 cHRM Green Y
 cHRM Red X
 cHRM Red Y
 cHRM White X
 cHRM White Y
-c]$8
-c]^7
 calloc
 ceil
 ceilf
@@ -1483,24 +1403,22 @@ client
 clientcmd_can_execute
 compression
 configvalue.cpp
-d
 data error
 data height too large.
 data width or data height is negative.
 data width too large.
 dataWindow
-data_height =
-data_with or data_height too large. data_width:
+data_height = 
+data_with or data_height too large. data_width: 
 delete
 developer
-dir=%d %d %d, err=%f
+dir=%d %d %d, err=%f\n
 displayWindow
 dl_iterate_phdr
 dxsupport.cfg
 eaFO
 eikonal
 error in user chunk
-f
 false
 fclose
 fff?fff?fff?fff?
@@ -1519,7 +1437,7 @@ fopen64
 fprintf
 fputc
 fread
-fread() error on
+fread() error on 
 free
 frexp
 fseek
@@ -1537,17 +1455,14 @@ gamma = (%d/100000)
 gc^A
 generic
 getenv
-gpu
-gx=%d, gy=%d, bx=%d, by=%d
-h
-hd=<
+gx=%d, gy=%d, bx=%d, by=%d\n
 header crc mismatch
 i8P/
 if1R
 ignoring out of range rgb_to_gray coefficients
 immediate
 incorrect data check
-incorrect gamma=(%d/100000)
+incorrect gamma=(%d/100000)\n
 incorrect header check
 incorrect length check
 int( %d = 0x%X )
@@ -1569,14 +1484,10 @@ invalid stored block lengths
 invalid window size
 keyvalues.cpp
 kh9F
-l
-l!;b
 ld-linux-x86-64.so.2
 libc.so.6
 libm.so.6
 libpng error: %s
-libpng version 1.5.2 - March 31, 2011
-libpng version 1.5.2 - March 31, 2011Copyright (c) 1998-2011 Glenn Randers-PehrsonCopyright (c) 1996-1997 Andreas DilgerCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
 libpng warning: %s
 libpthread.so.0
 librendersystemempty.so
@@ -1621,9 +1532,7 @@ matrix3x4a_t
 max megabytes
 max megahertz
 max megatexels
-max. %f
 max_processor_count
-mdl
 memcmp
 memcpy
 memmove
@@ -1632,9 +1541,7 @@ memset
 min megabytes
 min megahertz
 min megatexels
-min. %f
 min_processor_count
-mj>
 nTries < 10000000
 need dictionary
 none
@@ -1668,7 +1575,6 @@ pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_once
 ptr( 0x%p )
-q>(
 queued
 r_fullscreen_gamma
 r_gpu_mem_stats
@@ -1682,12 +1588,12 @@ r_texturefilteringquality
 r_textures_evict_all
 r_validate_texture_streaming
 r_wait_on_present
-rb
 realloc
 rendercontextbase.cpp
 renderdevicebase.cpp
 renderdevicemgrbase.cpp
 renderstatehelper.h
+rendersystem (%s) tracked resources:\n
 rendersystemempty
 replicated
 resourcesystem
@@ -1696,13 +1602,13 @@ rgb to gray red coefficient
 rnd_down
 rnd_up
 roundf
-s
+sAmTb
 sPLT chunk has bad length
 sPLT chunk requires too much memory
 schemabindings.cpp
 screenWindowCenter
 screenWindowWidth
-sequence number %d too low in sheet file!!!
+sequence number %d too low in sheet file!!!\n
 server_can_execute
 setting.
 setting.CentroidHack
@@ -1734,7 +1640,6 @@ setting.resettodefaults
 setting.shaderquality
 sheetcache.cpp
 sheetcachetexture_.vtex
-sin
 single
 singleplayer
 sqrt
@@ -1758,11 +1663,11 @@ std::__throw_length_error(char const*)
 std::__throw_logic_error(char const*)
 std::__throw_out_of_range_fmt(char const*, ...)
 std::__throw_system_error(int)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
 std::chrono::_V2::steady_clock::now()
 std::condition_variable::condition_variable()
 std::condition_variable::notify_all()
@@ -1792,10 +1697,10 @@ std::string::swap(std::string&)
 std::terminate()
 std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>)
 std::thread::join()
-std::vector<float, std::allocator<float> >::_M_default_append(unsigned long)
-std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)
-std::vector<unsigned char, std::allocator<unsigned char> >::vector(unsigned long, std::allocator<unsigned char> const&)
-std::vector<unsigned short, std::allocator<unsigned short> >::vector(unsigned long, std::allocator<unsigned short> const&)
+std::vector<float, std::allocator<float>>::_M_default_append(unsigned long)
+std::vector<unsigned char, std::allocator<unsigned char>>::_M_default_append(unsigned long)
+std::vector<unsigned char, std::allocator<unsigned char>>::vector(unsigned long, std::allocator<unsigned char> const&)
+std::vector<unsigned short, std::allocator<unsigned short>>::vector(unsigned long, std::allocator<unsigned short> const&)
 stderr
 strchr
 strcmp
@@ -1806,22 +1711,21 @@ string
 strlen
 sub%dx%d.tga
 submrg%dx%d.tga
-t
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
 text
 text compression mode is out of range
 texturebase.cpp
-texturebase.cpp(1803):Error loading texture: %s
-texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(1803):Error loading texture: %s\n
+texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
 tiles
 too many length or distance symbols
 transparency
@@ -1839,7 +1743,6 @@ utlbuffer.cpp
 utlstring.cpp
 uvCropped
 uvUncropped
-v2f
 vQO+
 vector::_M_default_append
 vector::_M_emplace_back_aux
@@ -1847,34 +1750,25 @@ vector::_M_range_check: __n (which is %zu) >= this->size() (which is %zu)
 vector::_M_range_insert
 video.cfg
 video_version
-void std::vector<std::vector<unsigned long, std::allocator<unsigned long> >, std::allocator<std::vector<unsigned long, std::allocator<unsigned long> > > >::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long> > const&>(std::vector<unsigned long, std::allocator<unsigned long> > const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > >(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, char*, char*, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
+void std::vector<std::vector<unsigned long, std::allocator<unsigned long>>, std::allocator<std::vector<unsigned long, std::allocator<unsigned long>>>>::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long>> const&>(std::vector<unsigned long, std::allocator<unsigned long>> const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, std::forward_iterator_tag)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, char*, char*, std::forward_iterator_tag)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
 vstdlib
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__pointer_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 vtable for std::__future_base::_State_base
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
-w3(?
-wb
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 wcscmp
 wcslen
-with %d x %d thumbnail image
-wx=%d, wy=%d, rx=%d, ry=%d
+wx=%d, wy=%d, rx=%d, ry=%d\n
 y9*O
-zD
 zlib memory error
 zlib stream error
 zlib version error
-{
-{}()':
-|B
-
-C

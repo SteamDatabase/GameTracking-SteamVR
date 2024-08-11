@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -53,18 +52,18 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 4MovieTexture is deprecated. Use VideoPlayer instead.
 6Please use WWW.text instead. (UnityUpgradable) -> text
 <Module>
 <WWW.size is obsolete. Please use WWW.bytesDownloaded instead
 <threadPriority>k__BackingField
 >Modules/UnityWebRequestAudio/Public/DownloadHandlerAudioClip.h
-@.reloc
 AModules/UnityWebRequestAudio/Public/DownloadHandlerMovieTexture.h
 Assembly-CSharp-testable
 AudioType
 BObsolete msg (UnityUpgradable) -> * UnityEngine.WWW.GetAudioClip()
+BSJB
+Byte
 CachedAssetBundle
 CompilerGeneratedAttribute
 CreateTextureFromDownloadedData
@@ -117,6 +116,7 @@ MoveNext
 NativeHeaderAttribute
 Object
 ObsoleteAttribute
+Post
 RuntimeCompatibilityAttribute
 SendWebRequest
 SetRequestHeader
@@ -141,7 +141,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -237,12 +236,15 @@ WWWForm
 WaitUntilDoneIfPossible
 WebRequestWWW
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
+_uwr
 audioType
 cachedBundle
 compressed
 eUse UnityWebRequest, a fully featured replacement which is more efficient and has additional features
+form
 get_Current
 get_Item
 get_Key
@@ -279,6 +281,7 @@ markNonReadable
 mscoree.dll
 mscorlib
 op_Equality
+p\n8D
 postData
 set_Item
 set_chunkedTransfer

@@ -1,44 +1,32 @@
-					
-	%s - %s:%d
                           
    ! " % & ' : < G H I 
-  HEAP_ZERO_MEMORY is specified.
+  HEAP_ZERO_MEMORY is specified.\n
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 020r0}0
- 5 9 
- 9(X`
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- PjPW
- SVW3
+ GiB
+ KiB
+ MiB
  Type Descriptor'
  bytes
  delete
  delete[]
- new[]
-!6"t%
+ new
 "; filename="
-"B <1=
-#.X'=
-$PjQW
-%%.%if%s
+#D5p
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%S#[k
-%d,%p,%u,%u,%u,%u,%u,%d,%s
-%s (%d) : 
-%u MB address space used assuming maximum PageHeap overhead.
-%u MB allocated.
-%u MB memory used assuming maximum PageHeap overhead.
-%u lifetime allocations (%u delta).
-%u outstanding allocations (%d delta).
-&#039;
-&0$0"
-&?~YK|
+%d,%p,%u,%u,%u,%u,%u,%d,%s\n
+%lld
+%u MB address space used assuming maximum PageHeap overhead.\n
+%u MB allocated.\n
+%u MB memory used assuming maximum PageHeap overhead.\n
+%u lifetime allocations (%u delta).\n
+%u outstanding allocations (%d delta).\n
 &AElig;
 &Aacute;
 &Acirc;
@@ -63,13 +51,13 @@ $PjQW
 &Oslash;
 &Otilde;
 &Ouml;
+&Sgw
 &THORN;
 &Uacute;
 &Ucirc;
 &Ugrave;
 &Uuml;
 &Yacute;
-&_^[t
 &aacute;
 &acirc;
 &acute;
@@ -143,34 +131,16 @@ $PjQW
 &yacute;
 &yen;
 &yuml;
-'Symantec Time Stamping Services CA - G2
-'Symantec Time Stamping Services CA - G20
 ( 8PX
 ('8PW
-(DigiCert SHA2 Assured ID Code Signing CA
-(DigiCert SHA2 Assured ID Code Signing CA0
 (Function name not found)
 (null)
-***** OUT OF MEMORY! attempted allocation size: %I64d ****
-***** OUT OF MEMORY! attempted allocation size: %llu ****
-*PjTW
-+D$|;B
-+PjUW
-+Symantec Time Stamping Services Signer - G40
-+http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
-+http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
-,!10	
-,0<	w
-,494E4Q4[4r4
-,PjVW
-,|%)v
--2l2s2
+***** OUT OF MEMORY! attempted allocation size: %I64d ****\n
+***** OUT OF MEMORY! attempted allocation size: %llu ****\n
 -NOPROCESSHEAP
 -PROCESSHEAP
 -PROCESSHEAPZEROMEM
--PjWW
 -RESERVELOWMEM
--jd_;
 -noassert
 -nocrashdialog
 .00cfg
@@ -224,12 +194,10 @@ $PjQW
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.K="=
-.PjRW
+.bss
 .data
 .data$r
 .edata
-.http://crl.thawte.com/ThawteTimestampingCA.crl0
 .idata$2
 .idata$3
 .idata$4
@@ -240,531 +208,61 @@ $PjQW
 .rdata$r
 .rdata$sxdata
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
-.u&8\1
 .xdata$x
-/PjSW
+/Tw\n4
 /dumps
-/http://crl3.digicert.com/sha2-assured-cs-g1.crl05
-/http://crl4.digicert.com/sha2-assured-cs-g1.crl0K
 /steamerrorreporter.exe
-0 0(00080@0H0P0X0`0h0p0x0
-0!0,0o0
-0!070R0d0p0z0
-0"0U0o0t0
-0#030
-0#151G1Y1k1}1
-0#1c1r1
-0$0*00050;0A0G0L0R0X0^0c0i0o0u0z0
-0$0-1Q1
-0$030A0G0V0
-0$0@0`0
-0&0+090g0l0z0
-0(040@0L0X0d0p0|0
-0)060M0
-0*0F0
-0+0:0%1
-0,0S0a0q0
-0-1P1.2;3
 0123456789abcdefghijklmnopqrstuvwxyz
-030f0q0v0{0
-050h0}0
-060<0Q0W0\0z0
-061110000000Z
 0;0A0C0E0G0I0c0
-0;1B1
-0@0L0T0t0
-0H0O0T0X0\0`0
-0M0W0
-0r0^1
-1 1(10181@1H1P1X1`1h1p1x1
-1 1@1`1
-1 2e2u2C4
-1!1)1/1A1Q1q1
-1"1'1B1L1h1s1x1}1
-1#1(1>1X1j1o1
-1#2\2
+0\n0\f0
+0\t0\v0\r0
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1,14181
-1$10181X1|1
-1$101<1H1T1`1l1x1
-1*1j1
-1+2H2\2~2
-1,121;1K1U1Z1n1x1
-1,191H1T1^1t1
-1,212
-111B1H1f1
-112+454k4
-121(3F3
-121018000000Z
-121221000000Z
-131022120000Z
-132;2E2K2[2f2l2q2w2|2
-150925000000Z
 16:14:19
-180419211935Z0#
-181003120000Z0M1
-1:2#5
-1?1O1U1
-1@2E2
-1P3T3x3
-1R2`2h2p2
-1]1|1<2V2
-1e2k2
-1f2k2}2
-1t1{2
-1u2}2m3s3
-1v3d5v5|5
-2 2(20282@2H2P2X2`2h2p2x2
-2 2(202<2\2d2p2
-2 2,282H2T2`2l2x2
-2 2@2`2
-2"2[2`2
-2$2+222:2B2J2V2_2d2j2t2~2
-2'212H2S2a2m2}2
-2+262;2@2[2e2
-2-2?2Q2m2
-201229235959Z0b1
-201230235959Z0^1
-20282H2c2|2
-21272@2G2L2a2g2p2w2|2
-242T2x2
-262x2}2
-272I2y2
-281022120000Z0r1
-2D9-$
-2F3v4
-2J3l3
-2R3Y3
-2S2[2t2
-2`4e4
-2b3p3x3
 2ieO=
-2l3|3
-3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-3 3$3(34383<3@3D3H3\3`3d3
-3 3(30383@3H3P3X3`3h3p3x3
-3 3,383D3P3
-3!3+3?3E3l3
-3!4>4q5
-3"313;3H3R3b3
-3$3+32393A3I3Q3\3a3g3q3{3
-3$303T3t3|3
-3$3T3x3
-3%3-353=3E3X3^3c3k3v3
-3%313?376
-3%3G3{3
-3+8[8j8
-3.3>3K3`3
-3.3J3U3Z3_3z3
-311110000000Z0e1
-313L3`3
-336m7
-34383X3x3
-353o3v3
-3=4[4j4p4x4
-3B4K4P4Y4t4
-3B6O6b6
-3C4[4`4
-3J3Q3u3{3
-3K4X4
-3L7T7\7d7l7t7|7
-3X3b3}3
-3X3f3
-3b3:4
-4	475C5L5c5
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4(40484@4H4P4X4`4h4p4x4
-4"4'4,4_4
-4#4'4+4/43474;4?4C4
-4$4,444<4D4L4T4\4d4l4t4|4
-4$4,484X4d4
-4$40484P4\4|4
-4&474@4u4
-4&4f4
-4&8A8t8y8
-4(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=
-4)5.5D5y5~5
-4*4\4b4h4t4|4
-4-484F4O4_4k4w4
-4.4E4\4
-4/484@4V4i4t4z4
-404Q4l4
-404n4{4
-4468373P
-474=4B4N4Y4`4f4
-47;Q;
-484<4x4|4
-495@5
-4<4A4W4
-4K5x5
-4Y5^5e5
-4d5h5l5p58?D?P?\?h?t?
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
-5 5(50585@5H5P5X5`5h5p5x5
-5 6+6>6m6
-5!616A6y6
-5"5(5A5P5V5e5~5
-5"5*50575A5P5V5b5l5r5y5
-5"5+5m5
-5$5,545<5D5L5T5\5d5l5t5|5
-5$6v6
-5&555n5
-5&6f6
-5)5B5z6*8;8C8S8c8p8
-5)616E6l6u6
-5+5:5@5H5R5
-5,50585P5`5d5t5x5|5
-5,676
-5.595M5R5W5y5
-50301
-506w6
-545<5M5W5k5p5
-545@5H5`5l5
-566H6N6
-575S5t5y5
-5@5`5h5p5x5
-5Genu
-5K6S6e6
-5M667<9
-5^5{5
-5ineI
+4g%6
+5M[g
 5s3R6=
-6 6(60686@6H6P6X6`6h6p6x6
-6 6L6`6
-6 6\6!8(80888@8
-6!6;6@6M6[6g6s6}6
-6"6&6*6.6
-6#7}7
-6$6,646<6D6L6T6\6d6l6t6|6
-6$6:6G6L6Z6
-6$6D6P6p6x6
-6%6167687i7
-6'7D7f7
-6(6.646:6?6F6P6Y6_6n6s6|6
-6(6.6=6B6W6]6b6m6w6~6
-6)6.656;6E6S6]6g6q6~6
-6)717
-6,60686P6`6d6t6x6|6
-6-777>7D7U7\7
-6.758m8
-616w6
-62686
-626:6W6g6s6
-626J6
-627P7d7h7l7p7t7x7|7
-64696]7|7
-646i6n6
-667B7Z7|7
-6@6D6H6\6`6d6
-6I7@8
-6L6m6r6}6
-6Q7m7
-6V7s7
-6\6h6
-7 7$7
-7 7(70787@7H7P7X7`7h7p7x7
-7 7/767<7[7a7g7t7
-7!717A7Y7q7{7
-7"7,7>7D7J7T7^7i7s7x7
-7"7>7
-7"8)8.;r>y>
-7#8>8S8X8b8g8r8}8
-7$7,747<7D7L7T7\7d7l7t7|7
-7$74787H7L7T7l7|7
-7$7H7T7\7t7
-7$7P7X7|7
-7$7Y7^7t7
-7$8H8T8\8t8
-7&787C7K7S7[7d7m7u7
-7(8E8Y8d8
-7,7D7I7O7{7
-7,8=8W8l8v8
-7,8J8O8
 700PP
 700WP
-727[7|7
-7:7d7o7w7
-7:8E8J8R859M9
-7@7G7N7U7
-7D7{7
-7J8z8
-7K8V8
-7M:r:
-7S7{88:B:e:o:b?
-7S8q8
-7W7_7
-7f8k8}8,9;9E9
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
-8	8{8
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8(80888@8H8P8X8`8h8p8x8
-8 8+8
-8"9B9I9O9
-8#81898?8Q8a8q8
-8$8(8,848L8\8`8h8
-8$8,848<8D8L8T8\8d8l8t8|8
-8$80888X8|8
-8'8O8c8
-8*898G8e8v8
-80604
-80J0n0
-838F8^8
-869|9
-8=9H9
-8?8T:f:
-8A8`8}8
-8D9_:
-8I8N8d8
-8J8z8
-8L9d9j9r9.;X?
-8P9Z9
-8Y9d9n9t9
-8] j0
-8d9k9}9
-8p9x9~9
-9	:!:9:Q:i:
-9	:(:
-9 9%9/9Y9d9m9
-9 9'9W9`9i9w9
-9 9(90989@9H9P9X9`9h9p9x9
-9 9,989D9\9h9
-9!9B9Q9l9
-9"9(9
-9#;+;\;e;p;
-9$9(989<9@9H9`9p9t9
-9$9,949<9D9L9T9\9d9l9t9|9
-9$:P:
-9*909K9
-9,989@9X9d9
-9/:4:Y:
-919>9(<A<u=|=
-919Q9g9
-989=9C9N9X9o9w9
-989B9G9L9Q9V9
-999>9T9
-9::>:B:F:J:N:R:V:Z:^:
-9<9D9L9P9X9l9t9
-9<9K9Q9Y9c9
-9?:D:Z:
-9B:I:P:s:
-9C`u5Wj
-9C`u99C\t4
-9D$ u 
-9D$ u6
-9E WW
-9E$WWV
-9F<tA
-9L$|v!
-9M tfhL
-9O9r9
-9P;U<b=
-9\:g:
-9^\t|
-9p u"
-9r9w9
-:	;.;A;f;y;
-:	;1;Q;i;
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-: :$:(:,:4:L:\:`:p:t:x:
-: :(:0:8:@:H:P:X:`:h:p:x:
-: :,:8:D:P:\:h:t:
-:!;W;
-:":\:g:r:{:
-:#:U:]:
-:#;3;@;e;
-:$:,:4:<:D:L:T:\:d:l:t:|:
-:$:D:P:t:
-:$;/;<;M;[;c;
-:&:J:
-:':1:?;
-:4:8:X:x:
-:5=H=
-:9:e:
-:;:C:J:f:k:
-:<:S:_:k:q:{:
-:<:g:l:
-:?;N;W;d;|;
-:A:c:
-:E;g;
-:K;L<\<m<u<
-:U;l;
-:]:u:
-:]=O>
-:_^[t
-:f;>u
-:h"?bC
-:m;|;
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-; ;(;0;8;@;H;P;X;`;h;p;x;
-; ;(;0;8;D;d;l;x;
-; ;4;L;P;l;p;
-; <@<H<P<X<`<h<t<
-;"<e<k<
-;#;*;8;Y;
-;$;,;4;<;D;L;T;\;d;l;t;|;
-;&;-;4;;;B;I;P;W;e;
-;&;0;D;I;l;{;
-;(;4;@;L;X;d;p;|;
-;);Q;f;
-;,;1;
-;-;S;
-;.<@<v<{<
-;0;@;D;T;X;\;d;|;
-;=;R;h;u;
-;=<[<j<p<x<
-;N\u\W
-;`<y<
-;g<o<I=e=
-;t$,v-
-< =Q=
-< t1<	t-
-<!<+<A<K<U<_<t<
-<!<F<Y<~<
-<"=a=p=
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<$<0<<<H<T<`<l<x<
-<$>7>U>c>
-<%<1<7<A<O<X<o<
-<%<6<=<k<s<
-<(<@<\<x<
-<(<K<X<c<
-<,=B=[=m=
-<-=7=A=I=O=W=]=q=
-<.=B=
-</t	<\t
-<0<:<
-<0|o<9
-<3<<<E<
-<3<E<U<x<
-<4<8<@<H<P<T<\<p<
-<4<9<]<d<
-<4<D<H<L<P<X<p<
 <8bunz8
 <@En[vP
-<C<^<l<x<
-<\t&</t"N
-<et	<pu
-<l=r=
-<r<w<
-<xt"<Xt
-<{Q}<
-<~<f=:>^>
-= =(=<=V=
-= =,=8=D=P=\=h=t=
-= =,=L=T=`=
-=!='=1=7=D=I=T=]=n=z=
-=!=@=
-="='=-=3=9=>=D=J=P=U=[=a=g=l=r=x=~=
-="=-=C=I=U=a=
-="=1=l=x=
-=#=*=D={=
-=#>,>
-=#>/>4>9>`>l>q>v>
-=$=,=4=<=D=
-=$=,=4=<=D=L=T=\=d=l=t=|=
-=$=4=8=H=L=P=T=X=\=d=|=
-=&=.=9=?=J=P=^=g=l=
-='=1=P=`=|=
-=+=:=@=H=R=
-=0=P=p=
-=;=E=W=`=p=
-=@=d=
-=G=L=Z=x=
-=N>[>q>~>
-=V>;?O?
-=Z>g>w>
-=\uI=
-=c=y>
-> >(>,>0>4>8><>@>D>L>P>T>X>\>`>d>h>t>|>
->!?-?A?M?Y?y?
->"?4?s?
->"hcS
->$>*>0>6>;>A>G>M>R>W>^>d>i>o>u>{>
->$>,>4>
->$>,>4><>D>L>T>\>d>h>p>x>
->$>,>4><>D>L>T>`>
->%>+>3>A>I>O>W>]>q>{>
->'>/>k>{>
->(>4>@>L>X>d>
->+>P>W>
->,'1D=
->,>S>p>
->4>\>|>
->5?n?
->8>X>t>x>
->:>E>
->:uBFV
->;?A?S?
->=?W?d?
->=umF8
->>?N?S?
->A>|>
->C>R>l>v>
->Cu43
+=87M
 >c:\buildslave\vrpanorama_main_win32\build\src\tier0\vprof.cpp
-? ?(?0?8?@?H?P?X?`?h?p?x?
-?!?'?-?3?8?>?D?J?O?U?[?a?f?l?r?x?}?
-?!?8?C?Q?]?m?~?
-?#%X.y
-?#?3?|?
-?$?/?
-?$?D?`?
-?%?7?B?G?L?d?
-?(FN\
-?,?1?>?
-?/?_?g?
-?4j<=
-?5?A?
+?3xj
 ?5Wg4p
-?7?g?
+?5a1
 ?7Tf(
-?8?H?t?|?
-?8?X?x?
-?;?@?p?u?
-?C;0=
-?C?e?
-?D?c?
 ?Dj0Q:W$=
 ?IT$7
-?V?t?
+?Ltm
+?PiB
 ?X&eB
-?]tfS
-?g)([|X>=
-?h6_~
 ?{fHn
-?|I7Z#
-@.data
-@.reloc
 @DbgHelp.dll
 @Fv^k
-@H#?43
-@_^[]
-@b;zO]
-A1<Fu
+@VNQ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AcquireSRWLockExclusive
-Af;:u
+Ai0T
 AiFC.
-Alc blocks size,%12u,%12u,%12u,%u
+Alc blocks size,%12u,%12u,%12u,%u\n
 Alloc(): iPage >= 0 && iPage < %d, iPage == %d, pResult = 0x%p, pSharedData->m_pBase == 0x%p
 App Heap
 Apr  9 2018
@@ -772,7 +270,7 @@ April
 AreFileApisANSI
 Assert
 Assert Dialog
-Assert( %s ):%s:%d
+Assert( %s ):%s:%d\n
 Assertion Failed: 
 Assertion Failed: %s
 Assertion Failed: ((size_t)(m_nLogicalBytesAllocated) % 8) == 0
@@ -803,31 +301,20 @@ Assertion Failed: pFormat != NULL
 Assertion Failed: pSrc != NULL
 Assertion Failed: ppath
 Assertion Failed: stack%2d: %s (%d): %s
-Assertion: %s
 August
 AuthenticAMD
-Avail Virtual %llu
-Ax#?uN}*
-BBF;u
-BC .=
+Avail Virtual %llu\n
 BSQ_cache_reference
-BVj(j
 Bad thread local
-Bellevue1
-Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
+Bfe9
 Breakpad_SetSteamID
-Busy, please retry.
+Busy, please retry.\n
 C Runtime heap
 C-runtime internal
-C0`1r1
-C;^8u
-CD$h3
-CD$lPSSV
-CL$$+
 CPathString
-CRT Heap index=%p, Default Heap index=%p
-CValidator : too many memory nodes to store, try again with a higher threshold value
-Can't dump heaps until you've walked them!
+CRT Heap index=%p, Default Heap index=%p\n
+CValidator : too many memory nodes to store, try again with a higher threshold value\n
+Can't dump heaps until you've walked them!\n
 ClientDLL
 CloseClipboard
 CloseHandle
@@ -835,13 +322,13 @@ CloseThreadpoolTimer
 CloseThreadpoolWait
 CloseThreadpoolWork
 CommandLineToArgvW
-Committed size %llu
-Committed size in large blocks %llu
-Compact is no longer supported
+Committed size %llu\n
+Committed size in large blocks %llu\n
+Compact is no longer supported\n
 CompareStringEx
 CompareStringW
 Content-Disposition: form-data; name="
-Content-Type: application/octet-stream
+Content-Type: application/octet-stream\r\n
 Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Couldn't copy to clipboard.
@@ -861,17 +348,6 @@ CreateThread
 CreateThreadpoolTimer
 CreateThreadpoolWait
 CreateThreadpoolWork
-Ct$$P
-D$$QP
-D$0SP
-D$0SV
-D$HPQ
-D$PPV
-D$pWh
-D0B07
-D8(HXt:f
-D8(Ht
-D8(Ht5F
 DONT_BREAK_ON_ASSERT
 DebugBreak
 December
@@ -879,9 +355,6 @@ Default heap
 DeleteCriticalSection
 DeviceIoControl
 DialogBoxParamA
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-Durbanville1
 Eb2]A=
 EmptyClipboard
 Encryption
@@ -892,32 +365,22 @@ EnumProcesses
 EnumSystemLocalesEx
 EnumSystemLocalesW
 EnumWindows
-Eu*	M
 ExitProcess
-Exiting on SPEW_ABORT
-F _^[
+Exiting on SPEW_ABORT\n
 F0$?3=1
-F1<at
-F1<gt
-F1`1s1
-F2jgYf;
-F4^[]
-F8uH3
-F@j:f
-FCYY;
-FLP9^8u
-Failed spawning steam error reporter process.
-Failed to capture symbols - gle %d - make sure frame pointers are being emited
-Failed to enable the low-fragmentation heap on %p with LastError %d.
-Failed to enable the low-fragmentation, HeapSetInformation() not found
-Failed to find steamerrorreporter.exe
-Failed to query heap information, HeapQueryInformation() not found
-Failed to query heap information.
+FEMh\f
+Failed spawning steam error reporter process.\n
+Failed to capture symbols - gle %d - make sure frame pointers are being emited\n
+Failed to enable the low-fragmentation heap on %p with LastError %d.\n
+Failed to enable the low-fragmentation, HeapSetInformation() not found\n
+Failed to find steamerrorreporter.exe\n
+Failed to query heap information, HeapQueryInformation() not found\n
+Failed to query heap information.\n
 Fatal Assertion Failed: %s
 Fatal assert
-Fatal assert failed: %s, line %d.  Application exiting.
+Fatal assert failed: %s, line %d.  Application exiting.\n
 February
-File: %s
+File: %s\r\nLine: %d\r\nAssertion: %s\r\n
 FileSystem
 FindClose
 FindFirstFileExA
@@ -928,19 +391,18 @@ FlsGetValue
 FlsSetValue
 FlushFileBuffers
 FlushProcessWriteBuffers
-Free blocks size %12s %12s %12s %12s
-Free blocks size %12u %12u %12u %12llu
-Free blocks size,%12u,%12u,%12u,%u
-Free fragments %llu
+Free blocks size %12s %12s %12s %12s\n
+Free blocks size %12u %12u %12u %12llu\n
+Free blocks size,%12u,%12u,%12u,%u\n
+Free fragments %llu\n
 Free( 0x%p ): iPage >= 0 && iPage < %d, iPage == %d
 FreeEnvironmentStringsW
 FreeLibrary
 FreeLibraryWhenCallbackReturns
 Friday
-F||<##
-G;~8u
-G@9_8u
-GWVj	
+GBP1\n
+GCTL
+GYM=
 GameOverlayUI
 GenuineIntel
 GetACP
@@ -1001,15 +463,11 @@ GlobalAlloc
 GlobalLock
 GlobalMemoryStatusEx
 GlobalUnlock
-H0F08
 HH:mm:ss
-HPjPW
-H`$?h|
-Heap Dump - All (%d heaps)
-Heap#,Heap Handle,Allocated Bytes,Allocated Bytes(with overhead),Free Bytes,Total Bytes,Blocks,Heap Type,HeapNote
-Heap(%4.4d) Base=0x%p TotalAlloc=0x%p AllocWithOverhead=0x%p TotalFree=0x%p TotalBytes=0x%p Blocks=%8d Type=%2.2d Note=%12.12s
+Heap#,Heap Handle,Allocated Bytes,Allocated Bytes(with overhead),Free Bytes,Total Bytes,Blocks,Heap Type,HeapNote\n
+Heap(%4.4d) Base=0x%p TotalAlloc=0x%p AllocWithOverhead=0x%p TotalFree=0x%p TotalBytes=0x%p Blocks=%8d Type=%2.2d Note=%12.12s\n
 HeapAlloc
-HeapCompatibilityInformation for %p is %d.
+HeapCompatibilityInformation for %p is %d.\n
 HeapFree
 HeapLock
 HeapQueryInformation
@@ -1019,7 +477,7 @@ HeapSize
 HeapUnlock
 HeapValidate
 HeapWalk
-Ht$;}
+Ht=c
 HttpAddRequestHeadersW
 HttpOpenRequestW
 HttpQueryInfoW
@@ -1028,7 +486,7 @@ IND)ind)SNAN)
 IND)ind)m
 INITY
 InitOnceExecuteOnce
-InitVirtualHeap( %d ) called twice (%d, %d)
+InitVirtualHeap( %d ) called twice (%d, %d)\n
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
@@ -1056,20 +514,15 @@ IsValidLocaleName
 IsWindowVisible
 January
 Jobs/Coroutines
-K<<H!
+July
+June
 KERNEL32.dll
-L$,QSPV
-L$,_^[3
-L$4_^[3
-L$<_^[3
-L$TSEU
-L5P5T5X5\5`5x5|5
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-LPjQW
+La8i
+Le?2
 LeaveCriticalSection
-Line: %d
 LoadLibraryA
 LoadLibraryExA
 LoadLibraryExW
@@ -1084,71 +537,41 @@ MainThrd
 March
 MessageBoxA
 MiniDumpWriteDump
+MkK?
 Monday
 MultiByteToWideChar
 NAN(IND)
 NAN(SNAN)
 Network
-Nl,"=
 No Process Heaps!
 No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
-No tracked allocs currently in use. Total %d
+No tracked allocs currently in use. Total %d\n
 November
 O-debugbreak
-O?#l]vY
 October
-OjlZ;
 OpenClipboard
 OpenThread
-Other %llu
-Other Overhead %llu
-Other Overhead ( beyond 4 byte alignment ) %llu
-Other blocks %u
-Other blocks size %12u %12u %12u %12llu
-Out of thread local storage!
+Other %llu\n
+Other Overhead %llu\n
+Other Overhead ( beyond 4 byte alignment ) %llu\n
+Other blocks %u\n
+Other blocks size %12u %12u %12u %12llu\n
+Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 OverlayInput
 OverlayRendering
-P3T3X3\3`3d3h3l3p3t3x3|3
-PADDINGXXPADDINGPADDINGXXPAD
-PP9E u:PPVWP
-PPPPP
-PPPPPPPP
-PPPPPWS
-PPPPh
-PPPPhx?
-PPSUj
-PQShn#
-PRPQh
 PS3 Unattributed
 PSAPI.DLL
-PSWSS
-PVSQSWV
-PVSQj
-PWVQh
-PWjUR
-PageHeap is off. Memory use will be normal.
-PageHeap is on. Memory use will be larger than normal.
+PageHeap is off. Memory use will be normal.\n
+PageHeap is on. Memory use will be larger than normal.\n
 PageHeapFlags
 Pex?0
-Pool %4llu: allocated:%6i free:%6i committed:%6i (size:%5u kb)
-Pool %i: Size: %llu Allocated: %i Free: %i Committed: %i CommittedSize: %i
-QPhp-
-QQQQj
-QQSV3
-QQSVW
-QQSVWd
-QQSWj0j@
-QQVWj
-QRPVt
-QSSSSj
-QSVWh
-QVVVj
-QVWSj
+Pool %4llu: allocated:%6i free:%6i committed:%6i (size:%5u kb)\n
+Pool %i: Size: %llu Allocated: %i Free: %i Committed: %i CommittedSize: %i\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RPhxB
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1158,23 +581,13 @@ RegQueryValueExA
 ReleaseSRWLockExclusive
 ReleaseSemaphore
 ResetEvent
+Root
 RtlCaptureContext
 RtlUnwind
 RunCallbacks
+SBH:\n
 SHELL32.dll
 SNAN)
-SSPQSS
-SSSSS
-SSSSh
-SSVWh 
-SUVW3
-SUVWQ
-SVW8A
-SVWUj
-SVWf9
-SVWj@
-SVWjA_jZ+
-SVjA[jZ^+
 Saturday
 September
 ServerMain
@@ -1200,17 +613,17 @@ Sleeping
 Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\%s
 Someone called ClearWritingMinidump without holding the minidump lock.
 Someone called SetWritingMinidump without holding the minidump lock.
-Sorry -- no stats saved to file memstats.txt when the heap allocator is enabled.
-Stack:%2d    %s (%d): %s
-Stack:%2d    0x%08I64x (File and line number not available): %s
+Sorry -- no stats saved to file memstats.txt when the heap allocator is enabled.\n
+Stack:%2d    %s (%d): %s\n
+Stack:%2d    0x%08I64x (File and line number not available): %s\n
 StackTraceDatabaseSizeInMB
 StackWalk64
-Starting minidump reporter process
+Starting minidump reporter process\n
 Steam
 SteamErrorReporter_Running
 SteamUI
 Streaming
-Subj blocks,%12d,%12d,%12u
+Subj blocks,%12d,%12d,%12u\n
 SubmitThreadpoolWork
 Sunday
 SymCleanup
@@ -1220,77 +633,52 @@ SymGetLineFromAddr64
 SymGetModuleBase64
 SymInitialize
 SymSetOptions
-Symantec Corporation100.
-Symantec Corporation1402
-T=\=d=l=t=|=
 TenFoot
 TerminateProcess
 TerminateThread
-Thawte Certification1
-Thawte Timestamping CA0
-Thawte1
-The low-fragmentation heap has been enabled for heap %p.
+The low-fragmentation heap has been enabled for heap %p.\n
 ThreadWorkItem
 Thursday
-TimeStamp-2048-10
-TimeStamp-2048-20
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Total      TotalBytes=0x%llx TotalAlloc=0x%llx TotalAllocWithOverhead=0x%llx TotalFree=0x%llx Total Blocks=%8lld
-Total Virtual %llu
-Totals: blocks:%u Committed:%u MB Allocated:%u MB
-Totals: blocks:%u Committed:%u kb Allocated:%u kb
+Total      TotalBytes=0x%llx TotalAlloc=0x%llx TotalAllocWithOverhead=0x%llx TotalFree=0x%llx Total Blocks=%8lld\n
+Total Virtual %llu\n
+Totals: blocks:%u Committed:%u MB Allocated:%u MB\n
+Totals: blocks:%u Committed:%u kb Allocated:%u kb\n
 TracingFlags
-Tracked allocs currently in use. %d Total %d
-Trailing space on executable name! This will cause Application Verifier and ETW Heap tracing to fail!
+Tracked allocs currently in use. %d Total %d\n
+Trailing space on executable name! This will cause Application Verifier and ETW Heap tracing to fail!\n
 TransactNamedPipe
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
-Tt1jhZ;
 Tuesday
 T~OXu
-UQPXY]Y[
-URPQQh
 USER32.dll
 UTF-16LEUNICODE
 UTF-8
 UUUUU
 Unaccounted
-Uncommitted %llu
-Uncommitted OverHead %llu
-Uncommitted blocks %u
-Uncommitted size %llu
+Uncommitted %llu\n
+Uncommitted OverHead %llu\n
+Uncommitted blocks %u\n
+Uncommitted size %llu\n
 UnhandledExceptionFilter
 Unknown exception
-Unrecognized HeapInformation reported for heap %p.
-Used %llu
-Used Overhead %llu
-Used Overhead ( beyond 4 byte alignment ) %llu
-Used blocks %u
-Used blocks size %12u %12u %12u %12llu
+Unrecognized HeapInformation reported for heap %p.\n
+Used %llu\n
+Used Overhead %llu\n
+Used Overhead ( beyond 4 byte alignment ) %llu\n
+Used blocks %u\n
+Used blocks size %12u %12u %12u %12llu\n
 UuidCreate
-V%A+=
-VC20XC00U
-VSSSQh
-VVVVV
-VVVVj
-VX9^`tT
+VGUI
 V_RemoveDotSlashes failed for "%s".
-Valve0
-Valve1
 VirtualAlloc
 VirtualQuery
 VirtualQueryEx
-W8^&u:
-W8^.u:
-WHPhH
 WININET.dll
-WSVPP
-WWVSW
-WWWPWS
-WWWWW
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1299,30 +687,24 @@ WaitNamedPipeW
 WakeAllConditionVariable
 WakeConditionVariable
 Wednesday
-Western Cape1
 WideCharToMultiByte
-Wj0XPV
 WriteConsoleW
 WriteFile
-YYhp#
-Y_[^]
-Y__^[
-Yj&QQ
+X/4B
+X4I+
 ZwQueryInformationProcess
-[9x)bwCTSListBase: Misaligned list
+[9x)bwCTSListBase: Misaligned list\n
 [aOni*{
 \\.\GDPERF
 \\.\GDPERF.VXD
+\fO4W
+\nHeap Dump - All (%d heaps)\n
+\r\f\v\v\n\n\t\t\t\t\t
 \src\
-\vnO^
-]3y3}3
-]jxdE
-]vQ<)8
-^$+^8+
+\t%s - %s:%d\n
+\tcQr
 ^<V7w
-_ExitOnFatalAssert
-_WVj@
-_^][3
+_ExitOnFatalAssert\n
 __based(
 __cdecl
 __clrcall
@@ -1339,8 +721,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-_tcPVj@
-`.rdata
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -1351,7 +731,6 @@ _tcPVj@
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -1378,13 +757,17 @@ _tcPVj@
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+aDJ=
 abcdefghijklmnopqrstuvwxyz
+acos
 address family not supported
 address in use
 address not available
 already connected
 argument list too long
 argument out of domain
+asin
+atan
 atan2
 bad address
 bad allocation
@@ -1408,16 +791,20 @@ c:\buildslave\vrpanorama_main_win32\build\src\tier1\fileio.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools_unicode.cpp
+c?e2
+ceil
 connection aborted
 connection already in progress
 connection refused
 connection reset
 console
+cosh
 count
 crashhandler.dll
 crashhandler001
 crashhandler002
 cross device link
+d8L2
 dddd, MMMM dd, yyyy
 destination address required
 device or resource busy
@@ -1425,33 +812,24 @@ directory not empty
 e+000
 eLK(w
 executable format error
-f90t	
-f9:t!V
-f9D$Dt
-f<\u<h
+fabs
 file exists
 file too large
 filename too long
 floor
+fmod
 frexp
-ft%9q
 function not supported
-g0e0*
 g_dwDllEntryThreadId
-h3l3p3t3x3|3
-hHeap %p
+h0'D
+hHeap %p\n
 hI{L[
 hb?O2
-heap %p has the low-fragmentation heap enabled.
-heap %p is a standard heap.
-heap %p supports look-aside lists.
+heap %p has the low-fragmentation heap enabled.\n
+heap %p is a standard heap.\n
+heap %p supports look-aside lists.\n
 heapdump.csv
 host unreachable
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0N
-http://ocsp.thawte.com0
-http://ts-ocsp.ws.symantec.com07
-https://www.digicert.com/CPS0
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1470,37 +848,20 @@ ios_base::failbit set
 iostream
 iostream stream error
 is a directory
-item %p sentinel corrupted. skipping.
-iu+-,
-j	PjYV
-j Y;E
-j!hPA
-j$h`&
-j&j@P
-j,hHQ
-j-ZCf
-j.Yf;
-j0Xf;
-j0h(D
-j:Xf;
-j:j@P
-j;Xf9
-jAXf;
-jAZjX
-jAZjZ^
-jA_f;
-jGYf;
-jXXf;
-jZXf;
-jgYjG
+item %p sentinel corrupted. skipping.\n
+k:UG
+k=yI
 kernel32.dll
 ldexp
 list<T> too long
 log10
-m0k0$
+ls1=
+lzZ?
 m1WY$
+m\nXo
 map/set<T> too long
 message size
+modf
 nan(ind)
 nan(snan)
 network down
@@ -1536,42 +897,29 @@ operation would block
 operator
 operator "" 
 operator co_await
+owM&
 owner dead
-p0n05
-p1f3q>
 permission denied
+pnJ=
 protocol error
 protocol not supported
 psapi.dll
-r(+>3
-r)f;q
-r2f;A
 r7Yr7=
 read only file system
 resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
-rr	jrZ
-s VUW
 sU0&?W
+sinh
 snan)
+sqrt
 state not recoverable
 stream timeout
 string too long
-t	j-Xf
-t h,#
-t%92t	
-t,WW9}
-t0jXXf
-t4SWV
-tGVVj
-tJj_S
-tLxXj
-tWSVh((
-t^WjU
+tLVv
+tanh
 text file busy
-tf<.u[8A
 tier0_s.dll
 timed out
 too many files open
@@ -1579,48 +927,19 @@ too many files open in system
 too many links
 too many symbolic link levels
 total bytes
-tyPVj@W
-u	!FX@
-u kE$<
-u";8u
-u#j,Xf;
-u*h@4
-u-PWWS
-u0jAXf;
-u2Vj@h8
-u4h4U
-u7h4U
 u?^p?o4
-uBjAYjZ+
-uCPVj
-uGj@j!
-uN^[2
-u^9^\t/
+uXO=
 unknown error
 unknown exception
-v	N+D$
-v!j"X_^[
 v2!L.2
 value too large
 vector<T> too long
-w%s(+G
-wIPS3
-warning: removing Breakpad handler out of order
+warning: removing Breakpad handler out of order\n
 wrong protocol type
 wsprintfA
-www.digicert.com1$0"
-www.digicert.com110/
-x0v0$
 xpxxxx
 xwpwpp
-y1~?|"
-y3+.{
-z0x0:
-|$4 s5Rj
-|)P!?Ua0
-|VWj=S
+z1}B
+zyC7
+{4Wf
 |W8A=
-~ $s%r
-~$+~8+
-~,9~$t	
-~0WPQ

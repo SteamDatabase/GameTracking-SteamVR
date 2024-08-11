@@ -1,30 +1,16 @@
-
-!
-"
-#
-$
+  <interface name="com.canonical.dbusmenu">\n    <property access="read" type="u" name="Version">\n    </property>\n    <property access="read" type="s" name="TextDirection">\n    </property>\n    <property access="read" type="s" name="Status">\n    </property>\n    <property access="read" type="as" name="IconThemePath">\n    </property>\n    <method name="GetLayout">\n      <annotation value="QDBusMenuLayoutItem" name="org.qtproject.QtDBus.QtTypeName.Out1"/>\n      <arg direction="in" type="i" name="parentId"/>\n      <arg direction="in" type="i" name="recursionDepth"/>\n      <arg direction="in" type="as" name="propertyNames"/>\n      <arg direction="out" type="u" name="revision"/>\n      <arg direction="out" type="(ia{sv}av)" name="layout"/>\n    </method>\n    <method name="GetGroupProperties">\n      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>\n      <annotation value="QDBusMenuItemList" name="org.qtproject.QtDBus.QtTypeName.Out0"/>\n      <arg direction="in" type="ai" name="ids"/>\n      <arg direction="in" type="as" name="propertyNames"/>\n      <arg direction="out" type="a(ia{sv})" name="properties"/>\n    </method>\n    <method name="GetProperty">\n      <arg direction="in" type="i" name="id"/>\n      <arg direction="in" type="s" name="name"/>\n      <arg direction="out" type="v" name="value"/>\n    </method>\n    <method name="Event">\n      <arg direction="in" type="i" name="id"/>\n      <arg direction="in" type="s" name="eventId"/>\n      <arg direction="in" type="v" name="data"/>\n      <arg direction="in" type="u" name="timestamp"/>\n    </method>\n    <method name="EventGroup">\n      <annotation value="QList&lt;QDBusMenuEvent&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>\n      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out0"/>\n      <arg direction="in" type="a(isvu)" name="events"/>\n      <arg direction="out" type="ai" name="idErrors"/>\n    </method>\n    <method name="AboutToShow">\n      <arg direction="in" type="i" name="id"/>\n      <arg direction="out" type="b" name="needUpdate"/>\n    </method>\n    <method name="AboutToShowGroup">\n      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>\n      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out0"/>\n      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out1"/>\n      <arg direction="in" type="ai" name="ids"/>\n      <arg direction="out" type="ai" name="updatesNeeded"/>\n      <arg direction="out" type="ai" name="idErrors"/>\n    </method>\n    <signal name="ItemsPropertiesUpdated">\n      <annotation value="QDBusMenuItemList" name="org.qtproject.QtDBus.QtTypeName.In0"/>\n      <annotation value="QDBusMenuItemKeysList" name="org.qtproject.QtDBus.QtTypeName.In1"/>\n      <arg direction="out" type="a(ia{sv})" name="updatedProps"/>\n      <arg direction="out" type="a(ias)" name="removedProps"/>\n    </signal>\n    <signal name="LayoutUpdated">\n      <arg direction="out" type="u" name="revision"/>\n      <arg direction="out" type="i" name="parent"/>\n    </signal>\n    <signal name="ItemActivationRequested">\n      <arg direction="out" type="i" name="id"/>\n      <arg direction="out" type="u" name="timestamp"/>\n    </signal>\n  </interface>\n
+  <interface name="org.kde.StatusNotifierItem">\n    <property access="read" type="s" name="Category"/>\n    <property access="read" type="s" name="Id"/>\n    <property access="read" type="s" name="Title"/>\n    <property access="read" type="s" name="Status"/>\n    <property access="read" type="i" name="WindowId"/>\n    <property access="read" type="s" name="IconThemePath"/>\n    <property access="read" type="o" name="Menu"/>\n    <property access="read" type="b" name="ItemIsMenu"/>\n    <property access="read" type="s" name="IconName"/>\n    <property access="read" type="(iiay)" name="IconPixmap">\n      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>\n    </property>\n    <property access="read" type="s" name="OverlayIconName"/>\n    <property access="read" type="(iiay)" name="OverlayIconPixmap">\n      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>\n    </property>\n    <property access="read" type="s" name="AttentionIconName"/>\n    <property access="read" type="(iiay)" name="AttentionIconPixmap">\n      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>\n    </property>\n    <property access="read" type="s" name="AttentionMovieName"/>\n    <property access="read" type="(s(iiay)ss)" name="ToolTip">\n      <annotation value="QXdgDBusToolTipStruct" name="org.qtproject.QtDBus.QtTypeName"/>\n    </property>\n    <method name="ContextMenu">\n      <arg direction="in" type="i" name="x"/>\n      <arg direction="in" type="i" name="y"/>\n    </method>\n    <method name="Activate">\n      <arg direction="in" type="i" name="x"/>\n      <arg direction="in" type="i" name="y"/>\n    </method>\n    <method name="SecondaryActivate">\n      <arg direction="in" type="i" name="x"/>\n      <arg direction="in" type="i" name="y"/>\n    </method>\n    <method name="Scroll">\n      <arg direction="in" type="i" name="delta"/>\n      <arg direction="in" type="s" name="orientation"/>\n    </method>\n    <signal name="NewTitle"/>\n    <signal name="NewIcon"/>\n    <signal name="NewAttentionIcon"/>\n    <signal name="NewOverlayIcon"/>\n    <signal name="NewToolTip"/>\n    <signal name="NewStatus">\n      <arg type="s" name="status"/>\n    </signal>\n  </interface>\n
+ children)
 $ORIGIN/../../lib
-%
 %s: Unable to determine KDE dirs
-&
 &Cancel
 &Close
-&OK
 &Save
-'
-(
-)
-+
-,
 , properties=
--
-.
-/
 /MenuBar
 /StatusNotifierItem
 /StatusNotifierWatcher
 /usr/local/share/:/usr/share/
-1
 10QGtk2Theme
 11QGnomeTheme
 11QGtk2Dialog
@@ -42,7 +28,6 @@ $ORIGIN/../../lib
 1notificationClosed(uint,uint)
 1onAccepted()
 1quit()
-2
 21QDBusPlatformMenuItem
 21QGtk2FileDialogHelper
 21QGtk2FontDialogHelper
@@ -69,20 +54,8 @@ $ORIGIN/../../lib
 2tooltipChanged()
 2trayIconRegistered()
 2updated(uint,int)
-6
-6@
-9
 9QKdeTheme
-:
-;
-<
-<interface name="com.canonical.dbusmenu">    <property access="read" type="u" name="Version">    </property>    <property access="read" type="s" name="TextDirection">    </property>    <property access="read" type="s" name="Status">    </property>    <property access="read" type="as" name="IconThemePath">    </property>    <method name="GetLayout">      <annotation value="QDBusMenuLayoutItem" name="org.qtproject.QtDBus.QtTypeName.Out1"/>      <arg direction="in" type="i" name="parentId"/>      <arg direction="in" type="i" name="recursionDepth"/>      <arg direction="in" type="as" name="propertyNames"/>      <arg direction="out" type="u" name="revision"/>      <arg direction="out" type="(ia{sv}av)" name="layout"/>    </method>    <method name="GetGroupProperties">      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QDBusMenuItemList" name="org.qtproject.QtDBus.QtTypeName.Out0"/>      <arg direction="in" type="ai" name="ids"/>      <arg direction="in" type="as" name="propertyNames"/>      <arg direction="out" type="a(ia{sv})" name="properties"/>    </method>    <method name="GetProperty">      <arg direction="in" type="i" name="id"/>      <arg direction="in" type="s" name="name"/>      <arg direction="out" type="v" name="value"/>    </method>    <method name="Event">      <arg direction="in" type="i" name="id"/>      <arg direction="in" type="s" name="eventId"/>      <arg direction="in" type="v" name="data"/>      <arg direction="in" type="u" name="timestamp"/>    </method>    <method name="EventGroup">      <annotation value="QList&lt;QDBusMenuEvent&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out0"/>      <arg direction="in" type="a(isvu)" name="events"/>      <arg direction="out" type="ai" name="idErrors"/>    </method>    <method name="AboutToShow">      <arg direction="in" type="i" name="id"/>      <arg direction="out" type="b" name="needUpdate"/>    </method>    <method name="AboutToShowGroup">      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out0"/>      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out1"/>      <arg direction="in" type="ai" name="ids"/>      <arg direction="out" type="ai" name="updatesNeeded"/>      <arg direction="out" type="ai" name="idErrors"/>    </method>    <signal name="ItemsPropertiesUpdated">      <annotation value="QDBusMenuItemList" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QDBusMenuItemKeysList" name="org.qtproject.QtDBus.QtTypeName.In1"/>      <arg direction="out" type="a(ia{sv})" name="updatedProps"/>      <arg direction="out" type="a(ias)" name="removedProps"/>    </signal>    <signal name="LayoutUpdated">      <arg direction="out" type="u" name="revision"/>      <arg direction="out" type="i" name="parent"/>    </signal>    <signal name="ItemActivationRequested">      <arg direction="out" type="i" name="id"/>      <arg direction="out" type="u" name="timestamp"/>    </signal>  </interface>
-<interface name="org.kde.StatusNotifierItem">    <property access="read" type="s" name="Category"/>    <property access="read" type="s" name="Id"/>    <property access="read" type="s" name="Title"/>    <property access="read" type="s" name="Status"/>    <property access="read" type="i" name="WindowId"/>    <property access="read" type="s" name="IconThemePath"/>    <property access="read" type="o" name="Menu"/>    <property access="read" type="b" name="ItemIsMenu"/>    <property access="read" type="s" name="IconName"/>    <property access="read" type="(iiay)" name="IconPixmap">      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <property access="read" type="s" name="OverlayIconName"/>    <property access="read" type="(iiay)" name="OverlayIconPixmap">      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <property access="read" type="s" name="AttentionIconName"/>    <property access="read" type="(iiay)" name="AttentionIconPixmap">      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <property access="read" type="s" name="AttentionMovieName"/>    <property access="read" type="(s(iiay)ss)" name="ToolTip">      <annotation value="QXdgDBusToolTipStruct" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <method name="ContextMenu">      <arg direction="in" type="i" name="x"/>      <arg direction="in" type="i" name="y"/>    </method>    <method name="Activate">      <arg direction="in" type="i" name="x"/>      <arg direction="in" type="i" name="y"/>    </method>    <method name="SecondaryActivate">      <arg direction="in" type="i" name="x"/>      <arg direction="in" type="i" name="y"/>    </method>    <method name="Scroll">      <arg direction="in" type="i" name="delta"/>      <arg direction="in" type="s" name="orientation"/>    </method>    <signal name="NewTitle"/>    <signal name="NewIcon"/>    <signal name="NewAttentionIcon"/>    <signal name="NewOverlayIcon"/>    <signal name="NewToolTip"/>    <signal name="NewStatus">      <arg type="s" name="status"/>    </signal>  </interface>
-=>
->
-?
-@
-A
+:gtk-font-name
 AboutToShow
 AboutToShowGroup
 ActionInvoked
@@ -90,53 +63,38 @@ Activate
 AttentionIconName
 AttentionIconPixmap
 AttentionMovieName
-B
-C
 CXXABI_1.3
 Category
 Close without Saving
 ContextMenu
-D
 D-Bus Interface
 D-Bus Introspection
 D-Bus tray available:
 DESKTOP_SESSION
-E
 Event
 EventGroup
-F
-G
 GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
 GNOME
-GNU
 GetGroupProperties
 GetLayout
 GetProperty
-H
-I
 IconName
 IconPixmap
-Id
 IsStatusNotifierHostRegistered
 ItemActivationRequested
 ItemIsMenu
 ItemsPropertiesUpdated
-J
-K
-KDE
 KDEDIRS
 KDEHOME
 KDE_SESSION_VERSION
-L
 LXDE
 LayoutUpdated
 MATE
 Menu
 MessageIcon
-N
 NewAttentionIcon
 NewIcon
 NewOverlayIcon
@@ -144,12 +102,9 @@ NewStatus
 NewTitle
 NewToolTip
 NotificationClosed
-O
 OverlayIconName
 OverlayIconPixmap
 P@/NO_DBUSMENU
-PNG
-Q
 QAbstractConcatenable::appendLatin1To(char const*, int, QChar*)
 QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)
 QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
@@ -606,31 +561,24 @@ QtPrivate::QStringList_join(QStringList const*, QChar const*, int)
 QtPrivate::QStringList_removeDuplicates(QStringList*)
 QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
 RegisterStatusNotifierItem
-S
 Sans Serif
 Scroll
 SecondaryActivate
 Status
 StatusNotifierHost is not registered
-T
 TextBesideIcon
 TextDirection
 TextOnly
 TextUnderIcon
 Title
 ToolTip
-U
 UNITY
-V
 Version
-W
-X
 X-CINNAMON
 XDG_DATA_DIRS
 XFCE
 XSetErrorHandler
 XSetTransientForHint
-[
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -643,8 +591,6 @@ __gmon_start__
 _edata
 _end
 _fini
-`
-a
 accept
 action
 actionInvoked
@@ -652,28 +598,23 @@ action_key
 actions
 appIcon
 appName
-arg
 attention
 attentionIcon
 attentionIconName
 attentionMessage
 attentionTimerExpired
 attentionTitle
-b
 body
-c
 cancel-button
 category
 categoryChanged
 checkmark
-children)
 children-display
 clicked
 closeNotification
 color-changed
 com.canonical.dbusmenu
 current-folder-changed
-d
 data
 dbusError
 dbusId
@@ -681,17 +622,14 @@ default
 delete-event
 delta
 depth
-e
 enabled
 error
 eventId
 events
-f
 failed to register
 failed to register service
 failed to unregister service
 false
-g
 g_free
 g_object_get
 g_object_set
@@ -764,22 +702,15 @@ gtk_widget_set_visible
 gtk_widget_show
 gtk_window_get_type
 gtk_window_set_title
-h
 help-button
 hints
-i
 icon
 icon-data
 icon-name
 iconChanged
 iconName
-id
 idErrors
-ids
 isRequestingAttention
-k
-kde
-l
 label
 layout
 libGL.so.1
@@ -810,14 +741,11 @@ libpangoft2-1.0.so.0
 libpthread.so.0
 librt.so.1
 libstdc++.so.6
-ltr
-m
 memcmp
 memcpy
 menu
 menuChanged
 monospace
-n
 name
 non-virtual thunk to QWindow::format() const
 non-virtual thunk to QWindow::surfaceHandle() const
@@ -825,7 +753,6 @@ non-virtual thunk to QWindow::surfaceType() const
 normal
 notificationClosed
 notify
-o
 ok-button
 onAccepted
 operator delete(void*)
@@ -841,7 +768,6 @@ org.freedesktop.Notifications
 org.kde.StatusNotifierItem
 org.kde.StatusNotifierWatcher
 orientation
-p
 pango_font_description_free
 pango_font_description_from_string
 pango_font_description_get_family
@@ -858,7 +784,6 @@ parent
 parentId
 propertiesUpdated
 propertyNames
-q
 qDBusReplyFill(QDBusMessage const&, QDBusError&, QVariant&)
 qHash(QString const&, unsigned int)
 qgetenv(char const*)
@@ -867,7 +792,6 @@ qt.qpa.menu
 qt.qpa.tray
 qt_plugin_instance
 qt_plugin_query_metadata
-r
 reason
 recursionDepth
 reject
@@ -875,8 +799,6 @@ removedProps
 replacesId
 response
 revision
-rtl
-s
 selection-changed
 separator
 specVersion
@@ -887,7 +809,6 @@ strcmp
 strlen
 submenu
 summary
-t
 timeout
 timestamp
 toggle-state
@@ -909,12 +830,10 @@ typeinfo for QPlatformTheme
 typeinfo for QPlatformThemePlugin
 typeinfo for QPlatformThemePrivate
 typeinfo for QWindow
-u
 unregistering
 updated
 updatedProps
 urgency
-v
 vendor
 version
 visible
@@ -925,8 +844,3 @@ vtable for QPlatformFontDialogHelper
 vtable for QPlatformMenu
 vtable for QPlatformMenuItem
 vtable for __cxxabiv1::__si_class_type_info
-w
-x
-y
-z
-{

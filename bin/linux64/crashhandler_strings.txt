@@ -1,52 +1,51 @@
-
+       Sum (ms)         Avg Time/Frame (ms)     Avg Time/Call (ms)\n
+  %10.3f %6.2f      %10.3f %6.2f      %10.3f %6.2f   %6d %6.2f
+  %10.3f %6.2f      %6d
+  %52s%12d%12.3f%6.2f%%%12.3f%6.2f%%%12.3f%12.3f%12.3f\n
+  %s = '%s'\n
+  ---------- ------      ---------- ------      ---------- ------   ------ ------\n
+  ---------- ------      ------\n
+  ---------------------------------------------------- ----------- ----------- ------ ----------- ------ ----------- ----------- -----------\n
+  Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak\n
+ (deleted)
+ - file:%s, line:%u ,time:%04u%02u%02u%02u%02u%02u\n
+ Avg Time/Frame (ms)\n
+ Gbps
+ GiB
+ Kbps
+ KiB
+ Mbps
+ MiB
+ bps
+ bytes
 !directory.empty()
 !dumper_->IsPostMortem()
 !member || mapping_id < mappings_.size()
-"%s"
-#!/bin/shexit 0
-$tI
-%%.%if%s
-%*s%s %s --> %d blocks = %s (%s larger)
-%*s%s %s --> %d blocks = %s (new)
+#!/bin/sh\nexit 0\n
+%*s%s %s --> %d blocks = %s (%s larger)\n
+%*s%s %s --> %d blocks = %s (new)\n
 %.18g
-%.1f pct of time accounted for
+%.1f pct of time accounted for\n
 %0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%10.3f %6.2f      %10.3f %6.2f      %10.3f %6.2f   %6d %6.2f
-%10.3f %6.2f      %6d
-%52s%12d%12.3f%6.2f%%%12.3f%6.2f%%%12.3f%12.3f%12.3f
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
-%A %b %d
-%X
-%d frames sampled for %.2f seconds
-%d validator nodes, %d nodes larger than %s
-%d%s
+%d frames sampled for %.2f seconds\n
+%d validator nodes, %d nodes larger than %s\n
 %d.%d.%d.%d:%d
 %d:00
-%f
-%i%s
 %lld
 %llu
-%p
-%s %i %s
-%s (%d) :
-%s --> %d blocks = %s
-%s = '%s'
+%s --> %d blocks = %s\n
 %s not implemented
-%s overflow!
-%s%c%s
+%s overflow!\n
 %s%c.temp_write_%x
 %s.async%u.tmp
-%s/%s
 %s/.steam/%s
 %s/.steam/steam
 %s_%d%.2d%.2d%.2d%.2d%.2d_%d
-%u
-&
-&#039;
 &AElig;
 &Aacute;
 &Acirc;
@@ -104,7 +103,6 @@ $tI
 &frac12;
 &frac14;
 &frac34;
-&gt;
 &iacute;
 &icirc;
 &iexcl;
@@ -112,7 +110,6 @@ $tI
 &iquest;
 &iuml;
 &laquo;
-&lt;
 &macr;
 &mdash;
 &micro;
@@ -152,30 +149,21 @@ $tI
 &yacute;
 &yen;
 &yuml;
-''
-'', upload
-(%zu) Descend: %s, (%s), %s
-(%zu) readdir failed to find '%s' in '%s'
-(deleted)
-***** OUT OF MEMORY! attempted allocation size: %zu ****
-*.*
+'', upload 
+(%zu) Descend: %s, (%s), %s\n
+(%zu) readdir failed to find '%s' in '%s'\n
+***** OUT OF MEMORY! attempted allocation size: %zu ****\n
 *N15google_breakpad12_GLOBAL__N_125CrashGenerationClientImplE
-- file:%s, line:%u ,time:%04u%02u%02u%02u%02u%02u
--- Hierarchical Call Graph --
+-- Hierarchical Call Graph --\n
 -- Profile scopes sorted by average time (including children) --
 -- Profile scopes sorted by average time (without children) --
 -- Profile scopes sorted by peak --
 -- Profile scopes sorted by peak over average (including children) --
 -- Profile scopes sorted by time (including children) --
 -- Profile scopes sorted by time (without children) --
--- Summary --
----------- ------      ------
----------- ------      ---------- ------      ---------- ------   ------ ------
----------------------------------------------------- ----------- ----------- ------ ----------- ------ ----------- ----------- -----------
+-- Summary --\n
 -----BEGIN BREAKPAD MICRODUMP-----
 -----END BREAKPAD MICRODUMP-----
----p
--->
 -debugbreak
 -hometest
 -noassert
@@ -183,31 +171,25 @@ $tI
 -stack=
 -steamconsole
 -steamos
-.%c
-...
 ../tier1/fileio.cpp
 ../tier1/utlbuffer.cpp
 ../tier1/utlmemory.cpp
 ../tier1/utlstring.cpp
-./
 ./src/client/linux/handler/minidump_descriptor.h
 ./src/client/linux/minidump_writer/directory_reader.h
 ./src/client/linux/minidump_writer/line_reader.h
 ./src/client/linux/minidump_writer/proc_cpuinfo_reader.h
 ./src/client/minidump_file_writer-inl.h
 ./src/common/linux/elfutils-inl.h
-.\
 .dmp
 .dynamic
 .dynstr
 .note.gnu.build-id
 .steam_exec_test.sh
 .text
-/?
 /bin/steamerrorreporter
 /dev
 /dev/
-/e%s%s
 /etc/lsb-release
 /etc/mtab
 /home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/threadtools.h
@@ -231,7 +213,6 @@ $tI
 /tmp/.steam-sem-names
 /tmp/dumps
 /tmp/dumps/%s_log.txt
-0
 0123456789ABCDEF
 0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEFsrc/client/linux/minidump_writer/linux_dumper.cc
 0123456789abcdef
@@ -248,18 +229,13 @@ $tI
 21CUtlCStringConversion
 23:13:06
 9IMemAlloc
-://
-:80
 </script>
-<br>
 <family %u, %u bytes>
 <no address info>
 <unknown>
-=&;
-AM
-Apr
+>valobject.cpp
 Apr  9 2018
-Assert( %s ):%s:%d
+Assert( %s ):%s:%d\n
 Assertion Failed: !IsExternallyAllocated()
 Assertion Failed: !m_bJustCount
 Assertion Failed: !m_data.HasError()
@@ -402,63 +378,58 @@ Assertion Failed: str
 Assertion Failed: str != NULL
 Assertion Failed: unReadAheadChunkSize < INT32_MAX/2
 Assertion failed: length > k_cchMaxString
-Aug
-Average %.2f fps, %.2f ms per frame
-Avg Time/Frame (ms)
+Average %.2f fps, %.2f ms per frame\n
 Bad thread local
 Beta
-Breaking '%s' in '%s'
-Breakpad verbose mode
+Breaking '%s' in '%s'\n
+Breakpad verbose mode\n
 Breakpad/1.0 (Linux)
 Breakpad_SetSteamID
 BuildID
-Busy, please retry.
-C
+Busy, please retry.\n
 C-runtime internal
 CFileWriterThread
 CFileWriterThread: pending file writer %s
+CPS3 Unattributed
 CPathString
 CUtlBuffer
 CUtlBuffer::GetStringFast: binary buffers only
 CUtlBuffer::GetStringFast: no string termination
 CVProfNode
 CValidator
-CValidator : too many memory nodes to store, try again with a higher threshold value
+CValidator : too many memory nodes to store, try again with a higher threshold value\n
 CXXABI_1.3
 Calling Tell on an async file writer is unsafe, will race with thread and may corrupt file pointer.
 CatchAndWriteContext_t::Invoke with bogus argc/argv
 CatchAndWriteContext_t::Invoke with bogus void *ptr
 CatchAndWriteContext_t::Set w/o a function pointer!
-Compact is no longer supported
+Compact is no longer supported\n
 Could not find steamerrorreporter binary. Any minidumps will be uploaded in-process
 Could not read /proc/self/cmdline when trying to find steamerrorreporter
-Couldn't write %s: %s
+Couldn't write %s: %s\n
 CrashTime
 CreateInterface
+D(knN
 DBG_PATHMATCH
 DONT_BREAK_ON_ASSERT
-Dec
-Dev
 Don't know how to check filesystem type on POSIX!
-ERROR TRYING TO vfork() TO SEND MINIDUMPRESORTING TO IN-PROCESS MINIDUMP
-ERROR: Could not run steamerrorreporter binary. Uploading minidump in-process
-ERROR: execv failed when trying to send minidump
-ERROR: waitpid() on child forked process failed when uploading minidump: %d
+ERROR TRYING TO vfork() TO SEND MINIDUMP\nRESORTING TO IN-PROCESS MINIDUMP\n
+ERROR: Could not run steamerrorreporter binary. Uploading minidump in-process\n
+ERROR: execv failed when trying to send minidump\n
+ERROR: waitpid() on child forked process failed when uploading minidump: %d\n
 Error State on string being set.
 ExceptionHandler::GenerateDump sys_pipe failed:
 ExceptionHandler::GenerateDump waitpid failed:
 ExceptionHandler::SendContinueSignalToChild sys_write failed:
 ExceptionHandler::WaitForContinueSignal sys_read failed:
-Exiting on SPEW_ABORT
+Exiting on SPEW_ABORT\n
 Expected %lld but got %lld!
-Failed system(%s) in execute test: %s
+Failed system(%s) in execute test: %s\n
 Failed to determine free disk space for %s, error %d
 Failed to generate callstack
 Fatal Assertion Failed: %s
 Fatal assert
-Fatal assert failed: %s, line %d.  Application exiting.
-Feb
-GB
+Fatal assert failed: %s, line %d.  Application exiting.\n
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
 GCC: (crosstool-NG 1.17.0) 4.6.3
@@ -474,110 +445,91 @@ GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
 GLIBC_2.8
-GMT:
-GNU
-Gbps
-GiB
 HOME
 IVALIDATE001
-Ignoring resume of count %d
-InitVirtualHeap( %d ) called twice (%d, %d)
+Ignoring resume of count %d\n
+InitVirtualHeap( %d ) called twice (%d, %d)\n
 Internal
 Invalid flags in %s
 IsSpewActive
-Jan
-Jul
-Jun
-KB
-Kbps
-KiB
 Linux
-Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s
-Lowered '%s' -> '%s'
-M
-MB
+Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s\n
+Lowered '%s' -> '%s'\n
 MDRVA google_breakpad::MinidumpFileWriter::Allocate(size_t)
-Mar
-Matched '%s' -> '%s'
-May
-Mbps
+Matched '%s' -> '%s'\n
 MemFree:
 MemTotal:
-MiB
-Minidumps written:
+Minidumps written:\n
 N15google_breakpad11LinuxDumperE
 N15google_breakpad17LinuxPtraceDumperE
 N15google_breakpad21CrashGenerationClientE
 NULL buffer passed to V_atof()
 NULL buffer passed to V_atoi()
 No Error
-No minidump written, nothing to upload.
+No minidump written, nothing to upload.\n
 No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
-No samples during profile period.
-No tracked allocs currently in use. Total %d
-Nov
-O
+No samples during profile period.\n
+No tracked allocs currently in use. Total %d\n
 OUT OF MEMORY
-Oct
-Out of thread local storage!
-PM
-Peak %.2f ms frame
+Out of thread local storage!\n
+PPid:\t
+Peak %.2f ms frame\n
 Platform
 ProductName
 Public
 Root
-S
-S 0
-Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak
 Seeking to a position not supported with async io
 Seeking to a position which is not sector aligned will break unbuffered io
-Sep
 Someone called ClearWritingMinidump without holding the minidump lock.
 Someone called SetWritingMinidump without holding the minidump lock.
 Spew Globals
 Spew globals
-Stack%2d: %s
-Stack%2d: 0x%llX
+Stack%2d: %s\n
+Stack%2d: 0x%llX\n
 StartupTime
 Steam - DirWatcher
 SteamRealPath
 SteamUniverse
-Sum (ms)         Avg Time/Frame (ms)     Avg Time/Call (ms)
 TMPDIR
-Target buffer for V_URLEncode should be 3x source length, plus one for terminating null
-Target buffer too short
-Target buffer too short to terminate
-Thread did nothing but sleep during profile period.
-Thread failed to initialize
+Target buffer for V_URLEncode should be 3x source length, plus one for terminating null\n
+Target buffer too short to terminate\n
+Target buffer too short\n
+Tgid:\t
+Thread did nothing but sleep during profile period.\n
+Thread failed to initialize\n
 Thread(0x%p/0x%p/0x%x)
-Total bytes allocated (os heap reported): %s
-Total bytes allocated counted: %s
+Total bytes allocated (os heap reported): %s\n
+Total bytes allocated counted: %s\n
 TracerPid:
-Tracked allocs currently in use. %d Total %d
-URL
+Tracked allocs currently in use. %d Total %d\n
 USER
 Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
 Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
-Unmatched %s
-Uploading dump (in-process) [proxy '%s']%s
+Unmatched %s\n
+Uploading dump (in-process) [proxy '%s']\n%s\n
 UserID
-VPROF Report for Thread: %d - %s
+VPROF Report for Thread: %d - %s\n
 V_AppendSlash: ran out of space on %s.
 V_MakeAbsolutePath: _getcwd failed.
 V_RemoveDotSlashes failed for "%s".
 V_URLDecode needs a dest buffer at least as large as the source
-Validate Failed: Leaked connection %u
-Validate Failed: Leaked file %p
-Validate Failed: Leaked socket %p
+Validate Failed: !!!Leaked:\t%llu %s%s\n
+Validate Failed: Leaked connection %u\n
+Validate Failed: Leaked file %p\n
+Validate Failed: Leaked socket %p\n
 ValidateFileIOStatics
 Valve
 Vendor
 Version
 Waited %u iterations in CFileWriter::Flush - m_cubOutstanding = %d
-[ func+child   func ]     Count
-[ func+child   func ]  [ func+child   func ]  [ func+child   func ]  Count   Peak
-_
-_ExitOnFatalAssert
+[ func+child   func ]     Count\n
+[ func+child   func ]  [ func+child   func ]  [ func+child   func ]  Count   Peak\n
+\t%s - %s:%d\n
+\t(%zu) comparing %s with %s\n
+\tValidate Failed: leaked connection to %s\n
+\tValidate Failed: leaked file '%s'\n
+\tValidate Failed: leaked socket remote address %s\n
+_ExitOnFatalAssert\n
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -693,16 +645,14 @@ _end
 _exit@@GLIBC_2.2.5
 _fini
 _init
-a
 abort@@GLIBC_2.2.5
 access
 access@@GLIBC_2.2.5
-adding %d curl form parameters
+adding %d curl form parameters\n
 allocation_state_ == ARRAY
 allocation_state_ == SINGLE_OBJECT_WITH_ARRAY
 alphasort64
 alphasort64@@GLIBC_2.2.5
-an
 asctime
 asctime@@GLIBC_2.2.5
 asctime_r
@@ -737,8 +687,6 @@ bool google_breakpad::UntypedMDRVA::Copy(MDRVA, const void*, size_t)
 bool google_breakpad::{anonymous}::ElfFileSoName(const google_breakpad::MappingInfo&, char*, size_t)
 bool {anonymous}::MicrodumpWriter::DumpCrashingThread()
 bool {anonymous}::MinidumpWriter::WriteFile(MDLocationDescriptor*, const char*)
-bps
-br
 breakpad_linux.cpp
 breakpad_testfile
 breakpad_verbose
@@ -746,7 +694,6 @@ buf_used_
 buf_used_ > 0
 buf_used_ >= len + 1
 buffers->next == __null
-bytes
 calloc
 calloc@@GLIBC_2.2.5
 ceil
@@ -774,17 +721,17 @@ crashhandler.so
 crashhandler002
 ctime_r@@GLIBC_2.2.5
 curl_easy_cleanup
-curl_easy_cleanup()
+curl_easy_cleanup()\n
 curl_easy_getinfo
 curl_easy_init
-curl_easy_init -- failed
+curl_easy_init -- failed\n
 curl_easy_perform
-curl_easy_perform returned:  %d %s
+curl_easy_perform returned:  %d %s\n
 curl_easy_setopt
-curl_easy_setopt()
+curl_easy_setopt()\n
 curl_easy_strerror
 curl_formadd
-curl_formadd file %s
+curl_formadd file %s\n
 curl_formfree
 curl_slist_append
 curl_slist_free_all
@@ -805,17 +752,17 @@ dlopen
 dlopen@@GLIBC_2.2.5
 dlsym
 dlsym@@GLIBC_2.2.5
-done with curl
+done with curl\n
 elf_header->e_ident[4] == ElfClass::kClass
 elf_mapped_base
 endmntent
 endmntent@@GLIBC_2.2.5
 environ
-error:  %s
+error:  %s\n
 execv
 execv@@GLIBC_2.2.5
 externaltests.so
-false
+false 
 fclose
 fclose@@GLIBC_2.2.5
 fcntl
@@ -887,7 +834,6 @@ gp_regs || size
 gsoapwrapper.so
 http://crash.steampowered.com/submit
 http_proxy
-img
 info != 0
 isspace
 isspace@@GLIBC_2.2.5
@@ -897,7 +843,7 @@ iswalpha
 iswalpha@@GLIBC_2.2.5
 iswspace
 iswspace@@GLIBC_2.2.5
-item %p sentinel corrupted. skipping.
+item %p sentinel corrupted. skipping.\n
 kill@@GLIBC_2.2.5
 lchown
 lchown@@GLIBC_2.2.5
@@ -921,7 +867,6 @@ localtime@@GLIBC_2.2.5
 localtime_r
 localtime_r@@GLIBC_2.2.5
 location
-log
 log@@GLIBC_2.2.5
 lseek
 lseek64
@@ -986,8 +931,6 @@ nanosleep@@GLIBC_2.2.5
 nattypeprobe.so
 nice
 nice@@GLIBC_2.2.5
-no
-no: ''
 nsection > 0
 open64@@GLIBC_2.2.5
 open@@GLIBC_2.2.5
@@ -1002,7 +945,6 @@ p2pcore.so
 p2prelayserver.so
 p2pstunserver.so
 panorama.so
-pm
 pos + size <= position_ + size_
 posix_fadvise
 posix_fadvise@@GLIBC_2.2.5
@@ -1075,7 +1017,6 @@ pthread_setspecific
 pthread_setspecific@@GLIBC_2.2.5
 pwrite64
 pwrite64@@GLIBC_2.2.5
-rb
 read@@GLIBC_2.2.5
 readdir
 readdir64
@@ -1089,7 +1030,7 @@ realpath
 realpath@@GLIBC_2.3
 rename
 rename@@GLIBC_2.2.5
-response:  %s
+response:  %s\n
 rewind
 rewind@@GLIBC_2.2.5
 rmdir
@@ -1129,13 +1070,11 @@ sigemptyset@@GLIBC_2.2.5
 signal@@GLIBC_2.2.5
 sigprocmask
 sigprocmask@@GLIBC_2.2.5
-size_ == 0
 snprintf@@GLIBC_2.2.5
 sprintf
 sprintf@@GLIBC_2.2.5
 sqrtf
 sqrtf@@GLIBC_2.2.5
-src
 src/client/linux/dump_writer_common/thread_info.cc
 src/client/linux/handler/minidump_descriptor.cc
 src/client/linux/microdump_writer/microdump_writer.cc
@@ -1154,7 +1093,7 @@ std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::_Rb_tree_iterator<std::pair<std::string const, std::string> > std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, std::string> >, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<std::string const, std::string>> std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, std::string>>, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
 std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)
 std::__detail::_List_node_base::_M_unhook()
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
@@ -1162,9 +1101,9 @@ std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
 std::__throw_bad_alloc()
 std::__throw_length_error(char const*)
 std::__throw_out_of_range(char const*)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
 std::string::_M_leak_hard()
 std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
@@ -1226,7 +1165,7 @@ strtoul
 strtoul@@GLIBC_2.2.5
 strtoull
 strtoull@@GLIBC_2.2.5
-success = %s
+success = %s\n
 swprintf@@GLIBC_2.2.5
 swscanf
 swscanf@@GLIBC_2.2.5
@@ -1292,9 +1231,6 @@ vswprintf
 vswprintf@@GLIBC_2.2.5
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
-w
-w+
-wa+
 waitpid
 waitpid@@GLIBC_2.2.5
 wcslen
@@ -1314,11 +1250,7 @@ www.steampowered.com
 x86_64
 xlocale
 xmemory
-yes
-yes: ''
 zDcrashhandler001
 {%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
 {%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
 {anonymous}::MinidumpWriter::MinidumpWriter(const char*, int, const google_breakpad::ExceptionHandler::CrashContext*, const MappingList&, const AppMemoryList&, google_breakpad::LinuxDumper*)
-|
-ELF

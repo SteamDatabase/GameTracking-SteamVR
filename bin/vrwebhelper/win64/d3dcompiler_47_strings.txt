@@ -1,104 +1,37 @@
-					
-						
-							
-								
-									
-										
-											
-												
-													
-														
-																		
-																			
-																				
-																					
-																										
-																											
-																													
-																															
-																																							
-																																											
-	(())4,--./01/2---.3.
-	()*+
-	9Y(v
-	;t$ds
-	<	u(H
-	A9P A
-	D$PL
-	D9Q(t	
-	microsoft1-0+
-	w Hc
- 	uxI
-      
-        
            
-                              
-        %s = %s;
-        %s = %s[%d];
-        %s = NULL;
-        %s = asm {
-        // No embedded %s
-        H
-        L
-      -
-      - 
-     NO
-    %s
-    // %s
-    3
-    N/A
-    NULL,
-    YES
-    asm {
-    lib_4_0_ps_%u_%u
-    lib_4_0_ps_2_x
-    lib_4_0_vs_%u_%u
-    lib_4_0_vs_2_x
+        %s = %s;\n
+        %s = %s[%d];\n
+        %s = NULL;\n
+        %s = asm {\n\n
+        // No embedded %s\n
+    lib_4_0_ps_%u_%u\n
+    lib_4_0_ps_2_x\n
+    lib_4_0_vs_%u_%u\n
+    lib_4_0_vs_2_x\n
     oMask
     oStencilRef
-    pass 
-    preshader
-    ps_%u_%u
-    ps_2_sw
-    ps_2_x
-    ps_3_sw
-    tx_%u_%u
-    vs_%u_%u
-    vs_2_sw
-    vs_2_x
-    vs_3_sw
-    {
-    }
-    },
+    preshader\n
+    ps_%u_%u\n
+    ps_2_sw\n
+    ps_2_x\n
+    ps_3_sw\n
+    tx_%u_%u\n
+    vs_%u_%u\n
+    vs_2_sw\n
+    vs_2_x\n
+    vs_3_sw\n
    %c%c%c%c
    o%-4u %-3u 
    oDepth
    primID
-  // 
   special
   v%-4u %-3u 
- !"#$%&'()*+
- !"#$%&'()*+,-
- !"#$%&'()*+,-./012
- !"#$%&'()*+,-./01234567
- !"#$%&'()*+,-./0123456789:;<=>?@
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()+++++++++++++++++++++++++++++++++++++++++++*f
  !"#$%&'().
- !###########################"###############	
- !+,`
- !;<=> !
- !@"@
- $@#@
- %-20s
- %c%-4u
  %u, %u, %u
- (%.9g
  (%u texture, %u arithmetic)
- (@*@
  (ordinal)
  (second)
- + %d]
  -         - 
  - Try reducing number of constant branches, take bools out of structs/arrays or move them to the start of the struct
  - Try reducing number of constants referenced
@@ -106,73 +39,13 @@
  - note that the target doesn't support UAVs
  - note that the target doesn't support texture sampling intrinsics
  - note that the target doesn't support textures
- ----- ----
- 1K8I
- : %s
+ ----- ----\n
  : packoffset(c%u.%c)
  : register(%c%u)
- ;@5@
- = "%s"
- = { 
- = { "%s"
- ??? 
- A;s<t
- AYAXZYX
- A\_^
- A]A\^][
- A^A\]
- A^A\_
- A^A\_][
- A^A]A\^]
- A^A]A\_[
- A^A]A\_^
- A^A]^][
- A^A]_
- A^A]_^]
- A^[]
- A^][
- A^^[
- A^^]
- A^_[
- A^_]
- A^_^
- A^_^][
- A_A\^
- A_A\^][
- A_A\_
- A_A\_^]
- A_A]A\][
- A_A]A\^]
- A_A]A\_]
- A_A]A\_^
- A_A]^][
- A_A]_^]
- A_A^A\
- A_A^A\^[
- A_A^A\_^
- A_A^A]
- A_A^A]A\]
- A_A^A]A\^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^A]^]
- A_A^A]_]
- A_A^A]_^
- A_A^[
- A_A^]
- A_A^^
- A_A^^][
- A_A^_
- A_A^_][
- A_^]
- A__[
- A__]
- A__^
- H3E H3E
- HcA@H
- HcAHH
+ FLT
+ INT
  Program Database
- Reg   Size
+ Reg   Size\n
  [unused]
  bool
  constant 
@@ -182,10 +55,8 @@
  expr
  float
  fp%u[%u][%u] = {
- ft%u = {
- http://www.microsoft.com/windows0
  inout
- l(%f)
+ int
  line 
  lineadj 
  linear 
@@ -203,6 +74,7 @@
  min8uint
  oDepthGE
  oDepthLE
+ out
  output_line
  output_point
  output_triangle_ccw
@@ -245,77 +117,36 @@
  patch9 
  point 
  pointlist 
- r4Hc
  row_major
  triangle 
  triangleadj 
  trianglestrip 
- u	@8
  uint
- unE3
  undefined 
  vPSize
  vPos
  void
  x%i[%i], %d
  { nonuniform }
-!"#$!%&'(%&'(%)*+,)-./0-./0-1234
-!&)+-/135
-!<arch>
-!@u H
-!@uAH
-!@uDH
-!This program cannot be run in DOS mode.
-"""""
-"""""""	"""""""
-""""""""
-"""""""""""
-"""""""""""""""""""""
-""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""
 "%s" with respect to "%s"
-"Microsoft Time Source Master Clock0
-#######
-#######	
-########
-###########
-#################
-#####################
-#######################
-########################
-##########################
-################################
 ##Internal error##
-#HcI0E
-#Vx"&6
+#NaN
 #hlsl_full_path
 #hlsl_full_path must be the first content in a source file
 #line 
-#line %u
-#line %u %.*s
-#pragma def (%s, %s, %g, %g, %g, %g)
+#line %u %.*s\n
+#line %u\n
+#pragma def (%s, %s, %g, %g, %g, %g)\n
 #pragma feature(%s) must appear before any local declaration
-#pragma pack_matrix()
-#pragma pack_matrix(column_major)
-#pragma pack_matrix(row_major)
-#pragma ruledisable "%s"
-#pragma warning (disable:%d)
-#pragma warning (error:%d)
-#pragma warning (once:%d)
-$""""
-$"<"u|H
+#pragma pack_matrix()\n
+#pragma pack_matrix(column_major)\n
+#pragma pack_matrix(row_major)\n
+#pragma ruledisable "%s"\n
+#pragma warning (disable:%d)\n
+#pragma warning (error:%d)\n
+#pragma warning (once:%d)\n
 $%"#'(*,.02
 $%%&&'''())**++++,,,,-----------..////0011223344555666666789:;<=>?@ABCD
-$(<(u
-$0< t.H
-$0< u
-$0< u	H
-$0< ujE
-$8< u|
-$@83t
-$A+?A
-$A^A]A\[
-$B<Bu<I
 $CBufferForClipPlane_%u
 $Element
 $Globals
@@ -344,34 +175,19 @@ $IsStandardStore(addr, val, chain) -> append_param(chain) <| SMR.DataFlagAnalysi
 $IsSync() -> append_all_visible+inputs(UAV chain args) <| SMR.DataFlagAnalysis_PlaceHolder
 $IsTwoValueAtomic(chain, res, addr, op1, op2) -> append_arg(all_sources(o, chain), chain, addr, op1, op2) <| SMR.DataFlagAnalysis_PlaceHolder
 $IsTwoValueAtomic(chain, res, addr, op1, op2) -> append_arg(chain, addr, op1, op2) <| SMR.DataFlagAnalysis_NoPlaceHolder
-$Microsoft Root Certificate Authority
-$Microsoft Root Certificate Authority0
 $PRESHADER_PS
 $PRESHADER_VS
 $Params
 $SKIP
 $ThisPointer
-$`2X`F
-$`<`u
-$`<`u4H
-$`<`u<@8
-$`<`u<I
 $clip_outputs
-$p< u
-$p< u?
 $super
-% moa
-%%%%%&%%%%4
 %-17s
 %-20s
 %.14fl
-%2u %9u 
-%3333H
-%4u%c 
-%4u: Illegal instruction index
-%UUUUI
+%08x
+%4u: Illegal instruction index\n
 %cnorm can not be used with type
-%cs_%d_%d
 %d constant registers (c#) read by instruction.  Max. constant registers readable per instruction (even if they are the same) is %d.  This is in addition to the read port limit of %d for constants, which restricts how many *different* constants can be read. (There is one exception: none of this applies to the SINCOS macro instruction.)
 %d different constant registers (c#) read by instruction.  Max. different constant registers readable per instruction is %d.
 %d different constant registers (c#) read by instruction.  Max. different constant registers readable per instruction is %d. 
@@ -388,16 +204,13 @@ $super
 %d different texture coordinate registers (t#) read by instruction.  Max. different texture registers readable per instruction is %d.
 %d different texture registers (t#) read by instruction.  Max. different texture registers readable per instruction is %d.
 %d different texture registers (t#) read over 2 co-issued instructions. Max. different register numbers from any one register type readable across co-issued instructions is %d.
-%d[%d].
-%s %s
-%s %s = 
-%s %s[%d] = 
-%s FAILED!
-%s X%u: 
+%ihD
+%s %s[%d] = \n{\n
+%s FAILED!\n
 %s array index must be a literal expression
 %s array signature parameter %s cannot be indexed dynamically.
 %s bem cannot be co-issued.
-%s binding ranges overlap for range %s[%d:%d]
+%s binding ranges overlap for range %s[%d:%d]\n
 %s can only be used with non-NULL shaders
 %s can only emit to 1 stream
 %s can only emit to streams 0-%u
@@ -488,20 +301,14 @@ $super
 %s target does not support texture lookups
 %s tessfactor %ss missing
 %s%d must be a four-component vector
-%s%d%s
 %s%s contains a system-interpreted value (%s) which must be written in every execution path of the shader.  Unconditional initialization may help. <| A%u (B%u)
 %s%s contains a system-interpreted value (%s) which should be written in every execution path of the shader <| A%u (B%u)
 %s%s requires replicate swizzle for this parameter in order to select component. i.e. .x | .y | .z | .w (or rgba equivalent)
 %s%u,space%u
-%s%u.%c
-%s%u[%u:
 %s%ux%u
-%s(%d) : 
-%s+%s
 %s: ERROR: If either a HullShader or DomainShader is set then both must be set. Technique %s, Pass %s.
 %s: ERROR: No valid %s-%s combination could be found in Technique %s, Pass %s.
 %s: WARNING: There exist invalid %s-%s combinations in Technique %s, Pass %s, depending on which elements of the specified shader array(s) are chosen.
-%s<%d
 %sInvalid register number: %d.  Max allowed for this type is %d.
 %sInvalid register number: %d. Max allowed for this type is %d.
 %sInvalid register type.
@@ -511,6 +318,7 @@ $super
 %sInvalid source selector for tex* instruction.
 %sInvalid source selector.
 %sInvalid source selector: %s. The only available source swizzles in this shader version are: .rgba/xyzw (same as not specifying swizzle), .r/x, .g/y, .b/z, .a/w, .gbra/yzxw, .brga/zxyw and .abgr/wzyx. 
+%sMS
 %sMS%d
 %sModifiers are not allowed on constants for ps_1_4.
 %sRegister number: %d on this parameter for a matrix instruction causes attempt to access out of range register number %d. Max allowed for this type is %d.
@@ -520,24 +328,13 @@ $super
 %sSource swizzles not allowed on tex* instruction.
 %sTexture coordinate registers (t#) are not available to arithmetic instructions.
 %sUnexpected source parameter.
-%s[%s]
-%s[%u +
-%s[%u]
-%s[%u].%c
 %s[%u][%u].%c
 %s[eval(
 %s[r%u.%c/%u]<
 %s[r%u.%c]<
-%s\%s
 %s_%s_n%u_%u
-%s_n%u_%u
-%u "%s"
 %ux%u
-%w5Hc
-%w6Hc
-&kUkT
 '#pragma def' is no longer supported on DX10+ and 10level9 targets.  Use compatibility mode to allow compilation for now.
-'$X{g
 '%s' : macro redefinition
 '%s' : unknown pragma ignored
 '%s' already defined as a %s
@@ -548,7 +345,6 @@ $super
 '%s' must have a max vertex count
 '%s' must have a max vertex count greater then 0
 '%s' used but not defined
-'%s'!'%s'
 '%s': %s cannot be declared 'const'
 '%s': %s cannot be declared 'extern'
 '%s': %s cannot be declared 'groupshared'
@@ -693,90 +489,27 @@ $super
 'endrep' instruction does not match up to a 'rep'. Aborting shader validation. 
 'label' is only permitted directly after a 'ret' instruction. Aborting shader validation. 
 'ret' instruction not permitted from inside any flow control block. Aborting shader validation. 
-'w!Hc
 (%f, %f, %f, %f)
-(%fl, %fl)
-(%i,%i,%i)
 (%s source param) Invalid register number: %d.  Max allowed for this type is %d.
 (%s source param) Modifiers are not allowed on constants for ps_1_x.
 (%s source param) Negate or abs modifiers not permitted on source parameters to texld*
 (%s source param) Source modifier not allowed on sampler (s#).
 (%s source param) Source modifier not allowed on texcoord for texldl.
-(%u,%u): 
 (%u,%u-%u): 
 ((a << m) & n) | i : if( known_bfi_bitmask_postshift_ignore(n,a,m,i) ) -> bfi(bfi_bitwidth_postshift_ignore(n,a,m,i), m, a, 0i) <| MR.GenD3D10_OptimizeEarlyTranslate_Excl
 ((a >> o1) << o2) : if( o1 == o2 ) -> bfi(o, 0, 0, a) <| MR.GenD3D10_OptimizeEarlyTranslate
 ((a >> ov1) << o2) : if( ov1 == o2 ) -> and(a, ~((1 << ov1)-1)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (0 < n) ? 1 : 0 -> umin(1, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (0x%08x)
-(2C$$
 (A & B) | (A & C) => (A & (B | C)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (A + A) * 0.5 -> no-op mov of A <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (A + L2) - (A + L1) = L2 - L1 if A non-NaN/Inf <| Explicit
-(A9v(
-(A9v(t
-(A9v(t#A
-(A\_^[
-(A\_^]
-(A]A\][
-(A]A\^]
-(A^A\^]
-(A^A]_[
-(A^A]_^
-(A_A\^]
-(A_A\_[
-(A_A]A\[
-(A_A]A\^
-(A_A]_[
-(A_A^
-(A_A^A\]
-(A_A^A\_
-(A_A^A]A\_^][
-(A_A^A]^
-(A_A^A]_][
-(A_A^][
-(A_A^^]
-(A_A^_[
-(A_A^_^
-(A__][
-(A__^[
-(A__^]
 (B & A) | (A & C) => (A & (B | C)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-(D$ H
-(D$ f
-(D$0A
-(D$0B
-(D$0I
-(D$0f
-(D$@H
-(D$@I
-(D$PH
-(D$Pf
-(D$`A
-(D$`L
-(D$`f
-(D$pA
-(D$pH
-(D$pI
-(D$pL
-(D8}wt
 (First source param) 
 (Fourth source param) 
-(L$0A
-(L$0D
-(L$@B
-(L$@D
-(L$@L
-(L$PA
-(L$Pz
-(L$pA
 (Second source param) 
 (Source param) 
 (Statement %d) 
-(T$ D
-(T$ H
-(T$0E3
-(T$0H
 (Third source param) 
 (V < n) ? (V+1) : n -> dmin(V+1, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (V < n) ? (V+1) : n -> imin(V+1, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -786,9 +519,6 @@ $super
 (V < n) ? V : n -> imin(V, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (V < n) ? V : n -> min(V, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (V < n) ? V : n -> umin(V, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-(\$0D
-(_^[]
-(_^][
 (a != b) ? a : b -> a <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (a != b) ? b : a -> b <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (a & ((iv_pow2 << n) - 1)) -> bfi(iv_pow2 + n, 0, a, 0i) <| MR.GenD3D10_OptimizeEarlyTranslate
@@ -819,12 +549,10 @@ $super
 (a | (b << n)) : if(known_bfi_bitwidth_impmask(a, b, n)) -> bfi(get_bfi_bitwidth_impmask(a, b, n), n, b, a) <| MR.GenD3D10_OptimizeEarlyTranslate
 (bfi(w, 0i, 0, n) | ubfe(w, 0i, v)) -> bfi(w, 0i, v, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (bfi(w, o, 0, n) | bfi(w, o, v, 0)) -> bfi(w, o, v, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-(d$ D
 (i + I) - i -> append_arg(I) <| SMR.RangeDataAnalysis
 (i + I1) - (i + I2) -> append_arg(I1-I2) <| SMR.RangeDataAnalysis
 (int)(a & n) >> m : if( high_bit_clear(a & n) && known_ubfe_bitmask(a,n,m) ) -> ubfe(bitwidth(a,n,m), m, n) <| MR.GenD3D10_OptimizeEarlyTranslate
 (int)(a & n) >> m : if( high_bit_clear(a & n) && known_ubfe_bitmask(n,a,m) ) -> ubfe(ubfe_bitwidth(n,a,m), m, a) <| MR.GenD3D10_OptimizeEarlyTranslate
-(l$@I
 (n & a) | r : if( known_bfi_bitmask_noshift(n,a,r) && and_is_zero(n,r) ) -> bfi(bfi_bitwidth_noshift(n,a,r), 0i, a, r) <| MR.GenD3D10_OptimizeEarlyTranslate_Excl
 (n > i) ? X : dmin(n, i) -> (i > n) ? X: i <| MR.GenSimplifyInstructionsOpt1_NoExcl
 (n > i) ? X : imin(n, i) -> (i > n) ? X: i <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -847,159 +575,27 @@ $super
 (root parameter [%u], visibility %s, descriptor table slot [%u])
 (root parameter[%u], visibility %s, descriptor table slot [%u])
 (static sampler [%u], visibility %s)
-(t$ H
-(t$ L
-(t$03
-(t$0D
-(t$0E
-(t$0H
-(t$0L
-(t$@H
-(t$@L
-(t$PH
-(t$PI
-(t$PL
-(t$`H
-(t$`I
-(t$`L
-(t$`f
-(t$pA
-(t$pD
-(t$pL
 (unknown scope entry kind)
 (unknown scope value kind)
 (unknown)
 (unnamed)
-(|$ H
-(|$ L
-(|$ z?u=
-(|$0H
-(|$0I
-(|$@H
-(|$@L
-(|$PH
-(|$PL
-(|$`H
-(|$`I
-(|$pE
-(|$pL
-)$$fD
-);sdr
-);{,s	H
-)D$ A
-)D$ B
-)D$ E
-)D$ H
-)D$ M
-)D$0;
-)D$0D
-)D$0E
-)D$0H
-)D$@A
-)D$@H
-)D$@L
-)D$@f
-)D$PA
-)D$PD
-)D$PI
-)D$`f
-)D$pA
-)D$pH
-)L$0;
-)L$0f
-)L$@E
-)L$PL
-)L$pD
-)L$pH
-)Microsoft Root Certificate Authority 20100
-)T$ D
-)T$@H
-)T$PD
-)T$`%
-)T$pA
-)\$0D
-)\$@D
-)\$P-
-)\$`D
-)d$0E
-)d$@D
-)d$PD
-)l$0D
-)l$@D
-)t$ =
-)t$ I
-)t$0D
-)t$0E
-)t$0I
-)t$0L
-)t$@H
-)t$@I
-)t$@M
-)t$@f
-)t$PA
-)t$PH
-)t$PI
-)t$PM
-)t$`D+
-)t$`H
-)t$pL
-)|$ =
-)|$0H
-)|$@H
-)|$PH
-)|$`D
-)|$pH
-***DIA***
 ***globals***
-*++,@--./01-2.034&4105016578166./0/.1097.11-2.2.-00:/-0/..9
 +#INF
-++++++
-+++++++++
-++++++++++++++++++++++++++
-++++++++++++++++++++++++++++++++
-++++++++++++++++++++++++++++++++++
 +,,,,,,,,,,,,,,,,-----....///000111112223344556677889:;<
-+229803+1abf9e5f-ced0-42e6-a65d-d9350959fe0e0
-+A@+A
-+A`Lc
-+C`Hc
-+D$ H
-+D9d$0u
-+E<D8d$b
-+FHHc
-+|$0I
-, "%s"
-, %.9g
-, %u, %u
-, '%s'
 , dynamicIndexed
-, fb%u
 , forcing loop to unroll
-, ft%u
 , immediateIndexed
 , mode_comparison
 , mode_default
 , mode_mono
-, or '%s'
 , space=%d
 , space=%u
 , stride=%u
 , texm3x2depth
-,,,,,,,,,,,,
-,0H;o8v
-,1A;n8v
-,4H;n8v
-,?A;n
-,D$`f
-,T$@H
-,\$@H
-,\$HH
-,sPY7xPB7hT5g5HHrYt8rDLSM9VuZRuWZaef2e22Rs54=0Z
-,w-Hc
+,\n                              
 -#INF
 -* Linker *
---- Compilation status for library function '%s' ---
--0000tI-
+--- Compilation status for library function '%s' ---\n
 -dtof(x) -> dtof(-x) <| MR.GenSimplifyInstructionsOpt1_Excl
 -ftod(x) -> ftod(-x) <| MR.GenSimplifyInstructionsOpt1_Excl
 -sin(x) -> sin(-x) <| MR.GenSimplifyInstructionsOpt1_Excl
@@ -1014,16 +610,13 @@ $super
 .CRT$XIA
 .CRT$XIAA
 .CRT$XIZ
-.D$Pz
-.D$Xz
-._m%u%u
+.bss
 .data
 .data$brc
 .data$r$brc
 .debug$S
 .debug$T
 .edata
-.fA;P s
 .gfids
 .giats
 .idata$2
@@ -1033,6 +626,7 @@ $super
 .idata$6
 .mips can only be used in a two-element indexing expression such as .mips[mip][element]
 .pdata
+.pdb
 .rdata
 .rdata$brc
 .rdata$zzzdbg
@@ -1040,7 +634,6 @@ $super
 .rsrc$01
 .rsrc$02
 .sample can only be used in a two-element indexing expression such as .sample[sample][element]
-.text
 .text$cthunks
 .text$di
 .text$mn
@@ -1050,554 +643,194 @@ $super
 .text$wti
 .text$x
 .text$yd
-.tq[m
 .xdata
 .xdata$x
-.|$Xz
-.|$Xz?u=@
-.|$`z5u3@
-.|$`zBu@@
 /               
-/()*OPgc^
 /* Interface parameter %u bound to: %s
 /* Stream %u out decl: "%s" */
 /* Stream %u to rasterizer */
 /* Stream out decl: "%s" */
-//   
 //              
-//             Slots
-//       %s
+//             Slots\n
+//       %s\n
 //     %c%-4u= 
-//   %s
-//   Name
-// %-20s %20u
+// %-20s %20u\n
 // %-27s %4u 
-// %-30s %-18s
-// %-30s %10s %6s%d %11s %14s %6s %s
-// %-30s %10s %6s%d %11s %7s %14s %6s %s
-// %-30s %10s %7s %11s %14s %6s %s
-// %-30s %10s %7s %11s %7s %14s %6s %s
-// %-30s %4u %9u %7u %7u
-// %3u  %s
-// %s %s
-// %s shader bytecode:
-// %s signature:
-// %u %s buffer(s)
-// %u %s interface(s)
-// %u %s object(s)
-// %u groups(s)
-// %u technique(s)
-// +----------+---------+---------------------------------------
-// ---------- ------- --------- --------- ----------------------
-// ---------- ------- ---------- ---------
-// ---------- --------------------------------------------------
-// -------------- --------------- ----------------
-// -------------------- ----- ------ -------- -------- ------- ------
-// -------------------- --------------------
-// -------------------- -------------------- --------------- ---------------- ------------------------------ 
-// --------------------------- ---- -- --------- ------- -------
-// ------------------------------ ---- --------- ------- -------
-// ------------------------------ ---------- ------- ----------- ------- -------------- ------
-// ------------------------------ ---------- ------- ----------- -------------- ------
-// ------------------------------ ------------------
-// <internal error> column mismatch in debug info
-// <internal error> could not find inner most frame in PDB
-// <internal error> could not get UDT child length in PDB
-// <internal error> could not get UDT child offset in PDB
-// <internal error> could not get UDT child type in PDB
-// <internal error> could not get UDT children in PDB
-// <internal error> could not get array element stride from PDB
-// <internal error> could not get find UDT child with correct offset in PDB
-// <internal error> could not get live range length for variable from PDB
-// <internal error> could not get location type from PDB
-// <internal error> could not get matrix columns from PDB
-// <internal error> could not get matrix element length from PDB
-// <internal error> could not get matrix major stride from PDB
-// <internal error> could not get matrix row-major flag from PDB
-// <internal error> could not get matrix rows from PDB
-// <internal error> could not get register index count from PDB
-// <internal error> could not get register index values from PDB
-// <internal error> could not get register type from PDB
-// <internal error> could not get variable index ID from PDB
-// <internal error> could not get vector element length from PDB
-// <internal error> could not get vector length from PDB
-// <internal error> file name too long in debug info
-// <internal error> filename length mismatch in debug info
-// <internal error> filename mismatch in debug info
-// <internal error> incorrect file offset in debug info
-// <internal error> incorrect instruction offset in debug info
-// <internal error> incorrect scalar offset in debug info
-// <internal error> incorrect token offset in debug info
-// <internal error> incorrect variable offset in debug info
-// <internal error> invalid matrix member
-// <internal error> invalid vector member
-// <internal error> line mismatch in debug info
-// <internal error> offset overruns length for type in PDB
-// <internal error> too many instruction outputs in debug info
-// <internal error> unable to find instruction in PDB
-// <internal error> unable to get HLSL type kind from PDB
-// <internal error> unable to get array element type from PDB
-// <internal error> unable to get column number from PDB
-// <internal error> unable to get file id from PDB
-// <internal error> unable to get file name from PDB
-// <internal error> unable to get line number from PDB
-// <internal error> unable to get matrix element type from PDB
-// <internal error> unable to get source file info from PDB
-// <internal error> unable to get statement flag from PDB
-// <internal error> unable to get sub-variable type from PDB
-// <internal error> unable to get type length from PDB
-// <internal error> unable to get typedef type from PDB
-// <internal error> unable to get vector element type from PDB
-// <internal error> unable to instruction offset from PDB
-// <internal error> unable to iterate instruction in PDB
-// <internal error> unexpected data kind in PDB
-// <internal error> unexpected location type in PDB
-// <internal error> unexpected register type in PDB
-// Approximately %i instruction slots used
-// Available Class Instances:
-// Available Class Types:
-// Buffer Definitions: 
+// %-30s %-18s\n
+// %-30s %10s %6s%d %11s %14s %6s %s\n
+// %-30s %10s %6s%d %11s %7s %14s %6s %s\n
+// %-30s %10s %7s %11s %14s %6s %s\n
+// %-30s %10s %7s %11s %7s %14s %6s %s\n
+// %-30s %4u %9u %7u %7u\n
+// %3u  %s\n
+// %s shader bytecode:\n
+// %s signature:\n
+// %u %s buffer(s)\n
+// %u %s interface(s)\n
+// %u %s object(s)\n
+// %u groups(s)\n
+// %u technique(s)\n
+// +----------+---------+---------------------------------------\n
+// ---------- ------- --------- --------- ----------------------\n
+// ---------- ------- ---------- ---------\n
+// ---------- --------------------------------------------------\n
+// -------------- --------------- ----------------\n
+// -------------------- ----- ------ -------- -------- ------- ------\n
+// -------------------- -------------------- --------------- ---------------- ------------------------------ \n
+// -------------------- --------------------\n
+// --------------------------- ---- -- --------- ------- -------\n
+// ------------------------------ ---- --------- ------- -------\n
+// ------------------------------ ---------- ------- ----------- ------- -------------- ------\n
+// ------------------------------ ---------- ------- ----------- -------------- ------\n
+// ------------------------------ ------------------\n
+// <internal error> column mismatch in debug info\n
+// <internal error> could not find inner most frame in PDB\n
+// <internal error> could not get UDT child length in PDB\n
+// <internal error> could not get UDT child offset in PDB\n
+// <internal error> could not get UDT child type in PDB\n
+// <internal error> could not get UDT children in PDB\n
+// <internal error> could not get array element stride from PDB\n
+// <internal error> could not get find UDT child with correct offset in PDB\n
+// <internal error> could not get live range length for variable from PDB\n
+// <internal error> could not get location type from PDB\n
+// <internal error> could not get matrix columns from PDB\n
+// <internal error> could not get matrix element length from PDB\n
+// <internal error> could not get matrix major stride from PDB\n
+// <internal error> could not get matrix row-major flag from PDB\n
+// <internal error> could not get matrix rows from PDB\n
+// <internal error> could not get register index count from PDB\n
+// <internal error> could not get register index values from PDB\n
+// <internal error> could not get register type from PDB\n
+// <internal error> could not get variable index ID from PDB\n
+// <internal error> could not get vector element length from PDB\n
+// <internal error> could not get vector length from PDB\n
+// <internal error> file name too long in debug info\n
+// <internal error> filename length mismatch in debug info\n
+// <internal error> filename mismatch in debug info\n
+// <internal error> incorrect file offset in debug info\n
+// <internal error> incorrect instruction offset in debug info\n
+// <internal error> incorrect token offset in debug info\n
+// <internal error> invalid matrix member\n
+// <internal error> invalid vector member\n
+// <internal error> line mismatch in debug info\n
+// <internal error> offset overruns length for type in PDB\n
+// <internal error> unable to find instruction in PDB\n
+// <internal error> unable to get HLSL type kind from PDB\n
+// <internal error> unable to get array element type from PDB\n
+// <internal error> unable to get column number from PDB\n
+// <internal error> unable to get file id from PDB\n
+// <internal error> unable to get file name from PDB\n
+// <internal error> unable to get line number from PDB\n
+// <internal error> unable to get matrix element type from PDB\n
+// <internal error> unable to get source file info from PDB\n
+// <internal error> unable to get statement flag from PDB\n
+// <internal error> unable to get sub-variable type from PDB\n
+// <internal error> unable to get type length from PDB\n
+// <internal error> unable to get typedef type from PDB\n
+// <internal error> unable to get vector element type from PDB\n
+// <internal error> unable to instruction offset from PDB\n
+// <internal error> unable to iterate instruction in PDB\n
+// <internal error> unexpected data kind in PDB\n
+// <internal error> unexpected location type in PDB\n
+// <internal error> unexpected register type in PDB\n
+// Approximately %i instruction slots used\n
+// Available Class Instances:\n
+// Available Class Types:\n
+// Buffer Definitions: \n
 // COMMENT: %s
-// Child effect (requires effect pool): %s
-// Constant buffer to DX9 shader constant mappings:
-// Created by:  %s
-// Debug name: %s
-// Default values:
-// FX Version: %s
-// Function parameter signature (return: %s, parameters: %u):
+// Child effect (requires effect pool): %s\n
+// Constant buffer to DX9 shader constant mappings:\n
+// Debug name: %s\n
+// Default values:\n
+// FX Version: %s\n
+// Function parameter signature (return: %s, parameters: %u):\n
 // Generated by 
 // Initial variable locations:
-// Interface slots, %u total:
-// Library:  flags %x, %u functions:
-// Name                                 Type  Format         Dim      HLSL Bind  Count
-// Name                                 Type  Format         Dim      ID      HLSL Bind  Count
-// Name                             ID CB Stride Texture Sampler
-// Name                        Type CB CB Offset Texture Sampler
-// Name                 Index   Mask Register SysValue  Format   Used
-// Name                 SemanticName         In 1st,Num,Mask Out 1st,Num,Mask Type                           
-// Note: SHADER WILL ONLY WORK WITH THE DEBUG SDK LAYER ENABLED.
-// Note: shader requires additional functionality:
-// Offset:  N/A Size:   N/A [unused]
-// Offset: %4u
-// Offset: %4u Size: %5u%s
-// Offset: %4u, size: %4u
-// Parameters:
-// Pixel Shader runs at sample frequency
-// Registers:
-// Resource Bindings:
-// Runtime generated constant mappings:
-// Sampler/Resource to DX9 shader sampler mappings:
-// Target Reg                               Constant Description
-// Target Reg Buffer  Source Reg Component
-// Target Reg Buffer  Start Reg # of Regs        Data Conversion
-// Target Sampler Source Sampler  Source Resource
-// Tessellation Domain   # of control points
-// Tessellation Output Primitive  Partitioning Type 
-// Trace has %u steps (some may be inactive)
+// Interface slots, %u total:\n
+// Name                                 Type  Format         Dim      HLSL Bind  Count\n
+// Name                                 Type  Format         Dim      ID      HLSL Bind  Count\n
+// Name                             ID CB Stride Texture Sampler\n
+// Name                        Type CB CB Offset Texture Sampler\n
+// Name                 Index   Mask Register SysValue  Format   Used\n
+// Name                 SemanticName         In 1st,Num,Mask Out 1st,Num,Mask Type                           \n
+// Note: SHADER WILL ONLY WORK WITH THE DEBUG SDK LAYER ENABLED.\n
+// Note: shader requires additional functionality:\n
+// Offset:  N/A Size:   N/A [unused]\n
+// Offset: %4u Size: %5u%s\n
+// Offset: %4u, size: %4u\n
+// Offset: %4u\n
+// Parameters:\n
+// Pixel Shader runs at sample frequency\n
+// Registers:\n
+// Resource Bindings:\n
+// Runtime generated constant mappings:\n
+// Sampler/Resource to DX9 shader sampler mappings:\n
+// Target Reg                               Constant Description\n
+// Target Reg Buffer  Source Reg Component\n
+// Target Reg Buffer  Start Reg # of Regs        Data Conversion\n
+// Target Sampler Source Sampler  Source Resource\n
+// Tessellation Domain   # of control points\n
+// Tessellation Output Primitive  Partitioning Type \n
+// Trace has %u steps (some may be inactive)\n\n
 // approximately %u instruction slot%s used
-// approximately %u instruction%s used
-// b%-9d cb%-5d %10d %9d
-// c%-10d %49s
+// b%-9d cb%-5d %10d %9d\n
+// c%-10d %49s\n
 // c%-9d cb%-5d %9d %9d  (
 // clip%-6d cb%-5d %9d %9d  (
-// disassembly only available for VS and PS targets
-// i%-9d cb%-5d %10d %9d
-// no %s
-// s%-13d s%-14d t%-16d
-// | Table ID |         |
+// disassembly only available for VS and PS targets\n
+// i%-9d cb%-5d %10d %9d\n
+// s%-13d s%-14d t%-16d\n
 // | Type ID  |         |
 // | Type ID  |%4u     |
 // | Type ID  |%4u-%-4u|
-/5V%2
-/5W/2
-/A8<$t5H
+//\n// Created by:  %s\n//\n
+//\n// Library:  flags %x, %u functions:\n
 /Cube/CubeArray
-/D$0v
 /LinkInfo
 /names
-/t$0M
-/~+n`
-0	tBH
-0	ulA
-0	usA
-0 D;d$l
-0000A
 00ffff
 0123456789abcdef
 0123456789abcdefS_BLOCK32
-06?q)
-070403125309Z
-0;Bts
-0A\_^
-0A]A\_^[
-0A]A\_^]
-0A^A\_][
-0A^A]A\_^
-0A^A]A\_^][
-0A^A]]
-0A^A]^
-0A^][
-0A^^]
-0A^_[
-0A^_]
-0A^_^
-0A^_^H
-0A^_^[]
-0A^_^][
-0A_A\]
-0A_A\^
-0A_A\_[]
-0A_A\_^[
-0A_A\_^]
-0A_A]A\_^
-0A_A]_^[
-0A_A^A\
-0A_A^A\_]
-0A_A^A\_^
-0A_A^A\_^][
-0A_A^A]A\[
-0A_A^A]A\^
-0A_A^A]A\^][
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]^]
-0A_A^A]_^
-0A_A^]
-0A_A^^
-0A_A^^][
-0A_A^_
-0A_A^_][
-0A_A^_^]
-0A_^[
-0A_^]
-0A__]
-0A__^
-0A__^][
 0WEIGHTS
 0x%016I64xUI64
 0x%02x
 0x%08X: 
 0x%08x
 0x%08x 
+0x%x
 1 / sqrt(x) -> rsq(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 1 / x -> rcp(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-1(0&0
-1,0*0
 1.#IND
 1.#INF
 1.#QNAN
 1.#SNAN
-100701213655Z
-100706204017Z
-100831221932Z
+1/2B
 12.10.40116.11
-160907175656Z
-160907175851Z
-170811201115Z
-170912180706Z
-180420142835Z0#
-180811201115Z0
-180907175656Z0
-180907175851Z0
-180912180706Z0t1
-1;2uT
-1;o\s
-1A;D$
-1C8A8N
-1Jv1=+r
 1WEIGHTS
+1YT[
 1darray
-1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
-200831222932Z0y1
-20180420091652Z
-20180420142848.725Z0
-20180421091652Z0t0:
-210403130309Z0w1
-230865+2424060
-250701214655Z0|1
-250706205017Z0~1
-2@3@1@0@
-2A+(u
-2A8]"t
 2WEIGHTS
 2darray
 32-bit floating-point operations flush denorm float literals to zero, %g is losing precision (this warning will only be shown once per compile)
 3333333333333333UUUUUUUUUUUUUUUU
-3333H
-3T$XA
-3W0)kY>r
 3WEIGHTS
 4 component with no swizzle expected for operand #%d of opcode #%d (counts are 1-based). 
-44444444
-4444444444
-44444444444444444444 4!4"4###$#####
 4560*+;<E
-49D;s
-4?D;u
-4L9D$8I
-4~D;u
-56789:;<
-5w,Hc
-5wWHc
+5869
 64 UAV slots
-6789:;<=
-7Vr][
-7Z>@B1
 7xicuU
-8$u+H
-8*uwH
-81u L
-88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
-8<u E
-8A]A\
-8A]A\][
-8A]A\^]
-8A]_^[
-8A^A\][
-8A^A\^[
-8A^A]A\_
-8A^A]_[
-8A^^][
-8A^_^[
-8A_A\
-8A_A\_[
-8A_A]A\[
-8A_A]A\]
-8A_A]A\_
-8A_A]A\_^[
-8A_A^
-8A_A^A\[
-8A_A^A\^
-8A_A^A]A\
-8A_A^A]A\^[
-8A_A^A]A\_^[]
-8A_A^A]A\_^][
-8A_A^A]]
-8A_A^^[
-8A_A^^]
-8A_A^_]
-8A_A^_^][
-8D$0t/
-8DBUGu$H
-8F8u$H
-8J(v)
-8LFS0t	
-8RDEFt	
-8T$ tY
-8T$Uu
-8WHui
-8X`tt;
-8\$0t&M
-8\$Pt!L
-8\$Pu
-8\$Pu,H
-8\$Qu
-8\$RtrL
-8]wt9
-8_	v^H
-8_^][
-8hlsl
-8http://www.microsoft.com/pki/certs/MicrosoftRootCert.crt0
-8sFA;
-8sIA;
-8w0Hc
-9.u,H
-9/t$A
-91v1H
-9A4v L
-9A;D$
-9C vt
-9C8rwu
-9C<rmL
-9C<ruL
-9D$0u>3
-9D$Dt
-9D$PvbH
-9D$`u
-9D$`um
-9D$lt
-9D$pt
-9D8|$Pt2H
-9E<u"H
-9F@v/H
-9FLu`H
-9FtuZ
-9G@rZH
-9GtuZ
-9K0w8
-9L$pH
-9N s!H
-9NB09
-9O$v!;O$s
-9O@sg
-9T$8v
-9U+t#D
-9W v(
-9WltJL
-9X v#
-9X`uSA
-9Y8u)
-9\$LvJI
-9\$Pu
-9\$\t
-9\$xvf
-9],v=L
-9]Dt]
-9]u/H
-9_ v3H
-9_ v>
-9_0v2f
-9_8u(f
-9_Hv~H
-9h8u+H
-9i@t,H
-9k,vvH
-9k0v8H
-9k0vUH
-9kDvbH
-9kLvX
-9kdv<f
-9l$8t
-9l$Pt
-9l$Xt
-9l$hu
-9l$pu
-9l$xH
-9l$xt
-9opt#L
-9p4v=
-9p8u<9u
-9s,v#;s,s
-9sLv#;sLs
-9sLvL
-9slv#;sls
-9t$ u
-9t$@u
-9t$`t
-9u$uv9u<uqH
-9wTv*H
-9y$u"L
-9{,t%H
-9{4t,H
-9{4t-H
-9{hu+A
-9|$@t;D
-9|$Hu(A
-9~Lv-
-9~pt#L
-: !":#$::%%%&''&'':():::::::::::*::::::+,:-./01:23:45::::::::::67:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::8:9H
-:::::::::::::::
+9a&g
 ::<unnamed-tag>
 ::__unnamed
 :;<=>?@ABCD
-:Aon9t
-:Aon9t	
-:D8*t
-:DXBC
-:IFCEt
-:fE;S s
-:u#H;
-:w6Hc
-;.u^H
-;<;;;
-;BSCD
-;C@s3H
-;D$0s
-;D$L|eI
-;D$lv
-;D$pv
-;E,vk
-;K u 
-;L$0swH
-;L$8r
-;M v@H
-;N v>I
-;PTsEI
-;S r=D;K$v9;S r2H
-;T$ H
-;T$ v
-;T$0s
-;T$0sS
-;T$0sU
-;T$8rm;
-;T$Hv#
-;T$xw
-;\$0v
-;\$8v"
-;\$<r
-;\$Hv D8|$Qu
-;\$Lr
-;\$hv+
-;\$hv+D8l$qu
-;\$xr
-;_u	H
-;_u H
-;_uR3
-;j v&D8B)u
-;k@v&@8sIu
-;l$8v+
-;l$8v.
-;sds	H
-;t$ r
-;t$(v&
-;t$(v.
-;t$8r
-;t$8v D8l$Au
-;t$8v)
-;t$Xv"
-;t$`v @8|$iu
-;t$ds
-;t$pv&
-;t$xs
-;u(v(@8}1u
-;{,s	H
-;|$4r
-;|$@v 
-;|$@v @8t$Iu
-;|$@v)@8t$Iu
-;|$@v*
-;|$@v*@8t$Iu
-;|$Xv 
-;|$Xv'
-;|$Xv,
-;~,s	L
-<	FX10t
-<	SHDRt
-<	SHEXt	
-< tD</t@H
+;Wtq
+;\f9cH
 <!-- id=%d -->
 <%s return value>
-<'D;|$@v'
-<+u	A
-<.u	I
 </font>
-</pre>
-<0CRPTt	
-<0SDBGt	
-<0SDTLt	
-<0SFI0t	
-<0SMIDt	
-<0SPDBt	
-<0STATt	
-<1D;{
-<2D;~t
-<8A;}Tr@
-<8ISG1t	
-<8ISGNt	
-<8OSG1t
-<8OSGNt	
-<8RDEFt	
-<8RPLY
-<8SDTLt	
-<<;|$@v2
-<==>>??@ABCDEFFFGFFFFFHHIIIIIJIIIIhKKKKLLLLMNOPQRS
-<Xu)B
-<\uyH;
 <anonymous>
 <basic>
 <body bgcolor="#000000">
-<bu7A
 <compound>
 <container>
 <continued>
@@ -1607,16 +840,14 @@ $super
 <float16>
 <font color = "#
 <font color = "#%s">
-<http://www.microsoft.com/pki/certs/MicrosoftTimeStampPCA.crt0
 <internal error>
-<internal error> unable to get variable name from PDB
-<internal error> unable to get variable subfield offset from PDB
-<internal error> unable to get variable type from PDB
-<invalid constant table>
-<invalid default value offset>
-<invalid member offset>
-<invalid type offset>
-<j[zk:++
+<internal error> unable to get variable name from PDB\n
+<internal error> unable to get variable subfield offset from PDB\n
+<internal error> unable to get variable type from PDB\n
+<invalid constant table>\n
+<invalid default value offset>\n
+<invalid member offset>\n
+<invalid type offset>\n
 <memory>
 <method>
 <nocast>
@@ -1626,8 +857,6 @@ $super
 <pointer>
 <pre>
 <symobj>
-<tt	L
-<tt?L
 <unknown HLSL built-in %u offset %u>
 <unknown buffer type>
 <unknown class>
@@ -1643,416 +872,23 @@ $super
 <unknown> 
 <unnamed>
 <unused>
-<ut#L
 <| dependent on I%u (B%u), A%u (B%u)
-=>?@=ABCDABCDAEFGHEIJKLIJKLIMNOP
-=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>??????????**<
 =FALSE
-=MINIu
-=NOTMu	
-=RD11t
-=RSDS
->?@ABCDEF
->A8<$t)M
->http://www.microsoft.com/pki/certs/MicCodSigPCA_08-31-2010.crt0
->http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0
->http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
->http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0
-?$trH
-?.u H
-?<?u#H
-?<?u#I
-?<?u$H
-?<?u%H
-?<?u'H
-?<?u'L
-?<?u(H
-?<?u(I
-?<?u(L
-?<?u>H
-?<?utL
 ??1type_info@@UEAA@XZ
-?L9g(uMH
-?TEXTusA
-?http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl0T
 ?terminate@@YAXXZ
-?w?^s'W
-@ 9B r
-@ @&@%@
-@ A+@
-@"@"@
-@#@$@%@
-@$;t$h
-@'@.@
-@)@8@
-@,@&@+@
-@.data
-@.reloc
-@.rsrc
-@0A9B0u7I
-@0D;A0ujH
-@0H9A0~
-@4A9@4wM
-@8(t	H
-@80t	H
-@84*u
-@84/u
-@88t	H
-@88uA
-@8<(u
-@8<.u
-@8=Jl>
-@8H9A8}
-@8I9@0
-@8I9@0t
-@8I9B8u-I
-@8iHt
-@8j8u
-@8k t
-@8k8u
-@8k9u
-@8k:u+@8k8u
-@8l$3
-@8l$@s
-@8o8u
-@8o8u&H
-@8p8t
-@8q	u
-@8q`t
-@8r`t
-@8t$ t!L
-@8t$!t!L
-@8t$"t!L
-@8t$#t!L
-@8t$$t!L
-@8t$%t!L
-@8t$0
-@8t$PtbH
-@8t$pt
-@8t$tB
-@8u8u
-@8uot
-@8w	u
-@8w"H
-@8w#t
-@8w$uy
-@8w0t
-@8x\t
-@8y	u
-@8yht
-@8{	u
-@8{ t
-@8{8u
-@8{pt
-@8|$P
-@8|$P@
-@8|$Pt(M
-@8|$`t
-@8|$`t)@8
-@8|$`thH
-@8|$du
-@8|$pt
-@8|$pu
-@8}gt/
-@8~!u
-@9l$`}$H
-@:@9@/@
-@@9A@s?H
-@@9C@
-@@9{DvjI
-@@A9E@
-@@A9G@
-@@A9G@vlH
-@A]A\_^[
-@A]][
-@A]_^][
-@A^A\]
-@A^A\_^[
-@A^A]A\_[
-@A^A][
-@A^A]_^[
-@A^^]
-@A^_]
-@A^_^
-@A^_^[]
-@A^_^][
-@A_A\_
-@A_A]A\][
-@A_A]A\_[
-@A_A]A\_]
-@A_A]A\_^
-@A_A][
-@A_A]_
-@A_A^A\
-@A_A^A\^]
-@A_A^A\_^
-@A_A^A\_^][
-@A_A^A]A\[
-@A_A^A]A\]
-@A_A^A]A\^][
-@A_A^A]A\_
-@A_A^A]A\_^]
-@A_A^A]_^][
-@A_A^]
-@A_A^^
-@A_A^_
-@A_A^_[]
-@A_A^_][
-@A_A^_^[
-@A_A^_^]
-@A_^]
-@HH9p
-@HH;h
-@ILT+%d(
+@ILT
 @Module %d
-@SATAUAVAWH
-@SATAUAVH
-@SATAUAVL
-@SATAUAWH
-@SATAUH
-@SATAVAWH
-@SATAVH
-@SATH
-@SAUAVAWH
-@SAUAVH
-@SAVAWH
-@SAVH
-@SAWH
-@SUATAUAVAWH
-@SUATAUAWH
-@SUATAUH
-@SUATAVAWH
-@SUATAVH
-@SUAUAVH
-@SUAUH
-@SUAVAWH
-@SUAVH
-@SUVATAUAVAWH
-@SUVATAUH
-@SUVATAWH
-@SUVAUAVH
-@SUVAUAWH
-@SUVAUH
-@SUVAVAWH
-@SUVAWH
-@SUVH
-@SUVWATAUAVAWH
-@SUVWATAUAVH
-@SUVWATAUH
-@SUVWATAVAWH
-@SUVWAUAVAWH
-@SUVWAUAVH
-@SUVWAUH
-@SUVWAV
-@SUVWAVAWH
-@SUVWAVH
-@SUVWAWH
-@SUVWH
-@SUWATAUAVAWH
-@SUWATAUH
-@SUWATAVAWH
-@SUWATAVH
-@SUWAUAVAWH
-@SUWAVAWH
-@SUWAWH
-@SUWH
-@SVATAVAWH
-@SVATAVH
-@SVAUAVH
-@SVAUH
-@SVAVAWH
-@SVAVH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAUAVH
-@SVWATAUH
-@SVWATAVAWH
-@SVWATH
-@SVWAUAVH
-@SVWAUAWH
-@SVWAVAWH
-@SVWAVH
-@SVWAWH
-@SVWH
-@SWATAUAVH
-@SWATAUAWH
-@SWATAUH
-@SWATAVAWH
-@SWATAWH
-@SWATH
-@SWAUAVH
-@SWAUAWH
-@SWAVAWH
-@SWAVH
-@SWAWH
-@TA;ATv
-@UATAUAVAW
-@UATAUAVAWH
-@UATAUAVH
-@UATAUAWH
-@UATAVAWH
-@UATAVH
-@UATAWH
-@UATH
-@UAUAVAWH
-@UAUAVH
-@UAUAWH
-@UAVAWH
-@UAVH
-@UAWH
-@USATAUH
-@USATAWH
-@USATH
-@USAUAVAWH
-@USAUH
-@USAVAWH
-@USAWH
-@USVATAUAVAWH
-@USVATAUAWH
-@USVATAUH
-@USVATAVAWH
-@USVATAVH
-@USVAUAWH
-@USVAUH
-@USVAVAWH
-@USVAVH
-@USVAWH
-@USVH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAUAWH
-@USVWATAUH
-@USVWATAVAWH
-@USVWATH
-@USVWAUAVAWH
-@USVWAUAVH
-@USVWAUAWH
-@USVWAUH
-@USVWAVAWH
-@USVWAVH
-@USVWH
-@USWATAUAVAWH
-@USWATAUAWH
-@USWATAUH
-@USWATAVAWH
-@USWATAVH
-@USWATAWH
-@USWAUAVAWH
-@USWAUAWH
-@USWAUH
-@USWAVAWH
-@USWAVH
-@USWAWH
-@USWH
-@UVATAUAVAWH
-@UVATAUAVH
-@UVATAUAWH
-@UVATAUH
-@UVATAVH
-@UVATAWH
-@UVAUAVAWH
-@UVAUAWH
-@UVAVAWA
-@UVAVAWH
-@UVAVH
-@UVAWH
-@UVWATAUAVAWH
-@UVWATAUAVH
-@UVWATAUAWH
-@UVWATAVAWH
-@UVWATH
-@UVWAUAVAWH
-@UVWAUAWH
-@UVWAVAW
-@UVWAVAWH
-@UVWAVH
-@UVWAWH
-@UVWH
-@UWATAUAVAWH
-@UWATAUH
-@UWATAVAWH
-@UWATAVH
-@UWATH
-@UWAUAVAWH
-@UWAUAWH
-@UWAVAWH
-@UWAVH
-@UWAWH
-@VATAUAVAWH
-@VATAUAVH
-@VATAUAWH
-@VATAVAWH
-@VATH
-@VAUAVAWH
-@VAUAVH
-@VAVAWH
-@VAVH
-@VAWH
-@VWATAUAWH
-@VWATAUH
-@VWATAVH
-@VWATH
-@VWAUAVAWH
-@VWAUAVH
-@VWAUH
-@VWAV
-@VWAVAWH
-@VWAVH
-@VWAWH
-@WATAUAVH
-@WATAUAWH
-@WATAUH
-@WATAVAWH
-@WATAWH
-@WAUAVAWH
-@WAUAWH
-@WAVAWH
-@WAVH
-@WAWH
-@`9A`
-@`9A`s
-@`9G`
-@`9G`s
-@`A9@`s
-@`A9A`s
-@taIc
-@tjIc
-@u>D;
-@uJHc
-@uTHc
-A	AHH
+@\t@\r \n@\r \f@\v@\n@\v@\r@
 A 'ret' instruction must be followed by either (1) the end of the shader or (2) a 'label' instruction. Aborting shader validation.
 A * (1/A) = 1 <| Explicit
 A * B for boolean A & B -> AND A, B <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A * B/A with negative variations on A <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A + B for boolean A & B -> OR A, B <| MR.GenSimplifyInstructionsOpt1_NoExcl
-A 9C r
-A ;A,v
 A = B ? B : C -> A = B ? TRUE : C} <| Explicit
 A = B || !B -> A = B || TRUE <| Explicit
-A A9B usI
-A A9D
-A H+A
-A HcE
-A Shader is declaring a resource object as a texture using a register mapped to a root descriptor SRV (RegisterSpace=%u, ShaderRegister=%u).  SRV or UAV root descriptors can only be Raw or Structured buffers.
+A Shader is declaring a resource object as a texture using a register mapped to a root descriptor SRV (RegisterSpace=%u, ShaderRegister=%u).  SRV or UAV root descriptors can only be Raw or Structured buffers.\n
 A Shader is declaring a structured UAV with counter using a register mapped to a root descriptor UAV (RegisterSpace=%u, ShaderRegister=%u).  SRV or UAV root descriptors can only be Raw or Structured buffers.
 A Shader is declaring a typed UAV using a register mapped to a root descriptor UAV (RegisterSpace=%u, ShaderRegister=%u).  SRV or UAV root descriptors can only be Raw or Structured buffers.
-A f;B s
-A fA9FPu
-A fA;@ s
-A fA;C sSD
-A fD9
-A$;A s
-A$B9D
-A$fA3A f
-A$tCH
-A(9wH
-A(B9D
-A(D;A,r
-A(I3@(H#A H
-A(L;B(t{H
-A(L;F(
-A(fff
 A*(L2<0) REL L (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A*(L2<0) REL L <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A*(L2>0) REL L (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -2060,166 +896,8 @@ A*(L2>0) REL L <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A*L2 REL L where L2 < 0 divides L as an INT <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A*L2 REL L where L2 > 0 divides L as an INT <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A*L2 REL L where L2 divides L as a UINT <| MR.GenSimplifyInstructionsOpt1_NoExcl
-A+4$H
-A+>A+
 A+A REL L (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A+A REL L <| MR.GenSimplifyInstructionsOpt1_NoExcl
-A+E`Hc
-A+F`Hc
-A+FpA
-A+FpI
-A+FxA
-A+G`Hc
-A+GpA
-A+GxA
-A+HHL
-A+M,;
-A+U,A+
-A,+B,
-A,D9A$vF
-A0H9Fx~
-A0IcA8I
-A84?u
-A88t,H
-A8<$t
-A8@Pt
-A8A9C@u"D
-A8D8`Du
-A8D9D
-A8H9A0
-A8H9A0u
-A8H;tmA
-A8O u
-A8W`u%L
-A8]"H
-A8]#t
-A8]$t
-A8uAu"M
-A8u`u#L
-A8v)u
-A8}#u
-A8}$t$
-A8}$t+
-A8}$t4
-A8}$t;H
-A9	uE
-A9	uhA;
-A9)ux;
-A9,:v*I
-A9/v.
-A9/vU
-A9/v|ff
-A93uCI
-A94$vPL
-A9>|+
-A9@ v
-A9@ v5ff
-A9@(v
-A9A,t/I
-A9BTv
-A9BXs
-A9C vk
-A9C vsf
-A9E v
-A9G<r
-A9H0A
-A9H@v
-A9N@H
-A9N@M
-A9Q v 
-A9R8s
-A9R<s
-A9] v
-A9_,v@A
-A9h@rBM9
-A9p v
-A9p vif
-A9p@t
-A9slv"A;[ls
-A9v v
-A9y(~8fA;P s
-A9z0t
-A9|$0
-A9|$@
-A9~,t!H
-A;4$r
-A;@ r
-A;@ v
-A;@4r
-A;A v
-A;BTr
-A;C r
-A;D$Ts
-A;E@w
-A;ELs
-A;ETs
-A;F w6I
-A;F8uSH
-A;F<s
-A;GLs
-A;GLsEH
-A;Gls
-A;HLt
-A;K0v
-A;M0v
-A;P r
-A;Q r
-A;Q wS
-A;R r
-A;S r
-A;T$ r
-A;T$@
-A;T$Dr
-A;U r
-A;V r
-A;W A
-A;W r
-A;X r
-A;Y8@
-A;[lr
-A;\$ 
-A;\$ r
-A;]Xs
-A;]hv%A
-A;]ls
-A;^ r
-A;_,r
-A;_Hv
-A;khI
-A;o,s
-A;o,|
-A;oPv"A
-A;q,s
-A;r0r
-A;s8u
-A;t$,s
-A;u,s
-A;u8I
-A;uHv"E8eQu
-A;uLv
-A;uLwmD
-A;uTs
-A;v$s
-A;v8w
-A;wLrBH
-A;wLvL;
-A;x0r
-A;xDr
-A;|$,
-A;|$,s
-A;~ r
-A;~0r
-A<tCH
-A=RSDSu
-A@+A 
-A@9F@v
-A@9G@H
-A@9G@v
-A@@8w	t	I
-A@D9X
-A@D;@
-A@fD9@
-ABCDEFGHIIIJKKJKKLMNOPPPQPPPPPPRSTUVWXYZ[\]^_`abcdefghijklmnopqrs
 AB_BlendFactor
 AB_SampleMask
 ADAPTIVETESS_W
@@ -2233,10 +911,6 @@ ADDSIGNED
 ADDSIGNED2X
 ADDSMOOTH
 ADVAPI32.dll
-AH+A@Hc
-AH@t	
-AHH9:u
-AL9GLucL
 ALLOW_INPUT_ASSEMBLER_INPUT_LAYOUT
 ALLOW_STREAM_OUTPUT
 ALPHA
@@ -2254,159 +928,6 @@ AMBIENT
 AMBIENTMATERIALSOURCE
 ANISOTROPIC
 ANTIALIASEDLINEENABLE
-AOC1'0%
-AP t	
-APtCH
-ATAUAVAWH
-ATAUAVH
-ATAUAWH
-ATAUH
-ATAVAWH
-ATAVH
-ATAWH
-AUAVAWH
-AUAVH
-AUAWH
-AVAWH
-AX+A8
-AX+AP
-AX@8p
-A\^][
-A\_[]
-A\_^[]
-A]A\[]
-A]A\^[]
-A]A\^]
-A]A\_[
-A]A\_[]
-A]A\_]
-A]A\_][
-A]A\_^[]
-A]A\_^][
-A]^[]
-A]^][
-A]_[]
-A]_^[]
-A]_^]
-A]_^][
-A^A\]
-A^A\^[
-A^A\^[]
-A^A\_
-A^A\_[
-A^A\_[]
-A^A\_]
-A^A\_^
-A^A\_^[]
-A^A]A\
-A^A]A\]
-A^A]A\^
-A^A]A\^]
-A^A]A\_[]
-A^A]A\_^
-A^A]A\_^[
-A^A]A\_^[]
-A^A]A\_^]
-A^A]A\_^][
-A^A]]
-A^A]][
-A^A]^[
-A^A]^][
-A^A]_^[]
-A^A]_^][
-A^^[]
-A^_[]
-A^_^[
-A^_^[]
-A^_^]
-A^_^][
-A_A\[]
-A_A\^]
-A_A\^][
-A_A\_
-A_A\_[]
-A_A\_][
-A_A\_^]
-A_A\_^][
-A_A]A\
-A_A]A\]
-A_A]A\^[]
-A_A]A\_
-A_A]A\_[]
-A_A]A\_]
-A_A]A\_^
-A_A]A\_^[]
-A_A]A\_^]
-A_A]A\_^][
-A_A]^[]
-A_A]^]
-A_A]_[
-A_A]_[]
-A_A]_]
-A_A]_^[]
-A_A]_^]
-A_A^A\
-A_A^A\[
-A_A^A\][
-A_A^A\^[]
-A_A^A\_[
-A_A^A\_[]
-A_A^A\_]
-A_A^A\_][
-A_A^A\_^
-A_A^A\_^[
-A_A^A\_^[]
-A_A^A\_^]
-A_A^A\_^][
-A_A^A]
-A_A^A]A\[
-A_A^A]A\]
-A_A^A]A\][
-A_A^A]A\^
-A_A^A]A\^[]
-A_A^A]A\^]
-A_A^A]A\^][
-A_A^A]A\_
-A_A^A]A\_[
-A_A^A]A\_[]
-A_A^A]A\_]
-A_A^A]A\_][
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A][]
-A_A^A]]
-A_A^A]^]
-A_A^A]_
-A_A^A]_[]
-A_A^A]_]
-A_A^A]_][
-A_A^A]_^
-A_A^A]_^[]
-A_A^A]_^]
-A_A^A]_^][
-A_A^[
-A_A^[]
-A_A^]
-A_A^][
-A_A^^
-A_A^^[]
-A_A^^]
-A_A^^][
-A_A^_
-A_A^_[]
-A_A^_]
-A_A^_][
-A_A^_^[
-A_A^_^[]
-A_A^_^]
-A_A^_^][
-A_^[]
-A__[]
-A__^[]
-A__^]
-A__^][
-A` tL
 Abs modifier not allowed for operand #%d of opcode #%d (counts are 1-based). 
 Absolute and relative addressing of constant registers cannot be combined in one instruction.
 Absolute and relative addressing of input registers cannot be combined in one instruction.
@@ -2419,11 +940,6 @@ AddressU
 AddressV
 AddressW
 After texdepth instruction, r5 is no longer available in shader.
-Ah+A`H
-Ah+A`Hc
-Ah+A`L
-Ah+A`Lc
-AhA+A`Hc
 All DS input control point vcp[][] registers must have control point count (first dimension) declared with size equal to the number of input control points declared in the hs decls phase (%d control points in this case). Input %d has %d control points declared. 
 All GS input v[][] registers must have vertex count (first dimension) declared with size equal to the number of vertices in the declared input primitive (%d vertices in this case). Input %d has %d vertices declared. 
 All HS control point phase input v[][] registers must have control point count (first dimension) declared with size less than or equal to the number of input control points declared in the hs decls phase (%d control points in this case). Input %d has %d control points declared. 
@@ -2434,17 +950,11 @@ All HS join phase input vocp[][] registers must have control point count (first 
 AllMemoryBarrier
 AllMemoryBarrierWithGroupSync
 AlphaToCoverageEnable
-Alternately, fxc's /LD option allows use of the old compiler DLL
+Alternately, fxc's /LD option allows use of the old compiler DLL\n
 AntialiasedLineEnable
-Aon9A
-Aon9I
-Aon9t
-Aon9t	
-Aon9t`
 Append
 Append/Consume not compatible with buffer type
 AppendStructuredBuffer
-AptPA
 Assignment %s: Attempting to assign an incompatible inline shader
 Assignment %s: Dimensionality mismatch (LHS expects %d, RHS has %d)
 Assignment %s: Expressions cannot be evaluated to produce objects, though they may be used to index into arrays of objects
@@ -2457,47 +967,13 @@ Assignment %s: Only literal right-hand side values are allowed in state blocks i
 Assignment %s: Reference to shader variable '%s' not valid for %s techniques because it is missing interface parameter bindings
 Assignment %s: Reference to shader variable '%s' not valid for %s techniques because it uses an uninitialized shader
 Assignment %s: Reference to shader variable '%s' not valid for %s techniques because it uses an unsupported shader model
-AtAon9
-AtXNAPD
-AtXNAS
 Attempt to read undeclared component%s of input register v%d (*): %s. Components of v# registers to be read must be declared by a dcl statement.
 Attempt to write undeclared component%s of output register o%d (*): %s. Components of o# registers to be written must be declared by a dcl statement.
 AttrParams
 Attributes
-Au*D;
-B 9A t[
-B @8x`t
-B D9A
-B(9A(
-B(9A(u7H
-B(fff
 B*!(A * -B + B) -> A * B <| MR.GenSimplifyInstructionsOpt1_NoExcl
-B,fE;S s
-B09A0
-B0;B0
-B49A4
-B4;Als
-B84"u
-B89A8
-B8<3u
-B8<8u
-B8A9@8s
-B8I9B0t
-B8L((A
-B<D;C
-B@9A@
-B@9A@D
-B@9A@uGH
-B@D;h
-B@H9A@u
-BD$xJ
-BH9AHu
-BHD;S 
-BHL;X
+BACK
 BINORMAL
-BL$hD
-BL$xD
-BL9ALu
 BLENDCURRENTALPHA
 BLENDDIFFUSEALPHA
 BLENDFACTOR
@@ -2509,13 +985,12 @@ BLENDTEXTUREALPHA
 BLENDTEXTUREALPHAPM
 BLENDWEIGHT
 BLEND_FACTOR
+BLUE
+BOOL
 BORDER
 BORDERCOLOR
 BOTHINVSRCALPHA
 BOTHSRCALPHA
-BP8AP
-BPA+BHL
-BPI9BPt%H
 BREAK_EQ i2,-iv1 where iv1 is literal and has to be negated <| MR.Gen_PreModTarget_Both
 BREAK_EQ i2,-iv1 where iv1 is literal and has to be negated, CMP form <| MR.Gen_PreModTarget_Both
 BREAK_EQ i2,i1 <| MR.Gen_PreModTarget_Both
@@ -2530,8 +1005,6 @@ BREAK_NE i2,-iv1 where iv1 is literal and has to be negated <| MR.Gen_PreModTarg
 BREAK_NE i2,-iv1 where iv1 is literal and has to be negated, CMP form <| MR.Gen_PreModTarget_Both
 BREAK_NE i2,i1 <| MR.Gen_PreModTarget_Both
 BREAK_NE i2,i1 with CMP <| MR.Gen_PreModTarget_Both
-BSCDH
-BT$t@
 BUMPENVLOFFSET
 BUMPENVLSCALE
 BUMPENVMAP
@@ -2540,10 +1013,7 @@ BUMPENVMAT00
 BUMPENVMAT01
 BUMPENVMAT10
 BUMPENVMAT11
-BV(D+F
-BXH9AX
-B`9A`
-B`D9H
+B\fP\v0
 BackFaceStencilDepthFail
 BackFaceStencilFail
 BackFaceStencilFunc
@@ -2552,8 +1022,6 @@ Bad end token.  DWORD count > 1 given. Expected DWORD count to be 1 for end toke
 Bad version token.  DWORD count > 1 given. Expected DWORD count to be 1 for version token.
 Bad version token.  It indicates neither a pixel shader nor a vertex shader.
 Basic correctness checking <| Explicit
-Bd9AduQ
-Bh+B`Hc
 BindInterfaces
 BindInterfaces used with a shader that does not have interface parameters
 Binormal
@@ -2567,7 +1035,6 @@ BlendOpAlpha
 BlendState
 BlendWeight
 BorderColor
-Bt9AtuY
 Buffer
 Buffers can only be bound to one slot in this version of Effects
 Buffers may only be bound to one constant offset.
@@ -2576,56 +1043,16 @@ By default, unbounded size descriptor tables are disabled to support frame captu
 By the end of a vertex shader, any oTn register written must not have gaps in components, starting from x, in order xyzw. To satisfy this, oT%d requires writing of the additional component%s(*): %s 
 ByteAddressBuffer
 Bytecode appears corrupt - integrity check failed.
-B|$8L
-B|$8L9L$@H
-C +|$@H
-C 9G u
-C D8{
-C H	D
-C I	F 
-C L9s(H
-C f;B s
-C$9G$u0
-C$9G,t3M
-C(A;o0
-C(D;}0
-C(HcC(;B
-C,9G4uc
-C0A9C
-C0A;CT
-C0A;CTs
-C0H9C8
-C0H9{@u
-C49G<u[
-C8H9C0
-C<H	W
-C>Ngt
-C@9A(v
-C@9A@D
-C@9A@wZI
-C@9B(E
-C@9F@u"L
-C@9G(v
-C@A9G@w
-C@H9C0s%H
-C@H;C0txfff
 CAMERASPACENORMAL
 CAMERASPACEPOSITION
 CAMERASPACEREFLECTIONVECTOR
-CB%d[%d:
+CB%d
 CB[%d] already declared, repeated declaration on opcode #%d (count is 1-based). 
 CCW_STENCILFAIL
 CCW_STENCILFUNC
 CCW_STENCILPASS
 CCW_STENCILZFAIL
-CD9n 
-CE9B v=I
-CH9GHuLA
-CHA;FH
-CL$83
 CLAMP
-CLI4H
-CLI4t
 CLIPDST
 CLIPPING
 CLIPPLANE0
@@ -2635,7 +1062,6 @@ CLIPPLANE3
 CLIPPLANE4
 CLIPPLANE5
 CLIPPLANEENABLE
-CLITH
 CMP(c,d=1+CMP(c,a,b),f) -> CMP(c,1+a,f) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 COLOR
 COLOR outputs must be contiguous from COLOR0 to COLORn
@@ -2682,28 +1108,17 @@ COUNT2
 COUNT3
 COUNT4
 COVERAGE
-CPH9GPu
-CRPTH
-CRPTt
-CRPTtF
-CTABA
-CTABH
-CTABt
 CUBIC
 CULLDST
 CULLMODE
 CURRENT
-CX9GXu
-CXHcH
-C\2G\$
-C`+CPH
 CalculateLevelOfDetail
 CalculateLevelOfDetailUnclamped
 Can't continue validation - aborting.
 Can't create/set an invalid shader. Make sure your shader is valid, and make sure you're not using asm shaders in SM4.0
 Can't fall through case/default unless case/default has no code. Opcode #%d (count 1-based). Aborting validation.
 Cannot access 32-bit type pool with 16-bit APIs
-Cannot append range with implicit lower bound after an unbounded range (descriptor table slot [%u], root parameter [%u]).
+Cannot append range with implicit lower bound after an unbounded range (descriptor table slot [%u], root parameter [%u]).\n
 Cannot apply a negation source modifier on data that was last written with the saturate destination modifier. Affected components(*) of %s source param: %s
 Cannot call subroutine label defined earlier in shader (label #%d in this case).  Subroutine call must reference label defined later in shader. Aborting shader validation. 
 Cannot declare streams as an input for geometry shader primitives, it must be its own parameter.
@@ -2722,12 +1137,9 @@ Cannot use negate or abs on source parameter(s) to %s instruction.
 Cannot use tex* instruction after non-tex* instruction.
 Cannot use texture arrays on DX9 targets with multiple samplers.
 CaseStmts
-Ch;Clr
-ChI9Bhu
 Change swizzle of parameters to dot <| Explicit
 CheckAccessFullyMapped
 CheckAccessFullyMapped requires shader model 5 or higher
-Chttp://crl.microsoft.com/pki/crl/products/MicrosoftTimeStampPCA.crl0X
 Clip plane attribute parameters must be non-literal constants
 Clip planes cannot be addressed in %s
 Clip planes must be non-literal constants with identity swizzles in %s
@@ -2797,7 +1209,6 @@ Consume
 ConsumeStructuredBuffer
 CopyFileExW
 Counter-Clockwise Triangles
-CpA9Bp
 CreateFileA
 CreateFileMappingW
 CreateFileW
@@ -2810,334 +1221,7 @@ CryptReleaseContext
 CullMode
 Cycle Counter already declared.  Opcode #%d (count is 1-based). 
 Cycle Counter declaration must have mask of .x or .xy.  Opcode #%d (count is 1-based). 
-D	Y H
-D$ +D$(
-D$ +D$(A
-D$ +D$(D
-D$ 9F 
-D$ ;D$$
-D$ ;F
-D$ <.w
-D$ @8(t	H
-D$ A+F
-D$ A;
-D$ D;
-D$ D;F 
-D$ Dk
-D$ E3
-D$ H9D$(u
-D$ H9D$(u)
-D$ H;
-D$ ISGN
-D$ L+
-D$ L9
-D$ LFS0L
-D$ OSGN
-D$ OSGNI
-D$ RDEFI
-D$ fI
-D$ t+
-D$ tM
-D$ u!H;
-D$ u"
-D$ uL
-D$ uPM
-D$$+D$(A
-D$$;B$
-D$$A9E
-D$$A;
-D$$A;E
-D$$D8|$8
-D$$F9
-D$(+D$0A
-D$(A+
-D$(A;
-D$(D3
-D$(E2
-D$(E3
-D$(H9D$0u5
-D$(H9D$0uGHc
-D$(H;
-D$(H;C(
-D$(Hk
-D$(L+
-D$(M+
-D$(fA
-D$(fI
-D$(uH
-D$,9F,t
-D$0+D$8
-D$09D$8u
-D$0A8C(
-D$0A:C(
-D$0A;
-D$0D;D$(
-D$0E+
-D$0E2
-D$0E3
-D$0H+
-D$0H9D$ 
-D$0H9xHuUH
-D$0H;
-D$0H;C0ts
-D$0Ic
-D$0L+
-D$0L9
-D$0PL
-D$0bH
-D$0cH
-D$0fA
-D$0fD
-D$0fE
-D$0iH
-D$0sH
-D$0sL
-D$0tH
-D$0tL
-D$0u<
-D$0uH
-D$0uL
-D$0udI
-D$0vH
-D$0vL
-D$1@u-L
-D$2@"
-D$4E3
-D$4Hc
-D$4L+
-D$89D$0u
-D$89X0t
-D$8;D
-D$8;D$@r
-D$8;D$@s
-D$8;D$@s*
-D$8;F
-D$8A;
-D$8D3
-D$8D;
-D$8D;D$@r
-D$8E2
-D$8E3
-D$8E;
-D$8H+
-D$8H9D$@u#H
-D$8H;
-D$8Hc
-D$8I;
-D$8Lc
-D$8f9H
-D$8u/H
-D$<9D$Xu(A
-D$<A;
-D$<E3
-D$<H;
-D$@+F H
-D$@9E
-D$@9L$0r
-D$@9U
-D$@;B4u
-D$@;E
-D$@=NB10t
-D$@A9F
-D$@A;
-D$@A;D$
-D$@A;F
-D$@D8
-D$@D;
-D$@E2
-D$@E3
-D$@E;
-D$@H+
-D$@H9
-D$@H9xH
-D$@H;
-D$@H;D$Xu^H;
-D$@Hc
-D$@Hk
-D$@Ic
-D$@L+
-D$@SHEX
-D$@f9
-D$D9C
-D$D9D$@
-D$D;D$@s
-D$D;E<
-D$DA;
-D$DE2
-D$DE3
-D$DH;
-D$DSHDR
-D$H8X	
-D$H9B
-D$H9D$@
-D$H;B
-D$H@2
-D$HA	0A
-D$HA+
-D$HA;
-D$HE2
-D$HE3
-D$HE;
-D$HH9
-D$HH;D$`sHL;
-D$HHcT$h3
-D$HHk
-D$HI9u0tVH
-D$HIc
-D$HM+
-D$Hu	M
-D$IE2
-D$L+D$@
-D$L9j
-D$LISG1H
-D$LOSG1H
-D$LOSG5H
-D$LPSG1H
-D$Nf;
-D$P9|(
-D$P<H
-D$P@2
-D$PA;
-D$PD8
-D$PD;
-D$PE2
-D$PE3
-D$PE9
-D$PEk
-D$PH+
-D$PH9D$Xu
-D$PH;
-D$PH;D$`s
-D$PL+
-D$PL9
-D$PM;
-D$PSHEXL
-D$PfA
-D$PfA;
-D$PfD
-D$Pt4@
-D$Pu$L
-D$Qu4H
-D$R@2
-D$T+D$h
-D$T;D$hw
-D$T;G
-D$TA;
-D$TE3
-D$TE;
-D$THc]
-D$TSHDRH
-D$Tw	1
-D$XA;
-D$XA;D$
-D$XA;D$ 
-D$XD9p
-D$XE3
-D$XE9t$ 
-D$XH9D$P
-D$XH9D$Pu*
-D$XH;
-D$XL+
-D$\E3
-D$`9A
-D$`9AL
-D$`9B<
-D$`9D$ u
-D$`9D$hu
-D$`;E
-D$`;FHs
-D$`A9@
-D$`A;
-D$`A;@
-D$`A;D$
-D$`A;D$$
-D$`A;G<
-D$`A;GL
-D$`D9B$
-D$`D9u
-D$`E2
-D$`E3
-D$`H#D$X
-D$`H%
-D$`H3D$X
-D$`H9
-D$`H9D$P
-D$`H9D$Ps	H
-D$`H9D$Xu 
-D$`Lc
-D$`fA
-D$`fA+
-D$`fD
-D$`th
-D$d9D$h
-D$d;D$`
-D$d;D$hs
-D$dE3
-D$du9M
-D$h$H
-D$h;D$H
-D$h;F
-D$h;|$T
-D$hD;
-D$hDBUGH
-D$hE2
-D$hE3
-D$hH9D$pu
-D$hH;
-D$hHcE
-D$hL+
-D$hL;
-D$hMc
-D$hfA
-D$p(H
-D$p;A
-D$p;E
-D$p;E$s
-D$p@8
-D$pA;
-D$pE3
-D$pE9<$
-D$pE;
-D$pH;
-D$pL!
-D$pRPLYM
-D$pfD
-D$pff
-D$pt)H
-D$puc
-D$t;A
-D$tD;
-D$tE3
-D$tt-I
-D$tt;
-D$x8X8u
-D$x9E
-D$x;N@
-D$x@2
-D$xD9
-D$xD;)D
-D$xE3
-D$xE;
-D$xH+
-D$xH;
-D$xH;D$0u
-D$xH;E
-D$xHc
-D$xI+
-D$xL+
-D$xL;
-D$xfH
-D$|E2
-D$|H;
-D)o u
-D+D$ H
-D+L$0L
-D+d$xE
-D+}lE
 D0x%I64x
-D3D$TH
-D3D$XA
-D3D$`L
 D3D10_COMPILER
 D3D10_SHADER_AVOID_FLOW_CONTROL
 D3D10_SHADER_DEBUG
@@ -3192,300 +1276,23 @@ D3DReadFileToBlob
 D3DReflect
 D3DReflectLibrary
 D3DReturnFailure1
-D3DSHDR
-D3DSerializeRootSignature: unknown root parameter type (%u)
-D3DSerializeRootSignature: unsupported root signature version (%u)
+D3DSerializeRootSignature: unknown root parameter type (%u)\n
+D3DSerializeRootSignature: unsupported root signature version (%u)\n
 D3DSetBlobPart
 D3DStripShader
 D3DWriteBlobToFile
-D3DX: (WARN) An allocation of zero bytes should return a unique non-null pointer to at
-D3DX: (WARN) D3DX11 relies upon this behavior.
-D3DX: (WARN) Overloaded ::new and ::delete operators do not conform to C++ standards:
-D3DX: (WARN) least zero bytes. Deletion of a null pointer should quietly do nothing.
+D3DX
+D3DX: (WARN) An allocation of zero bytes should return a unique non-null pointer to at\r\n
+D3DX: (WARN) D3DX11 relies upon this behavior.\r\n
+D3DX: (WARN) Overloaded ::new and ::delete operators do not conform to C++ standards:\r\n
+D3DX: (WARN) least zero bytes. Deletion of a null pointer should quietly do nothing.\r\n
 D3DX_VERSION
-D58fB
-D8 t	H
-D8$.u
-D8$/u
-D8$2u
-D8$>u
-D8,(u
-D8,1u
-D80t	H
-D84+u
-D88t	H
-D8<;u
-D8AXt
-D8AYH
-D8D$Pt
-D8D$bt8@
-D8G)vX
-D8L$PA
-D8L$PtHD
-D8L$RA
-D8L$SA
-D8L$TI
-D8R	t
-D8[!u
-D8[$u
-D8aHu
-D8c8t/D8c9t)D
-D8d$b
-D8d$c
-D8d$ct
-D8d$cu
-D8d$t
-D8d$x
-D8d$xt
-D8ept
-D8f8u
-D8fHu5H
-D8fHu[H
-D8fHunH
-D8h9t
-D8jht
-D8k9uSH
-D8k:t	D
-D8l$ tDI
-D8l$au
-D8l$btxHc
-D8l$lt<
-D8l$ptx
-D8l$q
-D8m t+H
-D8p8u
-D8p9u
-D8r8u
-D8r9u
-D8s8A
-D8s:D
-D8t$3t
-D8t$@A
-D8t$PA
-D8t$PtnF
-D8t$tH
-D8t$x
-D8u(t>
-D8u8t
-D8vpt
-D8xIt
-D8yQu
-D8zqt	D
-D8{Qu
-D8{`u
-D8|$ t
-D8|$0t
-D8|$1t
-D8|$1t\A
-D8|$2t
-D8|$3t
-D8|$@u
-D8|$Pt
-D8|$Pt-H
-D8~8u
-D9&uJE;
-D98uZH
-D9?tN
-D9@ s
-D9A$v#
-D9A@t
-D9A@v
-D9APv#
-D9D$,s
-D9GHt9E
-D9IPs
-D9L$4vpD
-D9L$`u
-D9L7X
-D9P8v9fff
-D9Q v3
-D9S ve
-D9T$(t
-D9T$(u
-D9T$0
-D9T$h
-D9T$hu
-D9T$hu7D9T$pu0A
-D9T$p
-D9T$pt
-D9T$ptWA
-D9W@v
-D9X vB
-D9Y voI
-D9Y<t
-D9YDu
-D9Z(t	
-D9Z<t
-D9\$<
-D9\$H
-D9\$hs
-D9^Lu
-D9`4u3H
-D9`@H
-D9a$v
-D9bPt*E
-D9c v+
-D9c v8
-D9c vw
-D9d$4
-D9d$@v-H
-D9d$Lt
-D9d$P
-D9d$Pt
-D9d$`t H
-D9d$ht
-D9d$l
-D9d$pt
-D9h8u
-D9h8u2H
-D9i8u
-D9itt L
-D9itu
-D9j<t"D
-D9k v
-D9k vNH
-D9l$<u
-D9l$Hu
-D9m t9H
-D9m,v
-D9m,vH
-D9m,w	D9
-D9n v'
-D9o$vPL
-D9o$vVD;o$s
-D9oxv
-D9p8u#E3
-D9q@t
-D9s,t
-D9t$ 
-D9t$0u
-D9t$4
-D9t$Pt
-D9t$Xu
-D9t$tu
-D9u(u
-D9uTv:
-D9u\v4f
-D9u`v6
-D9uhv4f
-D9vhu#L
-D9vpt#L
-D9w v
-D9w|u
-D9y,v
-D9{HA
-D9{ht(H
-D9|$8
-D9|$@
-D9|$Hu$A
-D9|$P
-D9|$Pt
-D9|$hu
-D9|$xA
-D9} v
-D9}8v%I
-D9~ vkf
-D9~ vwf
-D:G)r
-D;.s	I
-D;@ r
-D;@LH
-D;@ls
-D;@ts
-D;A$r
-D;A$s
-D;A,r
-D;A,s
-D;A<r
-D;B(u
-D;B,s
-D;B8u
-D;C r
-D;CLr
-D;D$,H
-D;D$P
-D;D$XsZ
-D;D$`H
-D;D$x
-D;EXs
-D;F r
-D;G r
-D;G$r
-D;G,s	H
-D;G@r
-D;H4r
-D;HLs
-D;HTs
-D;Hts
-D;I$r
-D;ILvWH
-D;IPr
-D;J H
-D;K r
-D;L$0
-D;L$4r
-D;P8r
-D;PTs
-D;Pls
-D;Q@r
-D;T$0
-D;T$p@
-D;XTs
-D;Y$r
-D;\$<r
-D;\$Hr
-D;\$ds
-D;\$hs
-D;d$8r
-D;d$<
-D;d$<s
-D;d$Ls
-D;d$T
-D;j uU
-D;j,|&L
-D;kPr
-D;l$ r
-D;l$$
-D;l$4
-D;l$<
-D;l$Pr
-D;l$Ts
-D;l$p
-D;m(v$
-D;o u E
-D;o$s
-D;q$s
-D;s u
-D;sDs
-D;t$4
-D;t$@v)
-D;t$Hv(@8|$Qu
-D;t$Lt:H
-D;t$d
-D;t$ds
-D;t$ds6D
-D;t$h
-D;u`r
-D;|$@
-D;|$H
-D;|$Ls
-D;|$P
-D;|$`
-D;|$h
-D;|$ls
-D;~ rPH
 D=>3[FG
 DATA_STATIC
 DATA_STATIC_WHILE_SET_AT_EXECUTE
 DATA_VOLATILE
-DBUGH
-DBUGL
-DD$0I;
-DD$8H
-DD$@H
-DD$DD
-DD$XH
 DEBUGMONITORTOKEN
+DECR
 DECRSAT
 DECR_SAT
 DENY_DOMAIN_SHADER_ROOT_ACCESS
@@ -3524,9 +1331,6 @@ DX9-style 'LHS = <RHS>' syntax is deprecated in strict mode
 DX9-style 'compile' syntax is deprecated in strict mode
 DX9-style assignment syntax is deprecated in technique10 pass blocks in favor of new function call syntax
 DX9-style intrinsics are disabled when not in dx9 compatibility mode.
-DXBCL
-DXBCf
-DXBCfD
 Debug instructions are unsupported in shader libraries
 DebugSetMute
 Declaration for register %s%d overlaps previous declaration for the following component(s) of the same register (*): %s
@@ -3568,11 +1372,11 @@ Derivative being used before it was defined. consider moving the derivative assi
 Derivative is not defined in a different branch of flow-control. Consider moving the derivative assignment before any flow control statements.
 Derivatives of indexed variables are not yet implemented.
 Derivatives of known values are unimplemented.
-Descriptor range (descriptor table slot [%u], root parameter [%u]) overlaps with another incompatible descriptor range.
+Descriptor range (descriptor table slot [%u], root parameter [%u]) overlaps with another incompatible descriptor range.\n
 Descriptor range flag values can only be 0 or flag enum values, found: '%s'
 Descriptor range flags cannot be specified for root_sig_1_0
-Descriptor range flags cannot specify DESCRIPTORS_VOLATILE with the DATA_STATIC flag at the same time (descriptor range flags %x). DATA_STATIC_WHILE_SET_AT_EXECUTE is fine to combine with DESCRIPTORS_VOLATILE, since DESCRIPTORS_VOLATILE still requires descriptors don't change during execution. 
-Descriptor range flags cannot specify more than one DATA_* flag at a time (descriptor range flags %x).
+Descriptor range flags cannot specify DESCRIPTORS_VOLATILE with the DATA_STATIC flag at the same time (descriptor range flags %x). DATA_STATIC_WHILE_SET_AT_EXECUTE is fine to combine with DESCRIPTORS_VOLATILE, since DESCRIPTORS_VOLATILE still requires descriptors don't change during execution. \n
+Descriptor range flags cannot specify more than one DATA_* flag at a time (descriptor range flags %x).\n
 DescriptorTable
 Dest for SINCOS must be a temp (r#) register.
 Dest mask for SINCOS must be one of: .x | .y | .xy 
@@ -3633,126 +1437,19 @@ Double operations not supported unless globalFlags includes enableDoublePrecisio
 Double-precision extensions for 11.1
 Double-precision floating point
 Dst modifiers not allowed for vertex shaders.
-Dt$xuDH
 Duplicate non-system value semantic definition: %s and %s
 Duplicate system value semantic definition: %s and %s
 Duplicated input semantics can't change type, size, or layout ('%s').
-E	Y H
-E$f9C
-E(+E 
-E(=csm
-E+M,D+L$HE
-E+a A
-E0A+U $
-E0H9Ep
-E8,,u
-E80u	
-E8=csm
-E8e$t
-E8nqteH
-E8o8u
-E8o9u
-E8w9u
-E8xdHc
-E9A@L
-E9B v
-E9B vc
-E9H v
-E9QLs
-E9Y v}
-E9YHt]
-E9Z vwf
-E9Z@v
-E9b vo
-E9l$ 
-E9l$,
-E9l$D
-E9n\u
-E9x v'
-E9|$ v
-E9} v,L
-E9~ L
-E9~ v"f
-E;A r
-E;B r
-E;D$ r
-E;E r
-E;F r
-E;FDr
-E;G r
-E;H r
-E;J r
-E;L$ 
-E;M r
-E;N r
-E;O@r
-E;T$ 
-E;X t
-E;Z r
-E;\$ 
-E;_Dr
-E;e,s
-E;e<s
-E;els&A
-E;f$s
-E;gHrtE;gLwnH
-E;n uGA
-E;u<s
-E;uLs
-E;|$8v)E8D$Au
-E;} r
-E;}4s
-E;}Ls
-E;~ uJA
-E;~ v
-E;~Ls
-E<8E@t'H
-E@9A(u
-E@9A@
-E@A9D$T
-E@A9G@
-E@A;D$T
-EDA9GHD
-EH;D$xs>H
-EH=csm
-EL$ 3
-EL$0H
-EL9E`
 ELEMENTINDEX
 EMISSIVEMATERIALSOURCE
 ENABLEADAPTIVETESSELLATION
-EP9EH
-EP;pt
-EPD;EhswH
 EQUAL
 ERROR: Semantic %s is not supported in fx_4_1.
-ET$ A
-ET$(A
-ET$0%
-ET$xH
-EW9F@
-EX+EP
-EX;A,
-EX;A,s
-EX=csm
-EXA+EPA
-EXA9D$T
-EXA;D$T
-EXA;E 
-E\HcW 
+EXP2
 Earlier texld instruction used _dz(=_db) modifier on source param. When a phase marker is present, the _dz modifier is only permitted after the phase marker.
 Early depth-stencil
 Effect file is too large, try reducing the number of techniques or compiling without debug info
 Effects deprecated for D3DCompiler_47
-Eg@8u
-EgD+e
-Eh+E`Lc
-Eh=csm
-EhA+E`Hc
-Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_08-31-2010.crl0Z
-Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z
-Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
-Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z
 Emit output arrays <| Explicit
 Emit return instructions <| Explicit
 End of program reached with incomplete flow control structure.
@@ -3761,8 +1458,6 @@ End of shader reached and 'if' construct was not completed with 'else'/'endif'.
 End of shader reached and rep construct was not completed with an endrep. 
 End of shader reached without 'ret' to terminate subroutine.
 EnterCriticalSection
-Entrf
-EpH9u
 Error creating error string
 Error: Effects expression assembly in invalid format!
 Error: Effects expression assembly not found!
@@ -3771,16 +1466,13 @@ Error: Error getting Effects expression literal block.
 Error: Error getting texture shader literal block.
 Error: Texture shader assembly not found!
 Error: constant buffer %s has both user-defined offset and compiler-assigned offsets
-Error: unexpected end of buffer
+Error: unexpected end of buffer\n
 Eval range add NaN flag if integer mask says it's possible <| Explicit
 Eval range add inf flag if range not bound <| Explicit
 EvaluateAttributeAtSample
 EvaluateAttributeCentroid
 EvaluateAttributeSnapped
 Even Fractional
-Ew;Egs]3
-EwH9E
-Ex=csm
 Exceeded maximum number or index of output registers. Max allowed for this target is %d.
 ExpandEnvironmentStringsW
 Expected ',', found: '%s'
@@ -3802,27 +1494,6 @@ Expected sample count of 0 but encountered %d for resource t%d.  Opcode #%d (cou
 Expected single component mask (or in certain cases also NULL or single component output operand allowed) for operand #%d of opcode #%d (counts are 1-based). 
 Extended 11.1 double operations not supported unless globalFlags includes enable11_1DoubleExtensions.
 Extended 11.1 shader operations not supported unless globalFlags includes enable11_1ShaderExtensions.
-F D;H
-F f9APu
-F f9F$r
-F f;B s
-F f;B s.
-F(+F 
-F(s1H
-F0s1H
-F8<0u
-F8E9f8
-F8HcG(
-F8I9F0t
-F8t"zE
-F8|0Hu
-F8|0IH
-F@+F8
-F@9G@s
-F@;F8x
-F@A9@@E
-F@D+F8H
-F@D;@@
 FCIAddFile
 FCICreate
 FCIDestroy
@@ -3831,8 +1502,6 @@ FDICopy
 FDICreate
 FDIDestroy
 FFACE
-FH;FLv
-FHt1H
 FILLMODE
 FILTER
 FILTER_ANISOTROPIC
@@ -3871,8 +1540,7 @@ FILTER_MIN_MAG_MIP_POINT
 FILTER_MIN_MAG_POINT_MIP_LINEAR
 FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT
 FILTER_MIN_POINT_MAG_MIP_LINEAR
-FINFH
-FLt=A
+FLAT
 FOG must be a scalar
 FOGCOLOR
 FOGDENSITY
@@ -3881,28 +1549,17 @@ FOGEND
 FOGSTART
 FOGTABLEMODE
 FOGVERTEXMODE
-FP+FH
 FRC of add with integer can bypass add <| Explicit
 FRONT
-FX+F`
-FX;CX
-FXLCH
-FXLCt
 Failed compiling 10_level_9 PS version of the library function '%s'.
 Failed compiling 10_level_9 VS version of the library function '%s'.
 Failed to extract driver shader code.
 Failed to extract input signature.
 Failed to extract output signature.
 Failed to extract patch constant signature.
-Failed to log error, redirecting to debug output:
+Failed to log error, redirecting to debug output:\n
 Failed to parse shader using reference shader parser: 0x%x
 Fall-throughs in switch statements are not allowed.
-Fh+F`
-Fh+F`A
-Fh+F`Hc
-FhD9p
-FhD9x
-FhtCL
 FillMode
 Filter
 First arithmetic instruction cannot have co-issue ('+') set; there is no previous arithmetic instruction to pair with.
@@ -3914,56 +1571,27 @@ First source parameter for texld must be temp (r#) or texture coordinate input(t
 First source parameter for texld* must be temp (r#), input (v#) or constant (c#) register.
 First source parameter for texldl must be temp (r#), input (v#) or const (c#) register.
 Flag specified was exclusively a parse flag and not a compile flag
-Flagf
 Flags parameter is invalid
 Flags specified both compatibility and strict mode. These are mutually exclusive
 FlushViewOfFile
-For Compute Shader versions < 5_0, the element count for all Structured Thread Group Shared Memory declarations 
-For Compute Shader versions < 5_0, with %d threads in a group, at most %d bytes per thread of Thread Group Shared Memory 
+For Compute Shader versions < 5_0, the element count for all Structured Thread Group Shared Memory declarations \nmust be equal to the number of threads in the group (%d in this case).  %d elements were specified for g%d. 
+For Compute Shader versions < 5_0, with %d threads in a group, at most %d bytes per thread of Thread Group Shared Memory \ncan be declared (the amount is a function of how many threads there are).  This shader exceeds the limit at %d bytes per thread. \n
 For ps_1_2 or ps_1_3, the cmp or dp4 instructions cannot have a source register the same as the destination register.
 ForceDebuggable
 ForceShaderSkipOptimization
 Format
 Format for address register must be a0.x.
-Fp;Fhx
-FpD+FhH
 FreeLibrary
 FrontCounterClockwise
 FrontFaceStencilDepthFail
 FrontFaceStencilFail
 FrontFaceStencilFunc
 FrontFaceStencilPass
-FxA+FpHc
-G fA9FP
-G$2C$$
-G(+G 
-G(fff
-G08C0u
-G0A84
-G18C1u
-G28C2u
-G38C3
-G8I9G0t
-G@+B@
-G@+C@H
-G@9A@
-G@9B@s
-G@A9A@v	H
-G@A9F@
-G@H	C H
-G@H	C(H
-G@H	C0H
-G@HcD$xH
+FzX\v
 GAUSSIANQUAD
-GD9FD
+GCTL
 GEOMETRY
-GH+G@Hc
-GH9FH
-GHD8x2
-GL$HA
-GL$PA
 GOURAUD
-GPD;v r
 GREATER
 GREATEREQUAL
 GREATER_EQUAL
@@ -4022,255 +1650,18 @@ GetSamplePosition
 GetSystemInfo
 GetSystemTimeAsFileTime
 GetTickCount
-GhA+G`Hc
-GhD9@
-GhH9EH
-GhtCL
 Global flags already declared once.  Opcode #%d (count is 1-based). 
-Group shared data for %s must be an array of elements
-Group shared data for %s must have a count of elements (%u) equal to the number of threads in the thread group (%u)
-Group shared data for %s must have an element size (%u) of at most %u bytes when compiling for %u theads
+Group shared data for %s must be an array of elements\n
+Group shared data for %s must have a count of elements (%u) equal to the number of threads in the thread group (%u)\n
+Group shared data for %s must have an element size (%u) of at most %u bytes when compiling for %u theads\n
 GroupMemoryBarrier
 GroupMemoryBarrierWithGroupSync
-Gt$@M;
-Gw(Hc
-GxA+GpHc
-G|$8L9L$@H
-H	CpH
-H	D$0
-H I9X
-H USH
-H USVWATAVH
-H USWATAVH
-H UVWATAUAVAWH
-H UVWAUH
-H UVWAVH
-H!A H
-H!A I
-H!FhH
-H!FhH#
-H!X !X(
-H#D$0H
-H#D$0I
-H#D$xH
-H#E0H=
-H#FhH
-H$HcF<H
-H$IcC<H
-H(fE;S s
-H)\$XL
-H)\$pH+
-H+D$ u	H
-H+D$(3
-H+D$H
-H+E H
-H+]oH
-H+upM+
-H+|$HH
-H0	O0
-H0!O0
-H0)O0
-H01O0
-H09O0
-H0F0D
-H3D$pH
-H8D8l1
-H8E;K@r:A
-H9)t6;
-H9)uLA;
-H90u	H9x
-H90u$
-H90uR
-H97u(H
-H97uN
-H98u1
-H99tE3
-H9A tcL
-H9APsGff
-H9CPr
-H9D$ 
-H9D$ u8
-H9D$ uJHc
-H9D$P
-H9D$`
-H9D$ht4
-H9E8t
-H9E8ts
-H9EXw
-H9E_u
-H9Eht2H
-H9FPu
-H9FXv
-H9F`s
-H9Fxt
-H9GPt	H
-H9J(u
-H9Jhu
-H9Kxr
-H9KxsU
-H9Q u
-H9X@t`H
-H9\$0
-H9\$0L
-H9\$0u
-H9\$PuHH
-H9\$`uC
-H9^@uy
-H9_PH
-H9i0u
-H9l$8u
-H9l$PtK
-H9l$PtM
-H9l$PtY
-H9l$Pt\
-H9l$Xtz
-H9q v
-H9spu
-H9t$0
-H9t$8
-H9t$`u
-H9u@t H
-H9x@t!H
-H9y@t!H
-H9z(tI
-H9{(t
-H9{(t3
-H9{XH
-H9|$@uK
-H9|$Xt#H
-H9|$xu(
-H;1t+
-H;;uOH
-H;A0t
-H;C s#
-H;C u9L
-H;D$(u
-H;D$0t1M
-H;D$0u
-H;D$H
-H;D$P
-H;D$Pu
-H;D$X
-H;D$Xu
-H;D$`
-H;D$h
-H;E?r
-H;F@vcL
-H;H r
-H;J0t
-H;J8u
-H;L$X
-H;NXt	
-H;O sr
-H;O@s
-H;O@s	H
-H;O@vlD+G@L
-H;Q0t
-H;QXv
-H;UHuUH
-H;\$Xs
-H;]8uhA
-H;l$@
-H;p s	H
-H;t$p
-H;wxrTH
-H;wxs
-H;|$P
-H;|$X
-H@8Q9
-H@9J@
-H@@8{	t	H
-H@HcD$4
-HA]A\][
-HA]A\_^
-HA^A\^]
-HA^A]A\]
-HA^_^]
-HA_A\^]
-HA_A]A\^
-HA_A]^[
-HA_A^A\]
-HA_A^A]A\^]
-HA_A^A]A\_^
-HA_A^A]A\_^[]
-HA_A^A]A\_^][
-HA_A^A][
-HA_A^^]
-HA_A^_^[]
-HA__][
-HA__^[
 HLSL_VERSION
-HPQRAPAQH
-HXfff
-H_^[]
-H_^][
-Hc.D8~
-Hc@0H
-HcA<H
-HcA<L
-HcA@=
-HcA@H
-HcA@L
-HcAH=
-HcB<L
-HcC8L
-HcC<H
-HcCXH
-HcD$(
-HcD$0H
-HcD$4H
-HcD$@=
-HcD$@H
-HcD$@t
-HcD$DE3
-HcD$DH
-HcD$H
-HcD$PH
-HcD$PL
-HcD$TA
-HcD$XH
-HcD$d
-HcD$d3
-HcD$h
-HcD$h8
-HcD$pH
-HcD7T
-HcE\9D$`
-HcEoH
-HcEtH
-HcFTH
-HcFhH
-HcGtI
-HcGtL
-HcH<H
-HcL$@
-HcL$P
-HcL$PH
-HcL$`
-HcL$pH
-HcMwL
-HcP`L;
-HcQ A
-HcT$@H
-HcT$`H
-HcT$d
-HcT$pL
-HcT$xL
-HcVtI
-HcZ(E
-Hc\$@
-Hc]8H
-Hc]Pu*L
-Hc_<L
-HcqHE3
-Hcr0I
-Hct$0
-Hc|$4H
+HULL
 HeapAlloc
 HeapCreate
 HeapDestroy
 HeapFree
-HhH9q(H
 Hoist predicated code into outermost predicate <| Explicit
 Hull Shader Fork Phase Instance Count already declared in this phase. Aborting.  Opcode #%d (count is 1-based). 
 Hull Shader Fork Phase Instance Count must be [%d..%d].  %d specified.  Opcode #%d (count is 1-based). 
@@ -4295,22 +1686,6 @@ Hull Shader output control point ID already declared.  Opcode #%d (count is 1-ba
 Hull Shader output control point count already declared. Aborting.  Opcode #%d (count is 1-based). 
 Hull Shader output max tessfactor already declared. Aborting.  Opcode #%d (count is 1-based). 
 HullShader
-I	I(I	Y 3
-I"fD;
-I#F@H
-I#G@H
-I0G0E
-I8E9Y
-I9@Hu
-I9B(uYH
-I9I@u#H
-I9L/@M
-I9R@tIE
-I9X0u
-I9u(@
-I9w(t
-I;0t	
-I;I8~
 ID3D10Effect::ParseSODecl - Invalid output slot
 ID3D10Effect::ParseSODecl - Non-digit '%c' in output slot
 ID3D10Effect::ParseSODecl - invalid mask declaration '%s'
@@ -4502,9 +1877,8 @@ IDirect3DShaderValidator9::Instruction called out of order. After end token ther
 IDirect3DShaderValidator9::Instruction called with NULL == pdwInst or 0 == cdw.
 IEEE-safe mode clamps float literals to 32-bit values, %g is losing precision (this warning will only be shown once per compile)
 IGE a,a -> true <| MR.GenSimplifyInstructionsOpt1_NoExcl
-IL$hH
-ILDNt	
 ILT a,a -> false <| MR.GenSimplifyInstructionsOpt1_NoExcl
+INCR
 INCRSAT
 INCR_SAT
 INDEXEDVERTEXBLENDENABLE
@@ -4523,25 +1897,7 @@ INV_SRC1_ALPHA
 INV_SRC1_COLOR
 INV_SRC_ALPHA
 INV_SRC_COLOR
-ISG1H
-ISG1t
-ISG1t	A
-ISG1ty
-ISGNA
-ISGNH
-ISGNt
-ISGNt	
-ISGNu,H
 ISOLINE
-I`9K`s
-I`A9I`s
-IcA<H
-IcB0A
-IcB<B
-IcC<H
-IcC<I
-IcI<M
-Ic^,H
 Identifier invalid or not found (were you attempting a forward reference?)
 Illegal character in shader file
 Illegal initializer
@@ -4726,37 +2082,14 @@ Invalid src swizzle for %s source param.
 Invalid stream index s%d.  Index must be between 0 and %d Opcode #%d (count is 1-based). 
 Invalid texm* register.
 Invalid texm* sequence.
-IpI;Axu
 Isoline
 It is invalid to use eval_* on position input due to hardware limitation.  Opcode #%d (count is 1-based). 
-Iu^D;
-J4;J4ws3
-J8A9K@u"D
-J8A;I8A
-JYnde7
-JduoH
-JhL;Y(u
+JhKz
 Join phase declared the same component(s) of output patch constant register o[#d] as already declared for output by a previous fork phase or other joint phase.
 Join phase declaring component(s) of input patch constant register vpc[%d] which have not been output by previous fork phase(s) or other join phase(s).
-JwcHc
-K SAWH
-K SUVWAVH
-K SVWH
-K SWH
-K$f9H
-K(D+ylA
-K0H;H8
-K8+K0
-K8H;H0
-K@9J@
-K@;N@
+KEEP
 KERNEL32.dll
-KLMNOPQ
-KRNu 
-KnILk
 Known literals reduced to mov <| Explicit
-KxH;H
-K|+K(
 L REL A*(L2<0) (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 L REL A*(L2<0) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 L REL A*(L2>0) (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -4766,251 +2099,15 @@ L REL A*L2 where L2 > 0 divides L as an INT <| MR.GenSimplifyInstructionsOpt1_No
 L REL A*L2 where L2 divides L as a UINT <| MR.GenSimplifyInstructionsOpt1_NoExcl
 L REL A+A (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 L REL A+A <| MR.GenSimplifyInstructionsOpt1_NoExcl
-L!(L!h
-L!s H
-L!t$0H
-L$ +L$$t
-L$ @2
-L$ ATAUAVAWH
-L$ D;
-L$ E3
-L$ E;g0
-L$ H+
-L$ H3
-L$ H;
-L$ Ic
-L$ L+
-L$ Li
-L$ SAUAWH
-L$ SH
-L$ SUVATAUAVAWH
-L$ SUVAUAVH
-L$ SUVAVAWH
-L$ SUVWATAUAVH
-L$ SUVWATAUAWH
-L$ SUVWAUAVAWH
-L$ SVATAUAVAWH
-L$ SVH
-L$ SVW
-L$ SVWATAUAVH
-L$ SVWATAUAWH
-L$ SVWAUH
-L$ SVWH
-L$ SW
-L$ SWATAUAVH
-L$ SWAUH
-L$ SWH
-L$ UATAUAVAWH
-L$ USVAWH
-L$ USVWATAVAWH
-L$ USVWAVAWH
-L$ UVWATAUAVAWH
-L$ UVWAUAWH
-L$ UVWH
-L$ UWATAUAWH
-L$ UWATAVAWH
-L$ VATAUAVAWH
-L$ VAUAVAWH
-L$ VWAVH
-L$ VWH
-L$ WATAUAVAWH
-L$ WH
-L$ fD
-L$ fI
-L$ v~E3
-L$$+F
-L$$9O$
-L$$A;
-L$$D;
-L$$E2
-L$$E;
-L$(;D$$uYH
-L$(@2
-L$(A;
-L$(A;>
-L$(E2
-L$(E3
-L$(E;
-L$(HcK
-L$.fD
-L$09M
-L$0;M
-L$0;T$(
-L$0@"
-L$0A+
-L$0D;
-L$0E3
-L$0H3
-L$0H;
-L$0Hc
-L$0fA
-L$0ff
-L$0t"L
-L$4E3
-L$8A;
-L$8D;
-L$8E3
-L$8H3
-L$8H;L$Pr
-L$8I;
-L$8L+
-L$8fD
-L$8u3L
-L$<E3
-L$<Hk
-L$@9~
-L$@@2
-L$@A;
-L$@D;
-L$@E3
-L$@H3
-L$@H;
-L$@Hc
-L$@I;
-L$@LcD$H
-L$@fD
-L$DA;
-L$HA;
-L$HD+
-L$HD9
-L$HD;
-L$HE2
-L$HE3
-L$HH3
-L$HHc
-L$HI+
-L$HI;
-L$HfD
-L$Hu H
-L$IfD
-L$LfD
-L$P9N 
-L$P;N s
-L$P@2
-L$PA;
-L$PE3
-L$PH#
-L$PH+
-L$PH3
-L$PH;l$@
-L$PH=
-L$PL+
-L$Pfff
-L$TE3
-L$TH9]
-L$XA8]#t
-L$XD+
-L$XD;
-L$XD;j,s
-L$XE2
-L$XE3
-L$XE;
-L$XH#
-L$XH3
-L$XH;
-L$`;D$P
-L$`A;
-L$`D;d$L
-L$`E3
-L$`E;
-L$`H3
-L$`H;L$ht
-L$`L+
-L$`L;
-L$`tOA
-L$aE3
-L$d;L$h
-L$dA;
-L$dD9L$h
-L$dE3
-L$h;M
-L$hA;
-L$hD;
-L$hE3
-L$hH3
-L$hff
-L$hfff
-L$p@8t$2u3
-L$p@8t$Q
-L$pA;
-L$pD+
-L$pD;
-L$pE3
-L$pH3
-L$pH;
-L$pff
-L$pt3H
-L$t;H
-L$tfD;.
-L$x9iDuWH
-L$xD;
-L$xE3
-L$xH3
-L$xH9
-L$xHc
-L$xI;
-L$xL+
-L$xL9
-L&*H$_Z
-L)d$`H+
-L+l$HL
-L+l$Pff
-L+t$PD
-L+|$XI
-L0J0H
-L9+uC
-L9+uI
-L90tn
-L91tbM
-L93uD
-L93uH
-L9;uD
-L9@ t/I
-L9A`A
-L9AhA
-L9Apt<L
-L9Axt+L
-L9D$8I
-L9L$@H
-L9M`u'H
-L9Q u
-L9Y(uaH
-L9Z(u
-L9Z(uPH
-L9d$XuE
-L9ewt
-L9gPt
-L9iHu
-L9j(uFH
-L9l$P
-L9p(u
-L9q0u
-L9s0A
-L9t$x
-L9t$xt
-L9z(u>H
-L9z(u{H
-L9{`trL
-L9|$0
-L9|$8t
-L9|$8uW
-L9|$8uZ
-L9}Hu
-L9}Pt
-L;(t<
-L;x r
-L;~0L
 LASTBETA_D3DCOLOR
 LASTBETA_UBYTE4
 LASTPIXEL
 LCMapStringW
+LERP
 LERP(!A,B,C) -> LERP(A, C, B) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+LESS
 LESSEQUAL
 LESS_EQUAL
-LFS0H
-LFS0I
-LFS0t
-LFS0t9
 LF_ALIAS
 LF_ALIAS_ST
 LF_ARGLIST
@@ -5138,8 +2235,6 @@ LF_VFUNCOFF_16t
 LF_VFUNCTAB
 LF_VFUNCTAB_16t
 LF_VTSHAPE
-LIBFuUI
-LIBHt
 LIGHTAMBIENT
 LIGHTATTENUATION0
 LIGHTATTENUATION1
@@ -5161,19 +2256,6 @@ LINEDET
 LMIRSZWT
 LOCALVIEWER
 Label is defined inside a subroutine or main program. Label must follow the ret instruction. Aborting shader validation. 
-LcA<E3
-LcC(I
-LcD$@
-LcD$DD
-LcD$PL
-LcHHA
-LcI@D
-LcPhI
-LcQ@H
-LcT$(A
-Lc\$ A;
-Lc|$HH
-Ld$0L
 LeaveCriticalSection
 Legacy !A * (A + B) => !A * B <| MR.GenSimplifyInstructionsOpt1_NoExcl
 Legacy !A + (A + B) => 1 + B <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -5190,34 +2272,26 @@ LegacyLocalResourceArrays
 Length
 Level9
 Library entry points cannot be overloaded ('%s')
+Line
 LineStream
+List
 Literal floating-point value out of integer range for conversion: %f
 Literal floating-point value out of unsigned range for conversion: %f
 Literal in Log * Mul * Exp pattern <| Explicit
+Load
 Load2
 Load3
 Load4
 LoadLibraryExW
 LocalAlloc
 LocalFree
-M%A8}#t&A
-M(L9aHu
 M*x* matrix instructions cannot write to scalar output register.
 M*x* matrix instructions cannot write to scalar output registers (oFog, oPts).
-M0K0I
-M9(uMA
-M9)uI
-M90t]
-M9P(u
-M9X(u&I
-M9f@uI
-M9fptyI
-M9g t
-M9g0t
-M9g0u&M9g t M9g@t
-M9s(usH
-M; t	
-M;A0}
+M3x2
+M3x3
+M3x4
+M4x3
+M4x4
 MAGFILTER
 MATERIAL
 MATERIALAMBIENT
@@ -5229,7 +2303,7 @@ MAXANISOTROPY
 MAXLOD
 MAXMIPLEVEL
 MAXTESSELLATIONLEVEL
-MH9D$P
+MGiI
 MINFILTER
 MINTESSELLATIONLEVEL
 MIN_LINEAR_MAG_MIP_POINT
@@ -5253,8 +2327,6 @@ MODULATEALPHA_ADDCOLOR
 MODULATECOLOR_ADDALPHA
 MODULATEINVALPHA_ADDCOLOR
 MODULATEINVCOLOR_ADDALPHA
-MOPR1
-MOPR1402
 MSAA Sample Index must be a literal
 MSAA Sample Index must be in the range 0 to %u
 MULTIPLYADD
@@ -5273,34 +2345,16 @@ Maximum %s control point count (%u) exceeded (%u).
 Maximum of 3 cmp instructions allowed.
 Maximum of 4 dp4 instructions allowed.
 Maximum semantic index (%d) exceeded: %d
-McKhI
 Method and Parameters
 Microsoft
-Microsoft (R) D3D Shader Disassembler
+Microsoft (R) D3D Shader Disassembler\n
 Microsoft (R) D3DX9 Shader Assembler 10.1
 Microsoft (R) D3DX9 Shader Disassembler
 Microsoft (R) HLSL Shader Compiler 10.1
 Microsoft (R) Optimizing Compiler
 Microsoft (R) Shader Linker
-Microsoft C/C++ MSF 7.00
-Microsoft C/C++ program database 2.00
-Microsoft Code Signing PCA
-Microsoft Code Signing PCA 2010
-Microsoft Code Signing PCA 20100
-Microsoft Code Signing PCA0
-Microsoft Corporation0
-Microsoft Corporation1
-Microsoft Corporation1!0
-Microsoft Corporation1#0!
-Microsoft Corporation1&0$
-Microsoft Corporation1(0&
-Microsoft Corporation1200
-Microsoft Time-Stamp PCA
-Microsoft Time-Stamp PCA 2010
-Microsoft Time-Stamp PCA 20100
-Microsoft Time-Stamp PCA0
-Microsoft Time-Stamp Service
-Microsoft Time-Stamp Service0
+Microsoft C/C++ MSF 7.00\r\n
+Microsoft C/C++ program database 2.00\r\n
 Min precision not allowed on dest parameter.
 Min precision not allowed on predicate register.
 Min precision not allowed on predicate/loop/addr register.
@@ -5315,7 +2369,6 @@ Mismatch between shader declaration of 11.1 shader extensions and accompanying S
 Mismatch between shader declaration of double precision floats and accompanying Shader Feature Info blob (or lack thereof). Both the shader must declare double precision float use and a Shader Feature Info blob must specify the same thing as well, or neither should request it. 
 Mismatch between shader declaration of minimum precision and accompanying Shader Feature Info blob (or lack thereof). Both the shader must declare minimum precision use and a Shader Feature Info blob must specify the same thing as well, or neither should request it. 
 Mismatch between shader declaration of raw and structured buffers for shader 4_x and accompanying Shader Feature Info blob (or lack thereof). Both the shader must declare raw and structured buffer use and a Shader Feature Info blob must specify the same thing as well, or neither should request it. 
-Mo;C$
 More than 2 constants (even identical ones) cannot be read by an instruction. (There is one exception: this rule does not apply to the SINCOS instruction.)
 MostRecentApplication
 Mulitply by 1 reduces to no-op move <| Explicit
@@ -5335,11 +2388,9 @@ Multiply by 0 reduces to literal 0 <| Explicit
 Multiply by 2, 4, or 8 <| Explicit
 MultisampleEnable
 Must use texture register a dest param for tex* instructions.
-N D;K 
-N0L0J
-N=|)H
 NEVER
-NHF94
+NMLK
+NONE
 NOPQ9:?@H
 NORMAL
 NORMALDEGREE
@@ -5358,7 +2409,9 @@ NOT BUGE => BULT <| MR.GenSimplifyInstructionsOpt1_Excl
 NOT BULT => BUGE <| MR.GenSimplifyInstructionsOpt1_Excl
 NOTEQUAL
 NOT_EQUAL
+NULL
 NaN and infinity literals not allowed by shader model
+Name
 Named register components cannot appear to the left (xyzw order) of components that are not named in a given register. TessFactors are an exception. Affected register is input %d. 
 Named register components cannot appear to the left (xyzw order) of components that are not named in a given register. TessFactors are an exception. Affected register is output %d in stream m%d. 
 Named register components cannot appear to the left (xyzw order) of components that are not named in a given register. TessFactors are an exception. Affected register is output %d. 
@@ -5366,49 +2419,20 @@ Needs to be replaced with a real rule
 Negate modifier not allowed for operand #%d of opcode #%d (counts are 1-based). 
 Negative value compared with zero <| Explicit
 Negative values for cmp and clip can be rordered <| Explicit
-NhH;H`u
-NhI9NH
 No include handler specified, can't perform a #include. Use D3DX APIs or provide your own include handler.
 Non system-generated input signature parameter (%s) cannot appear after a system generated value.
 NonUniformResourceIndex
 Normal
 Not all elements of SV_Position were written
 Note that the %s component of %s%d was previously initialized, but then became uninitialized by a previous instruction (e.g. SINCOS clobbers components).
-Np+Nh
-NumDescriptors cannot be 0 (descriptor table slot [%u], root parameter [%u]).
+NumDescriptors cannot be 0 (descriptor table slot [%u], root parameter [%u]).\n
 Number of instruction slots used too high: %d. Max. allowed is %d.
 Numeric variables ('%s') can't be shared; share the containing cbuffer instead
-Nx+FxA
-O A9G8u
-O fA;
-O$IcA<B
-O0M0K
 O8T>[
-O@;H@
-OD9T$h
-OHH9K
-OL9JLu
 OMSetRenderTargets
-OSG1H
-OSG1t
-OSG1t#
-OSG1tA
-OSG1u
-OSG1u	
-OSG5t
-OSG5t	
-OSG5tC
-OSG5tF
-OSGNE3
-OSGNH
-OSGNt
-OSGNt	
-OSGNtE
-OX+OP
-O\2K\
 Objects not allowed in structures
 Odd Fractional
-OhA+O`Hc
+OfiD
 On current device, %s requires the condition%s parameter to be boolean constant register (b#). 
 On current device, %s requires the condition%s parameter to be predicate register (p0). 
 One of the instructions in a co-issue pair must write to alpha only (.a writemask).
@@ -5440,62 +2464,14 @@ Output variable
 OutputDebugStringA
 OutputPatch
 Outputs
-Overflow for descriptor range (descriptor table slot [%u], root parameter [%u])
-Overflow for shader register range: BaseShaderRegister=%u, NumDescriptor=%u; (descriptor table slot [%u], root parameter [%u]).
-Overflow of resource binding range
+Overflow for descriptor range (descriptor table slot [%u], root parameter [%u])\n
+Overflow for shader register range: BaseShaderRegister=%u, NumDescriptor=%u; (descriptor table slot [%u], root parameter [%u]).\n
+Overflow of resource binding range\n
 Overlapping input index range decl encountered.  Opcode #%d (count is 1-based). 
 Overlapping output index range decl encountered.  Opcode #%d (count is 1-based). 
-P	t	A
-P	u$H
-P	u$I
-P	u?A
-P	uBH
-P#upH
-P(fE;J s
-P4;O$r
 PASSTHRU
 PATCHEDGESTYLE
 PATCHSEGMENTS
-PA\_^[]
-PA]A\[
-PA]A\_
-PA]A\_][
-PA]_^
-PA^A\^
-PA^A\_^[
-PA^A\_^]
-PA^A]A\_^
-PA^A]^
-PA^A]_^[
-PA^][
-PA^^]
-PA^_[
-PA^_]
-PA^_^
-PA^_^][
-PA_A\^
-PA_A]A\_]
-PA_A]_^[
-PA_A^A\^[
-PA_A^A\_[
-PA_A^A\_^
-PA_A^A]A\_][
-PA_A^A]A\_^]
-PA_A^A]_^][
-PA_A^[
-PA_A^]
-PA_A^^][
-PA_A^_
-PA_A^_^]
-PA_^]
-PCSGA
-PCSGH
-PCSGt
-PCSGt	
-PCSGtB
-PCSGu>H
-PD8}P
-PERFt#A
 PHONG
 PIXEL
 PIXELSHADER
@@ -5507,12 +2483,6 @@ PIXELSHADERCONSTANT4
 PIXELSHADERCONSTANTB
 PIXELSHADERCONSTANTF
 PIXELSHADERCONSTANTI
-PLt'=
-PLt'A
-PLt/=
-PLt?A
-PLtO=
-PLusH
 POINT
 POINTSCALEENABLE
 POINTSCALE_A
@@ -5526,11 +2496,7 @@ POSITION
 POSITIONDEGREE
 POSITIONT
 PREMODULATE
-PRESH
-PREStpJ
 PRIMID
-PRIV@
-PRIVt
 PROJECTED
 PROJECTIONTRANSFORM
 PS Inner Coverage
@@ -5546,9 +2512,6 @@ PS output depth already declared.  Opcode #%d (count is 1-based).
 PS output depth already declared.  The previous declaration was of a different type.  Opcode #%d (count is 1-based). 
 PS output stencil ref already declared.  Opcode #%d (count is 1-based). 
 PS output stencil ref requires feature flag enableStencilRef.  Opcode #%d (count is 1-based). 
-PSG1E
-PSG1t
-PSG1t	
 PSIZE
 PSIZE must be a scalar
 PSize
@@ -5560,6 +2523,7 @@ Parameter(s) for %s instruction must specify default swizzle (.xyzw, or none spe
 Parameter(s) for %s instruction must specify default swizzle (.xyzw, or none specified.).  The exception is if the condition is the predicate register, p0, in which case a replicate swizzle must be used in order to select a component. i.e. .x | .y | .z | .w (or rgba equivalent)
 Parameters
 Partials
+Pass
 Patch Constant
 Patch constant signature name mismatch with declaration in shader code for component %d in register %d. 
 Patch constant signature parameter #%d (1-based) specifies out of range register %d. 
@@ -5593,45 +2557,22 @@ ProcessTriTessFactorsAvg
 ProcessTriTessFactorsMax
 ProcessTriTessFactorsMin
 Psize
-Q A9W
-Q fA;P s
-Q tHH
-Q(fA;P s
-Q,fA;P s
+QUAD
 QUADEDGE
 QUADINT
 QUADRATIC
 QUINTIC
-QZ^&E
-Q`H9P
 Qkkbal
 Quadrilateral
 QueryPerformanceCounter
-Qw-Ic
-R4A;V4A
-R8A;V8A
-R<A;V<A
-R@A;V@A
-RA+	3
 RANGEFOGENABLE
-RDEFH
-RDEFI
-RDEFt
-RDEFt	
-RDEFt,A
-RDEFtV
-RDEFtq
 REPLACE
 RESULTARG
 REVSUBTRACT
 REV_SUBTRACT
 RPCRT4.dll
-RPLYu0A
+RSDS
 RTINDEX
-RTS0@
-RTS0E
-RTS0t
-RTS0t8
 RWBuffer
 RWByteAddressBuffer
 RWStructuredBuffer
@@ -5643,7 +2584,6 @@ RWTexture1DArray
 RWTexture2D
 RWTexture2DArray
 RWTexture3D
-R`D;B
 Raster Ordered UAVs
 Rasterizer
 RasterizerOrdered objects are only allowed in 5.0+ pixel shaders
@@ -5669,7 +2609,6 @@ Reading from texture buffers is unsupported on %s
 Reading uninitialized value
 Redefinition of derivative, derivatives may only be assigned once.
 Redefinition of pass "%s"
-Redmond1
 Reference of register oDepth does mot match declaration (dcl_oDepthGE or dcl_oDepthLE).  Opcode #%d, operand #%d (counts are 1-based). 
 Reference of register oDepthGE does mot match declaration (dcl_oDepth or dcl_oDepthLE).  Opcode #%d, operand #%d (counts are 1-based). 
 Reference of register oDepthLE does mot match declaration (dcl_oDepth or dcl_oDepthGE).  Opcode #%d, operand #%d (counts are 1-based). 
@@ -5774,12 +2713,11 @@ Resource dimension and return type extended opcodes not expected on opcode #%d (
 Resource t%d already declared.  Opcode #%d (count is 1-based). 
 Resources being indexed cannot come from conditional expressions, they must come from literal expressions.
 RestartStrip
-RichZn
 Root descriptor flag values can only be 0 or flag enum values, found: '%s'
 Root descriptor flags cannot be specified for root_sig_1_0
-Root descriptor flags cannot specify more than one DATA_* flag at a time (root descriptor flags %x).
-Root parameter [%u] descriptor table entry [%u] specifies RegisterSpace=%#x, which is invalid since RegisterSpace values in the range [%#x,%#x] are reserved for system use.
-Root parameter [%u] specifies RegisterSpace=%#x, which is invalid since RegisterSpace values in the range [%#x,%#x] are reserved for system use.
+Root descriptor flags cannot specify more than one DATA_* flag at a time (root descriptor flags %x).\n
+Root parameter [%u] descriptor table entry [%u] specifies RegisterSpace=%#x, which is invalid since RegisterSpace values in the range [%#x,%#x] are reserved for system use.\n
+Root parameter [%u] specifies RegisterSpace=%#x, which is invalid since RegisterSpace values in the range [%#x,%#x] are reserved for system use.\n
 Root signature flag values can only be 0 or flag enum values, found: '%s'
 RootConstants
 RootFlags
@@ -5795,36 +2733,17 @@ RoundedDetailFactorr
 RoundedEdgeFactors
 RoundedInsideFactor
 RoundedInsideFactors
-RpI;Jxu
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S fA;P s
-S$9P$
 SAMPLE
 SAMPLER
-SATAUAVAWH
-SATAUAWH
-SAUAVAWH
 SCISSORTESTENABLE
-SCsNA
-SDBGH
-SDBGt
-SDTLE2
-SDTLH
-SDTLt
 SELECTARG1
 SELECTARG2
 SELECTMASK
 SEPARATEALPHABLENDENABLE
-SFI0A
-SFI0H
-SFI0t
-SFI0t	
-SFI0t5
 SGV must have scalar mask in declaration.  Opcode #%d (count is 1-based). 
-SGtOA
-SGv9A
 SHADEMODE
 SHADER_VISIBILITY_ALL
 SHADER_VISIBILITY_DOMAIN
@@ -5832,26 +2751,13 @@ SHADER_VISIBILITY_GEOMETRY
 SHADER_VISIBILITY_HULL
 SHADER_VISIBILITY_PIXEL
 SHADER_VISIBILITY_VERTEX
-SHDRt
-SHEXL
-SHEXs
-SHEXt
-SHEXt	
-SHEXu&L
-SHHcB
-SHwyt*=
 SLOPESCALEDEPTHBIAS
-SMIDH
-SMIDt
-SMIDt5A
 SOLID
-SPDBH
-SPDBI
-SPDBtl
 SPECULAR
 SPECULARENABLE
 SPECULARMATERIALSOURCE
 SPHEREMAP
+SPOT
 SRC1_ALPHA
 SRC1_COLOR
 SRCALPHA
@@ -5865,15 +2771,10 @@ SRC_COLOR
 SRGBTEXTURE
 SRGBWRITEENABLE
 SRV reference t%d must have a structure byte stride that is a multiple of 4 that is greater than 0 but no greater than %d when declared as structured (%d specified).  Opcode #%d (count is 1-based). 
-STATE
 STATEBLOCK
-STATH
 STATIC_BORDER_COLOR_OPAQUE_BLACK
 STATIC_BORDER_COLOR_OPAQUE_WHITE
 STATIC_BORDER_COLOR_TRANSPARENT_BLACK
-STATt
-STATt-
-STATtN
 STENCILENABLE
 STENCILFAIL
 STENCILFUNC
@@ -5882,49 +2783,7 @@ STENCILPASS
 STENCILREF
 STENCILWRITEMASK
 STENCILZFAIL
-SUATAUAVAWH
-SUATAUH
-SUAVAWH
-SUAVH
 SUBTRACT
-SUVATAWH
-SUVATH
-SUVAUH
-SUVAVH
-SUVWATAUAVAWH
-SUVWATAUAVH
-SUVWATAUAWH
-SUVWATAUH
-SUVWATAVAWH
-SUVWATAWH
-SUVWAUAVAWH
-SUVWAUAWH
-SUVWAUH
-SUVWAVAWH
-SUVWAVH
-SUVWAWH
-SUVWH
-SUWATAUAVAWH
-SUWATAUAVH
-SUWATAWH
-SUWAUAVH
-SUWAUH
-SVATAUAVH
-SVATAVH
-SVATAWH
-SVATH
-SVAUAVH
-SVAUAWH
-SVAWH
-SVWATAUAVH
-SVWATAUH
-SVWATAVH
-SVWATAWH
-SVWAUAVAWH
-SVWAUAVH
-SVWAUAWH
-SVWAVH
-SVWAWH
 SV_COVERAGE
 SV_ClipDistance
 SV_ClipDistance semantics cannot be used when using the clipplanes attribute
@@ -5974,15 +2833,6 @@ SV_Target0
 SV_TessFactor
 SV_VertexID
 SV_ViewportArrayIndex
-SWATAUAVAWH
-SWATAUAVH
-SWATAUH
-SWATAVAWH
-SWATAVH
-SWAUH
-SWAVAWH
-SWAVH
-SWAWH
 S_ALIGN
 S_ANNOTATION
 S_ANNOTATIONREF
@@ -6180,7 +3030,7 @@ SampleGrad
 SampleLevel
 Sampler
 Sampler %s%d already declared. 
-Sampler descriptor ranges can't specify DATA_* flags since there is no data pointed to by samplers (descriptor range flags %x).
+Sampler descriptor ranges can't specify DATA_* flags since there is no data pointed to by samplers (descriptor range flags %x).\n
 Sampler parameter must come from a literal expression.
 Sampler register s# must be defined for each static sampler
 Sampler register s%d has not been declared.
@@ -6189,7 +3039,7 @@ Sampler variable '%s' does not specify the sampler type.  Explicit sampler types
 Sampler: s%u
 SamplerComparisonState
 SamplerState
-Samplers cannot be mixed with other resource types in a descriptor table (root parameter [%u]).
+Samplers cannot be mixed with other resource types in a descriptor table (root parameter [%u]).\n
 Samplers: s%u-s%u
 Saturate modifier not permitted for opcode #%d (counts are 1-based). 
 Scalar output register must have full write mask.
@@ -6225,28 +3075,29 @@ SetPixelShader
 SetRasterizerState
 SetUnhandledExceptionFilter
 SetVertexShader
-Shader CBV descriptor range (RegisterSpace=%u, NumDescriptors=%u, BaseShaderRegister=%u) is not fully bound in root signature
+Shader CBV descriptor range (RegisterSpace=%u, NumDescriptors=%u, BaseShaderRegister=%u) is not fully bound in root signature\n
 Shader Model 5+ requires that subroutine definitions appear after any call(s) to the subroutine. This also implies recursion is not allowed, although that may or may not be the case here.  Aborting. Opcode #%d (count 1-based).
-Shader SRV descriptor range (RegisterSpace=%u, NumDescriptors=%u, BaseShaderRegister=%u) is not fully bound in root signature
+Shader SRV descriptor range (RegisterSpace=%u, NumDescriptors=%u, BaseShaderRegister=%u) is not fully bound in root signature\n
 Shader UAV descriptor range (RegisterSpace=%u, NumDescriptors=%u, BaseShaderRegister=%u) is not fully bound in root signature
 Shader extensions for 11.1
-Shader has root bindings but root signature uses a DENY flag to disallow root binding access to the shader stage.
+Shader has root bindings but root signature uses a DENY flag to disallow root binding access to the shader stage.\n
 Shader has too much flow control complexity for the target (%s). 
 Shader missing end token.
 Shader model %s doesn't allow reading from position semantics.
 Shader model %s is not allowed in D3D10 techniques
-Shader register range of type %s %s overlaps with another shader register range %s.
-Shader sampler descriptor range (RegisterSpace=%u, NumDescriptors=%u, BaseShaderRegister=%u) is not fully bound in root signature
+Shader register range of type %s %s overlaps with another shader register range %s.\n
+Shader sampler descriptor range (RegisterSpace=%u, NumDescriptors=%u, BaseShaderRegister=%u) is not fully bound in root signature\n
 Shader uses texture addressing operations in a dependency chain that is too complex for the target shader model (%s) to handle.
 Shader uses texture addressing operations in a dependency chain that is too complex for the target shader model (%s) to handle.  
 Shader uses too many (%u) indexable literal values, the maximum allowed is %u, consider using less constant arrays
 Shader@0x%p
 ShaderFeatureInfo blob must not specify 4x raw and structured buffers for Compute Shaders, or for any shader 5_0+.
-Shaders compiled for %s can only have a single group shared data item
+Shaders compiled for %s can only have a single group shared data item\n
 Simplify cmp sequences on possibly NaN/Inf values <| Explicit
 Simplify conditions on instructions which only care about sign on possibly NaN/Inf values <| Explicit
 Simplify integer fraction on possibly NaN/Inf values <| Explicit
 Simplify pow on possibly NaN/Inf values <| Explicit
+Size
 Sleep
 SlopeScaledDepthBias
 Software\Microsoft\Direct3D\Direct3D12
@@ -6308,100 +3159,26 @@ Subroutine label number: %d already defined earlier. Aborting shader validation.
 Subroutine with label #%d called, but never defined.
 Sum of temp registers and indexable temp registers exceeds limit of %d..  Opcode #%d (count is 1-based). 
 Sum of temp registers and indexable temp registers exceeds limit of %d..  Opcode #%d (count is 1-based). Aborting. 
-Sum of temp registers and indexable temp registers exceeds limit of %u
+Sum of temp registers and indexable temp registers exceeds limit of %u\n
 Swizzle
 Swizzle not permitted on source parameters to CRS.
 Swizzle not permitted on source paramters to CRS.
-SwkHc
 SymbolServerSetOptions
 SymbolServerStoreFileW
 SymbolServerW
-S|9{ht
-S|I9~@t!H
-T$ D3
-T$ D;U
-T$ E2
-T$ E3
-T$ H;
-T$$D;
-T$(A;
-T$(D9L$xu_A
-T$(E2
-T$(E3
-T$(H;
-T$(Hc
-T$(ff
-T$0A;E@
-T$0E3
-T$0H;
-T$0t$
-T$0w9H
-T$8;T$@r
-T$8;T$@s#D
-T$8@8o(
-T$8A;
-T$8D;
-T$8E2
-T$8E3
-T$8H;
-T$@A;
-T$@D9p
-T$@E3
-T$@Hc
-T$@fD
-T$AHc
-T$AfD
-T$HE2
-T$HE3
-T$HI;
-T$Hff
-T$LE;
-T$LHk
-T$PD;
-T$PE3
-T$PE;
-T$PHc
-T$Pt|H
-T$T;U
-T$XD;
-T$XE2
-T$XE3
-T$XE9
-T$XH9
-T$XHc
-T$XL+
-T$\A;
-T$\D+
-T$`@2
-T$`D9
-T$`D;
-T$`E3
-T$`Hc
-T$bD;
-T$hD8
-T$hD;z
-T$hE2
-T$hE3
-T$hH;
-T$hI;
-T$lD8d$`u9
-T$pA;
-T$pE3
-T$pHc
-T$pL;
-T$t9T$D
-T$tB;
-T$x@2
-T$xA9
-T$xA;
-T$xD9
-T$xD;
-T$xE3
-T$xLi
-T+(F;
 TANGENT
 TARGET
+TEMP
 TESSFACTOR
+TEX0
+TEX1
+TEX2
+TEX3
+TEX4
+TEX5
+TEX6
+TEX7
+TEX8
 TEXCOORD
 TEXCOORDINDEX
 TEXCOORDSIZE1_0
@@ -6451,6 +3228,7 @@ TEXT_1BIT
 TFACTOR
 TRIEDGE
 TRIINT
+TRUE
 TWEENFACTOR
 TWEENING
 TWOSIDEDSTENCILMODE
@@ -6570,7 +3348,7 @@ The only modifier allowed for source predicate p0 is the not (!) modifier.
 The only valid modifiers for the first source parameter of lrp are: reg (no mod) or 1-reg (complement).
 The only valid write masks for the FRC instruction are .xy and .y.
 The setp instruction must write to the predicate register.
-The total amount of group shared memory (%u bytes) exceeds the %s limit of %d bytes
+The total amount of group shared memory (%u bytes) exceeds the %s limit of %d bytes\n
 There was a problem getting annotations
 There was an error compiling HLSL shader variable
 There was an error compiling expression
@@ -6623,12 +3401,6 @@ Try to match temp array loads to their original store <| Explicit
 Try to reduce known values to movs <| Explicit
 Tunnel through temp arrays on load <| Explicit
 Typed UAV Load Additional Formats
-U8fff
-U8tSI
-UATAUAVAWH
-UATAUAWH
-UAUAVAWH
-UAUAVH
 UAV reference u%d has invalid flag.  Opcode #%d (count is 1-based). 
 UAV reference u%d must have a structure byte stride that is a multiple of 4 that is greater than 0 but no greater than %d when declared as structured (%d specified).  Opcode #%d (count is 1-based). 
 UAV reference u%d specified with invalid flag.  Opcode #%d (count is 1-based). 
@@ -6638,73 +3410,15 @@ UAV register (u%u) used more than once
 UAV requires a 'u' register
 UAV u%d already declared.  Opcode #%d (count is 1-based). 
 UAV-related
-UAVAWH
+UAVs
 UAVs at every shader stage
 UAVs must be declared in slots greater than PS outputs.  UAV declared in slot %d while output declared in slot %d.  Opcode #%d (count is 1-based). 
 UGE a,a -> true <| MR.GenSimplifyInstructionsOpt1_NoExcl
+UINT
 ULT a,a -> false <| MR.GenSimplifyInstructionsOpt1_NoExcl
+UNKN
 UNKNOWN
-USATAWH
-USATH
-USAUH
-USAVH
-USAWI
-USVATAUAVAWH
-USVATAUH
-USVWATAUAVAWH
-USVWATAUAVH
-USVWAUAVH
-USVWAUAWH
-USVWAUH
-USVWAUI
-USVWAVH
-USVWAWI
-USVWH
-USVWI
-USWATAUAVH
-USWATAUH
-USWATAVAWH
-USWATH
-USWATI
-USWAVAWH
-USWAVI
-USWAWH
-UUUU+
-UUUUH
-UUUUL
-UUUUUUU
-UVATAUAVH
-UVATAVAWH
-UVATAVH
-UVAUAVAWH
-UVAUAVH
-UVAUAWI
-UVAUH
-UVAVAWH
-UVAVH
-UVAWH
-UVAWI
-UVWATAUAVAWA
-UVWATAUAVAWH
-UVWATAUAVH
-UVWATAUH
-UVWATAVH
-UVWATAWH
-UVWATH
-UVWAUAVAWH
-UVWAUAVH
-UVWAUAWH
-UVWAUH
-UVWAVAWH
-UVWAVAWI
-UVWAVH
-UWATAUAVAWH
-UWATAUAWH
-UWATAVAWH
-UWAUH
-UWAVAWH
-UWAVH
-UWAWH
+USEW
 Unable to calculate derivative of %s. %s
 Unable to create warning string
 Undefined
@@ -6749,13 +3463,13 @@ UnroundedInsideFactor
 UnroundedInsideFactors
 Unsigned integer divide by zero
 Unsized MSAA textures aren't supported on this target
-Unsupported ParameterType value %u (root parameter %u)
-Unsupported RangeType value %u (descriptor table slot [%u], root parameter [%u]).
-Unsupported ShaderVisibility value %u (root parameter [%u]).
-Unsupported ShaderVisibility value %u (static sampler [%u]).
-Unsupported bit-flag set (descriptor range flags %x).
-Unsupported bit-flag set (root descriptor flags %x).
-Unsupported bit-flag set (root signature flags %x).
+Unsupported ParameterType value %u (root parameter %u)\n
+Unsupported RangeType value %u (descriptor table slot [%u], root parameter [%u]).\n
+Unsupported ShaderVisibility value %u (root parameter [%u]).\n
+Unsupported ShaderVisibility value %u (static sampler [%u]).\n
+Unsupported bit-flag set (descriptor range flags %x).\n
+Unsupported bit-flag set (root descriptor flags %x).\n
+Unsupported bit-flag set (root signature flags %x).\n
 Unsupported function parameter "%s" type.
 Unsupported function parameter ("%s") type.
 Unsupported texture type for %s
@@ -6765,17 +3479,6 @@ Using a temp register (r#) as source for texld requires component selector .xyz(
 Using a texture coordinate register (t#) as source for texld requires component selector .xyw(=.rga), or .xyz(=.rgb). Note: Using no selector is treated same as .xyz here.
 Using sampler arrays with texture objects on DX9 targets is not yet implemented.
 UuidCreate
-UwA;S
-V	L;O
-V fA;P s
-V$v[H
-V(t&H
-VATAUAVAWH
-VATAVAWH
-VATAWH
-VAUAVH
-VAUAWH
-VAVAWH
 VERTEX
 VERTEXBLEND
 VERTEXSHADER
@@ -6791,20 +3494,9 @@ VERTID
 VFACE
 VFace
 VIEWTRANSFORM
-VLt =
-VLt(=
-VLt*A
-VLtOL
 VPINDEX
-VWATAUAVAWH
-VWATAUAVH
-VWATAUAWH
-VWATAVAWH
-VWAUAVAWH
-VWAUH
-VWAVH
-VWAWH
-VWXYZ[
+VPOS
+VPos
 Validation Error: %s
 Value
 Values
@@ -6833,20 +3525,9 @@ Vertex shader output is not permitted to be dcl'd with the usage+index positiont
 VertexShader
 VirtualAlloc
 VirtualFree
-VptkH
-W IcA<B
-W$A;W r
-W4A;V4A
-W8A;V8A
-W<A;V<A
-W@A;V@A
-WATAUAVAWH
-WATAVH
-WATAWH
-WAUAVH
-WAVAWH
 WIREFRAME
 WORLDTRANSFORM
+WRAP
 WRAP0
 WRAP1
 WRAP10
@@ -6863,8 +3544,6 @@ WRAP6
 WRAP7
 WRAP8
 WRAP9
-Washington1
-WhL9aH
 When a %s shader writes to oCn, it must write to all of oC(n-1) down to oC0 (no gaps).
 When a phase marker is present in a shader, texdepth is only permitted after the phase marker.
 When a phase marker is present in a shader, texkill is only permitted after the phase marker.
@@ -6894,225 +3573,58 @@ Write to oDepth register must not specify any writemask. (Note, this is equivale
 WriteFile
 Writemask cannot be empty.
 Writemask for bem must be '.rg'
-Wxu-H
-Wxu=H
 X AND Y : if( and_is_identity(x,y) => X <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X AND Y : if( and_is_identity(y,x) => Y <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X AND ~X => 0 <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X OR Y : if( or_is_identity(x,y) => X <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X OR Y : if( or_is_identity(y,x) => Y <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X OR ~X => btrue <| MR.GenSimplifyInstructionsOpt1_NoExcl
-X UVWATAUAVAWH
-X VWATAUAWH
 X,Y,Z
-X5}[2
-XA^A\
-XA^A]^]
-XA^_^[
-XA_A\
-XA_A\^[
-XA_A]
-XA_A]A\_
-XA_A]A\_^[
-XA_A]_[
-XA_A^A\]
-XA_A^A]A\][
-XA_A^A]A\_[
-XA_A^A]A\_^][
-XA_A^A][
-XA_A^A]^
-XA_A^A]_^[
-XA_A^A]_^]
-XA_A^^]
-XA_A^_[
-XA_A^_]
-XA_A^_^][
-XA_^][
-XA__][
-XD$(f
-XFt.=
-XFt6=
-XFueH
 XNA Prepass
-XNASI
-XTt!=
-XTu*I
-XTuSI
-XTufL
 XYZB1
 XYZB2
 XYZB3
 XYZB4
 XYZB5
 XYZRHW
-X_^][
-X~rsG\DH
-YD$ =
-YD$ H
-YT$ H
+XYZW
 ZENABLE
+ZERO
 ZFUNC
 ZWRITEENABLE
-Zdu(L
 Zero character semantics aren't allowed
-[ UVAWH
+Zjz\v
 [%8I64u] 
-[%s%d.%c]
 [%s%d[%s].%c]
-[%s.%c]
 [%s[%s].%c]
 [%s[%u + %s].%c]
 [%s[%u].%c]
-[,fE;J s
-[RootSignature(%s)]void ___DummyMainForRS(){}
 [internal error]
-\$ A;
-\$ AVH
-\$ D3
-\$ E3
-\$ H+
-\$ H;
-\$ UATAUAVAWH
-\$ UATAVH
-\$ UAVAWH
-\$ UH
-\$ UVAWH
-\$ UVWATAUAVAWH
-\$ UVWATAVH
-\$ UVWATAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ UWATAUAWH
-\$ UWATAVAWH
-\$ UWAUAVAWH
-\$ UWAVH
-\$ UWAWH
-\$ VAT
-\$ VH
-\$ VW2
-\$ VWAUAVAWH
-\$ VWAVH
-\$ VWAWH
-\$ WATAWH
-\$ WAVAWH
-\$ WH
-\$(+\$ H
-\$(A_A^^]
-\$(E3
-\$(E;
-\$(H;\$@r
-\$(fA
-\$,8\$0
-\$,8\$0t(M
-\$,8\$0t+H
-\$,fD
-\$09_0
-\$09_0t
-\$09_0u
-\$0;D$@s
-\$0@2
-\$0A;
-\$0A\^
-\$0D+
-\$0D;
-\$0E3
-\$0E;
-\$0I+
-\$0L;
-\$0_^
-\$0t'H
-\$0uNH
-\$4E;
-\$8A+
-\$8E3
-\$8E;
-\$8H;
-\$8fD
-\$<E;g0
-\$<L+
-\$<fD
-\$@@2
-\$@A_A^A]A\_^]
-\$@D8
-\$@E3
-\$@H+
-\$@H97@
-\$@L;
-\$HA9y
-\$HA;
-\$HD;
-\$HE3
-\$HE;
-\$HH9
-\$HL;
-\$HL;|$p
-\$LfD
-\$PD;
-\$PE2
-\$PE3
-\$PE;
-\$PHc
-\$PHc\$`H
-\$PfE;S s
-\$Pt6A
-\$XA9\$
-\$XE3
-\$XE;
-\$XH92
-\$`E3
-\$`Hc
-\$`I+
-\$`t H
-\$hE2
-\$hE3
-\$hE;
-\$hH+
-\$hf;
-\$lD;
-\$p9}
-\$p@2
-\$pA9
-\$pE3
-\$pfA
-\$pu0H
-\$pu1
-\$tt,H
-\$xE3
-\$xH9
-\$xL+
-\$xM;
-\$|8]
-\5s[2
-\]^_\
-\u;H;
-],A;\$
-]XA9u,
-]x9}p
-^(t@H
-^@fD9c
-^d<sk
-_%d_%d.
-_(IcA<B
-_(t4H
+\n    NULL,\n
+\n    asm {\n\n
+\n// <internal error> incorrect instruction offset in debug info\n
+\n// <internal error> incorrect scalar offset in debug info\n
+\n// <internal error> incorrect token offset in debug info\n
+\n// <internal error> incorrect variable offset in debug info\n
+\n// <internal error> too many instruction outputs in debug info\n
+\n// approximately %u instruction%s used\n
+\n// | Table ID |         |
+\n\n[RootSignature(%s)]void ___DummyMainForRS(){}\n
+\nvoid main(
 _CxxThrowException
-_Pf9C
-_XH;_Hu
 _XcptFilter
 __%s_n%u_%u
 __C_specific_handler
 __CxxFrameHandler3
-__FILE__
-__LINE__
 ___DummyMainForRS
 __dllonexit
-__fx_2_0__
-__imp_
 __isascii
 __test_intrin1
 __test_intrin2
 __test_intrin3
 __test_intrin4
 __unDName
+_abs
 _amsg_exit
 _aoffimmi
 _atoi64
@@ -7120,6 +3632,7 @@ _bias
 _binormal
 _blendindices
 _blendweight
+_bx2
 _bx2 cannot be used on src register for texbem or texbeml instructions.
 _bx2 cannot be used on src register for texreg2ar or texreg2gb instructions.
 _bx2 is a valid src mod for texM* instructions only (%s source param).
@@ -7144,8 +3657,10 @@ _errno
 _filelengthi64
 _fileno
 _finite
+_fog
 _fpclass
 _get_osfhandle
+_glc
 _indexable
 _initterm
 _isnan
@@ -7156,6 +3671,7 @@ _mbstrlen
 _memicmp
 _normal
 _onexit
+_opc
 _open_osfhandle
 _position
 _positiont
@@ -7163,7 +3679,9 @@ _psize
 _purecall
 _rcpfloat 
 _read
+_rov
 _sample
+_sat
 _sat not permitted on tex* instructions.
 _sat not permitted with SINCOS instruction.
 _sat not permitted with frc instruction.
@@ -7195,47 +3713,11 @@ _wmakepath_s
 _write
 _wsopen
 _wsplitpath_s
-` AUAVAWH
-`.rdata
-`A\_[
-`A]A\_[]
-`A][]
-`A^A\_^[
-`A^A\_^]
-`A^A]A\_[
-`A^A]A\_^
-`A^A]_][
-`A^^]
-`A^_[
-`A^_]
-`A_A\^
-`A_A\_
-`A_A\_^]
-`A_A]A\_^
-`A_A]A\_^][
-`A_A]]
-`A_A]_^]
-`A_A^A\_^][
-`A_A^A]
-`A_A^A]A\]
-`A_A^A]A\_^]
-`A_A^A]_^
-`A_A^A]_^][
-`A_A^]
-`A_A^^
-`A_A^_
-`A_A^_^[
-`A_A^_^]
-`A_^[
-`A_^]
-`A__]
-`Ge`@N
 `OTHER
 `PACKED
 `Rs%a
 `TEMP
 `UUe?
-`abc`
 a + (F - a) -> append_arg(F) <| SMR.RangeDataAnalysis
 a + -a -> append_arg(0) <| SMR.RangeDataAnalysis
 a << L | b (bfi(w=32-L, o=L, a, b) if( mask_is_zero(w, o, b) && allbutwidth_is_zero(w, a) -> imad (a, 1 << L, B) <| MR.GenMad
@@ -7263,6 +3745,7 @@ abs(a), a positive -> a <| MR.GenSimplifyInstructionsOpt1_NoExcl
 abstract interfaces not supported on %s
 abstract interfaces not supported on %s, interface references must resolve to specific instances
 accum
+acos
 acos float_literal <| SFPS
 acos fp_flags <| SFPS
 acos fp_range <| SFPS
@@ -7327,6 +3810,7 @@ asdouble can only be used on uint values on %s
 asfloat
 asfloat can only be used on floating point values on %s
 asfloat cannot be used on min precision values
+asin
 asin float_literal <| SFPS
 asin fp_flags <| SFPS
 asin fp_range <| SFPS
@@ -7335,12 +3819,12 @@ asint
 asint cannot be used on %s
 asint cannot be used on min precision values
 asm blocks have not yet been implemented
-asm {
 asm_fragment
 asuint
 asuint can only be used on double values on %s
 asuint cannot be used on %s
 asuint cannot be used on min precision values
+atan
 atan float_literal <| SFPS
 atan fp_flags <| SFPS
 atan fp_range <| SFPS
@@ -7351,6 +3835,8 @@ atan2 float_literal <| SFPS
 atan2 fp_flags <| SFPS
 atan2 fp_range <| SFPS
 atan2 fp_specials <| SFPS
+atof
+atoi
 atomic_and
 atomic_and fp_flags <| SFPS
 atomic_cmp_store
@@ -7372,17 +3858,16 @@ atomic_xor fp_flags <| SFPS
 attempt to group scalar values read by similar instructions <| Explicit
 attribute %s expects the %s parameter to be a %s
 attribute evaluation can only be done on values taken directly from inputs
+auto
 b = ubfe(w, o, a); movc(b & (1 << (w - 1 + o)), b | ~((1 << w + o)-1), b) -> ibfe(w, o, a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 b = ubfe/ushr(a,o), movc((a >> o) & iv_pow2, b | -iv_pow2) -> ibfe(get_first_bit(iv_pow2), 0, a) <| MR.GenD3D10_OptimizeEarlyTranslate
 b = ubfe/ushr(a,o), movc((b >> o) & iv_pow2, bfi(w, 0, b, -iv_pow2)) -> ibfe(get_first_bit(iv_pow2), 0, a) <| MR.GenD3D10_OptimizeEarlyTranslate
 b | (a & c) | (a & d) -> or(b, and(a, or(c,d)) <| MR.GenSimplifyInstructionsOpt1_Excl
 b%d already def'd in the shader. 
 b%d must only be defined as true (0x00000001) or false (0x00000000). 
-b8M	G
 back-propagate negate through iadd <| MR.GenSimplifyInstructionsOpt1_Excl
 back-propagate negate through imul <| MR.GenSimplifyInstructionsOpt1_Excl
 base type is not a struct, class or interface
-bcdef
 bdeq fp_flags <| SFPS
 bdeq int_literal <| SFPS
 bdeq int_range <| SFPS
@@ -7420,15 +3905,19 @@ bge fp_flags <| SFPS
 bge int_literal <| SFPS
 bge int_range <| SFPS
 bge(mul(x,x),neg(mul(x,x))) -> true <| MR.GenSimplifyInstructionsOpt1_NoExcl
+bias
 bias amount for sample_b must be in the range [%f,%f], but %f was specified as an immediate. Opcode #%d, operand #%d (counts are 1-based). 
+bieq
 bieq bits_known <| SFPS
 bieq fp_flags <| SFPS
 bieq int_literal <| SFPS
 bieq int_range <| SFPS
+bige
 bige bits_known <| SFPS
 bige fp_flags <| SFPS
 bige int_literal <| SFPS
 bige int_range <| SFPS
+bilt
 bilt bits_known <| SFPS
 bilt fp_flags <| SFPS
 bilt int_literal <| SFPS
@@ -7436,6 +3925,7 @@ bilt int_range <| SFPS
 binary expression with negative symmetry reduction <| MR.GenSimplifyInstructionsOpt1_NoExcl
 bind semantics cannot be specified for this object
 bind_load(chain, value) -> o->append_sources(chain) <| SMR.DataFlagAnalysis
+bine
 bine bits_known <| SFPS
 bine for isfinite on finite -> true <| MR.GenSimplifyInstructionsOpt1_NoExcl
 bine fp_flags <| SFPS
@@ -7453,6 +3943,7 @@ blt int_range <| SFPS
 bne fp_flags <| SFPS
 bne int_literal <| SFPS
 bne int_range <| SFPS
+bool
 bool ? a + 1 : a -> a - bool <| MR.GenSimplifyInstructionsOpt1_NoExcl
 bool ? a - 1 : a -> a + bool <| MR.GenSimplifyInstructionsOpt1_NoExcl
 bool multiply chain reduction <| Explicit
@@ -7501,8 +3992,10 @@ breakc
 breakp
 breakp requires parameter to be predicate register (p0). 
 bsearch
+btof
 btof -> movc <| MR.GenSimplifyInstructionsOpt1_NoExcl
 btof fp_flags <| SFPS
+btoi
 btoi -> movc <| MR.GenSimplifyInstructionsOpt1_NoExcl
 btoi bits_known <| SFPS
 btoi fp_flags <| SFPS
@@ -7513,16 +4006,18 @@ buffer requires a 't' register
 bufinfo
 bufinfo fp_flags <| SFPS
 bufinfo requires resource declared as Buffer, Raw Buffer or Structured Buffer.  Opcode #%d, operand #%d (counts are 1-based). 
+buge
 buge bits_known <| SFPS
 buge fp_flags <| SFPS
 buge int_literal <| SFPS
 buge int_range <| SFPS
+bult
 bult bits_known <| SFPS
 bult fp_flags <| SFPS
 bult int_literal <| SFPS
 bult int_range <| SFPS
+byte
 byteOffset
-b{VpuOg
 c%d already def'd in the shader. 
 c1, c2, c3, c4, c5, c6
 calclod1d fp_flags <| SFPS
@@ -7539,11 +4034,11 @@ calclodcube fp_flags <| SFPS
 calclodcube_a fp_flags <| SFPS
 calclodcube_u fp_flags <| SFPS
 calclodcube_u_a fp_flags <| SFPS
+call
 call, callnz, label, and ret instructions are not allowed in assembly fragments
 call/callc statement not referencing a label.  Opcode #%d (count 1-based).
 callc
 callnz
-can be declared (the amount is a function of how many threads there are).  This shader exceeds the limit at %d bytes per thread. 
 can't emit if statement with both gradients and program flow control
 can't flatten if statements that contain out of bounds array accesses
 can't flatten if statements that contain side effects
@@ -7578,17 +4073,20 @@ cannot mix packoffset elements with nonpackoffset elements in a cbuffer
 cannot sample from non-floating point texture formats.
 cannot unroll loop with an out-of-bounds array reference in the condition
 cannot use casts on l-values
+case
 case %d (or if bits to be interpreted as float: %f) already seen. Opcode #%d (count 1-based).
 case fp_flags <| SFPS
 case ordinal too large for floating point representation
 case statement doesn't match to the scope of a switch statement. Opcode #%d (count 1-based). Aborting validation.
 catch
+cbuf
 cbuffer
 cbuffer bank %u used more than once
 cbuffer register (b%u) used more than once
 cbuffer register b#
 cbuffer requires a 'b' register
 cbuffers cannot have the same name ('%s') in a library
+ceil
 ceil float_literal <| SFPS
 ceil fp_flags <| SFPS
 ceil fp_range <| SFPS
@@ -7619,6 +4117,7 @@ cl = fcbody_end(ci, ch) -> append_arg(ci, ci_p, ch) <| SMR.DataFlagAnalysis_Plac
 clamp
 class
 classes and interfaces are not supported in libraries
+clip
 clip can only be used with 1 to 4 components in %s
 clip cannot be performed from a constant or literal
 clip must be performed from a float3 vector for ps_1_x models
@@ -7711,6 +4210,7 @@ cos float_literal <| SFPS
 cos fp_flags <| SFPS
 cos fp_range <| SFPS
 cos fp_specials <| SFPS
+cosh
 could not cast condition to boolean
 could not cast condition to uint
 couldn't cast expression to boolean for logical not operator
@@ -7723,73 +4223,14 @@ countbits fp_flags <| SFPS
 countbits int_literal <| SFPS
 countbits(i) -> and/shift/add sequence <| MR.Gen_RequiredTranslate
 cross
-cs_%d_%d
 cs_4_0
 cs_4_1
 cs_5_0
 cs_5_1
+cube
 cubearray
 cull_distance
 cut_stream
-d$ D;
-d$ E3
-d$ H;
-d$ Lc
-d$ UAVAWH
-d$(;T$ v
-d$(;oP
-d$(D;
-d$(E3
-d$(Hc
-d$09{(u
-d$0A;
-d$0E3
-d$0E;
-d$0I;
-d$0u2E
-d$4E;
-d$8A9y
-d$8A;
-d$8E3
-d$<D8d$@t
-d$<E;
-d$@E3
-d$@ff
-d$HA;
-d$HD9
-d$HE3
-d$HE;
-d$HL;
-d$P9{ v{H
-d$PD9e
-d$PE3
-d$XE2
-d$XE3
-d$XL;|$p
-d$\D8a
-d$`;B<s
-d$`@2
-d$`A;
-d$`D;
-d$`E3
-d$`E9t$
-d$`I+
-d$dD;
-d$hA;
-d$hD;
-d$hE3
-d$hI;
-d$lE3
-d$pD;
-d$pE3
-d$pE;$
-d$pHc
-d$pM+
-d$tD9d$@
-d$xD+|$(E+
-d$xD8g
-d$xE3
-d$xE;
 d((double)-x)/dz -> -(double)dx/dz <| SR.GenDerivatives_Unary
 d((double)x * x)/dz -> 2*dx/dz * x <| SR.GenDerivatives_Binary
 d((double)x * y)/dz -> dx/dz * y + x * dy/dz <| SR.GenDerivatives_Binary
@@ -7826,6 +4267,7 @@ dabs float_literal <| SFPS
 dabs fp_flags <| SFPS
 dabs fp_range <| SFPS
 dabs fp_specials <| SFPS
+dadd
 dadd float_literal <| SFPS
 dadd fp_flags <| SFPS
 dadd fp_range <| SFPS
@@ -7897,6 +4339,7 @@ dcl_thread_group
 dcl_uav_raw
 dcl_uav_structured
 dcl_uav_typed
+ddiv
 ddiv float_literal <| SFPS
 ddiv fp_flags <| SFPS
 ddiv fp_range <| SFPS
@@ -7908,6 +4351,7 @@ ddy_fine
 debug info exceeds maximum comment size; no debug info emitted
 debug_break
 decimal value truncated to 64 bits
+decl
 def and dcl instructions must appear before other instructions.
 def or dcl instructions must appear before other instructions.
 def32
@@ -7915,6 +4359,8 @@ default
 default statement doesn't match to the scope of a switch statement. Opcode #%d (count 1-based). Aborting validation.
 default statement seen already.  Opcode #%d (count 1-based).
 default value
+defb
+defi
 define
 defined
 degrees
@@ -7929,6 +4375,7 @@ deriv_rty_fine
 destination
 detect errors induced by race conditions <| Explicit
 determinant
+dfma
 dfma fp_flags <| SFPS
 dfma fp_specials <| SFPS
 dfuse float_literal <| SFPS
@@ -7953,6 +4400,7 @@ dmad float_literal <| SFPS
 dmad fp_flags <| SFPS
 dmad fp_range <| SFPS
 dmad fp_specials <| SFPS
+dmax
 dmax 0/dmin 1 -> dsat <| MR.Gen_OptimizeEarlyTranslate_SAT_Excl
 dmax float_literal <| SFPS
 dmax fp_flags <| SFPS
@@ -7962,6 +4410,7 @@ dmax(dmax(i0, l1), l2) -> dmax(i0, dmax(l1, l2)) <| MR.GenSimplifyInstructionsOp
 dmax(i, dneg(i)) -> dabs <| MR.Gen_OptimizeEarlyTranslate_SAT_NoExcl
 dmax(i0, i1): if (i0 >= i1) -> mov(i0) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 dmax(i0, i1): if (i1 >= i0) -> mov(i1) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+dmin
 dmin 1/dmax 0 -> dsat <| MR.Gen_OptimizeEarlyTranslate_SAT_Excl
 dmin float_literal <| SFPS
 dmin fp_flags <| SFPS
@@ -7970,6 +4419,7 @@ dmin fp_specials <| SFPS
 dmin(dmin(i0, l1), l2) -> dmin(i0, dmin(l1, l2)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 dmin(i0, i1): if (i0 >= i1) -> mov(i1) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 dmin(i0, i1): if (i1 >= i0) -> mov(i0) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+dmov
 dmov fp_flags <| SFPS
 dmov mov <| SFPS
 dmovc
@@ -7986,6 +4436,7 @@ dmovc(c,ignore,a) -> dmov(a) <| MR.GenSimplifyInstructionsAlways_Both
 dmovc(c,ignore,ignore) -> ignore(0) <| MR.GenSimplifyInstructionsAlways_Both
 dmovc(false,b,c) -> dmov(c) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 dmovc(true,b,c) -> dmov(b) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+dmul
 dmul float_literal <| SFPS
 dmul fp_flags <| SFPS
 dmul fp_range <| SFPS
@@ -8012,11 +4463,11 @@ dp2add
 dp3 which writes alpha cannot co-issue since it uses up both the alpha and color pipes.
 dp4 cannot be coissued.
 dp4 instruction cannot be co-issued.
+drcp
 drcp_approx float_literal <| SFPS
 drcp_approx fp_flags <| SFPS
 drcp_approx fp_range <| SFPS
 drcp_approx fp_specials <| SFPS
-ds_%d_%d
 ds_5_0
 ds_5_1
 dsat float_literal <| SFPS
@@ -8050,16 +4501,19 @@ dsy_fine float_literal <| SFPS
 dsy_fine fp_flags <| SFPS
 dsy_fine fp_range <| SFPS
 dsy_fine fp_specials <| SFPS
+dtof
 dtof float_literal <| SFPS
 dtof fp_flags <| SFPS
 dtof fp_range <| SFPS
 dtof fp_specials <| SFPS
 dtof(ftod(x)) -> mov(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 dtof(x)/dz -> dtof(dx/dz) <| SR.GenDerivatives_Unary
+dtoi
 dtoi fp_flags <| SFPS
 dtoi int_literal <| SFPS
 dtoi int_range <| SFPS
 dtoi(itod(x)) -> mov(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+dtou
 dtou fp_flags <| SFPS
 dtou int_literal <| SFPS
 dtou int_range <| SFPS
@@ -8070,18 +4524,17 @@ duplicate usage semantic ignored
 duplicate usages specified
 dword
 dynamic_cast
-e(D8f8u
-e,D8e0t0H
 e0e0e0
-eDD8eHt+H
 earlydepthstencil
-egfff
 element type of texture too large. Cannot exceed 4 components
 elements
 elements of typed buffers and textures cannot be arrays
 elements of typed buffers and textures must fit in four 32-bit quantities
+elif
+else
 else statement doesn't match to an if statement. Opcode #%d (count 1-based). Aborting validation.
 else statement seen already.  Opcode #%d (count 1-based). Aborting validation.
+emit
 emit write masks on sample instructions <| Explicit
 emit_stream
 emit_then_cut
@@ -8107,8 +4560,9 @@ endrep
 endswitch
 endswitch statement doesn't match to a switch statement. Opcode #%d (count 1-based). Aborting validation.
 entrypoint
+enum
 error
-error count exceeds %u, aborting
+error count exceeds %u, aborting\n
 error location reached from this location
 error, duplicate case %u
 error, duplicate default in switch statement
@@ -8133,14 +4587,15 @@ exp fp_range <| SFPS
 exp fp_specials <| SFPS
 exp(a*log(0)) = 0 identity <| MR.GenSimplifyInstructionsOpt1_NoExcl
 exp(log(x)) identity <| MR.GenSimplifyInstructionsOpt1_NoExcl
+exp2
 expected %s parameter to be %s, got '%s'
 explicit
 export
+expp
 expression has a minimum precision type and cannot be marked precise <| A%u (B%u), I%u (B%u)
 expressions returning objects in an array or struct not yet implemented
 expressions with side effects are illegal as attribute parameters
 extern
-f!G$D
 f16tof32
 f16tof32 bits_known <| SFPS
 f16tof32 float_literal <| SFPS
@@ -8151,81 +4606,11 @@ f32tof16 fp_flags <| SFPS
 f32tof16 int_literal <| SFPS
 f32tof16 int_range <| SFPS
 f32tof16(i) -> conversion sequence <| MR.Gen_RequiredTranslate
-f3E$f
-f9,Ou
-f9,Yu
-f9,_u
-f91t+H
-f94Au
-f94{u
-f9<Cu
-f9A&u
-f9A8u
-f9APu8
-f9B&u
-f9D$"t
-f9D$(
-f9D$2
-f9D$@u
-f9LD8
-f9t$TH
-f9t$`u
-f9tEBH
-f;A s
-f;A s 
-f;B s
-f;Q sBH
-f;Q sXH
-f;Q srH
-f;V$t
-f;_ r
-f;_ siM
-f;o s4f;_ s%H
-f;w s8
-f;w sD
-f;|$hr
-fA	D$
-fA9.D
-fA9@&u
-fA9D$
-fA;@ s
-fA;A r
-fA;DP
-fA;DQ
-fA;G s
-fA;I s
-fA;LD
-fA;P s
-fA;P4r
-fA;p4s
-fA;p4s'
-fB9,`u
-fB;DB
-fC9,tu
-fC;DA
-fC;LA
-fD9,Au
-fD9,Gu
-fD9,Vu
-fD9,Xu
-fD9,_u
-fD92uh
-fD94Fu
-fD9lF
-fD;	tr
-fD;f 
-fD;i H
-fD;u sSL
-fE!f$fA
-fE9,^u
-fE;J s
-fE;S s
-fE;g s_I
-fF9,Fu
 faceforward
 failed to open source file: '%s'
 false
 fastopt
+fb%u
 fcall
 fcall fp_flags <| SFPS
 fcall statement not referencing an interface.  Opcode #%d (count 1-based).
@@ -8340,12 +4725,14 @@ floorf
 flow control depth too deep to emit function call
 flow control depth too deep to honor call or forcecase attribute
 fma can only be used with double arguments
+fmod
 for better compilation results, consider re-enabling rule "%s"
 for better compilation results, consider re-enabling rule 0x%08x
 forceEarlyDepthStencil
 forcecase
 forced to unroll loop, but unrolling failed.
 fourth
+frac
 fractional_even
 fractional_odd
 fragment info exceeds maximum comment size
@@ -8355,23 +4742,29 @@ frc fp_range <| SFPS
 frc fp_specials <| SFPS
 frc(a + int) = frc(a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 fread
+free
 frexp
 friend
 fseek
+ft%u
 ftell
+ftob
 ftob fp_flags <| SFPS
 ftob int_literal <| SFPS
 ftob int_range <| SFPS
 ftob(trunc(btof(x))) -> mov(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+ftod
 ftod float_literal <| SFPS
 ftod fp_flags <| SFPS
 ftod fp_range <| SFPS
 ftod fp_specials <| SFPS
 ftod(x)/dz -> ftod(dx/dz) <| SR.GenDerivatives_Unary
+ftoi
 ftoi fp_flags <| SFPS
 ftoi int_literal <| SFPS
 ftoi int_range <| SFPS
 ftoi(itof(x)) -> mov(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+ftou
 ftou fp_flags <| SFPS
 ftou int_literal <| SFPS
 ftou int_range <| SFPS
@@ -8399,7 +4792,6 @@ fx_5_0
 fxgroup
 fxl_2_0
 fxl_4_0
-gL9~(up
 gather2d fp_flags <| SFPS
 gather2d_a fp_flags <| SFPS
 gather2d_a_o fp_flags <| SFPS
@@ -8434,48 +4826,24 @@ global variables are implicitly constant, variables of classes with interface in
 globallycoherent
 globallycoherent can only be used with Unordered Access View buffers
 globallycoherent cannot be used with append/consume buffers
+godi
+goto
 gradient instruction used in a loop with varying iteration, attempting to unroll the loop
 gradient instruction used in a loop with varying iteration; partial derivatives may have undefined value
 gradient operation uses a value that may not be defined for all pixels (in %s UAV loads can not participate in gradient operations)
 gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation
 groupshared
 groupshared variables cannot contain resources such as textures, samplers or UAVs
-gs_%d_%d
 gs_4_0
 gs_4_1
 gs_5_0
 gs_5_1
-gw t=
-h VWATAUAVH
-h./01hhhhh22234
-hA\_^]
-hA]A\_[
-hA]^][
-hA^A\_^
-hA^A]A\_^]
-hA^A]^[
-hA^^[]
-hA^_^]
-hA_A\[]
-hA_A\^]
-hA_A]A\]
-hA_A]A\^
-hA_A]_^][
-hA_A^A]A\
-hA_A^A]A\_^[]
-hA_A^A]A\_^][
-hA_A^^]
-hA_A^_[
-hL9~(
-h_^[]
-h_^][
+half
 height
 hex value truncated to 64 bits
-hhhKTMUVVWWhXYZ[\]^_`abcdefg
 hlslDefines
 hlslTarget
 hlsl_full_path
-hs_%d_%d
 hs_5_0
 hs_5_0 control point
 hs_5_0 patch constant
@@ -8495,14 +4863,15 @@ i%d.x (which represents rep iteration count) cannot be negative. i%d.x is curren
 i%d.y (which represents loop initial value) must be in the range [0, %d]. i%d.y is currently def'd as %d. 
 i%d.yzw have no meaning in this shader model; they must simply be 0. 
 i%d.z (which represents loop step value) must be in the range [-%d, %d]. i%d.z is currently def'd as %d. 
-i8@8j8u
-iD8|$pt0H
+i]Wb
+iadd
 iadd bits_known <| SFPS
 iadd fp_flags <| SFPS
 iadd int_literal <| SFPS
 iadd int_range <| SFPS
 iadd zero reduces to no-op mov <| MR.GenSimplifyInstructionsOpt1_NoExcl
 iadd(a, b) : if( and_is_zero(a, b) ) -> or(a, b) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+ibfe
 ibfe bits_known <| SFPS
 ibfe fp_flags <| SFPS
 ibfe int_literal <| SFPS
@@ -8512,6 +4881,7 @@ ibfe(w, o, (a >> s) & m) : if( o + s < 32 ) -> ibfe(w, o + s, a & (m << s)) <| M
 ibfe(w, o, (uint)a >> s) : if( o + s + w < 32 ) -> ibfe(w, o + s, a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 ibfe(w, o, a >> s) : if( o + s < 32 ) -> ibfe(w, o + s, a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 ibfe(w, o, a) >> s : if( o + s < 32 && w >= s ) -> ibfe(w - s, o + s, a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+idiv
 idiv bits_known <| SFPS
 idiv currently not supported (instruction deprecated). For now, try using unsigned int types for div instead
 idiv fp_flags <| SFPS
@@ -8535,6 +4905,7 @@ if+cmp_lt -> if_lt <| MR.Gen_PreModTarget_Both
 if+cmp_lt0 -> if_lt0 <| MR.Gen_PreModTarget_Both
 if+ge -> if_ge <| MR.Gen_PreModTarget_Both
 if+lt -> if_lt <| MR.Gen_PreModTarget_Both
+if_c
 if_cmp
 if_eq(x + y, 0) -> if_eq(x, -y) <| MR.Gen_PreModTarget_Both
 if_ge(-a^2,a^2) -> if_eq(a,0) <| MR.Gen_PreModTarget_Both
@@ -8549,6 +4920,7 @@ ifdef
 ifndef
 ignore double move(a) -> append_arg(a) <| SMR.RangeDataAnalysis
 ignore move(a) -> append_arg(a) <| SMR.RangeDataAnalysis
+imad
 imad bits_known <| SFPS
 imad fp_flags <| SFPS
 imad int_literal <| SFPS
@@ -8556,6 +4928,7 @@ imad int_range <| SFPS
 imad match 1 (a + b*c) <| MR.GenMad
 imad match 2 (a + b+b) <| MR.GenMad
 imaginary square root
+imax
 imax bits_known <| SFPS
 imax fp_flags <| SFPS
 imax int_literal <| SFPS
@@ -8564,6 +4937,7 @@ imax(i0, i1): if (i0 >= i1) -> mov(i0) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 imax(i0, i1): if (i1 >= i0) -> mov(i1) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 imax(imax(i0, l1), l2) -> imax(i0, imax(l1, l2)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 imax(x,y) where one is >= the other <| Explicit
+imin
 imin bits_known <| SFPS
 imin fp_flags <| SFPS
 imin int_literal <| SFPS
@@ -8605,6 +4979,7 @@ imod int_literal <| SFPS
 imod int_range <| SFPS
 implicit truncation of vector type
 implicitly 
+imul
 imul bits_known <| SFPS
 imul fp_flags <| SFPS
 imul int_literal <| SFPS
@@ -8623,6 +4998,7 @@ indefinite derivative calculation
 indefinite logarithm
 index
 index for an array of complex types containing doubles must be a literal expression
+ineg
 ineg bits_known <| SFPS
 ineg fp_flags <| SFPS
 ineg int_literal <| SFPS
@@ -8645,18 +5021,22 @@ instance_id
 instruction coissue is not supported in this shader version
 instruction predication is not supported in this shader version
 int or unsigned int type required
+int1
 int1x1
 int1x2
 int1x3
 int1x4
+int2
 int2x1
 int2x2
 int2x3
 int2x4
+int3
 int3x1
 int3x2
 int3x3
 int3x4
+int4
 int4x1
 int4x2
 int4x3
@@ -8848,6 +5228,7 @@ isalnum
 isalpha
 isdigit
 isfinite
+ishl
 ishl bits_known <| SFPS
 ishl fp_flags <| SFPS
 ishl int_literal <| SFPS
@@ -8859,6 +5240,7 @@ ishl(ineg(a), iv1) -> ineg(ishl(a, iv1)) <| MR.GenSimplifyInstructionsOpt1_Excl
 ishl(ishl(a, b), c) : if( nooverflow_mod_32(b, c) ) -> ishl(a, iadd(b, c)) <| MR.GenSimplifyInstructionsOpt1_Excl
 ishl(or(a, m), n) : if( or_is_identity_ignore_upper_n_bits(a, m, n) -> ishl(a, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 ishl(or(m, a), n) : if( or_is_identity_ignore_upper_n_bits(a, m, n) -> ishl(a, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+ishr
 ishr bits_known <| SFPS
 ishr fp_flags <| SFPS
 ishr int_literal <| SFPS
@@ -8869,141 +5251,19 @@ isoline
 isspace
 isxdigit
 iterator
+itob
 itob bits_known <| SFPS
 itob fp_flags <| SFPS
 itob int_literal <| SFPS
 itob int_range <| SFPS
 itob(x) -> bine(x,0) <| MR.GenSimplifyInstructionsOpt1_NoExcl
+itod
 itod fp_flags <| SFPS
+itof
 itof fp_flags <| SFPS
 itof(ftoi(x)) -> trunc(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-jklmnopqrs
-juNM;
-k VAVAWH
-k VWAVH
-k(9k<v/f
-k,@8k0t
-k09s8s
-k89k@v.
-k@D8kHt
-kD@8kHt
-kH9kPv'
-kL@8kPt
-kd@8kht
 kh/{x
-klmnk
-l$ ATAVAWH
-l$ AVH
-l$ E3
-l$ H9
-l$ H;X
-l$ VATAVH
-l$ VATAWH
-l$ VAVAWH
-l$ VH
-l$ VWATAUAVAWD
-l$ VWATAUAVH
-l$ VWATAUAWH
-l$ VWATAVAWH
-l$ VWATH
-l$ VWAUAVAWH
-l$ VWAVH
-l$ VWAWH
-l$ WATAUAVAWH
-l$ WATAWH
-l$ WAVAWH
-l$ WH
-l$(A^
-l$(D;d$`s
-l$(E3
-l$(E;
-l$(fA
-l$,H;C 
-l$,fD
-l$0A;
-l$0A;p
-l$0D3
-l$0E2
-l$0E3
-l$0H98t+
-l$0f;_ H
-l$0t/H
-l$0u*H
-l$1D8o
-l$8E3
-l$8HcnPH
-l$8L;
-l$8t/
-l$8v4
-l$<D8l$@t2H
-l$<E2
-l$@8O`
-l$@9k t
-l$@A;
-l$@E3
-l$@E;
-l$@Hc
-l$@Ic
-l$@L9w@
-l$@L;
-l$@fD;u
-l$@t2H
-l$@u*H
-l$D@2
-l$DE2
-l$HA;
-l$HE3
-l$HH9
-l$HH;
-l$HI;
-l$HfD
-l$HuH
-l$Hu]L
-l$LE2
-l$P9_
-l$P@2
-l$PA_A^A]A\_^
-l$PD8
-l$PE3
-l$PH;
-l$Pff
-l$XA+
-l$XA;
-l$XE3
-l$XH1
-l$XI#
-l$XM+
-l$`;B$s
-l$`D9i4t
-l$`E3
-l$`M+
-l$dH+
-l$hA;
-l$hD9kPvMf
-l$hD;
-l$hE3
-l$hE;
-l$hfA
-l$ht6H
-l$hu	L
-l$l;E
-l$lD8l$pt,H
-l$lE3
-l$lt2H
-l$p8\$Xt/H
-l$pA9(H
-l$pD9j
-l$pE3
-l$pE;
-l$pI;
-l$pfA
-l$pfD;
-l$xE2
-l$xE3
-l$xI;
-l$xff
 l-value specifies const object
-lA9,$}
 label
 label (%d) already defined. Opcode #%d (count 1-based). 
 label (%d) being defined without any callers. Shader Model 5+ requires all callers to a subroutine to appear before the subroutine definition. Aborting.Opcode #%d (count 1-based). 
@@ -9021,6 +5281,7 @@ ld_raw
 ld_raw cannot be used on a resource that is not declared as raw (resource index [%d]). Opcode #%d (counts are 1-based).
 ld_raw requires resource declared as Raw Buffer.  Opcode #%d, operand #%d (counts are 1-based). 
 ld_raw_s
+ld_s
 ld_structured
 ld_structured cannot be used on a resource that is not declared as structured (resource index [%d]). Opcode #%d (counts are 1-based).
 ld_structured requires resource declared as Structured Buffer.  Opcode #%d, operand #%d (counts are 1-based). 
@@ -9029,14 +5290,15 @@ ld_uav_typed
 ld_uav_typed cannot be used on a UAV that is not declared as typed (u%d). Opcode #%d (counts are 1-based).
 ld_uav_typed_s
 ldexp
+ldms
 ldms_s
 length
+lerp
 lerp(fbool, a, 0) -> append_arg(a,0) <| SMR.RangeDataAnalysis
 lerp(fbool, a, b) -> append_arg(a,b) <| SMR.RangeDataAnalysis
 lerp(fbool, finite a, 0) -> append_arg(a,0) <| SMR.RangeDataAnalysis
 lerp(fbool, finite a, finite b) -> append_arg(a,b) <| SMR.RangeDataAnalysis
 levels
-lib_%d_%d
 lib_4_0
 lib_4_0_level_9_1
 lib_4_0_level_9_1_ps
@@ -9050,6 +5312,7 @@ lib_4_0_level_9_3_vs_only
 lib_4_1
 lib_5_0
 limit
+line
 lineadj
 linear
 literal loop terminated early due to out of bounds array access
@@ -9077,6 +5340,10 @@ log fp_range <| SFPS
 log fp_specials <| SFPS
 log(exp(x)) identity <| MR.GenSimplifyInstructionsOpt1_NoExcl
 log10
+log2
+logp
+long
+loop
 loop doesn't allow min precision on parameters.
 loop doesn't seem to do anything, consider removing [loop]
 loop doesn't seem to do anything, forcing loop to unroll
@@ -9101,10 +5368,11 @@ lt fp_flags <| SFPS
 lt fp_range <| SFPS
 lt of known range reduction <| Explicit
 lt(a, b) -> cmp(a - b, 0f, 1f) <| MR.Gen_RequiredTranslate
-m A9v$t_I
-m09~0v
-mHI9u
-mPI;.t{H
+m3x2
+m3x3
+m3x4
+m4x3
+m4x4
 mad float_literal <| SFPS
 mad fp_flags <| SFPS
 mad fp_range <| SFPS
@@ -9169,7 +5437,6 @@ merge discard_z test with an earlier bine comparison <| MR.GenSimplifyInstructio
 message
 method
 methods
-mg9~ v7
 min 1/max 0 -> sat <| MR.Gen_OptimizeEarlyTranslate_SAT_Excl
 min float_literal <| SFPS
 min fp_flags <| SFPS
@@ -9195,12 +5462,16 @@ min8float
 min8uint
 minLOD
 mipLODBias
+mips
 mixed
+modf
 modulo
 mov fp_flags <| SFPS
 mov mov <| SFPS
 mov of sampler register reduction <| Explicit
+mova
 mova instruction can only write to the address register.
+movc
 movc and comparison sequence reductions <| MR.GenSimplifyInstructionsOpt1_NoExcl
 movc float_literal <| SFPS
 movc fp_flags <| SFPS
@@ -9271,6 +5542,7 @@ movc, ternary arg3 on values rhs -> ternary, movc <| MR.GenShuffleCompute_Excl
 movc, unary_compute on values -> unary_compute, movc <| MR.GenShuffleCompute_NoExcl
 movc, unary_compute on values lhs -> unary_compute, movc <| MR.GenShuffleCompute_Excl
 movc, unary_compute on values rhs -> unary_compute, movc <| MR.GenShuffleCompute_Excl
+msad
 msad bits_known <| SFPS
 msad fp_flags <| SFPS
 msad int_literal <| SFPS
@@ -9290,13 +5562,9 @@ mul(fbool,finite a) -> append_arg(0f,a) <| SMR.RangeDataAnalysis
 multiple concrete base types specified
 multiple variables found with the same user-specified location
 multiply
-must be equal to the number of threads in the group (%d in this case).  %d elements were specified for g%d. 
 mutable
-nCipher DSE ESN:2137-37A0-4AAA1%0#
-nCipher DSE ESN:D236-37DA-97611%0#
-nCipher NTS ESN:2665-4C3F-C5DE1+0)
 namespace
-namespace %s
+namespace %s\n{    \n
 neg float_literal <| SFPS
 neg fp_flags <| SFPS
 neg fp_range <| SFPS
@@ -9318,6 +5586,7 @@ non-numeric sample count
 non-numeric vertex count
 non-scalar case expression
 non-trivial object expressions not yet implemented
+none
 nop instruction cannot be co-issued.
 noperspective
 noperspective 
@@ -9333,6 +5602,7 @@ not enough actual parameters for macro '%s'
 not fp_flags <| SFPS
 not int_literal <| SFPS
 note that in IEEE strict mode, all values are implicitly marked precise
+null
 nullify clip ops on known positive values <| MR.GenSimplifyInstructionsOpt1_NoExcl
 nullify discard ops on known false values <| MR.GenSimplifyInstructionsOpt1_NoExcl
 num32BitConstants
@@ -9341,27 +5611,30 @@ numDescriptors
 numthreads
 o = $IsStandardLoad(a, chain) -> append_addressed(o, chain) (all sources) <| SMR.DataFlagAnalysis_NoPlaceHolder
 o = dfuse(ab) -> o->append_dfuse() <| SMR.DataFlagAnalysis
-o E;h 
-o$H;X
-o8f9\$*uv
-o8t,H
 oC%d already written. (oCn registers can only be written at most once each)
+oC%u
 oCn registers may only be written using the mov instruction.
+oD%u
 oDepth
 oDepth already written.
 oDepth may not be written by the %s instruction.
 oDepth may only be written using the mov instruction.
 oDepthGE
 oDepthLE
-oK0D$"<
+oFog
 oMask
+oPos
+oPts
 oStencilRef
+oT%u
+oX%u
 object element type cannot be an object type
 object literals are not allowed inside functions
 object's templated type must have at least one element
 octal value truncated to 64 bits
 offset
 offset texture instructions must take offset which can resolve to integer literal in the range -8 to 7
+once
 one of "integer", "pow2", "fractional_even", or "fractional_odd"
 one of "point", "line", "triangle_cw", or "triangle_ccw"
 one of "tri", "quad", or "isoline"
@@ -9372,7 +5645,6 @@ only one address register reference is allowed in a relative address expression
 only vs_1_1, vs_2_0, vs_2_x, vs_2_sw, ps_2_0, ps_2_x, and ps_2_sw are supported for assembly fragments
 operator
 operator cannot be used with a bool lvalue
-opqro
 or bits_known <| SFPS
 or fp_flags <| SFPS
 or int_flags <| SFPS
@@ -9386,6 +5658,7 @@ or(or(a, b), c) : if( or_is_identity(c, b) ) -> or(a, c) <| MR.GenSimplifyInstru
 or(or(b, a), c) : if( or_is_identity(c, b) ) -> or(a, c) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 or(true,a) -> append_arg(true,a) <| SMR.RangeDataAnalysis
 original
+out 
 out of memory
 out of memory during compilation
 out of memory while parsing
@@ -9401,38 +5674,6 @@ overlapping output semantics
 overlapping register semantics not yet implemented '%c%u'
 overlapping register semantics not yet implemented 'c%u'
 overloaded function not found
-p AWH
-p UWAUAVAWH
-p WATAUAVAWH
-p$D;v
-p0D;s
-p<`t=H
-pA\_^
-pA]_[
-pA]_^[]
-pA]_^][
-pA^A\[
-pA^A\_][
-pA^A]A\^[
-pA^A]A\_[
-pA^A]A\_^][
-pA^A]]
-pA^^]
-pA^_[
-pA^_^
-pA^_^[]
-pA_A]A\_^[]
-pA_A]^
-pA_A]_
-pA_A^A]A\^
-pA_A^A]A\^][
-pA_A^A]A\_][
-pA_A^A]A\_^]
-pA_A^A]_^][
-pA_A^]
-pA_[]
-pA__[
-pA__[H
 pack_matrix
 packoffset
 packoffset cannot have a target qualifier
@@ -9441,6 +5682,7 @@ parameter count mismatch (%s)
 partial precision is not supported for target %s. Min-precision types may offer similar functionality.
 partitioning
 partitioning mode
+pass
 passes
 patchconstantfunc
 pdr_?
@@ -9473,6 +5715,7 @@ potentially uninitialized data accessed at this location <| I%u (B%u)
 potentially unintended use of a comma expression in a return statement
 potentially unintended use of a comma expression in a variable initializer
 pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+pow2
 ppShader pointer is invalid
 pragma
 precise
@@ -9515,7 +5758,6 @@ ps.2.sw
 ps.2.x
 ps.3.0
 ps.3.sw
-ps_%d_%d
 ps_1_0
 ps_1_0 is no longer supported.  It turned out that pixel shader capable hardware will always support at least ps_1_1 (which is not as limited a model as ps_1_0 was). To convert a ps_1_0 shader up to ps_1_1, the only change needed is to make the version number 1_1. 
 ps_1_0 is no longer supported; using ps_1_1
@@ -9547,27 +5789,17 @@ ps_5_0
 ps_5_1
 psize
 public
-q(9q$v&
-q(H;Cpu
-q@@8qHt
-qX92u
-qhA8x`t
 qsort
-r =OSGNu
+quad
 r | (a & n) : if( known_bfi_bitmask_noshift(n,a,r) && and_is_zero(n,r) ) -> bfi(bfi_bitwidth_noshift(n,a,r), 0i, a, r) <| MR.GenD3D10_OptimizeEarlyTranslate_Excl
 r | (a = bfi(w, o, v, 0i)) : if( mask_is_zero(w,o,r) ) -> bfi(w, o, v, r) <| MR.GenSimplifyInstructionsOpt1_Excl
 r | (n & a) : if( known_bfi_bitmask_noshift(n,a,r) && and_is_zero(n,r) ) -> bfi(bfi_bitwidth_noshift(n,a,r), 0i, a, r) <| MR.GenD3D10_OptimizeEarlyTranslate_Excl
 r | a : if( known_bfi_bitmask_noshift_impmask(a,r) && and_is_zero(a,r) ) -> bfi(bfi_bitwidth_noshift_impmask(a,r), 0i, a, r) <| MR.GenD3D10_OptimizeEarlyTranslate_Excl
-r+u#L
 r/w+cnt
 r0 must be written by shader. Uninitialized component%s(*): %s
 r0 must be written by shader. Uninitialized component%s(*): %s. Note that an unfortunate effect of the phase marker in the shader is that the moment it is encountered in certain hardware, values previously written to alpha in any r# register, including r0, are lost. So after a phase marker, the alpha component of r0 must be written.
 r0 must be written by shader. Uninitialized component%s(*): %s. Note that when texcrd is used with a .xy(==.rg) writemask, as it is in this shader, a side effect is that anything previously written to the z(==b) component of the destination r# register is lost and this component becomes uninitialized. The blue component of r0 must to be written after the texcrd.
 r0 must be written by shader. Uninitialized component%s(*): %s. Note that when texcrd is used with a .xy(==.rg) writemask, as it is in this shader, a side effect is that anything previously written to the z(==b) component of the destination r# register is lost and this component becomes uninitialized. The blue component of r0 must to be written after the texcrd. Also: Note that an unfortunate effect of the phase marker in the shader is that the moment it is encountered in certain hardware, values previously written to alpha in any r# register, including r0, are lost. So after a phase marker, the alpha component of r0 must be written.
-r1A9	v
-r5u-H
-rRw\E
-rRw_M
 race condition writing to shared memory detected, consider making this write conditional.
 race condition writing to shared memory detected, note that threads will be writing the same value, but performance may be diminished due to contention.
 race condition writing to shared resource detected, consider making this write conditional.
@@ -9631,6 +5863,7 @@ resource '%s' binding not present in template shader
 resources such as textures, samplers or UAVs cannot contain other resources
 result
 ret can only be followed by case/default/endswitch/endloop/else/endif/label. Opcode #%d (count 1-based). Aborting validation.
+retc
 return
 return fp_flags <| SFPS
 return never match (to NOP) <| MR.GenSimplifyInstructionsAlways_Both
@@ -9645,8 +5878,8 @@ reversebits bits_known <| SFPS
 reversebits fp_flags <| SFPS
 reversebits int_literal <| SFPS
 reversebits(i) -> and/shift/or sequence <| MR.Gen_RequiredTranslate
-rewcH
-rl;H0wV
+rgba
+robj
 root signature
 rootsig_1_0
 rootsig_1_1
@@ -9670,25 +5903,7 @@ rsq result can be assumed positive <| Explicit
 rsq(x) * rsq(x) -> rcp(x) <| MR.GenSimplifyInstructionsOpt1_Excl
 rsq(x) * rsq(x) -> rcp(x) for positive x <| MR.GenSimplifyInstructionsOpt1_Excl
 rsqrt
-rtu*L
 ruledisable
-ruu6H
-r~akow
-s @8s(t
-s WAVAWH
-s*fA;
-s,@8s0t
-s.A9jxu(A9
-s0L9s0u
-sBfD9a
-sHE;N
-sL@8sPt
-sMA;~
-sPHcS
-sRE;Q
-sRO`y)
-sTfff
-s\fff
 sample
 sample 
 sample count must be non-zero
@@ -9861,13 +6076,13 @@ scalar registers cannot be swizzled
 scalar value expected
 scalar, vector, or matrix expected
 scope
-seE9}8u5I
 search for instancing opportunities in hull shaders <| Explicit
 second
 secondary array dimensions must be explicit
 semantic '%s' unsupported on %s
 semantics in type overridden by variable/function or enclosing type
 setlocale
+setp
 shader exceeds maximum supported number of interface call sites (%d).  Opcode #%d (count 1-based).
 shader register
 shader register must be defined for each CBV/SRV/UAV
@@ -9876,7 +6091,7 @@ shared
 shift of commutative inputs <| Explicit
 shift of commutative literals <| Explicit
 short
-sifff
+sign
 signed
 signed integer division is not supported on minimum-precision types. Cast to int to use 32-bit division.
 signed integer remainder is not supported on minimum-precision types. Cast to int to use 32-bit division.
@@ -9899,11 +6114,11 @@ sincos fp_range <| SFPS
 sincos fp_specials <| SFPS
 single
 single 
+sinh
+sint
 sizeof
 skipOptimization
-sl@8spt
 smoothstep
-snD;E
 snorm
 snorm 
 source
@@ -9922,6 +6137,7 @@ split literal sum ishl to allow literalization <| MR.GenSimplifyInstructionsOpt1
 split literal sum ishr to allow literalization <| MR.GenSimplifyInstructionsOpt1_Excl
 split literal sum ushr to allow literalization <| MR.GenSimplifyInstructionsOpt1_Excl
 sprintf_s
+sqrt
 sqrt float_literal <| SFPS
 sqrt fp_flags <| SFPS
 sqrt fp_range <| SFPS
@@ -9929,7 +6145,6 @@ sqrt fp_specials <| SFPS
 sqrt times sqrt of positive value equals the original value identity <| MR.GenSimplifyInstructionsOpt1_NoExcl
 sqrt(x)/dz -> 0.5 / sqrt(x) * (dx/dz) <| SR.GenDerivatives_Unary
 sscanf_s
-ssfff
 stateblock
 stateblock_state
 static
@@ -9937,11 +6152,12 @@ static interfaces cannot have initializers
 static method %s cannot refer to instance members
 static_cast
 status
+step
 store_raw
 store_raw cannot be used on a resource that is not declared as raw (resource index [%d]). Opcode #%d (counts are 1-based).
 store_structured
 store_structured cannot be used on a resource that is not declared as structured (resource index [%d]). Opcode #%d (counts are 1-based).
-store_structured writing to Thread Group Shared Memory for shader models less than 5_0 must use 
+store_structured writing to Thread Group Shared Memory for shader models less than 5_0 must use \nvThreadIDInGroupFlattened as the structure index (second) parameter. Opcode #%d (counts are 1-based).
 store_uav_typed
 store_uav_typed cannot be used on a UAV that is not declared as typed (u%d). Opcode #%d (counts are 1-based).
 store_uav_typed must write to all four components of the UAV. Opcode #%d (counts are 1-based).
@@ -9966,8 +6182,9 @@ strstr
 strtod
 strtoul
 struct
-struct %s
+struct %s\n
 struct/class members
+struct\n
 structure being emitted has elements with no semantic defined
 structured buffer element size must be a multiple of %u bytes in %s (actual size %u bytes)
 structured buffer elements cannot be larger than %u bytes in %s (actual size %u bytes)
@@ -9982,6 +6199,7 @@ switch must be followed by case or default. Opcode #%d (count 1-based). Aborting
 swprintf_s
 symmetric cmp <| Explicit
 symmetric cmp <| MR.GenSimplifyInstructionsOpt1_NoExcl
+sync
 sync can't specify both _ugroup and _uglobal. If both are needed, just specify _uglobal. Opcode #%d (counts are 1-based).
 sync in a non-Compute Shader must only sync UAV (sync_uglobal).Opcode #%d (counts are 1-based).
 sync must include some form of memory barrier - _u (UAV) and/or _g (Thread Group Shared Memory).  Only _t (thread group sync) is optional. Opcode #%d (counts are 1-based).
@@ -9998,304 +6216,13 @@ sync_up_t fp_flags <| SFPS
 syntax error
 syntax error : unexpected %s
 syntax error: unexpected %s
-s{9:t
-t	9h 
-t	A9@
-t	D9Q
-t	D;2
-t	D;B8D
-t	Hc[
-t	I;CXt
-t	M9,$M
-t E8pqt
-t fff
-t vXA
-t!@8wdD
-t!A8t$(A
-t!A9X v
-t!D8l$eu
-t!H9{(t
-t!HcG
-t!fD9e
-t"9Y@t!H
-t"@8w
-t"A;^
-t"D9h,t
-t"H9hHu
 t# registers must appear in sequence (i.e. t0 before t2 OK, but t1 before t0 not valid).
-t#A9H
-t#D8{du
-t#H9E
-t#M9~
-t#fff
-t$ ;ALs
-t$ ATAVAWH
-t$ AVH
-t$ AWH
-t$ A^
-t$ D;
-t$ E3
-t$ H;
-t$ Lc
-t$ UATAUAVAWH
-t$ UH
-t$ UWATAUAWH
-t$ UWATAVAWH
-t$ UWAUAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WATAVH
-t$ WATAWH
-t$ WAUAWH
-t$ WAVAWH
-t$ WAVAWL
-t$ WAW
-t$ WH
-t$ fE;w 
-t$ fff
-t$ xn
-t$ xt
-t$(;t$8
-t$(D;
-t$(E2
-t$(E3
-t$(E9$
-t$(H9
-t$(I;
-t$(L;
-t$(Lc
-t$(M+
-t$(fE
-t$,D8t$0t
-t$,D8t$0t+H
-t$0;w
-t$0A+
-t$0A;
-t$0A;7u7I
-t$0A__
-t$0D9|$Tu]
-t$0E3
-t$0E;
-t$0Hc
-t$0Ic
-t$0M+
-t$3E2
-t$4D;
-t$8@2
-t$8A_A^_
-t$8D9z 
-t$8E3
-t$8E9
-t$8E;
-t$8H;
-t$8I;
-t$8Lc5
-t$8M+
-t$8fA
-t$8fff
-t$<@8t$@t2H
-t$<D8t$@t2H
-t$@8~
-t$@E+
-t$@E3
-t$@L+
-t$@L9u
-t$@f9C
-t$@fA
-t$@u*H
-t$@uLE
-t$AkA
-t$D9L$XuoI
-t$D9`,t
-t$DE3
-t$DE;
-t$DfD;|$@u
-t$H9p
-t$HA;
-t$HD8O`
-t$HE3
-t$HH;
-t$HHc
-t$HcT$4H
-t$HfA
-t$Hu'L
-t$L@8t$Pt-H
-t$P9Ch
-t$P@8
-t$PD;u
-t$PE2
-t$PE3
-t$PE8w8u
-t$PH9E
-t$PH;
-t$Pff
-t$Pt*ff
-t$Pu*L
-t$Pxb
-t$Tff
-t$X=NB10u2I
-t$XA;
-t$XD;
-t$XE3
-t$XH9}
-t$Xt	H
-t$\A;
-t$`9~
-t$`D8
-t$`D;
-t$`E+
-t$`E2
-t$`E3
-t$`Hc
-t$`I9o0H
-t$`L;
-t$`u	H
-t$`uFH
-t$aubL9
-t$dE3
-t$h9L$H
-t$h;w0vuH
-t$hD+
-t$hE3
-t$hIc
-t$hL+
-t$hfff
-t$pE3
-t$pE;
-t$pH+
-t$pH;
-t$pHc
-t$pu6I
-t$t@8t$xt2H
-t$tD8t$xt+H
-t$xD;
-t$xD;l$D
-t$xE;
-t$xfA9
-t$xt/
-t$|@8u
-t%fA+
-t&A8t$(A
-t&IcK
-t&M9|$
-t&fA;
-t&fff
-t'A8t$(
-t'A9@
-t'D9e
-t'fff
-t(,0<	v"L
-t(M9~
-t(fA;
-t(fff
-t)A9P
-t)L9hHu#H
-t*D8c
-t*fA;
-t+9|)
-t+D9}`t"E
-t+M9|$
-t,9x(u'H
-t,H;C s
-t,fff
-t-9wxv
-t-D8 t(H
-t-HcFT
-t-Ic@
-t-fff
-t.fff
-t/;A8r
-t/A;)u!I
-t/fA9A
-t0D8"t+H
-t0fff
-t0~'A
-t1fff
-t2@8k`u$L
-t2H9u
-t2fE9Q
-t2fff
-t4@8kdu&H
-t4H9C
-t5<tt.
-t5fff
-t6D;FHt0D;FLt*I
-t6H9p
-t6fD9k
-t6fff
-t7HcFT
-t9E8X
-t9E9U v3I
-t:9{(u-D9s,r'H
-t:D8g
-t:D8s
-t:D9o4u
-t:fff
-t;fff
-t<L;X
-t==w	1
-t=fff
-t>;F$
-t>@80t9H
-t>yDH
-t?<at*<ct
-t@;;u3
-t@D9{
-t@fff
-tBD9t$`u;H
-tBfff
-tCD)\$lE
-tCfff
-tD+83
-tDHcNT
-tDfff
-tEfD;C4vPH
-tEfD;I s>H
-tEfff
-tFD8{
-tGf;M
-tHD9c
-tHH9\$0tA
-tID8n
-tJH!C@8CHt
-tJfff
-tKfA;
-tLfff
-tMfff
-tNfff
-tO9wxv
-tPfff
-tQD9v4w
-tQfA;
-tQfff
-tSA8x u?E
-tSD8c@u
-tSD9h@
-tSD9s
-tTD8(tOH
-tTfA;
-tTyPH
-tT~%A
-tUH;E
-tVH9i
-tVLcW
-tW9\$xt
-tYHcC(;G(uP
-tZD8!tUH
-t\9l$@vVH
-t\fA;
-t]A9iDuOI
-t]A;\$
-t`Hc[
-t`fff
-ta;V,s
 tangent
+tanh
 target does not support relative addressing
-tbE9b,t\A
+tbuf
 tbuffer
 tbuffer requires a 't' register
-tcfff
-tdHcE
 technique
 technique10
 technique10 
@@ -10403,8 +6330,6 @@ textureCUBE
 texturecube
 texturecubearray
 textures
-tfA9P
-thD9Q
 the 'pixelshader' keyword is deprecated and reserved in strict mode
 the 'sampler1D' keyword is deprecated in strict mode; use 'SamplerState' instead
 the 'sampler2D' keyword is deprecated in strict mode; use 'SamplerState' instead
@@ -10425,6 +6350,7 @@ the product of the arguments of %s(%u,%u,%u) must be at least %u
 the product of the arguments of %s(%u,%u,%u) must be less than or equal to %u
 the size of constant buffer %s is %d 16-byte entries, which exceeds maximum allowed size of %d entries
 third
+this
 this FX API is not available in this part your program (%s)
 this loop dependent on potentially %s data <| I%u (B%u), A%u (B%u)
 this memory access dependent on potentially %s data <| I%u (B%u), A%u (B%u)
@@ -10436,13 +6362,7 @@ this variable depends on potentially %s data on loop exit: %s <| I%u (B%u), A%u 
 thread sync operation found in varying flow control, consider reformulating your algorithm so all threads will hit the sync simultaneously
 thread sync operation must be in non-varying flow control, due to a potential race condition this sync is illegal, consider adding a sync after reading any values controlling shader execution at this point
 throw
-tiH;C@tcD
-tkA;E0we
-tkfA;
-tlD9htufD
-tlHcy
 tload fp_flags <| SFPS
-tmD9g
 token
 token '%s'
 tolower
@@ -10452,14 +6372,12 @@ too many outputs to target TX
 topology type
 toupper
 towlower
-tpH9jHuj
-tq@88tlH
-tqfff
 transpose
 triangle
 triangle_ccw
 triangle_cw
 triangleadj
+true
 trunc
 trunc float_literal <| SFPS
 trunc fp_flags <| SFPS
@@ -10468,13 +6386,9 @@ trunc fp_specials <| SFPS
 trunc(itof(x)) -> itof(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 trunc(utod(x)) -> utod(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 trunc(utof(x)) -> utof(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-tsD8c@u
-tsfA;
-ttD9C
-tttttttttuuuuvvvwx
 tunnelable move(a) -> append_arg(a) <| SMR.RangeDataAnalysis
 tx_1_0
-tyfff
+type
 type mismatch
 type mismatch between conditional values
 typed UAV loads are only allowed for single-component 32-bit element types
@@ -10482,39 +6396,6 @@ typed UAV stores must write all declared components.
 typedef
 typedef 
 typename
-t{HcVhH
-t|fff
-t~D9{
-u	91u
-u	D87
-u!@8t$Ru
-u!D9m<@
-u!L;vht
-u"8\$pufL
-u"D9VduPC
-u"D9WduPC
-u"H9J
-u"fD9h
-u#9t$ t
-u#9t$(t
-u#@8j8u
-u#D9e0t
-u$9i,t
-u$E;l$
-u%D9i
-u%M9y
-u%fA;
-u&@8k\uD@8k]u
-u&D9?u!A
-u'9Y8u
-u(;S D
-u(E;e,u"
-u+D9t$hu$H
-u,A;t$
-u,D9}@u&H
-u,IcChL
-u-E;XHu'A
-u-HcM
 u/ishl/r(a, 0) -> mov(a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 u/ishr(and(a, m), n) : if( and_is_identity_ignore_lower_n_bits(a, m, n) -> u/ishr(a, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 u/ishr(and(m, a), n) : if( and_is_identity_ignore_lower_n_bits(a, m, n) -> u/ishr(a, n) <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -10523,51 +6404,14 @@ u/ishr(or(m, a), n) : if( or_is_identity_ignore_lower_n_bits(a, m, n) -> u/ishr(
 u/ishr/l(and(a, iv1), iv2) -> and(u/ishr/l(a, iv2), u/ishr/l(iv1, iv2)) <| MR.GenSimplifyInstructionsOpt1_Excl
 u/ishr/l(or(a, iv1), iv2) -> or(u/ishr/l(a, iv2), u/ishr/l(iv1, iv2)) <| MR.GenSimplifyInstructionsOpt1_Excl
 u/ishr/l(xor(a, iv1), iv2) -> xor(u/ishr/l(a, iv2), u/ishr/l(iv1, iv2)) <| MR.GenSimplifyInstructionsOpt1_Excl
-u0D8d$b
-u2M9t
-u38L$Qu(H
-u3I;?u)H
-u4E:P
-u5A8}
-u5D9p4u/L9s(t
-u7HcFT
-u7L9uHu1I
-u8A8~Pt
-u8D9@8uaH
-u9D9O
-u:8\$0t4E3
-u:H9]Wu4
-u;A8n	u5A
-u<D;C(s
-u<D;V
-u>D;F
-u@9D$Hu:H
-u@9s(v
-u@D;O
-uCD;V
+uEL}
 uEL}_
-uGA9X
-uGD9L$xu@E
-uGD9j8uAA
-uHD8T$`t%H
-uIHcB
-uOHcD$xH
-uOfA;
-uQD8J
-uQD9U
-uQM9~xtKH
-uTD;A
-uTHcC8
-uUE9x
-uV8]o
-u]8E0t
-u`A8uAuJM
-uaH;Q
 uaddc
 uaddc bits_known <| SFPS
 uaddc fp_flags <| SFPS
 uaddc int_literal <| SFPS
 uaddc int_range <| SFPS
+ubfe
 ubfe bits_known <| SFPS
 ubfe fp_flags <| SFPS
 ubfe int_literal <| SFPS
@@ -10578,15 +6422,13 @@ ubfe(w, o, (a >> s) & m) : if( o + s < 32 ) -> ubfe(w, o + s, a & (m << s)) <| M
 ubfe(w, o, a >> s) : if( o + s < 32 ) -> ubfe(w, o + s, a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 ubfe(w, o, a) >> s -> ubfe(w, o + s, a) <| MR.GenSimplifyInstructionsOpt1_Excl
 ubfe(w, o, a) >> s : if( o + s < 32 && w >= s ) -> ubfe(w - s, o + s, a) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-ud9q8u_I
+udiv
 udiv bits_known <| SFPS
 udiv fp_flags <| SFPS
 udiv int_literal <| SFPS
 udiv int_range <| SFPS
 udiv(a, iv_pow2) -> ushr(a, get_lowest_bit(iv_pow2)) <| MR.GenD3D10_OptimizeEarlyTranslate
-ue9t$ v_fff
-ueHc\$x
-uhfA;F
+uint
 uint1
 uint1x1
 uint1x2
@@ -10607,8 +6449,9 @@ uint4x1
 uint4x2
 uint4x3
 uint4x4
-ujIcChL
 ulong
+umad
+umax
 umax bits_known <| SFPS
 umax fp_flags <| SFPS
 umax int_literal <| SFPS
@@ -10617,6 +6460,7 @@ umax(i0, i1): if (i0 >= i1) -> mov(i0) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 umax(i0, i1): if (i1 >= i0) -> mov(i1) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 umax(umax(i0, l1), l2) -> umax(i0, umax(l1, l2)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 umax(x,y) where one is >= the other <| Explicit
+umin
 umin bits_known <| SFPS
 umin fp_flags <| SFPS
 umin int_literal <| SFPS
@@ -10625,11 +6469,13 @@ umin(i0, i1): if (i0 >= i1) -> mov(i1) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 umin(i0, i1): if (i1 >= i0) -> mov(i0) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 umin(umin(i0, l1), l2) -> umin(i0, umin(l1, l2)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 umin(x,y) where one is <= the other <| Explicit
+umod
 umod bits_known <| SFPS
 umod fp_flags <| SFPS
 umod int_literal <| SFPS
 umod int_range <| SFPS
 umod(x,y) where x < y <| Explicit
+umul
 umul bits_known <| SFPS
 umul fp_flags <| SFPS
 umul int_literal <| SFPS
@@ -10672,11 +6518,11 @@ unsigned integer movc((a<b),b,a) -> max(a,b) <| MR.GenSimplifyInstructionsOpt1_N
 unsigned integer movc((a>=b),a,b) -> max(a,b) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 unsupported compiler target '%s'
 untyped textures are deprecated in strict mode
-uoL;}
 usage semantics do not apply to %ss
 use flow control and logical conditions to tighten ranges <| Explicit
 use of potentially uninitialized variable (%s)
 ushort
+ushr
 ushr bits_known <| SFPS
 ushr fp_flags <| SFPS
 ushr int_literal <| SFPS
@@ -10688,43 +6534,18 @@ usubb bits_known <| SFPS
 usubb fp_flags <| SFPS
 usubb int_literal <| SFPS
 usubb int_range <| SFPS
+utod
 utod fp_flags <| SFPS
+utof
 utof fp_flags <| SFPS
 utof(sampleinfo_uint(x)) -> sampleinfo(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 utof(sampleinfo_uint_rt(x)) -> sampleinfo_rt(x) <| MR.GenSimplifyInstructionsSampleMask_Both
-uvD8|$)uo
-uvwxyz{|
-u~9j8uyH
-u~D8D$b
-v!D8m!u
-v!fff
-v"D8G
-v"D8m
-v"D;{
 v# register read by instruction(s) before phase marker.  This is not permitted. When a phase marker is present, v# register reads are only permitted after the phase marker.
-v#D8e
-v#D8f
-v$D8e
-v$fff
-v%D8s
-v(A;W
-v(D8e
-v)@8w
-v)D8m
-v+D;s
-v+fff
-v,fff
-v-fff
-v1D8a!u
-v7fff
-v8fff
-v@fff
 vCoverage
 vCycleCounter
 vCycleCounter can only be used with the mov instruction.  Opcode #%d, operand #%d (counts are 1-based). 
 vCycleCounter is only supported on 5_0+ shaders.  Opcode #%d (count is 1-based). 
 vDomain
-vEA;_
 vFace
 vFace being read, but not declared. vFace must be declared if it is used:  dcl vFace
 vFace or vPos registers cannot be used as sources for matrix operations.
@@ -10736,19 +6557,15 @@ vGroupIndex
 vHSInstanceID
 vInnerCoverage
 vJoinInstanceID
-vO8D$`uIH
 vOutputControlPointID
 vOutputControlPointId
+vPos
 vPos does not have .z or .w channels in this shader model. Attempt to read following unavailable component(s) (*): %s
 vPrim
 vThreadGroupID
 vThreadID
 vThreadIDInGroup
 vThreadIDInGroupFlattened
-vThreadIDInGroupFlattened as the structure index (second) parameter. Opcode #%d (counts are 1-based).
-vWfff
-v`A;@
-vafA;
 value
 value cannot be NaN, isnan() may not be necessary.  /Gis may force isnan() to be performed
 value cannot be infinity, isfinite() may not be necessary.  /Gis may force isfinite() to be performed
@@ -10773,16 +6590,17 @@ vertex_id
 vertexfragment
 vertexshader
 vfunctab
+vicp
 viewportArrayIndex already declared for input.  Opcode #%d (count is 1-based). 
 viewportArrayIndex already declared for output.  Opcode #%d (count is 1-based). 
 viewport_array_index
 virtual
 visibility
-void main(
-void main()
+vocp
+void
+void main()\n{\n}\n
 volatile
 volume
-vrfff
 vs.1.0
 vs.1.1
 vs.2.0
@@ -10791,7 +6609,6 @@ vs.2.sw
 vs.2.x
 vs.3.0
 vs.3.sw
-vs_%d_%d
 vs_1_0
 vs_1_0 is no longer supported.  It turned out that vertex shader capable hardware will always support at least vs_1_1 (which is not as limited a model as vs_1_0 was). To convert a vs_1_0 shader up to vs_1_1, the only change needed is to make the version number 1_1. 
 vs_1_0 is no longer supported; using vs_1_1
@@ -10813,23 +6630,6 @@ vs_4_0_level_9_3
 vs_4_1
 vs_5_0
 vs_5_1
-vtfff
-w u	D9
-w"tJA
-w$t?A
-w,D;s
-w-9i$t
-w5tK=
-w69{,t%H
-w7t.=
-w9u	D9
-w;t0=
-w@fff
-wCt-=\
-wDt6=
-wNfA;6sHH
-wPtAI
-wVtHA
 warning
 warning location reached from this location
 warning treated as error
@@ -10840,345 +6640,22 @@ wcsncmp
 wcsncpy_s
 wcsrchr
 wcstoul
-wdu.L
 when multiple GS output streams are used they must be pointlists
 while
 width
 wn>Jj
-w|L	_
 x / x -> 1 <| MR.GenSimplifyInstructionsOpt1_NoExcl
 x ? firstbit*(x) : -1 -> firstbit*(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-x ATAVAWH
-x AVH
-x UATAUAVAWH
-x#9l$Xt
-x#9l$`t
-x#9l$ht
-x$fff
-x$t0H
-x%@8|$`u
-x+9sLv
-x+fA#
-x,D9d$Dv%H
-x0$r}
-x0;|$8w
-x29\$<v,
-x49{,v
-x:@8t$@t3A
-x@H9\$8u9I
-xA]A\_[
-xA]^][
-xA]_][
-xA^A]A\[
-xA^A]A\_][
-xA_A]_^[]
-xA_A^A]A\_]
-xA_A^A]A\_^[]
-xA_A^A]A\_^][
-xA_A^A]_][
-xA_A^_^[]
-xE@8t$cu>H
-xJH9\$PuCH
-xVH9\$ uOI
-xVt]H
-xWM9f(E
-x^u6H
-x_^[]
-x_^][
-x`@8t$duYL
-xdD;u
 xor bits_known <| SFPS
 xor fp_flags <| SFPS
 xor int_flags <| SFPS
 xor int_literal <| SFPS
 xor(xor(a, iv1), iv2) -> xor(a, xor(iv1, iv2)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-xptsD8g
-xpu>H
-xt	uN
+xrai
+xrao
+xyzw
 xyzw (same as not specifying mask)
-y$9{$H
-y)A9^ v#ff
-y;D8u
-y|.WNR
 z or w components of vPos register are not available in this shader version, and cannot be dcl'd.
-z"u A
-z#u!f
-z#u!fE
-z$u"A
-z$u"H
-z$u"f
-z%u#A
-z&u$A
-z(u&H
-z(u&f
-z)u'A
-z)u'H
-z*u(A
-z*u(f
-z,u*f
-z-u+M
-z.9Wv
-z.u,A
-z.u,f
-z/u-A
-z0u.A
-z0u.H
-z0u.f
-z1u/H
-z1u/f
-z2u0f
-z4u2H
-z4u2I
-z4u2L9
-z4u2f
-z5u3f
-z6u4f
-z6u4fE
-z7u5A
-z7u5f
-z8u6f
-z:u8f
-z:u8fE
-z>u<f
-z?u=f
-zBu@fE
-zCuAH;
-zDuBf
-zFuDH
-zGuEf
-zIuGH
-zJuHA
-zLuJfD
-zMuKfE
-zRuPH
-zRuPf
-z^u\H
-zau_L
-zbu`I
-ziugH
-zwuuA
-{    
 { %d, %d, %d, %d }
 { %g, %g, %g, %g }
-{ ATAVAWH
-{ AVH
-{ D8{(t
-{(9{<v3
-{(L9{ 
-{0$r$
-{4;|$Hv 
-{80u/H
-{80uYH
-{8A9{@w7A
-{<}uwD
-{@D8{Ht
-{XA9q
-{\@8{`t
-{t@8{xt
-{xH;x
-|$ 	urH
-|$ *K
-|$ +Fxt
-|$ ;^$
-|$ A+
-|$ A9
-|$ A9v 
-|$ A9y
-|$ A;v8v/E3
-|$ ATAUAVAW
-|$ ATAUAVAW3
-|$ ATAUAVAWD
-|$ ATAUAVAWE
-|$ ATAUAVAWE3
-|$ ATAUAVAWH
-|$ ATAUAVAWL
-|$ ATAUAVH
-|$ ATAVAWA
-|$ ATAVAWH
-|$ ATH
-|$ AUAVAWH
-|$ AUAVAWL
-|$ AV
-|$ AVAW3
-|$ AVD
-|$ AVH
-|$ AVI
-|$ AVL
-|$ AWH
-|$ D+
-|$ D96sMf
-|$ E3
-|$ M+
-|$ UATAUAVAWH
-|$ UAVAWH
-|$ UH
-|$ fE;g s
-|$ ff
-|$ fff
-|$$RDEF
-|$(+|$ H
-|$(;k4
-|$(A^
-|$(D;
-|$(E3
-|$(H;
-|$(H;|$@sPH
-|$(u0
-|$(}D
-|$,D8|$0t+H
-|$0;|$4suL
-|$0A_A^
-|$0AtSH
-|$0D8~8u
-|$0D;
-|$0D;|$ s
-|$0E2
-|$0E3
-|$0E;
-|$0H;
-|$0Hc8H
-|$0L9;uK
-|$0Lc
-|$0ff
-|$0fff
-|$0t3
-|$0u	A
-|$0vOL
-|$2fA;
-|$4A;] u
-|$4E3
-|$4H9
-|$8;\$Hs
-|$8<\
-|$8A+
-|$8A;
-|$8A_A^A\
-|$8A_A^A]
-|$8D#
-|$8E3
-|$8H;
-|$8t H
-|$8t6H
-|$@ r
-|$@9|$\
-|$@;|$\
-|$@;}
-|$@A9v
-|$@A;
-|$@A_A^A]A\
-|$@D8~8u
-|$@E2
-|$@E3
-|$@H;
-|$@Hc
-|$@ZD
-|$@fD9c
-|$@fH
-|$@fff
-|$@t3
-|$AE3
-|$DI+
-|$H9]
-|$HA9H@
-|$HA;
-|$HD;kD
-|$HE3
-|$HE;<$
-|$HE;D
-|$HfD
-|$LD8|$Pt+H
-|$LD;}0
-|$P	u
-|$PA9~
-|$PA;~
-|$PE3
-|$PH;
-|$PH;}
-|$PI9>
-|$PI9>H
-|$PL+|$XI
-|$Pt	I
-|$Pu	H
-|$PudH
-|$T v
-|$T w
-|$TE3
-|$TL+
-|$X;t$P
-|$XA;
-|$XE2
-|$XE3
-|$XE;
-|$XH;
-|$Xff
-|$Xu	A
-|$XubH
-|$XunE
-|$\A;|$
-|$\D;|$X
-|$`A8\$
-|$`A;
-|$`D9
-|$`D9|$d
-|$`D;|$d
-|$`E2
-|$`E3
-|$`E9<$v"fff
-|$`H+
-|$`H;
-|$`I+
-|$`I;
-|$`L+
-|$`L;
-|$`fA
-|$`ff
-|$`fff
-|$`trH
-|$d@8|$ht+H
-|$hD;
-|$hE3
-|$hE9M 
-|$hH;
-|$hH;}
-|$hHc
-|$hL+
-|$hfH
-|$hfff
-|$htOL
-|$ht^L
-|$pD9a@
-|$pE;
-|$pH;
-|$pL9
-|$pPE
-|$pt	E
-|$pt#I
-|$pt.H
-|$tA;
-|$tD;|$D
-|$tH9E
-|$tf!D$rH
-|$x r
-|$xA8x
-|$xE3
-|$xE;
-|$xH+
-|$xfD
-|)(	u)I
-|9T(t
-|hK,_
-|xy{wzvuyu
-||||}}}}~~~~
-||}}~~
-}"f;nhu
-}(D;}
-},@8}0
-}3@8}7t*H
-}8fD;qhu1L
-}@L	u
-}HE9} 
-}K@8}Ot0H
-}Ot,H
 }yXZ,
-~,(r4
-~@A;o

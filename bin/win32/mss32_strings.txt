@@ -1,18 +1,9 @@
-	%s - %s
-	%s, labeled (%s) - status %s
-	%s: refcount: %d
-	080w0
-	X 9} 
                           
                                 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (Read only)
- 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
- 2$2(2,202<2@2p2t2
- 9^;O
- @X94<
 !-Result = %d
 !-Result = %f
 !-Result = %ld
@@ -22,874 +13,80 @@
 !-Result = 0x%lX
 !Miles detected memory error - Double freed memory...?(%X)
 !Miles memory allocation failed! (requested %d bytes)
-!This program cannot be run in DOS mode.
 "$&(    #%')    #%')!!!!$&(*!!!!$&(*""""%')+""""%')+####&(*,####&(*,$$$$')+-$$$$')+-%%%%(*,.%%%%(*,.&&&&)+-/&&&&)+-/''''*,.0''''*,.0((((+-/1((((+-/1)))),.02)))),.02****-/13****-/13++++.024++++.024,,,,/135,,,,/135----0246----0246....1357....1357////2468////246800003579000035791111468:1111468:2222579;2222579;333368:<333368:<444479;=444479;=55558:<>55558:<>66669;=?66669;=?7777:<>@7777:<>@8888;=?A8888;=?A9999<>@B9999<>@B::::=?AC::::=?AC;;;;>@BD;;;;>@BD<<<<?ACE<<<<?ACE====@BDF====@BDF>>>>ACEG>>>>ACEG????BDFH????BDFH@@@@CEGI@@@@CEGIAAAADFHJAAAADFHJBBBBEGIKBBBBEGIKCCCCFHJLCCCCFHJLDDDDGIKMDDDDGIKMEEEEHJLNEEEEHJLNFFFFIKMOFFFFIKMOGGGGJLNPGGGGJLNPHHHHKMOQHHHHKMOQIIIILNPRIIIILNPRJJJJMOQSJJJJMOQSKKKKNPRTKKKKNPRTLLLLOQSULLLLOQSUMMMMPRTVMMMMPRTVNNNNQSUWNNNNQSUWOOOORTVXOOOORTVXPPPPSUWXPPPPSUWXQQQQTVXXQQQQTVXXRRRRUWXXRRRRUWXXSSSSVXXXSSSSVXXXTTTTWXXXTTTTWXXXUUUUXXXXUUUUXXXXVVVVXXXXVVVVXXXXWWWWXXXXWWWWXXXX
-"()}/
-$0(04080D0H0T0X0d0h0t0x0
-$QhL>
-$SVWh
-$VWh,e
-$VWh@s
-$Vh8t
-$Vh<g
-$VhDv
-$VhDx
-$VhL`
-$VhXd
-$Vhlv
-$Vhxx
-$WSVh
-$Wh85
+#D5p
+%00d
 %04x;
 %3.1f
-%3.1f%%
-%c;%s;%d;
 %f;%f;%f;%f;%f;%f;
 %s;%f;%f;%d;%d;%f;%f;%f;
 %s;%s;%s;%s;%d;%d;%d;%02x;%d;
 %s;%s;%s;%s;%s;%s;%s;%s;
-&0+0a0j0s0}0
-&?~YK|
-'000j0s0
-'0H0{0
 ( 8PX
 ('8PW
 (Marker name not found)
 (null)
-)>X94<
-)t2:M
-*+xi(
-*-;?LQ]cnu
 *.asi
 *.flt
 *.mix
-*0O0U0^0e0j0t0
-+t HHt
-, <Xw
-,0<	~
-- Attempt to initialize the CRT more than once.
-- Attempt to use MSIL code from this assembly during native code initialization
-- CRT not initialized
-- floating point support not loaded
-- not enough space for _onexit/atexit table
-- not enough space for arguments
-- not enough space for environment
-- not enough space for locale information
-- not enough space for lowio initialization
-- not enough space for stdio initialization
-- not enough space for thread data
-- pure virtual function call
-- unable to initialize heap
-- unable to open console device
-- unexpected heap error
-- unexpected multithread lock error
 -------------------------------------------------------------------------------
--030B0I0V0p0
 -64OS
-.K="=
 .SPEEX16
 .SPEEX32
 .SPEEX8
+.VOC
+.WAV
 .binka
-.text
-/A s:
-/A@sK
-/D$,v
-/D$0v
-/F ro
-/up<\
-0 0$0(0,0004080<0@0D0H0L0]0k0
-0 0&0/070@0
-0 0?0H0P0Y0g0
-0 0@0I0Q0Z0h0
-0 1&1/171@1a1j1r1{1
-0!0'0-0=0f0r0z0
-0!0+0D0L0X0]0d0k0w0
-0!0@0P0q0w0
-0#0+040`0i0q0{0
-0#010:0B0X0b0n0x0
-0#1A1K1\1
-0#1M1w1
-0$0,040<0D0`0d0h0l0p0t0x0|0
-0$030N0V0a0s0x0
-0'0/050E0K0W0]0
-0'0v0
-0'121
-0(040P0\0x0
-0(10191?1l1u1
-0)0@0F0N0V0^0r0
-0)11191A1H1V1^1k1t1|1
-0*010j0}0
-0+03090C0M0W0\0e0j0p0x0~0
-0,0=0W0j0
-0,0H0M0W0q0
-010;0E0
-010L0_0u0
-02080E0M0`0|0
-030C0K0d0
-050;0
-070b0h0u0}0
-080S0
-080s0
-090>0I0N0l0
-0A1G1P1`1f1s1~1
-0A@@Ju
-0E0[0
-0N0`0e0
-0R1^1t1
-0SSSSS
-0W3[3_3c3g3k3o3s3w3{3
-0Wh\u
-0Z0o0
-0c8O<
-0o1v1
-1	2$212T2f2V3
-1 1(1,1014181<1@1D1H1L1X1
-1 151;1L1U1_1
-1 1Z1`1
-1 2Y2p2~2
-1"12181@1I1N1U1\1k1{1
-1"1<1g1
-1"2(262>2L2[2b2|2
-1#1;1C1d1
+.mp3
+.ogg
+.raw
+.spx
+.v12
+.v24
+.v29
+.wav
+0x%X
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1@1`1
-1$1e2
-1%1+1<1E1O1x1
-1%1M1r1
-1&1/1R1[1c1l1z1
-1&1@1\1a1k1
-1'1F1T1
-1(111>1G1|1
-1(1?1S1
-1(2R2X2e2m2
-1+131
-1+2=2
-1-2=2w2
-1/1@1E1Q1V1`1u1
-1/1L1k1q1
-101@1L1U1
-121Y1_1h1p1{1
-161G1P1]1e1{1
-171J1`1s1|1
-171P1i1
-181A1N1W1i1
-181C1R1b1k1
-191A1j1
-1<1_1
-1=1B1G1M1R1b1j1p1v1
-1>1D1I1O1V1h1
-1>1D1R1Z1d1
-1?2G2^2}2
 1@B`e>X94<
-1FCBue
-1G1\1
-1G1f1
-1Q2h2n2
-1R1\1d1i1o1
-1T1^1
-1Y1b1z1
-1Y1i1
-1_2f2
-1`1z1
-2	2-2N2V2e2
-2	30363C3K3U3w3
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2&2,22282>2D2J2Y2_2g2o2w2
-2 2)2/2E2N2|2
-2 252A2U2p2
-2 2@2\2`2|2
-2 4(4p7t7
-2"2*242Q2Z2b2k2y2
-2"2<2A2V2]2b2x2
-2"2B2H2U2]2h2
-2"35304D4X4l4
-2$2/2?2D2I2O2T2_2g2m2s2
-2$3B3a3k3x3L6
-2%2-262;2B2H2W2g2w2|2
-2%383W3e3
-2&2p2
-2'2,262P2a2r293n4
-2'242<2N2S2^2m2s2}2
-2'2?2M2a2
-2(2/272<2@2D2m2
-2)2h2
-2)3M3p3
-2*202<2Q2\2a2u2
-2*2Y2p2
-2*3n3w3}3
-2+3R3X3e3m3
-2,232p2}2
-212Q2q2
-213	4;4A4
-244<4a4i4
-252;2D2L2U2t2
-283<3@3D3H3L3
-2:2E2
-2=3g3w3
-2@2F2S2[2e2
-2@2N2V2_2m2|2
-2@3H3T3a3h3p3x3
-2@3}3
-2A3j3
-2E3_3h3
-2F2S2d2
-2G4\4
-2J2g2
-2S2\2
-2T3`3s3{3
-2Y3t3
-2a2j2r2{2
+1t9,
 2ieO=
-2|3z5
-3 3,3H3h3
-3 3-363@3R3X3
-3!3/3G3R3^3p3w3
-3!33393D3X3_3f3t3|3
-3!393A3M3R3Y3`3l3|3
-3#3)323:3C3[3c3o3t3{3
-3#3G3O3X3^3n3w3
-3$3(3,303
-3$323V3\3i3q3|3
-3%333N3d3
-3%3L3v3
-3&3,313I3Y3x3
-3&3@3H3c3}3
-3&3P3^3d3
-3&404D4
-3(3,3034383<3@3D3H3g3
-3(3O3U3b3j3t3
-3(4.4D4O4f4r4
-3)3S3Y3f3n3}3
-3)4<4L4\4
-3)4=4h4
-3*3R3X3e3m3x3
-3+3r3
-3,3i3
-3-333<3D3W3
-3/4?4
-323G3M3X3x3
 333333
 333?333
-394B4K4S4\4t4
-3:3D3P3V3z3
-3>4o4
-3?3X3_3g3l3p3t3
-3B3H3U3]3h3}3
-3D4X4j4
-3M4[4
-3X4\4`4d4h4l4p4t4
-3f4p4
-3l4w4
-4"4-4R4[4`4j4q4
-4"424B4R4d4w4
-4#4-484A4I4R4`4x4
-4$4)43484E4N4Z4g4}4
-4$4/4Z4_4j4r4
-4$404=4G4T4b4j4@5J5P5_5k5s5
-4%454;4K4[4
-4&4/4=4N4o4u4
-4'4/474i4n4
-4(4.474?4G4U4^4f4n4s4
-4(4=4U4[4l4u4
-4(4G4c4t4
-4(5U5
-4)464C4P4]4j4w4
-4*414_4f4z4
-4-4G4_4j4q4
-4/454C4K4U4
-415;5
-415T6f6x6
-424B4f4
-434P4T4X4\4`4d4h4l4p4t4x4|4
-435<5F5T5t5}5
-464_4e4r4z4
-474b4h4u4}4
-474q4
-484A4N4W4w4
-485>5M5V5a5
-485]5e5
-494?4h4x4
-4C5I5W5x5
-4K5U5o5
-4L4o4
-4M4T4X4\4`4d4h4l4p4
-4M5U5a5f5m5t5
-4N4T4X4\4`4
-4P4V4q4
-4T4Z4z4
-4h5l5p5t5x5|5
-4l4q4
+4g%6
 4lkQg
-5	6)6B6b6{6
-5	6-6d6
-5 5*5
-5!5(5:5E5V5]5y5
-5!5)545F5U5]5
-5!5*535D5
-5!5K5}5
-5#5+555E5i5w5
-5#666`6p6
-5#6B6H6U6]6p6
-5$525F5m5
-5$5q5
-5%6+646<6E6R6^6h6w6}6
-5(575_5
-5(626B6
-5)6\6
-5+5W5b5s5
-5,545A5_5i5r5}5
-5,585}5
-5,686
-5-5<5`5f5s5{5
-5.575?5H5V5
-50575z5(6q6|6
-505Z5h5p5y5
-50;0I0j0
-52575<5B5G5S5Y5d5x5
-536?6E6K6Q6p6y6
-536H6>7s8
-545v5
-565X5
-5:5W5
-5<5C5
-5>5D5O5W5`5n5
-5>5J5O5V5]5l5
-5?5O5
-5@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-5A5S5o5
-5B5L?
-5B5X5a5n5w5
-5E5S5[5m5{5
-5G5q5
-5K6 7f7
-5Q5j5y5~5
-5R5_5i5w5
 5SmT4
-5W6]6m6
-5Y5x5
-5b5r5
-5b6i6
-5g5|5
-6	7(7=7E7J7T7l7
-6 6)676F6p6v6
-6 6.6P6V6c6k6u6
-6!7*727D7R7x7
-6!7<7G7]7j7o7
-6"6*666?6D6J6T6]6h6t6y6
-6"6,686A6I6S6Y6_6
-6"7(757=7H7
-6"7(757=7H7k7y7
-6"7/7
-6#6)646H6X6`6k6
-6#6*666F6V6
-6#656?6S6}6
-6$6(767D7M7R7Y7n7w7
-6$6)636Q6Y6b6v6{6
-6$6-6:6F6P6Y6d6i6t6
-6$61696A6i6n6
-6$6P6l6
-6$747
-6%6-666D6X6a6n6w6
-6%6-666D6b6h6u6}6
-6%6-686s6
-6%7,777=7G7_7
-6'6G6e6
-6(6/676@6Q6g6o6x6~6
-6)7L7S7
-6*656=6F6T6
-6,6}6!7+7M7
-6/686K6^6j6r6{6
-62686A6I6R6i6t6
-636K6R6k6u6{6
-646T6_7h7
-646]6
-657U7
-697L7h7z7
-6F6~6
-6M7o8x8
-6N6b6h6u6
-6d7v7
-7	7(7C7|7
-7 7$7
-7 7+787\7l7
-7 878}8
-7 8D8y8
-7 9\9`9d9h9l9p9t9x9
-7!717W7a7q7
-7!888A8J8Y8w8
-7"777
-7"8(858=8L8
-7#70787@7i7}7
-7#8>8N8
-7$707
-7$727:7D7V7q7
-7%7-787s7
-7%7B7H7Q7Y7b7y7
-7&7Y7d7
-7(787@7I7W7f7
-7(7<7]7g7
-7)7=7j7
-7*8j8v8
-7,7F7V7^7g7u7
-7,8P:[<c<p<
-7-7F7_7x7
-7/8K8
 700PP
 700WP
-717?7G7k7|7
-727E7K7\7e7o7
-73787=7C7H7S7Y7d7x7
-738<8D8M8[8
-777p7
-798U8
-7B7R7m7
-7J8}8
-7K7\7
-7K8S8h8s8Z9
-7V7\7
-7Z8>	
-7\7e7q7
-8	9F9l9
-8 8&8/878@8J8Y8c8l8w8|8
-8 8&8/878@8W8e8m8y8~8
-8 TSP
-8 VNE
-8!8*828O8e8k8x8
-8!858
-8!8\8e8
-8!9`9
-8"8P8]8b8
-8#8(838;8H8Z8i8x8
-8#8,848=8J8S8]8o8u8
-8#8/8?8O8U8	9
-8#:T:d:';-;9;H;|;
-8$8J8P8Y8a8i8w8
-8$9B9H9U9]9p9
-8%858;8H8Q8Z8m8x8
-8%858D8^8d8n8t8~8
-8%9W9e9m9v9
-8&8R8X8e8m8
-8'828:8C8W8\8e8m8x8
-8'898b8
-8'8<8C8W8^8v8
-8'8G8
-8(9L9S9a9{9
-8(9L9i9w9
-8*888R8Z8
-8*uzV@3
-8+838;8G8k8s8~8
-8+8d8m8{8
-8,8R8X8a8i8r8
-8,8R8X8e8m8
-8-858E8V8
-8.8U8[8s8
-858N8g8
-869H9
-898M8q8
-8<8c8i8
-8@<8=
-8BDUAt/
-8BDUAu
-8D8H9
-8D9T9
-8Ghu~
-8H8f8{8
+7Z8>\t
 8HBzL
-8KNABu
-8S9v9
-8SYSEu
-8VVVVV
-8x9Z:
-9 9$9(9u9
-9 9&9A9L9R9`9f9
-9 9M9U9b9
-9!979@9K9S9q9}9
-9"9(91979A9K9P9V9[9a9g9m9
-9#9<9U9n9
-9$9-979F9P9Y9d9i9t9
-9%9+989A9J9a9w9
-9%949;9Q9k9
-9&9Q9
-9&:T:y:
-9'949@9P9W9f9r9
-9'959F9s9y9
-9'9G9s9H:O;
-9'9g9o9x9~9
-9(949>9M9V9g9p9z9
-9)909=9`9u9
-9)92989A9F9U9|9
-9)929<9N9T9z9
-9)9G9
-9)9Q9`9j9
-9*9D9}9
-9*:>:C:T:g:
-9+9%=G=[=
-9+9F9O9f9
-9,9E9
-9-:3:D:n:
-919E9K9X9a9j9
-91:;:M:s;
-91:Z:
-91t	@
-949V9k9
-94:I:R:g:
-989A9N9W9
-9=9M9
-9>tr;
-9AXtn
-9B9H9_9k9
-9B:S:p:z:
-9E9K9
-9E9w:
-9F$u.
-9G tK
-9G9]9e9j9t9
-9I9d9
-9J9y92:
-9KNABt
-9KNABu*
-9L9Q9W9\9
-9O:r:x:
-9Ptu5
-9S9[9d9i9p9w9
-9SYSEu
-9T$ t!
-9XXt3
-9X`tA
-9Xdt&j
-9Y>)F$
-9] SS
-9]$SS
-9wTu	
-9w\u8
-9|$Xt
-: :$:(:,:0:z:
-: :.:?:P:[:a:j:r:~:
-: :8:<:@:D:H:k:z:
-:!;:;
-:#:):/:
-:$:):8:E:[:
-:%:+:8:A:J:g:|:
-:&:/:Q:e:k:|:
-:&:3:;:C:i:}:
-:&:5:A:P:[:j:v:
-:&:B:H:
-:':8:I:
-:':@:Y:r:
-:'<1<m<w<
-:(:4:?:D:J:V:\:e:m:v:
-:):1:H:l:y:
-:):x:
-:*;=;
-:*;Y;
-:-:E:k:
-:-:b:
-:1:[:o:
-:1;7;G;O;s;
-:3:I:m:
-:6:D:L:U:c:t:
-:;:J:S:w:
-:<:J:R:[:i:x:
-:@:I:w:
-:E t	:E
-:G:q:
-:H:P:Y:_:u:~:
-:K;k;[<
-:M t @
-:M;W;o;v;
-:O:h:r:}:
-:P:`:
-:]=O>
-:^:f:u:}:
-:`:|:
-:b;v;
-:h"?bC
-:l;9=
-:p;F<
-:u;{;
-; ;G;[;
-;!;&;0;S;
-;!;0;?;U;`;
-;!<'<\=k=
-;";*;5;@;E;P;X;e;w;
-;";n;z<
-;#;(;2;9;D;M;^;o;t;
-;$;8;H;P;Y;g;
-;$;F;O;W;`;n;
-;%;I;O;X;`;h;
-;%;L;T;];c;p;y;
-;%<><D<O<W<h<
 ;%s;%s;%f;%s;%x;%x;%x;
-;&;O;U;^;f;o;
-;&<Y<
-;';.;4;:;B;b;o;
-;(;6;L;
-;*<.<2<6<
-;*uYC;
-;*usf
-;-;s;
-;.;3;9;y;
-;.;=;E;i;};
-;/;9;t;
-;0;9;A;J;X;
-;0;L;Q;[;x;
-;0;];x;
-;1FCBun
-;5;:;?;h;
-;6;N;b;
-;8;J;P;\;d;r;
-;8<G<S<
-;9>G>M>g>l>{>
-;:<D<N<t<
-;;;d;
-;D;J;
-;D;d;
-;J;R;
-;M;_;
-;O;\;C<L<u<
-;Q<h<
-;T$(~
-;V$uh
-;V<(=,=0=4=8=<=
-;\<s<
-;g<|<
-;j;s;};
-;p;t;x;|;
-;q;w;
-;t$,v-
-< =X=
-< tK<	tG
-<!<&<,<7<@<I<Q<Z<r<z<
-<!<L<Q<c<~<
-<"</<7<C< =&=/=7=F=g=s=
-<"=+=3=<=J=e=k=x=
-<#<)</<5<;<A<G<M<S<Y<_<e<k<{<
-<#<9<b<o<z<
-<$<)<3<P<l<q<{<
-<$<5<;<D<L<d<
-<$<8<H<S<p<u<
-<$<:<
-<$<[<~<
-<$tmf
-<%<+<4<<<E<R<[<e<w<
-<%<.<6<?<w<
-<%<2<@<L<T<^<m<s<}<
-<%<5<?<E<N<T<`<x<~<
-<%<A<P<X<j<x<
-<%=/=4=?=L=W=y=
-<&</<P<Y<a<j<x<
-<&<8<C<H<R<W<`<z<
-<&<I<]<q<
-<&=.=T=x=
-<'<B<]=l=
-<'T4l?
-<(<6<_<e<n<v<
-<+=M=W=p=v=~=
-<+t(<-t$:
-<,<1<9<?<F<L<S<Y<a<h<m<u<~<
-<,<e<o<
-<-<3<D<]<g<t<
-<-<;<C<L<Z<k<
-<.<5<C<Y<f<k<s<
-<0<5<
-<2<8<E<M<d<
-<5=R=X=e=m=
-<6=G=W=\=d=
-<7<Z<`<i<q<z<
 <8bunz8
-<9<H<
-<9~#<-t
-<9~'<-t#<.t
-<9~*<-t&<.t"
-<9~C<-t?<.t;
-<:<I<_<u<z<
-<;=l=
-<<<a<
-<<<k<
-<<>A>F>L>P>V>Z>`>d>j>n>s>y>}>
-<>=C=y=
-<?<E<N<V<_<
 <@En[vP
-<H=\=f=w=
-<L=x=
-<Q<f<s<
-<SVW3
-<T=x=
-<U=x=
-<Y<i<
-<\<a<
-<]=h=w=
-<at9<rt,<wt
-<k>K?
 <program name unknown>
-<{Q}<
-= =)=1=:=Y=
-=!=*=7=@=J=V=a=f=l=s=
-="=&=*=.=2=6=:=>=B=F=J=N=R=V=Z=^=b=f=j=n=r=v=z=~=
-="=/=:=
-=$=*=7=W=]=y=
-=$=,=5=Q=`=h=z=
-=$=.=9=?=E=K=Q=W=]=c=i=o=u={=
-=$=/=>=
-=$>)>@>
-=$>4>^>e>
-=%=C=H=R=j=
-=%>+>4><>E>a>p>x>
-=&=.=;=N=b=h=q=y=
-='=/=8=>=f=m=w=
-='=4=q=y=
-='>d>n>
-=*=3=;=D=R=p=v=
-=*=E=K=\=e=o=
-=,=;=`=f=s={=
-=-===C=m=|=
-=-=W=
-=/=r=
-=0=?=I=|=
-=1=W=
-=3=8=>=E=K=Q=W=]=
-=4=@=w=m>n?x?
-=4=]=h=
-=7>@>
-=9=M=x=
-=:>v>}>
-=;=v=
-===F=a=m=y=
-=BDUA
-=BDUAu
-=C=x=
-=D=R=Z=c=q=
-=D=T=
-=DLS u
-=G>Z?`?h?p?y?
-=I=N=e=m=
-=KNABu
-=MLS u
-=S>\>b>g>
-=S>i>o>|>
 =X94<
-=Y=t=
-=Z?n?
-=\uI=
-=yX(=
-> >$>(>,>0>p>
-> >&>+>F>V>f>r>
-> >(>,>0>4>8><>@>D>H>L>P>T>
-> >)>7>b>h>q>y>
-> >*>;>
-> >?>O>a>f>
-> TSP
->!>0>:>C>N>S>^>j>p>y>
->!>1>9>U>e>m>
->!>5>:>C>K>V>h>w>
->!>7>>>W>_>h>n>
->!>9>U>Z>d>
->">/>M>^>n>|>
->#>,>5>>>J>V>_>h>
->#>,>5>E>a>
->#?/?7???L?]?w?
->$>,>4><>D>L>T>\>d>l>t>|>
->$><>B>Q>W>f>l>z>
->%>*>1>8>G>W>g>m>
->&>,>?>X>a>i>
->'>3>9>D>L>V>c>l>v>
->'>C>O>W>_>l>}>
->,'1D=
->,>@>L>Q>X>_>k>
->-><>`>f>o>w>
->->B>g>~>
->->U>[>d>l>
->->U>[>d>l>u>
->.>4>d>m>u>}>
->/?9?\?f?
->/?g?
->0>8>_>m>f?|?
->1>\>a>f>l>q>
->2>9>U>^>c>m>t>
->2>=>E>N>\>y>
->3>_>i>}>
->9>N>
->9?Y?x?
->:u8FV
->;?E?
-><>W>]>f>m>
->=Yt1j
->=upF
->H?h?
->If90t
->KNABu
->W>a>u>
->f>l>y>
-? TSPu
-? VNE
-?!?'?-?;?M?\?d?
-?!?'?1?8?L?S?Y?g?n?s?|?
-?!?+?5???I?S?]?g?n?
-?!?,?6?D?I?T?s?
-?!?.?3?C?\?d?o?z?
-?!?5?
-?"?0?Q?
-?#%X.y
-?#?4?B?K?P?Z?a?
-?#?>?I?
-?#?H?N?y?
-?$?)?/?<?C?
-?$?)?6?>?M?T?a?
-?$?/?7?@?N?k?q?
-?$?8?
-?$?A?R?`?l?q?{?
 ?$rxxx
-?%?/?O?p?v?
-?%?1?6?=?D?P?d?w?}?
-?%?5?K?d?}?
-?%?I?R?Z?c?q?
-?&?3?;?H?P?X?
-?&?H?
-?(FN\
-?)?3?:?E?N?d?o?
-?)?4?<?
-?)?V?\?i?q?
-?)?h?o?u?
-?*?I?N?
-?,?F?e?
-?-???Q?c?u?
-?.?9?b?j?v?
-?.?>?F?\?l?t?
-?.?T?e?k?|?
-?/?D?K?Q?[?a?
-?1?6?@?]?y?~?
-?1???
 ?333333
-?5?;?D?L?l?
+?3xj
+?4Td
+?5a1
 ?765@Z
-?7?=?U?[?d?l?u?
 ?7Tf(
-?>6)}
-?BDUAu
-?D?R?Z?b?i?w?}?
-?E?K?\?e?r?
+?FnH
 ?IT$7
+?KYC
+?Ltm
+?PV3
+?PiB
 ?UUUUUU
-?V:e:
 ?X&eB
 ?X94<
-?ZEM-'^
-?e')lW
-?g)([|X>=
-?h6_~
+?Zxg
+?dDR
 ?ju!4
-?l$G~
-?t	</u
-?{yK+;
-?|I7Z#
-@.data
-@.reloc
-@.rsrc
-@;D$4
+?pow
 @AIL_3D_distance_factor(0x%lX)
 @AIL_3D_doppler_factor(0x%lX)
 @AIL_3D_rolloff_factor(0x%lX)
@@ -1102,10 +299,8 @@ $Wh85
 @AIL_stream_user_data(0x%lX,%lu)
 @AIL_update_listener_3D_position(0x%lX,%f)
 @AIL_update_sample_3D_position(0x%lX,%f)
-@H#?43
-@PWSS
-@XSRQh@S
-@Y@PW
+@VNQ
+A'z2
 A8r.-
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADCPM decompression
@@ -1139,7 +334,6 @@ AIL_sys_debug
 AIL_text_dump_event_system()
 AIL_variable_float(0x%lX%s, 0x%lX)
 AIL_variable_int(0x%lX%s, 0x%lX)
-APSVW
 ASI codec
 ASI provider for this file type failed to initialize
 ASI stream
@@ -1151,23 +345,20 @@ ASI_stream_open
 ASI_stream_process
 ASI_stream_property
 ASI_stream_seek
+Ai0T
 AiFC.
-An application has made an attempt to load the C runtime library incorrectly.
 April
 Attempt to load obsolete (pre-V1.30) RIB
 August
-Ax#?uN}*
-BDUAu
-Bank Dump:
+Bank Dump:\n
 Bank file name doesn't match the loaded file.
 Bank file version doesn't match this runtime.
+Bfe9
 Bink Audio decompression
 Bink Audio provider failed to initialize.
 Bink Audio provider not found.
 Both indices must refer to installed busses.
 Broken waveOut driver - 'buffer done' flag never set.
-C VW;
-C0PWRQ
 C:\devel\projects\mss\build\win\mss32.pdb
 C:\devel\projects\mss\src\sdk\shared\flt.cpp
 C:\devel\projects\mss\src\sdk\shared\genericmss.cpp
@@ -1184,6 +375,7 @@ C:\devel\projects\mss\src\sdk\shared\wavefile.cpp
 C:\devel\projects\mss\src\sdk\win\mssdig.cpp
 C:\devel\projects\mss\src\sdk\win\mssinput.cpp
 C:\devel\projects\mss\src\shared\stringbuilder.h
+CAT 
 CONOUT$
 Can't audition without a sound bank name.
 Channel buffer allocation failed.
@@ -1195,7 +387,6 @@ CompareStringW
 Compressor Filter
 Compressor Filter Not Found
 Copy to final output
-Copyright (C) 1991-2010 RAD Game Tools, Inc.
 CorExitProcess
 Could not allocate HDR_USER structures.
 Could not allocate SAMPLE structures.
@@ -1222,39 +413,10 @@ Creative Labs EAX 2 (TM)
 Creative Labs EAX 3 (TM)
 Creative Labs EAX 4 (TM)
 Cue point not found
-Current Instances:
-Current Persists:
-D$ PV
-D$ _^[3
-D$ dN
-D$(;D$0u
-D$(PQR
-D$,HV
-D$,S3
-D$0PQ
-D$0Pj
-D$4XQ
-D$8<H
-D$<RPQ
-D$<XN
-D$<_^
-D$<_^[
-D$<t(9
-D$<t(9=
-D$<tH
-D$@PV
-D$DlQ
-D$PPQ
-D$T0Q
-D$TxN
-D$XPj
-D$d0F
-D$dDQ
-D$pPj
-D$t@F
-D28^]
+Current Instances:\n
+Current Persists:\n
 D<xZu
-DOMAIN error
+DOMAIN error\r\n
 DSOUND.DLL
 DSP filters
 DTS 4.0/5.1 Matrix Filter
@@ -1278,9 +440,7 @@ DirectSoundCreate() failed.
 DirectSoundEnumerateA
 Dolby Surround Matrix Filter
 Driver_state_size
-E B;U
-E4VWQ
-E<f9E8v
+E0d\f
 Eb2]A=
 EmYLm,
 Emulated DirectSound - 
@@ -1292,17 +452,11 @@ Environment Not Found.
 Error getting sound format.
 Error loading filter
 Event Not Found.
-Event System Count: %d
+Event System Count: %d\n
 Exact get position
 Exact seek
 ExitProcess
-F _^[
-F$data
-F(9F v
-F,QWV
 F0$?3=1
-F0QWV
-F4QWV
 F?X94<
 FLTSMP_close_sample
 FLTSMP_open_sample
@@ -1315,6 +469,7 @@ FLT_postmix_process
 FLT_premix_process
 FLT_shutdown
 FLT_startup
+FORM
 Failed to associate driver with output filter
 Failed to get speaker configuration
 Failed to open multichannel driver
@@ -1339,11 +494,8 @@ FreeEnvironmentStringsA
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-F||<##
-G,SV3
-G4_^[
-G8_^[
 GAIsProcessorFeaturePresent
+GYM=
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -1391,11 +543,9 @@ GetWindowThreadProcessId
 GetWindowsDirectoryA
 GlobalAlloc
 GlobalFree
-H#D$X
+H Te
 HH:mm:ss
-HHtXHHt
-HHty+
-H`$?h|
+HMXB
 Hardware voice assignment failed.
 HeapAlloc
 HeapCreate
@@ -1403,6 +553,8 @@ HeapDestroy
 HeapFree
 HeapReAlloc
 HeapSize
+Ht=c
+H|As
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 Input
@@ -1425,35 +577,19 @@ IsValidCodePage
 IsWindow
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
-K RQj
-K<<H!
+July
+June
 KERNEL32
 KERNEL32.dll
-KNABtY9
-KNABu
-L$ Qj
-L$(QP
-L$(QS
-L$(Qh 
-L$0QRP
-L$0RPQ
-L$4QPV
-L$4QSh
-L$4_^[3
-L$8QW
-L$@QV
-L$HQW
-L$PQj
-L$`VQS
-L$dQW
-L$pQV
-L$|VQS
 LCMapStringA
 LCMapStringW
+LIST
 L_b;x
+La8i
+Le?2
 LeaveCriticalSection
 LoadLibraryA
-Loaded Bank Count: %d
+Loaded Bank Count: %d\n
 LoopEnd
 LoopStart
 Low-pass
@@ -1471,10 +607,12 @@ MSS pipeline filter
 MSS voice filter
 MSSAsync
 MSSTimer
+MThd
 March
 Marker not found
 Matrix filter already associated with driver
 Matrix filters require 16-bit PCM output format
+MbP?
 MbP?o
 MbP?{
 MessageBoxA
@@ -1485,7 +623,6 @@ Miles IO
 Miles IO mutex
 Miles IO mutex block
 Miles Mixer
-Miles Sound System
 Miles Sound System usage script generated by MSS V9.3k
 Miles Timer
 Miles alloc: %t
@@ -1520,17 +657,16 @@ Minimum input block size
 Minimum input stream size
 Minimum sample buffer size
 Mismatched Miles/Telemetry versions.
+MkK?
 Monday
 MultiByteToWideChar
-N$WQSS
-N&E-<4
-NTj WQ
+NKeb
 Network Bank
-NlQRP
 No codec found for requested input type.
 No list chunk found
 No marker or loop information in file.
 Non-PCM wave data type not supported.
+None
 Not KSDATAFORMAT_SUBTYPE_PCM.
 Not a WAV file.
 Not a WAVEFORMATPCMEX file.
@@ -1538,6 +674,7 @@ Not a filter provider
 November
 October
 Ogg decompression
+OggS
 One or more entries not found
 One or more requested entries not found
 Other decompression
@@ -1556,67 +693,36 @@ Output reservoir
 Output sample rate
 Output sample width
 OutputDebugStringA
-PPPPP
-PPPPPPPP
-PQRSVh
-PQSVWh<h
-PQSWVh(b
+PO79
 PROVIDER_property
-PSVWh
-PSWVh
-PSWVh u
-PSWVh4w
-PSWVhPz
-PSWVhhw
-PSh8_
-PTjZh
-PVVRV
-PWSQRh
-PXQSh@S
 Percent done
-Persistent Preset Count: %d
+Persistent Preset Count: %d\n
 Pex?0
 Pipeline filter driver services
 Pipeline filter sample services
-Pj,RQ
-Please contact the application's support team for more information.
 Position
 Preset Not Found.
 Profile index
-Program: 
-QPVWh
-QPj;h
-QQSV3
-QRPSWVh
-QRPh`r
-QSWVj
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R6002
-R6008
-R6009
-R6016
-R6017
-R6018
-R6019
-R6024
-R6025
-R6026
-R6027
-R6028
-R6030
-R6031
-R6032
-R6033
-R6034
-RADCONST
-RADDATA
-RAD_NO_SET_THREAD_NAMES
-RIFFu-
-RPQWVh
-RPQhHc
+R6002\r\n- floating point support not loaded\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6009\r\n- not enough space for environment\r\n
+R6016\r\n- not enough space for thread data\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6018\r\n- unexpected heap error\r\n
+R6019\r\n- unable to open console device\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6025\r\n- pure virtual function call\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6030\r\n- CRT not initialized\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
 RSDS?
-RSh0H
 RaiseException
 Raw source channels
 Raw source sample rate
@@ -1633,28 +739,11 @@ Reset
 ResumeThread
 Reverb mix
 RtlUnwind
-Runtime Error!
+Runtime Error!\n\nProgram: 
 S%A40C
-SING error
-SPQRVhH}
-SPWQh
-SPWhX|
+S;uD
+SING error\r\n
 SRS Circle Surround 6.1 Matrix Filter
-SSSSS
-SSSSSP
-SSSSW
-SVWQP
-SVWUj
-SVWtm
-SVhHo
-SWVPQRh
-SWVhPy
-SWVhhf
-SWh j
-SWhHj
-SWhHp
-SWhpj
-SWh|X
 Sample's ASI Decoder doesn't support looping at sample accuracy.
 SampleEnd
 SampleStart
@@ -1675,65 +764,33 @@ SetStdHandle
 SetThreadPriority
 SetUnhandledExceptionFilter
 Silence
-SjdQR
 Sleep
-Sound Instance Count: %d
+Sound Instance Count: %d\n
 Sound Preset Error - Filter Not Found.
-Sound Source Count: %d
+Sound Source Count: %d\n
 Sound file isn't a bank.
-Source Dump:
+Source Dump:\n
 Speex
 Start of buffer callbacks
 Start time: %s
 Stream seek position
 SunMonTueWedThuFriSat
 Sunday
-SwitchToThread
-System #%d
-T$ RPQ
-T$ Rj
-T$ vJ
-T$$QR
-T$$RV
-T$$Rj
-T$$VR
-T$(R3
-T$(RP
-T$(Rj
-T$,RWVP
-T$/RP
-T$0RP
-T$0RQV
-T$0Rj
-T$8RP
-T$8RPh
-T$@RV
-T$DRS
-T$DWW
-T$PRj
-T$\;L$<u>
-T$`VRS
-T$pRP
-T$|VRS
-TLOSS error
+System #%d\n
+TLOSS error\r\n
 TerminateProcess
 The DirectSound DLL could not be loaded.
 The MSS DLL file is installed in the Windows or Windows system directory - it must be installed in the application directory.
-This application has requested the Runtime to terminate it in an unusual way.
-This indicates a bug in your application.
-This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
 Thursday
 Timer waiting
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-TryEnterCriticalSection
+True
 Tuesday
 T~OXu
 UNICODE
-UQPXY]Y[
-URPQQh,
 USER32.DLL
 USER32.dll
 UTF-16LE
@@ -1751,7 +808,7 @@ Unsupported multichannel PCM data format.
 Unsupported multichannel format.
 Unsupported output format (MSS_MC_SPEC enum required)
 Unsupported wave file format.
-V%A+=
+V-Ai
 VDRV_driver_property
 VDRV_force_update
 VFLT_assign_sample_voice
@@ -1762,98 +819,34 @@ VFLT_release_sample_voice
 VFLT_shutdown
 VFLT_start_sample_voice
 VFLT_startup
-VRhdN
 VSMP_sample_property
-VSPhDm
-VSWPQRh
-VSWPQh
-VTj SR
-VVVVS
-VVVVV
-VVVVVQRSSj
-VVVVj
-VWSPQ
-VWSPQR
-VWSPQRh
-VWSPQRh\i
-VWSPQh
-VWSPQh(l
-VWSPh
-VWSPh\Z
-VWSPh\a
-VWSPhpq
-VWShDm
-VWShL]
-VWShX_
-VWShdl
-VWShpu
-VWShth
-VWh(Y
-VWh0\
-VWhH[
-VWhL{
-VWhTu
-VWhh\
-VWhx]
-VWh|`
-VWh|n
-VWt#9
-VWt'9
-VW|[;
 VirtualAlloc
 VirtualFree
 Voice filter already associated with driver
 Voice filter driver services
 Voice filter sample services
-W2^2r2
-W95Pa
+W4vC
+WAVE
 WINMM.dll
-WPSVh
-WSVPh,i
-WSVhdb
-WSVhpo
-WVSPQh
-WVSPhhk
-WVSh {
-WVSh(p
-WVShds
-WVh `
-WVh$k
-WVh(Y
-WVh(^
-WVhHY
-WVhHo
-WVhPn
-WVh\e
-WVhpm
-WWWWV
-WWWWW
 WaitForSingleObject
 Waiting for IO request
 Waiting on Miles IO
 Waiting on SPU
-Warning: DirectSound playback reset due to non-moving playback cursor (buggy sound driver) time: %i play: %i write: %i.
+Warning: DirectSound playback reset due to non-moving playback cursor (buggy sound driver) time: %i play: %i write: %i.\n
 WaveOut - 
 Wednesday
 WideCharToMultiByte
 WriteConsoleA
 WriteConsoleW
 WriteFile
-X0l0v0
-XD$ k
-Y;= N
-Y_^[]
-Y__^[
+X4I+
+XDIR
+XDLS
+ZyrI
 [%.02d:%.02d:%.02d.%.03d] 
-[j@j 
-\$ v_
-\$ vb
-\$$t"9
-\$$vb
-\0e0k0
-]vQ<)8
-^SSSSS
-^WWWWW
+\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
+\t%s, labeled (%s) - status %s\n
+\t%s: refcount: %d\n
 ^\sY0
 _AIL_3D_distance_factor@4
 _AIL_3D_doppler_factor@4
@@ -2178,6 +1171,7 @@ _AIL_us_count64@0
 _AIL_us_count@0
 _AuxBusDAC0
 _AuxBusDb0
+_Bus
 _MIX_RIB_MAIN@20
 _MSS_alloc_info@16
 _MSS_free_info@16
@@ -2247,135 +1241,88 @@ _RIB_set_provider_system_data@12
 _RIB_set_provider_user_data@12
 _RIB_type_string@8
 _RIB_unregister_interface@16
-_VVVVV
-_^[Y]
 _cabs
 _hypot
 _logb
 _nextafter
-`.rdata
 `EdFIhJ
-`MSSMIXER
-`RADCODE
-`h````
 `h`hhh
-a102^2v2
+aDJ=
 abcdefghijklmnopqrstuvwxyz
+acos
+adtl
+asin
+atan
 atan2
+c?e2
+cb~q
+ceil
 complete
-datat]
-datau
+cosh
+cue 
+data
 dddd, MMMM dd, yyyy
 e+000
 exp10
+fSOs
+fabs
+fact
 floor
-fmt 9
+fmod
+fmt 
 frexp
 hI{L[
 hb?O2
-i%*+ 
-j"^SSSSS
-j@j ^V
-jd_Fj
+ibzP
+k:UG
+kU'9
+labl
 ldexp
 log10
+ls1=
 lstrcatA
 m1WY$
+modf
 mss32.dll
 np?z 
-p$hh@
 pending
 playing
+pnJ=
 qRAD_USE_TGT
-qqRichL
-r0f;H
-r0f;p
 r7Yr7=
+r\nly
 raB3G
 runtime error 
-s$hh@
-s'F;5
 sU0&?W
 sffd4d4fff
+sinh
+smpl
+sqrt
 ssfsd1d1d1
 sssd1
 ssssd4d4d4c4d4
 sssssc1d1fd1
 ssssssssd4d1d1uuc1c1sfffffd1d1
-t	VVPQ
-t"SS9]
-t$hL#
-t%HHt
-t'Ph0
-t)5E#i
-t*;5|_
-t+9|$@t
-t+;=|_
-t+WWVPV
-t,hPU
-t/h L
-t/h8L
-t4h`K
-t8;=|_
-t8hXD
-tD<?t@
-tEHt1
-tGHt.Ht&
-tJhXD
-tNIt?It0It 
-tNVSP
-tPWPS
-tRHtCHt4Ht%HtFHHt
-tS;=|_
-tSj=V
-tU<?tQ
-tVHtG
-t^98u
-t_h8W
-ti<:t
+tLVv
+tanh
 timeBeginPeriod
 timeEndPeriod
 timeGetTime
-tk;=|_
-to=(Q
-tqJtE
-tu9=\
-t{~Bj
-u WPS
-u#h$T
-u%;T$ t};
-u&WVS
-u.hh@
-u/hh@
-u09t$
-u2_^[
-u5h8A
-u8SS3
-u;h\?
-u<hdV
 u?^p?o4
-uAhh@
-uGh\?
-uGhh@
-uL9=L|
-uRhh@
-ueh\?
+uXO=
 unknown
-uuh0m
-v	N+D$
-v$;5LQ
-v|;t$ 
-wIVSP
+vH7B
+w7H-
 waveInAddBuffer
-waveInAddBuffer() failed, code = 0x%X
+waveInAddBuffer() failed, code = 0x%X\n
 waveInClose
 waveInOpen
-waveInOpen() failed, code = 0x%X
+waveInOpen() failed, code = 0x%X\n
 waveInPrepareHeader
-waveInPrepareHeader() failed, code = 0x%X
+waveInPrepareHeader() failed, code = 0x%X\n
 waveInReset
 waveInStart
-waveInStart() failed, code = 0x%X
+waveInStart() failed, code = 0x%X\n
 waveInUnprepareHeader
 waveOutClose
 waveOutGetDevCapsA
@@ -2389,18 +1336,13 @@ waveOutWrite
 wsprintfA
 xppwpp
 xpxxxx
-y1~?|"
-z</tq<\tm
+yE>H
+yx|o
+z1}B
 z?aUY
 zc%C1
-{$hh@
-|$$1u
-|$$QS
-|$(B;T$D
-|$0RP
-|)P!?Ua0
+zyC7
+{4Wf
 |W8A=
-}3j8h
-}:j8h
-}Dto9
-~,WPV
+}6lw
+}Tw5

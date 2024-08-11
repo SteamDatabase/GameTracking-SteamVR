@@ -1,15 +1,13 @@
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
 .cctor
 .ctor
-.text
 <Module>
-@.reloc
 AddComponentMenu
 Application
 Awake
+BSJB
 BasePoseProvider
 C:\perforce\keithb_ZACHT\vr\unity\main\tutorial_2018\Temp\UnityEngine.SpatialTracking.pdb
 CacheLocalPosition
@@ -26,6 +24,7 @@ DeviceDeprecated
 DeviceType
 DisableAutoXRCameraTracking
 Dispose
+Enum
 FisheyeCameraDeprected
 FixedUpdate
 FlagsAttribute
@@ -39,6 +38,7 @@ GetNodeStates
 GetPoseData
 GetTransformedBy
 HasStereoCamera
+Head
 IDisposable
 InternalsVisibleToAttribute
 LeftEye
@@ -61,6 +61,7 @@ PoseStatus
 Poses
 PositionOnly
 Quaternion
+RSDS
 RemotePose
 ResetToCachedLocalPosition
 RightEye
@@ -110,7 +111,6 @@ XR/Tracked Pose Driver
 XRNode
 XRNodeState
 _CorDllMain
-`.rsrc
 add_onBeforeRender
 device
 get_Count
@@ -143,6 +143,7 @@ mscoree.dll
 mscorlib
 newPosition
 newRotation
+node
 nodeStates
 op_Inequality
 output

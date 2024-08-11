@@ -1,20 +1,9 @@
-	G+`@
-	a'`>
-	glyphRect
-	i/@B
-	pointSize
-	styleName
-	~% <
- #Ap[
  & % 304050\
- @[()
  Unity.IntegrationTests.Framework
  UnityEngine.CrashReportingModule
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!G"r"
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -45,7 +34,6 @@
 !UnityEngine.UnityWebRequestModule
 "Assembly-CSharp-firstpass-testable
 "Unity.RuntimeTests.Framework.Tests
-#<X}\
 #Blob
 #GUID
 #Strings
@@ -59,31 +47,31 @@ $UnityEngine.UnityWebRequestWWWModule
 %Unity.IntegrationTests.UnityAnalytics
 &UnityEngine.PerformanceReportingModule
 &UnityEngine.UnityWebRequestAudioModule
-&o(L)
-' Sw'
-' u/)
-' ~	m
 (UnityEngine.UnityWebRequestTextureModule
-)[!$V
+)Mo\nV
 ,UnityEngine.UnityWebRequestAssetBundleModule
+.K8D
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .cctor
 .ctor
-.text
 /Modules/TextCore/Native/FontEngine/FontEngine.h
 0#apc
+0.t8
 0A0C0E0G0I0c0
-0Yn	jZkX
-2 	 0
-2P	 `
-9<`1}
-< G H I 
-<>9__128_0
-<>9__129_0
-<>9__42_0
-<>9__43_0
-<>9__5_0
-<>9__5_1
+0Yn\tjZkX
+0Yvk
+0\n0\f0
+0\t0\v0\r0
+16H\f)
+16N\fI
+2B\fA
+2\ro\nV
+3ZX"
+3\fo\nV
+410U
+41;2
+5Cl\vj
+5Mo\nV
 <>c__DisplayClass2_0
 <>c__DisplayClass3_0
 <AddGlyphPairAdjustmentRecord>b__0
@@ -95,10 +83,10 @@ $UnityEngine.UnityWebRequestWWWModule
 <SortGlyphTable>b__42_0
 <SortKerningPairs>b__5_0
 <SortKerningPairs>b__5_1
+?4r0
 ?Xik"
-@#ap[
-@.reloc
 ALPHA
+ANIM
 APOSTROPHE
 AddCharacter_Internal
 AddColorGradientPreset
@@ -115,12 +103,14 @@ AdjustLineOffset
 Alternate_Substitution
 Apply
 Approximately
-AscII_Left
-AscII_Right
 Assembly-CSharp-testable
 Atlas_Generation_Cancelled
 Awake
+BASE
 BLACK
+BLUE
+BMo\nV
+BSJB
 BaselineCenter
 BaselineFlush
 BaselineGeoAligned
@@ -142,6 +132,8 @@ CENTER
 CLASS
 CZik}w
 CZik}y
+C\fo\nV
+C\ro\nV
 CalculatePreferredValues
 Camera
 Capline
@@ -151,8 +143,10 @@ CaplineGeoAligned
 CaplineJustified
 CaplineLeft
 CaplineRight
+Ceil
 Chaining_Contextual_Positioning
 Chaining_Contextual_Substitution
+Char
 Clamp
 Clear
 ClearFontAssetData
@@ -176,6 +170,7 @@ ContainsKey
 ConvertLegacyKerningData
 ConvertToFloat
 ConvertToUtf32
+Copy
 CreateFontAsset
 CreateInstance
 CurrentItem
@@ -194,6 +189,7 @@ DrawTextHighlight
 DrawUnderlineMesh
 Dynamic
 EnableMasking
+Enum
 Enumerable
 Epsilon
 Equals
@@ -205,8 +201,10 @@ FALSE
 FLUSH
 FillCharacterVertexBuffers
 FillSpriteVertexBuffers
+Find
 FindIndex
 FlagsAttribute
+Font
 FontEngineError
 FontEngineUtilities
 FontStyle
@@ -218,7 +216,10 @@ FontWeights
 FormerlySerializedAsAttribute
 FourCornersGradient
 Func`2
+GDEF
+GPOS
 GREEN
+GSUB
 GenerateText
 GenerateTextMesh
 GetCharacterFromFontAsset
@@ -271,6 +272,7 @@ GetType
 GetUtf16
 GetUtf32
 GetWorldCorners
+Gi\nA
 GlyphAdjustmentRecord
 GlyphLoadFlags
 GlyphMarshallingStruct
@@ -279,6 +281,7 @@ GlyphPackingMode
 GlyphRasterModes
 GlyphRenderMode
 GoogleAR.UnityNative
+HREF
 HYPHEN_MINUS
 HasCharacter
 HasCharacter_Internal
@@ -369,11 +372,12 @@ IsNullOrEmpty
 IsPunctuation
 IsSeparator
 IsTagName
-IsThreadSafe
 IsUpper
 IsWhiteSpace
 Italic
+JSTF
 JUSTIFIED
+KX}6
 KerningPairKey
 Keyword_Bevel
 Keyword_Glow
@@ -383,7 +387,6 @@ Keyword_MASK_TEX
 Keyword_Outline
 Keyword_Ratios
 Keyword_Underlay
-L!!$V
 LOAD_BITMAP_METRICS_ONLY
 LOAD_COMPUTE_METRICS
 LOAD_DEFAULT
@@ -402,6 +405,8 @@ LineSegment
 LinkInfo
 Linked
 List`1
+Lo\nV
+Load
 LoadDefaultStyleSheet
 LoadFontFace
 LoadFontFace_FromFont_Internal
@@ -419,10 +424,12 @@ LogWarning
 LowerCase
 MARGIN_LEFT
 MARGIN_RIGHT
+MATH
 MINUS_EM
 MINUS_PCT
 MINUS_PERCENTAGE
 MINUS_PX
+MKr\v
 Mark_to_Base_Attachment
 Mark_to_Ligature_Attachment
 Mark_to_Mark_Attachment
@@ -447,12 +454,15 @@ MidlineGeoAligned
 MidlineJustified
 MidlineLeft
 MidlineRight
+Mo\nV
 MoveNext
 Multiple_Substitution
 MultiplyColors
 MultiplyPoint3x4
+NAME
 NON_BREAKING_HYPHEN
 NUMBER_SIGN
+Name
 Name!TextCore::FontEngine::GetFaceInfoT
 Name!TextCore::FontEngine::SetFaceSizeT
 Name"TextCore::FontEngine::LoadFontFaceT
@@ -486,6 +496,7 @@ NativeHeaderAttribute
 NativeMethodAttribute
 NativeNameAttribute
 NextPowerOfTwo
+None
 NumericalValue
 ORANGE
 OTFLayoutTableType
@@ -493,15 +504,18 @@ OTFLookupTableType
 OrderBy
 Overflow
 PERIOD
+PLUS
 PLUS_EM
 PLUS_PCT
 PLUS_PERCENTAGE
 PLUS_PX
+PMo\nV
 PURPLE
 PackUV
 PageInfo
 Pair_Adjustment
 Paragraph
+Peek
 Percentage
 Pixels
 Point1
@@ -513,6 +527,7 @@ Predicate`1
 Prepare
 PreviousItem
 PropertyToID
+Push
 Quaternion
 RASTER
 RASTER_HINTED
@@ -530,6 +545,7 @@ RASTER_MODE_NO_HINTING
 RASTER_MODE_SDF
 RASTER_MODE_SDFAA
 RIGHT_SINGLE_QUOTATION
+RSDS
 Raycast
 ReadFontAssetDefinition
 RefreshStyle
@@ -565,6 +581,7 @@ RichTextTagStack`1
 RuntimeCompatibilityAttribute
 SDF16
 SDF32
+SDF8
 SDFAA_HINTED
 SLASH_A
 SLASH_ACTION
@@ -609,6 +626,7 @@ SMOOTH
 SMOOTH_HINTED
 SOFT_HYPHEN
 SPRITE
+SX}6
 SaveGlyphVertexInfo
 SaveSpriteVertexInfo
 SaveWordWrappingState
@@ -663,6 +681,9 @@ System.Linq
 System.Runtime.CompilerServices
 System.Security
 System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+TINT
+TRUE
+T\fo\nV
 TagUnitType
 TagValueType
 TextAlignment
@@ -684,6 +705,7 @@ Texture2D
 TextureFormat
 TextureMapping
 ThenBy
+Thin
 ToList
 ToLower
 ToLowerASCIIFast
@@ -722,11 +744,11 @@ TryPackGlyphInAtlas_Internal
 TryPackGlyphsInAtlas
 TryPackGlyphsInAtlas_Internal
 UInt32
+U\ro\nV
 Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.FontEngine.Editor.Tests
@@ -833,23 +855,43 @@ WHITE
 WORD_JOINER
 WordInfo
 WrapNonExceptionThrows
+XT+E
+X\n83
+X\n8t
 XadvanceOffset
 XmlTagAttribute
-Y/,(o
 YELLOW
+YZX}
 YZX}:
 YZY}:
-Z	kZX
+Yk(8
 ZERO_WIDTH_SPACE
 ZXX}6
+ZZ}7
+Z\tkZX
 [Oq$V
-^@`1}
-^t;l	
-_ w(P
+\fIsThreadSafe
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\nAscII_Left
+\nIAA
+\nascentLine
+\natlasIndex
+\nfamilyName
+\nglyphIndex
+\niZX\n
+\nlineHeight
+\nxPlacement
+\nyPlacement
+\rsubscriptSize
+\tglyphRect
+\tpointSize
+\tstyleName
+\vAscII_Right
+\vUnity.Burst
+\vUnityEngine
+\vdescentLine
 _CorDllMain
-`-O(o
-`-P(o
-`.rsrc
+aB#\fQ
 actionStack
 adjustmentRecordCount
 advance
@@ -857,13 +899,11 @@ alignment
 anchor
 array
 ascender
-ascentLine
 ascii_Left
 ascii_Right
 ascii_left
 ascii_right
 aspectRatio
-atlasIndex
 autoSize
 baseLine
 baseline
@@ -872,8 +912,10 @@ baselineStack
 basicStyleStack
 bearingX
 bearingY
+bold
 bottomLeft
 bottomRight
+cMo\nV
 camera
 capLine
 capacity
@@ -907,16 +949,16 @@ currentMaterialIndex
 currentSpriteAsset
 defaultFontSize
 descender
-descentLine
 dstTexture
 enableExtraPadding
 enableKerning
 endIndex
 endScale
 extraPadding
+fX}6
+f\fo\nV
 fallbackMaterial
 fallbackSpriteAssets
-familyName
 filePath
 first
 firstAdjustmentRecord
@@ -925,6 +967,7 @@ firstGlyphIndex
 firstVisibleCharacter
 firstVisibleCharacterIndex
 flags
+font
 fontAsset
 fontAssets
 fontColorGradient
@@ -1060,7 +1103,6 @@ get_yPlacement
 get_yellow
 get_zero
 glyphCount
-glyphIndex
 glyphIndexes
 glyphPairAdjustmentRecords
 glyphStruct
@@ -1080,6 +1122,7 @@ horizontalAdvance
 horizontalBearingX
 horizontalBearingY
 horizontalMapping
+i&o\nV
 ignoreTextAutoSizing
 includeFallbacks
 includeFontFeatures
@@ -1100,12 +1143,10 @@ isUsingAlternateTypeface
 isVisible
 italic
 italicTypeface
-j ~~%
-k[X}:
+item
+j pJ
 k[Z}8
 k[Z}9
-k[Z};
-k[Z}<
 k[Z}J
 k[Z}K
 k_CarriageReturn
@@ -1173,7 +1214,6 @@ lastVisibleCharacterIndex
 length
 lineCount
 lineExtents
-lineHeight
 lineInfo
 lineJustificationStack
 lineNumber
@@ -1462,6 +1502,7 @@ previousLineScale
 previousWordBreak
 readIndex
 recordCount
+rect
 rectTransform
 referenceCount
 referencedFontAssetGUID
@@ -1611,7 +1652,6 @@ stylePadding
 styleStack
 subscript
 subscriptOffset
-subscriptSize
 superscript
 superscriptOffset
 superscriptSize
@@ -1646,7 +1686,11 @@ uppercase
 useMaxVisibleDescender
 usedGlyphRectCount
 uvLineOffset
+uvs0
+uvs2
+v&o\nV
 v2.0.50727
+vQo\n
 value
 valueHashCode
 valueLength
@@ -1666,6 +1710,7 @@ visibleCharacterCount
 visibleLinkCount
 visibleSpriteCount
 wOq$V
+w\fo\nV
 width
 wordCount
 wordInfo
@@ -1676,7 +1721,6 @@ worldPoint
 writeIndex
 xAdvance
 xOffset
-xPlacement
 yAdvance
-yPlacement
+z\ro\nV
 ~ZW"A

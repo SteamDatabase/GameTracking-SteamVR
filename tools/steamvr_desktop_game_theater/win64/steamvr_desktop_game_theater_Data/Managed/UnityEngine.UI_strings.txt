@@ -1,27 +1,8 @@
-	K 95		s 
-	Microsoft
-	UI/Button
-	UI/Slider!
-	UI/Toggle
-	alignment
-	delegates
-	fontStyle
-	guisystem
-	inputType
-	m_EndEdit
-	{ V5
  $ 8 E W f k q 
  Microsoft 2013
  Z>AJ
-!	3	Z	o	}	
-!=!F!
-!This program cannot be run in DOS mode.
-"-"C"b"
 "Is the toggle currently on or off?
-# ]-.
-#1#>#b#
 #Blob
-#E$T$[$j$
 #GUID
 #Strings
 $$field-0
@@ -32,26 +13,16 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 &Can the Selectable be interacted with?
 'Is Pressed no longer requires eventData
 'Use BaseMeshEffect.ModifyMeshes instead
-(P(k(
-)H)N)Z)
-)S*b*
-)[ :7
-)[ J7
-)[ ^7
-)[ l7
-)[ |7
-* +3+?+J+
-,$-2-
+*Fri
 ,Use OnPopulateMesh(VertexHelper vh) instead.
 -lastSelectedGameObject is no longer supported
 .cctor
 .ctor
-.text
 0onValueChange has been renamed to onValueChanged
-1!	c 
+0q%V
 1.0.0.0
 1The DPI to assume if the screen DPI is not known.
-3[ #9
+2?sW
 3[ 59
 3[ G9
 4 Fs 
@@ -60,21 +31,16 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 4Scales all UI elements in the Canvas by this factor.
 4The physical unit to specify positions and sizes in.
 4[ p9
-5! S 
 5a S 
-6!"S 
 6!6S 
 6A6S 
-7!)S 
-7!*S 
 8A3S 
+8Pn!
 8z1$>
-9!>S 
 9A8S 
+9Gv(
 9Please use triggers instead (UnityUpgradable) -> triggers
 9use IMeshModifier.ModifyMesh (VertexHelper verts) instead
-:A>S 
-:A>[ 
 :use IMeshModifier.ModifyMesh (VertexHelper verts)  instead
 ;AGS 
 <$>delay
@@ -92,7 +58,6 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 <>f__am$cache8
 <>f__switch$map0
 <>f__this
-<>m__2
 <ActiveToggles>m__5
 <AnyTogglesOn>m__4
 <CaretBlink>c__Iterator3
@@ -135,7 +100,6 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 <eligibleForClick>k__BackingField
 <fadeTime>__0
 <hasSelection>k__BackingField
-<i>__0
 <isPointerDown>k__BackingField
 <isPointerInside>k__BackingField
 <lastPress>k__BackingField
@@ -160,12 +124,19 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 <useLegacyMeshGeneration>k__BackingField
 <worldNormal>k__BackingField
 <worldPosition>k__BackingField
-=!JS 
->[ o:
 >aJS 
 ?YZY}
-@.reloc
-A3[ 	9a3S 
+A3[ \t9a3S 
+A9S 
+AAS 
+AHS 
+AJS 
+ANS 
+APS 
+AQS 
+ASc 
+ATc 
+AWS 
 AbstractEventData
 Action`1
 ActivateInputField
@@ -225,7 +196,9 @@ AutoHideAndExpandViewport
 Autocorrected
 Automatic
 Awake
+Axis
 AxisEventData
+BSJB
 Backspace
 BaseEventData
 BaseInputModule
@@ -264,6 +237,7 @@ CaretBlink
 CeilToInt
 Centimeters
 ChangeEventModule
+Char
 CharacterValidation
 Clamp
 Clamp01
@@ -332,6 +306,7 @@ CreateUIObject
 CreateUIVertexStream
 CrossFadeAlpha
 CrossFadeColor
+Cull
 CullStateChangedEvent
 Cursor
 CursorLockMode
@@ -369,11 +344,15 @@ DoLegacyMeshGeneration
 DoMeshGeneration
 DoSpriteSwap
 DoStateTransition
+Down
+Drag
 DrivenRectTransformTracker
 DrivenTransformProperties
+Drop
 Dropdown
 DropdownEvent
 DropdownItem
+Edge
 EditState
 Elastic
 EmailAddress
@@ -387,6 +366,7 @@ EndInvoke
 EnforceContentType
 EnsureLayoutHasRebuilt
 Entry
+Enum
 Enumerable
 Enumerator
 EnvelopeParent
@@ -414,10 +394,12 @@ ExecuteHierarchy
 ExecuteInEditMode
 Expand
 Explicit
+Fade
 FakeTouches
 FillMesh
 FillMethod
 Filled
+Find
 FindCommonRoot
 FindCullAndClipWorldRect
 FindFirstRaycast
@@ -442,6 +424,7 @@ FloatTween
 FloatTweenCallback
 Floor
 FloorToInt
+Font
 FontData
 FontStyle
 FontTextureChanged
@@ -548,6 +531,7 @@ GraphicRegistry
 GraphicUpdateComplete
 GridLayoutGroup
 GuidAttribute
+HCsu
 Handle
 HandleConstantPhysicalSize
 HandleConstantPixelSize
@@ -559,12 +543,14 @@ HasCharacter
 HasProperty
 HashSet`1
 HeightControlsWidth
+Hide
 HideFlags
 Highlighted
 Horizontal
 HorizontalLayoutGroup
 HorizontalOrVerticalLayoutGroup
 HorizontalWrapMode
+I'gG
 IAsyncResult
 IBeginDragHandler
 ICancelHandler
@@ -616,6 +602,7 @@ Inches
 IndexOf
 IndexOfAny
 IndexedSet`1
+Init
 Initialize
 InitializeArray
 InitializePotentialDrag
@@ -662,6 +649,7 @@ IsScrolling
 IsSelectionVisible
 IsUpper
 IsValidChar
+Item
 KeyCode
 KeyPressed
 KeyValuePair`2
@@ -682,7 +670,9 @@ LayoutElement
 LayoutGroup
 LayoutRebuilder
 LayoutUtility
+Left
 LeftToRight
+Lerp
 LineDownCharacterPosition
 LineType
 LineUpCharacterPosition
@@ -697,20 +687,25 @@ MapCoordinate
 MarkGeometryAsDirty
 MarkLayoutForRebuild
 MarkLayoutRootForRebuild
+Mask
 MaskEnabled
 MaskUtilities
 MaskableGraphic
 MatEntry
 MatchWidthOrHeight
 Material
+Math
 Mathf
 Matrix4x4
 MaxUpdateValue
 MayDrag
 MemberInfo
+Mesh
 Middle
 Millimeters
 MinSize
+Misc
+Mode
 ModifyMesh
 ModifyVertices
 MonoBehaviour
@@ -718,6 +713,7 @@ Mouse
 MouseButtonEventData
 MouseDragOutsideRect
 MouseState
+Move
 MoveDirection
 MoveDown
 MoveLeft
@@ -731,8 +727,11 @@ MultiLineNewline
 MultiLineSubmit
 MulticastDelegate
 MultiplyPoint3x4
+N8$A
+Name
 Navigate
 Navigation
+None
 Normal
 Not supported anymore
 Not supported anymore.
@@ -749,6 +748,7 @@ Object
 ObjectPool`1
 ObjectValidForUpdate
 ObsoleteAttribute
+Olb!
 OnAfterDeserialize
 OnBeforeSerialize
 OnBeforeTransformParentChanged
@@ -787,6 +787,7 @@ OnTransformChildrenChanged
 OnTransformParentChanged
 OnUpdateSelected
 OnValidateInput
+Open
 OptionData
 OptionDataList
 Origin180
@@ -800,6 +801,7 @@ ParamArrayAttribute
 ParentCount
 ParentMaskStateChanged
 Password
+Peek
 PerformClipping
 PerformLayoutCalculation
 PerformLayoutControl
@@ -843,6 +845,7 @@ ProcessMousePress
 ProcessMove
 ProcessTouchEvents
 ProcessTouchPress
+Push
 Quaternion
 Radial180
 Radial360
@@ -863,6 +866,7 @@ RebuildForFont
 RecalculateBounds
 RecalculateClipping
 RecalculateMasking
+Rect
 RectIntersect
 RectMask2D
 RectOffset
@@ -1002,7 +1006,9 @@ Shadow
 ShouldActivateModule
 ShouldSendToComponent
 ShouldStartDrag
+Show
 Shrink
+Sign
 Simple
 Single
 SingleLine
@@ -1010,6 +1016,7 @@ Sliced
 Slider
 SliderEvent
 SmoothDamp
+Sort
 SortLayoutList
 SortingLayer
 SpaceAttribute
@@ -1018,6 +1025,7 @@ Sprite
 SpriteRenderer
 SpriteState
 SpriteSwap
+Sqrt
 Stack`1
 StandaloneInputModule
 Standard
@@ -1052,6 +1060,7 @@ System.Reflection
 System.Runtime.CompilerServices
 System.Runtime.InteropServices
 System.Text
+Text
 TextAnchor
 TextAreaAttribute
 TextGenerationSettings
@@ -1063,6 +1072,7 @@ The resolution the UI layout is designed for. If the screen resolution is larger
 ThreeD
 TickModules
 Tiled
+Time
 ToLower
 ToString
 ToUpper
@@ -1091,19 +1101,17 @@ TryRegisterCanvasElementForGraphicRebuild
 TryRegisterCanvasElementForLayoutRebuild
 TweenRunner`1
 TweenValue
-UI/Dropdown#
+TwoD
+Type
 UI/Effects/Outline
 UI/Effects/Position As UV1
 UI/Effects/Shadow
-UI/Image
+UI/Image\v
 UI/Input Field
-UI/Mask
-UI/Raw Image
-UI/Rect Mask 2D
+UI/Mask\r
+UI/Rect Mask 2D\r
 UI/Scroll Rect%
-UI/Scrollbar"
-UI/SelectableF
-UI/Text
+UI/Text\n
 UI/Toggle Group 
 UIBehaviour
 UICharInfo
@@ -1111,6 +1119,7 @@ UILineInfo
 UIVertex
 UnRegisterCanvasElementForRebuild
 Unconstrained
+Unit
 UnityAction
 UnityAction`1
 UnityEngine
@@ -1168,6 +1177,8 @@ Use IMeshModifier instead
 Use Material.Add instead.
 Use OnPopulateMesh instead.
 UseFakeInput
+Used
+Utr#
 Utr#!
 VUnityEngine.Camera, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 VUnityEngine.Canvas, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -1186,33 +1197,91 @@ VertexHelper
 Vertical
 VerticalLayoutGroup
 VerticalWrapMode
-VqQ"	
+VqQ"\t
 WaitForEndOfFrame
 WaitForSecondsRealtime
 Where
 WidthControlsHeight
 WillRenderCanvases
 WrapNonExceptionThrows
+Xesu
 Y*6(t
 YDetermines if the scaling is using the width or height as reference, or a mix in between.
-[ ,3!
+Y\f8E
+Y\n8A
+Y\n8E
+YkZ(
+YkZX
+Yk[8
+ZX(U
 [ 14a
-[ ;4a
-[ <1a
-[ X4!
-[ `3 
 [ g4a
-[ u3@
-[k +8
+\f(\f7\f?\f7\fi\f}\f
+\fUI/Raw Image\f
+\fUI/Scrollbar"
+\fasteriskChar
+\ffadeDuration
+\fkeyboardType
+\fpressedColor
+\fselectOnDown
+\fselectOnLeft
+\n%\v-\v=\vE\vZ\v~\v
+\nYY(U
+\nYZY*
+\nYsu
+\nZX(u
+\nZXsu
+\nkY(d
+\nm_IsActive
+\nm_OnSubmit
+\nm_Selected
+\nnavigation
+\nselectOnUp
+\ntransition
+\nvalidation
+\rUI/SelectableF
+\rdisabledColor
+\rm_ShowGraphic
+\rnormalTrigger
+\ronValueChange
+\rpressedSprite
+\rselectOnRight
+\tMicrosoft
+\tUI/Button
+\tUI/Slider!
+\tUI/Toggle
+\tYkY
+\talignment
+\tdelegates
+\tfontStyle
+\tguisystem
+\tinputType
+\tkY8
+\tm_EndEdit
+\vUI/Dropdown#
+\vm_Alignment
+\vnormalColor
+\vspriteState
 ]The amount of pixels per unit to use for dynamically created bitmaps in the UI, such as Text.
 ]UnityEngine.RectTransform, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+]YkY
+]kY8
 ^Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.
 ^TouchInputModule is no longer required as Touch input is now handled in StandaloneInputModule.
 ^UnityEngine.CanvasRenderer, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 _CorDllMain
-`.rsrc
-a)[ %7a)S 
-a>[ ,:a>S 
+a6S 
+a8S 
+a9S 
+a?sW
+aAS 
+aES 
+aHS 
+aNS 
+aPS 
+aQS 
+aSc 
+aTc 
 action
 actionOnGet
 actionOnRelease
@@ -1239,6 +1308,7 @@ arrayIndex
 aspectMode
 aspectRatio
 asteriskChar
+axis
 background
 baseEventDataCache
 baseMat
@@ -1312,6 +1382,8 @@ countActive
 countAll
 countInactive
 create
+ctrl
+cull
 current
 currentIndexCount
 currentInputModule
@@ -1325,6 +1397,7 @@ currentVertCount
 cursorPos
 customCaretColor
 customMat
+data
 deadZone
 decelerationRate
 defaultColorBlock
@@ -1373,6 +1446,7 @@ extents
 fadeDuration
 fallbackScreenDPI
 father
+fill
 fillAmount
 fillCenter
 fillClockwise
@@ -1384,9 +1458,11 @@ firstSelectedGameObject
 flexibleHeight
 flexibleWidth
 floatPercentage
+font
 fontSize
 fontStyle
 forceModuleActive
+from
 functor
 gameObject
 generateOutOfBounds
@@ -1834,6 +1910,9 @@ horizontalScrollbar
 horizontalScrollbarSpacing
 horizontalScrollbarVisibility
 hovered
+idx0
+idx1
+idx2
 ignoreLayout
 ignoreReversedGraphics
 ignoreTimeScale
@@ -1842,6 +1921,7 @@ includeRectLayouts
 index
 indices
 inertia
+info
 initializePotentialDrag
 input
 inputActionsPerSecond
@@ -1853,17 +1933,18 @@ instant
 interactable
 invert
 isFocused
+isOn
 isPointerDown
 isPointerDownAndNotDragging
 isPointerInside
 isRootLayoutGroup
 isValid
 isVertical
+item
 itemImage
 itemTemplate
 itemText
 items
-k *6`
 kDefaultDisabledAnimName
 kDefaultNormalAnimName
 kDefaultPressedAnimName
@@ -1884,12 +1965,15 @@ kThinHeight
 kVScrollSpeed
 kWidth
 keyboardType
+knob
 lPreserveAspect
 lastPress
 lastSelectedGameObject
 layer
 layoutPriority
 layoutRoot
+lfK\t
+line
 lineSpacing
 lineType
 local
@@ -2043,7 +2127,6 @@ m_InputActionsPerSecond
 m_InputTextCache
 m_InputType
 m_Interactable
-m_IsActive
 m_IsOn
 m_ItemImage
 m_ItemText
@@ -2087,7 +2170,6 @@ m_OnDirtyLayoutCallback
 m_OnDirtyMaterialCallback
 m_OnDirtyVertsCallback
 m_OnEndEdit
-m_OnSubmit
 m_OnValidateInput
 m_OnValueChange
 m_OnValueChanged
@@ -2137,7 +2219,6 @@ m_SelectOnDown
 m_SelectOnLeft
 m_SelectOnRight
 m_SelectOnUp
-m_Selected
 m_SelectedColor
 m_SelectedSprite
 m_SelectedTrigger
@@ -2147,7 +2228,6 @@ m_ShouldActivateNextUpdate
 m_ShouldRecalculate
 m_ShouldRecalculateClipRects
 m_ShouldRecalculateStencil
-m_ShowGraphic
 m_ShowMaskGraphic
 m_Size
 m_Spacing
@@ -2217,6 +2297,7 @@ m_WholeNumbers
 m_WorldCorners
 m_sendNavigationEvents
 mainTexture
+mask
 maskable
 masks
 match
@@ -2225,11 +2306,13 @@ material
 materialForRendering
 maxSize
 maxValue
+mesh
 method
 minHeight
 minSize
 minValue
 minWidth
+mode
 module
 moveDeadZone
 moveDir
@@ -2240,6 +2323,7 @@ mscoree.dll
 mscorlib
 multiLine
 nThis function is no longer used. Please use RectTransformUtility.ScreenPointToLocalPointInRectangle() instead.
+name
 navigation
 newEnterTarget
 newGroup
@@ -2300,6 +2384,7 @@ pointerUpHandler
 posMax
 posMin
 position
+pqY"\v
 preferredHeight
 preferredWidth
 preserveAspect
@@ -2319,6 +2404,7 @@ raycastResults
 raycastTarget
 readMask
 readOnly
+rect
 rectChildren
 rectMaskParents
 rectTransform
@@ -2338,9 +2424,11 @@ resultAppendList
 results
 reverseValue
 richText
+root
 rootCanvas
 rootCanvasRect
 roundingOffset
+s 4A
 s TA 
 s_BeginDragHandler
 s_CancelHandler
@@ -2384,9 +2472,11 @@ s_ThickElementSize
 s_ThinElementSize
 s_UVScratch
 s_UpdateSelectedHandler
+s_Uv
 s_VertScratch
 s_VertexHelper
 s_WhiteTexture
+s_Xy
 scaleFactor
 screen
 screenMatchMode
@@ -2665,6 +2755,7 @@ shouldHideMobileInput
 shouldPreserveAspect
 showMaskGraphic
 simpleVert
+size
 slider
 sortLayoutFunction
 sortOrderPriority
@@ -2697,6 +2788,7 @@ targetColor
 targetGraphic
 targetValue
 template
+text
 textAnchor
 textComponent
 texture
@@ -2705,6 +2797,7 @@ toFill
 toRelease
 toggle
 toggleTransition
+topY
 totalFlexible
 totalMin
 totalPreferred
@@ -2714,6 +2807,7 @@ triggername
 triggers
 tweenInfo
 tweenMode
+type
 uallowActivationOnStandalone has been deprecated. Use forceModuleActive instead (UnityUpgradable) -> forceModuleActive
 uiScaleMode
 update
@@ -2725,6 +2819,7 @@ useDragThreshold
 useGraphicAlpha
 useLegacyMeshGeneration
 useRGB
+used
 uvMax
 uvMin
 uvRect
@@ -2732,7 +2827,6 @@ v2.0.50727
 vScrollingNeeded
 validRect
 validTemplate
-validation
 value
 value__
 velocity
@@ -2748,6 +2842,7 @@ verticalScrollbarSpacing
 verticalScrollbarVisibility
 vertices
 verts
+vh#V
 viewRect
 viewSize
 viewport
@@ -2759,4 +2854,3 @@ worldNormal
 worldPosition
 writeMask
 xA mode used to scale the canvas area if the aspect ratio of the current resolution doesn't fit the reference resolution.
-{ f/C

@@ -1,68 +1,21 @@
-			%d,		// aspect
-			%d,		// rep
-			%d,		// rr
-			%d,		// rrx1k
-			%d,		// status
-			0x%x,	// flag
-			{ 0 }		// name
-		%d,	// HBorder
-		%d,	// HFrontPorch
-		%d,	// HSyncPol
-		%d,	// HSyncWidth
-		%d,	// HTotal
-		%d,	// HVisible
-		%d,	// VBorder
-		%d,	// VFrontPorch
-		%d,	// VSyncPol
-		%d,	// VSyncWidth
-		%d,	// VTotal
-		%d,	// VVisible
-		%d,	// interlaced
-		%d,	// pclk
-		{	// etc
-		} } },
-	!s99
-	L~u,&
-	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
-    A
     Bucket: size:%zu timeline:%s
     Bucket: size:%zu timeline:none
     Unused Resources: size:%zu
     Unused timelines: size:%zu
- %41g
- - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
- <iWM
- A]A\_
- A^^[
- A_A^A\
- A_A^A\_^
- A_A^A]A\^
- A_A^A]A\_
- A_A^]
- A_A^^
- A_A^_
- A_A^_H
- A_][
- A_^[
- A_^]
- A__^
- H3E H3E
+ - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s\n
  formatting error code 
-!! refusing to trigger minidump with debugger attached
+!! refusing to trigger minidump with debugger attached\n
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
 !g_pSharedResourceNamespaceServer
-!hn7!
 !isnan( *pSecondsSinceVsync )
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-$9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
-%s%s%s%s%s
 %s(%s): concurrent batches not allowed
 %s-CommandBuffer-%d
 %s-Depth
@@ -85,15 +38,15 @@ $9E0u
 %s: Failed to allocate client handle id=%d
 %s: Failed to allocate client swapchain
 %s: Failed to allocate command buffer: %d
-%s: Failed to allocate memory
 %s: Failed to allocate memory for command buffer
+%s: Failed to allocate memory\n
 %s: Failed to begin command buffer
 %s: Failed to create command buffer pool: %d
 %s: Failed to create motion vector input Parent surface (%d)
 %s: Failed to create motion vector input UV surface (%d)
 %s: Failed to create motion vector input Y surface (%d)
 %s: Failed to create vulkan device: %d
-%s: Failed to determine a compatible memory type
+%s: Failed to determine a compatible memory type\n
 %s: Failed to get CUarray
 %s: Failed to get CUmipmappedArray
 %s: Failed to get queue: %u:%u
@@ -215,7 +168,7 @@ $9E0u
 %s: failed to enumerate instance extensions
 %s: failed to enumerate physical devices
 %s: failed to enumerate swapchain images
-%s: failed to export memory (%d)
+%s: failed to export memory (%d)\n
 %s: failed to export timeline %s
 %s: failed to find a compatible format
 %s: failed to find a compatible plane
@@ -255,7 +208,7 @@ $9E0u
 %s: failed to query number of supported formats
 %s: failed to query supported formats
 %s: failed to query surface capabilities
-%s: failed to register debug callback
+%s: failed to register debug callback\n
 %s: failed to set debug name
 %s: failed to signal timeline semaphore: %d
 %s: failed to submit gpu work
@@ -310,57 +263,11 @@ $9E0u
 %s: unknown vulkan message severity
 %s: unsupported format
 %s: usage must be specified when allocating images
-%u != %zu
-',=?k
-'<omd2
 ( nVertexCount % 3 ) == 0
-(A\_^[
-(A^A]^[
-(A_A^A\[
-(A_A^^[
-(A_A^_]
-(D$ f
-(D$0f
-(D$pv
-(L$pD
-(d$pD
-(f*^[0
-(l$0L
-(l$@D
-(l$`H
-(t$ D
-(t$0D
-(t$@H
-(t$PD
-(t$`E
-(t$`H
-(t$pL
-(|$0H
-(|$@D
-(|$PH
-(|$`E
-)D$pA
-)D$pB
-)L$@H
-)L$pH
-)d$pD
-)l$0E
-)l$pD
-)t$ D
-)t$@H
-)t$PD
-)t$`3
-)t$`D
-)t$pH
-)|$@M+
-)|$PD
-********** Blue ( nLoopCount++ > 1000 )!
-********** Green ( nLoopCount++ > 1000 )!
-********** Red ( nLoopCount++ > 1000 )!
-+Xt@(
-+o'q)}
+********** Blue ( nLoopCount++ > 1000 )!\n
+********** Green ( nLoopCount++ > 1000 )!\n
+********** Red ( nLoopCount++ > 1000 )!\n
 , last executing in 
-,W5y+
 -IPCWrapper
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -489,6 +396,7 @@ $9E0u
 .CRT$XTA
 .CRT$XTZ
 .P6AXW4ELogLevel@@PEBDPEAX@Z
+.bss
 .data
 .data$r
 .edata
@@ -512,75 +420,19 @@ $9E0u
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-0A]A\_
-0A^A]A\
-0A^_[
-0A^_]
-0A^_^
-0A_A^A\
-0A_A^A\_^
-0A_A^A]A\_^[
-0A_A^_
-0A_A^_^[
-0w0c1
-0}0i1
-130801120000Z
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173853Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
 33s?+
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8 t"L
-8 u"L
-8A^A\
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8\t	H
-8_^][
+3dj6
+76F\
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9C s.H
-9C<rTH
-9ELtgL9|$Pt
-9H(~-
-:A9x 
-:EotB
-;K sOH
-;S sMH
-;\$x|
-;|$ r
-<0:08
 <P)9Y
 <unknown>
-=rIQU
->0<0:
->Mp$d
 >ffv?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
@@ -590,7 +442,6 @@ $9E0u
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ?CVkDevice::CreateDevice
-?I9T$
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
 ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
@@ -603,130 +454,11 @@ $9E0u
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
-@.data
-@.reloc
-@A]A\_
-@A]_[
-@A]_^][
-@A^A]A\_^
-@A^_]
-@A^_^
-@A^_^][
-@A_A^A]A\_
-@A_A^A]A\_^[
-@A_A^_
-@M9~0tB
-@SATAVAWH
-@SAUAWH
-@SAUH
-@SUATAUAWH
-@SUAWH
-@SUVH
-@SUVWAUH
-@SUWATAVH
-@SUWAVAWH
-@SVAUAVH
-@SVAVAWH
-@SVAVH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATH
-@SVWH
-@SWAUH
-@SWAVH
 @SteamVR_Namespace
-@UATAUH
-@UATAVAWH
-@UAVAWH
-@UAVH
-@USATAUAVH
-@USAUAWH
-@USAWH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAUH
-@USVWATAVAWH
-@USVWATAVH
-@USVWATH
-@USVWAVH
-@USVWH
-@USWATAUH
-@USWH
-@UVAVAWH
-@UVAWH
-@UVWATH
-@UVWAUH
-@UVWH
-@UWAVAWH
-@VATH
-@VAVAWH
-@VAVH
-@VWATAVAWH
-@VWATH
-@WATAUAVAWH
-@WAUAVAWH
-@WAVAWH
-@`fff
-@~Y4B6
-A(A9C
-A(H9A t!H
-A8H9A0t
-A8H9A0u*L
-A9A A
-A9A(A
-A;y s?I
 ADVAPI32.dll
 ALVRDisplayInit
 ALVRInit
-ASSERT: "%s" at %s:%d.
-ATAUAVH
-ATAVAWH
-ATAVH
-A\_^[]
-A\_^]
-A]A\]
-A]A\_[]
-A]A\_^[]
-A]^[]
-A]_^]
-A^A\]
-A^A\^
-A^A\_][
-A^A\_^[]
-A^A]A\[]
-A^A]A\^]
-A^A]A\_^[]
-A^A]]
-A^_^[]
-A_A\_^[
-A_A\_^[]
-A_A]A\][
-A_A]A\_[]
-A_A]A\_]
-A_A]]
-A_A]^]
-A_A]_[]
-A_A^A\
-A_A^A\]
-A_A^A\^[]
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_]
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_]
-A_A^]
-A_A^^
-A_A^^]
-A_A^_
-A_A^_][
-A__[]
-A__^[]
+ASSERT: "%s" at %s:%d.\n
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 AddAccessAllowedAce
 AddStage and CopyStages are mutually exclusive.
@@ -735,27 +467,17 @@ Apply blur filter
 Apply median filter
 Attempt to init shared state %s twice
 Attempting to reinitailize estimator!
-AuthD
 Automatically quitting due to idle time > %f seconds.
-B H9B
-Bellevue1
 Blank
-C(H+C H
-C(H9C u
 C++/WinRT version:1.0.190111.3
 CClientSwapchain::Import
 CClientSwapchain::ImportSampler
-CD$0H
-CD$PB
-CFailed to set thread %p priority: invalid priority %d
+CFailed to set thread %p priority: invalid priority %d\n
 CFrameHallucination::CreateDepthImage
 CFrameHallucination::CreateFramebuffer
 CFrameHallucination::CreateRenderPass
 CFrameHallucination::RegisterDestinationImage
 CFrameHallucination::SetFov
-CL$ H
-CL$0H
-CL$`H;
 CLIENT: I:%6dC:%6dS:%6dP:%6d[%d|%d]
 CMotionEstimation::CRenderPipeline::CreateFramebuffer
 CMotionEstimation::CRenderPipeline::CreateRenderPass
@@ -811,16 +533,16 @@ CPrismDisplay_Vulkan::WaitForPresent
 CPrismDisplay_Vulkan::~CPrismDisplay_Vulkan
 CPrismPanelMask::CreateRenderPass
 CPrismPanelMask::Initialize
-CSharedResourceNamespaceClient::Init(): failed connect
-CSharedResourceNamespaceClient::Init(): failed to get server response
-CSharedResourceNamespaceClient::Init(): failed to retreive payload
-CSharedResourceNamespaceClient::Init(): invalid payload size %u
-CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u
-CSharedResourceNamespaceClient::Init(): received namespace data %u
-CSharedResourceNamespaceClient::Init(): received unexpected message type %u
-CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data
-CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace
-CSharedResourceNamespaceClient::Init(): timed out waiting for server reply
+CSharedResourceNamespaceClient::Init(): failed connect\n
+CSharedResourceNamespaceClient::Init(): failed to get server response\n
+CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
+CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
+CSharedResourceNamespaceClient::Init(): received namespace data %u\n
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
 CSharedResourceNamespaceClient::InitIfNeeded
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
@@ -892,8 +614,6 @@ CVkTimeline::Initialize
 CVkTimeline::InitializeFromIPC
 CVkTimeline::Signal
 CVkTimeline::WaitMultiple
-C\$@H
-C\$@M
 CalculateMotion
 Client (%s) app container state: %d
 Client Swapchain: %d
@@ -901,7 +621,7 @@ ClientLayers-%d
 ClientTimeline-%d
 CloseHandle
 CloseServiceHandle
-Closing pipe %s because it was broken from the other end
+Closing pipe %s because it was broken from the other end\n
 CoCreateFreeThreadedMarshaler
 CoIncrementMTAUsage
 CoTaskMemAlloc
@@ -925,70 +645,12 @@ CreateFileA
 CreateFileMappingA
 CreateMutexA
 CreateWellKnownSid
-D$ E3
-D$ H;
-D$ L;
-D$ L;D$(ucM
-D$ Li
-D$ M;
-D$(E3
-D$(H;
-D$(I;
-D$0E3
-D$0H+
-D$0H9V8t
-D$0H;
-D$0I;
-D$0L;
-D$4H9W
-D$4L9O
-D$8E3
-D$8H9UPt!
-D$8H;
-D$@9D$x~
-D$@E3
-D$@H9Q
-D$@H;
-D$@Rb
-D$HE3
-D$PE3
-D$PH9
-D$PH9Q
-D$PH;
-D$PHi
-D$PL;
-D$PM;
-D$XE3
-D$XH;
-D$`E3
-D$`H;
-D$`H;]
-D$hH;
-D$hI;
-D$pH;
-D$pH;X
-D$pL;
-D$xD;
-D$xH;
-D$xL;
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D9+u/
-D9>u:H
-D9@ s
-D9|$`t
-D;C sIH
 DebugMessengerCallback
 DeleteCriticalSection
 DeviceGC
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Downsample Scene Image
 Downsample Vertex Buffer-%s
@@ -996,38 +658,29 @@ DumpHistory
 DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
-E8~(t\
-E\f9A
-EkH9M
 Encountered error 
 EnterCriticalSection
-Enumerated %zu vulkan displays
-Error! EventWriteString Severe: %s
+Enumerated %zu vulkan displays\n
+Error! EventWriteString Severe: %s\n
 EventRegister
 EventUnregister
 EventWriteString
 EventWriteTransfer
-EwH9S
-ExH9Q
-Executable: %s
-F(H9A u)I
-F0H9A(u
+Executable: %s\n
 FACET_VULKAN_VALIDATION
 FAILURE:WaitForPresent
-F`H9X
-F`I+FPH
 Facet
-Failed Watchdog timeout in thread %s after %f seconds
-Failed Watchdog timeout in thread %s after %f seconds. Aborting.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
-Failed to compute distortion parameters!
-Failed to connect to pipe %s because %s
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds\n
+Failed to compute distortion parameters!\n
 Failed to connect to pipe %s because %s... retrying
-Failed to import client event handle from pipe %s after connecting
-Failed to import server event handle from pipe %s after connecting
-Failed to write app container status to pipe %s after connecting because %s
-Failed to write event process handle after connecting because %s
+Failed to connect to pipe %s because %s\n
+Failed to import client event handle from pipe %s after connecting\n
+Failed to import server event handle from pipe %s after connecting\n
+Failed to write app container status to pipe %s after connecting because %s\n
+Failed to write event process handle after connecting because %s\n
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
@@ -1043,7 +696,7 @@ GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetEnvironmentVariableA
-GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetFileAttributesW
 GetFileVersionInfoSizeW
 GetFileVersionInfoW
@@ -1060,87 +713,23 @@ GetSystemDirectoryW
 GetSystemTimeAsFileTime
 GetTickCount64
 GetTokenInformation
-GetTokenInformation failed. GetLastError returned: %d
+GetTokenInformation failed. GetLastError returned: %d\n
 Graphics Timeline
-H SVWH
-H USVAUH
-H+APH
-H+D$@
-H+D$Xf
-H+EpH
-H+L$XE3
-H+SXH
-H-^Eu
-H9.u0
-H9.u2
-H93t	H
-H97t	H
-H97u2
-H98t	H
-H9C s'L
-H9D$@u
-H9H s
-H9H s*
-H9P s
-H9T$@t
-H9\$@t"A
-H9\$Pu L
-H9\$Xu L
-H9]Xu0
-H9]`u2
-H9uWu1
-H9xPt2
-H;+u*
-H;8u9
-H;A8u"L
-H;H0t
-H;K sOH
-H;K t!H
-H;K u
-H;Q s
-H;S s?H
-H;T$pM
-H;\$8I
-H;j s
-H;q s
-H;q@M
-H;qXL
-H;w@H
-H;x s
-H;y s
-H;yXI
-H;z s
-H;{@I
-H;{XH
-HA^A]_[
 HMD Image %d
 HMD using present mode: %d
 HTC Corporation VIVE
 HallucinateFrame
 Hallucinated-%s%d
-HcEwH
-HiL$ 
 History Timeline
 History-Buffer-%d
-I#V0I
-I97t;I
-I98u2A
-I9B A
-I9Q sEI
-I9V`t
-I;Q s?I
-I;\$`I
-I;}`I
-I;~8L
 IPC::CIPCHandle::InitForExport
 IPC::TSharedHandleBase<void *,0>::Close
 IPCPipe(%s) failed to read payload of %u bytes
-IPCPipe(%s) failed to write message of %u bytes because %s
-IPCPipe(%s): Next message type %u, seq %u, len %u
-IPCPipe(%s): Sending simple message type %u, seq %u
-IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal
-IPCPipe(%s): Wrote %u bytes of total message length
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+IPCPipe(%s) failed to write message of %u bytes because %s\n
+IPCPipe(%s): Next message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
+IPCPipe(%s): Wrote %u bytes of total message length\n
 ImportClients
 InitializeAcl
 InitializeConditionVariable
@@ -1155,66 +744,10 @@ Invalid bindings
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
-J>@G_
 KERNEL32.dll
-Kf;;u
-KfD;3u
-K}*n:	
-L#A0H
-L$ E3
-L$ H;
-L$ SH
-L$ SUVWH
-L$ SVW
-L$ SVWH
-L$ SWH
-L$ USVATAVAWH
-L$ UVATAUAVH
-L$ WH
-L$(K9
-L$(M;
-L$0A9y
-L$0A9y sEI
-L$0E3
-L$0H+
-L$0H9A
-L$4E3
-L$8E3
-L$@E3
-L$LH9
-L$PE3
-L$PH;
-L$XH9T$@t
-L$`E3
-L$pH3
-L$pI+
-L$pL9D$8H
-L$pL;
-L$xE3
-L$xL9T$ht
-L+D$`A
-L+D$xA
-L9%TV	
-L9T$ht
-L9e0t	H
-L9e8t	H
-L9v H
-L9v(H
-L9v0H
-L9v8H
-L9v@H
-L9vHH
-L9vPH
-L9vXH
-L9{0t^H
-L9|$Pt
-L9|$pt
-L;C u=
-L?n(Zy&
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
 LeaveCriticalSection
 Left Eye
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LiquidVR
 LiquidVR: Failed to close display! Error=%d
 LiquidVR: Failed to create fence!
@@ -1229,12 +762,6 @@ LoadLibraryExW
 LoadLibraryW
 LocalAlloc
 LocalFree
-M H1E
-M(I9V t
-M98u/
-M9<$u/
-M9x0t:M
-MB(iVR
 ME%d-Downsampled-%s
 ME%d-MaskedRgb-%s-%s
 ME-CopyOutput
@@ -1265,23 +792,19 @@ MV-MeanMaxBlur
 MV-Median5x5
 MV-PingPong%d-%s
 MV-PreviousInput-%s
-M\fD9I
 MainThrd
 MapViewOfFile
 Mask Input Image
-MgH9E
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Minidump comment truncated
-Missing cached timing info (please update prismdisplay_nvapi.cpp with the following):
+Missing cached timing info (please update prismdisplay_nvapi.cpp with the following):\n\t{ 0x%x, 0x%x, %d, %d, {\n\t\t%d,\t// HVisible\n\t\t%d,\t// HBorder\n\t\t%d,\t// HFrontPorch\n\t\t%d,\t// HSyncWidth\n\t\t%d,\t// HTotal\n\t\t%d,\t// HSyncPol\n\t\t%d,\t// VVisible\n\t\t%d,\t// VBorder\n\t\t%d,\t// VFrontPorch\n\t\t%d,\t// VSyncWidth\n\t\t%d,\t// VTotal\n\t\t%d,\t// VSyncPol\n\t\t%d,\t// interlaced\n\t\t%d,\t// pclk\n\t\t{\t// etc\n\t\t\t0x%x,\t// flag\n\t\t\t%d,\t\t// rr\n\t\t\t%d,\t\t// rrx1k\n\t\t\t%d,\t\t// aspect\n\t\t\t%d,\t\t// rep\n\t\t\t%d,\t\t// status\n\t\t\t{ 0 }\t\t// name\n\t\t} } },\n
 Motion Vector Attenuation Pipeline
 Motion Vector CostReduce Pipeline
 Motion Vector MeanMaxBlur Pipeline
 Motion Vector Median5x5 Pipeline
 Motion Vector Threshold Pipeline
 MultiByteToWideChar
-NPH9Q
-NXH9Q
+NULL
+Null
 Null Client
 NvAPI
 NvAPI: Failed to acquire direct mode display! Error='%s'
@@ -1303,7 +826,7 @@ NvAPI: HDCP LINK LOST
 NvAPI: HDCP TAMPERED
 NvAPI: HOTPLUG=%d
 NvAPI: Hardware not ready, trying again...
-NvAPI: Mismatched EDID vendor id! %x vs %x
+NvAPI: Mismatched EDID vendor id! %x vs %x\n
 NvAPI: No reported display modes!
 NvAPI: Reported no display modes, trying again...
 NvAPI: Too many reported modes! Count=%d
@@ -1311,26 +834,17 @@ NvEncode
 NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
-O0H9Q
 OLEAUT32.dll
-OpH9Q
 OpenEventA
 OpenFileMappingA
 OpenMutexA
 OpenProcess
 OpenProcessToken
-OpenProcessToken failed. GetLastError returned: %d
+OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
-Out of thread local storage!
+Out of thread local storage!\n
 Outer
-PA^_^
-PA_A]^][
-PA_A^A]A\_
-PA_A^A]A\_^]
-PA_A^_
-PA_[]
-PAq=?Mp#
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -1369,7 +883,6 @@ PanelMask-Frag
 PanelMask-Staging
 PanelMask-Vert
 PeekNamedPipe
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PoolGC
 PrepareInput
 Present
@@ -1395,18 +908,16 @@ Prism-InitLayouts
 Prism-Main
 Prism-PrepareInput
 Prism-UpdatePanelMask
-Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
 RSDS,#`
 RaiseException
 ReadFile
-ReadFile failed on %s after event was signaled because %s
-ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer
+ReadFile failed on %s after event was signaled because %s\n
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
 Recording stopped.
 Reference
 RegCloseKey
@@ -1428,25 +939,15 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S'!Gg
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S0Q0O
-SA|X=G
 SHGetFolderPathW
 SPV_NV_compute_shader_derivatives
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
-SUVAUAWH
-SUVWATAUAVAWH
-SUVWAVH
-SVWATAUAVAWH
-SVWATAWH
-SVWAVAWH
-SWAUAVH
-Set thread %p priority to: %d
+Set thread %p priority to: %d\n
 SetEvent
 SetLastError
 SetNamedPipeHandleState
@@ -1464,82 +965,31 @@ SetupGetInfDriverStoreLocationW
 Signal[%d]:%llu
 Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
-Sl/74
 Sleep
 SleepConditionVariableCS
 Software\Valve\Steam\ActiveProcess
-Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
-Somebody else should have created event %s to go with pipe %s in WaitForConnection
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
+Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Submit: %s
 Swapchain
-T$ E3
-T$ Hc
-T$ fI
-T$0L;
-T$8E3
-T$8H;
-T$@D9#
-T$@fI
-T$XI+
-T$`H+T$XH
-T$`L+
-T$hE3
-T$pL+
-T$tA+
-T$xD9
-T$xH3
-T$xL+
-TUUUUUU
 TdhEnumerateManifestProviderEvents
 TerminateProcess
-TfD;u
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
 TimestampQueryPool-%s
 TlsAlloc
 TlsFree
-UATAUAVAWH
-UATAUH
-UATAVH
-UAUAVH
-UAUAWH
-UAVAWH
-UPL+D$pA
-UPL+E
-USAUH
-USVAUH
-USVWATAUAVAWH
-USVWATAUAVH
-USVWATAVAWH
-USVWATAVH
-USVWATAWH
-USVWAWH
-USWATAUAWH
-USWAUAWH
-USWAWH
-UUUUUUU
-UVAUAWH
-UVAWH
-UVWATAUAVAWH
-UVWAUAVH
-UVWAVAWH
-UWATAUAVAWH
-UWATAVAWH
-UWATI
-UWAUAVAWH
-UWAUH
-UWAVH
-Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
-Unable to create event %s to go with pipe %s in WaitForConnection
-Unable to create shared memory %s for IPC client
-Unable to create shared mutex %s for IPC client
-Unable to create shared state %s because namespace wasn't available
-Unable to open current process for duplicating handles because %s
-Unable to open process id=%d from pipe %s after connecting because %s
-Unable to read event handles from pipe %s after connecting because %s
-Unable to read event salt from pipe %s after connecting because %s
-Unable to read pid from pipe %s after connecting because %s
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
+Unable to create event %s to go with pipe %s in WaitForConnection\n
+Unable to create shared memory %s for IPC client\n
+Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
+Unable to open current process for duplicating handles because %s\n
+Unable to open process id=%d from pipe %s after connecting because %s\n
+Unable to read event handles from pipe %s after connecting because %s\n
+Unable to read event salt from pipe %s after connecting because %s\n
+Unable to read pid from pipe %s after connecting because %s\n
 Unexpected failure when checking for timeline signal
 UnhandledExceptionFilter
 Unknown exception
@@ -1550,8 +1000,6 @@ Upload raw motion vectors
 UploadMotionVectors
 Using physical device: %s
 UuidFromStringA
-VATAUH
-VAVAWH
 VCRUNTIME140.dll
 VERSION.dll
 VK_EXT_debug_utils
@@ -1570,34 +1018,21 @@ VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
 VSYNC:  %8d<%07.4f %0.4f
-VWATAUAVH
-VWATAVAWH
-VWATH
-VWAVH
-VWAWH
-VXI9V`t
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 Valve Corporation
 VerQueryValueA
 VerSetConditionMask
 VerifyVersionInfoW
 Vulkan
-WATAUAVAWH
-WATAUH
-WAVAWH
 WINMM.dll
 Wait:%llu
 WaitForSingleObject
 WaitForSingleObjectEx
-WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name.
+WaitNamedPipe %s failed because %s\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WakeAllConditionVariable
-Warning: Watchdog %s not properly cleaned up%s%s
+Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: unexpected vulkan major version
-Washington1
 WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
@@ -1605,81 +1040,35 @@ WindowsDisplayCore
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 WriteFile
-XA_A][]
-XA_A^A]_
-Y9"SD
 YUV conversion - %s
-Yl$ M
-Yl$4E
-[ AVH
-[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
-[IPC] ConvertStringSidToSidA failed for test app %d
-[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid
-[IPC] Existing file mapping for %s was found
-[IPC] Failed creating auto reset event %s (GLE: %u)
-[IPC] Failed creating file mapping %s: %u
-[IPC] Failed creating mutex %s (GLE: %u)
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x
-[IPC] Failed to open event %s because access was denied
-[IPC] Failed to open file mapping %s because access was denied
-[IPC] Failed to open mutex %s because access was denied
-[IPC] Forced create of Win32 mutex %s but it already existed
-[IPC] Forced create of Win32Event %s but it already existed
-[IPC] Forced create of Win32Event but it already existed
-[IPC] Forced create of Win32Mutex but it already existed
-[IPC] Forced create of file mapping %s but it already existed
-[IPC] GetTokenInformation failed. GetLastError returned: %d
-[IPC] InitializeAcl failed. GetLastError returned: %d
-[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d
-[IPC] OpenProcessToken failed. GetLastError returned: %d
-[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d
-[IPC] SharedMem access invalid: %x
-[IPC] The owner SID is invalid.
-[K]taM?
-\$ AVH
-\$ E3
-\$ H+
-\$ H;
-\$ I;]
-\$ UAVAWH
-\$ UH
-\$ UWAVH
-\$ VATAVH
-\$ VH
-\$$H+
-\$(H;
-\$0H;
-\$0I+
-\$88_
-\$8H;
-\$@H;
-\$HH+
-\$HH+T$0L
-\$PE3
-\$PH;
-\$PI;
-\$PL9I(uA
-\$XE3
-\$XH+
-\$XH9Q
-\$Xfff
-\$`E3
-\$`H9Q
-\$hE3
-\$hI;
-\$hfff
-\$pI;\$xtIH
-\$xHk
-\$xMi
-\EM]:d
-\\.\pipe\
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
+[IPC] ConvertStringSidToSidA failed for test app %d\n
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
+[IPC] Existing file mapping for %s was found\n
+[IPC] Failed creating auto reset event %s (GLE: %u)\n
+[IPC] Failed creating file mapping %s: %u\n
+[IPC] Failed creating mutex %s (GLE: %u)\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed to open event %s because access was denied\n
+[IPC] Failed to open file mapping %s because access was denied\n
+[IPC] Failed to open mutex %s because access was denied\n
+[IPC] Forced create of Win32 mutex %s but it already existed\n
+[IPC] Forced create of Win32Event %s but it already existed\n
+[IPC] Forced create of Win32Event but it already existed\n
+[IPC] Forced create of Win32Mutex but it already existed\n
+[IPC] Forced create of file mapping %s but it already existed\n
+[IPC] GetTokenInformation failed. GetLastError returned: %d\n
+[IPC] InitializeAcl failed. GetLastError returned: %d\n
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
+[IPC] OpenProcessToken failed. GetLastError returned: %d\n
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
+[IPC] SharedMem access invalid: %x\n
+[IPC] The owner SID is invalid.\n
 \mfpmp.exe
-]J<0"0i3
-]g@8yhu
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1720,7 +1109,6 @@ _crt_atexit
 _dtest
 _execute_onexit_table
 _fdtest
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -1731,14 +1119,6 @@ _register_onexit_function
 _seh_filter_dll
 _wcsicmp
 _wcsnicmp
-`.rdata
-`A^A]_^]
-`A^_]
-`A_A][
-`A_A^A]A\_^[
-`A_^]
-a7hIw
-a^LVp8`
 abort
 acosf
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -1766,6 +1146,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
+atoi
 bad allocation
 bad array new length
 bad conversion
@@ -1828,28 +1209,12 @@ cuInit
 cuMipmappedArrayDestroy
 cuMipmappedArrayGetLevel
 cuWaitExternalSemaphoresAsync
-d$ E3
-d$(E3
-d$HL;
-d$PE3
-d$XE3
-d$`H=
-d$`L;
 d3d11.dll
 data->IsInitialized()
 data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
-e&eZ0
-effffff
-f9+t4
-f98tZH
-f98t\H
-f9\$`u
-f;|$pt_H
-fD9&u
-fD;3t
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
 facet::CVkTimestampQueryPool<2>::UpdateResults
@@ -1858,63 +1223,22 @@ facet::CVkTimestampQueryPoolBase::UpdateResults
 facet::GenerateVisibleAreaMesh
 failed to acquire next HMD image
 false
-fffffff
 flMotionVectorScale[ vr::Eye_Left ] == flMotionVectorScale[ vr::Eye_Right ]
 flWaitTime < 1.0
 fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
+free
 from.pPool != nullptr
-gfffffffA
-gfffffffH
-gfffffffH+
-gfffffffH+L$p3
-gfffffffI
-gfffffffI+
-gfffffffL+
-gfffffffM
-gfffffffO
 graphicsCommandSet.Valid()
-hA_A^A]A\_^[]
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
 invalid bitset<N> position
 invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
-jj@0HK4
-k0i0$
-l$ E3
-l$ H;
-l$ H=
-l$ L;
-l$ VATAUAVAWH
-l$ VAVAWH
-l$ VWATH
-l$ WATAUH
-l$ WH
-l$0D;E
-l$0I;
-l$0L+
-l$0L;
-l$8E3
-l$8H+
-l$@H;
-l$PH;
-l$PH;1u6H;
-l$XL9
-l$`E3
-l$xE3
-l$xHc
-l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
-m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -1953,6 +1277,7 @@ m_sortedClients.size() == m_importedClients.size()
 m_waitSemaphores.size() == m_waitSemaphoreStages.size()
 m_waitTimelines.size() == m_waitPoints.size()
 m_waitTimelines.size() == m_waitStages.size()
+main
 malloc
 map/set<T> too long
 memcmp
@@ -1960,26 +1285,18 @@ memcpy
 memmove
 memset
 multiple signals per batch not allowed
-mwH9S
 nArrayIndex < m_details.nArrayLayerCount
-nD$p3
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
 nSizeInBytes <= m_unSizeInBytes
 nVsycId=%llu m_nLastVsyncId=%llu
 nVsyncPeriodInTicks > 0
-ntelD
 nvEncOpenEncodeSession != nullptr
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 nvcuda.dll
 ole32.dll
-ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
-p WAVAWH
-pA]A\^
-pA_A^]
-pA_A^_^]
 pAllocator
 pAllocator != nullptr
 pBindings != nullptr
@@ -2032,12 +1349,8 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
-r+w2H;
-r,fff
-r/w:I
 renderdoc.dll
 result == ALVR_OK
-s AVH
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2051,47 +1364,6 @@ strncpy
 strncpy_s
 strstr
 strtoull
-s}fff
-t$ AVH
-t$ AWH
-t$ UATAUAVAWH
-t$ UH
-t$ UWATAUAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$(E3
-t$(H+
-t$(Hi
-t$(L+
-t$(L;
-t$0H+
-t$0H9Q
-t$0H;
-t$0Hc
-t$0L;
-t$0M;
-t$8E3
-t$8t6H
-t$@H;
-t$@H=
-t$@I;
-t$HE3
-t$HL;
-t$HuJH
-t$PE3
-t$PH=
-t$`Li
-t$hH+
-t$lff
-t-fff
-tBfff
-tC8Khu1
-tOH97t	H
-tQH95
-tUH93t	H
-tXfff
 tdh.dll
 terminate
 timeBeginPeriod
@@ -2101,13 +1373,10 @@ timeSetEvent
 timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
-t}H9=v
-uAfff
-uRf;>tM
+true
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
-uwH9S
-v=Y]Bv
+v!ne
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
 vkAcquireDrmDisplayEXT
@@ -2754,46 +2023,3 @@ vr-marker,frame_end,type,application
 vulkan-1.dll
 wcsrchr
 wcsstr
-www.digicert.com1!0
-www.digicert.com1$0"
-xA_A^A]A\_^[]
-yxxxxxxxH
-yxxxxxxxI+
-{pH;{xw?
-{un'%
-|$ ATAUAVAWH
-|$ ATAVAWH
-|$ ATH
-|$ AVH
-|$ E3
-|$ L+
-|$ UATAUAVAWH
-|$ UAVAWH
-|$ UH
-|$(E3
-|$0E3
-|$0H9
-|$0L;
-|$8@8i(t1H
-|$@A_A^A]A\
-|$@E3
-|$@H;
-|$@I;
-|$HE3
-|$HH+
-|$HH;
-|$HH=
-|$PL91t
-|$pH+
-|$xIi
-|$xIk
-|$xMi
-|6hE3
-|Lu?c
-}(M98t
-}LuHO
-}`H+}XH
-}wH9S
-~qj#k"
-~t&LN
-~xM+~pI

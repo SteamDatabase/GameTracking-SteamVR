@@ -3,7 +3,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -51,9 +50,7 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 AmbientOcclusion
 Assembly-CSharp-testable
 BakeAndDiscard
@@ -93,6 +90,7 @@ GetProceduralString
 GetProceduralTexture
 GetProceduralVector
 GoogleAR.UnityNative
+Half
 HasProceduralProperty
 Heavy
 InternalsVisibleToAttribute
@@ -101,6 +99,7 @@ IsProceduralPropertyVisible
 Medium
 Metallic
 NoLimit
+None
 Normal
 Object
 ObsoleteAttribute
@@ -134,11 +133,11 @@ System.Security
 System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 Texture2D
 TextureFormat
+Tiny
 Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -220,8 +219,10 @@ Vector2
 Vector3
 Vector4
 WrapNonExceptionThrows
+\nzBSJB
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 blockHeight
 blockWidth
 componentLabels
@@ -247,14 +248,16 @@ maximum
 minimum
 mscoree.dll
 mscorlib
+name
 set_animationUpdateRate
 set_cacheSize
 set_isLoadTimeGenerated
 set_isReadable
 set_preset
 set_substanceProcessorUsage
+step
 textureName
+type
 v2.0.50727
 value
 value__
-zBSJB

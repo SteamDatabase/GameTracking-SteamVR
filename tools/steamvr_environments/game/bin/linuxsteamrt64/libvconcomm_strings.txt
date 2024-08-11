@@ -1,40 +1,29 @@
-
-"
-"%s"
+  (%s, v. %3d) '%s'\n
+ ( def. "%s" )
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
+ open 
 "%s" = "%s"
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
 $ORIGIN
-%
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %f %f %f %f
-%hd
-%hu
 %i %i %i %i
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%s%d
-%s,
-%s/
-%u
-( def. "%s" )
-(%s, v. %3d) '%s'
-(*%s*),
 -consoleapp
 -nofocus
 -vconbuffer
 -vconmaxlisten
 -vconport
 -vconsole
--wv
-....
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/utlrbtree.h
@@ -73,12 +62,13 @@ $ORIGIN
 26ICommandCompletionCallback
 30CVConsoleModuleMappingListener
 32IConfigValueRegistrationListener
+5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
 9CVConComm
 9IVConComm
-<< NULL >>
+<< NULL >>\n
 <NULL>
 <Unknown Shutdown Context>
 <deferred>
@@ -86,14 +76,16 @@ $ORIGIN
 <no failure reason set>
 <null>
 <unconnected>
-=============== End VConsole Buffered Messages ===============
-=============== Excessive Messages Truncacted - Buffer Size: %d bytes ===============
-=============== VConsole Buffered Messages ===============
-==========================================================
-==============================================================
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+=============== End VConsole Buffered Messages ===============\n
+=============== Excessive Messages Truncacted - Buffer Size: %d bytes ===============\n
+=============== VConsole Buffered Messages ===============\n
+==============================================================\n
+==========================================================\n
+?libvconcomm.so
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
@@ -111,8 +103,8 @@ CBufferString::Insert(int, char const*, int, bool)
 CBufferString::Purge(int)
 CBufferString::Relinquish(CBufferString::EAllocationOption_t)
 CBufferString::RemoveToFileBase()
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 CTSQueue corruption
@@ -133,8 +125,8 @@ CThreadFastMutex::Lock(char const*, int, unsigned long long, unsigned int) volat
 CThreadSyncObject::Wait(unsigned int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlRBTree overflow with %u elements!
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
+CUtlRBTree overflow with %u elements!\n
 CVirtualMachineCallStackTranslationEncoder::EnumerateEncodingIndices(bool (*)(CVirtualMachineCallStackTranslationEncoder*, unsigned int, char const*, char const*, unsigned int, void*), void*)
 CVirtualMachineCallStackTranslationEncoder::GetIndexBitMask()
 CVirtualMachineCallStackTranslationEncoder::GetIndexBitShift()
@@ -147,11 +139,11 @@ Cannot recover from failed socket shutdown.
 CloseSocket
 CommandLine
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
 ConfigurationSystem_001
 ConnectInterfaces
-Connection will timeout in %d seconds...
+Connection will timeout in %d seconds...\n
 CreateInterface
 CreateNonBlockingSocket
 DebugTextureInfo001
@@ -159,16 +151,16 @@ DevMsg
 DevMsg(char const*, ...)
 DotaCardGameClient_001
 Dumps the state of all existing VConsole pipes
-Duplicate PIPE_CLOSE message received for pipe (%d|%s)!
-Duplicate PIPE_OPEN_ACK message received for pipe (%d|%s)!
-Duplicate PIPE_OPEN_REQUEST message received for pipe (%d|%s)!
+Duplicate PIPE_CLOSE message received for pipe (%d|%s)!\n
+Duplicate PIPE_OPEN_ACK message received for pipe (%d|%s)!\n
+Duplicate PIPE_OPEN_REQUEST message received for pipe (%d|%s)!\n
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 EventSystem001
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
 FlattenedSerializersVersion001
 FontManager_001
@@ -177,7 +169,6 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -192,19 +183,19 @@ Init
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid connection type.
-JSON error, unterminated element:
+JSON error, unterminated element: 
 KV Conditional Evaluation Error
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 LOG_GENERAL
 LoadFromBuffer: expected '{', found '%s'
@@ -234,9 +225,9 @@ MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
-Message Version Mismatch: '%s', Expected %d, Got %d
-Message received for VConsolePipe_t with no registered helper (%s)
-Message received on closed VConsole Pipe! (%s)
+Message Version Mismatch: '%s', Expected %d, Got %d\n
+Message received for VConsolePipe_t with no registered helper (%s)\n
+Message received on closed VConsole Pipe! (%s)\n
 ModelDocUtils001
 NULL
 NetworkClientService_001
@@ -247,8 +238,9 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
-No VConsole, Ignoring.
+No VConsole, Ignoring.\n
 Not sure how we got here.
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -271,7 +263,6 @@ PostProcessingSystem_001
 PropertyEditorSystem_001
 Push
 QueuedLoaderVersion001
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -279,8 +270,8 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
-Rejecting registering message '%s'. Already registered to an alternate handler.
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
+Rejecting registering message '%s'. Already registered to an alternate handler.\n
 Release
 RenderDevice003
 RenderDeviceMgr001
@@ -325,7 +316,7 @@ SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 SerializedEntitiesVersion001
 ServerUploadGameStats001
-Socket error: %d
+Socket error: %d\n
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
@@ -375,20 +366,20 @@ VBAllocTracker001
 VBaseFileSystem011
 VBik001
 VConComm
-VConComm Discarding Oversized Outgoing Message: '%s' (%d bytes)
-VConComm Failed To Initialize!
+VConComm Discarding Oversized Outgoing Message: '%s' (%d bytes)\n
+VConComm Failed To Initialize!\n
 VConComm001
 VConCommThread_PC
-VConsole Connected.
-VConsole Rejecting Message: '%s', No Message Handler Claimed Ownership.
+VConsole Connected.\n
+VConsole Rejecting Message: '%s', No Message Handler Claimed Ownership.\n
 VConsole disconnect
-VConsole pipe (%s): PIPE_CLOSE message received - PIPE CLOSED
-VConsole pipe (%s): create message received, creating new pipe
-VConsole pipe (%s): open ack received - PIPE OPEN
-VConsole pipe (%s): open request accepted - PIPE OPEN
-VConsole pipe (%s): open request denied
-VConsole pipe (%s): open request parried
-VConsole pipes (game-side): %d
+VConsole pipe (%s): PIPE_CLOSE message received - PIPE CLOSED\n
+VConsole pipe (%s): create message received, creating new pipe\n
+VConsole pipe (%s): open ack received - PIPE OPEN\n
+VConsole pipe (%s): open request accepted - PIPE OPEN\n
+VConsole pipe (%s): open request denied\n
+VConsole pipe (%s): open request parried\n
+VConsole pipes (game-side): %d\n
 VDebugService_001
 VEngineCvar007
 VFileSystem017
@@ -497,14 +488,14 @@ WSAETIMEDOUT
 WSAETOOMANYREFS
 WSAEUSERS
 WSAEWOULDBLOCK
-Waiting For VConsole To Connect...
+Waiting For VConsole To Connect...\n
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 Xbox VDP is not supported on this platform.
-[%.3f server clamped to %.3f]
+\rMake VConsole Foreground(): ReturnToWindow:0x%p, Timeout:%d, UseHostPath:%d\n
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -552,11 +543,10 @@ clientcmd_can_execute
 close
 closed
 commandline
+configvalue.cpp
 connect
-d
 delete
 developer
-f
 float( %f )
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -571,22 +561,18 @@ interfaces.cpp
 invalid
 ioctl
 keyvalues.cpp
-l
 libc.so.6
 libpthread.so.0
 libstdc++.so.6
 libtier0.so
 libvconcomm.so
 listen
-max. %f
 memcpy
 memmove
 memset
-min. %f
 nTries < 10000000
 notconnected
 notify
-open
 operator delete(void*)
 operator delete[](void*)
 operator new(unsigned long)
@@ -595,7 +581,6 @@ operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
 poll
 ptr( 0x%p )
-rb
 recv
 replicated
 schemabindings.cpp
@@ -617,6 +602,7 @@ typeinfo for CThreadSyncObject
 u64( %lld = 0x%llX )
 update
 user
+utlbuffer.cpp
 utlstring.cpp
 vc_exit %s
 vcon_pipe_dump
@@ -626,8 +612,5 @@ vstdlib
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-wb
 wcscmp
 wcslen
-{
-{}()':

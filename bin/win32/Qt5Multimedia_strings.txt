@@ -1,49 +1,14 @@
-	;AD}
-	?createNode@QMapDataBase@@QAEPAUQMapNodeBase@@HHPAU2@_N@Z
-	?currentPath@QDir@@SA?AVQString@@XZ
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
-	}*SVWU
-	}.UVWS
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
- ^_][
  out of limit[
-!This program cannot be run in DOS mode.
-"0S0^0h0
-"j)Ph<{
-"}.UVWS
-#020?0G0O0W0_0
 #EXTINF:
 #EXTM3U
-$0*0`0
-$0+080
-$0+0U0\0{0
-$01080
-$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:
-$Pj	h
-$Pj	h 
-$Pj	hH
-$SUVW
-$SUVWj
-%040C0M0`0
+#\v?end@QJsonArray@@QBE?AVconst_iterator@1@XZ
 %1 does not exist
 %1 playlist type is unknown
-%1%2.%3
-%1*.%2
 %1:%2.%3 - %4:%5.%6
 %1:%2.%3 - forever
 %1:%2:%3.%4 - %5:%6:%7.%8
 %1:%2:%3.%4 - forever
-'020A0R0_0g0w0
-'090G0P0m0
-)L$xP
-+L$4+
-+L$D+
+&\v?end@QListData@@QBEPAPAXXZ
 , byteOrder=
 , codec=
 , handleType=
@@ -52,10 +17,7 @@ $SUVWj
 , sampleType=
 , viewport=
 , yCbCrColorSpace=
-,2024282<2@2D2H2L2P2T2X2<9@9D9H9L9P9T9X9\9`9d9h9
-,3034383D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
--0G0i0q0
--0M0W0}0
+,\f?firstNode@QHashData@@QAEPAUNode@1@XZ
 .00cfg
 .?AUQAudioSystemFactoryInterface@@
 .?AUQMediaPlaylistIOInterface@@
@@ -216,6 +178,7 @@ $SUVWj
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -229,124 +192,19 @@ $SUVWj
 .rdata$r
 .rdata$sxdata
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata$x
-0 0$0(0,0004080<0@0D0
-0 0$0(0,0004080<0@0D0H0i0p0
-0 0$0(0L1P1T1X1\1`1d1h1l1p1t1x1
-0 0$04080<0L0P0T0d0h0l0|0
-0 0.0<0J0X0f0x0|0
-0 0D0h0
-0 1&1
-0"000D0H0L0P0T0X0\0`0d0
-0#01080>0C0Q0X0^0c0q0x0~0
-0#11181F1N1b1
-0$0(0@0P0T0X0l0p0
-0$1O1s1
-0%0,0R0a0
-0&1.181F1
-0'0Z0i0v0n1
-0)000:0I0R0\0|0
-0)0B0w0
-0*111M1k1
-0+000<0F0M0R0b0l0
-0+000P0
-0+0H0_0x0
-0+1P1W1r1
-0,000@0D0H0P0h0x0|0
-0,030@0y0
-0,030[0`0{0
-0,060f0n0v0
-0,090F0W0f0
-0-0@0I0d0m0
-0/090I0Z0m0r0
-004080<0@0D0H0L0P0T0X0
-010D0k0p0
-020B0Z0k0r0
-021?1M1R1a1g1t1y1
-030D0^0u0
-041[1c1
-070J0]0y0
-090E0
-0;0A0Q0r0w0
-0;0J0u0}0
-0;q4u
-0<1N1
-0>0T0]0v0
-0C1p1
-0D0N0l0~0
-0D1Q1>2G2P2X2^2h2n2x2~2
-0E0`0
-0H0S0f0{0
-0I1P1s1
-0N0b0q0
-0X0h0x0}0
-0i1p1x1
-0p0v0
-0u0z0
-1 1$1(1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1
-1 1$1(1,10141P1V1l1
-1 1$1(1,1@1D1T1X1h1l1p1x1
-1 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2
-1"1)171H1O1^1d1q1
-1"11161Q1V1j1q1z1
-1"121e1w1~1
-1"1W1
-1#1)1/151;1A1G1M1S1Y1_1e1k1q1w1}1
-1#11181>1C1Q1X1^1c1q1x1~1
-1$1(1,141L1\1`1p1t1x1|1
-1$1(1,1<1@1D1T1X1\1l1p1t1
-1$151
-1%111;1F1`1h1{1
-1%1=1O1V1
-1'1.1K1Q1?2M2[2i2w2
-1'10171F1]1l1y1
-1(1T1
-1)101D1a1t1
-1)1A1J1
-1)1i1p1
-1)1t1
-1+131
-1+1A1K1Y1t1
-1+272C2O2Y2
-1.151>1E1\1~1
-1.1:1[1|1
-102L2
-102h2
-131I1b1
-142E2Q2
-151<1c1
-152Y2i2
-161o1|1
-1<1N1`1r1
-1A1N1
-1B2P2W2t2z2
-1C1p1
-1E2O2
-1E2`2l2y2
-1H1N1W1
-1I2P2y2
-1K1X1`1h1q1
-1K2Z2`2
-1L1R1X1a1h1
-1Y1`1u1|1
-1[2`2
-1[2`2u2|2
-1^1e1v1
 1_q_availabilityChanged()
 1_q_availabilityChanged(QMultimedia::AvailabilityStatus)
 1_q_error(int,QString)
@@ -378,72 +236,14 @@ $SUVWj
 1_q_updateMedia(QMediaContent)
 1_q_updateNotifyInterval(int)
 1_q_updateState(QCamera::State)
-1`2d2h2l2p2t2x2|2
-1a1g1
 1decoderError()
 1decoderReady()
 1deleteOnComplete()
-1h1l1p1t1
 1handleData()
 1readSample()
 1sampleReady()
 1screenOrientationChanged(Qt::ScreenOrientation)
 1stateChanged(QAudio::State)
-2	2<2T2c2
-2	3 3
-2 2$2(2,2024282
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2
-2 2$2(2,2024282<2@2H2L2P2T2H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-2 2(2@2P2T2d2h2l2t2
-2 2I2P2e2k2
-2 2X2
-2!2%2/2A2R2Y2g2x2
-2!2'292>2L2R2_2d2t2
-2!2*2?2H2]2e2k2
-2!2;2H2P2X2a2{2
-2!2s2|2
-2"212E2L2k2p2
-2"222?2D2T2
-2"2`2h2p2x2
-2#2-2=2]2b2z2
-2#21282>2C2Q2X2^2c2q2x2~2
-2#2Q2b2i2w2
-2#313U3
-2#3P3
-2$2`2t2{2
-2%2+21272=2C2o2
-2%2/2O2Z2d2w2
-2%3\3b3
-2&222
-2&252G2
-2&2@2
-2&2N2u2
-2&393
-2'212?2K2o2
-2'252G2j2
-2'3A3G3
-2(3I3y3
-2*353q3
-2+212A2a2f2p2
-2+292G2U2c2q2
-2,20242D2H2L2P2\2`2d2t2x2|2
-2,2`2t3x3|3
-2-2G2a2
-20242L2\2`2d2h2|2
-202@2D2T2X2h2l2t2
-202A2Q2Z2b2r2
-202d2
-242j2
-263r3{3
-282b2
-2:3@3H3N3X3^3h3n3
-2;2@2d2
-2B2Q2k2p2
-2E2K2c2l2y2
-2G2Z2v2
-2I2i2|2
-2K2P2
-2U2g2
 2activated(QMediaContent)
 2activeInputChanged(QString)
 2actualLocationChanged(QUrl)
@@ -513,7 +313,6 @@ $SUVWj
 2metaDataWritableChanged(bool)
 2mutedChanged()
 2mutedChanged(bool)
-2n3y3
 2networkConfigurationChanged(QNetworkConfiguration)
 2newItem(QVariant)
 2notify()
@@ -557,772 +356,10 @@ $SUVWj
 2volumeChanged(int)
 2volumeChanged(qreal)
 2writableChanged(bool)
-3 3$3(3,3034383<3@3D3H3L3P3T3X3
-3 3$3(3,3034383<3@3D3H3L3P3T3X3`3d3h3l3l4p4t4x4|4
-3 3$34383<3L3P3T3d3h3l3|3
-3 30343D3H3L3T3l3|3
-3 3E3Y3_3o3~3
-3"3)373H3O3^3d3
-3#3/3K3U3[3k3~3
-3#31383>3C3Q3X3^3c3q3x3~3
-3#363>3K3R3`3h3t3
-3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-3$3.3D3P3\3h3r3
-3$383
-3$3d4n4
-3$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5|5
-3%333A3O3]3p3t3x3|3
-3%3U3n3
-3%474B4R4
-3'3.3K3Q3a3
-3'363V3_3f3u3
-3'4c4y4
-3(3,3034383@3X3\3t3
-3(4Z4
-3)303D3a3t3
-3)404
-3*3/3=3E3n3{3
-3*3/3?3L3Q3a3n3s3
-3+303@3M3R3b3o3t3
-3+333@3F3T3`3k3s3y3~3
-3+4>4J4R4Z4e4
-3,303@3D3H3L3P3X3p3
-3,3H3h3
-3,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-3-3;3I3W3e3t3x3|3
-3-4:4D4^4r4
-3/383@3P3]3}3
-313E3k3
-314?4G4w4
-334I4b4
-373l3
-393C3P3Z3d3
-394@4O4^4h4
-3;3L3R3_3i3
-3<3W3r3
-3=3F3M3\3
-3@3b3
-3A3N3
-3G5U5
-3L3^3
-3P4l4u4|4
-3Q3l3
-3Z3q3
-3a3o3
-3d3j3
-3e3l3
-3e4w4
-3j3q3z3
-3k3q3
-4 4,494O4
-4 4D4
-4 4^4p4
-4!4'4+414?4|4
-4!404
-4!434C4S4f4y4
-4!4>4
-4"4/4
-4"404>4L4Z4h4x4|4
-4#4-4=4]4b4z4
-4#41484>4C4Q4X4^4c4q4x4~4
-4$4(484<4@4D4L4d4t4x4
-4$44484@4X4h4l4|4
-4$44484H4L4\4`4d4l4
-4$5T5[5
-4%4+484B4e4
-4%414H4U4c4q4
-4%4N4
-4&4G4P4W4f4}4
-4(4/454L4S4Y4p4w4}4
-4(484H4X4
-4(4D4\4
-4(4P4x4
-4)404D4a4t4
-4)505U5g5u5
-4*525<5E5O5U5}5
-4+4Z4
-4-4;4
-4-4;4A4
-4-4^4
-4-5:5S5
-4-5[5
-4.4;4[4l4|4
-4/474E4^4f4n4x4
-4282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-435?5
-444=4C4W4`4f4r4{4
-445V5
-455\5b5
-475M5
-484a4p4
-494@4
-4:5O5]5r5
-4<4l4
-4E4S4
-4E4T4h4q4
-4F4M4S4b4j4r4~4
-4G4S4Z4
-4H4U4
-4H4Y4
-4J4Q4{4
-4L4y4
-4M4m4|4
-4SUVW
-4]4{4
-4^4c4
-4`4u4
-4e5l5
-5	5#565>5K5R5`5h5t5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5|6
-5 5$5(5,5054585@5D5H5L5
-5 5$54585@5X5h5l5|5
-5 5'5D5J5w5
-5 585<5T5d5h5l5t5
-5 585|5
-5 5;5@5p5v5
-5 5O5`5k5{5
-5 6D6`6
-5!5&5A5F5Q5V5a5f5
-5!5(5/575?5G5S5\5a5g5q5{5
-5!5D5a5t5
-5!646<6M6\6c6o6
-5"505:5O5_5j5
-5"585I5W5
-5"6M6
-5#51585>5C5Q5X5^5c5q5x5~5
-5$555o5
-5%5.5
-5%555B5L5Z5e5k5
-5%5\5e5j5z5
-5%616B6I6W6h6o6~6
-5%626X6
-5&5/565E5]5l5y5
-5&5y5
-5'5,5<5I5N5^5m5~5
-5'5B5$6>6X6r6
-5'626
-5(5,50545<5T5d5h5x5|5
-5(5/5>5D5
-5)575=5R5Y5_5t5
-5)6:6E6U6m6v6
-5*525;5T5v5
-5*8B8]8
-5+505<5F5M5R5b5l5
-5+505E5L5
-5,515;5F5P5W5^5e5l5s5z5
-5,595F5W5f5
-5-5h5u5~5
-5.5B5w5
-5/6S6
-505X5
-505\5w5
-545:5C5L5S5v5
-575l5
-576M6_6i6|6
-596@6U6g6
-5:6v6A8I8f8u8
-5;5@5
-5B6P6W6t6z6
-5B6Q6
-5D6u6
-5I5S5\5e5
-5M6x6
-5R5a5s5
-5W5c5j5
-5Y5d5
-5Y6|6
-5g5r5z5
-5ineI
-5l5p5t5x5|5
-5ntel
-5t6x6|6
-6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6p6t6x6|64787<7@7D7H7L7P7T7X7\7`7d7h7l7p7x7|7
-6 6$6(6,606F6
-6 6$6,6D6T6X6h6l6|6
-6 6$6P6T6X6\6`6d6h6l6p6t6x6|6
-6 6*646>6H6R6\6x6
-6 6/6H6d6p6
-6 6I6P6y6
-6 6i6p6
-6!61676E6U6[6i6y6
-6!646T6q6
-6!6>6D6
-6"6)676H6O6^6d6q6
-6#61686>6C6Q6X6^6c6q6x6~6
-6#797R7
-6$6A6T6
-6$6K6P6y6
-6$6u6
-6$7*70767<7B7H7N7T7Z7`7f7l7r7x7~7
-6$7Z7
-6%636K6W6z6
-6&6:6I6Q6`6z6
-6'7\7
-6(6.6x6
-6(636C6[6d6
-6(686<6L6P6T6X6`6x6
-6(6:6C6e6
-6(6L6l6
-6)666G6V6w6
-6)707D7o7~7
-6)7u7
-6*6D6^6x6
-6*777D7V7`7
-6+616A6a6f6p6
-6,636T6|6
-6,6T6\6n6z6
-6.7:7n7z7
-6/6D6O6a6v6
-606@6D6T6X6\6d6|6
-60767]7c7
-616=6K6h6
-626A6
-626B6R6Y6_6
-646>6N6T6^6z6
-656;6Y6k6}6
-656<6f6$7e7
-656H6Y6f6l6w6}6
-677B7H7X7{7
-677B7M7d7n7w7
-6;7@7U7\7
-6;7^7r7
-6@7D7H7L7
-6A6N6
-6A7R7Y7g7x7
-6B7V7k7s7{7
-6C6h6{6
-6E7Z7
-6G6|6
-6H7L7
-6P7`7f7
-6X6^6v6|6
-6Y7	8
-6\6`6d6h6l6p6t6x6|6
-6\8`8d8h8l8p8t8x8|8
-6]7u7
-6h7l7p7t7x7|7
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7(7/7w7~7_8
-7 70747D7H7L7P7X7p7
-7 757<7[7`7
-7!72797G7X7_7n7t7
-7!7E7P7g7r7
-7"727:7J7U7`7j7t7~7
-7"7?7Q7r7
-7#7,717F7P7`7z7
-7#71787>7C7Q7X7^7c7q7x7~7
-7#73797d7z7
-7#777X7h7
-7#7F7
-7#7K7P7v7
-7$7+7E7W7s7
-7$7<7X7f7p7
-7%737^7r7
-7%747>7L7T7
-7%777
-7%777E7W7e7w7
-7&777F7g7p7w7
-7(7,7<7@7H7`7p7t7
-7(7,7<7@7P7T7X7`7x7
-7(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-7)808E8L8
-7*777>7[7a7q7
-7*868@8
-7+707V7
-7+808Y8`8D9
-7/8E8X8i8u8
-707\7
-718B8I8W8h8o8~8
-74<8<<<@<D<H<L<P<T<X<\<`<l<p<t<x<|<
-758p8v8
-778J8w8
-797@7i7p7
-7:7k7p7&8
-7;3t?
-7;7R7\7
-7@7p7
-7C8S8\8c8{8
-7E7l7r7
-7G7Q7q7x7
-7Q7b7i7w7
-7T:X:\:`:d:h:l:p:t:x:|:
-7Y7`7
-7\8`8d8h8l8p8t8x8|8
-7g7m7
-7k8p8
-8	?convert@QVariant@@QBE_NHPAX@Z
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8$8(8,8084888<8@8D8H8L8]8l8y8
-8 8$84888<8@8H8`8p8t8
-8 8$84888<8D8\8l8p8
-8 8;8@8
-8 8I8P8y8
-8!8&81868A8F8Q8V8a8f8q8v8
-8!8'81878A8G8Q8W8a8g8q8w8
-8!8)828K8m8
-8!8z8
-8"8,818Q8W8i9x9
-8"8,868w8
-8"8.8;8E8L8R8^8d8t8z8
-8"8?8I8
-8#8)858B8J8Y8b8
-8#81888>8C8Q8X8^8c8q8x8~8
-8#898r:!=2=9=G=X=_=n=t=)>1>
-8#999R9
-8$8,898?8M8W8]8b8h8v8
-8$9O9f9
-8%838=8E8L8b8
-8%838A8O8]8k8y8
-8%878
-8&828@8G8d8j8
-8&888>8v8
-8&9j:p:{:
-8(8<8E8O8W8y8
-8(8[8h8
-8)808=8i8p8}8
-8)8N8
-8*878
-8*9^9
-8+808d8
-8+8`8d8h8l8
-8,8:8H8V8
-8-9?9N9]9
-8/898L8h8
-80848L8\8`8d8x8|8
-818Y8`8m8
-819;9
-828A8U8\8{8
-829=9`9w9
-859G9U9g9u9
-869D9M9
-8:8D8X8b8n8x8
-8;8@8
-8<9B9_9i9
-8?9D9R9c9
-8A9P9
-8D8h8
-8D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-8E8d8
-8I9T9s9
-8SUVW
-8T8{8
-8X8a8j8
-8X8c8
-8Y8`8
-8_^][
-8b8o8
-8b9k9
-8f8t8
-9 9$9(9,9$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l98:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9 9&949>9[9
-9 9'969J9W9^9{9
-9!9'91979A9G9Q9W9a9g9q9w9
-9!:X:_:t:
-9"90979T9Z9z9
-9#91989>9C9Q9X9^9c9q9x9~9
-9$9(9,90989P9`9d9t9x9
-9$9(9,90989P9`9d9t9x9|9
-9$9(989<9@9H9`9p9t9
-9$9.949U9[9
-9$919?9K9i9
-9$:{:
-9%979I9V9y9
-9%:4:
-9&979F9g9p9w9
-9&999[9`9
-9&9z9
-9'9h9s9
-9':\:
-9':g:
-9(9/9>9D9i9p9
-9(969D9T9X9\9`9d9h9
-9(9S9e9~9
-9(:@:
-9)979E9S9a9o9|9
-9*9/9;9@9L9Q9]9b9
-9*9[9h9
-9+909V9
-9,9>9o9
-9-979C9U9_9i9u9
-9-:6:R:\:
-9.9;9H9`9i9z9
-9/:k:
-90@0k0
-929g9
-949>9G9}9
-949E9}9
-949Q9Y9m9
-959P9Z9t9
-959P9]9
-969@9i9
-97:A:[:e:y;~;
-989<9@9D9H9i9p96:
-9;9Q:^:
-9;:C:K:
-9<9J9X9\9`9d9h9l9
-9<9X9p9
-9?:H:S:^:
-9@:J:Z:b:
-9FH}Rf
-9G9R9]9f9
-9L:P:T:X:\:`:d:h:l:p:t:x:|:
-9N:b:
-9U9g9
-9Y:`:
-9^9g9
-9d<h<l<p<t<x<|<
-9k9t9
-9t$ r
-9t$$r
-9|$ r
-9|$$r
-9|$$s1f
-9~(t*
-: :$:(:,:
-: :$:(:,:0:4:8:<:@:D:l:p:t:x:|:
-: :$:(:,:0:4:8:l:p:t:x:|:
-: :$:(:T:d:k:
-: :':D:J:a:r:y:
-: :(:@:P:T:d:h:l:p:x:
-: :H:`:f:
-: :X:i:
-: :Z:j:
-: ;{;
-:!:':1:7:A:G:Q:W:a:g:q:w:
-:!:2:9:G:X:_:n:t:
-:!:8:L:W:g:
-:!;2;9;G;X;_;n;t;
-:":<:B:\:b:|:
-:":h:
-:";/;6;S;Y;
-:#:1:8:>:C:Q:X:^:c:q:x:~:
-:$:):::D:l:s:{:
-:$;M;V;
-:$;n=
-:%:,:G:Y:`:f:k:q:{:
-:%:,:K:P:
-:%:-:P:[:w:|:
-:%;,;e;l;
-:%;>;Q;w;
-:%;L;R;
-:&:I:V:y:
-:':8:?:N:T:a:r:y:
-:';2;=;F;
-:';\;
-:(:/:>:D:
-:):2:9:Q:[:v:
-:*:7:<:L:Y:^:n:{:
-:*:7:>:[:a:q:
-:+:8:<:@:D:c:y:
-:,:0:4:<:T:X:p:
-:-:@:V:
-:-;4;=;
-:-;6;?;
-:.:7:S:`:
-:0:G:U:_:
-:2:B:I:O:
-:2;A;y;
-:3;D;|;
-:4:X:|:
-:5:r:
-:6;^;
-:8;B;T;`;l;x;
-:9;@;
-:9;@;T;q;
-:;:A:Q:r:w:
-:>:R:
-:@;D;
-:@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-:A:Q:W:w:
-:D:m:
-:D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-:E:j:p:
-:G<[<
-:H:Q:W:]:k:p:~:
-:L:e:l:
-:R:a:u:
-:R:d:
-:R;\;x;
-:T:v:
-:Y:`:
-;	<H<`<j<s<
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-; ;$;4;8;<;@;H;`;p;t;
-; ;D;
-;!;';1;7;A;G;Q;W;a;g;q;w;
-;!;5;<;[;`;
-;!<'<3<Y<
-;!<'<L<e<x<
-;";5;Q;W;j;v;
-;#;1;8;>;C;Q;X;^;c;q;v;
-;$;-;d;x;
-;$;5;G;U;g;u;
-;$;e;u;
-;%;*;:;G;L;\;i;n;~;
-;%;,;j;{;
-;%<,<U<\<
-;%<T<\<f<p<
-;&;+;<;F;h;
-;&;Y;x;
-;';-;:;@;M;[;c;i;m;w;
-;';5;D;H;L;P;s;
-;'<\<
-;(;6;D;H;L;P;T;X;\;`;d;h;l;
-;);0;=;q;
-;);3;=;
-;);T;
-;)<0<J<{<
-;*;7;>;[;a;q;
-;*;7;B;S;b;u;
-;+;U;[;r;
-;,;0;4;<;T;d;h;x;|;
-;,;6;F;K;R;Y;`;g;q;
-;0;@;D;T;X;\;`;h;
-;1;t;~;
-;5<G<h<
-;8;<;@;D;H;f;$<e<
-;8<@<I<R<
-;=;U;
-;=;~;
-;>;E;V;
-;@;d;
-;D$ uT
-;D$ vg
-;D$$uj
-;D$$vw
-;D$(r
-;D$(s;
-;D$(t4
-;D$DtP
-;D$Ttc
-;D$xt
-;D;K;Q;
-;G<Q<i<
-;H;z;
-;H<k<
-;J;Y;h;
-;P<d<
-;R;d;
-;T;Z;g;
-;W<_<
-;\$0t+
-;\$tt/
-;\$tu
-;]<g<
-;p;w;~;
-;t$$r
-;t$$sV
-;t$$t%
-;t$$uG
-;t$(r
-;t$(sh
-;t$(uS
-;t$Lt&
-;t$Xu
-;t$dt
-;t$du
-<	="=W=
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<
-< <$<(<,<0<4<8<<<@<D<H<d>h>l>p>t>x>|>
-< <$<(<,<4<L<P<h<x<|<
-< <&<4<t<
-< <+<3<=<G<Q<[<e<o<y<
-< <0<4<D<H<L<P<X<p<
-< <4<\<c<p<
-< <8<H<L<\<`<d<l<
-< =*=:=B=k=
-< =B=Z=`=f=p=x=
-<!<&<1<6<A<F<Q<V<a<f<q<v<
-<!<'<1<7<A<G<Q<W<a<g<q<w<
-<!<0<?<
-<!<I<P<}<X=a=f=t=
-<"<'<1<J<W<^<{<
-<"<1<o<
-<"=.=;=C=O=`=q=
-<"=1=p=
-<#<(<8<D<O<U<k<q<
-<#<,<7<B<K<]<h<}<
-<#<0<t<}<
-<#<O<^<y<
-<#=N=[=f=l=x=
-<$<-<=<H<
-<'=0=
-<'=3=
-<'=\=
-<(</<><D<
-<)<0<\<K=Y=g=u=
-<)<2<m<
-<)<5<z<
-<*=j=
-<+<3<G<i<
-<+<@<]<
-<,<<<@<D<H<
-<.=7=
-</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
-<0<?<P<j<{<
-<0<J<d<~<
-<1<:<
-<1=7=\=u=
-<4<B<S<f<
-<7<G<e<
-<7<t<
-<7=B=X=k=
-<8<T<i<t<
-<8<d<
-<8=>=
-<9=@=
-<<<F<V<[<b<i<p<z<
-<<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-<=<d<
-<==N=T=b=l=u=|=
-<@<R<
-<A=N=a=u=
-<D<N<
-<E=i=
-<X<c<v<
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-<h<s<
-<n=u=
-= =$=4=8=<=@=H=`=p=t=
-= >P>t>
-=!='=1=7=A=G=Q=W=a=g=q=w=
-=!=)=/=7===H=N=V=\=d=j=r=x=
-=!=,=@=N=
-=!=-=:=B=O=W=d=l=y=
-=!=2=9=G=X=_=n=t=
-=!=B=G=Q=
-=!>)>X>v>
-="=+=D=f=
-=#=3=F=Y=
-=#=E=d=
-=$===_=
-=$=I=
-=$>a>l>v>
-=&=4=C=a=
-=&>t>
-='=8=?=N=T=a=r=y=
-='>\>
-=)=0=E=L=
-=)=K=g=
-=*=x=
-=+=0=K=P=k=p=
-=,=0=@=D=H=P=h=x=|=
-=,=T=|=
-=-=2=A=N=W=^=d=i=~=
-=/===e=
-=2=8=P=V=n=t=
-=2=g=
-=2>?>F>c>i>
-=4=D=H=X=\=d=|=
-=4=H=Q=
-=4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
-=4>8><>@>D>H>L>P>T>X>\>`>h>l>p>t>
-=5=\=u=
-=5>\>b>
-=6>g>r>}>
-=7=l=
-=8=<=@=D=H=L=P=T=
-=8=C=p=
-=9=@=[=`=
-=;=D=n=y=~=
-=?>a>w>
-=@>]>g>u>
-=D=P=\=p=
-=F>^>
-=H>X>h>m>
-=J>T>^>
-=S=]=g=p=
-=Z=b=l=v=
-=\>s>
-=_>e>
->	?"?W?
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
-> >$>(>,>0>4>8><>@>D>H>L>\?`?d?h?l?p?t?x?|?
-> >$>(>0>H>X>\>l>p>t>|>
-> >$>4>8>@>X>h>l>|>
-> >&>@>F>`>f>
->!>&>:>A>J>O>d>n>~>
->!>'>G>U>b>i>
->!>+>;>A>K>[>n>
->!>4>A>K>U>w>~>
->">)>7>H>O>^>d>u>
->">4>@>L>X>b>'?1?I?t?
->$>(>,>0>8>P>`>d>t>x>|>
->$>.>]>
->$>1>O>w>
->$>4>
->$>6>G>q>
->$?.?G?s?
->%>,>E>L>e>l>
->%>=>L>Y>f>w>
->&?i?s?
->'>.>8>?>I>P>Z>d>n>v>~>
->(>B>U>p>
->(?5?<?Y?_?
->)>0>:>I>R>\>|>
->+?h?
->.?C?d?
->.?[?
->/><>S>`>w>
->/>B>T>
->1>>>X>g>
->2>B>R>b>r>
->3><>Z>_>o>y>
->4?O?a?
->5><>U>\>
->5><>[>`>
->6?<?o?
->7?<?B?i?o?
->7?\?
->8>[>
->9?@?U?\?
->:>F>Q>
-><>_>f>v>
->F?~?
->H?`?f?
->I?O?X?r?
->N>Y>
->O_u	V
->Q>b>i>w>
->S>a>
->X>b>
->X>k>u>
->`?j?o?y?
->e>q>
->h>s>
->x>~>
-? ?$?(?,?0?
-? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?x?|?
-? ?(?@?P?T?d?h?p?
-? ?*?6?`?
-? ?;?@?b?q?
-?"?)?7?H?O?^?d?
-?#?D?l?s?
-?&?,?4?:?D?J?[?k?
-?&?.?4?<?D?L?T?\?d?m?
-?&?G?P?W?f?z?
-?'?1?i?
-?)?6?z?
-?-?2?J?S?\?a?v?
-?-?E?N?
-?0?@?D?T?X?\?d?|?
-?0?I?O?x?
-?0W0]0r0
-?4?Q?d?
-?4?u?
-?5?C?U?g?y?
-?8?>?
-?9?S?m?
-?;?R?o?
-?<?^?
-?<?^?k?
-?<?h?
+3\n?data@QByteArray@@QAEPADXZ
+4\n?data@QByteArray@@QBEPBDXZ
+8\t?convert@QVariant@@QBE_NHPAX@Z
+>\n?data@QString@@QBEPBVQChar@@XZ
 ??0QAbstractAudioBuffer@@QAE@ABV0@@Z
 ??0QAbstractAudioBuffer@@QAE@XZ
 ??0QAbstractAudioDeviceInfo@@QAE@XZ
@@ -2005,7 +1042,6 @@ $SUVWj
 ?AudioCodec@QMediaMetaData@@3VQString@@B
 ?Author@QMediaMetaData@@3VQString@@B
 ?AverageLevel@QMediaMetaData@@3VQString@@B
-?B?O?e?p?
 ?CameraManufacturer@QMediaMetaData@@3VQString@@B
 ?CameraModel@QMediaMetaData@@3VQString@@B
 ?Category@QMediaMetaData@@3VQString@@B
@@ -2028,8 +1064,6 @@ $SUVWj
 ?DigitalZoomRatio@QMediaMetaData@@3VQString@@B
 ?Director@QMediaMetaData@@3VQString@@B
 ?Duration@QMediaMetaData@@3VQString@@B
-?E?L?
-?E?m?
 ?Event@QMediaMetaData@@3VQString@@B
 ?ExposureBiasValue@QMediaMetaData@@3VQString@@B
 ?ExposureMode@QMediaMetaData@@3VQString@@B
@@ -2056,11 +1090,8 @@ $SUVWj
 ?GPSTrackRef@QMediaMetaData@@3VQString@@B
 ?GainControl@QMediaMetaData@@3VQString@@B
 ?Genre@QMediaMetaData@@3VQString@@B
-?H?[?g?z?
-?I?P?v?
 ?ISOSpeedRatings@QMediaMetaData@@3VQString@@B
 ?Keywords@QMediaMetaData@@3VQString@@B
-?L?o?~?
 ?Language@QMediaMetaData@@3VQString@@B
 ?LeadPerformer@QMediaMetaData@@3VQString@@B
 ?LightSource@QMediaMetaData@@3VQString@@B
@@ -2086,8 +1117,6 @@ $SUVWj
 ?SubTitle@QMediaMetaData@@3VQString@@B
 ?Subject@QMediaMetaData@@3VQString@@B
 ?SubjectDistance@QMediaMetaData@@3VQString@@B
-?T?a?h?
-?T?z?
 ?ThumbnailImage@QMediaMetaData@@3VQString@@B
 ?Title@QMediaMetaData@@3VQString@@B
 ?TrackCount@QMediaMetaData@@3VQString@@B
@@ -2353,11 +1382,7 @@ $SUVWj
 ?d_func@QRadioTuner@@ABEPBVQRadioTunerPrivate@@XZ
 ?data@QAudioBuffer@@QAEPAXXZ
 ?data@QAudioBuffer@@QBEPBXXZ
-?data@QByteArray@@QAEPADXZ
-?data@QByteArray@@QBEPBDXZ
 ?data@QSample@@QBEABVQByteArray@@XZ
-?data@QString@@QBEPBVQChar@@XZ
-?data@QVariant@@QAEPAXXZ
 ?dataSize@QMediaResource@@QBE_JXZ
 ?decoderError@QSample@@AAEXXZ
 ?decoderReady@QSample@@AAEXXZ
@@ -2368,14 +1393,10 @@ $SUVWj
 ?defaultLocation@QMediaStorageLocation@@QBE?AVQDir@@W4MediaType@1@@Z
 ?defaultOutputDevice@QAudioDeviceInfo@@SA?AV1@XZ
 ?defaultServiceProvider@QMediaServiceProvider@@SAPAV1@XZ
-?deleteLater@QObject@@QAEXXZ
 ?deleteOnComplete@QSound@@AAEXXZ
 ?denoisingLevel@QCameraImageProcessing@@QBENXZ
 ?description@QCameraInfo@@QBE?AVQString@@XZ
 ?destroyResourceSet@QMediaResourcePolicy@@SAXPAVQObject@@@Z
-?detach@QListData@@QAEPAUData@1@H@Z
-?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
-?detach_helper@QHashData@@QAEPAU1@P6AXPAUNode@1@PAX@ZP6AX0@ZHH@Z
 ?device@QMediaServiceProviderHint@@QBE?AVQByteArray@@XZ
 ?deviceDescription@QCamera@@SA?AVQString@@ABVQByteArray@@@Z
 ?deviceDescription@QMediaServiceProvider@@UAE?AVQString@@ABVQByteArray@@0@Z
@@ -2385,11 +1406,6 @@ $SUVWj
 ?devicesChanged@QVideoDeviceSelectorControl@@QAEXXZ
 ?digitalZoom@QCameraFocus@@QBENXZ
 ?digitalZoomChanged@QCameraFocus@@QAEXN@Z
-?disconnect@QObject@@QBE_NPBDPBV1@0@Z
-?disconnect@QObject@@QBE_NPBV1@PBD@Z
-?disconnect@QObject@@SA_NPBV1@PBD01@Z
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dispose@QListData@@SAXPAUData@1@@Z
 ?duration@QAudioBuffer@@QBE_JXZ
 ?duration@QAudioDecoder@@QBE_JXZ
 ?duration@QMediaPlayer@@QBE_JXZ
@@ -2402,7 +1418,6 @@ $SUVWj
 ?durationChanged@QMediaRecorderControl@@QAEX_J@Z
 ?durationForBytes@QAudioFormat@@QBE_JH@Z
 ?durationForFrames@QAudioFormat@@QBE_JH@Z
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
 ?earliestTime@QMediaTimeRange@@QBE_JXZ
 ?elapsedUSecs@QAudioInput@@QBE_JXZ
 ?elapsedUSecs@QAudioOutput@@QBE_JXZ
@@ -2415,14 +1430,8 @@ $SUVWj
 ?encodingOptions@QImageEncoderSettings@@QBE?AV?$QMap@VQString@@VQVariant@@@@XZ
 ?encodingOptions@QVideoEncoderSettings@@QBE?AV?$QMap@VQString@@VQVariant@@@@XZ
 ?encodingSettings@QCameraImageCapture@@QBE?AVQImageEncoderSettings@@XZ
-?end@QJsonArray@@QBE?AVconst_iterator@1@XZ
-?end@QListData@@QBEPAPAXXZ
 ?end@QMediaTimeInterval@@QBE_JXZ
 ?endTime@QVideoFrame@@QBE_JXZ
-?endsWith@QByteArray@@QBE_ND@Z
-?endsWith@QString@@QBE_NABV1@W4CaseSensitivity@Qt@@@Z
-?entryList@QDir@@QBE?AVQStringList@@ABV2@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
-?enumerator@QMetaObject@@QBE?AVQMetaEnum@@H@Z
 ?error@QAbstractVideoSurface@@QBE?AW4Error@1@XZ
 ?error@QAudioDecoder@@QAEXW4Error@1@@Z
 ?error@QAudioDecoder@@QBE?AW4Error@1@XZ
@@ -2455,33 +1464,22 @@ $SUVWj
 ?errorString@QAudioDecoder@@QBE?AVQString@@XZ
 ?errorString@QCamera@@QBE?AVQString@@XZ
 ?errorString@QCameraImageCapture@@QBE?AVQString@@XZ
-?errorString@QIODevice@@QBE?AVQString@@XZ
 ?errorString@QMediaPlayer@@QBE?AVQString@@XZ
 ?errorString@QMediaPlaylist@@QBE?AVQString@@XZ
 ?errorString@QMediaRecorder@@QBE?AVQString@@XZ
 ?errorString@QRadioData@@QBE?AVQString@@XZ
 ?errorString@QRadioTuner@@QBE?AVQString@@XZ
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?exists@QFile@@SA_NABVQString@@@Z
-?exists@QFileInfo@@QBE_NXZ
-?exit@QThread@@QAEXH@Z
 ?exposure@QCamera@@QBEPAVQCameraExposure@@XZ
 ?exposureCompensation@QCameraExposure@@QBENXZ
 ?exposureCompensationChanged@QCameraExposure@@QAEXN@Z
 ?exposureMode@QCameraExposure@@QBE?AW4ExposureMode@1@XZ
-?f?m?z?
 ?features@QMediaServiceProviderHint@@QBE?AV?$QFlags@W4Feature@QMediaServiceProviderHint@@@@XZ
 ?fieldType@QVideoFrame@@QBE?AW4FieldType@1@XZ
-?fileName@QFile@@UBE?AVQString@@XZ
 ?fileName@QSound@@QBE?AVQString@@XZ
-?fileName@QTemporaryFile@@UBE?AVQString@@XZ
-?fileTemplate@QTemporaryFile@@QBE?AVQString@@XZ
 ?findPlaylistType@QPlaylistFileParser@@SA?AW4FileType@1@ABVQString@@0PBXI@Z
 ?finished@QAudioDecoder@@QAEXXZ
 ?finished@QAudioDecoderControl@@QAEXXZ
 ?finished@QPlaylistFileParser@@QAEXXZ
-?firstNode@QHashData@@QAEPAUNode@1@XZ
 ?flashMode@QCameraExposure@@QBE?AV?$QFlags@W4FlashMode@QCameraExposure@@@@XZ
 ?flashReady@QCameraExposure@@QAEX_N@Z
 ?flashReady@QCameraFlashControl@@QAEX_N@Z
@@ -2512,41 +1510,26 @@ $SUVWj
 ?frameWidth@QVideoSurfaceFormat@@QBEHXZ
 ?framesForBytes@QAudioFormat@@QBEHH@Z
 ?framesForDuration@QAudioFormat@@QBEH_J@Z
-?freeData@QMapDataBase@@SAXPAU1@@Z
-?freeNode@QHashData@@QAEXPAX@Z
-?freeNodeAndRebalance@QMapDataBase@@QAEXPAUQMapNodeBase@@@Z
-?freeTree@QMapDataBase@@QAEXPAUQMapNodeBase@@H@Z
-?free_helper@QHashData@@QAEXP6AXPAUNode@1@@Z@Z
 ?frequency@QRadioTuner@@QBEHXZ
 ?frequencyChanged@QRadioTuner@@QAEXH@Z
 ?frequencyChanged@QRadioTunerControl@@QAEXH@Z
 ?frequencyRange@QRadioTuner@@QBE?AU?$QPair@HH@@W4Band@1@@Z
 ?frequencyStep@QRadioTuner@@QBEHW4Band@1@@Z
-?fromLatin1@QString@@SA?AV1@ABVQByteArray@@@Z
-?fromLatin1@QString@@SA?AV1@PBDH@Z
-?fromLocalFile@QUrl@@SA?AV1@ABVQString@@@Z
-?fromUtf8@QString@@SA?AV1@PBDH@Z
 ?fullScreenChanged@QVideoWindowControl@@QAEX_N@Z
 ?generateFileName@QMediaStorageLocation@@QBE?AVQString@@ABV2@ABVQDir@@0@Z
 ?generateFileName@QMediaStorageLocation@@QBE?AVQString@@ABV2@W4MediaType@1@00@Z
 ?get@QNetworkAccessManager@@QAEPAVQNetworkReply@@ABVQNetworkRequest@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
 ?handle@QAbstractVideoBuffer@@UBE?AVQVariant@@XZ
 ?handle@QAudioDeviceInfo@@ABE?AVQByteArray@@XZ
 ?handle@QVideoFrame@@QBE?AVQVariant@@XZ
 ?handleType@QAbstractVideoBuffer@@QBE?AW4HandleType@1@XZ
 ?handleType@QVideoFrame@@QBE?AW4HandleType@QAbstractVideoBuffer@@XZ
 ?handleType@QVideoSurfaceFormat@@QBE?AW4HandleType@QAbstractVideoBuffer@@XZ
-?hasNotifySignal@QMetaProperty@@QBE_NXZ
-?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
-?hasShrunk@QHashData@@QAEXXZ
 ?hasSupport@QAudioDecoder@@SA?AW4SupportEstimate@QMultimedia@@ABVQString@@ABVQStringList@@@Z
 ?hasSupport@QMediaPlayer@@SA?AW4SupportEstimate@QMultimedia@@ABVQString@@ABVQStringList@@V?$QFlags@W4Flag@QMediaPlayer@@@@@Z
 ?hasSupport@QMediaServiceProvider@@UBE?AW4SupportEstimate@QMultimedia@@ABVQByteArray@@ABVQString@@ABVQStringList@@H@Z
 ?header@QNetworkReply@@QBE?AVQVariant@@W4KnownHeaders@QNetworkRequest@@@Z
-?height@QSize@@QBEHXZ
 ?height@QVideoFrame@@QBEHXZ
-?homePath@QDir@@SA?AVQString@@XZ
 ?hueChanged@QVideoWindowControl@@QAEXH@Z
 ?iid@QMediaPlayerResourceSetInterface@@SA?AVQString@@XZ
 ?imageAvailable@QCameraImageCapture@@QAEXHABVQVideoFrame@@@Z
@@ -2562,30 +1545,18 @@ $SUVWj
 ?imageProcessing@QCamera@@QBEPAVQCameraImageProcessing@@XZ
 ?imageSaved@QCameraImageCapture@@QAEXHABVQString@@@Z
 ?imageSaved@QCameraImageCaptureControl@@QAEXHABVQString@@@Z
-?indexOf@QString@@QBEHVQChar@@HW4CaseSensitivity@Qt@@@Z
-?indexOf@QString@@QBEHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
-?indexOfEnumerator@QMetaObject@@QBEHPBD@Z
-?indexOfProperty@QMetaObject@@QBEHPBD@Z
-?insert@QJsonObject@@QAE?AViterator@1@ABVQString@@ABVQJsonValue@@@Z
-?insert@QListData@@QAEPAPAXH@Z
 ?insertMedia@QMediaNetworkPlaylistProvider@@UAE_NHABV?$QList@VQMediaContent@@@@@Z
 ?insertMedia@QMediaNetworkPlaylistProvider@@UAE_NHABVQMediaContent@@@Z
 ?insertMedia@QMediaPlaylist@@QAE_NHABV?$QList@VQMediaContent@@@@@Z
 ?insertMedia@QMediaPlaylist@@QAE_NHABVQMediaContent@@@Z
 ?insertMedia@QMediaPlaylistProvider@@UAE_NHABV?$QList@VQMediaContent@@@@@Z
 ?insertMedia@QMediaPlaylistProvider@@UAE_NHABVQMediaContent@@@Z
-?instance@QCoreApplication@@SAPAV1@XZ
-?instance@QFactoryLoader@@QBEPAVQObject@@H@Z
 ?instance@QMediaPluginLoader@@QAEPAVQObject@@ABVQString@@@Z
 ?instances@QMediaPluginLoader@@QAE?AV?$QList@PAVQObject@@@@ABVQString@@@Z
-?interval@QTimer@@QBEHXZ
 ?intervals@QMediaTimeRange@@QBE?AV?$QList@VQMediaTimeInterval@@@@XZ
-?invoke@QMetaMethod@@QBE_NPAVQObject@@VQGenericArgument@@111111111@Z
-?invokeMethod@QMetaObject@@SA_NPAVQObject@@PBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
 ?isActive@QAbstractVideoFilter@@QBE_NXZ
 ?isActive@QAbstractVideoSurface@@QBE_NXZ
 ?isActive@QAudioProbe@@QBE_NXZ
-?isActive@QTimer@@QBE_NXZ
 ?isActive@QVideoProbe@@QBE_NXZ
 ?isAlternativeFrequenciesEnabled@QRadioData@@QBE_NXZ
 ?isAntennaConnected@QRadioTuner@@QBE_NXZ
@@ -3935,20 +2906,7 @@ $SUVWj
 ?writeData@QFileDevice@@MAE_JPBD_J@Z
 ?yCbCrColorSpace@QVideoSurfaceFormat@@QBE?AW4YCbCrColorSpace@1@XZ
 ?zoomTo@QCameraFocus@@QAEXNN@Z
-@%1:%2.%3
 @%1:%2:%3.%4
-@.data
-@.reloc
-@7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-A ;B u
-A ;G 
-A$;G$
-A(;B(t
-A(;G(
-A,;G,
-A0;G0
-A0S0Y0e0
-A8SUVWj
 AccessDeniedError
 ActiveState
 ActiveStatus
@@ -3964,10 +2922,12 @@ AudioCodec
 AudioInput
 AudioOutput
 Author
+Auto
 AutoFocus
 AverageLevel
-B(;F(
+B\n?data@QVariant@@QAEPAXXZ
 BackFace
+Band
 BigEndian
 BottomField
 BottomToTop
@@ -4024,90 +2984,8 @@ Culture
 CurrentAffairs
 CurrentItemInLoop
 CurrentItemOnce
-D$ ;D$
-D$ ;D$$
-D$ Pj
-D$ SP
-D$ VP
-D$ WP
-D$ _^
-D$ `:
-D$ h\
-D$ hde
-D$$ P
-D$$9D$
-D$$Pj
-D$$h|
-D$( Q
-D$(9] 
-D$(9|$ s1f
-D$(;D$$r
-D$(;D$$s;
-D$(;D$,
-D$(;t$$
-D$(PQ
-D$(Pj
-D$(SUVW
-D$(VP
-D$(WP
-D$,0F
-D$,_^][
-D$,t	f
-D$0PQ
-D$0Ph
-D$0Pj
-D$0SV
-D$0_^
-D$0_^[
-D$0_^][
-D$0ht
-D$4;L$0t6
-D$4PW
-D$4Ph
-D$4_^
-D$4_^][
-D$8;D$<
-D$8PhH)
-D$8PhP)
-D$8Pj
-D$8_^
-D$8_^][
-D$<PQ
-D$@PW
-D$@Pj
-D$DPQ
-D$DPj
-D$Dh4/
-D$HPQ
-D$HPW
-D$HPj
-D$H_^][
-D$Lh0j
-D$PPQ
-D$PPj
-D$XPQ
-D$XPh
-D$XPj
-D$\PQ
-D$\Ph
-D$\Pj
-D$`Pj
-D$`_^][
-D$d;D$h
-D$hPQ
-D$hPj
-D$hWPj
-D$h_^][
-D$lPQ
-D$lh(
-D$p;D$t
-D$pPj
-D$ph4
-D$tWPj
-D$xPj
-D$xj<R
-D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-D2H2h2
+D\v?endsWith@QByteArray@@QBE_ND@Z
+Date
 DateTimeDigitized
 DateTimeOriginal
 DecodingState
@@ -4162,7 +3040,9 @@ ExposureTime
 ExtendedExposureParameter
 ExtendedParameter
 FNumber
+F\v?endsWith@QString@@QBE_NABV1@W4CaseSensitivity@Qt@@@Z
 FatalError
+File
 FinalizingStatus
 Finance
 Flash
@@ -4232,8 +3112,6 @@ Format_YUV444
 Format_YUYV
 Format_YV12
 FrontFace
-G ht/
-G(u#j
 GLTextureHandle
 GPSAltitude
 GPSAreaInformation
@@ -4258,8 +3136,6 @@ GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-H$VWj
-H0L0P0h0l0p0
 HyperfocalFocus
 IOError
 ISOSpeedRatings
@@ -4278,39 +3154,12 @@ InvalidMedia
 InvalidRequestError
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J\r?indexOf@QString@@QBEHVQChar@@HW4CaseSensitivity@Qt@@@Z
 JazzMusic
 KERNEL32.dll
-K[u	V
-K\9L$(tg
+K\r?indexOf@QString@@QBEHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
 Keywords
-L$ Pj
-L$ ^3
-L$ j)Qh
-L$$Uj
-L$$VQ
-L$$h$N
-L$(;t$8
-L$(UQ
-L$(_]
-L$(h<M
-L$,_^
-L$0VQ
-L$0_^][3
-L$4+V8
-L$4_3
-L$4ht
-L$8HQP
-L$8VQ
-L$8_^3
-L$<_^[3
-L$<hdm
-L$@SURj
-L$@_^][3
-L$LWU
-L$`;L$d
-L$hh\
-L$hj)
-LSUVW
+L\f?freeData@QMapDataBase@@SAXPAU1@@Z
 Language
 LeadPerformer
 LeaveCriticalSection
@@ -4335,8 +3184,10 @@ LockTemporaryLost
 LockType
 LockWhiteBalance
 Locked
+Loop
 Lyrics
 MW?size@QImage@@QBE?AVQSize@@XZ
+M\f?freeNode@QHashData@@QAEXPAX@Z
 MacroFocus
 ManualFocus
 MediaIsPlaylist
@@ -4346,11 +3197,12 @@ MeteringAverage
 MeteringMatrix
 MeteringMode
 MeteringSpot
-N _^[
-N<;L$$|E
+Mood
 N?nativeOrientation@QScreen@@QBE?AW4ScreenOrientation@Qt@@XZ
+N\f?freeNodeAndRebalance@QMapDataBase@@QAEXPAUQMapNodeBase@@@Z
 NationalMusic
 NetworkError
+News
 NoError
 NoHandle
 NoLock
@@ -4359,19 +3211,16 @@ Nostalgia
 NotMapped
 NotReadyError
 NotSupportedFeatureError
+Null
+O\f?freeTree@QMapDataBase@@QAEXPAUQMapNodeBase@@H@Z
 OldiesMusic
 OpenError
 Orientation
 OtherMusic
 OutOfRangeError
 OutOfSpaceError
-P0_^]
-P0_^]2
-P8_^][
-P<_^Y
-P<_^[
-PL9D$0
 PLSParser
+P\f?free_helper@QHashData@@QAEXP6AXPAUNode@1@@Z@Z
 ParentalRating
 ParserBase
 PausedState
@@ -4394,7 +3243,6 @@ ProgramType
 ProgressiveFrame
 Public
 Publisher
-P|_^[
 QAbstractAudioDeviceInfo
 QAbstractAudioInput
 QAbstractAudioOutput
@@ -4542,8 +3390,6 @@ QRadioTuner::SearchMode
 QRadioTuner::State
 QRadioTuner::StereoMode
 QRadioTunerControl
-QSUVW
-QSVWj
 QSample
 QSampleCache
 QSampleCache: usage[
@@ -4578,8 +3424,8 @@ Qt5Network.dll
 Qt::ScreenOrientation
 QtMetaTypePrivate::QSequentialIterableImpl
 QueryPerformanceCounter
-R,_^[
-RP_^[
+RIFF
+RIFX
 Random
 RatingOrganization
 ReadOnly
@@ -4594,13 +3440,8 @@ ResetEvent
 Resolution
 ResourceError
 RhythmAndBlues
-RichA
 RockMusic
 SU?setOrientationUpdateMask@QScreen@@QAEXV?$QFlags@W4ScreenOrientation@Qt@@@@@Z
-SUVWh
-SUVWj
-SUVWjD
-SVWj`
 SampleRate
 Saturation
 SaturationAdjustment
@@ -4620,8 +3461,10 @@ SharpeningAdjustment
 Sharpness
 ShutterSpeed
 SignedInt
+Size
 SleepConditionVariableCS
 SocialAffairs
+Soft
 SoftRhythmAndBlues
 SoftRock
 SoundEffect: loops should be SoundEffect.Infinite, 0 or positive integer
@@ -4641,8 +3484,7 @@ SubTitle
 Subject
 SubjectDistance
 SuspendedState
-T$ RP
-T$4j	R
+Talk
 TerminateProcess
 The QAudioDecoder object does not have a valid service
 The QMediaPlayer object does not have a valid service
@@ -4658,6 +3500,7 @@ TorchPower
 TrackCount
 TrackNumber
 Travel
+U\r?indexOfEnumerator@QMetaObject@@QBEHPBD@Z
 UnSignedInt
 UnavailableStatus
 Undefined
@@ -4676,12 +3519,12 @@ UserHandle(
 UserRating
 UserRequest
 UserType(%1)
-V@_^]
 VCRUNTIME140.dll
 Varied
 VideoBitRate
 VideoCodec
 VideoFrameRate
+WAVE
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Weather
@@ -4701,6 +3544,7 @@ WhiteBalanceVendor
 WriteOnly
 Writer
 XP?primaryScreen@QGuiApplication@@SAPAVQScreen@@XZ
+X\v?entryList@QDir@@QBE?AVQStringList@@ABV2@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 XvShmImageHandle
 YCbCr_BT601
 YCbCr_BT709
@@ -4709,26 +3553,50 @@ YCbCr_JPEG
 YCbCr_Undefined
 YCbCr_xvYCC601
 YCbCr_xvYCC709
-Y__^[
+Y\r?indexOfProperty@QMetaObject@@QBEHPBD@Z
+Year
+[\v?enumerator@QMetaObject@@QBE?AVQMetaEnum@@H@Z
 [no timestamp]
 [playlist]
-\$ UW
-\$$SW
-\$(UVW
-\$0UVW
-\$<ff
-\$`UVW
-\SUVW
-\_]^[
-\_^][
+\f?fromUtf8@QString@@SA?AV1@PBDH@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+\f?hasNotifySignal@QMetaProperty@@QBE_NXZ
+\n?detach@QListData@@QAEPAUData@1@H@Z
+\n?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+\n?detach_helper@QHashData@@QAEPAU1@P6AXPAUNode@1@PAX@ZP6AX0@ZHH@Z
+\n?disconnect@QObject@@QBE_NPBDPBV1@0@Z
+\n?disconnect@QObject@@QBE_NPBV1@PBD@Z
+\n?disconnect@QObject@@SA_NPBV1@PBD01@Z
+\n?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPAUData@1@@Z
+\n?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+\r?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
+\r?hasShrunk@QHashData@@QAEXXZ
+\r?height@QSize@@QBEHXZ
+\r?homePath@QDir@@SA?AVQString@@XZ
+\r?insert@QJsonObject@@QAE?AViterator@1@ABVQString@@ABVQJsonValue@@@Z
+\r?insert@QListData@@QAEPAPAXH@Z
+\r?instance@QCoreApplication@@SAPAV1@XZ
+\r?instance@QFactoryLoader@@QBEPAVQObject@@H@Z
+\r?interval@QTimer@@QBEHXZ
+\r?invoke@QMetaMethod@@QBE_NPAVQObject@@VQGenericArgument@@111111111@Z
+\r?invokeMethod@QMetaObject@@SA_NPAVQObject@@PBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
+\r?isActive@QTimer@@QBE_NXZ
+\t?createNode@QMapDataBase@@QAEPAUQMapNodeBase@@HHPAU2@_N@Z
+\t?currentPath@QDir@@SA?AVQString@@XZ
+\t?customEvent@QObject@@MAEXPAVQEvent@@@Z
+\v?errorString@QIODevice@@QBE?AVQString@@XZ
+\v?event@QObject@@UAE_NPAVQEvent@@@Z
+\v?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+\v?exists@QFile@@SA_NABVQString@@@Z
+\v?exists@QFileInfo@@QBE_NXZ
+\v?exit@QThread@@QAEXH@Z
+\v?fileName@QFile@@UBE?AVQString@@XZ
+\v?fileName@QTemporaryFile@@UBE?AVQString@@XZ
+\v?fileTemplate@QTemporaryFile@@QBE?AVQString@@XZ
 ] with line content >= 4096 bytes.
-]$[_^]
-]_^[Y
 _CxxThrowException
-_D_^][
-_^][3
-_^][Y
-_^u8j
+_\f?fromLatin1@QString@@SA?AV1@ABVQByteArray@@@Z
 __std_exception_copy
 __std_exception_destroy
 __std_type_info_destroy_list
@@ -4777,7 +3645,7 @@ _q_updateNotifyInterval
 _q_updateState
 _register_onexit_function
 _seh_filter_dll
-`.rdata
+`\f?fromLatin1@QString@@SA?AV1@PBDH@Z
 aO?orientation@QScreen@@QBE?AW4ScreenOrientation@Qt@@XZ
 activated
 active
@@ -4827,6 +3695,7 @@ availableOutputsChanged
 availablePlaybackRangesChanged
 bad allocation
 bad array new length
+band
 bandChanged
 bit, channelCount=
 brightness
@@ -4864,9 +3733,7 @@ currentMediaChanged
 currentOpticalZoomChanged
 customFocusPoint
 customFocusPointChanged
-d$ hX
-d$(hH
-d0h0l0p0t0x0|0
+data
 decoderError
 decoderReady
 default
@@ -4893,6 +3760,7 @@ finished
 flashMode
 flashReady
 flush
+fmt 
 focusMode
 focusModeChanged
 focusPointMode
@@ -4907,11 +3775,14 @@ frameHeight
 frameRate
 frameSize
 frameWidth
+free
 frequency
 frequencyChanged
 fullScreen
 fullScreenChanged
-h	?byteCount@QImage@@QBEHXZ
+game
+h\f?fromLocalFile@QUrl@@SA?AV1@ABVQString@@@Z
+h\t?byteCount@QImage@@QBEHXZ
 handleData
 handleType
 hueChanged
@@ -4926,13 +3797,9 @@ invalid line in playlist file
 isLoadingChanged
 isoSensitivity
 isoSensitivityChanged
-j	?bytesPerLine@QImage@@QBEHXZ
-j<RV+
-l$$}1
-l$$}6
-l$(UP
-l$0VW
-l$4;l$
+j\t?bytesPerLine@QImage@@QBEHXZ
+jump
+load
 loadFailed
 loaded
 loadedChanged
@@ -4946,6 +3813,7 @@ loopCountChanged
 loops
 loopsRemaining
 loopsRemainingChanged
+m3u8
 malloc
 maximumDigitalZoomChanged
 maximumOpticalZoomChanged
@@ -4967,19 +3835,21 @@ metaDataWritable
 metaDataWritableChanged
 meteringMode
 milliSeconds
+mode
 muted
 mutedChanged
+name
 nativeResolution
 nativeResolutionChanged
 nativeSizeChanged
 networkConfigurationChanged
 newItem
 newState
+next
 nextMediaChanged
 notify
 notifyInterval
 notifyIntervalChanged
-oD_^][
 opticalZoom
 opticalZoomChanged
 org.qt-project.qt.audiodecode
@@ -5040,6 +3910,7 @@ pause
 percentFilled
 pixelAspectRatio
 pixelFormat
+play
 play()
 playbackMode
 playbackModeChanged
@@ -5060,10 +3931,11 @@ programType
 programTypeChanged
 programTypeName
 programTypeNameChanged
-q	?createData@QMapDataBase@@SAPAU1@XZ
+q\t?createData@QMapDataBase@@SAPAU1@XZ
 radioData
 radioText
 radioTextChanged
+rate
 readSample
 ready
 readyForCapture
@@ -5145,41 +4017,15 @@ statusChanged
 stereo
 stereoMode
 stereoStatusChanged
+stop
 stream
 streamsChanged
 strncmp
 supportedFormatsChanged
 surfaceFormatChanged
 surroundingItemsChanged
-t	_^2
-t!hX0
-t$ ;t$$
-t$ Qj
-t$ UP
-t$(Q+
-t$(Wj
-t$,;t$0
-t$|PQ
-t)hX0
-t0x0|0
-t3;D$4
-t4;~$
-tAhTN
-tGh4j
-ta;w@t\
-tbSj0
-tcSVf
 text/uri-list
-tv;~$tqj
-tySj0
-tzSVj
-u	_^[
-u	_^]2
-u"hH-
-u09D$
-u99\$
-u>9D$
-uk9D$0
+type
 unload
 unlock
 using null deviceinfo, none available
@@ -5193,19 +4039,7 @@ videoFrameProbed
 viewport
 volume
 volumeChanged
-wf;D$Lu-
-wf;D$T
 writable
 writableChanged
-x(_^[
 yCbCrColorSpace
-|$X;|$\
-}(SVWU
-}*SVWU
-},SVUW
-}.UVWS
-}uSVWU
-~$_^[
-~(_^[
-~D$0f
-~D_^[
+~\n?deleteLater@QObject@@QAEXXZ

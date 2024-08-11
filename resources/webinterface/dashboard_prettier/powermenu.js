@@ -509,9 +509,9 @@
                       null === t || "object" != typeof t
                         ? null
                         : "function" ==
-                          typeof (c = (y && t[y]) || t["@@iterator"])
-                        ? c
-                        : null)
+                            typeof (c = (y && t[y]) || t["@@iterator"])
+                          ? c
+                          : null)
                   )
                     for (t = c.call(t), u = 0; !(s = t.next()).done; )
                       l += e((s = s.value), (c = r + B(s, u++)), n, i);
@@ -817,8 +817,8 @@ object-assign
                 o < 3
                   ? t
                   : null === n
-                  ? (n = Object.getOwnPropertyDescriptor(t, r))
-                  : n;
+                    ? (n = Object.getOwnPropertyDescriptor(t, r))
+                    : n;
             if (
               "object" == typeof Reflect &&
               "function" == typeof Reflect.decorate
@@ -1229,10 +1229,11 @@ object-assign
                         r && r.length > 0
                           ? (t.properties.key = r)
                           : E
-                          ? (t.properties.key = E)
-                          : (t.properties.overlay_handle = VRHTML.IsAvailable()
-                              ? VRHTML.VROverlay.ThisOverlayHandle()
-                              : void 0),
+                            ? (t.properties.key = E)
+                            : (t.properties.overlay_handle =
+                                VRHTML.IsAvailable()
+                                  ? VRHTML.VROverlay.ThisOverlayHandle()
+                                  : void 0),
                         (t.properties.uv_min = M(e, "uv-min")),
                         (t.properties.uv_max = M(e, "uv-max")),
                         (t.properties.width = O(e, "width")),
@@ -1329,10 +1330,10 @@ object-assign
               return r
                 ? (n.length > 0 && (r.children = n), [r])
                 : n.length > 0
-                ? 1 == n.length
-                  ? n
-                  : [{ type: "transform", children: n }]
-                : null;
+                  ? 1 == n.length
+                    ? n
+                    : [{ type: "transform", children: n }]
+                  : null;
             })(e);
             return t
               ? 1 == t.length

@@ -1,13 +1,3 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- A^_^
- A_A^A\_^
- A_A^_^]
- H3E H3E
-!This program cannot be run in DOS mode.
-(D$ H
-(t$ H
-(t$`L
-(|$PH
 .00cfg
 .?AUQAudioSystemFactoryInterface@@
 .?AVInputPrivate@@
@@ -38,6 +28,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -58,19 +49,18 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-0A]A\[
 1feedback()
-8A_A^A]A\_^][
+3\n?data@QByteArray@@QEAAPEADXZ
 ??0QAudioFormat@@QEAA@AEBV0@@Z
 ??0QAudioFormat@@QEAA@XZ
 ??0QAudioSystemPlugin@@QEAA@PEAVQObject@@@Z
@@ -113,18 +103,6 @@
 ?close@QIODevice@@UEAAXXZ
 ?codec@QAudioFormat@@QEBA?AVQString@@XZ
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?data@QByteArray@@QEAAPEADXZ
-?detach@QListData@@QEAAPEAUData@1@H@Z
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@SAXPEAUData@1@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?elapsed@QTime@@QEBAHXZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fromWCharArray@QString@@SA?AV1@PEB_WH@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
 ?isSequential@QIODevice@@UEBA_NXZ
 ?isValid@QAudioFormat@@QEBA_NXZ
 ?lock@QMutex@@QEAAXXZ
@@ -175,32 +153,14 @@
 ?waitForReadyRead@QIODevice@@UEAA_NH@Z
 ?warning@QMessageLogger@@QEBAXPEBDZZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-@.data
-@.qtmetad
-@.reloc
-@A^_^
-@SATAUH
-@SAVH
-@SVWAVAWH
-@SVWH
-@VATH
-A_A]A\^][
-A_A]_^[]
-A_A^_
-A_A^_^[
-AuthD
 CloseHandle
 CoCreateInstance
 CoInitialize
 CoUninitialize
 CreateEventW
-D$8HcQ
-D8khtxI
-D8khu0HcK,H
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
-GenuA
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -208,50 +168,17 @@ GetModuleHandleW
 GetProcAddress
 GetProcessHeap
 GetSystemTimeAsFileTime
-HcC0A
-HcC0H
-HcC0L
-HcD$@H
-HcD$PHcJ
-HcD$PIcP
-HcD$XH
-HcD$XHcJ
-HcEgHcJ
-HcL$@L
-HcL$PHcZ
-HcL$PL
-HcL$XL
-HcMgHcZ
-HcT$XIc@
-Hcl$PL
-Hcl$XH
 HeapAlloc
 HeapFree
-HiFX@B
-HiF`@B
 InitializeConditionVariable
 InitializeSListHead
 InputPrivate
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
-KHHcCDH+
-L$ E3
-L$@E3
-L$PE3
-L$XH3
-L$`E3
-L$pE3
-LcC(3
-Lck,A
-LcugH
 LeaveCriticalSection
-M H1E
-MetaData
-N8HcFdH+
 OLEAUT32.dll
 OutputPrivate
-P.rsrc
 QAudioInput: Can't prepare block %d
 QAudioInput: IOError
 QAudioInput: IOError, can't write to QIODevice
@@ -265,7 +192,6 @@ QAudioInput: open error, invalid format.
 QAudioOutput: Memory allocation error
 QAudioOutput: open error
 QAudioOutput: open error, invalid format.
-QTMETADATA  qbjs
 QWindowsAudioDeviceInfo
 QWindowsAudioInput
 QWindowsAudioOutput
@@ -277,40 +203,29 @@ ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S,D9{,u-
-SPHcCDH;
-SUVATAUAWH
-SUVWATAUAVAWH
-SUVWH
 SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-T$@HcA
-T$PHcA
-T$XHcA
-T$hLcQ
-T$pLcQ
 TerminateProcess
-USVWAUAWH
-UVWAVAWH
-UgHcA
 UnhandledExceptionFilter
 Unknown exception
-V@HcFdH;
 VCRUNTIME140.dll
-VWATAVAWH
-VWAVH
 WINMM.dll
-WPHcwP
 WaitForSingleObjectEx
 WakeAllConditionVariable
-X_^][
-\$ UH
-\$ VWAVH
-\$@Hc_
-\$PHci
-\$PHc{
+\f?fromWCharArray@QString@@SA?AV1@PEB_WH@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\n?detach@QListData@@QEAAPEAUData@1@H@Z
+\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\n?elapsed@QTime@@QEBAHXZ
+\r?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -328,23 +243,14 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 audio/pcm
 bad allocation
 bad array new length
-className
-debug
-default
 deviceReady
 feedback
-ffffff
-k D9k$t
-kiHcC0H
-l$ VWAVH
-l$XL+
-l$`HcJ
+free
 malloc
 memcpy
 memset
@@ -353,29 +259,11 @@ mixerGetID
 mixerGetLineControlsW
 mixerGetLineInfoW
 mixerSetControlDetails
-m|Rich
-ntelA
 ole32.dll
-org.qt-project.qt.audiosystemfactory/5.0
 processMore
 qt_plugin_instance
 qt_plugin_query_metadata
 qtaudio_windows.dll
-s 9s$t
-t$ WAVAWH
-t$(Ic
-t$`Hc
-t(IcA
-t+Lc@
-t/HcB
-t/HcT$@I
-t/HcT$PI
-t/HcT$XI
-t8HcB
-u8Hc^
-u;Hc^
-uYIcE
-version
 waveInAddBuffer
 waveInClose
 waveInGetDevCapsW
@@ -396,7 +284,3 @@ waveOutRestart
 waveOutSetVolume
 waveOutUnprepareHeader
 waveOutWrite
-|$ AVH
-|$ AVL
-|$ HcJ
-|$8Hc

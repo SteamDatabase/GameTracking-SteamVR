@@ -1,19 +1,6 @@
-"
-#
-$
 $ORIGIN/../../lib
 10QDDSPlugin
 11QDDSHandler
-2
-3
-4
-<
-=
->
-?
-@
-A
-A1
 A16B16G16R16
 A16B16G16R16F
 A1R5G5B5
@@ -25,7 +12,6 @@ A32B32G32R32F
 A4L4
 A4P4
 A4R4G4B4
-A8
 A8B8G8R8
 A8L8
 A8P8
@@ -33,21 +19,18 @@ A8R3G3B2
 A8R8G8B8
 ATI2
 BinaryBuffer
-C
 CXXABI_1.3
 Can't read image with w/h bigger than INT_MAX
 CxV8U8
 D15S1
-D16
 D16Lockable
 D24FS8
 D24S8
 D24X4S4
 D24X8
-D32
 D32FLockable
 D32Lockable
-DDS
+DDS 
 DDSHandler::canRead() called with no device
 DXT1
 DXT2
@@ -60,13 +43,9 @@ GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
 Index32
-L16
 L6V5U5
 Multi2ARGB8
-P?
-Q
 Q16W16V16U16
 Q8W8V8U8
 QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
@@ -175,7 +154,6 @@ _edata
 _end
 _fini
 _init
-dds
 default
 expected =
 is not supported
@@ -189,24 +167,14 @@ libpthread.so.0
 libstdc++.so.6
 memcmp
 memcpy
-o
 operator delete(void*)
 operator new(unsigned long)
-p
-pow
-q
 qt_plugin_instance
 qt_plugin_query_metadata
-r
-s
 sqrt
 strcmp
-t
 typeinfo for QImageIOHandler
 typeinfo for QImageIOPlugin
-u
 unknown
 unknown format
 vtable for __cxxabiv1::__si_class_type_info
-|
-C

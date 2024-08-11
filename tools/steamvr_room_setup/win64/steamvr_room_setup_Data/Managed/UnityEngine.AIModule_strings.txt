@@ -5,7 +5,6 @@
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
 !Modules/AI/NavMeshPath.bindings.h
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -70,7 +69,6 @@ $UnityEngine.UnityWebRequestWWWModule
 -use NavMesh.CalculateTriangulation() instead.
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 /NavMeshPathScriptBindings::ClearCornersInternal
 /RestoreNavMesh has no effect and is deprecated.
 0AddOffMeshLinks has no effect and is deprecated.
@@ -88,7 +86,6 @@ $UnityEngine.UnityWebRequestWWWModule
 <polygon>k__BackingField
 <position>k__BackingField
 =NavMeshAgentScriptBindings::GetCurrentOffMeshLinkDataInternal
-@.reloc
 ActivateCurrentOffMeshLink
 AddDependency
 AddDependencyInternal
@@ -108,6 +105,7 @@ ArgumentNullException
 Assembly-CSharp-testable
 AsyncCallback
 AsyncOperation
+BSJB
 BeginFindPath
 BeginFindPath_Injected
 BeginInvoke
@@ -151,6 +149,7 @@ DistanceToEdge
 EndFindPath
 EndInvoke
 EndPositionOfCurrentPath
+Enum
 Equals
 Failure
 Finalize
@@ -209,7 +208,6 @@ IAsyncResult
 IDisposable
 IEnumerable`1
 IEquatable`1
-InCrowdSystem
 InProgress
 IndexOutOfRangeException
 InitializeNavMeshPath
@@ -231,10 +229,8 @@ InternalsVisibleToAttribute
 InvalidParam
 IsNull
 IsOnOffMeshLink
-IsPathStale
 IsPositionInPolygon
 IsPositionInPolygon_Injected
-IsThreadSafe
 IsValid
 IsValidLinkHandle
 IsValidNavMeshDataHandle
@@ -255,11 +251,11 @@ Matrix4x4
 MedQualityObstacleAvoidance
 ModifierBox
 Modules/AI/NavMeshManager.h
+Move
 MoveLocation
 MoveLocation_Injected
 MoveLocations
 MoveLocationsInSameAreas
-MoveThreshold
 Move_Injected
 MovedFromAttribute
 MulticastDelegate
@@ -300,6 +296,7 @@ NavMeshTriangulation
 NavMeshWorld
 NavMeshWorldBindings
 NoObstacleAvoidance
+None
 NotNullAttribute
 NullReferenceException
 ObsoleteAttribute
@@ -312,7 +309,6 @@ PartialResult
 PathComplete
 PathInvalid
 PathPartial
-PathPending
 PathQueryStatus
 PhysicsColliders
 PolygonId
@@ -356,7 +352,6 @@ SetAreaCost
 SetDestination
 SetDestination_Injected
 SetLayerCost
-SetLinkUserID
 SetPath
 SetSurfaceUserID
 SimplifiedContours
@@ -366,6 +361,7 @@ Sphere
 StaticAccessorAttribute
 StaticAccessorType
 StatusDetailMask
+Stop
 String
 Success
 System
@@ -384,7 +380,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections
 Unity.Collections.LowLevel.Unsafe
@@ -463,7 +458,6 @@ UnityEngine.WindModule
 UnityEngine.XRModule
 UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
-UnloadData
 UnverifiableCodeAttribute
 UpdateFindPath
 UpdateNavMeshData
@@ -482,13 +476,26 @@ UsedByNativeCodeAttribute
 ValueType
 Vector3
 Voxels
+Warp
 Warp_Injected
 WrapNonExceptionThrows
 WritableAttribute
 WrongMagic
 WrongVersion
+Zero
+\fIsThreadSafe
+\nRemoveLink
+\nUnloadData
+\rInCrowdSystem
+\rMoveThreshold
+\rSetLinkUserID
+\vGetAreaCost
+\vIsPathStale
+\vPathPending
+\vSetAreaCost
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 allocator
 areaCost
 areaIndex
@@ -498,7 +505,9 @@ areas
 buildBounds
 buildSettings
 callback
+cost
 count
+data
 dataID
 defaultArea
 edgeIndices
@@ -627,6 +636,8 @@ iterationsPerformed
 k_AreaCostElementCount
 layer
 layerName
+left
+link
 linkID
 localBounds
 location
@@ -678,6 +689,7 @@ maxNei
 maxPath
 maxVerts
 method
+mono
 mscoree.dll
 mscorlib
 navMeshData
@@ -688,6 +700,7 @@ neighbors
 neighborsCount
 neighbourPolygon
 newPosition
+node
 nodePoolSize
 object
 offset
@@ -789,6 +802,7 @@ stopUpdates
 target
 targetPosition
 targets
+type
 useBounds
 v2.0.50727
 value

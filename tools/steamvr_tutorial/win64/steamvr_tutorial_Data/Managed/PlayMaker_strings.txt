@@ -1,21 +1,16 @@
-	&	W	
-	playMaker
   2010-2012
-!'"-#
-!?!i!
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
 $e45cefd6-a7ac-4665-bb9d-fec5e6655afb
-%3(s$
-) G r 
 *BSJB
 .cctor
 .ctor
-.text
+0?sx
 1.7.7.6
 1.7.7.f6
+3\nsw
+4b~l
 5.0.0f3
 <>c__DisplayClass2
 <Action>k__BackingField
@@ -100,8 +95,6 @@ $e45cefd6-a7ac-4665-bb9d-fec5e6655afb
 <UpdateOverrides>b__0
 <loopCount>k__BackingField
 <maxLoopCount>k__BackingField
-?ZY(#
-@.reloc
 @ZNZ(
 Action
 ActionCategory
@@ -136,7 +129,6 @@ AddGlobalEvents
 AddRange
 AddSystemEvent
 AddSystemEvents
-AllowMultiple
 AnimateVariables
 Animation
 AnimationCurve
@@ -171,6 +163,7 @@ AttributeTargets
 AttributeUsageAttribute
 Audio
 Awake
+B?sx
 BecameInvisible
 BecameVisible
 Behaviour
@@ -179,6 +172,7 @@ BindingFlags
 BitConverter
 BitStream
 BlockCopy
+Bool
 BoolData
 BoolParameter
 BoolVariables
@@ -191,6 +185,7 @@ BroadcastAll
 BroadcastEvent
 BroadcastEventToGameObject
 Buffer
+Byte
 ByteArrayToColor
 ByteArrayToFsmBool
 ByteArrayToFsmColor
@@ -216,6 +211,7 @@ CanReadMemberValue
 CanSetMemberValue
 Category
 ChangeState
+Char
 Character
 CharacterController
 CheckAllActionsFinished
@@ -266,6 +262,7 @@ ControllerCollider
 ControllerColliderHit
 Convert
 ConvertType
+Copy
 CopyActionData
 CopyAnimationCurveParams
 CopyFsmEventTargetParams
@@ -341,6 +338,7 @@ Encoding
 EnterState
 Entered
 Entries
+Enum
 Enumerator
 Equals
 Error
@@ -371,6 +369,7 @@ FSMComponent
 FailedToConnect
 FailedToConnectToMasterServer
 FieldInfo
+Find
 FindEvent
 FindField
 FindFsmBool
@@ -581,7 +580,9 @@ HideFlags
 HideInInspector
 HideTypeFilter
 HideUnused
+Hint
 HitBreakpoint
+Host
 HostFSM
 HutongGames,LLC
 HutongGames.Extensions
@@ -597,7 +598,9 @@ IEquatable`1
 IFsmStateAction
 INameable
 INamedVariable
+Info
 InfoCount
+Init
 InitData
 InitFields
 InitLabelStyle
@@ -652,6 +655,7 @@ LayerArrayToLayerMask
 LayerMask
 LayoutOption
 LayoutOptionType
+Left
 Level
 LevelLoaded
 Lights
@@ -660,6 +664,7 @@ LinkConstraint
 LinkStyle
 List`1
 Lists`1
+Load
 LoadActionField
 LoadActions
 LoadArrayElement
@@ -684,11 +689,13 @@ LogType
 LogWarning
 LoggingEnabled
 Logic
+Logs
 MasterServerEvent
 Material
 MaterialData
 MaterialParameter
 MaterialVariables
+Math
 Mathf
 Matrix4x4
 MaxHeight
@@ -726,6 +733,7 @@ MoveNext
 Movement
 Movie
 MyLog
+Name
 NamedColor
 NamedTexture
 NamedVar
@@ -740,6 +748,7 @@ NetworkMessageInfo
 NetworkPlayer
 NetworkSync
 NetworkSyncVariables
+None
 NoteAttribute
 Object
 ObjectData
@@ -798,8 +807,11 @@ OwnerOption
 ParamDataType
 ParameterType
 Parse
+Path
+Peek
+PfL$
 Physics
-Placeholder for a missing action.
+Placeholder for a missing action.\n\nUsually generated when the editor can't load an action, e.g., if the script was deleted, but can also be used as a TODO note.
 PlayMaker
 PlayMaker.dll
 PlayMaker/PlayMakerFSM
@@ -829,6 +841,7 @@ ProcessEvent
 PropertyInfo
 PropertyName
 PropertyType
+Push
 PushFsm
 Quaternion
 QuaternionData
@@ -840,12 +853,14 @@ Range
 Raycast
 RaycastHit
 RaycastHitInfo
+Read
 ReadByte
 ReadToEnd
 RealStartTime
 RealType
 RealtimeBugFix
 RealtimeSinceStartup
+Rect
 RectData
 RectExtensions
 RectOffset
@@ -892,6 +907,7 @@ ScriptableObject
 SecondArrayName
 Section
 SelectedFSM
+Self
 SendEvent
 SendEventToFsmOnGameObject
 SendRemoteFsmEvent
@@ -912,6 +928,7 @@ SetValue
 ShowInInspector
 ShowStateLabel
 Single
+Sort
 SortedFsmList
 SpecifyGameObject
 Split
@@ -929,6 +946,7 @@ States
 StepFrame
 StepFsm
 StepToStateChange
+Stop
 StopAndReset
 Stream
 String
@@ -959,6 +977,7 @@ TargetObject
 TargetParameterCountException
 TargetType
 TargetTypeName
+Text
 Text2
 TextAnchor
 TextArea
@@ -969,6 +988,7 @@ TextureData
 TextureParameter
 TextureVariables
 The name of the missing action.
+Time
 Timer
 TitleAttribute
 ToArray
@@ -994,6 +1014,7 @@ TryConvertParameter
 TryFixActionName
 TryGetValue
 TryRecoverAction
+Type
 Type0
 Type1
 Type2
@@ -1023,7 +1044,6 @@ UsedInTemplate
 UsedIndices
 UsesTemplate
 UsesVariable
-Usually generated when the editor can't load an action, e.g., if the script was deleted, but can also be used as a TODO note.
 Value
 Variable
 VariableType
@@ -1052,9 +1072,11 @@ World
 WorldToScreenPoint
 WrapMode
 WrapNonExceptionThrows
+\rAllowMultiple
+\rYom
+\tYom
+\tplayMaker
 _CorDllMain
-`	c# 
-`.rsrc
 action
 actionData
 actionEnabled
@@ -1074,6 +1096,7 @@ activeActions
 activeState
 activeStateEntered
 activeStateName
+anim
 animationCurveParams
 arrayParamSizes
 arrayParamTypes
@@ -1486,8 +1509,11 @@ handleTriggerEnter
 handleTriggerExit
 handleTriggerStay
 hideUnused
+hint
 hitCollider
+host
 iTween
+info
 initialized
 instance
 intValue
@@ -1533,6 +1559,7 @@ mousePickRaycastTime
 mscoree.dll
 mscorlib
 myLog
+name
 namedVar
 namedVariable
 networkSync
@@ -1552,6 +1579,7 @@ overrideVariables
 owner
 ownerDefault
 ownerOption
+p?sx
 pAZY}
 paramByteDataSize
 paramDataPos
@@ -1561,6 +1589,7 @@ paramName
 parameter
 parameterType
 parent
+path
 playMakerFSM
 playMakerFSMs
 playMakerRuntime
@@ -1577,6 +1606,7 @@ quaternionValue
 quaternionVariables
 rayDistance
 realtimeLastUpdate
+rect
 rect1
 rect2
 rectValue
@@ -1778,6 +1808,7 @@ set_vector3Value
 set_visible
 showInInspector
 showStateLabel
+size
 source
 sourceVar
 startIndex
@@ -1799,9 +1830,11 @@ targetObjectCached
 targetSelf
 template
 templateControl
+text
 textWithTimecode
 textureValue
 textureVariables
+time
 timer
 toState
 tooltip
@@ -1810,6 +1843,7 @@ totalLength
 transition
 transitionIndex
 transitions
+type
 type0
 type1
 type2
@@ -1839,3 +1873,5 @@ watermark
 weights
 whiteTexture
 wrapMode
+x>sx
+y\nS\t1

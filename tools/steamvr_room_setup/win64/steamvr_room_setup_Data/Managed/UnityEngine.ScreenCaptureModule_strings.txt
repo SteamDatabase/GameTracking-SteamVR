@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -53,10 +52,8 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 0Modules/ScreenCapture/Public/CaptureScreenshot.h
 <Module>
-@.reloc
 Assembly-CSharp-testable
 BothEyes
 CaptureScreenshot
@@ -65,6 +62,7 @@ CaptureScreenshotIntoRenderTexture
 DebuggableAttribute
 DebuggingModes
 DefaultValueAttribute
+Enum
 GoogleAR.UnityNative
 InternalsVisibleToAttribute
 LeftEye
@@ -85,7 +83,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -160,8 +157,9 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 filename
 mscoree.dll
 mscorlib

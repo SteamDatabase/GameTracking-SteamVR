@@ -1,34 +1,78 @@
-
-!
-"
+    %2d: %5g %5g\n
+    %2lu: %5u
+    %3lu: [%8llu, %8llu]\n
+   %5lu: %5u %5u %5u\n
+  Bad Fax Lines: %lu\n
+  Bits/Sample: %u\n
+  Color Map: 
+  Compression Scheme: 
+  Consecutive Bad Fax Lines: %lu\n
+  Dot Range: %u-%u\n
+  Extra Samples: %u<
+  Fax Data:
+  FillOrder: 
+  Group 3 Options:
+  Group 4 Options:
+  Halftone Hints: light %u dark %u\n
+  ICC Profile: <present>, %lu bytes\n
+  Image Width: %lu Image Length: %lu
+  Ink Names: 
+  Ink Set: 
+  Max Sample Value: %u\n
+  Min Sample Value: %u\n
+  Orientation: 
+  Page Number: %u-%u\n
+  Photometric Interpretation: 
+  Photoshop Data: <present>, %lu bytes\n
+  Planar Configuration: 
+  Position: %g, %g\n
+  Predictor: 
+  Reference Black/White:\n
+  Resolution: %g, %g
+  RichTIFFIPTC Data: <present>, %lu bytes\n
+  Rows/Strip: 
+  SMax Sample Value:
+  SMin Sample Value:
+  Sample Format: 
+  Sample to Nits conversion factor: %.4e\n
+  Samples/Pixel: %u\n
+  SubIFD Offsets:
+  Subfile Type:
+  Thresholding: 
+  Tile Width: %lu Tile Length: %lu
+  Transfer Function: 
+  White Point: %g-%g\n
+  XMLPacket (XMP Metadata):\n
+  YCbCr Positioning: 
+  YCbCr Subsampling: %u, %u\n
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %5llu
+ (%lu = 0x%lx)\n
+ (%u = 0x%x)\n
+ (unit %u = 0x%x)
+ (unitless)
+ Image Depth: %lu
+ Tile Depth: %lu
+ clean
+ pixels/cm
+ pixels/inch
+ receiver regenerated
+ uncorrected errors
 "%s": Bad mode
-"@
 "Predictor" value %d not supported
-#
-$
 $ORIGIN/../../lib
-%
 %.100s: Can not read TIFF directory
-%2d: %5g %5g
-%2lu: %5u
-%3lu: [%8llu, %8llu]
-%5llu
-%5lu: %5u %5u %5u
 %d bit input not supported in PixarLog
-%f
-%ld
 %lld
 %llu
 %llu: Invalid strip byte count, strip %lu
 %llu: Invalid tile byte count, tile %lu
-%lu %s:
 %lu: Col out of range, max %lu
 %lu: Depth out of range, max %lu
 %lu: Row out of range, max %lu
 %lu: Sample out of range, max %lu
 %lu: Strip out of range, max %lu
 %lu: Tile out of range, max %lu
-%s
 %s %s decoding is not implemented
 %s %s encoding is not implemented
 %s at line %u of %s %u (got %u, expected %u)
@@ -36,9 +80,6 @@ $ORIGIN/../../lib
 %s data at scanline %lu (%llu != %llu)
 %s%u (0x%x)
 %s2-d encoding
-%s:
-%s: "
-%s: %s
 %s: Bad field type %d for "%s"
 %s: Bad value %u for "%s" tag
 %s: Can not read TIFF directory count
@@ -66,13 +107,6 @@ $ORIGIN/../../lib
 %sunassoc-alpha
 %suncompressed data
 %sunspecified
-%u (0x%x)
-&
-'
-(
-(%lu = 0x%lx)
-(%u = 0x%x)
-(@
 (cc % 3) == 0
 (cc & 1) == 0
 (cc & 3) == 0
@@ -82,25 +116,18 @@ $ORIGIN/../../lib
 (cc%(bps*stride))==0
 (cc%stride)==0
 (cc0%rowsize)==0
-(infinite)
+(infinite)\n
 (occ0%rowsize)==0
-(present)
+(present)\n
 (scheme == 32946) || (scheme == 8)
 (tif->tif_flags&0x20000)==0
 (tif->tif_flags&0x800000)==0
 (tmsize_t)datasize>0
 (uint64)nextdir32==nextdir
-(unit %u = 0x%x)
-(unitless)
-)
-*
 *pa <= 0xFFFFFFFFUL
-+
-,
--
-.
 ../../../3rdparty/libtiff/libtiff/tif_dir.c
 ../../../3rdparty/libtiff/libtiff/tif_dirread.c
+../../../3rdparty/libtiff/libtiff/tif_dirwrite.c
 ../../../3rdparty/libtiff/libtiff/tif_dumpmode.c
 ../../../3rdparty/libtiff/libtiff/tif_extension.c
 ../../../3rdparty/libtiff/libtiff/tif_fax3.c
@@ -113,34 +140,18 @@ $ORIGIN/../../lib
 ../../../3rdparty/libtiff/libtiff/tif_read.c
 ../../../3rdparty/libtiff/libtiff/tif_write.c
 ../../../3rdparty/libtiff/libtiff/tif_zip.c
-.@
-/
-0
 0 (0x0)
-0@
 0x%llx
 0x%lx
 0x%x
-1
 1.2.5
 11QTiffPlugin
-2
-3
-4
-5
-6
-7
+12QTiffHandler
 7 (0x7)
-8
-9
-:
-;
-<
+8&Kx
 <unsupported data type in TIFFPrint>
-=
->
-?
-@
+?Integer overflow in %s
+@../../../3rdparty/libtiff/libtiff/tif_predict.c
 ASCII value for tag "%s" contains null byte in value; value incorrectly truncated during reading due to implementation limitations
 ASCII value for tag "%s" does not end in null byte
 ActiveArea
@@ -155,14 +166,13 @@ AsShotWhiteXY
 Assuming 8-bit colormap
 Attempt to reset field on directory not already on disk.
 Attempt to write value larger than 0xFFFFFFFF in Classic TIFF file.
-Bad Fax Lines: %lu
+BCompression algorithm does not support random access
 Bad code word at line %u of %s %u (x %u)
 BaselineExposure
 BaselineNoise
 BaselineSharpness
 BayerGreenSplit
 BestQualityScale
-Bits/Sample: %u
 Bits/sample must be 1 for Group 3/4 encoding/decoding
 BitsPerSample
 BitsPerSample tag is missing, assuming 8 bits per sample
@@ -175,7 +185,6 @@ Bogus encoding, loop in the code table; scanline %d
 BrightnessValue
 BuildMapBitdepth16To8
 BuildMapUaToAa
-C
 CCITT Group 3
 CCITT Group 4
 CCITT RLE
@@ -184,9 +193,9 @@ CFALayout
 CFAPattern
 CFAPlaneColor
 CIE L*a*b*
-CIE Log2(L)
-CIE Log2(L) (u',v')
-CMYK
+CIE Log2(L) (u',v')\n
+CIE Log2(L)\n
+CMYK\n
 CXXABI_1.3
 CalibrationIlluminant1
 CalibrationIlluminant2
@@ -219,7 +228,6 @@ ChromaBlurRadius
 CleanFaxData
 ClipPath
 CodingMethods
-Color Map:
 Color channels
 ColorMap
 ColorMatrix1
@@ -230,11 +238,9 @@ Colormap
 ComponentsConfiguration
 CompressedBitsPerPixel
 Compression
-Compression Scheme:
 Compression scheme %u %s decoding is not implemented
 Compression scheme %u %s encoding is not implemented
 Compression scheme does not support access to raw uncompressed data
-Consecutive Bad Fax Lines: %lu
 ConsecutiveBadFaxLines
 Contrast
 Copyright
@@ -262,12 +268,9 @@ DigitalZoomRatio
 Directory %d does not exist
 Discarding %lu bytes to avoid buffer overrun
 DocumentName
-Dot Range: %u-%u
 DotRange
 DumpModeDecode
 DumpModeEncode
-E
-E?
 EXIFIFDOffset
 Encoder error: %s
 Error fetching directory count
@@ -285,7 +288,6 @@ ExposureIndex
 ExposureMode
 ExposureProgram
 ExposureTime
-Extra Samples: %u<
 ExtraSamples
 FALSE
 FNumber
@@ -294,10 +296,10 @@ Failed to allocate memory for %s (%ld elements of %ld bytes each)
 Failed to initialize CIE L*a*b*->RGB conversion state.
 Failed to read custom directory at offset %llu
 Failed to read directory at offset %llu
-Fax Data:
 Fax3Cleanup
 Fax3Decode1D
 Fax3Decode2D
+Fax3DecodeRLE
 Fax3Encode
 Fax3PreDecode
 Fax3PreEncode
@@ -321,7 +323,6 @@ File not open for reading
 File not open for writing
 FileSource
 FillOrder
-FillOrder:
 Flash
 FlashEnergy
 FlashpixVersion
@@ -340,25 +341,18 @@ GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
 GLIBC_2.3
-GNU
 GPSIFDOffset
 GainControl
 GlobalParametersIFD
 GrayResponseCurve
 GrayResponseUnit
-Group 3 Options:
-Group 4 Options:
 Group3Options
 Group4Options
-HC
-Halftone Hints: light %u dark %u
 HalftoneHints
 Horizontal differencing "Predictor" not supported with %d-bit samples
 HostComputer
-I@
 ICC L*a*b*
 ICC Profile
-ICC Profile: <present>, %lu bytes
 IO error during reading of "%s"
 IO error during reading of "%s"; tag ignored
 IO error writing directory
@@ -366,8 +360,6 @@ IO error writing tag data
 ISO JBIG
 ISOSpeedRatings
 ITU L*a*b*
-Image Depth: %lu
-Image Width: %lu Image Length: %lu
 ImageBaseColor
 ImageDepth
 ImageDescription
@@ -386,8 +378,6 @@ Incorrect value for "%s"
 Incorrect value for "%s"; tag ignored
 Indexed
 InitCCITTFax3
-Ink Names:
-Ink Set:
 InkNames
 InkSet
 Internal error, unknown tag %s
@@ -400,12 +390,8 @@ Invalid YCbCr subsampling
 Invalid YCbCr subsampling (%dx%d)
 Invalid strip byte count %llu, strip %lu
 Invalid td_samplesperpixel value
-J
-K
-L
-LIBTIFF, Version 4.0.3Copyright (c) 1988-1996 Sam LefflerCopyright (c) 1991-1996 Silicon Graphics, Inc.
+LIBTIFF, Version 4.0.3\nCopyright (c) 1988-1996 Sam Leffler\nCopyright (c) 1991-1996 Silicon Graphics, Inc.
 LZMA
-LZW
 LZWCleanup
 LZWDecode
 LZWDecode: Corrupted LZW table at scanline %d
@@ -438,8 +424,6 @@ LogLuvInitState
 LogLuvSetupDecode
 LogLuvSetupEncode
 LogLuvVSetField
-M
-MM
 Make
 MakerNote
 MakerNoteSafety
@@ -447,9 +431,9 @@ MaskedAreas
 MatrixWorldToCamera
 MatrixWorldToScreen
 Matteing
-Max Sample Value: %u
 MaxApertureValue
 Maximum TIFF file size exceeded
+Mbp?vS\r
 Memory mapped files not currently supported for this operation.
 Merging CCITT Fax 3 codec-specific tags failed
 Merging CCITT Fax 4 codec-specific tags failed
@@ -459,7 +443,6 @@ Merging Predictor codec-specific tags failed
 Merging SGILog codec-specific tags failed
 Merging common CCITT Fax codec-specific tags failed
 MeteringMode
-Min Sample Value: %u
 Missing needed %s tag
 MissingRequired
 ModeNumber
@@ -508,14 +491,12 @@ Not enough data for scanline %ld
 Not enough data for scanline %lu
 Not enough data for scanline %lu, expected a request for at most %lld bytes, got a request for %lld bytes
 NumberOfInks
-O
 Old-style JPEG
 Old-style LZW codes, convert file
 OldSubfileType
 One of the client procedures is NULL pointer.
 OptoelectricConversionFactor
 Orientation
-Orientation:
 OriginalRawFileData
 OriginalRawFileName
 Out of memory
@@ -524,15 +505,12 @@ Out of memory reading of "%s"
 Out of memory reading of "%s"; tag ignored
 PackBits
 PackBitsDecode
-Page Number: %u-%u
 PageName
 PageNumber
-Photometric Interpretation:
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Photoshop Data: <present>, %lu bytes
 PixarLog
 PixarLog compression can't handle %d bit linear encodings
 PixarLog compression can't handle bits depth/data format combination (depth: %d)
@@ -547,13 +525,10 @@ PixarLogSetupEncode
 PixarLogVSetField
 PixelXDimension
 PixelYDimension
-Planar Configuration:
 PlanarConfiguration
 Planarconfig tag value assumed incorrect, assuming data is contig instead of chunky
 Planarconfiguration
-Position: %g, %g
 Predictor
-Predictor:
 PredictorDecodeRow
 PredictorDecodeTile
 PredictorEncodeRow
@@ -637,7 +612,6 @@ QVariant::QVariant(int)
 QVariant::toInt(bool*) const
 QVariant::type() const
 QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
-R
 RGB color
 RawDataUniqueID
 Read error at row %lu, col %lu, tile %lu; got %llu bytes, expected %llu
@@ -648,33 +622,23 @@ Read error on strip %lu; got %llu bytes, expected %llu
 ReadDirEntryArray
 ReductionMatrix1
 ReductionMatrix2
-Reference Black/White:
 ReferenceBlackWhite
 Registering anonymous field with tag %d (0x%x) failed
 RelatedSoundFile
-Resolution: %g, %g
 RichTIFFIPTC
-RichTIFFIPTC Data: <present>, %lu bytes
 Row passed to TIFFReadRGBAStrip() must be first in a strip.
 Row pixels integer overflow (rowpixels %u)
 Row/col passed to TIFFReadRGBATile() must be topleft corner of a tile.
-Rows/Strip:
 RowsPerStrip
-S
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
 SGILog24
 SGILogDataFmt
 SGILogEncode
-SMax Sample Value:
 SMaxSampleValue
-SMin Sample Value:
 SMinSampleValue
-Sample Format:
-Sample to Nits conversion factor: %.4e
 SampleFormat
-Samples/Pixel: %u
 Samples/pixel
 SamplesPerPixel
 SamplesPerPixel tag is missing, applying correct SamplesPerPixel value of 3
@@ -711,18 +675,15 @@ StripByteCounts
 StripOffsets
 StripRowCounts
 SubIFD
-SubIFD Offsets:
 SubSecTime
 SubSecTimeDigitized
 SubSecTimeOriginal
-Subfile Type:
 SubjectArea
 SubjectDistance
 SubjectDistanceRange
 SubjectLocation
-T
 T82Options
-TIFF Directory at offset 0x%llx (%llu)
+TIFF Directory at offset 0x%llx (%llu)\n
 TIFF directory is missing required "%s" field
 TIFF directory is missing required "StripByteCounts" field, calculating from imagelength
 TIFFAdvanceDirectory
@@ -750,6 +711,7 @@ TIFFMergeFieldInfo
 TIFFNumberOfStrips
 TIFFNumberOfTiles
 TIFFOpen
+TIFFPredictorCleanup
 TIFFPredictorInit
 TIFFPrintDirectory
 TIFFRasterScanlineSize64
@@ -768,10 +730,12 @@ TIFFReadRawStrip1
 TIFFReadRawTile
 TIFFReadRawTile1
 TIFFRegisterCODEC
+TIFFResetField
 TIFFRewriteDirectory
 TIFFScanlineSize64
 TIFFSetClientInfo
 TIFFSetField
+TIFFTileRowSize
 TIFFUnRegisterCODEC
 TIFFUnlinkDirectory
 TIFFVStripSize64
@@ -811,23 +775,18 @@ Terminating PackBitsDecode due to lack of data.
 TextureFormat
 TextureWrapModes
 Threshholding
-Thresholding:
 ThunderDecode
 ThunderDecodeRow
 ThunderScan
 ThunderSetupDecode
 Tile %lu out of range, max %lu
-Tile Depth: %lu
-Tile Width: %lu Tile Length: %lu
 TileByteCounts
 TileDepth
 TileLength
 TileOffsets
 TileWidth
 Too much
-Transfer Function:
 TransferFunction
-U
 Uncompressed data (not supported) at line %u of %s %u (x %u)
 UniqueCameraModel
 Unknown
@@ -836,36 +795,27 @@ Unknown encoding %d for LogLuv compression
 Unknown field with tag %d (0x%x) encountered
 Unsupported bits/sample: %d
 UserComment
-V
 Value exceeds 32bit range of output type.
 VersionYear
-W
-Warning,
-White Point: %g-%g
+Warning, 
 WhiteBalance
 WhiteLevel
 WhitePoint
 Write error at scanline %lu
 Wrong "StripByteCounts" field, ignoring and calculating from imagelength
+Wrong bitspersample value (%d), Thunder decoder only supports 4bits per sample.
 Wrong data type %d for "%s"; tag ignored
 Wrong length of decoded string: data probably corrupted at scanline %d
-X
 XClipPathUnits
 XMLPacket
-XMLPacket (XMP Metadata):
 XPosition
 XYZ, Luv
-Y
-Y, L
 YCbCr
-YCbCr Positioning:
-YCbCr Subsampling: %u, %u
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
 YClipPathUnits
 YPosition
-Z
 ZIPCleanup
 ZIPDecode
 ZIPEncode
@@ -877,10 +827,7 @@ ZIPSetupEncode
 ZIPVSetField
 ZLib cannot deal with buffers this size
 ZLib error: %s
-[
 \%03o
-\%c
-^
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -893,6 +840,7 @@ _TIFFSwab32BitData
 _TIFFSwab64BitData
 _TIFFVGetField
 _TIFFVSetField
+_Tag 
 __assert_fail
 __bss_start
 __ctype_b_loc
@@ -908,29 +856,26 @@ _edata
 _end
 _fini
 _init
+aoB>"
 atan2
-bilevel art scan
+b\rr\nn\vv
+bilevel art scan\n
 bsearch
 cc%rowlen == 0
-centered
-clean
+centered\n
 close
-complex IEEE floating point
-complex signed integer
-cosited
+complex IEEE floating point\n
+complex signed integer\n
+cosited\n
 count<0x20000000
 count<0x40000000
 count<0x80000000
 custom tag binary object
-d
 datalength<0x80000000UL
 default
 dir[m].tdir_tag!=tag
-e
-error diffused
-exp
-f
-field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s
+error diffused\n
+field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s\n
 fii != ((uint32) -1)
 fip->field_passcount==0
 fip->field_passcount==1
@@ -943,9 +888,8 @@ fip->field_readcount>=1
 fip->field_writecount==-3
 fip->set_field_type!=TIFF_SETGET_INT
 fip->set_field_type!=TIFF_SETGET_OTHER
-floating point predictor
+floating point predictor 
 floor
-foo
 for "StripByteCounts" array
 for Group 3/4 run arrays
 for IFD list
@@ -960,29 +904,24 @@ fputc
 fputs
 free
 fwrite
-g
 gtStripSeparate
 gtTileSeparate
-h
-halftone or dithered scan
+halftone or dithered scan\n
 horAcc16
 horAcc32
 horAcc8
 horDiff16
 horDiff32
 horDiff8
-horizontal differencing
-i
+horizontal differencing 
 img->Bitdepth16To8==((void *)0)
 img->UaToAa==((void *)0)
 incorrect count for field "%s" (%llu, expecting %u); tag ignored
 incorrect count for field "%s" (%llu, expecting %u); tag trimmed
 incorrect count for field "%s", expected %d, got %d
 incorrect count for field "%s", expected 2, got %d
+initCIELabConversion
 initYCbCrConversion
-j
-k
-l
 length < 9
 libGL.so.1
 libQt5Core.so.5
@@ -994,10 +933,8 @@ libpthread.so.0
 libstdc++.so.6
 link != ((void *)0)
 link->name != ((void *)0)
-log
-lsb-to-msb
+lsb-to-msb\n
 lseek
-m
 malloc
 memcmp
 memcpy
@@ -1005,13 +942,13 @@ memmove
 memset
 min-is-black
 min-is-white
-msb-to-lsb
+msb-to-lsb\n
 must be either LogLUV or LogL
-n > 0
+n$Kx
 n.a16==1
 na<ndir
 nbits <= 12
-none
+none 
 o->field_passcount==0
 o->field_passcount==1
 o->field_readcount==-1
@@ -1024,24 +961,17 @@ o->field_type==TIFF_UNDEFINED
 open
 operator delete(void*)
 operator new(unsigned long)
-p
-pa != 0
 palette color (RGB from colormap)
 pdir
-pixels/cm
-pixels/inch
-pow
 pseudo-
 putspan
 qsort
 qstrcmp(QByteArray const&, char const*)
 qt_plugin_instance
 qt_plugin_query_metadata
-r
 rand
 read
 realloc
-receiver regenerated
 row 0 bottom, col 0 lhs
 row 0 bottom, col 0 rhs
 row 0 lhs, col 0 bottom
@@ -1051,17 +981,14 @@ row 0 rhs, col 0 top
 row 0 top, col 0 lhs
 row 0 top, col 0 rhs
 rowsize > 0
-s
-s == 0
 scanline
 scheme == 32909
 scheme == 34677 || scheme == 34676
 scheme == 5
-separate image planes
+separate image planes\n
 separated
-single image plane
+single image plane\n
 sp != ((void *)0)
-sp != 0
 sp->dec_codetab != ((void *)0)
 sp->decodepfunc != ((void *)0)
 sp->decoderow != ((void *)0)
@@ -1088,13 +1015,11 @@ strips
 strlen
 swabHorAcc16
 swabHorAcc32
-t
 td->td_nstrips > 0
 td->td_photometric == 32844
 td->td_photometric == 32845
 td->td_planarconfig == 1
 te->runlen == 64*(span>>6)
-tif
 tif->tif_data != 0
 tif->tif_flags&0x80000
 tiff
@@ -1105,18 +1030,13 @@ tparm < 9
 tv->count == 1
 typeinfo for QImageIOHandler
 typeinfo for QImageIOPlugin
-u
-uncorrected errors
 unknown tagname
-unsigned integer
-v
+unsigned integer\n
 value>=0.0
 vfprintf
-void
+void\n
 vtable for QImage
 vtable for __cxxabiv1::__si_class_type_info
-w
-wB
 x == lastx
 z_deflate
 z_deflateEnd
@@ -1128,4 +1048,3 @@ z_inflateEnd
 z_inflateInit_
 z_inflateReset
 z_inflateSync
-

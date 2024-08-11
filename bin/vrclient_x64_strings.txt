@@ -1,94 +1,32 @@
-					
-							
-												
-																			
-																									
-																												
-																																												
-																																																																																																																
-	!s99
-	%s::%llx.
-	555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
-	<bu 
-	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
-	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
-	D$HA
-	w=%d, h=%d, format=%d
-	|$HA
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
-    A
     Bucket: size:%zu timeline:%s
     Bucket: size:%zu timeline:none
     STARTING INPUT FRAME
     Unused Resources: size:%zu
     Unused timelines: size:%zu
-    faceCount: %d, arraySize: %d, mipCount: %d
-    format: %d, sampleCount: %d
-    size: %d %d
-  %s -> %s
-  driver %s implements interfaces %s
- !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoToUVWoXooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
- !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
- !55"#$%&'()*+,-./01234
- %41g
- '-46
+    faceCount: %d, arraySize: %d, mipCount: %d\n
+    format: %d, sampleCount: %d\n
+    size: %d %d\n
+  %s -> %s\n
+  driver %s implements interfaces %s\n
  (Thumb)
  (does the path point to a directory?)
- ;]X|
- =RDHI
- A]A\_
- A^A]A\^]
- A^A]A\_^
- A^A]_^]
- A^^]
- A^_]
- A^_^
- A_A\^
- A_A\_
- A_A]A\_^
- A_A^A\
- A_A^A\_^
- A_A^A\_^H
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^]
- A_A^^
- A_A^_
- A_A^_H
- A_A^_][
- A_A^_^]
- A_][
- A_^[
- A_^]
- A__[
- A__^
- H3E H3E
- H;\$Xu
- L;uX
  at line 
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  failed to parse: 
  for action '
- for detail.
+ for detail.\n
  formatting error code 
- in Buffer
+ in Buffer\n
  in Meta compatibility mode
- in `
  message of type "
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
- sJE3
-!	@MI
-!! refusing to trigger minidump with debugger attached
-!""""""
-!&.37<
+!! refusing to trigger minidump with debugger attached\n
 !( pDedicatedBuffer && pDedicatedImage )
-!(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
-!8N[-)
 !BIsChildRegistered( eType, pDeletable )
 !BIsLimitReachedForChildType( eType )
 !GetFrameData( unCurFrameIndex - 2 ).BIsInUse()
@@ -96,41 +34,35 @@
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !frameData.BIsInUse()
-!hn7!
 !m_pParent1
 !m_pParent2
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
 " because it is missing required fields: 
 " does not.
-" in 
 " not found in the scene.
-"""""""
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
-"9k0t
-"accessors" object not found in .gltf
-"asset" object not found in .gltf or not an object type
-"bufferViews" object not found in .gltf
-"buffers" object not found in .gltf
+"accessors" object not found in .gltf\n
+"asset" object not found in .gltf or not an object type\n
+"bufferViews" object not found in .gltf\n
+"buffers" object not found in .gltf\n
 "chords" member must be an array
 "haptics" member must be an array
-"nodes" object not found in .gltf
+"nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
 "poses" member must be an array
-"scenes" object not found in .gltf or not an array type
+"scenes" object not found in .gltf or not an array type\n
 "skeleton" member must be an array
 "sources" member must be an array
 "spot" is not a JSON object.
 ##Remaining: %f %d %d
-#*1892+$
-#9i0t
 #?RADIANCE
+#?RADIANCE\n
 #?RGBE
+#?RGBE\n
 #CompatibilityMode_Notification
-#D9c0t
-#D9{0t
 #OriginString_All
 #OriginString_Controller
 #OriginString_ControllerSource
@@ -138,38 +70,25 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
-$IL+Q
+$3br
 $tI(knN"
-$u3Hi
-$u=Hi
-$u^Hi
-$w!Hc
-%%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%,3:;4-&
-%9k0t
-%9{0t
 %LocalAppData%
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
-%d drivers initialized for watchdog mode.
+%d drivers initialized for watchdog mode.\n
 %d.%02d
-%d.%d
-%d.%d.%d
 %d.%d.%d.%d
-%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s
-%s (%X)-> %s
-%s [%s] - 
+%llu
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s (%X)-> %s\n
 %s begin_ctx=%llu
 %s called without first releasing previous slot!
 %s end_ctx=%llu
-%s%s%s%s%s
-%s-%d
 %s-CommandBuffer-%d
 %s-Image
 %s-ImageView
 %s-Memory
-%s: %s
 %s: %s #%d already pending acquire
 %s: %s #%d already pending release
 %s: %s #%d already pending release (lock)
@@ -183,12 +102,12 @@ $w!Hc
 %s: D3D11 feature level required for interop
 %s: Exceeded the layer limit
 %s: Failed to allocate command buffer: %d
-%s: Failed to allocate memory
 %s: Failed to allocate memory for command buffer
+%s: Failed to allocate memory\n
 %s: Failed to begin command buffer
 %s: Failed to create command buffer pool: %d
 %s: Failed to create vulkan device: %d
-%s: Failed to determine a compatible memory type
+%s: Failed to determine a compatible memory type\n
 %s: Failed to get queue: %u:%u
 %s: Failed to initialize compute queue.
 %s: Failed to initialize graphics queue.
@@ -196,7 +115,7 @@ $w!Hc
 %s: Failed to submit to queue: %u:%u
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
-%s: Invalid %s handle: %llx
+%s: Invalid %s handle: %llx\n
 %s: Invalid interop API: %d
 %s: ReleaseSync FAILED with E_FAIL
 %s: ReleaseSync FAILED with unknown hr
@@ -273,7 +192,7 @@ $w!Hc
 %s: failed to export client buffer
 %s: failed to export client swapchain image
 %s: failed to export client timeline
-%s: failed to export memory (%d)
+%s: failed to export memory (%d)\n
 %s: failed to export timeline %s
 %s: failed to find a suitable vulkan device
 %s: failed to get D3D11 interop resource handle
@@ -309,7 +228,7 @@ $w!Hc
 %s: failed to open the prism process
 %s: failed to query resource interface
 %s: failed to register compositor resources
-%s: failed to register debug callback
+%s: failed to register debug callback\n
 %s: failed to register resources
 %s: failed to release sync
 %s: failed to retrieve prism adapter LUID
@@ -379,278 +298,55 @@ $w!Hc
 %s:ForceAcquireImageTimeline
 %s:SyncTexture
 %s:Timeline
-%s_%3d
-%s_%s%s
-%u != %zu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&9k0t
-&D9c0t
-&D9k0t
-&D9{0t
 ' is not a number.
 ' property is missing
 ' property is missing in 
-' property is missing.
-' property is missing. 
-' property is not a JSON object.
-' property is not a bool type.
-' property is not a number type.
-' property is not a number.
-' property is not a positive integer.
-' property is not a string type.
+' property is missing. \n'
+' property is missing.\n
+' property is not a JSON object.\n
+' property is not a bool type.\n
+' property is not a number type.\n
+' property is not a number.\n
+' property is not a positive integer.\n
+' property is not a string type.\n
 ' property is not an array
-' property is not an integer type.
-' property is not an object.
-' value is not an integer type.
-',=?k
+' property is not an integer type.\n
+' property is not an object.\n
+' value is not an integer type.\n
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
-'9k0t
-'D9c0t
 '[', '{', or a literal
 'action_sets' member found for legacy binding manifest. New action sets cannot be added.
 'action_sets' member is not an array
 'actions' member found for legacy binding manifest. New actions cannot be added.
 'actions' member is not an array
-'f?FO-
 'localization' member is not an array
-'uri' is missing from non binary glTF file buffer.
+'uri' is missing from non binary glTF file buffer.\n
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%	G+
-()$^.*+?[]|\-{},:=!
-(5i@#
-(9Q|uWH
-(A\^][
-(A\_^[
-(A]_^[
-(A^A\^]
-(A^A]^[
-(A^A]_[
-(A_A]^]
-(A_A^^[
-(A_A^_[
-(A_A^_]
-(D$ A
-(D$ H
-(D$ I
-(D$ L
-(D$ f
-(D$0H
-(D$0f
-(D$@D
-(D$@H
-(D$PD
-(D$Pf
-(D$`A
-(D$pL
+()$^.*+?[]|\-{},:=!\n\r
 (Enumerating)
 (Failed Enumeration)
 (General Failure)
 (Hub Nested Too Deeply)
 (In Legacy Hub)
-(L$ A
-(L$ D
-(L$0E3
-(L$0H
-(L$@D
-(L$PD
-(L$PH
-(L$`D
-(L$`E
-(L9I@t	
 (Not Enough Bandwidth)
 (Not Enough Power)
 (Overcurrent)
 (Reset)
-(T$0D
-(T$@D
-(T$PD
-(T$Pf
-(T$pf
-(\$ D
-(\$ H
-(\$0H
-(\$0L
-(\$`L
-(\$pD
 (cannot determine missing fields for lite message)
-(d$`D
-(d$pD
-(f*^[0
-(l$ L
-(l$0I
-(l$@D
-(l$PD
-(l$PL
-(t$ 2
-(t$ H
-(t$0D8}gt
-(t$0H
-(t$@3
-(t$@A
-(t$@D
-(t$@H
-(t$@L
-(t$PA
-(t$PD
-(t$PH
-(t$PH;
-(t$PI
-(t$PL
-(t$`A
-(t$`D
-(t$`E
-(t$`H
-(t$`L
-(t$pH
-(t$pI
-(t$pIc
-(t$pL
-(|$ H
-(|$0D
-(|$0H
-(|$0t@A
-(|$@D
-(|$@H
-(|$@I
-(|$PA
-(|$PD
-(|$PH
-(|$PL
-(|$`D
-(|$`E
-(|$`I
-(|$`L
-(|$pD
-(|$pH
-(|$pL
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)9k0t
-)D$ A
-)D$ D
-)D$ H
-)D$ I
-)D$ L
-)D$ M
-)D$ ff
-)D$0A
-)D$0D
-)D$0H
-)D$0M
-)D$0f
-)D$0fD
-)D$@D
-)D$@E
-)D$@H
-)D$PD
-)D$PE3
-)D$Ps
-)D$`D
-)D$pA
-)D$pH
-)L$ D
-)L$ fD
-)L$0A
-)L$0D
-)L$@D
-)L$@L
-)L$@f
-)L$PD
-)L$PH
-)L$PL
-)L$PM
-)L$`D
-)L$pA
-)L$pH
-)L$pL
-)M'H;
-)T$ D
-)T$0D
-)T$@@8
-)T$Pf
-)T$pD
-)\$ E
-)\$`H
-)\$pD
-)]@H;
-)d$PA
-)d$PD
-)d$`D
-)d$pD
-)l$ D
-)l$0E
-)l$PD
-)l$`A
-)l$pD
-)t$ D
-)t$ H
-)t$0A
-)t$0D
-)t$0H
-)t$@3
-)t$@D
-)t$@H
-)t$@I
-)t$@L
-)t$@f
-)t$P3
-)t$P@
-)t$PH
-)t$PI
-)t$Pf
-)t$Pt
-)t$`3
-)t$`D
-)t$`H
-)t$`I
-)t$`f
-)t$pE3
-)t$pH
-)t$pL
-)|$ E
-)|$ H
-)|$0D
-)|$0E
-)|$0H
-)|$0L
-)|$0f
-)|$@D
-)|$@H
-)|$@I
-)|$@f
-)|$@r
-)|$@t&H
-)|$PD
-)|$PH
-)|$`H
-)|$`f
-)|$pD
-)|$pE
-)|$pf
-**** JUDDER **** expected %u got %u
-***** Reloading Shaders Begin
-***** Reloading Shaders End
-*H+NpH
-*uXI;
-+C,+C
-+L$@A
-+Xt@(
-+o'q)}
+**** JUDDER **** expected %u got %u\n
+***** Reloading Shaders Begin\n
+***** Reloading Shaders End\n
 , binary size = 
 , but got 
 , column 
 , last executing in 
 , requestedBytes 
-,9k0t%H
-,9{0t%H
-,H;D$ 
-,W5y+
 -1e+9999
--9k0t&H
--9{0t%H
--D9c0t%H
--ID3D11On12Device::CreateWrappedResource failed.
+-ID3D11On12Device::CreateWrappedResource failed.\n
 -IPCWrapper
 -Infinity
 -S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -664,12 +360,15 @@ $w!Hc
 -startupexename
 -startupinfo
 -startupreason
--u-I;
 -waitformonitor
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . and .. are not allowed in binding_url
-.,c8`F
-../..
+..\src\google\protobuf\io\coded_stream.cc
+..\src\google\protobuf\io\zero_copy_stream.cc
+..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+..\src\google\protobuf\message_lite.cc
+..\src\google\protobuf\stubs\common.cc
+..\src\google\protobuf\wire_format_lite.cc
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -1032,6 +731,7 @@ $w!Hc
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$collate@D@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVArrayOutputStream@io@protobuf@google@@
 .?AVCAnimResource@@
 .?AVCAnimSkeleton@@
 .?AVCAutoRestoreEnvironment@@
@@ -1530,10 +1230,13 @@ $w!Hc
 .?AVCWatchdogTrackedDeviceProvider_Latest@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
+.?AVClosure@protobuf@google@@
 .?AVException@Json@@
 .?AVFactory@CharReader@Json@@
 .?AVFactory@StreamWriter@Json@@
 .?AVFastWriter@Json@@
+.?AVFatalException@protobuf@google@@
+.?AVFunctionClosure0@internal@protobuf@google@@
 .?AVGenericInterfaceRegistration@@
 .?AVIEvent@IPC@@
 .?AVIFramerateGovernor@facet@@
@@ -1636,16 +1339,19 @@ $w!Hc
 .?AVLogicError@Json@@
 .?AVMaterialReader@tinyobj@@
 .?AVMaterialUtf8FileReader@@
+.?AVMessageLite@protobuf@google@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeError@Json@@
 .?AVStreamWriter@Json@@
 .?AVStreamWriterBuilder@Json@@
+.?AVStringOutputStream@io@protobuf@google@@
 .?AVStyledWriter@Json@@
 .?AVTypeInfo@Reflection@@
 .?AVWin32Event@IPC@@
 .?AVWin32Mutex@IPC@@
 .?AVWin32SharedMemory@IPC@@
 .?AVWriter@Json@@
+.?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV_Facet_base@std@@
 .?AV_Generic_error_category@std@@
 .?AV_Node_assert@std@@
@@ -1677,7 +1383,6 @@ $w!Hc
 .?AVruntime_error@std@@
 .?AVsystem_error@std@@
 .?AVtype_info@@
-.C8tlH
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -1691,15 +1396,16 @@ $w!Hc
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.D9c0t&H
-.I+M0H
+.HPN
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_ND@Z
 .PEAVException@Json@@
-.]<N.
 .backup
+.bss
 .data
 .data$r
+.dds
+.dll
 .edata
 .idata$2
 .idata$3
@@ -1708,6 +1414,7 @@ $w!Hc
 .idata$6
 .inputnotifications
 .json
+.obj
 .pdata
 .previous.txt
 .rdata
@@ -1727,13 +1434,14 @@ $w!Hc
 .text$x
 .text$yd
 .thumb
+.tls
 .tls$
 .tls$ZZZ
+.tmp
+.txt
 .xdata
 .xdata$x
-//==============================================================================================
-/5~-"
-/9{0t'H
+//==============================================================================================\n
 /a/click
 /a/touch
 /actions/
@@ -1922,7 +1630,7 @@ $w!Hc
 /user/gamepad/output/haptic_right_trigger
 /user/hand/
 /user/hand/left
-/user/hand/left is %X
+/user/hand/left is %X\n
 /user/hand/left/input/a/click
 /user/hand/left/input/a/touch
 /user/hand/left/input/aim/pose
@@ -1979,7 +1687,7 @@ $w!Hc
 /user/hand/left/pose/raw
 /user/hand/primary
 /user/hand/right
-/user/hand/right is %X
+/user/hand/right is %X\n
 /user/hand/right/input/a
 /user/hand/right/input/a/click
 /user/hand/right/input/a/touch
@@ -2079,222 +1787,40 @@ $w!Hc
 /x/touch
 /y/click
 /y/touch
-0	FAJ
 0 width
 0-pixel image
 0123456789ABCDEF
-0A]A\_
-0A^^]
-0A^_]
-0A^_^
-0A^_^H
-0A^_^][
-0A_A\^
-0A_A\_
-0A_A^A\
-0A_A^A\_^
-0A_A^A]
-0A_A^A]A\]
-0A_A^A]A\^
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]A\_^]H
-0A_A^A]_^
-0A_A^^][
-0A_A^_
-0A_A^_^[
-0A_A^_^]
-0A_^[
-0A__[
-0A__^
-0D9c0t'H
-0I;T$ H
-0w0c1
-0}0i1
+0\tFAJ
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-130801120000Z
 1e+9999
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-2333333
-240724174525Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-333?E
-341013235959Z0H1
-360428235959Z0i1
+333?
 361.75
-370322235959Z0c1
-380115120000Z0b1
-3?9y>m0_D@H_
-3mq+<
 416.16
 440.97
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4\f54d
 528.49
-555555
-555555555555555555555555555555555555555555555555555555555555555555555555555555
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
 650000
-68\Rrn1
-6HiL$8
-6I]Dc
-6OB,n_
-6p7M=:P_:}u
-70503
-79L$hua
-7Failed to create readable frame info buffer (D3D10)!
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7u;H;
-8.u9I
-82u	H
-8A^A\
-8A^A\_^
-8A^_^[
-8C|t	I
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8H9)u5H
-8H;]Pu
-8\$@t
-8\$hu6
-8\t	H
-8\u7H
-8_^][
+7Failed to create readable frame info buffer (D3D10)!\n
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9)u$M
-91tAH
-98t3H
-98tHH
-9;tC@8{
-9A@~%H
-9C s.H
-9C }.H
-9C0r'H
-9D$xr7H
-9DDS 
-9GTt=
-9T$XJ
-9X0vJfff
-9X0vK
-9\u-H
-9\u4H
-9]pu2
-9^tv$
-9k0t$H
-9k0t[D
-9k0t\D
-9k0t_D
-9k0tcH
-9k0v/f
-9kH~2H
-9l$Lt	E
-9q8~%H
-9q8~)H
-9s v#
-9sD~"3
-9sP~2L
-9sT~$H
-9sT~)H
-9s`~4L
-9t$ vlL
-9t$<u
-9y8~8H
-9y8~9H
-9y8~9L
-9y<~2H
-9y<~8H
-9y@~'H
-9y@~*H
-9yD~2H
-9yD~8H
-9y`~)H
-9yd~2H
-9{8~2H
-9{8~3H
-9{8~4H
-9{<~$H
-9{@~1H
-9{@~2H
-9{@~8H
-9{@~:H
-9{@~<L
-9{D~$H
-9{H~8H
-9{L~.H
-9|$8t+
-9|$lu
-9|$|u
+9a&g
 : exception thrown in JSON library
 : one or more FS callback not set
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
-:DW{$E
-:EotB
-:\u-L
-:\u6L
 ; expected 
 ; last read: '
-;C$u	A
-;I#F0H
-;K sMH
-;K sOH
-;t:=x3
-;tR=x3
-;u"E3
-;|$ r
-<	u#H
-<	u'H
-<	u*H
-<	u:H
-<	u=H
-<	wzM
-< t+<
-<$A9~T
-</u#H
-<0:08
-<Bu'H
-<H;D$ 
-<L3]<
 <NONE>
-<U+%.4X>
 <invalid handle>
 <parse error>
 <uninitialized>
 <unknown handle>
 <unknown>
-=7p7M}
 =====================================
-================================================================================================
-=ETLP
-=IBgC
-=SNRtt%
-=TADIt<=DNEI
-=rIQU
->"tVH
->"taH
->0<0:
->Mp$d
->W`.]tB3?
->w\Hc
-? u	Hc
-?"tfH
-?.vW@
-?/t6H
-?/u3H
-?/uqH
+================================================================================================\n
+?088
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -2325,10 +1851,9 @@ $w!Hc
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?@s#0?LD
 ?CSxrSession
 ?CVkDevice::CreateDevice
-?UUUUUU
+?Hm7
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -2394,8 +1919,6 @@ $w!Hc
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
 ?tolower@?$ctype@D@std@@QEBADD@Z
 ?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
-?u='?
-?uZEeu
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
@@ -2404,343 +1927,31 @@ $w!Hc
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@ A;B
-@$A;B
-@(A9@
-@.data
-@.reloc
-@.rsrc
-@8I+@0H
-@8i(u
-@8u$t0@8u#t*
-@8ugt
-@8w A
-@8|$0
-@8|$0u-L
-@8|$@t
-@8|$X
-@8|$Y
-@8|$x
-@A\^]
-@A]A\_
-@A]_^][
-@A^A\_
-@A^A]A\[]
-@A^A]A\_^
-@A^_]
-@A^_^
-@A^_^][
-@A_A\]
-@A_A\_
-@A_A]A\^[
-@A_A]_][
-@A_A^A\
-@A_A^A\][
-@A_A^A\_^
-@A_A^A]A\]
-@A_A^A]A\_
-@A_A^A]A\_H
-@A_A^A]A\_^[
-@A_A^A]A\_^]
-@A_A^A]_[
-@A_A^[
-@A_A^]
-@A_A^_
-@A_A^_^]
 @Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
-@HcQdH
-@LcqHD
-@SATAUAVAWH
-@SATAUAVH
-@SAUAVAWH
-@SAUH
-@SAVAWH
-@SAVH
-@SAWH
-@SUAVH
-@SUAWH
-@SUVATH
-@SUVAVAWH
-@SUVH
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SUVWAUH
-@SUVWAVAWH
-@SUVWAVH
-@SUWAUAWH
-@SUWAVAWH
-@SUWAWH
-@SUWH
-@SVATAUAWH
-@SVAUAVH
-@SVAVAWH
-@SVAVH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAWH
-@SVWATH
-@SVWAUAVH
-@SVWAUH
-@SVWAVAWH
-@SVWAWH
-@SVWH
-@SWATH
-@SWAUAVAWH
-@SWAUH
-@SWAVAWH
-@SWAVH
-@SWAWH
-@UATAUAVAWH
-@UATAUAVH
-@UATAVAWH
-@UATAVH
-@UATAWH
-@UAUAWH
-@UAVAWH
-@UAVH
-@UAWH
-@USATAUAVH
-@USATAUAWH
-@USATAUH
-@USATAVAWH
-@USATAVH
-@USAUAVAWH
-@USAUH
-@USAWH
-@USVATAUAWH
-@USVATAVH
-@USVAVH
-@USVH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAUH
-@USVWATAVAWH
-@USVWATH
-@USVWAUAVAWH
-@USVWAUAVH
-@USVWAUH
-@USVWAVH
-@USVWH
-@USWATAUH
-@USWATAVH
-@USWATH
-@USWAUAVAWH
-@USWAUAVH
-@USWAUH
-@USWAVAWH
-@USWAVH
-@USWAWH
-@USWH
-@UVATAUAVH
-@UVATAVAWH
-@UVATAVH
-@UVATH
-@UVAUAVH
-@UVAUAWH
-@UVAUH
-@UVAVAWH
-@UVAVH
-@UVAWH
-@UVWATAUAVAWH
-@UVWATAUH
-@UVWATAVH
-@UVWATH
-@UVWAUAVH
-@UVWAUAWH
-@UVWAUH
-@UVWAVAWH
-@UVWH
-@UWATAUAVH
-@UWATAUAWH
-@UWATAVAWH
-@UWATAVH
-@UWATAWH
-@UWAVAWH
-@UWAVH
-@VATAUAVAW
-@VATAUH
-@VATAWH
-@VAVH
-@VWATAVAWH
-@VWATH
-@VWAVAWH
-@VWAVH
-@VWAWH
-@WATAUAVAWH
-@WATAUH
-@WAUAWH
-@WAUH
-@WAVAWH
-@_RDATA
 @fff>fff>fff>fff>
-A ;G@t
-A A;B
-A H+A
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
-A$A;B
-A+H,A
-A0H9A(tkH
-A84(u
-A8EPH
-A8L+A0H
-A8_yH
-A8u4t
-A9@(r"A
-A9A A
-A9B(A
-A9B(r
-A9B0s
-A9D$Xu=I
-A9ETt
-A9F@r
-A9Q sEI
-A9Q }EI
-A;@$u
-A;@0}
-A;A tF
-A;A$u
-A;B t
-A;B$u	
-A;Q s?I
-A;Q }?I
-A;Ydr
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
 ALVRDisplayInit
 ALVRInit
-APH+AHH
-ASSERT: "%s" at %s:%d.
-ATAVAWH
-ATAVH
-ATAWH
-AUAVAWH
-AUAVH
-AUAWH
-A\_[]
-A\_^[
-A\_^[]
-A\_^]
-A]A\[]
-A]A\]
-A]A\^
-A]A\^[]
-A]A\^]
-A]A\_[]
-A]A\_^[]
-A]A\_^]
-A]_[]
-A]_^[]
-A]_^]
-A]_^][
-A^A\[]
-A^A\]
-A^A\^
-A^A\^[]
-A^A\_
-A^A\_[]
-A^A\_]
-A^A\_^[]
-A^A\_^]
-A^A]A\[]
-A^A]A\^]
-A^A]A\_[
-A^A]A\_]
-A^A]A\_^H
-A^A]A\_^[]
-A^A][]
-A^A]]
-A^A]^]
-A^A]_[]
-A^A]_]
-A^A]_^[]
-A^A]_^]
-A^^[]
-A^_[]
-A^_^[]
-A^_^][
-A_A\[]
-A_A\]
-A_A\_
-A_A\_[]
-A_A\_]
-A_A\_][
-A_A\_^[
-A_A\_^]
-A_A]A\[]
-A_A]A\]
-A_A]A\^[]
-A_A]A\^]
-A_A]A\_[]
-A_A]A\_]
-A_A]A\_^H
-A_A]A\_^]
-A_A][
-A_A]]
-A_A]^]
-A_A]_]
-A_A]_^]
-A_A^A\
-A_A^A\H
-A_A^A\[
-A_A^A\[]
-A_A^A\]
-A_A^A\^]
-A_A^A\_[]
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A\_^]
-A_A^A\_^][
-A_A^A]
-A_A^A]A\[]
-A_A^A]A\]
-A_A^A]A\^
-A_A^A]A\_
-A_A^A]A\_[]
-A_A^A]A\_]
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A][
-A_A^A][]
-A_A^A]^]
-A_A^A]_[]
-A_A^A]_]
-A_A^A]_^[]
-A_A^A]_^][
-A_A^[]
-A_A^]
-A_A^^
-A_A^^H
-A_A^^]
-A_A^^][
-A_A^_
-A_A^_[]
-A_A^_]
-A_A^_^
-A_A^_^[]
-A_A^_^]
-A_A^_^][
-A__[]
-A__][
-A__^[
+ASSERT: "%s" at %s:%d.\n
+ATI1
+ATI2
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
-Aborting GetDeltas(%s) disjoint! (n=%d)
-Aborting GetDeltas(%s) event[%d]! (n=%d)
+Aborting GetDeltas(%s) disjoint! (n=%d)\n
+Aborting GetDeltas(%s) event[%d]! (n=%d)\n
 Aborting due to fatal assertion failure.
 Aborting due to ignoring Quit event after %.1f seconds!
 Accessor
-Action %s reading %0.5f time %llu
-Action %s reading %0.5f, %0.5f time %llu, %llu
-Action %s reading %0.5f, %0.5f, %0.5f time %llu, %llu, %llu
-Action %s reading %s time %llu
-Action %s reading boolean failed
-Action %s rejecting input because it is private
-Action %s rejecting input because of device requirement
+Action %s reading %0.5f time %llu\n
+Action %s reading %0.5f, %0.5f time %llu, %llu\n
+Action %s reading %0.5f, %0.5f, %0.5f time %llu, %llu, %llu\n
+Action %s reading %s time %llu\n
+Action %s reading boolean failed\n
+Action %s rejecting input because it is private\n
+Action %s rejecting input because of device requirement\n
 Action Set names may not be empty
 Action names may not be empty
 Action paths must take the form '/actions/<action set>/in|out/<action>'. "
@@ -2748,34 +1959,32 @@ Activation threshold of %f cannot be less than the deactivation threshold of %f 
 Active pri %u, device=%s
 AddAccessAllowedAce
 AddResourceBarrier: Failed to close command list with %i when setting barrier transition
-AddSystemBehaviorFlag %s
+AddSystemBehaviorFlag %s\n
 Adobe
 Alert
 Alias
 AllowSetForegroundWindow
-Also failed (err=0x%X) to create with mipmaps disabled. Giving up.
-And filters need at least one input in filter %s
+Also failed (err=0x%X) to create with mipmaps disabled. Giving up.\n
+And filters need at least one input in filter %s\n
 AnimationChannel
 Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 Another scene application is already running. SteamVR only supports one OpenXR or OpenVR scene application running at a time.
-Ap8Bpu
 App info manager init failed (114)
-App key after connect message:%s
-App submitted texture from wrong device!  Make sure app is configured to use the graphics card that your headset is plugged into.
-Application failed to call xrGetVulkanGraphicsDevice before xrCreateSession
-Application submitted two left scene textures for a single frame!
-Application submitted two right scene textures for a single frame!
+App key after connect message:%s\n
+App submitted texture from wrong device!  Make sure app is configured to use the graphics card that your headset is plugged into.\n
+Application failed to call xrGetVulkanGraphicsDevice before xrCreateSession\n
+Application submitted two left scene textures for a single frame!\n
+Application submitted two right scene textures for a single frame!\n
 ApplicationMenu
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
-Assert( %s ) %s(%d)
+Assert( %s ) %s(%d)\n
 Asset
 Attempt to init shared state %s twice
 Attempt to launch desktop game theater while vrcompositor not running
 Attempted to access vulkan array info for a non-vulkan texture
-Attempted to read payload of %d bytes from pipe but failed
-AuthD
+Attempted to read payload of %d bytes from pipe but failed\n
 Axis0
 Axis0_Value
 Axis1
@@ -2789,31 +1998,24 @@ Axis3_Value_e1
 Axis4
 Axis4_Value_e0
 Axis4_Value_e1
-B H9C(s
-B(A9A
-B(I9A
-B(I;A
-B0A9A
-B0H+B(H
-B0H9B(tkH
-B0L+B(H
-B84/u
-B9T	$t
-B9T	$u
-B9T)$t
-BD9%^
+BC4S
+BC4U
+BC5S
+BC5U
+BC6H
+BC7L
 BINORMAL
 BITANGENT
 BMP RLE
-BMissing haptic name in output of haptic filter %s
+BMissing haptic name in output of haptic filter %s\n
 BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
+Bdi.
 Begin
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
-Bellevue1
 Binding config missing required 'bindings' member
 Binding config missing required 'controller_type' member
 Bindings from OpenXR for 
@@ -2823,65 +2025,20 @@ BlockQueueHeader_
 Bootstrapper init
 Buffer
 BufferView
-C ;s@
-C @8{
-C A;A
-C D8s
-C D8{
-C H9C(t
-C H9T$@t
-C t~H
-C$9C w
-C$A;A
-C(D![ D!S$D!K(
-C(H9C0t
-C(I;A
-C-^}*
-C0L9$
-C0L;E
-C0L;F
-C0L;G
-C8;C<
-C8;K<
-C8D![0D!S4D!K8E
-C8D;C<
-C8H+C0H
-C@;G t
 CAnimResource
 CBoneMaskResource
-CD$ D
-CD$ H
-CD$ I
-CD$(H
-CD$03
-CD$0H
-CD$0M
-CD$8H
-CD$@3
-CD$@H
-CD$@I
-CD$HH
-CD$P3
-CD$PL
-CD$XH
-CD$`3
-CD$`H
-CD$`I
-CD$`L
-CD$hH
-CD$pH
-CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle
-CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.
-CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.
-CD3D11VRRenderer::Initialize(): Failed to create compute shader %s!
-CD3D11VRRenderer::Initialize(): Failed to create input layout for vertex shader %s!
-CD3D11VRRenderer::Initialize(): Failed to create pixel shader %s!
-CD3D11VRRenderer::Initialize(): Failed to create vertex shader %s!
-CD3D11VRRenderer::Initialize(): Failed to load compute shader %s! (size=%d)
-CD3D11VRRenderer::Initialize(): Failed to load pixel shader %s! (size=%d)
-CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)
+CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle\n
+CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.\n
+CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.\n
+CD3D11VRRenderer::Initialize(): Failed to create compute shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to create input layout for vertex shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to create pixel shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to create vertex shader %s!\n
+CD3D11VRRenderer::Initialize(): Failed to load compute shader %s! (size=%d)\n
+CD3D11VRRenderer::Initialize(): Failed to load pixel shader %s! (size=%d)\n
+CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)\n
 CD3D11VRRenderer::Signal
-CD3D11VRRenderer::UnampTexture: dangling data pointer
+CD3D11VRRenderer::UnampTexture: dangling data pointer\n
 CFrameData::BWaitForStateReached idx:%lu state:%d
 CGpuTiming::EndFrame
 CGpuTiming::GetDeltas
@@ -2894,30 +2051,8 @@ CHECK failed: (count) <= (target_->size()):
 CHECK failed: (count) >= (0): 
 CHECK failed: (last_returned_size_) > (0): 
 CHECK failed: value.size() <= kint32max: 
-CHI;F(ryuSI
 CHmdSystemLatest::SubmitTextureSetInfo
 CKeyframedDataResource
-CL$ 3
-CL$ H
-CL$ L
-CL$ M+
-CL$(3
-CL$02
-CL$0H
-CL$0I+
-CL$0I;
-CL$0M;
-CL$0fI
-CL$@H
-CL$@L
-CL$@L;
-CL$PH
-CL$`H
-CL$`H;
-CL$hH
-CL$hL
-CL$pH
-CL$pL;}
 COLOR
 CPackedBoneTransforms
 CRenderModelManager::GetRenderModelAbsolutePath
@@ -2926,29 +2061,29 @@ CRenderModelManager::LoadRenderModel_Async
 CRenderModelManager::Tessellate
 CRenderModelManager::Tessellate::<lambda_03306e5cdb0e0863aad20d1a933a0825>::operator ()
 CS_MAIN
-CSharedResourceNamespaceClient::Init(): failed connect
-CSharedResourceNamespaceClient::Init(): failed to get server response
-CSharedResourceNamespaceClient::Init(): failed to retreive payload
-CSharedResourceNamespaceClient::Init(): invalid payload size %u
-CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u
-CSharedResourceNamespaceClient::Init(): received namespace data %u
-CSharedResourceNamespaceClient::Init(): received unexpected message type %u
-CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data
-CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace
-CSharedResourceNamespaceClient::Init(): timed out waiting for server reply
+CSharedResourceNamespaceClient::Init(): failed connect\n
+CSharedResourceNamespaceClient::Init(): failed to get server response\n
+CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
+CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
+CSharedResourceNamespaceClient::Init(): received namespace data %u\n
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
 CSharedResourceNamespaceClient::InitIfNeeded
 CSxrAction
 CSxrActionSet
 CSxrCompositorOpenVR::ComposeLayerProjection
 CSxrCompositorOpenVR::ComposeLayerQuad
-CSxrCompositorOpenVR::CreateVulkanDevice: failed to create vulkan device
-CSxrCompositorOpenVR::CreateVulkanDevice: failed to query required vulkan extensions
-CSxrCompositorOpenVR::CreateVulkanInstance: failed to create vulkan instance
-CSxrCompositorOpenVR::CreateVulkanInstance: failed to find vulkan entrypoints
-CSxrCompositorOpenVR::CreateVulkanInstance: failed to query the vulkan extensions
+CSxrCompositorOpenVR::CreateVulkanDevice: failed to create vulkan device\n
+CSxrCompositorOpenVR::CreateVulkanDevice: failed to query required vulkan extensions\n
+CSxrCompositorOpenVR::CreateVulkanInstance: failed to create vulkan instance\n
+CSxrCompositorOpenVR::CreateVulkanInstance: failed to find vulkan entrypoints\n
+CSxrCompositorOpenVR::CreateVulkanInstance: failed to query the vulkan extensions\n
 CSxrCompositorOpenVR::EndFrame
-CSxrCompositorOpenVR::Init: failed to find vulkan library
-CSxrCompositorOpenVRGetVulkanGRaphicsDevice error: failed to determine output device
+CSxrCompositorOpenVR::Init: failed to find vulkan library\n
+CSxrCompositorOpenVRGetVulkanGRaphicsDevice error: failed to determine output device\n
 CSxrCompositorPrism::BeginFrame
 CSxrCompositorPrism::ComposeLayerProjection
 CSxrCompositorPrism::ComposeLayerQuad
@@ -2968,21 +2103,21 @@ CSxrGraphicsBindingPrism::InitVulkan2
 CSxrHandTrackerEXT
 CSxrHandTrackerEXT::LocateJoints
 CSxrInstance
-CSxrInstance::CreateVulkanInstanceKHR: invalid createInfo parameters
-CSxrInstance::CreateVulkanInstanceKHR: invalid parameters
-CSxrInstance::GetGraphicsRequirements failed: Invalid system.
-CSxrInstance::GetVulkanDeviceExtensions failed: Invalid system.
-CSxrInstance::GetVulkanGraphicsDevice failed: Invalid system.
-CSxrInstance::GetVulkanGraphicsDevice: invalid parameter
-CSxrInstance::GetVulkanInstanceExtensions failed: Invalid system.
-CSxrInstance::Init failed: error fetching client interface
-CSxrInstance::Init failed: failed to create compositor interface
-CSxrInstance::Init failed: failed to init SteamVR
-CSxrInstance::Init failed: failed to init supported features
-CSxrInstance::Init warning: Headset not found, unable to create a functional vr instance, fix issue and restart SteamVR.
-CSxrInstance::PathToString failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected
-CSxrInstance::StringToPath failed: %s
-CSxrInstance::StringToPath failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected.
+CSxrInstance::CreateVulkanInstanceKHR: invalid createInfo parameters\n
+CSxrInstance::CreateVulkanInstanceKHR: invalid parameters\n
+CSxrInstance::GetGraphicsRequirements failed: Invalid system.\n
+CSxrInstance::GetVulkanDeviceExtensions failed: Invalid system.\n
+CSxrInstance::GetVulkanGraphicsDevice failed: Invalid system.\n
+CSxrInstance::GetVulkanGraphicsDevice: invalid parameter\n
+CSxrInstance::GetVulkanInstanceExtensions failed: Invalid system.\n
+CSxrInstance::Init failed: error fetching client interface\n
+CSxrInstance::Init failed: failed to create compositor interface\n
+CSxrInstance::Init failed: failed to init SteamVR\n
+CSxrInstance::Init failed: failed to init supported features\n
+CSxrInstance::Init warning: Headset not found, unable to create a functional vr instance, fix issue and restart SteamVR.\n
+CSxrInstance::PathToString failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected\n
+CSxrInstance::StringToPath failed: %s\n
+CSxrInstance::StringToPath failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected.\n
 CSxrSession::EndFrame
 CSxrSession::LocateViews
 CSxrSession::ReadCachedActionState
@@ -3009,28 +2144,11 @@ CSxrSwapchainPrism::RegisterSwapchainImage
 CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
-CT$ H
-CT$ L
-CT$(L
-CT$0D
-CT$0H
-CT$0L
-CT$8H
-CT$@H
-CT$HH
-CT$PH
-CT$PL+
-CT$`H
-CT$`L
-CT$`f
-CT$hH
-CT$hM
-CT$pH
 CVRApplicationsLatest
 CVRClient::Init
 CVRCompositorClient::SubmitTextureSetInfo
 CVRCompositorSharedTextures::EndCommandBuffer
-CVRCompositorSharedTextures::GetFreeFence - Failed to create fence
+CVRCompositorSharedTextures::GetFreeFence - Failed to create fence\n
 CVRLog::LogDirect
 CVRMsg_AbortApplicationTransition
 CVRMsg_AcknowledgeQuit_Exiting
@@ -3235,7 +2353,7 @@ CVRMsg_WritePropertyDataToFile
 CVRMsg_WritePropertyDataToFileResponse
 CVRNotificationsLatest
 CVROverlayLatest::SetOverlayTextureXR
-CVRReplyMailbox requires that the user only specify a group name so the full name can be unique: %s
+CVRReplyMailbox requires that the user only specify a group name so the full name can be unique: %s\n
 CVRSteamPrivate::HideDashboard
 CVRSteamPrivate::SwitchToDashboardOverlay
 CVkAllocator::AllocateMemory
@@ -3276,80 +2394,48 @@ CVkTimeline::ExportTimeline
 CVkTimeline::ImportTimeline
 CVkTimeline::Initialize
 CVkTimeline::WaitMultiple
-CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds dest size (%d)!
-CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds source size (%d)!
-CVulkanVRRenderer::CreateConstantBuffer - Failed to allocate shared buffer
-CVulkanVRRenderer::CreateConstantBuffer - failed to allocate shared resource
-CVulkanVRRenderer::CreateConstantBuffer - failed to create buffer
-CVulkanVRRenderer::CreateConstantBuffer - failed to prepare for export
-CVulkanVRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle
-CVulkanVRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting shared resource
-CVulkanVRRenderer::CreateGPUSemaphore - Failed to allocate shared semaphore
-CVulkanVRRenderer::CreateSemaphore - Failed to allocate semaphore handle
-CVulkanVRRenderer::CreateSemaphore - Failed to allocate shared resource
-CVulkanVRRenderer::CreateSemaphore - Failed to prepare shared semaphore for export
-CVulkanVRRenderer::CreateTexture - Failed to allocate shared resource
-CVulkanVRRenderer::CreateTexture - Unable to allocate memory
-CVulkanVRRenderer::CreateTexture - Unable to bind memory
-CVulkanVRRenderer::CreateTexture - Unable to create VkImage
-CVulkanVRRenderer::CreateTexture - Unable to create image view
-CVulkanVRRenderer::CreateTexture - Unable to prepare image for export
+CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds dest size (%d)!\n
+CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds source size (%d)!\n
+CVulkanVRRenderer::CreateConstantBuffer - Failed to allocate shared buffer\n
+CVulkanVRRenderer::CreateConstantBuffer - failed to allocate shared resource\n
+CVulkanVRRenderer::CreateConstantBuffer - failed to create buffer\n
+CVulkanVRRenderer::CreateConstantBuffer - failed to prepare for export\n
+CVulkanVRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle\n
+CVulkanVRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting shared resource\n
+CVulkanVRRenderer::CreateGPUSemaphore - Failed to allocate shared semaphore\n
+CVulkanVRRenderer::CreateSemaphore - Failed to allocate semaphore handle\n
+CVulkanVRRenderer::CreateSemaphore - Failed to allocate shared resource\n
+CVulkanVRRenderer::CreateSemaphore - Failed to prepare shared semaphore for export\n
+CVulkanVRRenderer::CreateTexture - Failed to allocate shared resource\n
+CVulkanVRRenderer::CreateTexture - Unable to allocate memory\n
+CVulkanVRRenderer::CreateTexture - Unable to bind memory\n
+CVulkanVRRenderer::CreateTexture - Unable to create VkImage\n
+CVulkanVRRenderer::CreateTexture - Unable to create image view\n
+CVulkanVRRenderer::CreateTexture - Unable to prepare image for export\n
 CVulkanVRRenderer::GetTextureLOD
-CVulkanVRRenderer::MapConstantBuffer - vkMapMemory failed with error %d.
-CVulkanVRRenderer::MapTexture - attempted to map non-mappable image
-CVulkanVRRenderer::MapTexture - bad parameter
-CVulkanVRRenderer::MapTexture - image is already mapped
-CVulkanVRRenderer::MapTexture - vkMapMemory failed with error %d
-CVulkanVRRenderer::SetImageLayout - invalid transition to new layout: %d
-CVulkanVRRenderer::SetImageLayout - unsupported new image layout: %d
-CVulkanVRRenderer::SetImageLayout - unsupported old image layout: %d
-CVulkanVRRenderer::UnampTexture: dangling data pointer
-CVulkanVRRenderer::UnmapTexture - bad parameter
-C\$0D
-C\$0E
-C\$0H
-C\$0L
-C\$0M
-C\$8H
-C\$8L
-C\$8M
-C\$@E
-C\$@H
-C\$@L
-C\$@M
-C\$HH
-C\$HM
-C\$PE
-C\$PH
-C\$PL
-C\$PM
-C\$XH
-C\$XL
-C\$`H
-C\$`L
-C\$`M
-C\$hA
-C\$hH
-C\$hL
-C\$pH
-C\$pL
-C\$xH
-C\$xL
-Call from application to set %s.%s. Scene applications are not allowed to set most settings
+CVulkanVRRenderer::MapConstantBuffer - vkMapMemory failed with error %d.\n
+CVulkanVRRenderer::MapTexture - attempted to map non-mappable image\n
+CVulkanVRRenderer::MapTexture - bad parameter\n
+CVulkanVRRenderer::MapTexture - image is already mapped\n
+CVulkanVRRenderer::MapTexture - vkMapMemory failed with error %d\n
+CVulkanVRRenderer::SetImageLayout - invalid transition to new layout: %d\n
+CVulkanVRRenderer::SetImageLayout - unsupported new image layout: %d\n
+CVulkanVRRenderer::SetImageLayout - unsupported old image layout: %d\n
+CVulkanVRRenderer::UnampTexture: dangling data pointer\n
+CVulkanVRRenderer::UnmapTexture - bad parameter\n
+Call from application to set %s.%s. Scene applications are not allowed to set most settings\n
 Camera
 Can't 
-Canceling filter %s
+Canceling filter %s\n
 Cannot allocate buffer larger than kint32max for 
-Cannot compress texture due to non-multiple of four dimensions! %s (%dx%d)
+Cannot compress texture due to non-multiple of four dimensions! %s (%dx%d)\n
 Cannot open file [
-Capturing Scene Focus
-Cd$pL;
-ChH+C`H
+Capturing Scene Focus\n
 ChangeAppType failed with %s
 Changing app type from %s to %s
-Chaperone Universe was missing ID
-Chord for %s had %d bindings, which we don't know how to deal with yet
-ClearSkyboxOverride
+Chaperone Universe was missing ID\n
+Chord for %s had %d bindings, which we don't know how to deal with yet\n
+ClearSkyboxOverride\n
 Client
 Client (%s) app container state: %d
 Client Allocator
@@ -3388,13 +2474,13 @@ ClientTimeline:%llu
 CloseHandle
 CloseServiceHandle
 Closing Keyboard
-Closing pipe %s because it was broken from the other end
-Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f
+Closing pipe %s because it was broken from the other end\n
+Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f\n
 CommandBuffer[%u]
 CommandLineToArgvW
-Committed chaperone working copy
+Committed chaperone working copy\n
 Completed
-ComposeLayerProjection: failed to submit view %u: %s
+ComposeLayerProjection: failed to submit view %u: %s\n
 CompositionState
 CompositionStateMutex
 Compositor Client
@@ -3408,15 +2494,15 @@ Compute Client
 Config path could not be located (111)
 Connect to VR Server Failed (301)
 ConnectToPrism
-Controller (%s) not available for input to chord, ignoring chord
+Controller (%s) not available for input to chord, ignoring chord\n
 ConvertStringSidToSidA
 CopySid
-Could not create interface in driver %s from %s.
-Could not find factor function in driver %s from %s.
-Could not find named path %s when loading %s
-Could not read x for vec2
-Could not translate path %s. Trying the raw path
-Couldn't find action %s. Ignoring it.
+Could not create interface in driver %s from %s.\n
+Could not find factor function in driver %s from %s.\n
+Could not find named path %s when loading %s\n
+Could not read x for vec2\n
+Could not translate path %s. Trying the raw path\n
+Couldn't find action %s. Ignoring it.\n
 CreateDXGIFactory1
 CreateDirectoryW
 CreateEventA
@@ -3426,284 +2512,34 @@ CreateFileMappingA
 CreateFileW
 CreateMutexA
 CreateProcessA
-CreateSwapchain
+CreateSwapchain\n
 CreateThread
-CreateVulkanImageFromD3D11TextureHandle: failed to find a LOCAL memory type
+CreateVulkanImageFromD3D11TextureHandle: failed to find a LOCAL memory type\n
 CreateWellKnownSid
-CreateXrBinding: unsupported graphics binding type: %d
-Created depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
-Created shared texture '%s' %dx%d (%d mips)
-Ct$8H
-Ct$@H
-CuxE2
-Cx<au
-Cx<bu
-Cx<cuW
-Cx<fu
-C|$0H
-C|$0L
-C|$0M
-C|$@H
-C|$PL
-D$ 9]dvnL
-D$ A;
-D$ E3
-D$ E;
-D$ H+]
-D$ H;
-D$ Hc
-D$ HcH
-D$ I;
-D$ Ic
-D$ L;
-D$ M;
-D$ fE
-D$ fH
-D$ fI
-D$ tEH
-D$ tGI
-D$ tIf
-D$ tSI
-D$ u!H
-D$!uk
-D$#nil
-D$$% B
-D$$E3
-D$( N
-D$(@88
-D$(E3
-D$(H+
-D$(H;
-D$(HcA
-D$(Hi
-D$(I;
-D$(L+
-D$(Lk
-D$(fH
-D$(fI
-D$,D;l$8
-D$0	H
-D$0% B
-D$0A;
-D$0D8
-D$0E+
-D$0E3
-D$0H+
-D$0H9
-D$0H9Q
-D$0H9V8t
-D$0H;
-D$0H;D$Pt
-D$0Hc
-D$0Hi
-D$0I;
-D$0L+
-D$0L+D$ A
-D$0L;
-D$0Lc
-D$0fD
-D$0fff
-D$0t	@
-D$0t'
-D$0tx
-D$1uk
-D$3D+
-D$3nil
-D$4D;
-D$4I;
-D$8E3
-D$8H9D$@t
-D$8H;
-D$8I;
-D$8L+
-D$8L;
-D$8fA
-D$<9|$4t
-D$@E3
-D$@H+
-D$@H9Q
-D$@H9Q@t
-D$@H9S@t
-D$@H9W
-D$@H;
-D$@Hc
-D$@Hi
-D$@I;
-D$@L;
-D$@M+
-D$@fA
-D$@u'H
-D$Auk
-D$Cnil
-D$DE3
-D$DHk
-D$HE3
-D$HH+
-D$HH;
-D$HHi
-D$HI+
-D$HL;
-D$HfA
-D$PE3
-D$PH+
-D$PH9
-D$PH9Q
-D$PH;
-D$PHc
-D$PI9E
-D$PI;
-D$PK9
-D$PM;
-D$PMc
-D$PfA
-D$TE;
-D$TI;
-D$Tt.@
-D$X I
-D$X9s
-D$XA#
-D$XE3
-D$XH+
-D$XH9D$8
-D$XH9D$P
-D$XH9Q
-D$XH9U8t
-D$XH;
-D$XHc
-D$XI+
-D$XI;
-D$XIk
-D$XY\
-D$Xy3
-D$`E3
-D$`H+
-D$`H9D$@
-D$`H9Q
-D$`H;
-D$`Hc
-D$`HcH
-D$`Hk
-D$`I;
-D$`L;
-D$`fI
-D$`v 
-D$hE3
-D$hH9D$H
-D$hH;
-D$hHc
-D$hI9D$
-D$hI;D$
-D$pA+
-D$pA;
-D$pE3
-D$pH;
-D$pH;X
-D$pHcH
-D$pI9V
-D$pI;
-D$pL;
-D$pM;
-D$pfA
-D$t2M
-D$xA9G
-D$xA;G
-D$xE3
-D$xH+
-D$xH;
-D$xHc
-D$xL;
-D$xM;
-D$xu@
-D+D$DE+
-D+\$H
+CreateXrBinding: unsupported graphics binding type: %d\n
+Created depth texture '%s' %dx%d (Format=%d, SampleCount=%d)\n
+Created shared texture '%s' %dx%d (%d mips)\n
 D3D11CreateDevice
 D3D11On12CreateDevice
-D3D11On12CreateDevice failed
+D3D11On12CreateDevice failed\n
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D8$/u
-D8$>u
-D8,8u
-D8/u0
-D840u
-D84;u
-D8<>u
-D8d$P
-D8eHt6M9f0t0H
-D8eTt
-D8fht/H
-D8o)tJ
-D8o)tU
-D8ppty
-D8wBt/H
-D8}gt$L
-D8}gu
-D8}guH
-D9!t/
-D9%#W%
-D90uGH
-D989D9XH
-D9>u:H
-D9D)$u
-D9L)$t
-D9Q8~)M
-D9Q@~)M
-D9QP~3M
-D9c0t
-D9c0t)H
-D9d$Xv
-D9d$\u
-D9d$d
-D9d$xv
-D9d$|u
-D9l$8t
-D9l$<u
-D9l$du
-D9l$x
-D9s,u
-D9t$Hv
-D9t$Lu
-D9u#u
-D9u(u
-D9vtv-f
-D9x0r
-D9{,u
-D9{0t
-D9{0t'H
-D9{0t?H
-D9{0tZD
-D9|$(fA
-D;A8|
-D;A@|
-D;AP|
-D;A\t?H
-D;L$xw~H
-D;cXu
-D;d$ I
-D;e@|
-D;l$$I
-D;l$0
-D;l$8D
-D;u8|
-D;u@|
-D;v sWH
-D;v(s
-D;wP|
-D;{\u
-D;}H|
-D;}Tr
-DD$@H
-DX11 level hardware required!
-DXGI adapter not found, defaulting to index 0.
+DX11 level hardware required!\n
+DXGI adapter not found, defaulting to index 0.\n
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
 DXGI_ERROR_DRIVER_INTERNAL_ERROR
 DXGI_ERROR_INVALID_CALL
+DXT1
+DXT2
+DXT3
+DXT4
+DXT5
 Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
-Debug markers: disabled, missing entrypoints
-Debug markers: disabled, missing extension support. Is the Renderdoc layer enabled?
-Debug markers: enabled
+Debug markers: disabled, missing entrypoints\n
+Debug markers: disabled, missing extension support. Is the Renderdoc layer enabled?\n
+Debug markers: enabled\n
 DebugMessengerCallback
 DeleteCriticalSection
 DeleteFileW
@@ -3718,29 +2554,22 @@ Device is not calibrated (206)
 DeviceGC
 Did not find any drivers!
 Did the application enable the required instance/device extensions?
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Disabling advanced image processing of scene textures. Only enabled on latest OSs.
-Disabling texture compression on '%s' due to destination texture format.
+Disabling advanced image processing of scene textures. Only enabled on latest OSs.\n
+Disabling texture compression on '%s' due to destination texture format.\n
 Discard
-Discarding sequence mismatched message type: %d, sequence: %d, expected type: %d, expected sequence: %d, pipe: %s
+Discarding sequence mismatched message type: %d, sequence: %d, expected type: %d, expected sequence: %d, pipe: %s\n
 DismissedWarnings
 Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 DominantHand
-Done reading EDID vendor Id.
+Done reading EDID vendor Id.\n
 Dpad binding modification received for component (%s) and interaction profile (%s)
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
-Driver lacks support for KHR vulkan interop: 0x%x
-Driver manager failed to start.
+Driver lacks support for KHR vulkan interop: 0x%x\n
+Driver manager failed to start.\n
 Driver runtime is out of date (204)
 Driver unable to initialize video encoder (499)
 DriverDirect_Acquired
@@ -3750,18 +2579,9 @@ DriverManager %s load error %su
 Duplicate action '
 Duplicate key: '
 DuplicateHandle
-E H9E(t
-E8$(u
-E8,9u
-E8H+E0H
-E8I9E@t
-E9w ~EH
-E;n@|
-E;u`|
-EPHcH
 ERROR
-ERROR: Failed to dup handle!
-ERROR: Not using DXGI1.1 (will cause flickering)!
+ERROR: Failed to dup handle!\n
+ERROR: Not using DXGI1.1 (will cause flickering)!\n
 ERROR_DEVICE_LOST
 ERROR_EXTENSION_NOT_PRESENT
 ERROR_FEATURE_NOT_PRESENT
@@ -3779,7 +2599,6 @@ ERROR_OUT_OF_HOST_MEMORY
 ERROR_SURFACE_LOST_KHR
 ERROR_TOO_MANY_OBJECTS
 ERROR_VALIDATION_FAILED_EXT
-ESH9S
 ETrackedControllerRole_%d
 EVENT_RESET
 EVENT_SET
@@ -3788,146 +2607,122 @@ EVRSceneApplicationState_Quitting
 EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
-EXH9EP
-EXH9E`t
-E_H9U
-E`A9E|r
-EgH9Q@t
-EgH9S@t
-EgH;X
-EgI9V
 Empty escape sequence in string
 Empty file.
 Enabling LiquidVR fallback path due to missing extension: %s
 Encountered error 
-Encountered unexpected delayed initialization of CPropertyManager
+Encountered unexpected delayed initialization of CPropertyManager\n
 EndFrame called w/ incorrect client frame index.
 EndSession
 EnterCriticalSection
-Eo%lf
-EoH9EgtUH
 Error
-Error creating VR renderer.
-Error creating depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
-Error creating shared texture '%s' %dx%d (%d mips)
-Error initializing CDownsampleRenderer
-Error initializing CMsaaResolveRenderer
-Error vkEnumerateInstanceLayerProperties in %d
-Error! Cannot allocate %d bytes for full mip chain for %s
-Error! EventWriteString Severe: %s
-Error! Failed to create shader resource view for %s result %08x
-Error! Failed to load %s
-Error! Unable to load image %s: %s
-Error: LiquidVR CreateALVRDeviceExD3D11 failed (%d)
-Error: LiquidVR CreateALVRDeviceExVulkan failed (%d)
-Error: LiquidVR CreateALVRExtensionVulkan failed (%d)
-Error: LiquidVR CreateGpuSemaphore failed (%d)
-Error: LiquidVR OpenSharedImage failed (%d)
-Error: LiquidVR Vulkan OpenLVRSemaphore failed (%d)
-Error: LiquidVR Vulkan QueueSeamaphoreSignal failed (%d)
-Error: LiquidVR Vulkan QueueSeamaphoreWait failed (%d)
+Error creating VR renderer.\n
+Error creating depth texture '%s' %dx%d (Format=%d, SampleCount=%d)\n
+Error creating shared texture '%s' %dx%d (%d mips)\n
+Error initializing CDownsampleRenderer\n
+Error initializing CMsaaResolveRenderer\n
+Error vkEnumerateInstanceLayerProperties in %d\n
+Error! Cannot allocate %d bytes for full mip chain for %s\n
+Error! EventWriteString Severe: %s\n
+Error! Failed to create shader resource view for %s result %08x\n
+Error! Failed to load %s\n
+Error! Unable to load image %s: %s\n
+Error: LiquidVR CreateALVRDeviceExD3D11 failed (%d)\n
+Error: LiquidVR CreateALVRDeviceExVulkan failed (%d)\n
+Error: LiquidVR CreateALVRExtensionVulkan failed (%d)\n
+Error: LiquidVR CreateGpuSemaphore failed (%d)\n
+Error: LiquidVR OpenSharedImage failed (%d)\n
+Error: LiquidVR Vulkan OpenLVRSemaphore failed (%d)\n
+Error: LiquidVR Vulkan QueueSeamaphoreSignal failed (%d)\n
+Error: LiquidVR Vulkan QueueSeamaphoreWait failed (%d)\n
 Error: Multiple dpad modifications received for component [%s]
 Error: Provided dpad for (%s) is not valid for this interaction profile (%s)
 Error: Provided value %f for %s must be between %f and %f
 Error: XR_EXT_dpad_binding extension must be enabled to use dpad binding [%s] for action [%s]
 Error: XR_KHR_binding_modification is required for XR_EXT_dpad_binding to be enabled
-Event: %s device %u timestamp %f  data 0x%llx 0x%llx
+Event: %s device %u timestamp %f  data 0x%llx 0x%llx\n
 EventRegister
 EventUnregister
 EventWriteString
 EventWriteTransfer
-EwH;B
-ExH9Q
 Exceeded stackLimit in readValue().
-Executable: %s
+Executable: %s\n
 ExpandEnvironmentStringsA
 Expected color textures to have already been set above.
-Expected response %s, received %s. Rejecting response.
+Expected response %s, received %s. Rejecting response.\n
 Extra non-whitespace after JSON value.
-F ;C@t
-F(H;EHrZuSH
-F(H;FHs
-F0L;G
-F9D	$
-F9D	$t
-F9D)$t
-F@;G t
 FACET_VULKAN_VALIDATION
 FALSE
 FATAL
-FATAL: Failed to open log file %s
-FHI9FPt
-FHI9FPt*H
-FHI;F(s
+FATAL: Failed to open log file %s\n
 FORMAT=32-bit_rle_rgbe
-FS callback[s] not set
-F`H9X
+FS callback[s] not set\n
 Facet
 Factory Function Not Found (104)
-Failed (err=0x%X) to create D3D surface for %s (%dx%d). Trying again with mipmaps disabled.
-Failed CreateTexture2D with 0x%X
-Failed Watchdog timeout in thread %s after %f seconds
-Failed Watchdog timeout in thread %s after %f seconds. Aborting.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
-Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
-Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
-Failed get Texture_t from 0x%llx
-Failed get glTextureId from 0x%llx
+Failed (err=0x%X) to create D3D surface for %s (%dx%d). Trying again with mipmaps disabled.\n
+Failed CreateTexture2D with 0x%X\n\tw=%d, h=%d, format=%d\n\tArraySize=%d, Usage=%d, SampleDesc.Count=%d\n\tCPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds\n
+Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
+Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
+Failed get Texture_t from 0x%llx\n
+Failed get glTextureId from 0x%llx\n
 Failed getting mailbox response %s: %d
-Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
-Failed to allocate Vulkan ring buffer
-Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u
-Failed to allocate new VRCompositor semaphore
-Failed to close command list during initialization %i
-Failed to close command list when setting barrier transition
-Failed to commit chaperone working set because message timed out
-Failed to commit chaperone working set because no universe was set
-Failed to commit chaperone working set because tracking origin is too far from 0
-Failed to connect to pipe %s because %s
+Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
+Failed to allocate Vulkan ring buffer\n
+Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u\n
+Failed to allocate new VRCompositor semaphore\n
+Failed to close command list during initialization %i\n
+Failed to close command list when setting barrier transition\n
+Failed to commit chaperone working set because message timed out\n
+Failed to commit chaperone working set because no universe was set\n
+Failed to commit chaperone working set because tracking origin is too far from 0\n
 Failed to connect to pipe %s because %s... retrying
-Failed to convert event of type %s
-Failed to create AMD LiquidVR D3D11/Vulkan semaphore.
-Failed to create D3D11 device to share with OpenGL!
-Failed to create D3D12 blank texture
-Failed to create D3D12 swapchain image: Unsupported number of faces: %d
+Failed to connect to pipe %s because %s\n
+Failed to convert event of type %s\n
+Failed to create AMD LiquidVR D3D11/Vulkan semaphore.\n
+Failed to create D3D11 device to share with OpenGL!\n
+Failed to create D3D12 blank texture\n
+Failed to create D3D12 swapchain image: Unsupported number of faces: %d\n
 Failed to create D3D12 swapchain texture
-Failed to create DXGIFactory1!
-Failed to create DepthStencilView for texture %s
-Failed to create LiquidVR GPU Semaphore.
-Failed to create RTV for texture
+Failed to create DXGIFactory1!\n
+Failed to create DepthStencilView for texture %s\n
+Failed to create LiquidVR GPU Semaphore.\n
 Failed to create RTV for texture lod=%d
+Failed to create RTV for texture\n
 Failed to create SRV for texture lod=%d
-Failed to create Vulkan depth image from D3D11 resource.  Depth image will not be updated.
-Failed to create Vulkan image from D3D11 resource.
-Failed to create Vulkan image with LiquidVR.
-Failed to create compute shader module %s!
-Failed to create d3d11 swapchain image: Unsupported number of faces: %d
-Failed to create d3d11 swapchain image: Unsupported number of images: %d
-Failed to create d3d11 swapchain image: failed to create %d
-Failed to create descriptor heap to clear blank texture
-Failed to create event for fence %ls to signal gpu completion.
-Failed to create internal command allocator %d
-Failed to create internal command list
-Failed to create internal command list %i
-Failed to create opengl swapchain image: MakeCurrent failed
-Failed to create opengl swapchain image: Unsupported number of faces: %d
-Failed to create opengl swapchain image: array size must be at least 1
-Failed to create opengl swapchain image: failed to create %d
-Failed to create opengl swapchain image: sample count %d unsupported
-Failed to create pixel shader module %s!
-Failed to create prism swapchain: Unsupported number of faces: %d
-Failed to create readable frame info buffer (D3D11)!
-Failed to create swapchain image: Unsupported format: %d
-Failed to create sync texture.  Ensure application was built using DXGI 1.1 or later (i.e. Call CreateDXGIFactory1).
-Failed to create vertex shader module %s!
-Failed to create vk swapchain image: Unsupported number of faces: %d
-Failed to create vk swapchain image: failed to create %d
+Failed to create Vulkan depth image from D3D11 resource.  Depth image will not be updated.\n
+Failed to create Vulkan image from D3D11 resource.\n
+Failed to create Vulkan image with LiquidVR.\n
+Failed to create compute shader module %s!\n
+Failed to create d3d11 swapchain image: Unsupported number of faces: %d\n
+Failed to create d3d11 swapchain image: Unsupported number of images: %d\n
+Failed to create d3d11 swapchain image: failed to create %d\n
+Failed to create descriptor heap to clear blank texture\n
+Failed to create event for fence %ls to signal gpu completion.\n
+Failed to create internal command allocator %d\n
+Failed to create internal command list %i\n
+Failed to create internal command list\n
+Failed to create opengl swapchain image: MakeCurrent failed\n
+Failed to create opengl swapchain image: Unsupported number of faces: %d\n
+Failed to create opengl swapchain image: array size must be at least 1\n
+Failed to create opengl swapchain image: failed to create %d\n
+Failed to create opengl swapchain image: sample count %d unsupported\n
+Failed to create pixel shader module %s!\n
+Failed to create prism swapchain: Unsupported number of faces: %d\n
+Failed to create readable frame info buffer (D3D11)!\n
+Failed to create swapchain image: Unsupported format: %d\n
+Failed to create sync texture.  Ensure application was built using DXGI 1.1 or later (i.e. Call CreateDXGIFactory1).\n
+Failed to create vertex shader module %s!\n
+Failed to create vk swapchain image: Unsupported number of faces: %d\n
+Failed to create vk swapchain image: failed to create %d\n
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
-Failed to find a suitable resource value for %s:%s in driver:%s. Excessive iterations. Likely circular resource definition.
-Failed to find device data in CVRCompositorSharedTextures::BeginCommandBuffer!
-Failed to find device data in CVRCompositorSharedTextures::EndCommandBuffer
+Failed to find a suitable resource value for %s:%s in driver:%s. Excessive iterations. Likely circular resource definition.\n
+Failed to find device data in CVRCompositorSharedTextures::BeginCommandBuffer!\n
+Failed to find device data in CVRCompositorSharedTextures::EndCommandBuffer\n
 Failed to find entrypoint WINRT_AcquireDisplay
 Failed to find entrypoint WINRT_GetAdapterLuid
 Failed to find entrypoint WINRT_GetCurrentDriverVersion
@@ -3942,90 +2737,90 @@ Failed to find entrypoint WINRT_Release
 Failed to find entrypoint WINRT_ReleaseDisplay
 Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
-Failed to find interface '%s'
-Failed to find system resource manifest %s.
+Failed to find interface '%s'\n
+Failed to find system resource manifest %s.\n
 Failed to get AllowSteamOverlays setting (%s). Using default setting.
 Failed to get AllowVRGamepadUI Setting setting (%s). Using default setting.
 Failed to get DMA-BUF modifiers.
-Failed to get graphics adapter LUID for EDID VendorId=%#04X
+Failed to get graphics adapter LUID for EDID VendorId=%#04X\n
 Failed to get steamMatchesHMDFramerate setting (%s). Allowing by default.
-Failed to import client event handle from pipe %s after connecting
-Failed to import server event handle from pipe %s after connecting
-Failed to init camera frame buffering for device index %u
-Failed to init property manager
-Failed to init vulkan binding: failed to get queue
-Failed to init vulkan binding: renderer init error
-Failed to init web server shared state
-Failed to initialize AMD LiquidVR Vulkan support.
-Failed to initialize logging
-Failed to load compute shader %s! (size=%d)
-Failed to load extension: CmdDebugMarkerBeginEXT
-Failed to load extension: CmdDebugMarkerEndEXT
-Failed to load extension: CmdDebugMarkerInsertEXT
-Failed to load extension: DebugMarkerSetObjectNameEXT
-Failed to load extension: GetBufferMemoryRequirements2KHR
-Failed to load extension: GetImageMemoryRequirements2KHR
+Failed to import client event handle from pipe %s after connecting\n
+Failed to import server event handle from pipe %s after connecting\n
+Failed to init camera frame buffering for device index %u\n
+Failed to init property manager\n
+Failed to init vulkan binding: failed to get queue\n
+Failed to init vulkan binding: renderer init error\n
+Failed to init web server shared state\n
+Failed to initialize AMD LiquidVR Vulkan support.\n
+Failed to initialize logging\n
+Failed to load compute shader %s! (size=%d)\n
+Failed to load extension: CmdDebugMarkerBeginEXT\n
+Failed to load extension: CmdDebugMarkerEndEXT\n
+Failed to load extension: CmdDebugMarkerInsertEXT\n
+Failed to load extension: DebugMarkerSetObjectNameEXT\n
+Failed to load extension: GetBufferMemoryRequirements2KHR\n
+Failed to load extension: GetImageMemoryRequirements2KHR\n
 Failed to load external 'uri' for image[
-Failed to load glBindFramebuffer!
-Failed to load glBindRenderbuffer!
-Failed to load glBlitFramebuffer!
-Failed to load glCheckFramebufferStatus!
-Failed to load glCopyImageSubData!
-Failed to load glDebugMessageCallback!
-Failed to load glDeleteFramebuffers!
-Failed to load glDeleteRenderbuffers!
-Failed to load glFramebufferRenderbuffer!
-Failed to load glFramebufferTexture2D!
-Failed to load glGenFramebuffers!
-Failed to load glGenRenderbuffers!
-Failed to load glGetRenderbufferParameteriv!
-Failed to load glIsRenderbuffer!
-Failed to load glTexImage3D!
-Failed to load glTexStorage3D!
-Failed to load libvulkan
-Failed to load pixel shader %s! (size=%d)
-Failed to load vertex shader %s! (size=%d)
-Failed to load wglDXCloseDeviceNV!
-Failed to load wglDXLockObjectsNV!
-Failed to load wglDXObjectAccessNV!
-Failed to load wglDXOpenDeviceNV!
-Failed to load wglDXRegisterObjectNV!
-Failed to load wglDXSetResourceShareHandleNV!
-Failed to load wglDXUnlockObjectsNV!
-Failed to load wglDXUnregisterObjectNV!
+Failed to load glBindFramebuffer!\n
+Failed to load glBindRenderbuffer!\n
+Failed to load glBlitFramebuffer!\n
+Failed to load glCheckFramebufferStatus!\n
+Failed to load glCopyImageSubData!\n
+Failed to load glDebugMessageCallback!\n
+Failed to load glDeleteFramebuffers!\n
+Failed to load glDeleteRenderbuffers!\n
+Failed to load glFramebufferRenderbuffer!\n
+Failed to load glFramebufferTexture2D!\n
+Failed to load glGenFramebuffers!\n
+Failed to load glGenRenderbuffers!\n
+Failed to load glGetRenderbufferParameteriv!\n
+Failed to load glIsRenderbuffer!\n
+Failed to load glTexImage3D!\n
+Failed to load glTexStorage3D!\n
+Failed to load libvulkan\n
+Failed to load pixel shader %s! (size=%d)\n
+Failed to load vertex shader %s! (size=%d)\n
+Failed to load wglDXCloseDeviceNV!\n
+Failed to load wglDXLockObjectsNV!\n
+Failed to load wglDXObjectAccessNV!\n
+Failed to load wglDXOpenDeviceNV!\n
+Failed to load wglDXRegisterObjectNV!\n
+Failed to load wglDXSetResourceShareHandleNV!\n
+Failed to load wglDXUnlockObjectsNV!\n
+Failed to load wglDXUnregisterObjectNV!\n
 Failed to open conformance mailbox: %d
-Failed to open frame info buffer (D3D10)!
-Failed to open frame info buffer (D3D11)!
-Failed to open reply mailbox in CVRNotificationsLatest: %d
-Failed to parse JSON object
+Failed to open frame info buffer (D3D10)!\n
+Failed to open frame info buffer (D3D11)!\n
+Failed to open reply mailbox in CVRNotificationsLatest: %d\n
+Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
-Failed to parse chaperone file because jsonid was %s
-Failed to parse chaperone file because the top level json node is not an object
-Failed to parse chaperone file because universes was not an array
-Failed to parse chaperone file because version was %u
+Failed to parse chaperone file because jsonid was %s\n
+Failed to parse chaperone file because the top level json node is not an object\n
+Failed to parse chaperone file because universes was not an array\n
+Failed to parse chaperone file because version was %u\n
 Failed to read file: 
 Failed to read loc files specified in 'localization_files'
-Failed to reconnect because of error %s
-Failed to ref VRCompositor resource 0x%llx
-Failed to release mirror texture (%s)!
-Failed to reset command list when setting barrier transition
-Failed to send set_notification_image message with %d
-Failed to set thread %p priority: invalid priority %d
-Failed to setup GL interop for color texture
-Failed to setup GL interop for depth texture
-Failed to start VRDashboard from %s because %s
-Failed to start VRHome from %s because %s
-Failed to start VRMonitor from %s because %s
-Failed to start VRStartup for watchdog from %s because %s
-Failed to start VRWebhelper from %s because %s
-Failed to start vrcompositor. Giving up
-Failed to start vrserver: %s.
+Failed to reconnect because of error %s\n
+Failed to ref VRCompositor resource 0x%llx\n
+Failed to release mirror texture (%s)!\n
+Failed to reset command list when setting barrier transition\n
+Failed to send set_notification_image message with %d\n
+Failed to set thread %p priority: invalid priority %d\n
+Failed to setup GL interop for color texture\n
+Failed to setup GL interop for depth texture\n
+Failed to start VRDashboard from %s because %s\n
+Failed to start VRHome from %s because %s\n
+Failed to start VRMonitor from %s because %s\n
+Failed to start VRStartup for watchdog from %s because %s\n
+Failed to start VRWebhelper from %s because %s\n
+Failed to start vrcompositor. Giving up\n
+Failed to start vrserver: %s.\n
 Failed to supported dmabuf formats.
-Failed to unref VRCompositor resource 0x%llx
-Failed to write app container status to pipe %s after connecting because %s
-Failed to write event process handle after connecting because %s
-Failed waiting for gpu to be finished for fence %ls. 
+Failed to unref VRCompositor resource 0x%llx\n
+Failed to write app container status to pipe %s after connecting because %s\n
+Failed to write event process handle after connecting because %s\n
+Failed waiting for gpu to be finished for fence %ls. \n
 Failed when calling CheckFeatureSupport for %d
 Fatal
 Fatal : VkResult is "
@@ -4038,11 +2833,11 @@ File read error :
 File size mismatch : 
 File was empty
 File write error: 
-Filter list was too gnarly. Not sorting the last %d filters
-FilterInputSourceName: Default flip: %s::%s
-FilterInputSourceName: Explicit flip: %s::%s
-FilterInputSourceName: No flip: %s
-FilterInputSourceName: m_eDominantHand(%d) != left.  skip:%s
+Filter list was too gnarly. Not sorting the last %d filters\n
+FilterInputSourceName: Default flip: %s::%s\n
+FilterInputSourceName: Explicit flip: %s::%s\n
+FilterInputSourceName: No flip: %s\n
+FilterInputSourceName: m_eDominantHand(%d) != left.  skip:%s\n
 FindClose
 FindFirstFileW
 FindNextFileW
@@ -4123,48 +2918,36 @@ Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
 ForwardRequestToServer
-Found IDXGIAdapter index %d which matches expected LUID 0x%llx.
-Found Windows 10 or newer, so enable advanced image processing of scene textures.
-Found Windows 8 or newer, so enable advanced image processing of scene textures.
-Found environment variable STEAMVR_MOTION_SMOOTHING_WIN7=1
+Found IDXGIAdapter index %d which matches expected LUID 0x%llx.\n
+Found Windows 10 or newer, so enable advanced image processing of scene textures.\n
+Found Windows 8 or newer, so enable advanced image processing of scene textures.\n
+Found environment variable STEAMVR_MOTION_SMOOTHING_WIN7=1\n
 FreeLibrary
-FreeRenderModel called with %p which has a zero refcount.
-FreeRenderModel called with %p which is not in the model list
-FreeTexture called with %p (id %u) which is not in the model list
-FreeTexture called with %p (id %zu) which is not in the model list
-FreeTexture called with %p which has a zero refcount.
-Freeing RM %s because it is out of references.
-Freeing texture %s because it is out of references.
-Fw3Hc
-G ;E@t
-G A;F@t
-G H9A 
-G(M+G I
-G0L;F
-G0M;A
-G8$(u
-G8<1u
-G8D9B
-G@A;A t
-G@H9A@t	E
-GPH9CHu.L
+FreeRenderModel called with %p which has a zero refcount.\n
+FreeRenderModel called with %p which is not in the model list\n
+FreeTexture called with %p (id %u) which is not in the model list\n
+FreeTexture called with %p (id %zu) which is not in the model list\n
+FreeTexture called with %p which has a zero refcount.\n
+Freeing RM %s because it is out of references.\n
+Freeing texture %s because it is out of references.\n
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
 GPUCountingSemaphore::Wait(%llu) FAILED!!
-Generated action manifest: %s
+GRGB
+Generated action manifest: %s\n
 GetCommandLineW
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetDXGISharedHandle
-GetDeviceExtensionProperties - failed to enumerate extensions
-GetDeviceExtensionProperties - failed to get extension count
-GetDeviceExtensionProperties - no instance extensions supported
+GetDeviceExtensionProperties - failed to enumerate extensions\n
+GetDeviceExtensionProperties - failed to get extension count\n
+GetDeviceExtensionProperties - no instance extensions supported\n
 GetDeviceRemovedReason: 0x%X
 GetEnvironmentVariableA
-GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeProcess
 GetExitCodeThread
 GetFileAttributesW
@@ -4173,21 +2956,21 @@ GetFileSizeEx
 GetFileVersionInfoSizeW
 GetFileVersionInfoW
 GetFullPathNameW
-GetHiddenAreaMeshData: failed to invert projectin matrix
-GetHiddenAreaMeshData: no hidden area mesh data available
-GetInputValue failed
-GetInstanceExtensionProperties - failed to enumerate extensions
-GetInstanceExtensionProperties - failed to get extension count
-GetInstanceExtensionProperties - no instance extensions supported
+GetHiddenAreaMeshData: failed to invert projectin matrix\n
+GetHiddenAreaMeshData: no hidden area mesh data available\n
+GetInputValue failed\n
+GetInstanceExtensionProperties - failed to enumerate extensions\n
+GetInstanceExtensionProperties - failed to get extension count\n
+GetInstanceExtensionProperties - no instance extensions supported\n
 GetLastError
 GetLengthSid
 GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleExA
 GetModuleHandleW
-GetNextMessage failed while waiting for message of type %d on pipe %s
+GetNextMessage failed while waiting for message of type %d on pipe %s\n
 GetProcAddress
-GetProcAddress( "D3D11On12CreateDevice" ) failed.
+GetProcAddress( "D3D11On12CreateDevice" ) failed.\n
 GetProcessHeap
 GetProcessId
 GetReferenceSpaceFromRaw: Failed to fetch transform for specified reference space type
@@ -4196,251 +2979,23 @@ GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
 GetTokenInformation
-GetTokenInformation failed. GetLastError returned: %d
-GetVRTextureFromSharedTexuture: unsupported target texture type %d
+GetTokenInformation failed. GetLastError returned: %d\n
+GetVRTextureFromSharedTexuture: unsupported target texture type %d\n
 GetVulkanDeviceData( &textureData )
-GetVulkanDeviceExtensionsRequired - failed to initialize Vulkan.
+GetVulkanDeviceExtensionsRequired - failed to initialize Vulkan.\n
 GetVulkanDeviceExtensionsRequired - no extensions?
-GetVulkanInstanceExtensionsRequired - failed to initialize Vulkan.
+GetVulkanInstanceExtensionsRequired - failed to initialize Vulkan.\n
 GetVulkanInstanceExtensionsRequired - no extensions?
-Giving up compositor connection after %d attempts
-Giving up server connection over pipe %s after %d attempts
-Giving up waiting for vrserver to exit after %dms -- killing it
+Giving up compositor connection after %d attempts\n
+Giving up server connection over pipe %s after %d attempts\n
+Giving up waiting for vrserver to exit after %dms -- killing it\n
 Global\VRBootstrapper
 Got 0 formats from VRMsg_CompositorImportDmaBuf.
 Got 0 modifiers from VRMsg_CompositorImportDmaBuf.
 GpuSpeed
-H A;H
-H A;I
-H H9H
-H I;	r
-H SVWH
-H SWH
-H UATAUAVAWH
-H UAVH
-H UWATAUAVH
-H!C@H
-H!FxH
-H#E0H
-H#G0H
-H#G0L
-H#L$8H
-H#OxH
-H#OxL
-H$A;H
-H$A;I
-H+C H;
-H+C0H
-H+ChH
-H+D$PI
-H+E H
-H+EpH
-H+L$ H
-H+L$0H
-H+L$HH
-H+SpH
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H+WpJ
-H+Y@H
-H+\$ H
-H+_@H
-H+_pH
-H+t$ H
-H+t$@H
-H+|$ H
-H-^Eu
-H8A9Y
-H8H+H0H
-H8H+H0L
-H9(t	H
-H9+t	H
-H9+t2H
-H9/t	H
-H90t	H
-H93t	H
-H948t
-H98t	H
-H98t/H9x
-H9;t	H
-H9A H
-H9APt M
-H9A`u}f
-H9Ahs
-H9B t
-H9B(t0L
-H9C s'L
-H9C s.H
-H9C t
-H9C(r'H
-H9CPt$H9CXt
-H9D$@
-H9D$@t
-H9D$@t!
-H9D$@u
-H9D$P
-H9D$ht
-H9E8u$H
-H9F taI
-H9G t
-H9H s
-H9H s*
-H9P s
-H9Q s
-H9Qhv#H
-H9SXt
-H9T$0t A
-H9T$Ht 
-H9Uht
-H9Vxt
-H9X r
-H9X s
-H9Y s
-H9Z s
-H9Z0A
-H9\$0A
-H9i s
-H9k vZ
-H9p s
-H9p0t8H
-H9q s
-H9t$@
-H9t$P
-H9uXupE3
-H9uou
-H9w(t	H
-H9x s
-H9x(r
-H9xPt/M
-H9y r
-H9y s
-H9{`u
-H9|$ t-H9|$0u
-H9|$0
-H9|$0@
-H9|$0t
-H9|$@u
-H;+u*
-H;0u7
-H;0u8H
-H;0u:H
-H;8u8H
-H;8u9
-H;8u:H
-H;9u|A
-H;=*)"
-H;=*T"
-H;=*`"
-H;=:5"
-H;=:E"
-H;=:["
-H;=X}*
-H;=j$"
-H;=jB"
-H;=jQ"
-H;=j]"
-H;=zC"
-H;=zO"
-H;=zU"
-H;=z^"
-H;A s
-H;Axt
-H;C(v
-H;Cxu
-H;D$ 
-H;D$(
-H;D$X
-H;D$`}
-H;EHt
-H;GhtWH
-H;H s
-H;J s
-H;K s
-H;K s;H
-H;K s<L
-H;K s=H
-H;K s=L
-H;K s?H
-H;K sAH
-H;K sCH
-H;K sFH
-H;K sHH
-H;K sIH
-H;K sKH
-H;K sLH
-H;K sOH
-H;K sRH
-H;K sXH
-H;Mgt1
-H;N v
-H;O sNH
-H;O s_H
-H;P s
-H;Q s
-H;S s
-H;S s;H
-H;S s=H
-H;S s?H
-H;S sAH
-H;S sCH
-H;S sFH
-H;S8r
-H;T$@
-H;Upt
-H;Y r
-H;Y t
-H;Y@I
-H;Z s
-H;\$ ts
-H;\$X
-H;\$h
-H;] tDH
-H;]@t
-H;]Pt&
-H;^8t
-H;^8u
-H;_ t+H
-H;_ t,H
-H;_ u
-H;_@u
-H;k r
-H;o s
-H;q s
-H;r s
-H;s(r
-H;t$`
-H;t$`A
-H;w s
-H;y s
-H;y(r
-H;z s
-H;{ s
-H;{PI
-H;{XH
-H;{hI
-H;|$0t
-H;|$H
-H;|$Pt
-H;|$X
-H;|$Xt
-H;|$`
-H;|$`L
-H;|$x
-H;}Ht
-H;}Pt<
-H;}PtwH
-HAPTICDEBUG %s:%d device: 0x%x	 axis: 0x%x	 duration: %u us
-HAPTICDEBUG %s:%d sec: %f	 freq: %f	 amp: %f
-HA^A]A\[
-HA^A]_[
-HA^_][
-HA^_^[
-HA_A^A]A\
-HA_A^A]A\_^][
-HA__^]
-HHH+H@H
+Grip
+HAPTICDEBUG %s:%d device: 0x%x\t axis: 0x%x\t duration: %u us\n
+HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -4459,38 +3014,11 @@ HMD found, but problems with the data (1112)
 HMD found, but problems with the data (1115)
 HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
-HPH+HHH
 Haptic
-Haptic vibration had the wrong type tag: %u
-HcA,H
-HcA,L
-HcB Hi
-HcC,H
-HcD$x
-HcEXL
-HcF$H
-HcFdH
-HcG H
-HcO H
-HcO0H
-HcO4H
-HcO4Hi
-HcO8L
-HcO@L
-HcOPL
-HcOXH
-HcT$$
-HcT$xM
-HcUgA
-HcW|H
-Hct$@L+
-Hcuo3
+Haptic vibration had the wrong type tag: %u\n
 HeapAlloc
 HeapFree
 Hi Joe(D). Your text goes here
-HiD$8
-HiL$ 
-HiL$  
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -4498,49 +3026,10 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HmdSystemFactory
 How did we get here with a non-position slot?
-Hu"Hc
-I(+K H
-I(I+I H
-I+G@H
-I+H H
-I+JHE3
-I98u2A
-I9<$u
-I9<$u"L
-I9A A
-I9B A
-I9B(r
-I9Bhs
-I9P s
-I9Q sEI
-I9W@t
-I9u@tCH
-I9x s
-I;4$H
-I;4$L
-I;8u?H
-I;8udH
-I;B r
-I;B(r
-I;I r
-I;P s
-I;Q s
-I;Q s?I
-I;T$ 
-I;V8r
-I;X s
-I;\$`I
-I;\$`u
-I;w0M
-I;wHM
-I;x r
-I;x s
-I;}`I
 IClientTrackedDeviceProvider_003
 IClientTrackedDeviceProvider_004
 ID not specified
 ID3D11DeviceContext4::Signal
-IDATH
 IHmdSystem_001
 IHmdSystem_002
 IHmdSystem_003
@@ -4553,18 +3042,18 @@ IHmd_005
 IHmd_006
 ILiquidVR_001
 INCOMPLETE
+INFO
 IPC failure asking about Steam/SteamVR capabilities
 IPC failure changing app type
 IPC failure when Steam asked to kill %u. Returning true
 IPC::CIPCHandle::InitForExport
 IPCPipe(%s) failed to read payload of %u bytes
-IPCPipe(%s) failed to write message of %u bytes because %s
-IPCPipe(%s): Next message type %u, seq %u, len %u
-IPCPipe(%s): Sending packed message type %u, seq %u, len %u
-IPCPipe(%s): Sending simple message type %u, seq %u
-IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal
-IPCPipe(%s): Wrote %u bytes of total message length
-IPI+JHE
+IPCPipe(%s) failed to write message of %u bytes because %s\n
+IPCPipe(%s): Next message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending packed message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
+IPCPipe(%s): Wrote %u bytes of total message length\n
 IServerTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
@@ -4604,7 +3093,7 @@ IVRClientCore_001
 IVRClientCore_002
 IVRClientCore_003
 IVRClientInternal_XXX
-IVRCompositor.CompositorQuit has been deprecated
+IVRCompositor.CompositorQuit has been deprecated\n
 IVRCompositorPluginProvider_001
 IVRCompositorSystemInternal_XXX
 IVRCompositor_
@@ -4679,7 +3168,7 @@ IVRNotificationsInternal_001
 IVRNotifications_
 IVRNotifications_001
 IVRNotifications_002
-IVROverlay::SetOverlayTransformOverlayRelative was called for overlay with key "%s", but that function has been removed from OpenVR. Hiding overlay.
+IVROverlay::SetOverlayTransformOverlayRelative was called for overlay with key "%s", but that function has been removed from OpenVR. Hiding overlay.\n
 IVROverlay::ShowDashboard
 IVROverlayInternal_XXX
 IVROverlayView_001
@@ -4761,11 +3250,11 @@ IVRSteamPrivate_020
 IVRSteamPrivate_021
 IVRSteamPrivate_022
 IVRSteamPrivate_023
-IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
-IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
-IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID
-IVRSystem::GetOutputDevice: failed to initialize Vulkan function pointers.
-IVRSystem::GetOutputDevice: vkEnumeratePhysicalDevices failed with error %d
+IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
+IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
+IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
+IVRSystem::GetOutputDevice: failed to initialize Vulkan function pointers.\n
+IVRSystem::GetOutputDevice: vkEnumeratePhysicalDevices failed with error %d\n
 IVRSystemLayerInternal_XXX
 IVRSystem_
 IVRSystem_001
@@ -4806,36 +3295,30 @@ IVRWatchdogHost_002
 IVRWatchdogProvider_001
 IXrBinding::PostEndFrame
 IXrProto_001
-I\$(H
-Ic@,I
-IcO4H
-IcV E3
-IcV H
-IcV0E3
-Ignoring WatchdogWakeUp because the workstation is locked
-Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode
-Ignoring user setting "forcedDriver": "%s" because %s
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+Ignoring WatchdogWakeUp because the workstation is locked\n
+Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode\n
+Ignoring user setting "forcedDriver": "%s" because %s\n
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
 ImageViewLOD%d
-Incorrect action type for input binding, input type %s, input mode %s, action type %d on path %s
-Incorrect input type for input binding, input type %s on path %s
-Incorrect input type for input binding, input type %s, path %s
+Incorrect action type for input binding, input type %s, input mode %s, action type %d on path %s\n
+Incorrect input type for input binding, input type %s on path %s\n
+Incorrect input type for input binding, input type %s, path %s\n
 Infinity
-Init Success!
-Init of CVRCompositorClientBase failed with %s
+Info
+Init Success!\n
+Init of CVRCompositorClientBase failed with %s\n
 InitializeAcl
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 InitializeSecurityDescriptor
-Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
-Initializing CVulkanVRRenderer
+Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.\n
+Initializing CVulkanVRRenderer\n
 Initializing IRVCVTrackedHmdInternal interface
-Initializing the limited version of CVRCompositorClient
+Initializing the limited version of CVRCompositorClient\n
 InputValueType_Boolean
 InputValueType_Haptic
 InputValueType_Pose
@@ -4858,23 +3341,23 @@ Invalid `byteLength'. Must be equal or less than binary size: `byteLength' =
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
 Invalid active action set size
-Invalid application type %d
-Invalid binary data in `Buffer'.
+Invalid application type %d\n
+Invalid binary data in `Buffer'.\n
 Invalid camera type: "
-Invalid command buffer in CVRCompositorSharedTextures::EndCommandBuffer
-Invalid dead zone %f
+Invalid command buffer in CVRCompositorSharedTextures::EndCommandBuffer\n
+Invalid dead zone %f\n
 Invalid direction in  '
 Invalid file size : 
 Invalid glTF binary.
 Invalid image data for image[
-Invalid input type %s for controller (%s)
+Invalid input type %s for controller (%s)\n
 Invalid magic.
-Invalid max zone %f. Ignoring it.
+Invalid max zone %f. Ignoring it.\n
 Invalid output hand 
-Invalid overlay index %d in handle %llx
-Invalid response to connect message. Connect failed
-Invalid target queue mode during image transition: %d
-Invalid texture bounds( %f, %f, %f, %f ) from application
+Invalid overlay index %d in handle %llx\n
+Invalid response to connect message. Connect failed\n
+Invalid target queue mode during image transition: %d\n
+Invalid texture bounds( %f, %f, %f, %f ) from application\n
 Invalid type in  '
 IsDebuggerPresent
 IsDepthFormat( eVkFormat )
@@ -4884,9 +3367,9 @@ IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 IsValid( pSxrStruct )
 IsValidSid
-IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d
-IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
-Item %s in "chords" array invalid input type given modes selected (%s, %s)
+IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
+IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
+Item %s in "chords" array invalid input type given modes selected (%s, %s)\n
 Item %s in "haptics" array missing path invalid device path for haptic output
 Item %s in "pose" array missing path invalid device path for pose input
 Item %s in "pose" array missing path invalid device path for pose input. Falling back to %s
@@ -4902,328 +3385,53 @@ Item in "skeleton" array is not an object
 Item in "skeleton" array missing path or output
 Item in "source" array is not an object
 Item in "source" array missing output parameter in input node
-Item in "source" array missing path or mode
-J>@G_
-JA8u4u7H
-JPI+JHH
-JSON string too short.
-K(H+K H
-K(H9H s
-K(H9Q
-K0H9Q
+Item in "source" array missing path or mode\n
+JFIF
+JSON string too short.\n
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
 KHR_lights_punctual
-Kf;;u
-KfD;3u
-KpH+KhH
-K}*n:	
-L (fD
-L#F0H
-L#F0L
-L#Y0L
-L$ ATAUAVAWH
-L$ ATAUAVH
-L$ E3
-L$ H9
-L$ H;
-L$ Hc
-L$ HcO
-L$ HcQ
-L$ Hi
-L$ I+
-L$ I;
-L$ L+3H
-L$ L;
-L$ SH
-L$ SUVWAVH
-L$ SUVWH
-L$ SUWH
-L$ SVW
-L$ SVWAVH
-L$ SVWH
-L$ SWATAUAVH
-L$ SWH
-L$ UATAUAVAWH
-L$ USAWH
-L$ USVWAUH
-L$ UVWATAUAVAWH
-L$ UVWAVAWH
-L$ UWATAUAVAWH
-L$ UWAUAVAWH
-L$ UWAUAVH
-L$ WATAUAVAWH
-L$ WH
-L$ fD
-L$"H;
-L$(E3
-L$(H+L$ H
-L$(H3
-L$(H9U
-L$(H;
-L$(Ii
-L$(K9
-L$+D+
-L$/D+
-L$0E3
-L$0H3
-L$0H9
-L$0H;
-L$0H;L$xtKH
-L$0M;
-L$0fE
-L$4D;
-L$4E3
-L$4Hc
-L$8A+
-L$8D8c
-L$8D;
-L$8E3
-L$8H9E0t!
-L$8H;
-L$8H;L$0
-L$8Hi
-L$8L9$
-L$8L;
-L$@D8	u
-L$@D;
-L$@E3
-L$@H+
-L$@H9Q
-L$@H9t$@ujH
-L$@H;
-L$@Hc
-L$@I;
-L$@L+
-L$@M+
-L$@fD
-L$@fI
-L$DE;
-L$HE3
-L$HH+
-L$HH3
-L$HH9}
-L$HI+
-L$HI9T$Xt
-L$HL+
-L$Hfff
-L$P@89@
-L$PA;
-L$PE3
-L$PH3
-L$PI+
-L$XE3
-L$XH3
-L$XH;
-L$XI;M
-L$XL;
-L$XM+
-L$XM;
-L$XMi
-L$Xfff
-L$\E3
-L$`E3
-L$`H+
-L$`H;
-L$`H;9tRH
-L$`HcD$hH
-L$`Hi
-L$`L;
-L$`M;
-L$`fD
-L$`fH
-L$`fff
-L$hE3
-L$hH3
-L$hH;
-L$p@2
-L$pE3
-L$pH+
-L$pH3
-L$pHcQ
-L$pI+
-L$xE3
-L$xH3
-L$xL;
-L$xfD
-L)l$`3
-L)l$h3
-L)l$xL),$Ak
-L+I0E3
-L8 9J
-L8$9J
-L9 t&H
-L90t	H
-L97u0H
-L9?u,H
-L9@ s
-L9A r
-L9B s
-L9H s
-L9I s
-L9L$0t
-L9L$0t"A
-L9`Pt H
-L9`Pt$H
-L9`PtGH
-L9cHt'H
-L9d$@
-L9d$PH
-L9d$x
-L9eHu
-L9egsBH
-L9ehu
-L9f8tV3
-L9k8v
-L9l$0
-L9l$P
-L9l$pt
-L9m t'
-L9m'u
-L9m`t
-L9p s
-L9p(r
-L9p0t9H
-L9sHr]uSH
-L9t$0v.H
-L9t$@
-L9t$ht
-L9u(u-H
-L9v viI
-L9v8ukH
-L9whH
-L9x s
-L9{(t
-L9{0t^H
-L9|$0t
-L9|$0trH
-L9|$P
-L9|$Pt
-L9|$`
-L9|$p
-L;8u6H
-L;8u7H
-L;8u9H
-L;8u:H
-L;@ s
-L;@ u
-L;A s
-L;C sNH
-L;C u=
-L;C uQ
-L;C0u	
-L;D$8t
-L;D$Xu<
-L;D$p
-L;D$x
-L;D$xu	
-L;E0u	
-L;G s
-L;G0u
-L;H s
-L;J s
-L;ahv/H
-L;c r
-L;d$p
-L;l$(M
-L;l$0t
-L;l$@
-L;l$P
-L;l$p
-L;mHt
-L;q s
-L;t$h
-L;t$xu
-L;v r
-L;y s
-L;|$ 
-L;|$0t
-L<pL;
-L?n(Zy&
 LINEAR
 Language
 LastKnown
 LaunchApp
-Lc E3
-LcD$0L
-Lcl$$I
-Lc}hE
 LeaveCriticalSection
 Left_
 Legacy Overlay
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
-LiquidVR v1.0.8.0+ required for Vulkan supported on AMD.
-LoadDriver called when there is no user config directory set
+LiquidVR v1.0.8.0+ required for Vulkan supported on AMD.\n
+LoadDriver called when there is no user config directory set\n
 LoadLibraryA
 LoadLibraryExA
 LoadLibraryExW
 LoadLibraryW
-Loaded %s in %fms
-Loaded image %s (%dx%d) dur=%fms
-Loaded resource-only driver %s from %s
-Loaded server driver %s (%s) from %s
-Loading compute shader %s
-Loading pixel shader %s
-Loading vertex shader %s
-Local next event counter is invalid at %u. Resetting
+Loaded %s in %fms\n
+Loaded image %s (%dx%d) dur=%fms\n
+Loaded resource-only driver %s from %s\n
+Loaded server driver %s (%s) from %s\n
+Loading compute shader %s\n
+Loading pixel shader %s\n
+Loading vertex shader %s\n
+Local next event counter is invalid at %u. Resetting\n
 LocalAlloc
 LocalAppData
 LocalFree
-Localization files must be either an array (old-style) or an object (new-style). %s is neither
+Localization files must be either an array (old-style) or an object (new-style). %s is neither\n
 LocalizationManager
-Log Level Set to %d
+Log Level Set to %d\n
 Log path could not be located (112)
 Lost connection - returning quit event to FilterOverlayHandle %llu
-Lost connection to VR Server
+Lost connection to VR Server\n
 Low Power Watchdog Not Supported (129)
-M H1E
-M+HPI
-M8I;E
-M9 t/3
-M98u/
-M99uJ3
-M9<$vW
-M9H s
-M9M0t!
-M9f M
-M9f0t?H
-M9f8I
-M9oHu
-M9o`tkH
-M9x t
-M9x(t
-M9x0t
-M9x8t
-M9x@t
-M9xHt
-M9xPt
-M9xXt
-M9x`t
-M9xht
-M9xpt
-M9|$0
-M9|$0u
-M9|$8
-M9|$8t
-M9|$h
-M;<$r
-M;A r
-M;C(s
-M;F0u	
-M;H s
-MB(iVR
-MHH9uPt
-ML$hH
+MAT2
+MAT3
+MAT4
+MGiI
 MSVCP140.dll
-MS_:F
-MT$dA
 MainThrd
 MapViewOfFile
 MessageBoxA
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Microsoft/Windows/OpenVR/controller
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -5234,103 +3442,66 @@ Missing 'default_bindings' member in file:
 Missing 'name' member on action
 Missing '}' or object member name
 Missing Skeleton for action '
-Missing expected "statusicons" from system resource manifest %s.
+Missing expected "statusicons" from system resource manifest %s.\n
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
-N I9N(
-NL$`I
+NONE
 NORMAL
 NOT_READY
-NPH9Q
-NVTTA
-NVTTu
-NXH9Q
+NULL
 Neither required `bufferView` nor `uri` defined for image[
 NextSGID wrapped!
 No Error (0)
-No LoadImageData callback specified.
+No LoadImageData callback specified.\n
 No VRSettings(), allowing Steam overlays by default.
 No active action set
-No command buffer open in EndCommandBuffer!
-No drivers were capable of being watchdogs. Failing init.
-No open command buffer for layout transition
-No open command buffer for updating a buffer!
-No open command buffer for updating a texture!
-No open command buffer in CVRCompositorSharedTextures::EndCommandBuffer
+No command buffer open in EndCommandBuffer!\n
+No drivers were capable of being watchdogs. Failing init.\n
+No open command buffer for layout transition\n
+No open command buffer for updating a buffer!\n
+No open command buffer for updating a texture!\n
+No open command buffer in CVRCompositorSharedTextures::EndCommandBuffer\n
+None
 NormalTextureInfo
 Not Initialized (109)
 Not available to watchdog apps (131)
-Not looking for a good app key because Steam didn't start this app
+Not looking for a good app key because Steam didn't start this app\n
 Not looking for a good app key because we were launched as a child of vrserver
-Not starting vrserver for %s application.
+Not starting vrserver for %s application.\n
 Not starting vrserver for background app (121)
-Not starting vrserver inside app container.
+Not starting vrserver inside app container.\n
 Not writing %s because the texture was null
-Not writing boolean value because it couldn't be read
-Not writing boolean value because it didn't change
-Not writing scalar value because it couldn't be read
-Not writing scalar value because it didn't change
-NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
-O(H9Q
-O0H9Q
+Not writing boolean value because it couldn't be read\n
+Not writing boolean value because it didn't change\n
+Not writing scalar value because it couldn't be read\n
+Not writing scalar value because it didn't change\n
+NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
 OPAQUE
 OPENGL32.dll
 Object
 OculusSDKStart
 On laptop, HMD detected over USB, but Monitor not found (213)
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
-OpH9Q
 OpenEventA
 OpenFileMappingA
 OpenMutexA
 OpenProcess
 OpenProcessToken
-OpenProcessToken failed. GetLastError returned: %d
+OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
-Optional vulkan device extension is unavailable: %s
-Optional vulkan instance extension is unavailable: %s
-Or filters need at least one input in filter %s
+Optional vulkan device extension is unavailable: %s\n
+Optional vulkan instance extension is unavailable: %s\n
+Or filters need at least one input in filter %s\n
 Orhographic camera description not found.
 OrthographicCamera
-Out of thread local storage!
+Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-P0@8}
-P0D8e
 PATH_TO_LOCAL_STRING failed with %s
-PA]A\_[]
-PA]A\_^]
-PA^A]A\_^[]
-PA^A]_^[
-PA^][
-PA^^]
-PA^_]
-PA^_^
-PA^_^[]
-PA^_^][
-PA_A]A\_[
-PA_A]_
-PA_A^A]
-PA_A^A]A\[
-PA_A^A]A\]
-PA_A^A]A\_
-PA_A^A]A\_^[
-PA_A^A]A\_^]
-PA_A^A]^]
-PA_A^[
-PA_A^]
-PA_A^^
-PA_A^^][
-PA_A^_
-PA_A^_^]
-PA_[]
-PA_^[
-PA_^]
-PA__^
-PAq=?Mp#
 PC_%08llx
-PH@8|$HtAA
+PICT
+PNG\r\n
 POSITION
 PS_BLURSCENE
 PS_DISTORT
@@ -5341,19 +3512,19 @@ PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
-Parse error in system resource manifest %s.
-Parse failed for JSON message in mailbox %s: %s
-Parsing of JSON file "%s" failed: %s
-Parsing of JSON string "%s" failed: %s
+Parse error in system resource manifest %s.\n
+Parse failed for JSON message in mailbox %s: %s\n
+Parsing of JSON file "%s" failed: %s\n
+Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
 PeekNamedPipe
 Perspective camera description not found.
 PerspectiveCamera
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PoolGC
+Pose
 Primitive
 PrismTimeline:%llu
-Process called VR_Init a second time without an intervening VR_Shutdown. Returning success.
+Process called VR_Init a second time without an intervening VR_Shutdown. Returning success.\n
 ProcessDpadBindings
 Projection
 Prop_
@@ -5563,48 +3734,46 @@ Prop_UserIpdMeters_Float
 Prop_VRCVersion_Uint64
 Prop_VendorSpecific_
 Prop_WillDriftInYaw_Bool
-Property container - found and recovered a locked container at generation %x
-PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u
+Property container - found and recovered a locked container at generation %x\n
+PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
-Purging all shared textures because the connection to vrserver was lost
-Pz}b!
-Q H9P 
-QFailed to create internal command allocator
-QHL9}
-QHtfH
+Purging all shared textures because the connection to vrserver was lost\n
+QFailed to create internal command allocator\n
 Qkkbal
+Quad
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-R$fE;B*
+RADV
+RGBG
 RPCRT4.dll
 RSDSD
-RadialMenu missing X axis input.
-RadialMenu missing Y axis input.
-RadialMenu setting 'num_buttons' not specified.
-RadialMenus can have a maximum of %d buttons, %d requested.
+RadialMenu missing X axis input.\n
+RadialMenu missing Y axis input.\n
+RadialMenu setting 'num_buttons' not specified.\n
+RadialMenus can have a maximum of %d buttons, %d requested.\n
 RaiseException
-ReadBooleanValue of %s path
-ReadBooleanValue returned %s, time=%llu, origin=%s
+ReadBooleanValue of %s path\n
+ReadBooleanValue returned %s, time=%llu, origin=%s\n
 ReadFile
-ReadFile failed on %s after event was signaled because %s
-ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer
-ReadScalarValue of %s path
-ReadScalarValue returned %g, time=%llu, origin=%s
-Reading EDID vendor Id timed out.
-Reading EDID vendor id from firmware...
+ReadFile failed on %s after event was signaled because %s\n
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
+ReadScalarValue of %s path\n
+ReadScalarValue returned %g, time=%llu, origin=%s\n
+Reading EDID vendor Id timed out.\n
+Reading EDID vendor id from firmware...\n
 Reading dangerously large protocol message.  If the message turns out to be larger than 
-Reads of container handles can't be mixed with reads of actual values in the same wildcard
+Reads of container handles can't be mixed with reads of actual values in the same wildcard\n
 Rebooting In Progress (137)
-Received compositor connect response %s. Giving up.
-Received connect response %s. Giving up.
-Received message of type %d when %d was expected on pipe %s
-Received success response from vrcompositor connect
-Received success response from vrserver connect
-Receiving binding with input source and type we've never heard of %s
-Receiving binding with input source we've never heard of %s
-Refusing to add binding to %s from a sim action in %s and a mode in %s
-Refusing to create memory block because %u blocks are already outstanding
+Received compositor connect response %s. Giving up.\n
+Received connect response %s. Giving up.\n
+Received message of type %d when %d was expected on pipe %s\n
+Received success response from vrcompositor connect\n
+Received success response from vrserver connect\n
+Receiving binding with input source and type we've never heard of %s\n
+Receiving binding with input source we've never heard of %s\n
+Refusing to add binding to %s from a sim action in %s and a mode in %s\n
+Refusing to create memory block because %u blocks are already outstanding\n
 RegCloseKey
 RegEnumValueW
 RegGetValueW
@@ -5612,46 +3781,45 @@ RegOpenKeyA
 RegOpenKeyExW
 RegQueryValueExA
 RegQueryValueExW
-Rejecting ShowKeyboard call from app because the dashboard is visible
-Rejecting attempt to ForceQuitProcess with 0
-Rejecting watchdog mode because vrmonitor is already running
-Rejecting watchdog mode because vrserver is already running
+Rejecting ShowKeyboard call from app because the dashboard is visible\n
+Rejecting attempt to ForceQuitProcess with 0\n
+Rejecting watchdog mode because vrmonitor is already running\n
+Rejecting watchdog mode because vrserver is already running\n
 ReleaseMutex
-Releasing OS object failed: invalid parameter
-Releasing ref on rendermodel %s. New ref count %d
-Releasing ref on texture %s (id %zu). New ref count %d
-RemoveSystemBehaviorFlag %s
-Render model %s has %d vertices. Only 65k are supported
-Render model %s has %zd texture coordinates, expected %d
-Render model %s specifies multiple diffuse texture materials. Only one diffuse texture per model is supported.
-Render model from %s contained more than one shape. We only support one.
-Render model from %s contained no shapes
+Releasing OS object failed: invalid parameter\n
+Releasing ref on rendermodel %s. New ref count %d\n
+Releasing ref on texture %s (id %zu). New ref count %d\n
+RemoveSystemBehaviorFlag %s\n
+Render model %s has %d vertices. Only 65k are supported\n
+Render model %s has %zd texture coordinates, expected %d\n
+Render model %s specifies multiple diffuse texture materials. Only one diffuse texture per model is supported.\n
+Render model from %s contained more than one shape. We only support one.\n
+Render model from %s contained no shapes\n
 RenderEnd
 RenderModel::Load
 RenderStart
-RendermodelManager: 'components' json entry must be key/value map
-RendermodelManager: Failed GetOriginalComponentPath(%llu, %s, %s) 
-RendermodelManager: Finished setting up render model template: %s.
-RendermodelManager: Model info file %s was empty.
-RendermodelManager: Reading data for: '%s' from '%s'
-RendermodelManager: Unable to parse %s: %s
-RendermodelManager: name=%s inputRouting=%d filename=%s
-RendermodelManager: unsupported motion type: %s. { allowed: none, rotate, translate, trackpad }
+RendermodelManager: 'components' json entry must be key/value map\n
+RendermodelManager: Failed GetOriginalComponentPath(%llu, %s, %s) \n
+RendermodelManager: Finished setting up render model template: %s.\n
+RendermodelManager: Model info file %s was empty.\n
+RendermodelManager: Reading data for: '%s' from '%s'\n
+RendermodelManager: Unable to parse %s: %s\n
+RendermodelManager: name=%s inputRouting=%d filename=%s\n
+RendermodelManager: unsupported motion type: %s. { allowed: none, rotate, translate, trackpad }\n
 ReplaceFileW
-ReprojectVertices: Failed to invert projectin matrix
-Request for bool value from non-bool option %s
+ReprojectVertices: Failed to invert projectin matrix\n
+Request for bool value from non-bool option %s\n
 Required vulkan device extension is unavailable: %s
 Required vulkan instance extension is unavailable: %s
 ResetEvent
 Resuming wait, but the app might be deadlock
 Returning %s to Steam when asked about killing theater pancake process %u
-Returning AlreadyRunning because process %u is running for process %s
-Returning AlreadyRunning for LaunchDashboardOverlay %s because that is running as %u
-Returning AlreadyRunning for LaunchTemplateApplication %s -> %s  because that new key exists already
-Returning HmdNotFound because the client-side presence check failed.
+Returning AlreadyRunning because process %u is running for process %s\n
+Returning AlreadyRunning for LaunchDashboardOverlay %s because that is running as %u\n
+Returning AlreadyRunning for LaunchTemplateApplication %s -> %s  because that new key exists already\n
+Returning HmdNotFound because the client-side presence check failed.\n
 Right_
-Ring Buffer Wrapped!
-RlK8`K8
+Ring Buffer Wrapped!\n
 RootNode
 RtlCaptureContext
 RtlGetNtVersionNumbers
@@ -5659,20 +3827,10 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S0H;X
-S0Q0O
-S8H+S0H
-S8H+S`H
-SATAUAVAWH
-SATAVAWH
-SAUAWH
-SA|X=G
 SCALAR
 SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
-SPB8t
-SPB8u,
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
@@ -5683,28 +3841,9 @@ STEAMVR_GPU_LUID
 STEAMVR_MOTION_SMOOTHING_WIN7
 STEAMVR_VERBOSE_HAPTIC_LOG
 STEAMVR_VKVALIDATION
-SUATAUAVAWH
-SUATAVAWH
 SUBOPTIMAL_KHR
-SUVAVAWH
-SUVWATAUAVAWH
-SUVWATAVH
-SUVWAUAVAWH
-SUVWAUH
-SUVWAVAWH
-SUVWAVH
-SUVWH
-SUWATAWH
-SUWAVH
-SVWATAUAVAWH
-SVWATH
-SVWAVAWH
-SVWAVH
-SVWAWH
-SWATAUAWH
-SWAUAVH
-SXR_GL_CHECK: error:0x%x at %s:%i -> %s
-Saw pid %d exit after %d pipe connect attempts
+SXR_GL_CHECK: error:0x%x at %s:%i -> %s\n
+Saw pid %d exit after %d pipe connect attempts\n
 Scene create D3D10, 
 Scene create D3D11, 
 Scene create D3D12, 
@@ -5714,37 +3853,38 @@ Scene resize D3D10,
 Scene resize D3D11, 
 Scene resize D3D12, 
 Scene resize Vulkan, 
-Screenshot: GetScreenshotDetails requested handle %u error returning %d
-Screenshot: GetScreenshotPropertyFilename requested handle=%u filenameType=%d returning filename="%s"
-Screenshot: GetScreenshotPropertyType requested handle=%u returning type=%d
+Screenshot: GetScreenshotDetails requested handle %u error returning %d\n
+Screenshot: GetScreenshotPropertyFilename requested handle=%u filenameType=%d returning filename="%s"\n
+Screenshot: GetScreenshotPropertyType requested handle=%u returning type=%d\n
 Screenshot: Hook Screenshot called with types:
-Screenshot: Screenshot requested, type=%d, filename="%s" vrfilename="%s"
-Screenshot: Screenshot submitted: handle=%u, type=%d, filename="%s" vrfilename="%s"
-Screenshot: TakeStereoScreenshot requested, filename="%s" vrfilename="%s"
-Screenshot: UpdateScreenshotProgress progress=%4.2f
-Sending focus captured event
-Sending focus released event
-Sent message id %u, received %u (%s). Rejecting response.
+Screenshot: Screenshot requested, type=%d, filename="%s" vrfilename="%s"\n
+Screenshot: Screenshot submitted: handle=%u, type=%d, filename="%s" vrfilename="%s"\n
+Screenshot: TakeStereoScreenshot requested, filename="%s" vrfilename="%s"\n
+Screenshot: UpdateScreenshotProgress progress=%4.2f\n
+See 
+Sending focus captured event\n
+Sending focus released event\n
+Sent message id %u, received %u (%s). Rejecting response.\n
 Server
-Server could not create read event %s
-Server somehow created read event before reader %s
+Server could not create read event %s\n
+Server somehow created read event before reader %s\n
 ServerEventSignal
-Set thread %p priority to: %d
+Set thread %p priority to: %d\n
 SetEnvironmentVariableA
 SetEvent
 SetFileAttributesW
 SetFilePointerEx
 SetLastError
 SetNamedPipeHandleState
-SetOverlayRaw can't take dimensions over %u, but was passed %u x %u. Really it shouldn't be called with anything over a hundred or two pixels in each direction.
-SetOverlayRaw failed to create a memory block for %u x %u texture
+SetOverlayRaw can't take dimensions over %u, but was passed %u x %u. Really it shouldn't be called with anything over a hundred or two pixels in each direction.\n
+SetOverlayRaw failed to create a memory block for %u x %u texture\n
 SetOverlayRawBlock_
 SetSceneAppDetails
 SetSecurityDescriptorDacl
-SetSkyboxOverride with %d textures
+SetSkyboxOverride with %d textures\n
 SetThreadPriority
 SetUnhandledExceptionFilter
-Setting max texture dimensions to %dx%d before requiring downsampling (%s)
+Setting max texture dimensions to %dx%d before requiring downsampling (%s)\n
 Settings manager init failed (118)
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
@@ -5767,42 +3907,43 @@ Shared IPC Namespace Unavailable (310)
 Shared IPC State Init Failed (302)
 Should never be called for prism
 ShouldKillTheaterProcessHack
-ShowDashboard( %s )
+ShowDashboard( %s )\n
 Simulated action 
-Skipping HMD presence checks.
-Skipping OS external driver %s because it is not a directory
-Skipping VRCompositor startup because of settings.
-Skipping VRDashboard startup because of settings.
-Skipping VRMonitor startup because of settings.
-Skipping bindings for interaction profile %s because we don't know it
-Skipping driver "%s".  Manifest file exists but is invalid.
-Skipping duplicate BeginCommandBuffer!
-Skipping duplicate external driver %s in "%s" because a driver of that name was already found at "%s"
-Skipping duplicate external driver path "%s"
-Skipping external driver %s because it is not a directory
-Skipping role %s because the device is invalid
-Skipping simulated trackpad action %s(%d) because it doesn't have an output hand
-Skipping simulated trigger action %s(%d) because it doesn't have an output action
-Skipping starting apps because we're in an app container
+Skin
+Skipping HMD presence checks.\n
+Skipping OS external driver %s because it is not a directory\n
+Skipping VRCompositor startup because of settings.\n
+Skipping VRDashboard startup because of settings.\n
+Skipping VRMonitor startup because of settings.\n
+Skipping bindings for interaction profile %s because we don't know it\n
+Skipping driver "%s".  Manifest file exists but is invalid.\n
+Skipping duplicate BeginCommandBuffer!\n
+Skipping duplicate external driver %s in "%s" because a driver of that name was already found at "%s"\n
+Skipping duplicate external driver path "%s"\n
+Skipping external driver %s because it is not a directory\n
+Skipping role %s because the device is invalid\n
+Skipping simulated trackpad action %s(%d) because it doesn't have an output hand\n
+Skipping simulated trigger action %s(%d) because it doesn't have an output action\n
+Skipping starting apps because we're in an app container\n
 Sleep
 SleepConditionVariableCS
 Software\Valve\Steam
 Software\Valve\Steam\ActiveProcess
-Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
-Somebody else should have created event %s to go with pipe %s in WaitForConnection
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
+Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
-Something went wrong in ReadPathBatch. %u != %u
-Something went wrong in WritePathBatch. %u != %u
-Something went wrong with the event queue and it has %u events when %u are the maximum possible
-Source mode for %s for controller %s had %d bindings, which we don't know how to deal with yet
+Something went wrong in ReadPathBatch. %u != %u\n
+Something went wrong in WritePathBatch. %u != %u\n
+Something went wrong with the event queue and it has %u events when %u are the maximum possible\n
+Source mode for %s for controller %s had %d bindings, which we don't know how to deal with yet\n
 Spot light description not found.
-Stage override already set to '%s'! Use ClearStageOverride to free existing resources first.
+Stage override already set to '%s'! Use ClearStageOverride to free existing resources first.\n
 Standing transform was not updated when writing the universe to paths
 Start
 StartSession
-Started %s with pid %u
-Starting vrcompositor process: %s args: %s, in folder %s
-Starting vrserver process: %s in %s
+Started %s with pid %u\n
+Starting vrcompositor process: %s args: %s, in folder %s\n
+Starting vrserver process: %s in %s\n
 StartupInfoArg
 SteamAppId
 SteamGameId
@@ -5814,12 +3955,12 @@ SteamXR Interop Device
 StringOutputStream.
 Submit
 Submit: %s
-SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.
+SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.\n
 Subview overlays may only be created for overlays created by the same process.
 Successfully changed app type
-Successfully reconnected to server
-Suggested binding for [%s] [%s]:
-Suggested bindings for %s:
+Successfully reconnected to server\n
+Suggested binding for [%s] [%s]:\n%s\n
+Suggested bindings for %s:\n
 SwapChainImage
 SwapChainImageView
 Swapchain-WaitImage
@@ -5836,101 +3977,16 @@ SystemBehaviorFlag_LaserMouse
 SystemBehaviorFlag_RoomView
 SystemBehaviorFlag_SystemButtonDown
 SystemTimeToFileTime
-T$ D+
-T$ E3
-T$ H;
-T$ H;T$XtTH
-T$ Hc
-T$ I;
-T$ L+
-T$ M+
-T$ fD
-T$$I+
-T$(D+
-T$(H9T$0t!H
-T$(H;T$htTH
-T$(I;
-T$0E3
-T$0H+
-T$0H9U
-T$0H;
-T$0LcC(
-T$0fA
-T$8;T$<
-T$8A;
-T$8E3
-T$8H9T$@
-T$8H9T$@t
-T$8H9T$@t!A
-T$8H9T$@t$A
-T$8H9T$@t)H
-T$8H9T$@t2H
-T$8H9T$@t4H
-T$8H;
-T$8I;V
-T$8uBH
-T$@;W
-T$@E3
-T$@H9T$H
-T$@H9T$Ht
-T$@H9T$Ht#
-T$@H9T$Ht&A
-T$@H;
-T$@Hc
-T$@I9T$Ht
-T$@I;
-T$@L;
-T$@fI
-T$HH;
-T$HHc
-T$LM;
-T$PE3
-T$PH9T$Xt$E3
-T$PH;T$Xu
-T$PK9T
-T$PL;
-T$PM;
-T$TE3
-T$TH+
-T$XA#
-T$XE3
-T$XH9T$`t!L
-T$XH;
-T$XI+
-T$`D8
-T$`E3
-T$`H9T$ht
-T$`H;
-T$hE3
-T$hH;T$pu
-T$hu(
-T$pD;
-T$pH#E
-T$pHcM8
-T$pI9D$ 
-T$pL;
-T$xE3
-T$xH+
-T$xH;
-T$xHcM8
-T$xL+
-T$xL;
-T5_W!
 TANGENT
 TEXCOORD
 TIMEOUT
+TRUE
 TRUE 
-TT$0f
-TT$@f
-TUUUUUU
-T\$0f
-T\$@f
 TdhEnumerateManifestProviderEvents
-Telling vrstartup that the system was already running.
+Telling vrstartup that the system was already running.\n
 TerminateProcess
 TextureInfo
 TextureMsaaResolveRenderer
-TfD;u
 The binding lock should have been locked in PreEndFrame prior to calling %s.
 The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
@@ -5942,15 +3998,15 @@ This is not a D3D11 object
 This is not a Vulkan object
 This program requires version 
 This program was compiled against version 
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
-Timed out waiting for a good app key
-Timed out waiting for gpu to be finished for fence %ls.
-Timed out waiting for reply of type %s from %s
-Timeout while waiting for message of type %d on pipe %s
+Timed out waiting for a good app key\n
+Timed out waiting for gpu to be finished for fence %ls.\n
+Timed out waiting for reply of type %s from %s\n
+Timeout while waiting for message of type %d on pipe %s\n
 TimestampQueryPool-%s
 TlsAlloc
 TlsFree
@@ -5959,7 +4015,6 @@ TlsSetValue
 Too many active action sets for SteamVR to reasonably handle or maximum priority reached. Max priority (or count, excluding duplicates) is %i
 Too many tracked objects (120)
 Too short data size for glTF Binary.
-Tp=9y>m0_D@H_
 TrackedControllerRole_Invalid
 TrackedControllerRole_LeftHand
 TrackedControllerRole_Max
@@ -5987,198 +4042,109 @@ TrackedProp_UnknownProperty
 TrackedProp_ValueNotProvidedByDevice
 TrackedProp_WrongDataType
 TrackedProp_WrongDeviceClass
-Transitioning XrSession from %s to %s
-Turning on pipe debugging at the server's request
+Transitioning XrSession from %s to %s\n
+Turning on pipe debugging at the server's request\n
 Tutorial
-U0H9U8t
-U0H;C
-U4H;C
-U8H9U@t L
-U8H9U@t#L
-U8H;C
-U<H;C
-U@H;C
-UATAUAVAWH
-UATAUAWH
-UATAUH
-UATAVAWH
-UAUAVH
-UAUAWH
-UAUAWI
-UAVAWH
-UDH;C
-UDH;G
-UHH;C
-ULH;C
 UNKNOWN_ERROR
 UNNAMED
-UPH;C
-USATAUAVAWH
-USATAUAWH
-USATAUH
-USATAVH
-USATAWH
-USATH
-USAUAVH
-USAUH
-USAVAWH
-USAWH
 USB Service Busy (140)
 USER32.dll
-USVATAUAWH
-USVATAUH
-USVAUH
-USVAVH
-USVWATAUAVAWH
-USVWATAUAVH
-USVWATAVAWH
-USVWATAVH
-USVWATH
-USVWAUAVAWH
-USVWAUH
-USVWAVAWH
-USVWAVAWI
-USVWAVH
-USVWH
-USWATAUAVAWH
-USWATAUAWH
-USWATAUH
-USWATAVAWH
-USWATAWH
-USWATH
-USWAUAVAWH
-USWAUAVH
-USWAUH
-USWAVAWH
-USWAWH
 UUUUUU
-UUUUUUU
-UVATAUAVH
-UVATAUAWH
-UVATAUH
-UVAUAVAWH
-UVAUAWH
-UVAUH
-UVAVH
-UVAWH
-UVWATAUAVAWE3
-UVWATAUAVAWH
-UVWATAUAWH
-UVWATAUH
-UVWATAVAWH
-UVWATAVH
-UVWATAWH
-UVWAUAVH
-UVWAUH
-UVWAVAWH
-UVWAWH
-UWATAUAVAWH
-UWATAUAVH
-UWATAUAWH
-UWATAVAWH
-UWATAVH
-UWATAWH
-UWATI
-UWAUAVAWH
-UWAUAVH
-UWAUAWH
-UWAVAWI
-UWAVH
-UWAWH
-Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
-Unable to coerce boolean action to input source that supports neither float nor boolean: %s
-Unable to coerce float action to input source that supports neither float nor boolean: %s
-Unable to coerce haptic vibration action to input source that does not support haptic vibration: %s
-Unable to coerce pose action to input source that does not support pose: %s
-Unable to coerce vector2 action to input source that does not support vector2: %s
+UYVY
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
+Unable to coerce boolean action to input source that supports neither float nor boolean: %s\n
+Unable to coerce float action to input source that supports neither float nor boolean: %s\n
+Unable to coerce haptic vibration action to input source that does not support haptic vibration: %s\n
+Unable to coerce pose action to input source that does not support pose: %s\n
+Unable to coerce vector2 action to input source that does not support vector2: %s\n
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
-Unable to convert event in PoseOverlayEvent
-Unable to convert param value %s
-Unable to create %s
-Unable to create click handler for complex button %s, %s
-Unable to create event %s to go with pipe %s in WaitForConnection
-Unable to create external image, VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT not supported for image.
+Unable to convert event in PoseOverlayEvent\n
+Unable to convert param value %s\n
+Unable to create %s\n
+Unable to create click handler for complex button %s, %s\n
+Unable to create event %s to go with pipe %s in WaitForConnection\n
+Unable to create external image, VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT not supported for image.\n
 Unable to create internal OpenGL context: %d
-Unable to create legacy overlay because of %s
-Unable to create overlay %s (%s) because of error %s when it should have worked.
-Unable to create property container %s because creation was not requested
-Unable to create property container %s because it already existed
-Unable to create shared memory %s for IPC client
-Unable to create shared mutex %s for IPC client
-Unable to create shared state %s because namespace wasn't available
-Unable to create tracked camera service shared memory for IPC %s
-Unable to create tracked camera service shared mutex for IPC %s
-Unable to create tracked camera shared memory buffer (%d/%d, %d bytes) for IPC %s
-Unable to create tracked camera shared memory for IPC %s
-Unable to create tracked camera shared mutex for IPC %s
-Unable to create user config dir %s for driver %s.
+Unable to create legacy overlay because of %s\n
+Unable to create overlay %s (%s) because of error %s when it should have worked.\n
+Unable to create property container %s because creation was not requested\n
+Unable to create property container %s because it already existed\n
+Unable to create shared memory %s for IPC client\n
+Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
+Unable to create tracked camera service shared memory for IPC %s\n
+Unable to create tracked camera service shared mutex for IPC %s\n
+Unable to create tracked camera shared memory buffer (%d/%d, %d bytes) for IPC %s\n
+Unable to create tracked camera shared memory for IPC %s\n
+Unable to create tracked camera shared mutex for IPC %s\n
+Unable to create user config dir %s for driver %s.\n
 Unable to derive line loop from inverse hidden area mesh - encountered degenerate edge.
 Unable to derive line loop from inverse hidden area mesh - encountered degenerate outer loop.
 Unable to derive line loop from inverse hidden area mesh - unable to link outer loop edges.
 Unable to determine VR Path Registry filename
-Unable to find IDXGIAdapter with LUID 0x%llx.
+Unable to find IDXGIAdapter with LUID 0x%llx.\n 
 Unable to find Steam installation (2000)
-Unable to find VRDashboard at %s
-Unable to find VRMonitor at %s
-Unable to find VRWebhelper at %s
-Unable to find handle for input '%s' in filter %s
-Unable to find input '%s' in filter %s
-Unable to find path to current module, so vrcompositor can't be started
-Unable to find path to current module, so vrserver can't be started
-Unable to get haptic vibration data
-Unable to get texture for overlay %s even though buffer should be big enough
-Unable to init (new) chaperone system
-Unable to init applications.
-Unable to init debug client
-Unable to init filter %s
-Unable to init input system
-Unable to init mail box client
-Unable to init notifications system
-Unable to init overlay manager system
-Unable to init path manager: %s
-Unable to init render model manager
-Unable to init resources
-Unable to init settings manager
-Unable to init spatial anchor system
-Unable to init steam private
-Unable to init the Tracked Camera system.
-Unable to init vroverlaylatest mailbox
-Unable to init watchdog mode for driver %s: %s
-Unable to load driver %s from %s (%s)
-Unable to load driver %s. Primary driver shared library not found on filesystem (for this architecture): %s.
-Unable to load render model from %s: %s
-Unable to load safe_mode_driver_whitelist.json: %s.  Nothing will be loaded in safe mode.
-Unable to open current process for duplicating handles because %s
-Unable to open process id=%d from pipe %s after connecting because %s
+Unable to find VRDashboard at %s\n
+Unable to find VRMonitor at %s\n
+Unable to find VRWebhelper at %s\n
+Unable to find handle for input '%s' in filter %s\n
+Unable to find input '%s' in filter %s\n
+Unable to find path to current module, so vrcompositor can't be started\n
+Unable to find path to current module, so vrserver can't be started\n
+Unable to get haptic vibration data\n
+Unable to get texture for overlay %s even though buffer should be big enough\n
+Unable to init (new) chaperone system\n
+Unable to init applications.\n
+Unable to init debug client\n
+Unable to init filter %s\n
+Unable to init input system\n
+Unable to init mail box client\n
+Unable to init notifications system\n
+Unable to init overlay manager system\n
+Unable to init path manager: %s\n
+Unable to init render model manager\n
+Unable to init resources\n
+Unable to init settings manager\n
+Unable to init spatial anchor system\n
+Unable to init steam private\n
+Unable to init the Tracked Camera system.\n
+Unable to init vroverlaylatest mailbox\n
+Unable to init watchdog mode for driver %s: %s\n
+Unable to load driver %s from %s (%s)\n
+Unable to load driver %s. Primary driver shared library not found on filesystem (for this architecture): %s.\n
+Unable to load render model from %s: %s\n
+Unable to load safe_mode_driver_whitelist.json: %s.  Nothing will be loaded in safe mode.\n
+Unable to open current process for duplicating handles because %s\n
+Unable to open process id=%d from pipe %s after connecting because %s\n
 Unable to parse 
-Unable to parse driver manifest %s
-Unable to parse init info. Options will be ignored
-Unable to parse perimeter
-Unable to parse presence entry '%s' in %s
-Unable to parse seated origin
-Unable to parse setup standing origin
-Unable to parse standing origin
+Unable to parse driver manifest %s\n
+Unable to parse init info. Options will be ignored\n
+Unable to parse perimeter\n
+Unable to parse presence entry '%s' in %s\n
+Unable to parse seated origin\n
+Unable to parse setup standing origin\n
+Unable to parse standing origin\n
 Unable to parse token length
-Unable to read %u bytes to offset %u in %s
+Unable to read %u bytes to offset %u in %s\n
 Unable to read VR Path Registry from 
-Unable to read driver manifest %s
-Unable to read event handles from pipe %s after connecting because %s
-Unable to read event salt from pipe %s after connecting because %s
-Unable to read language file %s from index block
-Unable to read language file %s from index file %s
-Unable to read pid from pipe %s after connecting because %s
-Unable to register named resource path %s with '%s' because it is already set to '%s'
-Unable to register named resource path %s with '%s' because that isn't an absolute path.
-Unable to send event to client in PostDriverEvent
-Unable to send event to client in PostGlobalEvent
-Unable to set parent container on the client path container
+Unable to read driver manifest %s\n
+Unable to read event handles from pipe %s after connecting because %s\n
+Unable to read event salt from pipe %s after connecting because %s\n
+Unable to read language file %s from index block\n
+Unable to read language file %s from index file %s\n
+Unable to read pid from pipe %s after connecting because %s\n
+Unable to register named resource path %s with '%s' because it is already set to '%s'\n
+Unable to register named resource path %s with '%s' because that isn't an absolute path.\n
+Unable to send event to client in PostDriverEvent\n
+Unable to send event to client in PostGlobalEvent\n
+Unable to set parent container on the client path container\n
 Unable to share lists from external OpenGL context: %d
-Unable to split input path %s. Falling back to something that probably won't work.
-Unable to translate requested openxr binding %s to an openvr equivalent
-Unable to turn force into click for input binding, input type %s, input mode %s, action type %d on path %s
-Unable to write %u bytes to offset %u in %s
-Unable to write action data
+Unable to split input path %s. Falling back to something that probably won't work.\n
+Unable to translate requested openxr binding %s to an openvr equivalent\n
+Unable to turn force into click for input binding, input type %s, input mode %s, action type %d on path %s\n
+Unable to write %u bytes to offset %u in %s\n
+Unable to write action data\n
 Unable to write path registry (113)
 Unbound input (%s,%s) for chord, ignoring chord.
 Unexpected error while trying to change the OpenXR application type: [%s]
@@ -6197,12 +4163,12 @@ Unknown Path
 Unknown VRApplicationsError (%d)
 Unknown VRSettingsError (%d)
 Unknown VRTrackedCameraError (%d)
-Unknown action set %s
+Unknown action set %s\n
 Unknown compositor error (%d)
 Unknown error (%d)
 Unknown exception
-Unknown fenced resource type: %d
-Unknown filter type %s
+Unknown fenced resource type: %d\n
+Unknown filter type %s\n
 Unknown flag %u
 Unknown float->float binding: %s -> %s
 Unknown image format. STB cannot decode image data for image[
@@ -6216,31 +4182,25 @@ Unsupported RTV type: %d
 Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 Unsupported action type %d
-Unsupported layer composition type
-Unsupported layer composition type: %d
+Unsupported layer composition type: %d\n
+Unsupported layer composition type\n
 Unused
 Upresing %s from %d to %d tris
 User Canceled Init (116)
 User Config Directory Invalid (107)
 Using physical device: %s
 UuidFromStringA
-V0H+V H
-V0H;C
-V8D;C
-V@I9VHt
 VALVE_runtime_is_steamvr
-VATAUAVAWH
-VATAUH
-VATAVH
-VAUAWH
-VAVAWH
 VCRUNTIME140.dll
+VEC2
+VEC3
+VEC4
 VERSION.dll
-VK DEBUG %s %llu:%d: %s
-VK ERROR %s %llu:%d: %s
-VK INFO %s %llu:%d: %s
-VK PERF %s %llu:%d: %s
-VK WARNING %s %llu:%d: %s
+VK DEBUG %s %llu:%d: %s\n
+VK ERROR %s %llu:%d: %s\n
+VK INFO %s %llu:%d: %s\n
+VK PERF %s %llu:%d: %s\n
+VK WARNING %s %llu:%d: %s\n
 VK_EXT_debug_marker
 VK_EXT_debug_report
 VK_EXT_debug_utils
@@ -6268,7 +4228,7 @@ VK_LAYER_LUNARG_swapchain
 VK_NV_compute_shader_derivatives
 VK_NV_external_memory_capabilities
 VR Dashboard Not Found (133)
-VR Dashboard executable already running.
+VR Dashboard executable already running.\n
 VR Dashboard startup failed (134)
 VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
 VR Dashboard startup failed, path error (167)
@@ -6281,7 +4241,7 @@ VR Dashboard startup failed, vrservice was stopped (162)
 VR Home Not Found (135)
 VR Monitor Not Found (127)
 VR Monitor startup failed (128)
-VR Path Registry node %s is not an array
+VR Path Registry node %s is not an array\n
 VR Server Init Failed (300)
 VR home startup failed (136)
 VR system shutting down (119)
@@ -6838,7 +4798,7 @@ VR_ServerPipe
 VR_SettingsMutex
 VR_SettingsState
 VR_SharedMutex
-VR_Shutdown called
+VR_Shutdown called\n
 VR_SpatialAnchorsMutex
 VR_SpatialAnchorsState
 VR_SystemLayerMutex
@@ -6859,53 +4819,23 @@ VS_MOTION
 VS_PANORAMA
 VS_QUAD
 VS_STENCIL
-VUUUH+M
-VWATAUAVH
-VWATAUAWH
-VWATAVAWH
-VWATAVH
-VWATH
-VWAUAVAWH
-VWAUH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 VerQueryValueA
 VerSetConditionMask
 VerifyVersionInfoW
 VirtualDisplay_AllQueued
 VirtualDisplay_NewFrame
 VirtualDisplay_Presented
-VpH9Vxt
-Vulkan missing requested extension '%s'.
-Vulkan transfer ring buffer overflow; transfer size %u!
-VulkanVRRenderer::ImportConstantBufferFromSharedHandle - Failed to allocate constant buffer handle.
-VulkanVRRenderer::ImportConstantBufferFromSharedHandle - Failed to allocate shared buffer.
-VulkanVRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.
-VulkanVRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
-VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore handle.
-VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
-VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
-VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%2/#
-W%\H%
-W0H;C
-W4H;C
-W8H+W`I
-W8H;C
-W<H;C
-W@H;C
-W@I9WHt
+Vulkan missing requested extension '%s'.\n
+Vulkan transfer ring buffer overflow; transfer size %u!\n
+VulkanVRRenderer::ImportConstantBufferFromSharedHandle - Failed to allocate constant buffer handle.\n
+VulkanVRRenderer::ImportConstantBufferFromSharedHandle - Failed to allocate shared buffer.\n
+VulkanVRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.\n
+VulkanVRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate shared semaphore.\n
+VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore handle.\n
+VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.\n
+VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.\n
+VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.\n
 WARNING
-WATAUAVAW
-WATAUAVAWH
-WATAUH
-WATAVH
-WAVAWH
-WDH;C
-WHH;C
 WINMM.dll
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -6921,49 +4851,33 @@ WINRT_Release
 WINRT_ReleaseDisplay
 WINRT_SetDisplayMode
 WINRT_WaitForPresent
-WPH;C
-WTH;C
 WTSAPI32.dll
 WTSFreeMemory
 WTSQuerySessionInformationA
+Wait
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitFrame could not retrieve poses on the first frame
-WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name.
+WaitNamedPipe %s failed because %s\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning
-Warning: Analog threshold added to [%s -> %s]. This method is deprecated. Please use XR_TYPE_BINDING_MODIFICATIONS_KHR instead
+Warning: Analog threshold added to [%s -> %s]. This method is deprecated. Please use XR_TYPE_BINDING_MODIFICATIONS_KHR instead\n
 Warning: Dpad bindings can only be added to a single action set!
 Warning: Dpad modifications already set for this component [%s]. Successive modification parameters for this component will be ignored.
 Warning: Provided input path (%s) is not valid for this interaction profile (%s)
-Warning: Watchdog %s not properly cleaned up%s%s
+Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: unexpected vulkan major version
-Washington1
 Watchdog disabled in settings (132)
-Watchdog namespace: %u
-Watchdog was unable to find VRStartup at %s
-WatchdogWakeup( %s ) called
+Watchdog namespace: %u\n
+Watchdog was unable to find VRStartup at %s\n
+WatchdogWakeup( %s ) called\n
 WebInterface
 WideCharToMultiByte
-WlH;C
-WriteBooleanValue - %s, time= %llu, origin=%s
+WriteBooleanValue - %s, time= %llu, origin=%s\n
 WriteFile
-WriteScalarValue - %g, time= %llu, origin=%s
-X UVWH
-X UWATAUAWH
-X%<2+
-X8Hc@@H
-X8Hc@@L
-XA\_^[
-XA^A]A\]
-XA^A]^[
-XA^^[]
-XA_A\
-XA_A]
-XA__^[
-XH;}8u
+WriteScalarValue - %g, time= %llu, origin=%s\n
 XR Swapchain-%d
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
@@ -7446,54 +5360,43 @@ XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
 XXXX PNG chunk not known
-X_^][
-XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]
+XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]\n
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
 XrProto:Predict:%d
 XrProto:Start
 XrProto:Submit:%s%d
-XrProto:current:%d
+XrProto:current:%d\n
 XrProto:dt:     %fms
 XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%%)*
-Y%S~+
-Y%WD'
-Y-M)*
-Y9"SD
-Y>t$7?*
-YL$8E
-Yl$ M
-Yl$4E
-Z(uDH
-Z9k0tUD
+YUY2
 ZA<a`
-ZL$Xf
-ZvFailed to create fence %ls.
+Zjz\v
+ZvFailed to create fence %ls.\n
 [%s] Begin Frame Timing: %d
 [%s] End Frame Timing: %d
 [%s] End Reading Timestamps: %d
 [%s] Mark Timing Event: %s(%d)
-[CDownsampleRenderer] Failed to create blend state!
-[CDownsampleRenderer] Failed to create depth stencil state!
-[CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!
-[CDownsampleRenderer] Failed to create rasterizer state!
-[CDownsampleRenderer] Failed to create sampler state!
-[CDownsampleRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags
-[CDownsampleRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
-[CDownsampleRenderer] Releasing old resources.
-[CMsaaResolveRenderer] Allocated MSAA resolve texture %dx%d
-[CMsaaResolveRenderer] Deleting old resources
-[CMsaaResolveRenderer] Error allocating MSAA resolve texture %dx%d
-[CMsaaResolveRenderer] Failed to create blend state!
-[CMsaaResolveRenderer] Failed to create depth stencil state!
-[CMsaaResolveRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!
-[CMsaaResolveRenderer] Failed to create rasterizer state!
-[CMsaaResolveRenderer] Failed to create sampler state!
-[CMsaaResolveRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags
-[CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
+[CDownsampleRenderer] Failed to create blend state!\n
+[CDownsampleRenderer] Failed to create depth stencil state!\n
+[CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!\n
+[CDownsampleRenderer] Failed to create rasterizer state!\n
+[CDownsampleRenderer] Failed to create sampler state!\n
+[CDownsampleRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags\n
+[CDownsampleRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!\n
+[CDownsampleRenderer] Releasing old resources.\n
+[CMsaaResolveRenderer] Allocated MSAA resolve texture %dx%d\n
+[CMsaaResolveRenderer] Deleting old resources\n
+[CMsaaResolveRenderer] Error allocating MSAA resolve texture %dx%d\n
+[CMsaaResolveRenderer] Failed to create blend state!\n
+[CMsaaResolveRenderer] Failed to create depth stencil state!\n
+[CMsaaResolveRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!\n
+[CMsaaResolveRenderer] Failed to create rasterizer state!\n
+[CMsaaResolveRenderer] Failed to create sampler state!\n
+[CMsaaResolveRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags\n
+[CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!\n
 [CVRCVTrackedHmdInternal] Driver inactive, request of type %d cannot be sent
 [CVRCVTrackedHmdInternal] Failed to set the new-request event (error code %d)
 [CVRCVTrackedHmdInternal] Failed to wait for the request to be processed (error code: %d).
@@ -7504,10 +5407,10 @@ ZvFailed to create fence %ls.
 [CVRCVTrackedHmdInternal] Shared state initialization failed
 [CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed. The driver might have become unreachable.
 [CommandAllocator %d] AddResourceBarrier
-[Compatibility Mode] Could not get notification interface. %d
-[Compatibility Mode] Could not get overlay interface. %d
-[Compatibility Mode] Notification failed: %d
-[Compatibility Mode] Overlay creation failed: %s
+[Compatibility Mode] Could not get notification interface. %d\n
+[Compatibility Mode] Could not get overlay interface. %d\n
+[Compatibility Mode] Notification failed: %d\n
+[Compatibility Mode] Overlay creation failed: %s\n
 [Compositor Client] !!!! AcquireSync FAILED with E_FAIL
 [Compositor Client] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [Compositor Client] !!!! AcquireSync FAILED with WAIT_TIMEOUT
@@ -7525,10 +5428,10 @@ ZvFailed to create fence %ls.
 [Compositor Client] Flush (GL) - Begin
 [Compositor Client] Flush (GL) - End
 [Compositor Client] GetFrameTiming
-[Compositor Client] Large mismatch between render (%d) and simulation (%d) poses!
+[Compositor Client] Large mismatch between render (%d) and simulation (%d) poses!\n
 [Compositor Client] PostPresentHandoff
 [Compositor Client] Received Idx=%d Id=%d
-[Compositor Client] Repredicting render poses (%d) to match simulation (%d)
+[Compositor Client] Repredicting render poses (%d) to match simulation (%d)\n
 [Compositor Client] SceneTextureIndex=%d Id=%d Target=%d Predicted=%d Flags=(%d|%d)
 [Compositor Client] Submit (suspended)
 [Compositor Client] Submit End
@@ -7542,80 +5445,80 @@ ZvFailed to create fence %ls.
 [Compositor Client] WaitGetPoses ThreadId=%d
 [GetVideoStreamFrame] Read (%d)
 [GetVideoStreamTextureGL] Read (%d)
-[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d
-[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
-[IPC] ConvertStringSidToSidA failed for test app %d
-[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid
-[IPC] Existing file mapping for %s was found
-[IPC] Failed creating auto reset event %s (GLE: %u)
-[IPC] Failed creating file mapping %s: %u
-[IPC] Failed creating mutex %s (GLE: %u)
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x
-[IPC] Failed to open event %s because access was denied
-[IPC] Failed to open file mapping %s because access was denied
-[IPC] Failed to open mutex %s because access was denied
-[IPC] Forced create of Win32 mutex %s but it already existed
-[IPC] Forced create of Win32Event %s but it already existed
-[IPC] Forced create of Win32Event but it already existed
-[IPC] Forced create of Win32Mutex but it already existed
-[IPC] Forced create of file mapping %s but it already existed
-[IPC] GetTokenInformation failed. GetLastError returned: %d
-[IPC] InitializeAcl failed. GetLastError returned: %d
-[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d
-[IPC] OpenProcessToken failed. GetLastError returned: %d
-[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d
-[IPC] SharedMem access invalid: %x
-[IPC] The owner SID is invalid.
-[Input] Action Manifest Path set to '%s'
-[Input] After initial config load, app appears to be using legacy input
-[Input] After initial config load, app appears to not be using SteamVR Input
-[Input] After initial config load, app appears to not be using input
-[Input] Attempting to load initial input config
-[Input] Binding path for haptic action %s could not be read: %s
-[Input] Binding path for haptic action %s resulted in property type tag %u instead of %u
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
+[IPC] ConvertStringSidToSidA failed for test app %d\n
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
+[IPC] Existing file mapping for %s was found\n
+[IPC] Failed creating auto reset event %s (GLE: %u)\n
+[IPC] Failed creating file mapping %s: %u\n
+[IPC] Failed creating mutex %s (GLE: %u)\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed to open event %s because access was denied\n
+[IPC] Failed to open file mapping %s because access was denied\n
+[IPC] Failed to open mutex %s because access was denied\n
+[IPC] Forced create of Win32 mutex %s but it already existed\n
+[IPC] Forced create of Win32Event %s but it already existed\n
+[IPC] Forced create of Win32Event but it already existed\n
+[IPC] Forced create of Win32Mutex but it already existed\n
+[IPC] Forced create of file mapping %s but it already existed\n
+[IPC] GetTokenInformation failed. GetLastError returned: %d\n
+[IPC] InitializeAcl failed. GetLastError returned: %d\n
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
+[IPC] OpenProcessToken failed. GetLastError returned: %d\n
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
+[IPC] SharedMem access invalid: %x\n
+[IPC] The owner SID is invalid.\n
+[Input] Action Manifest Path set to '%s'\n
+[Input] After initial config load, app appears to be using legacy input\n
+[Input] After initial config load, app appears to not be using SteamVR Input\n
+[Input] After initial config load, app appears to not be using input\n
+[Input] Attempting to load initial input config\n
+[Input] Binding path for haptic action %s could not be read: %s\n
+[Input] Binding path for haptic action %s resulted in property type tag %u instead of %u\n
 [Input] ClearXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
-[Input] DecompressSkeletalBoneData failed. Array for decompressed transforms is too small. Needed %u. Got %u
-[Input] DecompressSkeletalBoneData failed. Compressed skeleton buffer invalid for skeleton %s
-[Input] DecompressSkeletalBoneData failed. Invalid data
-[Input] DecompressSkeletalBoneData failed. Unknown compression type %u
-[Input] DecompressSkeletalBoneData failed. Unknown skeleton path %s
-[Input] DecompressSkeletalBoneData failed. Unknown skeleton type %u
-[Input] DoesActionHaveOrigin failed. Action is not valid.
-[Input] DoesActionHaveOrigin failed. Error with current frame.
-[Input] DoesActionHaveOrigin failed. Input is disabled.
-[Input] DoesActionHaveOrigin failed. Origin handle invalid.
-[Input] Failed to JSON parse action binding config
-[Input] Failed to find device container %llx. Waiting some more.
-[Input] Failed to get config binding from server. [app: %s]
-[Input] Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u [app: %s]
-[Input] Failed to load input profile for controller type: %s
-[Input] Failed to load input profile for simulated controller type: %s
-[Input] Failed to load input profile for simulated hmd type: %s
-[Input] Failed to load simulation settings for %s. Input profile at %s could not be loaded.
-[Input] Failed to load simulation settings for %s. Input profile does not have a simulation_settings item.
-[Input] Failed to load simulation settings for %s. Input profile has a simulation_settings item but it is not an object.
-[Input] Failed to parse action binding config: %s
-[Input] Failed to set action manifest path to '%s'. Error: %s
+[Input] DecompressSkeletalBoneData failed. Array for decompressed transforms is too small. Needed %u. Got %u\n
+[Input] DecompressSkeletalBoneData failed. Compressed skeleton buffer invalid for skeleton %s\n
+[Input] DecompressSkeletalBoneData failed. Invalid data\n
+[Input] DecompressSkeletalBoneData failed. Unknown compression type %u\n
+[Input] DecompressSkeletalBoneData failed. Unknown skeleton path %s\n
+[Input] DecompressSkeletalBoneData failed. Unknown skeleton type %u\n
+[Input] DoesActionHaveOrigin failed. Action is not valid.\n
+[Input] DoesActionHaveOrigin failed. Error with current frame.\n
+[Input] DoesActionHaveOrigin failed. Input is disabled.\n
+[Input] DoesActionHaveOrigin failed. Origin handle invalid.\n
+[Input] Failed to JSON parse action binding config\n
+[Input] Failed to find device container %llx. Waiting some more.\n
+[Input] Failed to get config binding from server. [app: %s]\n
+[Input] Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u [app: %s]\n
+[Input] Failed to load input profile for controller type: %s\n
+[Input] Failed to load input profile for simulated controller type: %s\n
+[Input] Failed to load input profile for simulated hmd type: %s\n
+[Input] Failed to load simulation settings for %s. Input profile at %s could not be loaded.\n
+[Input] Failed to load simulation settings for %s. Input profile does not have a simulation_settings item.\n
+[Input] Failed to load simulation settings for %s. Input profile has a simulation_settings item but it is not an object.\n
+[Input] Failed to parse action binding config: %s\n
+[Input] Failed to set action manifest path to '%s'. Error: %s\n
 [Input] GetActionBindingInfo failed. Buffer too small. Got: %u. Needed: %zu
 [Input] GetActionBindingInfo failed. Error with current frame
 [Input] GetActionBindingInfo failed. Invalid parameter punReturnedBindingInfoCount.
 [Input] GetActionBindingInfo failed. unBindingInfoSize incorrect size.
-[Input] GetActionHandle failed. Handle not found for action path: %s
-[Input] GetActionHandle failed. Input is disabled. ActionSet: %s
-[Input] GetActionHandle failed. Invalid handle parameter
-[Input] GetActionHandle failed. Invalid path parameter
-[Input] GetActionOrigins failed. Action is not valid.
-[Input] GetActionOrigins failed. Buffer too small. Got: %u. Needed: %zu
-[Input] GetActionOrigins failed. Error with current frame.
-[Input] GetActionOrigins failed. Input is disabled.
-[Input] GetActionSetHandle cannot execute because input is disabled. ActionSet: %s
-[Input] GetActionSetHandle failed. Unknown action set: %s
-[Input] GetAnalogActionData failed. Error with current frame.
-[Input] GetAnalogActionData failed. Input is disabled.
-[Input] GetAndCollapseActionValues failed. Invalid action: %llu
+[Input] GetActionHandle failed. Handle not found for action path: %s\n
+[Input] GetActionHandle failed. Input is disabled. ActionSet: %s\n
+[Input] GetActionHandle failed. Invalid handle parameter\n
+[Input] GetActionHandle failed. Invalid path parameter\n
+[Input] GetActionOrigins failed. Action is not valid.\n
+[Input] GetActionOrigins failed. Buffer too small. Got: %u. Needed: %zu\n
+[Input] GetActionOrigins failed. Error with current frame.\n
+[Input] GetActionOrigins failed. Input is disabled.\n
+[Input] GetActionSetHandle cannot execute because input is disabled. ActionSet: %s\n
+[Input] GetActionSetHandle failed. Unknown action set: %s\n
+[Input] GetAnalogActionData failed. Error with current frame.\n
+[Input] GetAnalogActionData failed. Input is disabled.\n
+[Input] GetAndCollapseActionValues failed. Invalid action: %llu\n
 [Input] GetBindingVariant failed. Buffer too small. Got: %u. Needed: %zu
 [Input] GetBoneCount failed. Bone count parameter invalid.
 [Input] GetBoneCount failed. Invalid action.
@@ -7629,87 +5532,87 @@ ZvFailed to create fence %ls.
 [Input] GetBoneName failed. Invalid Skeleton Animation
 [Input] GetBoneName failed. Invalid action.
 [Input] GetBoneName failed. Invalid skeleton description.
-[Input] GetComponentStateForBinding failed. Invalid RenderModel component: %s::%s
-[Input] GetComponentStateForBinding failed. Invalid parameter pComponentState.
-[Input] GetComponentStateForBinding failed. Invalid parameter pOriginInfoList.
-[Input] GetComponentStateForBinding failed. Invalid parameter pchComponentName.
-[Input] GetComponentStateForBinding failed. Invalid parameter pchRenderModelName.
-[Input] GetDigitalActionData failed. Error with current frame.
-[Input] GetDigitalActionData failed. Input is disabled.
+[Input] GetComponentStateForBinding failed. Invalid RenderModel component: %s::%s\n
+[Input] GetComponentStateForBinding failed. Invalid parameter pComponentState.\n
+[Input] GetComponentStateForBinding failed. Invalid parameter pOriginInfoList.\n
+[Input] GetComponentStateForBinding failed. Invalid parameter pchComponentName.\n
+[Input] GetComponentStateForBinding failed. Invalid parameter pchRenderModelName.\n
+[Input] GetDigitalActionData failed. Error with current frame.\n
+[Input] GetDigitalActionData failed. Input is disabled.\n
 [Input] GetDominantHand failed. App does not support dominant hand setting.
 [Input] GetDominantHand failed. Invalid parameter peDominantHand.
 [Input] GetHandPose failed. Invalid pose parameter.
-[Input] GetInputSourceHandle failed. Handle not found for input source path: %s
-[Input] GetInputSourceHandle failed. Input is disabled. Path: %s
-[Input] GetInputSourceHandle failed. Invalid handle parameter
-[Input] GetInputSourceHandle failed. Invalid path parameter
-[Input] GetInputValueHandle failed. Unknown input source: %s
-[Input] GetOriginLocalizedName failed. Error with current frame.
-[Input] GetOriginLocalizedName failed. Input is disabled.
-[Input] GetOriginLocalizedName failed. Invalid parameter unStringSectionsToInclude.
-[Input] GetOriginLocalizedName failed. Problem finding device path from specified origin.
-[Input] GetOriginLocalizedName failed. Problem finding source from specified origin.
-[Input] GetOriginLocalizedName failed. Problem finding specified origin.
-[Input] GetOriginLocalizedName failed. unStringSectionsToInclude is 0.
-[Input] GetOriginTrackedDeviceInfo failed. Error with current frame.
-[Input] GetOriginTrackedDeviceInfo failed. Input is disabled.
-[Input] GetOriginTrackedDeviceInfo failed. Origin is invalid.
-[Input] GetOriginTrackedDeviceInfo failed. pOriginInfo is invalid.
-[Input] GetOriginTrackedDeviceInfo failed. ulActionHandle is invalid.
-[Input] GetOriginTrackedDeviceInfo failed. unOriginInfoSize incorrect size. Got: %u. Expected: %zu.
+[Input] GetInputSourceHandle failed. Handle not found for input source path: %s\n
+[Input] GetInputSourceHandle failed. Input is disabled. Path: %s\n
+[Input] GetInputSourceHandle failed. Invalid handle parameter\n
+[Input] GetInputSourceHandle failed. Invalid path parameter\n
+[Input] GetInputValueHandle failed. Unknown input source: %s\n
+[Input] GetOriginLocalizedName failed. Error with current frame.\n
+[Input] GetOriginLocalizedName failed. Input is disabled.\n
+[Input] GetOriginLocalizedName failed. Invalid parameter unStringSectionsToInclude.\n
+[Input] GetOriginLocalizedName failed. Problem finding device path from specified origin.\n
+[Input] GetOriginLocalizedName failed. Problem finding source from specified origin.\n
+[Input] GetOriginLocalizedName failed. Problem finding specified origin.\n
+[Input] GetOriginLocalizedName failed. unStringSectionsToInclude is 0.\n
+[Input] GetOriginTrackedDeviceInfo failed. Error with current frame.\n
+[Input] GetOriginTrackedDeviceInfo failed. Input is disabled.\n
+[Input] GetOriginTrackedDeviceInfo failed. Origin is invalid.\n
+[Input] GetOriginTrackedDeviceInfo failed. pOriginInfo is invalid.\n
+[Input] GetOriginTrackedDeviceInfo failed. ulActionHandle is invalid.\n
+[Input] GetOriginTrackedDeviceInfo failed. unOriginInfoSize incorrect size. Got: %u. Expected: %zu.\n
 [Input] GetOriginalComponentPath failed with error code: %d.
-[Input] GetOriginalComponentPath failed. Device does not exist.
-[Input] GetOriginalComponentPath failed. Device does not have a valid role.
+[Input] GetOriginalComponentPath failed. Device does not exist.\n
+[Input] GetOriginalComponentPath failed. Device does not have a valid role.\n
 [Input] GetOriginalComponentPath failed. Did not get response from VRMsg_Input_GetOriginalComponentPath quick enough.
-[Input] GetOriginalComponentPath: Non-critical failure. No binding for device container %llx. Type / Container list:
-[Input] GetPathFromControllerRole failed. No path for role: %d
-[Input] GetPoseActionDataRelativeToNow failed. Action data size parameter was incorrect. Got: %u. Wanted: %zu
-[Input] GetPoseActionDataRelativeToNow failed. Action is of the wrong type.
-[Input] GetPoseActionDataRelativeToNow failed. Device does not exist.
-[Input] GetPoseActionDataRelativeToNow failed. Error with current frame.
-[Input] GetPoseActionDataRelativeToNow failed. Input is disabled.
-[Input] GetPoseModification failed. Action is not active.
-[Input] GetPoseModification failed. Action is of wrong type.
-[Input] GetPoseModification failed. Error with current frame.
-[Input] GetPoseModificationFromPath failed. Error with current frame.
-[Input] GetPoseModificationFromPath failed. Error with input frame.
-[Input] GetPoseModificationFromPath failed. Invalid device path.
-[Input] GetPoseModificationFromPath failed. Wrong input value type.
-[Input] GetSkeletalActionData failed. Action data size parameter is incorrect. Got: %u. Wanted: %zu
-[Input] GetSkeletalActionData failed. Action is of the wrong type.
-[Input] GetSkeletalActionData failed. Error with current frame.
-[Input] GetSkeletalActionData failed. Input is disabled.
-[Input] GetSkeletalBoneData failed. Action is not active.
-[Input] GetSkeletalBoneData failed. Action is of the wrong type.
-[Input] GetSkeletalBoneData failed. Error with current frame.
-[Input] GetSkeletalBoneData failed. Input is disabled.
-[Input] GetSkeletalBoneDataCompressed failed. Action is not active.
-[Input] GetSkeletalBoneDataCompressed failed. Action is of the wrong type.
+[Input] GetOriginalComponentPath: Non-critical failure. No binding for device container %llx. Type / Container list:\n
+[Input] GetPathFromControllerRole failed. No path for role: %d\n
+[Input] GetPoseActionDataRelativeToNow failed. Action data size parameter was incorrect. Got: %u. Wanted: %zu\n
+[Input] GetPoseActionDataRelativeToNow failed. Action is of the wrong type.\n
+[Input] GetPoseActionDataRelativeToNow failed. Device does not exist.\n
+[Input] GetPoseActionDataRelativeToNow failed. Error with current frame.\n
+[Input] GetPoseActionDataRelativeToNow failed. Input is disabled.\n
+[Input] GetPoseModification failed. Action is not active.\n
+[Input] GetPoseModification failed. Action is of wrong type.\n
+[Input] GetPoseModification failed. Error with current frame.\n
+[Input] GetPoseModificationFromPath failed. Error with current frame.\n
+[Input] GetPoseModificationFromPath failed. Error with input frame.\n
+[Input] GetPoseModificationFromPath failed. Invalid device path.\n
+[Input] GetPoseModificationFromPath failed. Wrong input value type.\n
+[Input] GetSkeletalActionData failed. Action data size parameter is incorrect. Got: %u. Wanted: %zu\n
+[Input] GetSkeletalActionData failed. Action is of the wrong type.\n
+[Input] GetSkeletalActionData failed. Error with current frame.\n
+[Input] GetSkeletalActionData failed. Input is disabled.\n
+[Input] GetSkeletalBoneData failed. Action is not active.\n
+[Input] GetSkeletalBoneData failed. Action is of the wrong type.\n
+[Input] GetSkeletalBoneData failed. Error with current frame.\n
+[Input] GetSkeletalBoneData failed. Input is disabled.\n
+[Input] GetSkeletalBoneDataCompressed failed. Action is not active.\n
+[Input] GetSkeletalBoneDataCompressed failed. Action is of the wrong type.\n
 [Input] GetSkeletalBoneDataCompressed failed. Buffer too small. Got: %u. Expected: %u
-[Input] GetSkeletalBoneDataCompressed failed. Error with current frame.
-[Input] GetSkeletalBoneDataCompressed failed. Input is disabled.
+[Input] GetSkeletalBoneDataCompressed failed. Error with current frame.\n
+[Input] GetSkeletalBoneDataCompressed failed. Input is disabled.\n
 [Input] GetSkeletalBoneDataCompressed failed. Invalid skeleton animation
 [Input] GetSkeletalBoneDataCompressed failed. Invalid skeleton description.
-[Input] GetSkeletalReferenceTransforms failed. Action is of the wrong type.
-[Input] GetSkeletalReferenceTransforms failed. Could not load hand_right_poses.glb
-[Input] GetSkeletalReferenceTransforms failed. Could not retrieve grip limit pose from shared memory
-[Input] GetSkeletalReferenceTransforms failed. Error with current frame.
-[Input] GetSkeletalReferenceTransforms failed. Invalid parameter eReferencePose
+[Input] GetSkeletalReferenceTransforms failed. Action is of the wrong type.\n
+[Input] GetSkeletalReferenceTransforms failed. Could not load hand_right_poses.glb\n
+[Input] GetSkeletalReferenceTransforms failed. Could not retrieve grip limit pose from shared memory\n
+[Input] GetSkeletalReferenceTransforms failed. Error with current frame.\n
+[Input] GetSkeletalReferenceTransforms failed. Invalid parameter eReferencePose\n
 [Input] GetSkeletalReferenceTransforms failed. Invalid parameter pTransformArray
 [Input] GetSkeletalReferenceTransforms failed. Invalid parameter unTransformArrayCount
 [Input] GetSkeletalReferenceTransforms failed. Invalid skeleton animation
 [Input] GetSkeletalReferenceTransforms failed. Invalid skeleton description.
-[Input] GetSkeletalSummaryData failed. Action is not active.
-[Input] GetSkeletalSummaryData failed. Action is of the wrong type.
-[Input] GetSkeletalSummaryData failed. Error with current frame.
-[Input] GetSkeletalSummaryData failed. Input is disabled.
-[Input] GetSkeletalSummaryData failed. Invalid parameter: pSkeletalSummaryData.
+[Input] GetSkeletalSummaryData failed. Action is not active.\n
+[Input] GetSkeletalSummaryData failed. Action is of the wrong type.\n
+[Input] GetSkeletalSummaryData failed. Error with current frame.\n
+[Input] GetSkeletalSummaryData failed. Input is disabled.\n
+[Input] GetSkeletalSummaryData failed. Invalid parameter: pSkeletalSummaryData.\n
 [Input] GetSkeletalSummaryData failed. Invalid path.
 [Input] GetSkeletalSummaryData failed. Invalid skeleton animation
 [Input] GetSkeletalSummaryData failed. Invalid skeleton description.
-[Input] GetSkeletalTrackingLevel failed. Action is of the wrong type.
-[Input] GetSkeletalTrackingLevel failed. Error with current frame.
-[Input] GetSkeletalTrackingLevel failed. Invalid parameter pSkeletalTrackingLevel.
+[Input] GetSkeletalTrackingLevel failed. Action is of the wrong type.\n
+[Input] GetSkeletalTrackingLevel failed. Error with current frame.\n
+[Input] GetSkeletalTrackingLevel failed. Invalid parameter pSkeletalTrackingLevel.\n
 [Input] GetSkeletalTrackingLevel failed. Invalid path.
 [Input] GetSkeletalTrackingLevelForHand failed. Error: %d
 [Input] GetSkeletalTrackingLevelForHand failed. No controller or does not support hand tracking.
@@ -7722,186 +5625,73 @@ ZvFailed to create fence %ls.
 [Input] GetSkeletonBoneDataInternal failed. Invalid Skeleton Animation.
 [Input] GetSkeletonBoneDataInternal failed. Invalid Skeleton Description.
 [Input] GetSkeletonBoneDataInternal failed. Invalid path.
-[Input] Handle not found for action set path: %s
-[Input] Initial config load timed out
-[Input] Input is disabled. [app: %s]
-[Input] Invalid active action set priority. %s apps must provide a priority of no more than %d
-[Input] Invalid pHandle in GetActionSetHandle for %s
-[Input] Invalid path in GetActionSetHandle
-[Input] IsActionBound failed. Error with current frame.
-[Input] IsActionBound failed. Input is disabled.
-[Input] Loaded input profile for simulated controller type: %s
-[Input] Loaded input profile for simulated hmd type: %s
-[Input] No controllers detected. Not waiting for config.
-[Input] Opening Binding UI. App: %s. Error: %s
-[Input] Previous frame overflowed per-device vector by %u actions (to %u total) Bumping up the high water mark.
-[Input] SetActionManifestPath failed waiting for a response from the server. Path: '%s'
-[Input] SetActionManifestPath failed. Input is disabled. Path: '%s'
-[Input] SetActionManifestPath requires an absolute path. '%s' is not absolute.
+[Input] Handle not found for action set path: %s\n
+[Input] Initial config load timed out\n
+[Input] Input is disabled. [app: %s]\n
+[Input] Invalid active action set priority. %s apps must provide a priority of no more than %d\n
+[Input] Invalid pHandle in GetActionSetHandle for %s\n
+[Input] Invalid path in GetActionSetHandle\n
+[Input] IsActionBound failed. Error with current frame.\n
+[Input] IsActionBound failed. Input is disabled.\n
+[Input] Loaded input profile for simulated controller type: %s\n
+[Input] Loaded input profile for simulated hmd type: %s\n
+[Input] No controllers detected. Not waiting for config.\n
+[Input] Opening Binding UI. App: %s. Error: %s\n
+[Input] Previous frame overflowed per-device vector by %u actions (to %u total) Bumping up the high water mark.\n
+[Input] SetActionManifestPath failed waiting for a response from the server. Path: '%s'\n
+[Input] SetActionManifestPath failed. Input is disabled. Path: '%s'\n
+[Input] SetActionManifestPath requires an absolute path. '%s' is not absolute.\n
 [Input] SetDominantHand failed. App does not support dominant hand setting.
 [Input] SetDominantHand failed. Invalid parameter eDominantHand.
 [Input] SetXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
-[Input] ShowBindingsForActionSet failed. unSizeOfVRSelectedActionSet_t incorrect size. Got: %u. Expected: %zu.
-[Input] TriggerHapticVibrationAction failed. Action is not valid.
-[Input] TriggerHapticVibrationAction failed. Action is the wrong type.
-[Input] TriggerHapticVibrationAction failed. Error with current frame.
-[Input] TriggerHapticVibrationAction failed. Input is disabled.
-[Input] Unable to parse action manifest: %s [app: %s]
-[Input] Unexpected error %s when trying to read input value %s (%llX)
-[Input] Unexpected error %s when trying to read input value %s (%llX) with expected type %s 
-[Input] Unknown action %s when loading binding file
-[Input] Unknown action set %s when loading binding file
-[Input] UpdateActionState cannot execute because we don't have a config yet.
-[Input] Wanted to store %u global priority inputs, but only had space for %u
-[K]taM?
+[Input] ShowBindingsForActionSet failed. unSizeOfVRSelectedActionSet_t incorrect size. Got: %u. Expected: %zu.\n
+[Input] TriggerHapticVibrationAction failed. Action is not valid.\n
+[Input] TriggerHapticVibrationAction failed. Action is the wrong type.\n
+[Input] TriggerHapticVibrationAction failed. Error with current frame.\n
+[Input] TriggerHapticVibrationAction failed. Input is disabled.\n
+[Input] Unable to parse action manifest: %s [app: %s]\n
+[Input] Unexpected error %s when trying to read input value %s (%llX) with expected type %s \n
+[Input] Unexpected error %s when trying to read input value %s (%llX)\n
+[Input] Unknown action %s when loading binding file\n
+[Input] Unknown action set %s when loading binding file\n
+[Input] UpdateActionState cannot execute because we don't have a config yet.\n
+[Input] Wanted to store %u global priority inputs, but only had space for %u\n
 [OpenXR] Focused/Visible transition conditions: %d %d
 [OpenXR] Synchronized transition conditions: %d %d
 [OpenXR] Visible transition conditions: %d %d
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
-[Settings] %s %s unknown type
-[Settings] Load Default Json Settings from %s
-[Settings] Load Json Settings from %s
-[Settings] Parsing of json from "%s" failed: 
-[Settings] Unable to load driver defaults from %s
-[Settings] Unable to read path registry...
-[Settings] Using default values. No Json Settings available at %s
-[Simulation] Clearing device %d override properties
-[Simulation] Could not resolve %%LocalAppData%% in input profile simulation settings for %s. Skipping %s override. 
-[Simulation] Error in input profile simulation settings for %s. Missing property: %s 
-[Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. 
-[Simulation] Setting device %d with override properties for %s
+[Settings] %s %s unknown type\n
+[Settings] Load Default Json Settings from %s\n
+[Settings] Load Json Settings from %s\n
+[Settings] Parsing of json from "%s" failed: \n
+[Settings] Unable to load driver defaults from %s\n
+[Settings] Unable to read path registry...\n
+[Settings] Using default values. No Json Settings available at %s\n
+[Simulation] Clearing device %d override properties\n
+[Simulation] Could not resolve %%LocalAppData%% in input profile simulation settings for %s. Skipping %s override. \n 
+[Simulation] Error in input profile simulation settings for %s. Missing property: %s \n 
+[Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. \n 
+[Simulation] Setting device %d with override properties for %s\n
 [SteamVR] Meta plugin compatibility conditions: %d %d %d %d
 [SteamVR] XrViewConfigurationView maxImageRect: %d %d
 [SteamVR] XrViewConfigurationView recommendedImageRect: %d %d
-[Tutorial] Adding tutorial action set %s twice!
-[Tutorial] Failed to generate action set handle for per-input tutorial action set
-[Tutorial] Found input path with unexpected prefix: %s
+[Tutorial] Adding tutorial action set %s twice!\n
+[Tutorial] Failed to generate action set handle for per-input tutorial action set\n
+[Tutorial] Found input path with unexpected prefix: %s\n
 [VirtualDisplay] Present took to long!
 [json.exception.
-\$ ;S
-\$ @2
-\$ E2
-\$ E3
-\$ H+
-\$ H;
-\$ I;
-\$ I;]
-\$ K;
-\$ UATAUAVAWH
-\$ UATAWH
-\$ UAVAWH
-\$ UH
-\$ UVAVH
-\$ UVWATAUAVAWH
-\$ UVWAUAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ UWATAVAWH
-\$ UWATH
-\$ UWAWH
-\$ VATAVH
-\$ VATAWH
-\$ VAVAWH
-\$ VH
-\$ VWAVH
-\$ VWAWH
-\$ WAVAWH
-\$ WH
-\$$9Y
-\$$E3
-\$(E3
-\$(H;
-\$(HcC
-\$(L;
-\$0@2
-\$0E3
-\$0H+
-\$0H;
-\$0I+
-\$0L+
-\$4D9
-\$88_
-\$8D;
-\$8E3
-\$8H+
-\$8H;
-\$8I+
-\$8I9\$@tGH
-\$8I;
-\$<D+|$<
-\$@D;
-\$@H;
-\$@I;
-\$@u"H
-\$HE3
-\$HH9Q
-\$HH;
-\$HHc
-\$LD;
-\$PD;
-\$PH+
-\$PH;
-\$PI;
-\$PL9I(uA
-\$PfD
-\$Pu@
-\$TD;
-\$XE3
-\$XH;
-\$XHc
-\$XI;
-\$XLc
-\$`E3
-\$`H+
-\$`H9Q
-\$`u'
-\$hH;
-\$hHi
-\$hI;
-\$hfff
-\$hu@
-\$pH;
-\$pI;
-\$pI;\$xtIH
-\$pfD
-\$pff
-\$pt'H
-\$pu0D9d$<u)M
-\$xH+
-\$xH;
-\$xHi
-\$xHk
-\5f #
-\\.\pipe\
+[libprotobuf %s %s:%d] %s\n
 \mfpmp.exe
-\u=H;
-\|$`D
+\nbad png sig
+\t%s::%llx.\n
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\vm_pSyncTexture == nullptr
 ] buffer "
 ] bufferView "
-] fff
 ] invalid bufferView
 ] is not a JSON object.
-] name = "
-] name = [
-]9k0tVD
-]@L9{(
-]HH;G
-]HH;]Pt8
-]HH;]Ptb
-]J<0"0i3
 ][Compositor Client] Begin AcquireSync
-]g@8yhu
-]gfff
-]pH9X
-]wfHc
-^8H9?t&H
-^8I9^@
-^9k0tWD
-^L$\A
-_8H9_@
-_8H;_@t
-_8I9_@
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -7912,10 +5702,6 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
-_D9c0tWD
-_D9k0tWD
-_D9s0tWD
-_D9w0tWD
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -7960,7 +5746,6 @@ _dtest
 _errno
 _execute_onexit_table
 _fseeki64
-_gUT^
 _get_stream_buffer_pointers
 _handle
 _header
@@ -7970,8 +5755,6 @@ _initterm
 _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
-_l$8A
-_l$8E
 _localtime64
 _lock_file
 _mbsstr
@@ -7995,51 +5778,23 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-` @SH
-` UAVAWH
-`(@SH
-`.rdata
-`0@SH
-`8@SH
-`@@SH
-`A]A\^
-`A^A\_^]
-`A^A]_^[
-`A^_]
-`A^_^
-`A_A]A\[]
-`A_A]^
-`A_A^A]A\_^[
-`A_A^A]A\_^]
-`A_A^A]A\_^]H
-`A_A^_^]
-`A__^
-`H@SH
-`P@SH
-`PL+`HI
-`X@SH
-``@SH
-``````````````````````````````````````````````````````````````````````````````````````````````````
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
-`input` field is missing in animation.sampler
+`input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target
+`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
-`output` field is missing in animation.sampler
-`p@SH
-`path` field is missing in animation.channels.target
-`sampler` field is missing in animation channels
+`output` field is missing in animation.sampler\n
+`path` field is missing in animation.channels.target\n
+`sampler` field is missing in animation channels\n
 `samplers' does not contain an JSON object.
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-`x@SH
-a7hIw
 abort
 accessor[
 accessors
@@ -8072,6 +5827,7 @@ alnum
 alpha
 alphaCutoff
 alphaMode
+alse
 alwaysActivate
 amdwvr
 amplitude
@@ -8101,9 +5857,12 @@ asset
 atan2
 atan2f
 atanf
+atof
+atoi
 attributes
 audio
 autoLaunchSteamVROnButtonPress
+axis
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
@@ -8151,7 +5910,6 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
-bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
@@ -8174,6 +5932,8 @@ bindingui/desktop
 bindingui/overlay
 blank
 blocked_by_safe_mode
+blue
+bool
 boolean
 boolean_and
 boolean_button_press_state
@@ -8230,6 +5990,7 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\Retail\win64\2017\vrclient_x64.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\hmdlatest.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\ixrbinding.h
@@ -8258,7 +6019,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\fake_app_container_config_path
-c@L+c8D
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -8311,7 +6071,7 @@ const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
-container: set %s to %s
+container: set %s to %s\n
 controller_axis
 controller_axis_component
 controller_button
@@ -8323,44 +6083,13 @@ create
 cs_cz
 cursor_index
 czech
-d$ E3
-d$ Mc
-d$ UAVAWH
-d$ fI
-d$$E3
-d$(E3
-d$(Hi
-d$(I;
-d$(M+
-d$(M;
-d$0D9u
-d$8L;
-d$8tf
-d$<Mc
-d$@E3
-d$@H;
-d$@I;
-d$@fff
-d$HE3
-d$HH;
-d$HMc
-d$PE3
-d$PM;
-d$PfD
-d$XE3
-d$`E3
-d$`H=
-d$`L;
-d$`fD
-d$bHc
-d$hM;
-d$hfff
 d3d11.dll
 da_dk
 danish
 dashboard
 dashboard_overlay_created
 dashboard_overlay_destroyed
+data
 data->IsInitialized()
 data->vecBlocks[ unBlockIndex ].unReferences > 0
 data:application/gltf-buffer;base64,
@@ -8384,7 +6113,7 @@ default_main.vrsettings
 deque<T> too long
 description
 developerModes
-device implements %s, but this runtime doesn't have an adapter for that version
+device implements %s, but this runtime doesn't have an adapter for that version\n
 deviceContainer
 devicePath
 device_path
@@ -8420,7 +6149,9 @@ doNotFadeToGrid
 double
 doubleSided
 double_press_delay
+down
 downgrade_speed
+dpad
 dpad_
 dpad_center
 dpad_click
@@ -8450,15 +6181,12 @@ drop_speed
 duration
 dutch
 dxgi.dll
-e0A_A^A]A\]
 eCS < CS_Count
-ePH9C tEH
 ePS < PS_Count
 eVS < VS_Count
-e_H9U
+east
 east_click
 east_touch
-effffff
 el_gr
 emissiveFactor
 emissiveTexture
@@ -8474,10 +6202,11 @@ end of input
 english
 entries
 error
-error %s when initing driver %s from %s.
+error %s when initing driver %s from %s.\n
 es_es
 es_mx
 exception thrown in JSON library
+exit
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 exponent
@@ -8487,17 +6216,6 @@ extensionsRequired
 extensionsUsed
 external_drivers
 extras
-f(L9f@H
-f9+t4
-f98tZH
-f98t\H
-f9\$`u
-f;|$pt_H
-fD		H
-fD9	u
-fD9&u
-fD9L$
-fD;3t
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -8568,15 +6286,12 @@ fake_trigger_
 false
 false literal
 fclose
-ff&?E
-ffffff
-fffffff
+feof
 fflush
 fgetc
 fgetpos
 fi_fi
 file://
-file:///
 file_path
 filename
 filters
@@ -8604,15 +6319,13 @@ fputs
 fr_fr
 framesToThrottle
 fread
+free
 french
 frequency
 fseek
 fsetpos
 ftell
 fwrite
-fxL9f0H
-g(u^H
-g9k0t_D
 gamepad
 gamescope.steam
 generator
@@ -8620,15 +6333,6 @@ generic
 generic_hmd
 german
 getenv
-gfffI
-gfffffff
-gfffffffH
-gfffffffH+
-gfffffffI
-gfffffffI+
-gfffffffL
-gfffffffL+
-gfffffffM
 glBindFramebuffer
 glBindRenderbuffer
 glBindTexture
@@ -8667,17 +6371,12 @@ globalPriorityMap
 gpuSpeedRenderTargetScale
 gpuSpeedVendor
 gpu_profiler_capture
+grab
 grab_value_and_force
 graph
 greek
 green
 gripLimitData
-h ATAVAWH
-hA\^][
-hA^A\[]
-hA_A^A]A\_^[]
-hA_A^A]A\_^][
-hH;]o
 hand_right_poses.glb
 hangInit
 haptic
@@ -8687,6 +6386,7 @@ haptic_duration
 haptic_frequency
 haptics
 height
+held
 hidden
 hide_callout
 hide_dashboard_requested
@@ -8695,17 +6395,12 @@ hmd_profile
 holographic_controller
 hpmotioncontroller
 http://
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 https://
 hu_hu
 hungarian
-iError calling pDownsampleRenderer->Draw()!
+iError calling pDownsampleRenderer->Draw()!\n
+i]Wb
 icon_steamvr_desktopgame.png
-ig@-?e
 illegal code in raster
 illum
 image.m_eState == ImageState::Released
@@ -8816,17 +6511,14 @@ it == m_vecOverlaysToDestroyOnClose.end() || *it != ulOverlayHandle
 it->nRefCount > 0
 it_it
 italian
-ix`fA
 ja_jp
 japanese
-jj@0HK4
 joints
 joystick
 joystick_rotation_x
 joystick_rotation_y
 joystick_settings
 jsonid
-k0i0$
 k_EButton_A
 k_EButton_ApplicationMenu
 k_EButton_Axis0
@@ -8852,69 +6544,13 @@ khr_simple_controller
 knuckles
 ko_kr
 koreana
-l$ ATAVAWH
-l$ AVH
-l$ E3
-l$ H;
-l$ H=
-l$ L;
-l$ M;
-l$ UAVAWH
-l$ VATAUAVAWH
-l$ VATAWH
-l$ VH
-l$ VWATAUAVH
-l$ VWATAVAW
-l$ VWATH
-l$ VWAVH
-l$ VWAWH
-l$ WATAUH
-l$ WATAWH
-l$ WAVAWH
-l$ WAVHc|$8I
-l$ WH
-l$(E3
-l$0A^_
-l$0E3
-l$0H+
-l$4H;
-l$8E3
-l$8H;
-l$8M;
-l$8ff
-l$8fff
-l$@A3
-l$@fD
-l$@t^
-l$DI9V
-l$HH;
-l$HI;
-l$PH;
-l$PI;
-l$PM9n
-l$TD;
-l$X9C
-l$XD+
-l$XH;
-l$XM;
-l$`E3
-l$`L;
-l$`t	M
-l$hL;
-l$pH;
-l$pL;l$P
-l$pM+
-l$pt E
-l$x@2
-l$xE3
-l$xHc
-l$xLc
-l2|X/gGe
+laIO
 language_tag
 latam
 latch
 launch_app_already_running
 ldexp
+left
 leftThumbstickRotation
 left_
 leftright
@@ -8936,10 +6572,10 @@ localization_files
 localized_action_name
 log_file_name
 loglevel
+logs
+long
 long_press_delay
 lower
-m0_$@
-m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
@@ -8970,14 +6606,13 @@ m_pDevice == VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
 m_pSyncDevice == nullptr
-m_pSyncTexture == nullptr
 m_pTextureIndex == nullptr
 m_pTextureIndexStaging == nullptr
 m_pendingLock.empty()
 m_pglTexImage3D( target, 0, nTextureFormat, unWidth, unHeight, unArraySize, 0, unTextureType, unDataType, pTextureData )
 m_pglTexStorage3D( GL_TEXTURE_2D_ARRAY, 1, nTextureFormat, unWidth, unHeight, unArraySize )
 m_releaseMutexes.size() == m_releaseKeys.size()
-m_sharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed
+m_sharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
 m_signalTimelines.size() == m_signalPoints.size()
 m_ulHandle != vr::k_ulInvalidMailbox
 m_ulNanosecondsPerFrame > 1
@@ -9008,6 +6643,7 @@ memcmp
 memcpy
 memmove
 memset
+mesh
 mesh.pVertexData != nullptr && mesh.unTriangleCount > 0
 meshes
 message_id
@@ -9029,15 +6665,16 @@ missing
 missing binding_url in default binding
 missing color table
 missing controller_type in default binding
+mode
 modelnumber
 modelskins
+modf
 modff
 motion
 motionSmoothing
 mtllib
 multiple IHDR
 multiple signals per batch not allowed
-n0_D@
 nArrayIndex < m_details.nArrayLayerCount
 nChildIndex != vr::k_unInvalidBoneIndex
 nClientFrameIndex != k_nInvalidClientFrameIndex
@@ -9049,6 +6686,7 @@ nParentBoneIndex != k_unInvalidBoneIndex
 nProcessId == data->m_nSceneFocusProcessId
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
+name
 nb_no
 new_pid
 newmtl
@@ -9061,7 +6699,9 @@ no SOI
 no clear code
 no header height
 no preset dict
+node
 nodes
+none
 normalTexture
 normalized
 north
@@ -9076,19 +6716,13 @@ not enough pixels
 notification_id
 notifications
 ntdll.dll
-ntelD
+null
 null literal
 num_buttons
 number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o@@fD
-oD$ fD
-oD$0f
-oD$0fD
-oL$ f
-oT$0f
 object
 object key
 object separator
@@ -9096,11 +6730,14 @@ occlusionTexture
 oculus
 oculus_sdk_app_started
 oculus_touch
+off/
 off_haptic_amplitude
 off_haptic_duration
 off_haptic_frequency
 offset
 old_pid
+on/x
+on/y
 only 8-bit
 openvr
 openvr.component.vrcompositor
@@ -9118,9 +6755,6 @@ options field exists, but it is not an object
 origin
 origin_to_highlight
 orthographic
-ot$@f
-ot$HH
-ot$Pf
 other_presence
 out_of_range
 outerConeAngle
@@ -9134,29 +6768,6 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
-p UWAUAVAWH
-p UWAVH
-p WATAUAVAWH
-p WATAVH
-pA]A\^
-pA]A\^[]
-pA]A\_
-pA^A]A\
-pA^A]_^[
-pA^^]
-pA^_^[]
-pA_A\]
-pA_A]A\_]
-pA_A]_^]
-pA_A^A\_]
-pA_A^A]
-pA_A^A]A\[
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-pA_A^^
-pA_A^_
-pA_A^_^[
-pA_A^_^]
 pBuffer != nullptr
 pClient
 pCmdBuf
@@ -9190,11 +6801,14 @@ pTextureHandle != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-parameter must be a string or number / number array.
+p\r0\fP!o
+page
+parameter must be a string or number / number array.\n
 parameters
 parse
 parse error
 parse_error
+path
 pauseCompositorOnStandby
 pbrMetallicRoughness
 perfcheck
@@ -9209,6 +6823,7 @@ playAreaColor
 play_area
 polish
 portuguese
+pose
 pose_component
 pose_constant
 poses
@@ -9218,6 +6833,7 @@ position_x
 position_y
 position_z
 power
+powf
 ppCmdBuf
 precision
 preferredRefreshRate
@@ -9241,18 +6857,10 @@ progress
 progress_icon
 pt_br
 pt_pt
+pull
 punct
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
-r'w.H;
-r+w6I
-r,fff
-r0uEH
-r2t	A
-r5u.M
-r8u.M
-rND9{0t
-rTu.M
 radial_menu
 range
 read past buffer
@@ -9278,6 +6886,7 @@ returnAddress
 returnBindingsWithHead
 returnBindingsWithLeftHand
 returnBindingsWithRightHand
+rift
 right
 rightThumbstickRotation
 right_
@@ -9292,10 +6901,6 @@ roundf
 ru_ru
 runtime
 russian
-s AVH
-s$D;E
-s(HcEoH
-s=fff
 sButtonTexts
 sCaptionText
 sMessageText
@@ -9656,7 +7261,7 @@ showCompatibilityModeNotification
 showEnableInSettings
 show_app_binding
 show_dashboard_requested
-shtOH
+side
 simple
 simulate_hmd
 simulate_rendermodel
@@ -9666,13 +7271,16 @@ simulated action is not an object
 simulated_actions
 simulated_controller_type
 simulation_settings
+sinf
 single
 skeleton
 skeletonDataWithController
 skeletonDataWithoutController
 skeletons
+skin
 skins
 slData
+slot
 smooth
 smooth_scroll_acceleration_power
 smooth_scroll_deceleration
@@ -9701,7 +7309,7 @@ space
 spanish
 sparse
 spatialAnchorsSupport
-stD8mht
+spot
 stackLimit
 standaloneSystemLayer
 standard
@@ -9763,7 +7371,6 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
-su|'S
 sv_se
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
@@ -9847,148 +7454,12 @@ system.systemui
 system.vrresources
 system.window.
 systemui_dashboard
-t	D82
-t	D;y0s
-t	L90
-t	L9?t
-t!I99u
-t!L98t
-t!LcD$hH
-t"D8kCt
-t#fff
-t$ AVH
-t$ AWH
-t$ E3
-t$ H;
-t$ HcH
-t$ Hi
-t$ L;
-t$ UAVAWH
-t$ UH
-t$ UWATAUAVH
-t$ UWATAUAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WATAWH
-t$ WAV
-t$ WAVAWH
-t$ WH
-t$ fH
-t$ fI
-t$(E2
-t$(E3
-t$(H+
-t$(H;
-t$(Hi
-t$(I;
-t$(L;
-t$0A^_
-t$0E3
-t$0H+
-t$0H9Q
-t$0H;
-t$0Hc
-t$0I;
-t$0L;G
-t$0M9g
-t$0M;
-t$0fff
-t$0u	E
-t$8E3
-t$8H+
-t$8H;
-t$8Hc
-t$8HcA
-t$8Hk
-t$8I+
-t$8L9t$@tg
-t$8L;
-t$@@2
-t$@E3
-t$@H+
-t$@H;
-t$@H=
-t$@I;
-t$@L;
-t$DA+
-t$HH+
-t$HH;
-t$HHi
-t$HI;
-t$HL;
-t$HLi
-t$HM9
-t$Hfff
-t$Hu)H
-t$HuJH
-t$PE3
-t$PH+
-t$PH=
-t$PHc
-t$PI+
-t$PI;
-t$PL+
-t$XH;
-t$XI;
-t$`D;
-t$`E2
-t$`E3
-t$`H;
-t$`I+
-t$`L;
-t$`Li
-t$`Lk
-t$`M;
-t$hE3
-t$hH+
-t$hHc
-t$hL;
-t$pE3
-t$pH;
-t$pI;
-t$pM;
-t$pfA
-t$pfD
-t$pu'
-t$xI;
-t&@8t$`u5H9l$0u.H
-t'H9x
-t)H9P
-t,fff
-t-A9D
-t.L9Ght(
-t1Hcl$@
-t1fff
-t3fff
-t6H9.u1
-t7fff
-t8D8-
-t9fff
-t:fff
-t>H9n
-t>y#I
-t?9|$pt9H
-t?y$I
-t?y&I
-tAy&H
-tE9t$8r?E
-tFH;Y r@H
-tFfff
-tHI9t$
-tJL;y rDH
-tNI;X rHI
-tQH95W
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tTfff
-tUL9l$ptNH
-tXH+A
-tXfff
-t[H+A
+tanf
 target
 targets
-tb9l$Xt@9n$~;
 tchinese
 tdh.dll
 terminate
@@ -9997,8 +7468,8 @@ texCoord
 text/plain
 texture_handle
 textures
-tgfff
 th_th
+thai
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
 thumbnail
@@ -10009,13 +7480,11 @@ thumbstick_deadzone_%s
 thumbstick_settings
 thumbstick_settings_%s
 thumbstick_system_override
+time
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
 timeSetEvent
-tlfff
-tmfff
-tnL99ti
 toggle_button
 toggle_camera_room_view
 tolower
@@ -10034,8 +7503,6 @@ touched_path
 touchy_click
 touchy_latch
 toupper
-tqfff
-trL9?tm
 tr_tr
 trackedCamera
 tracked_device_index
@@ -10045,7 +7512,7 @@ tracking_system_name
 trackpad
 trackpad/
 trackpad_scroll
-trackpad_scroll has been removed. Please use scroll instead
+trackpad_scroll has been removed. Please use scroll instead\n
 trackpad_scroll_
 trackpad_touch
 transform
@@ -10055,58 +7522,10 @@ trigger
 trigger_haptic
 trigger_laser_mouse_haptic_vibration
 trigger_path
+true
 true literal
 turkish
-t|SUVH
-t}H9=F
-u	A;p(s
-u	A;y(s
-u	H9|$ tI
-u	M;p(s
-u H9x r
-u I9u(trH
-u L9}xt
-u#H9H s
-u#H9P s
-u#H9Q s
-u'@8u
-u*H9w`t$H
-u*H9{`t$H
-u+D8}
-u-H9X s
-u.H9{`t(H
-u4H9X s
-u5H9t$0u.H
-u<+u8
-u<H9^xtLH
-u>D8}
-u>L9>u9;\$0t3
-u>f9X u8f9X0u2f9X@u,f9XPu&
-u>f9X"u8f9X2u2f9XBu,f9XRu&
-u@M9'
-uAfff
-uD+u@
-uDA9O
-uDf9X
-uE8VTt
-uGH9t$Pt.I
-uHD8}
-uJ9;tFD
-uJf9X
-uM8D$@tG
-uMD9I
-uO8D$@tI
-uP@8;uo
-uRf;>tM
-uSD9d$DuLD8
-uWH9P sEH
-uZEeu
-u`H;u
-ub'vb'v
-ugL9x s
-ugL;D$H
-ui8D$0tc
-ukH9X s
+type
 uk_ua
 ukrainian
 unCallingProcessID
@@ -10115,7 +7534,7 @@ unProcessID
 unSamples == 1 && unArraySize >= 1
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->unSize
-unable to allocate vkBuffer-associated memory
+unable to allocate vkBuffer-associated memory\n
 uncbVREvent <= sizeof( vr::VREvent_t )
 unexpected 
 ungetc
@@ -10131,7 +7550,6 @@ unknown token
 unsupported bit depth
 unsupported data layout
 unsupported format
-upH;~ uj
 upper
 usage
 usbservice
@@ -10141,11 +7559,6 @@ usePrism
 useSpecialFloats
 usemtl
 userinterface
-v4fff
-v=Y]Bv
-vD;EHL
-vE;E`M
-vHcD$LH
 value
 value_hold_threshold
 value_mapping
@@ -10156,7 +7569,6 @@ valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
 variant
-vb'vb'v
 vector1
 vector2
 vector3
@@ -10164,13 +7576,13 @@ vector<T> too long
 vector<bool> too long
 version
 version.txt
-vfA'I
 vi_vn
 vibration
 vid_%04x
 vietnamese
 visibility
 visible_time_in_seconds
+vive
 vive_controller
 vive_cosmos_controller
 vive_focus3_controller
@@ -10206,18 +7618,18 @@ vkAcquirePerformanceConfigurationINTEL
 vkAcquireProfilingLockKHR
 vkAcquireWinrtDisplayNV
 vkAllocateCommandBuffers
-vkAllocateCommandBuffers failed with error %d.
+vkAllocateCommandBuffers failed with error %d.\n
 vkAllocateDescriptorSets
 vkAllocateMemory
-vkAllocateMemory failed with result %d
+vkAllocateMemory failed with result %d\n
 vkBeginCommandBuffer
 vkBindAccelerationStructureMemoryNV
 vkBindBufferMemory
-vkBindBufferMemory failed with %x
+vkBindBufferMemory failed with %x\n
 vkBindBufferMemory2
 vkBindBufferMemory2KHR
 vkBindImageMemory
-vkBindImageMemory failed with result %d
+vkBindImageMemory failed with result %d\n
 vkBindImageMemory2
 vkBindImageMemory2KHR
 vkBindOpticalFlowSessionImageNV
@@ -10483,7 +7895,7 @@ vkCopyMicromapToMemoryEXT
 vkCreateAccelerationStructureKHR
 vkCreateAccelerationStructureNV
 vkCreateBuffer
-vkCreateBuffer faield with %x
+vkCreateBuffer faield with %x\n
 vkCreateBufferView
 vkCreateCommandPool
 vkCreateComputePipelines
@@ -10507,11 +7919,11 @@ vkCreateFramebuffer
 vkCreateGraphicsPipelines
 vkCreateHeadlessSurfaceEXT
 vkCreateImage
-vkCreateImage failed with result %d
+vkCreateImage failed with result %d\n
 vkCreateImageView
 vkCreateIndirectCommandsLayoutNV
 vkCreateInstance
-vkCreateInstance failed with error %d
+vkCreateInstance failed with error %d\n
 vkCreateMicromapEXT
 vkCreateOpticalFlowSessionNV
 vkCreatePipelineCache
@@ -10590,7 +8002,7 @@ vkEndCommandBuffer
 vkEnumerateDeviceExtensionProperties
 vkEnumerateDeviceLayerProperties
 vkEnumerateInstanceExtensionProperties
-vkEnumerateInstanceExtensionProperties failed with error %d
+vkEnumerateInstanceExtensionProperties failed with error %d\n
 vkEnumerateInstanceLayerProperties
 vkEnumerateInstanceVersion
 vkEnumeratePhysicalDeviceGroups
@@ -10713,7 +8125,7 @@ vkGetPhysicalDeviceFormatProperties2KHR
 vkGetPhysicalDeviceFragmentShadingRatesKHR
 vkGetPhysicalDeviceImageFormatProperties
 vkGetPhysicalDeviceImageFormatProperties2
-vkGetPhysicalDeviceImageFormatProperties2 failed with result %d
+vkGetPhysicalDeviceImageFormatProperties2 failed with result %d\n
 vkGetPhysicalDeviceImageFormatProperties2KHR
 vkGetPhysicalDeviceMemoryProperties
 vkGetPhysicalDeviceMemoryProperties2
@@ -10854,7 +8266,7 @@ vr_internal::VRSettings() != nullptr
 vrclient
 vrclient Shared Lib Not Found (102)
 vrclient event
-vrclient type=%s
+vrclient type=%s\n
 vrclient_x64.dll
 vrcombined_log.previous.txt
 vrcombined_log.txt
@@ -10867,12 +8279,11 @@ vrmonitor.exe
 vrntfyimg#%d
 vroverlaylatest
 vrserver internal error (124)
-vrserver pid %d
+vrserver pid %d\n
 vrserver.exe
 vrwebhelper
 vrwebhelper.exe
 vulkan-1.dll
-w(M9w0tH
 watchdog_controller
 watchdog_hmd
 watchdog_unknown
@@ -10882,6 +8293,7 @@ wcsstr
 webinterface/dashboard/localization/webhelper_
 wedge_angle
 weights
+west
 west_click
 west_touch
 wglCreateContext
@@ -10889,13 +8301,13 @@ wglDXCloseDeviceNV
 wglDXLockObjectsNV
 wglDXObjectAccessNV
 wglDXOpenDeviceNV
-wglDXOpenDeviceNV failed!
+wglDXOpenDeviceNV failed!\n
 wglDXRegisterObjectNV
 wglDXSetResourceShareHandleNV
 wglDXUnlockObjectsNV
 wglDXUnregisterObjectNV
 wglGetCurrentContext
-wglGetCurrentContext() returned NULL.  No OpenGL context current.
+wglGetCurrentContext() returned NULL.  No OpenGL context current.\n
 wglGetProcAddress
 wglMakeCurrent
 wglMakeCurrent failed with 0x%X
@@ -10913,20 +8325,9 @@ wrapT
 wrong channel count
 wrong color format
 wrong version
-ww'Hc
-www.digicert.com1!0
-www.digicert.com1$0"
-x ATAVAWH
-x AVH
-x L;mht
-x UATAUAVAWH
-x UAVAWH
-xA\^][
-xA]^[]
-xA^A\_^][
-xA_A^A]A\][
 x_path
 xdigit
+xmag
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -10936,11 +8337,11 @@ xrBeginFrame: compositor failed DiscardFrame()
 xrBeginSession
 xrConvertTimeToWin32PerformanceCounterKHR
 xrConvertTimeToWin32PerformanceCounterKHR: Time was invalid.
-xrConvertTimeToWin32PerformanceCounterKHR: performanceCounter is null
+xrConvertTimeToWin32PerformanceCounterKHR: performanceCounter is null\n
 xrConvertWin32PerformanceCounterToTimeKHR
-xrConvertWin32PerformanceCounterToTimeKHR: performanceCounter is null
-xrConvertWin32PerformanceCounterToTimeKHR: time is negative
-xrConvertWin32PerformanceCounterToTimeKHR: time is null
+xrConvertWin32PerformanceCounterToTimeKHR: performanceCounter is null\n
+xrConvertWin32PerformanceCounterToTimeKHR: time is negative\n
+xrConvertWin32PerformanceCounterToTimeKHR: time is null\n
 xrCreateAction
 xrCreateActionSet
 xrCreateActionSpace
@@ -10948,21 +8349,21 @@ xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT
 xrCreateHandTrackerEXT: Data source was duplicated
 xrCreateInstance
-xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION 
-xrCreateInstance error: extension unsupported %s
-xrCreateInstance error: failed to create instance
-xrCreateInstance error: maximum 1 instance
+xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION \n
+xrCreateInstance error: extension unsupported %s\n
+xrCreateInstance error: failed to create instance\n
+xrCreateInstance error: maximum 1 instance\n
 xrCreateReferenceSpace
 xrCreateSession
-xrCreateSession: Ignoring unsupported extension in next chain of type: %d
+xrCreateSession: Ignoring unsupported extension in next chain of type: %d\n
 xrCreateSession: bad system ID. Arg (%llu), Instance( %llu ) 
-xrCreateSession: failed to call xr*GetGraphicsRequirements before xrCreateSession
+xrCreateSession: failed to call xr*GetGraphicsRequirements before xrCreateSession\n
 xrCreateSession: failed to call xrGetVulkanGraphicsDevice before xrCreateSession
 xrCreateSwapchain
 xrCreateVulkanDeviceKHR
-xrCreateVulkanDeviceKHR error: invalid VkPhysicalDevice
-xrCreateVulkanDeviceKHR error: invalid createInfo parameters
-xrCreateVulkanDeviceKHR error: invalid parameters
+xrCreateVulkanDeviceKHR error: invalid VkPhysicalDevice\n
+xrCreateVulkanDeviceKHR error: invalid createInfo parameters\n
+xrCreateVulkanDeviceKHR error: invalid parameters\n
 xrCreateVulkanInstanceKHR
 xrDestroyAction
 xrDestroyActionSet
@@ -11002,10 +8403,10 @@ xrGetReferenceSpaceBoundsRect
 xrGetSystem
 xrGetSystemProperties
 xrGetViewConfigurationProperties
-xrGetVisibilityMask: invalid view configuration type (%i)
-xrGetVisibilityMask: invalid view index
-xrGetVisibilityMask: invalid visibility mask type
-xrGetVisibilityMask: null visibilityMask
+xrGetVisibilityMask: invalid view configuration type (%i)\n
+xrGetVisibilityMask: invalid view index\n
+xrGetVisibilityMask: invalid visibility mask type\n
+xrGetVisibilityMask: null visibilityMask\n
 xrGetVisibilityMaskKHR
 xrGetVulkanDeviceExtensionsKHR
 xrGetVulkanGraphicsDevice2KHR
@@ -11019,12 +8420,12 @@ xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first 
 xrLocateHandJointsEXT
 xrLocateSpace
 xrLocateViews
-xrLocateViews called with a different view configuration type (%d) than was used in xrBeginSession (%d)
+xrLocateViews called with a different view configuration type (%d) than was used in xrBeginSession (%d)\n
 xrLocateViews: Display time was invalid.
 xrLocateViews: Switching to TrackingUniverseSeated because XR_REFERENCE_SPACE_TYPE_LOCAL continued to be requested for more than 3 seconds
 xrLocateViews: Switching to TrackingUniverseStanding because XR_REFERENCE_SPACE_TYPE_STAGE was requested
 xrNegotiateLoaderRuntimeInterface
-xrNegotiateLoaderRuntimeInterface bRunningInAppContainer: %d
+xrNegotiateLoaderRuntimeInterface bRunningInAppContainer: %d\n
 xrPathToString
 xrPollEvent
 xrReleaseSwapchainImage
@@ -11049,146 +8450,15 @@ xrWaitSwapchainImage
 xrclient
 xrclient_conformance
 xrconformance/driver
-xxxxxxx
-yPDX10
 y_path
-yxxxxxxx3
-yxxxxxxxH
-yxxxxxxxH+
-yxxxxxxxI
-yxxxxxxxL
-yxxxxxxxL+
+yfov
+ymag
+zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
 { "type": "keyboard_hidden" }
 { "type": "keyboard_shown" }
-{ AVH
-{%s}%s
-{un'%
-{x\u!H
-{|?uWH
-|$ ATAUAVAWH
-|$ ATAUAVAWL
-|$ ATAVAWH
-|$ ATH
-|$ AUAVAWH
-|$ AV
-|$ AVH
-|$ AVI
-|$ AVL
-|$ AWH
-|$ E3
-|$ H+
-|$ H;
-|$ M;
-|$ UATAUAVAWH
-|$ UATAVH
-|$ UATAWH
-|$ UAUAVH
-|$ UAVAWH
-|$ UH
-|$ r}H
-|$(A^
-|$(E3
-|$(H;
-|$0"u+A
-|$0@2
-|$0D9yXt
-|$0E3
-|$0H9
-|$0H;
-|$0Hk
-|$0Ii
-|$0Mc
-|$0ff
-|$0u)H
-|$0uDH
-|$0w1
-|$4!u
-|$4$u
-|$4(u
-|$8D93
-|$8D;t$ r
-|$8E3
-|$8H;
-|$8t	3
-|$<I;
-|$@A_A^A]A\
-|$@D;
-|$@E3
-|$@H#
-|$@H+
-|$@H;
-|$@Hc
-|$@HcS
-|$@I;
-|$@M;
-|$D!u	
-|$HA;
-|$HE3
-|$HH;
-|$HH=
-|$HHc
-|$HI+
-|$HL+
-|$L!u
-|$L!u	
-|$L@8
-|$P9G0v*
-|$PE3
-|$PH+
-|$PH;
-|$PI9|$XtjH
-|$PL9~
-|$PLc
-|$PM+
-|$PuCH
-|$T!u
-|$TH;
-|$TtH
-|$X@2
-|$XH+
-|$XH9
-|$XH;
-|$\!u
-|$`H;
-|$hL;
-|$pE2
-|$pE3
-|$pH+
-|$pH;
-|$pI+
-|$pI;
-|$pM;
-|$t!u
-|$tD;
-|$xE3
-|$xH+
-|$xI;
-|$xIi
-|$xIk
-|$xL;
-|D8E t"H
-|Lu?c
-|s;K(tnA
-}(M98t
 }/localization/localization.json
-}0H;}8tQH
-}497t
-}LuHO
-}PI9}Xt2H
-}`H+}XH
-}gfff
-~)HcB
-~+fff
-~3LcD$(L
-~6HcD$ I
-~Cfff
-~PH9~Xt(H
-~XH9~`t+H
-~qfff
-~qj#k"
-~t&LN
 ~universe:

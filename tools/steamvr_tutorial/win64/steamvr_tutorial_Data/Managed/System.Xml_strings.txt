@@ -1,104 +1,53 @@
-										
-	 0&E
-	*	e*
-	+?	oD
-	,		o
-	,		oY-
-	,		oz
-	,(	o	
-	,*	o
-	,,	ou-
-	,7	o
-	,;	o
-	,\rLT
-	,e	oJ,
-	,f	u
-	,u	o}+
-	-!r&
-	-$sn-
-	-,sr+
-	-/sA3
-	.%+e
-	.%+k
-	.&+p
-	3Z	o
-	9	<	M	Q	T	X	c	f	o	
-	9	=	=	X	a	
-	I(k1
-	Namespace http://www.w3.org/2001/XMLSchema
-	X(e1
-	Xo/>
-	XsQ1
-	Yo/>
-	YsQ1
-	Zo/>
-	[o/>
-	]o/>
-	attribute$System.Xml.Schema.XmlSchemaAttribute
-	e*	*
-	e*	*r~
-	eo->
-	extension
-	extension1System.Xml.Schema.XmlSchemaSimpleContentExtension
-	extension2System.Xml.Schema.XmlSchemaComplexContentExtension
-	maxLength)System.Xml.Schema.XmlSchemaMaxLengthFacet
-	maxOccurs
-	minLength)System.Xml.Schema.XmlSchemaMinLengthFacet
-	minOccurs
-	namespace
-	qualified
  &!&!*!+!.!.!
- .H+T
+ 28u
  3333
- >J-F W
- R;uD 
- U)R ;
+ JTq
  UUUU
- Y}G 
- Z~I 
- Z~J 
- b	n`(
- cm*"
- di*"
- jU'9 
+ dmT
+ oX6
+ sx0
 !CollapseWhiteSpaceIntoEmptyString
-!This program cannot be run in DOS mode.
 " l3o
-"3.	o
-"33	o
-"3A	o
+"33\to
+"3A\to
+"6lS
+"Fpx
+"oX6
+#17V
 #333333
 #Blob
 #GUID
 #Mono Common Language Infrastructure
 #Strings
 #Use DtdProcessing property instead.
-%	o<%
-%%oM,
-%J	YT
+#all
+$1HV
+$1QV
+$Ds1
+%1YV
+%J\tYT
 &!&!*!+!.!.!
-&*Fr)
-&+%	uw
-&+p	uN
 &.Q8Q
-'.Y+o	
-'.f+w
+&1bV
+&1vV
+&20v
+&Jpu
+&oX6
+'2Pv
+'9bB
+'J8v
 'System.Xml.DtdParser+<ParseAsync>d__155
-(.2+H
+(2hv
+(6TT
 (c) Various Mono authors
 ({Line},{Pos})
+)J0w
 )System.Xml.DtdParser+<ParsePIAsync>d__171
 )enableMemberAccessForXslCompiledTransform
-*	*A4
-*	*AL
-*	,>	o
-*	oJ,
-*	o}+
-*"~w'
-*.s&4
 *.s03
-*.sE(
 *.sM3
+*14W
+*1MW
 *6s!4
 *6s*5
 *6s-3
@@ -112,6 +61,7 @@
 *6sV4
 *6sZ4
 *6s^4
+*6sa
 *6sb4
 *6sc6
 *6sf3
@@ -124,127 +74,55 @@
 *6sr4
 *6sz4
 *6s~4
-*6~n 
-*J~r 
+*FrJ
 *System.Xml.Base64Encoder+<FlushAsync>d__11
 *System.Xml.BinHexEncoder+<EncodeAsync>d__5
 *System.Xml.DtdParser+<GetTokenAsync>d__174
 *System.Xml.DtdParser+<ReadDataAsync>d__203
 *System.Xml.Schema.Parser+<ParseAsync>d__37
-*^~l 
-*^~m 
-*js(	
+*Vsd
+*jr7
 *nsy=
-*~r`F
-+	rr&
-+" gfffj
-+$	oS
-+$	ti
-+$~F)
-+%	{8
-+'	{8
-+'r`o
-+'s\-
-+(	or
-+,	od-
-+,~I)
-+/	oF
-+0	u8
+*rHJ
+*rrI
++0\tu8
++1UW
 +1rEb
-+3	u;
-+4	u_
-+4~I)
-+6s\-
-+9	ok-
-+9	or
-+<~J)
-+>	or
-+?	uN
-+C	or
-+D	or
-+D~E)
-+G	or
-+I	or
-+J	u8
-+L~L)
-+N	,%	o
-+N	ui
-+O	uV
++1rt
++5rJ
++J\tu8
++N\tui
++O\tuV
 +System.Xml.Base64Encoder+<EncodeAsync>d__10
 +System.Xml.DtdParser+<ScanQNameAsync>d__198
 +System.Xml.XmlReader+<WriteNodeAsync>d__199
 +System.Xml.XmlWriter+<WriteNodeAsync>d__106
-+X	u~
-+[sf+
-+\	or
-+]	or
-+^	or
-+j	u]
-+v	oR
-+x	or
-+z	{4
-+|	o]-
-+}	oz
-,	~h%
++sU2
++v\toR
 ,!rW8
-,"	o +
-,"r,|
-,#r0 
 ,#rUU
-,$r 4
 ,&rES
-,&sh,
-,'l;	
-,(	om
-,(r**
-,(r@ 
-,)rul
-,,	tD
-,,rU*
-,-rQj
-,/re(
-,0	ui
+,0\tui
+,1fW
+,1nW
+,1wW
+,2rC
 ,2sf+
 ,2sh,
 ,4r`o
-,5	tc
-,5s=-
-,6	, 
-,7roK
-,8	,5
-,:	{ 
-,>	oW3
-,?	t>
-,?	u>
+,5\ttc
 ,?reG
-,Cs=-
-,F	ti
-,G	o|
-,G	u>
-,I	o]-
-,L	o]-
+,F\tti
 ,Nr`o
-,P	t~
-,P~t 
-,X	,N
-,a	ti
+,a\tti
 ,asO-
-- r`F
--!	o~
--#rd{
--$sp-
--%	-"r
--%sL+
--&rB[
+,cs5
 -&rrL
--&sh,
--(r8"
--)r"2
--)rS>
--/sv*
+-0rc
 -1rk!
+-5rK
+-7rK
 -Jsr+
--Os=-
 -System.Xml.DtdParser+<ParseSubsetAsync>d__160
 -System.Xml.DtdParser+<ScanEntity1Async>d__189
 -System.Xml.DtdParser+<ScanEntity2Async>d__190
@@ -256,15 +134,24 @@
 -System.Xml.XmlSubtreeReader+<SkipAsync>d__105
 -System.Xml.XsdCachingReader+<ReadAsync>d__100
 -System.Xml.XsdCachingReader+<SkipAsync>d__101
+-Us5
 -Usv*
--e	,>	o
--w	o1
+-\fr5C
+-\frVL
+-\frY4
+-\rrKg
+-\rrui
+-\vr6h
+-\vrB4
+-\vrCE
+-\vrI8
+-\vrM1
+-\vrt0
+-\vrwb
 .(r8j
-../ecma.pub
-.1+>r
-.3F	%
 .4rk2
 .6rd0
+.6sU
 .Ps<5
 .System.Xml.DtdParser+<ParseCommentAsync>d__170
 .System.Xml.DtdParser+<ParseHowManyAsync>d__166
@@ -279,38 +166,48 @@
 .System.Xml.XmlReader+<ReadInnerXmlAsync>d__198
 .System.Xml.XmlReader+<ReadOuterXmlAsync>d__200
 .System.Xml.XmlTextReaderImpl+<SkipAsync>d__482
-.Z	o}
-.`	 i
 .cctor
 .ctor
-.text
-.|+^	o
-/*j~#
+.d82
+.h8p
 /,rfC
+/FB2
 /System.Xml.DtdParser+<ScanNotation1Async>d__187
 /System.Xml.DtdParser+<ScanPublicId1Async>d__192
 /System.Xml.DtdParser+<ScanPublicId2Async>d__193
 /System.Xml.XmlReader+<MoveToContentAsync>d__197
 /System.Xml.XmlReader+<ReadContentAsAsync>d__186
 /System.Xml.XmlUrlResolver+<GetEntityAsync>d__15
+/\vrG3
+/\vrS3
+/\vra3
+/\vrk3
+/\vrw3
+/of8
+0 C1
 0!0)0A0
 0!0/01050A0
+0,HU
 0596273829C0656B9F4D263DA48C807FDF60FD27
 069E73928E697FB3ED96AD686A80D49E961EC4F9
 0701435C4E2C38EFE43C51BD22C114AB8B80124D
+0=H8
 0EE6555EB2C89F29655BD23FAB0573D8D684331A
 0F6A1E2CEA2FA691D57F3F3FDCF9B82A3FBF6EE1
+0Rl\n
 0System.Xml.DtdParser+<ReadDataInNameAsync>d__199
 0System.Xml.XsdValidatingReader+<SkipAsync>d__197
 0[0Y0\
+0\vrQb
 0]0d0m0j0
+0^D0
+0i+2
 0n0J0O0
 0o0k0{0x0h0a0
+0rB\f
 0~0Q0u0S0H0f0B0U0M0
-1		(m1
+1 rh
 1$r`F
-1-~I 
-1-~J 
 112BD2E7CEBC3C1A5C5E787A092C4F74E6DF1F23
 161F91CE1721D8F16622810CBB39887D21C47031
 19914D4D7E28E626EA4D28E3B3C6B28E2DCA8012
@@ -323,12 +220,21 @@
 1System.Xml.XmlTextReaderImpl+<SkipDtdAsync>d__569
 1System.Xml.XmlWellFormedWriter+<FlushAsync>d__152
 1System.Xml.XmlWriter+<WriteAttributesAsync>d__102
-2'p;	
+1\frf
+1\frh;
+1\vrW;
+1rx\f
+2 H1
 2051D7520B96DCC12F2E4DE851CB9F203D623805
+22 x
 221CE291CD044114B4369175B9B91177F5932876
 2693A561CE39A18562457342E1CA1DA8458F45E4
+29"9
+2:Gk
 2A4F1BD548EC71F652E24985361CD72F0FE1BE7D
 2DAD551A6FC7BF127202070E2DC370B10ED2A071
+2HP/
+2Rn\n
 2System.Xml.DtdParser+<EatPublicKeywordAsync>d__201
 2System.Xml.DtdParser+<EatSystemKeywordAsync>d__202
 2System.Xml.DtdParser+<ParseAttlistDeclAsync>d__161
@@ -341,12 +247,19 @@
 2System.Xml.XmlTextReaderImpl+<ParseDtdAsync>d__568
 2System.Xml.XmlTextReaderImpl+<ReadDataAsync>d__505
 2System.Xml.XmlUtf8RawTextWriter+<FlushAsync>d__110
+2rX@
+3#s5
 358DEB448BB0E60258764D595A16B773F1B093C7
 360487BE4278986419B568EFD887F6145383168A
 39822119C0A939F36A5BFFACBC5B9A4B1AABB095
 39F0147780CED5C87CCBF7E204097B31A73977EF
+3:ok
 3C034E56E7913620E97A7A2E43D16C7F891A0272
-3K	up
+3CJ\f
+3EP/
+3F\to
+3K\tup
+3Q\to
 3System.Xml.DtdParser+<ParseNotationDeclAsync>d__169
 3System.Xml.DtdParser+<ScanQNameExpectedAsync>d__177
 3System.Xml.DtdParser+<ScanSubsetContentAsync>d__175
@@ -354,21 +267,31 @@
 3System.Xml.XmlTextReaderImpl+<SkipUntilAsync>d__571
 3System.Xml.XmlTextReaderImpl+<_GetValueAsync>d__473
 3System.Xml.XmlWellFormedWriter+<_SequenceRun>d__120
+3X\to
+3\frf
 3]rG`
-3`	t6
+3`\tt6
+3d\to
 3irG`
-3m	o 
+3m\to 
+3rz@
 3zs\-
-3|	t6
-4		I%
-4'z;	
-4*j~!
+3|\tt6
+4 K1
+4'TD\r
 4.0.0.0
 4.6.57.0
+41&Z
+41/Z
+424x
 42DDBEE388AB59C20A3D7D4D6555E78D74A45AE1
+42Xx
 485F43E332C2F7530815B17C08DAC169A8F697E0
 49$9/
 49C5BA13401986EC93E4677F52CBE2248184DFBD
+4CJ\f
+4HP/
+4Rp\n
 4System.Xml.AsyncHelper+<_CallVoidFuncWhenFinish>d__6
 4System.Xml.DtdParser+<ParseInDocumentDtdAsync>d__156
 4System.Xml.XmlTextReaderImpl+<ParseQNameAsync>d__577
@@ -378,16 +301,20 @@
 4System.Xml.XmlWellFormedWriter+<WriteRawAsync>d__149
 4System.Xml.XmlWriter+<WriteElementStringAsync>d__107
 4System.Xml.XmlWriter+<WriteQualifiedNameAsync>d__101
+4\ttp
 4{Uri} [{StartLine},{StartPos} -- {EndLine},{EndPos}]
-5#	 s
-5%	,7	
+51<Z
 51E4CA1C2B009A2876C6E57D8E69E3502BCA3440
+51aZ
 52BCE8E7EFAA4269AA79631DD5F47D15A649B201
 553E235E202D57C9F1156E7D232E02BBDC920165
 5733FA1CBD2C7E9B865AADCB3505C31FE927380C
 574B9D4E4C39F6E8004181E5765B627B75EB1AD1
+5=R9
 5BE9DB9EEB9CBB4D22472CA9734B1FA1D36126BD
 5D100A87B697F3AE2015A5D3B2A7B5419E1BCA98
+5F4y
+5HP/
 5System.Xml.AsyncHelper+<_CallTaskFuncWhenFinish>d__10
 5System.Xml.DtdParser+<ParseAttlistDefaultAsync>d__163
 5System.Xml.DtdParser+<ParseExternalSubsetAsync>d__159
@@ -402,11 +329,22 @@
 5System.Xml.XmlWellFormedWriter+<_TryReturnTask>d__118
 5Use XmlReaderSettings.DtdProcessing property instead.
 5Validation type should be specified as DTD or Schema.
+5r8\r
 6 A_p
+61+W
+61iZ
+61rZ
 65EFA272747FB0B99BB9A8BBDEDAE564C61F8B6D
 68D0F86889D5D656483EEE829BCEECDFEC91D8EA
+69+D
+69+E
 6A0D50D692745A6663128CD315B71079584F3E59
+6C+N
+6D!2
 6DFC9250492FDC984D6B53377D3836B5FF54D898
+6EW_
+6HP/
+6Rr\n
 6System.Xml.AsyncHelper+<_ReturnTaskBoolWhenFinish>d__8
 6System.Xml.DtdParser+<ParseFreeFloatingDtdAsync>d__157
 6System.Xml.XmlRawWriter+<WriteQualifiedNameAsync>d__74
@@ -419,20 +357,35 @@
 6System.Xml.XmlWellFormedWriter+<WriteCharsAsync>d__147
 6System.Xml.XmlWriter+<WriteLocalNamespacesAsync>d__108
 6System.Xml.XsdValidatingReader+<_ReadAsync_Read>d__193
-6_+d(
+6p+U
+6rj\r
 702F6A3276CBE481D247A77C20B5459FB94D07D2
+71zZ
+72py
 741A4943DAFD82EB1A19C7D59D33118BE5850140
 76A37DE9F46FC79071C6D55532C33EF92DC21461
 7895CD8ED207B9FE3B1484CDA03137DCAE089A18
+79\nC
 7A32E1A19C182315E4263A65A72066492550D8CD
+7CJ\f
+7CP/
+7Ep_
+7F#z
 7System.Xml.DtdParser+<HandleEntityReferenceAsync>d__205
 7System.Xml.ReadContentAsBinaryHelper+<FinishAsync>d__31
 7System.Xml.XmlCharCheckingWriter+<WriteCDataAsync>d__32
 7System.Xml.XmlWellFormedWriter+<WriteBinHexAsync>d__154
 7XDR Validation through XmlValidatingReader is obsoleted
-8.8+<~
+8!b3
+8=c9
+8=p9
 8B4E5E81A88D29642679AFCE41DCA380F9000462
+8CJ\f
+8D/2
+8Ex_
 8F3BA379120CAB2C6A212F39EB66382C6575697D
+8FLz
+8Rt\n
 8System.Xml.XmlEncodedRawTextWriter+<WriteRawAsync>d__118
 8System.Xml.XmlEncodedRawTextWriter+<WriteRawAsync>d__119
 8System.Xml.XmlEncodedRawTextWriter+<_RawTextAsync>d__139
@@ -443,12 +396,18 @@
 8System.Xml.XmlUtf8RawTextWriter+<WriteDocTypeAsync>d__88
 8System.Xml.XmlWellFormedWriter+<WriteCommentAsync>d__138
 8System.Xml.XmlWellFormedWriter+<WriteDocTypeAsync>d__116
+8\fB2
+9&rW
+9'TG\r
+9,dV
 925E66261A7A5ECAE0D8764EDDA326CEDBC7A63C
 942C3A42D4A40CA2347389D7F2805305CBB4FA55
+97%2
 977375E4E1ED54F588076ACA36CC17E6C2195CB9
 99F0664C2AC8464B51252D92FC24F3834C6FB90C
 9A292EA26BA17AB0E987A2BFB9929FBDC8BDB1C3
 9A45A8272275FEA6F5384242A4EA5B6CA874321C
+9D=2
 9E31F24F64765FCAA589F589324D17C9FCF6A06D
 9E374D7263B2452E25DE3D6E617F6A728D98A439
 9System.Xml.AsyncHelper+<_CallBoolTaskFuncWhenFinish>d__12
@@ -460,6 +419,10 @@
 9System.Xml.XmlTextReaderImpl+<_ParseEndElmentAsync>d__522
 9System.Xml.XmlUtf8RawTextWriter+<WriteCommentAsync>d__100
 9System.Xml.XsdValidatingReader+<ReadContentAsAsync>d__188
+9fB;
+:2pz
+:6cV
+:DM2
 :Position={CurrentPosition}, Current={debuggerDisplayProxy}
 :System.Xml.DtdParser+<ParseElementMixedContentAsync>d__167
 :System.Xml.XmlEncodedRawTextWriter+<WriteCDataAsync>d__109
@@ -469,6 +432,9 @@
 :System.Xml.XmlTextReaderImpl+<ZeroEndingStreamAsync>d__583
 :System.Xml.XmlWellFormedWriter+<WriteEntityRefAsync>d__140
 :System.Xml.XmlWriter+<WriteNodeAsync_CallSyncReader>d__104
+:oX6
+;90C
+;HB2
 ;System.Xml.Linq, PublicKey=00000000000000000400000000000000
 ;System.Xml.XmlEncodedRawTextWriter+<EncodeCharsAsync>d__122
 ;System.Xml.XmlEncodedRawTextWriter+<FlushBufferAsync>d__121
@@ -480,7 +446,7 @@
 ;System.Xml.XmlWriter+<WriteAttributeStringAsyncHelper>d__82
 ;System.Xml.XmlWriter+<WriteNodeAsync_CallAsyncReader>d__105
 ;System.Xml.XsdValidatingReader+<_ReadAsync_ReadAhead>d__195
-<."8O
+;oX6
 <.cctor>b__20_0
 <.cctor>b__9_0
 <>1__state
@@ -490,18 +456,7 @@
 <>c__DisplayClass4_0
 <>l__initialThreadId
 <>m__Finally1
-<>n__0
-<>n__1
-<>n__2
-<>n__3
-<>n__4
-<>n__5
-<>n__6
 <>t__builder
-<>u__1
-<>u__2
-<>u__3
-<>u__4
 <DtdParserProxy_ParseCommentAsync>d__494
 <DtdParserProxy_ParseNumericCharRefAsync>d__491
 <DtdParserProxy_ParsePIAsync>d__493
@@ -833,10 +788,8 @@
 <attrNameLinePos>5__5
 <attributeBaseEntityId>5__1
 <bytes>5__1
-<c>5__5
 <callSkipToEndElem>5__1
 <canReadChunk>5__1
-<ch>5__1
 <charCount>5__2
 <charRefEndPos>5__2
 <chars>5__1
@@ -852,8 +805,6 @@
 <curIndex>5__1
 <currentFrame>5__2
 <currentRecord>5__1
-<d>5__1
-<d>5__3
 <depth>5__1
 <elementDecl>5__1
 <elementDecl>5__2
@@ -869,8 +820,6 @@
 <entityType>5__3
 <fullValue>5__2
 <hasNames>5__1
-<i>5__1
-<i>5__2
 <iLevel>5__2
 <ignoreSectionDepth>5__1
 <inComment>5__2
@@ -884,7 +833,6 @@
 <item>5__1
 <j[iT
 <j]iT
-<j^i}
 <keywordLineInfo>5__1
 <lastChunk>5__4
 <leftCount>5__2
@@ -900,7 +848,7 @@
 <nodeType>5__1
 <nodeType>5__2
 <notation>5__1
-<ns>5__2
+<oX6
 <offset>5__1
 <oldParsingMode>5__1
 <orChars>5__4
@@ -909,7 +857,6 @@
 <originalString>5__2
 <pcv>5__3
 <pcv>5__4
-<pm>5__1
 <pos>5__1
 <pos>5__2
 <pos>5__7
@@ -928,15 +875,12 @@
 <rpos>5__3
 <savedLinePos>5__1
 <savedParsingMode>5__1
-<sb>5__1
-<sb>5__2
 <start>5__2
 <startDepth>5__1
 <startParenEntityId>5__2
 <startQuoteEntityId>5__2
 <startTagEntityId>5__1
 <stream>5__1
-<sw>5__2
 <systemId>5__3
 <tmp>5__2
 <tmpch0>5__1
@@ -968,13 +912,10 @@
 =System.Xml.XmlUtf8RawTextWriterIndent+<WriteIndentAsync>d__47
 =System.Xml.XmlWellFormedWriter+Namespace+<WriteDeclAsync>d__6
 =h.k8
-=h5i	 l4
->.4+M
->.5+O
->.=+\
->.>+^
->.\+H
->.j+S
+=h5i\t l4
+>2B2
+>2e0
+>9xC
 >Position={CurrentPosition}, Current={debuggerDisplayProxy, nq}
 >System.Data.SqlXml, PublicKey=00000000000000000400000000000000
 >System.Xml.ReadContentAsBinaryHelper+<InitOnElementAsync>d__33
@@ -989,6 +930,8 @@
 >System.Xml.XmlValidatingReaderImpl+<ReadTypedValueAsync>d__151
 >System.Xml.XmlWellFormedWriter+<WriteQualifiedNameAsync>d__153
 >System.Xml.XsdValidatingReader+<ReadTillEndElementAsync>d__212
+>oX6
+?1Fs
 ?System.Xml.XmlEncodedRawTextWriter+<WriteCharEntityAsync>d__113
 ?System.Xml.XmlTextReaderImpl+<HandleEntityReferenceAsync>d__558
 ?System.Xml.XmlTextReaderImpl+<MoveToNextContentNodeAsync>d__587
@@ -1001,13 +944,8 @@
 ?System.Xml.XsdValidatingReader+<ReadContentAsBinHexAsync>d__199
 ?System.Xml.XsdValidatingReader+<ReadContentAsStringAsync>d__187
 ?Y#aCoc
-?_b(}
-?_b_,
-?_b`U*
-?_bf_U*&
 @ aQY
-@.&+7
-@.reloc
+@Dk2
 @System.Xml.XmlCharCheckingReader+<ReadContentAsBase64Async>d__37
 @System.Xml.XmlCharCheckingReader+<ReadContentAsBinHexAsync>d__38
 @System.Xml.XmlEncodedRawTextWriter+<WriteCommentOrPiAsync>d__146
@@ -1015,13 +953,12 @@
 @System.Xml.XmlTextReaderImpl+<DtdParserProxy_ParsePIAsync>d__493
 @System.Xml.XmlTextReaderImpl+<ParseEndElementAsync_Finish>d__528
 @System.Xml.XsdValidatingReader+<ReadElementContentAsAsync>d__191
-@Y}G 
-@v :k
-A.#+,
-A.)+4
+@sx0
+A.w8
 A5KsZ
 A933F173482FF50754B4942AF8DFC584EF14A45B
 AB4EAD1DB94B8220FAAEDAA6A593B2E6DB0A8A9C
+ADy2
 ASYNCBUFSIZE
 ASystem.Xml.XmlEncodedRawTextWriter+<WriteCDataSectionAsync>d__148
 ASystem.Xml.XmlEncodedRawTextWriterIndent+<WriteCommentAsync>d__37
@@ -1171,6 +1108,7 @@ AddToTable
 AddToTop
 AddTypeMapping
 AddTypeMetadata
+AddU
 AddULong
 AddUndeclaredNotation
 AddUnique
@@ -1233,7 +1171,6 @@ AllowBuiltInMode
 AllowDodReverse
 AllowFallback
 AllowJoinAndDod
-AllowMultiple
 AllowParam
 AllowPartiallyTrustedCallersAttribute
 AllowReplace
@@ -1328,6 +1265,7 @@ AnyAttributes
 AnyIdAttributeFound
 AnyUri
 AnyUriToString
+Apos
 AppDomain
 AppendChild
 AppendChildElement
@@ -1475,9 +1413,11 @@ AxisElement
 AxisStack
 AxisType
 AxisTypeMask
+B,8W
 B.6+F
 B113E4157CAB841C570845AE912152A86CD4B232
 B368804F0C6DAB083B253A6B106D0783D5C32E90
+B50 
 B64Attribute
 B64Content
 B68FC290AA4E317641D3E37B57B8F12262AA178B
@@ -1485,6 +1425,7 @@ B9F0004E3873FDDCABFDA6174EA18F0859B637B4
 BAD037B714E1CD1052149B51238A3D4351DD10B5
 BLOCK_WS
 BOOL_PARENT
+BSJB
 BSystem.Xml.XmlEncodedRawTextWriter+<WriteXmlDeclarationAsync>d__96
 BSystem.Xml.XmlSubtreeReader+<FinishReadContentAsBinaryAsync>d__116
 BSystem.Xml.XmlTextReaderImpl+<FinishOtherValueIteratorAsync>d__551
@@ -1496,6 +1437,7 @@ BSystem.Xml.XmlWellFormedWriter+<WriteStartDocumentImplAsync>d__155
 BSystem.Xml.XsdValidatingReader+<ProcessEndElementEventAsync>d__204
 BSystem.Xml.Xsl.Xslt.CompilerScopeManager`1+<GetActiveRecords>d__34
 BakeMethods
+Bang
 Base64BinaryToString
 Base64LineSize
 BaseAdd
@@ -1531,6 +1473,7 @@ BeginTemplate
 BeginWrite
 BeingComputedMark
 Beq_S
+Bfhn
 Bge_S
 Bge_Un
 Bgt_Un
@@ -1566,6 +1509,7 @@ BooleanSwitch
 BooleanToAtomicValue
 BooleanType
 BooleanX
+Br_S
 BranchAndMark
 BranchCodes
 BreakDownXsdDate
@@ -1670,12 +1614,16 @@ ByteArrayChunk
 ByteArrayType
 ByteStack
 BytesToAtomicValue
+C a1\v
 C.B8,
 C.G8^
 C10toN
 C2D6E36D84DDA5D661B95D7B32D3F47CD7ACBF6C
 C33E4EBBE05CAF97686B45E795EB94C5C28012D8
+C5p 
 C888AD892CE77B8CF3660AC17120FD39D516F1B5
+C8R!
+C:hn
 CCB1C30EA6E6776FEC1DCFF25CB42F72C6CDFB3D
 CDATAValue
 CLSCompliantAttribute
@@ -1689,6 +1637,7 @@ CSystem.Xml.XmlUtf8RawTextWriter+<_WriteElementTextBlockAsync>d__124
 CSystem.Xml.XmlUtf8RawTextWriterIndent+<WriteStartElementAsync>d__31
 CSystem.Xml.XmlValidatingReaderImpl+<ReadContentAsBase64Async>d__146
 CSystem.Xml.XmlValidatingReaderImpl+<ReadContentAsBinHexAsync>d__147
+CYE\r
 CacheAxisQuery
 CacheChildrenQuery
 CacheOuptutProps
@@ -2626,13 +2575,18 @@ CurrentState
 CurrentTag
 CustomAttributeBuilder
 CycleCheck
+D p1
+D!v3
 D1D4FFE97E52ACA7A01B4196375790B40E980B57
-D37	9
+D37\t9
+D60W
+D8Z!
 DAiueo
 DArabic
 DB9F879BE80CC2DA24DEF633D23DBB2B1ADBCC81
 DBConcurrency
 DBNull
+DC4\t
 DCF398750721AA7A27A6BA56E99350329B06E8B1
 DChosung
 DEBUG
@@ -2640,6 +2594,7 @@ DEFAULT
 DF6EC37214042F3DCEFCF4E0888917C773E1712F
 DIroha
 DOCTYPE
+DQ5C
 DSystem.Xml.ReadContentAsBinaryHelper+<ReadContentAsBase64Async>d__27
 DSystem.Xml.ReadContentAsBinaryHelper+<ReadContentAsBinHexAsync>d__28
 DSystem.Xml.ReadContentAsBinaryHelper+<ReadContentAsBinaryAsync>d__34
@@ -2822,8 +2777,6 @@ DefaultSortKeyCount
 DefaultStartChar
 DefaultTableSize
 DefaultValidation
-DefaultValue
-DefaultValueU]System.Xml.Serialization.Configuration.DateTimeSerializationSection+DateTimeSerializationMode
 DefaultXmlns
 DefineDefaultConstructor
 DefineDocument
@@ -2873,6 +2826,7 @@ Detach
 DetectEncoding
 DetectValidationType
 DfaContentValidator
+Dfjn
 DiagnosticsSwitches
 DictionaryBase
 DictionaryEntry
@@ -2958,13 +2912,16 @@ DtdParserProxy_ReadData
 DtdParserProxy_ReadDataAsync
 DtdParserProxy_Throw
 DtdValidator
+Dump
 DupAttrException
 DurationFacetsChecker
 DynamicAssemblies
 DynamicMethod
-E @|o
+E#px\v
+E+H0
 E09FAE0843AE7121A4B493BD6BF6AA1110436B72
 EBC658B067B5C785A3F0BB67D73755F6FEE7F70C
+ECX\t
 ED18A4A1FF7C89B400D7CA156BA8D11BB09E1DE4
 EDD70F406348AE4E888BF9F18199C00CE9D28ED6
 EE3413A2C088FF9432054D6E60A7CB6A498D25F0
@@ -2985,6 +2942,8 @@ ESystem.Xml.XmlUtf8RawTextWriter+<_WriteAttributeTextBlockAsync>d__118
 ESystem.Xml.XmlUtf8RawTextWriterIndent+<WriteFullEndElementAsync>d__33
 ESystem.Xml.XmlUtf8RawTextWriterIndent+<WriteStartAttributeAsync>d__34
 ESystem.Xml.XmlWellFormedWriter+AttributeValueCache+<ReplayAsync>d__24
+E\f2A
+E\fpA
 EarlyBoundFlags
 EarlyBoundFunctionExists
 EarlyBoundInfo
@@ -3186,6 +3145,7 @@ ExcludeResultPrefixes
 ExcludeXml
 ExclusiveFlags
 ExecResult
+Exit
 ExitForwardsCompatible
 ExitScope
 ExpandCharEntities
@@ -3242,6 +3202,7 @@ ExtractLiteralValue
 ExtractText
 F60A1D5A4D36DD2CF67B6E395FE8FF01FAF88486
 F64F25EAE9A3D7A356813C4218000185541D7779
+F9\fD
 FA482B68571C8C87FC9CEB32E706CF2650A02075
 FB0C58D8B3094F018764CC6E3094B9576DB08069
 FEDecimal
@@ -3264,12 +3225,14 @@ FSystem.Xml.XsdValidatingReader+<ReadElementContentAsObjectAsync>d__189
 FSystem.Xml.XsdValidatingReader+<ReadElementContentAsStringAsync>d__190
 FUse XmlConvert.ToDateTime() that takes in XmlDateTimeSerializationMode
 FZero
+F\fxA
 FacetAttributes
 FacetsCompiler
 FakeExpanded
 False
 FastGetElementDecl
 FetchInput
+Ffln
 FieldAttributes
 FieldBuilder
 FileAccess
@@ -3277,6 +3240,7 @@ FileLoadException
 FileMode
 FileNotFoundException
 FileShare
+Fill
 FillAllowEOF
 FillModeFlags
 Fill_
@@ -3414,6 +3378,7 @@ ForwardRefFinder
 FrameworkPublicKeyFull
 FrameworkPublicKeyFull2
 FriendAccessAllowedAttribute
+FrmO
 FromAsync
 FromBase64String
 FromBinHexString
@@ -3490,8 +3455,11 @@ FunctionType
 FxFileVersion
 FxVersion
 G,[sQ
+G1Ha
+G9fD
 GDayOffsetToString
 GDayToString
+GEE`
 GMonthDayOffsetToString
 GMonthDayToString
 GMonthOffsetToString
@@ -3975,12 +3943,14 @@ GreaterThanOrEqualTo
 GroupCollection
 GroupContent
 GroupQuery
+Grow
 GrowAttributes
 GrowElements
 GrowTextContentMarks
 GrowthRate
 GtEntity
-H37	94
+H37\t94
+H52!
 HAS_NS
 HC_ST_Count
 HC_ST_boolean
@@ -4002,6 +3972,7 @@ HC_ST_unsignedByte
 HC_ST_unsignedInt
 HC_ST_unsignedLong
 HC_ST_unsignedShort
+HEAD
 HResults
 HSystem.Xml.DtdParser+<System-Xml-IDtdParser-ParseInternalDtdAsync>d__153
 HSystem.Xml.XmlEncodedRawTextWriter+<WriteRawWithCharCheckingAsync>d__143
@@ -4064,6 +4035,7 @@ HaveCurrentNoNext
 HaveCurrentNode
 HaveRecord
 Hebrew
+Hfnn
 Hindi1
 Hindi2
 Hindi3
@@ -4075,9 +4047,15 @@ HtmlUtf8RawTextWriter
 HtmlUtf8RawTextWriterIndent
 HttpWebRequest
 HybridDictionary
+I(l1
+I,aW
+I15M
+I5r!
 IApplicationResourceStreamResolver
 IAsyncResult
 IAsyncStateMachine
+IC6\n
+ICI\n
 ICloneable
 ICollection
 ICollectionType
@@ -4088,6 +4066,7 @@ IComparer`1
 IConvertible
 ICredentials
 ICustomAttributeProvider
+IDID
 IDQuery
 IDREFID
 IDREFSID
@@ -4103,6 +4082,7 @@ IDtdParser
 IDtdParserAdapter
 IDtdParserAdapterV1
 IDtdParserAdapterWithValidation
+IET`
 IEnumerable
 IEnumerableType
 IEnumerable`1
@@ -4111,10 +4091,12 @@ IEnumerator`1
 IEqualityComparer
 IEqualityComparer`1
 IErrorHelper
+IFGa
 IFocus
 IFormatProvider
 IFormattable
 IGNORE
+IH_6
 IHasXmlNode
 ILGenElementElseString
 ILGenElseString
@@ -4168,6 +4150,7 @@ IdNext
 IdRefNode
 IdentityConstraintAttributes
 IdentityConstraintSubelements
+Idiv
 IfActionDbg
 IfNot
 Ignor
@@ -4249,6 +4232,7 @@ ImportXmlnsDeclarationsMember
 InCmt
 InElm
 InIncrementalRead
+InPI
 InRange
 InReadAttributeValue
 InReadBinaryContent
@@ -4413,6 +4397,7 @@ IntPtr
 IntToCharArray
 IntToDbl
 IntToString
+IntX
 IntXS
 IntegerX
 InterCreate
@@ -4506,6 +4491,7 @@ InvokeTranslate
 InvokeWriter
 InvokeXsltLate
 InvokeXsltLateBoundFunction
+IrC^
 IsAllGroup
 IsAlphaNumeric
 IsAnyFromAny
@@ -4605,6 +4591,7 @@ IsNoMatch
 IsNodeSetOrRtf
 IsNodeType
 IsNodeTypeUnion
+IsNs
 IsNullNamespace
 IsNullOrEmpty
 IsNullableGenericType
@@ -4631,7 +4618,6 @@ IsQNameEqual
 IsQualified
 IsRandomizedHashingDisabled
 IsReferenced
-IsRequired
 IsRequiredAttribute
 IsReservedNamespace
 IsReverseAxis
@@ -4695,6 +4681,7 @@ IsXsltKeyword
 IsXsltNamespace
 IsYes
 Isinst
+Item
 ItemIsNode
 ItemList
 ItemLocation
@@ -4722,6 +4709,15 @@ IteratorState
 IteratorStateMachineAttribute
 IteratorThenWriter
 IteratorToString
+J#7y\v
+J#Gy\v
+J#Oy\v
+J#Wy\v
+J#hy\v
+J&rc
+J+p4
+J.DB
+J15M
 JSystem.Xml.XmlEncodedRawTextWriter+<WriteProcessingInstructionAsync>d__111
 JSystem.Xml.XmlTextReaderImpl+<FinishReadElementContentAsBinaryAsync>d__555
 JSystem.Xml.XmlTextReaderImpl+<ParseDocumentContentAsync_ParseEntity>d__509
@@ -4733,6 +4729,9 @@ JSystem.Xml.XmlValidatingReaderImpl+<ReadElementContentAsBinHexAsync>d__149
 JSystem.Xml.XmlWellFormedWriter+<_AdvanceStateAsync_ReturnWhenFinish>d__157
 Jfpn2
 JoinStep
+K#py\v
+K1l"
+KCg\n
 KERNEL32
 KSStruct
 KSpointer
@@ -4757,12 +4756,15 @@ KindShift
 KindTestType
 KorDbNum1
 KorDbNum3
+L,gY
+L6cX
 L;Kj0*
 L;Kj28
 LBracket
 LCLetter
 LCRoman
 LCRus
+LD 3
 LOCALE_CURRENT
 LParens
 LREModule
@@ -4772,6 +4774,7 @@ LSystem.Xml.XmlUtf8RawTextWriterIndent+<WriteProcessingInstructionAsync>d__37
 LSystem.Xml.XmlWellFormedWriter+<WriteStartElementAsync_NoAdvanceState>d__123
 LSystem.Xml.XmlWellFormedWriter+<_AdvanceStateAsync_ContinueWhenFinish>d__159
 LSystem.Xml.XsdValidatingReader+<InternalReadContentAsObjectTupleAsync>d__208
+L\t9u
 LangToLcidInternal
 LanguageGuid
 LastAlpha
@@ -4967,15 +4970,14 @@ LoopFocus
 LoopToEnd
 LowerFirst
 LtEntity
+LzHH
 LzHH_
 LzHH_mm
 LzHH_mm_
 LzHH_mm_ss
-Lz___
 Lz___dd
 Lz__mm
 Lz__mm_
-Lz__mm__
 Lz__mm_dd
 Lz_zz
 Lz_zz_
@@ -4986,8 +4988,8 @@ Lzyyyy_MM
 Lzyyyy_MM_
 Lzyyyy_MM_dd
 Lzyyyy_MM_ddT
-M37	9
-M38	9
+M37\t9
+M38\t9
 MASK_0000000011111111
 MASK_0000111100001111
 MASK_0011001100110011
@@ -4995,6 +4997,9 @@ MASK_0101010101010101
 MASK_1111111111111111
 MAX_LOADINSTRUCTIONS_DEPTH
 MAX_QIL_DEPTH
+MCr\n
+MD03
+ME,a
 MINUS
 MS.Internal.Xml.Cache
 MS.Internal.Xml.XPath
@@ -5166,10 +5171,18 @@ MpNormalize
 MulAdd
 MulPow5
 MulTenAdd
+MulU
 MultByULong
 MulticastDelegate
+N'UJ\r
+N,ha
+N.I8
+N1J 
+N6|X
 NAME_PARENT
 NCNameID
+NDP/
+NE9a
 NMTOKENID
 NMTOKENSID
 NOTATIONID
@@ -5179,7 +5192,6 @@ NSystem.Xml.XmlTextReaderImpl+<_ParseElementAsync_ContinueWithSetElement>d__517
 NSystem.Xml.XmlWellFormedWriter+<WriteStartAttributeAsync_NoAdvanceState>d__133
 NSystem.Xml.XsdValidatingReader+<InternalReadElementContentAsObjectAsync>d__210
 NUMERIC_MAX_PRECISION
-Name	FullTrust
 NameAnnotation
 NameAvt
 NameDone
@@ -5190,6 +5202,7 @@ NameKey
 NameMatch
 NameReady
 NameValueCollection
+Name\tFullTrust
 NamedPermissionSet
 NamedTemplates
 NamesCollection
@@ -5275,7 +5288,7 @@ NextToken1
 NextToken2
 NfaContentValidator
 NipOffTypeNameCheck
-NkQ]N	
+NkQ]N\t
 NmFlush
 NmspCreate
 NmspNext
@@ -5387,6 +5400,7 @@ NsXdr
 NsXdrAlias
 NsXml
 NsXmlNs
+NsXs
 NsXsd
 NsXsi
 NsXslDebug
@@ -5409,12 +5423,17 @@ NumberingSequence
 Numeric10FacetsChecker
 Numeric2FacetsChecker
 NumericExpr
+O#47
+O;lV
+ODP/
 OSystem.Xml.XmlEncodedRawTextWriterIndent+<WriteProcessingInstructionAsync>d__38
 OVERFLOW
+O\tou
 ObjectArrayType
 ObjectDisposedException
 ObsoleteAttribute
 OdbcException
+Omit
 OmitDuplicates
 OmitXmlDecl
 OmitXmlDeclarationPrec
@@ -5476,9 +5495,14 @@ OutputScopeManager
 OutputVersion
 Outputting
 OwnerNode
+P'tJ\r
+P(m5
+P1l"
 PCDATA
+PDP/
 PERef
 PIText
+PLUS
 PUBLIC
 PadLeft
 ParamArrayAttribute
@@ -5695,6 +5719,7 @@ PatternCount
 PatternSeparator
 PatternsNoOpt
 PatternsOpt
+Peek
 PeekBit
 PeekNextToken
 PeekToken
@@ -5711,6 +5736,7 @@ PlaceMarkerAny
 PlatformID
 PlatformNotSupportedException
 PlusNode
+PoD3
 PopBit
 PopCurr
 PopDebuggerStack
@@ -5744,6 +5770,7 @@ PostB64RootAttr
 PostDTD
 Power
 Power10
+Pr0\r
 PreSibCreate
 PreSibDOCreate
 PreSibDONext
@@ -5901,6 +5928,10 @@ PushStylesheet
 PushTemplateLookup
 PushValue
 PushXmlContext
+Q.0E
+Q0c&
+QDh3
+QDu3
 QIL_TRACE_NODE_CREATION
 QNameComparer
 QNameEq
@@ -5910,6 +5941,7 @@ QNameFacetsChecker
 QNameString
 QNameToString
 QNameX
+QYE\t
 QilBinary
 QilChoice
 QilCloneVisitor
@@ -5980,6 +6012,7 @@ QnFinal
 QnFinalDefault
 QnFixed
 QnForm
+QnID
 QnIDRef
 QnIDRefs
 QnInfinite
@@ -5995,6 +6028,7 @@ QnNamespace
 QnNillable
 QnNmToken
 QnNmTokens
+QnNo
 QnOne
 QnOpen
 QnOrder
@@ -6086,7 +6120,10 @@ QuoteEntity
 RBrace
 RBracket
 REQUIRED
+RFS|
 RParens
+R\f3F
+R\fNF
 RangeContentValidator
 RangePositionInfo
 RawChars
@@ -6398,10 +6435,13 @@ RuntimeFieldHandle
 RuntimeHelpers
 RuntimeName
 RuntimeTypeHandle
+S#J5
 S#J;q
-S..+X
-S..+k
+S#Xz\v
+S1l"
+S9&E
 SByteType
+SEGa
 SQLTicksPerDay
 SQLTicksPerHour
 SQLTicksPerMillisecond
@@ -6435,6 +6475,10 @@ SSystem.Xml.XsdValidatingReader+<InternalReadElementContentAsObjectTupleAsync>d_
 STACK_INCREMENT
 ST_anySimpleType
 SYSTEM
+S\fXF
+S\feF
+S\fmF
+S\fvF
 S_SchemaEntries
 S_XDR_AttributeDataType_Attributes
 S_XDR_AttributeType_Attributes
@@ -6451,11 +6495,14 @@ S_XDR_Root_Element
 S_XDR_Root_SubElements
 SafeAsciiDecoder
 SafeDocOrderDistinct
+Same
 SameDepth
 SatelliteContractVersionAttribute
+Save
 SaveExtendedLineInfo
 SaveParsingBuffer
 SaveTextValue
+Scan
 ScanAttlist1
 ScanAttlist1Async
 ScanAttlist2
@@ -7453,6 +7500,7 @@ StepThrough
 Stfld
 Stloc
 Stobj
+Stop
 StopFocus
 StorageDescriptor
 StoreArrayElement
@@ -7521,6 +7569,7 @@ Stsfld
 StylesheetLevel
 StylesheetPrefix
 StylesheetURI
+Subs
 Subscript
 SubstitutionList
 Substring2
@@ -7536,6 +7585,7 @@ SurLowStart
 SurMask
 SurrCharEnt
 SurrogateCharToUtf32
+Swap
 SwitchEncoding
 SwitchEncodingAsync
 SwitchEncodingToUTF8
@@ -7861,6 +7911,9 @@ SystemOrPublicID
 SystemWeb
 SystemWebExtensions
 SystemWindowsForms
+T,db
+T6!Y
+TEOa
 TF_boolean
 TF_byte
 TF_date
@@ -7880,6 +7933,8 @@ TF_unsignedByte
 TF_unsignedInt
 TF_unsignedLong
 TF_unsignedShort
+TQ\fDefaultValue
+TQ\fDefaultValueU]System.Xml.Serialization.Configuration.DateTimeSerializationSection+DateTimeSerializationMode
 TabEntity
 TagAndMappings
 TagAndNamespace
@@ -8007,6 +8062,7 @@ TranslateXmlSpace
 Transparent
 TreatAs
 TriState
+Trim
 TrimEnd
 TrimSpacesInValue
 TrimStart
@@ -8070,11 +8126,18 @@ TypeShift
 TypeTypeConverter
 TypedObject
 TypesFieldName
+U#47
+U#97
 U+System.Xml.Schema.XmlSchemaDerivationMethod
 U,System.Xml.Schema.XmlSchemaContentProcessing
+U.hE
+U94E
+U:dt
+U@41
 UCLetter
 UCRoman
 UCRus
+UE`a
 UInt16Type
 UInt32Type
 UInt64Type
@@ -8119,7 +8182,6 @@ UnreferencedObjectEventArgs
 UnreferencedObjectEventHandler
 Unregister
 UnregisterEntity
-Unrestricted
 UnsafeNativeMethods
 UnsignedByte
 UnsignedInt
@@ -8161,6 +8223,8 @@ V1Opt
 V1Req
 V2Opt
 V2Req
+V6<Y
+V9}E
 VBCodeProvider
 ValEq
 ValGe
@@ -8391,7 +8455,12 @@ VoidType
 VsFileVersion
 VsVersion
 W.7+B
+W4vC
+W:zt
+WCT\v
+WFp}
 WSystem.Xml.Serialization.Configuration.SchemaImporterExtensionElement+TypeTypeConverter
+Wait
 WeakReference
 WeakestTypeCode
 WebResponse
@@ -8740,7 +8809,13 @@ Write_unsignedLong
 Write_unsignedShort
 WriterOutput
 WriterThenIterator
+Wrk^
+Wsdl
 X&r8 
+X(P3
+X(e1
+X.dG
+X8P#
 XDR_BeginAttribute
 XDR_BeginAttributeType
 XDR_BeginElementType
@@ -8788,6 +8863,7 @@ XDR_InitElementDtType
 XDR_InitElementType
 XDR_InitGroup
 XDR_InitRoot
+XHk 
 XK(e1
 XPFollCreate
 XPFollMergeCreate
@@ -8905,6 +8981,35 @@ XSD_UNSIGNEDLONG
 XSD_UNSIGNEDSHORT
 XSODictionaryEnumerator
 XSOEnumerator
+XT+C
+XT+\frf
+XT+p
+XT8,
+XXG-
+XZa\n
+X\f\tS8
+X\n80
+X\n8L
+X\n8o
+X\no9
+X\not
+X\nr#f
+X\r82
+X\r8A
+X\r8P
+X\r8S
+X\r8a
+X\r8b
+X\r8c
+X\r8h
+X\r8l
+X\r8q
+X\r8u
+X\r8v
+X\r8x
+X\v8h
+X\v8y
+X\vrZ
 XdomXpNav_NullParam
 Xdom_AttrCol_Insert
 Xdom_AttrCol_Object
@@ -9770,6 +9875,11 @@ Xml_XmlnsBelongsToReservedNs
 Xml_XmlnsPrefix
 XmlnsAccessor
 Xnr_ResolveEntity
+XoK)
+XoV(
+Xo_3
+Xoh\t
+Xox$
 Xp_BadQueryObject
 Xp_BadQueryString
 Xp_CurrentNotAllowed
@@ -9799,6 +9909,8 @@ Xp_UndefinedXsltContext
 Xpn_BadPosition
 Xpn_MissingParent
 Xpn_NoContent
+XsQ1
+XsT1
 XsdAppInfo
 XsdAttributeEntry
 XsdBuildFunction
@@ -10039,15 +10151,50 @@ Xslt_WrongNamespace
 Xslt_WrongNumberArgs
 Xslt_WrongStylesheetElement
 Xslt_XmlnsAttr
+Y+C6
+Y+K6
+Y+T6
 Y.I+W
 Y.N+a
-Y37	9+
+Y1\vr
+Y1\vrc
+Y37\t9+
+Y8L'
+Y:1u
+Y:Mu
+Y:tu
+Y@T2
+YT*J
+YT+D
 YYoR(
+Y\nsZ
+Y\tol
 YearMonthDurationToString
 Yield
+Yio^
+YjY}
+Yo_3
+Yoh\t
+Yot\t
+Yov\t
+YrVL
+Yr\fQ
+YsQ1
+ZEdb
+ZHk 
+ZX%K
+ZX*j
+ZX6!
+ZXI\f
 ZXK(e1
+ZXK,
 ZXK,g
 ZXKX(e1
+ZX\f8
+ZX\r8
+ZX\r8v
+ZYm\n\t
+Z\fCH
 ZeroDigit
 ZeroEndingStream
 ZeroEndingStreamAsync
@@ -10058,14 +10205,140 @@ Zodiac3
 ZoneHourMask
 ZoneHourShift
 ZoneMinuteMask
-[ji*	
-[ji*	(
+Zt8t
+[jiT
 [jiT*
-[ji}/
-[ji}q	
+[jis
 \B0D0F0H0J0K0M0O0Q0S0U0W0Y0[0]0_0a0d0f0h0j0k0l0m0n0o0r0u0x0{0~0
-^w H~
-_-:r6
+\f(\f*\f3\f5\f9\f>\fD\fF\fH\fJ\fM\fU\fV\f`\fa\ff\fo\f
+\f(\f*\f3\f5\f9\f`\fa\f
+\f6yP
+\fUnrestricted
+\fanyAttribute
+\fblockDefault
+\ffinalDefault
+\fmaxExclusive,System.Xml.Schema.XmlSchemaMaxExclusiveFacet
+\fmaxInclusive,System.Xml.Schema.XmlSchemaMaxInclusiveFacet
+\fminExclusive,System.Xml.Schema.XmlSchemaMinExclusiveFacet
+\fminInclusive,System.Xml.Schema.XmlSchemaMinInclusiveFacet
+\frar
+\fsubstitution
+\f{ToString()}
+\n%rB4
+\n(\n*\n0\n2\n3\n5\n6\n8\n9\n<\n<\n>\nB\nG\nH\nK\nM\nY\n\\n^\n^\nf\nt\n
+\n(\n*\n0\n2\n3\n5\n6\n8\n9\nY\n\\n^\n^\nr\nt\n
+\n*jrY
+\n*zrh
+\n+5rJ
+\n,0rN
+\n,1rt
+\n,6r2
+\n,7roK
+\n,MrN
+\n2\vrc
+\nIsRequired
+\nJdH
+\nQ8c
+\nXsQ1
+\nYs9
+\nZ\tXT
+\n\t\t\t\t\t\t\t\t\t\t
+\n\toVA
+\n\toY3
+\nannotation%System.Xml.Schema.XmlSchemaAnnotation
+\ndX*N
+\no3B
+\noA5
+\noB5
+\noB7
+\noFA
+\noM1
+\noNA
+\noRA
+\noVA
+\noX6
+\noY6
+\noZ3
+\nofA
+\nprohibited
+\nproperties
+\nrDw
+\nrWP
+\nriC
+\nrqH
+\nrwC
+\ns7A
+\nsH1
+\nsT1
+\nsimpleType
+\nsimpleType%System.Xml.Schema.XmlSchemaSimpleType
+\nwhiteSpace*System.Xml.Schema.XmlSchemaWhiteSpaceFacet
+\nzBr
+\nz\tuN
+\nznrq.
+\nzoT
+\nzrB
+\nzrI
+\nzrUW
+\nzrld
+\nzrm
+\nzrmO
+\nzzr
+\nz~rr1
+\r(\r*\r9\r>\rC\rF\rH\rJ\rM\rW\rW\r`\ra\rf\ro\r
+\r(\r*\r9\r`\ra\r
+\rAllowMultiple
+\r\toU3
+\r\trVN
+\rdocumentation(System.Xml.Schema.XmlSchemaDocumentation
+\rsimpleContent(System.Xml.Schema.XmlSchemaSimpleContent
+\t3Z\to
+\t9\t<\tM\tQ\tT\tX\tc\tf\to\t
+\t9\t=\t=\tX\ta\t
+\tI(k1
+\tJ4F
+\tNamespace http://www.w3.org/2001/XMLSchema
+\tX(e1
+\tXsQ1
+\tYo5
+\tYo6
+\tYoC
+\tYsQ1
+\tattribute$System.Xml.Schema.XmlSchemaAttribute
+\textension
+\textension1System.Xml.Schema.XmlSchemaSimpleContentExtension
+\textension2System.Xml.Schema.XmlSchemaComplexContentExtension
+\tmaxLength)System.Xml.Schema.XmlSchemaMaxLengthFacet
+\tmaxOccurs
+\tminLength)System.Xml.Schema.XmlSchemaMinLengthFacet
+\tminOccurs
+\tnamespace
+\toC7
+\toCA
+\toS3
+\toU3
+\toW3
+\toY3
+\tocA
+\tog8
+\tqualified
+\trVN
+\trWq
+\trvA
+\v(\v*\v0\v2\v3\v6\v9\v<\vC\vG\vH\vK\vM\vV\vW\v\\v]\v_\va\vf\vo\v
+\v(\v*\v0\v2\v3\v6\v9\v=\v=\v\\v]\v_\va\v
+\v../ecma.pub
+\vcomplexType&System.Xml.Schema.XmlSchemaComplexType
+\venumeration+System.Xml.Schema.XmlSchemaEnumerationFacet
+\vmemberTypes
+\vraq
+\vrestriction
+\vrestriction0System.Xml.Schema.XmlSchemaSimpleTypeRestriction
+\vrestriction3System.Xml.Schema.XmlSchemaSimpleContentRestriction
+\vrestriction4System.Xml.Schema.XmlSchemaComplexContentRestriction
+\vrhS
+\vtotalDigits+System.Xml.Schema.XmlSchemaTotalDigitsFacet
+\vunqualified
 _AdvanceStateAsync_ContinueWhenFinish
 _AdvanceStateAsync_ReturnWhenFinish
 _AllowDataType
@@ -10092,6 +10365,7 @@ _ContinueBoolTaskFuncWhenFalse
 _CorDllMain
 _CurNsMgr
 _CurState
+_ETc
 _ElementDef
 _EndChildFunc
 _ExistTerminal
@@ -10133,7 +10407,7 @@ _WriteAttributeTextBlockAsync
 _WriteElementTextBlockAsync
 _XdrName
 _XdrPrefix
-_X}D 
+_Xo5
 __StaticArrayInitTypeSize=108
 __StaticArrayInitTypeSize=112
 __StaticArrayInitTypeSize=12
@@ -10161,18 +10435,10 @@ __StaticArrayInitTypeSize=64
 __StaticArrayInitTypeSize=664
 __StaticArrayInitTypeSize=68
 __StaticArrayInitTypeSize=960
-_b`T*
-_b`T+
-_b`}.*
 _baseURI
-_bf_T*
-_b}D 
 _cachePolicy
 _contentValidator
 _credentials
-_d_}F 
-_d`}E 
-_d`}F 
 _defaultNamespaces
 _docTypeName
 _documentResolver
@@ -10187,8 +10453,12 @@ _targetsAtLeast_Desktop_V4_5_2
 _typeDeclsByLang
 _xmlLang
 _xmlSpace
-`*:  
-`.rsrc
+`DJ4
+`Ekc
+a 6w
+aBP/
+aD`4
+aFJ\f
 abbrAxis
 abrParent
 absoluteUri
@@ -10254,11 +10524,9 @@ ancestorType
 ancestorsCount
 annPrev
 annotation
-annotation%System.Xml.Schema.XmlSchemaAnnotation
 annotationNSManager
 anonymous
 anonymousType
-anyAttribute
 anyElement
 anyIfs
 anyNs
@@ -10268,6 +10536,7 @@ anyTypeLax
 anyTypeSkip
 anyURI
 anyURIID
+anyURI\v
 appDomain
 appInfo
 appSettingsLock
@@ -10277,6 +10546,9 @@ appinfo"System.Xml.Schema.XmlSchemaAppInfo
 applyTemplatesAttributes
 applyTemplatesParams
 applyTmpls
+arg0
+arg1
+arg2
 argAny
 argBoolean
 argBuilder
@@ -10431,6 +10703,8 @@ axisSelector
 axisStack
 axisTree
 axisType
+b(e1
+b58&
 bCreatedOnAttribute
 bCreatingNewType
 bDate
@@ -10447,10 +10721,9 @@ bTime
 bUseResolver
 bX(e1
 b`hj 
-b`}D 
-b`}E 
 backrefs
 badCharIndex
+base
 base64BinaryID
 base64Decoder
 base64Encoder
@@ -10507,19 +10780,24 @@ bitIndex
 bitSlotMask
 bitSlotShift
 bitStack
+bits
 bitsCData
 bitsFilled
+bldr
 block
 blockDefault
 blockResolved
 blockStack
 blockWS
+body
 boolVal
 boolVar
 booleanID
 bottom
 branches
 brctxt
+bt@t
+bu.n
 bufBytes
 bufBytesUsed
 bufChars
@@ -10542,6 +10820,11 @@ bytes
 bytesCount
 bytesDecoded
 bytesUsed
+c(CA
+c.pQ
+cFJ\f
+cMax
+cMin
 cMinLen
 cSharpName
 cStrings
@@ -10551,6 +10834,7 @@ c_ENTITY
 c_ENUMERATION
 c_EncodeCharPattern
 c_EncodedCharLength
+c_ID
 c_IDREF
 c_IDREFS
 c_NCName
@@ -10645,6 +10929,8 @@ cardinalitySum
 caseOrder
 caseOrderAvt
 caseSensitive
+cast
+cbit
 cchMaxFormat
 cchMaxFormatDecimal
 cdataElements
@@ -10817,7 +11103,6 @@ complexContentRestriction
 complexExtension
 complexRestriction
 complexType
-complexType&System.Xml.Schema.XmlSchemaComplexType
 complexTypeBlockAllowed
 complexTypeFinalAllowed
 complexTypeStack
@@ -10863,6 +11148,7 @@ converter
 converterAtomic
 converters
 convertor
+copy
 copyAttributes
 copyElement
 copyEvent
@@ -10909,6 +11195,7 @@ curTemplate
 curlyBraces
 curmgr
 curpos
+curr
 currentAction
 currentAttrIndex
 currentAttributeProperties
@@ -10933,9 +11220,13 @@ currentScope
 currentState
 currentTemplate
 currentValue
-d`}D 
-d`}E 
-d`}F 
+d040
+d08*
+d0k)
+d0x)
+d:tz
+d@LI
+dX*2
 dataFlow
 dataSource
 dataSourceCache
@@ -10955,8 +11246,10 @@ dateTimeSerialization
 dateticks
 datetime
 dayTimeDurationType
+days
 dbgData
 dblVal
+deDE
 deDEphon
 debug
 debugEnabled
@@ -10982,6 +11275,7 @@ declaredURI
 declaringMapping
 decodeName
 decoder
+deep
 defAttrInfo
 defExpanded
 defList
@@ -11008,11 +11302,13 @@ defaultValueTyped
 defaultWriterSettings
 deferredWorkItems
 definedInDtd
+defn
 delExec
 delay
 delayedSchemas
 delimiter
 dependentTemplate
+deps
 depth
 derivedAny
 derivedAttributeGroup
@@ -11031,12 +11327,14 @@ derivedType
 descendingOrder
 desiredMappingType
 desiredName
+dest
 destPos
 destinationType
 details
 digit
 digits
 dimensions
+dims
 directReference
 disableEscaping
 disableOutputEscaping
@@ -11065,12 +11363,13 @@ documentStartBytePos
 documentURIs
 documentUriInUse
 documentation
-documentation(System.Xml.Schema.XmlSchemaDocumentation
 domNameTable
+done
 doubleID
 downloadManager
 dstOffset
 dstruct
+dtBt
 dtCDATA
 dtNode
 dtQName
@@ -11090,6 +11389,11 @@ durationFacetsChecker
 durationID
 durationType
 dvalue
+e(e1
+e.lX
+e0%2
+e9HF
+e\f+" gfffj
 earlBnd
 earlyBound
 earlyBoundTypes
@@ -11194,7 +11498,6 @@ enumToTypeCode
 enumType
 enumValue
 enumeration
-enumeration+System.Xml.Schema.XmlSchemaEnumerationFacet
 enumerator
 enums
 environment
@@ -11208,6 +11511,7 @@ errorHelper
 errorMessageName
 escapedName
 escapedTypeName
+esf;
 evalQuery
 eventCache
 eventHandler
@@ -11254,13 +11558,19 @@ externalDtdBaseUri
 externalEntitiesDepth
 extra
 extraTypes
-f	X(e1
+f082
+f9QF
+f;lV
 fAttrValue
 fAxisArray
 fCDataNodesPresent
 fCharData
 fCheckElemAttrs
+fD45
+fEAd
+fEOF
 fEntRefNodesPresent
+fFl"
 fLetter
 fNCNameSC
 fNCNameXml4e
@@ -11272,8 +11582,8 @@ fSkipChildren
 fSpecified
 fSystem.ServiceModel.Friend, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 fWhitespace
+f\tX(e1
 f_NodeSet
-f_}_'
 facetType
 facets
 factory
@@ -11300,6 +11610,7 @@ filters
 final
 finalDefault
 finalResolved
+find
 findAll
 finish
 first
@@ -11341,6 +11652,7 @@ forEachAttributes
 forEachDepth
 forceCompile
 forceUseMemberName
+form
 formalArg
 formalArgs
 format
@@ -11367,17 +11679,20 @@ fragmentType
 frame
 freeFloatingDtd
 freeLocals
+from
 fromCurrentNode
 fromElem
 fromKey
 fromNode
 fromPattern
+ftDt
 ftype
 fullAttrCleanup
 fullCompile
 fullName
 fullTypeName
 funList
+func
 funcCached
 funcFocus
 funcList
@@ -11392,7 +11707,9 @@ fwdApplyImportsGraph
 fwdCompat
 fwdDecls
 fwdrefs
+g8t+
 gDayID
+gFL~
 gMonthDayID
 gMonthID
 gYearID
@@ -12689,6 +13006,11 @@ groups
 groupsInUse
 growthRate
 guidID
+h0@5
+h5P)
+hD,7
+hEPd
+hFs~
 hModule
 hadDoubleBracket
 handlerMethod
@@ -12717,6 +13039,7 @@ hasSibling
 hasSimpleContent
 hasTypedValue
 hasWrapperElement
+hash
 hashCode
 hashCodeDelegate
 hashCodeRandomizer
@@ -12737,7 +13060,11 @@ highSurrogate
 hints
 hiraganaAiueo
 hiraganaIroha
+hive
+host
+hour
 hours
+href
 htElementIDAttrDecl
 htElementIdMap
 htmlAttrProps
@@ -12746,15 +13073,23 @@ htmlElementProps
 htmlElements
 htmlElementsProps
 htmlProps
+huHU
 huHUtech
-i.[+Y
 i32Val
+i3\vrc
 i64Val
+i8B2
+i8J\f
+i8h 
+i8l"
+iBP/
+iDh7
 iDivisor
+iE_d
 iListGetItemMethod
 iTypeFlags
-iX}q	
-iX}r	
+iX}q\t
+iX}r\t
 id10_dateTime
 id11_unsignedByte
 id12_byte
@@ -12825,6 +13160,7 @@ ignorePis
 ignoreWhitespace
 ilGen
 ilgen
+impl
 implementation
 implied
 import
@@ -12891,6 +13227,7 @@ indexes
 infinitySymbol
 infoCached
 infoTable
+init
 initElseIfStack
 initExpression
 initIfStack
@@ -12949,6 +13286,7 @@ invalidElementInContext
 invertOp
 invkGen
 invokeArgs
+ioCA
 isAbstract
 isAbstractMask
 isActive
@@ -13009,6 +13347,7 @@ isNull
 isNullable
 isOpen
 isOptional
+isOr
 isParameter
 isPartial
 isPartialTreeValid
@@ -13045,10 +13384,12 @@ isTypedReturn
 isUpaEnforced
 isValid
 isWrappedAny
+isXQ
 isXmlAttribute
 isXmlOutput
 isXsdType
 isdesorself
+item
 itemStorageType
 itemType
 itemTypeID
@@ -13063,10 +13404,24 @@ iterParent
 iterStack
 iterationStarted
 iterator
+iulD
+iulR
+j0p6
+j1'r
+jEnd
+jYiT
+jZ*V
+jZXs
+j\tPx
 j]i H
+j]iT
+jaJP
 jaggedDimensions
 justCount
+k@7P
+kE}d
 kThis API supports the .NET Framework infrastructure and is not intended to be used directly from your code.
+kaGE
 kaGEmode
 katakanaAiueo
 katakanaAiueoHw
@@ -13082,16 +13437,28 @@ keyTable
 keyType
 keyref!System.Xml.Schema.XmlSchemaKeyref
 keyrefTable
+keys
 keyword
 keywordLineInfo
+kind
 kinds
+koKR
+kok.
+ktnR
+l(j1
+l+gC
 l+gCS
+l6L\
+l8q,
+l@DP
+lBP/
 label
 langAvt
 langid
 languageID
 languagePattern
 languageType
+last
 lastByte
 lastBytes
 lastBytesCount
@@ -13130,8 +13497,10 @@ lblOnEndNested
 lblOnFalse
 lblTarget
 lblVal
+lcid
 leapYear
 leaveLabels
+left
 leftChild
 leftCount
 leftOverBytes
@@ -13163,6 +13532,7 @@ linePosition
 linePositionOffset
 lineStartPos
 lineinfo
+list
 list)System.Xml.Schema.XmlSchemaSimpleTypeList
 listElementTypeDesc
 listFacetsChecker
@@ -13175,6 +13545,7 @@ literal
 literalLineInfo
 literalQuoteChar
 literalType
+loN.
 loadExternals
 loadInstructionsDepth
 loadStripSpaceAttributes
@@ -13204,6 +13575,7 @@ locationsTable
 lockList
 logAttrIndex
 logNode
+lol.
 loneValue
 longFormat
 longID
@@ -13218,6 +13590,8 @@ loopStartSource
 lowCh
 lowChar
 lowSurrogate
+m+C9
+mJB2
 m_bLen
 m_bPrec
 m_bScale
@@ -13239,9 +13613,11 @@ mapNmsp
 mapString
 mapping
 mappings
+mark
 markTable
 markup
 markupDepth
+mask
 matchCount
 matchExpr
 matchKey
@@ -13257,9 +13633,7 @@ maxCharactersFromEntities
 maxCharactersInDocument
 maxCharsCount
 maxDepth
-maxExclusive,System.Xml.Schema.XmlSchemaMaxExclusiveFacet
 maxFractionDigits
-maxInclusive,System.Xml.Schema.XmlSchemaMaxInclusiveFacet
 maxLength
 maxOccurs
 maxVal
@@ -13288,6 +13662,7 @@ mergedSchemas
 message
 messageAttributes
 metadata
+meth
 methAgg
 methCreate
 methExec
@@ -13315,8 +13690,6 @@ mightHaveDupAttrs
 mightHaveNmsp
 mightHaveNmspAfterAttrs
 minArgs
-minExclusive,System.Xml.Schema.XmlSchemaMinExclusiveFacet
-minInclusive,System.Xml.Schema.XmlSchemaMinInclusiveFacet
 minLen
 minLength
 minListSize
@@ -13334,7 +13707,9 @@ miscFacetsChecker
 mixed
 mixedContent
 mixedContentStack
+mnth
 modFile
+mode
 modeManagers
 model
 modelScope
@@ -13349,20 +13724,26 @@ moveIfOnContentNode
 moveToCount
 mscoree.dll
 mscorlib
+msg1
+msg2
 msofnfcAlwaysFormat
 msofnfcNil
 msofnfcTraditional
 multiRef
 multiple
 mustBeDeclared
-n	 >;
+mvid
+n 2x
+n.E8
+n1'r
+n9`F
 nAttrInd
 nDeclarationAttrCount
 nDocTypeAttrCount
 nLogAttrInd
 nLogLevel
 nRequiredLength
-n`}= 
+name
 nameAvt
 nameCurrent
 nameInit
@@ -13399,6 +13780,8 @@ namespaceXml
 namespaces
 nanSymbol
 nanoseconds
+nav1
+nav2
 navCurr
 navCurrent
 navEnd
@@ -13441,6 +13824,7 @@ ndDiv
 ndDoc
 ndDst
 ndEnd
+ndEq
 ndErr
 ndFalse
 ndFilter
@@ -13448,27 +13832,35 @@ ndFirst
 ndFoll
 ndFollSib
 ndFunc
+ndGe
 ndGenId
+ndGt
 ndInt
 ndInter
+ndIs
 ndIsEmpty
 ndIsType
 ndIter
 ndKey
+ndLe
 ndLeft
 ndLen
 ndLet
 ndLiteral
 ndLong
+ndLt
 ndMax
 ndMin
 ndMinus
 ndMod
 ndMul
+ndNe
 ndNeg
 ndNmsp
 ndNop
 ndNot
+ndOp
+ndOr
 ndParameter
 ndParent
 ndParsedTagName
@@ -13543,6 +13935,7 @@ newTemplates
 newTypeName
 newVal
 newValue
+next
 nextAttrValueChunk
 nextChar
 nextCreateMethodNumber
@@ -13567,6 +13960,7 @@ nextStates
 nextTaskFun
 nextWhileLoopIndex
 nextbaseUri
+ngen
 nilID
 nillable
 nmToken
@@ -13576,6 +13970,7 @@ nmspPageFact
 noAttributes
 noEntities
 noPosition
+node
 node1
 node2
 nodeBuffer
@@ -13672,6 +14067,11 @@ numberValue
 numberlist
 numeric10FacetsChecker
 numeric2FacetsChecker
+oBP/
+obj1
+obj2
+objA
+objB
 objLock
 objType
 objVal
@@ -13736,6 +14136,7 @@ op_UnaryNegation
 opcode
 opcodeBranch
 openModel
+opnd
 opnd1
 opnd2
 optPatt
@@ -13788,22 +14189,55 @@ overrideIsNullable
 overrides
 ownerDoc
 ownerDocument
-p	(t"
-p	o +
-p	o]-
-p	oe-
-p	rC`
+p"p8\v
+p(O6
+p(a0
+p(r3
+p(s3
 p*r+f
-p*r|+
+p*r3
+p*r4
+p*r7
+p*rA
+p*rD
+p*rI
+p*rM
+p*rP
+p*rU
+p*rb
+p*rk
+p*rl
+p*rx
+p*s5
+p*sZ
+p+K9
+p+\vry
+p@hW
 pAttdef
+pBP/
 pBuffer
 pBufferLength
 pBytes
 pBytesEndPos
 pChars
 pCharsEndPos
+pD\t8
+pQ*r
 pSrcBegin
 pSrcEnd
+p\n+1r
+p\n81
+p\to2
+p\toe-
+p\trC
+p\trC`
+p\ttR
+p\v8C
+p\v8W
+p\v8Z
+p\v8n
+p\v8q
+page
 pageCurr
 pageCurrent
 pageElem
@@ -13873,6 +14307,7 @@ particle1
 particle2
 particleLast
 particles
+patt
 pattern
 pattern'System.Xml.Schema.XmlSchemaPatternFacet
 patternBag
@@ -13888,6 +14323,17 @@ piInDtdStringBuilder
 piPatterns
 piTarget
 pminlen
+po-B
+po2#
+poY6
+po[0
+po]0
+po^0
+poa0
+pob\t
+poe8
+poi5
+poo\t
 popScope
 posAfterAttrs
 posFormat
@@ -13904,6 +14350,27 @@ positions
 positionsWithRangeTerminals
 positiveIntegerID
 posline
+pow9
+poy9
+pr"f
+pr+6
+pr4:
+pr8\r
+pr8f
+pr95
+pr:x
+pr>t
+prBn
+prCM
+prLu
+prN7
+prN9
+prN:
+pr[6
+pr[C
+pr\y
+prc3
+prd:
 predefinedNamespaces
 predicate
 predicateBuilder
@@ -13926,6 +14393,7 @@ preserveAdjacent
 preservePrefix
 preserveSpace
 preserveWhitespace
+prev
 prevDecl
 prevDefaultNsUri
 prevHash
@@ -13950,6 +14418,7 @@ printLineInfo
 printTypes
 priority
 privateName
+proc
 processContents
 processIdentityConstraints
 processInlineSchema
@@ -13958,13 +14427,21 @@ processedExternals
 processingInstructionAttributes
 prohibitDefaultResolver
 prohibitDtd
-prohibited
 prohibitedAttributes
 properties
 propertyInfo
 propertyName
 props
 provider
+prp6
+prr&
+prrv
+prsx
+prz8
+ps;5
+psN2
+ps\r7
+ps]7
 psviAugmentation
 ptrnBuilder
 ptrnParser
@@ -13977,6 +14454,19 @@ publicName
 publicOnly
 pushFakeEntityIfNullResolver
 pvFlags
+q#Lx\v
+q+S9
+q+p9
+q80.
+q88.
+q8H.
+q8J\f
+q8h 
+q8l"
+q=HD
+q@Ha
+qD@8
+q\f5J
 qilAxis
 qilName
 qname
@@ -14005,6 +14495,11 @@ quoteChar
 qyInput
 qyParent
 qyTyp
+r#X7
+r=xD
+rD`8
+r\fUJ
+r\tiy
 raCodeGen
 rangeCounters
 ranges
@@ -14103,6 +14598,8 @@ require
 required
 requiredType
 requiredVersion
+res1
+res2
 resId
 reserved
 reservedIdentifiers
@@ -14112,9 +14609,6 @@ resourceFormat
 resourceId
 resourceName
 restriction
-restriction0System.Xml.Schema.XmlSchemaSimpleTypeRestriction
-restriction3System.Xml.Schema.XmlSchemaSimpleContentRestriction
-restriction4System.Xml.Schema.XmlSchemaComplexContentRestriction
 restrictionErrorMsg
 result
 resultCollection
@@ -14142,6 +14636,8 @@ rguiData
 rgulU
 rightChild
 rightTree
+role
+root
 rootAction
 rootDepth
 rootElement
@@ -14159,9 +14655,14 @@ rootStylesheet
 rootType
 roots
 rtfCount
+rule
 ruleTemp
 rules
 runtime
+ruri
+s#Z7
+s@pf
+sLen
 s_Action
 s_Ampersand
 s_AttrValue
@@ -14235,7 +14736,6 @@ s_instance
 s_nullDbgData
 s_table
 s_tempResolver
-s`./8
 saveInternalSubset
 savedArrayItemAttributes
 savedArrayNamespace
@@ -14803,14 +15303,12 @@ sibling
 sideEffects
 signs
 simpleContent
-simpleContent(System.Xml.Schema.XmlSchemaSimpleContent
 simpleContentExtension
 simpleContentRestriction
 simpleContentType
 simpleExtension
 simpleRestriction
 simpleType
-simpleType%System.Xml.Schema.XmlSchemaSimpleType
 simpleTypeFinalAllowed
 simpleTypeList
 simpleTypeRestriction
@@ -14820,12 +15318,15 @@ singlFocus
 singleStringValue
 singleText
 singleton
+size
 sizeGroup
 sizeTable
+skip
 skipEmptableOnly
 skipOverWhitespace
 skipToEnd
 skipXmlDecl
+slot
 sniffed
 soap12
 soap12NsID
@@ -14838,6 +15339,8 @@ soapIgnore
 soapNsID
 soapRefs
 soapType
+sobj
+sort
 sortArray
 sortAttributes
 sortContainer
@@ -14873,6 +15376,7 @@ stack
 stackPos
 stackType
 standaloneSId
+star
 start
 startChar
 startFrom
@@ -14907,8 +15411,13 @@ storage
 storageType
 storageTypeDest
 storedOutput
+str1
+str2
 str2Length
 str2Start
+str3
+strA
+strB
 strCDataSectionName
 strCommentName
 strConcat
@@ -14948,6 +15457,7 @@ stringID
 stringToFind
 stringTypeDesc
 stringValue
+strm
 structMapping
 structModel
 styleSheet
@@ -14961,6 +15471,7 @@ stylesheetUri
 stylesheetid
 stylesheets
 stype
+subs
 subscript
 subset
 substTable
@@ -14984,6 +15495,8 @@ systemId
 systemLiteral
 systemLiteralLineInfo
 szBits
+t8v/
+t9\fH
 tableDim
 tableIsTypeDynamic
 tagName
@@ -14997,6 +15510,7 @@ targetSource
 targetType
 targets
 targetsWithoutIds
+task
 tempAssembly
 tempFiles
 tempFilesLocation
@@ -15017,6 +15531,7 @@ templateId
 templateLookup
 templateNameTable
 templates
+term
 testKey
 testLabel
 testNode
@@ -15032,6 +15547,7 @@ textType
 textValue
 textWriter
 textXmlReader
+that
 thisList
 thisNSResolver
 thisScope
@@ -15050,6 +15566,7 @@ timeSpanID
 timeout
 timeticks
 tmpNode
+tmpl
 toBoolean
 toCData
 toCopy
@@ -15072,11 +15589,11 @@ topLevelReader
 topNode
 totalChars
 totalDigits
-totalDigits+System.Xml.Schema.XmlSchemaTotalDigitsFacet
 trackTextContent
 transString
 transitionTable
 treatWarningsAsErrors
+trim
 trimType
 trueBranch
 trueD
@@ -15090,6 +15607,7 @@ typDst
 typSrc
 typTarget
 typVal
+type
 typeAttributes
 typeBldr
 typeBuilder
@@ -15123,7 +15641,11 @@ typedValue
 types
 typesInUse
 typesReverse
+u91H
+uAdd
+uE\ve
 uExtra
+uMul
 ucs4Decoder
 uiDigit
 uiMultiplier
@@ -15148,7 +15670,6 @@ unknown
 unknownDebugger
 unknownNode
 unparsedReplacementStr
-unqualified
 unsignedByteID
 unsignedIntID
 unsignedLongID
@@ -15159,6 +15680,7 @@ unwrapTypedValue
 updatePosition
 upperCase
 urTypeID
+uri1
 uri1Str
 uri2Str
 uriBase
@@ -15170,6 +15692,7 @@ uriResolved
 uriResolver
 uriStr
 uriString
+uris
 urlToSymWriter
 useAsync
 useAttributeSets
@@ -15185,13 +15708,17 @@ useNsHashtable
 useParentOfVirtual
 useReflection
 useString
+used
 usedPrefixes
 usekey
 usingAttributes
 utf8Encoding
 v1Compat
 v4.0.30319
+vH7B
 vUse System.Xml.Schema.XmlSchemaSet for schema compilation and validation. http://go.microsoft.com/fwlink/?linkid=14202
+val1
+val2
 valEventHandler
 valType
 validRestrictionFlags
@@ -15211,6 +15738,7 @@ validationState
 validationType
 validator
 validity
+vals
 value
 value0
 value1
@@ -15248,10 +15776,14 @@ variableFreeSlot
 variableName
 variables
 variety
+vars
 verifyUri
 version
 versionSId
 visitedRef
+w.pa
+w097
+w9>H
 wLock
 warningLevel
 warnings
@@ -15260,7 +15792,6 @@ wfWriter
 whenNode
 whileIterations
 whileStack
-whiteSpace*System.Xml.Schema.XmlSchemaWhiteSpaceFacet
 whitespace
 whitespaceHandling
 whitespaceList
@@ -15275,6 +15806,7 @@ withParamAttributes
 withParams
 withinElem
 workIterator
+wrW^
 wrapped
 wrappedAny
 writeAccessor
@@ -15294,6 +15826,11 @@ wsRules
 wsToken
 wsdlArrayTypeID
 wsdlNsID
+x,He
+x0l7
+x2$W
+x65]
+x@4g
 xPath
 x_cNumeMax
 x_lInt32Base
@@ -15404,17 +15941,48 @@ xstatesBeginLoop
 xstatesEndLoop
 xstatesFinal
 xstatesInitial
+xwrt
+y.4b
+y9KH
+yE0e
 yearMonthDurationType
 years
-z	so)
-z**rH:
+z6C]
+z8,0
+z890
+z8F0
+z8J\f
+z8P0
+z8X0
+z8`0
+zDb9
+zYE\n
+z\tof
+z\toi
+z\tso)
 zc %C1
+zero
 zeroDigit
+zhCN
+zhHK
+zhMO
+zhSG
+zhTW
 zhTWbopo
-znrq.
+zone
 zoneHour
 zoneMinute
-z~rr1
-{ToString()}
+zrH%
+zr\vH
+zreU
+zsn5
+{Dx9
 {debuggerDisplayProxy}
+|0P8
+|EXe
+}541
+}EHf
+}Epf
+~11g
 ~krn2
+~p8t

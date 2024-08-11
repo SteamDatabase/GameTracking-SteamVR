@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -61,16 +60,16 @@ $UnityEngine.UnityWebRequestWWWModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .cctor
 .ctor
-.text
 4TextRenderingPrivate::GetGUITextMaterialWithFallback
 7CharacterInfo.width is deprecated. Use advance instead.
 <Module>
-@.reloc
 Action`1
 Approximately
 Assembly-CSharp-testable
 AsyncCallback
+BSJB
 BeginInvoke
+Bold
 BoldAndItalic
 CharacterInfo.flipped is deprecated. Use uvBottomLeft, uvBottomRight, uvTopRight or uvTopLeft instead, which will be correct regardless of orientation.
 Color32
@@ -91,6 +90,7 @@ DefaultValueAttribute
 ECharacterInfo.vert is deprecated. Use minX, maxX, minY, maxY instead.
 Empty
 EndInvoke
+Enum
 Equals
 ExcludeFromDocsAttribute
 Finalize
@@ -136,14 +136,13 @@ Internal_Destroy
 InternalsVisibleToAttribute
 Invalidate
 InvokeTextureRebuilt_Internal
-IsThreadSafe
-LineSpacing
 LogErrorFormat
 LogWarningFormat
 LowerCenter
 LowerLeft
 LowerRight
 Material
+Math
 Mathf
 MiddleCenter
 MiddleLeft
@@ -157,6 +156,7 @@ NativeNameAttribute
 NativePropertyAttribute
 NativeThrowsAttribute
 NoFont
+None
 Normal
 ObsoleteAttribute
 Populate
@@ -166,6 +166,7 @@ PopulateWithErrors
 Populate_Internal
 Populate_Internal_Injected
 QFont.textureRebuildCallback has been deprecated. Use Font.textureRebuilt instead.
+Rect
 Remove
 RequestCharactersInTexture
 RequireComponent
@@ -204,7 +205,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -289,11 +289,19 @@ Vector3
 Vector4
 VerticalWrapMode
 WThis component is part of the legacy UI system and will be removed in a future release.
+Wrap
 WrapNonExceptionThrows
 WritableAttribute
+Zero
+\fIsThreadSafe
+\nXi\n8
+\nei\n8
+\vLineSpacing
+\vUnity.Burst
+\vUnityEngine
+_6OA
 _CorDllMain
 _names
-`.rsrc
 aCharacterInfo.uv is deprecated. Use uvBottomLeft, uvBottomRight, uvTopRight or uvTopLeft instead.
 add_m_FontTextureRebuildCallback
 add_textureRebuilt
@@ -372,8 +380,10 @@ get_y
 get_zero
 horizontalOverflow
 index
+info
 initialCapacity
 leading
+left
 m_CachedCharacters
 m_CachedLines
 m_CachedVerts
@@ -407,6 +417,7 @@ right
 s_DefaultColor
 s_DefaultTangent
 scaleFactor
+self
 set_advance
 set_alignment
 set_anchor
@@ -448,14 +459,17 @@ set_x
 set_y
 settings
 simpleVert
+size
 startCharIdx
 style
 tangent
 textAnchor
+topY
 updateBounds
 v2.0.50727
 value
 value__
+vert
 verticalOverFlow
 verticalOverflow
 vertices

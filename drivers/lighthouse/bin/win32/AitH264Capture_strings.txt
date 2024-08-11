@@ -1,52 +1,18 @@
                           
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
- CCGG
  Class Hierarchy Descriptor'
  Complete Object Locator'
- GGBB
  Type Descriptor'
  delete
  delete[]
- new[]
- ~	j Y
- ~	j [
-!<l<H
-!This program cannot be run in DOS mode.
-$494s4
-$Ph<V
+ new
 ( 8PX
 ('8PW
 (null)
-+F(_^[;E
-+t HHt
-,Qh|U
-- Attempt to initialize the CRT more than once.
-- Attempt to use MSIL code from this assembly during native code initialization
-- CRT not initialized
-- floating point support not loaded
-- not enough space for _onexit/atexit table
-- not enough space for arguments
-- not enough space for environment
-- not enough space for locale information
-- not enough space for lowio initialization
-- not enough space for stdio initialization
-- not enough space for thread data
-- pure virtual function call
-- unable to initialize heap
-- unable to open console device
-- unexpected heap error
-- unexpected multithread lock error
 -64OS
 .?AUCThreadData@@
 .?AUIAccessible@@
@@ -137,454 +103,23 @@ $Ph<V
 .PAVCOleException@@
 .PAVCSimpleException@@
 .PAVCUserException@@
-.rsrc
-.text
-/N-{BN
-/NRich
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0t0x0
-0!0-02070=0A0G0L0R0W0f0|0
-0"1(1C1s1
-0'1j1p1W2_2e2n2u2
-0(0,0<0@0H0`0p0t0
-0(00080@0H0P0`0p0x0
-0(020<0F0P0Z0d0n0x0
-0(0H0T0l0p0
-0)1.1s1x1
-0*0Z0
-0+0N0
-0.0>0Z0_0q0
-0040T0l0
-0050:0@0E0
-071?1G1y1
-080M0@1E1
-080T0p0
-0;1t|
-0<1@1P1T1X1\1`1h1
-0A@@Ju
-0B0K0R0[0
-0F1X1
-0Rh<V
-0SSSSS
-0T0X0\0
-0WWWWS
-0WWWWW
-0]1l1
-0d0j0s0z0
-0m0s0
-0p2h3n3
-1	2<2_2z2
-1 1$14181H1L1P1T1X1\1d1|1
-1 1$1x1
-1 1G1T1Y1g1
-1 1P1X1\1t1x1
-1!1<1I1}1
+.PAX
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1.1
-1%1=1O1s1
-1(1/151;1?1E1W1b1i1o1u1y1
-1)1P1
-1+1T1]1c1q1
-1-2N2
-101L1h1
-162Q2h2}2
-171k1
-181@1D1H1L1P1X1t1
-181]1x1
-18506
-185\5
-1:1i1}1
-1<1\1
-1B1J1S1\1
-1O1X1d1
-1O1p1
-1P1U1Z1`1e1
-1Q1d1
-1^2s2
-1a1i1r1{1
-2	3W3"4/4E4R4u4
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$24282H2L2\2`2p2t2
-2 2$282<2L2P2T2X2`2x2|2
-2 2&2*20242:2>2D2M2R2W2\2a2f2k2p2u2
-2 2(212;2
-2"20282D2K2T2g2q2}2
-2"3F3s3
-2$292z2
-2$2D2d2
-2%3X3g3p3
-2&3=3
-2(2H2d2
-2(333=3V3`3s3
-2,202P2l2p2
-2,282X2`2t2
-2-222k2
-24484<4H4L4
-244?4U4N6
-252D2Q2]2m2t2
-282P2d2z2
-293l3
-2<2E2K2Y2n2
-2<2\2
-2=3c3r3z3
-2>3D3]3c334V4c4o4w4
-2D2X4
-2H2\2o2
-2J3F4^4
-2V3b5
-2e3k3q3w3
-3 3$3(3,3034383<3@3H3L3P3T3X3\3`3d3h3l3p3t3x3
-3 383<3T3X3p3t3
-3 444B4W4
-3!313M3R3
-3"373`3u3a4f4
-3"3<3B4H4
-3"4M4
-3$3(3,30343<3T3d3h3x3|3
-3$3)3.33383=3B3G3L3X3b3n3y3
-3$3T4t4
-3+3B3R3e3j3y3
-3+3P3g3
-30383\3h3p3
-303P3\3x3
-304m4Q5~5
-343<3E3N3r3z3
-363=3G3O3\3c3
-3:4X4m4
-3D4X4l4t4
-3K3\3
-3M3#4s4\5
-3O4c4
-3d6h6l6p6t6x6|6
-3f4u468I8
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4$4(4,4044484<4@4D4H4L4P4d4h4l4p4|4
-4 4$4(404H4L4d4t4x4
-4 4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4
-4 4(4<4D4X4`4t4|4
-4"4*4A5
-4#4-474
-4(424<4F4P4Z4d4n4x4
-4*43494G4M4Y4b4h4v4|4
-4*5:5g5o5
-4/4N4
-404P4p4
-4054585<5@5
-444	5
-44484P4T4l4p4
-494P4y4
-495Q5V5
-4:5C5L5T5a5
-4=5q5
-4@5l5
-4E5$6
-4G4L4r4d5i5
-4H4c4k4
-4P5]5v5
-4W5v5
-4\5d5|5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5
-5 5$5(505H5X5\5l5p5t5|5
-5 6:6B6z6
-5#5)555>5D5R5X5e5
-5%5+595N5~5
-5&656S6^6t6
-5'545<5E5M5V5^5g5o5x5
-5)5[5y5
-5*6;6B7
-5/6]6
-50545L5P5h5l5
-50585@5L5l5t5|5
-50=4=8=<=
-527:7|7
-535Q5X5\5`5d5h5l5p5t5
-545@5`5h5t5
-566A6\6c6h6l6p6
-585C5`5
-595@5Y5m5s5|5
-5F6Y6<7P7
-5H6h6v6{6
-5V5h5y5
-6	7V7h7
-6 6&6*6/65696?6C6I6M6S6W6p6
-6 6(60686
-6 6,6L6X6x6
-6 686D6d6l6
-6!7'7}7
-6!7V7
-6"6+6[6o6}6
-6#777E7Z7
-6#7B7^7
-6$646P6U6
-6$6<6L6P6`6d6h6l6t6
-6)7f7
-6*6^6t6
-6,6L6l6
-6-9p:
-60666J6O6h6n6{6
-606@6D6T6X6\6`6h6
-606s6
-607P7p7
-657;7U7l7|7
-676?6G6^6w6
-686B6K6V6k6r6x6
-697?7
-6;7\7
-6?6O6r6~6
-6A7#8
-6K6T6Z6
-6Q6i6z6
-6V7d;h;l;p;t;x;|;
-7	838
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7$74787<7D7\7l7p7
-7 7$7<7D7L7T7\7d7l7t7|7
-7 70747D7H7L7T7l7|7
-7 7C7
-7!787
-7"7P7Z7*8H8
-7"8Q8
-7$7,747<7D7L7T7\7d7l7t7|7
-7'7'8
-7'707_7r7
-7)757
-7*7<7N7`7t9
-7*8O9b9b:
-7+888[8d8|8
-7,8P8
-7.73797V7e7l7u7}7
-7.8a8
-7/8V9h9
+5\vqB
+7/Ja
 700PP
 700WP
-787`7|7
-788i8
-7Z7`7d7h7l7
-7h9l9
-7l8z8
 7oAC4u
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8$84888<8@8D8L8d8t8x8
-8 8(8@8P8T8d8h8l8t8
-8 8<8
-8 8@8H8P8\8|8
-8"90999@9J9t9}9
-8#8R8Y8b8j8~8
-8$8,82878>8D8I8P8V8[8b8n8
-8%8:8
-8(8D8I8s8
-8)9s9
-8*8W839:9A9
-8-8;8P8
-8.979d9
-828}8
-839E9V9l9
-849p94:
-888B8_8p8z8
-8;8I8Y8s8x8
-8<8m8
-8A9f9s9
-8C9P9+:8:
-8D9y9
-8G9R9
-8H8h8p8|8
-8VVVVV
-8X9v:
-8d9j9z9
-9 9$9(9,9094989<9@9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9 9(9<9L9`9h9
-9!939F9Q9W9]9b9k9
-9$94989H9L9P9X9p9
-9$9D9L9T9`9
-9%909<9A9Q9V9\9b9x9
-9':5:;:K:P:h:n:}:
-9(9,90989P9`9d9t9x9
-9*:7:S:Y:
-9*::;o;
-9/:8:>:L:a:
-909G9
-939:9C9K9_9d9j9
-939_9
-949H9l9
-949w9
-9K:X:
-9P:T:
-9R9h9q9w9
-9T9]9c9q9
-9VLt	
-9] SS
-9]$SS
-9n:#;2;8;C;O;d;k;
-9p t-S
-9p$ty
-9|;(<D=q=
-9~8ucj
-9~Pu	P
-: :D:d:l:t:|:
-: :X:
-:%:N:T:h:q:w:
-:(:H:T:t:|:
-:*:1:;:L:S:Z:`:i:
-:*;7;a;f;q;v;
-:,:0:4:<:T:d:h:x:|:
-:,;F;
-:.:?:E:V:
-:/;y;
-:0:@:D:T:X:\:d:|:
-:1:<:A:Q:[:b:m:v:
-:1;];
-:A;F;k;
-:I;s;
-:S:X:c:u:z:
-:W:w:|:
-:W>c>
-:`:C;V;
-:k;8<=<X<n<u<
-; ;$;(;,;0;4;8;<;@;D;H;L;P;
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-; ;8;H;L;T;l;|;
-; <-<@<\<
-;$<`<
-;';4;2=&>r>}>
-;'<M<5>
-;(;.;;;d;j;~;
-;(;H;d;
-;(;f;o;&<
-;(r[V
-;,; <&<
-;,;8;@;X;`;t;
-;,;<;@;D;H;P;h;x;|;
-;0;D;Q;X;a;f;
-;4;<;D;L;T;\;d;l;t;|;
-;4;L;d;|;
-;8;U;
-;:<@<N<^<p<
-;;<\<
-;A;U;c;x;
-;B;T;`;
-;D;m;&<5<r<
-;I;O;Z;
-;N;e;
-;e;};
-;g=m=
-;r=z=
-;t$,v-
-;u;};
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-< <$<(<,<0<4<8<<<@<D<H<P<h<l<
-< <$<(<,<0<4<~<
-< <(<0<8<D<d<l<t<|<
-< <,<T<\<h<
-< ='=
-< tK<	tG
-<$<<<T<l<
-<$=C=
-<%<+<7<F<L<U<a<o<u<
-<)<a<x<
-<)=Y=
-<+t(<-t$:
-<,<0<4<<<T<d<h<p<
-<,=<=H=X=d=t=
-<.<f<w<}<
-</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD
-<0N0l0
-<1<a<u<
-<1=m=
-<6<Y<
-<6=H=
-<I<y<
-<Rh<V
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-<j=o=z=
 <program name unknown>
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-= =,=L=T=x=
-=!>M>d>
-=!?'?
-=#='=+=/=3=U=]=g=
-=#=(=,=0=Q={=
-=#>D>w>
-=$=0=P=X=`=l=
-=$=W=`=f=t=
-=%=G=R=a=
-=(=\=e=k=y=
-=(>^>
-=+>1>K>b>r>
-=,=<=@=H=`=d=|=
-=,=D=X=\=t=@>P>\>`>d>h>l>p>t>
-=,=L=
-=0>E>
-=4=D=H=P=h=l=
-=5=w=
-=9>A>J>S>s>
-=>=~=
-=?>g>
-=@>H>
-=C>P>z>
-=K=o=
 =L9o<
-=V>h>
-=X=c=h=
-=[=|=
-=a>f>
-=b=k=t=|=
-=d>l>u>~>
-> >$>(>,>
-> >$>(>,>0>4>8><>
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
->">&>*>.>2>6>:>>>B>F>J>N>R>V>e>p>
->$>(>,>0>8>P>`>d>t>x>|>
->$?i?
->(>l>u>{>
->)?D?g?
->*>/>>>v>
->+?=?J?V?`?h?s?
->,?g?l?
->.>@>K>b>
->0><>D>t>
->4>8>X>x>
->9?Z?y?
->=Yt1j
->??h?v?
->A?Q?W?c?i?y?
->F?X?
->N>i>
->^?u?
-? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-? ?@?D?`?d?h?l?|?
-?!?1?J?O?^?
-?"?M?l?r?
-?&?f?
-?,?1?H?
-?0?D?P?X?t?
-?4?D?H?X?\?`?h?
-?8?D?`?l?
-?8?D?d?l?
-?9?@?I?Q?
-?:???Q?
-?:?f?}?
-?C?{?
-?I?Q?
-?J?j?
-@.data
-@.reloc
-@@BBf;
-@AA;E
-@PVh>c
-@PWSS
-@Rh<V
-@[_^]
-@_[^]
-@_^[]
-AAFFf;
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 ActivateActCtx
 AdjustWindowRectEx
 AitH264Capture.dll
-An application has made an attempt to load the C runtime library incorrectly.
 April
 August
 CArchiveException
@@ -607,6 +142,7 @@ CSimpleException
 CUserException
 CWinApp
 CWinThread
+CWnd
 CallCreateObject
 CallNextHookEx
 CallWindowProcW
@@ -628,7 +164,7 @@ CreateFileW
 CreateStdAccessibleObject
 CreateWindowExW
 DISPLAY
-DOMAIN error
+DOMAIN error\r\n
 DeactivateActCtx
 December
 DecodePointer
@@ -653,10 +189,6 @@ EnumResourceLanguagesW
 Escape
 ExitProcess
 ExtTextOutW
-F(;F0u
-F(;^ r
-F(@@;F,v
-F4_^[]
 FHtmlHelpW
 February
 FindActCtxSectionStringW
@@ -764,8 +296,7 @@ GlobalReAlloc
 GlobalUnlock
 GrayStringW
 HH:mm:ss
-HH_^[
-HPh<V
+HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -773,7 +304,6 @@ HeapFree
 HeapQueryInformation
 HeapReAlloc
 HeapSize
-Ht;O u
 InitCommonControls
 InitCommonControlsEx
 InitializeCriticalSection
@@ -789,11 +319,12 @@ IsWindowEnabled
 IsWindowVisible
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
+July
+June
 KERNEL32
 KERNEL32.dll
 LCMapStringA
 LCMapStringW
-LRh<V
 LeaveCriticalSection
 LoadBitmapW
 LoadCursorW
@@ -819,6 +350,7 @@ MonitorFromPoint
 MonitorFromRect
 MonitorFromWindow
 MultiByteToWideChar
+NKeb
 NotifyWinEvent
 November
 OLEACC.dll
@@ -827,56 +359,32 @@ October
 OffsetViewportOrgEx
 OpenPrinterW
 OutputDebugStringW
-PPPPP
-PPPPPPPP
-PWVWWW
 PathFindExtensionW
 PathFindFileNameW
 PathRemoveFileSpecW
 PeekMessageW
-Ph_^[
-Please contact the application's support team for more information.
 PostMessageW
 PostQuitMessage
-Program: 
 PtInRect
 PtVisible
-P|_^]
-Q$_^]
-Q(_^]
-Q,_^]
-Q0_^]
-Q4_^]
-Q8_^]
-Q<_^]
-Q@_^]
-QD_^]
-QP_^]
-QQSVWd
-QSWVj
-QT_^]
-QX_^]
-Q\_^]
-Qd_^]
-Qh_^]
 QueryPerformanceCounter
-R6002
-R6008
-R6009
-R6016
-R6017
-R6018
-R6019
-R6024
-R6025
-R6026
-R6027
-R6028
-R6030
-R6031
-R6032
-R6033
-R6034
+R6002\r\n- floating point support not loaded\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6009\r\n- not enough space for environment\r\n
+R6016\r\n- not enough space for thread data\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6018\r\n- unexpected heap error\r\n
+R6019\r\n- unable to open console device\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6025\r\n- pure virtual function call\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6030\r\n- CRT not initialized\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
 RSDSO)
 RaiseException
 ReadFile
@@ -897,15 +405,10 @@ ReleaseDC
 RemovePropW
 RestoreDC
 RtlUnwind
-Runtime Error!
+Runtime Error!\n\nProgram: 
+S;uD
 SHLWAPI.dll
-SING error
-SSSSS
-SSSSW
-SVWUj
-SVWj(3
-SVWt*
-S\_^[]
+SING error\r\n
 Saturday
 SaveDC
 ScaleViewportExtEx
@@ -941,13 +444,10 @@ Sleep
 SunMonTueWedThuFriSat
 Sunday
 SystemParametersInfoA
-TLOSS error
+TLOSS error\r\n
 TabbedTextOutW
 TerminateProcess
 TextOutW
-This application has requested the Runtime to terminate it in an unusual way.
-This indicates a bug in your application.
-This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
 Thursday
 TlsAlloc
 TlsFree
@@ -955,28 +455,16 @@ TlsGetValue
 TlsSetValue
 TranslateMessage
 Tuesday
-UDQRP
-UQPXY]Y[
-URPQQh
 USER32.DLL
 USER32.dll
 UnhandledExceptionFilter
 UnhookWindowsHookEx
 Unknown exception
 UnregisterClassW
-VVVVV
-VWh(a
-VWhtW
-VW|[;
 ValidateRect
 VirtualAlloc
 VirtualFree
 WINSPOOL.DRV
-WVWWW
-WVh>c
-WWWWS
-WWWWV
-WWWWW
 Wednesday
 WideCharToMultiByte
 WinHelpW
@@ -984,20 +472,7 @@ WriteConsoleA
 WriteConsoleW
 WriteFile
 WritePrivateProfileStringW
-WtrHHt
-XRh<V
-YYh@}
-Y_^[]
-Y__^[
-[j@j 
-^(_^[
-^(_^[]
-^223[3%4z4
-^SSSSS
-^WWWWW
-_ 9w$u
-_0l0r0
-_VVVVV
+\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
 __based(
 __cdecl
 __clrcall
@@ -1008,9 +483,7 @@ __restrict
 __stdcall
 __thiscall
 __unaligned
-`.rdata
 `RTTI
-`Rh<V
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1020,7 +493,6 @@ __unaligned
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -1050,63 +522,28 @@ __unaligned
 abcdefghijklmnopqrstuvwxyz
 bad allocation
 bad exception
-c0g0k0o0s0w0{0
 d:\VCProject\SecMPTool\release\AitH264Capture.pdb
 dddd, MMMM dd, yyyy
 e+000
-f93u 
 hhctrl.ocx
 invalid string position
-j _W3
-j h82
-j"^SSSSS
-j,h81
-j@j ^V
-jThX0
+kU'9
 list<T> too long
 lstrcmpA
 lstrcmpW
 lstrlenA
 lstrlenW
+m1\f|1
 ole32.dll
 operator
-q021]1
 qH264
 qMJPG
 qUYVY
 qYUY2
 runtime error 
-s[S;7|G;w
 string too long
-t	9p(u
-t h0}
-t"SS9]
-t+WWVPV
-t39w u&
-tA9wht<
-tBhxd
-tCHt/
-tGHt.Ht&
-tJj@h
-tJj@h,
-tNVSP
-tR99u2
-tVHtG
-tj9~8u@j
-u WPS
-u&WVS
-u&hH|
-u1hhZ
-u2h4\
-u8SS3
-u8h(j
-u=j0^VP
-udhtW
-ugSV3
-v	N+D$
-wIVSP
+vids
 xppwpp
 xpxxxx
 z?aUY
 zc%C1
-~,WPV

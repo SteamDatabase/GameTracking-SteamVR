@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -58,14 +57,14 @@ $UnityEngine.UnityWebRequestWWWModule
 .TilemapRendererBindings::SetChunkCullingBounds
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 AddTileFlags
 AddTileFlags_Injected
 Assembly-CSharp-testable
 AttributeTargets
 AttributeUsageAttribute
+Auto
+BSJB
 BottomLeft
 BottomRight
 BoundsInt
@@ -88,7 +87,9 @@ CustomGridBrushAttribute
 DebuggableAttribute
 DebuggingModes
 DetectChunkCullingBounds
+Enum
 FlagsAttribute
+Flip
 FlipAxis
 FloodFill
 FloodFillTileAsset
@@ -114,7 +115,6 @@ GetTileAsset_Injected
 GetTileAssetsBlock
 GetTileAssetsBlock_Injected
 GetTileColliderType
-GetTileColor
 GetTileData
 GetTileDataNoRef
 GetTileFlags
@@ -147,17 +147,24 @@ LockColor
 LockTransform
 Manual
 Matrix4x4
+Mode
 Modules/Grid/Public/Grid.h
+Move
 MoveEnd
 MoveStart
-Name	FloodFill
+Name
 Name%TilemapBindings::GetUsedTilesNonAllocT
+Name\fGetTileColor
+Name\fSetTileColor
+Name\tFloodFill\v 
 NativeHeaderAttribute
 NativeMethodAttribute
 NativePropertyAttribute
 NativeTypeAttribute
+None
 Orientation
 Paint
+Pick
 RefreshAllTileAssets
 RefreshAllTiles
 RefreshTile
@@ -165,7 +172,6 @@ RefreshTileAsset
 RefreshTile_Injected
 RemoveTileFlags
 RemoveTileFlags_Injected
-RenderMode
 RequireComponent
 RequiredByNativeCodeAttribute
 ResetZPosition
@@ -188,7 +194,6 @@ SetTileAsset_Injected
 SetTileAssets
 SetTileAssetsBlock
 SetTileColliderType
-SetTileColor
 SetTileFlags
 SetTileFlags_Injected
 SetTilemapInstance
@@ -213,13 +218,13 @@ TilemapBoundsScripting
 TilemapCollider2D
 TilemapFrameBoundsScripting
 TilemapRenderer
+Tool
 TopLeft
 TopRight
 Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -299,8 +304,10 @@ ValueType
 Vector3
 Vector3Int
 WrapNonExceptionThrows
+\nRenderMode
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 blockDimensions
 bounds
 brushTarget
@@ -308,6 +315,10 @@ change
 changeTile
 dUnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 direction
+endX
+endY
+flip
+from
 get_animatedSprites
 get_animationFrameRate
 get_animationSpeed
@@ -360,6 +371,7 @@ get_yMin
 get_zMax
 get_zMin
 gridLayout
+kW<Q
 layout
 m_AnimatedSprites
 m_AnimationSpeed
@@ -420,6 +432,7 @@ set_tileAnchor_Injected
 set_transform
 startX
 startY
+tile
 tileAnimationData
 tileArray
 tileAsset

@@ -1,70 +1,27 @@
-	 	!	"	#	$	%	&	'	(	)	*	+	,	-	.	/	0	1	2	3	4	5	6	7	8	9	:	;	<	=	>	?	@	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	[	\	]	^	_	`	a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	{	|	}	~	
                           
-        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\_^]
- tDE3
-!This program cannot be run in DOS mode.
-!t$(H!t$ I
-#fD9M
 -64OS
-.pdata
-.text
-0A_A^A]
-0A_A^A]A\_
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.11.0
 1_2_1
+2\vp03
 3DFX_
+3DL_
 422_pixels
-80tVD
-8D$8t
-< tD<	t@
-</assembly>
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
-@.data
-@.reloc
-@.rsrc
-@A_A^A]A\_
-@SUVWATAVAWH
-@SUVWAVH
-@SUVWH
-@SVWH
-@UATAUAVAWH
-@USVWH
-A81t@@8r
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AMD_
 ANGLE_
 APPLE_
-ATAVAWH
+ARB_
 ATIX_
-AUAVAWH
-A^A\_
-A^_^][
-A_A^A\_^
-A_A^A]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^]
-A_A^_
+ATI_
 April
 August
-AuthA
 Cg_shader
 CloseHandle
 CloseThreadpoolTimer
@@ -77,18 +34,6 @@ CreateSemaphoreExW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
-D!l$h3
-D$(E3
-D$0L9
-D$XD+
-D$p H
-D+moA
-D82u&H
-D8L$Ht
-D8t$Ht
-D9l$`
-D9l$dtXH
-D9|$ 
 DX_interop
 DX_interop2
 December
@@ -99,6 +44,7 @@ ES1_1_compatibility
 ES2_compatibility
 ES3_1_compatibility
 ES3_compatibility
+EXT_
 EncodePointer
 EnterCriticalSection
 EnumSystemLocalesEx
@@ -679,16 +625,14 @@ GetTickCount64
 GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-H3E H3E
 HH:mm:ss
-HcD$PH;
-HcH<H
-HcM H
-Hct$@H
+HMXB
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
+I3D_
+IBM_
 INGR_
 INTEL_
 InitializeCriticalSectionAndSpinCount
@@ -698,19 +642,13 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocaleName
 January
+July
+June
 KERNEL32.dll
-L$0H;
-L$8H3
-L$@E3
-L$Df;
-L$HH3
-L$`H3
-L$hE3
-L$pH3
-L$xH3
+KHR_
+KTX_
 LCMapStringEx
 LCMapStringW
-LcA<E3
 LeaveCriticalSection
 LoadLibraryExW
 MESAX_
@@ -721,23 +659,30 @@ MessageBoxW
 Missing GL version
 Monday
 MultiByteToWideChar
+NKeb
+NVX_
 No error
 November
+OES_
+OML_
 OPENGL32.dll
 October
 OutputDebugStringW
-PA^_^
-PA_A^A\_^][
+PGI_
 QueryPerformanceCounter
 REGAL_
 REND_
+R\vp03
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
+S;uD
 SGIS_
 SGIX_
+SGI_
 SUNX_
+SUN_
 Saturday
 September
 SetDefaultDllDirectories
@@ -751,9 +696,6 @@ SetThreadpoolWait
 SetUnhandledExceptionFilter
 Sleep
 Sunday
-T$&@8t$&t9@8r
-T$PE3
-T$`E3
 TerminateProcess
 Thursday
 TlsAlloc
@@ -761,15 +703,10 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Tuesday
-UVWATAUAVAWH
-UWAVH
 UnhandledExceptionFilter
 Unknown error
 VERSION_
-VWATAVAWH
-VWAVH
-WATAUAVAWH
-WATAVH
+WGL_
 WGL_3DFX_multisample
 WGL_3DL_stereo_control
 WGL_AMD_gpu_association
@@ -824,17 +761,20 @@ WGL_NV_vertex_array_range
 WGL_NV_video_capture
 WGL_NV_video_output
 WGL_OML_sync_control
+WIN_
 WaitForThreadpoolTimerCallbacks
 Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-\$ UH
-\$ UVWATAUAVAWH
-\$ WH
-\$0D9=
-\$0H3
-\$0H;
+\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
+\n\t\n\n\n\v\n\f\n\r\n
+\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
+\t\t\t\n\t\v\t\f\t\r\t
+\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
+\v\t\v\n\v\v\v\f\v\r\v
+\vglew32.dll
+\vp03
 __GLEW_3DFX_multisample
 __GLEW_3DFX_tbuffer
 __GLEW_3DFX_texture_compression_FXT1
@@ -3854,16 +3794,15 @@ __wglewSwapIntervalEXT
 __wglewSwapLayerBuffersMscOML
 __wglewWaitForMscOML
 __wglewWaitForSbcOML
-` AUAVAWH
-`.rdata
-`A^_]
 abcdefghijklmnopqrstuvwxyz
+abgr
 arrays_of_arrays
 async
 async_histogram
 async_pixel
 aux_depth_stencil
 base_instance
+bgra
 bindable_uniform
 bindless_multi_draw_indirect
 bindless_multi_draw_indirect_count
@@ -3883,7 +3822,6 @@ blend_subtract
 buffer_region
 buffer_storage
 byte_coordinates
-cAMDD
 cl_event
 clear_buffer_object
 clear_texture
@@ -3956,7 +3894,6 @@ e+000
 element_array
 enable
 enhanced_layouts
-entiE
 envmap_bumpmap
 error_string
 evaluators
@@ -3965,11 +3902,7 @@ explicit_multisample
 explicit_uniform_location
 extension_query
 extensions_string
-fD90t
-fD93u
 fence
-fffff
-fffffff
 float_buffer
 float_pixels
 flush_buffer_range
@@ -4007,8 +3940,6 @@ geometry_program4
 geometry_shader4
 get_program_binary
 get_texture_sub_image
-gfffA
-gfffffffH
 glActiveProgramEXT
 glActiveShaderProgram
 glActiveStencilFaceEXT
@@ -6306,7 +6237,6 @@ glWindowPos4ivMESA
 glWindowPos4sMESA
 glWindowPos4svMESA
 glWriteMaskEXT
-glew32.dll
 glewExperimental
 glewGetErrorString
 glewGetExtension
@@ -6346,8 +6276,7 @@ internalformat_query
 internalformat_query2
 invalidate_subdata
 ir_instrument1
-l$ VWATAVAWH
-l$XD+
+kU'9
 light_max_exponent
 light_texture
 list_priority
@@ -6370,13 +6299,11 @@ multisample_coverage
 multisample_filter_hint
 multitexture
 name_gen_delete
-ntelD
 object_purgeable
 occlusion_query
 occlusion_query2
 occlusion_query_event
 occlusion_test
-p AWH
 pack_invert
 pack_reverse_row_order
 packed_depth_stencil
@@ -6416,7 +6343,6 @@ program_binary
 program_interface_query
 provoking_vertex
 query_buffer_object
-r=D8v
 rasterpos_clip
 read_format
 read_video_pixels
@@ -6435,7 +6361,7 @@ robustness
 robustness_application_isolation
 robustness_share_group_isolation
 row_bytes
-sYHcL$HH
+s3tc
 sample_positions
 sample_shading
 sampler_objects
@@ -6502,17 +6428,10 @@ swap_frame_lock
 swap_frame_usage
 swap_group
 swap_hint
+sync
 sync_control
-t$ UH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$8H+
-t$8Hc0I
-t$@fA
 tag_sample_buffer
 tbuffer
-tcH95
 tessellation_program5
 tessellation_shader
 texgen_emboss
@@ -6608,7 +6527,6 @@ transform_hint
 translated_shader_source
 transpose_matrix
 triangle_list
-u	A!B
 uniform_buffer_object
 vdpau_interop
 vertex
@@ -6771,20 +6689,9 @@ wglWaitForSbcOML
 wglewGetExtension
 wglewIsSupported
 window_pos
-x ATAVAWH
-x AUAVAWH
-x AVH
 x11_sync_object
-x_^][
 ycbcr_422
 ycbcr_texture
 ycrcb
 z?aUY
 zc%C1
-|$ AVH
-|$ H;
-|$ UATAUAVAWH
-|$0-H
-|$@-D
-|$@-H
-|$PD;

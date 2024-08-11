@@ -1,41 +1,28 @@
-"
-"%s"
+  %d:  %s at 0x%p/0x%p \n
+  KEY_SPACE
+ ( def. "%s" )
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
 "%s" = "%s"
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
 $ORIGIN
-%
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %d %d %d %d
-%d:
-%d:  %s at 0x%p/0x%p
 %f %f %f %f
-%hd
-%hu
 %i %i %i %i
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%s
-%s Queue dispatching command( %s, %s -- %i )
-%s Queue dispatching( %s -- %i )
-%s%d
-%s,
-%s/
-%s: string format requested %d chars
-%s_%d
-%u
-%x %x
+%s Queue dispatching command( %s, %s -- %i )\n
+%s Queue dispatching( %s -- %i )\n
+%s: string format requested %d chars\n
 '"KEY_APOSTROPHE
-( def. "%s" )
-() ,+-
-(*%s*),
 (no name)
 **KEY_PAD_MULTIPLY
 ++KEY_PAD_PLUS
@@ -44,8 +31,6 @@ $ORIGIN
 -_KEY_MINUS
 -vguifocus
 -vguimessages
-.
-...
 ../../public/ordered_constructor.h
 ../../public/tier1/utllinkedlist.h
 ../../public/tier1/utlrbtree.h
@@ -59,14 +44,12 @@ $ORIGIN
 /?KEY_SLASH
 /content/
 /game/
-0
 0 0 0 0
 0 0 0 196
 0 0 0 255
 0)KEY_0
 0x%016llX
 0x%p
-1
 1!KEY_1
 10ConCommand
 10IAppSystem
@@ -95,38 +78,28 @@ $ORIGIN
 16CDefaultAccessor
 16CStyleAppearance
 18CPlaceholderConVar
-19
 19IKeyValuesErrorSpew
 19ScalableImageBorder
-2
 200 200 200 196
 20CPostConnectCallback
 22CSchemaInstallCallback
 23IConCommandBaseAccessor
-24
 26CDefaultKeyValuesErrorSpew
 2@KEY_2
-3
 3#KEY_3
-4
 4$KEY_4
 40 40 40 196
-5
 5%KEY_5
 5CVGui
-6
-64
+5t~BC
 6ConVar
 6^KEY_6
-7
 7&KEY_7
 7CScheme
 7CSystem
 7IConVar
-8
 8*KEY_8
 8CFmtStrNILi256ELb0EE
-9
 9(KEY_9
 :active
 :disabled
@@ -135,8 +108,7 @@ $ORIGIN
 :scrollbar
 :selected
 ;:KEY_SEMICOLON
-<
-<< NULL >>
+<< NULL >>\n
 <NULL>
 <deferred>
 <no deferred ref found>
@@ -145,9 +117,11 @@ $ORIGIN
 <unconnected>
 =+KEY_EQUAL, L
 >@danish
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+?offset
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 AllocInternal
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
@@ -186,8 +160,8 @@ CBufferString::Concat(char const*, char const*, ...)
 CBufferString::Insert(int, char const*, int, bool)
 CBufferString::Purge(int)
 CBufferString::Relinquish(CBufferString::EAllocationOption_t)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 COM_TimestampedLog
@@ -204,11 +178,11 @@ CThreadSpinRWLock::UnlockRead(char const*, int)
 CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CXXABI_1.3
 ChangeCallbackOnChange
 ChangeCallbackOnChangeOrCreate
@@ -229,14 +203,14 @@ ComboBoxButton.BgColor
 ComboBoxButton.DisabledBgColor
 CommandLine
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
 ControlBG
 ControlFG
-Couldn't find color '%s' referenced in render fill comand '%s'
+Couldn't find color '%s' referenced in render fill comand '%s'\n
 CreateInterface
 CursorEntered
 CursorEnteredChild
@@ -261,14 +235,14 @@ EarlyInit_Tier0
 EconItemToolModel_001
 EngineServiceMgr001
 EnvironmentMapBuilder_001
-Error parsing 'render' key in a style definition
-Error parsing 'render_bg' key in a style definition
-Errors in %s:%s
+Error parsing 'render' key in a style definition\n
+Error parsing 'render_bg' key in a style definition\n
+Errors in %s:\n%s
 EventSystem001
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
 FgColorDim
-File change watching failed for '%s', retraversing
+File change watching failed for '%s', retraversing\n
 FlattenedSerializersVersion001
 FontManager_001
 Fonts
@@ -303,7 +277,6 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -319,17 +292,17 @@ HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
 IQuickTime001
-IVGui unable to connect to required interfaces!
+IVGui unable to connect to required interfaces!\n
 InputControlState
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
-JSON error, unterminated element:
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
+JSON error, unterminated element: 
 KEY_APP
 KEY_BACKSPACE
 KEY_BREAK
@@ -380,7 +353,6 @@ KEY_RIGHT
 KEY_RSHIFT
 KEY_RWIN
 KEY_SCROLLLOCK
-KEY_SPACE
 KEY_TAB
 KEY_UP
 KV Conditional Evaluation Error
@@ -391,10 +363,10 @@ KeyCodeUnhandled
 KeyFocusTicked
 KeyTyped
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 KillFocus
 LINUX
@@ -411,7 +383,7 @@ LabelBgColor
 LabelDimText
 LayoutFile
 LayoutFileChanged
-Leaked %d panels of class %s in %s
+Leaked %d panels of class %s in %s\n
 Left
 ListPanel.DisabledSelectedTextColor
 ListPanel.DisabledTextColor
@@ -504,9 +476,8 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
-OSX
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 POSIX
-PS3
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -535,7 +506,6 @@ PropertySheet.TransitionEffectTime
 QueuedLoaderVersion001
 RadioButton.SelectedTextColor
 RadioButton.TextColor
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -543,14 +513,14 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Release
 ReloadFontGlyphs(): End
 ReloadFontGlyphs(): Start [%s]
-Render command has left edge > right edge: '%s'
-Render command has top edge > bottom edge: '%s'
-Render command has x0 and x1 reversed: '%s'
-Render command has y0 and y1 reversed: '%s'
+Render command has left edge > right edge: '%s'\n
+Render command has top edge > bottom edge: '%s'\n
+Render command has x0 and x1 reversed: '%s'\n
+Render command has y0 and y1 reversed: '%s'\n
 RenderDevice003
 RenderDeviceMgr001
 RenderHardwareConfig002
@@ -566,7 +536,7 @@ RichText.SelectedBgColor
 RichText.SelectedTextColor
 RichText.TextColor
 Right
-SDL_SetClipboardText failed: %s
+SDL_SetClipboardText failed: %s\n
 SKIN
 SceneSystem_002
 SceneUtils_001
@@ -574,7 +544,7 @@ SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 Scheme
-Scheme: %s (%s)
+Scheme: %s (%s)\n
 SchemeSurface001
 ScrollBar.Wide
 ScrollBarButton.ArmedBgColor
@@ -675,11 +645,10 @@ ToolScriptManager001
 ToolService_001
 Tooltip.BgColor
 Tooltip.TextColor
-Top
 TreeView.BgColor
-Unable to watch '%s'
+Unable to watch '%s'\n
 UnhandledMouseClick
-Unknown key '%s' set in style '%s' in file '%s'
+Unknown key '%s' set in style '%s' in file '%s'\n
 UserConfigData
 UserInfoChangeService_001
 VApplication001
@@ -720,7 +689,7 @@ V_IsAbsolutePath
 V_PathContainsPath
 V_RemoveDotSlashes
 V_SetErrno
-V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int> >&)
+V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int>>&)
 V_StrTrim
 V_StripTrailingSlash
 V_UTF16ToUTF8
@@ -757,13 +726,13 @@ V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 VisBuilder_001
-WARNING: CDirWatcher not implemented
+WARNING: CDirWatcher not implemented\n
 WIN32
 WINDOWS
 WINXP
 Warning
-Warning font %s does not have a 'name' key! No windows font will be created. Check your scheme to make sure all machine configs are supported.
-Warning:  %s = '%s' is infinite, clamping value.
+Warning font %s does not have a 'name' key! No windows font will be created. Check your scheme to make sure all machine configs are supported.\n
+Warning:  %s = '%s' is infinite, clamping value.\n
 White
 WindowBgColor
 WindowDisabledFgColor
@@ -774,11 +743,11 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 X360
 You need to name the scheme (%s)!
-[%.3f server clamped to %.3f]
-[%s] unexpected parameter for height="%s" - must be either a number, or "max"
-[%s] unexpected parameter for width="%s" - must be either a number, or "max"
-[%s] unknown layout command '%s' (valid values 'region', 'place')
+[%s] unexpected parameter for height="%s" - must be either a number, or "max"\n
+[%s] unexpected parameter for width="%s" - must be either a number, or "max"\n
+[%s] unknown layout command '%s' (valid values 'region', 'place')\n
 [{KEY_LBRACKET
+\tpanel '%s' of type '%s' leaked\n
 \|KEY_BACKSLASH
 ]}KEY_RBRACKET
 _ITM_deregisterTMCloneTable
@@ -838,8 +807,8 @@ borrow
 bottom inset
 cCKEY_C
 cfg/registry.vdf
-changing kb focus from %s to %s
-changing mouse focus from %s to %s
+changing kb focus from %s to %s\n
+changing mouse focus from %s to %s\n
 cheat
 cl_hud_minmode
 client
@@ -854,26 +823,22 @@ control
 controls
 corner
 custom
-d
 dDKEY_D
 dashedrect
 delete
 delta
 developer
-dir
 draw_corner_height
 draw_corner_width
 dropshadow
-dup
 dutch
 eEKEY_E
 enabled
 end-down
 end-right
 english
-error loading file '%s', %s
+error loading file '%s', %s\n
 event
-f
 fFKEY_F
 fcntl
 fdatasync
@@ -922,7 +887,6 @@ keyboard input
 keyvalues.cpp
 korean
 koreana
-l
 lLKEY_L, L
 ld-linux-x86-64.so.2
 left inset
@@ -947,22 +911,18 @@ materials/vgui/hud/800corner1.vmat
 materials/vgui/hud/800corner2.vmat
 materials/vgui/hud/800corner3.vmat
 materials/vgui/hud/800corner4.vmat
-max
-max. %f
 memcpy
 memmove
 mempool.cpp
 memset
 min height
 min width
-min. %f
 mouse input
 mousepressed
 nNKEY_N
 name
 newPanel
-no
-no such file '%s'
+no such file '%s'\n
 norwegian
 notconnected
 notify
@@ -984,13 +944,13 @@ padding-left
 padding-right
 padding-top
 paintfirst
-parse render key : Couldn't load image '%s' in '%s'
-parse render key : Expected '(', found '%s' in '%s'
-parse render key : Expected ')', found '%s' in '%s'
-parse render key : Expected [+ - ,], found '%s' in '%s'
-parse render key : Expected [x0 y0 x1 y1], found '%s' in '%s'
-parse render key : Expected command token, found '%s' in '%s'
-parsing render key : Expected [, )], found '%s' in '%s'
+parse render key : Couldn't load image '%s' in '%s'\n
+parse render key : Expected '(', found '%s' in '%s'\n
+parse render key : Expected ')', found '%s' in '%s'\n
+parse render key : Expected [+ - ,], found '%s' in '%s'\n
+parse render key : Expected [x0 y0 x1 y1], found '%s' in '%s'\n
+parse render key : Expected command token, found '%s' in '%s'\n
+parsing render key : Expected [, )], found '%s' in '%s'\n
 passthrough
 pipe
 place
@@ -1011,13 +971,12 @@ qQKEY_Q
 rRKEY_R
 r_screen_size_expansion
 range
-rb
 read
 readdir64
 readlink
 region
 registry
-removing kb focus %s
+removing kb focus %s\n
 render
 render_bg
 replicated
@@ -1041,7 +1000,7 @@ selectedbgcolor
 selectedtextcolor
 server_can_execute
 set_vgui_language
-set_vgui_language %s is not a valid language choice
+set_vgui_language %s is not a valid language choice\n
 settings
 shadowtextcolor
 singleplayer
@@ -1050,7 +1009,6 @@ spanish
 sqrtf
 src_corner_height
 src_corner_width
-ss
 ss_added
 start
 state
@@ -1080,8 +1038,8 @@ u64( %lld = 0x%llX )
 uUKEY_U
 underline
 unichar
-unknown color '%s' referenced by style key '%s'
-unknown pseudoclass on style %s in file %s
+unknown color '%s' referenced by style key '%s'\n
+unknown pseudoclass on style %s in file %s\n
 unlink
 update
 user
@@ -1098,7 +1056,6 @@ vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 wWKEY_W
-wb
 wcscmp
 wcslen
 weight
@@ -1111,6 +1068,3 @@ yres
 zDVGUI_Surface032
 zZKEY_Z
 zpos
-{
-{}()'
-{}()':

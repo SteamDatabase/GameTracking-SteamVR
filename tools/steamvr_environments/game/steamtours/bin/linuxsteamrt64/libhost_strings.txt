@@ -1,8 +1,60 @@
-
-!
+  0x%08X %s,\n
+  Actual   : 
+  Comment started here.
+  Expected : 
+ !"#$%&'()*+,-./0123
+ #GameUI_Disconnect_ExitingEngine
+ #GameUI_Disconnect_InternalError
+ #GameUI_Disconnect_SnapshotError
+ #GameUI_Disconnect_SoundsMessage
+ #GameUI_Disconnect_SteamIDBanned
+ #GameUI_ServerRejectBadChallenge
+ #Valve_Reject_Connect_From_Lobby
+ #Valve_Reject_Reserved_For_Lobby
+ ( def. "%s" )
+ = { <proto text format> }". To set fields within it, use syntax like "
+ BackUp() can only be called after Next().
+ Can't back up over more bytes than were returned by the last call to Next().
+ Outdent() without matching Indent().
+ Parameter to BackUp() can't be negative.
+ ReadToken overflow
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ [%.3f server clamped to %.3f]
+ [default = $0
+ a protocol 
+ args were given.  Full format string was: "
+ arguments. 
+ but not used.
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ conflicts with an existing enum type.
+ conflicts with an existing field.
+ conflicts with an existing nested message type.
+ conflicts with an existing oneof type.
+ contains invalid 
+ details: 
+ google/protobuf/descriptor.proto*
+ message of type "
+ not found
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ type does not match\n
+ unexpected for field 
+ was modified concurrently during serialization.
+ with type 
+!#GameUI_Disconnect_ConnectionLost
+!#GameUI_Disconnect_HLTVRestricted
+!#GameUI_Disconnect_LoopDeactivate
+!#GameUI_Disconnect_RejectedByGame
+!#GameUI_Disconnect_Request_HSIdle
+!#GameUI_Disconnect_ServerShutdown
+!#GameUI_Disconnect_SteamDeny_Misc
+!#GameUI_Disconnect_SteamOwnership
+!#GameUI_Disconnect_TempEntMessage
+!#GameUI_ServerRejectFailedChannel
+!.google.protobuf.EnumValueOptions
 !m_bNeedsSort
-"
-" because it is missing required fields:
+" because it is missing required fields: 
 " conflicts with field "
 " conflicts with the existing symbol "
 " for field "
@@ -18,7 +70,7 @@
 " is already defined in file "
 " is already defined.
 " is an atomic type, not a message.
-" is missing required fields:
+" is missing required fields: 
 " is not a field or extension of message "
 " is not a message type.
 " is not a proto3 enum, but is used in "
@@ -31,7 +83,7 @@
 " is resolved to "(
 " is specified along with field "
 " is specified multiple times.
-" must be unique within
+" must be unique within 
 " not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
 " seems to be defined in "
 " stored in google.protobuf.Any has missing required fields
@@ -43,39 +95,30 @@
 " was not found or had errors.
 " which is a proto3 message type.
 " which is.
-"""
+"#GameUI_Disconnect_DeltaEntMessage
+"#GameUI_Disconnect_HLTVUnavailable
+"#GameUI_ServerRejectInvalidCertLen
+"#\n\nCEntityMsg
 "$0" does not declare $1 as an extension number.
-"$0",
-"%s"
+"$\n\fCMsgVector2D
 "%s" = "%s"
-"%s":
-"%s":%.3f
-"%s":%d
-"%s":%f
-"%s":%lld
-"%s":%llu
-"%s":%s
-"%s":%u
-"%s":[
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
 ", another member of oneof "
-", but only
-", field number
-", found "
+", but only 
+", field number 
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
-".
+"-\n\nCMsgQAngle
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". This appears to be a value from a sibling type.
-". This is not
+". This is not 
 ". Value: "
-".)
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-":
+"<\n CNETMsg_SpawnGroup_LoadCompleted
 "DeleteMapValue"
 "GetMapData"
 "GetRawRepeatedField"
@@ -85,130 +128,188 @@
 "MapEnd"
 "MapSize"
 "MutableRawRepeatedField"
+"\nis running without a known mod!\n\nSet the VMOD environment variable or run with -game to set the mod name.\n
+"^\n\fOneofOptions
 "e" must be followed by exponent.
-"is running without a known mod!Set the VMOD environment variable or run with -game to set the mod name.
-#%d
+"ikrig
+"k\n"CNETMsg_SpawnGroup_SetCreationTick
+"u\n!CNETMsg_SpawnGroup_ManifestUpdate
+##GameUI_Disconnect_BadRelayPassword
+##GameUI_Disconnect_ReliableOverflow
+##GameUI_Disconnect_SnapshotOverflow
 #AppFramework_OutOfMemory
+#GameUI_ClientConsistencyFail
+#GameUI_ClientDifferentMap
+#GameUI_ClientNoMap
+#GameUI_ClientUnableToCRCMap
+#GameUI_Disconnect_BanAdded
+#GameUI_Disconnect_Disconnected
+#GameUI_Disconnect_HLTVDirect
+#GameUI_Disconnect_HLTVStop
+#GameUI_Disconnect_Host_EndGame
+#GameUI_Disconnect_KickBanAdded
+#GameUI_Disconnect_Kicked
+#GameUI_Disconnect_LeavingSplit
+#GameUI_Disconnect_LoopShutdown
+#GameUI_Disconnect_NoMoreSplits
+#GameUI_Disconnect_NoSpectators
+#GameUI_Disconnect_Server
+#GameUI_Disconnect_SteamDropped
+#GameUI_Disconnect_SteamIDInUse
+#GameUI_Disconnect_SteamInUse
+#GameUI_Disconnect_SteamLogon
+#GameUI_Disconnect_SteamTicket
+#GameUI_Disconnect_SteamTimeOut
+#GameUI_Disconnect_SteamVAC
+#GameUI_Disconnect_TickMessage
+#GameUI_Disconnect_TimedOut
+#GameUI_Disconnect_Unusual
+#GameUI_Disconnect_User
+#GameUI_Disconnect_UserCmd
+#GameUI_ServerAuthDisabled
+#GameUI_ServerCDKeyAuthInvalid
+#GameUI_ServerNoLobby
+#GameUI_ServerRejectBadPassword
+#GameUI_ServerRejectBanned:E\n
+#GameUI_ServerRejectLANRestrict
+#GameUI_ServerRejectNewProtocol
+#GameUI_ServerRejectOldProtocol
+#GameUI_ServerRejectServerFull
+#GameUI_ServerRejectSteam
+#GameUI_ServerRequireSteams
 #General_UnableToStartGame
-#It contains connectivity part %d with %d vertices
-#This file is generated by CMesh::SaveObj() from CMesh with %d indices, %d vertices, %d attributes
-#[
+#It contains connectivity part %d with %d vertices\n
+#This file is generated by CMesh::SaveObj() from CMesh with %d indices, %d vertices, %d attributes\n
+#Valve_Reject_Background_Map
+#Valve_Reject_Hidden_Game
+#Valve_Reject_Single_Player
 #base
-#base is NULL
+#base is NULL 
 #empty#
-#f %d %d %d, original mesh: %d %d %d
+#f %d %d %d, original mesh: %d %d %d\n
 #include
-#include is NULL
+#include is NULL 
 #int#
-$
-$0  extend .$1 {
-$0  extensions $1 to $2;
-$0  reserved
-$0  }
-$0 to $1,
-$0$1 = $2
+$#GameUI_Disconnect_BadServerPassword
+$#GameUI_Disconnect_ConnectionFailure
+$#GameUI_Disconnect_MessageParseError
+$#GameUI_Disconnect_Request_HLTVRelay
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
+$0  reserved 
 $0$1$2 $3 = $4
-$0,
-$0// $1
-$0enum $1 {
+$0enum $1 {\n
 $0message $1
 $0oneof $1 {
-$0option $1;
+$0option $1;\n
 $0rpc $1($4.$2) returns ($5.$3)
-$0}
 $ORIGIN
 $gender
-%
-%%%s
-%%s%%s%%d:  sv[%%%d.%ds] cl[%%%d.%ds]
-%-120s
-%-120s - %s
-%.*g
-%.1f
+%#GameUI_Disconnect_BadClientDeltaTick
+%#GameUI_Disconnect_ConnectionOverflow
+%#GameUI_Disconnect_ConnectionTimedout
+%#GameUI_Disconnect_CreateServerFailed
+%#GameUI_Disconnect_LocalProblem_Other
+%#GameUI_Disconnect_ReplayIncompatible
+%#GameUI_Disconnect_ServerIncompatible
+%#GameUI_Disconnect_ServerInfoOverflow
+%#GameUI_Disconnect_StringTableMessage
+%#GameUI_ServerRejectInvalidConnection
+%#GameUI_ServerReject_InvalidKeyLength
+%%s%%s%%d:  sv[%%%d.%ds] cl[%%%d.%ds]\n
+%-120s - %s\n
+%-120s\n
+%.15lf
 %02X
-%c
-%d
-%d.%d.%d
 %d/%d: '%s' %s
 %f %f %f %f
-%g
-%hd
-%hu
 %i %i %i %i
-%ld
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%lu
-%p
-%s
 %s (Color)
 %s (Material)
-%s * %s
-%s + %s
-%s - %s
-%s / %s
-%s%d
-%s%s%s
-%s,
-%s.%u
-%s/
-%s:  IGameSystem::LoopActivateAllSystems {
-%s:  IGameSystem::LoopDeactivateAllSystems {
+%s:  IGameSystem::LoopActivateAllSystems {\n
+%s:  IGameSystem::LoopDeactivateAllSystems {\n
 %s:  IGameSystem::LoopInitAllSystems(finish)
 %s:  IGameSystem::LoopInitAllSystems(start)
-%s:  IGameSystem::LoopPostInitAllSystems(finish)
-%s:  IGameSystem::LoopPostInitAllSystems(start)
-%s:  } IGameSystem::LoopActivateAllSystems done
-%s:  } IGameSystem::LoopDeactivateAllSystems done
-%s: string format requested %d chars
+%s:  IGameSystem::LoopPostInitAllSystems(finish)\n
+%s:  IGameSystem::LoopPostInitAllSystems(start)\n
+%s:  } IGameSystem::LoopActivateAllSystems done\n
+%s:  } IGameSystem::LoopDeactivateAllSystems done\n
+%s: string format requested %d chars\n
 %s_color
 %s_matgrp
 %s_tempcontent
-%u
-&
-'
-'%s'
+&#GameUI_Disconnect_InvalidMessageError
+&#GameUI_Disconnect_NoPeerGroupHandlers
+&#GameUI_Disconnect_PureServer_Mismatch
+&#GameUI_Disconnect_RemoteProblem_Other
+&#GameUI_ServerRejectInvalidReservation
+&\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
+'#GameUI_Disconnect_BadSpectatorPassword
+'#GameUI_Disconnect_DifferentClassTables
+'#GameUI_ServerRejectInvalidSteamCertLen
+'\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
+'\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
 'out_location' must not be NULL
-(
-( def. "%s" )
-(*%s*),
-(.
+(#GameUI_Disconnect_LoopLevelLoadActivate
+(#GameUI_Disconnect_RemoteProblem_BadCert
+(#GameUI_Disconnect_RemoteProblem_Timeout
 (None)
+(\r"R\n\nCMsg_CVars
+(\t"\r\n\vCNETMsg_NOP"'\n
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2#.CSVCMsgList_UserMessages.usermsg_t
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption"P\n
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.ExtensionRangeOptions
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2-.google.protobuf.GeneratedCodeInfo.Annotation
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2..google.protobuf.DescriptorProto.ReservedRange
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
+(\v26.google.protobuf.EnumDescriptorProto.EnumReservedRange
+(\v2\v.CMsgQAngle
+(\v2\v.CMsgVector
+(\v2\v.CMsg_CVars"
 (cannot determine missing fields for lite message)
-(merge
+(merge 
 (missing)
-)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
-), this value label conflicts with
+)#GameUI_Disconnect_PureServer_ClientExtra
+)#GameUI_Disconnect_RemoteProblem_BadCrypt
+)#GameUI_Disconnect_SteamDeny_BadAntiCheat
+), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-*
+)\n!host_framestarttime_std_deviation
+*#GameUI_Disconnect_LocalProblem_ManyRelays
 *LANGUAGE*
 *N6google8protobuf12_GLOBAL__N_123AggregateErrorCollectorE
 *N6google8protobuf12_GLOBAL__N_123GeneratedMessageFactoryE
 *N6google8protobuf12_GLOBAL__N_123StringBaseTextGeneratorE
 *N6google8protobuf12_GLOBAL__N_124FieldValuePrinterWrapperE
 *N6google8protobuf12_GLOBAL__N_133FastFieldValuePrinterUtf8EscapingE
-+++
-+++ %s:
-+++ %s[%d]:
+*\n"host_computationtime_std_deviation
++++ %s[%d]: 
++\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
++\n\rReservedRange
 +inf
-,
-, %s
-, from:
-, lo=
 , not just within "
-, parent:
--
--%s
----
---- %s:
---- %s[%d]:
------
--->
--1
-->
+, parent: 
+,#GameUI_Disconnect_Splitpacket_Send_Overflow
+-#GameUI_Disconnect_LocalProblem_NetworkConfig
+--- %s[%d]: 
 -addon
 -addon_path
 -allow_non_tools_paths
@@ -237,13 +338,8 @@ $gender
 -tempcontent
 -tools
 -unbufferedio
--x
--y
-.
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-...
-... }
 ...<truncated>...
 ../../common/protobuf_helpers.cpp
 ../../public/appframework/tier1app.h
@@ -263,6 +359,7 @@ $gender
 ./google/protobuf/dynamic_message.h
 ./google/protobuf/generated_message_reflection.h
 ./google/protobuf/io/coded_stream_inl.h
+./google/protobuf/map.h
 ./google/protobuf/map_field.h
 ./google/protobuf/map_field_inl.h
 ./google/protobuf/message_lite.h
@@ -274,25 +371,34 @@ $gender
 ./google/protobuf/stubs/stringpiece.h
 ./google/protobuf/unknown_field_set.h
 ./google/protobuf/wire_format_lite_inl.h
+.CMsg_CVars.CVar
+.CSVCMsgList_GameEvents.event_t
+.CSVCMsg_GameEvent"9\n
+.CSVCMsg_GameEvent.key_t
+.CSVCMsg_UserMessage"
+.ENetworkDisconnectionReason"
 .PLACEHOLDER_VALUE
 .dummy
+.eB5
 .foo = value".
+.google.protobuf.EnumOptions
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions
+.google.protobuf.OneofOptions"
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo
 .placeholder.proto
 .vpk
-/
 /content/
 /game/
-0
-0 <= i
 00000000-0000-0000-0000-000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789abcdef
 0x%016llX
-0x%08X %s,
 0x%p
-1
 1 1 1
-1.0
 10CEntityMsg
 10CHostUtils
 10CMsgQAngle
@@ -382,8 +488,14 @@ $gender
 19IKeyValuesErrorSpew
 19ISaveRestoreDataMgr
 1DBlend
-2
-2.
+1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
+2#.google.protobuf.FieldOptions.CType:
+2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
+2$.google.protobuf.FieldOptions.JSType:\tJS_NORMAL
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.google.protobuf.FieldDescriptorProto.Label
+2/.google.protobuf.MethodOptions.IdempotencyLevel:
 20CFootstepSoundsTable
 20CGameModelInfoClient
 20CGameModelInfoServer
@@ -410,32 +522,28 @@ $gender
 2Way_0( %s )
 2Way_1( %s )
 2_BONE_IK
-3
 30CSVCMsgList_GameEvents_event_t
 32CNETMsg_SpawnGroup_LoadCompleted
 32CSVCMsg_GameSessionConfiguration
 33CNETMsg_SpawnGroup_ManifestUpdate
 34CNETMsg_SpawnGroup_SetCreationTick
 34CSVCMsgList_UserMessages_usermsg_t
-3C
-4
-4C
-5
-6
+456789:;<=
+5\n\vnested_type
+5t~BC
 6ConVar
-7
+6\n\fmessage_type
 7IConVar
-8
+7\n\tenum_type
+8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 8CFmtStrNILi256ELb0EE
 8CMsgRGBA
-9
+8\n\textension
 9ISequence
-:
-: "
+9\n\noneof_decl
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
-: Tried to copy from a message with a different type. to:
-: Tried to merge from a message with a different type.  to:
-: [
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
 : failed to parse contents
 ::google::protobuf::FieldDescriptorProto_Label_IsValid(value)
 ::google::protobuf::FieldDescriptorProto_Type_IsValid(value)
@@ -443,32 +551,29 @@ $gender
 ::google::protobuf::FieldOptions_JSType_IsValid(value)
 ::google::protobuf::FileOptions_OptimizeMode_IsValid(value)
 ::google::protobuf::MethodOptions_IdempotencyLevel_IsValid(value)
-;
-<
-<!--
-<< NULL >>
+<"C_OP_RemapSpeedtoCP
+<< NULL >>\n
 <INVALID EXPRESSION>
 <INVALID_RBF_TYPE>
 <NO EXPRESSION>
 <NULL>
+<\n\tusermsg_t
 <deferred>
 <no deferred ref found>
 <no failure reason set>
 <null>
 <unconnected>
 <unknown>
-=
-= { <proto text format> }". To set fields within it, use syntax like "
-=.=
->
+=\n NETWORK_DISCONNECT_CLIENT_NO_MAP
+?456789:;<=
 ?GameSystem2HostHook
-@
+?Trailing Data
 @Aphysaggregatedata.cpp
 @spawn
 A file with this name is already in the pool.
 A protobuf object %s with a repeated field %s was used in a container, this will crash
-A protocol message was rejected because it was too big (more than
-A->B
+A protocol message was rejected because it was too big (more than 
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
 ABORTED
 ACT_IDLE
@@ -504,33 +609,33 @@ AE_VORTIGAUNT_ZAP_POWERUP
 AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
-AIM
 AIWalkable
 ALREADY_EXISTS
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
-APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!
-APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!
+APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
+APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
 ATTACHMENT_INFLUENCE_FLAGS_NONE
+A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
+A\n\nannotation
 AbsolutePoseControl
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
 Activate diffcheck system.
-Actual    :
-Actual   :
 Actually show diffcheck results.
 AddAllocatedMessage
 AddBool
 AddDouble
 AddEnum
-AddEnumValue accepts only valid integer values: value
+AddEnumValue accepts only valid integer values: value 
 AddFloat
 AddInt32
 AddInt64
 AddMessage
 AddOnInfo
+AddRef
 AddString
 AddUInt32
 AddUInt64
@@ -538,7 +643,7 @@ AddonInfo
 AddonsChangeDefaultWritePath
 AllowAddonDependencies
 Already saw decimal point or exponent; can't have another one.
-Angle;
+Angle; 
 AnimAddLayer
 AnimAlign
 AnimAutoLayer
@@ -563,25 +668,23 @@ AnimStartLoop
 AnimSubtract
 AnimVRFinger_t
 AnimVRHand_t
-Animated
+Animated\n
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
 Application "
-Application unable to load gameinfo.gi file from directory "%s"!
+Application unable to load gameinfo.gi file from directory "%s"!\n
 ApplicationInfo
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
-Attempting to get the Skeletal Input settings from model %s, which doesn't have any.  Please add a Skeletal Input Settings node to the model in ModelDoc
-Attempting to get the movement settings from model %s, for which movement settings have not been set.  Please add a MovementSettings node to the model in ModelDoc
+Attempting to get the Skeletal Input settings from model %s, which doesn't have any.  \nPlease add a Skeletal Input Settings node to the model in ModelDoc\n
+Attempting to get the movement settings from model %s, for which movement settings have not been set.  \nPlease add a MovementSettings node to the model in ModelDoc\n
 AuthenticAMD
-B->C
-BackUp() can only be called after Next().
 BackUp() can only be called after a successful Next().
-Bad KV3 data for '%s': %s
+Bad KV3 data for '%s': %s\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -598,10 +701,11 @@ Bad header format (expected format name)
 Bad header format (expected format uuid)
 Bad header format (malformed UUID)
 Bad header format (no closing marker)
+Bad header: invalid binary marker
 Bad header: invalid compression header
 Bad header: unrecognized encoding id
 BakedLODBuilderMgr001
-Base Spring;
+Base Spring; 
 BaseIKRig
 BasePhysicsShape
 BenchmarkService001
@@ -615,8 +719,7 @@ Boolean default must be true or false.
 BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
-Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of
-C
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
 C& google::protobuf::internal::scoped_array<C>::operator[](std::ptrdiff_t) const [with C = unsigned int, std::ptrdiff_t = long int]
 C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google::protobuf::Message]
 C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google::protobuf::UnknownFieldSet]
@@ -625,8 +728,6 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C->D
-C->E
 CANCELLED
 CAimConstraint
 CAnimBone
@@ -669,8 +770,8 @@ CBufferString::ShortenPath()
 CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CConstraintSlave
 CConstraintTarget
 CDrawCullingData
@@ -679,246 +780,252 @@ CFingerBone
 CFingerChain
 CFingerSource
 CFootDefinition
-CHECK failed: !TableEntryIsTree(b) && !TableEntryIsTree(b ^ 1):
-CHECK failed: !aggregate_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !checkpoints_.empty():
-CHECK failed: !coded_out.HadError():
-CHECK failed: !csharp_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !default_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !descriptor_:
-CHECK failed: !extendee_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !extension->is_repeated:
-CHECK failed: !failed_:
-CHECK failed: !field->containing_oneof():
-CHECK failed: !field->options().weak():
-CHECK failed: !file->finished_building_:
-CHECK failed: !file_:
-CHECK failed: !go_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !identifier_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !input_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !is_closed_:
-CHECK failed: !iter->second.is_repeated:
-CHECK failed: !java_outer_classname_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !java_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !json_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !leading_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !name_:
-CHECK failed: !name_part_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !objc_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !once_:
-CHECK failed: !out.HadError():
-CHECK failed: !output_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !php_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !php_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !source_file_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !string_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !swift_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !syntax_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !trailing_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !tree->empty():
-CHECK failed: !type_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: (&from) != (this):
-CHECK failed: (&from) != (to):
-CHECK failed: (&other) != (this):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: (*buffer) == (first_byte):
-CHECK failed: (0) != (n):
-CHECK failed: (0) <= (pos):
-CHECK failed: (0) == (BufferSize()):
-CHECK failed: (FieldDescriptor::TypeToCppType(field->type())) == (value.type()):
-CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()):
-CHECK failed: (b->avail()) >= (n):
-CHECK failed: (backup_bytes_) == (0):
-CHECK failed: (bucket_index_ % 2) == (0):
-CHECK failed: (bucket_index_ & 1) == (0):
-CHECK failed: (buffer_size) >= (0):
-CHECK failed: (buffer_used_) == (buffer_size_):
-CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization):
-CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization):
-CHECK failed: (calc_escaped_size) == (escaped_len):
-CHECK failed: (count) <= (buffer_used_):
-CHECK failed: (count) <= (kMaxLength):
-CHECK failed: (count) <= (last_returned_size_):
-CHECK failed: (count) <= (target_->size()):
-CHECK failed: (count) == (tree->size()):
-CHECK failed: (count) >= (0):
-CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (current_size_) < (total_size_):
-CHECK failed: (current_size_) > (0):
-CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()):
-CHECK failed: (digits) < (100):
-CHECK failed: (end - target) == (size):
-CHECK failed: (extension->is_packed) == (other_extension.is_packed):
-CHECK failed: (extension->is_packed) == (packed):
-CHECK failed: (extension->type) == (other_extension.type):
-CHECK failed: (field->message_type()) == (desc):
-CHECK failed: (field->options().ctype()) == (ctype):
-CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES):
-CHECK failed: (final_byte_count) < (target_byte_count):
-CHECK failed: (first_byte & 0x80) == (0x80):
-CHECK failed: (first_byte_or_zero) != (0):
-CHECK failed: (first_byte_or_zero) == (buffer_[0]):
-CHECK failed: (from.GetDescriptor()) == (descriptor):
-CHECK failed: (has_bit_index) != (~0u):
-CHECK failed: (index) < (current_size_):
-CHECK failed: (index) >= (0):
-CHECK failed: (internal::AlignUpTo8(b->pos)) == (b->pos):
-CHECK failed: (internal::AlignUpTo8(n)) == (n):
-CHECK failed: (it.m_) == (this):
-CHECK failed: (last_returned_size_) > (0):
-CHECK failed: (len) <= (dest_len):
-CHECK failed: (len) >= (0):
-CHECK failed: (message1->GetReflection()) == (this):
-CHECK failed: (message2->GetReflection()) == (this):
-CHECK failed: (message_type) == (field->message_type()):
-CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kHeaderSize):
-CHECK failed: (n & (n - 1)) == (0):
-CHECK failed: (n) > (0):
-CHECK failed: (n) >= (0):
-CHECK failed: (new_num_buckets) >= (kMinTableSize):
-CHECK failed: (new_size) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(old_rep->elements[0])):
-CHECK failed: (num_elements) <= (std::numeric_limits<size_t>::max() / sizeof(T)):
-CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP):
-CHECK failed: (out) == (begin + result->size()):
-CHECK failed: (out) == (begin + result.size()):
-CHECK failed: (pos) <= (x.length_):
-CHECK failed: (recursion_budget_) < (recursion_limit_):
-CHECK failed: (result.bucket_index_) == (b & ~static_cast<size_type>(1)):
-CHECK failed: (result.size()) == (i):
-CHECK failed: (size) <= (6):
-CHECK failed: (size) <= (static_cast<size_t>(2147483647)):
-CHECK failed: (static_cast<size_t>(new_size)) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(Element)):
-CHECK failed: (str.size()) <= (kuint32max):
-CHECK failed: (table_[b]) == (table_[b ^ 1]):
-CHECK failed: (target - output->data()) == (output->size()):
-CHECK failed: (temp[0]) == ('1'):
-CHECK failed: (temp[size-1]) == ('5'):
-CHECK failed: (to->GetDescriptor()) == (descriptor):
-CHECK failed: (type) != (WireFormatLite::TYPE_ENUM):
-CHECK failed: (type) != (WireFormatLite::TYPE_GROUP):
-CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE):
-CHECK failed: (type) == (WireFormatLite::TYPE_ENUM):
-CHECK failed: (uintptr_t((a).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((b).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((c).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((d).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs):
-CHECK failed: (value.size()) <= (kint32max):
-CHECK failed: FindThreadInfo(b->owner) == NULL:
-CHECK failed: GetArenaNoVirtual() == NULL:
-CHECK failed: GetArenaNoVirtual() == other->GetArenaNoVirtual():
-CHECK failed: HasExtensionSet():
-CHECK failed: HasHasbits():
-CHECK failed: InternalGetTable():
-CHECK failed: IsHeadSurrogate(head_surrogate):
-CHECK failed: IsInitialized():
-CHECK failed: IsTrailSurrogate(trail_surrogate):
-CHECK failed: TableEntryIsNonEmptyList(b):
-CHECK failed: TableEntryIsTree(b):
-CHECK failed: allow_unknown_field_ || reserved_field:
-CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL:
-CHECK failed: builder_:
-CHECK failed: checkpoints_.empty():
-CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE:
-CHECK failed: dynamic.get() != NULL:
-CHECK failed: enum_type_->value_count():
-CHECK failed: errors == NULL:
-CHECK failed: extension->is_repeated:
-CHECK failed: fallback_database_ == NULL:
-CHECK failed: field != NULL:
-CHECK failed: field->cpp_type() == cpp_type || (field->cpp_type() == FieldDescriptor::CPPTYPE_ENUM && cpp_type == FieldDescriptor::CPPTYPE_INT32):
-CHECK failed: field->is_repeated() || (index == -1):
-CHECK failed: field->is_repeated():
-CHECK failed: fields_ != NULL && fields_->size() > 0:
-CHECK failed: fields_ != NULL:
-CHECK failed: file != NULL:
-CHECK failed: file && file->pool_:
-CHECK failed: file()->finished_building_ == true:
-CHECK failed: file->pool_->lazily_build_dependencies_:
-CHECK failed: file_->finished_building_:
-CHECK failed: find(*KeyPtrFromNodePtr(node)) == end():
-CHECK failed: finished_building_ == true:
-CHECK failed: generated_database_->Add(encoded_file_descriptor, size):
-CHECK failed: has_default_value():
-CHECK failed: i >= 0:
-CHECK failed: index_of_first_non_null_ == num_buckets_ || table_[index_of_first_non_null_] != NULL:
-CHECK failed: info != NULL:
-CHECK failed: initial_value != NULL:
-CHECK failed: iter != extensions_.end():
-CHECK failed: iter == extensions_.end():
-CHECK failed: m_->index_of_first_non_null_ == m_->num_buckets_ || m_->table_[m_->index_of_first_non_null_] != NULL:
-CHECK failed: map_iter->iter_ != NULL:
-CHECK failed: message_arena != submessage_arena:
-CHECK failed: mutex_ == NULL:
-CHECK failed: n >= kMinTableSize:
-CHECK failed: node_ != NULL && m_ != NULL:
-CHECK failed: options->AppendPartialToString(&buf):
-CHECK failed: options->ParsePartialFromString(buf):
-CHECK failed: options_ != NULL:
-CHECK failed: options_descriptor:
-CHECK failed: original_uninterpreted_options_field != NULL:
-CHECK failed: other->GetArenaNoVirtual() != GetArenaNoVirtual():
-CHECK failed: output->message_prototype != NULL:
-CHECK failed: output:
-CHECK failed: prototype != NULL:
-CHECK failed: rep_:
-CHECK failed: result != NULL:
-CHECK failed: s != NULL:
-CHECK failed: schema_.HasHasbits():
-CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize:
-CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize:
-CHECK failed: source_code_info_ != NULL:
-CHECK failed: table_[b] == table_[b + 1] && (b & 1) == 0:
-CHECK failed: target_ != NULL:
-CHECK failed: this != other:
-CHECK failed: this == other_mutator:
-CHECK failed: trees:
-CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP:
-CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE:
-CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE:
-CHECK failed: uninterpreted_options_field != NULL:
-CHECK failed: value != NULL:
-CHECK failed: z.first != NULL:
+CHECK failed: !TableEntryIsTree(b) && !TableEntryIsTree(b ^ 1): 
+CHECK failed: !aggregate_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !checkpoints_.empty(): 
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !csharp_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !default_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !descriptor_: 
+CHECK failed: !extendee_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !extension->is_repeated: 
+CHECK failed: !failed_: 
+CHECK failed: !field->containing_oneof(): 
+CHECK failed: !field->options().weak(): 
+CHECK failed: !file->finished_building_: 
+CHECK failed: !file_: 
+CHECK failed: !go_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !identifier_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !input_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !is_closed_: 
+CHECK failed: !iter->second.is_repeated: 
+CHECK failed: !java_outer_classname_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !java_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !json_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !leading_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !name_: 
+CHECK failed: !name_part_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !objc_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !once_: 
+CHECK failed: !out.HadError(): 
+CHECK failed: !output_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !php_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !php_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !source_file_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !string_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !swift_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !syntax_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !trailing_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !tree->empty(): 
+CHECK failed: !type_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: (*buffer) == (first_byte): 
+CHECK failed: (0) != (n): 
+CHECK failed: (0) <= (pos): 
+CHECK failed: (0) == (BufferSize()): 
+CHECK failed: (FieldDescriptor::TypeToCppType(field->type())) == (value.type()): 
+CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()): 
+CHECK failed: (b->avail()) >= (n): 
+CHECK failed: (backup_bytes_) == (0): 
+CHECK failed: (bucket_index_ % 2) == (0): 
+CHECK failed: (bucket_index_ & 1) == (0): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (buffer_used_) == (buffer_size_): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (calc_escaped_size) == (escaped_len): 
+CHECK failed: (count) <= (buffer_used_): 
+CHECK failed: (count) <= (kMaxLength): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) == (tree->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (current_size_) < (total_size_): 
+CHECK failed: (current_size_) > (0): 
+CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()): 
+CHECK failed: (digits) < (100): 
+CHECK failed: (end - target) == (size): 
+CHECK failed: (extension->is_packed) == (other_extension.is_packed): 
+CHECK failed: (extension->is_packed) == (packed): 
+CHECK failed: (extension->type) == (other_extension.type): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES): 
+CHECK failed: (final_byte_count) < (target_byte_count): 
+CHECK failed: (first_byte & 0x80) == (0x80): 
+CHECK failed: (first_byte_or_zero) != (0): 
+CHECK failed: (first_byte_or_zero) == (buffer_[0]): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (has_bit_index) != (~0u): 
+CHECK failed: (index) < (current_size_): 
+CHECK failed: (index) >= (0): 
+CHECK failed: (internal::AlignUpTo8(b->pos)) == (b->pos): 
+CHECK failed: (internal::AlignUpTo8(n)) == (n): 
+CHECK failed: (it.m_) == (this): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (len) <= (dest_len): 
+CHECK failed: (len) >= (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (message_type) == (field->message_type()): 
+CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kHeaderSize): 
+CHECK failed: (n & (n - 1)) == (0): 
+CHECK failed: (n) > (0): 
+CHECK failed: (n) >= (0): 
+CHECK failed: (new_num_buckets) >= (kMinTableSize): 
+CHECK failed: (new_size) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(old_rep->elements[0])): 
+CHECK failed: (num_elements) <= (std::numeric_limits<size_t>::max() / sizeof(T)): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (out) == (begin + result->size()): 
+CHECK failed: (out) == (begin + result.size()): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (pos) <= (x.length_): 
+CHECK failed: (recursion_budget_) < (recursion_limit_): 
+CHECK failed: (result.bucket_index_) == (b & ~static_cast<size_type>(1)): 
+CHECK failed: (result.size()) == (i): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (size) <= (static_cast<size_t>(2147483647)): 
+CHECK failed: (static_cast<size_t>(new_size)) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(Element)): 
+CHECK failed: (str.size()) <= (kuint32max): 
+CHECK failed: (table_[b]) == (table_[b ^ 1]): 
+CHECK failed: (target - output->data()) == (output->size()): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
+CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
+CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (uintptr_t((a).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((b).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((c).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((d).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs): 
+CHECK failed: (value.size()) <= (kint32max): 
+CHECK failed: FindThreadInfo(b->owner) == NULL: 
+CHECK failed: GetArenaNoVirtual() == NULL: 
+CHECK failed: GetArenaNoVirtual() == other->GetArenaNoVirtual(): 
+CHECK failed: HasExtensionSet(): 
+CHECK failed: HasHasbits(): 
+CHECK failed: InternalGetTable(): 
+CHECK failed: IsHeadSurrogate(head_surrogate): 
+CHECK failed: IsInitialized(): 
+CHECK failed: IsTrailSurrogate(trail_surrogate): 
+CHECK failed: TableEntryIsNonEmptyList(b): 
+CHECK failed: TableEntryIsTree(b): 
+CHECK failed: a.type() == b.type(): 
+CHECK failed: allow_unknown_field_ || reserved_field: 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+CHECK failed: builder_: 
+CHECK failed: checkpoints_.empty(): 
+CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE: 
+CHECK failed: dest: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: enum_type_->value_count(): 
+CHECK failed: errors == NULL: 
+CHECK failed: extension->is_repeated: 
+CHECK failed: fallback_database_ == NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: field->cpp_type() == cpp_type || (field->cpp_type() == FieldDescriptor::CPPTYPE_ENUM && cpp_type == FieldDescriptor::CPPTYPE_INT32): 
+CHECK failed: field->is_repeated() || (index == -1): 
+CHECK failed: field->is_repeated(): 
+CHECK failed: fields_ != NULL && fields_->size() > 0: 
+CHECK failed: fields_ != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: file && file->pool_: 
+CHECK failed: file()->finished_building_ == true: 
+CHECK failed: file->pool_->lazily_build_dependencies_: 
+CHECK failed: file_->finished_building_: 
+CHECK failed: find(*KeyPtrFromNodePtr(node)) == end(): 
+CHECK failed: finished_building_ == true: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: i >= 0: 
+CHECK failed: index_of_first_non_null_ == num_buckets_ || table_[index_of_first_non_null_] != NULL: 
+CHECK failed: info != NULL: 
+CHECK failed: initial_value != NULL: 
+CHECK failed: is_prototype(): 
+CHECK failed: is_repeated: 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: iter == extensions_.end(): 
+CHECK failed: m_->index_of_first_non_null_ == m_->num_buckets_ || m_->table_[m_->index_of_first_non_null_] != NULL: 
+CHECK failed: map_iter->iter_ != NULL: 
+CHECK failed: message_arena != submessage_arena: 
+CHECK failed: mutex_ == NULL: 
+CHECK failed: n >= kMinTableSize: 
+CHECK failed: node_ != NULL && m_ != NULL: 
+CHECK failed: options->AppendPartialToString(&buf): 
+CHECK failed: options->ParsePartialFromString(buf): 
+CHECK failed: options_ != NULL: 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: other->GetArenaNoVirtual() != GetArenaNoVirtual(): 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: output: 
+CHECK failed: prototype != NULL: 
+CHECK failed: rep_: 
+CHECK failed: result != NULL: 
+CHECK failed: s != NULL: 
+CHECK failed: schema_.HasHasbits(): 
+CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize: 
+CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize: 
+CHECK failed: source_code_info_ != NULL: 
+CHECK failed: submessage->GetArena() == submessage_arena: 
+CHECK failed: table_[b] == table_[b + 1] && (b & 1) == 0: 
+CHECK failed: target_ != NULL: 
+CHECK failed: this != other: 
+CHECK failed: this == other_mutator: 
+CHECK failed: trees: 
+CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP: 
+CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE: 
+CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value != NULL: 
+CHECK failed: z.first != NULL: 
 CHitBox
 CHitBoxSet
 CHitBoxSetList
@@ -929,6 +1036,15 @@ CModelConfigElement
 CModelConfigElement_UserPick
 CModelConfigList
 CMorphConstraint
+CMsgPlayerInfo
+CMsgRGBA
+CNETMsg_Disconnect
+CNETMsg_SetConVar
+CNETMsg_SignonState
+CNETMsg_SpawnGroup_Load
+CNETMsg_SpawnGroup_Unload
+CNETMsg_SplitScreenUser
+CNETMsg_StringCmd
 COLLISION_MODE_INITIAL_TRACE_DOWN
 COLLISION_MODE_PER_FRAME_PLANESET
 COLLISION_MODE_PER_PARTICLE_TRACE
@@ -938,6 +1054,7 @@ COM_TimestampedLog
 CONTENT
 CONTENTADDONS
 CONTENTROOT
+CORD
 COrientConstraint
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
@@ -956,8 +1073,13 @@ CRenderBufferBinding
 CRenderMesh
 CRenderSkeleton
 CResourceManifestPrerequisite
+CSVCMsgList_GameEvents
+CSVCMsgList_UserMessages
+CSVCMsg_GameEvent
+CSVCMsg_UserMessage
 CSceneObjectData
-CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!
+CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
+CSolveIKChainAnimNode
 CStrongHandle
 CThreadEvent::CThreadEvent(bool)
 CThreadEvent::Set()
@@ -977,17 +1099,19 @@ CTier2AppSystemDict::LoadStartupManifestGroup
 CTiltTwistConstraint
 CTransform
 CTwistConstraint
-CUtlBlockMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CType
+CUtlBlockMemory overflow!\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CUtlString
 CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
+CVar
 CVrSkeletalInputSettings
 CWristBone
 CXXABI_1.3
@@ -1077,18 +1201,18 @@ C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
 Call set methods to initialize MapKey.
 Caller should provide us with *buffer_ when buffer is non-empty
-Can't
+Can't 
 Can't BackUp() after failed Next().
-Can't back up over more bytes than were returned by the last call to Next().
 Can't get here.
 Can't get here: failed to get default value as string
-Cannot allocate buffer larger than kint32max for
+Cannot allocate buffer larger than kint32max for 
 Cannot call BuildFile on a DescriptorPool that uses a DescriptorDatabase.  You must instead find a way to get your file into the underlying database.
 Cannot copy json_name to a proto of a different size.
 Cannot get here
 Cannot register same format from/to a KV3 conversion (from '%s' to '%s')
 ChangeCallbackOnChange
 ChangeCallbackOnChangeOrCreate
+ClearField
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
@@ -1096,23 +1220,21 @@ Combo(
 CommandLine
 CommandProcedure
 CommandProcedureList
-Comment started here.
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigAttachedModel
 ConfigurationSystem_001
 ConnectGameInterfaces
 ConnectInterfaces
 ConsoleStartup
-Could not create an instance of
+Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
 CreateInterface
 Cubic
 Cycle or diamond double-reference to '%s'
-D
 DACGameManager001
 DATA_LOSS
 DEADLINE_EXCEEDED
@@ -1125,6 +1247,8 @@ Default
 Default value for an enum field must be an identifier.
 DegreeEuler
 DepthPassBatchID
+DescriptorProto
+DescriptorProtosH
 DevMsg
 DevMsg(char const*, ...)
 Developer
@@ -1132,21 +1256,24 @@ DeveloperConsole
 DeveloperVerbose
 Division or mod by zero: dividend.hi=
 Dominate(
-Don't lookup extension types if they aren't present (1).
-Don't lookup extension types if they aren't present (2).
+Don't lookup extension types if they aren't present (1). 
+Don't lookup extension types if they aren't present (2). 
 DotaCardGameClient_001
 DotaMapUtils001
 Double-register of KV3 conversion (from '%s' to '%s')
 Double-save to Member '%s'
 DynamicConfigList
+E3:0
+ENetworkDisconnectionReason
 ERROR
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
-ERROR: You are trying to mount addon '%s' but SetAllowAddonChanges is false which probably means you shouldn't be calling this directly.
-ERROR: You are trying to unmount addon '%s', but SetAllowAddonChanges is false which probably means you should be using calling this directly.
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+ERROR: Specified full path %s does not lie under the mod search path!)\n
+ERROR: Specified path %s could not be made content-relative\n
+ERROR: You are trying to mount addon '%s' but SetAllowAddonChanges is false which probably means you shouldn't be calling this directly.\n
+ERROR: You are trying to unmount addon '%s', but SetAllowAddonChanges is false which probably means you should be using calling this directly.\n
 EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
+E\n NETWORK_DISCONNECT_REJECT_BANNED
 EarlyInit_Tier0
 EconItemToolModel_001
 EditorDynamicConfig
@@ -1155,22 +1282,26 @@ End-of-file inside block comment.
 EngineLoopState_t
 EngineServiceMgr001
 Entry
-Entry %s was not found in surfaceproperties_footsteps.txt
+Entry %s was not found in surfaceproperties_footsteps.txt\n
 Enum type "
 Enum value "$0" is reserved multiple times.
 Enum value "$0" is reserved.
 Enum value "$0" uses reserved number $1.
 Enum value in map must define 0 as the first value.
+EnumDescriptorProto
 EnumOptions
+EnumReservedRange
+EnumValueDescriptorProto
 EnumValueOptions
 Enums must contain at least one value.
 EnvironmentMapBuilder_001
 Error
-Error loading %s: %s
-Error parsing text-format
+Error loading %s: %s\n
+Error parsing text-format 
 Error reporting not implemented.
 Error while parsing option value for "
 EventAdvanceTick_t
+EventAppShutdown_t
 EventClientAdvanceTick_t
 EventClientFrameSimulate_t
 EventClientOutput_t
@@ -1205,10 +1336,10 @@ EventSimpleLoopFrameUpdate_t
 EventSimulate_t
 EventSplitScreenStateChanged_t
 EventSystem001
-Exceeded max number of actors in scripts/global_actors.txt
-Exceeded maximum protobuf size of 2GB:
-Expanded map entry type
-Expect a decimal number, got:
+Exceeded max number of actors in scripts/global_actors.txt\n
+Exceeded maximum protobuf size of 2GB: 
+Expanded map entry type 
+Expect a decimal number, got: 
 Expected "
 Expected "="after member '%s'
 Expected '#'
@@ -1219,26 +1350,25 @@ Expected '['
 Expected '[' or '('
 Expected '{'
 Expected ( <count> )
-Expected :
 Expected <member name> after type
 Expected []
-Expected double, got:
+Expected double, got: 
 Expected eight hex digits up to 10ffff for \U escape sequence
 Expected four hex digits for \u escape sequence.
 Expected hex byte (eg. 00-FF)
 Expected hex digits for escape sequence.
-Expected identifier, got:
-Expected integer or identifier, got:
-Expected integer, got:
+Expected identifier, got: 
+Expected integer or identifier, got: 
+Expected integer, got: 
 Expected member name or '}'
-Expected string, got:
+Expected string, got: 
 Expected token
 Expected type of next member
 Expected value or ']'
 Explicit default values are not allowed in proto3.
 Extension "
-Extension conflicts with extension already in database: extend
-Extension factory's GetPrototype() returned NULL for extension:
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
 Extension not found.
 Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
 Extension number $0 has already been used in "$1" by extension "$2".
@@ -1249,28 +1379,31 @@ Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range $0 to $1 overlaps with reserved range $2 to $3.
 Extension range end number must be greater than start number.
 Extension ranges are not allowed in proto3.
+ExtensionRange
+ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 FAILED_PRECONDITION
 FATAL
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
+F\n%NETWORK_DISCONNECT_DISCONNECT_BY_USER
+F\n\foptimize_for
 F_ALPHA_TEST
 F_MORPH_SUPPORTED
 F_TRANSLUCENT
 Failed to assign bool literal value
-Failed to convert KV3 to string; error: %s
-Failed to convert introspected block: %s
+Failed to convert KV3 to string; error: %s\n
+Failed to convert introspected block: %s\n
 Failed to determine base game directory from %s
-Failed to map from %s to content-path
+Failed to map from %s to content-path\n
 Failed to open file
-Failed to open file: %s
+Failed to open file: %s\n
 False
-FastHexToBuffer() wants non-negative integers, not
+FastHexToBuffer() wants non-negative integers, not 
 Feel free to add support for more if you need it.
 FeetSettings
-Field       :
 Field "
 Field "$0" uses reserved number $1.
 Field does not match message type.
@@ -1283,10 +1416,10 @@ Field number $0 has already been used in "$1" by field "$2".
 Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
 Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
-Field type:
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
-Field:
+Field: 
+FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -1295,25 +1428,25 @@ FieldOptions
 FieldSize
 Fields in the same oneof must be defined consecutively. "$0" cannot be defined before the completion of the "$1" oneof definition.
 Fields of oneofs must themselves have label LABEL_OPTIONAL.
-File already exists in database:
-File appears to be in generated pool but wasn't registered:
-File is already registered:
-File recursively imports itself:
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File recursively imports itself: 
+FileDescriptorProto
+FileDescriptorSet
 FileOptions
 FileSystem
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
-Flexible;
+Flexible; 
 FontManager_001
 FormatV
-Found invalid proto option data for:
-G
-G->B
+Found invalid proto option data for: 
 GAME
 GAMEBIN
 GAMECONSOLE
@@ -1330,8 +1463,7 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
-Game System %s is defined twice!
+Game System %s is defined twice!\n
 GameModelInfoClient001
 GameModelInfoServer001
 GameResourceServiceClientV001
@@ -1339,10 +1471,11 @@ GameResourceServiceServerV001
 GameStartup
 GameUIService_001
 Gaussian
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
+GeneratedCodeInfo
 GenericGameData
-GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.
-GetAddonsDirectory: Failed to find ADDONS search path.
+GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.\n
+GetAddonsDirectory: Failed to find ADDONS search path.\n
 GetAvailableAddonMaps failed to find any maps in the '%s' addon - trying fallback maps:
 GetBool
 GetCPUInformation
@@ -1353,7 +1486,7 @@ GetFloat
 GetInt32
 GetInt64
 GetMessage
-GetModelMaterialColor:  Available on client only!
+GetModelMaterialColor:  Available on client only!\n
 GetRawRepeatedField
 GetRepeatedBool
 GetRepeatedDouble
@@ -1372,14 +1505,14 @@ GetString
 GetStringReference
 GetUInt32
 GetUInt64
+Google.Protobuf.Reflection
 Groups are not supported in proto3 syntax.
-H
 HBm_influenceFlags
 HELPER_BONE
 HIGHDPI
 HammerMapLoader001
 HangWatchdog_IndicateActivity
-Has Collision;
+Has Collision; 
 HasField
 HelpSystem_001
 Hex and octal numbers must be integers.
@@ -1387,6 +1520,7 @@ HookUpConfigValue
 Host
 HostStateMgr001
 HostUtils001
+IDEMPOTENCY_UNKNOWN
 IGameSystem::Init( %-80s ) %8.3f msec
 IGameSystem::PostInit( %-80s ) %8.3f msec
 IKChain
@@ -1401,84 +1535,100 @@ INVALID
 INVALID_ARGUMENT
 INVALID_CPPTYPE
 IQuickTime001
-Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field:
-Import
+I\n NETWORK_DISCONNECT_STEAM_DROPPED
+I\n$NETWORK_DISCONNECT_STEAM_VACBANSTATE
+I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
+IdempotencyLevel
+Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
+Import 
 Import "
 Index must be -1 for non-repeated fields
 Index must be -1 for singular fields.
-Index must be in range of repeated field values.
+Index must be in range of repeated field values. 
 Index out-of-bounds (field is empty).
 InfoForResourceTypeCAnimData
 InitAllSystems
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
 Integer out of range (
-Intentionally vague touch behavior for %p
+Intentionally vague touch behavior for %p\n
 Interpreting non ascii codepoint %d.
-Invalid access of deferred ConVarRef for '%s'
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid compressed buffer size
 Invalid control characters encountered in text.
 Invalid data for member '%s'
 Invalid data.
 Invalid escape sequence in string literal.
 Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
-Invalid float number:
+Invalid float number: 
 Invalid header
 Invalid key for map field.
 Invalid member name '%s'
 Invalid message set extension.
 Invalid proto descriptor for file "
 Invalid public dependency index.
-Invalid request for mesh %d in model %s with %d entry remapping start table
-Invalid request for mesh %d in model %s with no remapping table
-Invalid request for mesh %d in model %s with no remapping table starts
-Invalid search path specified for 'game_language'. Search path '%s' does not contain '%s'
+Invalid request for mesh %d in model %s with %d entry remapping start table\n
+Invalid request for mesh %d in model %s with no remapping table starts\n
+Invalid request for mesh %d in model %s with no remapping table\n
+Invalid search path specified for 'game_language'. Search path '%s' does not contain '%s'\n
 Invalid strings::Substitute() format string: "
-Invalid symbol name:
+Invalid symbol name: 
 Invalid value for boolean field "
 Invalid weak dependency index.
-Invalid wire type for CPPTYPE_INT32:
-Invalid wire type for CPPTYPE_INT64:
-Invalid wire type for CPPTYPE_MESSAGE:
-Invalid wire type for CPPTYPE_UINT32:
-Invalid wire type for CPPTYPE_UINT64:
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
 Inverse Multi Quadratic
-Invert Axes;
+Invert Axes; 
 JIGGLE_BONE
-JSON error, unterminated element:
-K
+JSON error, unterminated element: 
+JSType
+J\n NETWORK_DISCONNECT_SNAPSHOTERROR
+J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
 KV Conditional Evaluation Error
 KV3 load transfer failed: %s
+K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
+K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
+K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
+K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
 Key in map fields cannot be enum types.
 Key in map fields cannot be float/double, bytes or message types.
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
-L
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
 LAYEREDGAMEROOT
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
+L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
+L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
+Label
 LayeredGameRoot
-Length;
+Length; 
 LightingBasis
 LightmapUV
 LightmapUVW
 Line %d at "%s": %s
-Line %d col %d:
+Line %d col %d: 
 Line %d: %s
 Line %d: Invalid literal value "%s"
 Line %d: Invalid value "%s"
 Linear
 LoadFromBuffer: expected '{', found '%s'
-LoadKV3ObjectInPlace error: %s
+LoadKV3ObjectInPlace error: %s\n
 Localize_001
+Location
 LogHandler
 LoggingSystem_CurrentStateIndex
 LoggingSystem_GetChannel
@@ -1496,10 +1646,10 @@ LoggingSystem_ResetBackdoorLoggingState
 LoggingSystem_ResetCurrentLoggingState
 LoggingSystem_SetChannelVerbosity
 Logic Error in CExpressionEvaluator
-Logic problem? szsrc =
+Logic problem? szsrc = 
 LookAtList
-LowerEyelid(
-M
+LowerEyelid( 
+LrwcE
 MATCHFRAMEWORK_001
 MDefaultString
 MESH_DRAW_FLAGS_DRAW_LAST
@@ -1516,13 +1666,20 @@ MNetworkUserGroup
 MODEL_CONFIG_ATTACHMENT_COUNT
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
+M\n"NETWORK_DISCONNECT_SERVER_SHUTDOWN
+M\n"NETWORK_DISCONNECT_STEAM_DENY_MISC
+M\n"NETWORK_DISCONNECT_STEAM_OWNERSHIP
+M\n$NETWORK_DISCONNECT_REJECT_SERVERFULL
+M\n&NETWORK_DISCONNECT_STEAM_AUTHCANCELLED
+M\n'NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER
+M\n(NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
 MapKey::GetBoolValue
 MapKey::GetInt32Value
 MapKey::GetInt64Value
 MapKey::GetStringValue
 MapKey::GetUInt32Value
 MapKey::GetUInt64Value
-MapKey::type MapKey is not initialized.
+MapKey::type MapKey is not initialized. 
 MapListService_001
 MapValueRef::GetBoolValue
 MapValueRef::GetDoubleValue
@@ -1551,26 +1708,26 @@ MeshSystem001
 MeshUtils001
 Message class "
 Message extensions cannot have required fields.
-Message missing required fields:
+Message missing required fields: 
 Message of type "
 Message type "
-Message type:
 MessageOptions
 MessageSet is not supported in proto3.
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
+MethodDescriptorProto
 MethodOptions
-Mismatched CTier2AppSystemDict::SetAllowAddonChanges!!!
+Mismatched CTier2AppSystemDict::SetAllowAddonChanges!!!\n
 Missing field: FileDescriptorProto.name.
 Missing file '%s'
 Missing name.
-Model %s missing bone and flex counts (%d < %d), init %d
+Model %s missing bone and flex counts (%d < %d), init %d\n
 ModelCompile/UseShadowFastPathHeuristic
 ModelConfigAttachmentType_t
 ModelDocUtils001
-MountAddon: Failed to find ADDONS search path.
-MountAddonSearchPaths: Failed to find CONTENTADDONS search path.
+MountAddon: Failed to find ADDONS search path.\n
+MountAddonSearchPaths: Failed to find CONTENTADDONS search path.\n
 MovementSettings
 Multiple extension registrations for type "
 MutableMessage
@@ -1699,6 +1856,33 @@ N6google8protobuf8internal30RepeatedFieldPrimitiveAccessorImEE
 N6google8protobuf8internal30RepeatedPtrFieldStringAccessorE
 N6google8protobuf8internal31RepeatedPtrFieldMessageAccessorE
 N6google8protobuf8internal33RandomAccessRepeatedFieldAccessorE
+NETWORK_DISCONNECT_BADDELTATICK
+NETWORK_DISCONNECT_BANADDED
+NETWORK_DISCONNECT_DISCONNECTED
+NETWORK_DISCONNECT_EXITING
+NETWORK_DISCONNECT_HLTVDIRECT
+NETWORK_DISCONNECT_HLTVSTOP
+NETWORK_DISCONNECT_HOST_ENDGAME
+NETWORK_DISCONNECT_INVALID
+NETWORK_DISCONNECT_KICKBANADDED
+NETWORK_DISCONNECT_KICKED
+NETWORK_DISCONNECT_LEAVINGSPLIT
+NETWORK_DISCONNECT_LOOPSHUTDOWN
+NETWORK_DISCONNECT_LOST
+NETWORK_DISCONNECT_NOMORESPLITS
+NETWORK_DISCONNECT_NOSPECTATORS
+NETWORK_DISCONNECT_OVERFLOW
+NETWORK_DISCONNECT_RECONNECTION
+NETWORK_DISCONNECT_REJECT_STEAM
+NETWORK_DISCONNECT_REMOTE_OTHER
+NETWORK_DISCONNECT_SHUTDOWN
+NETWORK_DISCONNECT_STEAM_BANNED
+NETWORK_DISCONNECT_STEAM_INUSE
+NETWORK_DISCONNECT_STEAM_LOGON
+NETWORK_DISCONNECT_STEAM_TICKET
+NETWORK_DISCONNECT_TIMEDOUT
+NETWORK_DISCONNECT_UNUSUAL
+NETWORK_DISCONNECT_USERCMD
 NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
@@ -1711,14 +1895,18 @@ NETWORK_FIELD_DEFAULT_PRIORITY
 NETWORK_FIELD_HIGHEST_PRIORITY
 NETWORK_FIELD_LOWEST_PRIORITY
 NOT_FOUND
+NO_SIDE_EFFECTS
 NSt6thread10_Impl_baseE
 NULL
 NULL output boolean given.
-NWay(
+NWay( 
+N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
+N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
+NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
-Need valid position and texcoord when creating world space tangent lengths!
-Need valid position to calculate face centers!
+Need valid position and texcoord when creating world space tangent lengths!\n
+Need valid position to calculate face centers!\n
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -1735,26 +1923,32 @@ No know mod!
 No valid format conversion from '%s' to '%s'
 NoDefaultModPath
 NoPoseControl
+Non-primitive types can't be packed.
 Non-repeated Any specified multiple times.
 Non-repeated field "
-Not implemented field number
+Not implemented field number 
 Not implemented.
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
-OK
 ORIENT
-OSX
 OUT_OF_RANGE
+O\n%NETWORK_DISCONNECT_REJECT_BADPASSWORD
+O\n%NETWORK_DISCONNECT_REJECT_LANRESTRICT
+O\n%NETWORK_DISCONNECT_REJECT_NEWPROTOCOL
+O\n%NETWORK_DISCONNECT_REJECT_OLDPROTOCOL
+O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
+O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
+O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
+O\n\nAnnotation
 Oneof must have at least one field.
+OneofDescriptorProto
 OneofOptions
 Option "
 Option field "
 Option must have a name.
 Option must not use reserved name "uninterpreted_option".
-Options could not be fully parsed using the proto descriptors compiled into this binary. Missing required fields:
-Outdent() without matching Indent().
-P
-P@
+Options could not be fully parsed using the proto descriptors compiled into this binary. Missing required fields: 
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 PARENT
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
@@ -1778,13 +1972,14 @@ POSE_SPACE_BONE
 POSE_SPACE_MORPH
 POSITION
 POSIX
-PS3
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
+P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
+P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
+P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-Parameter to BackUp() can't be negative.
 ParseFromString failed
 ParticleSystemMgr003
 PerVertexLighting
@@ -1802,7 +1997,7 @@ PhysicsShapeCapsule
 PhysicsShapeHull
 PhysicsShapeMesh
 PhysicsShapeSphere
-Pitch;
+Pitch; 
 Plat_CheckSDL
 Plat_CreateWindow
 Plat_DebugPrint
@@ -1843,6 +2038,8 @@ Plat_UUIDFromString
 Plat_UUIDToString
 Plat_UnloadModule
 Plat_UnloadSDL
+Pm_nValue
+Po5H
 PosXYZ
 PostProcessingSystem_001
 PredictionDiffManager001
@@ -1851,30 +2048,31 @@ PreviewBoneAttachedModel
 PreviewBoneMergedModel
 PreviewPreset
 PreviewPresetList
-Problem     :
-Problem     : Enum value did not match field type:    Expected  :
-Problem     : Field is not the right type for this message:    Expected  :
 PropWorldOrigin
 PropertyEditorSystem_001
 Proto file starts with 0xEF but not UTF-8 BOM. Only UTF-8 is accepted for proto file.
-Proto type
-ProtoBufHelper::ParseJSON: Array Begin found on invalid field!
-ProtoBufHelper::ParseJSON: Array Begin found on non-repeated field: '%s'!
-ProtoBufHelper::ParseJSON: Array End found on invalid field!
-ProtoBufHelper::ParseJSON: Array End found on non-repeated field: '%s'!
-ProtoBufHelper::ParseJSON: Array size mismatch in field '%s' - JSON %d, protobuf %d
-ProtoBufHelper::ParseJSON: Failed to parse JSON type %d into protobuf type %d for field '%s'!
-ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in protobuf message '%s'!
-ProtoBufHelper::ParseJSON: Object Begin found on invalid field!
-ProtoBufHelper::ParseJSON: received callback with message field but no message!
-ProtoBufHelper::ParseJSON: received callback with no current message field!
-Protobuf: %s(%d): %s
-Protocol Buffer map usage error:
-Protocol Buffer reflection usage error:  Method      : google::protobuf::Reflection::
+Proto type 
+ProtoBufHelper::ParseJSON: Array Begin found on invalid field!\n
+ProtoBufHelper::ParseJSON: Array Begin found on non-repeated field: '%s'!\n
+ProtoBufHelper::ParseJSON: Array End found on invalid field!\n
+ProtoBufHelper::ParseJSON: Array End found on non-repeated field: '%s'!\n
+ProtoBufHelper::ParseJSON: Array size mismatch in field '%s' - JSON %d, protobuf %d\n
+ProtoBufHelper::ParseJSON: Failed to parse JSON type %d into protobuf type %d for field '%s'!\n
+ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in protobuf message '%s'!\n
+ProtoBufHelper::ParseJSON: Object Begin found on invalid field!\n
+ProtoBufHelper::ParseJSON: received callback with message field but no message!\n
+ProtoBufHelper::ParseJSON: received callback with no current message field!\n
+Protobuf: %s(%d): %s\n
+Protocol Buffer map usage error:\n
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message could not be serialized.
 Protocol message serialized itself in invalid fashion.
-Q
 QAngle
+Q\n&NETWORK_DISCONNECT_REJECT_BADCHALLENGE
+Q\n&NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
+Q\n*NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
+Q\n+NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP
+Q\n,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
 Quaternion
 QueuedLoaderVersion001
 Quintic
@@ -1886,7 +2084,6 @@ RandomInt
 RandomSeed
 Reached an unintended state: CPPTYPE_MESSAGE
 Reached impossible case in HasBit().
-ReadToken overflow
 ReconnectGameInterface
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
@@ -1895,14 +2092,16 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterFormatConversion
 RegisterStringToken
 Release
-ReleaseLast() called on a RepeatedPtrField that is on an arena,
+ReleaseLast
+ReleaseLast() called on a RepeatedPtrField that is on an arena, 
 ReleaseMessage
-RemapValClamped(
+RemapValClamped( 
 RemoveBoneAndChildren
+RemoveLast
 RenderDevice003
 RenderDeviceMgr001
 RenderHardwareConfig002
@@ -1925,12 +2124,23 @@ ResourceManifestRegistry001
 ResourceSystem013
 ResponseRulesCache001
 RetargetSrc.%s.%s
-Rigid;
-S
+Rigid; 
+S+Ot
 SHADER_SOURCE
 SHADER_SOURCE_MOD
 SHADER_SOURCE_ROOT
+SPAWN_GROUP_BLOCK_UNTIL_LOADED
+SPAWN_GROUP_DONT_SPAWN_ENTITIES
+SPAWN_GROUP_LOAD_STREAMING_DATA
+SPAWN_GROUP_SYNCHRONOUS_SPAWN
+SPEED
 SSE and SSE2 are required.
+STRING
+S\n!NETWORK_DISCONNECT_REMOTE_TIMEOUT
+S\n%NETWORK_DISCONNECT_CONNECTION_FAILURE
+S\n'NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
+S\n'NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL
+S\n,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
 SaveRestoreDataVersion001
 SceneSystem_002
 SceneUtils_001
@@ -1944,6 +2154,7 @@ SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
+ServiceDescriptorProto
 ServiceOptions
 SetAllocatedMessage
 SetAssertionPrompt
@@ -1951,14 +2162,14 @@ SetBool
 SetDouble
 SetEnum
 SetEnumValue
-SetEnumValue accepts only valid integer values: value
+SetEnumValue accepts only valid integer values: value 
 SetFloat
 SetInt32
 SetInt64
 SetRepeatedBool
 SetRepeatedDouble
 SetRepeatedEnum
-SetRepeatedEnumValue accepts only valid integer values:
+SetRepeatedEnumValue accepts only valid integer values: 
 SetRepeatedFloat
 SetRepeatedInt32
 SetRepeatedInt64
@@ -1971,7 +2182,7 @@ SetUInt64
 Should not reach here.
 Show diff only.
 Show diff with matching filter substring only.
-Simulated
+Simulated\n
 SkeletonBoneBounds_t
 SlopeTrace
 SoundOpSystem001
@@ -1990,7 +2201,8 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-Ss
+SourceCodeInfo
+SpawnGroupFlags_t
 St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
 St19_Sp_make_shared_tag
@@ -2001,14 +2213,18 @@ SteamToursHost001
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
-StringPrintfVector currently only supports up to
+StringPrintfVector currently only supports up to 
 SurfacePropertiesList
 Swap
 Symbol name "
-Syntax Error at offset: %d
-System %s failed to init
-T
+Syntax Error at offset: %d\n
+System %s failed to init\n
 TILT_TWIST
+T\n%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
+T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
+T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
+T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
+T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
 TestFormatA
 TestFormatB
 TestFormatC
@@ -2020,12 +2236,12 @@ TextLayout_001
 TextMessageMgr_001
 The JSON camel-case name of field "
 The first enum value must be zero in proto3.
-The type parameter T in RepeatedFieldRef<T> API doesn't match
+The type parameter T in RepeatedFieldRef<T> API doesn't match 
 Thin Plate
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
-This can't happen; base64 decoder state =
-This program requires version
-This program was compiled against version
+This can't happen; base64 decoder state = 
+This program requires version 
+This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
 ThreadGetCurrentId
 ThreadSleep
@@ -2034,8 +2250,6 @@ TimestampedEventMsgV
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::Message*, From = const google::protobuf::MessageLite]
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::UninterpretedOption*, From = const google::protobuf::Message]
 To google::protobuf::internal::down_cast(From*) [with To = google::protobuf::Message*, From = google::protobuf::MessageLite]
-Tokenizer::ParseFloat() passed text that could not have been tokenized as a float:
-Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string:
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -2044,46 +2258,55 @@ ToolScriptManager001
 ToolService_001
 ToolsStartup
 ToolsStartupPreGame
-Tried to add game system %s twice!
-Tried to add unknown game system %s!
-Tried to calc delta to a src message of a different type.
-Tried to merge messages of different types
+Tried to add game system %s twice!\n
+Tried to add unknown game system %s!\n
+Tried to calc delta to a src message of a different type.\n
+Tried to merge messages of different types 
 Tried to register a non-generated type with the generated type registry.
 True
 Truncated data
-Trying to concatenate meshes with different numbers of attributes!
-Trying to concatenate meshes with incompatible attribute sets!
+Trying to concatenate meshes with different numbers of attributes!\n
+Trying to concatenate meshes with incompatible attribute sets!\n
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-Type appears to be in generated pool but wasn't
-Type is already registered:
+Type
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
 UNAUTHENTICATED
 UNAVAILABLE
 UNIMPLEMENTED
 UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
 UPDATE_STRING_TOKEN_DATABASE
-UTF-8 data when
+UTF-8 data when 
+U\n"NETWORK_DISCONNECT_REMOTE_BADCRYPT
+U\n&NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE
+U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
+U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
+U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
 Unable to Start Game
 Unable to determine buffer encoding.
-Unable to read resource file %s!
-Unable to write file '%s'
+Unable to read resource file %s!\n
+Unable to write file '%s'\n
 Unexpected end of file
-Unexpected failure while serializing option submessage
+Unexpected end of string.
+Unexpected failure while serializing option submessage 
 Unimplemented Map Reflection API.
+Unimplemented type: 
+UninterpretedOption
 Unknown enumeration value of "
-UnmountAddon: Failed to find %s search path.
+UnmountAddon: Failed to find %s search path.\n
 Unrecognized flag name '%s'
 Unrecognized resource version (%d): %s
-Unrecognized syntax:
+Unrecognized syntax: 
 Unrecognized type '%d'
 Unresolved object reference '%s'
 Unsupported
 Unsupported text encoding id.
 Unsupported: type mismatch
-UpperEyelid(
+UpperEyelid( 
 UserInfoChangeService_001
-Using 16-bit blend indices
+Using 16-bit blend indices\n
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -2121,6 +2344,8 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
+V\n&NETWORK_DISCONNECT_PURESERVER_MISMATCH
+V\n'NETWORK_DISCONNECT_CREATE_SERVER_FAILED
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
@@ -2131,7 +2356,7 @@ V_PathContainsPath
 V_PrettifyMem
 V_RemoveDotSlashes
 V_SetErrno
-V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int> >&)
+V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int>>&)
 V_StrTrim
 V_StripTrailingSlash
 V_UTF16ToUTF8
@@ -2208,46 +2433,133 @@ VertexPaintBlendParams
 VertexPaintBlendParams1
 VertexPaintTintColor
 VisBuilder_001
-W
 WARNING
-WARNING: Trying to create a CRenderContextPtr without a valid context.
-WARNING: You are trying to mount an addon (%s) in tools mode that is different from the addon tools mode was launched with (%s).
+WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+WARNING: You are trying to mount an addon (%s) in tools mode that is different from the addon tools mode was launched with (%s).\n
 WIN32
 WINDOWS
 WINXP
+W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
+W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 Warning
-Warning parsing text-format
-Warning:  %s = '%s' is infinite, clamping value.
+Warning parsing text-format 
+Warning:  %s = '%s' is infinite, clamping value.\n
 When enum name is stripped and label is PascalCased (
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-X
 X360
-Y
-Yaw;
-Z
-[
-[$0]
-[%.3f server clamped to %.3f]
-[default = $0
+X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
+X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
+X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
+Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
+Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
+Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
+Yaw; 
+Z>github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor
+Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
+Z\n*NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
+Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
+[\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
 [lazy = true] can only be specified for submessage fields.
-[libprotobuf %s %s:%d] %s
+[libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
-\
-\"
-\"""
 \%03o
-\'
 \U%08x
-\\
-\n
-\r
-\t
+\\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
+\\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
+\\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n CSVCMsg_GameSessionConfiguration
+\n google/protobuf/descriptor.proto
+\nCwf\r
+\n\fCNETMsg_Tick
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fNET_Messages
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fdouble_value
+\n\fis_extension
+\n\fis_localonly
+\n\fjava_package
+\n\flandmarkname
+\n\fsavegamename
+\n\fsignon_state
+\n\fstring_value
+\n\fswift_prefix
+\n\fworldgroupid
+\n\nIDEMPOTENT
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\nevent_name
+\n\nfakeplayer
+\n\ngo_package
+\n\ninput_type
+\n\ns1_mapname
+\n\nval_string
+\n\nval_uint64
+\n\rMethodOptions
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rdefault_value
+\n\ris_transition
+\n\rnet_SetConVar
+\n\rnet_StringCmd
+\n\rphp_namespace
+\n\rpreviouslevel
+\n\rreserved_name
+\n\rtarget_entity
+\n\rtick_interval
+\n\thost_loss
+\n\tjson_name
+\n\tmap_entry
+\n\tname_part
+\n\ttickcount
+\n\ttype_name
+\n\tval_float
+\n\tval_short
+\n\tworldname
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\vis_headless
+\n\vmax_clients
+\n\voneof_index
+\n\voutput_type
+\n\vsource_file
+\n\vspawn_count
+\ng default\n
+\r\n\tCODE_SIZE
+\r\n\tJS_NORMAL
+\r\n\tJS_NUMBER
+\r\n\tJS_STRING
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
+\tFlags: 
 \u00
 \x%02x
-]
-_
+]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
+^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -2268,6 +2580,8 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
+_\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
+_\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 __assert_fail
 __bss_start
 __ctype_toupper_loc
@@ -2298,16 +2612,14 @@ __stack_chk_fail
 __temp_unserialization_member__
 __tls_get_addr
 __xstat64
-_c
 _edata
 _end
 _fini
 _test_conversion_counter
-`
-a protocol
-abs( %s )
 addoninfo.txt
 addonroot
+addons
+aggregate_value
 ai_model_info
 allactors
 allowed in proto3.
@@ -2322,8 +2634,6 @@ animgraph0
 application
 appsystemdict.cpp
 archive
-args were given.  Full format string was: "
-arguments.
 array_ != __null
 attach_point
 attachment
@@ -2331,9 +2641,11 @@ attachment_offset
 attachment_type
 auto_unragdoll_duration
 bUpdate
-bad
+b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
+bad 
 baselayer
 basic_string::_S_construct null not valid
+begin
 bentnormal
 bin/linuxsteamrt64
 bin/linuxsteamrt64/libtier0.so
@@ -2364,17 +2676,18 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-buffer. Use the 'bytes' type if you intend to send raw
+bt3V
+buffer. Use the 'bytes' type if you intend to send raw 
 burst_randomize
 burst_scale
-but not used.
 bytes
-bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
-bytes.
+bytes. 
 cable
 calloc
 can't reach here.
 cantdie
+cc_enable_arenas
+cc_generic_services
 ceil
 ceilf
 center
@@ -2382,8 +2695,9 @@ char google::protobuf::StringPiece::operator[](google::protobuf::stringpiece_ssi
 cheat
 children
 client
+client_streaming
 clientcmd_can_execute
-close() failed:
+close() failed: 
 closedir
 cloth_collide
 cloth_collision_layer0
@@ -2393,26 +2707,27 @@ cloth_collision_layer3
 cloth_enable
 collision_group
 collision_prop
+com.google.protobufB
+command
 composite
 config_state
 configvalue.cpp
-conflicts with an existing enum type.
-conflicts with an existing field.
-conflicts with an existing nested message type.
-conflicts with an existing oneof type.
 console.log
 const google::protobuf::UnknownFieldSet& google::protobuf::UnknownField::group() const
 const string& google::protobuf::UnknownField::length_delimited() const
-contains invalid
 control_point
+convars
 core
-cos( %s )
 create_particle
+creationsequence
+csharp_namespace
+ctype
 curvature
-d
+cvars
+d\n-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
+data
 default
 delete
-details:
 developer
 diffcheck
 diffcheck_playerslot
@@ -2427,39 +2742,47 @@ dmg.explosive
 dmg.fire
 dota_models_imported
 double
-dup
 dynamic_interaction
 emitFromWorld
 enable_limit
 encoding
 english
+entityfiltername
+entitylumpname
 enum
+event
 event_class
 event_keys
+event_t
+eventid
 eventindex
-exp( %s )
+events
 explosion_behavior
 explosion_buildup
 explosion_delay
 explosion_type
 explosive_damage
 explosive_radius
-extend .$0 {
-eye
-f
-f %d %d %d
+extend .$0 {\n
+extendee
+extension_range
+f %d %d %d\n
 f == __null || dynamic_cast<To>(f) != __null
 faceMergeAngle
 false
+false"
 fclose
 fcntl
 fdatasync
 female
 fflush
+field
+file
 fileno
 filesystem_stdio
 fixed32
 fixed64
+flags
 float
 float( %f )
 floor
@@ -2475,8 +2798,6 @@ free
 friction
 ftruncate64
 fwrite
-g
-g default
 g_Tier1_BitWriteMasks
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -2489,9 +2810,11 @@ game_language
 game_lowviolence
 game_nontools
 gameinterfaces.cpp
+gamemode
 generated_protosteamtours/linuxsteamrt64/networkbasetypes.pb.cc
 generic
 glow
+google.protobuf"G\n
 google.protobuf.
 google.protobuf.Any
 google.protobuf.DescriptorProto.name
@@ -2559,12 +2882,14 @@ google/protobuf/message_lite.cc
 google/protobuf/reflection_ops.cc
 google/protobuf/repeated_field.cc
 google/protobuf/stubs/common.cc
+google/protobuf/stubs/int128.cc
 google/protobuf/stubs/stringpiece.cc
 google/protobuf/stubs/stringprintf.cc
 google/protobuf/stubs/strutil.cc
 google/protobuf/stubs/substitute.cc
 google/protobuf/text_format.cc
 google/protobuf/unknown_field_set.cc
+google/protobuf/wire_format.cc
 google/protobuf/wire_format_lite.cc
 google::protobuf::StringPiece::StringPiece(const char*, google::protobuf::stringpiece_ssize_type)
 google::protobuf::uint32 google::protobuf::UnknownField::fixed32() const
@@ -2572,24 +2897,27 @@ google::protobuf::uint64 google::protobuf::UnknownField::fixed64() const
 google::protobuf::uint64 google::protobuf::UnknownField::varint() const
 gravity
 group
-h
+h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
 handindex
 headtype
 health
 health_override
 host
+host_computationtime
+host_frametime
+host_frametime_std_deviation
+hostname
 hurt_me
 hurt_them
-i
 i < length_
-i >= 0
+idempotency_level
+identifier_value
 idle
 ikdata
-import "$0";
-import public "$0";
-import weak "$0";
+import "$0";\n
+import public "$0";\n
+import weak "$0";\n
 index < 10
-inf
 infinity
 int google::protobuf::CalculateBase64EscapedLen(int, bool)
 int( %d = 0x%X )
@@ -2597,24 +2925,36 @@ int32
 int64
 internal error in map key sorting
 invert_orientation
+is_background_map
 is_debris
+is_loadsavegame
+is_multiplayer
 isgame
-j
+ishltv
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_string_check_utf8
 jiggle bone %u
 json_name = "
+jstype
 jstype is only allowed on int64, uint64, sint64, fixed64 or sfixed64 fields.
-k
-key
+key_t
+keys
 keyvalues.cpp
-kv3
 kv3format_manager.cpp
-l
+label
 last_sniff
+lazy
+lcQe
 ld-linux-x86-64.so.2
-len >= 0
+leading_comments
+leading_detached_comments
 len >= input_len
 length
 length_ >= n
+leveltransition
 libc.so.6
 libhost.so
 libm.so.6
@@ -2627,6 +2967,8 @@ lightmap
 lightmapuv
 loaded
 loading
+localnamefixup
+location
 lockRotationAlpha
 loop
 loop_break_on_damage
@@ -2637,7 +2979,7 @@ lowprecisionuv
 lowprecisionuv1
 lseek
 lseek64
-m
+mXr4
 m_AttachmentName
 m_AttachmentType
 m_Bone
@@ -3012,14 +3354,16 @@ m_vertexBuffers
 m_wristBones
 malloc
 manifest
+manifestincomplete
+manifestloadpriority
 map keys are not unique
 map<$0, $1>
 map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.
+map_name
 mapbuilder.nodraw
 mapbuilder.occluder
 maps
 maps/
-maps/*.*
 master_morph_weight
 material_group
 materials/error.vmat
@@ -3027,11 +3371,11 @@ mathlib.cpp
 matrix3x4_t
 matrix3x4a_t
 max( %s, %s )
-max. %f
 maxHullVertices
 maxSpringTension
 maxVerticesPerHull
 max_angle
+max_client_limit
 memchr
 memcmp
 memcpy
@@ -3046,11 +3390,11 @@ mesh_calculate_curvature_smooth_pass_count
 mesh_calculate_curvature_smooth_weight
 meshes
 message
-message of type "
+message_set_wire_format
+method
 min( %s, %s )
-min. %f
 min_angle
-mod
+min_client_limit
 model.cpp
 model_default_preview_sequence_name
 model_name
@@ -3083,24 +3427,39 @@ modeldoc6
 modeldoc7
 modeldoc8
 modeldoc9
+msg_data
+msg_type
 multiplayer_break
-n
-nan
+n\f"pA3Q
+name
 nav_attribute_avoid
 nav_data
+negative_int_value
+net_Disconnect
+net_NOP
+net_SignonState
+net_SpawnGroup_Load
+net_SpawnGroup_LoadCompleted
+net_SpawnGroup_ManifestUpdate
+net_SpawnGroup_SetCreationTick
+net_SpawnGroup_Unload
+net_SplitScreenUser
+net_Tick
 network_connection.proto
+network_connection.proto"-\n\nCMsgVector
+network_connection_token
 networkbasetypes.proto
-no
+no_standard_descriptor_accessor
+no_steam_server
 none
 norm
-not found
 notconnected
 notify
 null
+num_server_players
+number
 numsegments
-o
-of the Protocol Buffer runtime library, but the installed version is
-of the Protocol Buffer runtime library, which is not compatible with the installed version (
+objc_class_prefix
 opendir
 operator delete(void*)
 operator delete(void*, std::nothrow_t const&)
@@ -3110,17 +3469,23 @@ operator new(unsigned long, std::nothrow_t const&)
 operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
 optional
+options
 origin_max_delta
 origin_relative
 output specified is NULL
 overlay
-p
-package $0;
-parent of jiggle bone %u: %s
+package
+package $0;\n\n
+packed
+parent of jiggle bone %u: %s\n
+parentnamefixup
 parse
 parsing
 particles/
+path
 pervertexlighting
+php_class_prefix
+php_generic_services
 phys_res
 physgun_interactions
 physib
@@ -3130,11 +3495,13 @@ placement_attach
 placement_bone
 placement_mode
 play_endcap
+players_networkids
 please implement MergeFrom for your type.
 point0
 point1
 pose_control
 pose_control_type
+positive_int_value
 posix_fadvise64
 posxyz
 pread64
@@ -3151,33 +3518,35 @@ pthread_create
 pthread_mutex_destroy
 pthread_mutex_init
 pthread_mutex_lock
-pthread_mutex_lock:
+pthread_mutex_lock: 
 pthread_mutex_unlock
-pthread_mutex_unlock:
+pthread_mutex_unlock: 
 pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_once
 pthread_sigmask
 ptr( 0x%p )
 ptr_ != __null
+public_dependency
 publish_data
 publish_data.txt
 pwrite64
-q
+py_generic_services
 radius0
 radius1
-rb
 read
 readdir64
 readlink
+reason
 recenter_on_parent_bone
-registered:
+registered: 
 relative_angles
 relative_origin
 remapping vertex %d[w%d] invalid: %d->%d >= %d
 remapping vertex %d[w%d] invalid: %d->? >= %d
 repeated
 required
+reserved_range
 resource
 rnd_down
 rnd_up
@@ -3185,8 +3554,8 @@ rootNode
 runleft
 runright
 runspeed
-s
-s offg cMeshusemtl initialShadingGroup
+s off\ng cMesh\nusemtl initialShadingGroup\n
+savegamefilename
 scandir64
 sched_yield
 schema
@@ -3200,30 +3569,39 @@ sequence_number
 serialize
 serializing
 server_can_execute
-service $0 {
+server_ip_address
+server_streaming
+service
+service $0 {\n
 sfixed32
 sfixed64
 shapeType
 sharpStartAngle
 sigfillset
-sin( %s )
 singleplayer
 sint32
 sint64
 size
-size too big:
+size too big: 
 size_t to int conversion
+slot
 soundsystem
+source_code_info
 source_filename
 source_folder
+span
 spawn_motion_disabled
+spawngrouphandle
+spawngroupmanifest
+spawngroupownerhandle
+spawngroupparenthandle
 speeds
 springConstant
 sprintf
 sqrt
-sqrt( %s )
 sqrtf
 ss_added
+start
 std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
@@ -3237,22 +3615,22 @@ std::__throw_length_error(char const*)
 std::__throw_logic_error(char const*)
 std::allocator<char>::allocator()
 std::allocator<char>::~allocator()
-std::basic_ios<char, std::char_traits<char> >::eof() const
-std::basic_ios<char, std::char_traits<char> >::fail() const
-std::basic_ios<char, std::char_traits<char> >::fill() const
-std::basic_ios<char, std::char_traits<char> >::good() const
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setfill<char>)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setw)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::str() const
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+std::basic_ios<char, std::char_traits<char>>::eof() const
+std::basic_ios<char, std::char_traits<char>>::fail() const
+std::basic_ios<char, std::char_traits<char>>::fill() const
+std::basic_ios<char, std::char_traits<char>>::good() const
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>, std::allocator<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::_Setfill<char>)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::_Setw)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
 std::exception::~exception()
 std::ios_base::Init::Init()
 std::ios_base::Init::~Init()
@@ -3329,6 +3707,7 @@ std::thread::join()
 std::tr1::__detail::__prime_list
 stderr
 stdout
+steamid
 stop_immediately
 stop_instantly
 stop_on_seq_change
@@ -3336,7 +3715,7 @@ strcasecmp
 strchr
 strcmp
 strcpy
-stream
+stream 
 strerror
 string
 strings::Substitute format string invalid: asked for "$
@@ -3352,8 +3731,8 @@ subtype mismatch
 suppress
 surfacePropertyName
 surface_prop
-syntax = "$0";
-t
+syntax
+syntax = "$0";\n\n
 table
 tangent
 tangentu_signv
@@ -3362,12 +3741,13 @@ texcoord
 text
 text format contains deprecated field "
 texturescale
-the actual field type (for enums T should be the generated enum
+the actual field type (for enums T should be the generated enum 
 the global scope
-to
+tick
+trailing_comments
 true
 turn_rate
-type does not match
+type
 type or int32).
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
@@ -3392,7 +3772,6 @@ typeinfo name for std::thread::_Impl_base
 u64( %lld = 0x%llX )
 uint32
 uint64
-unexpected for field
 uninterpreted_option
 unknown
 unlink
@@ -3402,11 +3781,17 @@ useMotionDamping
 useSmoothPaths
 use_additional_offset
 user
+userid
+usermsgs
 utlstring.cpp
 utlsymbol.cpp
-v %g %g %g
-v %g %g %g%s
+v %g %g %g%s\n
+v %g %g %g\n
+val_bool
+val_byte
+val_long
 value
+value 
 vanmgrph
 vb phys
 vector::_M_fill_insert
@@ -3422,7 +3807,7 @@ vmdlkeys2
 vmdlkeys3
 vmin < 0
 vmin <= 0 - base
-vn %g %g %g
+vn %g %g %g\n
 void google::protobuf::FieldDescriptorProto::set_label(google::protobuf::FieldDescriptorProto_Label)
 void google::protobuf::FieldDescriptorProto::set_type(google::protobuf::FieldDescriptorProto_Type)
 void google::protobuf::FieldOptions::set_ctype(google::protobuf::FieldOptions_CType)
@@ -3431,7 +3816,7 @@ void google::protobuf::FileOptions::set_optimize_for(google::protobuf::FileOptio
 void google::protobuf::MethodOptions::set_idempotency_level(google::protobuf::MethodOptions_IdempotencyLevel)
 void google::protobuf::StringPiece::remove_prefix(google::protobuf::stringpiece_ssize_type)
 void google::protobuf::strings::SubstituteAndAppend(std::string*, const char*, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&)
-void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int const&>(int const&)
+void std::vector<int, std::allocator<int>>::_M_emplace_back_aux<int const&>(int const&)
 vpcf
 vpcf1
 vpcf10
@@ -3472,29 +3857,23 @@ vtable for std::thread::_Impl_base
 walkleft
 walkright
 walkspeed
-was modified concurrently during serialization.
-wb
 wcscmp
 wcslen
+weak
+weak_dependency
 width
-with a type that does not implement MergeFrom. This is unsafe;
-with type
+with a type that does not implement MergeFrom. This is unsafe; 
+world_offset_angle
+world_offset_pos
 write
 wrong submessage type
-wt
-x
-y
-yaw
+xuid
 yaw_end
 yaw_start
-yes
-z
+z:KEZ
+z\n8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
 zero
-{
-{ ... };
-{$0$1}
-{}()':
-|
-}
-} %llu aggs, %s total data
-C
+{YIN?
+{}[]()=&, \t\n'"*;
+{}[]=, \t\n'":|;
+}\n %llu aggs, %s total data\n

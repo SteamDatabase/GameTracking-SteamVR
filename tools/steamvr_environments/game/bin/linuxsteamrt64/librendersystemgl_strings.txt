@@ -1,13 +1,39 @@
-
-!
+        %3d %3d %3d %3d %3d %3d %3d %3d
+        %4u %4u %4u %4u %4u %4u %4u %4u
+    %u iterated blocks\n
+    %u unfinished blocks\n
+    Component %d: %dhx%dv q=%d
+    Component %d: dc=%d ac=%d
+    Max committed memory: %u KB out of %d KB\n
+    Total committed memory: %d KB\n
+    Total used memory:      %d KB\n
+    with %d x %d thumbnail image
+   %s 0..0\n
+   DynamicComboRule( 
+   StaticComboRule( 
+  %s / %s MB (non-evictable: %s MB)\n
+  %s / %s MB\n
+  CB: %u buffers, %.2f MB\n
+  IB: %d buffers, %.2f MB\n
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+  TEX: %u textures, %.2f MB\n
+  TOTAL: %.2f MB\n
+  VB: %d buffers, %.2f MB\n
+ ( def. "%s" )
+ -shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld\n
+ Can't specify initial state of dynamic constant buffers at creation time!\n
+ ReadToken overflow
+ SRGB
+ [%.3f server clamped to %.3f]
+ libpng version 1.5.2 - March 31, 2011\n\n
+ out
+!1AQaq
 !m_boolDone
 !m_boolOpaque
 !m_boolPunchThroughPixels
 !m_boolTransparent
-"
-"%s"
 "%s" = "%s"
-"@
+"2BRbr
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
@@ -16,11 +42,8 @@
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
-#
-# of channels is zero.
-##### shader pair cache cleared
-############# GDB Detected
-#;
+# of channels is zero.\n
+#3CScs
 #OpenGL_ContextCreationFailed
 #OpenGL_RequiredExtensionMissing
 #OpenGL_UnableToStartGame
@@ -29,149 +52,98 @@
 #RenderSystem_UnableToStartGame
 #bML
 #base
-#base is NULL
+#base is NULL 
 #define
-#define FORCE_MEDIUM_PRECISION 1
-#else
+#define FORCE_MEDIUM_PRECISION 1\n
+#else\n
 #empty#
 #endif
 #extension
 #extension\s+GL_ARB_shading_language_420pack\s*:\s*enable
-#ifdef GL_FRAGMENT_PRECISION_HIGH
 #include
-#include is NULL
+#include is NULL 
 #int#
 #line
 #undef
 #version
 #version 140
+#version 140\n#extension GL_ARB_separate_shader_objects : enable\n#extension GL_ARB_shading_language_420pack : enable\n#extension GL_ARB_explicit_attrib_location : enable\nlayout(location = 0) in  vec4 texCoords;  \nlayout(location = 0) out vec4 outColor;\nuniform sampler2D sampler15;  \n  \nvoid main()  \n{  \noutColor = texture( sampler15, texCoords.xy );  \n}  \n
+#version 140\n#extension GL_ARB_separate_shader_objects : enable\n#extension GL_ARB_shading_language_420pack : enable\n#extension GL_ARB_explicit_attrib_location : enable\nlayout(location = 0) in  vec4 texCoords;  \nlayout(location = 0) out vec4 outColor;\nuniform sampler3D sampler15;  \n  \nvoid main()  \n{  \noutColor = texture( sampler15, texCoords.xyz );  \n}  \n
+#version 140\n#extension GL_ARB_separate_shader_objects : enable\n#extension GL_ARB_shading_language_420pack : enable\n#extension GL_ARB_explicit_attrib_location : enable\nlayout(location = 0) in  vec4 texCoords;  \nlayout(location = 0) out vec4 outColor;\nuniform samplerCube sampler15;  \n  \nvoid main()  \n{  \noutColor = texture( sampler15, texCoords.xyz );  \n}  \n
+#version 140\n#extension GL_ARB_separate_shader_objects : enable\n#extension GL_ARB_shading_language_420pack : enable\n#extension GL_ARB_explicit_attrib_location : enable\nlayout(location = 0) in  vec4 texCoords;  \nlayout(location = 0) out vec4 outColor;\nuniform vec4 vTexCoordScaleOffset;\nuniform sampler2D sampler15;  \n  \nvoid main()  \n{  \nvec2 texCoords = texCoords.xy * vTexCoordScaleOffset.xy + vTexCoordScaleOffset.zw;\noutColor = texture( sampler15, texCoords );  \n}  \n
+#version 140\n#extension GL_ARB_separate_shader_objects : enable\n#extension GL_ARB_shading_language_420pack : enable\n#extension GL_ARB_explicit_attrib_location : enable\nlayout(location = 0) in vec4 inPos;  \nlayout(location = 1) in vec2 inTexCoords;  \nlayout(location = 0) out vec4 texCoords;  \nout vec4 gl_Position;\nvoid main()  \n{  \n  \ntexCoords = vec4( inTexCoords, 0.0, 0.0 );  \ngl_Position = inPos;  \n}  \n
+#version 140\n#extension GL_ARB_separate_shader_objects : enable\n#extension GL_ARB_shading_language_420pack : enable\n#extension GL_ARB_explicit_attrib_location : enable\nlayout(location = 0) in vec4 inPos;  \nlayout(location = 1) in vec2 inTexCoords;  \nlayout(location = 0) out vec4 texCoords;  \nout vec4 gl_Position;\nvoid main()  \n{  \n  \ntexCoords = vec4( inTexCoords, 0.0, 0.0 );  \ngl_Position = vec4( inPos.x, -inPos.y, inPos.z, inPos.w );  \n}  \n
+#version 140\n#extension GL_ARB_separate_shader_objects : enable\n#extension GL_ARB_shading_language_420pack : enable\n#extension GL_ARB_explicit_attrib_location : enable\nvoid main()\n{\n}\n
 #version 150
 #version 300 es
-#version 310 es
-$
-$@
+#version 300 es\n
+#version 310 es\n
+$4DTdt
 $ORIGIN
-%
-%-120s
-%-120s - %s
-%-30s : %d
-%-30s : %s
-%-30s : 0x%08x
+%-120s - %s\n
+%-120s\n
 %01d
 %02d
 %03d
 %04d
 %05d
 %06d
-%3d %3d %3d %3d %3d %3d %3d %3d
-%3d: e=%.3f rms=%.6f %u
-%4u %4u %4u %4u %4u %4u %4u %4u
-%c %s %d
+%3d: e=%.3f rms=%.6f %u\n
+%5EUeu
 %d %s %d %02d:%02d:%02d +0000
-%d.%d.%d
-%d..%d
 %f %f %f %f
-%hd
-%hu
 %i %i %i %i
 %ld%c
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%s
-%s / %s MB
-%s / %s MB (non-evictable: %s MB)
-%s 0..0
 %s allocation count overflow
-%s called on an immutable constant buffer
-%s%d
-%s%s
+%s called on an immutable constant buffer\n
 %s() isn't a known function.
-%s,
 %s.360%s
-%s/
-%s/%s
-%s: %u total draws
-%s: Can't concatenate input layouts with more than %d fields total!
-%s: Context supports GLSL version %s
-%s: Detected partial buffer update on a device index buffer, this will likely cause a stall!
-%s: Detected partial buffer update on a device vertex buffer, this will likely cause a stall!
-%s: Exhausted all available dynamic buffers of type (%d), creating a new one.
-%s: Lock size is too large!
-%s: OpenGL renderer %s
-%s: OpenGL vendor %s
-%s: Unable to start game: %s
-%s: Using OpenGL context version %u.%u
+%s: %u total draws\n
+%s: Can't concatenate input layouts with more than %d fields total!\n
+%s: Context supports GLSL version %s\n
+%s: Detected partial buffer update on a device index buffer, this will likely cause a stall!\n
+%s: Detected partial buffer update on a device vertex buffer, this will likely cause a stall!\n
+%s: Exhausted all available dynamic buffers of type (%d), creating a new one.\n
+%s: Lock size is too large!\n
+%s: OpenGL renderer %s\n
+%s: OpenGL vendor %s\n
+%s: Unable to start game: %s\n
+%s: Using OpenGL context version %u.%u\n
 %s: __pos (which is %zu) > this->size() (which is %zu)
-%s: string format requested %d chars
-%s[line %d:%d]
-%u iterated blocks
-%u unfinished blocks
-%x:%x
-&
-'
-'!'
-'!='
-'%'
-'&&'
-'('
-')'
-'*'
-'+'
-','
-'-'
-'.'
-'/'
-':'
-';'
-'<'
-'<='
-'='
-'=='
-'>'
-'>='
-'?'
+%s: string format requested %d chars\n
+%s[line %d:%d] 
+&6FVfv
+'7GWgw
 'exists'
 'return'
-'||'
-(
-( def. "%s" )
-(%s): ADD %s = %s
-(%s): Setting %s to %s
-(*%s*),
-(>q
-(On the line reading %s):
+(%s): ADD %s = %s\n
+(%s): Setting %s to %s\n
+(8HXhx
+(On the line reading %s):\n
 (fWeightSumLeft + fWeightSumRight) > 0.0f
 (fWeightSumTop + fWeightSumBottom) > 0.0f
 (unknown)
-)
-);
-*
-** CGLMQuery::GetData: can't GetData before issue/start/stop
-*** IB "%s": Tried to lock too much memory for subregion (%d>%d)!
-*** IL "%s": Unable to create input layout; layout has %d fields, which is more than %d!
-*** VB "%s": Tried to lock a GPU-only buffer!
-*** VB "%s": Tried to lock too much memory (%d>%d)!
-*0"Z
+)9IYiy
+*** IB "%s": Tried to lock too much memory for subregion (%d>%d)!\n
+*** IL "%s": Unable to create input layout; layout has %d fields, which is more than %d!\n
+*** VB "%s": Tried to lock a GPU-only buffer!\n
+*** VB "%s": Tried to lock too much memory (%d>%d)!\n
+*:JZjz
 *St19_Sp_counted_deleterIPhZN3Etc13EncodeMipmapsEPfjjNS1_5Image6FormatENS1_11ErrorMetricEfjjjjPNS1_8RawImageEPibEUlS0_E_SaIiELN9__gnu_cxx12_Lock_policyE2EE
 *ZN3Etc13EncodeMipmapsEPfjjNS_5Image6FormatENS_11ErrorMetricEfjjjjPNS_8RawImageEPibEUlPhE_
-+
 +OQv
-,
-, channels =
-, height =
--
---------------%s%s
---------------------------------
--------------------------------- context caps for context %08llx
---------------FP:%s%s
---------------VP:%s%s
--1
+, channels = 
+, height = 
+--------------%s\n%s\n
+--------------FP:%s\n%s\n
+--------------VP:%s\n%s\n
 -1=App controlled, 0=DONT_CARE, 1=CPU_OPTIMIZED, 2=GPU_OPTIMIZED, 3=RENDER_DIRECT_TO_FRAMEBUFFER
--D- ----- GLSL compile failed:  %s
+-D- ----- GLSL compile failed: \n %s \n
 -D- ----- GLSL fragment program selected: %p (handle %08x)
--D- ----- GLSL link failed:  %s
+-D- ----- GLSL link failed: \n %s 
 -D- ----- GLSL vertex program selected: %p (handle %08x)
 -D- -----end-----
 -adapter
@@ -190,7 +162,6 @@ $ORIGIN
 -empty
 -force_recommend_gl
 -forcenovsync
--gl
 -gl_amd_pinned_memory
 -gl_apitrace
 -gl_debug
@@ -239,13 +210,10 @@ $ORIGIN
 -rendersystem_thread_mode
 -shaderstats
 -shadowTargetSize
--shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld
 -sse2
 -sse3
 -sse4
 -vulkan
-.
-...
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/memstack.h
@@ -257,8 +225,10 @@ $ORIGIN
 ./inputlayoutbase.h
 ./renderresource.h
 .360
+.M;UU
 .[\()*+?{|^$
-.[\*^$
+.[\()*+?{|^$\n
+.eB5
 .exr
 .ini
 .jpg
@@ -269,11 +239,9 @@ $ORIGIN
 .vcs
 .vpk
 .vpk:
-/
-/*BEGIN_UNIFORMBINDINGS
+/*BEGIN_UNIFORMBINDINGS\n
 //ATTRIBMAP-
 /P8i
-/\
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/./EtcCodec/EtcBlock4x4Encoding.h
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding.cpp
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding.h
@@ -283,18 +251,14 @@ $ORIGIN
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RGB8A1.cpp
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RGBA8.cpp
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcIndividualTrys.cpp
-0
-0.2
 0.90
 0123456789)"
+0123456789ABCDEF
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0A
 0x%016llX
 0x%p
-1
 1.2.5
 1.5.2
-1.8
 10.3
 10CTextureGL
 10ConCommand
@@ -380,9 +344,6 @@ $ORIGIN
 19CTextureManagerBase
 19IKeyValuesErrorSpew
 19IRenderShaderBuffer
-2
-2.0
-2.2
 20CFunctorCallbackBase
 20CGLMProgramSeparable
 20CPostConnectCallback
@@ -409,50 +370,34 @@ $ORIGIN
 26ICommandCompletionCallback
 27CSchemaUtlVectorManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEES1_E
 28ISchemaCollectionManipulator
-2D
 2DArray
-2b
-3
-331
 34CSchemaRegistration_rendersystemgl
-3C
-3D
 3_0_gl
 3_0_gles
 3_1_gles
-4
-41
-4C
 4_0_gl
 4_0_vulkan
 4_1_gl
 4_1_vulkan
-5
 5_0_gl
 5_0_vulkan
-6
+5cfg/moddefaults.txt
+5t~BC
 64.0
 6ConVar
-7
 7CGLMTex
 7IConVar
-8
 8CFmtStrNILi256ELb0EE
 8CFunctor
 8b  16-May-2010
-9
 9.1.15
-:
-:1X:
-:X1:
-;
-<
-<< NULL >>
-<?>Q
+9XYZ[UV
+</data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_R11.cpp
+<< NULL >>\n
 <DOWN>
 <EOR>
 <NULL>
-<UP>
+<Unknown
 <deferred>
 <error>
 <invalid %d>
@@ -464,34 +409,26 @@ $ORIGIN
 <unconnected>
 <unknown multisample type
 <x360>
-=
-== MSAA Tex %p %s : MSAA RBO is intformat %s (%x)
-== MSAA Tex %p %s : glTexImage2D for flat tex using intformat %s (%x)
-==%d
->
->!h
->jm
-?
-?"N
-?(3w
-???
-?a`
-@
-@&LH
-@@
+=*** VB "%s": Tried to lock twice without an unlock!\n
+=\t ();,\n\r<>
+>RenderUtils_001
+>UPDATE_STRING_TOKEN_DATABASE
+?N24CFieldPathHuffmanEncoder5INodeE
+?Out of Memory
+?UNKNOWNTYPE
+?\n%05d instances %08d bytes  %08d totbytes  %s
+@/data/source2_main/src/thirdparty/etc2comp/EtcLib/Etc/EtcImage.cpp
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4.cpp
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
-@A
-A
-A':
+@TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB.\n
+@mathlib.cpp
+A!;I2
+AJob
 ALIGN_TYPE is wrong, please fix
-ALL
-AMD
 ANDROID_VULKAN
 ANDROID_VULKAN_4_0
-API
 APPLICATION
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 ARB_texture_multisample
 ASCII conversion buffer too small
 ATI1N
@@ -505,9 +442,10 @@ ATIRage128
 ATIRagePro
 ATI_DST16
 ATI_DST24
-ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE\n
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 After hitting throttling limits for streamout, allow it to continue up to this number of milliseconds.
 AllocInternal
@@ -517,7 +455,7 @@ AllocateAndUploadSequenceData
 Allow
 Allow immediately loading mips of textures (when possible) when their headers are loaded, saving IO & reducing latency.
 Allow%d
-Allow%d(
+Allow%d( 
 Android SM 4.0 (VULKAN)
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
@@ -527,7 +465,6 @@ Application built with libpng-%.20s but running with %.20s
 Application must supply a known background gamma
 Application transferred too few scanlines
 Application transferred too many scanlines
-Apr
 Arithmetic table 0x%02x was not defined
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
@@ -540,11 +477,11 @@ AsyncTextureHookup
 At marker 0x%02x, recovery action %d
 Attempt to set buffer size beyond max ignored
 Attempting to create OpenGL context: v%d.%d (%s profile)...
-Aug
 B channel not found
-B channel not found!
-BC6h compression not supported on this target (windows only).
-BC7 compression not supported on this target (windows only).
+B channel not found!\n
+B/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcSortedBlockList.cpp
+BC6h compression not supported on this target (windows only).\n
+BC7 compression not supported on this target (windows only).\n
 BGR565
 BGR888_BLUESCREEN
 BGRA1010102
@@ -552,15 +489,16 @@ BGRA4444
 BGRA5551
 BGRA8888_LINEAR
 BGRX8888_LINEAR
+BKbhTb~XBK!;
 BOOLLITERAL
 Backing store not supported
-Bad VTEX data for '%s'
+Bad VTEX data for '%s'\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
-Bailing out of OnBlockForQuery after %.3f seconds
+Bailing out of OnBlockForQuery after %.3f seconds\n
 BakedLODBuilderMgr001
-Begin:
+Begin: 
 BenchmarkService001
 Biases the mip level the texture streaming system choses to stream for each texture.
 BinaryProperties_GetValue
@@ -573,14 +511,12 @@ Bogus JPEG colorspace
 Bogus buffer control mode
 Bogus input colorspace
 Bogus marker length
+Bogus message code %d
 Bogus sampling factors
 Bogus virtual array access
-Bound texture to unsupported shader.
+Bound texture to unsupported shader.\n
 Buffer error in compressed datastream in %s chunk
 Buffer passed to JPEG library is too small
-C
-CAN
-CB: %u buffers, %.2f MB
 CBufferString::AppendConcat(int, char const* const*, int const*, bool)
 CBufferString::AppendFormat(char const*, ...)
 CBufferString::AppendFormatV(char const*, __va_list_tag*)
@@ -608,51 +544,50 @@ CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
 CCIR601 sampling not implemented yet
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CCommandBufferChunk CUtlMemoryPoolMT
 CDynamicBufferMgrGL
-CDynamicBufferMgrGL::CDynamicBufferMgrGL: Failed creating shared dynamic buffer!
-CDynamicBufferMgrGL::InsertNewDynamicBuffer: Failed creating shared dynamic buffer!
+CDynamicBufferMgrGL::CDynamicBufferMgrGL: Failed creating shared dynamic buffer!\n
+CDynamicBufferMgrGL::InsertNewDynamicBuffer: Failed creating shared dynamic buffer!\n
 CEntityIndex
-CGLMQuery::GetData(): Occlusion query flush took %3.3fms!
-CGLMQuery::GetData: Failure retrieving occlusion query data! This scenario is not supported in GL.
+CGLMQuery::GetData(): Occlusion query flush took %3.3fms!\n
+CGLMQuery::GetData: Failure retrieving occlusion query data! This scenario is not supported in GL.\n
 CLargeCommandBufferChunk CUtlMemoryPoolMT
 CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
 CMemberFunctorCallback1
-CMemoryStack %s
+CMemoryStack %s\n
 COLORCORRECTION_VERSION_1
 COMMENT
 COMMON
 CONTENT
 CONTENTROOT
 CRC error
-CRenderContextGL:: Cannot resolve from a non-MSAA buffer to an MSAA buffer!
-CRenderContextGL:: Tried to resolve 2 textures of differing sizes!
-CRenderContextGL:: Trying to resolve from a rect that is outside of the src rendertarget
-CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s
+CRenderContextGL:: Cannot resolve from a non-MSAA buffer to an MSAA buffer!\n
+CRenderContextGL:: Tried to resolve 2 textures of differing sizes!\n
+CRenderContextGL:: Trying to resolve from a rect that is outside of the src rendertarget\n
+CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
 CRenderDeviceBase::InitPerFrameMemoryStack
-CRenderDeviceGL::CreateGeometryShader: Geometry shader bytecode is too small
-CRenderDeviceGL::CreatePixelShader: Pixel shader bytecode is too small
-CRenderDeviceGL::CreateVertexShader: Vertex shader bytecode is too small
+CRenderDeviceGL::CreateGeometryShader: Geometry shader bytecode is too small\n
+CRenderDeviceGL::CreatePixelShader: Pixel shader bytecode is too small\n
+CRenderDeviceGL::CreateVertexShader: Vertex shader bytecode is too small\n
 CRenderDeviceGL::GetQueryData - Bad query
-CRenderQueryGL - Issued a Begin on a non-occlusion query
-CRenderQueryGL - Threadsafety problem with query object state!
-CRenderQueryGL::BeginQuery - Issued a Begin on a non-occlusion query!
-CRenderQueryGL::BeginQuery - Issued on an in-progress query!
-CRenderQueryGL::EndQuery - Issued on an in-progress query!
-CRenderThreadGL::CreateQueryObject failed
-CRenderThreadGL::OnCreateVertexShader: Vertex shader missing //ATTRIBMAP metadata comment.
+CRenderQueryGL - Issued a Begin on a non-occlusion query\n
+CRenderQueryGL - Threadsafety problem with query object state!\n
+CRenderQueryGL::BeginQuery - Issued a Begin on a non-occlusion query!\n
+CRenderQueryGL::BeginQuery - Issued on an in-progress query!\n
+CRenderQueryGL::EndQuery - Issued on an in-progress query!\n
+CRenderThreadGL::CreateQueryObject failed\n
+CRenderThreadGL::OnCreateVertexShader: Vertex shader missing //ATTRIBMAP metadata comment.\n
 CResourceArray
 CResourceString
-CS
-CSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!
-CSwapChainBase::QueuePresentAndWait() looped for %d iterations without a present event.
+CSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!\n
+CSwapChainBase::QueuePresentAndWait() looped for %d iterations without a present event.\n
 CTSQueue corruption
-CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.
-CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.
-CTextureManagerGL::ComputeTextureObject: Tried to create a depth-stencil texture which is *not* a render target!
+CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.\n
+CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.\n
+CTextureManagerGL::ComputeTextureObject: Tried to create a depth-stencil texture which is *not* a render target!\n
 CThreadEvent::CThreadEvent(bool)
 CThreadEvent::Set()
 CThreadFastMutex::Lock(char const*, int, unsigned long long, unsigned int) volatile
@@ -675,9 +610,9 @@ CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::Wait(unsigned int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
-CToGLDynamicFunction: Closing library '%s' (%p)
-CToGLDynamicFunction: Loading library '%s' (%p)
-CToGLDynamicFunction: Lookup of '%s' in '%s': %p
+CToGLDynamicFunction: Closing library '%s' (%p)\n
+CToGLDynamicFunction: Loading library '%s' (%p)\n
+CToGLDynamicFunction: Lookup of '%s' in '%s': %p\n
 CTransform
 CUBEArray
 CUBEMAP_FACE_NEGATIVE_X
@@ -686,15 +621,15 @@ CUBEMAP_FACE_NEGATIVE_Z
 CUBEMAP_FACE_POSITIVE_X
 CUBEMAP_FACE_POSITIVE_Y
 CUBEMAP_FACE_POSITIVE_Z
-CUtlBlockMemory overflow!
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlFixedMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlBlockMemory overflow!\n
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
+CUtlFixedMemory overflow!\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
-CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
+CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
 CUtlString
 CUtlStringToken
 CUtlSymbol
@@ -703,50 +638,48 @@ CUtlVector
 CXXABI_1.3
 CXXABI_1.3.3
 Call to NULL read function
-Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
-Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL
-Can't detect memory size on this platform!
+Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request\n
+Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL\n
+Can't detect memory size on this platform!\n
 Can't discard critical data on CRC error
 Can't set both read_data_fn and write_data_fn in the same structure
-Can't specify initial state of dynamic constant buffers at creation time!
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
-Cannot read a file
-Cannot read file
+Cannot read a file 
+Cannot read file 
 Cannot reconstruct lineOffset table in DecodeEXRImage.
 Cannot transcode due to multiple use of quantization table %d
 Cannot write a file
 Caution: quantization tables are too coarse for baseline JPEG
 ChangeCallbackOnChange
 CheckBox
-Checked pending presents %s times; waited %s times; abandoned %s times
+Checked pending presents %s times; waited %s times; abandoned %s times\n
 ChildOf
-ChildOf(
-Chipset version %d %d
-Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
+ChildOf( 
+Chipset version %d %d \n\n
+Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore\n
 Closed temporary file %s
-Command stream pools: %s bytes in base, %s bytes in medium, %s bytes in large (%s extra data fallbacks)
+Command stream pools: %s bytes in base, %s bytes in medium, %s bytes in large (%s extra data fallbacks)\n
 CommandLine
 Compatibility
-Compilation failed; no code produced.  Log string from driver:
+Compilation failed; no code produced.  Log string from driver:\n
 Compile Target Expression
 Compile Targets
-Compile of "%s" Failed:
+Compile of "%s" Failed:\n
 CompileShadersForFeatureCombo
 CompileTargets
-Component %d: %dhx%dv q=%d
-Component %d: dc=%d ac=%d
 Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
-Compressed texture decoded in %.2f ms
+Compressed texture decoded in %.2f ms\n
 Compute Shader
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
 ConcatentateInputLayouts
-Conditional Error: %s
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
+ConvertGammaToLinear
 CopyAttrFrom
 Copyright (C) 2010, Thomas G. Lane, Guido Vollbeding
 Core
@@ -755,8 +688,8 @@ Corrupt JPEG data: bad Huffman code
 Corrupt JPEG data: bad arithmetic code
 Corrupt JPEG data: found marker 0x%02x instead of RST%d
 Corrupt JPEG data: premature end of data segment
-Could not find required OpenGL entry point '%s'!
-CreateDevice: Requested DX level %d, clamped to DX level %d
+Could not find required OpenGL entry point '%s'!\n
+CreateDevice: Requested DX level %d, clamped to DX level %d\n
 CreateInterface
 CreateNewThreadPool
 CreateRenderThread
@@ -768,54 +701,44 @@ D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
-DC1
-DC2
-DC3
-DC4
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 DEMO
 DEPRECATION
-DLE
-DS
 DX11
-DX9
 DXT1_ONEBITALPHA
 DXT5_NM
-D_
 D_FADE_COLOR
 Data error in compressed datastream in %s chunk
 Data size too short
 DebugTextureInfo001
-Dec
-Decompressed %i texture mips in %.2f ms (%.1fmb/s)
+Decompressed %i texture mips in %.2f ms (%.1fmb/s)\n
 Decompression Error
 Decompression error
-Deferred Compile Time: %llu ms (Count: %d)
+Deferred Compile Time: %llu ms (Count: %d) \n
 Define Arithmetic Table 0x%02x: 0x%02x
 Define Huffman Table 0x%02x
 Define Quantization Table %d  precision %d
 Define Restart Interval %u
 DegreeEuler
-Deleting texture with outstanding streaming request (%s)
+Deleting texture with outstanding streaming request (%s)\n
 Description
 Dev Shader
 DevMsg
 DevMsg(char const*, ...)
 DevShader
 DevWarning(char const*, ...)
-Device Caps :
 Didn't expect more than one scan
 Direct3D 11
 Direct3D 9
-Disabling GL_ARB_buffer_storage for RenderDoc.
-Disabling use of separate shader objects.
-Discarding abandoned streaming texture load for %s
+Disabling GL_ARB_buffer_storage for RenderDoc.\n
+Disabling use of separate shader objects. \n
+Discarding abandoned streaming texture load for %s\n
 Display GPU memory usage.
-Display mode : %d x %d @%dHz (%s)
+Display mode : %d x %d @%dHz (%s)\n
 Domain Shader
 DotaCardGameClient_001
-Driver Description :  %s
+Driver Description :  %s\n
 DumpContextInfo
 Duplicate PLTE chunk
 Duplicate bKGD chunk
@@ -831,44 +754,39 @@ Duplicate sCAL chunk
 Duplicate sRGB chunk
 Duplicate tIME chunk
 Duplicate tRNS chunk
-Dynamic )
-Dynamic combos:
+Dynamic )\n
+Dynamic combos:\n
 DynamicCombo
 DynamicComboFromFeature
 DynamicComboRule
-DynamicComboRule(
 Dynamically adjust texture streaming budget based on GPU memory usage.
 EDeviceCreated
 END_UNIFORMBINDINGS*/
-ENQ
-EOT
 ERROR
 ERROR!
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+ERROR: Specified full path %s does not lie under the mod search path!)\n
+ERROR: Specified path %s could not be made content-relative\n
 ESC_SEQ
-ETB
-ETX
 EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EXRHeader variable is not initialized.
-EXRReadFile() - B channel not found!
-EXRReadFile() - G channel not found!
-EXRReadFile() - R channel not found!
+EXRReadFile() - B channel not found!\n
+EXRReadFile() - G channel not found!\n
+EXRReadFile() - R channel not found!\n
 EarlyInit_Tier0
 EconItemToolModel_001
 Empty
 Empty JPEG image (DNL not supported)
 Empty input file
 End Of Image
-End:
+End: 
 EngineInitialization
 EngineServiceMgr001
 EnvironmentMapBuilder_001
-Error getting CGLMQuery result.
-Error opening GL shader cache binaries file "%s"!
-Error resolving symbol "%s"
+Error getting CGLMQuery result.\n
+Error opening GL shader cache binaries file "%s"!\n\n
+Error resolving symbol "%s"\n
 Etc::DifferentialTrys::DifferentialTrys(Etc::ColorFloatRGBA, Etc::ColorFloatRGBA, const unsigned int*, const unsigned int*, unsigned int, int, int)
 Etc::Image::EncodingStatus Etc::Image::Encode(Etc::Image::Format, Etc::ErrorMetric, float, unsigned int, unsigned int)
 Etc::Image::Image(Etc::Image::Format, unsigned int, unsigned int, unsigned char*, unsigned int, Etc::Image*, Etc::ErrorMetric)
@@ -879,86 +797,82 @@ Evict all resident texture.
 Exceeded size limit while expanding chunk
 Execute
 Expecting %s
-Expression Parser -
+Expression Parser - 
 ExternalDescSet
-Externally allocated textures unsupported in GL
+Externally allocated textures unsupported in GL\n
 Extra compressed data
 Extra compression data
-FATAL ERROR: unable to register all schema data: %s
-FB
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
 FEATURES
 FLOATLITERAL
 FLOATSUFFIX
-F_
-Failed AllocateTexture for '%s'
-Failed to compute channel layout.
-Failed to create D3D device! Please see the following for more info.http://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php?p_faqid=772
-Failed to create OpenGL context.
-Failed to create an OpenGL context.
-Failed to create device. Modules loaded: %s
+Failed AllocateTexture for '%s'\n
+Failed to compute channel layout.\n
+Failed to create D3D device! Please see the following for more info.\nhttp://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php?p_faqid=772\n
+Failed to create OpenGL context.\n
+Failed to create an OpenGL context.\n
+Failed to create device. Modules loaded: %s\n
 Failed to create temporary file %s
-Failed to create the GL context.
-Failed to detect video memory size.
-Failed to load shader using program binary.  Falling back to shader source.  Log string from driver:
+Failed to create the GL context.\n
+Failed to detect video memory size.\n
+Failed to load shader using program binary.  Falling back to shader source.  Log string from driver:\n
 Failed to parse EXR version
-Failed to parse attribute
+Failed to parse attribute\n
 Failed to parse channel info
-Failed to parse channel info.
-Failed to read attribute.
-Failed to save video settings config to '%s'
-Failed to use program binary, falling back to source shader.
+Failed to parse channel info.\n
+Failed to read attribute.\n
+Failed to save video settings config to '%s'\n
+Failed to use program binary, falling back to source shader.\n
 FeatureRule
 Features
-Feb
-File has not been opened!
-File size is zero :
-File size too short
+File has not been opened!\n
+File size is zero : 
+File size too short 
 FileKeys
 FillAttr
 FilterFrom
 FindClosestMatchingRegion
-FindOrCreateTexture: Cannot create static textures with no data!
-FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s
-FindOrCreateTexture: Only dynamic textures can have non-global scope!
-FindOrCreateTexture: Texture scope is unspecified!
-FindOrCreateTexture: Texture usage is unspecified!
+FindOrCreateTexture: Cannot create static textures with no data!\n
+FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s\n
+FindOrCreateTexture: Only dynamic textures can have non-global scope!\n
+FindOrCreateTexture: Texture scope is unspecified!\n
+FindOrCreateTexture: Texture usage is unspecified!\n
 FindSamplerObject
-Finished %d Blocks out of %d
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
+Finished %d Blocks out of %d\n
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 FloatBitMap::DownsampleNiceFiltered
 FloatBitMap::QuarterSize
 FloatBitMap::QuarterSizeBlocky
-FloatBitMap_t: Error loading %s
-FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!
-FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!
-FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!
-FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!
-FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!
+FloatBitMap_t: Error loading %s\n
+FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!\n
+FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!\n
+FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!\n
+FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!\n
+FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!\n
 FontManager_001
-Force disabling Separate Shader Objects for ARM Mali.
-Forcing OpenGL ES 3.0 context version...
-Forcing SM30 shaders to workaround mesa bug with sampler bindings > 16.
-Forcing all fragment shaders to be default float to medium precision.
+Force disabling Separate Shader Objects for ARM Mali.\n
+Forcing OpenGL ES 3.0 context version...\n
+Forcing SM30 shaders to workaround mesa bug with sampler bindings > 16.\n
+Forcing all fragment shaders to be default float to medium precision.\n
 FormatV
-Found %d streaming textures in array, but in-flight count is %d
+Found %d streaming textures in array, but in-flight count is %d\n
 Fractional sampling not implemented yet
 Freed EMS handle %u
 Freed XMS handle %u
 G channel not found
-G channel not found!
+G channel not found!\n
 GAMECONSOLE
 GAMEROOT
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
 GCC: (crosstool-NG 1.17.0) 4.6.3
-GL ERROR: %s
-GL shader binaries cache "%s" does not have enough data, resetting.
-GL shader cache TOC file version is %d instead of %d for %s
+GL ERROR: %s\n
+GL shader binaries cache "%s" does not have enough data, resetting. 
 GL texture manager frame update
-GL: [%s][%s][%s][%d]: %s
+GL: [%s][%s][%s][%d]: %s\n
 GLIBCXX_3.4
 GLIBCXX_3.4.11
 GLIBCXX_3.4.14
@@ -973,7 +887,7 @@ GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
 GLMContext::DelTex: Leaking tex %08x [ %s ] - was attached for drawing at time of delete
-GLMContext::GLMContext: Debug output (gl_arb_debug_output) enabled!
+GLMContext::GLMContext: Debug output (gl_arb_debug_output) enabled!\n
 GLRenderThread
 GLX_EXT_swap_control_tear
 GL_1PASS_EXT
@@ -1083,9 +997,9 @@ GL_ARRAY_BUFFER_BINDING_ARB
 GL_ARRAY_ELEMENT_LOCK_COUNT_EXT
 GL_ARRAY_ELEMENT_LOCK_FIRST_EXT
 GL_ATI_meminfo
-GL_ATI_meminfo: %s
-GL_ATI_meminfo: Failed retrieving available GPU memory
-GL_ATI_meminfo: GL_TEXTURE_FREE_MEMORY_ATI: Total Free: %i, Largest Avail: %i, Total Aux: %i, Largest Aux Avail: %i
+GL_ATI_meminfo: %s\n
+GL_ATI_meminfo: Failed retrieving available GPU memory\n
+GL_ATI_meminfo: GL_TEXTURE_FREE_MEMORY_ATI: Total Free: %i, Largest Avail: %i, Total Aux: %i, Largest Aux Avail: %i\n
 GL_ATTACHED_SHADERS
 GL_ATTENUATION_EXT
 GL_ATTRIB_ARRAY_POINTER_NV
@@ -1150,7 +1064,7 @@ GL_BUFFER_SIZE
 GL_BUFFER_SIZE_ARB
 GL_BUFFER_USAGE
 GL_BUFFER_USAGE_ARB
-GL_BYTE
+GL_BYTE 
 GL_C3F_V3F
 GL_C4F_N3F_V3F
 GL_C4UB_V2F
@@ -1638,7 +1552,7 @@ GL_INDEX_TEST_FUNC_EXT
 GL_INDEX_TEST_REF_EXT
 GL_INDEX_WRITEMASK
 GL_INFO_LOG_LENGTH
-GL_INT
+GL_INT  
 GL_INTENSITY
 GL_INTENSITY12
 GL_INTENSITY16
@@ -2068,9 +1982,9 @@ GL_NUM_COMPRESSED_TEXTURE_FORMATS_ARB
 GL_NUM_FRAGMENT_CONSTANTS_EXT
 GL_NUM_FRAGMENT_REGISTERS_EXT
 GL_NVX_gpu_memory_info
-GL_NVX_gpu_memory_info: %s
-GL_NVX_gpu_memory_info: Failed retrieving available GPU memory
-GL_NVX_gpu_memory_info: Total Dedicated: %u, Total Avail: %u, Current Avail: %u
+GL_NVX_gpu_memory_info: %s\n
+GL_NVX_gpu_memory_info: Failed retrieving available GPU memory\n
+GL_NVX_gpu_memory_info: Total Dedicated: %u, Total Avail: %u, Current Avail: %u\n
 GL_NV_bindless_texture
 GL_OBJECT_ACTIVE_ATTRIBUTES_ARB
 GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB
@@ -2881,7 +2795,7 @@ GL_TRIANGLES
 GL_TRIANGLE_FAN
 GL_TRIANGLE_STRIP
 GL_UBYTE
-GL_UINT
+GL_UINT 
 GL_UNIFORM_ARRAY_STRIDE
 GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS
 GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES
@@ -2956,7 +2870,7 @@ GL_VARIANT_VALUE_EXT
 GL_VECTOR_EXT
 GL_VENDOR
 GL_VERSION
-GL_VERSION=%s
+GL_VERSION=%s\n
 GL_VERTEX_ARRAY
 GL_VERTEX_ARRAY_BINDING_APPLE
 GL_VERTEX_ARRAY_BUFFER_BINDING
@@ -3047,16 +2961,14 @@ GL_ZERO
 GL_ZOOM_X
 GL_ZOOM_Y
 GL_Z_EXT
-GNU
-GPU memory available (%d MB of %d MB used). Increasing texture pool size %d MB -> %d MB.
-GPU memory available (%d MB of %d MB used). Reducing texture pool size %d MB -> %d MB
-GPU reports %dMB available memory which is too low, using %d MB
-GS
+GPU memory available (%d MB of %d MB used). Increasing texture pool size %d MB -> %d MB.\n
+GPU memory available (%d MB of %d MB used). Reducing texture pool size %d MB -> %d MB\n
+GPU reports %dMB available memory which is too low, using %d MB\n
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
 GenerateDistanceField
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 Generic
 GenericFloat
 Geometry Shader
@@ -3064,28 +2976,26 @@ GetCPUInformation
 GetNameFromOSType
 GetResourceManifestCount
 GetResourceManifests
-GetVfxShaderFile: Failed to unserialize CVfxShaderFile.  Is your shadercache out-of-date?  Try deleting it.
-Graphics Device changed, resetting video config
+GetVfxShaderFile: Failed to unserialize CVfxShaderFile.  Is your shadercache out-of-date?  Try deleting it.\n
+Graphics Device changed, resetting video config\n
 Grow
 HEADER
 HEXINTEGERLITERAL
 HEX_DIGIT
 HIGH
 HIGHDPI
-HS
 HammerMapLoader001
 HangWatchdogInternal_BeginScope
 HangWatchdogInternal_EndScope
 HelpSystem_001
-Hitch alert: Present was waiting for %d iterations and %.1f seconds.
+Hitch alert: Present was waiting for %d iterations and %.1f seconds.\n
 HookUpConfigValue
 HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
 Hull Shader
-I
 IA88
-IB: %d buffers, %.2f MB
+IB "%s" : Attempted to create too big of a dynamic index buffer!\n\tMax size allowed : %d Requested : %d\n
 INPUT_LAYOUT_VARIATION_DEFAULT
 INPUT_LAYOUT_VARIATION_MAX
 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
@@ -3095,10 +3005,6 @@ INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
 IOS_VULKAN
 IOS_VULKAN_4_0
 IQuickTime001
-IS1
-IS2
-IS3
-IS4
 IS_SM_
 Ignoring PLTE chunk in grayscale PNG
 Ignoring attempt to set cHRM RGB triangle with zero area
@@ -3113,9 +3019,9 @@ Ignoring incorrect cHRM value when sRGB is also present
 Ignoring incorrect gAMA value when sRGB is also present
 Ignoring nonzero compression type in iCCP chunk
 IiGM
-Illegal layout for dx9! Cannot have a stream with both instanced + non-instanced fields!
-Illegal layout for dx9! Cannot have a stream with fields with different step rates!
-Image data size is zero or too large: width =
+Illegal layout for dx9! Cannot have a stream with both instanced + non-instanced fields!\n
+Illegal layout for dx9! Cannot have a stream with fields with different step rates!\n
+Image data size is zero or too large: width = 
 Image height exceeds user limit in IHDR
 Image height is zero in IHDR
 Image is too high to process with png_read_png()
@@ -3133,7 +3039,7 @@ Incorrect gAMA chunk length
 Incorrect hIST chunk length
 Incorrect oFFs chunk length
 Incorrect pHYs chunk length
-Incorrect primitive topology for bound shader. Shader expects RENDER_PRIM_%d_CONTROL_POINT_PATCHLIST. Rendering will be corrupt.
+Incorrect primitive topology for bound shader. Shader expects RENDER_PRIM_%d_CONTROL_POINT_PATCHLIST. Rendering will be corrupt.\n
 Incorrect sBIT chunk length
 Incorrect sRGB chunk length
 Incorrect tIME chunk length
@@ -3146,14 +3052,14 @@ InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
 InsertNewDynamicBuffer
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Insufficient data length.
-Insufficient data size for attributes.
+Insufficient data length.\n
+Insufficient data size for attributes.\n
 Insufficient data size in offset table.
-Insufficient data size.
-Insufficient header/data size.
+Insufficient data size.\n
+Insufficient header/data size.\n
 Insufficient memory (case %d)
 Insufficient memory for hIST chunk data
 Insufficient memory for pCAL parameter
@@ -3169,7 +3075,7 @@ Insufficient memory to store zTXt chunk
 Intel
 Intel900
 IntelX3100
-Intentionally vague touch behavior for %p
+Intentionally vague touch behavior for %p\n
 Interlace handling should be turned on when using png_read_image
 InternalRT0
 InternalSwapChainDepthStencil
@@ -3187,7 +3093,7 @@ Invalid PLTE after IDAT
 Invalid Path
 Invalid SOS parameters for sequential JPEG
 Invalid `part number' in EXR header chunks.
-Invalid access of deferred ConVarRef for '%s'
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid argument for DecodeEXRImage().
 Invalid argument for LoadDeepEXR
 Invalid argument for LoadEXR()
@@ -3216,9 +3122,9 @@ Invalid color type in IHDR
 Invalid color type/bit depth combination in IHDR
 Invalid component ID %d in SOS
 Invalid crop request
-Invalid data found when decoding pixels.
+Invalid data found when decoding pixels.\n
 Invalid data height value
-Invalid data width or data height:
+Invalid data width or data height: 
 Invalid data width value
 Invalid filter method in IHDR
 Invalid format for pCAL parameter
@@ -3256,12 +3162,11 @@ Invalid sCAL width ignored
 Invalid sPLT after IDAT
 Invalid sRGB after IDAT
 Invalid scan script at entry %d
-Invalid sequence number %d!!!
+Invalid sequence number %d!!!\n
 Invalid tRNS after IDAT
-Invalid thread index (%d) given
-Invalid tile size x :
-Invalid tile size y :
-J
+Invalid thread index (%d) given\n
+Invalid tile size x : 
+Invalid tile size y : 
 JFIF APP0 marker: version %d.%02d, density %dx%d  %d
 JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
@@ -3270,18 +3175,15 @@ JFIF extension marker: type 0x%02x, length %u
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
-JSON error, unterminated element:
-Jan
-Jul
-Jun
+JSON error, unterminated element: 
 KMeansQuantization
-KNQ
+KNQ\r
 KV Conditional Evaluation Error
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 LE_BGRA8888
 LE_BGRX8888
@@ -3300,16 +3202,17 @@ LINUX
 LMb#
 LOG_GENERAL
 LOWVIOLENCE
-Link failed; no code produced.  Log string from driver:
-LoadEXRImageFromMemory failed! Error message: %s
-LoadEXRImageFromMemory() failed! Error message: %s
+Link failed; no code produced.  Log string from driver:\n
+LoadEXRImageFromMemory failed! Error message: %s\n
+LoadEXRImageFromMemory() failed! Error message: %s\n
 LoadExplicitlyRequestedTextures
 LoadFromBuffer: expected '{', found '%s'
-LoadFromInMemoryEXR( %s ) failed.
+LoadFromInMemoryEXR( %s ) failed.\n
 LoadStreamingData
-Loaded video settings config from '%s'
+Loaded video settings config from '%s'\n
 Loading multipart or DeepImage is not supported  in LoadEXR() API
 Localize_001
+LockDynamicTexture not currently implemented in rendersystemdx9\n
 LockDynamicVertexBuffer
 LoggingSystem_IsChannelEnabled
 LoggingSystem_IsChannelEnabled(int, LoggingVerbosity_t)
@@ -3319,8 +3222,6 @@ LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ..
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-M0@
-MAC
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MEDIUM
@@ -3341,7 +3242,6 @@ MNetworkUserGroup
 MOBILE_GLES
 MOBILE_GLES_3_0
 MOBILE_GLES_3_1
-MOD
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MODES
@@ -3356,21 +3256,18 @@ Malformed iTXt chunk
 Mali
 Mantle
 MapListService_001
-Mar
 MaterialUtils_001
 MathLib_Init
-Max Combined Texture Image Units : %d
-Max Fragment Texture Image Units : %d
-Max Geometry Texture Image Units : %d
-Max Tess Control Texture Image Units : %d
-Max Tess Eval Texture Image Units : %d
-Max Texture Dimensions : %d x %d
-Max Vertex Texture Image Units : %d
-Max committed memory: %u KB out of %d KB
+Max Combined Texture Image Units : %d\n
+Max Fragment Texture Image Units : %d\n
+Max Geometry Texture Image Units : %d\n
+Max Tess Control Texture Image Units : %d\n
+Max Tess Eval Texture Image Units : %d\n
+Max Texture Dimensions : %d x %d\n
+Max Vertex Texture Image Units : %d\n
 MaxDeviceID
-Maximum device access threads: %u
+Maximum device access threads: %u\n
 Maximum supported image dimension is %u pixels
-May
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Memory allocation failed while processing sCAL
@@ -3418,7 +3315,6 @@ Mobile SM 3.0 (GLES 3.0)
 Mobile SM 3.0 (GLES 3.1)
 ModelDocUtils001
 Modes
-N
 N11PerfMarkers19IPerfMarkerProviderE
 N11PerfMarkers27CKHRDebugPerfMarkerProviderE
 N11PerfMarkers31CGREMDYStringPerfMarkerProviderE
@@ -3436,7 +3332,6 @@ N3Etc29Block4x4Encoding_RGBA8_OpaqueE
 N3Etc30Block4x4Encoding_RGB8A1_OpaqueE
 N3Etc34Block4x4Encoding_RGBA8_TransparentE
 N3Etc35Block4x4Encoding_RGB8A1_TransparentE
-NAK
 NATIVE_ADDRESS_REGISTERS
 NATIVE_ALU_INSTRUCTIONS
 NATIVE_ATTRIBS
@@ -3473,7 +3368,6 @@ NSt8__detail15_BracketMatcherISt12regex_traitsIcELb0ELb0EEE
 NSt8__detail15_BracketMatcherISt12regex_traitsIcELb0ELb1EEE
 NSt8__detail15_BracketMatcherISt12regex_traitsIcELb1ELb0EEE
 NSt8__detail15_BracketMatcherISt12regex_traitsIcELb1ELb1EEE
-NUL
 NULL row buffer for row %ld, pass %d
 NVGeForce2MX
 NVGeForce3
@@ -3504,9 +3398,9 @@ No space in chunk cache for sPLT
 No space in chunk cache for tEXt
 No space in chunk cache for unknown chunk
 No space in chunk cache for zTXt
-Non-windows platforms don't support loading of JPG images
-Non-windows platforms don't support loading of PNG images
-Non-windows platforms don't support loading of TIFF images
+Non-windows platforms don't support loading of JPG images\n
+Non-windows platforms don't support loading of PNG images\n
+Non-windows platforms don't support loading of TIFF images\n
 None
 Normalize3ComponentVectorInAttributes
 Normalized3x3SobelEdgeFilterFrom
@@ -3518,28 +3412,26 @@ Not enough memory to process iTXt chunk
 Not enough memory to process text chunk
 Not enough memory to process zTXt chunk
 Not implemented yet
-Nov
-O
 O*9y
 OCTAL_ESC
-OSX
+ORENDER_MULTISAMPLE_INVALID
 OTHER
-OUTSTANDING_HOOKUP_REQUEST
+OUTSTANDING_HOOKUP_REQUEST 
 Obtained EMS handle %u
 Obtained XMS handle %u
-Oct
 OnGenerateMipMaps on non-existing texture.
 OnUpdateIndexBuffer
 OnUpdateVertexBuffer
-Only DXT1/DXT5 online texture compression supported.
+Only DXT1/DXT5 online texture compression supported.\n
 Only immediately load textures which have a fullmipchain.
 OpenGL
 OpenGL %s (%08x)
-OpenGL ES v3.0 initialization failed.
-OpenGL ES v3.1 initialization failed.
-OpenGL detected broken 16-bit indices, will use 32-bit indices for particle index buffer.
-OpenGL using transform constant buffer: %s
+OpenGL ES v3.0 initialization failed.\n
+OpenGL ES v3.1 initialization failed.\n
+OpenGL detected broken 16-bit indices, will use 32-bit indices for particle index buffer.\n
+OpenGL using transform constant buffer: %s\n
 Opened temporary file %s
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 Out of memory processing zTXt chunk
 Out of memory while processing sCAL chunk
 Out of memory while processing sPLT chunk
@@ -3552,15 +3444,11 @@ Out of place sRGB chunk
 Out of place tIME chunk
 Output file write error --- out of disk space?
 Output memory size is zero
-Overall System GPU memory use:
-Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!
-Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!
-P
-P8
-P@
+Overall System GPU memory use:\n
+Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!\n
+Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!\n
 PARALLEL_PROCESS tinyexr_impl.cpp:163
 PARALLEL_PROCESS utlsoacontainer.cpp:2533
-PC
 PC SM 3.0
 PC SM 3.0 (GLSL)
 PC SM 4.0 (D3D10)
@@ -3586,27 +3474,23 @@ PC_SM_4_1_VULKAN
 PC_SM_5_0
 PC_SM_5_0_GL
 PC_SM_5_0_VULKAN
-PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
+PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.\n
 PERFORMANCE
-PF%d %d-1.000000
+PF\n%d %d\n-1.000000\n
 PNG file corrupted by ASCII conversion
-PNG load error %s
+PNG load error %s\n
 PNG unsigned integer out of range
 PORTABILITY
 POSIX
-PS
-PS3
-PS_RENDER_STATE
 PSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
 PSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
-PWL
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-ParseEXRHeaderFromMemory failed! Error message: %s
-ParseEXRHeaderFromMemory() failed! Error message: %s
+ParseEXRHeaderFromMemory failed! Error message: %s\n
+ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ParticleSystemMgr003
-Pf%d %d-1.000000
+Pf\n%d %d\n-1.000000\n
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 Pixel Shader
@@ -3644,7 +3528,7 @@ Plat_VirtualFree
 Plat_WindowToOsSpecificHandle
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
-Potentially fatal error: unsupported vertex format COLOR_FORMAT_xxxx (%d)
+Potentially fatal error: unsupported vertex format COLOR_FORMAT_xxxx (%d)\n
 PreloadTextureBits
 Premature end of JPEG file
 Premature end of input file
@@ -3660,7 +3544,7 @@ QuarterSizeAttrWithBoxFilter
 Quaternion
 QueuedLoaderVersion001
 R channel not found
-R channel not found!
+R channel not found!\n
 R16F_EXPAND
 R32_UINT
 R8G8B8A8_ETC2_EAC
@@ -3751,11 +3635,11 @@ RadianEuler
 RandomFloat
 RandomInt
 RandomSeed
+Read Error
 Read failed on temporary file
 Read from EMS failed
 Read from XMS failed
-ReadToken overflow
-Recreate buffers on update performance workaround is enabled for OpenGL renderer: %s OS: %s.
+Recreate buffers on update performance workaround is enabled for OpenGL renderer: %s OS: %s.\n
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -3765,7 +3649,7 @@ RecursiveLoadFromBuffer:  recursion overflow
 Reduce texture memory pool size by this many MB / s when over budget.
 Reduce texture memory pool size when this percentage of the budget is full.
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterHibernationListener
 RegisterStringToken
 Release
@@ -3774,6 +3658,7 @@ RemoveTextureFromAnyQueues
 RenderBufferFlags_t
 RenderDevice003
 RenderDeviceMgr001
+RenderDoc was detected.\n
 RenderHardwareConfig002
 RenderInputLayoutField_t
 RenderMultisampleType_t
@@ -3788,19 +3673,18 @@ RenderSystemSurface001
 Rendersystem/SheetCacheTextureCols
 Rendersystem/SheetCacheTextureRows
 Requested feature was omitted at compile time
-Required OpenGL extension "%s" is not supported. Please update your OpenGL driver.
+Required OpenGL extension "%s" is not supported. Please update your OpenGL driver.\n
 Required OpenGL functionality not supported, the OpenGL renderer (-gl) cannot be used on this system.
 Requires
 Requires%d
-Requires%d(
+Requires%d( 
 ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
 ReturnJobManualEventToPool
 Row has too many bytes to allocate in memory
-S
-SDL failed to set window gamma ramp: %s
+SDL failed to set window gamma ramp: %s\n
 SDL_CreateWindow
 SDL_CreateWindowFrom
 SDL_DestroyWindow
@@ -3822,24 +3706,15 @@ SDL_GetWindowSize
 SDL_SetHint
 SDL_SetWindowGammaRamp
 SDL_VIDEO_WINDOW_SHARE_PIXEL_FORMAT
-SHADERAPI CAPS:
+SHADERAPI CAPS:\n
 SHADER_COMPILER
 SHADER_SOURCE
 SHADER_SOURCE_ROOT
-SI
 SIGNED_R11
 SIGNED_RG11
-SM
-SO
-SOH
-SRGB
 SRGB8A1
 SRGBA8
 SSE and SSE2 are required.
-STX
-SUB
-SYN
-S_
 S_BINDLESS_RUNTIME
 S_MOBILE
 S_MOLTEN_VK
@@ -3850,7 +3725,7 @@ S_TRANSFORM_CONSTANT_BUFFER
 S_VR
 Sampler object hash is full, increase cSamplerObjectHashSize
 Sampling factors too large for interleaved scan
-Saved video settings config to '%s'
+Saved video settings config to '%s'\n
 Scan script does not transmit all data
 SceneSystem_002
 SceneUtils_001
@@ -3860,7 +3735,6 @@ SchemaTestExternal_Two_001
 Screen Gamma (only in fullscreen modes)
 Seek failed on temporary file
 Selected %d colors for quantization
-Sep
 SequenceFloatParam_t
 SerializeStaticComboWorker
 SerializedEntitiesVersion001
@@ -3868,17 +3742,17 @@ SeriousWarning
 ServerUploadGameStats001
 SetAssociatedThreadIndex
 SetConstantBufferDataInternal
-SetHardwareGammaRamp( %f )
-Shader API Driver Info:Driver : %s Version : %d.%d
-Shader Compile Time: %llu ms (Count: %d)
+SetHardwareGammaRamp( %f )\n
+Shader API Driver Info:\n\nDriver : %s Version : %d.%d\n
+Shader Compile Time: %llu ms (Count: %d) \n
 Shader file version mismatch.  Expected (%d), Got (%d).
 ShaderIDColor
 ShadingComplexity
 SheetFrameImage_t
 SheetSequenceFrame_t
 SheetSequence_t
-Size of Texture Memory : %llu kb
-Skipped %d%% of all combos
+Sheet_t
+Size of Texture Memory : %llu kb\n
 Slider
 Smoothing not supported with nonstandard sampling ratios
 SoundOpSystem001
@@ -3897,10 +3771,9 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-Spawning %d compile jobs
+Spawning %d compile jobs\n
 SrgbGammaToLinear
 SrgbLinearToGamma
-Ss=%d, Se=%d, Ah=%d, Al=%d
 St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 St12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
 St12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
@@ -3915,33 +3788,28 @@ St23_Sp_counted_ptr_inplaceINSt8__detail4_NFAISt12regex_traitsIcEEESaIS4_ELN9__g
 Start Of Frame 0x%02x: width=%u, height=%u, components=%d
 Start Of Scan: %d components
 Start of Image
-Static combos:
+Static combos:\n
 StaticCombo
 StaticComboRule
-StaticComboRule(
 StatsService_001
 SteamAudio001
-Streaming Validation: %s
+Streaming Validation: %s 
 Suspension not allowed here
 SwapChainTexture.vtex
-Sys
 TERMVALUE
-TEX read request: %d KB; %s
-TEX: %u textures, %.2f MB
-TEXMAN: %s MarkTextureBitsLoadRequired (%s)
-TEXMAN: %s MarkTextureBitsLoaded (%s)
-TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)
-TEXMAN: Abandoning job in %s
-TEXMAN: Abandoning streaming request early in %s
-TEXMAN: Abandoning streaming request in %s
-TEXMAN: Adding %s, %llx to abandoned hookup jobs
-TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)
-TEXMAN: Deleting %d textures
-TEXMAN: Outstanding stream count %d -> %d (%s)
-TEXTURESTREAMING: Filled %d fallback textures in %.3f ms
-TF<)
+TEX read request: %d KB; %s\n
+TEXMAN: %s MarkTextureBitsLoadRequired (%s)\n
+TEXMAN: %s MarkTextureBitsLoaded (%s)\n
+TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)\n
+TEXMAN: Abandoning job in %s\n
+TEXMAN: Abandoning streaming request early in %s\n
+TEXMAN: Abandoning streaming request in %s\n
+TEXMAN: Adding %s, %llx to abandoned hookup jobs\n
+TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)\n
+TEXMAN: Deleting %d textures\n
+TEXMAN: Outstanding stream count %d -> %d (%s)\n
+TEXTURESTREAMING: Filled %d fallback textures in %.3f ms\n
 THIRD_PARTY
-TOTAL: %.2f MB
 TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
@@ -3971,17 +3839,17 @@ TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
-Texture Streaming:
-Texture manager out of space! Can't allocate new texture!
-Texture memory discrepancy! %llu != %llu
-Texture memory: %s / %s MB; in %s textures (%s MB non-evictable)
-Texture streaming validation OK (%d texture loads in flight).
+Texture Streaming:\n
+Texture manager out of space! Can't allocate new texture!\n
+Texture memory discrepancy! %llu != %llu\n
+Texture memory: %s / %s MB; in %s textures (%s MB non-evictable)\n
+Texture streaming validation OK (%d texture loads in flight).\n
 TextureDimLog2
 TextureSheetData
 TextureSize
 TextureSpecificationFlags_t
-Textures created overall: %s; textures evicted: %s
-The value of field.m_nSlot (%d) exceeds the value of MAX_D3DVERTEXELEMENTS (%d)!
+Textures created overall: %s; textures evicted: %s\n
+The value of field.m_nSlot (%d) exceeds the value of MAX_D3DVERTEXELEMENTS (%d)!\n
 ThreadGetCurrentId
 ThreadJoin
 ThreadMultiWait
@@ -3992,24 +3860,21 @@ Timed out waiting for thread to exit? hung?
 Too many IDATs found
 Too many bytes for PNG signature
 Too many color components: %d, max %d
-Too many threads (%d) accessing the render device, need to increase -r_max_device_threads (%d)
+Too many threads (%d) accessing the render device, need to increase -r_max_device_threads (%d)\n
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-Total committed memory: %d KB
 Total size of the texture pool in MB
-Total used memory:      %d KB
 Truncated iTXt chunk
 Truncated zTXt chunk
 Truncating incorrect info tRNS chunk length
 Truncating incorrect tRNS chunk length
-Trying to create a render target with invalid image format %s
-Trying to set dxlevel (%d) which is higher than the card can support (%d)!
-Trying to set dxlevel (%d) which is lower than the card can support (%d)!
-U
+Trying to create a render target with invalid image format %s\n
+Trying to set dxlevel (%d) which is higher than the card can support (%d)!\n
+Trying to set dxlevel (%d) which is lower than the card can support (%d)!\n
 UNAVAILABLE
 UNDEFINED_BEHAVIOR
 UNICODE_ESC
@@ -4018,18 +3883,18 @@ UV88
 UVLX8888
 UVWQ8888
 Unable to append GL program binary to cache file "%s".  Clearing cache.
-Unable to create dummy context for GLMDisplayDB.
+Unable to create dummy context for GLMDisplayDB.\n
 Unable to create dummy window for GLMDisplayDB.
-Unable to open GL shader cache TOC %s file - might not exist yet.
-Unable to read file %s
-Unable to stream in resource file "%s" (Error: %s)
-Unable to write GL shader cache %s file.
+Unable to open GL shader cache TOC %s file - might not exist yet.\n
+Unable to read file %s\n
+Unable to stream in resource file "%s" (Error: %s)\n
+Unable to write GL shader cache %s file.\n
 Unexpected marker 0x%02x
-Unexpected resource version '%d' for '%s'
+Unexpected resource version '%d' for '%s'\n
 Unknown APP0 marker (not JFIF), length %u
 Unknown APP14 marker (not Adobe), length %u
 Unknown Adobe color transform code %d
-Unknown DX level
+Unknown DX level\n
 Unknown Path Class
 Unknown compression method in IHDR
 Unknown compression type in zTXt chunk
@@ -4046,22 +3911,21 @@ Unrecognized equation type for pCAL chunk
 UnregisterHibernationListener
 Unsatisfied dependency at present time = death!
 Unserialize
-Unsupported ETC image format %d.
+Unsupported ETC image format %d.\n
 Unsupported JPEG data precision %d
 Unsupported JPEG process: SOF type 0x%02x
-Unsupported PSD color mode!
+Unsupported PSD color mode!\n
 Unsupported color conversion request
-Unsupported component value :
+Unsupported component value : 
 Unsupported compression format
-Unsupported compression type :
+Unsupported compression type : 
 Unsupported marker type 0x%02x
 Unsupported version or scanline
 Upper limit on texture pool size.
 UserInfoChangeService_001
-V
 VApplication001
 VAvi001
-VB: %d buffers, %.2f MB
+VB "%s" : Attempted to create too big of a dynamic vertex buffer!\n\tMax size allowed : %d Requested : %d\n
 VBAllocTracker001
 VBaseFileSystem011
 VBik001
@@ -4092,15 +3956,14 @@ VProfService_001
 VR_001
 VRenderDeviceMgrBackdoor001
 VRenderDeviceSetupV001
-VS
 VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
 VTBladeXP2
-VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 V_CopyMemory3D
 V_FixDoubleSlashes
 V_FixSlashes
@@ -4179,24 +4042,24 @@ VectorAligned
 VectorText
 Version
 Vertex Shader
-Vfx
-Video Card %s (%04x : %04x)
-Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.
+Video Card %s (%04x : %04x)\n
+Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.\n
 Virtual array controller messed up
 VisBuilder_001
 VoidFnPtrLookup_Tier0
 VsInputSignatureElement_t
+VsInputSignature_t
 Vulkan
-WAITING_FOR_HOOKUP_JOB
-WAITING_FOR_IO
-WARNING: Trying to create a CRenderContextPtr without a valid context.
+WAITING_FOR_HOOKUP_JOB 
+WAITING_FOR_IO 
+WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WIN32
 WINDOWS
 WINDOW_SYSTEM
 WINXP
-Warning:  %s = '%s' is infinite, clamping value.
-Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d
-Warning: have oustanding per-frame memory stack with %d allocations
+Warning:  %s = '%s' is infinite, clamping value.\n
+Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d\n
+Warning: have oustanding per-frame memory stack with %d allocations\n
 Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
 Width is too large for libpng to process pixels
@@ -4207,35 +4070,44 @@ Write failed on temporary file --- out of disk space?
 Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %d, caller expects %d
-X
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
 Xbox 360
-Y
-Z
-Z"0*
 ZEo^
 ZFP compression is not supported in this build
 ZFP compression is not supported.
 Zero length tRNS chunk
-[
-[%.3f server clamped to %.3f]
 [%s %s %dx%dx%d mips=%d slices=%d flags=%02lX%s]
-\*
-\\
-\n
-\q
-\r
-\t
+\n  %-30s : %d
+\n  %-30s : %s
+\n  %-30s : 0x%08x
+\n  m_osComboVersion: 0x%08x (%d.%d.%d)
+\n == MSAA Tex %p %s : MSAA RBO is intformat %s (%x)
+\n == MSAA Tex %p %s : glTexImage2D for flat tex using intformat %s (%x)
+\n minimizing storage for tex '%s' [%s] 
+\n############# GDB Detected
+\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n
+\n** CGLMQuery::GetData: can't GetData before issue/start/stop
+\n--------------------------------
+\n-------------------------------- context caps for context %08llx
+\nDevice Caps :\n
+\nGL shader cache TOC file version is %d instead of %d for %s\n
+\nPS_RENDER_STATE
+\nSkipped %d%% of all combos\n
+\n\n##### shader pair cache cleared\n\n
+\n\nout gl_PerVertex { vec4 gl_Position; out float gl_ClipDistance[1]; }\n\n;
+\nlibpng version 1.5.2 - March 31, 2011\nCopyright (c) 1998-2011 Glenn Randers-Pehrson\nCopyright (c) 1996-1997 Andreas Dilger\nCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.\n
+\r<unknown>
+\tprecision highp float;\n
+\tprecision mediump float;\n
 ^$\.*+?()[]{}|
 ^\s*layout\s*\(\s*binding\s*=\s*[0-9]+\s*\)\s*uniform\s+sampler
 ^\s*uniform\s+sampler
 ^oEZ
 _A16B16G16R16
 _A16B16G16R16F
-_A8
 _A8B8G8R8
 _A8B8G8R8_SNORM
 _A8B8G8R8_SRGB
@@ -4252,7 +4124,6 @@ _DXT5
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_L8
 _R11_EAC
 _RG11_EAC
 _RGB32F
@@ -4304,8 +4175,8 @@ __cxa_rethrow
 __dynamic_cast
 __fprintf_chk
 __gmon_start__
-__gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > std::vector<unsigned char, std::allocator<unsigned char> >::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >)
+__gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>> std::vector<unsigned char, std::allocator<unsigned char>>::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>)
 __gxx_personality_v0
 __isnanf
 __longjmp_chk
@@ -4318,49 +4189,34 @@ __stack_chk_fail
 __strcpy_chk
 __tls_get_addr
 _addons
-_c
-_cs
-_ds
 _edata
 _end
 _feature
 _fini
-_gs
-_hs
-_ps
 _psrs
 _setjmp
 _tools.txt
-_vs
-_z0
 `chunkCount' attribute is not found in the header.
 `fread' error. file may be corrupted.
-a
-a+
-a\">
 a_fDecodedAlpha >= 0.0f
 a_uiMultithreadingStride > 0
 a_uiRadius <= MAX_RADIUS
 abort
-abs
-after solve err=%f
+after solve err=%f\n
 alert
 alnum
 alpha
-amd
 ampersand
 apostrophe
 appendstructuredbuffer
 apple
 archive
 asterisk
-ati
-b;!l
 backslash
 backspace
 basic_string::_S_construct null not valid
 basic_string::substr
-before solve err=%f
+before solve err=%f\n
 binary_auto
 binary_bc
 binary_lz4
@@ -4368,30 +4224,28 @@ binormal
 blank
 blendindices
 blendweight
-blocking issue in occlusion queries!!
+blocking issue in occlusion queries!!\n
 bool
-bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>&)
-bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>&)
-bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<true, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>&)
-bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<true, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>&)
-bool std::__detail::__regex_algo_impl<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, char, std::regex_traits<char>, (std::__detail::_RegexExecutorPolicy)0, false>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >&, std::basic_regex<char, std::regex_traits<char> > const&, std::regex_constants::match_flag_type)
-bool std::regex_search<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::basic_regex<char, std::regex_traits<char> > const&, std::regex_constants::match_flag_type)
+bool std::__detail::_Compiler<std::regex_traits<char>>::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>&)
+bool std::__detail::_Compiler<std::regex_traits<char>>::_M_expression_term<false, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>&)
+bool std::__detail::_Compiler<std::regex_traits<char>>::_M_expression_term<true, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>&)
+bool std::__detail::_Compiler<std::regex_traits<char>>::_M_expression_term<true, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>&)
+bool std::__detail::__regex_algo_impl<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, char, std::regex_traits<char>, (std::__detail::_RegexExecutorPolicy)0, false>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>>&, std::basic_regex<char, std::regex_traits<char>> const&, std::regex_constants::match_flag_type)
+bool std::regex_search<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char>>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::basic_regex<char, std::regex_traits<char>> const&, std::regex_constants::match_flag_type)
 bool2
 bool3
 bool4
 borrow
 box2i
 buf error
-c
 cHRM Blue X
+cHRM Blue Y
 cHRM Green X
 cHRM Green Y
 cHRM Red X
 cHRM Red Y
 cHRM White X
 cHRM White Y
-c]$8
-c]^7
 calloc
 carriage-return
 cbuffer
@@ -4419,20 +4273,18 @@ concatenated_input_layout
 configvalue.cpp
 consumestructuredbuffer
 content
-cos
 cs_5_0
-d
 data error
 data height too large.
 data width or data height is negative.
 data width too large.
 dataWindow
-data_height =
-data_with or data_height too large. data_width:
+data_height = 
+data_with or data_height too large. data_width: 
 delete
 developer
-device id: 0x%x
-dir=%d %d %d, err=%f
+device id: 0x%x\n
+dir=%d %d %d, err=%f\n
 displayWindow
 dl_iterate_phdr
 dlclose
@@ -4444,16 +4296,14 @@ dot4
 ds_5_0
 dxsupport.cfg
 eaFO
-effortblocks = %d
+effortblocks = %d\n
 eikonal
 encodingTry.m_fError < 3.40282346638528859812e+38F
 equals-sign
 error in user chunk
 exclamation-mark
-exp
 exp2
 externaldescriptorset
-f
 fMinAlpha <= fMaxAlpha
 fMinGrn <= fMaxGrn
 fMinRed <= fMaxRed
@@ -4461,7 +4311,7 @@ fWeightSumBottom > 0.0f
 fWeightSumLeft > 0.0f
 fWeightSumRight > 0.0f
 fWeightSumTop > 0.0f
-failed.
+failed.\n
 false
 features
 fff?fff?fff?fff?
@@ -4483,14 +4333,14 @@ float4
 float4x3
 float4x4
 floatbitmap.cpp
-floatbitmap.cpp(141): Unknown gamma type "%s"!
-floatbitmap.cpp(2486): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2497): Error loading %s
-floatbitmap.cpp(2520): Error! Unknown file type for %s
-floatbitmap.cpp(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
-floatbitmap.cpp(338): Conversion not supported yet!
-floatbitmap.cpp(438): Conversion not supported yet!
-floatbitmap.cpp(901): Unsupported color format "%s", skipping!
+floatbitmap.cpp(141): Unknown gamma type "%s"!\n
+floatbitmap.cpp(2486): Error calling TGALoader::GetInfo( %s )\n
+floatbitmap.cpp(2497): Error loading %s\n
+floatbitmap.cpp(2520): Error! Unknown file type for %s\n
+floatbitmap.cpp(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s\n
+floatbitmap.cpp(338): Conversion not supported yet!\n
+floatbitmap.cpp(438): Conversion not supported yet!\n
+floatbitmap.cpp(901): Unsupported color format "%s", skipping!\n
 floor
 floorf
 fltx4
@@ -4500,13 +4350,12 @@ four
 fputc
 frac
 fread
-fread() error on
+fread() error on 
 free
 frexp
 fseek
 ftell
 fwrite
-g_
 g_Mathlib_GammaToLinearByteTable
 g_Tier1_BitWriteMasks
 g_Tier1_CRC32Table
@@ -4524,10 +4373,10 @@ getenv
 gl/dynamicbuffermgrgl.cpp
 gl/rendercontextgl.cpp
 gl/renderdevicegl.cpp
-gl/renderdevicegl.cpp(2134):
-gl/renderdevicegl.cpp(657):
-gl/renderdevicegl.cpp(675):
-gl/renderthreadgl.cpp(1869):
+gl/renderdevicegl.cpp(2134): 
+gl/renderdevicegl.cpp(657): 
+gl/renderdevicegl.cpp(675): 
+gl/renderthreadgl.cpp(1869): 
 gl/togl/cglmtex.cpp
 gl/togl/glmdisplaydb.cpp
 gl/togl/glmgr_flush.inl
@@ -4853,7 +4702,7 @@ glViewportIndexedfv
 glWaitSync
 glXGetCurrentDisplay
 glXQueryCurrentRendererIntegerMESA
-glXQueryCurrentRendererIntegerMESA failed.  Defaulting to 512MB of video memory.
+glXQueryCurrentRendererIntegerMESA failed.  Defaulting to 512MB of video memory.\n
 glXQueryCurrentRendererStringMESA
 glXQueryExtensionsString
 gl_ClipDistance
@@ -4884,7 +4733,6 @@ gl_texclientstorage
 gl_texlayoutstats
 gl_texmsaalog
 gl_texture_preloading
-gpu
 graph
 grave-accent
 greater-than-sign
@@ -4895,9 +4743,7 @@ guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, fa
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
-gx=%d, gy=%d, bx=%d, by=%d
-h
-hd=<
+gx=%d, gy=%d, bx=%d, by=%d\n
 header crc mismatch
 highp
 hs_5_0
@@ -4930,9 +4776,8 @@ iRed2 >= 0 && iRed2 <= 31
 if1R
 ignoring out of range rgb_to_gray coefficients
 immediate
-in
 incorrect data check
-incorrect gamma=(%d/100000)
+incorrect gamma=(%d/100000)\n
 incorrect header check
 incorrect length check
 int( %d = 0x%X )
@@ -4957,11 +4802,8 @@ invalid literal/length code
 invalid literal/lengths set
 invalid stored block lengths
 invalid window size
-j
 keyvalues.cpp
 kh9F
-l
-l!;b
 layout\s*\(.*\)\s+(in)\s+
 layout\s*\(.*\)\s+(out)\s+
 layout\s*\(.*\)\s+(uniform)\s+[A-Za-z0-9_]+
@@ -4977,8 +4819,6 @@ libc.so.6
 libdl.so.2
 libm.so.6
 libpng error: %s
-libpng version 1.5.2 - March 31, 2011
-libpng version 1.5.2 - March 31, 2011Copyright (c) 1998-2011 Glenn Randers-PehrsonCopyright (c) 1996-1997 Andreas DilgerCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
 libpng warning: %s
 libpthread.so.0
 librendersystemgl.so
@@ -4997,22 +4837,22 @@ m_DriverInfoString
 m_Format
 m_Frames
 m_Images
-m_MaxPrimitiveCount: %d
-m_MaxSimultaneousRenderTargets: %d
-m_MaxTextureHeight: %d
-m_MaxTextureWidth: %d
-m_MaxUserClipPlanes: %d
-m_NumBooleanVertexShaderConstants: %d
-m_NumIntegerVertexShaderConstants: %d
-m_NumPixelShaderConstants: %d
-m_NumSamplers: %d
-m_NumVertexShaderConstants: %d
+m_MaxPrimitiveCount: %d\n
+m_MaxSimultaneousRenderTargets: %d\n
+m_MaxTextureHeight: %d\n
+m_MaxTextureWidth: %d\n
+m_MaxUserClipPlanes: %d\n
+m_NumBooleanVertexShaderConstants: %d\n
+m_NumIntegerVertexShaderConstants: %d\n
+m_NumPixelShaderConstants: %d\n
+m_NumSamplers: %d\n
+m_NumVertexShaderConstants: %d\n
 m_PciModelString
-m_PreferDynamicTextures: %s
+m_PreferDynamicTextures: %s\n
 m_Sequences
-m_SupportsMipmappedCubemaps: %s
-m_TextureMemorySize: %llu
-m_ZBiasAndSlopeScaledDepthBiasSupported: %s
+m_SupportsMipmappedCubemaps: %s\n
+m_TextureMemorySize: %llu\n
+m_ZBiasAndSlopeScaledDepthBiasSupported: %s\n
 m_bAccelerated
 m_bAlphaCrop
 m_bBrokenBindBufferRange
@@ -5026,16 +4866,16 @@ m_bHasFramebufferBlit
 m_bHasGeometryShader
 m_bHasTesselation
 m_bHasTextureGather
-m_bNeedsATICentroidHack: %s
+m_bNeedsATICentroidHack: %s\n
 m_bNoAlpha
 m_bNoColor
-m_bPreferHardwareSync: %s
+m_bPreferHardwareSync: %s\n
 m_bPreferSmallPMBs
-m_bPreferTexturesInHWMemory: %s
-m_bPreferZPrepass: %s
+m_bPreferTexturesInHWMemory: %s\n
+m_bPreferZPrepass: %s\n
 m_bRequiresSM30
-m_bSuppressPixelShaderCentroidHackFixup: %s
-m_bUnsupported: %s
+m_bSuppressPixelShaderCentroidHackFixup: %s\n
+m_bUnsupported: %s\n
 m_bWindowed
 m_boolDiff
 m_boolDiff == true
@@ -5051,14 +4891,14 @@ m_mode == MODE_H
 m_mode == MODE_PLANAR
 m_mode == MODE_T
 m_nD3DSemanticIndex
-m_nDXSupportLevel: %d
+m_nDXSupportLevel: %d\n
 m_nDisplayMask
 m_nDriverVersionHigh
 m_nDriverVersionLow
 m_nId
 m_nInstanceStepRate
 m_nMaxAniso
-m_nMaxAnisotropy: %d
+m_nMaxAnisotropy: %d\n
 m_nMaxAuxBuffers
 m_nMaxClipDistances
 m_nMaxCombinedTextureImageUnits
@@ -5091,7 +4931,6 @@ m_nTexMemory
 m_nVariableSourceMax
 m_nVidMemory
 m_name
-m_osComboVersion: 0x%08x (%d.%d.%d)
 m_pD3DSemanticName
 m_pName
 m_pSemantic
@@ -5112,13 +4951,10 @@ malformed sPLT chunk
 malloc
 matrix3x4_t
 matrix3x4a_t
-max
 max megabytes
 max megahertz
 max megatexels
-max. %f
 max_processor_count
-mdl
 mediump
 memcmp
 memcpy
@@ -5127,24 +4963,17 @@ mempool.cpp
 memset
 memstats.txt
 mesa
-min
 min megabytes
 min megahertz
 min megatexels
-min. %f
 min_processor_count
-minimizing storage for tex '%s' [%s]
-missing entry points.
-mj>
+missing entry points.\n
 modes
-n/a
-nB
 nCombos
 nTries < 10000000
 need dictionary
 newline
 nine
-no
 none
 normalize
 notconnected
@@ -5162,17 +4991,15 @@ operator new(unsigned long)
 operator new(unsigned long, std::nothrow_t const&)
 operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
-out
 out float gl_ClipDistance[1]
 out float4 gl_Position
-out gl_PerVertex { vec4 gl_Position; out float gl_ClipDistance[1]; };
 out of memory
 out vec4 gl_Position
-pA*** VB "%s": Tried to lock too much memory for subregion (%d>%d)!
+p?RGB565
+pA*** VB "%s": Tried to lock too much memory for subregion (%d>%d)!\n
 parameter error
-pass %u
+pass %u\n
 pbucket->plinkLast->GetNext() == nullptr
-pci
 percent-sign
 period
 pixelAspectRatio
@@ -5188,11 +5015,10 @@ png_set_gamma file gamma
 png_set_gamma screen gamma
 position
 positiont
-pow
 preload2DTex
 preload3DTex
 preloadCube
-preloading %s, %s
+preloading %s, %s\n
 print
 ps_3_0
 ps_4_0
@@ -5214,7 +5040,6 @@ ptryBest1 != nullptr
 ptryBest2 != nullptr
 punct
 putchar
-q>(
 question-mark
 queued
 quotation-mark
@@ -5242,15 +5067,14 @@ r_textures_evict_all
 r_validate_texture_streaming
 r_wait_on_present
 random
-rb
 realloc
 rendercontextbase.cpp
 renderdevicebase.cpp
 renderdevicemgrbase.cpp
 renderstatehelper.h
-rendersystem (%s) tracked resources:
+rendersystem (%s) tracked resources:\n
 rendersystemgl
-rendersystemgl: FIXME: Can't set texture bits of a D3D surface
+rendersystemgl: FIXME: Can't set texture bits of a D3D surface\n
 replicated
 resolveTex
 resourcesystem
@@ -5272,7 +5096,7 @@ rwtexture1darray
 rwtexture2d
 rwtexture2darray
 rwtexture3d
-s
+sAmTb
 sPLT chunk has bad length
 sPLT chunk requires too much memory
 sampler15
@@ -5291,7 +5115,7 @@ screenWindowWidth
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
 semicolon
-sequence number %d too low in sheet file!!!
+sequence number %d too low in sheet file!!!\n
 server_can_execute
 setting.
 setting.CentroidHack
@@ -5329,69 +5153,65 @@ shaders.toc
 shaders/vfx
 sheetcache.cpp
 sheetcachetexture_.vtex
-sin
 single
 singleplayer
-six
 smoothstep
 specular
-sqr
 sqrt
 sqrtf
-src
 src/public/tier0/platform.h
 src2_tmp_window
 srgbgammatolinear
 ss_added
 standardTex
-std::_Deque_base<long, std::allocator<long> >::_M_initialize_map(unsigned long)
-std::_Deque_base<long, std::allocator<long> >::~_Deque_base()
-std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::_M_initialize_map(unsigned long)
-std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::~_Deque_base()
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
-std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_erase(std::_Rb_tree_node<std::pair<long const, long> >*)
-std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<long const, long> >, long const&)
-std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_insert_unique_pos(long const&)
+std::_Deque_base<long, std::allocator<long>>::_M_initialize_map(unsigned long)
+std::_Deque_base<long, std::allocator<long>>::~_Deque_base()
+std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char>>, std::allocator<std::__detail::_StateSeq<std::regex_traits<char>>>>::_M_initialize_map(unsigned long)
+std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char>>, std::allocator<std::__detail::_StateSeq<std::regex_traits<char>>>>::~_Deque_base()
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, false>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, true>>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long>>, std::less<long>, std::allocator<std::pair<long const, long>>>::_M_erase(std::_Rb_tree_node<std::pair<long const, long>>*)
+std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long>>, std::less<long>, std::allocator<std::pair<long const, long>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<long const, long>>, long const&)
+std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long>>, std::less<long>, std::allocator<std::pair<long const, long>>>::_M_get_insert_unique_pos(long const&)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<long const, long>> std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long>>, std::less<long>, std::allocator<std::pair<long const, long>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<long const, long>>, std::piecewise_construct_t const&, std::tuple<long const&>&&, std::tuple<>&&)
 std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()
-std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
-std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
-std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
-std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
@@ -5406,30 +5226,30 @@ std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::_M_apply(c
 std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_add_character_class(std::string const&, bool)
 std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_apply(char, std::integral_constant<bool, false>) const
 std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::~_BracketMatcher()
-std::__detail::_Compiler<std::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type)
-std::__detail::_Compiler<std::regex_traits<char> >::_M_alternative()
-std::__detail::_Compiler<std::regex_traits<char> >::_M_assertion()
-std::__detail::_Compiler<std::regex_traits<char> >::_M_atom()
-std::__detail::_Compiler<std::regex_traits<char> >::_M_bracket_expression()
-std::__detail::_Compiler<std::regex_traits<char> >::_M_cur_int_value(int)
-std::__detail::_Compiler<std::regex_traits<char> >::_M_disjunction()
-std::__detail::_Compiler<std::regex_traits<char> >::_M_pop()
-std::__detail::_Compiler<std::regex_traits<char> >::_M_quantifier()
-std::__detail::_Compiler<std::regex_traits<char> >::_M_quantifier()::{lambda()#1}::operator()() const
-std::__detail::_Compiler<std::regex_traits<char> >::_M_try_char()
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, long)
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_is_word(char) const::__s
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_lookahead(std::__detail::_State<std::regex_traits<char> >)
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, long)
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_word_boundary() const
-std::__detail::_NFA<std::regex_traits<char> >::_M_eliminate_dummy()
-std::__detail::_NFA<std::regex_traits<char> >::_M_insert_backref(unsigned long)
-std::__detail::_NFA<std::regex_traits<char> >::_M_insert_dummy()
-std::__detail::_NFA<std::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>)
-std::__detail::_NFA<std::regex_traits<char> >::_M_insert_repeat(long, long, bool)
-std::__detail::_NFA<std::regex_traits<char> >::_M_insert_state(std::__detail::_State<std::regex_traits<char> >)
-std::__detail::_NFA<std::regex_traits<char> >::_M_insert_subexpr_begin()
-std::__detail::_NFA<std::regex_traits<char> >::_M_insert_subexpr_end()
+std::__detail::_Compiler<std::regex_traits<char>>::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type)
+std::__detail::_Compiler<std::regex_traits<char>>::_M_alternative()
+std::__detail::_Compiler<std::regex_traits<char>>::_M_assertion()
+std::__detail::_Compiler<std::regex_traits<char>>::_M_atom()
+std::__detail::_Compiler<std::regex_traits<char>>::_M_bracket_expression()
+std::__detail::_Compiler<std::regex_traits<char>>::_M_cur_int_value(int)
+std::__detail::_Compiler<std::regex_traits<char>>::_M_disjunction()
+std::__detail::_Compiler<std::regex_traits<char>>::_M_pop()
+std::__detail::_Compiler<std::regex_traits<char>>::_M_quantifier()
+std::__detail::_Compiler<std::regex_traits<char>>::_M_quantifier()::'lambda'()::operator()() const
+std::__detail::_Compiler<std::regex_traits<char>>::_M_try_char()
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_is_word(char) const::__s
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_lookahead(std::__detail::_State<std::regex_traits<char>>)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_word_boundary() const
+std::__detail::_NFA<std::regex_traits<char>>::_M_eliminate_dummy()
+std::__detail::_NFA<std::regex_traits<char>>::_M_insert_backref(unsigned long)
+std::__detail::_NFA<std::regex_traits<char>>::_M_insert_dummy()
+std::__detail::_NFA<std::regex_traits<char>>::_M_insert_matcher(std::function<bool (char)>)
+std::__detail::_NFA<std::regex_traits<char>>::_M_insert_repeat(long, long, bool)
+std::__detail::_NFA<std::regex_traits<char>>::_M_insert_state(std::__detail::_State<std::regex_traits<char>>)
+std::__detail::_NFA<std::regex_traits<char>>::_M_insert_subexpr_begin()
+std::__detail::_NFA<std::regex_traits<char>>::_M_insert_subexpr_end()
 std::__detail::_RegexTranslator<std::regex_traits<char>, false, true>::_M_transform_impl(char, std::integral_constant<bool, true>) const
 std::__detail::_RegexTranslator<std::regex_traits<char>, true, false>::_M_translate(char) const
 std::__detail::_RegexTranslator<std::regex_traits<char>, true, true>::_M_transform_impl(char, std::integral_constant<bool, true>) const
@@ -5443,8 +5263,8 @@ std::__detail::_Scanner<char>::_M_scan_in_brace()
 std::__detail::_Scanner<char>::_M_scan_in_bracket()
 std::__detail::_Scanner<char>::_M_scan_normal()
 std::__detail::_Scanner<char>::_Scanner(char const*, char const*, std::regex_constants::syntax_option_type, std::locale)
-std::__detail::_State<std::regex_traits<char> >::_State(std::__detail::_State<std::regex_traits<char> >&&)
-std::__detail::_StateSeq<std::regex_traits<char> >::_M_clone()
+std::__detail::_State<std::regex_traits<char>>::_State(std::__detail::_State<std::regex_traits<char>>&&)
+std::__detail::_StateSeq<std::regex_traits<char>>::_M_clone()
 std::__exception_ptr::exception_ptr::exception_ptr(std::__exception_ptr::exception_ptr const&)
 std::__exception_ptr::exception_ptr::swap(std::__exception_ptr::exception_ptr&)
 std::__exception_ptr::exception_ptr::~exception_ptr()
@@ -5463,32 +5283,32 @@ std::__throw_logic_error(char const*)
 std::__throw_out_of_range_fmt(char const*, ...)
 std::__throw_regex_error(std::regex_constants::error_type)
 std::__throw_system_error(int)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
-std::basic_regex<char, std::regex_traits<char> >::basic_regex(char const*, std::regex_constants::syntax_option_type)
-std::basic_regex<char, std::regex_traits<char> >::~basic_regex()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_regex<char, std::regex_traits<char>>::basic_regex(char const*, std::regex_constants::syntax_option_type)
+std::basic_regex<char, std::regex_traits<char>>::~basic_regex()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned long, unsigned long)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const
 std::chrono::_V2::steady_clock::now()
-std::collate<char> const& std::use_facet<std::collate<char> >(std::locale const&)
+std::collate<char> const& std::use_facet<std::collate<char>>(std::locale const&)
 std::condition_variable::condition_variable()
 std::condition_variable::notify_all()
 std::condition_variable::wait(std::unique_lock<std::mutex>&)
-std::ctype<char> const& std::use_facet<std::ctype<char> >(std::locale const&)
+std::ctype<char> const& std::use_facet<std::ctype<char>>(std::locale const&)
 std::ctype<char>::_M_widen_init() const
 std::ctype<char>::do_narrow(char, char) const
 std::ctype<char>::do_widen(char) const
 std::ctype<char>::id
 std::current_exception()
-std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::push_back(std::__detail::_StateSeq<std::regex_traits<char> > const&)
-std::enable_if<std::__detail::__is_contiguous_normal_iter<char const*>::value, std::shared_ptr<std::__detail::_NFA<std::regex_traits<char> > const> >::type std::__detail::__compile_nfa<char const*, std::regex_traits<char> >(char const*, char const*, std::regex_traits<char>::locale_type const&, std::regex_constants::syntax_option_type)
+std::deque<std::__detail::_StateSeq<std::regex_traits<char>>, std::allocator<std::__detail::_StateSeq<std::regex_traits<char>>>>::push_back(std::__detail::_StateSeq<std::regex_traits<char>> const&)
+std::enable_if<std::__detail::__is_contiguous_normal_iter<char const*>::value, std::shared_ptr<std::__detail::_NFA<std::regex_traits<char>> const>>::type std::__detail::__compile_nfa<char const*, std::regex_traits<char>>(char const*, char const*, std::__detail::_NFA<std::regex_traits<char>>::locale_type const&, std::regex_constants::syntax_option_type)
 std::ios_base::ios_base()
 std::ios_base::~ios_base()
 std::istream& std::istream::_M_extract<long>(long&)
@@ -5497,18 +5317,18 @@ std::locale::locale()
 std::locale::locale(std::locale const&)
 std::locale::operator=(std::locale const&)
 std::locale::~locale()
-std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long const&)
+std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long>>>::operator[](long const&)
 std::ostream::flush()
 std::ostream::operator<<(int)
 std::ostream::put(char)
 std::regex_traits<char>::_RegexMask std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const
+std::regex_traits<char>::_RegexMask std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const::__classnames
 std::regex_traits<char>::isctype(char, std::regex_traits<char>::_RegexMask) const
-std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const::__classnames
-std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const::__collatenames
 std::regex_traits<char>::value(char, int) const
 std::rethrow_exception(std::__exception_ptr::exception_ptr)
 std::string std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const
-std::string std::regex_traits<char>::transform<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) const
+std::string std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const::__collatenames
+std::string std::regex_traits<char>::transform<__gnu_cxx::__normal_iterator<char const*, std::string>>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) const
 std::string std::regex_traits<char>::transform_primary<char const*>(char const*, char const*) const
 std::string::_M_leak_hard()
 std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
@@ -5535,13 +5355,13 @@ std::string::swap(std::string&)
 std::terminate()
 std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>)
 std::thread::join()
-std::vector<char, std::allocator<char> >::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >)
-std::vector<float, std::allocator<float> >::_M_default_append(unsigned long)
-std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::_M_default_append(unsigned long)
-std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::operator=(std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&)
-std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)
-std::vector<unsigned char, std::allocator<unsigned char> >::vector(unsigned long, std::allocator<unsigned char> const&)
-std::vector<unsigned short, std::allocator<unsigned short> >::vector(unsigned long, std::allocator<unsigned short> const&)
+std::vector<char, std::allocator<char>>::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>)
+std::vector<float, std::allocator<float>>::_M_default_append(unsigned long)
+std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>>::_M_default_append(unsigned long)
+std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>>::operator=(std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>> const&)
+std::vector<unsigned char, std::allocator<unsigned char>>::_M_default_append(unsigned long)
+std::vector<unsigned char, std::allocator<unsigned char>>::vector(unsigned long, std::allocator<unsigned char> const&)
+std::vector<unsigned short, std::allocator<unsigned short>>::vector(unsigned long, std::allocator<unsigned short> const&)
 stderr
 strchr
 strcmp
@@ -5562,13 +5382,11 @@ struct PS_INPUT
 struct VS_INPUT
 sub%dx%d.tga
 submrg%dx%d.tga
-success.
 success. Checking entry points...
+success.\n
 system.fxc
-t
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
-tan
 tangent
 tangents
 tangentt
@@ -5576,27 +5394,26 @@ tessfactor
 texcoord
 text compression mode is out of range
 texturebase.cpp
-texturebase.cpp(1803):Error loading texture: %s
-texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(1803):Error loading texture: %s\n
+texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
 three
 tilde
 tiles
 too many length or distance symbols
 transparency
 trunc
-two
 typeinfo for CThreadSyncObject
 typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
-typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_make_shared_tag
 typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
 typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
@@ -5620,7 +5437,7 @@ typeinfo for std::ctype<char>
 typeinfo for std::locale::facet
 typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
-typeinfo name for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+typeinfo name for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_make_shared_tag
 typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
 typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
@@ -5666,15 +5483,14 @@ utlbuffer.cpp
 utlstring.cpp
 uvCropped
 uvUncropped
-v%d
-v2f
 vQO+
 vTexCoordScaleOffset
+vb_created_input_layout
 vector::_M_default_append
 vector::_M_emplace_back_aux
 vector::_M_range_check: __n (which is %zu) >= this->size() (which is %zu)
 vector::_M_range_insert
-vendor id: 0x%x
+vendor id: 0x%x\n
 vertical-line
 vertical-tab
 vfx_common.cpp
@@ -5702,6 +5518,7 @@ virtual void Etc::Block4x4Encoding_RGB8A1_Transparent::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Opaque::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Transparent::PerformIteration(float)
+void Etc::Block4x4::InitFromEtcEncodingBits(Etc::Image::Format, unsigned int, unsigned int, unsigned char*, Etc::Image*, Etc::ErrorMetric)
 void Etc::Block4x4::InitFromSource(Etc::Image*, unsigned int, unsigned int, unsigned char*, Etc::ErrorMetric)
 void Etc::Block4x4Encoding_ETC1::CalculateSourceAverages()
 void Etc::Block4x4Encoding_ETC1::TryDifferential(bool, unsigned int, int, int)
@@ -5724,34 +5541,34 @@ void Etc::Image::RunFirstPass(unsigned int, unsigned int)
 void Etc::Image::SetEncodingBits(unsigned int, unsigned int)
 void Etc::SortedBlockList::AddBlock(Etc::Block4x4*)
 void Etc::SortedBlockList::Sort()
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool)
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<false, true>(bool)
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<true, false>(bool)
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<true, true>(bool)
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<false, true>()
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<true, false>()
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<true, true>()
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<false, false>()
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<false, true>()
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<true, false>()
-void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<true, true>()
-void std::deque<long, std::allocator<long> >::_M_push_back_aux<long const&>(long const&)
-void std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::_M_push_back_aux<std::__detail::_StateSeq<std::regex_traits<char> > >(std::__detail::_StateSeq<std::regex_traits<char> >&&)
-void std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::regex_traits<char> > >(std::__detail::_StateSeq<std::regex_traits<char> >&&)
-void std::vector<char, std::allocator<char> >::emplace_back<char>(char&&)
-void std::vector<std::__detail::_State<std::regex_traits<char> >, std::allocator<std::__detail::_State<std::regex_traits<char> > > >::_M_emplace_back_aux<std::__detail::_State<std::regex_traits<char> > >(std::__detail::_State<std::regex_traits<char> >&&)
-void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_emplace_back_aux<std::pair<char, char> >(std::pair<char, char>&&)
-void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::emplace_back<std::pair<char, char> >(std::pair<char, char>&&)
-void std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::_M_emplace_back_aux<std::pair<std::string, std::string> >(std::pair<std::string, std::string>&&)
-void std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::emplace_back<std::pair<std::string, std::string> >(std::pair<std::string, std::string>&&)
-void std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask> >::_M_emplace_back_aux<std::regex_traits<char>::_RegexMask const&>(std::regex_traits<char>::_RegexMask const&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
-void std::vector<std::vector<unsigned long, std::allocator<unsigned long> >, std::allocator<std::vector<unsigned long, std::allocator<unsigned long> > > >::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long> > const&>(std::vector<unsigned long, std::allocator<unsigned long> > const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > >(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, char*, char*, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
-void std::vector<unsigned long, std::allocator<unsigned long> >::_M_emplace_back_aux<unsigned long const&>(unsigned long const&)
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<false, false>(bool)
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<false, true>(bool)
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, false>(bool)
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, true>(bool)
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_char_matcher<false, true>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_char_matcher<true, false>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_char_matcher<true, true>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<false, false>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<false, true>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, false>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, true>()
+void std::deque<long, std::allocator<long>>::_M_push_back_aux<long const&>(long const&)
+void std::deque<std::__detail::_StateSeq<std::regex_traits<char>>, std::allocator<std::__detail::_StateSeq<std::regex_traits<char>>>>::_M_push_back_aux<std::__detail::_StateSeq<std::regex_traits<char>>>(std::__detail::_StateSeq<std::regex_traits<char>>&&)
+void std::deque<std::__detail::_StateSeq<std::regex_traits<char>>, std::allocator<std::__detail::_StateSeq<std::regex_traits<char>>>>::emplace_back<std::__detail::_StateSeq<std::regex_traits<char>>>(std::__detail::_StateSeq<std::regex_traits<char>>&&)
+void std::vector<char, std::allocator<char>>::emplace_back<char>(char&&)
+void std::vector<std::__detail::_State<std::regex_traits<char>>, std::allocator<std::__detail::_State<std::regex_traits<char>>>>::_M_emplace_back_aux<std::__detail::_State<std::regex_traits<char>>>(std::__detail::_State<std::regex_traits<char>>&&)
+void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>>::_M_emplace_back_aux<std::pair<char, char>>(std::pair<char, char>&&)
+void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>>::emplace_back<std::pair<char, char>>(std::pair<char, char>&&)
+void std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string>>>::_M_emplace_back_aux<std::pair<std::string, std::string>>(std::pair<std::string, std::string>&&)
+void std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string>>>::emplace_back<std::pair<std::string, std::string>>(std::pair<std::string, std::string>&&)
+void std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask>>::_M_emplace_back_aux<std::regex_traits<char>::_RegexMask const&>(std::regex_traits<char>::_RegexMask const&)
+void std::vector<std::string, std::allocator<std::string>>::_M_emplace_back_aux<std::string const&>(std::string const&)
+void std::vector<std::vector<unsigned long, std::allocator<unsigned long>>, std::allocator<std::vector<unsigned long, std::allocator<unsigned long>>>>::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long>> const&>(std::vector<unsigned long, std::allocator<unsigned long>> const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, std::forward_iterator_tag)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, char*, char*, std::forward_iterator_tag)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
+void std::vector<unsigned long, std::allocator<unsigned long>>::_M_emplace_back_aux<unsigned long const&>(unsigned long const&)
 vr_spew_time
 vs_3_0
 vs_4_0
@@ -5762,32 +5579,20 @@ vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__pointer_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::__future_base::_State_base
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
-w
-w3(?
-wb
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 wcscmp
 wcslen
-with %d x %d thumbnail image
 wrinkle
-wx=%d, wy=%d, rx=%d, ry=%d
+wx=%d, wy=%d, rx=%d, ry=%d\n
 xdigit
 y9*O
-yes
-zD
 zlib memory error
 zlib stream error
 zlib version error
-{
-{}()':
-|B
-
-C
-D

@@ -1,87 +1,60 @@
-
-!
-"
-"""
-"%s"
+  %d: %s (%08lx :: %08lx) %s [%.1fs]\n
+ ( def. "%s" )
+ *SoundEvent Data*
+ : %s : vol: %4.2f, sndlvl: %4.2f \n
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
 "%s" = "%s"
-#
+"ikrig
 #OS_Default_Device
-#[
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
-$
 $ORIGIN
-$tI
-%
-%*s%s.%s:
-%*s(%08x):Pausing: %s (%08x) : elapsed time: %.2fs
-%*s(%08x):Stopping: %s (%08x) : elapsed time: %.2fs
-%*sName: %s
-%*sName: %s%*sNameSpace: %s
-%*sOperator Stack: %s%*sSize: %i
-%*sSoundEvent Hash: %d
-%*smixgroup: %s
-%-120s
-%-120s - %s
+%*s(%08x):Pausing: %s (%08x) : elapsed time: %.2fs\n
+%*s(%08x):Stopping: %s (%08x) : elapsed time: %.2fs\n
+%*sOperator Stack: %s\n%*sSize: %i\n
+%*sSoundEvent Hash: %d\n
+%*smixgroup: %s\n
+%-120s - %s\n
+%-120s\n
+%.15lf
 %02X
-%08x %s size %08x
-%d %s %s
-%d) %s
-%d) %s %s -> %s
-%d: %s (%08lx :: %08lx) %s [%.1fs]
-%dOffset: %i
-%f
+%08x %s size %08x\n
+%d) %s %s -> %s\n
+%dOffset: %i\n
 %f %f %f %f
-%f Async I/O Bumped priority for %s (%8.2f msec)
-%f Async I/O Read successful %s (%8.2f msec)
-%f BCD:  Async I/O Force %s (%8.2f msec / %8.2f msec total)
-%f BlockingGetDataPointer:  Async I/O Force %s (%8.2f msec / %8.2f msec total )
-%f: %f : %f : %f : %f
-%hd
-%hu
+%f Async I/O Bumped priority for %s (%8.2f msec)\n
+%f Async I/O Read successful %s (%8.2f msec)\n
+%f BCD:  Async I/O Force %s (%8.2f msec / %8.2f msec total)\n
+%f BlockingGetDataPointer:  Async I/O Force %s (%8.2f msec / %8.2f msec total )\n
+%f: %f : %f : %f : %f\n
 %i %i %i %i
-%lg
 %lld
 %ls [wstring, len = %d]
-%s %s
-%s : %p
-%s = %f
-%s = %s: %i : %i : %i : %i : %i : %i
-%s Operator Fields: %i
+%s = %s: %i : %i : %i : %i : %i : %i\n
+%s Operator Fields: %i\n
 %s allocation count overflow
-%s allocation count overflow( %llu >= %llu )
-%s changed to [
-%s references :
-%s set to %.2f
-%s unable to allocate %u bytes
-%s%d
-%s%s
-%s%s%f
-%s%s%i
+%s allocation count overflow( %llu >= %llu )\n
+%s changed to [ 
+%s references : 
+%s set to %.2f\n
+%s set to %x (%s)\n
+%s unable to allocate %u bytes\n
 %s%s%llu
-%s%s%s
-%s%s%u
-%s+--
-%s+-- Schema Class: %s
-%s,
+%s+-- Schema Class: %s\n
 %s, UNKNOWN %i
-%s.%s
-%s/
-%s: %s (%i : %i)
-%s: Has a failed library stack message.
-%s: Has a failed sound event message.
-%s: Sound event executionlist has exceeded MAX_VOICES. Index %i : %s
-%s: params.pSfx is NULL.
-%s: string format requested %d chars
-%s:%i
-%s:%s needs base %s:%s to be registered
-%s:%s:
-%s::%s
-%s::Execute: Can't find operator stack %s in %s
+%s: %s (%i : %i)\n
+%s: Has a failed library stack message.\n
+%s: Has a failed sound event message.\n
+%s: Sound event executionlist has exceeded MAX_VOICES. Index %i : %s\n
+%s: params.pSfx is NULL.\n
+%s: string format requested %d chars\n
+%s:%s needs base %s:%s to be registered\n
+%s::Execute: Can't find operator stack %s in %s\n
 %s_%s_linear
 %s_%s_mapping_curve
 %s_KV3
@@ -91,37 +64,23 @@ $tI
 %s_random_min
 %s_random_variance
 %s_seek_speed_filter
-%s|  % 2d: %s [Offset: %d]
-%s|  % 2d: [% 3d] %-12s %s
-%s| AlignOf: %d
-%s| Base Class%s: %d
-%s| Fields:
-%s| Project: '%s' Binary: '%s'
-%s| SizeOf: %d
-%s| Virtual: %s; Abstract: %s; TrivialConstr: %s; TrivialDestr: %s
-&
-'
-(
-( def. "%s" )
-(%2db) %6i : %s
-(%s) %d
-(%s:%s)
-(*%s*),
+%s|  % 2d: %s [Offset: %d]\n
+%s|  % 2d: [% 3d] %-12s %s\n
+%s| AlignOf: %d\n
+%s| Base Class%s: %d\n
+%s| Fields:\n
+%s| Project: '%s' Binary: '%s'\n
+%s| SizeOf: %d\n
+%s| Virtual: %s; Abstract: %s; TrivialConstr: %s; TrivialDestr: %s\n
+(%2db) %6i : %s\n
 (None)
 (Steam Audio) Update physics material attribute of a VMAT file. They are used for picking acoustic material property for Steam Audio.
 (connected: %s %i )
 (null)
-)
-*
-*SoundEvent Data*
-+
 +inf
-,
--
---------------------------------
+--------------------------------\n
+---empty---
 ---invalid event---
--->
--1
 -altgameroot
 -avx
 -inf
@@ -130,48 +89,30 @@ $tI
 -sse3
 -sse4
 -tools
-.
-...
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/utlleanvector.h
 ../public/tier1/utlrbtree.h
 ../public/tier1/utlsymbol.h
 .wav
-/
-0
 0.001
 0.005
 0.01
 0.010
 0.023
 0.15
-0.2
 0.55
-0.8
-0.9
+00000000-0000-0000-0000-000000000000
 0x%016llX
 0x%p
-1
-1.0
-100
-102
-106
-108
 10CDSPEditor
+10CVMixMixer
 10ConCommand
 10IAppSystem
 10IMixFilter
-110
-112
-114
-118
 11CAudioMixer
 11CFunctorJob
 11IRefCounted
-122
-126
-128
 12CAudioSource
 12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
 12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
@@ -180,7 +121,6 @@ $tI
 12CThreadEvent
 12CThreadedJob
 12ISoundSystem
-130
 13CSosDependent
 13IAudioDevice2
 1440.0
@@ -229,6 +169,7 @@ $tI
 17CSosOperatorTimer
 17CSoundViewerState
 17ISequenceArranger
+17IVMixToolServices
 18CAsyncWavDataCache
 18CAudioMixerEncoded
 18CAudioMixerStretch
@@ -263,9 +204,6 @@ $tI
 19CSosOperatorPosVec8
 19IKeyValuesErrorSpew
 1DBlend
-2
-2.5
-200
 20CAudioMixerWaveADPCM
 20CDelayAudioProcessor
 20CPostConnectCallback
@@ -305,7 +243,6 @@ $tI
 21CSoundDebugVisualizer
 21IKeyValuesDumpContext
 21IVConCommDataReceived
-22+<
 22+<CPlayerVoiceStream
 22CPathingAudioProcessor
 22CSchemaInstallCallback
@@ -350,7 +287,6 @@ $tI
 24CSosOperatorSetEventInfo
 24CSosOperatorSpatializeVR
 24CSosOperatorStackControl
-250
 25CSosOperatorAnimateFloat3
 25CSosOperatorFloat3ToFloat
 25CSosOperatorFloatToFloat3
@@ -398,7 +334,6 @@ $tI
 29CSosSetSoundEventFieldsInfo_t
 29CVSoundEventScriptTypeManager
 29CVSoundStackScriptTypeManager
-3
 30CAudioSource_PlayerVoiceStream
 30CSosGroupActionTimeLimitSchema
 30CSosOperatorGetOpVarArrayIndex
@@ -421,36 +356,20 @@ $tI
 34CSosOperatorMixGraphInputDSPPreset
 35CSosOperatorIterateAndMergeSpeakers
 35CSosOperatorLogicSwitchStringHandle
-36
-4
 4000
 40CSchemaRegistration_soundsystem_lowlevel
-4@
-4B
-4C
-5
-6
+5t~BC
 6ConVar
-7
-720
 7IConVar
-8
-80
 8CFmtStrNILi256ELb0EE
 8CFunctor
 8CSosEdit
-9
 9CAudioSDL
 9CFunctor1IPFvPK11CAudioStateEP19CAudioStateInternal12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
 9CSfxTable
-:
-: %s : vol: %4.2f, sndlvl: %4.2f
-: %s::
-;
-<
-<!--
-<!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->
-<< NULL >>
+<!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
+<"C_OP_RemapSpeedtoCP
+<< NULL >>\n
 <EMPTY>
 <INVALID>
 <NULL>
@@ -463,22 +382,27 @@ $tI
 <null>
 <unconnected>
 <unknown>
-=
->
-?
-@
+>math_lerp_speakers
+>soundsystem_lowlevel
+?333333
+?NEW DSP NODE: size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f \n
+?Sound Disabled.\n
+?Unknown graph input %s\n
+?calc_falloff
+?math_delta
+?opvar_get_info
+?soundevent_limiter
+?vmix_vsnd_start
 @%s.output
-@?
-@@
-@A
+@?soundevent_param
 @distance_to_source.output
 @get_event_info.output_elapsed_time
 @mixer.output_dsp
 @mixer.output_level
 @mixer.output_volume
 @public.%s
-A
-A->B
+@snd_sos_show_track_list
+@soundevent_pause
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
 AE_CL_ADD_PARTICLE_EFFECT_CP
@@ -513,26 +437,27 @@ AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-Abort processing sound event %s (scheduled recursively will not process this frame)
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+Aarrangement_track_stop
+Abort processing sound event %s (scheduled recursively will not process this frame)\n
 AbsolutePoseControl
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
 Action Type
 ActionType_t
-Active ?: %s
-Active Sound events: %d
-Active Voices: %d
-AddNewSoundEvent:  %s has a hash collision with existing %s
-AddSoundEvent event with empty name
-AddSoundEvent:  %s has a hash collision with existing %s
-AddSoundEvent:AddSoundEvent event with empty name
+Active ?: %s\n
+Active Voices: %d\n
+AddNewSoundEvent:  %s has a hash collision with existing %s\n
+AddRef
+AddSoundEvent event with empty name\n
+AddSoundEvent:  %s has a hash collision with existing %s\n
+AddSoundEvent:AddSoundEvent event with empty name\n
 AddSoundEvents: SoundEvent %s was unable to convert to KV3.
-AddSoundEvents: SoundEvent file %s was not compiled from a KeyValues3 file and is being converted. Please recompile.
-AddSoundEvents: event with empty name
+AddSoundEvents: SoundEvent file %s was not compiled from a KeyValues3 file and is being converted. Please recompile.\n
+AddSoundEvents: event with empty name\n
 AddToTailGetPtr
-Adding operator stack matching existing name: %s
-Addon unloaded, unloading sound resources.
+Adding operator stack matching existing name: %s\n
+Addon unloaded, unloading sound resources.\n
 AllPass
 AnimAddLayer
 AnimAlign
@@ -561,30 +486,28 @@ AnimationSystemUtils_001
 AnimationSystem_001
 Application is not loaded.
 Apply cos(angle) * weight before pan law
-Arrangement: %s
+Arrangement: %s\n
 AssertMsg_ConditionFailed
-Assertion Failed in function %s():%s
+Assertion Failed in function %s():\n%s
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
 AsyncSoundQueue
-Atomic Type: %i
+Atomic Type: %i\n
 Attack time (ms)
-Attempted preload of soundevent %s with no vsnds
+Attempted preload of soundevent %s with no vsnds\n
 Attempted re-use of a soundevent guid to start a new soundevent: %s
-Attempting to pause non-existent soundevent: %s
-Attempting to remove a non-existent executing soundevent guid %d
-Attempting to stop non-existent soundevent: %s
-Audio device starved %d samples
+Attempting to pause non-existent soundevent: %s\n
+Attempting to remove a non-existent executing soundevent guid %d\n
+Attempting to stop non-existent soundevent: %s\n
+Audio Capture Device
+Audio device starved %d samples \n
 AudioMixer
-Available Operators:
-B
-B->C
-BPM: %f
-Bad Audio file '%s'
-Bad KV3 data for resource '%s': %s
-Bad command in vmix!
+Available Operators:\n
+Bad Audio file '%s'\n
+Bad KV3 data for resource '%s': %s\n
+Bad command in vmix!\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -604,7 +527,7 @@ Bad header format (no closing marker)
 Bad header: invalid binary marker
 Bad header: invalid compression header
 Bad header: unrecognized encoding id
-Bad version data for resource '%s': %d
+Bad version data for resource '%s': %d\n
 BakedLODBuilderMgr001
 BandPass
 BaseIKRig
@@ -613,9 +536,10 @@ BaseStack
 BenchmarkService001
 BentNormalData
 BinaryProperties_GetValue
+Bits/Sample:\t%d\n
 BlendList
 Block Max Count
-Blocking I/O hitch.  Freed memory while streaming in %s
+Blocking I/O hitch.  Freed memory while streaming in %s\n
 Blocks Events
 BodyGroup
 BodyGroupChoice
@@ -623,10 +547,7 @@ Branch Rules
 BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
-C
-C->D
-C->E
-CAsyncWavDataCache:  %i sounds total %s, %.2f %% of capacity
+CAsyncWavDataCache:  %i sounds total %s, %.2f %% of capacity\n
 CAudioMixThread
 CAuthPhysBody
 CAuthPhysJoint
@@ -653,8 +574,8 @@ CBufferString::ShortenPath()
 CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CEntityIndex
 CLOSECAPTION
 CMemAllocSystemInitialize
@@ -666,7 +587,9 @@ COLORCORRECTION_VERSION_1
 COM_TimestampedLog
 CONTENTROOT
 CParticleSystemDefinition
-CSequence: %s
+CSequence: %s\n
+CSequence:\t%f : %i : %i\n
+CSolveIKChainAnimNode
 CSosGroupActionLimitSchema
 CSosGroupActionSchema
 CSosGroupActionTimeLimitSchema
@@ -690,42 +613,51 @@ CSosOperatorSetOpVarArrayIndex
 CSosOperatorSetOpVarFloat3
 CSosOperatorSetOpVarString
 CSosOperatorSpeakers
-CSosOperatorStack: %i
-CSosOperatorStack::GetBaseEventParams: SoundEvent Base nesting maximum exceed with %s on %s: check convar "snd_sos_max_event_base_depth"
-CSosOperatorStack::GetOpField: Unable to find operator field hash %i in %s
-CSosOperatorStack::GetOpField: Unable to find opfield %s.%s in %s
-CSosOperatorStack::GetOperatorNameSpace: Invalid operator index %i in %s
-CSosOperatorStack::GetTotalOperatorSize: Invalid operator index %i in %s
-CSosOperatorStack::ImportMembers: Importing operator with same name as existing operator: %s
-CSosOperatorStack::InitFromSoundEvent: Unable to reference operator stack in stack %s, soundevent %s
-CSosOperatorStack::InitFromSoundEvent: Unable to resolve soundevent from hash %i.. this should not happen
-CSosOperatorStack::ParseKV Trying illegal operator overwrite %s in stack %s
-CSosOperatorStack::ParseKV: Operator %s : Unknown sound operator type %s in stack %s
-CSosOperatorStack::ParseKV: Operator %s index differs in stack %s
-CSosOperatorStack::ParseKV: Operator %s invalid index in stack %s
-CSosOperatorStack::ParseKV: Stack %s, has operator %s already declared, second declaration ignored
-CSosOperatorStack::ReferenceCopyMemPool: Null mempool in %s
-CSosOperatorStack::SetOpField: Unable to find operator field hash %i in %s
-CSosOperatorStack::SetOpField: Unable to find opfield %s.%s in %s
-CSosOperatorStack::SetOpFieldData: Incoming data size %i greater than field %s, %i on %s
-CSosOperatorStack::SetOpFieldData: Unable to find operator field hash %i in %s
-CSosOperatorStack::SetOpFieldData: Unable to find operator field with index %i in %s
-CSosOperatorSystem::SetOpField: Unable to find operator stack %s
-CSosOperatorSystem::SetOpField: Unable to find operator stack from guid %d
-CSosOperatorSystem::SetOpField: Unable to find operator stack from hash %d
-CSosOperatorSystem::StartSoundEvent Unable to find soundevent %s
-CSosOperatorSystem::StartSoundEvent Unable to start soundevent %s
-CSosOperatorSystem::StartSoundEvent called with invalid soundevent hash
+CSosOperatorStack: %i\n
+CSosOperatorStack::GetBaseEventParams: SoundEvent Base nesting maximum exceed with %s on %s: check convar "snd_sos_max_event_base_depth"\n
+CSosOperatorStack::GetOpField: Unable to find operator field hash %i in %s\n
+CSosOperatorStack::GetOpField: Unable to find opfield %s.%s in %s\n
+CSosOperatorStack::GetOperatorNameSpace: Invalid operator index %i in %s\n
+CSosOperatorStack::GetTotalOperatorSize: Invalid operator index %i in %s\n
+CSosOperatorStack::ImportMembers: Importing operator with same name as existing operator: %s\n
+CSosOperatorStack::InitFromSoundEvent: Unable to reference operator stack in stack %s, soundevent %s\n
+CSosOperatorStack::InitFromSoundEvent: Unable to resolve soundevent from hash %i.. this should not happen\n
+CSosOperatorStack::ParseKV Trying illegal operator overwrite %s in stack %s\n
+CSosOperatorStack::ParseKV: Operator %s : Unknown sound operator type %s in stack %s\n
+CSosOperatorStack::ParseKV: Operator %s index differs in stack %s\n
+CSosOperatorStack::ParseKV: Operator %s invalid index in stack %s\n
+CSosOperatorStack::ParseKV: Stack %s, has operator %s already declared, second declaration ignored\n
+CSosOperatorStack::ReferenceCopyMemPool: Null mempool in %s\n
+CSosOperatorStack::SetOpField: Unable to find operator field hash %i in %s\n
+CSosOperatorStack::SetOpField: Unable to find opfield %s.%s in %s\n
+CSosOperatorStack::SetOpFieldData: Incoming data size %i greater than field %s, %i on %s\n
+CSosOperatorStack::SetOpFieldData: Unable to find operator field hash %i in %s\n
+CSosOperatorStack::SetOpFieldData: Unable to find operator field with index %i in %s\n
+CSosOperatorSystem::SetOpField: Unable to find operator stack %s\n
+CSosOperatorSystem::SetOpField: Unable to find operator stack from guid %d\n
+CSosOperatorSystem::SetOpField: Unable to find operator stack from hash %d\n
+CSosOperatorSystem::StartSoundEvent Unable to find soundevent %s\n
+CSosOperatorSystem::StartSoundEvent Unable to start soundevent %s\n
+CSosOperatorSystem::StartSoundEvent called with invalid soundevent hash\n
 CSosSoundEventGroupListSchema
 CSosSoundEventGroupSchema
-CSoundEvent: %sBase: %sStack: %sFields:
-CSoundEvent: Warning, soundevent_data selection field overrun
+CSoundEvent: %s\nBase: %s\nStack: %s\nFields:\n
+CSoundEvent: Warning, soundevent_data selection field overrun\n
+CSoundOperatorSystem
 CSoundSampler
-CSoundSampler: Key Groups: %i
-CSoundSampler: Max: %i
-CSoundSampler: Min: %i
-CSoundSampler: Sampler: %s
-CSoundSampler: SoundEvent: %s
+CSoundSampler: Key Groups: %i\n
+CSoundSampler: Max: %i\n
+CSoundSampler: Min: %i\n
+CSoundSampler: Sampler: %s\n
+CSoundSampler: SoundEvent: %s\n
+CSoundSampler:\tCenter: %i\n
+CSoundSampler:\tKey: %i : %i\n
+CSoundSampler:\tMax: %i\n
+CSoundSampler:\tMin: %i\n
+CSoundSampler:\tZones: %i\n
+CSoundSampler:\t\tMax: %i\n
+CSoundSampler:\t\tSamples: %i\n
+CSoundSampler:\t\t\tSample: %s\n
 CTSQueue corruption
 CThreadEvent::CThreadEvent(bool)
 CThreadEvent::Set()
@@ -742,8 +674,8 @@ CThreadSyncObject::Wait(unsigned int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
 CTransform
-CUE Operators:
-CURVES: %d
+CUE Operators:\n
+CURVES: %d\n
 CURVE_TANGENT_FREE
 CURVE_TANGENT_LINEAR
 CURVE_TANGENT_MIRROR
@@ -753,11 +685,11 @@ CUniformRandomStream::CUniformRandomStream()
 CUniformRandomStream::RandomFloat(float, float)
 CUniformRandomStream::RandomInt(int, int)
 CUniformRandomStream::SetSeed(int)
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlMemoryArena
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CUtlString
 CUtlStringToken
 CUtlSymbol
@@ -766,10 +698,10 @@ CUtlVector
 CVProfNode::EnterScope()
 CVProfNode::ExitScope()
 CVProfNode::GetSubNode(char const*, int, char const*, int)
-CVSoundEventScriptTypeManager::AddSoundEvent:  %s has a hash collision with existing %s
-CVSoundStackScriptTypeManager::Allocate can't parse stack %s
-CVSoundStackScriptTypeManager::Allocate can't parse stack KV %s
-CVSoundStackScriptTypeManager::Allocate stack with empty name
+CVSoundEventScriptTypeManager::AddSoundEvent:  %s has a hash collision with existing %s\n
+CVSoundStackScriptTypeManager::Allocate can't parse stack %s\n
+CVSoundStackScriptTypeManager::Allocate can't parse stack KV %s\n
+CVSoundStackScriptTypeManager::Allocate stack with empty name\n
 CXXABI_1.3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -855,24 +787,26 @@ C_OP_SetSingleControlPointPosition
 C_OP_StopAfterCPDuration
 C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
-Can't find mix layer %s
-Can't find mixgroup name %s for submix
-Can't find sound event to remove for %s!
-Can't parse mp3 encoding %u
-Can't read from type %d for field %s
-Can't write to type %d for field %s
+Can't find mix layer %s\n
+Can't find mixgroup name %s for submix\n
+Can't find sound event to remove for %s!\n
+Can't parse mp3 encoding %u\n
+Can't read from type %d for field %s\n
+Can't write binary data to a text buffer.
+Can't write to type %d for field %s\n
 Cannot allocate abstract class
 Cannot construct abstract class
 Cannot copy abstract class
 Cannot deallocate abstract class
 Cannot deduce for class
 Cannot destruct abstract class
-Cannot find mix input %s
+Cannot find mix input %s\n
 Cannot register same format from/to a KV3 conversion (from '%s' to '%s')
 Cannot save KV3 text to a non-text buffer!
 Cannot save as KV3_FORMAT_LOAD_WITH_NO_UPCONVERSION.
 ChangeCallbackOnChange
 ChangeCallbackOnChangeOrCreate
+Channels:\t%d\n
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
@@ -881,56 +815,56 @@ CommandProcedure
 CommandProcedureList
 Compare the compiled and loaded contents of 2 soundevents.
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigAttachedModel
 ConfigurationSystem_001
+Connect
 ConnectInterfaces
-Connection Offset: %i
-Continue: elapsed time: %f, next sync time: %f, local elapsed: %f, local sync: %f
-Copying '%s' to '%s'
-Couldn't parse the input.
+Connection Offset: %i\n
+Continue: elapsed time: %f, next sync time: %f, local elapsed: %f, local sync: %f\n
+Copying '%s' to '%s'\n
+Couldn't parse the input.\n
 CreateInterface
 CreateSimpleThread
-CurTime: %f
+CurTime: %f\n
 Currently gets info for a single operator field
 Currently sets a single float operator field
 Cutoff Freq
 Cutoff Frequency
 Cycle or diamond double-reference to '%s'
-D
-D,F
 DEFAULT_WRITE_PATH
 DEMO
 DSP NODE
-DSP PRESET: %.0f size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f
-DSP: Warning, clamping out of range parameter.
-DSP: Warning, failed to allocate LFO.
-DSP: Warning, failed to allocate amp.
-DSP: Warning, failed to allocate chorus.
-DSP: Warning, failed to allocate delay for diffusor.
-DSP: Warning, failed to allocate delay for pitch shifter.
-DSP: Warning, failed to allocate delay for reverb.
-DSP: Warning, failed to allocate delay line.
-DSP: Warning, failed to allocate diffusor.
-DSP: Warning, failed to allocate envelope follower.
-DSP: Warning, failed to allocate envelope.
-DSP: Warning, failed to allocate filter.
-DSP: Warning, failed to allocate flt for reverb.
-DSP: Warning, failed to allocate lfo or mdy for chorus.
-DSP: Warning, failed to allocate mod delay.
-DSP: Warning, failed to allocate pitch shifter.
-DSP: Warning, failed to allocate reverb.
-DUCT Detected
-Data Count: %i
-Data Size: %i
+DSP PRESET: %.0f size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f \n
+DSP: Warning, clamping out of range parameter.\n
+DSP: Warning, failed to allocate LFO.\n
+DSP: Warning, failed to allocate amp.\n
+DSP: Warning, failed to allocate chorus.\n
+DSP: Warning, failed to allocate delay for diffusor.\n
+DSP: Warning, failed to allocate delay for pitch shifter.\n
+DSP: Warning, failed to allocate delay for reverb.\n
+DSP: Warning, failed to allocate delay line.\n
+DSP: Warning, failed to allocate diffusor.\n
+DSP: Warning, failed to allocate envelope follower.\n
+DSP: Warning, failed to allocate envelope.\n
+DSP: Warning, failed to allocate filter for delay line.\n
+DSP: Warning, failed to allocate filter.\n
+DSP: Warning, failed to allocate flt for reverb.\n
+DSP: Warning, failed to allocate lfo or mdy for chorus.\n
+DSP: Warning, failed to allocate mod delay.\n
+DSP: Warning, failed to allocate pitch shifter.\n
+DSP: Warning, failed to allocate reverb.\n
+DUCT Detected \n
+Data Count: %i\n
+Data Size: %i\n
 DebugTextureInfo001
 Decay target amplitude
 Decay time (ms)
 Decompression failure
 Default
-Default: %s
+Default: %s\n
 Default_Mix
 DegreeEuler
 Delay Count
@@ -938,76 +872,79 @@ Delay Scale
 Delay Type
 Depth Reflectivity
 Describe the current sound device.
-Detected %d-level recursion in sound operator stack, abort!
+Detected %d-level recursion in sound operator stack, abort!\n
 DevMsg
 DevMsg(char const*, ...)
 DevWarning(char const*, ...)
-Did not find valid MixGroups entry in soundmixers.txt
-Did not find valid MixLayers entry in soundmixers.txt
-Did not find valid SoundMixers entry in soundmixers.txt
-Didn't find index %s in list (%d events)
-Displaying %d probes around (%.1f, %.1f, %.1f) with influence for %.2f seconds.
-Displaying %d probes around (%.1f, %.1f, %.1f) within %.2f radius for %.2f seconds.
+Did not find valid MixGroups entry in soundmixers.txt\n
+Did not find valid MixLayers entry in soundmixers.txt\n
+Did not find valid SoundMixers entry in soundmixers.txt\n
+Didn't find index %s in list (%d events)\n
+Displaying %d probes around (%.1f, %.1f, %.1f) with influence for %.2f seconds.\n
+Displaying %d probes around (%.1f, %.1f, %.1f) within %.2f radius for %.2f seconds.\n
 Distortion Mix (1.0 = wet)
 Distortion Threshold
 Distortion feedback
+Dm_effectName
 DotaCardGameClient_001
 Double-register of KV3 conversion (from '%s' to '%s')
 Double-save to Member '%s'
-Dropping Voice data (%d bytes)
+Dropping Voice data (%d bytes)\n
 Dump a record of current soundevents and profile data
-Duration: %f
+Duration: %f\n
 Dynamic
 DynamicConfigList
 Dynamics
-E
+E3:0
 EMPHASIS
-ERROR: Invalid Group Branch Index
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains member '%s' with locally-scoped type '%s'
-ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but derives from locally-scoped class '%s'
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
+EMPHASIS\r\n
+ERROR: Invalid Group Branch Index\n
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains member '%s' with locally-scoped type '%s'\n
+ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but derives from locally-scoped class '%s'\n
+ERROR: Specified full path %s does not lie under the mod search path!)\n
+ERROR: Specified path %s could not be made content-relative\n
 ERROR: missing enum name!
 ERROR: missing enum tokenset!
-ERROR: sound event %s operator %s
+ERROR: sound event %s operator %s\n
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
 EditorDynamicConfig
 Elapsed Time
-Element Count: %i
+Element Count: %i\n
 EmptyAnim
 Enable visualization for pathing validation.
 Enable visualization for pathing.
 EngineServiceMgr001
 Envelope Type
 EnvironmentMapBuilder_001
-Error: %s : Math expression type not currently supported in sound operator math_accumulate12_float
-Error: EntryMatchList has no free slots!
-Error: Failed to get mix group %s!
-Error: Invalid SoundEvent Hash %i from entry %s
-Error: MixGroup %s cannot be resolved!
-Error: MixGroup %s, in LayerTriggers cannot be resolved!
-Error: MixGroup %s, in SoundMixer %s, cannot be resolved!
-Error: MixLayer Trigger entries require minimum 2 arguments after layer trigger for %s
-Error: MixLayer operator has invalid mix group index!
-Error: MixLayer operator has invalid mix layer index!
-Error: Operator %s, EntryMatchList has no free slots!
-Error: Operator %s, problems parsing operator field %s
-Error: Parsing soundmixers.txt, mixgroup rules incomplete at group %s!
-Error: Parsing soundmixers.txt, mixgroup rules incomplete!
-Error: Parsing soundmixers.txt, soundmixer mix group values incomplete!
-Error: Stack %s Operator %s, opvar field %s specifies type "enum" but fails to specify valid "enum_field"
-Error: Too many mix groups! MixGroup %s ignored
-Error: Too many mix layers! MixLayer %s ignored
-Error: Too many sound mixers! SoundMixer %s ignored
-Error: Unable to find mixgroup %s
-Error: Unable to find mixgroup for filepath %s
+Error: %s : Math expression type not currently supported in sound operator math_accumulate12_float\n
+Error: EntryMatchList has no free slots!\n
+Error: Failed to get mix group %s!\n
+Error: Invalid SoundEvent Hash %i from entry %s\n
+Error: MixGroup %s cannot be resolved!\n
+Error: MixGroup %s, in LayerTriggers cannot be resolved!\n
+Error: MixGroup %s, in SoundMixer %s, cannot be resolved!\n
+Error: MixLayer Trigger entries require minimum 2 arguments after layer trigger for %s\n
+Error: MixLayer operator has invalid mix group index!\n
+Error: MixLayer operator has invalid mix layer index!\n
+Error: Operator %s, EntryMatchList has no free slots!\n
+Error: Operator %s, problems parsing operator field %s\n
+Error: Operator %s, unknown sound operator attribute %s\n
+Error: Parsing soundmixers.txt, mixgroup rules incomplete at group %s!\n
+Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n
+Error: Parsing soundmixers.txt, soundmixer mix group values incomplete!\n
+Error: Stack %s Operator %s, opvar field %s specifies type "enum" but fails to specify valid "enum_field"\n
+Error: Too many mix groups! MixGroup %s ignored\n
+Error: Too many mix layers! MixLayer %s ignored\n
+Error: Too many sound mixers! SoundMixer %s ignored\n
+Error: Unable to find mixgroup %s\n
+Error: Unable to find mixgroup for filepath %s\n
 Error: Unknown atomic data type!
-Event Data: %i
+Event Data: %i\n
 Event Name
-Event VSNDS:
+Event VSNDS:\n
 EventSystem001
 Expected "="after member '%s'
 Expected '#'
@@ -1029,11 +966,12 @@ Exponential
 Exponential Ramp
 Exports scene currently used by Steam Audio as a phononscene file.
 Extra taps
-F
-FATAL ERROR: unable to register all schema data: %s
-FIELDATA COMPARE FAIL: %s->%s
-FIELDATASIZE COMPARE FAIL: %s->%s
-FIELINFO COMPARE FAIL: %s->%s
+FATAL ERROR: unable to register all schema data: %s\n
+FCVAR_NEVER_AS_STRING
+FCleaning up leaked audio stream!\n
+FIELDATA COMPARE FAIL: %s->%s\n
+FIELDATASIZE COMPARE FAIL: %s->%s\n
+FIELINFO COMPARE FAIL: %s->%s\n
 FILTER_BANDPASS
 FILTER_HIGHPASS
 FILTER_HIGH_SHELF
@@ -1042,45 +980,44 @@ FILTER_LOW_SHELF
 FILTER_NOTCH
 FILTER_PEAKING_EQ
 FILTER_UNKNOWN
-FIND ELEMENT: (%s)
+FIND ELEMENT: (%s)\n
+FREEING MATCH ENTRY:\n
 FX Mix (1.0 == wet)
 Fade In
 Fade Out
 Failed to allocate an instance of a class
 Failed to allocate an instance of class '%s'
 Failed to assign bool literal value
-Failed to convert KV3 to string; error: %s
-Failed to decode %s
-Failed to get p4 file info for %s
+Failed to convert KV3 to string; error: %s\n
+Failed to decode %s\n
+Failed to get p4 file info for %s\n
 Failed to load soundstacks/mixgraph.vmix
-Failed to read soundmixers.txt as KV3: %s
+Failed to read soundmixers.txt as KV3: %s\n
 Feedback
 Feedback scale
-Field Type: %i
-File %s did not have sounds directory in path, appending path and loading, but path needs to be fixed in resource file.
-File %s had sound/ instead of sounds/, path needs to be fixed in resource file.
-File %s is opened for edit by someone. Ignoring the mapping.
-File %s missing sounds dir. Fixing for now.
-File %s missing vsnd extension. Fixing for now.
+Field Type: %i\n
+File %s did not have sounds directory in path, appending path and loading, but path needs to be fixed in resource file.\n
+File %s had sound/ instead of sounds/, path needs to be fixed in resource file.\n
+File %s is opened for edit by someone. Ignoring the mapping.\n
+File %s missing sounds dir. Fixing for now.\n
+File %s missing vsnd extension. Fixing for now.\n
 Filter Bandwidth
 Filter Quality
 Filter Type
 Filter bandwidth
 FilteredLinear
 Fixup corrupted .wav file if engine crashed during startmovie/endmovie, etc.
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 Flush all unlocked async audio data
 Flush and re-parse the sound operator system
 FontManager_001
 FormatV
 Forward Saw
-Found %d probes in %s.
+Found %d probes in %s.\n
 Free
-Free ?: %s
-G
-G->B
+Free ?: %s\n
 GAME
 GAMECONSOLE
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
@@ -1088,14 +1025,13 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 Game v.o. volume
 Game volume
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameStartup
 GameUIService_001
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 GenericGameData
 Get data related to mix group matching string
 Get physics surface properties for all the materials.
@@ -1104,32 +1040,29 @@ GetCStringCharConversion
 GetResourceManifestCount
 GetResourceManifests
 GetSfx
-GetSfx: NULL name
-GetSoundEvent: unable to get event by hash %i
-GetSoundEvent: unable to get event by name %s
-GetSoundEventBaseHash: unable to get event by hash %i
-GetSoundEventBaseHash: unable to get event by name %s
-GetSoundEventBaseName: unable to get event by hash %i
-GetSoundEventFieldData: unable to get event by hash %i
-GetSoundEventFieldData: unable to get event by name %s
-GetSoundEventGroups: unable to get event by name %s
-GetSoundEventStackParamInfoVector: unable to get event by hash %i
-GetSoundEventStackParamInfoVector: unable to get event by name %s
-GetSoundEventUpdateGroups: unable to get event by hash %i
-GetSoundEventUpdateStackHash: unable to get event by hash %i
-GetSoundEventUpdateStackHash: unable to get event by name %s
-GetSoundEventUpdateStackName: unable to get event by hash %i
-GetVSndNameForSoundEvent( %s ) missing
+GetSfx: NULL name\n
+GetSoundEvent: unable to get event by hash %i\n
+GetSoundEvent: unable to get event by name %s\n
+GetSoundEventBaseHash: unable to get event by hash %i\n
+GetSoundEventBaseHash: unable to get event by name %s\n
+GetSoundEventBaseName: unable to get event by hash %i\n
+GetSoundEventFieldData: unable to get event by hash %i\n
+GetSoundEventFieldData: unable to get event by name %s\n
+GetSoundEventGroups: unable to get event by name %s\n
+GetSoundEventStackParamInfoVector: unable to get event by hash %i\n
+GetSoundEventStackParamInfoVector: unable to get event by name %s\n
+GetSoundEventUpdateGroups: unable to get event by hash %i\n
+GetSoundEventUpdateStackHash: unable to get event by hash %i\n
+GetSoundEventUpdateStackHash: unable to get event by name %s\n
+GetSoundEventUpdateStackName: unable to get event by hash %i\n
+GetVSndNameForSoundEvent( %s ) missing\n
 Graphs
-Group Index: %i does not reference a valid group.
+Group Index: %i does not reference a valid group.\n
 Group Name
 Group Type
-Group: %s
-Groups %i: %i
-H
-H@
-HALL Detected
-HB
+Group: %s\n
+Groups %i: %i\n
+HALL Detected \n
 HIGHDPI
 HammerMapLoader001
 HandleSetLibStackFieldsMessageQueue
@@ -1141,7 +1074,6 @@ HighPass
 Highest
 HookUpConfigValue
 HostStateMgr001
-I
 ID of the sound device to use
 IKChain
 IKChainOld
@@ -1150,39 +1082,35 @@ IKRigBiped
 IKRigBug
 IKRigSimple
 IQuickTime001
-If set to 1, report more error found when playing sounds.
-If set to 1, show all incoming updates to vmix inputs.
-Incorrect sampling rate in %s (mp3 frames are at %dHz, .vsnd file has %dHz)
-Input %s: %.3f
-Input %s: %x (%s)
+If set to 1, report more error found when playing sounds.\n
+If set to 1, show all incoming updates to vmix inputs.\n
+Incorrect sampling rate in %s (mp3 frames are at %dHz, .vsnd file has %dHz)\n
+Input %s: %.3f\n
+Input %s: %x (%s)\n
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid compressed buffer size
 Invalid data for member '%s'
 Invalid data.
-Invalid field type %s for field %s
+Invalid field type %s for field %s\n
 Invalid header
 Invalid member name '%s'
 Invert Match
 Is Oneshot
-J
-JSON error, unterminated element:
-Job
-K
+JSON error, unterminated element: 
 KV Conditional Evaluation Error
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
-L
 LFO Type
 LINUX
 LOG Fade in
@@ -1206,10 +1134,10 @@ List all mix layers to dev console.
 List all mixers to dev console.
 Load all the probes from a file and log the nearby probes within the radius.
 LoadFromBuffer: expected '{', found '%s'
-LoadKV3Object error: %s
-LoadKV3ObjectInPlace error: %s
+LoadKV3Object error: %s\n
+LoadKV3ObjectInPlace error: %s\n
 LoadVMixList
-Loading mapping from %s file.
+Loading mapping from %s file.\n
 Localize_001
 LoggingSystem_AddTagToChannel
 LoggingSystem_IsChannelEnabled
@@ -1219,11 +1147,10 @@ LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ..
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-Low
 LowPass
 Lowest
 Lowpass4Tap
-M
+LrwcE
 MASK_WATER
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
@@ -1238,6 +1165,7 @@ MNetworkUserGroup
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MORPHS
+MORPHS\r\n
 MPropertyAttributeChoiceEnumName
 MPropertyAutoExpandGroup
 MPropertyElementNameFn
@@ -1246,15 +1174,16 @@ MPropertySuppressField
 MXR_LoadAllSoundMixers
 Main Output
 MapListService_001
-Match Entity Index: %i
-Match Event Hash: %i
-Match Event Name: %s
-Match Event Type: %i
+Match Entity Index: %i\n
+Match Event Hash: %i\n
+Match Event Name: %s\n
+Match Event Type: %i\n
 Match Rules
-Match SubString ?: %s
+Match SubString ?: %s\n
 MaterialUtils_001
 MathLib_Init
 Max Time
+MbP?+
 Medium
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -1262,12 +1191,12 @@ MeshSystem001
 MeshUtils001
 Mirror
 Missing file '%s'
-Missing wav file '%s'
-MixGroup %s:
-MixGroup %s: %f : %f : %f : %f : %f
-MixLayer triggered %s:
+Missing wav file '%s'\n
+MixGroup %s: %f : %f : %f : %f : %f \n
+MixGroup %s:\n
+MixLayer triggered %s:\n
 MixLayers
-MixLayers %s:
+MixLayers %s:\n
 Mod Depth
 Mod Frequency
 Mod Glide (ms)
@@ -1279,10 +1208,8 @@ ModelDocUtils001
 Modulation Depth
 Modulation Frequency
 Music volume
-N
 N24CFieldPathHuffmanEncoder12InternalNodeE
 N24CFieldPathHuffmanEncoder8LeafNodeE
-N@
 NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
@@ -1294,11 +1221,11 @@ NETWORK_FIELD_CHANGES_OFTEN_PRIORITY_TOPOOGICAL_SORTLOWER
 NETWORK_FIELD_DEFAULT_PRIORITY
 NETWORK_FIELD_HIGHEST_PRIORITY
 NETWORK_FIELD_LOWEST_PRIORITY
-NOTE OFF: %u : %f
-NOTE ON: %u : %f : %s
+NOTE OFF: %u : %f\n
+NOTE ON: %u : %f : %s\n
 NULL
 NULL m_pSfx
-NUM LAYERS: %d
+NUM LAYERS: %d\n
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -1309,43 +1236,39 @@ NetworkSystemVersion001
 New Group
 NewNode
 Newline in string literal
-No
-No 'Mixers' member found in MixLayer in soundmixers.txt
+No 'Mixers' member found in MixLayer in soundmixers.txt\n
 No Buffer
-No DATA block for resource '%s'
-No MP3 support, can't compile!
-No filename specified to export Steam Audio scene.
-No scene loaded to export as Steam Audio scene.
+No DATA block for resource '%s'\n
+No MP3 support, can't compile!\n
+No filename specified to export Steam Audio scene.\n
+No scene loaded to export as Steam Audio scene.\n
 No valid format conversion from '%s' to '%s'
 NoPoseControl
 None
 Not safe to 'new' this class due to alignment requirements
-Num Match groups: %i
-Number of materials not mapped = %d.
-Number of materials updated with new mapping = %d.
-O
-OPEN SIDED OUTDOOR AREA Detected
+Num Match groups: %i\n
+Number of materials not mapped = %d.\n
+Number of materials updated with new mapping = %d.\n
+OPEN SIDED OUTDOOR AREA Detected \n
 OPTIONS
-OSX
-OUTSIDE ALLEY Detected
-OUTSIDE COURTYARD Detected
-OUTSIDE STREET Detected
+OPTIONS\r\n
+OUTSIDE ALLEY Detected \n
+OUTSIDE COURTYARD Detected \n
+OUTSIDE STREET Detected \n
 Octaves shifted
 OpenHandle
-Operator Count: %i
-Operator Error: Event %s: %s
-Operator Field: %s
-Operator Field: %s =
-Operator Index: %i
-Operator Stack: %s
+Operator Count: %i\n
+Operator Error: Event %s: %s\n
+Operator Field: %s = 
+Operator Index: %i\n
+Operator Stack: %s\n
 Operator Variable
 Operator Variable Value
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 OutputPosToVmix
-P
-P@
-PARAM COUNT COMPARE FAIL: %s->%s
-PARAMDATA COMPARE FAIL: %s->%s : %s
-PARAMINFO COMPARE FAIL: %s->%s
+PARAM COUNT COMPARE FAIL: %s->%s\n
+PARAMDATA COMPARE FAIL: %s->%s : %s\n
+PARAMINFO COMPARE FAIL: %s->%s\n
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
@@ -1362,24 +1285,24 @@ PF_TYPE_PARTICLE_AGE_NORMALIZED
 PF_TYPE_RANDOM_UNIFORM
 PHRASE
 PLAINTEXT
+PLAINTEXT\r\n
 POSIX
-PS3
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-Parameters: mix group name, [vol, mute, solo], value
-Parameters: mix group name, layer name, [vol, mute, solo], value, amount
-Parameters: mix layer name, mix group name, trigger amount
-Parameters: mixer name, mix amount
-Parsing LayerTriggers:
-Parsing MixGroups:
-Parsing MixLayers:
-Parsing SoundMixers:
+Parameters: mix group name, [vol, mute, solo], value\n
+Parameters: mix group name, layer name, [vol, mute, solo], value, amount\n
+Parameters: mix layer name, mix group name, trigger amount\n
+Parameters: mixer name, mix amount\n
+Parsing LayerTriggers:\n
+Parsing MixGroups:\n
+Parsing MixLayers:\n
+Parsing SoundMixers:\n
 ParticleSystemMgr003
 Peak Amplitude
-Performing fixup on '%s'
+Performing fixup on '%s'\n
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
 PhysicsBoneMarkup
@@ -1418,6 +1341,7 @@ Plat_WindowToOsSpecificHandle
 Play a note from a specified sampler
 Play a sound at a specified volume.
 Play a sound.
+Po5H
 PostProcessingSystem_001
 PresetDSP
 PreviewAttachmentModel
@@ -1425,7 +1349,7 @@ PreviewBoneAttachedModel
 PreviewBoneMergedModel
 PreviewPreset
 PreviewPresetList
-Prewview VMIX voice on the game graph, preview will be different!
+Prewview VMIX voice on the game graph, preview will be different!\n
 Print the data associated with the specified soundevent.
 Prints a list of currently available operators
 Prints a list of currently available stacks
@@ -1435,39 +1359,36 @@ Prints the current stack execution list
 Prints the current state of the groups system
 Prints the current state of tool properties.
 Prints the sizes of relevant sos classes.
-ProcessSoundEvent:  %s unable to get referenced stack %s. Soundevent deleted and removed.
-ProcessSoundEvent: %s Attempting to set more static groups than allowed
-ProcessSoundEvent: %s `field name %s either in public or event data on stack %s.
-ProcessSoundEvent: %s field %s has a different number of atomic elements than the field data type. Skipping
-ProcessSoundEvent: %s field %s has more elements than stack %s has allocated and the field is not specified as soundevent_data. Element count constrained.
-ProcessSoundEvent: %s found field %s with "data_type" during conversion comparison, which is no longer supported. Please add "soundevent_data" to stack %s
-ProcessSoundEvent: %s unable to find field name %s either in public or event data on stack %s.
-ProcessSoundEvent: %s unable to get "base" sound event %s
-ProcessSoundEvent: %s unable to get referenced stack %s. Soundevent deleted and removed.
-ProcessSoundEvent: Sound Event %s field %s data count doesn't match field type.
-ProcessSoundEvent: Sound Event %s field %s illegal empty array detected.
+ProcessSoundEvent:  %s unable to get referenced stack %s. Soundevent deleted and removed.\n
+ProcessSoundEvent: %s Attempting to set more static groups than allowed\n
+ProcessSoundEvent: %s `field name %s either in public or event data on stack %s.\n
+ProcessSoundEvent: %s field %s has a different number of atomic elements than the field data type. Skipping\n
+ProcessSoundEvent: %s field %s has more elements than stack %s has allocated and the field is not specified as soundevent_data. Element count constrained.\n
+ProcessSoundEvent: %s found field %s with "data_type" during conversion comparison, which is no longer supported. Please add "soundevent_data" to stack %s\n
+ProcessSoundEvent: %s unable to find field name %s either in public or event data on stack %s.\n
+ProcessSoundEvent: %s unable to get "base" sound event %s\n
+ProcessSoundEvent: %s unable to get referenced stack %s. Soundevent deleted and removed.\n
+ProcessSoundEvent: Sound Event %s field %s data count doesn't match field type.\n
+ProcessSoundEvent: Sound Event %s field %s illegal empty array detected.\n
 PropertyEditorSystem_001
 Purge and reload all vmidi data and files.
-PurgeAndDeleteAll: Deleting orphaned CSoundEvent pointer for %s via shutdown
+PurgeAndDeleteAll: Deleting orphaned CSoundEvent pointer for %s via shutdown\n
 Push
-Q
+Q)=N24CFieldPathHuffmanEncoder5INodeE
 QAngle
 Quaternion
-Queued: elapsed time: %f, next sync time: %f, length: %f
+Queued: elapsed time: %f, next sync time: %f, length: %f\n
 QueuedLoaderVersion001
-R
-R@
 RESOURCE_TYPE_SOUND
 RESOURCE_TYPE_SOUNDEVENTSCRIPT
 RESOURCE_TYPE_SOUNDSTACKSCRIPT
 RESOURCE_TYPE_VMIX_LIST
-ROOM Detected
+ROOM Detected \n
 RadianEuler
 Random Modulation
 RandomFloat
 RandomInt
 RandomSeed
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -1477,7 +1398,7 @@ RecursiveLoadFromBuffer:  recursion overflow
 Reference dB at snd_refdist
 Reference distance for snd_refdb
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterFormatConversion
 RegisterStringToken
 Release
@@ -1505,19 +1426,17 @@ ReturnJobManualEventToPool
 Reverb Depth ms
 Reverb Height ms
 Reverb Width ms
-Running snd_get_physics_surface_properties for %s mod.
-Running snd_set_physics_surface_properties for %s mod.
-S
-SDL Audio Device: %s
-SEQUENCER ERROR: Loading sequence file(error %s)!
-SEQUENCER ERROR: Loading vmidi manifest file(error %s)!
-SEQUENCER ERROR: Reading sequence file %s!
-SEQUENCER ERROR: Reading vmidi manifest file %s!
-SET VMIXGRAPH NAME: %s
-SND
-SOS PRINT FLOAT3: %s: %f, %f, %f
-SOS PRINT FLOAT: %s: %f
-SOS PRINT STRING: %s: %s
+Running snd_get_physics_surface_properties for %s mod.\n
+Running snd_set_physics_surface_properties for %s mod.\n
+S+Ot
+SDL Audio Device: %s\n
+SEQUENCER ERROR: Loading sequence file(error %s)!\n
+SEQUENCER ERROR: Loading vmidi manifest file(error %s)!\n
+SEQUENCER ERROR: Reading sequence file %s!\n
+SEQUENCER ERROR: Reading vmidi manifest file %s!\n
+SET VMIXGRAPH NAME: %s\n
+SOS PRINT FLOAT3: %s: %f, %f, %f\n
+SOS PRINT FLOAT: %s: %f\n
 SOS_ACTION_LIMITER
 SOS_ACTION_NONE
 SOS_ACTION_TIME_LIMIT
@@ -1534,9 +1453,9 @@ SOS_SORTTYPE_LOWEST
 SOS_STOPTYPE_NONE
 SOS_STOPTYPE_OPVAR
 SOS_STOPTYPE_TIME
-SOUNDEVENT COMPARE SUCCESS: %s->%s
+SOUNDEVENT COMPARE SUCCESS: %s->%s\n
 SSE and SSE2 are required.
-STACK COMPARE FAIL: %s->%s
+STACK COMPARE FAIL: %s->%s\n
 S_Init( finish )
 S_MixAsync
 S_MixSampleFrames
@@ -1552,59 +1471,61 @@ SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 Set an input mix value
-Set input %s to %s on graph %s
+Set input %s to %s on graph %s\n
 Set named Mixgroup of current mixer to mix vol, mute, solo.
 Set named Mixgroup of named mix layer to mix vol, mute, solo.
 Set named mix layer / mix group, trigger amount.
 Set named mix layer mix amount.
 Set physics surface properties for materials. Usage: <heuristic #> <commit>
-SetDataFromKV3: Unrecognized KV3 type on field %s.
+SetDataFromKV3: Unrecognized KV3 type on field %s.\n
 Sets the tempo of the specified track
 Sets the transposition of the specified track
-Setting MixLayer %s
-Setting MixLayer %s : mix %f
-Setting Mixer %s: MixGroup %s: %s : %f
-Setting field %s to %s
-Setting null device for -nosound
+Setting MixLayer %s : mix %f\n
+Setting MixLayer %s\n
+Setting Mixer %s: MixGroup %s: %s : %f\n
+Setting field %s to %s\n
+Setting null device for -nosound\n
 Show async memory stats
 Show async memory stats for just non-streamed music
 Show brief async memory stats
 Sine
 Size in bytes
+SndOperators
 SndToolHelp
 Sort Type
 SosActionSortType_t
 SosActionStopType_t
-SosBaseDataTypeDef_t: %i
+SosBaseDataTypeDef_t: %i\n
 SosEditItemInfo_t
 SosEditItemType_t
 SosGroupType_t
-SosOpFieldInfo_t: %i
-SosOpFieldInfo_t::GetValue: index %i out of range on %s
-SosOpFieldInfo_t::SetValue: index %i out of range on %s
-SosOpFieldInfo_t::ValueToString: Unable to find ENUM match for %i on %s
-SosOpFieldInfo_t::ValueToString: Unable to find ENUM tokenset on %s
+SosOpFieldInfo_t: %i\n
+SosOpFieldInfo_t::GetValue: index %i out of range on %s\n
+SosOpFieldInfo_t::SetValue: index %i out of range on %s\n
+SosOpFieldInfo_t::ValueToString: Unable to find ENUM match for %i on %s\n
+SosOpFieldInfo_t::ValueToString: Unable to find ENUM tokenset on %s\n
 Sound Disabled
-Sound Initialization: Finish, Sampling Rate: %i
+Sound Initialization: Finish, Sampling Rate: %i\n
 Sound merge method (0 == sum and clip, 1 == max, 2 == avg).
-Sound system not started
+Sound system not started\n
 Sound volume
-SoundEvent %s, input_entity_index %i found but specified attachment %s was not
-SoundEvent %s, input_entity_index %i was valid but no longer is
+SoundEvent %s, input_entity_index %i found but specified attachment %s was not\n
+SoundEvent %s, input_entity_index %i was valid but no longer is\n
 SoundEvent_error
 SoundMix
-SoundMixer %s:
+SoundMixer %s:\n
 SoundMixers
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundOperators
 SoundService_001
-SoundStack %s unable to find imported stack %s
+SoundStack %s unable to find imported stack %s\n
 SoundSystem
 SoundSystem/DisableSoundOnDedicatedServer
 SoundSystem/WaveDataCacheSizeMB
 SoundSystem001
-Soundevent param overwrites: %s:
+SoundSystemLowLevel
+Soundevent param overwrites: %s:\n
 SoundsystemVMixLoader
 Source Entity Index
 Source2Client002
@@ -1632,14 +1553,14 @@ Spew stream pool failures.
 Spew streaming info ( 0=Off, 1=streams, 2=buffers
 Spline
 Square Wave
-Stack %s: Unable to connect input to specified field: %s
-Stack Collection:
-Stack Execution List:
-Stack Shutdown: Stack: %s : Operator: %s
+Stack %s: Unable to connect input to specified field: %s\n
+Stack Collection:\n
+Stack Execution List:\n
+Stack Shutdown: Stack: %s : Operator: %s\n
 Stack depth limit hit (%d)
-Stack execution list overflow!
-Start Sound Event: %s
-StartTime: %f
+Stack execution list overflow!\n
+Start Sound Event: %s\n
+StartTime: %f\n
 Starts a specified soundevent
 Starts the specified arrangement.
 Static
@@ -1652,23 +1573,22 @@ SteamAudioReverb
 SteamAudioSource
 Stop Type
 Stop a note from a specified sampler
-Stop sound event: %s
-StopTime: %f
-Stopped voice %d, graph reloaded
-Stopping All Sounds...
+Stop sound event: %s\n
+StopTime: %f\n
+Stopped voice %d, graph reloaded\n
+Stopping All Sounds...\n
 Stops a specified soundevent
 Stops all currently playing sequences
 Stops all soundevents currently on the execution list
 Stops the specified track
-String Count: %i
+String Count: %i\n
 Sub-String
 Sustain target amplitude
 Sustain time (ms)
 SystemAttributes
-T
 TIMES
 TRUE
-TUNNEL Detected
+TUNNEL Detected \n
 TestFormatA
 TestFormatB
 TestFormatC
@@ -1677,7 +1597,7 @@ TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
-The soundsystem requires the filesystem to run!
+The soundsystem requires the filesystem to run!\n
 ThreadGetCurrentId
 ThreadJoin
 ThreadSetAffinityPreference
@@ -1685,10 +1605,10 @@ ThreadSetPriority
 ThreadSleep
 Threshold dB
 Time Limiter
-Timed ?: %s
-Tokenset: %p
-Too many mix groups specified.
-Too many sound mixers specified
+Timed ?: %s\n
+Tokenset: %p\n
+Too many mix groups specified.\n
+Too many sound mixers specified\n
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -1696,66 +1616,64 @@ ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
 ToolsStartupPreGame
-Total Mix Groups Rules: %i
-Total Mix Layers: %i
-Total Size: %i
-Total Stack Fields mem: %i
-Total Stack Fields: %i
-Total Stack Mem Usage(ish): %i : %ik
-Total Stack Pool Mem: %i
-Total Stack Ref Fields: %i
-Total Stacks: %i
-Total USED Stack Fields mem: %i
-Total USED Stack Fields: %i
-Total USED Stack Mem Usage(ish): %i : %ik
-Total USED Stack Pool Mem: %i
-Total USED Stack Ref Fields: %i
-Total USED Stacks: %i
-Total: %.2f MB
+Total Mix Groups Rules: %i\n
+Total Mix Layers: %i\n
+Total Size: %i\n
+Total Stack Fields mem: %i\n
+Total Stack Fields: %i\n
+Total Stack Mem Usage(ish): %i : %ik\n
+Total Stack Pool Mem: %i\n
+Total Stack Ref Fields: %i\n
+Total Stacks: %i\n
+Total USED Stack Fields mem: %i\n
+Total USED Stack Fields: %i\n
+Total USED Stack Mem Usage(ish): %i : %ik\n
+Total USED Stack Pool Mem: %i\n
+Total USED Stack Ref Fields: %i\n
+Total USED Stacks: %i\n
+Total: %.2f MB\n
+Trailing Data
 Triangle
+Tried to load a polymorphic pointer with no '%s' key
 Truncated data
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-Type Name: %s
-U
 UPDATE_STRING_TOKEN_DATABASE
 USED
-Unable to allocate voice for %s
-Unable to create audio thread.
-Unable to create voice for vmix "%s" check script.
+Unable to allocate voice for %s\n
+Unable to create audio thread.\n
+Unable to create voice for vmix "%s" check script.\n
 Unable to determine buffer encoding.
-Unable to find graph for vmix %s
-Unable to find soundevent: %s
-Unable to load sound system data.Starting verification of Steam Game Cache.Retry launching after completion.
-Unable to write file '%s'
+Unable to find graph for vmix %s\n
+Unable to find soundevent: %s\n
+Unable to load sound system data.\nStarting verification of Steam Game Cache.\nRetry launching after completion.\n
+Unable to write file '%s'\n
 Unexpected end of file
-Unknown field type %s for field %s
+Unknown field type %s for field %s\n
 Unrecognized flag name '%s'
 Unrecognized type '%d'
 Unresolved object reference '%s'
 Unsupported binary encoding id.
 Unsupported text encoding id.
-Unsupported version %d for resource '%s' (Expected %d)
-Update SoundEvent: %s
-Usage:  playdelay delay_in_msec (negative to skip ahead) soundname
-Usage:  snd_compare_soundevents soundevent1 soundevent2
-Usage:  snd_print_soundevent <soundeventname>
-Usage:  snd_remove_soundevent <soundeventname>
-Usage:  snd_sos_get_operator_field <stackname> <operator> <field>
-Usage:  snd_sos_print_exec_list
-Usage:  snd_sos_print_operator_stack <stackname>
-Usage:  snd_sos_resolve_execute_operator <stackname> <operator>
-Usage:  snd_sos_set_operator_field <stackname> <operator> <field> <index> <float>
-Usage:  snd_sos_start_soundevent <eventname> <ent id)
-Usage:  snd_sos_stop_soundevent_guid <guid>
-Usage:  snd_sos_stop_soundevent_index <index>
-Usage: movie_fixwave wavname
-Usage: snd_get_physics_surface_properties <all|null|assigned|default|material-name>.
-Usage: snd_set_physics_surface_properties <diffmaterials|diffmapping|set|overwrite|single> <mapping-file|material-name,material,...>
-Usage: snd_steamaudio_probes_nearby <radius_inches> <display_duration> <mapname>. Set radius_inches to -1 to use influence radius per probe.
-Used stack: %s
+Unsupported version %d for resource '%s' (Expected %d)\n
+Usage:  playdelay delay_in_msec (negative to skip ahead) soundname\n
+Usage:  snd_compare_soundevents soundevent1 soundevent2\n
+Usage:  snd_print_soundevent <soundeventname>\n
+Usage:  snd_remove_soundevent <soundeventname>\n
+Usage:  snd_sos_get_operator_field <stackname> <operator> <field>\n
+Usage:  snd_sos_print_exec_list\n
+Usage:  snd_sos_print_operator_stack <stackname>\n
+Usage:  snd_sos_resolve_execute_operator <stackname> <operator>\n
+Usage:  snd_sos_set_operator_field <stackname> <operator> <field> <index> <float>\n
+Usage:  snd_sos_start_soundevent <eventname> <ent id) \n
+Usage:  snd_sos_stop_soundevent_guid <guid>\n
+Usage:  snd_sos_stop_soundevent_index <index>\n
+Usage: movie_fixwave wavname\n
+Usage: snd_get_physics_surface_properties <all|null|assigned|default|material-name>.\n
+Usage: snd_set_physics_surface_properties <diffmaterials|diffmapping|set|overwrite|single> <mapping-file|material-name,material,...>\n
+Usage: snd_steamaudio_probes_nearby <radius_inches> <display_duration> <mapname>. Set radius_inches to -1 to use influence radius per probe.\n
+Used stack: %s\n
 UserInfoChangeService_001
-V
 VALUES
 VApplication001
 VAvi001
@@ -1765,8 +1683,8 @@ VBik001
 VConComm001
 VDebugService_001
 VERSION
-VERSION 1.0
-VERTICAL SHAFT Detected
+VERSION 1.0\r\n
+VERTICAL SHAFT Detected \n
 VEngineCvar007
 VFileSystem017
 VGUI_Input005
@@ -1776,8 +1694,8 @@ VGUI_Surface032
 VGUI_System010
 VGUI_ivgui008
 VMDLLIB001
-VMIX: Unknown filter type %s for DSP:%s
-VMIX: Unknown processor type %s (name %s)
+VMIX: Unknown filter type %s for DSP:%s\n
+VMIX: Unknown processor type %s (name %s)\n
 VMaterialSystem2_001
 VMatrix
 VMediaFoundation001
@@ -1806,8 +1724,8 @@ VProfService_001
 VR_001
 VRenderDeviceSetupV001
 VSNAPFile
-VSNDVEC COMPARE FAIL: %s->%s
-VSNDVEC COMPARE SIZE FAIL: %s->%s
+VSNDVEC COMPARE FAIL: %s->%s\n
+VSNDVEC COMPARE SIZE FAIL: %s->%s\n
 VScript
 VScriptDbg
 VScriptManager010
@@ -1888,71 +1806,75 @@ V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 VaPrintf
-Value Operator Offset: %i
-Value Stack Offset: %i
+Value Operator Offset: %i\n
+Value Stack Offset: %i\n
 Vector2D
 Vector4D
 VectorAligned
 VeryHigh
 VisBuilder_001
-Voice Elapsed Time: %f
+Voice Elapsed Time: %f\n
 Voice volume
 Volume of sounds in tools (e.g. Hammer, SFM)
-W
-WARNING: Attempting to import existing public field %s in stack %s
-WARNING: Attempting to set fields on a stopped sound
-WARNING: Invalid vsnd version '%d' for file: %s
-WARNING: Stack %s Operator %s, opvar field %s overwriting existing parameter of the same name. THERE IS NO TYPE OR SIZE CHECKING IN PLACE, IT IS UP TO YOU TO MAKE SURE THEY ARE THE SAME.
-WARNING: Stack %s had %i stack field overwrite warnings. Set "snd_sos_show_parameter_overwrite_warnings 1" and recompile for details.
-WARNING: snd_sos_soundevent_profile disabled - ignoring!
+WARNING: Attempting to import existing public field %s in stack %s\n
+WARNING: Attempting to set fields on a stopped sound\n
+WARNING: Invalid vsnd version '%d' for file: %s\n
+WARNING: Stack %s Operator %s, opvar field %s overwriting existing parameter of the same name. THERE IS NO TYPE OR SIZE CHECKING IN PLACE, IT IS UP TO YOU TO MAKE SURE THEY ARE THE SAME.\n
+WARNING: Stack %s had %i stack field overwrite warnings. Set "snd_sos_show_parameter_overwrite_warnings 1" and recompile for details.\n
+WARNING: snd_sos_soundevent_profile disabled - ignoring!\n
 WIN32
 WINDOWS
 WINXP
 WORD
 WORDS
-Wait: elapsed time: %f, next sync time: %f, local elapsed: %f, local sync: %f, length: %f, num loops: %i
+WORDS\r\n
+Wait: elapsed time: %f, next sync time: %f, local elapsed: %f, local sync: %f, length: %f, num loops: %i\n
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
-Warning: %s (error %s)!
-Warning: Can't find sos strings file: %s!
-Warning: Failed to get mix layer %s!
-Warning: Unable to acquire convar value: %s
-Warning: Unable to set convar value: %s
-Warning: cannot sync to soundevent %s on track %s, because it has no start/end points defined
-Warning: sos_start_soundevent unable to read opvar %s for passing
-Warning: sos_start_soundevent unable to read opvar %s for passing from event %s
-Warning: track_queue: No track name specified on %s, playing without track features
+Warning:  %s = '%s' is infinite, clamping value.\n
+Warning: %s (error %s)!\n
+Warning: Can't find sos strings file: %s!\n
+Warning: Failed to get mix layer %s!\n
+Warning: Unable to acquire convar value: %s\n
+Warning: Unable to set convar value: %s\n
+Warning: cannot sync to soundevent %s on track %s, because it has no start/end points defined\n
+Warning: sos_start_soundevent unable to read opvar %s for passing \n
+Warning: sos_start_soundevent unable to read opvar %s for passing from event %s\n
+Warning: track_queue: No track name specified on %s, playing without track features\n
 WeightList
 Width Reflectivity
-Won't age handle!
+Won't age handle!\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-X
 X360
-X@
-XC
-Y
 Y@sos_import_stack
-Yes
-Z
-[
 [ 0.005714, 0.3, 1.083, 1.083, 2.0, 3.0 ]
 [ 1.0, 1.0, 0.227125, 0.227125, 2.0, 3.0 ]
-[%.3f server clamped to %.3f]
 [%f,%f,%f,%f,%f,%f]
-[%s] %s : src %d : channel %d : vol %.2f : time %.3f
-[],
-\
-\"
-\"""
-\'
-\n
-\t
-]
-^
-^@
-_
+[%s] %s : src %d : channel %d : vol %.2f : time %.3f\n
+\n%*sName: %s\n
+\n%*sName: %s\n%*sNameSpace: %s\n
+\nActive Sound events: %d\n
+\nCwf\r
+\nOperator Field: %s\n
+\nSOS PRINT STRING: %s: %s\n
+\nType Name: %s\n
+\nUpdate SoundEvent: %s\n
+\rCONTENT
+\t dspmix %1.2f : lvol %1.2f : cvol %1.2f : rvol %1.2f : rlvol %1.2f : rrvol %1.2f\n
+\t x: %4f y: %4f z: %4f\n
+\tRefs %16s : Name (Locks)\n
+\tTrack: %s\n
+\tVOL: %f\n\tLVL: %f\n\tDSP: %f\n\tMUTE: %f\n\tSOLO: %f\n\n
+\tWORD %s %.3f %.3f\r\n
+\t[%2d] %16.16s : %s (%d)\n
+\t\t%i %s %.3f %.3f 1\r\n
+\t\tInstrument: %s\n
+\t\t\tBeat:\t%f\n
+\t\t\tSequence:\t%s\n
+\tchecksum %d\r\n
+\ttools_no_extraction %d\r\n
+\tvoice_duck %d\r\n
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -2015,9 +1937,6 @@ _operator_properties
 _stack_properties
 _system_properties
 _test_conversion_counter
-`
-`A
-a
 accumulate_indexed_speakers
 acos
 adsp_alley_min
@@ -2048,6 +1967,8 @@ animgraph0
 aplay
 apply
 archive
+arrangement_start
+arrangement_track_stop
 array_selection_type
 asin
 assigned
@@ -2061,11 +1982,9 @@ attackTime
 audio_stream_attached.cpp
 auto_connect_public_fields
 auto_unragdoll_duration
-b
-b@
 bUpdate
 backward
-bar
+base_operator
 binary
 binary_auto
 binary_bc
@@ -2083,9 +2002,9 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
+bt3V
 burst_randomize
 burst_scale
-c
 cable
 calc_angles_facing
 calc_audibility
@@ -2095,8 +2014,10 @@ calc_closest_point_on_sphere
 calc_closest_point_on_volume
 calc_distance
 calc_distant_dsp
+calc_falloff
 calc_falloff_curve
 calc_falloff_vr
+calc_occlusion_src1
 calc_occlusion_src2
 calc_segment
 calc_spatialize_VR
@@ -2116,7 +2037,6 @@ checksum
 children
 circle
 circle_bounce
-cl
 clamp_range
 class_substring
 client
@@ -2150,7 +2070,6 @@ ctrl_switch_speakers
 ctrl_switch_string
 curve_type
 custom_stack
-d
 dBCompressionThreshold
 dBKneeWidth
 dBLimiterThreshold
@@ -2169,16 +2088,14 @@ display_category
 display_edit_type
 display_game
 display_group
-div
-divide = %2.5f
+divide = %2.5f \n
 dmg.bullets
 dmg.club
 dmg.explosive
 dmg.fire
 dota2
 dota_ground_under_water
-dry
-dsp: %3.2f
+dsp: %3.2f 
 dsp_automatic
 dsp_db_min
 dsp_db_mixdrop
@@ -2196,7 +2113,6 @@ duck_to_percent
 ducker_threshold
 dynamicEQScale
 dynamic_interaction
-e
 easeIn
 easeOut
 econ_replacement
@@ -2219,11 +2135,10 @@ explosion_delay
 explosion_type
 explosive_damage
 explosive_radius
-eye
-f
 fabs
 faceMergeAngle
 false
+fff?
 field_curve_2d_editor
 field_linear_atten_editor
 field_override
@@ -2244,13 +2159,12 @@ frames
 free
 friction
 function
-g
 g_Tier1_BitWriteMasks
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_Tier1_ExtraMasks
 g_VProfCurrentProfile
-g_mastermixlayer:
+g_mastermixlayer:\n
 g_pMemAlloc
 g_pThreadPool
 gainReduction
@@ -2270,18 +2184,16 @@ graph
 gravity
 greater_than
 greater_than_or_equal
-h
 handindex
 headtype
 health
 health_override
 hurt_me
 hurt_them
-i
 ikdata
 import_public_opvars
-index %i = %i guid : %i dependents
-input %s received updated value from processor %d (%x)
+index %i = %i guid : %i dependents \n
+input %s received updated value from processor %d (%x)\n
 input0
 input10
 input11
@@ -2540,16 +2452,13 @@ is_untimed
 itemKVString
 itemName
 itemPos
+itemType
 itemTypeName
-j
-k
-k@
 key_groups
 keyvalues.cpp
-kv3
 kv3format_manager.cpp
-l
 last_sniff
+lcQe
 ld-linux-x86-64.so.2
 left_front
 left_front1
@@ -2561,11 +2470,11 @@ left_up
 length
 less_than
 less_than_or_equal
-lfe
 lfe1
 lfe2
 libc.so.6
 libm.so.6
+libmpg123.so.0
 libpthread.so.0
 libsoundsystem.so
 libstdc++.so.6
@@ -2575,15 +2484,13 @@ limiterRatio
 listener
 localPlayer
 lockRotationAlpha
-log
 log10
 loop
 loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
-lvl
-lvl: %3.2f
-m
+lvl: %3.2f 
+mXr4
 m_Angles
 m_Bone
 m_ChainData
@@ -2642,6 +2549,7 @@ m_bIsBlocking
 m_bIsUnderwater
 m_bLocalSpace
 m_bMatchEntIndex
+m_bMatchEventName
 m_bMatchEventSubString
 m_bMatchOpvar
 m_bOffsetExistingPos
@@ -2838,6 +2746,7 @@ math_clamp_float
 math_curve_2d
 math_curve_2d_4knot
 math_db_to_gain
+math_delta
 math_delta_float3
 math_filter_float
 math_float
@@ -2860,7 +2769,6 @@ math_velocity
 mathlib.cpp
 matrix3x4_t
 matrix3x4a_t
-max. %f
 maxHullVertices
 maxVerticesPerHull
 max_angle
@@ -2874,7 +2782,6 @@ mempool.cpp
 memset
 mesh
 meshes
-min. %f
 min_angle
 min_note
 min_output
@@ -2885,7 +2792,6 @@ mixamount
 mixer_dsp
 mixer_level
 mixer_volume
-mod
 mod_LFO
 model_name
 modeldoc0
@@ -2918,7 +2824,7 @@ modeldoc7
 modeldoc8
 modeldoc9
 movie_fixwave
-movie_fixwave: File '%s' does not exist
+movie_fixwave: File '%s' does not exist\n
 mpg123_close
 mpg123_decode_frame
 mpg123_delete
@@ -2927,13 +2833,14 @@ mpg123_feed
 mpg123_feedseek
 mpg123_format
 mpg123_format_none
-mpg123_format_none() failed: %s
+mpg123_format_none() failed: %s\n
 mpg123_getformat
 mpg123_init
 mpg123_init() failed
 mpg123_new
+mpg123_new() failed: %s\n
 mpg123_open_feed
-mpg123_open_feed() failed: %s
+mpg123_open_feed() failed: %s\n
 mpg123_plain_strerror
 mpg123_rates
 mpg123_strerror
@@ -2946,13 +2853,11 @@ ms delay min
 ms of mod depth
 multiplayer_break
 mute
-mute: %3.2f
-n
-n@
+mute: %3.2f\n
 nOffset < m_nAllocationSize
 nTries < 10000000
+n\f"pA3Q
 named
-nan
 nav_attribute_avoid
 nav_data
 no stack mem
@@ -2966,7 +2871,6 @@ notify
 nullfield
 numerator
 numsegments
-o
 occlusion_db_loss
 opFields
 operator delete(void*)
@@ -2993,6 +2897,7 @@ operator_field_display_vsnd
 operator_variables
 opvar_get_float
 opvar_get_float3
+opvar_get_info
 opvar_get_random_array_index
 opvar_get_string
 opvar_get_vsnd
@@ -3091,8 +2996,7 @@ output_x
 output_y
 output_z
 overwrite
-p
-pB
+pAmath_float3
 parallel filters
 paramName
 particles/
@@ -3114,7 +3018,6 @@ point0
 point1
 pose_control
 pose_control_type
-pow
 preferred_carryangles
 preload_vsnds
 preview
@@ -3148,11 +3051,7 @@ public.sync_bpm
 public.sync_bpm_beats
 public.volume
 public_field_name
-q
 quantize_multiplier
-r
-r+b
-r@
 radius0
 radius1
 random_exclusive
@@ -3182,9 +3081,7 @@ rnd_up
 room
 rootNode
 round_to_int
-s
 sampler_event
-saw
 schema
 schemabindings.cpp
 schemaclassinfo.cpp
@@ -3202,7 +3099,7 @@ sequence_name
 sequence_number
 server_can_execute
 shapeType
-shift & multiply = %2.5f
+shift & multiply = %2.5f \n
 sideChain
 sideChainPeak
 single
@@ -3365,9 +3262,10 @@ snd_wave_mixer_mp3.cpp
 sndlvl_max
 sndlvl_min
 sndplaydelay
-solo: %3.2f
+solo: %3.2f 
 soloname
 sos_goto
+sos_import_stack
 sos_set_info
 sound/
 sound_device_override
@@ -3382,9 +3280,12 @@ soundevent_group_join
 soundevent_group_opvars
 soundevent_group_quit
 soundevent_group_stop
+soundevent_limiter
 soundevent_name
 soundevent_param
+soundevent_pause
 soundevent_samples
+soundevent_start
 soundevent_stop_all
 soundevents/soundevents_manifest.vrman
 soundevents/soundevents_manifest_tools.vrman
@@ -3413,7 +3314,6 @@ sparse_convolution
 spawn_motion_disabled
 spawn_orphans
 speaker_config
-sqr
 sqrt
 sqrtf
 ss_added
@@ -3437,14 +3337,11 @@ strcmp
 strcpy
 string_token
 strlen
-sub
 submix_name
 suppress
 surface_prop
-sv
 sync_track
 sync_type
-t
 tanh
 test_angles_relative
 text
@@ -3453,15 +3350,13 @@ time slice ms
 tool
 tools/
 tools_no_extraction
-total preset slots used: %d
+total preset slots used: %d \n
 track_queue
-tri
+track_stop
 true
 turn_rate
 typeinfo for CThreadSyncObject
-u
 u64( %lld = 0x%llX )
-ui
 uint32
 uint64
 unicode
@@ -3487,7 +3382,6 @@ utlbuffer.cpp
 utlmemoryarena.cpp
 utlstring.cpp
 utlsymbol.cpp
-v
 value%d
 value1
 value2
@@ -3502,6 +3396,7 @@ vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
+vmidiManifest
 vmix:%02d: %s
 vmix_delay_desc_t
 vmix_dynamics_desc_t
@@ -3518,12 +3413,13 @@ vmix_mixgraph_send
 vmix_pitch_shift_desc_t
 vmix_processor_type_t
 vmix_start_vmix_8track has empty vsnd string
-vmix_start_vsnd: %s Voice count >= MAX_VOICES, aborting starting vsnd %s
+vmix_start_vsnd: %s Voice count >= MAX_VOICES, aborting starting vsnd %s\n
 vmix_voicegraph_input
 vmix_voicegraph_inputarray
 vmix_voicegraph_start_8track
 vmix_voicelist.cpp
 vmix_vsnd_info
+vmix_vsnd_start
 vmix_vsnd_start has empty vsnd string
 voiceList
 voice_duck
@@ -3537,7 +3433,7 @@ voice_stall_ms
 voice_threshold
 voice_threshold_delay
 void S_Init( start )
-vol: %3.2f
+vol: %3.2f 
 vpcf
 vpcf1
 vpcf10
@@ -3574,30 +3470,19 @@ vsound_manager.cpp
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-w
-w+b
 wait
 wait_for_track
 waitpid
 wave_type
-wb
 wcscmp
 wcslen
 weights_field_name
-x
-y
-yaw
 yaw_end
 yaw_start
-z
+z:KEZ
+z>{}[]()=&, \t\n'"*;
 zDprocessors
 zero
-{
-{}()':
-|
-}
-~
-~@
-~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown
-
-C
+{YIN?
+{}[]=, \t\n'":|;
+~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n

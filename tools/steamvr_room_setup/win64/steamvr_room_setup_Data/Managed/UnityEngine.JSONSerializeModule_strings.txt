@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -52,14 +51,14 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 3Modules/JSONSerialize/Public/JsonUtility.bindings.h
 <Module>
-@.reloc
 ArgumentException
 ArgumentNullException
 Assembly-CSharp-testable
+BSJB
 Concat
+D_nM
 DebuggableAttribute
 DebuggingModes
 FreeFunctionAttribute
@@ -96,7 +95,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -170,12 +168,16 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 get_IsAbstract
 get_Name
+json
 mscoree.dll
 mscorlib
 objectToOverwrite
+p\n89
 prettyPrint
+type
 v2.0.50727

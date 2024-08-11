@@ -1,48 +1,10 @@
-					
-							
-												
-																																												
-	!s99
- %41g
- A_A^A\
- A_A^A]A\_
- A_A^]
- A_A^_
- A_^[
- A__[
- A__^
- H3E H3E
- for detail.
+ for detail.\n
  formatting error code 
-!! refusing to trigger minidump with debugger attached
-!hn7!
-%%.%dg
-%s%s%s%s%s
+!! refusing to trigger minidump with debugger attached\n
 ' is not a number.
-',=?k
-(A\_^[
-(A^A]^[
-(A_A^^[
-(A_A^_]
-(D$ f
-(f*^[0
-(t$ 2
-(t$ H
-(t$@H
-(|$ H
-)D$ L
-)Rs(^q
-)t$ H
-)t$0H
-)t$@H
-*uXI;
-+Xt@(
-+o'q)}
 , last executing in 
-,W5y+
 -1e+9999
 -Infinity
--u-I;
 .00cfg
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
@@ -121,6 +83,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -138,17 +101,16 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-/mrC/
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -167,55 +129,9 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0A^_^
-0A_A^A\_^
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^_^[
-0A_A^_^]
-0A__[
-0w0c1
-0}0i1
-130801120000Z
 1e+9999
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724174625Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8_^][
-9D$xu
-9D$|toH
-< t+<
-</u#H
-<0:08
+9a&g
 <unknown>
-=>Uf_(>
-=rIQU
->0<0:
->Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -273,97 +189,24 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@.data
-@.reloc
-@A^_^
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\_^[
-@HcQdH
-@LcqHD
-@SAUAVAWH
-@SAUH
-@SVAUAVH
-@SVAVAWH
-@SVAWH
-@SVWATAWH
-@SVWATH
-@SWAWH
-@UAUAWH
-@USVATAVH
-@USVWATAVAWH
-@USVWATH
-@USVWAVH
-@USVWH
-@UVATAUAVH
-@UVAUH
-@UVWATAUAVAWH
-@UVWAVAWH
-@UWAVAWH
 A valid JSON document must be either an array or an object value.
-ASSERT: "%s" at %s:%d.
-ATAVAWH
-A\_^[]
-A^A\^
-A^A\^[]
-A^A]A\^]
-A^A]A\_^[]
-A^_^[]
-A_A\_^[
-A_A\_^]
-A_A]A\^[]
-A_A]]
-A_A^A\
-A_A^A\_]
-A_A^A\_^[]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A][
-A_A^_^[
-A_A^_^]
+ASSERT: "%s" at %s:%d.\n
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
-Access to desktop duplication lost for desktop %d.
+Access to desktop duplication lost for desktop %d.\n
 AttachThreadInput
-AttemptSendInput failed.
-AuthD
+AttemptSendInput failed.\n
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bellevue1
 C++/WinRT version:1.0.190111.3
-C0L9$
-CD$(H
-CD$0H
-CD$PH
-CD$hH
 CDesktopManagerThread
-CDesktopManagerThread::CreateDXGIFactory1 failed.
-CL$0H
-CL$`H;
-CT$(L
-CT$0H
-CT$0I
-CT$8D
-CT$`H
-CT$`I
-CT$pH
-C\$(3
-C\$0H
-C\$0L
-C\$0M
-C\$@H
-C\$@M
-C\$PL
-C\$pH
+CDesktopManagerThread::CreateDXGIFactory1 failed.\n
 Close Frame
 CloseHandle
 CoCreateInstance
 CoIncrementMTAUsage
 CoInitializeEx
-CoInitializeEx failed.
+CoInitializeEx failed.\n
 CoTaskMemFree
 CoUninitialize
 ComputeVirtualDesktopBounds
@@ -372,118 +215,81 @@ CreateDirect3D11DeviceFromDXGIDevice
 CreateEventA
 CreateEventW
 CreateThread
-Created desktop staging texture.
-Created desktop upload texture.
-Cursor has neither color nor mask bitmap.
-C|$PL
-D	d$LA
-D	l$LH
-D$ A;
-D$ E3
-D$ H;
-D$(E3
-D$(H;
-D$(I;
-D$0E3
-D$0H+
-D$0L#
-D$0fD
-D$@A+
-D$@E+
-D$@E3
-D$EL;
-D$EM+
-D$PM;
-D$`E3
-D$`H;
-D$`I;
-D$`fI
-D$pE3
-D$pL;
-D$xH;
+Created desktop staging texture.\n
+Created desktop upload texture.\n
+Cursor has neither color nor mask bitmap.\n
 D3D11CreateDevice
-D3D11CreateDevice failed.
-D8fht/H
-D;l$0
-D;v(s
-DXGI output null, failed to duplicate output.
+D3D11CreateDevice failed.\n
+DEST
+DXGI output null, failed to duplicate output.\n
 DeleteCriticalSection
 DeleteDC
 DeleteObject
 Desktop %d
-Desktop %d. Call %s. Function %s. Overlay error %s.
+Desktop %d. Call %s. Function %s. Overlay error %s.\n
 Desktop Pointer
 Desktop Text
 DesktopManagerThread
-DesktopView %d exiting
+DesktopView %d exiting\n
 DesktopView_%d
-Destroying overlay for desktop %d.
-Destroying overlay for window %s.
-Destroying pointer overlay for desktop.
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+Destroying overlay for desktop %d.\n
+Destroying overlay for window %s.\n
+Destroying pointer overlay for desktop.\n
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
-E;u`|
 Empty escape sequence in string
-Encountered a fatal error updating desktop views.
+Encountered a fatal error updating desktop views.\n
 Encountered error 
 EnterCriticalSection
 EnumWindows
-Error attaching thread input.
-Error creating Direct3D device for window view.
-Error detaching thread input.
-Error enumerating HMD adapter.
-Error getting HMD adapter index.
-Error getting window placement.
-Error querying IDXGIDevice interface.
+Error attaching thread input.\n
+Error creating Direct3D device for window view.\n
+Error detaching thread input.\n
+Error enumerating HMD adapter.\n
+Error getting HMD adapter index.\n
+Error getting window placement.\n
+Error querying IDXGIDevice interface.\n
 Error releasing duplication frame.
-Error resetting window style.
-Error setting GWL_STYLE.
-Error setting active window.
-Error setting focus.
-Error setting foreground window.
-Error setting window position.
-Error showing window.
-Error uploading cursor texture for desktop %d.
-Ewi#l!
+Error resetting window style.\n
+Error setting GWL_STYLE.\n
+Error setting active window.\n
+Error setting focus.\n
+Error setting foreground window.\n
+Error setting window position.\n
+Error showing window.\n
+Error uploading cursor texture for desktop %d.\n
 Exceeded stackLimit in readValue().
-Exception encountered closing capture frame pool (%d): %s
-Exception encountered closing graphics capture session (%d): %s
-Executable: %s
-Failed Watchdog timeout in thread %s after %f seconds
-Failed Watchdog timeout in thread %s after %f seconds. Aborting.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
-Failed calling AcquireNextFrame.
+Exception encountered closing capture frame pool (%d): %s\n
+Exception encountered closing graphics capture session (%d): %s\n
+Executable: %s\n
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds\n
+Failed calling AcquireNextFrame.\n
 Failed to create IShellDispatch instance.
-Failed to create cursor Texture2D.
-Failed to create cursor upload texture.
-Failed to create desktop staging texture.
-Failed to create desktop upload texture.
-Failed to duplicate output.
-Failed to get DPI for monitor. Falling back to default DPI.
+Failed to create cursor Texture2D.\n
+Failed to create cursor upload texture.\n
+Failed to create desktop staging texture.\n
+Failed to create desktop upload texture.\n
+Failed to duplicate output.\n
+Failed to get DPI for monitor. Falling back to default DPI.\n
 Failed to get HMD adapter.
-Failed to get IDXGIOutput1 interface.
-Failed to get adapter description.
-Failed to get output desc.
-Failed to get output description.
-Failed to get pixel buffer for icon.
-Failed to get pointer shape.
-Failed to get texture from desktop resource.
-Failed to initialize desktop views.
-Failed to map cursor upload texture.
-Failed to map desktop staging texture.
-Failed to map desktop upload texture.
-Failed to reinitialize output duplication for desktop %d, updating description.
-Failed to set thread %p priority: invalid priority %d
-Failed to update pointer overlay for desktop %d.
+Failed to get IDXGIOutput1 interface.\n
+Failed to get adapter description.\n
+Failed to get output desc.\n
+Failed to get output description.\n
+Failed to get pixel buffer for icon.\n
+Failed to get pointer shape.\n
+Failed to get texture from desktop resource.\n
+Failed to initialize desktop views.\n
+Failed to map cursor upload texture.\n
+Failed to map desktop staging texture.\n
+Failed to map desktop upload texture.\n
+Failed to reinitialize output duplication for desktop %d, updating description.\n
+Failed to set thread %p priority: invalid priority %d\n
+Failed to update pointer overlay for desktop %d.\n
 FormatMessageA
 FormatMessageW
 GDI32.dll
@@ -491,23 +297,23 @@ GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetCursorInfo
-GetCursorInfo failed.
+GetCursorInfo failed.\n
 GetCursorPos
 GetDC
 GetDIBits
-GetDIBits failed to retrieve BITMAPINFO.
-GetDIBits failed to retrieve pixel buffer.
+GetDIBits failed to retrieve BITMAPINFO.\n
+GetDIBits failed to retrieve pixel buffer.\n
 GetDpiForMonitor
 GetEnvironmentVariableA
 GetExitCodeThread
 GetForegroundWindow
 GetIconInfo
-GetIconInfo failed.
+GetIconInfo failed.\n
 GetLastError
 GetModuleHandleA
 GetModuleHandleW
 GetOverlayMouseScale
-GetPixelBuffer not implemented for biBitCount == %d.
+GetPixelBuffer not implemented for biBitCount == %d.\n
 GetProcAddress
 GetProcessHeap
 GetRestrictedErrorInfo
@@ -522,24 +328,8 @@ GetWindowRect
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
-GraphicsCaptureSession is not supported.
-H!C@H
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H-^Eu
-H93t	H
-H9Ahs
-H9D$@u
-H9Qhv#H
-H;0u:H
-H;9u|A
-H;Cxu
-H;{XH
-H;}PtwH
-HA^_^[
-HMD D3D11CreateDevice failed.
+GraphicsCaptureSession is not supported.\n
+HMD D3D11CreateDevice failed.\n
 HMD IDXGIAdapter (%s)
 HMD context (%s)
 HMD device (%s)
@@ -559,12 +349,7 @@ Handling raw mouse move
 Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
-HcFdH
 HeapFree
-I9Bhs
-I;4$H
-I;4$L
-I;8u?H
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -597,102 +382,64 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
+Init
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
-Initializing desktop manager...
-Initializing desktop view %d.
-Initializing output duplication for desktop view %d.
+Initializing desktop manager...\n
+Initializing desktop view %d.\n
+Initializing output duplication for desktop view %d.\n
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsOverlayVisible
 IsProcessorFeaturePresent
-J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
-K}*n:	
-L$ E3
-L$ H;
-L$ L;
-L$ SH
-L$ SUVWH
-L$ SVWH
-L$ SWH
-L$ UVWATAUAVAWH
-L$(E3
-L$0E3
-L$0fD
-L$8D;
-L$@H;
-L$hE3
-L$pE3
-L9)t>H
-L9l$H
-L9|$p
-L;8u6H
-L?n(Zy&
-LUnable to create graphics capture item for window.
+LUnable to create graphics capture item for window.\n
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
-M H1E
-M98u/
-MB(iVR
+MGiI
 MSVCP140.dll
-Mailbox %s received message %s, which it didn't have a handler for
+Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Minidump comment truncated
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-NPH9Q
 OLEAUT32.dll
 OpenProcess
-Out of thread local storage!
-PA^_^
-PA_A^A]A\_^]
-PA_A^_^]
-PAq=?Mp#
-Parse failed for JSON message in mailbox %s: %s
-Parsing of JSON string "%s" failed: %s
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
+Out of thread local storage!\n
+Parse failed for JSON message in mailbox %s: %s\n
+Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS
+R\npd
 RaiseException
 Recreate CaptureFramePool
-Reinitializing output duplication for desktop %d.
+Reinitializing output duplication for desktop %d.\n
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S0Q0O
-SA|X=G
 SHCreateItemFromParsingName
 SHELL32.dll
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
-SUVWATAVAWH
-SVWATAUAVAWH
-SVWAVAWH
-SVWAVH
-SWAWH
+See 
 SendInput
-SendInput failed: %d events inserted, error code = %s
-Set thread %p priority to: %d
+SendInput failed: %d events inserted, error code = %s\n
+Set thread %p priority to: %d\n
 SetActiveWindow
 SetEvent
 SetFocus
@@ -703,25 +450,21 @@ SetThreadPriority
 SetUnhandledExceptionFilter
 SetWindowLongPtrA
 SetWindowPos
-Setting mouse scale X: %f, Y: %f
+Setting mouse scale X: %f, Y: %f\n
 ShowWindow
 Shutdown
-Shutting down existing desktop views.
+Shutting down existing desktop views.\n
 Sleep
 SleepConditionVariableCS
-Started desktop capture for display %d.
-Successfully reinitialized output duplication for desktop %d, updating description.
-Switching from laser mouse to physical mouse at %d, %d (from %d, %d). Physical timestamp was %d ticks newer.
-Switching from physical mouse to laser mouse at %d, %d
-Switching to laser mouse when first showing overlay.
+Started desktop capture for display %d.\n
+Successfully reinitialized output duplication for desktop %d, updating description.\n
+Switching from laser mouse to physical mouse at %d, %d (from %d, %d). Physical timestamp was %d ticks newer.\n
+Switching from physical mouse to laser mouse at %d, %d\n
+Switching to laser mouse when first showing overlay.\n
 Syntax error: value, object or array expected.
-T$ M+
-T$(H9T$0t!H
-T$@fI
-T$XH+
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
 TlsAlloc
@@ -729,37 +472,26 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-UATAUAVAWH
 USER32.dll
-USVATAUAWH
-USVWATAUAVAWH
-USVWATAUAVH
-USVWAVH
-USVWH
-UVWATAUAVAWH
-UVWATAWH
-UVWAVAWH
-UWAVH
-UWAWH
-Unable to call duplication release frame for desktop %d.
-Unable to compute virtual coords or normalized coords...
-Unable to destroy window view - invalid HWND.
-Unable to get normalized coords from virtual coords for locked mouse position.
-Unable to get overlay mouse scale.
-Unable to interact with foreground window. Displaying window switcher.
-Unable to open desktopview mailbox.
-Unable to send debug info to the dashboard UI.
-Unable to send updated window list to the dashboard UI.
-Unable to send window view created message to the dashboard UI.
-Unable to send window view destroyed message to the dashboard UI.
-Unable to spawn window view - HWND not found in window map.
-Unable to spawn window view - invalid HWND.
-Unable to start window view for %s.
+Unable to call duplication release frame for desktop %d.\n
+Unable to compute virtual coords or normalized coords...\n
+Unable to destroy window view - invalid HWND.\n
+Unable to get normalized coords from virtual coords for locked mouse position.\n
+Unable to get overlay mouse scale.\n
+Unable to interact with foreground window. Displaying window switcher.\n
+Unable to open desktopview mailbox.\n
+Unable to send debug info to the dashboard UI.\n
+Unable to send updated window list to the dashboard UI.\n
+Unable to send window view created message to the dashboard UI.\n
+Unable to send window view destroyed message to the dashboard UI.\n
+Unable to spawn window view - HWND not found in window map.\n
+Unable to spawn window view - invalid HWND.\n
+Unable to start window view for %s.\n
 UnhandledExceptionFilter
-Unknown cursor type %d
+Unknown cursor type %d\n
 Unknown exception
-Unknown exception encountered closing capture frame pool.
-Unknown exception encountered closing graphics capture session.
+Unknown exception encountered closing capture frame pool.\n
+Unknown exception encountered closing graphics capture session.\n
 UpdateDesktopViews
 UpdateDesktopViews: clear out existing views.
 UpdateDesktopViews: create desktop views.
@@ -769,49 +501,24 @@ UpdateOverlayTexture
 UpdatePhysicalMouseInfo
 UpdatePointerOverlay
 UploadCursorTexture
-VATAVH
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_GetGenericInterface
 VR_GetInitToken
 VR_LOG_PATH
 VR_OVERRIDE
-VWATAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
-W H+W
-WATAUAVAWH
-WAVAWH
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Warning: Watchdog %s not properly cleaned up%s%s
-Washington1
+Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
-Will not cache name for PID: %d, reason: %d
+Will not cache name for PID: %d, reason: %d\n
 WindowView_%s
 WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-Y9"SD
-[K]taM?
-\$ E3
-\$ UAVAWH
-\$ UH
-\$ UWATH
-\$0H;
-\$8H;
-\$PI;
-\$`H+
-\$hI;
-\$pI;
-\u=H;
-]J<0"0i3
-]g@8yhu
+Zjz\v
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -849,7 +556,6 @@ _crt_atexit
 _dtest
 _errno
 _execute_onexit_table
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -858,12 +564,9 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-`A_A^A]A\_^[
-`A_A^A]A\_^]
-a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
+alse
 api-ms-win-core-errorhandling-l1-1-0.dll
 api-ms-win-core-handle-l1-1-0.dll
 api-ms-win-core-heap-l1-1-0.dll
@@ -900,8 +603,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdeskt
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cz
 czech
-d$`H=
-d$`L;
 d3d11.dll
 da_dk
 danish
@@ -920,29 +621,20 @@ es_es
 es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-fD9&u
-fF94@u
 false
-fffffff
 fi_fi
 finnish
 fr_fr
 frame_time
+free
 french
 german
-gfffffffH
-gfffffffI
-ggCa`
 greek
-h_^[]
 handlers
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 hu_hu
 hungarian
+hwnd
+i]Wb
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -962,20 +654,11 @@ it_it
 italian
 ja_jp
 japanese
-jj@0HK4
-k0i0$
 kernel32.dll
 ko_kr
 koreana
-l$ H;
-l$ H=
-l$8E3
-l$PM9n
-l$`M;
-l2|X/gGe
 latam
 list<T> too long
-m0k0$
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -986,24 +669,21 @@ memcpy
 memmove
 memset
 message_id
+modf
 nb_no
 nl_nl
 norwegian
-ntelD
+null
 ole32.dll
 openvr_api.dll
 overlay_frame_times
 overlay_key
-pA_A^A\_^][
-pA_A^_
-pA_A^_^]
 pl_pl
 polish
 portuguese
 product_name
 pt_br
 pt_pt
-r,fff
 request_destroy_window_view
 request_handlers
 request_handlers_response
@@ -1035,31 +715,21 @@ system.desktop.%d
 system.desktop.pointer
 system.window.%llu
 systemui_dashboard
-t$ AVH
-t$ AWH
-t$ E3
-t$ UWATAVAWH
-t$ WAVAWH
-t$ WH
-t$0H;
-t$@H=
-t$PH=
-t:I;>t
-tXfff
 tchinese
 terminate
 th_th
+thai
 title
 tolower
 tr_tr
+true
 turkish
+type
 uk_ua
 ukrainian
 update_debug_info
 update_window_list
 user32.dll
-v=Y]Bv
-vE;E`M
 vector<T> too long
 vi_vn
 vietnamese
@@ -1084,28 +754,6 @@ window_view_created
 window_view_destroyed
 windows
 wn>Jj
-www.digicert.com1!0
-www.digicert.com1$0"
-x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.\n
 zh_cn
 zh_tw
-{un'%
-|$ ATAUAVAWH
-|$ ATAVAWH
-|$ AVH
-|$ UATAUAVAWH
-|$ UH
-|$0H9
-|$0fD
-|$@A_A^A]A\
-|$@I;
-|$HE3
-|$HH;
-|$HH=
-|$PL9~
-|$hH9>ueH
-|$pH+
-|Lu?c
-}LuHO
-~qj#k"
-~t&LN

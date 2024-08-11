@@ -1,15 +1,9 @@
-					
-	AllLayers
-	Inherited
-	\/	!
-	arguments
-	m_Enabled
+ Et4
  Unity.IntegrationTests.Framework
  Use GetNativeTexturePtr instead.
  use Application.isEditor instead
  use Camera.farClipPlane instead.
 !QueryTriggerInteraction.UseGlobal
-!This program cannot be run in DOS mode.
 !Use GetInterpolatedProbe instead.
 !use Camera.nearClipPlane instead.
 !use Transform.childCount instead.
@@ -24,6 +18,7 @@
 #Strings
 #Use Vector3.ProjectOnPlane instead.
 $ArrayType=4
+$E06
 $GetCurrentRtt() has been deprecated.
 $Please use Caching.spaceFree instead
 $Use Object.DontDestroyOnLoad instead
@@ -31,6 +26,7 @@ $Use RenderTexture.dimension instead.
 $current
 $disposing
 $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
+%90y
 %Cone friction is no longer supported.
 %JointDriveMode is no longer supported
 %Unity.IntegrationTests.UnityAnalytics
@@ -41,6 +37,8 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 &Please use 'text' instead of 'content'
 &SetBorderColor is no longer supported.
 &penetrationPenaltyForce has no effect.
+'EP6
+'El6
 'ParticleSystemStopBehavior.StopEmitting
 'Use Collision.relativeVelocity instead.
 'Use GetQualityLevel and SetQualityLevel
@@ -49,6 +47,7 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 (PS3 is no longer supported in Unity 5.5+
 (Please use Caching.spaceOccupied instead
 (Shadow softness is removed in Unity 5.0+
+)ED7
 )roomRolloffFactor is no longer supported.
 )use Rigidbody.maxAngularVelocity instead.
 *EndGroup has no effect and will be removed
@@ -71,32 +70,54 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 .cctor
 .ctor
 .eBZV*
-.text
+.eBZ\n
+.eBZ\n8
+.eBZ\v8
 .use NavMesh.CalculateTriangulation () instead.
 /Assert.Equals should not be used for Assertions
+/EL7
 /RestoreNavMesh has no effect and is deprecated.
 /Use startWidth, endWidth or widthCurve instead.
+0-Tt
 0.00001F
 0.00f
+0.0F
+0.0f
+0.3F
 0.50f
+0.5f
 0AddOffMeshLinks has no effect and is deprecated.
 0GetRemotePacketReceivedRate has been deprecated.
 0Use Cursor.lockState and Cursor.visible instead.
 0Vertex program support is required in Unity 5.0+
+0Y\f8/
+1-pt
 1.0.0
 1.00f
+1.0F
+1.0f
 100.0f
+1ED8
+1El7
 1NaCl export is no longer supported in Unity 5.0+.
 1PS3 export is no longer supported in Unity >=5.5.
 1Please use Resources.FindObjectsOfTypeAll instead
+2048
 2Use startColor, endColor or colorGradient instead.
+3000
+3E\f9
 3This was an internal method which is no longer used
 3feedback is deprecated, this property does nothing.
 3loop property is deprecated. Use main.loop instead.
+4>8Q
+4>HQ
+4D4#
 4GetCurrentIncomingMessageAmount has been deprecated.
 4GetCurrentOutgoingMessageAmount has been deprecated.
 4This method is no longer supported (UnityUpgradable)
 4Xbox360 export is no longer supported in Unity 5.5+.
+59Py
+5>pQ
 5Use SetColor instead (UnityUpgradable) -> SetColor(*)
 5Use SetFloat instead (UnityUpgradable) -> SetFloat(*)
 5Use SetStackTraceLogType/GetStackTraceLogType instead
@@ -106,8 +127,10 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 7JointProjectionMode.PositionOnly is no longer supported
 7Use SetMatrix instead (UnityUpgradable) -> SetMatrix(*)
 7Use SetVector instead (UnityUpgradable) -> SetVector(*)
+7Y\f8
 7bakedIndex has been removed please use isBaked instead.
 7supportsStencil always returns true, no need to call it
+8>DR
 8Assert.ReferenceEquals should not be used for Assertions
 8FlashPlayer export is no longer supported in Unity 5.0+.
 9JointDriveMode.PositionAndvelocity is no longer supported
@@ -126,7 +149,6 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 <>f__am$cache3
 <>f__mg$cache0
 <>f__switch$map0
-<>m__0
 <AddAndCreate>c__AnonStorey1
 <Anisotropic friction is no longer supported since Unity 5.0.
 <BasePath>k__BackingField
@@ -251,11 +273,21 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 >Spring has been moved to SoftJointLimitSpring class in Unity 5
 >supportsRenderTextures always returns true, no need to call it
 ?The fixedAngle is no longer supported. Use constraints instead.
+?ZY\v8
 ?family is deprecated.  Use VRSettings.loadedDeviceName instead.
 ?isAnimatorMotion is not supported anymore. Use !legacy instead.
 ?startColor property is deprecated. Use main.startColor instead.
-@.reloc
+A)4C
+A)DD
+A)LD
+A)PC
+A)TE
+A)lC
+A)lD
+A)pE
+A-8u
 ADPCM
+AIFF
 APIOnly
 APIUpdaterRuntimeServices
 AREA_COST_ELEMENT_COUNT
@@ -284,6 +316,7 @@ ATC_RGB4
 ATC_RGBA8
 ATRAC9
 AUDIOQUEUE
+AZX"
 Abort
 Aborted
 Above
@@ -299,6 +332,7 @@ Acks32
 Acks64
 Acks96
 AcksType
+Acos
 Action`1
 Action`2
 Activate
@@ -429,7 +463,6 @@ Allocate
 AllocateViewID
 Allocator
 AllowInvoke
-AllowMultiple
 Alpha
 Alpha0
 Alpha1
@@ -539,6 +572,7 @@ AreEqualRelative
 AreNotApproximatelyEqual
 AreNotEqual
 AreVertexStreamsEnabled
+Area
 AreaEffector2D
 AreaScope
 Arena
@@ -558,6 +592,7 @@ ArrayOfTypeReferencedByFirstArgument
 ArrayType
 ArrayUtils
 AscalingMode property is deprecated. Use main.scalingMode instead.
+Asin
 Assembly
 AssemblyIsEditorAssembly
 Assert
@@ -576,6 +611,7 @@ AssignStyleState
 Asterisk
 AsyncCallback
 AsyncOperation
+Atan
 Atan2
 AtomicSafetyHandle
 AtomicSafetyHandleVersionMask
@@ -619,6 +655,7 @@ Auditorium
 Ause mask and layers to control subset of transfroms in a skeleton
 Authenticate
 Authorize
+Auto
 AutoRotation
 AutoSilenceTimeoutSeconds
 Automatic
@@ -632,12 +669,18 @@ AvatarMask
 AvatarMaskBodyPart
 AvatarTarget
 Average
+Axis
 AxisAngle
+B+Xa
+B+da
+BC6H
 BGRA32
 BIsAcksLong is deprecated. Use AcksType = ConnectionAcksType.Acks64
+BSJB
 BTargetAngularVelocity not in use for Unity 5 and assumed disabled.
 BUILDER_CAPACITY
 BUse HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
+Back
 BackQuote
 BackToFront
 Background
@@ -729,11 +772,15 @@ BlendOp
 BlendProbes
 BlendProbesAndSkybox
 BlendWeights
+Blit
 BlitMultiTap
 Blit_Identifier
 Blit_Texture
+Blue
+Body
 BodyDoF
 BodyDoFStart
+Bold
 BoldAndItalic
 Bone1
 Bone2
@@ -742,8 +789,10 @@ BoneCount
 BoneFromMuscle
 BoneName
 BoneWeight
+Bool
 Boolean
 BooleanFailureMessage
+Both
 Bottom
 BottomCenter
 BottomLeft
@@ -781,8 +830,10 @@ BuoyancyEffector2D
 Burst
 BurstSpread
 Button
+Byte
 Byte2Hex
 ByteArrayContains
+C9`y
 CRCMismatch
 Cache
 CacheIndex
@@ -811,6 +862,7 @@ CalculateRaycastTexCoord
 CalculateRelativeRectTransformBounds
 CalculateScaledTextureRects
 CalculateTriangulation
+Call
 CallBooleanMethod
 CallByteMethod
 CallCharMethod
@@ -879,10 +931,14 @@ CapsuleCollider
 CapsuleCollider2D
 CapsuleDirection2D
 CaptureScreenshot
+Card
 Caret
 CarpetedHallway
+Cast
 CastHelper`1
 Catalan
+Cave
+Ceil
 CeilToInt
 Ceiling
 CellCenter
@@ -896,6 +952,7 @@ ChannelCount
 ChannelQOS
 ChannelSize
 Channels
+Char
 Character
 CharacterController
 CharacterInfo
@@ -943,6 +1000,7 @@ CircleCastAll
 CircleCastNonAlloc
 CircleCollider2D
 CircleEdge
+City
 Clamp
 Clamp01
 ClampForever
@@ -979,6 +1037,7 @@ ClearStaticCache
 ClearTransformMotion
 ClearWithSkybox
 Client
+Clip
 ClipInstanceToScriptingObject
 ClipScope
 Clip_Vector2
@@ -1015,7 +1074,6 @@ CollisionFlags
 CollisionModule
 Colon
 Color
-Color.white
 Color3
 Color32
 Color4
@@ -1078,6 +1136,7 @@ Concat
 Concerthall
 Condition
 ConditionalAttribute
+Cone
 ConeShell
 ConeVolume
 ConeVolumeShell
@@ -1138,6 +1197,7 @@ ConvertTexture
 ConvertTexture_Full
 ConvertTexture_Slice
 ConvertToJNIArray
+Copy
 Copy3D
 CopyCount
 CopyCounterValue
@@ -1217,12 +1277,14 @@ CrossFadeInFixedTime
 CrossFadeInFixedTimeInternal
 CrossFadeInternal
 CrossFadeQueued
+Cube
 CubeArray
 CubeNormal
 CubeReflect
 Cubemap
 CubemapArray
 CubemapFace
+Cull
 CullCompletely
 CullMode
 CullResults
@@ -1271,11 +1333,17 @@ CycleSkipInstances
 CycleSkipSystems
 Cylinder
 Czech
+D)LF
+D-Xu
+D88^
+DEl<
 DNSFailure
 DPlease use Physics.AllLayers instead. (UnityUpgradable) -> AllLayers
 DUI System now uses meshes. Generate a mesh and use 'SetMesh' instead
 DVRDeviceType is deprecated. Use VRSettings.supportedDevices instead.
+DXT1
 DXT1Crunched
+DXT5
 DXT5Crunched
 Danish
 Darken
@@ -1487,6 +1555,7 @@ DragExited
 DragPerform
 DragUpdated
 DragWindow
+Draw
 DrawCube
 DrawCursor
 DrawFrustum
@@ -1528,6 +1597,7 @@ DropConnectionResponse
 Drugged
 DstAlpha
 DstColor
+Dual
 Dutch
 Dynamic
 DynamicGI
@@ -1535,6 +1605,8 @@ DynamicGI.UpdateMaterials(Renderer) is deprecated; instead, use extension method
 DynamicGI.UpdateMaterials(Terrain) is deprecated; instead, use extension method from TerrainExtensions: 'terrain.UpdateGIMaterials()' (UnityUpgradable).
 DynamicGI.UpdateMaterials(Terrain, int, int, int, int) is deprecated; instead, use extension method from TerrainExtensions: 'terrain.UpdateGIMaterials(x, y, width, height)' (UnityUpgradable).
 DynamicLightmap
+E)hF
+E)tF
 EAC_R
 EAC_RG
 EAC_RG_SIGNED
@@ -1548,9 +1620,9 @@ ETC_RGB4
 ETC_RGB4_3DS
 ETC_RGBA8_3DS
 EXRFlags
-EXRFlags.None
 EaseInOut
 EatWhitespace
+Edge
 EdgeCollider2D
 EditInput
 Editor
@@ -1565,6 +1637,7 @@ EmailAddress
 EmissionModule
 Emissive
 EmissiveIsBlack
+Emit
 Emit with a single particle structure is deprecated. Pass a ParticleSystem.EmitParams parameter instead, which allows you to override some/all of the emission properties
 Emit with specific parameters is deprecated. Pass a ParticleSystem.EmitParams parameter instead, which allows you to override some/all of the emission properties
 Emit2
@@ -1589,7 +1662,6 @@ EncodeToEXR
 EncodeToJPG
 EncodeToPNG
 Encoding
-Encoding.UTF8
 EndArea
 EndClip
 EndContainerGUIFromException
@@ -1617,6 +1689,7 @@ EnsureRunningOnMainThread
 Enter
 Enterprise
 Entry
+Enum
 Enum member AnimatorCullingMode.BasedOnClipBounds has been deprecated. Use AnimationCullingType.AlwaysAnimate or AnimationCullingType.BasedOnRenderers instead
 Enum member AnimatorCullingMode.BasedOnUserBounds has been deprecated. Use AnimationCullingType.AlwaysAnimate or AnimationCullingType.BasedOnRenderers instead
 Enum member CollisionDetectionMode2D.None has been deprecated. Use CollisionDetectionMode2D.Discrete instead (UnityUpgradable) -> Discrete
@@ -1661,6 +1734,7 @@ Exclusion
 ExecuteCommand
 ExecuteCommandBuffer
 ExecuteInEditMode
+Exit
 ExitGUI
 ExitGUIException
 Expand
@@ -1686,10 +1760,13 @@ Extrapolate
 EyeLinear
 FDeprecated. Use InitState() function or Random.state property instead.
 FEnableVertexStreams is deprecated. Use SetActiveVertexStreams instead.
+FEt<
 FFTWindow
+FP16
 FaceDown
 FaceUp
 Facing
+Fail
 FailOutOfRangeError
 Failed
 FailedToReceiveData
@@ -1697,6 +1774,7 @@ FailedToSendData
 False
 Fantastic
 Faroese
+Fast
 FastCallExceptionHandler
 Fastest
 FatalError
@@ -1709,6 +1787,7 @@ FilterMode
 FilterMode.Point
 Finalize
 FinalizerFailure
+Find
 FindBuiltin
 FindChild
 FindClass
@@ -1757,6 +1836,7 @@ FlagsAttribute
 Flare
 FlareLayer
 FlashPlayer
+Flat
 FlattenedHeadersFrom
 FlexibleSpace
 FlipLayoutAxes
@@ -1775,6 +1855,7 @@ FocusControl
 FocusType
 FocusWindow
 FogMode
+Font
 FontStyle
 FontStyle.Normal
 FontTextureRebuildCallback
@@ -1801,6 +1882,7 @@ ForceVertex
 ForeArmCloseOpen
 ForeArmRollInOut
 Forest
+Form
 Format
 FormatException
 FormatParameterName
@@ -1812,6 +1894,7 @@ FourBones
 FragmentSize
 FrameData
 FrameReadyEventHandler
+Free
 FreeHGlobal
 FreezeAll
 FreezeAndReleaseSourceData
@@ -1848,10 +1931,14 @@ FromToRotation
 Front
 FrontFacing
 FrontToBack
+Full
 FullRect
 Func`1
 Func`2
 FunctionKey
+G-tu
+G9hy
+G9xy
 GBuffer0
 GBuffer1
 GBuffer2
@@ -1870,6 +1957,7 @@ GThis property is deprecated, please use SplashScreen.isFinished instead
 GUIAspectSizer
 GUIClip
 GUIContent
+GUID
 GUIDebugger
 GUIElement
 GUIGridSizer
@@ -1892,6 +1980,7 @@ GUIToScreenPoint
 GUIToScreenRect
 GUIUtility
 GUIWordWrapSizer
+Game
 GameCenterPlatform
 GameObject
 GameTimeSource
@@ -2793,8 +2882,11 @@ GetWindowsBounds
 GetWorldCorners
 GetWorldPose
 GetWorldSpace
+GetX
 GetXMultiplier
+GetY
 GetYMultiplier
+GetZ
 GetZMultiplier
 GetZYPostQ
 GetZYRoll
@@ -2803,6 +2895,7 @@ Gizmos
 Global
 GlobalConfig
 GlobalConfigInternal
+Good
 GoodQualityObstacleAvoidance
 GplaybackSpeed property is deprecated. Use main.simulationSpeed instead.
 GrabGraphicalCursorPos
@@ -2827,8 +2920,12 @@ Green
 GroupName
 GroupScope
 Gsize property is deprecated. Use startSize or GetCurrentSize() instead.
+Guid
 Gyroscope
+H7H"
+H>HS
 HDeprecated. Cloth.selfCollisions is no longer supported since Unity 5.0.
+HE0=
 HEVAG
 HFReference
 HSLColor
@@ -2837,8 +2934,10 @@ HSLLuminosity
 HSLSaturation
 HSVToRGB
 HTTPPostError
+Half
 HalfToFloat
 Hallway
+Halo
 Hamming
 HandDownUp
 HandInOut
@@ -2849,6 +2948,7 @@ HandleTextFieldEventForDesktop
 HandleTextFieldEventForTouchscreen
 Hangar
 Hanning
+Hard
 HardLight
 HardOnly
 HasARGV
@@ -2866,9 +2966,11 @@ HasState
 HasStateInternal
 HasUser
 HasUserAuthorization
+Hash
 Hash128
 Hashtable
 HavePublicAddress
+Head
 HeadDoF
 HeadDoFStart
 HeadFrontBack
@@ -2880,6 +2982,7 @@ Heavy
 Hebrew
 Height
 Heightmap
+Help
 HelpURLAttribute
 Hemisphere
 HemisphereShell
@@ -2889,11 +2992,14 @@ HideFlags
 HideInHierarchy
 HideInInspector
 Hierarchy
+High
 HighQualityObstacleAvoidance
 HingeJoint
 HingeJoint2D
+Hips
 HitInfo
 HitTest
+Home
 Horizontal
 HorizontalBillboard
 HorizontalScope
@@ -2915,6 +3021,7 @@ HumanPose
 HumanPoseHandler
 HumanTrait
 Hungarian
+I>xS
 IAchievement
 IAchievementDescription
 IAnimatorControllerPlayable
@@ -2928,6 +3035,8 @@ IDToName
 IDictionary
 IDictionary`2
 IDisposable
+IDt$
+IE8=
 IEditorPlayerConnection
 IEnumerable
 IEnumerable`1
@@ -3828,6 +3937,7 @@ InheritRotation
 InheritSize
 InheritVelocityModule
 Inhibited
+Init
 InitAckDelay
 InitAcksType
 InitAllCostTimeout
@@ -4376,6 +4486,7 @@ IssuePluginEvent
 IssuePluginEventInternal
 Italian
 Italic
+Item
 Items
 IterateParticleSystems
 IterateParticleSystemsRecursive
@@ -4390,6 +4501,7 @@ JawDownUp
 JawLeftRight
 Jcolor property is deprecated. Use startColor or GetCurrentColor() instead.
 JetBrains.Annotations
+Join
 JoinMatch
 JoinMatchRequest
 JoinMatchResponse
@@ -4593,6 +4705,7 @@ JsonArray
 JsonObject
 JsonUtility
 KValidateIfRetargetable is not supported anymore. Use isHumanMotion instead.
+Keep
 KeyCode
 KeyCollection
 KeyDown
@@ -4619,9 +4732,11 @@ KeypadMinus
 KeypadMultiply
 KeypadPeriod
 KeypadPlus
+Keys
 KeywordRecognizer
 Keywords
 KgpuTimeLastFrame is deprecated. Use VRStats.TryGetGPUTimeLastFrame instead.
+Kill
 Kinematic
 Korean
 LFReference
@@ -4658,6 +4773,7 @@ LayoutSingleGroup
 LayoutType
 LayoutedWindow
 Leaderboard
+Left
 LeftAlt
 LeftApple
 LeftArm
@@ -4717,8 +4833,10 @@ LegacyDeferredLighting
 Length
 Length = {Length}
 LensFlare
+Lerp
 LerpAngle
 LerpUnclamped
+Less
 LessEqual
 LetterLike
 Lifetime
@@ -4773,6 +4891,7 @@ ListSerializationSurrogate
 List`1
 Lithuanian
 Livingroom
+Load
 LoadAchievementDescriptions
 LoadAchievements
 LoadActions
@@ -4862,6 +4981,7 @@ LoginFailed
 LookAhead
 LookAt
 LookRotation
+Loop
 LostConnection
 LowMemoryCallback
 LowQualityObstacleAvoidance
@@ -4871,7 +4991,9 @@ LowerLeft
 LowerLegTwist
 LowerLimit
 LowerRight
+MEd>
 MForceStateNormalizedTime is deprecated. Please use Play or CrossFade instead.
+MPEG
 MacOSX
 Magnitude
 MainModule
@@ -4880,6 +5002,7 @@ MakeCurrent
 MakeGenericType
 MakeInitialUrl
 MakeMaterialProperties
+Male
 MalformattedUrl
 Malloc
 Manual
@@ -4904,6 +5027,7 @@ MaterialGlobalIlluminationFlags
 MaterialOverride
 MaterialPropertyBlock
 MaterialType
+Math
 Mathf
 Mathf.Infinity
 MathfInternal
@@ -4929,7 +5053,9 @@ MemCpy
 MemberInfo
 Members
 MemoryStream
+Menu
 MergeScenes
+Mesh
 MeshCollider
 MeshContainer
 MeshFilter
@@ -4946,6 +5072,7 @@ MessagePoolSizeGrowthFactor
 MessageToLong
 MessageTypeId
 MessageTypeSubscribers
+Meta
 Metal
 Metallic
 Method Load has been deprecated. Script updater cannot update it as the loading behaviour has changed. Please use LoadAsset instead and check the documentation for details.
@@ -4981,6 +5108,7 @@ Mode5point1
 Mode7point1
 ModifierBox
 Monitor
+Mono
 MonoBehaviour
 MonoOrStereoscopicEye
 MonoPInvokeCallbackAttribute
@@ -5004,6 +5132,7 @@ MouseLeaveWindow
 MouseMove
 MousePosition
 MouseUp
+Move
 MoveAltCursorToPosition
 MoveCursorToPosition
 MoveDown
@@ -5060,6 +5189,7 @@ MustExtensions
 MustNotBeApproximatelyEqual
 MustNotBeEqual
 MustNotBeNull
+N3DS
 NATPunchthroughFailed
 NATTargetConnectionLost
 NATTargetNotConnected
@@ -5067,6 +5197,8 @@ NATpunchthroughAddressRestrictedCone
 NATpunchthroughFullCone
 NETWORK_ACCESS_TOKEN_SIZE
 NPOTSupport
+NaCl
+Name
 NamePhonePad
 NameToID
 NameToLayer
@@ -5125,6 +5257,7 @@ NavMeshPath
 NavMeshPathStatus
 NavMeshQueryFilter
 NavMeshTriangulation
+Neck
 NeckFrontBack
 NeckLeftRight
 NeckRollLeftRight
@@ -5193,6 +5326,7 @@ NoTimeSlicing
 NodeID
 NoiseModule
 NonDirectional
+None
 Normal
 NormalAngleUpperLimit
 Normalize
@@ -5215,6 +5349,7 @@ NotifyDeviceDiscovered
 NotifyEvents
 NotifyPropertyChangedInvocatorAttribute
 NotifyUpdate
+Null
 NullFailureMessage
 NullNetworkView
 NullReferenceException
@@ -5226,6 +5361,7 @@ NumberStyles
 NumbersAndPunctuation
 Numeric
 Numlock
+O(89
 OGGVORBIS
 OSXDashboardPlayer
 OSXEditor
@@ -5283,6 +5419,7 @@ OnStateMove
 OnStateUpdate
 OnStatusChanged
 OnValidate
+Once
 OneBone
 OneEye
 OneMinusDstAlpha
@@ -5296,6 +5433,7 @@ OnlyUsedForTesting1
 OnlyUsedForTesting2
 Opacity
 OpaqueSortMode
+Open
 OpenConsoleFile
 OpenGL2
 OpenGLCore
@@ -5350,8 +5488,11 @@ Overlay
 OverrideGeometry
 Owner
 PARAGRAPHS
+PC8\t
 PCMReaderCallback
 PCMSetPositionCallback
+PED?
+PSP2
 PShaderHardwareTier was renamed to GraphicsTier (UnityUpgradable) -> GraphicsTier
 PVRTC_RGB2
 PVRTC_RGB4
@@ -5440,6 +5581,7 @@ Pause
 PauseCycleMode
 PauseLimitExceeded
 Paused
+Peek
 PeekNext
 PerObjectLightProbe
 PerObjectLightProbeProxyVolume
@@ -5469,6 +5611,7 @@ Physics2D.AllLayers
 PhysicsColliders
 PhysicsMaterial2D
 PhysicsUpdateBehaviour2D
+Ping
 PingPong
 PingTimeout
 Pivot
@@ -5482,6 +5625,7 @@ Plane
 Planes
 PlatformEffector2D
 PlatformSelection
+Play
 PlayAnimatorController
 PlayClip
 PlayClipAtPoint
@@ -5517,6 +5661,7 @@ PlayerPrefs
 PlayerPrefsException
 Playing
 Please use WWW.text instead
+Plus
 PocoJsonSerializerStrategy
 Point
 PointEffector2D
@@ -5559,6 +5704,7 @@ PositionalLocatorState
 PositiveX
 PositiveY
 PositiveZ
+Post
 PostprocessStacktrace
 Predicate`1
 PreferBinarySerialization
@@ -5616,8 +5762,12 @@ PublicIPIsConnectable
 PublicIPNoServerStarted
 PublicIPPortBlocked
 PureAttribute
+Push
 PushLocalFrame
 PushMatrix
+Q88_
+QCP\t
+QEx?
 QFont.textureRebuildCallback has been deprecated. Use Font.textureRebuilt instead.
 QPDecode
 QPEncode
@@ -5626,6 +5776,7 @@ QThis function is obsolete and will always return -1. Use IsVersionCached instea
 QUADS
 QUse RenderSettings.ambientIntensity instead (UnityUpgradable) -> ambientIntensity
 QosType
+Quad
 Quads
 QualifiedNativeName
 QualityLevel
@@ -5643,10 +5794,14 @@ QueueMessageForSending
 QueueMessageForSendingWrapper
 QueueMode
 QueueMode.CompleteOthers
+Quit
 Quote
 R11G11B10
+RCx\t
 RELECTION_HELPER_CLASS_NAME
 RFloat
+RG16
+RG32
 RGB111110Float
 RGB24
 RGB565
@@ -5663,6 +5818,7 @@ RGFloat
 RGHalf
 RGInt
 RHalf
+RInt
 RPCMode
 RSAPublicKeyMismatch
 RTToTexture
@@ -5691,6 +5847,7 @@ ReachableViaLocalAreaNetwork
 ReactorMaximumReceivedMessages
 ReactorMaximumSentMessages
 ReactorModel
+Read
 ReadAndWrite
 ReadAndWriteInv
 ReadArrayElement
@@ -5727,6 +5884,7 @@ RecordObject
 RecordObjects
 Recorder
 RecreateDisplayList
+Rect
 RectOffset
 RectTransform
 RectTransformUtility
@@ -5981,7 +6139,9 @@ RigidbodyType2D
 RmaxVolume is not supported anymore. Use min-, maxDistance and rolloffMode instead.
 RminVolume is not supported anymore. Use min-, maxDistance and rolloffMode instead.
 Romanian
+Room
 RoomScale
+Root
 Rotate
 RotateAround
 RotateAroundInternal
@@ -6011,6 +6171,7 @@ RuntimePlatform
 RuntimeTypeHandle
 RuntimeUndo
 Russian
+S8X_
 SByte
 SDKError
 SSLCACertError
@@ -6034,6 +6195,7 @@ Sampler
 SamsungTVPlayer
 SandboxBroken
 Sandboxed
+Save
 SaveBackup
 Scale
 ScaleAndCrop
@@ -6112,8 +6274,10 @@ SelectWordRight
 SelectedText
 SelectionBaseAttribute
 SelectionGrid
+Self
 SemanticMeaning
 Semicolon
+Send
 SendCustomEvent
 SendCustomEventName
 SendDelay
@@ -6698,8 +6862,11 @@ SetWidth
 SetWidthOverTrail
 SetWidthOverTrailMultiplier
 SetWorldSpace
+SetX
 SetXMultiplier
+SetY
 SetYMultiplier
+SetZ
 SetZMultiplier
 SetterValueFactory
 SetupCameraProperties
@@ -6736,6 +6903,7 @@ ShowDefaultAchievementCompletionBanner
 ShowLeaderboardUI
 Shutdown
 Sides
+Sign
 Simple
 SimpleJson
 SimpleJson.Reflection
@@ -6746,6 +6914,7 @@ SingleOrDefault
 SingleRow
 SingleSidedEdge
 SisMask is no longer supported. See EnableClipping for vertex clipping configuration
+Size
 Size is now specified as a long
 SizeBySpeedModule
 SizeDelta
@@ -6784,10 +6953,12 @@ SmoothTangents
 Smoothness
 Social
 SocketAddress
+Soft
 SoftJointLimit
 SoftJointLimitSpring
 SoftLight
 SolidColor
+Sort
 SortFlags
 SortGO
 SortScores
@@ -6796,7 +6967,6 @@ SortingGroup
 SortingLayer
 SourceID
 Space
-Space.Self
 SpaceAttribute
 Spanish
 SparseTexture
@@ -6828,6 +6998,7 @@ Split
 SplitIndiciesStreamsInternal
 SplitUIVertexStreams
 SplitUIVertexStreamsInternal
+Spot
 Spotlight
 Spread
 SpringJoint
@@ -6843,6 +7014,7 @@ SpriteRenderer
 SpriteTileMode
 SqrDistance
 SqrMagnitude
+Sqrt
 SrcAlpha
 SrcAlphaSaturate
 SrcColor
@@ -6891,6 +7063,7 @@ StereoTargetEyeMask
 StereoscopicEye
 StoneCorridor
 Stoneroom
+Stop
 StopAll
 StopAllCoroutines
 StopBroadcastDiscovery
@@ -6978,6 +7151,8 @@ SystemException
 SystemInfo
 SystemLanguage
 SystemSetting
+T80`
+TKey
 TOKEN_COLON
 TOKEN_COMMA
 TOKEN_CURLY_CLOSE
@@ -6999,6 +7174,7 @@ Tangent
 TargetFlags
 TargetInvocationException
 TargetJoint2D
+Temp
 TempJob
 Terrain
 TerrainChangedFlags
@@ -7019,6 +7195,7 @@ TexCoord1
 TexCoord2
 TexCoord3
 TexGenMode
+Text
 TextAlignment
 TextAnchor
 TextArea
@@ -7046,6 +7223,7 @@ TextureFormat
 TextureSheetAnimationModule
 TextureToRT
 TextureWrapMode
+Thai
 The _3D argument of AudioClip is deprecated. Use the spatialBlend property of AudioSource instead to morph between 2D and 3D playback.
 This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.
 This function has been removed.
@@ -7071,12 +7249,15 @@ Tier1
 Tier2
 Tier3
 Tight
+Tile
 Tiled
+Time
 Time.deltaTime
 TimeScope
 TimeSpan
 Timeout
 TimeoutExceeded
+Tiny
 TizenPlayer
 ToAngleAxis
 ToArray
@@ -7154,6 +7335,7 @@ Translate
 TransparencySortMode
 Transparent
 Transpose
+Tree
 TreeInstance
 TreeInstances
 TreePrototype
@@ -7165,7 +7347,9 @@ Trigger
 TriggerModule
 Trilight
 Trilinear
+Trim
 TrimExcess
+True
 Truncate
 TryDeserializeObject
 TryGetDroppedFrameCount
@@ -7188,6 +7372,7 @@ TwoCurves
 TwoEyes
 TwoGradients
 TwoSided
+Type
 TypeInferenceRuleAttribute
 TypeInferenceRules
 TypeOfFirstArgument
@@ -7200,7 +7385,6 @@ U%UnityEngine.Networking.Types.SourceID
 U&UnityEngine.Networking.Types.NetworkID
 U)UnityEngine.Networking.Types.HostPriority
 U/UnityEngine.Networking.Types.NetworkAccessLevel
-UI::Canvas
 UI::RectTransform
 UICharInfo
 UILineInfo
@@ -7209,7 +7393,6 @@ UInt16
 UInt32
 UInt64
 UNITY_ASSERTIONS
-UNITY_EDITOR
 UNKNOWN
 URLDecode
 URLEncode
@@ -7231,6 +7414,7 @@ Uncompressed
 Underscore
 Underwater
 Undetermined
+Undo
 UnfocusWindow
 Uninitialized
 Unity.Automation
@@ -7239,8 +7423,6 @@ Unity.DeploymentTests.Services
 Unity.IntegrationTests
 Unity.RuntimeTests
 Unity.RuntimeTests.Framework
-Unity::Cloth
-Unity::Joint
 UnityAPICompatibilityVersionAttribute
 UnityAction
 UnityAction`1
@@ -7442,13 +7624,17 @@ UsePlatformSpecificProtocols
 UsePlayerSettings
 UseProxyVolume
 UseSecondaryVersion
+Used
 UsedByNativeCodeAttribute
 UsedImplicitlyAttribute
+User
 UserAuthorization
 UserProfile
 UserScope
 UserState
 Utility
+V7X#
+VEt@
 VPlease use Physics.IgnoreRaycastLayer instead. (UnityUpgradable) -> IgnoreRaycastLayer
 VRDevice
 VRDeviceType
@@ -7475,14 +7661,8 @@ VaryingRandomXYZ
 VaryingRandomXYZW
 Vector
 Vector2
-Vector2.one
-Vector2.zero
 Vector3
-Vector3.one
-Vector3.up
-Vector3.zero
 Vector4
-Vector4.zero
 Velocity
 VelocityChange
 VelocityOverLifetimeModule
@@ -7511,6 +7691,7 @@ VideoRenderMode
 VideoSource
 VideoTimeSource
 Vietnamese
+View
 Viewport
 ViewportPointToRay
 ViewportToScreenPoint
@@ -7518,9 +7699,12 @@ ViewportToWorldPoint
 VisibleLight
 VisibleLightFlags
 VisibleReflectionProbe
+Void
 Vorbis
 VrolloffFactor is not supported anymore. Use min-, maxDistance and rolloffMode instead.
 Vulkan
+W9P{
+WEHA
 WORDS
 WP8Player
 WSAPlayerARM
@@ -7540,6 +7724,7 @@ WakeUp
 WarmUp
 WarmupAllShaders
 Warning
+Warp
 WeakListenerBindings
 WebCam
 WebCamDevice
@@ -7549,6 +7734,7 @@ WebGLPlayer
 WebRequestUtils
 WebSearch
 WebSocketReceiveBufferMaxSize
+Week
 WheelCollider
 WheelFrictionCurve
 WheelHit
@@ -7558,6 +7744,7 @@ Where
 WhiteSpace
 WholeSheet
 Width
+WiiU
 Will always return zero.
 WillBeDestroyed
 WillRenderCanvases
@@ -7575,6 +7762,7 @@ WorldParticleCollider
 WorldSpace
 WorldToScreenPoint
 WorldToViewportPoint
+Wrap
 WrapMode
 WrapNonExceptionThrows
 WritableAttribute
@@ -7589,32 +7777,104 @@ WrongChannel
 WrongConnection
 WrongHost
 WrongOperation
+X*lP
+X84a
+X8@a
 XBOX360
+XT8@
+XX}W
+XX}X
 XYAndZ
+X\f(85
+X\f85
+X\f8L
+X\v8q
 Xbox360
 XboxOne
+Xi\n8
 XisGyroAvailable property is deprecated. Please use SystemInfo.supportsGyroscope instead.
 XkY}A
 XkY}B
+Y8\a
 YIssuePluginEvent(eventID) is deprecated. Use IssuePluginEvent(callback, eventID) instead.
 YNetworkView RPC functions are deprecated. Refer to the new Multiplayer Networking system.
 YParticleSystemVertexStreams is deprecated. Please use ParticleSystemVertexStream instead.
+YUY2
+YZX\n8
+YZY(
+YZY8
+YZYZ
+YZk\n
+YZk\v
 YieldInstruction
+YkZY
+YkZY\r"
 YoungestInFront
 YstartSize property is deprecated. Use main.startSize or main.startSizeMultiplier instead.
+Z-Lv
+Z8ha
+Z9l{
 ZApplication.RegisterLogCallback is deprecated. Use Application.logMessageReceived instead.
 ZGetStereoViewMatrices is deprecated. Use GetStereoViewMatrix(StereoscopicEye eye) instead.
 ZPlease use Physics.DefaultRaycastLayers instead. (UnityUpgradable) -> DefaultRaycastLayers
 ZSetStereoViewMatrices is deprecated. Use SetStereoViewMatrix(StereoscopicEye eye) instead.
 ZThe sleepAngularVelocity is no longer supported. Set Use sleepThreshold to specify energy.
-ZX(/	
-ZX(y	
+ZX(y\t
+ZXK\r
+ZXMs
+ZXN\v8
+ZXNs
 ZXNsY2
+ZX\n8
+ZX\v8
+ZXq.
+ZY\n8
+Zero
 [Use AudioClip.loadState instead to get more detailed information about the loading process.
+\8Lb
 \AvatarMask.humanoidBodyPartCount is deprecated. Use AvatarMaskBodyPart.LastBodyPart instead.
+\fUNITY_EDITOR
+\fUnity::Cloth
+\fUnity::Joint
+\fUnmarshalled
+\fVector2.zero
+\fVector3.zero
+\fVector4.zero
+\f\f\f\f\f\f\f\f\f\f\f\f
 \minBounce and maxBounce are replaced by a single JointLimits.bounciness for both limit ends.
+\nQ8e
+\nSpace.Self
+\nUI::Canvas
+\nVector3.up
+\nmethodName
+\nod1
+\nrSl
+\nrsm
+\nsH2
+\nsR5
+\nsx1
+\rAllowMultiple
+\rEXRFlags.None
+\rEncoding.UTF8
+\rfloatArgument
 \startDelay property is deprecated. Use main.startDelay or main.startDelayMultiplier instead.
 \startSpeed property is deprecated. Use main.startSpeed or main.startSpeedMultiplier instead.
+\tAllLayers
+\tInherited
+\t\f\f\f\f\f\f\f\f\f\n
+\targuments
+\tm_Enabled
+\vColor.white
+\vUnityEngine
+\vVector2.one
+\vVector3.one
+\vintArgument
+\vkXX}A
+\vkXX}B
+\vm_Listeners
+\vsimple-json
+]8hb
+]8xb
 ]System.Attribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 ]maxNumberOfSamplesPerFrame is no longer needed, as the profiler buffers auto expand as needed
 _AndroidJNIHelper
@@ -7625,10 +7885,12 @@ _CallStatic
 _CorDllMain
 _Creating materials from shader source string is no longer supported. Use Shader assets instead.
 _Dispose
+_Get
 _GetRawClass
 _GetRawObject
 _GetStatic
 _See QualitySettings.names, QualitySettings.SetQualityLevel, and QualitySettings.GetQualityLevel
+_Set
 _SetStatic
 _active
 _cameraInstanceID
@@ -7660,11 +7922,15 @@ _style
 _time
 _valueFactory
 _version
-`.rsrc
+`E8C
+`EHC
 `Obsolete msg (UnityUpgradable) -> * UnityEngine.WWWAudioExtensions.GetAudioClip(UnityEngine.WWW)
 `Please use Physics.defaultSolverIterations instead. (UnityUpgradable) -> defaultSolverIterations
+a8(c
+a9L|
 aCharacterInfo.uv is deprecated. Use uvBottomLeft, uvBottomRight, uvTopRight or uvTopLeft instead.
 aConfiguring smooth sphere collisions is no longer needed. PhysX3 has a better behaviour in place.
+aEXC
 aString
 absmax
 absoluteDepth
@@ -7841,11 +8107,17 @@ arcMode
 arcSpeed
 arcSpeedMultiplier
 arcSpread
+area
 areaCost
 areaIndex
 areaMask
 areaName
 areas
+arg0
+arg1
+arg2
+arg3
+args
 argsBuffer
 argsOffset
 argsType
@@ -7916,11 +8188,19 @@ averageEloScore
 averageSpeed
 avoidancePredictionTime
 avoidancePriority
+axis
 axisLength
 axisName
 axisOfRotation
 azimuthAngle
+b8Dc
+b8Tc
+b9d|
+bEpC
 bUse SceneManager.sceneCount and SceneManager.GetSceneAt(int index) to loop the all scenes instead.
+ba\f8
+ba\n8
+back
 backButtonLeavesApp
 background
 backgroundColor
@@ -7947,6 +8227,7 @@ behaviour
 bendFactor
 bendingStiffness
 biDirectional
+bias
 bidirectional
 billboard
 billboardsFaceCameraPosition
@@ -7969,7 +8250,9 @@ blitMaterial
 blockHeight
 blockWidth
 blocksRaycasts
+blue
 board
+body
 bodyData
 bodyPosition
 bodyRotation
@@ -8031,8 +8314,10 @@ bytes
 bytesDownloaded
 bytesPerSec
 bytesUsed
+c8pc
 cFindChild has been deprecated. Use Find instead (UnityUpgradable) -> Find([mscorlib] System.String)
 cObsolete msg (UnityUpgradable) -> * UnityEngine.WWWAudioExtensions.GetMovieTexture(UnityEngine.WWW)
+ca\n8
 cache
 cacheSize
 cachedSortingLayerValue
@@ -8041,6 +8326,7 @@ calcMaxWidth
 calcMinHeight
 calcMinWidth
 calculateBounds
+call
 callState
 callback
 callbacksOnDisable
@@ -8112,6 +8398,7 @@ client
 clientHeight
 clientRect
 clientWidth
+clip
 clipName
 clipOffset
 clipPlane
@@ -8198,6 +8485,7 @@ compressionEnabled
 computeBuffer
 computeShader
 condition
+conf
 confidence
 confidenceLevel
 config
@@ -8245,6 +8533,7 @@ cookieSize
 copyTextureSupport
 corners
 correctionScale
+cost
 costModifier
 costOverride
 costs
@@ -8255,6 +8544,7 @@ crossFadeAnimationDuration
 cubemap
 cubemapCount
 cubemapFace
+cull
 cullResults
 cullingGroup
 cullingMask
@@ -8300,8 +8590,11 @@ customReflection
 customSimulationSpace
 customStyles
 cutoffFrequency
+cyan
 cycleCount
 cycleMode
+d,4k
+d9h|
 dPlease use Rigidbody.solverVelocityIterations instead. (UnityUpgradable) -> solverVelocityIterations
 dampTime
 dampen
@@ -8309,11 +8602,13 @@ dampenMultiplier
 damper
 damping
 dampingRatio
+data
 dataEncoding
 dataID
 dataLength
 dataPath
 dataPointer
+date
 death0
 death1
 debug
@@ -8361,6 +8656,7 @@ designedForTrigger
 desiredAccuracyInMeters
 desiredColorSpace
 desiredVelocity
+dest
 destX
 destY
 destination
@@ -8422,12 +8718,15 @@ dofIndex
 domain
 domainRegex
 dominantcolor
+done
 dopplerLevel
 doubleClickSelectsWord
 doubleSidedGI
+down
 downloadHandler
 downloadProgress
 downloadedBytes
+drag
 dragPerform
 dragStartPos
 dragStartValue
@@ -8454,12 +8753,16 @@ dstElement
 dstMip
 dstNode
 dstOffset
+dstX
+dstY
 duration
 dynamic
 dynamicFriction
 dynamicFriction2
+e+pc
 eUse Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees
 eatKeyPressOnTextFieldFocus
+edge
 edgeCount
 edgeRadius
 editor
@@ -8467,6 +8770,7 @@ editorRenderFlags
 editorWindowInstanceID
 effectiveSpeed
 effectiveWeight
+ei\n8
 elapsedNanoseconds
 elemHeight
 elemSize
@@ -8479,6 +8783,7 @@ eloScoreTarget
 emission
 emissionRate
 emissionRate property is deprecated. Use emission.rateOverTime, emission.rateOverDistance, emission.rateOverTimeMultiplier or emission.rateOverDistanceMultiplier instead.
+emit
 emitParams
 emitterVelocityScale
 empty
@@ -8538,6 +8843,7 @@ exceptiono
 excludeThis
 exeptionConnectionId
 exists
+exit
 expand
 expectEqual
 expectNull
@@ -8569,6 +8875,7 @@ fCreating materials from shader source string will be removed in the future. Use
 fGetOutputData return a float[] is deprecated, use GetOutputData passing a pre allocated array instead.
 fGetStereoProjectionMatrices is deprecated. Use GetStereoProjectionMatrix(StereoscopicEye eye) instead.
 fSetStereoProjectionMatrices is deprecated. Use SetStereoProjectionMatrix(StereoscopicEye eye) instead.
+face
 faceMask
 faceSize
 factor
@@ -8588,6 +8895,7 @@ fieldInfo
 fieldName
 fieldNames
 fieldOfView
+file
 fileName
 fileNames
 filename
@@ -8641,6 +8949,7 @@ fogEndDistance
 fogMode
 fogStartDistance
 folder
+font
 fontNames
 fontSize
 fontSizeUsedForBestFit
@@ -8664,6 +8973,7 @@ forceTarget
 forceTest
 forceVariation
 forcedMin
+form
 formData
 formFields
 format
@@ -8698,15 +9008,20 @@ frictionDirection2
 frictionForceSum
 friend
 friends
+from
 fromDirection
 fromThat
 fromValue
 fullPathHash
 fullScreen
 fullscreen
+func
 function
 functionKey
 functionName
+g)8H
+g8 d
+g80d
 g_MaxHosts
 g_MaxNetSimulatorTimeout
 g_MaxTimerTimeout
@@ -10903,6 +11218,7 @@ globalTextureNameID
 globalref
 glyphHeight
 glyphWidth
+goal
 goalPosition
 goalRotation
 gpuTimeLastFrame
@@ -10930,8 +11246,10 @@ gravityModifierMultiplier
 gravityScale
 gravityWeight
 gravity_Internal
+gray
 grayscale
 green
+grey
 gridResolutionX
 gridResolutionY
 gridResolutionZ
@@ -10940,6 +11258,10 @@ groupName
 guiIsExiting
 guiPoint
 guiRect
+guid
+gyro
+h8Ld
+h8\d
 hFocusType.Native now behaves the same as FocusType.Passive in all OS cases. (UnityUpgradable) -> Passive
 halfExtents
 haloStrength
@@ -10967,6 +11289,7 @@ hasSelection
 hasSpeedTreeWind
 hasTransformHierarchy
 hasTranslationDoF
+hash
 hash1
 hash2
 hashString
@@ -10998,6 +11321,7 @@ highAngularXLimit
 highQuality
 highTwistLimit
 highpassResonanceQ
+hint
 hintPosition
 hitInfo
 horiz
@@ -11031,11 +11355,15 @@ humanName
 humanPose
 humanScale
 humanoidBodyPartCount
+i)DH
+i8xd
+i9X}
 iGetMonoHeapSize has been deprecated since it is limited to 4GB. Please use GetMonoHeapSizeLong() instead.
 iGetMonoUsedSize has been deprecated since it is limited to 4GB. Please use GetMonoUsedSizeLong() instead.
 iHeaders
 iShared default material now used for text and general UI elements, call Canvas.GetDefaultCanvasMaterial()
 iUse Quaternion.AngleAxis instead. This function was deprecated because it uses radians instead of degrees
+iXX\f
 idValid
 identifier
 identity
@@ -11067,6 +11395,7 @@ inMinDelay
 inNormal
 inNormals
 inPoint
+inPt
 inPt0
 inPt1
 inTangent
@@ -11088,6 +11417,7 @@ inertia
 inertiaTensor
 inertiaTensorRotation
 inflateMesh
+info
 inheritParticleColor
 inheritVelocity
 initialCapacity
@@ -11106,6 +11436,7 @@ inset
 inside
 insideUnitCircle
 insideUnitSphere
+inst
 installMode
 installerName
 instance
@@ -11237,11 +11568,17 @@ isWarmedUp
 isWebPlayer
 isWindow
 isWriting
+item
 itemName
+iter
+j)dH
 jApplication.RegisterLogCallbackThreaded is deprecated. Use Application.logMessageReceivedThreaded instead.
+jE0D
+jE<D
 jGetOutputData returning a float[] is deprecated, use GetOutputData and pass a pre allocated array instead.
 jThis property is deprecated, please use LoadLevelAsync to detect if a specific scene is currently loading.
 jUse Vector3.Angle instead. AngleBetween uses radians instead of degrees and was deprecated for this reason
+jXsx
 jargs
 javaArgs
 javaClass
@@ -11257,13 +11594,16 @@ jointLinearSpeed
 jointSpeed
 jointTranslation
 jrunnable
+json
 jsonSerializerStrategy
 jsonString
 jvalue
 kAllLayers
+kD8(
 kDefaultRaycastLayers
 kDistanceMask
 kDummyRect
+kELD
 kEpsilon
 kHttpVerbCREATE
 kHttpVerbDELETE
@@ -11286,12 +11626,18 @@ kNoTagFormat
 kTagFormat
 kUse Quaternion.ToAngleAxis instead. This function was deprecated because it uses radians instead of degrees
 kUse Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees
-kXX}A
-kXX}B
+kXA(
+kXC<
+kXX\f
+kXX\r
 kXX}C
 kXX}D
-kZ"fff?ZX
-kZ"fff?ZY
+kXY(
+kXY\n
+kY\tY
+kY}J
+kZ"fff?ZX\n8
+kZ"fff?ZY\n
 k_AssertionFailed
 k_Expected
 keepPositioning
@@ -11305,12 +11651,17 @@ keyUp
 keyboardControl
 keyboardOnScreen
 keyboardType
+keys
 keyword
 keywords
 kgravityModifier property is deprecated. Use main.gravityModifier or main.gravityModifierMultiplier instead.
 klass
+l8\fe
+lEhD
+lEpD
 lGetSpectrumData returning a float[] is deprecated, use GetOutputData and pass a pre allocated array instead.
 label
+last
 lastData
 lastFrame
 lastPos
@@ -11339,6 +11690,7 @@ layoutType
 lcHexChars
 leaderboardID
 leading
+left
 leftBorder
 leftButton
 leftFeetBottomHeight
@@ -11404,10 +11756,13 @@ linearSleepTolerance
 linearVelocityBlending
 linenumber
 lines
+link
 linkID
 linkType
+list
 listenPort
 listener
+load
 loadAction
 loadInBackground
 loadState
@@ -11442,6 +11797,7 @@ lockState
 lodBias
 lodCount
 lodParameters
+lods
 logEnabled
 logFile
 logHandler
@@ -11454,6 +11810,7 @@ logWarnings
 logger
 longitude
 lookAtPosition
+loop
 loopPointReached
 loopPtr
 lossyScale
@@ -11463,6 +11820,10 @@ lowTwistLimit
 lowerArmTwist
 lowerLegTwist
 lowpassResonanceQ
+m)pH
+m8(e
+m88e
+m9T~
 mGetSpectrumData returning a float[] is deprecated, use GetSpectrumData passing a pre allocated array instead.
 mHasTexture
 mJavaStackTrace
@@ -11651,6 +12012,9 @@ m_HitIndexPhysics3D
 m_HorizontalAccuracy
 m_Hover
 m_HumanName
+m_ID
+m_IP
+m_Id
 m_IgnoreFromBuild
 m_Image
 m_Impulse
@@ -11684,7 +12048,6 @@ m_LightmapScaleOffset
 m_Limit
 m_Lines
 m_LinkType
-m_Listeners
 m_Loading
 m_LocalUser
 m_LocalUserScore
@@ -11909,6 +12272,7 @@ m_Type0
 m_Type1
 m_Type2
 m_TypeName
+m_UV
 m_UdpSocketReceiveBufferMaxSize
 m_UnachievedDescription
 m_Underage
@@ -11982,6 +12346,7 @@ m_window
 magenta
 magneticHeading
 magnitude
+main
 mainAsset
 mainGyroIndex_Internal
 mainTexture
@@ -11993,7 +12358,9 @@ margin
 markNoLogerReadable
 markNonReadable
 markups
+mask
 maskChar
+mass
 masterTextureLimit
 matchAdvertise
 matchAttributeFilterEqualTo
@@ -12072,6 +12439,8 @@ maxTranslationSpeed
 maxValue
 maxVolume
 maxWidth
+maxX
+maxY
 maximum
 maximumAtlasSize
 maximumAvailableDiskSpace
@@ -12086,6 +12455,7 @@ memory
 menuItem
 menuName
 mergeSubMeshes
+mesh
 meshCount
 meshInstanceID
 meshMaterialIndex
@@ -12134,6 +12504,8 @@ minValue
 minVertexDistance
 minVolume
 minWidth
+minX
+minY
 minimum
 minimumAllocatableViewIDs
 minimumConfidence
@@ -12144,9 +12516,11 @@ miplevel
 mipmap
 mipmapCount
 mmethodName
+mode
 model
 modelview
 modifiers
+mono
 monoHumanDescription
 motion
 motionVectorGenerationMode
@@ -12179,8 +12553,12 @@ multiplier
 muscleId
 muscles
 mustCompleteNextFrame
+mute
 myArray
+n8Te
+n8de
 nLoadUnityWeb is no longer supported. Please use javascript to reload the web player on a different url instead
+name
 nameFilter
 nameHash
 nameID
@@ -12195,6 +12573,7 @@ nativeTex
 navMeshData
 navMeshLayer
 navMeshOwner
+near
 nearClipPlane
 needsHorizontalScrollbar
 needsVerticalScrollbar
@@ -12211,6 +12590,8 @@ newPosition
 newSkin
 newState
 newText
+newX
+newY
 new_w
 new_x
 new_y
@@ -12219,12 +12600,14 @@ nextOffMeshLinkData
 nextPosition
 nextScrollStepTime
 ngameObject.SetActiveRecursively() is obsolete. Use GameObject.SetActive(), which is now inherited by children.
+node
 nodeId
 nodeIndex
 noise
 noiseSpread
 nonJitteredProjectionMatrix
 nonReadable
+none
 normal
 normalDirection
 normalImpulse
@@ -12239,6 +12622,7 @@ normalizedTime
 normals
 notify
 npotSupport
+null
 nullableType
 numBuffers
 numBytes
@@ -12253,6 +12637,8 @@ numTilesY
 numVirtualVoices
 number
 numeric
+obj1
+obj2
 object
 objectArgument
 objectArgumentAssemblyTypeName
@@ -12262,6 +12648,7 @@ objectToUndo
 objectTransform
 objectType
 objectsToUndo
+objs
 observed
 obstacleAvoidanceType
 occupied
@@ -12309,6 +12696,7 @@ op_Multiply
 op_Subtraction
 op_UnaryNegation
 opaqueSortMode
+open
 operatingSystem
 operatingSystemFamily
 operation
@@ -12356,8 +12744,20 @@ overrides
 overridesCount
 owner
 ownerID
+p,Dk
+p8Dk
+pETE
 pParticleSystemEmissionType no longer does anything. Time and Distance based emission are now both always active.
 pPlease use Physics.defaultSolverVelocityIterations instead. (UnityUpgradable) -> defaultSolverVelocityIterations
+p\n87
+p\n8B
+p\n8M
+p\n8P
+p\n8X
+p\n8Y
+p\n8c
+p\n8n
+p\n8y
 packed
 packedSphere
 packetLossPercentage
@@ -12384,12 +12784,14 @@ particleRenderMode
 particleSystem
 particleSystemParticle
 particles
+pass
 passCount
 passName
 passType
 password
 passwordProtected
 patchCount
+path
 pathCount
 pathEndPosition
 pathPending
@@ -12410,6 +12812,7 @@ phraseDuration
 phraseDurationTicks
 phraseStartFileTime
 phraseStartTime
+pipe
 pitch
 pivot
 pivotPoint
@@ -12445,6 +12848,7 @@ playerData
 playerID
 playerId
 playerLimit
+poh*
 point
 point0
 point1
@@ -12454,7 +12858,11 @@ pointB
 pointCount
 pointerId
 points
+pon1
+poo1
+pool
 popMaterialCount
+port
 position
 positionA
 positionB
@@ -12467,6 +12875,11 @@ positions
 postData
 postWrapMode
 power
+pr8w
+pr9\n
+prC$
+prK~
+pr\ny
 preWrapMode
 preallocatedBuffer
 predicate
@@ -12501,6 +12914,7 @@ productName
 profilerCaptureFlags
 programAppID
 progress
+proj
 projMatrix
 projectFolder
 projectId
@@ -12508,6 +12922,7 @@ projectionAngle
 projectionDistance
 projectionMatrix
 projectionMode
+prop
 properties
 propertyInfo
 propertyName
@@ -12518,8 +12933,12 @@ proxy
 proxyIP
 proxyPassword
 proxyPort
+pry?
+psB+
+psc\v
 publicAddress
 publicClientAddress
+push
 qGameObject.active is obsolete. Use GameObject.SetActive(), GameObject.activeSelf or GameObject.activeInHierarchy.
 qSecurity.PrefetchSocketPolicy is no longer supported, since the Unity Web Player is no longer supported by Unity.
 qpEscapeChar
@@ -12527,11 +12946,13 @@ qpForbidden
 qpSpace
 qualifiedCppName
 quality
+quat
 queriesHitBackfaces
 queriesHitTriggers
 queriesStartInColliders
 queryTriggerInteraction
 queue
+r8Dl
 rApplication.webSecurityEnabled is no longer supported, since the Unity Web Player is no longer supported by Unity.
 rApplication.webSecurityHostUrl is no longer supported, since the Unity Web Player is no longer supported by Unity.
 rEnum member DrawIndirect has been deprecated. Use IndirectArguments instead (UnityUpgradable) -> IndirectArguments
@@ -12553,6 +12974,8 @@ randomizeRotationDirection
 randomized
 range
 rangeMultiplier
+rank
+rate
 rateMultiplier
 rateOverDistance
 rateOverDistanceMultiplier
@@ -12584,6 +13007,7 @@ recognizer
 recorderMode
 recorderStartTime
 recorderStopTime
+rect
 rectExtents
 rectTransform
 rectangle
@@ -12747,9 +13171,11 @@ rndRotation
 rndVelocity
 rolloffFactor
 rolloffMode
+room
 roomHF
 roomLF
 roomRolloffFactor
+root
 rootBone
 rootCanvas
 rootCount
@@ -12776,11 +13202,14 @@ rotationWeight
 rotationalOffset
 routine
 rowIndex
+rows
+rule
 runInBackground
 runnable
 runtimeAnimatorController
 sGetCollisionEvents function using ParticleCollisionEvent[] is deprecated. Use List<ParticleCollisionEvent> instead.
 sGetRuntimeMemorySize has been deprecated since it is limited to 2GB. Please use GetRuntimeMemorySizeLong() instead.
+sRGB
 sRGBWrite
 s_BeginGroupHash
 s_BoxHash
@@ -12886,6 +13315,7 @@ sectionData
 sectionName
 secure
 secureText
+seed
 seekCompleted
 seekOccurred
 selectIndex
@@ -12893,6 +13323,7 @@ selected
 selection
 selectionColor
 selector
+self
 selfCollision
 semanticMeanings
 sendCollisionMessages
@@ -14410,6 +14841,24 @@ shapeType
 sharedMaterial
 sharedMaterials
 sharedMesh
+shb0
+shb1
+shb2
+shb3
+shb4
+shb5
+shb6
+shb7
+shb8
+shg0
+shg1
+shg2
+shg3
+shg4
+shg5
+shg6
+shg7
+shg8
 shift
 shortNameHash
 shouldSupportTiling
@@ -14426,18 +14875,27 @@ showPolyMeshDetail
 showRawContours
 showRegions
 showVoxels
+shr0
+shr1
+shr2
+shr3
+shr4
+shr5
+shr6
+shr7
+shr8
 sideArc
 sides
 sidewaysDir
 sidewaysFriction
 sidewaysSlip
 signature
-simple-json
 simpleVert
 simulateMouseWithTouches
 simulated
 simulationSpace
 simulationSpeed
+size
 sizeAffectsLifetime
 sizeAffectsRange
 sizeAffectsWidth
@@ -14450,10 +14908,12 @@ sizeMultiplier
 sizeOverLifetime
 sizes
 skeleton
+skin
 skinMode
 skinWidth
 skinnedMeshRenderer
 skinnedMotionVectors
+skip
 skipOnDrop
 skipRTCameras
 skybox
@@ -14545,6 +15005,8 @@ srcRectOffset
 srcStyleState
 srcValue
 srcWidth
+srcX
+srcY
 stabilizeFeet
 stackDepth
 stackTrace
@@ -14605,6 +15067,7 @@ staticFriction2
 status
 steerAngle
 steeringTarget
+step
 stepOffset
 stepsAboveThreshold
 stepsBelowThreshold
@@ -14705,6 +15168,7 @@ systemLanguage
 systemMemorySize
 systemTypeInstance
 systemWidth
+t,Lk
 tabSize
 table
 tagHash
@@ -14733,6 +15197,7 @@ targetTexture
 targetUrl
 targetVelocity
 targetWeight
+temp
 temporaryCachePath
 temporaryDistance
 terrain
@@ -14744,6 +15209,7 @@ testMode
 texCoords
 texType
 texelSize
+text
 textAnchor
 textArea
 textColor
@@ -14785,6 +15251,8 @@ tileSize
 tileWidth
 tileX
 tileY
+tilt
+time
 timeEnd
 timeSamples
 timeScale
@@ -14808,6 +15276,7 @@ tooltipRect
 topBorder
 topLevel
 topValue
+topY
 topic
 topicConstraint
 toplevel
@@ -14835,6 +15304,7 @@ translation
 transparencySortAxis
 transparencySortMode
 transpose
+tree
 treeBillboardDistance
 treeCrossFadeLength
 treeDistance
@@ -14848,13 +15318,17 @@ triangleIndex
 triangles
 trigger
 tripleClickSelectsLine
+true
 trueHeading
 ttarget
+tvOS
 twistLimitSpring
+type
 type1
 type2
 typeName
 types
+u,hk
 u32_0
 u32_1
 u32_2
@@ -14863,6 +15337,7 @@ ucHexChars
 unachievedDescription
 unassigned
 underage
+unit
 unityAudioDisabled
 unityEventBase
 unityObjectArgument
@@ -14953,10 +15428,12 @@ useSpring
 useTriggers
 useVirtualParticles
 useWorldSpace
+used
 usedByComposite
 usedByEffector
 usedHeapSize
 usedHeapSizeLong
+user
 userAcceleration
 userAcceleration_Internal
 userCallback
@@ -14973,6 +15450,8 @@ usingIAPService
 usingRelay
 utf32
 utf32Character
+uv0S
+uv1S
 uvAnimationCycles
 uvAnimationXTile
 uvAnimationYTile
@@ -15006,6 +15485,7 @@ valuesCount
 variable
 variant
 variantCount
+vc>d
 vector
 velocity
 velocityIterations
@@ -15015,6 +15495,7 @@ velocityThreshold
 velocityUpdateMode
 version
 versionNode
+vert
 vertexBufferCount
 vertexCount
 vertexDistance
@@ -15033,6 +15514,7 @@ vertices
 verts
 videoRotationAngle
 videoVerticallyMirrored
+view
 viewID
 viewMatrix
 viewRect
@@ -15046,6 +15528,9 @@ volumeDepth
 volumeScale
 voxelSize
 vrUsage
+w-4w
+w7h$
+wE$F
 wGetTotalReservedMemory has been deprecated since it is limited to 4GB. Please use GetTotalReservedMemoryLong() instead.
 waitForFirstFrame
 waitTime
@@ -15106,32 +15591,51 @@ worldVelocityScale
 wrapMode
 xAngle
 xBase
+xCl\v
 xCount
 xDrive
+xE0F
+xE8F
+xEXF
+xMax
+xMin
 xMotion
 xMultiplier
 xbirth0 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 xbirth1 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
+xc@d
 xdeath0 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 xdeath1 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
+xmax
+xmin
+y*TQ
 yAngle
 yBase
 yDrive
 yGetTotalAllocatedMemory has been deprecated since it is limited to 4GB. Please use GetTotalAllocatedMemoryLong() instead.
+yMax
+yMin
 yMotion
 yMultiplier
 yPlease use Particle.remainingLifetime instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/Particle.remainingLifetime
 yThe sleepAngularVelocity is no longer supported. Use sleepThreshold. Note that sleepThreshold is energy but not velocity.
 yellow
+ymax
+ymin
+z-lw
 zAngle
 zDrive
+zFar
 zMotion
 zMultiplier
 zNear
 zThis function is unused and should not be referenced in code. Please sign in and setup your project in the editor instead.
+zcBd
+zero
 zeroEventTime
 {Please use MinMaxCurve.curveMultiplier instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/MinMaxCurve.curveMultiplier
 {warning Don't use clipOffset - put things inside BeginGroup instead. This functionality will be removed in a later version.
 |collision0 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
 |collision1 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.
+}8Xm
 ~This class is not used anymore.  See AnimatorOverrideController.GetOverrides() and AnimatorOverrideController.ApplyOverrides()

@@ -1,12 +1,4 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- 5Auth
- 5Genu
- H3D$0H
-!This program cannot be run in DOS mode.
 !weakref.load()
-#HcD$ H
-$Hc@<H
-.00cfg
 .?AVQDDSHandler@@
 .?AVQDDSPlugin@@
 .?AVQImageIOHandler@@
@@ -16,98 +8,6 @@ $Hc@<H
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.pdata
-.text
-0Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-4HcD$(
-9D$$sv
-9D$(s<H
-9D$(sNH
-9D$(sYH
-9D$(s|H
-9D$,sQ
-9D$,sgH
-9D$0s.H
-9D$4s^
-9D$4stD
-9HcD$(HcL$(
-;D$ t\L
-<HcD$(
-??0QByteArray@@QEAA@AEBV0@@Z
-??0QByteArray@@QEAA@PEBDH@Z
-??0QByteArray@@QEAA@UQByteArrayDataPtr@@@Z
-??0QDataStream@@QEAA@PEAVQIODevice@@@Z
-??0QImage@@QEAA@$$QEAV0@@Z
-??0QImage@@QEAA@HHW4Format@0@@Z
-??0QImage@@QEAA@XZ
-??0QImageIOHandler@@QEAA@XZ
-??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
-??0QMessageLogger@@QEAA@PEBDH0@Z
-??0QSize@@QEAA@HH@Z
-??0QVariant@@QEAA@AEBVQByteArray@@@Z
-??0QVariant@@QEAA@AEBVQSize@@@Z
-??0QVariant@@QEAA@HPEBXI@Z
-??0QVariant@@QEAA@XZ
-??1QByteArray@@QEAA@XZ
-??1QDataStream@@QEAA@XZ
-??1QDebug@@QEAA@XZ
-??1QImage@@UEAA@XZ
-??1QImageIOHandler@@UEAA@XZ
-??1QImageIOPlugin@@UEAA@XZ
-??4QImage@@QEAAAEAV0@AEBV0@@Z
-??5QDataStream@@QEAAAEAV0@AEAC@Z
-??5QDataStream@@QEAAAEAV0@AEAE@Z
-??5QDataStream@@QEAAAEAV0@AEAF@Z
-??5QDataStream@@QEAAAEAV0@AEAG@Z
-??5QDataStream@@QEAAAEAV0@AEAI@Z
-??5QDataStream@@QEAAAEAV0@AEAM@Z
-??5QDataStream@@QEAAAEAV0@AEA_K@Z
-??6QDataStream@@QEAAAEAV0@I@Z
-??6QDebug@@QEAAAEAV0@AEBVQByteArray@@@Z
-??6QDebug@@QEAAAEAV0@I@Z
-??6QDebug@@QEAAAEAV0@PEBD@Z
-?append@QListData@@QEAAPEAPEAXXZ
-?begin@QListData@@QEBAPEAPEAXXZ
-?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?constData@QByteArray@@QEBAPEBDXZ
-?convertToFormat@QImage@@QEGBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@QEAAXXZ
-?dispose@QListData@@SAXPEAUData@1@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?end@QListData@@QEBAPEAPEAXXZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fill@QImage@@QEAAXI@Z
-?floatingPointPrecision@QDataStream@@QEBA?AW4FloatingPointPrecision@1@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?isEmpty@QByteArray@@QEBA_NXZ
-?isOpen@QIODevice@@QEBA_NXZ
-?isReadable@QIODevice@@QEBA_NXZ
-?isWritable@QIODevice@@QEBA_NXZ
-?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
-?qt_assert@@YAXPEBD0H@Z
-?setByteOrder@QDataStream@@QEAAXW4ByteOrder@1@@Z
-?setFloatingPointPrecision@QDataStream@@QEAAXW4FloatingPointPrecision@1@@Z
-?shared_null@QListData@@2UData@1@B
-?size@QByteArray@@QEBAHXZ
-?status@QDataStream@@QEBA?AW4Status@1@XZ
-?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
-?toByteArray@QVariant@@QEBA?AVQByteArray@@XZ
-?toLower@QByteArray@@QEGBA?AV1@XZ
-?toLower@QByteArray@@QEHAA?AV1@XZ
-?toUpper@QByteArray@@QEGBA?AV1@XZ
-?warning@QMessageLogger@@QEBA?AVQDebug@@XZ
-@.data
-@.idata
-@.qtmetad^
-@.reloc
-@.rsrc
 A16B16G16R16
 A16B16G16R16F
 A1R5G5B5
@@ -116,44 +16,18 @@ A2B10G10R10_XR_BIAS
 A2R10G10B10
 A2W10V10U10
 A32B32G32R32F
+A4L4
+A4P4
 A4R4G4B4
 A8B8G8R8
+A8L8
+A8P8
 A8R3G3B2
 A8R8G8B8
-ATI2H
+ATI2
 BinaryBuffer
 Can't read image with w/h bigger than INT_MAX
-CloseHandle
-CreateEventW
 CxV8U8
-D$ E3
-D$ H9D$(u
-D$ Hc@<H
-D$ HcD$(H
-D$"E3
-D$(H9
-D$,HcD$ 
-D$8Hc@
-D$8HcD$ H
-D$@H9D$Ht@H
-D$DHcD$0H
-D$H9D$ s"
-D$H9D$$s)H
-D$HE3
-D$L9D$,
-D$P9D$ }%D
-D$P9D$0
-D$PE3
-D$`H9D$Xt
-D$`H9D$XtNH
-D$d9D$4
-D$h9D$8sG
-D$h9D$8sH
-D$h9D$@
-D$hH9D$pt
-D$l9D$DsG
-D$pHc@
-D$xH%
 D15S1
 D16Lockable
 D24FS8
@@ -162,119 +36,43 @@ D24X4S4
 D24X8
 D32FLockable
 D32Lockable
+DDS 
 DDSHandler::canRead() called with no device
-DXT1H
-DXT2H
-DXT3H
-DXT4H
-DXT5H
-DeleteCriticalSection
-DisableThreadLibraryCalls
-EnterCriticalSection
+DXT1
+DXT2
+DXT3
+DXT4
+DXT5
 F:\qt5\qtimageformats\plugins\imageformats\qddsd.pdb
 Format
 G16R16
 G16R16F
 G32R32F
 G8R8_G8B8
-GRGBH
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetModuleHandleW
-GetProcAddress
-GetStartupInfoW
-GetSystemTimeAsFileTime
-H9D$ tKH
-H9D$ tn
-H9D$ u
-H9D$Hr
-H9D$Hs
-Hc@<H
-HcD$ 
-HcD$ H
-HcD$(
-HcD$0H
-HcL$ 
-HcL$ #
-HcL$ 3
-HcL$$
-HcL$(
-HcL$(H
-HcL$DH
-HcL$hH
-HcL$pH
-HkD$0
 Index32
 InitializeConditionVariable
-InitializeSListHead
-IsDebuggerPresent
-IsProcessorFeaturePresent
-K?height@QImage@@QEBAHXZ
-KERNEL32.dll
-L$ H#
-L$ H3
-L$ fD
-L$!E3
-L$0H3
-L$8H+
-L$8HcI
-L$@H3
-L$XH3
-L$XH9
 L6V5U5
-L?isNull@QImage@@QEBA_NXZ
-L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
-LeaveCriticalSection
-M?loopCount@QImageIOHandler@@UEBAHXZ
-MET1H
-MetaData
-MimeTypes
 Multi2ARGB8
-O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-O?pixel@QImage@@QEBAIHH@Z
-P.tls
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-PX9D$8|
 Q16W16V16U16
 Q8W8V8U8
 QDDSPlugin
-QDDSPlugin1
-QTMETADATA  qbjs
-Qt5Cored.dll
-Qt5Guid.dll
-QueryPerformanceCounter
+R16F
+R32F
 R3G3B2
 R5G6B5
 R8G8B8
 R8G8_B8G8
-R?scanLine@QImage@@QEAAPEAEH@Z
-R?scanLine@QImage@@QEBAPEBEH@Z
-RGBGH
-RXGBH
-ResetEvent
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlVirtualUnwind
+RSDS\v
+RXGB
 S8Lockable
-S?setColor@QImage@@QEAAXHI@Z
 Sequential devices are not supported
-SetEvent
-SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T$0H3
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-TerminateProcess
-U?setPixel@QImage@@QEAAXHHI@Z
-UYVYH
+UYVY
 UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5RXGBATI2n
-UnhandledExceptionFilter
 Unknown exception
 V16U16
-VCRUNTIME140D.dll
+V8U8
 VertexData
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WaitForSingleObjectEx
 WakeAllConditionVariable
 Wrong dds.flags - not all required flags present. Actual flags :
 Wrong dds.pixelFormat.size: actual =
@@ -284,29 +82,7 @@ X4R4G4B4
 X8B8G8R8
 X8L8V8U8
 X8R8G8B8
-YUY2H
-Z?width@QImage@@QEBAHXZ
-_CrtDbgReportW
-_CxxThrowException
-__C_specific_handler
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__vcrt_InitializeCriticalSectionEx
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
-_register_onexit_function
-_seh_filter_dll
-`.rdata
+YUY2
 ba.ref.isStatic()
 bad allocation
 bad array new length
@@ -314,21 +90,12 @@ bool __cdecl QDDSHandler::canRead(class QIODevice *)
 bool __cdecl QDDSHandler::ensureScanned(void) const
 bool __cdecl QDDSHandler::verifyHeader(const struct DDSHeader &) const
 bool __cdecl QDDSHandler::write(const class QImage &)
-className
-debug
 expected =
 f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-ffffff
-image/x-dds
 is not supported
-malloc
-memcmp
-memcpy
-memset
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qddsd.dll
@@ -337,34 +104,7 @@ qt_plugin_instance
 qt_plugin_query_metadata
 size == 8 || size == 16 || size == 24 || size == 32
 sizeof(float) == 4
-strcmp
 strongref.load() <= 0
-t%HkD$0
-t_HcD$hH
-terminate
-u*HkD$ 
-ucrtbased.dll
 unknown
 unknown format
-version
 void __cdecl QDDSHandler::setOption(enum QImageIOHandler::ImageOption,const class QVariant &)
-xdDX10u
-yT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-zT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-|$ 	t@
-|$ EsBHkD$ 
-|$(	t
-|$0ATI2
-|$0DXT1
-|$0DXT2
-|$0DXT3
-|$0DXT4
-|$0DXT5
-|$0GRGB
-|$0RGBG
-|$0RXGB
-|$0UYVY
-|$0YUY2
-|$H t$A
-}7HcD$$
-~=HcD$ 

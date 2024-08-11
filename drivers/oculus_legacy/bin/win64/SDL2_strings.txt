@@ -1,7 +1,3 @@
-																									
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-      </requestedPrivileges>
-      <requestedPrivileges>
      precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform sampler2D u_texture_v;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.y = texture2D(u_texture_u, v_texCoord).r - 0.5;         yuv.z = texture2D(u_texture_v, v_texCoord).r - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
      precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ar - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
      precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ra - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
@@ -11,429 +7,56 @@
      precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
      precision mediump float;     uniform vec4 u_color;         void main()     {         gl_FragColor = u_color;     } 
      uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute float a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float angle = radians(a_angle);         float c = cos(angle);         float s = sin(angle);         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
-    * %s (%s:%d)
-    * always ignore: %s.
-    * triggered %u time%s.
-    // Do the color transform 
-    // Get the U and V values 
-    // Get the Y value 
-    // That was easy. :) 
-    </security>
-    <security>
-    gl_FragColor = texture2D(tex0, v_texCoord) * v_color;
-    gl_FragColor = v_color;
-    gl_FragColor = vec4(rgb, 1.0) * v_color;
-    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
-    rgb.b = dot(yuv, Bcoeff);
-    rgb.g = dot(yuv, Gcoeff);
-    rgb.r = dot(yuv, Rcoeff);
-    tcoord *= UVCoordScale;
-    tcoord = v_texCoord;
-    v_color = gl_Color;
-    v_texCoord = vec2(gl_MultiTexCoord0);
-    vec2 tcoord;
-    vec3 yuv, rgb;
-    yuv += offset;
-    yuv.x = texture2D(tex0, tcoord).r;
-    yuv.y = texture2D(tex1, tcoord).r;
-    yuv.yz = texture2D(tex1, tcoord).ar;
-    yuv.yz = texture2D(tex1, tcoord).ra;
-    yuv.z = texture2D(tex2, tcoord).r;
-  '%s'
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%******************************************&*******************'()*****
  "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
  $(,048<@DHLPUY]aeimquy}
  )19AJRZbjs{
- A\_^
- A]A\^
- A]A\_
- A]A\_^]
- A]][
- A^A\^
- A^A\_
- A^A]A\
- A^A]A\_^][
- A^A]_^]
- A_A]A\_^
- A_A]A\_^][
- A_A^A]A\^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^A]_^
- fffff
-!	@Present()
 !)@:F,@zj/@\G1@|
-!This program cannot be run in DOS mode.
+!QPW
+!\t@Present()
 "3DUfw
-"B "B!<
-#D$,;
-#define UVCoordScale 0.5
-#define UVCoordScale 1.0
-#define sampler2D sampler2DRect
-#define texture2D texture2DRect
-$<auI
-$HcC(H
-$IcD$(I
-$McL$
+#define UVCoordScale 1.0\n
+#define sampler2D sampler2DRect\n#define texture2D texture2DRect\n#define UVCoordScale 0.5\n
 %d bpp BMP files not supported
 %s not available
-%s%s%s
 %s() DirectX error 0x%8.8lx
-%s,%s,%s
-%s: %s
 %s: %s (%d): %s %s
 %s: %s (%d): %s %s (0x%X)
 %s: Unknown DirectSound error: 0x%x
-(A\_^[
-(A_A]_]
-(A_A^A]A\^]
-(A_A^A]A\_^][
-(A_A^_^][
-(D$ H
-(D$ L
-(D$0D
-(D$0H
-(D$PH
-(D$PI
-(D$pE
-(L$ A
-(L$ D
-(L$ H
-(L$@D
-(L$`D
-(L$pD
-(T$ A
-(T$0D
-(T$PA
-(T$PD
-(T$`A
-(T$`D
-(T$pD
-(T$pL
-(\$ A
-(\$ L
-(\$@A
-(\$@D
-(\$PA
-(\$PD
-(\$PH
-(\$`D
-(\$p3
-(d$0D
-(d$@D
-(d$PA
-(d$PD
-(d$`D
-(d$pA
-(d$pD
-(l$ D
-(l$0D
-(l$@D
-(l$PD
-(l$`D
-(l$pD
+'%s'\n    * %s (%s:%d)\n    * triggered %u time%s.\n    * always ignore: %s.\n
 (null)
-(t$ D
-(t$ H
-(t$ I+
-(t$ L
-(t$0+
-(t$0A
-(t$0D
-(t$0H
-(t$0L
-(t$0M
-(t$@A
-(t$@D
-(t$@E3
-(t$@H
-(t$PA
-(t$PD
-(t$PH
-(t$`D
-(t$`E
-(t$`H
-(t$pA
-(t$pD
-(t$pt
-(|$ A
-(|$ D
-(|$ E
-(|$ H
-(|$ L
-(|$0D
-(|$@A
-(|$@D
-(|$@H
-(|$PD
-(|$`H
-(|$`L
-(|$`fA
-(|$pD
-)<$fA
-)D$0D
-)D$0E
-)D$PH
-)D$pA
-)D$pD
-)L$ A
-)L$ D
-)L$0Ic
-)L$@D
-)L$@H
-)L$`f
-)L$`ff
-)L$pD
-)L$pH
-)L$pfff
-)L$pfffff
-)T$PD
-)T$pD
-)\$@D
-)\$`D
-)\$`I
-)\$pD
-)d$0D
-)d$0G
-)d$@O
-)d$PD
-)d$PI
-)d$`fD
-)d$pD
-)l$ D
-)l$ J
-)l$0D
-)l$0Hc
-)l$@A
-)l$@D
-)l$@E
-)l$PD
-)l$`D
-)l$pD
-)t$ A
-)t$ H
-)t$ H+
-)t$ f
-)t$ fA
-)t$0D
-)t$0Hc
-)t$0I
-)t$0M
-)t$@3
-)t$@H
-)t$@Ic
-)t$PD
-)t$PL
-)t$PO
-)t$`D
-)t$`F
-)t$`O
-)t$pD
-)|$ E
-)|$ G
-)|$ H
-)|$ I+
-)|$ J
-)|$ L
-)|$ f
-)|$0H
-)|$0f
-)|$@D
-)|$@L
-)|$`A
-)|$`D
-)|$`t-
-)|$pO
-******
-********
-*********
-***********
-*******************
-****************************************************************************
-+L$DD+L$@
--NV21t
 ..\..\src\render\opengl\SDL_render_gl.c
 ..\..\src\render\opengles2\SDL_render_gles2.c
-.pdata
-.text
-/-NV12t#
-// RGB coefficients 
-// YUV offset 
-0-NV12t$
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0x
 0123456789abcdef
-0A\_^
-0A]A\^
-0A]A\_
-0A]A\_^]
-0A]_]
-0A^A]A\
-0A^A]A\_^
-0A_A]]
-0A_A^A\^]
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^]
-0Hc\$`L
-0tID;
 25090500000000000000504944564944,PS3 DualShock,a:b2,b:b1,back:b9,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b0,y:b3,
 33333
 341a3608000000000000504944564944,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
-4Afffff
 4c056802000000000000504944564944,PS3 Controller,a:b14,b:b13,back:b0,dpdown:b6,dpleft:b7,dpright:b5,dpup:b4,guide:b16,leftshoulder:b10,leftstick:b1,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b11,rightstick:b2,righttrigger:b9,rightx:a2,righty:a3,start:b3,x:b15,y:b12,
 4c05c405000000000000504944564944,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
 4d6963726f736f66742050432d6a6f79,OUYA Controller,a:b0,b:b3,dpdown:b9,dpleft:b10,dpright:b11,dpup:b8,guide:b14,leftshoulder:b4,leftstick:b6,lefttrigger:b12,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,righttrigger:b13,rightx:a5,righty:a4,x:b1,y:b2,
 5cjMT
 6d0416c2000000000000504944564944,Generic DirectInput Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
 6d0419c2000000000000504944564944,Logitech F710 Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+6lo"
 8859-1
 88880803000000000000504944564944,PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b9,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b0,y:b3,
-8A_A^A]A\_^][
-8A_A^A]^
-8A__^[
-9+~aL
-98v&H
-99~9L
-9;t]L
-9\$8~+
-9k4t0A
-9k\ta
-9s(u(9{,u#H
-9w,txH
-9x|uQH
-:@:F<@Z
 ;GL_OUT_OF_MEMORY
-;IYUVH
-;YV12H
-;\$8|
-;\$`r
-;\$`sTD
-;_<t>
-;l$P}
-;|$h|1H;^Xu
-< rl<
-<$HcD$
-<$IcA
-<-t	<0u
-</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
-<0ti<1teH
-<Hu	M
-<Pfff
-<Qt3A
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<\rUUUUU
 <qsort.c gjm 1.12 1998-03-19>
 =@zj?@L~@@\GA@l
-=IYUV
-=IYUVt
-=IYUVti=UYVY
-=IYUVu H
-=IYUVup
-=JUNKt
-=LISTt
-=NV12t
-=NV21
-=NV21A
-=NV21w%tM=
-=NV21w2t)=
-=UYVY
-=WAVE
-=YUY2t
-=YV12A
-=YV12t
-=YV12td=YUY2tO=YVYUt:=IYUVt)=UYVYt
-=YV12t~=YUY2t
-=YVYUt
-=bextt
-=fmt t
->H9=%4
-?/lj,D
+?1cb
 ?>UUUUU
 ?Created renderer: %s
-?ERROR: NumPoints = %i
+?ERROR: NumPoints = %i\n
 ?IUUUUU
 ?LUUUUU
 ?Unable to lock source surface
 ?Unsupported YUV format
 ?nearest
 ?v<y5
-?|TfA
-@ %z8
-@ BMH
-@.data
-@.reloc
-@.rsrc
-@88t5H
-@8k%u
-@8{$tUH
-@A\][
-@A\_[
-@A\_^
-@A\_^][
-@A]A\^
-@A]A\_
-@A]A\_^]
-@A^A\^
-@A^A\_
-@A^A]A\
-@A^A]A\_]
-@A^_^
-@A_A^A]
-@A_A^A]A\_
-@A_A^A]_^][
 @Couldn't open %s
-@C|2A
-@SATAVAWH
-@SATH
-@SAVH
-@SAWH
-@SUATH
-@SUAUH
-@SUVWATAUAVAWH
-@SUVWATH
-@SUVWAVAWH
-@SUVWAVH
-@SUWATAUH
-@SUWH
-@SVAUH
-@SVWATH
-@SVWAWH
-@SWATH
-@SWAUAWH
-@UATH
-@UAUAWH
-@USAUAVAWH
 @UUUUUU
-@UVATAUAVAWH
-@UVATAVH
-@UVAVH
-@UVAWH
-@UVWATAUAVH
-@UVWATAUH
-@UVWAUAVH
-@UVWH
-@UWAUAVH
-@UWAUAWH
-@UWAUH
-@VATAUH
-@VATH
-@VAUAVAWH
-@VWATH
-@WATAVAWH
-@WATH
-@WAVH
-A+@HA+@@
-A+@LA+@D
-A8,$u
-A84$u
-A9Cxu
-A9C|t
-A9] ~II
-A;] |
-A@@u13
-A@H+A0
 AC Back
 AC Bookmarks
 AC Forward
@@ -444,53 +67,18 @@ AC Stop
 ANo displays available
 APassed NULL destination surface
 ASCII
-ATAUAVAW
-ATAVH
-AUAVAWH
-AVAWH
-A\_^][
-A]A\]
-A]A\^[
-A]A\_
-A]A\_][
-A]A\_^]
-A]^][
-A^A\_
-A^A\_^]
-A^A]A\
-A^A]A\_
-A^A]A\_]
-A^A]A\_^
-A^A]A\_^]
-A^A]A\_^][
-A^A]]
-A^A]_
-A^A]_]
-A_A]A\_^
-A_A]_^]
-A_A^A\^]
-A_A^A]A\
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A][]
-A_A^]
-A_A^_]
-A_A^_^[]
-A_A^_^]
 Abort
 Acquiring DirectInput device
 AdjustWindowRectEx
 Again
-All SDL assertions between last init/quit:
+All SDL assertions between last init/quit:\n\n
 AltErase
 Always Ignore
 Application
 Application didn't initialize properly, did you include SDL_main.h in the file containing your main() function?
-Application not compiled with SDL %d.%d
+Application not compiled with SDL %d.%d\n
 Assertion Failed
-Assertion failure at %s (%s:%d), triggered %u %s:
+Assertion failure at %s (%s:%d), triggered %u %s:\r\n  '%s'
 AttachConsole
 Audio device already open
 Audio device has a callback, queueing not allowed
@@ -505,8 +93,7 @@ AudioPrev
 AudioStop
 AuthenticAMD
 Axis index too large: %d
-B0fff
-B@<4w
+B\fp\v0
 Backspace
 BeginScene()
 BitBlt
@@ -516,25 +103,11 @@ BrightnessDown
 BrightnessUp
 Button index too large: %d
 Button name too large: %s
-C @8p
-C D9=Q
-C H9h(u$H
-C&fA;
-C(HcC0
-C(fA;
-C,fA;
-C0ffffff
-C2fA;
-C6fA;
-C8HcC@
-CH;C(u=L
-CHHcC
 CINTLGNT.IME
 CONFLICTINGRENDERSTATE
 CONFLICTINGTEXTUREFILTER
 CONFLICTINGTEXTUREPALETTE
 CRITICAL
-C`D9s
 Calculator
 CallWindowProcW
 Caller doesn't have priority
@@ -564,6 +137,7 @@ Complex WAVE files not supported
 Compressed BMP files not supported
 Computer
 Control requested is not available
+Copy
 Could not allocate space to read DB into memory
 Could not create EGL context
 Could not create EGL context (context attributes are not supported)
@@ -610,8 +184,8 @@ Couldn't find mapping for device (%d)
 Couldn't find matching EGL config
 Couldn't find matching render driver
 Couldn't get clipboard data
-Couldn't load GL function %s: %s
-Couldn't load GLES2 function %s: %s
+Couldn't load GL function %s: %s\n
+Couldn't load GLES2 function %s: %s\n
 Couldn't load psapi.dll
 Couldn't locate our .exe
 Couldn't locate our prefpath
@@ -651,129 +225,10 @@ CurrencyUnit
 Cursor hot spot doesn't lie within cursor
 Cursor not associated with the current mouse
 Cursors are not currently supported
-D$ =factt
-D$ E3
-D$ E;
-D$ Hc
-D$ HcA
-D$ I;
-D$ Ic
-D$ IcD$
-D$ L;
-D$ M;
-D$ Mc
-D$ f9
-D$ fA
-D$ fff
-D$ t#
-D$ t<
-D$"L;
-D$"fA
-D$"fD
-D$$fA
-D$&I;
-D$(+G(
-D$(9C,A
-D$(A+
-D$(D;
-D$(H;
-D$(HcA
-D$(HcF
-D$(HcI
-D$(IcD$
-D$(M;
-D$(f#
-D$(fA
-D$,+G,
-D$,+L$ 
-D$,A+
-D$,M;
-D$,fA
-D$.H;
-D$0$0
-D$0D;
-D$0H+
-D$0Hc
-D$0HcA
-D$0HcI
-D$0IcD$
-D$0Lc
-D$0M;
-D$0fA
-D$0fD#
-D$0ffff
-D$1D:
-D$4fA
-D$8#0
-D$8D;
-D$8H;
-D$8HcF
-D$8Ic
-D$8M;
-D$8fA
-D$;:C
-D$<:C
-D$=:C
-D$>:C
-D$?:C
-D$@"0
-D$@E3
-D$@Hc
-D$@HcD$HL
-D$@Ic
-D$@M;
-D$@ffff
-D$H!0
-D$HIc
-D$HIcD$
-D$LA9
-D$PE3
-D$PHc
-D$PHcA
-D$Pfffff
-D$`E3
-D$`H;
-D$`Hc
-D$`Ic
-D$`ff
-D$b"D$`"D$a"Eh<
-D$hE3
-D$hHcD$p
-D$hIc
-D$ht)
-D$lE3
-D$p=WAVEu	D
-D$pE+
-D$pE3
-D$pHc
-D$pHc@
-D$pHcD$x
-D$pL#
-D$pt#
-D$xA+
-D$xD;
-D$xD;S
-D$xE+
-D$xHcF
-D$xL#
-D$xfA
-D$xtE
-D+\$PE
-D+cpD+ktE
-D+l$$A
-D+t$D
 D3D9.DLL
-D8|$:
-D9&uPD9f
-D9[`~
-D9d$hu
-D9n t
-D9{(t:
-D9{|u
-D;"uU;j
-D;d$(
-D;d$`
+DC?h
 DEBUG
+DEST
 DEVICELOST
 DEVICENOTRESET
 DISABLED
@@ -811,15 +266,12 @@ DirectSoundCreate8
 DirectSoundEnumerateW
 DispatchMessageW
 DisplaySwitch
+Down
 DragAcceptFiles
 DragFinish
 DragQueryFileW
 DrawPrimitiveUP()
 DrawTextW
-E,8E@
-E84$u
-E9Y H
-E9i H
 EGL implementation does not support sRGB system framebuffers
 EGL not initialized
 EGL_KHR_create_context
@@ -855,7 +307,7 @@ Failed getting OpenGL glGetFramebufferAttachmentParameteriv entry point
 Failed getting OpenGL glGetIntegerv entry point
 Failed getting OpenGL glGetString entry point
 Failed loading 
-Failed to compile shader:
+Failed to compile shader:\n%s%s\n%s
 Failed to create message window for joystick autodetect
 Failed to create register class for joystick autodetect
 Failed to link shader program
@@ -864,16 +316,12 @@ Failed to load the shader: %s
 Failed to obtain XInput device capabilities. Device disconnected?
 Fc?u(5
 File is not a Windows BMP file
+Find
 FormatMessageW
 FreeLibrary
 Function not supported
-GD$pA
-GD$xA
-GD3G@
 GDI32.dll
 GL 3.x is not supported
-GL$pA
-GL$xA
 GLES2_CreateTexture
 GLES2_DestroyRenderer
 GLES2_RenderCopy
@@ -975,23 +423,6 @@ GlobalAlloc
 GlobalLock
 GlobalMemoryStatusEx
 GlobalUnlock
-H)}PH;
-H9S u
-H9t(Ht
-H9x H
-H9x(H
-H9xHu
-H9~HA
-H;5#!
-H;J(t
-H;KXu	H
-H;Z(t
-H;^Xt
-H;_ u
-H;n w
-H;z(u
-HA_A^
-HA_A^A\_
 Haptic error %s
 Haptic: Autocenter must be between 0 and 100.
 Haptic: Device does not support setting autocenter.
@@ -1014,41 +445,8 @@ Haptic: Unknown direction type.
 Haptic: Unknown effect type.
 Haptic: Updating effect type is illegal.
 Hat index too large: %d
-HcAPL+
-HcD$ D
-HcD$ M
-HcD$$D
-HcD$$M
-HcD$(D
-HcD$(M
-HcD$0D
-HcD$0M
-HcD$8H
-HcD$8M
-HcD$@I
-HcD$@L
-HcD$PL
-HcD$XH
-HcD$xH
-HcD$xL
-HcF(H
-HcG(H
-HcI,H
-HcI,Hc
-HcL$H
-HcL$`
-HcL$`Ic
-HcT$x
-HcY,A
-Hc\$PH
-Hci,L
-Hcq,H
-Hcq,L
-Hcy,H
-I$A_A^A]A\
-I9KXt
-I9X u
-I9[ u
+Help
+Home
 IDirectInput::CreateDevice
 IDirectInput::Initialize
 IDirectInputDevice8::Acquire
@@ -1060,24 +458,10 @@ IDirectInputDevice8::SetProperty
 IDirectInputDevice8::Unacquire
 IMA ADPCM decoder can only handle %u channels
 IMM32.dll
+INFO
 INVALIDCALL
 INVALIDDEVICE
-IP9Qht
-IPD9Aht
 ISO-8859-1
-IYUVt
-IYUVt&
-IYUVtL
-IYUVu
-Ic	Mc
-Ic4$H
-Ic@(I
-IcA(A
-IcA(I
-IcB(I
-IcC(I
-IcD$(I
-IcE(I
 Ignore
 ImmAssociateContext
 ImmGetCandidateListW
@@ -1119,16 +503,10 @@ Joystick only has %d axes
 Joystick only has %d balls
 Joystick only has %d buttons
 Joystick only has %d hats
-K H9i u-H
 KBDIllumDown
 KBDIllumToggle
 KBDIllumUp
 KERNEL32.dll
-KLD;C u
-KP9qhH
-KPD9Aht
-KTD;C(u
-K`H;KXu
 Keypad !
 Keypad #
 Keypad %
@@ -1190,77 +568,12 @@ Keypad {
 Keypad |
 Keypad ||
 Keypad }
-L$ E3
-L$ HcM
-L$ Hi
-L$ IcE(I
-L$ SH
-L$ SUAUH
-L$ SUAVH
-L$ SWH
-L$ UATAUAVAWH
-L$ VWAUAVAW
-L$ fD
-L$$M;
-L$$fA
-L$$fD
-L$&fE
-L$(A;
-L$(HcM
-L$(fE
-L$0E3
-L$0H+
-L$0M;
-L$6E3
-L$8E3
-L$8HcM
-L$8fE
-L$@E3
-L$@Hc
-L$HH+
-L$HH;
-L$HHcM
-L$HfD
-L$PHc
-L$XH+
-L$`E3
-L$`HcG
-L$hE3
-L$hHc
-L$hI;
-L$pD+
-L$pE;
-L9	u0H
-L9	u?L
-L9	uDH
-L9G u
-L9O u
-L9` H
-L9`(H
-L9h H
-L9h(H
-L9h8t
-L9h@t
-L;A u'L
-L;A(u$H
+LANG
 LC_ALL
 LC_CTYPE
 LC_MESSAGES
-Lc!Lci
-Lc1Lcy
-LcC 3
-LcC03
-LcC@3
-LcCDH
-LcD$`Ic
-LcD$hIc
-LcQ,D
-Lc\$PE
-Lca,D
-Lca,Hc
-Lca,L
-Lcy,H
 LeaveCriticalSection
+Left
 Left Alt
 Left Ctrl
 Left GUI
@@ -1271,26 +584,22 @@ LoadImageW
 LoadLibraryA
 LoadLibraryW
 LockRect()
-M9C u
-M9u0tH
 MOREDATA
 MPEG Layer 3 data not supported
 MSSCIPYA.IME
 MSTCIPHA.IME
+Mail
 MapVirtualKeyW
 MediaSelect
+Menu
 Missing desired mode or closest mode parameter
 Mixing buffer was lost
 ModeSwitch
 MulDiv
-N@fff
+Mute
 NEJ(~
 NOTAVAILABLE
 NOTFOUND
-NV12H
-NV12t
-NV12t	A
-NV21u
 Negative swap interval unsupported in this GL
 No GL driver has been loaded
 No OpenGL context has been made current
@@ -1326,15 +635,9 @@ OpenGL error: GL_INVALID_VALUE
 OpenGL library already loaded
 OpenGL not initialized
 OpenGL shaders: %s
+Oper
 Out of memory
 OutputDebugStringW
-PA\][
-PA\_[
-PA]A\_
-PA]^[
-PA]_]
-PA^_^][
-PA_A^A]_^][
 PIDVID^
 PIDVIDp
 PINTLGNT.IME
@@ -1354,11 +657,11 @@ PeekMessageW
 Power
 PrintScreen
 Prior
-Q0Lci
 QueryPerformanceCounter
 QueryPerformanceFrequency
 Querying DirectInput interface
 RSDS@
+R\vpx
 ReadFile
 RegisterClassExW
 RegisterClassW
@@ -1391,10 +694,8 @@ S16SYS
 S32LSB
 S32MSB
 S32SYS
-SAUAVH
-SDL EVENT QUEUE: Maximum events in-flight: %d
+SDL EVENT QUEUE: Maximum events in-flight: %d\n
 SDL Windows video driver
-SDL assertion report.
 SDL dummy audio driver
 SDL dummy video driver
 SDL not compiled with stdio support
@@ -2063,21 +1364,6 @@ SDL_window%d-%8.8d.bmp
 SHCORE.DLL
 SHELL32.dll
 SHGetFolderPathW
-SUATAVH
-SUATH
-SUVAUH
-SUVWATAUAVAWH
-SUVWATAUAVH
-SUVWATAUAWH
-SUVWATH
-SUVWAUAVAWH
-SUVWH
-SUWATAUAVAWH
-SUWAVAWH
-SVATAUH
-SVAUH
-SVWAVAWH
-SWATAUAWH
 ScreenToClient
 ScrollLock
 Select
@@ -2121,6 +1407,7 @@ Sound buffer size must be between %d and %d
 Source or destination channels is zero
 Source or destination rate is zero
 Space
+Stop
 Stopping the device
 Surfaces must not be locked during blit
 SwapBuffers
@@ -2129,41 +1416,9 @@ System audio capture device
 System audio output device
 SystemParametersInfoA
 SystemParametersInfoW
-T$ Hi
-T$ I;
-T$ fD
-T$ t83
-T$$IcF(I
-T$&fD
-T$(E3
-T$(H;T$8
-T$(f#
-T$(fD
-T$*Lc
-T$+Hc
-T$,9F
-T$0E3
-T$2E:
-T$>H;
-T$@E3
-T$@L;
-T$DE3
-T$HA;
-T$PE3
-T$PH;
-T$PL;
-T$XMc
-T$`E3
-T$`Ic
-T$hE+
-T$hE3
-T$hMc
-T$pA+
-T$pH;
-T$pL;
-T<huPI
 TINTLGNT.IME
 TOOMANYOPERATIONS
+TTar
 Texture dimensions are limited to %dx%d
 Texture dimensions can't be 0
 Texture format %s not supported by OpenGL
@@ -2192,9 +1447,6 @@ TryEnterCriticalSection
 U16LSB
 U16MSB
 U16SYS
-UATAUAVAWH
-UATAUH
-UAVAWH
 UCS-2
 UCS-2-INTERNAL
 UCS-2BE
@@ -2203,6 +1455,8 @@ UCS-4
 UCS-4-INTERNAL
 UCS-4BE
 UCS-4LE
+UCS2
+UCS4
 UNKNOWN
 UNSUPPORTEDALPHAARG
 UNSUPPORTEDALPHAOPERATION
@@ -2213,9 +1467,6 @@ UNSUPPORTEDTEXTUREFILTER
 US-ASCII
 USER32.DLL
 USER32.dll
-USVWATAVAWH
-USVWAVAWH
-USVWH
 UTF-16
 UTF-16BE
 UTF-16LE
@@ -2229,18 +1480,8 @@ UTF16LE
 UTF32
 UTF32BE
 UTF32LE
+UTF8
 UUUUU
-UVATAVAWH
-UVWATAUAVAWH
-UVWATAUH
-UVWATAVAW
-UVWAUAVAW
-UVWAVAWH
-UWATAUAVH
-UWAVAWH
-UYVYt
-UYVYt)A
-UYVYuSH
 Unable to create DIB
 Unable to create DXGI interface
 Unable to create Direct3D interface
@@ -2253,6 +1494,7 @@ Unable to lock destination surface
 Unable to make EGL context current
 Unable to stop effect
 Unable to update effect
+Undo
 Unknown
 Unknown %d-bit PCM data format
 Unknown FOURCC pixel format
@@ -2282,16 +1524,8 @@ Unsupported texture format
 UpdateTexture()
 Upitch
 Uplane
-VATAUAVAWH
-VATAUH
 VERBOSE
 VERSION.dll
-VUUUA
-VWATAUAVH
-VWATAUAWH
-VWATH
-VWAUAVAWH
-VWAUAVH
 ValidateRect
 VerQueryValueA
 VerSetConditionMask
@@ -2308,10 +1542,9 @@ VolumeDown
 VolumeUp
 Vpitch
 Vplane
+WARN
 WARNING: Ignoring SDL_GL_SetSwapInterval call due to ANGLE bug
 WASSTILLDRAWING
-WATAUAVAWH
-WATAUH
 WGL_ARB_context_flush_control
 WGL_ARB_pixel_format
 WGL_EXT_create_context_es2_profile
@@ -2331,8 +1564,6 @@ WriteConsoleW
 WriteFile
 X-Box
 X360 Controller #%u
-XA^A\^]
-XA_A^_^][
 XAudio2
 XAudio2: SDL was built without XAudio2 support (old DirectX SDK).
 XInput ArcadePad #%u
@@ -2348,87 +1579,15 @@ XInputGetBatteryInformation
 XInputGetCapabilities
 XInputGetState
 XInputSetState
-XL$0fD
-XT$8fE
-YD$0H
-YUY2t
-YUY2t2A
-YUY2t6
-YUY2w tJA
-YUY2wGt=
+Xbox
 YV12 and IYUV textures only support full surface locks
-YV12t
-YV12t	A
-YV12t4
-YV12t>
-YV12tT
-YV12u
-YVYUt
-YVYUt A
-YVYUt#A
-YVYUt(
-YVYUt.
-YVYUu
 Ypitch
 Yplane
-ZD$@I
-\$ A;
-\$ L;
-\$ UVWATAUAVAW
-\$ UVWATAUH
-\$ UVWATAVH
-\$ UVWAUAWH
-\$ UVWH
-\$ UWAUH
-\$ VATAUH
-\$ VATAVH
-\$ VWI
-\$ WATAVH
-\$ WH
-\$ t2I
-\$ tEH
-\$$Hc
-\$(A_A^A]A\
-\$,fE
-\$0A;
-\$0E3
-\$0Hc
-\$0L;\$@
-\$0_^
-\$0ff
-\$8A;
-\$8HcF
-\$8fD
-\$@A_A^A]_^]
-\$@fA
-\$HA_A^A\_^]
-\$PE3
-\$PHc
-\$PMc
-\$PfE
-\$XA_A^A]A\_^]
-\$XH;|$P
-\$`Lc
-\$hE3
-\$pE;
-\$pI+
-\$xHc
-\$xMc
-\$xfA
-](<0|
+\n\nSDL assertion report.\n
 _SDL_DummySurface
 _SDL_WindowRenderData
 _SDL_WindowTextureData
-`.rdata
-`< t\<,u;3
-`A]A\_^]
-`A^A][
-`A^][
-`A^^]
-`A_A^A\_^[]
-`A_A^A]A\_][
-`A_A^_][
-aRich
+`5Sf
 a_angle
 a_center
 a_position
@@ -2436,42 +1595,26 @@ a_texCoord
 abort
 adapterIndex
 always_ignore
+back
 break
 c:\buildslave\sdl_win32\build\dev\VisualC\x64\Release\SDL2.pdb
 cUUUUU
-c`D9cdtKH
+c\t4
 callback
-const vec3 Bcoeff = vec3(1.164,  2.018,  0.000);
-const vec3 Gcoeff = vec3(1.164, -0.391, -0.813);
-const vec3 Rcoeff = vec3(1.164,  0.000,  1.596);
-const vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);
 could not read any dollar gesture from rwops
 count
-d$ UAUAVH
-d$ UH
-d$$H;
-d$(L+
-d$(L9
-d$0A+
-d$0IcG
-d$6D:
-d$HE3
-d$PIc
-d$h;\$`uDH
-d$pA9V
-d$pD9m
-d$pE;
-d+t$@D
 d3dcompiler_43.dll
 d3dcompiler_46.dll
 dNtsq
 direct-to-disk audio
 direct3d
 directsound
+disk
 displayIndex must be in the range 0 - %d
 dpdown
 dpleft
 dpright
+dpup
 dst_pitch
 dummy
 e8206058000000000000504944564944,Cideko AK08b,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
@@ -2494,20 +1637,7 @@ eglTerminate
 eglWaitGL
 eglWaitNative
 emscripten
-f9<SH
-f9TMpu*
-fD9s u
-fD9s"u
-fD9s$
-fD9s&
-fD9s&u
-fD9s*
-fD9s0u
-fD9s4
 ffff0000000000000000504944564944,GameStop Gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
-fffff
-ffffff
-fffffff
 format
 gamma
 generic
@@ -2622,61 +1752,14 @@ glVertex3fv
 glVertexAttribPointer
 glViewport
 guide
-hA^A\][
-hA^A]_^
-hA_A]_[
-hA_A^A\[
-h_^][
 height
 hg-0:aaaaaaaaaaah
-i Lca(H;
 ignore
 imm32.dll
 index must be -1 or in the range of 0 - %d
 index must be in the range of 0 - %d
-l$ ATAUAV
-l$ ATAUD
-l$ ATH
-l$ VATAUH
-l$ VATAVH
-l$ VAUAVD
-l$ VH
-l$ VWATAUAVAWL
-l$ VWATAUAVH
-l$ VWATH
-l$ VWAVH
-l$ VWH
-l$ WATAUH
-l$ WAUAVD
-l$ WH
-l$(A\
-l$(E3
-l$(H+
-l$(Ic@(I
-l$(Lcl$`
-l$+Lc
-l$0A]A\
-l$0E+
-l$4A;
-l$8A^A]A\
-l$8A^A]^
-l$8A^A]_
-l$8Hc
-l$@A_A^A]_^
-l$HE3
-l$PA_A^A]A\_^
-l$PE3
-l$X9o
-l$XHc
-l$`D9v
-l$hD9u
-l$ht*
-l$p=YV12
-l$pD3
-l$pD9+
-l$pD9v
-l$pE3
-l$xE;
+info
+k\vtH
 leftshoulder
 leftstick
 lefttrigger
@@ -2694,180 +1777,61 @@ max_w
 messageboxdata
 min_h
 min_w
+mode
 n5Failed to create notify device for joystick autodetect
-n@HfE
-n@XfA
-n@\fE
-nJlfE
-nL$pfA
-nPLfE
-nR<fE
-nRlfE
-nZ@fA
-nZ`fA
-nZpfE
-n\$`f
-n`@fA
-nb fA
-nb0fA
-nb@fA
-nb@fE
-nb`fA
-nbpfE
+name
 ncolors
-nd$ fA
-njDfA
-njdfA
 nmP:F
 no gesture touch devices registered
-nr$fE
-nr4fE
-nrDfE
-nrdfE
-nt$hf
+none
 numrects
 ole32.dll
 opengl
 opengles2
 outputIndex
 p?ramp
-pA]][
-pA^A]A\_^][
-pA_A]A\_[
-pA_A^_^[
 palette
 pitch
 pixels
 platform:
 points
-q$Hci
-r/ffffff
-r5fffff
-rIfffff
-rQffffff
+rect
 rects
 result
 retry
-rgfff
 ri7f>
 rightshoulder
 rightstick
 righttrigger
 rightx
 righty
-s*fffff
-s,ffff
-s,ffffff
-s3ffff
-sEfff
-sJA;T$
-sRffffff
 scancode
 sdlaudio.raw
+size
 software
+span
 start
 surface
-t"ffffff
-t$ A+
-t$ ATAUE3
-t$ ATH
-t$ E3
-t$ H;
-t$ IcT$
-t$ L+
-t$ WATAUAVAWH
-t$ WATAUAVAWL
-t$ WATAUAVH
-t$ WATAUH
-t$ WATAVH
-t$ WAUAVH
-t$ WD
-t$ WH
-t$ WM
-t$ tF
-t$(I;
-t$(L+
-t$(Lc
-t$0A]A\
-t$0L+
-t$0Lc
-t$0Mc
-t$4A:
-t$8E:
-t$8L+
-t$@E3
-t$H9p t
-t$HA+
-t$HA9l$
-t$HA_A^A]A\_
-t$HE3
-t$PI+
-t$XA+
-t$XHc
-t$`9k0
-t$`E3
-t$`Lc
-t$h;8u>
-t$hA+
-t$hIc@
-t$h}A
-t$xD+
-t$xHc
-t$xMc
-t%ffff
-t'D9{(t
-t'fff
-t)ffffff
-t,fffff
-t1H;)u
-t1HcC
-t6fffff
-t8H;C
-t8H;G
-t8I;A
-t8I;B
-t;ffffff
-tAffff
-tLffff
-tNH9\$ uGH9\$(u@
-tNffff
-tPIc@
-tTD9u
-tUpH+
-tX-J6
-tXD95
-tZffffff
-t\~lA
-tefff
 tex%d
+time
 timeBeginPeriod
 timeEndPeriod
 timeGetTime
 times
-tq<:u
-u6H9|$8w/3
-u;IcJ
-uAE9Y H
-uAE9i H
-uVIcJ
 u_color
 u_modulation
 u_projection
 u_texture
 u_texture_u
 u_texture_v
-uniform sampler2D tex0;
-uniform sampler2D tex0; // Y 
-uniform sampler2D tex1; // U 
-uniform sampler2D tex1; // U/V 
-uniform sampler2D tex2; // V 
-urffff
-uxD9{(t
 v@GLES2_RenderReadPixels
-varying vec2 v_texCoord;
-varying vec4 v_color;
-void main()
-w8t-A
+varying vec4 v_color;\n\nvoid main()\n{\n    gl_FragColor = v_color;\n}
+varying vec4 v_color;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n    v_texCoord = vec2(gl_MultiTexCoord0);\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U \nuniform sampler2D tex2; // V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.y = texture2D(tex1, tcoord).r;\n    yuv.z = texture2D(tex2, tcoord).r;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U/V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.yz = texture2D(tex1, tcoord).ar;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U/V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.yz = texture2D(tex1, tcoord).ra;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0;\n\nvoid main()\n{\n    gl_FragColor = texture2D(tex0, v_texCoord) * v_color;\n}
 waveInClose
 waveInGetDevCapsW
 waveInGetNumDevs
@@ -2903,73 +1867,6 @@ windows_file_seek: invalid context/file not opened
 windows_file_size
 windows_file_size: invalid context/file not opened
 winmm
-x ATAUAVH
-xA_A^A]A\_^][
-xH90u	H
-x_^[]
 xaudio2
-xinpf
 xinput
 xinput,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
-z0u.H
-z3u13
-z5u3E
-{@9{8t
-| HcO
-|$ AT
-|$ ATAU
-|$ ATAUAV
-|$ ATAUAVAW
-|$ ATAUAVAWL
-|$ ATAUAVD
-|$ ATAUAVH
-|$ ATAUD
-|$ ATAUH
-|$ ATAUL
-|$ ATD
-|$ ATH
-|$ ATL
-|$ dataH
-|$ ff
-|$$Hc
-|$(A\
-|$,E;
-|$,fD
-|$0A+
-|$0A]A\
-|$0E3
-|$0H+
-|$0Hc
-|$0Hc=
-|$0L+
-|$8A^A]A\
-|$8ffff
-|$8uGH
-|$@A_A^A]A\
-|$@E3
-|$@M;
-|$@fA
-|$@t|D
-|$HA+
-|$HHc
-|$HI+
-|$Xfff
-|$`Hc
-|$`t8H
-|$hHc
-|$hHcD$p
-|$hHcL$`
-|$hIc
-|$hfffff
-|$pLcD$hM
-|$xE3
-|$xHc
-|;IcM
-|TIcN
-|uIcH
-}h><PE
-~/ffff
-~3fff
-~5ffff
-~;Lct$x
-~ifff

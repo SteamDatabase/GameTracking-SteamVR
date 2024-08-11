@@ -1,12 +1,8 @@
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
-*BSJB
 .ctor
-.text
 <Module>
-@.reloc
 DebuggableAttribute
 DebuggingModes
 Object
@@ -19,8 +15,8 @@ UnityEngine.VR
 UnityEngine.VR.dll
 UnityEngine.VRInternal
 WrapNonExceptionThrows
+\n*BSJB
 _CorDllMain
-`.rsrc
 mscoree.dll
 mscorlib
 v2.0.50727

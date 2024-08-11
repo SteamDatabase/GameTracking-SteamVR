@@ -1,73 +1,9 @@
-																																																																																																																
-	!s99
-	D$HA
-	|$HA
-    A
- %41g
- =RDHI
- A^A]A\_^
- A_A\_
- A_A]A\_^
- A_A^A\
- A_A^A]A\_
- A_A^^
- A_A^_
- A_A^_][
- A_A^_^]
- A__^
- H3E H3E
-!(0)"
-!hn7!
-"9k0t
-#*1892+$
-#3>c;
-#9i0t
 #?RADIANCE
+#?RADIANCE\n
 #?RGBE
-#D9c0t
-#D9{0t
-%,3:;4-&
-%9k0t
-%9{0t
-&9k0t
-&D9c0t
-&D9k0t
-&D9{0t
-',=?k
+#?RGBE\n
 '.5<=6/7>????????????????
-'9k0t
-'D9c0t
-(A\^][
-(A^A]^[
-(A^A]_[
-(A_A^_[
-(A_A^_]
-(L$ D
-(f*^[0
-(t$ H
-(t$ u
-(t$0H
-(t$PD
-(t$PL
-(|$ H
-(|$@D
-)9k0t
-)D$0fD
-)L$ fD
-)t$ H
-)t$0H
-)|$ H
-)|$@f
-+Xt@(
-+o'q)}
 , last executing in 
-,9k0t%H
-,9{0t%H
-,W5y+
--9k0t&H
--9{0t%H
--D9c0t%H
--S9DQ
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -108,7 +44,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.D9c0t&H
+.bss
 .data
 .data$r
 .edata
@@ -126,17 +62,16 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-/9{0t'H
 /delivery_rate
 /elapsed_time
 /format
@@ -167,65 +102,12 @@
 /width
 0 width
 0-pixel image
-0A_A^A]A\^
-0A_A^_
-0D9c0t'H
-0w0c1
-0}0i1
 1/2/4/8/16-bit only
-130801120000Z
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173829Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7u;H;
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8_^][
+5\vqB
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9C }.H
-9T$XJ
-9]pu2
-9k0t$H
-9k0t[D
-9k0t\D
-9k0t_D
-9k0tcH
-9l$Lt	E
-:4)w+bs(q
-;D$ht6
-<0:08
 <unknown>
-=ETLP
-=IBgC
-=SNRtt%
-=TADIt<=DNEI
-=rIQU
->0<0:
->Mp$d
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -246,27 +128,7 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
-@.data
-@.reloc
-@A^_^
-@A_A^A\_]
 @LocalizationManager
-@SATAUAVAWH
-@SAVH
-@SAWH
-@SUVATH
-@SUWAVAWH
-@SVAUAVH
-@SWAVAWH
-@USVH
-@USVWATAVAWH
-@USVWATH
-@USVWAVH
-@UWAVAWH
-@VAVAWH
-A9A A
-A9Q }EI
-A;Q }?I
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -276,30 +138,12 @@ AITAPI_GetFWVersion
 AITAPI_IspCommand
 AITAPI_MmpCommand
 AITAPI_OpenDeviceEx
-ASSERT: "%s" at %s:%d.
-ATAWH
-A\_^[]
-A]A\^
-A^A]A\_^[]
-A^A]_[]
-A^_^[]
-A_A]A\^[]
-A_A^A\_^[]
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_^][
-A_A^_
-A_A^_^]
+ASSERT: "%s" at %s:%d.\n
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
-AuthD
 BMP RLE
-Bellevue1
-CAMCMD_GET_OPENCAMERA_RESULT
-CT$ H
+CAMCMD_GET_OPENCAMERA_RESULT\n
 CallCreateObject
 CameraWork
 CloseHandle
@@ -307,47 +151,12 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
-D$ E;
-D$ H;
-D$ fE
-D$$E3
-D$(@88
-D$0E3
-D$0H+
-D$0fD
-D$0fff
-D$4I;
-D$8I;
-D$@H+
-D$@HcD$@H
-D$@fA
-D$HHc
-D$PI;
-D$PfA
-D$TI;
-D$XA#
-D8-8P
-D8-aO
-D9c0t
-D9c0t)H
-D9{0t
-D9{0t'H
-D9{0t?H
-D9{0tZD
-D`0nF_
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
 Enabled
 EnterCriticalSection
-Error! EventWriteString Severe: %s
+Error! EventWriteString Severe: %s\n
 Error: Can't decode MJPG frame. The failed output frame will be blacked.
 Etron_%d_%d_v%d
 EventRegister
@@ -357,7 +166,7 @@ EventWriteTransfer
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
-Failed to join thread CameraWorkThread /+/ TID: %d
+Failed to join thread CameraWorkThread /+/ TID: %d\n
 FailedToGetFirmwareVersion
 FreeLibrary
 GetCameraHALInterface
@@ -369,21 +178,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
-H+C H;
-H-^Eu
-H93t	H
-H9D$@u
-H;C(v
-H;s(r
-H;{XH
-HcD$@
-HcD$@H
-HcD$x
-HcF$H
-HcL$4
-Hct$@L+
-Hu"Hc
-I(+K H
+H264
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -416,202 +211,117 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
+JFIF
 KERNEL32.dll
-K}*n:	
-L$ E3
-L$ Hc
-L$ L;
-L$ SH
-L$ SUVWH
-L$ SVWH
-L$ SWAVH
-L$ SWH
-L$"H;
-L$0fE
-L$4D;
-L$8A+
-L$8H;L$0
-L$@D8	u
-L$@D;
-L$@E3
-L$@fD
-L$\E3
-L$`fD
-L9l$@u1
-L9t$@
-L;D$0u
-L<pL;
-L?n(Zy&
-Lc E3
-Lcl$$I
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
-M H1E
-MB(iVR
 MSVCP140.dll
 MainThrd
 MbP?{
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NULL
 Not Available
 NotFound
-Out of thread local storage!
+Out of thread local storage!\n
 OutputDebugStringA
-PA^_^
-PA_A^A]A\[
-PAq=?Mp#
-PauseCamera
-PauseCamera (delayed...)
-PauseCamera (immediate)
+PICT
+PNG\r\n
+PauseCamera (delayed...)\n
+PauseCamera (immediate)\n
+PauseCamera\n
 PermissionDenied
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R$fE;B*
 RPCRT4.dll
+RSDS
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
-ResumeCamera
+ResumeCamera\n
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S0Q0O
-SATAUAVAWH
-SA|X=G
-SPB8t
-SPB8u,
-SUVWATAUAVAWH
-SUVWAUAVAWH
-SWAUAVH
 SetEvent
 SetUnhandledExceptionFilter
 ShutdownCameraHAL
 Sleep
 SleepConditionVariableCS
-StartVideoStream
-StopVideoStream
+StartVideoStream\n
+StopVideoStream\n
 Success
-T$ fD
-T$0fA
-T$8;T$<
-T$@Hc
-T$@I;
-T$XA#
-T$pD;
-TUUUUUU
 TdhEnumerateManifestProviderEvents
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-TrackedCamera: CloseCamera()
-TrackedCamera: Couldn't find Dual Cameras at USB VID:%04X, USB PID:%04X
-TrackedCamera: Degenerate Frame Buffering size %d.
-TrackedCamera: Detailed Firmware Information: model:%d, date:%d, version:%d
-TrackedCamera: Expecting drivers at '%s'
-TrackedCamera: Failed to create video graph interface!
-TrackedCamera: Failed to end video stream (err=0x%08X)!
-TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X
-TrackedCamera: Failed to get firmware version.
-TrackedCamera: Failed to open device using video graph interface!
-TrackedCamera: Failed to query interface, IID_IConnectVideoSink!
-TrackedCamera: Failed to queue.
-TrackedCamera: Failed to resume video stream (err=0x08X)!
-TrackedCamera: Failed to start preview (err=%d)!
-TrackedCamera: Failed to start preview (err=0x%08X)!
-TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X
-TrackedCamera: Found Dual Cameras at USB VID:%04X, USB PID:%04X
-TrackedCamera: Frame Buffering, missing buffer %d.
-TrackedCamera: ISP Sync: %s (Divisor:%d).
-TrackedCamera: Incompatible firmware version: %llu.
-TrackedCamera: OnStartCommand_StartVideoStreamInternal()
-TrackedCamera: OnWorkThread_CloseCamera()
-TrackedCamera: OnWorkThread_OpenCamera()
-TrackedCamera: OnWorkThread_PauseCamera()
-TrackedCamera: OnWorkThread_ResumeCamera()
-TrackedCamera: OpenCamera()
-TrackedCamera: StartVideoStream() took %.0f ms
-TrackedCamera: Starting Video Stream.
-TrackedCamera: Stopping Video Stream For Camera Shutdown.
-TrackedCamera: Stopping Video Stream.
-TrackedCamera: Video Stream Stopped (abnormal shutdown).
-TrackedCamera: Video Stream Stopped (failed startup).
-TrackedCamera: Video Stream Stopped.
-TrackedCamera: Worker thread OpenCamera result: %s.
-USVATAUAWH
-USVWATAUAVAWH
-USVWATAUAVH
-USWAUAVH
-UVWATAUAVAWH
-UVWAVAWH
-UWATAVAWH
+TrackedCamera: CloseCamera()\n
+TrackedCamera: Couldn't find Dual Cameras at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Degenerate Frame Buffering size %d.\n
+TrackedCamera: Detailed Firmware Information: model:%d, date:%d, version:%d\n
+TrackedCamera: Expecting drivers at '%s'\n
+TrackedCamera: Failed to create video graph interface!\n
+TrackedCamera: Failed to end video stream (err=0x%08X)!\n
+TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Failed to get firmware version.\n
+TrackedCamera: Failed to open device using video graph interface!\n
+TrackedCamera: Failed to query interface, IID_IConnectVideoSink!\n
+TrackedCamera: Failed to queue.\n
+TrackedCamera: Failed to resume video stream (err=0x08X)!\n
+TrackedCamera: Failed to start preview (err=%d)!\n
+TrackedCamera: Failed to start preview (err=0x%08X)!\n
+TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Found Dual Cameras at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Frame Buffering, missing buffer %d.\n
+TrackedCamera: ISP Sync: %s (Divisor:%d).\n
+TrackedCamera: Incompatible firmware version: %llu.\n
+TrackedCamera: OnStartCommand_StartVideoStreamInternal()\n
+TrackedCamera: OnWorkThread_CloseCamera()\n
+TrackedCamera: OnWorkThread_OpenCamera()\n
+TrackedCamera: OnWorkThread_PauseCamera()\n
+TrackedCamera: OnWorkThread_ResumeCamera()\n
+TrackedCamera: OpenCamera()\n
+TrackedCamera: StartVideoStream() took %.0f ms\n
+TrackedCamera: Starting Video Stream.\n
+TrackedCamera: Stopping Video Stream For Camera Shutdown.\n
+TrackedCamera: Stopping Video Stream.\n
+TrackedCamera: Video Stream Stopped (abnormal shutdown).\n
+TrackedCamera: Video Stream Stopped (failed startup).\n
+TrackedCamera: Video Stream Stopped.\n
+TrackedCamera: Worker thread OpenCamera result: %s.\n
 UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
-VATAUH
 VCRUNTIME140.dll
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
-VWATAUAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
-WATAUAVAWH
-WAVAWH
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Warning: Watchdog %s not properly cleaned up%s%s
-Washington1
+Warning: Watchdog %s not properly cleaned up%s%s\n
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-Y9"SD
-Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
-[K]taM?
-\$ E3
-\$ UH
-\$ UVWATAUAVAWH
-\$ VH
-\$8D;
-\$PfD
-\$XLc
-\$pfD
-]9k0tVD
-]J<0"0i3
-]g@8yhu
-^9k0tWD
+\nbad png sig
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
 _CxxThrowException
-_D9c0tWD
-_D9k0tWD
-_D9s0tWD
-_D9w0tWD
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
@@ -634,7 +344,6 @@ _cexit
 _configure_narrow_argv
 _crt_atexit
 _execute_onexit_table
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -645,10 +354,6 @@ _register_onexit_function
 _seh_filter_dll
 _wchdir
 _wgetcwd
-`.rdata
-`A_A^A]A\_^]
-`A__^
-a7hIw
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -697,7 +402,6 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
-bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
@@ -715,16 +419,9 @@ cameraFrameRate
 cameraISPSyncDivisor
 cameraSensorFrameRate
 can't merge dc and ac
-cbL/#rc
 corrupt
 cs_cz
 czech
-d$$E3
-d$(Hi
-d$<Mc
-d$PfD
-d$`H=
-d$`fD
 da_dk
 danish
 de_de
@@ -738,24 +435,17 @@ es_es
 es_mx
 etronlib
 expected marker
-fD9	u
-fD9&u
+feof
 fi_fi
 finnish
 first not IHDR
 fr_fr
 fread
+free
 french
 fseek
-g9k0t_D
 german
-gfffffffH
 greek
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 hu_hu
 hungarian
 illegal code in raster
@@ -765,33 +455,12 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
-ix`fA
 ja_jp
 japanese
-jj@0HK4
-k0i0$
 ko_kr
 koreana
-l$ ATAVAWH
-l$ H;
-l$ VATAUAVAWH
-l$ VH
-l$ VWATAUAVH
-l$ WAVHc|$8I
-l$ WH
-l$0A^_
-l$0E3
-l$4H;
-l$8E3
-l$@t^
-l$HuF
-l$TD;
-l$hA+
-l$hHc
-l2|X/gGe
 latam
 ldexp
-m0k0$
 malloc
 map/set<T> too long
 max value > 255
@@ -816,28 +485,17 @@ not GIF
 not HDR
 not PSD
 not enough pixels
-ntelD
-o@@fD
-oD$ fD
-oD$0f
-oD$0fD
-oL$ f
-oT$0f
 only 8-bit
-ot$Pf
 outofdata
 outofmem
 output buffer limit
-p UWAVH
-pA^_[
-pA_A^A]A\[
 pl_pl
 polish
 portuguese
+powf
 pt_br
 pt_pt
 pvBuffer != nullptr
-rND9{0t
 read past buffer
 ro_ro
 romanian
@@ -855,43 +513,18 @@ strncpy_s
 strtol
 sv_se
 swedish
-t$ AVH
-t$ H;
-t$ WATAUAVAWH
-t$ WATAWH
-t$ WAV
-t$ WAVAWH
-t$ WH
-t$0A^_
-t$0ff
-t$8H;
-t$@E3
-t$@H=
-t$PHc
-t$hL;
-t$pfA
-t$pfD
-t>H9n
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tXfff
-tb9l$Xt@9n$~;
 tchinese
 tdh.dll
 terminate
 th_th
+thai
 too large
 too many codes
 tr_tr
 turkish
-u,@8}
-u.9x }
-u>f9X u8f9X0u2f9X@u,f9XPu&
-u>f9X"u8f9X2u2f9XBu,f9XRu&
-uDf9X
-uH@8}
-uJf9X
 uk_ua
 ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -902,8 +535,6 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
-v=Y]Bv
-vHcD$LH
 vi_vn
 vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
@@ -911,28 +542,6 @@ vrcamera_api.dll
 wrong channel count
 wrong color format
 wrong version
-www.digicert.com1!0
-www.digicert.com1$0"
 zh_cn
 zh_tw
 zlib corrupt
-{un'%
-|$ ATAUAVAWH
-|$ ATAVAWH
-|$ AVH
-|$ E3
-|$0H;
-|$8H;
-|$<I;
-|$@A_A^A]A\
-|$HE3
-|$HH;
-|$PH;
-|$PLc
-|$XH;
-|Lu?c
-}LuHO
-~3LcD$(L
-~6HcD$ I
-~qj#k"
-~t&LN

@@ -1,9 +1,3 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- A^A]A\_^
- A^][
- H3E H3E
-!This program cannot be run in DOS mode.
-(HcCL
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AVQGifHandler@@
@@ -27,6 +21,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -47,20 +42,16 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-0A_A^A]
-0HcD$pE
-4Rich
-;Kp}	;St}
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QByteArray@@QEAA@XZ
 ??0QImage@@QEAA@HHW4Format@0@@Z
@@ -88,15 +79,6 @@
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?detach@QImage@@QEAAXXZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?isReadable@QIODevice@@QEBA_NXZ
 ?peek@QIODevice@@QEAA_JPEAD_J@Z
 ?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
@@ -105,66 +87,33 @@
 ?shared_null@QArrayData@@2QBU1@B
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?warning@QMessageLogger@@QEBAXPEBDZZ
-@.data
-@.qtmetad 
-@.reloc
-@A^_^
-@SAWH
-@SUAVH
-@SVWH
-@VWATAUAVH
-AUAVAWH
-AuthD
-CL;CT
-CP;Cd|
-CduoD9
 CloseHandle
-Cp9Cx|
 CreateEventW
-Ct9C|}MD9
-D$0A+
-D$0E3
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
 GIF87a
 GIF89a
-GenuA
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-HcCP;C`}
-HcCXH
-HcKPH
-HcK\H
-HcK`H
-Hc|$@L
 InitializeConditionVariable
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 K?height@QImage@@QEBAHXZ
 KERNEL32.dll
-L$ E3
-L$0E3
-L$HH3
-L$XH3
 L?isNull@QImage@@QEBA_NXZ
 L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 LeaveCriticalSection
-M H1E
-MetaData
-MimeTypes
 NETSCAPE
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 QGifHandler::canRead() called with no device
 QGifPlugin
-QTMETADATA  qbjs
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
@@ -173,23 +122,28 @@ ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-SUVWATAUAVAWH
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T$@A;
 T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-VWAVH
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Z?width@QImage@@QEBAHXZ
-\$ UH
-\$PD8A`u$H
+\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?detach@QImage@@QEAAXXZ
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -207,38 +161,20 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
-ffffff
-gfffA
-gfffD
-gfffE;
-h	?byteCount@QImage@@QEBAHXZ
-image/gif
-j	?bytesPerLine@QImage@@QEBAHXZ
-l$ VH
-l$XD;x
+free
+h\t?byteCount@QImage@@QEBAHXZ
+j\t?bytesPerLine@QImage@@QEBAHXZ
 malloc
 memcpy
 memset
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qgif.dll
 qt_plugin_instance
 qt_plugin_query_metadata
 strncmp
-uHHcV
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-xA_A^A]A\_^][
-|$ AVH
-|$`H;
-|$`Mc
-~-HcN

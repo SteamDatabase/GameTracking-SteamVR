@@ -1,6 +1,3 @@
-	,&rI
-	IsPlaying
-	VideoClip
  Modules/Video/Public/VideoClip.h
  Runtime/Graphics/RenderTexture.h
  Unity.IntegrationTests.Framework
@@ -9,7 +6,6 @@
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
 !Runtime/Director/Core/HPlayable.h
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -61,10 +57,8 @@ $UnityEngine.UnityWebRequestWWWModule
 .Modules/Video/Public/Base/VideoMediaPlayback.h
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 1Modules/Video/Public/Director/VideoClipPlayable.h
 <Module>
-@.reloc
 @Modules/Video/Public/ScriptBindings/VideoClipPlayable.bindings.h
 APIOnly
 AreFrameReadyEventsEnabled
@@ -73,6 +67,7 @@ ArgumentOutOfRangeException
 Assembly-CSharp-testable
 AsyncCallback
 AudioDSPTimeSource
+BSJB
 BadParams
 BadPermissions
 BeginInvoke
@@ -83,7 +78,6 @@ CanNotSkipOnDrop
 CanSetDirectAudioVolume
 CanSetPlaybackSpeed
 CanSetSkipOnDrop
-CanSetTime
 CanSetTimeSource
 CanStep
 CantReadFile
@@ -110,6 +104,7 @@ Duration
 EnableAudioTrack
 EnableFrameReadyEvents
 EndInvoke
+Enum
 Equals
 ErrorEventHandler
 ExtensionAttribute
@@ -118,7 +113,6 @@ FitHorizontally
 FitInside
 FitOutside
 FitVertically
-FramePosition
 FrameReadyEventHandler
 Freerun
 GameTimeSource
@@ -183,12 +177,12 @@ IsAudioTrackEnabled
 IsPaused
 IsPlayableOfType
 IsPlaying
-IsPrepared
 IsReady
 IsValid
 IssRGB
 LogWarning
 Lookup
+Loop
 MaterialOverride
 MessageCallback
 MulticastDelegate
@@ -197,20 +191,25 @@ NativeHeaderAttribute
 NativeNameAttribute
 NativeThrowsAttribute
 NetworkErr
+No3D
 NoData
 NoErr
 NoScaling
+None
 Object
 OutOfMemoryErr
 OverUnder3D
 Pause
 PausePlayback
 PlatformSupportsH265
+Play
 PlayableExtensions
 PlayableGraph
 PlayableHandle
 Prepare
 ProcessOSMainLoopMessagesForTesting
+RGBA
+RSDS
 ReleaseVideoPlayback
 Remove
 RenderTexture
@@ -221,7 +220,7 @@ Runtime/Camera/Camera.h
 Runtime/Graphics/Renderer.h
 Runtime/Graphics/Texture.h
 RuntimeCompatibilityAttribute
-SecPosition
+Seek
 SeekToFrame
 SeekToTime
 SetAdjustToLinearSpace
@@ -245,6 +244,7 @@ StartPlayback
 StaticAccessorAttribute
 StaticAccessorType
 StepForward
+Stop
 StopPlayback
 Stretch
 String
@@ -265,7 +265,6 @@ Unity.Analytics
 Unity.Audio.DSPGraph
 Unity.Audio.DSPGraph.Tests
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -368,13 +367,22 @@ VideoPlayerExtensionsBindings
 VideoRenderMode
 VideoScriptingClasses.h
 VideoSource
-VideoTesting
 VideoTimeReference
 VideoTimeSource
 VideoUrl
 WrapNonExceptionThrows
+YUVA
+Zero
+\fVideoTesting
+\nCanSetTime
+\nIsPrepared
+\rFramePosition
+\tIsPlaying
+\tVideoClip
+\vSecPosition
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 add_clockResyncOccurred
 add_errorReceived
 add_frameDropped
@@ -456,6 +464,7 @@ message
 method
 mscoree.dll
 mscorlib
+mute
 object
 op_Equality
 op_Explicit
@@ -477,6 +486,7 @@ remove_seekCompleted
 remove_started
 result
 seconds
+secs
 seekCompletedCallback
 set_aspectRatio
 set_audioOutputMode

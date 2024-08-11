@@ -1,5 +1,3 @@
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
-!This program cannot be run in DOS mode.
 -Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
 .00cfg
 .?AUTga16Reader@@
@@ -27,6 +25,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -35,7 +34,6 @@
 .idata$4
 .idata$5
 .idata$6
-.qtmetad$
 .qtmetadata
 .rdata
 .rdata$T
@@ -48,50 +46,14 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata$x
-0(090F0L0W0]0h0o0t0}0
-040P0p0
-090W0
-0O1q1{1
-1,141q1y1
-101H1d1
 1[?write@QImageIOHandler@@UAE_NABVQImage@@@Z
-21272
-282T2i2
-2P2T2X2\2`2d2h2l2p2t2x2|2H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-3!434
-3#303}3
-343A3J3Q3m3v3}3
-4 5w5
-4(414D4N4
-4@5D5H5`5d5h5|5
-545=5P5Z5
-5ineI
-5ntel
-6F6c6y6
-6h6l6p6t6
-7 7$7,7D7T7X7h7l7p7x7
-7'737<7A7G7Q7[7k7{7
-7n8w8
-8$8G8~8
-8(888<8L8P8T8X8`8x8|8
-9,959H9):I:S:n:v:
-9,9<9@9P9T9\9t9
-9F9M9
-: :2:T:
-:t=x=
-;!;*;7;N;i;
-;#;8;I;^;d;~;
-< <&<,<p<
-<7<<<a<g<m<s<y<
-=)>R>a>t>
->,>4><>D>H>L>T>h>
 ??0QByteArray@@QAE@PBDH@Z
 ??0QImage@@QAE@$$QAV0@@Z
 ??0QImage@@QAE@HHW4Format@0@@Z
@@ -112,32 +74,19 @@
 ??4QString@@QAEAAV0@$$QAV0@@Z
 ?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
 ?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?currentImageNumber@QImageIOHandler@@UBEHXZ
-?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
-?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
-?getChar@QIODevice@@QAE_NPAD@Z
 ?isOpen@QIODevice@@QBE_NXZ
 ?isReadable@QIODevice@@QBE_NXZ
-?j?w?
 ?qstrcmp@@YAHABVQByteArray@@PBD@Z
 ?read@QIODevice@@QAE_JPAD_J@Z
 ?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
 ?translate@QCoreApplication@@SA?AVQString@@PBD00H@Z
 ?warning@QMessageLogger@@QBAXPBDZZ
-@.data
-@.reloc
 CloseHandle
 Could not read footer
 Could not read image data
 Could not reset to read data
 Could not seek to image read footer
 CreateEventW
-D$(^[
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
@@ -162,12 +111,8 @@ L?jumpToImage@QImageIOHandler@@UAE_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
 LeaveCriticalSection
 M?loopCount@QImageIOHandler@@UBEHXZ
-MetaData
-MimeTypes
 O?nextImageDelay@QImageIOHandler@@UBEHXZ
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-QTMETADATA  qbjs
 QTgaFile
 QTgaHandler::canRead() called with no device
 QTgaPlugin
@@ -190,10 +135,17 @@ VCRUNTIME140.dll
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Y__^[
-\$0VW
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+\f?getChar@QIODevice@@QAE_NPAD@Z
+\n?currentImageNumber@QImageIOHandler@@UBEHXZ
+\n?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+\t?customEvent@QObject@@MAEXPAVQEvent@@@Z
+\v?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+\v?event@QObject@@UAE_NPAVQEvent@@@Z
+\v?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
 _CxxThrowException
-_^[]3
 __std_exception_copy
 __std_exception_destroy
 __std_type_info_destroy_list
@@ -211,22 +163,17 @@ _initterm_e
 _purecall
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
-image/x-tga
+free
 malloc
 memset
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qt_plugin_instance
 qt_plugin_query_metadata
 qtga.dll
 strncmp
 uT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
 vT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
-version

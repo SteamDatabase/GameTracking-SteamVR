@@ -1598,9 +1598,9 @@
           e.indexOf("Mirror") >= 0
             ? (S.G3.audioDevices.selected_mirror_device = t)
             : e.indexOf("playback") >= 0
-            ? (S.G3.audioDevices.selected_playback_device = t)
-            : e.indexOf("recording") >= 0 &&
-              (S.G3.audioDevices.selected_recording_device = t);
+              ? (S.G3.audioDevices.selected_playback_device = t)
+              : e.indexOf("recording") >= 0 &&
+                (S.G3.audioDevices.selected_recording_device = t);
         }
         setDeviceSetting(e, t, n) {
           n &&
@@ -1857,28 +1857,28 @@
                 (0, m.Xx)("#CameraTest_CheckingCamera"),
               )
             : this.state.streamingProgress == f.Failure
-            ? c.createElement(
-                "h1",
-                { className: "CameraStatus Failure" },
-                (0, m.Xx)("#CameraTest_CameraFailed"),
-              )
-            : this.state.trackingProgress == f.Evaluating
-            ? c.createElement(
-                "h1",
-                { className: "CameraStatus Evaluating" },
-                (0, m.Xx)("#CameraTest_CheckingTracking"),
-              )
-            : this.state.trackingProgress == f.Failure
-            ? c.createElement(
-                "h1",
-                { className: "CameraStatus Failure" },
-                (0, m.Xx)("#CameraTest_TrackingFailed"),
-              )
-            : c.createElement(
-                "h1",
-                { className: "CameraStatus Success" },
-                (0, m.Xx)("#CameraTest_Success"),
-              );
+              ? c.createElement(
+                  "h1",
+                  { className: "CameraStatus Failure" },
+                  (0, m.Xx)("#CameraTest_CameraFailed"),
+                )
+              : this.state.trackingProgress == f.Evaluating
+                ? c.createElement(
+                    "h1",
+                    { className: "CameraStatus Evaluating" },
+                    (0, m.Xx)("#CameraTest_CheckingTracking"),
+                  )
+                : this.state.trackingProgress == f.Failure
+                  ? c.createElement(
+                      "h1",
+                      { className: "CameraStatus Failure" },
+                      (0, m.Xx)("#CameraTest_TrackingFailed"),
+                    )
+                  : c.createElement(
+                      "h1",
+                      { className: "CameraStatus Success" },
+                      (0, m.Xx)("#CameraTest_Success"),
+                    );
         }
         render() {
           return c.createElement(
@@ -2845,10 +2845,10 @@
             0 == this.state.nStatus
               ? (t = "uninitialized")
               : -1 == this.state.nStatus
-              ? (t = "HMD not supported")
-              : -2 == this.state.nStatus
-              ? (t = "Offline")
-              : 1 == this.state.nStatus && (t = "Online"),
+                ? (t = "HMD not supported")
+                : -2 == this.state.nStatus
+                  ? (t = "Offline")
+                  : 1 == this.state.nStatus && (t = "Online"),
             c.createElement(
               c.Fragment,
               null,
@@ -3587,8 +3587,8 @@
               i < 0.5
                 ? (0, m.Xx)("#Settings_Chaperone_SuitableForSmall")
                 : i < 1
-                ? (0, m.Xx)("#Settings_Chaperone_SuitableForMedium")
-                : (0, m.Xx)("#Settings_Chaperone_SuitableForLarge")),
+                  ? (0, m.Xx)("#Settings_Chaperone_SuitableForMedium")
+                  : (0, m.Xx)("#Settings_Chaperone_SuitableForLarge")),
             c.createElement(
               c.Fragment,
               null,
@@ -5114,13 +5114,13 @@
                   : null) && void 0 !== e
                 ? e
                 : null !==
-                    (t =
-                      null === VRHTML || void 0 === VRHTML
-                        ? void 0
-                        : VRHTML.VRApplications.GetSceneApplicationKey()) &&
-                  void 0 !== t
-                ? t
-                : "openvr.component.vrcompositor",
+                      (t =
+                        null === VRHTML || void 0 === VRHTML
+                          ? void 0
+                          : VRHTML.VRApplications.GetSceneApplicationKey()) &&
+                    void 0 !== t
+                  ? t
+                  : "openvr.component.vrcompositor",
             i = {
               type: "request_binding_callouts",
               returnAddress: this.m_mailbox.name,
@@ -5198,8 +5198,8 @@
                         null !== (t = this.currentRouteAppKey) && void 0 !== t
                           ? t
                           : null === VRHTML || void 0 === VRHTML
-                          ? void 0
-                          : VRHTML.VRApplications.GetSceneApplicationKey(),
+                            ? void 0
+                            : VRHTML.VRApplications.GetSceneApplicationKey(),
                       stateKey: "settings_controller_binding",
                       showCompositor: !0,
                       defaultLabel: (0, a.Xx)(
@@ -5333,13 +5333,13 @@
                   null !== (t = e.appKey) && void 0 !== t
                     ? t
                     : null !==
-                        (n =
-                          null === VRHTML || void 0 === VRHTML
-                            ? void 0
-                            : VRHTML.VRApplications.GetSceneApplicationKey()) &&
-                      void 0 !== n
-                    ? n
-                    : "openvr.component.vrcompositor",
+                          (n =
+                            null === VRHTML || void 0 === VRHTML
+                              ? void 0
+                              : VRHTML.VRApplications.GetSceneApplicationKey()) &&
+                        void 0 !== n
+                      ? n
+                      : "openvr.component.vrcompositor",
                 );
               },
             },
@@ -5811,13 +5811,13 @@
           "string" == typeof e.value
             ? (t = M(e.path))
             : "boolean" == typeof e.value
-            ? (t = w(
-                e.path,
-                VRHTML.VRPathProperties.GetBoolPathProperty,
-                VRHTML.VRPathProperties
-                  .RegisterForBoolPathPropertyChangedEvents,
-              ))
-            : "number" == typeof e.value && (t = R(e.path)),
+              ? (t = w(
+                  e.path,
+                  VRHTML.VRPathProperties.GetBoolPathProperty,
+                  VRHTML.VRPathProperties
+                    .RegisterForBoolPathPropertyChangedEvents,
+                ))
+              : "number" == typeof e.value && (t = R(e.path)),
           t === e.value ? e.children : null
         );
       }
@@ -6172,12 +6172,12 @@
                       0 == s
                         ? 1
                         : s == this.props.items.length - 1
-                        ? -1
-                        : this.state.nMouseDownIndex > s
-                        ? 1
-                        : this.state.nMouseDownIndex < s
-                        ? -1
-                        : 0,
+                          ? -1
+                          : this.state.nMouseDownIndex > s
+                            ? 1
+                            : this.state.nMouseDownIndex < s
+                              ? -1
+                              : 0,
                   },
                   onMouseEnter: this.onGroupMouseEnter,
                   onMouseLeave: this.onGroupMouseLeave,
@@ -6282,8 +6282,8 @@
           return this.props.name
             ? u.G3.settings.get(this.props.name)
             : void 0 !== this.props.value
-            ? this.props.value
-            : null;
+              ? this.props.value
+              : null;
         }
         onChange(e) {
           this.props.name &&
@@ -6351,8 +6351,8 @@
           return this.props.name
             ? u.G3.settings.get(this.props.name)
             : void 0 !== this.props.value
-            ? this.props.value
-            : null;
+              ? this.props.value
+              : null;
         }
         onChange(e) {
           this.props.name &&
@@ -6489,10 +6489,10 @@
           return 6 * (n = (n + 1) % 1) < 1
             ? e + (t - e) * n * 6
             : 2 * n < 1
-            ? t
-            : 3 * n < 2
-            ? e + (t - e) * (2 / 3 - n) * 6
-            : e;
+              ? t
+              : 3 * n < 2
+                ? e + (t - e) * (2 / 3 - n) * 6
+                : e;
         }
         static HSLToRGB(e, t, n) {
           e /= 360;
@@ -6830,14 +6830,15 @@
               "openvr.component.vrcompositor" == n.key
                 ? (i = !!this.props.showCompositor)
                 : n.key == C.Pv
-                ? (i = !!this.props.showSteam)
-                : n.key == C.W4 || n.key == C.jW
-                ? (i = !!this.props.showSteamVR)
-                : n.key.startsWith("system.generated")
-                ? (i = !!this.props.showGenerated)
-                : n.is_internal
-                ? (i = !!this.props.showInternal)
-                : n.is_dashboard_overlay && (i = !!this.props.showOverlays),
+                  ? (i = !!this.props.showSteam)
+                  : n.key == C.W4 || n.key == C.jW
+                    ? (i = !!this.props.showSteamVR)
+                    : n.key.startsWith("system.generated")
+                      ? (i = !!this.props.showGenerated)
+                      : n.is_internal
+                        ? (i = !!this.props.showInternal)
+                        : n.is_dashboard_overlay &&
+                          (i = !!this.props.showOverlays),
                 (i || n.current_scene_process) &&
                   e.push({
                     value: n.key,
@@ -6854,19 +6855,19 @@
               e.value == N.runningAppKey
                 ? -1
                 : t.value == N.runningAppKey
-                ? 1
-                : "openvr.component.vrcompositor" == e.value
-                ? -1
-                : "openvr.component.vrcompositor" == t.value
-                ? 1
-                : e.sLabel.localeCompare(t.sLabel),
+                  ? 1
+                  : "openvr.component.vrcompositor" == e.value
+                    ? -1
+                    : "openvr.component.vrcompositor" == t.value
+                      ? 1
+                      : e.sLabel.localeCompare(t.sLabel),
             ),
             s.sort((e, t) => e.sLabel.localeCompare(t.sLabel)),
             i.length > 0 && s.length > 0
               ? [...i, v.Kr.Separator, ...s]
               : i.length > 0
-              ? i
-              : s
+                ? i
+                : s
           );
         }
         onControllerDropdownChanged(e) {
@@ -7729,9 +7730,9 @@
                 Math.round(1e3 * e.worldscale) % 10 != 0
                   ? L.Fine
                   : e.worldscale < T[L.Normal].min ||
-                    e.worldscale > T[L.Normal].max
-                  ? L.Extreme
-                  : L.Normal),
+                      e.worldscale > T[L.Normal].max
+                    ? L.Extreme
+                    : L.Normal),
               (this.m_initialAppState = {
                 nResolutionMultiplier: e.resolution / 100,
                 nFovScaleMultiplier: e.fovscale / 100,
@@ -7954,8 +7955,8 @@
                           null !== (e = this.currentRouteAppKey) && void 0 !== e
                             ? e
                             : null === VRHTML || void 0 === VRHTML
-                            ? void 0
-                            : VRHTML.VRApplications.GetSceneApplicationKey(),
+                              ? void 0
+                              : VRHTML.VRApplications.GetSceneApplicationKey(),
                         showOverlays: !1,
                         defaultLabel: (0, l.Xx)(
                           "#Settings_PerApplication_ChooseApplication",
@@ -11584,21 +11585,21 @@
           return e === this.props.specialMaxValue
             ? 1
             : e === this.props.specialMinValue
-            ? 0
-            : Math.pow(
-                (e - this.externalRangeMin) /
-                  (this.externalRangeMax - this.externalRangeMin),
-                1 / this.exponent,
-              );
+              ? 0
+              : Math.pow(
+                  (e - this.externalRangeMin) /
+                    (this.externalRangeMax - this.externalRangeMin),
+                  1 / this.exponent,
+                );
         }
         normalizedToExternal(e) {
           return 0 == e && void 0 !== this.props.specialMinValue
             ? this.props.specialMinValue
             : 1 == e && void 0 !== this.props.specialMaxValue
-            ? this.props.specialMaxValue
-            : this.externalRangeMin +
-              Math.pow(e, this.exponent) *
-                (this.externalRangeMax - this.externalRangeMin);
+              ? this.props.specialMaxValue
+              : this.externalRangeMin +
+                Math.pow(e, this.exponent) *
+                  (this.externalRangeMax - this.externalRangeMin);
         }
         get normalizedValue() {
           return this.externalToNormalized(this.externalValue);
@@ -12048,12 +12049,12 @@
               e.last_launch < t.last_launch
                 ? 1
                 : e.last_launch > t.last_launch
-                ? -1
-                : e.name < t.name
-                ? 1
-                : e.name > t.name
-                ? -1
-                : 0,
+                  ? -1
+                  : e.name < t.name
+                    ? 1
+                    : e.name > t.name
+                      ? -1
+                      : 0,
             ),
             e
           );
@@ -12142,10 +12143,10 @@
                   ? `${e} ${t}`
                   : t
                 : "object" == typeof t
-                ? e
-                  ? `${e} ${s(t)}`
-                  : s(t)
-                : e
+                  ? e
+                    ? `${e} ${s(t)}`
+                    : s(t)
+                  : e
               : e,
           "",
         );
@@ -13828,8 +13829,8 @@
               "none" == i
                 ? e.inputs.has(n) && e.inputs.delete(n)
                 : e.inputs.has(n)
-                ? (e.inputs.get(n).output = i)
-                : e.inputs.set(n, { output: i }),
+                  ? (e.inputs.get(n).output = i)
+                  : e.inputs.set(n, { output: i }),
               this.NotifyWatchersOfChange();
           }
         }
@@ -14989,10 +14990,10 @@
               (this.m_OutstandingSelectConfigResolve = void 0),
               console.log("OnSelectConfigComplete: ", e))
             : e.error_to_show
-            ? h.w.ShowBindingList(e.error_to_show)
-            : console.warn(
-                "Missing outstanding query resolve for select config",
-              );
+              ? h.w.ShowBindingList(e.error_to_show)
+              : console.warn(
+                  "Missing outstanding query resolve for select config",
+                );
         }
         OnTrackersBindingChanged(e) {
           this.GetTrackerBindings().then((e) => {
@@ -15938,13 +15939,15 @@
           return n != "#" + t
             ? n
             : e &&
-              this.m_InputState &&
-              this.m_InputState.localization.hasOwnProperty(e.resource_root) &&
-              this.m_InputState.localization[e.resource_root].hasOwnProperty(
-                t.toLowerCase(),
-              )
-            ? this.m_InputState.localization[e.resource_root][t.toLowerCase()]
-            : t;
+                this.m_InputState &&
+                this.m_InputState.localization.hasOwnProperty(
+                  e.resource_root,
+                ) &&
+                this.m_InputState.localization[e.resource_root].hasOwnProperty(
+                  t.toLowerCase(),
+                )
+              ? this.m_InputState.localization[e.resource_root][t.toLowerCase()]
+              : t;
         }
         LocalizeDriverString(e, t) {
           if (
@@ -16130,8 +16133,8 @@
                 "drivers" == e
                   ? `/input/localization.json?t=${o}`
                   : "webhelper" == e
-                  ? `/dashboard/localization/${e}_${t}.json?t=${o}`
-                  : `localization/${e}_${t}.json?t=${o}`),
+                    ? `/dashboard/localization/${e}_${t}.json?t=${o}`
+                    : `localization/${e}_${t}.json?t=${o}`),
               s()
                 .get(i)
                 .then((e) => {
@@ -16474,8 +16477,13 @@
                       "entries in array",
                     )
                   : "string" == typeof e[1]
-                  ? console.log("Failed to update container ", e[0], ":", e[1])
-                  : this.UpdateContainer(e[0], e[1]);
+                    ? console.log(
+                        "Failed to update container ",
+                        e[0],
+                        ":",
+                        e[1],
+                      )
+                    : this.UpdateContainer(e[0], e[1]);
               });
             } catch (e) {
               throw (console.log(e), e);
@@ -16970,25 +16978,25 @@
               this.cancelUnresponsiveTimeout(),
               this.cancelNoAppTimeout())
             : e == s.xY.Quitting
-            ? (this.m_sceneApplicationState == s.xY.Starting &&
-                this.resetLatchedValued(),
-              (this.m_sceneApplicationState = e),
-              this.updateLatchedValues(),
-              this.cancelUnresponsiveTimeout(),
-              this.cancelNoAppTimeout())
-            : e == s.xY.Running
-            ? ((this.m_sceneApplicationState = e),
-              this.cancelUnresponsiveTimeout(),
-              this.cancelNoAppTimeout(),
-              this.updateLatchedValues())
-            : e == s.xY.None
-            ? (this.cancelUnresponsiveTimeout(),
-              this.m_sceneApplicationState != s.xY.None &&
-                this.startNoAppTimer())
-            : e == s.xY.Waiting &&
-              (this.m_sceneApplicationState != s.xY.Waiting &&
-                this.startUnresponsiveTimer(),
-              this.cancelNoAppTimeout()),
+              ? (this.m_sceneApplicationState == s.xY.Starting &&
+                  this.resetLatchedValued(),
+                (this.m_sceneApplicationState = e),
+                this.updateLatchedValues(),
+                this.cancelUnresponsiveTimeout(),
+                this.cancelNoAppTimeout())
+              : e == s.xY.Running
+                ? ((this.m_sceneApplicationState = e),
+                  this.cancelUnresponsiveTimeout(),
+                  this.cancelNoAppTimeout(),
+                  this.updateLatchedValues())
+                : e == s.xY.None
+                  ? (this.cancelUnresponsiveTimeout(),
+                    this.m_sceneApplicationState != s.xY.None &&
+                      this.startNoAppTimer())
+                  : e == s.xY.Waiting &&
+                    (this.m_sceneApplicationState != s.xY.Waiting &&
+                      this.startUnresponsiveTimer(),
+                    this.cancelNoAppTimeout()),
             this.log("updateTransitionState: " + s.xY[e]),
             this.log("this.m_sceneAppKey: " + this.m_sceneAppKey),
             this.log("this.m_sceneAppName: " + this.m_sceneAppName),
@@ -18122,10 +18130,10 @@
                 ("int" == n.type
                   ? (t = parseInt(t))
                   : "float" == n.type
-                  ? (t = parseFloat(t))
-                  : "string" == n.type
-                  ? (t = "" + t)
-                  : "bool" == n.type && (t = !!t)),
+                    ? (t = parseFloat(t))
+                    : "string" == n.type
+                      ? (t = "" + t)
+                      : "bool" == n.type && (t = !!t)),
               n.requires_restart && this.SetRestartRequired(),
               this.SetSettingsStringValueWithoutSchema(e, t))
             : console.log(

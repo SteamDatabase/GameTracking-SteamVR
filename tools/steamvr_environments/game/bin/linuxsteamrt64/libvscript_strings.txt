@@ -1,41 +1,30 @@
-
-!
-!=
-!|%s
-"
-"%s"
+ !"#$%&'()*+,-./0123
+ ( def. "%s" )
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
+ in function '%s'
+ in function <%s:%d>
+ in main chunk
 "%s" = "%s"
-"%s":%d
-#
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
-$
 $ORIGIN
-%
-%%%&
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %.14g
 %016llx
 %12.6f
-%c
 %d %d %d %d
-%d:
 %f %f %f %f
 %g %g %g %g
-%hd
-%hu
 %i %i %i %i
-%lf
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%p:%d
 %s %p [%f %f %f]
 %s <null>
 %s at line %d
@@ -44,21 +33,9 @@ $ORIGIN
 %s expected, got %s
 %s has no instance glue - are you doing objectName.%s instead of objectName:%s?
 %s near '%s'
-%s parameter %d: expected %s but got %s.
-%s%d
-%s%s
-%s,
+%s parameter %d: expected %s but got %s.\n
 %s.so
-%s/
-%s: %p
-%s: string format requested %d chars
-%s:%d: %s
-%s="%d"
-%s="%s"
-%s|%d
-%u
-&
-&&
+%s: string format requested %d chars\n
 '%s' cannot be indexed
 '%s' cannot be indexed with '%s'
 '%s' expected
@@ -76,9 +53,6 @@ $ORIGIN
 'package.preload' must be a table
 'setfenv' cannot change environment of given object
 'tostring' must return a string to 'print'
-( def. "%s" )
-(%s) %s:%d
-(*%s*),
 (*temporary)
 (*vararg)
 (for control)
@@ -88,12 +62,6 @@ $ORIGIN
 (for state)
 (for step)
 (null)
-)
-)))
-*
-+
-,
-->
 -avx
 -luajit
 -sse2
@@ -103,21 +71,17 @@ $ORIGIN
 ../public/tier1/utlrbtree.h
 ./?.lua;/usr/local/share/luajit-2.0.4/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua
 ./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so
+.eB5
 .local
 .lua
 .steam
-/
 /* GNU ld script
-/;?!-
-/>
-0
 0123456789abcdef
 0@volatile
 0x%016llX
 0x%p
-1
-1.0
 10ConCommand
+10IAppSystem
 127.0.0.1
 12CThreadEvent
 1434713789_main
@@ -131,30 +95,18 @@ $ORIGIN
 15IScriptDebugger
 16CDefaultAccessor
 18CPlaceholderConVar
-2
 20CPostConnectCallback
 22CSchemaInstallCallback
 23IConCommandBaseAccessor
-3
-3C
-4
-4C
 6CLuaVM
 6CNopVM
 6ConVar
 7CLuaDbg
 7IConVar
-8C
 8CFmtStrNILi256ELb0EE
 9IScriptVM
-::
-;;
-<%s
-</%s>
-<<
-<< NULL >>
-<=
-<?xml version="1.0" encoding="UTF-8"?>
+<< NULL >>\n
+<?xml version="1.0" encoding="UTF-8"?>\n
 <NULL>
 <deferred>
 <eof>
@@ -171,22 +123,18 @@ $ORIGIN
 <unknown>
 =(debug command)
 =(load)
-==
-=[C]
 =stdin
->
->%s
 ><![CDATA[%s]]>
->=
->>
-?
-@
-@%s
-@@
+?456789:;<=
+?VScript
+@0123456789ABCDEF
 @libvscript.so
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+A*\fEtobit
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
@@ -194,8 +142,7 @@ AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
-Attempted to ConvertToCopiedData for unsupported type (%d)
-B
+Attempted to ConvertToCopiedData for unsupported type (%d)\n
 BakedLODBuilderMgr001
 BenchmarkService001
 BinaryProperties_GetValue
@@ -204,14 +151,13 @@ BitwiseNot
 BitwiseOr
 BitwiseXor
 Breakpoint type (%s) not supported.
-C
 C++ exception
 CBufferString::Concat(char const*, char const*, ...)
 CBufferString::Insert(int, char const*, int, bool)
 CBufferString::Purge(int)
 CBufferString::Relinquish(CBufferString::EAllocationOption_t)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CDesc
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
@@ -227,22 +173,24 @@ CThreadSpinRWLock::UnlockRead(char const*, int)
 CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CVirtualMachineCallStackTranslationEncoder::CVirtualMachineCallStackTranslationEncoder(char const*)
 CVirtualMachineCallStackTranslationEncoder::EncodeAsNativePointer(char const*, char const*, unsigned int)
 CVirtualMachineCallStackTranslationEncoder::~CVirtualMachineCallStackTranslationEncoder()
 CXXABI_1.3
+Cabs
 Can't call %s:%s on an object of type %s
 Cannot recover from failed socket shutdown.
 ClearBit
+ClenDbyteDcharCsubCrepGreverse
 CloseSocket
 CommandLine
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
 ConfigurationSystem_001
 ConnectInterfaces
 Constructor called without a class constructor - internal error?
@@ -253,7 +201,6 @@ DebugTextureInfo001
 Debugger
 DevMsg
 DevMsg(char const*, ...)
-Dot
 DotaCardGameClient_001
 DynASM 1.3.0
 EDesc
@@ -262,15 +209,18 @@ EarlyInit_Tier0
 EconItemToolModel_001
 EngineServiceMgr001
 EnvironmentMapBuilder_001
-Error: Duplicate command handler registered (%s)!
+Epairs@
+Error: Duplicate command handler registered (%s)!\n
 Eval
 EventSystem001
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
 FDesc
 FILE*
 Failed to find %s
 Failed to read %s
+Fassert
+Fipairs
 FlattenedSerializersVersion001
 FontManager_001
 FormatV
@@ -285,7 +235,7 @@ GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
 GLIBC_2.7
-GNU
+GROUP
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -296,7 +246,6 @@ GetResourceManifestCount
 GetResourceManifests
 Global
 Globals
-H
 HammerMapLoader001
 HelpSystem_001
 HookUpConfigValue
@@ -306,11 +255,11 @@ IQuickTime001
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid connection type.
 Invalid context (id=%d)
 Invalid stack level (%d)
@@ -318,12 +267,13 @@ IsBitSet
 IsNull
 IsNull called without an object - did you call obj.IsNull() instead of obj:IsNull()?
 JIT compiler disabled, CPU does not support SSE2
+K2K2K2
 KeyValueCache001
 KeyValuesSystem
 LOADLIB: %s
 LOG_GENERAL
-LUA Memory usage warning: The VM has hit a new high usage of %s bytes.
-LUA Memory usage: The VM has a usage of %s bytes.
+LUA Memory usage warning: The VM has hit a new high usage of %s bytes.\n
+LUA Memory usage: The VM has a usage of %s bytes.\n
 LUA_CPATH
 LUA_NOENV
 LUA_PATH
@@ -332,9 +282,9 @@ Length
 Length2D
 Lerp
 Linux
-LoadAndCompileScriptFile: Failed to compile script file "%s"
-LoadAndCompileScriptFile: No filesystem found
-LoadAndCompileScriptFile: Script file "%s" type does not match VM type
+LoadAndCompileScriptFile: Failed to compile script file "%s"\n
+LoadAndCompileScriptFile: No filesystem found\n
+LoadAndCompileScriptFile: Script file "%s" type does not match VM type\n
 Local
 Localize_001
 LoggingSystem_IsChannelEnabled
@@ -346,15 +296,15 @@ LoggingSystem_RegisterLoggingChannel
 Lua 5.1
 Lua DBGp
 Lua function expected
-LuaDBGp: -->
-LuaDBGp: <-- %s
-LuaDBGp: Failed to connect to %s:%d
-LuaDBGp: Retrying to connect to %s:%d in 1s (%d/%d)
-LuaDBGp: Succeeded to connect to %s:%d
-LuaDBGp: Trying to connect to %s:%d
+LuaDBGp: --> 
+LuaDBGp: <-- %s\n
+LuaDBGp: Failed to connect to %s:%d\n
+LuaDBGp: Retrying to connect to %s:%d in 1s (%d/%d)\n
+LuaDBGp: Succeeded to connect to %s:%d\n
+LuaDBGp: Trying to connect to %s:%d\n
 LuaDBGp: Unknown command received from the IDE - "%s"
-LuaDbg - Debugging started
-LuaDbg - Debugging stopped
+LuaDbg - Debugging started\n
+LuaDbg - Debugging stopped\n
 MATCHFRAMEWORK_001
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
@@ -365,11 +315,11 @@ MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
-Message count limit of %d hit. Subsequent duplicate messages will be squelched.
+Message count limit of %d hit. Subsequent duplicate messages will be squelched.\n
 Missing breakpoint data ( breakpoint with ID %s. )
 Missing breakpoint with given ID %s.
 ModelDocUtils001
-Must use luaL_newstate() for 64 bit target
+Must use luaL_newstate() for 64 bit target\n
 NULL
 NYI: cannot call this C function (yet)
 NYI: packed bit fields
@@ -380,16 +330,15 @@ NetworkServerService_001
 NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
-No conversion from %s to int now
-No conversion from %s to string at the moment!
-No conversion from %s to uint now
-No free conversion of %s variant to %s right now
+No conversion from %s to int now\n
+No conversion from %s to string at the moment!\n
+No conversion from %s to uint now\n
+No free conversion of %s variant to %s right now\n
 No function binding found!
-Nop
 Normalized
 Not sure how we got here.
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 P?fmod
-P@
 PANIC: unprotected error in call to Lua API (
 PanoramaTextServices001
 PanoramaUIClient001
@@ -418,9 +367,8 @@ QueuedLoaderVersion001
 RandomFloat
 RandomInt
 RandomSeed
-ReadToken overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Release
 RenderDevice003
@@ -465,16 +413,15 @@ SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
-Script Runtime Error: %s
-Script load error for script %s: %s
+Script Runtime Error: %s\n
+Script load error for script\n %s: \n%s\n
 Script_Msg
 Script_Warning
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetBit
-Sln
 Snlf
-Socket error: %d
+Socket error: %d\n
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
@@ -516,7 +463,6 @@ Unable to create environment
 Unable to update line number for the breakpoint with ID %s
 Unknown protocol.
 Unrecognized error.
-Up
 Upvalue
 UserInfoChangeService_001
 VApplication001
@@ -535,7 +481,7 @@ VGUI_Surface032
 VGUI_System010
 VGUI_ivgui008
 VLua
-VM handler failed:
+VM handler failed: 
 VMDLLIB001
 VMaterialSystem2_001
 VMediaFoundation001
@@ -548,7 +494,7 @@ VProcessUtils002
 VProfService_001
 VR_001
 VRenderDeviceSetupV001
-VScript Lua: Unhandled variant type %s.
+VScript Lua: Unhandled variant type %s.\n
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
@@ -610,10 +556,10 @@ Vector
 Vector2D
 Vector4D
 VisBuilder_001
-WARNING: Lua allocation of %llu failed
-WARNING: Lua unable to create VM
-WARNING: Lua unmap unable to decommit all pages
-WARNING: Lua unmap unable to find %llu pages
+WARNING: Lua allocation of %llu failed\n
+WARNING: Lua unable to create VM\n
+WARNING: Lua unmap unable to decommit all pages\n
+WARNING: Lua unmap unable to find %llu pages\n
 WSAEACCES
 WSAEADDRINUSE
 WSAEADDRNOTAVAIL
@@ -657,22 +603,23 @@ WSAETIMEDOUT
 WSAETOOMANYREFS
 WSAEUSERS
 WSAEWOULDBLOCK
-Waiting for debugger connection...
+Waiting for debugger connection...\n
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 Xbox VDP is not supported on this platform.
-[%.3f server clamped to %.3f]
-[%d]
 [none]
-^$*+?.([%-
-_
-_%x%llx_%s
+\f2K2K
+\n\t[builtin#%d]:
+\n\tno field package.preload['%s']
+\n\tno file '%s'
+\n\tno module '%s' in file '%s'
+\nrandomseed
+\vgetregistry\fgetmetatable\fsetmetatable
 _Bool
 _Complex
-_G
 _IO_getc
 _IO_putc
 _ITM_deregisterTMCloneTable
@@ -680,10 +627,10 @@ _ITM_registerTMCloneTable
 _Jv_RegisterClasses
 _LOADED
 _LOADLIB
-_M
 _NAME
 _PACKAGE
 _PRELOAD
+_VERSION
 _VMEVENTS
 _V_ComposeFileName
 _V_ExtractFileExtension
@@ -702,7 +649,6 @@ __add
 __alignof
 __alignof__
 __asm
-__asm__
 __attribute
 __attribute__
 __attribute__((vector_size(
@@ -712,6 +658,7 @@ __call
 __cdecl
 __complex
 __complex__
+__concat
 __const
 __const__
 __cxa_atexit
@@ -722,15 +669,15 @@ __cxa_guard_release
 __cxa_pure_virtual
 __declspec
 __div
-__eq
 __errno_location
 __extension__
 __fastcall
-__gc
+__gc\n__tostring
 __gmon_start__
 __gnuc_va_list
 __gxx_personality_v0
 __index
+__index\n__newindex
 __index__newindex__gc__mode__eq__len__lt__le__concat__call__add__sub__mul__div__mod__pow__unm__metatable__tostring__new__pairs__ipairs
 __inline
 __inline__
@@ -738,12 +685,17 @@ __int16
 __int32
 __int64
 __int8
+__ipairs
 __isoc99_fscanf
 __len
 __memcpy_chk
+__metatable
+__mod
 __mode
 __mul
 __newindex
+__pairs
+__pow
 __pthread_key_create
 __ptr32
 __ptr64
@@ -760,22 +712,27 @@ __thiscall
 __tls_get_addr
 __tostring
 __unm
+__unm\n__tostring
 __userdata_metatable
 __volatile
 __volatile__
 _edata
 _end
 _fini
-`
+_zsu
 abort
 accept
+acos
 activelines
+alignof
 ambiguous syntax (function call x new statement)
 appid
+arch
 archive
-asm
+arshift
+asin
 assertion failed!
-at %p
+atan
 attempt to %s %s '%s' (a %s value)
 attempt to %s a %s value
 attempt to call a %s value
@@ -798,7 +755,7 @@ bad light userdata pointer
 bad storage class
 base out of range
 bind
-bit
+bnot
 bool
 boolean
 boolean or proxy expected
@@ -809,6 +766,9 @@ breakpoint_get
 breakpoint_remove
 breakpoint_set
 breakpoint_update
+bswapFlshift
+bxor
+bytecode instructions
 call
 calling '%s' on bad self (%s)
 cannot change a protected metatable
@@ -816,16 +776,21 @@ cannot close standard file
 cannot convert '%s' to '%s'
 cannot load incompatible bytecode
 cannot load malformed bytecode
+cannot open %s: %s
 cannot read %s: %s
 cannot resume dead coroutine
 cannot resume non-suspended coroutine
 cannot resume running coroutine
 cannot use '...' outside a vararg function
+cast
 ccode:/
 cdata
 cdata<%s>: %d
 cdata<%s>: %p
+cdef
+ceilDsqrt
 char
+char(%d)
 character
 cheat
 chunk has more than %d local variables
@@ -834,32 +799,41 @@ chunk has too many syntax levels
 clearerr
 client
 clientcmd_can_execute
+close
+closed file
 code
+collect
+collectgarbage
 color
 command
 complex
+concat
 concatenate
 config
 configvalue.cpp
 connect
 const
 constants
-cont
+cont\n
 context
 context_get
 context_names
 control structure too long
+copy
 coroutine
 coroutine expected
 coroutine_list
 cosh
+count
 cpath
+createEyieldFresume
 cstring
 ctype
 ctype<%s>
 currentline
 dead
 debug
+debug\ttraceback
 declaration specifier expected
 delete
 desc
@@ -870,16 +844,19 @@ dlclose
 dlerror
 dlopen
 dlsym
-do
 dofile
 double
+dump
 duplicate label '%s'
 else
 elseif
 enabled
 encoding
 enum
+errno
 error in error handling
+error loading module '%s' from file '%s':\n\t%s
+errorEpcall
 eval
 exit
 extern
@@ -892,33 +869,39 @@ feature_name
 feature_set
 feof
 ferror
-ffi
 fflush
 fgets
 field
 field '%s' missing in date table
 file (%p)
 file (closed)
-file:///
 file:///e:/work/valve/source2/main/game/core/scripts/vscripts/animationsystem/animationsysteminit.lua
 filename
 fileuri
+fill
+find
 flnSu
 float
 float( %f )
 float64
 floor
 floorf
+flush
+fmodEldexpCmin
 fopen64
-for
+foreachDgetn
+foreachi
+format
 fprintf
 fputc
 fputs
+frU%D4fr
 fread
 free
+frexp
 fseeko64
 ftello64
-fu
+full
 fullname
 func
 function
@@ -933,29 +916,36 @@ g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_pMemAlloc
 game
+gcinfo
 get length of
 getenv
+getfenv
+gethook
 gethostbyname
+getinfo
+getlocal
+getmetatableLsetmetatable
 gfind
 global
 gmatch
 goto
+gsub
+hC type
 handle_lightbinding
 hit_condition
 hit_count
 hit_value
 hscript
 hscript_lightbinding
+huge
 idekey
-in function '%s'
-in function <%s:%d>
-in main chunk
 index
 index out of range
 inet_ntoa
 init
 inline
-int
+input
+insert
 int( %d = 0x%X )
 int16_t
 int32_t
@@ -981,16 +971,14 @@ invalid pattern capture
 invalid replacement value (a %s)
 invalid value
 invalid value (%s) at index %d in table for 'concat'
-io
 ioctl
+istype
 isvararg
 js_array
 js_object
 js_raw_args
 js_value
 keyvalues.cpp
-kv
-l
 language
 languages/lua/vlua/vlua.cpp
 lastlinedefined
@@ -1008,20 +996,26 @@ libstdc++.so.6
 libtier0.so
 libvscript.so
 libvstdlib.so
+line
 lineno
+lines
 listen
 lj_alloc_f_VALVE_OVERRIDEN
+load
+load\nloadstring
 loaded
 loaders
 loadfile
 loadfile requires a filename argument.
 loadlib
 local variables
+log10
 long
 long double
 loop in gettable
 loop in settable
 loop or previous error loading module '%s'
+lower
 luaJIT_BC_%s
 luaJIT_setmode
 luaJIT_version_2_0_4
@@ -1074,7 +1068,7 @@ lua_close
 lua_concat
 lua_cpcall
 lua_createtable
-lua_debug>
+lua_debug> 
 lua_dump
 lua_equal
 lua_error
@@ -1161,17 +1155,18 @@ luaopen_math
 luaopen_package
 luaopen_string
 luaopen_table
-l|%d|%s
 main function has more than %d %s
 malformed number
 malformed pattern (ends with '%')
 malformed pattern (missing ']')
 malloc
+match
 math
-max. %f
+mathlib.cpp
 max_children
 max_data
 max_depth
+maxn
 memchr
 memcmp
 memcpy
@@ -1179,35 +1174,36 @@ memmove
 mempool.cpp
 memset
 metamethod
-min. %f
+metatype
 missing '[' after '%f' in pattern
 missing declaration for symbol '%s'
 mmap64
+modf
 module
 module '%s' not found:%s
 mprotect
 mremap
 munmap
-nS
-nSl
 name conflict for module '%s'
 namewhat
+newproxy
 next
-nil
 nil or table expected
-nlS
 no calling environment
 no loop to break
 no value
 none
 normal
-not
+not enough memory
 notconnected
 notify
 nparams
 number
 numchildren
 nups
+offsetof
+oh\rD
+on\f3
 open
 operator delete(void*)
 operator delete[](void*)
@@ -1215,7 +1211,7 @@ operator new(unsigned long)
 operator new(unsigned long, std::nothrow_t const&)
 operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
-p
+output
 package
 page
 pagesize
@@ -1245,20 +1241,27 @@ ptr( 0x%p )
 ptrdiff_t
 qangle
 quaternion
-rb
+radClogEatan2
+random
+rawequal
+rawset
+read
 reader function must return a string
 reason
 recv
 register
+remove
 repeat
 replicated
 require
 resourcehandle
 response
+restart
 restrict
 return %s
 returnType
-run
+rorDband
+rshift
 running
 runtime code generation failed, restricted kernel?
 schemabindings.cpp
@@ -1266,9 +1269,16 @@ schemasystem
 scripts/vscripts/%s
 searchpath
 seeall
+seek
+selectHtonumber
 send
 server_can_execute
 session
+setfenv
+setfenvFrawget
+sethook
+setlocal\ngetupvalue\nsetupvalue\tupvalueid\vupvaluejoin
+setpause\nsetstepmul
 setsockopt
 setvbuf
 short
@@ -1283,6 +1293,7 @@ size_t
 sizeof
 socket
 socketlib.cpp
+sort
 source
 sprintf
 sqrtf
@@ -1304,6 +1315,7 @@ std::string::reserve(unsigned long)
 stderr
 stdin
 stdout
+step
 step_into
 step_out
 step_over
@@ -1316,6 +1328,7 @@ strcpy
 strdup
 stream
 strerror
+string
 string length overflow
 string slice too long
 string/function/table expected
@@ -1330,6 +1343,7 @@ success
 supported
 suspended
 syntax error
+table
 table index is NaN
 table index is nil
 table overflow
@@ -1337,20 +1351,27 @@ tail return
 tanh
 then
 thread
+tmpfile
 tmpfile64
+tohex
 too many arguments
 too many callbacks
 too many captures
 too many initializers for '%s'
 too many nested functions
 too many results to unpack
+tostring
 trace
 traceback
 transaction_id
 true
+trueHtostring
+type
 type parameter
+typeDnext
 typedef
 typeinfo for CThreadSyncObject
+typeof
 u64( %lld = 0x%llX )
 uint16
 uint16_t
@@ -1375,9 +1396,11 @@ union
 unknown
 unknown or malformed optimization flag '%s'
 unknown_variant_type
+unpack
 unsigned
 unsigned char
 until
+upper
 upval
 upvalue
 upvalues
@@ -1388,7 +1411,6 @@ userdata length overflow
 utlbuffer.cpp
 utlstring.cpp
 utlstringtoken
-u|%d|%s
 va_list
 value expected
 variable names
@@ -1402,17 +1424,14 @@ vscript
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-wb
 wchar_t
 wcscmp
 wcslen
 while
+wrap
+write
 wrong number of arguments for function call
 wrong number of arguments to 'insert'
 wrong number of type parameters
-x64
 xmlns
-{
-{}()':
-||
-~=
+xpcall

@@ -1,29 +1,25 @@
-	 	'	.	5	
- %!D!\!
  2014
  Moved to NetworkMigrationManager
  moved to NetworkMigrationManager
-!>"\"n"
 !Moved to NetworkMigrationManager.
 !ReadReference is now used instead
-!This program cannot be run in DOS mode.
-""#>#
 "Network/NetworkTransformVisualizer
 #Blob
 #GUID
 #Strings
 $87035389-1bb3-40e2-b2a9-c8707e7419ba
 %UnityEngine.Networking.NetworkManager
-& #"k
-& *"l
-& 1"q
 &UnityEngine.Networking.NetworkIdentity
 'UnityEngine.Networking.NetworkTransform
 .cctor
 .ctor
-.text
+0bX*
 1.0.0.0
+6%C\fO
+6up!
+7Eg\r
 8bX*r
+;gk\vz
 <Module>
 <lastBufferedPerSecond>k__BackingField
 <numBufferedMsgsOut>k__BackingField
@@ -32,8 +28,6 @@ $87035389-1bb3-40e2-b2a9-c8707e7419ba
 <numBytesOut>k__BackingField
 <numMsgsIn>k__BackingField
 <numMsgsOut>k__BackingField
-@'#	s
-@.reloc
 A G L T ` n ~ 
 ActivateLocalClientScene
 Activator
@@ -106,6 +100,7 @@ AxisXZ
 AxisY
 AxisYZ
 AxisZ
+BSJB
 BasicResponseDelegate
 BecomeHost
 BecomeHostInternal
@@ -118,7 +113,9 @@ BlockCopy
 Boolean
 Buffer
 Button
+Byte
 BytesToString
+C%C\fP
 CRCMessage
 CRCMessageEntry
 CacheBehaviours
@@ -130,6 +127,7 @@ ChannelOption
 ChannelPacket
 ChannelQOS
 Channels
+Char
 CharacterController
 CheckAnimStateChanged
 CheckChannel
@@ -196,6 +194,7 @@ ContainsKey
 ContainsPlayer
 ContinueConnect
 Convert
+Copy
 CopyTo
 Copyright 
 Coroutine
@@ -204,7 +203,6 @@ CreateInstance
 CreateLineMaterial
 CreateMatch
 Current
-D	d	.
 DataResponseDelegate`1
 Debug
 DebugString
@@ -234,6 +232,7 @@ DoesEndPointUsePlatformProtocols
 DontDestroyOnLoad
 DrawRotationInterpolation
 DropConnection
+Dump
 DumpAllClientObjects
 DumpInvokers
 EditorBrowsableAttribute
@@ -246,6 +245,7 @@ EndInvoke
 EndPoint
 Enqueue
 Enter
+Enum
 Enumerable
 Enumerator
 Equals
@@ -255,10 +255,12 @@ Euler
 EventDelegate
 Exception
 ExecuteInEditMode
+Exit
 Failed
 Fatal
 FilterLevel
 Finalize
+Find
 FindConnection
 FindLocalObject
 FindNewHost
@@ -278,7 +280,6 @@ ForceSceneId
 Format
 Fragment
 FreePacket
-G#O#W#
 GameObject
 GenerateConnectError
 GenerateDataError
@@ -374,6 +375,7 @@ HashSet`1
 HexToNumber
 HideFlags
 HideForConnection
+High
 Highest
 HostTopology
 IAsyncResult
@@ -388,6 +390,8 @@ IPAddress
 IPEndPoint
 IndexOf
 IndexOutOfRangeException
+Info
+Init
 Initialize
 InitializeBehaviour
 InitializeSingleton
@@ -442,12 +446,18 @@ IsSubclassOf
 IsValid
 IsValidIpV6
 IsVolatile
+Item
+Iuv!
+J\tXT
 JoinMatch
 KeyCode
 KeyCollection
 KeyValuePair`2
+KoC\f
+Kwg\rr
 LLAPIMsg
 Label
+Lerp
 ListMatches
 List`1
 Listen
@@ -474,6 +484,7 @@ LostHostOnHost
 MatchInfo
 MatchInfoSnapshot
 Material
+Math
 Mathf
 Matrix4x4
 MaxBufferedPackets
@@ -489,6 +500,7 @@ MethodInfo
 MissingReferenceException
 Monitor
 MonoBehaviour
+Move
 MoveNext
 MovePosition
 MoveRotation
@@ -546,6 +558,7 @@ NetworkTransport
 NetworkWriter
 Networking High Level API
 NodeID
+None
 NotReady
 NotReadyMessage
 NullReferenceException
@@ -709,6 +722,7 @@ Physics
 Physics2D
 Physics3D
 Plane
+Play
 PlayerController
 PlayerSpawnMethod
 Position
@@ -717,6 +731,7 @@ PreStartClient
 PrepareForConnect
 PrepareToSpawnSceneObjects
 ProcessInternalMessages
+Push
 QosType
 Quaternion
 QueuePacket
@@ -777,6 +792,7 @@ ReconnectObjectForConnection
 ReconnectPlayer
 ReconnectPlayerForConnection
 ReconnectToNewHost
+Rect
 RegisterBehaviour
 RegisterClientMessages
 RegisterCommandDelegate
@@ -834,6 +850,7 @@ SceneChangeOption
 SceneLoadedForPlayer
 SceneManager
 SeekZero
+Send
 SendByChannel
 SendByChannelToAll
 SendByChannelToReady
@@ -945,6 +962,7 @@ SpawnObjects
 SpawnSceneObject
 SpawnWithClientAuthority
 Split
+Sr5 
 Stack`1
 Start
 StartAsClient
@@ -957,6 +975,7 @@ StartMessage
 StartServer
 StartsWith
 StayInOnlineScene
+Stop
 StopBroadcast
 StopBroadcastDiscovery
 StopClient
@@ -1003,8 +1022,10 @@ System.Runtime.CompilerServices
 System.Runtime.InteropServices
 System.Text
 System.Threading
+TMsg
 TargetRpcAttribute
 TextField
+Time
 ToArray
 ToCharArray
 ToDecimal
@@ -1018,6 +1039,7 @@ TransportRecieve
 TransportSend
 TryGetValue
 TryToAddPlayer
+Type
 UInt16
 UInt32
 UIntDecimal
@@ -1068,6 +1090,7 @@ UpdateVars
 UseExternalClient
 UserMessage
 Utility
+V%C\fQ
 Validate
 ValidateInternal
 Value
@@ -1078,6 +1101,7 @@ Vector3
 Vector4
 Version
 Vertex3
+Warn
 WrapNonExceptionThrows
 Write
 WriteAngle
@@ -1094,11 +1118,24 @@ WriteInstance
 WritePackedUInt32
 WritePackedUInt64
 WriteParameters
+Wxe#
 XUnityEngine.Animator, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+X\n82
+X\n8i
+X\n8l
+X\v83
+Z\tA8
+Z\ta8
+Zero
+\nh\n80
+\nr1i
+\nrME
+\nrOj
+\nrck
+\nrty
+\r+\rU\rb\rl\rr\r
+\v=\fJ\fY\fb\fr\f{\f
 _CorDllMain
-_b_9(
-_bf_}
-`.rsrc
 active
 add_sceneLoaded
 address
@@ -1113,6 +1150,8 @@ authority
 authorityState
 autoCreatePlayer
 autoSend
+bX*r
+bX\tn
 broadcastData
 broadcastInterval
 broadcastKey
@@ -1143,6 +1182,7 @@ cmdHash
 cmdName
 compression
 config
+conn
 connId
 connection
 connectionConfig
@@ -1156,6 +1196,7 @@ current
 currentLogLevel
 customConfig
 dZXk"
+data
 decimalValue
 destroyServerObject
 dirtyBit
@@ -1164,6 +1205,7 @@ disposing
 dontDestroyOnLoad
 dontListen
 doubleValue
+dxo#
 error
 errorCode
 eventName
@@ -1178,6 +1220,7 @@ forceHidden
 forceReload
 fragmentBuffer
 fromAddress
+func
 gameObject
 gameObjectField
 gamePlayer
@@ -1429,15 +1472,20 @@ get_zero
 globalConfig
 grounded
 guidToPrefab
+h%C\fR
 handler
 handlers
 hasAuthority
+hash
+hook
 hostId
 hostMigration
 hostTopology
 hostWasShutdown
 https
+ij>3
 index
+info
 initial
 initialState
 initialize
@@ -1463,8 +1511,11 @@ isSequenced
 isServer
 isServerFlag
 isYou
+item
 itemIndex
 items
+j$C\fF
+jYZX
 kMaxLocalPlayers
 k_BufferSizeWarning
 k_DefaultSendInterval
@@ -1737,6 +1788,7 @@ messageReader
 method
 migrationManager
 minPlayers
+mode
 movementTheshold
 movementThreshold
 mscoree.dll
@@ -1746,6 +1798,7 @@ msgLabels
 msgSize
 msgType
 myView
+name
 netGuid
 netId
 netIdField
@@ -1821,6 +1874,7 @@ payload
 peers
 pendingPacketCount
 pendingPlayers
+phC\f
 playScene
 player
 playerController
@@ -1831,10 +1885,13 @@ playerIds
 playerPrefab
 playerSpawnMethod
 players
+port
 position
 prefab
 prefabs
 prefix
+qxz#
+r'g\ra
 reader
 readingFragment
 ready
@@ -2032,6 +2089,7 @@ showGUI
 showLobbyGUI
 simulatedLatency
 singleton
+slot
 slotId
 snapThreshold
 sourceId
@@ -2050,6 +2108,7 @@ syncRotationAxis
 syncSpin
 syncVarDirtyBits
 syncVarHookGuard
+tN!B
 target
 targetConnection
 targetOffset
@@ -2059,6 +2118,8 @@ targetSyncRotation3D
 targetSyncVelocity
 targets
 teleport
+text
+time
 topology
 transformSyncMode
 triggerName
@@ -2081,11 +2142,15 @@ value6
 value7
 value__
 velocity
+view
 visList
 visRange
 visUpdateInterval
 visualizerPrefab
+wS"x
 waitingReconnectToNewHost
 waitingToBecomeNewHost
+wd"y
 writer
 youAreNewHost
+z%C\fS

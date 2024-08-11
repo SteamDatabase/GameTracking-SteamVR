@@ -1,50 +1,10 @@
-					
-							
-												
-																																												
-	!s99
- %41g
- A_A^A\
- A_A^A]A\_
- A_A^]
- A_A^_
- A_^[
- A__[
- A__^
- H3E H3E
- for detail.
+ for detail.\n
  formatting error code 
-!! refusing to trigger minidump with debugger attached
-!hn7!
-$&{0d
-%%.%dg
-%s%s%s%s%s
-& im#
+!! refusing to trigger minidump with debugger attached\n
 ' is not a number.
-',=?k
-(A\_^[
-(A^A]^[
-(A_A^^[
-(A_A^_]
-(D$ f
-(f*^[0
-(t$ 2
-(t$ H
-(t$@H
-(|$ H
-)D$ L
-)t$ H
-)t$0H
-)t$@H
-*uXI;
-+Xt@(
-+o'q)}
 , last executing in 
-,W5y+
 -1e+9999
--@	EO
 -Infinity
--u-I;
 .00cfg
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
@@ -107,6 +67,7 @@ $&{0d
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -124,12 +85,12 @@ $&{0d
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
@@ -152,52 +113,9 @@ $&{0d
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0A^_^
-0A_A^A\_^
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^_^[
-0A_A^_^]
-0A__[
-0w0c1
-0}0i1
-130801120000Z
 1e+9999
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724174614Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8_^][
-< t+<
-</u#H
-<0:08
+9a&g
 <unknown>
-=rIQU
->0<0:
->Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -253,84 +171,20 @@ $&{0d
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@.data
-@.reloc
-@A^_^
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\_^[
-@HcQdH
-@LcqHD
-@SAUAVAWH
-@SAUH
-@SVAUAVH
-@SVAVAWH
-@SVAWH
-@SVWATAWH
-@SVWATH
-@SWAWH
-@UAUAWH
-@USVATAVH
-@USVWATAVAWH
-@USVWATH
-@USVWAVH
-@USVWH
-@UVATAUAVH
-@UVAUH
-@UVWATAUAVAWH
-@UVWAVAWH
-@UWAVAWH
 A valid JSON document must be either an array or an object value.
-ASSERT: "%s" at %s:%d.
-ATAVAWH
-A\_^[]
-A^A\^
-A^A\^[]
-A^A]A\^]
-A^A]A\_^[]
-A^_^[]
-A_A\_^[
-A_A\_^]
-A_A]]
-A_A^A\
-A_A^A\_]
-A_A^A\_^[]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A][
-A_A^_^]
+ASSERT: "%s" at %s:%d.\n
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
-Access to desktop duplication lost for desktop %d.
-AttemptSendInput failed.
-AuthD
+Access to desktop duplication lost for desktop %d.\n
+AttemptSendInput failed.\n
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bellevue1
-C0L9$
-CD$(H
-CD$0H
 CDesktopManagerThread
-CDesktopManagerThread::CreateDXGIFactory1 failed.
-CL$0H
-CL$`H;
-CT$(L
-CT$8D
-CT$pH
-C\$0H
-C\$0L
-C\$0M
-C\$@H
-C\$@M
-C\$PL
-C\$pH
+CDesktopManagerThread::CreateDXGIFactory1 failed.\n
 CloseHandle
 CoCreateInstance
 CoInitializeEx
-CoInitializeEx failed.
+CoInitializeEx failed.\n
 CoTaskMemFree
 CoUninitialize
 ComputeVirtualDesktopBounds
@@ -338,120 +192,89 @@ CreateDXGIFactory1
 CreateEventA
 CreateEventW
 CreateThread
-Created desktop staging texture.
-Created desktop upload texture.
-Cursor has neither color nor mask bitmap.
-C|$PL
-D	d$LI
-D	l$L
-D$ A;
-D$ E3
-D$ H;
-D$(H;
-D$(I;
-D$0E3
-D$0H+
-D$0fD
-D$@A+
-D$@E+
-D$@E3
-D$PM;
-D$`H;
-D$`I;
-D$`fI
-D$pE3
-D$pL;
-D$xH;
+Created desktop staging texture.\n
+Created desktop upload texture.\n
+Cursor has neither color nor mask bitmap.\n
 D3D11CreateDevice
-D3D11CreateDevice failed.
-D8fht/H
-D;l$0
-D;v(s
-DXGI output null, failed to duplicate output.
+D3D11CreateDevice failed.\n
+DEST
+DXGI output null, failed to duplicate output.\n
 DeleteCriticalSection
 DeleteDC
 DeleteObject
 Desktop %d
-Desktop %d. Call %s. Function %s. Overlay error %s.
+Desktop %d. Call %s. Function %s. Overlay error %s.\n
 Desktop Pointer
 Desktop Text
 DesktopManagerThread
-DesktopView %d exiting
+DesktopView %d exiting\n
 DesktopView_%d
-Destroying overlay for desktop %d.
-Destroying pointer overlay for desktop.
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+Destroying overlay for desktop %d.\n
+Destroying pointer overlay for desktop.\n
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
-E;u`|
 Empty escape sequence in string
-Encountered a fatal error updating desktop views.
+Encountered a fatal error updating desktop views.\n
 Encountered error 
 EnterCriticalSection
 EnumWindows
-Error enumerating HMD adapter.
-Error getting HMD adapter index.
+Error enumerating HMD adapter.\n
+Error getting HMD adapter index.\n
 Error releasing duplication frame.
-Error uploading cursor texture for desktop %d.
+Error uploading cursor texture for desktop %d.\n
 Exceeded stackLimit in readValue().
-Executable: %s
-Failed Watchdog timeout in thread %s after %f seconds
-Failed Watchdog timeout in thread %s after %f seconds. Aborting.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
-Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
-Failed calling AcquireNextFrame.
+Executable: %s\n
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds\n
+Failed calling AcquireNextFrame.\n
 Failed to create IShellDispatch instance.
-Failed to create cursor Texture2D.
-Failed to create cursor upload texture.
-Failed to create desktop staging texture.
-Failed to create desktop upload texture.
-Failed to duplicate output.
-Failed to get DPI for monitor. Falling back to default DPI.
+Failed to create cursor Texture2D.\n
+Failed to create cursor upload texture.\n
+Failed to create desktop staging texture.\n
+Failed to create desktop upload texture.\n
+Failed to duplicate output.\n
+Failed to get DPI for monitor. Falling back to default DPI.\n
 Failed to get HMD adapter.
-Failed to get IDXGIOutput1 interface.
-Failed to get adapter description.
-Failed to get output desc.
-Failed to get output description.
-Failed to get pixel buffer for icon.
-Failed to get pointer shape.
-Failed to get texture from desktop resource.
-Failed to initialize desktop views.
-Failed to map cursor upload texture.
-Failed to map desktop staging texture.
-Failed to map desktop upload texture.
-Failed to reinitialize output duplication for desktop %d, updating description.
-Failed to set thread %p priority: invalid priority %d
-Failed to update pointer overlay for desktop %d.
+Failed to get IDXGIOutput1 interface.\n
+Failed to get adapter description.\n
+Failed to get output desc.\n
+Failed to get output description.\n
+Failed to get pixel buffer for icon.\n
+Failed to get pointer shape.\n
+Failed to get texture from desktop resource.\n
+Failed to initialize desktop views.\n
+Failed to map cursor upload texture.\n
+Failed to map desktop staging texture.\n
+Failed to map desktop upload texture.\n
+Failed to reinitialize output duplication for desktop %d, updating description.\n
+Failed to set thread %p priority: invalid priority %d\n
+Failed to update pointer overlay for desktop %d.\n
 FormatMessageA
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetCursorInfo
-GetCursorInfo failed.
+GetCursorInfo failed.\n
 GetCursorPos
 GetDC
 GetDIBits
-GetDIBits failed to retrieve BITMAPINFO.
-GetDIBits failed to retrieve pixel buffer.
+GetDIBits failed to retrieve BITMAPINFO.\n
+GetDIBits failed to retrieve pixel buffer.\n
 GetDpiForMonitor
 GetEnvironmentVariableA
 GetExitCodeThread
 GetForegroundWindow
 GetIconInfo
-GetIconInfo failed.
+GetIconInfo failed.\n
 GetLastError
 GetModuleHandleA
 GetModuleHandleW
 GetOverlayMouseScale
-GetPixelBuffer not implemented for biBitCount == %d.
+GetPixelBuffer not implemented for biBitCount == %d.\n
 GetProcAddress
 GetSystemMetrics
 GetSystemTimeAsFileTime
@@ -461,22 +284,7 @@ GetWindowLongA
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
-H!C@H
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H-^Eu
-H93t	H
-H9Ahs
-H9D$@u
-H9Qhv#H
-H;0u:H
-H;9u|A
-H;Cxu
-H;{XH
-H;}PtwH
-HMD D3D11CreateDevice failed.
+HMD D3D11CreateDevice failed.\n
 HandleInput
 Handling keyboard char input
 Handling lock mouse
@@ -493,11 +301,6 @@ Handling raw mouse move
 Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
-HcFdH
-I9Bhs
-I;4$H
-I;4$L
-I;8u?H
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -530,143 +333,87 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
+Init
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
-Initializing desktop manager...
-Initializing desktop view %d.
-Initializing output duplication for desktop view %d.
+Initializing desktop manager...\n
+Initializing desktop view %d.\n
+Initializing output duplication for desktop view %d.\n
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
-KyYN>w|
-K}*n:	
-L$ E3
-L$ H;
-L$ L;
-L$ SH
-L$ SUVWH
-L$ SVWH
-L$ SWH
-L$ UVWATAUAVAWH
-L$(E3
-L$0E3
-L$0H#
-L$0fD
-L$8D;
-L$8ff
-L$@H;
-L$hE3
-L$pE3
-L9l$H
-L9|$p
-L;8u6H
-L?n(Zy&
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
-M H1E
-M#S|:
-M98u/
-MB(iVR
+MGiI
 MSVCP140.dll
-Mailbox %s received message %s, which it didn't have a handler for
+Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Minidump comment truncated
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-NPH9Q
 OpenProcess
-Out of thread local storage!
-PA^_^
-PA_A^A]A\_^]
-PA_A^_^]
-PAq=?Mp#
-Parse failed for JSON message in mailbox %s: %s
-Parsing of JSON string "%s" failed: %s
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
+Out of thread local storage!\n
+Parse failed for JSON message in mailbox %s: %s\n
+Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS
 RaiseException
-Reinitializing output duplication for desktop %d.
+Reinitializing output duplication for desktop %d.\n
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-RyMkZ
-S0Q0O
-SA|X=G
 SHCreateItemFromParsingName
 SHELL32.dll
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
-SUVWATAVAWH
-SVWATAUAVAWH
-SVWAVAWH
-SWAWH
+See 
 SendInput
-SendInput failed: %d events inserted, error code = %s
-Set thread %p priority to: %d
+SendInput failed: %d events inserted, error code = %s\n
+Set thread %p priority to: %d\n
 SetEvent
 SetThreadDescription
 SetThreadPriority
 SetUnhandledExceptionFilter
 Shutdown
-Shutting down existing desktop views.
+Shutting down existing desktop views.\n
 Sleep
 SleepConditionVariableCS
-Started desktop capture for display %d.
-Successfully reinitialized output duplication for desktop %d, updating description.
-Switching from laser mouse to physical mouse at %d, %d (from %d, %d). Physical timestamp was %d ticks newer.
-Switching from physical mouse to laser mouse at %d, %d
-Switching to laser mouse when first showing overlay.
+Started desktop capture for display %d.\n
+Successfully reinitialized output duplication for desktop %d, updating description.\n
+Switching from laser mouse to physical mouse at %d, %d (from %d, %d). Physical timestamp was %d ticks newer.\n
+Switching from physical mouse to laser mouse at %d, %d\n
+Switching to laser mouse when first showing overlay.\n
 Syntax error: value, object or array expected.
-T$ M+
-T$(H9T$0t!H
-T$@fI
-T$XH+
-TJ-)0(
-Thread exited immediately
-Thread failed to initialize 1
-Thread failed to initialize 2
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-UATAUAVAWH
 USER32.dll
-USVWATAUAVAWH
-USVWATAUAVH
-USVWAVH
-UVWATAUAVAWH
-UVWATAWH
-UVWAVAWH
-UWAVH
-UWAWH
-Unable to call duplication release frame for desktop %d.
-Unable to compute virtual coords or normalized coords...
-Unable to get normalized coords from virtual coords for locked mouse position.
-Unable to interact with foreground window. Displaying window switcher.
-Unable to open desktopview mailbox.
+Unable to call duplication release frame for desktop %d.\n
+Unable to compute virtual coords or normalized coords...\n
+Unable to get normalized coords from virtual coords for locked mouse position.\n
+Unable to interact with foreground window. Displaying window switcher.\n
+Unable to open desktopview mailbox.\n
 UnhandledExceptionFilter
-Unknown cursor type %d
+Unknown cursor type %d\n
 Unknown exception
 UpdateDesktopViews
 UpdateDesktopViews: clear out existing views.
@@ -676,43 +423,18 @@ UpdateOverlayCursorPositionOverride
 UpdateOverlayTexture
 UpdatePointerOverlay
 UploadCursorTexture
-VATAVH
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_GetGenericInterface
 VR_GetInitToken
 VR_LOG_PATH
 VR_OVERRIDE
-VWATAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
-W H+W
-WATAUAVAWH
-WAVAWH
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Warning: Watchdog %s not properly cleaned up%s%s
-Washington1
-Will not cache name for PID: %d, reason: %d
-Y9"SD
-[K]taM?
-\$ E3
-\$ UAVAWH
-\$ UH
-\$ UWATH
-\$0H;
-\$8H;
-\$PI;
-\$`H+
-\$hI;
-\$pI;
-\u=H;
-]J<0"0i3
-]g@8yhu
+Warning: Watchdog %s not properly cleaned up%s%s\n
+Will not cache name for PID: %d, reason: %d\n
+Zjz\v
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -749,7 +471,6 @@ _configure_narrow_argv
 _crt_atexit
 _dtest
 _execute_onexit_table
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -758,11 +479,9 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-`A_A^A]A\_^]
-a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
+alse
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -783,9 +502,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cz
 czech
-d$`H=
-d$`L;
-d$`M;
 d3d11.dll
 da_dk
 danish
@@ -802,26 +518,18 @@ es_es
 es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-fD9&u
-fF94@u
 false
-fffffff
 fi_fi
 finnish
 fr_fr
+free
 french
 german
-gfffffffH
-gfffffffI
 greek
 handlers
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i]Wb
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -838,19 +546,11 @@ it_it
 italian
 ja_jp
 japanese
-jj@0HK4
-k0i0$
 kernel32.dll
 ko_kr
 koreana
-l$ H;
-l$ H=
-l$8E3
-l$PM9n
-l2|X/gGe
 latam
 list<T> too long
-m0k0$
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -861,21 +561,18 @@ memcpy
 memmove
 memset
 message_id
+modf
 nb_no
 nl_nl
 norwegian
-ntelD
+null
 ole32.dll
 openvr_api.dll
-pA_A^A\_^][
-pA_A^_
-pA_A^_^]
 pl_pl
 polish
 portuguese
 pt_br
 pt_pt
-r,fff
 request_handlers
 request_handlers_response
 returnAddress
@@ -898,28 +595,18 @@ swedish
 system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
-t$ AVH
-t$ AWH
-t$ E3
-t$ UWATAVAWH
-t$ WH
-t$0H;
-t$@H=
-t$PH=
-t:I;>t
-tVfff
-tXfff
 tchinese
 terminate
 th_th
+thai
 tolower
 tr_tr
+true
 turkish
+type
 uk_ua
 ukrainian
 user32.dll
-v=Y]Bv
-vE;E`M
 vector<T> too long
 vi_vn
 vietnamese
@@ -941,28 +628,6 @@ vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop.dll
 wn>Jj
-www.digicert.com1!0
-www.digicert.com1$0"
-x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.\n
 zh_cn
 zh_tw
-{un'%
-|$ ATAUAVAWH
-|$ ATAVAWH
-|$ AVH
-|$ UATAUAVAWH
-|$ UH
-|$0H9
-|$0fD
-|$@A_A^A]A\
-|$@I;
-|$HE3
-|$HH;
-|$HH=
-|$PL9~
-|$hH9>ueH
-|$pH+
-|Lu?c
-}LuHO
-~qj#k"
-~t&LN

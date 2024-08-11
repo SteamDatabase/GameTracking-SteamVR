@@ -1,66 +1,28 @@
-					
-	9Ahu
-	D$0H
-	kE>fvw
-	s2HcH`
-	w^D;l$D}
-	wsD9l$D~
-       
                           
                                                                                 
-    -
-    =
   Default target: 
   Host CPU: 
-  This option category has no options.
-  Type "
+  This option category has no options.\n
  !""""""#"$""%&"'""("")
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !%&'()*+,-./01234
- 'L>[
- (const float)
- (const int)
- (const uint)
+ (const float)\n
+ (const int)\n
+ (const uint)\n
  (default)
  (default: 
  (or there is no acceptable conversion)
- -   
- 8}+M8
  <subcommand> -help" to get more help on a specific subcommand
- A9_ w
- A^A\_
- A^_^
- A_A\_
- A_A^A\
- A_A^A\_^
- A_A^A]
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^A]_^
- A_A^]
- A_A^_
  B\kji2
  Base Class Array'
  Base Class Descriptor at (
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- D;j0u
- H3E H3E
- H;\$H
- L;d$ 
- Lcq0
  NumIDs=
  Type Descriptor'
- []_^A\A^A_
- []_^A^
- [_^A\A]A^A_
- [_^A^A_
- [_^A^A_H
- [_^H
- [_^I
  [options]
  [subcommand]
  assigning non-constant to
@@ -75,7 +37,7 @@
  l-value required
  left of '[' is not of type array, matrix, or vector 
  matrix of 
- new[]
+ new
  no such field in interface block
  no such field in structure
  non-matching types for const initializer 
@@ -84,8 +46,6 @@
  supported in fragment shaders only 
  supported in vertex shaders only 
  supported in vertex/fragment shaders only 
- tDE3
- t^D9
  title='If checked alpha blending is performed in linear color space.'></td></tr>
  title='If checked causes 1 - z to be stored in the depth buffer.'></td></tr>
  title='If checked color rounding is done at high accuracy.'></td></tr>
@@ -99,215 +59,46 @@
  title='If checked the device does not advertise the A2R10G10B10 display mode.'></td></tr>
  title='If checked the device does not advertise the A8R8G8B8 display mode.'></td></tr>
  title='Initializes shader register values to 0 even if they have no default.'></td></tr>
- u'H9
- vJH+
  version 
  while maximum call stack depth is 
- with expression
+ with expression\n
  wrong operand type
  wrong operand types 
-!""""""
-!,X< w
-!>6'Y
-!T$(H!T$ 
-!This program cannot be run in DOS mode.$
 """"""""""""""""sw-setup
 "e?<<<<<<l?
-"f9;t
 #version directive must occur before anything else, except for comments and white space
 #version directive must occur on the first line of the shader
-$;F(r
-$H;0t
-$HcD$4H
 $Ib?s
-$M9t$
 $jumptable
 $jumptable$__
-%GoU?*
-&	$@06p
 &?PPPPPPP?
+&Sgw
 ' (or there is no acceptable conversion)
 ' and a right operand of type '
 ' exists that takes a left-hand operand of type '
 ' exists that takes an operand of type 
 ' is invalid value for boolean argument! Try 0 or 1
-' registered more than once!
-' title='An optimization pass for the shader compiler.'>
-' to '
+' registered more than once!\n
+' title='An optimization pass for the shader compiler.'>\n
 ' value invalid for integer argument!
 ' value invalid for uint argument!
 'constructor' : assigning non-constant to 
 'on' or 'off' expected
 ( 8PX
 ('8PW
-(D$ D
-(D$ H
-(D$ L
-(D$ f
-(D$@D
-(D$PD
-(D$`D
-(D$pD
-(D$pH
-(D$pL
-(H9Qht4H
-(HcA0H
-(L$0A
-(L$0D
-(L$PD
-(L$PH
-(L$`A
-(L$`D
-(L$`H
-(L$pD
-(L$pH
-(LcA0N
-(T$ H
-(T$@D
-(T$@H
-(T$`D
-(T$`H
-(T$pD
-(T?j?Y
-([]_^
-([]_^A\A]A^A_
-([]_^A\A]A^A_H
-([]_^A^A_
-([]_^H
-([]_^I
-([_^A\A^A_
-([_^A^
-([_^A^H
-(\$PD
-(\$pH
-(d$`D
-(l$pD
 (null)
 (structure contains a sampler)
-(t$ H
-(t$0H
-(t$@H
-(t$@L
-(t$PH
-(t$`H
-(t$`L
-(t$pH
 (unknown)
-(|$ A
-(|$ H
-(|$0D
-(|$0H
-(|$0I
-(|$@D
-(|$@H
-(|$PD
-(|$`D
-(|$`H
-(|$pD
-(|$pH
 ) has no register assigned - function 
-)4$Lc
-)>6{1n
-)D$ A
-)D$ H
-)D$ L
-)D$ L9
-)D$ L9|$xv
-)D$0A
-)D$0E
-)D$0H
-)D$0I
-)D$0L
-)D$0L9
-)D$@A
-)D$@H
-)D$@I
-)D$PA
-)D$PH
-)D$PI
-)D$PI9
-)D$PM9
-)D$Pf
-)D$`A
-)D$`H
-)D$`L
-)D$`M
-)D$`f
-)D$pH
-)L$0D
-)L$0H
-)L$PD
-)L$Pf
-)L$PfD
-)L$`D
-)L$pD
-)L$pfD
-)T$@D
-)T$`D
-)T$pD
-)\$PD
-)\$pD
-)d$`D
-)l$`A
-)l$pD
-)t$ A
-)t$ D
-)t$ E
-)t$ H
-)t$ I
-)t$ L
-)t$ L9
-)t$ M
-)t$0D
-)t$0H
-)t$0I
-)t$0L
-)t$0M
-)t$@A
-)t$@D
-)t$@H
-)t$@M
-)t$PA
-)t$PH
-)t$PI
-)t$PL
-)t$`D
-)t$`E
-)t$`H
-)t$`I
-)t$`L
-)t$`M
-)t$pH
-)t$pI
-)t$pL
-)t$pM
-)|$@1
-)|$@A
-)|B?d!
-*H;.s4
+)yIx
 *StO9>T
 *no default*
-++A+N
-+J$D8M@
-+M<7>
-+T$PH
-+T$XH
-+f)>0'
-+h->|
-,/<-w
-,0<	w
-,D$|H
 ,HR>O
-,I<%w
-,X< w
-,t0D9J0v*L
 -./012345"6789:;"<=>?@ABCDEFGH
--9D	/9a
+-9D\t/9a
 -BH>t
 -component vector of 
-..om?
-.8\$!t.9\
-.>PJ;I:qE>
+.>\rfJBGo
 .?AUIExecutionContext@Concurrency@@
 .?AUIExecutionResource@Concurrency@@
 .?AUIResourceManager@Concurrency@@
@@ -427,239 +218,98 @@ $jumptable$__
 .M;UU
 .P6APEBDVRegNumT@Ice@@@Z
 .P6APEBDW4RegClass@Ice@@@Z
-.d$xu
-.d$|u
+.bss
 .data
 .data.rel.ro
-.ffffff
-.i?0@I
+.eB5
 .p2align
-.pdata
+.rel
 .rela
 .rodata
 .rodata.cst
-.rsrc
 .shstrtab
 .strtab
 .symtab
 .text
 .xJ>Hf
 /2GG>!B
-/>58d%
 /profile 
-/uhD8
 0000000000000000nan
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
 0123456789abcdefghijklmnopqrstuvwxyz
-0><[cZUg^>
-0A^_^
-0A^_^][
-0A_A^A\
-0A_A^A\_^
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_]
-0A_A^A]_^
-0A_A^_
-0A_A^_^]
-0A__^
-0H;\$h
-0HcA0;AD~
+0E>X
 0X8b?~
-0[]_^A\A^A_
-0[]_^A^
-0[_^A\A]A^A_
-0[_^A^A_
-0[_^H
 0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
+11Y@
 17>d]
-1<.	/>:
 1eaB@
-2333333
-2I;3L
-3333333
-39n8s
-39n8}
+2\n0\tP
+3 FB
+37>k
 3>N;kU
 3>fvw
-3A8A#
-3H9N8s
-3H9N8}
-3T$4	
-3l$8D1
+3?tr
 4.0.0svn
-4333333
-6L;t$@
+4\tgA
+51>W
+5TEJ
+6NK>
+6\fXO>
+6\fXO>\ntA
 700PP
 700WP
+7>I0
+7?GX
+7E-M
 7h>?8
-8%urA
-8&u!L
-8*u;I
+7~xh
 8-M.Baseline
 8-M.Mainline
-8-u<H
 8.1-A
 8.2-A
-80tWD
-8A^_^[
-8A_A^A]A\_^][
+8080
 8Csinf
-8D$ u+H
-8H9t$8u
-8H;^XtB
-8HcV`Hc
-8HcY0H
 8J;@ts
-8[]_^
-8[]_^A\A]A^A_
-8[]_^A^A_
-8[]_^A^A_H
-8[]_^I
-8[_^A\A^A_
-8[_^A^
-8\$PtD
-8\$PtF
-8\\.\
-8\\?\
-8]Ot	H
-8_^][
-8dt-H
 8ke?;
-8mesaH
-8scei
-91~/E3
-99Ohu-
+9>70
 9>expf
-9D$ }tL
-9D$ }uL
-9D$(}k
-9D$4uR
-9D$T|(H
-9D$`t_
-9D$lu
-9FHtGH
-9J8u6
-9Nhu.
-9Q8uWH
-9T1 u	
-9TRUEt
-9Trueu?A
-9W$v8D
-9WP~GM
-9WP~HM
-9WP~KM
-9_P~+E3
-9_P~,E3
-9_P~OE3
-9r8s[K
-9r8}[K
-9truet
-9u0u	H
-9{D~H3
 : CommandLine Error: Option '
 : Missing symbol mentioned in reloc
 : for the -
-:&tkH
 :</td><td><select name='optimization
-:>)*	v
-:>t6k'
-:^Ht'H
-:u-f9Q
-; SwiftConfig application or go to http://localhost:8080/swiftconfig.
-; To get an overview of the valid settings and their meaning,
-; run the application in windowed mode and open the
-;-u8H
-;.u1L
-;:uYH
-;A$vTH
-;APu6
-;ATu.
-;B$vUH
-;Ct~EH
-;Ct~ZH
-;Ct~gH
-;D$ H
-;D$$L
-;D$,I
-;F s~L
-;H9>&X
-;HXu-H
-;HXu?A
-;I9}(tiH
-;L$,I
-;L$,M
-;L$,u
-;T$,u
-;\$0|
-;\$p|
-;l$xI
-;l$|H
-;t$0|
-;v6hlH
-;v6smH
-;v6zkH
-;v7emH
-;v7hlH
-<	w	@
-<	w	D
-< t=<	t9
-<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
-<"w)H
-<%u	L
-<%u%H
-<%u%I
-<&tc<%
-<&uBH
-<-uVI;
-</body>
-</div>
-</form>
-</head>
-</html>
-</option>
-</p><hr>
-</script>
-</select></td>
-</select></td></tr>
-</table>
-</tr>
+;1cb
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>\n
+</option>\n
+</script>\n
+</select></td></tr>\n
+</select></td>\n
+</table>\n
 <16 x i1>
 <16 x i8>
 <4 x float>
-<4 x i1>
 <4 x i32>
 <8 x i16>
-<8 x i1>
-<:u#H
-<>#n2
-<I;N w/H
 <acosf
-<at <rt
-<body>
+<body>\n
 <div id='profile'>
-<form method='POST' action=''>
-<h1>SwiftShader Configuration Panel</h1>
-<h2><em>Cache sizes</em></h2>
-<h2><em>Compiler optimizations</em></h2>
-<h2><em>Device capabilities</em></h2>
-<h2><em>Processor settings</em></h2>
-<h2><em>Quality</em></h2>
-<h2><em>Testing & Experimental</em></h2>
-<head>
-<hr><p>
-<html>
-<htn<jt^<lt6<tt&<wt
-<input type='submit' value='Apply changes' title='Click to apply all settings.'>
-<meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+<form method='POST' action=''>\n
+<h1>SwiftShader Configuration Panel</h1>\n
+<h2><em>Cache sizes</em></h2>\n
+<h2><em>Compiler optimizations</em></h2>\n
+<h2><em>Device capabilities</em></h2>\n
+<h2><em>Processor settings</em></h2>\n
+<h2><em>Quality</em></h2>\n
+<h2><em>Testing & Experimental</em></h2>\n
+<head>\n
+<html>\n
+<input type='submit' value='Apply changes' title='Click to apply all settings.'>\n
+<meta http-equiv='content-type' content='text/html; charset=UTF-8'>\n
 <option value='-1'
 <option value='0'
 <option value='1'
@@ -688,18 +338,17 @@ $jumptable$__
 <option value='7'
 <option value='8'
 <option value='9'
-<p>FPS: 
 <p>Frame: 
-<script type='text/javascript'>
-<span style='font-size:10pt'>Hover the mouse pointer over a control to get additional information.</span><br>
-<span style='font-size:10pt'>Removing the SwiftShader.ini file results in resetting the options to their default.</span></p>
-<span style='font-size:10pt'>Some settings can be applied interactively, some need a restart of the application.</span><br>
-<table>
-<title>SwiftShader Configuration Panel</title>
-<tr><td>Build revision:</td><td>2</td></tr>
+<script type='text/javascript'>\n
+<span style='font-size:10pt'>Hover the mouse pointer over a control to get additional information.</span><br>\n
+<span style='font-size:10pt'>Removing the SwiftShader.ini file results in resetting the options to their default.</span></p>\n
+<span style='font-size:10pt'>Some settings can be applied interactively, some need a restart of the application.</span><br>\n
+<table>\n
+<title>SwiftShader Configuration Panel</title>\n
+<tr><td>Build revision:</td><td>2</td></tr>\n
 <tr><td>Complementary depth buffer:</td><td><input name = 'complementaryDepthBuffer' type='checkbox'
 <tr><td>DLL precaching:</td><td><input name = 'precache' type='checkbox'
-<tr><td>Device identifier:</td><td><select name='identifier' title='The information used by some applications to determine device capabilities.'>
+<tr><td>Device identifier:</td><td><select name='identifier' title='The information used by some applications to determine device capabilities.'>\n
 <tr><td>Disable 10-bit display formats:</td><td><input name = 'disable10BitMode' type='checkbox'
 <tr><td>Disable SwiftConfig server:</td><td><input name = 'disableServer' type='checkbox'
 <tr><td>Disable alpha display formats:</td><td><input name = 'disableAlphaMode' type='checkbox'
@@ -711,308 +360,130 @@ $jumptable$__
 <tr><td>Exact color rounding:</td><td><input name = 'exactColorRounding' type='checkbox'
 <tr><td>Force clearing registers that have no default value:</td><td><input name = 'forceClearRegisters' type='checkbox'
 <tr><td>Force windowed mode:</td><td><input name = 'forceWindowed' type='checkbox'
-<tr><td>Frame-buffer API:</td><td><select name='frameBufferAPI' title='The API used for displaying the rendered result on screen (requires restart).'>
-<tr><td>Maximum mipmapping quality:</td><td><select name='mipmapQuality' title='The maximum mipmap filtering quality. Higher settings can be more visually appealing but are slower.'>
-<tr><td>Maximum texture sampling quality:</td><td><select name='textureSampleQuality' title='The maximum texture filtering quality. Lower settings can be faster but cause visual artifacts.'>
-<tr><td>Number of threads:</td><td><select name='threadCount' title='The number of rendering threads to be used.'>
+<tr><td>Frame-buffer API:</td><td><select name='frameBufferAPI' title='The API used for displaying the rendered result on screen (requires restart).'>\n
+<tr><td>Maximum mipmapping quality:</td><td><select name='mipmapQuality' title='The maximum mipmap filtering quality. Higher settings can be more visually appealing but are slower.'>\n
+<tr><td>Maximum texture sampling quality:</td><td><select name='textureSampleQuality' title='The maximum texture filtering quality. Lower settings can be faster but cause visual artifacts.'>\n
+<tr><td>Number of threads:</td><td><select name='threadCount' title='The number of rendering threads to be used.'>\n
 <tr><td>Optimization pass 
-<tr><td>Perspective correction:</td><td><select name='perspectiveCorrection' title='Enables or disables perspective correction. Disabling it is faster but can causes distortion. Recommended for 2D applications only.'>
-<tr><td>Pixel routine cache size:</td><td><select name='pixelRoutineCacheSize' title='The number of dynamically generated pixel processing routines being cached for reuse. Lower numbers save memory but require more routines to be regenerated.'>
-<tr><td>Pixel shader model:</td><td><select name='pixelShaderVersion' title='The highest version of pixel shader supported by SwiftShader. Lower versions might be faster if supported by the application. Only effective after restarting the application.'>
+<tr><td>Perspective correction:</td><td><select name='perspectiveCorrection' title='Enables or disables perspective correction. Disabling it is faster but can causes distortion. Recommended for 2D applications only.'>\n
+<tr><td>Pixel routine cache size:</td><td><select name='pixelRoutineCacheSize' title='The number of dynamically generated pixel processing routines being cached for reuse. Lower numbers save memory but require more routines to be regenerated.'>\n
+<tr><td>Pixel shader model:</td><td><select name='pixelShaderVersion' title='The highest version of pixel shader supported by SwiftShader. Lower versions might be faster if supported by the application. Only effective after restarting the application.'>\n
 <tr><td>Post alpha blend sRGB conversion:</td><td><input name = 'postBlendSRGB' type='checkbox'
-<tr><td>Setup routine cache size:</td><td><select name='setupRoutineCacheSize' title='The number of dynamically generated primitive setup routines being cached for reuse. Lower numbers save memory but require more routines to be regenerated.'>
-<tr><td>Shadow mapping extensions:</td><td><select name='shadowMapping' title='Features that may accelerate or improve the quality of shadow mapping.'>
-<tr><td>Texture memory:</td><td><select name='textureMemory' title='The maximum amount of memory used for textures and other resources.'>
-<tr><td>Transcendental function precision:</td><td><select name='transcendentalPrecision' title='The precision at which log/exp/pow/rcp/rsq/nrm shader instructions are computed. Lower settings can be faster but cause visual artifacts.'>
-<tr><td>Transparency anti-aliasing:</td><td><select name='transparencyAntialiasing' title='The technique used to anti-alias alpha-tested transparent textures.'>
-<tr><td>Vertex cache size:</td><td><select name='vertexCacheSize' title='The number of processed vertices being cached for reuse. Lower numbers save memory but require more vertices to be reprocessed.'>
-<tr><td>Vertex routine cache size:</td><td><select name='vertexRoutineCacheSize' title='The number of dynamically generated vertex processing routines being cached for reuse. Lower numbers save memory but require more routines to be regenerated.'>
-<tr><td>Vertex shader model:</td><td><select name='vertexShaderVersion' title='The highest version of vertex shader supported by SwiftShader. Lower versions might be faster if supported by the application. Only effective after restarting the application.'>
+<tr><td>Setup routine cache size:</td><td><select name='setupRoutineCacheSize' title='The number of dynamically generated primitive setup routines being cached for reuse. Lower numbers save memory but require more routines to be regenerated.'>\n
+<tr><td>Shadow mapping extensions:</td><td><select name='shadowMapping' title='Features that may accelerate or improve the quality of shadow mapping.'>\n
+<tr><td>Texture memory:</td><td><select name='textureMemory' title='The maximum amount of memory used for textures and other resources.'>\n
+<tr><td>Transcendental function precision:</td><td><select name='transcendentalPrecision' title='The precision at which log/exp/pow/rcp/rsq/nrm shader instructions are computed. Lower settings can be faster but cause visual artifacts.'>\n
+<tr><td>Transparency anti-aliasing:</td><td><select name='transparencyAntialiasing' title='The technique used to anti-alias alpha-tested transparent textures.'>\n
+<tr><td>Vertex cache size:</td><td><select name='vertexCacheSize' title='The number of processed vertices being cached for reuse. Lower numbers save memory but require more vertices to be reprocessed.'>\n
+<tr><td>Vertex routine cache size:</td><td><select name='vertexRoutineCacheSize' title='The number of dynamically generated vertex processing routines being cached for reuse. Lower numbers save memory but require more routines to be regenerated.'>\n
+<tr><td>Vertex shader model:</td><td><select name='vertexShaderVersion' title='The highest version of vertex shader supported by SwiftShader. Lower versions might be faster if supported by the application. Only effective after restarting the application.'>\n
 <unknown op>
-<yw(L
-= *cannot print option value*
-= *unknown option value*
-= {[8V
+= *cannot print option value*\n
+= *unknown option value*\n
+=1cb
+=87M
+=cQ6
+=e2m
 =imb;D
->0.0</option>
->1.1</option>
->1.2</option>
->1.3</option>
->1.4</option>
->1024 (default)</option>
->1024 MB</option>
->10</option>
->11</option>
->128 MB</option>
->128</option>
->12</option>
->13</option>
->14</option>
->15</option>
->16</option>
->1</option>
->2.0</option>
->2.x</option>
->2048 MB</option>
->2048</option>
->256 MB (default)</option>
->256</option>
->2</option>
->3.0 (default)</option>
->3</option>
->4096</option>
->4</option>
->512 MB</option>
->512</option>
->5</option>
->64 (default)</option>
->64</option>
->6</option>
->7</option>
->8</option>
->9</option>
->ATI Mobility Radeon X1600</option>
->Accurate (default)</option>
->Aggressive Dead Code Elimination</option>
->Alpha-to-Coverage</option>
->Anisotropic (default)</option>
->Approximate</option>
->Commutative Expressions Reassociation</option>
->Control Flow Simplification</option>
->Core count</option>
->DST</option>
->Dead Store Elimination</option>
->DirectDraw (default)</option>
+>0.0</option>\n
+>1.1</option>\n
+>1.2</option>\n
+>1.3</option>\n
+>1.4</option>\n
+>1024 (default)</option>\n
+>1024 MB</option>\n
+>10</option>\n
+>11</option>\n
+>128 MB</option>\n
+>128</option>\n
+>12</option>\n
+>13</option>\n
+>14</option>\n
+>15</option>\n
+>16</option>\n
+>1</option>\n
+>2.0</option>\n
+>2.x</option>\n
+>2048 MB</option>\n
+>2048</option>\n
+>256 MB (default)</option>\n
+>256</option>\n
+>2</option>\n
+>3.0 (default)</option>\n
+>3</option>\n
+>4096</option>\n
+>4</option>\n
+>512 MB</option>\n
+>512</option>\n
+>5</option>\n
+>64 (default)</option>\n
+>64</option>\n
+>6</option>\n
+>7</option>\n
+>8</option>\n
+>9</option>\n
+>ATI Mobility Radeon X1600</option>\n
+>Accurate (default)</option>\n
+>Aggressive Dead Code Elimination</option>\n
+>Alpha-to-Coverage</option>\n
+>Anisotropic (default)</option>\n
+>Approximate</option>\n
+>Commutative Expressions Reassociation</option>\n
+>Control Flow Simplification</option>\n
+>Core count</option>\n
+>DST</option>\n
+>Dead Store Elimination</option>\n
+>DirectDraw (default)</option>\n
 >Disabled
->Fetch4 & DST (default)</option>
->Fetch4</option>
->GDI</option>
->Global Value Numbering</option>
->Google SwiftShader (default)</option>
->IEEE</option>
+>Fetch4 & DST (default)</option>\n
+>Fetch4</option>\n
+>GDI</option>\n
+>Global Value Numbering</option>\n
+>Google SwiftShader (default)</option>\n
+>IEEE</option>\n
 >Instruction Combining
->Intel GMA X3100</option>
->Linear (default)</option>
->Linear</option>
->Loop Invariant Code Motion</option>
->NVIDIA GeForce 7900 GS</option>
->None (default)</option>
->None</option>
->Off</option>
->On (default)</option>
->Partial</option>
->Point</option>
->Process affinity (default)</option>
->Scalar Replacement of Aggregates</option>
->Sparse Conditional Copy Propagation</option>
->System device</option>
->WHQL</option>
->cuda
->eabi
->ffffff
->i386
->i486
->i586
->i686
->i786
->i886
->i986
+>Intel GMA X3100</option>\n
+>Linear (default)</option>\n
+>Linear</option>\n
+>Loop Invariant Code Motion</option>\n
+>NVIDIA GeForce 7900 GS</option>\n
+>None (default)</option>\n
+>None</option>\n
+>Off</option>\n
+>On (default)</option>\n
+>Partial</option>\n
+>Point</option>\n
+>Process affinity (default)</option>\n
+>Scalar Replacement of Aggregates</option>\n
+>Sparse Conditional Copy Propagation</option>\n
+>System device</option>\n
+>WHQL</option>\n
+>cQ6
 >jtm}S
->le32
->le64
->mipstt
->msvct?
->musltE
->nacl
->nvcl
->qujH
->r600
->spir
->tvost?
->uZ>`
 ?!5WOo
-?+>^m
+?1cb
 ?49HoKC
 ?7zQ6$
-?7{KV
+?7{KV\nU
 ?8bunz8
-?:kP<
 ?@En[vP
-?Cu2fD9
-?D8d$8
-?E=$% B
-?H9>u
 ?N]TUUU
-?QY^&
 ?R0I?
-?TY,>5
 ?UUUUUU
 ?asinf
 ?f`Y4
 ?kxG2)
+?lZE
 ?logf
-?{Q}<
-@	ptu
-@"t$%@
-@"t$%A
-@(D9i(
-@.00cfg
-@.data
-@.gfids
-@.reloc
-@.tls
+?qBJ
+?rAj
+?ysB
 @33333333
-@8)u#H
-@89H8
-@8<)u
-@8l$8t
-@8l$Ht
-@8l$Pt
-@8sH@
-@8t$HtrL
-@8t(8}
-@8t(8}nH
-@8y:t
-@8{:t
-@8|$Pu
-@8|$^t
-@>%>b
-@A^A\_^]
-@A^A]A\_^
-@A^_^
-@A_A^A\
-@A_A^A\_^[]
-@A_A^A]A\_^]
-@A_A^]
-@A_A^_^]
-@H= -
-@HH;G0
-@HcC(H
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SUVWAVH
-@SVWATAUAVAWH
-@SVWH
-@UATAUAVAWH
-@UAVAWH
-@USVWATAUAVAWH
-@USVWATAVAWH
-@USVWH
-@VWAVH
-@XA;FXt
-@XH9G`
-@[]_^A\A^A_
-@[]_^A\A^A_H
-@[]_^A^
-@[]_^A^H
-@[_^A\A]A^A_
-@[_^A^A_
-@b;zO]
-@ffffff
-@pI+@hH
-@x9H8
-A	p`A
-A	z`H
-A ;AXu&
-A H+A
-A H9A(u
-A H;A
-A H;i
-A$+A,t\3
-A$f;A\u
-A&f;A^
-A(9B(D
-A(;B(rL
-A(;B(s
-A(;C(
-A(;E(r
-A(;E(r@
-A(;E(s
-A(H+A H
-A(H;B(u
-A+B$+
-A+B$A
-A+B$D
-A+X$D
-A+n H
-A,;Adu
-A,A9A(v&L
-A,u+H
-A03>A|
-A0H9P
-A0H;A8
-A0H;B0
-A0H;B0u
-A4;Alu
-A84.u
-A8H9A0t
-A8H;B8t
-A9A sUI
-A9Q M
-A9p L
-A:8ueI
-A;6}#I
-A;A s'H
-A;H$I
-A;H$s
-A;J$vdH
-A<:Atu>
-A>l$/
 A>pP&
-A@H;A8t
-A@H;A8tPH
-A@H;B@
-A@f;B@
-AA,A$
-AA<Fu
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABI type
-AHH9APu
-AHH;AXA
-AHt>H
 AK>(v
-ATAUAVH
-ATAVAWH
-AUAVAWH
 AUUUUUU
-AVVWSD
-AVVWSH
-AVVWSL
-AVVWSM
-AVVWUSA
-AVVWUSH
-AWAVATVWSH
-AWAVATVWUSA
-AWAVATVWUSH
-AWAVAUATVWSH
-AWAVAUATVWUS
-AWAVAUATVWUSA
-AWAVAUATVWUSH
-AWAVAUATVWUSPH
-AWAVVWSH
-AWAVVWUS
-AWAVVWUSH
-AWAVVWUSL
-AXH;A`t
-A^A]A\
-A^HcQpM
-A^_^[]
-A_A^A\
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A\_^][
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_]
-A_A^A]_^
-A_A^]
-A_A^_
-A_A^_^]
-A`D9L8
 Absolute value
 Accept textual form of PNaCl bitcode records (i.e. not .ll assembly)
 Access violation - no RTTI data!
@@ -1038,10 +509,6 @@ After stack frame mapping
 After target helper call insertion
 After x86 address mode opt
 After x86 codegen
-Ah;Ehu
-Ah;Fhu
-AhH;Ap
-AhH;ApttL
 Alias for --allow-externally-defined-symbols
 Allow IACA (Intel Architecture Code Analyzer) marks to be inserted. These binaries are not executable.
 Allow error recovery when reading PNaCl bitcode.
@@ -1060,19 +527,9 @@ AtomicIsLockFree byte size should be compile-time const
 Attempt to call base Inst::isMemoryWrite() method
 Attribute '%s' aliases attribute '%s' at location %d
 August
-AuthD
-Autht:
-B$D+B,toD+B(
-B(;A(
-B(H;B0t
-B(H;B0tNH
-B(I9A(u
-B(M9B0t'
-B0E8XAt
-B0I+B(H
-BC?>6t9^	c:>
+B,fK
+BC?>6t9^\tc:>
 BF>^G
-BX;ALu
 Bad aggregation op
 Bad dynamic_cast!
 Bad type for atomicRMW
@@ -1084,7 +541,6 @@ Bad type for urem
 Bad type in AddUnaryMath
 Bad unary op
 Before RMW
-Bh;Ehu
 Binary Node found in constant constructor
 Block-local variable splitting (O2 only)
 Branch Node found in constant constructor
@@ -1095,44 +551,10 @@ Branch: Return
 Branch: Unknown Branch
 Break down timing for specific functions (use ':' for all)
 Build ICE instructions when reading bitcode
-C	 u=L
-C	:D$$
-C	:D$pu!H
-C	:D$pu6H
-C	:D$pu7H
-C	@u=L
-C H9;
-C H9G
-C$u	H
-C(;A(r
-C(;A(rN
-C(;A(rO
-C(;A(s
-C(;A(sL
-C(;F(
-C(;F(s
-C(;G(s
-C(A;C(r
-C(A;F(rU
-C(A;F(rZ
-C(H;C t4H
-C(H;C0r
-C0HcF
-C4D+@ H
-C5R?	
-C847u
-C8<(u
-C9|0$uA
-CA< t(<#t
-CB(A;J,A
-CB0A;B(A
-CD$@3
-CD$@A
-CE,D;m0D
+C5R?\t
+CINF
 CL:>8
-CPH;K
 CWD>~3
-C`D;Sh|
 Caches
 Can't lower unsupported instruction type
 Cannot find option named '
@@ -1155,7 +577,7 @@ CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
 CloseThreadpoolWork
-Comma
+Comma\n
 Compare Equal
 Compare Greater Than
 Compare Greater Than or Equal
@@ -1165,7 +587,7 @@ Compare Not Equal
 CompareStringEx
 CompareStringW
 ComplementaryDepthBuffer
-Condition
+Condition\n
 Constant Folding cannot be done for matrix multiply
 Constant Folding cannot be done for matrix times vector
 Constant Folding cannot be done for vector times matrix
@@ -1198,15 +620,13 @@ Construct uvec4
 Construct vec2
 Construct vec3
 Construct vec4
-Content-Length: %zd
-Content-Type: text/html; charset=UTF-8
+Content-Type: text/html; charset=UTF-8\r\nContent-Length: %zd\r\nHost: localhost\r\n\r\n
 ContextPriority
 ContextStackSize
 Convert additions to lea when it reduces code size
 Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Couldn't lower RMW instruction
-CpH+ChI
 CreateCompatibleDC
 CreateDIBSection
 CreateEventA
@@ -1226,276 +646,6 @@ CreateTimerQueueTimer
 CreateUmsCompletionList
 CreateUmsThreadContext
 Csinhf
-D W?{W
-D!l$xA
-D$	@8
-D$ 3A
-D$ 3Q
-D$ 90H
-D$ 9H
-D$ 9h
-D$ 9p
-D$ 9ppH
-D$ 9pxH
-D$ @8pdH
-D$ @8pfH
-D$ @8pgH
-D$ @8phH
-D$ @8piH
-D$ @8pjH
-D$ @8pkH
-D$ @8ptL
-D$ @8p|L
-D$ D8`(H
-D$ D8`4H
-D$ D8`5H
-D$ D8`6H
-D$ D8`7H
-D$ D8`8H
-D$ D9 H
-D$ D9` H
-D$ D9`$H
-D$ D9`,H
-D$ D9`0H
-D$ D9`lH
-D$ D9ppH
-D$ D9pxH
-D$ E1
-D$ E3
-D$ H9
-D$ H9G t|H
-D$ H;
-D$ I+D$
-D$ I9
-D$ I;
-D$ Lc
-D$ fA
-D$ |?1
-D$ |aH
-D$!xE
-D$(9QPu
-D$(D8
-D$(E1
-D$(H)
-D$(H9
-D$(H;
-D$(H;4
-D$(H;F
-D$(H;G
-D$(Hc
-D$(Hc@
-D$(I+D$ 
-D$(I+D$ H
-D$(I9
-D$(L9
-D$(M)
-D$,D9
-D$,E1
-D$,HcL$(
-D$,t#
-D$,t%
-D$,vwH
-D$0E1
-D$0E3
-D$0E;
-D$0H#
-D$0H+
-D$0H9
-D$0H;
-D$0H;G
-D$0Hc
-D$0HcH
-D$0I9
-D$0I;EPt
-D$0L9
-D$0Lc
-D$0f;VPu
-D$0fD
-D$0fH
-D$0t:H
-D$49C
-D$4Hc
-D$6D3
-D$8A)
-D$8A9
-D$8D)
-D$8E1
-D$8H9
-D$8HcJ
-D$8I9
-D$8L9
-D$8Lcd$$HcD$ H
-D$8fA
-D$<8O(t
-D$<E1
-D$@E1
-D$@E3
-D$@H+
-D$@H9
-D$@H9A
-D$@H;
-D$@H;D$0t
-D$@H;D$Xu
-D$@H;D$p
-D$@H;E
-D$@H;G
-D$@Hc
-D$@I9
-D$@Ic
-D$@L)
-D$@[H
-D$@fA
-D$@fD
-D$@t"L
-D$DE1
-D$G D$Xf
-D$HD9|$@}KH
-D$HE1
-D$HH9
-D$HH9A
-D$HH9D$Pu	H
-D$HH;
-D$HH;C
-D$HH;D$Pt
-D$HHcF$H
-D$HHcH
-D$HfD
-D$H~)
-D$KE1
-D$LE1
-D$LM;
-D$MfA
-D$NfA
-D$P I
-D$P0H
-D$PA#
-D$PA+
-D$PD1
-D$PH+
-D$PH9
-D$PH;
-D$PH;C
-D$PH;G
-D$PHc
-D$PI;
-D$PIc
-D$PL;
-D$Pu&H
-D$Rtz
-D$X<&
-D$X@H
-D$XA)
-D$XB84
-D$XD9
-D$XH+
-D$XH9
-D$XH;
-D$XH;D$Ht
-D$XH=
-D$XI)
-D$\D	
-D$\E1
-D$^D9
-D$`0H
-D$`:Ht
-D$`;G
-D$`D;`
-D$`E1
-D$`E3
-D$`H)
-D$`H9
-D$`H;D$hs
-D$`Hc
-D$`I9
-D$`L;
-D$`fA
-D$`~-H
-D$bD9
-D$h9t$P
-D$hE;
-D$hH+D$`H
-D$hH9D$p
-D$hH;D$pu
-D$hI9
-D$hL9
-D$hfA
-D$iD9
-D$mD9
-D$mfA
-D$pA+
-D$pD8s
-D$pE1
-D$pE:
-D$pH)
-D$pH9
-D$pI)
-D$pI9
-D$tD	
-D$xE1
-D$xH9
-D$xH;
-D$xI)
-D$xLcq0I
-D$xfD
-D$}fA
-D):A:
-D+ 90
-D+D$@A9
-D+ShHcChM
-D+d$8H
-D1$L9
-D8&t 
-D8&t4H
-D80<k
-D80<qt
-D85X6 
-D88Ht;I
-D8?t	H
-D8M@t
-D8M@t^
-D8T$pt
-D8Y:uEH
-D8a:uDH
-D8c:u
-D8d$8t
-D8d$Xt
-D8l$`
-D8l$ht
-D8t$8t
-D8uOt	H
-D9A8uMH
-D9ATu
-D9Adt
-D9B,t
-D9G$s5
-D9I8uC
-D9IXu
-D9J,w
-D9Y$v+E
-D9c t
-D9d$$u
-D9g@~2Ic
-D9h(uiE
-D9jhw
-D9k(u
-D9l$D~jE
-D9p t
-D9|$@}9
-D9|$@}=I
-D;D$,
-D;D$,u
-D;D$p}V
-D;L$,
-D;\$,
-D;d$$A
-D;d$$u
-D;d$,
-D;j0v
-D;w@|
-D;z,A
-D;z,u
-D;z,v	A
-DD8T$pu
 December
 Declaration
 DecodePointer
@@ -1525,38 +675,17 @@ Display list of all available options
 Display list of available options (-help-list-hidden for more)
 Display the version of this program
 Divide by zero error during constant folding
-Dl$8E
 Do not randomize or pooling immediates (default)
 Don't use specified registers
 Dump string pools during compilation
 DuplicateHandle
 DynamicProgressFeedback
-E(;F(
-E(;F(H
-E(;F(r
-E(;F(rGL
-E(A;A(s
-E(A;F(H
-E(A;F(rS
-E(A;F(rT
-E(I+E H
-E(I9E 
-E(f95
-E+BhIcBhM
-E0HcH
-E0Lcx
-E8X@t8A
-E;B0E
-E;Bl}DM
 E>nEA
-E@I;E8@
 EOF while in a comment
-EP*?H
-EPHc@
 ERROR: 
-ET$(H
-EdA;EhuKH
-EhI+E`H
+ET5>
+E[\rn?gc
+EiUL
 Embedded struct definitions are not allowed
 Emit (global) data into separate sections
 Emit Subzero revision string into the output
@@ -1591,43 +720,19 @@ Expected loop index
 Expected vector compare
 Externalize all symbols
 Extra amount of stack to add to the frame in bytes (for testing).
-F H+F
-F HcV
-F I+F
-F(;C(s
-F(;E(H
-F(;E(L
-F(;E(r
-F(@8-
-F(A;E(r
-F(A;F(r
-F(H+F H
-F(LcF I
-F0H;N0H
-F8H9F0tsH
-F<8FttD<+w@
 F>qUxv
-F@H;F8u
-F@H;FXu
-FALS3
-FHL9 
-FPH;FX
-FPI9l$
-FXH9~Hu
-FXH;F`t
-F`@8x
+FEMh\f
 Failed to find splice operand
-Failing on char %d
-Fals3
+Failing on char %d\n
 Fatal inconsistency in liveness analysis
 February
-Fh;Ahu
-FhH9G rDH
+FfW?
 File to append -stats and -timer output to
 FileTimeToSystemTime
 FindClose
 FindFirstFileExW
 FindNextFileW
+Flat
 FlatIn
 Float overflow
 Floating-point suffix unsupported prior to GLSL ES 3.00
@@ -1645,7 +750,6 @@ ForceClearRegisters
 ForceWindowed
 FormatMessageW
 Found RMW in 
-FpH;D$8uX
 Fraction
 FragColor
 FragCoord
@@ -1669,36 +773,9 @@ Function Definition:
 Function Parameters: 
 Function call stack too deep (depth was 
 Function recursion detected
-G	:D$`u
-G	:D$vu
-G	:D$wu
-G	:D$xu1
-G	:D$yt
-G A;G u-
-G H;Fhv0H
-G HcW
-G I9G(
-G$;G,
-G(9G u
-G(;F(
-G(;F(r
-G(;F(s	L
-G(H+G 
-G(H+G H
-G(H;G 
-G,9G$u
-G,:F,
-G0H9G8td
-G0H;G8u4
-G0Hc	H
-G0LcGDI
-G8H9G0t<H
-G8H9G0u
-G8HcODI
-G8L98u	H
+G>US
 GDI32.dll
 GET /
-GHH;phu
 GL_ANGLE_framebuffer_blit
 GL_ANGLE_framebuffer_multisample
 GL_ANGLE_instanced_arrays
@@ -1750,13 +827,9 @@ GL_OES_texture_half_float_linear
 GL_OES_texture_npot
 GL_OES_vertex_array_object
 GL_OES_vertex_half_float
-GX;FL
-GY@t4H
-GdA;Ghu=H
 General options
 Generate list of build attributes associated with this executable.
 Generic Options
-Genuu
 GetACP
 GetCPInfo
 GetClientRect
@@ -1829,276 +902,24 @@ Global initializers
 Global live range splitting
 Google Inc.
 Google SwiftShader
-H H+H
-H!D$ H
-H!T$0D
-H#A0H
-H#C0H
-H#D$8H
-H#D$8L
-H#F0H
-H#G0H
-H#Q0L
-H#Q@L
-H#T$0H
-H#W0H
-H#q0L
-H#|$0tB
-H)OHH
-H)^0H
-H+C H=
-H+D$0H
-H+D$XH+D$@3
-H+G H=
-H+L$(x?H
-H+L$(xAH
-H+P`H
-H+QxH
-H0H;H8
-H3T$ H
-H3\$HH
-H3t$(H
-H91u%L
-H99u{
-H9=j<
-H9>u+A
-H9A u
-H9A(t
-H9A@t*H
-H9A@t6H
-H9B H
-H9B v
-H9C0t
-H9D$Pu@H
-H9D$pu	H
-H9D$x
-H9D$xu
-H9E v
-H9G v
-H9Gptk
-H9J t1
-H9K u
-H9L$Ht?H
-H9L$Xv
-H9M0u
-H9Q(r
-H9Q0t
-H9Qhs
-H9Qht
-H9Qpt
-H9Qpu
-H9Qxt
-H9T$H
-H9V8s
-H9V8}
-H9\$ 
-H9\$ u
-H9\$0u
-H9\$X
-H9\$p
-H9_ L
-H9_ht0H
-H9l$Xv
-H9l$xv
-H9q r
-H9r8s]K
-H9r8}]K
-H9t$(u
-H9t$8
-H9t$@t
-H9t$@t 
-H9x t
-H9z8s
-H9z8}
-H;9t$H
-H;9t-H
-H;9t0I
-H;@0u
-H;@Xu
-H;A v
-H;A(t
-H;A0s
-H;BHt
-H;C0u
-H;D$ 
-H;D$(
-H;D$(t
-H;D$0
-H;D$8
-H;D$@
-H;D$H
-H;D$Pu
-H;D$X
-H;D$`
-H;F t
-H;F0t
-H;FHt	H
-H;F`t
-H;F`u
-H;F`u$9
-H;GXu
-H;Gpt
-H;H w9K
-H;L$ H
-H;L$(
-H;L$(u
-H;L$0
-H;L$@
-H;L$X
-H;L$`
-H;N0t!H
-H;XXs
-H;Y`t
-H;Z`t
-H;\$ r
-H;\$(
-H;\$(}
-H;\$@H
-H;\$@t
-H;]8t
-H;^`t
-H;_Xt
-H;_pu
-H;k`t
-H;l$0H
-H;l$8
-H;p8~-
-H;q`t
-H;s`t
-H;t$0
-H;t$h
-H;u`t
-H;xXu5
-H;xpt/E1
-H;y`t
-H;{`t
-H;{pt
-H;|$ w
-H;|$8
-H;|$@
-H;~pu
-H@H;H
+H>r1
 HH:mm:ss
-HTTP/1.1 200 OK
-HTTP/1.1 404 Not Found
-HXH;H`t_H
-H[><y5
-H[]_^
-H[]_^A\A]A^A_
-H[]_^A\A]A^A_H
-H[]_^A^A_
-H[]_^A^A_H
-H[]_^H
-H[_^A\A^A_
-H[_^A^
-H\+H`
-H_^[]
-H`H+HXH
-Hc;HcK
-HcA0H
-HcA0L
-HcAhH
-HcC H
-HcC0H
-HcCHH
-HcChH
-HcD$$
-HcD$$HcL$ H
-HcD$,
-HcD$4H
-HcD$@H
-HcD$LD
-HcD$`H
-HcF$H
-HcF0H
-HcG$H
-HcG(H
-HcG,H
-HcGTL
-HcGl;Gh}
-HcIlHcT$DH
-HcK H
-HcKhH
-HcKpH
-HcN$Hc
-HcN4H
-HcN8H
-HcN`Hc
-HcNdLc
-HcO$I
-HcO4H
-HcO8H
-HcQ0D
-HcS H
-HcV H
-HcV8H
-HcVdLc
-HcYhH
-Hc]`M
-Hcj`Hc
-HcjdH
-Hcl$8Lc
-Hcn$H
-Hcn$I
-Hco,Hc_(H
-Hct$THc
-Hcz`Hc
-HczdHc
-Hc|$DH
-Hc|$TH
+HTTP/1.1 200 OK\r\n
+HTTP/1.1 404 Not Found\r\n
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
 Helper call was expected
-Hh9Nhu
-Hh9Nhu3
-Hh9Oh
-Hh;Nhu"
-Hh;Ohu-
-HhH+H`H
 Hoist loop invariant arithmetic operations
-Host: localhost
-I#D$@I
-I#E0I
-I#N0I
-I#O@M
-I#_0L
-I#_@I
-I#|$0H
-I#~@H
-I+u0H
-I9A s\I
-I9~pu
-I;,$u
-I;A s+H
-I;EHt
-I;^hu
-I;u8H
-I;wXu
-I;~pu
 IND)ind)
 IND)ind)m
 INFO: 
 INITY
 INTERNAL ERROR: 
 IO failure on output stream.
-IPHc	H
-IPHc	I
 IR File
-IXH;NPt
-IcEhH
-IcG0Ik
-IcI A
-IcJ 3
-IcJPHc
-IcM$H
-IcN$H
-IcO$H
-IcU H
-IcmhH
 Identifier
-IhA;Jhu41
 Il?333333c?
 Illegal use of reserved word
 Include deleted instructions
@@ -2146,219 +967,28 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
-J$A;H$A
-J8H;N8s
-J8H;N8}
-JHcD$4H
-J`E;Bh|
 January
-K 9N v@H
-K H9y
-K&>.yC
-K0u2H
-K4A+H 
-K8H+K0H
-K8Hc@
+July
+June
 KERNEL32.dll
-KH;_XtW3
-K~Je#>!
-L!|$(L!
-L#K@L
-L$ E1
-L$ E3
-L$ H)
-L$ H9
-L$ I;
-L$ L9
-L$ L;
-L$ SH
-L$ SUVWH
-L$ UVWATAUAVAWH
-L$ VWAVH
-L$ WH
-L$ fff
-L$ |+L;
-L$&8\$&t,8Y
-L$(#A
-L$(E1
-L$(E3
-L$(H)
-L$(H1
-L$(H3
-L$(H9
-L$(H9A`
-L$(HcQ
-L$(Hi
-L$(Ic
-L$0E1
-L$0H)
-L$0H1
-L$0H3
-L$0H9
-L$0H;
-L$0H;K
-L$0HcQ
-L$0IcM$H
-L$0L)
-L$0L9
-L$0fA
-L$0fE
-L$0fH
-L$0fI
-L$4+L$8
-L$4+L$@
-L$4E1
-L$8E1
-L$8H)
-L$8H1
-L$8H3
-L$8H9
-L$8Hc
-L$8L+L$0I
-L$8L9
-L$8fD
-L$9A8
-L$<;L$H
-L$<E1
-L$@;|
-L$@E1
-L$@H1
-L$@H3
-L$@H9
-L$@IcM$H
-L$@tM1
-L$@uU
-L$HE1
-L$HH)
-L$HH1
-L$HH9
-L$HH;L$@t
-L$HHcAhH
-L$HL)
-L$LD9
-L$LIc
-L$OE1
-L$P;L$,I
-L$PA	
-L$PE1
-L$PH)
-L$PH1
-L$PH3
-L$PH9
-L$PI)
-L$PL9
-L$PtfH
-L$XE1
-L$XE3
-L$XH1
-L$XH3
-L$XH9
-L$XH;L$`
-L$XHc
-L$XL9
-L$Xuv
-L$`E1
-L$`H)
-L$`H1
-L$`H3
-L$`L9
-L$`~W1
-L$`~c1
-L$`~h1
-L$dA;L$huL
-L$h;A
-L$hE1
-L$hH1
-L$hH9
-L$hH;
-L$hL9
-L$pE1
-L$pH)
-L$pH1
-L$pH3
-L$pH9
-L$pL9
-L$xA9
-L$xE1
-L$xH1
-L$xH9
-L$xfA
-L(;A:
-L(<A:
-L9	u%L
-L9!u'L
-L9"u&
-L9I t
-L9N0t
-L9`8u'L
-L9d$8t
-L9d$P
-L9d$Pv
-L9d$`
-L9d$xv
-L9f v
-L9l$8
-L9l$pv
-L9n v
-L9n vzH
-L9o0u
-L9s v
-L9t$8t
-L9v v*H
-L9{ v
-L9|$(tfM
-L9|$0
-L9|$8t
-L9|$Pv
-L9~ t
-L9~ v
-L;E`t
-L;FHu
-L;d$(
-L;d$0
-L;d$@
-L;l$(
-L;l$8
-L;t$ vlI
-L;t$0
-L;t$8
-L;t$h
-L;|$ L
-L;|$8
-L;|$@
-L;|$P
-L;|$h
+L>ev
 L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LLD PDB.
-LLVM (http://llvm.org/):
+LLVM
+LLVM (http://llvm.org/):\n  
 LLVM ERROR: 
 LLVM file (default)
+LWG>
+LWW>
 LastModified
 Layout qualifiers differ for interface block '%s' between vertex and fragment shaders
-LcA8H
-LcA<E3
-LcBlH
-LcCP3
-LcG$L
-LcGDI
-LcGP3
-LcV0D
-Lc\$pMc
-Lcd$8Lc
-LceoA
-LcflH
-Lcl$HIc
-Lct$THc
-Lc|$THc
 LeaveCriticalSection
 Let register allocation use reserve registers
-LfA;LU
 Linear scan details
 Liveness information
-Lj[;>
 LoadLibraryA
 LoadLibraryExW
 LoadLibraryW
@@ -2367,10 +997,10 @@ Local variables can only use the const storage qualifier.
 LocalContextCacheSize
 LocaleNameToLCID
 Lock already taken
-Loop Body
-Loop Condition
+Loop Body\n
+Loop Condition\n
 Loop Node found in constant constructor
-Loop Terminal Expression
+Loop Terminal Expression\n
 Loop index cannot be compared with non-constant expression
 Loop index cannot be initialized with non-constant expression
 Loop index cannot be modified by non-constant expression
@@ -2379,12 +1009,6 @@ Loop index cannot be used as argument to a function out or inout parameter
 Loop nest depth analysis
 Loop with condition 
 Low-level integrated assembly ('.s') file
-M H1E
-M I+M
-M(;K(
-M(A;I(r
-M9l$ v
-M9u v	H
 MM/dd/yy
 March
 Matrix packings for %s differ between vertex and fragment shaders
@@ -2392,7 +1016,6 @@ Max number of nops to insert per instruction
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
-Md$LA
 Mem pointer should be a 32-bit GPR.
 Mem pointer should not be a 64-bit GPR.
 Memory usage details
@@ -2406,20 +1029,13 @@ Mock bounds checking on loads/stores
 Monday
 MultiByteToWideChar
 Multiple locations for fragment output
-N I+N
-N(;H(rKL
-N(;M(
 N3`d?
-N8H+N(H
 N>O=I9
+N>VF
 NAN(IND)
 NAN(SNAN)
-NHH;N
 NOTE: 
-NPH;NHt
-NTHcVd
-NXH;NPt
-NXI;N`t
+NQ?s
 Name mismatch for field %d of interface block '%s': (in vertex: '%s', in fragment: '%s')
 Name mismatch for field '%d' of %s: ('%s', '%s')
 Name of a built-in function cannot be redeclared as function
@@ -2427,9 +1043,8 @@ Native ELF object ('.o') file
 Native executable ABI
 Negate conditional
 Negate value
-NfA;LU
-No loop body
-No loop condition
+No loop body\n
+No loop condition\n
 No precision specified (int)
 No precision specified for (float)
 No verbosity
@@ -2438,18 +1053,12 @@ Nop insertion probability as percentage
 Not enough arguments for macro
 NotEqual
 November
-NpH;A
-NtHc~P
 Number of constructor parameters does not match the number of structure fields
 Number of times local-cse is run on a block
 Number of translation threads (0 for purely sequential)
-O,D9O(vcH
-O0HcQ
-O0LcQ
-OF>;^
-OPTIONS:
+OPTIONS:\n
 OVERVIEW: 
-O`H9Oht]D
+OZQ%
 October
 Only out variables can be invariant.
 Only use specified registers for corresponding register classes
@@ -2462,40 +1071,11 @@ Optimized build
 Output file type
 Override output filename
 Override with -verbose=none except for specified functions
-P #C@H
-P 9J8
-P 9J8u)
-P A#F@I
-P Lc%
-P(9J8
-P(9J8u
-P(@8+t
-P09J8u
-P09J8u}
-P89J8up
-P8H+P0H9
-P>q_Y~
-P@9J8uc
-P@@8+t
-P@H;P
-PA^_^
-PH9J8uV
-PH;\$0
-PH@8+t
 PNaCl bitcode file
 POST /
-PP9J8uI
-PX9J8u<
-P[]_^A\A^A_
-P[]_^A^
-P[_^A\A]A^A_
-P[_^A^A_
-P`9J8u/
 Parse function blocks in parallel
 PeekNamedPipe
 PerspectiveCorrection
-Ph9J8u"
-Ph;\$(u
 Phi found in regular instruction list
 Phi instruction added to the middle of a block
 Physical register origins
@@ -2508,7 +1088,6 @@ Possible misaligned vector memory operation
 Post-Decrement
 Post-Increment
 PostBlendSRGB
-Pp9J8u
 Pre-Decrement
 Pre-Increment
 Precache
@@ -2525,28 +1104,15 @@ Print the name of the function being translated
 Print total translation time for each function
 Processor
 Program has not been successfully linked.
-Q ;T1
-Q H;Q
-Q0D;B
 Q5rHg,>
-Q8;U8s
-Q8;U8}
-Q8;V8s
-Q8;V8}
-Q8H;V8s
-Q8H;V8}
-QHH+Q@H
-QhH+Q`H
+QAf?
 Quality
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-R0E8XAt
-R8;S8r
-R8;S8|
-R8H;S8r
-R8H;S8|
+RSDS
+R\n0\tP
 RaiseException
 Randomization details
 Randomize constant pool entry ordering
@@ -2560,7 +1126,7 @@ ReadFile
 ReadModifyWrite optimization
 Reference of struct type 
 Register
-Register equivalence classes:
+Register equivalence classes:\n
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
 ReleaseDC
@@ -2572,7 +1138,6 @@ ResetEvent
 Restrict local var splitting to specific insts
 Result type should match the l-value type in compound assignment
 Retain deleted instructions in the Cfg
-RhH+S`H
 RoInitialize
 RoUninitialize
 Round
@@ -2582,21 +1147,12 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S(;Q(r
-S8H+S0H
-S;\$0tH
-S<%u	L
+S9>H
 S>$hkDh$h>[2
-SD8d$8t
 SNAN)
 STDGL
 SUBCOMMAND '
-SUBCOMMANDS:
-SUVWATAUAVAWH
-SUVWATAUAVAWL
-SVWATAUAVAWH
-SVWAVAWH
-SVWAVH
+SUBCOMMANDS:\n\n
 Sampler uniform (%d) exceeds MAX_COMBINED_TEXTURE_IMAGE_UNITS (%d)
 Samplers of conflicting types refer to the same texture image unit (%d).
 Saturday
@@ -2607,7 +1163,7 @@ Seed the random number generator
 SelectObject
 Selection Node found in constant constructor
 September
-Sequence
+Sequence\n
 Set log filename
 SetConsoleTextAttribute
 SetDeviceGammaRamp
@@ -2629,13 +1185,13 @@ SetUnhandledExceptionFilter
 SetWindowLongA
 SetWindowPos
 SetupRoutineCacheSize
-ShH+S`H
 ShadowMapping
 Show available registers for register allocation
 Show predecessors
 Show successors
 Shuffle the layout of basic blocks in each function
 Shufflevector rematerialization
+Sign
 SignalObjectAndWait
 Skip through unimplemented lowering code instead of aborting.
 Sleep
@@ -2643,12 +1199,10 @@ SleepConditionVariableCS
 SleepConditionVariableSRW
 Smooth
 SmoothIn
-SpJ9<
 Specified transform feedback varying index out of bounds (%s)
 Split Nodes for short circuit evaluation
 Stack Variable has a register assigned
 Stack frame layout details
-Starting computeAddressOpt for instruction:
 StretchBlt
 String index not found: 
 String pool (NumStrings=
@@ -2657,78 +1211,14 @@ Structure lengths for %s differ between vertex and fragment shaders
 SubmitThreadpoolWork
 Subzero_revision_unknown
 Sunday
-SwiftShader Configuration File
+SwiftShader Configuration File\n;\n; To get an overview of the valid settings and their meaning,\n; run the application in windowed mode and open the\n; SwiftConfig application or go to http://localhost:8080/swiftconfig.
 SwiftShader.ini
 SwitchToThread
 Symbol Node found in constant constructor
 Symbol external and defined: 
 SystemTimeToTzSpecificLocalTime
-T	8H1
-T$ 3Q
-T$ E3
-T$ H)
-T$ I9
-T$ r=
-T$(D:z	M
-T$(E1
-T$(H+T$ H
-T$(H9
-T$(I	
-T$(r	
-T$(thH
-T$0E1
-T$0E3
-T$0H)
-T$0H;T$ 
-T$0I;
-T$0L)
-T$0L9
-T$0fB
-T$0xiB
-T$8E1
-T$8L)
-T$8trH
-T$@fD
-T$@fH
-T$Dt]H
-T$HH9
-T$HfD
-T$Ht,I
-T$PD+
-T$PE1
-T$PE3
-T$PH)
-T$PH3
-T$PL+
-T$XE1
-T$XH9
-T$XH;|$h|
-T$XI9^ v	H
-T$XL;d$h
-T$Xv	H
-T$`H)
-T$`H9
-T$`~]H
-T$`~lH
-T$`~~H
-T$efA
-T$hE1
-T$hH)
-T$hH9
-T$hH9B r
-T$nfA
-T$pE3
-T$pH)
-T$pH9
-T$xD8j
-T$xD;D$x
-T$xH9
-T$xH;l$p
-T$xr%H
-T(;E:
-T0@H9
+TUUU
 TUUUU
-TUUUUUU
 Target architecture attributes
 Target architecture:
 Target chooses baseline instruction set (default)
@@ -2749,6 +1239,7 @@ The threshold for immediates randomization and pooling
 This type of loop is not allowed
 ThreadCount
 Thursday
+Time
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -2777,28 +1268,16 @@ Type of vertex varying %s does not match that of the fragment varying
 Types for %s differ between vertex and fragment shaders
 Types for interface block '%s' differ between vertex and fragment shaders
 Types for uniform %s do not match between the vertex and fragment shader
-U(t	Ak
-U8D8;A
 UA>N0Wl
-UATAUAVAWH
-UAVAWH
 UNIMPLEMENTED: 
 UNKOWN ERROR: 
 USAGE: 
 USER32.dll
-USVWATAUAVAWH
-USVWAVH
 UTF-16LEUNICODE
 UTF-8
 UUUUU
 UUUUUU
-UUUUUUU
 UUUUUUUU
-UVWATAUAVAWH
-UVWATAVH
-UVWAVAWH
-UWATAVAWH
-UWAVH
 UmsThreadYield
 Unable to find a physical register for an infinite-weight live range (consider using -reg-reserve): 
 Unary operation not folded into constant
@@ -2835,27 +1314,6 @@ UpdateProcThreadAttribute
 Use all verbose options
 Use all verbose options except 'regalloc,global_init'
 Use sandboxing
-V6E>`"(5
-V8;Q8s
-V8;Q8s	I
-V8;Q8}
-V8;Q8}	I
-V8H;Q8s
-V8H;Q8}
-VD$Pf
-VT$PD
-VUUUH
-VUUUUUU
-VWATAUAVAWL
-VWATAVAW
-VWATAVAWH
-VWAUAVAWH
-VWAUH
-VWAVH
-VWAWH
-VWUSA
-VWUSH
-VWUSM
 Varyings packing failed: Too many varyings
 VerSetConditionMask
 Verbose options (can be comma-separated):
@@ -2867,30 +1325,11 @@ VertexCacheSize
 VertexID
 VertexRoutineCacheSize
 VertexShaderVersion
-VhH+V`H
 VirtualAlloc
 VirtualFree
 VirtualProtect
-W(H+W H
-W0;Ct~ZH
-W0H+W(H
-W8;P8s
-W8;P8}
-W8;Q8r
-W8;Q8|
-W8H;P8s
-W8H;P8}
-W8H;Q8r
-W8H;Q8|
-W8HcH
-W@H+W8H
 WARNING: 
-WATAUAVAWH
-WATAVH
-WATAWH
-WAVAWH
 WS2_32.dll
-W`;Ct~|H
 WaNd?
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -2899,39 +1338,17 @@ WakeAllConditionVariable
 WakeConditionVariable
 WebAssembly builder
 Wednesday
-Wh;Phu/
-WhI+W`H
 WideCharToMultiByte
 WinRTInitialization
 WriteConsoleW
 WriteFile
 Wrong symbol table level
-X E9j
-X!t5~
-X0H;y
+X/4B
 X?fff?;
-X@H+,
-XHH;\
-X[]_^
-X[]_^A\A]A^A_
-X[]_^A^A_
-X[_^A\A^A_
-X[_^A^
-Y$D;R
-Y(H;Y t
-Y0;S@u
-Y0t>H
+Y8a:
 Y>kX>M
 Y@Unrecognized use/exclude registers:
-YD$@f
-YXH;Y`t
-Yh9]hu
-Z(;Y(s
-Z(D9Z
-ZXH;Z`t
 Z\>z8
-Zod(^?
-Z|XM9
 [*ncd>0
 [*ncd>TQ
 [0;1;30m
@@ -2966,107 +1383,20 @@ Z|XM9
 [0;45m
 [0;46m
 [0;47m
-[]_^A\A]A^A_
-[]_^A\A]A^A_H
-[]_^A\A^A_
-[]_^A^
-[]_^A^A_
-[]_^A^H
-[_^A\A]A^A_
-[_^A\A^A_
-[_^A^
-[_^A^A_
 [aOni*{
-\$ E1
-\$ E3
-\$ H9
-\$ I)
-\$ L9
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ VWATAUAVH
-\$ WH
-\$$D9
-\$(E1
-\$(H9
-\$(H;
-\$(Hc
-\$/E 
-\$0D9
-\$0E1
-\$0H)
-\$0H;
-\$0eH
-\$0fA
-\$0t$H
-\$8E1
-\$8I9
-\$8I;
-\$8LcF
-\$8fD
-\$8t$H
-\$8u*I
-\$8|qE1
-\$<D2
-\$<Icn$I
-\$@H;
-\$@fD
-\$@s~E1
-\$@v2L
-\$HE1
-\$HHcD$4Ic
-\$PE1
-\$PE3
-\$PLc|$8Hct$4H
-\$Pu-H
-\$PuMH
-\$RD9
-\$XE1
-\$XH9\$P
-\$Xt-H
-\$Xt0
-\$Xt0H
-\$ZD9
-\$`D)
-\$`E1
-\$`Ic
-\$`vnH
-\$`~]1
-\$gm?
-\$hD;k
-\$hE1
-\$hH9^
-\$xE1
-\$xtgL
-\<%u	H
-\<%u	L
-\>$hkDh$h>
-\\\?\
-\ffff
-])6M>&
-]8;X8s
-]8;X8}
-]8;^8s
-]8;^8}
-]>)2X
-]XH;]`t
-^8;Z8s
-^8;Z8}
-^8_(t
+\nStarting computeAddressOpt for instruction:\n  
+\nh?oT
+\nk>oB
+\r\f\v\v\n\n\t\t\t\t\t
+\t9sv
+\tcQr
+\tkE>fvw
+\vA03>A|
+\veBV
+]u9g
 ^<V7w
 ^RfN>
-^pI;^h
-_(A;[(s
-_(H+_ H
-_(H9n
-_,A:\$,
-_@H+_8H
 _GLOBAL_OFFSET_TABLE_
-_L9WLu
-__FILE__
-__LINE__
 __Sz_bitcast_16xi1_i16
 __Sz_bitcast_8xi1_i8
 __Sz_bitcast_i16_16xi1
@@ -3121,16 +1451,7 @@ _nextafter
 _oD>Kg
 _sandbox_mem_reference not implemented for nonsfi
 _start
-`+!]?
-`.rdata
-`A^_^
-`A_A^A]A\_^]
-`A_A^_^[
 `RTTI
-`[]_^A\A^A_
-`[]_^A^
-`[_^A\A]A^A_
-`[_^A^A_
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -3140,7 +1461,6 @@ _start
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -3167,10 +1487,10 @@ _start
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a8Hck
+a6>r
 aarch64
-aarch64_H3
 abcdefghijklmnopqrstuvwxyz
+acos
 acosh
 add second child into first child
 address family not supported
@@ -3184,16 +1504,10 @@ allow-iaca-marks
 allow-pnacl-reader-error-recovery
 allow-uninitialized-globals
 already connected
-amd63
 amdfam10
-amdg3
-amdh3
-amdi3
 amdil64
-amdopencH3
 android
 androideabi
-applA3
 arc cosine
 arc hyperbolic cosine
 arc hyperbolic sine
@@ -3204,9 +1518,7 @@ argument list too long
 argument out of domain
 arm32
 arm32 (same as arm)
-arm63
 arm64
-arme3
 armv2
 armv2a
 armv3
@@ -3246,10 +1558,12 @@ array size must be a constant integer expression
 array size must be greater than zero
 array size must be non-negative
 array size too large
+asin
 asinh
 asm-verbose
 assign
 assume-ssa
+atan
 atan2
 atanh
 athlon-fx
@@ -3258,7 +1572,6 @@ athlon-tbird
 athlon-xp
 athlon64
 attribute
-b?^Cy
 bad address
 bad allocation
 bad array new length
@@ -3268,6 +1581,7 @@ bad function call
 bad locale name
 bad message
 barcelona
+base
 bdver1
 bdver2
 bdver3
@@ -3287,10 +1601,9 @@ bit-wise xor
 bit-wise xor second child into first child
 bitcode-as-text
 bitcode-format
-bitr3
 bonnell
+bool
 boolean expression expected
-bp(=>?g
 bpf_be
 bpf_le
 bpfeb
@@ -3304,9 +1617,6 @@ build-atts
 build-on-read
 built in unary operator function.  Type: 
 built-in functions cannot be redefined
-c [1>H'
-c(>\,
-c0&>`
 c?FA@s}
 cP>s#
 can't modify a const
@@ -3343,11 +1653,13 @@ cannot declare arrays of this qualifier
 cannot have 'enable' behavior
 cannot have 'require' behavior
 cannot use both gl_FragData and gl_FragColor
+case
 case label must be a scalar integer
 case label must be constant
 case label must have a condition
 case label type does not match switch init-expression type
 case labels need to be inside switch statements
+ceil
 centroid in
 centroid out
 checked='checked'
@@ -3356,9 +1668,16 @@ cl::alias must have argument name specified!
 cl::alias must only have one cl::aliasopt(...) specified!
 cl::location(x) specified more than once!
 clamp
-cloudabiH9
-code3
 column_major
+com1
+com2
+com3
+com4
+com5
+com6
+com7
+com8
+com9
 complementaryDepthBuffer=on
 component-wise multiply
 connection aborted
@@ -3376,6 +1695,8 @@ contiki
 continue statement only allowed in loops
 core2
 coreclr
+cosf
+cosh
 cosine
 count
 cpool
@@ -3383,31 +1704,13 @@ createLoweredMove() unimplemented
 cross
 cross device link
 cross-product
-cygn3
 cygnus
-cygw1
-cygw3
-d$ E1
-d$ E3
-d$(E1
-d$(r	
-d$,Hc
-d$0E1
-d$0Hc+I
-d$8E1
-d$8E;
-d$@E1
-d$@t&I
-d$DE;
-d$Hx7
-d$PE1
-d$PL;d$(|QI
-d$XD9
-d$`E1
-d$dtWH
-d$pM9
+d8-t
+d8L2
 d?000000`?
-darw3
+dFdx
+dFdy
+dRL>
 dddd, MMMM dd, yyyy
 ddraw.dll
 debug
@@ -3421,6 +1724,7 @@ degrees
 destination address required
 determinant
 device or resource busy
+diff
 direct index
 direct index for structure
 directory not empty
@@ -3434,12 +1738,10 @@ distance
 divide
 divide second child into first child
 division by zero
-dl0f;
 doMockBoundsCheck: Opnd contains index reg
-document.getElementById('profile').innerHTML = xhr.responseText;
+document.getElementById('profile').innerHTML = xhr.responseText;\n
 dot-product
 double
-dragonflH3
 dump-strings
 duplicate case label
 duplicate default label
@@ -3447,14 +1749,10 @@ duplicate field name in structure:
 duplicate function prototype declarations are not allowed
 duplicate macro parameter name
 e+000
-e0A_A^A]A\]
-e0A_A^]
-e8A_A^A]A\_^[]
-e@A_A^]
+eF>t
 eLK(w
-eabi3
-effffff
-elfiamcuH9
+elif
+else
 emit-revision
 emitFileHeader for non-ELF
 empty array declaration needs to specify a size
@@ -3476,75 +1774,26 @@ error
 eventObject
 exactColorRounding=on
 executable format error
+exit
 exit-success
+exp2
 expression
 extension
 extension directive must occur before any non-preprocessor tokens in ESSL3
 extension directive should occur before any non-preprocessor tokens
 externalize
 extraneous layout qualifier:
-f9)u H
-f9)uUH
-f9,Ju
-f9,Yu
-f9,~u
-f94H}7H
-f95~d
-f9<Bu
-f9<^u
-f9M`tVH
-f9t$bu
-f;4ju
-fA	@8
-fA	B8H
-fA9	t	I
-fA9,Au
-fA90u
-fA;l}
-fA;|m
-fB9,Nu
-fB94Ou
-fB9<@u
-fB9<@}eH
-fB9<Bu
-fB9<Hu
-fD9	t
-fD9	t(L
-fD9 t
-fD9!H
-fD9!u
-fD9$Hu
-fD9&u
-fD9)H
-fD9,Au
-fD90t
-fD94Fu
-fD94Gu
-fD94H}0L
-fD94Xu
-fD96u
-fD97t&
-fD98t
-fD98u
-fD9;u
-fD9<Au
-fD9t$b
-fE98t'
-fF9<qu
-fG9$Ou
-fJBGo
+fD>b
+fWi?
+fabs
 face-forward
 faceforward
-fals3
 false
-false case
+false case\n
 fatal error - scanner input buffer overflow
 fatal flex scanner internal error--end of buffer missed
 fatal flex scanner internal error--no action found
 fdata-sections
-fffff
-ffffff
-fffffff
 ffunction-sections
 field selection out of range '
 file exists
@@ -3563,7 +1812,9 @@ floatBitsToInt
 floatBitsToUint
 floor
 fmem-intrin-opt
+fmod
 fmodf
+fold
 force-O2
 forceClearRegisters=on
 forceWindowed=on
@@ -3582,15 +1833,12 @@ function definition not found
 function does not return a value:
 function name expected
 function not supported
-function request()
+function request()\n
 function return is not matching type:
 fwidth
 generic
 geode
 getaddrinfo
-gfffA
-gfffH
-gfffffffH
 glActiveTexture
 glAttachShader
 glBeginQuery
@@ -3914,33 +2162,19 @@ gl_VertexID
 global layout must be uniform
 global variable initializers must be constant expressions
 global_init
-gnuabi64H9
 gnueabi
-gnueabihH3
-gnux3
 greaterThan
 greaterThanEqual
-grexH	
+h0'D
 h>1my
-hA_A^A]A\_^][
-hHH;,
-h[]_^
-h[]_^A\A]A^A_
-h[]_^A\A]A^A_H
-h[]_^A^A_
-h[_^A\A^A_
-h[_^A^
-haik3
 haswell
+help
 help-hidden
 help-list
 help-list-hidden
 hexagon
-hh9jhu
-hh9nhu
 highp
 host unreachable
-hsai3
 hsail64
 hwdiv-arm
 hyperbolic cosine
@@ -3948,19 +2182,20 @@ hyperbolic sine
 hyperbolic tangent
 i16to8
 i32to8
+i386
+i486
 i64to8
 i686-pc-win32
-i8;j8s
-i8;j8}
 i8from
 i8fromah
-iXH;i`t
+i>VF
+iasm
 iblock-
 identifier removed
 identifier should not be declared as invariant
 identifier=%d
 identifiers containing two consecutive underscores (__) are reserved as possible future keywords
-if(xhr.readyState == 4 && xhr.status == 200)
+if(xhr.readyState == 4 && xhr.status == 200)\n
 ifdef
 ifndef
 illegal - vector component fields not from the same set
@@ -3982,6 +2217,7 @@ initialize first child with second child
 inity
 inout
 input
+inst
 instnum
 int bits to float
 intBitsToFloat
@@ -3996,7 +2232,7 @@ interface blocks must be uniform
 interface blocks supported in GLSL ES 3.00 only 
 internal error
 internal tokenizer error
-internalformat = %x, colorbufferFormat = %X
+internalformat = %x, colorbufferFormat = %X\n
 interpolation qualifier requires a fragment 'in' or vertex 'out' storage qualifier
 interrupted
 invalid
@@ -4041,6 +2277,7 @@ is a directory
 is being used
 is disabled
 is not supported
+is2a
 isampler2D
 isampler2DArray
 isampler3D
@@ -4050,97 +2287,21 @@ isnan
 it is an error to use 'centroid in' in the vertex shader
 it is an error to use 'centroid out' in the fragment shader
 itanium
-iu+-,
 ivybridge
 iwmmxt
 iwmmxt2
-j8;i8s
-j8;i8sGH
-j8;i8}
-j8;i8}GH
-j8;n8s
-j8;n8}
-j8H;i8s
-j8H;i8sHH
-j8H;i8}
-j8H;i8}HH
-j>>A?1
-j?V()
-j?{$*
-jthIi
-k H9k(
+k6-2
+k6-3
 k8-sse3
-k8H;h8s
-k8H;h8}
-k8H;n8s
-k8H;n8}
-kXI;k`t
+k=yI
 kalimba
 keep-deleted-insts
-kfreebsdH9
-l$ E1
-l$ E3
-l$ VWATAUAVAWE3
-l$ VWATAVAWH
-l$ VWAVH
-l$ r	
-l$ v_H
-l$(E1
-l$(H9
-l$(s8
-l$0E1
-l$0E3
-l$0H9
-l$0H;l$(
-l$0I)
-l$0Ic]$I
-l$0fB
-l$0te
-l$4E1
-l$4E;C
-l$4H9
-l$8E1
-l$8E3
-l$8H9
-l$8Ic]$I
-l$8L9
-l$8fD
-l$8tQE1
-l$@E1
-l$@H9
-l$@L;|$8u
-l$@fD
-l$HA_A^A]A\_^
-l$HH9
-l$HfD
-l$Ht$
-l$JE1
-l$PA_A^A]A\_^
-l$PE1
-l$PE;C
-l$PH9
-l$Pt9
-l$PtZA
-l$XB8t
-l$XE1
-l$XH9
-l$XM;l$PA
-l$]D9
-l$`E1
-l$`E;
-l$`fD
-l$hH9
-l$nE9
-l$oE1
-l$pE1
-l$pL9
-l$p~X1
-l*$D+l*,tDD+l*(
 label statement nested inside control flow
-lana3
+last
 layout
 layout qualifier
 layout qualifiers supported in GLSL ES 3.00 only
+lcse
 lcse-max-iters
 ldexp
 length
@@ -4157,8 +2318,11 @@ libGLES_CM_translator.dll
 libGLESv2.dll
 libGLESv2.dll.pdb
 libGLESv2_swiftshader
-linu3
+licm
+line
 list<T> too long
+live
+llvm
 llvm.
 llvm.bswap.i16
 llvm.bswap.i32
@@ -4209,33 +2373,43 @@ location must be non-negative
 location must only be specified for a single input or output variable
 location requires an argument
 log10
+log2
 logical-and
 logical-or
 logical-xor
 longjmp
+loop
 loop unrolled
-m8;i8t
-m8;k8r
-m8;k8|
-m8H;i8t
-m8H;k8r
-m8H;k8|
-mL+6H
-machA3P
+lowp
+lpt1
+lpt2
+lpt3
+lpt4
+lpt5
+lpt6
+lpt7
+lpt8
+lpt9
+m?H7
+mG4>
+m\nXo
 macho
-maco3
 macro invocation chain too deep
 macro name is reserved
 macro name with a double underscore is reserved - unintented behavior is possible
 macro redefined
 macro undefined while being invoked
+main
 main function cannot return a value
 main(
 map/set<T> too long
+mat2
 mat2x3
 mat2x4
+mat3
 mat3x2
 mat3x4
+mat4
 mat4x2
 mat4x3
 matrix
@@ -4255,47 +2429,35 @@ memmove
 memory exhausted
 memory reference contains base and index.
 memset
-mesa3
 message size
 method takes no parameters
 methods supported in GLSL ES 3.00 only 
-ming1
-ming3
-mini3
 mipmapQuality=%d
-mips3
+mips
 mips32
 mips32 (same as mips)
-mips64ebH9
-mips64elH9
-mipsalleH3
 mipsallegrexel
 mock-bounds-check
+modf
 modulo
 modulo second child into first child
+most
 move second child to first child
-msp43
+msvc
 multiply second child into first child
-musleabi
 must occur exactly one time!
 must use 'flat' interpolation here
-myriA3
-n!L+L$ I
 n03>Pu
-nD$<f
-nD$PD
-nL$Lf
-nT$<f
 n]?iJ
 nan(ind)
 nan(snan)
+near
 negative index
 nehalem
-netb3
+neon
 network down
 network reset
 network unreachable
-nh9hhu
 no buffer space
 no child process
 no link
@@ -4319,10 +2481,12 @@ no-ssa
 nocona
 node is still EOpNull!
 non-void function must return a value
+none
 nonsfi
 nop-insertion
 nop-insertion-percentage
 normalize
+not 
 not a directory
 not a socket
 not a stream
@@ -4332,33 +2496,16 @@ not enough memory
 not supported
 notEqual
 notranslate
-ntelD
-nvidA3
-nvpt3
 nvptx64
-o$A;h$
-o$sfD
-o(;k(s
-o(A;l$(
-o,tfD
-o0t$I
-o47fE
-o4pfD
-o<KfA
-oD$,f
-oD$0f
-oD$`fD
-oD$pf
+o9sp
+o?GS
 oI>O7
-oT$0f
 obwQ4
-ol$`f
 only allowed at global scope
 only has an effect on matrix types
 only location may have arguments
 only valid for interface blocks
 only valid on program inputs and outputs
-open3
 openbsd
 operation canceled
 operation in progress
@@ -4371,7 +2518,7 @@ operator co_await
 opteron
 optimization%d=%d
 optimize
-ot$ H
+orig
 out of dynamic memory in yy_create_buffer()
 out of dynamic memory in yy_get_next_buffer()
 out of dynamic memory in yyensure_buffer_stack()
@@ -4382,26 +2529,14 @@ outerProduct
 output
 overloaded functions must have the same parameter qualifiers
 overloaded functions must have the same return type
+owM&
 owner dead
-o|$0f
-p AWH
-p D9V
-p WAVAWH
-pA_A^A]A\_^[
-pA_A^A]A\_^]
 pContext
-pD$pNf
 pEvents
 pExecutionResource
 pF?5<f>
-pHcD$4H
 pScheduler
 pThreadProxy
-p[]_^A\A^A_
-p[]_^A^
-p[]_^A^H
-p[_^A\A]A^A_
-p[_^A^A_
 pack Snorm 2x16
 pack Unorm 2x16
 pack half 2x16
@@ -4420,51 +2555,56 @@ pentium4
 pentiumpro
 permission denied
 perspectiveCorrection=%d
-ph9qhu
 phi-edge-split
 pixel shader
 pixelRoutineCacheSize=%d
 pixelShaderVersion=%d
 platform
 pnacl
+pool
 postBlendSRGB=on
 powerpc
 powerpc64le
-powerpc6H3
+powf
 ppVirtualProcessorRoots
-ppc33
-ppc63
 ppc64le
 pragma
 precache=on
+pred
 predefined macro redefined
 predefined macro undefined
 prefix
 prescott
 print-all-options
 print-options
+proc
 protocol error
 protocol not supported
-q M9q(u
-q(9qD~[E3
-q8;r8s
-q8;r8}
-q8H;r8s
-q8H;r8}
-q8H;{
-q8Lco
 qS>g?h3
-qXH;q`t
-qXI;q`t
 qualifier not allowed on function parameter
 qualifier not allowed with 
 qualifier supported in GLSL ES 3.00 only 
-r	Vr.>T
-r	uAD;d$$u:
-r>@8o
-rBu/H
+r10b
+r10d
+r10w
+r11b
+r11d
+r11w
+r12b
+r12d
+r12w
+r13b
+r13d
+r13w
+r14b
+r14d
+r14w
+r15b
+r15d
+r15w
 rLp>B
-rPH+rHH
+r\n0\tP
+r\tVr.>T
 radians
 random
 randomize
@@ -4489,7 +2629,7 @@ reorder-functions
 reorder-functions-window-size
 reorder-global-variables
 reorder-pooled-constants
-request();
+request();\n
 require
 reserved built-in name
 resource deadlock would occur
@@ -4498,21 +2638,13 @@ restrict(
 result out of range
 return
 reverse-iterate
-ri9O vdH
 riscv32
 riscv64
 round
 roundEven
 row_major
-rtem3
-s WATAUAVAWH
-s WAVAWH
-s(+sPH
-s(+{PL
-s.H9l$P
-s3903
-s4+sP+
-sXH;s`t
+s2as
+sHF'
 sampler types are not allowed in interface blocks
 sampler2D
 sampler2DArray
@@ -4529,36 +2661,40 @@ samplers must be uniform
 sandbox
 sandybridge
 selected='selected'
-setTimeout('request()', 1000);
+setTimeout('request()', 1000);\n
 setjmp
 setupRoutineCacheSize=%d
+sext
 shadowMapping=%d
 shared
-shav3
 shift exponent is negative or undefined
 shufvec
+sign
 silvermont
+sine
+sinh
 skip-unimplemented
 skylake
 skylake-avx512
 smoothstep
 snan)
 solaris
-spar3
 sparc64
 sparcel
 sparcv9
-spir3
 split-global-vars
 split-inst
 split-local-vars
+sqrt
 sqrtf
+sse2
 sse4.1
 state not recoverable
 statement before the first label
 static assignment to both gl_FragData and gl_FragColor
 status
 std140
+step
 storage qualifier supported in GLSL ES 3.00 only 
 stoul argument out of range
 stream timeout
@@ -4569,151 +2705,28 @@ struct-
 structure
 structure has no fields
 structures containing arrays may not be declared constant since they cannot be initialized
-su	A;
-su	E;
 subtract
 subtract second child into first child
+succ
 sw-pixel
 sw-vertex
 swiftconfig
 swiftshader
 switch
 switchState
-sxu/H
-sxuIH
-sxutH
 syntax error
 system
 systemz
 sz-seed
 szstats
-t	;~ H
-t	H9\
-t	L9c
-t H9X8t]
-t!D;|$4v
-t"<.u
-t$ A9
-t$ E1
-t$ E3
-t$ H9
-t$ H94
-t$ UH
-t$ UWAUAVAWH
-t$ UWAVH
-t$ WATAUAVAW
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$ u=L
-t$(E1
-t$(I9
-t$(I;
-t$(t>1
-t$(tP
-t$(uOH
-t$(vCH
-t$,A9
-t$,H9F
-t$,tKH
-t$0E1
-t$0H9
-t$0Hc
-t$0I)
-t$0L9
-t$0fA
-t$0w H
-t$8E1
-t$8H+
-t$8H9
-t$8L9
-t$8f9L$`
-t$8rs
-t$@E1
-t$@L;t$8E
-t$@|NH
-t$A8P
-t$DE1
-t$HA_A^A]A\_
-t$HE1
-t$HI+
-t$HL;
-t$PE1
-t$PL9
-t$Pv1N
-t$QD9
-t$UD9
-t$Xt-H
-t$Xt.I
-t$XtFH
-t$XtGI
-t$YD9
-t$`;w
-t$`E1
-t$`H9
-t$`Hc
-t$`I9
-t$aD9
-t$eD9
-t$jD9
-t$pE1
-t$pH9\$ u
-t$xE1
-t$xfD
-t$xtf
-t&A88t
-t'D8d$8t
-t'fA;
-t'fE9
-t(B;\ 
-t*H9p8u$@8
-t+H;E
-t,<tt
-t.8\$P
-t/D8e
-t/I;1t
-t/L9w
-t4I;1t
-t4~ ;
-t5H;}
-t5HcP
-t:H;^
-t:H;n
-t:H;s
-t:H;w
-t:H;~
-t;LcF
-t<ffff
-t=H90t
-t?8_:t
-t?D+d$4L
-t?H95
-t?I;9t
-t@LcM
-tA8_:t
-tAI9u
-tB<%t>A
-tDH;GHt>
-tEHcN
-tELcC
-tG8\$ u08\$!t*E
-tH<%tD
-tKI;D
-tNH;\$ t
-tNL9h0tTH
-tQMcL$
-tQfD9 tK
-tRLcY
-tSIcX
-tSf91tNH
-tTD8c:u0M
+tanf
 tangent
+tanh
 target
-tcel3
 ternary operator is not allowed for structures or arrays
 test-stack-extra
 test-status
-tested first
+tested first\n
 texelFetch
 texelFetchOffset
 text file busy
@@ -4744,16 +2757,11 @@ textureSampleQuality=%d
 textureSize
 threadCount=%d
 threads
-thum3
 thumbeb
 timed out
 timing
 timing-focus
 timing-funcs
-tlLcA
-tlMcH
-tlfD9A
-tn<jtZA
 toString() called when hasStdString() is false
 token too long
 too many arguments
@@ -4766,41 +2774,11 @@ transcendentalPrecision=%d
 translate-only
 transparencyAntialiasing=%d
 transpose
-true case
-true case is null
+true
+true case is null\n
+true case\n
 trunc
-ttIcF
-tvLcK
-tyfD9 tsH
-t}H;.u
-t}H;3u
-t}H;7u
-t}H;>u
-u	9o$
-u D9~
-u HcA<H
-u!!D$(H
-u!LcB D
-u"HcMHH
-u%!D$@H
-u&L#l$8t
-u'L;k
-u(8J(t
-u)!t$(H
-u/L#l$8t(
-u1!D$0H
-u2A8D
-u3HcH<H
-u4D9~
-u4I9}(
-u6HcP8
-u8z6H
-uXH;u`t
-uY8\$ t
-u\H9D
-ub'vb'v
-ue!T$(H!T$ 
-uhI+u`H
+uint
 uint bits to float
 uintBitsToFloat
 ujGs?
@@ -4838,43 +2816,44 @@ unpackUnorm2x16
 unrecognized pragma
 unsupported type
 unterminated macro invocation
+us2a
 usampler2D
 usampler2DArray
 usampler3D
 usamplerCube
-usfD9I
-uxHcOP
 uzKs@>
-u~9t$Xt
-u~LcW
-v0D8eou\H
 v16i1
 v16i8
 v2!L.2
 v4f32
+v4i1
 v4i32
-v6s-3
+v5te
+v6-m
+v6kz
+v6t2
+v7-a
+v7-m
+v7-r
 v7e-m
+v7em
+v8-a
 v8-m.base
 v8-m.main
+v8-r
 v8.1-a
-v8.13
 v8.1a
 v8.2-a
-v8.23
 v8.2a
+v8i1
 v8i16
 v8m.base
-v8m.baseH9
 v8m.main
-v8m.mainH9
-v@A;^Hr
 value too large
-var xhr = new XMLHttpRequest();
+var xhr = new XMLHttpRequest();\n
 variable expected
 variables with qualifier 'const' must be initialized
 varying
-vb'vb'v
 vector
 vector field selection out of range
 vector field selection out of range '
@@ -4892,29 +2871,16 @@ vertex shader
 vertexCacheSize=%d
 vertexRoutineCacheSize=%d
 vertexShaderVersion=%d
+void
 void function cannot return a value
-v}`[>
-w Hc@ 
-w(H9t$@t!
-w(HcODI
-w3IcD
-wSs\H
-wYs_H
+warn
+wasm
 wasm-bounds-check
 watchos
 westmere
 while
-win33
 windows
 wrong protocol type
-x ATAVAWH
-x AVAWE3
-x AVAWL
-x AVE3
-x AVH
-x AVHcA
-x AWH
-x UAVAWH
 x32 for unsandboxed 64-bit x86
 x86-32
 x86-32 (same as x8632)
@@ -4922,141 +2888,33 @@ x86-64
 x86-64 (same as x8664)
 x8632
 x8664
-x86_3
 x86_32
 x86_64
 x86_64h
-x@H+\
-xMHcC
-xWI96tRI
-xX/u0H
-xX/u4H
-xXH;x`t
-x[]_^
-x[]_^A\A]A^A_
-x[]_^A^A_
-x[_^A\A^A_
-x[_^A^
-xcor3
-xhH;xp
-xhr.onreadystatechange = function()
-xhr.open('POST', '/swiftshader/profile', true);
-xhr.send();
+xT?V
+xhr.onreadystatechange = function()\n
+xhr.open('POST', '/swiftshader/profile', true);\n
+xhr.send();\n
+xmm0
+xmm1
 xmm10
 xmm11
 xmm12
 xmm13
 xmm14
 xmm15
+xmm2
+xmm3
+xmm4
+xmm5
+xmm6
+xmm7
+xmm8
+xmm9
 xpxxxx
-xsca3
 xscale
-xscaleebH9
 xwpwpp
-y8H;z8s
-y8H;z8}
-yBNu'
-yBgt	3
-yH;YXtl
-yXH;y`t
-y\PD>!
 yonah
 yyset_column called with no buffer
 yyset_lineno called with no buffer
 z>Enable -time-passes memory tracking (this may be slow)
-zHL9zP
-zY;>u:m	
-{ ATAVAWH
-{ AVH
-{ tjL
-{(du'H
-{@I;T$pt
-{r1?H
-{w8&-
-|#tAM
-|$ AVH
-|$ D!
-|$ E1
-|$ E3
-|$ H)
-|$ H9
-|$ L9
-|$ UATAUAVAWH
-|$ UH
-|$ fA
-|$":us
-|$$L9
-|$(A^
-|$(E1
-|$(H)
-|$(L9
-|$,;o$
-|$0@"
-|$0A_A^
-|$0E1
-|$0E3
-|$0H)
-|$0H9
-|$0I)
-|$0L9
-|$8;3
-|$8E1
-|$8H9
-|$8fD
-|$8t)H
-|$8tPH
-|$<+t"
-|$<.t#
-|$<2t#
-|$<it
-|$<~)H
-|$?E1
-|$@-D
-|$@-H
-|$@E1
-|$@E;
-|$@H9
-|$@fD
-|$@t&L
-|$A@8
-|$HE1
-|$HH9
-|$HHc
-|$Ht!H
-|$Ht$H
-|$H~nJ
-|$I@8
-|$P-H
-|$PE1
-|$PM9
-|$P~*1
-|$VD9
-|$XE3
-|$XHcU
-|$Xt-H
-|$Xt:H
-|$Xu7I
-|$\.u
-|$`CI
-|$`E1
-|$`I9
-|$`fD
-|$`~z
-|$fD9
-|$h9i
-|$h9w
-|$hE1
-|$lHc
-|$pE1
-|$pI9
-|(tFM
-|b=})>
-}XH;}`t
-~ $s%r
-~L$ H
-~^Oc\
-~`D8I!t-
-~hI;~ptF@
-~kHcF
-~oHcD$LH
-~yHcF

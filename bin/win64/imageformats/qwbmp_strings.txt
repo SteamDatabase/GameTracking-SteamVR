@@ -1,6 +1,3 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- H3E H3E
-!This program cannot be run in DOS mode.
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AVQImageIOHandler@@
@@ -24,6 +21,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -44,16 +42,18 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
+2\vpV0
+7\n?constScanLine@QImage@@QEBAPEBEH@Z
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QImage@@QEAA@$$QEAV0@@Z
 ??0QImage@@QEAA@AEBV0@@Z
@@ -72,22 +72,8 @@
 ??4QImage@@QEAAAEAV0@$$QEAV0@@Z
 ??4QImage@@QEAAAEAV0@AEBV0@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?constScanLine@QImage@@QEBAPEBEH@Z
-?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fill@QImage@@QEAAXI@Z
 ?format@QImage@@QEBA?AW4Format@1@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?getChar@QIODevice@@QEAA_NPEAD@Z
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
@@ -97,22 +83,13 @@
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?warning@QMessageLogger@@QEBAXPEBDZZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-@.data
-@.qtmetad,
-@.reloc
-@A^_^
-@SUVWAVH
-AVAWH
-AuthD
 CloseHandle
 CreateEventW
-D$(H;
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
 FK?imageCount@QImageIOHandler@@UEBAHXZ
 FU?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
-GenuA
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
@@ -125,21 +102,14 @@ IsProcessorFeaturePresent
 K?height@QImage@@QEBAHXZ
 K?invertPixels@QImage@@QEAAXW4InvertMode@1@@Z
 KERNEL32.dll
-L$(H;
-L$0E3
 L?isNull@QImage@@QEBA_NXZ
 L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 LeaveCriticalSection
-M H1E
 M?loopCount@QImageIOHandler@@UEBAHXZ
-MetaData
-MimeTypes
 N?name@QImageIOHandler@@UEBA?AVQByteArray@@XZ
 O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-QTMETADATA  qbjs
 QWbmpHandler::canRead() called with no device
 QWbmpPlugin
 Qt5Core.dll
@@ -156,12 +126,24 @@ SleepConditionVariableCS
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-VWAVH
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Z?width@QImage@@QEBAHXZ
-\$ UH
+\\n?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?getChar@QIODevice@@QEAA_NPEAD@Z
+\n?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\r?fill@QImage@@QEAAXI@Z
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -179,26 +161,16 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 bad allocation
 bad array new length
-className
-debug
-ffffff
-hA_A^
-image/vnd.wap.wbmp
+free
 malloc
 memset
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
-pA^_^][
 qt_plugin_instance
 qt_plugin_query_metadata
 qwbmp.dll
-t$ WH
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-|$ AVH
+wbmp

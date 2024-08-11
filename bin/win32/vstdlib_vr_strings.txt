@@ -1,15 +1,7 @@
-	 m}!B
-	#jT$
                           
    ! " % & ' : < G H I 
- !"#$%&'()*+,-.
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- &   ! 
- 3d?f
- 5 9 
- 9(X`
- Ad?!
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -17,53 +9,27 @@
  Gbps
  Kbps
  Mbps
- SVW3
- Tc?]
  Type Descriptor'
- Wh\Tc?PV
- Xa?CXa?
- _^[]
+ bps
  bytes
- d?	$
- d?	0
- d?	4
  delete
  delete[]
- new[]
-!6"t%
-!S{a!J
-"%s" : %s
+ new
+!AxU
 ".dll
-"0*0/0?0I0n0
-"B <1=
-#.X'=
-$-d?S
-$101:1A1t3
-$@c?RPh
-$Ac?]_^[
-$Ac?_^[]
-$Rc?]
-$Tc?]
+#FLR
+#tDq
+$\nY8O
 %$%a%b%V%U%c%Q%W%]%\%[%
-%$Ac?
-%%.%if%s
-%,Ac?
-%.*s://%s
 %.18g
 %0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
-%4%,%
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
 %<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
-%S#[k
-%s (%u)
+%lld
 %s not implemented
-%s overflow!
-%s=%s
-%u : %u
-&#039;
-&0$0"
+%s overflow!\n
 &AElig;
 &Aacute;
 &Acirc;
@@ -88,6 +54,7 @@ $Tc?]
 &Oslash;
 &Otilde;
 &Ouml;
+&Sgw
 &THORN;
 &Uacute;
 &Ucirc;
@@ -105,6 +72,7 @@ $Tc?]
 &atilde;
 &auml;
 &brvbar;
+&bzi
 &ccedil;
 &cedil;
 &cent;
@@ -167,38 +135,13 @@ $Tc?]
 &yacute;
 &yen;
 &yuml;
-'1h1l1p1t1x1|1
-'Symantec Time Stamping Services CA - G2
-'Symantec Time Stamping Services CA - G20
 ( 8PX
-(0d?{
-(DigiCert SHA2 Assured ID Code Signing CA
-(DigiCert SHA2 Assured ID Code Signing CA0
-(Sc?]
 (main)
 (no name set)
 (none)
 (null)
-)\ZEo^m/
-*	5|z
-+Symantec Time Stamping Services Signer - G40
-+ab?3ab?;ab?Eab?Kab?Qab?Uab?[ab?7ab?`ab?
-+g@#I
-+http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
-+http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
 +ulsX
-,!10	
-,)d?C
-,/$`,
-,0%e5
-,0<	v#
-,0<	w
-,0<	w 
-,>d? 
-,|%)v
--&B'-
-----------------------------------------
--jd_;
+----------------------------------------\n
 .00cfg
 .?AV?$CUtlHashMap@PBD_NVCDefCaselessStringEquals@@UHashFunctorStringCaseless@@@@
 .?AV?$CUtlLinkedList@UCommandLineParam_t@CCommandLine@@H@@
@@ -245,10 +188,10 @@ $Tc?]
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
-.http://crl.thawte.com/ThawteTimestampingCA.crl0
 .idata$2
 .idata$3
 .idata$4
@@ -258,429 +201,58 @@ $Tc?]
 .rdata$r
 .rdata$sxdata
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.t	H;
-.text
 .text$di
 .text$mn
 .text$yd
-.u&8\1
 .xdata$x
-////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////
-/http://crl3.digicert.com/sha2-assured-cs-g1.crl05
-/http://crl4.digicert.com/sha2-assured-cs-g1.crl0K
-0 080D0H0L0h0l0
-0 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-0 d?;$
-0!0'0,0G0Q0W0q0v0{0
-0#0;0R0
-0$0<0L0P0X0p0
-0%060;0A0K0P0[0g0r0{0
-0%212;2B2
-0&0/0?0K0X0
-0&101
-0'0,0
-0(0I0[0m0
-0(2-232f2
-0)04090>0Y0c0
-0+0l0q0w0
-0,151>1L1U1h1I2i2s2
+.y4w
 0,d?M
 0-d?y
 0123456789ABCDEF
 0123456789abcdef
-01W1n1
-061110000000Z
-062Q2
+01d?
 0;0A0C0E0G0I0c0
-0;0k0
-0@0H0^0l0
-0@c?]
-0E0O0p0
-0G2R2b2u2
-0Rc?]
-0Tc?]
-0W0\0k0q0
-0j1o1u1
-0qc?3
-0r0^1
-0r2w2}2
+0F`8
+0\n0\f0
+0\t0\v0\r0
+0d?F
+0d?p
 0x%4.4X is both the source and destination of a normalization mapping
-1 1%1.151
-1!1+1
-1#1-12171
+0xc?
+0yc?
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1)191A1I1
-1$1,141<1D1L1T1\1d1l1t1|1
-1%1,131:1A1H1O1V1]1d1k1r1y1
-1%2*202P3a3f3{3
-1(2.262M2a2
-1*11171
-1,101@1D1L1d1
-1.191>1C1d1t1
-101E1f1
-121018000000Z
-121221000000Z
-131022120000Z
-141@1\1h1t1
-145<8D8{8
-150925000000Z
-152?2
-180419211938Z0#
-181003120000Z0M1
-181=1J1V1o1
-181C1P1b1
-1>1`1o1v1
-1G2\2e2n2~2
-1O1v1
-1P2Y2z2
-1Q4n4
-1T2Y2_2
+1c?h
 1d?sinh
-1j2{2
-2 2(20282@2H2P2X2`2h2p2x2
-2!2(2/262=2D2K2R2Y2`2h2l2p2t2x2|2
-2#2(2-2K2n2y2
-2#2,212Q2V2|2
-2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2x2|2
-2$2,242<2D2L2T2\2d2l2t2|2
-2$2.282Q2V2[2
-2(242@2L2X2d2p2|2
-2*3S3|3
-201229235959Z0b1
-201230235959Z0^1
-22393c6X7`7
-242a2o2
-281022120000Z0r1
-2?2^2t2~2
-2D3W3
-2J2O2g2l2r2
 2c?,2c?
-3	3@3E3
-3 3$3!4Q4{4
-3 3(3,3034383<3@3D3L3P3T3X3\3`3d3h3t3|3
-3 3(30383@3H3P3X3`3h3p3x3
-3 3k3p3v3
-3!3-32383=3K3O3a3h3o3z3~3
-3!4G4
-3#3*373x3
-3$3,343<3D3L3T3\3d3l3t3|3
-3$303<3H3T3`3l3x3
-3&3b3x3
-3'343L3
-3'393E3U3n3
-3(444
 30!]^JV
-3074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-311110000000Z0e1
-31363L3Q3
-353d3
-3A4F4L4e4p4
-3A4r4
-3L4S4
-3Q465I5N5d5i5
-3T6`6j6q6
-3U5a5k5r5
-3V4[4
-3X465}5
-3X4f4k4
-3v5{5
-4	5V5[5a5
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4(40484@4H4P4X4`4h4p4x4
-4 4,484D4P4\4h4t4
-4$4,444<4D4L4T4\4d4l4t4|4
-4$585o5z5
-4$5D5
-4%454F4
-4'5,525[5`5f5
-4(4>4G4R4Y4y4
-4*6E6[6q6y6
-4,51575u5|5
-404c4
-415q5
-44494
-4468373P
-4;4B4^4e4|4
-4A4j4
-4Ac?W
-4H5_5u5
-4Sc?]
-4Tc?]
-4X4d4q4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
-4o5@6
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5(50585@5H5P5X5`5h5p5x5
-5 6/646I6N6i6q6}6
-5"5B5Q5`5h5r5
-5$5,545<5D5L5T5\5d5l5t5|5
-5$545D5M5^5o5w5~5
-5$@c?f
-5'505F5
-5(525<5F5P5Y5c5h5m5s5x5~5
-5(545@5L5X5d5p5|5
-5(6l6
-5-5Z5
-5.7H7b7
-50301
-50676A6H6e6s6}6
-515<5
-535I5
-585T5X5t5x5
-5=5n5
-5@ke?W
-5B5c5h5n5J6P6V6a6g6
-5Genu
+49fN
+4Ad?
+52F*
+5M[g
 5T&w&
-5\Qc?
-5f6m6x6|6
-5ineI
-5j6o6u6
 5s3R6=
-5y62797a7{7
-5y:,;
-6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-6 6(60686@6H6P6X6`6h6p6x6
-6 6<6@6`6
-6!6'656A6G6S6`6x6
-6"7'7-7
-6"727W7o7t7z7
-6$6,646<6D6L6T6\6d6l6t6|6
-6$606<6
-6$676<6B6
-6&626>6Q6p6
-6'7,7
-6)6H6Q6V6\6j6p6z6
-6*7`7
-6/646;6B6I6P6X6\6`6d6h6l6
-6<7d8
-6=6L6b6x6
-6D9P9Z9a9D;P;Z;a;
-6F7M7_7h7
-6L6S6c6r6y6
-6X7_7i7p7
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7(70787@7H7P7X7`7h7p7x7
-7 7@7L7h7
-7 8[8p8z8
-7#7+7E7P7V7[7i7w7}7
-7$7,747<7D7L7T7\7d7l7t7
-7$71767;7D7I7N7W7]7s7y7
-7$8)8/8E:]:a:h:m:{:
-7&7-7U7a7k7r7
-7-7;7g7
-7/7S7
+6 PQ
 700WP
-70757|7
-7;7s7
-7@7D7H7L7t;x;
-7N8V8c8
-7S7X7q7
-7X7t7
-7X8]8c8
-7\8a8
-7b7g7m7
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
-7l8q8w8
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8(80888@8H8P8X8`8h8p8x8
-8 8U8f8
-8!8'898C8
-8"8,828c8o8v8
-8(8H8h8
-8+999>9T9Y9
-8-9b;~;
-8/9:9A9K9R9`9d9h9l9
-8/9\9w9
-80604
-808_8
-868I8^8
-879J9_9
-8<8p8
-8=;Y;];a;e;i;m;q;u;y;};
-8A9L9Q9\9b9q9y9~9
-8D;W;u;
-8K8[8
-8S9m9r9
-8T9t9
-8Tc?]
-8Uc?S
-8] j0
-8fe?p``?
-8ke?[
-8qc?|
-8qc?~
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9"9E;Q;[;b;5=A=K=R=(?4?>?E?
-9#909
-9#9:9]9x9
-9#9K9_9m9
-9$;2;7;>;O;T;
-9*9<9N9j9
-9,9W9e9
-9.939:9O9T9l9s9/:4:::d:h:l:p:t:
-9/9e9
-93:;:H:
-969E9P9X9i9s9z9
-97;<;B;
-9<\t*</t&
-9<\t/</t+
-9E WW
-9G9R9G;z;
-9P9X9
-9Q:]:i:s:z:
-9U:Z:
-9_^[]
-9`9e9k9
-9b<|<
-9ke?[
-: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-:!:j:o:u:
-:";.;
-:#:/:\:
-:$:+:<:@:D:H:
-:&:-:2:7:@:E:J:S:Y:d:
-:&;-;7;a;
-:'No)b
-:.:8:E:O:_:
-:1;6;<;U;\;c;
-:3;F;[;
-:3;[<
-:4:L:P:W:\:b:v:|:
-:4;@;J;Q;
-:8:R:
-:K:]:
-:_;u;
-:_^[]
-; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-; <D<d<
-;!;9;
-;$;.;8;B;L;V;_;i;n;s;y;};
-;&;-;T;d;=?d?{?
-;(;7;
-;(<6<;<B<S<X<
-;/;X;
-;1=h=o=t=x=|=
-;3<8<><
-;:<?<E<
-;;;h;
-;O@}w
-;R;d;
-;V<\<
-;X } 
-;_;f;p;w;
-;a=i=
-;q }#
-;t$,v-
-;w }\
-;w }b
-;y }I
-<	=/=;=E=L=T=d=
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-< <$<c<v<
-< t1<	t-
-<!<a<f<l<
-<!=Y=l=
-<"<(<d<
-<$<><C<J<_<d<|<
-<'<D<
-<(<=<O<]<c<~<
-<)=5=I=U=a=
-<+t(<-t$
-<,<C<W<|<
-<,<L<Q<y<~<
-<,=0=4=8=<=@=D=H=L=P=T=X=
-<-d?g
+7~8A
+81d?
+8\foQS
+8xc?
+8yc?
+8zc?
+9a&g
 </script>
-</t	<\t
-</th<?td<#t`<:u
-</u	:F
-<1<G=f=k=W>a>
-<1<\t
-<4>@>J>Q>
-<9~}<-ty<_tu<.tq
-<?u*C
-<Q=y=
-<T=`=j=q=
-<[=`=f=
-<\t	</t
-<\t </t
-<\t&</t"N
-<empty>
-<et	<pu
-<j<s<
-<xt"<Xt
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-= =~=
-=!>&>,>W>^>m>s>
-=#=(=>=C=W=\=
-=#=4===^=f=
-=#>C>H>N>t>y>
-=$=)=4=?=S=
-=$>:>L>d>
-=$ie?
-=&=7=C=_=
-='=H=M=f=k=x=
-=(=8=<=L=P=T=\=t=
-=-=2=s=x=W?
-=/=V=c=o=t=
-=0B0H0{0
-=0qc?3
-=:>F>P>W>
-===E=y=
-=G>h>o>
-=I=j=o=z=
-=K>l>
-=P>f>
-=Y>o>
-=\=b=j=|?
-=`>e>k>
-=l>q>w>
-=xee?|
->	>'>/>
-> >$>(>,>
-> >$>(>,>0>4>8><>@>D>H>
-> ?&?0?7?
->!>&>N>S>
->">E>O>
->"hcS
->#>2>.?_?
->$>,>4><>D>
->%>G>Y>
->(>8><>L>P>T>\>t>
->*>P>|>
->,>r>
->0?Z?b?
->;y@}
->>?Z?u?
->A>x>
->R>W>]>
->R?W?]?
->U?Z?`?
->_^[]
-? ?0?<?l?z?
-?"?'?3?9?K?P?V?
-?$?)?
-?(?8?<?L?P?T?\?t?
-?)?0?
-?.?6?]?v?
-?.?7?<?A?e?q?v?{?
-?0,/1a,
-?4j<=
+<PSU
+<empty>\n
+=87M
 ?5Wg4p
 ??0?$CDbgFmtSafeImplT@$00@@QAE@PAUDbgFmtFatalMsgTag_t@@PBD@Z
 ??0?$CDbgFmtSafeImplT@$00@@QAE@PBD@Z
@@ -711,7 +283,6 @@ $Tc?]
 ??_FCGaussianRandomStream@@QAEXXZ
 ?AddProfileForThread@CVProfManager@@QAEPAVCVProfileThreadEntry@@PAVCVProfile@@II@Z
 ?AttachToStream@CGaussianRandomStream@@QAEXPAVIUniformRandomStream@@@Z
-?C;0=
 ?ClaimArrayMemory@CValidator@@QAEXPAX@Z
 ?ClaimMemory@CValidator@@QAEXPAX@Z
 ?Dj0Q:W$=
@@ -739,8 +310,6 @@ $Tc?]
 ?LockForWrite@CThreadRWLock@@QAEXXZ
 ?Normalize@CStringNormalization@@SAH_NPBDPADH@Z
 ?Normalize@CStringNormalization@@SAH_NPBGPAGH@Z
-?O?u?
-?P?b?t?
 ?Pop@CValidator@@QAEXXZ
 ?Push@CValidator@@QAEXPBDPAX0@Z
 ?RandomChar@CUniformRandomStream@@UAEDXZ
@@ -789,68 +358,27 @@ $Tc?]
 ?V_stristr@@YAPBDPBD0@Z
 ?ValidateStatics@CStringNormalization@@SAXAAVCValidator@@PBD@Z
 ?ValidateStatics@CURLUtils@@SAXAAVCValidator@@PBD@Z
-?]tfS
 ?d? ra?vstdlib_s.dll
 ?{fHn
-@.data
-@.reloc
 @0d?i
-@3d?f
-@Rc?]
-@Sc?]
-@Tc?]
-@b;zO]
-@c?1E
-@c?_^
-@d?$@d?
-@d?X@d?
-@ke?]
-@u,hP
-A1<Fu
 A@qVc"
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ACADEMY
 ACCOUNTANTS
 ACTIVE
 ACTOR
+AERO
 AGENCY
 AIRFORCE
 ARCHI
+ARMY
+ARPA
+ASIA
 ASSOCIATES
 ATTORNEY
 AUCTION
 AUDIO
 AUTOS
-Ac?;E
-Ac?PV
-Ac?VV
-Ac?^]
-Ac?_[
-Ac?_[]
-Ac?_^
-Ac?_^[
-Ac?_^[]
-Ac?_^]
-Ac?h Fc?
-Ac?h"
-Ac?h%
-Ac?h,
-Ac?h0Fc?
-Ac?h6
-Ac?h:
-Ac?h<Cc?V
-Ac?h<Cc?W
-Ac?h@6c?
-Ac?hA
-Ac?hB
-Ac?hG
-Ac?hR
-Ac?hV
-Ac?hb
-Ac?hh
-Ac?hw
-Ac?jH
-Ac?u2
 Ad?X@d?
 April
 AssertMsgImplementation
@@ -972,37 +500,33 @@ Assertion Failed: str
 Assertion Failed: str != NULL
 Assertion failed: length > k_cchMaxString
 August
-B 02CV
 BARGAINS
 BAYERN
-BBF;u
-BC .=
+BEER
 BERLIN
+BEST
 BHanIdeograph
+BIKE
 BLACK
 BLACKFRIDAY
+BLUE
 BOUTIQUE
 BRUSSELS
 BUILD
 BUILDERS
-BVj(j
-Bc?SVW
-Bc?VW
-Bc?W}
-Bc?^]
-Bc?htBc?
-Bellevue1
-Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
-Bucket size : count
-C =02CVu
-C;^8u
+BUZZ
+Bucket size : count\n
+C-Yn
 CAMERA
+CAMP
 CANCERRESEARCH
 CAPETOWN
 CAPITAL
 CARDS
+CARE
 CAREER
 CAREERS
+CASH
 CATERING
 CCoroutine
 CCoroutineMgr
@@ -1013,6 +537,7 @@ CHEAP
 CHRISTMAS
 CHURCH
 CITIC
+CITY
 CKeyValuesSystem
 CKeyValuesSystem::AddStringToPool: key name too long (%u chars)
 CKeyValuesSystem::AddStringToPool: out of memory
@@ -1021,6 +546,7 @@ CLAIMS
 CLEANING
 CLINIC
 CLOTHING
+CLUB
 CMemoryPool
 CMemoryPool::AddNewBlob: mode == GROW_NONE
 CMemoryPool::Alloc: ran out of memory
@@ -1036,6 +562,8 @@ CONSTRUCTION
 CONSULTING
 CONTRACTORS
 COOKING
+COOL
+COOP
 COUNTRY
 CREDIT
 CREDITCARD
@@ -1051,7 +579,7 @@ CanBreakRepeated
 CanEndLine
 CharLowerBuffW
 CloseHandle
-Command line options:
+Command line options:\n
 CommandLine
 CorExitProcess
 Coroutine_Cancel
@@ -1070,10 +598,6 @@ CreateFileW
 CreateInterface
 CreateVProfile
 D*d?J
-D0B07
-D0Q0U0Z0_0e0x0
-D@c?3
-D@c?P
 DANCE
 DATING
 DAd?LAd?
@@ -1082,6 +606,7 @@ DEGREE
 DEMOCRAT
 DENTAL
 DENTIST
+DESI
 DIAMONDS
 DIGITAL
 DIRECT
@@ -1089,12 +614,11 @@ DIRECTORY
 DISCOUNT
 DOMAINS
 DURBAN
+D\vvf:
 DebugStatsSystem
 December
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-Durbanville1
+Dzc?
 EDUCATION
 EMAIL
 ENGINEER
@@ -1110,22 +634,21 @@ EnterCriticalSection
 Error
 Error State on string being set.
 ExitProcess
-F 9F$
-F(_[^
-F1<at
-F1<gt
-F2jgYf;
-F4^[]
-F;w@|
+FAIL
+FARM
+FCZ&
 FEEDBACK
+FEMh\f
 FINANCE
 FINANCIAL
+FISH
 FISHING
 FITNESS
 FLIGHTS
 FLORIST
 FOUNDATION
 FROGANS
+FUND
 FURNITURE
 FUTBOL
 Failed to get sector size for drive file %s is on, not using unbuffered IO
@@ -1143,10 +666,9 @@ FoldStringW
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G$_^[]
-G;~8u
-G@^_[
 GALLERY
+GENT
+GIFT
 GIVES
 GLASS
 GLOBAL
@@ -1157,13 +679,7 @@ GREEN
 GRIPE
 GUIDE
 GUITARS
-GWVj	
-Gc?h Ic?
-Gc?h(Kc?
-Gc?h0Jc?
-Gc?h<Hc?
-Gc?h\Gc?
-Gc?h\Hc?
+GURU
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -1202,24 +718,26 @@ GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
 GetVersionExA
+H$6t
 H*0"ZOW
 H-d?f
-H0F08
-H@c?]
+H1d?
 HAMBURG
+HAUS
 HH:mm:ss
 HIPHOP
 HOLDINGS
 HOLIDAY
 HOMES
 HORSE
+HOST
 HOUSE
-HTc?]
 HeapAlloc
-Ht$;}
+Hxc?
 IMMOBILIEN
 IND)ind)S
 INDUSTRIES
+INFO
 INITY
 INSTITUTE
 INSURE
@@ -1237,40 +755,45 @@ Is64BitOS
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
-J0V0`0g0I1W1e1s1
 JETZT
+JOBS
 JOBURG
 JUEGOS
 JZJ{.
-J`? K`?
 January
+July
+June
 KAUFEN
 KERNEL32.dll
 KITCHEN
+KIWI
 KOELN
+KRED
 K`?@L`?@L`?pL`?
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
 KeyValuesSystem()
 KeyValuesSystemSteam
-L d?	(
 L0d?o
 L1d? 
-L@c?]
 LACAIXA
+LAND
 LAWYER
-LAc?3
 LCMapStringEx
 LCMapStringW
 LEASE
+LGBT
+LIFE
 LIGHTING
 LIMITED
+LIMO
+LINK
 LOANS
 LONDON
 LOTTO
-LSc?]
+LUXE
 LUXURY
 L`?VEngineCvar002
-Leaked KeyValues (%u):
+Leaked KeyValues (%u):\n
 LeaveCriticalSection
 Linux
 Linux 2.2
@@ -1290,15 +813,22 @@ Linux 4.x
 LoadLibraryExW
 LocaleNameToLCID
 Lyc>=
+Lyc?
 MAISON
 MANAGEMENT
 MANGO
 MARKET
 MARKETING
 MEDIA
+MEET
 MELBOURNE
+MENU
+MGiI
 MIAMI
+MINI
 MM/dd/yy
+MOBI
+MODA
 MONASH
 MORTGAGE
 MOSCOW
@@ -1319,36 +849,27 @@ MacOS 10.7
 MacOS 10.8
 MacOS 10.9
 March
-Memory leak: mempool blocks left in memory: %d
+Memory leak: mempool blocks left in memory: %d\n
 Monday
 MultiByteToWideChar
 NAGOYA
+NAME
 NAN(IND)
 NAN(SNAN)
+NAVY
 NEUSTAR
 NINJA
 NULL buffer passed to V_atof()
 NULL buffer passed to V_atoi()
 N`?PN`?c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\debugstatssystem.cpp
-N`?pO`?
-Nj)[f9
-Nl,"=
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s
 November
 OKINAWA
 ORGANIC
 OSTypesAreCompatible
-Oc?h<fe?hD
-Oc?htee?h
 October
-OjlZ;
 P.d?X
-P=d?\=d?
-P>d?\>d?
-P?d?\?d?
-P@c?_
-P@d?X@d?
-PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+P1d?\f
 PARIS
 PARTNERS
 PARTS
@@ -1356,22 +877,17 @@ PHOTO
 PHOTOGRAPHY
 PHOTOS
 PHYSIO
+PICS
 PICTURES
+PINK
 PLACE
 PLUMBING
-PP9E u:PPVWP
-PPPPP
-PPPPPPPP
-PPPPPWS
-PQh(Nc?V
+POST
 PRAXI
 PRESS
 PRODUCTIONS
 PROPERTIES
-PRc?]
-Parameter file '%s' not found, skipping...
-Pc?h0
-PhlNc?
+Parameter file '%s' not found, skipping...\n
 Plat_ExitProcess
 Plat_GetProcessArgv
 Plat_IsInDebugSession
@@ -1379,13 +895,10 @@ Plat_OutputDebugString
 Plat_OutputDebugStringRaw
 Plat_RelativeTicks
 PureClass
-Pvc?t
-QQSVW
-QQSWj0j@
+Pxc?
+Pzc?
+QPON
 QUEBEC
-QVWSj
-Qh\Mc?
-QhxOc?P
 Qkkbal
 QueryPerformanceCounter
 R1h58
@@ -1397,43 +910,43 @@ RENTALS
 REPAIR
 REPORT
 REPUBLICAN
+REST
 REVIEWS
+RICH
 ROCKS
 RODEO
-RQa?|Qa?
 RSDSHl#
+RUHR
 RYUKYU
 RaiseException
 ReadFile
-Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)
+Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)\n
 RtlUnwind
 SAARLAND
 SCHMIDT
 SCHULE
+SCOT
 SERVICES
+SEXY
 SHIKSHA
 SHOES
 SINGLES
+SKyu
 SNAN)
 SOCIAL
 SOFTWARE
+SOHU
 SOLAR
 SOLUTIONS
 SPACE
 SPIEGEL
-SSSSS
-SSVWh 
 SUPPLIES
 SUPPLY
 SUPPORT
+SURF
 SURGERY
 SUZUKI
-SVW8A
-SVWUj
-SVWt+
-SVjA[jZ^+
 SYSTEMS
-Sa?PTa?
 Saturday
 Seeking to a position which is not sector aligned will break unbuffered io
 September
@@ -1445,55 +958,45 @@ SetFileTime
 SetLastError
 SetStdHandle
 SetUnhandledExceptionFilter
-Sh,Ec?V
-ShTIc?
+Sm"\vg
 StringAfterPrefix
 StringAfterPrefixCaseSensitive
 StringFindSuffix
 Sunday
-Symantec Corporation100.
-Symantec Corporation1402
+T1d?\v
 TATTOO
 TECHNOLOGY
 TIENDA
+TIPS
 TIROL
 TODAY
 TOKYO
 TOOLS
+TOWN
+TOYS
 TRADE
 TRAINING
 TRAVEL
 T`?Pb`?Pc`?pW`?`W`?0X`?
-T`?String pool bytes used %u, max %u, %u pools
-Ta?-Ta?
-Target buffer for V_URLEncode should be 3x source length, plus one for terminating null
-Target buffer too short
-Target buffer too short to terminate
+T`?String pool bytes used %u, max %u, %u pools\n
+Target buffer for V_URLEncode should be 3x source length, plus one for terminating null\n
+Target buffer too short to terminate\n
+Target buffer too short\n
 TerminateProcess
-Thawte Certification1
-Thawte Timestamping CA0
-Thawte1
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
 ThreadImplOneTimeInit
 Thursday
-TimeStamp-2048-10
-TimeStamp-2048-20
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Total number of strings %u, longest string size %u, avg size %u
-Total of %u buckets with %u hash collisions
-Tt.jh^;
-Tt1jhZ;
+Total number of strings %u, longest string size %u, avg size %u\n
+Total of %u buckets with %u hash collisions\n
 Tuesday
 UNIVERSITY
-UQPXY]Y[
-URPQQh0
 USER32.dll
 UUUUU
-UVa?}Va?
 Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
 Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
 UnhandledExceptionFilter
@@ -1507,10 +1010,11 @@ VILLAS
 VISION
 VLAANDEREN
 VODKA
+VOTE
 VOTING
+VOTO
 VOYAGE
 VStdLib_GetICVarFactory
-VWuF3
 V_AggressiveStripPrecedingAndTrailingWhitespace
 V_AggressiveStripPrecedingAndTrailingWhitespaceW
 V_AppendParamToURL
@@ -1661,22 +1165,19 @@ V_wcsncpy
 V_wcstoi64
 V_wcstoui64
 V_whextobinary
-Valve0
-Valve1
+Vc0a
 VerSetConditionMask
 VerifyVersionInfoW
-W8^.u:
-W8^0u:
-WARNING: unable to link %s and %s because one or more is a ConCommand.
+WANG
+WARNING: unable to link %s and %s because one or more is a ConCommand.\n
 WATCH
 WEBCAM
 WEBSITE
 WHOSWHO
+WIEN
+WIKI
 WILLIAMHILL
 WORKS
-WSVPP
-WWWPWS
-Wa?fXa?
 Warning
 WeakRandomChar
 WeakRandomFillMemory
@@ -1687,8 +1188,6 @@ WeakRandomSeed
 WeakRandomUint32
 Web Client
 Wednesday
-Western Cape1
-WhTTc?PV
 WideCharToMultiByte
 Windows
 Windows 10
@@ -1708,10 +1207,11 @@ Windows ME
 Windows NT
 Windows Vista
 Windows XP
-Wj0XPV
 WriteConsoleW
 WriteFile
 WriteMiniDump
+X/4B
+X0d?
 XN--3BST00M
 XN--3DS443G
 XN--3E0B707E
@@ -1777,33 +1277,23 @@ XN--XKC2DL3A5EE0H
 XN--YFRO4I67O
 XN--YGBI2AMMX
 XN--ZFR164B
-XSc?]
-Xqc?j
-Xu*f;
+Xxc?
+Xyc?
+Xzc?
 YACHTS
 YANDEX
 YOKOHAMA
-Y_[^]
-Y__^[
-Ya?)Za?
-Z* ,	
-Za?.[a?
-Za?wYa?
-[-&LMb#{'
+ZONE
+Zjz\v
 [aOni*{
-\.d?Y
-\/:"<>|?*
-\/:*?"<>|
-\0d0l0t0|0
-\a?)]a?
-\a?U]a?
-\vnO^
+\fO4W
+\nYg:a
+\rRoOs
+\tcQr
 ]JldN
-]jxdE
-^$+^8+
 ^<V7w
-^`?P``?
 _DMsg
+_UaX
 __cdecl
 __clrcall
 __eabi
@@ -1819,15 +1309,7 @@ _cabs
 _hypot
 _logb
 _nextafter
-` /`?
-`-d?m
-`.rdata
-`<C$Y
-`? &`?p%`?
-`?0)`?
 `RTTI
-`Rc?]
-`Tc?'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1837,7 +1319,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -1848,7 +1329,6 @@ _nextafter
 `omni callsig'
 `placement delete closure'
 `placement delete[] closure'
-`qc?;
 `scalar deleting destructor'
 `string'
 `tun%
@@ -1867,8 +1347,13 @@ _nextafter
 `virtual displacement map'
 a?CPathString
 a?c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
+a\rxg[
 abcdefghijklmnopqrstuvwxyz
+acos
+asin
+atan
 atan2
+b,uZ
 b?INF
 bwiO'
 c:\buildslave\vrpanorama_main_win32\build\src\public\tier1\bitstring.h
@@ -1892,41 +1377,27 @@ c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\parseurl.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\stringnormalize.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools_unicode.cpp
-c?,Ec?
 c?__based(
-c?h`ra?
-c?j P
-c?t	f;
-c?t'@
+ceil
 console
+cosh
 d!d?a
-d?0Mc?j
+d1d?
+d8L2
 d?4Ad?
-d?@=d?
-d?@>d?
-d?@?d?
-d?@@d?
-d?Vj 
-d?Wj 
-d?h 5c?
-d?j Y
 d?pAd?
-dQc?]
-dSc?]
+dQy/
 dddd, MMMM dd, yyyy
-dfe?j
-e"d" #!#
+dyc?
+dzc?
 e+000
-e?j Y+
-e?t*j
 eLK(w
 f.N%H
-f9:t!V
-f;F,t
-f<\u<h
+fabs
 floor
+fmod
 frexp
-g0e0*
+gAY:
 gCURLUtils_hashTLDs
 g_VProfManager
 g_VProfile
@@ -1936,102 +1407,26 @@ g_dwDllEntryThreadId
 g_mapPairs
 g_pMemAllocSteam
 getcwd_utf8
-h 6c?
-h Ed?
-h Lc?W
-h(Fd?
-h(Gd?
-h(Pc?h
-h(Pc?h<fe?h
-h(Pc?htee?hx
-h,Ec?P
-h0Ec?
-h0Hd?
-h0Pc?h
-h0Pc?h Qc?
-h0Pc?hxPc?
-h4Lc?htLc?
-h8Ec?P
-h<Cc?V
-h<Cc?W
-h<Fc?
-h@Ed?
-h@}c?hT}c?P
-hHCc?h
-hHCc?hhFc?
-hHFd?
-hHpc?
-hLFc?
-hP6c?
-hPGd?
-hPHd?
-hPTc?P
-hTTc?
-hTTc?Q
-h`Ed?
-h`~`?
-hab?j
-hdIc?
-hdKc?
-he?PPj
-he?PV
-he?hH
-hhDc?h
-hhDc?h@Ec?
-hhDc?hxEc?
-hhFd?
-hhTc?h
-hhpc?h
-hh}c?hT}c?P
-hlQc?
-hpGd?
-hpHd?h
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0N
-http://ocsp.thawte.com0
-http://ts-ocsp.ws.symantec.com07
-https://www.digicert.com/CPS0
-hxIc?
-hxpc?P
-h|Hc?P
-h|Kc?h
-h|Qc?j
+h0'D
+h0d?
+hxc?
+i]Wb
+if\fg
+ig,o
 inity
 invalid input pointer
-iu+-,
-j Y;E
-j%Zf9
-j-Xf;
-j0Xf;
-j0Yf;
-j0Zf;
-j:Xf;
-j:Zf;
-jAXf;
-jAZjX
-jAZjZ^
-jA_f;
-jGYf;
-jShhTc?h
-jXXf;
-jZXf;
-j]Yf9
-j][f;
-j`hhDc?h
-jgYjG
-jh$ie?
-l!;b	F
+k2U\v
+k=yI
 l,d?N
-l@c?3
-lAc?^
-lAc?^[_
-lAc?_^[
-lAc?h
-lRc?]
+l1d?
+lDa>
+lEd/
 ldexp
 linux
 log10
-m0k0$
+lzZ?
+lzc?
+m\nXo
 m_Elements
 m_HashItemMemPool
 m_LeakTrack
@@ -2050,92 +1445,37 @@ m_vecParms
 m_vecParms[i]
 macos
 memoverride.cpp
+modf
+mwa!
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
-nTotal number of strings %u, longest string size %u, avg size %u
+nTotal number of strings %u, longest string size %u, avg size %u\n
 nan(ind)
 nan(snan)
-nc?h$oc?
-nc?hHoc?
 obwQ4
 operator
 operator "" 
 operator co_await
 out of order normalization entry
-p d?	,
-p0n05
-p1f3q>
-p2t2x2|2
-pAc?h
-pSc?]
-pc?~"
+owM&
+pCRF
+pxc?
+pyc?
 qR5FE%
-r&SRQP
-r.=i 
-r1h@Oc?j
-rMf;M
-rU=/ 
-r_f;M
-r`f;M
-r`f;U
 restrict(
-rqf;M
-rr	jrZ
-rvf;M
-rvf;U
-s	j0h@
-s	j5h
-s	jVh
-s&j9hH
-s&jFh
-s6j/V
+ru&o
 script
 snan)
+sqrt
 steam://openurl/
 steam://openurl_external/
-t	j-Xf
-t hpBc?h Bc?
-t!d?_^[
-t!hTTc?V
-t&WhXTc?PV
-t&WhdTc?RV
-t(WhXTc?RV
-t(Wh`Tc?RV
 t)d?k
-t,j:W
-t0jXXf
-t3=f 
-t4SWV
-t;RQS
-t<WSP
-t@c?h	
-tAc?^
-tAc?^[2
-tAc?_^[
-tEj\V
-tFVSP
-tM</tIWVh<
-tPWQRV
-t`RQV
-teG;}
+t1d?
+tanh
 test string
-tf<.u[8A
-tfe?SVW
+the 
 tier0_vr.dll
-tr;},sm
-u RPj
-u SPj
-u WPRR
-u WQj
-u(hpoc?
-u,hpoc?
-u-PWWS
-u-jAXf;
-u-jAXj
-u0jAXf;
 unknown
 unsupported flags 0x%x passed to CFileReader::BOpenFile
-v	N+D$
-v0z0~0
 v2!L.2
 vstdlib_vr.dll
 vstdlib_wcsicmp
@@ -2143,48 +1483,17 @@ vstdlib_wcsnicmp
 vstdlib_wcstoi64
 vstdlib_wcstoui64
 w+OQvr
-w4wRh{3
-w@;wD
-w@;wD|
-wIPS3
-wc?r	f;
+wXR\r
 windows
 wn>Jj
-www.digicert.com1$0"
-www.digicert.com110/
 x,d?t
-x0v0$
-x7;5 
-x:;{ }5
-x=d?0K`?
-xAc?3
-xRc?]
-xSc?]
-xg;5 
+x0d?
 xpxxxx
-xwc?t
-y3+.{
-ya?`{a?`{a?`{a?
-z0x0:
+xxc?
+xyc?
+xzc?
+y9*O
 zC`G;
 {%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
 {%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
-{c?h 
-{c?h(
-{c?h<
-{c?h<|c?
-{c?h@~c?
-{c?hH
-{c?hX
-{c?h\|c?
-{c?h`
-{c?hh
-{c?hp~c?
-{c?h||c?
-{c?h|}c?
-|;,	=
-|@c?3
-}e?=D
-~ $s%r
-~$+~8+
-~0WPQ
+{kHw

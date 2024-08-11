@@ -1,19 +1,9 @@
-					
-							
-								
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
-*.(		
-*.( 	
-*.(!	
-*.("	
-*.(#	
 .ctor
-.text
+6\r85
 <Module>
-@.reloc
 AcceptP2PSessionWithUser
 ActivateActionSet
 ActivateGameOverlay
@@ -73,6 +63,7 @@ BIsVACBanned
 BLoggedOn
 BOverlayNeedsPresent
 BReleaseSteamPipe
+BSJB
 BSecure
 BShutdownIfAllPipesClosed
 BUpdateUserData
@@ -392,6 +383,7 @@ EWorkshopFileAction
 EWorkshopFileType
 EWorkshopVideoProvider
 EWorkshopVote
+E\r47
 EnableHeartbeats
 EnableLooped
 EnablePlayNext
@@ -402,6 +394,7 @@ EnableShuffled
 EncryptedAppTicketResponse_t
 EndAuthSession
 EndInvoke
+Enum
 EnumerateFollowingList
 EnumeratePublishedFilesByUserAction
 EnumeratePublishedWorkshopFiles
@@ -428,6 +421,7 @@ FileWriteStreamClose
 FileWriteStreamOpen
 FileWriteStreamWriteChunk
 Finalize
+Find
 FindLeaderboard
 FindOrCreateLeaderboard
 ForceHeartbeat
@@ -740,6 +734,7 @@ ISteamUserStats
 ISteamUtils
 ISteamVideo
 IndicateAchievementProgress
+Init
 InitGameServer
 InitiateGameConnection
 InstallDLC
@@ -820,6 +815,7 @@ PasteFromClipboard
 Pause
 PersonaStateChange_t
 PingServer
+Play
 PlayNext
 PlayPrevious
 PlayerDetails
@@ -917,6 +913,7 @@ RunCallbacks
 RunFrame
 RuntimeCompatibilityAttribute
 RuntimeTypeHandle
+S\rp8
 ScreenshotReady_t
 SendClanChatMessage
 SendDataOnSocket
@@ -1799,6 +1796,7 @@ TriggerHapticPulse
 TriggerItemDrop
 TriggerRepeatedHapticPulse
 TriggerScreenshot
+Type
 UGCDownload
 UGCDownloadToLocation
 UGCRead
@@ -1841,8 +1839,8 @@ VolumeHasChanged_t
 WasRestartRequested
 WrapNonExceptionThrows
 WriteScreenshot
+Zero
 _CorDllMain
-`.rsrc
 actionSetHandle
 analogActionHandle
 appID
@@ -2035,6 +2033,7 @@ flValue
 flVolume
 flZoom
 friendsGroupID
+func
 gameID
 gameserveritem_t
 hAPICall
@@ -2055,16 +2054,19 @@ hSteamLeaderboardEntries
 hSteamPipe
 hSteamUser
 hSteamuser
+hUGC
 hUser
 handle
 handlesOut
 iAchievement
+iApp
 iCachedContent
 iCallback
 iCallbackExpected
 iChatID
 iClan
 iCoplayFriend
+iDLC
 iDefinition
 iFile
 iFriend
@@ -2073,6 +2075,7 @@ iGame
 iHeartbeatInterval
 iImage
 iIteratorPrevious
+iKey
 iLobby
 iLobbyData
 iMember
@@ -3181,6 +3184,7 @@ pHeaderValueBuffer
 pInstanceIDs
 pItemDefIDs
 pJoinClanChatRoomCompletionResult_t
+pKey
 pLeaderboardEntry
 pLeaderboardFindResult_t
 pLeaderboardScoreUploaded_t
@@ -3193,6 +3197,7 @@ pMatchCloudFileName
 pNetAdr
 pNotificationBuffer
 pNumberOfCurrentPlayers_t
+pOut
 pOutBuffer
 pOutItemsArray
 pOutResultHandle
@@ -3331,6 +3336,7 @@ pnChatting
 pnConnPort
 pnFileSizeInBytes
 pnHeight
+pnIP
 pnInGame
 pnNumViewers
 pnOnline
@@ -3441,6 +3447,7 @@ unFlags
 unGameServerIP
 unGameServerPort
 unHeight
+unIP
 unIPClient
 unIPServer
 unMaxAgeSeconds

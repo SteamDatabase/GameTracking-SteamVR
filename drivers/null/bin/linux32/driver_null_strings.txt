@@ -1,20 +1,17 @@
+ for detail.\n
 %llu
 ' is not a number.
-*
-,
 /proc/self/exe
 14CNullHmdLatest
 18CClientDriver_Null
 18CServerDriver_Null
-:
 A valid JSON document must be either an array or an object value.
-All
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 CXXABI_1.3
 ConstIterator to Iterator should never be allowed.
-Could not instantiate settings. Using default values
+Could not instantiate settings. Using default values\n
 Duplicate key: '
 Empty escape sequence in string
 Error from reader: %s
@@ -28,7 +25,6 @@ GLIBC_2.0
 GLIBC_2.1
 GLIBC_2.1.3
 GLIBC_2.2.4
-GNU
 HmdDriverFactory
 IClientTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_001
@@ -51,6 +47,7 @@ N4Json10CharReaderE
 N4Json10FastWriterE
 N4Json10LogicErrorE
 N4Json12RuntimeErrorE
+N4Json12StreamWriter7FactoryE
 N4Json12StreamWriterE
 N4Json12StyledWriterE
 N4Json13OurCharReaderE
@@ -63,14 +60,14 @@ None
 Null Driver
 Null Model Number
 Null Serial Number
-See
+See 
 Syntax error: value, object or array expected.
 Type is not convertible to string
 Unable to parse token length
-Using settings values
+Using settings values\n
 VR_FORCE_NULL_DRIVER
-VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
 Value is not convertible to Int.
 Value is not convertible to Int64.
 Value is not convertible to UInt.
@@ -78,18 +75,6 @@ Value is not convertible to UInt64.
 Value is not convertible to bool.
 Value is not convertible to double.
 Value is not convertible to float.
-[
-[.
-[]
-\"
-\\
-\b
-\f
-\n
-\r
-\t
-\u
-]
 _Jv_RegisterClasses
 _ZNKSs4findEcj@@GLIBCXX_3.4
 _ZNKSs5rfindEcj@@GLIBCXX_3.4
@@ -189,7 +174,6 @@ _edata
 _end
 _fini
 _init
-aN
 abort
 abort@@GLIBC_2.0
 additional six characters expected to parse unicode surrogate pair.
@@ -198,6 +182,8 @@ allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
+assert json failed
+basic_string::_S_construct null not valid
 basic_string::substr
 chdir
 chdir@@GLIBC_2.0
@@ -215,14 +201,14 @@ double out of Int64 range
 double out of UInt range
 double out of UInt64 range
 driver_null
-driver_null: Display Frequency: %f
-driver_null: ID: %s
-driver_null: IPD: %f
-driver_null: Model Number: %s
-driver_null: Render Target: %d %d
-driver_null: Seconds from Vsync to Photons: %f
-driver_null: Serial Number: %s
-driver_null: Window: %d %d %d %d
+driver_null: Display Frequency: %f\n
+driver_null: ID: %s\n
+driver_null: IPD: %f\n
+driver_null: Model Number: %s\n
+driver_null: Render Target: %d %d\n
+driver_null: Seconds from Vsync to Photons: %f\n
+driver_null: Serial Number: %s\n
+driver_null: Window: %d %d %d %d\n
 dropNullPlaceholders
 enable
 enableYAMLCompatibility
@@ -233,7 +219,6 @@ fclose
 fclose@@GLIBC_2.1
 fopen
 fopen@@GLIBC_2.1
-for detail.
 fprintf
 fprintf@@GLIBC_2.0
 fputs
@@ -253,7 +238,6 @@ getcwd
 getcwd@@GLIBC_2.0
 getenv
 getenv@@GLIBC_2.0
-id
 in Json::Value::asCString(): requires stringValue
 in Json::Value::clear(): requires complex value
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -271,7 +255,6 @@ in Json::Value::resolveReference(): requires objectValue
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 indentation
-ipd
 keylength >= 2^30
 ld-linux.so.2
 libGL.so.1
@@ -311,7 +294,6 @@ pthread_mutex_unlock
 pthread_mutex_unlock@@GLIBC_2.0
 pthread_once
 pthread_once@@GLIBC_2.0
-rb
 readlink
 readlink@@GLIBC_2.0
 rejectDupKeys
@@ -337,26 +319,26 @@ std::__throw_bad_cast()
 std::__throw_length_error(char const*)
 std::__throw_logic_error(char const*)
 std::__throw_out_of_range(char const*)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_ios<char, std::char_traits<char> >::~basic_ios()
-std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
-std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, int)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
-std::basic_streambuf<char, std::char_traits<char> >::~basic_streambuf()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned int, unsigned int)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned int, char, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::append(unsigned int, wchar_t)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_string()
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned int, unsigned int)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ios<char, std::char_traits<char>>::~basic_ios()
+std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)
+std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_istringstream()
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, int)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::basic_streambuf<char, std::char_traits<char>>::~basic_streambuf()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned int, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned int, unsigned int)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned int, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_empty_rep_storage
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::append(unsigned int, wchar_t)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_string()
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned int, unsigned int)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const
 std::ctype<char>::_M_widen_init() const
 std::exception::~exception()
 std::ios_base::ios_base()
@@ -365,7 +347,7 @@ std::istream& std::istream::_M_extract<double>(double&)
 std::locale::locale()
 std::locale::~locale()
 std::ostream::operator<<(int)
-std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*)
+std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char>>*)
 std::string::_M_leak_hard()
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
 std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&)
@@ -421,16 +403,12 @@ vsnprintf
 vsnprintf@@GLIBC_2.0
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-w
-wb
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
 windowHeight
 windowWidth
 windowX
 windowY
-{
-{}

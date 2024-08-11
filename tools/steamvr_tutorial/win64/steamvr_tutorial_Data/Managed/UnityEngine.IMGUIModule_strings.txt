@@ -1,18 +1,12 @@
-	,=r-
-	character
-	modifiers
-	textColor
  Modules/IMGUI/GUISkin.bindings.h
  Unity.IntegrationTests.Framework
  UnityEngine.CrashReportingModule
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!	$U$k$
 !GetGUIManager().GetGUIPixelOffset
 !GetGUIManager().SetGUIPixelOffset
 !Modules/IMGUI/GUIStyle.bindings.h
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -41,7 +35,6 @@
 !UnityEngine.ImageConversionModule
 !UnityEngine.SharedInternalsModule
 !UnityEngine.UnityWebRequestModule
-"$";"`"
 "Assembly-CSharp-firstpass-testable
 "GetGUIState().FocusKeyboardControl
 "GetGUIState().SetNameOfNextControl
@@ -51,7 +44,6 @@
 #GUITexture::IsManualTex2SRGBEnabled
 #Strings
 #UnityEngine.UnityTestProtocolModule
-$7$B$
 $73E3k3
 $GUITexture::SetManualTex2SRGBEnabled
 $Modules/IMGUI/GUIDebugger.bindings.h
@@ -61,7 +53,6 @@ $Unity.InternalAPIEngineBridgeDev.003
 $Unity.InternalAPIEngineBridgeDev.004
 $Unity.InternalAPIEngineBridgeDev.005
 $UnityEngine.UnityWebRequestWWWModule
-$|%_-q-
 %GetGUIState().GetNameOfFocusedControl
 %Unity.IntegrationTests.UnityAnalytics
 &Please use 'text' instead of 'content'
@@ -70,8 +61,8 @@ $|%_-q-
 (Runtime/Camera/RenderLayers/GUITexture.h
 (UnityEngine.UnityWebRequestTextureModule
 )Modules/IMGUI/GUILayoutUtility.bindings.h
-*'A"Z
 *EndGroup has no effect and will be removed
+*Hp1
 *Oi9y
 *Use Used instead (UnityUpgradable) -> Used
 +GetGUIRoundedRectWithColorPerBorderMaterial
@@ -79,23 +70,18 @@ $|%_-q-
 ,GetGUIState().m_CanvasGUIState.m_IsMouseUsed
 ,UnityEngine.UnityWebRequestAssetBundleModule
 ,Use KeyUp instead (UnityUpgradable) -> KeyUp
-.!+'~
-.'+-~
 .9i9h
-.O+R~S
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .Use Ignore instead (UnityUpgradable) -> Ignore
 .Use Layout instead (UnityUpgradable) -> Layout
 .cctor
 .ctor
-.text
 0Use KeyDown instead (UnityUpgradable) -> KeyDown
 0Use MouseUp instead (UnityUpgradable) -> MouseUp
 0Use Repaint instead (UnityUpgradable) -> Repaint
 233{3
 2GUITexture has been removed. Use UI.Image instead.
 2GetGUIState().m_CanvasGUIState.m_GUIClipState.Clip
-3*z- 
 4GetGUIState().m_CanvasGUIState.m_GUIClipState.Unclip
 4Use MouseDown instead (UnityUpgradable) -> MouseDown
 4Use MouseDrag instead (UnityUpgradable) -> MouseDrag
@@ -111,7 +97,7 @@ $|%_-q-
 8Use ScrollWheel instead (UnityUpgradable) -> ScrollWheel
 9%9+939?9G9M9U9^9u9
 9GetSpecificGUIState(0).m_EternalGUIState->GetNextUniqueID
-:.:4:S:c;
+9i9g
 :GetGUIState().m_CanvasGUIState.m_GUIClipState.ClipToWindow
 ;GetGUIState().m_CanvasGUIState.m_GUIClipState.GetUserMatrix
 <GetGUIState().m_CanvasGUIState.m_GUIClipState.GetVisibleRect
@@ -126,9 +112,10 @@ $|%_-q-
 <scrollViewStates>k__BackingField
 <wantsMouseEnterLeaveWindow>k__BackingField
 <wantsMouseMove>k__BackingField
-@.reloc
 @GetGUIState().m_CanvasGUIState.m_GUIClipState.GetParentTransform
-@o@(W
+@XXV
+AG"Z
+AZX"
 Action
 Activator
 AddMilliseconds
@@ -146,9 +133,10 @@ AssignStyleState
 AsyncCallback
 AttributeTargets
 AttributeUsageAttribute
+Az"b
 BHx8N
+BSJB
 BUse HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
-Background
 BackgroundColorScope
 Backspace
 Begin
@@ -167,6 +155,7 @@ BindingFlags
 BringWindowToBack
 BringWindowToFront
 BuildStyleCache
+CA@\fO
 CalcMouseRects
 CalcScreenSize
 CalcTotalHorizSpacing
@@ -176,6 +165,7 @@ CallWindowDelegate
 Camera
 CanPaste
 CapsLock
+Ceil
 CharacterType
 CheckForTabEvent
 CheckOnGUI
@@ -255,7 +245,6 @@ EditorBrowsableAttribute
 EditorBrowsableState
 EndArea
 EndClip
-EndContainer
 EndContainerGUIFromException
 EndGUI
 EndGUIFromException
@@ -265,6 +254,8 @@ EndLayoutGroup
 EndScrollView
 EndVertical
 EnsureValidCodePointIndex
+Enum
+Eo\fA
 Equals
 Euler
 EventCommandNames
@@ -283,6 +274,7 @@ EyeDropperClicked
 EyeDropperUpdate
 FGetGUIState().m_CanvasGUIState.m_GUIClipState.GetAbsoluteMousePosition
 FeatureRemoved
+Find
 FindEndOfClassification
 FindEndOfPreviousWord
 FindNextSeperator
@@ -298,6 +290,7 @@ Floor
 FocusControl
 FocusType
 FocusWindow
+Font
 FontStyle
 Format
 FrameSelected
@@ -344,12 +337,10 @@ GUIToScreenPoint
 GUIToScreenRect
 GUIUtility
 GUIWordWrapSizer
-GenerateProxy
 GenericStack
 GetChanged
 GetControlID
 GetControlID_Injected
-GetCopyBuffer
 GetCustomAttributes
 GetEnumerator
 GetEventCount
@@ -357,7 +348,6 @@ GetGUIBlendMaterial
 GetGUIBlitMaterial
 GetGUIDebuggerManager()
 GetGUIRoundedRectMaterial
-GetGUIState()
 GetGUIState().m_OnGUIDepth
 GetGUIState().m_PixelsPerPoint
 GetGUIStyleState
@@ -418,8 +408,8 @@ ImageLeft
 ImageOnly
 ImagePosition
 IndexOfEndOfLine
+Init
 InitKeyActions
-InputBindings
 Insert
 Int32
 IntPtr
@@ -509,17 +499,21 @@ IsLetterOrDigit
 IsLowSurrogate
 IsNullOrEmpty
 IsOverSelection
-IsThreadSafe
 IsValidCodePointIndex
 IsWhiteSpace
 J9% 2
 J9)6+
 J976/
+J9G 
 J9S  
-J9_ %
+J9V#
+J9\f8D
+J9\r1)
 J9h '
+J9l#
 J9l#)
 J9s +
+J9t%
 KeyCode
 KeyDown
 KeyUp
@@ -533,11 +527,11 @@ LayoutFromInspector
 LayoutSingleGroup
 LayoutType
 LayoutedWindow
+Lerp
 LetterLike
 List`1
 LogBeginProperty
 LogBeginProperty_Injected
-LogEndGroup
 LogEndProperty
 LogError
 LogLayoutEndGroup
@@ -546,9 +540,11 @@ LogLayoutEntry_Injected
 LogLayoutGroupEntry
 LogLayoutGroupEntry_Injected
 LogWarning
+M4!H
 MakeCurrent
 MapKey
 MarkGUIChanged
+Math
 Mathf
 Matrix4x4
 MaxValue
@@ -592,6 +588,7 @@ MoveWordRight
 MulticastDelegate
 N!v5-
 N!v;d
+Name
 Name GUIStyle_Bindings::Internal_CopyT
 Name GUIStyle_Bindings::Internal_DrawT
 Name!GUIStyle_Bindings::Internal_Draw2T
@@ -605,7 +602,7 @@ Name#GUIStyle_Bindings::Internal_DestroyT
 Name$GUIStyle_Bindings::Internal_CalcSizeT
 Name&GUIStyle_Bindings::Internal_CalcHeightT
 Name&GUIStyle_Bindings::Internal_DrawCursorT
-Name)GUIStyle_Bindings::Internal_GetLineHeight
+Name)GUIStyle_Bindings::Internal_GetLineHeight\f 
 Name+GUIStyle_Bindings::Internal_CalcMinMaxWidthT
 Name-GUIStyle_Bindings::Internal_GetHyperlinksRectT
 Name0GUIStyle_Bindings::Internal_GetCursorFlashOffset
@@ -622,9 +619,12 @@ NativeMethodAttribute
 NativePropertyAttribute
 NewKeyboardFocus
 NextCodePointIndex
+No:v
 Numeric
+Nz:w
 ObjectGUIState
 ObsoleteAttribute
+Oi9x
 OnCursorIndexChange
 OnDetectFocusChange
 OnEnable
@@ -635,10 +635,12 @@ OnMouseDrag
 OnMouseUp
 OnRepaint
 OnSelectIndexChange
+Open
 OperatingSystemFamily
 Optional
 OwnsId
 PARAGRAPHS
+PZ:s
 PadRight
 PageMovementValue
 PageUpMovementBound
@@ -647,6 +649,7 @@ ParentClipScope
 Parse
 Passive
 PasswordFieldGetStrToShow
+Peek
 PeekNext
 PerformOperation
 PlatformSelection
@@ -657,6 +660,7 @@ ProcessEvent
 ProduceGUIStyleStateFromDeserialization
 Quaternion
 QueryStateObject
+RSDS
 Reapply
 ReleaseMouseControl
 Remove
@@ -721,7 +725,6 @@ SelectWordRight
 SelectionGrid
 SerializeField
 SetChanged
-SetCopyBuffer
 SetDefaultFont
 SetDidGUIWindowsEatLastEvent
 SetHorizontal
@@ -767,6 +770,7 @@ SystemInfo
 TakeCapture
 TargetInvocationException
 TargetType
+Temp
 Tests_ClearObjects
 TextAnchor
 TextArea
@@ -787,7 +791,6 @@ Touch
 TouchScreenKeyboard
 TouchScreenKeyboardType
 TryGetValue
-UNITY_EDITOR
 Unclip
 UnclipToWindow
 UnclipToWindow_Rect
@@ -798,13 +801,13 @@ Unclip_Rect
 Unclip_Rect_Injected
 Unclip_Vector2
 Unclip_Vector2_Injected
+Undo
 UndoRedoPerformed
 UnfocusWindow
 Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -887,6 +890,7 @@ UnityString
 UnverifiableCodeAttribute
 UpdateScrollOffset
 UpdateScrollOffsetIfNeeded
+V8a#
 ValidateCommand
 ValueCollection
 ValueForCurrentMousePosition
@@ -897,20 +901,66 @@ Vector4
 VerticalScope
 VerticalThumbRect
 VisibleToOtherModulesAttribute
+W.u3
+W5z-
 WORDS
 WantsEvent
 WindowFunction
 WrapNonExceptionThrows
-X	X(c
-XkYV	{T
-Y	]	[
-YXV+0
+XI3-
+X\tX(c
+XkY}
+YZX\f+
+YZk\n
+YZk\r
+YZk\v
+YkZY
+Zero
+\fEndContainer
+\fIsThreadSafe
+\fLZ(4
+\fUNITY_EDITOR
+\fdisplayIndex
+\fm_ClipOffset
+\fm_FixedWidth
+\nBackground
+\nXkYV
+\nXkYV\t{T
+\nYXV+0
+\nYYV
+\nZsC
+\nclickCount
+\nkXX\r
+\nkXY\n
+\nkYV
+\nm_Clipping
+\nm_FontSize
+\nm_RichText
+\nm_WordWrap
+\rGenerateProxy
+\rGetCopyBuffer
+\rGetGUIState()
+\rInputBindings
+\rSetCopyBuffer
+\rm_FixedHeight
+\rmousePosition
+\rv5c
+\tYD1
+\tcharacter
+\tmodifiers
+\ttextColor
+\vLogEndGroup
+\vUnity.Burst
+\vUnityEngine
+\vkXX}
+\vm_Alignment
+\vm_FontStyle
+\vpointerType
 _CorDllMain
 _maxHeight
 _maxWidth
 _minHeight
 _minWidth
-`.rsrc
 absolutePos
 absoluteRect
 addBorders
@@ -925,6 +975,7 @@ alwaysShowHorizontal
 alwaysShowVertical
 angle
 aspect
+bCl4
 borderRadius
 borderRadiuses
 borderWidth
@@ -944,7 +995,6 @@ calcMinWidth
 callback
 camera
 cleanupRoots
-clickCount
 clientHeight
 clientRect
 clientWidth
@@ -966,7 +1016,6 @@ cursorPosition
 cursorStringIndex
 dJi9e
 delta
-displayIndex
 displayIndex1
 displayIndexList
 displayMask
@@ -992,6 +1041,7 @@ focus
 focusType
 forceRect
 forceRectOnLayout
+func
 gA;:r
 get_Chars
 get_Count
@@ -1203,10 +1253,12 @@ guiChanged
 guiPoint
 guiRect
 guiskin
+h8s#
 hFocusType.Native now behaves the same as FocusType.Passive in all OS cases. (UnityUpgradable) -> Passive
 hasHorizontalCursorPos
 hasKeyboardFocus
 heightInPixels
+hint
 horiz
 ignore
 imageAspect
@@ -1221,15 +1273,17 @@ isPasswordField
 isVertical
 isWindow
 kDummyRect
-kXY(^
-kXY(_
-kZ"fff?ZX
-kZ"fff?ZY
+kX4&
+kXX}
+kY78
+kZ"fff?ZX\n+
+kZ"fff?ZY\n
 keyDown
 keyUp
 keyboardOnScreen
 keycode
 klass
+last
 lastSelectedCharacter
 lastStyle
 layout
@@ -1241,15 +1295,13 @@ leftButton
 leftColor
 leftValue
 mContent
+mLO\f)
 m_Active
-m_Alignment
 m_Border
 m_ChildMaxHeight
 m_ChildMaxWidth
 m_ChildMinHeight
 m_ChildMinWidth
-m_ClipOffset
-m_Clipping
 m_Content
 m_ContentOffset
 m_Count
@@ -1262,12 +1314,8 @@ m_DblClickInitPos
 m_DblClickSnap
 m_Disposed
 m_DoubleClickSelectsWord
-m_FixedHeight
-m_FixedWidth
 m_Focused
 m_Font
-m_FontSize
-m_FontStyle
 m_ForcedMaxHeight
 m_ForcedMinHeight
 m_Func
@@ -1298,7 +1346,6 @@ m_Position
 m_PreviousColor
 m_Ptr
 m_RevealCursor
-m_RichText
 m_ScreenRect
 m_ScrollView
 m_SelectIndex
@@ -1317,7 +1364,6 @@ m_Tooltip
 m_TripleClickSelectsLine
 m_UserSpecifiedHeight
 m_UserSpecifiedWidth
-m_WordWrap
 m_XCount
 m_bJustSelected
 m_box
@@ -1352,7 +1398,6 @@ midStyle
 mouseDown
 mouseDrag
 mouseMove
-mousePosition
 mouseUp
 ms_Error
 mscoree.dll
@@ -1364,6 +1409,7 @@ needsVerticalScrollbar
 newColor
 newSkin
 newText
+null
 o:N:r
 object
 objectGUIState
@@ -1389,14 +1435,16 @@ outEvent
 outScreenRect
 outSourceRect
 owner
+p7a#
 password
+path
 pivotPoint
 pixels
 point
-pointerType
 pressure
 processEvent
 rK}66
+rect
 releaseCapture
 renderOffset
 repaint
@@ -1449,6 +1497,7 @@ scrollerID
 second
 secureText
 selected
+self
 set_Internal_clipOffset
 set_Internal_clipOffset_Injected
 set_Item
@@ -1586,6 +1635,7 @@ set_y
 set_yMax
 set_yMin
 showKeyboardFocus
+size
 skinMode
 slider
 smoothCorners
@@ -1615,6 +1665,8 @@ topColor
 topValue
 toplevel
 transform
+type
+uPb:
 useGUILayout
 v2.0.50727
 value
@@ -1626,4 +1678,3 @@ windowPoint
 windows
 xCount
 ~2}8N
-~D',q

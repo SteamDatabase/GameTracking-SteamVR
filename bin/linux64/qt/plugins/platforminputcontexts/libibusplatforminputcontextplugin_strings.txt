@@ -1,22 +1,6 @@
-
-!
-#
-$
 $ORIGIN/../../lib
-%
-&
-'
-(
-)
-+
-,
--
-.
-/
 /.config/ibus/bus/
 /org/freedesktop/IBus
-0
-1
 10QIBusProxy
 14QIBusAttribute
 17QIBusSerializable
@@ -27,7 +11,6 @@ $ORIGIN/../../lib
 1deleteSurroundingText(int,uint)
 1surroundingTextRequired()
 1updatePreeditText(QDBusVariant,uint,bool)
-2
 22QIBusInputContextProxy
 25QIBusPlatformInputContext
 2CommitText(QDBusVariant)
@@ -35,18 +18,9 @@ $ORIGIN/../../lib
 2RequireSurroundingText()
 2UpdatePreeditText(QDBusVariant,uint,bool)
 2cursorRectangleChanged()
-3
 31QIbusPlatformInputContextPlugin
-4
-5
-6
-7
-8
-9
 9QIBusText
-:
-<
-=
+?org.freedesktop.IBus.InputContext
 CXXABI_1.3
 CommitText
 CreateInputContext
@@ -67,7 +41,6 @@ GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
 GetAddress
 GetEngine
 HideAuxiliaryText
@@ -309,7 +282,6 @@ data
 default
 deleteSurroundingText
 getenv
-h
 ibus
 keycode
 keyval
@@ -356,7 +328,4 @@ visible
 vtable for QInputMethodEvent
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
-w
-x
 x11FilterEvent
-y

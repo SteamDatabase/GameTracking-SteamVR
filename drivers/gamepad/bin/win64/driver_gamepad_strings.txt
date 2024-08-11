@@ -1,16 +1,3 @@
-	!s99
- %41g
- A__^
- H3E H3E
-!hn7!
-',=?k
-(D$ f
-(f*^[0
-(|$pL
-+Xt@(
-+m!?)
-+o'q)}
-,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -38,6 +25,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -57,12 +45,12 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
@@ -89,88 +77,20 @@
 /input/x/click
 /input/y/click
 /output/haptic
-0A_A^A]A\_^[
-0w0c1
-0}0i1
-130801120000Z
-1\PU0
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173945Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4={AG
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-9C }.H
-9RVoH
-<0:08
-=rIQU
->0<0:
->Mp$d
-?K$I?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
-@.data
-@.reloc
-@.rsrc
-@A^_^
-@UAWH
-A9A A
-A_A^_
-A_A^_^]
-AuthD
-Bellevue1
 CloseHandle
 CreateEventW
-D$8H9
-D8{0t
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-F5H5)
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-H SWH
-H-^Eu
-H93t	H
-H95g{
-H95q|
-H95tz
-H95u}
-H9w`tFH
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -188,38 +108,21 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 KERNEL32.dll
-K}*n:	
-L$ SH
-L?n(Zy&
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-M H1E
-M98u/
-MB(iVR
 MSVCP140.dll
 MainThrd
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NPH9Q
-Out of thread local storage!
-PAq=?Mp#
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
+Out of thread local storage!\n
 QueryPerformanceCounter
 RSDSG
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S0Q0O
-SA|X=G
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
 SDL_GAMECONTROLLER_IGNORE_DEVICES
@@ -245,30 +148,16 @@ SDL_JoystickInstanceID
 SDL_NumJoysticks
 SDL_PollEvent
 SDL_QuitSubSystem
-SVWATAUAVAWH
 SetEnvironmentVariableA
 SetUnhandledExceptionFilter
-Skipping controller %d because it has the Valve VID
+Skipping controller %d because it has the Valve VID\n
 SleepConditionVariableCS
-TUUUUUU
 TlsAlloc
 TlsFree
-UVWAVAWH
-UWAVH
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 WakeAllConditionVariable
-Washington1
-Y9"SD
-[K]taM?
-\$ UH
-]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -298,7 +187,6 @@ _cexit
 _configure_narrow_argv
 _crt_atexit
 _execute_onexit_table
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -306,8 +194,6 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -315,35 +201,15 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
-jj@0HK4
-k0i0$
-l$8E3
-l2|X/gGe
-m0k0$
+free
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
-ntelD
-p WAVAWH
 string too long
-t$ AVH
-t$ AWH
-t$ WH
-t$@H=
-tXfff
 terminate
-v=Y]Bv
 vector<T> too long
-www.digicert.com1!0
-www.digicert.com1$0"
-x4fQE
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -353,9 +219,3 @@ x4fQE
 {gamepad}/icons/gamepad_status_searching_alert.gif
 {gamepad}/icons/gamepad_status_standby.png
 {gamepad}/input/gamepad_profile.json
-{un'%
-|$ AVH
-|Lu?c
-}LuHO
-~qj#k"
-~t&LN

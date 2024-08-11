@@ -1,4 +1,3 @@
-	GetUserId
  Unity.IntegrationTests.Framework
  UnityAnalyticsScriptingClasses.h
  UnityEngine.CrashReportingModule
@@ -6,7 +5,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -55,9 +53,9 @@ $UnityEngine.UnityWebRequestWWWModule
 .Modules/UnityAnalytics/Public/UnityAnalytics.h
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
+0.0F
 0Modules/UnityAnalytics/ContinuousEvent/Manager.h
-2d	u]
+2d\tu]
 5::GetAnalyticsCoreStats().GetContinuousEventManager()
 5Modules/UnityAnalytics/CoreStats/AnalyticsCoreStats.h
 6Modules/UnityAnalytics/Public/Events/UserCustomEvent.h
@@ -69,7 +67,6 @@ $UnityEngine.UnityWebRequestWWWModule
 <>f__mg$cache4
 <>f__mg$cache5
 <Module>
-@.reloc
 Action
 Action`1
 Action`3
@@ -90,10 +87,12 @@ ArgumentException
 ArgumentNullException
 Assembly-CSharp-testable
 AsyncCallback
+BSJB
 BeginInvoke
 Boolean
 CallOnUpdate
 CallSessionStateChanged
+Char
 Combine
 CompareExchange
 CompilerGeneratedAttribute
@@ -112,6 +111,7 @@ EditorBrowsableAttribute
 EditorBrowsableState
 EnableEvent
 EndInvoke
+Enum
 ExcludeFromDocsAttribute
 Female
 FlushArchivedEvents
@@ -130,7 +130,6 @@ GetCallingAssembly
 GetCount
 GetDeviceStatsEnabled
 GetDictionary
-GetEnabled
 GetEnumerator
 GetFloat
 GetInitializeOnStartup
@@ -187,6 +186,7 @@ IsInitialized
 IsNullOrEmpty
 IsSubclassOf
 KeyValuePair`2
+Male
 MemberInfo
 MoveNext
 MulticastDelegate
@@ -225,7 +225,6 @@ SendEventWithLimit
 SendUserInfoEvent
 SetDeviceStatsEnabled
 SetDictKeyType
-SetEnabled
 SetEventHistogramThresholds
 SetEventHistogramThresholds_Internal
 SetInitializeOnStartup
@@ -262,7 +261,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -346,8 +344,14 @@ UserInfoBirthYear
 Vector3
 WasLastUpdatedFromServer
 WrapNonExceptionThrows
+Zero
+\nGetEnabled
+\nSetEnabled
+\tGetUserId
+\vFlushEvents
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 add_BeforeFetchFromServer
 add_Completed
 add_Updated
@@ -364,7 +368,9 @@ currency
 custom
 customEventName
 custom_userid
+data
 defaultValue
+dict
 eventData
 eventName
 false
@@ -416,6 +422,7 @@ method
 metricName
 mscoree.dll
 mscorlib
+name
 notifyServer
 object
 op_Equality
@@ -446,6 +453,8 @@ set_limitUserTracking
 set_limitUserTrackingInternal
 settingsChanged
 signature
+size
+type
 usingIAPService
 v2.0.50727
 value

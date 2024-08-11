@@ -1,4 +1,3 @@
-	AllLayers
  Modules/Physics/CharacterJoint.h
  Modules/Physics/PhysicMaterial.h
  Modules/Physics/PhysicsManager.h
@@ -10,7 +9,6 @@
  UnityEngine.UnityAnalyticsModule
 !Modules/Physics/CapsuleCollider.h
 !QueryTriggerInteraction.UseGlobal
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -69,8 +67,6 @@ $UnityEngine.UnityWebRequestWWWModule
 (UnityEngine.UnityWebRequestTextureModule
 )MeshCollider.skinWidth is no longer used.
 )Use Rigidbody.maxAngularVelocity instead.
-)V*$+
-*7+O+e+
 *JointDriveMode.None is no longer supported
 +Modules/Physics/Public/PhysicsSceneHandle.h
 ,UnityEngine.UnityWebRequestAssetBundleModule
@@ -80,8 +76,11 @@ $UnityEngine.UnityWebRequestWWWModule
 .Modules/Physics/BatchCommands/RaycastCommand.h
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 /Runtime/Jobs/ScriptBindings/JobsBindingsTypes.h
+0.0f
+0A(D
+0A(t
+0I*9
 1Modules/Physics/BatchCommands/SpherecastCommand.h
 2Modules/Physics/BatchCommands/CapsulecastCommand.h
 7JointProjectionMode.PositionOnly is no longer supported
@@ -106,7 +105,6 @@ $UnityEngine.UnityWebRequestWWWModule
 =Use textureCoord2 instead. (UnityUpgradable) -> textureCoord2
 >Damper has been moved to SoftJointLimitSpring class in Unity 5
 >Spring has been moved to SoftJointLimitSpring class in Unity 5
-@.reloc
 Acceleration
 AddExplosionForce
 AddExplosionForce_Injected
@@ -127,14 +125,13 @@ ArgumentOutOfRangeException
 Array
 Assembly-CSharp-testable
 Average
-B	J	[	
+BSJB
 BTargetAngularVelocity not in use for Unity 5 and assumed disabled.
 BakeMesh
 BatchQueryJobStruct`1
 BatchQueryJob`2
 Behaviour
 BoxCast
-BoxCastAll
 BoxCastNonAlloc
 BoxCollider
 BoxTest
@@ -144,11 +141,9 @@ CalculateRaycastTexCoord
 CalculateRaycastTexCoord_Injected
 CalculateTransform
 CalculateTransform_Injected
-CapsuleCast
 CapsuleCastAll
 CapsuleCastNonAlloc
 CapsuleCollider
-CapsuleTest
 CapsulecastCommand
 CharacterController
 CharacterJoint
@@ -162,7 +157,6 @@ CheckSphere
 CheckSphere_Internal
 CheckSphere_Internal_Injected
 Clear
-ClosestPoint
 ClosestPointOnBounds
 Collide
 CollidedAbove
@@ -182,6 +176,7 @@ ContinuousDynamic
 ContinuousSpeculative
 ControllerColliderHit
 CookForFasterSimulation
+Copy
 DPlease use Physics.AllLayers instead. (UnityUpgradable) -> AllLayers
 Debug
 DebuggableAttribute
@@ -197,6 +192,7 @@ EUse PhysicMaterial.bounciness instead (UnityUpgradable) -> bounciness
 EditorBrowsableAttribute
 EditorBrowsableState
 EnableMeshCleaning
+Enum
 Equals
 ExcludeFromDocsAttribute
 ExtensionAttribute
@@ -208,6 +204,7 @@ ForceMode
 ForceMode.Force
 ForceMode.Force)
 Format
+Free
 FreeFunctionAttribute
 FreezeAll
 FreezePosition
@@ -243,7 +240,6 @@ GetPointVelocity
 GetPointVelocity_Injected
 GetRelativePointVelocity
 GetRelativePointVelocity_Injected
-GetRigidbody
 GetUnsafeBufferPointerWithoutChecks
 GoogleAR.UnityNative
 HingeJoint
@@ -287,7 +283,6 @@ InvalidOperationException
 IsEmpty
 IsEmpty_Internal
 IsEmpty_Internal_Injected
-IsGrounded
 IsPhysicsSceneValid
 IsPhysicsWorldEmpty
 IsSleeping
@@ -338,6 +333,7 @@ NativeHeaderAttribute
 NativeMethodAttribute
 NativeNameAttribute
 NativePropertyAttribute
+None
 NotNullAttribute
 NullReferenceException
 ObsoleteAttribute
@@ -387,12 +383,11 @@ Query_SphereCast
 Query_SphereCastAll
 Query_SphereCastAll_Injected
 Query_SphereCast_Injected
+RSDS
 Raycast
-RaycastAll
 RaycastCommand
 RaycastHit
 RaycastNonAlloc
-RaycastTest
 RebuildBroadphaseRegions
 Renderer
 RequireComponent
@@ -422,7 +417,6 @@ ScheduleSpherecastCommandBatch
 SetClothInterCollisionDistance
 SetClothInterCollisionStiffness
 SetDensity
-SetMaterial
 SetMaxAngularVelocity
 SimpleMove
 SimpleMove_Injected
@@ -434,17 +428,13 @@ Sleep
 Slerp
 SoftJointLimit
 SoftJointLimitSpring
-SphereCast
-SphereCastAll
 SphereCastNonAlloc
 SphereCollider
-SphereTest
 SpherecastCommand
 SpringJoint
 StaticAccessorAttribute
 StaticAccessorType
 SweepTest
-SweepTestAll
 SweepTest_Injected
 System
 System.Collections
@@ -462,7 +452,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections
 Unity.Collections.LowLevel.Unsafe
@@ -483,7 +472,6 @@ Unity::CharacterJoint
 Unity::ConfigurableJoint
 Unity::FixedJoint
 Unity::HingeJoint
-Unity::Joint
 Unity::SpringJoint
 UnityEngine
 UnityEngine.AIModule
@@ -574,9 +562,27 @@ WritableAttribute
 XYAndZ
 ZPlease use Physics.DefaultRaycastLayers instead. (UnityUpgradable) -> DefaultRaycastLayers
 ZThe sleepAngularVelocity is no longer supported. Set Use sleepThreshold to specify energy.
+\fClosestPoint
+\fGetRigidbody
+\fSweepTestAll
+\fUnity::Joint
 \minBounce and maxBounce are replaced by a single JointLimits.bounciness for both limit ends.
+\nBoxCastAll
+\nIsGrounded
+\nOverlapBox
+\nRaycastAll
+\nSphereCast
+\nSphereTest
+\rOverlapSphere
+\rSphereCastAll
+\tAllLayers
+\vCapsuleCast
+\vCapsuleTest
+\vRaycastTest
+\vSetMaterial
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 `Please use Physics.defaultSolverIterations instead. (UnityUpgradable) -> defaultSolverIterations
 angularForce
 collider
@@ -594,6 +600,7 @@ distance
 explosionForce
 explosionPosition
 explosionRadius
+face
 faceID
 get_Length
 get_anchor
@@ -902,6 +909,7 @@ m_Spring
 m_Stiffness
 m_TargetVelocity
 m_ThisColliderInstanceID
+m_UV
 maxBounce
 meshID
 minBounce
@@ -909,6 +917,7 @@ minCommandsPerJob
 motion
 mscoree.dll
 mscorlib
+name
 normal
 op_Division
 op_Equality
@@ -1153,19 +1162,16 @@ set_zDrive_Injected
 set_zMotion
 speed
 start
+step
 subdivisions
 textcoord
+true
 upwardsModifier
 v2.0.50727
 value
 value__
 worldBounds
 worldPoint
-x	 f+
-x	$u#
-x	D:#
-x	D>#
-x	Ds#
-x	d7#
-x	d@#
+x\tDs#
+x\td7#
 yThe sleepAngularVelocity is no longer supported. Use sleepThreshold. Note that sleepThreshold is energy but not velocity.

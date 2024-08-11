@@ -1,65 +1,31 @@
-	#jT$
-	image/gif0!0
                           
    ! " % & ' : < G H I 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- &   ! 
- 5 9 
- A^A\^
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^A]^]
- A_A^_
- A_^]
- A__^
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- H=@B
- HcQ H
- Hc\$PI
- LcA H
  Type Descriptor'
  bytes
  delete
  delete[]
- new[]
- tDE3
-!6"t%
-!S{a!J
-!t$(H!t$ I
-"%s" : %s
+ new
+!AxU
 ".dll
-"C-I;
-#fD9M
-#http://crl.verisign.com/pca3-g5.crl04
-#http://logo.verisign.com/vslogo.gif0
-#http://logo.verisign.com/vslogo.gif04
-$J0_b
+#FLR
+#tDq
+$\nY8O
 %$%a%b%V%U%c%Q%W%]%\%[%
-%%.%if%s
-%.*s://%s
 %0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
-%4%,%
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
 %<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
-%VeriSign Class 3 Code Signing 2010 CA
-%VeriSign Class 3 Code Signing 2010 CA0
-%s (%u)
+%lld
 %s not implemented
-%s overflow!
-%u : %u
-&#039;
-&0$0"
+%s overflow!\n
 &AElig;
 &Aacute;
 &Acirc;
@@ -101,6 +67,7 @@ $J0_b
 &atilde;
 &auml;
 &brvbar;
+&bzi
 &ccedil;
 &cedil;
 &cent;
@@ -163,39 +130,16 @@ $J0_b
 &yacute;
 &yen;
 &yuml;
-'Symantec Time Stamping Services CA - G2
-'Symantec Time Stamping Services CA - G20
 ( 8PX
 ('8PW
-(0&0$
-(A^A\^]
-(T$PD
-(d$0D
 (main)
 (no name set)
 (none)
 (null)
-(t$ H
-(t$0H
-(t$`H
-(t$pH
-)\ZEo^m/
-)fD;A
-)t$ H
-)t$`A
-)|$`L
-*	5|z
-+Symantec Time Stamping Services Signer - G40
-+g@#I
-+http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
-+http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
-+n&~O	D+
 +ulsX
-,X< w
-----------------------------------------
--0+0)
+----------------------------------------\n
 -64OS
--9D	/9a
+-9D\t/9a
 ..\tier1\mempool.cpp
 ..\tier1\utlbuffer.cpp
 ..\tier1\utlmemory.cpp
@@ -231,107 +175,78 @@ $J0_b
 .?AVIUniformRandomStream@@
 .?AVIValidate@@
 .?AVtype_info@@
-.http://crl.thawte.com/ThawteTimestampingCA.crl0
-.pdata
-.text
-.u%@8|+
-.u(Ic
-.u[H;
-/H;D$0
-/http://csc3-2010-aia.verisign.com/CSC3-2010.cer0
-/http://csc3-2010-crl.verisign.com/CSC3-2010.crl0D
+.y4w
+00c?
 0123456789ABCDEF
 0123456789abcdef
-061108000000Z
+01c?
+02c?
+04c?
 0;0A0C0E0G0I0c0
-0A^_^
-0A_A\^][
-0A_A^A\
-0A_A^A]
-0A_A^A]A\^
-0A_A^A]A\_
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^_
-0D83u
-0Hcy 
-0r0^1
+0F`8
+0Fc?
+0Ic?
+0Jc?
+0Lc?
+0Mc?
+0Nc?
+0Oc?
+0Qc?
+0Rc?
+0Sc?
+0Tc?
+0Uc?
+0Vc?
+0Wc?
+0Xc?
+0\n0\f0
+0\t0\v0\r0
 0x%4.4X is both the source and destination of a normalization mapping
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1(c) 2006 VeriSign, Inc. - For authorized use only1E0C
-100208000000Z
-120928000000Z
-121018000000Z
-121221000000Z
-150725005632Z0#
-151123235959Z0
-200207235959Z0
-201229235959Z0b1
-201230235959Z0^1
-2894504P
-2Terms of use at https://www.verisign.com/rpa (c)101.0,
+2\vpp
 30!]^JV
-360716235959Z0
-41D86H
-50301
-5Digital ID Class 3 - Microsoft Software Validation v21
+49fN
+4Hc?
+4Ic?
+4Jc?
+4Kc?
+4Lc?
+4Pc?
+4Qc?
+4Rc?
+4Vc?
+52F*
+55t'
 5T&w&
+6 PQ
 700PP
 700WP
 7h>?8
-80604
-80tVD
-8A^A\^[
-8D$8t
-8D$:t
-8L$4tLH
-8L$@t
-8T$4u]E
-8UXt$@
-9+u'D
-9+u+D
-90705
-9D$LupE
-9D$Pt
-9D$`t
-9L$Pt
-9T$Pt
-9T$`t
-9\$ ~>L
-9s`~DH
-9{tyH
-:'No)b
-;C ~;
-;C ~J
-;K ~R
-;Q(} 
-;Q(})
-;\$ |
-;^(}Y
-;_(}i
-;_(}p
-< tD<	t@
-<"u	@
-<"uSL
-<$u8L
-<&u4H
-<-uYE
+7~8A
+80c?
+81c?
+83c?
+8Gc?
+8Ic?
+8Jc?
+8Lc?
+8Nc?
+8Oc?
+8Pc?
+8Qc?
+8Rc?
+8Tc?
+8Uc?
+8Vc?
+8Yc?
+8\foQS
+9a&g
 </script>
-</t%<\t&L
-</u	:C
-<VeriSign Class 3 Public Primary Certification Authority - G50
-<\t </t
-<\t!</t
-<\t?</t;H
-<empty>
-=0;09
->"hcS
->%u=A
->0!0	
-?.t!L
+<PSU
+<empty>\n
 ??0CCommandLineParam@@QEAA@PEBD0@Z
 ??0CGaussianRandomStream@@QEAA@PEAVIUniformRandomStream@@@Z
 ??0CThreadLocalBase@@QEAA@XZ
@@ -414,93 +329,24 @@ $J0_b
 ?m_Mutex@CURLUtils@@0VCThreadMutex@@A
 ?m_bInitialized@CStringNormalization@@0_NA
 ?m_bInitialized@CURLUtils@@0_NA
-@%.18g
-@.data
-@.reloc
-@.rsrc
-@85Tm
-@85um
-@8<+u,
-@8l$8t
-@A^^]
-@A^_^
-@A_A^A]
-@A_A^A]A\_
-@A_A^A]A\_^]
-@SUATH
-@SUVATAWH
-@SUVWATAVAWH
-@SUVWAVH
-@SUVWH
-@SUWAUAVH
-@SVATAVH
-@SVAVH
-@SVWH
-@SWATAVAWH
-@SWATAVH
-@SWAVH
-@SWAWH
-@UATAUAVAWH
-@UAUAVAWH
-@UAVAWH
-@UAVH
-@USVWH
-@UVAVH
-@UVAWH
-@UWATAVAWH
-@UWATH
-@VATAVAWH
-@VATAVH
-@VAVAWH
-@VWATAVH
-@VWAVH
-@XHcT
-@XJcL
-@u#H;
-A81t@@8r
-A:8uiI
 A@qVc"
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ACADEMY
 ACCOUNTANTS
 ACTIVE
 ACTOR
+AERO
 AGENCY
 AIRFORCE
 ARCHI
+ARMY
+ARPA
+ASIA
 ASSOCIATES
-ATAUAWH
-ATAVAWH
 ATTORNEY
-AUAVAWH
 AUCTION
 AUDIO
 AUTOS
-AVAWH
-AWAVAUATWVUSH
-A]A\_[
-A^A\_
-A^A\_[
-A^A\_^
-A^A]_][
-A^_^[]
-A^_^][
-A_A]A\
-A_A^A\
-A_A^A\^
-A_A^A\_[
-A_A^A\_^
-A_A^A]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]]
-A_A^A]_^
-A_A^]
-A_A^^
-A_A^_
-A_A^_^]
 April
 AreFileApisANSI
 AssertMsgImplementation
@@ -609,25 +455,33 @@ Assertion Failed: src != NULL
 Assertion Failed: str != NULL
 Assertion failed: length > k_cchMaxString
 August
-AuthA
 BARGAINS
 BAYERN
+BEER
 BERLIN
+BEST
 BHanIdeograph
+BIKE
 BLACK
 BLACKFRIDAY
+BLUE
 BOUTIQUE
 BRUSSELS
 BUILD
 BUILDERS
-Bucket size : count
+BUZZ
+Bucket size : count\n
+C-Yn
 CAMERA
+CAMP
 CANCERRESEARCH
 CAPETOWN
 CAPITAL
 CARDS
+CARE
 CAREER
 CAREERS
+CASH
 CATERING
 CCoroutine
 CCoroutineMgr
@@ -637,6 +491,7 @@ CHEAP
 CHRISTMAS
 CHURCH
 CITIC
+CITY
 CKeyValuesSystem
 CKeyValuesSystem::AddStringToPool: key name too long (%u chars)
 CKeyValuesSystem::AddStringToPool: out of memory
@@ -645,6 +500,7 @@ CLAIMS
 CLEANING
 CLINIC
 CLOTHING
+CLUB
 CMemoryPool
 CMemoryPool::AddNewBlob: mode == GROW_NONE
 CMemoryPool::Alloc: ran out of memory
@@ -660,6 +516,8 @@ CONSTRUCTION
 CONSULTING
 CONTRACTORS
 COOKING
+COOL
+COOP
 COUNTRY
 CREDIT
 CREDITCARD
@@ -672,12 +530,11 @@ CanBeginLine
 CanBreakBetween
 CanBreakRepeated
 CanEndLine
-CcjRK
 CharLowerBuffW
 CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
-Command line options:
+Command line options:\n
 CommandLine
 CompareStringEx
 CorExitProcess
@@ -702,57 +559,6 @@ CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
 CreateVProfile
-D!l$h3
-D$ Hc
-D$ L9
-D$ t1L
-D$!<-u
-D$(A9h
-D$(E3
-D$0E3
-D$0L9
-D$0fff
-D$4A8
-D$4E2
-D$4E3
-D$8u!L
-D$<A;
-D$@A;
-D$@H;
-D$A:.
-D$DD9T$X
-D$L0A
-D$PL;
-D$PLc
-D$XD+
-D$XE3
-D$XI;
-D$`H9t
-D$hHc
-D$p H
-D$pH;
-D$x@B
-D)\$4A;
-D+moA
-D1:Hc
-D82u&H
-D8L$Ht
-D8\$4
-D8\$5t
-D8\$H
-D8\$Ht
-D8l$4
-D8t$8t
-D8t$Ht
-D8|$0
-D8|$0u
-D8|$:t;IcE
-D91uBL
-D9T$x
-D9l$`
-D9l$dtXH
-D9|$ 
-D9|$pt
 DANCE
 DATING
 DEALS
@@ -760,18 +566,28 @@ DEGREE
 DEMOCRAT
 DENTAL
 DENTIST
+DESI
 DIAMONDS
 DIGITAL
 DIRECT
 DIRECTORY
 DISCOUNT
+DIc?
+DKc?
+DNc?
 DOMAINS
+DOc?
+DQc?
+DRc?
+DSc?
 DURBAN
+DUc?
+DVc?
+D\vvf:
 DebugStatsSystem
 December
 DecodePointer
 DeleteCriticalSection
-Durbanville1
 EDUCATION
 EMAIL
 ENGINEER
@@ -789,16 +605,20 @@ EnumSystemLocalesEx
 Error
 Error State on string being set.
 ExitProcess
-F8,6u
+FAIL
+FARM
+FCZ&
 FEEDBACK
 FINANCE
 FINANCIAL
+FISH
 FISHING
 FITNESS
 FLIGHTS
 FLORIST
 FOUNDATION
 FROGANS
+FUND
 FURNITURE
 FUTBOL
 Fatal Assertion Failed: %s
@@ -814,9 +634,9 @@ FoldStringW
 FreeEnvironmentStringsW
 FreeLibraryWhenCallbackReturns
 Friday
-G8J-l
-G@8.u
 GALLERY
+GENT
+GIFT
 GIVES
 GLASS
 GLOBAL
@@ -827,6 +647,7 @@ GREEN
 GRIPE
 GUIDE
 GUITARS
+GURU
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -874,27 +695,35 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 GetVersionExA
-H SWH
+H$6t
 H*0"ZOW
-H3E H3E
+H0c?
+H1c?
 HAMBURG
+HAUS
+HGc?
 HH:mm:ss
 HIPHOP
+HIc?
+HJc?
+HKc?
+HLc?
+HMXB
 HOLDINGS
 HOLIDAY
 HOMES
 HORSE
+HOST
 HOUSE
-HcD$PH;
-HcH<H
-HcM H
-HcT$p
-Hct$@H
+HOc?
+HPc?
+HWc?
+HYc?
 HeapAlloc
 HeapFree
-HxjNV
 IMMOBILIEN
 INDUSTRIES
+INFO
 INSTITUTE
 INSURE
 INTERNATIONAL
@@ -911,71 +740,50 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocaleName
 JETZT
+JOBS
 JOBURG
 JUEGOS
 JZJ{.
 January
+July
+June
 KAUFEN
 KERNEL32.dll
 KITCHEN
+KIWI
 KOELN
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
+KRED
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
 KeyValuesSystem()
 KeyValuesSystemSteam
-L$ A;
-L$ E3
-L$ H+
-L$ H;
-L$ SH
-L$ SVWH
-L$ SWH
-L$ USWH
-L$ UVAUAVAWH
-L$ UVWH
-L$ WH
-L$(9i
-L$(H3
-L$(fA;
-L$0D+
-L$0E3
-L$0H3
-L$0H;
-L$0I;
-L$0L;
-L$0|+L;
-L$1E2
-L$4A;
-L$4E3
-L$8H3
-L$@E3
-L$@H3
-L$@Lc
-L$Df;
-L$HH3
-L$`H3
-L$`Lc
-L$hE3
-L$pH3
-L$pH;
-L$xH3
-L$xHc
-L0	A:
-L09A:
-L0:A:
-L9x@t.
+L3c?
 LACAIXA
+LAND
 LAWYER
 LCMapStringEx
 LCMapStringW
 LEASE
+LGBT
+LHc?
+LIFE
 LIGHTING
 LIMITED
+LIMO
+LINK
+LNc?
 LOANS
 LONDON
 LOTTO
+LPc?
+LQc?
+LRc?
+LSc?
+LTc?
+LUXE
 LUXURY
-LcA<E3
-Leaked KeyValues (%u):
+LUc?
+LVc?
+Leaked KeyValues (%u):\n
 LeaveCriticalSection
 Linux
 Linux 2.2
@@ -992,9 +800,15 @@ MANGO
 MARKET
 MARKETING
 MEDIA
+MEET
 MELBOURNE
+MENU
+MGiI
 MIAMI
+MINI
 MM/dd/yy
+MOBI
+MODA
 MONASH
 MORTGAGE
 MOSCOW
@@ -1013,14 +827,16 @@ MacOS 10.7
 MacOS 10.8
 MacOS 10.9
 March
-Memory leak: mempool blocks left in memory: %d
+Memory leak: mempool blocks left in memory: %d\n
 MessageBoxW
 Monday
 MultiByteToWideChar
 NAGOYA
+NAME
+NAVY
 NEUSTAR
 NINJA
-NQXjL
+NKeb
 NULL buffer passed to V_atof()
 NULL buffer passed to V_atoi()
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s
@@ -1030,24 +846,38 @@ ORGANIC
 OSTypesAreCompatible
 October
 OutputDebugStringW
-PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING
+P0c?
+P2c?
+P4c?
 PARIS
 PARTNERS
 PARTS
-PA]^]
-PA^_^
-PA_A^A\_^][
+PFc?
 PHOTO
 PHOTOGRAPHY
 PHOTOS
 PHYSIO
+PHc?
+PICS
 PICTURES
+PINK
+PKc?
 PLACE
 PLUMBING
+PLc?
+PMc?
+PNc?
+POST
+PPc?
+PPd?
+PQc?
 PRAXI
 PRESS
 PRODUCTIONS
 PROPERTIES
+PRc?
+PWc?
+PXc?
 Parameter file '%s' not found, skipping...
 Plat_ExitProcess
 Plat_GetCommandLine
@@ -1055,6 +885,7 @@ Plat_IsInDebugSession
 Plat_OutputDebugString
 Plat_OutputDebugStringRaw
 PureClass
+QPON
 QUEBEC
 Qkkbal
 QueryPerformanceCounter
@@ -1067,29 +898,37 @@ RENTALS
 REPAIR
 REPORT
 REPUBLICAN
+REST
 REVIEWS
+RICH
 ROCKS
 RODEO
 RSDS3
+RUHR
 RYUKYU
+R\vpp
 RaiseException
 ReadConsoleW
 ReadFile
-Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)
+Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)\n
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
-S09C4H
+S;uD
 SAARLAND
 SCHMIDT
 SCHULE
+SCOT
 SERVICES
+SEXY
 SHIKSHA
 SHOES
 SINGLES
+SKyu
 SOCIAL
 SOFTWARE
+SOHU
 SOLAR
 SOLUTIONS
 SPACE
@@ -1097,9 +936,9 @@ SPIEGEL
 SUPPLIES
 SUPPLY
 SUPPORT
+SURF
 SURGERY
 SUZUKI
-SWATAUH
 SYSTEMS
 Saturday
 September
@@ -1115,80 +954,55 @@ SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
 SetUnhandledExceptionFilter
-String pool bytes used %u, max %u, %u pools
+Sm"\vg
+String pool bytes used %u, max %u, %u pools\n
 StringAfterPrefix
 StringAfterPrefixCaseSensitive
 StringHasSuffix
 Sunday
-Symantec Corporation100.
-Symantec Corporation1402
-T$ E3
-T$&@8t$&t9@8r
-T$0E3
-T$0H+
-T$0Hc
-T$8Lc
-T$@uxE
-T$HHc
-T$PE3
-T$XIc
-T$`E3
-T$`fA;
-T$`fD;
-T$`fE;"
-T$eLc
-T$pH;
 TATTOO
 TECHNOLOGY
+THc?
 TIENDA
+TIPS
 TIROL
+TIc?
+TLc?
 TODAY
 TOKYO
 TOOLS
+TOWN
+TOYS
+TPc?
+TQc?
 TRADE
 TRAINING
 TRAVEL
-Target buffer for V_URLEncode should be 3x source length, plus one for terminating null
-Target buffer too short
-Target buffer too short to terminate
+TRc?
+TVc?
+Target buffer for V_URLEncode should be 3x source length, plus one for terminating null\n
+Target buffer too short to terminate\n
+Target buffer too short\n
 TerminateProcess
-Thawte Certification1
-Thawte Timestamping CA0
-Thawte1
 ThreadGetCurrentId
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
 Thursday
-TimeStamp-2048-10
-TimeStamp-2048-20
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Total number of strings %u, longest string size %u, avg size %u
-Total of %u buckets with %u hash collisions
+Total number of strings %u, longest string size %u, avg size %u\n
+Total of %u buckets with %u hash collisions\n
 Tuesday
-UATAUAVAWH
-UAVAWH
 UNICODE
 UNIVERSITY
 USER32.dll
-USVWATAUAVAWH
-USVWAVH
 UTF-16LE
 UTF-8
-UVATAVH
-UVAUH
-UVWATAUAVAWH
-UVWAVAW
-UWAVH
-U`;Z(}&
-UhHcT
 UnhandledExceptionFilter
 Unknown
-Uy]E3
 VACATIONS
-VATAUAVAWH
 VEGAS
 VENTURES
 VERSICHERUNG
@@ -1198,14 +1012,11 @@ VILLAS
 VISION
 VLAANDEREN
 VODKA
+VOTE
 VOTING
+VOTO
 VOYAGE
 VStdLib_GetICVarFactory
-VUUUA
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-VWAWH
 V_AggressiveStripPrecedingAndTrailingWhitespace
 V_AggressiveStripPrecedingAndTrailingWhitespaceW
 V_AppendParamToURL
@@ -1352,28 +1163,22 @@ V_wcstoi64
 V_wcstoui64
 V_wcsupr
 V_whextobinary
-Valve0
-Valve1>0<
+Vc0a
 VerSetConditionMask
-VeriSign Trust Network1:08
-VeriSign Trust Network1;09
-VeriSign, Inc.1
-VeriSignMPKI-2-80
 VerifyVersionInfoW
 VirtualQuery
-WARNING: unable to link %s and %s because one or more is a ConCommand.
-WATAUAVAWH
-WATAVH
+WANG
+WARNING: unable to link %s and %s because one or more is a ConCommand.\n
 WATCH
-WAVAWH
 WEBCAM
 WEBSITE
 WHOSWHO
+WIEN
+WIKI
 WILLIAMHILL
 WORKS
 WaitForThreadpoolTimerCallbacks
 Warning
-Washington1
 WeakRandomChar
 WeakRandomFillMemory
 WeakRandomFloat
@@ -1382,7 +1187,6 @@ WeakRandomInt
 WeakRandomSeed
 WeakRandomUint32
 Wednesday
-Western Cape1
 WideCharToMultiByte
 Windows
 Windows 10
@@ -1404,7 +1208,14 @@ Windows XP
 WriteConsoleW
 WriteFile
 WriteMiniDump
-XA_A^A]A\_^[]
+X0c?
+X1c?
+X2c?
+X3c?
+XGc?
+XHc?
+XJc?
+XKc?
 XN--3BST00M
 XN--3DS443G
 XN--3E0B707E
@@ -1470,32 +1281,28 @@ XN--XKC2DL3A5EE0H
 XN--YFRO4I67O
 XN--YGBI2AMMX
 XN--ZFR164B
+XNc?
+XOc?
+XPc?
+XQc?
+XRc?
+XSc?
+XTc?
+XUc?
+XWc?
+XYc?
 YACHTS
 YANDEX
 YOKOHAMA
-Z* ,	
-Z0X03
-[-&LMb#{'
-[0Y0W0U
-\$ H=
-\$ Lc
-\$ UH
-\$ UVWATAUAVAWH
-\$ WH
-\$0D9=J
-\$0H3
-\$0H;
-\$@|!L
-\$`f;
-\$pA;
-\$x9D$Pt
-\$xE3
-\/:*?"<>|
-\vnO^
+ZONE
+Zjz\v
+\nYg:a
+\rRoOs
+\t9sv
 ]JldN
-]jxdE
-]uLE2
+]u9g
 _DMsg
+_UaX
 __based(
 __cdecl
 __clrcall
@@ -1512,10 +1319,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-` AUAVAWH
-`.rdata
-`<C$Y
-`A^_]
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -1526,7 +1329,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -1554,9 +1356,14 @@ _nextafter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a\rxg[
 abcdefghijklmnopqrstuvwxyz
-aqOd5ic!]
+acos
+asin
+atan
 atan2
+b,uZ
+b\fp\v0
 bwiO'
 c:\buildslave\steam_rel_client_win64\build\src\public\tier1/utllinkedlist.h
 c:\buildslave\steam_rel_client_win64\build\src\public\tier1/utlstring.h
@@ -1566,42 +1373,32 @@ c:\buildslave\steam_rel_client_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\steam_rel_client_win64\build\src\public\tier1\utlstring.h
 c:\buildslave\steam_rel_client_win64\build\src\public\tier1\utlvector.h
 c:\buildslave\steam_rel_client_win64\build\src\vstdlib\win64\Release\vstdlib_s64.pdb
-cAMDD
+ceil
 commandline.cpp
 console
 coroutine.cpp
+cosh
 cvar.cpp
-d$4A+
-d$4A;
-d$4E3
-d$4t	fD
-d$8E3
-d$Pu/H
+d8-t
+dHc?
+dIc?
+dMc?
+dNc?
+dQy/
+dRc?
+dSc?
+dUc?
+dVc?
 dddd, MMMM dd, yyyy
 debugstatssystem.cpp
-e"d" #!#
 e+000
-e0c0$
-e@A_A^A\_]
-entiE
 entry
 f.N%H
-fA9	u
-fD9 t	H
-fD9 u
-fD9#u
-fD90t
-fD93u
-fD94Au
-fD;	r
-fD;	tI
-fD; L
-fE;"u
-fffff
-fffffff
+fabs
 floor
+fmod
 frexp
-g0e0*
+gAY:
 gCURLUtils_hashTLDs
 gCURLUtils_hashTLDs.Element( i )
 g_VProfManager
@@ -1612,27 +1409,42 @@ g_dwDllEntryThreadId
 g_mapPairs
 g_pMemAllocSteam
 getcwd_utf8
-gfffA
-gfffffffH
-http://ocsp.thawte.com0
-http://ocsp.verisign.com0
-http://ocsp.verisign.com0;
-http://ts-ocsp.ws.symantec.com07
-https://www.verisign.com/cps0*
-https://www.verisign.com/rpa0
-i0g0e
-iJXO`
+h0c?
+h1c?
+h2c?
+h3c?
+h4c?
+hGc?
+hHc?
+hIc?
+hJc?
+hKc?
+hLc?
+hNc?
+hOc?
+hPc?
+hTc?
+hUc?
+hVc?
+hWc?
+hYc?
+i]Wb
+if\fg
+ig,o
 invalid input pointer
+k2U\v
+kU'9
 keyvaluessystem.cpp
-l!;b	F
-l$ AVH
-l$ VH
-l$ VWATAVAWH
-l$ VWAUAVAWH
-l$ VWAVH
-l$<A;
-l$XD+
-l$`Hc
+lDa>
+lEd/
+lMc?
+lNc?
+lQc?
+lRc?
+lSc?
+lTc?
+lVc?
+lWc?
 ldexp
 linux
 log10
@@ -1649,79 +1461,55 @@ m_listCommandLineOption
 m_mapConditionalSymbolTable
 macos
 memoverride.cpp
-n-%2k
+modf
+mwa!
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
-nTotal number of strings %u, longest string size %u, avg size %u
-ntelD
-o.`yI%K7
+nTotal number of strings %u, longest string size %u, avg size %u\n
+o9sp
 operator
 out of order normalization entry
-oypfD
-p AWH
-p WATAUAVAWH
+p0c?
+p4c?
+pCRF
+pFc?
+pHc?
+pIc?
+pJc?
+pKc?
+pMc?
+pOc?
+pPc?
+pSc?
+pTc?
+pUc?
+pXc?
 parseurl.cpp
+pva?
 qR5FE%
-r"fD;A
-r.HcC
-r2HcC
-r2HcM
-r3IcN
-r3IcV
-r=D8v
 restrict(
-s </t
-sYHcL$HH
+ru&o
 script
+sinh
+sqrt
 sqrtf
 steam://openurl/
 steam://openurl_external/
 stringnormalize.cpp
 strtools.cpp
 strtools_unicode.cpp
-t!HcA
-t"A88t
-t$ AVH
-t$ UH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$(A;
-t$(Lc
-t$0E3
-t$4A;
-t$8H+
-t$8Hc0I
-t$8Ic
-t$@9\
-t$@E3
-t$@H+
-t$@H;
-t$@L+
-t$@fA
-t$@t(H+
-t$DA;
-t$Df;
-t$Du^
-t$Dub
-t$HHc
-t$PD8|$8t
-t$PE3
-t$PHc
-t$\9D$`t
-t$pE+
-t5f9(t
-tJfff
-tOIcD
-ta</t]H
-tcH95
+tLc?
+tMc?
+tNc?
+tPc?
+tQc?
+tRc?
+tSc?
+tWc?
+tanh
 test string
+the 
 tier0_s64.dll
-u	A!B
-u$HcG$H;
-uSfD;
-un;w$
 unknown
-v,fff
 vstdlib_s.dll
 vstdlib_s64.dll
 vstdlib_wcsicmp
@@ -1729,55 +1517,30 @@ vstdlib_wcsnicmp
 vstdlib_wcstoi64
 vstdlib_wcstoui64
 w+OQvr
-wVD85+#
+wXR\r
 windows
 wn>Jj
-x ATAVAWH
-x AUAVAWH
-x AVH
-x AWH
-xM;_$}HL
-x_^][
+x0c?
+x1c?
+x2c?
+x3c?
+xGc?
+xIc?
+xJc?
+xMc?
+xNc?
+xOc?
+xPc?
+xTc?
+xUc?
+xVc?
+xYc?
 xppwpp
 xpxxxx
-y3+.{
-z;T0S
+y9*O
 z?aUY
 zC`G;
 zc%C1
 {%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
 {%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
-{w8&-
-|$ ;=
-|$ <.u
-|$ ATAVAWH
-|$ AVH
-|$ E3
-|$ H;
-|$ Hc
-|$ Hcy
-|$ UATAUAVAWH
-|$(fD
-|$0-H
-|$0@2
-|$0E3
-|$0Hc
-|$89Y
-|$<9L$Pt
-|$<A;
-|$<f;
-|$@-D
-|$@-H
-|$DA;
-|$Df;
-|$DfD;
-|$Dtp
-|$HE3
-|$HHc
-|$HHcF
-|$HLi
-|$PD;
-|$h+t$D+
-|$xE3
-|$xH;
-|;,	=
+{kHw

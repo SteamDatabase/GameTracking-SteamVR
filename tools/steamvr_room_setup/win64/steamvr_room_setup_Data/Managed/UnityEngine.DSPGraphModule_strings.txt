@@ -4,7 +4,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -52,15 +51,14 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 4Modules/DSPGraph/Public/DSPSampleProvider.bindings.h
 <Module>
-@.reloc
 ArgumentException
 ArgumentNullException
 Assembly-CSharp-testable
 AudioMemoryManager
 AudioOutputHookManager
+BSJB
 CompilerGeneratedAttribute
 DSPCommandBlockInternal
 DSPGraphExecutionNode
@@ -78,12 +76,12 @@ FunctionIndex
 GetHashCode
 GoogleAR.UnityNative
 Header)Modules/DSPGraph/Public/DSPGraphHandles.h
-Header+Modules/DSPGraph/Public/DSPGraph.bindings.h
+Header+Modules/DSPGraph/Public/DSPGraph.bindings.h\n
 Header1Modules/DSPGraph/Public/ExecuteContext.bindings.h
 Header2Modules/DSPGraph/Public/DSPCommandBlock.bindings.h
-Header4Modules/DSPGraph/Public/DSPSampleProvider.bindings.h	
-Header5Modules/DSPGraph/Public/AudioMemoryManager.bindings.h
-Header7Modules/DSPGraph/Public/DSPNodeUpdateRequest.bindings.h	
+Header4Modules/DSPGraph/Public/DSPSampleProvider.bindings.h\t
+Header5Modules/DSPGraph/Public/AudioMemoryManager.bindings.h\n
+Header7Modules/DSPGraph/Public/DSPNodeUpdateRequest.bindings.h\t
 Header9Modules/DSPGraph/Public/AudioOutputHookManager.bindings.h
 IEquatable`1
 IHandle`1
@@ -156,13 +154,13 @@ InternalsVisibleToAttribute
 InvalidId
 InvalidOperationException
 IsFreeFunction
-IsThreadSafe
 JobHandle
 JobStructData
 NativeDisableUnsafePtrRestrictionAttribute
 NativeHeaderAttribute
 NativeMethodAttribute
 NativeTypeAttribute
+Next
 Object
 ReferenceEquals
 ResourceContext
@@ -182,7 +180,6 @@ Unity.Audio
 Unity.Audio.DSPGraph
 Unity.Audio.DSPGraph.Tests
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections.LowLevel.Unsafe
 Unity.DeploymentTests.Services
@@ -260,8 +257,11 @@ UnverifiableCodeAttribute
 ValueType
 Version
 WrapNonExceptionThrows
+Zero
+\fIsThreadSafe
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 alignment
 audioSampleProviderId
 block
@@ -296,6 +296,7 @@ input
 inputDeps
 inputPort
 interpolationLength
+item
 jobData
 jobMemory
 jobReflectionData
@@ -306,6 +307,7 @@ m_Node
 memory
 mscoree.dll
 mscorlib
+node
 nodeCount
 nodeReflectionData
 nodes
@@ -326,11 +328,13 @@ providerId
 request
 requestHandle
 resourceContext
+root
 sampleProviderCount
 sampleProviderDescriptionArray
 sampleRate
 set_AtomicNode
 set_Id
+size
 updateJobMem
 updateJobReflectionData
 updateReflectionData

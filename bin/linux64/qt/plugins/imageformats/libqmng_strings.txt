@@ -1,8 +1,10 @@
 $ORIGIN/../../lib
 1.0.10
+1.2.5
 10QMngPlugin
 11QMngHandler
 A required callback is not defined
+AMAg
 Application signalled CMS error
 Application signalled I/O error
 Application signalled an error
@@ -10,6 +12,8 @@ Application signalled error during trace-callback
 Application signalled timing error
 Attempt to access an non-existing entry
 Attempt to access the wrong chunk
+BGRs
+CSID
 CXXABI_1.3
 Canvas_style is invalid
 Chunk cannot be empty
@@ -19,9 +23,17 @@ Chunk not allowed at this point
 Chunk out of sequence
 Chunk-length is invalid
 Chunklength is incredibly large
+DEEn
+DGKb
+DNEI
+DNEM
 Delta block width and or height invalid
 Destination object for PAST must be abstract
+EMIt
 ENDL without matching LOOP
+ETLP
+EVAS
+EVOM
 Encountered unexpected end-of-file
 Event type is invalid
 Framenr out of bounds
@@ -31,9 +43,13 @@ GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
+GNPI
 Global data length invalid
 Handle could not be initialized
+IFED
+IPXe
+IRPf
+ISAB
 Image is frozen
 Image is larger than defined maximum
 Image is not an animation
@@ -41,15 +57,27 @@ Index-value out of bounds
 Internal buffer for JPEG processing too small
 Internal buffer-overflow
 Internal error in libmng
+KCAB
+KCABISABPILCNOLCIFEDRDHDCSIDLDNEMARFTADIDNEIRDHIGNPIPOOLNGAMDNEMRDHMEVOMTSAPETLPTLPPMORPEVASKEESWOHSMRETDGKbMRHcTNveAMAgPCCitXTiDEEnBGRstXEtEMItSNRttXTz
+KEES
+KYBD
 Keyword cannot be zero-length
+LDNE
 LOOP encountered when playback cache is turned off
 Layernr out of bounds
+MARF
 MHDR simplicity indicates unsupported feature(s)
 MNG error %d: %s; chunk %c%c%c%c; subcode %d:%d
+MNG\r\n
+MORP
+MRET
+MRHc
 Mask type is invalid
 Method is invalid
 Missing IDAT chunk(s)
 Missing PLTE chunk
+NGAM
+NOLC
 NULL separator not found
 No MNG header (MHDR) found
 No error
@@ -60,8 +88,13 @@ No valid header-chunk
 Object already exists
 Object does not exist
 Out of memory
+PCCi
+PILC
+POOL
+PORD
 Palette-index out of bounds
 Parent chunk not found
+Photoshop ICC profile
 Playtime out of bounds
 QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
 QByteArray::QByteArray(char const*, int)
@@ -120,10 +153,22 @@ QVariant::constData() const
 QVariant::convert(int, void*) const
 QVariant::userType() const
 QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+RDHD
+RDHI
+RDHM
+RDRO
 Reading suspended; waiting for I/O to catch up
 Requested nEED resources are not supported
 SEEK suspension; application decides
+SNRt
+TADI
 TERM misplaced during creation of MNG stream
+TIBs
+TLPP
+TLPs
+TNve
+TSAP
+TSIh
 Target object for DHDR must be concrete
 Target object must have alpha-channel
 The CRC for this chunk is invalid
@@ -146,6 +191,8 @@ Timer suspension; normal animation delay
 Too much data in IDAT chunk(s)
 Transformation could not be initialized
 Unknown critical chunk encountered
+Unknown error
+WOHS
 Writing was unsuccessful; disk full?
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -164,6 +211,7 @@ calloc
 default
 evNT points to unknown SEEK
 free
+gADp
 invalid fieldvalue (generic)
 invalid frame/image height
 invalid frame/image width
@@ -470,11 +518,14 @@ mng_version_text
 mng_write
 operator delete(void*)
 operator new(unsigned long)
-pow
 qstrcmp(QByteArray const&, char const*)
 qt_plugin_instance
 qt_plugin_query_metadata
+sYHp
 strcmp
+tXEt
+tXTi
+tXTz
 typeinfo for QImageIOHandler
 typeinfo for QImageIOPlugin
 vtable for __cxxabiv1::__si_class_type_info

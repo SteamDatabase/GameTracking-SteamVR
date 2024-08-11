@@ -1,40 +1,7 @@
-        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
- A_A^A]
- A_A^_
-!This program cannot be run in DOS mode.
-$P<Pt	
-(L$PD
-(L$pD
-(T$@D
-(T$`D
-(\$0D
-(\$PD
-(d$ D
-(d$@D
-(l$0L
-(t$ D
-)d$@D
-)l$0D
 .?AVAitRomBootConfig@@
 .?AVUsbScsiCmd@@
 .?AVtype_info@@
-.pdata
-.text
 0000000000000000
-0A_A^[
-0A_A^_
-5 !46 !
-8A^_^[
-;\$(r
-</assembly>
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
 ??2@YAPEAX_K@Z
 ??3@YAXPEAX@Z
 ??_U@YAPEAX_K@Z
@@ -84,41 +51,6 @@ $P<Pt
 ?TUCK_WriteLog@@YAXPEA_W@Z
 ?_type_info_dtor_internal_method@type_info@@QEAAXXZ
 ?terminate@@YAXXZ
-@.data
-@.reloc
-@.rsrc
-@A^_^
-@SAVAWH
-@SUVH
-@SUVWATAUAVAWH
-@SUVWAVAWH
-@SUVWAVH
-@SVAVH
-@SVWH
-@UATAVH
-@UATH
-@UAVH
-@USATAUAVAWH
-@USATAUH
-@USAVAWH
-@USVH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAVAWH
-@USVWAVAWH
-@USVWH
-@USWAVAWH
-@UVWATAUAVAWH
-@UVWATAUAVH
-@UVWAVAWH
-@UVWH
-@UWAUAVAWH
-@UWAUAWH
-@VAUH
-@VAVH
-@VAWH
-@VWAVH
-@WAVH
 AITAPI_AitExtGet
 AITAPI_AitExtSet
 AITAPI_AudioCloseDevice
@@ -235,24 +167,6 @@ AITUVCEXT_UpdateFW
 AITUVCEXT_UpdateFW_Vision
 AITUVCEXT_UpdateFW_with_progress
 AITUVCEXT_UpdateFW_with_progressEx
-ATAVAWH
-ATAVH
-AUAVAWH
-AUAVH
-A]A\[]
-A^A\]
-A^A]A\_]
-A^A]A\_^[]
-A^A]_^]
-A^_^][
-A_A\_^]
-A_A^A\_]
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_]
-A_A^]
-A_A^_^]
 AitUVCExtApi.dll
 CloseHandle
 CoCreateInstance
@@ -263,10 +177,6 @@ ConvertNV12toBMP
 ConvertRGBtoBMP
 ConvertYUY2toBMP
 CreateFileW
-D$@E3
-D$@t-
-D$DfA
-D9l$Xt
 D:\Program Files\Microsoft SDKs\Windows\v7.1\mySamples\multimedia\directshow\AIT camera\AitUVCExtApi\x64\Release\AitUVCExtApi.pdb
 DecodePointer
 DeleteCriticalSection
@@ -283,42 +193,23 @@ GetModuleFileNameW
 GetPrivateProfileIntW
 GetSystemTimeAsFileTime
 GetWindowsDirectoryW
-H3E H3E
-H9\$0u
-HcH<H
 InitializeCriticalSectionAndSpinCount
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J\rr3u
 KERNEL32.dll
-L$ E3
-L$(E3
-L$(H3
-L$0E3
-L$0H3
-L$8E3
-L$8H3
-L$>fA
-L$@E3
-L$@H3
-L$HH3
-L$XH3
-L$`E3
-L$`H3
-L$hH3
-LcA<E3
 LocalFree
+MJPG
 MSVCR120.dll
 MessageBoxW
 NV12_to_RGB
 OLEAUT32.dll
 OutputDebugStringW
-P@9\$(v0f
-PA_A^A\_^[]
-PA_A^_^]
 PackWavFile
 PathRemoveFileSpecW
 PeekMessageW
 QueryPerformanceCounter
+RSDS
 SECSAPI_FirmwareBuildDay
 SECSAPI_GetEndpointSetting
 SECSAPI_GetVersion
@@ -326,29 +217,10 @@ SECSAPI_SetStreamID
 SECSAPI_StreamFormatProbeCommit
 SECSAPI_ToggleLayerControl
 SHLWAPI.dll
-SVWAVH
 Sleep
-T$PE3
-T$`E3
 TranslateMessage
 USER32.dll
-UVWATAUAVAWH
-UVWATAWH
-UVWAUAVH
-UVWAVAWH
-UWAVH
-V2BCf
-V2FWf
-VSN2A
-VSN_D
-VWAVH
 VYUY2
-XA_A^[]
-XA_A^_^[]
-XA_A^_^][
-\$ UH
-\$ WH
-\$Xv H
 __C_specific_handler
 __CppXcptFilter
 __CxxFrameHandler3
@@ -370,41 +242,18 @@ _unlock
 _wcsicmp
 _wfopen
 _wfopen_s
-` AUAVAWH
-`.rdata
-`A^^[
-`A^_^
-dataA
 fclose
 fread
+free
 fseek
 ftell
 fwprintf
 fwrite
-hA^A]A\_^]
-hA_A^A]A\[]
-l$ VH
 malloc
 memcpy
 memset
 ole32.dll
-pA_A^A\
-pA_A^A\_^[]
-pA_A^A]
-pA_A^_[]
-rZI9>t
 strcpy_s
 swprintf_s
-t$ UWATAUAVH
-t$ UWATAVAWH
-t$ WAVAWH
-t$ WH
 vswprintf_s
-w_D8B
 wcscpy_s
-x AVH
-xA_A]_]
-x_^[]
-|$ UAVAWH
-|$ UH
-|$XfE

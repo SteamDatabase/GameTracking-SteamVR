@@ -1,53 +1,21 @@
-	!s99
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- %41g
- 4(40484@4H4P4X4`4h4p4x4
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
- `B;V
  delete
  delete[]
- lB;j
- new[]
-!A;w&B;
-!hn7!
-"B <1=
-#.X'=
-$lB;VW
+ new
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%@`B;
-%S#[k
-%s%c%s
-%s\%s
+%llu
 %u.%u.%u.%u:%i
-',=?k
+&Sgw
 'sK#F
-(Ht5F
-(HtMf
-(Y$Yd
-(`B;H
-(`B;j
-(f*^[0
 (null)
-*tD=+
-*t`=+
-+Xt@(
-+o'q)}
-,0<	v
-,0<	w
-,W5y+
-,`B;V
-,`B;j
-,aB;_^
-,{B;$
--151s1{1
--jd_;
 .00cfg
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
@@ -78,6 +46,7 @@ $lB;VW
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .data$rs
@@ -93,294 +62,36 @@ $lB;VW
 .rdata$sxdata
 .rdata$voltmd
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata$x
-0$000<0H0T0`0l0x0
-0'0-02080N0S0^0d0
-0+0\0
-00050
-000P0p0
-010M0W0a0o0
-011Q1
 0123456789ABCDEF
-0H8a8
-0L1b1
-0^_[]
-0h0l0p0t0x0|0
-0w0c1
-0}0i1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-1 1,181D1P1\1h1t1
-1 121l1
-1!152e2
+0TB;
+0xB;
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1(181<1D1\1l1p1
-1$1D1M1_1q1w1
-1+2024282<2
-101P1p1
-112v2
-130801120000Z
-141T1t1
-1:2t2
-1;1I1U1a1u1
-1G2Y2k2
-1K2b2
-1f1o1}1
-1f1{1
-2 2+2
-2!3Y3q3
-2%2:2O2V2\2n2x2
-2&242@2L2Z2j2
-2'2-2B2M2R2
-2,2<2@2P2T2X2\2`2h2
-2,343h3
-202P2p2
-210429000000Z
-211007000000Z
-213;3J3m3
-220323000000Z
-220801000000Z
-230714000000Z
-230911204839Z0/
-241009235959Z0a1
-242T2t2
-262F2Z2_2d2
-2?3S3v3
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2a2q2
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2p3t3|3
-3 3$34383H3L3P3T3X3`3x3|3
-3!313A5
-3"3(4
-3$3,343<3D3L3T3\3d3l3t3|3
-3&434B4W4a4t4{4
-3'3d3
-3+32393H3^3x3
-3,373<3A3\3k3v3{3
-3,4P4t4
-3-4I4
-3.3B3K3
-303@3P3`3p3
-311109235959Z0b1
-341013235959Z0H1
-343T3t3
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3A;*4A;84A;D4A;e4A;
-3H4x4
-3mq+<
-4 4$4(404H4X4\4l4p4t4|4
-4 4(40484@4H4P4X4`4h4p4x4
-4#404@4G4M4W4f4n4z4
-4$4,444<4D4L4T4\4d4l4t4|4
-4)51595A5I5g5o5
-40:4:8:<:@:D:H:L:P:T:`:d:h:l:p:t:x:|:
-444T4t4
-454;4T4b4r4x4
-4:4E4r4
 4B;dAB;
-4D5S5
-4E5N5
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4l4q4v4{4
-5	6)6p6
-5 5(50585@5H5P5X5`5h5p5x5
-5!5&5,555<5G5M5T5g5
-5!5'535:5>5E5S5Z5^5e5r5
-5!6u6}6
-5"5&5<>D>L>T>\>d>l>t>|>
-5$5,545<5D5L5T5\5d5l5t5|5
-5$525;5B5L5W5d5o5|5
-5%6?6D6l8
-5&5+545;5C5H5Q5_5u5|5
-5(5,5054585<5l5p5t5x5|5
-5,5<5@5P5T5X5`5x5
-5-5C5P5U5c5
-507v7
-5A;*5A;I5A;`5A;o5A;~5A;
-5FjiT
-5Genu
-5Q5k5
-5U5[5c5q5
-5X)v)
-5c7k7
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5ineI
-5x6|6
-5xsB;
-6 6(60686@6H6P6X6`6h6p6x6
-6 6D6L6Q6[6u6}6
-6#646F6U6
-6$6,646<6D6L6T6\6d6l6t6|6
-6$666H6Z6l6~6
-6*f(_
-6/:5;=;t;{;
-686A6J6P6W6^6e6l6s6z6
-686^6x6
-6<9{9
-6=6J6k6p6
-6I]Dc
-6OB,n_
-6P7T7X7\7`7d7h7l7p7t7x7|7
-6P7h7
-6T7]7
-6[6n6
-7 7(70787@7H7P7X7`7h7p7x7
-7"7*7
-7"707K7c7
-7$7,747<7D7L7T7\7d7l7t7|7
-7$7-72787@7H7M7W7\7b7j7r7
-7+7J7V7
-7.8p8
-7/7d8-9
-70503
-747B7Q7m7t7z7
-747S7,8
-7=8Q8
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8 8(80888@8H8P8X8`8h8p8x8
-8$8,848<8D8L8T8\8d8l8t8|8
-8)8E8[8
-8-9J9b9l9u9
-8330923P
-898F8M8W8b8n8u8~8
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+4wB;
+4xB;
 8TB;"
-8|B;*
-9 9(90989@9H9P9X9`9h9p9x9
-9!919A9Q9a9q9
-9":7:=:D:O:U:\:h:o:u:
-9$9,949<9D9L9T9\9d9l9t9|9
-9%9A9Q9f9t9y9~9
-9%9y9
-9&999Z9g9
-9):a:
-9E WW
-9J;|;
-9K9^9r9}9
-9M:g:t:
-9d9k9r9y9
-9p u"
-9wLt	
-9~8~Q
-: :(:0:8:@:H:P:X:`:h:p:x:
-:!:1:A:Q:
-:%:-:h:r:{:
-:1:w:
-::;S;
-:A:_:d:t:~:
-:B:];	<
-:M;_;e;
-:Q:h:
-:b;&?
-:t:}:
-; ;(;0;8;
-; ;,;L;T;`;
-; ;@;`;
-;#;6;L;
-;%;7;=;G;V;i;
-;%<0>5>_>{>
-;(;2;p;
-;(;C;Y;j;
-;+<,=<=M=U=e=v=
-;-;=;B;L;Q;\;g;{;
-;-=7=
-;4<G<j<
-;7t=S
-;<;l;
-;D<$=}=M?
-;P;W;
-;n<u<
-< <(<0<4<<<P<X<`<h<l<p<x<
-< =5=G=T=m=
-< t3<	t/
-<!=<=v=
-<"<B<
-<%<*<3<z<
-<+=b=g=l=
-<-<4<><K<j<o<u<}<
-<0:08
-<1<9<E<K<R<Z<`<g<
-<8<B<[<q<
-<=upG8
-<ItC<Lt3<Tt#<h
-<ItM<Lt:<Tt'<h
-<N<[<
-<SVWhpqB;j
-<`B;2
-<`B;3
-<`B;]
-<aB;]
-<at.<rt!<wt
-<et	<pu
-<{<	=.=z=
-= =$=(=,=0=4=8=<=@=D=H=L=
-= =p=
-=&>->N>w>
-=,=0=P=X=\=x=
-=0=a=
-=0>Y>
-=1=A=
-=1>@>L>[>n>
-=2=9=A=I=Q=Y=
-=2=F=
-=8`B;
-=<`B;
-=@>J>P>r>
-=A=J=W=]=c=
-=I?o?
-=]?y?
-=rIQU
->	?&?_?t?
-> >$>,>0>4>8><>@>D>H>T>\>d>h>l>p>t>
-> >(>0>4><>P>p>
->(>6>=>C>^>e>
->,>:>@>F>L>R>X>_>f>m>t>{>
->0<0:
->=>J>}>
->M?`?
->Mp$d
->V>q>y>
-?#?r?
-?%?.?7?b?
-?'?1?T?^?
-?(?/?3???I?W?]?q?v?|?
-?0?8?B?J?Q?Y?a?i?r?
-?0?L?P?p?
-?2?Y?
+8xB;
+8zB;
+=87M
 ?5Wg4p
-?<lt <tt
-?=?h?
-?T?g?
-@.data
-@.reloc
 @;appid
-@_^[]
-@`B;^]
-@b;zO]
-A1<Fu
-A<lt'<tt
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AppPolicyGetProcessTerminationMethod
@@ -389,33 +100,13 @@ AreFileApisANSI
 August
 B;INF
 B;Sun
-B;_^[]
-B;h(gB;j
 B;sinh
-B;t'@
-BC .=
-BVj(j
-Bellevue1
 Breakpad_SteamMiniDumpInit
 Breakpad_SteamSetAppID
 Breakpad_SteamSetSteamID
 Breakpad_SteamWriteMiniDumpSetComment
 Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
-C;9>t
-C;Phx
-C;^8u
-C;^[|
-C;_^[3
-C;h4hB;hDhB;h
-C;hDrB;
-C;hdrB;
-C;hhcB;
-C;hxcB;
-C;j@P
-C;peB;t
-C;t4h
-CR%(`
-Calling BreakpadMiniDumpSystemInit
+Calling BreakpadMiniDumpSystemInit\n
 Can't determine AppID
 Cannot create IPC pipe to Steam client process.  Steam is probably not running.
 CloseHandle
@@ -426,28 +117,14 @@ CreateEventW
 CreateFileW
 CreateInterface
 CreateLocalUser failed
-D8(Ht'
-D`B;h
 December
 DecodePointer
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
+DxB;
 EncodePointer
 EnterCriticalSection
 ExitProcess
-F1<at
-F1<gt
-F2jgYf;
-F4_^[
-F4_^[]
-FFG;}
-FVWj	
+FEMh\f
 Failed to load module '%s'
 February
 FindClose
@@ -458,7 +135,7 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-Forcing breakpad minidump interfaces to load
+Forcing breakpad minidump interfaces to load\n
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
@@ -493,23 +170,21 @@ GetStartupInfoW
 GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
-H-^Eu
-H0M0S0X0
 HH:mm:ss
+HKCR
+HKCU
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER
 HKEY_LOCAL_MACHINE
-H`B;]
-H`B;^]
+HKLM
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-HwB;	
-H}B;]
+HwB;\t
+HxB;
 IND)ind)
 INITY
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitGameServer failed
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
@@ -520,31 +195,22 @@ InterlockedFlushSList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
-J>@G_
 January
-Jjl^f;
+July
+June
 KERNEL32.dll
-K}*n:	
-L?n(Zy&
 LCMapStringEx
 LCMapStringW
-L`B;]
-L`B;^]
-L`B;_^]
-L`B;j
-LaB;3
 LauncherPath
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryExA
 LoadLibraryExW
 LocaleNameToLCID
-Looking up breakpad interfaces from steamclient
-MB(iVR
+Looking up breakpad interfaces from steamclient\n
+LxB;
+LyB;
 MM/dd/yy
 March
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Monday
 MultiByteToWideChar
 NAN(IND)
@@ -555,25 +221,7 @@ November
 October
 OpenProcess
 OutputDebugStringA
-PADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
-PAq=?Mp#
-PP9E u:PPVWP
-PPPPP
-PPPPPPPP
-PPPPPWS
-PSj W
-PaB;]
-Ph4hB;hDhB;h
-PhLiB;S
-PhXkB;
-PhhkB;
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Ph|kB;
-Pz}b!
-QQSVW
-QQSVWd
-QQSVj8j@
-QSj W
+PxB;
 QueryPerformanceCounter
 RSDSO
 RaiseException
@@ -583,15 +231,10 @@ RegCloseKey
 RegOpenKeyExW
 RegQueryValueExW
 ResetEvent
+RrA;
 RtlUnwind
-S0Q0O
-SA|X=G
 SHELL32.dll
 SNAN)
-SPSVQ
-SPjdVQ
-SSSSS
-SSSSj
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
 STEAMHTMLSURFACE_INTERFACE_VERSION_005
@@ -606,8 +249,6 @@ STEAMSCREENSHOTS_INTERFACE_VERSION003
 STEAMUGC_INTERFACE_VERSION018
 STEAMUSERSTATS_INTERFACE_VERSION012
 STEAMVIDEO_INTERFACE_V003
-SVWh 
-SWj P
 Saturday
 September
 SetEndOfFile
@@ -617,8 +258,7 @@ SetFilePointerEx
 SetLastError
 SetStdHandle
 SetUnhandledExceptionFilter
-Setting breakpad minidump AppID = %u
-Sh<jB;j
+Setting breakpad minidump AppID = %u\n
 ShellExecuteW
 SleepConditionVariableCS
 Software\Valve\Steam
@@ -1705,8 +1345,8 @@ SteamInternal_CreateInterface
 SteamInternal_FindOrCreateGameServerInterface
 SteamInternal_FindOrCreateUserInterface
 SteamInternal_GameServer_Init_V2
-SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]
-SteamInternal_SetMinidumpSteamID:  Setting Steam ID:  %lld
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
+SteamInternal_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
 SteamInternal_SteamAPI_Init
 SteamMatchGameSearch001
 SteamMatchMaking009
@@ -1728,72 +1368,46 @@ Steam_IsKnownInterface
 Steam_NotifyMissingInterface
 Steam_ReleaseThreadLocalMemory
 Sunday
-SwetV
-TaB;]
 TerminateProcess
-TgB;SVf
-TgB;t
 Thursday
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Tt)jhZf;
 Tuesday
-T{B;%
-UQPXY]Y[
-URPQQhp
+TwB;\n
+TxB;
+TzB;
 UTF-16LEUNICODE
 UTF-8
-Unable to locate interface factory in %s.
+Unable to locate interface factory in %s.\n
 UnhandledExceptionFilter
-Using breakpad crash handler
-V2jx_f;
-V@j0P
-VWh(lB;P
-V_~]	,
-Valve Corp.0
-Valve Corp.1
-Vh4jB;
-Vh4jB;S
-Vh<jB;h
-W8^.u<
-WSVPP
-WWWWW
+Using breakpad crash handler\n
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Washington1
 Wednesday
 WideCharToMultiByte
-Wj0XPV
 WriteConsoleW
 WriteFile
-Y9"SD
-Y_[^]
-Z!ig}
-[K]taM?
-[S_API FAIL] Standard callback dispatch cannot be used; manual dispatch has already been selected.
-[S_API FAIL] SteamAPI_ManualDispatch_GetNextCallback() Cannot be used, must call SteamAPI_ManualDispatch_Init first.
-[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used yet, must init library first.
-[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used, standard dispatch has already been selected.
-[S_API FAIL] SteamAPI_ManualDispatch_RunFrame() Cannot be used, must call SteamAPI_ManualDispatch_Init first.
-[S_API FAIL] SteamAPI_RegisterCallResult cannot be used; manual dispatch has already been selected.
-[S_API FAIL] SteamAPI_RegisterCallback cannot be used; manual dispatch has already been selected.
-[S_API FAIL] Tried to access Steam interface %s before SteamAPI_Init succeeded.
-[S_API] SteamAPI_Init(): %s
-[S_API] SteamAPI_Init(): Loaded '%s' OK.
-[S_API] SteamAPI_Init(): Loaded '%s' OK.  (First tried local '%s')
-[S_API] SteamAPI_Init(): Loaded local '%s' OK.
-[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
+X/4B
+XxB;
+[S_API FAIL] Standard callback dispatch cannot be used; manual dispatch has already been selected.\n
+[S_API FAIL] SteamAPI_ManualDispatch_GetNextCallback() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
+[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used yet, must init library first.\n
+[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used, standard dispatch has already been selected.\n
+[S_API FAIL] SteamAPI_ManualDispatch_RunFrame() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
+[S_API FAIL] SteamAPI_RegisterCallResult cannot be used; manual dispatch has already been selected.\n
+[S_API FAIL] SteamAPI_RegisterCallback cannot be used; manual dispatch has already been selected.\n
+[S_API FAIL] Tried to access Steam interface %s before SteamAPI_Init succeeded.\n
+[S_API] SteamAPI_Init(): %s\n
+[S_API] SteamAPI_Init(): Loaded '%s' OK.  (First tried local '%s')\n
+[S_API] SteamAPI_Init(): Loaded '%s' OK.\n
+[S_API] SteamAPI_Init(): Loaded local '%s' OK.\n
+[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.\n
 [aOni*{
-\0.F;
-\`B;H=
 \steam.exe
-\u	@B
-\u	@G
-]J<0"0i3
+\tcQr
 ^<V7w
-_^tWh
 __based(
 __cdecl
 __clrcall
@@ -1809,19 +1423,10 @@ __thiscall
 __unaligned
 __vectorcall
 _cabs
-_gUT^
 _hypot
 _logb
 _nextafter
-`.rdata
-`B;1E
-`B;^]
-`B;_[
-`B;_^[]
-`B;h	
-`B;hTsB;V
 `RTTI
-``B;P
 `anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
@@ -1832,8 +1437,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`jB;_f
-`jB;f
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -1859,126 +1462,62 @@ _nextafter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a7hIw
-aB;VQ
-aB;h4jB;S
-aB;h4jB;V
-aB;h|aB;
 abcdefghijklmnopqrstuvwxyz
+acos
+asin
+atan
 atan2
 bad allocation
 bin\audio.dll
 bin\clientui.dll
 c:\buildslave\steam_rel_client_win32\build\src\steam_api\Release\steam_api.pdb
-d3@~x
-dB;h4jB;V
-d`B;V
+ceil
+cosh
+d8L2
 dddd, MMMM dd, yyyy
+dxB;
+dzB;
 e+000
-eB;j 
 eLK(w
-f9:t!V
-f9<H}
 fB;(fB;<fB;PfB;hfB;DgB;
-fhA;nhA;vhA;
+fB;a
+fabs
 floor
+fmod
 frexp
-ft&9q
 g_pSteamClientGameServer
 gameoverlayrenderer.dll
-h UB;
-h cB;
-h mB;P
-h nB;hDhB;h
-h!{A;
-h(nB;
-h,hB;V
-h,iB;P
-h0bB;
-h0pB;
-h4dB;
+h0'D
 h@;Steam_BGetCallback
-hA;rhA;
-hDrB;Q
-hETB;d
-hHbB;
-hHcB;
-hHmB;P
 hTB;"
-hXbB;
-hXeB;
-hXkB;
-h`B;_[]
-h`dB;
-h`oB;
-hdkB;P
-hdmB;P
-hhcB;
-hhhB;P
-hhiB;P
-hhkB;
-htkB;P
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
-huTB;d
-hxcB;
-h|kB;
-h|mB;P
-h|sB;
+hxB;
+hzB;
 inity
-iu+-,
-j0Yf;
-j:Xf;
-jAXf;
-jAZjX
-jA[f;
-jGYf;
-jXXf;
-jg[jG
-jj@0HK4
-jj^f;
-k0i0$
-l2|X/gGe
-l3A;~3A;
-l`B;]
-l`B;^
-laB;=
-laB;YZX
+k=yI
+laB;
 ldexp
 log10
-m0k0$
+lwB;\f
+lxB;
+lyB;
+lzZ?
+m\nXo
 map/set too long
+modf
 nan(ind)
 nan(snan)
-o@;Ph@;0
 obwQ4
 operator
 operator "" 
 operator co_await
 operator<=>
-p`B;_^[]
-peB;t
-peB;t	V
-pwEt3
-pwMt?
-qB;hx
-r5f;u
-r;f;u
-rGf;u
-rMf;u
-rYf;u
-r_f;u
+owM&
+pxB;
+pzB;
+qB;P
 restrict(
-rkf;u
-rqf;u
-r}f;u
-sE<{t\<}tX<"u2B3
-sE<{t_<}t[<"u2C3
-sQ|$u#}ex
 snan)
+sqrt
 steam.dll
 steam2.dll
 steam://run/%u
@@ -1989,49 +1528,11 @@ steamclient.dll
 steamclient64.dll
 steamconsole.dll
 steamui.dll
-t hxaB;hpaB;
-t"VWhtlB;j
-t"h(gB;P
-t"h@qB;j
-t-_^2
-t1RWV
-t3bMR
-tFh8sB;V
-t`B;^]
-t`B;h
-tsB;t
-t~SSS
-u*h(gB;h gB;
-u,PQRS
-u2f9B
-uUf9B
-uf_^[
-v	N+D$
+tanh
+tsB;
+txB;
 v2!L.2
-v=Y]Bv
-w>t6;
-wIPS3
-www.digicert.com1!0
-www.digicert.com1$0"
 x@;Unknown exception
 x@;bad array new length
 x@;bad exception
-xE;5h
-x`B;P
-x`B;j
-xfB;h
-xg;5h
-xi;5h
-y<ln}
-zSSSSj
-{un'%
-|Lu?c
-|`B;^
-|`B;h
-|wB;	
-|{B;+
-}LuHO
-~ $s%r
-~1WPQ
-~qj#k"
-~t&LN
+xxB;

@@ -1,61 +1,50 @@
+ %f elapsed w/o i/o\n
+ ( def. "%s" )
+ CAsyncRequestQueue destructor called while queue was not empty
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
+ fnumber=%d ofs=0x%x sz=%d
+ need to hook up zip for linux
 !pRequest->m_bUsedAsContext
 !pRequestBase->m_bUsedAsContext
-"
-"%s"
 "%s" = "%s"
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
 $@CFioReadOnlyFile::FS_fread
 $ORIGIN
-%
-%-120s
-%-120s - %s
-%-20s "%s" %s%s
-%-20s %s
+%-120s - %s\n
+%-120s\n
+%-20s "%s" %s%s\n
 %d_%d_%d_%d_%d.tmp
 %f %f %f %f
-%f elapsed w/o i/o
-%hd
-%hu
 %i %i %i %i
-%lg
 %lld
 %ls [wstring, len = %d]
-%s %20s %30s = %8.2fms (call count = %d)
-%s%d
+%s %20s %30s = %8.2fms (call count = %d)\n
 %s%s%s crc=0x%x metadatasz=%d
-%s,
-%s, %s, %s
+%s, %s, %s\n
 %s.360%s
-%s/
 %s/%llu
 %s/%llu.vpk
-%s: file too large
-%s: request %llu has op %d
-%s: string format requested %d chars
+%s: file too large\n
+%s: request %llu has op %d\n
+%s: string format requested %d chars\n
 %s_%03d.vpk
-%u
-( def. "%s" )
-(*%s*),
 (Unique   ): [%s]\%s
-(vpk)
-*.*
-- %u
----------------
----FS%s:  %s %s (%.3f)
----FS%s:  close %s %p %i (%.3f)
----FS%s:  read %s %i %p (%.3f)
----FS%s:  write %s %i %p
+---------------\n
+---FS%s:  %s %s (%.3f)\n
+---FS%s:  close %s %p %i (%.3f)\n
+---FS%s:  read %s %i %p (%.3f)\n
+---FS%s:  write %s %i %p\n
 -disable_auto_vpk_loading
 -fake_workshop_dir
 -log_opened_files
 -noasync
 -onethreadpool
-...
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
@@ -64,9 +53,8 @@ $ORIGIN
 ../public/tier1/utlrbtree.h
 ../public/tier1/utlsymbol.h
 ../public/tier2/fileutils.h
-./
 .360
-.\
+.A(Duplicate): [%s]\%s
 .bsp
 .zip
 /content/
@@ -98,7 +86,6 @@ $ORIGIN
 15CTier2AppSystemI11IFileSystemLi0EE
 15CTier2AppSystemI16IAsyncFileSystemLi0EE
 15IBaseFileSystem
-16
 16CAsyncFileSystem
 16CDefaultAccessor
 16CFioReadOnlyFile
@@ -129,12 +116,12 @@ $ORIGIN
 25CFileSystemReloadFileList
 26CDefaultKeyValuesErrorSpew
 26CFileAsyncDirectoryScanJob
+5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
 9IFileList
-;
-<< NULL >>
+<< NULL >>\n
 <Invalid file time %lld>
 <NULL>
 <deferred>
@@ -142,16 +129,17 @@ $ORIGIN
 <no failure reason set>
 <null>
 <unconnected>
-???
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+>/game/
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 AWATING_FINISH
 AbortAfterServicing
-Aborting IO request for %s
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Aborting IO request for %s\n
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
 Add N ms of delay to every low-level read operation, to simulate a slow disk
-Adding VPK file: %s
-Addreffing existing VPK file: %s
+AddRef
+Adding VPK file: %s\n
+Addreffing existing VPK file: %s\n
 Alignment
 AllocInternal
 Allow AsyncBegin/EndRead()
@@ -159,20 +147,21 @@ AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssertMsg_ConditionFailed
-Assertion Failed in function %s():%s
+Assertion Failed in function %s():\n%s
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
+Async I/O disabled from command line\n
 Async Request has not finished, unable to release (state=%i)
 Async result Status %d makes no sense
 AsyncIOCallBackHandler
-Attempted to mount UGC VPK "%s" but the UGC it lives inside (%llu) must be mounted first!
-Attempted to mount VPK "%s" but the VPK it lives inside ("%s") must be mounted first!
-Attempting to read UGC %llu but Steam isn't available!
-Attempting to read UGC %llu but failed to get installation directory.
-Attempting to read UGC %llu but failed to open vpk file: %s
-Attempting to read UGC %llu that isn't installed! Need to finish downloading first...
+Attempted to mount UGC VPK "%s" but the UGC it lives inside (%llu) must be mounted first!\n
+Attempted to mount VPK "%s" but the VPK it lives inside ("%s") must be mounted first!\n
+Attempting to read UGC %llu but Steam isn't available!\n
+Attempting to read UGC %llu but failed to get installation directory.\n
+Attempting to read UGC %llu but failed to open vpk file: %s\n
+Attempting to read UGC %llu that isn't installed! Need to finish downloading first...\n
 Bad Release Request
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
@@ -182,12 +171,11 @@ BakedLODBuilderMgr001
 Basefilesystem Async Job submission failed
 BenchmarkService001
 BinaryProperties_GetValue
-Blocked change to read-only path %s!
+Blocked change to read-only path %s!\n
 Buffer not big enough to hold requested File IO
 BuildHashTables
 CAsyncFileRequest::GetProfilingInfo called with bad buffer size (%d passed, expecting %llu)
 CAsyncRequestBase::ProcessCallback callback function:  %8.3f msec (>10): %s
-CAsyncRequestQueue destructor called while queue was not empty
 CBaseFileSystem::Close
 CBaseFileSystem::EnableWhitelistFileTracking called more than once.
 CBaseFileSystem::FPrintf
@@ -232,8 +220,8 @@ CBufferString::StripExtension()
 CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CFileAsyncJob
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
@@ -271,34 +259,34 @@ CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::Wait(unsigned int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
-CUtlBlockMemory overflow!
-CUtlFixedMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlBlockMemory overflow!\n
+CUtlFixedMemory overflow!\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CVProfNode::EnterScope()
 CVProfNode::ExitScope()
 CVProfNode::GetSubNode(char const*, int, char const*, int)
 CXXABI_1.3
 Callback called at wrong time (%d)
 Can't find completed Async IO request, request description %s
-Cannot open %s for writing
-Cannot rename file "%s" that exists in a VPK or UGC file!
-Cannot rename file "%s" that exists in a read only search path!
+Cannot open %s for writing\n
+Cannot rename file "%s" that exists in a VPK or UGC file!\n
+Cannot rename file "%s" that exists in a read only search path!\n
 ChangeSize
 Clear the list of files that have been opened.
 CommandLine
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
-CopyAFile: Cannot copy into a VPK or UGC file '%s'
-CopyAFile: Failed to copy file %s.
-CopyAFile: dest '%s' must be absolute path.
+CopyAFile: Cannot copy into a VPK or UGC file '%s'\n
+CopyAFile: Failed to copy file %s.\n
+CopyAFile: dest '%s' must be absolute path.\n
 CreateFile
 CreateInterface
 CreateNewThreadPool
@@ -340,28 +328,28 @@ EnableWhitelistFileTracking
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 EventSystem001
-Exceeded limit of number of vpk files supported (%d)!
-FATAL ERROR: unable to register all schema data: %s
+Exceeded limit of number of vpk files supported (%d)!\n
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-FS:  Tried to Close NULL file handle!
-FS:  Tried to EndOfFile NULL file handle!
-FS:  Tried to FPrintf NULL file handle!
-FS:  Tried to Flush NULL file handle!
-FS:  Tried to IsOk NULL file handle!
-FS:  Tried to IsOk NULL file pointer inside valid file handle!
-FS:  Tried to Read NULL file handle!
-FS:  Tried to ReadLine NULL file handle!
-FS:  Tried to SetBufferSize NULL file handle!
-FS:  Tried to Size NULL file handle!
-FS:  Tried to Size NULL filename!
-FS:  Tried to Tell NULL file handle!
-FS:  Tried to Write NULL file handle!
-FS:  Tried to Write NULL file pointer inside valid file handle!
-FS: Specified two path IDs (%s, %s).
+FS:  Tried to Close NULL file handle!\n
+FS:  Tried to EndOfFile NULL file handle!\n
+FS:  Tried to FPrintf NULL file handle!\n
+FS:  Tried to Flush NULL file handle!\n
+FS:  Tried to IsOk NULL file handle!\n
+FS:  Tried to IsOk NULL file pointer inside valid file handle!\n
+FS:  Tried to Read NULL file handle!\n
+FS:  Tried to ReadLine NULL file handle!\n
+FS:  Tried to SetBufferSize NULL file handle!\n
+FS:  Tried to Size NULL file handle!\n
+FS:  Tried to Size NULL filename!\n
+FS:  Tried to Tell NULL file handle!\n
+FS:  Tried to Write NULL file handle!\n
+FS:  Tried to Write NULL file pointer inside valid file handle!\n
+FS: Specified two path IDs (%s, %s).\n
 Failed
-Failed to load module %s
-Failed to read %d bytes
-File %s was never closed
+Failed to load module %s\n
+Failed to read %d bytes\n
+File %s was never closed\n
 File '%s' was returned by GetFileList, but OpenFile() fails?!
 File Path:
 File System
@@ -373,7 +361,7 @@ FontManager_001
 Fopen
 FormatV
 Fread
-From Steam: [%s]\%s
+From Steam: [%s]\%s\n
 GAMECONSOLE
 GAMEROOT
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
@@ -382,7 +370,6 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -405,27 +392,27 @@ IQuickTime001
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
+Intentionally vague touch behavior for %p\n
 Invalid Path
-Invalid access of deferred ConVarRef for '%s'
-Invalid async read of %s
-JSON error, unterminated element:
+Invalid access of deferred ConVarRef for '%s'\n
+Invalid async read of %s\n
+JSON error, unterminated element: 
 KV Conditional Evaluation Error
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 KickOffFileJobs
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
 LengthOfMatchingPaths
-Linux/platform issue - filename '%s' contains uppercase
+Linux/platform issue - filename '%s' contains uppercase\n
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LogBadInnerOp
@@ -437,7 +424,6 @@ LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
 Loose
 MATCHFRAMEWORK_001
-MOD
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
@@ -447,6 +433,7 @@ MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
 ModelDocUtils001
+Modifying Async Filesystem Request after it has been submitted
 MustRead
 NULL
 NetworkClientService_001
@@ -457,13 +444,11 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
-OK
-OSX
-Open( %llu microsecs, %s )
-Open( %s )
+Open( %llu microsecs, %s )\n
+Open( %s )\n
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 POSIX
-PS3
-Packed store %s with refcount > 0.
+Packed store %s with refcount > 0.\n
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -504,13 +489,13 @@ Preload size for '%s' is too big
 PreloadDirectoryEntries
 ProcessCallback
 PropertyEditorSystem_001
+Push
 QueuedLoaderVersion001
 RandomInt
 ReadFile
 ReadFileEx
 ReadToBuffer
-ReadToken overflow
-Reading UGC %llu that still needs update. Continuing...
+Reading UGC %llu that still needs update. Continuing...\n
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -518,17 +503,17 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Release
 ReleaseAsyncRequest
-Removing VPK file: %s
+Removing VPK file: %s\n
 RenderDevice003
 RenderDeviceMgr001
 RenderHardwareConfig002
 RenderService_001
 RenderSystemSurface001
 RenderUtils_001
-Requested non-existent write path %s!
+Requested non-existent write path %s!\n
 ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
@@ -544,7 +529,7 @@ SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
-Sending Steam API content notification
+Sending Steam API content notification\n
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was spent reading from them.
@@ -590,27 +575,28 @@ ThreadGetPriority
 ThreadInMainThread
 ThreadSetPriority
 ThreadSleep
+Times Opened: %3i\t\tAccumulated Time: %10.5fms\t\tAverage Time per Open: %13.8fms\t\tFile: %s\n
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-Total Seconds: %.5f
-Tried to Seek NULL file handle!
-Tried to close unknown file pointer %p
-Tried to read %i bytes from unknown file pointer %p
-Tried to write %i bytes from unknown file pointer %p
+Total Seconds: %.5f\n
+Tried to Seek NULL file handle!\n
+Tried to close unknown file pointer %p\n
+Tried to read %i bytes from unknown file pointer %p\n
+Tried to write %i bytes from unknown file pointer %p\n
 UNKNOWN
 UNKNOWN VALUE
 Unable to determine async job type (%d)
-Unable to remove %s!
-Unable to rename "%s" to "%s"!
-Unable to watch '%s'
+Unable to remove %s!\n
+Unable to rename "%s" to "%s"!\n
+Unable to watch '%s'\n
 Unknown
 Unknown Path Class
 Unknown Request
-Unknown read error %d
+Unknown read error %d\n
 Unknown version %d for vpk %s
 UnzipFile
 UpdateAfterServicing
@@ -637,7 +623,6 @@ VMaterialSystem2_001
 VMediaFoundation001
 VNewAsyncFileSystem001
 VP4003
-VPK
 VPK directory for '%s' corrupt
 VPK signing not implemented
 VPhysX Interface ResourceMgr v0.1
@@ -720,32 +705,28 @@ ValidateLiveness
 ValidateSubmittedRequest
 Version
 VisBuilder_001
-WARNING: File might be corrupt or missing - '%s'
-WARNING: Local content might be corrupt or missing files
-WARNING: Local content might be corrupt or missing files. Not reporting to Steam due to disabled reporting.
+WARNING: File might be corrupt or missing - '%s'\n
+WARNING: Local content might be corrupt or missing files. Not reporting to Steam due to disabled reporting.\n
+WARNING: Local content might be corrupt or missing files\n
 WIN32
 WINDOWS
 WINXP
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
-Whitelist -       reload %s
-Whitelist -       reload (absolute path) %s
-Whitelist - don't reload %s
-Whitelist - don't reload (unheard-of-file) %s
+Warning:  %s = '%s' is infinite, clamping value.\n
+Whitelist -       reload %s\n
+Whitelist -       reload (absolute path) %s\n
+Whitelist - don't reload %s\n
+Whitelist - don't reload (unheard-of-file) %s\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 X360
-XZP
 XZP%c %d
 ZIP_EndOfCentralDirRecord
 ZIP_FileHeader
 ZIP_LocalFileHeader
 ZIP_PreloadDirectoryEntry
 ZIP_PreloadHeader
-[%.3f server clamped to %.3f]
-[a]
-\*
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -784,8 +765,6 @@ _edata
 _end
 _fini
 _flt.vpk
-a+
-ab+
 alphasort64
 archive
 async_allow_held_files
@@ -812,17 +791,15 @@ clientcmd_can_execute
 closedir
 commentLength
 compressionMethod
+configvalue.cpp
 console.log
 content
 crc32
-d
 delete
 developer
 diskNumberStart
-dup
 externalFileAttribs
 extraFieldLength
-f
 fcntl
 fdatasync
 fileCommentLength
@@ -839,11 +816,10 @@ filetime
 flags
 float( %f )
 flock
-fnumber=%d ofs=0x%x sz=%d
 free
 fs_clear_open_duplicate_times
 fs_debug
-fs_debug:
+fs_debug: 
 fs_dump_open_duplicate_times
 fs_fake_read_delay_ms
 fs_monitor_read_from_pack
@@ -864,7 +840,6 @@ int( %d = 0x%X )
 interfaces.cpp
 internalFileAttribs
 keyvalues.cpp
-l
 lastModifiedDate
 lastModifiedTime
 ld-linux-x86-64.so.2
@@ -879,17 +854,14 @@ localtime
 lseek64
 materials/overviews/
 materials/vgui/hud/
-max. %f
 memcmp
 memcpy
 memmove
 mempool.cpp
 memset
-min. %f
 nCentralDirectoryEntries_ThisDisk
 nCentralDirectoryEntries_Total
 nTries < 10000000
-need to hook up zip for linux
 notconnected
 notify
 numberOfTheDiskWithStartOfCentralDirectory
@@ -918,8 +890,6 @@ pthread_mutexattr_init
 pthread_mutexattr_settype
 ptr( 0x%p )
 pwrite64
-rb
-rb+
 readdir64
 readlink
 relativeOffsetOfLocalHeader
@@ -928,7 +898,6 @@ resource/cursor/
 resource/flash3/images/
 resource/flash3/videos/
 rewind
-rw+
 scandir64
 schemabindings.cpp
 scripts/game_sounds_heroes/
@@ -941,7 +910,6 @@ server_can_execute
 signature
 singleplayer
 sound/
-src
 src/public/tier0/platform.h
 ss_added
 startOfCentralDirOffset
@@ -968,11 +936,5 @@ vpk:
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-wb
 wcscmp
 wcslen
-wt
-zD
-{
-{}()':
-}

@@ -1,38 +1,17 @@
-
-!
-!*
-!^
-"
-"%s" : %s
-#
-#g
-$
-$P
-%
-%"
-%%.%if%s
-%.*s://%s
+ bytes
+%$%a%b%V%U%c%Q%W%]%\%[%
 %.18g
 %0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
-%d
-%d.
-%f
-%i%s
+%<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
 %lld
 %llu
 %s %s %s %s
-%s (%u)
 %s not implemented
-%s overflow!
+%s overflow!\n
 %s/.steam/steam
-%u
-%u : %u
-%x
-&
-&#039;
 &AElig;
 &Aacute;
 &Acirc;
@@ -90,7 +69,6 @@ $P
 &frac12;
 &frac14;
 &frac34;
-&gt;
 &iacute;
 &icirc;
 &iexcl;
@@ -98,7 +76,6 @@ $P
 &iquest;
 &iuml;
 &laquo;
-&lt;
 &macr;
 &mdash;
 &micro;
@@ -138,33 +115,12 @@ $P
 &yacute;
 &yen;
 &yuml;
-'
-'"
-'j
-(
-("
-(%zu) Descend: %s, (%s), %s
-(%zu) readdir failed to find '%s' in '%s'
+(%zu) Descend: %s, (%s), %s\n
+(%zu) readdir failed to find '%s' in '%s'\n
 (main)
 (no name set)
 (none)
-)
-)"
-*
-*"
-+
-+"
-,
--
-----------------------------------------
--->
-.
-.%c
-...
-./
-.\
-/
-/?
+----------------------------------------\n
 /etc/SUSE-release
 /etc/debian_release
 /etc/fedora-release
@@ -194,12 +150,9 @@ $P
 /home/buildbot/buildslave/steam_rel_client_linux64/build/src/vstdlib/strtools.cpp
 /home/buildbot/buildslave/steam_rel_client_linux64/build/src/vstdlib/strtools_unicode.cpp
 /proc/version
-0
 0123456789ABCDEF
 0123456789abcdef
-0@
 0x%4.4X is both the source and destination of a normalization mapping
-1
 10CUtlRBTreeIN7CUtlMapIPvii8CDefLessIS1_EE6Node_tEiNS4_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
 10CUtlRBTreeIN7CUtlMapIjbi8CDefLessIjEE6Node_tEiNS3_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
 10CUtlRBTreeIN7CUtlMapIwPKwi8CDefLessIwEE6Node_tEiNS5_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
@@ -219,82 +172,32 @@ $P
 18CUtlCharConversion
 19CUtlNoEscConversion
 19CVStdLibDLLValidate
-2
 20CUniformRandomStream
 20IUniformRandomStream
 21CUtlCStringConversion
-2^
-3
-4
-5
-5;
 5ICvar
-6
-6"
-7
 7CUtlMapIPvii8CDefLessIS0_EE
 7CUtlMapIjbi8CDefLessIjEE
 7CUtlMapIwPKwi8CDefLessIwEE
-8
-8&
 8CUtlHashI10CUtlString27CDefCaselessUtlStringEquals11CDefHashKeyIS0_EE
-9
-9-
 9IValidate
-:
-:-
-:/
-://
-:/?#
-;
-;0
-;;
-<
-<!--
-<"
 </script>
-<0
-<P
-<br>
-<li>
-=
-=&;
-=*
->
->
-?
-?@
-@
-A
-A&
-A0
-A:
 ACADEMY
 ACCOUNTANTS
 ACTIVE
 ACTOR
-AD
-AE
 AERO
-AF
-AG
 AGENCY
 AIRFORCE
-AO
-AQ
 ARCHI
 ARMY
 ARPA
 ASIA
 ASSOCIATES
 ATTORNEY
-AU
 AUCTION
 AUDIO
 AUTOS
-AW
-AXA
-AZ
 AssertMsgImplementation
 Assertion Failed: !IsExternallyAllocated()
 Assertion Failed: !m_data.HasError()
@@ -417,47 +320,24 @@ Assertion Failed: size < INT_MAX
 Assertion Failed: src != NULL
 Assertion Failed: str != NULL
 Assertion failed: length > k_cchMaxString
-B
-BA
-BAR
 BARGAINS
 BAYERN
-BB
-BE
 BEER
 BERLIN
 BEST
-BG
-BH
 BHanIdeograph
-BID
 BIKE
-BIO
-BIZ
-BJ
 BLACK
 BLACKFRIDAY
 BLUE
-BM
-BMW
-BN
 BOUTIQUE
-BR
 BRUSSELS
 BUILD
 BUILDERS
 BUZZ
-BV
-BW
-BY
-BZ
-BZH
-Breaking '%s' in '%s'
-Bucket size : count
-C
-C0
-CA
-CAB
+Block size: %s\tAlloc'd: %d (peak: %d)\tNum blobs: %d (%s)\n
+Breaking '%s' in '%s'\n
+Bucket size : count\n
 CAMERA
 CAMP
 CANCERRESEARCH
@@ -468,44 +348,35 @@ CARE
 CAREER
 CAREERS
 CASH
-CAT
 CATERING
 CCoroutine
 CCoroutineMgr
 CDefaultCvar cvar
 CENTER
-CEO
-CF
 CGaussianRandomStream::AttachToStream(IUniformRandomStream*)
 CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
 CGaussianRandomStream::RandomFloat(float, float)
 CHEAP
 CHRISTMAS
 CHURCH
-CI
 CITIC
 CITY
 CKeyValuesSystem
 CKeyValuesSystem::AddStringToPool: key name too long (%u chars)
 CKeyValuesSystem::AddStringToPool: out of memory
 CKeyValuesSystem::AddStringToPool: running out of memory (%u bytes left)
-CL
 CLAIMS
 CLEANING
 CLINIC
 CLOTHING
 CLUB
-CM
 CMemoryPool
 CMemoryPool::AddNewBlob: mode == GROW_NONE
 CMemoryPool::Alloc: ran out of memory
-CN
-CO
 CODES
 COFFEE
 COLLEGE
 COLOGNE
-COM
 COMMUNITY
 COMPANY
 COMPUTER
@@ -517,7 +388,6 @@ COOKING
 COOL
 COOP
 COUNTRY
-CR
 CREDIT
 CREDITCARD
 CRUISES
@@ -531,7 +401,6 @@ CStringNormalization::ValidateStatics(CValidator&, char const*)
 CStringNormalization::m_bInitialized
 CStringNormalize is full of quirks that need fixing. You just hit one. Don't pass buffers > 1kb.
 CStringNormalize is full of quirks that need fixing. You just hit one. Error return due to string truncation.
-CU
 CUISINELLA
 CURLUtils::FixupSeparatorScheme(CUtlString&)
 CURLUtils::IsTLD(char const*)
@@ -547,21 +416,17 @@ CUniformRandomStream::RandomInt(int, int)
 CUniformRandomStream::SetSeed(int)
 CUtlBuffer::GetStringFast: binary buffers only
 CUtlBuffer::GetStringFast: no string termination
-CV
 CValidator::ClaimArrayMemory(void*)
 CValidator::ClaimMemory(void*)
 CValidator::IsClaimed(void*)
 CValidator::Pop()
 CValidator::Push(char const*, void*, char const*)
-CW
-CX
 CXXABI_1.3
-CZ
 CanBeginLine
 CanBreakBetween
 CanBreakRepeated
 CanEndLine
-Command line options:
+Command line options:\n
 CommandLine
 Coroutine_Cancel
 Coroutine_Continue
@@ -577,7 +442,6 @@ Coroutine_ValidateGlobals
 Coroutine_YieldToMain
 CreateInterface
 CreateVProfile
-D
 DANCE
 DATING
 DBG_PATHMATCH
@@ -592,28 +456,16 @@ DIGITAL
 DIRECT
 DIRECTORY
 DISCOUNT
-DJ
-DK
-DM
-DNP
-DO
 DOMAINS
 DURBAN
-DZ
 DebugStatsSystem
-E
-E0
-EDU
 EDUCATION
-EG
 EMAIL
 ENGINEER
 ENGINEERING
 ENTERPRISES
 EQUIPMENT
 ESTATE
-EU
-EUS
 EVENTS
 EXCHANGE
 EXPERT
@@ -621,46 +473,28 @@ EXPOSED
 Error
 Error State on string being set.
 Expected %d but got %d!
-F
 FAIL
 FARM
 FEEDBACK
-FI
 FINANCE
 FINANCIAL
 FISH
 FISHING
 FITNESS
-FJ
-FK
 FLIGHTS
 FLORIST
-FM
-FOO
 FOUNDATION
-FR
 FROGANS
 FUND
 FURNITURE
 FUTBOL
 Fatal Assertion Failed: %s
 Fatal Assertion Failed: pBlob
-G
-G0
-GA
-GAL
 GALLERY
-GB
 GCC: (crosstool-NG 1.17.0) 4.6.3
-GD
 GENT
-GF
-GG
-GH
-GI
 GIFT
 GIVES
-GL
 GLASS
 GLIBCXX_3.4
 GLIBC_2.14
@@ -670,25 +504,13 @@ GLIBC_2.3.4
 GLIBC_2.4
 GLOBAL
 GLOBO
-GM
-GMO
-GN
-GNU
-GOP
-GOV
-GP
-GQ
-GR
 GRAPHICS
 GRATIS
 GREEN
 GRIPE
-GT
-GU
 GUIDE
 GUITARS
 GURU
-GW
 GetNameFromOSType
 GetOSDetailString
 GetOSType
@@ -697,13 +519,9 @@ GetPlatformName
 GetPlatformNameFromEPlatformType
 GetPortableOsVersionInformation
 GetSpewOutputFunc
-H
 HAMBURG
 HAUS
 HIPHOP
-HIV
-HM
-HN
 HOLDINGS
 HOLIDAY
 HOME
@@ -711,76 +529,43 @@ HOMES
 HORSE
 HOST
 HOUSE
-HT
-I
-I0
-IE
 IMMOBILIEN
 INDUSTRIES
 INFO
 INSTITUTE
 INSURE
-INT
 INTERNATIONAL
 INVESTMENTS
-IQ
 IVALIDATE001
 InstallUniformRandomStream
 Invalid flags in %s
 Is64BitOS
-J
-JE
 JETZT
-JM
-JO
 JOBS
 JOBURG
-JP
 JUEGOS
-K
 KAUFEN
-KB
-KG
-KH
-KIM
 KITCHEN
 KIWI
-KM
-KN
 KOELN
-KP
-KR
-KRD
 KRED
-KW
-KY
-KZ
 KeyValuesSystem()
 KeyValuesSystemSteam
-L
 LACAIXA
 LAWYER
-LB
-LC
 LEASE
 LGBT
-LI
 LIFE
 LIGHTING
 LIMITED
 LIMO
 LINK
-LK
 LOANS
 LONDON
 LOTTO
-LR
-LT
-LU
 LUXE
 LUXURY
-LV
-Leaked KeyValues (%u):
+Leaked KeyValues (%u):\n
 Linux
 Linux 2.2
 Linux 2.4
@@ -789,42 +574,25 @@ Linux 3.10
 Linux 3.2
 Linux 3.5
 Linux 3.6
-Lowered '%s' -> '%s'
-M
+Lowered '%s' -> '%s'\n
 MAISON
 MANAGEMENT
 MANGO
 MARKET
 MARKETING
-MB
-MC
-MD
 MEDIA
 MEET
 MELBOURNE
 MENU
-MG
 MIAMI
-MIL
 MINI
-MK
-ML
-MM
-MN
 MOBI
 MODA
-MOE
 MONASH
 MORTGAGE
 MOSCOW
 MOTORCYCLES
-MQ
-MR
-MT
-MU
 MUSEUM
-MV
-MZ
 Mac OS
 MacOS 10.10
 MacOS 10.4
@@ -837,47 +605,25 @@ MacOS 10.6.7
 MacOS 10.7
 MacOS 10.8
 MacOS 10.9
-Matched '%s' -> '%s'
-Memory leak: mempool blocks left in memory: %d
-Msg
-N
+Matched '%s' -> '%s'\n
+Memory leak: mempool blocks left in memory: %d\n
 N11SteamStdLib12CCommandLineE
 N11SteamStdLib12ICommandLineE
-NA
 NAGOYA
 NAME
 NAVY
-NC
-NET
 NEUSTAR
-NF
-NHK
 NINJA
-NR
-NRA
-NRW
 NULL buffer passed to V_atof()
 NULL buffer passed to V_atoi()
-NYC
-NZ
 No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s
-O
 OKINAWA
-ONG
-ONL
-ORG
 ORGANIC
 OSTypesAreCompatible
-OVH
-Ox
-P
 PARIS
 PARTNERS
 PARTS
-PF
-PG
-PH
 PHOTO
 PHOTOGRAPHY
 PHOTOS
@@ -885,24 +631,13 @@ PHYSIO
 PICS
 PICTURES
 PINK
-PK
-PL
 PLACE
 PLUMBING
-PM
-PN
 POST
-PR
 PRAXI
 PRESS
-PRO
 PRODUCTIONS
 PROPERTIES
-PS3
-PT
-PUB
-PW
-PY
 Parameter file '%s' not found, skipping...
 Plat_GetCommandLine
 Plat_GetExecutablePath
@@ -910,11 +645,8 @@ Plat_OutputDebugString
 Plat_OutputDebugStringRaw
 Plat_VirtualAccessFlags
 Plat_localtime
-Q
-QA
 QPON
 QUEBEC
-R
 RECIPES
 REHAB
 REISE
@@ -926,56 +658,34 @@ REPUBLICAN
 REST
 REVIEWS
 RICH
-RIO
 ROCKS
 RODEO
 RUHR
 RYUKYU
-Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)
-R
-S
-SA
+Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)\n
 SAARLAND
-SB
-SC
-SCB
 SCHMIDT
 SCHULE
 SCOT
-SD
 SERVICES
 SEXY
-SG
 SHIKSHA
 SHOES
 SINGLES
-SJ
-SK
-SL
-SM
-SN
-SO
 SOCIAL
 SOFTWARE
 SOHU
 SOLAR
 SOLUTIONS
-SOY
 SPACE
 SPIEGEL
-SR
-SU
 SUPPLIES
 SUPPLY
 SUPPORT
 SURF
 SURGERY
 SUZUKI
-SV
-SX
-SY
 SYSTEMS
-SZ
 SteamRealPath
 SteamStdLib::CCommandLineParam::CCommandLineParam(char const*, char const*)
 SteamStdLib::CCommandLineParam::~CCommandLineParam()
@@ -1009,33 +719,19 @@ SteamVProf::CVProfNode::EnterScope(void*)
 SteamVProf::CVProfNode::ExitScope()
 SteamVProf::CVProfNode::GetSubNode(char const*, int, EVProfBugdetGroup, int)
 SteamVProf::CVProfile::~CVProfile()
-String pool bytes used %u, max %u, %u pools
+String pool bytes used %u, max %u, %u pools\n
 StringAfterPrefix
 StringAfterPrefixCaseSensitive
 StringHasSuffix
-T
-T-
 TATTOO
-TAX
-TD
 TECHNOLOGY
-TEL
-TG
-TH
 TIENDA
 TIPS
 TIROL
-TJ
-TK
-TL
-TM
-TN
 TODAY
 TOKYO
 TOOLS
 TOYS
-TP
-TR
 TRADE
 TRAINING
 TRAVEL
@@ -1050,13 +746,9 @@ TSQueueBase_Push
 TSQueueBase_UnsafeDummy
 TSQueueBase_UnsafePeek
 TSQueue_PopIntoFreeList
-TT
-TV
-TW
-TZ
-Target buffer for V_URLEncode should be 3x source length, plus one for terminating null
-Target buffer too short
-Target buffer too short to terminate
+Target buffer for V_URLEncode should be 3x source length, plus one for terminating null\n
+Target buffer too short to terminate\n
+Target buffer too short\n
 The bucket count must be greater than 0 or the implementation will crash due to an incorrect mod mask.
 ThreadGetCurrentId
 ThreadGetCurrentProcessId
@@ -1070,41 +762,26 @@ ThreadInterlockedExchangeAdd
 ThreadInterlockedIncrement
 ThreadIsThreadRunning
 ThreadSleep
-Total number of strings %u, longest string size %u, avg size %u
-Total of %u buckets with %u hash collisions
-U
-UA
-UG
-UK
+Total number of strings %u, longest string size %u, avg size %u\n
+Total of %u buckets with %u hash collisions\n
 UNIVERSITY
-UNO
-UY
-UZ
 Unknown
-Unmatched %s
-U}
-V
-VA
+Unmatched %s\n
 VACATIONS
-VC
 VEGAS
 VENTURES
 VERSICHERUNG
-VET
 VEngineCvar002
-VI
 VIAJES
 VILLAS
 VISION
 VLAANDEREN
-VN
 VODKA
 VOTE
 VOTING
 VOTO
 VOYAGE
 VStdLib_GetICVarFactory
-VU
 V_AggressiveStripPrecedingAndTrailingWhitespace
 V_AggressiveStripPrecedingAndTrailingWhitespaceW
 V_AppendParamToURL
@@ -1161,9 +838,9 @@ V_SetURLParam
 V_SplitNumbers
 V_SplitNumbersUint
 V_SplitString
-V_SplitString(char const*, char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString> >&, bool)
+V_SplitString(char const*, char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, bool)
 V_SplitString2
-V_SplitString2(char const*, char const* const*, int, CUtlVector<CUtlString, CUtlMemory<CUtlString> >&, bool)
+V_SplitString2(char const*, char const* const*, int, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, bool)
 V_StrLeft
 V_StrReplaceChar
 V_StrRight
@@ -1268,22 +945,16 @@ V_wcstoi64
 V_wcstoui64
 V_wcsupr
 V_whextobinary
-Ve
-W
 WANG
-WARNING: unable to link %s and %s because one or more is a ConCommand.
+WARNING: unable to link %s and %s because one or more is a ConCommand.\n
 WATCH
 WEBCAM
 WEBSITE
-WED
-WF
 WHOSWHO
 WIEN
 WIKI
 WILLIAMHILL
 WORKS
-WTC
-WTF
 Warning
 WeakRandomChar
 WeakRandomFillMemory
@@ -1309,7 +980,6 @@ Windows ME
 Windows NT
 Windows Vista
 Windows XP
-X
 XN--3BST00M
 XN--3DS443G
 XN--3E0B707E
@@ -1375,30 +1045,14 @@ XN--XKC2DL3A5EE0H
 XN--YFRO4I67O
 XN--YGBI2AMMX
 XN--ZFR164B
-XXX
-XYZ
-Y
 YACHTS
 YANDEX
-YE
 YOKOHAMA
-YT
-Yo
-Z
-ZA
-ZM
 ZONE
-ZW
-Zf
-[
-\
-]
-^
-_
+\t(%zu) comparing %s with %s\n
 _DMsg
 _Jv_RegisterClasses
 _SpewMessageType
-_U
 _ZSt9terminatev@@GLIBCXX_3.4
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
@@ -1452,28 +1106,11 @@ _setjmp
 _setjmp@@GLIBC_2.2.5
 _strlwr
 _strupr
-`
-`,
-`a
-a
-a"
-a,
-aX
 abort@@GLIBC_2.2.5
 access
 access@@GLIBC_2.2.5
 alphasort64
 alphasort64@@GLIBC_2.2.5
-an
-b
-b,
-br
-bytes
-c
-c"
-c,
-c0
-cf
 chdir
 chdir@@GLIBC_2.2.5
 chmod
@@ -1485,8 +1122,6 @@ close@@GLIBC_2.2.5
 closedir
 closedir@@GLIBC_2.2.5
 console
-d
-d,
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dlclose
@@ -1500,12 +1135,8 @@ dlopen@@GLIBC_2.2.5
 dlsym
 dlsym@@GLIBC_2.2.5
 dup@@GLIBC_2.2.5
-e
-e,
 entry
-f
-f,
-false
+false 
 fclose
 fclose@@GLIBC_2.2.5
 fdatasync
@@ -1542,8 +1173,6 @@ futimes
 futimes@@GLIBC_2.3
 fwrite
 fwrite@@GLIBC_2.2.5
-g
-g,
 gCURLUtils_hashTLDs
 gCURLUtils_hashTLDs.Element( i )
 g_ClockSpeed
@@ -1565,12 +1194,6 @@ getsockname
 getsockname@@GLIBC_2.2.5
 getuid
 getuid@@GLIBC_2.2.5
-h
-h,
-i
-i,
-if
-img
 invalid input pointer
 isalnum
 isalnum@@GLIBC_2.2.5
@@ -1578,13 +1201,6 @@ isspace
 isspace@@GLIBC_2.2.5
 iswspace
 iswspace@@GLIBC_2.2.5
-j
-j,
-k
-k,
-kX
-l
-l,
 lchown
 lchown@@GLIBC_2.2.5
 ld-linux-x86-64.so.2
@@ -1599,13 +1215,11 @@ link@@GLIBC_2.2.5
 linux
 localeconv
 localeconv@@GLIBC_2.2.5
-log
 log@@GLIBC_2.2.5
 longjmp
 longjmp@@GLIBC_2.2.5
 lseek64
 lseek64@@GLIBC_2.2.5
-m
 m_Buckets
 m_Elements
 m_HashItemMemPool
@@ -1642,11 +1256,8 @@ mount
 mount@@GLIBC_2.2.5
 munmap
 munmap@@GLIBC_2.2.5
-n
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
-nTotal number of strings %u, longest string size %u, avg size %u
-ng
-o
+nTotal number of strings %u, longest string size %u, avg size %u\n
 open64@@GLIBC_2.2.5
 open@@GLIBC_2.2.5
 opendir
@@ -1656,11 +1267,9 @@ operator delete[](void*)
 operator new(unsigned long)
 operator new[](unsigned long)
 out of order normalization entry
-p
 pread64
 pread64@@GLIBC_2.2.5
 printf@@GLIBC_2.2.5
-ps3
 pthread_cancel
 pthread_cancel@@GLIBC_2.2.5
 pthread_mutex_lock
@@ -1671,10 +1280,8 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 pwrite64
 pwrite64@@GLIBC_2.2.5
-q
 qsort
 qsort@@GLIBC_2.2.5
-r
 read@@GLIBC_2.2.5
 readdir64
 readdir64@@GLIBC_2.2.5
@@ -1686,7 +1293,6 @@ rename
 rename@@GLIBC_2.2.5
 rmdir
 rmdir@@GLIBC_2.2.5
-s
 scandir
 scandir64
 scandir64@@GLIBC_2.2.5
@@ -1760,11 +1366,8 @@ symlink
 symlink@@GLIBC_2.2.5
 system
 system@@GLIBC_2.2.5
-t
-t%
-t,
 test string
-the
+the 
 time@@GLIBC_2.2.5
 tolower@@GLIBC_2.2.5
 toupper@@GLIBC_2.2.5
@@ -1776,8 +1379,6 @@ true
 typeinfo for CUniformRandomStream
 typeinfo for SteamThreadTools::CThread
 typeinfo name for CUniformRandomStream
-u
-uO
 uname
 uname@@GLIBC_2.2.5
 unknown
@@ -1787,7 +1388,6 @@ usleep@@GLIBC_2.2.5
 utime
 utime@@GLIBC_2.2.5
 utimes@@GLIBC_2.2.5
-v
 vasprintf
 vasprintf@@GLIBC_2.2.5
 vsnprintf@@GLIBC_2.2.5
@@ -1801,9 +1401,6 @@ vswprintf@@GLIBC_2.2.5
 vtable for CUniformRandomStream
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
-v}
-w
-wa+
 wcscasecmp
 wcscasecmp@@GLIBC_2.2.5
 wcscmp
@@ -1822,14 +1419,5 @@ wcstoull
 wcstoull@@GLIBC_2.2.5
 windows
 write@@GLIBC_2.2.5
-x
-y
-z
-z#
-z0
-{
 {%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
 {%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
-|
-}
-~

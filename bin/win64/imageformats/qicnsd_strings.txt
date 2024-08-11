@@ -1,12 +1,5 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- 5Auth
- 5Genu
- H3D$0H
-!This program cannot be run in DOS mode.
 !weakref.load()
 !x->ref.isStatic()
-$Hc@<H
-.00cfg
 .?AVQICNSHandler@@
 .?AVQICNSPlugin@@
 .?AVQImageIOHandler@@
@@ -16,175 +9,9 @@ $Hc@<H
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.D$(z@u>3
-.pdata
-.text
-0Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-9D$$}>H
-9D$4stH
-9D$H}
-9D$P}I
-9D$T}I
-:S?setAlphaChannel@QImage@@QEAAXAEBV1@@Z
-;D$(u
-??0QBuffer@@QEAA@PEAVQByteArray@@PEAVQObject@@@Z
-??0QByteArray@@QEAA@$$QEAV0@@Z
-??0QByteArray@@QEAA@AEBV0@@Z
-??0QByteArray@@QEAA@PEBDH@Z
-??0QByteArray@@QEAA@UQByteArrayDataPtr@@@Z
-??0QByteArray@@QEAA@XZ
-??0QDataStream@@QEAA@PEAVQIODevice@@@Z
-??0QImage@@QEAA@$$QEAV0@@Z
-??0QImage@@QEAA@AEBV0@@Z
-??0QImage@@QEAA@HHW4Format@0@@Z
-??0QImage@@QEAA@XZ
-??0QImageIOHandler@@QEAA@XZ
-??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
-??0QMessageLogger@@QEAA@PEBDH0@Z
-??0QRegularExpression@@QEAA@AEBVQString@@V?$QFlags@W4PatternOption@QRegularExpression@@@@@Z
-??0QString@@QEAA@AEBV0@@Z
-??0QString@@QEAA@UQStringDataPtr@@@Z
-??0QVariant@@QEAA@AEBVQByteArray@@@Z
-??0QVariant@@QEAA@XZ
-??1QBuffer@@UEAA@XZ
-??1QByteArray@@QEAA@XZ
-??1QDataStream@@QEAA@XZ
-??1QImage@@UEAA@XZ
-??1QImageIOHandler@@UEAA@XZ
-??1QImageIOPlugin@@UEAA@XZ
-??1QRegularExpression@@QEAA@XZ
-??1QRegularExpressionMatch@@QEAA@XZ
-??1QString@@QEAA@XZ
-??4QImage@@QEAAAEAV0@$$QEAV0@@Z
-??4QImage@@QEAAAEAV0@AEBV0@@Z
-??5QDataStream@@QEAAAEAV0@AEAE@Z
-??5QDataStream@@QEAAAEAV0@AEAI@Z
-??6QDataStream@@QEAAAEAV0@I@Z
-??YQByteArray@@QEAAAEAV0@AEBV0@@Z
-??YQByteArray@@QEAAAEAV0@D@Z
-??YQByteArray@@QEAAAEAV0@PEBD@Z
-?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
-?at@QString@@QEBA?BVQChar@@H@Z
-?atEnd@QDataStream@@QEBA_NXZ
-?captured@QRegularExpressionMatch@@QEBA?AVQString@@AEBV2@@Z
-?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?close@QBuffer@@UEAAXXZ
-?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?constData@QByteArray@@QEBAPEBDXZ
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?data@QArrayData@@QEAAPEAXXZ
-?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?device@QDataStream@@QEBAPEAVQIODevice@@XZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fromData@QImage@@SA?AV1@AEBVQByteArray@@PEBD@Z
-?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
-?isEmpty@QByteArray@@QEBA_NXZ
-?isEmpty@QString@@QEBA_NXZ
-?isOpen@QIODevice@@QEBA_NXZ
-?isReadable@QIODevice@@QEBA_NXZ
-?isWritable@QIODevice@@QEBA_NXZ
-?match@QRegularExpression@@QEBA?AVQRegularExpressionMatch@@AEBVQString@@HW4MatchType@1@V?$QFlags@W4MatchOption@QRegularExpression@@@@@Z
-?number@QByteArray@@SA?AV1@HH@Z
-?number@QByteArray@@SA?AV1@_JH@Z
-?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
-?qt_assert@@YAXPEBD0H@Z
-?qt_assert_x@@YAXPEBD00H@Z
-?qt_check_pointer@@YAXPEBDH@Z
-?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
-?setByteOrder@QDataStream@@QEAAXW4ByteOrder@1@@Z
-?sharedNull@QArrayData@@SAPEAU1@XZ
-?size@QByteArray@@QEBAHXZ
-?skipRawData@QDataStream@@QEAAHH@Z
-?startsWith@QByteArray@@QEBA_NAEBV1@@Z
-?status@QDataStream@@QEBA?AW4Status@1@XZ
-?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
-?toLatin1@QChar@@QEBADXZ
-?toLocal8Bit@QString@@QEHAA?AVQByteArray@@XZ
-?toUInt@QString@@QEBAIPEA_NH@Z
-?warning@QMessageLogger@@QEBAXPEBDZZ
-?writeRawData@QDataStream@@QEAAHPEBDH@Z
-@(H9D$8t*H
-@(H9D$8t6H
-@.data
-@.idata
-@.qtmetadc
-@.reloc
-@.rsrc
-CloseHandle
-CreateEventW
-D$ E3
-D$ H9D$(u
-D$ Hc@<H
-D$(H9
-D$8HcD$ H
-D$D9D$,
-D$H9D$ s"
-D$HE3
-D$PE3
-D$T9D$@uAH
-D$`H9D$XtBH
-D$`H9D$XtTH
-D$pH9D$htlH
-D$pHc@
-DeleteCriticalSection
-DisableThreadLibraryCalls
-EnterCriticalSection
 F:\qt5\qtimageformats\plugins\imageformats\qicnsd.pdb
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetModuleHandleW
-GetProcAddress
-GetStartupInfoW
-GetSystemTimeAsFileTime
-H9D$ u
-H9D$(t$A
-H9D$8tfH
-H9D$8tiH
-H9D$Hr
-H9D$Hs
-Hc@<H
-HcL$HHk
 InitializeConditionVariable
-InitializeSListHead
-IsDebuggerPresent
-IsProcessorFeaturePresent
-JU?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
-K?height@QImage@@QEBAHXZ
-KERNEL32.dll
-L$ H#
-L$ H3
-L$(H9
-L$09H
-L$0H3
-L$0HcI
-L$8H+
-L$@H3
-L$LH;
-L$XH9
-L$XH9H(u
-L$`H+
-L$p9A
-L$pH+
-L$xH+
-L?isNull@QImage@@QEBA_NXZ
-LeaveCriticalSection
-M?loopCount@QImageIOHandler@@UEBAHXZ
-MetaData
-MimeTypes
-O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-P.tls
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-PX9D$8|
-PpH;D$x
+PNG\r\n
 QICNSHandler::canRead() called on a sequential device
 QICNSHandler::canRead() called without a readable device
 QICNSHandler::read(): Failed, compressed format "%s" is not supported by your Qt library or this file is corrupt. OSType: "%s"
@@ -194,58 +21,14 @@ QICNSHandler::scanDevice(): Failed, bad header at pos %s. OSType "%s", length %u
 QICNSHandler::scanDevice(): Failed, file is incomplete.
 QICNSHandler::scanDevice(): Warning! Table of contents contains a bad entry! Stop at device pos: %s bytes. This file may be corrupted.
 QICNSPlugin
-QTMETADATA  qbjs
 QVector<T>::at
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
-Qt5Cored.dll
-Qt5Guid.dll
-QueryPerformanceCounter
-R?save@QImage@@QEBA_NPEAVQIODevice@@PEBDH@Z
-R?scaled@QImage@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
-R?scanLine@QImage@@QEAAPEAEH@Z
-Reason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
-ResetEvent
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlVirtualUnwind
-S?setColorTable@QImage@@QEAAXV?$QVector@I@@@Z
-Scan of the icon variant container ("%s") failed at pos %s.
-SetEvent
-SetUnhandledExceptionFilter
+RSDS
+Scan of the icon variant container ("%s") failed at pos %s.\nReason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
 SleepConditionVariableCS
-T$0H3
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-TerminateProcess
-U?setPixel@QImage@@QEAAXHHI@Z
-UnhandledExceptionFilter
 Unknown exception
-VCRUNTIME140D.dll
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WaitForSingleObjectEx
 WakeAllConditionVariable
-Z?width@QImage@@QEBAHXZ
-_CrtDbgReportW
-_CxxThrowException
-__C_specific_handler
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__vcrt_InitializeCriticalSectionEx
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
-_register_onexit_function
-_seh_filter_dll
-`.rdata
 aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
 asize >= 0 && asize <= aalloc
 ba.ref.isStatic()
@@ -256,29 +39,20 @@ bool __cdecl QICNSHandler::read(class QImage *)
 bool __cdecl QICNSHandler::scanDevice(void)
 bool __cdecl parseIconEntryInfo(struct ICNSEntry &)
 class QImage __cdecl readMask(const struct ICNSEntry &,class QDataStream &)
-className
 d != Data::unsharableEmpty()
 d->alloc >= uint(aalloc)
 d->data()
 d->size == asize
-debug
 f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qstring.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-ffffff
-image/x-icns
+icns
 index out of range
 int(d->alloc) == aalloc
 isDetached()
-kRich
-malloc
-memcmp
-memcpy
-memset
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 parseIconEntryInfo(): Failed, 32bit icon from an unknown group. OSType: "%s"
 parseIconEntryInfo(): Failed, OSType doesn't match: "%s"
 qRegisterNormalizedMetaType
@@ -289,29 +63,7 @@ qt_plugin_instance
 qt_plugin_query_metadata
 readMask(): Failed, unusual bit depth: %u OSType: "%s"
 str.ref.isStatic()
-strcmp
 strongref.load() <= 0
-terminate
-ucrtbased.dll
 uint(d->size) <= d->alloc
 unknown
-version
-x == d
 x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-yT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-zT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-|$(	u	
-|$4 COT
-|$4Vnci
-|$4elit
-|$4nepo
-|$4pord
-|$4prdo
-|$4revo
-|$4sncitz
-|$4snciwG
-|$4tulc
-|$<ht?
-|$<lt$
-|$<st	
-|$<tt>

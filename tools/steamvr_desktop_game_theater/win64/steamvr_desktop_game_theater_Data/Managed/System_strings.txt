@@ -1,16 +1,11 @@
-	*r{z
-	Component
-	Inherited
-	StartInfo
+ R0T
  The memory needed by this module
  The session ID for this process.
 !The base priority of this thread.
 !The current state of this thread.
 !The time this thread was started.
-!This program cannot be run in DOS mode.
 !We don't support KeepAlive = true
 !only support X509ContentType.Cert
-!}b	$
 "Raised when it receives error data
 "The priority level of this thread.
 "The total amount of CPU time used.
@@ -32,6 +27,8 @@ $ArrayType$12
 $ArrayType$128
 $ArrayType$16
 $ArrayType$32
+$CkM
+$R2T
 $The current priority of this thread.
 $This doesn't do anything on Mono yet
 $Thread shows dialogboxes for errors.
@@ -49,14 +46,16 @@ $no DefaultCredential support in Mono
 &The reason why this thread is waiting.
 'The initial directory for this process.
 (Command line agruments for this process.
+(P4S
+(R4T
 (Serialization is obsoleted for this type
+(SrT
 (System.ComponentModel.ComponentConverter
 (c) various MONO Authors
 (the property exists but it does nothing.
 )The amount of CPU time used in user mode.
 )The maximum working set for this process.
 )The minimum working set for this process.
-*	*A4
 *Information for the start of this process.
 *Look in other places for proxy config info
 *The number of bytes that are not pageable.
@@ -72,6 +71,9 @@ $no DefaultCredential support in Mono
 +same limitations as X509Certificate2.Import
 ,Environment variables used for this process.
 ,Method isn't transactional (like documented)
+,P6S
+,R6T
+,SuT
 ,The title of the main window of the process.
 ,The window style used to start this process.
 -Standard input of this process is redirected.
@@ -82,7 +84,6 @@ $no DefaultCredential support in Mono
 .Standart output of this process is redirected.
 .cctor
 .ctor
-.text
 /Need EnvironmentPermission implementation first
 /System.ComponentModel.ExpandableObjectConverter
 /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
@@ -92,20 +93,27 @@ $no DefaultCredential support in Mono
 /This property is obsolete. Use GetAddressBytes.
 /Use NameObjectCollectionBase(IEqualityComparer)
 /Use ServerCertificateValidationCallback instead
+0)EE
 0Flag to indicate we want to watch subdirectories
 0Only works on Linux. Returns 0 on other systems.
+0P8S
+0R8T
+0SxT
 0The number of milliseconds between timer events.
 1Non-X509Certificate2 certificate is not supported
 1The CPU time spent for this process in user mode.
 2.0.5.0
 2Detection limited to Cert, Pfx, Pkcs12 and Unknown
 2This attribute is not considered in trace support.
-2}b	\
-3.0.40818.0
 3Allowed processor that can be used by this process.
 3Can we get this info under windows from the system?
 3Use NameObjectCollectionBase(int,IEqualityComparer)
 3by default this depends on the incomplete X509Chain
+4)JE
+4;zB
+4P:S
+4R:T
+4S{T
 4The modules that are loaded as part of this process.
 5Use TcpListener (IPAddress address, int port) instead
 6Flag to indicate which change event we want to monitor
@@ -114,15 +122,23 @@ $no DefaultCredential support in Mono
 6The amount of memory exclusively used by this process.
 6Use another constructor that indicates lastTransaction
 7Under Unix, only root is allowed to raise the priority.
+8)OE
 8Occurs when a file/directory creation matches the filter
 8Occurs when a file/directory deletion matches the filter
+8P<S
+8R<T
+8S~T
 8The maximum amount of paged memory used by this process.
 8b`*N~Q
+91\fE
+93\fF
+95\fG
+97\fH
 9Detection limited to Cert, Pfx, Pkcs12, Pkcs7 and Unknown
 9Mono's stores are fully managed. All handles are invalid.
 9The base memory address of the entry point of this module
 9The maximum amount of system memory used by this process.
-9}c	d
+9}c\td
 :The maximum amount of virtual memory used by this process.
 ;Mono's X509Chain is fully managed. All handles are invalid.
 <$>source
@@ -152,14 +168,6 @@ $no DefaultCredential support in Mono
 <>f__switch$mapE
 <>f__switch$mapF
 <>f__this
-<>m__3
-<>m__4
-<>m__5
-<>m__6
-<>m__7
-<>m__8
-<>m__9
-<>m__A
 <AcceptSocket>k__BackingField
 <BeginAuthenticateAsClient>c__AnonStorey7
 <BeginAuthenticateAsServer>c__AnonStorey8
@@ -203,8 +211,6 @@ $no DefaultCredential support in Mono
 <callback>m__2
 <callback>m__B
 <current>__1
-<i>__0
-<i>__1
 <list>__0
 =Does not support access control, semaphoreSecurity is ignored
 =Process will be of higher priority while it is actively used.
@@ -214,13 +220,13 @@ $no DefaultCredential support in Mono
 >The amount of physical memory currently used for this process.
 >Thread gets a priority boot when interactively used by a user.
 ?Check for exiting of the process to raise the apropriate event.
-@.reloc
 AF_INET
 AF_INET6
 AF_LINK
 AF_PACKET
 AIndicates whether the timer will be restarted when it is enabled.
 ASCIIEncoding
+ASN1
 ASN1Convert
 Abort
 AbortCommand
@@ -371,7 +377,6 @@ AllowAutoRedirect
 AllowEdit
 AllowEmptyAuthority
 AllowMerge
-AllowMultiple
 AllowNew
 AllowRemove
 AllowUnknownCertificateAuthority
@@ -418,6 +423,7 @@ ApplicationPolicy
 ApplySort
 Archived
 AreEqual
+Ares
 Argument
 ArgumentException
 ArgumentNullException
@@ -433,7 +439,9 @@ ArrayList
 ArrayPropertyDescriptor
 ArraySegment`1
 ArrayTypeMismatchException
+AsDE
 AsIPv4Int
+AsKV
 AsReadOnly
 AsSingleString
 AsStringArray
@@ -546,6 +554,7 @@ Available
 AvailableForRecycling
 Available_internal
 BNot totally RFC3280 compliant, but neither is MS implementation...
+BSJB
 BackgroundWorker
 BackslashNumber
 Backtrack
@@ -623,6 +632,7 @@ Behavior
 BelowNormal
 BinaryFormatter
 BinarySearch
+Bind
 BindContext
 BindIPEndPoint
 BindIPEndPointDelegate
@@ -642,11 +652,13 @@ BlockCopy
 BlockSource
 Blocking
 Blocking_internal
+Body
 BodyContentType
 BodyEncoding
 BodyFinished
 Boolean
 BooleanConverter
+Both
 Boundary
 Branch
 BringForward
@@ -662,10 +674,12 @@ Buffers
 Build
 BuildChainFrom
 BuildPingArgs
+Busy
 BypassArrayList
 BypassCache
 BypassList
 BypassProxyOnLocal
+Byte
 ByteConverter
 Bytes
 BytesReceived
@@ -791,6 +805,7 @@ ChangeToSSLSocket
 ChangeType
 Changed
 Chaos
+Char
 CharConverter
 CharIgnoreCase
 CharIgnoreCaseReverse
@@ -879,6 +894,7 @@ Closing
 ClosingControl
 ClosingData
 Cluster
+Code
 CodeAccessPermission
 CodeAccessSecurityAttribute
 CollectionBase
@@ -1035,6 +1051,7 @@ ConvertToInvariantString
 ConvertToString
 Converter
 ConverterTypeName
+Cook
 Cookie
 CookieCollection
 CookieCollectionComparer
@@ -1042,6 +1059,7 @@ CookieContainer
 CookieException
 CookieParser
 Cookies
+Copy
 CopyFrom
 CopyTo
 CopyToArray
@@ -1135,7 +1153,10 @@ CustomTargetNameDictionary
 CustomTypeDescriptor
 CutArray
 Cyclic
+D8X$
+D@FM
 DEBUG
+DJ5N
 DNS_ERROR_AUTOZONE_ALREADY_EXISTS
 DNS_ERROR_AXFR
 DNS_ERROR_BAD_PACKET
@@ -1221,11 +1242,14 @@ DNS_STATUS_FQDN
 DNS_STATUS_SINGLE_PART_NAME
 DNS_WARNING_DOMAIN_UNDELETED
 DNS_WARNING_PTR_CREATE_FAILED
+DPBS
+DRBT
 DSACryptoServiceProvider
 DSAParameters
 DThe amount of processing time spent in the OS core for this process.
 DUse TypeDescriptionProvider and TypeDescriptor.ComObjectType instead
 DadState
+Data
 DataAlreadyOpen
 DataArrayKey
 DataAvailable
@@ -1238,6 +1262,7 @@ DataToRead
 DataType
 DatagramsReceived
 DatagramsSent
+Date
 DateTime
 DateTimeConverter
 DateTimeFormatInfo
@@ -1306,6 +1331,7 @@ DeleteTcb
 Deleted
 DeliveryMethod
 DeliveryNotificationOptions
+Deny
 Deprecated
 Dequeue
 Descending
@@ -1347,6 +1373,7 @@ DestroyComponent
 Detach
 DetermineMethod
 Dgram
+Dhcp
 DhcpEnabled
 DhcpLeaseLifetime
 DhcpScopeName
@@ -1430,6 +1457,7 @@ DontUnescapePathDotsAndSlashes
 Dormant
 Double
 DoubleConverter
+Down
 DownloadData
 DownloadDataAsync
 DownloadDataCompleted
@@ -2933,6 +2961,7 @@ ERROR_WRONG_EFS
 ERROR_WRONG_PASSWORD
 ERROR_WRONG_TARGET_NAME
 ETHER
+ETag
 EchoRepliesReceived
 EchoRepliesSent
 EchoReply
@@ -2941,6 +2970,7 @@ EchoRequest
 EchoRequestsReceived
 EchoRequestsSent
 Echos
+Ecma
 EcmaAny
 EcmaAnySingleline
 EcmaDigit
@@ -2958,6 +2988,7 @@ ElapsedMilliseconds
 ElapsedTicks
 Element
 EmailName
+Emit
 EmitAlternationEnd
 EmitAnchor
 EmitBalance
@@ -3068,6 +3099,7 @@ Entire
 EntireChain
 Entry
 EntryPointAddress
+Enum
 EnumComparer
 EnumConverter
 EnumType
@@ -3099,6 +3131,7 @@ EstabResets
 Established
 Ethernet
 Ethernet3Megabit
+Eval
 EvalByteCode
 EvalChar
 EvalDelegate
@@ -3127,6 +3160,7 @@ ExclusiveAddressUse
 ExecutionDelay
 Executive
 Exists
+Exit
 ExitCode
 ExitCode_internal
 ExitMessage
@@ -3165,6 +3199,7 @@ FAMOpen
 FAMPending
 FAMRequest
 FAMWatcher
+FDDI
 FINISHED
 FRS_ERR_AUTHENTICATION
 FRS_ERR_CHILD_TO_PARENT_COMM
@@ -3185,6 +3220,7 @@ FRS_ERR_SYSVOL_POPULATE
 FRS_ERR_SYSVOL_POPULATE_TIMEOUT
 Factory
 FactoryCache
+Fail
 FailFast
 FailedConnectionAttempts
 FailedRecipient
@@ -3197,7 +3233,9 @@ FastRepeat
 FastRepeatLazy
 FatalTrustFailure
 Fault
+Fddi
 FieldInfo
+File
 File name filter pattern
 FileAccess
 FileAction
@@ -3233,6 +3271,7 @@ FileWebRequestCreator
 FileWebResponse
 FileWebStream
 Files
+Fill
 FillAttributes
 FillCookies
 FillFromBuffer
@@ -3247,6 +3286,7 @@ FilterType
 FinWait1
 FinWait2
 Finalize
+Find
 FindByApplicationPolicy
 FindByCertificatePolicy
 FindByExtension
@@ -3295,6 +3335,7 @@ Forbidden
 ForceCloseChunked
 ForceCompletion
 ForceUTF8Encoding
+Form
 Format
 FormatAddress
 FormatArray
@@ -3310,11 +3351,13 @@ FragCreates
 FragFails
 FragOks
 Fragment
+Free
 FreeBSTR
 FreeHGlobal
 FreePage
 Frequency
 FriendlyName
+From
 FromAnycast
 FromBase64String
 FromDnsServer
@@ -3330,6 +3373,7 @@ FromOid
 FromString
 FromTicks
 FromXml
+Frt4
 FtpAsyncResult
 FtpDataStream
 FtpRequestCreator
@@ -3345,7 +3389,9 @@ FxFileVersion
 FxVersion
 GCHandle
 GCHandleType
+GZip
 GZipStream
+G\vl\n87
 GatewayAddresses
 GatewayIPAddressInformation
 GatewayIPAddressInformationCollection
@@ -3661,6 +3707,7 @@ GetWidth
 GetWorkingSet_internal
 GigabitEthernet
 GlobalProxySelection
+Gone
 GotException
 GotRequestStream
 Group
@@ -3676,7 +3723,17 @@ Groups
 GssAPI
 GuessEncoding
 GuessTransferEncoding
+Guid
 GuidConverter
+H)cE
+H7\nK\n
+H8N$
+H@OM
+HDMH
+HJ<N
+HMX$
+HPDS
+HRDT
 Handle
 Handle for this process.
 HandleCount
@@ -3695,6 +3752,7 @@ HasNotSupportedNameConstraint
 HasPathLengthConstraint
 HasPrivateKey
 HasWildcard
+Hash
 HashAlgorithm
 HashAlgorithmType
 HashCodeProvider
@@ -3705,6 +3763,7 @@ HaveEnvVars
 HaveError
 HaveResponse
 HaveWins
+Head
 HeaderIncluded
 HeaderName
 Headers
@@ -3715,6 +3774,7 @@ HexEscape
 HexUnescape
 HexUnescapeMultiByte
 Hidden
+High
 HighPerformanceSerialBus
 Highest
 HighestSetBit
@@ -3723,6 +3783,7 @@ HorizSpaceConcatenate
 HorizSpaceDecrease
 HorizSpaceIncrease
 HorizSpaceMakeEqual
+Host
 HostAndPort
 HostDown
 HostEntry
@@ -3731,6 +3792,8 @@ HostNameType
 HostNotFound
 HostToNetworkOrder
 HostUnreachable
+Html
+Http
 HttpCacheAgeControl
 HttpConnection
 HttpContinueDelegate
@@ -3761,6 +3824,7 @@ HttpsClientStream
 Hybrid
 HybridDictionary
 HyperChannel
+I80I
 IAsyncResult
 IAuthenticationModule
 IBindingList
@@ -3840,9 +3904,11 @@ IP_ADAPTER_NO_MULTICAST
 IP_ADAPTER_RECEIVE_ONLY
 IPermission
 IPrincipal
+IPv4
 IPv4InterfaceProperties
 IPv4InterfaceStatistics
 IPv4Mask
+IPv6
 IPv6 support is missing
 IPv6Address
 IPv6Any
@@ -3873,6 +3939,7 @@ IUnrestrictedPermission
 IWebProxy
 IWebProxyScript
 IWebRequestCreate
+Icmp
 IcmpError
 IcmpMessage
 IcmpV4Statistics
@@ -3882,6 +3949,7 @@ IcmpV6Statistics
 IdealProcessor
 Identifier
 IdentityReference
+Idle
 IdleSince
 Ieee12844
 IfDefined
@@ -3894,6 +3962,7 @@ IfRange
 IfType
 IfUnmodifiedSince
 IfacePath
+Igmp
 Ignore
 IgnoreCase
 IgnoreCertificateAuthorityRevocationUnknown
@@ -3958,6 +4027,7 @@ IndexOfKey
 IndexOfValue
 IndexOutOfRangeException
 Infinite
+Info
 InfoRegex
 InfoString
 InfoType
@@ -3965,6 +4035,7 @@ InfoUnexecutedRegex
 Information
 InformationNotAvailable
 InheritanceFlags
+Init
 InitAccessors
 InitConnection
 InitDataConnection
@@ -4063,6 +4134,7 @@ IpMask
 IpTimeToLive
 Iphlpapi.dll
 Ipv6IfIndex
+Irda
 IriParsing
 Is this process responsive.
 IsAbsoluteUri
@@ -4200,14 +4272,21 @@ IsWhiteSpace
 IsWindows
 IsWinsProxy
 IsWordChar
+Isdn
 IssuerName
+Item
 ItemAdded
 ItemChanged
 ItemDeleted
 ItemFilterType
 ItemMoved
+JX(W
+J\tXT
 Jalways return String.Empty for UpnName, DnsFromAlternativeName and UrlName
+Join
 JoinMulticastGroup
+Jpeg
+Jump
 KEY_MODE
 KUse SettingsBindableAttribute instead of RecommendedAsConfigurableAttribute
 KeepAlive
@@ -4230,16 +4309,27 @@ KeyNotFoundException
 KeyUsageExtension
 KeyUsages
 KeyValuePair`2
+Keys
 KeysCollection
+Kill
 KillBuffer
 Kill_internal
+L)hE
+L3`4
+L8S$
+L@XM
 LIBNAME
 LIndicates whether the timer is enabled to fire events at a defined interval.
+LJCN
+LMN$
 LOOPBACK
+LPFS
+LRFT
 LTRReplace
 LThe object that is used to synchronize event handler calls for this process.
 LThere is no support for retrieving process information from a remote machine
 Language
+Last
 LastAccess
 LastAccessTime
 LastAck
@@ -4253,6 +4343,7 @@ LastValue
 LastWrite
 LastWriteTime
 Layout
+Lazy
 LcertValidationCallback is not passed X509Chain and SslPolicyErrors correctly
 LeaseExpires
 LeaseLifetime
@@ -4284,6 +4375,7 @@ Linger
 LingerOption
 LingerState
 LingerTime
+Link
 LinkLayerAddress
 LinkRef
 LinkStack
@@ -4301,6 +4393,7 @@ LinuxIPv4InterfaceProperties
 LinuxIPv4InterfaceStatistics
 LinuxNetworkInterface
 LinuxUnicastIPAddressInformation
+List
 ListBindable
 ListBindableAttribute
 ListChanged
@@ -4327,6 +4420,7 @@ Listeners
 ListenersSyncRoot
 Listening
 Literal
+Load
 LoadAssemblyLicenses
 LoadCertificateAndKey
 LoadComplete
@@ -4399,15 +4493,18 @@ MangledFilter
 Manual
 ManualResetEvent
 Mapping
+Mark
 Marshal
 MarshalByRefObject
 MarshalByValueComponent
+Mask
 Match
 MatchAppendEvaluator
 MatchCollection
 MatchEvaluator
 MatchFromList
 Matches
+Math
 MaxAge
 MaxAgeAndMaxStale
 MaxAgeAndMinFresh
@@ -4482,6 +4579,7 @@ Minimum
 MinimumTransmissionTimeout
 Mixed
 MkCol
+Mode
 ModificationDate
 Modified
 Modify
@@ -4523,6 +4621,7 @@ Moved
 MovedFrom
 MovedPermanently
 MovedTo
+Msgs
 MultiLevelRedo
 MultiLevelUndo
 MultiRateSymmetricDsl
@@ -4549,6 +4648,7 @@ MutualAuthRequired
 MutuallyAuthenticated
 NBytes
 NOT_STARTED
+Name
 NameEncoding
 NameHashCode
 NameObjectCollectionBase
@@ -4609,6 +4709,7 @@ NewName
 NewParseException
 NewValue
 NewsStyleUriParser
+Next
 NextMatch
 NextRead
 NoBitmap
@@ -4690,6 +4791,7 @@ NoUnicodeRangeReverse
 NoUserInfo
 NoWildcards
 NoWordBoundary
+Node
 NodeEnumerator
 NodeHelper
 NodeType
@@ -4702,6 +4804,7 @@ NonRepudiation
 NonUnicastPacketsReceived
 NonUnicastPacketsSent
 Nonce
+None
 NoneYet
 NonpagedSystemMemorySize
 NonpagedSystemMemorySize64
@@ -4733,8 +4836,10 @@ NotifyFilter
 NotifyFilters
 NotifyParent
 NotifyParentPropertyAttribute
+Ntlm
 NtlmAuthenticated
 NtlmCredential
+Null
 NullFileWatcher
 NullReferenceException
 Nullable
@@ -4829,6 +4934,7 @@ OobDataRead
 OpCode
 OpFlags
 Opaque
+Open
 OpenControlConnection
 OpenDataConnection
 OpenExisting
@@ -4890,8 +4996,15 @@ OutputPacketsWithNoRoute
 OutputQueueLength
 OutputStream
 Overflow
-O}}	,
+P)mE
+P@aM
+PCI$
+PDCH
+PJJN
 PKCS12
+PMS$
+PPHS
+PRHT
 PRONET
 PacketFragmentFailures
 PacketInformation
@@ -4920,7 +5033,6 @@ Parameters
 ParentInotifyData
 ParmProbs
 Parse
-Parse dmesg?
 Parse parameters
 ParseAsUnixAbsoluteFilePath
 ParseAsWindowsAbsoluteFilePath
@@ -4965,6 +5077,7 @@ Password
 PasswordCommand
 PasswordPropertyTextAttribute
 Paste
+Path
 PathAndQuery
 PathLengthConstraint
 PathnameCreated
@@ -4978,6 +5091,7 @@ PeakVirtualMemorySize
 PeakVirtualMemorySize64
 PeakWorkingSet
 PeakWorkingSet64
+Peek
 Peer2Peer
 Pending
 PerDomainCapacity
@@ -4989,6 +5103,7 @@ PhysicalAddress
 PhysicalAddressLength
 PickupDirectoryFromIis
 PickupDirectoryLocation
+Ping
 PingBinPath
 PingBinPaths
 PingCompleted
@@ -5004,12 +5119,15 @@ Plain
 PlatformID
 PlatformNotSupportedException
 PolicyRestricted
+Poll
 Poll_internal
 PopulateGroup
+Port
 PortCommand
 Ports
 Position
 PositionAssertion
+Post
 PostEvent
 PostOperationCompleted
 Pragma
@@ -5120,6 +5238,7 @@ PtrToStringAnsi
 PtrToStructure
 PublicKey
 PulseAll
+Push
 PutImpl
 Query
 QueryString
@@ -5243,6 +5362,7 @@ RPC_X_WRONG_ES_VERSION
 RPC_X_WRONG_PIPE_ORDER
 RPC_X_WRONG_PIPE_VERSION
 RPC_X_WRONG_STUB_VERSION
+RSA1
 RSACryptoServiceProvider
 RSAManaged
 RSAParameters
@@ -5259,6 +5379,7 @@ RangeReverse
 RateAdaptDsl
 RawData
 RawUrl
+Read
 ReadAll
 ReadBody
 ReadBuffer
@@ -5344,6 +5465,7 @@ RedirectStandardOutput
 Redirects
 RedirectsReceived
 RedirectsSent
+Redo
 Reduce
 Reference
 ReferenceAssembly
@@ -5511,6 +5633,7 @@ RevocationStatusUnknown
 Revoked
 RichText
 RightToLeft
+Root
 RootComponent
 RootComponentClassName
 Roots
@@ -5543,6 +5666,7 @@ RuntimeHelpers
 RuntimeLicenseContext
 RuntimeTypeHandle
 RxInterpreter
+RxOp
 SByte
 SByteConverter
 SCHED_E_SERVICE_NOT_LOCALSYSTEM
@@ -5551,11 +5675,14 @@ SEC_E_PKINIT_CLIENT_FAILUR
 SEC_E_REVOCATION_OFFLINE_C
 SEC_E_SMARTCARD_CERT_EXPIRED
 SEC_E_SMARTCARD_CERT_REVOKED
+SHA1
+SLIP
 SNeeds to respect Module, Proxy.AutoDetect, and Proxy.ScriptLocation config settings
 SPKey
 SRDescriptionAttribute
 SafeUnescaped
 SatelliteContractVersionAttribute
+Scan
 Scheduled
 Scheme
 SchemeAndServer
@@ -5588,6 +5715,7 @@ SecurityLibrary
 SecurityProtocol
 SecurityProtocolType
 SeeOther
+Seek
 SeekOrigin
 Segments
 SegmentsReceived
@@ -5609,6 +5737,7 @@ SemaphoreAuditRule
 SemaphoreFullException
 SemaphoreRights
 SemaphoreSecurity
+Send
 SendAsync
 SendAsyncCancel
 SendAttachments
@@ -5729,6 +5858,7 @@ SetupPassiveConnection
 SetupRequest
 SetupShiftTable
 SevenBit
+Sha1
 ShellExecuteEx_internal
 ShortSha1
 ShouldSendCredential
@@ -5739,6 +5869,7 @@ ShowLargeIcons
 ShowWatcherInfo
 Shutdown
 Shutdown_internal
+Sign
 SignalTime
 SignatureAlgorithm
 SimpleName
@@ -5746,6 +5877,8 @@ SimplePropertyDescriptor
 Single
 SingleConverter
 Singleline
+Site
+Size
 SizeOf
 SizePointer
 SizeToControl
@@ -5755,6 +5888,7 @@ SizeToFit
 SizeToGrid
 SkipWhitespace
 Sleep
+Slip
 SmtpAccess
 SmtpClient
 SmtpDeliveryMethod
@@ -5764,6 +5898,8 @@ SmtpFailedRecipientsException
 SmtpResponse
 SmtpStatusCode
 SnapToGrid
+Soap
+Sock
 SockFlags
 Sockaddr
 SockaddrLength
@@ -5788,6 +5924,7 @@ SocketPolicyClient
 SocketShutdown
 SocketType
 Socket_internal
+Sort
 SortDescriptions
 SortDescriptorArray
 SortDirection
@@ -5811,6 +5948,8 @@ Speed
 Split
 SpxII
 SrcQuenchs
+Ssl2
+Ssl3
 SslClientStream
 SslPolicyErrors
 SslProtocol
@@ -5857,6 +5996,7 @@ StatusCode
 StatusDescription
 StatusFlags
 StatusInformation
+Stop
 StopDispatching
 StopExecuting
 StopLogicalOperation
@@ -6088,8 +6228,17 @@ SystemException
 SystemNotReady
 SystemStatus
 SystemType
+T(2D
+T)rE
+T7%K\n
+TD4H
 THRESHOLD
+TJWN
+TKey
+TNb$
+TPJS
 TRACE
+TRJT
 TThe object used to marshal the event handler calls resulting from a directory change
 TUNNEL
 TUNNEL6
@@ -6112,9 +6261,11 @@ TcpTable
 TemporaryRedirect
 Tentative
 Terminated
+Test
 TestCharGroup
 TestExpression
 Testing
+Text
 TextWriter
 TextWriterTraceListener
 The ID of this thread.
@@ -6144,6 +6295,7 @@ Threads
 ThrowIfUpd
 ThrowProtocolViolation
 Thumbprint
+Tiff
 TimeCritical
 TimeExcds
 TimeExceeded
@@ -6205,6 +6357,7 @@ ToXml
 TokenImpersonationLevel
 TokenRing
 TooManyOpenSockets
+Tool
 ToolboxItemAttribute
 ToolboxItemFilterAttribute
 ToolboxItemFilterType
@@ -6252,10 +6405,12 @@ Translate
 TranslateHandle
 TransmitFileOptions
 TransportType
+Trim
 TrimEnd
 TrimExcess
 TrimStart
 TripleDes
+True
 TrueExpression
 Truncated
 TrustEvaluateSsl
@@ -6273,6 +6428,7 @@ TryToGet
 TtlExpired
 TtlReassemblyTimeExceeded
 Tunnel
+Type
 TypeChanged
 TypeCommand
 TypeConverter
@@ -6308,6 +6464,7 @@ UncompressFlags
 Undefined
 UnderlyingType
 UnderlyingTypeConverter
+Undo
 Unescape
 UnescapeDataString
 Unescaped
@@ -6471,6 +6628,7 @@ UnicodeZp
 UnicodeZs
 Unindent
 Union
+Unix
 UnixIPInterfaceProperties
 UnixIPv4InterfaceProperties
 UnixNetworkInterface
@@ -6598,6 +6756,7 @@ UsedInConsole2
 UsedInManaged1
 UsedInManaged2
 UsedInProcess
+User
 UserAgent
 UserCommand
 UserEscaped
@@ -6617,9 +6776,9 @@ Username
 UsesNtlmAuthentication
 UsesProxy
 UsesWins
-V	W"WQWcWhWlW
 VALUE_MODE
 VSystem.Net, PublicKey=00240000048000009400000006020000002400005253413100040000010001008D56C76F9E8649383049F383C44BE0EC204181822A6C31CF5EB7EF486944D032188EA1D3920763712CCB12D75FB77E9811149E6148E5D32FBAAB37611C1878DDC19E20EF135D0CB2CFF2BFEC3D115810C3D9069638FE4BE215DBF795861920E5AB6F7DB2E2CEEF136AC23D5DD2BF031700AEC232F6C6B1C785B4305C123B37AB
+V\tW"WQWcWhWlW
 ValidLifetime
 Validate
 ValidateChain
@@ -6631,6 +6790,8 @@ ValueCollection
 ValueEnumerator
 ValueType
 Values
+Vary
+Verb
 VerbFirst
 VerbLast
 Verbose
@@ -6660,6 +6821,7 @@ VirtualMemorySize64
 Visibility
 Visible
 VoiceView
+Void
 VsFileVersion
 VsVersion
 W32ErrorMessage
@@ -6757,6 +6919,7 @@ WSA_QOS_RESERVED_PETYPE
 WSA_QOS_SENDERS
 WSA_QOS_TRAFFIC_CTRL_ERROR
 WThe object used to marshal the event handler calls issued when an interval has elapsed.
+Wait
 WaitCallback
 WaitForChanged
 WaitForChangedResult
@@ -6775,6 +6938,7 @@ Warning
 Watch
 WatchDescriptor
 WatcherChangeTypes
+Weak
 WeakObjectWrapper
 WeakObjectWrapperComparer
 WeakReference
@@ -6850,6 +7014,7 @@ WindowsIdentity
 WindowsWatcher
 WinsServersAddresses
 Wireless80211
+Word
 WordBoundary
 Worker
 WorkerReportsProgress
@@ -6897,8 +7062,11 @@ Writer
 WwwAuthenticate
 X Y%Y;Y\YaY
 X'X,X=XKXeX
+X(7D
+X)wE
 X500DistinguishedName
 X500DistinguishedNameFlags
+X501
 X509BasicConstraintsExtension
 X509Certificate
 X509Certificate2
@@ -6934,14 +7102,60 @@ X509Stores
 X509SubjectKeyIdentifierExtension
 X509SubjectKeyIdentifierHashAlgorithm
 X509VerificationFlags
+X7.K\n
+XCX$
+XDHH
+XJ`N
+XNg$
+XPLS
 XPriority
+XRLT
+XT U
+X\f8D
+X\f8k
+X\n8C\n
+X\r8B
+X\r8E
+X\r8O
+X\r8x
+X\v8T
+X\v8s
+X\voL
 Y?ZWZcZsZ
 YDoes not affect Credentials, since CredentialCache.DefaultCredentials is not implemented.
+Y\n8u
+Y\r8C
+ZX\r85
+ZX\r87
+ZX\r8M
+ZX\r8P
+ZXos
+Zero
 ZoneIndices
 [)[4[G[a[z[
-\@\O\x\
+\77K\n
+\JiN
+\PNS
+\RNT
+\fParse dmesg?
+\nA\fJ\fR\f[\fj\f|\f
+\nSystem.dll
+\nYo9
+\ng\n44
+\niY\tiX(Z
+\nj\vst
+\njou
+\nz8A
+\nzrs'
+\nzst
+\r&\r@\rC\rK\rS\r\\rn\rv\r
+\rAllowMultiple
+\tComponent
+\tInherited
+\tStartInfo
+\v3.0.40818.0
 ]-]8]C]J]X]^]
-^!^&^2^Q^
+^rt4
 _100continue
 _CorDllMain
 _Item
@@ -6951,11 +7165,8 @@ __Internal
 _archived
 _array
 _attributes
-_b_9%
+_b\nsl
 _b_92
-_b_:7
-_b_:D
-_bf_}
 _bufferList
 _callback
 _cancelled
@@ -6969,6 +7180,7 @@ _componentType
 _critical
 _defaultEvent
 _defaultProperty
+_dic
 _emptyCustomTypeDescriptor
 _enhKeyUsage
 _error
@@ -6983,6 +7195,7 @@ _hasPathLengthConstraint
 _head
 _info
 _infoType
+_key
 _keyUsages
 _keyValue
 _list
@@ -6990,6 +7203,7 @@ _location
 _lock
 _member
 _name
+_oid
 _params
 _parent
 _password
@@ -6998,10 +7212,12 @@ _position
 _properties
 _propertyType
 _publicKey
+_raw
 _readOnly
 _securityProtocol
 _serial
 _size
+_ski
 _standardValues
 _status
 _subjectKeyIdentifier
@@ -7010,7 +7226,10 @@ _type
 _userState
 _value
 _version
-`.rsrc
+`PPS
+`RPT
+`T8Z
+`T8w
 abortHandler
 abortHelper
 aborted
@@ -7080,6 +7299,7 @@ add_UploadStringCompleted
 add_UploadValuesCompleted
 add_method
 add_qmark
+addr
 address
 addressList
 address_family
@@ -7101,7 +7321,10 @@ alternate
 alternateViews
 aname
 appearance
+apps
+ares
 argTypes
+args
 argument
 argumentName
 arguments
@@ -7129,6 +7352,7 @@ async_result
 async_thread
 attachmentExists
 attachments
+attr
 attrCollection
 attrList
 attribs
@@ -7152,9 +7376,11 @@ autoFlush
 autoReset
 auto_decomp
 available
-a}m	 
 b&b4bObib
 bOrder
+bX\n8l
+b`XX
+back
 backlog
 balance
 balance_gid
@@ -7176,11 +7402,13 @@ begin
 behaviour
 binary
 bindable
+bits
 black_mask
 black_shift
 block
 blocking
 blocking_thread
+body
 bodyBuffer
 bodyBufferLength
 bodyEncoding
@@ -7191,6 +7419,7 @@ bufarray
 buffer
 bufferSize
 buffers
+busy
 bypassList
 bypassOnLocal
 bypassSocketSecurity
@@ -7200,6 +7429,9 @@ bytesReceived
 bytesSent
 bytesTransferred
 c@cMcVc
+cXl*
+c\nP2
+c\nd6d<dXdud
 caCertificate
 ca_cert
 cache
@@ -7227,6 +7459,7 @@ cap_user_header_t
 capacity
 capget
 capnames
+caps
 capsize
 capslist
 capture
@@ -7234,6 +7467,7 @@ captures
 caseInsensitive
 category
 cback
+cert
 certErrors
 certOrCertArray
 certSelectionCallback
@@ -7284,6 +7518,8 @@ close
 close_existing
 closed
 closing
+code
+coll
 collection
 columnName
 command
@@ -7294,6 +7530,7 @@ comments
 commit
 committed
 commonName
+comp
 compact_escaped
 companyname
 comparand
@@ -7319,6 +7556,7 @@ compress
 compressedStream
 compressed_status_flags
 condition
+conn
 connect_exception
 connected
 connectionGroup
@@ -7365,10 +7603,12 @@ createdNew
 creatingDefaultConverters
 creationContext
 creator
+cred
 credential
 credential_policy
 credentials
 critical
+crlf
 ctx_queue
 culture
 curSocket
@@ -7379,13 +7619,22 @@ currentKey
 currentValue
 current_bind_count
 current_line
-d6d<dXdud
+d(FD
+d7IK\n
+dJxN
+dPRS
+dRRT
+dT)U
+d\nl2
+darg
+data
 data1
 dataStream
 data_type
 datagram
 dateStr
 decoder
+deep
 defaultCapacity
 defaultConnectionLimit
 defaultConverters
@@ -7407,6 +7656,7 @@ delimiter
 deliveryMethod
 deliveryNotificationOptions
 depth
+desc
 description
 descriptorHandler
 design
@@ -7415,12 +7665,14 @@ designerBaseType
 designerBaseTypeName
 designerType
 designerTypeName
+dest
 dest_offset
 destination
 destinationType
 detailMessage
 details
 dgram
+dict
 dictionary
 digit
 digits
@@ -7443,6 +7695,7 @@ dns_suffix
 do_insert
 do_remove
 domain
+done
 dontEscape
 dontEscape is always false
 dontFragment
@@ -7452,6 +7705,7 @@ dsaOid
 dwFamily
 e$eFeWehe
 eDoes not support X509FindType.FindByTemplateName, FindByApplicationPolicy and FindByCertificatePolicy
+ecma
 editorBaseType
 editors
 effective
@@ -7533,14 +7787,18 @@ expectedSchemes
 expires
 explicitDisposing
 explicit_numeric_groups
+expr
 expr_pc
 expressions
 extens
 extension
 extraValue
 extraassemblies
+f\ng2gDgpg
+f\np3
 factories
 factory
+fail
 failed
 failedRecipient
 fam_CancelMonitor
@@ -7549,8 +7807,10 @@ fam_MonitorDirectory
 fam_Open
 fam_Pending
 family
+fast
 feeder
 fflags
+file
 fileAccess
 fileName
 fileStream
@@ -7575,6 +7835,7 @@ finished_reading
 first
 first_mark_index
 fixed_info
+flag
 flags
 focus
 forIssuer
@@ -7587,16 +7848,17 @@ formatOrMessage
 formats
 forward
 fragment
+free
 freeifaddrs
 freshOrStale
 friendlyName
+from
 fromBase
 ftpResponse
 fullLength
 fullnamespace
 fullpath
 g h9hFhvh
-g2gDgpg
 gamin
 gamin_CancelMonitor
 gamin_Close
@@ -8652,7 +8914,14 @@ group_count
 group_names
 group_numbers
 groups
-g}m	,
+guid
+gzip
+h(KD
+h7RK\n
+hPTS
+hRTT
+hT,U
+h\nD4
 h_addr_list
 h_addrlist
 h_aliases
@@ -8661,10 +8930,12 @@ handle
 handler
 hasPathLengthConstraint
 hasWildcard
+hash
 hashProvider
 hashtable
 haveRequest
 haveResponse
+head
 header
 headerName
 headerValue
@@ -8675,6 +8946,8 @@ heads
 helperType
 hexBytes
 hexUpperChars
+high
+host
 hostAddress
 hostChanged
 hostE
@@ -8687,7 +8960,6 @@ httpHeaders
 httpOnly
 httpRequest
 i+iNi]i
-iY	iX(Z
 i_stream
 iaddr
 icomp
@@ -8713,6 +8985,7 @@ iface_index
 iface_operstate_path
 iface_path
 ifaddrs
+ifap
 ifindex
 ifname
 ifu_broadaddr
@@ -8734,12 +9007,14 @@ includesections
 indentLevel
 indentSize
 index
+info
 infoCopy
 infoType
 infos
 inherit
 inheritable
 inheritanceFlags
+init
 initConn
 initLock
 initRead
@@ -8772,6 +9047,7 @@ invalidValue
 ioControlCode
 io_buffer
 ioctl_code
+iout
 ip4stats
 ipAddresses
 ipPacketInformation
@@ -8822,10 +9098,14 @@ ispublic
 isspecialbuild
 issuer_name
 issupported
+item
 itemType
 itemTypeName
 jFjLjzj
-j[[(!
+jX}D
+jX}i
+j\np4
+j_iX
 joiner
 justcreated
 k k.k4kGl`lwl
@@ -8836,10 +9116,20 @@ keyStorageFlags
 keyUsages
 keyValue
 keyValuePair
+keys
 keyscoll
 keywords
+kind
 kqueue
+l(PD
+l-4H
+l7[K\n
+lPVS
+lRVT
+lT/U
+l\nL7
 language
+last
 lastData
 lastModified
 lastTransaction
@@ -8848,23 +9138,29 @@ last_parse
 last_sent
 last_transaction
 layout
+lazy
 leaveInnerStreamOpen
 leaveOpen
 leaveStreamOpen
+left
 legalcopyright
 legaltrademarks
 length
 level
 levels
+libc
 libfam.so.0
 libgamin-1.so.0
 license
+line
 line_state
 linger_state
 linger_timeout
+link
 linkedResources
 linux
 linux_cap_version
+list
 list1
 list2
 listAccessors
@@ -8893,7 +9189,9 @@ locker
 lockobj
 logFile
 logFileName
+lref
 m5mImXm
+m\nt7
 m]nvn
 m_Address
 m_Family
@@ -8926,6 +9224,7 @@ mappings
 mark_end
 mark_start
 marks
+mask
 match
 match_min
 maxAge
@@ -8948,15 +9247,19 @@ menuGroup
 mergable
 message
 messageInProcess
+meta
 method
 method_GetSecurityPolicyFromNonMainThread
 method_name
 methodname
+mib4
+mib6
 microSeconds
 milliseconds
 mimeTypes
 minFresh
 missing KeyStorageFlags support
+mode
 mode_t
 modificationCount
 modified
@@ -8975,9 +9278,17 @@ multicastAddr
 mutex
 mySite
 mycontext
+nYE\v
+n\n83
+n\n89
+n\n8L
+n\n8R
+n\n8e
+n\n8k
 n_caps
 n_groups
 n_pieces
+name
 name1
 name2
 name3Des
@@ -9012,12 +9323,14 @@ newNode
 newValue
 new_node
 new_size
+next
 nextNode
 nextReadCalled
 noCustomTypeDesc
 no_body_methods
 no_delay
 no_more_data
+node
 node_reparent
 not supported in all cases
 not thread-safe
@@ -9036,7 +9349,8 @@ num_groups
 num_str
 number
 numberOfBytes
-n}n	4
+nyP\t
+n}n\t4
 o-oBopo
 o_stream
 obj_val
@@ -9072,6 +9386,7 @@ op_LessThanOrEqual
 op_Subtraction
 op_stack
 opaque
+open
 operation
 operationId
 optionInValue
@@ -9081,6 +9396,7 @@ optionOutValue
 optionValue
 options
 order
+orig
 origDataStream
 orig_parent
 orig_size
@@ -9097,21 +9413,67 @@ owner
 ownsHandle
 owns_socket
 p!p?pCpip
+p(UD
+p*r0
+p*r2
+p*r3
+p*r4
+p*r6
+p*r7
+p*rC
+p*rG
+p*rI
+p*rJ
 p*rKy
+p*rM
+p*rN
+p*rP
+p*rS
+p*rS\r
+p*rU
+p*rX
+p*rZ
+p*rc
+p*rd
+p*re
+p*rf
+p*rg
+p*rh
+p*rk
+p*rl
+p*rq
+p*rs
+p*rv
+p*ry
+p*rz
+p*sl
+p-9H
+p7dK\n
 pOutBufLen
+pPXS
 pPerAdapterInfo
+pRXT
 pStats
+pT2U
 pTcpTable
 pUdpTable
+p\n87
+p\n8B
+p\n8M
+p\n8X
+p\toG
 painfo
+pair
 parameter
 parameters
 parent
 parse
 parser
 parsingError
+part
 partsToCompare
 password
+path
 pathLengthConstraint
 pathValue
 pattern
@@ -9131,11 +9493,13 @@ pickupDirectoryLocation
 pieces
 pipelined
 plist
+po6\t
 point
 policies
 policy
 policy_request
 policyport
+port
 portNumber
 portSeparators
 ports
@@ -9143,19 +9507,123 @@ pos_cats
 position
 postBuffer
 post_buffer
+pr"f
+pr$Y
+pr$m
+pr&M
+pr&U
+pr&j
+pr&v
+pr(n
+pr*W
+pr.N
+pr.q
+pr0A
+pr0C
+pr2G
+pr2O
+pr2T
+pr4b
+pr4d
+pr4o
+pr5\n
+pr6@
+pr6L
+pr6^
+pr8P
+pr8Q
+pr8p
+pr<D
+pr<J
+pr<h
+pr<i
+pr<l
+pr>K
+pr>t
+pr>w
+pr@E
+pr@I
+prBe
+prCy
+prDF
+prDx
+prFB
+prFc
+prFg
+prFs
+prFu
+prHV
+prHr
+prJ]
+prLk
+prM:
+prNZ
+prPR
+prPU
+prPa
+prRY
+prR[
+prR\
+prRf
+prRq
+prS\r
+prTH
+prVv
+prW;
+prY&
+prZ@
+pr\C
+pr\M
+pr\fW
+pr\fq
+pr\nO
+pr\nT
+pr\nc
+pr\no
+pr\w
+pr^W
+pr`S
+pr`d
+pr`p
+pra\n
+prb!
+prbK
+prbL
+prb`
+prdB
+prdO
+prdP
+prdj
+prdo
+pre&
 preAuthenticate
 preBuffer
 pre_buffer
 prefix
 prefixLength
 prefixes
+prev
 previous
 previousNode
+prfA
+prhE
+prhX
+prhl
 primary
 priority
 priority_request
 privateGetLicense
 privatebuild
+prjD
+prjG
+prjQ
+prjT
+prj]
+prj^
+prjg
+prlJ
+prnU
+prnb
 procDir
 proc_info
 process
@@ -9195,20 +9663,45 @@ protocol_info
 protocol_type
 provider
 proxy
+prp?
+prpF
+prpI
+prph
+prq&
+prrc
+prrm
+pru&
+prv@
+prvN
+prvi
+prvv
+prxR
+prxt
+prxx
+przn
+pr~k
+pr~u
+psR\v
+psT\v
 pubkey
 publicOnly
+q\nH8
+qb\t4
+qm\fh
 query
 queryString
 query_string
 queue
 rFrMr
 rUs]sfs
+r\nX8
 range
 rangeSpecifier
 rawData
 rawParameters
 rawPublicKey
 raw_url
+read
 readBuffer
 readBufferOffset
 readBufferSize
@@ -9244,6 +9737,7 @@ reference
 reference_type
 referrer
 refresh
+refs
 refsInitialized
 regex
 regexes
@@ -9361,11 +9855,13 @@ rflag
 right
 right_most
 rights
+root
 roots
 roptions
 roundtripTime
 rparam
 rsaOid
+rule
 runningOnUnix
 rwTimeout
 sPoint
@@ -9397,6 +9893,7 @@ secTrustResultTime
 second
 secondary
 seconds
+secs
 section
 sectionContentType
 sectrustref
@@ -9414,6 +9911,7 @@ send_buffer_size
 send_so_far
 send_timeout
 sender
+sent
 separators
 sequence
 serializationInfo
@@ -9770,6 +10268,7 @@ set_Writeable
 set_Writer
 setter
 settings
+sf\n,3
 share
 shift
 shiftExtended
@@ -9788,6 +10287,7 @@ sin_addr
 sin_family
 sin_len
 sin_port
+size
 size_black
 sll_addr
 sll_family
@@ -9796,6 +10296,7 @@ sll_hatype
 sll_ifindex
 sll_pkttype
 sll_protocol
+sock
 sockaddr
 sockaddr_dl
 sockaddr_in
@@ -9847,6 +10348,7 @@ stderr_rd
 stdin
 stdout
 stdout_rd
+stop
 store
 storeHandle
 storeLocation
@@ -9874,7 +10376,15 @@ switchSetting
 syncRoot
 synch
 synchronizingObject
+t(ZD
+t7mK\n
+tPZS
+tRZT
+tT5U
+tab4
+tab6
 table
+tail
 target
 targetHost
 targetName
@@ -9886,6 +10396,7 @@ targetkeys
 technology
 templateResponse
 teutu
+text
 text_end
 text_length
 theElement
@@ -9893,6 +10404,7 @@ thread
 thread_handle
 throwEx
 throwOnError
+time
 timeToLive
 time_us
 timedOut
@@ -9903,6 +10415,7 @@ timestamp
 toBeHashed
 toUri
 token
+tool
 toolboxItemName
 toolboxItemType
 total
@@ -9915,17 +10428,20 @@ total_send
 trace_rx
 trailerState
 trailer_sent
+tran
 transferEncoding
+tree
 tspecials
 tv_sec
 tv_usec
+type
 typeChanged
 typeDescriptionProviders
 typeDescriptionProvidersLock
 typeName
 typeTable
 types
-t}n	p
+t}n\tp
 u6_addr8
 uSome X500DistinguishedNameFlags options aren't supported, like DoNotUsePlusSign, DoNotUseQuotes and ForceUTF8Encoding
 udata
@@ -9941,6 +10457,8 @@ unused
 unused property
 updated
 upper_case_characters
+uri1
+uri2
 uriKind
 uriParser
 uriPrefix
@@ -9959,8 +10477,10 @@ use_gamin
 use_global_lock
 use_min
 use_shell_execute
+used
 usedPreAuth
 useoverlappedIO
+user
 userEscaped
 userName
 userState
@@ -9981,6 +10501,7 @@ validation_callback
 value
 value__
 values
+verb
 verbose
 version
 version_info
@@ -10006,6 +10527,7 @@ width
 willBlock
 window_style
 windowsVer51
+word
 worker
 working_directory
 working_issuer_name
@@ -10020,9 +10542,16 @@ write_timeout
 writeable
 writer
 wsChars
+x-CH
+x7vK\n
+xP\S
+xR\T
+xT8U
+xstr
 ySystem.Diagnostics.Design.FSWPathEditor, System.Design, Version=2.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3auSystem.Drawing.Design.UITypeEditor, System.Drawing, Version=2.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 ySystem.Diagnostics.Design.VerbConverter, System.Design, Version=2.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-z$zHzXznz
+y\rz$zHzXznz
+z\tow
 z_stream
 {System.Diagnostics.Design.ProcessDesigner, System.Design, Version=2.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-|j|p|y|
+|SrT

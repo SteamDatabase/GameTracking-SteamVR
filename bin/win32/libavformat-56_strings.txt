@@ -2,35 +2,24 @@
     Chapter #%d.%d: 
     Stream #%d.%d
   Duration: 
-  No Program
-  Program %d %s
-  dts=
-  duration=%0.3f
-  keyframe=%d
-  pts=
-  size=%d
+  No Program\n
+  Program %d %s\n
+  duration=%0.3f\n
+  keyframe=%d\n
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- %.2s:%.2s
  %02x
  (clean effects)
  (comment)
  (default)
- (dub)
  (forced)
  (hearing impaired)
  (karaoke)
  (lyrics)
  (original)
  (visual impaired)
- PjPW
- SVW3
- [t	V
-!This program cannot be run in DOS mode.
-$9~ u
-$PjQW
-$iH0@.
+ 23\fq
 %+08.4f%+09.4f/
 %0.3f
 %02d:%02d:%02d.%02d
@@ -40,432 +29,75 @@ $iH0@.
 %Y-%m-%d %H:%M:%S
 %d kb/s
 %d.%06d
-%d/%d
-%s  %-16s: %s
-%s #%d, %s, %s '%s':
-%s - 
-%s-%s
-%s/%s
-%s://
-%sMetadata:
-%sSide data:
-%ti bytes of comment header remain
-&080J0f3r3
-&s]j5X
+%s  %-16s: %s\n
+%s #%d, %s, %s '%s':\n
+%sMetadata:\n
+%sSide data:\n
+%ti bytes of comment header remain\n
 ( 8PX
 ('8PW
-(404?4J4
-(EBML version %llu, doctype %s, doc version %llu)
 (none)
 (null)
-)0?0K0Q0l0q0w0}0
-*PjTW
 *pkt_buffer
-+=m1a u
-+BH;E
-+PjUW
-+U,9U
-+t"HHt
-, %1.0f %s
 , %1.0fk %s
-, %3.2f %s
 , %d, %d/%d
 , PAR %d:%d DAR %d:%d
 , bitrate: 
 , start: 
-,PjVW
-,SVWj0X
--%.2s-%.2s
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--0105090=0A0E0I021Z2r2
 -64OS
--PjWW
--aARTt
--jd[;
--t*j0X;
-.=co64u>3
-.PjRW
-.idata
-.text
-/061>1
-/PjSW
-0$0,040<0D0L0T0\0d0l0t0|0
-0$000<0H0T0`0l0x0
-0(0,000`0d0l0
-0)0:0H0W0
-0*050U0`0
-001M1
-00G0 1:1
+.mp1
+.mp2
+.mp3
 0123456789ABCDEF0123456789abcdef
-050_0
-0;0s0{0
-0>1n1
-0D1H1L1P1)303?3J3T3[3b3
-0K7Q7
-0`1l1
-0b1z2
-0e1k1
-0j1{1
-0l1x1|1
-0r2	3
-1	1+151;1M1`1f1
-1 1,181
-1#151G1Y1k1}1
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1,141<1D1L1T1\1d1l1t1|1
-1(1,1@1P1T1X1\1`1
-1(1A1j1
-1.1K1V1*2A2_2y2
-142G2R2~6
-183r5v5z5~5
-192N2j2
-1A1\1t1
-1C1i1
-1E2d2x2
-1G2Q2s2
-1N_^[
-1U2g2
-1X2I5
-1g5!7
-1~2\3
 2 F!\#J&U(8*W+A-;0O1]3Y7_=LCSMP
-2"2&2*2.22262:2>2L2
-2"3(3.343:3@3G3N3U3\3c3j3q3y3
-2$2,242<2D2L2T2\2d2l2t2|2
-2$2@2D2H2L2P2T2
-2$3(3,3T3X3\3
-2(2T2n2
-263O3~3
-2:4t4+5
-2;2G2
-2<2Z2o2y2
-2=3H3n4
-2I3O3[3
-2]4#5u7
-2`3{3
-2p4t4x4
-3	4P4a4
-3 3(30383@3H3P3X3`3h3p3x3
-3#323S3
-3#4S7
-3(6,647
-3)4/454;4A4G4N4U4\4c4j4q4x4
-3)4F4e4
-3,414;4o4
-3-3E3N3j3
-323P3n3
+24BG
+2Vu1
+2vuy
 32x32 pixels 'file icon'
 33f33333
-39GXt
-3;4S4{5
-3=free
-3D5L5]5n5a6
-3E3K3j3p3
-3H5O5V5d5q5~5
-3K3U3
-3K:n:
-3P3z3
-3_4e4q4
-3f4m4
+3IV2
+3IV2\r
+3IVD
 3ff3f33f
-3s5|5
-4 4$4(4,4044484<4@4D4P4T4X4\4`4d4h4l4
-4 4(40484@4H4P4X4`4h4p4x4
-4&6W6O9y;
-4(4:5r5x5
-4(4@4X4p4
-434;4D4M4o4x4~4
-445g6
-4<4O4`4
-4D4H4L4t4x4|4
-4K5\5
-4g4z4L5c5
-4s6y6
-5 5(50585@5H5P5X5`5h5p5x5
-5 6z6
-5 9(9,9094989<9@9D9H9L9P9T9X9\9`9d9$;,;4;<;D;L;T;\;d;l;t;|;
-5!5&5+5<5A5R5W5d5i5z5
-5!676w6
-5"7~7
-5#5D6L7Q8a8
-5%5,535:5A5H5P5X5`5k5p5v5
-5(6,6X6\6
-5)5D5y5
-5+6D6c6
-5/5]5k5y5Y6
-50545
-556;6
-585<5h5l5
-5Genu
-5H;L;P;T;X;\;`;d;h;l;p;t;x;|;L<X<
-5[5w5
-5]6p6
-5ntel
-5t6|6
-6 6&6,62686>6D6J6P6V6\6b6h6n6t6z6
-6 6(60686@6H6P6X6`6h6p6x6
-6 6<6@6`6
-6!676
-6(7D7e7
-6/6=6_6
-617H7R7
-667=7c7j7
-6V7_7
-6d7{7
-6g6)7
-6j&h`
-6r7w7|7
-7	878
-7 7(70787@7H7P7X7`7h7p7x7
-7 8*808Z8d8j8
-7 8s8
-7"7(7.747:7@7F7L7R7X7^7d7j7p7v7|7
-7"7+737?7G7Y7d7l7t7|7
-7#7-747;7l7
-7$7*757;7A7\7
+4XMV
 700PP
 700WP
-718M8+9
-778<8E8J8S8X8e8
-787X7x7
-7>8J8V8e8p8
-7@8G8}8
-7D7H7L7t7x7|7
-7[8`8i8u8z8
-7`7d7h7l7p7t7x7|7
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8(80888@8H8P8X8`8h8p8x8
-8!9'9,93999U9[9f9m9
-8"828P8_8g8w8
-8$8*80868<8B8H8R8
-8$8,8J8R8p8x8
-8%8!9
-8(9<9n9y9
-8-9G9b9}9
-8.838?8D8c8
-8.888E8O8_8
-81<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-84888d8h8l8
-868`9
-888X8x8
-8>D>P>\>h>t>
 8BPS2
-8C8R8]8p8
-8\9#:
-8e9k9r9x9
-8k8v8
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9 9(90989@9H9P9X9`9h9p9x9
-9 9,989D9P9\9h9t9
-9 9@9`9l9
-9!9(9
-9!9+919C9J9P9]9c9t9z9
-9#:T:
-9$9.9
-9&:Y:_:g:
-9+:|:
-9/9h9
-909d9
-91Q1z2K:
-92<<<F<
-959x9
-95:;:M:^:
-9>:\:
-9F4t	^
-9N9S9
-9S9@:
-9S:{:
-9U rgw
-9V\~]
-9Z<v<~<
-9] t"
-9^$t/V
-9^Hu-
-9^xv/3
-9p:t:x:|:
-9}:;;L;`;o;
-: :(:
-: :2:8:C:L:Y:a:n:
-: :F:
-:#:-:7:A:
-:(:H:h:
-:):>:
-:-;`;
-:0;M;k;
-:2:f:
-:5:::s:
-:5<S<l<s<{<
-:7:G:P:X:p:
-:7;g;
-:;;A;j;
-:>:D:P:[:a:
-:D=H=L=P=T=X=\=`=
-:E;_;h;{>
 :Feje$
-:O;g;
-:R:3;D;g;
-:_:x:
-:d;h<
-; ;$;(;
-;";*;0;A;F;N;T;e;j;r;x;
-;"<3<9<E<U<[<j<q<
-;#<O<X<
-;$;);/;7;<;B;J;O;U;];b;h;p;u;{;
-;&;H;
-;&<:<k<
-;(;H;h;
-;)<0<^<l<{<<=r=
-;+<2<T<[<
-;1<f<v<
-;4;;;
-;:<O<
-;<1s	
-;A0u	
-;E t]
-;Fxsfk
-;Opusu
-;W<l=
-;Y<o=
-;[<e<
-;^$s#
-;_tr.
-;alis
-;i<	=q>
-;t$,v-
-< <&<.<3<9<A<F<L<T<Y<_<g<l<r<z<
-< t8<	t4
-<"<&<*<.<2<6<:<><B<F<J<N<R<V<Z<^<b<f<j<n<r<v<z<~<
-<#<:<T<o<w<
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<(<,<
-<(<H<h<
-<(<\<`<d<h<l<p<
-<)=_=r=
-<0|m<9
-<5>S>l>s>{>
-<7=N=
-<=<J<O<]<
-<G=M>
-<ItH<ht<<lt
-<S<{<
-<]tTF
-<^<r<
-<_?e?k?z?
-<`  (
-<i>w>
-<itx<o
-<r<}<
-<z>/?
-= >E>m>7?
-=!>>>
-=">d>
-=#='=+=/=3=7=
-=#=5=D=K=\=j=u=}=
-=#=:=X=
-=$=,=4=<=D=L=T=\=d=l=t=|=
-='=2=u=
-='=3=>=e=
-=/=;=A=V=\=v=|=
-=0=:=D=N=S=
-=3=:=w=
-=4=@=
-=AVinu
-=E=b=z=
-=I='>@>c>
-=Q=]=
-=ai13t
-=ai15t
-=ai16t
-=b=h=l=p=t=
-=b=j=
-=clcpu
-=data
-=desct0=hdvdt
-=diskw`tO=tvsht>=locit
-=ftypt
-=gnre
-=hdlrt
-=ilstu
-=jP  
-=junkty=prfl
-=ldest
-=mdatt
-=mean
-=pictu
-=pnotvT=moovtn=ediwt]=
-=rap u
-=skipwEt_=widew#
-=stcou-3
-=stik
-=subpt
-=trkn
-=tven
-=tvesug
-=udta
-=udtat
-=uuid
-=videu
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>|>
-> >C>W>z>
->!>E>Y>
->">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
->$>,>4><>D>L>T>\>d>l>t>|>
->$>c>
->%>R>
->+>2>
->,u	F
->->E>P>b>
->-?H?
->0t-N
->0t<NAj0X
->1>D>T>
->1?O?l?
->5>_>
->6>]>
->:>O>U>
->=sounu
->Cu/f9F
->P?a?u?{?
->d?p?
-? ?$?(?,?T?d?t?
-?!?:?E?U?
-?#?E?P?r?
-?$?*?0?6?<?B?H?N?T?Z?`?f?l?r?
-?$?+?2?M?W?
-?$?,?4?<?D?L?T?\?d?l?t?|?
-?(?4?@?L?X?d?p?|?
-?+?8?
-?4?8?
-?8?E?K?
-?:uBGW
-?CELT
-?T?k?
-?b?h?l?p?t?
-@$_^[]
-@.data
-@.reloc
-@4=ai5ptT=ai5qtM=ai52tF=ai53t?=ai55t8=ai56t1=ai1pt*=ai1qt#=ai12t
-@4I420
-@PSjU
-@VurP
-A ;B }	
 A bright coloured fish
 A capella
-A0)A8
+A(L4
 AAS4K
 AASCL
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AHG;~
-AH_^[
+ABGR
+ACDV
+AFLC
 ALBUMARTIST
+AP41
+APIC
 ASV1!
 ASV2$
+AUR2
 AURA}
+AV1x
+AVDJ
 AVFormatContext
+AVI1
+AVI2
 AVIOContext
+AVRn
+AVUI
+AVd1
+AVdn
+AVdv
+AVin
+AVmp
 AVupf
 A_AAC
 A_AC3
@@ -492,29 +124,32 @@ A_TRUEHD
 A_TTA1
 A_VORBIS
 A_WAVPACK4
-A_^[]
-A`;A\u
+Acid
 Acid Jazz
 Acid Punk
 Acoustic
-All info found
+All info found\n
 AlternRock
 Alternative
 Ambient
 Anime
-Application provided invalid, non monotonically increasing dts to muxer in stream %d: %lld >= %lld
+Application provided invalid, non monotonically increasing dts to muxer in stream %d: %lld >= %lld\n
 April
-AreFileApisANSI
 Artist/performer
-Aspect ratio mismatch between muxer (%d/%d) and encoder layer (%d/%d)
-Assertion %s failed at %s:%d
+Aspect ratio mismatch between muxer (%d/%d) and encoder layer (%d/%d)\n
+Assertion %s failed at %s:%d\n
 August
 Avantgarde
-B<_^3
-BPPhXH
+B565
+BBCD
+BGRA
+BLZ0\r
+BW10
 Ballad
 Band/Orchestra
 Band/artist logotype
+Bass
+Beat
 Bebob
 Big Band
 Black Metal
@@ -523,316 +158,325 @@ Blues
 Booty Bass
 BritPop
 CAVSY
-CELT    
+CDV5
+CDVH
 CHAPTER%03d
+CJPG
 CLJRu
+CLLC
+COL0
+COL1
 CRAM/
 CSCDR
+CYUV
 Cabaret
-Cannot append palette to packet
-Cannot read BOM value, input too short
+Cannot append palette to packet\n
+Cannot read BOM value, input too short\n
 Celtic
 Chamber Music
 Chanson
-Chapter %d not found in file
+Chapter %d not found in file\n
 Chorus
 Christian Gangsta
 Christian Rap
 Christian Rock
-CjPh08
 Classic Rock
 Classical
-CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
+Club
 Club-House
-Codec for stream %d does not use global headers but container format requires global headers
-Codec not found
+Codec for stream %d does not use global headers but container format requires global headers\n
+Codec not found\n
 Comedy
 CompareStringEx
-CompareStringW
 Composer
 CompuServe Graphics Interchange Format (GIF)
 Conductor
 Contemporary Christian
 CorExitProcess
-Corrupt generic RM-style audio packet size
-Corrupt int4 RM-style audio packet size
-Corrupt sipr RM-style audio packet size
-Could not find codec parameters (%s)
-Could not parse framerate: %s.
-Could not read mimetype from an attached picture.
+Corrupt generic RM-style audio packet size\n
+Corrupt int4 RM-style audio packet size\n
+Corrupt sipr RM-style audio packet size\n
+Could not find codec parameters (%s)\n
+Could not parse framerate: %s.\n
+Could not read mimetype from an attached picture.\n
 Country
 Cover (back)
 Cover (front)
 CreateEventExW
-CreateEventW
 CreateFile2
-CreateFileW
 CreateSemaphoreExW
-CreateSemaphoreW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
 Crossover
+Cult
+DAVC
+DCOD\r
+DIGI\r
 DISCNUMBER
+DIV1\r
+DIV2
+DIV3
+DIV4
+DIV5
+DIV6
+DIVX\r
+DM4V\r
+DMK2\r
 DTS )P
-DTS discontinuity in stream %d: packet %d with DTS %lld, packet %d with DTS %lld
+DTS discontinuity in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
 DUCK4
+DVOO
+DVR 
+DVX3
+DX50\r
+DXGM\r
+DYM4\r
 Dance
 Dance Hall
 Darkwave
 Death Metal
 December
-Delay between the first packet and last packet in the muxing queue is %lld > %lld: forcing output
-DeleteCriticalSection
-Dialogue: %s,%d:%02d:%02d.%02d,%d:%02d:%02d.%02d,%s
+Delay between the first packet and last packet in the muxing queue is %lld > %lld: forcing output\n
+Dialogue: %s,%d:%02d:%02d.%02d,%d:%02d:%02d.%02d,%s\r\n
 Direct Show Samples embedded in Ogg
 Disco
+DreX\r
 Dream
-Dropped corrupted packet (stream = %d)
+Dropped corrupted packet (stream = %d)\n
 Drum & Bass
 Drum Solo
+Duet
 During performance
 During recording
-E0;E8v
-E8+E0
-EBML block data error
-EBML header using unsupported features
+E130
+EBML block data error\n
+EBML header using unsupported features\n(EBML version %llu, doctype %s, doc version %llu)\n
+EM2V
+EM4A\r
+EPHV\r
 Easy Listening
 Electronic
-EnterCriticalSection
 EnumSystemLocalesEx
-EnumSystemLocalesW
-Error decoding attached picture description.
-Error opening memory stream
-Error parsing a wavpack block.
-Error parsing cover art.
-Error reading GEOB frame, data truncated.
-Error reading attached picture data.
-Error reading attached picture description.
-Error reading frame %s, skipped
-Estimating duration from bitrate, this may be inaccurate
+Error decoding attached picture description.\n
+Error opening memory stream\n
+Error parsing a wavpack block.\n
+Error parsing cover art.\n
+Error reading GEOB frame, data truncated.\n
+Error reading attached picture data.\n
+Error reading attached picture description.\n
+Error reading frame %s, skipped\n
+Estimating duration from bitrate, this may be inaccurate\n
 Ethnic
 Euro-House
 Euro-Techno
 Eurodance
-ExitProcess
-F #F$
-F0=2P
-F1L1r1x1
-F<_^[
+FFDS\r
 FFV1*
-FVWPP
-F`;F\u
-Failed to alloc %d bytes
-Failed to alloc %zu bytes
-Failed to decode codec private data
-Failed to parse cover art block.
+FFVH
+FICV
+FLAC
+FLV1
+FLV4
+FMP4\r
+FPS1
+FRWU
+FSV1
+FVFW\r
+Failed to alloc %d bytes\n
+Failed to alloc %zu bytes\n
+Failed to decode codec private data\n
+Failed to parse cover art block.\n
 Fast Fusion
-FatalAppExitA
 February
-File moves beyond max. allowed depth (%d)
-FjIXV
+File moves beyond max. allowed depth (%d)\n
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
-FlushFileBuffers
 FlushProcessWriteBuffers
+Folk
 Folk-Rock
 Folklore
-Format detected only with low score of %d, misdetection possible!
-Fp@;CH
-FreeEnvironmentStringsW
-FreeLibrary
+Format detected only with low score of %d, misdetection possible!\n
 FreeLibraryWhenCallbackReturns
 Freestyle
 Friday
+Funk
 Fusion
-G Pj*S
-G$Pj+S
-G(#G,
-G(Pj,S
-G,Pj-S
-G0Pj.S
-G4Pj/S
-G8PjDS
-G<-u_
-G<PjES
-G@PjFS
-GDPjGS
+G264\r
+G2M2
+G2M3
+G2M4
+GAVC
+GEOB
+GEOV\r
+GEOX\r
 GH7z^U
-GHPjHS
 GIF87a
 GIF89a
-GLPjIS
-GPPjJS
-GTPjKS
-GWVj	
-GXPjLS
-G\PjMS
-G`PjNS
+GXVE
+Game
 Gangsta
-GdPjOS
-GetACP
 GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetConsoleCP
-GetConsoleMode
 GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
 GetCurrentProcessorNumber
-GetCurrentThread
-GetCurrentThreadId
 GetDateFormatEx
-GetDateFormatW
-GetEnvironmentStringsW
 GetFileInformationByHandleExW
-GetFileType
 GetLastActivePopup
-GetLastError
 GetLocaleInfoEx
-GetLocaleInfoW
 GetLogicalProcessorInformation
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetProcAddress
-GetProcessHeap
 GetProcessWindowStation
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemTimeAsFileTime
-GetTickCount
 GetTickCount64
 GetTimeFormatEx
-GetTimeFormatW
-GetTimeZoneInformation
-GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-GhPj8S
-GlPj9S
 Gospel
 Gothic
 Gothic Rock
-GpPj:S
-Graphic Control Extension block's size less than 4.
+Graphic Control Extension block's size less than 4.\n
 Grunge
-GtPj;S
-GxPj<S
-G|Ph`l
-G|Pj=S
-H Qhxz
-H4Qj 
+H261
+H263
+H264
+HDX4\r
+HDYC
 HFYUD
 HH:mm:ss
-HHtPHHt-H
-HHtVHHt
-HHtXHHt
-HPjPW
+HMXB
 Hard Rock
 Hardcore
-Headers mismatch for stream %d: expected %d received %d.
-HeapAlloc
-HeapFree
-HeapReAlloc
-HeapSize
+Headers mismatch for stream %d: expected %d received %d.\n
 Heavy Metal
-HhQj@
 Hip-Hop
 House
-Ht&_^
-Ht8Ht5Ht+Ht(Ht,HH
-HthHt3
-HtrHu
 Humour
-ID3v2.%d tag skipped, cannot handle %s
+I263
+I420
+IART
+ICMT
+ICOP
+ICRD
+ID3v2.%d tag skipped, cannot handle %s\n
+IGNR
+IJLV
+IJPG
+ILNG
+INAM
+INMC\r
 IPJ2Z
-ISO: File Type Major Brand: %.4s
+IPRD
+IPRT
+ISFT
+ISMP
+ISO: File Type Major Brand: %.4s\n
+ITCH
+ITRK
+IV31
 IV32p
 IV41q
-Ignoring attempt to set invalid timebase for st:%d
+IV50
+IYUV
+Ignoring attempt to set invalid timebase for st:%d\n
 Illustration
-Incorrect BOM value
+Incorrect BOM value\n
 Incorrect block_duration, possibly corrupted container
 Indie
 Industrial
-InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 Input
 Instrumental
 Instrumental Pop
 Instrumental Rock
-Invalid EBML number size tag 0x%02x at pos %llu (0x%llx)
-Invalid FLAC private data
-Invalid attached picture size: %d.
-Invalid element
-Invalid empty frame %s, skipping.
-Invalid length 0x%llx > 0x%llx for syntax element %i
-Invalid packet stream index: %d
-Invalid picture type: %d.
-Invalid sample field size %d
-Invalid sample rate: %d
-Invalid sample_count=%d
-Invalid size in frame %s, skipping the rest of tag.
-Invalid stream %llu or size %u
-Invalid time base in theora stream, assuming 25 FPS
-Invalid timestamps stream=%d, pts=%lld, dts=%lld, size=%d
-Invalid timing values.
-Invalid track number %d
-Invalid value of WAVEFORMATEXTENSIBLE_CHANNEL_MASK
-IsDebuggerPresent
-IsProcessorFeaturePresent
-IsValidCodePage
-IsValidLocale
+Invalid EBML number size tag 0x%02x at pos %llu (0x%llx)\n
+Invalid FLAC private data\n
+Invalid attached picture size: %d.\n
+Invalid element\n
+Invalid empty frame %s, skipping.\n
+Invalid length 0x%llx > 0x%llx for syntax element %i\n
+Invalid packet stream index: %d\n
+Invalid picture type: %d.\n
+Invalid sample field size %d\n
+Invalid sample rate: %d\n
+Invalid sample_count=%d\n
+Invalid size in frame %s, skipping the rest of tag.\n
+Invalid stream %llu or size %u\n
+Invalid time base in theora stream, assuming 25 FPS\n
+Invalid timestamps stream=%d, pts=%lld, dts=%lld, size=%d\n
+Invalid timing values.\n
+Invalid track number %d\n
+Invalid value of WAVEFORMATEXTENSIBLE_CHANNEL_MASK\n
 IsValidLocaleName
-J ;H 
+JPGL\f
+JPop
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
+Jazz
 Jazz+Funk
+July
+June
 Jungle
-KERNEL32.dll
+KGV1
 KMVCX
 KW-DIRAC
+L263
+L555
+L565
+LAGS
 LCMapStringEx
-LCMapStringW
 LEAD_PERFORMER
 LJ2CY
 LJ2KY
+LJPG
 LM20.
+LMP2
 LOCOJ
-LPjQW
-Last packet is truncated to %d (because of unimplemented end trim support).
+Last packet is truncated to %d (because of unimplemented end trim support).\n
 Latin
 Lavf56.0.0
 Lead artist/lead performer/soloist
 Leaflet page
-LeaveCriticalSection
 Lo-Fi
-LoadLibraryExW
 Lyricist/text writer
-M +M(
-M(9E$uC
-M(Qh(
-M0;M8u
+M263
+M4CC\r
+M4S2\r
+M4T3\r
+M701
+MAC3\nP
 MAC6+P
+MAIN
 METADATA_BLOCK_PICTURE
 MJ2CY
+MJLS
+MJLS\f
+MJPG
 MM/dd/yy
+MMES
+MMJP
 MNG G
+MP41
+MP42
+MP43
+MP4S\r
+MPEG
+MPG3
+MPG4
 MPNG>
+MSA1
+MSS1
+MSS2
 MSVC/
 MSZH7
+MTS2
+MTSJ
+MVJP
+MVXM\r
 March
 Matroska / WebM
-Max EBML element depth (%d) reached, cannot parse further.
+Max EBML element depth (%d) reached, cannot parse further.\n
 Media (e.g. label side of CD)
 Meditative
 Merengue
@@ -840,50 +484,43 @@ MessageBoxW
 Metal
 Monday
 Movie/video screen capture
-MultiByteToWideChar
 Multiple combined encodings not supported
 Multiple fisbone for the same stream
-Multiple mdhd?
+Multiple mdhd?\n
 Musical
-NBj0X
-NL_^[]
+NAME
+NKeb
+NO16
+NONE
+NULL
+NV12
+NV21
 National Folk
 Native American
 Negerpunk
 New Age
 New Wave
 Noise
-Non-increasing DTS in stream %d: packet %d with DTS %lld, packet %d with DTS %lld
+Non-increasing DTS in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
 November
-OD_^[
 Oc:\buildslave\libav_win32\build\dev\libavutil/file_open.c
 October
 Oldies
 Opera
+Opus
 OpusHead
 Other
 Other file icon
 Output
-OutputDebugStringW
+P422
 PART_NUMBER
+PIM1
+PIM2
+PLV1
+PM4V\r
 PNG1%
-PP9E u
-PPPPP
-PPPPPPPP
-PPPPj
-PPWVj
-PQj@V
-PRPQh
-PSSSSV
-PSSSj
 PVEZ6
-PVVVVQ
-PVhD7
-PWWWWV
-Page at %lld is missing granule
-Pj@Sj
-PjOSj
-PjdSQ
+Page at %lld is missing granule\n
 Planar Y'CbCr 8-bit 4:2:0
 Polka
 Polsk Punk
@@ -893,58 +530,68 @@ Porn Groove
 Power Ballad
 Pranks
 Primus
-Probe buffer size limit %d reached
-Probe with size=%d, packets=%d detected %s with score=%d
-Probed with size=%d and score=%d
+Probe buffer size limit %d reached\n
+Probe with size=%d, packets=%d detected %s with score=%d\n
+Probed with size=%d and score=%d\n
 Progressive Rock
 Psychadelic
 Psychedelic Rock
 Publisher/Studio logotype
+Punk
 Punk Rock
-Q RhHy
-Q0PVS
 Q1.0=
 Q1.1H
+Q264
 QDM23P
 QDMC$P
+QIVG
+QMP4\r
 QPEG=
-QQQQQ
-QVWSj
-QueryPerformanceCounter
+Qclp
+Qclq
 QuickTime / MOV
+R10g
+R10k
+R411
+R420
 REPLAYGAIN_ALBUM_GAIN
 REPLAYGAIN_ALBUM_PEAK
 REPLAYGAIN_TRACK_GAIN
 REPLAYGAIN_TRACK_PEAK
+RGBA
+RMP4\r
 RPZA+
 RSDSv
 RT21M
-Read error
-Read error at pos. %llu (0x%llx)
-ReadConsoleW
-ReadFile
-Received a packet for an attachment stream.
+Rave
+Read error at pos. %llu (0x%llx)\n
+Read error\n
+Received a packet for an attachment stream.\n
 Recording Location
-Referenced QT chapter track not found
+Referenced QT chapter track not found\n
 Reggae
 Retro
 Revival
 Rhythmic Soul
-Rich#
+Rock
 Rock & Roll
-RtlUnwind
 S263W
-SHPh8
+S;uD
+SEDG\r
+SIPP\r
+SL25
+SLDV
+SLMJ
+SM4V\r
+SMI 
+SMP4\r
+SMV2
+SN40\r
 SP54|
-SPPP+
-SSPQSW
-SSSSS
-SSSSSWP
-SVWPP
-SVWUj
-SVWjA_jZ+
-SVWjpXf;
-SVjA[jZ^+
+SPXN
+SVQ1
+SVQ3
+SVQ3\r
 S_ASS
 S_HDMV/PGS
 S_SSA
@@ -958,27 +605,19 @@ Samba
 Satire
 Saturday
 September
-SetConsoleCtrlHandler
 SetDefaultDllDirectories
-SetEndOfFile
-SetEnvironmentVariableA
 SetFileInformationByHandleW
-SetFilePointerEx
-SetLastError
-SetStdHandle
 SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
-SetUnhandledExceptionFilter
 Showtunes
-Sj*XPj
-Skipping encrypted/compressed ID3v2 frame %s.
-Skipping invalid tag with no TagName.
-Sleep
+Skipping encrypted/compressed ID3v2 frame %s.\n
+Skipping invalid tag with no TagName.\n
 Slow Jam
 Slow Rock
 Sonata
 Sorenson H263
+Soul
 Sound Clip
 Soundtrack
 Southern Rock
@@ -992,57 +631,93 @@ Symphonic Rock
 Symphony
 SynthPop
 SystemFunction036
+T263
+TALB
 TALBTBPMTCOMTCONTCOPTDLYTENCTEXTTFLTTIT1TIT2TIT3TKEYTLANTLENTMEDTOALTOFNTOLYTOPETOWNTPE1TPE2TPE3TPE4TPOSTPUBTRCKTRSNTRSOTSRCTSSE
+TCOM
+TCON
+TCOP
+TDAT
 TDATTIMETORYTRDATSIZTYER
+TDEN
 TDENTDORTDRCTDRLTDTGTIPLTMCLTMOOTPROTSOATSOPTSOTTSST
+TDRC
+TDRL
+TENC
+TIME
+TIT2
+TLAN
 TM20P
+TPE1
+TPE2
+TPE3
+TPOS
+TPUB
 TRACKNUMBER
-Tag %s/0x%08x incompatible with output codec id '%d'
-Tagsu
+TRCK
+TSC2
+TSOA
+TSOP
+TSOT
+TSSE
+TTA1
+TXXX
+TYER
+Tag %s/0x%08x incompatible with output codec id '%d'\n
 Tango
 Techno
 Techno-Industrial
-TerminateProcess
 Terror
 Thrash Metal
 Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
-Too old or unsupported Theora (%x)
+Too old or unsupported Theora (%x)\n
 Top 40
 Trailer
 Trance
 Tribal
 Trip-Hop
 Tuesday
-U4;U<u
-U4;U<|
+U263
+ULDX\r
+ULH0
+ULH2
+ULRA
+ULRG
 ULTI<
-UQPXY]Y[
+ULY0
+ULY2
+UMP4\r
+UMSV
 URLContext
-URPQQh 
-Unhandled or malformed custom metadata of size %lld
-UnhandledExceptionFilter
-Unknown EBML doctype '%s'
-Unknown MOV field order 0x%04x
-Unknown attached picture mimetype: %s, skipping.
-Unknown attached picture mimetype: %s.
-Unknown attached picture type %d.
-Unknown cover type: 0x%x.
-Unknown encoding
-Unknown entry 0x%lX
-Unknown or unsupported track type %llu
-Unknown skeleton version %d.%d
-Unknown/unsupported AVCodecID %s.
+UYNV
+UYNY
+UYVY
+Unhandled or malformed custom metadata of size %lld\n
+Unknown EBML doctype '%s'\n
+Unknown MOV field order 0x%04x\n
+Unknown attached picture mimetype: %s, skipping.\n
+Unknown attached picture mimetype: %s.\n
+Unknown attached picture type %d.\n
+Unknown cover type: 0x%x.\n
+Unknown encoding\n
+Unknown entry 0x%lX\n
+Unknown or unsupported track type %llu\n
+Unknown skeleton version %d.%d\n
+Unknown/unsupported AVCodecID %s.\n
 Unsupported encoding type
-Using AVStream.codec.time_base as a timebase hint to the muxer is deprecated. Set AVStream.time_base instead.
-V(9Fdv
+Using AVStream.codec.time_base as a timebase hint to the muxer is deprecated. Set AVStream.time_base instead.\n
+V264
+V422
+VBLE
 VCR1"
+VCR2
+VDTZ
+VIDM\r
 VIXL=
 VMnc^
+VNna
 VP30[
+VP31
 VP31+
 VP50\
 VP60\
@@ -1050,9 +725,14 @@ VP61\
 VP62k
 VP6A]
 VP6F]
+VP70
+VP71
+VP80
 VP90 
-VVVVV
-VWj.P
+VSPX\r
+VSSH
+VX1K
+VYUY
 V_DIRAC
 V_MJPEG
 V_MPEG1
@@ -1075,52 +755,72 @@ V_UNCOMPRESSED
 V_VP8
 V_VP9
 Version %d
-Vjeh<a
-VjthD
 Vocal
-W4_^[
 WAVEFORMATEXTENSIBLE_CHANNEL_MASK
+WAWV\r
 WHAM/
+WMA2
+WMV1
+WMV2
+WMV3
+WMVA
 WMVPG
 WNV1J
-WPPPPj
+WRAW
 WRLE;
+WV1F\r
 WVC1G
 WVP2I
-WVSj	
-WWWWW
-WWWWWPQ
 WaitForThreadpoolTimerCallbacks
 Wednesday
-WideCharToMultiByte
-Wj XP
-Wj0XP
-Wj0XPV
-Wj5_f;
-Working around broken index.
-WriteConsoleW
-WriteFile
-X1\1h1
+Working around broken index.\n
+X263
+X264
+XMPG
+XVID\r
+XVIX\r
 Xxanr
+Y411
+Y41B
+Y422
+Y42B
+Y800
+YUNV
 YUV8K
-YYjgXf9
-Y_^[]
-Y__^[
-Yt_^[
-Yu2Vj@h8
+YUV9
+YUY2
+YV12
+YV16
+YV24
+YVU9
+YVYU
 ZECO3
+ZJPG
 ZLIB#
 ZMBVV
-[0x%x]
-^%EOF
-_tcPVj@
-`.rdata
-`h````
+ZMP4\r
+ZyGo
 `h`hhh
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-.
 abort decoding on minor error detection
+ac-3
 agsm<P
+ai12
+ai13
+ai15
+ai16
+ai1p
+ai1q
+ai52
+ai53
+ai55
+ai56
+ai5p
+ai5q
+aivx
+alac
+alaw
 album
 album gain
 album peak
@@ -1129,6 +829,10 @@ album_artist
 allow non-standardized experimental variants
 analyzeduration
 ap4h3
+apch
+apcn
+apco
+apcs
 application/x-font
 application/x-truetype-font
 artist
@@ -1136,78 +840,28 @@ artist-sort
 audio
 audio/aac,audio/aacp,audio/x-aac
 audio/webm,audio/x-matroska,video/webm,video/x-matroska
-autu/
+auv2
 av_add_index_entry
 av_append_packet
-av_base64_decode
-av_buffer_alloc
-av_buffer_ref
-av_buffer_unref
 av_codec_get_id
 av_codec_get_tag
-av_compare_mod
-av_compare_ts
-av_crc
-av_crc_get_table
-av_d2q
-av_default_item_name
-av_dict_copy
-av_dict_count
-av_dict_free
-av_dict_get
-av_dict_set
-av_display_rotation_get
 av_dump_format
-av_dup_packet
-av_fast_malloc
-av_fast_realloc
 av_filename_number_test
 av_find_best_stream
 av_find_default_stream_index
 av_find_input_format
-av_frame_alloc
-av_frame_free
-av_free
-av_free_packet
-av_freep
-av_get_audio_frame_duration
-av_get_bits_per_sample
-av_get_channel_layout_nb_channels
-av_get_channel_name
-av_get_codec_tag_string
 av_get_frame_filename
 av_get_packet
-av_gettime
-av_grow_packet
 av_guess_codec
 av_guess_format
 av_hex_dump
 av_hex_dump_log
 av_iformat_next
 av_index_search_timestamp
-av_init_packet
 av_interleaved_write_frame
-av_isdigit
-av_isspace
-av_log
-av_lzo1x_decode
-av_malloc_tracked
-av_mallocz_tracked
 av_match_ext
-av_match_name
-av_new_packet
 av_new_program
 av_oformat_next
-av_opt_free
-av_opt_get
-av_opt_set_defaults
-av_opt_set_dict
-av_packet_new_side_data
-av_packet_unref
-av_parse_video_rate
-av_parser_close
-av_parser_init
-av_parser_parse2
 av_pkt_dump2
 av_pkt_dump_log2
 av_probe_input_buffer
@@ -1216,46 +870,17 @@ av_probe_input_format2
 av_read_frame
 av_read_pause
 av_read_play
-av_realloc_array
-av_realloc_tracked
-av_reallocp
-av_reallocp_array
-av_reduce
 av_register_all
 av_register_input_format
 av_register_output_format
-av_rescale
-av_rescale_q
-av_rescale_q_rnd
-av_rescale_rnd
 av_sdp_create
 av_seek_frame
-av_shrink_packet
-av_strcasecmp
-av_strdup
 av_stream_get_side_data
-av_strlcat
-av_strlcatf
-av_strlcpy
-av_strncasecmp
-av_strstart
 av_url_split
-av_usleep
 av_write_frame
 av_write_trailer
-av_xiphlacing
-avc1t4
+avc1
 avcC )
-avcodec_alloc_context3
-avcodec_close
-avcodec_decode_audio4
-avcodec_decode_video2
-avcodec_descriptor_get
-avcodec_find_decoder
-avcodec_is_open
-avcodec_open2
-avcodec_register_all
-avcodec_string
 avformat_alloc_context
 avformat_close_input
 avformat_configuration
@@ -1313,103 +938,135 @@ avio_wl24
 avio_wl32
 avio_wl64
 avio_write
-avpriv_ac3_channel_layout_tab
-avpriv_dirac_parse_sequence_header
-avpriv_flac_parse_streaminfo
-avpriv_mpa_freq_tab
-avpriv_mpeg4audio_get_config
-avpriv_mpeg4audio_sample_rates
 avpriv_new_chapter
-avpriv_report_missing_feature
-avpriv_request_sample
 avpriv_set_pts_info
-avpriv_snprintf
-avpriv_strtod
-avpriv_toupper4
-avpriv_vorbis_parse_extradata
-avpriv_vorbis_parse_frame
-avpriv_vorbis_parse_reset
-avpriv_vsnprintf
 avs2u
-avss;
+avss
 azpr+
-bWWWWj
+b16g
+b48r
 bitexact
 bitstream
 buffer
+bxbg
+bxrg
+bxy2
+bxyv
 c:\buildslave\libav_win32\build\dev\libavformat\libavformat-56.pdb
-cannot find sync word
+cannot find sync word\n
+cdvc
+chan
 channel count %lu, 
 channel layout: %s, 
+chap
+chpl
+cmov
 co64`,
 comment
 compatible_brands
 composer
 compression
 copyright
-could not find corresponding track id %d
-could not find corresponding trex
+could not find corresponding track id %d\n
+could not find corresponding trex\n
 cram/
 crccheck
 creation_time
 cryptokey
+ctts
 cvid1
 cvid4
-datau_
-dayw,t#=cprtt8=
+dac3
+date
 dddd, MMMM dd, yyyy
 dec3p
-decoding for stream %d failed
+decoding for stream %d failed\n
 decryption key
 default delay between frames (in hundredths of second)
 default_delay
 description
 detect bitstream specification deviations
 detect improper bitstream length
-dimensions not set
+dimensions not set\n
 dinf`7
-dir %s
+dir %s\n
 disable AVParsers, this needs nofillin too
+disc
 discard corrupted frames
 discardcorrupt
 displaymatrix: rotation of %.2f degrees
-dmb1	
+dmb1
+dmb1\t
 do not fill in missing values that can be exactly calculated
 do not write random/volatile data
+dpx 
 drac+
 dracd
+dref
+dtsc
+dtsh
+dtsl
+dv25
+dv50
+dv5n
+dv5p
+dvc 
+dvc1
+dvca
+dvcp
+dvcs
+dvh1
+dvh2
+dvh3
+dvh4
+dvh5
+dvh6
+dvhd
+dvhp
+dvhq
+dvis
+dvpp
+dvsd
+dvsl
 e+000
+eac3
+ec-3
 edts`7
 elstP%
 encoded_by
 encoder
-encw5
-end %f
+end %f\n
 endaP"
 episode_id
 episode_sort
 err_detect
-error reading header: %d
-error unaligned chunk
-esdsp
+error reading header: %d\n
+error unaligned chunk\n
+esdsp\v
 experimental
 explode
+exr 
 f3ff33f3
-f;Gj}(
+fLaC
 f_err_detect
 f_strict
 fdebug
-ff_read_packet stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d
+ff_read_packet stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d\n
 fffff3ff
 fflags
-fielu:
+fiel
+file
 filename
-filename %s, len %d
+filename %s, len %d\n
 fisbone
 fishead
+fl32
+fl64
+flic
 flush_packets
 fpsprobesize
 framerate
+from
 ftyp`
 gapless_playback
 generate pts
@@ -1417,67 +1074,61 @@ genpts
 genre
 gif >
 glbl )
+h263
 h263 macroblock info
+h264
 hd_video
-hev1t$;M
+hdlr
+hdv1
+hdv2
+hdv3
+hdv4
+hdv5
+hdv6
+hdv7
+hdv8
+hdv9
+hdva
+hev1
 how many microseconds are analyzed to estimate duration
 how strictly to follow the standards
 how strictly to follow the standards (deprecated; use strict, save via avconv)
-htHjlY;
-htHjlZ;
-hvc1t,
+hvc1
 hvcC )
+icod
 igndts
 ignidx
 ignore dts
 ignore index
 ignore loop setting (netscape extension)
 ignore_loop
-ilbc	P
-ilstP
+ilbc\tP
+ilstP\n
+ima4
 image/bmp
 image/gif
 image/jpeg
 image/jpg
 image/png
 image/tiff
-in24	
-incomplete attachment
+in24\f
+in24\t
+in32
+incomplete attachment\n
 indexmem
-interrupted
-invalid block label: code=%02x '%c'
-invalid channel count. Speex must be mono or stereo.
+interrupted\n
+invalid block label: code=%02x '%c'\n
+invalid channel count. Speex must be mono or stereo.\n
 invalid data
-invalid dts/pts combination
+invalid dts/pts combination\n
 invalid extended header length
 invalid frame id, assuming padding
-invalid size %lu in stsd
-j	PjYV
-j	Yf;
-j"X_^[]
-j$_f98u,
-j*Xf;
-j*Zf;
-j.Yf;
-j0Xf;
-j0Yf;
-j1h4P
-j;Yf9
-j@j _W
-jAZjZ^
-jA[jZZ+
-jBhxM
-jMh4P
-jXYf;
-jXZf;
-jdZf;
-jgXf;
-jih<a
-joZf;
-jxYf;
-l;^xr
+invalid size %lu in stsd\n
+jp2h
+jpeg
+kU'9
 language
-libavcodec-56.dll
+latm
 libavformat license: LGPL version 2.1 or later
 libavformat-56.dll
 libavformat/avio.c
@@ -1502,22 +1153,29 @@ libavformat/replaygain.c
 libavformat/riffdec.c
 libavformat/seek.c
 libavformat/utils.c
-libavutil-54.dll
 location
-lzw minimum code size must be >= 1
+lpcm
+lpcm\r
+lsvm
+lzw minimum code size must be >= 1\n
+m1v 
+m1v1
+m2v1
 major_brand
 matroska
 matroska,webm
 max memory used for buffering real-time frames
 max memory used for timestamp index (per stream)
-max_analyze_duration %d reached
+max_analyze_duration %d reached\n
 max_delay
 max_interleave_delta
 maximum buffering duration for interleaving
 maximum muxing or demuxing delay in microseconds
+mdat
 mdhd@
 mdia`7
 media_type
+meta
 mime_type
 mimetype
 min_delay
@@ -1526,204 +1184,216 @@ minimum valid delay between frames (in hundredths of second)
 minor_version
 mjp2Y
 mjp2^
-moov atom not found
+mjpa
+mjpa\n
+mjpb
+moof
+moov
+moov atom not found\n
 mov,mp4,m4a,3gp,3g2,mj2
 mp2vY
-mp4steVh
+mp4a
+mp4v\r
+mpeg
 mpegts
 mpegvideo
+mpg1
+mpg2
+mpgv
 mrle.
 msvc/
-multiple edit list entries, a/v desync might occur, patch welcome
-multiple fourcc not supported
+multiple edit list entries, a/v desync might occur, patch welcome\n
+multiple fourcc not supported\n
 mvex`7
-nameu
-namt&=
+mvhd
+mx3n
+mx3p
+mx4n
+mx4p
+mx5n
+mx5p
+name
 network
 new extradata
-nlvl from %d, nlvl to %d
-no streams
+nlvl from %d, nlvl to %d\n
+nmos
+no streams\n
 nobuffer
 nofillin
 noparse
 normal
-nothing to probe for stream %d
-nt'joZ;
+nothing to probe for stream %d\n
 number of frames used to probe fps
 org.hydrogenaudio.replaygain
-out of memory, unable to read INFO tag
-overread end of atom '%.4s' by %lld bytes
+out of memory, unable to read INFO tag\n
+overread end of atom '%.4s' by %lld bytes\n
 packetsize
 palette
 palette: 
 paramchange: 
 pasp@
-path %s
+path %s\n
+pdvc
 performer
 png >
-premature end of file while reading INFO tag
+premature end of file while reading INFO tag\n
 print specific debug info
-probed stream %d
+probed stream %d\n
 probesize
-probing stream %d
-pts < dts in stream %d
+probing stream %d\n
+pts < dts in stream %d\n
 publisher
-qhj@V
-r%f;M
-r?w	;
-rAw	;
-rXh@,
+qdrw
+r210
+raw 
 raw ADTS AAC (Advanced Audio Coding)
-read_frame_internal stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d
-read_timestamp() failed in the middle
+read_frame_internal stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d\n
+read_timestamp() failed in the middle\n
 reduce the latency by flushing out packets immediately
 reduce the latency introduced by optional buffering
 replaygain: 
+rle 
 rle1.
 rpza,
+rpza\v
 rtbufsize
-s(hX<
-sBHSW
-sample aspect ratio already set to %d:%d, ignoring 'pasp' atom (%d:%d)
-sample rate not set
+s263
+sac3
+sample aspect ratio already set to %d:%d, ignoring 'pasp' atom (%d:%d)\n
+sample rate not set\n
 sample_rate %lu, 
+samr
+sawb
+sbgp
 season_number
 set error detection flags
 set error detection flags (deprecated; use err_detect, save via avconv)
 set packet size
 set probing size
-size: %dx%d
+sgi 
+show
+size: %dx%d\n
+slif
+sm"P
 smc 8
+sowt
 spex$P
-st:%d has too large timebase, reducing
-st:%d removing common factor %d from timebase
+sqcp
+st:%d has too large timebase, reducing\n
+st:%d removing common factor %d from timebase\n
 start %f, 
-start time is not set in estimate_timings_from_pts
+start time is not set in estimate_timings_from_pts\n
 stbl`7
 stco`,
-stream #%d:
-stream %d, error opening alias: path='%s', dir='%s', filename='%s', volume='%s', nlvl_from=%d, nlvl_to=%d
-stream %d, missing mandatory atoms, broken header
-stream %d, offset 0x%llx: partial file
-stream %d, timescale not set
-stream index %d is not valid
+stps
+stream #%d:\n
+stream %d, error opening alias: path='%s', dir='%s', filename='%s', volume='%s', nlvl_from=%d, nlvl_to=%d\n
+stream %d, missing mandatory atoms, broken header\n
+stream %d, offset 0x%llx: partial file\n
+stream %d, timescale not set\n
+stream index %d is not valid\n
 strfp+
 strict
 strictly conform to all the things in the spec no matter what the consequences
-strptime() unavailable on this system, cannot convert the date string.
+strptime() unavailable on this system, cannot convert the date string.\n
+stsc
 stsdp;
-stszVu
+stss
+stsz
+stts
+stz2
+svq1
 svq19
+svqi
 synopsis
-t	_^3
-t WW9}
-t!VWQ
-t"f;M
-t#jPj
-t%PhD9
-t&9=4
-t&HHt
-t'PhD9
-t'joZf;
-t(Rhp(
-t(f;U
-t)VPW
-t.f;U
-t/HHt
-t/jiZf;
-t4f;U
-t5hxy
-t7QVW
-t@VSP
-tEHt9
-tHHt*Ht#
-tMj_S
-tS=3P
-tXj.P
-t\j=S
-t`Ht1
+text
 text/plain
 tfdt 
+tfhd
 tga >
 tga a
 theoN
 theora
-this file requires zlib support compiled in
+this file requires zlib support compiled in\n
 threads
 tiffb
 timecode
 title
 title-sort
 tkhdp
-too big INFO subchunk
+too big INFO subchunk\n
 track
 track gain
 track peak
 traf`7
+trak
 tref`7
 trex`
 trun@
-truncated comment header, %i comments not found
-truncated file
+truncated comment header, %i comments not found\n
+truncated file\n
 tscc:
-ty=pgapwJt<=tvnnt+=tvsnt
-tyPVj@W
-type %d, len %d
-tzWVS
-u	_^3
-u#j,Xf;
-u'j0X
-u*j/h
-u*j4h
-u4Vhp
-uBjAYjZ+
-uCPVj
-uD9~@t?h.
-uG9O4u6j
-uHjAXf;
-uJSSR
-uQ9H(u
-uWjAXf;
+twos
+tx3g
+type %d, len %d\n
 udta`7
+ulaw
 unknown
 unknown param
 unknown side data type %d (%d bytes)
-unknown subformat:%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
-uof;U
-v	N+D$
-v4z4~4
+unknown subformat:%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x\n
+uyv1
+v210
+v410
 vc-1X
+vdva
 verify embedded CRCs
 version
 video
-volume %s, len %d
+viv1\r
+volume %s, len %d\n
 vorbis
-w$WSV
-w1+222S2Z2":(:
+wave
+webm
+wfex
 wham,
+wide
 width %lu height %lu
-wrong chunk count %d
-wrong sample count
-wtVj	
+wrong chunk count %d\n
+wrong sample count\n
 wwwUUUDDD"""
-x4H263u0
-x4QclptW
-x4tmcduH
-xL0}.
-xNj$_f99uFjdY9
+x264
+xd51
+xd54
+xd55
+xd59
+xd5a
+xd5b
+xd5c
+xd5d
+xd5e
+xd5f
+xdh2
+xdhd
+xdv1
+xdv2
+xdv3
+xdv4
+xdv5
+xdv6
+xdv7
+xdv8
+xdv9
+xdva
+xdvb
+xdvc
+xdvd
+xdve
+xdvf
 xppwpp
 xpxxxx
-y4lpcmu
-y4mp4st%
-yL0}'
-yd$uB
-yd_^[
-yo_^[]
+xtor
+yuv2
+yuvs
 z?aUY
-zL0u3
-zL0}T
 zc%C1
-} j@W
-} kE$<
-~';_t|%3
-~pjCXf

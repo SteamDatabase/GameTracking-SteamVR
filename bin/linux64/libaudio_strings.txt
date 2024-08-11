@@ -1,32 +1,18 @@
-
-!! Last miles service delay: %u
-"%s"
-#!/bin/shexit 0
+!! Last miles service delay: %u\n
+#!/bin/sh\nexit 0\n
 %.18g
-%A %b %d
-%X
-%d%s
 %d:00
-%f
 %lld
 %llu
-%s overflow!
-%s%c%s
+%s overflow!\n
 %s%c.temp_write_%x
-%s%s
 %s.async%u.tmp
-%s/%s
 %s/.steam/%s
 %s/.steam/steam
-%u
-'
 ( CMilesAudioOutputStream * ) m_vecAudioOutputStreams[i]
 ( CMilesAudioSound * ) m_vecAudioSounds[i]
-(%s%d)
-(%zu) Descend: %s, (%s), %s
-(%zu) readdir failed to find '%s' in '%s'
-*.*
-..
+(%zu) Descend: %s, (%s), %s\n
+(%zu) readdir failed to find '%s' in '%s'\n
 ../common/audio/audiocontroller.cpp
 ../common/audio/audiosink_pulse.cpp
 ../common/audio/milesaudiosound.cpp
@@ -40,7 +26,6 @@
 .cpl
 .mp3
 .steam_exec_test.sh
-/
 /dev
 /etc/mtab
 /home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/tslist.h
@@ -121,7 +106,9 @@
 23CMilesAudioOutputStream
 7CUtlMapI10CUtlSymbolPvi8CDefLessIS0_EE
 9IValidate
-?
+?../common/audio/milesaudiooutputstream.cpp
+?333333
+?Ramp Time
 @../common/audio/milesaudiodevice.cpp
 AIL_allocate_sample_handle
 AIL_close_digital_driver
@@ -171,7 +158,6 @@ AIL_shutdown
 AIL_start_sample
 AIL_startup
 AIL_stop_sample
-AM
 AssertMsgImplementation
 Assertion Failed: !IsExternallyAllocated()
 Assertion Failed: !m_data.HasError()
@@ -247,7 +233,7 @@ Assertion Failed: success >= 0
 Assertion Failed: unReadAheadChunkSize < INT32_MAX/2
 Assertion failed: length > k_cchMaxString
 AudioSinkList
-Breaking '%s' in '%s'
+Breaking '%s' in '%s'\n
 CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
 CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
 CFileWriterThread
@@ -266,21 +252,21 @@ CValidator::Push(char const*, void*, char const*)
 CXXABI_1.3
 Calling Tell on an async file writer is unsafe, will race with thread and may corrupt file pointer.
 Capture Stream
-Couldn't write %s: %s
+Couldn't write %s: %s\n
 CreateInterface
 CreateMilesMusicAudioDevice
 CreateMilesSoundAudioDevice
 CreateMilesVoiceAudioDevice
 DBG_PATHMATCH
-DLOPEN Error:%s
+DLOPEN Error:%s\n
 Don't know how to check filesystem type on POSIX!
 Error
 Error State on string being set.
 Expected %lld but got %lld!
-Failed system(%s) in execute test: %s
+Failed system(%s) in execute test: %s\n
 Failed to connect to Pulse.
 Failed to determine free disk space for %s, error %d
-Failed to open digital audio driver %s
+Failed to open digital audio driver %s\n
 FreeAudioDevice
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
@@ -291,15 +277,12 @@ GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
 GLIBC_2.8
-GNU
 HOME
 IVALIDATE001
-Log
-Lowered '%s' -> '%s'
+Lowered '%s' -> '%s'\n
 MUSIC
-Matched '%s' -> '%s'
-Msg
-PM
+Matched '%s' -> '%s'\n
+MilesLoader
 PULSE_0
 Plat_FloatTime
 Plat_GetExecutablePathUTF8
@@ -350,7 +333,7 @@ ThreadInterlockedIncrement
 ThreadSleep
 Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
 Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
-Unmatched %s
+Unmatched %s\n
 VOICE
 V_AppendSlash
 V_ComposeFileName
@@ -380,7 +363,7 @@ ValidateFileIOStatics
 Volume Ramp Filter
 Waited %u iterations in CFileWriter::Flush - m_cubOutstanding = %d
 WeakRandomUint32
-\
+\t(%zu) comparing %s with %s\n
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -484,7 +467,7 @@ dlsym@@GLIBC_2.2.5
 endmntent
 endmntent@@GLIBC_2.2.5
 failed to load miles library
-false
+false 
 fclose
 fclose@@GLIBC_2.2.5
 fcntl
@@ -719,7 +702,6 @@ pa_threaded_mainloop_stop
 pa_threaded_mainloop_stop@@PULSE_0
 pa_threaded_mainloop_unlock
 pa_threaded_mainloop_unlock@@PULSE_0
-pm
 posix_fadvise
 posix_fadvise@@GLIBC_2.2.5
 pread64
@@ -732,7 +714,6 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 pwrite64
 pwrite64@@GLIBC_2.2.5
-rb
 read@@GLIBC_2.2.5
 readdir64
 readdir64@@GLIBC_2.2.5
@@ -819,8 +800,4 @@ utime@@GLIBC_2.2.5
 utimes@@GLIBC_2.2.5
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
-w
-w+
-wa+
 write@@GLIBC_2.2.5
-zD

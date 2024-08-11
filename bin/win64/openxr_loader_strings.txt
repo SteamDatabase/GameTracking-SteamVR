@@ -1,31 +1,14 @@
-					
-							
-												
-																																												
-	!s99
     Object[
     SessionLabel[
  "functions" section contains non-string values.
- %41g
  (Error message: 
- A_A\_
- A_A^A\
- A_A^A]A\^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^]
- A_A^_
- A_^[
- A__[
- A__^
- H3E H3E
  Is it a valid layer manifest file?
  Is it a valid runtime manifest file?
  and OpenXR API version 
  because negotiation function 
  does not appear to exist
  due to failed negotiation with error 
- for detail.
+ for detail.\n
  has invalid API Version.  Skipping layer.
  in HKEY_LOCAL_MACHINE
  in either HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
@@ -38,38 +21,19 @@
  layers enabled and runtime interface - created instance = 
  library 
  requires a valid instance
- sJE3
  using interface version 
  was not found
  with error 
 !!! WARNING !!! Environment variable 
-!hn7!
-%u.%u
-%u.%u.%u
 ' is not a number.
 ' will NOT be used.
-',=?k
-(A^A]^[
-(A_A^^[
-(A_A^_]
-(D$@f
-(f*^[0
-(t$ 2
-(t$ H
-(t$PH
 (unknown)
-)D$ L
-)t$ H
-*EE\@r
-+Xt@(
-+o'q)}
 , OpenXR version returned not compatible with this loader
 , failed to load with message "
 , negotiation did not return a valid getInstanceProcAddr
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
-,W5y+
 -1e+9999
 -Infinity
 .  Does it exist?
@@ -120,6 +84,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -140,12 +105,12 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
@@ -154,51 +119,8 @@
 /api_layers/implicit.d
 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
 0123456789abcdef
-0A^A\_
-0A^_^
-0A_A^A\_^
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]_^
-0A__[
-0w0c1
 0x%llx (%lld): 
-0}0i1
-130801120000Z
 1e+9999
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-2333333
-240724174135Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8_^][
-<0:08
-=rIQU
->0<0:
->Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -258,54 +180,8 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@.data
-@.reloc
-@.rsrc
-@8}wu
-@A\_[
-@A^_^
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\_
-@A_A^A]A\_^[
-@A_A^_
-@A_A^_][
-@SUVH
-@SUWH
-@SVAUAVH
-@SVAVAWH
-@SVAWH
-@SVWH
-@SWATH
-@SWAWH
-@UAUAVAWH
-@UAVH
-@USVAUAVH
-@USVH
-@USWATAWH
-@UVATAUAWH
-@UWAVAWH
 A valid JSON document must be either an array or an object value.
-A(t	H
 ADVAPI32.dll
-ATAVAWH
-AUAVAWH
-A^A]A\_]
-A_A\_[]
-A_A\_^]
-A_A]A\^]
-A_A]_
-A_A^A\
-A_A^A\_]
-A_A^A]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^]
-A_A^A]]
-A_A^]
-A_A^_
-A_A^_[]
 Active XrInstance handle already exists
 ActiveRuntime
 ApiLayerInterface being destroyed for layer 
@@ -317,79 +193,17 @@ ApiLayerInterface::LoadApiLayers skipping layer
 ApiLayerInterface::LoadApiLayers succeeded loading layer 
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
-AuthD
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bellevue1
-C0L9<
-CD$@A
-CD$PD
-CL$@E3
-CL$PH
-CL$`H
-CT$@D
-CT$@E
-CT$@H
-CT$pH
-C\$0H
-C\$0L
-C\$@D
-C\$@E
-C\$@H
-C\$@L
-C\$PL
-C\$XH
-C\$XL
-C\$XM
-C\$`L
-C\$`M
-C\$xL
 CloseHandle
 Completed loader terminator
 Completed loader trampoline
 CreateEventW
-C|$0H
-C|$0L
-D$ A;
-D$ D8
-D$ E3
-D$ L;
-D$(H;
-D$0E3
-D$0H;
-D$0tx
-D$@H;
-D$@HcH
-D$@I;
-D$PH9A
-D$PH;
-D$PL;
-D$Pu)
-D$`H;
-D$`HcH
-D$`I;
-D$hH;
-D$hL;
-D$pE3
-D$pHcH
-D$xH+
-D$xI+
-D8$>u
-D8|$AD
 DeleteCriticalSection
 Destroying LoaderInstance = 
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
-E0HcH
-E8,9u
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
@@ -409,7 +223,6 @@ FindNextFileW
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
-G(L9w 
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -425,30 +238,6 @@ GetSidSubAuthority
 GetSidSubAuthorityCount
 GetSystemTimeAsFileTime
 GetTokenInformation
-H!C@H
-H!G@H
-H#L$PH
-H+L$HI
-H+SpH
-H+SpI
-H+WpH
-H+WpI
-H+WpJ
-H-^Eu
-H9Ahs
-H9E8u$H
-H9Qhv#H
-H9uHt<H
-H;9u?I
-H;Axt
-H;Cxu
-H;Y t
-H;k u
-HA_A]_[
-I#V0I
-I9Bhs
-I9W(t
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Implicit layer 
 Infinity
 Info [
@@ -460,40 +249,10 @@ Invalid Function pointer
 Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 KERNEL32.dll
-K}*n:	
-L#A0L
-L#F0H
-L#F0L
-L$ E3
-L$ H;
-L$ Hk
-L$ SUVWH
-L$ SVWH
-L$ UWAUH
-L$(E3
-L$(K9
-L$0H9V
-L$0K9
-L$@H;
-L$@I;
-L$PH;
-L$XI+
-L$`E3
-L$xE3
-L9T$Xty
-L9v t=H
-L9|$`
-L;(t^M
-L;8u:H
-L;C u
-L;C u=
-L?n(Zy&
 LargestInt out of UInt range
 LargestUInt out of UInt range
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadLibraryExW
 LoadLibraryW
@@ -501,16 +260,11 @@ Loader does not support simultaneous XrInstances
 LoaderInstance::CreateInstance chained CreateInstance call failed
 LoaderInstance::CreateInstance succeeded with 
 LoaderInstance::CreateInstance, no support found for requested extension: 
-M H1E
-M98u/
-MB(iVR
 MSVCP140.dll
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
 ManifestFile::ParseCommon 
 Messenger handle is XR_NULL_HANDLE.
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
@@ -520,14 +274,7 @@ No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
-P8H+P0H
-PA^_^
-PA_A^A\_]
-PA_A^A]A\_^]
-PA_A^_^]
-PAq=?Mp#
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
+PERF
 QueryPerformanceCounter
 RSDS3
 ReadLayerDataFilesInRegistry - failed to read registry location 
@@ -553,49 +300,21 @@ RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in r
 RuntimeManifestFile::FindManifestFiles - found too many default runtime files in registry
 RuntimeManifestFile::FindManifestFiles - using environment variable override runtime file 
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
-S0Q0O
-SA|X=G
 SOFTWARE\Khronos\OpenXR\
-SUAVAWH
-SUWAVAWH
-SVWATAUAVAWH
-SWAUAWH
-SWAWH
+SPEC
+See 
 Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-St,-M
 Syntax error: value, object or array expected.
-T$ A;
-T$0H;
-T$HE3
-T$PH;
-T$`E3
-T$xE3
-TUUUUUU
 Type is not convertible to string
-UATAUAVAWH
-UAVAWH
 UNKNOWN
-USWAVAWH
-UUUUUUU
-UVAVH
-UVWATAUAVAWH
-UVWATAWH
-UVWAVAWH
-UWATAUAVH
-UWATAVAWH
-UWAVH
-UWAWH
 UnhandledExceptionFilter
 Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
-V H+V
-V I9V(t L
-VATAUAVAWH
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
 VUID-XrApplicationInfo-applicationName-parameter
@@ -619,57 +338,22 @@ VUID-xrGetInstanceProcAddr-function-parameter
 VUID-xrGetInstanceProcAddr-instance-parameter
 VUID-xrSessionBeginDebugUtilsLabelRegionEXT-labelInfo-parameter
 VUID-xrSessionInsertDebugUtilsLabelEXT-labelInfo-parameter
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-VWAWH
-V_~]	,
 Value is not convertible to UInt.
 Value is not convertible to bool.
-Valve Corp.0
-Valve Corp.1
 Verbose [
-WATAUAVAWH
-WATAVH
-WAUAWH
-WAVAWH
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning [
-Washington1
 WideCharToMultiByte
-Wrx%;
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
 XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
-Y9"SD
-[K]taM?
-\$ I;]
-\$ UAVAWH
-\$ UH
-\$ UVAVH
-\$ UVWATAWH
-\$ UWAWH
-\$ VWATAVAWH
-\$ WAVAWH
-\$(I;
-\$(I;]
-\$0H;
-\$8H;
-\$HH;
-\$PH;
-\$PI;
-\$hH;
-\$hI;
-\$pI;
-\$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
-\u=H;
-]J<0"0i3
+\fplO
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -697,7 +381,6 @@ _errno
 _execute_onexit_table
 _finite
 _fseeki64
-_gUT^
 _get_stream_buffer_pointers
 _initialize_narrow_environment
 _initialize_onexit_table
@@ -710,12 +393,6 @@ _lock_file
 _register_onexit_function
 _seh_filter_dll
 _unlock_file
-`.rdata
-`A^A]^[]
-`A_A^A\_^
-`A_A^A]A\_^]
-a4_[.8
-a7hIw
 additional six characters expected to parse unicode surrogate pair.
 allowComments
 allowDroppedNullPlaceholders
@@ -723,6 +400,7 @@ allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
 allowTrailingCommas
+alse
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -734,14 +412,12 @@ api_layer
 api_version
 application name missing NULL terminator.
 assert json failed
+atoi
 bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
-d$ UAVAWH
-d$PE3
-d$`H=
 deque<T> too long
 description
 disable_environment
@@ -753,36 +429,22 @@ error
 expected XR_TYPE_INSTANCE_CREATE_INFO.
 expecting another \u token to begin the second half of a unicode surrogate pair
 extension_version
-f9,Xu
-fB94@u
 failIfExtra
 failed allocating memory
 failed to open 
 failed to parse 
 false
 fclose
-fffffff
 fflush
 fgetc
 fgetpos
 file_format_version
 flags must be 0.
 fputc
+free
 fsetpos
 functions
 fwrite
-gfffffffH
-gfffffffH+
-gfffffffI
-gfffffffI+
-gfffffffL+
-gfffffffM
-hA_A^][
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 implementation_version
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -792,6 +454,7 @@ in Json::Value::operator[](ArrayIndex): requires arrayValue
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+info
 info->applicationInfo is not valid.
 instance_extensions
 insufficient space in array
@@ -799,23 +462,11 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
-jj@0HK4
-k0i0$
 keylength >= 2^30
-l$ H;
-l$ H=
-l$ UAVAWH
-l$ VH
-l$@E3
-l$PH;1u;H;
-l$pE3
-l$ptNH
-l2|X/gGe
 labelInfo must be non-NULL
 layer 
 library_path
 list<T> too long
-m0k0$
 malloc
 map/set<T> too long
 memchr
@@ -823,15 +474,17 @@ memcmp
 memcpy
 memmove
 memset
+modf
 must be non-NULL
+name
 nfinity
-ntelD
+none
+null
 openxr/
 openxr_loader.dll
 platform_utils
 rejectDupKeys
 runtime
-s t#fff
 setvbuf
 skipBom
 something wrong with XrInstanceCreateInfo contents
@@ -841,49 +494,16 @@ strictRoot
 string too long
 strncmp
 strncpy
-t$ AVH
-t$ AWH
-t$ E3
-t$ UH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WATAWH
-t$ WAVAWH
-t$ WH
-t$0H;
-t$8E3
-t$8H+
-t$8t*
-t$@E3
-t$@H;
-t$@H=
-t$@HcH
-t$HH;
-t$HL;
-t$HM;
-t$PH=
-t$`H+
-t$`HcH
-t$hHi
-t$hL;
-t$xH;
-t9H9h
-tmfff
-u	;{(@
-u!L9p 
+true
 ungetc
 unknown type in properties
 utf8_to_wide convert string error: 
 utf8_to_wide get size error: 
-v=Y]Bv
 vector<T> too long
 verbose
-wf?pz
+warn
 wide_to_utf8 convert string error: 
 wide_to_utf8 get size error: 
-www.digicert.com1!0
-www.digicert.com1$0"
-x AVH
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -952,32 +572,3 @@ xrSuggestInteractionProfileBindings
 xrSyncActions
 xrWaitFrame
 xrWaitSwapchainImage
-{un'%
-|$ ATAVAWH
-|$ AVH
-|$ E3
-|$ UATAUAVAWH
-|$ UAVAWH
-|$ UH
-|$0H;
-|$0L;
-|$8L;
-|$@E3
-|$AE3
-|$HH;
-|$HH=
-|$HL;
-|$PH+
-|$XH;
-|$`E3
-|$hH;
-|$hL;
-|$pH+
-|$x@8
-|$xH;
-|$xIi
-|Lu?c
-}LuHO
-~+fff
-~qj#k"
-~t&LN

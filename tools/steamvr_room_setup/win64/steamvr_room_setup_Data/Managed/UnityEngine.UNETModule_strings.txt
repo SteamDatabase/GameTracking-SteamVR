@@ -7,7 +7,6 @@
  UnityEngine.UnityAnalyticsModule
  m_ProtocolRequired.m_PingTimeout
  m_ReactorMaximumReceivedMessages
-!This program cannot be run in DOS mode.
 !UNETManager::Get()->GetCurrentRTT
 !UNETManager::Get()->SendMulticast
 !UNETManager::Get()->SetPacketStat
@@ -109,7 +108,6 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .cctor
 .ctor
-.text
 /UNETManager::Get()->GetIncomingMessageQueueSize
 /UNETManager::Get()->GetOutgoingMessageQueueSize
 /UNETManager::Get()->GetOutgoingSystemBytesCount
@@ -172,7 +170,6 @@ $field-95D7E9C7483D5AF10DF20044FCD3E580073E1D4B
 <usingRelay>k__BackingField
 <version>k__BackingField
 =This property is unused and should not be referenced in code.
-@.reloc
 Acks128
 Acks32
 Acks64
@@ -198,6 +195,7 @@ AsReadOnly
 Assembly-CSharp-testable
 AsyncCallback
 BIsAcksLong is deprecated. Use AcksType = ConnectionAcksType.Acks64
+BSJB
 BadMessage
 BasicResponse
 BasicResponseDelegate
@@ -206,6 +204,7 @@ BeginInvoke
 BitConverter
 Boolean
 BroadcastEvent
+Byte
 CRCMismatch
 ChannelQOS
 CheckTopology
@@ -225,6 +224,7 @@ ConnectionSimulatorConfig
 ConnectionSimulatorConfigInternal
 ContainsKey
 Convert
+Copy
 CopyTo
 CreateInstance
 CreateMatch
@@ -257,6 +257,7 @@ EditorBrowsableAttribute
 EditorBrowsableState
 EndConnect
 EndInvoke
+Enum
 FinishSendMulticast
 FixRateReactor
 Format
@@ -335,6 +336,7 @@ IEnumerator
 IEnumerator`1
 IList`1
 IResponse
+Init
 InitializeArray
 InitializeClass
 InitializeClassWithConfig
@@ -351,7 +353,6 @@ IsDefined
 IsNullOrEmpty
 IsPortOpen
 IsStartedInternal
-IsThreadSafe
 IsValid
 JSONRESPONSE
 JoinMatch
@@ -404,6 +405,7 @@ Owner
 PThe UNET transport will be removed in the future as soon a replacement is ready.
 PopData
 PopDataFromHost
+Post
 ProcessMatchResponse
 QosType
 QueueMessageForSending
@@ -512,7 +514,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -596,6 +597,7 @@ UnreliableFragmentedSequenced
 UnreliableSequenced
 UnverifiableCodeAttribute
 UsageError
+User
 Validate
 ValueType
 VersionMismatch
@@ -606,8 +608,13 @@ WrongChannel
 WrongConnection
 WrongHost
 WrongOperation
+Zero
+\fIsThreadSafe
+\nm_MaxHosts
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
+`WtI
 array
 broadcastPort
 bucketSizeFactor
@@ -619,6 +626,7 @@ channel
 channelId
 channelIndices
 client
+conf
 config
 connectionId
 currentVersion
@@ -748,6 +756,7 @@ hostId
 inAvgDelay
 inMinDelay
 includePasswordMatches
+info
 internalCallback
 m_AckDelay
 m_AcksType
@@ -826,6 +835,7 @@ mscorlib
 netId
 network
 newAppID
+node
 notificationLevel
 numBytes
 numMsgs

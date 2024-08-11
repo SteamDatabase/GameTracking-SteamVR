@@ -1,434 +1,21 @@
-								
-	#jT$
-	H;K t
-	Ic9I
-      
-        
                                                                
                                                                                              
-                                                                                                                                                                             
-                                    (cbdc*cbbe.y + acba.y - 0.5)/aea.y);
-                                , .5*(adeb.x+1.0), .5*(adeb.y+1.0));
-                             (abs(baca - aeae) > adac)
-                             (abs(baca - bcba) > adac) ||
-                             (abs(baca - bdaa) > adac) ||
-                             (abs(baca - bee) > adac) ||
-                             (abs(baca - cbea) > adac)
-                             (abs(baca - cbeb) > adac) ||
-                             );
-                           (abad && (baca - bdaa) > adac) ||
-                           (accd && (baca - bee) > adac))
-                           (bea && (baca - cbeb) > adac) ||
-                           (cbce && (baca - bcba) > adac) ||
-                           ? 0.0 : 1.0;
-                           ? aacc : aaec;
-                           gl_Position.z < 0.0 ||                
-                           gl_Position.z < 0.0)              
-                           length(adba) < 0.5 ||  
-                           length(adba) < 0.5 ||          
-                          aedd && !baab ? -1.0 :  
-                          baab && aedd ? 0.0 :  
-                          cabe;  
-                 );
-                (1.0 - min(1.0, (beb.z - abce)/(bbac - abce))
-                adbd = aaaa / cacd;
-                alpha *= 0.5;
-                cbdc = bdb / cacd;
-                color = vec3 (1.0, 0.0, 0.0);
-                color = vec4(checker, 0.5);
-                discard;
-                float cacd = 1.0 + (cba*cbac + acea)*cbac;
-                float cbac = adbd * adbd + cbdc * cbdc;
-                float specAngle = max(dot(halfDir, pointNormal), 0.0);
-                gb = 0.;
-                gl_PointSize = 0.0;
-                gl_PointSize = gl_PointSize *
-                if (rgb.x < 0.018) rgb.x *= 4.5; else rgb.x = 1.099*pow(rgb.x,0.45)-0.099;
-                if (rgb.y < 0.018) rgb.y *= 4.5; else rgb.y = 1.099*pow(rgb.y,0.45)-0.099;
-                if (rgb.z < 0.018) rgb.z *= 4.5; else rgb.z = 1.099*pow(rgb.z,0.45)-0.099;
-                specularLight = pow(specAngle, bebc.shininess) * acdd.specularColor * bebc.specularFactor;
-                vec3 halfDir = normalize(lightDir + viewDir);
-                vec3 viewDir = normalize (-abac);
-            _vabcd = _aabcd * cbec;
-            _vabcd = aece;
-            aaad.y = aaad.y + bdaa * cabc;
-            aaba = texture2DLod(be, babe, 0.0);
-            aace.x = aace.x + bcba * cabc;
-            aaec = (baca <= 0.0 ||             
-            aaec = (baca <= 0.0 ||                      
-            aaec = baab && !aedd ? 1.0 :  
-            abac = vec3(vertPos4) / vertPos4.w;
-            abda = (abda < 65536.0) ? abda : 0.0;  
-            abda = aaec < 0.95 ? 0.0 : abda;
-            acbc = badb;
-            acdb = caac;
-            acde = beb.z;
-            adba += (accd && bea) ? normalize(beca) : zeroVec;
-            adba += (accd && cbce) ? normalize(beca) : zeroVec;
-            adba += (bea && abad) ? normalize(beca) : zeroVec;
-            adba = (abad && cbce) ? normalize(beca) : zeroVec;
-            adba = normalize(adba);
-            adeb = adca;
-            adeb = normalize(adeb);
-            adeb.x = bcb[0][0] * adae.x + bcb[1][0] * adae.y + bcb[2][0] * adae.z;
-            adeb.x = bcb[0][0] * adba.x + bcb[1][0] * adba.y + bcb[2][0] * adba.z;
-            adeb.y = bcb[0][1] * adae.x + bcb[1][1] * adae.y + bcb[2][1] * adae.z;
-            adeb.y = bcb[0][1] * adba.x + bcb[1][1] * adba.y + bcb[2][1] * adba.z;
-            adeb.z = bcb[0][2] * adae.x + bcb[1][2] * adae.y + bcb[2][2] * adae.z;
-            adeb.z = bcb[0][2] * adba.x + bcb[1][2] * adba.y + bcb[2][2] * adba.z;
-            adeb.z = bcb[0][2] * beca.x + bcb[1][2] * beca.y + bcb[2][2] * beca.z;
-            aedc = position.z;
-            aee = vec3(bcb * vec4(adae, 0.0));
-            babe = vec2(adcc.x + acee, adcc.y - abca);
-            babe = vec2(adcc.x + acee, adcc.y);
-            babe = vec2(adcc.x - acee, adcc.y + abca);
-            babe = vec2(adcc.x - acee, adcc.y);
-            babe = vec2(adcc.x, adcc.y - abca);
-            bbae.y = bbae.y - bee * cabc;
-            bdbb = 0.5*(1.0 - abs(vec.z));
-            bdcb.x = bdcb.x - cbeb * cabc;
-            bddd = aebb;
-            beca = cross(aace, bbae);
-            beca = cross(bbae, bdcb);
-            beca = cross(bdcb , aaad);
-            beca = normalize(adba);
-            bedb  = adcc;
-            bedb = adcc;
-            bool abad = (bdaa > 0.0);
-            bool abdd = (aeae > 0.0);
-            bool accd = (bee > 0.0);
-            bool aedd = (
-            bool baab = (
-            bool bccd = (caec.x >= 0 && caec.x <= 1.0 && caec.y >= 0 && caec.y <= 1.0);
-            bool bea = (cbeb > 0.0);
-            bool cbcb = (cbea > 0.0);
-            bool cbce = (bcba > 0.0);
-            caab.w = bcde.w;
-            caab.xyz = bcde.xyz * baca;
-            cadc = bceb;
-            cbec = 0.5*abs(adeb.z) + 0.5;
-            cbec = 0.5*abs(vec.z) + 0.5;
-            cbec = 1.0 - abs(vec.z);
-            const float aacc = -16383.0;
-            const float bbe = 0.05;
-            const float bbe = 0.06;
-            const float cabe = 16383.0;  
-            const float caee = 0.001;
-            else if (bebb > abce)
-            float aaaa = adbd;
-            float abda = acde * abbb;
-            float abda = baed * abbb;
-            float acea = bdbc[0];
-            float adac = baca * bbe;
-            float adbd = (bedb.x*aea.x + 0.5 - cbda.x)/acbd.x;
-            float aeae = aaba.r * caee;
-            float baed = acde * (1000.0);
-            float baed = acde ;
-            float bcba = aaba.r * caee;
-            float bdaa = aaba.r * caee;
-            float bdb = cbdc;
-            float bebb = sqrt(beb.x*beb.x + beb.y*beb.y + beb.z*beb.z);
-            float bee = aaba.r * caee;
-            float cba = bdbc[1];
-            float cbdc = (bedb.y*aea.y + 0.5 - cbda.y)/acbd.y;
-            float cbea = aaba.r * caee;
-            float cbeb = aaba.r * caee;
-            float cbec = 0.5*abs(vec.z) + 0.5;
-            float cbec = 0.75*abs(vec.z) + 0.25;
-            float depth_mm = acde * (1000.0);
-            float depth_thresh = 0.01;
-            float dist1 = max (abs(p0.x - 0.25), abs(p0.y - 0.25));
-            float dist2 = max (abs(p0.x - 0.75), abs(p0.y - 0.75));
-            float dist3 = max (abs(p0.x - 1.25), abs(p0.y - 0.25));
-            float dist4 = max (abs(p0.x + 0.25), abs(p0.y - 0.75));
-            float dist5 = max (abs(p0.x - 0.75), abs(p0.y + 0.25));
-            float dist6 = max (abs(p0.x - 0.25), abs(p0.y - 1.25));
-            float distanceFactor = 1.0f;  
-            float gb = cbec, alpha = bbc;
-            float lightDirDotNormal = max(dot(lightDir,pointNormal), 0.1);
-            float margin = 0.05;
-            float minDistToBlack = min(dist1, dist2);
-            float n_thresh = 0.6;
-            float shininess;
-            float w0 = bddd.z;
-            float w1 = acbc.z;
-            for (int j = 0; j < 10; j++)
-            gl_FragColor = cadc;
-            gl_FragColor = color;
-            gl_FragColor = texture2D(cbb, bedb);
-            gl_FragColor = vec4 (color, bbc);
-            gl_FragColor = vec4(0.0);
-            gl_FragColor = vec4(_uabcd.xyz, bbc);
-            gl_FragColor = vec4(_vabcd, bbc);
-            gl_FragColor = vec4(acdb, 1.0);
-            gl_FragColor = vec4(acde,acde,acde,1.0);
-            gl_FragColor = vec4(adeb, 1.0);
-            gl_FragColor = vec4(babd.rgb, bccd);
-            gl_FragColor = vec4(bdbb, bdbb, bdbb, 1.0);
-            gl_FragColor = vec4(cbec, cbec, cbec, 1.0);
-            gl_FragColor = vec4(cbec, cbec, cbec, bbc);
-            gl_FragColor = vec4(cbec, gb, gb, alpha);
-            gl_FragColor = vec4(clamp(rgb,0.0,1.0), bbc);
-            gl_FragColor = vec4(color, bbc);
-            gl_FragColor = vec4(floor(abda * bdc) * cbaa, mod(abda, 256.0) * cbaa
-            gl_FragColor = vec4(floor(abda * bdc) * cbaa, mod(abda, 256.0) * cbaa, .5*(normal.x+1.0), .5*(normal.y+1.0));
-            gl_FragColor = vec4(floor(baed * bdc) * cbaa, mod(baed, 256.0) * cbaa
-            gl_FragColor = vec4(floor(depth_mm * div_256) * div_255, mod(depth_mm, 256.0) * div_255, 0, 0);
-            gl_FragColor = vec4(rgb.rgb, bbc);
-            gl_FragColor = vec4(texture2D(aebd, bedb).bgr, bbc);
-            gl_FragColor = vec4(texture2D(aebd, bedb).rgb, bbc);
-            gl_PointSize = 5.0;  
-            gl_PointSize = 8.0;  
-            gl_Position = aaa *bcb *bcde;
-            gl_Position = aaa*bcb*bcde;
-            gl_Position = aaa*beb;
-            gl_Position = bcde;
-            gl_Position = cb * bcb * bcde;
-            gl_Position = position;
-            highp float baca = cbdd.r * caee;
-            highp vec3 aaad = bcde.xyz * (bdaa - baca);
-            highp vec3 aace = bcde.xyz * (bcba - baca);
-            highp vec3 adba;
-            highp vec3 bbae = bcde.xyz * (bee - baca);
-            highp vec3 bdcb = bcde.xyz * (cbeb - baca);
-            highp vec3 beca = cross(aaad, aace);
-            highp vec3 zeroVec = vec3(0.0);
-            highp vec4 aaba = texture2DLod(be, babe, 0.0);
-            highp vec4 cbdd = texture2DLod(be, adcc, 0.0);
-            if (!occluded() ) {
-            if ((w0+w1) < 0.00001)
-            if (aaec < 0.95)
-            if (abs(aaec) < 1.0 || aaec < -2.0)
-            if (accc > 0.5)
-            if (aedc < ad)
-            if (bcaa > 0.5) {
-            if (bebb > abce + bbac)
-            if (lightDirDotNormal > 0.0)
-            if (v_normal.x > n_thresh){ coord = v_worldPos.yz; }
-            if (v_normal.y > n_thresh){ coord = v_worldPos.xz; }
-            if (v_normal.z > n_thresh){ coord = v_worldPos.xy; }
-            mat3 scaledRotation = mat3(bcb);
-            minDistToBlack = min (minDistToBlack, min(dist3, dist4));
-            minDistToBlack = min (minDistToBlack, min(dist5, dist6));
-            position = aaa*position;
-            return (p0.x > 0.5 && p0.y > 0.5) || (p0.x < 0.5 && p0.y < 0.5) ? 0.0 : 1.0;
-            return abs(texture2D(acb, texpos).r - gl_FragCoord.z) > depth_thresh;
-            return smoothstep (0.25-margin, 0.25+margin, minDistToBlack);
-            rgb.b = 0.0;
-            rgb.g = 0.0;
-            rgb.r = (rgb.x + rgb.y + rgb.z) * 0.33333333;
-            rgb.x = (_ubbed*rgb.x-_ubbdc)/(becb-_ubbdc);
-            rgb.x = (bbed*_vabcd.x-bbdc)/(caad-bbdc);
-            rgb.y = (_ubbed*rgb.y-_ubbdc)/(becb-_ubbdc);
-            rgb.y = (bbed*_vabcd.y-bbdc)/(caad-bbdc);
-            rgb.z = (_ubbed*rgb.z-_ubbdc)/(becb-_ubbdc);
-            rgb.z = (bbed*_vabcd.z-bbdc)/(caad-bbdc);
-            v_normal = abs(adae);
-            v_worldPos = bcde.xyz;
-            vec2 babe = vec2(adcc.x, adcc.y + abca);
-            vec2 caec = vec2( (adbd*cbbe.x + acba.x - 0.5)/aea.x,
-            vec2 coord = v_worldPos.xy;  
-            vec2 p0 = fract(coord / vec2(size));
-            vec2 texpos = fract(gl_FragCoord.xy  / aabd);
-            vec2 uv0 = bddd.xy;
-            vec2 uv1 = acbc.xy;
-            vec3 adeb;
-            vec3 c0 = texture2D(aebd, uv0).bgr;
-            vec3 c1 = texture2D(aebd, uv1).bgr;
-            vec3 checker = vec3(modSquareAliased(coord, 0.2));
-            vec3 checker = vec3(modSquareAntiAliased(coord, 0.2));
-            vec3 color = (c0 * w0 + c1 * w1) / (w0 + w1);
-            vec3 color = texture2D(aebd, bedb).rgb * (ambientLight + diffuseLight).rgb + specularLight.rgb;
-            vec3 lightDir = normalize (acdd.position - abac);
-            vec3 normal = aaec < 0.95 ? vec3(0.0,0.0,0.0) : adeb;
-            vec3 pointNormal = normalize(aee);
-            vec3 position;
-            vec3 rgb = texture2D(aebd, bedb).rgb;
-            vec3 rgb;
-            vec3 vec = mat3(bcb)*adae*aeeb;
-            vec4 ambientColor;
-            vec4 ambientFactor;
-            vec4 ambientLight = acdd.ambientColor * bebc.ambientFactor;
-            vec4 babd = bccd ? texture2D(cab, caec) : vec4(0,0,0,0);
-            vec4 beb = bcb * caab;
-            vec4 beb = bcb*bcde;
-            vec4 caab;
-            vec4 color = vec4(0.0);
-            vec4 diffuseColor;
-            vec4 diffuseFactor;
-            vec4 diffuseLight = lightDirDotNormal * acdd.diffuseColor * bebc.diffuseFactor;
-            vec4 position = bcb*bcde;
-            vec4 specularColor;
-            vec4 specularFactor;
-            vec4 specularLight = vec4(0,0,0,0);
-            vec4 vertPos4 = bcb * bcde;
-            {
-            }
-        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
-        attribute NORMAL_PRECISION vec3 adae;
-        attribute highp vec2 adcc;
-        attribute mediump vec3 adca;
-        attribute vec2 adcc;
-        attribute vec3 _aabcd;
-        attribute vec3 adae;
-        attribute vec3 aebb;
-        attribute vec3 aece;
-        attribute vec3 badb;
-        attribute vec4 bcde;
-        attribute vec4 bceb;
-        bool occluded() {
-        const float bdc = 1.0/256.0;
-        const float cbaa = 1.0/255.0;
-        const float div_255 = 1.0/255.0;
-        const float div_256 = 1.0/256.0;
-        float modSquareAliased(vec2 coord, float size) {
-        float modSquareAntiAliased(vec2 coord, float size) {
-        precision highp float;
-        precision highp sampler2D;
-        precision mediump float;
-        struct Material
-        struct SunLight
-        uniform Material bebc;
-        uniform SunLight acdd;
-        uniform float _ubbdc;
-        uniform float _ubbed;
-        uniform float abba;
-        uniform float abbb;  
-        uniform float abca;
-        uniform float abce;
-        uniform float accc;
-        uniform float acee;
-        uniform float ad;
-        uniform float aeeb;
-        uniform float bbac;
-        uniform float bbc;
-        uniform float bbc;  
-        uniform float bbdc;
-        uniform float bbed;
-        uniform float bcaa;
-        uniform float becb;
-        uniform float caad;
-        uniform float cabc;
-        uniform mat4 aaa;
-        uniform mat4 bcb;
-        uniform mat4 cb;
-        uniform sampler2D acb;
-        uniform sampler2D aebd;
-        uniform sampler2D be;
-        uniform sampler2D cab;
-        uniform sampler2D cbb;
-        uniform vec2 aabd;
-        uniform vec2 acba;
-        uniform vec2 acbd;
-        uniform vec2 aea;
-        uniform vec2 bdbc;
-        uniform vec2 cbbe;
-        uniform vec2 cbda;
-        uniform vec3 _uabcd;
-        uniform vec3 caac;
-        varying NORMAL_PRECISION vec3 adeb;
-        varying float aaec;
-        varying float acde;
-        varying float aedc;
-        varying float bdbb;
-        varying float cbec;
-        varying mediump vec3 adeb;
-        varying mediump vec4 cadc;
-        varying vec2 aed;
-        varying vec2 bedb;
-        varying vec3 _vabcd;
-        varying vec3 abac;
-        varying vec3 abac;  
-        varying vec3 acbc;
-        varying vec3 acdb;
-        varying vec3 adeb;
-        varying vec3 aee;
-        varying vec3 aee;  
-        varying vec3 bddd;
-        varying vec3 v_normal;
-        varying vec3 v_worldPos;
-        void main()
-        {
-        }
-        };
-      </requestedPrivileges>
-      <requestedPrivileges>
-    '
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
   gyroDelivered
   gyroToRender
  !"#$%&'()*+,-./0123
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+///////////////////,-.
- !"#O
  (error code 
  (expected: '
  (line 
- 1!11111111"1#11111$%&'1()111*1111+11,-./0
  <!-- resumed -->
- A\^[
- A\_[
- A\_^
- A]A\^
- A]A\_][
- A^A\[
- A^A\^
- A^A\_
- A^A\_^[
- A^A\_^]
- A^A]A\_^
- A^^]
- A^_[
- A^_^
- A_A\_^[
- A_A\_^]
- A_A]A\^[
- A_A]A\_[
- A_A]A\_]
- A_A]A\_^
- A_A]_^]
- A_A^A\
- A_A^A\^]
- A_A^A\_^
- A_A^A]
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^]
- A_A^^
- A_A^^][
- A_A^_
- A_A^_^]
- A_^[
- A_^]
- A__^
- A__^][
- D9)u
- H3E H3E
- Hc:L
- LcI H
- LcT$PA
- Lcd$hI
- McH$H
- McP H
- McP$H
- [@W:[
  accelDelivered
  accelToRender
  deflate 1.2.8 Copyright 1995-2013 Jean-loup Gailly and Mark Adler 
  in number
  in string
  inflate 1.2.8 Copyright 1995-2013 Mark Adler 
-!!%s %c
 !!binary |
-!)?gX
-!D9\$xu
-!E;` sbH
-!E;` }bH
-!M;` }bH
-!This program cannot be run in DOS mode.
+!AxU
 !_connect_timer_started
 !_current_out
 !_engine
@@ -458,7 +45,6 @@
 !disparity_map_left.empty() && (disparity_map_left.channels() == 1)
 !disparity_map_right.empty() && (disparity_map_right.depth() == CV_32F) && (disparity_map_right.channels() == 1)
 !dsize.empty()
-!fE;` scH
 !fixedSize()
 !fixedSize() || ((Mat*)obj)->size.operator()() == Size(_cols, _rows)
 !fixedSize() || ((Mat*)obj)->size.operator()() == _sz
@@ -497,544 +83,85 @@
 !ssize.empty()
 !that->mutableClientActivity().start() failed
 !write_stack.empty()
-"D(A;
-"I;P8u
 "K"K"K"K"K"K"K"K
 "NAN"
-# define NORMAL_PRECISION highp
-# define NORMAL_PRECISION mediump
 #"timestampInSeconds", "worldFromDevice.translation",,, "worldFromDevice.quaternion",,,, "linearVelocityOfDeviceInWorld",,, "angularVelocityOfDeviceInWorld",,, "gyroBiasesRadPerSec",,, "accelBiasesMetersPerSecSqr",,, "gravityInWorldInMetersPerSecSqr",,, "realImuFromPrecalibratedImu.quaternion",,,, "accelScaleFactor",,, "latencyInSeconds", "confidence"
 #"ts", "tx", "ty", "tz", "qw", "qx", "qy", "qz", "vx", "vy", "vz", "wx", "wy", "wz", "bg_x", "bg_y", "bg_z", "ba_x", "ba_y", "ba_z", "gx", "gy", "gz", "imu_qw", "imu_qx", "imu_qy", "imu_qz", "accel_scale_x", "accel_scale_y", "accel_scale_z", "latency", "confidence"
 #%02x%02x%02x
-#=H9S
-#>H9S
-#Lcl$tI
 #bML"
-#define ENABLE_ANTIALIASING 0
-#define ENABLE_ANTIALIASING 1
-#define WINDOWS
 #description: OpenCV trace file
-#else
-#endif
-#if ENABLE_ANTIALIASING
-#if defined(GLES) || defined(WINDOWS)
-#if defined(WINDOWS)
-#ifdef GLES
-#ifdef WINDOWS
 #iterations:     
-#thread file: %s
-#version 330
+#thread file: %s\n
+#version 330\n\n#define WINDOWS\n
 #version: 1.0
 #x%02x
 #{ "dataFormat": "VisualInertial_Pose_Velocity_Biases_Gravity_ImuRotation_AccelScale_Latency_Confidence", "worldFromDevice": "%s", "source": "%s", "OCSV_version": 1 }
-$9L$8}
-$L+D$XO
-$L9A }
-$Lcd$
-$Lc|$
 $base64$
 %.16e
-%.16g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.12g,%.12g,%.12g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g
+%.16g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.12g,%.12g,%.12g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g,%.9g\n
 %.25g
 %016llx
-%512s %512[^
+%512s %512[^\n]
+%6tB
 %RED%
 %Y-%m-%d_%H-%M-%S
 %YAML
 %YAML 1.
 %YAML:1.
-%YAML:1.0
+%YAML:1.0\n---\n
 %i %i %i %i
 %i//%i%i//%i%i//%i
-%s %s
-%s %s: %s
-%s (%s:%d)
-%s - NOT AVAILABLE
-%s - OK
-%s = %s
-%s%s%s
-%s(%d): %s
+%s (%s:%d)\n
+%s - NOT AVAILABLE\n
 %s-%03d.txt
 %s/depth_%06d.png
 %s/filtered_depth_%06d.png
 %s/left_%06d.png
 %s/right_%06d.png
-%s: %s
 %sC%d
-' is 
 '"' - right-quote of string is missing
-'%c' (%d)
-'((((((
 '), where
 '): can't write data: 
 '): can't write data: unknown exception
-'?%L+?r
 '[' - left-brace of seq is missing
 '\uXXXX' currently not supported
 ']' - right-brace of seq is missing
 '{' - left-brace of map is missing
 '}' - right-brace of map is missing
-(%(L 
-(%.=2
-(%>x;
 (((flags&GEMM_3_T) == 0 && C.rows == d_size.height && C.cols == d_size.width) || ((flags&GEMM_3_T) != 0 && C.rows == d_size.width && C.cols == d_size.height))
 ((size_t)_src[i] & (CV_SIMD_WIDTH-1)) == 0
 ((uint64)m_height * m_width * nch < (CV_BIG_UINT(1) << 30)) && "BMP reader implementation doesn't support large images >= 1Gb"
-(--:2
-(-F=2
-(-I7_#
-(-hR(
-(4$A+
-(4$Ic
-(5&K<
-(5'L<
-(56I<
-(5NO<
-(5TH<
-(;<$}
-(=eK<
-(=mW>
-(A]A\
-(A]A\_]
-(A^A\
-(A^A\_[
-(A^A]A\[
-(A^A]A\_^[
-(A^A]^[
-(A^A]_[
-(A_A]
-(A_A]A\[
-(A_A^
-(A_A^^[
-(B848I
-(Cq=:@
-(D$ A
-(D$ B
-(D$ D
-(D$ H
-(D$ Hc
-(D$ I
-(D$ L
-(D$ f
-(D$0D
-(D$0H
-(D$0f
-(D$@A
-(D$@D
-(D$@D;
-(D$@E;
-(D$@H
-(D$@f
-(D$PD
-(D$PH
-(D$PL
-(D$Pf
-(D$`A
-(D$`A;
-(D$`D
-(D$`H
-(D$`f
-(D$pE
-(D$pH
-(D$pf
-(EpH;u
-(HcQlL
-(L$ D
-(L$ H
-(L$0A
-(L$0B
-(L$0D
-(L$0H
-(L$@D
-(L$@H
-(L$P+
-(L$PA
-(L$PD
-(L$PH
-(L$Pf
-(L$`3
-(L$`D
-(L$pD
-(L$pw7A
-(Lcd$hM
-(T$ 3
-(T$ A
-(T$ D
-(T$ H
-(T$0D
-(T$0H
-(T$@A
-(T$@D
-(T$@H
-(T$PA
-(T$PD
-(T$PI+
-(T$`D
-(T$pD
-(T$pH
-(\$ A
-(\$ D
-(\$ H
-(\$0D
-(\$0L
-(\$@;
-(\$@D
-(\$@L;
-(\$PD
-(\$`D
-(\$pD
 (_prefetched_msg.flags () & msg_t::more) == 0
-(d$ D
-(d$ H
-(d$0D
-(d$0H
-(d$@D
-(d$PD
-(d$`D
-(d$`L
-(d$pD
-(d$pH
 (delta.cols == src.cols || delta.cols == 1)
 (delta.rows == src.rows || delta.rows == 1)
 (disparity_map_left.cols() == disparity_map_right.cols())
 (disparity_map_left.rows() == disparity_map_right.rows())
 (dst_width > 0 && dst_height > 0) || (inv_scale_x > 0 && inv_scale_y > 0)
-(e@I;
-(fA+	f
 (flags & FIXED_TYPE) != 0
 (ksize % 2 == 1) && (_src0.dims() <= 2 )
-(l$ D
-(l$ E
-(l$0D
-(l$@D
-(l$@L
-(l$@M
-(l$PD
-(l$PL
-(l$`D
-(l$`L
-(l$pD
-(l$pH
 (method != DECOMP_LU && method != DECOMP_CHOLESKY) || is_normal || src.rows == src.cols
 (mtype == CV_8U || mtype == CV_8S) && _mask.sameSize(*psrc1)
 (mtype == CV_8UC1 || mtype == CV_8SC1) && _mask.sameSize(*psrc1)
 (noLb5
-(q)@*
 (size_t) res->ai_addrlen <= sizeof (*ip_addr_)
 (size_t)sz < _src.size()
 (size_t)valueInt == sz
 (symmetryType & (KERNEL_SYMMETRICAL | KERNEL_ASYMMETRICAL)) != 0
 (symmetryType & (KERNEL_SYMMETRICAL | KERNEL_ASYMMETRICAL)) != 0 && this->ksize <= 5
-(t$ 2
-(t$ A
-(t$ D
-(t$ D;
-(t$ H
-(t$ Hc
-(t$ L
-(t$ Lc
-(t$0A;
-(t$0D
-(t$0H
-(t$0I
-(t$0L
-(t$0f
-(t$@A
-(t$@D
-(t$@H
-(t$@I
-(t$@L
-(t$@f
-(t$PA
-(t$PD
-(t$PE
-(t$PH
-(t$PI
-(t$PIc
-(t$PL
-(t$`D
-(t$`D;
-(t$`E
-(t$`H
-(t$`I
-(t$`L
-(t$`fA
-(t$pD
-(t$pE;
-(t$pH
-(t$pI
-(t$pL
 (type == (((5) & ((1 << 3) - 1)) + (((1)-1) << 3)) || type == (((6) & ((1 << 3) - 1)) + (((1)-1) << 3)) || type == (((5) & ((1 << 3) - 1)) + (((2)-1) << 3)) || type == (((6) & ((1 << 3) - 1)) + (((2)-1) << 3)))
-(|$ 3
-(|$ A
-(|$ D
-(|$ H
-(|$ I
-(|$ L
-(|$0D
-(|$0H
-(|$0I
-(|$0L
-(|$0fA
-(|$0k
-(|$@D
-(|$@E
-(|$@H
-(|$@I
-(|$@M
-(|$@f
-(|$PD
-(|$PE
-(|$PH
-(|$PI
-(|$`D
-(|$`E
-(|$`H
-(|$`I
-(|$`L
-(|$pD
-(|$pE
-(|$pH
-)$$fD
-)4$fD
 ):9ld
-)<$fD
-)<$fff
-)D$ 3
-)D$ A
-)D$ D
-)D$ E
-)D$ H
-)D$ I
-)D$ L
-)D$ f
-)D$ fD
-)D$03
-)D$0D
-)D$0H
-)D$0I+
-)D$0L
-)D$0f
-)D$0fD
-)D$@A
-)D$@E
-)D$@H
-)D$@I;
-)D$@K
-)D$@L
-)D$@L+
-)D$PA;
-)D$PD
-)D$PH
-)D$PI
-)D$PIc
-)D$PM+
-)D$XA
-)D$`H
-)D$pA
-)D$pD
-)D( A
-)H;D$Hv
-)JcL)
-)L$ A
-)L$ D
-)L$ fD
-)L$0A
-)L$0D
-)L$0fD
-)L$@D
-)L$@L
-)L$@f
-)L$PD
-)L$PH
-)L$PL+
-)L$`D
-)L$pH
-)L(0H
-)M`fff
-)T$ E
-)T$ H
-)T$ fD
-)T$0f
-)T$0fE
-)T$@H
-)T$@L
-)T$@f
-)T$PE
-)T$Pf
-)T$`A
-)T$`H
-)T$pD
-)\$ A
-)\$ H;
-)\$ f
-)\$0A
-)\$0M
-)\$@D
-)\$@H;
-)\$PM
-)\$`D
-)\$`E
-)\$`I
-)\$pD
-)\$pI
-)\ZEo^m/
-)d$ A
-)d$ D
-)d$ E
-)d$0D
-)d$0L
-)d$@H
-)d$@L
-)d$PD
-)d$PE
-)d$PH
-)d$`D
-)d$`H
-)d$`Ic
-)d$pD
-)d$pH
-)d$pI
-)l$ D
-)l$ E
-)l$ fD
-)l$0A
-)l$0D
-)l$@A
-)l$@D
-)l$@J
-)l$@fA
-)l$PD
-)l$PE
-)l$PH
-)l$`D
-)l$`Mc
-)l$pA
-)l$pD
-)l$pH
-)l$pM
-)t$ D
-)t$ E
-)t$ E3
-)t$ H
-)t$ I
-)t$ L
-)t$ M
-)t$ f
-)t$03
-)t$0A
-)t$0D
-)t$0E3
-)t$0H
-)t$0HcIlI
-)t$0I
-)t$0L
-)t$0M
-)t$0f
-)t$0fD
-)t$@;
-)t$@D
-)t$@E3
-)t$@H
-)t$@I
-)t$@M
-)t$P3
-)t$PA
-)t$PD
-)t$PH
-)t$PI
-)t$PL
-)t$PM
-)t$Pf
-)t$`A
-)t$`D
-)t$`H
-)t$`Ic
-)t$`f
-)t$`fD
-)t$pD
-)t$pE3
-)t$pH
-)t$pL
-)t$pf
 ){O)I*E+@-;073370;-@+E*I)O)U*[+_-d0i3m7q;t@wEyIzO{U{[z_ydwitmqqmtiwdy_z[{U{OzIyEw@t;q7m3i0d-_+[*U)O)
-)|$ D
-)|$ H
-)|$ I
-)|$ L
-)|$ N
-)|$ fD
-)|$0D
-)|$0E
-)|$0H
-)|$0I
-)|$0N
-)|$@D
-)|$@E
-)|$@H
-)|$@I
-)|$@M+
-)|$@O
-)|$PA
-)|$PD
-)|$PE
-)|$PH
-)|$PH;
-)|$PL
-)|$PfD
-)|$`3
-)|$`A
-)|$`D
-)|$`H
-)|$`L
-)|$`f
-)|$`z?u=
-)|$`zCuA
-)|$`zEuC
-)|$pD
-)|$pH
-)|$pM+
-*                                                                *
-* FATAL ERROR:                                                   *
-* This OpenCV build doesn't support current CPU/HW configuration *
-* Use OPENCV_DUMP_CONFIG=1 environment variable for details      *
-******************************************************************
 *.bmp;*.dib
 *.hdr;*.pic
 *.pbm;*.pgm;*.ppm;*.pxm;*.pnm
-*.sr;*.ras
-*B84 I
-*D$0H
-*H+\$ I
-*HcT$LH
+*5KS
+*C33
 *NV12
 *buff_
-*tZD;
-+@*q)
-+D$$H
-+D$H=
-+D$LD
-+D$X=
-+D$\D
-+GLD;
-+T$$I
-, got 
-, that: 
-,0<	v
-,0<	w
-,0<	w	H
-,0<	w,H
-,AxIc
-,IHcy
-,L$`A
 ,parentThread=%d,parent=%lld
 ,skip=%d
-,w-Hc
--)g-=
 -.Inf
--i.D/!0
 .00cfg
-.?%L+?|
 .?AU?$ColumnFilter@U?$Cast@HF@cpu_baseline@cv@@UColumnNoVec@23@@cpu_baseline@cv@@
 .?AU?$ColumnFilter@U?$Cast@HF@cpu_baseline@cv@@USymmColumnSmallVec_32s16s@23@@cpu_baseline@cv@@
 .?AU?$ColumnFilter@U?$Cast@HF@opt_SSE4_1@cv@@UColumnNoVec@23@@opt_SSE4_1@cv@@
@@ -2279,14 +1406,12 @@ $base64$
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.D$XzHuFM
-.I;B 
-.JcL-
-.JcL.
-.Lcd$
+.Inf
+.Nan
 .P6AMAEBV?$vector@MV?$allocator@M@std@@@std@@0@Z
 .P6A_KAEAPEAE@Z
 .PEBD
+.bss
 .data
 .data$r
 .edata
@@ -2297,8 +1422,9 @@ $base64$
 .idata$6
 .json
 .json.gz
-.ka[	
+.log
 .pdata
+.png
 .rdata
 .rdata$T
 .rdata$r
@@ -2309,31 +1435,24 @@ $base64$
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
+.txt
 .xdata
 .xdata$x
+.xml
 .xml.gz
-///////
-//////////
-/;L&=
-/@$v4
-/C@v,L
-/H;sHu
-/H;s`u
-/L$PrF
+/P8i
 /Resources/decimatedLeftController.obj
 /Resources/decimatedRightController.obj
-/T$@v
-/t$$v
-/u%I+
-/u~L9
+/tmp
+/yQA
 0 && "Not supported"
 0 < cn && cn <= CV_CN_MAX
 0 < thickness && thickness <= MAX_THICKNESS
@@ -2349,267 +1468,60 @@ $base64$
 0 <= roi.x && 0 <= roi.width && roi.x + roi.width <= m.cols && 0 <= roi.y && 0 <= roi.height && roi.y + roi.height <= m.rows
 0 <= shift && shift <= XY_SHIFT
 0 <= shift && shift <= XY_SHIFT && thickness >= 0
-0!zO#
+009A
 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.-:+=^!/*?&<>()[]{}@%$#
-0A\][
-0A]A\^
-0A]A\_
-0A]][
-0A^A\_
-0A^A\_^]
-0A^A]A\
-0A^A]A\_^][
-0A^^[
-0A^_]
-0A^_^
-0A^_^][
-0A_A\]
-0A_A\_^[
-0A_A^A\
-0A_A^A\_[
-0A_A^A\_^
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^A]_^][
-0A_A^]
-0A_A^^
-0A_A^_
-0A_A^_^[
-0A_A^_^]
-0A__^
-0D8qJ
-0Hc:H
-0Ic8H
 1!0D/i.
-1$'/U
 1.2.8
-111 !1"11111111#1$11111%&'(1)*111+1111,11-./10
-1>^0 >e
+1:z8
 1>ocC>
 1A26b
 1wsHp
 2.0.0
 20161127
-2333333
+3 FB
 333333
-3333333
+33s?
+3?tr
 4.1.0
-4Ffff
-4ID8Q
+4I7-
 4y5d6Q7@819$:
+52F*
 5r?lt
-5s3R6=
-6HiD$ 
-6UKG&
+6\n?fff?
 7Z:RARRo @RQo ?RRr Z"VJRr
-8#D$P
-8.u8H
+7~8A
 87;y)5'
-8@D$@f
-8@D$Pf
-8@D$PfD
-8@D$pfD
-8@L$ fD
-8@L$0fD
-8@L$@f
-8@L$@fD
-8@L$Pf
-8@L$`f
-8@T$`fD
-8@\$@f
-8@|$PfD
-8@|$pfA
-8A]_^[
-8A]_^]
-8A^A\
-8A^A\][
-8A^A]A\_][
-8A^_][
-8A^_^[
-8A_A\
-8A_A]
-8A_A]_^
-8A_A^
-8A_A^A\_^[
-8A_A^A]A\_^][
-8C0upHcK H
-8_^][
-8bunz8
-8puTH
-8purH
-9C s+H
-9C }&H
-9C$|,H
-9C$}*H
-9C8su
-9D$ |eH
-9D$4D
-9D$D~'A
 9D)5:
-9H;D$hr
-9IcJhI
-9L$4~
-9L$4~ H
-9L$4~!H
-9L$4~#H
-9L$4~$H
-9L$D~
-9L$D~!D
-9L$P}.K
-9L$T~
-9L$T~ I
-9L$T~!H
-9L$T~"I
-9L$T~$I
-9L$d~
-9L$d~!D
-9L$h|vE
-9L$t~
-9L$t~ I
-9L$t~$I
-9M$~!H
-9MT~ A
-9Md~"I
-9Qlt%
-9S@~)H
-9T$4|(A
-9T$H}BK
-9T$P}@K
-9T$p}.A
-9T$x}
-9Ult/
-9Vlt&
-9Wlt-
-9\$4~$H
-9\$t~
-9\$t~"H
-9]4~$H
-9]D~'H
-9]T~!H
-9]d~!H
-9]d~"
-9]d~%H
-9]d~&
-9_LuY
-9l$Pt
-9s@u!
-9t$4~
-9t$4~ H
-9t$8~"f
-9t$Dt
-9t$d~
-9t$t~
-9u4~$H
-9uT~!H
-9|$H};A
-9}Ht.L
+9a&g
+9tzm
 ;$:19@8Q7d6y5
-;D$8|
-;D$D|
-;D$HE
-;D$LD
-;D$d|
-;IcJhH
-;L$4|
-;L$@sZHc
-;L$D|
-;L$T|
-;L$d|
-;L$t|
-;OH|DA;
-;S }<H
-;T$8sZD
-;T$D|
-;T$H~
-;T$T|
-;T$`L
-;T$d|
-;\$0r
-;\$8|
-;]8u	;E0u
-;]8u	;u0u
-;s(s`
-;t$Xv
-;t$ht#D
-;|$,|
-;|$\D
-;|$\w
-< r	<:u
 <!-- %s -->
-<!-- next stream -->
-<"u&H
-<"uzH
-<$A;}
-<$HcT$XH
-<$IcI
-<$LcL$XH
-<$Lcd$,M+
-<$Lcd$0M+
-<$fff
-<*uhH
-<,unH
-</assembly>
 </opencv_storage>
 </opencv_storage> tag is missing
+</opencv_storage>\n
 <333333
-<7fff
-<:wvH
-<>u4H
 <?xml
-<?xml version="1.0" encoding="%s"?>
-<?xml version="1.0"?>
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
-<fu<H
+<?xml version="1.0" encoding="%s"?>\n
+<?xml version="1.0"?>\n
 <hP<K=G?DAAD?G=K<P<T=Y?]A`DcGeKgPhThYg]e`cc`e]gYhThPgKeGcD`A]?Y=T<P<
 <invalid depth>
 <invalid type>
-<iu5H
-<opencv_storage>
 <opencv_storage> tag is missing
+<opencv_storage>\n
 <tag:yaml.org,2002:
-<}u:H
 =333?33
-=9x$b
-=F^V=
 =LUUUUU
 =cv::getGaussianKernel
-=v<y5
->^0 >
 >f>RfR
 >fRAPCMDJDGCEA>H@JAMAZB]D_G`M`PaRc RATCWDZD]C_AfHdJcMcZb]`_]`W`TaRc
 ? 5WOo
-?!7#h
-?"P@;
-?$"LT
-?$pQp
-?&	nMt
-?'[Y1
-?(JH 
-?)tINJ
-?*!=7FX
-?*>^m
-?+uigR5
-?.wd9
-?/#9C
-?/1u73;
-?/eT-
 ?0#EG
-?0E/M()
 ?333333
 ?39HoKC
 ?456789:;<=
-?4j<=
-?7s7|
 ?7zQ6$
-?7{KV
+?7{KV\nU
 ?8bunz8
-?8o,3
-?:)F<
-?:kP<
-?;[y5
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -2839,60 +1751,30 @@ $base64$
 ??DMatrix4@ST@@QEBA?AU01@AEBU01@@Z
 ??DMatrix4@ST@@QEBA?AU?$Vector3@M@1@AEBU21@@Z
 ??DMatrix4@ST@@QEBA?AUVector4@1@AEBU21@@Z
-??KgsM
 ??RDepthFrame@ST@@QEBAMHH@Z
 ??_7CaptureSessionDelegate@ST@@6B@
 ??_FCSVFileWriter@ST@@QEAAXXZ
 ??_FXRIPCClient@PE@@QEAAXXZ
-??n"uc%/=
 ?@En[vP
-?A9crC
 ?AT5h14
-?B#A3(
-?B;7?
 ?BlockForever@SharedMemoryBuffer@PE@@2KB
-?C&;S
-?C;0=
-?D8G@t
-?D8GAt
-?D8GBt
-?D8fX
-?D;|$L
-?D=$% B
-?DE;9W
-?D_D/
 ?Detach@CurrentScheduler@Concurrency@@SAXXZ
-?Dj0Q:W$=
-?Ej/)+
 ?Free@Concurrency@@YAXPEAX@Z
 ?Get@CurrentScheduler@Concurrency@@SAPEAVScheduler@2@XZ
-?H%M-
-?HcC$
-?HjP'
 ?IUUUUU
 ?Id@CurrentScheduler@Concurrency@@SAIXZ
 ?Identity@Intrinsics@ST@@SA?BU12@HH@Z
-?If]m
 ?InvalidSize@SharedMemoryBuffer@PE@@2_KB
-?L;9I
-?LOuU
-?LQiP
 ?PPLParallelForEventGuid@Concurrency@@3U_GUID@@B
-?QY^&
-?TY,>5
 ?UUUUUU
-?Y\_	U
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
-?]@VP`
-?^-`|
-?^x*	
+?\fAVk
 ?_CheckTaskCollection@_UnrealizedChore@details@Concurrency@@IEAAXXZ
 ?_Confirm_cancel@_Cancellation_beacon@details@Concurrency@@QEAA_NXZ
 ?_CurrentContext@_Context@details@Concurrency@@SA?AV123@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
 ?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
-?_FvP
 ?_GetNumberOfVirtualProcessors@_CurrentScheduler@details@Concurrency@@SAIXZ
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
 ?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
@@ -2925,8 +1807,6 @@ $base64$
 ?__ExceptionPtrCurrentException@@YAXPEAX@Z
 ?__ExceptionPtrDestroy@@YAXPEAX@Z
 ?__ExceptionPtrRethrow@@YAXPEBX@Z
-?a;Xi
-?a`@S
 ?acceleration@AccelerometerEvent@ST@@QEBA?AUAcceleration@2@XZ
 ?acquireInputBuffer@SharedMemoryBuffer@PE@@QEAAPEBEK@Z
 ?acquireOutputBuffer@SharedMemoryBuffer@PE@@QEAAPEAE_KK@Z
@@ -2945,7 +1825,6 @@ $base64$
 ?atRowCol@Matrix4@ST@@QEAAAEAMHH@Z
 ?atRowCol@Matrix4@ST@@QEBAAEBMHH@Z
 ?averageFpsFromFrameCount@PerformanceMonitor@ST@@QEBANXZ
-?bXM`8q
 ?backgroundThreadHasResult@DepthFromStereo@PE@@QEBA_NXZ
 ?backgroundThreadIsProcessing@DepthFromStereo@PE@@QEBA_NXZ
 ?call_GetCurrentMetrics@XRIPCClient@PE@@QEAAXAEAUPerformanceMetrics@2@@Z
@@ -3002,7 +1881,6 @@ $base64$
 ?createRectifiedDownsampledMultiCameraColorFrameWithMetadata@DepthFromStereoPreprocessor@PE@@QEAAXAEAUMultiCameraColorFrame@ST@@HPEBM1PEBUWhiteBalanceGains@4@PEBN33H@Z
 ?createdProfilingFolder@ST@@YAPEBDXZ
 ?currentTime@XRSession@PE@@SANXZ
-?d*{3,Z
 ?data@InfraredFrame@ST@@QEBAPEBGXZ
 ?debug_dumpToConsole@MeshSharedMemoryContainer@PE@@QEBAXPEBD@Z
 ?depthInMeters@DepthFrame@ST@@QEBAPEBMXZ
@@ -3021,7 +1899,6 @@ $base64$
 ?downsampleColorFrames2x@MultiCameraColorFrame@ST@@QEBAXAEAU12@_N@Z
 ?dumpMCCFToPng@DepthFromStereo@PE@@QEAAXAEBUMultiCameraColorFrame@ST@@PEBD@Z
 ?dumpYUYVToPng@DepthFromStereo@PE@@QEAAXPEBE_K1H@Z
-?ej}](
 ?elapsedMsecs@TimeCountDoNotUseDirectly@ST@@QEBANAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
 ?elapsedMsecsNoPrint@TimeCountDoNotUseDirectly@ST@@QEBANXZ
 ?endOfExposureTimestamp@ColorFrame@ST@@QEBANXZ
@@ -3033,11 +1910,8 @@ $base64$
 ?enqueueMCCFDataAndPoseForProcessing@DepthFromStereo@PE@@QEAAXAEBUMultiCameraColorFrame@ST@@AEBUMatrix4@4@H@Z
 ?enqueuePoseDataForWarping@DepthFromStereo@PE@@QEAAXAEBUMatrix4@ST@@AEBM00@Z
 ?estimateClockOffset@ClockSynchronizerToHost@ST@@QEAAXXZ
-?eu`Q
 ?extrapolatePose@Matrix4@ST@@QEBA?AU12@AEAU?$Vector3@M@2@000N@Z
-?f_Fa,N
 ?f`Y4
-?fff?
 ?ffffff
 ?fillExternalStereoCalibrationData@VisualInertialCalibration@ST@@QEAAXQEAUIntrinsics@2@QEAUKBIntrinsics@2@AEAUExtrinsics@2@@Z
 ?fillFrom@Intrinsics@ST@@QEAAXW4FillingStrategy@12@AEBU12@HH@Z
@@ -3093,10 +1967,9 @@ $base64$
 ?getWidth@KBIntrinsics@ST@@QEBAHXZ
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?getloc@ios_base@std@@QEBA?AVlocale@2@XZ
-?gf+{
+?gkM
 ?glProjectionMatrix@ColorFrame@ST@@QEBA?AUMatrix4@2@XZ
 ?glProjectionMatrix@DepthFrame@ST@@QEBA?AUMatrix4@2@XZ
-?gx~0
 ?hasNan@Matrix4@ST@@QEBA_NXZ
 ?hasPerVertexColors@Mesh@ST@@QEBA_NXZ
 ?hasPerVertexNormals@Mesh@ST@@QEBA_NXZ
@@ -3144,11 +2017,10 @@ $base64$
 ?isValid@MultiCameraColorFrame@ST@@QEBA_NH@Z
 ?isValid@XRPose@PE@@QEBA_NXZ
 ?isZero@Matrix4@ST@@QEBA_NXZ
-?k.;~
 ?k1k2k3p1p2AreZero@Intrinsics@ST@@QEBA_NXZ
 ?k3p1p2AreZero@Intrinsics@ST@@QEBA_NXZ
-?k;@v
 ?kxG2)
+?lZE
 ?lastSessionError@XRSession@PE@@QEBAPEBDXZ
 ?lock@SystemWideMutex@PE@@QEAAXXZ
 ?lookAt@Matrix4@ST@@SA?AU12@AEBU?$Vector3@M@2@00@Z
@@ -3175,7 +2047,6 @@ $base64$
 ?numberOfMeshVertices@Mesh@ST@@QEBAHH@Z
 ?numberOfMeshes@Mesh@ST@@QEBAHXZ
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
-?p ^cX
 ?p1p2AreZero@Intrinsics@ST@@QEBA_NXZ
 ?path@CSVFileWriter@ST@@QEBAPEBDXZ
 ?pauseTracking@XRSession@PE@@QEBA?AW4XRStatus@2@XZ
@@ -3189,7 +2060,8 @@ $base64$
 ?provideFrameAndPose@RoomLayoutEstimation@PE@@QEAAXAEBUMultiCameraColorFrame@ST@@AEBUMatrix4@4@@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QEBA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AEAVios_base@2@DPEBUtm@@PEBD3@Z
-?r7Pg
+?qBJ
+?r95
 ?rawFromRectified@ColorFrame@ST@@QEBA?AUMatrix4@2@XZ
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?readByte@SharedMemoryBuffer@PE@@QEAA_NAEAEK@Z
@@ -3289,7 +2161,6 @@ $base64$
 ?stopThread@DepthFromStereo@PE@@QEAAXXZ
 ?stopTracking@XRSession@PE@@QEAA?AW4XRStatus@2@XZ
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
-?tJjv
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
 ?temperature@AccelerometerEvent@ST@@QEBANXZ
 ?timestamp@AccelerometerEvent@ST@@QEBANXZ
@@ -3305,7 +2176,6 @@ $base64$
 ?translated@Matrix4@ST@@QEBA?AU12@MMM@Z
 ?translation@Matrix4@ST@@QEBA?AU?$Vector3@M@2@XZ
 ?transposed@Matrix4@ST@@QEBA?AU12@XZ
-?u%]=
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?ultraLowLatencyPredictWorldFromCameraPose@XRSession@PE@@QEAA?AW4XRStatus@2@W4XRFrameOfReference@2@NAEAUXRPose@2@U52@@Z
 ?uncaught_exception@std@@YA_NXZ
@@ -3316,8 +2186,6 @@ $base64$
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
 ?upload@OpenGLMesh@ST@@QEAAXAEBUMesh@2@@Z
 ?useBackgroundProcessing@DepthFromStereo@PE@@QEBA_NXZ
-?v<y5
-?v]37:1
 ?valueOfLastSample@PerformanceMonitor@ST@@QEBANXZ
 ?visibleCameraPoseInDepthCoordinateFrame@DepthFrame@ST@@QEBA?AUMatrix4@2@XZ
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
@@ -3345,271 +2213,21 @@ $base64$
 ?writeToBufferAndAdvance@PE@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAPEAE@Z
 ?writeToFile@Mesh@ST@@QEAA_NPEBD@Z
 ?writeVector3f@CSVFileWriter@ST@@QEAAXAEBU?$Vector3@M@2@N@Z
-?x_xn 
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 ?yData@ColorFrame@ST@@QEBAPEBEXZ
 ?ySize@ColorFrame@ST@@QEBA_KXZ
-?{Q}<
-?{fHn
-@ A9A
-@ fA9
+?ysB
 @#K#K#K#K#K#K#K#K
-@$A9A
-@%H5q
-@.data
-@.reloc
-@.rsrc
-@0D9@
-@0I9@P
-@8)t$
-@8-	/J
-@8-#*J
-@8-&5J
-@8-))J
-@8-*7J
-@8-+5J
-@8---J
-@8-1$J
-@8-21J
-@8-3'J
-@8-5!J
-@8-63J
-@8-7%J
-@8-=2J
-@8->#J
-@8-?"J
-@8-A,J
-@8-B&J
-@8-N&J
-@8-O(J
-@8-O)J
-@8-[ J
-@8-^4J
-@8-g%J
-@8-h1J
-@8-i'J
-@8-o"J
-@8-q4J
-@8-t#J
-@8-x1J
-@8-z8J
-@8-}0J
-@8-~&J
-@80vbE
-@8k(uhH
-@8l$P
-@8sHt
-@8t$0
-@8t$H
-@8t$Xt
-@8y(H
-@8{0tP
-@8|$P
-@????
-@@D9@
-@A]A\[
-@A^A]A\
-@A^A]A\_]
-@A^A]_^]
-@A^_^
-@A^_^][
-@A_A\_
-@A_A\_^[
-@A_A^A\
-@A_A^A\_^
-@A_A^A\_^][
-@A_A^A]A\_
-@A_A^A]A\_^[
-@A_A^A]A\_^]
-@A_A^]
-@A_A^_
-@A_A^_^[
-@A_A^_^]
-@A__]
-@BBIcQ
-@En[vP
-@Hc1H
-@SATAUAVH
-@SATAUAWH
-@SATAUH
-@SATAVAWI
-@SATAVH
-@SATH
-@SAVH
-@SUATAVH
-@SUAVH
-@SUAWH
-@SUVAVAWH
-@SUVH
-@SUVWATAUAVAW
-@SUVWATAUAVAWH
-@SUVWATAUH
-@SUVWATAVAWH
-@SUVWATAVH
-@SUVWAUH
-@SUVWAV
-@SUVWAVAWH
-@SUVWAVH
-@SUVWAWH
-@SUVWH
-@SUWATAUH
-@SUWATL
-@SUWAVH
-@SUWAWL
-@SUWH
-@SVATAUAVAWH
-@SVATAUAWH
-@SVATH
-@SVAUAVH
-@SVAVAWH
-@SVAVH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAUAVH
-@SVWATAVAWH
-@SVWATAVH
-@SVWATAWH
-@SVWAUH
-@SVWAVAWH
-@SVWAVH
-@SVWH
-@SWATAUAVAWH
-@SWATAUAWH
-@SWATAVAWH
-@SWATAVH
-@SWATH
-@SWAUAVH
-@SWAVH
-@UATAUAVAWH
-@UATAWH
-@UAUH
-@UAVAWH
-@UAVH
-@USATAUH
-@USAUH
-@USAVH
-@USVAVH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAUAWH
-@USVWATAVAWH
-@USVWATH
-@USVWAUAVAWH
-@USVWAUAWH
-@USVWAVAWH
-@USVWAVH
-@USVWH
-@USWATAUAVAWH
-@USWAUAVH
-@USWAVH
-@USWH
-@UVATAUAVAWH
-@UVATAVAWH
-@UVATAVH
-@UVAVH
-@UVAWH
-@UVWATAUAVAW
-@UVWATAUAVAWH
-@UVWATAVH
-@UVWATAWH
-@UVWAVAWH
-@UVWAVH
-@UVWH
-@UWATAUH
-@UWAUH
-@UWAVAWHcl$HM
-@UWAVH
-@UWAWH
-@VATAUAVH
-@VATAUH
-@VATAVH
-@VATH
-@VAVAWH
-@VAVH
-@VAWH
-@VWATAUAVH
-@VWATAUH
-@VWATAVAW
-@VWATAVAWH
-@VWATAWH
-@VWAVH
-@VWAWH
-@WATAUAVAW
-@WATAUAVAWH
-@WATAVH
-@WATAWH
-@WAVAWH
-@WAVH
-@WAWH
-@_RDATA
-@`|-A
 @aEMCLBJBICGEFFFHGIIIKHPGTE[ GTJLLHMGOFPFRGSISKRPQTO[ QTTLVHWGYFZF\G]I]K\PZWZZ[[\[^Z_YaV
 @cAQBODMFMGNHPHSF[ GNGSE[ GPFTD[F[ HSJPLNNMPMRNSPSSQ[ RNRSP[ RPQTO[Q[ SSUPWNYM[M]N^P^S\X ]N]R\V\Z ]P[U[X\Z][_[aYbW
 @cTGSHTIUHTGRFOFLGJIIKHNGRE[D_Ca OFMGKIJKINGWF[E^D`CaAb?b>a>`?_@`?a ^G]H^I_H_G]F aFZFWGUITKSNRRP[O_Na ZFXGVIUKTNRWQ[P^O`NaLbJbIaI`J_K`Ja `F\T[X[Z\[_[aYbW aF]T\X\Z][ DM^M
 @cTGSHTIUHTGRFOFLGJIIKHNGRE[D_Ca OFMGKIJKINGWF[E^D`CaAb?b>a>`?_@`?a `G_H`IaH`G]FZFWGUITKSNRRP[O_Na ZFXGVIUKTNRWQ[P^O`NaLbJbIaI`J_K`Ja ^M\T[X[Z\[_[aYbW _M]T\X\Z][ DM_M
-@u#fA
-A H+A
-A H9C
-A H9C }
-A IcH
 A single _ is a reserved tag name
-A(H9B
-A*,e<
-A*<ft[<itW
 A.size == arrays[i0]->size
 A.step[d-1] == A.elemSize()
-A0H9y8u
-A84$v_A
-A84$vjE
-A8D$<
-A8HcL$PA
-A8}=t
-A9B$A
-A9B(A
-A9B0A
-A9Plt,A
-A9Xlt2A
-A9Xlt3A
-A9Z tY
-A9r ~
-A9r$~
-A9xhu
-A9~4t
-A:	upA:I
-A;6|KA;v
-A;@ s
-A;@ |
-A;B u
-A;B uvA
-A;B$u
-A;E0v#A
-A;Eps]
-A;J u
-A;J }
-A;J$u
-A;K u,A
-A;K$u
-A;R u
-A@Hc8D
-A@IcH
-A@M;AH}=I;
-A@M;AH}AI;
 ADVAPI32.dll
-AHHcA
-AMDiuE
-APH;Q@t
-ATAUAVH
-ATAUAWH
-ATAUH
-ATAVAWH
-ATAVH
-ATAWH
-AUAVAWH
-AUAVH
-AUAWH
-AUQ]5=
-AVAWH
+AVX2
 AVX512-SKX
 AVX512BW
 AVX512CD
@@ -3621,105 +2239,7 @@ AVX512PF
 AVX512VBMI
 AVX512VL
 AXCRGRR` GSRa FSRb X:Rb
-AXH9AP
-AXHc8H
-A\_[]
-A\_][
-A\_^[]
-A]A\[
-A]A\[]
-A]A\]
-A]A\][
-A]A\_[]
-A]A\_^][
-A]^[]
-A]_^[
-A]_^]
-A]_^][
-A^A\^]
-A^A\_
-A^A\_[
-A^A\_[]
-A^A\_^]
-A^A\_^][
-A^A]A\
-A^A]A\_
-A^A]A\_]
-A^A]A\_^
-A^A]A\_^[
-A^A]A\_^[]
-A^A]A\_^][
-A^A][]
-A^A]]
-A^A]^
-A^A]_[]
-A^A]_^[]
-A^A]_^]
 A^GfHfIeIdHcGcFdFfGhIiKiNhPfQdR`RUQ;Q4R/S-U,V,X-Y/Y3X6W8U;P?JCHEFHEJDNDREVGYJ[N\R\V[XZZW[T[PZMYKWITHPHMIKKJNJRKUMW GdGeHeHdGd U;Q?LCIFGIFKENERFVGXJ[ R\U[WZYWZTZPYMXKVITH
-A^^][
-A^_[]
-A^_^[
-A^_^[]
-A^_^]
-A^_^][
-A_A\]
-A_A\_^
-A_A\_^[]
-A_A\_^]
-A_A]A\
-A_A]A\]
-A_A]A\^[
-A_A]A\^]
-A_A]A\^][
-A_A]A\_^
-A_A]A\_^[]
-A_A]A\_^][
-A_A]_^[
-A_A]_^[]
-A_A]_^]
-A_A^A\
-A_A^A\[
-A_A^A\[]
-A_A^A\]
-A_A^A\^[]
-A_A^A\^]
-A_A^A\^][
-A_A^A\_[]
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A\_^][
-A_A^A]
-A_A^A]A\
-A_A^A]A\]
-A_A^A]A\][
-A_A^A]A\^[
-A_A^A]A\^]
-A_A^A]A\^][
-A_A^A]A\_
-A_A^A]A\_[
-A_A^A]A\_[]
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_]
-A_A^A]_^
-A_A^A]_^[]
-A_A^A]_^][
-A_A^[
-A_A^]
-A_A^_
-A_A^_[
-A_A^_^[
-A_A^_^[]
-A_A^_^]
-A_A^_^]H
-A_A^_^][
-A__][
-A__^[
-A__^[]
-A__^][
 AbBQCOEMHMINIPHTF[ GMHNHPGTE[ HTJPLNNMPMRNSOSQP[ PMRORQO[ RTTPVNXMZM\N]O]Q[W[Z\[ ZM\O\QZWZZ[[^[`YaW
 AbDMIMRY HNR[ b:R[
 Abort at parse time
@@ -3740,44 +2260,17 @@ All the images must have the same size
 An attempt to add element without a key to a map, or add element with key to sequence
 An empty key
 An error happened internally.
-ApH+AhH
-ApH9AhtU
 Appending data to compressed file is not implemented
 Apply a temporal consistency the splat matrix
 ArcturusPerception.dll
 AreFileApisANSI
 Assertion failed
-Assertion failed: %s (%s:%d)
-Assertion failed: %s [%i] (%s:%d)
+Assertion failed: %s (%s:%d)\n
+Assertion failed: %s [%i] (%s:%d)\n
 Attribute name should be followed by '='
 Attribute value should be put into single or double quotes
-AuthD
-Authu
 Autotrace call
-B 9A uJ
-B$9A$uBL
-B$A9C
-B(A9C
-B(H9B
-B(HcJ$H
-B(I9A
-B(I9C
-B(I;A
-B0A9A
-B84"v\G
-B84(v^E
-B84(v_E
-B84*v^C
-B8A_A^
-B8H9B
-B8I9A
-BA99u	
-BAhL+
-BE0L+
-BHcL$@A
-BRz1&
-BXIcJL
-B\$PH
+B\vp\n0
 BaGBQPFb FBPP EBPQ EB\B^I[B Ga\a Fb\b^[[b
 Background full depth estimation
 Backtrace
@@ -3806,59 +2299,14 @@ BitBlt
 Block sequence elements must be preceded with '-'
 Both input images must have CV_8UC1
 Brute Force Search
-C H){(H
-C H9A
-C H9u
-C H;C
-C HcL$0H
-C L+C
-C$HcK H
-C%;7T
-C(H9t$@t2L
-C(H9t$Ht2L
-C(H9u
-C(I9A
-C(I;A
-C(u"H
-C(utI
-C*<ft
-C*<it
+C-Yn
 C.type() == type
-C09h<t
-C09h<t!A;
-C09h<tR
-C0;C,s
-C0H9h 
-C0H9h0
-C0LcH
-C4;C,A
-C=#7T
-C=\Na
-C=xSa
-C@H+C8H
 CANCEL
-CD$8H
-CD$`3
-CHH9T
-CHLcC
-CL$8L
-CL$hH
-CM'M+
 COI is not supported by the function
 COMDLG32.dll
 CONCRT140.dll
-COOKIE--H
 CSVWriting
-CT$0H
-CT$@H
-CT$@L
-CT$HI
-CT$PH
-CT$`H
-CT$hD
-CT$hL
 CURVE
-CUUUU
 CV_16F
 CV_16S
 CV_16U
@@ -3872,7 +2320,6 @@ CV_MAT_CN(sumType) == CV_MAT_CN(dstType)
 CV_MAT_CN(sumType) == CV_MAT_CN(srcType)
 CV_MAT_TYPE(mtype)
 CV_MAT_TYPE(mtype) == m.type()
-C\$@H
 C_HMFLEJEIFGHFIFKGLILLK[ UFK[ UFS[ aF_G\JYNVTS[
 C`DQEOGMJMKNKQIWIYK[ IMJNJQHWHYIZK[M[OZQXRV TMRVRYSZU[W[YZ[X\V]R]M\M]O UMSVSYU[
 CaDQEOGMIMJNKPKSIX JNJRIVIZ JPHUHXIZK[M[OZQXRU TMRURXSZU[W[YZ[X]U^Q^M]M]N^P UMSUSZ TMVMTTSX
@@ -3891,14 +2338,13 @@ Can't load OpenGL extension [%s]
 Can't send after socket shutdown
 Can't swap OpenGL buffers
 Candidate matches [%d]
-Cannot encode shift value %d
+Cannot encode shift value %d\n
 Cannot resolve path: Could not find Dropbox/Info.json.
 CbGMG[H[ GMHMH[ HQKNMMPMRNSQS[ HQKOMNONQORQR[S[ SQVNXM[M]N^Q^[ SQVOXNZN\O]Q][^[
 CbHFH[ IFI[ EFLF E[L[ VFSGQIPKOOORPVQXSZV[X[[Z]X^V_R_O^K]I[GXFVF VFTGRIQKPOPRQVRXTZV[ X[ZZ\X]V^R^O]K\IZGXF IPOP
 CbHMH[ IMI[ RMR[ SMS[ \M\[ ]M][ EMLM OMVM YM`M E[`[
 CbHMH[ IMI[ RMR[ SMS[ \M\[ ]M][ EMLM OMVM YM`M E[`[``_[
 CbRFR[ SFS[ OFVF GGHHGIFHFGGFHFIGJIKMLONPWPYOZM[I\G]F^F_G_H^I]H^G NPLQKSJXIZH[ NPMQLSKXJZI[G[FZEX WPYQZS[X\Z][ WPXQYSZX[Z\[^[_Z`X O[V[
-ChH9C`
 ChoosePixelFormat
 Client is not connected!
 Close depth estimation
@@ -3921,12 +2367,10 @@ Context was terminated
 Converged Ref[%d] Samples in Current 
 Copy dimension (which has zero size) is not present in source matrix
 Could not create sharing-only OpenGL context: %s
-Could not find '}' in the end of file.
-Could not find </opencv_storage> in the end of file.
+Could not find '}' in the end of file.\n
+Could not find </opencv_storage> in the end of file.\n
 Could not open file
 Could not open the CSV file %s
-CpHcC`
-CpIcJlI
 CreateCompatibleBitmap
 CreateCompatibleDC
 CreateDIBSection
@@ -3948,589 +2392,12 @@ CurveZMQINITIATE
 CurveZMQMESSAGEC
 CurveZMQMESSAGES
 CurveZMQREADY---
-Cx+S0
 D % 16 == 0
-D#C|D
-D#C|H
-D#K|D
-D$ )D$P
-D$ +D$@
-D$ +D$P
-D$ +D$X=
-D$ ;D$$
-D$ @80v\E
-D$ @8t
-D$ A;
-D$ D+l$(A
-D$ D;CDL
-D$ D;h
-D$ E3
-D$ H+
-D$ H+L$8H
-D$ H+W
-D$ H;
-D$ Hc
-D$ HcH
-D$ Hi
-D$ Hk
-D$ I+
-D$ I+D$
-D$ I;
-D$ L;
-D$ Lc
-D$ Lk
-D$ Mc
-D$ N	
-D$ V	
-D$ [	
-D$ `3
-D$ e	
-D$ fA
-D$ fD
-D$ fH
-D$ t$
-D$ u	
-D$ |	
-D$$A+
-D$$A;
-D$$D+
-D$$D;
-D$$H9T$`t3
-D$$H9W
-D$$H;
-D$$Hc
-D$()D$@A
-D$()D$LA
-D$(@2
-D$(D9
-D$(E+
-D$(E3
-D$(E;F
-D$(H+
-D$(H+L$0H
-D$(H;
-D$(H;MXuQH
-D$(H;\$ 
-D$(Hc
-D$(Hk
-D$(I+
-D$(I;
-D$(Ic
-D$(Ii
-D$(L;
-D$(L;	L
-D$(M;
-D$(MMMML
-D$(Mc
-D$(Mi
-D$(fA
-D$(fD
-D$(fE
-D$(ff
-D$(hL
-D$(uLH
-D$,E3
-D$,H9
-D$,HcL
-D$,Ic
-D$,L;
-D$,Lc
-D$,MMMM
-D$0+D$(
-D$0+D$8
-D$0+D$L
-D$0+E
-D$0+t$pA
-D$0-Y
-D$09D$4
-D$09D$8}-C
-D$09D$X}1C
-D$09E
-D$09|$4
-D$0;D$$
-D$0;D$4
-D$0=I
-D$0@8
-D$0A+
-D$0A;
-D$0D+
-D$0E3
-D$0E9n
-D$0H+
-D$0H;
-D$0H;C
-D$0H;D$(t-H
-D$0Hc
-D$0HcH
-D$0HcP
-D$0I#
-D$0I+
-D$0I9VHt
-D$0I;
-D$0Ic
-D$0L+
-D$0L;
-D$0L;C
-D$0Lc
-D$0Lc{
-D$0M+
-D$0M;
-D$0Mc
-D$0Mk
-D$0fA
-D$0fD
-D$0fE
-D$0fff
-D$0};A
-D$2fA
-D$3H;
-D$4)M
-D$49D$`
-D$4A;
-D$4A;@
-D$4D+
-D$4D;
-D$4D;A
-D$4D;C
-D$4H+
-D$4H;
-D$4fA
-D$6fA
-D$8)D$ A
-D$8)D$0A
-D$8;D$4
-D$8;E
-D$8;{
-D$8A+
-D$8A8
-D$8A;
-D$8A;{
-D$8D+L$@A
-D$8D;
-D$8D;w$u
-D$8E+
-D$8E3
-D$8H+
-D$8H+D$@
-D$8H+D$@L
-D$8H9
-D$8H9D$0tWE3
-D$8H9D$@t
-D$8H9E
-D$8H;
-D$8H;D$x
-D$8Hc8H
-D$8HcD$(H
-D$8I+
-D$8I;
-D$8Ic
-D$8L;
-D$8M;
-D$8fA
-D$8fD
-D$8ff
-D$8fff
-D$8uu
-D$8u}
-D$8vXfD
-D$<A;
-D$<D;
-D$<E3
-D$<I;
-D$@)D$ 
-D$@)D$ A
-D$@)D$HA
-D$@)E
-D$@+D$h
-D$@9/tG
-D$@9C
-D$@;X
-D$@;{
-D$@A+
-D$@A;
-D$@A;A
-D$@Ak
-D$@D9
-D$@D;
-D$@D;@
-D$@D;A
-D$@E2
-D$@E3
-D$@E;
-D$@H+
-D$@H9D$Ht
-D$@H;
-D$@H;D$0t-H
-D$@Hc
-D$@HcH
-D$@HcS
-D$@I+D$8H
-D$@I;
-D$@Ic
-D$@Ik
-D$@L+
-D$@L;
-D$@L;E
-D$@Lc
-D$@Lcl$`Mc
-D$@M;
-D$@MMMM
-D$@f;C
-D$@fD
-D$@ff
-D$@fff
-D$@tC
-D$@u!A+
-D$@u$A+
-D$@vWD
-D$AfD
-D$D)M
-D$DA9E
-D$DHcA
-D$DMMMMD
-D$DfD
-D$H+D$ =
-D$H+D$PL
-D$H9D$L
-D$HD+
-D$HD;
-D$HD;D$\L
-D$HE3
-D$HE;
-D$HH+
-D$HH;
-D$HH;D$@t-H
-D$HHc
-D$HHcD$0H
-D$HHcK
-D$HIc
-D$HIcW
-D$HL+
-D$HL;
-D$HLceoI
-D$HM+
-D$HfA
-D$HfD
-D$HfE
-D$HfH
-D$Hff
-D$Hfff
-D$Ht$f
-D$L)D$0
-D$L+D$@
-D$L+T$@
-D$LA+
-D$LH;
-D$LHc
-D$LI+
-D$P+D$ =
-D$P+D$L
-D$P;X
-D$PA+
-D$PD+t$@A
-D$PD;
-D$PD;@
-D$PD;D$ds
-D$PD;K
-D$PD;P
-D$PE2
-D$PE3
-D$PE;
-D$PH+
-D$PH9D$Xt
-D$PH;
-D$PH;D$X
-D$PHcH
-D$PHcP
-D$PHcS
-D$PHct$@Hc|$HH
-D$PI+
-D$PI;
-D$PIc
-D$PL+
-D$PL;
-D$PLc
-D$PLcd$`Ic
-D$PLcd$`Mc
-D$PLc|$`Mc
-D$PM;
-D$PMc/A
-D$PfD
-D$Pff
-D$R8D$P
-D$TA;
-D$TE3
-D$THc
-D$TLc
-D$XA+
-D$XA;
-D$XD+T$(A
-D$XD+t$(A
-D$XD;
-D$XE3
-D$XH#H0H
-D$XH)t$8H)t$@H)t$PL)l$H
-D$XH+
-D$XH9D$`t
-D$XH;
-D$XHc
-D$XHcO
-D$XHc]
-D$XI+
-D$XI;
-D$XIc
-D$XIcW
-D$XL+
-D$XL;
-D$XLc
-D$XM+
-D$XM;
-D$XMc
-D$XfD
-D$Xff
-D$\A;
-D$\D+
-D$`"H
-D$`;X
-D$`A9
-D$`A;
-D$`D	
-D$`D;
-D$`D;@
-D$`D;P
-D$`E3
-D$`H+
-D$`H;
-D$`Hc
-D$`HcD$0H
-D$`HcH
-D$`HcL$HH
-D$`HcL$Hf
-D$`HcS
-D$`Hct$@A
-D$`Hct$DA
-D$`HcxlHcXhH
-D$`I+
-D$`I;
-D$`Ic
-D$`L+
-D$`L;
-D$`LcZ
-D$`Lct$pIc
-D$`Lc|$pMc
-D$`M;
-D$`Mc
-D$`fA
-D$`fD
-D$`fH
-D$`u0
-D$aLc
-D$d)M
-D$d9D$D~
-D$dHc
-D$dIc
-D$hA9
-D$hD;
-D$hE2
-D$hE3
-D$hH+
-D$hH+D$HLc
-D$hH;
-D$hHc
-D$hI+
-D$hI;
-D$hIc
-D$hIcU
-D$hL;
-D$hLc
-D$lD+
-D$lD;
-D$pA+
-D$pA;
-D$pD+M
-D$pD;
-D$pE3
-D$pH+
-D$pH+D$PLc
-D$pH+D$hH
-D$pH+\$
-D$pH;
-D$pH;D$`
-D$pHc
-D$pHcH
-D$pHcP
-D$pHcR
-D$pHcS
-D$pI+
-D$pIc
-D$pLc
-D$pMc
-D$pfD
-D$pfff
-D$pt<
-D$tA;
-D$tD;
-D$tE3
-D$x)M
-D$x;U
-D$xE3
-D$xE;
-D$xH)E
-D$xH+
-D$xH;
-D$xHcR
-D$xIcW
-D$xIk
-D$xL)u
-D$xL+
-D$xL;
-D$xLc
-D$xLk
-D$xMc
-D$xMk
-D$xfff
-D$|Ic
-D)v(u
-D)~(u
-D+D$$A
-D+D$@A
-D+L$(A
-D+L$HD
-D+L$XD
-D+T$(A
-D+\$8A
-D+\$pA
-D+d$8D+
-D+e_A
-D+l$pA
-D+t$LA
 D7q/;M
-D8$>u
-D847u
-D8D$0
-D8K|teE
-D8fWt
-D8fYt
-D8fZt
-D8t$0t&
-D8t$1t*
-D8t$P
-D8t$StbL
-D90~eL
-D948t
-D9@ s
-D9Ahu
-D9Alt-Hc
-D9Alt.Hc
-D9Clt
-D9Clt4
-D9D$8D
-D9D$t~
-D9D$xD
-D9ET~
-D9Et~
-D9Flt*
-D9H0H
-D9Ilt.Ic
-D9J0tWH
-D9Jlt6
-D9K4~-H
-D9Klt1I
-D9L$(
-D9O0D
-D9T$t
-D9T$|u
-D9`$t
-D9a sJL
-D9a }JL
-D9c }^H
-D9c(u
-D9c@t1D
-D9ch~LI
-D9cl~dE
-D9d$0
-D9d$D~
-D9d$T~
-D9d$x
-D9e$~#I
-D9eD~
-D9h u
-D9l$d~
-D9l$d~ I
-D9l$d~!I
-D9l$d~"I
-D9l$p
-D9l$t~
-D9m$~"I
-D9m4~
-D9mD~
-D9mD~%I
-D9p u
-D9qlt,J
-D9shu
-D9sh~)H+
-D9sl~bM
-D9t$T~
-D9t$T~"I
-D9t$d~
-D9t$d~#I
-D9uot*L
-D9ut~%I
-D9v(D
-D9yhu
-D9|$d~
-D9|$d~$I
-D9|$t~
-D9}$~
-D9}4~
-D9}T~!I
-D9}d~%I
-D9}t~
-D9}t~%I
-D9~(D
-D:EHH
-D:|$ht'A
-D;(|"Ic
-D;A\u
-D;C r
-D;D$0
-D;D$@
-D;D$XL
-D;D$lD
-D;D$x
-D;GDtSA
-D;H9S
-D;Kl|
-D;L$\L
-D;O@|
-D;T$L
-D;T$x}
-D;[$u
-D;c u
-D;d$$
-D;d$8
-D;g u
-D;h$}YH
-D;l$0
-D;l$H
-D;l$tH
-D;s,D
-D;t$0|
-D;t$h
-D;vlD
-D;{l|
-D;|$ 
-D;|$$
-D;|$0
-D;|$T
-D;|$p
-D;~lD
-DDDDDDD
 DEALER
 DEBUG
 DISABLED
-DL$HH
-D`DD``
+D]eV
 D`DOGQKSPTTTYS]Q`O
 D`DRJR ORUR ZR`R
 D`DR`R
@@ -4538,7 +2405,6 @@ D`DR`R DRRb `RRb
 D`DR`R JYZY P`T`
 D`DUDO`O`U
 D`DUGSKQPPTPYQ]S`U
-D`D``D
 D`F^^^^FFFF^
 D`H>Hf I>If M>Mf QBSBSDQDQAR?T>W>Y?[A\D\I[LYNWOUOSNRLQNOQNROSQVRXSVUUWUYV[X\[\`[cYeWfTfReQcQ`S`SbQb RBRD QCSC Y?ZA[D[IZLYN RLRNPQNRPSRVRX YVZX[[[`ZcYe R`Rb QaSa
 D`H@Hd M@Md W@Wd \@\d MMWK MNWL MOWM MWWU MXWV MYWW
@@ -4579,34 +2445,9 @@ Distortion coefficients must be 1x4, 4x1, 1x5, 5x1, 1x8, 8x1, 1x12, 12x1, 1x14 o
 Division by zero occurred
 Do we want to get a right depth frame from the pipeline.
 Double hyphen '--' is not allowed in the comments
-E +l$ B
 E$F1G@HQIdJyK
-E)}HA
-E+Q A
-E+Q(A
-E,D9}$E
-E0H9E
-E0H9G
-E0HcS
-E0Lc0
-E0Lcu4I
-E0Lc}4M
-E8~(t
-E9`$t
-E9hl~[M
-E9hl~`M
-E9l$h
 E:\code\arcturus-xr\ext\opencv\miniopencv\modules\imgcodecs\src\bitstrm.cpp
-E;Xl|
-E;a s?H
-E;a }?H
-E;l$h
-E@Hc0H
-E@HcS
-E@uCH
 EHT3256741209
-ELfff?H
-EPHcH
 ERROR
 ERROR: Unexpected logging level value: 
 ERROR_Invalid__Enum_Value
@@ -4616,11 +2457,9 @@ EVT1494469252
 EVT1494472371
 EVT1494472606
 EVT1494473688
-EXHcD
 EYETHVKWPWSVVTXQYNYLXKVKSLPNNQMTMYN\P_
 E[EPFRHTJUMVQVUUXSZP[NZLWLSMQNNPLSKVKYL\M^
 E[HMLMRY KMR[ [BR[
-E\$,A
 E\XFVHTKQPOSLWIZG[E[DZDXEWFXEY XFWJUTT[ XFU[ T[TYSVRTPRNQLQKRKTLWOZR[V[XZ
 E]JMHLGJGIHGJFKFMGNINKMOLRKVKXLZN[P[RZSYUUXMZF XMWQVWVZW[X[ZZ[Y]V
 E]JMHLGJGIHGJFKFMGNINKMPLTJ[ LTOLQHRGTFVFXGYIYKXPVWVZW[X[ZZ[Y]V
@@ -4658,7 +2497,6 @@ E_\N[O\P]O]N\M[MYNWPRXPZN[K[HZGXGVHTISKRPPROTMUKUITGRFPGOIOLPRQUSXUZW[Y[ZYZX K[I
 E_\O\N[MZMYNXPVUTXRZP[L[JZIYHWHUISJRQNRMSKSIRGPFNGMIMKNNPQUXWZY[[[\Z\Y
 E_\O\N[N[P]P]N\M[MYNWPRXPZN[K[HZGXGVHTISKRPPROTMUKUITGRFPGOIOLPRQURWTZV[X[YYYX L[HZ IZHXHVITJSLR PPQSTYVZ K[JZIXIVJTKSMRRO OLPOQRSVUYWZXZYY
 E_^F\GXHUHQGOFMFKGJIJKLMNMPLQJQHOF ^FF[ XTVTTUSWSYU[W[YZZXZVXT
-E`A;@
 E`NFH[ NFO[ OFPY \FO[ \FV[ ]FW[ KFOF \F`F E[K[ S[Z[
 E`QFNGKIILHOHRIUKXNZQ[T[WZZX\U]R]O\LZIWGTFQF ROQPQQRRSRTQTPSORO RPRQSQSPRP
 E`RMR[ SMS[ OMVM JNIOHNIMJMKNMRNSPTUTWSXRZN[M\M]N\O[N PTNUMVKZJ[ PTNVLZK[I[HZGX UTWUXVZZ[[ UTWVYZZ[\[]Z^X O[V[
@@ -4667,46 +2505,28 @@ E`VNULSKQKOLNMMOMRNTOUQVSVUUVS OMNONROT QKPLOOORPUQV VKVSWUYVZV\U]R]O\L[JYHWGTFQ
 E`WMTKQKOLNMMOMRNTOUQVTVWT WMTLQLOMNONROTQUTUWT VKVSWUYVZV\U]S]O\L[JYHWGTFQFNGLHJJILHOHRIUJWLYNZQ[U[YZ VKWKWSXUZV YV[U\S\O[LZJYIWHTGQGNHLIKJJLIOIRJUKWLXNYQZUZYYYZ
 E`WNVLTKQKOLNMMPMSNUPVSVUUVS QKOMNPNSOUPV WKVSVUXVZV\T]Q]O\L[JYHWGTFQFNGLHJJILHOHRIUJWLYNZQ[T[WZYYZX XKWSWUXV
 EfNSOUQVSVUUVSVQUOSNQNOONPMSMVNYP[S\V\Y[[Y\W]T]P\MZJXIUHRHOIMJKLIOHSHXI]KaMcPeTfYf]e`cba KLJNIRIXJ\L`NbQdUeYe]d_cba POTO OPUP NQVQ NRVR NSVS OTUT PUTU aLaNcNcLaL bLbN aMcM aVaXcXcVaV bVbX aWcW
-EhH+E`H
-ElA9Ehu
+EiUL
 Empty tags are not supported
 Empty type name
 EmptyClipboard
 EndPaint
 EnterCriticalSection
-EoD8GAt6f
-EoH9U
-EpH9E
-Epf;C
 Error
 Error Tracking Mode settings and will revert it to default value: %d
-Error linking program:
+Error linking program:\n%s\n
 Error opening json settings file: %s
 Error parsing json settings file: %s, msg: %s
-EtA9E|
 Exception
-Exception: %s
-Exf;C
+Exception: %s\n
 Extra closing '%c'
-E|A;Epr
-F H+F
-F H9_
-F I+F
-F L;F
 F&F&F&F&F&F&F&F&
-F+|$4H
-F0Lc8
-F8I9F@t
-F@A+F8A;
-F@H+F8H9FPr
-F@I9F8t
-F@IcH
 FALSE
 FATAL
 FATAL ERROR: OUT OF MEMORY
-FATAL ERROR: OUT OF MEMORY (%s:%d)
+FATAL ERROR: OUT OF MEMORY (%s:%d)\n
 FIXME: document
-FLcD$ H
+FMA3
+FP16
 F\HRINKMMMONPOQRRYSb IOKNMNOOPP HRIPKOMOOPPQQTRYRa XMWPVRTUSWR[Qb YMWQ ZMYOWRTVSXR[ XMZM QbSb
 F\IIJGLFOFQGRIRLQOPQNSKU OFPGQIQMPPNS VFT[ WFS[ KUYU
 F\KFK[ LFL[ YFLS QOY[ POX[ HFOF UF[F H[O[ U[[[
@@ -4818,7 +2638,6 @@ F^ZIJRZ[ ZIZJLRZZZ[
 F^ZJSJOKMLKNJQJSKVMXOYSZZZ
 F^ZJSJOKMLKNJQJSKVMXOYSZZZ JRVR
 F^ZJSJOKMLKNJQJSKVMXOYSZZZ SFS^
-F^[BI[[[
 F^[CZD[E\D\C[BYBWCUETGSJRNPZO^N` VDUFTJRVQZP]O_MaKbIbHaH`I_J`Ia
 F^[CZD[E\D\C[BYBWCUETGSJRNPZO^N` VDUFTJRVQZP]O_MaKbIbHaH`I_J`Ia QKNLLNKQKSLVNXQYSYVXXVYSYQXNVLSKQK
 F^[FI[ NFPHPJOLMMKMIKIIJGLFNFPGSHVHYG[F WTUUTWTYV[X[ZZ[X[VYTWT
@@ -4852,7 +2671,6 @@ F_\S[UYVWVUUTTQPPONNLNJOIQISJULVNVPUQTTPUOWNYN[O\Q\S
 F`PFP[ QFQ[ IFHLHFTF QPXP[Q\R]T]W\Y[ZX[M[ XPZQ[R\T\W[YZZX[
 Failed to allocate %llu bytes
 False
-FhI+F`H
 File name too long
 FileNode::isCollection(struct_flags)
 FileStorage::APPEND and FileStorage::MEMORY are not currently compatible
@@ -4864,9 +2682,6 @@ Finished loading XRSession persistant settings.
 FloorHeight
 FormatMessageA
 Formats of input arguments do not match
-FpH+FhH
-FpH9FhtP
-FpLcD$4I
 Frame %lu
 Frame associated to multiview Depth
 Frame given to an OCCFileWriter thatis not currently writing.
@@ -4874,20 +2689,8 @@ Frame window can not be created
 FreeLibrary
 Fv[Yu
 Fw?Mex?Rpy?
-FxH+FhH
-FxfD;Fz
-G D+D$PF
-G H+G
-G$HcO H
-G(H9B
-G*<ft
-G*Uz]
-G8H9B
-G>H9S
+GC$P
 GDI32.dll
-GGXc=
-GHI9G@
-GHI9GPt
 GL 1.1 and up are not supported
 GLX 1.2 and up are not supported
 GL_3DFX_multisample
@@ -5495,11 +3298,7 @@ GL_VERSION_4_5
 GL_WIN_phong_shading
 GL_WIN_specular_fog
 GL_WIN_swap_hint
-GPHc8HcX
-GPHcP
 GSSAPI
-GXH9@
-GXHcH
 G[GJGLHOIQLTNUQVUVXUZT[S[QZPXOUNQNNOLPISHUGXGZ
 G[G[IZLWOSSLVFV[UXSUQSNQLQKRKTLVNXQZT[Y[
 G[IOLORW KORX [FRX
@@ -5655,8 +3454,6 @@ G^[MZQYTWXUZR[P[MZKXJUJSKPMNPMRMUNVOWQYXZZ[[\[ ZMYQXTWVUYTZR[ LXKVKRLP P[NZMYLVL
 G^_BEbFb _B`BFb
 G_HKKHMKMV JILLLV MKPHRKRU OIQLQU RKUHWKW[ TIVLV[ WKZH[J\M\P[SZUXWUYP[ YIZJ[M[PZSYUWWTYP[
 G`PMMNKPJSJTKWMYPZQZTYVWWTWSVPTNQMPM ]GWG[HUN ]G]M\IVO \HVN
-Ga=H9K
-Ga=H9S
 GdiFlush
 GdipAlloc
 GdipBitmapLockBits
@@ -5673,7 +3470,6 @@ GdipGetImageWidth
 GdipSaveImageToStream
 GdiplusShutdown
 GdiplusStartup
-GenuA
 GetAdaptersAddresses
 GetClassLongPtrA
 GetClientRect
@@ -5715,172 +3511,10 @@ Global\Occipital_XRClient_Unique_Lock
 Global\Occipital_XRClient_VeryLow_Lock
 Global\Occipital_XRService_Unique_Lock
 Gpu API call
-H 9K u
-H 9O u
-H H+H
-H IcA
-H UATAUAVAWH
-H UVWATAUAVAWH
-H WATAUAVAWH
-H#L$HH
-H#O0H
-H#OxH
-H#W0H
-H#Y0H
-H$9K$t
-H(A9J
+H$6t
 H*0"ZOW
-H+(I+
-H+9Hc
-H+D$(H
-H+D$0H+
-H+D$8H
-H+D$@I
-H+D$HD
-H+D$HH
-H+D$xH
-H+KPH
-H+L$HH+
-H+L$xH
-H+M L
-H+N H
-H+NPH
-H+SxH
-H+T$@D
-H+\$8H
-H+\$hH
-H+l$xH
-H+}PE;
-H3D$ M
-H3L$ I+
-H3t$0H+
-H9(u^
-H9,0u
-H9A u^
-H9A(r
-H9A8s=H
-H9A8s?H
-H9C }(H
-H9C }+H
-H9C }2H
-H9C(r
-H9C(r"I
-H9C(u
-H9C(|
-H9C8s
-H9CPu
-H9D$P
-H9D$Pt-
-H9G(u%H
-H9Ghu
-H9Gpw
-H9H s*
-H9H(u
-H9K(u
-H9OPH
-H9P @
-H9P A
-H9P }
-H9Q }
-H9S@tcH
-H9T$(t
-H9T$X
-H9T$`t
-H9T$pt
-H9XXvd
-H9Z t^H
-H9\$PH
-H9\$X
-H9\$Xt
-H9\$`
-H9\$pt
-H9\$pvpE
-H9] tEH
-H9iHt=H
-H9i`tjH
-H9k@}9
-H9t$8
-H9t$8t
-H9wHu
-H9x s
-H9{8t]H9{@}5
-H9{@ucL
-H9|$8
-H9|$@t+
-H9|$p}9
-H9}`w
-H;0u5H
-H;2u!H;
-H;5 7T
-H;5,7T
-H;D$ 
-H;D$(
-H;D$0
-H;D$H
-H;D$P
-H;E`t)H
-H;H s
-H;H(u
-H;Hhr
-H;K u
-H;K }
-H;K(t"
-H;K(t,
-H;K(u
-H;L$H
-H;O }
-H;P @
-H;P A
-H;P }
-H;Q8u
-H;T$ 
-H;T$H
-H;Y s
-H;Z s
-H;\$8tQH
-H;\$8tTH
-H;\$8tWH
-H;\$X
-H;\$`
-H;\$`r
-H;\$pr
-H;]Hu
-H;^x|
-H;_@u
-H;_`|
-H;l$ 
-H;l$(
-H;l$0
-H;l$8
-H;l$P
-H;l$h
-H;s0u#
-H;s@u#
-H;t$ 
-H;t$ r
-H;t$P
-H;t$X
-H;t$pr
-H;t$ps.f
-H;u0L
-H;{ s
-H;|$8
-H;|$@
-H;|$`H
-H;|$xt
-HA\_][
-HA]_^[
-HA^A\_^
-HA^A]A\^
-HA^^[]
-HA_A]A\[
-HA_A^
-HA_A^A\]
-HA_A^A]A\_^[]
-HA_A^A]A\_^][
-HA_^][
+H264
 HELLO
-HPM+HHI
 HYLFL[ LFXF
 HYLFL[ L[X[
 HZLFL[ LFYF LPTP
@@ -6115,256 +3749,32 @@ H][MQMNNLQKTKWLYMZO[Q[TZVWWTWQVOUNSM QMONMQLTLXMZ Q[SZUWVTVPUN UN[N
 H^ULTNSOQPOPNNNLOIQGTFWFYGZIZMYPWSSWPYNZK[I[HZHXIWKWMXPZS[V[YZ[X
 H^ZH[H\F[L[JZHYGWFTFQGOIMLLOKSKVLYMZP[R[UZWXYT QHOJNLMOLSLWMY VXWWXT TFRGPJOLNOMSMXNZP[ R[TZVWWT TT\T UTWU VTWW ZTXV [TXU
 H^ZH[H\F[L[JZHYGWFTFQGOIMLLOKSKVLYMZP[R[UZWXYT TFRGPINLMOLSLVMYNZP[ R[TZVXXT UT\T
-H_^][
-Hc3Hc
-Hc:Hcr
-Hc;Hc
-Hc;Ic
-HcAhM
-HcB HcJ$
-HcC,H
-HcC8fE
-HcC<fE
-HcD$ 3
-HcD$ H
-HcD$ I
-HcD$$I
-HcD$$f
-HcD$(Hk
-HcD$,
-HcD$,9L$h|mE
-HcD$,A
-HcD$0H
-HcD$0L
-HcD$0M
-HcD$4+
-HcD$8
-HcD$8A
-HcD$8H
-HcD$8L
-HcD$<
-HcD$@
-HcD$@E
-HcD$@I
-HcD$D
-HcD$H;
-HcD$HH
-HcD$LH
-HcD$PH
-HcD$TI
-HcD$X;D$@s\H
-HcD$XH
-HcD$`
-HcD$`H
-HcD$h
-HcD$hH
-HcD$lH;
-HcD$pH
-HcD$xH
-HcD$|H
-HcE4H
-HcFxI;
-HcG H
-HcG HcW$A
-HcG HcW$B
-HcG@L
-HcG@fD
-HcHHH
-HcHlH
-HcI H
-HcI4H+K
-HcI@H
-HcIdHcC`H
-HcK H
-HcK L
-HcKLD
-HcK|HcCxH
-HcL$ H
-HcL$ L;
-HcL$ O
-HcL$,H
-HcL$0H
-HcL$0I9D
-HcL$4H
-HcL$8H
-HcL$8L
-HcL$<A
-HcL$<H
-HcL$@H
-HcL$@Hc
-HcL$HH
-HcL$HIc
-HcL$HL
-HcL$LH
-HcL$LL
-HcL$T
-HcL$`H
-HcL$hH
-HcL$lH
-HcL$xI
-HcL$xL;
-HcM<HcE8H
-HcO L
-HcQ\H
-HcQlA9@hu
-HcS$H;
-HcS0H
-HcSLHcCHH
-HcSTH
-HcShHcKl9Uhu
-HcSlHcCh
-HcSlHcCh9
-HcSlLcChE
-HcT$ H
-HcT$$
-HcT$,A
-HcT$,H
-HcT$0L
-HcT$8L
-HcT$@H
-HcT$@L+
-HcT$DL+
-HcT$P
-HcT$\H
-HcT$lA;
-HcT$pA;
-HcT$t
-HcT$|H
-HcU<HcE89Chu
-HcUlH
-HcU|HcExH
-HcV H
-HcV0H
-HcV8HcN49
-HcVlH
-HcW A
-HcW H
-HcW(A
-HcWlH
-HcY I
-Hc\$ H
-Hc\$ I
-Hc\$0H
-Hc\$4H
-Hc\$4L
-Hc\$HA
-Hc\$LA
-Hc^hL
-Hcj$H
-HcjlM
-HckHH
-Hcl$ 
-Hcl$ H
-Hcl$ Mc
-Hcl$(M+
-Hcl$0L
-Hcl$4
-Hcl$4L;
-Hcl$DH
-Hcl$PIc
-Hcl$PLc
-Hcl$PM
-Hcl$`Mc
-Hcl$p
-Hcl$pE
-Hcl$xH
-HcqlHcYhI
-Hct$4+
-Hct$4L
-Hct$@H
-Hct$PH
-Hct$PMc
-Hct$`
-Hct$`Hc
-Hct$`Lc
-Hct$xH
-Hcu,D
-Hcy$;
-Hcy$L
-Hc{H;{L
-Hc|$(f
-Hc|$0
-Hc|$0A
-Hc|$0L;
-Hc|$4H
-Hc|$8
-Hc|$8H
-Hc|$@H
-Hc|$HD
-Hc|$PLc
-Hc|$T;
-Hc|$XH
-Hc|$`H
-Hc|$dL
-Hc},D
 Height
 HighGUI class
-HkE &H
-HkE(&L
-HkE0&L
-HkE8&L
-HkE@&L
-HkEH&H
-HkEP&H
 Horizontal Planes
 Horizontal Planes [%d]
 Host is down
 Host not found
 Host unreachable
 How to build the splat matrix
-I#NxI
-I#O0H
-I#Q0H
-I#S0H
-I+<$L
-I+I I
-I+I8I
-I+IPI
-I+K L
-I+K8H
 I.S(ja
-I8x9Hc
-I96t&
-I9@ u
-I9@(u
-I9B(s8E2
-I9B(u
-I9B(u#I
-I9B(|
-I9B8A
-I9Jhs
-I9R t
-I9U t#L
-I9U t)L
-I9V@tCH
-I;@(u
-I;A s
-I;B(u
-I;GPtoL
-I;H(s>I
-I;Ox~
-I;R u
-I;R |
-I;X s
-I;vXM
-I;~XI
-I?`sL?
-I@H9A(r
-I@L9{8u
 IBJGQ$%&'()*+,-./0123456789:;<=M
+IDAT
 IDispatch error #%d
+IEND
+IFEA
+IHDR
 IIDFromString
-ILc!E3
 IMU Extrinsics
 IMU Scaling
 IMU Scaling Cross Axis Present
+INFO
 INITIATE
 IPHLPAPI.DLL
 IYJRKPLONOOPOQMX MONPNQLX OQPPROTOVPVRS\ TOUPURR\
 IYJRKPLONOOPORNUNWOX MONPNRMUMWOXQXSWTV VOTVSYR[ WOUVTYR[P\M\L[M[N\
 IYJSKQLPNPOQOVPX MPNQNUOWPXQXSWTVUTVQVNULTKRKQLQNRPURWS QXSVTTUQUNTK
 IYWHUKSPQUPWNZL[ YLWNTOQOONNLNJOHQGUFYFWHVJTPRVQXOZL[J[IZIXJWKXJY
-IY]^3
 IZJQKOMMPMQNQPPTN[ OMPNPPOTM[ PTRPTNVMXMYNYOXPWOXN
 IZJRKPLONOOPORNUNWOX MONPNRMUMWOXQXSWTV VOTVTWUXWXXWYU WOUVUWVX
 IZMFM[ MFNFNZ NZYZY[ M[Y[
@@ -6384,7 +3794,6 @@ I[JFRPR[ ZFRP
 I[JFR[ ZFR[
 I[JFR[ ZFR[ JFZF
 I[JQKOMMOMPNQPQTO[ PNPTN[ PPOTM[O[ YOYNXNXPZPZNYMWMUNSPQT
-I[J[Z[
 I[J[Z[ZZJZJ[
 I[KFRPK[ KFYF K[Y[
 I[KFYF OPUP K[Y[
@@ -6504,19 +3913,6 @@ I]NPNOOOOQMQMONNPMTMVNWOXQXXYZZ[ VOWQWXXZ TMUNVPVXWZZ[[[ VRUSPTMULWLXMZP[S[UZVX 
 I][MQMONMPLSLVMYNZP[R[TZVXWUWRVOUNSM
 I]]Z]X\U[SXPVOSNONLOJPIQISJTLUOVSVVUXT[Q\O]L]J
 I^LRJTIWIYJ[L[NZPX RRPXPZQ[S[UZWXXUXR XRYVZW\W^V
-Ic?H;}
-Ic@ H
-Ic@ L
-IcBlI
-IcGlI
-IcJhH
-IcMlIcEhH
-IcPlI
-IcT$,IcD$(H
-IcT$XA
-Ic_PH
-Icz I9r
-Ic}lIc]hH
 Identity
 If3Q8
 IiGM>nw
@@ -6569,15 +3965,9 @@ InvalidateRect
 IsDebuggerPresent
 IsProcessorFeaturePresent
 Iterations do not converge
-J H9K
-J(LcG
-J(McD$
-J0H9JP
-J@HcA
-JHcL$t
+JOIN
 JSON parameters of the deep depth from stereo pipeline
 JXKRLPMOOOPPPROUOWPX NOOPORNUNWPXQXSWUUVRVOUOVP
-JXM9QHu
 JXNKNX OKOX SOSS LKVKVOUK OQSQ LXQX
 JXOKMR PKNRNVPX NROPQOSOUPVRVTUVTWRXPXNWMUMR SOUQUTTVRX MKPK
 JXPKLX QKMX SORS NKXKWNWK OQRQ JXOX
@@ -6715,22 +4105,8 @@ J[XPXOWOWQYQYOXNUMRMONNONQOSQTTUVVWX ONNQ ORQSTTVU WVVZ NOOQQRTSVTWVWXVZS[P[MZLY
 J[YPXPXQYQYPXOWOVPUTTVSWQXOXMWLVLTMSORRPSNSLRKPKOLONPQUWWXXXYW OXMVMTOR ONPPVWWX
 J\JVLSNROSOTNXM[ NXOVQSSRURVSVUUXUZV[W[YZZY\V
 J\K[NZQXSVUSWOXKXIWGUFSGRHQJPOPTQXRZT[V[XZYY
-JpHcBlM
-K H9Q
-K L;G0
-K M;G@u	
-K(H9h
-K(H;H(u
-K(LcG
-K,9k(@
-K0LcD
-K0NcL
-K8H9Q
 KERNEL32.dll
-KHH+K@H
-KHH+K@I
-KM55a
-KPH9Q
+KLFA
 KWNURTTSURUPSOQOOPNQMSMUNWPXRXTWUV QOOQNSNVPX
 KXMONOPPS[T\ NOOPR[T\U\ VOTRNYL\
 KXMQNPOPPQPUQVSVTUUSVP
@@ -6860,6 +4236,7 @@ K[UUTSRRPRNSMTLVLXMZO[Q[SZTX PRNTMVMYO[ VRTXTZV[XZYY[V WRUXUZV[
 K[UUTSRRPRNSMTLVLXMZO[Q[SZTX PRNTMVMYO[ ZFTXTZV[XZYY[V [FUXUZV[
 K[VLWKWOVLTKQKOLNMMPMSNVOWQXTXVW QKOMNPNSOVQX TXUWVU VSVX WSWX TSYS
 K[YOQOOPNQMSMUNWPXRXTWUVVTVRUPYP QOOQNSNVPX RXTVUTUQSO
+K\fAd\rq
 KeHxKxeNz)347BqNQgjDF3Y6INBHZwv6(mKJ@c4R
 Kernel32.dll
 Key is empty
@@ -6870,353 +4247,7 @@ Key must start with a letter or _
 Key name may only contain alphanumeric characters [a-zA-Z0-9], '-' and '_'
 Key names may only contain alphanumeric characters [a-zA-Z0-9], '-', '_' and ' '
 Key should start with a letter or _
-L#A8H
-L#E`M
-L#F0M
-L#M0M
-L#N0M
-L#Q0H
-L#V0M
-L$ 9Jl
-L$ ;L$(
-L$ @8t
-L$ A;
-L$ A;L$l
-L$ D9I
-L$ D9KD
-L$ E3
-L$ E;
-L$ E;K
-L$ H+
-L$ H3
-L$ H;
-L$ L+
-L$ L;l$
-L$ LcT$HD;T$L
-L$ Lcj
-L$ M+
-L$ M;
-L$ Mc
-L$ SUVWATAUAVAWH
-L$ SUVWH
-L$ SUWH
-L$ SVW
-L$ SVWH
-L$ SWH
-L$ USVWATAVAWH
-L$ USWH
-L$ UVWATAUAVAWH
-L$ UVWAVAWH
-L$ VWATAVAWH
-L$ WATAUAVAWH
-L$ f;
-L$ fD;
-L$ fE
-L$ fI
-L$ ff
-L$$A;
-L$$D;
-L$$E+
-L$$E3
-L$$E;
-L$(9L$8}
-L$(B8t(
-L$(D;
-L$(E3
-L$(E;}
-L$(H+
-L$(H+L$ I
-L$(H3
-L$(H9L$0tYD
-L$(H9_
-L$(H;
-L$(Hc
-L$(I+
-L$(I;
-L$(L+
-L$(L;
-L$(M+
-L$(Mc
-L$(fD;
-L$(fff
-L$*fA
-L$,fA
-L$.fA
-L$0 L
-L$09L$8}"C
-L$09L$X}#C
-L$09L$p}.A
-L$09M
-L$0;4$
-L$0A+
-L$0A;
-L$0E3
-L$0E;
-L$0E;el|	A
-L$0H+
-L$0H3
-L$0H;
-L$0Hc
-L$0HcD$8H
-L$0HcQ
-L$0HcW$H;
-L$0I+
-L$0I;
-L$0L+
-L$0L9(tTE;y |N
-L$0L98t
-L$0L;
-L$0Lct$@A
-L$0M+
-L$0M;
-L$0Mc
-L$0Mcg
-L$0fA
-L$0fD
-L$0fL
-L$3H;
-L$4E3
-L$4H;
-L$4Hc
-L$4Ic
-L$4Lc
-L$4ff
-L$894
-L$8A;
-L$8B8t(
-L$8D9L$ 
-L$8D;
-L$8E3
-L$8E;
-L$8H+
-L$8H+L$0
-L$8H3
-L$8H;
-L$8H;Q
-L$8Hc
-L$8I+
-L$8I;
-L$8Ic
-L$8L+
-L$8L;
-L$8Lc
-L$8M;
-L$8Mc
-L$8ff
-L$<E3
-L$@9N(|
-L$@D;
-L$@E3
-L$@E9a
-L$@E;^
-L$@H+
-L$@H3
-L$@Hc
-L$@HcA
-L$@HcQ
-L$@I+
-L$@I;
-L$@Ic
-L$@Jc
-L$@L;
-L$@Lc
-L$@fA;
-L$@fD
-L$D;G
-L$DH;
-L$DHc
-L$H9}
-L$HA+
-L$HA;
-L$HD;
-L$HE3
-L$HE;^
-L$HH+
-L$HH+D$0L
-L$HH+L$@I
-L$HH3
-L$HH;
-L$HI+
-L$HIc
-L$HIcL$
-L$HIcy
-L$HJc
-L$HL;l$8
-L$HM+
-L$HfA
-L$Hff
-L$Jf	
-L$LE3
-L$Lff
-L$P;D$ L
-L$P;U
-L$PA;
-L$PA;o
-L$PD;
-L$PE3
-L$PH+
-L$PH3
-L$PH;
-L$PHcQ
-L$PI+
-L$PI;
-L$PLc
-L$PM+
-L$PfA
-L$PfD
-L$TE3
-L$TI;
-L$XE3
-L$XE;
-L$XH+
-L$XH3
-L$XH;
-L$XHcF
-L$XL;
-L$XLc
-L$XM;
-L$XfD
-L$\E3
-L$`A9H
-L$`E3
-L$`E;
-L$`H+
-L$`H+L$XI
-L$`H3
-L$`H9L$hs
-L$`H;
-L$`Hc
-L$`HcA
-L$`HcC@M
-L$`HcD$LH;
-L$`HcF
-L$`HcQ
-L$`I+
-L$`I9
-L$`Ic
-L$`L;
-L$`Mc
-L$`fA
-L$`fD
-L$`ff
-L$dE3
-L$dLc
-L$dt$H
-L$hE3
-L$hE;
-L$hH3
-L$hH9Q
-L$hH;
-L$hI+
-L$hL+
-L$hLc
-L$hM;
-L$hr	H
-L$lA+
-L$lLc
-L$p I
-L$p@H
-L$pA+
-L$pD;
-L$pD;#|
-L$pE3
-L$pE;
-L$pH+
-L$pH3
-L$pH9M@
-L$pH;
-L$pHcI
-L$pI+
-L$pIc
-L$pM+
-L$pMc
-L$pfA
-L$pfE
-L$tA+
-L$tA;
-L$xE3
-L$xH3
-L$xH9
-L$xH;
-L$xI+
-L$xI;
-L$xL;
-L$xLc
-L$xff
-L$xfff
-L$|A;
-L$|Ic
-L)V H
-L)X D
-L)|$@Ic
-L+D$(I
-L+L$Xfff
-L+L$pN
-L+\$(I
-L+\$8
-L+t$ H
-L+t$xL
-L+|$(H
 L.channels() == 1 && I.channels() == 1
-L8t,q
-L9A }
-L9Ahs
-L9L$0t"
-L9P A
-L9R(u
-L9T$pt
-L9a }JL
-L9c8ti
-L9c@}.
-L9l$@tQH
-L9l$P
-L9t$@tVf
-L9t$PuL
-L9w@u
-L9whu
-L9{@}9
-L9|$`tF
-L9}Ht,
-L;!u9H
-L;0t,I
-L;0t.I
-L;0t/I
-L;0t2I
-L;0t<I
-L;@ s
-L;AhL
-L;D$ 
-L;D$@H
-L;D$@I
-L;D$XL
-L;D$ht
-L;E0L
-L;EHH
-L;EHL
-L;I(r
-L;I(sWH
-L;P A
-L;Q s
-L;T$(
-L;T$`
-L;T$`w
-L;Y u
-L;\$P|
-L;\$P}gE
-L;d$8s
-L;d$P
-L;l$P
-L;l$h
-L;mH}	L
-L;s(s
-L;t$ s
-L;t$@u
-L;|$0u
-L;|$@u
-L;|$P
-L>H9S
-LD$L;
-LD$xD
 LEAVE
 LOBYTE (wsa_data.wVersion) == 2 && HIBYTE (wsa_data.wVersion) == 2
 LRLFLRRRLF LIPQ LLOR LOMQ
@@ -7341,118 +4372,8 @@ L[UUTSRRPRNSMTLVLXMZO[Q[SZTY VRTYPdOfMgLfLdMaP^S\U[XY[V
 L[VKVX WKWX VRUPSOQOOPNRNUOWQXSXUWVU QOPPOROUPWQX TKWK VXYX
 L\UUTSRRPRNSMTLVLXMZO[Q[SZTXVRUWUZV[W[YZZY\V
 L\UUTSRRPRNSMTLVLXMZO[Q[SZTXZF VRUWUZV[W[YZZY\V
-Lc	E3
-Lc)E3
-Lc2Hcr
-LcAlL
-LcC(L
-LcC0L
-LcCD3
-LcCTD;CX
-LcChD9Fhu
-LcD$$
-LcD$$A
-LcD$,A
-LcD$,L
-LcD$4I
-LcD$<E
-LcD$<K
-LcD$@
-LcD$@H
-LcD$@K
-LcD$TI
-LcD$XI
-LcD$XL
-LcD$hL
-LcE8A
-LcEHI
-LcG$M;
-LcI\A
-LcIlL
-LcKDA
-LcL$ I
-LcL$4L
-LcL$hH
-LcL$hL
-LcL$pH
-LcL$pM
-LcL$tI
-LcO8D
-LcR,E
-LcSDI
-LcS`L
-LcT$8
-LcT$<B
-LcT$XL
-LcT$\
-LcT$`H
-LcT$`L
-LcT$pH
-LcT$pO
-LcT$xHcT$|M
-LcU(Ic
-LcUlI
-LcZ D
-Lc\$ 3
-Lc\$ M
-Lc\$(
-Lc\$(3
-Lc\$(D;
-Lc\$(Mc
-Lc\$0I
-Lc\$8K
-Lc\$DI
-Lc\$HI
-Lc\$XM
-Lc\$\E3
-Lc\$hH
-Lc\$pI
-Lc]<LcU8D
-Lcb(E
-Lcc$Lck K
-Lcd$ 
-Lcd$ H
-Lcd$ M
-Lcd$HL
-Lcd$`3
-Lcd$`I
-Lcd$pD
-Lcd$pIc
-Lcd$pMc
-LcgDL
-LcjhI
-Lcl$(Lc
-Lcl$0
-Lcl$@A
-Lcl$@B
-Lcl$H
-Lcl$L
-Lcl$`H+
-Lcl$pA;
-Lcl$pH
-Lcl$pMc
-Lcl$xM
-Lct$4
-Lct$4L;
-Lct$8M
-Lct$PH
-Lct$`D
-Lct$`H
-Lct$lD
-Lcu4I
-Lcu4M
-LcyhH
-LcyhHcYl
-Lc{8I
-Lc|$(
-Lc|$0D
-Lc|$@I
-Lc|$`
-Lc|$`I
-Lc|$`L
-Lc|$dD
-Lc|$hA
 LeaveCriticalSection
+Left
 Left depth
 Left image
 Lighthouse
@@ -7468,34 +4389,17 @@ LocalAlloc
 LocalFree
 Local\
 LodePNG
+LwH'
 LyKdJQI@H1G$F
-Lyc>=
-M H1E
-M I+M
-M#C0M
-M(HcD$X
-M8IcH
-M98u7
-M;Wx|
-M;a }?H
-M@H+M8H
-M@I+M8H
-MD$0D
-MD$0L;
-MD$hA
+M8MF
 MESSAGE
-MESSAGEL
 MFCopyImage
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateSample
 MFStartup
 MFTEnumEx
-MH;H(s
-MH;H8s
-MNs9=
-MPH9MXu
-MPHcQ
+MGiI
 MSVCP140.dll
 MVOMOV OMUM
 MVOMOV OMUM OQSQ
@@ -7631,7 +4535,6 @@ MWVLNX
 MWVNTMRMPNPPQQTRUSUUSVPVNU
 MWWHVGTFQFOGNHMJMLNNOOUSVTWVWXVZU[S\P\N[MZ
 MWWRWQVOUNSMQMONNOMQMR
-MXH+MPL
 MXNPOPPQPSNY PSQUSVUUVSUQSPQQPS
 MXNQOPQPRQRSQW VPURSTQWPY
 MXOMOSPURVSVUUVSVM
@@ -7693,16 +4596,10 @@ M[MVOSRNSLTITGSFQGPIOMNTNZO[P[RZTXUUURVVWWYW[V
 M\MVOSRNSLTITGSFQGPIOMNSM[ M[NXOVQSSRURVSVUUXUZV[W[YZZY\V
 Main HighGUI class
 MainWindowProc
-Make sure all XR/Steam processes have been killed and try again.
 Make sure grid voxel for which we have a value don't move during the optiminization
 Map element should have a name
 MapViewOfFile
-Mc$$H
-Mc1I;
-McFhA
-McH|Ic@xL
-McN(Hc
-Mcg D
+MbP?
 Memory block has been corrupted
 Message from the server: %s
 Message too long
@@ -7720,17 +4617,11 @@ Multi-line text literals are not supported
 MultiByteToWideChar
 Multiview Depth
 Multiview Depth (Filtered)
-MvlD;
-MweHc
-M|$h+
-M~lD;
-N89N$
-N8I+N0H
-N@H+N8H
-N@IcA
+NEON
 NJ2"v
 NO_ERROR
 NRRROPNNNLOKPK
+NULL
 NULL != data_
 NULL array pointer is passed
 NULL name
@@ -7806,7 +4697,6 @@ Net dropped connection or reset
 Network SubSystem is unavailable
 Network is down
 Network is unreachable
-Nl,"=
 No CUDA support
 No Error
 No OpenGL support
@@ -7823,15 +4713,12 @@ Not supported escape character
 Null comment
 Null pointer
 Null string pointer
-O I+O
+N}Xo
 O*9y]
-O0I+O H
-O?`sL?
-O@fff
-OHH+O@H
-OPENCV: Trying to disable baseline CPU feature: '%s'. This has very limited effect, because code optimizations for this feature are executed unconditionally in the most cases.
-OPENCV: Trying to disable unavailable CPU feature on the current platform: '%s'.
-OPENCV: Trying to disable unknown CPU feature: '%s'.
+O1A[
+OPENCV: Trying to disable baseline CPU feature: '%s'. This has very limited effect, because code optimizations for this feature are executed unconditionally in the most cases.\n
+OPENCV: Trying to disable unavailable CPU feature on the current platform: '%s'.\n
+OPENCV: Trying to disable unknown CPU feature: '%s'.\n
 OPENCV_CPU_DISABLE
 OPENCV_DUMP_CONFIG
 OPENCV_DUMP_ERRORS
@@ -7869,21 +4756,20 @@ OWOVSQUNVLWIWGVFTGSIQQNZKaJdJfKgMfNcOZP[R[TZUYWV
 OXOVQSSO VFPXPZQ[S[UZVYXV PNWN
 OXRRUOWLXIXGWFUGTIKdKfLgNfOcPZQ[S[UZVYXV TISNRRO[M`Kd
 OXXROMOWXR URPO URPU RRPQ RRPS
+OZQ%
 OZw3(?
-ObU9$
 OffsetRect
 One of arguments' values is out of range
 Only collections as YAML streams are supported by this parser
 Only continuous nD arrays are supported here
 Only scalar types can be dynamically assigned to a file node
-OpenCV build configuration is:
 OpenCV parent region exceeds children count. Bailout
 OpenCV persistence doesn't support very long lines
-OpenCV(%s) %s:%d: error: (%d:%s) %s in function '%s'
+OpenCV(%s) %s:%d: error: (%d:%s) %s in function '%s'\n
 OpenCV(%s) %s:%d: error: (%d:%s) %s%s
-OpenCV(%s) %s:%d: error: (%d:%s) in function '%s'
+OpenCV(%s) %s:%d: error: (%d:%s) in function '%s'\n%s
 OpenCV(%s) Error: %s (%s) in %s, file %s, line %d
-OpenCV: terminate handler is called! The last OpenCV error is:
+OpenCV: terminate handler is called! The last OpenCV error is:\n
 OpenCVTrace
 OpenClipboard
 OpenEventA
@@ -7911,20 +4797,8 @@ OptionMissingValueException
 OptionNotRecognizedException
 Output after filtering
 OutputDebugStringA
-O|D8G?t
-P0D8sK
-P@H9C
-PA^_]
-PA^_^
-PA_A\_
-PA_A\_^[
-PA_A][
-PA_A^A]A\_^[
-PA_A^A]A\_^]
-PA_A^_
-PA_A^_^]
-PA_^[
-PA_^]
+P09A
+PAIR
 PE::SharedMemoryBuffer::That::initialize_Create
 PE::SharedMemoryBuffer::That::initialize_Open
 PE::SharedMemoryBuffer::acquireInputBuffer
@@ -7933,13 +4807,13 @@ PE::SharedMemoryBuffer::readData
 PE::SharedMemoryBuffer::releaseOutputBuffer
 PE::SharedMemoryBuffer::writeData
 PF SdF
-PH;S@~
+PING
 PLAIN
+PLTE
 PLY_Int32
 PLY_UInt32
+PONG
 POPCNT
-PPIcL$$H
-PPIcM$H
 PSSRRSQSPRPQQPRPSQSSRUQV QQQRRRRQQQ
 PTQPPQPSQTSTTSTQSPQP
 PTQPPQPSQTSTTSTQSPQP RQQRRSSRRQ
@@ -7947,11 +4821,13 @@ PTRKRY
 PTRLQMRNSMRL RPRV
 PTRMRQ
 PTRMRV
+PULL
 PURMRR SMSR RURVSVSURU
 PURPRQSQSPRP RURVSVSURU
 PURPRQSQSPRP SVRVRUSUSWRY
 PURQRRSRSQRQ
 PURURVSVSURU
+PUSH
 PUSLRMSNTMSL SPSXRYQYPX
 PUSMRORQSQSPRP
 PUSMSNTNTMSM QPRPSQSRRTRUSVTV
@@ -7962,13 +4838,12 @@ PUUDSGQKPPPTQYS]U`
 PVRMUQ
 PWSMSNTNTMSM PVRRLdKfIgHfHdIaL^O\Q[TYWV
 PWSMSNTNTMSM PVRRPXPZQ[R[TZUYWV
-PXH9Q
 Parent region exceeds children count. Bailout
 Parsing error
 PathFindExtensionA
 PathFindFileNameA
 Pd#93-
-Pdd>v
+Pe6^
 PeekMessageA
 Peer-Address
 PerceptionEngine HUD
@@ -7986,18 +4861,14 @@ Protocol not supported
 Protocol wrong type for socket
 Providing a value for option key `%s' is mandatory.
 Q!RDSiT
-Q8>H9S
-Q@H+Q8H
 QSRQQRRSSRRQ
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R [%.3f %.3f %.3f] T [%.4f %.4f %.4f]
-R$HcJ 
 R1h58
 READY
 ROUTER
-RPHcU$H
 RRR>Rf
 RURUTTURTPRO
 RVRRUPVNVLUKTK
@@ -8027,93 +4898,32 @@ ReleaseSemaphore
 RemoveDirectoryW
 Requested and source matrices have different count of elements
 Requested object was not found
-Required baseline features:
 ResetEvent
 Reshaping of n-dimensional non-continuous matrices is not supported yet
-Rich/?`
 Right depth
 Right image
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S H9P }
-S LcK
-S$HcE(L
-S$HcK H
-S(IcG
-S0H+S(H
-S0H9S8t
-S0H9j
-S0Lcd$HM
-S0fff
-S@fff
 SADWindowSize must be odd, be within 5..255 and be not larger than image width or height
-SATAUAWH
-SATAUAWUH
-SATAUH
-SAUAWH
-SAVAWH
+SAnT
+SEND
 SHELL32.dll
 SHGetFolderPathA
 SHLWAPI.dll
+SKyu
+SSE2
+SSE3
 SSE4.1
 SSE4.2
 SSSE3
 STREAM
 STWIN
-SUATAUAVAWH
-SUATAUH
-SUATH
-SUAUH
-SUAWH
 SUBSCRIBE
-SUVATAUAVAWH
-SUVATAUAWH
-SUVATAUH
-SUVATAVAWH
-SUVAVH
-SUVAWH
-SUVWATAUAVAWD
-SUVWATAUAVAWH
-SUVWATAUAVH
-SUVWATAUAWH
-SUVWATAUH
-SUVWATAVAWH
-SUVWAUAVAWH
-SUVWAUAVH
-SUVWAUH
-SUVWAVAWH
-SUVWAVH
-SUVWAWH
-SUVWH
-SUWATAUAVH
-SUWATAVH
-SUWATH
-SUWAVAWH
-SUWAVH
-SVATAUAWH
-SVAUH
-SVAVH
-SVAWH
-SVWATAUAVAWH
-SVWATAUAVH
-SVWATAVAWH
-SVWATAWH
-SVWAUAWH
-SVWAUH
-SVWAVAWH
-SVWAVH
-SVWAWH
-SWATAUAVAWH
-SWATAUAVH
-SWATAVH
-SWAVAWH
-SWAWH
 SY?gds
 Sampling Points Ref %lu
 Scale Accuracy
 ScreenToClient
-SdIcr
 SelectObject
 Semantic Segmentation
 SendMessageA
@@ -8159,7 +4969,7 @@ Sparse Known Gyro Bias
 Sparse imuFromColor
 Sparse left depth frame
 Stale NFS file handle
-Starting new log. ---------------------------
+Starting new log. ---------------------------\n
 Std(y):%fm
 Step must be a multiple of esz1
 StereoMatcher.BM
@@ -8172,196 +4982,11 @@ Successful WSASTARTUP not yet performed
 Sun raster files (*.sr;*.ras)
 SwapBuffers
 SyntheticLighthouse
-System call failure in %s [%s]: %s (context: %s)
-T$ ;G
-T$ ;O
-T$ A+
-T$ A;
-T$ D+
-T$ D+D$,+T$(
-T$ D;
-T$ E+
-T$ E3
-T$ E;
-T$ H+
-T$ Hc
-T$ I+
-T$ I+T$
-T$ Ic
-T$ M;
-T$ fE
-T$$D;
-T$$D;T$L
-T$$E+
-T$$E3
-T$$Hc
-T$$Lc
-T$$fA
-T$(D;T$P
-T$(E3
-T$(H;
-T$(Hc
-T$(I+
-T$(I;
-T$(L+
-T$(L;
-T$(Lc
-T$(M;
-T$,HcL
-T$09U
-T$0;}(|iC
-T$0A9P
-T$0D;
-T$0D;D$X
-T$0D;H
-T$0D;L$X
-T$0E3
-T$0H+
-T$0H;
-T$0H;\$hsW
-T$0Hc
-T$0HcL$4H
-T$0I+
-T$0I;
-T$0Ic
-T$0L+
-T$0M;
-T$0fA
-T$0fD
-T$0fff
-T$1Hc
-T$4E3
-T$4fff
-T$8D;
-T$8E3
-T$8H+
-T$8H+T$0H
-T$8H;
-T$8H;T$H
-T$8Hc
-T$8I+
-T$8I;
-T$8IcF
-T$8L+
-T$8L;
-T$8L;B
-T$8Lc
-T$8Lc`
-T$8M+
-T$8Mc
-T$8fD
-T$8}&
-T$<D;
-T$<Hc
-T$@8A1
-T$@9T$ 
-T$@A;
-T$@A;^
-T$@E3
-T$@E;
-T$@H+
-T$@H92t
-T$@H;
-T$@Hc
-T$@Hi
-T$@I+
-T$@I;
-T$@L+
-T$@L+t$8I
-T$@Lc!D
-T$@M+
-T$@Mc
-T$@fE
-T$H8A1
-T$HA+
-T$HA;^
-T$HD;
-T$HE3
-T$HH+
-T$HH+T$@I
-T$HH9T$Pt
-T$HH;
-T$HI+
-T$HI;
-T$HIc
-T$HL;
-T$HL;E
-T$HLc
-T$HM;
-T$L;T$`L
-T$LD+
-T$LE3
-T$LIc
-T$LL;E
-T$PA+
-T$PE3
-T$PE;}
-T$PH+
-T$PH;
-T$PHc
-T$PI;
-T$PIc
-T$PJc
-T$PLc
-T$PMcz
-T$PfE
-T$THc
-T$TLc
-T$X;T$h
-T$XA+
-T$XE3
-T$XH+
-T$XH;
-T$XH;U
-T$XHc
-T$XL+t$(I
-T$XL;
-T$XLc
-T$XM+
-T$`A+
-T$`D9="K@
-T$`E3
-T$`E;
-T$`H+
-T$`H+l$
-T$`H9T$ht
-T$`H;
-T$`Hc
-T$`I+
-T$`fA
-T$`fD
-T$h;T$P
-T$hD92
-T$hE3
-T$hE;z
-T$hH;
-T$hHc
-T$hL;
-T$hL;t$HD
-T$hLc
-T$hff
-T$pD;F
-T$pE;
-T$pH+
-T$pH9T$xt
-T$pH;
-T$pI+
-T$pI;
-T$pIc
-T$pL;
-T$pLc
-T$pfD
-T$xH+
-T$xH9U
-T$xH;
-T$xHc
-T$xI;
-T$xM+
-T$xff
-T5O}$
+System call failure in %s [%s]: %s (context: %s)\n
+System call failure in %s [%s]: %s (context: %s)\nMake sure all XR/Steam processes have been killed and try again.
 T>ocC>
-TUUUUUU
-TW E;
+TRUE
+TSRH
 Tabs are prohibited in YAML!
 Tag should start with '<'
 TerminateProcess
@@ -8417,79 +5042,18 @@ Tracker
 Tracker Accuracy
 Tracker Hints
 TranslateMessage
+True
 Try to prevent background grid cell to leak in foreground
 TryEnterCriticalSection
-Tu:L+
-Tx\{ 
-U I9U(t#
-U Lc}
-UATAUAVAWH
-UATAUAWH
-UATAUAWI
-UATAUI
-UATAVAWH
-UATAWH
-UAUAVH
-UAVAWH
-UHH9UPt
+Ts\ne
 UKF Accel Bias
 UKF Gyro Bias
 UKF imuFromFrame
 UNKNOWN-PathIsTooLarge
-USATAVAWI
-USAUAVH
-USAVI
 USB3 Status
 USER32.dll
-USVATAVAWH
-USVAUH
-USVAUI
-USVWATAUAVAWH
-USVWATAVAWH
-USVWATAWH
-USVWAUAVAWH
-USVWAUAVI
-USVWAVAWH
-USVWAVH
-USVWAWH
-USWATAUH
-USWATAVAWH
-USWATAVH
-USWATH
-USWAUAVH
-USWAVI
 UTF-16
-UTF-16 XML encoding is not supported! Use 8-bit encoding
-UUUUUUU
-UUUUUUUUH
-UUUUUUUUH;
-UUUUUUUUI
-UUUUUUUUI;
-UVATAUAWH
-UVATAWH
-UVATI
-UVAWH
-UVAWI
-UVWATAUAVAWH
-UVWATAUAVAWI
-UVWATAUAWH
-UVWATAVH
-UVWATAWH
-UVWAUAVH
-UVWAUAWH
-UVWAUH
-UVWAUI
-UVWAVAWH
-UVWAVH
-UWATAUAVH
-UWATAUAWH
-UWATAVAWH
-UWATH
-UWAUAVAWH
-UWAUI
-UWAVH
-UWAWH
-UhLcMXHc
+UTF-16 XML encoding is not supported! Use 8-bit encoding\n
 UiTDS!R
 Unable to call_ReadLastWorldPose
 Unable to handleReturn_DataNotWritten
@@ -8530,66 +5094,23 @@ Unsupported format or combination of formats
 Unsupported method, see #DecompTypes
 Unsupported type
 User-Id
-V I+V
-V I9V(t
-V$HcN H
-V$HcT$4
-V$IcN A+
-V(I9V0t
-V(I9V0t	
-V-lf$
-V@I9VHt
-VATAVH
-VAUAVH
-VAVAWH
 VCRUNTIME140.dll
 VDcn::contains(dcn)
 VDepth::contains(depth)
 VERBOSE
-VHHcF H
-VOUCH---H
+VSX3
 VScn::contains(scn)
-VUUUA
-VUUUUUUUH
-VUUUUUUUH+
-VUUUUUUUI
-VUUUUUUUI+
-VWATAUAVH
-VWATAUAWH
-VWATAVAWH
-VWATAVH
-VWAUAVAWH
-VWAUAWH
-VWAVH
-VWAWH
-V_:X1:
 Valid XML should start with '<?xml ...?>'
 Valid name no data record of requested
 Value 'null' is not supported by this parser
-Vectors with element size %d are not supported. Please, modify OutputArray::create()
+Vc0a
+Vectors with element size %d are not supported. Please, modify OutputArray::create()\n
 VisualInertialTracker
 VisualLogger
-VpH9Vxt
-W H+W
-W$HcE(N
-W$HcW H
-W(I9W0t
-W0H9W8t
-W5!~8
-W=b$j
-W>H9S
-W@fff
+WARN
 WARNING
 WARNINGS
-WATAUAVAWH
-WATAUAVAWM
-WATAUH
-WATAVH
-WATAWH
-WAVAWH
 WELCOME
-WELCOME-H
-WELCOMEH
 WGL requires that OpenGL contexts being bound to a threadmust not be bound on any other thread. The OpenGL context you tried to bind is current on a different thread. We do not have aseamless, programmatic way around this yet.
 WGL_3DFX_multisample
 WGL_3DL_stereo_control
@@ -8645,7 +5166,6 @@ WGL_NV_vertex_array_range
 WGL_NV_video_capture
 WGL_NV_video_output
 WGL_OML_sync_control
-WHHcG H
 WINSOCK DLL Version out of range
 WS2_32.dll
 WSACloseEvent
@@ -8656,12 +5176,11 @@ WSAPoll
 WSASocketA
 WSAWaitForMultipleEvents
 WZTz-
-W`H;C
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Warning:  Can't find property '%s' in element '%s'
-Warning:  No element with index %d
+Warning:  Can't find property '%s' in element '%s'\n
+Warning:  No element with index %d\n
 We require SSE4.1 for some parts of the code, like HFBS
 When the input arrays in add/subtract/multiply/divide functions have different types, the output array type must be explicitly specified
 When we want to add a dilated reprojection of the controllers.
@@ -8673,22 +5192,7 @@ Window was created without OpenGL context
 WindowFromDC
 Window_
 Windows bitmap (*.bmp;*.dib)
-X UVWAVAWH
-X-[k2
-X-ck2
-X-wk2
-X5eeB
-X=]eB
-XA8|$
-XA_A\^]
-XA_A^A]A\_^[]
-XA_A^A]A\_^][
-XD$pD
-XL$@A
-XL$PE
-XL$Pf
-XL;D$ 
-XM`8q
+XPUB
 XRClientControlInput_High
 XRClientControlInput_Low
 XRClientControlInput_Mid
@@ -8706,78 +5210,20 @@ XRServiceControlOutput_Low
 XRServiceControlOutput_Mid
 XRServiceControlOutput_VeryLow
 XRSession::readWorldFromCameraPoses is not yet implemented!
-XT$$E
-XT$(A
-XT$,D
-XT$8D
-XT$@A
-X\$XD
-X_^][
-Xl$$H
-XlD93~aM
-Xt$xD
-X|$pA
-Y M+Y
-Y%></
-Y%L!A
-Y%}83
-Y->E"
-Y5FL"
-Y5F`&
-Y=%J,
-Y?Qo[?
-Y@L9BHu
+XSUB
+XsBI
 Y@Zq[
-YB A+
-YB(Hc
-YB0Hc
-YB4Hc
-YB8Hc
-YB@A+
-YBHHc
-YBPHc
-YBTHc
-YBXHc
-YB`A+
-YBhHc
-YBpHc
-YBtHc
-YD$,D
-YD$,E
-YD$0A
-YD$0D
-YD$@f
-YD$D3
-YD$LA
-YD$PD
-YD$`D
-YJ Hc
-YJ0Hc
-YL$ D
-YL$8A
-YL$`f
 YOQ=Nm}
-YR$A+
-YRDA+
-YRdA+
-YT$0A
-YT$PA
-YT$Pf
-Yd$ D
-Yl$lD
+YT5K
 You should explicitly call download method for cuda::GpuMat object
 You should explicitly call mapHost/unmapHost methods for ogl::Buffer object
-Yt$hA
-Z H+Z
-Z* ,	
 ZMQbg/
+Zjz\v
 [ INFO:
-[ UVWATAUAVAWI
 [ WARN:
-[%s (%i)] - %s
+[%s (%i)] - %s\n
 [%s] Frame %i (0 is the oldest)
 [%s] weights
-[-&LMb#{'
 [AppDocuments]
 [AppDocuments]/CaptureSessionSettings.json
 [AppDocuments]/Occipital/profiling-
@@ -8787,7 +5233,6 @@ ZMQbg/
 [AppDocuments]\decoded-y.png
 [AppDocuments]\y-%s-fromMCCF-%d.png
 [BundleResources]
-[D8GBtXf
 [DEBUG:
 [DeltaFromBAHiding]
 [Dropbox]
@@ -8799,223 +5244,77 @@ ZMQbg/
 [PretrainedModels]/DPSNet/dpsnet_updated.pth.tar
 [StructureApps]
 [Temp]
-[`HcS$H;
 [empty_any]
+[h1R
 [normal=%.3f %.3f %.3f] [distToOrigin=%.3f] [abcd=%.3f, %.3f, %.3f, %.3f]
-\$ A;
-\$ D8A
-\$ E3
-\$ E;
-\$ H;
-\$ I;
-\$ JcL
-\$ L+
-\$ L9t$`ukH
-\$ L;
-\$ Lk
-\$ M;
-\$ UAVL
-\$ UH
-\$ UVATAVAWH
-\$ UVAVH
-\$ UVAWH
-\$ UVWATAUAVAWH
-\$ UVWATAWH
-\$ UVWAUAVH
-\$ UVWAUAWH
-\$ UVWH
-\$ UWATAUH
-\$ VATAVH
-\$ VAVAWH
-\$ VH
-\$ VWATAUAVH
-\$ VWATH
-\$ WH
-\$ WM
-\$ fD
-\$ fE
-\$$9L$,}
-\$$E3
-\$$Hc
-\$$fA
-\$(A;
-\$(A_A^_]
-\$(D+
-\$(E3
-\$(H9_
-\$(H;
-\$(Hc
-\$(I;
-\$(L+
-\$(L;
-\$(Lcm
-\$(M+
-\$(M;
-\$(u1H
-\$,Hc
-\$,Ic
-\$,fA
-\$0;\$X
-\$0A+
-\$0A;E
-\$0A]A\_^
-\$0A^]
-\$0D+
-\$0D;
-\$0D;L$X
-\$0D;\$X
-\$0E3
-\$0H+
-\$0H;
-\$0HcT$hH
-\$0I;
-\$0KcL
-\$0LcL$hH
-\$0LcL$hL
-\$0M+
-\$0M;
-\$0Mc
-\$0fA
-\$0u	@
-\$4E3
-\$4HcT$PH
-\$4tLA
-\$8)D$0
-\$89]
-\$8D;
-\$8D;\$ 
-\$8E3
-\$8E;
-\$8Hc
-\$8L9
-\$8L;
-\$8fD
-\$:uP
-\$<D;\$ 
-\$@A;
-\$@A]A\_]
-\$@H+
-\$@H9]
-\$@H;
-\$@H;\$P
-\$@I;
-\$@Ic
-\$@IcU
-\$@L+
-\$@L;\$HD
-\$@fA
-\$@fD
-\$@fE
-\$@ff
-\$@t)H
-\$DE3
-\$H;|$h
-\$HA+
-\$HA;
-\$HA_A]_^]
-\$HA_A^A]A\]
-\$HD;
-\$HE3
-\$HH+
-\$HHcT$xL
-\$HI+
-\$HL+L$`I
-\$HL;
-\$HLcL$xL
-\$LD+
-\$PA;
-\$PA;E
-\$PE+
-\$PH;
-\$PHcL
-\$PI;
-\$PL;
-\$PM;
-\$PfD
-\$X)D$P
-\$X@2
-\$XA+
-\$XH+
-\$XH;
-\$XIc
-\$XL+
-\$XLc@
-\$XLcL$xL
-\$XMc
-\$`;x
-\$`D;s
-\$`E3
-\$`H+
-\$`H;
-\$`Hc
-\$`L+T$
-\$`L9e
-\$`fff
-\$aHc
-\$dIc
-\$dLc
-\$hD;]
-\$hD;^
-\$hE2
-\$hE3
-\$hH;
-\$hHc
-\$hHk
-\$hI+
-\$hI;
-\$hL9Mp
-\$hL;
-\$hLc
-\$hLcB$D
-\$hM+
-\$pA;
-\$pD+
-\$pD;T$dH
-\$pE3
-\$pE;c
-\$pH;
-\$pI;
-\$pL+T$
-\$pM;
-\$pff
-\$tA;
-\$tE;
-\$tH9|$Ht
-\$xD;
-\$xH;
-\$xHc
-\$xI;
-\$xIc
-\$xIk
-\$xLc
-\$xfE
-\$xfff
-\$|9M
-\$|D;l$x
-\%8F*
 \Dropbox\info.json
-\L$(fD
-\W0E;
-\q[@Z
-\tAfA
+\n        attribute vec4 bcde;\n        attribute vec2 adcc;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying vec2 bedb;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            bedb  = adcc;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        attribute highp vec2 adcc;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying vec2 bedb;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            bedb = adcc;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        attribute vec2 adcc;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying vec2 bedb;\n        varying float cbec;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            cbec = 0.5*abs(vec.z) + 0.5;\n            bedb = adcc;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        attribute vec2 adcc;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying vec2 bedb;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            bedb = adcc;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        attribute vec3 _aabcd;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying vec3 _vabcd;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            float cbec = 0.5*abs(vec.z) + 0.5;\n            _vabcd = _aabcd * cbec;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        attribute vec3 _aabcd;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying vec3 _vabcd;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            float cbec = 0.75*abs(vec.z) + 0.25;\n            _vabcd = _aabcd * cbec;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        attribute vec3 aebb;\n        attribute vec3 badb;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying vec3 bddd;\n        varying vec3 acbc;\n        varying float cbec;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            cbec = 0.5*abs(vec.z) + 0.5;\n            bddd = aebb;\n            acbc = badb;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        uniform float ad;\n        varying float cbec;\n        varying float aedc;\n        void main()\n        {\n            vec4 position = bcb*bcde;\n            aedc = position.z;\n            position = aaa*position;\n            mat3 scaledRotation = mat3(bcb);\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            cbec = 0.5*abs(vec.z) + 0.5;\n            gl_Position = position;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying float bdbb;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            mat3 scaledRotation = mat3(bcb);\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            bdbb = 0.5*(1.0 - abs(vec.z));\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying float cbec;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            mat3 scaledRotation = mat3(bcb);\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            cbec = 0.5*abs(vec.z) + 0.5;\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying float cbec;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            vec3 vec = mat3(bcb)*adae*aeeb;\n            cbec = 1.0 - abs(vec.z);\n        }\n        
+\n        attribute vec4 bcde;\n        attribute vec3 aece;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        varying vec3 _vabcd;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            _vabcd = aece;\n#ifdef GLES\n            gl_PointSize = 8.0;  \n#endif\n        }\n        
+\n        attribute vec4 bcde;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float aeeb;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n        }\n        
+\n        attribute vec4 bcde;\n        uniform vec3 caac;\n        uniform mat4 cb;\n        uniform mat4 bcb;\n        uniform float abce;\n        uniform float bbac;\n        varying vec3 acdb;\n        void main()\n        {\n            vec4 beb = bcb*bcde;\n            float bebb = sqrt(beb.x*beb.x + beb.y*beb.y + beb.z*beb.z);\n            gl_Position = cb * bcb * bcde;\n            gl_PointSize = 5.0;  \n            acdb = caac;\n            if (bebb > abce + bbac)\n                gl_PointSize = 0.0;\n            else if (bebb > abce)\n                gl_PointSize = gl_PointSize *\n                (1.0 - min(1.0, (beb.z - abce)/(bbac - abce))\n                 );\n        }\n        
+\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        attribute vec2 adcc;\n        varying vec3 aee;\n        varying vec3 abac;\n        varying vec2 bedb;\n        void main()\n        {\n            aee = vec3(bcb * vec4(adae, 0.0));\n            vec4 vertPos4 = bcb * bcde;\n            abac = vec3(vertPos4) / vertPos4.w;\n            bedb = adcc;\n            gl_Position = aaa*bcb*bcde;\n        }\n        
+\n#define ENABLE_ANTIALIASING 0\n
+\n#define ENABLE_ANTIALIASING 1\n
+\n#if defined(GLES) || defined(WINDOWS)\n        precision highp float;\n#endif\n        attribute vec4 bcde;\n#ifdef WINDOWS\n# define NORMAL_PRECISION highp\n#else\n# define NORMAL_PRECISION mediump\n#endif\n        attribute NORMAL_PRECISION vec3 adae;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying NORMAL_PRECISION vec3 adeb;\n        varying float acde;\n        void main()\n        {\n            vec4 beb = bcb*bcde;\n            gl_Position = aaa*beb;\n            adeb.x = bcb[0][0] * adae.x + bcb[1][0] * adae.y + bcb[2][0] * adae.z;\n            adeb.y = bcb[0][1] * adae.x + bcb[1][1] * adae.y + bcb[2][1] * adae.z;\n            adeb.z = bcb[0][2] * adae.x + bcb[1][2] * adae.y + bcb[2][2] * adae.z;\n#if defined(WINDOWS)\n            adeb = normalize(adeb);\n#endif\n            acde = beb.z;\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n        precision highp sampler2D;\n#endif\n        varying vec3 v_normal;\n        varying vec3 v_worldPos;\n        uniform sampler2D acb;\n        uniform vec2 aabd;\n        uniform float abba;\n        bool occluded() {\n            float depth_thresh = 0.01;\n            vec2 texpos = fract(gl_FragCoord.xy  / aabd);\n            return abs(texture2D(acb, texpos).r - gl_FragCoord.z) > depth_thresh;\n        }\n        float modSquareAliased(vec2 coord, float size) {\n            vec2 p0 = fract(coord / vec2(size));\n            return (p0.x > 0.5 && p0.y > 0.5) || (p0.x < 0.5 && p0.y < 0.5) ? 0.0 : 1.0;\n        }\n        float modSquareAntiAliased(vec2 coord, float size) {\n            vec2 p0 = fract(coord / vec2(size));\n            float dist1 = max (abs(p0.x - 0.25), abs(p0.y - 0.25));\n            float dist2 = max (abs(p0.x - 0.75), abs(p0.y - 0.75));\n            float dist3 = max (abs(p0.x - 1.25), abs(p0.y - 0.25));\n            float dist4 = max (abs(p0.x + 0.25), abs(p0.y - 0.75));\n            float dist5 = max (abs(p0.x - 0.75), abs(p0.y + 0.25));\n            float dist6 = max (abs(p0.x - 0.25), abs(p0.y - 1.25));\n            float minDistToBlack = min(dist1, dist2);\n            minDistToBlack = min (minDistToBlack, min(dist3, dist4));\n            minDistToBlack = min (minDistToBlack, min(dist5, dist6));\n            float margin = 0.05;\n            return smoothstep (0.25-margin, 0.25+margin, minDistToBlack);\n        }\n        void main()\n        {\n            vec2 coord = v_worldPos.xy;  \n            float n_thresh = 0.6;\n            if (v_normal.x > n_thresh){ coord = v_worldPos.yz; }\n            if (v_normal.y > n_thresh){ coord = v_worldPos.xz; }\n            if (v_normal.z > n_thresh){ coord = v_worldPos.xy; }\n#if ENABLE_ANTIALIASING\n            vec3 checker = vec3(modSquareAntiAliased(coord, 0.2));\n#else\n            vec3 checker = vec3(modSquareAliased(coord, 0.2));\n#endif\n            vec4 color = vec4(0.0);\n            if (!occluded() ) {\n                color = vec4(checker, 0.5);\n            }\n            gl_FragColor = color;\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        attribute vec4 bcde;\n        attribute mediump vec3 adca;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying mediump vec3 adeb;\n        void main()\n        {\n            gl_Position = aaa *bcb *bcde;\n            adeb = adca;\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying vec3 v_normal;\n        varying vec3 v_worldPos;\n        void main()\n        {\n            v_normal = abs(adae);\n            v_worldPos = bcde.xyz;\n            gl_Position = aaa*bcb*bcde;\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        attribute vec4 bcde;\n        attribute vec4 bceb;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying mediump vec4 cadc;\n        void main()\n        {\n            gl_Position = aaa *bcb *bcde;\n            cadc = bceb;\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        attribute vec4 bcde;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        uniform sampler2D aebd;\n        varying vec2 bedb;\n        uniform float bbc;\n        uniform float _ubbdc;\n        uniform float becb;\n        uniform float accc;\n        uniform float _ubbed;\n        void main()\n        {\n            vec3 rgb = texture2D(aebd, bedb).rgb;\n            rgb.x = (_ubbed*rgb.x-_ubbdc)/(becb-_ubbdc);\n            rgb.y = (_ubbed*rgb.y-_ubbdc)/(becb-_ubbdc);\n            rgb.z = (_ubbed*rgb.z-_ubbdc)/(becb-_ubbdc);\n            if (accc > 0.5)\n            {\n                if (rgb.x < 0.018) rgb.x *= 4.5; else rgb.x = 1.099*pow(rgb.x,0.45)-0.099;\n                if (rgb.y < 0.018) rgb.y *= 4.5; else rgb.y = 1.099*pow(rgb.y,0.45)-0.099;\n                if (rgb.z < 0.018) rgb.z *= 4.5; else rgb.z = 1.099*pow(rgb.z,0.45)-0.099;\n            }\n            gl_FragColor = vec4(clamp(rgb,0.0,1.0), bbc);\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        varying mediump vec3 adeb;\n        void main()\n        {\n            gl_FragColor = vec4(adeb, 1.0);\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        varying mediump vec4 cadc;\n        void main()\n        {\n            gl_FragColor = cadc;\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n        void main()\n        {\n            gl_FragColor = vec4(0.0);\n        }\n        
+\n#ifdef GLES\n        precision highp float;\n#endif\n#ifdef WINDOWS\n# define NORMAL_PRECISION highp\n#else\n# define NORMAL_PRECISION mediump\n#endif\n        varying NORMAL_PRECISION vec3 adeb;\n        varying float acde;\n        const float bdc = 1.0/256.0;\n        const float cbaa = 1.0/255.0;\n        uniform float abbb;  \n        void main()\n        {\n            float abda = acde * abbb;\n            abda = (abda < 65536.0) ? abda : 0.0;  \n            gl_FragColor = vec4(floor(abda * bdc) * cbaa, mod(abda, 256.0) * cbaa\n                                , .5*(adeb.x+1.0), .5*(adeb.y+1.0));\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        attribute vec4 bcde;\n        attribute vec2 adcc;\n        uniform sampler2D be;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float cabc;\n        uniform float acee;\n        uniform float abca;\n        varying float aaec;\n        varying float cbec;\n        void main()\n        {\n            const float caee = 0.001;\n            highp vec4 cbdd = texture2DLod(be, adcc, 0.0);\n            highp float baca = cbdd.r * caee;\n            vec4 caab;\n            caab.xyz = bcde.xyz * baca;\n            caab.w = bcde.w;\n            vec2 babe = vec2(adcc.x, adcc.y + abca);\n            highp vec4 aaba = texture2DLod(be, babe, 0.0);\n            float bdaa = aaba.r * caee;\n            babe = vec2(adcc.x, adcc.y - abca);\n            aaba = texture2DLod(be, babe, 0.0);\n            float bee = aaba.r * caee;\n            babe = vec2(adcc.x + acee, adcc.y);\n            aaba = texture2DLod(be, babe, 0.0);\n            float bcba = aaba.r * caee;\n            babe = vec2(adcc.x - acee, adcc.y);\n            aaba = texture2DLod(be, babe, 0.0);\n            float cbeb = aaba.r * caee;\n            babe = vec2(adcc.x - acee, adcc.y + abca);\n            aaba = texture2DLod(be, babe, 0.0);\n            float cbea = aaba.r * caee;\n            babe = vec2(adcc.x + acee, adcc.y - abca);\n            aaba = texture2DLod(be, babe, 0.0);\n            float aeae = aaba.r * caee;\n            bool bea = (cbeb > 0.0);\n            bool cbce = (bcba > 0.0);\n            bool abad = (bdaa > 0.0);\n            bool accd = (bee > 0.0);\n            bool cbcb = (cbea > 0.0);\n            bool abdd = (aeae > 0.0);\n            highp vec3 aace = bcde.xyz * (bcba - baca);\n            aace.x = aace.x + bcba * cabc;\n            highp vec3 bbae = bcde.xyz * (bee - baca);\n            bbae.y = bbae.y - bee * cabc;\n            highp vec3 bdcb = bcde.xyz * (cbeb - baca);\n            bdcb.x = bdcb.x - cbeb * cabc;\n            highp vec3 aaad = bcde.xyz * (bdaa - baca);\n            aaad.y = aaad.y + bdaa * cabc;\n            highp vec3 zeroVec = vec3(0.0);\n            highp vec3 adba;\n            highp vec3 beca = cross(aaad, aace);\n            adba = (abad && cbce) ? normalize(beca) : zeroVec;\n            beca = cross(aace, bbae);\n            adba += (accd && cbce) ? normalize(beca) : zeroVec;\n            beca = cross(bbae, bdcb);\n            adba += (accd && bea) ? normalize(beca) : zeroVec;\n            beca = cross(bdcb , aaad);\n            adba += (bea && abad) ? normalize(beca) : zeroVec;\n            beca = normalize(adba);\n            vec3 adeb;\n            adeb.z = bcb[0][2] * beca.x + bcb[1][2] * beca.y + bcb[2][2] * beca.z;\n            const float bbe = 0.06;\n            float adac = baca * bbe;\n            vec4 beb = bcb * caab;\n            gl_Position = aaa*beb;\n            bool baab = (\n                             (abs(baca - bcba) > adac) ||\n                             (abs(baca - bee) > adac) ||\n                             (abs(baca - aeae) > adac)\n                             );\n            bool aedd = (\n                             (abs(baca - cbeb) > adac) ||\n                             (abs(baca - bdaa) > adac) ||\n                             (abs(baca - cbea) > adac)\n                             );\n            const float cabe = 16383.0;  \n            aaec = baab && !aedd ? 1.0 :  \n                          aedd && !baab ? -1.0 :  \n                          baab && aedd ? 0.0 :  \n                          cabe;  \n            const float aacc = -16383.0;\n            aaec = (baca <= 0.0 ||             \n                           length(adba) < 0.5 ||  \n                           gl_Position.z < 0.0)              \n                           ? aacc : aaec;\n            cbec = 0.5*abs(adeb.z) + 0.5;\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        attribute vec4 bcde;\n        attribute vec2 adcc;\n        uniform sampler2D be;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        uniform float cabc;\n        uniform float acee;\n        uniform float abca;\n        varying float acde;\n        varying float aaec;\n        varying mediump vec3 adeb;\n        void main()\n        {\n            const float caee = 0.001;\n            highp vec4 cbdd = texture2DLod(be, adcc, 0.0);\n            highp float baca = cbdd.r * caee;\n            vec4 caab;\n            caab.xyz = bcde.xyz * baca;\n            caab.w = bcde.w;\n            vec2 babe = vec2(adcc.x, adcc.y + abca);\n            highp vec4 aaba = texture2DLod(be, babe, 0.0);\n            float bdaa = aaba.r * caee;\n            babe = vec2(adcc.x, adcc.y - abca);\n            aaba = texture2DLod(be, babe, 0.0);\n            float bee = aaba.r * caee;\n            babe = vec2(adcc.x + acee, adcc.y);\n            aaba = texture2DLod(be, babe, 0.0);\n            float bcba = aaba.r * caee;\n            babe = vec2(adcc.x - acee, adcc.y);\n            aaba = texture2DLod(be, babe, 0.0);\n            float cbeb = aaba.r * caee;\n            bool bea = (cbeb > 0.0);\n            bool cbce = (bcba > 0.0);\n            bool abad = (bdaa > 0.0);\n            bool accd = (bee > 0.0);\n            highp vec3 aace = bcde.xyz * (bcba - baca);\n            aace.x = aace.x + bcba * cabc;\n            highp vec3 bbae = bcde.xyz * (bee - baca);\n            bbae.y = bbae.y - bee * cabc;\n            highp vec3 bdcb = bcde.xyz * (cbeb - baca);\n            bdcb.x = bdcb.x - cbeb * cabc;\n            highp vec3 aaad = bcde.xyz * (bdaa - baca);\n            aaad.y = aaad.y + bdaa * cabc;\n            highp vec3 zeroVec = vec3(0.0);\n            highp vec3 adba;\n            highp vec3 beca = cross(aaad, aace);\n            adba = (abad && cbce) ? normalize(beca) : zeroVec;\n            beca = cross(aace, bbae);\n            adba += (accd && cbce) ? normalize(beca) : zeroVec;\n            beca = cross(bbae, bdcb);\n            adba += (accd && bea) ? normalize(beca) : zeroVec;\n            beca = cross(bdcb , aaad);\n            adba += (bea && abad) ? normalize(beca) : zeroVec;\n            adba = normalize(adba);\n            adeb.x = bcb[0][0] * adba.x + bcb[1][0] * adba.y + bcb[2][0] * adba.z;\n            adeb.y = bcb[0][1] * adba.x + bcb[1][1] * adba.y + bcb[2][1] * adba.z;\n            adeb.z = bcb[0][2] * adba.x + bcb[1][2] * adba.y + bcb[2][2] * adba.z;\n            const float bbe = 0.05;\n            float adac = baca * bbe;\n            vec4 beb = bcb * caab;\n            gl_Position = aaa*beb;\n            aaec = (baca <= 0.0 ||                      \n                           gl_Position.z < 0.0 ||                \n                           length(adba) < 0.5 ||          \n                           (bea && (baca - cbeb) > adac) ||\n                           (cbce && (baca - bcba) > adac) ||\n                           (abad && (baca - bdaa) > adac) ||\n                           (accd && (baca - bee) > adac))\n                           ? 0.0 : 1.0;\n            acde = beb.z;\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        attribute vec4 bcde;\n        attribute vec2 adcc;\n        varying vec2 bedb;\n        void main()\n        {\n            gl_Position = bcde;\n            bedb  = adcc;\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        attribute vec4 bcde;\n        attribute vec3 adae;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying vec3 adeb;\n        varying float acde;\n        void main()\n        {\n            vec4 beb = bcb*bcde;\n            gl_Position = aaa*beb;\n            adeb.x = bcb[0][0] * adae.x + bcb[1][0] * adae.y + bcb[2][0] * adae.z;\n            adeb.y = bcb[0][1] * adae.x + bcb[1][1] * adae.y + bcb[2][1] * adae.z;\n            adeb.z = bcb[0][2] * adae.x + bcb[1][2] * adae.y + bcb[2][2] * adae.z;\n            acde = beb.z;\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        attribute vec4 bcde;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying float acde;\n        void main()\n        {\n            vec4 beb = bcb*bcde;\n            gl_Position = aaa*beb;\n            acde = beb.z;\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        struct SunLight\n        {\n            vec3 position;\n            vec4 ambientColor;\n            vec4 diffuseColor;\n            vec4 specularColor;\n        };\n        struct Material\n        {\n            vec4 ambientFactor;\n            vec4 diffuseFactor;\n            vec4 specularFactor;\n            float shininess;\n        };\n        uniform SunLight acdd;\n        uniform Material bebc;\n        uniform sampler2D aebd;\n        varying vec2 bedb;\n        varying vec3 aee;  \n        varying vec3 abac;  \n        uniform float bbc;\n        void main()\n        {\n            float distanceFactor = 1.0f;  \n            vec3 pointNormal = normalize(aee);\n            vec3 lightDir = normalize (acdd.position - abac);\n            float lightDirDotNormal = max(dot(lightDir,pointNormal), 0.1);\n            vec4 ambientLight = acdd.ambientColor * bebc.ambientFactor;\n            vec4 diffuseLight = lightDirDotNormal * acdd.diffuseColor * bebc.diffuseFactor;\n            vec4 specularLight = vec4(0,0,0,0);\n            if (lightDirDotNormal > 0.0)\n            {\n                vec3 viewDir = normalize (-abac);\n                vec3 halfDir = normalize(lightDir + viewDir);\n                float specAngle = max(dot(halfDir, pointNormal), 0.0);\n                specularLight = pow(specAngle, bebc.shininess) * acdd.specularColor * bebc.specularFactor;\n            }\n            vec3 color = texture2D(aebd, bedb).rgb * (ambientLight + diffuseLight).rgb + specularLight.rgb;\n            gl_FragColor = vec4(color, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform float bbc;\n        uniform float bbdc;\n        uniform float caad;\n        uniform float bcaa;\n        uniform float bbed;\n        varying vec3 _vabcd;\n        void main()\n        {\n            vec3 rgb;\n            rgb.x = (bbed*_vabcd.x-bbdc)/(caad-bbdc);\n            rgb.y = (bbed*_vabcd.y-bbdc)/(caad-bbdc);\n            rgb.z = (bbed*_vabcd.z-bbdc)/(caad-bbdc);\n            if (bcaa > 0.5) {\n                if (rgb.x < 0.018) rgb.x *= 4.5; else rgb.x = 1.099*pow(rgb.x,0.45)-0.099;\n                if (rgb.y < 0.018) rgb.y *= 4.5; else rgb.y = 1.099*pow(rgb.y,0.45)-0.099;\n                if (rgb.z < 0.018) rgb.z *= 4.5; else rgb.z = 1.099*pow(rgb.z,0.45)-0.099;\n            }\n            gl_FragColor = vec4(clamp(rgb,0.0,1.0), bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform float bbc;\n        varying vec3 _vabcd;\n        void main()\n        {\n            gl_FragColor = vec4(_vabcd, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform sampler2D aebd;\n        varying vec2 bedb;\n        uniform float bbc;\n        uniform float _ubbdc;\n        uniform float becb;\n        uniform float accc;\n        uniform float _ubbed;\n        void main()\n        {\n            vec3 rgb = texture2D(aebd, bedb).rgb;\n            rgb.x = (_ubbed*rgb.x-_ubbdc)/(becb-_ubbdc);\n            rgb.y = (_ubbed*rgb.y-_ubbdc)/(becb-_ubbdc);\n            rgb.z = (_ubbed*rgb.z-_ubbdc)/(becb-_ubbdc);\n            if (accc > 0.5)\n            {\n                if (rgb.x < 0.018) rgb.x *= 4.5; else rgb.x = 1.099*pow(rgb.x,0.45)-0.099;\n                if (rgb.y < 0.018) rgb.y *= 4.5; else rgb.y = 1.099*pow(rgb.y,0.45)-0.099;\n                if (rgb.z < 0.018) rgb.z *= 4.5; else rgb.z = 1.099*pow(rgb.z,0.45)-0.099;\n            }\n            rgb.r = (rgb.x + rgb.y + rgb.z) * 0.33333333;\n            rgb.g = 0.0;\n            rgb.b = 0.0;\n            gl_FragColor = vec4(rgb.rgb, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform sampler2D aebd;\n        varying vec2 bedb;\n        varying float cbec;\n        uniform float bbc;\n        void main()\n        {\n            gl_FragColor = vec4(texture2D(aebd, bedb).bgr, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform sampler2D aebd;\n        varying vec2 bedb;\n        varying float cbec;\n        uniform float bbc;\n        void main()\n        {\n            gl_FragColor = vec4(texture2D(aebd, bedb).rgb, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform sampler2D aebd;\n        varying vec3 bddd;\n        varying vec3 acbc;\n        varying float cbec;\n        uniform float bbc;\n        void main()\n        {\n            vec2 uv0 = bddd.xy;\n            vec2 uv1 = acbc.xy;\n            vec3 c0 = texture2D(aebd, uv0).bgr;\n            vec3 c1 = texture2D(aebd, uv1).bgr;\n            float w0 = bddd.z;\n            float w1 = acbc.z;\n            vec3 color = (c0 * w0 + c1 * w1) / (w0 + w1);\n            if ((w0+w1) < 0.00001)\n            {\n                color = vec3 (1.0, 0.0, 0.0);\n            }\n            gl_FragColor = vec4 (color, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform sampler2D cab;\n        varying vec2 bedb;\n        uniform vec2 aea;\n        uniform vec2 acbd;\n        uniform vec2 cbda;\n        uniform vec2 bdbc;\n        uniform vec2 cbbe;\n        uniform vec2 acba;\n        void main()\n        {\n            float adbd = (bedb.x*aea.x + 0.5 - cbda.x)/acbd.x;\n            float cbdc = (bedb.y*aea.y + 0.5 - cbda.y)/acbd.y;\n            float acea = bdbc[0];\n            float cba = bdbc[1];\n            float aaaa = adbd;\n            float bdb = cbdc;\n            for (int j = 0; j < 10; j++)\n            {\n                float cbac = adbd * adbd + cbdc * cbdc;\n                float cacd = 1.0 + (cba*cbac + acea)*cbac;\n                adbd = aaaa / cacd;\n                cbdc = bdb / cacd;\n            }\n            vec2 caec = vec2( (adbd*cbbe.x + acba.x - 0.5)/aea.x,\n                                    (cbdc*cbbe.y + acba.y - 0.5)/aea.y);\n            bool bccd = (caec.x >= 0 && caec.x <= 1.0 && caec.y >= 0 && caec.y <= 1.0);\n            vec4 babd = bccd ? texture2D(cab, caec) : vec4(0,0,0,0);\n            gl_FragColor = vec4(babd.rgb, bccd);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform sampler2D cbb;\n        varying vec2 bedb;\n        void main()\n        {\n            gl_FragColor = texture2D(cbb, bedb);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        uniform vec3 _uabcd;\n        uniform float bbc;  \n        void main()\n        {\n            gl_FragColor = vec4(_uabcd.xyz, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying float acde;\n        const float div_256 = 1.0/256.0;\n        const float div_255 = 1.0/255.0;\n        void main()\n        {\n            float depth_mm = acde * (1000.0);\n            gl_FragColor = vec4(floor(depth_mm * div_256) * div_255, mod(depth_mm, 256.0) * div_255, 0, 0);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying float acde;\n        varying mediump vec3 adeb;\n        const float bdc = 1.0/256.0;\n        const float cbaa = 1.0/255.0;\n        uniform float abbb;  \n        varying vec2 aed;\n        varying float aaec;\n        void main()\n        {\n            if (aaec < 0.95)\n                discard;\n            float baed = acde ;\n            float abda = baed * abbb;\n            abda = (abda < 65536.0) ? abda : 0.0;  \n            abda = aaec < 0.95 ? 0.0 : abda;\n            vec3 normal = aaec < 0.95 ? vec3(0.0,0.0,0.0) : adeb;\n            gl_FragColor = vec4(floor(abda * bdc) * cbaa, mod(abda, 256.0) * cbaa, .5*(normal.x+1.0), .5*(normal.y+1.0));\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying float bdbb;\n        void main()\n        {\n            gl_FragColor = vec4(bdbb, bdbb, bdbb, 1.0);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying float cbec;\n        uniform float bbc;  \n        void main()\n        {\n            gl_FragColor = vec4(cbec, cbec, cbec, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying float cbec;\n        uniform float bbc;\n        void main()\n        {\n            gl_FragColor = vec4(cbec, cbec, cbec, bbc);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying float cbec;\n        varying float aaec;\n        void main()\n        {\n            if (abs(aaec) < 1.0 || aaec < -2.0)\n                discard;\n            gl_FragColor = vec4(cbec, cbec, cbec, 1.0);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying float cbec;\n        varying float aedc;\n        uniform float bbc;\n        uniform float ad;\n        void main()\n        {\n            float gb = cbec, alpha = bbc;\n            if (aedc < ad)\n            {\n                alpha *= 0.5;\n                gb = 0.;\n            }\n            gl_FragColor = vec4(cbec, gb, gb, alpha);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying vec3 acdb;\n        void main()\n        {\n            gl_FragColor = vec4(acdb, 1.0);\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying vec3 adeb;\n        varying float acde;\n        const float bdc = 1.0/256.0;\n        const float cbaa = 1.0/255.0;\n        void main()\n        {\n            float baed = acde * (1000.0);\n            gl_FragColor = vec4(floor(baed * bdc) * cbaa, mod(baed, 256.0) * cbaa\n                                , .5*(adeb.x+1.0), .5*(adeb.y+1.0));\n        }\n        
+\n#ifdef GLES\n        precision mediump float;\n#endif\n        varying vec3 adeb;\n        varying float acde;\n        void main()\n        {\n            gl_FragColor = vec4(acde,acde,acde,1.0);\n        }\n        
+\n******************************************************************\n* FATAL ERROR:                                                   *\n* This OpenCV build doesn't support current CPU/HW configuration *\n*                                                                *\n* Use OPENCV_DUMP_CONFIG=1 environment variable for details      *\n******************************************************************\n
+\n<!-- next stream -->\n
+\nOpenCV build configuration is:\n%s\n
+\nRequired baseline features:\n
+\rmj>zjZ
+\rr?pxs?d
+\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \u%04x
 \u2028
 \u2029
-] D+\$8L
-]?Qo[?
-]A_A]A\[
-]HH9MXt:H
-]_j&(
-^ H+^
-^ t$f
-^ ~@H
+\vp09A
 ^RROR
-^YU^7
 ^oEZ_
-_$HcW A
-_$HcW B
-_(8_8u
-_,N;t
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -9197,44 +5496,36 @@ _unlock_file
 _vOn?
 _wopen
 _write
-`&/fW#
-`.rdata
-`A]A\[
-`A]_^][
-`A^A]A\_[
-`A^^[
-`A^_^
-`A^_^][
-`A_A][
-`A_A^A\_^][
-`A_A^A]A\_^[
-`A_A^A]A\_^]
-`A_A^A]_^
-`A_A^_][
-`A_A^_^]
-`A_^[
-`A_^]
-`Hcr M
-```````
-`u+fA
-a5`*"
-aD$`fD
-aT$Pf
-a\$ f
+`09A
+aAM"
 a_size.height == len
 a_size.width == len
-a```````H
-a```````I
+aabd
+abba
+abbb
+abca
+abce
 abort
+acba
+acbd
+accc
 acdd.ambientColor
 acdd.diffuseColor
 acdd.position
 acdd.specularColor
+acee
 acosf
 acquire/release InputBuffer
 acquireInputBuffer
+adae
+adca
+adcc
 added to pool
 address_
+aebb
+aebd
+aece
+aeeb
 allocated
 anchor.inside(Rect(0, 0, ksize.width, ksize.height))
 android_yuv
@@ -9249,7 +5540,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
-aposH
+apos
 argsSize != writtenArgsSize <==> %i != %i
 arrays[i] != 0
 ascii
@@ -9258,20 +5549,31 @@ at least one digit required in fractional part
 atan2
 atan2f
 atanf
+atof
+atoi
 atyp == 0x01 || atyp == 0x03 || atyp == 0x04
-a}5Hc
-a}9Hc
-b < 16
 b,%d,%lld,%lld,%lld
+bKGD
+b\vp\n0
 bad \u escape: 
 bad allocation
 bad array new length
 bad cast
+badb
 base64 data is not supported
+bbac
+bbdc
+bbed
+bcaa
+bcde
+bceb
+bdbc
 bebc.ambientFactor
 bebc.diffuseFactor
 bebc.shininess
 bebc.specularFactor
+becb
+bedc
 bias_accel
 bias_gyro
 binary
@@ -9280,13 +5582,13 @@ binary_little_endian
 blockIdx < fs_data_ptrs.size()
 blockIdx == fs_data_ptrs.size()-1
 blockSize
+blue
 bool __cdecl cv::clipLine(class cv::Size_<__int64>,class cv::Point_<__int64> &,class cv::Point_<__int64> &)
 bool __cdecl cv::eigen(const class cv::_InputArray &,const class cv::_OutputArray &,const class cv::_OutputArray &)
 bool __cdecl cv::hal::Cholesky32f(float *,unsigned __int64,int,float *,unsigned __int64,int)
 bool __cdecl cv::hal::Cholesky64f(double *,unsigned __int64,int,double *,unsigned __int64,int)
 bool __cdecl cv::imwrite(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class cv::_InputArray &,const class std::vector<int,class std::allocator<int> > &)
 bool __cdecl cv::solve(const class cv::_InputArray &,const class cv::_InputArray &,const class cv::_OutputArray &,int)
-bt};=
 buf.isContinuous()
 bufId_ != 0
 bufType == srcType
@@ -9294,8 +5596,10 @@ buffer error
 buffer_size == header_size
 business
 bytes >= 0
-cAMDt
 c[0] >= 0 && c[1] >= 0 && c[2] >= 0 && c[0] + c[1] + c[2] < softfloat((int)LAB_CBRT_TAB_SIZE)
+caac
+caad
+cabc
 cacheFolderPath
 call_GetCurrentPerceptionEngineInternalState failed
 call_GetDenseMap failed
@@ -9310,14 +5614,19 @@ call_SetNumericalProperty failed: nValues must be < %d
 call_SetTrackerPaused failed
 call_readTrackingStatus failed
 cam%d
+cam_
 cameraEOEToArrival
 cameraEOEToEarlyCapture
 cameraEOEToStartTracking
 cameraToRender
 caterpie
+cbbe
+cbda
 ccltype == CCL_GRANA || ccltype == CCL_WU || ccltype == CCL_DEFAULT
+ceil
 ceilf
 channels() == CV_MAT_CN(dtype)
+char
 charmander
 check ()
 checkScalar(value, type(), _value.kind(), _InputArray::MAT )
@@ -9333,10 +5642,7 @@ class std::basic_string<char,struct std::char_traits<char>,class std::allocator<
 clrused >= 0 && clrused <= 256
 cmd.type == command_t::done
 cmpop == CMP_NE
-cn <= 4
-cn == 1
 cn == 1 || cn == 3 || cn == 4
-cn == 4
 cn == CV_MAT_CN(_dstType)
 cn == CV_MAT_CN(bufType) && ddepth >= std::max(sdepth, CV_32S) && kernel.type() == ddepth
 cn == CV_MAT_CN(bufType) && sdepth >= std::max(ddepth, CV_32S) && kernel.type() == sdepth
@@ -9354,6 +5660,7 @@ connectivity == 8 || connectivity == 4
 constVal != NULL
 convertToShow
 coreHmdPoseUpdate
+cosf
 could not find a writer for the specified extension
 count >= 0
 create() called for the missing output array
@@ -9845,82 +6152,7 @@ cvUpdateWindow
 d == 2 && ((sizes[0] == sz.height && sizes[1] == sz.width) || (allowTransposed && sizes[0] == sz.width && sizes[1] == sz.height))
 d == 2 && (sizes[0] == 1 || sizes[1] == 1 || sizes[0]*sizes[1] == 0)
 d == 2 && sz.area() == sizes[0]*sizes[1]
-d$ E3
-d$ H9|$8
-d$ Hc
-d$ I+
-d$ fD
-d$$L;L$8
-d$(A+
-d$(D+
-d$(D;
-d$(E3
-d$(HcL
-d$(fI
-d$,A+
-d$0;D$$
-d$0E3
-d$0H+\$xM
-d$0L;
-d$4A;
-d$4E;
-d$4E;g
-d$8A;
-d$8D+
-d$8D;
-d$8E+
-d$8E2
-d$8E3
-d$8H+
-d$8H;
-d$8I;
-d$8Ic
-d$8L+l$8I
-d$8LcD$XH
-d$8M;
-d$8fff
-d$@Hc
-d$@I;
-d$@Ic
-d$@Jc
-d$@Kc
-d$@M;
-d$@u>
-d$HD+
-d$HD;
-d$HE3
-d$HIc
-d$HLc
-d$PA+
-d$PH+\$0M
-d$PHcQ,3
-d$PLi
-d$XI+
-d$XL;
-d$XL;e
-d$XLc
-d$XfA
-d$Xfff
-d$`E3
-d$`H=
-d$`I+
-d$`L;
-d$`M;
-d$`fA
-d$hH;
-d$pD;@
-d$pD;F
-d$pE3
-d$pE;
-d$pH+
-d$pIc
-d$xD;@
-d$xD;F
-d$xE3
-d$xE;
-d$xI+
-d$xM;
-d$xfB
+dQy/
 data && m_current && count >= 0
 data == datastart
 data error
@@ -9962,16 +6194,8 @@ dstType
 dstcn == 3 || dstcn == 4
 dtype
 dummy == 0
-e D;[
-e(D8w
 e,%d,%lld,%lld,%lld,%lld
-e0D+e
-e0D8a=
-e@A_A^A]A\]
-e@H9\$pt
-eHH9\$Xt
 eclipse
-effffff
 egypt
 egypt-
 element
@@ -9981,10 +6205,10 @@ elements with keys can not be written to sequence
 enableFetchingRecentPosesFromTracker
 encoder->isFormatSupported(CV_8U)
 end_header
+end_header\n
 end_marker
 engine_ != NULL
-entiu
-epL+ehH
+epgm
 equal to
 erased
 erased == 1
@@ -9994,45 +6218,25 @@ error not defined
 estimated error: 
 ewh/?y
 exceeded maximum nesting depth
+exit
 expand 32-byte k
 expected '"' in object, got 
 expected ',' in list, got 
 expected ',' in object, got 
 expected ':' in object, got 
 expected value, got 
+expf
 extrinsics
 extrinsicsOffsets
-f-9a*
-f-tZ*
-f-yc*
-f9C s(H
-f9D$@u
-f9Exu&
-f9P A
-f;B s
-f;K sIH
-f;P A
-fA9A 
-fA9DJ
-fA9L1
-fC9L`
-fC9T2
-fD9a sJL
-fD9c s_H
-fD9lP
-fD;C sCH
-fD;Fz
-fE),GL
-fE;a s?H
+fP~V
+face
 false
 fatal
 fclose
 fd_ != retired_fd
 fd_entry.fd != retired_fd
 feature.size() > 0
-fff?H
-fffff
-fffffff
+feof
 fflush
 fgetc
 fgetpos
@@ -10048,18 +6252,20 @@ floorf
 fmt == FileStorage::FORMAT_JSON
 fopen
 format
-format ascii 1.0
-format binary_little_endian 1.0
+format ascii 1.0\n
+format binary_little_endian 1.0\n
 fputc
 fputs
 frameSize
 fread
+free
 freeaddrinfo
-fs != 0
 fs->eof()
 fseek
 fsetpos
 ftell
+fu`z
+func
 func != 0
 func != 0 && cn <= 4
 func && "Not supported"
@@ -10067,20 +6273,13 @@ fwrite
 gdiplus.dll
 generic
 getDenseMap is not implemented yet.
-get_ascii_item: bad type = %d
-get_binary_item: bad type = %d
+get_ascii_item: bad type = %d\n
+get_binary_item: bad type = %d\n
 get_load () == 0
 get_load () > 0
 getaddrinfo
 getenv
 getnameinfo
-gfffffff
-gfffffffH
-gfffffffH+
-gfffffffI
-gfffffffI+M
-gfffffffL+
-gfffffffM
 glActiveProgramEXT
 glActiveShaderProgram
 glActiveStencilFaceEXT
@@ -12571,18 +8770,14 @@ glWindowRectanglesEXT
 glWriteMaskEXT
 glewInit failed: %s (%i)
 global_queue
+gqr<
 greater than
 greater than or equal to
 green
 guide.depth() == CV_8U && (guide.channels() == 1 || guide.channels() == 3)
 guide.type() == CV_8UC1 || guide.type() == CV_8UC3
 gz?Rpy?Mex?
-hA^A]_^][
-hA^_][
-hA_A]A\_^]
-hA_A^A]A\_^][
-hD9l7
-h_^][
+hPU3
 header crc mismatch
 height
 hint score %f
@@ -12590,21 +8785,19 @@ hint_
 historyMaxAngleRotatedDegrees
 historyMaxDistanceShiftedMeters
 historyMaxTimeSeconds
-hl$pfD
 hostname_.size () <= UINT8_MAX
 hrange == 180 || hrange == 256
 i < (int)v.size()
 i < (int)vv.size()
-i < 0
 i < _count
 i < sz.height
 i > 0 && i < sz.height
 i >= 0 && (size_t)i < vv.size()
 i1 >= 0 && j < ndsts && dst[j].depth() == depth
-iD$ fA
+i91k
 iDepth == CV_8U || iDepth == CV_8S
-icj:]
-id$Pf
+iTXt
+i]Wb
 id_ == linger_timer_id
 id_ == reconnect_timer_id
 id_ == reconnect_timer_id || id_ == connect_timer_id
@@ -12628,7 +8821,7 @@ incorrect data check
 incorrect header check
 incorrect length check
 index
-ineIA
+info
 init_config
 inproc
 inproc://zeromq.zap.01
@@ -12719,6 +8912,7 @@ int __cdecl cv::waitKey(int)
 int __cdecl cv::waitKeyEx(int)
 int16
 int32
+int8
 integer
 internal error: deflate stream corrupt
 internal error: inflate stream corrupt
@@ -12745,7 +8939,6 @@ invalid string position
 invalid unordered_map<K, T> key
 invalid vector<T> subscript
 invalid window size
-io$>]
 io_thread
 io_thread_
 isMap()
@@ -12760,174 +8953,24 @@ isdigit
 isspace
 isxdigit
 it != _out_pipes.end ()
-i|$`f
 j < maxCount - 1 && "OpenCV persistence doesn't support very long lines"
 j < nsrcs && src[j].depth() == depth
-k < 16
-k == MAT
 k == OPENGL_BUFFER
 k == STD_VECTOR_MAT || k == STD_ARRAY_MAT
-k0D;cX
-kT8$'
 kernel.type() == DataType<DT>::type && (kernel.rows == 1 || kernel.cols == 1)
 kernel.type() == DataType<ST>::type && (kernel.rows == 1 || kernel.cols == 1)
 kernelX.type() == kernelY.type() && (kernelX.cols == 1 || kernelX.rows == 1) && (kernelY.cols == 1 || kernelY.rows == 1)
 key2 < fs->p->str_hash_data.size()
 key_ != -1 && "Can't fetch data from terminated TLS container."
-key_ == -1
 keyframe #%d
 keyframingStrategy
 ksize <= MAX_ESIZE
 ksize.width > 0 && ksize.width % 2 == 1 && ksize.height > 0 && ksize.height % 2 == 1
-ktHck
 ktype == CV_32F || ktype == CV_64F
 ktype == CV_8U || ktype == CV_32S || ktype == CV_32F || ktype == CV_64F
-l!;b	F
-l$ AVH
-l$ D+l$XA
-l$ D;
-l$ D;l$$
-l$ E3
-l$ E;
-l$ E;Y
-l$ H+
-l$ H;
-l$ H=
-l$ I;
-l$ Ic
-l$ L;
-l$ Lc
-l$ VD
-l$ VH
-l$ VWATAUAVH
-l$ VWATAUAWH
-l$ VWATAUH
-l$ VWATAVAWH
-l$ VWATH
-l$ VWAUAVAWH
-l$ VWAVH
-l$ VWAWD
-l$ WATAUAVH
-l$ WATAVH
-l$ WH
-l$ WL
-l$ fA
-l$ fff
-l$(E;
-l$(H;
-l$(Hc
-l$(I+
-l$(I;
-l$(Ic
-l$(M;
-l$0D;p
-l$0E3
-l$0E;p
-l$0H+
-l$0H;\$ 
-l$0Hc
-l$0Ic
-l$0L;
-l$0fff
-l$4A+
-l$4Hc
-l$4I9F8t
-l$8;F
-l$8A+
-l$8A__^
-l$8D+
-l$8D;
-l$8E3
-l$8E;
-l$8Hc
-l$8LcL$hH
-l$<Hc
-l$@;F
-l$@A]A\_^
-l$@D;
-l$@H+
-l$@Hc
-l$@Ic
-l$@L+
-l$@L9l$Ht
-l$@L9l$Ht:H+
-l$@L;
-l$@Lc
-l$@Lc|$pL
-l$@M;
-l$@McV
-l$@fff
-l$DfA
-l$HA;
-l$HA;B
-l$HD9v
-l$HD;
-l$HD;\$
-l$HD;c
-l$HH+
-l$HH;t$(
-l$HHc
-l$HI+
-l$HI;
-l$HL;d$X
-l$HM;
-l$LA;
-l$PA;
-l$PE3
-l$PI+
-l$PI;
-l$PL;
-l$PM;
-l$Pff
-l$TE3
-l$XA+
-l$XD;
-l$XE3
-l$XH;
-l$XHc
-l$XI+
-l$XL;|$h
-l$XM;
-l$Xt	
-l$`E+
-l$`E3
-l$`I;
-l$`Ic
-l$`Lc
-l$`tTH
-l$dE;
-l$dHc
-l$hE3
-l$hH;
-l$hH;D$8t
-l$hHcZ
-l$hI;
-l$hIc
-l$hL+
-l$hLcq
-l$pE3
-l$pE9`
-l$pE9e
-l$pH;
-l$pHc
-l$pHcZ
-l$pI;
-l$pL9m
-l$pL;
-l$pM+
-l$pff
-l$tE3
-l$x;T$\L
-l$xE+
-l$xE;
-l$xH+
-l$xHcE
-l$xI+
-l$xM;
-l,%lld,"%s",%d,"%s",0x%llX
+l,%lld,"%s",%d,"%s",0x%llX\n
 l6qnk
-lIcT$
-lIc_hH
+lDa>
 leading 0s not permitted in numbers
 left-brace of top level is missing
 left.size() == right.size() && left.type() == right.type() && left.depth() == CV_8U
@@ -12938,10 +8981,12 @@ len0 > 0
 less than
 less than or equal to
 libzmq
+list
 list<T> too long
+log2
+logf
 logitsConfidence
 logits_confidence
-m == n
 m.dims
 m.dims <= 2
 m.dims <= 2 && m.rows == m.cols
@@ -12987,10 +9032,11 @@ minPoseDeltaOrTimeBased
 minTimeToAddKeyframeInSeconds
 minViewVisibility
 min_depth
-mj>zjZ
+mode
 modelPath
 model_path
 motionIsInitialized
+mrm-
 ms-concurrency
 msg.flags () & msg_t::more
 mtllib
@@ -13001,12 +9047,9 @@ must be
 mv && n > 0
 mv[i].size == mv[0].size && mv[i].depth() == depth
 my_object
-n > 0
 n.isString() && String(n) == name_
-n<:Lc
-nNZ#I
 nV@'1
-nX{&&
+name
 name_len <= UCHAR_MAX
 narrays <= 1000
 nattr % 2 == 0
@@ -13026,124 +9069,28 @@ new_min > _min || new_max < _min + _count - 1
 new_min >= _min
 new_min >= _min && new_min < _min + _count
 newmtl
+node
+none
+norm
 normals
 not equal to
 nstripes
+null
 null input
 numDisparities
 numDisparities must be positive and divisble by 16
 numViews
 numberOfDisparities > 0 && disp.type() == CV_16S && (costType == CV_16S || costType == CV_32S) && disp.size() == cost.size()
 ny > 0 && nx > 0
-o%5#"
-o%5e 
-o%L+!
-o%O`+
-o%Ps!
-o%`q+
-o%a#!
-o%gZ!
-o%hR!
-o%k_ 
-o%v.!
-o%~k!
-o,$fA
-o-)""
-o-Oo,
-o-^-+
-o-_7'
-o-r6!
-o-w*!
-o4GfA
-o5,~$
-o52O"
-o59?,
-o5e6!
-o5fY+
-o5g/'
-o5nr!
-o5o&*
-o5s*!
-o<(fD
-o=#r'
-o=."A
-o=0R<
-o=[,<
-o=\8,
-o=g+"
-o=tk$
-o={r!
-o?D9N$|
-oD$ H
-oD$ fD
-oD$0f
-oD$0fA
-oD$@H
-oD$@I
-oD$@fA
-oD$@fD
-oD$PA
-oD$Pf
-oD$PfA
-oD$`@
-oD$`f
-oD$`fA
-oD$pf
-oD$pfA
-oDA I
-oDA M
-oDO f
-oDO0f
-oDW f
-oE fD
-oEPfA
-oG0HcN
-oH fD
-oHH;O@t
-oL$ H
-oL$0M
-oL$0f
-oL$0fA
-oL$@H
-oL$@f
-oL$Pf
-oL$PfA
-oL$`fD
-oL$pE3
-oL$pf
-oLW0f
-oQ fA
-oQ0fA
-oT$ I
-oT$ M
-oT$ f
-oT$@f
-oT$`fD
-oT$pf
-oU fA
-o\$ D
-o\$0D+
-o\$0f
-o\: f
-o]@fA
-o]pfA
 obj_info
 ocWorldFromOcRawRefCamera
 ocWorldFromOcRectifiedRefCamera
 occipitl
 ocdbg-
-od$ D
-od$ fA
-od$0fA
-od$@fE
-od$Pf
-od$PfA
-oepfA
 ofs < fs_data_blksz[blockIdx]
 ofs <= fs_data_blksz[blockIdx]
 ofs <= sz
 ofs == fs_data_blksz[blockIdx]
-ol$pfA
 ole32.dll
 only JPEG is supported when deserialzing in Windows, you are trying to use another mode ! Throwing an exception
 op == CMP_LT || op == CMP_LE || op == CMP_EQ || op == CMP_NE || op == CMP_GE || op == CMP_GT
@@ -13157,49 +9104,19 @@ openvr_stereo
 openvr_yuyv
 options.recv_routing_id
 options.type == ZMQ_DISH || options.type == ZMQ_RADIO || options.type == ZMQ_DGRAM
-ot$ f
-ot$0fD
-ot$Pf
-ot$`f
-ouPfA
-oupHcD$DH
 out of memory
 output_size
-o|$ fA
-o|$@f
-o|$`fA
-o}`fA
-p	DfA
-p != 0
-p H+p
-p WAVAWH
-p(I;v
+p09A
+p6te
 p@ucwsifdh
-pA]A\^][
-pA^A\_][
-pA^A]A\_[
-pA^][
-pA^_^
-pA^_^][
-pA_A^A\_^
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-pA_A^A]_^][
-pA_A^^
-pA_A^_^]
-pA_^[
-pA_^]
-pI`DfD
-pW'Lo
-pY0DfD
-pYPDfD
-pYpDf
+pHYs
 parallel_for
 parallel_for_body
 params.size() <= CV_IO_MAX_IMAGE_PARAMS*2
 parse error: expected 
 password.length () <= UCHAR_MAX
 patchTrackingPlaneDetectorConfig
+path
 peer.options.type == ZMQ_REP || peer.options.type == ZMQ_ROUTER || peer.options.type == ZMQ_SERVER
 pfd.revents & POLLIN
 pipe != NULL
@@ -13207,58 +9124,52 @@ pipe_
 pipe_ != NULL
 pipe_ == _pipe || pipe_ == _zap_pipe || _terminating_pipes.count (pipe_) == 1
 pixel_coordinates_convention
-ply_get_element: unexpected end of file
+ply\n
+ply_get_element: unexpected end of file\n
 point #%d
 poly3Intrinsics
-pos >= 0
 pos >= m_block_pos
+powf
 preFilterCap
 preFilterCap must be within 1..63
 preFilterSize
 preFilterSize must be odd and be within 5..255
 preFilterType
 preFilterType must be = CV_STEREO_BM_NORMALIZED_RESPONSE
+prob
 processed <= _insize
 property
-property float blue
-property float green
-property float nx
-property float ny
-property float nz
-property float red
-property float s
-property float t
-property float x
-property float y
-property float z
-property list uchar float texcoord
-property list uchar uint vertex_indices
-property uchar blue
-property uchar green
-property uchar red
+property float blue\n
+property float green\n
+property float nx\n
+property float ny\n
+property float nz\n
+property float red\n
+property float s\n
+property float t\n
+property float x\n
+property float y\n
+property float z\n
+property list uchar float texcoord\n
+property list uchar uint vertex_indices\n
+property uchar blue\n
+property uchar green\n
+property uchar red\n
 psrc1->sameSize(*psrc2) && type1 == type2
 ptr >= bufferstart && ptr <= bufferEnd()
 ptr is NULL
-q@LcElHcEhH
+px]y
 qHEVC
-q`H9r`
-quotH
+quot
 r == Range::all() || (0 <= r.start && r.start < r.end && r.end <= m.size[i])
-r(LcC
-r6w4J
-r;L9}
-r?pxs?d
-rKH9}
 radius >= 0 && thickness <= MAX_THICKNESS && 0 <= shift && shift <= XY_SHIFT
+rand
 range.end
 range.start
 ranges
 rc != WSA_WAIT_IO_COMPLETION
-rc == 0
-rc == 1
 realloc
 reason_ == stream_engine_t::connection_error || reason_ == stream_engine_t::timeout_error || reason_ == stream_engine_t::protocol_error
-refs_ >= 0
 region->pImpl
 releaseOutputBuffer
 remove_all
@@ -13270,32 +9181,20 @@ resizeGl
 ret.size > maxMessageSize(%i) - sizeof(XRIPCReturnTypeId) - sizeof(size_t)
 retired == 1
 rewind
-rgn != 0
 rgn1 != 0
 rgn2 != 0
 rhs.data == 0 || (rhs.type() == type && rhs.rows == m)
+rlRN
 round
 roundf
 rowFilter && columnFilter
-s >= 0
-s E;w
-s UWATAUAVI
-s WATAUAVAWH
-s(@8s8u
-s(D8s8u
-s1E9r
-s2fff
-s3E9r
-s8@8s
-s9D9D$0t"H
-sZANe
+ru&o
 sa_ && sa_len_ > 0
-sbetu=
+same
 scaleFactorsCrossAxis_accel
 scaleFactorsCrossAxis_gyro
 scaleFactors_accel
 scaleFactors_gyro
-scn == 1
 scn == 1 && (dcn == 3 || dcn == 4)
 scn == 1 && dcn == 1
 scn == 1 && dcn == 3
@@ -13307,10 +9206,12 @@ session_
 set_terminate
 setlocale
 setvbuf
+sgbm
 shape
 shape == MORPH_RECT || shape == MORPH_CROSS || shape == MORPH_ELLIPSE
 short
 shouldDisconnect
+sinf
 size > 0
 size.width>0 && size.height>0
 size_ <= _to_read
@@ -13320,7 +9221,7 @@ socket_type_ >= 0 && socket_type_ < (int) names_count
 spearow
 speckleRange
 speckleWindowSize
-sqH;D$Hw
+sqrt
 sqrtf
 src && dst && count > 0
 src && nsrcs > 0 && dst && ndsts > 0 && fromTo && npairs > 0
@@ -13348,7 +9249,7 @@ step[dims-1] == (size_t)CV_ELEM_SIZE(flags)
 stereo-
 stereoCalibration
 stereoFrameCreation
-store_item: bad type = %d
+store_item: bad type = %d\n
 strcat_s
 strchr
 strcpy_s
@@ -13400,240 +9301,15 @@ sz.width
 sz.width % 2 == 0 && sz.height % 2 == 0
 sz.width % 2 == 0 && sz.height % 3 == 0
 sz[i] <= (size_t)INT_MAX
-s~H;D$Hw
-t	9H A
-t	9P A
-t A9J }
-t!HcD$,A
-t!I9R |
-t"HcD$@A
-t#D9wLt
-t#H;p
-t$ @8s`
-t$ ATAVAWH
-t$ ATAVAWIc
-t$ AVAWLct$8H
-t$ AVD
-t$ AVH
-t$ AWH
-t$ AWL
-t$ A^
-t$ A_][
-t$ D9
-t$ D;C8
-t$ E3
-t$ E;
-t$ H+
-t$ H;
-t$ Hc
-t$ I;
-t$ Ic
-t$ IcL
-t$ L;
-t$ LcL$xL
-t$ Mc
-t$ UH
-t$ UWAUAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WATAUAWHcBl
-t$ WAVAWH
-t$ WAVAWLc|$@I
-t$ WAVL
-t$ WH
-t$ fA
-t$ fE
-t$ fI
-t$ t3
-t$ u(@
-t$$A;
-t$$D;
-t$$E;
-t$$fA
-t$(A^
-t$(A_
-t$(E3
-t$(E;
-t$(H;
-t$(HcL
-t$(I+
-t$(I;
-t$(Ic
-t$(Ii
-t$(M+
-t$(M;
-t$(fD
-t$,D;
-t$,HcL
-t$0@8q
-t$0A^_
-t$0A_A^
-t$0D"
-t$0D;
-t$0D;\$X
-t$0E3
-t$0H+
-t$0H;
-t$0Hc
-t$0I+
-t$0I;
-t$0L;
-t$0L;l$(
-t$0Lc
-t$0M+
-t$0M;
-t$0fD
-t$0fI
-t$0uP
-t$1I9VHt	@
-t$4E3
-t$8A_A^A\
-t$8A_A^_
-t$8D+t$(+D$ 
-t$8E3
-t$8H+
-t$8H;
-t$8H;D$@
-t$8Hc
-t$8Hct$P
-t$8Hi
-t$8I+
-t$8I;
-t$8Ic
-t$8L+
-t$8L;
-t$8M+
-t$8M;
-t$8fD
-t$@9w
-t$@;w
-t$@@8
-t$@A_A]A\_
-t$@D+
-t$@E3
-t$@H+
-t$@H;
-t$@H=
-t$@Hc
-t$@I+
-t$@Lct$pL
-t$@Lc|$pD
-t$@M+
-t$@Mc
-t$DD;
-t$DE3
-t$H9k(t0H
-t$HA+
-t$HD+
-t$HD;
-t$HD;\$h
-t$HD;c
-t$HD;{
-t$HE3
-t$HE;
-t$HH+
-t$HHc
-t$HI;
-t$HIc
-t$HL;
-t$HLc
-t$HLcL$hL
-t$HM;
-t$LE3
-t$P;E
-t$PE3
-t$PH=
-t$PHc
-t$PI+
-t$PI;
-t$PL;
-t$PM+
-t$THc
-t$XHc
-t$XIc
-t$XLc
-t$XLcr
-t$XM;
-t$\H9S
-t$`D+
-t$`DiGD
-t$`E3
-t$`H+
-t$`H;
-t$`I+
-t$`I;
-t$`L;
-t$`L;t$p
-t$`uP
-t$dE3
-t$hA;
-t$hE3
-t$hH;
-t$hI;
-t$hIc
-t$hff
-t$pD+
-t$pD;d$4L
-t$pE3
-t$pH;
-t$pLc
-t$pMco
-t$xE3
-t$xH+
-t$xHcB
-t$xI+
-t$xIc
-t$xff
-t%H9D$@t
-t'fff
-t(fff
-t)HcS
-t)Hc_ E
-t*I9R t
-t.Ic@l
-t.fff
-t/fD9H
-t0H9D$@t)L
-t2L9d$pt
-t3fff
-t5IcJhH
-t5L9X
-t6fff
-t7D9H
-t8D9yhu
-t8IcBlH
-t;Hc|$$L
-t<D96
-t=R	u/H
 t?pxs?
-tCL;x
-tDH;2u0
-tEL9U
-tFL;[
-tGLcI
-tHL;1u4H
-tIcBlLc
-tJH;p
-tJLcJ
-tJLcKtA
-tMD9Q
-tNHcWlHcGh;
-tPI;X
-tPLcS
-tQLcC(HcW(H
-tTLcG(HcS(H
-tVfff
-t\McX
-taL9C(tVH
-taL9C8tVH
+tEXt
+tIME
+tRNS
 tag_type == CV_XML_OPENING_TAG
-tcfff
-tcp://
+tanf
 tcp://127.0.0.1
-tcp://[
 tcp://localhost
 tcp://localhost:7788
-ter!u53
 terminate
 texId_ != 0
 texcoord
@@ -13648,15 +9324,9 @@ this:
 this_.dstY <= this_.roi.height
 this_.roi.x >= 0 && this_.roi.y >= 0 && this_.roi.width >= 0 && this_.roi.height >= 0 && this_.roi.x + this_.roi.width <= this_.wholeSize.width && this_.roi.y + this_.roi.height <= this_.wholeSize.height
 throw_no_cuda
-tiLcK
-tiMcL$$A
-tjMcPtA
-tlfff
 tlsKey != TLS_OUT_OF_INDEXES
 tlsSlotsSize == tlsSlots.size()
 tlsSlotsSize > slotIdx
-tmfff
-toI9X@t[I
 tolower
 too many length or distance symbols
 top >= 0 && bottom >= 0 && left >= 0 && right >= 0 && _src.dims() <= 2
@@ -13667,12 +9337,8 @@ total_len <= ptr_capacity_
 total_sz
 toupper
 tp == STRING || tp == SEQ || tp == MAP
-tpLcK
 tracking_mode
-tsLc\$0
-tuL9{@uoH
-tuLcC
-tyH9D$@trL
+true
 type == B.type()
 type == CV_32F || type == CV_64F
 type == CV_64FC2
@@ -13684,133 +9350,15 @@ type == _src2.type() && (type == CV_32F || type == CV_64F)
 type2 == CV_64F && (sz2.height == 1 || sz2.height == 4)
 type_id
 type_name.empty()
-t~LcY
-u	@8-
-u	@8-	
-u	@8- 
-u	@8-!
-u	@8-!*J
-u	@8-$
-u	@8-%
-u	@8-'/J
-u	@8-(
-u	@8-)
-u	@8-)%J
-u	@8-,
-u	@8--
-u	@8-. J
-u	@8-/
-u	@8-2
-u	@8-8
-u	@8-8'J
-u	@8-86J
-u	@8-9
-u	@8-92J
-u	@8-;
-u	@8-<
-u	@8-?
-u	@8-@
-u	@8-A
-u	@8-E
-u	@8-E5J
-u	@8-H
-u	@8-I
-u	@8-K
-u	@8-L
-u	@8-L$J
-u	@8-L.J
-u	@8-M
-u	@8-N
-u	@8-O
-u	@8-Q
-u	@8-R
-u	@8-W
-u	@8-W6J
-u	@8-X
-u	@8-X%J
-u	@8-[
-u	@8-\
-u	@8-]
-u	@8-^
-u	@8-_
-u	@8-`
-u	@8-b
-u	@8-b0J
-u	@8-e
-u	@8-h
-u	@8-i
-u	@8-k
-u	@8-l
-u	@8-m#J
-u	@8-p
-u	@8-q&J
-u	@8-t
-u	@8-v
-u	@8-v6J
-u	@8-x
-u	@8-y+J
-u	@8-{
-u	@8-{$J
-u	@8-{.J
-u	@8-{/J
-u	@8-|
-u	HcF|I;
-u	I9v
-u != 0
-u HcI0
-u!9A s
-u";w$u
-u"A8V,u
-u#A9@ s
-u#H9H }
-u#H9Q }
-u#H9X s
-u#f9H s
-u%M9P
-u%fA9@ s
-u%fD9@ s
-u&fA9
-u(H9<
-u(HcC
-u)D96
-u*H;A
-u+H;A
 u->data != 0 && "Error mapping of UMat to host memory."
 u->refcount == 0
 u->urefcount == 0
-u-H9rXt'9
-u-H;C
-u-fff
-u.E9r
-u.H;C
-u.H;P
 u.cols >= nm && vt.rows >= nm && (w.size() == Size(nm, 1) || w.size() == Size(1, nm) || w.size() == Size(vt.rows, u.cols))
-u.fD9
-u0D8Z
-u1HcW
-u3H9\$p
-u5E9t$
-u5H;A
-u79j<t
-u8H;C
-u8fD9
-u9I9_
-u;D9e
-u=H9S
-u>GXc=
-u?I9_
-u@HcCD
-u@u%A;_
-uEI9_
-uKH;Q
-uRD8Y
-u\D9C
-u`A9	u[
 uchar
+uint
 uint16
 uint8
 uknown_file
-umLcG
 unescaped 
 unexpected end of file
 unexpected end of input
@@ -13829,7 +9377,6 @@ unknown header flags set
 unknown_file
 unspecified
 unsupported label/image type
-upfff
 uri_ != NULL
 usage_count == 0
 usage_count == 1
@@ -13839,24 +9386,10 @@ use_half
 usemtl
 username.length () <= UCHAR_MAX
 ushort
-uzL;K(ut
-u|HcuxH
-v L9.
-v$fff
-v%A8}0t&I
-v5RX*
-v5rV*
-v:L9L$pt
-v=BQ*
-vAH9\$0t 
 vQO+t
 v[j].empty()
-v`HcV$I;
-v`Lcd$4IcV$I;
 value[0] == value[1] && value[0] == value[2] && value[0] == value[3]
 value_len_ <= 0x7FFFFFFF
-vb'vb'v
-vbfff
 vector<T> too long
 vector<bool> too long
 vegacontroller
@@ -13865,12 +9398,14 @@ veronica
 veronica-
 vertex
 vertex_indices
+vids
 viewMaxAngleDegrees
 viewMinBaseline1
 viewMinBaseline2
 viewSearchStep
 vis mask
 visibleFrameCreation
+vive
 void (__cdecl *__cdecl cv::getConvertFunc(int,int))(const unsigned char *,unsigned __int64,const unsigned char *,unsigned __int64,unsigned char *,unsigned __int64,class cv::Size_<int>,void *)
 void (__cdecl *__cdecl cv::getConvertScaleFunc(int,int))(const unsigned char *,unsigned __int64,const unsigned char *,unsigned __int64,unsigned char *,unsigned __int64,class cv::Size_<int>,void *)
 void (__cdecl *__cdecl cv::getCvtScaleAbsFunc(int))(const unsigned char *,unsigned __int64,const unsigned char *,unsigned __int64,unsigned char *,unsigned __int64,class cv::Size_<int>,void *)
@@ -14635,10 +10170,11 @@ void __cdecl cv::subtract(const class cv::_InputArray &,const class cv::_InputAr
 void __cdecl cv::transpose(const class cv::_InputArray &,const class cv::_OutputArray &)
 void __cdecl cv::updateWindow(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
 void __cdecl cv::validateDisparity(const class cv::_InputOutputArray &,const class cv::_InputArray &,int,int,int,int)
-w E;w
 w+OQvr
 w.type() == u.type() && u.type() == vt.type() && u.data && vt.data && w.data
-w<4K|
+w3Xc
+wXR\r
+warn
 warning
 warnings
 wcstombs
@@ -14778,306 +10314,16 @@ wn>Jj
 write_mode
 written
 written_len <= (int)buffer.size()
-x 38|
-x ATAVAWH
-x AVH
-x H+x
-x UATAUAVAWH
-x UAVAWH
-x$@#Q
 x%02x
-x&A;@
-x9;C4}4Hc
-xA]A\_^][
-xA^_^[
-xA_A^A\_^[
-xA_A^A]A\_^[]
-xA_A^A]A\_^][
-xA_A^_^][
-xG;Fh}BH
-x_^[]
-x_^][
-xoD;A
 xvalue.check ()
-x}H;}
-y H9y0u
+y9*O
 yLowerBoundAppliedToCurrCameraInMeters
 yUpperBoundAppliedToCurrCameraInMeters
-yxxxxxxxH
-yxxxxxxxI
-yxxxxxxxL
-z"u E
-z#u!H
-z#u!fE
-z%u#3
-z.u,A
-z/u-fA
-z1u/E
 z4I5z
-z6u4I
-z;u9I;
-z=u;H
-z?u=H
-zBu@H
-zGuEH
-zHuFf
-zJuHH
-zMuKI
-zOuMH
-zTuRI;
-zTuRL;
-zTuRf
-zWuUL;
-zYuWH
-z[uYL;
-z\uZf
-z^u\L;
+zTXt
 zap_required ()
-zau_H
-zdubH
-zdubI
-zdubf
-zgueH
-zhuff
-zsuqL
-zw*Hc
-zyuwA
-{ ?R$=
-{ A;n
-{ H+{
-{(@8{8u
-{(H;{0
-{*iu3H
-{8@8{
+zkmf
 {custom check}
-{tLcs
-{tLc{
-{xHc[
-{xLcs
-{xLc{
-|$ ATAUAVAWD
-|$ ATAVAWH
-|$ ATAVAWL
-|$ ATH
-|$ AV
-|$ AVAW
-|$ AVAWD
-|$ AVAWIc
-|$ AVAWL
-|$ AVE
-|$ AVH
-|$ AVHcA
-|$ AVHcBh
-|$ AVIch
-|$ AVL
-|$ AWH
-|$ D+
-|$ D9
-|$ E3
-|$ H+
-|$ H;
-|$ Hc
-|$ I+
-|$ L;
-|$ M;
-|$ UATAUAVAWH
-|$ UAVAWH
-|$ UH
-|$ fA
-|$$A+
-|$$E3
-|$$fA
-|$$ff
-|$(A+
-|$(A;
-|$(A^
-|$(E3
-|$(H;
-|$(HcL
-|$(I+
-|$(Ic
-|$(L+
-|$(L;
-|$,HcL
-|$,Lc
-|$0A_A^
-|$0D;
-|$0D;D$X
-|$0E3
-|$0H+
-|$0H9S
-|$0H;
-|$0Hk
-|$0I+
-|$0Ic
-|$0IcU
-|$0JcL
-|$0M;
-|$0fD
-|$0ff
-|$4A9
-|$4E3
-|$4E;y
-|$4Ic
-|$8A_A^A\
-|$8E3
-|$8H+
-|$8H;
-|$8I;
-|$8L+
-|$8L;
-|$8M;
-|$8Mc
-|$@A+
-|$@D;
-|$@E3
-|$@H+
-|$@H+|$HH
-|$@H;
-|$@Hc
-|$@I+
-|$@Lct$pL
-|$@M;
-|$@ff
-|$@t%
-|$@u	2
-|$DMc
-|$H;\$p
-|$H@8{,
-|$HA+
-|$HA;
-|$HD;
-|$HD;c
-|$HE3
-|$HH+
-|$HH9}
-|$HH;
-|$HH=
-|$HI;
-|$HIc
-|$HJc
-|$HL;
-|$HLc
-|$HM;
-|$HMc
-|$Hf;
-|$HfA
-|$Hff
-|$Hfff
-|$Ht H
-|$LA;
-|$LD9{
-|$LHc
-|$P;|$\L
-|$PA;
-|$PD9nl
-|$PD;\$h
-|$PE3
-|$PE9]
-|$PE;
-|$PH+
-|$PH+L$PI
-|$PH;
-|$PHc
-|$PI;
-|$PL+
-|$PL;
-|$PM+
-|$PfD
-|$PtL
-|$TA;
-|$XA+
-|$XA;
-|$XD9
-|$XE+
-|$XE3
-|$XH+
-|$XH+L$XI
-|$XH;
-|$XHcK$HcC H
-|$XI;
-|$XIc
-|$XL;
-|$XLc
-|$XLk
-|$XfA
-|$Xu A
-|$\E3
-|$`D;
-|$`E3
-|$`H;
-|$`HcT$h
-|$`L+T$
-|$`Lc
-|$`M;
-|$hE3
-|$hIc
-|$hIk
-|$hL;
-|$hL;}
-|$hM+
-|$hM;
-|$lE3
-|$lHc
-|$pA+
-|$pD9a
-|$pE+
-|$pE3
-|$pH;
-|$pHc
-|$pIc
-|$pLc
-|$pM;
-|$pMc
-|$t@~
-|$xD;
-|$xH+
-|$xH;
-|$xI9
-|$xI;
-|$xIc
-|$xLc
-|$xM;
-|$xfD
-|?A;~
-|?TkX
-} D;K
-}!Lct$0H
-}!Lct$4H
-}$fff
-}%fff
-}&fff
-}'fff
-})fff
-},fff
-}2fff
-}4;L$D}.H
-};fff
-}FA;4
-}Rfff
-}SIc<
-}XHc|
-}YLc\$dH
-}aLc\$dH
-}hHcD$0H
-}ufff
-}w6-p
-~	A+]$
-~ D;k
-~&fff
-~)fff
+{kHw
 ~/tmp/_remote_cache_dps
-~4fff
-~=fff
-~>fff
-~CA+l$$
-~F fD
 ~GL_ATIX_texture_env_route
-~KNcL
-~[I;A(r4M
-~`Lc{
-~iLcL$$I
-~l9Fhu
-~nHcL$ O
-~tfff
-~|LcT$ L

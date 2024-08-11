@@ -1,13 +1,9 @@
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
-*BSJB
 .cctor
 .ctor
-.text
 <Module>
-@.reloc
 AddComponentMenu
 Application
 Awake
@@ -27,6 +23,7 @@ DeviceDeprecated
 DeviceType
 DisableAutoXRCameraTracking
 Dispose
+Enum
 FisheyeCameraDeprected
 FixedUpdate
 FlagsAttribute
@@ -42,6 +39,7 @@ GetPoseData
 GetPoseFromProvider
 GetTransformedBy
 HasStereoCamera
+Head
 IDisposable
 InternalsVisibleToAttribute
 LeftEye
@@ -64,6 +62,7 @@ PoseStatus
 Poses
 PositionOnly
 Quaternion
+RSDS
 RemotePose
 ResetToCachedLocalPosition
 RightEye
@@ -110,8 +109,8 @@ WrapNonExceptionThrows
 XR/Tracked Pose Driver
 XRNode
 XRNodeState
+\n*BSJB
 _CorDllMain
-`.rsrc
 add_onBeforeRender
 device
 get_Count
@@ -144,6 +143,7 @@ mscoree.dll
 mscorlib
 newPosition
 newRotation
+node
 nodeStates
 op_Inequality
 output

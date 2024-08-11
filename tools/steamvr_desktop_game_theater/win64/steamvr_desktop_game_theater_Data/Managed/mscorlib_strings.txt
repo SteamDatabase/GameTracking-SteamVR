@@ -1,32 +1,3 @@
-					
-						
-							
-									
-										
-												
-														
-																
-																								
-																																																																																
-																																																																																											
-																																																																																																																											
-																																																																																																																																																						
-	!%,56H
-	':L^q
-	3T)M
-	Inherited
-	KnXX
-	Y(W"
-	Y(c;
-	Yl(??
-	ZhS8
-	_`X 
-	implement
-	jZU8
- !"#$%
- !"#$%&'
- !"#$%&'(
- !"#$%&'()
  !"#$%&'()*+
  !"#$%&'()*+,
  !"#$%&'()*+,-
@@ -54,19 +25,24 @@
  !"'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !0CUgz
  #$%&'()*+,-./01256789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ 3HJ
  5\ln
- DSS1;
- DSS2;
+ DSS1;\v
+ DSS2;\v
  O"#H$NJKL6
- RSA1;
- RSA2;
+ Q8k
+ RSA1;\v
+ RSA2;\v
  Use Pack(iocb, userData) instead
  access control isn't implemented
  cia*
+ cio
  dia*
  dm}R
  dm}z
- n`m}
+ gff
+ rZN
+ vT2
  vararg methods are not supported
  wZiK
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -75,39 +51,38 @@
 !!!!!!!!!!##%%,,,,,,,,,,2222666666HHHHHHHHQQQQQQpppppppp||||||||~~~~
 !!!!!!!!!!%%%%%%%%,,,,22222222222255666HHHHHHHHHHppppppppp||||||||
 !!!!!!!5%%%%!
-!!!!2222
 !!!!2222||||
 !!!##%%%%266HHQpp|||||~~
-!!66666666BBBBKKffQQTTZZ``ffiillll
-!""&%
+!!66666666BBBBKKffQQTTZZ``ffiillll\f\f
 !"#$%&'()*+,-./012
-!"\kN
 !#%,256HQp|~
 !'069?BHKNQTZcfilrux{~
 !3FXj}
+!3PJ
+!8Qx
+!FPc\f
 !H88p
 !System.Reflection.ConstructorInfo
-!This program cannot be run in DOS mode.
+!rrN
 !tI)i
 !tX)i
-"!# $
-""""""""""
 """""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""\n
 """"vvvvmm
-""Df**T~
-"# %!6pmrw
-"#$%&
 "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdehijklmnopqrstuvwxz{|}~
 "#$%&***+++,,,---...23456::<<>>BCDEFJJKMN
 "#$%&*+,-.23456:<>BCDEFJ
 "#$%&*+,-.23456:<>BCDEFJKMN
+"1aq
+"3dJ
+"3ii
+"3lJ
 "5GYl
-"Df"*T~*
+"K9S
 "Please use StringComparer instead.
 "SecureString support is incomplete
 "System.Reflection.Emit.EnumBuilder
@@ -116,16 +91,13 @@
 "Use AppDomainSetup.ShadowCopyFiles
 "fZcw
 "limited to CompressedStack support
-#!il m
 ########################################
 ####''++//337777;;;;????CCCCGGGGKKKKOOOOSSSSWWWW[[[[____ccccggggkkkkoooosswwwwww
-#%($)
 #'+-/137;@DFHLNPTX\`
 #'+/37;?CGKOS
 #+37;?CGKOSW[_cgkosw{
 #-27<AFPUZ_disx}
 #6HZm
-#:$2)
 #Blob
 #GUID
 #MONO Common language infrastructure
@@ -138,10 +110,8 @@
 #Use SafeFileHandle - once available
 #_3*`)"% '58o
 #copiedName == true is not supported
-#j[i*
 $$$$$$$$$$$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-$$Hl\\
 $$field-0
 $$field-1
 $$field-10
@@ -211,8 +181,6 @@ $$field-68
 $$field-7
 $$field-8
 $$field-9
-$%&'()*
-$*-3<EW6
 $00000000-0000-0000-C000-000000000046
 $0000000c-0000-0000-c000-000000000046
 $0000000e-0000-0000-c000-000000000046
@@ -245,7 +213,7 @@ $7D13DD37-5A04-393C-BBCA-A5FEA802893D
 $7E5678EE-48B3-3F83-B076-C58543498A58
 $7I[n
 $8A7C1442-A9FB-366B-80D8-4939FFA6DBE0
-$8L5	
+$8L5\t
 $917B14D0-2D9E-38B8-92A9-381ACF52F7C0
 $993634C4-E47A-32CC-BE08-85F567DC27D6
 $9DE59C64-D889-35A1-B897-587D74469E5B
@@ -300,14 +268,12 @@ $ED3E4384-D7E2-3FA7-8FFD-8940D330519A
 $F1C3BF78-C3E4-11D3-88E7-00902754C43A
 $F59ED4E4-E68F-3218-BD77-061AA82824BF
 $FFCC1B5D-ECB8-38DD-9B01-3DC8ABC2AA5F
-$Hl$\
 $Missing application manifest support
+$NXc\r
 $System.Reflection.Emit.MethodBuilder
 $System.Reflection.Emit.ModuleBuilder
 $System.Runtime.InteropServices._Type
 $The Debugger class is not functional
-$[\%EVq
-$`_&%d
 $afbf15e6-c37c-11d2-b88e-00a0c9b471b8
 $b196b284-bab4-101a-b69c-00aa00341d07
 $b196b285-bab4-101a-b69c-00aa00341d07
@@ -321,31 +287,27 @@ $f1c3bf79-c3e4-11d3-88e7-00902754c43a
 $f7102fa9-cabb-3a74-a6da-b4567ef1b079
 $fa1f3615-acb9-486d-9eac-1bef87e36b09
 %%%%66||||||55
-%%Jo..\r
 %+17=CIOU[agmsy
 %,,,,,22HHLp
 %8J\o
-%8T5	
-%K	XT
-%K	XT*
+%8T5\t
+%K\tXT
 %Not implemented.  Always returns null
 %Not implemented.  Always returns zero
 %Please use EqualityComparer property.
 %Please use IEqualityComparer instead.
 %Use RegisterChannel(IChannel,Boolean)
 %Useless until the runtime supports it
-%c*n.
+%oK1
+%oM1
+%oM2
 %p1%c
 %this type is obsoleted in 2.0 profile
 &&Lj66lZ??~A
-&''Ni
 &'()*+,-./012345
 &(2.0) Access Control isn't implemented
-&+*'01.,
-&.+2$/
-&8\5	
 &9K]p
-&AL4'?
+&Fdc\f
 &Lj&6lZ6?~A?
 &Provider is ignored, just use ToString
 &System.Reflection.Emit.AssemblyBuilder
@@ -356,21 +318,23 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 &This method exists but not considered.
 &Use UnsafePack(iocb, userData) instead
 &only the SecurityContext is considered
+&rAE
+&rnZ
 '(2.0) missing support for AccessEntries
 '2, /+0&7!4-)1#
-'8d5	
+'34K
+'8d5\t
 'G,AP
 'System.Reflection.Emit.ParameterBuilder
-'_&%5^
-( )  
-()&-r
+'WOJ
 (/374-0
-(2.0)
 (2.0) missing validations
 (2.0) more tests are needed
 (2.0) validations incomplete
-(8l5	
-(;M_r
+(3HK
+(3PK
+(3XK
+(8l5\t
 (=fIR
 (Currently only implemented on Mono/Linux
 (System.Runtime.InteropServices._Assembly
@@ -379,13 +343,13 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 (Use AppDomainSetup.ShadowCopyDirectories
 (c) various MONO Authors
 (h:1)li
-(pHZ0	R
+(pHZ0\tR
 (the property exists but is not respected
 (work in progress - encryption is missing
 )'(FNOMZ
+)3hK
+)3xK
 )8O8P
-)<N`s
-)@(G1I
 )SN@EOKH
 )System.Collections.CollectionDebuggerView
 )System.Reflection.Emit.ConstructorBuilder
@@ -394,48 +358,41 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 )System.Runtime.InteropServices._EventInfo
 )System.Runtime.InteropServices._Exception
 )System.Runtime.InteropServices._FieldInfo
-)w--Z
-*	*A4
-*.(A9
-*.r: 
-*.sQ>
 *2EWi|
-*:(R:
-*:(}5
-*=Oat
 *=hIR
 *Currently it ignores the altName parameter
-*F(=9
+*EXB\f
+*FWn
+*MDN\r
 *System.Runtime.InteropServices._MemberInfo
 *System.Runtime.InteropServices._MethodBase
 *System.Runtime.InteropServices._MethodInfo
 *This overload is not currently implemented
+*ZrB
+*ZrM
 *\PnC
-*^(A9
-+%&3-
-+%D&0.-)
 +'*%/SO.M-TP/
 ++DDFFDDFFDDFFDDFFDDFFDDFF
 +.147:=@CFILORUX[^adgjm
 +/04>AEMNOPY\a
-+>Pbu
++2Hp
++EpB\f
++Ftc\f
 +HpXhE
 +IDeserializationCallback isn't implemented.
++M8O\r
++MLO\r
 +System.Runtime.InteropServices._EnumBuilder
 +System.Runtime.InteropServices._ILGenerator
 +System.Runtime.InteropServices._TypeBuilder
 +ZKXrE
-+\q]&
 +call into KeyPairPersistence to get details
-,	-&#,/
-,  @`
 ,,222HHHH
 ,,mmXXCC
 ,17/6
-,4$8_@
+,4fH
 ,<xHB
 ,=jIR
-,?Qcv
 ,Serialization format not compatible with.NET
 ,System.Runtime.InteropServices._AssemblyName
 ,System.Runtime.InteropServices._EventBuilder
@@ -443,41 +400,39 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 ,System.Runtime.InteropServices._LocalBuilder
 ,System.Runtime.InteropServices._MethodRental
 ,System.Runtime.InteropServices._PropertyInfo
-,g[i}
 ,see Rfc2898DeriveBytes for PKCS#5 v2 support
 ,tZG/
--%)(&
 -678{
 -@Rdw
--L/?0
--S,!R
+-Iaf
 -Serialization format not compatible with .NET
 -System.Reflection.Emit.CustomAttributeBuilder
 -System.Runtime.InteropServices._MethodBuilder
 -System.Runtime.InteropServices._ModuleBuilder
 -System.Runtime.InteropServices._ParameterInfo
 ../silverlight.pub
-./-'+
-.10-,
-.6$:g
-.8<3,6
+.4hH
 .<zHB
 .=lIb
 .ASex
 .CAS support is experimental (and unsupported).
 .L@hU
+.N8g\r
 .Security - we need to propagate the call stack
 .cctor
 .ctor
+.iBh
 .l/hm*Q9
-.t\G/
-.text
+.r77
+.rND
+.wxV
 /$Q9y
 /0123456789:;<=>?@AB
 /0i[ZL
+/30L
+/38L
 /39:674
-/;<>K
-/B&'>
+/3HL
 /File encryption isn't supported (even on NTFS).
 /Incomplete - minimal validation in this version
 /Not implemented.  Always returns an empty array
@@ -487,124 +442,210 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 /System.Runtime.InteropServices._ConstructorInfo
 /System.Runtime.InteropServices._PropertyBuilder
 /System.Runtime.InteropServices._SignatureHelper
-/e)cY(
 0 Umv
 0(2.0) Add new stuff (CodeConnectAccess) into XML
 0,1-u
 0-=827
-08$6	
+0123
+03`L
+04jH
+08$6\t
 0<|HB
 0CUgz
-0Q'qcq|
 0Q[eHR)\6-O,FTh
 0R(,Q
 0Returns only the English month abbreviated names
 0System.Runtime.InteropServices._ParameterBuilder
 0The max number of threads cannot be decremented.
+0YXT
+0Y\f8<
+0Y\v8<
+0`P0
+0iDh
 0it needs to be invoked within the created domain
+0jY\n
+0rP=
 0t^G/
-1+/hi*
-11#?*0
+12X\v
+1937\r
 1@;9CE@MIzy
+1I8H
 1Serialized objects are not compatible with MS.NET
 1This operation is currently not supported by Mono
 1This routine only returns the parameter currently
 1`aF(
+1bS1
+1lzt
 1nX0m
-2 B	:
 2(2.0) Parse new stuff (CodeConnectAccess) from XML
+2(A9
+2+ss
 2.0 SP1 member
 2.0.5.0
-2/3&"0
-20#B*=$
+213\n
+24lH
+250.
+27-0
+2<69
 2<~HB
 2DisplayName currently only returns the EnglishName
 2Ht\l
 2No support for PE32+ assemblies for AMD64 and IA64
 2System.Runtime.InteropServices._ConstructorBuilder
 2bZcA
-2dV2:tN:
+2dV2:tN:\n
+2rh=
 2t`G6
 2we have simple override to match method signature.
-3.0.40818.0
+33fU
 34567
+3524
 3@*#UUUUUU
+3@Hq\v
+3B8C
 3E5i)'(Q|
+3FQ;
 3In Mono this is controlled by the --share-code flag
+3QON
+3RS 
 3System.Collections.Generic.CollectionDebuggerView`1
 3System.Collections.Generic.CollectionDebuggerView`2
-3U[:?
-4 @	:
+3rt=
+4)dg
+420\f
+4697
 479;8
 47:=@CFILORUX[^adgjmpsv
 48<@DHLPTX\`dhlptx|
-49$=	
+4@Pq\v
+4E\fC\f
 4Please use Hashtable(int, IEqualityComparer) instead
-4\"-s
-4\}_	
+4\t\n\v5678
+4ci\v
+4h\4
+4m\t6
+5#0w
 5)689M
 50K_~
 55j_WW
-590=	
-59<=	
-5@Y\^]
+590=\t
+5@Xq\v
+5Mj*
 5Not 64bit compatible.  Use EventHandleIntPtr instead.
 5Not possible to create StackTraces from other threads
 5Only supported by the runtime when CoreCLR is enabled
 5`4Y[
-6 >	;
+6 dK
+6#8w
+6(\fY<~ofX
+6-nn
+6569
+6D4&\f
+6EHD\f
 6System.Runtime.InteropServices._CustomAttributeBuilder
-6d!(,0_4
 6dZc_
 6q8!^+J`S
 7(2.0) new override - something must have been added ???
+740\t
 76knml354
-79H=	
-7>6?b<
+79H=\t
+7D4\t
 7In the profiles > 2.x, use SafeHandle instead of Handle
+7L0\t
 7SuPfj
 7The security manager cannot be turned off on MS runtime
 7[cP:
+7d0\t
+7l0\t
 7nY7m
-8-'/G
-88,6	
+7t0\t
+7t3\t
+8#Xw
+8/pw
+805\t
+808\t
+809\t
+847\t
+88,6\t
+885\t
 8888888888
+88pH
 8@[FG
+8D5\t
+8ERJ
+8H8\t
+8L4\t
+8L7\t
 8M%iB[*
+8N@h\r
 8OF%;J-9:
+8P9\t
 8Reset does nothing since CanReuseTransform return false.
+8T4\t
+8T8\t
+8\nj9
+8\r|C6jEa
+8b'B
+8b`a
+8d7\t
+8d8\t
+8ep.
+8h4\t
+8h9\t
+8l8\t
+8n@P
+8pH8
 8q>M`
+8t8\t
+9#xw
+90B\t
 91/30
+93\M
+93dM
+93tM
+94C\t
 96<2:
+9758
+98B\t
 9999999999
 99rKJJ
+9:87
 9:8z7
 9:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 9Currently it does not allow the setup in the other domain
-9^06("
+9HB\t
+9JLX
+9LC\t
+9PB\t
+9Srt
+9TC\t
+9XA\t
+9XB\t
+9dA\t
+9dC\t
+9hB\t
+9lA\t
+9lC\t
+9q8D
 9rK9J
-::::::::::
+9tC\t
+9xB\t
+:3dN
+:3pN
 ::MEf
-:=[6^
 :Currently get only works on Mono/Unix; set not implemented
-:J ,W
 :uYMC-v
 :~1LM
-;22dV::tN
-;3+#>6.&
-;8:96<?=>
-;9T=	
-;;;;;;;;;;
-;>36!
+;22dV::tN\n\n
+;3xN
 ;?A8FB
+;C5N
 ;CAS support is not available with Silverlight applications.
 ;Please use Hashtable(int, float, IEqualityComparer) instead
 ;The min number of completion port threads is not evaluated.
 ;This method is obsolete, use BindHandle(SafeHandle) instead
 ;fD4~
-;f[4~
 <9C8=
-<<<<<<
 <>f__am$cacheB
 <>f__switch$map0
 <>f__switch$map1
@@ -652,96 +693,92 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 <>f__switch$mapE
 <>f__switch$mapF
 <>f__this
-<>m__1
-<>m__2
 <CopyTo>m__0
 <DeclarativeSecurity>k__BackingField
 <DefaultSurrogateSelector>k__BackingField
+<FYY
 <GetEnumerator>c__Iterator0
 <GetEnumerator>c__Iterator1
 <MSDN states user code should never need to call this method.
 <Module>
+<NHB
 <Not used, as the values are too limited;  Mono supports more
 <Please use Hashtable(IDictionary, IEqualityComparer) instead
 <PrivateImplementationDetails>
 <RegisterObject>c__AnonStorey3
 <Resolver>k__BackingField
 <ResourceValueAsStream>c__AnonStorey2
-<X:W>;
-<i>__0
 <see GetInvalidPathChars and GetInvalidFileNameChars methods.
 <vzfEw
-='9-6d
-==========
 ==zGdd
-=>?@%8J\
 =CsmB
 =Xmn<
 =j&&LZ66lA??~
 =required for NativeObjectSecurity - implementation is missing
-=t]o-
->//^q
->4$8,@
 >=GDF
->>>>>>>>>>
->?~Ib
 >GE942
 >KA?Q0D4qO5
 >W+W1X
+>cba
 >pmXXT
 ?*#UUUUUU
-?+j;,-
 ?456789:;<=
-?9`=	
-??????????
-?@$m?>=@
-?@,-N
-?@QPT^
 ?ABCDH
 ?Currently always returns false, regardless of interactive state
 ?MO%J
+?N4j\r
+?NHj\r
 ?This interface is not 64-bit clean.  Use ISymbolBinder1 instead
 ?X509ContentType.Pfx/Pkcs12 and SerializedCert are not supported
-?_b`*
-@.reloc
-@846	
+@6fV
+@846\t
 @@@@@@@@@@@@
-@@BBDDFFHHJJLLNNPPRRTT
+@@BBDDFFHHJJLLNNPPRRTT\v
 @Returns an empty string as if the calendar name wasn't available
 @Use FileStream(SafeFileHandle handle, FileAccess access) instead
-@Z(#?
-@Z(U=
-@[Yb($
-@](c;
-@]O+ 
 @jX}l
-@j^Yi
-@j^iY
 @wKAZ(U=
-A7\!	
+A"0X
+A,QK
+A89K
+A>eb
+A@Ds\v
+AAAA
 AAAAA
 AAAAAAAAAA
 AACACA
 AACCUOEG
+AAEA
+AAGI
 ABCDEFGHIJKLMNOPQRSTUVWXY
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACACAEC
 ACCAC
 ACCIICGGCC
+AC[o
 ADEra
+AEPE\f
+AE]I
 AGACCA
+AGCI
 AJ%,P
+AKc\vq$K
 AMD64
 AMDesignator
 ANSICodePage
 ANSIX923
+AOEi
 ARRAY
 ASCII
 ASCIIEncoding
 ASCII_CODE_PAGE
+ASN1
 ASN1Convert
-AZ(#?
+AU[w
+AYAA
+AYwC
 AZ(V=
+AZi*
 A[KKAG
 AbandonedMutexException
 AbbreviatedDayNames
@@ -803,6 +840,7 @@ AceQualifier
 AceType
 AclRevision
 AclRevisionDS
+Acos
 AcquireLock
 AcquireReaderLock
 AcquireWriterLock
@@ -918,6 +956,7 @@ Advise
 AggregateDictionary
 AggregateEnumerator
 AlgName
+Algo
 Algorithm
 AlgorithmId
 AlgorithmIdentifier
@@ -974,6 +1013,7 @@ Annotation
 AnonHostModuleHolder
 Anonymous
 AnonymousSid
+Ansi
 AnsiBStr
 AnsiClass
 AnyChar
@@ -1042,6 +1082,7 @@ ApplicationVersionMatch
 Applications
 ApplyPolicy
 ApplyToMembers
+AqWK
 ArF}pwso>EC@H=v
 Arabic
 Archive
@@ -1055,6 +1096,7 @@ ArgInfo
 ArgInfoType
 ArgIterator
 Arglist
+Args
 Argument
 ArgumentException
 ArgumentNullException
@@ -1086,6 +1128,7 @@ ArrayTypeMismatchException
 ArrayWithOffset
 AsAny
 AsReadOnly
+Asin
 Assembly
 AssemblyAlgorithmIdAttribute
 AssemblyBuilder
@@ -1180,6 +1223,7 @@ AsyncState
 AsyncWaitHandle
 Asynchronous
 AtEnd
+Atan
 Atan2
 AttachIdentity
 AttachServer
@@ -1213,6 +1257,7 @@ AuthenticodeDeformatter
 Authority
 AuthorizationRule
 AuthorizationRuleCollection
+Auto
 AutoClass
 AutoDispatch
 AutoDual
@@ -1226,10 +1271,24 @@ AutomationProxyAttribute
 AvailableFreeSpace
 AwayFromZero
 AwiAa
-B-};~$
+A~Se
+B"8X
+B"HX
+B"PX
+B"XX
+B"hX
+B"lX
+B"tX
+B(A9
+B)xl
 B1DHE
-B:(D	
+B3lO
+B3tO
+B@j2
 BBBBBBBBBB
+BCFD
+BCyh
+BF4d\f
 BIG_UNICODE_CODE_PAGE
 BIG_UTF32_CODE_PAGE
 BINDPTR
@@ -1238,9 +1297,14 @@ BIt existed for only internal use in .NET and unimplemented in mono
 BLOCK_BIT_SIZE
 BLOCK_BYTE_SIZE
 BLOCK_SIZE_BYTES
+BN\j\r
 BRECORD
+BSJB
+BStr
 BStrWrapper
 BSwap
+BWQP
+BZi}
 BackColorErase
 Background
 BackgroundColor
@@ -1269,7 +1333,7 @@ Basic
 BasicConstraintsExtension
 Batch
 BatchSid
-Bc!! 0
+Beep
 BeforeFieldInit
 Begin
 BeginCatchBlock
@@ -1308,6 +1372,7 @@ BinaryReader
 BinarySearch
 BinaryTypeCode
 BinaryWriter
+Bind
 BindHandle
 BindToField
 BindToMethod
@@ -1341,14 +1406,20 @@ BlockWrite
 Blt_S
 Blt_Un
 Blt_Un_S
+Blue
 Bne_Un
 Bne_Un_S
 BodyName
+Bool
 Boolean
 BootstrapCultureID
 Bootstring
 BoxedPrimitiveTypeValue
 Bq;m:D@A=l<ro
+Br6>
+BrHy
+BrRy
+Br_S
 Branch
 Break
 Brfalse
@@ -1362,6 +1433,8 @@ BrowserSearch
 BrowserStop
 Brtrue
 Brtrue_S
+Brw>
+Br~y
 Buffer
 Buffer1
 Buffer2
@@ -1400,20 +1473,28 @@ BuiltinRemoteDesktopUsersSid
 BuiltinReplicatorSid
 BuiltinSystemOperatorsSid
 BuiltinUsersSid
+BuvL
 ByRefType
 ByValArray
 ByValTStr
+Byte
 ByteArray
 ByteLength
 ByteLengthInternal
 BytesRead
 BytesUnknown
+C#Tx
 C4ux"
 C77nYmm
 C80K<#O N
-C8<6	
-C9p=	
+C8<6\t
+C9p=\t
+C@gw
+CAAC
+CAAM
 CAB?Y@
+CACD
+CACU
 CADArgHolder
 CADMessageBase
 CADMethodCallMessage
@@ -1424,6 +1505,7 @@ CAICE
 CALLCONV
 CATCH
 CBWrapper
+CCAA
 CCAAA
 CCAAC
 CCCCCCCCCC
@@ -1449,13 +1531,17 @@ CC_STDCALL
 CC_SYSCALL
 CDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 CDRom
+CDgf
 CGEGACAA
 CHAIN_MARKER
+CIMO
 CIoGAQ
 CKCOG
+CKEG
+CKMG
+CL8 \r
 CLSCompliantAttribute
 CMiE[
-CODE_ANALYSIS
 COMException
 COMPILER_ACCESS
 CONNECTDATA
@@ -1466,6 +1552,8 @@ CSharp
 CUACaAAAiCCAAQ
 CUIGyE
 CUmMEOMIS
+C\tdB
+CaGI
 Cache
 CachePath
 CachePropertyInfo
@@ -1478,6 +1566,7 @@ CalendarAlgorithmType
 CalendarType
 CalendarTypeBits
 CalendarWeekRule
+Call
 CallContext
 CallContextRemotingData
 CallConvCdecl
@@ -1514,21 +1603,25 @@ CapsLock
 Capture
 CaseInsensitiveComparer
 CaseInsensitiveHashCodeProvider
+Cast
 CastTo
 Castclass
 CatchType
 Category
+CbCP
 CbIdx
 Cdecl
 CeUwO
 Ceiling
 CeolStandoutGlitch
+Cert
 CertFile
 Certificate
 CertificateAuthority
 CertificateContext
 CertificateSafeBag
 Certificates
+CgAY
 Cgt_Un
 Chain
 ChainFixup
@@ -1553,6 +1646,7 @@ ChannelServices
 ChannelSink
 ChannelSinkChain
 ChannelUris
+Char
 CharCopy
 CharCopyReverse
 CharEnumerator
@@ -1687,6 +1781,7 @@ CoClass
 CoClassAttribute
 CoCreateInstance
 Cobol
+Code
 CodeAccessPermission
 CodeAccessSecurityAttribute
 CodeBase
@@ -1932,6 +2027,7 @@ ConvertToUtf32
 ConvertTypeLibToAssembly
 Converter`2
 Cookies
+Copy
 CopyChars
 CopyConv
 CopyConverter
@@ -1942,12 +2038,13 @@ CopyTo
 CopyToArray
 CopyToCheck
 Copyright
+Core
 CoreNewLine
 CoreParse
 CorlibAssembly
 CorlibAssemblyName
+Cosh
 Count
-Count={Count}
 CountRepeat
 CountTrailingZeros
 Counter
@@ -1958,6 +2055,7 @@ Cpblk
 CpiChangesRes
 Cpobj
 CrCancelsMicroMode
+CrD>
 CrSel
 Create
 CreateAddEventDelegate
@@ -2074,6 +2172,7 @@ CriticalFinalizerObject
 CriticalHandle
 CriticalHandleMinusOneIsInvalid
 CriticalHandleZeroOrMinusOneIsInvalid
+Crls
 CrossAppDomain
 CrossAppDomainChannel
 CrossAppDomainData
@@ -2101,6 +2200,7 @@ CryptographicUnexpectedOperationException
 CspKeyContainerInfo
 CspParameters
 CspProviderFlags
+Ctor
 Culture
 CultureAwareComparer
 CultureID
@@ -2167,12 +2267,17 @@ CustomFormatMask
 CustomInfo
 CustomMarshaler
 CustomProperties
+Cyan
+D0B\f
+D4A\f
 D4W:3<9
 D5+SILd%kc.X9
 D7q/;M
-D:4D	
+D8B\f
+D:4D\t
 DBFGM
 DBNull
+DD.9
 DDDDDDDDDD
 DECIMAL_DIVIDE_BY_ZERO
 DEFAULT_LEN
@@ -2187,7 +2292,10 @@ DESCKIND_VARDESC
 DESCUNION
 DESCryptoServiceProvider
 DESTransform
+DHA\f
 DISPPARAMS
+DL5\f
+DLD \r
 DSACryptoServiceProvider
 DSAManaged
 DSAParameters
@@ -2208,11 +2316,13 @@ DarkMagenta
 DarkRed
 DarkYellow
 DashPunctuation
+Data
 DataAvailable
 DataConverter
 DataMisalignedException
 DataProtectionPermissionClass
 Datastore
+Date
 DateSeparator
 DateTime
 DateTimeConstantAttribute
@@ -2233,6 +2343,7 @@ DaylightNameIdx
 DaylightSavingEndIdx
 DaylightSavingStartIdx
 DaylightTime
+Days
 DaysInMonth
 DcZcP
 Debug
@@ -2394,6 +2505,7 @@ Demanded
 DemandedResources
 DeniedPermissionSet
 DeniedPermissions
+Deny
 DenySetInstance
 DependencyAttribute
 DependentAssembly
@@ -2421,7 +2533,8 @@ DetachServer
 Detail
 DetermineApplicationTrust
 Device
-Df""T~**;
+Dh9\f
+DhXz
 DialupSid
 Dictionary
 DictionaryBase
@@ -2464,6 +2577,7 @@ DiscretionaryAclDefaulted
 DiscretionaryAclPresent
 DiscretionaryAclProtected
 DiscretionaryAclUntrusted
+Disk
 DispIdAttribute
 DispatchException
 DispatchMessage
@@ -2515,6 +2629,7 @@ DomainManager
 DomainMask
 DomainPolicy
 DomainUnload
+Done
 Double
 DoubleBitsExponentMask
 DoubleBitsExponentShift
@@ -2524,10 +2639,14 @@ DoubleToInt64Bits
 DoubleWordsAreSwapped
 DownArrow
 DowngradeFromWriterLock
+DpdU
+DrR>
 DriveFormat
 DriveInfo
 DriveNotFoundException
 DriveType
+Drop
+Dt2\f
 Duplicate
 DuplicateHandle
 DuplicateToken
@@ -2546,14 +2665,37 @@ DynamicMethod
 DynamicMethodTokenGenerator
 DynamicPropertyCollection
 DynamicPropertyReg
-E:hD	
+E"4Y
+E#lx
+E0W\f
+E30P
+E38P
+E3HP
+E4U\f
+E8W\f
+E:hD\t
 E;BD:
 EBCDICCodePage
+ECEs
+EDU\f
+EDY\f
+EDt:
 EEEEEEEEEE
+EEKI
 EFG.02
+EGc{
+EIEG
+EI[K
 EKGSGI
 ELEMDESC
+ELR\f
+ELU\f
 ENTRY_MODE
+EOE[
+EOL2
+EOiQ
+EPP\f
+EPU\f
 ERROR_ACCESS_DENIED
 ERROR_ALREADY_EXISTS
 ERROR_BROKEN_PIPE
@@ -2580,13 +2722,28 @@ ERROR_SHARING_VIOLATION
 ERROR_SUCCESS
 ERROR_TOO_MANY_OPEN_FILES
 ERROR_WRITE_FAULT
+ESEG
+ESa[
+ETU\f
 EWCPA
 EXCEPINFO
+EXN\f
+EXX\f
+EYYW
+EYwe
+E\tLF
+E_Cw
 E_siA
 EastAsianLunisolarCalendar
 EatNewlineGlitch
+Ecma
 EffectiveKeySize
 EffectiveKeySizeValue
+EiQQ
+EikQ
+Ek[a
+ElU\f
+ElV\f
 Element
 ElementCount
 ElementIndex
@@ -2599,6 +2756,7 @@ EmbedResource
 EmbedResourceFile
 Embedded
 EmbeddingHostName
+Emit
 EmitCall
 EmitCalli
 EmitLoadTypeAssembly
@@ -2684,6 +2842,7 @@ Entry
 EntryAssembly
 EntryPoint
 EntryPointNotFoundException
+Enum
 EnumBuilder
 EnumConnectionPoints
 EnumConnections
@@ -2713,6 +2872,7 @@ EqualsExact
 EqualsInternal
 EraNames
 EraYear
+Eras
 Erase
 EraseEndOfFile
 EraseOverstrike
@@ -2723,6 +2883,9 @@ ErrorWrapper
 Escape
 EscapeString
 EscapedCodeBase
+EtM\f
+EtO\f
+Ev\v6y.~
 Event
 EventArgs
 EventAttributes
@@ -2746,7 +2909,10 @@ EventWaitHandleSecurity
 Everything
 Evidence
 EvidenceEnumerator
+Ew;d
 ExSel
+ExU\f
+ExZ\f
 ExactBinding
 ExactSpelling
 ExactString
@@ -2780,6 +2946,7 @@ Exists
 ExistsDirectory
 ExistsFile
 ExistsSymlink
+Exit
 ExitCode
 ExitContext
 Expand
@@ -2814,9 +2981,18 @@ ExtraHigh
 ExtraInfo
 ExtraLow
 ExtractAssembly
-F7<"	
-F8D6	
+F"HY
+F"LY
+F"TY
+F0a\f
+F3<Z
+F3`P
+F4q\f
+F8D6\t
+F8u\f
+FAD\n
 FAULT
+FA\S
 FAggregatable
 FAppObject
 FBindable
@@ -2827,8 +3003,13 @@ FDefaultBind
 FDefaultCollelem
 FDispatchable
 FDisplayBind
+FDo\f
 FDual
+FDv\f
+FFxd\f
 FG>R;7
+FHa\f
+FHb\f
 FHidden
 FILETIME
 FILTER
@@ -2836,18 +3017,22 @@ FILTER_START
 FINALLY
 FINISHED
 FImmediateBind
+FLa\f
 FLicensed
+FLo\f
+FLt\f
 FNonBrowsable
 FNonExtensible
 FOleAutomation
+FPa\f
 FPreDeclId
-FR-;{
 FReadOnly
 FReplaceable
 FRequestEdit
 FRestricted
 FReverseBind
 FSource
+FTs\f
 FUNCDESC
 FUNCFLAGS
 FUNCFLAG_FBINDABLE
@@ -2873,6 +3058,8 @@ FUiDefault
 FUsesGetLastError
 FX509ContentType.SerializedCert isn't supported (anywhere in the class)
 FXWdN
+FXa\f
+F_ee
 FailFast
 Failed
 FailedAccess
@@ -2898,6 +3085,8 @@ FaultActor
 FaultCode
 FaultString
 Favorites
+Fdr\f
+Fds\f
 Feature
 FeedBackByte
 FeedBackIter
@@ -2922,6 +3111,7 @@ FieldSetterMethod
 FieldToken
 FieldType
 FieldTypes
+File
 FileAccess
 FileAttributes
 FileCodeGroup
@@ -2984,6 +3174,7 @@ FinalQuotePunctuation
 FinalReleaseComObject
 Finalize
 Finally
+Find
 FindAll
 FindAllList
 FindAllStackBits
@@ -3046,6 +3237,7 @@ FlushFinalBlock
 ForEach
 Forced
 ForegroundColor
+Form
 FormC
 FormD
 FormKC
@@ -3078,9 +3270,11 @@ FormatterTypeStyle
 ForwardRef
 ForwardingDecoder
 ForwardingEncoder
+Fpu\f
 Fragment
 FrameCount
 FrameworkCultures
+Free
 FreeBSTR
 FreeCoTaskMem
 FreeHGlobal
@@ -3091,6 +3285,8 @@ Freeze
 FrenchSort
 Friday
 FriendlyName
+Frn>
+From
 FromBase64CharArray
 FromBase64String
 FromBase64Transform
@@ -3127,6 +3323,9 @@ FromTicks
 FromUnsignedBigInteger
 FromXml
 FromXmlString
+Fta\f
+Fto\f
+Full
 FullCompositionExclusion
 FullControl
 FullDateTimePattern
@@ -3139,11 +3338,19 @@ FullTypeName
 FullyQualifiedName
 FunctionPtr
 FusionLog
+Fv;v
 FxFileVersion
 FxVersion
-G7L"	
-G7h"	
-G8L6	
+Fxr\f
+Fxv\f
+F~Tb
+G2a/
+G7L"\t
+G7h"\t
+G8L6\t
+G@0t\v
+G@8t\v
+G@Lt\v
 GAEG_CAE
 GAQASc
 GCCollectionMode
@@ -3151,19 +3358,29 @@ GCHandle
 GCHandleType
 GCLatencyMode
 GCNotificationStatus
+GCSG
 GCSettings
 GCurrently we ignore requiredCustomModifiers and optionalCustomModifiers
 GESEGC_
 GG4`M6
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 GGKqGI
+GHz\f
+GIKO
 GKKG_
+GKKM
 GMSIKCaOQeC
+GO4N
 GQEAE
+GQGA
 GQQa]
 GQYOA]
+GRNP
 GSQCCe
+GUID
+GUME
 GYICe
+GZ$q
 G[oCuI
 G_O]mQKS
 GacIdentity
@@ -3171,6 +3388,8 @@ GacIdentityPermission
 GacIdentityPermissionAttribute
 GacInstalled
 GacMembershipCondition
+Gdz\f
+Geg_
 Generate
 GenerateDebugInfo
 GenerateException
@@ -3978,8 +4197,12 @@ Getter`2
 Git needs to be used to invoke the initializer within the created domain
 GivenName
 GlobalAssemblyCache
+Glz\f
+GmI3
+Gpy\f
 GrantedPermissionSet
 GrantedSet
+Gray
 Green
 GregorianCalendar
 GregorianCalendarTypes
@@ -3992,18 +4215,21 @@ GroupModified
 Groups
 GrowIfNeeded
 Guest
+Guid
 GuidAttribute
 GuidParser
 G}C[YSSGY
 H lfG.lCDn+(
+H#xx
 H0FLbB
-H8T6	
+H8T6\t
 HASH_FLAG
 HASH_SIZE_BYTES
 HELPER_FIELD
 HELPER_LOCAL
 HELPER_METHOD
 HELPER_PROPERTY
+HMAC
 HMACAlgorithm
 HMACMD5
 HMACRIPEMD160
@@ -4068,6 +4294,7 @@ HasThis
 HasValue
 HasVarArgs
 HasWriterLock
+Hash
 HashAlgorithm
 HashCode
 HashCore
@@ -4082,6 +4309,7 @@ HashSizeValue
 HashValue
 HashValues
 Hashtable
+Hb\rB
 Header
 HeaderHandler
 HeaderName
@@ -4090,6 +4318,7 @@ HeaderVersionNumber
 Headers
 HebrewCalendar
 HebrewEra
+Help
 HelpLink
 Helper
 HexEscape
@@ -4098,11 +4327,15 @@ HexUnescape
 Hidden
 HideBySig
 Hierarchy
+High
 Highest
 HijriAdjustment
 HijriCalendar
 HijriEra
 History
+Hive
+Home
+Host
 HostAppDomainEvidence
 HostAssemblyEvidence
 HostContext
@@ -4119,13 +4352,17 @@ HostProtectionResource
 HostResolvePolicy
 HostSecurityManager
 HostSecurityManagerOptions
+Hour
 Hours
 HueLightnessSaturation
 HundredMillion
-I&$@(
-I-J+)*/
 I2OSP
+I386
+I80I
+IA64
+IACC
 IAWCQM
+IAZD
 IActivator
 IAppDomainSetup
 IApplicationTrustManager
@@ -4199,6 +4436,7 @@ IDynamicMessageSink
 IDynamicProperty
 IEEERemainder
 IEMEA
+IES_
 IEnumConnectionPoints
 IEnumConnections
 IEnumMoniker
@@ -4209,6 +4447,7 @@ IEnumerable`1
 IEnumerator
 IEnumerator`1
 IEnvoyInfo
+IEqr
 IEqualityComparer
 IEqualityComparer`1
 IEquatable`1
@@ -4220,10 +4459,14 @@ IFormatProvider
 IFormattable
 IFormatter
 IFormatterConverter
+IGCK
 IHashCodeProvider
+IIAC
 IIDGuid
 IID_IDispatch
 IID_IUnknown
+IIGY
+IIKS
 IIdentity
 IIdentityPermissionFactory
 IInternalMessage
@@ -4269,9 +4512,11 @@ IOException
 IOMMiY
 IObjectHandle
 IObjectReference
+IOmO
 IPermission
 IPersistFile
 IPrincipal
+IQAK
 IQSaO
 IReflect
 IRegistrationServices
@@ -4324,10 +4569,13 @@ ITypeLibConverter
 ITypeLibExporterNameProvider
 ITypeLibExporterNotifySink
 ITypeLibImporterNotifySink
+IUSA
 IUnknown
 IUnknownConstantAttribute
 IUnrestrictedPermission
 IVValue
+I[8g
+Icon
 IcuName
 IdOfContainingObj
 Identification
@@ -4355,6 +4603,7 @@ ImageRuntimeVersion
 Impersonate
 Impersonation
 ImpersonationLevel
+Impl
 Implement ensureSecurity
 Import
 ImportAsAgnostic
@@ -4395,6 +4644,7 @@ IndexerNameAttribute
 Individual
 Infinite
 InflateType
+Info
 InfoSoap
 InformationalVersion
 Infrastructure
@@ -4408,6 +4658,7 @@ Inherited
 InheritedObjectAceType
 InheritedObjectAceTypePresent
 InheritedObjectType
+Init
 InitArrays
 InitBuffer
 InitDataStoreHash
@@ -4600,6 +4851,7 @@ Interrupt
 Interrupt_internal
 Intersect
 IntersectKeys
+Intr
 Intranet
 InvalidBasicConstraints
 InvalidCastException
@@ -4690,6 +4942,7 @@ IsCreated
 IsCrtPossible
 IsCurrent
 IsDBNull
+IsDS
 IsDaylightSavingTime
 IsDefaultAppDomain
 IsDefaultAttribute
@@ -4746,6 +4999,7 @@ IsIgnorableNonSpacing
 IsIgnorableSymbol
 IsImplicitlyDereferenced
 IsImport
+IsIn
 IsInRole
 IsInfinity
 IsInherited
@@ -4952,24 +5206,33 @@ IssuerAndSerialNumber
 IssuerName
 IssuerUniqueIdentifier
 It always returns true
+Item
 Items
 IterationCount
 IterationsValue
+Ixy\nX8_
 IzXm)
+J3 Q
+J?D0\v
+JE8F\f
 JITOptimizerDisabledFlag
 JITTrackingEnabledFlag
 JKIHn
+JLNP
 JPNwOKxzy
 JScript
+JYT*
 Jagged
 JapanMax
 JapanMin
 JapaneseCalendar
 JapaneseEra
 JapaneseLunisolarCalendar
+Java
 Jb0;D
 JitImmediate
 JitOnDemand
+Join
 JoinUnchecked
 Join_internal
 JulianCalendar
@@ -4978,10 +5241,12 @@ JulianMax
 JulianMin
 JumpOverWhite
 Justification
-K	_	@
-K$b+nh
+K$b+nh\v
 K%Ri 
-K8\6	
+K3dQ
+K3lQ
+K3tQ
+K8\6\t
 KACAK
 KACMCK
 KAY]I
@@ -4989,14 +5254,20 @@ KAn alternate API is available: Emit the MarshalAs custom attribute instead.
 KCCSM
 KDJCE?=
 KEEOA
+KEMG
+KEUQ
 KEY_BIT_SIZE
 KEY_BYTE_SIZE
 KEY_MODE
 KIK[}
+KILJ
 KJ<BE
 KL<CA
+KMGm
 KRMTP
 KSKCA
+KYEe
+KYeg
 KeepAlive
 KeepLastBlock
 Kernel
@@ -5046,33 +5317,56 @@ KeyValue
 KeyValuePair`2
 KeyedCollection`2
 KeyedHashAlgorithm
+Keys
+Kill
+Kind
+KnXX
 KnownAce
 KnownTerminals
+KoE[
 KoreanCalendar
 KoreanEra
 KoreanLunisolarCalendar
 KoreanMax
 KoreanMin
+KuY_
+KwZi
+Kycg
+L)Pn
+L00\r
+L0B\r
 L6%|F
-L>-*J
+L82\r
+L8B\r
+LCID
 LCIDConversionAttribute
-LC~#"
+LDB\r
+LEH?
+LH7\r
 LHEW:2
 LIBFLAGS
 LIBFLAG_FCONTROL
 LIBFLAG_FHASDISKIMAGE
 LIBFLAG_FHIDDEN
 LIBFLAG_FRESTRICTED
+LIN=
 LJHIM
 LMShare
 LNP(1RTW
 LNext
+LP3\r
+LP7\r
 LPArray
 LPStr
 LPStruct
 LPTStr
 LPThXd`\
 LPWStr
+LT7\r
+LTA\r
+LX2\r
+L\tTF
+L]\n9mX
 Label
 LabelData
 LabelFixup
@@ -5080,6 +5374,7 @@ Language
 LanguageVendor
 LargestWindowHeight
 LargestWindowWidth
+Last
 LastAccessTime
 LastAccessTimeUtc
 LastClauseType
@@ -5103,6 +5398,8 @@ LaunchMail
 LaunchMediaSelect
 LayoutKind
 LayoutMask
+Lcid
+Ld7\r
 Ldarg
 Ldarg_0
 Ldarg_1
@@ -5200,13 +5497,16 @@ Li*1#P
 Library
 LicenseFile
 LifetimeServices
+Line
 LineSeparator
+Link
 LinkDemand
 LinkDemandFullTrust
 LinkDemandSecurityException
 LinkDemandUnmanaged
 Linux
 LinuxGetDrives
+List
 ListDirectory
 ListKeys
 ListSeparator
@@ -5216,6 +5516,8 @@ List`1
 Literal
 LittleEndian
 Lj&&lZ66~A??
+Ll9\r
+Load
 LoadAssembly
 LoadAssemblyFromString
 LoadAssemblyPermissions
@@ -5269,6 +5571,7 @@ LocalityName
 Localized
 Localloc
 Location
+Lock
 LockCookie
 LockQueue
 LockRegion
@@ -5292,8 +5595,13 @@ LowercaseLetter
 Lowest
 LowestSetBit
 LpiChangesRes
+Lt6\r
 LunarCalendar
 LunisolarCalendar
+LwH'
+Lx2\r
+LxA\r
+M0V\r
 M3fU3
 M8yqp
 M;;va
@@ -5301,27 +5609,43 @@ MACAlgorithm
 MACTripleDES
 MAX_SCALE
 MAX_VALUE_TICKS
+MBIG
 MCPlusPlus
+MCUA
 MD5CryptoServiceProvider
 MDStreamVersion
+MDU\r
 MEAGC
 MEMBER_ID_NIL
 METHODS_TO_SKIP
+MGF1
+MIGU
+MKiK
+MLG\r
+MLT"\r
+MLZ\r
 MLangCodePageEncoding
 MLangDecoder
 MLangEncoder
 MMfU33
+MOCU
 MONO development team
+MOOE
+MPU\r
 MSCompatUnicodeTable
 MSCompatUnicodeTableUtil
 MSEED
 MSG_ARRAYSIZE_DAY
 MSG_ARRAYSIZE_MONTH
 MSG_READONLY
+MSIL
 MSU[[
+MSw]
 MTAThreadAttribute
+MYE\t
 M[_AYEQ
 M\XXT
+M\nPi
 M_AbbrEraNames
 M_AddHijriDate
 M_ArgumentInRange
@@ -5417,6 +5741,7 @@ MatchesBackwardCore
 MatchesForward
 MatchesForwardCore
 MatchesPrimitive
+Math
 MathSymbol
 MaxBinaryLength
 MaxBufferSize
@@ -5448,6 +5773,7 @@ MayLeakOnAbort
 Maybe
 MaybeNfc
 MaybeNfkc
+MeGY
 MeK;C
 MediaNext
 MediaPlay
@@ -5484,6 +5810,7 @@ MessageFormatter
 MessageId
 MessageQueuePermissionClass
 MessageSurrogateFilter
+Meta
 Metadata
 MetadataLength
 MetadataPosition
@@ -5515,6 +5842,8 @@ MethodReturnDictionary
 MethodReturnMessageWrapper
 MethodSignature
 MethodToken
+MgUg
+MhG\r
 Microsoft
 Microsoft.Win32
 Microsoft.Win32.SafeHandles
@@ -5547,9 +5876,11 @@ MissingMethodException
 MissingSatelliteAssemblyException
 MkGMS
 Mkrefany
+MlV\r
 Mnboi[j
 ModInverse
 ModPow
+Mode
 ModeValue
 ModifierLetter
 ModifierSymbol
@@ -5575,6 +5906,7 @@ Monitor_pulse_all
 Monitor_test_synchronised
 Monitor_try_enter
 Monitor_wait
+Mono
 Mono does not support COM
 Mono.Globalization.Unicode
 Mono.Interop
@@ -5636,6 +5968,7 @@ MonthDayShortFormats
 MonthGenitiveNames
 MonthNames
 MoreData
+Move
 MoveBufferArea
 MoveFile
 MoveInsertMode
@@ -5668,28 +6001,39 @@ MutexAuditRule
 MutexIndex
 MutexRights
 MutexSecurity
+MvId
 MyComputer
 MyDocuments
 MyMusic
 MyPictures
+N/04
 N59E>6C!=
-N7+</
-N8d6	
+N8d6\t
+N8y\r
 NAlways returns GCLatencyMode.Interactive and ignores set (.NET 2.0 SP1 member)
 NBytes
+NDt+\f
+NDv\r
+NDx\r
 NKTiF^7
 NNNNNNNNN
+NO&N
 NOGYI
+NOP\t
 NOTIF_CONVERTWARNING
 NOTIF_TYPECONVERTED
 NOT_STARTED
 NOT_SUPPORTED
 NO_SLOT
+NPv\r
+NPw\r
+NPy\r
 NTAccount
 NTAuthoritySid
+NTw\r
 NUJKFV@SQK
-N\]w/
 NaNSymbol
+Name
 NameImpl
 NameOrId
 NamePrep
@@ -5748,6 +6092,7 @@ NewSlot
 NewUri
 Newarr
 Newobj
+Next
 NextActivator
 NextBytes
 NextChannelSink
@@ -5759,6 +6104,7 @@ NextSameContainer
 NextSameRequired
 NextSink
 NextUpdate
+Nlb\r
 No COM support
 NoAccess
 NoArguments
@@ -5795,6 +6141,7 @@ NonPublic
 NonRevRmcup
 NonSerializedAttribute
 NonSpacingMark
+None
 Normal
 Normalization
 NormalizationCheck
@@ -5805,7 +6152,6 @@ NormalizeArray
 Not currently implemenented
 Not implemented
 Not implemented on unix
-Not supported
 Not supported by the runtime
 Not supported in the runtime
 Not user configurable yet
@@ -5835,8 +6181,12 @@ NotifyMarshaledObject
 NotifyMessage
 NotifyServerDynamicSinks
 NotifyUnmarshaledObject
+Npa\r
+NrZl
 Nternal
 NtlmAuthenticationSid
+Ntx\r
+Null
 NullCount
 NullReferenceException
 NullSid
@@ -5873,19 +6223,25 @@ NumberNegativePattern
 NumberStyles
 NumberToString
 NxsEQ$B
+Nxv\r
 O1234
 O44h\
-O8l6	
+O8l6\t
+O@0u\v
 OAMaxValue
 OAMinValue
+OEKE
 OEMCodePage
 OFFSET_UNKNOWN
+OGUY
 OOC]GU
+OOM}
 OPTIL
 OQQAKU
 OS2IP
 OSSWk
 OSVersion
+OTPX
 OUAOC
 OUOCC
 OYCGy_
@@ -5927,7 +6283,17 @@ ObjectUrl
 ObjectWriter
 Objmodel
 ObsoleteAttribute
+OeGM
+OeUE
+Oem1
 Oem102
+Oem2
+Oem3
+Oem4
+Oem5
+Oem6
+Oem7
+Oem8
 OemClear
 OemComma
 OemMinus
@@ -5978,6 +6344,7 @@ OpCodeNames
 OpCodeType
 OpCodes
 OpaqueLength
+Open
 OpenMethod
 OpenNamespace
 OpenOrCreate
@@ -6047,8 +6414,12 @@ OwnClipboard
 Owner
 OwnerDefaulted
 OwnerModified
-P8t6	
+P)Po
+P00`
+P8t6\t
 P<xD<
+P?P2\v
+P@du\v
 PARAMDESC
 PARAMFLAG
 PARAMFLAG_FHASCUSTDATA
@@ -6063,6 +6434,7 @@ PCreateWaitHandle is due for removal.  Use "new ManualResetEvent(false)" instead
 PE32Plus
 PEFileKinds
 PEOffset
+PGDS
 PInfo
 PKCS1
 PKCS12
@@ -6071,12 +6443,20 @@ PKCS5
 PKCS7
 PKCS8
 PKCS9
+PKy>
 PLMJND7EC
 PMDesignator
+PO(N
+PPNu
 PPxD<<%
+PQRS
+PQR~
 PROV_DSS_DH
 PROV_RSA_FULL
 PUse FileStream(SafeFileHandle handle, FileAccess access, int bufferSize) instead
+PXXT
+P\vXY
+Pack
 PackContext
 PackEnumerable
 PackOne
@@ -6147,6 +6527,7 @@ Pascal
 Password
 PasswordDeriveBytes
 PatchFilterClause
+Path
 PathAndQuery
 PathDiscovery
 PathLenConstraint
@@ -6154,6 +6535,8 @@ PathSeparator
 PathSeparatorChars
 PathTooLongException
 Pause
+PcJ7
+Peek
 PeekChar
 PerMilleSymbol
 PercentDecimalDigits
@@ -6189,13 +6572,17 @@ Persistence
 Personal
 Pinned
 PinvokeImpl
+Pipe
 Pkcs12
 Pkcs7
 Pkcs8ShroudedKeyBagSafeBag
 Platform
 PlatformID
 PlatformNotSupportedException
+Play
 PlusEq
+Po&7
+Po)7
 Pointer
 PointerType
 PolicyException
@@ -6204,7 +6591,10 @@ PolicyLevel
 PolicyLevelType
 PolicyStatement
 PolicyStatementAttribute
+Pop0
+Pop1
 Pop1_pop1
+Popi
 Popi_pop1
 Popi_popi
 Popi_popi8
@@ -6222,6 +6612,7 @@ Popref_popi_popr8
 Popref_popi_popref
 PopulateCombinedList
 PopulateObjectMembers
+Port
 PortableExecutableKinds
 Position
 PositionImpl
@@ -6230,10 +6621,12 @@ Positive
 PositiveInfinity
 PositiveInfinitySymbol
 PositiveSign
+Post
 PostInit
 PostTrialDivisionTests
 PowerUser
 PpvMT
+Pr\C
 PreLoad
 PrePrepareMethodAttribute
 PredefinedResourceType
@@ -6318,6 +6711,7 @@ ProductVersion
 ProgIdAttribute
 ProgramFiles
 Programs
+Prop
 PropCP
 PropCount
 PropGet
@@ -6374,6 +6768,7 @@ PurgeAccessRules
 PurgeAudit
 PurgeAuditRules
 Purpose
+Push
 Push0
 Push1
 Push1_push1
@@ -6386,18 +6781,22 @@ PutBytes
 PutDispProperty
 PutImpl
 PutRefDispProperty
-Q	o,'
-Q8|6	
-Q: E	
+Q%IG
+Q&Rt
+Q0\vV
+Q3$R
+Q7h{
+Q8|6\t
 QCAuC
 QKUO[
 QPeA~S
+QQQQ
 QSeA~
 QWUgSE
 QWord
 QYcIk
 QciGY
-Qppp|||~
+Qr4?
 QualifiedAce
 Query
 QueryInterface
@@ -6413,13 +6812,19 @@ QuickCheckDisabled
 QuickCheckPossible
 QuickIndexOf
 QuickSort
+Quit
+Q}Sg
 R##Fe
-R:4E	
+R3,R
+R34R
+R3@R
+R:4E\t
 R;vM;
+RBTU
 RC2CryptoServiceProvider
 RC2Transform
 RCAS support is experimental (and unsupported). Imperative mode is not implemented.
-REMOTING_PERF
+RE(G\f
 REQUIRED
 REQUIRES_NEW
 RESERVED_SS32_BITS
@@ -6429,9 +6834,11 @@ RIPEMD160
 RIPEMD160Managed
 RMControlValid
 RNGCryptoServiceProvider
+RO"N
 RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiijjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 RRvM;;
 RR||CC{
+RSA1
 RSACryptoServiceProvider
 RSADP
 RSAEP
@@ -6446,6 +6853,7 @@ RSAPKCS1SignatureFormatter
 RSAParameters
 RSASP1
 RSAVP1
+RTQS
 RTSpecialName
 RTVVXYY[]__``````bdggiknpsuwz|kkkkkkkkkkkkkkkkkkkkklXXXX__```bbbbddggggggiiiikknnnn|~~kkklllll
 RTVVXYY]__``````bggiknsuwz|VVXXXXX[[______````````bbbbbbbbbdgggiiiiknnnnnnn||~~~~~
@@ -6473,6 +6881,7 @@ RT_VXD
 RVAtoPosition
 RVY]`bgknsuwz|RVY]`bgknsuwz|
 RVY]`bgknsuwz|RVY]`bgknsuwz|n
+R\nTj
 RabinMillerTest
 RaiseDeserializationEvent
 RaiseOnDeserialized
@@ -6488,6 +6897,7 @@ RandomNumberGenerator
 Randomize
 RandomlyGenerated
 RangedArrayList
+Rank
 RankException
 RawAbbreviatedDayNames
 RawAbbreviatedMonthNames
@@ -6500,9 +6910,11 @@ RawMonthNames
 RawNumberGroupSizes
 RawPercentGroupSizes
 RawSecurityDescriptor
+Rcon
 ReAllocCoTaskMem
 ReAllocHGlobal
 ReRegisterForFinalize
+Read
 Read7BitEncodedInt
 ReadAllBytes
 ReadAllLines
@@ -6953,6 +7365,8 @@ RngGetBytes
 RngInitialize
 RngOpen
 Roaming
+Role
+Root
 RootCodeGroup
 RootDirectory
 RootHidden
@@ -6967,6 +7381,7 @@ RoundPos
 RoundtripKind
 RoundtripPattern
 RowAddrGlitch
+RrH?
 RunAndSave
 RunClassConstructor
 RunModuleConstructor
@@ -6986,15 +7401,24 @@ RuntimeSecurityFrame
 RuntimeType
 RuntimeTypeHandle
 RuntimeWrappedException
+R}Sa
 S11b?
+S3HR
+S3TR
+S7=7
+SBox
 SByte
 SByteComparer
 SCALE_MASK
 SCALE_SHIFT
 SCAS support is experimental (and unsupported). This method only works in FullTrust.
 SChannelAuthenticationSid
+SC}b
 SEHException
-SER_LOGGING
+SEIO
+SELG\f
+SF<e\f
+SHA1
 SHA1CryptoServiceProvider
 SHA1Internal
 SHA1Managed
@@ -7008,13 +7432,20 @@ SHAConstants
 SIGN_FLAG
 SI{KE
 SMCkUG
+SMHL
+SMMA
 SMOSY
 SMUJ[
+SNIP
 SPQRT
+SQOS
 SQRTPU
 STATSTG
 STAThreadAttribute
 SUPPORTED
+SVRW
+SWTC
+SW[o
 SXRYT
 SYSKIND
 SYS_MAC
@@ -7022,6 +7453,7 @@ SYS_WIN16
 SYS_WIN32
 SYS_WIN64
 SZARRAY
+S\r0Q'qcq|
 S]qaK
 SaXhT
 SafeArray
@@ -7039,6 +7471,7 @@ SafeName
 SafeSubWindows
 SafeTopLevelWindows
 SafeWaitHandle
+Salt
 SaltValue
 SameDomain
 SameMachine
@@ -7048,6 +7481,7 @@ Sample
 Satellite
 SatelliteContractVersionAttribute
 Saturday
+Save
 SaveCompleted
 SaveIdentities
 SaveLogicalCallContext
@@ -7104,7 +7538,9 @@ SecurityState
 SecurityTransparentAttribute
 SecurityTreatAsSafeAttribute
 SecurityZone
+Seed
 SeedArray
+Seek
 SeekOrigin
 Segments
 Select
@@ -7116,6 +7552,7 @@ SelfAffectingThreading
 SelfRelative
 SelfSid
 SemiAutoRightMargin
+Send
 SendAsyncMessage
 SendOrPostCallback
 SendTo
@@ -7230,7 +7667,6 @@ SetEncodings
 SetEntryPoint
 SetEnvironmentVariable
 SetError
-SetErrorInfo
 SetEvent_internal
 SetExceptions
 SetFallbackInternal
@@ -7357,6 +7793,7 @@ Shr_Un
 ShrinkIfNeeded
 Sigma0
 Sigma1
+Sign
 SignData
 SignHash
 Sign_v15
@@ -7388,12 +7825,16 @@ SingleDomain
 SingleUse
 Singleton
 SingletonIdentity
+Sinh
+Sink
 SinkProviderData
 SinksWithProperties
+Site
 SiteIdentity
 SiteIdentityPermission
 SiteIdentityPermissionAttribute
 SiteMembershipCondition
+Size
 Size1
 Size128
 Size16
@@ -7406,14 +7847,17 @@ SizeConst
 SizeOf
 SizeParamIndex
 Sizeof
+Skip
 SkipSize
 SkipVerification
 SkipWhitespaces
 Sleep
 Sleep_internal
+Slot
 SmallPrimeSppTest
 SmallXmlParser
 SmallXmlParserException
+Soap
 SoapAction
 SoapAnyUri
 SoapAssert
@@ -7463,6 +7907,7 @@ SocketPermissionClass
 SocketSecurityEnabled
 SolarCalendar
 Sometimes
+Sort
 SortKey
 SortKeyBuffer
 SortableDateTimePattern
@@ -7488,7 +7933,9 @@ SpinWait_nop
 Split
 SponsorshipTimeout
 SqlClientPermissionClass
+Sqrt
 SquarePositive
+SrZ?
 Stack
 StackBehaviour
 StackBehaviourPop
@@ -7513,6 +7960,7 @@ StartOffset
 StartTrackingLifetime
 StartsWith
 Startup
+Stat
 State
 StateOrProvinceName
 State_AllowSign
@@ -7555,6 +8003,7 @@ Stloc_2
 Stloc_3
 Stloc_S
 Stobj
+Stop
 StopListening
 StopManager
 StopRequested
@@ -7622,6 +8071,8 @@ Subtract
 Succeeded
 Success
 SuccessfulAccess
+Sum0
+Sum1
 Sunday
 Support
 SupportsInterface
@@ -7637,10 +8088,12 @@ Surrogate
 SurrogateEncoder
 SurrogateSelector
 Surrogates
+Susp
 Suspend
 SuspendRequested
 Suspend_internal
 Suspended
+Swap
 SwapBytes
 SwapConv
 SwapConverter
@@ -7659,6 +8112,7 @@ SymLanguageVendor
 SymbolToken
 SymmetricAlgorithm
 SymmetricTransform
+Sync
 SyncDispatchMessage
 SyncHashtable
 SyncObjectProcessMessage
@@ -7989,7 +8443,6 @@ System.Security.Principal
 System.Text
 System.Threading
 System.Threading.Thread
-System.Type
 SystemAcl
 SystemAclAutoInheritRequired
 SystemAclAutoInherited
@@ -8010,10 +8463,10 @@ SystemDefinedImpl
 SystemException
 SystemMaxDBCSCharSize
 SystemOperator
-S{_C[
 T00`P
-T6$:.
-T:HE	
+T3\R
+T3hR
+T:HE\t
 TBStr
 TElem
 TEventArgs
@@ -8028,10 +8481,16 @@ TKIND_MAX
 TKIND_MODULE
 TKIND_RECORD
 TKIND_UNION
+TKey
+TO$N
+TOPd
 TOutput
+TRet
+TURS
 TUV[S
 TValue
 TWNR^
+TXVU
 TYPEATTR
 TYPEDESC
 TYPEFLAGS
@@ -8052,7 +8511,6 @@ TYPEFLAG_FRESTRICTED
 TYPEFLAG_FREVERSEBIND
 TYPEKIND
 TYPELIBATTR
-T[$:.6
 Table
 TableRange
 Tailcall
@@ -8066,6 +8524,7 @@ TaiwanMax
 TaiwanMin
 TakeOwnership
 TakesSingleByteArgument
+Tanh
 Target
 TargetDomainId
 TargetException
@@ -8087,8 +8546,10 @@ TermInfoBooleans
 TerminalServerSid
 TerminatorByte
 Territory
+Test
 TestBit
 TestPrime
+Text
 TextElementEnumerator
 TextInfo
 TextReader
@@ -8144,6 +8605,7 @@ TicksPerMillisecond
 TicksPerMinute
 TicksPerSecond
 TildeGlitch
+Time
 TimeOfDay
 TimeSeparator
 TimeSpan
@@ -8262,6 +8724,7 @@ TransportHeaders
 Traverse
 TreatControlCAsInput
 TrialDivisionBounds
+Trim
 TrimEnd
 TrimExcess
 TrimStart
@@ -8269,6 +8732,8 @@ TrimToSize
 TripleDES
 TripleDESCryptoServiceProvider
 TripleDESTransform
+Trl?
+True
 TrueForAll
 TrueString
 Truncate
@@ -8289,10 +8754,12 @@ TryParse
 TryParseExact
 TryParseStringConstant
 TrySetApartmentState
+Ts\ne
 Tuesday
 TwoDigitYearMax
 TwoLetterISOLanguageName
 TwoLetterISORegionName
+Type
 TypeAssemblyName
 TypeAttributes
 TypeBuilder
@@ -8339,7 +8806,11 @@ Types
 TypesAlways
 TypesWhenNeeded
 U(Px(
-U7,#	
+U)lp
+U33f
+U3pR
+U3|R
+U47/
 U:C7T
 UCOMIBindCtx
 UCOMIConnectionPoint
@@ -8357,11 +8828,14 @@ UCOMITypeComp
 UCOMITypeInfo
 UCOMITypeLib
 UDeprecated in favor of GetApartmentState, SetApartmentState and TrySetApartmentState.
+UF\e\f
+UFhe\f
 UIContext
 UIPermission
 UIPermissionAttribute
 UIPermissionClipboard
 UIPermissionWindow
+UIeO
 UInt16
 UInt16DefPrecision
 UInt32
@@ -8378,16 +8852,19 @@ ULongModHundredMillion
 UMarshal
 UNDEFINED
 UNICODE_CODE_PAGE
+URMp
 USEnglish
 UShortFromBytes
 UTF32
 UTF32Decoder
 UTF32Encoding
 UTF32_CODE_PAGE
+UTF7
 UTF7Decoder
 UTF7Encoder
 UTF7Encoding
 UTF7_CODE_PAGE
+UTF8
 UTF8Decoder
 UTF8Encoder
 UTF8Encoding
@@ -8395,11 +8872,15 @@ UTF8Unmarked
 UTF8UnmarkedUnsafe
 UTF8_CODE_PAGE
 UTWVY
-UU))jj!!""
 UU))jjCCXXXXCC
 UU))jj``aa
 UUPx((
-Ui` \!
+UWoY
+UXa_
+U[OQ
+U\npl
+U\nxl
+Ulbk
 UltimateResourceFallbackLocation
 UmAlQuraCalendar
 UmAlQuraEra
@@ -8414,6 +8895,7 @@ Unbox_Any
 UnchainFixup
 UnderlyingField
 UnderlyingSystemType
+Undo
 Unescape
 UnexceptionalStreamReader
 UnexceptionalStreamWriter
@@ -8435,6 +8917,7 @@ UnitySerializationHolder
 UnityType
 UnityWebSecurityEnabled
 UniversalSortableDateTimePattern
+Unix
 UnixEpoch
 UnixGetDrives
 UnixRegistryApi
@@ -8516,7 +8999,6 @@ Usage
 UsageAllowed
 Use AppDomainSetup.SetCachePath
 Use Configure(String,Boolean)
-Use ILOffset
 Use SafeFileHandle instead
 Use salt in algorithm
 Use the Issuer property.
@@ -8538,6 +9020,7 @@ UseSoapFormat
 UseStd3AsciiRules
 UseUserOverride
 UseUserProtectedKey
+User
 UserApplicationTrusts
 UserCustomCulture
 UserDomainName
@@ -8558,10 +9041,9 @@ UtcDateTime
 UtcNow
 UtcOffsetIdx
 UtcTicks
+V(A9
 V22dN::t
-V:\E	
 V=ZM>T
-VA ].
 VALUE_MODE
 VARDESC
 VARFLAGS
@@ -8629,6 +9111,7 @@ VT_USERDEFINED
 VT_VARIANT
 VT_VECTOR
 VT_VOID
+VUT7
 ValidCompareOptions
 ValidCompareOptions_NoStringSort
 ValidDate
@@ -8658,6 +9141,7 @@ VariantBool
 VariantWrapper
 Varpop
 Varpush
+Vbc<
 Vef\B
 VerificationException
 Verify
@@ -8677,6 +9161,7 @@ VersionAdded
 VersionCompatibility
 VersionString
 VersioningHelper
+View
 ViewAccessControl
 ViewAcl
 ViewAndModify
@@ -8687,6 +9172,7 @@ Visible
 VisualizerObjectSourceTypeName
 VisualizerTypeName
 Voiced
+Void
 Volatile
 VolatileRead
 VolatileWrite
@@ -8695,16 +9181,35 @@ VolumeLabel
 VolumeMute
 VolumeSeparatorChar
 VolumeUp
+Vr4!
 VsFileVersion
 VsVersion
 VtableLayoutMask
-W7H#	
+W7H#\t
+WEKE
 WErase
+WF0f\f
+WG_G
 WKUYE
+WL4#\r
+WLD#\r
+WLT#\r
+WLd#\r
+WLp#\r
+WLx#\r
 WQECGmA
+WQXY
+WWOE
+WYKA
 WYKG[G
+WYVZ
 W[]CO
 W[_cgkosww
+W\nHm
+W]OK
+W]QW
+W_CC
+Wait
 WaitAll
 WaitAll_internal
 WaitAny
@@ -8722,6 +9227,7 @@ WaitTimeout
 WantsToListen
 WasCurrent
 Wd[TP
+Weak
 WeakReference
 WeakTrackResurrection
 WebName
@@ -8851,7 +9357,13 @@ WriteValue
 WriteValueType
 WriterLocks
 WriterSeqNum
-Wyi	/
+Wyi\t/
+W{SI
+X(j6
+X(k6
+X)xx
+X3DS
+X501
 X509Certificate
 X509CertificateCollection
 X509CertificateEnumerator
@@ -8866,21 +9378,60 @@ X509KeyStorageFlags
 X509Store
 X509StoreManager
 X509Stores
-XG*N~.
-XG*N~/
+X520
+X68H
 XG*N~0
 XG*V~b
+XG8\t
+XIX\r
 XNot 64bit compatible.  Please use the constructor that takes IntPtr for the event handle
+XT8P
+XT8\n
 XVO\_ZS
 XVUNQTP
+XXCC
 XXCC``aa
+XXUU
 XXUU((
 XXUUU
 XXUUXXnnUU``
 XXUU``%%**$$##
 XXUU``YYcc``%%((
 XXnnUU
+XY(r
 XYDl&
+XZ u
+X\f82
+X\f8A
+X\f8C
+X\f8D
+X\f8F
+X\f8Q
+X\f8Y
+X\f8k
+X\f8t
+X\f\tsg
+X\n84
+X\n8U
+X\n8V
+X\n8c
+X\n8e
+X\n8q
+X\n8w
+X\nXG\r
+X\nsO
+X\nsp
+X\nss
+X\tLH
+X\v82
+X\v87
+X\v8F
+X\v8l
+X\v8r
+X\v8z
+Xbox
+XhHp
+Xi8"
 XmlElementName
 XmlFieldOrder
 XmlFieldOrderOption
@@ -8894,41 +9445,109 @@ XmlSyntaxException
 XmlTag
 XmlTypeName
 XmlTypeNamespace
+Xo=6
+Xo]7
 XonXoff
 XsdString
 XsdType
-Xt,,4.
-Y7d#	
-Y:pE	
-Y<~ofX
+Y3LS
+Y3TS
+Y3\S
+Y3hS
+Y77n
+Y7d#\t
+Y:pE\t
+Y?Lk
 YAM>zg
+YBAe
+YEII
+YG[Y
 YMEAGA
+YME{
 YWM]eGO
+YXGR
+YXT8
+YX\f8
+YX\r8
+YX\r85
+YX\r8\r
+YX\r8`
 YYji*r
-YZ[\]^
+YZX\n
+YZX\n8\v
+YZX\v
 Y[COGw
-Y\]^a
+Y\f82
+Y\f8Q
+Y\f8r
+Y\n8s
+Y\v8H
+Y\v8S
+Y\v8Z
 Y_ibg[
 Ye(H<
+Year
 YearMonthDayFormats
 YearMonthPattern
 Yellow
+Yh\n8\t
 YiX}D
 YiY}D
-Yl(??
-Yl* !0
+Yj\n8
+Yj\n8/
 Yl* Q2
+YlZ(
+YlZ*
+Yo'7
+Yo(7
+YoT\n
+Yo^7
 Y|u&S
+Z0w[
 Z1h2tJ`e
+Z3pS
+Z3|S
 Z5f_&ga0b
 Z79;,.3
+ZFdf\f
 ZH&/Z7
-ZX	 8
-ZXJ	X
+ZT9\f_
+ZX(n
+ZXH*
+ZXH\n
+ZXI(
+ZXI*
+ZXI:
+ZXI;
+ZXI@
+ZXI\f
+ZXI\v
+ZXJ*
+ZXJ:
+ZXJ@
+ZXJ\f
+ZXJ\tX
+ZXJ\v
+ZXJ\v8\v
 ZXJ`*
+ZXK9
+ZXK:\f
+ZXL*
+ZXO*
+ZXXT
+ZX\f8
+ZX\r8
+ZX\t 8
+ZX\tX
+ZX\v8
+ZX}Y
 ZY(c;
+ZY\r8
+ZYn\v
 Z[Ate
 Z[\]^_`abcde
+Z\tTH
+Zero
 ZeroFreeBSTR
 ZeroFreeCoTaskMemAnsi
 ZeroFreeCoTaskMemUnicode
@@ -8939,18 +9558,20 @@ ZeroTrimEnd
 ZeroizeKey
 ZeroizePrivateKey
 Zeros
+ZiKw
 ZjX(m
 Zl(R=
+Zone
 ZoneIdentity
 ZoneIdentityPermission
 ZoneIdentityPermissionAttribute
 ZoneMembershipCondition
-[%i%d;%dR
+Zoom
+Zr&9
 [%i%p1%d;%p2%dH
 [%i%p1%d;%p2%dr
 [%i%p1%dG
 [%i%p1%dd
-[%p1%d@
 [%p1%dA
 [%p1%dB
 [%p1%dC
@@ -8966,72 +9587,138 @@ ZoneMembershipCondition
 [0;10%?%p1%t;7%;%?%p2%t;4%;%?%p3%t;7%;%?%p4%t;5%;%?%p5%t;2%;%?%p6%t;1%;%?%p7%t;8%;%?%p9%t;11%;m
 [0;10%?%p1%t;7%;%?%p2%t;4%;%?%p3%t;7%;%?%p4%t;5%;%?%p6%t;1%;%?%p7%t;8%;%?%p9%t;11%;m
 [0;10m
-[15;2~
-[15;5~
-[15;6~
-[17;2~
-[17;5~
-[17;6~
-[18;2~
-[18;5~
-[18;6~
-[19;2~
-[19;5~
-[19;6~
-[20;2~
-[20;5~
-[20;6~
-[21;2~
-[21;5~
-[21;6~
-[23;2~
-[23;5~
-[23;6~
-[24;2~
-[24;5~
-[24;6~
-[2;5~
+[10m
+[11m
+[24m
+[27m
 [3%?%p1%{1}%=%t4%e%p1%{3}%=%t6%e%p1%{4}%=%t1%e%p1%{6}%=%t3%e%p1%d%;m
 [3%p1%dm
 [39;49m
-[3;5~
 [4%?%p1%{1}%=%t4%e%p1%{3}%=%t6%e%p1%{4}%=%t1%e%p1%{6}%=%t3%e%p1%d%;m
 [4%p1%dm
-[5;5~
-[6;5~
 [?%[;0123456789]c
 [?1049h
 [?1049l
-[?1;2c
 [?25h
 [?25l
-[?3;4l
 [?5h$<100/>
 [?5l$<200/>
+[AgG
+[EdG\f
+[Flf\f
 [IEEKOGY
+[MhP\r
 [Z7ECB
-[\Y]Z
-[ji*	
+[jya
 [kGSYmA
 [ycCmS
-[{_key}]*
-[{key}]8
-[}Q[Q
-\'[]^2`dh
-\h!T[
+\44h
+\UZP
+\f2S\fN!f
+\f3LG
+\f3TG
+\fKnZ
+\fSetErrorInfo
+\fUse ILOffset
+\fXGR
+\fXJT
+\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\t
+\fbYi
+\fmscorlib.dll
+\fnoo
+\foW0
+\frft
+\frnJ
+\n""""""""""
+\n2eY
+\n=HiM
+\nFXb\f
+\nF\vZE
+\nFdb\f
+\nKnXX
+\nKnZ
+\nMLD\r
+\nMdD\r
+\nUD2
+\nXGR
+\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\rJKMN
+\n\t\t\t\t\t\t\t\t\t\t
+\n\trbx
+\nincomplete
+\nrrL
+\r3hG
+\r3pG
+\r8STs\ne
+\rAllowMultiple
+\rCODE_ANALYSIS
+\rCount={Count}
+\rKnXX
+\rNot supported
+\rREMOTING_PERF
+\rXGR
+\r\t\t\t\t\t\t\t\t\t\t
+\r\t\t\t\t\t\t\t\t\t\t\t\t
+\righ
+\rrft
+\t3T)M
+\tInherited
+\tKnXX
+\tXGR
+\tYY\f8
+\tZT8
+\tZhS8
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\v\f\r\v\f\r\v\f\r\v\f\r
+\timplement
+\tjZU8
+\toW0
+\toq4
+\tos3
+\tr61
+\tr8x
+\trbx
+\trj0
+\trqv
+\tsM4
+\txYn
+\v3.0.40818.0
+\v>ah4
+\vFpb\f
+\vKnZ
+\vSER_LOGGING
+\vSystem.Type
+\vXGR
+\vrgG
+\vyasG
 ]EYo_
+]Oas
 ]P%p1%x%p2%{256}%*%{1000}%/%02x%p3%{256}%*%{1000}%/%02x%p4%{256}%*%{1000}%/%02x
-]S\Q[V
 ]Toj<4
 ]UqOQ
-]_\^^c
-]`_dc
 ]c_RUNO
+]wKC
 ^Struct should be [StructLayout(LayoutKind.Sequential)] but will need to be reordered for that.
 ^Use FileStream(SafeFileHandle handle, FileAccess access, int bufferSize, bool isAsync) instead
-^b;'nj
-_	aX 
-_	a~o
+^gzC
+^kK\r2U
+_55j
 _Activator
 _AppDomain
 _Assembly
@@ -9084,6 +9771,7 @@ _Minor
 _Module
 _ModuleBuilder
 _MustUnderstand
+_NaN
 _Name
 _ParameterBuilder
 _ParameterInfo
@@ -9141,10 +9829,14 @@ _assemblyFormat
 _assemblyIdentity
 _assemblyName
 _assert
+_att
 _authenticated
 _bReEntrant
+_b\n8M
 _b`T8
-_baT	
+_baT
+_baT\t
+_baX\n
 _bagOID
 _bf_T
 _binder
@@ -9153,7 +9845,6 @@ _block
 _blockSizeValue
 _buffer
 _byref
-_c[{I~
 _cache_GetHashCodeMethod
 _cache_GetTypeMethod
 _cachedMetadata
@@ -9187,16 +9878,17 @@ _containerName
 _content
 _context
 _contextProperties
+_crl
 _crls
 _crossContextSink
 _ctorCall
 _culture
+_cur
 _current
 _currentBlock
 _currentState
 _customProperties
 _custom_type_info
-_d`}y
 _data
 _datetimeFormats
 _decPointPos
@@ -9221,11 +9913,13 @@ _domainID
 _domainIdentity
 _domain_manager
 _drive_type
+_dsa
 _ecma
 _ecmaKey
 _elementName
 _encrypted
 _encryptionAlgorithm
+_end
 _endOfStream
 _envoySink
 _error
@@ -9272,6 +9966,7 @@ _ignorePersistedDecision
 _impl
 _importClass
 _inArgInfo
+_ind
 _index
 _indices
 _infinity
@@ -9293,6 +9988,7 @@ _iteration
 _iterations
 _jbF~T
 _keepAlive
+_key
 _keyBags
 _keyBagsChanged
 _keyPairArray
@@ -9325,6 +10021,7 @@ _manager
 _maxCapacity
 _maxSize
 _maxYear
+_md5
 _member
 _memberName
 _memberSignature
@@ -9351,8 +10048,12 @@ _nested
 _newLock
 _next
 _nextSink
+_nfi
 _noPrompt
 _nothing
+_oL1
+_oN1
+_oN2
 _objRef
 _objRefSurrogate
 _objRemotingSurrogate
@@ -9364,6 +10065,7 @@ _objectType
 _objectUri
 _objects
 _offset
+_oid
 _onDeserializedCallbackRecords
 _optional
 _order
@@ -9385,6 +10087,7 @@ _personal
 _platform
 _pointer
 _port
+_pos
 _posMethod
 _positive
 _precision
@@ -9420,11 +10123,13 @@ _responseNamespace
 _return
 _returnElement
 _returnValue
+_rng
 _rngAccess
 _role
 _root
 _rootObj
 _rootObjectID
+_rsa
 _rules
 _safeBags
 _salt
@@ -9443,12 +10148,14 @@ _serverProviders
 _serverSink
 _serverType
 _servicePack
+_set
 _sha1
 _sign
 _sink
 _sinkStack
 _site
 _size
+_ski
 _skipSize
 _skipVerification
 _soapAction
@@ -9462,6 +10169,7 @@ _specifier
 _specifierIsUpper
 _sponsors
 _sponsorshipTimeout
+_src
 _stack
 _start
 _state
@@ -9469,10 +10177,12 @@ _status
 _storages
 _store
 _storePath
+_str
 _strBaseURI
 _strName
 _stream
 _stubData
+_suK
 _suppressFlow
 _suppressFlowWindowsIdentity
 _surrogateSelector
@@ -9508,6 +10218,8 @@ _unityType
 _unmanagedCode
 _unregistered
 _untrusted
+_uri
+_url
 _usage
 _useAttribute
 _useSalt
@@ -9515,6 +10227,7 @@ _userAppTrusts
 _userPath
 _userPathExists
 _userStore
+_val
 _val1
 _val2
 _val3
@@ -9542,22 +10255,34 @@ _xmlTypeNamespace
 _xmlTypes
 _xtranfo
 _zone
-`	a~o
-`.rsrc
 `3QbE
 `3SbE
+`P00
+`WX0
 ``$$##``cc//
 ``aaffggiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~
+`bar
 `cZcT
-a	aX 
-a	a~o
-a%X`l^
+`cmi
+`oL1
+`oN1
+`oN2
+`s11
+a"4a
 a3_\Z12^
 a5j_5W
-a9\>	
+a7c,
+aAYC
 aAll GACed assemblies are now fully trusted and all permissions now succeed on fully trusted code.
+aE/9
 aEAIU
+aOff
 aSrcNativeVariant
+aUaQ
+a[UO
+a\taX 
+a\ta~o
+aacc
 aaj_55
 abbreviatedDayNames
 abbreviatedMonthNames
@@ -9600,6 +10325,7 @@ adInit
 adInitArgs
 adSetup
 adaptee
+adar
 adar_I
 adar_II
 addEvent
@@ -9620,6 +10346,7 @@ add_callbacks
 add_method
 add_token_fixup
 additional
+addr
 addr1
 addr2
 addr3
@@ -9628,13 +10355,16 @@ address
 adjustByteCounts
 adjustutc
 advapi32.dll
+afsi
 aggregator
 aiKwZ
 ai{eu
+akkQ
 algName
 alghashname
 algid
 algname
+algo
 algoName
 algorithm
 algorithmId
@@ -9665,6 +10395,8 @@ allow_unassigned
 altName
 alwaysMatchFlags
 amDesignator
+amod
+ampm
 anLength
 anPos
 anTag
@@ -9672,6 +10404,7 @@ aname
 anonHosted
 anon_host_module
 anonymous
+ansi
 ansiCurrencySymbol
 ansi|ansi/pc-term compatible with color
 anyOf
@@ -9710,6 +10443,11 @@ application_trust_xml
 applyToMembers
 april
 aqname
+ares
+arg0
+arg1
+arg2
+arg3
 argName
 argNum
 argType
@@ -9717,6 +10455,7 @@ arg_num
 arg_type_match
 arg_types
 arglist
+args
 argsp
 argument
 argumentType
@@ -9741,6 +10480,9 @@ asmFileName
 asmName
 asmNamespace
 asmVersion
+asmb
+asn1
+assb
 assem
 assemblies
 assembly
@@ -9777,6 +10519,7 @@ async_callback
 async_delegate
 async_state
 atime
+attr
 attrNames
 attrValue
 attrValues
@@ -9793,17 +10536,26 @@ authenticatedAttributes
 availableFreeSpace
 away_from_zero
 b#{Bw
-b:0F	
+b3\fU
+b:0F\t
 bAsync
 bCliSide
 bColorCount
+bFlk\f
+bHDk
 bHeight
 bRecord
 bReserved
 bS11*?
 bUseCalendarInfo
+bVal
 bWidth
+bZcG
+bZcJ
+b`aX
+baG*
 backoutCode
+bacn
 bagOID
 base64Chars
 base64Values
@@ -9819,8 +10571,11 @@ basename
 basetype
 basic_init
 bcount
-bde`c
+bde`c\r
 bflags
+bg\P
+biBh
+bidx
 bigEndian
 bigEndianEncoding
 bigEndianUTF32Encoding
@@ -9832,11 +10587,14 @@ bindingAttr
 bindingFlags
 bitLength
 bitNum
+bits
+blob
 block
 blockCount
 blockLength
 blockNo
 blockSize
+bm}O
 body_name
 boolVal
 bounds
@@ -9852,6 +10610,7 @@ buf_length
 buf_offset
 buf_size
 buf_start
+buff
 buffer
 buffer1
 buffer2
@@ -9880,11 +10639,18 @@ bytesUsed
 bytes_read
 bytes_unknown
 c!!B0
+c?D4\v
 cArgs
+cB\tV
+cD,9
+cD8,\f
 cDeG;z
+cDx,\f
 cEWEIc
 cFuncs
+cIIO
 cImplTypes
+cIoq
 cMaxNames
 cNamedArgs
 cNames
@@ -9893,8 +10659,13 @@ cParamsOpt
 cQOWQO
 cRLSign
 cScodes
+cV_U
+cVal
 cVars
+cYiO
+cZcV
 c[(Up)mnV.e
+c]0z
 cache
 cache_lock
 cache_path
@@ -9914,6 +10685,7 @@ calculatedMessageDigest
 calendar
 calendarWeekRule
 calendar_data
+call
 callBack
 callBackDelegate
 callConv
@@ -9956,6 +10728,8 @@ ccmonth
 cdata
 cdecl
 ceIKC
+celt
+cert
 certBag
 certFile
 certhash
@@ -10005,10 +10779,12 @@ check_not_created
 check_override
 check_type
 check_type_with_score
+chfg
 child
 childObjectId
 children
 childs
+chnl
 choice
 ciType
 cinfo
@@ -10051,6 +10827,7 @@ closed
 clsArgument
 clsid
 coClass
+code
 code should be moved to managed
 codePage
 codeSize
@@ -10061,6 +10838,7 @@ codebase
 codepage
 coffSymbolTableOffset
 colNumber
+coll
 collation.cjkCHS.bin
 collation.cjkCHT.bin
 collation.cjkJA.bin
@@ -10137,11 +10915,13 @@ context_id
 context_properties
 contractions
 control
+conv
 conversionTable
 conversionType
 converter
 cookie
 copiedName
+copy
 copy_from_unmanaged
 copy_to_unmanaged
 copyright
@@ -10178,10 +10958,13 @@ creationTimeUtc
 creation_time
 critical_region_level
 crlBag
+crls
 cryptoKeyRights
 cryptoKeySecurity
+csOu
 cspParams
 ctime
+ctor
 ctorArgs
 ctorCall
 ctorInfo
@@ -10225,13 +11008,21 @@ currentpos
 customBuilder
 customCultureName
 custom_modifiers
-d				
-d.,23+
-d:HG	
+d/J5
+d2r+
+d:HG\t
+dEQA
 dOffset
 dV22tN::
 dWX[Y
 dX509ContentType.Pfx/Pkcs12 and SerializedCert are not supported. SecureString support is incomplete.
+dYE\n
+dZcd
+dZch
+d\r81
+d]YX\r8l
+damp
+data
 dataEncipherment
 dataLength
 dataSectionOffset
@@ -10239,6 +11030,7 @@ dataSize
 datastore
 datastore_lock
 datastorehash
+date
 dateData
 dateSeparator
 dateTime
@@ -10248,6 +11040,8 @@ date_difference
 date_time_offset
 dates
 datetime_index
+dayA
+dayB
 dayNames
 dayOfWeek
 day_from_fixed
@@ -10255,11 +11049,13 @@ day_number
 day_of_week
 daylightTimes
 dayofweek
+days
 days_in_year
 days_remaining
 daysmonth
 daysmonthleap
 dbZcD
+dbcg
 dblVal
 debug_info
 debuggingModes
@@ -10368,6 +11164,7 @@ delay
 delaySign
 delay_sign
 delayedClientChannels
+dele
 deleg
 delegateEntry
 delegateType
@@ -10379,11 +11176,14 @@ delta
 demanded
 demandedResources
 denied
+deny
 denyPset
 dependentAssembly
 dependentAssemblyArgument
+desc
 description
 desiredAccess
+dest
 destDirName
 destFileName
 destIdx
@@ -10401,7 +11201,10 @@ detectEncodingFromByteOrderMarks
 detect_encoding_from_bytemarks
 dhu_al_hijja
 dhu_al_quada
+diDh
 diacriticals
+dics
+dict
 dictionaries
 dictionary
 dictionaryCreationThreshold
@@ -10437,6 +11240,7 @@ dllName
 dmy_from_fixed
 dnQualifier
 do_checks
+docs
 document
 documentType
 documents
@@ -10453,6 +11257,7 @@ domainSid
 domain_id
 domain_initializer
 domain_initializer_args
+done
 dontEscape
 double_swapper
 dp100
@@ -10462,6 +11267,7 @@ drive_format
 dsaParameters
 dstEncoding
 dstOffset
+dtfi
 dueTime
 due_time_ms
 dummy
@@ -10487,15 +11293,22 @@ dwordBuff
 dynamic_assembly
 dynamic_base
 dynamic_image
-e##F^
-e78$	
+e"la
+e(xC
+e*rz
+e78$\t
+e?L4\v
 eJw/A
-e\cb.]
+eZck
+eZcq
+eZcu
 e\h`f
 ebcdic
 ec_to_set
 efghi
+ekey
 elapsed_days
+elem
 elemCount
 elemType
 elemdescFunc
@@ -10508,6 +11321,7 @@ elementTypeToType
 elementindex
 elemt
 elist
+elul
 emLength
 email
 emitIdentifier
@@ -10538,6 +11352,8 @@ encodings
 encrypt
 encryptedData
 encryption
+end1
+end2
 endCol
 endColumn
 endColumns
@@ -10548,6 +11364,7 @@ endLines
 endOffset
 end_stack
 endinvoke_called
+ends
 englishName
 englishname
 ensureSecurity
@@ -10628,16 +11445,15 @@ extnValue
 extra
 extra_flags
 extype
-f""D~**T
+eykW
 f"45lo
-f7d$	
-f:,I	
-f:4I	
-f:TK	
-f:TL	
-f:\J	
-f:lJ	
-f:|H	
+f"xb
+f(z6
+f7d$\t
+f:4I\t
+f:TK\t
+f:TL\t
+f:lJ\t
 fClearDirty
 fDeleteOld
 fForward
@@ -10645,11 +11461,15 @@ fFullBuild
 fIsMarshalled
 fIsWeak
 fNeedFileInfo
+fNt7
 fOAEP
 fOnlyIfNotGeneric
 fRefine
 fRemember
 fVerbose
+f\t0J
+f\t8J
+f\tHJ
 failed
 fallback
 fallbackBuffer
@@ -10660,8 +11480,10 @@ fallback_chars
 faultActor
 faultCode
 faultString
+fce\n\f\vb\rd
 feature
 february
+fff?
 fhandle
 field
 fieldCount
@@ -10671,6 +11493,7 @@ fieldToken
 fieldValues
 field_handle
 fields
+file
 fileAttributes
 fileExtension
 fileKind
@@ -10708,9 +11531,13 @@ fixed_from_dmy
 fixup
 fixupToRemove
 fixups
+flag
 flags
+flbh
 fldHandle
+flds
 floorFlag
+flow
 fltVal
 flush
 folder
@@ -10722,6 +11549,7 @@ forceInternalExecute
 forceSize
 forceSuccess
 forceZeroSize
+form
 format
 formatError
 formatExceptionMessage
@@ -10737,21 +11565,25 @@ foundCurrency
 foundSign
 fpTab
 fqname
+fr4@
 fragment
 frame
 frames
+free
 freeBytesAvail
 free_internal_collator
 frenchSort
 frenchSorted
 frequency
 friendlyName
+from
 fromBase
 fromByteArray
 fromNoninstanciated
 fromType
 frozen
 fstype
+full
 fullDateTimePattern
 fullName
 fullNames
@@ -10765,14 +11597,18 @@ funckind
 fusionLog
 fx 2.0
 g&3g}
-g+V}+
-g5%&'
+g)0z
+g)pz
 g6?51.
+g:fe
+gFPl\f
 gK99r
+gM$Q\r
 gMsUg
+gQme
 gSCU]
 gUcIOg
-g] ?$xh^
+gVQd
 gcHandle
 gchandle
 generalLongTimePattern
@@ -12101,9 +12937,9 @@ get_underlying_type
 get_value
 get_xterm
 getter
-ggV}++
 ggcoS
 ghijklmno
+gi\n8\v
 givenName
 global_cache
 global_cache_monitor
@@ -12126,16 +12962,26 @@ group
 groupSeparator
 group_modified
 groups
+grow
 growFactor
+guid
 guidValue
+gvB|
 gyear
+gyz\
 h8,4$
-h:hM	
-h:pM	
+h9`B
+h:hM\t
+h:pM\t
 hCertStore
 hEvent
+hHpX
 hJ&2]
+hKey
+hN,n\r
+hRef
 h\44Q
+halg
 handle
 handle fallback
 handle userData
@@ -12151,6 +12997,7 @@ hasTypeInfo
 has_ctor_method
 has_size
 has_value
+hash
 hashAlg
 hashAlgorithm
 hashKeys
@@ -12167,6 +13014,7 @@ hashtable
 haystack
 hcajb
 hcpRef
+he8R
 headerHandler
 header_name
 headers
@@ -12182,29 +13030,52 @@ hgl~,fn
 hideDates
 high0
 highSurrogate
+hint
+hive
 hiveId
 home_dir
+host
 hostEnum
 hostEvidence
 hostEvidenceList
 hostExecutionContext
 host_enumerator
 hostenum
+hour
 hours
+hrL@
+href
 hresult
 hwuaT
+hyhJ
+i(O9
 i18nAssembly
 i18nDisabled
+i1dD\fn
+i3,U
+i3<U
 iCCgCA
+iDL-\f
+iFdl\f
+iM0Q\r
 iMAX_SCALE
 iOffset
 iSBox
 iSequence
 iTInfo
+iVal
+iX}W
+iYg\r
 iZY(6
+iZYY
+i\tY8
+i\thJ
+i\tpJ
+iaO]
 iattrs
 ibStart
 icase
+icon
 iconFile
 iconFileName
 icons
@@ -12217,6 +13088,8 @@ identity
 identityReference
 idldesc
 idldescType
+idx1
+idx2
 ifImpersonating
 iface
 iface_constraints
@@ -12226,8 +13099,8 @@ ignore
 ignoreCase
 ignoreMetadataErrors
 ignore_case
-ih	yb C
-ij/.-*+2h
+ih\tyb C
+ijX}
 ik"fff?Zi}
 ilOffset
 ilgen
@@ -12251,7 +13124,6 @@ includeInherited
 includePrivateKey
 includePrivateParameters
 includeSections
-incomplete
 incompleteFormat
 indata
 index
@@ -12269,6 +13141,7 @@ indexes
 indices
 inext
 inextp
+info
 informationalVersion
 infos
 inherit
@@ -12314,6 +13187,7 @@ inputStream
 input_buffer
 insert
 insert_into_shared_tables
+inst
 installed
 instance
 instanceType
@@ -12372,6 +13246,13 @@ invariant_culture_info
 invkind
 invokeAttr
 invoke_impl
+ioS7
+ioY7
+io[7
+io^7
+iocb
+ioo7
+iot/
 ipTab
 isAsync
 isAuthenticated
@@ -12379,6 +13260,7 @@ isCRTpossible
 isCallback
 isCompliant
 isContainer
+isDS
 isElement
 isHalfWidth
 isInShifted
@@ -12435,31 +13317,69 @@ issuer
 issuerName
 issuerUniqueID
 issuer_name
+item
 items
 iterationCount
 iterations
 itype
 iunknown
 ivDiversifier
+iwkr
 iyyar
+j A0
 j%!ln
 j&VMZf:
-j9d>	
-j9l>	
-j9x>	
+j2D 
+j2X 
+j3TU
+j9d>\t
+j9l>\t
+j9x>\t
+j@0y\v
+j@8y\v
+j@Hy\v
+j@ty\v
 jLlkOi
-jZ	nX
+jOc<
+jX(m
+jXi*
+jX}2
+jX}Y
+jY\n8\n
+jYoo
+jY}Y
 jZ(I=
+jZX\r
+jZY\n
+jZY\r
+jZ\tnX
+j[lZ
+j\n85
 j_missing
 january
 jit_data
 jjjjjjjjjjjj
+jrl@
+july
 jumada_I
 jumada_II
+june
 justification
+jxk&
+jxyr
 k"fff?Zi}
 k"fff?[i
-k7@%	
+k8Iv
+k?05\v
+k?85\v
+kAZ$
+kE H\f
+kEOS
+kMPQ\r
+kMdQ\r
+kZ7"
+k[AQ
+k\n0r
 k]KEA
 kanaSmallLength
 kanaWidthLength
@@ -12502,6 +13422,8 @@ keychar
 keyname
 keypair
 keypairGenerated
+keys
+kind
 kislev
 kkkkkk
 klass
@@ -12509,10 +13431,21 @@ knjopl
 kpm_next
 kubits
 kzrtm
-l7l%	
+k{EU
+l4kb
+l4sb
+l4tb
+l4wb
+l7l%\t
 lH)O1
 lHashVal
+lHt\
+lM|Q\r
+lNrZ
 lRTVVXYY[]__``````bdggiknpsuwz|
+lVal
+lWO[
+lZi*
 label
 label_fixup
 label_idx
@@ -12531,10 +13464,13 @@ last_month_of_year
 last_now
 last_write_time
 layoutKind
+lcid
 leading_zero
 leadingzero
+leaf
 leapYearMonthNames
 lease
+left
 leftOver
 leftOverBits
 leftOverByte
@@ -12547,6 +13483,10 @@ left_align
 legacy
 legacy_mode
 legalKeys
+len1
+len2
+lenA
+lenB
 len_pos
 length
 length1
@@ -12562,21 +13502,29 @@ level3
 libNewSize
 libOffset
 license_file
+line
 lineNumber
 line_builder
 lines
 linkSlots
 linux
 linux|linux console
+list
 listCount
 list_sep
 literal
 literalName
 literalValue
+lkij
 lkind
 llVal
 ll_emit
+lmNO
 lmkwzrtno
+lmn"
+lnow
+lnrq
+load
 loadFactor
 loadHintArgument
 load_normalization_resource
@@ -12612,8 +13560,11 @@ long_heshvan
 lonmj
 lookup
 lookupTable
+low0
 lowSurrogate
+lowW
 lowerBounds
+lpHP
 lpValue
 lpVarValue
 lpfuncdesc
@@ -12631,8 +13582,13 @@ lv2Indexer
 lv2Length
 lv2Table
 lv3Length
+m&Ia
 mEKiU
+mGnH
+mLP%\r
+mNpn\r
 mPrime
+mYE\r
 m_Action
 m_Adaptee
 m_AllFilesAccess
@@ -12756,6 +13712,7 @@ marshalAs
 marshal_info
 marshaltype
 marshaltyperef
+mask
 maskLen
 match
 maxCapacity
@@ -12797,6 +13754,7 @@ metadata
 metadataLength
 metadataPosition
 metadataToken
+meth
 method
 methodBase
 methodBindings
@@ -12847,6 +13805,7 @@ modCount
 modInverse
 modOpt
 modReq
+mode
 mode parameter ignored
 modes
 modification
@@ -12872,6 +13831,8 @@ monthDayPatterns
 monthNames
 month_from_fixed
 months
+mppk
+msMS
 msToCancel
 mscoree.dll
 mscorlib
@@ -12887,10 +13848,21 @@ mutex_index
 myCondition
 myGSW]]
 my_from_fixed
-m}z}	[(
-n	jX<
+n3 H
+n@Dz\v
+nA_j
 nDataItem
+nE I\f
 nProbably not entirely correct. fusionLog needs to be set somehow (we are probably missing internal constuctor)
+nXC$
+nXXT
+nY77
+nZX\f
+n\n84
+n\tjX<
+n\vcX
+n_io
+name
 name3DESKeyWrap
 name3DESa
 name3DESb
@@ -12989,6 +13961,7 @@ needle
 negative
 negativeInfinitySymbol
 negativeSign
+nem*
 nesting_type
 neutral
 neutral_culture
@@ -13015,6 +13988,7 @@ newcp
 newguid
 newline
 newlineChar
+next
 nextChar
 nextSelector
 nextSink
@@ -13028,9 +14002,11 @@ nkwqs
 no ClickOnce in mono
 noBuffering
 noLv4
+noh,
 nonPublic
 nonRepudiation
 noncas
+none
 normalizationForm
 not enforced in 2.0+
 not implemented
@@ -13044,6 +14020,7 @@ notifySink
 november
 nqmopjkh
 nrefs
+nro,
 nspace
 ntIdentity
 ntvz~
@@ -13070,8 +14047,18 @@ number_index
 numeric_data
 numeric_data_values
 nxtysow
-o%%Jr..\$
+o"0c
+o*wk
+o@Xz\v
+o@xz\v
+oIYu
 oInst
+oQAw
+oVft
+oYOC
+oarg
+objA
+objB
 objID
 objRef
 obj_address
@@ -13113,6 +14100,7 @@ offsetL
 offsetLo
 offsetOut
 offsets
+ogpk
 oid3DES
 oid3DESKeyWrap
 oidDES
@@ -13127,6 +14115,7 @@ oidX509BasicConstraints
 oidX509EnhancedKeyUsage
 oidX509KeyUsage
 oidX509SubjectKeyIdentifier
+oik]
 oldBehavior
 oldChar
 oldContext
@@ -13141,6 +14130,7 @@ onSerializedList
 onSerializingList
 onlyDelayed
 onlyDelayedChannels
+onmr
 op_Addition
 op_Decrement
 op_Division
@@ -13188,6 +14178,7 @@ origin_url
 original
 original_method_info
 origval
+ors/
 osHandle
 other
 other_methods
@@ -13210,11 +14201,15 @@ owner_modified
 ownsHandle
 owns_handle
 oymwhltghqnpf
+p(77
+p(H7
+p(m0
 p*r*8
 p*rY@
+p*rm
 p2?X$
-p7$&	
-p>|B>
+p3"H
+p8\f7\t
 pBindPtr
 pBstrDllName
 pBstrMops
@@ -13225,31 +14220,48 @@ pCustData
 pDescKind
 pDispParams
 pDstNativeVariant
+pE,I\f
 pExcepInfo
+pFXm\f
 pFileTime
 pFuncDesc
 pFuncIndex
+pH88
+pIID
 pImplTypeFlags
 pIndex
+pItf
 pMemId
 pNativeData
 pOVERLAP
 pOuter
 pRecInfo
+pSet
 pSrcNativeVariant
+pStm
 pTKind
+pTLB
 pTLibAttr
 pTypeAttr
 pTypeFlags
 pTypeKind
+pUnk
 pUnkOuter
 pUnkSink
 pVarDesc
 pVarIndex
 pVarResult
 pVarVal
+pXhH
 pZlNr
 p\lHtW
+p\n81
+p\n89
+p\n8D
+p\n8G
+p\n8O
+p\n8R
+p\n8Z
 packSize
 packing
 packingSize
@@ -13257,6 +14269,7 @@ packing_size
 packsize
 padding
 paddingChar
+pair
 param
 paramModOpt
 paramModReq
@@ -13284,10 +14297,12 @@ parentWindowHandle
 parent_culture
 parent_lcid
 parser
+part
 partialName
 password
 password_max_length
 patch_length
+path
 path1
 path2
 pathLenConstraint
@@ -13347,6 +14362,7 @@ percentPositivePattern
 percentSymbol
 period
 period_ms
+perm
 permClass
 permSet
 permTab
@@ -13388,9 +14404,22 @@ pmkOtherMoniker
 pmkRight
 pmkToLeft
 pmodule
+po.6
+po06
+po2/
+po:6
+poN\t
+poR0
 pointer
 points
+poj,
+pok9
 policy
+poo,
+pop,
+poq,
+por,
+port
 portableExecutableKind
 position
 positive
@@ -13398,10 +14427,13 @@ positiveInfinitySymbol
 positiveSign
 potentialRoot
 potentialTrusted
+pou,
+ppCP
 ppCPC
 ppEnum
 ppFuncDesc
 ppTComp
+ppTI
 ppTInfo
 ppTLB
 ppTLibAttr
@@ -13409,6 +14441,7 @@ ppTypeAttr
 ppVarDesc
 ppenum
 ppenumMoniker
+ppmk
 ppmkComposite
 ppmkOut
 ppmkPrefix
@@ -13424,15 +14457,41 @@ ppunkObject
 ppvObj
 ppvResult
 pp|B>>q
+pr!7
+pr"n
+pr$3
+pr(4
+pr/Z
+pr1\r
+pr4R
+pr6"
+pr6g
+pr96
+pr?S
+prA*
+prG\r
+prLO
+prPr
+prQ\f
+prT#
+prUF
+prW3
+prWd
+prX"
+prZ`
+pr]F
 preSwap
 preamble_done
 precision
 preexistingHandle
 prefix
 preserveInheritance
+prev
 prev1
 prevFixup
 previousState
+prf0
+priS
 primeTbl
 principal
 principals
@@ -13441,6 +14500,11 @@ privateKeyExportable
 private_bin_path
 private_bin_path_probe
 privilege
+prj\t
+prj^
+prn3
+prn9
+pro[
 process
 process id is always 0
 processBlock
@@ -13456,6 +14520,7 @@ productVersion
 product_version
 progID
 progId
+prop
 propagation
 propagationFlags
 properties
@@ -13464,6 +14529,7 @@ propertyName
 propertyValues
 props
 protectedResources
+prov
 provider
 providerData
 providerName
@@ -13471,9 +14537,30 @@ providerType
 proxy
 proxyType
 proxy_type_name
+prpA
+prqF
+prvb
+prx`
+pr~O
+ps"6
+ps19
+ps77
+psB?
+psC6
+psG*
+psJ@
+psK@
+psL,
 psNone
+psT>
+psX>
+psa5
+psb@
+pset
 pseudoAttrs
+psq>
 pstatstg
+pstm
 psvy|
 pszDisplayName
 pszFileName
@@ -13489,17 +14576,26 @@ publicallyVisible
 publickey
 publiclyVisible
 publisher_policy
+punk
 punkObject
+puny
+push
 pvInstance
 pvRecord
 pvReserved
+pvqr
 pwOrdinal
 pwcsName
-p|||||
-q7P&	
+q3,V
+q7P&\t
+qAGG
 qCAogA
-qIbXR	
+qE8I\f
+qIbXR\t
+qInv
+qN|n\r
 qSQPToUh
+qUc]
 qname
 qqqqqqq
 qs]vhmaexo^bdn
@@ -13508,10 +14604,16 @@ qualifier
 query
 queue
 quickCheckPossible
+qumk
 quotes
-r7|&	
+qvpu
+r3$H
+rHMR
+rK99
 rSTZUt
 rVDGGUF
+rZlN
+r\t4K
 rabi_I
 rabi_II
 radix
@@ -13520,6 +14622,7 @@ rajab
 ramadan
 random
 ranges
+rank
 rawAcl
 rawAssembly
 rawData
@@ -13533,6 +14636,7 @@ rdHijri
 rd_end
 rd_start
 reEntrant
+read
 readHeaders
 readList
 readOnly
@@ -13566,6 +14670,7 @@ reflected_type
 reflectionEmit
 reflectionObject
 refonly
+refs
 reftype
 refused
 refusedPermissions
@@ -13667,9 +14772,11 @@ reuse
 reversed
 revision
 revocationDate
-rfrs,
+rfrs,\fZ
+rg6"
 rgBstrNames
 rgDispId
+rgIL
 rgMemId
 rgVar
 rgbData
@@ -13687,28 +14794,48 @@ rgvar
 rgvarg
 right
 rights
+riid
 riidResult
 rjdT*k
+rkey
 rngName
+role
 roles
+root
 rootPathName
 root_code_group
 roots
 rotateRight
 round
+rown
+rpos
 rsaEncryption
+rstw
+rtuw
 rtype
+rule
 rules
 rules1
 rules2
 rva_data
+rval
 rwlock
-r{"M^{
 s11bS
+s34V
+s3@V
 sDigits
+sE@I\f
+sELI\f
+sFlm\f
+sKIA
 sKuYQ
+sPos
+sQCC
 sUserPrincipalName
 sUuEW
+sXLk
+s\tHK
+s]EM
 s_cachedTypeObjRef
 s_lock
 s_sinks
@@ -13718,6 +14845,7 @@ safeBags
 safeContentsBag
 safeHandle
 safe_wait_handle
+salt
 saltSize
 sb_dec
 sb_exp
@@ -13732,6 +14860,7 @@ scode
 scope
 scopeID
 scopename
+scrN
 sddlForm
 sdsiCertificate
 searchOption
@@ -13754,6 +14883,8 @@ securityInfo
 securityLevel
 securityViolation
 see CompressedStack class
+seed
+seen
 segments
 selected
 selector
@@ -14255,6 +15386,7 @@ setup_enum_type
 setup_generic_class
 setup_internal_class
 sexagenaryYear
+sha1
 shaban
 shadowCopyFiles
 shadow_copy_directories
@@ -14278,6 +15410,7 @@ sigBytes
 sigHelper
 sigLength
 sig_token
+sign
 signature
 signatureLength
 signatureOID
@@ -14297,24 +15430,32 @@ simpleOriginalPath
 sindex
 singleton
 singletonInvariant
+sink
 sinkName
 sinkStack
 sinks
+site
 sivan
+size
 sizeConst
 sizeInMegabytes
 sizeParamIndex
+skew
+skip
 skipFrames
 skipHeadingExtenders
 skipSize
 skipVisibility
 sloppy_parsing
+slot
 slot_bitmap_context
 slot_bitmap_thread
 slow_swapper
 small
 smallPrimes
 small_id
+snMC
+snip
 soapAction
 sortkey
 sortkey1
@@ -14354,6 +15495,7 @@ srcOffset
 src_offset
 srvID
 ssout
+st"Z
 stack
 stackTrace
 stack_ptr
@@ -14376,6 +15518,7 @@ start_obj
 startingTextElement
 startpos
 starts
+stat
 state
 stateInfo
 stateObject
@@ -14387,6 +15530,12 @@ stdout
 storage_scope
 store
 storeName
+str0
+str1
+str2
+str3
+strA
+strB
 strContainerNameIn
 strDocString
 strHashName
@@ -14416,6 +15565,7 @@ struct_version
 structure
 structureType
 structuretype
+stub
 stubData
 style
 styles
@@ -14435,10 +15585,12 @@ surrogate_selector
 suspend_event
 suspended_event
 svrType
+swap
 swap_items
 symAlgType
 symbolWriter
 symmAlgo
+sync
 syncContext
 syncRoot
 sync_completed
@@ -14449,14 +15601,23 @@ systemAcl
 system_thread_handle
 szName
 szNameBuf
-t,,X.
+t24#
+t3&H
+t3HV
 t<vHL
 tAppDomain.ClearPrivatePath has been deprecated. Please investigate the use of AppDomainSetup.PrivateBinPath instead.
+tETI\f
+tE`I\f
 tI(|p
+tPbz
+tSwa
 t\lHBW
+t\n8s
+t\tPK
 table
 table_idx
 table_indexes
+tail
 tailoringArr
 tailoringCount
 tailoringIndex
@@ -14481,14 +15642,18 @@ target_type_name
 targets
 tbase
 tbuilder
+tdes
 tdesc
 tdescAlias
 teZcm
+tehq
+temp
 temp2
 territory
 testWasUnable
 testedCount
 teveth
+text
 textInfo
 textinfo_data
 theDelegate
@@ -14517,6 +15682,7 @@ throwex
 tickMultiplicator
 ticks
 ticks18991230
+time
 timeA
 timeB
 timeSeparator
@@ -14531,6 +15697,8 @@ timezone_check
 tishri
 title
 tlbFile
+tmax
+tmin
 tname
 toAscii
 toBase
@@ -14573,7 +15741,9 @@ tryParse
 try_length
 try_offset
 try_target_to_type
+tu\fp
 twoDigitYearMax
+type
 type?
 typeArguments
 typeCode
@@ -14612,12 +15782,19 @@ typeref
 types
 typesize
 tz_lock
+tzs}
 u!!Bc
-u7,'	
-u7H'	
-u7d'	
+u3PV
+u7H'\t
+u7d'\t
 uAppDomain.AppendPrivatePath has been deprecated. Please investigate the use of AppDomainSetup.PrivateBinPath instead.
+uEhI\f
+uEtI\f
+uO_S
 uQ}QAaQii
+uZR[
+u\thK
+u\txK
 ugowA
 uiContext
 uiVal
@@ -14628,6 +15805,7 @@ unauthenticatedAttributes
 underlyingType
 underlyingWriter
 underlying_type
+undo
 unicode
 unicodeEncoding
 unknown
@@ -14687,6 +15865,7 @@ useManagedSha1
 useUserOverride
 use_invariant
 use_std3
+user
 userCallback
 userData
 userEscaped
@@ -14709,8 +15888,17 @@ utf7Encoding
 utf8EncodingUnsafe
 utf8EncodingWithMarkers
 utf8EncodingWithoutMarkers
+utwx
 utype
+uv*W
 v2.0.50727
+v2H#
+v3XV
+vE|I\f
+vM(R\r
+vRQ>
+val1
+val2
 valid
 validElementsInArray
 validForParseAsCurrency
@@ -14752,9 +15940,13 @@ visualizerTypeName
 vlZmn
 vmzXXT
 void_type
+vpDf
+vr"A
+vsnq
 v}ux|
-w	^;9
+w2P#
 w32file_epoch
+w3`V
 wAoQi
 wBitCount
 wCode
@@ -14762,8 +15954,11 @@ wFlags
 wFuncFlags
 wIDLFlags
 wLibFlags
+wM0R\r
+wM\fS\r
 wMajorVerNum
 wMinorVerNum
+wOff
 wParamFlags
 wPlanes
 wReserved
@@ -14782,6 +15977,7 @@ weeks
 wefZ<1=[)
 wellKnownClientEntries
 wellKnownServiceEntries
+what
 whitespaces
 width
 wighv
@@ -14793,6 +15989,7 @@ window
 windowFlag
 windows_code_page
 wkSpace
+word
 workBuff
 workerThreads
 workout
@@ -14811,19 +16008,22 @@ writer_lock_owner
 writer_locks
 writer_queue
 writtable
-wxyz{|}~
-x"hn&(%$
-x%Jo%.\r.
+wv24
 x((Pz
+x509
 x509Certificate
 x509Crl
 x509data
-x9 ?	
-x9(?	
-x90?	
-x:(P	
+x90?\t
 x;e]9
+xBuf
 xBufOff
+xE K\f
+xE\fJ\f
+xEhJ\f
+xLen
+xN$o\r
+xN@o\r
 xOffset
 xf@hz
 xmlAttribute
@@ -14836,70 +16036,97 @@ xmlSpaces
 xmlString
 xmlType
 xmlTypeNamespace
+xo6v
 xsf2*
+xstr
 xterm
 xterm|X11 terminal emulator
 xxJo%%\r..8$
 x|L{yz
 y(P#L
+yCGE
+yEaQ
+yEhL\f
+yGua
+yHKW
+yLen
 yO]}Y
 yOffest
 yOffset
 yOwzx
+year
 yearA
 yearB
 yearMonthPattern
 yearMonthPatterns
 year_from_fixed
 years
+yr6A
 yzxfe
-z	*A4
-z	o(6
+z(A9
+z(F9
+z(X3
+z(x6
+z*A4
 z.r77
-z.r:"
+z.r9
+z.rR
+z.rU
+z.rX
+z.ro
+z.rs
+z2L'
+z3lV
 z7~vw/1
-z9H?	
-z9P?	
-z9X?	
-z9`?	
-z9h?	
-z9p?	
-z9|?	
+z9H?\t
+z9P?\t
+z9X?\t
+z9h?\t
+z9p?\t
 z=J<6]CD
+z\r65\n
+z\t*A4
+z\to(6
+z\tsg
+z\tuB
+zero
 zeroPattern
 zfBhz
 zjlFm
 zlxg|r
+zone
+zrBA
+zrCH
+zsB6
+zsk3
+z|yx
 z~{ik
-{!A{~
-{:HP	
 {;5Bdq
-{=x/3^
 {CIQCi
-{C{{~C
+{Fxn\f
 {JyH~z
-{[m|yw
+{MLT\r
+{Owc
 {_value}
 {knGo8S
+{rNA
 {value}
-|&'()*`
-|74)	
 |?Czv
-|C6jEa
+|f5j
+|fDh
+|lo7
+|rZA
 |t32x}{4y
+|wvt
 |xVX{
-}7<)	
-}7P)	
 }BD0q(
 }CC}C
+}ETM\f
 }WCCYRR{{CC
-}y{|<
-}{))R>
+}rhA
 }~CCY
-~:pP	
-~:xP	
-~=zG=d
+~SeA
+~TbF
 ~lkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkllllllllllllllllllllllll
 ~mGvG
-~{C{C{{{
-~~zG==
+~rtA

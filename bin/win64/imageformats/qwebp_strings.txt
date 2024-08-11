@@ -1,7 +1,3 @@
-	$	/	5	>	D	X	^	g	m	x	~	
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-	@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
-	JqAl
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  !"#$%&'()*+,-./0123456789:;<=>?
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
@@ -11,150 +7,24 @@
  !#$&')*,-/0235689;<>?????????????????????
  "#%&()+,./124578:;=>???????????????????
  "#%&()+,./124578:;=>????????????????????
- A]A\_^]
- A]_^][
- A^_]
- A^_^
- A^_^][
- A_A]A\_^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^A]^[
- A_A^A]_[
- A_A^^
- A_A^_
- A__]
- H3E H3E
- HcydH
- Mc(M
+ C\vw&CG
  bn0s}Q_@r~aoPq
 !"$%'(*+-.0134679:<=????????????????????
 !"$%'(*+-.0134679:<=?????????????????????
 !/?WiZF4%
-!This program cannot be run in DOS mode.
-"/#|>
+!GnA
 "b}b*XhUu
 #CfU7
 $1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
 %*Di-,D 6.D
 %A Is
+%daT
 &5G[ncRB0#
-&xr(*
-(,$fA
-(A\_^[
-(A_A^A]A\_^][
-(A_A^_^
-(D$ D
-(D$ H
-(D$ f
-(D$PHc
-(D$Pf
-(D$`H
-(HcD$8H
-(L$ D
-(L$@D
-(L$PHc
-(T$0D
-(T$@D
-(\$ D
-(\$ fE
-(\$0D
-(d$ D
-(t$ A
-(t$ H
-(t$ Ic
-(t$0H
-(t$0L
-(t$@L
-(t$@f
-(t$PH
-(t$PL
-(t$PLc
-(t$`H
-(t$`L
-(t$`f
-(t$pD
-(t$pL
-(t$pf
-(xA=6
-(|$ D
-(|$0D
-(|$0I
-(|$0f
-(|$0fA
-(|$@H
-(|$@I
-(|$@fE
-(|$PI
-(|$`H
-(|$`I
-(|$`f
-(|$pD
-(|$pH
-(|$pL
-),$Lc
-),$fA
 )2STud>
-)4$fD
-)<$L+
-)D$ D
-)D$ f
-)D$0D
-)D$PfD
-)D$PtNf
-)L$ f
-)L$@H
-)L$@fD
-)T$0fD
-)\$ fD
-)\$0f
-)\$pfD
-)d$`fD
-)d$pD
-)l$0D
-)l$PE
-)l$`M
-)l$`fA
-)l$pD
-)t$ 3
-)t$ A
-)t$ D
-)t$ H
-)t$ f
-)t$0E
-)t$0L
-)t$@H
-)t$@f
-)t$@fD
-)t$PD
-)t$PE3
-)t$PH
-)t$PL
-)t$`D
-)t$`H
-)t$p3
-)t$pI
-)|$ L
-)|$0D
-)|$0H
-)|$0f
-)|$@A
-)|$@B
-)|$@D
-)|$@H
-)|$@f
-)|$PC
-)|$PHc
-)|$`f
-)|$pE
-+:{Z\>
-+;OfV>. 
-,*/vu
+*VVw
 ,BAl@B=6UB
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
--Rich
 .00cfg
-.8"6z>
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
@@ -176,6 +46,7 @@ $1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -196,65 +67,40 @@ $1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-/84_>
-/I%_n
-0;~<|
-0A]A\[
-0A]^[
-0A]_^][
-0A^A]A\
-0A_A^A\
-0A_A^A\_^][
-0A_A^A]A\_
-0A_A^A]A\_^]
-0A_A^_
-0A_^[
+0000
+2\vpH
 333333
 333333"@
+4dsg
 5;FJ$,XEK4<
-6:%+H
 7&F|If
-7pC&"wCw
+7T2,
 8"3hrf
-8A^A]_^][
-8A_A\_^
-8A_A]_^][
-8A_A^A\[
-8A_A^A]A\_^][
-8A_A^A][
-8Hc)3
-9L$4H
-9S,u*9V
-9_<~!
-9{<~EL
-9~<~~D
-:dD8XfD
-;T$8}
-;_<}$Hc
+969p
+9A\n(xA=6
+:dD8XfD\vwhD
+:s6X
 <8bunz8
 <@En[vP
 <ZZ<ZZZZZZZ
-<{Q}<
-=nI-$
-?#%X.y
-?$(}(
-?(FN\
 ?*hiR
-?-{Dn
-?..$s
 ?0D6J2D
 ?333333
 ?3ScR.>
+?3xj
+?40V
+?5a1
+?93l
 ??0QImage@@QEAA@AEBV0@@Z
 ??0QImage@@QEAA@HHW4Format@0@@Z
 ??0QImageIOHandler@@QEAA@XZ
@@ -273,30 +119,21 @@ $1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
 ??6QDebug@@QEAAAEAV0@H@Z
 ??6QDebug@@QEAAAEAV0@PEBD@Z
 ?AFxD
-?I_C.
+?G2Q
+?MKR
 ?Tu7R
 ?UUUUUU
 ?bits@QImage@@QEAAPEAEXZ
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?endsWith@QByteArray@@QEBA_NPEBD@Z
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?ffffff
 ?format@QImage@@QEBA?AW4Format@1@XZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?gibQ^AX>
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
-?k)T|F
+?kAf
 ?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
 ?q42s(
 ?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
@@ -305,445 +142,145 @@ $1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
 ?startsWith@QByteArray@@QEBA_NPEBD@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toInt@QVariant@@QEBAHPEA_N@Z
+?u1P
 ?warning@QMessageLogger@@QEBA?AVQDebug@@XZ
 ?warning@QMessageLogger@@QEBAXPEBDZZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-@.data
-@.qtmetad$
-@.reloc
-@.rsrc
-@33333
-@:|$Pu
-@:|$`u
-@A^_^
-@A_A^A\
-@A_A^A]A\_^]
-@A_A^^][
-@A_A^_^[
-@C}gA
-@SATAVAWH
-@SAUAVAWH
-@SAVH
-@SUVAVAWH
-@SUVAWH
-@SUVWATAUAVAW
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SUVWATAVH
-@SUVWAUAVAWH
-@SUVWAUH
-@SUVWAVAWH
-@SUVWAVH
-@SUVf
-@SUWAUAVAWH
-@SVAUAVAWH
-@SVAUH
-@SVAWH
-@SVWATH
-@SVWAVAWH
-@SVWH
-@SWAUAVAWH
-@UATAWH
-@USVWATAUAVAWH
-@USVWAUAWH
-@UVWATAUAVAWH
-@UVWATAVAWH
-@UVWH
-@VATAVAWH
-@VAVH
-@VAWH
-@VWATAWH
-@VWAVAWH
-@WAVHc
-@Y>)F
-A+C(L;
-A0HcH8
-A0HcH8L
-A0Lc@8
-A9l$ 
-A9qXt1
-A;,$|
-ALPHwj
-AL[`>
-ANIMtFA
-ATAUAVH
-AUAVH
-A]A\_^
-A^A]A\_
-A^A]A\_^
-A^A]][
-A^A]_[
-A^A]_][
-A_A\]
-A_A\_^][
-A_A]A\_^
-A_A]_^[]
-A_A^A\_]
-A_A^A\_^
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]^]
-A_A^A]_]
-A_A^A]_^
-A_A^A]_^][
-A_A^_
-A_A^_[]
-A_A^_^]
+@\n@33333
+ALPH
+ANIM
+ANMF
+AYl=
 AiFC.
-AuthD
 Bad code word
 CloseHandle
 Could not decode alpha data.
 CreateEventW
-D$ H;D$(}2H
-D$ H;D$0u
-D$ L+
-D$ M;
-D$ ff
-D$(E3
-D$(Hc
-D$0+K\A
-D$0H+
-D$0L+
-D$0fff
-D$4Hc
-D$8Hc
-D$@	C
-D$@Ic
-D$DA9|$D
-D$DHc
-D$HA;
-D$HD+
-D$HD;
-D$PH+
-D$PIc
-D$PLcP
-D$Tff
-D$XE3
-D$Xfff
-D$\D;
-D$hHc
-D$hIi
-D$pD;
-D$pLc$
-D$xHcA
-D8k8t"
-D93t	H
-D93~bL
-D9G(A
-D9N$u.H
-D9k0t
-D9kLu
-D9k|tBI
-D9mg~1E
-D9mg~<L
-D9mg~>L
-D9v$t=H
-D9|$,t
-D9|$0t
-D9}_~4E
-D:|$1u
-D:|$Au
-D;l$x@
-D;|$h
 DBM&(
+DB\f Dv
 DeleteCriticalSection
 DisableThreadLibraryCalls
 E<G&Iw
-EXIFt#A
+EXIF
+E\v?endsWith@QByteArray@@QEBA_NPEBD@Z
 EnterCriticalSection
-F H9F
 FK?imageCount@QImageIOHandler@@UEBAHXZ
-FPH9FHu
+FRGM
 FU?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
 Frame not displayable.
 Frame setup failed
-F||<##
-GenuA
+G&iC
+G8D>
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-Gf95)1&!
-H AWH
-H+T$0H
-H+\$XH
-H0H9H@w
-H9VHv
-H9WHv
-H;L$`}b
-H;NPD
-H;|$0
-HA_A^A\[
-HA_A^A]A\_^][
-HLcQlH
-Hc)E3
-Hc@(H
-Hc@,H
-Hc@8H
-HcAHH
-HcA`Hc
-HcC,L
-HcC8L
-HcD$ H
-HcD$XM
-HcE8M
-HcEoH
-HcF(L
-HcF<H
-HcG(L
-HcJxE+
-HcMoH
-HcNHH
-HcOdHcG`H
-HcS(Ic
-HcT$(Ic
-HcT$0H
-HcT$0L+
-Hc\$(M
-Hc\$XH
-Hc\$`I
-Hcl$0
-Hct$0A;
-Hct$8H
-Hc|$@
-Hc|$xH
-ICCPt/A
+Gf95)1&!\ry9I
+Gin>
+ICCP
 IT=_9
-IcA8H
-IcAPA
-IcE(D
-IcE,D
-IcE,H
-IcG0A
-IcG4L
-IcW0H
-Ic^P3
+Ik6 
 Incorrect keyframe parameters.
 InitializeConditionVariable
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J\;5yTb
-K<<H!
 K?height@QImage@@QEBAHXZ
 KERNEL32.dll
 KQD2cSDy{UD
-L$ E3
-L$ H+
-L$ H3
-L$ SUVWAUH
-L$ WATAUAVAWH
-L$ fB
-L$$M+
-L$(D9Y H
-L$(E3
-L$0E3
-L$0H3
-L$0fA
-L$0fE
-L$0uo
-L$8Lc\$HL
-L$8fA
-L$@H3
-L$@fE
-L$HE3
-L$HH+L$XH
-L$PD;
-L$PE3
-L$PH3
-L$PHc
-L$PHcY
-L$PLc
-L$X;l$P
-L$XH3
-L$XI;
-L$`E3
-L$`H3
-L$hD9
-L$pD;
-L+D$8M
-L9t$P
 L?isNull@QImage@@QEBA_NXZ
 L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
-LcC03
-LcD$4A
-Lc\$ L
-Lca M
-LciHHcALD
-Lcl$ 
-Lcl$ H
-Lco A
 LeaveCriticalSection
-M H1E
 M?loopCount@QImageIOHandler@@UEBAHXZ
-MetaData
-MimeTypes
 MnZ/rs
-N H9F
-NPH9FHu
 NULL VP8Io parameter in VP8Decode().
-NXHcFLH
-NXHcFLL
 N_U9203
 Not a key frame.
 O?nextImageDelay@QImageIOHandler@@UEBAHXZ
 Output aborted.
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-PA^_^
-PA^_^][
-PA_A]A\_[
-PA_A^A]A\_^]
-P_RDATA
+PURH
 Premature end-of-file encountered.
 Premature end-of-partition0 encountered.
-P~6-U~/W
-QTMETADATA  qbjs
 QWebpHandler::canRead() called with no device
 QWebpPlugin
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
+RIFF
 R\vn>
 R_T5Y
+Rd.F
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S H9C
-SATAUH
-SUAUAVH
-SUAVH
-SUVAWH
-SUVWATAUAVAWE3
-SUVWATAUAVAWH
-SUVWATAWH
-SUVWAUAVH
-SUVWAUAWH
-SUVWAVH
-SUWAUAVH
-SVWATAUAVAWH
-SVWATAUAVAWUH
-SVWAUAVAWH
-SVWAUH
-SWATAUAWH
-SWAUAVH
+S\rYkv
 Sequential devices are not supported
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T$ Hc
-T$ Lc
-T$ fD
-T$(D;
-T$(Lc
-T$,Hc
-T$0H;
-T$0Hc
-T$8E3
-T$@Hc
-T$@Mc
-T$PI+
-T$XL;
-T$XM+
-T$`D;
-T$`E3
-T$`Mi
-T$hMc
-T$xD9
+Svj>
 T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-T@Tg]@
+T\t5K
 TerminateProcess
 Truncated header.
 T~OXu
-U%	>G
-U7>F%+%
-UAUAVAWH
-USVWATAUAVAWH
-USWAVAWH
-UVAUAVAWH
-UVAVH
-UVWATAUAVAW
-UVWATAUAVAWD
-UVWATAUAVAWH
-UVWATAUH
-UVWAVAWH
-UWATAVAWH
-UWAUAVAWH
-UWAUAVH
-UWAVH
-UWAVI
-UWAWH
+U?1g
+U?wN
+UEj)
 U\8h(
+UcKc
 UnhandledExceptionFilter
 Unknown exception
-VAVAWH
+Uo\vv
 VCRUNTIME140.dll
-VP8 M
-VP8 t#A
-VP8LH
-VPH9FHu
-VWATAUAVH
-VWATAUAWH
-VWATAVAWH
-VWAUAVAWH
-VWAVH
+VP8 
+VP8L
+VP8X
 VZ#-DLU[3=h
-W%	s;M@
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WATAUAVAWH
-WAVAWH
 WDG,r3
-WHc|$0M
-WLcT$0I
-WLc\$0I
+WEBP
 WR_l%2>
+WY'N
 WaitForSingleObjectEx
 WakeAllConditionVariable
-WfD+K
-XA_A^A\_^]
-XA_A^A]_][
-XA_^][
-XMP t=A
+WmS|
+XL3Z
+XMP 
 Xl=hs>
-Z({:3m
 Z?width@QImage@@QEBAHXZ
 Z_JmLd
-[C2zbCSTiC
-\$ AVH
-\$ Ic
-\$ Lc
-\$ UH
-\$ UVW
-\$ UVWATAUAVAWH
-\$ VATAVAWHc
-\$ WH
-\$ fD
-\$(A_A^A\
-\$(E3
-\$(L;
-\$(tA
-\$0D+
-\$0D93~6
-\$0E;
-\$0ff
-\$8_^]
-\$@A_A^A\^
-\$@Hc
-\$@I+
-\$@L+
-\$HD;
-\$HE3
-\$PA_A^A]A\_^]
-\$`H;
-\$pE3
-]A_A^A]A\_^[
+ZxnI
+[C2zbCSTiC\n7pC&"wCw
+\\n?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\f#\f<\fB\fK\fQ\f\\fb\fk\fq\f
+\f,\f2\f;\fA\fL\fR\f[\fa\fu\f{\f
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\n!\n5\n;\nD\nJ\nU\n[\nd\nj\n
+\n"\n;\nA\nJ\nP\n[\na\nj\np\n
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\nwX4C
+\r \r)\r/\r:\r@\rI\rO\rh\rn\rw\r}\r
+\r!\r,\r2\r;\rA\r
+\r"\r(\r1\r7\rP\rV\r_\re\rp\rv\r
+\t$\t/\t5\t>\tD\tX\t^\tg\tm\tx\t~\t
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
+\tJqAl
+\v \v&\v/\v5\vI\vO\vX\v^\vi\vo\vx\v~\v
+\v'\v-\v8\v>\vG\vM\va\vg\vp\vv\v
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 _RDATA
 _W4~w
@@ -763,125 +300,56 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
+_wjb
 `*Hhq
-`.rdata
-`A^^]
-`A_A^A]A\_^]
-`D$@L
+`7bu
 `n`lns
+aFN,
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
+bFbx
 bad allocation
 bad array new length
 bad partition length
+bwD`
 calloc
 cannot parse filter header
 cannot parse partitions
 cannot parse picture header
 cannot parse segment header
-className
-d$ Ic
-d$ L;
-d$$D9l$4
-d$(Lcd$HL
-d$0H;
-d$8E3
-d$8I+
-d$8Lc
-d$8Lca
-d$@fA
-d$`A;
-d$hHi
-d$pL+
-d$xLc
-debug
+cu\fq7
 dlBNvz!/u{1?cmR^
 dqe-KO{/3
-f=G%"5
 f@)rM
-fA+D	
-fB)DW
 failed to encode webp picture, error code: 
 failed to import image data to webp picture.
 failed to init webp picture and config
-ffffff
 fj".T\CMek2>x
-fl.&|
-g#v~>
-gfffA
-h	?byteCount@QImage@@QEBAHXZ
-hA]_^[
-hA_A^A\^
-hA_A^A]A\_^][
-hA_A^A]_^[
-hA_^][
+free
+h2yv
 hI{L[
-h\$@fA
+h\t?byteCount@QImage@@QEBAHXZ
 id@j>
-image/webp
-j	?bytesPerLine@QImage@@QEBAHXZ
+j,4c
+j\t?bytesPerLine@QImage@@QEBAHXZ
+kBk>
 kGCu!NC
 kU!W>
-k|D9k0t
-l$ D91t	H
-l$ Hci
-l$ Lc
-l$ VWATAU
-l$ VWATAUAVAWD
-l$ WH
-l$(E3
-l$0A;
-l$0D;
-l$0Ic
-l$0fD
-l$8D;
-l$8Hc
-l$@Hc
-l$PA_A^A]A\_^
-l$PD9v
-l$XHcE
-l$`Lck
-l$hD9`
-l$hH;l$xu
-l$hHcL$DH
-l$pE3
-l$pHc
-l$pHci
+kWt>
 log10
 m1WY$
 malloc
 memcpy
 memmove
 memset
-nD$4f
-nL$0f
 no memory during frame initialization.
-ntelA
 null VP8Io passed to VP8GetHeaders()
 o KPBf
-o<$fD
-oD$ f
-oD$0fA
-oD$aM
-oT$ H
-oT$0L
-oT$0f
-oT$afA
-oT$yfD
 oY.o<
-o\$0D
-o\$`A+
-od$0f
 ofn}>
 opqMU
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
-o|$ f
-p WATAUAVAWH
-pA^][
-pA_A^A]A\_^]
-pA_A^A]^]
 qo-W>
 qsort
 qt_plugin_instance
@@ -889,108 +357,20 @@ qt_plugin_query_metadata
 qwebp.dll
 sD}>uD
 source image is null.
-t$ ATAVAW3
-t$ AVAWH
-t$ Mc
-t$ UH
-t$ UWATAVAWH
-t$ WATAUAV
-t$ WATAUAVAW
-t$ WATAUAVAWH
-t$ WAV
-t$ WAVAWD
-t$ WAVAWH
-t$ WAVHc
-t$ WAVLcY E
-t$ WH
-t$(E3
-t$(Hc
-t$(Lcq
-t$0A^_
-t$0A_A^
-t$0H;
-t$0t	A
-t$0t&H
-t$8E3
-t$8Mc
-t$9P(u
-t$@D9
-t$@Hc
-t$@L;
-t$HE3
-t$XLc
-t$XtlE3
-t$`Lc
-t$`M;
-t$hE+
-t$pLc
-tHc\$`D
+t14x
 thread initialization failed.
-u	HcD$4M
-u HcK
-u'H$>
-u'H9H8u+3
-u(9(u
-uC9\$pu=H
-uR9FT
+t|AO
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-ugA9o
-v7D9+u
+vECd
+vIK \f3
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-vl$0f
-x AVH
+va1+
+wIq?
+webp
+wyS]
 x0Ysqx
-xA^A\_^][
-xA^A]_]
-xA_A^A]A\_^][
-xA_A^A]]
-xA_A^_^][
-y dwg
-y8dw!
-yLdw3
-z0u.A
-{ H9C
-|$ 9n
-|$ ATAUAVAWL
-|$ ATAVAWH
-|$ ATAVAWL
-|$ AV3
-|$ AVA
-|$ AVAWHc
-|$ AVAWL
-|$ AVH
-|$ D;
-|$ E3
-|$ H;|$0u
-|$ Hc9E3
-|$ Ic
-|$ LcI
-|$ Mc
-|$ UH
-|$(A^
-|$(D;
-|$0A^_
-|$0A_A^
-|$0Hc
-|$0Lc
-|$0Mc
-|$8A_A^A\
-|$8Hc
-|$8Lc
-|$@A_A^A]A\
-|$@Lc4
-|$@Mc
-|$PE3
-|$XE+
-|$XIi
-|$XMc
-|$pHc
-}THcSxH
+y>1g
+zJO>
+zyC7
 }mxQ>
-~09_(
-~3IcQ
-~<IcQ
-~P fA
-~P |	H
 ~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

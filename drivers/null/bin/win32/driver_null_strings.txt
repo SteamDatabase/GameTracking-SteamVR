@@ -1,14 +1,3 @@
-	!s99
- %41g
-!hn7!
-$7EeJ
-',=?k
-(f*^[0
-)&c?%
-+Xt@(
-+o'q)}
-,W5y+
--%o"-D
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -31,6 +20,7 @@ $7EeJ
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -42,14 +32,12 @@ $7EeJ
 .rdata
 .rdata$r
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$x
@@ -73,102 +61,13 @@ $7EeJ
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
-0 0'0l0u0~0
-0$0)0.03080=0B0G0L0Q0V0a0f0k0p0u0z0
-0(171J1V1f1w1
-0w0c1
-0}0i1
-1!131=1Y1h1w1
-1$1P1x1
-1+232;2
-130801120000Z
-1@2M2t2|2
-1P3Y3q3
-1X4\4`4d4h4l4p4t4x4(5,5054585<5@5D5H5`5d5h5l5p5t5x5|5
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173911Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-303H3N3^3
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3:3I3X3
-3mq+<
-4	5(555?5I5V5c5i5s5}5
-4,454B4Z4
-4K4n4{4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5	6$6-626E6Y6^6q6
-595~5
-5FjiT
-5Genu
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5ineI
-6"686e6
-6$6.676E6N6W6`6m6
-6*f(_
-658A9N9i9
-6I]Dc
-6OB,n_
-7 7$787<7@7\7`7
-7!7<7G7
-7(8<8C8s8|8
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8'8A8Q8z8
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8t8x8
-9 9-969B9K9P9`9j9s9|9
-9"9(9/969=9D9K9R9Y9a9i9q9}9
-9(9,9<9@9H9`9p9t9
-:!:*:3:>:C:Q:[:d:m:x:}:
-:#:):/:5:;:A:G:M:S:Y:_:e:k:q:w:}:
-:$:(:8:<:@:H:`:p:t:
-;$;<;L;P;`;d;h;l;t;
-;&;+;:;D;M;Y;b;g;x;
-<%<;<\<c<
-<0:08
-=#=0=r=z=
-=)>;>_>x>
-=e=j=t=}=
-=rIQU
->$?-?6???D?I?P?
->0<0:
->J>S>\>e>j>o>v>
->Mp$d
-?8?T?X?t?x?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
-@.data
-@.reloc
-Bellevue1
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E:R#"bO
-F	f7/
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
-H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -185,39 +84,19 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 KERNEL32.dll
-K}*n:	
-L?n(Zy&
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-MB(iVR
 MSVCP140.dll
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-PAq=?Mp#
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
 QueryPerformanceCounter
-S0Q0O
-SA|X=G
+RSDS
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
-Using settings values
+Using settings values\n
 VCRUNTIME140.dll
-V_~]	,
-Valve Corp.0
-Valve Corp.1
-Washington1
-Y9"SD
-Y__^[
-[K]taM?
-]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -235,7 +114,6 @@ _crt_atexit
 _except1
 _except_handler4_common
 _execute_onexit_table
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -245,8 +123,6 @@ _purecall
 _register_onexit_function
 _seh_filter_dll
 _stricmp
-`.rdata
-a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -258,22 +134,14 @@ c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_
 displayFrequency
 driver_null
 driver_null.dll
-driver_null: Display Frequency: %f
-driver_null: IPD: %f
-driver_null: Model Number: %s
-driver_null: Render Target: %d %d
-driver_null: Seconds from Vsync to Photons: %f
-driver_null: Serial Number: %s
-driver_null: Window: %d %d %d %d
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
-jj@0HK4
-k0i0$
-l2|X/gGe
-m0k0$
+driver_null: Display Frequency: %f\n
+driver_null: IPD: %f\n
+driver_null: Model Number: %s\n
+driver_null: Render Target: %d %d\n
+driver_null: Seconds from Vsync to Photons: %f\n
+driver_null: Serial Number: %s\n
+driver_null: Window: %d %d %d %d\n
+free
 malloc
 memcpy
 memmove
@@ -285,18 +153,8 @@ secondsFromVsyncToPhotons
 serialNumber
 steamvr
 string too long
-uCVj@
-u[	 n
-v=Y]Bv
 vector<T> too long
 windowHeight
 windowWidth
 windowX
 windowY
-www.digicert.com1!0
-www.digicert.com1$0"
-{un'%
-|Lu?c
-}LuHO
-~qj#k"
-~t&LN

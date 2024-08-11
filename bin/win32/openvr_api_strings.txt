@@ -1,94 +1,32 @@
-					
-							
-												
-																																												
-	!s99
-	w{PW
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
- %41g
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- PjPW
  Type Descriptor'
  delete
  delete[]
- for detail.
- new[]
- t\9]
-!hn7!
-!~?s5
-"B <1=
-#.X'=
-#9Npt
-#])#	
-$C#9$"
-$PjQW
-$_^[]
-$iMBm
-%%.%dg
+ for detail.\n
+ new
+#D5p
 %.0Lf
-%H : %M
 %H : %M : %S
 %I : %M : %S %p
-%S#[k
-%Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&1^1x1
-&<	x4;O
-&?~YK|
-&uo r
+&Sgw
 ' is not a number.
-',=?k
-'050Q0i0
 ( 8PX
 ('8PW
-(Ht5F
-(HtMf
-(SVW3
-(f*^[0
 (null)
-(uEKw
-)-M-=
-)3E3N3
-*PjTW
-*t`=+
-+A Vj$
-+A$+Y
-+A$tU3
-+A$tp
-+AHVj(
-+PjUW
-+S@H#
-+Xt@(
-+Z$cH
-+o'q)}
-+p$+p
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
-,0<	v
-,0<	w
-,PjVW
-,W5y+
-,zeDo
-,~fMK
--0zAoL
--171P1Z1
 -1e+9999
--7"+x
 -Infinity
--PjWW
--\!]N=
--jd_;
 .00cfg
-.3=}%
 .?AUIExecutionContext@Concurrency@@
 .?AUIExecutionResource@Concurrency@@
 .?AUIResourceManager@Concurrency@@
@@ -273,9 +211,7 @@ $iMBm
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.K="=
-.PjRW
-.T(:"
+.bss
 .data
 .data$r
 .edata
@@ -288,23 +224,20 @@ $iMBm
 .rdata$T
 .rdata$r
 .rdata$zzzdbg
-.rsrc
 .rsrc$01
 .rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata$x
-/PjSW
-/t;_^2
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -323,816 +256,44 @@ $iMBm
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0	1g1
-0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
-0 0$0(000<0\0h0
-0 0$0,0D0H0`0p0t0
-0 0(00080@0H0P0X0`0h0p0x0
-0 1t1
-0 1x1
-0 2$2(2,2024282<2@2D2P2T2X2\2`2d2h2l2p2
-0#080=0
-0$0(000H0X0\0l0p0t0x0|0
-0$0)0.03080=0B0G0L0Q0V0[0`0e0j0o0t0y0~0
-0$0,040<0D0L0T0\0d0l0t0|0
-0$0,040@:H:P:X:`:h:p:x:
-0&050<0
-0&0f0}0
-0&1D1
-0&1[1v1
-0(0,0004080@0X0h0l0|0
-0*040W0a0
-0+060
-0,00040<0T0d0h0x0|0
-0,0_0
-0-0:0Q0p0
-0.0W0q0
-0/171
-000c0~0
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
 0123456789abcdefghijklmnopqrstuvwxyz
-040<0D0P0p0x0
-041S1
-060f0
-080?0D0K0R0Y0`0g0n0u0|0
-0<1F1O1`1n1t1
-0=112f2
-0@0Z0h0n0y0
-0A0P0
-0C0x0
-0E0"1>1E1p1
-0H0t0
-0I0t0
-0P2V2d2s283?3I3m3
-0[0e0
-0\1c1
-0^_[]
-0e0	1)1Z1
-0t3J4O4
-0w0c1
-0}0i1
-1 1$1
-1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-1 1$1(1,1014181<1@1D1H1L1P1d1h1l1p1t1x1|1
-1 1%1*1/14191>1C1H1M1R1W1\1a1f1k1p1
-1 1(10181@1H1P1X1
-1 10141D1H1L1T1l1|1
-1 3$3(3,3034383<3@3D3
-1#242?2
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1$1(1,10141<1T1d1h1x1|1
-1$1,141<1@1H1P1X1`1h1p1x1
-1$141X1d1l1
-1$1<1L1P1`1d1h1l1p1t1|1
-1&1=1R1i1z1
-1'2_2|2
-1(191N1S1
-1)3h3
-1+1^1{1
-1,121E1W1`1k1}1
-1,1<1@1P1T1X1`1x1
-1/242?2
-1/2`2}2b3o3
-11171=1C1I1O1V1]1d1k1r1y1
-11181f1l1
-130801120000Z
-181D1d1p1
-181P1
-1:1Q1p1
-1?2l2
-1A2R2n2
-1L2T2
-1M2W2t2
-1U1y1
 1e+9999
 1eaB@
-2	3O3
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2
-2 2$2(2,2024282<2@2D2H2P4T4X4\4`4d4h4l4p4t4x4|4
-2 2$2(2,2024282D2H2L2P2T2X2l2p2t2x2
-2 2(20282@2H2P2X2`2h2p2x2
-2 2+21272I2X2g2
-2 2<2@2`2h2l2
-2!313g7q7
-2!3Y3v3
-2"3H3s3
-2#242
-2$2(2,20242<2T2d2h2x2|2
-2$2,282X2`2h2t2
-2$2@2h2
-2$363
-2%252C2T2l2r2~2
-2%2J2}2
-2%2P2
-2&3:3F3w3
-2&3p3
-2'2.2Y2d2j2
-2(2,20242<2T2t6
-2(2,2@2D2T2X2\2`2h2
-2*2O2]2j2
-2*2f2
-2,2?2J2P2]2e2w2
-2-2w2
-202@2D2T2X2\2d2|2
-210429000000Z
-211007000000Z
-213V3
-220323000000Z
-220801000000Z
-230714000000Z
-233s3
-240724173749Z0/
-241009235959Z0a1
-243t3
-252J2Q2W2i2s2
-282>2D2J2P2V2]2d2k2r2y2
-2<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-2=3[4
-2@2}2
-2A3b3}3
-2D2u2
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2H2l2
-2J3!4j4o4z4[5
-2K2]2
-2M2v2
-2O2f2r2
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2ieO=
-2v6$7
-3	4,4G4}4
-3 3$3(3,303
-3 3$3,3@3`3
-3 3(30383@3H3P3X3`3h3p3x3
-3 3)363C3a3
-3 3034383<3@3D3X3\3l3p3t3x3|3
-3 383H3L3T3l3|3
-3 4'4y7
-3 4(4^4
-3!484
-3"5>5E5p5
-3#3+3
-3$3.383B3O3X3a3q3
-3$32393?3d3
-3$3R3x3~3U5t5
-3&4G4
-3(3C3^3
-3(4N4^4
-3*484k4
-3*494H4
-3+3@3E3
-3+3h3z3
-3,30383P3`3d3h3l3p3x3
-3,3G3[3q3
-303<3D3\3d3l3p3x3
-303<3\3h3
-311109235959Z0b1
-341013235959Z0H1
-353T3q3
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-383D3W4
-3<3L3V3p3
-3?4I4f4w4
-3A4L4
-3D3~3
-3E4J4U4+5
-3G3^3s3
-3G3o3
-3H3j3
-3K3i3
-3M3T3
-3M4W4]4<5X5
-3S4r9v<
-3U4Y4]4a4e4i4m4q4u4y4
-3[4r4
-3^4k4
-3m3w3
-3mq+<
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 4$4(4,40484P4`4d4t4x4
-4 4(40484@4H4P4X4`4h4p4x4
-4 4044484@4X4\4t4
-4 404@4X4d4h4l4
-4 414L4Z4w4}4
-4 4@4\4`4
-4"4/4
-4"4=4|4
-4"4h4
-4#484R4g4
-4$4,484X4d4
-4$414s4{4
-4$47:
-4%4-454=4
-4&4-444;4B4I4P4W4^4e4l4s4z4
-4&4B4|4
-4&4C4g4v4
-4(484<4L4P4T4X4\4`4h4
-4*5<5`5y5
-4.5}5
-414>4@6L6
-414?4
-415b5
-484@4L4l4x4
-484C4
-4;5^5k5s5{5
-4;7C7[7i7q7
-4<5E5n5w5
-4@4l4
-4B4V4m4
-4F5O5
-4G5t5
-4H4x4
-4H:L:
-4I6T6g6q6
-4K4P4T4X4\4
-4M5a5y5
-4Q;FD~Z
-4S4p4
-4U4g4
-4^5l5
-4f4r4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4k4p4w4
-4o5y5
-4u4|4
-5	6>6
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5$5(5,5054585<5@5D5H5L5P5T5X5l5p5t5x5|5
-5 5(50585@5H5P5X5`5h5p5x5
-5 5054585<5@5H5`5p5t5
-5 50545D5H5L5T5l5|5
-5 5@5H5T5t5
-5 5@5`5
-5!6u6
-5"5)50575>5E5L5S5Z5a5h5o5v5}5
-5"5)555E5T5[5h5q5~5
-5$565v5~5
-5$:,:4:<:D:L:T:\:d:l:t:|:
-5%5/5;5@5E5c5m5y5~5
-5%595[5e5
-5'5-5>5O5Y5d5u5
-5(5,5054585@5X5h5l5|5
-5(6,6064686<6@6D6
-5)5.545>5H5^5e5r5
-5)5:5Y5l5
-5)6z6
-5,545@5`5h5t5
-5.5H5u5
-5/6>6
-50575b5q5
-516;6X6i6~6
-516C6
-516E6d6}6
-52575
-526;6S6
-545X5
-546q6{6
-565Y5
-585e5
-5;6F6
-5;{0t?
-5=5M5
-5A7R7X7f7l7
-5D6%7
-5F6Q6
-5FjiT
-5Genu
-5I6C8
-5I6d6
-5L6b6
-5M5}5
-5V6x6
-5X6b6t6
-5Z6g6w6
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5ineI
-5s5x5
-6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
-6 6$6(6,646L6\6`6p6t6x6|6
-6 6(60686@6H6P6X6`6h6p6x6
-6 6(646T6\6h6
-6 6064686<6@6H6`6p6t6
-6 6@6`6
-6 7U7
-6 7n7
-6"6(6
-6"7t7{7
-6$6)6J6|6
-6$6*6Q6
-6%6,636:6A6H6O6V6]6d6k6r6y6
-6%6H6
-6&6b6
-6(60686@6L6t6
-6(62686C6M6S6Y6_6p6}6
-6(6K6
-6({wyyj:
-6*8.82868
-6*f(_
-6,6064686@6X6h6l6|6
-6.7o7
-60?0L0R0X0
-626F6]6y6	7E7
-627z7
-656A6^7e7
-656F6[6`6
-6:6I6k6{6
-6;7]>
-6?6`6
-6@7I7r7{7
-6A7k819C9
-6I]Dc
-6J7R7M8U8
-6J8R8
-6OB,n_
-6U7t7
-6V7*9
-6Z6s6
-6`7j7
-6g7`8
-6i6}6
-6t7::W;
-6z7\8
-7	8'8@8E8q8
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7|7
-7 7$7,7D7T7X7h7l7p7t7x7|7
-7 7(70747<7P7X7`7h7l7t7
-7 7(70787@7H7P7X7`7h7p7x7
-7 7@7`7
-7!7+787A7K7X7e7o7|7
-7!8V8
-7"7.777]7
-7"8x8
-7#8-8J8[8p8u8
-7$7)7}7
-7$7:7R7^7x7
-7$7<7@7X7h7l7
-7$7H7T7\7|7
-7%737
-7&7A7f7x7
-7'8G8n889B9l9
-7(8$:*:1:8:>:C:I:O:U:Z:`:f:l:q:w:}:
-7)7?7E7J7P7[7a7p7w7|7
-7,787X7d7
-7,7<7@7D7H7L7P7d7h7x7|7
-7,7E7{7
-7,7[7
-7.8:8I8R8X8^8
+4g%6
 700PP
 700WP
-70503
-708M8u8
-747;7A7F7T7
-797Q7j7
-7:7V7b7
-7<T<{=
-7=9O9a9
-7@PVW
-7B7n7
-7B8Q8c8x8
-7E7}7
-7F7J7R7^7x7
-7H7P7]7m8
-7H7t7
-7I7X7{7
-7I8r8
-7P7T7X7\7`7d7h7l7p7t7
-7S8e8
-7S9x9Q;X;c;o;u;
-7Z7d7
-7^:z:
-7_8u:
-7a708
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8	9%9:9V9m9
-8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
-8 8$8(8,8084888<8@8D8T>`>
-8 8(8084888<8@8H8\8d8x8
-8 8(80888@8H8P8X8
-8 888H8L8\8`8d8h8p8
-8 9:9T9
-8"8)8C8R8\8i8s8
-8"8,8>8]8b8i8n8u8
-8"949w9
-8$8+818;8J8R8^8o8v8
-8%8+82878u8}8
-8%:.<
-8&8-8Y8
-8&8=8\8{8
-8'888M8R8
-8'8:8
-8(8,80888P8`8d8t8x8
-8(8B8a8o8
-8(8H8h8
-8(9,9094989<9\9
-8)8T8
-8*9A9`9
-8*9G9o9
-8,8084888<8D8\8l8p8
-808<8\8h8
-81<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
-838Y8
-888x8
-89}4w
-8;9_9
-8<8D8P8t8
-8=9C9w9
-8@8G8Y8}8
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8I8h8
-8L9V9s9
-8N9d9
-8R:r:d<}<
-8V9q9}9
-8_^[]
-9	:&:N:
-9	:4:
-9 9$9(9,9094989<9
-9 9$9(9,9094989<9@9D9H9L92<R<
-9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9|9
-9 9$9(909H9L9d9t9x9
-9 9T:m:
-9 :$:(:,:0:4:W:
-9$9(9,909
-9$9(909D9L9T9`9
-9$9)999>9C9S9X9]9m9r9w9
-9$9,949<9D9L9T9\9d9l9t9|9
-9$9,949@9`9l9
-9&9.979>9I9O9V9i9
-9(9,9<9@9D9L9d9t9x9
-9):l:
-9,909@9D9H9L9P9X9p9
-9.949>9H9R9_9k9
-9/9<9B9c9
-929b9{9
-92:I:
-949@9`9l9
-949H9S9
-94;8;<;@;D;X;\;`;|;
-96:_:
-979J9c9i9
-97:g:
-989\9h9p9
-999);V;
-999C9X9
-999\9
-9::l<
-9C(tX
-9C`u99C\t4
-9D9p9
-9D<k<
-9E WW
-9E$WWV
-9E;[;w;
-9G$s$
-9G$v&
-9Hx~G
-9M4wz
-9V(~>j
-9V(~?j
-9V(~Bj
-9\:c:
-9^\ty
-9o9y9
-9p t 
-9p u"
-9s(~&
-9s,~g
-9sx~ 
-9vdtE
-9wLt	
-9wLt7
-9xdtUW
-9~,~9
-9~,~B
-9~,~k
-9~P~6
-9~Xt#
-9~x~'
-: :$:(:,:0:4:8:<:@:w:~:
-: :$:(:,:4:L:P:h:x:|:
-: :$:<:L:P:T:X:\:`:t:x:
-: :(:4:T:\:h:
-: :,:8:D:P:\:h:t:
-: :,:L:X:x:
-: :@:P:|:
 : exception thrown in JSON library
-:!:%:):
-:!;%;);-;1;5;9;=;
-:":C:U:j:
-:#:':+:/:3:7:;:?:C:G:K:O:S:W:[:_:c:g:k:
-:#:8:x:
-:$:,:4:<:D:L:T:\:d:l:t:|:
-:$:0:P:\:|:
-:%;R;
-:&:<:b:
-:(:,:0:4:8:@:X:h:l:|:
-:(;0;8;H;T;\;t;|;
-:(;=<}<
-:(<-=
-:*:?:D:
-:,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
-:,;{;
-:-:D:
-:-:H:
-:.;=;I;X;k;
-:3;X;\;`;d;h;l;
-:4<;<D<K<
-:5:=:M:w:
-:6:Y:q:
-:6;6<
-:<:M:b:g:
-:<:t:
-:=:c:
-:>:S:i:
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
-:M;[;
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-:X;{;
-:Y;t;
-:Z:{:
-:]=O>
-:_;r;=<S<3=p=S>
-:f;>u
-:h"?bC
-:u"f9z
-:uLFV
-:w;:<
-;	<]<
-;	<m<}<
-; ;(;0;8;@;H;P;X;`;h;p;x;
-; ;(;0;8;@;H;P;\;|;
-; ;(;@;P;T;d;h;l;p;x;
-;!;1;A;Q;a;q;
-;";3;
-;#;';+;/;3;7;;;v;{;
-;#;2;
-;$;(;,;0;8;P;T;l;|;
-;$;);/;5;;;@;F;L;R;W;];c;i;n;t;z;
-;$;+;2;9;@;G;N;U;\;c;j;q;x;
-;$;,;4;<;D;L;T;\;d;l;t;|;
-;$;D;L;X;x;
-;$;H;T;\;|;
-;&</<F<
-;(;,;<;@;D;H;L;T;l;|;
-;(;4;@;L;X;d;p;|;
-;*;I;h;
-;*<1<+?
-;+;V;a;
-;,<|<
-;/;i;
-;0;P;l;
-;2;V;
-;2;y;
-;3u3;
-;7<z<
-;:;s;
-;;;J;l;|;
-;<;~;
-;<<f<
-;=<L<Z<w<
-;><,=`=t={=
-;A$vH
-;A$v\
-;A<J<N<T<X<^<b<l<
-;ADt$
-;F$vj
-;FD~@
-;FD~H
-;G<i<
-;Q u	;A
-;V\uYW
-;a;k;
-;a<m<
-;t$,v-
-< <%<@<J<Z<_<d<
-< <'<.<5<<<C<J<Q<X<_<f<m<t<{<
-< <(<0<8<@<H<P<X<`<h<p<x<
-< <1<
-< <8<<<T<d<h<p<
-< t3<	t/
-<!<&<,<2<8<=<C<I<O<T<Z<`<f<k<q<w<}<
-<!</<I<{<
-<"<+<4<_<
-<$<*<;<O<
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<$<0<<<H<T<`<l<x<
-<%<=<B<N<S<g<6===O=X=
-<&<E<S<[<g<v<
-<(<,<<<@<D<L<d<t<x<
-<(<D<|<
-<(<L<l<t<|<
-<,<0<P<t<|<
-<,<<<@<P<T<X<\<d<|<
-<,<P<\<d<
-<,=5=@={=
-<-<9<><Q<]<b<u<
-<.<;<
-<.<?<T<Y<
-<0:08
-<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-<0<<<D<\<h<
-<0=M=
-<2<M<p<
-<5=I=l=
-<5=i=
-<6<F<
-<6=C=
-<7<a<T=o=
-<8<e<
 <8bunz8
-<:t%<,t!</u%
-<:t2<,t.</u2
-<;<e<
-<@=I=s=|=
 <@En[vP
-<A<N<
-<C=L=T=
-<F<c<{<
-<I=]=
-<ItC<Lt3<Tt#<h
-<ItM<Lt:<Tt'<h
-<L=d=~=C>b>
-<S=]=z=
-<T>_>
-<et	<pu
-<i=t=
-<i=z=
-<xt"<Xu!
-<zQ}<
-<{Q}<
-=	>!>
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=
-= =$=,=D=T=X=h=l=p=t=x=
-= =(=0=8=@=H=P=X=`=h=p=x=
-= =@=H=T=x=
-= =Z=i=v=
-= >X>
-=#=)=/=5=:=@=F=L=Q=W=]=c=h=n=t=z=
-=#=;=
-=#=M=R=Y=`=g=n=u=|=
-=#>K>b?~?
-=$=(=,=4=L=\=`=p=t=x=
-=$=,=4=<=D=L=T=\=d=l=t=|=
-=$=,=D=P=x=
-=$=0=<=H=T=`=l=x=
-=&>t>
-=(=H=T=t=|=
-=(?U?
-=)=5=:=M=w=
-=*=2=O=_=k=z=c>
-=,=1=
-=,=4=<=@=D=L=`=h=|=
-=,=4=<=D=L=T=\=d=l=t=|=
-=-=V=k=}=
-=2=D=V=h=z=
-=4=8=<=@=D=H=L=P=T=t=x=|=
-=4>X>v>
-=7>K>g>
-=9=i=
-===a=
-=C=v=
-=C>k>
-=F>z>
-=G>T>u>
-=K=U=e=
-=M=j=
-=Q=n=
-=WIDATx
-=Y>t?
-=\uI=
-=]=d=m=
-=a>o?
-=g>s>
-=rIQU
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
-> >$>(>,>0>4>8>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
-> >(>0>8>@>H>P>X>`>h>p>x>
-> >,>L>X>x>
-> >1>F>K>
-> >8>H>L>\>`>d>h>l>p>x>
-> >B>c>
-> >L>l>
-> ?O?]?
->!>P>\>
->!?<?C?J?Q?e?
->!?s?
->"?C?\?w?
->#>4>A>V>\>
->$>+>2>9>@>G>N>U>\>c>j>q>x>
->$>,>4><>D>L>T>\>d>l>t>|>
->$>8>
->%>5>F>
->%?,?
->&>3>\>c>
->'>6><>R>o>z>
->'>>>a>v>
->'?p?
->(>,>0>4>8><>@>h>l>p>t>x>
->(>,><>@>P>T>X>\>`>d>l>
->(>L>X>`>x>
->(?p?
->)/I5
->,'1D=
->/?;?
->0<0:
->0>@>D>T>X>\>d>|>
->0>P>l>p>
->1>6>;>\>l>
->4???
->6?J?
->=>`>
->@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
->C?R?
->D>Q>\>v>
->E?O?l?}?
->G>w>
->G?s?
->KpP`
->M>_>r>
->Mp$d
->O>T>_>3?d?u?
->R?{?
->W>`>w>
->Z>j>
->^?y?
->i>w>
-? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
-? ?$?(?0?D?L?`?h?p?x?|?
-? ?'?.?5?<?C?J?Q?X?_?f?m?t?{?
-? ?(?0?8?@?H?P?X?`?h?p?x?
-? ?(?@?P?T?d?h?l?p?t?x?
-? ?@?H?T?t?|?
-?"?=?Q?n?
-?#%X.y
-?#?-?@?F?L?S?b?k?x?
-?$?(?8?<?@?H?`?d?|?
-?$?(?8?<?@?H?`?p?t?
-?$?,?4?<?D?L?T?\?d?l?t?|?
-?$?6???d?
-?(?7?
-?(FN\
-?)?/?9?G?M?]?i?o?y?
-?+???E?
-?0?4?D?H?L?P?T?\?t?
-?0?8?X?h?t?
-?0i0|0
+=87M
+?3xj
 ?5Wg4p
-?7?H?S?
+?5a1
 ?7Tf(
-?8?k?~?
-?;?S?
-?<?\?y?
-?<lt <tt
-?@?d?
-?B?z?
 ?IT$7
+?Ltm
+?PiB
 ?RbSQ
-?T?]?
-?U'];
 ?X&eB
-?Y?e?}?
-?g)([|X>=
-?h6_~
-?w,_3
-?|I7Z#
-@(;A(s
-@.data
-@.reloc
-@091t1
-@H#?43
-@SVW3
-@_^[]
-@b;zO]
+@VNQ
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
-A(;A,v
-A,98~
-A0B;W
-A1<Fu
-A<lt'<tt
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AHPQVR
-AHkO($
-ARPRQh
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
-Af;:u
+Ai0T
 AiFC.
 Another app was already launching (117)
 App info manager init failed (114)
@@ -1140,25 +301,11 @@ AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 August
-Ax#?uN}*
-BC .=
-BHoxqF
-BP;BL
-BVj(j
 Bad dynamic_cast!
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bellevue1
-BjOhh
-C WVP
-C$F;w
-C'db-N
-C(j4f
-C,H_^u
-C8;sx|
-C;^8u
-CA7%^[
+Bfe9
 ChangeTimerQueueTimer
 CloseHandle
 CloseThreadpoolTimer
@@ -1191,21 +338,12 @@ CreateThreadpoolWait
 CreateThreadpoolWork
 CreateTimerQueue
 CreateTimerQueueTimer
-D8(Ht'
-D:( t
 December
 DecodePointer
 DeleteCriticalSection
 DeleteTimerQueueTimer
 Device Calibration is invalid (207)
 Device is not calibrated (206)
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
@@ -1215,12 +353,6 @@ Driver unable to initialize video encoder (499)
 Duplicate key: '
 DuplicateHandle
 DynamicProgressFeedback
-Dz8QQ
-E _^[
-E'i}p&b
-E2K2h2
-E;w0tLj
-ED4Vu`
 Eb2]A=
 Empty escape sequence in string
 EncodePointer
@@ -1230,23 +362,8 @@ EnumSystemLocalesW
 Exceeded stackLimit in readValue().
 ExitProcess
 Extra non-whitespace after JSON value.
-F _^[
 F0$?3=1
-F0P0V0;1Z1
-F1<at
-F1<gt
-F4_^[
-F4_^[]
-F;sx|
-F<\uD
-F@j:f
-FH;FDu
-FP;FL
-FP;FL~
-FT9~Xt0
-FVWj	
-FY;w(|
-FYY;w(|
+FEMh\f
 Factory Function Not Found (104)
 February
 File Not Found (103)
@@ -1267,19 +384,7 @@ FreeLibrary
 FreeLibraryAndExitThread
 FreeLibraryWhenCallbackReturns
 Friday
-F||<##
-G @;G
-G(9_Lu8
-G,_^[
-G0_^]
-G;~,|
-G;~P}
-G;~x|
-G@WVPR
-GDQSP
-GPP@&R7T
-GQ@R<E
-GWPh<
+GYM=
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -1337,11 +442,6 @@ GetTraceLoggerHandle
 GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetVersionExW
-Gh;G<
-Gl;Gx
-GrvD)
-GxVPR
-H-^Eu
 HH:mm:ss
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -1361,11 +461,6 @@ HMD found, but problems with the data (1112)
 HMD found, but problems with the data (1115)
 HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
-HP;HL
-HPQVR
-HPjPW
-H`$?h|
-Hc9;q
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -1374,6 +469,7 @@ Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
+Ht=c
 ILiquidVR_001
 IND)ind)
 IND)ind)pow
@@ -1383,8 +479,6 @@ IVRControlPanel_006
 IVRHeadsetView_001
 IVRPaths_001
 IVRVirtualDisplay_002
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
-Ii"kR
 Infinity
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -1407,24 +501,18 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
-J>@G_
-JBIh	i
-JX<$N
 January
-K3tyI
-K74LN
-K<<H!
+July
+June
 KERNEL32.dll
-K}*n:	
-L?n(Zy&
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-LPjQW
+La8i
 LargestInt out of Int range
 LargestUInt out of Int range
+Le?2
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LiquidVR
 LoadLibraryExA
@@ -1435,79 +523,33 @@ LocaleNameToLCID
 Lock already taken
 Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
-LrvD)O
-M$+E4@Pj
-MB(iVR
 MM/dd/yy
 March
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MinConcurrency
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+MkK?
 Monday
 MultiByteToWideChar
-N PSQ
-N(@PV
 NAN(IND)
 NAN(SNAN)
-NX9^`t1
 No Error (0)
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 November
-O,9O(vV
-O0Y0c0
-OH+O@
-OH+O@I
-OHPSQ
-OHSSVSSW
-O`j@SV
 October
-Od_^]
 On laptop, HMD detected over USB, but Monitor not found (213)
-Ou|mtg]
-PAq=?Mp#
-PP9E u:PPVWP
-PPPPP
-PPPPPPPP
-PPPPPWS
-PRPQh
-PSVW3
-PVSWS
-PVSWj
-PVVVj
-PVj@W
-PWjUR
 PeekNamedPipe
 Pex?0
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pk7o`
-Pz}b!
-Q$B@;
-Q;FD~R
-Q;FD~Z
-QQSVW
-QQSVWd
-QQSVj8j@
-QVWjt
-QkK04
-QmqTMv
-Qn 0G
 QueryDepthSList
 QueryPerformanceCounter
-R(1)Y9
-R4Y4v4z4~4
-RQWPV
-RWQRP
-RWQSV
-R\hvv
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1520,29 +562,13 @@ ResetEvent
 RoInitialize
 RoUninitialize
 RtlUnwind
-S0)9b9
-S0Q0O
-SA|X=G
-SG?zp
 SHELL32.dll
 SHGetFolderPathW
 SNAN)
-SPSVQ
-SPjdVQ
-SSSSS
-SSSSj
-SSWVj	
-SVWQj
-SVWUj
-SVWf9
-SVWh 
-SVWj03
-SWj P
-SWj=V
-SWt@jU
 Saturday
 SchedulerKind
 SchedulingProtocol
+See 
 September
 SetEndOfFile
 SetEnvironmentVariableW
@@ -1558,7 +584,6 @@ SetThreadpoolTimer
 SetThreadpoolWait
 SetUnhandledExceptionFilter
 Settings manager init failed (118)
-Sg^V;f
 Shared IPC Compositor Connect Failed (306)
 Shared IPC Compositor Init Failed (303)
 Shared IPC Compositor Invalid Connect Response (307)
@@ -1574,7 +599,6 @@ SleepConditionVariableCS
 SleepConditionVariableSRW
 SubmitThreadpoolWork
 Sunday
-SwetV
 SwitchToThread
 Syntax error: value, object or array expected.
 SystemTimeToTzSpecificLocalTime
@@ -1594,8 +618,6 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
 T~OXu
-UQPXY]Y[
-URPQQh
 USB Service Busy (140)
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
@@ -1613,9 +635,6 @@ UnregisterWait
 UnregisterWaitEx
 User Canceled Init (116)
 User Config Directory Invalid (107)
-V%A+=
-V,_^[
-V<;V8}	
 VR Dashboard Not Found (133)
 VR Dashboard startup failed (134)
 VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
@@ -1629,7 +648,7 @@ VR Dashboard startup failed, vrservice was stopped (162)
 VR Home Not Found (135)
 VR Monitor Not Found (127)
 VR Monitor startup failed (128)
-VR Path Registry node %s is not an array
+VR Path Registry node %s is not an array\n
 VR Server Init Failed (300)
 VR home startup failed (136)
 VR system shutting down (119)
@@ -1871,71 +890,25 @@ VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VR_RuntimePath
 VR_ShutdownInternal
-VVVVV
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 VirtualAlloc
 VirtualFree
 VirtualProtect
-Vj@Z3
-VkP$4
-W8^.u<
-WHH+W@
-WPWWWS
-WSVPP
-WWVSW
-WWWSHSh
-WWWWW
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
 WakeConditionVariable
-Washington1
 Watchdog disabled in settings (132)
 Wednesday
 WideCharToMultiByte
 WinRTInitialization
-Wj0XPV
-Wj4XPV
 WriteConsoleW
 WriteFile
-X0`0h0l0p0t0x0|0
-XVVV3
-X[_^]
-Y([~=
-Y7'v[M
-Y8(|bUhI;W4$eG8
-Y9"SD
-YYF;w,|
-YY^_]
-YY_^[
-YYj,Z
-YYyhe"B
-Y_[^]
-Y_^[]
-Y__^[
-[ 0@QT
-[3F|}
-[K]taM?
-[SPj"
+X/4B
+X4I+
 [aOni*{
-[tc9]
-[zm4H
-\@d#_
-\Fj;!h8
-\wDgG
-]+9pa
-]6%S*
-]J<0"0i3
-]vQ<)8
+\r\f\v\v\n\n\t\t\t\t\t
+\tcQr
 ^<V7w
-^@[uC
-^f93u
-_C5D#
-_WVj@
-_^[h8
-_^tWh
 __based(
 __cdecl
 __clrcall
@@ -1950,17 +923,10 @@ __thiscall
 __unaligned
 __vectorcall
 _cabs
-_gUT^
 _hypot
 _logb
 _nextafter
-_tqPVj@
-`.rdata
-`0*\%i
-`0d0h0l0p0
-`F8bI<bH;^C6H)
 `RTTI
-``````````````````````````````````````````````````````````````````````````````````````````````````
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1970,7 +936,6 @@ _tqPVj@
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -1997,9 +962,9 @@ _tqPVj@
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a7hIw
-a8&Y.
+aDJ=
 abcdefghijklmnopqrstuvwxyz
+acos
 additional six characters expected to parse unicode surrogate pair.
 address family not supported
 address in use
@@ -2010,11 +975,13 @@ allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
 already connected
+alse
 argument list too long
 argument out of domain
+asin
 assert json failed
+atan
 atan2
-b4 a2
 bad address
 bad allocation
 bad array new length
@@ -2025,22 +992,19 @@ bad file descriptor
 bad locale name
 bad message
 broken pipe
-c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
-cD5U3#eF7v\NV5%J%
-cRpp`
-ceLfdfK3
-cg+tY
+c?e2
+ceil
 collectComments
 config
 connection aborted
 connection already in progress
 connection refused
 connection reset
+cosh
 count
 cross device link
-dC4N(
-dI;D#
+d8L2
 dddd, MMMM dd, yyyy
 deque<T> too long
 destination address required
@@ -2048,37 +1012,28 @@ device or resource busy
 directory not empty
 double out of Int range
 e+000
+e<bN
 eLK(w
-eTe6 d4
 eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
-f9:t!V
-f9<H}
+fUUU
+fabs
 failIfExtra
 false
 file exists
 file too large
 filename too long
 floor
+fmod
 frexp
-ft%9q
 function not supported
 generic
-gfe[D
-h-y"3
+h0'D
 hI{L[
-hPP`*
 hb?O2
 host unreachable
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
-i,MFey<e
-iG8O(
 identifier removed
 illegal byte sequence
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -2103,37 +1058,19 @@ ios_base::failbit set
 iostream
 iostream stream error
 is a directory
-iu+-,
-j	PjYV
-j,Yf;
-j.Xf;
-j.Yf;
-j0Yf;
-j8hpB
-j:Xf;
-j;Xf9
-jOIHg
-jbZRX
-jj@0HK4
-k0i0$
-kB0[/
-kC2\/
-kK04k
-kW$4k_(4
+k:UG
+k=yI
 keylength >= 2^30
-l*JHD
 l,kg<i
-l2|X/gGe
-l?$Va
-lG;3$
 ldexp
 log10
-lq%&1T
-m0k0$
+ls1=
+lzZ?
 m1WY$
+m\nXo
 map/set<T> too long
 message size
-n;w0tc
+modf
 nan(ind)
 nan(snan)
 network down
@@ -2160,8 +1097,6 @@ not connected
 not enough memory
 not supported
 np?z 
-oB(h8
-oSPPWh
 obwQ4
 openvr
 openvr_api.dll
@@ -2174,148 +1109,62 @@ operation would block
 operator
 operator "" 
 operator co_await
-os.b	
+owM&
 owner dead
-p*E?(
 pContext
 pEvents
 pExecutionResource
-pG6^0
-pKp$3
 pScheduler
 pThreadProxy
 permission denied
+pnJ=
 ppVirtualProcessorRoots
+proc
 protocol error
 protocol not supported
-pwJt8
-q)]2<Mt
-qe^3!Y-
-r1SPV
-r5f;u
 r7Yr7=
-r;f;u
-rB-<e*
-rGf;u
 rLp>B
-rMf;u
-rYf;u
-r_f;u
 raB3Gt
-rcf9#b3
 read only file system
 rejectDupKeys
 resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
-rkf;u
-rqf;u
-rr	jrZ
 runtime
-r}f;u
-sQA^7&^7%sP@
 sU0&?W
-shVx(
+sinh
 snan)
+sqrt
 stackLimit
 state not recoverable
 stream timeout
 strictRoot
 string too long
 switchState
-t#VhHP
-t)hTt
-t)h~#
-t+hPh
-t,WW9}
-t1RWV
-tAm4@
-tB;wPt
-tEj&ht
-tP9xp~K
-tRCU+
-tWVWj>
-tWj.W
-tX97uTj
-tX97uTj4
-t\QSV
-t]VWj>
-t^97uZjD
-t^WjU
+tLVv
+tanh
 text file busy
 timed out
-tjj_S
-tkSVP
-tl= r
-toA l<
 too many files open
 too many files open in system
 too many links
 too many symbolic link levels
-t~SSS
-u	!FX@
-u	9:t
-u	9w 
-u VWS
-u kE$<
-u$PPW
-u'_^[
-u,f9F
-u28C`t
-u29K\t-
-u2Vj@h
+true
 u?^p?o4
-uOSVW
-uQPVj
-uX9^\
+uXO=
 unknown error
-v	N+D$
 v2!L.2
-v<'*6
-v=Y]Bv
 value too large
 vector<T> too long
 version
-vj`7%X,
 vrclient Shared Lib Not Found (102)
 vrclient.dll
 vrserver internal error (124)
-v~j1KO
-wIPS3
-wXJR*
 wrong protocol type
-www.digicert.com1!0
-www.digicert.com1$0"
-x(kP$4
-xP?b3
-xRB`2
-x`cot~
-xmZ8(N*
 xpxxxx
 xwpwpp
-y1~?|"
-y4~4;8
-y^QZ8(O*
-ygCH2
-zSSSSj
-zwom}
-{S@d6
-{XIZ/
-{ZLjF5jE5zZK
-{^5#W-
-{un'%
-|)P!?Ua0
-|Lu?c
-|TBc4
+z1}B
+zyC7
+{4Wf
 |W8A=
-|^4#W,
-}	jCh 
-}:;2|6
-}LuHO
-}qj<h
-~ $s%r
-~1WPQ
-~4VVS
-~qj#k"
-~t&LN

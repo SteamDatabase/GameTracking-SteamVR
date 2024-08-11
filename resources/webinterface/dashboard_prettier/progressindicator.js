@@ -487,12 +487,12 @@
       return r.bShouldAbort
         ? null
         : n
-        ? (i.length > 0 && (n.children = i), [n])
-        : i.length > 0
-        ? 1 == i.length
-          ? i
-          : [{ children: i }]
-        : null;
+          ? (i.length > 0 && (n.children = i), [n])
+          : i.length > 0
+            ? 1 == i.length
+              ? i
+              : [{ children: i }]
+            : null;
     }
     let B,
       N,
@@ -1017,13 +1017,13 @@
           d && d.length > 0
             ? (a.properties.key = d)
             : c
-            ? (a.properties.key = c)
-            : (a.properties.overlay_handle = (function () {
-                var e;
-                return null === (e = VRHTML) || void 0 === e
-                  ? void 0
-                  : e.VROverlay.ThisOverlayHandle();
-              })()),
+              ? (a.properties.key = c)
+              : (a.properties.overlay_handle = (function () {
+                  var e;
+                  return null === (e = VRHTML) || void 0 === e
+                    ? void 0
+                    : e.VROverlay.ThisOverlayHandle();
+                })()),
           (a.properties.uv_min = null != (r = fe(this.m_UVsMin)) ? r : void 0),
           (a.properties.uv_max = null != (n = fe(this.m_UVsMax)) ? n : void 0),
           (a.properties.width = null != (i = this.props.width) ? i : void 0),

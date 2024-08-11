@@ -1,52 +1,37 @@
-"""
-"%s"
+ ( def. "%s" )
+ [%.3f server clamped to %.3f]
 "%s" = "%s"
-#
-#[
+"ikrig
 $ORIGIN
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %.15lf
 %02X
-%g
 %i %i %i %i
-%lg
 %lld
 %llu
-%s%d
-%s%s
-%s: string format requested %d chars
-%u
-&
-(
-( def. "%s" )
+%s: string format requested %d chars\n
 (None)
-*
 +inf
-,
--->
--1
 -avx
 -buildmachine
 -inf
 -sse2
 -sse3
 -sse4
-...
 ../../public/ordered_constructor.h
 ../public/tier1/utlrbtree.h
+.eB5
 .sapaths
 .sareverb
 .vmap
 /content/
 /game/
-0.0
 00000000-0000-0000-0000-000000000000
-1.0
 10ConCommand
+10IAppSystem
 11CSteamAudio
 11ISteamAudio
-128
 12CThreadEvent
 14CBaseAppSystemI11ISteamAudioE
 14ConCommandBase
@@ -66,7 +51,6 @@ $ORIGIN
 18CPlaceholderConVar
 18CSource3DProcessor
 1DBlend
-2.0
 2048
 20CPostConnectCallback
 21CSurfacePropDataTableI19CSteamAudioMaterialE
@@ -74,23 +58,22 @@ $ORIGIN
 23CSteamAudioMaterialList
 23IConCommandBaseAccessor
 25CSurfacePropDataTableBase
-3C
-4
-4C
-64
+2RD\n2
+5t~BC
+60-G/0
 65536
 6ConVar
 7IConVar
-<!--
+81Pl\v1
+8CFmtStrNILi256ELb0EE
+<"C_OP_RemapSpeedtoCP
 <deferred>
 <no deferred ref found>
 <no failure reason set>
 <null>
 <unconnected>
-=
->
-?
-A->B
+?true
+@lowFreqAbsorption
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
 AE_CL_ADD_PARTICLE_EFFECT_CP
@@ -125,10 +108,11 @@ AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 AbsolutePoseControl
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+AddRef
 AnimAddLayer
 AnimAlign
 AnimAutoLayer
@@ -158,7 +142,6 @@ AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
-B->C
 Bad header (unrecognized encoding specifier)
 Bad header format (expected ':'
 Bad header format (expected '<!--'
@@ -175,8 +158,8 @@ Bad header format (no closing marker)
 Bad header: invalid binary marker
 Bad header: invalid compression header
 Bad header: unrecognized encoding id
-Baked path data (%d bytes).
-Baked reverb (%d bytes).
+Baked path data (%d bytes).\n
+Baked reverb (%d bytes).\n
 BakedLODBuilderMgr001
 BaseIKRig
 BasePhysicsShape
@@ -189,9 +172,6 @@ BodyGroupChoice
 BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
-C
-C->D
-C->E
 CAuthPhysBody
 CAuthPhysJoint
 CBufferString::Concat(char const*, char const*, ...)
@@ -199,8 +179,8 @@ CBufferString::Format(char const*, ...)
 CBufferString::Insert(int, char const*, int, bool)
 CBufferString::Purge(int)
 CBufferString::Relinquish(CBufferString::EAllocationOption_t)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CMemAllocSystemInitialize
 COLLISION_MODE_INITIAL_TRACE_DOWN
 COLLISION_MODE_PER_FRAME_PLANESET
@@ -209,6 +189,7 @@ COLLISION_MODE_USE_NEAREST_TRACE
 COLORCORRECTION_VERSION_1
 CONTENT
 CParticleSystemDefinition
+CSolveIKChainAnimNode
 CThreadEvent::CThreadEvent(bool)
 CThreadEvent::CThreadEvent(char const*, bool, bool)
 CThreadEvent::Check()
@@ -227,8 +208,8 @@ CThreadSyncObject::Wait(unsigned int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CXXABI_1.3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -324,8 +305,8 @@ CommandLine
 CommandProcedure
 CommandProcedureList
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
 ConfigAttachedModel
 ConfigurationSystem_001
 ConnectInterfaces
@@ -333,7 +314,7 @@ Controls what IR reconstruction method is used. 0 = Gaussian, 1 = Gaussian with 
 Controls what phase is used when mix = 0. 0 = no phase, 1 = sphere ITD, 2 = full HRTF phase.
 CreateInterface
 Cycle or diamond double-reference to '%s'
-D,G
+D40]T30L
 DebugTextureInfo001
 Decompression failure
 Default
@@ -342,6 +323,7 @@ DevMsg(char const*, ...)
 DotaCardGameClient_001
 Double-register of KV3 conversion (from '%s' to '%s')
 DynamicConfigList
+E3:0
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -367,9 +349,9 @@ Expected member name or '}'
 Expected token
 Expected type of next member
 Expected value or ']'
-Exported scene as OBJ to %s.
-Exported scene as PHONONSCENE to %s.
-FATAL ERROR: unable to register all schema data: %s
+Exported scene as OBJ to %s.\n
+Exported scene as PHONONSCENE to %s.\n
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
 FRAME_NET_BLOCKING_LOAD_SPAWN_GROUP
 FRAME_NET_POST_PROCESS_NETWORKING
@@ -382,22 +364,21 @@ FRAME_NET_UPDATE_PREDICTION
 FRAME_NET_UPDATE_START
 FRAME_SIMULATE
 Failed to assign bool literal value
+Failed to convert KV3 to string; error: %s\n
 Failed to open file
 FlattenedSerializersVersion001
 FontManager_001
 FormatV
-G->B
 GAME
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GLIBCXX_3.4
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
-Generated %d probes with %.2f spacing and %.2f height.
+Generated %d probes with %.2f spacing and %.2f height.\n
 GenericGameData
 GetCPUInformation
 GetCStringCharConversion
@@ -429,11 +410,11 @@ If set, reverb tail overrides are controlled using convars instead of vmix contr
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid compressed buffer size
 Invalid data for member '%s'
 Invalid data.
@@ -452,6 +433,7 @@ LoggingSystem_Log
 LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ...)
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
+LrwcE
 MATCHFRAMEWORK_001
 MNetworkBitCount
 MNetworkChangeCallback
@@ -466,6 +448,7 @@ MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
 MathLib_Init
+MbP?+
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -498,7 +481,7 @@ Newline in string literal
 No Buffer
 No valid format conversion from '%s' to '%s'
 NoPoseControl
-P@
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
@@ -518,13 +501,13 @@ PVEC_TYPE_LITERAL_COLOR
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-Parse error on %s: %s
+Parse error on %s: %s\n
 ParticleSystemMgr003
-Pathing: Filesystem not initialized.
-Pathing: Loaded baked data file (%s).
-Pathing: Unable to create path simulator: %d.
-Pathing: Unable to load baked data file (%d: %s).
-Pathing: Unable to read from baked data file (%s). Pathing disabled.
+Pathing: Filesystem not initialized.\n
+Pathing: Loaded baked data file (%s).\n
+Pathing: Unable to create path simulator: %d.\n
+Pathing: Unable to load baked data file (%d: %s).\n
+Pathing: Unable to read from baked data file (%s). Pathing disabled.\n
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
 PhysicsBoneMarkup
@@ -547,21 +530,22 @@ Plat_IsInDebugSession
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
+Po5H
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
 PreviewBoneMergedModel
 PreviewPreset
 PreviewPresetList
-Probes: Filesystem not initialized.
-Probes: Mising baked reverb data - %s.
-Probes: Reverb needs to be baked before Path baking.
+Probes: Filesystem not initialized.\n
+Probes: Mising baked reverb data - %s.\n
+Probes: Reverb needs to be baked before Path baking.\n
 PropertyEditorSystem_001
 QueuedLoaderVersion001
 RandomFloat
 RandomSeed
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterFormatConversion
 RegisterStringToken
 Release
@@ -591,12 +575,13 @@ Reverb time (high-frequency).
 Reverb time (low-frequency).
 Reverb time (mid-frequency).
 Reverb time scale factor.
-Reverb: Create reverb processor using baked simulation.
-Reverb: Create reverb processor using realtime simulation.
-Reverb: Filesystem not initialized.
-Reverb: Loaded baked data file (%s).
-Reverb: Unable to load baked data file (%s).
-Reverb: Unavailable, reverb is not baked for this map.
+Reverb: Create reverb processor using baked simulation.\n
+Reverb: Create reverb processor using realtime simulation.\n
+Reverb: Filesystem not initialized.\n
+Reverb: Loaded baked data file (%s).\n
+Reverb: Unable to load baked data file (%s).\n
+Reverb: Unavailable, reverb is not baked for this map.\n
+S+Ot
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
@@ -657,33 +642,34 @@ ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
+Trailing Data
 Truncated data
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
 UPDATE_STRING_TOKEN_DATABASE
-Unable to create custom environment: %d.
-Unable to create custom environmental renderer: %d.
-Unable to create custom scene: %d.
-Unable to create environment: %d.
-Unable to create environmental renderer: %d.
-Unable to create scene: %d.
-Unable to create static mesh: %d.
+Unable to create custom environment: %d.\n
+Unable to create custom environmental renderer: %d.\n
+Unable to create custom scene: %d.\n
+Unable to create environment: %d.\n
+Unable to create environmental renderer: %d.\n
+Unable to create scene: %d.\n
+Unable to create static mesh: %d.\n
 Unable to determine buffer encoding.
-Unable to write file '%s'
+Unable to write file '%s'\n
 Unexpected end of file
 Unrecognized flag name '%s'
 Unrecognized type '%d'
 Unresolved object reference '%s'
 Unsupported text encoding id.
-Usage: snd_steamaudio_hrtf_mixphasetype <0|1|2>.
-Usage: snd_steamaudio_hybrid_reverb_transition_time <time in seconds>.
-Usage: snd_steamaudio_pathing_findalternate <0|1>.
-Usage: snd_steamaudio_pathing_fullprobevalidation <0|1>.
-Usage: snd_steamaudio_pathing_probevalidationfromlistener <0|1>.
-Usage: snd_steamaudio_pathing_probevalidationfromsource <0|1>.
-Usage: snd_steamaudio_pathing_simplifypaths <0|1>.
-Usage: snd_steamaudio_reconstruction_method <0|1|2>.
-Usage: snd_steamaudio_use_hybrid_reverb <0|1>.
+Usage: snd_steamaudio_hrtf_mixphasetype <0|1|2>.\n
+Usage: snd_steamaudio_hybrid_reverb_transition_time <time in seconds>.\n
+Usage: snd_steamaudio_pathing_findalternate <0|1>.\n
+Usage: snd_steamaudio_pathing_fullprobevalidation <0|1>.\n
+Usage: snd_steamaudio_pathing_probevalidationfromlistener <0|1>.\n
+Usage: snd_steamaudio_pathing_probevalidationfromsource <0|1>.\n
+Usage: snd_steamaudio_pathing_simplifypaths <0|1>.\n
+Usage: snd_steamaudio_reconstruction_method <0|1|2>.\n
+Usage: snd_steamaudio_use_hybrid_reverb <0|1>.\n
 UserInfoChangeService_001
 VApplication001
 VAvi001
@@ -776,21 +762,18 @@ V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 VisBuilder_001
+W1rGP1
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.\n
 WeightList
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-[
-[%.3f server clamped to %.3f]
-\"
-\"""
-\'
 \content\
 \game\
-\n
-\t
+\n09N
+\nCwf\r
+]y0Z
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -852,6 +835,7 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
+bt3V
 burst_randomize
 burst_scale
 cable
@@ -892,7 +876,6 @@ explosion_delay
 explosion_type
 explosive_damage
 explosive_radius
-eye
 faceMergeAngle
 false
 floor
@@ -933,6 +916,7 @@ highFreqAbsorption
 highFreqTransmission
 hurt_me
 hurt_them
+i2t<f2R
 ikdata
 interfaces.cpp
 invalid_bone
@@ -993,9 +977,10 @@ iplSetReverbTimeOverridesForConvolutionEffect
 iplSetValue
 iplSimulatePaths
 is_debris
-kv3
 kv3format_manager.cpp
+l0\f$f0 
 last_sniff
+lcQe
 ld-linux-x86-64.so.2
 length
 libc.so.6
@@ -1013,6 +998,7 @@ loop_break_on_flashlight
 loop_in_action
 looping
 lowFreqTransmission
+mXr4
 m_Bone
 m_ChainData
 m_Children
@@ -1137,7 +1123,6 @@ maps/
 master_morph_weight
 material
 mathlib.cpp
-max. %f
 maxHullVertices
 maxVerticesPerHull
 max_angle
@@ -1150,7 +1135,6 @@ mesh
 meshes
 midFreqAbsorption
 midFreqTransmission
-min. %f
 min_angle
 model_name
 modeldoc0
@@ -1183,7 +1167,7 @@ modeldoc7
 modeldoc8
 modeldoc9
 multiplayer_break
-nan
+n\f"pA3Q
 nav_attribute_avoid
 nav_data
 none
@@ -1218,6 +1202,7 @@ pthread_mutex_lock
 pthread_mutex_unlock
 pthread_mutexattr_init
 pthread_mutexattr_settype
+qa1-x]1
 radius0
 radius1
 recenter_on_parent_bone
@@ -1277,7 +1262,7 @@ speed
 sqrtf
 ss_added
 std::__throw_length_error(char const*)
-std::vector<unsigned short, std::allocator<unsigned short> >::_M_default_append(unsigned long)
+std::vector<unsigned short, std::allocator<unsigned short>>::_M_default_append(unsigned long)
 steamaudio
 steamaudio.cpp
 stop_immediately
@@ -1296,6 +1281,7 @@ text
 texturescale
 turn_rate
 typeinfo for CThreadSyncObject
+u0+!n0
 use_additional_offset
 user
 utlstring.cpp
@@ -1343,12 +1329,10 @@ vtable for __cxxabiv1::__vmi_class_type_info
 wcscmp
 wcslen
 width
-yaw
 yaw_end
 yaw_start
+z:KEZ
 zero
-{
-{}()':
-|
-}
-C
+{YIN?
+{}[]()=&, \t\n'"*;
+{}[]=, \t\n'":|;

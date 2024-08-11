@@ -1,49 +1,44 @@
-$tI
-%%.%if%s
-%*s%s %s --> %d blocks = %s (%s larger)
-%*s%s %s --> %d blocks = %s (new)
-%.1f pct of time accounted for
+       Sum (ms)         Avg Time/Frame (ms)     Avg Time/Call (ms)\n
+  %10.3f %6.2f      %10.3f %6.2f      %10.3f %6.2f   %6d %6.2f
+  %10.3f %6.2f      %6d
+  %52s%12d%12.3f%6.2f%%%12.3f%6.2f%%%12.3f%12.3f%12.3f\n
+  ---------- ------      ---------- ------      ---------- ------   ------ ------\n
+  ---------- ------      ------\n
+  ---------------------------------------------------- ----------- ----------- ------ ----------- ------ ----------- ----------- -----------\n
+  Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak\n
+ - file:%s, line:%u ,time:%04u%02u%02u%02u%02u%02u\n
+ Avg Time/Frame (ms)\n
+ GiB
+ KiB
+ MiB
+ bytes
+%*s%s %s --> %d blocks = %s (%s larger)\n
+%*s%s %s --> %d blocks = %s (new)\n
+%.1f pct of time accounted for\n
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
-%10.3f %6.2f      %10.3f %6.2f      %10.3f %6.2f   %6d %6.2f
-%10.3f %6.2f      %6d
-%52s%12d%12.3f%6.2f%%%12.3f%6.2f%%%12.3f%12.3f%12.3f
-%d frames sampled for %.2f seconds
-%d validator nodes, %d nodes larger than %s
+%d frames sampled for %.2f seconds\n
+%d validator nodes, %d nodes larger than %s\n
 %d.%d.%d.%d:%d
-%i%s
-%lf
-%p
-%s %i %s
-%s (%d) :
-%s --> %d blocks = %s
+%s --> %d blocks = %s\n
 %s/.steam/steam
-%u
-(%zu) Descend: %s, (%s), %s
-(%zu) readdir failed to find '%s' in '%s'
-*
-***** OUT OF MEMORY! attempted allocation size: %zu ****
-- file:%s, line:%u ,time:%04u%02u%02u%02u%02u%02u
--- Hierarchical Call Graph --
+(%zu) Descend: %s, (%s), %s\n
+(%zu) readdir failed to find '%s' in '%s'\n
+***** OUT OF MEMORY! attempted allocation size: %zu ****\n
+-- Hierarchical Call Graph --\n
 -- Profile scopes sorted by average time (including children) --
 -- Profile scopes sorted by average time (without children) --
 -- Profile scopes sorted by peak --
 -- Profile scopes sorted by peak over average (including children) --
 -- Profile scopes sorted by time (including children) --
 -- Profile scopes sorted by time (without children) --
--- Summary --
----------- ------      ------
----------- ------      ---------- ------      ---------- ------   ------ ------
----------------------------------------------------- ----------- ----------- ------ ----------- ------ ----------- ----------- -----------
+-- Summary --\n
 -debugbreak
 -hometest
 -noassert
 -nocrashdialog
 -stack=
 -steamos
-.
-/
-/e%s%s
 /home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/threadtools.h
 /home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/vprof.h
 /proc
@@ -59,12 +54,14 @@ $tI
 <family %u, %u bytes>
 <no address info>
 <unknown>
+>valobject.cpp
+?memblockhdr.cpp
+@/proc/%d/status
 AllocateCrashMemoryReserve
 Anonymous mutex cannot have bAllAccess == true
-Apr
 Apr  9 2018
 AreStackTrackingFiltersEnabledAtStart
-Assert( %s ):%s:%d
+Assert( %s ):%s:%d\n
 AssertMsgImplementation
 Assertion Failed: !"couldn't read cpu information from /proc/cpuinfo"
 Assertion Failed: !m_bJustCount
@@ -102,10 +99,9 @@ Assertion Failed: ret == 0
 Assertion Failed: stack%2d: %s
 Assertion Failed: stack%2d: 0x%llX
 Attempting to create a named event with a null name
-Aug
 AuthenticAMD
-Average %.2f fps, %.2f ms per frame
-Avg Time/Frame (ms)
+Average %.2f fps, %.2f ms per frame\n
+B-steamconsole
 BBlockingGetMiniDumpLock
 BGetLocalFQDN
 BGetMiniDumpLock
@@ -113,14 +109,15 @@ BWritingFatalMiniDump
 BWritingMiniDump
 BWritingNonFatalMiniDump
 Bad thread local
-Breaking '%s' in '%s'
-Busy, please retry.
+Breaking '%s' in '%s'\n
+Busy, please retry.\n
 C-runtime internal
 CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(DbgFmtFatalMsgTag_t*, char const*, ...)
 CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
 CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(DbgFmtFatalMsgTag_t*, char const*)
 CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
 CPU_MHZ
+CTSListBase: Misaligned list\n
 CTSQueue bad node count
 CTSQueue bad peek pointer when empty
 CTSQueue bad tail pointer
@@ -130,7 +127,7 @@ CTSQueue m_HeadTailPair mismatch when empty
 CTier0::ValidateGlobals(CValidator&)
 CVProfNode
 CValidator
-CValidator : too many memory nodes to store, try again with a higher threshold value
+CValidator : too many memory nodes to store, try again with a higher threshold value\n
 CValidator::AddValidationLock(SteamThreadTools::CThreadMutex*)
 CValidator::BExcludeAllocationFromTracking(char const*, int)
 CValidator::CValidator(int, bool)
@@ -168,32 +165,30 @@ CatchAndWriteMiniDumpForVoidPtrFn
 ClearStackTrackingFilters
 ClearWritingMiniDump
 ClientDLL
-Compact is no longer supported
+Compact is no longer supported\n
 CrackSmokingCompiler
 CreateInterface
 CreateSimpleProcess
 CreateVProfile
+D(knN
 DBG_PATHMATCH
 DLog
 DONT_BREAK_ON_ASSERT
 DWarning
-Dec
 DeclareCurrentThreadIsMainThread
 Deleting thread object from the thread, this is bad
 DoNewAssertDialog
 EnableCrashingOnCrashes
 Encryption
 Error
-Exiting on SPEW_ABORT
+Exiting on SPEW_ABORT\n
 Failed to create thread (error 0x%x)
 Failed to generate callstack
 Fatal Assertion Failed: %s
 Fatal assert
-Fatal assert failed: %s, line %d.  Application exiting.
-Feb
+Fatal assert failed: %s, line %d.  Application exiting.\n
 FileSystem
 FreeCrashMemoryReserve
-GB
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
 GLIBCXX_3.4
@@ -206,7 +201,6 @@ GLIBC_2.3.2
 GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GameOverlayUI
 GetAvailableRAM
 GetCPUInformation()
@@ -223,15 +217,13 @@ GetSpewAndLogLevel
 GetSpewAndLogLevelByGroupIndex
 GetSpewOutputFunc
 GetStackTrackingFilter
-GiB
 HOME
 HasStackTrackingFilters
-IPC
 IVALIDATE001
-Ignoring resume of count %d
+Ignoring resume of count %d\n
 Illegal termination of worker thread '%s'
 InitPME
-InitVirtualHeap( %d ) called twice (%d, %d)
+InitVirtualHeap( %d ) called twice (%d, %d)\n
 InitializeStackTrackingFilters
 Invalid initial value for semaphore
 Invalid max value for semaphore
@@ -240,40 +232,28 @@ IsInAssert
 IsLogActive
 IsSpewActive
 IsStackTrackingFiltered
-Jan
 Jobs/Coroutines
-Jul
-Jun
-KB
-KiB
-Log
 Logger
-Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s
-Lowered '%s' -> '%s'
-MB
-Mar
-Matched '%s' -> '%s'
-May
+Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s\n
+Lowered '%s' -> '%s'\n
+Matched '%s' -> '%s'\n
+MbP?H
 MemFree:
 MemTotal:
-MiB
 MiniDumpUnlock
-Minidumps written:
-Msg
+Minidumps written:\n
+N16SteamThreadTools7CThreadE
 Network
 No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
-No samples during profile period.
-No tracked allocs currently in use. Total %d
-Nov
+No samples during profile period.\n
+No tracked allocs currently in use. Total %d\n
 OUT OF MEMORY
-Oct
 Only thread can stop self: Use a higher-level protocol
-Out of thread local storage!
+Out of thread local storage!\n
 OverlayInput
 OverlayRendering
-P2P
 POSIX does not support inheriting full mutexes
-Peak %.2f ms frame
+Peak %.2f ms frame\n
 Plat_AbsoluteTime
 Plat_AbsoluteTimeToFloat
 Plat_Alloc
@@ -315,15 +295,14 @@ Plat_localtime
 Plat_timegm
 Plat_timezone
 Probably deadlock or failure waiting for thread to initialize.
+QkkXa
 RealGetCallStack
 RealPrintCallStack
 RealPrintRawCallStack
 ReleaseThreadHandle
 Root
 RunCallbacks
-Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak
 Semaphore name (%s) is longer than POSIX can handle, truncating.
-Sep
 ServerMain
 SetAssertDumpStack
 SetAssertFailedNotifyFunc
@@ -347,8 +326,8 @@ SpewAndLogChangeIfStillDefault
 SpewChangeIfStillDefault
 SpewOutputFunc
 SpewWrittenMiniDumps
-Stack%2d: %s
-Stack%2d: 0x%llX
+Stack%2d: %s\n
+Stack%2d: 0x%llX\n
 SteamRealPath
 SteamThreadTools::CThread::BHasValidThreadID() const
 SteamThreadTools::CThread::CThread()
@@ -457,7 +436,6 @@ SteamVProf::CVProfile::Validate(CValidator&, char const*)
 SteamVProf::CVProfile::~CVProfile()
 SteamVProf::CVProfileArray::~CVProfileArray()
 Streaming
-Sum (ms)         Avg Time/Frame (ms)     Avg Time/Call (ms)
 TSListBase_Init
 TSListBase_Pop
 TSListBase_Push
@@ -480,8 +458,8 @@ Test_RunTest
 Test_SetFailed
 Test_TerminateThread
 Thread cannot be joined with self
-Thread did nothing but sleep during profile period.
-Thread failed to initialize
+Thread did nothing but sleep during profile period.\n
+Thread failed to initialize\n
 Thread synchronization object is unuseable
 Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
@@ -529,28 +507,35 @@ ThreadTerminate
 ThreadTerminateProcessCode
 ThreadWaitForProcessExit
 ThreadWorkItem
-Total bytes allocated (os heap reported): %s
-Total bytes allocated counted: %s
+Total bytes allocated (os heap reported): %s\n
+Total bytes allocated counted: %s\n
 TracerPid:
-Tracked allocs currently in use. %d Total %d
+Tracked allocs currently in use. %d Total %d\n
 Tried to create a thread that has already been created!
 USER
-Unable to determine CPU Frequency. Try defining CPU_MHZ.
+Unable to determine CPU Frequency. Try defining CPU_MHZ.\n
 Unaccounted
-Unmatched %s
+Unmatched %s\n
 VGUI
-VPROF Report for Thread: %d - %s
-Validate Failed: Leaked connection %u
-Validate Failed: Leaked file %p
-Validate Failed: Leaked socket %p
+VPROF Report for Thread: %d - %s\n
+Validate Failed: !!!Leaked:\t%llu %s%s\n
+Validate Failed: Leaked connection %u\n
+Validate Failed: Leaked file %p\n
+Validate Failed: Leaked socket %p\n
 ValidateSpew
 Warning
 WriteMiniDump
-[ func+child   func ]     Count
-[ func+child   func ]  [ func+child   func ]  [ func+child   func ]  Count   Peak
+[ func+child   func ]     Count\n
+[ func+child   func ]  [ func+child   func ]  [ func+child   func ]  Count   Peak\n
+\t%s - %s:%d\n
+\t(%zu) comparing %s with %s\n
+\tValidate Failed: leaked connection to %s\n
+\tValidate Failed: leaked file '%s'\n
+\tValidate Failed: leaked socket remote address %s\n
 _DMsg
 _DSpewMessage
 _ExitOnFatalAssert
+_ExitOnFatalAssert\n
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -656,7 +641,6 @@ backtrace
 backtrace@@GLIBC_2.2.5
 backtrace_symbols
 backtrace_symbols@@GLIBC_2.2.5
-bytes
 ceil
 ceil@@GLIBC_2.2.5
 ceilf
@@ -691,7 +675,7 @@ dlopen@@GLIBC_2.2.5
 dlsym
 dlsym@@GLIBC_2.2.5
 externaltests.so
-false
+false 
 fclose
 fclose@@GLIBC_2.2.5
 fgets
@@ -737,7 +721,7 @@ gmtime_r@@GLIBC_2.2.5
 gnu_get_libc_version
 gnu_get_libc_version@@GLIBC_2.2.5
 gsoapwrapper.so
-item %p sentinel corrupted. skipping.
+item %p sentinel corrupted. skipping.\n
 kill@@GLIBC_2.2.5
 lchown
 lchown@@GLIBC_2.2.5
@@ -991,11 +975,8 @@ vtable for SteamThreadTools::CThread
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtune
-wa+
 waitpid
 waitpid@@GLIBC_2.2.5
 x86_64
 xlocale
 xmemory
-zD
-|

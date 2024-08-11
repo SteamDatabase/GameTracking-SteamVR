@@ -499,12 +499,12 @@
       return r.bShouldAbort
         ? null
         : n
-        ? (i.length > 0 && (n.children = i), [n])
-        : i.length > 0
-        ? 1 == i.length
-          ? i
-          : [{ children: i }]
-        : null;
+          ? (i.length > 0 && (n.children = i), [n])
+          : i.length > 0
+            ? 1 == i.length
+              ? i
+              : [{ children: i }]
+            : null;
     }
     let x,
       N,
@@ -1029,13 +1029,13 @@
           c && c.length > 0
             ? (a.properties.key = c)
             : d
-            ? (a.properties.key = d)
-            : (a.properties.overlay_handle = (function () {
-                var e;
-                return null === (e = VRHTML) || void 0 === e
-                  ? void 0
-                  : e.VROverlay.ThisOverlayHandle();
-              })()),
+              ? (a.properties.key = d)
+              : (a.properties.overlay_handle = (function () {
+                  var e;
+                  return null === (e = VRHTML) || void 0 === e
+                    ? void 0
+                    : e.VROverlay.ThisOverlayHandle();
+                })()),
           (a.properties.uv_min = null != (r = be(this.m_UVsMin)) ? r : void 0),
           (a.properties.uv_max = null != (n = be(this.m_UVsMax)) ? n : void 0),
           (a.properties.width = null != (i = this.props.width) ? i : void 0),
@@ -3686,10 +3686,10 @@
         return e == Y.Near
           ? 0.925
           : e == Y.Screenshot_Only
-          ? 5
-          : e == Y.Middle
-          ? 1.05
-          : 1.2;
+            ? 5
+            : e == Y.Middle
+              ? 1.05
+              : 1.2;
       }
       static getDashboardVerticalPosition() {
         var e;
@@ -3703,10 +3703,10 @@
         return r == Y.Screenshot_Only
           ? -0.57
           : r == Y.Near
-          ? -0.07 + t
-          : r == Y.Middle
-          ? -0.08 + t
-          : -0.09 + t;
+            ? -0.07 + t
+            : r == Y.Middle
+              ? -0.08 + t
+              : -0.09 + t;
       }
       static getDashboardScale() {
         var e, t;
@@ -3940,8 +3940,8 @@
         (l = s
           ? Object(d.c)("#Exit_SteamVR_Home")
           : o
-          ? Object(d.c)("#PowerMenuQuitSceneApp", o)
-          : Object(d.c)("#PowerMenuQuitSceneApp_NoApp")),
+            ? Object(d.c)("#PowerMenuQuitSceneApp", o)
+            : Object(d.c)("#PowerMenuQuitSceneApp_NoApp")),
           (p = s
             ? "/dashboard/images/icons/svr_svrhome_quit_alt.svg"
             : "/dashboard/images/icons/svr_app_quit.svg");
@@ -4116,8 +4116,8 @@
           this.screenshotMode
             ? Object(i.eb)(0)
             : n && !t
-            ? Object(i.eb)(this.isDarkMode ? 0.02 : 0.15)
-            : Object(i.eb)(1);
+              ? Object(i.eb)(this.isDarkMode ? 0.02 : 0.15)
+              : Object(i.eb)(1);
         } else Object(i.eb)(1);
         const t = this.state.sActiveOverlayID
             ? this.state.sActiveOverlayID.split("::")[0]
@@ -5408,21 +5408,21 @@
                 ? r.input_bindingui_left.transform
                 : ""))
             : "/user/hand/right" == this.props.devicePath
-            ? r.input_bindingui_right &&
-              ((e = r.input_bindingui_right.uri),
-              (t = r.input_bindingui_right.transform
-                ? r.input_bindingui_right.transform
-                : ""))
-            : r.input_bindingui_left
-            ? ((e = r.input_bindingui_left.uri),
-              (t = r.input_bindingui_left.transform
-                ? r.input_bindingui_left.transform
-                : ""))
-            : r.input_bindingui_right &&
-              ((e = r.input_bindingui_right.uri),
-              (t = r.input_bindingui_right.transform
-                ? r.input_bindingui_right.transform
-                : "")),
+              ? r.input_bindingui_right &&
+                ((e = r.input_bindingui_right.uri),
+                (t = r.input_bindingui_right.transform
+                  ? r.input_bindingui_right.transform
+                  : ""))
+              : r.input_bindingui_left
+                ? ((e = r.input_bindingui_left.uri),
+                  (t = r.input_bindingui_left.transform
+                    ? r.input_bindingui_left.transform
+                    : ""))
+                : r.input_bindingui_right &&
+                  ((e = r.input_bindingui_right.uri),
+                  (t = r.input_bindingui_right.transform
+                    ? r.input_bindingui_right.transform
+                    : "")),
           e
             ? o.createElement(
                 "div",
@@ -6928,16 +6928,16 @@
               ? "images/icons/controller_model_charging_red.png"
               : "images/icons/controller_model_charging.png"
             : 0 == r
-            ? null
-            : r < 0.15
-            ? "images/icons/controller_model_low.png"
-            : r < 0.3
-            ? "images/icons/controller_model_battery_1.png"
-            : r < 0.6
-            ? "images/icons/controller_model_battery_2.png"
-            : r < 0.9
-            ? "images/icons/controller_model_battery_3.png"
-            : "images/icons/controller_model_battery_4.png"
+              ? null
+              : r < 0.15
+                ? "images/icons/controller_model_low.png"
+                : r < 0.3
+                  ? "images/icons/controller_model_battery_1.png"
+                  : r < 0.6
+                    ? "images/icons/controller_model_battery_2.png"
+                    : r < 0.9
+                      ? "images/icons/controller_model_battery_3.png"
+                      : "images/icons/controller_model_battery_4.png"
           : null;
       }
       OnBatteryStateChanged(e) {

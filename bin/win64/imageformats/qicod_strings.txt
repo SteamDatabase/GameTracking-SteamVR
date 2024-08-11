@@ -1,14 +1,4 @@
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
- 5Auth
- 5Genu
- H3D$0H
- HcD$4Hk
-!This program cannot be run in DOS mode.
 !weakref.load()
-$Hc@<H
-(HcL$4Hk
-,W?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
-.00cfg
 .?AVQICOPlugin@@
 .?AVQImage@@
 .?AVQImageIOHandler@@
@@ -20,264 +10,30 @@ $Hc@<H
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.pdata
-.text
-0Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-8 uOH
-9D$ }.D
-9D$(}MH
-9D$<}3
-9D$H}
-:S?setAlphaChannel@QImage@@QEAAXAEBV1@@Z
-:V?setText@QImage@@QEAAXAEBVQString@@0@Z
-??0QBuffer@@QEAA@PEAVQByteArray@@PEAVQObject@@@Z
-??0QByteArray@@QEAA@PEBDH@Z
-??0QByteArray@@QEAA@XZ
-??0QImage@@QEAA@$$QEAV0@@Z
-??0QImage@@QEAA@AEBV0@@Z
-??0QImage@@QEAA@HHW4Format@0@@Z
-??0QImage@@QEAA@XZ
-??0QImageIOHandler@@QEAA@XZ
-??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
-??0QMessageLogger@@QEAA@PEBDH0@Z
-??0QSize@@QEAA@HH@Z
-??0QString@@QEAA@VQLatin1String@@@Z
-??0QVariant@@QEAA@AEBVQSize@@@Z
-??0QVariant@@QEAA@XZ
-??1QBuffer@@UEAA@XZ
-??1QByteArray@@QEAA@XZ
-??1QImage@@UEAA@XZ
-??1QImageIOHandler@@UEAA@XZ
-??1QImageIOPlugin@@UEAA@XZ
-??1QString@@QEAA@XZ
-??4QImage@@QEAAAEAV0@$$QEAV0@@Z
-??4QImage@@QEAAAEAV0@AEBV0@@Z
-?append@QListData@@QEAAPEAPEAXXZ
-?at@QListData@@QEBAPEAPEAXH@Z
-?begin@QListData@@QEBAPEAPEAXXZ
-?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?constData@QByteArray@@QEBAPEBDXZ
-?convertToFormat@QImage@@QEGBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?createAlphaMask@QImage@@QEBA?AV1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?devType@QImage@@UEBAHXZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dispose@QListData@@QEAAXXZ
-?dispose@QListData@@SAXPEAUData@1@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?end@QListData@@QEBAPEAPEAXXZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fill@QImage@@QEAAXI@Z
-?fromData@QImage@@SA?AV1@AEBVQByteArray@@PEBD@Z
-?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?isEmpty@QByteArray@@QEBA_NXZ
-?isOpen@QIODevice@@QEBA_NXZ
-?isReadable@QIODevice@@QEBA_NXZ
-?isWritable@QIODevice@@QEBA_NXZ
-?number@QString@@SA?AV1@HH@Z
-?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
-?qt_assert@@YAXPEBD0H@Z
-?qt_assert_x@@YAXPEBD00H@Z
-?qt_check_pointer@@YAXPEBDH@Z
-?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
-?read@QIODevice@@QEAA_JPEAD_J@Z
-?shared_null@QListData@@2UData@1@B
-?size@QByteArray@@QEBAHXZ
-?size@QListData@@QEBAHXZ
-?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
-?ungetChar@QIODevice@@QEAAXD@Z
-?warning@QMessageLogger@@QEBAXPEBDZZ
-?write@QIODevice@@QEAA_JAEBVQByteArray@@@Z
-?write@QIODevice@@QEAA_JPEBD_J@Z
-@ kL$H
-@.data
-@.idata
-@.qtmetad{
-@.reloc
-@.rsrc
-CloseHandle
-CreateEventW
-D$ E3
-D$ H9D$(u
-D$ Hc@<H
-D$$HcD$$H
-D$(H9
-D$0#D$x
-D$0HcD$<H
-D$8Hc@
-D$8HcD$ H
-D$H9D$ s"
-D$HE3
-D$HH9D$PtEH
-D$PE3
-D$XH9D$0
-D$XHcD$8L
-D$`H9D$Xt!H
-D$`H9D$XtSH
-D$`HcD$4Hk
-D$hH9D$pt
-D$pHc@
-D$pk@
-DeleteCriticalSection
-DisableThreadLibraryCalls
-EnterCriticalSection
 F:\qt5\qtbase\plugins\imageformats\qicod.pdb
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetModuleHandleW
-GetProcAddress
-GetStartupInfoW
-GetSystemTimeAsFileTime
-H9D$ 
-H9D$ tZH
-H9D$ u
-H9D$Hr
-H9D$Hs
-H9D$h
-Hc@<H
-HcD$$L
-HcD$4H
-HcD$4Hk
-HcD$<Hk
-HcD$`H
-HcD$`L
-HcL$$H;
-HcL$4Hk
-HcL$8H;
-HcL$<H
-HcL$hH
-HcL$pH
 InitializeConditionVariable
-InitializeSListHead
-IsDebuggerPresent
-IsProcessorFeaturePresent
-J?hasAlphaChannel@QImage@@QEBA_NXZ
-JU?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
-K?height@QImage@@QEBAHXZ
-K?invertPixels@QImage@@QEAAXW4InvertMode@1@@Z
-KERNEL32.dll
-L$ H#
-L$ H3
-L$(H3
-L$0H3
-L$8H+
-L$8H3
-L$8HcI
-L$@H+
-L$@H3
-L$HH3
-L$PH3
-L$XH3
-L$XH9
-L?isNull@QImage@@QEBA_NXZ
-LeaveCriticalSection
-M?loopCount@QImageIOHandler@@UEBAHXZ
-MetaData
-MimeTypes
-N?metric@QImage@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
-O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-O?paintEngine@QImage@@UEBAPEAVQPaintEngine@@XZ
-P.tls
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-PX9D$H}
-Q?redirected@QPaintDevice@@MEBAPEAV1@PEAVQPoint@@@Z
+PNG\r\n
 QICOPlugin
-QICOPlugin1
 QList<T>::operator[]
-QTMETADATA  qbjs
-Qt5Cored.dll
-Qt5Guid.dll
 QtIcoHandler::canRead() called with no device
-QueryPerformanceCounter
-R?scaled@QImage@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
-R?scanLine@QImage@@QEAAPEAEH@Z
 RSDS%yUw
-ResetEvent
-RichY`
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlVirtualUnwind
-S?setColor@QImage@@QEAAXHI@Z
-S?setColorCount@QImage@@QEAAXH@Z
-SetEvent
-SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T$0H3
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-TerminateProcess
-U?setPixel@QImage@@QEAAXHHI@Z
-UnhandledExceptionFilter
 Unknown exception
-VCRUNTIME140D.dll
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WaitForSingleObjectEx
 WakeAllConditionVariable
-Z?width@QImage@@QEBAHXZ
-_CrtDbgReportW
-_CxxThrowException
-__C_specific_handler
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__vcrt_InitializeCriticalSectionEx
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
 _q_icoOrigDepth
-_register_onexit_function
-_seh_filter_dll
-`.rdata
 bad allocation
 bad array new length
 bool __cdecl QtIcoHandler::canRead(void) const
-className
-debug
 device
 f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qlist.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-ffffff
-iK?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
-image/vnd.microsoft.icon
 index out of range
-j	?bytesPerLine@QImage@@QEBAHXZ
-malloc
-memcmp
-memcpy
-memset
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qicod.dll
 qicohandler.cpp
 qt_plugin_instance
 qt_plugin_query_metadata
-strcmp
-strlen
 strongref.load() <= 0
-t*HcD$<Hk
-t_HcD$hH
-terminate
-ucrtbased.dll
-version
-yT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-zT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-|$$ t
-|nHcD$$H

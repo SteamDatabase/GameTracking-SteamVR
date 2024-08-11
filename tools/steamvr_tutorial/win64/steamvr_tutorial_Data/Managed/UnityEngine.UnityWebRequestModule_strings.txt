@@ -3,7 +3,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -49,12 +48,13 @@ $UnityEngine.UnityWebRequestWWWModule
 &UnityEngine.PerformanceReportingModule
 &UnityEngine.UnityWebRequestAudioModule
 (UnityEngine.UnityWebRequestTextureModule
+*Br9
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .cctor
 .ctor
-.text
 0Modules/UnityWebRequest/Public/UnityWebRequest.h
+0Y\f+8
 <Module>
 <Modules/UnityWebRequest/Public/UploadHandler/UploadHandler.h
 <disposeCertificateHandlerOnDispose>k__BackingField
@@ -63,7 +63,6 @@ $UnityEngine.UnityWebRequestWWWModule
 <webRequest>k__BackingField
 >Modules/UnityWebRequest/Public/UnityWebRequestAsyncOperation.h
 ?Modules/UnityWebRequest/Public/UploadHandler/UploadHandlerRaw.h
-@.reloc
 @Modules/UnityWebRequest/Public/DownloadHandler/DownloadHandler.h
 @Modules/UnityWebRequest/Public/UploadHandler/UploadHandlerFile.h
 Aborted
@@ -75,6 +74,7 @@ Append
 ArgumentException
 Assembly-CSharp-testable
 AudioType
+BSJB
 BeginWebRequest
 Byte2Hex
 ByteArrayContains
@@ -111,6 +111,7 @@ DownloadHandlerScript
 ENABLE_UNITYWEBREQUEST
 EditorBrowsableAttribute
 EditorBrowsableState
+Enum
 ExcludeFromDocsAttribute
 Exists
 FModules/UnityWebRequest/Public/DownloadHandler/DownloadHandlerBuffer.h
@@ -136,7 +137,6 @@ GetEnumerator
 GetError
 GetHTTPStatusString
 GetMethod
-GetProgress
 GetRedirectLimit
 GetRequestHeader
 GetResponseHeader
@@ -154,12 +154,14 @@ GetWebErrorString
 GoogleAR.UnityNative
 HTTPPostError
 Hash128
+Head
 Hex2Byte
 IDisposable
 IEnumerable`1
 IEqualityComparer`1
 IMultipartFormSection
 IndexOf
+Init
 Int32
 Int64
 IntPtr
@@ -181,12 +183,9 @@ InternalsVisibleToAttribute
 InvalidOperationException
 IsDone
 IsExecuting
-IsHttpError
 IsMatch
-IsModifiable
 IsNetworkError
 IsNullOrEmpty
-IsThreadSafe
 KeyValuePair`2
 LModules/UnityWebRequest/Public/CertificateHandler/CertificateHandlerScript.h
 List`1
@@ -195,6 +194,7 @@ LoginFailed
 MakeInitialUrl
 MakeUriString
 MalformattedUrl
+Math
 MemoryStream
 MoveNext
 MultipartFormDataSection
@@ -228,6 +228,7 @@ SSLCertificateError
 SSLCipherNotAvailable
 SSLNotSupported
 SSLShutdownFailed
+Send
 SendWebRequest
 SerializeFormSections
 SerializeSimpleForm
@@ -264,6 +265,7 @@ ToArray
 ToString
 ToUpper
 TooManyRedirects
+Trim
 URLDecode
 URLEncode
 UnEscapeURL
@@ -271,7 +273,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -377,8 +378,14 @@ WrapNonExceptionThrows
 Write
 WriteByte
 WriteError
+Zero
+\fIsModifiable
+\fIsThreadSafe
+\vGetProgress
+\vIsHttpError
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 append
 array
 audioType
@@ -405,6 +412,7 @@ encoding
 escapeChar
 fieldName
 fieldNames
+file
 fileNames
 filePath
 forbidden
@@ -469,7 +477,9 @@ get_url
 get_use100Continue
 get_useHttpContinue
 get_webRequest
+hash
 hexChars
+iXX\f
 index
 input
 kHttpVerbCREATE
@@ -491,11 +501,14 @@ mimeType
 mscoree.dll
 mscorlib
 multipartFormSections
+name
 newContentType
 nonReadable
+null
 offset
 op_Equality
 op_Inequality
+path
 postData
 preallocatedBuffer
 prependProtocol
@@ -504,6 +517,7 @@ qpForbidden
 qpSpace
 redirectUri
 request
+self
 set_Item
 set_certificateHandler
 set_chunkedTransfer

@@ -1,104 +1,31 @@
-								
-	#jT$
-	kE>fvw
                           
-        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  -0  Store only
-  -1  Compress faster
-  -9  Compress better
-  -a  Append to existing file.zip
-  -o  Overwrite existing file.zip
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 'L>[
- A^A\_
- A^A]A\
- A^A]_^]
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^]
- A_A^_
- A_][
- A__^][
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- H3E H3E
  Type Descriptor'
  deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
  delete
  delete[]
  inflate 1.2.5 Copyright 1995-2010 Mark Adler 
- new[]
- t38S<u
- tD8S4u
- tDE3
- tPD8k2u3H
- tQD8c:u0M
+ new
  throw(
  unzip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
- vJH+
  volatile
  zip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
-!,X< w
-!>6'Y
-!D$8I
-!D$HH
-!This program cannot be run in DOS mode.
-"f9;t
+!AxU
 #bML"
-'D8l$@
+%02X
+&Sgw
 ( 8PX
 ('8PW
-(A_A^A]]
-(A_A^_[
-(D$ @
-(D$ H
-(D$ f
-(D$0H
-(D$0f
-(D$0fA
-(D$@H
-(D$PL9t$0t6H
 (null)
-(t$0A
-(t$PH
-(t$`H
-(|$03
-(|$pL
-)>6{1n
-)D$@A
-)D87tf
-)L$PA
-)L$`H
-)L$pH
-)\ZEo^m/
-)t$@3
-)t$@E
+*5KS
 *StO9>T
-+M<7>
-+f)>0'
-+h->|
-,/<-w
-,0<	w
-,0<	w!A
-,0<	wGA
 ,<ellipsis>
-,I<%w
--D	c0
--uNI;
 .?AVDNameNode@@
 .?AVDNameStatusNode@@
 .?AVcharNode@@
@@ -106,602 +33,124 @@
 .?AVpairNode@@
 .?AVpcharNode@@
 .?AVtype_info@@
-.pdata
-.text
 .xJ>Hf
-/>58d%
-0A^A]_^]
-0A^_^
-0A_A\_
-0A_A]A\
-0A_A^A\
-0A_A^A\_^
-0A_A^A]A\_
-0A_A^A]A\_^]
-0A_A^_
-0A_A^_^]
+.zip
+/P8i
+/yQA
 0iN>/
-0t{A+
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.2.5
-1<.	/>:
+11Y@
 1A26b
 1wsHp
+37>k
 3>N;kU
 3>fvw
+52F*
 700PP
 700WP
-8$u*E
-80tWD
-8?u$H
-8@tJH
-8@tKH
-8@u<H
-8A]A\][
-8A_A^A]A\_^][
-8Jt/A
-8L$8t
-8L$Pt
-8Q4u;H
-8Q<u;H
-8Xu6H
-8Zu H
-8\$pt
-8\$xt
-8_^][
-9	t	H
-9	tGH
-9?uP3
-9t	A;
-9t$P~58
-9t$Xt
-9u@u	H
-9{|tk9{ 
-:u,f9Q
-;-uqA
-;.u1L
-;:u"H
-;:uLH
-;=u~H
-;H9>&X
-;\$ |
-;\$p|
-;\$xu
-<	w	@
-<	w*M
-< t;<	t7
-</assembly>
-<1~-<3~ <4t5<5t
-<?u7H
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<XuKH
-<_uoH
-<`t'!U
-<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+7~8A
+9a&g
 <ellipsis>
-<htr<jtb<lt6<tt&<wt
 <unknown>
+=87M
+=cQ6
 =imb;D
+>cQ6
 >jtm}S
-?)tnf9/t_
-?)tuf97tf
-?*u8H
-?*u:H
 ?7zQ6$
-?:kP<
-?Cu0f9w
-?H33H
-?QY^&
 ?UUUUUU
 ?f`Y4
-@.00cfg
-@.data
-@.gfids
-@.idata
-@.reloc
-@.rsrc
-@80u#H
-@8l$8t
-@8l$Ht
-@8q2u;H
-@8q4u;H
-@8q<u;H
-@8t$p@
-@8y2t
-@8y4t
-@8y:t
-@8y<t
-@8{ t9H
-@8|$Pt
-@8|$PtE
-@8|$PtG
-@8|$PtH
-@8|$PtJ
-@8|$PtN
-@8|$PtP
-@8|$^t
-@8}Ot
-@>%>b
-@A^A\_
-@A^A]_
-@A^_]
-@A^_^
-@A_A^A\_^[]
-@A_A^A]A\_
-@A_A^A]A\_^]
-@A_A^]
-@A_A^_
-@HcC(H
-@SAVH
-@SUATAUH
-@SUATAVAWH
-@SUAUH
-@SUAWH
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SUVWAWH
-@SUWH
-@SVWH
-@SWAVAWH
-@UATAUAVAWH
-@UATAVH
-@UAUAVAWH
-@UAVAWH
-@UAVH
-@USVWATAUAVAWH
-@USVWATAVAWH
-@USVWAVH
-@USVWH
-@USWAWH
-@USWH
-@UVATAVAWH
-@UVWAUAVH
-@UVWH
-@WATAUAVAWH
-@b;zO]
-A HcH
-A)|$HA
-A0H9i8u
-A0L9q8u
-A81t@@8r
-A84.u
-A86taH
-A96t"A
-A9D$|s[
-A9L$0
-A9L$H
-A9L$Lv$L
-A;L$0v#A
-A;L$HA
-A;t$Pr
+?qBJ
+?ysB
 A>pP&
-AA,A$
-AA< t(<#t
-AA<Fu
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ATAVAWH
-A]A\[]
-A^A\]
-A^_^[]
-A_A^A\
-A_A^A\^]
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^][
-A_A^A]A\]
-A_A^A]A\^
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^]
-A_A^_
-A_A^_^]
-A__[]
 April
 AreFileApisANSI
 Arg list too long
 August
-AuthE
-B8|09
-BC?>6t9^	c:>
+BC?>6t9^\tc:>
 BF>^G
 Bad address
 Bad file descriptor
 Broken pipe
-C HcU
-C HcU 
-C(D;C
-C(HcD$4H
-C(HcG
-C(L9p
-C0;C,s
-C0D9p<t
-C0D9p<tN
-C0H9K8u
-C0L9p
-C0L9p 
-C0L9p0
-C4;C,A
-C847u
-C8<(u
+C-Yn
 C:\build\output\Unity-Technologies\mono\msvc\build\bdwgc\x64\bin\Release\MonoPosixHelper.pdb
-CA,A$
-CA< t(<#t
-CloseHandle
 CloseZStream
 CompareStringEx
-CompareStringW
 CorExitProcess
-CreateFileW
-CreateThread
 CreateZStream
-CxD9ChD
-D#C|D
-D#G|D
-D#K|A
-D#K|D
-D$ E3
-D$ `3
-D$ f;
-D$$E3
-D$$f;
-D$(H9
-D$(H;
-D$(L9
-D$,E;
-D$,f;
-D$0H+
-D$0H;
-D$0H;G
-D$0HcH
-D$0f;
-D$0fD
-D$49C
-D$4f;
-D$8A;
-D$8D8t$8u_H
-D$8E3
-D$8H=
-D$8HcO(H
-D$8L9
-D$<f;
-D$@H+
-D$@H;
-D$@H;G
-D$@f;
-D$@fD
-D$A:.
-D$DE3
-D$Df;
-D$H9D$ s"
-D$HE3
-D$Lf;
-D$P I
-D$PA#
-D$PH+
-D$PHc
-D$PHcX H
-D$PI;
-D$Pf;
-D$RH;
-D$Tf;
-D$XD8p
-D$XD90}
-D$Xf;
-D$`E3
-D$`H;
-D$`f;
-D$hA+
-D$hD;
-D$hf;
-D$lf;
-D$pf;
-D$tA9D$|
-D$xE3
-D$xfD
-D$|A;D$p
-D$|A;D$pr
-D$|fE
-D(8Ht}
-D)ChD)CxD
-D)p(H
-D+d$,H
-D08@t	
-D18 t
-D8(t[H
-D8.tnH
-D82u&H
-D83t	H
-D84;u
-D88Ht
-D88Ht!
-D88Hte
-D88tT3
-D8Y:uEH
-D8a:uDH
-D8c:u
-D8d$H
-D8d$Ht
-D8d$ht
-D8d$pt
-D8i2u;H
-D8k2u
-D8l$@t
-D8l$ht
-D8t$8t
-D8t$Ht
-D8t$XuJ
-D8|$Pt
-D8}/t
-D98Ht;H
-D9ewA
-D9s(t)H
-D9s,u
-D9|$ 
-D<P0I
-DD$$H
 December
-DeleteCriticalSection
 Directory not empty
 Domain error
-Dt$(D+
-E(9p(u
-E)l$HL
-E)|$HD
-E+BHI
-EP*?@
-EP<0u
-EnterCriticalSection
+ET5>
 EnumSystemLocalesEx
-EnumSystemLocalesW
-Error allocating memory
+Error allocating memory\n
 EventRegister
 EventSetInformation
 EventUnregister
 EventWriteTransfer
 Exec format error
-ExitProcess
-F H+F
-F()h(H
-F(D)p(H
-F(D9p(u
+FEMh\f
 February
 File exists
 File too large
-FileTimeToDosDateTime
-FileTimeToLocalFileTime
-FileTimeToSystemTime
 Filename too long
-FindClose
-FindFirstFileExA
-FindFirstFileExW
-FindFirstFileW
-FindNextFileA
-FindNextFileW
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
 Flush
-FlushFileBuffers
-FreeEnvironmentStringsW
-FreeLibrary
 Friday
-Ft4D+
 Function not implemented
-G84/u
-GL$HA)L$HD+
-Genu3
-GetACP
 GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetCommandLineW
-GetConsoleCP
-GetConsoleMode
-GetCurrentDirectoryW
 GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThread
-GetCurrentThreadId
 GetDateFormatEx
-GetDateFormatW
-GetDriveTypeW
 GetEnabledXStateFeatures
-GetEnvironmentStringsW
-GetFileAttributesExW
 GetFileInformationByHandleEx
-GetFileType
-GetFullPathNameA
-GetFullPathNameW
 GetLastActivePopup
-GetLastError
 GetLocaleInfoEx
-GetLocaleInfoW
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetProcAddress
-GetProcessHeap
 GetProcessWindowStation
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemTimeAsFileTime
 GetSystemTimePreciseAsFileTime
-GetTempPathW
 GetTimeFormatEx
-GetTimeFormatW
-GetTimeZoneInformation
-GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 GetXStateFeaturesMask
-H!D$ E
-H!D$ I
-H!T$0D
-H&fD;
+H$6t
 H*0"ZOW
-H9(tAH
-H9)u!
-H91u"
-H99u"
-H9A u
-H9L$Ht?H
-H9\$X
-HA_A]A\_^[
-HA_A^_[
-HFfD;
 HH:mm:ss
-H_^[]
-HcA<H
-HcB H
-HcC0H
-HcD$P
-HcG(H
-HcH<H
-Hc]`M
-HeapAlloc
-HeapFree
-HeapReAlloc
-HeapSize
-Ht)I;
-HvfD;
-I LcA
-I96t4H
-I96t:H
-I96tn
-I9\$ ~@H
 IND)ind)
 INITY
 IiGM>nw
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
-InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
-InitializeSListHead
 Input/output error
-InterlockedFlushSList
-InterlockedPushEntrySList
 Interrupted function call
 Invalid argument
 Invalid seek
 Is a directory
-IsDebuggerPresent
-IsProcessorFeaturePresent
-IsValidCodePage
-IsValidLocale
 IsValidLocaleName
-J;D10t	H
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
-K H9K0u
-K&>.yC
-K,D9s(A
-K0HcU
-K0HcU 
-KERNEL32.dll
-K~Je#>!
-L$ E3
-L$ H3
-L$ SH
-L$ SUVWH
-L$ SVWH
-L$ UH
-L$ UVWATAUAVAWH
-L$ VWATAVAWH
-L$ VWAVH
-L$ WATAUAVAWH
-L$ WH
-L$ f;
-L$$f;
-L$&@8t$&t0@8q
-L$(H3
-L$(L+
-L$,f;
-L$0)y
-L$0H3
-L$0H;
-L$0H;K
-L$0Hc
-L$0M;
-L$0f;
-L$4f;
-L$8E3
-L$8H3
-L$8Lc
-L$<f;
-L$@E3
-L$@H3
-L$@f;
-L$D;L$T
-L$DE3
-L$Df;
-L$H;H(s	D
-L$H;H8s	D
-L$HH3
-L$Lf;
-L$P+L$8
-L$P+L$H
-L$PH3
-L$PLc
-L$Pf;
-L$PfD
-L$Ptd;
-L$Pth;
-L$`f;
-L$dE3
-L$dL;
-L$pE3
-L$|fA
-L(:A:
-L(;A:
-L(;E:
-L(<A:
-L40H3
-L9&u'H
-L9&us
-L9*u&
-L97t5H
-L97taH
-L98u&H
-L9:t?
-L9>te
-L9d$p
-L9l$p
-L9w8t?
-L9~PtgL9~`taL9~ht[H
-L;5xK
+July
+June
+L>ev
 LCIDToLocaleName
 LCMapStringEx
-LCMapStringW
-LHcL$PH
-LcA<A
-LcA<E3
-LcewA
-Lc}oA
-LeaveCriticalSection
-Lj[;>
-LoadLibraryExW
 LocaleNameToLCID
 LocateXStateFeature
-M H1E
-M(f95
-M9.tqA
-M9/t,
+M8MF
+MGiI
 MM/dd/yy
-MPL9s
 March
 MessageBoxA
 MessageBoxW
-MiniZip 1.01b, demo of zLib + Zip package written by Gilles Vollant
+MiniZip 1.01b, demo of zLib + Zip package written by Gilles Vollant\n
 Monday
 MonoPosixHelper.dll
 MonoProject-2015-12-1
@@ -818,12 +267,10 @@ Mono_Posix_ToSyslogOptions
 Mono_Posix_ToWaitOptions
 Mono_Posix_ToXattrFlags
 Mono_Unix_VersionString
-MultiByteToWideChar
-N(9i(u
-N(D9q(u
 NAN(IND)
 NAN(SNAN)
 NJ2"v
+NULL
 No child processes
 No error
 No locks available
@@ -836,21 +283,16 @@ Not a directory
 Not enough space
 November
 O*9y]
+OZQ%
 OZw3(?
 October
 Operation not permitted
-OutputDebugStringA
-OutputDebugStringW
-PeekNamedPipe
+Pe6^
 Permission denied
-Q/fA;
 Qkkbal
-QueryPerformanceCounter
 R1h58
-RaiseException
+RSDS
 Read-only file system
-ReadConsoleW
-ReadFile
 ReadZStream
 Resource deadlock avoided
 Resource device
@@ -858,135 +300,44 @@ Resource temporarily unavailable
 Result too large
 RoInitialize
 RoUninitialize
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlUnwindEx
-RtlVirtualUnwind
-S(9C8sq
-S,, <Zw
-S,fA+
-S;\$0tH
+S9>H
+SKyu
 SNAN)
-SUVWATAUAVAWH
-SVWATAUAWH
 Saturday
 September
-SetConsoleCtrlHandler
-SetCurrentDirectoryW
-SetEndOfFile
-SetEnvironmentVariableA
-SetEnvironmentVariableW
-SetFilePointer
-SetFilePointerEx
-SetLastError
-SetStdHandle
 SetThreadStackGuarantee
-SetUnhandledExceptionFilter
-SrRich
 SunMonTueWedThuFriSat
 Sunday
 SystemFunction036
-SystemTimeToTzSpecificLocalTime
-T$ A;
-T$ E3
-T$$f;
-T$0E3
-T$4f;
-T$8A+
-T$8E+
-T$<D;
-T$Df;
-T$PD+
-T$Pf;
-T$Tf;
-T$Xf;
-T$`f;
-T$hD+
-T$hf;
-T$lf;
-T$pE3
-T$pf;
-T$pkD$x<
 TUUUU
-TerminateProcess
 The file %s exists. Overwrite ? [y]es, [n]o, [a]ppend : 
 Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
 Too many links
 Too many open files
 Too many open files in system
 Tuesday
-U8D83A
-UATAUAVAWH
-UATAUAWH
-UAVAWH
 UNICODE
 UNKNOWN
-USATAUH
-USAUAWH
-USVWATAUAVAWH
-USVWAVH
 UTF-16LE
 UTF-8
 UUUUUU
-UVWATAUAVAW
-UVWATAUAVAWH
-UVWAUAVH
-UVWAVAWH
-UWATAVAWH
-UWATH
-UWAVH
-UnhandledExceptionFilter
 Unknown error
-Usage : minizip [-o] [-a] [-0 to -9] [-p password] file.zip [files_to_add]
-V(D9r(u
-V6E>`"(5
-VATAUAVAWH
-VWATAVAW
-VWATAVAWH
-VWAUH
-VWAVH
-V_:X1:
-WATAUAVAWH
-WATAVH
-WATAWH
-WAUAVH
-WAVAWH
-WD8l$@t
-WaitForSingleObjectEx
+Usage : minizip [-o] [-a] [-0 to -9] [-p password] file.zip [files_to_add]\n\n  -o  Overwrite existing file.zip\n  -a  Append to existing file.zip\n  -0  Store only\n  -1  Compress faster\n  -9  Compress better\n\n
+Vc0a
 Wednesday
-WideCharToMultiByte
-WriteConsoleW
-WriteFile
 WriteZStream
-XA_A][]
-XA_A^A]A\_^[]
-Z* ,	
-[-&LMb#{'
+X/4B
+XsBI
+Zjz\v
 [aOni*{
+[h1R
 [thunk]:
-\$ ATAVAWH
-\$ E3
-\$ H;
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ VH
-\$ WH
-\$(D;
-\$0)p(H
-\$0H;
-\$8A+
-\$<A;
-\$@@8=
-\$@E3
-\$@H;
+\rmj>zjZ
+\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\tcQr
+\tkE>fvw
 ^<V7w
-^fD9+t
 ^oEZ_
 __based(
 __cdecl
@@ -1005,15 +356,10 @@ __stdcall
 __thiscall
 __unaligned
 __vectorcall
-__w64 
 _cabs
 _hypot
 _logb
 _nextafter
-` AWL
-`.rdata
-`A_A^A\][
-`A_A^A]A\_^]
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -1028,7 +374,6 @@ _nextafter
 `eh vector vbase copy constructor iterator'
 `generic-class-parameter-
 `generic-method-parameter-
-`h````
 `h`hhh
 `local static destructor helper'
 `local static guard'
@@ -1065,12 +410,14 @@ _nextafter
 `vtordispex{
 `vtordisp{
 abcdefghijklmnopqrstuvwxyz
+acos
+asin
+atan
 atan2
-bp(=>?g
+bool
 buffer error
-c [1>H'
-c(>\,
-cAMDD
+ceil
+char
 char 
 char16_t
 char32_t
@@ -1081,137 +428,49 @@ coclass
 cointerface 
 const
 const 
-creating %s
-d$ E3
-d$(A_
-d$8E3
+cosh
+creating %s\n
+d8L2
+dQy/
 data error
 dddd, MMMM dd, yyyy
 double
 e+000
-e0A_A^A]A\]
-e0A_A^]
-e8A_A^A]A\_^[]
+eF>t
 eLK(w
-entiA
 enum 
-error in closing %s
-error in closing %s in the zipfile
-error in opening %s for reading
-error in opening %s in zipfile
-error in reading %s
-error in writing %s in the zipfile
-error opening %s
+error in closing %s in the zipfile\n
+error in closing %s\n
+error in opening %s for reading\n
+error in opening %s in zipfile\n
+error in reading %s\n
+error in writing %s in the zipfile\n
+error opening %s\n
 ewh/?y
 extern "C" 
-f9)u H
-f9)uTH
-f9*u	H
-f9,Au
-f9,Ju
-f9,Xu
-f9,pu
-f9,~u
-f94Au
-f94Hu
-f9<Bu
-f9<Pu
-f9\$bu
-f9|$^t&f
-f9|$`t
-f;C0t
-f;K0t=H
-f;Q8t
-f;S8tDH;C
-f;U`s
-f;\$(
-f;\$(r
-f;\$0
-f;\$0r
-f;\$8
-f;\$@
-f;\$H
-f;\$T
-f;\$Tr
-f;\$\
-f;\$d
-f;\$ds
-f;\$ds	D
-f;\$l
-f;\$p
-f;\$ps
-f;\$t
-f;\$ts
-f;\$x
-fA9,@u
-fA9,Au
-fA94Nu
-fA94nu
-fA96tdH
-fA9<Bu
-fA9<\u
-fB9,Nu
-fB94Ou
-fB94`t	H
-fB9<@u
-fB9<Bu
-fB9<Hu
-fC94wu
-fC9<hu
-fD9	t
-fD9	t(I
-fD9 t
-fD9 tMH
-fD9 u
-fD9!u
-fD9!u7A
-fD9$Hu
-fD9(u
-fD9,Au
-fD9,yu
-fD90t
-fD91u
-fD92u
-fD93u
-fD94Cu
-fD94Fu
-fD94Gu
-fD94pt	H
-fD96u
-fD98u
-fD99t
-fD9;u
-fD9<Au
-fD9<Xu
-fD9<Zu
-fD9?t&
-fD9t$b
-fD9|E
-fD;E`s
-fE98t'
-fF9<qu
-fG9$Ou
-ffffff
-fffffff
-file %s crc %x
+fP~V
+fabs
+file %s crc %x\n
 file error
 float
 floor
+fmod
 frexp
+fu`z
 generic-type-
-gfffA
-gfffffffH
-hA_A^A]A\_^[]
+gqr<
+h0'D
+hPU3
 header crc mismatch
-i H9i0u
-ihuM9
+i91k
+i]Wb
 incompatible version
 incorrect data check
 incorrect header check
 incorrect length check
-ineIA
 inity
 insufficient memory
+int 
 invalid bit length repeat
 invalid block type
 invalid code -- missing end-of-block
@@ -1223,178 +482,48 @@ invalid literal/length code
 invalid literal/lengths set
 invalid stored block lengths
 invalid window size
-iu+-,
-j(fA;
-l!;b	F
-l$ E3
-l$ VATAUAVAWH
-l$ VH
-l$ VWATAUAWH
-l$ VWATAVAWH
-l$ WAVAWH
-l$ WH
-l$0A_A^A]A\
-l$@A;
-l$@I;
-l$HA_A]A\_^
+k=yI
 l6qnk
+lDa>
 ldexp
 log10
 log10f
+logf
+long
 long 
-m8L9c
-m`H9{
-mj>zjZ
-more info at http://www.winimage.com/zLibDll/unzip.html
+mG4>
+m\nXo
+modf
+more info at http://www.winimage.com/zLibDll/unzip.html\n\n
 n03>Pu
 nan(ind)
 nan(snan)
 need dictionary
-ntelE
 obwQ4
 operator
 operator "" 
-ot$ H
-p AWH
-p WATAUAVAWH
-pA^_]
-pD	s0
+owM&
 private: 
 protected: 
 public: 
-q L9q0u
-q0@80u
-r	Vr.>T
-r!f;\$hs
-r"f;\$hs
-r#f;\$\s
-r#f;\$hs
-r&f;\$\s
-r(D;u
-r(D;v
-r*f;\$hs#
-r5f;\$X
-r6f;\$X
-r7f;\$L
-r7f;\$X
-r:D8v
-r:f;\$L
-r>f;\$X
-rIf;\$H
-rJf;\$H
-rKf;\$<
-rKf;\$H
-rNf;\$<
-rRf;\$H
-r]f;\$8
-r^f;\$8
-r_f;\$,
-r_f;\$8
-rbf;\$,
+r\tVr.>T
 restrict(
-rff;\$8
-rqf;\$(
-rrf;\$(
-rsf;\$ 
-rsf;\$(
-rvf;\$ 
-rzf;\$(
-s WATAUAVAWH
-s WAVAWH
-s4+sP+
+ru&o
 short
 short 
-shu4H
 signed 
+sinh
 snan)
-stCD;
-stED;
-stVD;
-st`D;
+sqrt
 static 
 std::nullptr_t
 std::nullptr_t 
-stfE;
-stgE;
-sthE;
 stream end
 stream error
 struct 
-t	H9s
-t	H9w
-t	L9c
-t	L9g
-t	L9w
-t	L9{
-t H;B
-t"<.u
-t"HcM`H
-t#HcL$`H
-t$ <`
-t$ A;
-t$ AVH
-t$ E3
-t$ UH
-t$ UWATAVAWH
-t$ WATAUAVAWH
-t$ WATAVH
-t$ WAVAWH
-t$ WH
-t$(I;
-t$0E3
-t$8E3
-t$8H+
-t$@u_H
-t$DA9T$0s
-t$HE3
-t$pE3
-t'fE9
-t)D8l$@t
-t/D8e
-t/D8}
-t5LcF
-t7HcF
-t@@8{4t
-t@@8{<t
-tB@8{4t
-tB@8{<t
-tC@8{2t
-tDLcC
-tE@8{2t
-tHfA;
-tI@8{:t
-tK@8{:t
-tOH9=
-tPH95%K
-tQfD9 tK
-tSf91tNH
-tVf91tQH
-tVf9p
-tY@8p
-t[fD9I
-t`H91u
+tanh
 template-parameter-
-tmLc\$0
 too many length or distance symbols
-tyfD9 tsH
-t{H9/tQL
-u"HcMHH
-u/L;o
-u1!D$0H
-u3HcH<H
-u4D9~
-u=L;k
-uAiD$@
-uC<0u?A
-uFM9/tA
-uJHcG H
-uPH9{
-uPI91tK
-u\fA;
-ubfD9A
-uf!T$(H!T$ 
-uiD9~
-uk	/A
 union 
 unknown compression method
 unknown header flags set
@@ -1409,36 +538,22 @@ unzOpen2
 unzOpenCurrentFile2
 unzReadCurrentFile
 unztell
-upfD9I
 uzKs@>
 v2!L.2
 vQO+t
 virtual 
+void
 void 
 volatile
 volatile 
-w"fA+
 w+OQvr
+w3Xc
+wXR\r
 wchar_t
 wn>Jj
-x ATAUAVH
-x ATAUAWH
-x ATAVAWH
-x AV3
-x AVH
-x AWH
-x UATAUAVAWH
-x UAVAWH
-xA_A]A\]
-xA_A^A]A\_^[]
-xWI96tRI
 xpxxxx
 xwpwpp
-y0f98u	
-yA*t	H
-yB*t	H
-yBNu'
-y\PD>!
+y9*O
 zipClose
 zipCloseFileInZip
 zipOpen2
@@ -1446,33 +561,4 @@ zipOpenNewFileInZip
 zipWriteInFileInZip
 {flat}
 {for 
-{puIH
-|$ ATAUAVAW
-|$ ATAVAWH
-|$ AVH
-|$ AWH
-|$ D9s 
-|$ E3
-|$ UATAUAVAWH
-|$ s.
-|$":uq
-|$$;=
-|$(A^
-|$(I;
-|$0A+
-|$0E3
-|$0s-
-|$8;3
-|$@-D
-|$@-H
-|$@H;
-|$PA;
-|$\.u
-|$^.u
-|$`CI
-|$`H+
-|$`Ic
-|$`ss
-|$pH+
-|b=})>
-~ $s%r
+{kHw

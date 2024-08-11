@@ -1,139 +1,37 @@
-	%	:	O	d	y	
-	?color@QImage@@QEBAIH@Z
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-	D)T$
-	D8r4
-	f+D$ fA
-	fRich.
-         cblk %5d %5d %5d %5d
+         cblk %5d %5d %5d %5d\n
         %3d %3d %3d %3d %3d %3d %3d %3d
         %4u %4u %4u %4u %4u %4u %4u %4u
-        prc %5d %5d %5d %5d (%5d %5d)
-      band %5d %5d %5d %5d
+        prc %5d %5d %5d %5d (%5d %5d)\n
+      band %5d %5d %5d %5d\n
     Component %d: %dhx%dv q=%d
     Component %d: dc=%d ac=%d
-    rlvl %5d %5d %5d %5d
+    rlvl %5d %5d %5d %5d\n
     with %d x %d thumbnail image
-  PjH
-  Pjt
   Ss=%d, Se=%d, Ah=%d, Al=%d
-  tcmpt %5d %5d %5d %5d
+  tcmpt %5d %5d %5d %5d\n
  %02x
- %s %s %d %ld %ld
- @SUH
- A l 
- A;oX
- A;vH|
- A;~H|
- A]A\_^[
- A^A]_^[
- A^A]_^]
- A^][
- A^^]
- A^_[
- A^_^
- A_A^A\
- A_A^A]
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^^
- A_A^_
- A_^]
- A__]
- A__^
- A__^][
- BGRt
- D)s0y
- E9'uC
- E;nH|
- H3E H3E
- HcA<H
- Hct$PM
- L9Spu
- ZYXt
- baLt
+ %s %s %d %ld %ld\n
+ ZYX
  data=%s
- len = %d;
+ lmx
+ lru
  rate=%1
-!H!u!
-!This program cannot be run in DOS mode.
+ ser
 !acsp
-"'"U"
-"D;D$
-#8#f#
-$),$D
-$M$|$
+$3br
 $lumi
 $tech
-%	%8%h%
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %02x 
 %04x:
 %ld%c
-%lu %lu
 %s%ld
-&'&W&
+%s\n_jp2overhead=%lu\n
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-'I'z'
-(%f, %f, %f)
-(4$D;
-(?(q(
-(A]A\_]
-(A]_^[
-(A_A]A\[
-(A_A]_[
-(A_A^A][
-(L$PD
-(L$`D
-(T$@D
-(T$PD
-(\$0D
-(\$@D
-(d$ D
-(d$0D
-(l$ D
-(t$ D;
-(t$ H
-(t$ L
-(t$0H
-(t$@H
-(t$@L
-(t$PH
-(|$ H
-(|$`H
-(|$pL
-)8)k)
-)<$Ai
-)D$pfD
-)L$`fD
-)T$PD
-)\$ C
-)\$ E+
-)\$@fD
-)d$0fD
-)d$@D
-)l$ fD
-)l$0D
-)t$ f
-)t$0H
-)t$@3
-)t$@H
-)t$pL
-)|$`E
-)|$pE
-*5*h*
-+6+i+
-+D$ ;L$ 
-+D$(i
+(%f, %f, %f)\n
 +wtpt
-+|$PA
-,	D)D$
-,9,n,
-,Icl$
 ,Reference Viewing Condition in IEC61966-2.1
 ,Restricted ICC profile describing sRGB-grey
--A-v-
--HP  
 -JPEG
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
@@ -159,6 +57,7 @@ $tech
 .CRT$XTA
 .CRT$XTZ
 .IEC 61966-2.1 Default RGB colour space - sRGB
+.bss
 .data
 .data$r
 .edata
@@ -179,155 +78,31 @@ $tech
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-/$/Z/
-/I(s4
 /TF<)VGy#WH
 050l0
-0=rdhi
-0A;~H|
-0A\_^][
-0A]A\[
-0A^A]]
-0A^A]_
-0A^_^
-0A^_^][
-0A_A\_^]
-0A_A]^
-0A_A]_][
-0A_A]_^]
-0A_A^A\
-0A_A^A\_^
-0A_A^A]A\_][
-0A_A^A]A\_^]
-0A_A^_
-0A_^[
-0A__]
-1)l$(
 1.900.1
-1I+H8H
+1tfm
 2*2c2
+2\vpT
+2tfm
+3\n?data@QByteArray@@QEAAPEADXZ
+3\r3F3
 3desc
-3fD;x 
 4+4e4
 676r6
 7$7`7
-79] v$f
-8A;o0
-8A\_][
-8A]A\
-8A]A\^[
-8A^A\][
-8A^[H
-8A^_^[
-8A_A^A\^
-8D)l$
-8GbthH
 8c  16-Jan-2011
-9+~LI
-97~`L
-99~#H
-9A4~"D
-9CPuOH
-9CX}8
-9CX};
-9CX}=
-9CX}>
-9CX}B
-9CX}D
-9CX}E
-9CX}H
-9CX}I
-9CX}L
-9CX}M
-9CX}O
-9CX}S
-9CX}U
-9CX}X
-9CX}Y
-9CX}]
-9CX}h)k0y
-9CX}o
-9Ch}x
-9GX}s
-9HX}<
-9HX}F
-9HX}x
-9HX}}
-9KX}[
-9KX}_
-9KX}b
-9KX}m
-9KX}p
-9KX}r
-9KX}~
-9K\~QD
-9P$u.9
-9S8~ 
-9SX}G
-9W8~j
-9Y4~pH
-9] v'H
-9_ ~oH
-9_ ~sH
-9_8~h
-9i\~#H
-9k8~QH
-9k8~\H
-9k8~tL
-9kH~MH
-9kP~$H
-9kP~6M
-9kP~`L
-9k\~XH
-9o$t6H
-9o$t@ff
-9o$tIf
-9q0~-
-9q|~2H
-9sP~&H
-9sP~*H
-9sP~mI
-9s\~HL
-9y4~}H
-9y8~YM
-9{ u	
-9{0~$ff
-9~ ~rH
-9~P~"
-:6:t:
-:D)\$
-;-;k;
-;4$trH
-;4$ufI
-;Cxr(H
-;CxsR
-;G0t!
-;G0t'
-;L$0}
-;t$X}
-;t$tr
-<$iT$
-<'<e<
-<;CL}_Ic
-<DuBfff
-<L9{(u.L
-="=a=
-=c2pjt
-=pamcuXL9{ uRL
-=rlcpu
-=rlocwGt9=ccpbt&=fedct
-> >`>
-?!?a?
+?4x3
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QByteArray@@QEAA@XZ
 ??0QChar@@QEAA@UQLatin1Char@@@Z
@@ -352,7 +127,6 @@ $tech
 ??4QImage@@QEAAAEAV0@$$QEAV0@@Z
 ??4QImage@@QEAAAEAV0@AEBV0@@Z
 ??4QString@@QEAAAEAV0@VQLatin1String@@@Z
-?E9n 
 ?allGray@QImage@@QEBA_NXZ
 ?append@QString@@QEAAAEAV1@AEBV1@@Z
 ?append@QString@@QEAAAEAV1@VQLatin1String@@@Z
@@ -360,17 +134,6 @@ $tech
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?data@QByteArray@@QEAAPEADXZ
-?debug@QMessageLogger@@QEBAXPEBDZZ
-?depth@QImage@@QEBAHXZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
@@ -384,168 +147,21 @@ $tech
 ?toInt@QVariant@@QEBAHPEA_N@Z
 ?toLatin1@QString@@QEGBA?AVQByteArray@@XZ
 ?toLocal8Bit@QString@@QEHAA?AVQByteArray@@XZ
-?u='@
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-?{r}+G
-@  2pjI
-@ IcP0H
-@ u	H
-@#@d@
-@, 2pj
-@.data
-@.qtmetadP
-@.reloc
-@8/v7L
-@8/vHL
-@8p tF@8
-@8p u
-@8sXu
-@8sYt
-@8sYu
-@8sht
-@8spt
-@8sqt
-@8srH
-@8t$pt
-@A]A\^
-@A]^[
-@A^A]A\_^
-@A^_^
-@A_A\_
-@A_A]_][
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\]
-@A_A^A]A\_^]
-@A_A^^][
-@A_A^_
-@P;M r
-@PA9@8
-@PA9@8|-A
-@PA9@8|RA
-@SATAUAWH
-@SATAUH
-@SATH
-@SAUAVAWH
-@SAUH
-@SAVH
-@SUATAVAW
-@SUATAVH
-@SUAVH
-@SUAWH
-@SUVATAUAWH
-@SUVAWH
-@SUVWATAUAVAW
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SUVWAUAWH
-@SUVWAVAWH
-@SUVWAWH
-@SUWATAUAVAWH
-@SUWATH
-@SUWAUAWH
-@SUWAWH
-@SUWH
-@SVATAUAVAW
-@SVATAUAVH
-@SVATAUH
-@SVAUH
-@SVAV
-@SVAVAWH
-@SVAWH
-@SVWATAUAVAW
-@SVWATAUH
-@SVWAUAVAWH
-@SVWAUAVH
-@SVWAVAW
-@SVWAVAWH
-@SVWAVH
-@SVWH
-@SWATAUAV
-@SWAUAWH
-@SWAVH
-@TA9@<
-@TA9@<|)A
-@UAUH
-@UAVH
-@USAUH
-@USVWATAUAVH
-@USWH
-@UVATAVAW
-@UVATH
-@UVWAUAVAWH
-@UVWH
-@VAWH
-@VWATAUAVH
-@VWATH
-@VWAVH
-@WAUH
-@hD;8
-A u	H
+@Wgl
 A!;I2
-A)	E3
 A)AjA
-A+FdL
-A8.v/L
-A8.vIL
-A92~JI
-A9E@u
-A9Fdu'A
-A9HX|
-A9Z<~_L
-A9|$|
-A;G0|
-A;Z<|
-A;oX|
-A;v||
-A;~8|
 ALIGN_TYPE is wrong, please fix
-ATAUAVAWH
-ATAUAVH
-ATAUH
-AUAVH
-AVAWH
-A]A\][
-A]A\_]
-A]A\_^[
-A^A]A\_
-A^A]A\_[
-A^A]A\_][
-A^A]A\_^[]
-A^A]_^[
-A^_^[
-A_A]A\[
-A_A]A\^
-A_A]_[
-A_A]_^][
-A_A^A\][
-A_A^A\^]
-A_A^A\_[
-A_A^A\_^
-A_A^A]A\
-A_A^A]A\^[
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]^
-A_A^A]_^[
-A_A^]
-A_A^_
-A_A^_^[
-A_A^_^]
-A_^][
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Ahd=<c]^7if1Rjg
 Application transferred too few scanlines
 Application transferred too many scanlines
 Arithmetic table 0x%02x was not defined
 At marker 0x%02x, recovery action %d
-AuthD
 B0BrB
-B@H+H
-BAND %d
+BAND %d\n
 BKbhTb~XBK!;
+BPCC
 Backing store not supported
 Bogus DAC index %d
 Bogus DAC value 0x%x
@@ -560,19 +176,15 @@ Bogus message code %d
 Bogus sampling factors
 Bogus virtual array access
 Buffer passed to JPEG library is too small
-C,H9|$0tv
-C0D;@
-C89C\t
 C:C}C
+C@j5
 CCIR601 sampling not implemented yet
-CODE BLOCK %d
-CODE BLOCK GROUP %d
+CDEF
+CMAP
+CODE BLOCK %d\n
+CODE BLOCK GROUP %d\n
+COLR
 CRT curv
-CRTbH
-CRTgH
-CRTkL
-CRTrH
-C_@8{Yv
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
@@ -591,142 +203,6 @@ Corrupt JPEG data: found marker 0x%02x instead of RST%d
 Corrupt JPEG data: premature end of data segment
 CreateEventW
 Creator: JasPer Version %s
-Ct$pD;
-Cx9S8~'H
-D$ D+
-D$ H+
-D$ H;
-D$ Hc
-D$ I+
-D$ L;
-D$ fff
-D$$)t$$D
-D$$)t$$I
-D$$A+
-D$$HcD$8A
-D$(+D$
-D$(D)T$(A
-D$(E3
-D$(Hc
-D$(M;
-D$(ff
-D$,+D$
-D$0,M
-D$09{
-D$0D;o\|
-D$0E3
-D$0H+
-D$0H;
-D$0I;
-D$0L;
-D$0xL
-D$4A9G
-D$8+D$<A
-D$8A+
-D$8D9
-D$8E;
-D$8H;
-D$8HcC(I
-D$8fA
-D$8u-E
-D$<u I
-D$@D+
-D$@D9A0
-D$@E9D$
-D$@E;
-D$@E;D$
-D$@H;
-D$@L;
-D$DA;G
-D$DHc
-D$HD9}
-D$HL;
-D$HLc
-D$HtKI
-D$L;D$d
-D$LA;D$
-D$LHc
-D$PA+
-D$PD;
-D$PD;B0
-D$PHc
-D$PMc
-D$TE3
-D$TIc
-D$XHc
-D$`9>s
-D$`D+
-D$`E3
-D$`Hc
-D$`Jc
-D$`fA;
-D$d9D$Ls'H
-D$hD;
-D$hE3
-D$hHc
-D$hI;
-D$hfff
-D$htM
-D$pE3
-D$pE9
-D$pE9|$
-D$pHc@
-D$pL;
-D$xMc
-D)L$ 
-D)r0y
-D)s0y
-D)|$XD
-D+T$PA
-D+d$p
-D+d$pA
-D+l$p
-D8't"Ic
-D8c&t
-D8d$ t1Hc|$$H
-D8s`A
-D8s`D
-D8t$ 
-D8{&t
-D9"~3M
-D99u?D9y
-D99~XH
-D9?|#
-D9@,t
-D9AX|
-D9CX|
-D9H,t
-D9P,t
-D9Q4~?E
-D9Q4~AE
-D9Q4~NA
-D9Q4~[E
-D9Q4~pE
-D9a0~pH
-D9c8~
-D9e v
-D9f u	H
-D9h,u*H
-D9k u	H
-D9v0t
-D9w@u!A
-D9y8~yH
-D9|$X
-D;	}&Ic
-D;<$tqI
-D;<$udI
-D;C8|
-D;G8|
-D;KH|
-D;KP|
-D;S4|
-D;SH|
-D;[P|
-D;c8|
-D;f\|
-D;s8|
-D;sP|
-D;t$p
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 Da\">c]$8c^
@@ -737,109 +213,30 @@ Define Restart Interval %u
 DeleteCriticalSection
 Didn't expect more than one scan
 DisableThreadLibraryCalls
-DzI+L$@L
-E @8sru
-E uWA
-E(@8sYu)H
-E9>~;A
-E9f u	
-E;S4|
-EL$pfA
-Eh9uh|
-EhHcK8H
-El9Ed
-El9EduS
 Empty JPEG image (DNL not supported)
 Empty input file
 End Of Image
 EnterCriticalSection
-F 9F(r
 F"FgF
-F+t(0u
 FK?imageCount@QImageIOHandler@@UEBAHXZ
+FTYP
 Failed to create temporary file %s
 Fractional sampling not implemented yet
 Freed EMS handle %u
 Freed XMS handle %u
-G H9_
-G49E`uwE3
 G5G{G
-G@f;^0
-G@u/H
-GenuA
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-GhD; }bH
-H L9k t$L9+u
-H SWH
-H"A8H
-H(A;H
-H9T$x
-H9{xu
-H;D$x
-H;T$8
-H;l$p
-H@Hc@8Hi
-HA]_H
-HA^A]A\]
-HA^A]^[
-HA^_^[
-HA_A^A]A\_^][
-HA_A^A]_^]
-HA_A^^[
-HA__][H
-HL+B8H
-HLino
-H`H;Q
-HcA8A
-HcC(A
-HcC8L
-HcD$ A
-HcD$(L
-HcD$8H
-HcD$<L
-HcD$HH
-HcD$LH
-HcD$pH
-HcExH
-HcF0H
-HcG0H
-HcH,H
-HcIHH
-HcIPH
-HcK,;
-HcKHH
-HcKPH
-HcL$pH
-HcL$xL
-HcM H
-HcS0L
-HcWxH
-HcWxL
-Hcl$hM
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
-I ;VP|
-I+I@H
-I+O H
-I+P H
-ICC Profile CS %08x
+ICC Profile CS %08x\n
 IEC http://www.iec.ch
 IEC sRGB
-IF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATA
-IcA(H
-IcD$0Hk
-IcF8Li
-IcG0L
-IcOXA
-IcP,A;
-IcW,H
-Ic_@H
-Ic_@J
+IHDR
 Image too wide for this implementation
 Improper call to JPEG library in state %d
 Inconsistent progression sequence for component %d coefficient %d
@@ -883,6 +280,9 @@ JFIF extension marker: RGB thumbnail image, length %u
 JFIF extension marker: palette thumbnail image, length %u
 JFIF extension marker: type 0x%02x, length %u
 JP2 box: 
+JP2C
+JP2H
+JP2I
 JPEG (ISO/IEC 10918-1)
 JPEG 2000 reader expected 1 or 2 components, got %d
 JPEG 2000 reader expected 3 or 4 components, got %d
@@ -896,117 +296,28 @@ JPEGMEM
 Jasper Library initialization failed
 Jasper library can't decode Jpeg2000 image data
 Jpeg2000 decoder is not able to handle color space %s - %s
-K D;K
 K?height@QImage@@QEBAHXZ
 KERNEL32.dll
+KNQ\rMO
 KODAsGry
-KxD9sH~rf
-L$ D)L$
-L$ D91u
-L$ Di
-L$ E3
-L$ H3
-L$ L;
-L$ SUVWATAVAWH
-L$ SVW
-L$ SVWATAUAVH
-L$ SVWATAUH
-L$ SVWH
-L$ SWAUAWH
-L$ UVWAVAWH
-L$ VWATAVAWH
-L$(A+
-L$(H3
-L$(iM
-L$(tAA
-L$0A+
-L$0Ai
-L$0E3
-L$0H3
-L$0ff
-L$0iM
-L$8A+
-L$8A;V
-L$8A;W0
-L$8E+
-L$8H3
-L$8H;
-L$8ff
-L$@Ai
-L$@D9c<
-L$@D;M
-L$@H3
-L$@H;
-L$HD+
-L$HHc
-L$PA9
-L$PA;
-L$PE;
-L$PIcI
-L$PiM
-L$XA;
-L$XAi
-L$XD9C8
-L$XD;C8
-L$XH3
-L$XHc
-L$XIc
-L$`A;E
-L$`D;
-L$`E3
-L$`H3
-L$`H;
-L$`Ic
-L$hA;
-L$hD9
-L$hD;
-L$hH3
-L$pA+
-L$pH3
-L$pH;L$ 
-L$pJc
-L$xD9w8
-L$xD;w8
-L$xE2
+K\fKSK
 L*LrL
-L+D$0L
-L+|$pL
-L93u_
-L93uc
-L97uOH
-L9Spt
-L9Spu
-L;d$@|
-L;l$ 
-L;|$@
-L;|$p
 L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
-LUT[%d][%d]=%d
-LcL$pJ
-LcQ|M+
-Lcl$xO
+LUT[%d][%d]=%d\n
 LeaveCriticalSection
 Lkh9Fgc^A
-M H1E
-M'@[KX
 M?loopCount@QImageIOHandler@@UEBAHXZ
 MAX_ALLOC_CHUNK is wrong, please fix
+MG@k
 MQC,ARD
 Maximum supported image dimension is %u pixels
 MbP?333333
-McH(E
-McsLA
-MetaData
 Microsoft Bitmap (BMP)
-MimeTypes
 Miscellaneous marker 0x%02x, length %u
 Missing Huffman code table entry
-Mu%<Lu
 My Image Format (MIF)
-N A9n
 N%NnN
-NL;l$H
 Not a JPEG file: starts with 0x%02x 0x%02x
 Not implemented yet
 O?nextImageDelay@QImageIOHandler@@UEBAHXZ
@@ -1015,27 +326,13 @@ Obtained XMS handle %u
 Opened temporary file %s
 Output file write error --- out of disk space?
 P'PqP
-P.rsrc
-P;] r
-P;} r
-P;~ |
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-P@Hc@8Hi
-PA;n 
-PA;o 
-PA]A\_^[H
-PA^A]A\
-PA^A]A\^[
-PA_A^A]A\_^]
-PA_^]
-PD;o 
+PCLR
 Portable Graymap/Pixmap (PNM)
 Premature end of JPEG file
 Premature end of input file
-Q,H;t$p
 Q2XXR
 QJp2Plugin
-QTMETADATA  qbjs
 Qt JPEG 2000 reader does not support signed components
 Qt5Core.dll
 Qt5Gui.dll
@@ -1045,7 +342,9 @@ Quantizing to %d colors
 QueryPerformanceCounter
 R1R|R
 R?scanLine@QImage@@QEAAPEAEH@Z
-RESOLUTION LEVEL %d
+RESC
+RESD
+RESOLUTION LEVEL %d\n
 RST%d
 Read failed on temporary file
 Read from EMS failed
@@ -1055,26 +354,6 @@ ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-SATAUAWH
-SATAVAWH
-SUATAUH
-SUVAVAWH
-SUVWATAUAVAWH
-SUVWATH
-SUVWAUAWH
-SUVWAVH
-SUVWH
-SUWATAUAVH
-SUWAUAWH
-SUWAVH
-SVAUAVH
-SVWATAUH
-SVWAUAVAWH
-SVWAUH
-SVWAVAWH
-SWATAVAWH
-SWAVH
-S`HcCtH
 Sampling factors too large for interleaved scan
 Scan script does not transmit all data
 Seek failed on temporary file
@@ -1088,61 +367,21 @@ Start Of Scan: %d components
 Start of Image
 Sun Rasterfile (RAS)
 Suspension not allowed here
-T$ H;
-T$ Hc
-T$ HcA
-T$$A+
-T$$Hc
-T$(D+
-T$(D+l$ A
-T$(E+
-T$(H;
-T$(L;T$H
-T$0A;V
-T$0A;W0
-T$4D;T$Hr
-T$4E9
-T$@D+
-T$@E3
-T$HE3
-T$Ht<A
-T$LD9{<
-T$Lff
-T$PHc
-T$Pff
-T$XA;
-T$XA;l$
-T$XD+
-T$`HcD$HA
-T$pfff
-T$xE;
 T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-THAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.
-THE BMP FORMAT IS NOT FULLY SUPPORTED!
-TO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.
+THE BMP FORMAT IS NOT FULLY SUPPORTED!\nTHAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.\nIF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATA\nTO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.\n
 TerminateProcess
-The BMP format cannot be used to represent an image with this geometry.
-The PNM format cannot be used to represent an image with this geometry.
+The BMP format cannot be used to represent an image with this geometry.\n
+The PNM format cannot be used to represent an image with this geometry.\n
 The Qt JPEG 2000 reader does not support components with precision != 8
 The Qt JPEG 2000 reader does not support images where component geometry differs from image geometry
 The Qt JPEG 2000 reader was unable to convert colorspace to RGB or grayscale
-The RAS format cannot be used to represent an image with this geometry.
+The RAS format cannot be used to represent an image with this geometry.\n
 Too many color components: %d, max %d
 U(UuU
-UATAUAVAWH
-UATAUAVH
-UAUAVH
+UINF
+ULST
 UNKNOWN
-UVAUAWH
-UVAUH
-UVAVH
-UVAWH
-UVWATAUAVAWH
-UVWAUAVH
-UVWAVAWH
-UWATAUH
-UWAVH
-UWAWH
+UUID
 Unable to handle color depth %d
 Unexpected marker 0x%02x
 UnhandledExceptionFilter
@@ -1157,30 +396,10 @@ Unsupported JPEG process: SOF type 0x%02x
 Unsupported color conversion request
 Unsupported marker type 0x%02x
 UokOP
-VATAUAWH
-VATAUH
-VATAVAWH
-VAUAVAWH
-VAUAWH
-VAVAWH
 VCRUNTIME140.dll
-VUUUA
-VUUUE
-VUUUUUUUH
-VWATAUAVAWA
-VWATAVAWH
-VWATAWH
-VWAUAVAWH
-VWAVH
-VWAWH
 VeaFOfb
 Virtual array controller messed up
-W!t/H
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WATAUAVAWH
-WATAUAVH
-WAUAVH
-WAVAWH
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: thumbnail image size does not match data length %u
@@ -1190,72 +409,33 @@ Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %d, caller expects %d
 X/X}X
-X;w0|
-XA^A]
-XA^A]A\_^[
-XA_A]^]
-XA_A]_^][
-XA_A^A\[
-Y0LcQ\M
-YARGt%
-YARGt&A
-You may not be able to read or correctly display the resulting PNM data with other software.
+XYZ 
+You may not be able to read or correctly display the resulting PNM data with other software.\n
 YpU_Z
-Z A;n
 Z?width@QImage@@QEBAHXZ
-Z@&LHA'
-ZYXbH
-ZYXgH
-ZYXrH
+Z@&LHA'\r:C(
 Zpm"U
-[0A;~H|
-\$ A+
-\$ AVH
-\$ D+
-\$ UH
-\$ UVWATAUAVAW
-\$ UVWATAUAVAWH
-\$ UVWATAUAVD
-\$ UVWATAUH
-\$ UVWATAWH
-\$ UVWAUAWH
-\$ UVWH
-\$ UWAWH
-\$ VH
-\$ VWATAUAVH
-\$ WH
-\$$E+
-\$0Ai
-\$0E3
-\$0Hc
-\$0Hk
-\$@A;
-\$H;JH
-\$HD9c
-\$HE;
-\$P;4$u_I
-\$PA^A]A\_^]
-\$PA_A^A]A\_^]
-\$PE+
-\$XA_A^A]A\_^]
-\$XD;
-\$XHc
-\$Xu]I
-\$`A9~H
-\$h9O8
-\$hA;
-\$hD+
-\$pA;
-\$pHcL$hM
-\I8A+A
-]']x]
-]8~"H
-]@A9v
-^@IcF8Hi
-^X+\$@
-^dA)^`A
-^x~MH
-_0H;~
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\fHLino
+\fbTRC
+\fgTRC
+\frTRC
+\ftext
+\n%lu %lu\n%ld\n
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\r\r\r&\r@\rZ\rt\r
+\t%\t:\tO\td\ty\t
+\t?color@QImage@@QEBAIH@Z
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\tN1a
+\v?depth@QImage@@QEBAHXZ
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+\v\v\v"\v9\vQ\vi\v
 _CxxThrowException
 __C_specific_handler
 __acrt_iob_func
@@ -1277,7 +457,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _jp2overhead
-_jp2overhead=%lu
 _lseek
 _open
 _read
@@ -1285,26 +464,9 @@ _register_onexit_function
 _seh_filter_dll
 _unlink
 _write
-`.rdata
-`;k8|
-`;s\|
-`A;n8
-`A\_^
-`A]A\_^]
-`A_A^A]A\_^]
-`A_A^A]_^
-`A_A^^
-`A_^[
-`D;^8|
-`D;e8|
-`D;s8
-`D;s\
-`D;{8
-`D;~8
-a0IcN
 abort
 acspMSFT
-alignment failed
+alignment failed\n
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
@@ -1314,585 +476,292 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
-ascii = "%s"
+ascii = "%s"\n
+atof
+atoi
+bXYZ
+b\n?debug@QMessageLogger@@QEBAXPEBDZZ
 bad allocation
 bad array new length
-box type %s
-c2pjM
-cannot copy box data
-cannot get (EPH) marker segment
-cannot get header
-cannot get info
-cannot get marker segment
-cannot get tab table
-cannot open tmp file
-cannot parse box data
-cannot use real mode for lossless coding
-cannot write COD marker
-cannot write COM marker
-cannot write EOI marker
-cannot write SIZ marker
-cannot write SOC marker
-cannot write SOD marker
-cannot write SOT marker
-caps = 0x%02x;
+bkpt
+box type %s\n
+c2pj
+cannot copy box data\n
+cannot get (EPH) marker segment\n
+cannot get header\n
+cannot get info\n
+cannot get marker segment\n
+cannot get tab table\n
+cannot open tmp file\n
+cannot parse box data\n
+cannot use real mode for lossless coding\n
+cannot write COD marker\n
+cannot write COM marker\n
+cannot write EOI marker\n
+cannot write SIZ marker\n
+cannot write SOC marker\n
+cannot write SOD marker\n
+cannot write SOT marker\n
+caps = 0x%02x;\n
 cblkheight
 cblkwidth
-cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x;
-cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x; qmfbid = %d;
-channo=%d; type=%d; assoc=%d
-className
-cmptno=%d; map=%d; pcol=%d
-code block size too large
-coding pass failed passtype=%d segtype=%d
-compno = %d; csty = 0x%02x; numdlvls = %d;
-compno = %d; qntsty = %d; numguard = %d; numstepsizes = %d
-compno = %d; roisty = %d; roishift = %d
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x; qmfbid = %d;\n
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x;\n
+ccpb
+ceil
+channo=%d; type=%d; assoc=%d\n
+cmptno=%d; map=%d; pcol=%d\n
+code block size too large\n
+coding pass failed passtype=%d segtype=%d\n
+compno = %d; csty = 0x%02x; numdlvls = %d;\n
+compno = %d; qntsty = %d; numguard = %d; numstepsizes = %d\n
+compno = %d; roisty = %d; roishift = %d\n
 component
 component tlx=%ld tly=%ld sampperx=%ld samppery=%ld width=%ld height=%ld prec=%d sgnd=%d
+cprl
+cprt
 cs[%d] = %d; ce[%d] = %d; 
-csid=%d
-csty = 0x%02x;
-d$ A+
-d$ D9e,
-d$(A+
-d$0D+
-d$8ff
-d$@D9
-d$PI;
-d$XE3
-d$hE3
-d$pHi
-d$xE;
-data =
+csed
+cser
+csid=%d\n
+csty = 0x%02x;\n
+curv
+data
 data = 
+data =\n
 debug
-dotile failed
+desc
+diuu
+dmnd
+dotile failed\n
+dser
 e[%d][%d]=%f 
-edD)e`
-entry[%d] = %f
-error: BMP format does not support color space
-error: JPG format does not support color space
-error: PNM support required
-error: RLE encoding method not supported
-error: The JPG encoder cannot handle an image with this geometry.
-error: bad signature
-error: cannot decode code stream
-error: cannot get box
-error: encoding method not supported
-error: expecting signature box
-error: invalid CMAP LUT index
-error: invalid component number in CMAP box
-error: missing IHDR box
-error: missing color component
-error: no COLR box
-error: no code stream found
-error: no components
-error: no memory
-error: possibly bad bitmap offset?
-error: too few guard bits (need at least %d)
-error: unsupported BMP encoding
-error: unsupported color space
-error: unsupported compression type
-expecting file type box
-expn[%d] = 0x%04x; mant[%d] = 0x%04x;
-f+D$ fA
-f9CHv
-f9t$ 
-f9|$Pu
-f;F s3ff
-f;N0r
-f;Y s8
-f;^0r
-f;^0s H
-f;_ s1H
-f;_,sU
-f;n0r
-f;o8s*
-f;oPs*
-f;s,sm
-f;y sU
-f;{0sk
-f;} s`
-fA94$v
-fA94$v?L
-fA;~ 
-fD;*sm
-fD;*ss
-fD;K r
-fD;e0
-fD;k s5
-fD;o0
-fD;o0svA
-fD;v s^
-fD;{8
+end\n
+entry[%d] = %f\n
+error: BMP format does not support color space\n
+error: JPG format does not support color space\n
+error: PNM support required\n
+error: RLE encoding method not supported\n
+error: The JPG encoder cannot handle an image with this geometry.\n
+error: bad signature\n
+error: cannot decode code stream\n
+error: cannot get box\n
+error: encoding method not supported\n
+error: expecting signature box\n
+error: invalid CMAP LUT index\n
+error: invalid component number in CMAP box\n
+error: missing IHDR box\n
+error: missing color component\n
+error: no COLR box\n
+error: no code stream found\n
+error: no components\n
+error: no memory\n
+error: possibly bad bitmap offset?\n
+error: too few guard bits (need at least %d)\n
+error: unsupported BMP encoding\n
+error: unsupported color space\n
+error: unsupported compression type\n
+exit
+expecting file type box\n
+expn[%d] = 0x%04x; mant[%d] = 0x%04x;\n
 fclose
+fedc
 ferror
-ffffff
 fflush
 fgetc
 floor
+fniu
 fputc
 fread
+free
 fseek
 fwrite
-gamma = %f
+gXYZ
+gamma = %f\n
 getenv
-gfffffffH
-h@Hc@8Li
-hA_A^
-hA_A^A]A\_^][
-hA_A^_^][
-hdrlen=%lu bodylen=%lu 
+h2pj
+hdrlen=%lu bodylen=%lu \n
 height
-hoff[%d] = %d; voff[%d] = %d
-iL$$>
-iL$(>
-iL$(u.
-iL$,>
-iL$0u.
-iT$4>
-ignoring bad quality specifier %s
-ignoring invalid mode %s
-ignoring invalid progression order %s
+hoff[%d] = %d; voff[%d] = %d\n
+i2pj
+ignoring bad quality specifier %s\n
+ignoring invalid mode %s\n
+ignoring invalid progression order %s\n
 ilyrrates
-image/jp2
-image/jpm
-image/jpx
 imgareatlx
 imgareatly
-incorrect magic number
-ind=%d; len = %d;
-intermediate layer rates must increase monotonically
-invalid JP encoder options
-invalid PNM encoder options specified
-invalid code block height %d
-invalid code block width %d
-invalid component number in COC marker segment
-invalid component number in QCC marker segment
-invalid component number in RGN marker segment
-invalid number of guard bits
-invalid precinct height
-invalid precinct width
-invalid tile grid offset (%lu, %lu)
-invalid tile height %lu
-invalid tile number in SOT marker segment
-invalid tile width %lu
+incorrect magic number\n
+ind=%d; len = %d;\n
+intermediate layer rates must increase monotonically\n
+invalid JP encoder options\n
+invalid PNM encoder options specified\n
+invalid code block height %d\n
+invalid code block width %d\n
+invalid component number in COC marker segment\n
+invalid component number in QCC marker segment\n
+invalid component number in RGN marker segment\n
+invalid number of guard bits\n
+invalid precinct height\n
+invalid precinct width\n
+invalid tile grid offset (%lu, %lu)\n
+invalid tile height %lu\n
+invalid tile number in SOT marker segment\n
+invalid tile width %lu\n
 isalpha
 isdigit
 isprint
 isspace
 j'Vlk
-jpc_dec_decodecblks failed
-jpc_dec_decodepkts failed
-l$ A+
-l$ ATAUAVAWLcq
-l$ ATAUAVAWLcy
-l$ D;m,
-l$ E+
-l$ VH
-l$ VWATAUAVAW
-l$ VWATAVAWH
-l$ WAVAWH
-l$ WH
-l$(A+
-l$(A9u
-l$(D;
-l$(E3
-l$(E;
-l$0;A
-l$0E3
-l$0Hc
-l$0HcD$4
-l$8A+
-l$8A;
-l$8E3
-l$@A;
-l$@A_A^A]A\
-l$@D9s8~YH
-l$DA9l$
-l$DA;l$
-l$DE+
-l$DE9nH
-l$HA_A^A]A\_^
-l$HE3
-l$HHc
-l$HI;
-l$HLc
-l$HLcH
-l$PA;
-l$PA_A^A]A\_^
-l$PE;l$
-l$TA+
-l$XHc
-l$`E3
-l$hE3
-l$hHc
-l$pfff
-l$tLi
-le[%d] = %d
+jpc_dec_decodecblks failed\n
+jpc_dec_decodepkts failed\n
+kTRC
+lazy
+le[%d] = %d\n
+lrcp
 lwtpt
-lyrno = %02d
-lyrno=%02d cmptno=%02d rlvlno=%02d bandno=%02d prcno=%02d cblkno=%03d passno=%03d
-maclen = %d
+lyrno = %02d\n
+lyrno=%02d cmptno=%02d rlvlno=%02d bandno=%02d prcno=%02d cblkno=%03d passno=%03d\n
+maclen = %d\n
 malloc
-maxlen=%08ld actuallen=%08ld thresh=%f
+maxlen=%08ld actuallen=%08ld thresh=%f\n
 maxlyrs
 maxpkts
+meas
 memcmp
 memcpy
 memmove
 memset
-method=%d; pri=%d; approx=%d
-min rdslope = %f max rdslope = %f
-missing EPH marker segment
-missing SOP marker segment
+method=%d; pri=%d; approx=%d\n
+min rdslope = %f max rdslope = %f\n
+missing EPH marker segment\n
+missing SOP marker segment\n
 mntrRGB XYZ 
+mode
 mode=real
-must be at least one resolution level
-n0fD;w0
-nhfff
-no palettized image support for BMP format
+must be at least one resolution level\n
+no palettized image support for BMP format\n
 nomct
-ntelA
-number of entires = %d
-numchans = %d
-numdlvls = %d; qmfbid = %d; mctrans = %d
-numents=%d; numchans=%d
+number of entires = %d\n
+numchans = %d\n
+numdlvls = %d; qmfbid = %d; mctrans = %d\n
+numents=%d; numchans=%d\n
 numgbits
-numinchans=%d, numoutchans=%d, clutlen=%d
-numintabents=%d, numouttabents=%d
+numinchans=%d, numoutchans=%d, clutlen=%d\n
+numintabents=%d, numouttabents=%d\n
 numrlvls
-o IcG
-o09o$
-oh9w\~lL
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
-pA]A\_^[
-pA^A]A\_^
-pA_A^A\_^][
-pA_A^A]A\_^]
-pA_A^_^[
-pA_][
-packet body offset=%06ld
-packet offset=%08ld prg=%d cmptno=%02d rlvlno=%02d prcno=%03d lyrno=%02d
+packet body offset=%06ld\n
+packet offset=%08ld prg=%d cmptno=%02d rlvlno=%02d prcno=%03d lyrno=%02d\n
+pamc
+pcrl
 pdmdd
 po[%d] = %d; 
 prcheight
 prcwidth
-prcwidth[%d] = %d, prcheight[%d] = %d
-prec[%d] = %d; sgnd[%d] = %d; hsamp[%d] = %d; vsamp[%d] = %d
-prg = %d; numlyrs = %d;
+prcwidth[%d] = %d, prcheight[%d] = %d\n
+prec
+prec[%d] = %d; sgnd[%d] = %d; hsamp[%d] = %d; vsamp[%d] = %d\n
+prg = %d; numlyrs = %d;\n
 pterm
-pytft
-q(E9f 
-q,A;]
+pytf
 qjp2.dll
-qntsty = %d; numguard = %d; numstepsizes = %d
+qntsty = %d; numguard = %d; numstepsizes = %d\n
 qsort
 qt_plugin_instance
 qt_plugin_query_metadata
 quality
-rbCYt
-read error
+rXYZ
+rate
+rdhi
+read error\n
+real
 realloc
-regid = %d;
+regid = %d;\n
 resetprob
 rewind
+rlcp
+rloc
+rpcl
 rs[%d] = %d; re[%d] = %d; 
-s%D;k
-s89{0~IM
 sAmTb
-sL@8s8u
 sRGB IEC61966-2.1
 sampperx
 samppery
-sccode = %d
+sccode = %d\n
 scnrGRAYXYZ 
 segsym
-seqno = %d;
-sh9{\~KH
-skipping unknown data in BMP file
+seqno = %d;\n
+sgnd
+sig 
+skipping unknown data in BMP file\n
+sqrt
 strchr
-string = "%s"
+string = "%s"\n
 strncpy
 strtok
-success %d goodthresh %f
-t	HcB
-t D8c
-t$ A+
-t$ ATAVAWH
-t$ AUAVAWHcq
-t$ AV
-t$ AVAWH
-t$ AVH
-t$ AWH
-t$ D;
-t$ Di
-t$ E3
-t$ HcD$$A
-t$ WATAUAVAW
-t$ WATAUAVAWH
-t$ WATAUAVD
-t$ WATAWH
-t$ WAVAWH
-t$ WH
-t$ u1E
-t$(@8h
-t$(A;|$|
-t$(A^
-t$(E+
-t$(Hc
-t$,A+
-t$0;o8
-t$0A+
-t$0A_A^
-t$0D;
-t$0E3
-t$8A;
-t$8A_A^A\
-t$8A_A^A]
-t$8E3
-t$8Hc
-t$<L;l$h
-t$@A9}
-t$@A^A]A\_
-t$@E3
-t$@IcD$8Li
-t$@Mc
-t$@f;u
-t$@f;} 
-t$DA+
-t$DA9w
-t$DD;u
-t$DE3
-t$HA;
-t$HE3
-t$`A;/
-t$`fA;u
-t$p9kP~
-t$pE3
-t$pHcIPH
-t$x9{
-t&IcEHA
-t'fff
-t(D9&}#H
-t)D96}$H
-t.9+~!H
-t.93~!H
-t.fff
-t5;S<u
-t<H9k
-t?9|$$t9A
-t@D9g u:
-tCHc}
-tY@8sXuSH
-t\Hcu
-t];Cxr
-t^D9#~@
-tbHc~
+success %d goodthresh %f\n
 termall
-tgfff
+text
 tilegrdtlx
 tilegrdtly
 tileheight
-tileno = %d; len = %d; partno = %d; numparts = %d
+tileno = %d; len = %d; partno = %d; numparts = %d\n
 tilewidth
-tilewidth = %d; tileheight = %d; tilexoff = %d; tileyoff = %d;
+tilewidth = %d; tileheight = %d; tilexoff = %d; tileyoff = %d;\n
 tmpfile
 tmpnam
-toHcC
-too many layers
-twHcE H
-txHcu
+too many layers\n
+tscu
+txet
 type = 0x%04x (%s);
-type=%c%s%c (0x%08x); length=%d
-u	D+B
-u	HcB
-u"IcF8
-u%HcWxH
-u-LcC0H
-u1LcG
-u2HcB
-u5D9w t/H
-u9D9Q
-u:E9n
-u:Lc@
-u@A9l$
-u@E9n
-u@Hc}
-uA8CHt
-uD9L$(thA
-uDD9Q
-uFE9n
-uGA9l$
-uLE9n
-uMfA9h uFfA9h0u?fA9h@u8fA9hPu1fA9h`u*fA9hpu#A
-uNA9l$
-uOD9y
-uRE9n
+type=%c%s%c (0x%08x); length=%d\n
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-uUA9l$
-uVfE9M uOfE9M0uHfE9M@uAfE9MPu:fE9M`u3fE9Mpu,A
-uXE9n
-uYfA9h uRfA9h0uKfA9h@uDfA9hPu=fA9h`u6fA9hpu/A
-u\A9l$
-uaD9y
-ucA9l$
-uclangcode = %d; uclen = %d
-ufLcGD
-ugD9q
-uhD9}\~wH
-umHcu
-umfE9H uffE9H0u_fE9H@uXfE9HPuQfE9H`uJfE9HpuCA
-unexpected marker segment type
-unsupported BMP encoding
-unsupported image type
-urHc~
-uzHcu
-vPD;s
+uclangcode = %d; uclen = %d\n
+unexpected marker segment type\n
+unsupported BMP encoding\n
+unsupported image type\n
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-v`;{\|
-v`D;}\|
 vcausal
-version
-video/mj2
-w0HcCHH
-w1kK0
-w4kK0
-w@f;^0s2
-warning: bad segmentation symbol
-warning: bad termination pattern detected
-warning: cannot handle large 64-bit box length
-warning: color space apparently not RGB
-warning: component data type mismatch
-warning: corrupt code stream
-warning: empty layer generated
-warning: ignoring BMP decoder options
-warning: ignoring BMP encoder options
-warning: ignoring RAS decoder options
-warning: ignoring RAS encoder options
-warning: ignoring invalid option %s
-warning: ignoring options
-warning: ignoring trailing garbage (%lu bytes)
-warning: ignoring unknown marker segment
-warning: ignoring unsupported options
-warning: inaccurate color
-warning: intermediate layer rates must be less than overall rate
-warning: invalid intermediate layer rates specifier ignored (%s)
-warning: missing CMAP box or superfluous PCLR box
-warning: missing PCLR box or superfluous CMAP box
-warning: not enough tile data (%lu bytes)
-warning: number of components mismatch
-warning: overriding imgareatlx value
-warning: overriding imgareatly value
-warning: palettized images not fully supported
-warning: possibly corrupt code stream
-warning: specified rate is unreasonably large (%lu > %lu)
-warning: stopping decode prematurely as requested
-warning: superfluous BPCC box
-warning: support for signed sample data requires use of nonstandard extension to PNM format
-warning: trailing garbage in marker segment (%ld bytes)
+view
+vruc
+vued
+warning: bad segmentation symbol\n
+warning: bad termination pattern detected\n
+warning: cannot handle large 64-bit box length\n
+warning: color space apparently not RGB\n
+warning: component data type mismatch\n
+warning: corrupt code stream\n
+warning: empty layer generated\n
+warning: ignoring BMP decoder options\n
+warning: ignoring BMP encoder options\n
+warning: ignoring RAS decoder options\n
+warning: ignoring RAS encoder options\n
+warning: ignoring invalid option %s\n
+warning: ignoring options\n
+warning: ignoring trailing garbage (%lu bytes)\n
+warning: ignoring unknown marker segment\n
+warning: ignoring unsupported options\n
+warning: inaccurate color\n
+warning: intermediate layer rates must be less than overall rate\n
+warning: invalid intermediate layer rates specifier ignored (%s)\n
+warning: missing CMAP box or superfluous PCLR box\n
+warning: missing PCLR box or superfluous CMAP box\n
+warning: not enough tile data (%lu bytes)\n
+warning: number of components mismatch\n
+warning: overriding imgareatlx value\n
+warning: overriding imgareatly value\n
+warning: palettized images not fully supported\n
+warning: possibly corrupt code stream\n
+warning: specified rate is unreasonably large (%lu > %lu)\n
+warning: stopping decode prematurely as requested\n
+warning: superfluous BPCC box\n
+warning: support for signed sample data requires use of nonstandard extension to PNM format\n
+warning: trailing garbage in marker segment (%ld bytes)\n
 width
-width = %d; height = %d; xoff = %d; yoff = %d;
-write component failed
-x	9CX
-x	9G0
-x	9HX
-x	9KX
-x	9SX
-x A9HX|
-x"9PX|
-x#9KX|
-x#9SX|
-x$D9CX|
-x%A9HX|
-x+9JX|&
-x+9PX|&
-x-9SX|(
-x.9PX|)
-x79KX|2
-x>9PX|9
-x?9PX|:
-xAA9HX|;
-xA^_][H
-xA_A\_^
-xA_A]A\^][
-xA_A^A]A\_^][
-xA_A^A]_^[
-xE9KX|@
-xHcC@D9|
-xHcK@D9|
-xi9JX|d
-xs =%d, ys = %d, xe = %d, ye = %d, w = %d, h = %d
-y0Hci8x@
-y2@-!
+width = %d; height = %d; xoff = %d; yoff = %d;\n
+write component failed\n
+xs =%d, ys = %d, xe = %d, ye = %d, w = %d, h = %d\n
+yR@4
+yb@m
+yr@T
 zp@Nd
-{ L9k u
 {@Ggk
-{F9{@
-{h9k\
-{|H9{Xu?
-|$ ;uH
-|$ A9V
-|$ ATAVAWH
-|$ AUAVAWH
-|$ AVAWD
-|$ AVAWH
-|$ AVH
-|$ D9
-|$ E3
-|$ E;
-|$ UAVAWH
-|$ fff
-|$(A;
-|$(L;
-|$(t%
-|$0A;
-|$0A_A^
-|$0D+
-|$0E3
-|$0t\
-|$0u#H
-|$8@8h
-|$8A9v
-|$8Bu
-|$8L;l$H
-|$8Pu!
-|$8tqH
-|$9Mu
-|$9Ou
-|$<;{0
-|$@A9v$
-|$@D#
-|$@E;z
-|$@Hc
-|$@I;
-|$@IcD$8Li
-|$@IcL$8Li
-|$DD;}
-|$H9M
-|$HA;
-|$HHcL$DH
-|$HL+
-|$HfA;.
-|$PE9|$
-|$Pu H
-|$X+|$T
-|$XE+
-|$`ff
-|$hA9V
-|$hE9w
-|$pA;
-|$xE;
-|E94$
-} A9>~13
-}jfff
-~ HcG$
-~*fff
-~,fff
-~1fff
-~8fff
-~@fD;e0
-~ZHcD$xH
-~aHcD$hH
-~x~}I

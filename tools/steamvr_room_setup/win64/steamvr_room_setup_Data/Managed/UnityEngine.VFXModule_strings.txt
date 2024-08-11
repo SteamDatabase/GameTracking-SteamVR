@@ -5,7 +5,6 @@
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
 !Modules/VFX/Public/VisualEffect.h
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -60,14 +59,16 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
 =Modules/VFX/Public/ScriptBindings/VisualEffectAssetBindings.h
-@.reloc
+ACos
+ASin
+ATan
 ATan2
 AdvanceOneFrame
 ArgumentNullException
 Assembly-CSharp-testable
+BSJB
 BakeCurve
 BakeGradient
 Behaviour
@@ -86,6 +87,7 @@ CastIntToFloat
 CastIntToUint
 CastUintToFloat
 CastUintToInt
+Ceil
 Cellular::Generate
 Cellular::GenerateCurl
 CheckValidVFXEventAttribute
@@ -109,6 +111,7 @@ DebuggingModes
 Depth
 Dispose
 Divide
+Enum
 ExtractAnglesFromMatrix
 ExtractAspectRatioFromMainCamera
 ExtractComponent
@@ -122,6 +125,7 @@ ExtractScaleFromMatrix
 FixedDeltaTime
 FlagsAttribute
 Floor
+Frac
 FrameIndex
 GenerateCellularCurlNoise2D
 GenerateCellularCurlNoise2D_Injected
@@ -248,8 +252,8 @@ InvalidOperationException
 InverseMatrix
 InverseTRSMatrix
 IsCameraBufferNeeded
-IsThreadSafe
 LocalToWorld
+Log2
 LogicalAnd
 LogicalNot
 LogicalOr
@@ -333,6 +337,7 @@ SetVector4
 SetVector4_Injected
 SetWrapValue
 Shader
+Sign
 Simulate
 SkipVerification
 Spline
@@ -372,7 +377,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -479,14 +483,18 @@ VisualEffectObject
 Voro::Generate
 WorldToLocal
 WrapNonExceptionThrows
+Zero
+\fIsThreadSafe
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 buffer
 channelIndex
 channelOffset
 coordinate
 curve
 dUnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+e\v4\vx
 eventAttibute
 eventAttribute
 eventName
@@ -514,8 +522,10 @@ lacunarity
 m_Owner
 m_Ptr
 m_VfxAsset
+mesh
 mscoree.dll
 mscorlib
+name
 nameID
 octaveCount
 op_Equality
@@ -538,6 +548,7 @@ smoothness
 state
 stepCount
 stepDeltaTime
+type
 v2.0.50727
 value
 value__
@@ -545,4 +556,5 @@ vertexIndex
 vertexStride
 vfxComponent
 vfxValues
+warp
 width

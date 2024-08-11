@@ -1,9 +1,12 @@
+ ( def. "%s" )
+ ReadToken overflow
+ [%.3f server clamped to %.3f]
 !m_bNeedsSort
-"%s" "
-"%s" "%s"
 "%s" = "%s"
-"%s"{
-"id" "elementid"
+"ctrl"\t"1"\n
+"id" "elementid" 
+"keycode"\t"%s"\n
+"shift"\t"1"\n
 #Frame_Untitled
 #MessageBox_Cancel
 #MessageBox_OK
@@ -20,10 +23,10 @@
 #TextEntry_ReplaceText
 #TextEntry_SentenceMode
 #base
-#base is NULL
+#base is NULL 
 #empty#
 #include
-#include is NULL
+#include is NULL 
 #int#
 #var_
 #var_%s
@@ -34,30 +37,19 @@
 #vgui_TimeLeftSecond
 #vgui_TimeLeftSeconds
 $ORIGIN
-%
-%%%d
-%%%s%%
-%-120s
-%-120s - %s
+%-120s - %s\n
+%-120s\n
 %d %d %d %d
 %d_hidden
 %d_width
 %f %f %f %f
-%hd
-%hu
 %i %i %i %i
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%s
-%s %s
-%s moved to front
+%s moved to front\n
 %s string image, int src_corner_height, int src_corner_width, int draw_corner_height, int draw_corner_width
-%s%d
-%s%s
-%s(%d) : %s
-%s,
+%s(%d) : %s\n
 %s, bool showScrollBar, bool allowMouseWheel, bool overrideChildPanelWidth
 %s, bool textHidden, bool editable, bool unicode, bool NumericInputOnly, int maxchars
 %s, int SubTabPosition
@@ -65,29 +57,23 @@ $ORIGIN
 %s, string command, int default
 %s, string image
 %s, string image, string border, string fillcolor, bool scaleImage
+%s, string image, string imagecolor, alignment imageAlignment, int preserveAspectRatio, int filtered
+%s, string labelText, string associate, alignment textAlignment, int wrap, int dulltext, int brighttext, string font
 %s, string progress, string variable
 %s, string text, bool scrollbar
 %s, string title
-%s/
-%s: '%s'
-%s: string format requested %d chars
+%s: string format requested %d chars\n
 %s:hscroll
 %s:vscroll
-%u
 &Apply
 &Cut
 &Exit
 &Reload Localization
 &Save
-( def. "%s" )
-(*%s*),
 (no name)
-*
 *N12_GLOBAL__N_115ScrollBarButtonE
 *N12_GLOBAL__N_116CaptionGripPanelE
 *N12_GLOBAL__N_19GripPanelE
-+
-,
 -avx
 -language
 -pixel_offset_x
@@ -97,7 +83,6 @@ $ORIGIN
 -sse4
 -vguifocus
 -vguimessages
-...
 ../../public/tier1/utllinkedlist.h
 ../../public/tier1/utlrbtree.h
 ../../public/tier1/utlsortvector.h
@@ -159,17 +144,15 @@ $ORIGIN
 28CVguiProceduralLayerRenderer
 3 - bottom-right
 3 - down & right
-3C
-4
+333333
 4 - no pin
-4C
+5t~BC
 6ConVar
 7Dragger
 7IConVar
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
-</a>
-<< NULL >>
+<< NULL >>\n
 <NULL>
 <a href=
 <deferred>
@@ -178,28 +161,26 @@ $ORIGIN
 <null>
 <unconnected>
 <unknown>
->
 ?../public/tier1/utlrbtree.h
-???
-@
-@@
-@A
-A
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+?ButtonToggled
+?ComboBoxButton
+?VScript
+@DrawPrintText
+@mempool.cpp
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 APanelListPanel
 Accel
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
 ActivateItem
+AddRef
 AllocInternal
-Already have converter for type %s, ignoring...
-Alt
+Already have converter for type %s, ignoring...\n
 AnimGraphEditorUtils001
 AnimatingImagePanel
 AnimationController
 AnimationSystemUtils_001
 AnimationSystem_001
-App
 ApplyButton
 ApplyChanges
 ApplyDataToControls
@@ -210,6 +191,7 @@ AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
 AutoResize
+BContinuousProgressBar
 Backspace
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
@@ -218,9 +200,9 @@ BakedLODBuilderMgr001
 Baseclass unpack
 BenchmarkService001
 BinaryProperties_GetValue
-BindTextureToFile: Invalid texture id %d
-BindTextureToFile: Invalid texture id for file %s
-BindTextureToTextureHandle: Invalid texture id %d
+BindTextureToFile: Invalid texture id %d\n
+BindTextureToFile: Invalid texture id for file %s\n
+BindTextureToTextureHandle: Invalid texture id %d\n
 BorderDark
 Bounce
 Break
@@ -236,7 +218,6 @@ Button.DepressedTextColor
 Button.FocusBorderColor
 ButtonClicked
 ButtonKeyFocusBorder
-C
 C&opy
 CBitmapImagePanel
 CBufferString::AppendConcat(int, char const* const*, int const*, bool)
@@ -262,25 +243,25 @@ CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
 CBuildFactoryHelper
-CBuildFactoryHelper:  Factory for '%s' already exists!!!!
+CBuildFactoryHelper:  Factory for '%s' already exists!!!!\n
 CBuildModeNavCombo
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CDmePanelDefinition
 CDragDropHelperPanel
 CMatSystemTexture::SetMaterial
 CMemAllocSystemInitialize
-CMemoryStack %s
+CMemoryStack %s\n
 COLORCORRECTION_VERSION_1
 CONTENT
 CONTENTROOT
 CSmallTextEntry
 CTextureDictionary::BindTextureToFile
 CTextureDictionary::GetTextureSize()
-CTextureDictionary::GetTextureSize() blocking load
-CTextureDictionary::GetTextureSize() texture "%s" has no handles to load. And therefore no size
+CTextureDictionary::GetTextureSize() blocking load\n
+CTextureDictionary::GetTextureSize() texture "%s" has no handles to load. And therefore no size\n
 CTextureDictionary::LoadDeferredIdNOW()
-CTextureDictionary::LoadDeferredIdNOW() blocking load of "%s"
+CTextureDictionary::LoadDeferredIdNOW() blocking load of "%s"\n
 CTextureDictionary::ProcessDeferredResourceLoading()
 CThreadEvent::CThreadEvent(bool)
 CThreadEvent::Set()
@@ -295,11 +276,11 @@ CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
 CTreeViewListControl
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CVGuiPaintSurfaceQueued::DrawFilledRectArray
 CVGuiPaintSurfaceQueued::DrawFilledRectFade
 CVGuiPaintSurfaceQueued::DrawOutlinedCircle
@@ -314,7 +295,7 @@ CVGuiRenderSurface::Init
 CVGuiRenderSurface::StartDrawing
 CXXABI_1.3
 CallQueued
-Can't add Keybindings Context for unnamed panels
+Can't add Keybindings Context for unnamed panels\n
 CanBeDefaultButton
 Candidate
 Cannot Apply
@@ -348,9 +329,9 @@ ComboBoxButton.BgColor
 ComboBoxButton.DisabledBgColor
 CommandLine
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
 ControlFactory
@@ -358,11 +339,11 @@ ControlModified
 ControlName
 ControlText
 ConversionModeMenu
-Couldn't find script file %s
-Couldn't parse script file: expected 'event', found '%s'
-Couldn't parse script file: expected <event name>, found nothing
-Couldn't parse script sequence '%s': expected '{', found '%s'
-Couldn't parse script sequence '%s': expected <anim command>, found '%s'
+Couldn't find script file %s\n
+Couldn't parse script file: expected 'event', found '%s'\n
+Couldn't parse script file: expected <event name>, found nothing\n
+Couldn't parse script sequence '%s': expected '{', found '%s'\n
+Couldn't parse script sequence '%s': expected <anim command>, found '%s'\n
 CreateInterface
 CreateNewControl
 Ctrl
@@ -382,7 +363,6 @@ Default
 DefaultSmall
 DefaultUnderline
 DefaultVerySmall
-Del
 Delete
 DeletePanel
 DeletePanelButton
@@ -438,10 +418,9 @@ DrawUnicodeChar
 DrawUnicodeString
 DrawWordBubble
 DropContext
-E
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+ERROR: Specified full path %s does not lie under the mod search path!)\n
+ERROR: Specified path %s could not be made content-relative\n
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -449,7 +428,6 @@ EditMenu
 EditablePanel
 Empty
 EnableSaveButton
-End
 Engine2
 EngineServiceMgr001
 EnvironmentMapBuilder_001
@@ -462,16 +440,16 @@ Expand
 ExpandButton
 ExpandButton.Color
 Expanded
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-Fieldname is not unique: %sRename it and try again.
+Fieldname is not unique: %s\nRename it and try again.
 FileSelectionCombo
 Find
 FindDefaultButton
 FindLessOrEqual
 FinishDrawing
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlashWindow
 FlattenedSerializersVersion001
 Flicker
@@ -510,12 +488,11 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUI
 GameUIService_001
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 GetCPUInformation
 GetCStringCharConversion
 GetCommand
@@ -539,20 +516,19 @@ Hotkey
 IMECandidatesMenu
 IQuickTime001
 IgnoreScheme
-In the Build Mode Dialog Window:Delete button - deletes the currently selected panel if it is deletable.Apply button - applies changes to the Context Panel.Save button - saves all settings to file. Revert to saved- reloads the last saved file.Auto Update - any changes apply instantly.Typing Enter in any text field applies changes.New Control menu - creates a new panel in the upper left corner.In the Context Panel:After selecting and moving a panel Ctrl-z will undo the move.Shift clicking panels allows multiple panels to be selected into a group.Ctrl-c copies the settings of the last selected panel.Ctrl-v creates a new panel with the copied settings at the location of the mouse pointer.Arrow keys slowly move panels, holding shift + arrow will slowly resize it.Holding right mouse button down opens a dropdown panel creation menu.  Panel will be created where the menu was opened.Delete key deletes the currently selected panel if it is deletable.  Does nothing to multiple selections.
+In the Build Mode Dialog Window:\nDelete button - deletes the currently selected panel if it is deletable.\nApply button - applies changes to the Context Panel.\nSave button - saves all settings to file. \nRevert to saved- reloads the last saved file.\nAuto Update - any changes apply instantly.\nTyping Enter in any text field applies changes.\nNew Control menu - creates a new panel in the upper left corner.\n\nIn the Context Panel:\nAfter selecting and moving a panel Ctrl-z will undo the move.\nShift clicking panels allows multiple panels to be selected into a group.\nCtrl-c copies the settings of the last selected panel.\nCtrl-v creates a new panel with the copied settings at the location of the mouse pointer.\nArrow keys slowly move panels, holding shift + arrow will slowly resize it.\nHolding right mouse button down opens a dropdown panel creation menu.\n  Panel will be created where the menu was opened.\nDelete key deletes the currently selected panel if it is deletable.\n  Does nothing to multiple selections.
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-Ins
 Insert
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
-Intentionally vague touch behavior for %p
-Invalid access of deferred ConVarRef for '%s'
+Intentionally vague touch behavior for %p\n
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid parent region %s specified for region %s in panel %s
 Invalidate
-JSON error, unterminated element:
+JSON error, unterminated element: 
 KEY_0
 KEY_1
 KEY_2
@@ -677,7 +653,7 @@ Key Pad 7
 Key Pad 8
 Key Pad 9
 Key Pad Enter
-KeyBinding for panel '%s' contained unknown binding '%s'
+KeyBinding for panel '%s' contained unknown binding '%s'\n
 KeyCodePressed
 KeyCodeReleased
 KeyCodeTyped
@@ -685,10 +661,10 @@ KeyFocusTicked
 KeyModeSet
 KeyTyped
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 LINUX
 LOG_GENERAL
@@ -727,7 +703,6 @@ LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
 MATCHFRAMEWORK_001
 MATSURFACE
-MOD
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
@@ -735,6 +710,7 @@ Marlett
 MarlettSmall
 MaterialUtils_001
 MathLib_Init
+MbP?+
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Menu.ArmedBgColor
@@ -753,9 +729,9 @@ MenuScrollBar
 MenuSeparator
 MeshSystem001
 MeshUtils001
-Message '%s' not handled by panel '%s'
-Message '%s', sent to '%s', has an invalid parameter type
-Message '%s', sent to '%s', has invalid parameter types
+Message '%s' not handled by panel '%s'\n
+Message '%s', sent to '%s', has an invalid parameter type\n
+Message '%s', sent to '%s', has invalid parameter types\n
 MessageBox
 MessageBoxText
 MinimizeToSysTray
@@ -769,7 +745,6 @@ MouseWheeled
 Move
 MoveScrollBar
 MoveScrollBarDirect
-N
 N4vgui10BuildGroupE
 N4vgui10ClickPanelE
 N4vgui10GraphPanelE
@@ -829,6 +804,7 @@ N4vgui8TreeViewE
 N4vgui8URLLabelE
 N4vgui9ListPanelE
 N4vgui9ScrollBarE
+N4vgui9TextEntryE
 N4vgui9TextImageE
 NULL
 NetworkClientService_001
@@ -842,13 +818,12 @@ NewControls
 NewNode
 Next
 NextChild
-No binding for '%s', defautl key already bound to '%s'
-No such Panel Animation class %s
+No binding for '%s', defautl key already bound to '%s'\n
+No such Panel Animation class %s\n
 None
 Num Lock
 Num Lock Toggle
 NumericInputOnly
-OSX
 OnCancel
 OnChangeChild
 OnCursorMoved
@@ -861,11 +836,10 @@ OnRequestFocus
 OnScreenSizeChanged
 OpenColumnChoiceMenu
 OpenContextMenu
-P@
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 POSIX
-PS3
-Panel::ReloadKeyBindings:  Can't find entry for panel '%s'
-Panel::SaveKeyBindings '%s' is read-only!!!
+Panel::ReloadKeyBindings:  Can't find entry for panel '%s'\n
+Panel::SaveKeyBindings '%s' is read-only!!!\n
 PanelListEmbedded
 PanelListPanelVScroll
 PanelMoved
@@ -916,14 +890,13 @@ PrevChild
 PropertyEditorSystem_001
 Pulse
 PushMakeCurrent
-Queued fxn call: %s
-Queued fxn call: %s '%s'
+Queued fxn call: %s '%s'\n
+Queued fxn call: %s\n
 QueuedLoaderVersion001
 RadioButton
 RadioButtonChecked
 RandomFloat
 RandomSeed
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -931,7 +904,7 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Release
 ReloadLocalization
 Remaining
@@ -944,7 +917,7 @@ RenderSystemTopPanel
 RenderUtils_001
 Repaint
 ResizeColumnToContents
-ResolveVagueResourceFileName:: changed %s to %s
+ResolveVagueResourceFileName:: changed %s to %s\n
 ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
@@ -958,10 +931,9 @@ RichText.InsetY
 RichText.SelectedBgColor
 RichText.SelectedTextColor
 RichText.TextColor
-RichText: textfile parameter '%s' not found.
+RichText: textfile parameter '%s' not found.\n
 RichTextInterior
 RoundedCorners
-S
 SSE and SSE2 are required.
 ScalableImagePanel
 SceneSystem_002
@@ -1019,9 +991,9 @@ SetSortColumn
 SetState
 SetStencilReference
 SetString
-SetSubTextureRGBA: Invalid texture id %i
+SetSubTextureRGBA: Invalid texture id %i\n
 SetText
-SetTextureRGBA: Invalid texture id %i
+SetTextureRGBA: Invalid texture id %i\n
 SetTitle
 SetZPos
 Shift
@@ -1052,7 +1024,6 @@ StatusLabel
 SteamAudio001
 StopPanelAnimations
 StoreUndo
-Tab
 Test vgui panel positioning with title safe indentation
 TestFormatA
 TestFormatB
@@ -1075,7 +1046,7 @@ TextKillFocus
 TextLayout_001
 TextMessageMgr_001
 TextNewLine
-Texture dictionary loading texture "%s" directly
+Texture dictionary loading texture "%s" directly\n
 Texture1
 Texture2
 Texture3
@@ -1089,7 +1060,7 @@ TitleButtonDisabledBorder
 ToggleButton
 ToggleButton.SelectedTextColor
 ToggleColumnVisible
-Too many popups! Rendering will be bad!
+Too many popups! Rendering will be bad!\n
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -1113,8 +1084,8 @@ TreeViewItemSelectionCleared
 TreeViewStartRangeSelection
 URLLabel
 UUID_1.0
-Unable to create panel %s!
-Unable to read panel %s! UtlBuffer is the wrong type!
+Unable to create panel %s!\n
+Unable to read panel %s! UtlBuffer is the wrong type!\n
 UnpinnedCornerOffsetX
 UnpinnedCornerOffsetY
 UpArrow
@@ -1141,11 +1112,11 @@ VGUI_System010
 VGUI_ivgui008
 VGuiPaintSurfaceLayout
 VGuiRenderSurface
-VGuiRenderSurface requires the file system to run!
-VGuiRenderSurface requires the material system to run!
-VGuiRenderSurface requires the vgui::IInput system to run!
-VGuiRenderSurface requires the vgui::IPanel system to run!
-VGuiRenderSurface requires the vgui::IVGUI system to run!
+VGuiRenderSurface requires the file system to run!\n
+VGuiRenderSurface requires the material system to run!\n
+VGuiRenderSurface requires the vgui::IInput system to run!\n
+VGuiRenderSurface requires the vgui::IPanel system to run!\n
+VGuiRenderSurface requires the vgui::IVGUI system to run!\n
 VMDLLIB001
 VMaterialSystem2_001
 VMediaFoundation001
@@ -1227,34 +1198,29 @@ VarsButton
 VarsMenu
 VertScrollBar
 Vgui Paint3D View
-Vgui is losing input messages! Call brian!
+Vgui is losing input messages! Call brian!\n
 VguiCallQueue
 VguiPaint3D
 VguiRenderSurfaceInit
 VisBuilder_001
-WARNING: Trying to create a CRenderContextPtr without a valid context.
+WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+WIN32
 WIN32HIDEF
 WIN32LODEF
 WIN32WIDE
 WINDOWS
 WINXP
 Warning
-Warning:  %s = '%s' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.\n
 WindowDisabledBgColor
 Windows
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 X360
-[
 [ no resource file associated with dialog ]
-[$
-[%.3f server clamped to %.3f]
-[%s] applying key '%s', has changed from '%s' to '%s'
+[%s] applying key '%s', has changed from '%s' to '%s'\n
 [nothing currently selected]
-\\
-]
-]<%
 ]vguipaintsurfacequeued.cpp
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -1286,17 +1252,14 @@ __cxa_pure_virtual
 __dynamic_cast
 __gmon_start__
 __stack_chk_fail
-_c
 _edata
 _end
 _fini
 _hidef
 _lodef
-`
 allcaps
 allowMouseWheel
 alpha
-alt
 anim_framerate
 animate
 animationcontroller.cpp
@@ -1329,7 +1292,6 @@ brighttext
 build mode flags
 buildfactoryhelper.cpp
 button
-c%d
 ceil
 ceilf
 cellcolor
@@ -1342,7 +1304,6 @@ cl_hud_minmode
 client
 clientcmd_can_execute
 clientinsetx_override
-col
 color_array
 column
 command
@@ -1351,7 +1312,6 @@ controls
 ctrl
 cvar_name
 cvar_value
-d
 debugbreak
 default
 default foreground color
@@ -1383,8 +1343,6 @@ element
 element_array
 elementid
 english
-f
-f%d
 fg_image
 fgcolor
 fieldName
@@ -1413,18 +1371,15 @@ frame_tlGrip
 frame_topGrip
 frame_trGrip
 frames
-ftp://
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_pMemAlloc
 game
 generic
 group
-h
 handle
 hslider
 http://
-i
 iconImage
 imageAlignment
 imageSelected
@@ -1441,12 +1396,12 @@ iswdigit
 itemID
 itemIndex
 keybindings
+keybindings\n
 keyboardFocusColor_override
 keyboardinputenabled
 keycode
 keyvalues.cpp
 keyvalues2_flat
-l
 labelText
 labeltext
 lastBarWidth
@@ -1482,15 +1437,11 @@ mathlib.cpp
 matrix
 matrix_array
 matsystemtexture_%s_%lld.vtex
-max
-max. %f
 maxchars
-mdl
 memcmp
 memcpy
 memmove
 memset
-min. %f
 minimum-height
 minimum-width
 mouseinputenabled
@@ -1501,11 +1452,11 @@ navUp
 newPanel
 north
 north-east
+north-west
 northeast
 northwest
 notconnected
 notify
-nw
 oldtall
 oldwide
 operator delete(void*)
@@ -1546,17 +1497,13 @@ pthread_mutex_lock
 pthread_mutex_unlock
 pthread_mutexattr_init
 pthread_mutexattr_settype
-ptr
 ptr( 0x%p )
 qangle
 qangle_array
 qsort
 quaternion
 quaternion_array
-r
-r%d
 r_screen_size_expansion
-rb
 replace
 replaceSelection
 replicated
@@ -1567,7 +1514,6 @@ resource/layout/%s_%s.layout
 resourcesystem
 result
 runevent
-s
 scaleAmount
 scaleImage
 schemabindings.cpp
@@ -1583,7 +1529,6 @@ settitlebarvisible
 shift
 should PostActionSignals
 showScrollBar
-sin
 sincos
 singleplayer
 sound_armed
@@ -1616,11 +1561,8 @@ strtol
 style
 subFocus
 subtabposition
-sw
-t
 tab position
 tabPosition
-tan
 textAlignment
 textHidden
 textalignment
@@ -1644,7 +1586,6 @@ titletextinsetX
 titletextinsetY
 tooltip
 tooltiptext
-top
 towlower
 towupper
 true
@@ -1654,14 +1595,14 @@ uint64
 uint64_array
 uint8
 uint8_array
-unable to find control '%s'
+unable to find control '%s'\n
 unichar
 unicode
 unknown
 unnamed
 unused
 update
-url
+url 
 use scheme colors
 use_proportional_insets
 user
@@ -1682,7 +1623,7 @@ vgui::
 vgui::Button
 vgui::HFont
 vguiRender
-vgui_controls is missing a required interface!
+vgui_controls is missing a required interface!\n
 vgui_draw_regions
 vguioffscreenrendertarget
 vguioffscreenrendertargetdepth
@@ -1693,12 +1634,9 @@ vslider
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-wb
 wcschr
 wcscmp
 wcscpy
 wcslen
 www.
 zpos
-{
-{}()':

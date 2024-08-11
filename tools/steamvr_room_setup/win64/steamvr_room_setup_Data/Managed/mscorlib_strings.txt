@@ -1,588 +1,4 @@
-					
-						
-							
-											
-														
-																	
-																								
-																																																																																
-																																																																																											
-																																																																																																																											
-																																																																																																																																																						
-				* ves_icall_System_Reflection_AssemblyName_ParseName
-				* ves_icall_System_Reflection_Assembly_FillName
-				* ves_icall_System_Reflection_Assembly_InternalGetAssemblyName
-				All patterns bellow
-				icall.c: prelink_method / mono_exception_from_name_msg
-				marshal.c: mono_delegate_to_ftnptr and mono_marshal_get_native_wrapper
-			* fill_reflection_assembly_name
-			* ves_icall_System_Reflection_Assembly_GetReferencedAssemblies
-			-->
-			<!-- InternalArray__%s_%s is used in aot-compiler.c -->
-			<!-- MONO_OBJECT_SETREF -->
-			<!-- System.Runtime.Remoting/RemotingServices.cs: GetDomainProxy(AppDomain domain) -->
-			<!-- TransparentProxy.cs, RemotingServices.cs -->
-			<!-- appdomain.c mono_object_new_checked in create_domain_objects -->
-			<!-- appdomain.c mono_object_new_checked in mono_domain_create_appdomain_checked -->
-			<!-- appdomain.c: mono_domain_fire_assembly_load -->
-			<!-- appdomain.c: mono_domain_try_type_resolve -->
-			<!-- appdomain.c: mono_domain_try_unload -->
-			<!-- appdomain.c: mono_exception_from_name_two_strings (only one string in the signature since NULL is used as the 2nd parameter) -->
-			<!-- appdomain.c: mono_get_corlib_version -->
-			<!-- appdomain.c: mono_try_assembly_resolve -->
-			<!-- class.c: initialize_object_slots -->
-			<!-- custom-attrs.c: create_custom_attr_data - create an instance with the ctor using 4 arguments -->
-			<!-- exception.c  mono_exception_from_name_four_strings -->
-			<!-- exception.c (mono_get_exception_file_not_found and mono_get_exception_file_not_found) -->
-			<!-- exception.c (mono_get_exception_type_load) mono_exception_from_name_two_strings -->
-			<!-- exception.c: mono_exception_from_name -->
-			<!-- exception.c: mono_get_exception_field_access / mono_exception_from_name -->
-			<!-- exception.c: mono_get_exception_field_access_msg / mono_exception_from_name_msg -->
-			<!-- exception.c: mono_get_exception_method_access / mono_exception_from_name -->
-			<!-- exception.c: mono_get_exception_method_access_msg / mono_exception_from_name_msg -->
-			<!-- exception.c: mono_get_exception_out_of_memory / mono_exception_from_name -->
-			<!-- exception.c: mono_get_exception_stack_overflow / mono_exception_from_name -->
-			<!-- icall.c (base64_to_byte_array) mono_exception_from_name_msg -->
-			<!-- icall.c mono_object_new_checked in ves_icall_Remoting_RealProxy_GetTransparentProxy -->
-			<!-- icall.c: fill_reflection_assembly_name (assert) and ves_icall_System_Reflection_Assembly_GetReferencedAssemblies (assert) -->
-			<!-- iterates to find the (only) 2 paramaters .ctor -->
-			<!-- marshal.c (init_safe_handle) -->
-			<!-- marshal.c (mono_marshal_get_struct_to_ptr) -->
-			<!-- marshal.c (mono_marshal_get_synchronized_wrapper) -->
-			<!-- marshal.c mono_marshal_get_native_wrapper -->
-			<!-- marshal.c mono_object_new_checked in mono_delegate_end_invoke-->
-			<!-- marshal.c: mono_marshal_get_synchronized_wrapper-->
-			<!-- marshal.c: mono_remoting_marshal_init -->
-			<!-- method-to-ir.c (handle_box) -->
-			<!-- method-to-ir.c (handle_unbox_nullable) -->
-			<!-- method-to-ir.c: mini_redirect_call -->
-			<!-- method-to-it.c: mini_emit_initobj -->
-			<!-- mini-generic-sharing.c: class_type_info 
-			<!-- mini.c (mono_jit_compiler_method_inner) mono_exception_from_name_msg -->
-			<!-- mono_exception_from_name -->
-			<!-- mono_exception_from_name_msg -->
-			<!-- mono_exception_from_name_two_strings (only one string in the signature since NULL is used as the 2nd parameter) -->
-			<!-- mono_exception_from_name_two_strings -->
-			<!-- mono_exception_from_nameg -->
-			<!-- mono_get_exception_bad_image_format / mono_exception_from_name_msg -->
-			<!-- mono_get_exception_bad_image_format2 / mono_exception_from_name_two_strings -->
-			<!-- mono_get_exception_not_implemented -->
-			<!-- needed for debugging -->
-			<!-- object.c mono_object_new_checked in make_transparent_proxy-->
-			<!-- object.c mono_object_new_checked in mono_async_result_new -->
-			<!-- object.c: mono_message_init -->
-			<!-- object.c: mono_wait_handle_get_handle -->
-			<!-- object.c: mono_wait_handle_new -->
-			<!-- reflection.c mono_object_new_checked in add_exception_handling_clause_to_array -->
-			<!-- reflection.c mono_object_new_checked in add_local_var_info_to_array -->
-			<!-- reflection.c mono_object_new_checked in add_parameter_object_to_array -->
-			<!-- reflection.c mono_object_new_checked in event_object_construct -->
-			<!-- reflection.c mono_object_new_checked in field_object_construct -->
-			<!-- reflection.c mono_object_new_checked in method_body_object_construct -->
-			<!-- reflection.c mono_object_new_checked in method_object_construct -->
-			<!-- reflection.c mono_reflection_call_is_assignable_to () -->
-			<!-- runtime access fields and setter from inherited WaitHandle -->
-			<!-- security-manager.c: mono_get_context_capture_method (can likely be removed) -->
-			<!-- threadpool.c mono_object_new_checked in mono_threadpool_begin_invoke -->
-			<!-- threads.c mono_object_new_checked in mono_threads_get_thread_dump -->
-			<!-- used in mini-exceptions.c (if trace is enabled) -->
-			<field name="mono_corlib_version" />
-			<field name="param_name" />
-			<field name="safe_wait_handle" />
-			<method name=".ctor" />
-			<method name=".ctor" feature="remoting" />
-			<method name="AddEventFrame" />
-			<method name="AddModule" feature="sre" />
-			<method name="AddPermissionRequests" feature="sre" />
-			<method name="AddTypeForwarder" feature="sre" />
-			<method name="Box" />
-			<method name="CanCastTo" />
-			<method name="Capture" />
-			<method name="Clear" />
-			<method name="CompareExchange" />
-			<method name="CreateCulture" />
-			<method name="CreateProxyForType"/>
-			<method name="CreateString" />
-			<method name="DangerousAddRef" />
-			<method name="DangerousRelease" />
-			<method name="DefineCustom" feature="sre" />
-			<method name="DefineIconResource" feature="sre" />
-			<method name="DefineLPArrayInternal" feature="sre" />
-			<method name="DeserializeCallData" />
-			<method name="DoAssemblyLoad" />
-			<method name="DoAssemblyResolve" />
-			<method name="DoDomainUnload" />
-			<method name="DoTypeResolve" />
-			<method name="EmbedResourceFile" feature="sre" />
-			<method name="Enter" />
-			<method name="Exchange" />
-			<method name="Exit" />
-			<method name="FieldGetter" feature="remoting" />
-			<method name="FieldSetter" feature="remoting" />
-			<method name="Finalize" />
-			<method name="GetAppDomainTarget" />
-			<method name="GetHashCode" />
-			<method name="GetMarshalledDomainObjRef" feature="remoting" />
-			<method name="GetTypeFromHandle" />
-			<method name="GetterAdapterFrame" />
-			<method name="InitMessage" />
-			<method name="InternalAllocateStr" />
-			<method name="InternalArray__ICollection_Add" />
-			<method name="InternalArray__ICollection_Clear" />
-			<method name="InternalArray__ICollection_Contains" />
-			<method name="InternalArray__ICollection_CopyTo" />
-			<method name="InternalArray__ICollection_Remove" />
-			<method name="InternalArray__ICollection_get_Count" />
-			<method name="InternalArray__ICollection_get_IsReadOnly" />
-			<method name="InternalArray__IEnumerable_GetEnumerator" />
-			<method name="InternalArray__IReadOnlyCollection_get_Count" />
-			<method name="InternalArray__IReadOnlyList_get_Item" />
-			<method name="InternalArray__IndexOf" />
-			<method name="InternalArray__Insert" />
-			<method name="InternalArray__RemoveAt" />
-			<method name="InternalArray__get_Item" />
-			<method name="InternalArray__set_Item" />
-			<method name="InternalSetContext" />
-			<method name="IsAssignableTo" feature="sre" />
-			<method name="LoadRemoteFieldNew" />
-			<method name="Mono_GetCurrentOffset" feature="sre" />
-			<method name="Mono_GetGuid" feature="sre" />
-			<method name="Mono_GetLocalIndex" feature="sre" />
-			<method name="PrivateInvoke" />
-			<method name="RuntimeResolve" feature="sre" />
-			<method name="SerializeCallData" />
-			<method name="SerializeExceptionData" />
-			<method name="SetCharSet" feature="sre" />
-			<method name="SetCurrentCallContext" />
-			<method name="StaticAddEventAdapterFrame" />
-			<method name="StaticGetterAdapterFrame" />
-			<method name="StoreRemoteField" />
-			<method name="StructureToPtr" />
-			<method name="Unbox" />
-			<method name="bzero" />
-			<method name="bzero_aligned_1" />
-			<method name="bzero_aligned_2" />
-			<method name="bzero_aligned_4" />
-			<method name="bzero_aligned_8" />
-			<method name="get_CurrentContext" />
-			<method name="get_Message" />
-			<method name="get_NeedsContextSink" />
-			<method name="get_StackTrace" />
-			<method name="memcpy" />
-			<method name="memcpy_aligned_1" />
-			<method name="memcpy_aligned_2" />
-			<method name="memcpy_aligned_4" />
-			<method name="memcpy_aligned_8" />
-			<method name="memset" />
-			<method name="obj_address" />
-			<method name="set_Handle" />
-			<method signature="System.Void .ctor()" />
-			<method signature="System.Void .ctor()" feature="remoting" />
-			<method signature="System.Void .ctor(System.Boolean)" />
-			<method signature="System.Void .ctor(System.Int32,System.Int32,System.Int32,System.Int32)" />
-			<method signature="System.Void .ctor(System.Object)" />
-			<method signature="System.Void .ctor(System.Object,System.Boolean)" />
-			<method signature="System.Void .ctor(System.Reflection.ConstructorInfo,System.Reflection.Assembly,System.IntPtr,System.UInt32)" />
-			<method signature="System.Void .ctor(System.Reflection.MemberInfo,System.Object)" />
-			<method signature="System.Void .ctor(System.String)" />
-			<method signature="System.Void .ctor(System.String,System.Exception)" />
-			<method signature="System.Void .ctor(System.String,System.String)" />
-			<method signature="System.Void .ctor(System.String,System.String,System.String,System.String)" />
-			<method signature="System.Void .ctor(System.Type,System.Object)" />
-			<method signature="System.Void .ctor(System.Type[],System.Exception[])" />
-			method-to-ir.c: empty branch (wrt Min/Max optimization)
-			mini-[x86|amd64].c needs the type but then only check for names
-			note: there's no fields (static type) but that will mark the type itself -->
-		  <method name="PerformWaitCallback"/>
-		-->
-		<!--
-		<!-- IL2CPP enum sharing -->
-		<!-- aot-compiler.c: add_generic_instances and add_generic_class_with_depth -->
-		<!-- aot-runtime.c: mono_aot_get_method -->
-		<!-- appdomain.c (create_domain_objects) domain->null_reference_ex -->
-		<!-- appdomain.c (create_domain_objects) domain->out_of_memory_ex -->
-		<!-- appdomain.c (create_domain_objects) domain->stack_overflow_ex -->
-		<!-- appdomain.c: mono_context_init -->
-		<!-- appdomain.c: mono_runtime_init -->
-		<!-- appdomain.c: ves_icall_System_AppDomain_GetAssemblies -->
-		<!-- class.c: generic_array_methods -->
-		<!-- class.c: make_generic_param_class -->
-		<!-- cominterop.c -->
-		<!-- comiterop.c -->
-		<!-- debugger-agent.c: create_event_list -->
-		<!-- does not seems used outside the g_assert in domain.c (maybe it could be removed) -->
-		<!-- domain.c: mono_defaults.appdomain_class -->
-		<!-- domain.c: mono_defaults.argumenthandle_class -->		
-		<!-- domain.c: mono_defaults.array_class -->
-		<!-- domain.c: mono_defaults.asyncresult_class (Stubify can't be applied on this type) -->
-		<!-- domain.c: mono_defaults.attribute_class -->
-		<!-- domain.c: mono_defaults.boolean_class -->
-		<!-- domain.c: mono_defaults.byte_class -->
-		<!-- domain.c: mono_defaults.char_class -->
-		<!-- domain.c: mono_defaults.customattribute_data_class -->
-		<!-- domain.c: mono_defaults.delegate_class -->
-		<!-- domain.c: mono_defaults.double_class -->
-		<!-- domain.c: mono_defaults.enum_class -->
-		<!-- domain.c: mono_defaults.exception_class and fields are defined in object-internals.h -->
-		<!-- domain.c: mono_defaults.executioncontext_class -->
-		<!-- domain.c: mono_defaults.field_info_class -->
-		<!-- domain.c: mono_defaults.generic_ilist_class -->
-		<!-- domain.c: mono_defaults.int16_class -->
-		<!-- domain.c: mono_defaults.int32_class -->
-		<!-- domain.c: mono_defaults.int64_class -->
-		<!-- domain.c: mono_defaults.int_class -->
-		<!-- domain.c: mono_defaults.internal_thread_class -->
-		<!-- domain.c: mono_defaults.internals_visible_class -->
-		<!-- domain.c: mono_defaults.iremotingtypeinfo_class / removed with DISABLE_REMOTING -->
-		<!-- domain.c: mono_defaults.manualresetevent_class -->
-		<!-- domain.c: mono_defaults.marshal_class -->
-		<!-- domain.c: mono_defaults.math_class
-		<!-- domain.c: mono_defaults.method_info_class -->
-		<!-- domain.c: mono_defaults.methodhandle_class -->
-		<!-- domain.c: mono_defaults.monitor_class -->
-		<!-- domain.c: mono_defaults.mono_method_message_class -->
-		<!-- domain.c: mono_defaults.multicastdelegate_class -->
-		<!-- domain.c: mono_defaults.nullable_class -->		
-		<!-- domain.c: mono_defaults.object_class -->
-		<!-- domain.c: mono_defaults.real_proxy_class / removed with DISABLE_REMOTING -->
-		<!-- domain.c: mono_defaults.runtimesecurityframe_class -->		
-		<!-- domain.c: mono_defaults.safehandle_class -->
-		<!-- domain.c: mono_defaults.sbyte_class -->
-		<!-- domain.c: mono_defaults.single_class -->
-		<!-- domain.c: mono_defaults.stack_frame_class -->
-		<!-- domain.c: mono_defaults.stack_trace_class -->
-		<!-- domain.c: mono_defaults.string_class -->
-		<!-- domain.c: mono_defaults.stringbuilder_class -->
-		<!-- domain.c: mono_defaults.systemtype_class -->
-		<!-- domain.c: mono_defaults.thread_class -->
-		<!-- domain.c: mono_defaults.threadabortexception_class -->
-		<!-- domain.c: mono_defaults.transparent_proxy_class / removed with DISABLE_REMOTING -->
-		<!-- domain.c: mono_defaults.type_class -->
-		<!-- domain.c: mono_defaults.typed_reference_class -->		
-		<!-- domain.c: mono_defaults.typefield_class -->
-		<!-- domain.c: mono_defaults.typehandle_class -->
-		<!-- domain.c: mono_defaults.uint16_class -->
-		<!-- domain.c: mono_defaults.uint32_class -->
-		<!-- domain.c: mono_defaults.uint64_class -->
-		<!-- domain.c: mono_defaults.uint_class -->
-		<!-- domain.c: mono_defaults.void_class -->
-		<!-- exception.c (ThreadInterruptedException) -->
-		<!-- exception.c (mono_get_exception_argument) -->
-		<!-- exception.c (mono_get_exception_argument_null) -->
-		<!-- exception.c (mono_get_exception_argument_out_of_range) -->
-		<!-- exception.c (mono_get_exception_arithmetic) -->
-		<!-- exception.c (mono_get_exception_array_type_mismatch) -->
-		<!-- exception.c (mono_get_exception_divide_by_zero) -->
-		<!-- exception.c (mono_get_exception_execution_engine) -->
-		<!-- exception.c (mono_get_exception_invalid_cast) -->
-		<!-- exception.c (mono_get_exception_invalid_operation) -->
-		<!-- exception.c (mono_get_exception_io) -->
-		<!-- exception.c (mono_get_exception_not_implemented) -->
-		<!-- exception.c (mono_get_exception_not_supported) -->
-		<!-- exception.c (mono_get_exception_null_reference) -->
-		<!-- exception.c (mono_get_exception_overflow) -->
-		<!-- exception.c (mono_get_exception_serialization) -->
-		<!-- exception.c (mono_get_exception_synchronization_lock) -->
-		<!-- exception.c (mono_get_exception_thread_abort) -->
-		<!-- exception.c (mono_get_exception_type_initialization) -->
-		<!-- exception.c (mono_get_exception_type_load) -->
-		<!-- exception.c / mono-error.c -->
-		<!-- exception.c" mono_get_exception_cannot_unload_appdomain (called by appdomain.c) -->
-		<!-- exception.c: mono_get_exception_appdomain_unloaded (used in several places), threadpool.c -->
-		<!-- exception.c: mono_get_exception_index_out_of_range - used by many in icall.c and in socket-io.c -->
-		<!-- exception.c: mono_get_exception_runtime_wrapped () -->
-		<!-- fileio.h: shared structure between the managed and unmanaged worlds -->
-		<!-- icall.c | object-internal.h: MonoReflectionDllImportAttribute structure -->
-		<!-- icall.c: create_version is used by
-		<!-- icall.c: ves_icall_InternalInvoke -->
-		<!-- icalls - but (at least parts of them) are used thru interfaces at runtime and cannot be linked out -->
-		<!-- loader.c: returned (as a string) from mono_lookup_pinvoke_call and used in
-		<!-- loader.c: returned (as a string) from mono_lookup_pinvoke_call and used in 
-		<!-- marshal.c (mono_marshal_get_native_wrapper) -->
-		<!-- marshal.c: emit several times using mono_mb_emit_exception_full -->
-		<!-- marshal.c: emit_marshal_custom (DISABLE_JIT is not defined for the AOT compiler, only the ARM runtimes) -->
-		<!-- marshal.c: emit_marshal_custom (should not be used on devices)
-		<!-- marshal.c: emit_marshal_vtype -->
-		<!-- marshal.c: mono_mb_emit_exception_marshal_directive -->
-		<!-- marshal.c: mono_remoting_marshal_init / removed with DISABLE_REMOTING -->
-		<!-- mini.c (mono_jit_compiler_method_inner) / mono-error.c -->
-		<!-- mini.c: mono_jit_compile_method_inner (looks like one case is JITted, AOT too) -->
-		<!-- monitor.c / method-to-ir.c: Enter and Exit are only string comparison (safe to link) -->
-		<!-- mono-mlist.c (managed list): used in threadpool.c and gc.c -->
-		<!-- mono/metadata/exception.c mono/metadata/marshal.c ... -->
-		<!-- object-internals.h: defines MonoReflectionUnmanagedFunctionPointerAttribute, marshal.c: use it -->
-		<!-- object-internals.h: defines MonoWaitHandle, threadpool.c: gets the handle from the structure -->
-		<!-- object.c MONO_OBJECT_SETREF in mono_async_result_new -->
-		<!-- object.c: create_unhandled_exception_eventargs (assert) -->
-		<!-- object.c: mono_field_get_value_object and mono_runtime_invoke_array -->
-		<!-- object.c: mono_object_new_specific_checked -->
-		<!-- object.c: mono_runtime_exec_main -->
-		<!-- reflection.c: create_cattr_named_arg - create an instance with the ctor using 2 parameters -->
-		<!-- reflection.c: create_cattr_typed_arg - create an instance with the ctor using 2 parameters -->
-		<!-- reflection.c: mono_get_dbnull_object / comment: Used as the value for ParameterInfo.DefaultValue -->
-		<!-- reflection.c: mono_get_reflection_missing_object -->
-		<!-- reflection.c: mono_method_body_get_object -->
-		<!-- reflection.c: mono_method_get_object uses both MonoGeneric[C]Method / will crash for ves_icall_Type_GetConstructors_internal -->
-		<!-- reflection.c: ves_icall_get_parameter_info -->
-		<!-- socket-io.c: created/raised several time -->
-		<!-- threadpool-ms.c (worker_thread) -->
-		<!-- threadpool.c: MONO_OBJECT_SETREF in create_simple_asyncresult -->
-		<!-- threadpool.c: mono_thread_pool_init (assert) -->
-		<!-- used in mini-exceptions.c to create array and MonoStackFrame instance, i.e. only fields are required to be preserved -->
-		<!-- used in reflection.c to create array of attributes (no need to preserve everything beside the type itself) -->
-		</type>
-		<type fullname="Mono.Interop.ComInteropProxy" feature="com" />
-		<type fullname="Mono.Interop.IDispatch" feature="com" />
-		<type fullname="Mono.Interop.IUnknown" feature="com"/>
-		<type fullname="Mono.Runtime" />
-		<type fullname="Mono.RuntimeStructs/HandleStackMark" />
-		<type fullname="Mono.RuntimeStructs/MonoError" />
-		<type fullname="System.AppDomain" preserve="fields">
-		<type fullname="System.AppDomainSetup" preserve="fields" >
-		<type fullname="System.AppDomainUnloadedException">
-		<type fullname="System.ApplicationException" />
-		<type fullname="System.ArgumentException">
-		<type fullname="System.ArgumentNullException">
-		<type fullname="System.ArgumentOutOfRangeException">
-		<type fullname="System.ArithmeticException">
-		<type fullname="System.Array">
-		<type fullname="System.ArrayTypeMismatchException">
-		<type fullname="System.Attribute" preserve="fields" />
-		<type fullname="System.BadImageFormatException">
-		<type fullname="System.Boolean" preserve="fields" />
-		<type fullname="System.Byte" preserve="fields" />
-		<type fullname="System.ByteEnum" />
-		<type fullname="System.CannotUnloadAppDomainException">
-		<type fullname="System.Char" preserve="fields" />
-		<type fullname="System.Collections.Generic.GenericComparer`1">
-		<type fullname="System.Collections.Generic.GenericEqualityComparer`1">
-		<type fullname="System.Collections.Generic.ICollection`1" />
-		<type fullname="System.Collections.Generic.IEnumerable`1" />
-		<type fullname="System.Collections.Generic.IList`1" />
-		<type fullname="System.Collections.Generic.IReadOnlyCollection`1" />
-		<type fullname="System.Collections.Generic.IReadOnlyList`1" />
-		<type fullname="System.DBNull" preserve="fields" />
-		<type fullname="System.DateTime" preserve="fields" />
-		<type fullname="System.Decimal" preserve="fields" />
-		<type fullname="System.Delegate" preserve="fields" />
-		<type fullname="System.Diagnostics.DebuggerHiddenAttribute"/>
-		<type fullname="System.Diagnostics.DebuggerNonUserCodeAttribute"/>
-		<type fullname="System.Diagnostics.DebuggerStepThroughAttribute"/>
-		<type fullname="System.Diagnostics.StackFrame" preserve="fields" >
-		<type fullname="System.Diagnostics.StackTrace" preserve="fields" />
-		<type fullname="System.DivideByZeroException">
-		<type fullname="System.DllNotFoundException">
-		<type fullname="System.Double" preserve="fields" />
-		<type fullname="System.EntryPointNotFoundException">
-		<type fullname="System.Enum" preserve="fields" />
-		<type fullname="System.Environment">
-		<type fullname="System.Exception" preserve="fields">
-		<type fullname="System.ExecutionEngineException">
-		<type fullname="System.FieldAccessException">
-		<type fullname="System.FormatException">
-		<type fullname="System.Globalization.CompareInfo" preserve="fields" />
-		<type fullname="System.Globalization.CultureInfo" preserve="fields">
-		<type fullname="System.Globalization.DateTimeFormatInfo" preserve="fields" />
-		<type fullname="System.Globalization.NumberFormatInfo" preserve="fields" />
-		<type fullname="System.Globalization.RegionInfo" preserve="fields" />
-		<type fullname="System.Globalization.SortKey" preserve="fields" />
-		<type fullname="System.IO.FileNotFoundException">
-		<type fullname="System.IO.IOException">
-		<type fullname="System.IO.MonoIOStat" preserve="fields" />
-		<type fullname="System.IndexOutOfRangeException">
-		<type fullname="System.Int16" preserve="fields" />
-		<type fullname="System.Int16Enum" />
-		<type fullname="System.Int32" preserve="fields" />
-		<type fullname="System.Int32Enum" />
-		<type fullname="System.Int64" preserve="fields" />
-		<type fullname="System.Int64Enum" />
-		<type fullname="System.IntPtr" preserve="fields" />
-		<type fullname="System.InvalidCastException">
-		<type fullname="System.InvalidOperationException">
-		<type fullname="System.InvalidProgramException">
-		<type fullname="System.MarshalByRefObject" preserve="fields" feature="remoting" />
-		<type fullname="System.Math" preserve="fields" />
-		<type fullname="System.MethodAccessException">
-		<type fullname="System.MissingFieldException">
-		<type fullname="System.MissingMethodException">
-		<type fullname="System.MonoAsyncCall" preserve="fields" >
-		<type fullname="System.MonoListItem" preserve="fields" />
-		<type fullname="System.MonoType" preserve="fields" />
-		<type fullname="System.MulticastDelegate" preserve="fields" />
-		<type fullname="System.NotImplementedException">
-		<type fullname="System.NotSupportedException">
-		<type fullname="System.NullReferenceException">
-		<type fullname="System.Nullable`1" preserve="fields">
-		<type fullname="System.Object">
-		<type fullname="System.OutOfMemoryException">
-		<type fullname="System.OverflowException">
-		<type fullname="System.Reflection.Assembly" preserve="fields"/>
-		<type fullname="System.Reflection.AssemblyName" preserve="fields" />
-		<type fullname="System.Reflection.ConstructorInfo" preserve="fields" />
-		<type fullname="System.Reflection.CustomAttributeData" preserve="fields">
-		<type fullname="System.Reflection.CustomAttributeNamedArgument">
-		<type fullname="System.Reflection.CustomAttributeTypedArgument">
-		<type fullname="System.Reflection.Emit.ArrayType" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.AssemblyBuilder" preserve="fields" feature="sre">
-		<type fullname="System.Reflection.Emit.ByRefType" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.ConstructorBuilder" preserve="fields" feature="sre">
-		<type fullname="System.Reflection.Emit.ConstructorOnTypeBuilderInst" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.CustomAttributeBuilder" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.DynamicMethod" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.EnumBuilder" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.EventBuilder" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.FieldBuilder" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.FieldOnTypeBuilderInst" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.GenericTypeParameterBuilder" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.ILExceptionBlock" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.ILExceptionInfo" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.ILGenerator" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.LocalBuilder" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.MethodBuilder" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.MethodOnTypeBuilderInst" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.ModuleBuilder" preserve="fields" feature="sre">
-		<type fullname="System.Reflection.Emit.MonoResource" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.MonoWin32Resource" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.ParameterBuilder" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.PointerType" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.PropertyBuilder" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.SignatureHelper" preserve="fields" feature="sre" />
-		<type fullname="System.Reflection.Emit.TypeBuilder" preserve="fields" feature="sre">
-		<type fullname="System.Reflection.Emit.TypeBuilderInstantiation" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.Emit.UnmanagedMarshal" preserve="fields" feature="sre" >
-		<type fullname="System.Reflection.EventInfo" preserve="fields">
-		<type fullname="System.Reflection.ExceptionHandlingClause" preserve="fields" >
-		<type fullname="System.Reflection.FieldInfo" preserve="fields" />
-		<type fullname="System.Reflection.LocalVariableInfo" preserve="fields" >
-		<type fullname="System.Reflection.MethodBody" preserve="fields" >
-		<type fullname="System.Reflection.MethodInfo" preserve="fields" />
-		<type fullname="System.Reflection.Missing" preserve="field" />
-		<type fullname="System.Reflection.Module" preserve="fields" />
-		<type fullname="System.Reflection.MonoAssembly" preserve="fields" >
-		<type fullname="System.Reflection.MonoCMethod" preserve="fields" >
-		<type fullname="System.Reflection.MonoEvent" preserve="fields" />
-		<type fullname="System.Reflection.MonoEventInfo" preserve="fields" >
-		<type fullname="System.Reflection.MonoField" preserve="fields" >
-		<type fullname="System.Reflection.MonoGenericCMethod" preserve="fields" />
-		<type fullname="System.Reflection.MonoGenericMethod" preserve="fields" />
-		<type fullname="System.Reflection.MonoMethod" preserve="fields" >
-		<type fullname="System.Reflection.MonoMethodInfo" preserve="fields" />
-		<type fullname="System.Reflection.MonoModule" preserve="fields" >
-		<type fullname="System.Reflection.MonoParameterInfo" preserve="fields" >
-		<type fullname="System.Reflection.MonoProperty" preserve="fields">
-		<type fullname="System.Reflection.MonoPropertyInfo" preserve="fields" />
-		<type fullname="System.Reflection.ParameterInfo" preserve="fields" />
-		<type fullname="System.Reflection.Pointer" >
-		<type fullname="System.Reflection.PropertyInfo" preserve="fields" />
-		<type fullname="System.Reflection.ReflectionTypeLoadException">
-		<type fullname="System.Reflection.TargetException">
-		<type fullname="System.Reflection.TargetParameterCountException">
-		<type fullname="System.Runtime.CompilerServices.InternalsVisibleToAttribute" />
-		<type fullname="System.Runtime.CompilerServices.RuntimeWrappedException">
-		<type fullname="System.Runtime.InteropServices.DllImportAttribute" preserve="fields"/> 
-		<type fullname="System.Runtime.InteropServices.ICustomMarshaler" />
-		<type fullname="System.Runtime.InteropServices.Marshal" preserve="fields" >
-		<type fullname="System.Runtime.InteropServices.MarshalDirectiveException">
-		<type fullname="System.Runtime.InteropServices.SafeHandle" preserve="fields">
-		<type fullname="System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute" preserve="fields"/>
-		<type fullname="System.Runtime.Remoting.Activation.ActivationServices" >
-		<type fullname="System.Runtime.Remoting.Contexts.Context" preserve="fields" feature="remoting" >
-		<type fullname="System.Runtime.Remoting.IRemotingTypeInfo" feature="remoting">
-		<type fullname="System.Runtime.Remoting.Messaging.AsyncResult" preserve="fields" >
-		<type fullname="System.Runtime.Remoting.Messaging.CallContext" feature="remoting" >
-		<type fullname="System.Runtime.Remoting.Messaging.MonoMethodMessage" preserve="fields" feature="remoting" >
-		<type fullname="System.Runtime.Remoting.Proxies.RealProxy" preserve="fields" feature="remoting" >
-		<type fullname="System.Runtime.Remoting.Proxies.TransparentProxy" preserve="fields" feature="remoting" >
-		<type fullname="System.Runtime.Remoting.RemotingServices" feature="remoting" >
-		<type fullname="System.Runtime.Serialization.SerializationException">
-		<type fullname="System.RuntimeArgumentHandle" preserve="fields" />
-		<type fullname="System.RuntimeFieldHandle" preserve="fields" />
-		<type fullname="System.RuntimeMethodHandle" preserve="fields" />
-		<type fullname="System.RuntimeTypeHandle" preserve="fields" />
-		<type fullname="System.SByte" preserve="fields" />
-		<type fullname="System.SByteEnum" />
-		<type fullname="System.STAThreadAttribute" />
-		<type fullname="System.Security.RuntimeSecurityFrame" preserve="fields" />
-		<type fullname="System.Single" preserve="fields" />
-		<type fullname="System.StackOverflowException">
-		<type fullname="System.String" preserve="fields">
-		<type fullname="System.SystemException">
-		<type fullname="System.Text.StringBuilder" preserve="fields" />
-		<type fullname="System.Threading.ExecutionContext">
-		<type fullname="System.Threading.Interlocked">
-		<type fullname="System.Threading.InternalThread" preserve="fields" />
-		<type fullname="System.Threading.ManualResetEvent" >
-		<type fullname="System.Threading.Monitor">
-		<type fullname="System.Threading.SynchronizationLockException">
-		<type fullname="System.Threading.Thread" preserve="fields">
-		<type fullname="System.Threading.ThreadAbortException">
-		<type fullname="System.Threading.ThreadInterruptedException">
-		<type fullname="System.Threading.ThreadStateException">
-		<type fullname="System.Threading.WaitHandle" preserve="fields">
-		<type fullname="System.Threading._ThreadPoolWaitCallback">
-		<type fullname="System.Type" preserve="fields">
-		<type fullname="System.TypeInitializationException">
-		<type fullname="System.TypeLoadException">
-		<type fullname="System.TypedReference" preserve="fields" />
-		<type fullname="System.UInt16" preserve="fields" />
-		<type fullname="System.UInt16Enum" />
-		<type fullname="System.UInt32" preserve="fields" />
-		<type fullname="System.UInt32Enum" />
-		<type fullname="System.UInt64" preserve="fields" />
-		<type fullname="System.UInt64Enum" />
-		<type fullname="System.UIntPtr" preserve="fields" />
-		<type fullname="System.UnhandledExceptionEventArgs">
-		<type fullname="System.ValueType" preserve="fields" />
-		<type fullname="System.Variant" preserve="fields" feature="com">
-		<type fullname="System.Version">
-		<type fullname="System.Void" preserve="fields" />
-		<type fullname="System.__ComObject" feature="com" />
-		Many applications rely on Mono.Runtime to exist in order to detect
-		directly.
-		to allow such detection logic to work, even if the class is not used
-		whether they are running on Mono or .NET. Thus we always preserve it
-		{z1
-	 SR0%;
-	!%,56H
-	':L^q
-	,%	r
-	,7	o
-	,t	ol
-	.2Y	
-	3T)M
-	</assembly>
-	<assembly fullname="mscorlib">
-	Assertion
-	Inherited
-	L_,`!
-	L_~p
-	PublicKey
-	PublicKey"0x00000000000000000400000000000000
-	XGR	
-	YXGR	
-	YY}`
-	ZX	X
-	\$#	
-	_`X 
-	`_`X
-	a_aX
-	c	b	d	b	e	b	f	e	g	e	h	e	i	e	j	e	k	e	l	e	
-	e*	!
-	implement
-	jXoG+
-	n}O2
- 		<!-- exception.c (mono_get_exception_reflection_type_load) -->
- 		</type>
-        
-         
-          
    ( 0 8 @ H P X ` 
-  \TH;
- !"#$
- !"#$%
- !"#$%&'
- !"#$%&'(
- !"#$%&'()
  !"#$%&'()*+
  !"#$%&'()*+,
  !"#$%&'()*+,-
@@ -610,57 +26,37 @@
  !0CUgz
  #$%&'()*+,-./01256789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  #33333SP@#
- %^;E
- %t @;
- '('0'
- .E+P
+ -->\n\t\t<type fullname="System.EntryPointNotFoundException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<type fullname="System.Environment">\n\t\t\t<!-- appdomain.c: mono_get_corlib_version -->\n\t\t\t<field name="mono_corlib_version" />\n\t\t\t<method name="get_StackTrace" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.exception_class and fields are defined in object-internals.h -->\n\t\t<type fullname="System.Exception" preserve="fields">\n\t\t\t<!-- used in mini-exceptions.c (if trace is enabled) -->\n\t\t\t<method name="get_Message" />\n\t\t</type>\n\t\t\n\t\t<!-- exception.c (mono_get_exception_execution_engine) -->\n\t\t<type fullname="System.ExecutionEngineException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<type fullname="System.FieldAccessException">\n\t\t\t<!-- exception.c: mono_get_exception_field_access / mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t\t<!-- exception.c: mono_get_exception_field_access_msg / mono_exception_from_name_msg -->\n\t\t\t<!-- mini.c (mono_jit_compiler_method_inner) mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<type fullname="System.FormatException">\n\t\t\t<!-- icall.c (base64_to_byte_array) mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- exception.c: mono_get_exception_index_out_of_range - used by many in icall.c and in socket-io.c -->\n\t\t<type fullname="System.IndexOutOfRangeException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.int16_class -->\n\t\t<type fullname="System.Int16" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.int32_class -->\n\t\t<type fullname="System.Int32" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.int64_class -->\n\t\t<type fullname="System.Int64" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.int_class -->\n\t\t<type fullname="System.IntPtr" preserve="fields" />\n\t\t\n\t\t<!-- exception.c (mono_get_exception_invalid_cast) -->\n\t\t<type fullname="System.InvalidCastException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- marshal.c: emit several times using mono_mb_emit_exception_full -->\n\t\t<!-- exception.c (mono_get_exception_invalid_operation) -->\n\t\t<type fullname="System.InvalidOperationException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- mini.c: mono_jit_compile_method_inner (looks like one case is JITted, AOT too) -->\n\t\t<type fullname="System.InvalidProgramException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<type fullname="System.MarshalByRefObject" preserve="fields" feature="remoting" />\n\n\t\t<type fullname="System.MethodAccessException">\n\t\t\t<!-- exception.c: mono_get_exception_method_access / mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t\t<!-- exception.c: mono_get_exception_method_access_msg / mono_exception_from_name_msg -->\n\t\t\t<!-- mini.c (mono_jit_compiler_method_inner) mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- mini.c (mono_jit_compiler_method_inner) / mono-error.c -->\n\t\t<type fullname="System.MissingFieldException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n        \n\t\t<type fullname="System.MissingMethodException">\n\t\t\t<!-- mini.c (mono_jit_compiler_method_inner) mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t\t<!-- exception.c (mono_get_exception_type_load) mono_exception_from_name_two_strings -->\n\t\t\t<method signature="System.Void .ctor(System.String,System.String)" />\n\t\t\t<!-- exception.c  mono_exception_from_name_four_strings -->\n\t\t\t<method signature="System.Void .ctor(System.String,System.String,System.String,System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- threadpool.c: mono_thread_pool_init (assert) -->\n\t\t<type fullname="System.MonoAsyncCall" preserve="fields" >\n\t\t\t<!-- threadpool.c mono_object_new_checked in mono_threadpool_begin_invoke -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t<!-- mono-mlist.c (managed list): used in threadpool.c and gc.c -->\n\t\t<type fullname="System.MonoListItem" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.type_class -->\n\t\t<type fullname="System.MonoType" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.multicastdelegate_class -->\n\t\t<type fullname="System.MulticastDelegate" preserve="fields" />\n\t\t\n\t\t<!-- exception.c (mono_get_exception_not_implemented) -->\n\t\t<type fullname="System.NotImplementedException">\n\t\t\t<!-- mono_get_exception_not_implemented -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_not_supported) -->\n\t\t<type fullname="System.NotSupportedException">\n\t\t\t<!-- mono_get_exception_not_implemented -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n        \n\t\t<!-- appdomain.c (create_domain_objects) domain->null_reference_ex -->\n\t\t<!-- exception.c (mono_get_exception_null_reference) -->\n\t\t<type fullname="System.NullReferenceException">\n\t\t\t<!-- exception.c: mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t\t<!-- appdomain.c: mono_exception_from_name_two_strings (only one string in the signature since NULL is used as the 2nd parameter) -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.nullable_class -->\t\t\n\t\t<type fullname="System.Nullable`1" preserve="fields">\n\t\t\t<!-- method-to-ir.c (handle_box) -->\n\t\t\t<method name="Box" />\n\t\t\t<!-- method-to-ir.c (handle_unbox_nullable) -->\n\t\t\t<method name="Unbox" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.object_class -->\n\t\t<type fullname="System.Object">\n\t\t\t<!-- class.c: initialize_object_slots -->\n\t\t\t<method name="Finalize" />\n\t\t\t<method name="GetHashCode" />\n\t\t\t<!-- needed for debugging -->\n\t\t\t<method name="obj_address" />\n\t\t\t<!-- TransparentProxy.cs, RemotingServices.cs -->\n\t\t\t<method name="FieldGetter" feature="remoting" />\n\t\t\t<method name="FieldSetter" feature="remoting" />\n\t\t\t<!-- appdomain.c mono_object_new_checked in create_domain_objects -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- appdomain.c (create_domain_objects) domain->out_of_memory_ex -->\n\t\t<type fullname="System.OutOfMemoryException">\n\t\t\t<!-- mono_exception_from_name_two_strings (only one string in the signature since NULL is used as the 2nd parameter) -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t\t<!-- exception.c: mono_get_exception_out_of_memory / mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- exception.c (mono_get_exception_overflow) -->\n\t\t<type fullname="System.OverflowException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\n\t\t<!-- reflection.c: mono_get_reflection_missing_object -->\n\t\t<type fullname="System.Reflection.Missing" preserve="field" />\n\n\t\t<!-- domain.c: mono_defaults.argumenthandle_class -->\t\t\n\t\t<type fullname="System.RuntimeArgumentHandle" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.typefield_class -->\n\t\t<type fullname="System.RuntimeFieldHandle" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.methodhandle_class -->\n\t\t<type fullname="System.RuntimeMethodHandle" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.typehandle_class -->\n\t\t<type fullname="System.RuntimeTypeHandle" preserve="fields" />\n\t\t<!-- domain.c: mono_defaults.sbyte_class -->\n\t\t<type fullname="System.SByte" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.single_class -->\n\t\t<type fullname="System.Single" preserve="fields" />\n\t\t\n\t\t<!-- appdomain.c (create_domain_objects) domain->stack_overflow_ex -->\n\t\t<type fullname="System.StackOverflowException">\n\t\t\t<!-- mono_exception_from_name_two_strings (only one string in the signature since NULL is used as the 2nd parameter) -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t\t<!-- exception.c: mono_get_exception_stack_overflow / mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- object.c: mono_runtime_exec_main -->\n\t\t<type fullname="System.STAThreadAttribute" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.string_class -->\n\t\t<type fullname="System.String" preserve="fields">\n\t\t\t<!-- marshal.c mono_marshal_get_native_wrapper -->\n\t\t\t<method name="CreateString" />\n\t\t\t<!-- method-to-ir.c: mini_redirect_call -->\n\t\t\t<method name="InternalAllocateStr" />\n\t\t\t<!-- method-to-it.c: mini_emit_initobj -->\n\t\t\t<method name="memset" />\n\t\t\t<!-- mini-generic-sharing.c: class_type_info \n\t\t\t\tAll patterns bellow\n\t\t\t-->\n\t\t\t<method name="bzero" />\n\t\t\t<method name="bzero_aligned_1" />\n\t\t\t<method name="bzero_aligned_2" />\n\t\t\t<method name="bzero_aligned_4" />\n\t\t\t<method name="bzero_aligned_8" />\n\t\t\t<method name="memcpy" />\n\t\t\t<method name="memcpy_aligned_1" />\n\t\t\t<method name="memcpy_aligned_2" />\n\t\t\t<method name="memcpy_aligned_4" />\n\t\t\t<method name="memcpy_aligned_8" />\n\t\t</type>\n\n\t\t<!-- socket-io.c: created/raised several time -->\n\t\t<type fullname="System.SystemException">\n\t\t\t<!-- mono_exception_from_nameg -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.systemtype_class -->\n\t\t<type fullname="System.Type" preserve="fields">\n\t\t\t<!-- marshal.c (mono_marshal_get_synchronized_wrapper) -->\n\t\t\t<method name="GetTypeFromHandle" />\n\t\t</type>\n\t\t\n\t\t<!-- exception.c (mono_get_exception_type_initialization) -->\n\t\t<type fullname="System.TypeInitializationException">\n\t\t\t<!-- iterates to find the (only) 2 paramaters .ctor -->\n\t\t\t<method signature="System.Void .ctor(System.String,System.Exception)" />\n\t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_type_load) -->\n\t\t<type fullname="System.TypeLoadException">\n\t\t\t<!-- mini.c (mono_jit_compiler_method_inner) mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t\t<!-- mono_exception_from_name_two_strings -->\n\t\t\t<method signature="System.Void .ctor(System.String,System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.typed_reference_class -->\t\t\n\t\t<type fullname="System.TypedReference" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.uint16_class -->\n\t\t<type fullname="System.UInt16" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.uint32_class -->\n\t\t<type fullname="System.UInt32" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.uint64_class -->\n\t\t<type fullname="System.UInt64" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.uint_class -->\n\t\t<type fullname="System.UIntPtr" preserve="fields" />\n\t\t\n\t\t<!-- object.c: create_unhandled_exception_eventargs (assert) -->\n\t\t<type fullname="System.UnhandledExceptionEventArgs">\n\t\t\t<method signature="System.Void .ctor(System.Object,System.Boolean)" />\n\t\t</type>\n\t\t\n\t\t<!-- class.c: make_generic_param_class -->\n\t\t<type fullname="System.ValueType" preserve="fields" />\n\n\t\t<!-- comiterop.c -->\n\t\t<type fullname="System.Variant" preserve="fields" feature="com">\n\t\t\t<method name="Clear" />\n\t\t</type>\n\n\t\t<!-- icall.c: create_version is used by\n\t\t\t* ves_icall_System_Reflection_Assembly_GetReferencedAssemblies\n\t\t\t* fill_reflection_assembly_name\n\t\t\t\t* ves_icall_System_Reflection_Assembly_FillName\n\t\t\t\t* ves_icall_System_Reflection_Assembly_InternalGetAssemblyName\n\t\t\t\t* ves_icall_System_Reflection_AssemblyName_ParseName\n\t\t\t-->\n\t\t<type fullname="System.Version">\n\t\t\t<method signature="System.Void .ctor(System.Int32,System.Int32,System.Int32,System.Int32)" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.void_class -->\n\t\t<type fullname="System.Void" preserve="fields" />\n\n\t\t<!-- comiterop.c -->\n\t\t<type fullname="System.__ComObject" feature="com" />\n\n\t\t<!-- class.c: generic_array_methods -->\n\t\t<type fullname="System.Collections.Generic.ICollection`1" />\n\t\t<type fullname="System.Collections.Generic.IEnumerable`1" />\n\t\t<type fullname="System.Collections.Generic.IReadOnlyList`1" />\n\t\t<type fullname="System.Collections.Generic.IReadOnlyCollection`1" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.generic_ilist_class -->\n\t\t<type fullname="System.Collections.Generic.IList`1" />\n\t\t\n\t\t<!-- aot-compiler.c: add_generic_instances and add_generic_class_with_depth -->\n\t\t<type fullname="System.Collections.Generic.GenericEqualityComparer`1">\n\t\t\t<method name=".ctor" />\n\t\t</type>\n\t\t\n\t\t<!-- aot-compiler.c: add_generic_instances and add_generic_class_with_depth -->\n\t\t<type fullname="System.Collections.Generic.GenericComparer`1">\n\t\t\t<method name=".ctor" />\n\t\t</type>\n\n\t\t<!-- icalls - but (at least parts of them) are used thru interfaces at runtime and cannot be linked out -->\n\t\t<type fullname="System.Globalization.DateTimeFormatInfo" preserve="fields" />\n\t\t<type fullname="System.Globalization.CompareInfo" preserve="fields" />\n\t\t<type fullname="System.Globalization.CultureInfo" preserve="fields">\n\t\t\t<!-- icall.c: fill_reflection_assembly_name (assert) and ves_icall_System_Reflection_Assembly_GetReferencedAssemblies (assert) -->\n\t\t\t<method name="CreateCulture" />\n\t\t</type>\n\t\t<type fullname="System.Globalization.NumberFormatInfo" preserve="fields" />\n\t\t<type fullname="System.Globalization.RegionInfo" preserve="fields" />\n\t\t<type fullname="System.Globalization.SortKey" preserve="fields" />\n\n\t\t<type fullname="System.IO.FileNotFoundException">\n\t\t\t<!-- mini.c (mono_jit_compiler_method_inner) mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t\t<!-- exception.c (mono_get_exception_file_not_found and mono_get_exception_file_not_found) -->\n\t\t\t<!-- mono_exception_from_name_two_strings -->\n\t\t\t<method signature="System.Void .ctor(System.String,System.String)" />\n\t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_io) -->\n\t\t<type fullname="System.IO.IOException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<!-- fileio.h: shared structure between the managed and unmanaged worlds -->\n\t\t<type fullname="System.IO.MonoIOStat" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.math_class\n\t\t\tmethod-to-ir.c: empty branch (wrt Min/Max optimization)\n\t\t\tmini-[x86|amd64].c needs the type but then only check for names\n\t\t\tnote: there's no fields (static type) but that will mark the type itself -->\n\t\t<type fullname="System.Math" preserve="fields" />\n\n\t\t<!-- appdomain.c: ves_icall_System_AppDomain_GetAssemblies -->\n\t\t<type fullname="System.Reflection.Assembly" preserve="fields"/>\n\n\t\t<type fullname="System.Reflection.AssemblyName" preserve="fields" />\n\t\t<type fullname="System.Reflection.ConstructorInfo" preserve="fields" />\n\n\t\t<!-- domain.c: mono_defaults.customattribute_data_class -->\n\t\t<type fullname="System.Reflection.CustomAttributeData" preserve="fields">\n\t\t\t<!-- custom-attrs.c: create_custom_attr_data - create an instance with the ctor using 4 arguments -->\n\t\t\t<method signature="System.Void .ctor(System.Reflection.ConstructorInfo,System.Reflection.Assembly,System.IntPtr,System.UInt32)" />\n\t\t</type>\n\n\t\t<!-- reflection.c: create_cattr_named_arg - create an instance with the ctor using 2 parameters -->\n\t\t<type fullname="System.Reflection.CustomAttributeNamedArgument">\n\t\t\t<method signature="System.Void .ctor(System.Reflection.MemberInfo,System.Object)" />\n\t\t</type>\n\t\t\n\t\t<!-- reflection.c: create_cattr_typed_arg - create an instance with the ctor using 2 parameters -->\n\t\t<type fullname="System.Reflection.CustomAttributeTypedArgument">\n\t\t\t<method signature="System.Void .ctor(System.Type,System.Object)" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.EventInfo" preserve="fields">\n\t\t\t<method name="AddEventFrame" />\n\t\t\t<method name="StaticAddEventAdapterFrame" />\n\t\t</type>\n\t\t\n\t\t<!-- reflection.c: mono_method_body_get_object -->\n\t\t<type fullname="System.Reflection.ExceptionHandlingClause" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in add_exception_handling_clause_to_array -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.field_info_class -->\n\t\t<type fullname="System.Reflection.FieldInfo" preserve="fields" />\n\t\t\n\t\t<!-- reflection.c: mono_method_body_get_object -->\n\t\t<type fullname="System.Reflection.LocalVariableInfo" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in add_local_var_info_to_array -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\n\t\t<!-- reflection.c: mono_method_body_get_object -->\n\t\t<type fullname="System.Reflection.MethodBody" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in method_body_object_construct -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t<!-- domain.c: mono_defaults.method_info_class -->\n\t\t<type fullname="System.Reflection.MethodInfo" preserve="fields" />\n\n\t\t<type fullname="System.Reflection.Module" preserve="fields" />\n\t\t<type fullname="System.Reflection.MonoAssembly" preserve="fields" >\n\t\t\t<method name=".ctor" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.MonoModule" preserve="fields" >\n\t\t\t<method name=".ctor" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.MonoCMethod" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in method_object_construct -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.MonoEvent" preserve="fields" />\n\t\t<type fullname="System.Reflection.MonoEventInfo" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in event_object_construct -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.MonoField" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in field_object_construct -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t<!-- reflection.c: mono_method_get_object uses both MonoGeneric[C]Method / will crash for ves_icall_Type_GetConstructors_internal -->\n\t\t<type fullname="System.Reflection.MonoGenericMethod" preserve="fields" />\n\t\t<type fullname="System.Reflection.MonoGenericCMethod" preserve="fields" />\n\t\t\n\t\t<type fullname="System.Reflection.MonoMethod" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in method_object_construct -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.MonoMethodInfo" preserve="fields" />\n\t\t<type fullname="System.Reflection.MonoPropertyInfo" preserve="fields" />\n\t\t\n\t\t<type fullname="System.Reflection.MonoProperty" preserve="fields">\n\t\t\t<method name="GetterAdapterFrame" />\n\t\t\t<method name="StaticGetterAdapterFrame" />\n\t\t\t<!-- reflection.c mono_object_new_checked in add_parameter_object_to_array -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.ParameterInfo" preserve="fields" />\n\t\t<!-- reflection.c: ves_icall_get_parameter_info -->\n\t\t<type fullname="System.Reflection.MonoParameterInfo" preserve="fields" >\n\t\t\t<!-- reflection.c mono_object_new_checked in event_object_construct -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\n\t\t<!-- object.c: mono_field_get_value_object and mono_runtime_invoke_array -->\n\t\t<type fullname="System.Reflection.Pointer" >\n\t\t\t<method name="Box" />\n\t\t</type>\n\n\t\t<type fullname="System.Reflection.PropertyInfo" preserve="fields" />\n\t\t\n \t\t<!-- exception.c (mono_get_exception_reflection_type_load) -->\n\t\t<type fullname="System.Reflection.ReflectionTypeLoadException">\n\t\t\t<method signature="System.Void .ctor(System.Type[],System.Exception[])" />\n\t\t</type>\n\n\t\t<!-- icall.c: ves_icall_InternalInvoke -->\n\t\t<type fullname="System.Reflection.TargetException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n        \n\t\t<!-- icall.c: ves_icall_InternalInvoke -->\n\t\t<type fullname="System.Reflection.TargetParameterCountException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<type fullname="System.Reflection.Emit.AssemblyBuilder" preserve="fields" feature="sre">\n\t\t\t<method name="AddPermissionRequests" feature="sre" />\n\t\t\t<method name="AddModule" feature="sre" />\n\t\t\t<method name="DefineIconResource" feature="sre" />\n\t\t\t<method name="AddTypeForwarder" feature="sre" />\n\t\t\t<method name="EmbedResourceFile" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.ConstructorBuilder" preserve="fields" feature="sre">\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.CustomAttributeBuilder" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.DynamicMethod" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.EnumBuilder" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.EventBuilder" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.FieldBuilder" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.GenericTypeParameterBuilder" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.ILExceptionBlock" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.ILExceptionInfo" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.ILGenerator" preserve="fields" feature="sre" >\n\t\t\t<method name="Mono_GetCurrentOffset" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.LocalBuilder" preserve="fields" feature="sre" >\n\t\t\t<method name="Mono_GetLocalIndex" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.MethodBuilder" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.ModuleBuilder" preserve="fields" feature="sre">\n\t\t\t<method name="Mono_GetGuid" feature="sre" />\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.MonoResource" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.MonoWin32Resource" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.ParameterBuilder" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.PropertyBuilder" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.SignatureHelper" preserve="fields" feature="sre" />\n\t\t<type fullname="System.Reflection.Emit.TypeBuilder" preserve="fields" feature="sre">\n\t\t\t<method name="SetCharSet" feature="sre" />\n\t\t\t<!-- reflection.c mono_reflection_call_is_assignable_to () -->\n\t\t\t<method name="IsAssignableTo" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.UnmanagedMarshal" preserve="fields" feature="sre" >\n\t\t\t<method name="DefineCustom" feature="sre" />\n\t\t\t<method name="DefineLPArrayInternal" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.TypeBuilderInstantiation" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.ArrayType" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.ByRefType" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.PointerType" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.FieldOnTypeBuilderInst" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.MethodOnTypeBuilderInst" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\t\t<type fullname="System.Reflection.Emit.ConstructorOnTypeBuilderInst" preserve="fields" feature="sre" >\n\t\t\t<method name="RuntimeResolve" feature="sre" />\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.internals_visible_class -->\n\t\t<type fullname="System.Runtime.CompilerServices.InternalsVisibleToAttribute" />\n\n\t\t<!-- exception.c: mono_get_exception_runtime_wrapped () -->\n\t\t<type fullname="System.Runtime.CompilerServices.RuntimeWrappedException">\n\t\t\t<method signature="System.Void .ctor(System.Object)" />\n\t\t</type>\n\n\t\t<!-- icall.c | object-internal.h: MonoReflectionDllImportAttribute structure -->\n\t\t<type fullname="System.Runtime.InteropServices.DllImportAttribute" preserve="fields"/> \n\t\t<!-- marshal.c: emit_marshal_custom (DISABLE_JIT is not defined for the AOT compiler, only the ARM runtimes) -->\n\t\t<type fullname="System.Runtime.InteropServices.ICustomMarshaler" />\n\n\t\t<!-- domain.c: mono_defaults.marshal_class -->\n\t\t<type fullname="System.Runtime.InteropServices.Marshal" preserve="fields" >\n\t\t\t<!-- marshal.c (mono_marshal_get_struct_to_ptr) -->\n\t\t\t<method name="StructureToPtr" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.safehandle_class -->\n\t\t<type fullname="System.Runtime.InteropServices.SafeHandle" preserve="fields">\n\t\t\t<!-- marshal.c (init_safe_handle) -->\n\t\t\t<method name="DangerousAddRef" />\n\t\t\t<method name="DangerousRelease" />\n\t\t</type>\n\t\t\n\t\t<!-- object-internals.h: defines MonoReflectionUnmanagedFunctionPointerAttribute, marshal.c: use it -->\n\t\t<type fullname="System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute" preserve="fields"/>\n\n\t\t<!-- marshal.c: mono_mb_emit_exception_marshal_directive -->\n\t\t<type fullname="System.Runtime.InteropServices.MarshalDirectiveException">\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<!-- appdomain.c: mono_context_init -->\n\t\t<!-- marshal.c: mono_remoting_marshal_init / removed with DISABLE_REMOTING -->\n\t\t<type fullname="System.Runtime.Remoting.Contexts.Context" preserve="fields" feature="remoting" >\n\t\t\t<method name="get_NeedsContextSink" />\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.iremotingtypeinfo_class / removed with DISABLE_REMOTING -->\n\t\t<type fullname="System.Runtime.Remoting.IRemotingTypeInfo" feature="remoting">\n\t\t\t<method name="CanCastTo" />\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.asyncresult_class (Stubify can't be applied on this type) -->\n\t\t<!-- object.c MONO_OBJECT_SETREF in mono_async_result_new -->\n\t\t<!-- threadpool.c: MONO_OBJECT_SETREF in create_simple_asyncresult -->\n\t\t<type fullname="System.Runtime.Remoting.Messaging.AsyncResult" preserve="fields" >\n\t\t\t<!-- object.c mono_object_new_checked in mono_async_result_new -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\n\t\t<!-- marshal.c: mono_remoting_marshal_init / removed with DISABLE_REMOTING -->\n\t\t<type fullname="System.Runtime.Remoting.Messaging.CallContext" feature="remoting" >\n\t\t\t<method name="SetCurrentCallContext" />\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.mono_method_message_class -->\n\t\t<type fullname="System.Runtime.Remoting.Messaging.MonoMethodMessage" preserve="fields" feature="remoting" >\n\t\t\t<!-- object.c: mono_message_init -->\n\t\t\t<method name="InitMessage" />\n\t\t\t<!-- marshal.c mono_object_new_checked in mono_delegate_end_invoke-->\n\t\t\t<method name=".ctor" feature="remoting" />\n\t\t</type>\n\t\t<!-- domain.c: mono_defaults.real_proxy_class / removed with DISABLE_REMOTING -->\n\t\t<type fullname="System.Runtime.Remoting.Proxies.RealProxy" preserve="fields" feature="remoting" >\n\t\t\t<method name="PrivateInvoke" />\n\t\t\t<method name="GetAppDomainTarget" />\n\t\t\t<!-- object.c mono_object_new_checked in make_transparent_proxy-->\n\t\t\t<method name=".ctor" feature="remoting" />\n\t\t</type>\n\t\t<!-- domain.c: mono_defaults.transparent_proxy_class / removed with DISABLE_REMOTING -->\n\t\t<type fullname="System.Runtime.Remoting.Proxies.TransparentProxy" preserve="fields" feature="remoting" >\n\t\t\t<method name="LoadRemoteFieldNew" />\n\t\t\t<method name="StoreRemoteField" />\n\t\t\t<!-- icall.c mono_object_new_checked in ves_icall_Remoting_RealProxy_GetTransparentProxy -->\n\t\t\t<method signature="System.Void .ctor()" feature="remoting" />\n\t\t</type>\n\t\t<type fullname="System.Runtime.Remoting.RemotingServices" feature="remoting" >\n\t\t\t<method name="SerializeCallData" />\n\t\t\t<method name="DeserializeCallData" />\n\t\t\t<method name="SerializeExceptionData" />\n\t\t</type>\n\n\t\t<!-- object.c: mono_object_new_specific_checked -->\n\t\t<type fullname="System.Runtime.Remoting.Activation.ActivationServices" >\n\t\t\t<method name="CreateProxyForType"/>\n\t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_serialization) -->\n\t\t<type fullname="System.Runtime.Serialization.SerializationException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.runtimesecurityframe_class -->\t\t\n\t\t<type fullname="System.Security.RuntimeSecurityFrame" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.executioncontext_class -->\n\t\t<type fullname="System.Threading.ExecutionContext">\n\t\t\t<!-- security-manager.c: mono_get_context_capture_method (can likely be removed) -->\n\t\t\t<method name="Capture" />\n\t\t</type>\n\n\t\t<!-- aot-runtime.c: mono_aot_get_method -->\n\t\t<type fullname="System.Threading.Interlocked">\n\t\t\t<method name="CompareExchange" />\n\t\t\t<method name="Exchange" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.monitor_class -->\n\t\t<!-- monitor.c / method-to-ir.c: Enter and Exit are only string comparison (safe to link) -->\n\t\t<type fullname="System.Threading.Monitor">\n\t\t\t<!-- marshal.c: mono_marshal_get_synchronized_wrapper-->\n\t\t\t<method name="Enter" />\n\t\t\t<method name="Exit" />\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.manualresetevent_class -->\n\t\t<type fullname="System.Threading.ManualResetEvent" >\n\t\t\t<!-- runtime access fields and setter from inherited WaitHandle -->\n\t\t\t<method signature="System.Void .ctor(System.Boolean)" />\n\t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_synchronization_lock) -->\n\t\t<type fullname="System.Threading.SynchronizationLockException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.thread_class -->\n\t\t<type fullname="System.Threading.Thread" preserve="fields">\n\t\t\t<method name="get_CurrentContext" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.internal_thread_class -->\n\t\t<type fullname="System.Threading.InternalThread" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.threadabortexception_class -->\n\t\t<!-- exception.c (mono_get_exception_thread_abort) -->\n\t\t<type fullname="System.Threading.ThreadAbortException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- exception.c (ThreadInterruptedException) -->\n\t\t<type fullname="System.Threading.ThreadInterruptedException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_thread_abort) -->\n\t\t<type fullname="System.Threading.ThreadStateException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- object-internals.h: defines MonoWaitHandle, threadpool.c: gets the handle from the structure -->\n\t\t<type fullname="System.Threading.WaitHandle" preserve="fields">\n\t\t\t<!-- object.c: mono_wait_handle_new -->\n\t\t\t<method name="set_Handle" />\n\t\t\t<!-- object.c: mono_wait_handle_get_handle -->\n\t\t\t<field name="safe_wait_handle" />\n\t\t</type>\n\n\t\t<!-- threadpool-ms.c (worker_thread) -->\n\t\t<type fullname="System.Threading._ThreadPoolWaitCallback">\n\t\t  <method name="PerformWaitCallback"/>\n\t\t</type>\n\n\t\t<!-- domain.c: mono_defaults.stringbuilder_class -->\n\t\t<type fullname="System.Text.StringBuilder" preserve="fields" />\n\n\t\t<!-- cominterop.c -->\n\t\t<type fullname="Mono.Interop.ComInteropProxy" feature="com" />\n\t\t<type fullname="Mono.Interop.IDispatch" feature="com" />\n\t\t<type fullname="Mono.Interop.IUnknown" feature="com"/>\n\n\t\t<!--\n\t\tMany applications rely on Mono.Runtime to exist in order to detect\n\t\twhether they are running on Mono or .NET. Thus we always preserve it\n\t\tto allow such detection logic to work, even if the class is not used\n\t\tdirectly.\n\t\t-->\n\t\t<type fullname="Mono.Runtime" />\n\n\t\t<!-- marshal.c (mono_marshal_get_native_wrapper) -->\n\t\t<type fullname="Mono.RuntimeStructs/HandleStackMark" />\n\t\t<!-- marshal.c (mono_marshal_get_native_wrapper) -->\n\t\t<type fullname="Mono.RuntimeStructs/MonoError" />\n\n\t\t<!-- IL2CPP enum sharing -->\n\t\t<type fullname="System.SByteEnum" />\n\t\t<type fullname="System.Int16Enum" />\n\t\t<type fullname="System.Int32Enum" />\n\t\t<type fullname="System.Int64Enum" />\n\t\t\n\t\t<type fullname="System.ByteEnum" />\n\t\t<type fullname="System.UInt16Enum" />\n\t\t<type fullname="System.UInt32Enum" />\n\t\t<type fullname="System.UInt64Enum" />\n\t</assembly>\n</linker>\n
  5\ln
  9GNE;
- :3h;5>
- :3h;;
- :HW	
- <`6X5>
- <`6X;y
  =hcI5>
- =hcI;
+ BW1
  Current Count = {m_currentCount}
  Currently it always returns zero
- DSS1.
- DSS2.
- F_TJ;y
- Fl ;;
+ DSS1.\vrA.
+ DSS2.\vrA.
  GD4n;
  O"#H$NJKL6
- RSA1.
- RSA2.
+ RJ5
+ RSA1.\vrA.
+ RSA2.\vrA.
  This requests should not be used
- U/CZ;
  Use Pack(iocb, userData) instead
- X!`!
- Z}(/
- _,>	
- _-E	 
- `}E 
- `}h'
- `}r'
  cia*2
- cia*:
  cia*Z
- dia*:
+ cio
  f8E85
  f8E8;
  f8E8;~
- gn6a;'	
+ gff
  iZwK
+ jgR
  n}O2
  uYEM5>
  uYEM;?
+ vT2
  vararg methods are not supported
- |&hI
-!	@Z#
-!!!!!!
-!!!!!!!
-!!!!!!!!!!
+ wJc
 !!!!!!!!!!!
 !!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!
@@ -677,34 +73,28 @@
 !!!!!!!!!!##%%,,,,,,,,,,2222666666HHHHHHHHQQQQQQpppppppp||||||||~~~~
 !!!!!!!!!!%%%%%%%%,,,,22222222222255666HHHHHHHHHHppppppppp||||||||
 !!!!!!!!""!!!!!!!""""""""""""""!!!!""""""""""""""""
-!!!!!!!!$$
 !!!!!!!!$6666666666$$
 !!!!!!!5%%%%!
-!!!!!!//!!
 !!!!!!55!!55!!
 !!!!!5!!!!!!!!
-!!!!((((
-!!!!..
-!!!!2222
 !!!!2222||||
-!!!!5
 !!!##%%%%266HHQpp|||||~~
 !!!$!!!!!!!!!!!!!5!!!!!!!
-!!!$$
 !!!$$$$$$$$$77777777777777777777
 !!!5555
 !!!5555!!555
 !!$$6666666666$
 !!5!!!!!!!55555555!55!!!!!!!!!!!$$$
-!!55!
-!!66666666BBBBKKffQQTTZZ``ffiillll
-!""&%
+!!66666666BBBBKKffQQTTZZ``ffiillll\f\f
 !"#$%&'()*+,-./012
-!"\kN
 !#%,256HQp|~
-!$$$$$$$
 !'069?BHKNQTZcfilrux{~
+!33I
+!3FI
 !3FXj}
+!3YI
+!3fI
+!3nI
 !5!!!!!5!55555!55
 !5!!555!5!!!55
 !5!55!!!!!!!!555555!!!!!!!!!!
@@ -712,21 +102,16 @@
 !55!!!!55!5555$$$$$$$$$$$$$
 !55!!555555!
 !88Hp
-!:(X	
+!8Qx
+!8ZK
 !DirectorySecurity not implemented
 !In windows, alldrives are 'Fixed'
 !NNNNNNNN
-!P'X'`'
 !System.Reflection.ConstructorInfo
 !This ignores the rights parameter
-!This program cannot be run in DOS mode.
-"!!!!!##
-"!# $
-""""""
-"""""""
+!YE0
+!wXc
 """"""""!""""""
-"""""""""
-""""""""""
 """""""""""
 """"""""""""
 """""""""""""
@@ -739,23 +124,22 @@
 """""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""\n
 """"""""""""55!!!"""555555
 """""""""MMMMMMMMMMMMMMMMMMMMM
 """"vvvvmm
-"""$$$$$$$$$$$$$$$"$"""!!""""""66666666667777777777"!"!"!	
+"""$$$$$$$$$$$$$$$"$"""!!""""""66666666667777777777"!"!"!\t\n\t\n55
 ""$$$$$""""$$
 ""7777""""""""""
-""fD**~T
-"# %!6pmrw
-"#$%&
 "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdehijklmnopqrstuvwxz{|}~
 "#$%&***+++,,,---...23456::<<>>BCDEFJJKMN
 "#$%&*+,-.23456:<>BCDEFJ
 "#$%&*+,-.23456:<>BCDEFJKMN
-"..+.
+"1aq
 "5GYl
+"FTR\v
+"K9S
 "Not implemented.  Always returns 0
 "Please use KeyComparer properties.
 "Please use StringComparer instead.
@@ -765,22 +149,15 @@
 "System.Reflection.Emit.TypeBuilder
 "This always returns an empty array
 "Use AppDomainSetup.ShadowCopyFiles
-"fD"*~T*
-"h%p%x%
-"o5;w	
+"o55
 "permissionCheck is ignored in Mono
-#!il m
 ########################################
 ####''++//337777;;;;????CCCCGGGGKKKKOOOOSSSSWWWW[[[[____ccccggggkkkkoooosswwwwww
-#%($)
 #'+-/137;@DFHLNPTX\`
 #'+/37;?CGKOS
 #+37;?CGKOSW[_cgkosw{
 #-27<AFPUZ_disx}
-#33333Cb@#
 #6HZm
-#:$2)
-#<gT	
 #Blob
 #DirectorySecurity isn't implemented
 #GUID
@@ -797,19 +174,10 @@
 #fffffVb@#Nb
 #fffffVd@#
 #jZXU
-#j[h*
-$ $($0$
 $""""""""""!!!!!!!!!"""""""""
-$$$$$$
-$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 $$$$$6666666666
-$$$999
-$$lH\\
-$%&'()*
-$*-3<EW6
-$.n	 `
 $00000000-0000-0000-C000-000000000046
 $0000000c-0000-0000-C000-000000000046
 $0000000c-0000-0000-c000-000000000046
@@ -859,7 +227,6 @@ $917B14D0-2D9E-38B8-92A9-381ACF52F7C0
 $993634C4-E47A-32CC-BE08-85F567DC27D6
 $99999
 $9DE59C64-D889-35A1-B897-587D74469E5B
-$@1.r
 $@DHLPTX\`dhlptx|
 $A4924B27-6E3B-37F7-9B83-A4501955E6A7
 $AADABA99-895D-3D65-9760-B1F12621FAE8
@@ -894,8 +261,9 @@ $System.Reflection.Emit.MethodBuilder
 $System.Reflection.Emit.ModuleBuilder
 $System.Runtime.InteropServices._Type
 $The Debugger class is not functional
-$[\%EVq
-$`_&%d
+$U80
+$Ug0
+$V5p
 $b196b284-bab4-101a-b69c-00aa00341d07
 $b196b285-bab4-101a-b69c-00aa00341d07
 $b196b286-bab4-101a-b69c-00aa00341d07
@@ -905,49 +273,33 @@ $f1c3bf77-c3e4-11d3-88e7-00902754c43a
 $f1c3bf79-c3e4-11d3-88e7-00902754c43a
 $f7102fa9-cabb-3a74-a6da-b4567ef1b079
 $fa1f3615-acb9-486d-9eac-1bef87e36b09
-$lH$\
-% %(%0%
+$jyR
 %%%%66||||||55
-%%oJ..r\
-%&'()*
 %+17=CIOU[agmsy
 %,,,,,22HHLp
-%.E+G
 %8J\o
-%9`%C@
 %Always returns the same as GetModules
-%K	XT
-%K	XT*
-%K	_T+
-%K	`T
+%K\tXT
 %Not implemented.  Always returns null
 %Not implemented.  Always returns zero
 %Please use EqualityComparer property.
 %Please use IEqualityComparer instead.
+%Prs
 %Use RegisterChannel(IChannel,Boolean)
 %Useless until the runtime supports it
-%c*n.
+%Vpp
+%olM
+%omK
+%on6
 %p1%c
-&	o-@
+%r6W
+%sES
 &#33333
-&%rk|
 &'()*+,-./012345
 &(2.0) Access Control isn't implemented
-&*(M:
-&*(}8
-&*.(C
-&*.r	R
-&+)ryd
-&+*'01.,
-&+.rs
-&+@	~
-&+[	~
-&+v	~
-&.+2$/
-&.K+W	
+&8ZK
 &9K]p
-&AL4'?
-&N''i
+&QLl\r
 &System.Reflection.Emit.AssemblyBuilder
 &System.Reflection.Emit.PropertyBuilder
 &System.Reflection.Emit.SignatureHelper
@@ -956,65 +308,58 @@ $lH$\
 &This method exists but not considered.
 &Use UnsafePack(iocb, userData) instead
 &jL&6Zl6?A~?
-&x	nY
-'''''''''
+&rDW
+&rf2
+&wGd
+&wZd
+&wrd
+&x\tnY
 '''''''''''''''
-'((((((((
 '(2.0) missing support for AccessEntries
-'.]	 *
 '2, /+0&7!4-)1#
-'6-9d
+'EX2\v
+'F3S\v
 'G,AP
+'IxO\f
 'NNNNNNNN((((((NNNNNN
+'Qvl\r
 'System.Collections.Queue+QueueDebugView
 'System.Collections.Stack+StackDebugView
 'System.Reflection.Emit.ParameterBuilder
-'_&%5^
-(	`$g	v
-( (((
-(!((((((((((
-(((!!!
-(((''
-(((((
-((((((
+'WOJ
+'Yck
+'eFl
+'eYl
+'ehl
+'rRW
+(!((((((((((\v(((((((((((((
 ((((((!!!!4!!!!!!!!!4!!!4!!!!!
-(((((((
 (((((((((!!!
-((((((((((
 (((((((((((
 ((((((((((((
-(((((((((((((
 (((((((((((((((((((((((((((
 (((((((((((((NN'((((((
 ((((((((((..KKKKKKKKKKKKKKKK
-()&-r
 (/374-0
-(2.0)
 (2.0) missing validations
 (2.0) more tests are needed
 (2.0) validations incomplete
-(4f@#t^c
-(:#Y	
-(:PY	
-(;M_r
+(2v6
 (FileOptions and FileSecurity are ignored
 (System.Runtime.InteropServices._Assembly
 (This property exists but not considered.
 (Use AppDomainSetup.ShadowCopyDirectories
 (Use the SafeWaitHandle property instead.
+(V1q
 (c) Various Mono authors
-(ds@#m
+(epl
 (h:1)li
-(pHZ0	R
+(pHZ0\tR
 (work in progress - encryption is missing
 )'(FNOMZ
-)))))
-)--wZ
-)4];*
 )8O8P
-)<N`s
-)@(G1I
 )Argument securityContextSource is ignored
+)PhE\r
 )SN@EOKH
 )System.Reflection.Emit.ConstructorBuilder
 )System.Runtime.InteropServices._Activator
@@ -1024,206 +369,159 @@ $lH$\
 )System.Runtime.InteropServices._FieldInfo
 )The IDispatchImplAttribute is deprecated.
 )Use MutexSecurity in CreateMutex_internal
-*"~c/
-*."+"
-*.(78
-*.(I7
-*.(J7
-*.(b;
-*.N8!
-*.r'(
-*.r,,
+)gZK
+)hZK
+)j1S
+)rjW
 *.r39
 *.r6C
-*.r>>
-*.r?:
 *.rA3
 *.rHl
-*.rV]
 *.rc0
 *.rg6
-*.rj=
-*.rv"
 *.rvr
 *.s3R
 *.s88
-*.sD6
-*.sH;
-*.s_;
 *.sca
 *.snF
-*.sw`
 *.syF
-*.s~+
-*.s~I
-*.s~\
 *2EWi|
-*2~ *
+*2sZ
+*3XK
 *6(bb
 *6(y0
-*:(2=
-*=Oat
+*6sO
 *B(zM
 *Br5&
-*Br>.
+*BrB
+*BrI
+*BrK
+*BrM
 *BrTv
 *BrV]
 *BrZ,
+*Brf
 *Brxw
+*Bry
 *Currently it ignores the altName parameter
-*Fr		
+*FWn
 *FrXN
-*J~a)
-*R~!*
+*RsN\n
 *System.IO.TextReader+<ReadToEndAsync>d__14
 *System.Runtime.InteropServices._MemberInfo
 *System.Runtime.InteropServices._MethodBase
 *System.Runtime.InteropServices._MethodInfo
 *This overload is not currently implemented
-*V( 4
-*V(2=
 *V(MI
+*VIq
+*VrW
 *Z A0
-*Z(2=
 *Zr)R
+*Zr3
 *Zs_L
 *\PnC
-*^ A0
-*^(N6
-*^~6/
-*^~h*
 *nrlE
-*r(M:
-*xH!'
-*~(2=
-*~~j&
-+!	o+@
-+#r+8
-+#rVe
-+%&3-
-+%D&0.-)
-+%ryA
-+&rae
-+&~d/
-+&~g2
+*r2I
+*rO7
+*rcR
+*rr1
+*rr9
+*rs9
+*rt1
+*rvE
+*rvW
+*sW6
+*smr
+*sp7
+*svU
+*szU
 +'*%/SO.M-TP/
-+'~G*
-+(	r1
 +*Brr
-+*r:C
 ++DDFFDDFFDDFFDDFFDDFFDDFF
-+,-./01
-+,-./012
-+.%+3
 +.147:=@CFILORUX[^adgjm
-+.r	S
 +/04>AEMNOPY\a
-+0~G*
-+6(}8
++2ss
 +6rN=
-+6rlE
-+8rfT
++7rk
 +9.j8
-+958	 SR0%5
-+;(}8
-+<;)	
-+>Pbu
-+>r(E
-+?	r2I
-+C	(`*
++958\t SR0%5
 +Does not currently use the manifest support
-+J~;	
 +System.Collections.Generic.ObjectComparer`1
 +System.IO.Stream+<CopyToAsyncInternal>d__27
 +System.Runtime.InteropServices._EnumBuilder
 +System.Runtime.InteropServices._ILGenerator
 +System.Runtime.InteropServices._TypeBuilder
-+V(Sd
++Vdq
 +XpHh
 +Z(XZ
 +ZKXrE
-+\q]&
-+^rSb
++\vrzJ
 +call into KeyPairPersistence to get details
-+nr	R
-+nrvE
-+q~G*
-+r~;	
-,		o(
-,	-&#,/
-, (R7
++j5T
++jCS
++jeS
++jiT
++jqT
++jzT
 , ,!,",#,$,%,&,',(,),*,+,,,-,.,_,`,`,b,c,d,:
 , rO7
-,!	oc@
-,!	s-A
-,$r<0
 ,$rh0
-,%r|t
-,&(c	
-,'	o_R
-,+	,(
 ,,................/..........!!!!!0000000000
 ,,222HHHH
 ,,mmXXCC
-,....
-,.9+H
 ,0rL0
 ,17/6
-,2	,!	
 ,2rv3
-,7	ob@
-,8$4_
-,8(}8
-,9 @B
-,:$Z	
-,=rr#
-,?Qcv
-,@  `
-,A()N
+,3rH
+,8ZK
 ,I(O6
-,L	rHJ
+,L\trHJ
+,QXm\r
 ,System.Runtime.InteropServices._AssemblyName
 ,System.Runtime.InteropServices._EventBuilder
 ,System.Runtime.InteropServices._FieldBuilder
 ,System.Runtime.InteropServices._LocalBuilder
 ,System.Runtime.InteropServices._MethodRental
 ,System.Runtime.InteropServices._PropertyInfo
-,S~Y	
-,X~Y	
-,g[i}
-,m	u.
--	(jH
-- +$r
+,\t,\n,\v,\f,\r,
+,\vr2I
+,\vr2n
+,\vrJ3
+,\vrcm
+,\vrh2
+,\vri7
+,\vrvE
+,\vscc
+,\vsfc
+,\vsic
+,\vslc
+,\vsoc
+,\vsrc
+,\vsuc
+,\vsxc
+,dms
+,eyl
+,psc
 - -!-"-#-$-%-80( 
-- r(g
-- r.~
--"(G=
 -$r9S
--$rZ=
--$rf=
--%)(&
--&+*(
--((f	
--)r,@
--)~!*
--*r(g
--,+0r
 -,r2I
 -.!..............!!!!!!!!!!!
--2+8~
+-1rN
+-2H7
 -2rPA
--3(}8
+-2ro
+-3wr
 -678{
--8~ *
--:(6e
+-6nn
+-7ro
+-9rN
 -@Rdw
 -Call the static methods directly on this type
 -D+Vr
--L/?0
--M(}8
+-DrL
+-Iaf
 -P+Ts
--R(h*
--S,!R
+-PrG
 -Serialization format not compatible with .NET
 -System.IO.StreamReader+<ReadBufferAsync>d__98
 -System.Reflection.Emit.CustomAttributeBuilder
@@ -1231,59 +529,67 @@ $lH$\
 -System.Runtime.InteropServices._ModuleBuilder
 -System.Runtime.InteropServices._ParameterInfo
 -The argument securityContextSource is ignored
--g	rK
--v(}8
-. +:~
-."+8r
-.*+3sE
-.....
-.......
+-V4r
+-\nsmS
+-\t-\n-\v-\f-\r-
+-\vr00
+-\vr02
+-\vr0o
+-\vr2I
+-\vr2l
+-\vr41
+-\vr89
+-\vr9m
+-\vrAJ
+-\vrAR
+-\vrER
+-\vrFt
+-\vrKm
+-\vrL3
+-\vrOR
+-\vrcO
+-\vrdg
+-\vrf8
+-\vrlE
+-\vroR
+-\vrt4
+-\vrv1
+-\vrvg
+-g\trK
 .........!!!!!!!!!!!.
-..........
 ...........
 ............+
 .................
 ......................
 .......................
-...........................	
+...........................\t\n
 ...22.,,,,,,,,,,,,,,
-../ecma.pub
-./-'+
-.10-,
-.8<3,6
-.9+G	
-.<Z	!
-.>+Br+D
-.@	 x
+.8ZK
 .ASex
 .CAS support is experimental (and unsupported).
-.D+Mr%'
 .L@hU
-.O+S 
+.Qdm\r
 .Security - we need to propagate the call stack
-._	 t*@
+.\vr2I
+.\vr96
+.\vrW4
+.\vrg6
+.\vrk3
+.\vrw4
 .cctor
 .ctor
-.fZ	!
-.hr(\
-.j	 U
 .l/hm*Q9
-.text
-.|r(\
+.r8l
+.se9
+.wGe
+.wUe
+.wxV
 /#r3R
 /$Q9y
 /0123456789:;<=>?@AB
 /0i[ZL
 /39:674
-/9% 	
-/90 	
-/9<$	
-/9h$	
-/9x#	
-/;<>K
-/B&'>
 /File encryption isn't supported (even on NTFS).
-/I	 a
 /Incomplete - minimal validation in this version
 /Not implemented.  Always returns an empty array
 /Serialized objects are not compatible with .NET
@@ -1297,26 +603,31 @@ $lH$\
 /System.Runtime.InteropServices._SignatureHelper
 /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 /System/Library/Frameworks/Security.framework/Security
-/e)cY(
+/\vrCR
+/\vrcR
+/\vrrp
 /ensureSecurity support has not been implemented
-0!8!@!
+/jHU
+/jwU
 0(2.0) Add new stuff (CodeConnectAccess) into XML
 0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,
 0,1-u
 0-=827
-0. +0
-0.!+2
-0.#+5
+0.\vrS
+0.\vrw4
+00P`
+0123
 0392525BCB01691D1F319D89F2C12BF93A478467
 0588059ACBD52F7EA2835882F977A9CF72EB9775
-0:,[	
+05V]
 0A1ADB22C1D3E1F4B2448EE3F27DF9DE63329C4C
 0CUgz
+0Ca\n!
 0E171F67DF35B781B61D8F79B0E59EE21F80A595
 0Item = {Item}, SequenceNumber = {SequenceNumber}
 0K(Sd
+0P`0
 0Please use Hashtable(IEqualityComparer) instead.
-0Q'qcq|
 0Q[eHR)\6-O,FTh
 0R(,Q
 0System.IO.StreamWriter+<FlushAsyncInternal>d__67
@@ -1324,54 +635,93 @@ $lH$\
 0System.IO.StreamWriter+<WriteAsyncInternal>d__54
 0System.IO.StreamWriter+<WriteAsyncInternal>d__56
 0System.Runtime.InteropServices._ParameterBuilder
+0Vhs
+0Vss
+0YXT
+0YX\f
+0YX\r\t
+0YjX\f
+0YjX\r+&
+0YjX\r\t
+0Y}I
+0\vrb1
+0\vrlE
+0fZK
 0it needs to be invoked within the created domain
+1 rK
 1 ro(
-1*?#0
-1+/hi*
+1$rK
+1+r1
 1,rmL
 1,rxF
 1-rJC
-1.r2I
+1.\vrC
+1.\vrc
 101E9DD9BE95D87DABF071EC0007923778409A35
 1072FDC2B3F14476527F9AFDC6A9A3365CDD4520
 11,..!...................,.!!!!!!!)
+11Sb
 121EC59E23F7559B28D338D562528F6299C2DE22
 12D04472A8285260EA12FD3813CDFA9F2D2B548C
+13:P
 13A35EF1A549297C70E2AD46045BBD2ECA17852D
+13r2
+13r|\v
+15r2
+15r|\v
 16 j 
-17	-'
+16r-
+16r=
 1730F09044E91DB8371B849EFF5E6D17BDE4AED0
 18ABA12DD09EAEC266A410595FF8397550CB69F3
-19t%	
-1?#1*
+1937\r
+19t%\t
 1@;9CE@MIzy
 1A84029C80CB5518379F199F53FF08A7B764F8FD
 1AEF3D8DF416A46288C91C724CBF7B154D9E5BF3
+1B5>
 1E41C4CD0767AEA21C00DEABA2EA9407F1E6CEA5
-1F * 
 1FE6CE411858B3D864679DE2139FB081F08BFACD
+1I8H
 1J j 
+1Sb1
 1Serialized objects are not compatible with MS.NET
 1System.Collections.Generic.IDictionaryDebugView`2
 1System.Collections.SortedList+SortedListDebugView
 1This routine only returns the parameter currently
-1Z * 
 1ZGUC
-1[;?	
+1\vr!G
+1\vr2I
+1\vr46
+1\vrG
+1\vrKG
+1\vrMJ
+1\vrN1
+1\vrWG
+1\vr\F
+1\vrh
+1\vrk3
+1\vrm-
+1\vrw
 1`aF(
+1lzt
 1nX0m
+1p+d
 1wXv@
+1w~6
 2(2.0) Parse new stuff (CodeConnectAccess) from XML
-2+`5&
 2.0 SP1 member
-2/3&"0
-20#B*=$
 211DEF42B95FD6AB230AA0439D7B1B4125F71291
-22Vd::Nt
+213\n
+21r[
+22Vd::Nt\n\n
 235D99572263B22ADFEE10FDA0C25E12F4D94FFC
+250.
 25420D0055076FA8D3E4DD96BC53AE24DE6E619F
 25CF935D2AE9EDF05DD75BCD47FF84D9255D6F6E
+27-0
 29C1A61550F0E3260E1953D4FAD71C256218EF40
+2<69
 2B33BEC8C30DFDC49DAFE20D3BDE19487850D717
 2B6224F32C7F4129F429E6AE11030AB9FA140D91
 2BA840FF6020B8FF623DBCB7188248CF853FAF4F
@@ -1380,46 +730,73 @@ $lH$\
 2D1DA5BB407F0C11C3B5116196C0C6374D932B20
 2D3CF0F15AC2DDEC2956EA1B7BBE43FB8B923130
 2DisplayName currently only returns the EnglishName
+2ET3\v
 2F71D2DA12F3CD0A6A112F5A5A75B4FDC6FE8547
 2No support for PE32+ assemblies for AMD64 and IA64
 2System, PublicKey=00000000000000000400000000000000
 2System.IO.BufferedStream+<FlushAsyncInternal>d__38
 2System.IO.TextReader+<ReadBlockAsyncInternal>d__18
 2System.Runtime.InteropServices._ConstructorBuilder
-2Vd2:Nt:
-2[	-"
+2Vd2:Nt:\n
+2ZX\n
+2\89
+2\T7
+2\ZK
+2\n@'8\nD'9\n0'9\nJ
 2\tHlWB
-3		o+
-3$~;	
-3&~;	
-3'~;	
+2\vr8
+2\vrG<
+2\vrc
+2\vrf
+3"ii
 320B018758ECE3752FFEDBAEB1A6DB67C80B9359
 3333333333(((((((((((((((((!!!!!!!!!44
+333?
+33Uf
 34476C29F6F81C989CFCA42F7C06E84C66236834
 34567
+3524
 35EED060772F2748D13B745DAEC8CD7BD3B87604
 375F9AE9769A3D1DA789E9ACFE81F3A1BB14F0D3
 379C06C9E702D31469C29033F0DD63931EB349F5
-39	&	
 399BD13E240F33F808CA7940293D6EC4E6FD5A00
 39C9CE73C7B0619D409EF28344F687C1B5C130FE
-3:H\	
+3B8C
 3C53AFB51FEC23491684C7BEDBC6D4E0F409F851
+3D0\f\v
 3D4480E43F2013201B4A95D1AB9224A6A823E283
 3E3442C7396F3F2BB4C7348F4A2074C7DC677D68
 3E4BBF9D0CDD2E34F78AA7A9A3979DCE1F7B02BD
 3E5i)'(Q|
 3E823444D2DFECF0F90B436B88F02A533CB376F1
+3F3W\v
 3FE6C283BCF384FD2C8789880DFF59664E2AB4A1
+3FQ;
 3In Mono this is controlled by the --share-code flag
 3IsCancellationRequested = {IsCancellationRequested}
+3QON
+3RS 
 3System.Collections.Generic.ObjectEqualityComparer`1
 3System.IO.StreamReader+<ReadLineAsyncInternal>d__61
 3System.Reflection.Assembly+<get_DefinedTypes>d__150
 3System.Reflection.TypeInfo+<GetDeclaredMethods>d__9
 3This ignores the rights and fileSecurity parameters
-3U[:?
+3U\v1
+3\f(Sd
+3\vr7D
+3\vrD\n
+3\vre
+3\vrvr
+3e&m
+3e=m
+3edm
+3iH#
+3ih#
+3k\to
 3osuK
+3w\rf
+3w~6
+4 1O
 4.0.0.0
 4.6.57.0
 40981BAA39513E58B28DCF0103CC04DE2A0A0444
@@ -1427,36 +804,43 @@ $lH$\
 421EC7E82F2967DF6CA8C3605514DC6F29EE5845
 433175D38B13FFE177FDD661A309F1B528B3F6E2
 43A5C779787F9EA37913539708165A6C752EB99E
+444|
+44\h
+44h|
+456+
+456+\r\v\f%&'()*
 46232052BC757E030490D851F265FB47FA100902
+4697
 479;8
 47:=@CFILORUX[^adgjmpsv
 4858DB4AA76D3933F1CA9E6712D4FDB16903F628
 48<@DHLPTX\`dhlptx|
-49(&	
 4E3B533C39447AAEB59A8E48FABD7E15B5B5D195
+4E~3\n
 4F7A8890F332B22B8DE0BD29D36FA7364748D76A
+4FGW\v
+4FPW\v
 4System.Collections.Concurrent.IDictionaryDebugView`2
 4System.IO.StreamReader+<ReadToEndAsyncInternal>d__63
-4\"-s
-4\}_	
+4U$1
+4\h4
+4\t\n\v5678
+4ci\v
+4m\t6
+5 5O
 5!!!!55!!5!55
-5!!55$$
-5!5!!!!
-5!5!!!!!!!
 5)689M
-5.%+J
 50K_~
 536422B321459B242ADED7240B7447E904E083E3
 5382CEF491F422BFE0D6FC46EFAFF9EF9D4C89F3
+53\fN
 55!!!!5!!!!!!5!!55!!
 55!!5
 55!55
 55!55!55$5!
 55!555555!!!
+555!
 555!!
-555!!!
-555!!!!
-555!!!!!
 555!!!!!!!!!55
 555!!!!!!!!5555!55
 5555555
@@ -1472,22 +856,34 @@ $lH$\
 57F320D62696EC99727E0FE2045A05F1289CC0C6
 5855555
 594A33A00BC4F785DFD43E3C6C44FBA1242CCAF3
-5@Y\^]
+59ZK
 5BBDF8058D4235C33F2E8DCF76004031B6187A2F
 5BCD21C341BE6DDF8FFFAE1A23ABA24DCBB612BF
 5BFE2819B4778217C56416C7585FF0E56EBACD89
-5C^;F
+5C^5
 5Call the static methods directly on this type instead
 5EDFD8200B7AD157878FBA46F22A1C345662F2E3
 5GetHashCode() on Span will always throw an exception.
+5Mj*
 5Not 64bit compatible.  Use EventHandleIntPtr instead.
 5Not possible to create StackTraces from other threads
 5Please use Hashtable(int, IEqualityComparer) instead.
+5UD1
+5V6u
+5Vlu
 5`4Y[
+5`4s
+5w*f
+6 6O
+6 dK
+6(\fY<~ofX
+6*GO
 609C0E8D8DA86A09D6013D301C86BA8782C16B8C
 61D51C3387EB82B6D7BC9C61539B3713CCF850AE
+62+1
 62BAB0F245E66C3EB982CF5A7015F0A7C3382283
 646036A65DECCD6835C914A46E6E44B729433B60
+6569
 65E32B4E150FD8D24B93B0D42A17F1DAD146162B
 6666666666
 6666666666!!
@@ -1497,15 +893,29 @@ $lH$\
 66666666667
 6770974FEF1E98B9C1864370E2B5B786EB0EA39E
 67EEAD805D708D9AA4E14BF747E44CED801744F3
+68V\f\t
+69\nu
 6C71197D228427B2864C69B357FEF73D8C9D59DF
 6CEE45445AFD150B047A5866FFA76AA651CDB7B7
 6D49C9D487D7AD3491ECE08732D68A593CC2038D
 6D797C11E1D4FB68B6570CF2A92B792433527065
 6E5DC824F803F8565AF31B42199DAE39FE7F4EA9
+6Ec3\v
+6F$X\v
 6FC754859E4EC74E447048364B216D825C6F8FE7
+6I8S\f
 6System.Runtime.InteropServices._CustomAttributeBuilder
-6d!(,0_4
+6\nC0\f
+6\vr2I
+6`Gs
+6`Zs
+6iL$
+6jDV
 6q8!^+J`S
+6r\nX
+6w9f
+7 8O
+7$TF
 7(2.0) new override - something must have been added ???
 704939CD172085D1295FCE3F1D92431D685D7AA2
 7088AAE49F0627B72729078DE6E3182DDCF8ED99
@@ -1513,18 +923,19 @@ $lH$\
 736D39815215889F11249D9958F6ED12D37B9F57
 75E0C38E75E507EDE41C1C4F5F5612852B31A4EF
 76knml354
+7777
 777777
 777777"
 777777""
 7777777777""""""""""""""77777777
 77777777777777777777777777777
 77779:::;;<<<<
+7788
 77Ynmm
-789:;<
 789:;<789:;<
-7>6?b<
 7F42F2EDC974BE29B2746957416ED1AEFA605F47
 7FE820C9CF0F0B90445A71F1D262D22E4F0C4C68
+7Q0n\r
 7SuPfj
 7System.Core, PublicKey=00000000000000000400000000000000
 7System.IO.DirectoryInfo+<EnumerateFileSystemInfos>d__47
@@ -1533,98 +944,143 @@ $lH$\
 7The security manager cannot be turned off on MS runtime
 7Yn7m
 7[cP:
-8	'$#F
-8	O2@e
-8	R2@e
-8	b1%c
-8	k&^I
-8	l09`
-8	p09`
-8	x0P`
-8	}0d`
+7\n5y
+7\vrc
 8"@"@"@"@"8
-8%@%8
-8(@(H(P(
-8-'/G
+8*KO
 8.NOP8
+8/pw
 811A927B7DADD378BE60BBDE794B9277AA9B50EC
 81917F1E21F3C22B9F916994547A614FB03E968E
 823566DA642D6EA356E15585921F2A4CA23D6760
 82C2A59850B2E85BCE1A45A479537A384DF6098D
 82C383F8E6E4D3D87AEBB986A5D0077E8AD157C4
+846}
 86F4F563FA2C61798AE6238D789139739428463A
 871B9CF85DB352BAADF12BAE8F19857683E385AC
 8888888888
+88V\f\t
+88t\f\t
 89A040451C8CC5C8FB268BE44BDD74964C104155
-8:f\	
 8@[FG
 8AEFB06C426E07A0A671A1E2488B4858D694A730
 8Always returns GCLatencyMode.Interactive and ignores set
 8CAA092E783257106251246FF5C97F88D28517A6
 8D231DD55FE1AD7631BBD0905A17D5EB616C2154
 8E10AC2F34545DFBBF3FCBC06055D797A8C99991
+8ERJ
 8F22C9ECE1331718CBD268A9BBFD2F5E451441E3
 8F6B6AC8FBF72E6E180F63A143400289ABA06FD8
+8F8X\v
 8FCC900D91A3291D6A06E115C795754507E3FB70
+8H;w\n
+8Hp8
 8M%iBZj~
-8N;4	
+8N;4\t
 8OF%;J-9:
 8System.Security.Claims.ClaimsPrincipal+<get_Claims>d__37
 8Use an overload that does not take an Evidence parameter
+8\nj9
+8\r|C6jEa
+8\t11
+8\t21
+8\tO2@e\n
+8\tR2@e
+8\tV0
+8\tb1%c
+8\tp09`
+8\tx0P`
+8`ss
+8b'B
+8ep.
+8n@P
 8permissionCheck and registrySecurity are ignored in Mono
 8q>M`
+8r"X
+8wFf
+8wTf
+8xZK
+9.PQ
 90A0542282A011472F94E97CEAE59F8B3B1A3291
 91/30
 93A63E90605400F34B49F0EB3361D23C89164BDA
 94841DD2F330CCB1089BF413E4FA9B04505152E2
+94H}
 95264589E48F94B7857CFF398FB72A537E13EEE2
 95C48758CAE1715783472FB073AB158AB8A0AB2A
 96<2:
 973417296623D8DC6961B09664E54039E44CA5D8
+9758
 97FB30C84FF4A41CD4625B44B2940BFC8DB43003
+98A\t
+98E\t
+9999
 999999999!!!!55%
 9999999999
 9999999999!!$$$$$$
 9999999999999999999
 99E2E88877D14C7DDC4E957A0ED7079CA0E9EB24
 99E9CC3E542086166B51A606E9343AFE781D898B
+9:87
 9:8z7
 9:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+9?xD\n
 9A9C3962CD4753376E3507C8CB5FD8FCC4B4EDB5
 9BB00D1FCCBAF03165447FC8028E7CA07CA9FE88
 9Currently it does not allow the setup in the other domain
 9F6EFAE188929CBC060C013CA2CA76C46E07F4B6
+9I.u
+9I`T\f
+9JLX
 9Kr9J
+9LM\t
+9PI\t
+9Qtn\r
+9SG\t
 9ShouldExitCurrentIteration = {ShouldExitCurrentIteration}
+9Srt
 9System.Collections.Generic.Mscorlib_CollectionDebugView`1
 9System.Collections.Generic.Mscorlib_DictionaryDebugView`2
 9System.Reflection.TypeInfo+<get_DeclaredNestedTypes>d__23
 9System.Security.Claims.RoleClaimProvider+<get_Claims>d__5
 9System.Threading.Tasks.SystemThreadingTasks_TaskDebugView
 9The provider argument is not used. Please use ToString().
-9^06("
-::::::::::
+9U;s
+9Vtv
+9XF\t
+9YD\t
+9\t\n\t\n\t\n\t\n\t\n
+9aD\t
+9eN\t
+9hG\t
+9i8\t
+9iM%
+9lD\t
+9nE\t
+9oC\t
+9q8D
+9r.X
+9v8\t
+9vN\t
+:3OW
 ::MEf
-:;%%%%%%
-:=[6^
 :Currently get only works on Mono/Unix; set not implemented
+:F9Y\v
 :Initial Count={InitialCount}, Current Count={CurrentCount}
-:J ,W
-:L;		
 :uYMC-v
 :~1LM
-;3)	-&
-;3+#>6.&
-;8:96<?=>
-;9n(	
-;;;;;;;;;;
-;>36!
 ;?A8FB
-;E:;b
+;C5N
+;FAY\v
 ;System.IO.DirectoryInfo+<CreateEnumerateFilesIterator>d__43
 ;System.Threading.SpinLock+SystemThreading_SpinLockDebugView
 ;System.Threading.ThreadPool+<EnumerateQueuedWorkItems>d__21
+;UT3
+;V0w
 ;d22Vt::N
+;jZK
+;rFX
+;w9f
 <.cctor>b__11_0
 <.cctor>b__11_1
 <.cctor>b__22_0
@@ -1656,10 +1112,8 @@ $lH$\
 <.ctor>b__2_1
 <.ctor>b__2_2
 <.ctor>b__2_3
-</linker>
+<3wO
 <9C8=
-<<<<<<
-<=>?@AB
 <>1__state
 <>2__current
 <>3__basePath
@@ -1677,43 +1131,6 @@ $lH$\
 <>4__this
 <>7__wrap1
 <>7__wrap2
-<>9__12_0
-<>9__16_0
-<>9__17_0
-<>9__19_0
-<>9__1_0
-<>9__1_1
-<>9__1_2
-<>9__1_3
-<>9__22_0
-<>9__276_0
-<>9__276_1
-<>9__29_0
-<>9__2_0
-<>9__2_1
-<>9__2_2
-<>9__2_3
-<>9__31_0
-<>9__36_0
-<>9__39_0
-<>9__39_1
-<>9__3_0
-<>9__43_0
-<>9__43_1
-<>9__46_0
-<>9__47_0
-<>9__4_0
-<>9__4_1
-<>9__4_2
-<>9__53_0
-<>9__53_1
-<>9__57_0
-<>9__57_1
-<>9__66_0
-<>9__66_1
-<>9__6_0
-<>9__6_1
-<>9__8_0
 <>c__DisplayClass11_0
 <>c__DisplayClass13_0
 <>c__DisplayClass178_0
@@ -1753,10 +1170,7 @@ $lH$\
 <>m__Finally1
 <>m__Finally2
 <>t__builder
-<>u__1
-<>u__2
-<>u__3
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>\n<linker>\n\t<assembly fullname="mscorlib">\n\t\n\t\t<!-- domain.c: mono_defaults.appdomain_class -->\n\t\t<type fullname="System.AppDomain" preserve="fields">\n\t\t\t<!-- appdomain.c: mono_domain_try_type_resolve -->\n\t\t\t<method name="DoTypeResolve" />\n\t\t\t<!-- appdomain.c: mono_try_assembly_resolve -->\n\t\t\t<method name="DoAssemblyResolve" />\n\t\t\t<!-- appdomain.c: mono_domain_fire_assembly_load -->\n\t\t\t<method name="DoAssemblyLoad" />\n\t\t\t<!-- appdomain.c: mono_domain_try_unload -->\n\t\t\t<method name="DoDomainUnload" />\n\t\t\t<!-- marshal.c: mono_remoting_marshal_init -->\n\t\t\t<method name="InternalSetContext" />\n\t\t\t<!-- System.Runtime.Remoting/RemotingServices.cs: GetDomainProxy(AppDomain domain) -->\n\t\t\t<method name="GetMarshalledDomainObjRef" feature="remoting" />\n\t\t</type>\n\n\t\t<!-- appdomain.c: mono_runtime_init -->\n\t\t<type fullname="System.AppDomainSetup" preserve="fields" >\n\t\t\t<!-- appdomain.c mono_object_new_checked in mono_domain_create_appdomain_checked -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- exception.c: mono_get_exception_appdomain_unloaded (used in several places), threadpool.c -->\n\t\t<type fullname="System.AppDomainUnloadedException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n \t\t</type>\n\t\t\n\t\t<!-- marshal.c: emit_marshal_custom (should not be used on devices)\n\t\t<type fullname="System.ApplicationException" />\n\t\t-->\n\n\t\t<!-- exception.c (mono_get_exception_argument) -->\n\t\t<type fullname="System.ArgumentException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t\t<!-- MONO_OBJECT_SETREF -->\n\t\t\t<field name="param_name" />\n\t\t</type>\n        \n\t\t<!-- exception.c (mono_get_exception_argument_null) -->\n\t\t<type fullname="System.ArgumentNullException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n \t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_argument_out_of_range) -->\n\t\t<type fullname="System.ArgumentOutOfRangeException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n \t\t</type>\n\n\t\t<!-- exception.c (mono_get_exception_arithmetic) -->\n\t\t<type fullname="System.ArithmeticException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.array_class -->\n\t\t<type fullname="System.Array">\n\t\t\t<!-- InternalArray__%s_%s is used in aot-compiler.c -->\n\t\t\t<method name="InternalArray__ICollection_get_Count" />\n\t\t\t<method name="InternalArray__ICollection_get_IsReadOnly" />\n\t\t\t<method name="InternalArray__IEnumerable_GetEnumerator" />\n\t\t\t<method name="InternalArray__ICollection_Clear" />\n\t\t\t<method name="InternalArray__ICollection_Add" />\n\t\t\t<method name="InternalArray__ICollection_Remove" />\n\t\t\t<method name="InternalArray__ICollection_Contains" />\n\t\t\t<method name="InternalArray__ICollection_CopyTo" />\n\t\t\t<method name="InternalArray__Insert" />\n\t\t\t<method name="InternalArray__RemoveAt" />\n\t\t\t<method name="InternalArray__IndexOf" />\n\t\t\t<method name="InternalArray__get_Item" />\n\t\t\t<method name="InternalArray__set_Item" />\n\t\t\t<method name="InternalArray__IReadOnlyList_get_Item" />\n\t\t\t<method name="InternalArray__IReadOnlyCollection_get_Count" />\n\t\t</type>\n\t\t\n\t\t<!-- mono/metadata/exception.c mono/metadata/marshal.c ... -->\n\t\t<!-- exception.c (mono_get_exception_array_type_mismatch) -->\n\t\t<type fullname="System.ArrayTypeMismatchException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.attribute_class -->\n\t\t<!-- used in reflection.c to create array of attributes (no need to preserve everything beside the type itself) -->\n\t\t<type fullname="System.Attribute" preserve="fields" />\n\t\t\n\t\t<!-- exception.c / mono-error.c -->\n\t\t<type fullname="System.BadImageFormatException">\n\t\t\t<!-- mono_get_exception_bad_image_format / mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t\t<!-- mono_get_exception_bad_image_format2 / mono_exception_from_name_two_strings -->\n\t\t\t<method signature="System.Void .ctor(System.String,System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.boolean_class -->\n\t\t<type fullname="System.Boolean" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.byte_class -->\n\t\t<type fullname="System.Byte" preserve="fields" />\n\t\t\n\t\t<!-- exception.c" mono_get_exception_cannot_unload_appdomain (called by appdomain.c) -->\n\t\t<type fullname="System.CannotUnloadAppDomainException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.char_class -->\n\t\t<type fullname="System.Char" preserve="fields" />\n\n\t\t<!-- marshal.c: emit_marshal_vtype -->\n\t\t<type fullname="System.DateTime" preserve="fields" />\n\t\t\n\t\t<!-- reflection.c: mono_get_dbnull_object / comment: Used as the value for ParameterInfo.DefaultValue -->\n\t\t<type fullname="System.DBNull" preserve="fields" />\n\t\t<type fullname="System.Decimal" preserve="fields" />\n\t\t<!-- domain.c: mono_defaults.delegate_class -->\n\t\t<type fullname="System.Delegate" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.stack_frame_class -->\n\t\t<!-- used in mini-exceptions.c to create array and MonoStackFrame instance, i.e. only fields are required to be preserved -->\n\t\t<type fullname="System.Diagnostics.StackFrame" preserve="fields" >\n\t\t\t<!-- threads.c mono_object_new_checked in mono_threads_get_thread_dump -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.stack_trace_class -->\n\t\t<!-- does not seems used outside the g_assert in domain.c (maybe it could be removed) -->\n\t\t<type fullname="System.Diagnostics.StackTrace" preserve="fields" />\n\n\t\t<!-- debugger-agent.c: create_event_list -->\n\t\t<type fullname="System.Diagnostics.DebuggerNonUserCodeAttribute"/>\n\t\t<type fullname="System.Diagnostics.DebuggerHiddenAttribute"/>\n\t\t<type fullname="System.Diagnostics.DebuggerStepThroughAttribute"/>\n\n\t\t<!-- exception.c (mono_get_exception_divide_by_zero) -->\n\t\t<type fullname="System.DivideByZeroException">\n\t\t\t<!-- mono_exception_from_name -->\n\t\t\t<method signature="System.Void .ctor()" />\n\t\t</type>\n\t\t\n\t\t<!-- loader.c: returned (as a string) from mono_lookup_pinvoke_call and used in\n\t\t\t\ticall.c: prelink_method / mono_exception_from_name_msg\n\t\t\t\tmarshal.c: mono_delegate_to_ftnptr and mono_marshal_get_native_wrapper\n\t\t-->\n\t\t<type fullname="System.DllNotFoundException">\n\t\t\t<!-- mono_exception_from_name_msg -->\n\t\t\t<method signature="System.Void .ctor(System.String)" />\n\t\t</type>\n\t\t\n\t\t<!-- domain.c: mono_defaults.double_class -->\n\t\t<type fullname="System.Double" preserve="fields" />\n\t\t\n\t\t<!-- domain.c: mono_defaults.enum_class -->\n\t\t<type fullname="System.Enum" preserve="fields" />\n\t\t\n\t\t<!-- loader.c: returned (as a string) from mono_lookup_pinvoke_call and used in 
 <ActivityOptions>k__BackingField
 <Arguments>k__BackingField
 <AsyncProcessMessage>b__10_0
@@ -1796,6 +1210,8 @@ $lH$\
 <EventId>k__BackingField
 <EventSource>k__BackingField
 <ExecuteSelfReplicating>b__0
+<FYY
+<FcY\v
 <FilterTasksFromWorkItems>d__7
 <Finalize>b__6_0
 <FlushAsync>b__36_0
@@ -1918,8 +1334,6 @@ $lH$\
 <WriteAsyncInternal>d__54
 <WriteAsyncInternal>d__56
 <WriteToUnderlyingStreamAsync>d__60
-<X:W>;
-<af>5__1
 <attrs>5__2
 <buckets>5__1
 <buffer>5__1
@@ -1945,37 +1359,19 @@ $lH$\
 <get_DefinedTypes>d__150
 <get_ForEnumeration>d__31
 <headTail>5__2
-<i>5__1
-<i>5__2
-<i>5__3
-<i>5__4
-<i>5__6
-<i>5__8
 <index>5__2
 <items>5__1
 <items>5__3
-<j>5__2
-<j]i*
-<j]i*"
-<j]i*&
-<j]i*J
-<j]i*N
+<jZX
 <len>5__3
-<linker>
 <message>i__Field
 <message>j__TPar
-<n>5__1
-<n>5__5
 <numWholeBlocksInBytes>5__3
-<pt>5__2
 <public_key_token>e__FixedBuffer
+<rRX
 <reachedNeutralResourcesCulture>5__2
 <readToUserBuffer>5__3
-<s>5__1
-<s>5__5
 <sTail>5__7
-<sb>5__1
-<sb>5__2
 <see GetInvalidPathChars and GetInvalidFileNameChars methods.
 <segment>5__1
 <segment>5__5
@@ -1991,10 +1387,7 @@ $lH$\
 <totalUserBytes>5__1
 <vzfEw
 =&&jL66Zl??A~
-=-9'6
-==========
 ==Gzdd
-=>?@%8J\
 =CsmB
 =Declarative security for assembly level is no longer enforced
 =LMRST
@@ -2004,26 +1397,21 @@ $lH$\
 =System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1
 =System.Threading.Tasks.SystemThreadingTasks_FutureDebugView`1
 =Xmn<
-=t]o-
->8$4,
+=w0h
 >=GDF
->>>>>>>>>>
 >?@ABCDEFGH
->E<5&
+>FWZ\v
 >GE942
 >KA?Q0D4qO5
+>PlF\r
 >System.Collections.Generic.Mscorlib_KeyedCollectionDebugView`2
 >W+W1X
->^//q
+>cba
 >pmXX
-?+j;,-
+>rjX
 ?1=r8
 ?333333
 ?37~g2
-??????????
-?@$m?>=@
-?@,-N
-?@QPT^
 ?ABCDH
 ?Currently always returns false, regardless of interactive state
 ?MO%J
@@ -2033,53 +1421,63 @@ $lH$\
 ?UUUUUU
 ?X509ContentType.Pfx/Pkcs12 and SerializedCert are not supported
 ?Xjl(R
-?_b`*.
-?j_iY
+?eZK
+?rvX
 @$H$P$X$`$h$p$@"
-@&H&P&
-@."+&r
-@.V+i(
-@.reloc
 @002400000480000094000000060200000024000052534131000400000100010007D1FA57C4AED9F0A32E84AA0FAEFD0DE9E8FD6AEC8F87FB03766C834C99921EB23BE79AD9D5DCC1DD9AD236132102900B723CF980957FC4E177108FC607774F29E8320E92EA05ECE4E821C0A5EFE8F1645C4C0C93C1AB99285D622CAA652C1DFAD63D745D6F2DE5F17E5EAF0FC4963D261C8A12436518206DC093344D5AD293
+@6fV
 @@@@@@@@@@@@
-@@BBDDFFHHJJLLNNPPRRTT
+@@BBDDFFHHJJLLNNPPRRTT\v
+@Cwg
 @Equals() on Span will always throw an exception. Use == instead.
 @System.Collections.Concurrent.ConcurrentQueue`1+<Enumerate>d__27
 @System.Diagnostics.Tracing.ActivityFilter+<GetFilterAsTuple>d__7
 @Use FileStream(SafeFileHandle handle, FileAccess access) instead
-@[Yb($
-@]O+ 
-@`}E 
-@`}h'
-@`}r'
-@d@#~
-@j^Yi
-@j^iY
-@n`m}r
+@eZK
+@j0W
+@oP0
+@oR0
+@oT0
+@oa0
+@om0
+A jU
+A,QK
+A,zn
 A0074C15377C0C870B055927403EA9FA7A349D12
 A1319B706116AB2C6D44483F60A7D0ACEA543396
 A13AA52274D951A18029131A8DDECF76B569A15D
 A323DB0813C4D072957BA6FDA79D9776674CD06B
+A3`P
 A5444763673307F6828C748D4B9708CFC02B0959
 A6732F8E7FC23766AB329B492D6BF82E3B33233F
 A705A106D95282BD15E13EEA6B0AF583FF786D83
+A89K
 A8A491E4CED49AE0027560476C10D933CE70C8DF
+A>eb
+AAAA
 AAAAA
 AAAAAAAAAA
 AACACA
 AACCUOEG
+AAEA
+AAGI
 ABCDEFGHIJKLMNOPQRSTUVWXY
 ABHAB
 AC791C4F39504D1184B73478943D0636258DA7B1
 ACACAEC
 ACCAC
 ACCIICGGCC
+AC[o
 ADEra
 ADVAPI32
+AE>5
 AEACDA021EBCFBF4FDEDBADB60A0D72CB3DB1B32
+AE]I
 AFCD4E1211233E99373A3367B23105A3D624B1F2
 AGACCA
+AGCI
 AJ%,P
+AKc\vq$K
 ALG_CLASS_DATA_ENCRYPT
 ALG_CLASS_HASH
 ALG_CLASS_KEY_EXCHANGE
@@ -2091,10 +1489,11 @@ ALG_TYPE_RSA
 ALG_TYPE_STREAM
 ALL_KEYWORDS
 ALREADY_INVOKED_SENTINEL
-ALWAYSREMOVED
 AMD64
 AMicrosoft.Win32.UnsafeNativeMethods+ManifestEtw+EtwEnableCallback
 ANSIX923
+AOEi
+APs\n
 ARC4Managed
 ASCIIByteArray
 ASCIIEncoding
@@ -2104,6 +1503,9 @@ ASystem.Threading.Tasks.ConcurrentExclusiveSchedulerPair+DebugView
 AT_KEYEXCHANGE
 AT_SIGNATURE
 ATypeName
+AU[w
+AYAA
+AYwC
 A[KKAG
 AbbreviatedGenitiveMonthNames
 Aberration
@@ -2145,6 +1547,7 @@ AccountSchemaAdminsSid
 AceEnumerator
 AclRevision
 AclRevisionDS
+Acos
 Acquire
 AcquireAllLocks
 AcquireLock
@@ -2339,6 +1742,7 @@ Admin
 AdministerIsolatedStorageByUser
 Administrator
 Advise
+AeZK
 AggregateDictionary
 AggregateEnumerator
 AggregateException
@@ -2347,6 +1751,8 @@ AggregateException_InnerException
 AggregateException_ctor_DefaultMessage
 AggregateException_ctor_InnerExceptionNull
 AggressiveInlining
+AiZK
+Aj`W
 AlgName
 AlgorithmIdentifier
 Align
@@ -2382,7 +1788,6 @@ AllowHexPrefix
 AllowHexSpecifier
 AllowLeadingSign
 AllowLeadingWhite
-AllowMultiple
 AllowParentheses
 AllowParenthesis
 AllowPartiallyTrustedCallersAttribute
@@ -2411,6 +1816,7 @@ AnyOtherOriginScheme
 AnyScheme
 AnyTaskRequiresNotifyDebuggerOfWaitCompletion
 AnyWritersSince
+AoS\t
 AppCompatLiteral
 AppContext
 AppContextDefaultValues
@@ -2463,6 +1869,7 @@ Applications
 ApplyCanonicalSortToExplicitAces
 ApplyPolicy
 ApproximateHalfYear
+AqWK
 ArF}pwso>EC@H=v
 ArabicNumber
 Archive
@@ -2914,6 +2321,7 @@ AsSpan
 AsTask
 AsType
 AsciHexDigitValue
+Asin
 AspNetEventSourceGuid
 AssemblyAlgorithmIdAttribute
 AssemblyAttributesGoHere
@@ -3032,11 +2440,13 @@ AsyncTaskMethodBuilder`1
 AsyncValueTaskMethodBuilder`1
 AsyncVoidMethodBuilder
 Asynchronous
+Atan
 Atan2
 AtomicBoolean
 AtomicBooleanValue
 AtomicLoopStateUpdate
 AtomicStateUpdate
+Ats\n
 AttachIdentity
 AttachServer
 AttachServerObject
@@ -3072,9 +2482,11 @@ AwaitOnCompleted
 AwaitUnsafeOnCompleted
 AwayFromZero
 AwiAa
-B-};~$
+A}G9
 B1DHE
 B2E36E778AB1CBC2AC2AA7286FBA1657C3D1B734
+B2K8
+B3Wm
 B472ED77CB3B2A66D49D179F1EE2081B70A6AB61
 B4FBD02AAB5B16E0F4BD858DA5D9E348F3CE501D
 B53A2C6DF21FC88B17AEFC40EB895B8D63210CDF
@@ -3083,30 +2495,39 @@ B881DA88BE0B68D8A6B6B6893822586B8B2CFC45
 B8864ACB9DD69E3D42151513C840AAE270BF21C8
 B8F87834C3597B2EEF22BA6D3A392CC925636401
 B9B670F134A59FB1107AF01A9FE8F8E3980B3093
+B@j2
 BACKOFF_MAX_YIELDS
 BB29ACCF07CCA7E579822BF2E43978D1161A1C3E
 BBBBBBBBBB
+BCFD
 BCLDebug
+BCyh
 BE1BDEC0AA74B4DCB079943E70528096CCA985F8
 BEBC9ECC660A13EFC359BA3383411F698CFF25DB
 BEE1CFE5DFAA408E14CE4AF4DCD824FA2E42DCB7
 BEGIN
 BF477463CE2F5EF38FC4C644BBBF4DF109E7670A
 BF5EB60806ECB74EE484105DD9D6F463BF994867
+BFg[\v
 BIDI_CATEGORY_OFFSET
 BINDPTR
 BIND_OPTS
+BI\W\f
 BIt existed for only internal use in .NET and unimplemented in mono
 BLOCK_BIT_SIZE
 BLOCK_BYTE_SIZE
 BLOCK_SIZE_BYTES
+BOh\n\r
 BRECORD
+BSJB
 BStrWrapper
 BSwap
 BSystem.Security.Cryptography.CryptoStream+<ReadAsyncInternal>d__34
 BSystem.Threading.SemaphoreSlim+<WaitUntilCountOrTimeoutAsync>d__31
 BUFFER_SIZE
-BZi}~/
+B\nUy
+B\r50
+B`4v
 BackColorErase
 BackOne
 BackTab
@@ -3155,6 +2576,7 @@ BeginScope
 BeginThreadAffinity
 BeginWriteInternal
 BeginWriteToUnderlyingStream
+Bell
 BelowNormal
 Beq_S
 BestFitDisabled
@@ -3266,6 +2688,7 @@ Bottom
 BoundCheck
 BoundaryNeutral
 Bq;m:D@A=l<ro
+Br_S
 BraceFormat
 Brfalse
 Brfalse_S
@@ -3315,6 +2738,8 @@ BuiltinReplicatorSid
 BuiltinSystemOperatorsSid
 BuiltinUsersSid
 Buttons
+BuvL
+BwLi
 ByteArrayToCurrentDomain
 ByteArrayToRootDomain
 ByteEqualityComparer
@@ -3323,14 +2748,21 @@ ByteTokenEncoding
 ByteTokens
 BytesPerInt32
 BytesRead
+C$sF
+C*kO
 C1A1100642BA9685B30A84D97348484E14AA1865
 C35AB913B7CBEB243E050D1C7A61174F7C67D416
 C4ux"
 C6F364A0AD934EFED8909446C215752E565D77C1
 C76DF2590ECCF0C28E0DBDFFA8A749BA3B910823
 C80K<#O N
+C@xb\n
+CAAC
+CAAM
 CAB?Y@
+CACD
 CACHE_LINE_SIZE
+CACU
 CADArgHolder
 CADMessageBase
 CADMethodCallMessage
@@ -3384,6 +2816,7 @@ CANCELLATION_REQUESTED
 CANNOT_BE_CANCELED
 CATCH
 CBWrapper
+CCAA
 CCAAA
 CCAAC
 CCCCCCCCCC
@@ -3402,7 +2835,9 @@ CDBurning
 CDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 CDRom
 CDSCollectionETWBCLProvider
+CDgf
 CE5835130F5277F63D716FC9115526B0AC68FFAD
+CE5>
 CE93C35B755802BC4B3D180716B048FC61701EF7
 CERT_NAME_DNS_TYPE
 CERT_NAME_EMAIL_TYPE
@@ -3455,7 +2890,9 @@ CFStringGetCharactersPtr
 CFStringGetLength
 CGEGACAA
 CHUNK_DOUBLING_RATE
+CIMO
 CIoGAQ
+CIwW\f
 CJKDaySuff
 CJKHourSuff
 CJKMinuteSuff
@@ -3463,6 +2900,8 @@ CJKMonthSuff
 CJKSecondSuff
 CJKYearSuff
 CKCOG
+CKEG
+CKMG
 CLRConfig
 CLRInstanceID
 CLR_ACCESSIBLE
@@ -3480,12 +2919,10 @@ CLSCompliantAttribute
 CMiE[
 CModOpt
 CModReqd
-CODE_ANALYSIS
 COMException
 COMPACT_FACTOR
 COMPARE_OPTIONS_ORDINAL
 COMPILER_ACCESS
-COMPUTERNAME
 CONCURRENTBAG_TRYPEEKSTEALS_ID
 CONCURRENTBAG_TRYTAKESTEALS_ID
 CONCURRENTDICTIONARY_ACQUIRINGALLLOCKS_ID
@@ -3586,6 +3023,7 @@ COR_E_UNAUTHORIZEDACCESS
 COR_E_UNSUPPORTEDFORMAT
 COR_E_VERIFICATION
 COR_E_WAITHANDLECANNOTBEOPENED
+CQVp\r
 CRYPT_DELETEKEYSET
 CRYPT_EXPORTABLE
 CRYPT_MACHINE_KEYSET
@@ -3609,6 +3047,8 @@ CWAllActionDelegate
 CWAllFuncDelegate
 CWAnyActionDelegate
 CWAnyFuncDelegate
+C`jv
+CaGI
 CacheEquals
 CachePropertyInfo
 CacheProxy
@@ -3675,12 +3115,14 @@ Caster`1
 CausalityRelation
 CausalitySynchronousWork
 CausalityTraceLevel
+CbCP
 CbIdx
 CeUwO
 CenturiesFrom1900
 CeolStandoutGlitch
 CertificateContext
 CertificateSafeBag
+CgAY
 Cgt_Un
 ChainSelector
 ChanelSinkStackEntry
@@ -4144,9 +3586,7 @@ ControlCharacters
 ControlCode
 ControlEvidence
 ControlKeyState
-ControlPolicy
 ControlPrincipal
-ControlThread
 Conv_I
 Conv_I1
 Conv_I2
@@ -4236,6 +3676,7 @@ CorrectionAlgorithm
 Correctness
 CorrelationHint
 CosOfDegree
+Cosh
 Count = {Count}
 Count = {InnerExceptionCount}
 CountTrailingZeros
@@ -4521,21 +3962,31 @@ CustomFormatMask
 CustomInfo
 CustomQueryInterfaceMode
 CustomQueryInterfaceResult
-D""fT**~;
+Cwyi
+Cw~6
+C}O9
 D#33333#g@#
+D$xF
+D'AK
 D002CBBE1FF33721AF7C4D1D3ECAD1B7DB5258B7
 D117188BE8D4609C0D531C51B0BB911A4219DEBE
 D28E8ABDBD777A482CE0EE5C24814ACAE52AABFE
 D2C5BAE967587C6F3D9F2C4551911E0575A1101F
+D2T8
+D2\8
+D3|P
 D4W:3<9
 D5+SILd%kc.X9
+D6ZK
 D76478B994B312CD022DCA207AA2254880D2FCC9
 D78D08081C7A5AD6FBA7A8DC86BCD6D7A577C636
 D7q/;M
+D;ZK
 DA19DB47B583EFCF7825D2E39D661D2354F28219
 DBFGM
 DC2B830D8CD59AD6A4E4332D21CA0DCA2821AD82
 DD3AEFEADB1CD615F3017763F1568179FEE640B0
+DD9.
 DDDDDDDDDD
 DEBUG
 DECIMAL_ADD
@@ -4551,6 +4002,7 @@ DEFAULT_PACKING_SIZE
 DEFAULT_SPIN_MP
 DEFAULT_SPIN_SP
 DEFAULT_TWO_DIGIT_YEAR_MAX
+DEFG
 DESCKIND
 DESCKIND_FUNCDESC
 DESCKIND_IMPLICITAPPOBJ
@@ -4562,6 +4014,8 @@ DESCUNION
 DISPPARAMS
 DISP_E_OVERFLOW
 DPlease use Hashtable(IDictionary, float, IEqualityComparer) instead.
+DQlp\r
+DQxp\r
 DSACryptoServiceProvider
 DSAManaged
 DSAParameters
@@ -4595,11 +4049,18 @@ DX_YMN
 DX_YN
 DX_YNN
 DYNAMIC_TIME_ZONE_INFORMATION
+D_MN
 D_MNd
 D_NDS
+D_NM
+D_NN
 D_NNd
+D_Nd
+D_YM
 D_YMd
+D_YN
 D_YNd
+D`wv
 DangerousAddRef
 DangerousCreate
 DangerousGetHandle
@@ -4663,6 +4124,7 @@ DaysToMonth365
 DaysToMonth366
 DaysUpToHijriYear
 DaytimeDuration
+DbA#
 DebugAssertBanner
 DebugAssertException
 DebugAssertLongMessage
@@ -4857,6 +4319,7 @@ DetermineTimeZoneAdjustments
 DeviceType
 Df;4[
 Df~4[
+DhXz
 DialPhone
 DialupSid
 DictEntry
@@ -4978,10 +4441,13 @@ DownArrow
 DownHalfLine
 DownHeap
 DowngradeFromWriterLock
+DpdU
 Drain
 DriveInfo
 DriveNotFoundException
+Drop
 DsaKeyValue
+Dump
 DumpHandles
 DumpInternal
 DumpMemberInfo
@@ -5008,10 +4474,15 @@ DynamicPartitionerForIndexRange_Abstract`2
 DynamicPropertyReg
 DynamicSecurityMethodAttribute
 E1827270A5FE1C85F5352A66FD87BA747213D006
+E239
+E2H9
+E2`9
 E45BAB43F7D5D038672B3E3431F92E34A7AF2571
+E49~
+E4G\v
 E75835D001C843F156FBA01B001DFE1B8029AC17
+E7M\v
 E92B39D8233061927D9ACDE54665E68E7535635A
-E:T^	
 E;BD:
 EA9506959484C55CFE0C139C624DF6060E285866
 EB237D93FA22EEE4936E8D363A0AD5117F5F3FB0
@@ -5020,16 +4491,32 @@ EBF68F411848D603D059DFDEA2321C5A5EA78044
 EC5BB4F59D4B9B2E9ECD3904D44A8275F23AFB11
 EC83FB16C20052BEE2B4025159BC2ED45C9C70C3
 EC89C317EA2BF49A70EFF5E89C691E34733D7C37
+ECEs
+ECG\v
+EDJ\v
+EDt:
 EEEEEEEEEE
+EEKI
 EE_MissingField
 EE_MissingMethod
+EF9\\v
 EFG.02
+EGM\v
+EGc{
+EI,Z\f
+EI:Z\f
+EIEG
+EIE\v
+EI[K
 EKGSGI
 ELEMDESC
 ENABLE_SANDBOX
 ENC50229
 ENUM_DONE
 ENUM_NOT_STARTED
+EOE[
+EOL2
+EOiQ
 EPHEMERON_TOMBSTONE
 ERROR_ACCESS_DENIED
 ERROR_ALREADY_EXISTS
@@ -5093,6 +4580,9 @@ ERROR_TOO_MANY_POSTS
 ERROR_TRUSTED_RELATIONSHIP_FAILURE
 ERROR_UNKNOWN_REVISION
 ERROR_WRITE_FAULT
+ESEG
+ESM\v
+ESa[
 EThis attribute is deprecated and will be removed in a future version.
 EUCJP
 EUCKR
@@ -5107,22 +4597,37 @@ EVENT_CONTROL_CODE_ENABLE_PROVIDER
 EVENT_FILTER_DESCRIPTOR
 EVENT_INFO_CLASS
 EWCPA
+EWE\v
 EXCEPINFO
 EXCLUSIVE_INT32_MAX
 EXCLUSIVE_PROCESSING_SENTINEL
 EXPAND_FACTOR
+EYYW
+EYwe
 E_BOUNDS
 E_CHANGED_STATE
+E_Cw
 E_NOTIMPL
 E_POINTER
 E_siA
 EastAsianLunisolarCalendar
 EatAllWhitespace
 EatNewlineGlitch
+EbC#
+EbM\v
+EbSw
+Ebdw
 EccentricityCoefficients
 EchoFlush
+Ecma
 EcmaPublicKey
+EfE\v
+EfH\v
 EffectiveKeySizeValue
+EhG\v
+EiQQ
+EikQ
+Ek[a
 EmCYg
 Email
 EmailAddress
@@ -5318,6 +4823,7 @@ EnvironmentPermissionAttribute
 EnvironmentVariableTarget
 EnvironmentVersion
 EnvoyTerminatorSink
+EpO\v
 EphemeralKeySet
 EphemerisCorrection1620to1699
 EphemerisCorrection1700to1799
@@ -5333,6 +4839,7 @@ EqualStringArrays
 EqualsExact
 EqualsHelper
 EquationOfTime
+ErF\v
 EraseChars
 EraseEndOfFile
 EraseOverstrike
@@ -5348,9 +4855,12 @@ EtwEnableCallBackImpl
 EtwEnableCallback
 EtwManifestEventFormat
 EtwSelfDescribingEventFormat
+EuH\v
 EuropeanNumber
 EuropeanNumberSeparator
 EuropeanNumberTerminator
+EvE\v
+Ev\v6y.~
 Evaluate
 EvaluateInternal
 EvenMoreData
@@ -5421,6 +4931,10 @@ EventWriteTransferWrapper
 EventWrittenEventArgs
 EvidenceBase
 EvidenceEnumerator
+Ew;d
+EwB\v
+Ew~6
+ExN\v
 ExSel
 ExactBinding
 ExactPropertyBinding
@@ -5510,17 +5024,30 @@ ExtractBaseMethod
 ExtractHandler
 ExtractStatePortion
 ExtractStatePortionAndShiftRight
+F hv
+F rv
 F05ADA84174A5FD92D1C77CC1C26174EAEDB6BD5
 F06E829E62F3AFBC045D064E10A4F5DF7C969612
 F073AA332018FDA0D572E99448FFF1D6422BD520
+F0k\v
+F0m\v
 F34B0E10653402E8F788F8BC3F7CD7090928A429
 F37E34BEADB04F34FCC31078A59F49856CA83D5B
+F3<Z
+F4i\v
 F512A9ABF88066AAEB92684F95CC05D8101B462B
+F5y\v
+F6l\v
 F8FAABB821300AA500C2CEC6091B3782A7FB44A4
+F8q\v
+F8r\v
+FA4\f
 FAggregatable
 FAppObject
+FBg\v
 FBindable
 FCBD2781A933F0828ED4AAF88FD8B08D76DDD49B
+FCG\v
 FCallAddSub
 FCallCompare
 FCallDivide
@@ -5530,28 +5057,39 @@ FCallRound
 FCallToInt32
 FCallTruncate
 FCanCreate
+FCl\v
 FControl
+FCy\v
 FDAECB
 FDefaultBind
 FDefaultCollelem
 FDispatchable
 FDisplayBind
 FDual
+FEA5
+FEA;
 FEA;c
 FEATURE_READYTORUN
 FEassemblyFormat
 FEsecurityLevel
 FEserializerTypeEnum
 FEtypeFormat
+FFA\\v
 FG>R;7
+FGm\v
 FHidden
 FILE_ATTRIBUTE_DIRECTORY
 FILTER
 FILTER_START
 FINALLY
 FINISHED
+FI`Z\f
 FImmediateBind
+FJP\v
+FKn\v
+FLh\v
 FLicensed
+FNe\v
 FNonBrowsable
 FNonExtensible
 FORMATFLAGS
@@ -5561,7 +5099,8 @@ FORMAT_MESSAGE_IGNORE_INSERTS
 FOleAutomation
 FOptional calendars are not supported only default calendar is returned
 FPreDeclId
-FR-;{
+FQg\v
+FQy\v
 FReadOnly
 FReplaceable
 FRequestEdit
@@ -5590,10 +5129,17 @@ FUNC_STATIC
 FUNC_VIRTUAL
 FUSION_E_INVALID_NAME
 FUSION_E_REF_DEF_MISMATCH
+FUX8
 FUiDefault
+FUj\v
+FUl\v
 FUsesGetLastError
+FVk\v
 FX509ContentType.SerializedCert isn't supported (anywhere in the class)
+FXP\v
 FXWdN
+FXh\v
+F_ee
 Facility
 Fai4@~
 FailContinueFilter
@@ -5618,11 +5164,18 @@ FastResourceComparer
 FastToDecHex
 FastWaitAll
 FaultWithTask
+FbE#
+Fcy\v
+Fdn\v
+Fe,o
 FeedBackByte
 FeedbackSizeValue
+Fel\v
 Fetch
 FetchDataBuffer
 FetchString
+Fhj\v
+Fhk\v
 FieldAccessMask
 FieldAttributes
 FieldDef
@@ -5666,6 +5219,7 @@ FileSystemInfo
 FileSystemInfoResultHandler
 FileSystemSecurity
 FileTimeOffset
+Fill
 FillAttributeInfo
 FillBuff
 FillCJK
@@ -5750,6 +5304,7 @@ FinishContinuations
 FinishStageThree
 FinishStageTwo
 FinishThreadAbortedTask
+Fire
 FireCustomerDebugProbe
 FireTaskScheduledIfNeeded
 FirstChanceExceptionEventArgs
@@ -5782,6 +5337,7 @@ FlashHook
 FlashScreen
 Flatten
 FlattenHierarchy
+Fle\v
 FloorLog2
 FlowActivityIfNeeded
 FlushAsync
@@ -5903,6 +5459,7 @@ FoundEndOfHebrewNumber
 FoundMonthPatternFlag
 FoundYMDPatternFlag
 FoundYearPatternFlag
+Fqbn
 FrameworkCultures
 FrameworkPublicKeyFull
 FrameworkPublicKeyFull2
@@ -5973,6 +5530,7 @@ FromUnixTimeMilliseconds
 FromUnixTimeSeconds
 FromUnsignedBigInteger
 FromXmlString
+FsQ\v
 FullAppCompatMatch
 FullCircleOfArc
 FullCompositionExclusion
@@ -5996,8 +5554,14 @@ Func`8
 Func`9
 FunctionPtr
 FunctorComparer`1
+Fv;v
 FxFileVersion
 FxVersion
+Fxu\v
+Fyg\v
+Fyl\v
+F}j9
+G2a/
 GAEG_CAE
 GAQASc
 GB18030
@@ -6006,32 +5570,46 @@ GCInduced
 GCLargeObjectHeapCompactionMode
 GCLatencyMode
 GCNotificationStatus
+GCSG
 GCSettings
 GCurrently we ignore requiredCustomModifiers and optionalCustomModifiers
+GDay
 GESEGC_
+GFd\\v
 GFree
 GG4`M6
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 GGKqGI
+GIKO
 GKKG_
+GKKM
 GMSIKCaOQeC
 GMTName
 GMonth
+GO4N
 GPtrArray
 GPtrArrayFree
 GQEAE
+GQGA
 GQQa]
 GQYOA]
+GRNP
 GSQCCe
+GSz\v
+GUME
 GYICe
 GYear
+GZ$q
 G[oCuI
+G\v8D
 G_O]mQKS
 GacIdentity
 GacIdentityPermission
 GacIdentityPermissionAttribute
 GacInstalled
 GacMembershipCondition
+GbG#
+Geg_
 Gender
 Generate
 GenerateAppDomainEvidence
@@ -7213,6 +6791,7 @@ Globalization_cp_20127
 Globalization_cp_28591
 Globalization_cp_65000
 Globalization_cp_65001
+GmI3
 GoToPosition
 GotoWindow
 GrabChunk
@@ -7230,23 +6809,38 @@ GroupDefaulted
 GrovelForResourceSet
 GrowBuffer
 GrowTable
+Gry\v
 GuaranteeSize
-Guid$35167F8E-49B2-4b96-AB86-435B59336B5E
+Guid$35167F8E-49B2-4b96-AB86-435B59336B5E\r
 GuidArrayTypeInfo
 GuidAttribute
 GuidParseThrowStyle
 GuidResult
 GuidStyles
 GuidTypeInfo
+Gw`j
+Gw~6
 G}C[YSSGY
 H lfG.lCDn+(
-H"P"X"`"
-H%P%X%
-H&(}8
 H&AY#
+H'JK
+H(gZ
+H,Do
+H01\f
 H0FLbB
+H2+p
+H48\f
+H4E\f
+H50\f
+H5ZK
+H62\f
+H94\f
 HAS_ISERIALIZABLE
 HAS_SURROGATE
+HBB\f
+HDF\f
+HE0\f
+HE9\f
 HELPER_FIELD
 HELPER_LOCAL
 HELPER_METHOD
@@ -7254,11 +6848,21 @@ HELPER_PROPERTY
 HGlobalUnmanagedMemoryStream
 HIGH_SURROGATE_END
 HIGH_SURROGATE_START
+HL2\f
+HM0\f
 HMACAlgorithm
 HMACSHA1
+HP3\f
+HQHr\r
+HQUr\r
+HQ_r\r
+HRB\f
 HStringToString
 HSystem.Diagnostics.Tracing.EventCounterPayload+<get_ForEnumeration>d__31
 HT<=AS
+HU0\f
+HW4\f
+HZB\f
 HalfCircleOfArc
 Handle domain unloading?
 HandleBufferedContent
@@ -7343,6 +6947,12 @@ HaveMonth
 HaveSecond
 HaveTime
 HaveYear
+HbB\f
+Hb\rB
+Hc5\f
+He3\f
+He9\f
+HeC\f
 Head = {Head}, Tail = {Tail}
 HeaderHandler
 HeaderVersionNumber
@@ -7358,6 +6968,7 @@ HebrewToken
 HebrewValue
 HebrewValues
 HebrewYearOf1AD
+Heio
 HexEscape
 HexFormat
 HexInt16
@@ -7373,6 +6984,7 @@ HexNumberToUInt64
 HexToChar
 HexUnescape
 HexsToChars
+Hh0\f
 HhXpE
 HideScheduler
 Highest
@@ -7385,6 +6997,10 @@ HijriMonthDays
 HijriMonthsLengthFlags
 HijriYearInfo
 History
+Hj#Y
+HjCY
+HlB\f
+Hn9\f
 HomePhone
 HopToThreadPoolAwaitable
 HostAppDomainEvidence
@@ -7399,15 +7015,31 @@ HostProtectionResource
 HostResolvePolicy
 HostSecurityManagerOptions
 HoursPerTick
+Hp2\f
+Hp88
+Ht7\f
+Hu3\f
+Hu4\f
+HuC\f
 HueLightnessSaturation
-I&$@(
-I-J+)*/
+H}r9
+I(kZ
+I0K\f
+I1r\f
 I2OSP
+I386
+I8J\f
+I8l\f
+I8x\f
+IA64
+IACC
 IAWCQM
+IAZD
 IActivationFactory
 IActivator
 IAppDomainSetup
 IApplicationTrustManager
+IAq\f
 IAsyncLocal
 IAsyncResult
 IAsyncStateMachine
@@ -7456,6 +7088,7 @@ ICustomFactory
 ICustomFormatter
 ICustomMarshaler
 ICustomQueryInterface
+IDH\f
 IDLDESC
 IDLFLAG
 IDLFLAG_FIN
@@ -7481,10 +7114,12 @@ IEC;)
 IECBR
 IEEERemainder
 IEMEA
+IES_
 IEnumerable
 IEnumerator
 IEnumerator`1
 IEnvoyInfo
+IEqr
 IEqualityComparer
 IEqualityComparer`1
 IEquatable`1
@@ -7496,8 +7131,16 @@ IFormatProvider
 IFormattable
 IFormatter
 IFormatterConverter
+IGCK
+IGo\f
+IGr\f
+IGu\f
+IGz\f
 IHashCodeProvider
+IIAC
+IIGY
 IIIIIIIIIIIIIIIIJJJJJJJJJJJJJJJJ
+IIKS
 IId = {Id}, Status = {Status}, Method = {DebuggerDisplayMethodDescription}
 IIdentity
 IIdentityPermissionFactory
@@ -7512,6 +7155,7 @@ ILease
 IListWrapper
 IListWrapperEnumWrapper
 ILogicalThreadAffinative
+ILq\f
 IMPLTYPEFLAGS
 IMPLTYPEFLAG_FDEFAULT
 IMPLTYPEFLAG_FDEFAULTVTABLE
@@ -7580,12 +7224,16 @@ IObjectHandle
 IObjectReference
 IObservable`1
 IObserver`1
+IOmO
 IPrincipal
 IProducerConsumerCollectionDebugView`1
 IProducerConsumerCollection`1
 IProducerConsumerQueue`1
 IProgress`1
+IPu\f
+IQAK
 IQSaO
+IQtr\r
 IReadOnlyCollection`1
 IReadOnlyDictionary`2
 IReadOnlyList`1
@@ -7657,6 +7305,7 @@ ITaskCompletionAction
 IThis value has been deprecated.  Please use other values in CultureTypes.
 IThreadPoolWorkItem
 ITokenReader
+ITr\f
 ITrackingHandler
 ITransportHeaders
 ITuple
@@ -7667,10 +7316,20 @@ ITypeLibConverter
 ITypeLibExporterNameProvider
 ITypeLibExporterNotifySink
 ITypeLibImporterNotifySink
+IUSA
 IUnknownConstantAttribute
 IUnrestrictedPermission
+IUp\f
 IVValue
 IValueTupleInternal
+IXG\f
+IXo\f
+IXu\f
+I[8g
+I\nmy
+Iau\f
+IbI#
+IbI\f
 Id={Id}
 IdManager
 Identification
@@ -7681,6 +7340,7 @@ IdentityNotMappedException
 IdentityReferenceCollection
 IdnMapping
 IfNullAndNullsAreIllegalThenThrow
+Ifp\f
 IgnorableComma
 IgnorablePeriod
 IgnorableSymbolChar
@@ -7691,8 +7351,15 @@ IgnoreSymbolStoreSequencePoints
 IgnoreSymbols
 IgnoreSyncCtx
 IgnoreWidth
+Iho\f
+Ii7'
 IidParameterIndex
+Iiu\f
+IjKY
+Ij_Y
+Ijv\f
 IllogicalGetData
+Ilx\f
 ImageFileMachine
 Impersonate
 Impersonation
@@ -8083,6 +7750,7 @@ InternetCache
 Interrupt
 InterruptInternal
 IntersectKeys
+Intr
 IntroSort
 IntrosortSizeThreshold
 IntrospectionExtensions
@@ -8194,7 +7862,12 @@ InvokeOnSerializing
 InvokeSerializationBinder
 InvokeTypeInfo`1
 InvokeWaitMethodHelper
+Io#3
+Io&3
 IocywaAQ
+IpK\f
+IrH\f
+Iru\f
 IsAccountSid
 IsAceMeaningless
 IsActivationAllowed
@@ -8454,14 +8127,26 @@ IsolatedStorageScope
 IsolatedStorageSecurityOptions
 IsolatedStorageSecurityState
 IssuerAndSerialNumber
+Item
 ItemType
 IterableType
 IteratorStateMachineAttribute
+Iw@k
+Iwr\f
+Iw~6
+Ixl\f
+Ixy\nX8_
 IzXm)
-J%%o\..r8
+J(hZ
+J5ZK
+JFg]\v
 JJJJJJJJJJJJJJ
 JKIHn
+JLNP
 JPNwOKxzy
+JUd9
+JYT*
+JYo[
 Jagged
 JaggedOffset
 Jan1Date
@@ -8471,18 +8156,25 @@ JapaneseEra
 JapaneseEraToken
 JapaneseLangName
 JapaneseLunisolarCalendar
+Java
 Jb0;D
+Jig'
+Jio'
 JitHelpers
 JitImmediate
 JitOnDemand
+Jiw'
+JjlY
 JoinInternal
 JulianCalendar
 JulianCenturies
 JulianDaysPer4Years
 JulianDaysPerYear
 JulianEra
-K$b+nh
+K$b+nh\v
 K%Ri 
+K(lZ
+K23;
 KACAK
 KACMCK
 KAY]I
@@ -8490,11 +8182,17 @@ KAn alternate API is available: Emit the MarshalAs custom attribute instead.
 KCCSM
 KDJCE?=
 KEEOA
+KEMG
+KEUQ
 KEY_BIT_SIZE
 KEY_BYTE_SIZE
+KFo]\v
 KIK[}
+KILJ
+KIT[\f
 KJ<BE
 KL<CA
+KMGm
 KP_EFFECTIVE_KEYLEN
 KP_IV
 KP_MODE
@@ -8502,6 +8200,10 @@ KP_MODE_BITS
 KRMTP
 KSKCA
 KSecurityCriticalScope is only used for .NET 2.0 transparency compatibility.
+KX N
+KYEe
+KYeg
+KbK#
 KeepRootedWhileScheduled
 Kernel
 Kernel32.dll
@@ -8684,13 +8386,17 @@ KeyedHashAlgorithm
 KeypadLocal
 KeypadXmit
 KeysName
+KiZw
+Kill
 KindLocal
 KindLocalAmbiguousDst
 KindShift
 KindUnspecified
 KindUtc
+KnXX
 KnownAce
 KnownTerminals
+KoE[
 KoreanCalendar
 KoreanDaySuff
 KoreanEra
@@ -8701,19 +8407,26 @@ KoreanMinuteSuff
 KoreanMonthSuff
 KoreanSecondSuff
 KoreanYearSuff
+Kr99
+Kr~6
+KuY_
+Kw+l
+Kycg
 L&&jl66Z~??A
+L(iZ
+L(mZ
 L6%|F
-L:@_	
-L>-*J
+L?7F\n
 LAST_CALENDAR
 LCIDConversionAttribute
-LC~#"
+LEH?
 LHEW:2
 LIBFLAGS
 LIBFLAG_FCONTROL
 LIBFLAG_FHASDISKIMAGE
 LIBFLAG_FHIDDEN
 LIBFLAG_FRESTRICTED
+LIN=
 LINGUISTIC_IGNORECASE
 LINGUISTIC_IGNOREDIACRITIC
 LJHIM
@@ -8733,7 +8446,9 @@ LPTStr
 LPThXd`\
 LPUTF8Str
 LPWStr
-L_,`!
+L\JB
+L\pB
+L]\n9mX
 LabF0
 LabF1
 LabF10
@@ -8793,6 +8508,7 @@ Lazy_ToString_ValueNotCreated
 Lazy_Value_RecursiveCallsToValue
 Lazy_ctor_ModeInvalid
 Lazy`1
+LbM#
 Ldarg
 Ldarg_0
 Ldarg_1
@@ -8864,6 +8580,7 @@ LeaseSink
 LeaseState
 Leave
 Leave_S
+Lefp
 LeftArrow
 LeftToRight
 LeftToRightEmbedding
@@ -8882,6 +8599,7 @@ Level3
 LevelFinal
 LexTraceExit
 Li*1#P
+LiH(
 Libraries
 LifetimeServices
 LimitExceeded
@@ -8987,16 +8705,19 @@ LowercaseLetter
 Lowest
 LowestSetBit
 LpiChangesRes
+Lr8Y
 LunarCalendar
 LunarMonthLen
 LunarToGregorian
 LunarToTime
 LunarYear
-M	n}O2
-M3*	%
+LwH'
+M2F;
 M3Uf3
+M5ZK
 M8yqp
-M9d+	
+M9d+\t
+M?EF\n
 MACTripleDES
 MAXIMUM_WAITERS
 MAX_ACTIVITY_DEPTH
@@ -9010,8 +8731,10 @@ MAX_PATH
 MAX_SEGMENT_SIZE
 MAX_UNCHECKED_INLINING_DEPTH
 MAX_WAITHANDLES
+MBIG
 MCMDictionary
 MCPlusPlus
+MCUA
 MD2Managed
 MD2Transform
 MD4Managed
@@ -9021,6 +8744,9 @@ MDTransform
 MEAGC
 MEMBER_ID_NIL
 METHODS_TO_SKIP
+MGF1
+MIGU
+MIH]\f
 MIMECONTF_BROWSER
 MIMECONTF_EXPORT
 MIMECONTF_IMPORT
@@ -9038,19 +8764,30 @@ MIN_GREGORIAN_DAY
 MIN_GREGORIAN_MONTH
 MIN_GREGORIAN_YEAR
 MIN_LUNISOLAR_YEAR
+MKiK
 MLangCodePageEncoding
 MLangDecoder
 MLangEncoder
 MMUf33
+MOCU
 MONO_PUBLIC_KEY_TOKEN_LENGTH
+MOOE
+MQ(t\r
 MSCompatUnicodeTable
 MSCompatUnicodeTableUtil
 MSEED
 MSG_READONLY
+MSIL
 MSU[[
+MSw]
 MSystem.Threading.Tasks.ThreadPoolTaskScheduler+<FilterTasksFromWorkItems>d__7
 MTAThreadAttribute
+MVar
+MYE\t
 M[_AYEQ
+M\XX
+M\aC
+M\tn}O2
 MacOSX
 MachineKeySet
 Macro
@@ -9193,7 +8930,9 @@ MayLeakOnAbort
 Maybe
 MaybeNfc
 MaybeNfkc
+MbO#
 MdSigCallingConvention
+MeGY
 MeK;C
 MeanSpeedOfSun
 MeanTropicalYearInDays
@@ -9233,6 +8972,7 @@ MessageDictionary
 MessageEnum
 MessageQueuePermissionClass
 MessageSurrogateFilter
+Meta
 MetaOff
 MetaOn
 MetadataForString
@@ -9251,8 +8991,8 @@ MethodSemanticsAttributes
 MethodSignatureInArray
 MethodSpec
 Methods which use Evidence to sandbox are obsolete and will be removed in a future release of the .NET Framework. Please use an overload of CreateInstanceFrom which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.
-Methods which use evidence to sandbox are obsolete and will be removed in a future release of the .NET Framework. Please use an overload of CreateInstance which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.
 Methods which use evidence to sandbox are obsolete and will be removed in a future release of the .NET Framework. Please use an overload of CreateInstanceFrom which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.
+MgUg
 MicroColSize
 MicroColumnAddress
 MicroDown
@@ -9416,6 +9156,8 @@ MovePrevious
 MoveStandoutMode
 MoveTo
 Mp@#7
+MrJY
+Mr~6
 MsFinal
 MscorlibName
 Mscorlib_CollectionDebugView`1
@@ -9424,6 +9166,7 @@ Mscorlib_DictionaryKeyCollectionDebugView`2
 Mscorlib_DictionaryValueCollectionDebugView`2
 Mscorlib_KeyedCollectionDebugView`2
 MsgRequest
+MulX
 Mul_Ovf
 Mul_Ovf_Un
 MultiByte1
@@ -9445,16 +9188,22 @@ MutexAccessRule
 MutexAuditRule
 MutexExceptionFromErrorCode
 MutexSecurity
+MwPl
 MyComputer
 MyDocuments
 MyMusic
 MyPictures
 MyReaderWriterLock
 MyVideos
+M{P2
 N#33333
-N.F+`
+N'WK
+N'aK
+N'cK
+N'eK
+N.l8
+N/04
 N59E>6C!=
-N7+</
 NCount={CountForDebugger}, MaxConcurrencyLevel={m_maxConcurrencyLevel}, Id={Id}
 NIFullName
 NIarrayEnum
@@ -9474,6 +9223,7 @@ NNNNNNNN(((
 NNNNNNNN(((((((((
 NNNNNNNNN
 NOGYI
+NOP\t
 NORM_IGNORECASE
 NORM_IGNOREKANATYPE
 NORM_IGNORENONSPACE
@@ -9496,10 +9246,10 @@ NTE_FILENOTFOUND
 NTE_KEYSET_NOT_DEF
 NTE_NO_KEY
 NUJKFV@SQK
-NUMBER_OF_PROCESSORS	
+NUMBER_OF_PROCESSORS\t
 NVTraceI
-N\]w/
-Name	FullTrust
+N\lC
+Name
 Name>System.Collections.Concurrent.ConcurrentCollectionsEventSourceT
 NameClaimTypeKey
 NameIdentifier
@@ -9508,6 +9258,7 @@ NameInvalid
 NameNotFound
 NameOrId
 NamePrep
+Name\tFullTrust
 NativeBytesPerCharacter
 NativeCallableAttribute
 NativeCppClassAttribute
@@ -9524,6 +9275,7 @@ NativeRegisterStack
 NativeResourceType
 NativeSectionOffset
 NativeStackRegister
+NbQ#
 NearNegativeZero
 NearPositiveZero
 NeedsEscaping
@@ -9558,6 +9310,7 @@ NextNonDigit
 NextOffset
 NextPrimeFinder
 NextRectangleMap
+NjO~
 NoAccess
 NoArgs
 NoBuffering
@@ -9703,6 +9456,7 @@ NotifyUnmarshaledObject
 NotifyWorkItemComplete
 NotifyWorkItemProgress
 NotifyWorkItemProgressNative
+Nr`Y
 Nternal
 NtlmAuthenticationSid
 NullInput
@@ -9757,12 +9511,21 @@ NumberPasingState
 NumberToString
 Nutation
 NxsEQ$B
+O+BS
+O+ES
+O03\r
 O1234
-O:t_	
+O2T;
+O?XF\n
 OADateMaxAsDouble
 OADateMinAsDouble
 OADateMinAsTicks
+OD1\r
+OEKE
+OF5^\v
 OFFSET_UNKNOWN
+OGUY
+OH8!\f
 OID_DSA
 OID_OIWSEC_RIPEMD160
 OID_OIWSEC_SHA1
@@ -9775,9 +9538,12 @@ OID_RSA_DES_EDE3_CBC
 OID_RSA_MD5
 OID_RSA_RC2CBC
 OID_RSA_SMIMEalgCMS3DESwrap
+OL5\r
 OOC]GU
+OOM}
 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 OPTIL
+OPlG\r
 OQQAKU
 ORDER_DM
 ORDER_DMY
@@ -9790,10 +9556,15 @@ ORDER_YMD
 OS2IP
 OSSWk
 OSystem.Threading.Tasks.SingleProducerSingleConsumerQueue`1+<GetEnumerator>d__16
+OT4\r
+OTPX
 OUAOC
 OUOCC
+OX5\r
+OX6\r
 OYCGy_
 OYaEU
+O\8D
 O`*Q1
 ObfuscateAssemblyAttribute
 ObfuscationAttribute
@@ -9840,7 +9611,17 @@ Objmodel
 Obliquity
 ObsoleteAttribute
 ObtainSatelliteContractVersion
+OeGM
+OeUE
+Oem1
 Oem102
+Oem2
+Oem3
+Oem4
+Oem5
+Oem6
+Oem7
+Oem8
 OemClear
 OemComma
 OemMinus
@@ -9855,9 +9636,11 @@ OidKeyType
 OidToHashAlgorithmName
 OidToName
 Oijk~
+Oj7Z
 OldNames
 OldValue
 OleDbPermissionClass
+Om1\r
 OnAsyncLocalContextChanged
 OnChars
 OnClear
@@ -9951,7 +9734,10 @@ OrigPair
 OriginPort
 OriginalCount
 OriginalIssuerEqualsIssuer
+OrrY
+Or~6
 OsuRorNKqQtSL
+Ot3\r
 OtherLetter
 OtherNeutrals
 OtherNotAssigned
@@ -9998,7 +9784,14 @@ OverwriteExisting
 OwnClipboard
 OwnedMemory`1
 OwnerDefaulted
-P<@4+
+O|ZK
+P'hK
+P0Q\r
+P0R\r
+P1P\r
+P5e\r
+P8a\r
+P8d\r
 P<Dx<
 PARAMDESC
 PARAMFLAG
@@ -10010,13 +9803,20 @@ PARAMFLAG_FOPT
 PARAMFLAG_FOUT
 PARAMFLAG_FRETVAL
 PARAMFLAG_NONE
+PATH
+PDb\r
+PDc\r
 PE32Plus
 PEFileKinds
 PEG5>
 PEG;S
+PFW^\v
+PGDS
 PI_SUBST
+PIe\r
 PInfo
 PInvokeAttributes
+PJY\r
 PKCS1
 PKCS12
 PKCS1MaskGenerationMethod
@@ -10024,14 +9824,24 @@ PKCS5
 PKCS7
 PKCS8
 PKCS9
+PKy>
 PLMJND7EC
+PLO\r
+PLR\r
 PLS_BROKEN
 PLS_CANCELED
 PLS_EXCEPTIONAL
 PLS_NONE
 PLS_STOPPED
+PLZ\r
+POP\r
 PPDx<<
+PPN\r
+PPNu
+PPQ\r
 PQAeS~
+PQRS
+PQR~
 PRIVATEKEYBLOB
 PROCESSOR_COUNT_REFRESH_INTERVAL_MS
 PROV_DSS_DH
@@ -10074,6 +9884,7 @@ PRpositionA
 PRprimitiveArray
 PRrank
 PRrectangularMap
+PRsi
 PRtopId
 PRupperBoundA
 PRvalue
@@ -10083,6 +9894,11 @@ PTSTraceExit
 PUBLICATION_ONLY_SENTINEL
 PUBLICKEYBLOB
 PUse FileStream(SafeFileHandle handle, FileAccess access, int bufferSize) instead
+PWB\r
+PXD\r
+PXP\r
+P\vXY
+P`00
 PackContext
 PackEnumerable
 PackForNative
@@ -10205,12 +10021,16 @@ PatchFilterClause
 PathSeparatorChars
 PathTooLongException
 PayloadType
+PcJ7
 PcTermOptions
+Pdg\r
+Pea\r
 PeekChar
 PeekConsoleInput
 PeekPeek
 PerTypeValues`1
 Percents
+Perf
 PerformWaitCallback
 PerformWaitOrTimerCallback
 PerformanceCounterPermissionClass
@@ -10227,16 +10047,23 @@ PersianEra
 PersianNewYearOnOrBefore
 PersistKeySet
 PersistModifications
+PgZ\r
+PhD\r
+PhS\r
+Phe\r
 PickPivotAndPartition
 PinArray
 Pinnable`1
 PinnedBufferMemoryStream
+PjEZ
 Pkcs7
 Pkcs8ShroudedKeyBagSafeBag
 PkeyKey
 PkeyLocal
 PkeyPlab
 PkeyXmit
+PlO\r
+PlQ\r
 PlabNorm
 PlatformHelper
 PlatformID
@@ -10252,15 +10079,39 @@ PlatformNotSupported_RuntimeInformation
 PlatformNotSupported_SecureBinarySerialization
 PlatformNotSupported_StrongNameSigning
 PlusEq
+Pna\r
+Po d
+Po!d
+Po"d
+Po#d
+Po$d
+Po%d
+Po&d
+Po'd
+Po(d
+Po)d
+Po*d
+Po+d
+Po,d
+Po-d
+Po.d
+PoHJ
+PoQJ
+PoYJ
+PoZ\r
+PocJ
 PointerSpec
 PolicyException
 PolicyLevelType
 PolicyStatementAttribute
 PolynomialSum
+Pop0
+Pop1
 Pop1_pop1
 PopActivationAttributes
 PopDirectionIsolate
 PopDirectionalFormat
+Popi
 Popi_pop1
 Popi_popi
 Popi_popi8
@@ -10286,6 +10137,7 @@ PortablePdb
 PositionImpl
 PositiveInvariantFormatLiterals
 PossiblyCaptureContext
+Post
 PostAction
 PostBoxInitialization
 PostInit
@@ -10298,8 +10150,10 @@ PostconditionFailed_Cnd
 PostconditionOnException
 PostconditionOnExceptionFailed
 PostconditionOnExceptionFailed_Cnd
+PovJ
 PowerUser
 Powers10
+PpB\r
 PpvMT
 PreAllocatedOverlapped
 PreFix
@@ -10454,18 +10308,43 @@ PutNameInfo
 PutObjectInfo
 PutOp
 PutRefDispProperty
+Pv4 
+Pva\r
+PxT\r
+P|ZK
 P~AeS
-Q	ojR
+Q%IG
+Q&Rt
+Q0\vV
 Q3EbS
 Q3`bS
+Q7h{
+Q8y\r
 QCAuC
+QE,5\v
+QFn^\v
+QGy\r
+QHi\r
 QKUO[
+QMz\r
+QPh\r
+QQ$u\r
+QQQQ
 QSystem.Runtime.WindowsRuntime.UI.Xaml, PublicKey=00000000000000000400000000000000
 QWUgSE
 QWord
+QXy\r
 QYcIk
+QZz\r
+Q\UD
+Q\pD
+Q\tojR
 QciGY
-Qppp|||~
+Qey\r
+QhZK
+QjrZ
+Qmz\r
+Qr~6
 QuadWordFromBigEndian
 QuadWordToBigEndian
 QueryInterfaceInternal
@@ -10485,14 +10364,20 @@ QuickCheck
 QuickCheckDisabled
 QuickDial
 QuickIndexOf
+Quit
+Qw8m
+Qxj\r
+Qxy\r
+Q}Sg
 R.C8D
 R.N85
 R;Mv;
+RBTU
 RC2CryptoServiceProvider
 RC2Transform
+RC;y
 RCAS support is experimental (and unsupported). Imperative mode is not implemented.
 REGDB_E_CLASSNOTREG
-REMOTING_PERF
 REQUIRED
 REQUIRES_DELAYED_FIXUP
 REQUIRES_NEW
@@ -10501,13 +10386,17 @@ RESERVED_FIND_ASCII_STRING
 RESOURCE_ANNOTATION_WORK
 RF##e
 RFLCT_Ambiguous
+RH6"\f
+RHB)
 RIPEMD160Managed
 RMControlValid
 RNGCryptoServiceProvider
 RO_E_CLOSED
+RQDu\r
 RRMv;;a
 RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiijjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 RR||CC{
+RSA1
 RSACryptoServiceProvider
 RSADP
 RSAEP
@@ -10530,6 +10419,7 @@ RSASP1
 RSASignaturePadding
 RSASignaturePaddingMode
 RSAVP1
+RTQS
 RTSpecialName
 RTVVXYY[]__``````bdggiknpsuwz|kkkkkkkkkkkkkkkkkkkkklXXXX__```bbbbddggggggiiiikknnnn|~~kkklllll
 RTVVXYY]__``````bggiknsuwz|VVXXXXX[[______````````bbbbbbbbbdgggiiiiknnnnnnn||~~~~~
@@ -10559,6 +10449,9 @@ RVAtoPosition
 RVY]`bgknsuwz|RVY]`bgknsuwz|
 RVY]`bgknsuwz|RVY]`bgknsuwz|n
 RZTk?
+R\CF
+R\ZK
+R`Ly
 RabinMillerTest
 RadiansFromDegrees
 RaiseContractFailedEvent
@@ -10578,6 +10471,7 @@ RawAcl
 RawSecurityDescriptor
 ReAllocCoTaskMem
 ReAllocHGlobal
+Read
 Read7BitEncodedInt
 ReadAllBytes
 ReadAllLines
@@ -10697,6 +10591,8 @@ ReadWrite
 ReadWriteParameters
 ReadWriteSubTree
 ReadXdgUserDir
+Read\fCOMPUTERNAME
+Read\rUSERNAME;USER
 ReaderClosed
 ReaderLocks
 ReaderWriterLockTimedOutException
@@ -11081,7 +10977,9 @@ RngValue
 RoOriginateLanguageException
 RoReportUnhandledError
 Roaming
+Rol1
 Rol30
+Rol5
 RoleClaimProvider
 RoleClaimTypeKey
 RootHidden
@@ -11139,7 +11037,11 @@ RuntimeStructs
 RuntimeThread
 RuntimeTypeUnity
 RuntimeWrappedException
+R|ZK
+R}Sa
 S vT2
+S/ZK
+S400
 S400_400
 S400_400_100
 S400_400_DQ
@@ -11147,15 +11049,20 @@ S400_DQ
 S400_X0
 S400_X00
 S400_X00_X0
+S7=7
 S9_DQ
+SAZK
 SByteArrayTypeInfo
 SByteEnumEqualityComparer`1
 SByteTypeInfo
 SCAS support is experimental (and unsupported). This method only works in FullTrust.
 SChannelAuthenticationSid
+SC}b
+SE,6\v
 SECOND_PRIME
 SECURITY_ATTRIBUTES
 SEHException
+SEIO
 SEP_Am
 SEP_Date
 SEP_DateOrOffset
@@ -11172,7 +11079,6 @@ SEP_Time
 SEP_Unk
 SEP_YearSuff
 SER_INFO_FIXED
-SER_LOGGING
 SHA1CryptoServiceProvider
 SHA1Internal
 SHA1Managed
@@ -11191,14 +11097,19 @@ SLEEP_1_EVERY_HOW_MANY_TIMES
 SLEEP_ONE_FREQUENCY
 SLEEP_ZERO_FREQUENCY
 SMCkUG
+SMHL
+SMMA
 SMOSY
 SMUJ[
+SNIP
 SORT_STRINGSORT
 SORT_VERSION_V4
 SORT_VERSION_WHIDBEY
 SPINNING_FACTOR
 SPQRT
+SQOS
 SQRTPU
+SQcu\r
 START_INDEX
 STATE_DONE
 STATE_FIND_NEXT_FILE
@@ -11212,6 +11123,11 @@ STAThreadAttribute
 STD_ERROR
 STD_INPUT
 STD_OUTPUT
+SUP;
+SUn;
+SVRW
+SWTC
+SW[o
 SXRYT
 SYSKIND
 SYSTEMTIME
@@ -11219,7 +11135,9 @@ SYS_MAC
 SYS_WIN16
 SYS_WIN32
 SYS_WIN64
+S\r0Q'qcq|
 S]qaK
+S_OK
 SaXhT
 SafeAccessTokenHandle
 SafeAddClaim
@@ -11428,7 +11346,6 @@ ServerObjectTerminatorSink
 ServerProcessing
 ServerSecurity
 ServiceControllerPermissionClass
-Set = {IsSet}
 Set0DesSeq
 Set1DesSeq
 Set2DesSeq
@@ -11669,7 +11586,6 @@ Sha1ForNonSecretPurposes
 SharedBool
 SharedInt
 SharedLong
-SharedState
 SharedStatics
 Shared`1
 ShortEnumEqualityComparer`1
@@ -11718,6 +11634,7 @@ SingleTypeInfo
 SingleUse
 Singleton
 SingletonIdentity
+Sinh
 SinkProviderData
 SinksWithProperties
 SiteIdentity
@@ -11853,7 +11770,9 @@ SplitFractionDouble
 SplitInternal
 SplitName
 SqlClientPermissionClass
+Sqrt
 SquarePositive
+Sr~6
 Stable
 StackBehaviour
 StackBuilderSink
@@ -12008,10 +11927,12 @@ Surname
 SurrogateEncoder
 SurrogateHashtable
 SurrogateKey
+Susp
 SuspendInternal
 SuspendRequested
 Suspended
 SustainedLowLatency
+SvK!
 SwapConv
 SwapConverter
 SwapIfGreater
@@ -12070,7 +11991,6 @@ System.Activator
 System.Attribute
 System.Buffers
 System.Buffers.Binary
-System.Byte
 System.Collections
 System.Collections.Concurrent
 System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd
@@ -12488,6 +12408,7 @@ System.Security.Cryptography
 System.Security.Cryptography.X509Certificates
 System.Security.Permissions
 System.Security.Permissions.EnvironmentPermissionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Security.Permissions.EnvironmentPermissionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\r
 System.Security.Permissions.FileIOPermissionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Security.Permissions.HostProtectionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Security.Permissions.HostProtectionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089%
@@ -12525,7 +12446,6 @@ System.Threading.Tasks.IProducerConsumerQueue<T>.get_Count
 System.Threading.Tasks.IProducerConsumerQueue<T>.get_IsEmpty
 System.Threading.Tasks.ITaskCompletionAction.Invoke
 System.Threading.Thread
-System.Type
 System._AppDomain
 System._AppDomain.GetIDsOfNames
 System._AppDomain.GetTypeInfo
@@ -12565,7 +12485,11 @@ SystemWebExtensions
 SystemWindowsForms
 SystemX86
 System_LazyDebugView`1
-S{_C[
+S~Ae
+T+Kr
+T/ZK
+T28=
+T2Ae
 TABLESIZE
 TASK_STATE_CANCELED
 TASK_STATE_CANCELLATIONACKNOWLEDGED
@@ -12584,6 +12508,7 @@ TASK_STATE_WAITINGFORACTIVATION
 TASK_STATE_WAITING_ON_CHILDREN
 TASK_STATE_WAIT_COMPLETION_NOTIFICATION
 TAntecedentResult
+TArg
 TArg1
 TArg2
 TArg3
@@ -12592,18 +12517,24 @@ TAwaiter
 TBStr
 TCollection
 TDelegate
+TE<6\v
 TEnum
 TEraToken
 TEventArgs
 TException
 TFrom
+THI"\f
+THP"\f
 THRESHOLD_FOR_VALUETYPE_IDS
 TIMEOUT_CHECK_FREQUENCY
 TIME_ZONE_ID_INVALID
+TIX_\f
+TIk_\f
 TInput
 TInstance
 TInterface
 TItem
+TIw_\f
 TKIND_ALIAS
 TKIND_COCLASS
 TKIND_DISPATCH
@@ -12613,9 +12544,11 @@ TKIND_MAX
 TKIND_MODULE
 TKIND_RECORD
 TKIND_UNION
+TKey
 TLocal
 TNewResult
 TOKEN_HASH_SIZE
+TOPd
 TOutput
 TPTraceExit
 TRACE_ENABLE_INFO
@@ -12630,11 +12563,19 @@ TStateMachine
 TU%System.Diagnostics.Tracing.EventLevel
 TU2System.Security.Permissions.SecurityPermissionFlag
 TU4System.Security.Permissions.ReflectionPermissionFlag
-TU6System.Security.Permissions.IsolatedStorageContainment
+TU6System.Security.Permissions.IsolatedStorageContainment\fUsageAllowed
+TU6System.Security.Permissions.IsolatedStorageContainment\fUsageAllowed 
+TU6System.Security.Permissions.IsolatedStorageContainment\fUsageAllowed0
+TU6System.Security.Permissions.IsolatedStorageContainment\fUsageAllowed@
+TU6System.Security.Permissions.IsolatedStorageContainment\fUsageAllowedE
+TURS
 TUV[S
+TUv;
 TValue
 TWNR^
 TWrapper
+TXVU
+TX_N
 TX_NN
 TX_NNN
 TX_TS
@@ -12658,6 +12599,7 @@ TYPEKIND
 TYPELIBATTR
 TYPE_E_TYPEMISMATCH
 T_NNt
+T_Nt
 T`00P
 TableRange
 TagLastToken
@@ -12670,6 +12612,7 @@ TaiwanLunisolarCalendar
 TakeOwnership
 TakesSingleByteArgument
 TanOfDegree
+Tanh
 TargetException
 TargetExecutionContext
 TargetFrameworkAttribute
@@ -12726,6 +12669,8 @@ Task_Start_Promise
 Task_Start_TaskCompleted
 Task_ThrowIfDisposed
 Task_WaitMulti_NullTask
+Tb5>
+Te\rr
 Temporary
 TenPowersList
 TenPowersListLength
@@ -13007,6 +12952,7 @@ TrimToSize
 TrimWhiteSpaceAndNull
 TripleDESCryptoServiceProvider
 TripleDESTransform
+True
 TrueForAll
 TrueLiteral
 TrueString
@@ -13127,12 +13073,14 @@ TryWriteUInt32BigEndian
 TryWriteUInt32LittleEndian
 TryWriteUInt64BigEndian
 TryWriteUInt64LittleEndian
+Ts\ne
 TtySetup
 Tuesday
 TupleElementNamesAttribute
 TupleExtensions
 TwelveHours
 TwoDegreesAfterSpring
+Type
 TypeAnalysis
 TypeAttributes
 TypeBuilderInstantiation
@@ -13179,7 +13127,19 @@ TypeToNameInfo
 TypedByRef
 TypesAlways
 TypesWhenNeeded
+T|ZK
+T~Fb
+U 0m
+U Hz
+U Uz
+U ZK
+U bz
+U oz
+U vm
 U(xP(
+U+OS
+U1\nc
+U47/
 U:C7T
 UCOMIBindCtx
 UCOMIConnectionPoint
@@ -13197,10 +13157,14 @@ UCOMITypeComp
 UCOMITypeInfo
 UCOMITypeLib
 UDeprecated in favor of GetApartmentState, SetApartmentState and TrySetApartmentState.
+UEW8\v
+UF2_\v
+UFH_\v
 UIPermission
 UIPermissionAttribute
 UIPermissionClipboard
 UIPermissionWindow
+UIeO
 UInt16ArrayTypeInfo
 UInt16TypeInfo
 UInt32ArrayTypeInfo
@@ -13228,8 +13192,8 @@ UNICODE_PLANE00_END
 UNICODE_PLANE01_START
 UNICODE_PLANE16_END
 UNLIMITED_PROCESSING
+URMp
 USERDOMAINNAME
-USERNAME;USER
 USEnglish
 UShortFromBytes
 UTF32Decoder
@@ -13242,12 +13206,15 @@ UTF8Encoding
 UTF8Tokens
 UTF8_CODEPAGE
 UTWVY
-UU))jj!!""
 UU))jjCCXXXXCC
 UU))jj``aa
 UUxP((z
 UVWXYZ[\],^_`ab
-Ui` \!
+UWoY
+UXa_
+U[OQ
+U\pF
+Ulbk
 UltimateFallbackFixup
 UltimateResourceFallbackLocation
 UmAlQuraCalendar
@@ -13293,7 +13260,6 @@ UnknownWrapper
 UnlockRegion
 Unmanaged
 Unmanaged32Bit
-UnmanagedCode
 UnmanagedExport
 UnmanagedFunctionPointerAttribute
 UnmanagedMemStreamMaxLength
@@ -13313,7 +13279,6 @@ UnregisterChannel
 UnregisterDynamicProperty
 UnregisterTrackingHandler
 UnregisterTypeForComClients
-Unrestricted
 UnrestrictedIsolatedStorage
 UnsafeAddrOfPinnedArrayElement
 UnsafeCast
@@ -13389,15 +13354,10 @@ UrlMembershipCondition
 UrlToSite
 UrtSystem
 UrtUser
-UsageAllowed
-UsageAllowed 
-UsageAllowed0
-UsageAllowed@
-UsageAllowedE
+Ur~6
 Use AppDomainSetup.DynamicBase
 Use AppDomainSetup.SetCachePath
 Use Configure(String,Boolean)
-Use ILOffset
 Use PerformanceData instead
 Use SafeFileHandle instead
 Use the Issuer property.
@@ -13440,9 +13400,12 @@ UtcOffsetIdx
 UtcOffsetOutOfRange
 UtcSortPattern
 Utils
+Uvg!
+Uw6n
 V#fffff&o@#
+V3H5
+V3H;
 V=ZM>T
-VA ].
 VALUETYPE_FIXUP_PERFORMED
 VARFLAGS
 VARFLAG_FBINDABLE
@@ -13509,7 +13472,10 @@ VT_USERDEFINED
 VT_VARIANT
 VT_VECTOR
 VT_VOID
+VUT7
 VUse the ContractHelper class in the System.Runtime.CompilerServices namespace instead.
+V\DG
+V\ZK
 ValidCompareMaskOffFlags
 ValidHashCodeOfStringMaskOffFlags
 ValidIndexMaskOffFlags
@@ -13555,7 +13521,11 @@ VariantBool
 VariantWrapper
 Varpop
 Varpush
+VbS#
+Vbc<
 Vd22Nt::
+Ve&r
+Ve0r
 Vef\B
 VerificationException
 Verification_Exception
@@ -13576,7 +13546,6 @@ VerifyStd3AsciiRules
 VerifyValidPunctuation
 VerifyWritable
 Verify_v15
-VersionAdded
 VersionKey
 VersionName
 VersionResult
@@ -13602,18 +13571,32 @@ VolumeUp
 VsFileVersion
 VsVersion
 VtableLayoutMask
+VwNn
+W'oK
+W1b 
+W1j 
 WAITERS_MASK
 WAIT_ABANDONED
 WAIT_FAILED
 WAIT_OBJECT_0
 WANT_ASSEMBLY
+WBPQ
+WEKE
 WErase
+WG_G
 WIN32_FIND_DATA
 WKUYE
 WQECGmA
+WQXY
+WWOE
+WYKA
 WYKG[G
+WYVZ
 W[]CO
 W[_cgkosww
+W]OK
+W]QW
+W_CC
 WaitAllBlockingCore
 WaitAny
 WaitAsync
@@ -13642,6 +13625,7 @@ WaitingToRun
 WarnAboutSymbolWriter
 Warning
 WasCurrent
+WbU#
 Wd[TP
 WdiContext
 WdiDiagnostic
@@ -13750,6 +13734,7 @@ WnYg3P'7
 WorkStealingQueue
 WorldSid
 WouldReturnNegVal
+Wr%F
 WrapIUnknownWithComObject
 WrapNonExceptionThrows
 WrappedMessage
@@ -13866,16 +13851,30 @@ WriterClosed
 WriterLocks
 WrongAsyncResult
 WrongSizeArrayInNStruct
-Wyi	/
-X#`#0
+Ww[n
+Wwin
+Wyi\t/
+W{SI
+W|ZK
+X%\foc
+X%\noG
+X%\roZ
+X(45
+X(6C
+X(X8
+X(cb
 X,,t4
 X.V+T
+X.y8
 X00_DQ
 X00_S9
 X0_DQ
-X5#	 
+X1Kr
+X30R
+X3\vr
 X500DistinguishedName
 X500Name
+X501
 X509CertificateCollection
 X509CertificateEnumerator
 X509CertificateImpl
@@ -13893,21 +13892,47 @@ X509KeyStorageFlags
 X509Store
 X509StoreManager
 X509Stores
+X520
+X68H
+XEn;\v
 XG*F~
 XG*N~
 XG*Z~
+XG3\v
+XGX\n
+XGY+
 XG`h*
-XG`n	j
+XG`n\tj
+XGor
+XI(U\v
+XIY*
+XKX 
 XKX $
 XKX N
+XKXX
+XNP5
+XNP;
 XNot 64bit compatible.  Please use the constructor that takes IntPtr for the event handle
 XQueryOperatorsNameSpace
-XT+ r-
+XT*F
+XT+F
+XT+M
+XT+g
+XT8*
+XT8w
+XU*F
+XU*n
 XVO\_ZS
 XVUNQTP
+XXCC
 XXCC``aa
+XXG 
 XXG`T
+XXGn
 XXGn`U
+XXT*
+XXT8
+XXUU
 XXUU((
 XXUUU
 XXUUXXnnUU``
@@ -13915,13 +13940,34 @@ XXUU``%%**$$##
 XXUU``YYcc``%%((
 XXnnUU
 XYDl&
+XYT+
 XZ}P2
+X\f87
+X\f8j
+X\fXG(
+X\f\toz
+X\foG
+X\foY
+X\n+%ryA
+X\n<'X\nL'X\n,'X\n
+X\noG
+X\ns\vU
+X\r8a
+X\t77
+X\v82
+X\voG
+X\voeR
 X]ZX*
-X]ZX*:
 Xacml10Namespace
 XamMac.CoreFoundation
+XbW#
+Xbox
 XdrPrimitive
 XdrString
+Xel(
+Xi8"
+XjX*
+XjX\n
 XjoG+
 XmlFieldOrderOption
 XmlSchemaNamespace
@@ -13930,24 +13976,58 @@ XmlSyntaxException
 XmlTag
 XoffCharacter
 XonCharacter
+XosD
 XsdString
+XsfD
 Xt!)I
 Xti)I
+Xwwn
+X|O2
+X}31
+X}81
+X}91
+X}H0
+X}S0
+X}X1
+X}n1
+Y 0u
+Y%\roc
+Y'uK
+Y(45
+Y(O1
+Y(cb
+Y(hD
+Y(u4
+Y.r8
+Y1 r
+Y1\vr
+Y1\vr?
+Y1\vrD+
+Y1\vrI
+Y1\vrI3
+Y1\vrcR
+Y1\vry
 Y2 rWq
 Y3g+^
-Y<~ofX
+Y?Lk
 YAM>zg
+YBAe
+YEII
+YG[Y
 YIELD_THRESHOLD
 YMEAGA
+YME{
+YT8N
 YWM]eGO
-YX} $
 YX}9"
 YX}J)
 YX}p$
-YZ[\]^
 Y[COGw
-Y\]^a
+Y\9H
+Y\r~g2
+Y^XT
 Y_ibg[
+YbW#
 Year1620to1699
 Year1700to1799
 Year1800to1899
@@ -13962,34 +14042,111 @@ YearSpace
 YieldAwaitable
 YieldAwaiter
 YieldInternal
+Yj*r
+Yj0[
+YjX\n
+Yj\n8
+Yjh[
+Yl#7
+Yl(J
+YlZi\v~
+Yn77
+YoMF
+Yoj+
+Yol+
+Yos,
+Yox\v
+Yoz,
+Yr(Z
+Y|ZK
 Y|u&S
+Y}o2
+Z0w[
 Z1h2tJ`e
 Z5f_&ga0b
 Z79;,.3
+Z?aH\n
 ZERO_CHAR_VALUE
 ZH&/Z7
-ZX%K	XT
-ZX%L	XU
+ZHH#\f
+ZHc#\f
+ZHl#\f
+ZI&b\f
+ZT9\f_
+ZX%J
+ZX%K
+ZX%K\tXT
+ZX%L
+ZX%L\tXU
+ZX(d
+ZX/\vr
+ZXH*
 ZXH*N~
-ZXI(L
+ZXHS
+ZXI(L\v
+ZXI*
 ZXI*Z~
-ZXJ	X
+ZXI-
+ZXI3
+ZXIS
+ZXI\v
+ZXJ 
+ZXJ*
+ZXJ-
+ZXJ.
+ZXJT
+ZXJ\f
+ZXJ\tX
 ZXJ`*
+ZXJa
 ZXJaT
-ZXK	X
+ZXK(
+ZXKX
 ZXKX 
 ZXKX $
 ZXKX N
 ZXKXT
 ZXKXX
+ZXK\f
+ZXK\r
+ZXK\t
+ZXK\tX
+ZXKa
+ZXKa\v
+ZXL(
+ZXL*
+ZXL.
+ZXLX
 ZXLXU
+ZXL\f
+ZXL\r
 ZXM(s
 ZXM*s
+ZXO*
+ZXXT
+ZXX\f
+ZXX\n
+ZXX\r
+ZXX\r\t
+ZXX\v
+ZXX\v\t
+ZX\v8
+ZX\v8=
+ZXh*
+ZXou
 ZX}41
 ZX}51
+ZX}E\n
+ZX}K
+ZY(k
 ZY*.s
+ZY\f+m
+ZYn\v
 Z[Ate
 Z[\]^_`abcde
+ZbY#
+ZeFs
+ZeSs
 ZeroFreeBSTR
 ZeroFreeCoTaskMemAnsi
 ZeroFreeCoTaskMemUTF8
@@ -14000,17 +14157,23 @@ ZeroMemory
 ZeroMotion
 ZeroTrimEnd
 ZjX(c
+ZjXU
+ZjX\n
+Zol]
 ZoneIdentity
 ZoneIdentityPermission
 ZoneIdentityPermissionAttribute
 ZoneMembershipCondition
+Zoom
+Zr:Z
+ZrNl
 ZuluName
-[%i%d;%dR
+ZwKi
+Z}P2
 [%i%p1%d;%p2%dH
 [%i%p1%d;%p2%dr
 [%i%p1%dG
 [%i%p1%dd
-[%p1%d@
 [%p1%dA
 [%p1%dB
 [%p1%dC
@@ -14022,94 +14185,206 @@ ZuluName
 [%p1%dT
 [%p1%dX
 [%p2%{1}%-%db
-[.:$6g
 [0%?%p6%t;1%;%?%p2%t;4%;%?%p1%p3%|%t;7%;%?%p4%t;5%;%?%p7%t;8%;m%?%p9%t
 [0;10%?%p1%t;7%;%?%p2%t;4%;%?%p3%t;7%;%?%p4%t;5%;%?%p5%t;2%;%?%p6%t;1%;%?%p7%t;8%;%?%p9%t;11%;m
 [0;10%?%p1%t;7%;%?%p2%t;4%;%?%p3%t;7%;%?%p4%t;5%;%?%p6%t;1%;%?%p7%t;8%;%?%p9%t;11%;m
 [0;10m
-[15;2~
-[15;5~
-[15;6~
-[17;2~
-[17;5~
-[17;6~
-[18;2~
-[18;5~
-[18;6~
-[19;2~
-[19;5~
-[19;6~
-[20;2~
-[20;5~
-[20;6~
-[21;2~
-[21;5~
-[21;6~
-[23;2~
-[23;5~
-[23;6~
-[24;2~
-[24;5~
-[24;6~
-[2;5~
+[10m
+[11m
+[24m
+[27m
+[2Ae
+[2Be
 [3%?%p1%{1}%=%t4%e%p1%{3}%=%t6%e%p1%{4}%=%t1%e%p1%{6}%=%t3%e%p1%d%;m
 [3%p1%dm
 [39;49m
-[3;5~
 [4%?%p1%{1}%=%t4%e%p1%{3}%=%t6%e%p1%{4}%=%t1%e%p1%{6}%=%t3%e%p1%d%;m
 [4%p1%dm
-[5;5~
-[6;5~
-[:$b	
 [?%[;0123456789]c
 [?1049h
 [?1049l
-[?1;2c
 [?25h
 [?25l
-[?3;4l
 [?5h$<100/>
 [?5l$<200/>
+[AgG
 [IEEKOGY
-[T:$6.
+[UZK
 [Z7ECB
-[\Y]Z
-[ji*	
+[j1K
 [ji*2
 [ji*r
-[jiX}?
+[jsT
+[jya
 [kGSYmA
+[rLZ
+[xZK
 [ycCmS
-[{key}]T
-[}Q[Q
-\					
-\'[]^2`dh
-\t=Z*J
+\2De
+\3\vs2
+\IBb\f
+\UZP
+\f#fffff
+\f,\n<',\n4',\n,',\n
+\f1.r2I
+\f1\n<'1\n,'1\n
+\f2S\fN!f
+\fKnXX
+\fO\n<'P\n<'Q\n 
+\fUnrestricted
+\fUse ILOffset
+\fVZK
+\fVersionAdded
+\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\t
+\fbYi
+\fj8P
+\flZK
+\fmscorlib.dll
+\fn}O2
+\h44
+\n""""""""""
+\n#33333Cb@#
+\n#fffff
+\n%rJk
+\n%rTf
+\n%rdJ
+\n%rfS
+\n%rjk
+\n%rkZ
+\n%rlV
+\n+8rfT
+\n2\vrc
+\n2eY
+\n3\vri
+\n=HiM
+\nF\vZE
+\nFtP\v
+\nUD2
+\nX*rw
+\nXjX\r
+\nYjX\n
+\n\f\n \n\f\n!\n\f\n"\n\f\n#\n\f\n-\n,\n.\n,\n/\n,\n0\n/\n1\n,\n2\n1\nY\nX\nZ\nX\ne\nd\nn\nm\n
+\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+\n\n\v\t\v\v\v\t\v\f\v\t\v
+\n\rJKMN
+\n\tYoA
+\n\t\t\t\t\t\t\t\t\t\t\t
+\nda*j
+\nincomplete
+\njTO
+\nk"333?[i
+\nnoG+
+\nn}O2
+\noXd
+\noh9
+\nok9
+\nom9
+\none
+\nope
+\nrTU
+\nsSO
+\r8STs\ne
+\rALWAYSREMOVED
+\rAllowMultiple
+\rCODE_ANALYSIS
+\rControlPolicy
+\rControlThread
+\rKnXX
+\rKnZ
+\rMethods which use evidence to sandbox are obsolete and will be removed in a future release of the .NET Framework. Please use an overload of CreateInstance which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.
+\rREMOTING_PERF
+\rSet = {IsSet}
+\rUnmanagedCode
+\r\toh4
+\reIf
+\reUf
+\rerf
+\righ
+\rn}O2
+\t2t2
+\t3T)M
+\tAssertion
+\tFfP\v
+\tInherited
+\tPublicKey
+\tPublicKey"0x00000000000000000400000000000000
+\tXGR
+\tXGR\t
+\tXoG
+\tYXGR\t
+\tZX\tX
+\t\n==\r\v\f%&'()*
+\t\n\t\n\t\n\t\n%\t\n\n
+\t\n\t\n\t\n\t\n\t\n\t\n\t\n
+\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n
+\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\v\f\r\v\f\r\v\f\r\v\f\r
+\ta_aX
+\tc\tb\td\tb\te\tb\tf\te\tg\te\th\te\ti\te\tj\te\tk\te\tl\te\t
+\timplement
+\tjXoG+
+\tjtN
+\tkTw
+\tktx
+\tn}O2
+\to3F
+\toK0
+\toQF
+\toYJ
+\togR
+\toiR
+\tooD
+\topD
+\torC
+\totd
+\trXI
+\ts5D
+\v../ecma.pub
+\v>ah4
+\vSER_LOGGING
+\vSharedState
+\vSystem.Byte
+\vSystem.Type
+\vY1\vrI3
+\vYoA
+\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v
+\ve6f
+\vn}O2
+\vrGD
+\vrjU
+\vyasG
 ]#fffff
-]-<	 
 ]EYo_
+]Oas
 ]P%p1%x%p2%{256}%*%{1000}%/%02x%p3%{256}%*%{1000}%/%02x%p4%{256}%*%{1000}%/%02x
-]S\Q[V
 ]Toj<4
 ]UqOQ
-]_\^^c
-]`_dc
 ]c_RUNO
+]rpZ
+]wKC
 ^Struct should be [StructLayout(LayoutKind.Sequential)] but will need to be reordered for that.
 ^Use FileStream(SafeFileHandle handle, FileAccess access, int bufferSize, bool isAsync) instead
-^b;'nj
-_	aX 
-_, 	 
-_, (*
-_, r%
-_,-	 
-_,Qrm-
-_,`r}
-_,}rm-
-_- r%
-_-#(9:
-_1%c	
-_9 -	
+^eXt
+^gZK
+^gzC
+^kK\r2U
 _AppDomain
 _AssemblyBuilder
 _Attribute
@@ -14190,7 +14465,6 @@ _WriteLineCharArrayRangeDelegate
 _WriteLineCharDelegate
 _WriteLineStringDelegate
 _WriteStringDelegate
-_]V@	
 __BinaryParser
 __BinaryWriter
 __ComObject
@@ -14280,6 +14554,7 @@ _allInternalsVisible
 _appTrustManager
 _appid
 _applicationIdentity
+_arr
 _arrayOrOwnedMemory
 _asn1
 _assemblyIdentity
@@ -14288,10 +14563,10 @@ _asyncActiveSemaphore
 _asyncReadTask
 _asyncResult
 _asyncWriteTask
+_att
 _authenticated
 _bReEntrant
-_b`**
-_b`T+
+_baX\n
 _bagOID
 _baseIndex
 _baseList
@@ -14301,8 +14576,6 @@ _baseVersion
 _beginEndAwaitable
 _bestFitMapping
 _bf_T
-_bf_}
-_bj_,
 _blockDWords
 _blockLongPaths
 _buckets
@@ -14314,7 +14587,6 @@ _build
 _byRef
 _byteOffset
 _bytesRead
-_c[{I~
 _cache_GetHashCodeMethod
 _cache_GetTypeMethod
 _cachedStack
@@ -14331,8 +14603,10 @@ _caseInsensitiveDups
 _caseInsensitiveTable
 _category
 _cbuf
+_ccb
 _ccbf
 _ccbt
+_cer
 _certificates
 _certs
 _certsChanged
@@ -14361,6 +14635,7 @@ _content
 _contextProperties
 _countPerLock
 _countersignature
+_crl
 _crls
 _crossContextSink
 _crossSegmentLock
@@ -14371,7 +14646,6 @@ _currentName
 _currentState
 _customProperties
 _custom_type_info
-_d`*~
 _dataInitialised
 _dataPos
 _dataPosition
@@ -14397,10 +14671,12 @@ _digitsLen
 _displayPath
 _disposable
 _doNotAddrOfCspParentWindowHandle
+_doc
 _domainID
 _domainIdentity
 _domain_manager
 _doublingCountdown
+_dsa
 _dsaKey
 _duplicateWaitObjectMessage
 _dynamicMethods
@@ -14414,6 +14690,7 @@ _encryptionAlgorithm
 _endXxxCalled
 _enumerable
 _envoySink
+_err
 _errorMode
 _eventCounters
 _everything
@@ -14466,6 +14743,7 @@ _haveResult
 _headAndTail
 _helpURL
 _hierarchy
+_hnd
 _ignoreCase
 _ignorePersistedDecision
 _ignored
@@ -14487,6 +14765,7 @@ _inTokenSource
 _inargs
 _includeDirs
 _includeFiles
+_ind
 _infinity
 _inheritanceLevel
 _initialLeaseTime
@@ -14512,7 +14791,7 @@ _isType
 _isWrite
 _item
 _items
-_j	n3
+_j\tn3
 _keepAlive
 _keyBags
 _keyBagsChanged
@@ -14555,11 +14834,14 @@ _machinePathExists
 _machineStore
 _major
 _maker
+_max
 _maxChars
 _maxCharsPerBuffer
 _maxChunkSize
 _maybeFullPath
+_md5
 _mediator
+_mem
 _memFailPointReservedMemory
 _memory
 _methodBase
@@ -14568,6 +14850,7 @@ _methodDictionary
 _methodKeys
 _methodName
 _methodSignature
+_min
 _minResourceSet
 _minor
 _mods
@@ -14590,6 +14873,7 @@ _newUserPath
 _newUserStore
 _nextSegment
 _nextSink
+_nfi
 _noAsyncCurrentCulture
 _noPrompt
 _nothing
@@ -14606,12 +14890,14 @@ _objectIdentity
 _objectType
 _objectUri
 _offendingNumber
+_oid
 _order
 _ordinalIgnoreCase
 _origin
 _originalException
 _osPlatform
 _other
+_out
 _outArgInfo
 _outArgs
 _outChars
@@ -14690,10 +14976,12 @@ _return
 _returnElement
 _returnValue
 _revision
+_rng
 _rngAccess
 _role
 _root
 _rootObj
+_rsa
 _rsaKey
 _rsaOverridesDecrypt
 _rsaOverridesEncrypt
@@ -14724,7 +15012,9 @@ _sharedIndex
 _sharedLock
 _sharedReader
 _sharedStatics
+_sig
 _sinkStack
+_ski
 _skipVerification
 _slotsMask
 _soapAction
@@ -14756,6 +15046,8 @@ _strFormatter
 _strKey
 _strName
 _stubData
+_suK
+_sum
 _sumSquared
 _syncContextNoFlow
 _targetContext
@@ -14777,6 +15069,7 @@ _typeInfos
 _typeNamePositions
 _typeTable
 _typeWithContracts
+_ums
 _underlyingField
 _underlyingType
 _unmanagedCode
@@ -14797,6 +15090,7 @@ _userPath
 _userPathExists
 _userResourceSet
 _userStore
+_val
 _val1
 _val2
 _val3
@@ -14819,32 +15113,40 @@ _xmlTypeNamespace
 _xmlTypes
 _xtranfo
 _zone
-`	(#:
 `!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
-`*Vr%
-`,7	-
-`,:	,
-`,o	{
-`.rsrc
-`]V@	
+`1ZK
+`WX0
 ``$$##``cc//
 ``aaffggiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~
-a	aX 
-a%X`l^
+`bar
+`cmi
+`edt
+a*js
 a,a,k
-a.R	 a!
+a2De
 a3_\Z12^
 a5_j5W
-a9B.	
-a9X.	
-a:Lb	
+a7c,
+a9B.\t
+a9X.\t
+a:Lb\t
+aAYC
 aAll GACed assemblies are now fully trusted and all permissions now succeed on fully trusted code.
 aCharLength
+aE/9
 aEAIU
+aEl=\v
+aFn`\v
 aIsValueCreated={IsValueCreated}, Value={ValueForDebugDisplay}, Count={ValuesCountForDebugDisplay}
 aSrcNativeVariant
 aStrings
+aUaQ
+a[UO
+a\taX
+a\taX 
+a_aX
 aa_j55
+aacc
 abbrev
 abbrevDayNames
 abbrevEraName
@@ -14931,6 +15233,7 @@ add_token_fixup
 additional
 additionalEntropy
 additionalSize
+addr
 addr1
 addr2
 addr3
@@ -14941,10 +15244,12 @@ adjustmentRules
 adjustmentRulesSupportDst
 advancedTypes
 advapi32.dll
+afsi
 aggregator
 aiA.:8
-aiA5 	 ;q
+aiA5 \t ;q
 ai{eu
+akkQ
 algName
 alghashname
 algid
@@ -15025,6 +15330,16 @@ application_base
 application_name
 application_trust
 aqname
+ares
+arg0
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
 argName
 argNum
 argType
@@ -15066,6 +15381,8 @@ asmName2
 asmNamespace
 asmTypeName1
 asmVersion
+asmb
+assb
 assem
 assemIdToAssemblyTable
 assemblyAttributes
@@ -15096,6 +15413,7 @@ assemblyb
 assemblyenum
 assignUniqueIdToValueType
 assign_sortkey
+assm
 async
 asyncStateObject
 asyncWaiter
@@ -15114,9 +15432,9 @@ availableFreeSpace
 awKiZ
 awaiter
 b#{Bw
-b.#+L(E
-b.&+R(E
-b:dc	
+b+jS
+b+nS
+b:dc\t
 b@#Nb
 bArgsPrimitive
 bAsync
@@ -15131,7 +15449,10 @@ bEnable
 bFallingBack
 bFromProxy
 bFullDeserialization
+bHDk
 bHeight
+bI,c\f
+bI<c\f
 bIsCrossAppDomain
 bIsMicrosoftBestFitFallback
 bIsString
@@ -15149,20 +15470,24 @@ bTAEAddedToExceptionHolder
 bThrow
 bThrowIfMissing
 bTimeOnly
+bT~F
 bUseCalendarInfo
 bUseOverrides
 bUseUserOverride
 bUseUserOverrides
 bUsedEncoder
 bUserDelegateExecuted
+bVal
 bWidth
-b]E@	
-b`*~+
+b`\v84
 b`h*r
 b`h}Z
-b`h}[
+ba*2
+baG*
 backoutCode
+bacn
 badFormat
+bang
 base16MaxOverflowFreeValue
 base64Bytes
 base64Chars
@@ -15182,11 +15507,17 @@ base_num
 base_type
 basedir
 basic_init
-bde`c
+bba#
+bde`c\r
+beDu
 beginMethod
 behavior
+bell
 belongsToCurrentScope
 bflags
+bgZK
+bg\P
+bidx
 bigEndian
 bigEndianUTF32Encoding
 bigEndianUnicode
@@ -15217,12 +15548,14 @@ bitNum
 bitarray
 bitcount
 bitindex
+blob
 blockCount
 blockLength
 blockNo
 blockSize
 blockSizeValue
 blocking
+body
 bodyWithEverything
 bodyWithLocal
 bodyWithState
@@ -15238,9 +15571,12 @@ bottom
 bound
 boundedLength
 bounds
+bowm
 bowmt
 boxedThis
+bpos
 bsize
+bsnH
 bstrHelpFile
 bstrSource
 bstrVal
@@ -15256,6 +15592,7 @@ buf_recycle
 buf_recycle_lock
 buf_size
 buf_start
+buff
 buffer1
 buffer2
 bufferHeight
@@ -15294,20 +15631,25 @@ bzero_aligned_1
 bzero_aligned_2
 bzero_aligned_4
 bzero_aligned_8
+c+rS
 c1,r`J
 c1,reN
 c1,rmM
 cAZ(;
 cArgs
-cB!!0 
 cBestFit
+cD,9
 cDeG;z
 cEWEIc
 cFallback
 cFileName
 cFuncs
 cHigh
+cI4d\f
+cIIO
 cImplTypes
+cIoq
+cLow
 cMatches
 cMaxNames
 cNamedArgs
@@ -15321,7 +15663,12 @@ cScodes
 cStringsMax
 cStringsUsed
 cUnknown
+cV_U
+cVal
+cX*n
+cYiO
 c[(Up)mnV.e
+c]0z
 c_additionaltexttag
 c_attribute
 c_attributetag
@@ -15406,8 +15753,12 @@ cbSizeVft
 cbStruct
 cb_method
 cb_target
+cba#
 cdef-ghijklmno.
+ce0v
 ceIKC
+cePw
+celt
 certBag
 certFile
 certhash
@@ -15458,10 +15809,12 @@ check_name_and_filename
 check_not_created
 check_override
 checksum
+chfg
 child
 childActivityID
 childTask
 childs
+chnl
 choice
 chunk
 chunkSize
@@ -15635,17 +15988,22 @@ crlBag
 crossAppDomainArrayIndex
 crossAppDomainString
 cryptoKeyRights
+csOu
 cspParams
 csrInvisible
 csrVisible
+cstr
 ctime
 ctorMsg
 ctrlHandlerAdded
 cultureID
 cultureId
 cultureinfo
+cur1
+cur2
 cur_block
 cur_stack
+curr
 currTask
 currTextElementLen
 currencyDecimalDigits
@@ -15690,11 +16048,22 @@ customBuilder
 customCultureName
 customVersion
 custom_modifiers
-d.,23+
+d/J5
+d1\vr
+d2,r
 d2,r=
-d9/2	
+d3XW
+d9/2\t
+dEQA
+dIHe\f
+dPpH\r
 dWX[Y
 dX509ContentType.Pfx/Pkcs12 and SerializedCert are not supported. SecureString support is incomplete.
+dZX\t
+da*Z
+dacl
+damp
+dash
 dataBuffer
 dataCount
 dataDescriptor
@@ -15718,12 +16087,17 @@ dateTimeOffset
 dateTimeOffsetPattern
 datetimeIndex
 datetime_index
+day1
+day2
 dayNames
 daylightDisplayName
 daylightNameCurrentYear
 daylightTimes
 daylight_inverted
 dayofweek
+days
+dbc#
+dbcg
 dblVal
 debug_info
 debugger_thread
@@ -15832,6 +16206,7 @@ delReturnType
 delay
 delay_sign
 delayedClientChannels
+dele
 deleg
 delegateEntry
 delegateRan
@@ -15841,6 +16216,7 @@ delegates
 delegatingType
 delimiter
 demandedResources
+deny
 denyPset
 dependentAssembly
 dependentAssemblyArgument
@@ -15852,6 +16228,7 @@ deserialized
 deserializedObject
 desiredAccess
 desiredChars
+dest
 destArray
 destAssembly
 destDirName
@@ -15876,6 +16253,7 @@ detailMessage
 detailMessageFormat
 detectEncodingFromByteOrderMarks
 diacriticals
+dics
 dictionaries
 dictionaryCreationThreshold
 digest
@@ -15918,9 +16296,12 @@ disposition
 diversifier
 dividend
 divisor
+dj[i\n
 dlibMove
 dllName
+dmem
 dnQualifier
+docs
 document
 documentType
 documents
@@ -15935,6 +16316,7 @@ domainSid
 domain_id
 domain_initializer
 domain_initializer_args
+done
 doneMoveFollowingChars
 dontEscape
 doubleA
@@ -15942,11 +16324,14 @@ doubleRoundLimit
 driveName
 drive_format
 driver
+dsS\v
 dsaParameters
 dstEncoding
 dstLength
 dstOffset
 dstOffsetBytes
+dtfi
+dtok
 dueTime
 due_time_ms
 dummy
@@ -15954,6 +16339,8 @@ dummyObject
 dump_handles
 duration
 duringCancellation
+dv8,
+dvH,
 dwBytesInRes
 dwCalg
 dwCertEncodingType
@@ -15978,17 +16365,24 @@ dynamic_assembly
 dynamic_base
 dynamic_image
 e*r[S
+e+vS
 e,f,h,h,j,j,l,l,Q
-eF##^
+eF0a\v
 eJw/A
-e\cb.]
+eS$V
+eS~A
+eUR=
 e\h`f
+ebc#
 ebcdic
 ebcdicCodePage
 echobuf
 echon
 effectiveId
 efghi
+eg*6
+egZK
+eh*6
 elCurrent
 elRoot
 elemCount
@@ -16047,6 +16441,7 @@ endOffset
 endPtr
 end_year
 endinvoke_called
+ends
 englishEraName
 englishName
 englishname
@@ -16160,6 +16555,7 @@ explicitDisposing
 exponent
 exportedOnly
 exposureLevel
+expr
 extension
 extensions
 extnCritical
@@ -16168,16 +16564,19 @@ extnValue
 extra_arg
 extra_flags
 extype
+eykW
+e}o2
 f"45lo
+f33U
+f7tN
 f@Y*V
-f@[*2
 fAllowInnerWhite
 fAllowTrailingWhite
 fCheck
 fClearDirty
 fCustomNumberParser
-fD""~T**
 fDeleteOld
+fFMb\v
 fForward
 fFullBuild
 fIsMarshalled
@@ -16193,8 +16592,6 @@ fUseHour12
 fUseTwoDigitYear
 fVerbose
 f_(FC
-f_,$rK
-f`a*.r
 factoryArgument
 failed
 fairly
@@ -16206,6 +16603,7 @@ faultActor
 faultCode
 faultedTask
 fbase
+fce\n\f\vb\rd
 feedbackSize
 fhandle
 fieldAttr
@@ -16259,7 +16657,9 @@ firstTime
 firstToken
 fixedCount
 fixedNumberFormats
+flbh
 fldHandle
+flds
 flowContext
 flowExecutionContext
 fltVal
@@ -16307,6 +16707,7 @@ fromByteArray
 fromNoninstanciated
 fromType
 fstype
+full
 fullDateTimePattern
 fullDays
 fullNames
@@ -16319,25 +16720,31 @@ fullVersion
 full_name
 full_trust_assemblies
 fullyqname
+func
 funckind
 function
 functionName
 functionPointer
 functionVersion
 fx 2.0
-g+}V+
+g"5D
+g&3g
 g,g,i,i,k,k,m,n,o,p,q,r,r,t,u,u,w,x,y,z,{,|,},~,
-g5%&'
 g6?51.
 g99KrJJ
-g9T2	
+g9T2\t
+g:fe
+g@zc\n
 gMsUg
+gQme
 gSCU]
 gThread.GetCompressedStack is no longer supported. Please use the System.Threading.CompressedStack class
 gThread.SetCompressedStack is no longer supported. Please use the System.Threading.CompressedStack class
 gUcIOg
-g] ?$xh^
+gVQd
+gX;W
 gcHandle
+geDx
 generalLongTimePattern
 generalShortTimePattern
 generation
@@ -18212,7 +18619,6 @@ get_value
 get_xterm
 getterInfo
 ggcoS
-gg}V++
 ghijklmno
 givenName
 global_count
@@ -18221,6 +18627,7 @@ global_fields
 global_methods
 global_type
 global_type_created
+grR[
 grant
 grantSet
 graph
@@ -18239,13 +18646,16 @@ groups
 guidChars
 guidManagedCategory
 guidString
-h p x 
-h#p#x#
-h(p(p(p(x(
-h4,8$@_
+gvB|
+gw/p
+gyz\
+h9`B
 hCertStore
 hEvent
+hFXb\v
 hJ&2]
+hRef
+hXpH
 haltOnNewLine
 handle userData
 handleReferences
@@ -18286,6 +18696,8 @@ hasrestrictedLanguageErrorObject
 haveWrittenPreamble
 haystack
 hcajb
+he8R
+heXx
 headHead
 header
 headers
@@ -18294,6 +18706,7 @@ hebrewMonth
 hebrewYear
 hecsw
 height
+held
 helpContext
 helpFile
 helper
@@ -18301,6 +18714,7 @@ helperIndex
 hexDigit
 hexString
 hexUpperChars
+hgZK
 hglobal
 hgl~,fn
 hidden_0
@@ -18325,25 +18739,37 @@ highLowPatternMask
 highSurrogate
 hiveId
 home_dir
+host
 hostEnum
 hostEvidence
 hostEvidenceList
 hostExecutionContext
 hostenum
+hour
 hours
 hresult
+hrj[
 hstring
 hwuaT
-i	Yo]+
-i	{J	
+hyhJ
+i"9D
+i&7I
 i*BrY
 i*f(W
 i.*ro
-i/+~R
+i.\vrNj
 i/0(E
+i1"r
+i1/r
 i1/r3
 i18nAssembly
 i18nDisabled
+i1\vr
+i1\vr5
+i1\vr;
+i1dD\fn
+i2\vr
+i3a\t
 iCCgCA
 iChar
 iCount
@@ -18354,6 +18780,9 @@ iDefaultMacCodePage
 iDefaultOemCodePage
 iFirstDayOfWeek
 iFirstWeekOfYear
+iHD&\f
+iI0g\f
+iI`g\f
 iMaxRecursion
 iOffset
 iRecursionCount
@@ -18366,13 +18795,18 @@ iUse System.Runtime.InteropServices.ComTypes.IDLDESC instead. http://go.microsof
 iUse System.Runtime.InteropServices.ComTypes.IDLFLAG instead. http://go.microsoft.com/fwlink/?linkid=14202
 iUse System.Runtime.InteropServices.ComTypes.VARDESC instead. http://go.microsoft.com/fwlink/?linkid=14202
 iX(X8
+iX}J
+iX}x
+iY(t
+iY1\vr
+iY}D
 iZY(t
-i[}G	
-i]}{/
-i]}|/
+iZYY
+iaO]
 iattrs
 ibStart
 icase
+icon
 iconFile
 icons
 idOfContainer
@@ -18384,6 +18818,8 @@ identifier
 identityReference
 idldesc
 idldescType
+idx1
+idx2
 ifImpersonating
 iface
 ifaceType
@@ -18392,8 +18828,9 @@ ignorableFlags
 ignoreMetadataErrors
 ignoreSyncCtx
 ignoreThis
-ih	yb C
-ij/.-*+2h
+ih\tyb C
+ij2\t
+ij2v
 ijYioo
 ik"333?Z7
 ilOffset
@@ -18418,6 +18855,8 @@ inHeaders
 inMemberNames
 inNamespace
 inType
+in]i
+in]i\f8n
 in_args
 in_ptr
 includeExplicit
@@ -18427,7 +18866,7 @@ includePrivateParameters
 includeSections
 includeTaskCanceledExceptions
 includeThisException
-incomplete
+incr
 indeterminate
 index1
 index2
@@ -18567,7 +19006,19 @@ invokeAttr
 invokeMethod
 invoke_impl
 invoked
+io/L
+io7L
+ioGF
+ioMF
+ioRF
+iocb
+ioe+
+ioj+
+iol+
+ios,
+ioz,
 ipTab
+is<c
 isAmbiguousDst
 isAmbiguousLocalDst
 isAotidSet
@@ -18581,6 +19032,7 @@ isCompliant
 isConsoleWrapper
 isContainer
 isCrossAppDomain
+isDS
 isDST
 isDacl
 isDaylightSavings
@@ -18613,6 +19065,7 @@ isRemoteStackTrace
 isReplacementReplica
 isRightPadded
 isRightToLeft
+isSi
 isSmallKana
 isStatic
 isStaticPartitioning
@@ -18683,12 +19136,31 @@ iteration
 iterationCount
 iunknown
 ivDiversifier
+iwkr
+i}P2
+j"CD
+j"LD
 j%!ln
+j&JI\r
 j&VMZf:
+j(63
+j(Gd
+j(Me
+j(u0
+j/\vrM
+j0\vr
+j13r
+j14r
+j1\vr
+j1\vr5=
+j1\vrm
+j2[e
+j55_
 j875>
-j87;"
 jL&&Zl66A~??
 jLlkOi
+jOc<
+jUS>
 jUse System.Runtime.InteropServices.ComTypes.CALLCONV instead. http://go.microsoft.com/fwlink/?linkid=14202
 jUse System.Runtime.InteropServices.ComTypes.ELEMDESC instead. http://go.microsoft.com/fwlink/?linkid=14202
 jUse System.Runtime.InteropServices.ComTypes.FUNCDESC instead. http://go.microsoft.com/fwlink/?linkid=14202
@@ -18698,30 +19170,60 @@ jUse System.Runtime.InteropServices.ComTypes.TYPEDESC instead. http://go.microso
 jUse System.Runtime.InteropServices.ComTypes.TYPEKIND instead. http://go.microsoft.com/fwlink/?linkid=14202
 jUse System.Runtime.InteropServices.ComTypes.VARFLAGS instead. http://go.microsoft.com/fwlink/?linkid=14202
 jX(4Y
+jX(h
+jX/u
 jXYiY
-jXi*	
+jXi*
+jXi*\t
 jXi*r-8
 jXoG+
+jX~D
+jY13
+jY1A
 jYYi}M
 jY_,9
-jY_-{
 jYiX}J
+jYi\f
 jZ(28
-j]i*"
-j]i*>
+jZX%
+jZX*
+jZXU
+jZX\n
+jZX\r
+jZX\v
+jZY\n
+jZY\r
+jZs6
+jZ}N
+jZ}P\v
+j\r00
 j]i*J
 j]i*N
 j]i*Z
-j]i*^
 j]l*R
 j_FbT~
+j_iY\v
 j_missing
 japaneseEraInfo
 jjjjjjjjjjjj
+joG+
+js4Y
 julianCenturies
+junk
 justification
+jw<p
+jwip
+jxk&
+jxp\r
+jxyr
+j}A2
+j}B2
 j~FbT
-k"333?[i
+k3-Y
+k8Iv
+kAZ$
+kEOS
+kT7~\f
 kUse System.Runtime.InteropServices.ComTypes.EXCEPINFO instead. http://go.microsoft.com/fwlink/?linkid=14202
 kUse System.Runtime.InteropServices.ComTypes.FUNCFLAGS instead. http://go.microsoft.com/fwlink/?linkid=14202
 kUse System.Runtime.InteropServices.ComTypes.ITypeInfo instead. http://go.microsoft.com/fwlink/?linkid=14202
@@ -18729,11 +19231,14 @@ kUse System.Runtime.InteropServices.ComTypes.PARAMDESC instead. http://go.micros
 kUse System.Runtime.InteropServices.ComTypes.PARAMFLAG instead. http://go.microsoft.com/fwlink/?linkid=14202
 kUse System.Runtime.InteropServices.ComTypes.TYPEFLAGS instead. http://go.microsoft.com/fwlink/?linkid=14202
 kZi}I/
+k[AQ
 k[Yl(F
+k]Iy
 k]KEA
 kanaSmallLength
 kanaWidthLength
 katakanaLength
+ke$y
 kernel32.dll
 keyAgreement
 keyBag
@@ -18780,13 +19285,25 @@ knownNullWindowsIdentity
 koreanEraInfo
 kubits
 kzrtm
-l:8d	
+k{EU
+l"eD
+l,Du
+l4kb
+l4sb
+l4tb
+l4wb
+l:8d\t
 lH)O1
 lHashVal
 lRTVVXYY[]__``````bdggiknpsuwz|
 lUse System.Runtime.InteropServices.ComTypes.DISPPARAMS instead. http://go.microsoft.com/fwlink/?linkid=14202
 lUse System.Runtime.InteropServices.ComTypes.INVOKEKIND instead. http://go.microsoft.com/fwlink/?linkid=14202
+lWO[
 lX*2~
+lZY\v
+lZi*
+lZrN
+l\tH
 label_fixup
 label_idx
 lang_id
@@ -18816,10 +19333,15 @@ latin1Encoding
 layoutKind
 lazyData
 leadingZeroes
+leaf
 leapYearMonthNames
 leftRotTotal
 legacyV1Mode
 legalKeys
+len1
+len2
+lenA
+lenB
 len_pos
 length1
 length2
@@ -18836,6 +19358,7 @@ levelSet
 lhsString
 libNewSize
 libOffset
+libc
 license_file
 lineNumber
 lines
@@ -18850,8 +19373,12 @@ literalName
 literalValue
 literals
 liveSessionList
+lkij
 ll_emit
+lmNO
 lmkwzrtno
+lmn"
+lnrq
 loadBalance
 loadFactor
 loadHint
@@ -18932,9 +19459,23 @@ lv2Indexer
 lv2Length
 lv2Table
 lv3Length
-m9,3	
+m&Ia
+m10c
+m1H!
+m3;Y
+m3[Y
+m3cY
+m3kY
+m3tY
+m9,3\t
+m?aJ\n
 mEKiU
+mGnH
+mP[I\r
+mQ8w\r
 mUse System.Runtime.InteropServices.ComTypes.CONNECTDATA instead. http://go.microsoft.com/fwlink/?linkid=14202
+mYE\r
+m\LJ
 m_2BytesPerChar
 m_Action
 m_AllFilesAccess
@@ -18962,6 +19503,7 @@ m_FirstAvailableSlot
 m_Flags
 m_HijriAdvance
 m_HostContext
+m_IV
 m_InvariantCaseInsensitiveComparer
 m_InvariantCaseInsensitiveHashCodeProvider
 m_IsAsciiCasingSameAsInvariant
@@ -18982,9 +19524,12 @@ m_MaxCapacity
 m_MemberInfoTable
 m_Mutex
 m_MutexIndex
+m_Nb
 m_Next
 m_NextActivator
+m_Nk
 m_NlsVersion
+m_Nr
 m_OnDeserializedMethods
 m_OnDeserializingMethods
 m_OnSerializedMethods
@@ -19167,6 +19712,7 @@ m_deserializedFromEverett
 m_dictionary
 m_disposed
 m_dtfiTokenHash
+m_ec
 m_edi
 m_elementTypes
 m_elements
@@ -19254,6 +19800,7 @@ m_headTokens
 m_headerName
 m_hebrewNumberParser
 m_hmacsha1
+m_id
 m_idComplement
 m_idGenerator
 m_identities
@@ -19601,6 +20148,7 @@ matchAllKeywords
 matchAnyKeywords
 matchLength
 matchValue
+maxA
 maxCapacity
 maxColors
 maxDate
@@ -19661,6 +20209,7 @@ memid
 memidConstructor
 memidDestructor
 memset
+mepy
 messageArg
 messageDigest
 messageEnd
@@ -19673,6 +20222,7 @@ metaData
 metadataLength
 metadataPosition
 metadataToken
+meth
 methodAddress
 methodBindings
 methodCallMessage
@@ -19743,6 +20293,8 @@ monthNames
 monthPostfix
 months
 moreBytesExpected
+mppk
+msMS
 msToCancel
 ms_timeout
 mscoree.dll
@@ -19757,20 +20309,22 @@ mtime
 mtype
 multiByteDivide
 mutexSecurity
+mvH.
 myGSW]]
 myLock
-m}z}	[(
-n	jX/
+m}J6
+nA_j
 nConcurrent={ConcurrentTaskCountForDebugger}, Exclusive={ExclusiveTaskCountForDebugger}, Mode={ModeForDebugger}
 nDaysPerMonth
+nFNc\v
 nFromInclusiveLocal
 nFromInclusiveLocal32
+nI j\f
 nInitialRange
 nIsTransient
 nLDate
 nLMonth
 nLYear
-nN^;-
 nNumExpectedWorkers
 nSDate
 nSMonth
@@ -19781,6 +20335,19 @@ nSolarYear
 nToExclusiveLocal
 nToExclusiveLocal32
 nWorkerTaskIndex
+nX*F
+nXXT
+nXX\f
+nXX\n
+nXX\r
+nXX\r\t
+nXX\v
+nXX\v\t
+nY1K
+nZX\f
+n\tjX/
+n\vcX
+n_io
 n`m}r
 n`s4Y
 name3DESKeyWrap
@@ -19917,6 +20484,7 @@ native_terminal_size
 native_trace_ips
 nativename
 nbytes
+ndl"
 need icall changes
 needChangeNotifications
 needFileInfo
@@ -19966,18 +20534,22 @@ nextTextElementLen
 nextUpdate
 next_arg
 next_id
+ne}y
 niPool
 nibblebits
 nkedh
 nkwqs
 nlsVersion
+noG+
 noGetPosition
 noLv4
+node
 nodes
 nodesCount
 nonPublic
 nonRepudiation
 noncas
+none
 normalizationForm
 normalizedSearchPath
 not enforced in 2.0+
@@ -20032,12 +20604,26 @@ numbins
 numfmt
 nvalue
 nxtysow
+n}O2
+o*wk
 o,m,R
-o:@e	
+o3l 
+o6b5
+o6b;
 oDo not create instances of the RuntimeEnvironment class.  Call the static methods directly on this type instead
 oFallback
+oIYu
 oInst
+oQAw
+oU1?
 oUse System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS instead. http://go.microsoft.com/fwlink/?linkid=14202
+oVft
+oYOC
+o\mJ
+o_T1
+oarg
+objA
+objB
 objFlags
 objID
 objMember
@@ -20080,6 +20666,8 @@ offsetL
 offsetLo
 offsetOut
 offsets
+ogZK
+ogpk
 oiPool
 oid3DES
 oid3DESKeyWrap
@@ -20096,6 +20684,9 @@ oidX509BasicConstraints
 oidX509EnhancedKeyUsage
 oidX509KeyUsage
 oidX509SubjectKeyIdentifier
+oids
+oik]
+oj8^
 oldAce
 oldActivity
 oldActivityThatWillContinue
@@ -20113,6 +20704,7 @@ omndcb
 oneArgArray
 onlyDelayed
 onlyDelayedChannels
+onmr
 opPool
 opRecordId
 opRecordIdCount
@@ -20155,6 +20747,7 @@ optionalParameterTypeCustomModifiers
 optionalParameterTypes
 optionalPermissions
 optionalReturnTypeCustomModifiers
+or4\
 orderablePartitionerSource
 orderedSource
 ordinalDay
@@ -20175,6 +20768,7 @@ originalUserPath
 originalWaitMillisecondsTimeout
 original_method_info
 origval
+ors/
 osHandle
 otherName
 otherTags
@@ -20200,6 +20794,7 @@ outputBuffer
 outputEncoding
 outputHandle
 outputOffset
+ovX.
 overflow
 overlapped
 overrideLengthLimit
@@ -20210,32 +20805,55 @@ ownedMemory
 owned_mutex
 owner_sid
 owners
+owns
 oymwhltghqnpf
+p 1O
+p 5O
+p 6O
+p 8O
+p BO
+p IO
+p Iq
+p aQ
+p fQ
+p jU
 p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
+p"eD
+p(DF
+p(OH
+p(W4
+p(f3
+p(g5
+p(kV
+p(r2
+p(s2
+p(t2
+p(u2
 p)p)p)p)p)p)
 p*r1F
 p*r:H
-p*r;{
 p*r=D
 p*rA3
 p*rGF
+p*rJ
+p*rQ
 p*rQD
 p*rZ=
 p*r]F
 p*r^C
 p*rcD
 p*rf=
+p*rg
+p*rh
 p*rq*
 p*rr=
 p*rsF
 p*r}D
-p*r~=
 p,q,s,s,t,v,v,w,x,y,z,{,|,},~,
+p1W!
 p2?X$
-p: h	
-p:0h	
-p=ru@#5^
-p>B|>
+p88H
+p:0h\t
 pActivityId
 pBindPtr
 pBstrDllName
@@ -20252,30 +20870,65 @@ pDest
 pDispParams
 pDstNativeVariant
 pExcepInfo
+pFXc\v
 pFileTime
 pFuncIndex
 pGuid
+pHhX
 pHl\t
+pIID
 pImplTypeFlags
+pItf
 pMemId
 pNlZr
 pOVERLAP
 pOuter
 pPins
+pQ`w\r
 pRecInfo
 pRelatedActivityId
+pSrc
 pSrcNativeVariant
+pStm
 pStrings
 pTKind
 pTarget
 pTypeFlags
 pTypeKind
 pTypedRef
+pUE?
+pUnk
 pUnkOuter
 pUnkSink
 pVarIndex
 pVarResult
 pVarVal
+pYdq
+p\CK
+p\RK
+p\n+&rae
+p\n+2r
+p\n+3r
+p\n+6r
+p\n+6rlE
+p\n+Br
+p\n+Fr
+p\n+Nr
+p\n+Vr
+p\n+\vrG8
+p\n+^rSb
+p\n+fr
+p\n+nr\tR
+p\n+nrvE
+p\n+vr
+p\n86
+p\n8A
+p\n8L
+p\n8W
+p\n8b
+p\n8m
+p\n8x
+p\vr7
 packSize
 packageGraphFilePaths
 packing
@@ -20318,6 +20971,7 @@ parentTypeCount
 parentTypes
 parent_culture
 parent_lcid
+pars
 parseDecimal
 parseInfo
 parseNumberDelegate
@@ -20331,6 +20985,7 @@ parsedGuid
 parsedMonthName
 parsedTimeSpan
 parser
+part
 partIn
 partialName
 participateInSampling
@@ -20437,6 +21092,7 @@ pinData
 pinfo
 pinned is ignored
 pinnedPointer
+pins
 pinsEnd
 pitable
 pkcs8ShroudedKeyBag
@@ -20460,12 +21116,13 @@ positiveInfinitySymbol
 positiveSign
 potentialRoot
 potentialTrusted
-ppB|>>
+ppCP
 ppCPC
 ppEnum
 ppFuncDesc
 ppIErrorInfo
 ppTComp
+ppTI
 ppTInfo
 ppTLB
 ppTLibAttr
@@ -20473,6 +21130,7 @@ ppTypeAttr
 ppVarDesc
 ppenum
 ppenumMoniker
+ppmk
 ppmkComposite
 ppmkOut
 ppmkPrefix
@@ -20488,6 +21146,43 @@ ppunkObject
 ppvObj
 ppvResult
 pqrNstuv
+pr!o
+pr#q
+pr%e
+pr%s
+pr*C
+pr,q
+pr1)
+pr2I
+pr2\r
+pr2n
+pr35
+pr4p
+pr5R
+pr6r
+pr74
+pr9U
+pr<I
+prDI
+prEO
+prF:
+prGm
+prIj
+prL3
+prM*
+prP\
+prR%
+prSL
+prTv
+prUX
+prXI
+prYT
+pr[h
+pr\tR
+pr]A
+pr]F
+pr^A
+prdg
 preAllocated
 preSwap
 predicate
@@ -20510,6 +21205,8 @@ previousState
 previousType
 previousValue
 previousValueObj
+prfI
+prhf
 primes
 primitiveTypeEnumLength
 principals
@@ -20519,6 +21216,9 @@ privateKeyExportable
 private_bin_path
 private_bin_path_probe
 privilege
+prlE
+prmL
+pro5
 processLevel2
 processMessageMethod
 processing
@@ -20526,10 +21226,12 @@ processor_architecture
 productVersion
 product_version
 profile
+prog
 progID
 progId
 promise
 promiseStyle
+prop
 propInfo
 propName
 propagationFlags
@@ -20539,6 +21241,7 @@ propertyName
 propertyValue
 propertyValues
 protectedResources
+prov
 providedArgs
 providerData
 providerEnumKind
@@ -20547,14 +21250,43 @@ providerType
 proxyType
 proxy_class
 proxy_class_name
+prs`
+prt!
+prtI
+prw:
+prxk
+pr}F
+pr}n
+ps+D
+ps7\n
+psF\n
+psI\n
+psL?
 psNone
+psO\n
+psQ4
+psQ\n
+psU\n
 psUnrestricted
+psV\n
+psX6
+psX\n
+ps\vP
+psd"
+pseD
+pset
 pseudoAttrs
+pskE
+psq7
 pstatstg
 psvy|
+pswU
+psz*
 pszKey
+ps{1
 ptrs_from_handles
 ptrs_from_types
+ptzi
 puArgErr
 pubkey
 publicOnly
@@ -20562,27 +21294,53 @@ public_key
 public_key_token
 publiclyVisible
 publisher_policy
+puny
 putEntry
 pvInstance
 pvRecord
 pvReserved
+pvqr
 pwOrdinal
 pwcsName
-p|||||
+q3b!
+q6c5
+q6c;
+qAGG
 qCAogA
-qIbXR	
+qIBk\f
+qI]k\f
+qIbXR\t
+qInv
 qNNNNN
+qPeI\r
 qSQPToUh
 qThis method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202
 qThis property has been deprecated. Please use AssemblyFlags instead. http://go.microsoft.com/fwlink/?linkid=14202
+qUM?
+qUc]
+qeLz
+qgZK
 qqqqqqq
+qrr\
 qs]vhmaexo^bdn
 qualifier
 query
 queueHead
 queueTail
+qumk
 quotes
-r9G4	
+qvpu
+r&cI
+r*2P
+r*8P
+r20?
+r99K
+r9G4\t
+r9V]
+rHMR
+rIyk\f
+rNlZ
+rPxI\r
 rSTZUt
 rUse System.Runtime.InteropServices.ComTypes.IEnumConnections instead. http://go.microsoft.com/fwlink/?linkid=14202
 rVDGGUF
@@ -20619,6 +21377,7 @@ raw_acl
 rc2Algo
 rclsid
 reEntrant
+re\z
 readByteCount
 readEvent
 readList
@@ -20768,6 +21527,7 @@ resourcemgr_control
 responseHeaders
 responseMsg
 responseStream
+rest
 restTokens
 restrictedCapabilitySid
 restrictedDescription
@@ -20793,9 +21553,11 @@ return_type_match
 reversed
 revocationDate
 rfc1123Pattern
-rfrs,
+rfrs,\fZ
+rg6"
 rgBstrNames
 rgDispId
+rgIL
 rgMemId
 rgVar
 rgbData
@@ -20818,8 +21580,10 @@ rightToLeft
 right_to_left
 rights
 rights are ignored in Mono
+riid
 riidResult
 rjdT*k
+rkey
 rl_startx
 rl_starty
 rngName
@@ -20829,11 +21593,19 @@ root_code_group
 root_domain_thread
 rootmap
 roots
+rot1
+rot2
+rot3
 roundPower10Double
+rown
+rpos
 rsaEncryption
+rstw
 rtType1
 rtType2
+rtuw
 rtype
+rule
 rule1
 rule2
 rules1
@@ -20844,23 +21616,31 @@ runtimeArray
 runtimeCritical
 runtime_thread_info
 rva_data
+rw\nq
 rw_lock
 rwlock
-r{"M^{
+s*BP
 s.e8E
+s.s8
+s1n!
 sAM1159
 sCharBuffer
 sCharPos
 sISO639Language
+sKIA
 sKuYQ
 sListSeparator
 sMonthDay
 sNativeName
 sPM2359
+sQCC
 sRealName
 sTimeSeparator
+sUH@
 sUserPrincipalName
 sUuEW
+sXLk
+s]EM
 s_ActionToActionObjShunt
 s_ActivityStartSuffix
 s_ActivityStopSuffix
@@ -20891,6 +21671,7 @@ s_SerializationInfoTable
 s_ShowAssertDialog
 s_StructuralComparer
 s_StructuralEqualityComparer
+s_TF
 s_UseMachineKeyStore
 s_WriteCore
 s_activatorFactorySelector
@@ -20945,6 +21726,7 @@ s_factory
 s_failFastOnUnobservedException
 s_forkJoinContextID
 s_haveBlueErrorApis
+s_iT
 s_iTF
 s_idManager
 s_identitySelector
@@ -21019,6 +21801,7 @@ saShortDates
 saShortTimes
 saSuperShortDayNames
 saYearMonths
+sacl
 safeAccessTokenHandle
 safeBag
 safeContentsBag
@@ -21038,6 +21821,7 @@ schemeName
 schemes
 scopeID
 scopename
+scrN
 scratch
 scratchEnd
 scratchSize
@@ -21729,6 +22513,8 @@ sizeParamIndex
 sizedArray
 sizes
 sizet
+skew
+skip
 skipCheckThis
 skipFrames
 skipHeadingExtenders
@@ -21738,8 +22524,11 @@ slash
 small
 smallPrimes
 small_id
+smem
 smuggledMrm
 smuggledMsg
+snMC
+snip
 snprintf
 sortId
 sortableDateTimePattern
@@ -21776,6 +22565,7 @@ source_handle
 source_idx
 source_process_handle
 spBoxes
+span
 spcIndirectDataContext
 specific
 spinCount
@@ -21787,6 +22577,7 @@ srcOffsetBytes
 src_offset
 srvID
 ssout
+st"Z
 stackBuffer
 stackId
 stackMark
@@ -21819,6 +22610,7 @@ starter
 startingSize
 startingTextElement
 starts
+stat
 stateForCallback
 stateInfo
 stateMachineType
@@ -21832,6 +22624,12 @@ stdin
 stdout
 storage_scope
 storeName
+str0
+str1
+str2
+str3
+strA
+strB
 strContainerNameIn
 strDefault
 strDisplayName
@@ -21862,6 +22660,7 @@ string_from_bytes
 struct_version
 structureType
 structuretype
+stub
 style
 styles
 subKeyName
@@ -21881,6 +22680,9 @@ surrogateChar
 surrogateSelector
 suspended_event
 svrType
+svt/
+sw q
+sw/q
 switchName
 switchValue
 switches
@@ -21900,12 +22702,23 @@ system_acl
 system_core_assembly
 szName
 szNameBuf
-t9O4	
-t9X4	
+s}l6
+t*HP
+t*IP
+t*KP
+t16c
+t1v!
+t9O4\t
+t9X4\t
 tAppDomain.ClearPrivatePath has been deprecated. Please investigate the use of AppDomainSetup.PrivateBinPath instead.
+tE8@\v
+tF1d\v
+tF8d\v
 tHl\B
 tI(|p
-tX,,.4
+tP<J\r
+tPbz
+tSwa
 t_currentTask
 t_stackGuard
 tableName
@@ -21947,16 +22760,21 @@ tbuilder
 tdesc
 tdescAlias
 teardown
+tehq
+temp
 temp2
 templates
 territory
+test
 testWasUnable
 testedCount
 textInfo
 textinfo_data
+tgZK
 thaiBuddhistEraInfo
 thatValue
 theDelegate
+them
 thisDirOnly
 thisPair
 thisUpdate
@@ -22005,6 +22823,8 @@ timestampChain
 timezone_check
 titleFormat
 tlbFile
+tmax
+tmin
 tname
 toAscii
 toBase
@@ -22062,6 +22882,8 @@ try_offset
 tryagain
 ts_finalizationHelper
 ts_slotArray
+tstr
+tu\fp
 twoArgArray
 twoDigitYearMax
 typeA
@@ -22149,10 +22971,18 @@ typeref_tokengen
 typesize
 typespec_tokengen
 tz_lock
+tzs}
+u&cI
+u2ce
 uAppDomain.AppendPrivatePath has been deprecated. Please investigate the use of AppDomainSetup.PrivateBinPath instead.
-uB!!c 
+uEH@\v
+uEX@\v
+uK\n1DP
+uO_S
 uQ}QAaQii
+uZR[
 ucCurrent
+ueea
 ugowA
 uiContext
 uiVal
@@ -22242,6 +23072,7 @@ useManagedSha1
 useMemoryBarrier
 useSynchronizationContext
 use_std3
+user
 user32.dll
 userBuffer
 userCallback
@@ -22268,13 +23099,33 @@ utf7Encoding
 utf8Encoding
 utf8EncodingUnsafe
 utf8EncodingWithoutMarkers
+utwx
 utype
+uv*W
+uw7q
+v+D3
+v05p
+v1;c
+v28?
+v2M?
+v2Z?
+v2fe
+v2h?
+v2u?
+v30&
+v3V]
 v4.0.30319
-v9?5	
-v9U5	
-v9`5	
-v9h5	
+v9?5\t
+v9U5\t
+v9\f5\t
+v9`5\t
+v9h5\t
+vEc@\v
+vH7B
 vId = {Id}, Status = {Status}, Method = {DebuggerDisplayMethodDescription}, Result = {DebuggerDisplayResultDescription}
+vPlJ\r
+vRQ>
+vU+x
 valTypeObjectIdTable
 validElementsInArray
 validForParseAsCurrency
@@ -22302,6 +23153,7 @@ varName
 variable
 variableCount
 varkind
+vars
 vdW9:X(
 verbose
 versionAdded
@@ -22310,6 +23162,7 @@ version_res
 versioncompat
 versioninfo_culture
 vh+R!
+view
 viewAccessControl
 virtKey
 virtualKeyCode
@@ -22320,12 +23173,19 @@ visualizerObjectSource
 visualizerObjectSourceName
 visualizerObjectSourceTypeName
 visualizerTypeName
+vkxk
+vlY\v
 vmTpInitialized
 vmzXX
+vpDf
+vsnq
+vv(0
+vvt0
 v}ux|
-w	^;9
-w.>8	
-w:5v	
+w)FB
+w2H@
+w3X&
+w:5v\t
 wAoQi
 wBitCount
 wCode
@@ -22347,7 +23207,9 @@ wReserved3
 wSecond
 wThreadSafetyMode={Mode}, IsValueCreated={IsValueCreated}, IsValueFaulted={IsValueFaulted}, Value={ValueForDebugDisplay}
 wTypeFlags
+wU$A
 wVarFlags
+w\nlz
 waCalendars
 waitAll
 waitCallback
@@ -22359,6 +23221,7 @@ waitHandleToWaitOn
 waitHandles
 waitableSafeHandle
 waiterTask
+want
 wantBreak
 wantEcho
 wantModifiers
@@ -22408,16 +23271,23 @@ writtable
 written
 writtenSoFar
 wstrcpy
+wv24
+wv\f1
 wxyOz{|}3~
-wxyz{|}~
-x C;k
-x"hn&(%$
-x%oJ%.r\.
+x C5
+x*SP
+x.Bg
+x1V"
+x3d]
+x3h&
+x509
 x509Certificate
 x509Crl
 x509data
 x;e]9
-x<<D%
+xEt@\v
+xUHB
+xUtA
 xdomain_vtable
 xmlAttribute
 xmlElement
@@ -22427,13 +23297,19 @@ xmlSpace
 xmlSpaces
 xmlString
 xmlType
+xo6v
 xsf2*
 xterm|X11 terminal emulator
+xw7q
 xxoJ%%r\..$8
 x|L{yz
 y(P#L
-y.^+s
-y3*	%
+y.Z8
+y3h'
+yCGE
+yEaQ
+yGua
+yHKW
 yO]}Y
 yOffest
 yOwzx
@@ -22443,57 +23319,74 @@ yearOffset
 years
 yinfo
 yzxfe
-z	*	!
-z	ow 
 z%ox6
+z%ra
+z(O6
 z*.rg
 z*.rq
 z*.ruI
+z*Br
 z*b(W
 z*~sm
 z.rxl
-z.s~\
+z1j"
+z3h7
 z7~vw/1
-z:Cv	
+z:Cv\t
 z=J<6]CD
-z?l;?
+z?l5
 zBrmU
 zDZi}-1
-z].>8
+zPTK\r
+z\fr\vu
+z\r65\n
+z\tow 
 zeroes
 zjlFm
 zlxg|r
+zr&M
+zr4]
+zrmU
+zrt\r
+zs3>
+zsmY
+zv#2
+zv&3
+zvC3
+zvP2
+zvR1
+zvt1
+zwEq
+z|yx
 z~{ik
-{!A{~
+{1Ac
+{1Ec
 {;5Bdq
-{=x/3^
 {CIQCi
-{C{{~C
 {DebuggerDisplay,nq}
 {JyH~z
-{R))>
-{[m|yw
+{Owc
 {knGo8S
+{vP3
 {value}
-|&'()*`
-|>>Bq
 |?Czv
-|C6jEa
+|PqK\r
 |This attribute has been deprecated.  Application Domains no longer respect Activation Context boundaries in IDispatch calls.
 |arL-
+|f5j
+|lo7
 |t32x}{4y
+|wRq
+|wvt
 |xVX{
-})){R
-}:Qv	
+}1Hc
 }BD0q(
 }CC}C
 }System.Runtime.InteropServices.RuntimeInformation, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 }WCCYRR{{CC
-}y{|<
+}vM4
 }~CCY
-~4[C)v
-~=Gz=d
+~KZK
+~QLx\r
 ~lkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkllllllllllllllllllllllll
 ~mGvG
-~{C{C{{{
-~~Gz==

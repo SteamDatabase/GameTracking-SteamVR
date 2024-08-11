@@ -1,95 +1,20 @@
-					
-																			
-																									
-																												
-	!s99
-  GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
-  GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
-  SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
-  SetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
-  SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
- %41g
- A9_ w
- A^A\_
- A^A]A\^]
- A^_]
- A^_^
- A^_^][
- A_A\_
- A_A^A\
- A_A^A\_^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^A]_^
- A_A^_
- A_A^_^]
- A__[
- A__^
+  GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x\r\n
+  GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x\r\n
+  SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x\r\n
+  SetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x\r\n
+  SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x\r\n
  Capability Size: 
- D;5v
- D;j0u
- H3E H3E
  Height: 
  Width: 
- s2E3
- sIE3
-!T$(H!T$ 
-!hn7!
-$+xvA
-$< t6<$t,<+t"<vt
 %.0Lf
-%H : %M
 %H : %M : %S
 %I : %M : %S %p
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-',=?k
-()$^.*+?[]|\-{},:=!
-(A^A\^[
-(A^A\_[
-(A^A]^[
-(A_A^A][
-(A_A^A]_
-(A_A^^[
-(A_A^_]
-(A_^][
-(D$ f
-(D$0f
-(D$@f
-(D$PE3
-(D$Pf
-(f*^[0
-(t$ H
-(t$02
-(t$0H
-(t$@H
-(t$@L
-(t$`H
-(t$`L
-(t$pH
-(|$ H
-(|$0I
-)D$ I
-)D$@A
-)D$PH
-)D$PM
-)D$`I
-)t$ A
-)t$ H
-)t$ I
-)t$0H
-)t$`H
-+J$D8M@
-+QQb]
-+X3zs
-+Xt@(
-+o'q)}
+()$^.*+?[]|\-{},:=!\n\r
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
-,W5y+
-,t0D9J0v*L
 .00cfg
-.8\$!t.9\
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
 .?AUIEnumMediaTypes@@
@@ -323,6 +248,7 @@ $< t6<$t,<+t"<vt
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -340,12 +266,12 @@ $< t6<$t,<+t"<vt
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
@@ -355,108 +281,10 @@ $< t6<$t,<+t"<vt
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
 0123456789abcdefghijklmnopqrstuvwxyz
-0:D$#u
-0A^_^
-0A^_^][
-0A_A^A\
-0A_A^A\_^
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^_
-0A_A^_^[
-0A_A^_^]
-0A__[
-0A__^
-0A__^[]
-0w0c1
-0}0i1
-130801120000Z
 1eaB@
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173825Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-378w{X
-380115120000Z0b1
-3A8A#
-3mq+<
-4.tfH
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8-uCH
-8-uGH
-8A^_^[
-8A_A^A]A\_^][
-8D$ u+H
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8H;^XtB
-8T$0u
-8\$0u`H
-8\$0up
-8_	u7E3
-8_^][
-91~/E3
-9D$(|
-9D$(}k
-9D$`t_
-9FHtGH
-9W$v8D
-9WP~GM
-9WP~HM
-9WP~KM
-9\$0u
-9\u;H
-9\u<H
-9_P~+E3
-9_P~,E3
-9_P~OE3
-9f`'r
-9{D~H3
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
-:K	t	H
-:L$"u
-:O	t	H
-:O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-:\uDL
-;A$vTH
-;B$vUH
-;Ct~EH
-;Ct~ZH
-;Ct~gH
-<%ufH
-<0:08
-<:u/H
-<:u3H
-<:wuH
-<HthH
-<xu<D
-<}wYI
-=rIQU
->0<0:
->Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -565,140 +393,17 @@ $< t6<$t,<+t"<vt
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
-@(D9i(
-@.data
-@.reloc
-@8t$0
-@8t$8t)A
-@8w	u3E3
-@8w	u8E3
-@A^A\_^]
-@A^^[
-@A^_^
-@A_A^A\
-@A_A^A\_^
-@A_A^A\_^][
-@A_A^A]A\_
-@A_A^A]A\_^]
-@A_A^]
-@A_A^_
-@A_A^_^]
-@SAUAVAWH
-@SUVAWH
-@SUVWATAUAVAWH
-@SUVWATAVAWH
-@SUVWAVH
-@SUVWH
-@SVATAVH
-@SVAUAVH
-@SVAVAWH
-@SVAVH
-@SVWAVAWH
-@SVWH
-@SWATAVH
-@SWAVH
-@SWAWH
-@UATAVH
-@UAVAWH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAVAWH
-@USVWAUH
-@USVWAVH
-@USVWAWH
-@UVATAUAVH
-@UVWATAUAVAWH
-@UVWAVAWH
-@UVWH
-@UWAVAWH
-@VWATAVAWH
-@VWAVH
-@WAUAVAWH
-@WAVAWH
-A$+A,t\3
-A(9B(D
-A+B$+
-A+B$A
-A+B$D
-A+X$D
-A+n H
-A,A9A(v&L
-A,H;B,u4H
-A,H;B,u;H
-A,H;B,u>H
-A,u+H
-A0H9P
-A4H;B4u*
-A4H;B4u1
-A4H;B4u4
-A8+A0
-A;6}#I
-A;H$I
-A;H$s
-A;J$vdH
-AH;BHu"
-AH;BHu)
-AH;BHu,
-ATAVAWH
-A^A\_
-A^_^][
-A_A^A\
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A\_^][
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_^
-A_A^]
-A_A^_
-A_A^_^[
-A_A^_^[]
-A_A^_^]
-A`D9L8
 AcquireSRWLockExclusive
 Applying depth format 
 Applying first frame camera configuration options...
-AuthD
-Auto Exposure Target:		
-Auto Exposure:			
-Auto White Balance:		
-B$D+B,toD+B(
-B0E8XAt
-BL$(A
-Backlight Compensation:		
+Auto Exposure Target:\t\t
+Auto Exposure:\t\t\t
+Auto White Balance:\t\t
+Backlight Compensation:\t\t
 Begin Streaming Depth...
 Begin Streaming Video...
 Beginning detectedStream 
-Bellevue1
-C H9G
-C$9C w H
-C$u	H
-C(H;C0r
-C0HcF
-C4D+@ H
-C9|0$uA
-C@H98t"H
-C@H98t%H
-CB(A;J,A
-CB0A;B(A
-CD$(H
-CD$0H
-CD$0fD
-CD$xH
-CE'H+
-CE,D;m0D
-CM'L+
-CT$ L
-CT$(H
-CT$8L
-CT$xL
 CVRCameraWindows Destructor...
-C`D;Sh|
 Camera Exception while adding configuration change handler to video stream: 
 Camera Exception while adding frame handler to video stream: 
 Camera Exception while applying configuration: 
@@ -717,7 +422,7 @@ Camera Exception while receiving camera frame:
 Camera Exception while setting color configuration: 
 Camera Exception while setting depth configuration: 
 Camera Exception while setting depth format: 
-Camera reconnect failed
+Camera reconnect failed\n
 Capability Count: 
 ChangeTimerQueueTimer
 CloseHandle
@@ -731,7 +436,7 @@ CoInitializeEx
 CoTaskMemAlloc
 CoTaskMemFree
 CoUninitialize
-Color Gain:			
+Color Gain:\t\t\t
 CompareStringEx
 CompareStringW
 ContextPriority
@@ -753,87 +458,6 @@ CreateTimerQueue
 CreateTimerQueueTimer
 CreateUmsCompletionList
 CreateUmsThreadContext
-Ct$HL
-CtfD;
-D	g I
-D$ 3A
-D$ 3Q
-D$ E3
-D$ H;
-D$ I;
-D$(E3
-D$(H;
-D$(fD
-D$0,fD
-D$0.fD
-D$09D$ 
-D$0E3
-D$0H;
-D$0L+
-D$0L;
-D$0f;VPu
-D$0tu
-D$49D$$
-D$89D$(
-D$8H;
-D$@H9D$8t
-D$@H;
-D$@HcH
-D$@Ic
-D$H9D$8
-D$HH;
-D$HL;
-D$L9D$<
-D$P"D
-D$P9D$@
-D$PE3
-D$PH;
-D$PHcH
-D$PIc
-D$PL;
-D$XH+D$PH
-D$XH9
-D$`HcH
-D$hE;
-D$hH;
-D$hI;
-D$pE3
-D$pH;
-D$pHcH
-D$pfD
-D$xI;
-D+ShHcChM
-D8"u3H
-D8A=t	
-D8A>t
-D8M@t
-D8M@t^
-D8[	u7E3
-D8d$1u
-D8d$8tEI
-D8l$`
-D8yDt
-D8|$0u
-D9&tXA
-D9B,t
-D9G$s5
-D9J,w
-D9L$,uDH
-D9L$0uFI
-D9Y$v+E
-D9d$$u
-D9g@~2Ic
-D9h(uiE
-D9k(u
-D9v|t
-D;d$$A
-D;d$$u
-D;j0v
-D;v sgH
-D;w@|
-D;z,A
-D;z,u
-D;z,v	A
 DFailed to EnumPins.
 DecodePointer
 DeleteCriticalSection
@@ -843,45 +467,28 @@ DeleteUmsCompletionList
 DeleteUmsThreadContext
 DequeueUmsCompletionListItems
 Device Path: 
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Dl$8E
+Done\n
 DuplicateHandle
 DynamicProgressFeedback
-E HcH
-E+BhIcBhM
-E0HcH
-E8X@t8A
-E9e ~9I
-E;B0E
-E;Bl}DM
+E,aH
 EI2C support not yet implemented
-EPHc@
-ET$(H
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
 EnterCriticalSection
 EnterUmsSchedulingMode
-EpHcH
-Etron Camera: Erase whole chip to prepare for FW update
-Etron Camera: FW update success.  Please re-connect the camera to apply FW update
-Etron Camera: Updating FW image in SPI flash via bootloader
+Etron Camera: Erase whole chip to prepare for FW update\n
+Etron Camera: FW update success.  Please re-connect the camera to apply FW update\n
+Etron Camera: Updating FW image in SPI flash via bootloader\n
 Etron Camera: Verify FW 
 Etron Camera: Writing FW 
-Etron read flash failed
-Etron: Wait SPI time out!!(%f sec)
+Etron read flash failed\n
+Etron: Wait SPI time out!!(%f sec)\n
 Exception connecting to camera: 
 Exception constructing Camera: 
 ExecuteUmsThread
-Exposure:			
-F(LcF I
+Exposure:\t\t\t
 Failed to AddFilter.
 Failed to AddToRot: 
 Failed to BindToObject.
@@ -906,6 +513,7 @@ Failed to create IGraphBuilder.
 Failed to create IKsControl.
 Failed to find target device.
 Failed to parse device path.
+Failed to parse device path.\n
 Failed to read DevicePath
 Failed to read FriendlyName.
 Failed to read flash file chunk.
@@ -928,13 +536,7 @@ FreeLibrary
 FreeLibraryAndExitThread
 FreeLibraryWhenCallbackReturns
 Friendly Name: 
-G$;G,
-G(9G u
-G,9G$u
-G0LcGDI
-G89D$0u
-G8HcODI
-Get ASIC register value failed
+Get ASIC register value failed\n
 GetCPInfo
 GetCurrentPackageId
 GetCurrentProcess
@@ -971,61 +573,7 @@ GetTraceEnableLevel
 GetTraceLoggerHandle
 GetUmsCompletionListEvent
 GetVersionExW
-Global Gain:			
-H WATAUAVAWH
-H!T$0D
-H#T$0H
-H#|$0tB
-H+C H=
-H+D$XH+D$@3
-H+G H=
-H+L$(x?H
-H+L$(xAH
-H+\$0H
-H+|$8
-H-^Eu
-H3\$HH
-H99u{
-H9=(U	
-H9=bN	
-H9A4u
-H9Ahs
-H9D$8t
-H9D$@u
-H9D$Ht
-H9E8u$H
-H9J t1
-H9K u
-H9P0tLH
-H9Q,u
-H9Qhv#H
-H9\$ u
-H9_ht0H
-H9h0t`
-H9t$@t
-H;@0u
-H;@Xu
-H;A0s
-H;D$pr
-H;\$8
-H;\$H
-H;_Xt
-H;|$8u
-HHtfH
-H_^][
-Hc;HcK
-HcD$hH
-HcGTL
-HcGl;Gh}
-HcKhH
-HcKpH
-Hpu+H
-I9Bhs
-I9Chs
-IcI A
-IcJ 3
-IcJPHc
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+Global Gain:\t\t\t
 Index: 
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -1040,67 +588,20 @@ InterlockedPopEntrySList
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J$A;H$A
-J>@G_
-J`E;Bh|
-K 9N v@H
-K H9y
-K0u2H
-K4A+H 
-K8Hc@
+J\rr3u
 KERNEL32.dll
-KH;_XtW3
-K}*n:	
-L$ SUVH
-L$ SUVWH
-L$ SVWH
-L$ UVWATAUAVAWH
-L$(E3
-L$(H3
-L$0E3
-L$0H3
-L$8I;
-L$@H3
-L$PH3
-L$XH3
-L$pD9c
-L$pH3
-L+t$0
-L9%!^
-L9%M[
-L9%u]
-L9-		
-L90u$H
-L9B4t4H
-L9Ihv'H
-L9L$(L
-L9|$pveH;
-L9}osDH
-L9~ t
-L;FHu
-L;L$(A
-L;L$(t
-L?n(Zy&
 LCMapStringEx
 LCMapStringW
-LcCP3
-LcGDI
-LcGP3
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 Lock already taken
-M H1E
-M'H9E
-MB(iVR
 MJPEG color format is not yet implemented.
 MaxConcurrency
 MaxPolicyElementKey
+MbP?
 Mbp?333333
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MinConcurrency
 MultiByteToWideChar
 No Description
@@ -1108,24 +609,12 @@ No IPin available.
 No color stream to configure.
 No depth or color data. Cannot determine frame number.
 No depth stream to configure.
-O,D9O(vcH
 OLEAUT32.dll
-P8fD;
-P@fD;
-PA^A\]
-PA^_^
-PA^_^[]
-PA_A^A]A\_^[
-PA_A^A]A\_^]
-PA__^[]
-PAq=?Mp#
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-R0E8XAt
+RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1138,14 +627,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlVirtualUnwind
-S0Q0O
-SA|X=G
-SUVWATAUAVAWH
-SUVWATAVAWH
-SUVWAVH
-SVWATAUAVAWH
-SVWAVAWH
-SVWAVH
 Saw DEVICE LOST event
 SchedulerKind
 SchedulingProtocol
@@ -1167,20 +648,6 @@ SleepConditionVariableCS
 SleepConditionVariableSRW
 SubmitThreadpoolWork
 SwitchToThread
-T$ 3Q
-T$ A;U
-T$ D;
-T$ E3
-T$0D9d$8
-T$0D9d$@
-T$0E3
-T$8H+
-T$@H+
-T$HfH
-T$PH;
-T$PI+
-T$`H+
-T$pE3
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1191,16 +658,6 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
-UATAUAVAWH
-UAVAWH
-USVWATAUAVAWH
-USVWAVAWH
-UVWATAUAVAWH
-UVWATAVH
-UVWAVAWH
-UWATAVAWH
-UWAVH
-UYVX;}
 UmsThreadYield
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
@@ -1231,64 +688,20 @@ UnregisterWait
 UnregisterWaitEx
 UpdateProcThreadAttribute
 VCRUNTIME140.dll
-VUD8oDu
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
-Verify failed at 0x%X/0x%X Bytes
+Verify failed at 0x%X/0x%X Bytes\n
 VirtualAlloc
 VirtualFree
 VirtualProtect
-W0;Ct~ZH
-W8HcH
-WATAUAVAWH
-WATAVH
-WATAWH
-WAVAWH
-W`;Ct~|H
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
 WakeConditionVariable
-Washington1
-White Balance:			
+White Balance:\t\t\t
 WideCharToMultiByte
 WinRTInitialization
-Writing failed at 0x%X/0x%X Bytes
-X E9j
-Y$D;R
-Y0t>H
-Y9"SD
-Z(D9Z
-[@D8}oteH
-[K]taM?
-\$ UH
-\$ UVWAVAWH
-\$ UWAVH
-\$ WH
-\$(H;
-\$(Hc
-\$0H+^
-\$0H9^
-\$2fE
-\$8E3
-\$8I+_
-\$8I9_
-\$<D2
-\$@fD
-\$HfD
-\$PE3
-\$Pu-H
-\$hE3
-\$pE3
-]J<0"0i3
-]`u7H
-_(H9n
+Writing failed at 0x%X/0x%X Bytes\n
+\r\f\v\v\n\n\t\t\t\t\t
 _CxxThrowException
 _Getdays
 _Getmonths
@@ -1327,7 +740,6 @@ _errno
 _execute_onexit_table
 _fseeki64
 _fsopen
-_gUT^
 _get_stream_buffer_pointers
 _initialize_narrow_environment
 _initialize_onexit_table
@@ -1344,12 +756,6 @@ _seh_filter_dll
 _unlock_file
 _unlock_locales
 _wcsdup
-`.rdata
-`A]_^[]
-`A^_^][
-`A_A^A]A\_^]
-`A_A^_^[
-a7hIw
 abort
 address family not supported
 address in use
@@ -1390,32 +796,12 @@ connection refused
 connection reset
 count
 cross device link
-d$ E3
-d$DE;
-d$XD9
-d$XE3
-d$`H=
-d$vI9V
 destination address required
 device or resource busy
 digit
 directory not empty
-e0A^A]A\_^[]
-e@A_A^]
 eventObject
 executable format error
-f	n@H
-f#D$@H
-f9,Yu
-f9/t	H
-f9D$pu
-f;D$ u
-f;M	tt
-fA;	H
-fD9 u
-fD9!t	H
-fD98t
-fD9|$Xu
 false
 fclose
 fflush
@@ -1427,6 +813,7 @@ file too large
 filename too long
 fputc
 fputwc
+free
 frexp
 fseek
 fsetpos
@@ -1434,14 +821,7 @@ function not supported
 fwrite
 generic
 graph
-h< t <$
-hA_A^A]A\_^][
 host unreachable
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1460,38 +840,11 @@ is a directory
 islower
 isspace
 isupper
-jj@0HK4
 jyvids
-k0i0$
-l$ E3
-l$ H;
-l$ H=
-l$ VWATAUAVAWE3
-l$ VWATAVAWH
-l$ VWAVH
-l$(E3
-l$0E3
-l$4D8d$1u
-l$4E3
-l$4E;C
-l$4H9u
-l$4I;
-l$4L9}
-l$8E3
-l$@H;
-l$PA_A^A]A\_^
-l$PD;
-l$PE;C
-l$`E;
-l$pfA#
-l$xM+
-l*$D+l*,tDD+l*(
-l2|X/gGe
 ldexp
 localeconv
 lower
 lstrcmpW
-m0k0$
 malloc
 memchr
 memcmp
@@ -1499,7 +852,6 @@ memcpy
 memmove
 memset
 message size
-nD8-V
 network down
 network reset
 network unreachable
@@ -1522,8 +874,6 @@ not a stream
 not connected
 not enough memory
 not supported
-ntelD
-o0t$I
 ole32.dll
 operation canceled
 operation in progress
@@ -1531,26 +881,19 @@ operation not permitted
 operation not supported
 operation would block
 owner dead
-p AWH
-p D9V
-p WAVAWH
-p e0ui
-pA^_^
-pA_A^A]A\_^]
 pContext
 pEvents
 pExecutionResource
 pScheduler
 pThreadProxy
 permission denied
+powf
 ppVirtualProcessorRoots
 print
+proc
 protocol error
 protocol not supported
 punct
-q(9qD~[E3
-r	uAD;d$$u:
-rBu/H
 rLp>B
 raB3G
 read only file system
@@ -1577,6 +920,7 @@ result out of range
 setlocale
 setvbuf
 space
+sqrt
 state not recoverable
 stoul argument out of range
 strchr
@@ -1586,142 +930,25 @@ string too long
 strtod
 strtof
 switchState
-sxu/H
-sxuIH
-sxutH
-t @8x
-t H9X8t]
-t!fff
-t$ AVH
-t$ E3
-t$ L+
-t$ WATAUAVAWH
-t$ WATAWH
-t$ WAVAWH
-t$ WH
-t$0E3
-t$0H+
-t$8H+
-t$<D;t$@
-t$@H=
-t$HI+
-t$HL;
-t$Hu{H
-t$PuyH
-t$XH;
-t$XM;u
-t$`;w
-t$hE3
-t$pH9\$ u
-t$xE3
-t(B;\ 
-t(fff
-t*H9p8u$@8
-t+H;E
-t.8\$P
-t4~ ;
-t>fff
-t>y#H
-t>y#I
-t>y&H
-t?y&I
-t@LcM
-tG8\$ u08\$!t*E
-tKI;D
-tP8]w
-tRH9h0tLH
-t_H9Q0tYH
 terminate
 text file busy
 timed out
-tjL9Chu
-tlLcA
-tlMcH
 tolower
 too many files open
 too many files open in system
 too many links
 too many symbolic link levels
-tpH91uk
-tvLcK
-t}D8O
-u	9o$
-u D9~
-u!!D$(H
-u%!D$@H
-u&8_rt
-u)!t$(H
-u2A8D
-uJL9J,u
-uY8\$ t
-ueA8F
-ug8Y$t
-ujL9J
+true
 ungetc
 ungetwc
 unknown error
-uoA8F
-upE8N
-upH;~ uj
 upper
-uxHcOP
-u~LcW
-v=Y]Bv
-v?fD;
 value too large
 vector<T> too long
 vector<bool> too long
 version
 vrcamera_api.dll
-w(HcODI
 wcsnlen
 wcstoul
 wrong protocol type
-www.digicert.com1!0
-www.digicert.com1$0"
-x ATAVAWH
-x AVAWL
-x AVE3
-x AVH
-x UAVAWH
 xdigit
-yH;YXtl
-{ ATAVAWH
-{ AVH
-{ tjL
-{un'%
-{x\u!H
-{|-ueH
-{|?uWH
-{|]u%H
-|$ A;
-|$ ATAVAWH
-|$ AUAVAWH
-|$ AVH
-|$ AVL
-|$ AWH
-|$ E3
-|$ UATAUAVAWH
-|$ UH
-|$(A^
-|$0@"
-|$0A_A^
-|$0E3
-|$0H+
-|$4E3
-|$4H9]
-|$4H9u
-|$8A_A^A\
-|$8H+
-|$8I+
-|$@E3
-|$HH;
-|$Pff
-|$h9i
-|$h9w
-|$rfD
-|Lu?c
-}LuHO
-~`D8I!t-
-~qj#k"
-~t&LN

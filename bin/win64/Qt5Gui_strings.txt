@@ -1,203 +1,15 @@
-													
-																						
-																									
-																																											
-																																																																
-	 	!	"	#	$	%	&	'	(	)	*	+	,	-	.	/	0	1	2	3	4	5	6	7	8	9	:	;	<	=	>	?	@	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	[	\	]	^	_	`	a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	{	|	}	~	
-	,	=	[	y	
-	?constEnd@QJsonArray@@QEBA?AVconst_iterator@1@XZ
-	?constEnd@QString@@QEBAPEBVQChar@@XZ
-	?contains@QByteArray@@QEBA_NAEBV1@@Z
-	?contains@QByteArray@@QEBA_ND@Z
-	?contains@QByteArray@@QEBA_NPEBD@Z
-	?contains@QJsonObject@@QEBA_NAEBVQString@@@Z
-	?contains@QRect@@QEBA_NAEBV1@_N@Z
-	?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
-	?critical@QMessageLogger@@QEBA?AVQDebug@@XZ
-	?critical@QMessageLogger@@QEBAXPEBDZZ
-	?currentDateTime@QDateTime@@SA?AV1@XZ
-	?currentThread@QThread@@SAPEAV1@XZ
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-	?d_func@QCoreApplication@@AEAAPEAVQCoreApplicationPrivate@@XZ
-	A	@XB
-	H9q u	
-	s*D;d$Xu
-	u>L;
-	uLSH
-	~*E3
- 	?contains@QRect@@QEBA_NAEBVQPoint@@_N@Z
-                result = texture2D(brushTexture, vec2(w, 0.5)); 
-            fragColor = srcPixel(); 
-            gl_Position = vertexCoordsArray; 
-            highp float detSqrt = sqrt(det); 
-            highp float w = max((-b - detSqrt) * inverse_2_fmp2_m_radius2, (-b + detSqrt) * inverse_2_fmp2_m_radius2); 
-            if (bradius.y + w * bradius.z >= 0.0) 
-            setPosition(); 
-            t = (atan(-A.y + 0.002, A.x) + angle) * INVERSE_2PI; 
-            t = (atan(-A.y, A.x) + angle) * INVERSE_2PI; 
-            textureCoords = textureCoordArray; 
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-        A = hTexCoords.xy * invertedHTexCoordsZ; 
-        b = bradius.x + 2.0 * dot(A, fmp); 
-        brushTextureCoords.xy = (hTexCoords.xy * invertedTextureSize) * gl_Position.w; 
-        else 
-        gl_FragColor = applyMask(compose(srcPixel())); 
-        gl_FragColor = applyMask(compose(srcPixel()*globalOpacity))); 
-        gl_FragColor = applyMask(srcPixel()); 
-        gl_FragColor = applyMask(srcPixel()*globalOpacity); 
-        gl_FragColor = compose(srcPixel()); 
-        gl_FragColor = compose(srcPixel()*globalOpacity); 
-        gl_FragColor = srcPixel() * opacity; 
-        gl_FragColor = srcPixel()*globalOpacity; 
-        gl_FragColor = srcPixel(); 
-        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); 
-        gl_Position = vec4(transformedPos.xy, 0.0, transformedPos.z); 
-        gl_Position = vertexCoordsArray; 
-        gl_Position.xy = transformedPos.xy / transformedPos.z; 
-        highp float c = sqrfr-dot(A, A); 
-        highp float det = b*b - 4.0*fmp2_m_radius2*c; 
-        highp float t; 
-        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); 
-        if (abs(A.y) == abs(A.x)) 
-        if (det >= 0.0) { 
-        in vec2 textureCoordArray; 
-        in vec2 textureCoords; 
-        in vec4 vertexCoordsArray; 
-        index = (dot(linearData.xy, hTexCoords.xy) * linearData.z) * invertedHTexCoordsZ; 
-        lowp vec4 mask = texture2D(maskTexture, textureCoords); 
-        lowp vec4 result = vec4(0.0); 
-        lowp vec4 sample = texture2D(imageTexture, textureCoords); 
-        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; 
-        mediump vec2  viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; 
-        mediump vec2 val = vec2(index, 0.5); 
-        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; 
-        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); 
-        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1.0); 
-        opacity = opacityArray; 
-        out vec2 textureCoords; 
-        out vec4 fragColor; 
-        patternTexCoords.xy = (hTexCoords.xy * 0.125) * invertedHTexCoordsZ; 
-        return customShader(imageTexture, textureCoords); 
-        return fragmentColor; 
-        return patternColor * (1.0 - texture2D(brushTexture, brushTextureCoords).r); 
-        return patternColor * (1.0 - texture2D(brushTexture, patternTexCoords).r); 
-        return patternColor * (1.0 - texture2D(imageTexture, textureCoords).r); 
-        return result; 
-        return sample; 
-        return src * mask.a; 
-        return src * mask; 
-        return src.a * mask; 
-        return texture2D(brushTexture, brushTextureCoords); 
-        return texture2D(brushTexture, fract(brushTextureCoords)); 
-        return texture2D(brushTexture, val); 
-        return texture2D(brushTexture, vec2(t - floor(t), 0.5)); 
-        return texture2D(imageTexture, textureCoords).rrra; 
-        return vec4(0, 0, 0, texture2D(imageTexture, textureCoords).r); 
-        return vec4(0.98, 0.06, 0.75, 1.0); 
-        sample.rgb = sample.rgb * sample.a; 
-        setPosition(); 
-        textureCoords = textureCoordArray; 
-        uniform sampler2D imageTexture; 
-        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); 
-        vec4 srcPixel() 
-        vec4 srcPixel(); 
-        void main() 
-        void main(void) 
-        void setPosition(); 
-        void setPosition(void) 
-        { 
-        }
-        } 
        c #000000
-      </requestedPrivileges>
-      <requestedPrivileges>
-      gl_Position = vec4(matrix * vec3(vertexCoordsArray, 1), 1);
-    #define INVERSE_2PI 0.1591549430918953358 
-    (%d bytes long, but the GL accepts up to %d bytes)
-    </security>
-    <security>
-    attribute highp   vec2      textureCoordArray; 
-    attribute highp   vec2      vertexCoordsArray;
-    attribute highp   vec2      vertexCoordsArray; 
-    attribute highp   vec3      pmvMatrix1; 
-    attribute highp   vec3      pmvMatrix2; 
-    attribute highp   vec3      pmvMatrix3; 
-    attribute highp   vec4      vertexCoordsArray; 
-    attribute highp vec2 vertexCoordsArray; 
-    attribute lowp    float     opacityArray; 
-    lowp vec4 applyMask(lowp vec4 src) 
-    lowp vec4 applyMask(lowp vec4); 
-    lowp vec4 compose(lowp vec4); 
-    lowp vec4 srcPixel() 
-    lowp vec4 srcPixel() { 
-    lowp vec4 srcPixel(); 
-    or ThirdPartySource is not supported by GL_KHR_debug. The group will not be pushed.
-    or ThirdPartySource is not supported by GL_KHR_debug. The message will not be logged.
-    uniform           sampler2D brushTexture; 
-    uniform           sampler2D imageTexture; 
-    uniform           sampler2D maskTexture;
-    uniform          sampler2D imageTexture; 
-    uniform         sampler2D brushTexture; 
-    uniform   highp   float     fmp2_m_radius2; 
-    uniform   highp   float     inverse_2_fmp2_m_radius2; 
-    uniform   highp   float     sqrfr; 
-    uniform   highp   mat3      brushTransform; 
-    uniform   highp   vec2      fmp; 
-    uniform   highp   vec2      invertedTextureSize; 
-    uniform   highp   vec3      linearData; 
-    uniform   lowp    float     globalOpacity; 
-    uniform   lowp    vec4      fragmentColor; 
-    uniform   lowp    vec4      patternColor; 
-    uniform   mediump float     angle; 
-    uniform   mediump vec2      halfViewportSize; 
-    uniform   mediump vec3      bradius; 
-    uniform highp mat3 matrix; 
-    varying   highp   float     b; 
-    varying   highp   vec2      A; 
-    varying   highp   vec2      brushTextureCoords; 
-    varying   highp   vec2      patternTexCoords;
-    varying   highp   vec2      patternTexCoords; 
-    varying   highp   vec2      textureCoords;
-    varying   highp   vec2      textureCoords; 
-    varying   lowp    float     opacity; 
-    varying   mediump float     index; 
-    varying highp   vec2      brushTextureCoords; 
-    void main() 
-    void main(void) 
-    void setPosition() 
-    void setPosition(); 
-    void setPosition(void) 
-    {
-    { 
-    }
-    } 
    ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ 
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
   AWwbr
-  Error Log:
+  Error Log:\n
   OHhoj
-  OpenGL 3.2 and the ARB_timer_query extension
-  OpenGL 3.3 or newer,
   OpenType support missing for script %d
-  or the EXT_timer query extension
- !"#$
- #$()*
- &   ! 
  (offset: 
  -qt-block-indent:
  -qt-list-indent: 
  -qt-list-number-prefix: 
  -qt-list-number-suffix: 
  -qt-user-state:
- 0@P`p
- 9D$$u
- 9D2 
- ;D$4t
- A9@ 
- A9B 
- A9C 
- A9I 
  ABAach
  ABYyso
  AEZzne
@@ -228,72 +40,6 @@
  AVSsw
  AWAay
  AWSaio
- A\][
- A\_^][
- A]A\_^[
- A]A\_^]
- A^A\^
- A^A\_
- A^A\_H
- A^A\_^]
- A^A]A\_[
- A^A]A\_^
- A^A]_
- A^][
- A^^[
- A^^]
- A^_[
- A^_]
- A^_^
- A^_^H
- A^_^][
- A_A\[
- A_A\[H
- A_A\]
- A_A\^
- A_A\^][
- A_A\_
- A_A\_^[
- A_A\_^]
- A_A]A\
- A_A]A\][
- A_A]A\^[
- A_A]A\^]
- A_A]A\_[
- A_A]A\_^
- A_A]^
- A_A]_^]
- A_A^A\
- A_A^A\H
- A_A^A\_]
- A_A^A\_^
- A_A^A\_^H
- A_A^A\_^][
- A_A^A]
- A_A^A]A\[
- A_A^A]A\_
- A_A^A]A\_H
- A_A^A]A\_^[
- A_A^A]A\_^]
- A_A^A]_]
- A_A^A]_^][
- A_A^[
- A_A^[H
- A_A^]
- A_A^]H
- A_A^^
- A_A^^][
- A_A^_
- A_A^_H
- A_A^_][
- A_A^_^[
- A_A^_^]
- A_^[
- A_^]
- A__[
- A__]
- A__^
- A__^][
  BAKkam
  BAKkde
  BATtcy
@@ -301,8 +47,6 @@
  BDNndc
  BDNnsk
  BECcgg
- BGRL
- BGRt
  BISnd
  BITbpy
  BJOojs
@@ -329,12 +73,12 @@
  CEVvls
  CGBbgq
  CRFfrp
+ CRL
  CRLbr
  CRLlt
  CRLlv
  CUGguk
  CUQquz
- D9t$ 
  DABbft
  DAGgag
  DALlmn
@@ -407,7 +151,6 @@
  GUBbxr
  GULli
  GYUuk
- H3E H3E
  HAMmhr
  HANnap
  HCAada
@@ -427,7 +170,6 @@
  HTLlu
  HTMmak
  HULluz
- Hct$P
  IAHhu
  IBEijc
  ICOoj
@@ -539,9 +281,6 @@
  LWMmwr
  LYSsyr
  LZSta
- LcQ(A
- LcT$`E
- Lc\$PI
  MAJjbo
  MALlmo
  MAPpap
@@ -705,7 +444,6 @@
  SDNne
  SGSsgw
  SHXxog
- SHZL
  SHZzh-hant
  SHZzh-hk
  SHZzh-tw
@@ -809,13 +547,11 @@
  ZUQraj
  ZWSst
  ZYTtzm
- ZYXt
- ^][H
- _^[H
+ \t \n \v \f \r 
+ \t?contains@QRect@@QEBA_NAEBVQPoint@@_N@Z
  align="center"
  align="justify"
  align="right"
- baLt
  background-color:
  border-color:
  border-style:
@@ -832,7 +568,6 @@
  font-weight:
  hints:
  hmttn
- iavD
  index: 
  invalid
  left;
@@ -867,7 +602,6 @@
  text-indent:
  text-transform:lowercase;
  text-transform:uppercase;
- trE3
  underline
  using zstream
  vel 
@@ -875,21 +609,17 @@
  which does not have a handle.
  which has Qt::WindowDoesNotAcceptFocus set.
  word-spacing:
-!	?contains@QRect@@QEBA_NHH@Z
 ! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 !1AQaq
-!This program cannot be run in DOS mode.
-!W,m]
-"	" "
+!\t!\n!\v!\f!\r!
+!\t?contains@QRect@@QEBA_NHH@Z
+!\v?end@QByteArray@@QEBAPEBDXZ
 " "!"""#"$"%"&"'"(")"*"+","-"."/"0"1"2"3"4"5"6"7"8"9":";"<"=">"?"@"A"B"C"D"E"F"G"H"I"J"K"L"M"N"O"P"Q"R"S"T"U"V"W"X"Y"Z"["\"]"^"_"`"a"b"c"d"e"f"g"h"i"j"k"l"m"n"o"p"q"r"s"t"u"v"w"x"y"z"{"|"}"~"
 " at line 
 "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRS
 "%s c #%02x%02x%02x"
 "%s c None"
-")"*"
-", type=
 "2BRbr
-"></a>
 "QColor::setAlpha": invalid value %d
 "QColor::setAlphaF": invalid value %g
 "QColor::setBlue": invalid value %d
@@ -898,54 +628,35 @@
 "QColor::setGreenF": invalid value %g
 "QColor::setRed": invalid value %d
 "QColor::setRedF": invalid value %g
-"R		"
-"p#*$
-#	?contains@QRectF@@QEBA_NAEBV1@@Z
-# !########"
+"\r?hour@QTime@@QEBAHXZ
+"\t"\n"\v"\f"\r"
 # #!#"###$#%#&#'#(#)#*#+#,#-#.#/#0#1#2#3#4#5#6#7#8#9#:#;#<#=#>#?#@#A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#[#\#]#^#_#`#a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#{#|#}#~#
-# d"D 
-#######
-########
-#########
-###########
-#################
-###################
-#########################
 #%02x%02x%02x
 #%02x%02x%02x%02x
 #3CScs
-#D$8M
-#D$@A
-#define %s_height %d
-#define %s_width %d
-#define highp
-#define lowp
-#define mediump
-#version 150 core
-#version 150 core 
-$	?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
+#\t#\n#\v#\f#\r#
+#\t?contains@QRectF@@QEBA_NAEBV1@@Z
+#define %s_height %d\n
+#define %s_width %d\n
+#define lowp\n#define mediump\n#define highp\n
+#version 150 core \n        in vec2 textureCoordArray; \n        out vec2 textureCoords; \n        void setPosition(); \n        void main(void) \n        { \n            setPosition(); \n            textureCoords = textureCoordArray; \n        }\n
+#version 150 core \n        vec4 srcPixel(); \n        out vec4 fragColor; \n        void main() \n        { \n            fragColor = srcPixel(); \n        }\n
+#version 150 core\nin vec2 uv;out vec4 fragcolor;uniform sampler2D textureSampler;uniform bool swizzle;uniform float opacity;void main() {   vec4 tmpFragColor = texture(textureSampler, uv);   tmpFragColor.a *= opacity;   fragcolor = swizzle ? tmpFragColor.bgra : tmpFragColor;}
+#version 150 core\nin vec3 vertexCoord;in vec2 textureCoord;out vec2 uv;uniform mat4 vertexTransform;uniform mat3 textureTransform;void main() {   uv = (textureTransform * vec3(textureCoord,1.0)).xy;   gl_Position = vertexTransform * vec4(vertexCoord,1.0);}
 $ $!$"$#$$$%$&$'$($)$*$+$,$-$.$/$0$1$2$3$4$5$6$7$8$9$:$;$<$=$>$?$@$A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$[$\$]$^$_$`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$t$u$v$w$x$y$z${$|$}$~$
 $4DTdt
-$A;vDH
-$F;N<u
-$H;D$
-$IvCD
-$`<`u
-$eman
-$fA9B
+$\t$\n$\v$\f$\r$
+$\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 $qt_theme_
 % %!%"%#%$%%%&%'%(%)%*%+%,%-%.%/%0%1%2%3%4%5%6%7%8%9%:%;%<%=%>%?%@%A%B%C%D%E%F%G%H%I%J%K%L%M%N%O%P%Q%R%S%T%U%V%W%X%Y%Z%[%\%]%^%_%`%a%b%c%d%e%f%g%h%i%j%k%l%m%n%o%p%q%r%s%t%u%v%w%x%y%z%{%|%}%~%
-%%%%EOF
-%%PDF-1.4
-%010d 00000 n 
-%010d 65535 f 
-%1 x %2 in
+%010d 00000 n \n
+%1mm
+%1pt
 %5EUeu
+%\t%\n%\v%\f%\r%
 %d %d %d %d
-%d 0 R
-%d 0 R 
-%d 0 obj
-%d&&'
+%d 0 obj\n
+%d\nendobj\n
 %s invoked with handle==0
 %s is deprecated, ignored
 %s is deprecated, use QScreen::grabWindow() instead. Defaulting to primary screen.
@@ -954,444 +665,55 @@ $qt_theme_
 %s, failed to create dibsection
 %s: GetDIBits() failed to get bitmap bits.
 %s: The platform plugin does not support services.
+%s\nendobj\n
 & &!&"&#&$&%&&&'&(&)&*&+&,&-&.&/&0&1&2&3&4&5&6&7&8&9&:&;&<&=&>&?&@&A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&[&\&]&^&_&`&a&b&c&d&e&f&g&h&i&j&k&l&m&n&o&p&q&r&s&t&u&v&w&x&y&z&{&|&}&~&
-& Z	0 
 &6FVfv
+&Yes
+&\f?first@?$QVector@VQPointF@@@@QEAAAEAVQPointF@@XZ
+&\t&\n&\v&\f&\r&
+&\v?end@QListData@@QEBAPEAPEAXXZ
 &amp;
 &quot;
 ' '!'"'#'$'%'&'''(')'*'+','-'.'/'0'1'2'3'4'5'6'7'8'9':';'<'='>'?'@'A'B'C'D'E'F'G'H'I'J'K'L'M'N'O'P'Q'R'S'T'U'V'W'X'Y'Z'['\']'^'_'`'a'b'c'd'e'f'g'h'i'j'k'l'm'n'o'p'q'r's't'u'v'w'x'y'z'{'|'}'~'
 '7GWgw
-(	?contains@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
+'\f?first@?$QVector@VQPointF@@@@QEBAAEBVQPointF@@XZ
+'\t'\n'\v'\f'\r'
+'\v?end@QSequentialIterable@@QEBA?AUconst_iterator@1@XZ
 ( (!("(#($(%(&('((()(*(+(,(-(.(/(0(1(2(3(4(5(6(7(8(9(:(;(<(=(>(?(@(A(B(C(D(E(F(G(H(I(J(K(L(M(N(O(P(Q(R(S(T(U(V(W(X(Y(Z([(\(](^(_(`(a(b(c(d(e(f(g(h(i(j(k(l(m(n(o(p(q(r(s(t(u(v(w(x(y(z({(|(}(~(
-($$A;
-(,$A;
-(4$A;
-(4$Hc
 (8HXhx
-(<$A;
-(A\^][
-(A\_][
-(A\_^]
-(A]A\
-(A]A\][
-(A]A\_[
-(A^A\
-(A^A]A\[
-(A^A]^[
-(A^A]_[
-(A^A]_^
-(A^[H
-(A^_H
-(A^_][
-(A^_^[
-(A_A\
-(A_A\_^][
-(A_A]A\[
-(A_A]A\^
-(A_A]A\_][
-(A_A]_[
-(A_A^
-(A_A^A\[
-(A_A^A]A\_^][
-(A_A^^]
-(A_A^_^
-(A_A^_^][
-(A__^[
-(D$ A
-(D$ D
-(D$ E3
-(D$ H
-(D$ I
-(D$ f
-(D$0D
-(D$0H
-(D$0I
-(D$0L
-(D$0f
-(D$@D
-(D$@H
-(D$@f
-(D$@r
-(D$PA
-(D$PD
-(D$PH
-(D$PI
-(D$Pf
-(D$`%
-(D$`D
-(D$`H
-(D$`f
-(D$p3
-(D$pH
-(D$pI
-(D$pf
-(L$ D
-(L$ H
-(L$ L
-(L$ r
-(L$0D
-(L$0H
-(L$0fA
-(L$@A
-(L$@D
-(L$@H
-(L$@f
-(L$PD
-(L$PH
-(L$`A
-(L$`D
-(L$`H
-(L$pD
-(L$pH
-(L$pL
-(T$ D
-(T$ H
-(T$ f
-(T$0D
-(T$0H
-(T$@D
-(T$@H
-(T$@L
-(T$PD
-(T$PL
-(T$`D
-(T$`Ic
-(T$pD
-(T$pH
-(\$ D
-(\$0D
-(\$0fA
-(\$@D
-(\$PD
-(\$`D
-(\$pD
-(d$ H
-(d$0D
-(d$@D
-(d$PD
-(d$`D
-(d$`H
-(d$`f
-(d$pD
-(d$pH
-(d$pHc
+(\t(\n(\v(\f(\r(
+(\t?contains@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
+(\v?end@QString@@QEAAPEAVQChar@@XZ
 (dropAction=
 (empty)
-(l$ D
-(l$0D
-(l$@D
-(l$@I
-(l$PA
-(l$PD
-(l$PHc
-(l$Pv
-(l$`D
-(l$pD
-(l$pL
-(l$pr
-(t$ A
-(t$ A;
-(t$ D
-(t$ H
-(t$ Hc
-(t$ L
-(t$ f
-(t$ ff
-(t$03
-(t$0D
-(t$0H
-(t$0I
-(t$0Ic
-(t$0L
-(t$0z
-(t$@3
-(t$@A;
-(t$@D
-(t$@H
-(t$@Ic
-(t$@L
-(t$@f
-(t$P@
-(t$PD
-(t$PH
-(t$PHc
-(t$PI
-(t$PIc
-(t$PL
-(t$PMc
-(t$PfA
-(t$`D
-(t$`H
-(t$`I
-(t$`Ic
-(t$`L
-(t$`Mc
-(t$`f
-(t$`r
-(t$pA
-(t$pD
-(t$pH
-(t$pI
-(t$pL
-(t$pf
-({)F*
-(|$ A;
-(|$ D
-(|$ H
-(|$ I
-(|$ fD
-(|$0D
-(|$0H
-(|$0I
-(|$0fA
-(|$@D
-(|$@D;
-(|$@H
-(|$@I
-(|$@L
-(|$PD
-(|$PH
-(|$PI
-(|$PL
-(|$PfA
-(|$Pr
-(|$`D
-(|$`E
-(|$`H
-(|$`I
-(|$`L
-(|$`fA
-(|$pD
-(|$pH
-(|$pI
-(|$pL
 ) )!)")#)$)%)&)')()))*)+),)-).)/)0)1)2)3)4)5)6)7)8)9):);)<)=)>)?)@)A)B)C)D)E)F)G)H)I)J)K)L)M)N)O)P)Q)R)S)T)U)V)W)X)Y)Z)[)\)])^)_)`)a)b)c)d)e)f)g)h)i)j)k)l)m)n)o)p)q)r)s)t)u)v)w)x)y)z){)|)})~)
 ) delta (
-) last (
-)$$fD
-)4$IcK
 )9IYiy
 ): Attempt to set a screen on a child window.
 ): Cannot change screens (
 ): shader program is not linked
-)<$fE
-)<$ff
-)D$ A
-)D$ D
-)D$ H
-)D$ I
-)D$ Mc
-)D$ t9H
-)D$ u
-)D$0%
-)D$0D
-)D$0E
-)D$0H
-)D$0I
-)D$0Mc
-)D$@D
-)D$@E
-)D$@H
-)D$@f
-)D$@fD
-)D$@r
-)D$PD
-)D$PE
-)D$PH
-)D$PM
-)D$Pr
-)D$`A
-)D$`H
-)D$`f
-)D$pD
-)D$pE
-)D$pvc
-)E@fD
-)L$ A
-)L$ D
-)L$ E
-)L$ H
-)L$ M
-)L$0A
-)L$0D
-)L$0H;
-)L$@A
-)L$@D
-)L$@L
-)L$PA
-)L$PD
-)L$Pf
-)L$`D
-)L$`D+
-)L$`Hc
-)L$`f
-)L$`fD
-)L$pD
-)L$pI
-)L$pfD
-)T$ A
-)T$ D
-)T$ E
-)T$ Lc
-)T$ f
-)T$0D
-)T$0M
-)T$@;
-)T$@fD
-)T$PD
-)T$PE
-)T$PH
-)T$PMc
-)T$`A
-)T$`D
-)T$pD
-)T$pE
-)T$pI
-)\$ D
-)\$0D
-)\$@A
-)\$@D
-)\$@Lc
-)\$PA
-)\$PD
-)\$PfE
-)\$`D
-)\$`H
-)\$`fE
-)\$pD
-)\$pE
-)d$ D
-)d$0D
-)d$@D
-)d$@E
-)d$PD
-)d$PfA
-)d$`D
-)d$`D+
-)d$`fE
-)d$pA
-)d$pD
-)l$ D
-)l$ f
-)l$0D
-)l$@D
-)l$@Hc
-)l$PA
-)l$PD
-)l$PE
-)l$PI
-)l$PfA
-)l$`A
-)l$`D
-)l$pD
-)l$pH
-)t$ A
-)t$ D
-)t$ H
-)t$ I
-)t$ M;
-)t$ f
-)t$0%
-)t$0A
-)t$0D
-)t$0E
-)t$0H
-)t$0I
-)t$0L
-)t$0L+
-)t$0f
-)t$@A
-)t$@D
-)t$@H
-)t$@I
-)t$@L
-)t$@f
-)t$@f;
-)t$P3
-)t$PA
-)t$PD
-)t$PH
-)t$PI
-)t$PI#
-)t$PIc
-)t$PM
-)t$PfD
-)t$`%
-)t$`3
-)t$`A
-)t$`D
-)t$`H
-)t$`I#
-)t$`L
-)t$`L+
-)t$pA
-)t$pD
-)t$pE3
-)t$pH
-)t$pL
-)|$ %
-)|$ A
-)|$ D
-)|$ H
-)|$ I
-)|$ f
-)|$ t
-)|$0A
-)|$0D
-)|$0H
-)|$0H+
-)|$0I
-)|$0f
-)|$@%
-)|$@D
-)|$@E
-)|$@H
-)|$@I
-)|$@v
-)|$P3
-)|$PA
-)|$PD
-)|$PH
-)|$Pf
-)|$`A
-)|$`D
-)|$`H
-)|$`I
-)|$pD
-)|$pMc
+)\n?data@?$QVector@VQPoint@@@@QEAAPEAVQPoint@@XZ
+)\t)\n)\v)\f)\r)
+)\v?end@QString@@QEBAPEBVQChar@@XZ
 * *!*"*#*$*%*&*'*(*)***+*,*-*.*/*0*1*2*3*4*5*6*7*8*9*:*;*<*=*>*?*@*A*B*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*[*\*]*^*_*`*a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*t*u*v*w*x*y*z*{*|*}*~*
-*#+" #
-**	***
 *** Problematic %s shader source code ***
-******
-*******
-**************
-****************
-*********+******
-*********-******
-*******-******
-*******.******
-*******.**.***
+****************\r*
+****************\r***
+**************\r
+**************\r*
+**************\r***
+**************\r/**
+*********+******\r***
+*********-******\r*
+*******.******\r/**
+*******.**.***\r/**
 *.qpf2
-*9|$Xt
 *:JZjz
-*E;N,
-*H;/t
+*\r*******-******\r*
+*\t*\n*\v*\f*\r*
 + +!+"+#+$+%+&+'+(+)+*+++,+-+.+/+0+1+2+3+4+5+6+7+8+9+:+;+<+=+>+?+@+A+B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U+V+W+X+Y+Z+[+\+]+^+_+`+a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+{+|+}+~+
-+;K[k{
-+D$(@
-+D$(f
-+D$0H
-+D$<+D$4
-+L$0+L$8
-+T$4A
-+\$8B
-+\$XA
-+^$+^ 
-+t$,M+
-+t$`3
-+t$`A+
-+t$pD
++\n?data@?$QVector@VQPointF@@@@QEAAPEAVQPointF@@XZ
++\t+\n+\v+\f+\r+
 , ,!,",#,$,%,&,',(,),*,+,,,-,.,/,0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,_,`,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,{,|,},~,
 , alphaBufferSize 
 , ambiguous
@@ -1408,7 +730,6 @@ $qt_theme_
 , flags=
 , formats=
 , greenBufferSize 
-, id=
 , keyboardModifiers=
 , length=
 , localPos=
@@ -1416,7 +737,6 @@ $qt_theme_
 , non-spontaneous
 , options 
 , pointerType=
-, pos=
 , posF=
 , possibleActions=
 , pressure=
@@ -1439,13 +759,9 @@ $qt_theme_
 , vector:(
 , xTilt=
 , yTilt=
-,2A;F
-,<L\l|
-,?D;k0C
-,BD8qx
-,C0Lc
-,Hc/f
-,Hc3H
+,\f?firstNode@QHashData@@QEAAPEAUNode@1@XZ
+,\r?ignore@QEvent@@QEAAXXZ
+,\t,\n,\v,\f,\r,
 ,^@fffffvq@
 ,byteCount=
 ,bytesPerLine=
@@ -1454,13 +770,10 @@ $qt_theme_
 ,depth=
 ,devicePixelRatio=
 ,format=
--	?contains@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 - -!-"-#-$-%-&-'-(-)-*-+-,---.-/-0-1-2-3-4-5-6-7-8-9-:-;-<-=->-?-@-A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z-[-\-]-^-_-`-a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z-{-|-}-~-
--1 3 m
--1 5 m
 -100%
--=M]m}
--a.:/
+-\t-\n-\v-\f-\r-
+-\t?contains@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 -abcdefghijklmnopqrstuvwxyz
 -geometry
 -icon
@@ -1487,13 +800,10 @@ $qt_theme_
 -session
 -testability
 -title
--u#E;
-.	?contains@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 .      c None
 . .!.".#.$.%.&.'.(.).*.+.,.-.../.0.1.2.3.4.5.6.7.8.9.:.;.<.=.>.?.@.A.B.C.D.E.F.G.H.I.J.K.L.M.N.O.P.Q.R.S.T.U.V.W.X.Y.Z.[.\.].^._.`.a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.{.|.}.~.
 .#abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 .00cfg
-.>N^n~
 .?AUPixmapEntry@@
 .?AUQOpenGLFunctionsPrivate@@
 .?AUQOpenGLFunctionsPrivateEx@@
@@ -1847,17 +1157,6 @@ $qt_theme_
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.@ zTuRA
-.@8zzuxf
-.A8/t
-.B z=u;
-.B z`u^
-.B$zSuQ
-.B(z/u-
-.B(zFuD
-.B,z9u7
-.B0z!u
-.B0z,u*
 .CRT$XCA
 .CRT$XCU
 .CRT$XCZ
@@ -1870,12 +1169,11 @@ $qt_theme_
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.H0zXuV
-.I0z7u5
-.I@zNuL
-.P8z*u(f
-.QHz@u>f
 .Transverse
+.\r?imageData@QMimeData@@QEBA?AVQVariant@@XZ
+.\t.\n.\v.\f.\r.
+.\t?contains@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
+.bss
 .data
 .data$r
 .edata
@@ -1886,6 +1184,7 @@ $qt_theme_
 .idata$6
 .notdef
 .pdata
+.png
 .rdata
 .rdata$T
 .rdata$r
@@ -1896,158 +1195,60 @@ $qt_theme_
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
+.svg
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
 / /!/"/#/$/%/&/'/(/)/*/+/,/-/.///0/1/2/3/4/5/6/7/8/9/:/;/</=/>/?/@/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z/[/\/]/^/_/`/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/{/|/}/~/
-/* XPM
-/* XPM */
-/?O_o
-/A <<
-/AIS false
-/Annots %d 0 R
-/AntiAlias true
-/Ascent 
-/BBox [0 0 
-/BaseFont /
-/BitsPerComponent 8
-/Border [0 0 0]
-/Bounds [
-/C0 [
-/C1 [
-/CA 1.0
-/CIDInit /ProcSet findresource begin
-/CIDSystemInfo << /Registry (Adobe) /Ordering (Identity) /Supplement 0 >>
-/CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def
-/CIDToGIDMap /Identity
-/CMapName /Adobe-Identity-UCS def
-/CMapType 2 def
-/CSp /DeviceRGB
+/AntiAlias true\n/Coords [
+/AntiAlias true\n/Domain [0 1]\n/Coords [
+/BitsPerComponent 8\n/ColorSpace %s\n
+/CIDInit /ProcSet findresource begin\n12 dict begin\nbegincmap\n/CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def\n/CMapName /Adobe-Identity-UCS def\n/CMapType 2 def\n1 begincodespacerange\n<0000> <FFFF>\nendcodespacerange\n
 /CSp cs 
-/CSpg /DeviceGray
-/CapHeight 
-/ColorSpace 
-/ColorSpace %s
-/ColorSpace <<
-/Contents %d 0 R
-/Coords [
-/Count %d
-/CreationDate (D:%d%02d%02d%02d%02d%02d)
-/Creator 
-/Decode [1 0]
-/DescendantFonts [
-/Descent 
+/Count %d\n
 /DeviceGray
+/DeviceGray\n
 /DeviceRGB
-/Domain [0 1]
-/E0r(
-/Encode [
-/Encoding /Identity-H
-/ExtGState <<
-/Extend [true true]
-/F%d %d 0 R
-/Filter /DCTDecode
-/Filter /FlateDecode
-/Flags 
-/Font <<
-/FontBBox [
-/FontDescriptor 
-/FontFile2 
-/FontName /Q
-/Function 
-/FunctionType 2
-/FunctionType 3
-/Functions [
-/GSa %d 0 R
-/GSa gs
-/GSa gs /CSp cs /CSp CS
+/DeviceRGB\n
+/F%d %d 0 R\n
+/Filter /DCTDecode\n>>\nstream\n
+/Filter /FlateDecode\n
+/Filter /FlateDecode\n>>\nstream\n
+/GSa gs /CSp cs /CSp CS\n
+/GSa gs\n
 /GState
-/GState%d %d 0 R
-/Group <</S /Transparency >>
-/H;.t
-/HPrZ
-/Height %d
-/Im%d %d 0 R
-/ImageMask true
-/Info %d 0 R
-/ItalicAngle 
-/Kids 
-/L$@D
+/GState%d %d 0 R\n
+/Im%d %d 0 R\n
+/ImageMask true\n/Decode [1 0]\n
 /Length 
-/Length %d 0 R
-/Length1 
-/Mask %d 0 R
-/Matrix [
+/Length %d 0 R\n
+/Mask %d 0 R\n
 /MaxSize
-/MediaBox [0 0 %d %d]
 /MinSize
-/PCSp %d 0 R
 /PCSp cs 
-/P`rN
-/Pages %d 0 R
-/PaintType 
-/Parent %d 0 R
-/Pat%d %d 0 R
-/Pattern <<
-/PatternType 1
-/PatternType 2
-/ProcSet [/PDF /Text /ImageB /ImageC]
-/Producer 
-/Rect [
-/Resources 
-/Resources %d 0 R
-/Resources <<
-/Root %d 0 R
-/S /URI
-/SA true
-/SM 0.02
-/SMask %d 0 R
-/SMask /None>>
+/Pat
+/Pat%d %d 0 R\n
+/Pattern <<\n
+/ProcSet [/PDF /Text /ImageB /ImageC]\n>>\nendobj\n
+/SMask %d 0 R\n
 /Shader
-/Shading 
-/Shading << /Shader
-/ShadingType 2
-/ShadingType 3
 /Size
-/Size %d
-/Span << /ActualText <> >> BDC
-/StemV 
-/Subtype /CIDFontType2
-/Subtype /Form
-/Subtype /Image
-/Subtype /Link
-/Subtype /Type0
+/Span << /ActualText <> >> BDC\n
 /Threshold
-/TilingType 1
-/Title 
-/ToUnicode 
 /Type
-/Type /Action
-/Type /Annot
-/Type /Catalog
-/Type /ExtGState
-/Type /Page
-/Type /Pages
-/Type /Pattern
-/Type /XObject
-/URI (%s)
-/Width %d
-/XObject <<
+/Type /Action\n/S /URI\n/URI (%s)\n
 /XObject << /Im
-/XStep 
-/XXrB
-/YStep 
-/`hr6
+/XObject <<\n
+/\t/\n/\v/\f/\r/
 /accessible
 /accessiblebridge
-/ca 1.0
 /fonts
 /generic
 /iconengines
@@ -2056,99 +1257,49 @@ $qt_theme_
 /platforminputcontexts
 /platforms
 /platformthemes
-0 .3 -1 0 0 Tm
-0 0 -1 0 0 Tm
-0 0 m
+0 .3 -1 0 0 Tm\n
+0 0 -1 0 0 Tm\n
 0 0!0"0#0$0%0&0'0(0)0*0+0,0-0.0/000102030405060708090:0;0<0=0>0?0@0A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~0
-0 4 m
-0 8 l
-0 R >>
-0 R >> 
-0 R>>
+0 J\n2 w\n[2 2] 1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n[2 2] -1 d\n2 0 m\n2 8 l\n6 0 m\n6 8 l\nS\n[2 2] 1 d\n4 0 m\n4 8 l\nS\n
+0 J\n2 w\n[2 6] -1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n
+0 J\n2 w\n[2 6] -1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n[2 2] 1 d\n2 0 m\n2 8 l\n6 0 m\n6 8 l\nS\n[2 6] 3 d\n4 0 m\n4 8 l\nS\n
+0 J\n2 w\n[2 6] -1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n[2 6] 3 d\n4 0 m\n4 8 l\nS\n
+0 J\n2 w\n[6 2] 1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n[2 2] -1 d\n2 0 m\n2 8 l\n6 0 m\n6 8 l\nS\n[6 2] -3 d\n4 0 m\n4 8 l\nS\n
+0 J\n2 w\n[6 2] 1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n[] 0 d\n2 0 m\n2 8 l\n6 0 m\n6 8 l\nS\n[6 2] -3 d\n4 0 m\n4 8 l\nS\n
+0 J\n6 w\n[] 0 d\n4 0 m\n4 8 l\n0 4 m\n8 4 l\nS\n
+0 R>>\nendobj\n
+0 R\n/CIDToGIDMap /Identity\n
+0 R\n/Matrix [
+0 R\n>> endobj\n
+0 R\n>>\nendobj\n
+0 R]\n/ToUnicode 
 00003333
 0123456789
 0123456789ABCDEF
 0123456789ABCDEFfixed point overflow in 
-0;}w~
-0A\^[
-0A\^]
-0A\_^
-0A]A\[
-0A]A\_
-0A]A\_][
-0A]A\_^[
-0A]][
-0A]_[
-0A]_^][
-0A^A\[
-0A^A\]
-0A^A\^
-0A^A\_
-0A^A]A\
-0A^A]A\][
-0A^A]A\_^
-0A^A][
-0A^A]^
-0A^A]_][
-0A^A]_^]
-0A^][
-0A^^[
-0A^^]
-0A^_[
-0A^_]
-0A^_^
-0A^_^[]
-0A^_^[]H
-0A^_^][
-0A_A\[
-0A_A\^
-0A_A\_
-0A_A\_^[
-0A_A]A\
-0A_A]A\][
-0A_A]A\^]
-0A_A]A\_^
-0A_A]]
-0A_A]^
-0A_A^A\
-0A_A^A\][
-0A_A^A\_^][
-0A_A^A]
-0A_A^A]A\]
-0A_A^A]A\^
-0A_A^A]A\^][
-0A_A^A]A\_
-0A_A^A]A\_][
-0A_A^A]A\_^]
-0A_A^A]^[
-0A_A^A]_^
-0A_A^]
-0A_A^^
-0A_A^^][
-0A_A^_
-0A_A^_^]
-0A_A^_^]H
-0A_^[
-0A_^]
-0A__[
-0A__^
-0A__^][
-0_^]H
+0\n?data@QArrayData@@QEAAPEAXXZ
+0\t0\n0\v0\f0\r0
 1 1!1"1#1$1%1&1'1(1)1*1+1,1-1.1/101112131415161718191:1;1<1=1>1?1@1A1B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1X1Y1Z1[1\1]1^1_1`1a1b1c1d1e1f1g1h1i1j1k1l1m1n1o1p1q1r1s1t1u1v1w1x1y1z1{1|1}1~1
-1 begincodespacerange
+1 w\n-1 3 m\n5 9 l\n3 -1 m\n9 5 l\n-1 5 m\n5 -1 l\n3 9 m\n9 3 l\nS\n
+1 w\n-1 3 m\n5 9 l\n3 -1 m\n9 5 l\nS\n
+1 w\n-1 5 m\n5 -1 l\n3 9 m\n9 3 l\nS\n
+1 w\n0 4 m\n8 4 l\nS\n
+1 w\n4 0 m\n4 8 l\n0 4 m\n8 4 l\nS\n
+1 w\n4 0 m\n4 8 l\nS\n
 1.2.5
 1.6.17
+100%
 10x11
 10x13
 10x14
-12 dict begin
 123456789
 12x11
 13 9 3 1
 15x11
 1D array textures are not supported
 1D textures are not supported
-1IcN,
+1\n?data@QArrayData@@QEBAPEBXXZ
+1\t1\n1\v1\f1\r1
 1_q_clearAlert()
 1_q_contextAboutToBeDestroyed()
 1_q_delayedRehighlight()
@@ -2160,295 +1311,124 @@ $qt_theme_
 1handlerDestroyed(QObject*)
 1screenDestroyed(QObject*)
 1shaderDestroyed()
-1t#E3
-2 0 m
 2 2!2"2#2$2%2&2'2(2)2*2+2,2-2.2/202122232425262728292:2;2<2=2>2?2@2A2B2C2D2E2F2G2H2I2J2K2L2M2N2O2P2Q2R2S2T2U2V2W2X2Y2Z2[2\2]2^2_2`2a2b2c2d2e2f2g2h2i2j2k2l2m2n2o2p2q2r2s2t2u2v2w2x2y2z2{2|2}2~2
-2 8 l
-2/SOH
+255\n
+2\n?data@QBuffer@@QEBAAEBVQByteArray@@XZ
+2\t2\n2\v2\f2\r2
 2aboutToBeDestroyed()
 2contentsChange(int,int,int)
 2dataChanged(QModelIndex,QModelIndex)
 2destroyed()
 2destroyed(QObject*)
-2dnkE
 2focusObjectChanged(QObject*)
-2gnbE
-2letE
-2lmtE
-2mlmE
-2mymE
-2rjgE
-2rugE
 2timeout()
-2vedE
-2yroE
-3 -1 m
 3 3!3"3#3$3%3&3'3(3)3*3+3,3-3.3/303132333435363738393:3;3<3=3>3?3@3A3B3C3D3E3F3G3H3I3J3K3L3M3N3O3P3Q3R3S3T3U3V3W3X3Y3Z3[3\3]3^3_3`3a3b3c3d3e3f3g3h3i3j3k3l3m3n3o3p3q3r3s3t3u3v3w3x3y3z3{3|3}3~3
-3 9 m
+3333
 33333
 333333
 333333Z@
 3333UUUU
 3D textures are not supported
-3D$xE
-3H;7t
-3k$A3
-3s$A3
-4 0 m
+3\n?data@QByteArray@@QEAAPEADXZ
+3\t3\n3\v3\f3\r3
+3\v?endInsertColumns@QAbstractItemModel@@IEAAXXZ
 4 4!4"4#4$4%4&4'4(4)4*4+4,4-4.4/404142434445464748494:4;4<4=4>4?4@4A4B4C4D4E4F4G4H4I4J4K4L4M4N4O4P4Q4R4S4T4U4V4W4X4Y4Z4[4\4]4^4_4`4a4b4c4d4e4f4g4h4i4j4k4l4m4n4o4p4q4r4s4t4u4v4w4x4y4z4{4|4}4~4
-4 8 l
-4$fff
+4\t4\n4\v4\f4\r4
+4\v?endInsertRows@QAbstractItemModel@@IEAAXXZ
 4i5U6B738%9
-5 -1 l
 5 5!5"5#5$5%5&5'5(5)5*5+5,5-5.5/505152535455565758595:5;5<5=5>5?5@5A5B5C5D5E5F5G5H5I5J5K5L5M5N5O5P5Q5R5S5T5U5V5W5X5Y5Z5[5\5]5^5_5`5a5b5c5d5e5f5g5h5i5j5k5l5m5n5o5p5q5r5s5t5u5v5w5x5y5z5{5|5}5~5
-5 9 l
-6 0 m
+5\t5\n5\v5\f5\r5
 6 6!6"6#6$6%6&6'6(6)6*6+6,6-6.6/606162636465666768696:6;6<6=6>6?6@6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6Q6R6S6T6U6V6W6X6Y6Z6[6\6]6^6_6`6a6b6c6d6e6f6g6h6i6j6k6l6m6n6o6p6q6r6s6t6u6v6w6x6y6z6{6|6}6~6
-6 8 l
-6M;7u
-6ukE3
-7	?convert@QVariant@@QEAA_NH@Z
+6\n?data@QMimeData@@QEBA?AVQByteArray@@AEBVQString@@@Z
+6\t6\n6\v6\f6\r6
 7 7!7"7#7$7%7&7'7(7)7*7+7,7-7.7/707172737475767778797:7;7<7=7>7?7@7A7B7C7D7E7F7G7H7I7J7K7L7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z7[7\7]7^7_7`7a7b7c7d7e7f7g7h7i7j7k7l7m7n7o7p7q7r7s7t7u7v7w7x7y7z7{7|7}7~7
-7@:{Pt1
-8	?convert@QVariant@@QEBA_NHPEAX@Z
-8	vdH
-8 0 m
-8 4 l
-8 8 l
+7\t7\n7\v7\f7\r7
+7\t?convert@QVariant@@QEAA_NH@Z
 8 8!8"8#8$8%8&8'8(8)8*8+8,8-8.8/808182838485868788898:8;8<8=8>8?8@8A8B8C8D8E8F8G8H8I8J8K8L8M8N8O8P8Q8R8S8T8U8V8W8X8Y8Z8[8\8]8^8_8`8a8b8c8d8e8f8g8h8i8j8k8l8m8n8o8p8q8r8s8t8u8v8w8x8y8z8{8|8}8~8
-8-t-H
-8/v4H
-80|7E
-80|JE
-89vxH
-8@D$ 
-8@D$@f
-8A]A\
-8A]_][
-8A]_^[
-8A^A\
-8A^A]
-8A^A]A\[
-8A^A]A\^
-8A^A]A\_
-8A^A]^[
-8A^^][
-8A^_[]
-8A^_][
-8A^_^[
-8A_A]A\_^]
-8A_A]_[
-8A_A^
-8A_A^A\^
-8A_A^A]A\_^][
-8A_A^A][
-8A_A^A]^
-8A__^[
-8XXt0
-8Zv$H
-8\t{H
-8_^][
-8_tTH
-8`vdH
-8`vtH
-8zv4H
-8zvDH
-9 3 l
-9 5 l
+8\r?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
+8\t8\n8\v8\f8\r8
+8\t?convert@QVariant@@QEBA_NHPEAX@Z
+8x10
 9 9!9"9#9$9%9&9'9(9)9*9+9,9-9.9/909192939495969798999:9;9<9=9>9?9@9A9B9C9D9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9Z9[9\9]9^9_9`9a9b9c9d9e9f9g9h9i9j9k9l9m9n9o9p9q9r9s9t9u9v9w9x9y9z9{9|9}9~9
-90tlH
-9;t+H
-9A(w";
-9B@u!
-9C u&
-9C0t%H
-9C0u&
-9D$ u
-9D$0D
-9D$4t
-9D$4u
-9D$8H
-9D$@u
-9D$P~
-9D$Tu
-9D$\u
-9D$lu
-9D$pt
-9D$t~
-9EstfH
-9F,uNH
-9F0u%
-9G,uNH
-9K(u"
-9L$$D
-9L$0u	
-9L$<A
-9L$Hu2
-9L$Lu 
-9L$Pu)
-9L$Pu3
-9L$Tu!
-9L$Xu*
-9MttX
-9N(uV
-9O(uV
-9T$P}L
-9T$TtoE;
-9T$\}Q
-9XTt7H
-9Xlt%
-9YPtIH
-9\$0H
-9\$0v4H
-9\$4~[A
-9\$8v]H
-9\$8})H
-9\$@v+
-9\$@})H
+9\t9\n9\v9\f9\r9
+9\v?endRemoveColumns@QAbstractItemModel@@IEAAXXZ
 9f@33333
-9l$(s
-9l$,s
-9l$4s
-9s<~*H
-9t$0H
-9t$Xt
-9|$ })I
-9|$8t
-9|$8u:H
-9}X~?
+9x11
+9x12
 : :!:":#:$:%:&:':(:):*:+:,:-:.:/:0:1:2:3:4:5:6:7:8:9:::;:<:=:>:?:@:A:B:C:D:E:F:G:H:I:J:K:L:M:N:O:P:Q:R:S:T:U:V:W:X:Y:Z:[:\:]:^:_:`:a:b:c:d:e:f:g:h:i:j:k:l:m:n:o:p:q:r:s:t:u:v:w:x:y:z:{:|:}:~:
-:#u,A
 :/icons
 :/qt-project.org/styles/commonstyle/images/file-16.png
+:\t:\n:\v:\f:\r:
+:\v?endRemoveRows@QAbstractItemModel@@IEAAXXZ
 :qmemoryfonts/
 ; ;!;";#;$;%;&;';(;);*;+;,;-;.;/;0;1;2;3;4;5;6;7;8;9;:;;;<;=;>;?;@;A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;W;X;Y;Z;[;\;];^;_;`;a;b;c;d;e;f;g;h;i;j;k;l;m;n;o;p;q;r;s;t;u;v;w;x;y;z;{;|;};~;
-;B u;
-;D$8tBH
-;D$`|.
-;D$du
-;D$lt
-;G(}'
-;H;>t
-;J$u3;B
-;L$$H
-;L$$u
-;L$T}
-;L$hD
-;SHtv
-;T$T|
-;T$`H
-;\$0r
-;\$4|
-;\$8r
-;\$@r
-;\$Du
-;l$ u
-;l$Ts)H
-;qXs8
-;qXs;D
-;t$8}
-;t$xun
-;uXsCD
-;{,}GHcS
-;|$4}D
-;|$t|pA;
-;~Xs+D
+;\t;\n;\v;\f;\r;
+;\v?endResetModel@QAbstractItemModel@@IEAAXXZ
 < <!<"<#<$<%<&<'<(<)<*<+<,<-<.</<0<1<2<3<4<5<6<7<8<9<:<;<<<=<><?<@<A<B<C<D<E<F<G<H<I<J<K<L<M<N<O<P<Q<R<S<T<U<V<W<X<Y<Z<[<\<]<^<_<`<a<b<c<d<e<f<g<h<i<j<k<l<m<n<o<p<q<r<s<t<u<v<w<x<y<z<{<|<}<~<
 <!--EndFragment-->
 <!--StartFragment-->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">\n<html><head><meta name="qrichtext" content="1" />
 <!doc
-</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
 </body></html>
 </head><body
-</li>
-</ol>
-</pre>
 </span>
 </style>
 </table>
-</td>
 </td></tr></table>
 </thead>
 </title>
-</tr>
-</ul>
-<0000> <0000> <0000>
-<0000> <FFFF>
-<9~ A
-<< /Length %d >>
-<< /SMask << /S /Alpha /G %d 0 R >> >>
-<< /Type /Font
-<< /Type /FontDescriptor
+<0000> <0000> <0000>\n
+<< /Length %d >>\nstream\n
+<< /SMask << /S /Alpha /G %d 0 R >> >>\nendobj\n
+<< /Type /FontDescriptor\n/FontName /Q
+<< /Type /Font\n/Subtype /CIDFontType2\n/BaseFont /
+<< /Type /Font\n/Subtype /Type0\n/BaseFont /
+<<\n/ColorSpace <<\n/PCSp %d 0 R\n/CSp /DeviceRGB\n/CSpg /DeviceGray\n>>\n/ExtGState <<\n/GSa %d 0 R\n
+<<\n/FunctionType 2\n/Domain [0 1]\n/N 1\n
+<<\n/FunctionType 3\n/Domain [0 1]\n/Bounds [
+<<\n/Length %d 0 R\n
+<<\n/Length1 
+<<\n/ShadingType 2\n/ColorSpace 
+<<\n/ShadingType 3\n/ColorSpace 
+<<\n/Type /Annot\n/Subtype /Link\n/Rect [
+<<\n/Type /Catalog\n/Pages %d 0 R\n>>\nendobj\n
+<<\n/Type /ExtGState\n/SA true\n/SM 0.02\n/ca 1.0\n/CA 1.0\n/AIS false\n/SMask /None>>\nendobj\n
+<<\n/Type /Page\n/Parent %d 0 R\n/Contents %d 0 R\n/Resources %d 0 R\n/Annots %d 0 R\n/MediaBox [0 0 %d %d]\n>>\nendobj\n
+<<\n/Type /Pages\n/Kids \n[\n
+<<\n/Type /Pattern\n/PatternType 1\n/PaintType 
+<<\n/Type /Pattern\n/PatternType 2\n/Shading 
+<<\n/Type /XObject\n/Subtype /Form\n/BBox [0 0 
+<<\n/Type /XObject\n/Subtype /Image\n/Width %d\n/Height %d\n
 <?xml
 <@fffffFD@@
+<X0Z
+<\t<\n<\v<\f<\r<
 <a href="
 <a name="
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-<br />
-<html><head><meta name="qrichtext" content="1" />
+<img
 <meta http-equiv="Content-Type" content="text/html; charset=%1" />
 <meta name="qrichtext" content="1" />
 <ol type="A"
 <ol type="I"
 <ol type="a"
 <ol type="i"
+<pre
 <span style="
-<style type="text/css">
-<table
-<td style="border: none;">
+<style type="text/css">\n
 <thead>
 <title>
 <ul type="circle"
 <ul type="square"
 = =!="=#=$=%=&='=(=)=*=+=,=-=.=/=0=1=2=3=4=5=6=7=8=9=:=;=<===>=?=@=A=B=C=D=E=F=G=H=I=J=K=L=M=N=O=P=Q=R=S=T=U=V=W=X=Y=Z=[=\=]=^=_=`=a=b=c=d=e=f=g=h=i=j=k=l=m=n=o=p=q=r=s=t=u=v=w=x=y=z={=|=}=~=
-=adnKt
-=anaL
-=aveDt
-=ayrO
-=barAu
-=cpeL
-=cryS
-=dnaMu
-=dnuS
-=drhS
-=gahP
-=gnaH
-=gnjR
-=gnoMt
-=hniS
-=hniSt
-=hniZt
-=iahTt
-=ietM
-=ihtKwrt
-=ilaBtK=gneBtD=iguB
-=inaM
-=lmaT
-=lmaTt
-=lmaTtuA;
-=lmaTw>
-=mahCt
-=mkaCw?t]=barA
-=mylM
-=ooaL
-=ookNwWt
-=plhP
-=rbeHt]=avaJt
-=rjuGt
-=rkaT
-=rmhKt
-=rmyM
-=rmym
-=tbiT
-=uleT
-=uruG
-=yyyZt
-=zzzZu
+=\n?data@QString@@QEAAPEAVQChar@@XZ
+=\t=\n=\v=\f=\r=
 > >!>">#>$>%>&>'>(>)>*>+>,>->.>/>0>1>2>3>4>5>6>7>8>9>:>;><>=>>>?>@>A>B>C>D>E>F>G>H>I>J>K>L>M>N>O>P>Q>R>S>T>U>V>W>X>Y>Z>[>\>]>^>_>`>a>b>c>d>e>f>g>h>i>j>k>l>m>n>o>p>q>r>s>t>u>v>w>x>y>z>{>|>}>~>
->> endobj
->ezisuuI
->z8u6H
+>>\n/Length 
+>>\nendobj\n
+>>\nstream\n
+>\n?data@QString@@QEBAPEBVQChar@@XZ
+>\t>\n>\v>\f>\r>
+>\v?endl@@YAAEAVQTextStream@@AEAV1@@Z
 ? ?!?"?#?$?%?&?'?(?)?*?+?,?-?.?/?0?1?2?3?4?5?6?7?8?9?:?;?<?=?>???@?A?B?C?D?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?[?\?]?^?_?`?a?b?c?d?e?f?g?h?i?j?k?l?m?n?o?p?q?r?s?t?u?v?w?x?y?z?{?|?}?~?
 ?333333
 ??0?$QVector@VQPoint@@@@QEAA@AEBV0@@Z
@@ -4771,8 +3751,6 @@ $qt_theme_
 ??_FQValidator@@QEAAXXZ
 ??_FQWindow@@QEAAXXZ
 ??_FTouchPoint@QTouchEvent@@QEAAXXZ
-?I;<$t
-?M;7u
 ?QPIC
 ?QPixelFormat_createYUV@QtPrivate@@YA?AVQPixelFormat@@W4YUVLayout@2@EW4AlphaUsage@2@W4AlphaPosition@2@W4AlphaPremultiplied@2@W4TypeInterpretation@2@W4ByteOrder@2@@Z
 ?QStringList_contains@QtPrivate@@YA_NPEBVQStringList@@AEBVQString@@W4CaseSensitivity@Qt@@@Z
@@ -4780,6 +3758,8 @@ $qt_theme_
 ?QStringList_sort@QtPrivate@@YAXPEAVQStringList@@W4CaseSensitivity@Qt@@@Z
 ?UUUUUU
 ?WindowsVersion@QSysInfo@@2W4WinVersion@1@B
+?\f?flush@QFileDevice@@QEAA_NXZ
+?\t?\n?\v?\f?\r?
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_q_clearAlert@QWindowPrivate@@QEAAXXZ
 ?_q_updateFocusObject@QGuiApplicationPrivate@@QEAAXPEAVQObject@@@Z
@@ -5851,24 +4831,14 @@ $qt_theme_
 ?dashPattern@QDashStroker@@QEBA?AV?$QVector@N@@XZ
 ?dashPattern@QPainterPathStroker@@QEBA?AV?$QVector@N@@XZ
 ?dashPattern@QPen@@QEBA?AV?$QVector@N@@XZ
-?data@?$QVector@VQPoint@@@@QEAAPEAVQPoint@@XZ
-?data@?$QVector@VQPointF@@@@QEAAPEAVQPointF@@XZ
-?data@QArrayData@@QEAAPEAXXZ
-?data@QArrayData@@QEBAPEBXXZ
-?data@QBuffer@@QEBAAEBVQByteArray@@XZ
-?data@QByteArray@@QEAAPEADXZ
 ?data@QMatrix4x4@@QEAAPEAMXZ
 ?data@QMatrix4x4@@QEBAPEBMXZ
-?data@QMimeData@@QEBA?AVQByteArray@@AEBVQString@@@Z
 ?data@QPicture@@QEBAPEBDXZ
 ?data@QPlatformGraphicsBuffer@@UEAAPEAEXZ
 ?data@QPlatformGraphicsBuffer@@UEBAPEBEXZ
 ?data@QStandardItem@@UEBA?AVQVariant@@H@Z
 ?data@QStandardItemModel@@UEBA?AVQVariant@@AEBVQModelIndex@@H@Z
-?data@QString@@QEAAPEAVQChar@@XZ
-?data@QString@@QEBAPEBVQChar@@XZ
 ?data@QVertexIndexVector@@QEBAPEBXXZ
-?dataChanged@QAbstractItemModel@@QEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 ?dataChanged@QClipboard@@QEAAXXZ
 ?data_ptr@QBrush@@QEAAAEAV?$QScopedPointer@UQBrushData@@UQBrushDataPointerDeleter@@@@XZ
 ?data_ptr@QIcon@@QEAAAEAPEAVQIconPrivate@@XZ
@@ -5877,24 +4847,12 @@ $qt_theme_
 ?data_ptr@QPen@@QEAAAEAPEAVQPenPrivate@@XZ
 ?data_ptr@QPicture@@QEAAAEAV?$QExplicitlySharedDataPointer@VQPicturePrivate@@@@XZ
 ?data_ptr@QPixmap@@QEAAAEAV?$QExplicitlySharedDataPointer@VQPlatformPixmap@@@@XZ
-?data_ptr@QVariant@@QEAAAEAUPrivate@1@XZ
-?data_ptr@QVariant@@QEBAAEBUPrivate@1@XZ
-?date@QDateTime@@QEBA?AVQDate@@XZ
-?day@QDate@@QEBAHXZ
 ?dd@QPagedPaintDevice@@IEAAPEAVQPagedPaintDevicePrivate@@XZ
-?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
-?debug@QMessageLogger@@QEBAXPEBDZZ
-?dec@@YAAEAVQTextStream@@AEAV1@@Z
 ?decideFormatFromContent@QImageReader@@QEBA_NXZ
 ?decimals@QDoubleValidator@@QEBAHXZ
 ?decimalsChanged@QDoubleValidator@@QEAAXH@Z
 ?declarationsForNode@StyleSelector@QCss@@QEAA?AV?$QVector@UDeclaration@QCss@@@@TNodePtr@12@PEBD@Z
-?decodeName@QFile@@SA?AVQString@@AEBVQByteArray@@@Z
 ?decodeString@QKeySequence@@CAHAEBVQString@@@Z
-?decomposition@QChar@@SA?AVQString@@I@Z
-?decompositionTag@QChar@@QEBA?AW4Decomposition@1@XZ
-?decompositionTag@QChar@@SA?AW4Decomposition@1@I@Z
 ?decreaseAction@QAccessibleActionInterface@@SAAEBVQString@@XZ
 ?defaultAction@QDrag@@QEBA?AW4DropAction@Qt@@XZ
 ?defaultAction@QPlatformDrag@@UEBA?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
@@ -5928,7 +4886,6 @@ $qt_theme_
 ?deleteChar@QTextCursor@@QEAAXXZ
 ?deleteInterface@QAccessibleCache@@QEAAXIPEAVQObject@@@Z
 ?deleteItems@QGridLayoutEngine@@QEAAXXZ
-?deleteLater@QObject@@QEAAXXZ
 ?deletePendingResources@QOpenGLContextGroupPrivate@@QEAAXPEAVQOpenGLContext@@@Z
 ?deletePreviousChar@QTextCursor@@QEAAXXZ
 ?deleteQGLContext@QOpenGLContext@@AEAAXXZ
@@ -5966,14 +4923,12 @@ $qt_theme_
 ?destroy@QPlatformIntegration@@UEAAXXZ
 ?destroy@QWindow@@QEAAXXZ
 ?destroyScreen@QPlatformIntegration@@IEAAXPEAVQPlatformScreen@@@Z
-?destroyed@QObject@@QEAAXPEAV1@@Z
 ?det@QTransform@@QEBANXZ
 ?detach@QBrush@@AEAAXW4BrushStyle@Qt@@@Z
 ?detach@QFont@@AEAAXXZ
 ?detach@QGlyphRun@@AEAAXXZ
 ?detach@QIcon@@QEAAXXZ
 ?detach@QImage@@QEAAXXZ
-?detach@QListData@@QEAAPEAUData@1@H@Z
 ?detach@QOpenGLFramebufferObjectFormat@@AEAAXXZ
 ?detach@QPainterPath@@AEAAXXZ
 ?detach@QPalette@@AEAAXXZ
@@ -5985,8 +4940,6 @@ $qt_theme_
 ?detach@QSupportedWritingSystems@@AEAAXXZ
 ?detach@QSurfaceFormat@@AEAAXXZ
 ?detachButKeepEngineData@QFontPrivate@@SAXPEAVQFont@@@Z
-?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
 ?detach_helper@QPainterPath@@AEAAXXZ
 ?detailedText@QMessageDialogOptions@@QEBA?AVQString@@XZ
 ?determinant@QMatrix4x4@@QEBANXZ
@@ -5997,7 +4950,6 @@ $qt_theme_
 ?devType@QPaintDevice@@UEBAHXZ
 ?devType@QPicture@@UEBAHXZ
 ?devType@QPixmap@@UEBAHXZ
-?device@QDataStream@@QEBAPEAVQIODevice@@XZ
 ?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
 ?device@QImageReader@@QEBAPEAVQIODevice@@XZ
 ?device@QImageWriter@@QEBAPEAVQIODevice@@XZ
@@ -6027,7 +4979,6 @@ $qt_theme_
 ?deviceTransform@QPainter@@QEBAAEBVQTransform@@XZ
 ?deviceType@QTouchEvent@@QEBA?AW4DeviceType@1@XZ
 ?devices@QTouchDevice@@SA?AV?$QList@PEBVQTouchDevice@@@@XZ
-?direction@QChar@@SA?AW4Direction@1@I@Z
 ?directoryEntered@QPlatformFileDialogHelper@@QEAAXAEBVQUrl@@@Z
 ?disableAttributeArray@QOpenGLShaderProgram@@QEAAXH@Z
 ?disableAttributeArray@QOpenGLShaderProgram@@QEAAXPEBD@Z
@@ -6036,16 +4987,11 @@ $qt_theme_
 ?disableMessages@QOpenGLDebugLogger@@QEAAXV?$QFlags@W4Source@QOpenGLDebugMessage@@@@V?$QFlags@W4Type@QOpenGLDebugMessage@@@@V?$QFlags@W4Severity@QOpenGLDebugMessage@@@@@Z
 ?discardCommand@QPlatformSessionManager@@UEBA?AVQStringList@@XZ
 ?discardCommand@QSessionManager@@QEBA?AVQStringList@@XZ
-?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
 ?disconnectFromScreen@QWindowPrivate@@QEAAXXZ
-?disconnectNotify@QBuffer@@MEAAXAEBVQMetaMethod@@@Z
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?dismiss@QPlatformMenu@@UEAAXXZ
 ?dispatchEvent@QShortcutMap@@AEAAXPEAVQKeyEvent@@@Z
 ?displayName@QDesktopServices@@SA?AVQString@@W4StandardLocation@1@@Z
 ?displayName@QGuiApplicationPrivate@@2PEAVQString@@EA
-?displayName@QStandardPaths@@SA?AVQString@@W4StandardLocation@1@@Z
-?dispose@QListData@@SAXPEAUData@1@@Z
 ?distanceToLine@QVector2D@@QEBAMAEBV1@0@Z
 ?distanceToLine@QVector3D@@QEBAMAEBV1@0@Z
 ?distanceToPlane@QVector3D@@QEBAMAEBV1@00@Z
@@ -6291,25 +5237,19 @@ $qt_theme_
 ?drop@QBasicDrag@@MEAAXPEBVQMouseEvent@@@Z
 ?drop@QSimpleDrag@@MEAAXPEBVQMouseEvent@@@Z
 ?dropAction@QDropEvent@@QEBA?AW4DropAction@Qt@@XZ
-?dropMimeData@QAbstractItemModel@@UEAA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
 ?dropMimeData@QStandardItemModel@@UEAA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
-?dx@QLineF@@QEBANXZ
 ?dx@QMatrix@@QEBANXZ
 ?dx@QTransform@@QEBANXZ
-?dy@QLineF@@QEBANXZ
 ?dy@QMatrix@@QEBANXZ
 ?dy@QTransform@@QEBANXZ
 ?dynamicConstraintOrientation@QGridLayoutItem@@UEBA?AW4Orientation@Qt@@XZ
 ?dynamicDocumentSize@QTextDocumentLayout@@QEBA?AVQSizeF@@XZ
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
 ?dynamicPageCount@QTextDocumentLayout@@QEBAHXZ
 ?editableTextInterface@QAccessibleInterface@@QEAAPEAVQAccessibleEditableTextInterface@@XZ
 ?effectiveAlignment@QGridLayoutEngine@@QEBA?AV?$QFlags@W4AlignmentFlag@Qt@@@@PEBVQGridLayoutItem@@@Z
 ?effectiveFirstRow@QGridLayoutEngine@@QEBAHW4Orientation@Qt@@@Z
 ?effectiveLastRow@QGridLayoutEngine@@QEBAHW4Orientation@Qt@@@Z
 ?effectiveMaxSize@QGridLayoutItem@@QEBA?AVQSizeF@@AEBV2@@Z
-?elapsed@QElapsedTimer@@QEBA_JXZ
-?elapsed@QTime@@QEBAHXZ
 ?elementAt@QPainterPath@@QEBA?AVElement@1@H@Z
 ?elementCount@QDashedStrokeProcessor@@QEBAHXZ
 ?elementCount@QPainterPath@@QEBAHXZ
@@ -6347,21 +5287,14 @@ $qt_theme_
 ?enableEventFilter@QBasicDrag@@AEAAXXZ
 ?enableMessages@QOpenGLDebugLogger@@QEAAXAEBV?$QVector@I@@V?$QFlags@W4Source@QOpenGLDebugMessage@@@@V?$QFlags@W4Type@QOpenGLDebugMessage@@@@@Z
 ?enableMessages@QOpenGLDebugLogger@@QEAAXV?$QFlags@W4Source@QOpenGLDebugMessage@@@@V?$QFlags@W4Type@QOpenGLDebugMessage@@@@V?$QFlags@W4Severity@QOpenGLDebugMessage@@@@@Z
-?encodeName@QFile@@SA?AVQByteArray@@AEBVQString@@@Z
 ?encodeString@QKeySequence@@CA?AVQString@@H@Z
-?end@?$QVector@VQPoint@@@@QEBAPEBVQPoint@@XZ
 ?end@QBlitterPaintEngine@@UEAA_NXZ
-?end@QByteArray@@QEBAPEBDXZ
 ?end@QDashStroker@@UEAAXXZ
-?end@QListData@@QEBAPEAPEAXXZ
 ?end@QOpenGL2PaintEngineEx@@UEAA_NXZ
 ?end@QOpenGLTimerQuery@@QEAAXXZ
 ?end@QPainter@@QEAA_NXZ
 ?end@QPdfEngine@@UEAA_NXZ
 ?end@QRasterPaintEngine@@UEAA_NXZ
-?end@QSequentialIterable@@QEBA?AUconst_iterator@1@XZ
-?end@QString@@QEAAPEAVQChar@@XZ
-?end@QString@@QEBAPEBVQChar@@XZ
 ?end@QStrokerOps@@UEAAXXZ
 ?end@QTextBlock@@QEBA?AViterator@1@XZ
 ?end@QTextDocument@@QEBA?AVQTextBlock@@XZ
@@ -6371,8 +5304,6 @@ $qt_theme_
 ?endCapOrJoinClosed@QTriangulatingStroker@@AEAAXPEBN0_N1@Z
 ?endDrag@QBasicDrag@@MEAAXXZ
 ?endEditBlock@QTextCursor@@QEAAXXZ
-?endInsertColumns@QAbstractItemModel@@IEAAXXZ
-?endInsertRows@QAbstractItemModel@@IEAAXXZ
 ?endLayout@QTextLayout@@QEAAXXZ
 ?endNativePainting@QOpenGL2PaintEngineEx@@UEAAXXZ
 ?endNativePainting@QPaintEngineEx@@UEAAXXZ
@@ -6382,15 +5313,7 @@ $qt_theme_
 ?endPaint@QOpenGLPaintDevicePrivate@@UEAAXXZ
 ?endPaint@QPaintDeviceWindowPrivate@@UEAAXXZ
 ?endPaint@QPlatformBackingStore@@UEAAXXZ
-?endRemoveColumns@QAbstractItemModel@@IEAAXXZ
-?endRemoveRows@QAbstractItemModel@@IEAAXXZ
-?endResetModel@QAbstractItemModel@@IEAAXXZ
 ?endTangent@QBezier@@QEBA?AVQLineF@@XZ
-?endl@@YAAEAVQTextStream@@AEAV1@@Z
-?endsWith@QByteArray@@QEBA_ND@Z
-?endsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
-?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
-?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 ?engine@QFontEngineMulti@@QEBAPEAVQFontEngine@@H@Z
 ?engine@QTextLayout@@QEBAPEAVQTextEngine@@XZ
 ?engineForScript@QFontPrivate@@QEBAPEAVQFontEngine@@H@Z
@@ -6414,43 +5337,29 @@ $qt_theme_
 ?ensureRasterState@QRasterPaintEngine@@AEAAXXZ
 ?ensureSpace@QTextEngine@@QEBA_NH@Z
 ?entryInfoAt@QZipReader@@QEBA?AUFileInfo@1@H@Z
-?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 ?eor@QRegion@@QEBA?AV1@AEBV1@@Z
 ?equals@Gpu@QOpenGLConfig@@QEBA_NAEBU12@@Z
-?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
 ?eraseRect@QPainter@@QEAAXAEBVQRect@@@Z
 ?eraseRect@QPainter@@QEAAXAEBVQRectF@@@Z
 ?eraseRect@QPainter@@QEAAXHHHH@Z
-?error@QFileDevice@@QEBA?AW4FileError@1@XZ
 ?error@QImageReader@@QEBA?AW4ImageReaderError@1@XZ
 ?error@QImageWriter@@QEBA?AW4ImageWriterError@1@XZ
 ?error@QMovie@@QEAAXW4ImageReaderError@QImageReader@@@Z
-?errorString@QIODevice@@QEBA?AVQString@@XZ
 ?errorString@QImageReader@@QEBA?AVQString@@XZ
 ?errorString@QImageWriter@@QEBA?AVQString@@XZ
-?errorString@QJsonParseError@@QEBA?AVQString@@XZ
-?errorString@QLibrary@@QEBA?AVQString@@XZ
 ?errorSymbol@Parser@QCss@@QEAA?AUSymbol@2@XZ
-?event@QCoreApplication@@MEAA_NPEAVQEvent@@@Z
-?event@QEventLoop@@UEAA_NPEAVQEvent@@@Z
 ?event@QGuiApplication@@MEAA_NPEAVQEvent@@@Z
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
 ?event@QPaintDeviceWindow@@MEAA_NPEAVQEvent@@@Z
 ?event@QWindow@@MEAA_NPEAVQEvent@@@Z
-?eventDispatcher@QCoreApplicationPrivate@@2PEAVQAbstractEventDispatcher@@EA
 ?eventDispatcherReady@QGuiApplicationPrivate@@UEAAXXZ
 ?eventFilter@QBasicDrag@@UEAA_NPEAVQObject@@PEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?eventReceiver@QWindowPrivate@@UEAAPEAVQWindow@@XZ
 ?eventTime@QWindowSystemInterfacePrivate@@2VQElapsedTimer@@A
 ?eventsFlushed@QWindowSystemInterfacePrivate@@2VQWaitCondition@@A
 ?exactMatch@QFont@@QEBA_NXZ
 ?exactMatch@QFontInfo@@QEBA_NXZ
-?exactMatch@QRegExp@@QEBA_NAEBVQString@@@Z
-?exec@QCoreApplication@@SAHXZ
 ?exec@QDrag@@QEAA?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@@Z
 ?exec@QDrag@@QEAA?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@W423@@Z
-?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
 ?exec@QGuiApplication@@SAHXZ
 ?exec@QPicture@@AEAA_NPEAVQPainter@@AEAVQDataStream@@H@Z
 ?exec@QRegion@@AEAAXAEBVQByteArray@@HW4ByteOrder@QDataStream@@@Z
@@ -6458,15 +5367,9 @@ $qt_theme_
 ?executePlatformPixmapDestructionHooks@QImagePixmapCleanupHooks@@SAXPEAVQPlatformPixmap@@@Z
 ?executePlatformPixmapModificationHooks@QImagePixmapCleanupHooks@@SAXPEAVQPlatformPixmap@@@Z
 ?executedDropAction@QBasicDrag@@IEBA?AW4DropAction@Qt@@XZ
-?exists@QDir@@QEBA_NAEBVQString@@@Z
-?exists@QFile@@QEBA_NXZ
-?exists@QFile@@SA_NAEBVQString@@@Z
-?exists@QFileInfo@@QEBA_NXZ
 ?exists@QZipReader@@QEBA_NXZ
 ?exists@QZipWriter@@QEBA_NXZ
-?exit@QEventLoop@@QEAAXH@Z
 ?exitDndEventLoop@QBasicDrag@@AEAAXXZ
-?expandedTo@QSize@@QEBA?AV1@AEBV1@@Z
 ?expandingDirections@QLayoutPolicy@@QEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
 ?exposeEvent@QPaintDeviceWindow@@MEAAXPEAVQExposeEvent@@@Z
 ?exposeEvent@QWindow@@MEAAXPEAVQExposeEvent@@@Z
@@ -6495,26 +5398,20 @@ $qt_theme_
 ?family@QFont@@QEBA?AVQString@@XZ
 ?family@QFontInfo@@QEBA?AVQString@@XZ
 ?familyName@QRawFont@@QEBA?AVQString@@XZ
-?fatal@QMessageLogger@@QEBAXPEBDZZ
-?fetchMore@QAbstractItemModel@@UEAAXAEBVQModelIndex@@@Z
 ?ffffff
 ?file@QFileOpenEvent@@QEBA?AVQString@@XZ
 ?fileData@QZipReader@@QEBA?AVQByteArray@@AEBVQString@@@Z
 ?fileIconPixmap@QPlatformTheme@@UEBA?AVQPixmap@@AEBVQFileInfo@@AEBVQSizeF@@V?$QFlags@W4IconOption@QPlatformTheme@@@@@Z
 ?fileInfoList@QZipReader@@QEBA?AV?$QList@UFileInfo@QZipReader@@@@XZ
 ?fileMode@QFileDialogOptions@@QEBA?AW4FileMode@1@XZ
-?fileName@QFile@@UEBA?AVQString@@XZ
 ?fileName@QImageReader@@QEBA?AVQString@@XZ
 ?fileName@QImageWriter@@QEBA?AVQString@@XZ
 ?fileName@QMovie@@QEBA?AVQString@@XZ
 ?fileName@QPictureIO@@QEBA?AVQString@@XZ
-?fileName@QTemporaryFile@@UEBA?AVQString@@XZ
 ?fileName@QTextDocumentWriter@@QEBA?AVQString@@XZ
-?filePath@QDir@@QEBA?AVQString@@AEBV2@@Z
 ?filePath@QWindow@@QEBA?AVQString@@XZ
 ?fileSelected@QPlatformFileDialogHelper@@QEAAXAEBVQUrl@@@Z
 ?filesSelected@QPlatformFileDialogHelper@@QEAAXAEBV?$QList@VQUrl@@@@@Z
-?fill@QBitArray@@QEAA_N_NH@Z
 ?fill@QBlittablePlatformPixmap@@UEAAXAEBVQColor@@@Z
 ?fill@QBlitterPaintEngine@@UEAAXAEBVQVectorPath@@AEBVQBrush@@@Z
 ?fill@QImage@@QEAAXAEBVQColor@@@Z
@@ -6584,8 +5481,6 @@ $qt_theme_
 ?findItems@QStandardItemModel@@QEBA?AV?$QList@PEAVQStandardItem@@@@AEBVQString@@V?$QFlags@W4MatchFlag@Qt@@@@H@Z
 ?findProgramInCache@QOpenGLEngineSharedShaders@@QEAAPEAVQOpenGLEngineShaderProg@@AEBV2@@Z
 ?finished@QMovie@@QEAAXXZ
-?first@?$QVector@VQPointF@@@@QEAAAEAVQPointF@@XZ
-?first@?$QVector@VQPointF@@@@QEBAAEBVQPointF@@XZ
 ?firstBlock@QTextDocument@@QEBA?AVQTextBlock@@XZ
 ?firstColumn@QAccessibleTableModelChangeEvent@@QEBAHXZ
 ?firstColumn@QGridLayoutItem@@QEBAHW4Orientation@Qt@@@Z
@@ -6593,7 +5488,6 @@ $qt_theme_
 ?firstCursorPosition@QTextFrame@@QEBA?AVQTextCursor@@XZ
 ?firstCursorPosition@QTextTableCell@@QEBA?AVQTextCursor@@XZ
 ?firstLineNumber@QTextBlock@@QEBAHXZ
-?firstNode@QHashData@@QEAAPEAUNode@1@XZ
 ?firstPosition@QTextFrame@@QEBAHXZ
 ?firstPosition@QTextTableCell@@QEBAHXZ
 ?firstRow@QAccessibleTableModelChangeEvent@@QEBAHXZ
@@ -6615,7 +5509,6 @@ $qt_theme_
 ?flags@TouchPoint@QTouchEvent@@QEBA?AV?$QFlags@W4InfoFlag@TouchPoint@QTouchEvent@@@@XZ
 ?flipCoordinates@QMatrix4x4@@QEAAXXZ
 ?flush@QBackingStore@@QEAAXAEBVQRegion@@PEAVQWindow@@AEBVQPoint@@@Z
-?flush@QFileDevice@@QEAA_NXZ
 ?flush@QPaintDeviceWindowPrivate@@UEAAXAEBVQRegion@@@Z
 ?flushDetachedPixmaps@QPixmapCache@@SAXXZ
 ?flushEventMutex@QWindowSystemInterfacePrivate@@2VQMutex@@A
@@ -6711,7 +5604,6 @@ $qt_theme_
 ?formatIndex@QTextObject@@QEBAHXZ
 ?formatWindowTitle@QPlatformWindow@@KA?AVQString@@AEBV2@0@Z
 ?formats@QInternalMimeData@@UEBA?AVQStringList@@XZ
-?formats@QMimeData@@UEBA?AVQStringList@@XZ
 ?formats@QTextEngine@@QEBA?AV?$QList@UFormatRange@QTextLayout@@@@XZ
 ?formatsHelper@QInternalMimeData@@SA?AVQStringList@@PEBVQMimeData@@@Z
 ?fragment@iterator@QTextBlock@@QEBA?AVQTextFragment@@XZ
@@ -6729,14 +5621,9 @@ $qt_theme_
 ?frameStrutEventsEnabled@QPlatformWindow@@UEBA_NXZ
 ?frameSwapped@QOpenGLWindow@@QEAAXXZ
 ?free@QOpenGLSharedResource@@QEAAXXZ
-?freeData@QMapDataBase@@SAXPEAU1@@Z
 ?freeMemory@QTextEngine@@QEAAXXZ
-?freeNode@QHashData@@QEAAXPEAX@Z
-?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
 ?freeResource@QOpenGLSharedResourceGuard@@MEAAXPEAVQOpenGLContext@@@Z
 ?freeResource@QOpenGLTextureCache@@UEAAXPEAVQOpenGLContext@@@Z
-?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
-?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
 ?fromAxes@QQuaternion@@SA?AV1@AEBVQVector3D@@00@Z
 ?fromAxisAndAngle@QQuaternion@@SA?AV1@AEBVQVector3D@@M@Z
 ?fromAxisAndAngle@QQuaternion@@SA?AV1@MMMM@Z
@@ -6772,17 +5659,8 @@ $qt_theme_
 ?fromImageReader@QPixmap@@SA?AV1@PEAVQImageReader@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromImageReader@QPlatformPixmap@@UEAAXPEAVQImageReader@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromImageReader@QRasterPlatformPixmap@@UEAAXPEAVQImageReader@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromJson@QJsonDocument@@SA?AV1@AEBVQByteArray@@PEAUQJsonParseError@@@Z
-?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
-?fromLatin1@QString@@SA?AV1@PEBDH@Z
-?fromLocal8Bit@QString@@SA?AV1@AEBVQByteArray@@@Z
-?fromLocal8Bit@QString@@SA?AV1@PEBDH@Z
-?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
-?fromNativeSeparators@QDir@@SA?AVQString@@AEBV2@@Z
 ?fromPlainText@QTextDocumentFragment@@SA?AV1@AEBVQString@@@Z
 ?fromPoints@QBezier@@SA?AV1@AEBVQPointF@@000@Z
-?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
-?fromRawData@QString@@SA?AV1@PEBVQChar@@H@Z
 ?fromRgb@QColor@@SA?AV1@HHHH@Z
 ?fromRgb@QColor@@SA?AV1@I@Z
 ?fromRgbF@QColor@@SA?AV1@NNNN@Z
@@ -6791,12 +5669,8 @@ $qt_theme_
 ?fromScale@QTransform@@SA?AV1@NN@Z
 ?fromString@QFont@@QEAA_NAEBVQString@@@Z
 ?fromString@QKeySequence@@SA?AV1@AEBVQString@@W4SequenceFormat@1@@Z
-?fromString@QVersionNumber@@SA?AV1@AEBVQString@@PEAH@Z
 ?fromTheme@QIcon@@SA?AV1@AEBVQString@@AEBV1@@Z
 ?fromTranslate@QTransform@@SA?AV1@NN@Z
-?fromUcs4@QString@@SA?AV1@PEBIH@Z
-?fromUtf8@QString@@SA?AV1@AEBVQByteArray@@@Z
-?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?fromWinId@QWindow@@SAPEAV1@_K@Z
 ?frustum@QMatrix4x4@@QEAAXMMMMMM@Z
 ?fullRect@QPageLayout@@QEBA?AVQRectF@@W4Unit@1@@Z
@@ -6823,19 +5697,15 @@ $qt_theme_
 ?gestureType@QNativeGestureEvent@@QEBA?AW4NativeGestureType@Qt@@XZ
 ?get@QFontPrivate@@SAPEAV1@AEBVQFont@@@Z
 ?get@QInputDeviceManagerPrivate@@SAPEAV1@PEAVQInputDeviceManager@@@Z
-?get@QObjectPrivate@@SAPEAV1@PEAVQObject@@@Z
 ?get@QOpenGLContextPrivate@@SAPEAV1@PEAVQOpenGLContext@@@Z
 ?get@QOpenGLPaintDevicePrivate@@SAPEAV1@PEAVQOpenGLPaintDevice@@@Z
 ?get@QPagedPaintDevicePrivate@@SAPEAV1@PEAVQPagedPaintDevice@@@Z
 ?get@QRawFontPrivate@@SAPEAV1@AEBVQRawFont@@@Z
-?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?get@QWindowPrivate@@SAPEAV1@PEAVQWindow@@@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?getAxes@QQuaternion@@QEBAXPEAVQVector3D@@00@Z
 ?getAxisAndAngle@QQuaternion@@QEBAXPEAM000@Z
 ?getAxisAndAngle@QQuaternion@@QEBAXPEAVQVector3D@@PEAM@Z
 ?getCMap@QFontEngine@@SAPEBEPEBEIPEA_NPEAH@Z
-?getChar@QIODevice@@QEAA_NPEAD@Z
 ?getClusterLength@QTextEngine@@AEAAHPEAGPEBUQCharAttributes@@HHHPEAH@Z
 ?getCmyk@QColor@@QEAAXPEAH0000@Z
 ?getCmykF@QColor@@QEAAXPEAN0000@Z
@@ -22186,16 +21056,12 @@ $qt_theme_
 ?hasFeature@QOpenGLTexture@@SA_NW4Feature@1@@Z
 ?hasFeature@QPaintEngine@@QEBA_NV?$QFlags@W4PaintEngineFeature@QPaintEngine@@@@@Z
 ?hasFormat@QInternalMimeData@@UEBA_NAEBVQString@@@Z
-?hasFormat@QMimeData@@UEBA_NAEBVQString@@@Z
 ?hasFormatCached@QTextFormatCollection@@QEBA_NAEBVQTextFormat@@@Z
 ?hasFormatHelper@QInternalMimeData@@SA_NAEBVQString@@PEBVQMimeData@@@Z
 ?hasFormats@QTextEngine@@QEBA_NXZ
-?hasFragment@QUrl@@QEBA_NXZ
 ?hasHeightForWidth@QLayoutPolicy@@QEBA_NXZ
-?hasImage@QMimeData@@QEBA_NXZ
 ?hasImplicitClose@QVectorPath@@QEBA_NXZ
 ?hasInternalCaching@QFontEngine@@UEBA_NXZ
-?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
 ?hasNext@Parser@QCss@@QEBA_NXZ
 ?hasOpenGLExtension@QOpenGLExtensions@@QEBA_NW4OpenGLExtension@1@@Z
 ?hasOpenGLFeature@QOpenGLFunctions@@QEBA_NW4OpenGLFeature@1@@Z
@@ -22203,14 +21069,11 @@ $qt_theme_
 ?hasOpenGLFramebufferObjects@QOpenGLFramebufferObject@@SA_NXZ
 ?hasOpenGLShaderPrograms@QOpenGLShaderProgram@@SA_NPEAVQOpenGLContext@@@Z
 ?hasOpenGLShaders@QOpenGLShader@@SA_NV?$QFlags@W4ShaderTypeBit@QOpenGLShader@@@@PEAVQOpenGLContext@@@Z
-?hasPartialMatch@QRegularExpressionMatch@@QEBA_NXZ
 ?hasPendingGlyphs@QTextureGlyphCache@@QEBA_NXZ
 ?hasProfiles@QOpenGLVersionProfile@@QEBA_NXZ
 ?hasProperty@QTextFormat@@QEBA_NH@Z
-?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
 ?hasSelection@QTextCursor@@QEBA_NXZ
 ?hasShortcutForKeySequence@QShortcutMap@@QEBA_NAEBVQKeySequence@@@Z
-?hasShrunk@QHashData@@QEAAXXZ
 ?hasStaticContents@QBackingStore@@QEBA_NXZ
 ?hasThemeIcon@QIcon@@SA_NAEBVQString@@@Z
 ?hasUnreliableGlyphOutline@QFontEngine@@UEBA_NXZ
@@ -22224,9 +21087,7 @@ $qt_theme_
 ?hb_qt_get_unicode_funcs@@YAPEAUhb_unicode_funcs_t@@XZ
 ?hb_qt_script_from_script@@YA?AW4Script@QChar@@W4hb_script_t@@@Z
 ?hb_qt_script_to_script@@YA?AW4hb_script_t@@W4Script@QChar@@@Z
-?headerData@QAbstractItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
 ?headerData@QStandardItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
-?headerDataChanged@QAbstractItemModel@@QEAAXW4Orientation@Qt@@HH@Z
 ?headerRowCount@QTextTableFormat@@QEBAHXZ
 ?height@QDistanceField@@QEBAHXZ
 ?height@QFontMetrics@@QEBAHXZ
@@ -22238,10 +21099,6 @@ $qt_theme_
 ?height@QPaintDevice@@QEBAHXZ
 ?height@QPixmap@@QEBAHXZ
 ?height@QPlatformPixmap@@QEBAHXZ
-?height@QRect@@QEBAHXZ
-?height@QRectF@@QEBANXZ
-?height@QSize@@QEBAHXZ
-?height@QSizeF@@QEBANXZ
 ?height@QTextFrameFormat@@QEBA?AVQTextLength@@XZ
 ?height@QTextImageFormat@@QEBANXZ
 ?height@QTextInlineObject@@QEBANXZ
@@ -22249,7 +21106,6 @@ $qt_theme_
 ?height@QWindow@@QEBAHXZ
 ?heightChanged@QWindow@@QEAAXH@Z
 ?heightMM@QPaintDevice@@QEBAHXZ
-?hex@@YAAEAVQTextStream@@AEAV1@@Z
 ?hiResGlobalPos@QTabletEvent@@QEBAAEBVQPointF@@XZ
 ?hiResGlobalX@QTabletEvent@@QEBANXZ
 ?hiResGlobalY@QTabletEvent@@QEBANXZ
@@ -22258,7 +21114,6 @@ $qt_theme_
 ?hideEvent@QWindow@@MEAAXPEAVQHideEvent@@@Z
 ?hideInputPanel@QPlatformInputContext@@UEAAXXZ
 ?hideModalWindow@QGuiApplicationPrivate@@SAXPEAVQWindow@@@Z
-?highSurrogate@QChar@@SAGI@Z
 ?highlight@QPalette@@QEBAAEBVQBrush@@XZ
 ?highlightedText@QPalette@@QEBAAEBVQBrush@@XZ
 ?hintingPreference@QFont@@QEBA?AW4HintingPreference@1@XZ
@@ -22273,7 +21128,6 @@ $qt_theme_
 ?hotSpot@QCursor@@QEBA?AVQPoint@@XZ
 ?hotSpot@QDrag@@QEBA?AVQPoint@@XZ
 ?hotspot@QPlatformCursorImage@@QEBA?AVQPoint@@XZ
-?hour@QTime@@QEBAHXZ
 ?hovered@QPlatformMenuItem@@QEAAXXZ
 ?href@QWhatsThisClickedEvent@@QEBA?AVQString@@XZ
 ?hslHue@QColor@@QEBAHXZ
@@ -22302,14 +21156,12 @@ $qt_theme_
 ?idealWidth@QTextDocumentLayout@@QEBANXZ
 ?ignore@QDragMoveEvent@@QEAAXAEBVQRect@@@Z
 ?ignore@QDragMoveEvent@@QEAAXXZ
-?ignore@QEvent@@QEAAXXZ
 ?image@QClipboard@@QEBA?AVQImage@@W4Mode@1@@Z
 ?image@QImageTextureGlyphCache@@QEBAAEBVQImage@@XZ
 ?image@QPlatformCursorImage@@QEAAPEAVQImage@@XZ
 ?image@QTextImageHandler@@QEAA?AVQImage@@PEAVQTextDocument@@AEBVQTextImageFormat@@@Z
 ?imageCount@QImageIOHandler@@UEBAHXZ
 ?imageCount@QImageReader@@QEBAHXZ
-?imageData@QMimeData@@QEBA?AVQVariant@@XZ
 ?imageFormat@QImageReader@@QEBA?AW4Format@QImage@@XZ
 ?imageFormat@QImageReader@@SA?AVQByteArray@@AEBVQString@@@Z
 ?imageFormat@QImageReader@@SA?AVQByteArray@@PEAVQIODevice@@@Z
@@ -22329,19 +21181,8 @@ $qt_theme_
 ?indexForFormat@QTextFormatCollection@@QEAAHAEBVQTextFormat@@@Z
 ?indexFormats@QTextEngine@@AEAAXXZ
 ?indexFromItem@QStandardItemModel@@QEBA?AVQModelIndex@@PEBVQStandardItem@@@Z
-?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
-?indexOf@QByteArray@@QEBAHDH@Z
-?indexOf@QByteArray@@QEBAHPEBDH@Z
-?indexOf@QFactoryLoader@@QEBAHAEBVQString@@@Z
-?indexOf@QString@@QEBAHAEBV1@HW4CaseSensitivity@Qt@@@Z
-?indexOf@QString@@QEBAHAEBVQRegularExpression@@HPEAVQRegularExpressionMatch@@@Z
-?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
 ?indexOfChild@QAccessibleApplication@@UEBAHPEBVQAccessibleInterface@@@Z
-?indexOfEnumerator@QMetaObject@@QEBAHPEBD@Z
-?indexOfMethod@QMetaObject@@QEBAHPEBD@Z
 ?informativeText@QMessageDialogOptions@@QEBA?AVQString@@XZ
-?inherits@QObject@@QEBA_NPEBD@Z
 ?init@Parser@QCss@@QEAAXAEBVQString@@_N@Z
 ?init@QBrush@@AEAAXAEBVQColor@@W4BrushStyle@Qt@@@Z
 ?init@QGuiApplicationPrivate@@AEAAXXZ
@@ -22352,10 +21193,8 @@ $qt_theme_
 ?init@QRasterPaintEngine@@AEAAXXZ
 ?init@QTextEngine@@CAXPEAV1@@Z
 ?init@QWindowPrivate@@QEAAXXZ
-?initCharAttributes@QUnicodeTools@@YAXPEBGHPEBUScriptItem@1@HPEAUQCharAttributes@@V?$QFlags@W4CharAttributeOption@QUnicodeTools@@@@@Z
 ?initFrom@QPainter@@QEAAXPEBVQPaintDevice@@@Z
 ?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
-?initScripts@QUnicodeTools@@YAXPEBGHPEAE@Z
 ?initialDirectory@QFileDialogOptions@@QEBA?AVQUrl@@XZ
 ?initialGeometry@QPlatformWindow@@SA?AVQRect@@PEBVQWindow@@AEBV2@HH@Z
 ?initialize@QFont@@SAXXZ
@@ -22409,19 +21248,14 @@ $qt_theme_
 ?inputItemTransform@QInputMethod@@QEBA?AVQTransform@@XZ
 ?inputMethod@QGuiApplication@@SAPEAVQInputMethod@@XZ
 ?inputMethodAccepted@QPlatformInputContext@@QEBA_NXZ
-?insert@?$QVector@VQPointF@@@@QEAAXHAEBVQPointF@@@Z
 ?insert@QAccessibleCache@@QEBAIPEAVQObject@@PEAVQAccessibleInterface@@@Z
-?insert@QByteArray@@QEAAAEAV1@HD@Z
-?insert@QListData@@QEAAPEAPEAXH@Z
 ?insert@QOpenGLMultiGroupSharedResource@@QEAAXPEAVQOpenGLContext@@PEAVQOpenGLSharedResource@@@Z
 ?insert@QPixmapCache@@SA?AVKey@1@AEBVQPixmap@@@Z
 ?insert@QPixmapCache@@SA_NAEBVQString@@AEBVQPixmap@@@Z
-?insert@QString@@QEAAAEAV1@HAEBV1@@Z
 ?insertBlock@QTextCursor@@QEAAXAEBVQTextBlockFormat@@@Z
 ?insertBlock@QTextCursor@@QEAAXAEBVQTextBlockFormat@@AEBVQTextCharFormat@@@Z
 ?insertBlock@QTextCursor@@QEAAXXZ
 ?insertBlock@QTextCursorPrivate@@QEAAXAEBVQTextBlockFormat@@AEBVQTextCharFormat@@@Z
-?insertColumn@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
 ?insertColumn@QStandardItem@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 ?insertColumn@QStandardItemModel@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 ?insertColumn@QStandardItemModel@@QEAA_NHAEBVQModelIndex@@@Z
@@ -22442,7 +21276,6 @@ $qt_theme_
 ?insertList@QTextCursor@@QEAAPEAVQTextList@@W4Style@QTextListFormat@@@Z
 ?insertOrRemoveRows@QGridLayoutEngine@@AEAAXHHW4Orientation@Qt@@@Z
 ?insertOrRemoveRows@QGridLayoutItem@@QEAAXHHW4Orientation@Qt@@@Z
-?insertRow@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
 ?insertRow@QGridLayoutEngine@@QEAAXHW4Orientation@Qt@@@Z
 ?insertRow@QStandardItem@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 ?insertRow@QStandardItem@@QEAAXHPEAV1@@Z
@@ -22461,13 +21294,10 @@ $qt_theme_
 ?insertText@QTextCursor@@QEAAXAEBVQString@@AEBVQTextCharFormat@@@Z
 ?insertionPointsForLine@QTextEngine@@QEAAXHAEAV?$QVector@H@@@Z
 ?installActivationObserver@QAccessible@@SAXPEAVActivationObserver@1@@Z
-?installEventFilter@QObject@@QEAAXPEAV1@@Z
 ?installFactory@QAccessible@@SAXP6APEAVQAccessibleInterface@@AEBVQString@@PEAVQObject@@@Z@Z
 ?installRootObjectHandler@QAccessible@@SAP6AXPEAVQObject@@@ZP6AX0@Z@Z
 ?installUpdateHandler@QAccessible@@SAP6AXPEAVQAccessibleEvent@@@ZP6AX0@Z@Z
 ?instance@QAccessibleCache@@SAPEAV1@XZ
-?instance@QCoreApplication@@SAPEAV1@XZ
-?instance@QFactoryLoader@@QEBAPEAVQObject@@H@Z
 ?instance@QGuiApplicationPrivate@@SAPEAV1@XZ
 ?instance@QIconLoader@@SAPEAV1@XZ
 ?instance@QImagePixmapCleanupHooks@@SAPEAV1@XZ
@@ -22480,7 +21310,6 @@ $qt_theme_
 ?internalGridRowCount@QGridLayoutEngine@@AEBAHXZ
 ?internalTextureFormat@QOpenGLFramebufferObjectFormat@@QEBAIXZ
 ?interpolationMode@QGradient@@QEBA?AW4InterpolationMode@1@XZ
-?intersect@QLineF@@QEBA?AW4IntersectType@1@AEBV1@PEAVQPointF@@@Z
 ?intersect@QPathClipper@@QEAA_NXZ
 ?intersect@QPathClipper@@SA?AVQPainterPath@@AEBV2@AEBVQRectF@@@Z
 ?intersect@QRegion@@QEBA?AV1@AEBV1@@Z
@@ -22488,14 +21317,10 @@ $qt_theme_
 ?intersected@QPainterPath@@QEBA?AV1@AEBV1@@Z
 ?intersected@QPolygon@@QEBA?AV1@AEBV1@@Z
 ?intersected@QPolygonF@@QEBA?AV1@AEBV1@@Z
-?intersected@QRect@@QEBA?AV1@AEBV1@@Z
-?intersected@QRectF@@QEBA?AV1@AEBV1@@Z
 ?intersected@QRegion@@QEBA?AV1@AEBV1@@Z
 ?intersected@QRegion@@QEBA?AV1@AEBVQRect@@@Z
 ?intersects@QPainterPath@@QEBA_NAEBV1@@Z
 ?intersects@QPainterPath@@QEBA_NAEBVQRectF@@@Z
-?intersects@QRect@@QEBA_NAEBV1@@Z
-?intersects@QRectF@@QEBA_NAEBV1@@Z
 ?intersects@QRegion@@QEBA_NAEBV1@@Z
 ?intersects@QRegion@@QEBA_NAEBVQRect@@@Z
 ?intrinsicSize@QTextImageHandler@@UEAA?AVQSizeF@@PEAVQTextDocument@@HAEBVQTextFormat@@@Z
@@ -22506,7 +21331,6 @@ $qt_theme_
 ?invalidate@QPlatformFontDatabase@@UEAAXXZ
 ?invalidate@QTextEngine@@QEAAXXZ
 ?invalidateKey@QIconLoader@@QEAAXXZ
-?invalidatePersistentIndex@QAbstractItemModelPrivate@@QEAAXAEBVQModelIndex@@@Z
 ?invalidateResource@QOpenGLSharedResourceGuard@@MEAAXXZ
 ?invalidateResource@QOpenGLTextureCache@@UEAAXXZ
 ?invalidateState@QOpenGL2PaintEngineEx@@QEAAXXZ
@@ -22517,16 +21341,11 @@ $qt_theme_
 ?inverted@QQuaternion@@QEBA?AV1@XZ
 ?inverted@QTransform@@QEBA?AV1@PEA_N@Z
 ?invisibleRootItem@QStandardItemModel@@QEBAPEAVQStandardItem@@XZ
-?invoke@QMetaMethod@@QEBA_NPEAVQObject@@W4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@333333333@Z
 ?invokeAction@QInputMethod@@QEAAXW4Action@1@H@Z
 ?invokeAction@QPlatformInputContext@@UEAAXW4Action@QInputMethod@@H@Z
-?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
-?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
 ?ioDevice@QPictureIO@@QEBAPEAVQIODevice@@XZ
-?isAccepted@QEvent@@QEBA_NXZ
 ?isAccepted@QPlatformDropQtResponse@@QEBA_NXZ
 ?isActive@QAccessible@@SA_NXZ
-?isActive@QBasicTimer@@QEBA_NXZ
 ?isActive@QPaintEngine@@QEBA_NXZ
 ?isActive@QPainter@@QEBA_NXZ
 ?isActive@QPlatformAccessibility@@QEBA_NXZ
@@ -22592,7 +21411,6 @@ $qt_theme_
 ?isCreated@QOpenGLTimerQuery@@QEBA_NXZ
 ?isCreated@QOpenGLVertexArrayObject@@QEBA_NXZ
 ?isCurved@QVectorPath@@QEBA_NXZ
-?isDebugBuild@QLibraryInfo@@SA_NXZ
 ?isDetached@QBrush@@QEBA_NXZ
 ?isDetached@QIcon@@QEBA_NXZ
 ?isDetached@QImage@@QEBA_NXZ
@@ -26167,7 +24985,6 @@ $qt_theme_
 ?systemFont@QFontDatabase@@SA?AVQFont@@W4SystemFont@1@@Z
 ?systemRect@QPaintEngine@@QEBA?AVQRect@@XZ
 ?systemStateChanged@QPaintEnginePrivate@@UEAAXXZ
-?t3E3
 ?tAtLength@QBezier@@QEBANN@Z
 ?tForY@QBezier@@QEBANNNN@Z
 ?tabArray@QTextOption@@QEBA?AV?$QList@N@@XZ
@@ -27059,362 +25876,32 @@ $qt_theme_
 ?z@QTabletEvent@@QEBAHXZ
 ?z@QVector3D@@QEBAMXZ
 ?z@QVector4D@@QEBAMXZ
-@ 9D$hu
 @ @!@"@#@$@%@&@'@(@)@*@+@,@-@.@/@0@1@2@3@4@5@6@7@8@9@:@;@<@=@>@?@@@A@B@C@D@E@F@G@H@I@J@K@L@M@N@O@P@Q@R@S@T@U@V@W@X@Y@Z@[@\@]@^@_@`@a@b@c@d@e@f@g@h@i@j@k@l@m@n@o@p@q@r@s@t@u@v@w@x@y@z@{@|@}@~@
-@"t$P
-@%wED
-@.data
-@.reloc
-@.rsrc
+@0Z6
 @33333
-@85F7O
-@8<1r
-@8<1s
-@8j u+H
-@8o uBH
-@8s u2H
-@8t$(uI
-@8u(H
-@8w t	
-@8xYt	A
-@8z u*H
-@8{ u+H
-@8{ uDL
-@8|$0
-@8|$1
-@8|$2
-@8|$3
-@8|$4
-@8|$5
-@8|$6
-@8|$Bt
-@@@@    
 @@@@````pppp
 @@``ppxx||~~
-@A\^[
-@A\_^[]
-@A]A\]
-@A]A\_^]
-@A^A\]
-@A^A\^][
-@A^A\_^[
-@A^A]A\
-@A^A]A\^[
-@A^A]A\^]
-@A^A]A\_^][
-@A^A]_][
-@A^^]
-@A^_]
-@A^_^
-@A^_^H
-@A^_^[]
-@A^_^][
-@A_A\]
-@A_A\^
-@A_A\_][
-@A_A\_^[
-@A_A\_^]H
-@A_A]A\_[
-@A_A]A\_^
-@A_A^A\
-@A_A^A\_[
-@A_A^A\_]
-@A_A^A\_^
-@A_A^A\_^[]
-@A_A^A]
-@A_A^A]A\]
-@A_A^A]A\_
-@A_A^A]A\_^]
-@A_A^A]_]
-@A_A^A]_^
-@A_A^A]_^][
-@A_A^^
-@A_A^_
-@A_A^_][
-@A_A^_^[
-@A_A^_^]
-@A__[
-@A__^
 @DropAction
-@L2BL
-@P9BPu	A
 @QZip: Zip entry format at %d is not supported.
-@SATAUAVAWH
-@SATAUAVH
-@SATAUAWH
-@SATAVAWH
-@SATAVH
-@SATAW
-@SATAWH
-@SAUAVH
-@SAUH
-@SAVAWH
-@SAVH
-@SAWH
-@SUATAUAVH
-@SUATAUAWH
-@SUATAVAWH
-@SUATH
-@SUAUAVH
-@SUAUH
-@SUAVH
-@SUAW
-@SUVATAUAVAW
-@SUVATAWH
-@SUVATH
-@SUVAVAWH
-@SUVAWH
-@SUVH
-@SUVWATAUAVAWH
-@SUVWATAVAW
-@SUVWATAVAWH
-@SUVWATAW
-@SUVWATH
-@SUVWAUAVAWH
-@SUVWAUAWH
-@SUVWAUH
-@SUVWAVAWH
-@SUVWAVH
-@SUVWAWH
-@SUVWH
-@SUWATAUH
-@SUWATAWH
-@SUWAUAVH
-@SUWAVAWH
-@SUWAVH
-@SUWAWH
-@SUWH
-@SVATAUAVH
-@SVATAUAWH
-@SVATAWH
-@SVATH
-@SVAUAVH
-@SVAVH
-@SVAWH
-@SVWATAUAVAWH
-@SVWATAUAVH
-@SVWATAUAWH
-@SVWATAUH
-@SVWATAVH
-@SVWATAWH
-@SVWATH
-@SVWAUH
-@SVWAVAWH
-@SVWAVH
-@SVWAWH
-@SVWH
-@SWATAUAVH
-@SWATAUAWH
-@SWATAUH
-@SWATAVAWH
-@SWATAWH
-@SWATH
-@SWAUAVH
-@SWAUAWH
-@SWAUH
-@SWAVAWH
-@SWAVH
-@SWAWH
-@T9BTt
-@UATAUAVAWH
-@UATAUAWH
-@UATAUH
-@UATAVAWH
-@UATAVH
-@UATAWH
-@UATH
-@UAUAVAWH
-@UAVAWH
-@UAVH
-@UAWH
-@USATAUAVAWH
-@USATAUAVH
-@USATAUAWH
-@USATAVAWH
-@USATAWH
-@USATH
-@USAUAVAWH
-@USAUAVH
-@USAVH
-@USAWH
-@USVATAUH
-@USVATAWH
-@USVATH
-@USVAUAVAWH
-@USVAUAWH
-@USVAVAWH
-@USVAVH
-@USVAWH
-@USVH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWATAUAWH
-@USVWATAUH
-@USVWATAVAWH
-@USVWATAVH
-@USVWATAWH
-@USVWATH
-@USVWAUAVAWH
-@USVWAUAVH
-@USVWAUAWH
-@USVWAUH
-@USVWAVAWH
-@USVWAVH
-@USVWAWH
-@USVWH
-@USWATAUAVAWH
-@USWATAVH
-@USWATAWH
-@USWATH
-@USWAUAVH
-@USWAUAWH
-@USWAUH
-@USWAVH
-@USWAWH
-@USWH
-@UVATAUAVH
-@UVATAUH
-@UVATAVAWH
-@UVATAVH
-@UVATAWH
-@UVAUH
-@UVAVAWH
-@UVAVH
-@UVAWH
-@UVWATAUH
-@UVWATAVAW
-@UVWATAVH
-@UVWATAWH
-@UVWATH
-@UVWAUAVH
-@UVWAUAWH
-@UVWAVAWH
-@UVWAVH
-@UVWAWH
-@UVWH
-@UWATAUAVAWH
-@UWATAVAWH
-@UWATAWH
-@UWAUAVH
-@UWAUH
-@UWAVAWH
-@UWAVH
-@UWAWH
-@VATAUAVH
-@VATAVAWH
-@VATAVH
-@VATAWH
-@VATH
-@VAUH
-@VAVAWH
-@VAVH
-@VAWH
-@VWATH
-@VWAUAVH
-@VWAUH
-@VWAVAWH
-@VWAVH
-@VWAWH
-@WATAUAVAWH
-@WATAUH
-@WATAVH
-@WATH
-@WAVAWH
-@WAVH
-@WAWH
-@WLcQ(f
-@_RDATA
+@\t@\n@\v@\f@\r@
 @fffffFD@)\
 @ffffff @ 
 @ffffff(@@
 @ltuo
-@pA9X
-@~oHc
-A	N\I
-A 8XTt
 A A!A"A#A$A%A&A'A(A)A*A+A,A-A.A/A0A1A2A3A4A5A6A7A8A9A:A;A<A=A>A?A@AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZA[A\A]A^A_A`AaAbAcAdAeAfAgAhAiAjAkAlAmAnAoApAqArAsAtAuAvAwAxAyAzA{A|A}A~A
-A A9@ u$
-A D9x
-A D;`
 A current OpenGL context is required to create timer query objects
-A$A9@$u-
-A(A9Y
-A(HcA
-A)E(H
-A+E0A
-A+E<A
-A,A9@,u
-A0A9@0u
-A0D;p
-A1F8A
-A1F<A
-A1FPA
-A1NPI
-A1NXI
-A2D68$
 A3 Extra
 A3Extra
-A3FH%
-A3FP%
-A3G,%
-A3N<A
-A3P A
-A3x$A
-A3x$E
-A3y$A3
-A3z$A3
-A3z$E
 A4 Extra
 A4 Plus
 A4 Small
-A4A9@4u	
 A4Extra
 A4Plus
 A4Small
 A5 Extra
 A5Extra
-A8,$t
-A8A9@8t
-A8~0t
-A8~1t
-A8~2t?A
-A9/t	I
-A96u,I
-A9>~G3
-A9O`~
-A9X(}	A
-A9^(}	A
-A9^Hv9f
-A9i t
-A9j t
-A9nHv4
-A9o I
-A9p(}	A
-A9q t
-A9q(~
-A9u4uiA)]
-A9v(}	A
-A9w I
-A;	u	A
-A;E }
-A;L$4
-A;MDA
-A;O`|
-A;S0r
-A;],u7
-A;^(r
-A;n(}
-A;nHr
-A;~4|
-A;~8r
-A;~Hr
-AD:d$pt
 AEacute
 AElig
-AH3BH
-AIcT$
-AMAgA
-AMAgu
 AMD Radeon HD
 ANGLE
 ANSI C
@@ -27427,155 +25914,8 @@ ARCHB
 ARCHC
 ARCHD
 ARCHE
-ATAUAVH
-ATAUAW
-ATAUAWH
-ATAUH
-ATAVAWH
-ATAVH
-ATAWH
-AUAVAWH
-AUAVH
-AUAWH
-AVAWH
-AX=2mymu
-A\_[]
-A\_^[]
-A\_^]
-A]A\[]
-A]A\]
-A]A\^]
-A]A\^][
-A]A\_[]
-A]A\_]
-A]A\_^[]
-A]A\_^]
-A]_[]
-A]_][
-A]_^[
-A]_^[]
-A]_^]
-A]_^][
-A^A\]
-A^A\^
-A^A\^[
-A^A\^]
-A^A\_
-A^A\_]
-A^A\_^
-A^A\_^[]
-A^A\_^]
-A^A]A\[]
-A^A]A\]
-A^A]A\^]
-A^A]A\_]
-A^A]A\_^
-A^A]A\_^[]
-A^A][]
-A^A]]
-A^A]][
-A^A]^[]
-A^A]_[
-A^A]_[]
-A^A]_]
-A^A]_^[]
-A^A]_^]
-A^^[]
-A^_[]
-A^_][
-A^_][H
-A^_^[
-A^_^[]
-A^_^]
-A^_^][
-A_A\H
-A_A\[
-A_A\[]
-A_A\]
-A_A\^
-A_A\^[]
-A_A\^]
-A_A\_
-A_A\_[
-A_A\_[]
-A_A\_^[]
-A_A\_^]
-A_A\_^][
-A_A]A\
-A_A]A\[]
-A_A]A\]H
-A_A]A\_[
-A_A]A\_[]
-A_A]A\_]
-A_A]A\_^
-A_A]A\_^[
-A_A]A\_^[]
-A_A]]
-A_A]^[]
-A_A]_[]
-A_A]_^[
-A_A]_^[]
-A_A]_^]
-A_A^A\
-A_A^A\[
-A_A^A\[]
-A_A^A\]
-A_A^A\^[]
-A_A^A\^]
-A_A^A\_[
-A_A^A\_]
-A_A^A\_][
-A_A^A\_^
-A_A^A\_^[]
-A_A^A\_^]
-A_A^A\_^][
-A_A^A]
-A_A^A]A\[
-A_A^A]A\[]
-A_A^A]A\]
-A_A^A]A\^[]
-A_A^A]A\^][
-A_A^A]A\_
-A_A^A]A\_[]
-A_A^A]A\_]
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A][
-A_A^A][]
-A_A^A]]
-A_A^A]^
-A_A^A]^[]
-A_A^A]_
-A_A^A]_[
-A_A^A]_[]
-A_A^A]_]
-A_A^A]_^
-A_A^A]_^[]
-A_A^A]_^][
-A_A^[
-A_A^]
-A_A^][
-A_A^^
-A_A^^[]
-A_A^^]
-A_A^_
-A_A^_[
-A_A^_[]
-A_A^_]
-A_A^_][
-A_A^_^[
-A_A^_^[]
-A_A^_^]
-A_A^_^]H
-A_A^_^][
-A_^[]
-A_^][
-A__[]
-A__^[]
-A__^]
-A__^][
+A\r?indexOf@QByteArray@@QEBAHDH@Z
+A\tA\nA\vA\fA\rA
 AaBbzZ
 Aacute
 Abort
@@ -27624,6 +25964,7 @@ Architect B
 Architect C
 Architect D
 Architect E
+Area
 Aring
 Aringacute
 Armenian
@@ -27637,49 +25978,32 @@ AttributeChanged
 Audio Cycle Track
 Audio Random Play
 Audio Repeat
-AuthD
+Auml
 AutomaticVisibility
-B 8XTu
-B A9C 
-B A9F 
+Away
 B B!B"B#B$B%B&B'B(B)B*B+B,B-B.B/B0B1B2B3B4B5B6B7B8B9B:B;B<B=B>B?B@BABBBCBDBEBFBGBHBIBJBKBLBMBNBOBPBQBRBSBTBUBVBWBXBYBZB[B\B]B^B_B`BaBbBcBdBeBfBgBhBiBjBkBlBmBnBoBpBqBrBsBtBuBvBwBxByBzB{B|B}B~B
-B D;`
-B H9A u
 B#C0D?EQFeG|H
-B(3G(x
-B,9B(A
-B0D&8B
-B2L&8B
 B5 Extra
-B948~
-B9<0uQI
-B9l 0
-B9t 4
-B;< t
-B@	A@
 BDiagPattern
-BGRsA
-BGRsu
-BH3CH
+BLOB
 BUFFER
-BUSGA
-BUSGD
-BUSGH
 BUSGSOPG    
-BUSGt
-BUSGt	H
+B\r?indexOf@QByteArray@@QEBAHPEBDH@Z
+B\tB\nB\vB\fB\rB
+Back
 Back Forward
 Background
 BackgroundBrush
 BackgroundImageUrl
 Backspace
 Backtab
+Base
 Bass Boost
 Bass Down
 Bass Up
 Battery
-Bd$hf;|$ffD
 Bengali
+Beta
 Black
 BlockAlignment
 BlockBottomMargin
@@ -27690,7 +26014,10 @@ BlockNonBreakableLines
 BlockRightMargin
 BlockTopMargin
 BlockTrailingHorizontalRulerWidth
+Blue
 Bluetooth
+Bold
+Book
 Border
 BrightText
 Browser
@@ -27700,38 +26027,17 @@ ButtonDropDown
 ButtonDropGrid
 ButtonMenu
 ButtonText
-C A9B 
+Bx\r9
 C C!C"C#C$C%C&C'C(C)C*C+C,C-C.C/C0C1C2C3C4C5C6C7C8C9C:C;C<C=C>C?C@CACBCCCDCECFCGCHCICJCKCLCMCNCOCPCQCRCSCTCUCVCWCXCYCZC[C\C]C^C_C`CaCbCcCdCeCfCgChCiCjCkClCmCnCoCpCqCrCsCtCuCvCwCxCyCzC{C|C}C~C
-C H9S
-C HcC
-C IcH
-C(3G(
-C(A9[
-C(HcC$
-C(HcS$H
-C*8G*
-C,3G,
-C0HcK,H
-C8A3C8
-C8HcG
-C8HcK4
-C8HcK4H
-C8HcK4I
-C:f3G:H
-C@9G@u$H
-CH3BH
-CH3GH
-CHHcKD
-CHHcKDH
-CL2GL$
-CLcd$`M
-CMapName currentdict /CMap defineresource pop
 CRC error
+C\r?indexOf@QFactoryLoader@@QEBAHAEBVQString@@@Z
+C\tC\nC\vC\fC\rC
 CacheAll
 CacheMode
 CacheNone
 Cacute
 Calculator
+Call
 Call to NULL read function
 Call to NULL write function
 Camera Focus
@@ -27744,13 +26050,13 @@ Cannot creat accessible child interface for object:
 Cannot create window: no screens available
 Cannot make QOpenGLContext current in a different thread
 Cannot open "
-Cannot resize a texture that already has storage allocated.
+Cannot resize a texture that already has storage allocated.\nTo do so, destroy() the texture and then create() and setSize()
 Cannot set create a texture view of a texture that does not have storage allocated.
-Cannot set data on a texture that does not have storage allocated.
-Cannot set layers on a texture that already has storage allocated.
-Cannot set mip levels on a texture that already has storage allocated.
-Cannot set sample count on a texture that already has storage allocated.
-Cannot set sample positions on a texture that already has storage allocated.
+Cannot set data on a texture that does not have storage allocated.\nTo do so call allocateStorage() before this function
+Cannot set layers on a texture that already has storage allocated.\nTo do so, destroy() the texture and then create() and setLayers()
+Cannot set mip levels on a texture that already has storage allocated.\nTo do so, destroy() the texture and then create() and setMipLevels()
+Cannot set sample count on a texture that already has storage allocated.\nTo do so, destroy() the texture and then create() and setSamples()
+Cannot set sample positions on a texture that already has storage allocated.\nTo do so, destroy() the texture and then create() and setFixedSamplePositions()
 Canvas
 CapabilityFlag
 Caps Lock
@@ -27761,6 +26067,7 @@ Ccedil
 Ccedilla
 Ccircumflex
 Cdotaccent
+Cell
 Channel Down
 Channel Up
 CharFormat
@@ -27793,7 +26100,8 @@ ContextHelpEnd
 ContextHelpStart
 ContextMenu
 CoordinateMode
-Could not link shader program:
+Copy
+Could not link shader program:\n
 Courier New
 CreateBitmap
 CreateCompatibleDC
@@ -27802,6 +26110,7 @@ CreateEventW
 CreateIconIndirect
 CrossPattern
 CssFloat
+Ctrl
 Cubemap Array textures are not supported
 Current
 Cursor
@@ -27819,384 +26128,21 @@ Custom shader is already set on a painter
 CustomDashLine
 Cyrillic
 D D!D"D#D$D%D&D'D(D)D*D+D,D-D.D/D0D1D2D3D4D5D6D7D8D9D:D;D<D=D>D?D@DADBDCDDDEDFDGDHDIDJDKDLDMDNDODPDQDRDSDTDUDVDWDXDYDZD[D\D]D^D_D`DaDbDcDdDeDfDgDhDiDjDkDlDmDnDoDpDqDrDsDtDuDvDwDxDyDzD{D|D}D~D
-D#D$H
-D#L$XA
-D$ ;z
-D$ D+
-D$ D93w
-D$ D;
-D$ E3
-D$ E;
-D$ H9D$0u
-D$ H;
-D$ Hc
-D$ Hcx
-D$ Ic
-D$ L;
-D$ Mc
-D$ [8\$Bt
-D$ fA
-D$ fD
-D$ ferp
-D$ tv
-D$$+t$(D+
-D$$Hc
-D$$Lc
-D$$M;
-D$&f;
-D$(9D$8
-D$(;E
-D$(A+
-D$(A;F
-D$(D;
-D$(E2
-D$(E3
-D$(E;
-D$(H+
-D$(H;G
-D$(Hc
-D$(I;
-D$(L;
-D$(Lc
-D$(]t
-D$(fB
-D$(u[H
-D$)fD
-D$,Hc
-D$0)p
-D$09X
-D$0A+
-D$0A+D$
-D$0D)
-D$0D9
-D$0D98vAD
-D$0D;
-D$0D;E
-D$0D;p
-D$0E+
-D$0E2
-D$0E3
-D$0E;
-D$0H9G 
-D$0H9G t'H
-D$0H;
-D$0I+
-D$0I;
-D$0L9`
-D$0L9t$8L
-D$0M;
-D$0fA
-D$1fA
-D$4D+
-D$4D;
-D$4Lc
-D$4fA
-D$4td
-D$89Y8v@f
-D$8;EX
-D$8;O
-D$8;\$0u
-D$8A+
-D$8A;F
-D$8D;
-D$8E3
-D$8E;
-D$8H;D$@t>H
-D$8Hc
-D$8Hc@
-D$8Ic
-D$8Lc
-D$8fA
-D$8fD;
-D$8vV
-D$<)C
-D$<D+
-D$@ H
-D$@3C
-D$@98v
-D$@9D$D
-D$@9|$D
-D$@A;
-D$@D+
-D$@D+d$dA
-D$@D;|$d
-D$@E3
-D$@H;
-D$@H;D$H
-D$@Hc
-D$@HcH
-D$@I;
-D$@Ic
-D$@L+
-D$@Lc
-D$@LcD$8
-D$@carfH
-D$@fA
-D$@kram
-D$@mltr
-D$@mondH
-D$@rmunH
-D$@uH
-D$@vgA
-D$A H
-D$B H
-D$C H
-D$D9D$@
-D$D: 
-D$D;D$@
-D$DD+
-D$HD+
-D$HD; 
-D$HE2
-D$HE3
-D$HH+
-D$HH;
-D$HHc
-D$HHc;
-D$HHcA
-D$HHcH
-D$HIcV4L
-D$HIc_
-D$HfA
-D$HfH
-D$L9D$@
-D$LA+
-D$LD+
-D$LE+
-D$LE3
-D$P/A
-D$P;D$T|
-D$P;X
-D$PA+
-D$PA9D$p
-D$PE3
-D$PE;
-D$PH+
-D$PH;
-D$PH;F u
-D$PH;G
-D$PH;\$hr
-D$PHc
-D$PHcH
-D$PIc
-D$PL+
-D$PL9u@
-D$PL;
-D$PLc
-D$PfH
-D$Pt	
-D$PtKH
-D$PvDD
-D$Q<1t0<4t,<2t
-D$Q<1tN<4tJ<2t)<5t%<3t
-D$Rff
-D$T9D$`
-D$T9D$`uHH
-D$X;E
-D$XD+
-D$XD;
-D$XD;`
-D$XE3
-D$XH;
-D$XHc
-D$XIc
-D$XL9
-D$XLc\$pM
-D$XM9n
-D$Xf	F:H
-D$XfH
-D$Xt1H
-D$\A+
-D$\E3
-D$`)C
-D$`+D$h
-D$`3C`
-D$`9|$Xt
-D$`;\$0u
-D$`A;
-D$`D+d$0D
-D$`D8l
-D$`E3
-D$`H;
-D$`Ic
-D$`L+
-D$`fE
-D$`fH
-D$dA;
-D$dE+
-D$hE3
-D$hH+
-D$hH;
-D$hH;D$pt8H
-D$hL;
-D$hfA
-D$l9D$p
-D$l;E
-D$p	4
-D$p+D$P
-D$p;C
-D$p;k
-D$pA9
-D$pA;
-D$pD;
-D$pE3
-D$pH;
-D$pH;D$@
-D$pHcK
-D$pIc
-D$pf	F:H
-D$pfA
-D$pfff
-D$pt1H
-D$x9C
-D$xAk
-D$xE3
-D$xHc
-D$xHcH
-D$xI;E
-D$xL;
-D$xLc
-D$xfA
-D$xfD
-D$xfH
-D$|IcG
-D&8A2D68$
-D)L$ 
-D)L$$
-D)\$$
-D)m(L
-D+CT+SP
-D+IPE
-D+L$@
-D+L$P
-D+QLD
-D+T$pH
-D+d$(L
-D+d$<M
-D+d$L+
-D+d$TH
-D+d$X
-D+d$`+
-D+d$p
-D+d$pD
-D+t$$D+
-D+t$X
-D+t$d
-D+t$hM+
-D+uoD;d$0
-D3C$A
-D3C$D3
-D3C$E3
-D3G$E3
-D3v$D
-D4@'A
-D4E':E
-D4G H
-D8$8u
-D8%HrI
-D8,8u
-D80t	
-D88t	
-D8<(t
-D8<(u
-D8b u+H
-D8d$ 
-D8gxt9H
-D8gxtGH
-D8gyt&E
-D8j u*H
-D8l$@
-D8n uKL
-D8oYu
-D8t$`t
-D8t$`u	
-D8v t	
-D8w tw
-D8z u+H
-D8|$bt
-D9'u|
-D9,8~PH
-D948t6H
-D98v@D
-D9@4u
-D9B(~#E
-D9C H
-D9C$H
-D9D$8E
-D9J(~tA
-D9L$`
-D9O$D
-D9\$8D
-D9a t
-D9c t
-D9d$@
-D9gpL
-D9i t
-D9k t
-D9k(~'f
-D9l$@A
-D9m@fE
-D9r(}
-D9s t
-D9s,u:I
-D9s4~wH
-D9t$0
-D9t$4
-D9t$8I
-D9t0 
-D9u0L
-D9v t
-D9{ t
-D9|$8
-D9|$X
-D9}(~N3
 D:\qt5\qtbase\lib\Qt5Gui.pdb
-D;	}	D
-D;1tCA
-D;A D
-D;A(}%
-D;D$0
-D;D$D
-D;\$8
-D;d$,
-D;d$0
-D;d$L
-D;d$Pu
-D;l$@
-D;l$hs.H
-D;mgH
-D;p D
-D;q0tvE
-D;qXs/D
-D;t$ D
-D;t$,|
-D;t$0
-D;t$4
-D;t$4}E
-D;t$4}Q
-D;wXs)
-D;wh|
-D;|$0
-D;|$0}8
-D;|$X
-D;|$h
-D;}(|
 DDDDUUUU
 DENIED
-DGKbA
-DGKbH
-DGKbu
-DNEIu
-DRichl4
-D\$LA
+D\f?formats@QMimeData@@UEBA?AVQStringList@@XZ
+D\n?dataChanged@QAbstractItemModel@@QEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
+D\tD\nD\vD\fD\rD
+D\v?endsWith@QByteArray@@QEBA_ND@Z
 Dagger
+Dark
 DashDotDotLine
 DashDotLine
 DashLine
 Data set on unsupported clipboard mode. QMimeData object will be deleted.
 Dcaron
 Dcroat
-DeL#Dz4
 Deallocating var bytes %d..%d for %s
 Decrease the value
 DefaultActionChanged
@@ -28209,6 +26155,7 @@ DeleteEndOfWord
 DeleteObject
 DeleteStartOfWord
 Delta
+Demi
 Demi Bold
 Dense1Pattern
 Dense2Pattern
@@ -28227,6 +26174,7 @@ Device is not set
 Device not writable
 DeviceType
 DiagCrossPattern
+Dial
 Dialog
 DialogEnd
 DialogStart
@@ -28243,70 +26191,18 @@ Documents
 DotLine
 Double Postcard
 DoublePostcard
+Down
 DragDropEnd
 DragDropStart
 DrawIconEx
 DrawTextItemDevice::metric: Invalid metric command
 Driver version must be of type object.
-E  E3
-E 9F 
-E A9F 
-E D9h
 E E!E"E#E$E%E&E'E(E)E*E+E,E-E.E/E0E1E2E3E4E5E6E7E8E9E:E;E<E=E>E?E@EAEBECEDEEEFEGEHEIEJEKELEMENEOEPEQERESETEUEVEWEXEYEZE[E\E]E^E_E`EaEbEcEdEeEfEgEhEiEjEkElEmEnEoEpEqErEsEtEuEvEwExEyEzE{E|E}E~E
-E H9F 
-E H;D$xt<f
-E'Lcb
-E(A3}
-E(HcD$<H
-E(HcL$`H
-E)>H+\$`H+t$`
-E,A9E(
-E0A9D$0
-E3A$A
-E3A$D
-E3A$E3
-E3H$A
-E3H$D3
-E3H$E3
-E3P$A
-E3P$E3
-E3Q$A
-E3Q$D3
-E3Q$E3
-E3Y$E3
-E3p$D
-E8A+E
-E8A+E0A
-E8A3F8%
-E8nPt
-E9a t
-E9fPt
-E9gLtjH
-E9gLu
-E9i t
-E9q t
-E9q tQA
-E9y t
-E;B(|
-E;J(|
-E;Y(|
-E;g(}
-E;n$|
-E;n(|
-E;} H
-E<A+E
 E=FZGrH
-E@3CH
-E@3C`
-E@D+F
-EHA9G A
-EL$0H
-EMItA
-EMItu
-ETLPu
-ETLPuP
+EMC\n
 EXT_texture_storage
-E`D9k
+E\r?indexOf@QString@@QEBAHAEBV1@HW4CaseSensitivity@Qt@@@Z
+E\tE\nE\vE\fE\rE
 Eacute
 Ebreve
 Ecaron
@@ -28315,7 +26211,6 @@ Ecircumflex
 Edieresis
 EditableText
 Edotaccent
-EgD9`
 Egrave
 Eisu Shift
 Eisu toggle
@@ -28327,6 +26222,7 @@ Env10
 Env11
 Env12
 Env14
+Env9
 EnvC0
 EnvC1
 EnvC2
@@ -28397,11 +26293,6 @@ Envelope US 14
 Envelope US 9
 Envelope You 4
 Eogonek
-EpA9H(}	A
-EpH9D$8
-EpHcS
-EpLcC
-EpnrekH
 Epsilon
 Epsilontonos
 Equation
@@ -28410,52 +26301,25 @@ Error reading "
 Errors linking blit shader: %s
 Errors linking simple shader: %s
 Escape
-Et$`E
 Etatonos
+Euml
+Euro
 Event
-Ew9D$4~c
-Ew9Eo~
 Execute
 Executive
 Executive (7.25 x 10.5 in)
 Executive (7.5 x 10 in)
 Executive.7.5x10in
+Exit
 ExitProcess
 Extra
 Extra Bold
 Extra Light
 Extra compressed data
-E{9D$0}l
-E{A9G
-E|$0H
-F 9E 
-F A9B 
 F F!F"F#F$F%F&F'F(F)F*F+F,F-F.F/F0F1F2F3F4F5F6F7F8F9F:F;F<F=F>F?F@FAFBFCFDFEFFFGFHFIFJFKFLFMFNFOFPFQFRFSFTFUFVFWFXFYFZF[F\F]F^F_F`FaFbFcFdFeFfFgFhFiFjFkFlFmFnFoFpFqFrFsFtFuFvFwFxFyFzF{F|F}F~F
-F I;^(t_H
-F(D8mo
-F03C0
-F03C0%
-F12GI$
-F43C4
-F43C4%
-F8$0u
-F83E8
-F8B8D
-F8HcL
-F9,0t&H
-F;$8}/
-F;$8~
-F<3E<
-F<3E<%
 FDiagPattern
-FEDGH
-FH3CH
-FHA9E A
-FL2CL$
-FP3FP
-FP3GH
-FX3FX
-FX3GH
+F\tF\nF\vF\fF\rF
+F\v?endsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
 Failed to bind SW graphcisbuffer to texture
 Failed to bind graphicsbuffer to texture
 Failed to load libGLESv2
@@ -28469,15 +26333,15 @@ FanFoldGerman
 FanFoldGermanLegal
 FanFoldUS
 Favorites
-FdA	@
-FdA	A
 File not found
 Finance
+Find
 FindNext
 FindPrevious
 FirstFontProperty
 Fixed
 FixedFont
+Flip
 Focus
 FocusReason
 Folio
@@ -28508,10 +26372,10 @@ ForceOutline
 Foreground
 ForegroundBrush
 ForegroundChanged
+Form
 FormatType
 Forward
 FourDMouse
-FpH9Gp
 Fragment
 Fragment shader for blitShaderProg (MainFragmentShader & ImageSrcFragmentShader) failed to compile
 Fragment shader for simpleShaderProg (MainFragmentShader & ShockingPinkSrcFragmentShader) failed to compile
@@ -28529,35 +26393,9 @@ FrameTopMargin
 FrameWidth
 FullScreen
 FullWidthSelection
-G A3D
 G G!G"G#G$G%G&G'G(G)G*G+G,G-G.G/G0G1G2G3G4G5G6G7G8G9G:G;G<G=G>G?G@GAGBGCGDGEGFGGGHGIGJGKGLGMGNGOGPGQGRGSGTGUGVGWGXGYGZG[G\G]G^G_G`GaGbGcGdGeGfGgGhGiGjGkGlGmGnGoGpGqGrGsGtGuGvGwGxGyGzG{G|G}G~G
-G H9D$8t(H
-G Hcp
-G(3C(
-G(3C(%
-G(3G8
-G(3G8%
-G(;G,v5
-G(vH@
-G,3C,
-G,3C,%
-G0:G1t
-G43C4
-G4@)\
-G4Hci
-G82C8$
-G8A3G(
-G8H9B8u@
-G<A3G,
-G<A3G,%
-G@3C@
-G@9C@u
-G@HcG<
+G4@H
 GDI32.dll
-GH3CH
-GH3C`
-GH3FH
-GI2E1$
 GL_ANGLE_framebuffer_blit
 GL_ANGLE_framebuffer_multisample
 GL_APPLE_texture_format_BGRA8888
@@ -28625,14 +26463,9 @@ GL_OES_texture_3D
 GL_OES_texture_npot
 GL_OES_vertex_array_object
 GL_SGIS_generate_mipmap
-GP3CP
 GRANTED
-GT3CT
-GT3FT
-GX3CX
-GX3FX
-G\3C\
-Ga'@ 
+G\tG\nG\vG\fG\rG
+Game
 Gamma
 Gbreve
 Gcaron
@@ -28654,105 +26487,28 @@ GetModuleHandleW
 GetObjectW
 GetProcAddress
 GetSystemTimeAsFileTime
-GfA9(u
 Goes back a page
 Goes to the next page
 Graphic
 Gray color space not permitted on RGB PNG
 Greek
 Green
+Grip
 Grouping
 Guide
 Gujarati
 Gurmukhi
-GxHcK
-H AVH
-H D;a
-H D;q
 H H!H"H#H$H%H&H'H(H)H*H+H,H-H.H/H0H1H2H3H4H5H6H7H8H9H:H;H<H=H>H?H@HAHBHCHDHEHFHGHHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH[H\H]H^H_H`HaHbHcHdHeHfHgHhHiHjHkHlHmHnHoHpHqHrHsHtHuHvHwHxHyHzH{H|H}H~H
-H SATAVAWH
-H SVH
-H UVWAVAWH
-H VWATAUH
-H WATAUAVAWH
-H(D;q
-H+l$`L
-H+|$pH
 H18533
 H18543
 H18551
 H22073
-H9.t	H
-H9/t&H
-H93t	H
-H93tAH
-H97t	H
-H97t@H
-H97t^H
-H99t 
-H99uE
-H9C(tpH
-H9CPt
-H9Cpt#H
-H9Cpt&H
-H9D$pH
-H9Gpu
-H9N u
-H9S u
-H9W0H
-H9\$X
-H9^Hu
-H9l$ tlH
-H9w8t-H9wHt'H
-H;8u7
-H;BHu
-H;CXu H
-H;D$0D
-H;D$0tTH
-H;D$@u
-H;D$`
-H;D$hr
-H;D$p
-H;D$xr
-H;D$xu
-H;G(u
-H;G0u
-H;L$0u
-H;\$`
-H;\$h
-H;l$p
-H;r u
-H;t$x
-HA\_^[
-HA]A\
-HA]_^[
-HA^A\][
-HA^A]A\_
-HA^A]A\_^[
-HA^A]_[
-HA^A]_^[]
-HA^A]_^][
-HA^_^[
-HA^_^]
-HA_A\
-HA_A\][
-HA_A]_[
-HA_A]_^][
-HA_A^A\[
-HA_A^A\_][
-HA_A^A]A\_^[]
-HA_A^A]A\_^][
-HA_A^A]^][
-HA_A^A]_
-HA_A^_[
-HA_A^_]
-HA_A^_^][
-HA__][
 HB_OPTIONS
 HB_SHAPER_LIST
-HX3JX
-H_^][
-H`9HP
+HTML
+H\r?indexOf@QString@@QEBAHAEBVQRegularExpression@@HPEAVQRegularExpressionMatch@@@Z
+H\tH\nH\vH\fH\rH
+H\v?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 Hangul
 Hangul Banja
 Hangul End
@@ -28766,216 +26522,11 @@ Hangul Special
 Hangul Start
 Hangup
 Hankaku
-Hc48H
-Hc@4L
-HcA(H
-HcA0H
-HcA4D
-HcB(H
-HcB0;
-HcB4H
-HcB4L
-HcB8HcJ<H
-HcCP;GP
-HcD$ H
-HcD$ I
-HcD$(H
-HcD$(L
-HcD$0
-HcD$0H
-HcD$4
-HcD$8E+
-HcD$8H
-HcD$@
-HcD$@H
-HcD$HH
-HcD$L
-HcD$L;
-HcD$PD
-HcD$PH
-HcD$PI
-HcD$TH
-HcD$XH
-HcD$XI
-HcD$\E3
-HcD$`H
-HcD$hH
-HcD$hI
-HcD$pH
-HcD$pH+
-HcD$pI
-HcD$xD
-HcE H
-HcE H+
-HcE#I
-HcE(H
-HcE0H
-HcE0H+
-HcE4A
-HcE4L
-HcE8H
-HcE@H
-HcE@I
-HcEHH
-HcEHH+
-HcEPH
-HcEXH
-HcEgH
-HcEgI
-HcEoH
-HcEwH
-HcEwI
-HcExH
-HcF4L
-HcG4L
-HcH4H
-HcH4I
-HcH4L
-HcI(H
-HcJ(H
-HcJ8HcB<H
-HcK8HcC<H
-HcL$ +
-HcL$ H
-HcL$ L
-HcL$(H
-HcL$(I
-HcL$(L
-HcL$0H
-HcL$0I
-HcL$0L
-HcL$4E
-HcL$8
-HcL$8fA
-HcL$<
-HcL$@
-HcL$@H
-HcL$@L
-HcL$DA
-HcL$DL
-HcL$HH
-HcL$HL
-HcL$L
-HcL$LLk
-HcL$P
-HcL$PA
-HcL$PH
-HcL$PI
-HcL$PL
-HcL$PM
-HcL$Pf+
-HcL$X
-HcL$X+
-HcL$XH
-HcL$XL
-HcL$\D
-HcL$`
-HcL$`H
-HcL$`L
-HcL$hH
-HcL$hL
-HcL$p+
-HcL$pH
-HcL$pI
-HcM H
-HcM L
-HcM(H
-HcM(L
-HcM0H
-HcM0L
-HcM8D
-HcM8H
-HcM8L
-HcM@D
-HcM@H
-HcM@L
-HcMHH
-HcMHL
-HcMPH
-HcMPL
-HcMXH
-HcMXL
-HcMdI
-HcMgH
-HcMgL
-HcMoH
-HcMoL
-HcMwA
-HcMwH
-HcMwL
-HcMxH
-HcOxHcE
-HcQ(A
-HcS@H
-HcT$(I
-HcT$0
-HcT$HH
-HcT$P
-HcT$PL
-HcT$XH
-HcT$XI
-HcT$`D
-HcT$`H
-HcT$`K
-HcT$`L
-HcT$pI
-HcUHH
-HcUHHcq
-HcUdH
-HcUgH
-HcV H
-HcV0M
-HcY(L
-HcY,L
-Hc\$ H
-Hc\$$H
-Hc\$(H
-Hc\$0H
-Hc\$4H
-Hc\$HE3
-Hc\$PL
-Hc\$`H
-Hc\$d
-Hc\$dH
-Hc\$pH
-Hc](H
-Hc](L
-Hc]@H
-Hc]HH
-Hc]PH
-Hc]XH
-Hc]dH
-Hc]gH
-Hc]oH
-Hc]pIc
-Hc]wH
-Hc]xH
-Hc^<H
+Hbar
 Hcircumflex
-HckTH
-Hcl$HH
-Hcl$P
-Hcl$XH
-Hct$0H
-Hct$4H
-Hct$@
-Hct$H
-Hct$h
-Hct$pH
-HcuwH
-Hc|$ 
-Hc|$@H
-Hc|$HH
-Hc|$PH
-Hc|$hH
-Hc|$pE
-Hc|$pH
-Hc|$xH
-Hc}8H
-Hc}gH
-Hc}wH
 Heading
 Hebrew
+Help
 HelpBalloon
 HelpChanged
 HelpContents
@@ -28989,6 +26540,7 @@ HighlightedText
 Hiragana
 Hiragana Katakana
 History
+Home
 Home Office
 Home Page
 HorPattern
@@ -29003,10 +26555,6 @@ HypertextLinkActivated
 HypertextLinkSelected
 HypertextNLinksChanged
 I I!I"I#I$I%I&I'I(I)I*I+I,I-I.I/I0I1I2I3I4I5I6I7I8I9I:I;I<I=I>I?I@IAIBICIDIEIFIGIHIIIJIKILIMINIOIPIQIRISITIUIVIWIXIYIZI[I\I]I^I_I`IaIbIcIdIeIfIgIhIiIjIkIlImInIoIpIqIrIsItIuIvIwIxIyIzI{I|I}I~I
-I(D9A
-I)4$H
-I94$u
-I9<$r
 ICC profile length invalid (not a multiple of 4)
 ICC profile tag outside profile
 ICC profile tag start not a multiple of 4
@@ -29024,13 +26572,10 @@ ISOB6
 ISOB7
 ISOB8
 ISOB9
+I\tI\nI\vI\fI\rI
+I\v?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 Iacute
 Ibreve
-Ic@4H
-IcF4H
-IcG4H
-IcJ4A
-IcP0A;
 Icirc
 Icircumflex
 Icon Theme/Inherits
@@ -29046,7 +26591,6 @@ Ignoring attempt to write tRNS chunk out-of-range for bit_depth
 Ignoring invalid time value
 Ignoring request to write a PLTE chunk in grayscale PNG
 Igrave
-IhD9h
 Imacron
 Image height exceeds user limit in IHDR
 Image height is zero in IHDR
@@ -29066,6 +26610,7 @@ Inconsistent polygon. (#5)
 Inconsistent polygon. (#6)
 Increase the value
 Indicator
+Info
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeSListHead
@@ -29118,6 +26663,7 @@ Invalid time specified for tIME chunk
 InvalidEvent
 InvalidFormat
 Iogonek
+Iota
 Iotadieresis
 Iotatonos
 IsAnchor
@@ -29125,12 +26671,8 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 Italic
 Itilde
-J D)J(
+Iuml
 J J!J"J#J$J%J&J'J(J)J*J+J,J-J.J/J0J1J2J3J4J5J6J7J8J9J:J;J<J=J>J?J@JAJBJCJDJEJFJGJHJIJJJKJLJMJNJOJPJQJRJSJTJUJVJWJXJYJZJ[J\J]J^J_J`JaJbJcJdJeJfJgJhJiJjJkJlJmJnJoJpJqJrJsJtJuJvJwJxJyJzJ{J|J}J~J
-J@McK
-JH3KH
-JHA3@H%
-JHA3HH
 JIS B0
 JIS B1
 JIS B10
@@ -29142,19 +26684,15 @@ JIS B6
 JIS B7
 JIS B8
 JIS B9
+J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
+J\tJ\nJ\vJ\fJ\rJ
 Japanese
 Jcircumflex
-J|A;K
 K K!K"K#K$K%K&K'K(K)K*K+K,K-K.K/K0K1K2K3K4K5K6K7K8K9K:K;K<K=K>K?K@KAKBKCKDKEKFKGKHKIKJKKKLKMKNKOKPKQKRKSKTKUKVKWKXKYKZK[K\K]K^K_K`KaKbKcKdKeKfKgKhKiKjKkKlKmKnKoKpKqKrKsKtKuKvKwKxKyKzK{K|K}K~K
-K()C4H
-K@3O@H
 KERNEL32.dll
-KH3OH
-KHv6E
-KT3OT
-KX3OX
-K\3O\
-K`3OH
+K\n?data_ptr@QVariant@@QEAAAEAUPrivate@1@XZ
+K\r?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
+K\tK\nK\vK\fK\rK
 Kana Lock
 Kana Shift
 Kanji
@@ -29169,238 +26707,9 @@ KeyboardModifiers
 Khmer
 Korean
 L L!L"L#L$L%L&L'L(L)L*L+L,L-L.L/L0L1L2L3L4L5L6L7L8L9L:L;L<L=L>L?L@LALBLCLDLELFLGLHLILJLKLLLMLNLOLPLQLRLSLTLULVLWLXLYLZL[L\L]L^L_L`LaLbLcLdLeLfLgLhLiLjLkLlLmLnLoLpLqLrLsLtLuLvLwLxLyLzL{L|L}L~L
-L$ 9G
-L$ ;l$0t
-L$ @"
-L$ A;
-L$ A;>r
-L$ A;E
-L$ D;
-L$ E3
-L$ H+
-L$ H3
-L$ H9
-L$ H9L$0u
-L$ H;
-L$ Hc
-L$ HcY
-L$ M;
-L$ SUVATAVH
-L$ SUVAUAVAWH
-L$ SUVWAVAWH
-L$ SUVWAVH
-L$ SUWH
-L$ SVWH
-L$ SWAUAVAWH
-L$ UATAUAVAWH
-L$ UATAUH
-L$ USVWATAUAVH
-L$ USVWAUAVAWH
-L$ USVWAVAWH
-L$ UVWATAUAVAWH
-L$ VAUAVH
-L$ WATAUAVAWH
-L$ WATAUAVH
-L$ WAUAVAWH
-L$ fB
-L$ fD
-L$$9H
-L$$D;
-L$$E3
-L$$Hc
-L$$HcC4H
-L$$L+
-L$(9H
-L$(D+
-L$(E3
-L$(E;
-L$(H+L$
-L$(H3
-L$(H;
-L$(Hc
-L$(I+
-L$(fH
-L$,9H
-L$09q
-L$0;M
-L$0A;
-L$0D+
-L$0D3
-L$0D;p
-L$0E3
-L$0H3
-L$0H;
-L$0Hc
-L$0Hc\$0
-L$0Hc_`H
-L$0L+
-L$0L;
-L$0M;
-L$0fA
-L$0v4D
-L$49H
-L$4;L$0u
-L$4A+
-L$89l$0s$i
-L$8;y
-L$8A;
-L$8D9 v
-L$8E3
-L$8H3
-L$8H;
-L$8Ic
-L$8L+
-L$8L;
-L$8fA
-L$8fD
-L$8fI
-L$<+L$xD
-L$<E2
-L$<L;
-L$@9X
-L$@D+
-L$@E3
-L$@H+
-L$@H3
-L$@H;
-L$@H;N(
-L$@Hc
-L$@HcA
-L$@Hi
-L$@Hk
-L$@I;
-L$@Ic
-L$@JcL(
-L$@L+
-L$@Mc
-L$@fA
-L$@fD
-L$@t8I
-L$@t9I
-L$D+L$4D
-L$HD+
-L$HE3
-L$HH+
-L$HH3
-L$HH;
-L$HHc
-L$HI;
-L$HL+
-L$HL;
-L$HLc
-L$HfA
-L$HfD
-L$HfE
-L$PA+
-L$PA+]
-L$PD;
-L$PE+
-L$PE3
-L$PE;
-L$PH+
-L$PH3
-L$PH;
-L$PIc
-L$PMcD
-L$PfA
-L$PfC
-L$PfD
-L$PfE
-L$Pff
-L$T9H
-L$X9A
-L$X;D$D
-L$X;L$h|
-L$XE3
-L$XH3
-L$XH;
-L$XHc
-L$XI;
-L$XIc
-L$XfA
-L$XfD
-L$XfE
-L$\fD;
-L$`A+
-L$`A9m
-L$`B9
-L$`E+
-L$`E2
-L$`E3
-L$`E9E
-L$`H3
-L$`H;
-L$`Hc
-L$`f+
-L$`fA
-L$d9O
-L$dE3
-L$dHc
-L$h3SH
-L$h;Y
-L$hA+
-L$hA;
-L$hE3
-L$hH3
-L$hH;
-L$hHc
-L$hHcD$`H
-L$hHcY
-L$hfE
-L$l9L$xu
-L$lE3
-L$p+D$XA
-L$pD+
-L$pD;
-L$pD;K
-L$pE3
-L$pE;
-L$pH+
-L$pH3
-L$pH;
-L$pLc
-L$pMcD
-L$xA+
-L$xE3
-L$xH3
-L$xH;
-L$xH;M
-L$xHc
-L$xI+
-L$xI;
-L$xIc
-L$xLc
-L$xfA+
-L$|9K
-L&8A2L68
-L+\$`H
-L+d$x
-L90u	9x
-L97uWI
-L98u	9x
-L9l$ t
-L9l$H
-L9o0tuH
-L9t$H
-L9t$X
-L9|$0
-L;d$X
-L;l$Pt
-L;l$`
-L;t$(
-L;t$H
-L;t$P
-L;t$`|
-L;uxt	I
-L;z u
-L;|$ 
-L;|$0M
-LACpH
-LACpu
-LACsu
-LD$4;L$L
-L\$4E3
-L\$8D+
+L\f?freeData@QMapDataBase@@SAXPEAU1@@Z
+L\n?data_ptr@QVariant@@QEBAAEBUPrivate@1@XZ
+L\tL\nL\vL\fL\rL
 Lacute
 Lambda
 Last Number Redial
@@ -29426,66 +26735,12 @@ Launch Mail
 Launch Media
 LayeredPane
 LayoutDirection
-Lc,0vDD
-Lc@03
-LcA0H
-LcB0H
-LcD$8A
-LcD$HD;A
-LcD$HM
-LcD$xI
-LcD$|;
-LcE$3
-LcE(H
-LcE(I
-LcF E
-LcF,J
-LcG@D;GD}<M
-LcGPH
-LcI4H
-LcJ0L
-LcL$8E
-LcL$<O
-LcL$`D
-LcQ,E
-LcQ0H
-LcQ0L
-LcR(E
-LcT$ E
-LcT$dL
-LcT$h
-LcT$pL
-LcV@M;
-Lc[`D;_`
-Lc\$`I;
-Lc\$dL
-Lc\$pH
 Lcaron
-Lcd$$Lc\$(D
-Lcd$t
-LceHL
-LcewA+
-Lcm`E3
-LcmgD
-Lcq4L
-Lcr0A
-Lct$0
-Lct$0A
-Lct$@
-Lct$`H
-Lct$`L
-Lct$lI;
-Lct$xH
-Lcu(I
-Lcu8I
-LcugD
-LcuoH
-Lcuwff
-Lc|$(Hc
-Lc|$8L
+Ldot
 LeaveCriticalSection
 Ledger
 Ledger / ANSI B
+Left
 Legal
 Legal Extra
 LegalExtra
@@ -29497,76 +26752,48 @@ Letter Small
 LetterExtra
 LetterPlus
 LetterSmall
-Lh(E3
 Libpng jmp_buf still allocated
 Library qttestability load failed:
 Library qttestability resolve failed!
 Light
 LightBulb
-Lighthouse plugin does not support threaded pixmaps!
+Lighthouse plugin does not support threaded pixmaps!\n
 LineHeight
 LineHeightType
 LineTo
 LinearGradient
 LinearGradientPattern
+Link
 LinkVisited
+List
 ListFormat
 ListIndent
 ListItem
 ListNumberPrefix
 ListNumberSuffix
 ListStyle
-Lk0;KXH
-Lk|$H8
-Ll$ A;
-Ll$$A;
-Ll$(A;
 LocationChanged
 LoggingMode
 LogicalMode
 Logoff
 Lslash
-Lt$ A;
-Lt$(;
-Lt$8D+
-Lt$`f+
-L|$ A;
-L|$(A;
-L|$,A;
-L|$0A;
-L|$TA;
-M	?count@QByteArray@@QEBAHD@Z
-M D948t2
-M D;a
-M H1E
 M M!M"M#M$M%M&M'M(M)M*M+M,M-M.M/M0M1M2M3M4M5M6M7M8M9M:M;M<M=M>M?M@MAMBMCMDMEMFMGMHMIMJMKMLMMMNMOMPMQMRMSMTMUMVMWMXMYMZM[M\M]M^M_M`MaMbMcMdMeMfMgMhMiMjMkMlMmMnMoMpMqMrMsMtMuMvMwMxMyMzM{M|M}M~M
-M fff
-M0HcP
-M0vpH
-M898H
-M94$r
-M94$sNM
-M;4$u3H;
 META-INF/manifest.xml
-MHHcv
 MNG features are not allowed in a PNG datastream
-MRHcA
-MRHcu
 MSVCP140.dll
+M\f?freeNode@QHashData@@QEAAXPEAX@Z
+M\n?date@QDateTime@@QEBA?AVQDate@@XZ
+M\t?count@QByteArray@@QEBAHD@Z
+M\tM\nM\vM\fM\rM
 Mail Forward
 Make sure to deploy Qt with accessibility plugins.
 Malayalam
+Mali
 Manually deleting a QPlatformScreen. Call QPlatformIntegration::destroyScreen instead.
 Market
 Massyo
 Maximized
-Mc/Ic
-McQ(M
-McX<E;X8}E
-McZ(E
-McZ4E
-Md$xE
-Md;M`u
+MbP?
 Media Fast Forward
 Media Next
 Media Pause
@@ -29578,6 +26805,7 @@ Media Stop
 Medium
 Meeting
 Memory allocation failed while processing sCAL
+Menu
 Menu PB
 MenuBar
 MenuCommand
@@ -29586,6 +26814,7 @@ MenuItem
 MenuStart
 MessageBoxW
 Messenger
+Meta
 Microphone Mute
 Microphone Volume Down
 Microphone Volume Up
@@ -29624,28 +26853,22 @@ Must construct a QGuiApplication before accessing a platform theme hint.
 Must construct a QGuiApplication first.
 My Sites
 Myanmar
-M{A9L
-N 9,0
 N N!N"N#N$N%N&N'N(N)N*N+N,N-N.N/N0N1N2N3N4N5N6N7N8N9N:N;N<N=N>N?N@NANBNCNDNENFNGNHNINJNKNLNMNNNONPNQNRNSNTNUNVNWNXNYNZN[N\N]N^N_N`NaNbNcNdNeNfNgNhNiNjNkNlNmNnNoNpNqNrNsNtNuNvNwNxNyNzN{N|N}N~N
 N&o to All
-N(A;N,v:A
-N0HcP
+N'Ko
 N9OaP
-N<3M<
 NColorGroups
 NColorRoles
 NETSCAPE2.0
-NP3NP
 NULL row buffer
 NVIDIA
-NX3OH
-NX3OX
-NXA3NX
+N\f?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
+N\tN\nN\vN\fN\rN
 Nacute
 NameChanged
 NativeGestureType
-Nc4 D;
 Ncaron
+News
 NextChild
 No IDATs written into file
 No QTLS available. currentContext won't work
@@ -29670,32 +26893,19 @@ Not enough image data
 Not recognizing known sRGB profile that has been edited
 NotRunning
 Notation
+Note
 Ntilde
 Num Lock
 NumLock
 Number Lock
-O	?count@QByteArray@@QEBAHXZ
 O O!O"O#O$O%O&O'O(O)O*O+O,O-O.O/O0O1O2O3O4O5O6O7O8O9O:O;O<O=O>O?O@OAOBOCODOEOFOGOHOIOJOKOLOMONOOOPOQOROSOTOUOVOWOXOYOZO[O\O]O^O_O`OaObOcOdOeOfOgOhOiOjOkOlOmOnOoOpOqOrOsOtOuOvOwOxOyOzO{O|O}O~O
-O(3K(
-O,3K,
-O82K8
-O8E+o
-O<A3O,
 OElig
-OH3CX
-OH3KH
-OH3NH
-OHA3NP
-OI2M1
-OI2N1
-OP3KP
-OPD;GD|
 OPENGL32.dll
-OT3NT
 OUT-OF-RANGE
 OVERFLOWS
-OX3KX
-O\3K\
+O\f?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
+O\t?count@QByteArray@@QEBAHXZ
+O\tO\nO\vO\fO\rO
 Oacute
 ObjectAttributeChanged
 ObjectBoundingMode
@@ -29721,6 +26931,7 @@ Omega
 Omegatonos
 Omicron
 Omicrontonos
+Open
 Open URL
 OpenGL ES
 OpenGL ES 3.0 entry points not found
@@ -29731,61 +26942,24 @@ Oslash
 Oslashacute
 Other
 Otilde
+Ouml
 Out of memory
 OutlinePen
-OxLcC
-P	?count@QDir@@QEBAIXZ
-P Mc4$H
 P P!P"P#P$P%P&P'P(P)P*P+P,P-P.P/P0P1P2P3P4P5P6P7P8P9P:P;P<P=P>P?P@PAPBPCPDPEPFPGPHPIPJPKPLPMPNPOPPPQPRPSPTPUPVPWPXPYPZP[P\P]P^P_P`PaPbPcPdPePfPgPhPiPjPkPlPmPnPoPpPqPrPsPtPuPvPwPxPyPzP{P|P}P~P
-PA\[]
-PA]A\^
-PA]^]
-PA]_[
-PA]_^
-PA^A\^][
-PA^A\_^[
-PA^A]A\^]
-PA^A]_^]
-PA^^[
-PA^^]
-PA^_[
-PA^_]
-PA^_^
-PA^_^[]
-PA^_^][
-PA_A\_^[
-PA_A]A\^]
-PA_A^A\_[
-PA_A^A]A\_^]
-PA_A^A][]
-PA_A^[
-PA_A^]
-PA_A^^
-PA_A^^][
-PA_A^_
-PA_A^_][
-PA_A^_^[
-PA_A^_^]
-PA_^[
-PA_^]
-PA__^
-PCCiD
-PCCiH
-PCCiu
 PCS illuminant is not D50
-PLcQ(L
 PNG file corrupted by ASCII conversion
 PNG unsigned integer out of range
 PNG: Quality %d out of range
-PNGL+
-PODm4
+PNG\r\n
 PRC 16K
 PRC 32K
 PRC 32K Big
 PRC16K
 PRC32K
 PRC32KBig
-PXE9&u
+P\f?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
+P\t?count@QDir@@QEBAIXZ
+P\tP\nP\vP\fP\rP
 PadSpread
 Page Down
 Page Up
@@ -29795,6 +26969,7 @@ PageTab
 PageTabList
 Painter path exceeds +/-32767 pixels.
 Palette is NULL in indexed image
+Pane
 Paragraph
 ParentChanged
 Paste
@@ -29802,10 +26977,11 @@ Pause
 Paused
 Perspective,
 PgDown
+PgUp
 Phone
 Pictures
 Pictures/Picture%1
-Please call destroy() first or use the same context to previously create
+Play
 Please implement alphaFillRect function in your platform or remove AlphaFillRectCapability from it
 Please implement drawCachedGlyphs function in your platform or remove DrawCachedGlyphsCapability from it
 Please implement drawPixmapOpacity function in your platform or remove OpacityPixmapCapability from it
@@ -29838,10 +27014,9 @@ Problem creating accessible interface for:
 ProgressBar
 Property
 PropertyPage
+Puck
 PushButton
 Q Q!Q"Q#Q$Q%Q&Q'Q(Q)Q*Q+Q,Q-Q.Q/Q0Q1Q2Q3Q4Q5Q6Q7Q8Q9Q:Q;Q<Q=Q>Q?Q@QAQBQCQDQEQFQGQHQIQJQKQLQMQNQOQPQQQRQSQTQUQVQWQXQYQZQ[Q\Q]Q^Q_Q`QaQbQcQdQeQfQgQhQiQjQkQlQmQnQoQpQqQrQsQtQuQvQwQxQyQzQ{Q|Q}Q~Q
-Q(HcA
-Q4	A@H
 QAbstractOpenGLTexture::setMipLevels(): This texture target does not support mipmaps
 QAbstractOpenGLTexture::setSize(): Cube map textures must be square
 QAbstractTextDocumentLayout
@@ -30010,16 +27185,16 @@ QOpenGLDebugLogger::%s(): invalid type specified
 QOpenGLDebugLogger::%s(): object must be initialized before enabling/disabling messages
 QOpenGLDebugLogger::initialize(): cannot initialize the object while logging. Please stop the logging first.
 QOpenGLDebugLogger::initialize(): no current OpenGL context found.
-QOpenGLDebugLogger::logMessage(): message too long, truncating it
+QOpenGLDebugLogger::logMessage(): message too long, truncating it\n    (%d bytes long, but the GL accepts up to %d bytes)
 QOpenGLDebugLogger::logMessage(): object must be initialized before logging messages
 QOpenGLDebugLogger::logMessage(): the message has a non-valid type and/or severity. The message will not be logged.
-QOpenGLDebugLogger::logMessage(): using a message source different from ApplicationSource
+QOpenGLDebugLogger::logMessage(): using a message source different from ApplicationSource\n    or ThirdPartySource is not supported by GL_KHR_debug. The message will not be logged.
 QOpenGLDebugLogger::loggedMessages(): object must be initialized before reading logged messages
 QOpenGLDebugLogger::maximumMessageLength(): object must be initialized before reading the maximum message length
-QOpenGLDebugLogger::pushGroup(): group name too long, truncating it
+QOpenGLDebugLogger::pushGroup(): group name too long, truncating it\n    (%d bytes long, but the GL accepts up to %d bytes)
 QOpenGLDebugLogger::pushGroup(): object must be initialized before popping a debug group
 QOpenGLDebugLogger::pushGroup(): object must be initialized before pushing a debug group
-QOpenGLDebugLogger::pushGroup(): using a source different from ApplicationSource
+QOpenGLDebugLogger::pushGroup(): using a source different from ApplicationSource\n    or ThirdPartySource is not supported by GL_KHR_debug. The group will not be pushed.
 QOpenGLDebugLogger::startLogging(): object must be initialized before logging can start
 QOpenGLDebugLogger::startLogging(): this object is already logging
 QOpenGLDebugMessage
@@ -30084,12 +27259,12 @@ QOpenGLTextureGlyphCache::createTextureData: Called with no context
 QOpenGLTextureGlyphCache::fillTexture: Called with no context
 QOpenGLTextureGlyphCache::resizeTextureData: Called with no context
 QOpenGLTimeMonitor
-QOpenGLTimeMonitor requires one of:
-QOpenGLTimeMonitor::samples() requires OpenGL >=3.3
+QOpenGLTimeMonitor requires one of:\n  OpenGL 3.3 or newer,\n  OpenGL 3.2 and the ARB_timer_query extension\n  or the EXT_timer query extension
+QOpenGLTimeMonitor::samples() requires OpenGL >=3.3\nor OpenGL 3.2 and GL_ARB_timer_query
 QOpenGLTimeMonitor::~QOpenGLTimeMonitor() failed to make time monitor's context current
 QOpenGLTimeMonitor::~QOpenGLTimeMonitor() failed to restore current context
 QOpenGLTimerQuery
-QOpenGLTimerQuery requires one of:
+QOpenGLTimerQuery requires one of:\n  OpenGL 3.3 or newer,\n  OpenGL 3.2 and the ARB_timer_query extension\n  or the EXT_timer query extension
 QOpenGLTimerQuery: Not supported on OpenGL ES
 QOpenGLTimerQuery::recordTimestamp() requires OpenGL 3.3 or GL_ARB_timer_query
 QOpenGLTimerQuery::waitForTimestamp() requires OpenGL 3.3 or GL_ARB_timer_query
@@ -30276,7 +27451,7 @@ QPolygonF(
 QPpmHandler::canRead() called with no device
 QQuaternion(scalar:
 QRasterPaintEngine: unsupported for pixmaps...
-QRasterPaintEngine: unsupported target device %d
+QRasterPaintEngine: unsupported target device %d\n
 QRasterPlatformPixmap::metric(): Unhandled metric type %d
 QRasterWindow
 QRect
@@ -30348,7 +27523,7 @@ QTextOdfWriter: unsupported paragraph alignment;
 QTextOdfWriter::writeAll: the device can not be opened for writing
 QTextOption::Tab
 QTextTable
-QTimeMonitor: Attempting to use different OpenGL context to recreate timers.
+QTimeMonitor: Attempting to use different OpenGL context to recreate timers.\nPlease call destroy() first or use the same context to previously create
 QTimerEvent
 QTimerEvent(id=
 QTouchDevice
@@ -30356,6 +27531,8 @@ QTouchDevice(
 QTouchEvent
 QTouchEvent(
 QTransform(type=
+QUOT
+QUrl
 QValidator
 QVariant
 QVariant::Invalid
@@ -30392,6 +27569,8 @@ QZip: Z_MEM_ERROR: Not enough memory to compress file, skipping
 QZip: failed to parse zip file.
 QZip: invalid header signature, index may be incomplete
 QZip: not a zip file!
+Q\n?day@QDate@@QEBAHXZ
+Q\tQ\nQ\vQ\fQ\rQ
 Qt 5.5.0
 Qt4CompatiblePainting
 Qt5Core.dll
@@ -30409,14 +27588,14 @@ Qt::WindowState
 QtMetaTypePrivate::QSequentialIterableImpl
 Quarto
 QueryPerformanceCounter
+Quit
 QyReSOT5U
 R R!R"R#R$R%R&R'R(R)R*R+R,R-R.R/R0R1R2R3R4R5R6R7R8R9R:R;R<R=R>R?R@RARBRCRDRERFRGRHRIRJRKRLRMRNRORPRQRRRSRTRURVRWRXRYRZR[R\R]R^R_R`RaRbRcRdReRfRgRhRiRjRkRlRmRnRoRpRqRrRsRtRuRvRwRxRyRzR{R|R}R~R
-R(D9m 
 R@ffffff
 RAN OUT OF ROOM
-RDHIu
 RGB color space not permitted on grayscale PNG
-RHcM8L
+RSDS
+R\tR\nR\vR\fR\rR
 Racute
 RadialGradient
 RadialGradientPattern
@@ -30425,6 +27604,7 @@ RawPositions
 Rcaron
 Read Error
 Read palette index exceeding num_palette
+Redo
 ReflectSpread
 Refresh
 Regular
@@ -30435,7 +27615,8 @@ RenderHints
 RepeatSpread
 Replace
 Reply
-Requires a valid current OpenGL context.
+Requires a valid current OpenGL context.\nTexture has not been created
+Requires a valid current OpenGL context.\nTexture has not been destroyed
 Reset
 ResetEvent
 Restore Defaults
@@ -30443,6 +27624,7 @@ Retry
 Return
 Rfraktur
 Right
+Role
 Romaji
 Rotate Windows
 Rotated
@@ -30453,28 +27635,14 @@ Rotation2D,
 RotationStylus
 Row has too many bytes to allocate in memory
 RowHeader
-RpHcU
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 Runic
 Running
-S IcD
-S JcD
-S Mc Hc
-S Mc"Hc
-S Mc0Hc
 S S!S"S#S$S%S&S'S(S)S*S+S,S-S.S/S0S1S2S3S4S5S6S7S8S9S:S;S<S=S>S?S@SASBSCSDSESFSGSHSISJSKSLSMSNSOSPSQSRSSSTSUSVSWSXSYSZS[S\S]S^S_S`SaSbScSdSeSfSgShSiSjSkSlSmSnSoSpSqSrSsStSuSvSwSxSySzS{S|S}S~S
-S(tzA
-S8H+G0H
 SANITIZE
-SATAUAVH
-SATAUH
-SATAVAWH
-SATAVH
-SATAWH
-SAUAVAWH
-SAVAWH
+SCN\n
 SERIALIZE
 SF010000
 SF020000
@@ -30517,74 +27685,10 @@ SF520000
 SF530000
 SF540000
 SHAPE_PLAN
-SNRtA
-SNRtu
-SOPGH
-SOPGt
-SOPGt0
-SOPGt6
-SUATAUH
-SUATAVH
-SUATAWH
-SUATH
-SUAUH
-SUAVAWH
-SUAVH
-SUAWH
-SUVATAUAVAWH
-SUVATAUH
-SUVATH
-SUVAVAWH
-SUVAVH
-SUVAWH
-SUVWATAUAVAWH
-SUVWATAUAVH
-SUVWATAVAWH
-SUVWATAVAWLct$`E
-SUVWATAWH
-SUVWAUAVAWH
-SUVWAUAVH
-SUVWAUH
-SUVWAVAWH
-SUVWAVH
-SUVWH
-SUWATAUAVAWH
-SUWATAUAWH
-SUWATAVAWH
-SUWATH
-SUWAUAVAWH
-SUWAUAVH
-SUWAUH
-SUWAVAWH
-SUWAVH
-SVATAVH
-SVAUAVAWH
-SVAUAVH
-SVAUH
-SVAVAWH
-SVAVH
-SVAWH
-SVWATAUAVAWH
-SVWATAUAWH
-SVWATAUH
-SVWATAVH
-SVWATAWH
-SVWATH
-SVWAUAWH
-SVWAUH
-SVWAVAWH
-SVWAVH
-SVWAWH
-SWATAUAVH
-SWATAUAWH
-SWATAVAWH
-SWATH
-SWAUAVH
-SWAUAWH
-SWAUH
-SWAVH
-SWAWH
+S\tS\nS\vS\fS\rS
 Sacute
+Sans
+Save
 Save All
 SaveAs
 Saving unknown chunk:
@@ -30628,6 +27732,7 @@ Selection
 SelectionAdd
 SelectionRemove
 SelectionWithin
+Send
 Separator
 SetEvent
 SetUnhandledExceptionFilter
@@ -30636,6 +27741,7 @@ Settings
 Shader program failed to link,
 Shadow
 Shift
+Shop
 Shows the menu
 Sigma
 Simplified Chinese
@@ -30665,6 +27771,7 @@ StateChanged
 Statement
 StaticText
 StatusBar
+Stop
 StretchToDeviceMode
 StyleStrategy
 Stylus
@@ -30685,121 +27792,8 @@ System Request
 SystemFont
 SystemParametersInfoW
 T T!T"T#T$T%T&T'T(T)T*T+T,T-T.T/T0T1T2T3T4T5T6T7T8T9T:T;T<T=T>T?T@TATBTCTDTETFTGTHTITJTKTLTMTNTOTPTQTRTSTTTUTVTWTXTYTZT[T\T]T^T_T`TaTbTcTdTeTfTgThTiTjTkTlTmTnToTpTqTrTsTtTuTvTwTxTyTzT{T|T}T~T
-T$ E+
-T$ E3
-T$ H9T$(t	H
-T$ H;
-T$ H;W(t
-T$ Hc
-T$ Hk
-T$ Ic
-T$ L;
-T$ Lk
-T$ M;
-T$ fA
-T$$A9V(
-T$$A;V(
-T$$D9
-T$$D;
-T$$Ic@
-T$$IcG
-T$$L;
-T$$Lc
-T$(E3
-T$(H;U t
-T$(Hc
-T$(HcH
-T$(Hc|$ L
-T$(I;
-T$(Ic
-T$(v9
-T$,M+
-T$0D)
-T$0D+
-T$0D8m
-T$0E3
-T$0H+
-T$0Hc
-T$0HcG4
-T$0Hi
-T$0L;
-T$0fA
-T$49P
-T$89P
-T$8;T$H
-T$8D;
-T$8E;
-T$8H+
-T$8Lc
-T$<9P
-T$<H;
-T$@+T$8D
-T$@A+
-T$@D+
-T$@E3
-T$@H+
-T$@H;S(t
-T$@Ic
-T$@Lc
-T$@fD
-T$DL+
-T$HD;
-T$HH;
-T$HH;T$P
-T$HIc
-T$LD;
-T$PA;
-T$PD;
-T$PE3
-T$PH+
-T$PH;V
-T$PH;W t
-T$PIk
-T$X;T$h|
-T$XD+
-T$XE2
-T$XE3
-T$XH+
-T$XH;
-T$XHcB4L
-T$XHcH
-T$XHi
-T$XLcT$p
-T$Xff
-T$Zf;
-T$\A;
-T$`+L$d
-T$`E3
-T$dH;M
-T$dL+
-T$hD;
-T$hE3
-T$hH;
-T$hHc
-T$hI;
-T$hIc
-T$p;P
-T$pD;
-T$pH;S
-T$pM;
-T$tIc
-T$xD;
-T$xH;
-TADIH
-TADIM
-TADIu
-TADIu 
-TADIu!
-TADIu.
-TADIuu
 THORN
-TIBsH
-TIBsu
-TLFDH
-TLFDM
-TLPsD
-TLPsu
-TSIhu
+T\tT\nT\vT\fT\rT
 TabPositions
 Table
 TableCaptionChanged
@@ -30830,12 +27824,14 @@ Tabloid Extra
 TabloidExtra
 Tamil
 Task Panel
+Tbar
 Tcaron
 Telugu
 Terminal
 TerminateProcess
 Tessellation Control
 Tessellation Evaluation
+Text
 TextAntialiasing
 TextAttributeChanged
 TextCaretMoved
@@ -30850,15 +27846,15 @@ TextUnderlineColor
 TextUnderlineStyle
 TextUpdated
 TextVerticalAlignment
-Texture has not been created
-Texture has not been destroyed
 Texture target does not support array layers
 Texture target does not support multisampling
 TexturePattern
 Thaana
+Thai
 The Medium font weight
 The Normal or Regular font weight
 Theta
+Thin
 This function was erroneously included in previous versions of Qt and is here only for binary compatibility. If you need to use this function, please use a legacy OpenGL version or a Compatibility profile.
 This plugin does not support QCursor::setPos(); emulating movement within the application.
 This plugin does not support QPlatformServices::openDocument() for '%s'.
@@ -30878,14 +27874,9 @@ This plugin does not support setting window masks
 This plugin does not support setting window opacity
 Thorn
 Tibetan
+Time
 TitleBar
 TitleFont
-To do so call allocateStorage() before this function
-To do so, destroy() the texture and then create() and setFixedSamplePositions()
-To do so, destroy() the texture and then create() and setLayers()
-To do so, destroy() the texture and then create() and setMipLevels()
-To do so, destroy() the texture and then create() and setSamples()
-To do so, destroy() the texture and then create() and setSize()
 Toggle Call/Hangup
 Toggle Media Play/Pause
 Toggles the state
@@ -30913,6 +27904,7 @@ Translation,
 Travel
 Treble Down
 Treble Up
+Tree
 TreeItem
 Triggers the action
 Trying to construct an instance of an invalid type, type id: %i
@@ -30923,123 +27915,21 @@ TxRotate
 TxScale
 TxShear
 TxTranslate
+Type
 U U!U"U#U$U%U&U'U(U)U*U+U,U-U.U/U0U1U2U3U4U5U6U7U8U9U:U;U<U=U>U?U@UAUBUCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTUUUVUWUXUYUZU[U\U]U^U_U`UaUbUcUdUeUfUgUhUiUjUkUlUmUnUoUpUqUrUsUtUuUvUwUxUyUzU{U|U}U~U
-U<D;|$xH
-UATAUAVAWH
-UATAUAVH
-UATAUAVI
-UATAUAWH
-UATAUH
-UATAUI
-UATAVH
-UATAWH
-UAUAVH
-UAUAWH
-UAVAWH
-UHHcH
 UNKNOWN
-USATAUAVH
-USATAUH
-USATAUI
-USATAVAWH
-USATAWH
-USATH
-USAUAVAWH
-USAUAVI
-USAUH
-USAUI
-USAVH
-USAVI
-USAWH
 USER32.dll
-USVATAUAVAWH
-USVATAVAWH
-USVAUAVAWH
-USVAUAVH
-USVAVAWH
-USVAVH
-USVAWH
-USVAWI
-USVWATAUAVAWH
-USVWATAUAVH
-USVWATAUH
-USVWATAUI
-USVWATAVAWH
-USVWATAVH
-USVWATAVI
-USVWATAWH
-USVWATH
-USVWATI
-USVWAUAVAWH
-USVWAUAVH
-USVWAUAWH
-USVWAUH
-USVWAVAWH
-USVWAVAWI
-USVWAVH
-USVWAVI
-USVWAWI
-USVWH
-USWATAUAVAWH
-USWATAUAWH
-USWATAUH
-USWATAVH
-USWATH
-USWAUAVAWH
-USWAUAWH
-USWAUH
-USWAVAWH
-USWAVH
-USWAVI
-USWAWH
 UTF-8
+UUUU
 UUUUUU
-UVATAUAVH
-UVATAUAWH
-UVATAVAW
-UVATAVAWI
-UVATAVH
-UVATH
-UVAUAVH
-UVAUH
-UVAVH
-UVAWH
-UVWATAUAVAW
-UVWATAUAVAWH
-UVWATAUAWH
-UVWATAUH
-UVWATAUI
-UVWATAVH
-UVWATAWH
-UVWATAWI
-UVWATI
-UVWAUAWH
-UVWAUH
-UVWAVAWH
-UVWAVH
-UVWAVI
-UVWAWH
-UVWAWI
 UVWXYZ
-UWATAUAVAWH
-UWATAUAWH
-UWATAUAWI
-UWATAUH
-UWATAUI
-UWATAVAWH
-UWATAVI
-UWAUAVAWH
-UWAUH
-UWAVAWI
-UWAVH
-UWAWH
-U_H;S(t
+U\r?indexOfEnumerator@QMetaObject@@QEBAHPEBD@Z
+U\tU\nU\vU\fU\rU
 Uacute
 Ubreve
 Ucirc
 Ucircumflex
 Udieresis
-UgHcA4L
 Ugrave
 Uhorn
 Uhungarumlaut
@@ -31047,6 +27937,7 @@ Ultra Wide Band
 Umacron
 Unable to read image data
 Underline
+Undo
 UnhandledExceptionFilter
 Uninitialized row
 Unknown compression method in IHDR
@@ -31079,27 +27970,12 @@ UserObject
 UserProperty
 UserRole
 Utilde
-V JcD"
+Uuml
 V V!V"V#V$V%V&V'V(V)V*V+V,V-V.V/V0V1V2V3V4V5V6V7V8V9V:V;V<V=V>V?V@VAVBVCVDVEVFVGVHVIVJVKVLVMVNVOVPVQVRVSVTVUVVVWVXVYVZV[V\V]V^V_V`VaVbVcVdVeVfVgVhViVjVkVlVmVnVoVpVqVrVsVtVuVvVwVxVyVzV{V|V}V~V
-VATAUAVAWH
-VATAUAWH
-VATAUH
-VATAVH
-VATAWH
-VAUAVAW
-VAUAVAWH
-VAUAWH
-VAVAWH
+VBGR
 VCRUNTIME140.dll
-VUUUA
-VWATAUAVH
-VWATAUAWH
-VWATAVAWH
-VWATAVH
-VWAUAVAWH
-VWAUAVH
-VWAVH
-VWAWH
+VRGB
+V\tV\nV\vV\fV\rV
 Valid palette required for paletted images
 ValueChanged
 Velocity
@@ -31109,25 +27985,17 @@ Vertex shader for blitShaderProg (MainWithTexCoordsVertexShader & UntransformedP
 Vertex shader for simpleShaderProg (MainVertexShader & PositionOnlyVertexShader) failed to compile
 Video
 Vietnamese
+View
 Visibility
 VisibleDataChanged
 Voice Dial
 Volume Down
 Volume Mute
 Volume Up
-W H9D$8t$H
 W W!W"W#W$W%W&W'W(W)W*W+W,W-W.W/W0W1W2W3W4W5W6W7W8W9W:W;W<W=W>W?W@WAWBWCWDWEWFWGWHWIWJWKWLWMWNWOWPWQWRWSWTWUWVWWWXWYWZW[W\W]W^W_W`WaWbWcWdWeWfWgWhWiWjWkWlWmWnWoWpWqWrWsWtWuWvWwWxWyWzW{W|W}W~W
-W$D+G(+W 
-W%O8"
-W=E/"
 W@33333
-WATAUAVAWH
-WATAUAVH
-WATAUH
-WATAVAWH
-WATAVH
-WAUAVAWH
-WAVAWH
+W\r?indexOfMethod@QMetaObject@@QEBAHPEBD@Z
+W\tW\nW\vW\fW\rW
 Wacute
 WaitForSingleObjectEx
 Wake Up
@@ -31151,75 +28019,16 @@ Writing zero-length unknown chunk
 WritingSystem
 WritingSystemsCount
 Wrote palette index exceeding num_palette
-X	?count@QString@@QEBAHXZ
 X      c #FFFFFF
 X ......... X
-X AVH
-X UVATAUAWH
-X UVWATAUAVAWH
-X UVWAVAWH
-X UVWH
 X X X X X X X
 X X!X"X#X$X%X&X'X(X)X*X+X,X-X.X/X0X1X2X3X4X5X6X7X8X9X:X;X<X=X>X?X@XAXBXCXDXEXFXGXHXIXJXKXLXMXNXOXPXQXRXSXTXUXVXWXXXYXZX[X\X]X^X_X`XaXbXcXdXeXfXgXhXiXjXkXlXmXnXoXpXqXrXsXtXuXvXwXxXyXzX{X|X}X~X
-X@hH;
-XA\_[]
-XA\_[]H
-XA]A\
-XA]A\_[
-XA]A\_^
-XA]_^[
-XA^A]
-XA^A]A\[
-XA^A]_^][
-XA^[H
-XA^^[]
-XA^_^[
-XA_A\_]
-XA_A]
-XA_A]A\]
-XA_A]A\_^[
-XA_A]_^[]
-XA_A]_^][
-XA_A^
-XA_A^A\[
-XA_A^A]A\_^[]
-XA_A^A]A\_^][
-XA_A^H
-XA_A^^[
-XA_A^^]
-XA_^][
-XA__^]
-XC@H;
+XFer
 XFreeEraser
-XS fA
-XS(fA
-XV fA
-X_^[]
-X_^][
-Xg fA
-Xr fE
-Xs(fE
-Xv(fA
-Y Ic?H
+X\t?count@QString@@QEBAHXZ
+X\tX\nX\vX\fX\rX
 Y Y!Y"Y#Y$Y%Y&Y'Y(Y)Y*Y+Y,Y-Y.Y/Y0Y1Y2Y3Y4Y5Y6Y7Y8Y9Y:Y;Y<Y=Y>Y?Y@YAYBYCYDYEYFYGYHYIYJYKYLYMYNYOYPYQYRYSYTYUYVYWYXYYYZY[Y\Y]Y^Y_Y`YaYbYcYdYeYfYgYhYiYjYkYlYmYnYoYpYqYrYsYtYuYvYwYxYyYzY{Y|Y}Y~Y
-Y50k3
-Y5P`)
-Y5R+&
-Y5o;0
-Y=?`)
-Y=[~\
-Y=h+"
-Y@PH;
-Y@PL;
-YARGL
-YARGt6
-YD$pH
-YHXI;
-YL$`D
-YT$ A
-YT$ f
-YU(fA
-Y\$ A
+Y\tY\nY\vY\fY\rY
 Yacute
 YbZ6[
 Ycircumflex
@@ -31227,215 +28036,223 @@ Ydieresis
 Yellow
 Yes to &All
 Ygrave
-Yh`L;
-YxXM;
+Yuml
 Z Z!Z"Z#Z$Z%Z&Z'Z(Z)Z*Z+Z,Z-Z.Z/Z0Z1Z2Z3Z4Z5Z6Z7Z8Z9Z:Z;Z<Z=Z>Z?Z@ZAZBZCZDZEZFZGZHZIZJZKZLZMZNZOZPZQZRZSZTZUZVZWZXZYZZZ[Z\Z]Z^Z_Z`ZaZbZcZdZeZfZgZhZiZjZkZlZmZnZoZpZqZrZsZtZuZvZwZxZyZzZ{Z|Z}Z~Z
+Z\tZ\nZ\vZ\fZ\rZ
 Z_OK on Z_FINISH with output space
 Zacute
 Zcaron
 Zdotaccent
 Zenkaku
 Zenkaku Hankaku
+Zeta
+Zoom
 Zoom In
 Zoom Out
 ZoomIn
 ZoomOut
-[ UVWATAUAVAWH
 [ [!["[#[$[%[&['[([)[*[+[,[-[.[/[0[1[2[3[4[5[6[7[8[9[:[;[<[=[>[?[@[A[B[C[D[E[F[G[H[I[J[K[L[M[N[O[P[Q[R[S[T[U[V[W[X[Y[Z[[[\[][^[_[`[a[b[c[d[e[f[g[h[i[j[k[l[m[n[o[p[q[r[Qt5Gui.dll
-[/Pattern /DeviceRGB]
-[0-9]+
-[2 2] -1 d
-[2 2] 1 d
-[2 6] -1 d
-[2 6] 3 d
-[6 2] -3 d
-[6 2] 1 d
-[\na]
-[] 0 d
+[/Pattern /DeviceRGB]\nendobj\n
+[\t[\n[\v[\f[\r[
+[\v?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 [a-zA-Z][a-zA-Z0-9_]*
 [type= 
-\$ ATAVAWH
-\$ AVH
-\$ D+
-\$ E3
-\$ H9
-\$ H;
-\$ Hc
-\$ Ic
-\$ L+
-\$ UATAWH
-\$ UAVAWH
-\$ UH
-\$ UVAVH
-\$ UVAWH
-\$ UVWATAUAVAW
-\$ UVWATAUAVAWH
-\$ UVWATAVH
-\$ UVWAUAVH
-\$ UVWAVAWH
-\$ UVWH
-\$ UWATAVAWH
-\$ UWAUAVAWH
-\$ UWAUAVD
-\$ UWAVH
-\$ VATAWH
-\$ VAVAWH
-\$ VH
-\$ VWATAUAWH
-\$ VWAVH
-\$ WATAUAVAWH
-\$ WATAWH
-\$ WAVD
-\$ WH
-\$ fff
-\$ tB
-\$$;\$4
-\$$A;
-\$$D;
-\$$E9^
-\$$Hc
-\$(A;
-\$(D;S
-\$(E3
-\$(H+
-\$(I+
-\$,Hc
-\$,M;
-\$09]
-\$0A^_
-\$0D;
-\$0E3
-\$0Hc^
-\$0Hc_
-\$0Hc{
-\$0Hk
-\$0I;
-\$0Ic
-\$0L+
-\$0M;
-\$0Mc
-\$0ff
-\$0taH
-\$0}BH
-\$4A;
-\$4D8d$8t:H
-\$4Ic
-\$4fD
-\$8D+
-\$8D9c
-\$8D9h
-\$8D;
-\$8E3
-\$8H+
-\$8H;
-\$8H;W
-\$8HcF4A
-\$8Hc_
-\$8Hc}
-\$8L+
-\$8L;
-\$8M;w M
-\$8Mc
-\$<Ic
-\$@A;
-\$@A^A]_]
-\$@E3
-\$@E;
-\$@H;
-\$@M+
-\$@M;
-\$@fA
-\$@fE
-\$@ff
-\$@tLH
-\$@t^H
-\$@u,3
-\$@u1H
-\$DA;
-\$DLc
-\$DfA
-\$HH;
-\$HIcF4A
-\$HLc
-\$Hu=
-\$LA;
-\$P9O
-\$PA;]
-\$PD9
-\$PH;
-\$PHc
-\$PIc
-\$PM;
-\$Pfff
-\$Pu"H
-\$T;A
-\$TD+
-\$X9E
-\$XIc
-\$XM;
-\$XfA
-\$Xu'H
-\$X}-H
-\$`A;
-\$`Hc
-\$`I+
-\$`Ic
-\$`L+
-\$`Mk
-\$hD9h
-\$hD;
-\$hH+\$`L
-\$hH;
-\$hL;
-\$hfA
-\$ht$3
-\$htCI
-\$h~-eH
-\$p9{
-\$p;Y
-\$pA9^4
-\$pA;^4
-\$pD;
-\$pHc
-\$pHc_
-\$pIc
-\$pL+
-\$pM;
-\$pu'E
-\$rfD
-\$rfE
-\$xH;
-\$xHc{
-\$xLc
-\.?0*$
-\D$(f
-\D$0fA
-\D$8f
-\D$8fA
-\D$@fA
-\D$Hf
-\D$HfA
-\D$Pf
-\F@fA
-\L$0D
-\T$@A
+\\f?fromJson@QJsonDocument@@SA?AV1@AEBVQByteArray@@PEAUQJsonParseError@@@Z
+\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
 \]^_`abcdef
-]	_R`
-] E;}
-]@;]P
-]PHc{
-]o^8_
-^#define[ 	]+[a-zA-Z0-9._]+[ 	]+
+\f \f!\f"\f#\f$\f%\f&\f'\f(\f)\f*\f+\f,\f-\f.\f/\f0\f1\f2\f3\f4\f5\f6\f7\f8\f9\f:\f;\f<\f=\f>\f?\f@\fA\fB\fC\fD\fE\fF\fG\fH\fI\fJ\fK\fL\fM\fN\fO\fP\fQ\fR\fS\fT\fU\fV\fW\fX\fY\fZ\f[\f\\f]\f^\f_\f`\fa\fb\fc\fd\fe\ff\fg\fh\fi\fj\fk\fl\fm\fn\fo\fp\fq\fr\fs\ft\fu\fv\fw\fx\fy\fz\f{\f|\f}\f~\f
+\f!\f(\f+\f-\f0\f3\f5\f<\fH\fQ\fX\fa\fm\fz\f
+\f?fromString@QVersionNumber@@SA?AV1@AEBVQString@@PEAH@Z
+\f?fromUcs4@QString@@SA?AV1@PEBIH@Z
+\f?fromUtf8@QString@@SA?AV1@AEBVQByteArray@@@Z
+\f?fromUtf8@QString@@SA?AV1@PEBDH@Z
+\f?get@QObjectPrivate@@SAPEAV1@PEAVQObject@@@Z
+\f?get@QThreadStorageData@@QEBAPEAPEAXXZ
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?getChar@QIODevice@@QEAA_NPEAD@Z
+\f?hasFormat@QMimeData@@UEBA_NAEBVQString@@@Z
+\f?hasFragment@QUrl@@QEBA_NXZ
+\f?hasImage@QMimeData@@QEBA_NXZ
+\f?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
+\f?hasPartialMatch@QRegularExpressionMatch@@QEBA_NXZ
+\f\t\f\n\f\v\f\f\f\r\f
+\f\v\n\f\v\n\f\v\n\f\v\n\v
+\fs@33333
+\fs@fffffvq@
+\n        in vec2 textureCoords; \n        uniform sampler2D imageTexture; \n        vec4 srcPixel() \n        { \nreturn texture(imageTexture, textureCoords); \n}\n
+\n        in vec4 vertexCoordsArray; \n        void setPosition(void) \n        { \n            gl_Position = vertexCoordsArray; \n        }\n
+\n    #define INVERSE_2PI 0.1591549430918953358 \n    uniform           sampler2D brushTexture; \n    uniform   mediump float     angle; \n    varying   highp   vec2      A; \n    lowp vec4 srcPixel() \n    { \n        highp float t; \n        if (abs(A.y) == abs(A.x)) \n            t = (atan(-A.y + 0.002, A.x) + angle) * INVERSE_2PI; \n        else \n            t = (atan(-A.y, A.x) + angle) * INVERSE_2PI; \n        return texture2D(brushTexture, vec2(t - floor(t), 0.5)); \n    }\n
+\n    attribute highp   vec2      textureCoordArray; \n    attribute lowp    float     opacityArray; \n    varying   highp   vec2      textureCoords; \n    varying   lowp    float     opacity; \n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n        textureCoords = textureCoordArray; \n        opacity = opacityArray; \n    }\n
+\n    attribute highp   vec2      textureCoordArray; \n    varying   highp   vec2      textureCoords; \n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n        textureCoords = textureCoordArray; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      A; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2  viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        A = hTexCoords.xy * invertedHTexCoordsZ; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec2      invertedTextureSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      brushTextureCoords; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        brushTextureCoords.xy = (hTexCoords.xy * invertedTextureSize) * gl_Position.w; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec2      invertedTextureSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      patternTexCoords; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1.0); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        patternTexCoords.xy = (hTexCoords.xy * 0.125) * invertedHTexCoordsZ; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec3      linearData; \n    uniform   highp   mat3      brushTransform; \n    varying   mediump float     index; \n    void setPosition() \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        index = (dot(linearData.xy, hTexCoords.xy) * linearData.z) * invertedHTexCoordsZ; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position = vec4(transformedPos.xy, 0.0, transformedPos.z); \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray;\n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   mat3      brushTransform; \n    uniform   highp   vec2      fmp; \n    uniform   mediump vec3      bradius; \n    varying   highp   float     b; \n    varying   highp   vec2      A; \n    void setPosition(void) \n    {\n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        A = hTexCoords.xy * invertedHTexCoordsZ; \n        b = bradius.x + 2.0 * dot(A, fmp); \n    }\n
+\n    attribute highp   vec4      vertexCoordsArray; \n    void setPosition(void) \n    { \n        gl_Position = vertexCoordsArray; \n    }\n
+\n    lowp vec4 srcPixel() \n    { \n        return vec4(0.98, 0.06, 0.75, 1.0); \n    }\n
+\n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(compose(srcPixel())); \n    }\n
+\n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(srcPixel()); \n    }\n
+\n    lowp vec4 srcPixel(); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = compose(srcPixel()); \n    }\n
+\n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel(); \n    }\n
+\n    uniform           sampler2D brushTexture; \n    uniform   highp   float     fmp2_m_radius2; \n    uniform   highp   float     inverse_2_fmp2_m_radius2; \n    uniform   highp   float     sqrfr; \n    varying   highp   float     b; \n    varying   highp   vec2      A; \n    uniform   mediump vec3      bradius; \n    lowp vec4 srcPixel() \n    { \n        highp float c = sqrfr-dot(A, A); \n        highp float det = b*b - 4.0*fmp2_m_radius2*c; \n        lowp vec4 result = vec4(0.0); \n        if (det >= 0.0) { \n            highp float detSqrt = sqrt(det); \n            highp float w = max((-b - detSqrt) * inverse_2_fmp2_m_radius2, (-b + detSqrt) * inverse_2_fmp2_m_radius2); \n            if (bradius.y + w * bradius.z >= 0.0) \n                result = texture2D(brushTexture, vec2(w, 0.5)); \n        } \n        return result; \n    }\n
+\n    uniform           sampler2D brushTexture; \n    uniform   lowp    vec4      patternColor; \n    varying   highp   vec2      patternTexCoords;\n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(brushTexture, patternTexCoords).r); \n    }\n
+\n    uniform           sampler2D brushTexture; \n    varying   mediump float     index; \n    lowp vec4 srcPixel() \n    { \n        mediump vec2 val = vec2(index, 0.5); \n        return texture2D(brushTexture, val); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(compose(srcPixel()*globalOpacity))); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(srcPixel()*globalOpacity); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = compose(srcPixel()*globalOpacity); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel()*globalOpacity; \n    }\n
+\n    uniform   lowp    vec4      fragmentColor; \n    lowp vec4 srcPixel() \n    { \n        return fragmentColor; \n    }\n
+\n    uniform highp mat3 matrix; \n    attribute highp vec2 vertexCoordsArray; \n    void setPosition(void) \n    { \n      gl_Position = vec4(matrix * vec3(vertexCoordsArray, 1), 1);\n    } \n
+\n    varying   highp   vec2      brushTextureCoords; \n    uniform           sampler2D brushTexture; \n    lowp vec4 srcPixel() \n    { \n        return texture2D(brushTexture, brushTextureCoords); \n    }\n
+\n    varying   highp   vec2      brushTextureCoords; \n    uniform   lowp    vec4      patternColor; \n    uniform           sampler2D brushTexture; \n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(brushTexture, brushTextureCoords).r); \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return customShader(imageTexture, textureCoords); \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \nreturn texture2D(imageTexture, textureCoords); \n}\n
+\n    varying   highp   vec2      textureCoords; \n    uniform          sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        lowp vec4 sample = texture2D(imageTexture, textureCoords); \n        sample.rgb = sample.rgb * sample.a; \n        return sample; \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform          sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return texture2D(imageTexture, textureCoords).rrra; \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform          sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return vec4(0, 0, 0, texture2D(imageTexture, textureCoords).r); \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform   lowp    vec4      patternColor; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(imageTexture, textureCoords).r); \n    }\n
+\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    { \n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src * mask; \n    }\n
+\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    { \n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src.a * mask; \n    }\n
+\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    {\n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src * mask.a; \n    }\n
+\n    varying   lowp    float     opacity; \n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel() * opacity; \n    }\n
+\n    varying highp   vec2      brushTextureCoords; \n    uniform         sampler2D brushTexture; \n    lowp vec4 srcPixel() { \n        return texture2D(brushTexture, fract(brushTextureCoords)); \n    }\n
+\n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n    }\n
+\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
+\n/Ascent 
+\n/CIDSystemInfo << /Registry (Adobe) /Ordering (Identity) /Supplement 0 >>\n/FontDescriptor 
+\n/CapHeight 
+\n/CreationDate (D:%d%02d%02d%02d%02d%02d)\n
+\n/Creator 
+\n/Descent 
+\n/Encoding /Identity-H\n/DescendantFonts [
+\n/Flags 
+\n/FontBBox [
+\n/FontFile2 
+\n/Length 
+\n/Matrix [
+\n/Producer 
+\n/StemV 
+\n/TilingType 1\n/BBox [0 0 
+\n/YStep 
+\n<table
+\n<tr>\n<td style="border: none;">
+\n>>\nstream\n
+\n?destroyed@QObject@@QEAAXPEAV1@@Z
+\n?detach@QListData@@QEAAPEAUData@1@H@Z
+\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+\n?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
+\n?device@QDataStream@@QEBAPEAVQIODevice@@XZ
+\n?direction@QChar@@SA?AW4Direction@1@I@Z
+\n?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
+\n?disconnectNotify@QBuffer@@MEAAXAEBVQMetaMethod@@@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?displayName@QStandardPaths@@SA?AVQString@@W4StandardLocation@1@@Z
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dropMimeData@QAbstractItemModel@@UEAA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
+\n?dx@QLineF@@QEBANXZ
+\n?dy@QLineF@@QEBANXZ
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\n?elapsed@QElapsedTimer@@QEBA_JXZ
+\n?elapsed@QTime@@QEBAHXZ
+\n\t\n\n\n\v\n\f\n\r\n
+\n\t\n\t\t\t\n\t\n\t\t
+\n\v?encodeName@QFile@@SA?AVQByteArray@@AEBVQString@@@Z
+\r \r!\r"\r#\r$\r%\r&\r'\r(\r)\r*\r+\r,\r-\r.\r/\r0\r1\r2\r3\r4\r5\r6\r7\r8\r9\r:\r;\r<\r=\r>\r?\r@\rA\rB\rC\rD\rE\rF\rG\rH\rI\rJ\rK\rL\rM\rN\rO\rP\rQ\rR\rS\rT\rU\rV\rW\rX\rY\rZ\r[\r\\r]\r^\r_\r`\ra\rb\rc\rd\re\rf\rg\rh\ri\rj\rk\rl\rm\rn\ro\rp\rq\rr\rs\rt\ru\rv\rw\rx\ry\rz\r{\r|\r}\r~\r
+\r?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
+\r?hasShrunk@QHashData@@QEAAXXZ
+\r?headerData@QAbstractItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
+\r?headerDataChanged@QAbstractItemModel@@QEAAXW4Orientation@Qt@@HH@Z
+\r?height@QRect@@QEBAHXZ
+\r?height@QRectF@@QEBANXZ
+\r?height@QSize@@QEBAHXZ
+\r?height@QSizeF@@QEBANXZ
+\r?hex@@YAAEAVQTextStream@@AEAV1@@Z
+\r?highSurrogate@QChar@@SAGI@Z
+\r?insert@?$QVector@VQPointF@@@@QEAAXHAEBVQPointF@@@Z
+\r?insert@QByteArray@@QEAAAEAV1@HD@Z
+\r?insert@QListData@@QEAAPEAPEAXH@Z
+\r?insert@QString@@QEAAAEAV1@HAEBV1@@Z
+\r?insertColumn@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
+\r?insertRow@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
+\r?installEventFilter@QObject@@QEAAXPEAV1@@Z
+\r?instance@QCoreApplication@@SAPEAV1@XZ
+\r?instance@QFactoryLoader@@QEBAPEAVQObject@@H@Z
+\r?intersect@QLineF@@QEBA?AW4IntersectType@1@AEBV1@PEAVQPointF@@@Z
+\r?intersected@QRect@@QEBA?AV1@AEBV1@@Z
+\r?intersected@QRectF@@QEBA?AV1@AEBV1@@Z
+\r?intersects@QRect@@QEBA_NAEBV1@@Z
+\r?intersects@QRectF@@QEBA_NAEBV1@@Z
+\r?invalidatePersistentIndex@QAbstractItemModelPrivate@@QEAAXAEBVQModelIndex@@@Z
+\r?invoke@QMetaMethod@@QEBA_NPEAVQObject@@W4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@333333333@Z
+\r?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
+\r?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
+\r?isAccepted@QEvent@@QEBA_NXZ
+\r?isActive@QBasicTimer@@QEBA_NXZ
+\r?isDebugBuild@QLibraryInfo@@SA_NXZ
+\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\r\t\r\n\r\v\r\f\r\r\r
+\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
+\t?constEnd@QJsonArray@@QEBA?AVconst_iterator@1@XZ
+\t?constEnd@QString@@QEBAPEBVQChar@@XZ
+\t?contains@QByteArray@@QEBA_NAEBV1@@Z
+\t?contains@QByteArray@@QEBA_ND@Z
+\t?contains@QByteArray@@QEBA_NPEBD@Z
+\t?contains@QJsonObject@@QEBA_NAEBVQString@@@Z
+\t?contains@QRect@@QEBA_NAEBV1@_N@Z
+\t?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
+\t?critical@QMessageLogger@@QEBA?AVQDebug@@XZ
+\t?critical@QMessageLogger@@QEBAXPEBDZZ
+\t?currentDateTime@QDateTime@@SA?AV1@XZ
+\t?currentThread@QThread@@SAPEAV1@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\t?d_func@QCoreApplication@@AEAAPEAVQCoreApplicationPrivate@@XZ
+\t\n\n(\nF\nc\nt\n
+\t\t\t\n\t\v\t\f\t\r\t
+\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
+\v?end@?$QVector@VQPoint@@@@QEBAPEBVQPoint@@XZ
+\v?errorString@QIODevice@@QEBA?AVQString@@XZ
+\v?errorString@QJsonParseError@@QEBA?AVQString@@XZ
+\v?errorString@QLibrary@@QEBA?AVQString@@XZ
+\v?event@QCoreApplication@@MEAA_NPEAVQEvent@@@Z
+\v?event@QEventLoop@@UEAA_NPEAVQEvent@@@Z
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventDispatcher@QCoreApplicationPrivate@@2PEAVQAbstractEventDispatcher@@EA
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+\v?exactMatch@QRegExp@@QEBA_NAEBVQString@@@Z
+\v?exec@QCoreApplication@@SAHXZ
+\v?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
+\v?exists@QDir@@QEBA_NAEBVQString@@@Z
+\v?exists@QFile@@QEBA_NXZ
+\v?exists@QFile@@SA_NAEBVQString@@@Z
+\v?exists@QFileInfo@@QEBA_NXZ
+\v?exit@QEventLoop@@QEAAXH@Z
+\v?expandedTo@QSize@@QEBA?AV1@AEBV1@@Z
+\v?fatal@QMessageLogger@@QEBAXPEBDZZ
+\v?fetchMore@QAbstractItemModel@@UEAAXAEBVQModelIndex@@@Z
+\v?fileName@QFile@@UEBA?AVQString@@XZ
+\v?fileName@QTemporaryFile@@UEBA?AVQString@@XZ
+\v?filePath@QDir@@QEBA?AVQString@@AEBV2@@Z
+\v?fill@QBitArray@@QEAA_N_NH@Z
+\v\f\f\v\n\f\v\n\f\v\n\f\v\n\f
+\v\t\v\n\v\v\v\f\v\r\v
+\v\v\v\v\v\v\v\v\v\v\v
+]\n/Border [0 0 0]\n/A <<\n
+]\n/Encode [
+]\n/Extend [true true]\n/Function 
+]\n/Functions [
+]\n/Group <</S /Transparency >>\n/Resources <<\n/Shading << /Shader
+]\n/ItalicAngle 
+]\n/Resources \n<< 
+]\n/XStep 
+]\nendobj\n
+^#define[ \t]+[a-zA-Z0-9._]+[ \t]+
 ^(.*)\(([a-zA-Z0-9_.*? +;#\-\[\]@\{\}/!<>\$%&=^~:\|]*)\)$
-^(E9f
-^(tKH
-^Mcl1
-^U8fA
-^u8fA
-^|$$A
-_5W}+
 _CxxThrowException
 _RDATA
+_\f?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
+_\n?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
 __C_specific_handler
 __CxxFrameHandler3
 __Qt__Box__Engine__
@@ -31472,35 +28289,8 @@ _q_updateFocusObject
 _register_onexit_function
 _seh_filter_dll
 _strdup
-` D;'I
-`"a"H"& 
-`(@SH
-`.rdata
-`0@SH
-`8@SH
-`@@SH
-`A]A\[
-`A]^]
-`A]_[
-`A^A]A\^]
-`A^][
-`A^^[
-`A^_]
-`A^_^[]
-`A_A]_[]
-`A_A^A\
-`A_A^A\_]
-`A_A^A\_^][
-`A_A^A]A\_^]
-`A_A^]
-`A_A^_
-`A_A^_^]
-`A__]
-`A__^
-`H@SH
-`_^]H
+`\f?fromLatin1@QString@@SA?AV1@PEBDH@Z
 `m@ffffff
-`p@SH
 aacute
 abcdefghijklmnopqrstuvwxyz
 aboutToBeDestroyed
@@ -31511,6 +28301,7 @@ absolute
 accept
 acirc
 acircumflex
+acos
 acosf
 action
 actionChanged
@@ -31522,10 +28313,9 @@ acutecomb
 address
 adieresis
 adjoins-item
+adnK
 aeacute
-aehhH
 aelig
-agilH
 agrave
 alefsym
 aleph
@@ -31534,10 +28324,10 @@ aliceblue
 align
 alpha
 alphatonos
+alt+
 alternate
 alternate-background-color
 alternate-base
-altrE
 always
 amacron
 ampersand
@@ -31562,6 +28352,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
+apos
 appendUndoItem
 application/vnd.oasis.opendocument.text
 application/x-color
@@ -31570,6 +28361,7 @@ application/x-qt-image
 applicationDisplayName
 applicationStateChanged
 approxequal
+aqua
 aquamarine
 aquamarine1
 aquamarine2
@@ -31577,7 +28369,6 @@ aquamarine3
 aquamarine4
 arabic
 arabic_shaping_action
-ariHt
 aring
 aringacute
 arrowboth
@@ -31592,7 +28383,6 @@ arrowright
 arrowup
 arrowupdn
 arrowupdnbse
-artlE
 asciicircum
 asciitilde
 asinf
@@ -31603,23 +28393,27 @@ atan2
 atan2f
 atilde
 attribute highp vec3 vertexCoord;attribute highp vec2 textureCoord;varying highp vec2 uv;uniform highp mat4 vertexTransform;uniform highp mat3 textureTransform;void main() {   uv = (textureTransform * vec3(textureCoord,1.0)).xy;   gl_Position = vertexTransform * vec4(vertexCoord,1.0);}
+auml
+auto
 automatic
 automatic-styles
+avaJ
 availableGeometry
 availableGeometryChanged
 availableSize
 availableSizes[normal,Off]=
 availableVirtualGeometry
 availableVirtualSize
-aveDt=
-aveDuZA
-ayrOt&
+aveD
+ayrO
 azure
 azure1
 azure2
 azure3
 azure4
+bKGD
 bKGD must be after
+b\n?debug@QMessageLogger@@QEBAXPEBDZZ
 background
 background-attachment
 background-clip
@@ -31639,14 +28433,13 @@ bad height format
 bad keyword
 bad parameters to zlib
 bad width format
-barAH
-barAu
+base
 baseUrl
 baseUrlChanged
 bdquo
-beginbfrange
-begincmap
+beginbfrange\n
 beige
+beta
 bgcolor
 bisque
 bisque1
@@ -31659,12 +28452,15 @@ block
 blockCount
 blockCountChanged
 blockquote
+blue
 blue1
 blue2
 blue3
 blue4
 blueviolet
+body
 body { color: #%1%2%3 }
+bold
 bool __cdecl QDesktopServices::openUrl(const class QUrl &)
 bool __cdecl QPlatformGraphicsBufferHelper::lockAndBindToTexture(class QPlatformGraphicsBuffer *,bool *,const class QRect &)
 bool __cdecl _try_writable(struct hb_blob_t *)
@@ -31700,7 +28496,6 @@ bottom
 bottomChanged
 bottomRight
 bounds = 
-braSt
 braceleft
 braceright
 bracketleft
@@ -31721,6 +28516,7 @@ brushTransform
 brvbar
 bsearch
 bufferId
+bull
 bullet
 bullet-char
 burlywood
@@ -31728,9 +28524,10 @@ burlywood1
 burlywood2
 burlywood3
 burlywood4
+busy
 button
 button-text
-c"f&e&`&
+cHRM
 cHRM chunk does not match sRGB
 cacheId
 cacheMode
@@ -31743,9 +28540,7 @@ cadetblue4
 called with invalid parameters
 calloc
 capitalize
-capst
 caption
-carfH
 caron
 carriagereturn
 ccaron
@@ -31755,11 +28550,14 @@ ccircumflex
 cdotaccent
 cedil
 cedilla
+ceil
 ceilf
 cellpadding
 cellspacing
+cent
 center
 changed
+char
 charsAdded
 charsRemoved
 charset
@@ -31780,10 +28578,12 @@ chocolate1
 chocolate2
 chocolate3
 chocolate4
+circ
 circle
 circlemultiply
 circleplus
 circumflex
+cite
 class
 class QPixmap __cdecl QPixmap::grabWindow(unsigned __int64,int,int,int,int)
 class QPixmap __cdecl QScreen::grabWindow(unsigned __int64,int,int,int,int)
@@ -31791,9 +28591,11 @@ clicked
 closable
 close
 closed
+club
 clubs
 cm /Im
 cmap table of format %d not implemented
+code
 collapsed
 colon
 colonmonetary
@@ -31805,6 +28607,7 @@ commit
 commitDataRequest
 composeAndFlush: makeCurrent() failed
 compressed data too long
+cong
 congruent
 content
 content.xml
@@ -31813,6 +28616,7 @@ contentOrientation
 contentOrientationChanged
 contentsChange
 contentsChanged
+copy
 copyright
 coral
 coral1
@@ -31825,14 +28629,14 @@ cornsilk1
 cornsilk2
 cornsilk3
 cornsilk4
+cosf
 courier
 crarr
 crimson
-crySt
 ctrl+
 curren
 currency
-current data is -> %p
+current data is -> %p\n
 currentChanged
 currentColorChanged
 currentFontChanged
@@ -31845,69 +28649,17 @@ cursorPositionChanged
 cursorRectangle
 cursorRectangleChanged
 cursorWidth
+cyan
 cyan1
 cyan2
 cyan3
 cyan4
-d$ AUAVAWH
-d$ E+
-d$ H;
-d$ UAVAWH
-d$ fI
-d$$E;
-d$$Lc
-d$(D;x
-d$(E3
-d$(Ic
-d$,@8t$(
-d$0E3
-d$0Lcd$`L
-d$0ff
-d$2fD
-d$8A;
-d$8E3
-d$8E;
-d$8Hc
-d$@9y
-d$@E3
-d$@H;
-d$@Ic\$
-d$@Lc
-d$DD;
-d$H;i
-d$HE3
-d$HHk
-d$LD9d$@
-d$PB+\8
-d$PE3
-d$Pt	H
-d$X;i
-d$XM;
-d$XMc
-d$Xff
-d$`D+
-d$`E3
-d$`E8
-d$`Hc
-d$`fD
-d$`t	H
-d$`uy
-d$dLct$lE
-d$hE3
-d$hMc
-d$pE3
-d$pE9g(
-d$pE;u
-d$tIc
-d$x;Y
-d$xE3
-d$xH9
-d$xH9E
-daehA
-daehH
+dArr
+d\n?dec@@YAAEAVQTextStream@@AEAV1@@Z
 dagger
 daggerdbl
 damaged LZ stream
+dark
 darkblue
 darkcyan
 darkgoldenrod
@@ -31951,8 +28703,11 @@ darkslategray4
 darkslategrey
 darkturquoise
 darkviolet
+darr
+dash
 dash-dot
 dashed
+data
 dataChanged
 dcaron
 dcroat
@@ -31977,6 +28732,7 @@ defaultStyleSheet
 deflateEnd failed (ignored)
 degree
 delta
+demi
 demi bold
 demibold
 depth
@@ -31994,6 +28750,7 @@ directory
 directoryEntered
 disableMessages
 disabled
+disc
 divide
 dkshade
 dnblock
@@ -32008,6 +28765,7 @@ dodgerblue2
 dodgerblue3
 dodgerblue4
 dollar
+dong
 dot-dash
 dot-dot-dash
 dotaccent
@@ -32016,13 +28774,12 @@ dotlessi
 dotmath
 dotted
 double
+draw
 dummy
 duplicate
 duplicate sRGB information ignored
-dupped successfully -> %p
-e(D9apt/E3
-e`D9 
-e`D; 
+dupped successfully -> %p\n
+e\f?fromLocal8Bit@QString@@SA?AV1@AEBVQByteArray@@@Z
 eacute
 ebreve
 ecaron
@@ -32032,27 +28789,25 @@ edieresis
 edit-focus
 editable
 edotaccent
-effffff
 egrave
 eight
 element
 ellipsis
 emacron
-eman@8s
 emdash
 empty
 emptyset
+emsp
 enableMessages
 enabled
 end [%p..%p] %u edit requests
 end [%p..%p] serialized %d bytes; %s
 endash
-endbfrange
-endcmap
-endcodespacerange
-endobj
-endstream
-eoHcEwH
+endbfrange\n
+endcmap\nCMapName currentdict /CMap defineresource pop\nend\nend\n
+endobj\n
+endstream\nendobj\n
+ensp
 eogonek
 epsilon
 epsilontonos
@@ -32065,78 +28820,42 @@ error writing ancillary chunked compressed data
 es-8R
 estimated
 etatonos
-ev#E3
+euml
+euro
 exclam
 exclamdbl
 exclamdown
 exclusive
 exist
 existential
+exit
 expandable
 expanded
 extSelectable
 extra compressed data
-f	BJL
-f#D$$f3
-f+T$p
-f1G:H
-f9)tQ
-f90vDH
-f9D$0
-f9D$0u
-f9D$0u(E
-f9D$@t
-f9D$@u
-f9D$`u
-f9D$`u9H
-f9E0t
-f9E0tjH
-f9E0u3
-f9Egt
-f9Egu
-f9L$`uJH;
-fB!4C$
-fD!	f	
-fD!!f	
-fD!!fD	
-fD9 r"H
-fD9$8
-fD9(uaD
-fD9(v$H
-fD90r
-fD90t
-fD90vDH
-fD98r
-fD98s
-fD9<(u,HcK
-fD9<Hu
-fD9<pt!
-fD9lH
-fD;;sJD
-fD;d$hH
-fD;t$`f
-fE!,LI
-fE9"u
+f\f?fromLocal8Bit@QString@@SA?AV1@PEBDH@Z
+face
 face=%p num_features=%d shaper_list=%p
 failed
 failed to compile!
 false
 family
 female
-ferpH
+ferp
 ferpfvbafwlbftspserpsvbaswlbstsptsid
 fffff
 ffffff
 ffffff)@
 ffffff9@
-fffffff
 ffffffi@
 fffffv
 fffffva@
 fffffvq@
 fflush
+fhpr
 fhprferpfwlbftspserpsvbaswlbstsptsidmvbamwlb
 figuredash
+file
 file-entry
 fileSelected
 files
@@ -32153,15 +28872,19 @@ firebrick2
 firebrick3
 firebrick4
 first
+five
 fiveeighths
 fixed
 flags
+flah
+flat
 float
 floatable
 floor
 floralwhite
 florin
 fmp2_m_radius2
+fnof
 focus
 focusObject
 focusObjectChanged
@@ -32169,6 +28892,7 @@ focusWindow
 focusWindowChanged
 focusable
 focused
+font
 font-family
 font-size
 font-style
@@ -32180,6 +28904,7 @@ fontSmoothingGamma
 forall
 forcing save of an unhandled chunk; please call png_set_keep_unknown_chunks
 forestgreen
+four
 frac12
 frac14
 frac34
@@ -32192,13 +28917,20 @@ frameSwapped
 franc
 frasl
 fread
-ftspH
+free
+frkr
+from
+ftsp
 fuchsia
 full-path
-fwlbH
+fvba
+fwlb
 fwrite
-g tuH
 g@33333
+gAMA
+gG@T
+gIFg
+gIFx
 gainsboro
 gamma
 gamma table being rebuilt
@@ -32215,16 +28947,7 @@ geometryChanged
 germandbls
 getDiBits
 getenv
-gfffA
-gfffM
-gfffffffH
-gfffffffH+
-gfffffffI
-gfffffffL
-gfffffffM
 ghostwhite
-gilcE
-gilrD
 glAccum
 glActiveShaderProgram
 glActiveTexture
@@ -33347,8 +30070,8 @@ glWindowPos3sv
 globalOpacity
 glyph_index
 glyph_props
-gneBtP
-gnoMuFD
+gneB
+gold
 gold1
 gold2
 gold3
@@ -33358,9 +30081,11 @@ goldenrod1
 goldenrod2
 goldenrod3
 goldenrod4
+grab
 gradient
 grave
 gravecomb
+gray
 gray0
 gray1
 gray10
@@ -33470,6 +30195,7 @@ green2
 green3
 green4
 greenyellow
+grey
 grey0
 grey1
 grey10
@@ -33576,41 +30302,15 @@ guillemotleft
 guillemotright
 guilsinglleft
 guilsinglright
-h AVH
-h VWAVH
-h VWAWH
-hA\^[]
-hA\^][
-hA\_[]
-hA\_][
-hA]_[]
-hA]_^]
-hA^A][]
-hA^A]_^
-hA^]H
-hA^^[]
-hA^_H
-hA^_^]
-hA_A\
-hA_A\][
-hA_A\_^][
-hA_A]
-hA_A]_^[]
-hA_A^
-hA_A^A\[
-hA_A^A\_
-hA_A^A]A\_^[]
-hA_A^A]A\_^][
-hA_A^_^[]
-hA_^H
-hA__[]
-hA__^[
+hArr
+hIST
 hIST must be after
-h_^][
+h\f?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
 halfViewportSize
 handler
 handlerDestroyed
 hangul
+harr
 has-children
 has-siblings
 hasPopup
@@ -33620,7 +30320,9 @@ hb_qt_font_get_glyph_v_advance: vertical writing isn't supported!
 hb_qt_get_glyph_v_kerning: vertical writing isn't supported!
 hb_qt_get_glyph_v_origin: vertical writing isn't supported!
 hb_qt_unicode_eastasian_width: not implemented!
+hbar
 hcircumflex
+head
 header verification of QPF2 font failed. maybe it is corrupt?
 heart
 hearts
@@ -33630,9 +30332,11 @@ heightChanged
 hellip
 helvetica
 hicolor
+hide
 highlight
 highlighted-text
 hijklmnopqrstuvwxyz{|}~
+hniS
 honeydew
 honeydew1
 honeydew2
@@ -33649,33 +30353,32 @@ hotpink4
 house
 hover
 hovered
+href
+html
 http://www.w3.org/1999/xlink
 hungarumlaut
 hxi(j
 hyphen
-i	?create@QLocalePrivate@@SAPEAV1@PEBUQLocaleData@@H@Z
-i(+Y(D
-i<+Y@D
+iCCP
 iCCP: invalid keyword
+iTXt
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
 iTouch
+i\n?decodeName@QFile@@SA?AVQString@@AEBVQByteArray@@@Z
+i\r?inherits@QObject@@QEBA_NPEBD@Z
+i\t?create@QLocalePrivate@@SAPEAV1@PEBUQLocaleData@@H@Z
 iacute
-iahTu
 ibreve
 icirc
 icircumflex
 idealWidth
 idieresis
-idyLwM
 iexcl
 ignored in grayscale PNG
 igrave
-iiaVt
-iiiYt
 iiivixxxlxcccdcmmmm
-ilhPt2
 imacron
 image
 image-position
@@ -33691,8 +30394,6 @@ imageTexture
 import
 important
 in use by IDAT
-in vec2 uv;out vec4 fragcolor;uniform sampler2D textureSampler;uniform bool swizzle;uniform float opacity;void main() {   vec4 tmpFragColor = texture(textureSampler, uv);   tmpFragColor.a *= opacity;   fragcolor = swizzle ? tmpFragColor.bgra : tmpFragColor;}
-in vec3 vertexCoord;in vec2 textureCoord;out vec2 uv;uniform mat4 vertexTransform;uniform mat3 textureTransform;void main() {   uv = (textureTransform * vec3(textureCoord,1.0)).xy;   gl_Position = vertexTransform * vec4(vertexCoord,1.0);}
 inconsistent chromaticities
 inconsistent rendering intents
 indentWidth
@@ -33759,13 +30460,16 @@ invisible
 invokeAction
 invsmileface
 iogonek
+iota
 iotadieresis
 iotadieresistonos
 iotatonos
 iquest
 isdigit
+isin
 isspace
 italic
+item
 itemChanged
 itemIds
 itemsAvailable
@@ -33773,7 +30477,7 @@ itemsInvalidated
 itemsMissing
 itemsUpdated
 itilde
-itrPt%
+iuml
 ivory
 ivory1
 ivory2
@@ -33781,9 +30485,9 @@ ivory3
 ivory4
 j@fffffvq@
 jcircumflex
+jpeg
 jumpToNextFrame
 justify
-k(toA
 kappa
 keep-together
 keyboardAutoRepeatRate
@@ -33799,132 +30503,18 @@ khaki1
 khaki2
 khaki3
 khaki4
-knilL
-knilt
 known incorrect sRGB profile
-l$ ATAVAWH
-l$ AVAW
-l$ AVH
-l$ D;`
-l$ E3
-l$ Hc
-l$ HcL$0H
-l$ Hcl$XH
-l$ UAVAWH
-l$ VATAVH
-l$ VATAVIc
-l$ VATAWH
-l$ VAUAWH
-l$ VAVAWH
-l$ VH
-l$ VWATAUAVAW
-l$ VWATAUAWH
-l$ VWATAVAWH
-l$ VWATAVAWLcT$PL
-l$ VWATAVH
-l$ VWATH
-l$ VWAVH
-l$ VWAWH
-l$ WATAUAVAWH
-l$ WATAVH
-l$ WATAWH
-l$ WAVAWH
-l$ WH
-l$ ff
-l$$D+
-l$$HcT$@H
-l$(D;a
-l$(D;y
-l$(E+
-l$(E2
-l$(E3
-l$(E;
-l$(M;
-l$(t?I
-l$,HcT$ H
-l$,ff
-l$0A_A^
-l$0D;
-l$0E+p
-l$0E3
-l$0Hc
-l$0uQH
-l$89p
-l$8A^A\^
-l$8D;
-l$8E3
-l$8I;
-l$8Ic
-l$8Lc
-l$8Mc
-l$8ff
-l$8t'H
-l$<A;
-l$@9X
-l$@A#
-l$@A^A\_^
-l$@D;x
-l$@E3
-l$@H+
-l$@H;
-l$@Mc
-l$@tY
-l$DD9h
-l$DfA
-l$H9i(
-l$HA_A^A\^]
-l$HA_A^A\_^
-l$HD+
-l$HD;y
-l$HE3
-l$HH;
-l$HL;
-l$HM+
-l$P;x
-l$PA;V<
-l$PA_A^A]A\_^
-l$PD+g
-l$PD+{
-l$PD;
-l$PD;y
-l$PE3
-l$PH;
-l$PIc
-l$Pf;
-l$Pff
-l$XE3
-l$XE;
-l$XHcq
-l$XHc|$pA
-l$\v	E
-l$`;i
-l$`@2
-l$`A+
-l$`D;u
-l$`E3
-l$`E;
-l$`H;
-l$`Hc
-l$`HcJ
-l$`Lc
-l$`Lci
-l$`Mc
-l$hE3
-l$hE;g(
-l$hL;
-l$hff
-l$pI+
-l$xA;
-l$xE3
-l$xIc
-l$xfA9F
-l$xt`I
 l@333333
 l@fffffvq@
+lArr
+l\n?decomposition@QChar@@SA?AVQString@@I@Z
 lacute
 lambda
+lang
 laquo
 large
+larr
+last
 lastWindowClosed
 lavender
 lavenderblush
@@ -33937,9 +30527,9 @@ layoutDirection
 layoutDirectionChanged
 lcaron
 lceil
-lcmnwStB
-lcolE
+ldot
 ldquo
+left
 lemonchiffon
 lemonchiffon1
 lemonchiffon2
@@ -33947,6 +30537,7 @@ lemonchiffon3
 lemonchiffon4
 length does not match profile
 length exceeds PNG maximum
+less
 lessequal
 letter-spacing
 level
@@ -34006,21 +30597,25 @@ lightyellow1
 lightyellow2
 lightyellow3
 lightyellow4
+lime
 limegreen
 line-break
 line-height
 line-through
 linearData
 linen
+link
 link-visited
 linked
+lira
+list
 list-item
 list-level-properties
 list-level-style-bullet
 list-level-style-number
 list-style
 list-style-type
-lmaTt
+lmaT
 loadResource
 loadResource(int,QUrl)
 localPos=
@@ -34051,12 +30646,15 @@ lslash
 lsquo
 ltshade
 m0_D@
+m\f?fromNativeSeparators@QDir@@SA?AVQString@@AEBV2@@Z
+macr
 macron
 magenta
 magenta1
 magenta2
 magenta3
 magenta4
+male
 malformed sPLT chunk
 malloc
 manifest
@@ -34111,6 +30709,7 @@ memmove
 memset
 messageClicked
 messageLogged
+meta
 meta+
 micro
 middle
@@ -34135,43 +30734,35 @@ mistyrose1
 mistyrose2
 mistyrose3
 mistyrose4
-mlaPw
-mltrE
 moccasin
 modal
 modality
 modalityChanged
+mode
 modificationChanged
 modified
-mondH
 mouseDoubleClickInterval
 mouseDoubleClickIntervalChanged
 mousePressAndHoldInterval
 movable
-mrtlE
+msec
 multiLine
 multiSelectable
 multiply
 musicalnote
 musicalnotedbl
 must be a top level window.
+mvba
+mwlb
 myanmar
 myanmar_category
 myanmar_position
-mylMt
-mylMwptc
-nD$@A
-nD$Pf
-nD$pH
-nL$ D
-nL$ f
-nL$$D
-nL$@H
-nL$pfA
-nT$4f
-n\$8f
+mylM
+n\n?decompositionTag@QChar@@QEBA?AW4Decomposition@1@XZ
+n\r?initCharAttributes@QUnicodeTools@@YAXPEBGHPEBUScriptItem@1@HPEAUQCharAttributes@@V?$QFlags@W4CharAttributeOption@QUnicodeTools@@@@@Z
 nabla
 nacute
+name
 napostrophe
 native
 nativeOrientation
@@ -34180,9 +30771,10 @@ navajowhite1
 navajowhite2
 navajowhite3
 navajowhite4
+navy
 navyblue
+nbsp
 ncaron
-nd$<f
 ndash
 newBlockCount
 newDirection
@@ -34190,13 +30782,18 @@ newPages
 newSize
 newTarget
 next-selected
+nhka
+nine
+nlah
 no object, uniqueId=
 no space in chunk cache
 no-frame
 no-repeat
+nobr
 non-exclusive
 non-positive height
 non-positive width
+none
 normal
 not supported
 notation
@@ -34206,15 +30803,10 @@ notequal
 notin
 notsubset
 nowrap
-nrekA
-nrekI
-nrekL
-nrkvA
-nrkvH
-nt$PH
-ntalH
-ntelD
+nsub
 ntilde
+null
+num+
 num-format
 num-prefix
 num-suffix
@@ -34224,26 +30816,12 @@ number-columns-repeated
 number-columns-spanned
 number-rows-spanned
 numbersign
-n|$(H
-o$$L;
-o%V)5
-o%b'.
-o-3Z.
-o-=~-
-o-^)5
-o5	8)
-o5P<)
-o<$fA
-o=,.)
-o=Q8)
 o@33333
 o@fffffvq@
-oL$@fA
-oT$ f
-o\$0f
-o\$PM
-o\$Pf
+oFFs
+o\n?decompositionTag@QChar@@SA?AW4Decomposition@1@I@Z
 oacute
+obj=
 object
 object=
 objectDestroyed
@@ -34251,8 +30829,6 @@ oblique
 obreve
 ocirc
 ocircumflex
-od$0fA
-od$`f
 odieresis
 oelig
 office
@@ -34282,16 +30858,13 @@ onehalf
 onequarter
 onethird
 only-one
-ooaLu,
-ookNtB
-ookNw2t)
 opacity
 opacityArray
 opacityChanged
+open
 openbullet
 opendocumentformat
 oplus
-or OpenGL 3.2 and GL_ARB_timer_query
 orange
 orange1
 orange2
@@ -34307,7 +30880,9 @@ orchid1
 orchid2
 orchid3
 orchid4
+ordf
 ordfeminine
+ordm
 ordmasculine
 org.qt-project.Qt.QAccessibleBridgeFactoryInterface
 org.qt-project.Qt.QAccessibleFactoryInterface
@@ -34324,10 +30899,9 @@ orientationChanged
 orthogonal
 oslash
 oslashacute
-ot$ f
-ot$0fA
 otilde
 otimes
+ouml
 out of memory
 out of place
 out-of-date sRGB profile with no signature
@@ -34343,50 +30917,18 @@ outline-top-right-radius
 outline-width
 outset
 overline
-p AVH
-p E+4$H
-p UWATAVAWH
-p, li { white-space: pre-wrap; }
-p1CHH
-p=$@)\
-p=$@P
-pA\][
-pA]A\^[]
-pA]A\_
-pA]A\_^[
-pA]^[
-pA^A\^
-pA^A\_[]
-pA^A]A\_[
-pA^A]A\_^[]
-pA^A]_^]
-pA^[]
-pA^^[
-pA^_]
-pA^_^
-pA^_^][
-pA_A\^
-pA_A\_][
-pA_A\_^[
-pA_A]A\
-pA_A^A\^]
-pA_A^A\_]
-pA_A^A\_^[]
-pA_A^A]A\^
-pA_A^A]A\_
-pA_A^A]A\_^]
-pA_A^A]_]
-pA_A^_^]
-pA_^]
-pA__^
+p, li { white-space: pre-wrap; }\n
+pCAL
 pCAL: invalid keyword
-p_^]H
-p`D9pPH
+pHYs
+p\r?initScripts@QUnicodeTools@@YAXPEBGHPEAE@Z
+p\rP\f0
 padding
 padding-bottom
 padding-left
 padding-right
 padding-top
+page
 page-break-after
 page-break-before
 pageCountChanged
@@ -34409,18 +30951,18 @@ palevioletred1
 palevioletred2
 palevioletred3
 palevioletred4
-pamcu<H
-pampH
-pampI
 papayawhip
+para
 paragraph
 paragraph-properties
 parenleft
 parenright
+part
 partialdiff
 passwordEdit
 passwordMaskCharacter
 passwordMaskDelay
+path
 patternColor
 paused
 pbmraw
@@ -34435,16 +30977,20 @@ percnt
 period
 periodcentered
 permil
+perp
 perpendicular
 perthousand
+peru
 peseta
 pgmraw
+phi1
 physicalDotsPerInch
 physicalDotsPerInchChanged
 physicalDotsPerInchX
 physicalDotsPerInchY
 physicalSize
 physicalSizeChanged
+pink
 pink1
 pink2
 pink3
@@ -34453,13 +30999,14 @@ pixelDelta=
 plain
 plaintext
 platformName
+plum
 plum1
 plum2
 plum3
 plum4
+plus
 plusminus
 plusmn
-pmccE
 pmcclcolkramkmkmgilrtrevtlacgilcsrucnrekagiltlcr
 pmvMatrix1
 pmvMatrix2
@@ -34489,25 +31036,23 @@ previousAccessTypes
 primaryOrientation
 primaryOrientationChanged
 prime
+prod
 product
 profile '
 profile matches sRGB but writing iCCP instead
+prop
 propersubset
 propersuperset
 propertyName
 proportional
-pscat
 purple
 purple1
 purple2
 purple3
 purple4
-pxamH
-pxamL
-q	?createData@QMapDataBase@@SAPEAU1@XZ
-q D9q
-q(HcY4L
-q8	A@
+q\n/GSa gs\n
+q\t?createData@QMapDataBase@@SAPEAU1@XZ
+q\v?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
 qconicalgradient
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
 qgradient
@@ -34523,6 +31068,7 @@ queries
 question
 questiondown
 quitOnLastWindowClosed
+quot
 quotedbl
 quotedblbase
 quotedblleft
@@ -34532,24 +31078,32 @@ quotereversed
 quoteright
 quotesinglbase
 quotesingle
-r$t"A
-r%t#A
-r,t*C
-r0HcD$(L
+rArr
+r\f?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
 racute
 radic
 radical
 radius
+rafc
 raise
+rang
 raquo
+rarr
 rcaron
 rceil
 rdquo
 read-only
 readOnly
+real
 realloc
 reason
+rect
 rect=
+red1
+red2
+red3
+red4
+redo
 redoAvailable
 reflect
 reflexsubset
@@ -34575,20 +31129,18 @@ requestActivate() called for
 requestUpdate
 reset
 resized
-return texture(imageTexture, textureCoords); 
-return texture2D(imageTexture, textureCoords); 
 revlogicalnot
 rfloor
+rgba
 rgba(%1,%2,%3,%4)
 ridge
 right
-rjuGt*
-rmaSt
-rmhKu
-rmunH
-rmyMt9
-rncst$
+ring
+rjuG
+rmhK
+role
 role=
+root
 rosybrown
 rosybrown1
 rosybrown2
@@ -34604,26 +31156,16 @@ royalblue4
 rsaquo
 rsquo
 rtblock
-rtrpt,
-s WATAUAVAWH
-s WAVAWH
-s$fff
-s+D8l
-s,+s(D
-s3fff
-s>D8l
-s@33333
-s@fffffvq@
-sFFoA
-sFFou
-sND8l
+sBIT
+sCAL
+sPLT
 sPLT chunk has bad length
 sPLT chunk requires too much memory
 sPLT out of memory
 sPLT: invalid keyword
-sYHpA
-sYHpu
-s^D8l
+sRGB
+sTER
+s\v?error@QFileDevice@@QEBA?AW4FileError@1@XZ
 sacute
 saddlebrown
 salmon
@@ -34631,12 +31173,14 @@ salmon1
 salmon2
 salmon3
 salmon4
+samp
 sandybrown
 saveStateRequest
 sbquo
 scaron
 scedilla
 scircumflex
+scn\n
 screen
 screenAdded
 screenChanged
@@ -34644,6 +31188,7 @@ screenDestroyed
 screenRemoved
 script
 scroll
+sdot
 sea_category
 sea_position
 seagreen
@@ -34657,6 +31202,7 @@ seashell2
 seashell3
 seashell4
 second
+sect
 section
 section-properties
 selectable
@@ -34670,6 +31216,7 @@ semi bold
 semibold
 semicolon
 sequential row overflow
+serp
 sessionManager
 setFocusOnTouchRelease
 setHeight
@@ -34684,6 +31231,8 @@ setSpeed
 setTitle
 setVisible
 setWidth
+setX
+setY
 setlocale
 seven
 seveneighths
@@ -34691,6 +31240,7 @@ shade
 shaderDestroyed
 shadow
 shift+
+show
 showFullScreen
 showIsFullScreen
 showMaximized
@@ -34706,8 +31256,10 @@ sigma1
 sigmaf
 silver
 similar
+sinf
 single
 singleClickActivation
+size
 sizeable
 skyblue
 skyblue1
@@ -34729,6 +31281,7 @@ slategrey
 small
 small-caps
 smileface
+snow
 snow1
 snow2
 snow3
@@ -34736,12 +31289,12 @@ snow4
 solid
 sortRole
 source
-spH9wp
 space
 space-before
 spacing
 spade
 spades
+span
 speed
 spread
 springgreen
@@ -34750,6 +31303,7 @@ springgreen2
 springgreen3
 springgreen4
 sqrfr
+sqrt
 sqrtf
 square
 start
@@ -34761,11 +31315,10 @@ startDragTimeChanged
 startDragVelocity
 startLogging
 started
-startxref
 state
 stateChanged
 static
-static char %s_bits[] = {
+static char %s_bits[] = {\n 
 static char *
 steelblue
 steelblue1
@@ -34773,320 +31326,66 @@ steelblue2
 steelblue3
 steelblue4
 sterling
+stop
 stopLogging
 strchr
 strcmp
 strcpy_s
-stream
+stream\n
 stretch
 strncmp
 strong
 strstr
 struct hb_shape_plan_t *__cdecl hb_shape_plan_create(struct hb_face_t *,const struct hb_segment_properties_t *,const struct hb_feature_t *,unsigned int,const char *const *)
 struct hb_shape_plan_t *__cdecl hb_shape_plan_create_cached(struct hb_face_t *,const struct hb_segment_properties_t *,const struct hb_feature_t *,unsigned int,const char *const *)
+stsp
 style
 style-name
 subcontrol-origin
 subcontrol-position
+sube
 suchthat
 summation
+sup1
+sup2
+sup3
+supe
 super
 supportsAutoCompletion
+svba
 svbaswlbmvbamwlb
 swizzle
+swlb
 syllable
 szlig
-s~Hc;
-t	8Q(u
-t Hc^
-t Hc_
-t Hc{
-t fff
-t!;+u
-t!D;@
-t!fff
-t"9\$(u
-t"A9|
-t"fff
-t#9;t
-t#D9y
-t#fff
-t$ A;
-t$ ATAVAWH
-t$ AVH
-t$ AVMc
-t$ AWH
-t$ E3
-t$ E;
-t$ Hc
-t$ Hc^
-t$ Hc~
-t$ I+
-t$ L+
-t$ UATAUAVAWH
-t$ UAVAWH
-t$ UH
-t$ UWATAUAVH
-t$ UWATAVAWH
-t$ UWAVH
-t$ WATAUAVAWD
-t$ WATAUAVAWH
-t$ WATAVH
-t$ WATAWH
-t$ WAUAVH
-t$ WAVAW
-t$ WAVAWH
-t$ WE3
-t$ WH
-t$ fE
-t$ u(
-t$$A+
-t$$Hc
-t$(9L$H
-t$(A+
-t$(A^
-t$(D+
-t$(H9\$ 
-t$(Hc
-t$(Hc^
-t$(I;
-t$(L+
-t$(L9
-t$(L9v
-t$09k
-t$0@2
-t$0D9&w
-t$0E)n,I
-t$0E+
-t$0E3
-t$0H;
-t$0Hc
-t$0Hc^
-t$0Hc~
-t$0I+
-t$0I;
-t$0Ic^
-t$0Ik
-t$0L+
-t$0L;
-t$0Mcp
-t$0fA
-t$0fD
-t$0fE
-t$4Ic
-t$4fD
-t$4fff
-t$8;t$H
-t$8A+
-t$8A_A\_
-t$8A_A^A\
-t$8A_A^_
-t$8D;
-t$8D;R
-t$8E3
-t$8H+
-t$8H;
-t$8Hc
-t$8Hc^
-t$8I+
-t$8I;
-t$8Ic
-t$8t"H
-t$8tGH
-t$8tl
-t$8v0D
-t$97t
-t$<D;t$X
-t$@)h
-t$@A;
-t$@E3
-t$@E;g(
-t$@H;
-t$@Hc
-t$@HcE
-t$@HcF
-t$@Hc^
-t$@I;
-t$@Ic
-t$@Ic^
-t$@L+
-t$@fff
-t$@t	H
-t$@t<
-t$@~;M
-t$DD9p
-t$HA_A^A]A\_
-t$HE3
-t$HH;
-t$HHc
-t$HHcF
-t$HHc~
-t$HI;
-t$HIc
-t$HLc
-t$HLcS
-t$Hfff
-t$L9|$H
-t$LA;
-t$LD;
-t$LD;t$X
-t$P@2
-t$PA;
-t$PA;t$p
-t$PD+
-t$PD;
-t$PE3
-t$PE9<
-t$PE;
-t$PH+
-t$PH9
-t$PHc^
-t$PIc^
-t$PIcv
-t$PLc
-t$PLi
-t$Tt^
-t$X9D$D
-t$XA+
-t$XH+
-t$XH;
-t$XHc
-t$XHi
-t$XIc
-t$XIcv
-t$XLcC,H
-t$XM;
-t$Xu"H
-t$Xv1D
-t$Xw	I;
-t$\D9t$x
-t$\D;t$x
-t$_A;
-t$`A;
-t$`D;1
-t$`E3
-t$`E9n
-t$`H+
-t$`Hc^
-t$`Hc~
-t$`Ic~
-t$`L+
-t$`fE9f
-t$`ff
-t$`t=H
-t$dD;
-t$dE3
-t$fff
-t$h9H
-t$hE3
-t$hH;
-t$hHc
-t$hHc^
-t$hLcq0L
-t$hf#
-t$hff
-t$ht+H
-t$l;uh
-t$p;+}"H
-t$pA9t$
-t$pA;
-t$pD; 
-t$pE+
-t$pE3
-t$pM+
-t$pfff
-t$pt`
-t$tA;
-t$x@2
-t$xE3
-t$xE;
-t$xH;
-t$xHc~
-t$xI;
-t$xt)E3
-t$xu"
-t$xvhA
-t$|Lcd$dI;
-t%D;A
-t%D;s
-t&93tII
-t&D;q
-t&H9{
-t&fff
-t'D9`
-t'fff
-t(D;p
-t)fff
-t*H9k
-t+D;p
-t+fA;
-t,9|$Xt
-t,D;q
-t,fff
-t.<-t*
-t.HcB0H
-t.f9u
-t/D;s
-t0D9l
-t1fff
-t3D;c
-t3D;g
-t3D;o
-t3D;w
-t3fff
-t4fff
-t5fff
-t6@I;
-t8fff
-t:D;U
-t=}'+
-t>H9|$hu7
-t>fff
-t@fff
 t@fffff
-tCD8c
-tCfff
-tDI;F
-tDfff
+tEXt
 tEXt: invalid keyword
 tEXt: text too long
-tFIc<$Ic
-tGLcL$XH
-tGfff
-tK~ <
-tL;7|HH
-tN9{|uIH
-tPD9NXtJA
+tIME
 tRNS chunk has out-of-range samples for bit_depth
 tRNS must be after
-tSfff
-tTfff
-tWfA;
-tWfff
-tXEtD
-tXEtu
-tXTiH
-tXTiu
-tXTzD
-tXTzu
-t_fff
-taA;z
+t\f?fromRawData@QString@@SA?AV1@PEBVQChar@@H@Z
 tab-stop
 tab-stops
 tabFocusBehavior
-tabNtJ
 table
 table-cell
 table-column
 table-properties
 table-row
 tag count too large
+tan1
+tan2
+tan3
+tan4
 targetChanged
+tbar
 tbody
-tcH9{
 tcaron
-td9.t
-tesmH
+tcjc
+teal
+text
 text chunk: out of memory
 text compression mode is out of range
 text-align
@@ -35109,12 +31408,14 @@ textureCoord
 textureCoordArray
 textureTransform
 tfoot
+thai
 thead
 there4
 therefore
 theta
 theta1
 thetasym
+thin
 thinsp
 thistle
 thistle1
@@ -35125,17 +31426,13 @@ thorn
 three
 threeeighths
 threequarters
-tiD;@
 tilde
 tildecomb
 times
+tini
 tiniidemaniflosigilr
 title
-tlacE
-tlfdH
-tlfdv,D
-tmLcD$8A
-tmfff
+tkun
 tomato
 tomato1
 tomato2
@@ -35150,13 +31447,12 @@ too short
 topChanged
 topLeft
 toupper
-trLcG
 tra bold
 tra light
 trabold
 trade
 trademark
-trailer
+trailer\n<<\n/Size %d\n/Info %d 0 R\n/Root %d 0 R\n>>\nstartxref\n%d\n%%%%EOF\n
 tralight
 transparent
 traversed
@@ -35164,128 +31460,35 @@ triagdn
 triaglf
 triagrt
 triagup
+true
 truncated
-tsbaL
-tsbat%
-ttD8g
+tsid
 turquoise
 turquoise1
 turquoise2
 turquoise3
 turquoise4
-twD;p
 twodotenleader
 twothirds
-txfff
-tyD;g
-tyD;z
-t|D;g
-u	D82u
-u	H;>t
-u	HcGD
-u	I9>
-u D8z
-u'@8{xtZ
-u(;G0~#
-u(Icm4L
-u)HcF
-u)HcG
-u)IcF
-u*LcI(E;
-u,HcK
-u0Hc^
-u0IcD$
-u3HcF
-u3fA;
-u4HcD2
-u7Hc^
-u7Hc_
-u8Hc^
-u8Hc_
-u9Hc_
-u9Ic^
-u9Ic~
-u:Hc_
-u:Ic^
-u:Ic~
-u;Hc^
-u;Icv
-u<B9t
-u<Hc^
-u=Hc^
-u=Ic_
-u>Hc^
-u>Hc_
-u>Hc~
-u>Ic_
-u?Hc_
-u@Hc_
-u@Ic~
-uAHc^
-uAIc^
-uBHc^
-uBHc~
-uBIc^
-uBIc_
-uCHc^
-uCHc~
-uCMct$
-uDA+v(A
-uDHc^
-uDIc~
-uEA9I
-uFMc|$
-uHIc|$
-uJA;D$4uCMcE
-uJfA;
-uKHc_
-uLA9^(v>
-uLIc^
-uLKcD
-uLfA;
-uNHc^
-uNKcD
-uNLcmgD
-uOIc~
-uPIc^
-uPIc|$
-uPLcmgD
-uQIc|$
-uQLcmgD
-uQLc}gD
-uRHc^
-uRIc\$
-uRLc}gD
-uSHc^
-uTD8n(u+H
-uTHc^
-uTLcmgD
-uULcmgD
-uVIc^
-uXHc^
-uZIc~
-u[Ic^
-u\90H
-u\Hc^
-u]E;~
-u_IcE
+type
+uArr
 uacute
+uarr
 ubreve
 ucirc
 ucircumflex
 udieresis
-ugIc~
 ugrave
 uhorn
 uhungarumlaut
-ujHci
-uleTu+
+uleT
 umacron
 unchecked
 undefined
 underline
 underscore
 underscoredbl
+undo
 undoAvailable
 undoCommandAdded
 undoRedoEnabled
@@ -35331,22 +31534,15 @@ urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0
 urn:oasis:names:tc:opendocument:xmlns:table:1.0
 urn:oasis:names:tc:opendocument:xmlns:text:1.0
 urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0
-uruGt
+uruG
 useDesignMetrics
 useRtlExtensions
+utav
 utf-8
 utilde
-uwA8<$tqH
-uwOE3
-uxIcW
-u|D)uX
-u~D;_
-v#fff
-v)fff
-v:fA;
+uuml
 valign
 varying highp vec2 uv;uniform sampler2D textureSampler;uniform bool swizzle;uniform highp float opacity;void main() {   highp vec4 tmpFragColor = texture2D(textureSampler,uv);   tmpFragColor.a *= opacity;   gl_FragColor = swizzle ? tmpFragColor.bgra : tmpFragColor;}
-vcuUA
 version
 version 
 versionFunctions: Not supported on OpenGL ES
@@ -35373,10 +31569,10 @@ void __cdecl QWindow::setParent(class QWindow *)
 void __cdecl QWindow::setTransientParent(class QWindow *)
 void __cdecl QWindowPrivate::setTopLevelScreen(class QScreen *,bool)
 void __cdecl hb_shape_plan_plan(struct hb_shape_plan_t *,const struct hb_feature_t *,unsigned int,const char *const *)
-vw%Hc
-w A;4$
+vtw\nx
 w@fffffvq@
 wacute
+wave
 wcircumflex
 wdieresis
 weierp
@@ -35402,56 +31598,14 @@ windowState
 windowStateChanged
 windowTitleChanged
 windows
-wl9wh~JL
 word-spacing
-wxH9wht!H
-x	D;@
-x ATAVAWH
-x AVH
-x D;9H
-x UATAUAVAWH
-x UATAVH
 x-large
-x/;Q(}*
-x/Hc}
-x2;Q(}-
-xA\_][
-xA\_^[
-xA]_[]
-xA^A\^]
-xA^A\_^
-xA^A]^]
-xA^A]_^[]
-xA^A]_^][
-xA^]H
-xA^^H
-xA^_H
-xA_A\^[
-xA_A^A\_
-xA_A^A]A\_^[]
-xA_A^A]A\_^][
-xA_A^A]_][
-xA_A^_^[]
-xA_^H
 xChanged
-x[fff
-x_^][
-xhHcD$8E+
-xlHcD$8E+
 xlink
-xnHcD$8E+
-xnLcT$hH
-xnhPw1t\
-xt	t.H
-xtmhH
-xuH9K
-xuJD9m
+xref\n0 %d\n%010d 65535 f \n
 xx-large
 xxxx||||~~~~
 yChanged
-yXTLFD
-yXTLFDH
-yXTLFDu
 yacute
 ycircumflex
 ydieresis
@@ -35462,45 +31616,12 @@ yellow3
 yellow4
 yellowgreen
 ygrave
-z#u!H
-z#u!I
-z$u"H
-z$u"f
-z%u#H
-z%u#f
-z&u$M
-z&u$fA
-z'u%fA
-z'u%fD
-z)u'H
-z,u*H
-z0HcD$(L
-z3u1H;
-z3u1M
-z4u2H
-z9u7f
-z9u7fE
-z=u;H
+yuml
 z@fffffv
 z@fffffvq@
-z@u>H
-zAu?f
-zBu@A
-zBu@H
-zBu@fD
-zDuBH
-zEuCA
-zEuCH
-zFuDM
-zIuGfD
-zKuIA
-zRuPA
+zTXt
 zTXt: invalid compression type
 zTXt: invalid keyword
-zTuRfA
-zXuVI
-z[uYE
-z\uZH
 z_adler32
 z_compress
 z_crc32
@@ -35516,230 +31637,12 @@ z_inflateInit_
 z_inflateReset
 zacute
 zcaron
-zcuaE
 zdotaccent
-zdubA
+zero
+zeta
 zh-cn
-zkuiH
 zlib IO error
 zstream unclaimed
-zsuqH
+zwnj
 zzzZhniZyyyZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDglgTonaHdhuBbgaTtpoCbmiLelaTbniLragUwahSamsOtrpCiarBiguBulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPookNdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTbhgAssaBlpuDablEnarGgnmHjohKaniLjhaMinaMdneMidoMoorMbraNtabNmlaPcuaPmrePplhPddiSdniShriTaraW
-{ ATAVAWH
-{ AVH
-{(4uY
-{t!uqL
-|	D;z
-|$ #u
-|$ #uAD
-|$ ;s
-|$ ATAUAVAWD
-|$ ATAUAVAWH
-|$ ATAVAW
-|$ ATAVAWH
-|$ ATAVH
-|$ AUAVAWH
-|$ AVAWI
-|$ AVAWM
-|$ AVH
-|$ AVI
-|$ AVL
-|$ AWH
-|$ D8
-|$ D9t$P
-|$ D;F
-|$ D;a
-|$ D;i
-|$ E3
-|$ H+
-|$ H;^ tfH
-|$ H;|$x
-|$ Hc
-|$ Hc^
-|$ Hc_
-|$ HczP
-|$ I;
-|$ Ic
-|$ L+
-|$ Lc
-|$ Lc\$8D
-|$ Mc
-|$ UATAUAVAWH
-|$ UATAUH
-|$ UATAVH
-|$ UATAWH
-|$ UAVAWH
-|$ UH
-|$ ff
-|$ fff
-|$ uv
-|$$M+
-|$(9/
-|$(A^
-|$(E3
-|$(Hc_
-|$(Ic
-|$(L;
-|$(M+
-|$(ff
-|$(fff
-|$0+|$PD
-|$0;u
-|$0A;v
-|$0A^A\
-|$0A_A^
-|$0D+
-|$0D9\$8
-|$0D9~
-|$0D;|$L
-|$0D;~
-|$0E3
-|$0E;N
-|$0Hc
-|$0Hc@4L
-|$0HcF4A
-|$0HcG
-|$0Hc_
-|$0IcC4L
-|$0L+
-|$0fD
-|$0fff
-|$0v3D
-|$4fE
-|$89X
-|$89h
-|$8A;
-|$8A_A^A\
-|$8D;
-|$8D;|$P
-|$8E3
-|$8H9j
-|$8Hc
-|$8HcG
-|$8Hc_
-|$8Hi
-|$8Hk
-|$8Lc
-|$<A;
-|$@9X
-|$@A_A^A]A\
-|$@D8g uGH
-|$@E3
-|$@Hc
-|$@Hc_
-|$@Mc
-|$@TLFDt
-|$@rd
-|$@tYI
-|$@tZH
-|$D;q
-|$DA;
-|$DE3
-|$HD;
-|$HE3
-|$HH;
-|$HHc_
-|$HHk
-|$HI;
-|$P#u
-|$P;h
-|$P;i
-|$PA+
-|$PA8
-|$PA;
-|$PD+
-|$PD;q
-|$PE3
-|$PE;
-|$PH;
-|$PHcG
-|$PHc_
-|$PHk
-|$PL+
-|$PLc
-|$PPu
-|$PfA
-|$Pu"H
-|$XA+
-|$XD;c(}
-|$XE3
-|$XH;
-|$Xf#
-|$Xu"H
-|$\A;
-|$`9X
-|$`;}
-|$`A;
-|$`D;|$d
-|$`E3
-|$`E;
-|$`Hc_
-|$`Ic
-|$`Mc
-|$`ff
-|$`u8
-|$h9x
-|$hA;
-|$hD;
-|$hE+
-|$hE3
-|$hH;
-|$hHcG
-|$hHcG4A
-|$hHc_
-|$hI;
-|$hIc
-|$hMc
-|$hfff
-|$hvc
-|$lD9}
-|$p;x
-|$pA+
-|$pA;~4
-|$pD+
-|$pD9y4
-|$pHcG
-|$pHc_
-|$pI;
-|$pff
-|$pu4H
-|$x9p
-|$x@2
-|$xA;
-|$xE3
-|$xH;
-|$xI;
-|((-t
-|((.t
-|+DA;
-|8(1u
-|BHcO
-}	;F0
-}"fff
-}$fff
-}(fff
-},fff
-}0Hc_
-}8Hc_
-}@Hc_
-}HHc_
-}WLc}
-}XHc_
-}ZA9<
-}`Hc_
-}oHc_
-}pHc_
-}wHc_
-}xHc_
-~ fD9A
-~"fD9A
-~/E9!u
-~3fff
-~:IcW
-~<fff
-~@fff
-~Ufff
-~ZfE;
-~]HcL$ Lcd$(
-~efff
-~wIcC
+~\n?deleteLater@QObject@@QEAAXXZ

@@ -1,56 +1,29 @@
-	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 'L>[
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\_
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- H3E H3E
  Type Descriptor'
  delete
  delete[]
- new[]
- tDE3
- t^D9
- vJH+
-!>6'Y
-!This program cannot be run in DOS mode.$
-(t$PH
-)>6{1n
+ new
 *StO9>T
-+M<7>
-+f)>0'
-+h->|
-,/<-w
 .?AVbad_exception@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.pdata
-.text
 .xJ>Hf
-/>58d%
-0A_A^A]
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^_
-0A_A^_^]
 0iN>/
-1<.	/>:
+11Y@
+37>k
 3>N;kU
 3>fvw
-;H9>&X
-;I9}(tiH
-< t=<	t9
+=cQ6
 =imb;D
+>cQ6
 >jtm}S
 ?7zQ6$
-?:kP<
 ?BindAPI@egl@@YAII@Z
 ?BindTexImage@egl@@YAIPEAX0H@Z
 ?ChooseConfig@egl@@YAIPEAXPEBHPEAPEAXHPEAH@Z
@@ -99,7 +72,6 @@
 ?ProgramCachePopulateANGLE@egl@@YAXPEAXPEBXH1H@Z
 ?ProgramCacheQueryANGLE@egl@@YAXPEAXH0PEAH01@Z
 ?ProgramCacheResizeANGLE@egl@@YAHPEAXHI@Z
-?QY^&
 ?QueryAPI@egl@@YAIXZ
 ?QueryContext@egl@@YAIPEAX0HPEAH@Z
 ?QueryDebugKHR@egl@@YAIHPEA_J@Z
@@ -132,67 +104,21 @@
 ?WaitNative@egl@@YAIH@Z
 ?WaitSync@egl@@YAIPEAX0H@Z
 ?f`Y4
-@.00cfg
-@.data
-@.gfids
-@.reloc
-@.rsrc
-@8<)u
-@8l$Ht
-@8|$^t
-@>%>b
-@A^A]A\_^
-@A^_^
-@A_A^A]A\_^]
-@A_A^_^]
-@SVWATAUAVAWH
-@SVWH
-@UATAUAVAWH
-@USVWATAVAWH
-A84.u
+?qBJ
+?ysB
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ATAUAVH
-AUAVAWH
-A^A]A\
-A^_^[]
-A_A^A\_]
-A_A^A\_^
-A_A^A\_^[]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^]
-A_A^_^]
 AppPolicyGetProcessTerminationMethod
 April
 August
-AuthD
-B(I9A(u
-BC?>6t9^	c:>
+BC?>6t9^\tc:>
 BF>^G
-C8<(u
 CloseHandle
 CorExitProcess
 CreateFileW
-D!l$xA
-D$ E3
-D$(H;
-D$0E3
-D$0HcH
-D$8L9
-D$@H+
-D$@[H
-D$PH+
-D$PI;
-D$`Hc
-D8&t 
-D8&t4H
-D9c t
 December
 DeleteCriticalSection
-E0HcH
-E0Lcx
-EP*?H
+ET5>
 EncodePointer
 EnterCriticalSection
 ExitProcess
@@ -208,7 +134,6 @@ FlushFileBuffers
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G0Hc	H
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -231,16 +156,7 @@ GetStartupInfoW
 GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
-H!D$ H
-H!T$0D
-H9=U~
-H9>u+A
-H;XXs
-H;xXu5
 HH:mm:ss
-HcC H
-HcK H
-Hc]`M
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -253,49 +169,32 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
 January
-K&>.yC
+July
+June
 KERNEL32.dll
-K~Je#>!
-L!|$(L!
-L$ I;
-L$ L;
-L$ VWAVH
-L$ WH
-L$ fff
-L$ |+L;
-L$&8\$&t,8Y
-L$0H3
-L$0H;
-L$8H3
-L$@;|
-L$@H3
-L$XE3
-L9`8u'L
+L>ev
 LCMapStringEx
 LCMapStringW
 LLD PDB.
-LcA<E3
 LeaveCriticalSection
-Lj[;>
 LoadLibraryExW
 LocaleNameToLCID
-M H1E
 MM/dd/yy
 March
 Monday
 MultiByteToWideChar
 November
-O0HcQ
-O0LcQ
+OZQ%
 October
 QueryPerformanceCounter
+RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-SVWATAUAVAWH
+S9>H
 Saturday
 September
 SetFilePointerEx
@@ -303,7 +202,6 @@ SetLastError
 SetStdHandle
 SetUnhandledExceptionFilter
 Sunday
-T$PE3
 TUUUU
 TerminateProcess
 Thursday
@@ -312,34 +210,14 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Tuesday
-UATAUAVAWH
-USVWAVH
 UUUUUU
-UVWATAUAVAWH
-UVWAVAWH
-UWATAVAWH
-UWAVH
 UnhandledExceptionFilter
 Unknown exception
-V6E>`"(5
-VWATAVAW
-VWATAVAWH
-VWAVH
-WATAUAVAWH
-WAVAWH
 Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ VWATAUAVH
-\$ WH
-\$0H;
-\$0eH
-\$8I;
-\$@H;
+\tkE>fvw
 __based(
 __cdecl
 __clrcall
@@ -353,9 +231,6 @@ __swift
 __thiscall
 __unaligned
 __vectorcall
-`.rdata
-`A^_^
-`A_A^A]A\_^]
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -393,11 +268,8 @@ __vectorcall
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
 bad exception
-bp(=>?g
-c [1>H'
-c(>\,
 dddd, MMMM dd, yyyy
-e0A_A^A]A\]
+eF>t
 eglBindAPI
 eglBindTexImage
 eglChooseConfig
@@ -476,57 +348,15 @@ eglWaitClient
 eglWaitGL
 eglWaitNative
 eglWaitSync
-fD90t
-fD94Fu
-fD94H}0L
-fD96u
-fD98t
-fD98u
-fD9t$b
-fffff
-ffffff
-fffffff
 libEGL.dll
 libEGL.dll.pdb
 libGLESv2.dll
 log10
-mL+6H
+mG4>
 n03>Pu
-ntelD
 operator
 operator "" 
 operator co_await
-ot$ H
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-r	Vr.>T
-r>@8o
+r\tVr.>T
 restrict(
-ri9O vdH
-t"<.u
-t$ E3
-t$ WH
-t$8H+
-t5HcP
-t<ffff
-tRLcY
-ttIcF
-u HcA<H
-u(8J(t
-u3HcH<H
-u4I9}(
-ue!T$(H!T$ 
 uzKs@>
-v0D8eou\H
-x ATAVAWH
-x AVAWE3
-x AVH
-y\PD>!
-|$ AVH
-|$ D!
-|$ E3
-|$ UH
-|$0A_A^
-|$8;3
-|$\.u
-|b=})>

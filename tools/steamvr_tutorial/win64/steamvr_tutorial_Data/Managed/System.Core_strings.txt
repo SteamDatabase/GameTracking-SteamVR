@@ -1,102 +1,78 @@
-									
-	,)	o
-	,>	o
-	Inherited
-	OpenStore
-	Y	s>
-	l[ks}
-	l[sp
  wZiK
 !H88p
-!This program cannot be run in DOS mode.
 !tI)i
 !tX)i
-""Df**T~
-"Df"*T~*
+"3ii
 #Blob
 #GUID
 #Mono Common Language Infrastructure
 #Strings
-$$Hl\\
-$Hl$\
-%%Jo..\r
-%-	&	(
 %Named mappings scope is process local
 &&Lj66lZ??~A
-&''Ni
-&*2~!
 &Lj&6lZ6?~A?
 (System.Linq.SystemLinq_LookupDebugView`2
 (c) Various Mono authors
 (pregenerated CallSite<T>.Update delegate
 )System.Linq.Lookup`2+<GetEnumerator>d__13
-)w--Z
-*.rp%
-*.rt	
-*2r^&
-*2r`\
+*2rb
+*2rh
 *2rko
-*6r)|
 *6r*T
 *6r/z
+*6rG
 *6rH]
 *6rI^
+*6r\nq
+*6r\rh
 *6r]p
 *6rdq
 *6rfj
 *6rg_
 *6rgn
 *6r|g
-*:r k
 *:rES
 *:rkr
-*J $I
+*Brx
 *System.Linq.Grouping`2+<GetEnumerator>d__9
 *System.Linq.SystemLinq_GroupingDebugView`2
+*rM7
+*rQD
 + rUB
-+*2r,&
-+B	{J
++2Hp
 +HpXhE
-+M	,#
-,		oo
-,  @`
-,!	o[
-,)	o 
-,.	o[
-,4$8_@
 ,System.Linq.Enumerable+<CastIterator>d__34`1
 ,System.Linq.Enumerable+<JoinIterator>d__81`4
 ,System.Linq.Enumerable+<ZipIterator>d__236`3
--			}
--1	o)
 -Incorrect value: use CorrelationHint2 instead
+-\fra9
 -memoryMappedFileSecurity is currently ignored
-.		{J
-.."+g
-../ecma.pub
-.6$:g
 .System.Linq.Enumerable+<ExceptIterator>d__57`1
 .System.Linq.Enumerable+<OfTypeIterator>d__32`1
 .System.Linq.Enumerable+<WhereIterator>d__228`1
 .cctor
 .ctor
-.hr)O
-.text
-/."+@
 /System.Linq.Enumerable+<SelectIterator>d__154`2
 0 Umv
+022+
 0AA802CD6847EB893FE786B5EA5168B2FDCD7B93
 0C4110BC17D746F018F47B49E0EB0D6590F69939
-11#?*0
+0\vra9
+0`P0
+1$4h
+13s`\f
 1System.Collections.Generic.ICollectionDebugView`1
 1System.Linq.Enumerable+<GroupJoinIterator>d__66`4
 1System.Linq.Enumerable+<IntersectIterator>d__77`1
 1System.Linq.Enumerable+<SkipLastIterator>d__181`1
 1System.Linq.Enumerable+<TakeLastIterator>d__208`1
 1System.Linq.Lookup`2+<ApplyResultSelector>d__19`1
-2.$+4
+1\vrE:
+1bS1
+1gs`\f
+2+ss
 20733E1283D873EBE47133A95C233E11B76F5F11
 21F4CBF8283FF1CAEB4A39316A97FC1D6DF1D35E
+222+
 23DFDCA6F045D4257BF5AC8CB1CF2EFADAFE9B94
 2Ht\l
 2System.Linq.Enumerable+<SkipWhileIterator>d__177`1
@@ -106,16 +82,23 @@ $Hl$\
 2System.Linq.Expressions.Expression+CatchBlockProxy
 2System.Linq.Expressions.Expression+SwitchCaseProxy
 2System.Linq.Parallel.Lookup`2+<GetEnumerator>d__10
-2dV2:tN:
+2dV2:tN:\n
 30A0358B25B1372DD598BB4B1AC56AD6B8F08A47
+33fU
 3System.Dynamic.ExpandoObject+KeyCollectionDebugView
 3System.Linq.Enumerable+<SelectManyIterator>d__163`2
 3System.Linq.Enumerable+<SelectManyIterator>d__165`3
 3System.Linq.Enumerable+<SelectManyIterator>d__167`3
 3System.Linq.OrderedEnumerable`1+<GetEnumerator>d__3
 3System.Linq.OrderedEnumerable`1+<GetEnumerator>d__7
+3\vrR
+4#DS
+4'0B
+4)0B
 4.0.0.0
 4.6.57.0
+4h\4
+5$Ph
 55j_WW
 5B5DF5A459E902D96F7DB0FB235A25346CA85C5D
 5BE411F1438EAEF33726D855E99011D5FECDDD4E
@@ -123,6 +106,9 @@ $Hl$\
 5System.Linq.Expressions.Expression+NewExpressionProxy
 5System.Linq.Expressions.Expression+TryExpressionProxy
 5System.Linq.Parallel.ListChunk`1+<GetEnumerator>d__10
+5\npK
+6-nn
+61+D
 6System.Linq.Expressions.Expression+GotoExpressionProxy
 6System.Linq.Expressions.Expression+LoopExpressionProxy
 7System.Linq.Expressions.Expression+BlockExpressionProxy
@@ -131,6 +117,7 @@ $Hl$\
 7System.Linq.Expressions.Expression+UnaryExpressionProxy
 7System.Linq.Parallel.CancellableEnumerable+<Wrap>d__0`1
 7nY7m
+88pH
 8F22C9ECE1331718CBD268A9BBFD2F5E451441E3
 8System.Dynamic.ExpandoObject+<GetExpandoEnumerator>d__51
 8System.Dynamic.Utils.ListProvider`1+<GetEnumerator>d__20
@@ -138,20 +125,22 @@ $Hl$\
 8System.Linq.Expressions.Expression+LambdaExpressionProxy
 8System.Linq.Expressions.Expression+MemberExpressionProxy
 8System.Linq.Expressions.Expression+SwitchExpressionProxy
+8pH8
+9#pU
 99rKJJ
+9JLX
 9Named mappings scope is process local; options is ignored
 9System.Linq.Expressions.Expression+DefaultExpressionProxy
+9k\nA
 9rK9J
 :System.Linq.Expressions.Expression+ConstantExpressionProxy
 :System.Linq.Expressions.Expression+ListInitExpressionProxy
 :System.Linq.Expressions.Expression+NewArrayExpressionProxy
-;22dV::tN
+;22dV::tN\n\n
 ;System.Dynamic.BindingRestrictions+BindingRestrictionsProxy
 ;System.Linq.Expressions.Expression+DebugInfoExpressionProxy
 ;System.Linq.Expressions.Expression+ParameterExpressionProxy
 ;fD4~
-;f[4~
-<.(+G
 <.cctor>b__10_0
 <.ctor>b__0
 <>1__state
@@ -174,39 +163,6 @@ $Hl$\
 <>4__this
 <>7__wrap1
 <>7__wrap2
-<>9__102_0
-<>9__10_0
-<>9__148_0
-<>9__152_0
-<>9__152_1
-<>9__152_2
-<>9__19_0
-<>9__19_1
-<>9__1_0
-<>9__20_0
-<>9__2_0
-<>9__2_1
-<>9__358_0
-<>9__3_0
-<>9__4_0
-<>9__50_0
-<>9__57_0
-<>9__5_0
-<>9__6_0
-<>9__7_0
-<>9__7_1
-<>9__7_2
-<>9__7_3
-<>9__7_4
-<>9__7_5
-<>c__148`1
-<>c__1`1
-<>c__2`1
-<>c__3`2
-<>c__4`3
-<>c__50`1
-<>c__5`3
-<>c__6`4
 <>c__DisplayClass0_0`2
 <>c__DisplayClass10_0
 <>c__DisplayClass11_0
@@ -429,21 +385,12 @@ $Hl$\
 <count>5__6
 <curr>5__1
 <data>5__1
-<e1>5__1
-<e2>5__2
-<e>5__1
-<e>5__2
 <elem>5__1
 <element>5__1
 <element>5__2
 <elements>5__4
 <enumerator>5__1
 <expandoData>5__1
-<g>5__1
-<i>5__1
-<i>5__2
-<i>5__3
-<i>5__5
 <ignoreKey>5__2
 <index>5__1
 <item>5__3
@@ -451,23 +398,17 @@ $Hl$\
 <leftEnumerator>5__1
 <lookup>5__2
 <map>5__2
-<n>5__2
 <queue>5__1
 <rightEnumerator>5__2
 <set>5__1
 <valueArray>5__1
 <valueCount>5__3
-='9-6d
-=)! )UU
 ==zGdd
 =System.Linq.Expressions.Expression+ConditionalExpressionProxy
 =j&&LZ66lA??~
->//^q
->4$8,@
 ?System.Dynamic.ExpandoObject+KeyCollection+<GetEnumerator>d__15
 ?System.Linq.Parallel.ExceptionAggregator+<WrapEnumerable>d__0`1
 ?System.Linq.Parallel.ZipQueryOperator`3+<AsSequentialQuery>d__9
-@.reloc
 @System.Linq.Expressions.BlockExpressionList+<GetEnumerator>d__18
 A02DD1D8604EA8EC2D2BDA717A93A4EE85F13E53
 AE2F76ECEF8B08F0BC7EA95DCFE945E1727927C9
@@ -535,7 +476,6 @@ AllocateBuffer
 AllocateLocals
 AllowArchiving
 AllowExport
-AllowMultiple
 AllowPartiallyTrustedCallersAttribute
 AllowPlaintextArchiving
 AllowPlaintextExport
@@ -563,6 +503,7 @@ ApplicationAndDeployment
 Apply
 ApplyResultSelector
 ApplyTypeArgs
+Ar;5
 AreEqualityComparersEqual
 AreEquivalent
 AreKeysEqual
@@ -700,14 +641,17 @@ Average
 AverageBase
 AverageCount64
 AverageTimer32
+A~Se
+B#pY
 BCryptNative
+BSJB
 BSystem.Linq.Expressions.Compiler.ParameterList+<GetEnumerator>d__6
 BSystem.Linq.Expressions.Expression+RuntimeVariablesExpressionProxy
+BWQP
 BadDigest
 BadSignatureFormat
 BaseWork
 BasicConstraintsNotObserved
-Bc!! 0
 Bc|w{
 BeginCatchBlock
 BeginExceptFilterBlock
@@ -773,6 +717,7 @@ BoxedInt2
 BoxedInt3
 BoxedIntM1
 BoxedTrue
+Br_S
 Brfalse
 Brfalse_S
 Brtrue
@@ -787,6 +732,7 @@ ByRefAssignBinaryExpression
 ByRefParameterExpression
 ByValParameterTypeEqual
 C77nYmm
+C@gw
 CDo not use this constructor. It will be removed in future releases.
 CLSCompliantAttribute
 CS$<>8__locals1
@@ -1082,6 +1028,7 @@ CustomAttributeExtensions
 CustomProperty
 CustomRestriction
 CustomRestrictionHash
+DD.9
 DEBUG
 DEFAULT_ARRAY_SIZE
 DEFAULT_BOUNDED_BUFFER_CAPACITY
@@ -1156,7 +1103,6 @@ DeriveKeyMaterial
 DeriveKeyTls
 DeriveSecretAgreementHandle
 DerivedClassMustOverride
-Df""T~**;
 Disconnect
 DisconnectNamedPipe
 DisposeEnumerator
@@ -1170,6 +1116,7 @@ DivideAssign
 DocumentType_Text
 DoneAdding
 DoneWithDequeueWait
+DrS5
 DumpLabel
 DuplicateVariable
 DynamicAttribute
@@ -1183,6 +1130,7 @@ DynamicObject
 DynamicObjectResultNotAssignable
 ECCurve
 ECCurveType
+ECDH
 ECDHP256
 ECDHP384
 ECDHP521
@@ -1197,6 +1145,7 @@ ECPoint
 ENUMERATION_NOT_STARTED
 EditorBrowsableAttribute
 EditorBrowsableState
+Eg\nA
 ElapsedTime
 ElementAtOrDefault
 ElementAtQueryOperatorEnumerator
@@ -1414,6 +1363,7 @@ EnumeratingNullEnumerableExpression
 Environment
 EphemeralKey
 EqualityMustReturnBoolean
+Eri5
 EventAttributes
 EventBookmark
 EventDescriptor
@@ -1460,6 +1410,7 @@ ExecuteAndCollectResults
 ExecuteAndGetResultsAsArray
 ExecuteBoxed
 ExecutionScope
+Exit
 ExitAndWakeUpAppropriateReadWaiters
 ExitAndWakeUpAppropriateWaiters
 ExitAndWakeUpAppropriateWaitersPreferringWriters
@@ -1534,7 +1485,9 @@ FileMode
 FileNotFoundException
 FilePermissions
 FileShare
+Fill
 FillSet
+Find
 FindConversionOperator
 FindEnumerableMethod
 FindGenericType
@@ -1563,6 +1516,7 @@ ForceHighProtection
 ForceParallelism
 ForkJoin
 FormatDescription
+Free
 FreeLocal
 FreeTemp
 FriendAccessAllowedAttribute
@@ -1592,6 +1546,7 @@ Func`7
 Func`8
 Func`9
 FunctionalOp
+F~Tb
 GSystem.Linq.Parallel.PartitionerQueryOperator`1+<AsSequentialQuery>d__5
 GenerateIV
 GenerateKey
@@ -2086,11 +2041,13 @@ IsWriterAcquired
 Isinst
 IsolateExpression
 IssuerChainingError
+Item
 IterativeCopy
 IteratorStateMachineAttribute
+J3e\
+J\n4M
 JaggedArray`1
 Kerberos
-Key = {Key}
 KeyAgreement
 KeyAndValuesComparer
 KeyBuilder
@@ -2106,6 +2063,14 @@ KnownAssignable
 KnownFalse
 KnownIdentity
 KnownTrue
+Kri5
+KwZi
+L#o9
+L$0i
+L$Li
+L$hi
+L'0B
+L(Oh
 LabelExpressionProxy
 LabelScopeInfo
 LabelScopeKind
@@ -2240,6 +2205,7 @@ MAX_SUPPORTED_DOP
 MD5Cng
 MD5CryptoServiceProvider
 MMfU33
+Make
 MakeArrayType
 MakeAsynchronousChannels
 MakeBinary
@@ -2294,6 +2260,7 @@ ManifestSignatureInformationCollection
 ManualResetEvent
 ManualResetEventSlim
 MapInternal
+Mark
 MarkBit
 MarkLabel
 MarkRef
@@ -2304,6 +2271,7 @@ MarkWithEmptyStack
 MarkedBitFlag
 Marker
 MatchesArgumentTypes
+Math
 MaxAllowedServerInstances
 MaxColumn
 MaxCoreClrArrayLength
@@ -2397,8 +2365,8 @@ Mutables
 NTAccount
 NTE_BAD_ALGID
 NULL_ELEMENT_HASH_CODE
-Name	FullTrust
 Name%System.Linq.Parallel.PlinqEventSourceT
+Name\tFullTrust
 NamedCurves
 NamedPipeClientStream
 NamedPipeServerStream
@@ -2471,6 +2439,8 @@ NotSupported_SubclassOverride
 NotSupported_UnreadableStream
 NotSupported_UnseekableStream
 NotSupported_UnwritableStream
+NrZl
+Ntlm
 Nullable
 NullableDecimalAverageAggregationOperator
 NullableDecimalAverageAggregationOperatorEnumerator`1
@@ -2505,6 +2475,7 @@ NullableLongSumAggregationOperatorEnumerator`1
 Nullable`1
 NumberFormatInfo
 O44h\
+Oaep
 ObjectDisposedException
 ObjectDisposed_FileClosed
 ObjectDisposed_PipeClosed
@@ -2564,6 +2535,7 @@ Overlaps
 OverloadOperatorTypeDoesNotMatchConversionType
 OverwriteExistingKey
 P.3+I
+P00`
 P<xD<
 PARALLELQUERYBEGIN_EVENTID
 PARALLELQUERYEND_EVENTID
@@ -2577,6 +2549,7 @@ PLINQ_ExternalCancellationRequested
 POLL_INTERVAL
 PPxD<<%
 PRODUCER_BUFFER_AUTO_SIZE
+P\to4
 PairComparer`2
 ParallelEnumerable
 ParallelEnumerableWrapper
@@ -2637,6 +2610,7 @@ PartitionerQueryOperator`1
 PathLengthConstraintViolated
 PathTooLongException
 PathType
+Peek
 Perflib_Argument_CounterAlreadyExists
 Perflib_Argument_CounterNameAlreadyExists
 Perflib_Argument_CounterSetAlreadyRegister
@@ -2681,6 +2655,7 @@ PostDecrementAssign
 PostIncrementAssign
 Power
 PowerAssign
+Pr[6
 PreDecrementAssign
 PreIncrementAssign
 PreallocatingToArray
@@ -2711,9 +2686,11 @@ ProviderMetadata
 PublicKeyTokenMismatch
 PublisherMismatch
 Pulse
+Push
 QPeA~S
 QSeA~
 QSystem.Linq.Expressions.Compiler.CompilerScope+<GetVariablesIncludingMerged>d__37
+Q\tdX
 QueryAggregationOptions
 QueryAggregationOptionsExtensions
 QueryExecutionOption`1
@@ -2748,6 +2725,7 @@ RawDataHex32
 RawDataHex64
 RawFraction32
 RawFraction64
+Rcon
 ReadAttributes
 ReadByte
 ReadData
@@ -2902,6 +2880,7 @@ SHA512CryptoServiceProvider
 SHA512Managed
 STEAL_BUFFER_SIZE
 SYSTEMTIME
+S\n8N
 SafeBuffer
 SafeHandle
 SafeHandleZeroOrMinusOneIsInvalid
@@ -2947,6 +2926,7 @@ SelectManyQueryOperator`3
 SelectManySingleSelectorIterator`2
 SelectQueryOperatorEnumerator`1
 SelfVariable
+Send
 SequenceEqual
 SerializationException
 SerializationInfo
@@ -2981,6 +2961,7 @@ ShouldSaveToTemp
 Shr_Un
 ShrinkThreshold
 Shuffled
+Sign
 SignData
 SignHash
 Signal
@@ -2997,6 +2978,7 @@ SingleOrDefault
 SingleQueryOperatorEnumerator`1
 SingleQueryOperator`1
 SizeOf
+Skip
 SkipAndCount
 SkipBefore
 SkipBeforeFirst
@@ -3006,6 +2988,7 @@ SkipVerification
 SkipWhile
 SkipWhileIterator
 Sleep
+Slot
 SlowAdd
 SortHelper`1
 SortHelper`2
@@ -3081,6 +3064,7 @@ SubtractChecked
 SupportsRecursion
 SuppressFinalize
 Suspend
+Swap
 SwitchCaseProxy
 SwitchCaseToString
 SwitchExpressionProxy
@@ -3295,8 +3279,9 @@ SystemCore_EnumerableDebugView`1
 SystemError
 SystemLinq_GroupingDebugView`2
 SystemLinq_LookupDebugView`2
+T"R3
+T'Oh
 T00`P
-T6$:.
 TAccumulate
 TBinder
 TCastTo
@@ -3311,6 +3296,7 @@ TInner
 TInput
 TInputOutput
 TIntermediate
+TKey
 TKey2
 TLeftInput
 TLeftKey
@@ -3320,6 +3306,7 @@ TOuter
 TOutput
 TResult
 TResult2
+TRet
 TRightInput
 TRightKey
 TSecond
@@ -3330,8 +3317,8 @@ TUrSystem.Diagnostics.Tracing.EventLevel, mscorlib, Version=4.0.0.0, Culture=neu
 TUsSystem.Diagnostics.Tracing.EventOpcode, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 TU{System.Security.Permissions.UIPermissionWindow, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 TValue
-T[$:.6
 Tailcall
+Take
 TakeLast
 TakeLastIterator
 TakeOrSkipQueryOperatorEnumerator`1
@@ -3342,6 +3329,7 @@ TakeOrSkipWhileQueryOperator`1
 TakeOwnership
 TakeWhile
 TakeWhileIterator
+Task
 TaskAwaiter`1
 TaskCreationOptions
 TaskExtensions
@@ -3351,7 +3339,6 @@ TempMaker
 TestBuilder
 TestValueTypeDoesNotMatchComparisonMethodParameter
 TextWriterTraceListener
-The second data source of a binary operator must be of type System.Linq.ParallelQuery<T> rather than System.Collections.Generic.IEnumerable<T>. To fix this problem, use the AsParallel() extension method to convert the right data source to System.Linq.ParallelQuery<T>.
 ThenBy
 ThenByDescending
 ThreadStaticAttribute
@@ -3396,6 +3383,7 @@ TraceInfo
 TransformBlock
 TransformFinalBlock
 TransitionTime
+Trim
 TrimExcess
 TripleDES
 TripleDESCng
@@ -3464,8 +3452,10 @@ TypedDynamicExpression4
 TypedDynamicExpressionN
 TypedParameterExpression
 U(Px(
+U33f
 UAnonymous pipes are not working even on win32, due to some access authorization issue
 UUPx((
+U\nlN
 UnaryExpressionProxy
 UnaryOperationBinder
 UnaryOperatorNotDefined
@@ -3507,12 +3497,10 @@ UnknownLiftType
 UnknownTrustProvider
 UnknownVerificationAction
 UnlimitedSequentialFiles
-UnmanagedCode
 UnmanagedMemoryAccessor
 UnmanagedMemoryStream
 Unmap
 UnorderedHashRepartitionStream`3
-Unrestricted
 UnsupportedExpressionType
 Untrusted
 UntrustedCertificationAuthority
@@ -3698,6 +3686,7 @@ WithMergeOptions
 WithPerExecutionSettings
 WmiConfigurationAttribute
 Worse
+Wrap
 WrapEnumerable
 WrapFunc
 WrapHelper
@@ -3726,17 +3715,57 @@ WriteThrough
 WriteTo
 WriteTransferEvent
 WriteUnlock
-X )UU
+X3\vr
 X509Certificate2
 X509Chain
 X509RevocationFlag
 X509RevocationMode
-Xt,,4.
+XZ(1
+X\f\to7
+XhHp
+Y1\vr
+Y77n
+Y\nKo
+Z$Hj
+Z$dj
 ZOMBIED_PRODUCER_TIMEOUT
+ZX%J
+ZiKw
 ZipIterator
 ZipQueryOperatorResults
 ZipQueryOperator`3
-\h!T[
+\44h
+\fThe second data source of a binary operator must be of type System.Linq.ParallelQuery<T> rather than System.Collections.Generic.IEnumerable<T>. To fix this problem, use the AsParallel() extension method to convert the right data source to System.Linq.ParallelQuery<T>.
+\fUnrestricted
+\n%ra9
+\n0\vrw
+\nY57
+\nY5I
+\nl[sp
+\nr11
+\nr56
+\nrE0
+\nrE2
+\nrS2
+\nrW1
+\nro9
+\nry0
+\nzrM8
+\nzse\t
+\rAllowMultiple
+\rUnmanagedCode
+\t2pB
+\t2y4
+\tInherited
+\tOpenStore
+\tl[sp
+\txYn
+\v../ecma.pub
+\v2pB
+\v2y4
+\vKey = {Key}
+\v{DebugView}
+_55j
 _CorDllMain
 _DelegateCache
 _TbF~
@@ -3860,6 +3889,7 @@ _elementComparer
 _elementCount
 _elementSelector
 _elements
+_end
 _endColumn
 _endLine
 _entries
@@ -3902,7 +3932,9 @@ _hashNext
 _head
 _headIndex
 _hoistedLocals
+_ids
 _ignoreOutput
+_ilg
 _inQuote
 _index
 _indexOffset
@@ -3919,6 +3951,7 @@ _isOrdered
 _item
 _items
 _jbF~T
+_key
 _keyComparer
 _keyExchangeMatrix
 _keySelector
@@ -3983,6 +4016,7 @@ _orderComparer
 _orderKey
 _orderKeys
 _ordinalIndexState
+_out
 _outputArray
 _outputEnumerator
 _outputLoopCount
@@ -4031,6 +4065,7 @@ _reservedCount
 _resetPending
 _resultFoundFlag
 _results
+_rhs
 _rightChild
 _rightChildCount
 _rightChildQueryResults
@@ -4055,6 +4090,7 @@ _seedIsSpecified
 _selectManyOperator
 _selectOp
 _self
+_set
 _settings
 _shadowedVars
 _sharedBarrier
@@ -4117,9 +4153,9 @@ _wrappedComparer
 _wrappedEnumerable
 _wrappedEnumerator
 _yieldExtra
-`.rsrc
 `3QbE
 `3SbE
+`P00
 a5j_5W
 aaj_55
 accessMask
@@ -4129,8 +4165,10 @@ actualValue
 addMethod
 add_EventRecordWritten
 additionalAccessRights
+addr
 after
 aiKwZ
+algo
 allowByRef
 allowPointer
 application
@@ -4141,18 +4179,26 @@ arg13
 arg14
 arg15
 arg16
+arg5
+arg6
+arg7
+arg8
+arg9
 argCount
 argList
 argNames
 argType
 argTypes
+args
 argumentParamName
 arrayIndex
 arrayName
 arrayType
 assignment
 asyncResult
+attr
 attributeType
+atts
 bS11*?
 bSystem.Linq.Parallel.QueryResults`1+<System-Collections-Generic-IEnumerable<T>-GetEnumerator>d__21
 backupPath
@@ -4174,6 +4220,7 @@ buffer_size
 byRef
 c!!B0
 c.2rO
+c\nLP
 cacheLower
 callArgs
 callInfo
@@ -4181,6 +4228,7 @@ callback
 callerName
 cancelState
 capacity
+case
 caseInsensitive
 cases
 cbSize
@@ -4224,7 +4272,12 @@ currentKey
 curve
 curveOid
 customType
+d#o9
+d'0B
+d(Oh
 dV22tN::
+d\nhQ
+d\rK8
 dataCount
 debugInfoGenerator
 defaultBody
@@ -4237,6 +4290,7 @@ delimiter
 depth
 desiredAccess
 desiredAccessRights
+dest
 direction
 disposing
 do not use this method
@@ -4245,7 +4299,8 @@ document
 documentType
 domain
 dontAllocate
-e##F^
+e\nKo
+ekey
 elementType
 elementVisitor
 emitAs
@@ -4266,18 +4321,20 @@ eventQuery
 expandedKey
 expectedType
 explicit
+expr
 exprType
 externalCancellationToken
-f""D~**T
 fDisposed
 fIsReentrant
 fNoWaiters
+fNt7
 fUpgradeThreadHoldingRead
 fallback
 fallbackInvoke
 fallbackResult
 fclose
 fieldName
+file
 fileName
 fileShare
 fileStream
@@ -4288,8 +4345,8 @@ firstChild
 firstType
 flags
 forEffect
+func
 funcType
-g+V}+
 gK99r
 get_Access
 get_AccessControlSectionsModified
@@ -4930,8 +4987,9 @@ get_brainpoolP512t1
 get_nistP256
 get_nistP384
 get_nistP521
-ggV}++
+h0\vP
 h8,4$
+hHpX
 h\44Q
 handler
 handlers
@@ -4941,6 +4999,8 @@ hashKeyComparer
 hashKeySelector
 hashStream
 hmacKey
+i1\vr
+i3\vrC(
 iSBox
 ibStart
 identity
@@ -4952,6 +5012,7 @@ ignored
 ilOffset
 impersonationLevel
 impersonationWorker
+impl
 inBufferSize
 includePrivateParameters
 includeSections
@@ -4962,9 +5023,11 @@ indexClass
 indexLambda
 indexer
 indices
+info
 inherit
 inheritability
 inheritanceFlags
+init
 initialArg
 initialize
 initializer
@@ -4978,6 +5041,7 @@ instanceName
 instanceType
 invocation
 invoke
+ioA\f
 isAsync
 isByRef
 isChecked
@@ -4991,10 +5055,15 @@ isMethod
 isWriteWaiter
 is_async
 issue
+j1\vr
+j1\vrF
+j2N+
 j2Z+"
 keepOnStack
 keepOpen
 kernel32
+key1
+key2
 key2Comparer
 key2Selector
 keyHandle
@@ -5002,12 +5071,20 @@ keyHandleOpenOptions
 keyName
 keySize
 keywords
+kind
 klass
-l	l[sp
-l[ks}
+l'Oh
+lHt\
+lNrZ
+l\ntU
+l\rK8
+l\tl[sp
+l\vEW
 language
 languageVendor
+last
 leaveOpen
+left
 leftChildSource
 leftHashStream
 leftStream
@@ -5017,6 +5094,7 @@ level
 liftToNull
 liftedToNull
 linked
+list
 listExpression
 listType
 listTypeParamName
@@ -5031,6 +5109,8 @@ lockObject
 logName
 logOnType
 logRetentionOption
+lpHP
+lrwc
 m_access
 m_algorithm
 m_algorithmGroup
@@ -5093,6 +5173,7 @@ mmap_handle
 mscoree.dll
 myComparer
 myLock
+nY77
 name_cache
 newClass
 newExpression
@@ -5111,7 +5192,7 @@ numUpgradeWaiters
 numWaiters
 numWriteUpgradeWaiters
 numWriteWaiters
-o%%Jr..\$
+o\nDV
 objExpression
 objVar
 object
@@ -5138,6 +5219,7 @@ op_LessThan
 op_LessThanOrEqual
 op_Subtraction
 opcode
+open
 openMode
 openOptions
 openedChild
@@ -5162,16 +5244,35 @@ overlapped
 owner
 owners
 ownsHandle
+p*2r
 p*2r=
 p*2rOa
 p*2r\d
 p*2rgv
 p*2rn
+p*6r
 p*6r<t
 p*6rU
-p>|B>
+p0\vP
+pH88
+pXhH
 pZlNr
+p\f+6r
+p\f+Fr
+p\f+Nr
+p\f+Vr
+p\f+fr
+p\f+nr
+p\f+vr
+p\f86
+p\f8c
+p\f8n
+p\f8y
 p\lHtW
+p\n8E
+p\n8P
+p\n8f
+p\n8q
 paramList
 paramName
 paramType
@@ -5182,6 +5283,7 @@ parentHandle
 partitionedStream
 partitionsCount
 password
+path
 pathType
 phase
 pipeAtts
@@ -5189,7 +5291,11 @@ pipeHandleAsString
 pipeMode
 pipeName
 pipeSecurity
+poP\f
+poQ\f
+pow\f
 pp|B>>q
+pr\t6
 precondition
 predicate1
 predicate2
@@ -5214,7 +5320,10 @@ query
 queryID
 queryOp
 quote
+rK99
 rSystem.Linq.Parallel.OrderedGroupByGrouping`3+<System-Collections-Generic-IEnumerable<TElement>-GetEnumerator>d__8
+rZlN
+r\ndW
 readEvent
 readExistingEvents
 readHandle
@@ -5251,6 +5360,7 @@ rightStream
 rightStreamInc
 rightType
 rights
+rule
 s11bS
 s_Aggregate_TSource_2
 s_Aggregate_TSource_TAccumulate_3
@@ -5447,6 +5557,7 @@ s_cachedUpdate
 s_counter
 s_defaultSchedulerId
 s_delegateCtorSignature
+s_dh
 s_dsa
 s_eccFullPrivate
 s_eccFullPublic
@@ -5474,6 +5585,7 @@ s_knownNonDynamicMethodType
 s_lambdaDelegateCache
 s_lambdaFactories
 s_legacyCtorSupportTable
+s_m1
 s_md5
 s_msSmartCardKsp
 s_msSoftwareKsp
@@ -5495,6 +5607,7 @@ s_siteCtors
 s_true
 safeHandle
 safePipeHandle
+save
 secondChild
 secretAppend
 secretPrepend
@@ -5514,6 +5627,8 @@ serverName
 serverSafePipeHandle
 server_handle
 session
+set1
+set2
 set_BatchSize
 set_BlockSize
 set_CancellationState
@@ -5581,6 +5696,7 @@ sharedData
 sharedkeys
 should_close_handle
 singularExceptionToThrow
+site
 size1
 size2
 skipParameters
@@ -5598,17 +5714,23 @@ subType
 succeeds
 suppressOrder
 switchValue
-t,,X.
+t(0B
+t0QP
+t\fK8
 t\lHBW
+t\v2U
+t\vxV
 t_rwc
 tailCall
 target
 targetCultureInfo
 targetFilePath
 targetParameter
+task
 taskId
 taskSchedulerId
 templateHandle
+test
 testType
 testValues
 throwIfTwo
@@ -5635,18 +5757,26 @@ upgradeEvent
 upgradeLockOwnerId
 upgradecount
 use a different constructor that does not take ExpressionType. Then override NodeType and Type properties to provide the values that would be specified to this constructor.
+user
 userInitiatedDispose
 userName
+v#Db
+v#Ha
+v#da
 v4.0.30319
+v\nqW
 valueLocal
 valueParameter
 valueType
 value__
 varList
 variable
+vars
 vendor
 visit
 visitor
+w"8S
+w\n8X
 waitEvent
 waitHandle
 waitUpgradeEvent
@@ -5659,14 +5789,18 @@ writeHandle
 writeLockOwnerId
 write_delegate
 writercount
-x%Jo%.\r.
+x"8S
 x((Pz
+x0ZP
+x\nzX
 xmlPayload
 xxJo%%\r..8$
-{DebugView}
+y\n4Y
+z\toG
+z\toH
 {DebuggerDisplay,nq}
-}{))R>
+|0cP
 ~0d1#
-~=zG=d
+~SeA
 ~System.Security.Permissions.UIPermissionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-~~zG==
+~TbF

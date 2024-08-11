@@ -1,12 +1,81 @@
-
-!
+   %d initial materials (%d initial depth-only), %d copy material changes\n
+   %d material Vfx evals, %d material Vfx rule checks, %i cb updates (%ikb)\n
+   %d material computes, %d full material sets, %d similar sets, %d texture-only sets\n
+  0x%08X %s,\n
+  Actual   : 
+  Comment started here.
+  Expected : 
+ !"#$%&'()*+,-./0123
+ #GameUI_Disconnect_ExitingEngine
+ #GameUI_Disconnect_InternalError
+ #GameUI_Disconnect_SnapshotError
+ #GameUI_Disconnect_SoundsMessage
+ #GameUI_Disconnect_SteamIDBanned
+ #GameUI_ServerRejectBadChallenge
+ #Valve_Reject_Connect_From_Lobby
+ #Valve_Reject_Reserved_For_Lobby
+ ( def. "%s" )
+ *** Skip layer '%s' 
+ -shadowTargetSize Adjusting shadow target size to %d from %d
+ -shadowTargetSize psys jba Adjusting nMaxShadowBufferSize size to %d from %d
+ = { <proto text format> }". To set fields within it, use syntax like "
+ BackUp() can only be called after Next().
+ BreakOnDelete: 
+ BreakOnDraw: 
+ Can't back up over more bytes than were returned by the last call to Next().
+ DebugLevel:
+ Outdent() without matching Indent().
+ Parameter to BackUp() can't be negative.
+ ReadToken overflow
+ Someone needed to call WaitForRenderingToComplete()!!!!!\n
+ Submit clear screen for layer 
+ Submit dependent display list for dependent view 
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ [%.3f server clamped to %.3f]
+ [default = $0
+ a protocol 
+ adding views while previous rendering is running. Someone needed to call WaitForRenderingToComplete()!!!!!\n
+ args were given.  Full format string was: "
+ arguments. 
+ auto alias
+ but not used.
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ conflicts with an existing enum type.
+ conflicts with an existing field.
+ conflicts with an existing nested message type.
+ conflicts with an existing oneof type.
+ contains invalid 
+ details: 
+ google/protobuf/descriptor.proto*
+ message of type "
+ not found
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ rows of transform texture
+ trying to move layer %s after unfound layer %s
+ trying to move non existent layer
+ type does not match\n
+ unexpected for field 
+ was modified concurrently during serialization.
+ with type 
+!#GameUI_Disconnect_ConnectionLost
+!#GameUI_Disconnect_HLTVRestricted
+!#GameUI_Disconnect_LoopDeactivate
+!#GameUI_Disconnect_RejectedByGame
+!#GameUI_Disconnect_Request_HSIdle
+!#GameUI_Disconnect_ServerShutdown
+!#GameUI_Disconnect_SteamDeny_Misc
+!#GameUI_Disconnect_SteamOwnership
+!#GameUI_Disconnect_TempEntMessage
+!#GameUI_ServerRejectFailedChannel
+!.google.protobuf.EnumValueOptions
 !m_bNeedsSort
 !pObj->HasFlags( SCENEOBJECTFLAG_DELETED )
 !pObj->IsDeleted()
-"
 " (mixed)
 " (sun/mixed)
-" because it is missing required fields:
+" because it is missing required fields: 
 " cached
 " conflicts with field "
 " conflicts with the existing symbol "
@@ -24,7 +93,7 @@
 " is already defined in file "
 " is already defined.
 " is an atomic type, not a message.
-" is missing required fields:
+" is missing required fields: 
 " is not a field or extension of message "
 " is not a message type.
 " is not a proto3 enum, but is used in "
@@ -37,7 +106,7 @@
 " is resolved to "(
 " is specified along with field "
 " is specified multiple times.
-" must be unique within
+" must be unique within 
 " not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
 " seems to be defined in "
 " stored in google.protobuf.Any has missing required fields
@@ -49,39 +118,30 @@
 " was not found or had errors.
 " which is a proto3 message type.
 " which is.
-"""
+"#GameUI_Disconnect_DeltaEntMessage
+"#GameUI_Disconnect_HLTVUnavailable
+"#GameUI_ServerRejectInvalidCertLen
+"#\n\nCEntityMsg
 "$0" does not declare $1 as an extension number.
-"$0",
-"%s"
+"$\n\fCMsgVector2D
 "%s" = "%s"
-"%s":
-"%s":%.3f
-"%s":%d
-"%s":%f
-"%s":%lld
-"%s":%llu
-"%s":%s
-"%s":%u
-"%s":[
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
 ", another member of oneof "
-", but only
-", field number
-", found "
+", but only 
+", field number 
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
-".
+"-\n\nCMsgQAngle
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". This appears to be a value from a sibling type.
-". This is not
+". This is not 
 ". Value: "
-".)
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-":
+"<\n CNETMsg_SpawnGroup_LoadCompleted
 "DeleteMapValue"
 "GetMapData"
 "GetRawRepeatedField"
@@ -91,12 +151,17 @@
 "MapEnd"
 "MapSize"
 "MutableRawRepeatedField"
+"^\n\fOneofOptions
 "e" must be followed by exponent.
-# objects moves for partition optimization: %d
-# of channels is zero.
-#%d
+"ikrig
+"k\n"CNETMsg_SpawnGroup_SetCreationTick
+"u\n!CNETMsg_SpawnGroup_ManifestUpdate
+# objects moves for partition optimization: %d\n
+# of channels is zero.\n
+##GameUI_Disconnect_BadRelayPassword
+##GameUI_Disconnect_ReliableOverflow
+##GameUI_Disconnect_SnapshotOverflow
 #%d: %s 0x%p @ (%g,%g,%g)
-#%s/%s/%s
 #%s/%s/+MultiGpu-Mutex( %d -> %d )
 #%s/%s/+MultiGpu-ResetMask( 0x%x )
 #%s/%s/+MultiGpu-SetCBuffer
@@ -106,6 +171,7 @@
 #%s/%s/+MultiGpu-TransferRenderTarget( To: %dx%d @ x: %d y: %d, From: %dx%d @ x: %d y: %d )
 #%s/%s/+SteamVrCompositor-TransferLeftEye( %dx%d @ (x: %d y: %d) )
 #%s/%s/+SteamVrCompositor-TransferRightEye( %dx%d @ x: %d y: %d) )
+#%s/%s/BatchRenderList frame( %d )
 #%s/%s/Render2DDebugOverlays
 #%s/%s/Render3DDebugOverlays
 #%s/%s/UpdatePerViewConstantBuffer%d
@@ -113,42 +179,85 @@
 #%s/RenderAView/RenderAView
 #%s/UpdatePerViewConstantBuffers
 #%s/UpdatePerViewConstantBuffers%d
-#It contains connectivity part %d with %d vertices
-#This file is generated by CMesh::SaveObj() from CMesh with %d indices, %d vertices, %d attributes
-#[
+#GameUI_ClientConsistencyFail
+#GameUI_ClientDifferentMap
+#GameUI_ClientNoMap
+#GameUI_ClientUnableToCRCMap
+#GameUI_Disconnect_BanAdded
+#GameUI_Disconnect_Disconnected
+#GameUI_Disconnect_HLTVDirect
+#GameUI_Disconnect_HLTVStop
+#GameUI_Disconnect_Host_EndGame
+#GameUI_Disconnect_KickBanAdded
+#GameUI_Disconnect_Kicked
+#GameUI_Disconnect_LeavingSplit
+#GameUI_Disconnect_LoopShutdown
+#GameUI_Disconnect_NoMoreSplits
+#GameUI_Disconnect_NoSpectators
+#GameUI_Disconnect_Server
+#GameUI_Disconnect_SteamDropped
+#GameUI_Disconnect_SteamIDInUse
+#GameUI_Disconnect_SteamInUse
+#GameUI_Disconnect_SteamLogon
+#GameUI_Disconnect_SteamTicket
+#GameUI_Disconnect_SteamTimeOut
+#GameUI_Disconnect_SteamVAC
+#GameUI_Disconnect_TickMessage
+#GameUI_Disconnect_TimedOut
+#GameUI_Disconnect_Unusual
+#GameUI_Disconnect_User
+#GameUI_Disconnect_UserCmd
+#GameUI_ServerAuthDisabled
+#GameUI_ServerCDKeyAuthInvalid
+#GameUI_ServerNoLobby
+#GameUI_ServerRejectBadPassword
+#GameUI_ServerRejectBanned:E\n
+#GameUI_ServerRejectLANRestrict
+#GameUI_ServerRejectNewProtocol
+#GameUI_ServerRejectOldProtocol
+#GameUI_ServerRejectServerFull
+#GameUI_ServerRejectSteam
+#GameUI_ServerRequireSteams
+#It contains connectivity part %d with %d vertices\n
+#This file is generated by CMesh::SaveObj() from CMesh with %d indices, %d vertices, %d attributes\n
+#Valve_Reject_Background_Map
+#Valve_Reject_Hidden_Game
+#Valve_Reject_Single_Player
 #base
-#base is NULL
+#base is NULL 
 #empty#
-#f %d %d %d, original mesh: %d %d %d
+#f %d %d %d, original mesh: %d %d %d\n
 #include
-#include is NULL
+#include is NULL 
 #int#
-$
-$0  extend .$1 {
-$0  extensions $1 to $2;
-$0  reserved
-$0  }
-$0 to $1,
-$0$1 = $2
+$#GameUI_Disconnect_BadServerPassword
+$#GameUI_Disconnect_ConnectionFailure
+$#GameUI_Disconnect_MessageParseError
+$#GameUI_Disconnect_Request_HLTVRelay
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
+$0  reserved 
 $0$1$2 $3 = $4
-$0,
-$0// $1
-$0enum $1 {
+$0enum $1 {\n
 $0message $1
 $0oneof $1 {
-$0option $1;
+$0option $1;\n
 $0rpc $1($4.$2) returns ($5.$3)
-$0}
 $ORIGIN
-%
-%%%s
-%-120s
-%-120s - %s
-%-16s
-%.*g
+%#GameUI_Disconnect_BadClientDeltaTick
+%#GameUI_Disconnect_ConnectionOverflow
+%#GameUI_Disconnect_ConnectionTimedout
+%#GameUI_Disconnect_CreateServerFailed
+%#GameUI_Disconnect_LocalProblem_Other
+%#GameUI_Disconnect_ReplayIncompatible
+%#GameUI_Disconnect_ServerIncompatible
+%#GameUI_Disconnect_ServerInfoOverflow
+%#GameUI_Disconnect_StringTableMessage
+%#GameUI_ServerRejectInvalidConnection
+%#GameUI_ServerReject_InvalidKeyLength
+%-120s - %s\n
+%-120s\n
 %.15lf
-%.1f
-%.2f ms
 %01d
 %02X
 %02d
@@ -157,82 +266,93 @@ $ORIGIN
 %05d
 %06d
 %08dx.geo
-%6d
 %8.3f
-%c
-%d
 %d "No animation data"
-%d (%d depth-only, %d depth-only alpha-tested)
-%d (target %d per view, originally %d with cost per job %d)
-%d draw calls for particles
-%d initial materials (%d initial depth-only), %d copy material changes
-%d kb
-%d material Vfx evals, %d material Vfx rule checks, %i cb updates (%ikb)
-%d material binds for particles
-%d material computes, %d full material sets, %d similar sets, %d texture-only sets
-%d particle systems rendered
-%d primary, %d secondary
-%d.%d.%d
+%d (%d depth-only, %d depth-only alpha-tested)\n
+%d (target %d per view, originally %d with cost per job %d)\n
+%d draw calls for particles\n
+%d material binds for particles\n
+%d particle systems rendered\n
+%d primary, %d secondary\n
 %d=%s:  pos[ %8.3f %8.3f %8.3f ] ang[ %8.3f %8.3f %8.3f ]
 %dx%dTriStrippedVB
 %f %f %f %f
-%f is before m_SimulationState[%d].m_flSimulationTime %f
-%g
-%hd
+%f is before m_SimulationState[%d].m_flSimulationTime %f\n
 %i %i %i %i
-%ld
 %lld
 %llu
 %ls [wstring, len = %d]
-%lu
-%p
-%s
 %s (Color)
 %s (Material)
-%s * %s
-%s + %s
-%s - %s
-%s / %s
-%s : %d
-%s [%s]
-%s allocation count overflow( %llu > %llu )
-%s allocation count overflow( %llu >= %llu )
-%s%d
-%s%s
-%s,
-%s.
-%s/
-%s: string format requested %d chars
-%sLOD Level: %d Draw Calls: %d Triangles: %d
+%s allocation count overflow
+%s allocation count overflow( %llu > %llu )\n
+%s allocation count overflow( %llu >= %llu )\n
+%s: string format requested %d chars\n
+%s\nLOD Level: %d Draw Calls: %d Triangles: %d
 %s_color
 %s_matgrp
-%u
-&
-'
-'%s'
+&#GameUI_Disconnect_InvalidMessageError
+&#GameUI_Disconnect_NoPeerGroupHandlers
+&#GameUI_Disconnect_PureServer_Mismatch
+&#GameUI_Disconnect_RemoteProblem_Other
+&#GameUI_ServerRejectInvalidReservation
+&\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
+'#GameUI_Disconnect_BadSpectatorPassword
+'#GameUI_Disconnect_DifferentClassTables
+'#GameUI_ServerRejectInvalidSteamCertLen
+'\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
+'\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
 'out_location' must not be NULL
-(
-( def. "%s" )
-(%3.3f - %3.3f)(%3.3f - %3.3f)(%3.3f - %3.3f)%3.3f x %3.3f
-(*%s*),
-(.
+(#GameUI_Disconnect_LoopLevelLoadActivate
+(#GameUI_Disconnect_RemoteProblem_BadCert
+(#GameUI_Disconnect_RemoteProblem_Timeout
+(%3.3f - %3.3f)\n(%3.3f - %3.3f)\n(%3.3f - %3.3f)\n%3.3f x %3.3f
 (MSAA)
 (No MSAA)
 (None)
-(SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)
+(SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n
+(\r"R\n\nCMsg_CVars
+(\t"\r\n\vCNETMsg_NOP"'\n
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2#.CSVCMsgList_UserMessages.usermsg_t
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption"P\n
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.ExtensionRangeOptions
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2-.google.protobuf.GeneratedCodeInfo.Annotation
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2..google.protobuf.DescriptorProto.ReservedRange
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
+(\v26.google.protobuf.EnumDescriptorProto.EnumReservedRange
+(\v2\v.CMsgQAngle
+(\v2\v.CMsgVector
+(\v2\v.CMsg_CVars"
 (cannot determine missing fields for lite message)
-(discarded renderbatch =
+(discarded renderbatch = 
 (dump)
 (dump3d)
 (index =
-(merge
+(merge 
 (unnamed light)
-)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
-), this value label conflicts with
+)#GameUI_Disconnect_PureServer_ClientExtra
+)#GameUI_Disconnect_RemoteProblem_BadCrypt
+)#GameUI_Disconnect_SteamDeny_BadAntiCheat
+), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-*
-*** Skip layer '%s'
+)\n!host_framestarttime_std_deviation
+*#GameUI_Disconnect_LocalProblem_ManyRelays
+*>mathlib.cpp
 *N6google8protobuf12_GLOBAL__N_123AggregateErrorCollectorE
 *N6google8protobuf12_GLOBAL__N_123GeneratedMessageFactoryE
 *N6google8protobuf12_GLOBAL__N_123StringBaseTextGeneratorE
@@ -248,53 +368,38 @@ $ORIGIN
 *ZN16CLightBinnerCsgo40ShadowSetup_AllocateDumbShadowsForLightsEP10CSceneViewP11ISceneLayerRK8CFrustumyyiEUlP25CSceneLightObjectInternalE_
 *ZN26CBindlessFastPathPartition21EnsureEnvironmentMapsEvEUlP18CEnvMapSceneObjectE_
 *ZN32CBindlessFastPathSceneObjectDesc35EnsureLightProbeVolumeDescriptorSetEvEUlP28CSceneLightProbeVolumeObjectE_
-+++
-+++ %s:
-+++ %s[%d]:
+*\n"host_computationtime_std_deviation
++++ %s[%d]: 
++\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
++\n\rReservedRange
 +x east
 +y north
 +z up
-,
-, %s
-, channels =
-, from:
-, height =
-, lo=
+, channels = 
+, height = 
 , not just within "
-, parent:
--
--%s
--- %d Scene Worlds: --
--- Dumping Scene World %d: 0x%p '%s': %d objects --
----
---- %s:
---- %s[%d]:
-------
--->
--1 -1 -1
--1.0
-->
+, parent: 
+,#GameUI_Disconnect_Splitpacket_Send_Overflow
+-#GameUI_Disconnect_LocalProblem_NetworkConfig
+-- %d Scene Worlds: --\n
+-- Dumping Scene World %d: 0x%p '%s': %d objects --\n
+--- %s[%d]: 
 -avx
 -inf
 -scene_system_partitions
 -shadowTargetSize
--shadowTargetSize Adjusting shadow target size to %d from %d
--shadowTargetSize psys jba Adjusting nMaxShadowBufferSize size to %d from %d
 -sse2
 -sse3
 -sse4
 -tools
 -y south
 -z down
-.
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-...
-... }
 ...<truncated>...
 ../common/protobuf_helpers.cpp
 ../public/ordered_constructor.h
-../public/scenesystem/sceneobject.h(2897): Material %s cannot render in mode %s but is being asked to
+../public/scenesystem/sceneobject.h(2897): Material %s cannot render in mode %s but is being asked to\n
 ../public/scenesystem/vertexformat.h
 ../public/tier0/tslist.h
 ../public/tier1/utl3dallocator.h
@@ -312,6 +417,7 @@ $ORIGIN
 ./google/protobuf/dynamic_message.h
 ./google/protobuf/generated_message_reflection.h
 ./google/protobuf/io/coded_stream_inl.h
+./google/protobuf/map.h
 ./google/protobuf/map_field.h
 ./google/protobuf/map_field_inl.h
 ./google/protobuf/message_lite.h
@@ -323,35 +429,40 @@ $ORIGIN
 ./google/protobuf/stubs/stringpiece.h
 ./google/protobuf/unknown_field_set.h
 ./google/protobuf/wire_format_lite_inl.h
+.CMsg_CVars.CVar
+.CSVCMsgList_GameEvents.event_t
+.CSVCMsg_GameEvent"9\n
+.CSVCMsg_GameEvent.key_t
+.CSVCMsg_UserMessage"
+.ENetworkDisconnectionReason"
+.M;UU
 .PLACEHOLDER_VALUE
 .dummy
 .exr
 .foo = value".
+.google.protobuf.EnumOptions
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions
+.google.protobuf.OneofOptions"
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo
 .jpg
 .placeholder.proto
 .png
 .psd
 .tif
-/
-0
-0 <= i
-0.0
 0.0005
-0.1
 0.85
 00000000-0000-0000-0000-000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789abcdef
 0x%016llX
 0x%016llX : %s
-0x%08X %s,
 0x%p
-1
 1 1 1
 1 = visualize bounds, 2 = visualize sceneobject mesh materials, 3 = required texture size, 4 = bounds group
-1.2
-1.5
-1.8
 1024.0
 10CEntityMsg
 10CMsgQAngle
@@ -407,10 +518,10 @@ $ORIGIN
 15CTier2AppSystemI12ISceneSystemLi0EE
 15CTier3AppSystemI11ISceneUtilsLi0EE
 15CTier3AppSystemI12ISceneSystemLi0EE
-160
 16CDefaultAccessor
 16CLightBinnerCsgo
 16CLightObjectDesc
+16CSunLightManager
 16CTonemapRenderer
 16ICommandCallback
 16ISceneObjectDesc
@@ -438,10 +549,14 @@ $ORIGIN
 19IKeyValuesErrorSpew
 19ISceneLightListener
 1DBlend
-2
-2.
-2.2
-2.5
+1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
+2#.google.protobuf.FieldOptions.CType:
+2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
+2$.google.protobuf.FieldOptions.JSType:\tJS_NORMAL
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.google.protobuf.FieldDescriptorProto.Label
+2/.google.protobuf.MethodOptions.IdempotencyLevel:
 20CBaseSceneObjectDesc
 20CDebugTextObjectDesc
 20CFilterLayerRenderer
@@ -481,7 +596,6 @@ $ORIGIN
 23ICharacterDecalRenderer
 23IConCommandBaseAccessor
 23ISceneViewDebugOverlays
-240
 24COccluderSceneObjectDesc
 24CSVCMsgList_UserMessages
 24CSpotLightObjectDescCsgo
@@ -517,8 +631,6 @@ $ORIGIN
 2Way_0( %s )
 2Way_1( %s )
 2_BONE_IK
-3
-30
 30CProjectedDecalSceneObjectDesc
 30CSVCMsgList_GameEvents_event_t
 30ISceneLightProbeVolumeListener
@@ -537,63 +649,55 @@ $ORIGIN
 37CAmbientOcclusionProxySceneObjectDesc
 37CCopySkyLightingPixelsProceduralLayer
 38IMaxSwapChainDimensionsChangedListener
-3C
-4
 4096.0f
 40ISceneAnimatableProceduralBoneTransforms
 41CCopySkyLightingReadTexturePixelsCallback
-4C
+456789:;<=
 4CMDL
 4IPVS
-5
-6
-64
+5?33s?
+5\n\vnested_type
+5t~BC
 6ConVar
-7
+6\n\fmessage_type
 7IConVar
-8
-8.0
+7\n\tenum_type
+8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 8CFmtStrNILi256ELb0EE
 8CFunctor
 8CMsgRGBA
-9
+8\n\textension
 9.1.15
 9CFunctor3IPFvP10CSceneViewP11CSceneLayerbES1_S3_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
 9ISequence
-:
-: "
+9\n\noneof_decl
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
-: Tried to copy from a message with a different type. to:
-: Tried to merge from a message with a different type.  to:
-: [
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
 : failed to parse contents
-:%i
 ::google::protobuf::FieldDescriptorProto_Label_IsValid(value)
 ::google::protobuf::FieldDescriptorProto_Type_IsValid(value)
 ::google::protobuf::FieldOptions_CType_IsValid(value)
 ::google::protobuf::FieldOptions_JSType_IsValid(value)
 ::google::protobuf::FileOptions_OptimizeMode_IsValid(value)
 ::google::protobuf::MethodOptions_IdempotencyLevel_IsValid(value)
-;
-<
-<!--
-<!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->
+;UNKNOWN
+<!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
+<"C_OP_RemapSpeedtoCP
+<+inf
 </table>
-</tr>
-<< NULL >>
+<< NULL >>\n
 <INVALID EXPRESSION>
 <INVALID_RBF_TYPE>
+<NO EXPRESSION>
 <NULL>
 <UNKNOWN ID: %d>
+<\n\tusermsg_t
 <b>Viewport X</b>=%d <b>Y</b>=%d <b>Width</b>=%d <b>Height</b>=%d  <b>MinZ</b>=%.3f <b>MaxZ</b>=%.3f
 <deferred>
 <font color="red">Display lists discarded</font>
 <hashed>
-<i>Display lists discarded because of unmet stencil bit dependency</i>
 <i>Label Layer</i>
-<i>Not using PerViewConstantBuffer_t</i>
-<i>PerViewConstantBuffer_t</i>
-<i>Procedural Layer</i>
 <no deferred ref found>
 <no failure reason set>
 <none>
@@ -703,24 +807,20 @@ $ORIGIN
 <tr><td><b>m_viewConstantBufferData.m_vInvProjRow3</b></td><td>[%.3f %.3f %.3f %.3f]</td></tr>
 <unconnected>
 <unknown>
-=
-= { <proto text format> }". To set fields within it, use syntax like "
-=.=
->
->C
-?
-?a`
-@
-@@
-@A
+=ValveBiped.
+=\n NETWORK_DISCONNECT_CLIENT_NO_MAP
+>fff>fff>fff>fff>
+>lightbinner_vr.cpp
+?-x west
+?456789:;<=
+?sm_hLayout
+@Lff"D
 @spawn
-A
 A file with this name is already in the pool.
 A protobuf object %s with a repeated field %s was used in a container, this will crash
-A protocol message was rejected because it was too big (more than
-A sceneobject (perhaps a decal) is still in the world that needs to be deleted before deleting the world.
-A->B
-A8
+A protocol message was rejected because it was too big (more than 
+A sceneobject (perhaps a decal) is still in the world that needs to be deleted before deleting the world.\n
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
 ABORTED
 ACTIVITY WEIGHTS
@@ -757,7 +857,6 @@ AE_VORTIGAUNT_ZAP_POWERUP
 AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
-AIM
 AIWalkable
 ALREADY_EXISTS
 ANIMATION_PROCESSING_CLIENT_INTERPOLATION
@@ -772,30 +871,32 @@ ANIMATION_SNAPSHOT_CLIENT_RENDER
 ANIMATION_SNAPSHOT_CLIENT_SIMULATION
 ANIMATION_SNAPSHOT_FINAL_COMPOSITE
 ANIMATION_SNAPSHOT_MAX
+ANIMATION_SNAPSHOT_SERVER_SIMULATION
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
-AO Proxies: %d (%d drawcalls)
+AO Proxies: %d (%d drawcalls)\n
 AOProxies
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 ATI1N
 ATI2N
 ATI_DST16
 ATI_DST24
 ATTACHMENT_INFLUENCE_FLAGS_NONE
+A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
+A\n\nannotation
 AbsolutePoseControl
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
-Actual    :
-Actual   :
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
 AddAllocatedMessage
 AddBool
 AddDouble
 AddEnum
-AddEnumValue accepts only valid integer values: value
+AddEnumValue accepts only valid integer values: value 
 AddFloat
 AddInt32
 AddInt64
 AddMessage
+AddRef
 AddString
 AddToTailGetPtr
 AddToView
@@ -804,10 +905,10 @@ AddUInt64
 AgeList
 Alloc
 AllocInternal
-Allocating new transform texture!
+Allocating new transform texture!\n
 Allow time-sliced shadow buffer rendering when enabled via gameinfo.gi
 Already saw decimal point or exponent; can't have another one.
-Angle;
+Angle; 
 AnimAddLayer
 AnimAlign
 AnimAutoLayer
@@ -832,7 +933,7 @@ AnimStartLoop
 AnimSubtract
 AnimVRFinger_t
 AnimVRHand_t
-Animated
+Animated\n
 AnimationDecodeDebugDumpElement_t
 AnimationDecodeDebugDump_t
 AnimationList
@@ -843,7 +944,7 @@ AnimationSnapshot_t
 AnimationSystemUtils_001
 AnimationSystem_001
 AoProxyManifest
-ApplyNewState %d at %f
+ApplyNewState %d at %f\n
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetGridWidget_ClearLayer
@@ -852,22 +953,19 @@ AssetSystem001
 AssetSystemTest001
 AsyncComputeSemaphoreWait
 Attempt to add %s to renderable types when it is already there
-Attempted to add semaphore for view (%s) for label layer (%s) that does not exist.
-Attempted to alias unknown rendering pipeline
-Attempted to change an alias of a non-aliasable rendering pipeline
-Attempted to register duplicate rendering pipeline name %s
-Attempted to unregister unknown rendering pipeline name %s
-Attempting to get the Skeletal Input settings from model %s, which doesn't have any.  Please add a Skeletal Input Settings node to the model in ModelDoc
-Attempting to get the movement settings from model %s, for which movement settings have not been set.  Please add a MovementSettings node to the model in ModelDoc
+Attempted to add semaphore for view (%s) for label layer (%s) that does not exist.\n
+Attempted to alias unknown rendering pipeline\n
+Attempted to change an alias of a non-aliasable rendering pipeline\n
+Attempted to register duplicate rendering pipeline name %s\n
+Attempted to unregister unknown rendering pipeline name %s\n
+Attempting to get the Skeletal Input settings from model %s, which doesn't have any.  \nPlease add a Skeletal Input Settings node to the model in ModelDoc\n
+Attempting to get the movement settings from model %s, for which movement settings have not been set.  \nPlease add a MovementSettings node to the model in ModelDoc\n
 AuthenticAMD
-B
 B channel not found
-B channel not found!
-B->C
+B channel not found!\n
 BC6H
-BC6h compression not supported on this target (windows only).
-BC7
-BC7 compression not supported on this target (windows only).
+BC6h compression not supported on this target (windows only).\n
+BC7 compression not supported on this target (windows only).\n
 BGR565
 BGR888_BLUESCREEN
 BGRA1010102
@@ -875,18 +973,17 @@ BGRA4444
 BGRA5551
 BGRA8888_LINEAR
 BGRX8888_LINEAR
-BackUp() can only be called after Next().
 BackUp() can only be called after a successful Next().
-Bad KV3 data for '%s': %s
+Bad KV3 data for '%s': %s\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
 BakedLODBuilderMgr001
-Base Spring;
+Base Spring; 
 BaseIKRig
 BasePhysicsShape
 Begin has already been called without an intervening render
-Begin to finish rendering views : %f
+Begin to finish rendering views : %f\n
 BeginRenderingViews
 BenchmarkService001
 BentNormalData
@@ -895,17 +992,15 @@ BindlessFastPathDesc
 BindlessFastPathManifest
 BindlessFastPathSceneObject
 BlendList
+Bm_Type
 BodyGroup
 BodyGroupChoice
 BoneChannel
 Boolean default must be true or false.
 BreakCommand
-BreakOnDelete:
-BreakOnDraw:
 BreakPieceEmbedded
 BreakPieceExternal
-Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of
-C
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
 C& google::protobuf::internal::scoped_array<C>::operator[](std::ptrdiff_t) const [with C = unsigned int, std::ptrdiff_t = long int]
 C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google::protobuf::Message]
 C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google::protobuf::UnknownFieldSet]
@@ -914,8 +1009,6 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C->D
-C->E
 C6FaceSkyboxObjectDesc
 CANCELLED
 CAimConstraint
@@ -928,9 +1021,9 @@ CAnimRetargetData
 CAnimRetargetElementData
 CAnimUser
 CAnimatableSceneObjectDesc
-CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)
-CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (2)
-CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (3)
+CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)\n
+CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (2)\n
+CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (3)\n
 CAnimationGroup
 CAttachment
 CAuthPhysBody
@@ -966,11 +1059,13 @@ CBufferString::ShortenPath()
 CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCMonitorObjectDesc
+CCharacterDecalRendererDesc
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CConstraintSlave
 CConstraintTarget
-CDebugLayerRenderer::ShowRenderTargets GetMode("Default") == NULL? Can't Render with material %s!
+CDebugLayerRenderer::ShowRenderTargets GetMode("Default") == NULL? Can't Render with material %s!\n
 CDebugTextObjectDesc
 CDirectionalLightObjectDesc
 CDrawCullingData
@@ -980,246 +1075,252 @@ CFingerBone
 CFingerChain
 CFingerSource
 CFootDefinition
-CHECK failed: !TableEntryIsTree(b) && !TableEntryIsTree(b ^ 1):
-CHECK failed: !aggregate_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !checkpoints_.empty():
-CHECK failed: !coded_out.HadError():
-CHECK failed: !csharp_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !default_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !descriptor_:
-CHECK failed: !extendee_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !extension->is_repeated:
-CHECK failed: !failed_:
-CHECK failed: !field->containing_oneof():
-CHECK failed: !field->options().weak():
-CHECK failed: !file->finished_building_:
-CHECK failed: !file_:
-CHECK failed: !go_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !identifier_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !input_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !is_closed_:
-CHECK failed: !iter->second.is_repeated:
-CHECK failed: !java_outer_classname_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !java_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !json_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !leading_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !name_:
-CHECK failed: !name_part_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !objc_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !once_:
-CHECK failed: !out.HadError():
-CHECK failed: !output_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !php_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !php_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !source_file_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !string_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !swift_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !syntax_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !trailing_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !tree->empty():
-CHECK failed: !type_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: (&from) != (this):
-CHECK failed: (&from) != (to):
-CHECK failed: (&other) != (this):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: (*buffer) == (first_byte):
-CHECK failed: (0) != (n):
-CHECK failed: (0) <= (pos):
-CHECK failed: (0) == (BufferSize()):
-CHECK failed: (FieldDescriptor::TypeToCppType(field->type())) == (value.type()):
-CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()):
-CHECK failed: (b->avail()) >= (n):
-CHECK failed: (backup_bytes_) == (0):
-CHECK failed: (bucket_index_ % 2) == (0):
-CHECK failed: (bucket_index_ & 1) == (0):
-CHECK failed: (buffer_size) >= (0):
-CHECK failed: (buffer_used_) == (buffer_size_):
-CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization):
-CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization):
-CHECK failed: (calc_escaped_size) == (escaped_len):
-CHECK failed: (count) <= (buffer_used_):
-CHECK failed: (count) <= (kMaxLength):
-CHECK failed: (count) <= (last_returned_size_):
-CHECK failed: (count) <= (target_->size()):
-CHECK failed: (count) == (tree->size()):
-CHECK failed: (count) >= (0):
-CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (current_size_) < (total_size_):
-CHECK failed: (current_size_) > (0):
-CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()):
-CHECK failed: (digits) < (100):
-CHECK failed: (end - target) == (size):
-CHECK failed: (extension->is_packed) == (other_extension.is_packed):
-CHECK failed: (extension->is_packed) == (packed):
-CHECK failed: (extension->type) == (other_extension.type):
-CHECK failed: (field->message_type()) == (desc):
-CHECK failed: (field->options().ctype()) == (ctype):
-CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES):
-CHECK failed: (final_byte_count) < (target_byte_count):
-CHECK failed: (first_byte & 0x80) == (0x80):
-CHECK failed: (first_byte_or_zero) != (0):
-CHECK failed: (first_byte_or_zero) == (buffer_[0]):
-CHECK failed: (from.GetDescriptor()) == (descriptor):
-CHECK failed: (has_bit_index) != (~0u):
-CHECK failed: (index) < (current_size_):
-CHECK failed: (index) >= (0):
-CHECK failed: (internal::AlignUpTo8(b->pos)) == (b->pos):
-CHECK failed: (internal::AlignUpTo8(n)) == (n):
-CHECK failed: (it.m_) == (this):
-CHECK failed: (last_returned_size_) > (0):
-CHECK failed: (len) <= (dest_len):
-CHECK failed: (len) >= (0):
-CHECK failed: (message1->GetReflection()) == (this):
-CHECK failed: (message2->GetReflection()) == (this):
-CHECK failed: (message_type) == (field->message_type()):
-CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kHeaderSize):
-CHECK failed: (n & (n - 1)) == (0):
-CHECK failed: (n) > (0):
-CHECK failed: (n) >= (0):
-CHECK failed: (new_num_buckets) >= (kMinTableSize):
-CHECK failed: (new_size) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(old_rep->elements[0])):
-CHECK failed: (num_elements) <= (std::numeric_limits<size_t>::max() / sizeof(T)):
-CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP):
-CHECK failed: (out) == (begin + result->size()):
-CHECK failed: (out) == (begin + result.size()):
-CHECK failed: (pos) <= (x.length_):
-CHECK failed: (recursion_budget_) < (recursion_limit_):
-CHECK failed: (result.bucket_index_) == (b & ~static_cast<size_type>(1)):
-CHECK failed: (result.size()) == (i):
-CHECK failed: (size) <= (6):
-CHECK failed: (size) <= (static_cast<size_t>(2147483647)):
-CHECK failed: (static_cast<size_t>(new_size)) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(Element)):
-CHECK failed: (str.size()) <= (kuint32max):
-CHECK failed: (table_[b]) == (table_[b ^ 1]):
-CHECK failed: (target - output->data()) == (output->size()):
-CHECK failed: (temp[0]) == ('1'):
-CHECK failed: (temp[size-1]) == ('5'):
-CHECK failed: (to->GetDescriptor()) == (descriptor):
-CHECK failed: (type) != (WireFormatLite::TYPE_ENUM):
-CHECK failed: (type) != (WireFormatLite::TYPE_GROUP):
-CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE):
-CHECK failed: (type) == (WireFormatLite::TYPE_ENUM):
-CHECK failed: (uintptr_t((a).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((b).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((c).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((d).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs):
-CHECK failed: (value.size()) <= (kint32max):
-CHECK failed: FindThreadInfo(b->owner) == NULL:
-CHECK failed: GetArenaNoVirtual() == NULL:
-CHECK failed: GetArenaNoVirtual() == other->GetArenaNoVirtual():
-CHECK failed: HasExtensionSet():
-CHECK failed: HasHasbits():
-CHECK failed: InternalGetTable():
-CHECK failed: IsHeadSurrogate(head_surrogate):
-CHECK failed: IsInitialized():
-CHECK failed: IsTrailSurrogate(trail_surrogate):
-CHECK failed: TableEntryIsNonEmptyList(b):
-CHECK failed: TableEntryIsTree(b):
-CHECK failed: allow_unknown_field_ || reserved_field:
-CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL:
-CHECK failed: builder_:
-CHECK failed: checkpoints_.empty():
-CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE:
-CHECK failed: dynamic.get() != NULL:
-CHECK failed: enum_type_->value_count():
-CHECK failed: errors == NULL:
-CHECK failed: extension->is_repeated:
-CHECK failed: fallback_database_ == NULL:
-CHECK failed: field != NULL:
-CHECK failed: field->cpp_type() == cpp_type || (field->cpp_type() == FieldDescriptor::CPPTYPE_ENUM && cpp_type == FieldDescriptor::CPPTYPE_INT32):
-CHECK failed: field->is_repeated() || (index == -1):
-CHECK failed: field->is_repeated():
-CHECK failed: fields_ != NULL && fields_->size() > 0:
-CHECK failed: fields_ != NULL:
-CHECK failed: file != NULL:
-CHECK failed: file && file->pool_:
-CHECK failed: file()->finished_building_ == true:
-CHECK failed: file->pool_->lazily_build_dependencies_:
-CHECK failed: file_->finished_building_:
-CHECK failed: find(*KeyPtrFromNodePtr(node)) == end():
-CHECK failed: finished_building_ == true:
-CHECK failed: generated_database_->Add(encoded_file_descriptor, size):
-CHECK failed: has_default_value():
-CHECK failed: i >= 0:
-CHECK failed: index_of_first_non_null_ == num_buckets_ || table_[index_of_first_non_null_] != NULL:
-CHECK failed: info != NULL:
-CHECK failed: initial_value != NULL:
-CHECK failed: iter != extensions_.end():
-CHECK failed: iter == extensions_.end():
-CHECK failed: m_->index_of_first_non_null_ == m_->num_buckets_ || m_->table_[m_->index_of_first_non_null_] != NULL:
-CHECK failed: map_iter->iter_ != NULL:
-CHECK failed: message_arena != submessage_arena:
-CHECK failed: mutex_ == NULL:
-CHECK failed: n >= kMinTableSize:
-CHECK failed: node_ != NULL && m_ != NULL:
-CHECK failed: options->AppendPartialToString(&buf):
-CHECK failed: options->ParsePartialFromString(buf):
-CHECK failed: options_ != NULL:
-CHECK failed: options_descriptor:
-CHECK failed: original_uninterpreted_options_field != NULL:
-CHECK failed: other->GetArenaNoVirtual() != GetArenaNoVirtual():
-CHECK failed: output->message_prototype != NULL:
-CHECK failed: output:
-CHECK failed: prototype != NULL:
-CHECK failed: rep_:
-CHECK failed: result != NULL:
-CHECK failed: s != NULL:
-CHECK failed: schema_.HasHasbits():
-CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize:
-CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize:
-CHECK failed: source_code_info_ != NULL:
-CHECK failed: table_[b] == table_[b + 1] && (b & 1) == 0:
-CHECK failed: target_ != NULL:
-CHECK failed: this != other:
-CHECK failed: this == other_mutator:
-CHECK failed: trees:
-CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP:
-CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE:
-CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE:
-CHECK failed: uninterpreted_options_field != NULL:
-CHECK failed: value != NULL:
-CHECK failed: z.first != NULL:
+CHECK failed: !TableEntryIsTree(b) && !TableEntryIsTree(b ^ 1): 
+CHECK failed: !aggregate_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !checkpoints_.empty(): 
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !csharp_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !default_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !descriptor_: 
+CHECK failed: !extendee_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !extension->is_repeated: 
+CHECK failed: !failed_: 
+CHECK failed: !field->containing_oneof(): 
+CHECK failed: !field->options().weak(): 
+CHECK failed: !file->finished_building_: 
+CHECK failed: !file_: 
+CHECK failed: !go_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !identifier_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !input_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !is_closed_: 
+CHECK failed: !iter->second.is_repeated: 
+CHECK failed: !java_outer_classname_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !java_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !json_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !leading_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !name_: 
+CHECK failed: !name_part_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !objc_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !once_: 
+CHECK failed: !out.HadError(): 
+CHECK failed: !output_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !php_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !php_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !source_file_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !string_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !swift_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !syntax_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !trailing_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !tree->empty(): 
+CHECK failed: !type_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: (*buffer) == (first_byte): 
+CHECK failed: (0) != (n): 
+CHECK failed: (0) <= (pos): 
+CHECK failed: (0) == (BufferSize()): 
+CHECK failed: (FieldDescriptor::TypeToCppType(field->type())) == (value.type()): 
+CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()): 
+CHECK failed: (b->avail()) >= (n): 
+CHECK failed: (backup_bytes_) == (0): 
+CHECK failed: (bucket_index_ % 2) == (0): 
+CHECK failed: (bucket_index_ & 1) == (0): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (buffer_used_) == (buffer_size_): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (calc_escaped_size) == (escaped_len): 
+CHECK failed: (count) <= (buffer_used_): 
+CHECK failed: (count) <= (kMaxLength): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) == (tree->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (current_size_) < (total_size_): 
+CHECK failed: (current_size_) > (0): 
+CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()): 
+CHECK failed: (digits) < (100): 
+CHECK failed: (end - target) == (size): 
+CHECK failed: (extension->is_packed) == (other_extension.is_packed): 
+CHECK failed: (extension->is_packed) == (packed): 
+CHECK failed: (extension->type) == (other_extension.type): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES): 
+CHECK failed: (final_byte_count) < (target_byte_count): 
+CHECK failed: (first_byte & 0x80) == (0x80): 
+CHECK failed: (first_byte_or_zero) != (0): 
+CHECK failed: (first_byte_or_zero) == (buffer_[0]): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (has_bit_index) != (~0u): 
+CHECK failed: (index) < (current_size_): 
+CHECK failed: (index) >= (0): 
+CHECK failed: (internal::AlignUpTo8(b->pos)) == (b->pos): 
+CHECK failed: (internal::AlignUpTo8(n)) == (n): 
+CHECK failed: (it.m_) == (this): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (len) <= (dest_len): 
+CHECK failed: (len) >= (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (message_type) == (field->message_type()): 
+CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kHeaderSize): 
+CHECK failed: (n & (n - 1)) == (0): 
+CHECK failed: (n) > (0): 
+CHECK failed: (n) >= (0): 
+CHECK failed: (new_num_buckets) >= (kMinTableSize): 
+CHECK failed: (new_size) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(old_rep->elements[0])): 
+CHECK failed: (num_elements) <= (std::numeric_limits<size_t>::max() / sizeof(T)): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (out) == (begin + result->size()): 
+CHECK failed: (out) == (begin + result.size()): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (pos) <= (x.length_): 
+CHECK failed: (recursion_budget_) < (recursion_limit_): 
+CHECK failed: (result.bucket_index_) == (b & ~static_cast<size_type>(1)): 
+CHECK failed: (result.size()) == (i): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (size) <= (static_cast<size_t>(2147483647)): 
+CHECK failed: (static_cast<size_t>(new_size)) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(Element)): 
+CHECK failed: (str.size()) <= (kuint32max): 
+CHECK failed: (table_[b]) == (table_[b ^ 1]): 
+CHECK failed: (target - output->data()) == (output->size()): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
+CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
+CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (uintptr_t((a).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((b).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((c).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((d).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs): 
+CHECK failed: (value.size()) <= (kint32max): 
+CHECK failed: FindThreadInfo(b->owner) == NULL: 
+CHECK failed: GetArenaNoVirtual() == NULL: 
+CHECK failed: GetArenaNoVirtual() == other->GetArenaNoVirtual(): 
+CHECK failed: HasExtensionSet(): 
+CHECK failed: HasHasbits(): 
+CHECK failed: InternalGetTable(): 
+CHECK failed: IsHeadSurrogate(head_surrogate): 
+CHECK failed: IsInitialized(): 
+CHECK failed: IsTrailSurrogate(trail_surrogate): 
+CHECK failed: TableEntryIsNonEmptyList(b): 
+CHECK failed: TableEntryIsTree(b): 
+CHECK failed: a.type() == b.type(): 
+CHECK failed: allow_unknown_field_ || reserved_field: 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+CHECK failed: builder_: 
+CHECK failed: checkpoints_.empty(): 
+CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE: 
+CHECK failed: dest: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: enum_type_->value_count(): 
+CHECK failed: errors == NULL: 
+CHECK failed: extension->is_repeated: 
+CHECK failed: fallback_database_ == NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: field->cpp_type() == cpp_type || (field->cpp_type() == FieldDescriptor::CPPTYPE_ENUM && cpp_type == FieldDescriptor::CPPTYPE_INT32): 
+CHECK failed: field->is_repeated() || (index == -1): 
+CHECK failed: field->is_repeated(): 
+CHECK failed: fields_ != NULL && fields_->size() > 0: 
+CHECK failed: fields_ != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: file && file->pool_: 
+CHECK failed: file()->finished_building_ == true: 
+CHECK failed: file->pool_->lazily_build_dependencies_: 
+CHECK failed: file_->finished_building_: 
+CHECK failed: find(*KeyPtrFromNodePtr(node)) == end(): 
+CHECK failed: finished_building_ == true: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: i >= 0: 
+CHECK failed: index_of_first_non_null_ == num_buckets_ || table_[index_of_first_non_null_] != NULL: 
+CHECK failed: info != NULL: 
+CHECK failed: initial_value != NULL: 
+CHECK failed: is_prototype(): 
+CHECK failed: is_repeated: 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: iter == extensions_.end(): 
+CHECK failed: m_->index_of_first_non_null_ == m_->num_buckets_ || m_->table_[m_->index_of_first_non_null_] != NULL: 
+CHECK failed: map_iter->iter_ != NULL: 
+CHECK failed: message_arena != submessage_arena: 
+CHECK failed: mutex_ == NULL: 
+CHECK failed: n >= kMinTableSize: 
+CHECK failed: node_ != NULL && m_ != NULL: 
+CHECK failed: options->AppendPartialToString(&buf): 
+CHECK failed: options->ParsePartialFromString(buf): 
+CHECK failed: options_ != NULL: 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: other->GetArenaNoVirtual() != GetArenaNoVirtual(): 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: output: 
+CHECK failed: prototype != NULL: 
+CHECK failed: rep_: 
+CHECK failed: result != NULL: 
+CHECK failed: s != NULL: 
+CHECK failed: schema_.HasHasbits(): 
+CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize: 
+CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize: 
+CHECK failed: source_code_info_ != NULL: 
+CHECK failed: submessage->GetArena() == submessage_arena: 
+CHECK failed: table_[b] == table_[b + 1] && (b & 1) == 0: 
+CHECK failed: target_ != NULL: 
+CHECK failed: this != other: 
+CHECK failed: this == other_mutator: 
+CHECK failed: trees: 
+CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP: 
+CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE: 
+CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value != NULL: 
+CHECK failed: z.first != NULL: 
 CHitBox
 CHitBoxSet
 CHitBoxSetList
@@ -1231,7 +1332,7 @@ CLightBinnerVr: Unsupported NumBakedLights %d
 CLightBinnerVr: Unsupported VrMaxLights %d
 CLightBinnerVr: Unsupported VrNumBakedLights %d
 CLightProbeVolumeObjectDesc
-CMT usage is %.2f percent (%d texels) in %fms
+CMT usage is %.2f percent (%d texels) in %fms\n
 CMTNormalWrinkle
 CMTPositionSpeed
 CMTatlastexture_.vtex
@@ -1243,11 +1344,22 @@ CModelConfigElement
 CModelConfigElement_UserPick
 CModelConfigList
 CMorphConstraint
+CMsgPlayerInfo
+CMsgRGBA
+CNETMsg_Disconnect
+CNETMsg_SetConVar
+CNETMsg_SignonState
+CNETMsg_SpawnGroup_Load
+CNETMsg_SpawnGroup_Unload
+CNETMsg_SplitScreenUser
+CNETMsg_StringCmd
 COLLISION_MODE_INITIAL_TRACE_DOWN
 COLLISION_MODE_PER_FRAME_PLANESET
 COLLISION_MODE_PER_PARTICLE_TRACE
 COLLISION_MODE_USE_NEAREST_TRACE
 COLORCORRECTION_VERSION_1
+CORD
+COccluderSceneObjectDesc
 COrientConstraint
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
@@ -1272,7 +1384,7 @@ CRenderBufferBinding
 CRenderMesh
 CRenderSkeleton
 CSGO
-CSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!
+CSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!\n
 CSSDSEndFrameViewInfo
 CSSDSMsg_EndFrame
 CSSDSMsg_LayerBase
@@ -1281,30 +1393,36 @@ CSSDSMsg_PreLayer
 CSSDSMsg_ViewRender
 CSSDSMsg_ViewTarget
 CSSDSMsg_ViewTargetList
+CSVCMsgList_GameEvents
+CSVCMsgList_UserMessages
+CSVCMsg_GameEvent
+CSVCMsg_UserMessage
 CSceneLayer::AddToRenderPassDesc
 CSceneObject
 CSceneObjectData
 CSceneObjectExtraData_t
 CSceneObjectReference_t
-CSceneSystem::SetLightCookieTexture, trying to set texture %s that has no sheet data!
+CSceneSystem::SetLightCookieTexture, trying to set texture %s that has no sheet data!\n
 CSceneSystem::Thread_RenderOccludersAndQueueRenderPartitions
 CSceneSystem::Thread_RenderPartition
 CSceneView::CreateRenderPasses
-CSceneViewDebugOverlays: Cannot call AddToViewAndRetireStaleOverlays and pass in no abs time unless the overlay was created with the SCENE_VIEW_DEBUG_OVERLAY_TYPE_RELATIVE_TIMING flag!
-CSceneViewDebugOverlays::Render2DLineOverlay GetMode("Default") == NULL? Can't Render with material %s!
-CSceneViewDebugOverlays::Render3DLineOverlay GetMode("Default") == NULL? Can't Render with material %s!
-CSceneViewDebugOverlays::Render3DTriangleOverlay GetMode("Default") == NULL? Can't Render with material %s
-CSceneViewDebugOverlays::Render3DVectorTextOverlays GetMode("Default") == NULL? Can't Render with material %s!
-CSceneViewDebugOverlays::RenderTextureOverlays GetMode("Default") == NULL? Can't Render with material %s!
-CScratchRenderTargetSystem::FindOrCreateRenderTarget: Encountered two different specs for the same render target "%s"!
-CScratchRenderTargetSystem::FindOrCreateRenderTarget: Tried to reference unknown render target name "%s"!
-CScratchRenderTargetSystem::FindOrCreateRenderTarget: Tried to specify RENDER_MULTISAMPLE_INVALID! "%s"
-CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid other render target for "%s"!
-CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid other view render target for "%s"!
-CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid other view target for "%s"!
-CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid texture handle for "%s"!
-CScratchRenderTargetSystem::GetRenderTargetInfo cannot work until FinishRenderingViews is called!
-CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!
+CSceneViewDebugOverlays: Cannot call AddToViewAndRetireStaleOverlays and pass in no abs time unless the overlay was created with the SCENE_VIEW_DEBUG_OVERLAY_TYPE_RELATIVE_TIMING flag!\n
+CSceneViewDebugOverlays::Render2DLineOverlay GetMode("Default") == NULL? Can't Render with material %s!\n
+CSceneViewDebugOverlays::Render3DLineOverlay GetMode("Default") == NULL? Can't Render with material %s!\n
+CSceneViewDebugOverlays::Render3DTriangleOverlay GetMode("Default") == NULL? Can't Render with material %s\n
+CSceneViewDebugOverlays::Render3DVectorTextOverlays GetMode("Default") == NULL? Can't Render with material %s!\n
+CSceneViewDebugOverlays::RenderTextureOverlays GetMode("Default") == NULL? Can't Render with material %s!\n
+CScratchRenderTargetSystem::FindOrCreateRenderTarget: Encountered two different specs for the same render target "%s"!\n
+CScratchRenderTargetSystem::FindOrCreateRenderTarget: Tried to reference unknown render target name "%s"!\n
+CScratchRenderTargetSystem::FindOrCreateRenderTarget: Tried to specify RENDER_MULTISAMPLE_INVALID! "%s"\n
+CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid other render target for "%s"!\n
+CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid other view render target for "%s"!\n
+CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid other view target for "%s"!\n
+CScratchRenderTargetSystem::FindOrCreateRenderTarget: invalid texture handle for "%s"!\n
+CScratchRenderTargetSystem::GetRenderTargetInfo cannot work until FinishRenderingViews is called!\n
+CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
+CSkyBoxObjectDesc
+CSolveIKChainAnimNode
 CSpotLightObjectDesc
 CSpotLightObjectDescCsgo
 CSpotLightObjectDescVr
@@ -1335,22 +1453,23 @@ CThreadSyncObject::Wait(unsigned int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
 CTiltTwistConstraint
-CTonemapRenderer needs to use a layer which has had a render attribute called "ColorBuffer" set!
-CTonemapSystem::GenerateRendererData ran out of buckets!!
+CTonemapRenderer needs to use a layer which has had a render attribute called "ColorBuffer" set!\n
+CTonemapSystem::GenerateRendererData ran out of buckets!!\n
 CTransform
 CTwistConstraint
+CType
 CUniformRandomStream::CUniformRandomStream()
 CUniformRandomStream::RandomFloat(float, float)
 CUniformRandomStream::SetSeed(int)
-CUtlBlockMemory overflow!
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlBlockMemory overflow!\n
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlMultiList overflow! (exhausted index range)
-CUtlMultiList overflow! (exhausted memory allocator)
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlMultiList overflow! (exhausted index range)\n
+CUtlMultiList overflow! (exhausted memory allocator)\n
+CUtlRBTree overflow with %u elements!\n
 CUtlString
 CUtlStringToken
 CUtlSymbol
@@ -1359,6 +1478,7 @@ CUtlVector
 CVProfNode::EnterScope()
 CVProfNode::ExitScope()
 CVProfNode::GetSubNode(char const*, int, char const*, int)
+CVar
 CVrSkeletalInputSettings
 CWristBone
 CXXABI_1.3
@@ -1449,22 +1569,21 @@ C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
 Call set methods to initialize MapKey.
 Caller should provide us with *buffer_ when buffer is non-empty
-Can't
+Can't 
 Can't BackUp() after failed Next().
-Can't back up over more bytes than were returned by the last call to Next().
-Can't bake cube maps unless you use -tools or -dev
+Can't bake cube maps unless you use -tools or -dev\n
 Can't get here.
 Can't get here: failed to get default value as string
-Can't read a rendertarget from a view with a higher priority.
+Can't read a rendertarget from a view with a higher priority.\n
 Can't write binary data to a text buffer.
-Cannot add a resolve layer as the first layer in a view!
-Cannot allocate buffer larger than kint32max for
+Cannot add a resolve layer as the first layer in a view!\n
+Cannot allocate buffer larger than kint32max for 
 Cannot call BuildFile on a DescriptorPool that uses a DescriptorDatabase.  You must instead find a way to get your file into the underlying database.
 Cannot copy json_name to a proto of a different size.
 Cannot get here
-Cannot read a file
-Cannot read file
-Cannot resolve to the same render targets as in the previous layer!
+Cannot read a file 
+Cannot read file 
+Cannot resolve to the same render targets as in the previous layer!\n
 Cannot save KV3 text to a non-text buffer!
 Cannot save as KV3_FORMAT_LOAD_WITH_NO_UPCONVERSION.
 Cannot write a file
@@ -1476,7 +1595,8 @@ CharacterDecalSystemManifest
 Check
 ChooseEnvironmentMap
 ChooseLightProbeVolume
-ClearHistory
+ClearField
+ClearHistory\n
 Client Rendering
 Clip Plane
 ClothShapeCapsule
@@ -1490,12 +1610,11 @@ Combo(
 CommandLine
 CommandProcedure
 CommandProcedureList
-Comment started here.
 ComputeLayerInfo
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigAttachedModel
 ConfigurationSystem_001
 ConnectInterfaces
@@ -1503,8 +1622,8 @@ ConvertGammaToLinear
 Copy
 CopyAttrFrom
 CopyRenderTargetOutputsAndViewportFromPreviousLayer
-Coudn't read pixels for texture %s
-Could not create an instance of
+Coudn't read pixels for texture %s\n
+Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
 Courier New
@@ -1515,15 +1634,13 @@ CsgoLightCookieSettings
 CubeMapDebugColors
 Cubic
 Cull Boxes
-D
 D15S1
-D16
 D16_SHADOW
 D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
-D32
+D333?
 DATA_LOSS
 DEADLINE_EXCEEDED
 DEFAULT_WRITE_PATH
@@ -1537,7 +1654,6 @@ Data size too short
 Debug
 DebugInfoLayerRenderBuffers
 DebugInfoLayerRenderColorizeSplits
-DebugLevel:
 DebugText
 DebugTextureInfo001
 DecalNormals_%d.vtex
@@ -1551,32 +1667,37 @@ DegreeEuler
 DeleteObjectForReal
 DeleteSceneObject
 DepthPassBatchID
+DescriptorProto
+DescriptorProtosH
 DevMsg
 DevMsg(char const*, ...)
-Directional lights are not supported by the LightBinner
+Directional lights are not supported by the LightBinner\n
 DirectionalLight
 Dist Cull
 Division or mod by zero: dividend.hi=
 Dominate(
-Don't lookup extension types if they aren't present (1).
-Don't lookup extension types if they aren't present (2).
+Don't lookup extension types if they aren't present (1). 
+Don't lookup extension types if they aren't present (2). 
 DotaCardGameClient_001
 Double-save to Member '%s'
 Downsample2x
 Downsample4x
-Draw Proxy: qh:%p org:<%d,%d,%d> (frame:%d)
-Draw calls:
+Draw Proxy: qh:%p org:<%d,%d,%d> (frame:%d)\n
+Draw calls: 
 Draw everything normal and ignore the source for rendering
 DrawDepth Fade
 DrawDepth%s
-DrawList :
+DrawList : 
 DrawShadowMapsForLight
 Dump a list of the objects in a sceneworld (Usage: sc_dumpworld <world_index>)
 Dump debug info
 Dump the objects in a sceneworld into a 3d geoview buffer (Usage: sc_dumpworld3d <world_index>)
 DynamicConfigList
+E3:0
+ENetworkDisconnectionReason
 ERROR
 EXPORTSYSTEM_INTERFACE_VERSION_001
+E\n NETWORK_DISCONNECT_REJECT_BANNED
 EarlyInit_Tier0
 EconItemToolModel_001
 EditorDynamicConfig
@@ -1595,21 +1716,43 @@ Enum value "$0" is reserved multiple times.
 Enum value "$0" is reserved.
 Enum value "$0" uses reserved number $1.
 Enum value in map must define 0 as the first value.
+EnumDescriptorProto
 EnumOptions
+EnumReservedRange
+EnumValueDescriptorProto
 EnumValueOptions
 Enums must contain at least one value.
 EnvMap
 EnvironmentMapBuilder_001
-Error parsing text-format
+Error parsing text-format 
 Error reporting not implemented.
 Error while parsing option value for "
-Error: View "%s", layer "%s", render target "%s": Attempted to bind the back buffers of two different swap chains in a single layer!
-Error: View "%s", layer "%s", render target "%s": Attempted to resolve a non-MSAA render target to a MSAA texture!
+Error: View "%s", Layer "%s", render target "%s": \n\tIt is illegal for a non-initial write to a render target to discard or clear it!\n\tInstead, create a new render target with FindOrCreateRenderTarget!\n
+Error: View "%s", Layer "%s", render target "%s": \n\tIt is illegal for the first write to a non-scratch render target to not preserve, discard, or clear it!\n\t(This can often happen if you forget to clear both depth and stencil)\n
+Error: View "%s", Layer "%s", render target "%s": \n\tIt is illegal for the first write to a scratch render target to not discard or clear it!\n\t(This can often happen if you forget to clear both depth and stencil)\n
+Error: View "%s", Layer "%s", render target "%s": \n\tIt is illegal to read from a scratch render target before it was written to!\n
+Error: View "%s", Layer "%s", render target "%s": \n\tThis render target incorrectly specifed SVRT_USAGE_READS_FIRST (or neglected to do so)!\n
+Error: View "%s", layer "%s", render target "%s": \nAttempted to bind the back buffers of two different swap chains in a single layer!\n
+Error: View "%s", layer "%s", render target "%s": \nAttempted to resolve a non-MSAA render target to a MSAA texture!\n
+Error: View "%s", layer "%s", render target "%s": \n\tAttempted to read from scratch render target that was not written to first!\n
+Error: View "%s", layer "%s", render target "%s": \n\tAttempted to set up a render target output w/ MSAA %d where the color targets have different MSAA settings %d!\n
+Error: View "%s", layer "%s", render target "%s": \n\tIt is illegal to do a non-MSAA write to a MSAA back buffer or HRenderTexture!\n
+Error: View "%s", layer "%s": \n\tError allocating render target binding! Different render target dimensions/MSAA assigned from the depth target!\n\tMain: %dx%d, Depth: %dx%d\n
+Error: View "%s", layer "%s": \n\tError allocating render target binding! Different render target dimensions/MSAA assigned!\n
+Error: View "%s", layer "%s": \n\tError allocating render target binding! No targets have been specified!\n
+Error: View "%s", layer "%s": \n\tIt is illegal to indicate LAYERFLAGS_DOESNT_MODIFY_COLOR_BUFFERS but also do a color clear or discard!\n
+Error: View "%s", layer "%s": \n\tIt is illegal to indicate LAYERFLAGS_DOESNT_MODIFY_DEPTH_STENCIL_BUFFER but also do a depth/stencil clear or discard!\n
+Error: View "%s", layer "%s": \n\tIt is illegal to indicate LAYERFLAGS_PRESERVE_COLOR_BUFFERS but also do a color clear or use LAYERFLAGS_DISCARD_COLOR_BUFFERS!\n
+Error: View "%s", layer "%s": \n\tIt is illegal to indicate LAYERFLAGS_PRESERVE_DEPTH_STENCIL_BUFFER but also do a depth clear or use LAYERFLAGS_DISCARD_DEPTH_STENCIL_BUFFER!\n
+Error: View "%s", layer "%s": \n\tIt is illegal to indicate LAYERFLAGS_PRESERVE_DEPTH_STENCIL_BUFFER but also do a stencil clear or use LAYERFLAGS_DISCARD_DEPTH_STENCIL_BUFFER!\n
+Error: View "%s", layer "%s": \n\tUnable to allocate space for scratch render target "%s" \n\t(type = %s, MSAA = %s, Size = %dx%d, Fmt = %s, Flags = 0x%08X)!\n\t(If you are in tools mode, you can add SVF_TOOL_VIEW to your view to allow dynamic allocations.)\n
+Error: View "%s", render target "%s": \n\tThis render target is being bound with another render target "%s" which is a different size!\n
+Error: View "%s", render target "%s": \n\tThis render target is being referenced by the next view, but it was never written to!\n
 EventSystem001
 Exact
-Exceeded maximum protobuf size of 2GB:
-Expanded map entry type
-Expect a decimal number, got:
+Exceeded maximum protobuf size of 2GB: 
+Expanded map entry type 
+Expect a decimal number, got: 
 Expected "
 Expected "="after member '%s'
 Expected '#'
@@ -1618,25 +1761,24 @@ Expected '['
 Expected '[' or '('
 Expected '{'
 Expected ( <count> )
-Expected :
 Expected []
-Expected double, got:
+Expected double, got: 
 Expected eight hex digits up to 10ffff for \U escape sequence
 Expected four hex digits for \u escape sequence.
 Expected hex byte (eg. 00-FF)
 Expected hex digits for escape sequence.
-Expected identifier, got:
-Expected integer or identifier, got:
-Expected integer, got:
+Expected identifier, got: 
+Expected integer or identifier, got: 
+Expected integer, got: 
 Expected member name or '}'
-Expected string, got:
+Expected string, got: 
 Expected token
 Expected type of next member
 Expected value or ']'
 Explicit default values are not allowed in proto3.
 Extension "
-Extension conflicts with extension already in database: extend
-Extension factory's GetPrototype() returned NULL for extension:
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
 Extension not found.
 Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
 Extension number $0 has already been used in "$1" by extension "$2".
@@ -1647,28 +1789,32 @@ Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range $0 to $1 overlaps with reserved range $2 to $3.
 Extension range end number must be greater than start number.
 Extension ranges are not allowed in proto3.
+ExtensionRange
+ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 FAILED_PRECONDITION
 FATAL
-FATAL ERROR: unable to register all schema data: %s
-FIXME
+FATAL ERROR: unable to register all schema data: %s\n
+FCVAR_NEVER_AS_STRING
+FIXME\n
+F\n%NETWORK_DISCONNECT_DISCONNECT_BY_USER
+F\n\foptimize_for
 F_ALPHA_TEST
 F_MORPH_SUPPORTED
 F_TRANSLUCENT
-Failed to allocate space for morph!
-Failed to convert introspected block: %s
+Failed to allocate space for morph!\n
+Failed to convert introspected block: %s\n
 Failed to parse EXR version
-Failed to parse attribute
+Failed to parse attribute\n
 Failed to parse channel info
-Failed to read attribute.
+Failed to read attribute.\n
 Failed to save unsupported class
 False
-FastHexToBuffer() wants non-negative integers, not
+FastHexToBuffer() wants non-negative integers, not 
 Feel free to add support for more if you need it.
 FeetSettings
-Field       :
 Field "
 Field "$0" uses reserved number $1.
 Field does not match message type.
@@ -1681,10 +1827,10 @@ Field number $0 has already been used in "$1" by field "$2".
 Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
 Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
-Field type:
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
-Field:
+Field: 
+FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -1693,51 +1839,52 @@ FieldOptions
 FieldSize
 Fields in the same oneof must be defined consecutively. "$0" cannot be defined before the completion of the "$1" oneof definition.
 Fields of oneofs must themselves have label LABEL_OPTIONAL.
-File already exists in database:
-File appears to be in generated pool but wasn't registered:
-File is already registered:
-File recursively imports itself:
-File size is zero :
-File size too short
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File recursively imports itself: 
+File size is zero : 
+File size too short 
+FileDescriptorProto
+FileDescriptorSet
 FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 FillAttr
 FilterFrom
 FindClosestMatchingRegion
-FindOrCreateRenderTarget: Does not work to pass pOtherView == this!
+FindOrCreateRenderTarget: Does not work to pass pOtherView == this!\n
 FindRefInfo
-Finish to complete : %f
+Finish to complete : %f\n
 FinishRenderingViews
 FinishRenderingViews has been called without a call to begin!!!
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 FlattenedSerializersVersion001
-Flexible;
+Flexible; 
 FloatBitMap::DownsampleNiceFiltered
 FloatBitMap::QuarterSize
 FloatBitMap::QuarterSizeBlocky
-FloatBitMap_t: Error loading %s
-FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!
-FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!
-FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!
-FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!
-FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!
-Fog Clipmaps - insufficient shadow atlas space %d units centered on (setpos %d %d %d) - some lighting will be missing from the fog - csgo_show_light_fog_clipmap_cb_cost
-Fog Clipmaps - insufficient shadow atlas space %d units centered on (setpos %d %d %d) - some lighting will be missing from the fog - vr_show_light_fog_clipmap_cb_cost
-Fog Clipmaps - too many lights (%d - max: %d) %d units centered on (setpos %d %d %d) - some lighting will be missing from fog - use csgo_show_light_fog_clipmap_cb_cost
-Fog Clipmaps - too many lights (%d - max: %d) %d units centered on (setpos %d %d %d) - some lighting will be missing from fog - use vr_show_light_fog_clipmap_cb_cost
+FloatBitMap_t: Error loading %s\n
+FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!\n
+FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!\n
+FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!\n
+FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!\n
+FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!\n
+Fog Clipmaps - insufficient shadow atlas space %d units centered on (setpos %d %d %d) - some lighting will be missing from the fog - csgo_show_light_fog_clipmap_cb_cost\n
+Fog Clipmaps - insufficient shadow atlas space %d units centered on (setpos %d %d %d) - some lighting will be missing from the fog - vr_show_light_fog_clipmap_cb_cost\n
+Fog Clipmaps - too many lights (%d - max: %d) %d units centered on (setpos %d %d %d) - some lighting will be missing from fog - use csgo_show_light_fog_clipmap_cb_cost\n
+Fog Clipmaps - too many lights (%d - max: %d) %d units centered on (setpos %d %d %d) - some lighting will be missing from fog - use vr_show_light_fog_clipmap_cb_cost\n
 FogLightView
 FontManager_001
 FormatV
-Found invalid proto option data for:
+Found invalid proto option data for: 
 FvP12CSceneObjectE
-G
 G channel not found
-G channel not found!
-G->B
+G channel not found!\n
 GAME
 GAMECONSOLE
+GCBaseSceneObjectDesc
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
 GCC: (crosstool-NG 1.17.0) 4.6.3
@@ -1756,7 +1903,6 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameStartup
@@ -1766,6 +1912,7 @@ Gaussian
 GenerateCompositeMorphTextureAtlas
 GenerateDecalNormals
 GenerateDistanceField
+GeneratedCodeInfo
 GenericGameData
 GetBool
 GetCPUInformation
@@ -1777,7 +1924,7 @@ GetInt32
 GetInt64
 GetMessage
 GetRawRepeatedField
-GetRenderTargetTexture cannot work until FinishRenderingViews is called!
+GetRenderTargetTexture cannot work until FinishRenderingViews is called!\n
 GetRepeatedBool
 GetRepeatedDouble
 GetRepeatedEnumValue
@@ -1795,17 +1942,16 @@ GetString
 GetStringReference
 GetUInt32
 GetUInt64
-Got request to send CSceneSystemStats to vconsole
+Google.Protobuf.Reflection
+Got request to send CSceneSystemStats to vconsole\n
 Groups are not supported in proto3 syntax.
-H
-HC
-HD
+HCSunLightManager
 HELPER_BONE
 HIGHDPI
-HW Does not support occlusion queries!
+HW Does not support occlusion queries!\n
 Hammer/UsesBakedLighting
 HammerMapLoader001
-Has Collision;
+Has Collision; 
 HasField
 HelpSystem_001
 Hex and octal numbers must be integers.
@@ -1813,6 +1959,7 @@ Hide
 HookUpConfigValue
 HostStateMgr001
 IA88
+IDEMPOTENCY_UNKNOWN
 IKChain
 IKChainOld
 IKData
@@ -1826,13 +1973,17 @@ INVALID_ARGUMENT
 INVALID_CPPTYPE
 IQuickTime001
 ISceneObjectDesc
+I\n NETWORK_DISCONNECT_STEAM_DROPPED
+I\n$NETWORK_DISCONNECT_STEAM_VACBANSTATE
+I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
+IdempotencyLevel
 If enabled, the camera's translation will be included in the projection matrix.
-Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field:
-Import
+Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
+Import 
 Import "
 Index must be -1 for non-repeated fields
 Index must be -1 for singular fields.
-Index must be in range of repeated field values.
+Index must be in range of repeated field values. 
 Index out-of-bounds (field is empty).
 InfoForResourceTypeCAnimData
 Init
@@ -1840,18 +1991,18 @@ InitForFrustum
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
 InstallTemplateViewFactory
 InstanceID
-Insufficient data length.
-Insufficient data size.
+Insufficient data length.\n
+Insufficient data size.\n
 Integer out of range (
-Intentionally vague touch behavior for %p
+Intentionally vague touch behavior for %p\n
 Interpreting non ascii codepoint %d.
 Invalid EXR header.
-Invalid access of deferred ConVarRef for '%s'
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid channels format
 Invalid control characters encountered in text.
 Invalid data for member '%s'
@@ -1860,7 +2011,7 @@ Invalid data width value
 Invalid data.
 Invalid escape sequence in string literal.
 Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
-Invalid float number:
+Invalid float number: 
 Invalid header
 Invalid key for map field.
 Invalid magic number
@@ -1868,38 +2019,47 @@ Invalid member name '%s'
 Invalid message set extension.
 Invalid proto descriptor for file "
 Invalid public dependency index.
-Invalid request for mesh %d in model %s with %d entry remapping start table
-Invalid request for mesh %d in model %s with no remapping table
-Invalid request for mesh %d in model %s with no remapping table starts
+Invalid request for mesh %d in model %s with %d entry remapping start table\n
+Invalid request for mesh %d in model %s with no remapping table starts\n
+Invalid request for mesh %d in model %s with no remapping table\n
 Invalid strings::Substitute() format string: "
-Invalid symbol name:
-Invalid tile size x :
-Invalid tile size y :
+Invalid symbol name: 
+Invalid tile size x : 
+Invalid tile size y : 
 Invalid value for boolean field "
 Invalid weak dependency index.
-Invalid wire type for CPPTYPE_INT32:
-Invalid wire type for CPPTYPE_INT64:
-Invalid wire type for CPPTYPE_MESSAGE:
-Invalid wire type for CPPTYPE_UINT32:
-Invalid wire type for CPPTYPE_UINT64:
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
 Inverse Multi Quadratic
-Invert Axes;
+Invert Axes; 
 JIGGLE_BONE
-JSON error, unterminated element:
-K
+JSON error, unterminated element: 
+JSType
+J\n NETWORK_DISCONNECT_SNAPSHOTERROR
+J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
+K;CTonemapRenderer is trying to render with an invalid occlusion query handle. Are we rendering while the screen isn't visible? Look for a previous warning saying we ran out of buckets.\n
 KMeansQuantization
 KV Conditional Evaluation Error
 KV3 load transfer failed: %s
 KV3 save transfer failed: %s
+K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
+K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
+K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
+K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
 Key in map fields cannot be enum types.
 Key in map fields cannot be float/double, bytes or message types.
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
-L
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
 LE_BGRA8888
 LE_BGRX8888
 LINEAR_ABGR8888
@@ -1916,10 +2076,13 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
+L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
+L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
+Label
 Layer Plane
 Layer Specific:
-Leaked drawlists : %d!!!!!
-Length;
+Leaked drawlists : %d!!!!!\n
+Length; 
 LightBinnerVr_%d
 LightDesc_t
 LightProbeVolumeDebugColors
@@ -1930,19 +2093,21 @@ LightingBasis
 LightmapUV
 LightmapUVW
 Line %d at "%s": %s
-Line %d col %d:
+Line %d col %d: 
 Line %d: %s
 Line %d: Invalid value "%s"
+Linear
 List all the active sceneworlds
-List the object class names known by scenesystem
-LoadEXRImageFromMemory failed! Error message: %s
+List the object class names known by scenesystem\n
+LoadEXRImageFromMemory failed! Error message: %s\n
 LoadFromBuffer: expected '{', found '%s'
-LoadFromInMemoryEXR( %s ) failed.
-LoadKV3ObjectInPlace error: %s
+LoadFromInMemoryEXR( %s ) failed.\n
+LoadKV3ObjectInPlace error: %s\n
 Localize_001
-LockDynamicConstantBuffer failed in CAmbientOcclusionProxySceneObjectDesc::DrawArray!!!
-LockDynamicConstantBuffer failed in CSceneUtils::FilterTexture!!!
-LockDynamicConstantBuffer failed in CSkyBoxObjectDesc::DrawArray!!!
+Location
+LockDynamicConstantBuffer failed in CAmbientOcclusionProxySceneObjectDesc::DrawArray!!!\n
+LockDynamicConstantBuffer failed in CSceneUtils::FilterTexture!!!\n
+LockDynamicConstantBuffer failed in CSkyBoxObjectDesc::DrawArray!!!\n
 Log out display list submits from scenesystem
 LogHandler
 LoggingSystem_IsChannelEnabled
@@ -1954,11 +2119,11 @@ LoggingSystem_Log(int, LoggingSeverity_t, LoggingMetaData_t const*, char const*,
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-Logic problem? szsrc =
+Logic problem? szsrc = 
 LookAtList
-Low level command to set the flags byte associated with an object class. sc_SetClassFlags <classname> <value>
-LowerEyelid(
-M
+Low level command to set the flags byte associated with an object class. sc_SetClassFlags <classname> <value>\n
+LowerEyelid( 
+LrwcE
 MATCHFRAMEWORK_001
 MDefaultString
 MESH_DRAW_FLAGS_DRAW_LAST
@@ -1972,17 +2137,23 @@ MNetworkPriority
 MNetworkRemoveAll
 MNetworkSerializer
 MNetworkUserGroup
-MOD
 MODEL_CONFIG_ATTACHMENT_COUNT
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
+M\n"NETWORK_DISCONNECT_SERVER_SHUTDOWN
+M\n"NETWORK_DISCONNECT_STEAM_DENY_MISC
+M\n"NETWORK_DISCONNECT_STEAM_OWNERSHIP
+M\n$NETWORK_DISCONNECT_REJECT_SERVERFULL
+M\n&NETWORK_DISCONNECT_STEAM_AUTHCANCELLED
+M\n'NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER
+M\n(NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
 MapKey::GetBoolValue
 MapKey::GetInt32Value
 MapKey::GetInt64Value
 MapKey::GetStringValue
 MapKey::GetUInt32Value
 MapKey::GetUInt64Value
-MapKey::type MapKey is not initialized.
+MapKey::type MapKey is not initialized. 
 MapListService_001
 MapValueRef::GetBoolValue
 MapValueRef::GetDoubleValue
@@ -1996,7 +2167,7 @@ MapValueRef::GetUInt32Value
 MapValueRef::GetUInt64Value
 MapValueRef::type MapValueRef is not initialized.
 Match ID
-Material changes:
+Material changes: 
 MaterialParamBuffer_t
 MaterialParamFloat_t
 MaterialParamInt_t
@@ -2007,6 +2178,7 @@ MaterialParam_t
 MaterialResourceData_t
 MaterialUtils_001
 MathLib_Init
+MbP?+
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshBuilderObject
@@ -2017,21 +2189,21 @@ Meshbuilder2IndexData
 Meshbuilder2VertexData
 Message class "
 Message extensions cannot have required fields.
-Message missing required fields:
+Message missing required fields: 
 Message of type "
 Message type "
-Message type:
 MessageData
 MessageOptions
 MessageSet is not supported in proto3.
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
+MethodDescriptorProto
 MethodOptions
 Missing field: FileDescriptorProto.name.
 Missing file '%s'
 Missing name.
-Model %s missing bone and flex counts (%d < %d), init %d
+Model %s missing bone and flex counts (%d < %d), init %d\n
 ModelCompile/UseShadowFastPathHeuristic
 ModelConfigAttachmentType_t
 ModelDocUtils001
@@ -2042,7 +2214,7 @@ MoveLayerToBeAfterLabel
 MoveLayerToBeAfterLayer
 MovementSettings
 Multiple extension registrations for type "
-Multithreaded translucent
+Multithreaded translucent\n
 MutableMessage
 MutableRawRepeatedField
 MutableRepeatedMessage
@@ -2171,6 +2343,33 @@ N6google8protobuf8internal30RepeatedFieldPrimitiveAccessorImEE
 N6google8protobuf8internal30RepeatedPtrFieldStringAccessorE
 N6google8protobuf8internal31RepeatedPtrFieldMessageAccessorE
 N6google8protobuf8internal33RandomAccessRepeatedFieldAccessorE
+NETWORK_DISCONNECT_BADDELTATICK
+NETWORK_DISCONNECT_BANADDED
+NETWORK_DISCONNECT_DISCONNECTED
+NETWORK_DISCONNECT_EXITING
+NETWORK_DISCONNECT_HLTVDIRECT
+NETWORK_DISCONNECT_HLTVSTOP
+NETWORK_DISCONNECT_HOST_ENDGAME
+NETWORK_DISCONNECT_INVALID
+NETWORK_DISCONNECT_KICKBANADDED
+NETWORK_DISCONNECT_KICKED
+NETWORK_DISCONNECT_LEAVINGSPLIT
+NETWORK_DISCONNECT_LOOPSHUTDOWN
+NETWORK_DISCONNECT_LOST
+NETWORK_DISCONNECT_NOMORESPLITS
+NETWORK_DISCONNECT_NOSPECTATORS
+NETWORK_DISCONNECT_OVERFLOW
+NETWORK_DISCONNECT_RECONNECTION
+NETWORK_DISCONNECT_REJECT_STEAM
+NETWORK_DISCONNECT_REMOTE_OTHER
+NETWORK_DISCONNECT_SHUTDOWN
+NETWORK_DISCONNECT_STEAM_BANNED
+NETWORK_DISCONNECT_STEAM_INUSE
+NETWORK_DISCONNECT_STEAM_LOGON
+NETWORK_DISCONNECT_STEAM_TICKET
+NETWORK_DISCONNECT_TIMEDOUT
+NETWORK_DISCONNECT_UNUSUAL
+NETWORK_DISCONNECT_USERCMD
 NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
@@ -2183,6 +2382,7 @@ NETWORK_FIELD_DEFAULT_PRIORITY
 NETWORK_FIELD_HIGHEST_PRIORITY
 NETWORK_FIELD_LOWEST_PRIORITY
 NOT_FOUND
+NO_SIDE_EFFECTS
 NSt13__future_base19_Async_state_commonE
 NULL output boolean given.
 NV_DST16
@@ -2190,11 +2390,14 @@ NV_DST24
 NV_INTZ
 NV_NULL
 NV_RAWZ
-NWay(
+NWay( 
+N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
+N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
+NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
-Need valid position and texcoord when creating world space tangent lengths!
-Need valid position to calculate face centers!
+Need valid position and texcoord when creating world space tangent lengths!\n
+Need valid position to calculate face centers!\n
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -2208,82 +2411,88 @@ No Buffer
 No default value
 No field named "uninterpreted_option" in the Options proto.
 NoPoseControl
+Non-primitive types can't be packed.
 Non-repeated Any specified multiple times.
 Non-repeated field "
-Non-windows platforms don't support loading of JPG images
-Non-windows platforms don't support loading of PNG images
-Non-windows platforms don't support loading of TIFF images
+Non-windows platforms don't support loading of JPG images\n
+Non-windows platforms don't support loading of PNG images\n
+Non-windows platforms don't support loading of TIFF images\n
 Normalize3ComponentVectorInAttributes
 Normalized3x3SobelEdgeFilterFrom
 Not Available
 Not Used
-Not implemented field number
+Not implemented field number 
 Not implemented.
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Num occluder tris being clipped:
-Num occluder tris:
-Num occluders being clipped:
-Num occluders:
-Num tris created from clipping:
-Num tris rasterized:
-Number of cull boxes: %d
-Number of display lists submitted:
-Number of draws backface-culled:
-Number of jobs used for partitions:
-Number of jobs used to render:
-Number of objects culled by cull boxes: %d
-Number of objects culled by distance fade:
-Number of objects culled by screen-size test:
-Number of objects culled by vis:
-Number of objects fast-culled by bounds index:
-Number of objects occlusion-culled:
-Number of objects passing cull check:
-Number of objects pre-cull check:
-Number of objects starting to fade:
-Number of objects tested against cull boxes: %d (%lluus)
-Number of occlusion renders:
-Number of pushconstant sets:
-Number of render batch contexts created:
-Number of rendertarget binds:
-Number of resolves:
-Number of transform rows used:
-Number of unique materials in the frame:
-Number of views allocated : %d
-Number of views rendered:
-Number of world traversals:
+Num occluder tris being clipped: 
+Num occluder tris: 
+Num occluders being clipped: 
+Num occluders: 
+Num tris created from clipping: 
+Num tris rasterized: 
+Number of cull boxes: %d\n
+Number of display lists submitted: 
+Number of draws backface-culled: 
+Number of jobs used for partitions: 
+Number of jobs used to render: 
+Number of objects culled by cull boxes: %d\n
+Number of objects culled by distance fade: 
+Number of objects culled by screen-size test: 
+Number of objects culled by vis: 
+Number of objects fast-culled by bounds index: 
+Number of objects occlusion-culled: 
+Number of objects passing cull check: 
+Number of objects pre-cull check: 
+Number of objects starting to fade: 
+Number of objects tested against cull boxes: %d (%lluus)\n
+Number of occlusion renders: 
+Number of pushconstant sets: 
+Number of render batch contexts created: 
+Number of rendertarget binds: 
+Number of resolves: 
+Number of transform rows used: 
+Number of unique materials in the frame: 
+Number of views allocated : %d\n
+Number of views rendered: 
+Number of world traversals: 
 Numbers starting with leading zero must be in octal.
-OK
+OG%hu
 ORIENT
-OSX
 OUT_OF_RANGE
-Object %4d: 0x%p, class=%20s, origin=(%13g,%13g,%13g), bounds=(%13g,%13g,%13g):(%13g,%13g,%13g), desc=0x%p, flags=0x%016llX
+O\n%NETWORK_DISCONNECT_REJECT_BADPASSWORD
+O\n%NETWORK_DISCONNECT_REJECT_LANRESTRICT
+O\n%NETWORK_DISCONNECT_REJECT_NEWPROTOCOL
+O\n%NETWORK_DISCONNECT_REJECT_OLDPROTOCOL
+O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
+O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
+O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
+O\n\nAnnotation
+Object %4d: 0x%p, class=%20s, origin=(%13g,%13g,%13g), bounds=(%13g,%13g,%13g):(%13g,%13g,%13g), desc=0x%p, flags=0x%016llX\n
 OccluderVisualization
 Occlusion Cull
-Occlusion render time:
-Occlusion system scratch mem use:
+Occlusion render time: 
+Occlusion system scratch mem use: 
 OmniLight
 Oneof must have at least one field.
+OneofDescriptorProto
 OneofOptions
-Only DXT1/DXT5 online texture compression supported.
+Only DXT1/DXT5 online texture compression supported.\n
 Opaque
 Optimize the partition assignment of objects based on the next frame's render
 Option "
 Option field "
 Option must have a name.
 Option must not use reserved name "uninterpreted_option".
-Options could not be fully parsed using the proto descriptors compiled into this binary. Missing required fields:
+Options could not be fully parsed using the proto descriptors compiled into this binary. Missing required fields: 
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 Original
 OrthoLight
-Outdent() without matching Indent().
 Output memory size is zero
-Override of %i partitions specified, scene system using %i partitions
+Override of %i partitions specified, scene system using %i partitions\n
 Override. Old default was 3.0
 Override. Old default was 45.
 Override. Old value was 1.0
 Overrides the map's fog settings (-1 populates fog_ vars with map's values)
-P
-P8
-P@
 PARALLEL_PROCESS utlsoacontainer.cpp:2533
 PARENT
 PARTICLE_DEPTH_FEATHERING_OFF
@@ -2292,7 +2501,7 @@ PARTICLE_SET_REPLACE_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PERMISSION_DENIED
-PF%d %d-1.000000
+PF\n%d %d\n-1.000000\n
 PF_BIAS_TYPE_EXPONENTIAL
 PF_MAP_TYPE_MULT
 PF_MAP_TYPE_REMAP
@@ -2309,21 +2518,21 @@ POSE_SPACE_BONE
 POSE_SPACE_MORPH
 POSITION
 POSIX
-PS3
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
-PWL
+P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
+P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
+P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-Parameter to BackUp() can't be negative.
-ParseEXRHeaderFromMemory failed! Error message: %s
+ParseEXRHeaderFromMemory failed! Error message: %s\n
 ParseFromString failed
 ParseRenderTargetTokens
 ParticleSystemMgr003
-Partition optimization time: %f secs
+Partition optimization time: %f secs\n
 PerVertexLighting
-Pf%d %d-1.000000
+Pf\n%d %d\n-1.000000\n
 Physics
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
@@ -2338,12 +2547,12 @@ PhysicsShapeCapsule
 PhysicsShapeHull
 PhysicsShapeMesh
 PhysicsShapeSphere
-Pitch;
-Pixel vis system using %d sets total (%d in free list), %d queries total (%d in free list)
-PixelVisibility_FractionVisible called with NULL queryHandle!
-PixelVisibility_IssueQuery called with NULL queryHandle!
-Pixels visible: %d (qh:%p) (frame:%d)
-Pixels visible: %d (qh:%p) Pixels possible: %d (qh:%p) (frame:%d)
+Pitch; 
+Pixel vis system using %d sets total (%d in free list), %d queries total (%d in free list)\n
+PixelVisibility_FractionVisible called with NULL queryHandle!\n
+PixelVisibility_IssueQuery called with NULL queryHandle!\n
+Pixels visible: %d (qh:%p) (frame:%d)\n
+Pixels visible: %d (qh:%p) Pixels possible: %d (qh:%p) (frame:%d)\n
 Plat_DebugPrint
 Plat_ExitProcess
 Plat_FloatTime
@@ -2359,8 +2568,10 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
 Player Vis
-Pos: %2.3f, %2.3f, %2.3fRange: %2.3f, Falloff: %2.3fAtten0: %2.3f Atten1: %2.3f Atten2: %2.3fColor: %1.3f, %1.3f, %1.3f
-Pos: %2.3f, %2.3f, %2.3fRange: %2.3f, Falloff: %2.3fAtten0: %2.3f Atten1: %2.3f Atten2: %2.3fColor: %1.3f, %1.3f, %1.3fTheta: %3.1f Phi: %3.1f
+Pm_nValue
+Po5H
+Pos: %2.3f, %2.3f, %2.3f\nRange: %2.3f, Falloff: %2.3f\nAtten0: %2.3f Atten1: %2.3f Atten2: %2.3f\nColor: %1.3f, %1.3f, %1.3f
+Pos: %2.3f, %2.3f, %2.3f\nRange: %2.3f, Falloff: %2.3f\nAtten0: %2.3f Atten1: %2.3f Atten2: %2.3f\nColor: %1.3f, %1.3f, %1.3f\nTheta: %3.1f Phi: %3.1f
 PosColorUVNormalTangentVertexLayout
 PosXYZ
 Position2D
@@ -2373,50 +2584,50 @@ PreviewBoneAttachedModel
 PreviewBoneMergedModel
 PreviewPreset
 PreviewPresetList
-Primitives drawn:
+Primitives drawn: 
 Prints out the overall extra data allocation counts
-Problem     :
-Problem     : Enum value did not match field type:    Expected  :
-Problem     : Field is not the right type for this message:    Expected  :
 ProjectedDecalSceneObjectDesc
 ProjectionDepth
 PropWorldOrigin
 PropertyEditorSystem_001
 Proto file starts with 0xEF but not UTF-8 BOM. Only UTF-8 is accepted for proto file.
-Proto type
-ProtoBufHelper::ParseJSON: Array Begin found on invalid field!
-ProtoBufHelper::ParseJSON: Array Begin found on non-repeated field: '%s'!
-ProtoBufHelper::ParseJSON: Array End found on invalid field!
-ProtoBufHelper::ParseJSON: Array End found on non-repeated field: '%s'!
-ProtoBufHelper::ParseJSON: Array size mismatch in field '%s' - JSON %d, protobuf %d
-ProtoBufHelper::ParseJSON: Failed to parse JSON type %d into protobuf type %d for field '%s'!
-ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in protobuf message '%s'!
-ProtoBufHelper::ParseJSON: Object Begin found on invalid field!
-ProtoBufHelper::ParseJSON: received callback with message field but no message!
-ProtoBufHelper::ParseJSON: received callback with no current message field!
-Protobuf: %s(%d): %s
-Protocol Buffer map usage error:
-Protocol Buffer reflection usage error:  Method      : google::protobuf::Reflection::
+Proto type 
+ProtoBufHelper::ParseJSON: Array Begin found on invalid field!\n
+ProtoBufHelper::ParseJSON: Array Begin found on non-repeated field: '%s'!\n
+ProtoBufHelper::ParseJSON: Array End found on invalid field!\n
+ProtoBufHelper::ParseJSON: Array End found on non-repeated field: '%s'!\n
+ProtoBufHelper::ParseJSON: Array size mismatch in field '%s' - JSON %d, protobuf %d\n
+ProtoBufHelper::ParseJSON: Failed to parse JSON type %d into protobuf type %d for field '%s'!\n
+ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in protobuf message '%s'!\n
+ProtoBufHelper::ParseJSON: Object Begin found on invalid field!\n
+ProtoBufHelper::ParseJSON: received callback with message field but no message!\n
+ProtoBufHelper::ParseJSON: received callback with no current message field!\n
+Protobuf: %s(%d): %s\n
+Protocol Buffer map usage error:\n
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message could not be serialized.
 Protocol message serialized itself in invalid fashion.
 Push
-Q
 QAngle
+Q\n&NETWORK_DISCONNECT_REJECT_BADCHALLENGE
+Q\n&NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
+Q\n*NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
+Q\n+NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP
+Q\n,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
 QuarterSizeAttrWithBoxFilter
 Quaternion
 QueuedLoaderVersion001
 Quintic
 R channel not found
-R channel not found!
+R channel not found!\n
 R11_EAC
-R16
 R16F
 R16F_EXPAND
 R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
-RESOLVE: After layer %s, resolve rt to %s %d %d, %dx%d
+RESOLVE: After layer %s, resolve rt to %s %d %d, %dx%d\n
 RESOURCE_EXHAUSTED
 RG11_EAC
 RG1616
@@ -2439,14 +2650,12 @@ RGBA8888_LINEAR
 RGBX555
 RGBX8888
 ROTATION
-RSM
 RadianEuler
 RandomFloat
 RandomInt
 RandomSeed
 Reached an unintended state: CPPTYPE_MESSAGE
 Reached impossible case in HasBit().
-ReadToken overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -2458,17 +2667,17 @@ ReflectionStencil
 Refraction
 Refraction Render View
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Release
-ReleaseLast() called on a RepeatedPtrField that is on an arena,
+ReleaseLast
+ReleaseLast() called on a RepeatedPtrField that is on an arena, 
 ReleaseMessage
-RemapValClamped(
+RemapValClamped( 
 RemoveBoneAndChildren
-Render %d specific objects
-Render batchlist draw calls:
+RemoveLast
+Render batchlist draw calls: 
 Render pending translucent drawlist
-Render world : %s
 Render2DLineOverlays
 Render2DTextOverlays
 Render3DLineOverlays
@@ -2500,17 +2709,27 @@ ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
 RetargetSrc.%s.%s
-Rigid;
-S
-S: %7.3f
-SCENESYSTEMMAT_OCCLUSION_PROXY material has pass count %d, expected 1!
-SCENESYSTEMMAT_OCCLUSION_PROXY_COUNT_DRAW material has pass count %d, expected 1!
+Rigid; 
+S+Ot
+SCENESYSTEMMAT_OCCLUSION_PROXY material has pass count %d, expected 1!\n
+SCENESYSTEMMAT_OCCLUSION_PROXY_COUNT_DRAW material has pass count %d, expected 1!\n
+SPAWN_GROUP_BLOCK_UNTIL_LOADED
+SPAWN_GROUP_DONT_SPAWN_ENTITIES
+SPAWN_GROUP_LOAD_STREAMING_DATA
+SPAWN_GROUP_SYNCHRONOUS_SPAWN
+SPEED
 SSAOManifest
 SSE and SSE2 are required.
+STRING
+S\n!NETWORK_DISCONNECT_REMOTE_TIMEOUT
+S\n%NETWORK_DISCONNECT_CONNECTION_FAILURE
+S\n'NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
+S\n'NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL
+S\n,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
 S_BINDLESS_RUNTIME
 Scale factor for requested texture size (texture streaming)
 Scale factor for requested texture size (texture streaming) - used for geo that doesn't have a precomputed UV density measure
-Scene World %3d: 0x%p %40s [%4d objects]
+Scene World %3d: 0x%p %40s [%4d objects] 
 SceneSystem
 SceneSystem/CMTAtlasChunkSize
 SceneSystem/CMTAtlasHeight
@@ -2539,6 +2758,7 @@ SceneSystem/SunLightMaxCascadeSizeTools
 SceneSystem/SunLightMaxShadowBufferSize
 SceneSystem/SunLightMaxShadowBufferSizeTools
 SceneSystem/SunLightShadowRenderMode
+SceneSystem/Tonemapping
 SceneSystem/TransformFormat
 SceneSystem/TransformTextureRowCount
 SceneSystem/VolumetricFog
@@ -2554,10 +2774,11 @@ SceneSystem/VrLightBinnerSingleLightFastPath
 SceneSystemInit
 SceneSystem_002
 SceneUtils_001
+SceneViewDebugOverlays World
 SceneViewDebugOverlaysScreenTextFont
 SceneViewId_t
 SceneWorldDump
-Scenesystem render target token too large! Increase MAX_RT_NAME_SIZE in scenesystem/scenesystem.h!
+Scenesystem render target token too large! Increase MAX_RT_NAME_SIZE in scenesystem/scenesystem.h!\n
 Scenesystem/CsgoShadowDepthMasks
 Scenesystem/VrShadowDepthMasks
 SchemaSystem_001
@@ -2570,6 +2791,7 @@ SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
+ServiceDescriptorProto
 ServiceOptions
 Set a float attribute which will be visible to all rendering (Usage: sc_setfloatattr <attrname> <value>)
 Set an integer attribute which will be visible to all rendering (Usage: sc_setintattr <attrname> <value>)
@@ -2578,14 +2800,14 @@ SetBool
 SetDouble
 SetEnum
 SetEnumValue
-SetEnumValue accepts only valid integer values: value
+SetEnumValue accepts only valid integer values: value 
 SetFloat
 SetInt32
 SetInt64
 SetRepeatedBool
 SetRepeatedDouble
 SetRepeatedEnum
-SetRepeatedEnumValue accepts only valid integer values:
+SetRepeatedEnumValue accepts only valid integer values: 
 SetRepeatedFloat
 SetRepeatedInt32
 SetRepeatedInt64
@@ -2595,16 +2817,19 @@ SetRepeatedUInt64
 SetString
 SetUInt32
 SetUInt64
+SetupLightingForViewCsgo
+SetupLightingForViewVr
 ShadowMap "
-Shadowed spot lights in view: %d
+Shadowed spot lights in view: %d\n
 Should not reach here.
 Show
 Show cost of lights in fog clipmap constant buffer. yellow = 1 cost, red = 6 cost
 Show light priority values. 1 = normal lights, 2 = cached lights.
 Show occluder
 Show the occluder depth buffer mip level. 0=off, 1=1st mip, 2=2nd mip, etc...
+Si\tLSi\tLSi\tLSi\tL
 SimplePostProcessingLayer
-Simulated
+Simulated\n
 SkeletonBoneBounds_t
 SkinnedObject
 SkyLightingSamples
@@ -2622,7 +2847,6 @@ SkyMapSampleLightingReadPixels
 SkyMapSkyRender
 Skybox
 SlopeTrace
-Someone needed to call WaitForRenderingToComplete()!!!!!
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
@@ -2639,48 +2863,47 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-Spatial partitions: %d
-Spherical %sStrength %.2fExponent %.2f
+SourceCodeInfo
+Spatial partitions: %d\n
+SpawnGroupFlags_t
+Spherical %s\nStrength %.2f\nExponent %.2f
 SpotLight
 SpotShadowColor
 SpotShadowDepth
-Ss
 Stack depth limit hit (%d)
 StatsService_001
 SteamAudio001
 Stencil Reflection Render View
-Stencil bit allocation failed
-Stencil bit dependency satisfied (bit %d)
-Stencil dependency layer : %s
+Stencil bit allocation failed\n
 StencilReflection
 Strength of mixed shadows for testing
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
-StringPrintfVector currently only supports up to
+StringPrintfVector currently only supports up to 
 StrippedGridLayout
 Submit all display lists
-Submit clear screen for layer
-Submit dependent display list for dependent view
 Submit transform texture and other resource updates
 Submit update for auxiliary camera pos=
 Submit update for main camera pos=
 SubmitRenderLists
 Suggested
-Sun
 SunShadow
 SunShadow%u
 SunShadowClear
 Swap
 Symbol name "
-Syntax Error at offset: %d
-T
-T: %7.3f
+Syntax Error at offset: %d\n
 TILT_TWIST
 TINTRGBA32
 TINTRGBA8_ENVMAPIDX
+T\n%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
+T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
+T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
+T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
+T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
 Tell debugoverlay to not draw any entries that have aged out by the time of rendering. Useful if sim runs more often than rendering.
-Template view factory "%s" was registered twice!
+Template view factory "%s" was registered twice!\n
 TestFormatA
 TestFormatB
 TestFormatC
@@ -2692,14 +2915,14 @@ TextLayout_001
 TextMessageMgr_001
 The JSON camel-case name of field "
 The first enum value must be zero in proto3.
-The type parameter T in RepeatedFieldRef<T> API doesn't match
+The type parameter T in RepeatedFieldRef<T> API doesn't match 
 Thin Plate
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
-This can't happen; base64 decoder state =
-This program requires version
-This program was compiled against version
+This can't happen; base64 decoder state = 
+This program requires version 
+This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
-Thread pool has %i threads, scene system using %i partitions
+Thread pool has %i threads, scene system using %i partitions\n
 ThreadGetCurrentId
 ThreadMultiWait
 ThreadMultiWaitObjectSetDestroy
@@ -2710,80 +2933,87 @@ To google::protobuf::internal::down_cast(From*) [with To = const google::protobu
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::UninterpretedOption*, From = const google::protobuf::Message]
 To google::protobuf::internal::down_cast(From*) [with To = google::protobuf::Message*, From = google::protobuf::MessageLite]
 Toggle display of box around text
-Tokenizer::ParseFloat() passed text that could not have been tokenized as a float:
-Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string:
 ToneMapping
 TonemapManifest
 TonemappingVRForward
 Tonemapping_UseAlphaChannelForAutoExposure
 Tonemapping_UseLogLuminance
-Too many cached shadows requested (max %d) this frame (%d).
-Too many shadowed spot lights in the scene!  Some will be removed!
+Too many cached shadows requested (max %d) this frame (%d).\n
+Too many shadowed spot lights in the scene!  Some will be removed!\n
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-Total : %d (%ukb)
+Total : %d (%ukb)\n
 Trailing Data
 Translucent
 TranslucentScreenSpace
-Triangles rendered:
-Tried to calc delta to a src message of a different type.
-Tried to merge messages of different types
+Triangles rendered: 
+Tried to calc delta to a src message of a different type.\n
+Tried to merge messages of different types 
 Tried to move layer to be after non-existant label
 Tried to register a non-generated type with the generated type registry.
 True
 Truncated data
-Trying to concatenate meshes with different numbers of attributes!
-Trying to concatenate meshes with incompatible attribute sets!
+Trying to concatenate meshes with different numbers of attributes!\n
+Trying to concatenate meshes with incompatible attribute sets!\n
 Two Bone
-Type appears to be in generated pool but wasn't
-Type is already registered:
+Type
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
 UNAUTHENTICATED
 UNAVAILABLE
 UNIMPLEMENTED
 UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
 UPDATE_STRING_TOKEN_DATABASE
-UTF-8 data when
+UTF-8 data when 
 UV88
 UVLX8888
 UVWQ8888
-Unable to read file %s
-Unable to read resource file %s!
-Unable to write file '%s'
-Unbatchable material draws:
+U\n"NETWORK_DISCONNECT_REMOTE_BADCRYPT
+U\n&NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE
+U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
+U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
+U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
+Unable to read file %s\n
+Unable to read resource file %s!\n
+Unable to write file '%s'\n
+Unbatchable material draws: 
 Unexpected end of file
-Unexpected failure while serializing option submessage
+Unexpected end of string.
+Unexpected failure while serializing option submessage 
 Unimplemented Map Reflection API.
+Unimplemented type: 
+UninterpretedOption
 Unknown
 Unknown Transform Texture Format: %i
 Unknown compression type.
 Unknown enumeration value of "
-Unknown object class type %s
-Unrecognized command %d in scene system debugger command
+Unknown object class type %s\n
+Unrecognized command %d in scene system debugger command\n
 Unrecognized flag name '%s'
 Unrecognized resource version (%d): %s
-Unrecognized syntax:
+Unrecognized syntax: 
 Unrecognized type '%d'
-Unshadowed spot lights in view: %d
+Unshadowed spot lights in view: %d\n
 Unsupported
-Unsupported ETC image format %d.
+Unsupported ETC image format %d.\n
 Unsupported binary encoding id.
 Unsupported text encoding id.
 Unsupported: type mismatch
-Update
+Update 
 UpdateBinTexture
 UpdateDirtyObjects
-UpperEyelid(
-Usage is sc_setfloatattr <attrname> <value>
-Usage is sc_setintattr <attrname> <value>
+UpperEyelid( 
+Usage is sc_setfloatattr <attrname> <value>\n
+Usage is sc_setintattr <attrname> <value>\n
 Usage scope:
 Use multiview instancing for stereo rendering.
 UserInfoChangeService_001
-Using 16-bit blend indices
+Using 16-bit blend indices\n
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -2810,7 +3040,6 @@ VPhysics2_Handle_Interface_001
 VPhysics2_Interface_001
 VProcessUtils002
 VProfService_001
-VR
 VR_001
 VRenderDeviceSetupV001
 VSInputSignature
@@ -2819,8 +3048,10 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
-VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+V\n&NETWORK_DISCONNECT_PURESERVER_MISMATCH
+V\n'NETWORK_DISCONNECT_CREATE_SERVER_FAILED
 V_CopyMemory3D
 V_FixDoubleSlashes
 V_FixSlashes
@@ -2832,7 +3063,7 @@ V_PrettifyMem
 V_PrettifyNum
 V_RemoveDotSlashes
 V_SetErrno
-V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int> >&)
+V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int>>&)
 V_StrTrim
 V_StripTrailingSlash
 V_UTF16ToUTF8
@@ -2919,23 +3150,24 @@ VertexUVPosColorNormalAndTangent_t
 VertexUVPos_t
 VertexWireFrame2D_t
 VertexWireFrame_t
-View "%s": %d layers
-View "%s": %d render target usage
-View "%s": %d render targets
+View "%s": %d layers\n
+View "%s": %d render target usage\n
+View "%s": %d render targets\n
 VisBuilder_001
 Volume Cull
 VolumetricFogManifest
 VrLightCookieSettings
-W
 WARNING
-WARNING: Directional lights not supported by the light binner!
-WARNING: Trying to create a CRenderContextPtr without a valid context.
+WARNING: Directional lights not supported by the light binner!\n
+WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WIN32
 WINDOWS
 WINXP
+W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
+W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 Warning
-Warning parsing text-format
-Warning:  %s = '%s' is infinite, clamping value.
+Warning parsing text-format 
+Warning:  %s = '%s' is infinite, clamping value.\n
 When enum name is stripped and label is PascalCased (
 Wireframe2DLayout
 Wireframe3DLayout
@@ -2949,36 +3181,148 @@ WorldRenderer/LightProbeVolumeColorSpace
 WorldRenderer/LightProbeVolumeUncompressedFormat
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-X
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
-Y
-Yaw;
-Z
-[
-[$0]
-[%.3f server clamped to %.3f]
-[DUMP: Scene World %d: 0x%p '%s': %d objects]
-[default = $0
+X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
+X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
+X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
+Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
+Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
+Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
+Yaw; 
+Z>github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor
+Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
+Z\n*NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
+Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
+[DUMP: Scene World %d: 0x%p '%s': %d objects]\n
+[\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
 [lazy = true] can only be specified for submessage fields.
-[libprotobuf %s %s:%d] %s
+[libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
-\
-\"
-\"""
 \%03o
-\'
 \U%08x
-\\
-\n
-\r
-\t
+\\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
+\\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
+\\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n CSVCMsg_GameSessionConfiguration
+\n Render %d specific objects
+\n Render world : %s\n
+\n google/protobuf/descriptor.proto
+\n<i>Display lists discarded because of unmet stencil bit dependency</i>
+\n<i>Not using PerViewConstantBuffer_t</i>
+\n<i>PerViewConstantBuffer_t</i>
+\n<i>Procedural Layer</i>
+\nCBlitTextureToBackBufferLayer
+\nCwf\r
+\nStencil bit dependency satisfied (bit %d)
+\nStencil dependency layer : %s
+\n\fCNETMsg_Tick
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fNET_Messages
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fdouble_value
+\n\fis_extension
+\n\fis_localonly
+\n\fjava_package
+\n\flandmarkname
+\n\fsavegamename
+\n\fsignon_state
+\n\fstring_value
+\n\fswift_prefix
+\n\fworldgroupid
+\n\nIDEMPOTENT
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\nevent_name
+\n\nfakeplayer
+\n\ngo_package
+\n\ninput_type
+\n\ns1_mapname
+\n\nval_string
+\n\nval_uint64
+\n\rMethodOptions
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rdefault_value
+\n\ris_transition
+\n\rnet_SetConVar
+\n\rnet_StringCmd
+\n\rphp_namespace
+\n\rpreviouslevel
+\n\rreserved_name
+\n\rtarget_entity
+\n\rtick_interval
+\n\thost_loss
+\n\tjson_name
+\n\tmap_entry
+\n\tname_part
+\n\ttickcount
+\n\ttype_name
+\n\tval_float
+\n\tval_short
+\n\tworldname
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\vis_headless
+\n\vmax_clients
+\n\voneof_index
+\n\voutput_type
+\n\vsource_file
+\n\vspawn_count
+\ng default\n
+\r\n\tCODE_SIZE
+\r\n\tJS_NORMAL
+\r\n\tJS_NUMBER
+\r\n\tJS_STRING
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
+\tFlags: 
+\tLayer %d "%s": %d inputs, %d outputs\n
+\tLayer %d "%s"\n
+\tTarget %d "%s": [MSAA-> %s] [%s size : %d %d]\n
+\t\tAliases:\n
+\t\tInputs:\n
+\t\tLayer %d (%32s):\t
+\t\tOutputs:\n
+\t\tRender Attributes:\n
+\t\tRender Target Desc:\n
+\t\t\t"%s": msaa = %s, resolve = %s\n
+\t\t\t"%s": msaa = %s\n
+\t\t\t%8s, %8s: %s\n
+\t\t\tColor Target %d: HRT = %llX, MSAA = %s, Resolve = %llX, Width = %d, Height = %d\n
+\t\t\tDepth Target: HRT = %llX, MSAA = %s, Resolve = %llX, Width = %d, Height = %d\n
+\t\t\tHRT = %llX, MSAA = %s\n
+\t\t\t\t[%d -> %d]
+\t\tviewport TopLeftX: %d TopLeftY: %d Width: %d Height: %d\n
 \u00
 \x%02x
-]
-_
+]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
+^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
 _BoundTexture%d
 _BoundTextureSrgb%d
 _Dup
@@ -2999,6 +3343,8 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
+_\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
+_\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 __assert_fail
 __bss_start
 __cxa_allocate_exception
@@ -3018,7 +3364,7 @@ __dynamic_cast
 __errno_location
 __fprintf_chk
 __gmon_start__
-__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > std::vector<unsigned char, std::allocator<unsigned char> >::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >)
+__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>> std::vector<unsigned char, std::allocator<unsigned char>>::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>)
 __gxx_personality_v0
 __isnanf
 __longjmp_chk
@@ -3035,15 +3381,11 @@ _end
 _fini
 _setjmp
 _test_conversion_counter
-_z0
-`
-`jF
-a protocol
-abs( %s )
-adding views while previous rendering is running. Someone needed to call WaitForRenderingToComplete()!!!!!
-advanced to state %d at %f
-after solve err=%f
-after sort
+addons
+advanced to state %d at %f\n
+after solve err=%f\n
+after sort\n
+aggregate_value
 ai_model_info
 allowed in proto3.
 allowstatic
@@ -3060,8 +3402,6 @@ animgraph0
 ao_proxy_box_list
 ao_proxy_capsule_list
 archive
-args were given.  Full format string was: "
-arguments.
 array_ != __null
 attach_point
 attachment
@@ -3070,18 +3410,19 @@ attachment_type
 attenuation0
 attenuation1
 attenuation2
-auto alias
 auto_unragdoll_duration
 bUpdate
+b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 baked_light_indexing
 bakelightindex
 bakelightindexscale
 baselayer
 basic_string::_S_construct null not valid
 because aux mask=
-before solve err=%f
+before solve err=%f\n
+begin
 bentnormal
-best wh=%d %d info w h=%d %d testinf wh=%d %d
+best wh=%d %d info w h=%d %d testinf wh=%d %d\n
 binary
 binary_auto
 binary_bc
@@ -3117,20 +3458,21 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
+bt3V
 buf error
-buffer. Use the 'bytes' type if you intend to send raw
+buffer. Use the 'bytes' type if you intend to send raw 
 burst_randomize
 burst_scale
-but not used.
 bytes
-bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
-bytes.
+bytes. 
 cable
 calloc
 can't reach here.
-cannot allocate transform texture
+cannot allocate transform texture\n
 cantdie
 castshadows
+cc_enable_arenas
+cc_generic_services
 ceil
 ceilf
 center
@@ -3142,8 +3484,9 @@ children
 chlist
 chunkCount
 client
+client_streaming
 clientcmd_can_execute
-close() failed:
+close() failed: 
 cloth_collide
 cloth_collision_layer0
 cloth_collision_layer1
@@ -3152,21 +3495,20 @@ cloth_collision_layer3
 cloth_enable
 collision_group
 collision_prop
+color
 color per batch
 colorTarget
+com.google.protobufB
+command
 compression
 config_state
 configvalue.cpp
-conflicts with an existing enum type.
-conflicts with an existing field.
-conflicts with an existing nested message type.
-conflicts with an existing oneof type.
 const google::protobuf::UnknownFieldSet& google::protobuf::UnknownField::group() const
 const string& google::protobuf::UnknownField::length_delimited() const
-contains invalid
 control_point
-cos( %s )
+convars
 create_particle
+creationsequence
 csgo_allow_time_sliced_shadow_map_rendering
 csgo_baked_sun_shadow_distance
 csgo_cubemap_normalization_max
@@ -3180,6 +3522,7 @@ csgo_max_lights
 csgo_show_light_fog_clipmap_cb_cost
 csgo_show_light_priority
 csgo_unlit_shadow_color
+csharp_namespace
 csm_bias_override_0
 csm_bias_override_1
 csm_bias_override_2
@@ -3198,27 +3541,28 @@ csm_res_override_3
 csm_slope_scale_db_override
 csm_split_log_scalar
 csm_viewdir_shadow_bias
+ctype
 cube.pfm
 curvature
-d
+cvars
+d\n-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
+data
 data error
 data height too large.
 data width too large.
 dataWindow
-data_height =
+data_height = 
 debugoverlay_draw_current
 debugoverlay_ignore_source
 debugoverlay_show_text_outline
 default
 delete
 depthTarget
-details:
-dev
 developer
 dimension0
 dimension1
 dimensions
-dir=%d %d %d, err=%f
+dir=%d %d %d, err=%f\n
 displayWindow
 dl_iterate_phdr
 dme_position_map
@@ -3232,49 +3576,59 @@ drawmaterialquad2
 drawspotlights
 dynamic_interaction
 eikonal
-elements
+elements\n
 emitFromWorld
 enable_limit
 encoding
+entityfiltername
+entitylumpname
 enum
+event
 event_class
 event_keys
+event_t
+eventid
 eventindex
-exp( %s )
+events
 explosion_behavior
 explosion_buildup
 explosion_delay
 explosion_type
 explosive_damage
 explosive_radius
-extend .$0 {
-eye
-f
-f %d %d %d
+extend .$0 {\n
+extendee
+extension_range
+f %d %d %d\n
 f == __null || dynamic_cast<To>(f) != __null
 faceMergeAngle
 falloff
 false
+false"
 fastshadowlayout
 fclose
+fff?
 fff?fff?fff?fff?
 fflush
+field
+file
 file error
 filterinY
 filterinZ
 fixed32
 fixed64
+flags
 float
 float( %f )
 floatbitmap.cpp
-floatbitmap.cpp(141): Unknown gamma type "%s"!
-floatbitmap.cpp(2486): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2497): Error loading %s
-floatbitmap.cpp(2520): Error! Unknown file type for %s
-floatbitmap.cpp(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
-floatbitmap.cpp(338): Conversion not supported yet!
-floatbitmap.cpp(438): Conversion not supported yet!
-floatbitmap.cpp(901): Unsupported color format "%s", skipping!
+floatbitmap.cpp(141): Unknown gamma type "%s"!\n
+floatbitmap.cpp(2486): Error calling TGALoader::GetInfo( %s )\n
+floatbitmap.cpp(2497): Error loading %s\n
+floatbitmap.cpp(2520): Error! Unknown file type for %s\n
+floatbitmap.cpp(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s\n
+floatbitmap.cpp(338): Conversion not supported yet!\n
+floatbitmap.cpp(438): Conversion not supported yet!\n
+floatbitmap.cpp(901): Unsupported color format "%s", skipping!\n
 floor
 floorf
 fltx4
@@ -3291,15 +3645,14 @@ fprintf
 fputc
 frame
 fread
-fread() error on
+fread() error on 
 free
 frexp
 friction
 fseek
 ftell
 fwrite
-g
-g default
+g$62
 g_Mathlib_GammaToLinearByteTable
 g_Tier1_BitWriteMasks
 g_Tier1_CRC32Table
@@ -3311,10 +3664,12 @@ g_pThreadPool
 game
 game_class
 game_keys
+gamemode
 generated_proto/linuxsteamrt64/networkbasetypes.pb.cc
 generic
 getenv
 glow
+google.protobuf"G\n
 google.protobuf.
 google.protobuf.Any
 google.protobuf.DescriptorProto.name
@@ -3382,12 +3737,14 @@ google/protobuf/message_lite.cc
 google/protobuf/reflection_ops.cc
 google/protobuf/repeated_field.cc
 google/protobuf/stubs/common.cc
+google/protobuf/stubs/int128.cc
 google/protobuf/stubs/stringpiece.cc
 google/protobuf/stubs/stringprintf.cc
 google/protobuf/stubs/strutil.cc
 google/protobuf/stubs/substitute.cc
 google/protobuf/text_format.cc
 google/protobuf/unknown_field_set.cc
+google/protobuf/wire_format.cc
 google/protobuf/wire_format_lite.cc
 google::protobuf::StringPiece::StringPiece(const char*, google::protobuf::stringpiece_ssize_type)
 google::protobuf::uint32 google::protobuf::UnknownField::fixed32() const
@@ -3395,23 +3752,26 @@ google::protobuf::uint64 google::protobuf::UnknownField::fixed64() const
 google::protobuf::uint64 google::protobuf::UnknownField::varint() const
 gravity
 group
-h
+h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
 handindex
 headtype
 health
 health_override
+host_computationtime
+host_frametime
+host_frametime_std_deviation
+hostname
 hurt_me
 hurt_them
-i
 i < length_
-i >= 0
+idempotency_level
+identifier_value
 idle
 ikdata
-import "$0";
-import public "$0";
-import weak "$0";
+import "$0";\n
+import public "$0";\n
+import weak "$0";\n
 index < 10
-inf
 infinity
 innerconeangle
 instanceidbuffer
@@ -3424,23 +3784,35 @@ interfaces.cpp
 internal error in map key sorting
 invert_orientation
 irradvolumescreenquad
+is_background_map
 is_debris
-j
+is_loadsavegame
+is_multiplayer
+ishltv
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_string_check_utf8
 jiggle bone %u
 json_name = "
+jstype
 jstype is only allowed on int64, uint64, sint64, fixed64 or sfixed64 fields.
-k
-key
+key_t
+keys
 keyvalues.cpp
-kv3
 kv3format_manager.cpp
-l
+label
 last_sniff
+lazy
+lcQe
 ld-linux-x86-64.so.2
-len >= 0
+leading_comments
+leading_detached_comments
 len >= input_len
 length
 length_ >= n
+leveltransition
 libc.so.6
 libm.so.6
 libpthread.so.0
@@ -3449,6 +3821,7 @@ libstdc++.so.6
 libtier0.so
 libvstdlib.so
 lightbinner.cpp
+lightbinner_csgo.cpp
 lightbinner_total_data_%d.vtex
 lightcookie
 lighting_array_fog_RT1.vtex
@@ -3460,6 +3833,8 @@ lightsourceshape
 lighttype
 lineOrder
 lineartogamma
+localnamefixup
+location
 lockRotationAlpha
 longjmp
 loop
@@ -3470,7 +3845,8 @@ looping
 lowprecisionuv
 lowprecisionuv1
 lseek
-m
+mV=H_V=H_V=H_V=H_
+mXr4
 m_AttachmentName
 m_AttachmentType
 m_Attenuation0
@@ -3663,6 +4039,7 @@ m_flOpStrengthMaxScale
 m_flOpStrengthMinScale
 m_flOutput0
 m_flOutput1
+m_flPosition
 m_flPrecomputedMaxRange
 m_flRadius
 m_flRadiusScale
@@ -3819,6 +4196,7 @@ m_nType
 m_nUpType
 m_nVectorComponent
 m_nVertexCount
+m_nViewId
 m_nViewProducerIndex
 m_nVisibleToPlayer
 m_nWidth
@@ -3918,10 +4296,13 @@ m_vertexBuffers
 m_viewId
 m_wristBones
 malloc
+manifestincomplete
+manifestloadpriority
 manyquads
 map keys are not unique
 map<$0, $1>
 map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.
+map_name
 mapbuilder.nodraw
 mapbuilder.occluder
 master_morph_weight
@@ -3971,6 +4352,7 @@ materials/dev/primary_white.vmat
 materials/dev/primary_white_trans.vmat
 materials/dev/reflectivity_90.vmat
 materials/dev/sky_lighting.vmat
+materials/dev/ssao_blur.vmat
 materials/dev/ssao_convert_depth.vmat
 materials/dev/ssao_downsample_depth.vmat
 materials/dev/ssao_scalable_ao.vmat
@@ -3986,11 +4368,11 @@ matrix3x4_t
 matrix3x4a_t
 mattestquad
 max( %s, %s )
-max. %f
 maxHullVertices
 maxSpringTension
 maxVerticesPerHull
 max_angle
+max_client_limit
 memchr
 memcmp
 memcpy
@@ -4006,10 +4388,12 @@ mesh_calculate_curvature_smooth_weight
 meshes
 meshsystem
 message
-message of type "
+message_set_wire_format
+method
+mf\fm
 min( %s, %s )
-min. %f
 min_angle
+min_client_limit
 model.cpp
 model_default_preview_sequence_name
 model_name
@@ -4043,34 +4427,51 @@ modeldoc7
 modeldoc8
 modeldoc9
 morphcomposite
+msg_data
+msg_type
 multiplayer_break
-n
+n+CUtlFixedMemory overflow!\n
 nIndex < m_RenderTargets.Count()
 nIndex == pList->m_nNumObjects - 1
 nTries < 10000000
-nan
+n\f"pA3Q
+name
 nav_attribute_avoid
 nav_data
 need dictionary
+negative_int_value
+net_Disconnect
+net_NOP
+net_SignonState
+net_SpawnGroup_Load
+net_SpawnGroup_LoadCompleted
+net_SpawnGroup_ManifestUpdate
+net_SpawnGroup_SetCreationTick
+net_SpawnGroup_Unload
+net_SplitScreenUser
+net_Tick
 network_connection.proto
+network_connection.proto"-\n\nCMsgVector
+network_connection_token
 networkbasetypes.proto
-no
+no_standard_descriptor_accessor
+no_steam_server
 nomsaa + msaa copies
 nomsaa copy
 none
 norm
-not found
+normal
 notconnected
 notify
 null
-null material
+null material\n
+num_server_players
+number
 numsegments
 nxnstripped
-o
+objc_class_prefix
 occludersceneobject.cpp
 occlusionproxyvb
-of the Protocol Buffer runtime library, but the installed version is
-of the Protocol Buffer runtime library, which is not compatible with the installed version (
 offset_angles
 offset_origin
 operator delete(void*)
@@ -4081,6 +4482,7 @@ operator new(unsigned long, std::nothrow_t const&)
 operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
 optional
+options
 origin_max_delta
 origin_relative
 original
@@ -4089,18 +4491,22 @@ outerconeangle
 output specified is NULL
 outputcolor
 outputdepth
-p
-pA
 pChunk
 pChunk == pList
 pObj->GetRefDataPtr() == nullptr
-package $0;
+package
+package $0;\n\n
+packed
 parameter error
-parent of jiggle bone %u: %s
+parent of jiggle bone %u: %s\n
+parentnamefixup
 parse
 parsing
 particles/
+path
 pervertexlighting
+php_class_prefix
+php_generic_services
 phys_res
 physaggregatedata.cpp
 physgun_interactions
@@ -4112,6 +4518,7 @@ placement_attach
 placement_bone
 placement_mode
 play_endcap
+players_networkids
 please implement MergeFrom for your type.
 point0
 point1
@@ -4120,6 +4527,8 @@ pointLightQuadLayout
 pos2Dtex2D
 pose_control
 pose_control_type
+position
+positive_int_value
 postprocess
 posxyz
 precomputedmaxrange
@@ -4134,15 +4543,17 @@ pthread_cancel
 pthread_mutex_destroy
 pthread_mutex_init
 pthread_mutex_lock
-pthread_mutex_lock:
+pthread_mutex_lock: 
 pthread_mutex_unlock
-pthread_mutex_unlock:
+pthread_mutex_unlock: 
 pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_once
 ptr( 0x%p )
 ptr_ != __null
-q
+public_dependency
+py_generic_services
+rJNone
 r_allow_morph_batching_on_base
 r_cubemap_debug_colors
 r_dither_scale
@@ -4173,10 +4584,10 @@ r_stereo_multiview_instancing
 r_texture_lod_scale
 radius0
 radius1
-rb
 realloc
+reason
 recenter_on_parent_bone
-registered:
+registered: 
 relative_angles
 relative_origin
 remapping vertex %d[w%d] invalid: %d->%d >= %d
@@ -4194,20 +4605,20 @@ rendertargets
 rendertargettoken.cpp
 repeated
 required
+reserved_range
 resource
 rnd_down
 rnd_up
 root
 rootNode
 roundf
-rows of transform texture
 rt_bakecubemap.vtex
 rt_bakecubemap_depthstencil.vtex
 runspeed
-s
-s offg cMeshusemtl initialShadingGroup
+s off\ng cMesh\nusemtl initialShadingGroup\n
 sRGB
 s_flSizeCullBloatScale
+savegamefilename
 sc_allow_dynamic_constant_batching
 sc_allow_secondary_contexts
 sc_allow_shadow_only_draws
@@ -4295,6 +4706,7 @@ scenegfxresources.cpp
 scenelayer.cpp
 scenelight.cpp
 sceneobject_h
+sceneobject_methods.cpp
 scenesimpleidx
 scenesimplevb
 scenesysBox
@@ -4302,10 +4714,11 @@ scenesysCone
 scenesysDodecahedron
 scenesystem
 scenesystem.cpp
-scenesystem.cpp(6364): Expecting 1 renderable pass for material "%s" but found %d!
-scenesystem.cpp(7681): Waited 500 ms for jobs to complete. Attempt to drain windows message queue. Jobs in queue = %d
+scenesystem.cpp(6364): Expecting 1 renderable pass for material "%s" but found %d!\n
+scenesystem.cpp(7681): Waited 500 ms for jobs to complete. Attempt to drain windows message queue. Jobs in queue = %d\n
 scenesystem.h
 scenesystemdebug
+sceneview.cpp
 sceneviewdebugoverlays.cpp
 sched_yield
 schema
@@ -4323,12 +4736,16 @@ sequence_number
 serialize
 serializing
 server_can_execute
-service $0 {
-setting m_SimulationState[%d].m_flSimulationTime=%f
+server_ip_address
+server_streaming
+service
+service $0 {\n
+setting m_SimulationState[%d].m_flSimulationTime=%f\n
 sfixed32
 sfixed64
 shader_roughness_cone
 shader_roughness_ellipse
+shadow_atlas_depth_%d.vtex
 shadow_atlas_mask_%d.vtex
 shadowcache.cpp
 shadowcascadecount
@@ -4340,31 +4757,36 @@ shadowtextureheight
 shadowtexturewidth
 shapeType
 sharpStartAngle
-sin
-sin( %s )
 sincos
 singleplayer
 sint32
 sint64
 size
-size too big:
+size too big: 
 size0
 size1
 size_t to int conversion
 skybox.cpp
+slot
+source_code_info
 source_filename
+span
 spawn_motion_disabled
+spawngrouphandle
+spawngroupmanifest
+spawngroupownerhandle
+spawngroupparenthandle
 speeds
 spotLightLayout
 spotLightQuadLayout
 springConstant
 sprintf
 sqrt
-sqrt( %s )
 sqrtf
 srgb
 srgbgammatolinear
 ss_added
+start
 std::_Function_base::_Base_manager<void (*)(CSceneObject*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
@@ -4391,26 +4813,26 @@ std::__throw_out_of_range_fmt(char const*, ...)
 std::__throw_system_error(int)
 std::allocator<char>::allocator()
 std::allocator<char>::~allocator()
-std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
-std::basic_ios<char, std::char_traits<char> >::eof() const
-std::basic_ios<char, std::char_traits<char> >::fail() const
-std::basic_ios<char, std::char_traits<char> >::fill() const
-std::basic_ios<char, std::char_traits<char> >::good() const
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setfill<char>)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setw)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::str() const
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
+std::basic_ios<char, std::char_traits<char>>::clear(std::_Ios_Iostate)
+std::basic_ios<char, std::char_traits<char>>::eof() const
+std::basic_ios<char, std::char_traits<char>>::fail() const
+std::basic_ios<char, std::char_traits<char>>::fill() const
+std::basic_ios<char, std::char_traits<char>>::good() const
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>, std::allocator<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::_Setfill<char>)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::_Setw)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const
 std::chrono::_V2::steady_clock::now()
 std::condition_variable::condition_variable()
 std::condition_variable::notify_all()
@@ -4503,11 +4925,12 @@ std::terminate()
 std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>)
 std::thread::join()
 std::tr1::__detail::__prime_list
-std::vector<float, std::allocator<float> >::_M_default_append(unsigned long)
-std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)
-std::vector<unsigned char, std::allocator<unsigned char> >::vector(unsigned long, std::allocator<unsigned char> const&)
-std::vector<unsigned short, std::allocator<unsigned short> >::vector(unsigned long, std::allocator<unsigned short> const&)
+std::vector<float, std::allocator<float>>::_M_default_append(unsigned long)
+std::vector<unsigned char, std::allocator<unsigned char>>::_M_default_append(unsigned long)
+std::vector<unsigned char, std::allocator<unsigned char>>::vector(unsigned long, std::allocator<unsigned char> const&)
+std::vector<unsigned short, std::allocator<unsigned short>>::vector(unsigned long, std::allocator<unsigned short> const&)
 stderr
+steamid
 stop_immediately
 stop_instantly
 stop_on_seq_change
@@ -4515,7 +4938,7 @@ strchr
 strcmp
 strcpy
 strdup
-stream
+stream 
 stream end
 stream error
 strerror
@@ -4540,8 +4963,9 @@ sunshadowdummy
 sunshadows
 suppress
 surface_prop
-syntax = "$0";
-t
+syntax
+syntax = "$0";\n\n
+tangent
 tangentu_signv
 tesidx
 test_angles_relative
@@ -4552,18 +4976,17 @@ text format contains deprecated field "
 textures/dev/blue_noise_256.vtex
 textures/dev/ggx_integrate_brdf_lut_schlick.vtex
 texturescale
-the actual field type (for enums T should be the generated enum
+the actual field type (for enums T should be the generated enum 
 the global scope
+tick
 tiles
-to
-tonemap.cpp: g_pRenderDevice->CreateQueryObject( RENDER_QUERY_OCCLUSION ) failed!
+tonemap.cpp: g_pRenderDevice->CreateQueryObject( RENDER_QUERY_OCCLUSION ) failed!\n
+trailing_comments
 transformtexture_.vtex
 true
 trunc
-trying to move layer %s after unfound layer %s
-trying to move non existent layer
 turn_rate
-type does not match
+type
 type or int32).
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
@@ -4583,16 +5006,19 @@ typeinfo name for std::string
 u64( %lld = 0x%llX )
 uint32
 uint64
-unexpected for field
 uninterpreted_option
 unknown
-unrecognized string in token spec %s
+unrecognized string in token spec %s\n
 unspecified
 useMotionDamping
 useSmoothPaths
 use_additional_offset
 user
+userid
+usermsgs
+utils/../sceneview.h
 utils/characterdecalrenderer.cpp
+utils/modelutils.cpp
 utils/scalable_ambient_obscurance.cpp
 utils/sceneutils.cpp
 utils/tonemapsystem.cpp
@@ -4601,10 +5027,13 @@ utlbuffer.cpp
 utlstring.cpp
 utlsymbol.cpp
 uvtangent
-v %g %g %g
-v %g %g %g%s
-v2f
+v %g %g %g%s\n
+v %g %g %g\n
+val_bool
+val_byte
+val_long
 value
+value 
 vanmgrph
 vb phys
 vector::_M_default_append
@@ -4624,7 +5053,7 @@ vmdlkeys2
 vmdlkeys3
 vmin < 0
 vmin <= 0 - base
-vn %g %g %g
+vn %g %g %g\n
 void google::protobuf::FieldDescriptorProto::set_label(google::protobuf::FieldDescriptorProto_Label)
 void google::protobuf::FieldDescriptorProto::set_type(google::protobuf::FieldDescriptorProto_Type)
 void google::protobuf::FieldOptions::set_ctype(google::protobuf::FieldOptions_CType)
@@ -4633,12 +5062,12 @@ void google::protobuf::FileOptions::set_optimize_for(google::protobuf::FileOptio
 void google::protobuf::MethodOptions::set_idempotency_level(google::protobuf::MethodOptions_IdempotencyLevel)
 void google::protobuf::StringPiece::remove_prefix(google::protobuf::stringpiece_ssize_type)
 void google::protobuf::strings::SubstituteAndAppend(std::string*, const char*, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&)
-void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int const&>(int const&)
-void std::vector<std::vector<unsigned long, std::allocator<unsigned long> >, std::allocator<std::vector<unsigned long, std::allocator<unsigned long> > > >::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long> > const&>(std::vector<unsigned long, std::allocator<unsigned long> > const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > >(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, char*, char*, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
+void std::vector<int, std::allocator<int>>::_M_emplace_back_aux<int const&>(int const&)
+void std::vector<std::vector<unsigned long, std::allocator<unsigned long>>, std::allocator<std::vector<unsigned long, std::allocator<unsigned long>>>>::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long>> const&>(std::vector<unsigned long, std::allocator<unsigned long>> const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, std::forward_iterator_tag)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, char*, char*, std::forward_iterator_tag)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
 volume_fog_clipmap_update
 volume_fog_clipmaps_enabled
 volume_fog_depth
@@ -4713,17 +5142,17 @@ vtable for __cxxabiv1::__pointer_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 vtable for std::__future_base::_State_base
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 vtable for std::exception
 walkspeed
-was modified concurrently during serialization.
-wb
 wcscmp
 wcslen
+weak
+weak_dependency
 wellknown_black_1x1
 wellknown_black_2x2x2
 wellknown_black_cube_1x1
@@ -4736,25 +5165,16 @@ wellknown_transparent_black_1x1
 wellknown_transparent_black_array_1x1
 wellknown_white_1x1
 wellknown_white_array_1x1x1
-with a type that does not implement MergeFrom. This is unsafe;
-with type
+with a type that does not implement MergeFrom. This is unsafe; 
+world_offset_angle
+world_offset_pos
 wrong submessage type
-wt
-x
-y
-yaw
+xuid
 yaw_end
 yaw_start
-yes
-z
-zC
-zD
-zF
-{
-{ ... };
-{$0$1}
-{}()':
-|
-}
-} %llu aggs, %s total data
-C
+z\n8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
+{YIN?
+{[xY{[xY{[xY{[xYCLightObjectDesc
+{}[]()=&, \t\n'"*;
+{}[]=, \t\n'":|;
+}\n %llu aggs, %s total data\n

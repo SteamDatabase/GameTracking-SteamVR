@@ -1,57 +1,44 @@
-	,z	o<
-	Inherited
-	providers
- A!W!
- [-Gi5#
- [-Gi;
+ Ds1
 !RsaProtectedConfigurationProvider
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
-#H@+d
 #Mono Common Language Infrastructure
 #Strings
 $default value for require_permission
-%!&*&Y&
 %Evidence and version still needs work
 %System.Configuration.ProviderSettings
-&%rW%
+%e6z
 &Support multiple levels of inheritance
-'=+ ,
 'should this use HostingContext instead?
+(9N1
 (c) Various Mono authors
+*Bs8
 *Dx1F
+*Rsg
 *mono does not support remote configuration
-+"	oP
-+#	oP
-+*	oP
-++	oP
-+;<Cs
-+b	oP
--<	(9
--<-\-
 -System.Configuration.ConnectionStringSettings
 .cctor
 .ctor
-.text
-/<@+`
 /we can't possibly *always* return false here...
 1System.Configuration.KeyValueConfigurationElement
 1find the proper location for the decryption stuff
 2ConfigurationUserLevel parameter is not supported.
 2System.Configuration.NameValueConfigurationElement
-3A>"(
+3Cc4
 4-5z5
 4.0.0.0
 4.4S4
 4.6.57.0
 4GE0V
+5A6u
+5QL#
 8Do something with this in ConfigurationElementCollection
 8Provide ConfigContext. Likely the culprit of bug #322493
 90@+q
+9FT!
+9Q$l
+9W$l
 ;4I8U
-<,H,M
-<,H,U
 <>1__state
 <>2__current
 <>4__this
@@ -66,15 +53,12 @@ $default value for require_permission
 <PrivateImplementationDetails>
 <Start>k__BackingField
 <StreamPath>k__BackingField
-=t]o-
-@.reloc
+>961
 AH@+d
-AI	'S
-AM@+,
+AI\t'S
 Activator
 AddAttribute
 AddChild
-AddItemName
 AddKey
 AddKeyNameMapping
 AddRange
@@ -82,7 +66,6 @@ AddRemoveClearMap
 AddRemoveClearMapAlternate
 AddValue
 Allow
-AllowMultiple
 AllowPartiallyTrustedCallersAttribute
 AppDomain
 AppDomainSetup
@@ -135,6 +118,7 @@ AsymmetricAlgorithm
 AsyncCallback
 AttributeTargets
 AttributeUsageAttribute
+BSJB
 BaseAdd
 BaseClear
 BaseGet
@@ -158,6 +142,7 @@ CanConvertFrom
 CanConvertTo
 CanValidate
 ChangeConfigurationSystem
+Char
 Check if this is correct
 CheckFileMap
 CheckName
@@ -230,6 +215,7 @@ ConvertFromInvariantString
 ConvertFromString
 ConvertToInvariantString
 ConvertToString
+Copy
 Count = {Count}
 Create
 CreateConfigurationContext
@@ -255,11 +241,11 @@ DecryptDocument
 DefaultMemberAttribute
 DefaultSection
 DefaultValidator
-DefaultValue
 DelegatingConfigHost
 Delete
 DeleteKey
 DeleteStream
+Deny
 DeserializeConfigSource
 DeserializeElement
 Detect if file has changed
@@ -267,7 +253,8 @@ DictionaryEntry
 DirectoryInfo
 DoDeserializeSection
 DpapiProtectedConfigurationProvider
-DpapiProtectedConfigurationProvider depends on the Microsoft Data
+DpapiProtectedConfigurationProvider depends on the Microsoft Data\nProtection API, and is unimplemented in Mono.  For portability's sake,\nit is suggested that you use the RsaProtectedConfigurationProvider.
+Ek-m
 ElementMap
 Encoding
 Encrypt
@@ -284,11 +271,15 @@ Exclude
 ExeConfigurationFileMap
 ExeConfigurationHost
 ExeContext
+Exit
 ExportKey
 ExportParameters
+F35#
+F4-b
 FileAccess
 FileMode
 FileStream
+Find
 FindBest
 FindLocationConfiguration
 FlagsAttribute
@@ -299,9 +290,11 @@ FromMinutes
 FromSeconds
 FromTicks
 FromXml
+Full
 Func`2
 FxFileVersion
 FxVersion
+G95#
 GenericEnumConverter
 GetAllProviders
 GetAssemblyInfo
@@ -371,6 +364,7 @@ HasLocalModifications
 HasValue
 HasValues
 Hashtable
+Hr$A
 I*`Dr
 I1@+p
 IAsyncResult
@@ -451,7 +445,9 @@ IsSecondaryRoot
 IsSubsetOf
 IsTrustedConfigPath
 IsUnrestricted
+Item
 IteratorStateMachineAttribute
+Join
 KeyValueConfigurationCollection
 KeyValueConfigurationElement
 KeyValueInternalCollection
@@ -463,7 +459,7 @@ LoadXml
 Locale
 LongValidator
 LongValidatorAttribute
-M<@+`
+M5$4
 MachineConfigurationHost
 MachineOnly
 MachineToApplication
@@ -497,6 +493,7 @@ NameValueConfigurationCollection
 NameValueConfigurationElement
 NeutralResourcesLanguageAttribute
 NoDefaultValue
+None
 NormalizeLocationSubPath
 NotImplementedException
 NotSupportedReason
@@ -540,12 +537,11 @@ ProtectedConfigurationProviderCollection
 ProtectedConfigurationSection
 ProtectedDataSectionName
 ProtectedProviderSettings
-Protection API, and is unimplemented in Mono.  For portability's sake,
 ProviderBase
 ProviderException
 ProviderSettingsCollection
 PublicKeyToken
-R3	$^
+RSA1
 RSACryptoServiceProvider
 RSAParameters
 ReadAllText
@@ -604,6 +600,7 @@ ShouldSerializeElementInTargetVersion
 ShouldSerializePropertyInTargetVersion
 ShouldSerializeSectionGroupInTargetVersion
 ShouldSerializeSectionInTargetVersion
+Skip
 SpecialFolder
 Split
 StartMonitoringStreamForChanges
@@ -662,6 +659,7 @@ System.Text.RegularExpressions
 System.Threading
 System.Xml
 SystemException
+TQ\fDefaultValue
 TU1System.Configuration.ConfigurationPropertyOptions
 TU7System.Configuration.ConfigurationElementCollectionType
 ThrowException
@@ -681,6 +679,7 @@ ToLower
 ToLowerInvariant
 ToXml
 ToXmlString
+Trim
 TrimEnd
 TryParse
 TypeConverter
@@ -691,7 +690,6 @@ Union
 Unity
 Unmerge
 UnprotectSection
-Unrestricted
 UpdateStringHash
 VSystem.Web, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 ValidateValue
@@ -715,6 +713,7 @@ WriteRootData
 WriteStartDocument
 WriteStartElement
 XCo#P
+XKL#
 XmlException
 XmlNodeReader
 XmlNodeType
@@ -722,9 +721,15 @@ XmlReader
 XmlTextWriter
 XmlWriter
 Z9'5"
-ZM@+,
-Z],'rB
-]A@+d
+Zr7\n
+[RY0
+\fUnrestricted
+\fproviderName
+\rAllowMultiple
+\tInherited
+\tproviders
+\vAddItemName
+^9P5
 _CorDllMain
 _configContext
 _configuration
@@ -739,10 +744,12 @@ _propProviderName
 _propSettings
 _propValue
 _properties
-`.rsrc
+a>s5
+aQr"
 action
 addElementName
 addItemName
+addT
 add_ConfigChanged
 add_ConfigRemoved
 add_SaveEnd
@@ -756,15 +763,16 @@ allow_exe_definition
 allow_location
 allow_override
 alreadyInitialized
+args
 array
 assemblyName
 assertPermissions
 attributeList
-b<@+`
 baseClass
 basePath
 builder
 builderName
+cDt 
 callback
 callbackMethodName
 calling_assembly
@@ -795,6 +803,7 @@ converter
 createDefaultInstance
 cspProviderName
 dCu#P
+data
 defaultCollection
 defaultConfiguration
 defaultProvider
@@ -821,6 +830,7 @@ exeConfigFilename
 exePath
 exportable
 externalDataXml
+file
 fileMap
 fileName
 filename
@@ -829,6 +839,7 @@ force
 forceSaveAll
 forceUpdateAll
 force_update
+g8\P
 get_AddElementName
 get_AddItemName
 get_AllKeys
@@ -1047,11 +1058,13 @@ group
 groupName
 groups
 hasFile
+host
 hostInitConfigurationParams
 hostInitParams
 ignoreLocks
 includePrivateParameters
 index
+info
 inherit_on_child_apps
 inherited
 inheritedLimitIndex
@@ -1068,8 +1081,9 @@ isHostReady
 isLocked
 isModified
 is_modified
-it is suggested that you use the RsaProtectedConfigurationProvider.
 itemType
+key1
+key2
 keyContainerName
 keyProp
 keyProps
@@ -1077,7 +1091,9 @@ keySize
 keyValue
 l1@+p
 level
+line
 lineNumber
+list
 localName
 localUserConfigFilename
 locationConfigPath
@@ -1092,7 +1108,9 @@ lockObject
 lockType
 lockobj
 lookup
+m2\t5
 m5@+H
+mO=B
 machineConfigFileName
 machineConfigFilename
 maxLength
@@ -1103,14 +1121,17 @@ method
 minLength
 minValue
 minValueString
+mode
 mscoree.dll
 mscorlib
+name
 nameProp
 nameValue
 namespaceURI
 newData
 newSystem
 nfile path?  do we use a System.Configuration api for opening it?  do we keep it open?  do we open it writable?
+node
 object
 op_Equality
 op_GreaterThan
@@ -1123,6 +1144,8 @@ origin
 originalStringHash
 overrideAllowed
 owner
+p\rrS
+p\toR
 parameters
 parent
 parentConfigPath
@@ -1134,11 +1157,13 @@ parentLocationConfigPath
 parentProperty
 parentResolved
 parentSection
+path
 pathTrimChars
 permissionSet
 position
 preLoad
 prefix
+prop
 property
 propertyInfo
 propertyName
@@ -1150,6 +1175,7 @@ protection_provider
 providerName
 providers
 providersProp
+qFb&
 range
 rangeIsExclusive
 rawXml
@@ -1175,9 +1201,12 @@ restartOnExternalChanges
 restart_on_external_changes
 result
 roamingUserConfigFilename
+root
 rootGroup
 rootNamespace
 rootSectionGroup
+s.D8
+s/X1
 saveContext
 saveMode
 section
@@ -1277,18 +1306,21 @@ targetFramework
 templateStreamName
 throwIfExists
 throwOnError
+type
 typeConfigHost
 typeConverter
 typeEnum
 typeName
 typeProp
 type_name
+uD\P
 unrestricted
 useMachineContainer
 useMachineProtection
 useOAEP
 userLevel
 v4.0.30319
+vQL#
 valid_name_hash
 valid_names
 validation
@@ -1301,10 +1333,9 @@ values
 writeContext
 writeElem
 writer
-x&."&
 x0@+p
+xB2,
 xmlContent
 xmlFileName
 xmlReader
 y5@+H
-|<@+`

@@ -3,7 +3,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -53,12 +52,11 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 Action`1
 ArgumentNullException
 Assembly-CSharp-testable
+BSJB
 Behaviour
 ClearBindingFor
 ClearGenericBinding
@@ -77,7 +75,6 @@ Delegate
 DirectorUpdateMode
 DirectorWrapMode
 EvaluateNextFrame
-GetBindingFor
 GetDirectorManager()
 GetGenericBinding
 GetGraphHandle
@@ -88,7 +85,6 @@ GetReferenceValue
 GetReferenceValue_Injected
 GetWrapMode
 GoogleAR.UnityNative
-HasBinding
 HasGenericBinding
 IExposedPropertyTable
 Interlocked
@@ -102,6 +98,7 @@ PlayableDirector
 PlayableGraph
 ProcessPendingGraphChanges
 PropertyName
+RSDS
 RebindPlayableGraphOutputs
 RebuildGraph
 Remove
@@ -132,7 +129,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -212,8 +208,11 @@ UnityEngine.XboxOneModule
 UnityEngineModuleAssembly
 UnverifiableCodeAttribute
 WrapNonExceptionThrows
+\nHasBinding
+\rGetBindingFor
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 add_paused
 add_played
 add_stopped
@@ -228,6 +227,7 @@ get_state
 get_time
 get_timeUpdateMode
 idValid
+mode
 mscoree.dll
 mscorlib
 op_Equality

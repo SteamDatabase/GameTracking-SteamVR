@@ -3,7 +3,6 @@
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -44,7 +43,6 @@ $Unity.InternalAPIEngineBridgeDev.003
 $Unity.InternalAPIEngineBridgeDev.004
 $Unity.InternalAPIEngineBridgeDev.005
 $UnityEngine.UnityWebRequestWWWModule
-%4v%G
 %Unity.IntegrationTests.UnityAnalytics
 &UnityEngine.PerformanceReportingModule
 &UnityEngine.UnityWebRequestAudioModule
@@ -53,13 +51,12 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 /Modules/SpriteShape/Public/SpriteShapeUtility.h
 <Module>
-@.reloc
 Allocator
 AngleRangeInfo
 Assembly-CSharp-testable
+BSJB
 BoundingBox
 ChannelNormal
 ChannelTangent
@@ -71,6 +68,7 @@ ConvertExistingDataToNativeArray
 ConvertExistingDataToNativeSlice
 DebuggableAttribute
 DebuggingModes
+Enum
 FreeFunctionAttribute
 Generate
 GenerateSpriteShape
@@ -90,6 +88,7 @@ Header0Modules/SpriteShape/Public/SpriteShapeRenderer.h
 InternalsVisibleToAttribute
 JobHandle
 Matrix4x4
+Mesh
 MovedFromAttribute
 NativeArrayUnsafeUtility
 NativeArray`1
@@ -101,6 +100,7 @@ NativeTypeAttribute
 Object
 Prepare
 Prepare_Injected
+RSDS
 RuntimeCompatibilityAttribute
 SetMeshChannelInfo
 SetMeshDataCount
@@ -126,7 +126,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections
 Unity.Collections.LowLevel.Unsafe
@@ -216,8 +215,9 @@ Vector3
 Vector4
 VertexAttribute
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 adaptiveUV
 angleRange
 angleThreshold
@@ -254,7 +254,9 @@ m_GeomIndex
 m_IndexCount
 m_SpriteIndex
 m_VertexCount
+mesh
 metaData
+mode
 mscoree.dll
 mscorlib
 normals

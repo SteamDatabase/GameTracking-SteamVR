@@ -1,33 +1,15 @@
-									
-																				
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-	A;HPA
-  Bad Fax Lines: %lu
-  Consecutive Bad Fax Lines: %lu
+  Bad Fax Lines: %lu\n
+  Consecutive Bad Fax Lines: %lu\n
   Fax Data:
   Group 3 Options:
   Group 4 Options:
   Predictor: 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- (%lu = 0x%lx)
- (%u = 0x%x)
- A^_]
- A_A^A\
- A_A^A]
- A_A^A]A\^
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^^
- A_A^_H
- A__^
- H3E H3E
+ (%lu = 0x%lx)\n
+ (%u = 0x%x)\n
  clean
  receiver regenerated
  uncorrected errors
-!!!!!!
-!!!!!!!!
-!!!!!!!!!!!!!!!!!!
-!This program cannot be run in DOS mode.
 "%s": Bad mode
 "Predictor" value %d not supported
 %.100s: Can not read TIFF directory
@@ -62,48 +44,6 @@
 %s: Unknown %stag %u
 %sEOL padding
 %suncompressed data
-%u (0x%x)
-(D$ H
-(D$@D
-(L$ D
-(L$0H
-(L$PD
-(L$`D
-(T$ H
-(T$@D
-(T$PD
-(T$pD
-(\$0D
-(\$@D
-(\$`D
-(d$ L
-(d$0D
-(d$PD
-(l$ D
-(l$ H
-(l$@D
-(t$ H
-(t$ L
-(t$0D
-(t$0H
-(t$@L
-(t$PH
-(t$Pt
-(|$ 3
-(|$ D
-(|$ H
-(|$ L
-(|$0D
-(|$PD
-)D$@D
-)d$PE
-)t$ H
-)t$ f
-)t$0I
-)t$@A
-)|$ H
-)|$ M
-)|$PD
 ,T?setDotsPerMeterX@QImage@@QEAAXH@Z
 -Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
@@ -129,6 +69,7 @@
 .CRT$XTA
 .CRT$XTZ
 .T?setDotsPerMeterY@QImage@@QEAAXH@Z
+.bss
 .data
 .data$r
 .edata
@@ -149,37 +90,21 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
 0 (0x0)
-0A^A]_^]
-0A^^]
-0A^_]
-0A_A^A\
-0A_A^A\_]
-0A_A^A\_^
-0A_A^A]A\_
-0A_A^A]A\_^]
-0A_A^^
-0A_A^_
 1.2.5
+2\vpN
 7 (0x7)
-8A]_^[
-9t$\A
-9|$dA
-;sLr8f
-<	vN<
-<	vO<
-<$Lc|$XI
-<$Lc|$hI
+8&Kx
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
 ??0QImageIOHandler@@QEAA@XZ
@@ -196,24 +121,9 @@
 ?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
 ?bits@QImage@@QEAAPEAEXZ
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
-?convertToFormat@QImage@@QEHAA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?copy@QImage@@QEBA?AV1@AEBVQRect@@@Z
-?currentImageNumber@QImageIOHandler@@UEBAHXZ
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dotsPerMeterX@QImage@@QEBAHXZ
-?dotsPerMeterY@QImage@@QEBAHXZ
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?format@QImage@@QEBA?AW4Format@1@XZ
-?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
@@ -226,66 +136,13 @@
 ?type@QVariant@@QEBA?AW4Type@1@XZ
 ?warning@QMessageLogger@@QEBAXPEBDZZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-@.data
-@.qtmetad@
-@.reloc
-@A^_^
-@A_A^A\
-@A_A^A]A\_
-@A_A^A]A\_^]
-@A_A^[
-@A_A^]
-@A_A^_
-@A__]
-@SATAVH
-@SAUH
-@SAVAWH
-@SUAVAWH
-@SUAW
-@SUAWD
-@SUWAU
-@SUWAVH
-@SUWH
-@SVAVH
-@SVWAUH
-@SVWAVH
-@SVWAWH
-@SVWH
-@SWATAUH
-@SWAUAVH
-@USVH
-@USWAWH
-@USWH
-@UVWAUAVH
-@UVWH
-@UWATD
-@WAWD
-A;HLA
-A;HTA
 ASCII value for tag "%s" contains null byte in value; value incorrectly truncated during reading due to implementation limitations
 ASCII value for tag "%s" does not end in null byte
-ATAUH
-ATAVAWH
-AUAVAWH
-A]A\_][
-A^A\[
-A^A]A\_^][
-A^A][]
-A^_^[
-A_A^A\
-A_A^A]
-A_A^A]A\]
-A_A^A]A\^][
-A_A^A]A\_^]
-A_A^]
-A__[]
-A__][
 ActiveArea
 AdobeDeflate
 AnalogBalance
 AntiAliasStrength
 ApertureValue
-ArfD;
 Artist
 AsShotICCProfile
 AsShotNeutral
@@ -294,7 +151,7 @@ AsShotWhiteXY
 Assuming 8-bit colormap
 Attempt to reset field on directory not already on disk.
 Attempt to write value larger than 0xFFFFFFFF in Classic TIFF file.
-AuthD
+B\f?dotsPerMeterX@QImage@@QEBAHXZ
 Bad code word at line %u of %s %u (x %u)
 BadFaxLines
 BaselineExposure
@@ -314,7 +171,6 @@ Bogus encoding, loop in the code table; scanline %d
 BrightnessValue
 BuildMapBitdepth16To8
 BuildMapUaToAa
-C8@u5H
 CCITT Group 3
 CCITT Group 4
 CCITT RLE
@@ -367,27 +223,15 @@ Compression scheme %u %s encoding is not implemented
 ConsecutiveBadFaxLines
 Contrast
 Copyright
-Copyright (c) 1988-1996 Sam Leffler
-Copyright (c) 1991-1996 Silicon Graphics, Inc.
 Corrupted LZW table at scanline %d
-CrI9F
 CreateEventW
 CurrentICCProfile
 CurrentPreProfileMatrix
 CustomRendered
-D$(fA
-D$(fD
-D$8H=
-D$8fA
-D$@E3
-D$HE3
-D$pf;
-D$xD;d$`D
-D90tX
-D9ItH
 DNGBackwardVersion
 DNGPrivateData
 DNGVersion
+D\f?dotsPerMeterY@QImage@@QEBAHXZ
 Data buffer too small to hold part of strip %lu
 Data buffer too small to hold strip %lu
 Data buffer too small to hold tile %lu
@@ -409,9 +253,7 @@ Discarding %lu bytes to avoid buffer overrun
 DocumentName
 DotRange
 DumpModeDecode
-E8t[H
 EXIFIFDOffset
-Egt	H
 Encoder error: %s
 EnterCriticalSection
 Error fetching directory count
@@ -469,12 +311,8 @@ Fractional scanlines cannot be written
 FreeByteCounts
 FreeOffsets
 G%s %s encoding is not implemented
-G8 tSM
-G8@t&
-G< tSH
 GPSIFDOffset
 GainControl
-GenuA
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -486,22 +324,7 @@ GrayResponseCurve
 GrayResponseUnit
 Group3Options
 Group4Options
-HA\_^]
-HA]A\_[
-HA^A\_]
-HA^A]_[
-HA_A\_^
-HA_A^_]
 HalftoneHints
-HcD$`HcL$hH
-HcD$lL
-HcD$xLct$pH
-HcEwL
-HcUwL
-Hcl$@H
-Hcl$PH
-Hcl$`H
-Hct$HH
 Horizontal differencing "Predictor" not supported with %d-bit samples
 HostComputer
 ICC L*a*b*
@@ -548,31 +371,14 @@ Invalid td_samplesperpixel value
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J?hasAlphaChannel@QImage@@QEBA_NXZ
+JPEG
 K?height@QImage@@QEBAHXZ
 KERNEL32.dll
-L$ E3
-L$ SVWH
-L$(D;
-L$0H3
-L$0Hc
-L$8A+
-L$8H3
-L$@H3
-L$@ff
-L$HA;
-L$HE3
-L$HHc
-L$HI;
-L$PHcQ
-L$`E3
-L$dHcD$lH
-L$xE3
-L9	wT
-L;D$8v7H
 L?isNull@QImage@@QEBA_NXZ
 L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
-LIBTIFF, Version 4.0.3
+LIBTIFF, Version 4.0.3\nCopyright (c) 1988-1996 Sam Leffler\nCopyright (c) 1991-1996 Silicon Graphics, Inc.
+LZMA
 LZWDecode
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Strip %d not terminated with EOI code
@@ -580,13 +386,6 @@ LZWDecodeCompat
 LZWPreDecode
 LZWSetupDecode
 LZWSetupEncode
-LcEw+
-LcMpL
-LcMwL
-LcMxL
-Lcd$`L
-Lcl$hI
-Lct$XL
 LeaveCriticalSection
 LensInfo
 LightSource
@@ -602,12 +401,11 @@ LogLuvInitState
 LogLuvSetupDecode
 LogLuvSetupEncode
 LogLuvVSetField
-M H1E
 M?logicalDpiX@QPaintDevice@@QEBAHXZ
 M?logicalDpiY@QPaintDevice@@QEBAHXZ
 M?loopCount@QImageIOHandler@@UEBAHXZ
-M@IcE
 MW?size@QImage@@QEBA?AVQSize@@XZ
+Make
 MakerNote
 MakerNoteSafety
 MaskedAreas
@@ -625,9 +423,7 @@ Merging PixarLog codec-specific tags failed
 Merging Predictor codec-specific tags failed
 Merging SGILog codec-specific tags failed
 Merging common CCITT Fax codec-specific tags failed
-MetaData
 MeteringMode
-MimeTypes
 MinSampleValue
 Missing needed %s tag
 Missing required "Colormap" tag
@@ -636,6 +432,7 @@ ModeNumber
 Model
 Must set "ImageWidth" before writing data
 Must set "PlanarConfiguration" before writing data
+NeXT
 NeXTDecode
 No "get" routine setup
 No "put" routine setupl; probably can not handle image format
@@ -662,6 +459,7 @@ No space for tile buffer
 No space to expand strip arrays
 No support for converting user data format to LogL
 No support for converting user data format to LogLuv
+None
 Nonstandard tile length %d, convert file
 Nonstandard tile width %d, convert file
 Not a TIFF file, bad BigTIFF offsetsize %d (0x%x)
@@ -690,9 +488,7 @@ Out of memory allocating %lld byte temp buffer.
 Out of memory for colormap copy
 Out of memory reading of "%s"
 Out of memory reading of "%s"; tag ignored
-P.rsrc
 P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-PA_A^A\
 PackBits
 PackBitsDecode
 PageName
@@ -725,8 +521,6 @@ Premature EOF at line %u of %s %u (x %u)
 Premature EOL
 PrimaryChromaticities
 ProfileType
-QL9Qt
-QTMETADATA  qbjs
 QTiffHandler::canRead() called with no device
 QTiffPlugin
 Qt5Core.dll
@@ -755,9 +549,7 @@ RowsPerStrip
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S2f;S0v:D
 S?setColorTable@QImage@@QEAAXV?$QVector@I@@@Z
-SAUAVH
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
@@ -766,13 +558,6 @@ SGILogDataFmt
 SGILogEncode
 SMaxSampleValue
 SMinSampleValue
-SUAWH
-SUVATAUAVAWH
-SUVWATAUAVH
-SUWATAUH
-SUWAWH
-SVWAVH
-SWATAUH
 SampleFormat
 Samples/pixel
 SamplesPerPixel
@@ -823,18 +608,6 @@ SubjectArea
 SubjectDistance
 SubjectDistanceRange
 SubjectLocation
-T$ E;
-T$0A;
-T$0E;
-T$@A;
-T$Dff
-T$HE3
-T$HM;
-T$PA;
-T$XA;
-T$`f;
-T$xI+
-T$xM+
 T82Options
 T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TIFF directory is missing required "%s" field
@@ -923,18 +696,6 @@ TileOffsets
 TileWidth
 Too much
 TransferFunction
-UAVAWH
-USAUAVH
-USAWH
-USVWH
-UVAVH
-UVWATAUAVAWH
-UVWATH
-UVWAVAWH
-UWATAVH
-UWAVAWH
-UWAVH
-UWAWH
 Uncompressed data (not supported) at line %u of %s %u (x %u)
 UnhandledExceptionFilter
 UniqueCameraModel
@@ -945,20 +706,10 @@ Unknown exception
 Unknown field with tag %d (0x%x) encountered
 Unsupported bits/sample: %d
 UserComment
-VATAUAVAWH
-VAVAWH
 VCRUNTIME140.dll
-VUUUUUUUI
-VWATAVAWD
-VWATAVAWH
-VWATAWH
-VWAVH
-VWAWH
 Value exceeds 32bit range of output type.
 VersionYear
 W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WATAUAVAWH
-WAVAWH
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning, 
@@ -969,15 +720,11 @@ Write error at scanline %lu
 Wrong "StripByteCounts" field, ignoring and calculating from imagelength
 Wrong bitspersample value (%d), Thunder decoder only supports 4bits per sample.
 Wrong length of decoded string: data probably corrupted at scanline %d
-XA]A\_[
-XA^_][
-XA^_^[
 XClipPathUnits
 XMLPacket
 XPosition
 XResolution
 XYZ, Luv
-XfD9&u	
 YCbCr
 YCbCrCoefficients
 YCbCrPositioning
@@ -996,22 +743,18 @@ ZIPSetupEncode
 ZIPVSetField
 ZLib cannot deal with buffers this size
 ZLib error: %s
-\$ AVD
-\$ AVMc
-\$ A\_]
-\$ Hc\$PH
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWH
-\$ WAW
-\$ WH
-\$(A^
-\$(fD;
-\$0A__
-\$PA;
-\$PD;
-\$`Hc
-\$hE;
+[\n?convertToFormat@QImage@@QEHAA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\n?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 _TIFFMergeFields
 _TIFFSetupFields
@@ -1037,12 +780,6 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-`A^A][
-`A_A^A]A\_^]
-`A_A^_^]
-`A_][
-`A__]
 aoB>"
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -1050,32 +787,12 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
-at=<rt!<wt5L
 atan2
 bad allocation
 bad array new length
 bsearch
-className
 custom tag binary object
-d u%H9
-d$0Lcd$XL
-d$HLcd$hL
-d$PE3
-d$PfD
-d$puxH
-d$xE3
-debug
-f9Ghu1H
-f9GhuCH
-f9U@r!H
-f9sru4
-f;Crr
-f;Crs#
-fD9 t
-fD9Aj
-fD9Kh
-fD9MHt
-ffffff
+f\n?copy@QImage@@QEBA?AV1@AEBVQRect@@@Z
 floating point predictor 
 floor
 for "StripByteCounts" array
@@ -1086,24 +803,14 @@ for chopped "StripOffsets" array
 for field buffer.
 for fields array
 for strip array
+free
 gtStripSeparate
 gtTileSeparate
-hA_A^][
-hA__^[
 horizontal differencing 
-image/tiff
 incorrect count for field "%s", expected %d, got %d
 incorrect count for field "%s", expected 2, got %d
 initCIELabConversion
 initYCbCrConversion
-l$ Hcl$PH
-l$ VH
-l$(fD
-l$0H9
-l$@H9
-l$HA_A^A\_^
-l$H~*E
-l$PH9
 malloc
 memcmp
 memcpy
@@ -1112,16 +819,16 @@ memset
 min-is-black
 min-is-white
 must be either LogLUV or LogL
+n$Kx
 none 
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
-pA_A^A]A\_^]
 palette color (RGB from colormap)
 pseudo-
 qsort
 qt_plugin_instance
 qt_plugin_query_metadata
 qtiff.dll
+r\f?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
+rand
 realloc
 row 0 bottom, col 0 lhs
 row 0 bottom, col 0 rhs
@@ -1131,55 +838,22 @@ row 0 rhs, col 0 bottom
 row 0 rhs, col 0 top
 row 0 top, col 0 lhs
 row 0 top, col 0 rhs
-s&fff
 scanline
 separated
+sqrt
 strcmp
 stride %lu is not a multiple of sample count, %lu, data truncated.
 strip
 strips
 strncmp
-t#D9o
-t$ AVH
-t$ A_][
-t$ Hct$HH
-t$ Hct$HL
-t$ Hct$PH
-t$ UWATAVAWH
-t$ WATAUAVAWH
-t$ WAVA
-t$ WH
-t$(A]_][
-t$(Hct$XL
-t$(Lct$HH
-t$0A^_
-t$0Hct$PL
-t$0Lct$HH
-t$0Lct$XL
-t$8Lct$XLc
-t$@E3
-t$@H;
-t$@Ic
-t$XE3
-t$hD;
-t$xD;
-tCs"3
-tMf9wjH
-t_D;@
+tiff
+tile
 tiles
-tlD9sxu
 to read TIFF directory
 transparency mask
-u6HcC
 uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 unknown tagname
-vHfff
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-version
-w%th=
-w4t<=B
-xA__][
-x^j=|
 z_deflate
 z_deflateEnd
 z_deflateInit_
@@ -1190,19 +864,3 @@ z_inflateEnd
 z_inflateInit_
 z_inflateReset
 z_inflateSync
-|$ ATAVAWH
-|$ AUAVAWH
-|$ AVAW
-|$ AVH
-|$ UATAUAVAWH
-|$(A^
-|$(J+
-|$0A_A^
-|$HE3
-|$PuM
-}JD	D
-}MfD	DE
-~!LcC
-~%fff
-~Efff
-~Gfff

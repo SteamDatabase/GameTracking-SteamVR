@@ -1,11 +1,8 @@
-	/	6	=	
-	DI+d
  2018
  Moved to NetworkMigrationManager
  moved to NetworkMigrationManager
 !Moved to NetworkMigrationManager.
 !ReadReference is now used instead
-!This program cannot be run in DOS mode.
 "Network/NetworkTransformVisualizer
 "com.unity.multiplayer-hlapi.Editor
 #Blob
@@ -19,21 +16,44 @@ $87035389-1bb3-40e2-b2a9-c8707e7419ba
 'UnityEngine.Networking.NetworkTransform
 'com.unity.multiplayer-hlapi.EditorTests
 (KI+d
-+`	o<
++\nrfz
 +com.unity.multiplayer-hlapi.Editor-testable
 ,!ryh
-,O+4~
-.Mv	d
+,Csc
+,\nr4b
+,\nrGX
+,\nrLO
+,\nrLy
+,\nrN9
+,\nrRc
+,\nrSS
+,\nrWf
+,\nrdE
+,\nrg8
+,\nrhV
+,\nrte
+,\nrwT
+,\vrjW
+.Mv\td
 .cctor
 .ctor
-.text
 /The prefab to use for the visualization object.
+0bX*
+1&LN
 1.0.0.0
 1:I+E
+1\vr9#
+2)rF
+27i$
 2The maximum range that objects will be visible at.
+4B"0
+4J"2
+4M{\rQ
+4n"8
 5Enable to show the default lobby GUI for this player.
 6Enable to force this object to be hidden from players.
-8bX*r
+8CI+
+8bX*r\f
 <Module>
 <lastBufferedPerSecond>k__BackingField
 <numBufferedMsgsOut>k__BackingField
@@ -42,9 +62,9 @@ $87035389-1bb3-40e2-b2a9-c8707e7419ba
 <numBytesOut>k__BackingField
 <numMsgsIn>k__BackingField
 <numMsgsOut>k__BackingField
-=;% ;
 =ZX}q
-@.reloc
+AI+E
+AX(N
 ActivateLocalClientScene
 Activator
 AddChannel
@@ -103,6 +123,8 @@ AxisXZ
 AxisY
 AxisYZ
 AxisZ
+BI+E
+BSJB
 BasicResponseDelegate
 BecomeHost
 BecomeHostInternal
@@ -184,6 +206,7 @@ Coroutine
 CreateInstance
 CreateLineMaterial
 CreateMatch
+DQ5$
 DataResponseDelegate`1
 DebugString
 DebuggableAttribute
@@ -207,20 +230,25 @@ Dispose
 DoesEndPointUsePlatformProtocols
 DotNetCompatibility
 DrawRotationInterpolation
+Dump
 DumpAllClientObjects
 DumpInvokers
+EI+E
 EditorBrowsableAttribute
 EditorBrowsableState
 EmptyMessage
 EndGetHostAddresses
 EndInvoke
 Enqueue
+Enum
 Equals
 Euler
 ExecuteInEditMode
 ExtensionAttribute
 ExternalException
+FI+E
 FilterLevel
+Find
 FindConnection
 FindLocalObject
 FindNewHost
@@ -238,6 +266,7 @@ FlushChannels
 ForceAuthority
 ForceSceneId
 FreePacket
+GI+E
 GQI+E
 GenerateConnectError
 GenerateDataError
@@ -336,6 +365,7 @@ HashSet`1
 HexToNumber
 HideFlags
 HideForConnection
+High
 IAsyncResult
 ICollection`1
 IDisposable
@@ -349,8 +379,10 @@ IList`1
 INetworkTransport
 IPAddress
 IPEndPoint
+Icg%
 IndexOf
 IndexOutOfRangeException
+Init
 Initialize
 InitializeBehaviour
 InitializeSingleton
@@ -399,15 +431,18 @@ IsSequencedQoS
 IsSubclassOf
 IsValidIpV6
 IsVolatile
+Item
+J\tXT
 JoinMatch
 KeyCode
 KeyCollection
 KeyValuePair`2
-L/I+]
+LI+d
 LLAPIMsg
 LThe high level API classes are deprecated and will be removed in the future.
 Label
 LateUpdate
+Lerp
 ListMatches
 LoadSceneAsync
 LoadSceneMode
@@ -427,8 +462,10 @@ LogWarning
 LogWarningFormat
 LostHostOnClient
 LostHostOnHost
+MSH\r
 MarkForReset
 MatchInfoSnapshot
+Math
 Mathf
 MaxMessageSize
 MaxPendingBuffers
@@ -440,6 +477,7 @@ MethodInfo
 MissingReferenceException
 Monitor
 MonoBehaviour
+Move
 MoveNext
 MovePosition
 MoveRotation
@@ -634,17 +672,19 @@ PendingOwner
 PendingPlayerInfo
 Physics
 Physics2D
-Physics2D uses 2D physics to determine proximity.
 Physics3D
-Physics3D uses 3D physics to determine proximity.
+Play
 PostInternalMessage
 PreStartClient
 PrepareForConnect
 PrepareToSpawnSceneObjects
 ProcessInternalMessages
+Push
+QJi$
 QosType
 QueuePacket
 Queue`1
+RSDS
 Random
 ReadAngle
 ReadBoolean
@@ -740,7 +780,9 @@ RuntimeCompatibilityAttribute
 RuntimeInitializeOnLoadMethodAttribute
 RuntimePlatform
 RuntimeTypeHandle
+S!za
 SHA256
+SI+E
 SceneChangeOption
 SceneManager
 SeekZero
@@ -856,6 +898,7 @@ StartMatchMaker
 StartMessage
 StartsWith
 StayInOnlineScene
+Stop
 StopBroadcast
 StopBroadcastDiscovery
 StopMatchMaker
@@ -896,6 +939,7 @@ System.Runtime.CompilerServices
 System.Runtime.InteropServices
 System.Text
 System.Threading
+TMsg
 TargetRpcAttribute
 TextField
 ToArray
@@ -969,7 +1013,7 @@ ValueType
 VerifyCanSpawn
 VerifySerializeComponentExists
 Vertex3
-Which method to use for checking proximity of players.
+Which method to use for checking proximity of players.\n\nPhysics3D uses 3D physics to determine proximity.\n\nPhysics2D uses 2D physics to determine proximity.
 WrapNonExceptionThrows
 Write
 WriteAngle
@@ -986,15 +1030,21 @@ WriteInstance
 WritePackedUInt32
 WritePackedUInt64
 WriteParameters
-X^I+]
+X\v8R
 YHow often (in seconds) that this object should update the set of players that can see it.
 YqH >
 [KI+d
+\n'\n4\n;\nX\n^\np\n
+\n*ZrH
+\nrPD
+\nrQm
+\nrSn
+\nreA
+\nrkm
+\nrkn
+\r*\r2\r>\ru\r~\r
+\tDI+d
 _CorDllMain
-_b`}O
-_bf_}O
-`.rsrc
-`;< 8
 add_sceneLoaded
 allowNonZeroNetId
 angle
@@ -1002,6 +1052,8 @@ array
 authority
 authorityState
 autoSend
+bX*r
+bX\tn
 buffer
 bufferSize
 bytes
@@ -1017,19 +1069,23 @@ cmdName
 com.unity.multiplayer-hlapi.Runtime
 com.unity.multiplayer-hlapi.Runtime.dll
 compression
+conf
 config
+conn
 connId
 connectionId
 contextObj
 count
 current
 dZXk"
+data
 decimalValue
 destroyServerObject
 dirtyBit
 disposing
 doubleValue
 dstNode
+eI+E
 endPoint
 error
 errorCode
@@ -1038,6 +1094,7 @@ extendedInfo
 externalClient
 extraMessage
 extraMessageReader
+f7i$
 fieldValue
 floatValue
 forceAll
@@ -1045,6 +1102,7 @@ forceHidden
 forceReload
 fragmentBuffer
 fromAddress
+func
 gameObjectField
 gamePlayer
 generateConnectMsg
@@ -1302,8 +1360,13 @@ get_zero
 hUnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 handler
 hasMigrationPending
+hash
+hook
 https
+i2B(
+ij13
 index
+info
 initial
 initialState
 initialize
@@ -1322,9 +1385,12 @@ isReliable
 isSequenced
 isServerFlag
 isYou
+item
 itemIndex
 items
-k$	"$
+jCm%
+jYZX
+kI+E
 kMaxLocalPlayers
 k_BufferSizeWarning
 k_DefaultSendInterval
@@ -1572,6 +1638,7 @@ maxPacketSize
 maxTimeout
 method
 minTimeout
+mode
 mscoree.dll
 mscorlib
 msgData
@@ -1599,15 +1666,18 @@ newPlayerControllerId
 newReconnectId
 newSceneId
 newSceneName
+node
 numBufferedMsgs
 numBytes
 numMsgs
+oI+E
 object
 offset
 oldClient
 oldConnectionId
 oldObject
 oldPlayer
+oni$
 op_Addition
 op_Division
 op_Equality
@@ -1617,7 +1687,6 @@ op_Multiply
 op_Subtraction
 option
 other
-p[I+]
 packet
 packetLoss
 packetSize
@@ -1637,6 +1706,7 @@ playerIds
 players
 prefab
 prefix
+pt W
 q5I+d
 reader
 readingFragment
@@ -1703,6 +1773,7 @@ s_StringWriteBuffer
 s_Sync
 s_UnspawnHandlers
 s_UpdateWriter
+sax%
 scene
 sceneChange
 sceneName
@@ -1814,6 +1885,7 @@ set_visualizerPrefab
 set_waitingReconnectToNewHost
 set_waitingToBecomeNewHost
 set_y
+size
 slotId
 source
 sourceId
@@ -1829,6 +1901,7 @@ targetConnection
 targetOffset
 targets
 teleport
+text
 timeout
 topology
 triggerName
@@ -1836,6 +1909,7 @@ unetView
 unspawnHandler
 usePlatformSpecificProtocols
 v4.0.30319
+vMI+
 value
 value0
 value1
@@ -1846,10 +1920,9 @@ value5
 value6
 value7
 value__
+view
 visRange
 visUpdateInterval
 writer
 xBI+E
 youAreNewHost
-z;/ 5
-zm_!"

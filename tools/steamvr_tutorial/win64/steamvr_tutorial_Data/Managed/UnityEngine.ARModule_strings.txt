@@ -4,7 +4,6 @@
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
 !Modules/AR/Tango/TangoScriptApi.h
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -53,15 +52,14 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <Module>
-@.reloc
 ARBackgroundRenderer
 ARRenderMode
 ARScriptingClasses.h
 Action
 AddCommandBuffer
 Assembly-CSharp-testable
+Blit
 BuiltinRenderTextureType
 CameraEvent
 Combine
@@ -75,6 +73,7 @@ DebuggingModes
 Delegate
 DisableARBackgroundRendering
 EnableARBackgroundRendering
+Enum
 Exception
 GetTexture
 GoogleAR.UnityNative
@@ -93,6 +92,7 @@ PLATFORM_ANDROID
 PoseData
 PoseStatus
 Quaternion
+RSDS
 ReapplyCommandBuffersIfNeeded
 Remove
 RemoveCommandBuffer
@@ -113,7 +113,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -200,8 +199,9 @@ Valid
 ValueType
 Vector3
 WrapNonExceptionThrows
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 add_backgroundRendererChanged
 get_backgroundMaterial
 get_backgroundTexture
@@ -226,6 +226,7 @@ orientation_w
 orientation_x
 orientation_y
 orientation_z
+pose
 remove_backgroundRendererChanged
 set_backgroundMaterial
 set_backgroundTexture

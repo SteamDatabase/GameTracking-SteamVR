@@ -1,58 +1,33 @@
-	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 'L>[
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\^
- A_A^A]A\_
- A_A^_
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
- H3E H3E
  Type Descriptor'
  delete
  delete[]
- new[]
- t?D9
- tDE3
- vJH+
-!,X< w
-!>6'Y
-!This program cannot be run in DOS mode.
-%s:AITROMAPI_OpenDevice() is failed!!
-%s:CoCreateInstance(hr=0x%x) is failed!!
-%s:CoGetMalloc() is failed!!
-%s:CreateClassEnumerator(hr=0x%x) is failed. Couldn't create class enumerator!!
-%s:Handle is NULL
-%s:get_NumNodes(result:0x%x) is failed!!
-%s:new AitDeviceConfig is failed!!
-%s:pClassEnum is NULL. No video capture device was detected!!
-%s:pDevHandle is NULL
-%s:pFilter is NULL!!
-%s:pHandle is NULL
-%s:pKsInfo is NULL!!
-%s:pMoniker->GetDisplayName() is failed!!
+ new
+%s:AITROMAPI_OpenDevice() is failed!!\n
+%s:CoCreateInstance(hr=0x%x) is failed!!\n
+%s:CoGetMalloc() is failed!!\n
+%s:CreateClassEnumerator(hr=0x%x) is failed. Couldn't create class enumerator!!\n
+%s:Handle is NULL\n
+%s:get_NumNodes(result:0x%x) is failed!!\n
+%s:new AitDeviceConfig is failed!!\n
+%s:pClassEnum is NULL. No video capture device was detected!!\n
+%s:pDevHandle is NULL\n
+%s:pFilter is NULL!!\n
+%s:pHandle is NULL\n
+%s:pKsInfo is NULL!!\n
+%s:pMoniker->GetDisplayName() is failed!!\n
 %s\ait_setting.ini
-'D8l$@
+&Sgw
 ( 8PX
 ('8PW
 (null)
-(t$PH
-(t$pH
-)>6{1n
-)t$pH
 *StO9>T
-+ !4, !
-+M<7>
-+f)>0'
-+h->|
-,/<-w
-,I<%w
 .00cfg
 .?AVAitRomBootConfig@@
 .?AVUsbScsiCmd@@
@@ -78,6 +53,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -93,56 +69,39 @@
 .rdata$T
 .rdata$r
 .rdata$zzzdbg
-.reloc
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xJ>Hf
 .xdata
 .xdata$x
-/>58d%
-0A^_^
-0A_A^A\
-0A_A^A]
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^_
-0A_A^_^]
 0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1<.	/>:
+11Y@
+37>k
 3>N;kU
 3>fvw
 700PP
 700WP
-80tWD
-8A_A^A]A\_^][
-8_^][
-9X@u4
-9t$Xt
-;=u~H
-;H9>&X
 ;Hfind_node_by_guid
-<	w	@
-< t;<	t7
-<htr<jtb<lt6<tt&<wt
+=87M
+=cQ6
 =imb;D
+>cQ6
 >jtm}S
-?*u8H
 ?7zQ6$
-?:kP<
 ?AITROMAPI_BurnFw@@YAJPEAXPEBDPEAI@Z
 ?AITROMAPI_BurnPcCamFw@@YAJPEAXPEBDPEAI@Z
 ?AITROMAPI_BurnPcCamFwPnsV2@@YAJPEAXPEBDPEAI@Z
@@ -169,42 +128,11 @@
 ?AITROMAPI_SwitchModePCAM_SPI_NAND@@YAJPEAXE@Z
 ?AITROMAPI_UpdateLinuxFwPkg@@YAJPEAXPEBDII@Z
 ?AITROMAPI_UpdateLinuxFwPkg_@@YAJPEAXPEBDI@Z
-?H33H
-?QY^&
 ?UUUUUU
 ?f`Y4
-@.data
-@.gfids
-@.tls
-@8|$^t
-@>%>b
-@A^_^
-@A_A^A\
-@A_A^A]A\_
-@A_A^_
-@SUVH
-@SUVWATAUAVAWH
-@SVAVH
-@SVWATAUAVAWH
-@SVWH
-@UATAUAVAWH
-@UATAVH
-@UAVH
-@USATAUAVAWH
-@USVWATAUAVAWH
-@UVATH
-@UVWH
-@VAUH
-@VAVH
-@VAWH
-@WAVH
-@b;zO]
-A81t@@8r
-A84.u
-A86taH
+?qBJ
+?ysB
 A>pP&
-AA,A$
-AA<Fu
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AITAPI_CloseBootloader
 AITAPI_CloseDevice
@@ -221,44 +149,22 @@ AITAPI_SetAudioSource
 AITAPI_SuspendPreview
 AITAPI_UpdateFW_842x
 AITAPI_UpdateFwBootloader
-AITROMAPI_LoadUpdater(hr:0x%lx) is failed!!
-AITROMAPI_PartialUpdate(hr:0x%lx) is failed!!
-AITROMAPI_ResetSystem(hr:0x%lx) is failed!!
-AITROMAPI_SwitchModePCAM_SF(hr:0x%lx) is failed!!
-AITROMAPI_UpdateLinuxFwPkg_ file error.
-ATAVAWH
-AUAVAWH
-A^A\]
-A^_^[]
-A^_^][
-A_A\_^]
-A_A^A\
-A_A^A\_]
-A_A^A\_^
-A_A^A]A\[]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^_^]
-Adr=0x%X, Len=0x%X Flag=0x%X
+AITROMAPI_LoadUpdater(hr:0x%lx) is failed!!\n
+AITROMAPI_PartialUpdate(hr:0x%lx) is failed!!\n
+AITROMAPI_ResetSystem(hr:0x%lx) is failed!!\n
+AITROMAPI_SwitchModePCAM_SF(hr:0x%lx) is failed!!\n
+AITROMAPI_UpdateLinuxFwPkg_ file error.\r\n
+Adr=0x%X, Len=0x%X Flag=0x%X\r\n
 April
 AreFileApisANSI
 August
-AuthE
-B(I9A(
-B.rsrc
-B8|09
-BC?>6t9^	c:>
+BC?>6t9^\tc:>
 BF>^G
-C8<(u
-CA< t(<#t
-CD$pD
 CameraFirmwareUpgradeDLL.dll
-Cannot CloseDeivce()!!
-Cannot OpenDeivce()!!
+Cannot CloseDeivce()!!\n
+Cannot OpenDeivce()!!\n
 CheckXU
-ChkSum=0x%X
+ChkSum=0x%X\r\n
 CloseHandle
 CoCreateInstance
 CoGetMalloc
@@ -268,72 +174,22 @@ CorExitProcess
 CreateEventW
 CreateFileA
 CreateFileW
-D$ E3
-D$(H;
-D$0A;
-D$0E3
-D$0H;
-D$0H;G
-D$0HcH
-D$3!H
-D$49C
-D$8A;
-D$8E3
-D$8H=
-D$8L9
-D$<E3
-D$@H+
-D$@H;
-D$@H;G
-D$HE3
-D$P I
-D$PA#
-D$PH+
-D$PHc
-D$PHcX H
-D$PI;
-D$`E3
-D$`H;
-D$`Hc
-D$x$H
-D(8Ht}
-D08@t	
-D18 t
-D82u&H
-D88Ht!
-D88Hte
-D8d$H
-D8d$Ht
-D8d$ht
-D8d$pt
-D8l$@t
-D8l$ht
-D8t$Ht
-D98Ht;H
-D9c t
-D9|$ 
-D;-z~
-D<P0I
-DD$$H
 December
 DeleteCriticalSection
 DeviceIoControl
 DevicePid
 DeviceVid
-E'H;G
-E+BHI
-E0HcH
-E0Lcx
-EP*?@
+ET5>
 EncodePointer
 EnterCriticalSection
 ExitProcess
-Failed to create destination file.
-Failed to select storage type -> AIT_STORAGE_EMMC.
-Failed to select storage type -> AIT_STORAGE_PCAM_DRAM.
-Failed to select storage type -> AIT_STORAGE_PCAM_SF.
-Failed to select storage type -> AIT_STORAGE_SPI_NAND.
-Failed to transfer data to device.
+FEMh\f
+Failed to create destination file.\r\n
+Failed to select storage type -> AIT_STORAGE_EMMC.\r\n
+Failed to select storage type -> AIT_STORAGE_PCAM_DRAM.\r\n
+Failed to select storage type -> AIT_STORAGE_PCAM_SF.\r\n
+Failed to select storage type -> AIT_STORAGE_SPI_NAND.\r\n
+Failed to transfer data to device.\r\n
 February
 FindClose
 FindFirstFileExA
@@ -347,8 +203,6 @@ FormatMessageA
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G0Hc	H
-Genu3
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -374,24 +228,11 @@ GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
 GetSystemTimePreciseAsFileTime
-H!D$ E
-H!T$0D
-H9\$@u$H
-H;XXs
-H;xXu9
-HA_A]A\_^[
 HH:mm:ss
-HcC H
-HcG(H
-HcH<H
-HcK H
-Hc]`M
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-Ht)I;
-I9}(t9H
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
@@ -401,61 +242,27 @@ IsBootloaderMode
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
-J;D10t	H
+J\rr3u
 January
-K&>.yC
+July
+June
 KERNEL32.dll
-K~Je#>!
-L!|$(L!
-L$ E3
-L$ SUVWH
-L$ SVWH
-L$ UVWATAUAVAWH
-L$ WATAUAVAWH
-L$ WH
-L$&@8t$&t0@8q
-L$0)y
-L$0E3
-L$0H;
-L$0Hc
-L$8H3
-L$8Lc
-L$@;|
-L$@E3
-L$@H3
-L$DE3
-L$HH3
-L$PE3
-L$PH3
-L$XE3
-L$`E3
-L$pH3
-L$xE3
-L(:A:
-L(;A:
-L(;E:
-L(<A:
-L9*u&
-L9`8tA
+L>ev
 LCMapStringEx
 LCMapStringW
-LcA<E3
 LeaveCriticalSection
-Lj[;>
 LoadLibraryExW
 LocalFree
 LocaleNameToLCID
-Long jump command failed.
-M H1E
+Long jump command failed.\r\n
 MM/dd/yy
 March
 Monday
 MultiByteToWideChar
-N0Hci
 NAN(IND)
 NAN(SNAN)
 November
-O0HcQ
+OZQ%
 October
 OpenDevice
 OutputDebugStringA
@@ -471,18 +278,14 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S,, <Zw
+S9>H
 SHLWAPI.dll
-SUVWATAUAVAWH
-SUVWAVH
-SVWATAUAVAWH
-SVWATAUAWH
 Saturday
-Select storage type 'AIT_STORAGE_SPI_NAND'
-SendScsiCmdIIn Failed, Erroe=0x%X %s
-SendScsiCmdIOut Failed, Erroe=0x%X %s
+Select storage type 'AIT_STORAGE_SPI_NAND'\r\n
+SendScsiCmdIIn Failed, Erroe=0x%X %s\r\n
+SendScsiCmdIOut Failed, Erroe=0x%X %s\r\n
 September
-Set addr div = 1
+Set addr div = 1\r\n
 SetEndOfFile
 SetFilePointerEx
 SetLastError
@@ -490,11 +293,8 @@ SetStdHandle
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-Storage Address Divider=0x%X 
+Storage Address Divider=0x%X \r\n
 Sunday
-T$ A;
-T$PD+
-T$PE3
 TUUUU
 TerminateProcess
 Thursday
@@ -503,50 +303,23 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Tuesday
-UATAUAVAWH
-USVWAVH
 UTF-16LEUNICODE
 UTF-8
 UUUUUU
-UVWATAUAVAW
-UVWATAUAVAWH
-UVWATAWH
-UVWAVAWH
-UWAVH
 UnhandledExceptionFilter
 Unknown exception
-Usb transfer failed
-V2BCf
-V2FWf
-V6E>`"(5
-VATAUAVAWH
-VSN2A
-VSN_H
+Usb transfer failed\r\n
 VSN_V3BC
 VSN_V3FW
-VWATAVAW
-VWATAVAWH
-VWAVH
-WATAUAVAWH
-WAVAWH
-WD8l$@t
 WakeAllConditionVariable
 Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
+X/4B
 [aOni*{
-\$ E3
-\$ H;
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ WH
-\$0H;
-\$@@8=
-\$@H;
-\\.\F:
+\tcQr
+\tkE>fvw
 ^<V7w
 __based(
 __cdecl
@@ -560,9 +333,6 @@ __stdcall
 __thiscall
 __unaligned
 __vectorcall
-`.rdata
-`A^^[
-`A_A^A]A\_^]
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -573,7 +343,6 @@ __vectorcall
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -604,102 +373,34 @@ abcdefghijklmnopqrstuvwxyz
 bad allocation
 bad array new length
 bad exception
-bp(=>?g
-c [1>H'
-c(>\,
-cAMDD
+d8L2
 dddd, MMMM dd, yyyy
 e+000
-e0A_A^A]A\]
+eF>t
 eLK(w
-entiA
-fD9*u
-fD90t
-fD94Fu
-fD96u
-fD9t$b
-fF9,Bu
-ffffff
-fffffff
-fopen(%s) is failed!!
-fread():a:%ld is failed!!
+fopen(%s) is failed!!\n
+fread():a:%ld is failed!!\n
 getLibVersion
-gfffA
-gfffffffH
-ineIA
+h0'D
 invalid string position
-iu+-,
-l$ E3
-l$ VWATAVAWH
-l$ WAVAWH
-l$PE3
+k=yI
 log10
-malloc() is failed!!
+mG4>
+m\nXo
+malloc() is failed!!\n
 n03>Pu
 nan(ind)
 nan(snan)
-ntelE
 obwQ4
 ole32.dll
 operator
 operator "" 
-ot$ H
-p AWH
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-r	Vr.>T
-r 9_ t
-r:D8v
+owM&
+r\tVr.>T
 restrict(
-ri9V vdH
-s WAVAWH
-s4+sP+
-stfE;
-stgE;
 string too long
-t"<.u
-t$ E3
-t$ UH
-t$ UWATAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$(I;
-t$8H+
-t)D8l$@t
-t4McF
-t7HcF
-tCHcP
-tXLcQ
-ttIcF
-u3HcH<H
-uf!T$(H!T$ 
 uzKs@>
 v2!L.2
 vid_%.4x&pid_%.4x
-x ATAVAWH
-x AV3
-x AVH
-x AWH
 xpxxxx
 xwpwpp
-yBNu'
-y\PD>!
-|$ ATAVAWH
-|$ AVH
-|$ D!
-|$ E3
-|$ UATAUAVAWH
-|$ UH
-|$(A^
-|$(I;
-|$0s-
-|$8;3
-|$@-D
-|$@-H
-|$@H;
-|$\.u
-|$`Ic
-|b=})>
-~ $s%r

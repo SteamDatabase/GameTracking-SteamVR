@@ -1,11 +1,9 @@
-	Inherited
  Unity.IntegrationTests.Framework
  UnityEngine.CrashReportingModule
  UnityEngine.FileSystemHttpModule
  UnityEngine.ParticleSystemModule
  UnityEngine.TerrainPhysicsModule
  UnityEngine.UnityAnalyticsModule
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -53,7 +51,6 @@ $UnityEngine.UnityWebRequestWWWModule
 ,UnityEngine.UnityWebRequestAssetBundleModule
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
 <CodegenOptions>k__BackingField
 <Condition>k__BackingField
 <Declaration>k__BackingField
@@ -77,9 +74,7 @@ $UnityEngine.UnityWebRequestWWWModule
 <WritableSelf>k__BackingField
 <otherExtensions>k__BackingField
 <preferredExtension>k__BackingField
-@.reloc
 Align
-AllowMultiple
 ArgumentException
 ArgumentNullException
 Arrow
@@ -88,6 +83,8 @@ Assembly-CSharp-testable
 AssetFileNameExtensionAttribute
 AttributeTargets
 AttributeUsageAttribute
+Auto
+BSJB
 CompilerGeneratedAttribute
 Concat
 CultureInfo
@@ -97,6 +94,7 @@ DebuggerBrowsableAttribute
 DebuggerBrowsableState
 DebuggingModes
 DoubleColon
+Enum
 Force
 FreeFunctionAttribute
 GeneratedByOldBindingsGeneratorAttribute
@@ -148,7 +146,6 @@ Unity.2D.Sprite.Editor
 Unity.2D.Sprite.EditorTests
 Unity.Analytics
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.DeploymentTests.Services
 Unity.IntegrationTests
@@ -228,8 +225,12 @@ UsedByNativeCodeAttribute
 VisibleToOtherModulesAttribute
 WrapNonExceptionThrows
 WritableAttribute
+\rAllowMultiple
+\tInherited
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
+args
 codegenOptions
 condition
 declaration
@@ -267,6 +268,7 @@ marshalAsType
 modules
 mscoree.dll
 mscorlib
+name
 op_Equality
 optional
 qualifiedCppName
@@ -294,6 +296,7 @@ stubReturnStatement
 targetType
 throws
 throwsException
+type
 v2.0.50727
 value
 value__

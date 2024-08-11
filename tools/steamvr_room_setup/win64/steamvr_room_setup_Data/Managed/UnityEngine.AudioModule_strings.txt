@@ -1,6 +1,3 @@
-	AudioClip
-	LengthSec
-	StereoPan
  Modules/Audio/Public/AudioClip.h
  Unity.IntegrationTests.Framework
  UnityEngine.CrashReportingModule
@@ -10,7 +7,6 @@
  UnityEngine.UnityAnalyticsModule
 !Runtime/Director/Core/HPlayable.h
 !Runtime/Video/BaseWebCamTexture.h
-!This program cannot be run in DOS mode.
 !Unity.InternalAPIEngineBridge.001
 !Unity.InternalAPIEngineBridge.002
 !Unity.InternalAPIEngineBridge.003
@@ -65,7 +61,7 @@ $UnityEngine.UnityWebRequestWWWModule
 .Raw speaker mode is not supported. Do not use.
 .Unity.PerformanceTests.RuntimeTestRunner.Tests
 .ctor
-.text
+1.0F
 1Modules/Audio/Public/Director/AudioClipPlayable.h
 2Modules/Audio/Public/Director/AudioMixerPlayable.h
 2Warning! roomRolloffFactor is no longer supported.
@@ -82,7 +78,6 @@ $UnityEngine.UnityWebRequestWWWModule
 <owner>k__BackingField
 <sampleRate>k__BackingField
 <trackIndex>k__BackingField
-@.reloc
 @Modules/Audio/Public/ScriptBindings/AudioClipPlayable.bindings.h
 AModules/Audio/Public/ScriptBindings/AudioMixerPlayable.bindings.h
 ATRAC9
@@ -139,6 +134,7 @@ AudioSourceExtensionsInternal
 AudioSpeakerMode
 AudioVelocityUpdateMode
 Auditorium
+Auto
 BModules/Audio/Public/ScriptBindings/AudioClipExtensions.bindings.h
 BModules/Audio/Public/ScriptBindings/AudioPlayableOutput.bindings.h
 Bathroom
@@ -147,7 +143,8 @@ Blackman
 BlackmanHarris
 CallingConvention
 CarpetedHallway
-ChannelCount
+Cave
+City
 ClearFloat
 Color
 Color32
@@ -186,6 +183,7 @@ EditorBrowsableAttribute
 EditorBrowsableState
 EndInvoke
 EndRecord
+Enum
 Equals
 ExcludeFromDocsAttribute
 ExcludeFromObjectFactoryAttribute
@@ -212,7 +210,6 @@ GetCustomCurve
 GetCustomCurveHelper
 GetCustomLowpassLevelCurveCopy
 GetDSPBufferSize
-GetDSPTimeT
 GetData
 GetDelegateForFunctionPointer
 GetDeviceCaps
@@ -329,10 +326,8 @@ IsPlayableOutputOfType
 IsPlaying
 IsPlayingScripting
 IsRecording
-IsThreadSafe
 KModules/Audio/Public/ScriptBindings/AudioPlayableGraphExtensions.bindings.h
 Linear
-ListenerPause
 Livingroom
 LoadAudioData
 Loaded
@@ -345,11 +340,14 @@ Marshal
 Microphone
 Mode5point1
 Mode7point1
+Mono
 Mountains
 MovieTexture
 MulticastDelegate
+Name
 Name0AudioSettings::GetCurrentAmbisonicDefinitionNameT
 Name<AudioLowPassFilterBindings::SetCustomLowpassLevelCurveHelperT
+Name\nGetDSPTimeT
 NativeArrayUnsafeUtility
 NativeArray`1
 NativeHeaderAttribute
@@ -377,8 +375,8 @@ PlayableHandle
 PlayableOutputHandle
 Prologic
 Psychotic
+Quad
 Quarry
-ReadyToPlay
 Rectangular
 RegisterSampleProvider
 RequireComponent
@@ -388,13 +386,12 @@ Resolution
 ReverbZoneMix
 RmaxVolume is not supported anymore. Use min-, maxDistance and rolloffMode instead.
 RminVolume is not supported anymore. Use min-, maxDistance and rolloffMode instead.
+Room
 RuntimeCompatibilityAttribute
 RuntimeTypeHandle
-SampleCount
 SampleFramesEventNativeFunction
 SampleFramesHandler
 SamplePosition
-SecPosition
 SetAmbisonicDecoderFloat
 SetClip
 SetClipInternal
@@ -465,7 +462,6 @@ Unity.Audio.DSPGraph
 Unity.Audio.DSPGraph.Tests
 Unity.Audio.Tests
 Unity.Automation
-Unity.Burst
 Unity.Burst.Editor
 Unity.Collections
 Unity.Collections.LowLevel.Unsafe
@@ -552,6 +548,7 @@ UnregisterSampleProvider
 UnscaledTime
 UnverifiableCodeAttribute
 UsedByNativeCodeAttribute
+User
 ValidateType
 ValueType
 Vector2
@@ -566,8 +563,18 @@ WideAngle
 WrapNonExceptionThrows
 WritableAttribute
 [Use AudioClip.loadState instead to get more detailed information about the loading process.
+\fChannelCount
+\fIsThreadSafe
+\rListenerPause
+\tAudioClip
+\tLengthSec
+\tStereoPan
+\vReadyToPlay
+\vSampleCount
+\vSecPosition
+\vUnity.Burst
+\vUnityEngine
 _CorDllMain
-`.rsrc
 add_OnAudioConfigurationChanged
 add_m_PCMReaderCallback
 add_m_PCMSetPositionCallback
@@ -584,6 +591,7 @@ colors
 config
 curve
 dUnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+data
 deviceID
 deviceWasChanged
 droppedSampleFrameCount
@@ -726,10 +734,12 @@ index
 inputCount
 interleavedSampleFrames
 jGetOutputData returning a float[] is deprecated, use GetOutputData and pass a pre allocated array instead.
+le(W
 lengthSamples
 lengthSec
 looped
 looping
+m b\rq
 m_ConsumeSampleFramesNativeFunction
 m_DepthCameraName
 m_Flags
@@ -745,7 +755,9 @@ mixerGroup
 mscoree.dll
 mscorlib
 nGetSpectrumData returning a float[] is deprecated, use GetSpectrumData and pass a pre allocated array instead.
+n\rb\rq
 normalizeInputVolumes
+null
 numBuffers
 numRealVoices
 numSamples
@@ -776,6 +788,7 @@ sampleFrameCount
 sampleFrames
 samplesOffset
 scriptingDevice
+self
 set_HFReference
 set_LFReference
 set_autoFocusPoint
@@ -873,6 +886,7 @@ subPath
 target
 timeToReach
 trackIdx
+type
 userData
 v2.0.50727
 value

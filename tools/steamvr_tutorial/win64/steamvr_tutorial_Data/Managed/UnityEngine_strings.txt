@@ -1,11 +1,12 @@
-!This program cannot be run in DOS mode.
 #Blob
 #GUID
 #Strings
+'3tL
+(6tL
 .ctor
-.text
-3-']	
-9GQS	
+9GQS\t
+:3tL
+<KtL
 <Module>
 <layerCullDistances>e__FixedBuffer
 <m_Bits>e__FixedBuffer
@@ -14,8 +15,8 @@
 <m_LayerFarCullDistances>e__FixedBuffer
 <m_ShadowCullPlanes>e__FixedBuffer
 <shaderPassNames>e__FixedBuffer
-?5eU	
-@.reloc
+?5eU\t
+?CNA
 AIUpdate
 AIUpdatePostScript
 APIUpdaterRuntimeHelpers
@@ -172,6 +173,7 @@ AvatarMask
 AvatarMaskBodyPart
 AvatarTarget
 BMPAlloc
+BSJB
 BackgroundColorScope
 BaseFieldTraits`2
 BaseInvokableCall
@@ -227,7 +229,7 @@ BuoyancyEffector2D
 BurstCompilerService
 BurstDiscardAttribute
 C:\buildslave\unity\build\build\WindowsStandaloneSupport\Variations\win64_nondevelopment_mono\Data\Managed\UnityEngine.pdb
-CBQS	
+CBQS\t
 CacheIndex
 CachedAssetBundle
 CachedInvokableCall`1
@@ -503,6 +505,7 @@ EnabledOrientation
 EndGraphicsJobsAfterScriptLateUpdate
 EndGraphicsJobsAfterScriptUpdate
 EnlightenRuntimeUpdate
+Enum
 EnumInfo
 Eq9qY
 ErrorDelegate
@@ -557,6 +560,8 @@ ExtensionOfNativeClassAttribute
 ExternalForcesModule
 ExtractCompilerFlags
 EyeSide
+Eyes
+FCNA
 FFTWindow
 FaceInfo
 FailedToLoadScriptObject
@@ -689,11 +694,14 @@ GraphicsFormatUtility
 GraphicsJobsSyncPoint
 GraphicsSettings
 GraphicsTier
+Grid
 GridBrushBase
 GridLayout
 GroupScope
 Gyroscope
+HCN\t
 HDROutputSettings
+Halo
 HandFinger
 Handedness
 HapticCapabilities
@@ -773,6 +781,7 @@ IExposedPropertyTable
 IFocusEvent
 IFocusRing
 IHandle`1
+IJob
 IJobExtensions
 IJobFor
 IJobForExtensions
@@ -784,6 +793,7 @@ IJobParticleSystem
 IJobParticleSystemParallelFor
 IJobParticleSystemParallelForBatch
 IKeyboardEvent
+IKtL
 IL2CPPStructAlignmentAttribute
 ILeaderboard
 ILocalUser
@@ -941,6 +951,7 @@ LegacyAnimationUpdate
 LegacyFixedAnimationUpdate
 LengthUnit
 LensFlare
+Lerp
 LightBakingOutput
 LightDataGI
 LightEvent
@@ -1094,6 +1105,7 @@ MultipartFormFileSection
 MuscleHandle
 MustExtensions
 NPOTSupport
+NZ7\v
 NativeArrayDebugView`1
 NativeArrayOptions
 NativeArrayUnsafeUtility
@@ -1210,6 +1222,7 @@ OverflowClipBox
 OverflowInternal
 PCMReaderCallback
 PCMSetPositionCallback
+Page
 PageInfo
 PageStatistics
 PaintContext
@@ -1307,6 +1320,7 @@ PhysicsSkinnedClothFinishUpdate
 PhysicsUpdate
 PhysicsUpdateBehaviour2D
 PickingMode
+Ping
 PixelPerfectRendering
 Plane
 PlatformEffector2D
@@ -1412,6 +1426,7 @@ Quaternion
 QueryTriggerInteraction
 QueueMode
 RASSettings
+RSDS
 Random
 RangeAttribute
 RangeInt
@@ -1562,6 +1577,7 @@ ScrollWaitDefinitions
 Scroller
 SecondarySpriteTexture
 Security
+Seed
 Seed4
 SelectionBaseAttribute
 SelectionType
@@ -1836,6 +1852,7 @@ ThreadAndSerializationSafeAttribute
 ThreadPriority
 ThreadSafeAttribute
 ThreadedLoadingDebug
+Tile
 TileAnimationData
 TileBase
 TileCoord
@@ -1850,6 +1867,7 @@ TimeScope
 TimerEventScheduler
 TimerState
 Toggle
+Tool
 ToolAction
 ToolbarButtonSize
 TooltipAttribute
@@ -1877,6 +1895,7 @@ TransformSceneHandle
 TransformStreamHandle
 TransitionType
 TransparencySortMode
+Tree
 TreeInstance
 TreePrototype
 TreeView
@@ -2295,7 +2314,7 @@ XRSettings
 XRStats
 XRUpdate
 XmlTagAttribute
-YBCN	
+YBCN\t
 YogaAlign
 YogaBaselineFunc
 YogaConfig
@@ -2321,13 +2340,21 @@ YogaUnit
 YogaValue
 YogaValueExtensions
 YogaWrap
-_=^`	
+ZKtL
 _AndroidJNIHelper
 _CorDllMain
-`.rsrc
-`3']	
+b\vtL
+c]tL
+eOY\n)
+fL7\v
+iRY\n)
+iltL
+jr9s
 jvalue
 mscoree.dll
 mscorlib
+nf7\v
+q\vtL
+r<7\vq
 v2.0.50727
 value__

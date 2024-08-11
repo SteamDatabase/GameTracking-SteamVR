@@ -1,30 +1,3 @@
-						
-	&~G'
-	,		{
-	,"	oR
-	,$	oR
-	,&	o
-	,;	o
-	,A	o
-	,H	o
-	,M	u
-	,h	o'
-	-	sb
-	-6rGO
-	.VrO
-	:	<	N	P	U	X	d	f	p	
-	:	<	N	Q	U	X	d	f	p	
-	:	=	>	X	b	
-	Component
-	Inherited
-	MONOTOUCH
-	StartInfo
-	autoflush
-	compilers
-	enableSsl
-	extension
-	jYiY(C*
-	listeners
  !"#$%&'()*+,-./0123
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  &!'!*!,!.!/!
@@ -36,29 +9,18 @@
  The message of this event entry.
  The session ID for this process.
  True if operation was cancelled.
- ci(A 
-!)#+#
-!;!=!L!S!
-!?0m;
 !The base priority of this thread.
 !The category of this event entry.
 !The current state of this thread.
 !The time this thread was started.
-!This program cannot be run in DOS mode.
 !We don't support KeepAlive = true
 !alwaysUseCompletionPortsForAccept
-!e&& 
 !only support X509ContentType.Cert
-""X#W!
-",tO	
-"5-	9
 "An ID number for this event entry.
 "System.Diagnostics.ListenerElement
 "The priority level of this thread.
 "The total amount of CPU time used.
 "alwaysUseCompletionPortsForConnect
-"s%u%*"
-#.?~N
 #Always returns an empty collection.
 #Blob
 #GUID
@@ -69,17 +31,18 @@
 #System.ComponentModel.TypeConverter
 #The number of bytes that are paged.
 #Use MessageTable from PE for lookup
-$'$@$K$`$
 $00000103-0000-0000-C000-000000000046
 $0000010F-0000-0000-C000-000000000046
 $0000010e-0000-0000-C000-000000000046
+$5wn\v
 $73386977-D6FD-11D2-BED5-00C04F79E3AE
 $82840be1-d273-11d2-b94a-00600893b17a
 $Generation time of this event entry.
-$K*%,
 $System.Diagnostics.EventLogInstaller
 $The current priority of this thread.
 $no DefaultCredential support in Mono
+$rCa
+%308
 %A description describing the counter.
 %Count = {Count}, Type = {_collection}
 %Occurs when the Interval has elapsed.
@@ -87,16 +50,9 @@ $no DefaultCredential support in Mono
 %Standard input stream of the process.
 %The instance ID for this event entry.
 %The name of this performance counter.
-%n.	!
-&	o!.
-&	oP8
 &!'!*!,!.!/!
 &*oP6
 &*oS6
-&+!~S
-&,XO	
-&.V+d
-&.{7	
 &Percentage progress made in operation.
 &Standard output stream of the process.
 &System.Net.Configuration.BypassElement
@@ -104,20 +60,16 @@ $no DefaultCredential support in Mono
 &The number of threads of this process.
 &The reason why this thread is waiting.
 &The unique identifier for the process.
-&x*B*
-'" "'
-'(')'L'M'N'O'S'V'W'X'_'a'h'v'
+&rsa
 ')>9fF}MQL
-',DP	
-'.o8{
 'Raised for each EventLog entry written.
 'The accessability level of the counter.
+'\n'\f'(')'L'M'N'O'S'V'W'X'_'a'h'v'
 'not used anywhere in the implementation
 (Serialization is obsoleted for this type
 (System.ComponentModel.ComponentConverter
 (Whether the worker will report progress.
 (c) Various Mono authors
-). +,
 )Application strings for this event entry.
 )Name of the log that is read and written.
 )System.Configuration.SchemeSettingElement
@@ -125,105 +77,85 @@ $no DefaultCredential support in Mono
 )The amount of CPU time used in user mode.
 )The application name that writes the log.
 )Whether the worker supports cancellation.
-*,XQ	
-*.(J3
-*.r'=
 *.rQj
 *.rcj
 *.rmj
-*.rr	
-*.rw\
-*.s44
-*.s>6
-*.sE.
-*.sa/
-*.~|-
-*2~)(
-*6sf	
+*BrU
+*Jrq
 *The number of bytes that are not pageable.
 *The time at which the process was started.
 *User-supplied state to identify operation.
-*b~q#
-*jrJt
-+#	oO8
-+*	u$
-+*.sH%
-+*.sq/
-+,	oO8
-+,*rO
-+,~Q	
-+.4+<
-+.ri_
-+5	oE
-+:	o1
-+<	 ,
+*oL6
+*oM6
+*oN6
+*oO6
+*r4Q
+*rOk
+*rTv
+*rec
+*rrZ
+*sZ3
+*vr0
 +An ID for the category of this event entry.
 +Executes an operation on a separate thread.
 +Flag to indicate if this instance is active
++QrY
 +System.Collections.Generic.QueueDebugView`1
 +System.Collections.Generic.StackDebugView`1
 +The amount of paged system memory in bytes.
 +The source application of this event entry.
 +The start address in memory of this thread.
-+q	r=
++\rr20
++pr\fY
 +same limitations as X509Certificate2.Import
-+w	 0
-, r]i
-,!_"e6}C
-,"sp 
-,$r*a
 ,$rtM
-,&~F&
-,'r?u
 ,1sh 
-,<	,9
-,@		{
-,@sh 
-,B	,%	(
 ,Method isn't transactional (like documented)
 ,System.Diagnostics.AlphabeticalEnumConverter
 ,The amount of CPU time the process has used.
 ,The time that the associated process exited.
 ,The title of the main window of the process.
-,j{5>
--!(R-
--"	o~
--")Q!
--#(R-
+,\fr20
+,\vrRt
+,ksb
 -10675199.02:48:05.4775808
 -10675199.02:48:05.4775808<
+-2si
 -6rGO
 -Binary data associated with this event entry.
--D	-A
--F	r"
--H	-E
--Q	r@
 -System.IO.InotifyWatcher+<GetEnumerator>d__18
 -The handle of the main window of the process.
 -Use PerformanceCounterCategory.ReadCategory()
 -We don't do anything with displayNameEncoding
--[	- 
--\+`r
--n+rr
--x	oR
-../ecma.pub
+-\vr4h
+-\vrCO
+-\vrDn
+-\vrDv
+-\vrIE
+-\vrRn
+-\vrba
+-\vreK
+-\vrkr
+-\vrsy
+-\vrwK
+-qsb
+-wsb
+-x\toR
 .2+8rG!
+.CrW
 .If enabled raises event when a log is written.
 .Specifies information used to start a process.
 .System.CodeDom.Compiler.CompilerProviderOption
 .System.Diagnostics.PerformanceCounterInstaller
 .The initial working directory for the process.
-.\	o+1
+.WrN
+.\vr7y
+.\vrSO
+.\vrqv
 .cctor
 .ctor
-.l	 ) 
-.text
-.x~9$
-.x~J$
-.z~9$
-.z~J$
 / rld
-/31	,+	
+/380\v
 /System.ComponentModel.ExpandableObjectConverter
 /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 /System/Library/Frameworks/CoreServices.framework/Frameworks/CFNetwork.framework/CFNetwork
@@ -235,6 +167,7 @@ $no DefaultCredential support in Mono
 /The instance name for this performance counter.
 /Use ServerCertificateValidationCallback instead
 /X509ContentType.SerializedCert is not supported
+/\vrOo
 /usr/lib/libSystem.dylib
 0 00010=0>0@0A0
 0!0*0A0
@@ -247,15 +180,30 @@ $no DefaultCredential support in Mono
 03F4297FCC30D0FD5E420E5D26E7FA711167C7EF
 0An object that synchronizes event handler calls.
 0Flag to indicate we want to watch subdirectories
+0Ho\n
 0Investigate replacement; see comments in source.
+0Po\n
 0See comment in X509Helper2.GetMonoCertificate().
 0Specifies support for transacted initialization.
 0System.Net.Configuration.WebRequestModuleElement
 0The name of the machine the running the process.
 0The number of milliseconds between timer events.
-0a	,'
+0Y*R
+0Y*r
+0YXT
+0YX\n
+0YX\r
+0YX\v
+0Yl\n
+0an\n
+0bo\n
+0j`U
+0jo\n
+0ro\n
+0tl\n
+1!8O
+1)r7
 1-111
-1.00:00:00
 10675199.02:48:05.4775807<
 120000.
 1588174EA926BCCEB6275C029A42C7E3DBA4D523
@@ -264,56 +212,114 @@ $no DefaultCredential support in Mono
 1D278D3C888D1A2FA7EED622BFC02927CE4049AF
 1E6397E00E59B10204D367C0CB912D81187ADD58
 1F,K#
+1JFz
+1L+T
 1L5z3
 1Mono.Unity.UnityTls+unitytls_tlsctx_read_callback
 1Name of the machine that this log get written to.
 1Non-X509Certificate2 certificate is not supported
 1System.Collections.Generic.ICollectionDebugView`1
 1System.Collections.Generic.IDictionaryDebugView`2
+1\nrQ
+1\vrJ
+1\vrL
+1\vrb
+1g80
 1m3j1
+1pus
 2 2D2Q2|2
+2'se
 21carf
+22K\r\v
+23@0\v
+23t0\v
 2699ED079CDDEF57B48E372A3D47B5F3C372F78C
+26rK
+2?DU\r
+2?PU\r
 2Always returns EncryptionPolicy.RequireEncryption.
 2Detection limited to Cert, Pfx, Pkcs12 and Unknown
 2Mono.Unity.UnityTls+unitytls_tlsctx_trace_callback
 2Mono.Unity.UnityTls+unitytls_tlsctx_write_callback
 2jXi+
+2pus
 3 rLl
+3!8P
 3,@vF
+3/sb
+35s}
 38FEA9FD89A7ADA970C597A6726BDA32C82E3E41
-3;s-#
 3>sf(
+3@9m\r
 3AF058944BC1070D164143C7635654884348D0E1
 3Allowed processor that can be used by this process.
 3BE77BF818331C2D8400FFFFF9FADD3F16AD89AC
 3CDA7449B0586AB873C75C04BB11D4864F5D7392
+3HH\v
+3PE\v
 3The machine where this performance counter resides.
+3XF\v
+3\rrD\r
+3\vDf
+3\vra
 3a(S0
 3by default this depends on the incomplete X509Chain
+3pus
+3uH\v
 3w3{3
-4+8%	
 4.0.0.0
 4.6.57.0
 41carf
 43carf
+44X\v
+45;o\v
 469BD0E53254027ABBA74FE247B4773933E70F01
+48V\v
+4@Bm\r
+4@Qm\r
+4DZ\v
+4Ha\v
+4Hb\v
+4O'B
 4System.Net.Configuration.AuthenticationModuleElement
 4System.Net.Configuration.ConnectionManagementElement
+4TI\v
+4Te\v
 4The modules that are loaded as part of this process.
 4The name of a user associated with this event entry.
+4Xg\v
 4ereht
-5#H,#3
+4gZ\v
+4hf\v
+4kg\v
+4lY\v
 5'r?u
+5(d3
 507}5
 53437C3B2572EDB9B8640C3195DF3BC2729C5EA1
+54k\v
 5656FB1DA817C3001C6BA3848F54BB428C5815DF
+56i\v
 59F5BD34B6C013DEACC784F69C67E95150033A84
+5>oB
+5@bm\r
 5BC3486B05BA8CF4689C7BDB198B3F477BB4E20C
+5Ci\v
 5D78BD4E3D3D2F08C45684ED7E09FA8A44DC9632
-5S6(3
+5S6(3\r-
 5System.Collections.Generic.SortedSet`1+<Reverse>d__94
 5Use InstanceDataCollectionCollection indexer instead.
+5_9x
+5ek\v
+5fi\v
+5nk\v
+5sV 
+5si\v
+5vk\v
+6(l3
+65bo\v
+6@km\r
+6@zm\r
 6D49C9D487D7AD3491ECE08732D68A593CC2038D
 6F3AD3DC3AF8047587C4C9D696EB68A01FEF796E
 6Flag to indicate which change event we want to monitor
@@ -322,32 +328,35 @@ $no DefaultCredential support in Mono
 6The amount of memory exclusively used by this process.
 6The name of the application, document or URL to start.
 6use CreateEventSource(EventSourceCreationData) instead
+7)37
 7Mono.Net.Security.AsyncProtocolRequest+<InnerRead>d__25
 7Mono.Unity.UnityTls+unitytls_tlsctx_x509verify_callback
 7WB@H
-8%(y 
-8+d%	
 8821BF2BDFF225D177372C9F3E0A8286EE241FF4
 8E0EF3D67A3EB1863224EE3CACB424BC2F8CFBA3
 8Indicates if the associated process has been terminated.
-8L@^Aa':
 8Mono.Unity.UnityTls+unitytls_tlsctx_certificate_callback
 8Occurs when a file/directory creation matches the filter
 8Occurs when a file/directory deletion matches the filter
 8The maximum amount of paged memory used by this process.
+8i)A
 90503F4F223B979EDE436D1A66CF718DCED9FBC6
 98A44A6F8606AE6F23FE230286C1D6FBCC407226
 9Detection limited to Cert, Pfx, Pkcs12, Pkcs7 and Unknown
 9Mono's stores are fully managed. All handles are invalid.
+9P0\f
 9The base memory address of the entry point of this module
 9The maximum amount of system memory used by this process.
+9YE\v
 9n3h(b
-:+u%	
+9r9b
 :Please use NameValueCollection(IEqualityComparer) instead.
 :The maximum amount of virtual memory used by this process.
-:]1\$,
+:rWb
+;3P1\v
 ;Mono's X509Chain is fully managed. All handles are invalid.
 ;System.Collections.Concurrent.BlockingCollectionDebugView`1
+;ryb
 <.cctor>b__13_0
 <.cctor>b__13_1
 <.cctor>b__309_0
@@ -378,68 +387,6 @@ $no DefaultCredential support in Mono
 <>7__wrap2
 <>7__wrap3
 <>7__wrap4
-<>9__0
-<>9__0_0
-<>9__0_1
-<>9__1
-<>9__10_0
-<>9__10_1
-<>9__11_0
-<>9__11_1
-<>9__12_0
-<>9__12_1
-<>9__1_0
-<>9__1_1
-<>9__219_1
-<>9__219_2
-<>9__221_1
-<>9__221_2
-<>9__225_1
-<>9__225_2
-<>9__229_1
-<>9__229_2
-<>9__231_1
-<>9__231_2
-<>9__233_1
-<>9__233_2
-<>9__237_1
-<>9__237_2
-<>9__239_0
-<>9__241_0
-<>9__241_1
-<>9__241_2
-<>9__245_1
-<>9__245_2
-<>9__24_0
-<>9__251_0
-<>9__253_0
-<>9__25_0
-<>9__25_1
-<>9__27_0
-<>9__2_0
-<>9__2_1
-<>9__37_0
-<>9__37_1
-<>9__3_0
-<>9__3_1
-<>9__4_0
-<>9__4_1
-<>9__54_0
-<>9__55_0
-<>9__57_0
-<>9__5_0
-<>9__5_1
-<>9__60_0
-<>9__6_0
-<>9__6_1
-<>9__79_0
-<>9__7_0
-<>9__7_1
-<>9__81_0
-<>9__8_0
-<>9__8_1
-<>9__9_0
-<>9__9_1
 <>c__DisplayClass0_0
 <>c__DisplayClass11_0
 <>c__DisplayClass13_0
@@ -491,9 +438,6 @@ $no DefaultCredential support in Mono
 <>l__initialThreadId
 <>m__Finally1
 <>t__builder
-<>u__1
-<>u__2
-<>u__3
 <AcceptAsync>b__0_0
 <AcceptAsync>b__0_1
 <AcceptAsync>b__1_0
@@ -788,12 +732,10 @@ $no DefaultCredential support in Mono
 <closeBuffer>5__1
 <closeStatus>5__1
 <closeStatusDescription>5__2
-<e>5__1
 <foundConnection>5__2
 <foundSecWebSocketAccept>5__4
 <foundUpgrade>5__3
 <header>5__1
-<i>5__2
 <ifap>5__2
 <lastException>5__2
 <line>5__1
@@ -803,7 +745,6 @@ $no DefaultCredential support in Mono
 <prevChar>5__2
 <registration>5__4
 <requestedSize>5__1
-<sb>5__3
 <secKeyAndSecWebSocketAccept>5__3
 <socket>5__1
 <sslStream>5__1
@@ -811,8 +752,8 @@ $no DefaultCredential support in Mono
 <stream>5__2
 <subprotocol>5__5
 <totalRead>5__2
-=.,	G
 =0D=0A:
+=5Fq\v
 =Mono.Net.Security.MobileAuthenticatedStream+<InnerWrite>d__67
 =Process will be of higher priority while it is actively used.
 =System.Collections.Generic.DictionaryKeyCollectionDebugView`2
@@ -821,7 +762,8 @@ $no DefaultCredential support in Mono
 =The amount of virtual memory currently used for this process.
 =The priority that the threads in the process run relative to.
 =c74-
->:5z'
+>5Xq\v
+>5pq\v
 >BDCDo?
 >How the main window should be created when the process starts.
 >Mono's X509Chain is fully managed. Always returns IntPtr.Zero.
@@ -831,16 +773,15 @@ $no DefaultCredential support in Mono
 >The time at which this event entry was written to the logfile.
 >Thread gets a priority boot when interactively used by a user.
 ?456789:;<=
+?7Ls
 ?Please use NameObjectCollectionBase(IEqualityComparer) instead.
 ?System.Collections.Generic.DictionaryValueCollectionDebugView`2
 ?System.Net.WebSockets.ManagedWebSocket+<CloseAsyncPrivate>d__66
 ?System.Net.WebSockets.WebSocketHandle+<ConnectSocketAsync>d__25
 ?Whether to use the operating system shell to start the process.
-?_b_-
-@	or!
-@.reloc
 @Is the worker still currently working on a background operation?
-@[(K	
+A"0I
+A9n\t\f
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
 ACLAddFailed
 ACLChangeFailed
@@ -848,6 +789,7 @@ ACLDeleteFailed
 ACLNotSimple
 ACLReplaceFailed
 ADDB8526F472C1C6D36DBD5A6E509D973CC34C92
+ADVF
 ADVFCACHE_FORCEBUILTIN
 ADVFCACHE_NOHANDLER
 ADVFCACHE_ONSAVE
@@ -867,12 +809,16 @@ AMono.Net.Security.MobileAuthenticatedStream+<StartOperation>d__58
 APlease use NameValueCollection(Int32, IEqualityComparer) instead.
 ASCIIEncoding
 ASCII_ONLY
+ASN1
 ASN1Convert
 ASystem.Net.WebSockets.ManagedWebSocket+<ReceiveAsyncPrivate>d__60
 ASystem.Net.WebSockets.ManagedWebSocket+<SendCloseFrameAsync>d__67
+ATMA
 AUse ClaimsAuthenticationManager to add claims to a ClaimsIdentity
 AWhether to show an error dialog to the user if there is an error.
+AXFR
 A_LAW
+AaAT
 AbortCommand
 AbortGetProxiesAuto
 AbortHelper
@@ -958,7 +904,6 @@ AddIfNotPresent
 AddInheritedComponents
 AddInternal
 AddInternalNotCommon
-AddItemName
 AddLast
 AddLoadDependency
 AddLowercase
@@ -1037,6 +982,7 @@ Administer
 Advance
 AdvanceLabel
 Advanced
+Ae<\r3
 Aes128
 Aes192
 Aes256
@@ -1048,7 +994,7 @@ AlgorithmMismatch
 Alignment
 AlignmentUnion
 AllExceptIntranet
-AllFiles	
+AllFiles\t
 AllFlags
 AllPorts
 AllUriInfoSet
@@ -1072,7 +1018,6 @@ AllowIriParsing
 AllowLateBound
 AllowLocation
 AllowMultiValues
-AllowMultiple
 AllowNatTraversal
 AllowNoEncryption
 AllowPartiallyTrustedCallersAttribute
@@ -1095,6 +1040,7 @@ Alternative
 Always returns Guid.Empty
 Always returns false
 Always returns true
+AmAT
 Ambient
 AmbientValueAttribute
 AmbiguousMatchException
@@ -1148,8 +1094,10 @@ ApplyResources
 ApplySortCore
 ApproxAveHeaderLineSize
 ApproxHighAvgNumHeaders
+Ar=c
 AreAllBypassed
 AreEqual
+Ares
 Arg_ArrayLengthsDiffer
 Arg_ArrayPlusOffTooSmall
 Arg_BitArrayTypeUnsupported
@@ -1301,7 +1249,6 @@ Async_OperationCancelled
 Async_ProgressChangedEventArgs_ProgressPercentage
 Async_ProgressChangedEventArgs_UserState
 Async_QueueingFailed
-Asynchronous
 Atext
 AttachHandleBusy
 Attachment
@@ -1357,9 +1304,13 @@ AverageBase
 AverageCount64
 AverageTimer32
 AwaitUnsafeOnCompleted
+B?PV\r
 BASE_DEC
 BNot totally RFC3280 compliant, but neither is MS implementation...
+BSJB
 BThe value returned from the associated process when it terminated.
+B\fz\v2
+B\vOh
 Back2
 BackgroundWorker
 BackgroundWorker_AlreadyRunning
@@ -1513,6 +1464,7 @@ BinaryFormatter
 BinaryReader
 BinarySearch
 BinarySerializationNotSupported
+Bind
 BindContext
 BindIPEndPoint
 BindToInterface
@@ -1575,8 +1527,11 @@ BooleanAnd
 BooleanConverter
 BooleanOr
 BooleanSwitch
+Both
 BothScopeAttributes
+Br#F
 BrFar
+Br_S
 Branchcount
 Branchmark
 BreadthFirstTreeWalk
@@ -1586,6 +1541,7 @@ BreakOnServerAuth
 Brfalse
 BrfalseFar
 Brfalse_S
+Bric
 Browse
 Brtrue
 BrtrueFar
@@ -1618,9 +1574,9 @@ BuildSimpleServiceName
 BuildX509Chain
 BuiltInSyntax
 BuiltInUriParser
+Bump
 Bundle
 BypassCache
-BypassCache,
 BypassElement
 BypassElementCollection
 BypassOnLocalValues
@@ -1629,6 +1585,10 @@ ByteArrayHasPrefix
 BytesIn
 BytesOut
 C02C28AFEBE998F767E4AF43E3BE8F5E9FA11536
+C5Hr\v
+C?XV\r
+C?uV\r
+CAPI
 CAS policy is obsolete and will be removed in a future release of the .NET Framework. Please see http://go2.microsoft.com/fwlink/?LinkId=131738 for more information.
 CATEGORYLENGTH
 CCEEADA43268372341F81AE0C9208C6856441C04
@@ -1699,6 +1659,7 @@ CLASS_E_NOTLICENSED
 CLRLicenseContext
 CLSCompliantAttribute
 CNAME
+COM1
 COMException
 COMPLETE_ADDING_ON_MASK
 CONCURRENTBAG_TRYPEEKSTEALS_ID
@@ -1733,6 +1694,8 @@ CSharpModifierAttributeConverter
 CSharpTypeAttributeConverter
 CURRENT_MASK
 CWDAndSetFileName
+C\nl3
+C\vWh
 CacheCode
 CacheIfAvailable
 CacheOrNextCacheOnly
@@ -1840,6 +1803,7 @@ CaseInsensitiveAscii
 CaseInsensitiveHashCodeProvider
 CaseInsensitiveManifestResourceStreamLookup
 CaseSensitiveStringDictionary
+Cast
 CategoryDelete
 CategoryHelpCorrupt
 CategoryHelpInternal
@@ -2385,7 +2349,6 @@ ContinueOnNewLine
 ContinueParsing
 ContinueWith
 ControlDataTruncated
-ControlPolicy
 ControlPrincipal
 Conv_I8
 ConversionError
@@ -2656,6 +2619,9 @@ CustomAttributeBuilder
 CustomizableFileSettingsProvider
 Cyclic
 D E R S p r t } 
+D)64
+D.S8
+D4@R\v
 DASHDASH
 DATADIR
 DATADIR_GET
@@ -2724,6 +2690,8 @@ DVASPECT_CONTENT
 DVASPECT_DOCPRINT
 DVASPECT_ICON
 DVASPECT_THUMBNAIL
+D\nH4
+D\vdi
 DadState
 DangerousAddRef
 DangerousCopyTo
@@ -2860,12 +2828,7 @@ DefaultTimeout
 DefaultTraceListener
 DefaultTypeDescriptor
 DefaultUploadFileContentType
-DefaultValue
 DefaultValueAttribute
-DefaultValueU
-DefaultValueU"System.Net.Mail.SmtpDeliveryFormat
-DefaultValueU(System.Configuration.SettingsSerializeAs
-DefaultValueUDSystem.Security.Authentication.ExtendedProtection.ProtectionScenario
 DefaultWatcher
 DefaultWatcherData
 DefaultWriteBufferSize
@@ -3122,6 +3085,7 @@ ERROR_SHARING_VIOLATION
 EThe verb to apply to the document specified by the FileName property.
 EUse another overload that uses PerformanceCounterCategoryType instead
 EVENTLOG_TYPE_VAR
+E\nx5
 E_ABORT
 E_CannotDisplayCanonical
 E_FAIL
@@ -3136,6 +3100,7 @@ EchoReply
 EchoReps
 EchoRequest
 Echos
+Ecma
 EdgeRestricted
 EditComponent
 EditOptional
@@ -3245,6 +3210,7 @@ EndSquareBracket
 EndToken
 EndWrite
 EndWriteCalledTwice
+EndZ
 Endianness
 EndpointBindings
 EndpointPermission
@@ -3283,7 +3249,6 @@ EnterFunc
 EnteringPassive
 EntireChain
 EntryPointNotFoundException
-EntryWritten
 EntryWrittenEventArgs
 EntryWrittenEventHandler
 EnumConverterInvalidValue
@@ -3298,6 +3263,7 @@ EnvironmentBlock
 EnvironmentBlockTooLong
 EnvironmentHelpers
 Environment_NotInteractive
+EqFz
 EqualityWeakReference
 EqualsLiteral
 ErrorBadExtenderType
@@ -3343,6 +3309,7 @@ EvRlsd
 EvRxChar
 EvaluateSystem
 EvaluateTrust
+Even
 EventData
 EventDescriptorCollection
 EventDisposed
@@ -3437,6 +3404,7 @@ Extract
 ExtractAttributeValue
 ExtractHostname
 ExtractNativeKeyAndChainFromManagedCertificate
+F)I4
 F1Keyword
 F6D0C643351580307B2EAA6A7560E76965496BC7
 FAMCancelMonitor
@@ -3450,6 +3418,7 @@ FAMPending
 FAMRequest
 FAMWatcher
 FCIsEmpty
+FDDI
 FLAGS
 FLOAT64_BE
 FLOAT64_LE
@@ -3477,12 +3446,12 @@ FactoryTypeFromCode
 FailureAudit
 FallbackDefaultMatchTimeout
 False
-False	
 False"
 False(
 False+
 False-
 False=
+False\t
 FamilyAndAssembly
 FamilyOrAssembly
 FastEthernetFx
@@ -3493,6 +3462,7 @@ FatalAlert
 FatalTrustFailure
 FavorUtf8
 FdList
+Fddi
 FetchMessage
 FetchSyntax
 FieldDirection
@@ -3549,6 +3519,7 @@ FileWebRequestCreator
 FileWebResponse
 FileWebStream
 FilesLock
+Fill
 FillAttributes
 FillByPassList
 FillCookies
@@ -3625,6 +3596,7 @@ FinishPhase
 FinishSignaling
 FinishTriggering
 FinishWrapperConnectSuccess
+Fire
 FireAddingNew
 FireFox
 FireListChanged
@@ -3740,19 +3712,24 @@ Func`5
 Func`6
 FunctionFailed
 FunctionIntegrityFail
-G&c/	
-G+2&	
 G.2+9
+G57s\v
+G>90\r
+G>I0\r
+G>u0\r
 GAA_FLAG_INCLUDE_GATEWAYS
 GAA_FLAG_INCLUDE_WINS_INFO
 GCCDelegate
 GCHandle
 GCHandleType
+GPOS
 GSystem.Net.WebSockets.ManagedWebSocket+<EnsureBufferContainsAsync>d__69
 GUID_PropertyBrowserToolWindow
 GUID_VSTASKCATEGORY_DATADESIGNER
+GZip
 GZipStream
 GZip_DefaultWindowBits
+G\vdj
 GatewayIPAddressInformationCollection
 GatewayList
 GeneralAsyncDelegate
@@ -4416,6 +4393,7 @@ GopherStyleUriParser
 GopherSyntaxFlags
 GopherUri
 GotoStatements
+GqFz
 Greedy
 GroupChar
 GroupEnumerator
@@ -4428,10 +4406,15 @@ GrowFactor
 GuessEncoding
 GuessTransferEncoding
 GuessWhetherHostIsLoopback
-Guid$35167F8E-49B2-4b96-AB86-435B59336B5E
+Guid$35167F8E-49B2-4b96-AB86-435B59336B5E\r
 GuidAttribute
 GuidConverter
-H+a&	
+H)O4
+H3L3\v
+H5?s\v
+H5Gs\v
+H5cs\v
+H5ps\v
 HEvent handler to be run on a different thread when the operation begins.
 HIGH_SURROGATE_START
 HINFO
@@ -4444,6 +4427,7 @@ HTTP11
 HTTP11PartiallyCompliant
 HTTP_REQUEST_HEADER_ID
 HTTP_RESPONSE_HEADER_ID
+H\vpj
 Hand.wav
 HandShake
 HandleCallback
@@ -4484,6 +4468,7 @@ HaveId
 HaveNtProcessInfo
 HaveProcessInfo
 HaveWins
+Head
 HeaderEncoding
 HeaderHashTable
 HeaderIncluded
@@ -4814,6 +4799,7 @@ IResourceService
 IResourceWriter
 IRevertibleChangeTracking
 IRootDesigner
+ISDN
 ISelectionService
 ISerialStream
 ISerializable
@@ -4842,12 +4828,16 @@ IWebProxyFinder
 IWebProxyScript
 IWebRequestCreate
 IWhether to start the process without creating a new window to contain it.
+IXFR
+Icmp
 IcmpError
 IcmpMessage
 IcmpV4Code
 IcmpV4Type
 IcmpV6
 IcmpV6MessageTypes
+Icon
+IdOf
 IdentityEquality
 IdentityInequality
 IdentityReference
@@ -4861,6 +4851,7 @@ IfNoneMatch
 IfRange
 IfType
 IfUnmodifiedSince
+Igmp
 Ignore
 IgnoreCertProblem
 IgnoreCertificateAuthorityRevocationUnknown
@@ -5318,6 +5309,8 @@ Ipv4Metric
 Ipv6Element
 Ipv6IfIndex
 Ipv6Metric
+IqFz
+Irda
 IriHelper
 IriParsingElement
 IriParsingStatic
@@ -5348,6 +5341,7 @@ IsCaptureName
 IsCaptureSlot
 IsCaseInsensitive
 IsChainComplete
+IsCi
 IsClientFault
 IsComObject
 IsCompatibleKey
@@ -5417,6 +5411,7 @@ IsNonNullBlack
 IsNonNullRed
 IsNormalized
 IsNotSafeForUnescape
+IsNt
 IsNtlmAuth
 IsNullOrBlack
 IsNullOrEmpty
@@ -5442,7 +5437,6 @@ IsQuotedDomain
 IsQuotedVersion
 IsReferenceOrContainsReferences
 IsRequestRestricted
-IsRequired
 IsReservedCharacter
 IsReservedUnreservedOrHash
 IsResponseRestricted
@@ -5502,6 +5496,7 @@ IsWithinRange
 IsWordChar
 Isolated
 IssuerListInfoEx
+Item
 ItemAdded
 ItemChanged
 ItemDeleted
@@ -5511,15 +5506,29 @@ ItemsName
 IterateAndModifyFilesData
 IterativeCopy
 IteratorStateMachineAttribute
+J)U4
+J)c4
+J/D0\n
+J3&r
+J5|t\v
+J7xs
 JSystem.ComponentModel.Design.DesignerOptionService+DesignerOptionConverter
 JThe amount of CPU time the process spent inside the operating system core.
 JX(X)
+JYXT
+JYs_
 Jalways return String.Empty for UpnName, DnsFromAlternativeName and UrlName
 JjX}O 
 JoinMulticastGroup
 JoinStringArray
-K+U'	
+Jpeg
+K5:u\v
+K5\tu\v
+K5pu\v
+K>lp
 KThe amount of CPU time the process spent outside the operating system core.
+KZ*r
+K\vJk
 KeepAliveSetup
 KeepAliveValues
 KeepDelimiter
@@ -5553,11 +5562,12 @@ KeyedCollReferenceKeyNotFound
 KeysCollection
 KeysName
 Keywords
+Kill
 KillBuffer
 KmLxH
 KnownHttpVerb
+KqFz
 KqueueMonitor
-L'F}=
 LIBNAME
 LIndicates whether the timer is enabled to fire events at a defined interval.
 LOCAL_FILE_IMPL
@@ -5566,6 +5576,7 @@ LOW_SURROGATE_START
 LSet of environment variables that apply to this process and child processes.
 LSystem.Net.NetworkInformation.MacNetworkChange+SCNetworkReachabilityCallback
 LThere is no support for retrieving process information from a remote machine
+L\vgk
 LanguageSupport
 Language_Names_Cannot_Be_Empty
 LargeArrayBuilder`1
@@ -5703,6 +5714,7 @@ Locale
 Localhost
 LocalizableAttribute
 LockContext
+Log2
 LogDoesNotExists
 LogEntries
 LogEntryCategory
@@ -5756,6 +5768,10 @@ LowercaseSet
 Lowest
 LpcReceive
 LpcReply
+Luid
+M)k4
+M)x4
+M5pu\v
 MAILA
 MAILB
 MAKE_UPPER
@@ -5779,7 +5795,9 @@ MESSAGE_NOT_FOUND
 MINFO
 MONO_MANAGED_WATCHER
 MONO_TLS_DEBUG
+MPEG
 MU_LAW
+M\vtk
 MacNetworkChange
 MacOsArpHardware
 MacOsIPInterfaceProperties
@@ -5880,6 +5898,7 @@ MatchSparse
 MatchTypeAnd
 MatchTypeOr
 MatchUTF8Sequence
+Math
 MaxAgeAndMaxStale
 MaxAgeAndMinFresh
 MaxAgeAttributeName
@@ -6115,6 +6134,7 @@ MoveToNextElement
 MoveToRoot
 MovedFrom
 MovedTo
+Msgs
 Multi
 MultiAsyncResult
 MultiInstance
@@ -6151,7 +6171,9 @@ NIMLOC
 NINFO
 NON_BOUNDED
 NROHT
+NSAP
 NSAPPTR
+NSEC
 NSEC3
 NSEC3PARAM
 NTAccount
@@ -6161,7 +6183,6 @@ NWindowsBase, Version=3.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35
 NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 NXDomain
 NXRRSet
-Name	FullTrust
 Name of this counter.
 Name#System.Buffers.ArrayPoolEventSource
 Name>System.Collections.Concurrent.ConcurrentCollectionsEventSourceT
@@ -6172,6 +6193,8 @@ NameObjectKeysEnumerator
 NameValueFileSectionHandler
 NameValuePair
 NameValueSectionHandler
+Name\tFullTrust
+Name\tFullTrust\f
 NamedHeaders
 NamespaceChange
 NativeChainToManagedCollection
@@ -6415,6 +6438,7 @@ NumberOfItemsHEX32
 NumberOfItemsHEX64
 NumberOfLabels
 NumberOfRecords
+O9l\n\f
 OCSPBadRequest
 OCSPBadResponse
 OCSPNoSigner
@@ -6536,6 +6560,7 @@ OnlyDir
 Only_specify_one
 OobDataRead
 OpCodes
+OpWr
 OpcodeBacktracks
 OpcodeSize
 OpenControlConnection
@@ -6642,7 +6667,9 @@ OverwriteAsNeeded
 OverwriteOlder
 OwnerMask
 OwningObject
-P+4)	
+P/06\n
+P5Yv\v
+P?AW\r
 PCCategoryName
 PCCounterName
 PCInstanceLifetime
@@ -6680,6 +6707,7 @@ PSystem.Net.WebSockets.ManagedWebSocket+<CloseWithReceiveErrorAndThrowAsync>d__6
 PTRAddress
 PVCAlreadyConfigured
 PVCReferentNotFound
+P\v4l
 PackageInfo
 PackageNotFound
 PacketTooBig
@@ -6698,7 +6726,6 @@ ParametersCollection
 ParentInotifyData
 ParenthesizePropertyNameAttribute
 ParmProbs
-Parse dmesg?
 Parse parameters
 ParseAddress
 ParseAndValidateConnectResponseAsync
@@ -6814,6 +6841,7 @@ PhysAddr
 PhysAddrLen
 PhysicalAddressLength
 PickupDirectoryFromIis
+Ping
 PingBinPath
 PingBinPaths
 PingCompletedEventArgs
@@ -6829,16 +6857,19 @@ Pkcs12VerifyFailure
 Pkcs7AsnEncoding
 Pkcs7NdrEncoding
 PlatformID
+Play
 PlayLoop
 PlayLooping
 PlaySample
 PlaySound
 PlaySync
 Playback
+Pob\f
 PolicyNotFound
 PolicyViolation
 PollRead
 Poll_internal
+Pong
 PoolExhausted
 PooledStream
 PopDiscardStack
@@ -6860,6 +6891,7 @@ Port_already_open
 Port_not_open
 PositionOutOfRange
 PossibleDeadlock
+Post
 PostDeserialize
 PostEvent
 PostFilterAttributes
@@ -6872,6 +6904,7 @@ Power
 PowerModeChangedEventArgs
 PowerModeChangedEventHandler
 PowerModes
+Pr9d
 PreFilterAttributes
 PreFilterEvents
 PreFilterProperties
@@ -6903,6 +6936,7 @@ PrivateParseMinimalIri
 PrivilegeNotGranted
 PrivilegeNotSupported
 PrivilegedConfigurationManager
+Prm!
 ProcAppAllStates
 ProcAppBackground
 ProcAppInactive
@@ -7009,6 +7043,7 @@ ProcessWindowStyle
 ProcessWorkingDirectory
 ProcessWorkingSet
 ProcessWrite
+Prod
 ProgressData
 ProgressReporter
 PromptCharNotAllowed
@@ -7103,7 +7138,10 @@ PushOptions
 PutBytes
 PutConnection
 PutNew
-Q+l)	
+Q&TA
+Q5~v\v
+Q>D2\r
+Q@0p\r
 QEncodedStream
 QSystem.Net.WebSockets.WebSocketHandle+<ParseAndValidateConnectResponseAsync>d__28
 QopNotSupported
@@ -7128,14 +7166,19 @@ QuoteSnippetStringCStyle
 QuoteSnippetStringVerbatimStyle
 QuotedPrintableStream
 QuotesLiteral
+R1h 
+R?IW\r
+R@hp\r
 RESET_ON_LITERALS
 RESET_ON_PROMPT
 RFC2396ReservedMarks
 RFC2396UnreservedMarks
 RFC3986ReservedMarks
 RFC3986UnreservedMarks
+RIFF
 RIFFB5
 RIFFb
+RKEY
 RNGCryptoServiceProvider
 RRSIG
 RSACryptoServiceProvider
@@ -7144,6 +7187,7 @@ RSAParameters
 RSystem.Security.Authentication.ExtendedProtection.Configuration.ServiceNameElement
 RXOver
 RXParity
+R\nx\nL
 RaiseEvent
 RaiseExceptionIfNecessary
 RaiseOnExited
@@ -7158,6 +7202,7 @@ RawBase
 RawFraction
 ReCreateParts
 Reachable
+Read
 ReadAll
 ReadAllBytes
 ReadAsyncMemory
@@ -7410,6 +7455,7 @@ RenamedEventHandler
 RenamedNewName
 RenamedOldName
 Renegotiate
+Rent
 RentionDaysOutOfRange
 Repaint
 ReplaceChild
@@ -7540,6 +7586,8 @@ RouterRenumbering
 RouterSolicitation
 RoutingInterfaceChange
 RoutingInterfaceQuery
+Rr27
+RrQd
 RsaKeyX
 RsaSign
 RsldOn
@@ -7559,14 +7607,16 @@ RuntimeHelpers
 RuntimeLicenseContext
 RuntimeLicenseContextSwitch
 RuntimeTypeHandle
-S+x*	
-S,dR	
+S!0Z
+S,dR\t
 S16_BE
 S16_LE
 S24_BE
 S24_LE
 S32_BE
 S32_LE
+S?RW\r
+S?aW\r
 SByteConverter
 SCNetworkReachabilityCallback
 SCNetworkReachabilityContext
@@ -7579,7 +7629,9 @@ SEC_KEY_IMPORT_EXPORT_PARAMS_VERSION
 SENSE_MASK
 SETLENGTH
 SETSTART
+SHA1
 SID_SOleComponentUIManager
+SINK
 SKIP_SPACE
 SMIMEBadExtendedKeyUsage
 SMIMEBadKeyUsage
@@ -7654,6 +7706,7 @@ STANDARD_RIGHTS_REQUIRED
 STGMEDIUM
 STILL_ACTIVE
 SYNCHRONIZE
+S_OK
 SafeCaptureIdenity
 SafeDeflateStreamHandle
 SafeDelete
@@ -7672,6 +7725,7 @@ SaveComponentSettings
 SaveCore
 SaveKeyInCurrentContext
 SaveProperties
+Scan
 ScanBackslash
 ScanBasicBackslash
 ScanBlank
@@ -8056,7 +8110,6 @@ ShallowClone
 SharedListenerElementsCollection
 SharedMemoryGhosted
 SharedReference
-SharedState
 ShellExecuteEx_internal
 ShellGuids
 ShortSha1
@@ -8066,6 +8119,7 @@ ShouldHideMember
 ShouldSendCredential
 ShouldTrace
 ShouldUseBase64Encoding
+Show
 ShowAssert
 ShowCode
 ShowContextMenu
@@ -8105,6 +8159,7 @@ SkipChild
 SkipVerification
 SkipWhitespace
 Sleep
+Slip
 SlowAdd
 SmartcardLogonRequired
 SmtpAllRecipientsFailed
@@ -8169,6 +8224,7 @@ SmtpTransactionFailed
 SmtpUserNotLocalTryAlternatePath
 SmtpUserNotLocalWillForward
 Snapshot
+Soap
 SockFlags
 Sockaddr
 SockaddrLength
@@ -8236,6 +8292,9 @@ SqlNullValue
 SqlTruncate
 SqlType
 SrcQuenchs
+Srid
+Ssl2
+Ssl3
 SslAuthenticate
 SslCipherSuite
 SslClientCertificateState
@@ -8690,12 +8749,16 @@ SystemShutdown
 SystemSound
 SystemSounds
 SystemTcpConnectionInformation
-T&c/	
+T'Wk
+T'xk
+T?pW\r
 TALINK
 TAsyncCompletedEventArgs
 TCompletionDelegate
 THROW_ON_ABORT_RETRIES
 TIMEOUT_EXCEPTION_MSG
+TKEY
+TKey
 TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
 TLS_DHE_RSA_WITH_AES_128_CBC_SHA
 TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
@@ -8771,9 +8834,15 @@ TLS_RSA_WITH_RC4_128_MD5
 TLS_RSA_WITH_RC4_128_SHA
 TL_InitializeData_NotSpecified
 TOTAL_MASK
+TQ\fDefaultValue
+TQ\fDefaultValueU
+TQ\fDefaultValueU"System.Net.Mail.SmtpDeliveryFormat
+TQ\fDefaultValueU(System.Configuration.SettingsSerializeAs
+TQ\fDefaultValueUDSystem.Security.Authentication.ExtendedProtection.ProtectionScenario
 TRACE
 TRACESERVICE
 TRAVE
+TSIG
 TThe maximum amount of physical memory the process has required since it was started.
 TThe minimum amount of physical memory the process has required since it was started.
 TThe object used to marshal the event handler calls resulting from a directory change
@@ -8904,7 +8973,9 @@ ThrowStub
 ThrowUnrecognizedAttribute
 ThrowUnrecognizedElement
 ThrowUnrecognizedNode
+Tidy
 TidyMatch
+Tiff
 TimeCritical
 TimeExcds
 TimeSkew
@@ -9068,6 +9139,7 @@ Triggered
 TrimEnd
 TrimExcess
 TripleDes
+True
 True+
 True5
 True9
@@ -9126,6 +9198,7 @@ TryTakeFromAnyCoreSlow
 TryTakeWithNoTimeValidation
 TryUpdate
 TryValidateUtf8
+Tr{d
 Ttext
 TtlExpired
 TtlReassemblyTimeExceeded
@@ -9161,13 +9234,16 @@ TypeOfService
 Type_isnt_tracelistener
 TypedElement
 U%System.Diagnostics.ProcessWindowStyle
+U/48\n
 U16_BE
 U16_LE
 U24_BE
 U24_LE
 U32_BE
 U32_LE
+U3x4\v
 U5System.Diagnostics.PerformanceCounterInstanceLifetime
+U5\fx\v
 UINFO
 UInt16Converter
 UInt32Converter
@@ -9218,6 +9294,8 @@ UNITYTLS_X509VERIFY_FLAG_USER_ERROR8
 UNITYTLS_X509VERIFY_NOT_DONE
 UNITYTLS_X509VERIFY_SUCCESS
 UNSPEC
+U\v8n
+U\vXm
 Udp6File
 UdpClient
 UdpFile
@@ -9303,7 +9381,6 @@ Unknown_Error
 UnlockConnectionDelegate
 UnlockContext
 UnlockEntry
-UnmanagedCode
 UnmanagedFunctionPointerAttribute
 UnmanagedPointer
 UnmanagedRead
@@ -9316,7 +9393,6 @@ UnrecognizedEscape
 UnrecognizedGrouping
 UnrecognizedNextHeader
 UnregisterContext
-Unrestricted
 UnsafeAddrOfPinnedArrayElement
 UnsafeBeginConnect
 UnsafeBeginMultipleSend
@@ -9507,10 +9583,14 @@ UserSettingsGroup
 UserSettingsNotSupported
 Utf8MessageState
 UuidUri
-V,oR	
+V'Il
+V,oR\t
 V1ToStringFlag
 V1ToStringUnescape
 V1_UnknownUri
+V5_x\v
+V@6q\r
+V@Vq\r
 VBCodeGenerator
 VBCodeProvider
 VBCompiler
@@ -9674,7 +9754,6 @@ VerifySignature
 VerifyString
 Version10
 Version11
-VersionAdded
 VersionAttributeName
 VersionCheck
 VersionCheckImpl
@@ -9684,8 +9763,11 @@ VirtualMemory
 VisualStyle
 Vnode
 VoiceView
+Void
 VsMacrosUri
 VsmacrosSyntaxFlags
+W&pA
+W4lS\v
 WAIT_ABANDONED
 WAIT_ABANDONED_0
 WAIT_FAILED
@@ -9699,6 +9781,7 @@ WSServerGuid
 WSystem.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter
 WThe object used to marshal the event handler calls issued when an interval has elapsed.
 WWWAuthenticate
+W\v4o
 WaitAbandoned
 WaitAny
 WaitAsync
@@ -9835,10 +9918,12 @@ WindowsInstallationType
 WindowsPrincipal
 WindowsWatcher
 Wireless80211
+Wman
 WorkerThreadComplete
 WorkerThreadStart
 WorkerThreadStartDelegate
 WouldBlock
+Wr@S
 WrapNonExceptionThrows
 WrapUp
 WrappedPropertyDescriptor
@@ -9913,9 +9998,11 @@ WsUri
 WssUri
 Wwanpp
 Wwanpp2
-X,|R	
+X'pl
+X3\vr
 X500DistinguishedName
 X500DistinguishedNameFlags
+X501
 X509AsnEncoding
 X509BasicConstraintsExtension
 X509Cert
@@ -9961,15 +10048,32 @@ X509SubjectKeyIdentifierExtension
 X509SubjectKeyIdentifierHashAlgorithm
 X509Utils
 X509VerificationFlags
+X5gx\v
+X5px\v
+X:TB\f
 XCertChainInvalid
+XGS\t
+XGX*
+XI-V
+XI-m
 XPathNavigator
 XPriority
 XRaised when the worker has completed (either through success, failure, or cancellation).
 XReceiver
 XRunRecovery
 XSender
+XT+A
 XThe object used to marshal the event handler calls issued as a result of a Process exit.
 XThis method is obsolete.  Please use System.Configuration.ConfigurationManager.GetConfig
+XYE\v
+X\fXG
+X\f\tor
+X\n\tor
+X\nr27
+X\rGR8
+X\v8P
+X\v8f
+X\v\tor
 XmlAttributeCollection
 XmlDeserializationFailed
 XmlIgnoreAttribute
@@ -9989,14 +10093,28 @@ XmlWriter
 XmlWriterTraceListener
 XmlXPath
 XmlXslt
+Xo0*
+Y%\nop
+Y1\vr
+Y1\vrJ
+Y5xx\v
+Y@8r\r
 YHas the user attempted to cancel the operation? To be accessed from DoWork event handler.
 YMono.Security, PublicKey=002400000480000094000000060200000024000052534131000400000100010079159977d2d03a8e6bea7a2e74e8d1afcc93e8851974952bb480a12c9134474d04062447c37e0e68c080536fcf3c3fbe2ff9c979ce998475e506e8ce82dd5b0f350dc10e93bf2eeecf874b24770c5081dbea7447fddafa277b22de47d6ffea449674a4f9fccf84d15069089380284dbdd35f46cdff12a1bd78e4ef0065d016df
+YT+7
 YXDomain
 YXRRSet
-Yk[*"
+YX\n8
+YX\v88
+Y\nr-k
 Yk[Y"
-Z+!+	
-Z+6+	
+YoV)
+Yoe)
+YrT\r
+Ys7&
+Z!tb
+Z.98
+Z@Ir\r
 ZLibErrorDLLLoadError
 ZLibErrorInconsistentStream
 ZLibErrorIncorrectInitParameters
@@ -10006,46 +10124,206 @@ ZLibErrorUnexpected
 ZLibErrorVersionMismatch
 ZLibNative
 ZMaxEnumValue
+ZX%J
+ZXI 
+ZXI%
+ZXI%\r
+ZXI%\v
+ZXI(
 ZXI(<
+ZXI,
 ZXI,;
+ZXI-
 ZXI-D
 ZXI-M
 ZXI-R
 ZXI-[
+ZXI-\n
 ZXI-d
-ZXIS	
+ZXI.
+ZXI3\v
+ZXIS
 ZXIS+
 ZXIS+%
 ZXIS+H
 ZXIS+_
 ZXIS8
+ZXIS\t
+ZXI\f
+ZXI\n
+ZXI\r\t
+ZXI\t
+ZXI\v
 ZeroFreeBSTR
 ZeroFreeGlobalAllocUnicode
 ZeroWidthJoiner
 ZeroWidthNonJoiner
 ZoneIndices
-[+(,	
-[+T+	
-[,PS	
-[,cS	
-[,uS	
-[3R	-O
 [System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 [System.Net.Http, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 [Whether the process command input is read from the Process instance's StandardInput member.
 [jiYT*
 [{2}]<-->[{3}] 
-\+H,	
 \The runtime does nothing special apart from what it already does with marshal-by-ref objects
 \This property is obsolete.  Please use System.Configuration.ConfigurationManager.AppSettings
+\f)\f*\f4\f5\f:\f>\fE\fF\fI\fJ\fN\fU\fW\f`\fb\ff\fp\f
+\f)\f*\f4\f5\f:\f`\fb\f
+\fAsynchronous
+\fEntryWritten
+\fParse dmesg?
+\fUnrestricted
+\fVersionAdded
+\fdefaultProxy
+\fioc-
+\fmaximumStale
+\fminimumFresh
+\fox3
+\fproxyaddress
+\fsy6
+\fwarningLevel
+\n%r91
+\n%rG5
+\n%rK2
+\n%rOo
+\n%rQ4
+\n%rU3
+\n%rW8
+\n%rY6
+\n%rg7
+\n%ri0
+\n%rm1
+\n%rq9
+\n%rs5
+\n%ry7
+\n)\n*\n1\n2\n4\n5\n7\n8\n:\n<\n=\n>\nC\nG\nI\nK\nN\nY\n]\n^\n_\nf\nu\n
+\n)\n*\n1\n2\n4\n5\n7\n8\n:\nY\n]\n^\n_\nr\nu\n
+\n*2si
+\n*BrU
+\n*jrJt
+\n,iro
+\n-tsb
+\n1.00:00:00
+\n2\vrD
+\n3\vr8
+\nIsRequired
+\nSystem.dll
+\nX3o
+\nX\foR
+\nXsw
+\nY1\vr
+\nY1\vr1
+\nYoH
+\n\fsS8
+\n\tjYiY(C*
+\nautoDetect
+\nbypasslist
+\niY\tiX(
+\nindentsize
+\niriParsing
+\nmaximumAge
+\no78
+\noW8
+\noa8
+\non3
+\nr20
+\nr67
+\nr8X
+\nr9F
+\nr9d
+\nrEi
+\nrGd
+\nrQd
+\nrkd
+\nrnv
+\nryg
+\nsp7
+\nswitchName
+\nswitchType
+\ntargetName
+\nz&rV
+\nz*JsS\n
+\nzBr
+\nzBr+
+\nz\toJ
+\nz\toK
+\nz\toL
+\nz\toM
+\nz\toN
+\nz\toO
+\nz\toQ
+\nz\toS
+\nz\tok
+\nzjr
+\nzoR\t
+\nzr?u
+\nzrD
+\nzrI
+\nzrN
+\nzrU
+\nzrp
+\nzrv
+\nzsa
+\nzsb
+\nzsc
+\nzsf(
+\nzsx
+\r)\r*\r:\r>\rD\rF\rI\rJ\rN\rW\rX\r`\rb\rf\rp\r
+\r)\r*\r:\r`\rb\r
+\rAllowMultiple
+\rControlPolicy
+\rUnmanagedCode
+\rY1B
+\r\t-6rGO
+\rbypassonlocal
+\rioc-
+\rmaxconnection
+\rrlu
+\ruseGlobalLock
+\t.VrO
+\t:\t<\tN\tP\tU\tX\td\tf\tp\t
+\t:\t<\tN\tQ\tU\tX\td\tf\tp\t
+\t:\t=\t>\tX\tb\t
+\tComponent
+\tInherited
+\tMONOTOUCH
+\tSAT
+\tStartInfo
+\tYX\v8
+\tYoH
+\tYok
+\tYsU
+\tautoflush
+\tcompilers
+\tenableSsl
+\textension
+\tlisteners
+\to31
+\toE5
+\toG5
+\toO8
+\toV7
+\trUg
+\trr9
+\tso6
+\v)\v*\v1\v2\v4\v6\v:\v<\vD\vG\vI\vK\vN\vV\vX\v\\v^\v_\vb\vf\vp\v
+\v)\v*\v1\v2\v4\v6\v:\v<\vD\vG\vI\vK\vN\vV\vX\v\\v^\v_\vb\vf\vq\v
+\v)\v*\v1\v2\v4\v6\v:\v=\v>\v\\v^\v_\vb\v
+\v../ecma.pub
+\v0Xm\n
+\vAddItemName
+\vBypassCache,
+\vSharedState
+\vUnspecified
+\vlogfilename
+\vpolicyLevel
+\vsS8
+\vserializeAs
+\vswitchValue
+\vunsupported
 ]Whether the process's error output is written to the Process instance's StandardError member.
-^,3T	
-^,lT	
-_- rd
-_-/+!
-_-0	 
-_-G	 
+]YX\v8
 _100continue
+_55y\v
 _AsString
 _CorDllMain
 _FORCE_ASSERTS
@@ -10096,6 +10374,7 @@ _attributeArray
 _attributeCache
 _attributeType
 _autocap
+_b\nsb
 _backpos
 _backtrack
 _balancing
@@ -10246,6 +10525,7 @@ _hasGet
 _hasPathLengthConstraint
 _hasSet
 _hashCode
+_hcp
 _headIndex
 _highASCII
 _htmlDecodeConformance
@@ -10253,6 +10533,7 @@ _htmlEncodeConformance
 _htmlEntityEndingChars
 _ifa_flags
 _ignoreNextParen
+_ilg
 _impl
 _implementationTypes
 _imports
@@ -10359,6 +10640,7 @@ _objectReturnType
 _objectType
 _objects
 _occupiedNodes
+_oid
 _oldItems
 _oldStartingIndex
 _option
@@ -10380,6 +10662,7 @@ _pipelineInitializeKeys
 _pipelineMergeKeys
 _poolId
 _populated
+_pos
 _position
 _positive
 _prevlen
@@ -10423,7 +10706,9 @@ _publicKey
 _query
 _queryDict
 _rangelist
+_raw
 _rawTokenBindingId
+_rcc
 _readHandle
 _readOnly
 _readState
@@ -10438,6 +10723,7 @@ _regexCount
 _regexopcode
 _regionText
 _relationships
+_rep
 _replref
 _requestHeaders
 _requestUri
@@ -10446,6 +10732,7 @@ _resourceSets
 _returnAttributes
 _returnType
 _reverse
+_rgc
 _rightToLeft
 _rules
 _runnerref
@@ -10463,6 +10750,7 @@ _sentCloseFrame
 _serializationInfo
 _service
 _siInfo
+_ski
 _skipAllChildren
 _skipInterfaceAttributeList
 _skipchild
@@ -10477,6 +10765,7 @@ _startat
 _statementDepth
 _statements
 _stealCount
+_str
 _stringhash
 _strings
 _stringtable
@@ -10545,12 +10834,13 @@ _webSocket
 _webSocketErrorCode
 _workStealingQueues
 _writer
-`.rsrc
+`55y\v
 `Use System.ComponentModel.SettingsBindableAttribute instead to work with the new settings model.
-a+^-	
 aByte
 aCommand line arguments that will be passed to the application specified by the FileName property.
 aProvides access to local and remote processes, enabling starting and stopping of local processes.
+a\vZq
+aaAT
 abortHandler
 abortHelper
 abortSocket
@@ -10572,6 +10862,7 @@ adbmaL
 adbmal
 addMethod
 addNewPos
+addT
 addTU
 addToContainer
 addValue
@@ -10685,8 +10976,10 @@ addressProp
 addressString
 address_size
 addresses
+adev
 advSink
 advapi32.dll
+advf
 adviseSink
 ageOrFreshOrStale
 agemO
@@ -10746,7 +11039,14 @@ appaK
 appak
 appearance
 applyDefaults
+apps
+arap
 aread
+arg0
+arg1
+arg2
+arg3
+arg4
 argName
 argTypes
 argsNone
@@ -10787,14 +11087,21 @@ asyncWriteRequest
 async_callback
 asynchronous
 atLeastOneValidIdn
+ateB
+ateZ
+ateb
 atehT
 atehtmysateht
+atez
 atleD
 atled
+atoI
+atoi
 attKey
 attachmentExists
 attachments
 attemptSocket
+attr
 attribs
 attributeCollection
 attributeList
@@ -10816,15 +11123,23 @@ authenticationScheme
 authenticationType
 authority
 autoConfigUrl
-autoDetect
 autoDetectProp
 autoFlush
 autoReset
 auto_decomp
 automaticallyDetectSettings
+b&XF
+b?8X\r
 bInheritHandle
 bLastCarriageReturn
+bX\n+l
+bX}8
+bX}9
+b\vlq
+b\vxq
 b`ns1 
+baa\n
+baa\v
 backlog
 backward
 bannerMessage
@@ -10879,14 +11194,14 @@ bufferId
 bufferLen
 bufferPtr
 buffer_time
+busn
+busy
 bypassList
 bypassListDelimiter
 bypassListProp
 bypassListString
 bypassOnLocal
 bypassOnLocalProp
-bypasslist
-bypassonlocal
 byteArray
 byteCount
 byteIndex
@@ -10903,8 +11218,6 @@ bytes_to_read
 bytes_to_write
 bytes_transfered
 bytes_written
-c+t-	
-c./4>$
 c_AcceptRanges
 c_CacheControl
 c_CacheScanPerIterations
@@ -10996,6 +11309,7 @@ cb_wrapper
 cback
 cchName
 cchReferencedDomainName
+celt
 certChain
 certErrors
 certHandle
@@ -11937,6 +12251,7 @@ configKey
 configPath
 configSection
 configValues
+conn
 connLock
 connectRequest
 connectSocket
@@ -12008,7 +12323,9 @@ creationDate
 creationTimeout
 creator
 creatorType
+cred
 credential_policy
+cric
 cricA
 cricE
 cricI
@@ -12020,6 +12337,7 @@ crici
 crico
 cricu
 critSec
+crlf
 cryptoKey
 ctl_not_time_valid
 ctl_signer_rev_unknown
@@ -12045,7 +12363,14 @@ current_socket
 customChannelBinding
 customServiceNames
 custom_service_names
+d&8G
+d&hG
 d."8N
+d3p7\v
+d:8Q\f
+d:HQ\f
+d?9Y\r
+data
 data1
 data>
 dataBits
@@ -12102,7 +12427,6 @@ defaultPolicyLevelProp
 defaultPort
 defaultPromptChar
 defaultProvider
-defaultProxy
 defaultServiceNames
 defaultSwitchValue
 defaultType
@@ -12119,6 +12443,7 @@ deliveryFormat
 deliveryMethod
 deliveryNotificationOptions
 deltaPercent
+desc
 descr
 deserialized
 design
@@ -12129,6 +12454,7 @@ designerType
 designerTypeName
 designers
 desired_access
+dest
 destByteIndex
 destBytes
 destLength
@@ -12158,6 +12484,7 @@ disposing
 disposition
 dispositionType
 distinguishedName
+dj[i\n
 dlclose
 dlopen
 dlsym
@@ -12178,6 +12505,7 @@ domainAttribute
 dontDeferFinalBytes
 dontEscape
 dontFragment
+dorp
 dot_char
 downloadCompletionDelegate
 downloadDataOperationCompleted
@@ -12210,7 +12538,12 @@ dwOptions
 dwReadFlags
 dwRecordOffset
 e.D+H
+e4uH\v
+e:DS\f
+e:TS\f
 eDoes not support X509FindType.FindByTemplateName, FindByApplicationPolicy and FindByCertificatePolicy
+ebus
+ecma
 edart
 editAny
 editAssigned
@@ -12289,8 +12622,10 @@ envVariables
 environmentVariables
 eofEvent
 eof_char
+epus
 equalValue
 equalityComparer
+erGe
 err_msg
 err_status
 errnum
@@ -12354,6 +12689,7 @@ exeMapCurrent
 exeMapPrev
 execHandler
 existingProvider
+exit
 exitCode
 exitContext
 exitMessage
@@ -12381,8 +12717,11 @@ extensionProp
 externalCancellationToken
 extraFlags
 extraValue
+f:0T\f
+f;bD
 fDesignTime
 fInDoubleQuotes
+fInX
 fOutX
 fOutxCtsFlow
 fRtsControl2
@@ -12397,6 +12736,7 @@ fam_Open
 fam_Pending
 famgis
 fcntl
+fdro
 fdsDict
 feeder
 fflags
@@ -12436,6 +12776,7 @@ fixedInfo
 fixupPath
 flagState
 focus
+fonf
 forIssuer
 forTrace
 force
@@ -12466,13 +12807,18 @@ framesize
 frameworkName
 freeifaddrs
 freshOrStale
+from
 fromAllowed
 ftpResponse
 fullPathNoLastSlash
 fullnamespace
 fullpath
+func
 funcname
 g&r{y
+g'wt
+g?AY\r
+g?JY\r
 gamin_CancelMonitor
 gamin_Close
 gamin_MonitorDirectory
@@ -14374,8 +14720,11 @@ gilEO
 gilea
 gileo
 gilzs
+gnal
+gnar
 gnirA
 gnira
+gnoc
 goMethod
 gotRequestStream
 gotit
@@ -14388,11 +14737,15 @@ groupname
 groupnum
 guidDsdCmdId
 gw_addr_list
-h+#.	
+gzip
+h+28
+h?RY\r
+h?ZY\r
 hEvent
 hEventLog
 hFile
 hHandle
+hMem
 hSourceHandle
 hSourceProcessHandle
 hTargetProcess
@@ -14429,6 +14782,7 @@ headersEncoding
 headersSent
 headers_lock
 heads
+help
 helpKeyword
 helpTopic
 helpUrl
@@ -14438,7 +14792,11 @@ hexDecodeMap
 hexEncodeMap
 highSurr
 highValue
+hint
 hispu
+hmod
+hoi-
+host
 hostAddress
 hostChanged
 hostE
@@ -14460,12 +14818,20 @@ httpRequest
 httpWebRequest
 httpWebRequestProp
 hw_param
-i.]rd|
+i#n2
+i+N8
+i1\vr
+i2\vr
+i2\vrD
+i>R8\r
+i@Hs\r
 iIf the WatchForExit property is set to true, then this event is raised when the associated process exits.
 iSystem.Net.NetworkInformation.NetworkInterfaceFactory+LinuxNetworkInterfaceAPI+<GetNetworkInterfaces>d__8
 iX}q$
 iX}r$
-iY	iX(
+iZ(T
+iZs}
+i\v4r
 i_stream
 ident
 identify
@@ -14490,6 +14856,7 @@ iface
 iface_flags_path
 iface_operstate_path
 iface_path
+ifap
 ifname
 ifu_broadaddr
 ifu_dstaddr
@@ -14502,10 +14869,8 @@ ignoreTimeout
 ignore_errors
 ignore_write_exceptions
 ignorecase
-ij(*(
-ijX}, 
+ij(N
 ijX}M 
-ij}, 
 immutable
 importKeychain
 importedData
@@ -14521,7 +14886,6 @@ includeSubdirectories
 incomplete - need more test
 incrementStatement
 indentSize
-indentsize
 infinite
 inherit
 inheritable
@@ -14588,10 +14952,15 @@ invalid_name
 invalid_policy
 invert
 ioControlCode
+ioJ,
+ioK,
 ioLock
+ioU*
 io_buffer
+ioa-
 ioares
 ioctl_code
+iout
 ip4stats
 ipAddress
 ipAddresses
@@ -14606,9 +14975,9 @@ ipproperties
 ipv4Mask
 ipv4iface_properties
 ipv4stats
+ipv6
 ipv6Enabled
 ipv6Prop
-iriParsing
 iriParsing_prop
 isAddOperation
 isAvailable
@@ -14686,27 +15055,26 @@ itemIndex
 itemType
 itemTypeProperties
 items
-j	sU 
-j++.	
-j+4.	
 j.*rOo
 j.e+k
+j2\vr
 jThe method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202
 jWhether the process component should watch for the associated process to exit, and raise the Exited event.
+jX(N
+jXs[
 jX}M 
 jY}l"
-j[[(t
-j_,*+
-j_,1	
-j_`}E
-j``}E
+j\tsU 
+j\vMr
+j_U8\r
 jaaaaaaai*z
 jnwz 
+jrCf
+js2 
 jumpDest
 justNormalized
 justcreated
-k+<.	
-k+H.	
+k+S8
 kCFNetworkProxiesHTTPEnable
 kCFNetworkProxiesHTTPPort
 kCFNetworkProxiesHTTPProxy
@@ -14751,9 +15119,15 @@ keyValuePair
 keychain
 keyword
 keywordType
+kind
 klass
 kqueue
-l+a.	
+krmf
+l%Ls
+l+d8
+l>l8\r
+l\vXr
+laer
 language
 languageProp
 lastChangeIndex
@@ -14774,13 +15148,16 @@ lazybranchcountback2
 lazybranchmarkback2
 lcxei
 leadingSurrogate
+leaf
 leafCertificateKey
 leaveInnerStreamOpen
 leaveOpen
+left
 legacyV1Mode
 legalcopyright
 legaltrademarks
 libasound
+libc
 libfam.so.0
 libgamin-1.so.0
 license
@@ -14812,6 +15189,19 @@ listeners
 listenersNode
 livecode
 llarof
+llub
+lmuA
+lmuE
+lmuI
+lmuO
+lmuU
+lmuY
+lmua
+lmue
+lmui
+lmuo
+lmuu
+lmuy
 loadUserProfile
 load_completed
 load_timeout
@@ -14836,7 +15226,6 @@ lockobj
 logFile
 logFileName
 logKey
-logfilename
 longParser
 lookupFriendlyName
 lookupMember
@@ -14854,10 +15243,12 @@ lpSource
 lpStrings
 lpSystemName
 lpszDay
+lptr
 lsarf
 lwrCaseScheme
 lwrCaseSchemeName
-m,XW	
+m,XW\t
+m>y8\r
 m_AbortSocket
 m_AbortSocket6
 m_Aborted
@@ -15174,15 +15565,12 @@ maxValue
 maxVersion
 maxWorkingSet
 max_path_length
-maxconnection
-maximumAge
 maximumAgeProp
 maximumCount
 maximumErrorResponseLength
 maximumErrorResponseLengthProp
 maximumResponseHeadersLength
 maximumResponseHeadersLengthProp
-maximumStale
 maximumStaleProp
 maximumThreshold
 maximumUnauthorizedUploadLength
@@ -15191,6 +15579,7 @@ maximumVersion
 mcerts
 mcint
 mcsOutMutex
+mdro
 mediaType
 memberAccessPermission
 memberName
@@ -15204,6 +15593,8 @@ messageInProcess
 messageQueue
 messageType
 methname
+mib4
+mib6
 microSeconds
 milliseconds
 millisecondsTimeout
@@ -15218,7 +15609,6 @@ minReallocateChars
 minVersion
 minWorkingSet
 minimum
-minimumFresh
 minimumFreshProp
 minimumLength
 minimumRequiredBytes
@@ -15236,6 +15626,7 @@ mono_net_io_renegotiate
 mono_net_io_shutdown
 moreBytes
 mouse
+ms3 
 mscoree.dll
 mscorlib
 msgDll
@@ -15313,11 +15704,23 @@ mymode
 myreason
 mysfela
 mytimerId
-n,tW	
+n,tW\t
+n1\vr
+n1\vr4n
+n3\8\v
+n?8Z\r
+n@At\r
+n@Jt\r
 nChars
 nNumberOfBytesToRead
 nThis value has been deprecated. Use SelectionTypes.Auto instead.  http://go.microsoft.com/fwlink/?linkid=14202
+nYE\v
+n\n88
+n\n8N
+n\n8a
+n\n8t
 n_s1 
+name
 name1
 name2
 nameAtt
@@ -16083,6 +16486,7 @@ nextMustBeStartChar
 nextReadCalled
 next_id
 nifni
+nisi
 niton
 nl_args
 nl_sock
@@ -16110,6 +16514,8 @@ notifyDesc
 notifyFilter
 notifyParent
 nroht
+ns1 
+ns2 
 nsdataRef
 nspace
 nstream
@@ -16126,6 +16532,11 @@ number
 numberOfBuffers
 numbers
 numericOption
+o&LI
+o+v8
+o?IZ\r
+o?RZ\r
+o@Rt\r
 oThis method has been deprecated. Use GetInvocationTarget instead.  http://go.microsoft.com/fwlink/?linkid=14202
 obj_val
 objectName
@@ -16173,6 +16584,8 @@ op_LessThan
 op_LessThanOrEqual
 op_Subtraction
 opaque
+opd1
+opd2
 openGroup
 openReadOperationCompleted
 openWriteOperationCompleted
@@ -16199,6 +16612,7 @@ originalHostName
 originalProxyString
 originalWaitMillisecondsTimeout
 originalfilename
+orue
 other
 otherEntry
 otherUri
@@ -16221,25 +16635,56 @@ outputStreamReadMode
 output_stream
 outstanding
 owningObject
+owns
 ownsHandle
 ownsSocket
 ownsStream
-p	oY;
-p*r	O
+p(L3
+p(U0
+p(i2
+p*Bs
+p*Fs
 p*r"c
 p*r.9
 p*r0c
+p*r5
+p*r6
+p*r8
 p*r89
+p*r9
 p*r9F
+p*rA
+p*rD
+p*rE
 p*rF9
+p*rI
 p*rK>
+p*rM
+p*rN
+p*rO
+p*rQ
+p*rT
 p*rUA
+p*rV
+p*rW
 p*rX9
+p*r\tO
+p*ra
+p*rb
+p*rc
 p*rd9
+p*rj
+p*rm
 p*rnq
 p*ro@
+p*rp
 p*rr9
+p*ry
 p*r|9
+p*sb
+p5T~\v
+p?eZ\r
+p@dt\r
 pBlobData
 pBytes
 pFormatetc
@@ -16248,14 +16693,22 @@ pLicVerified
 pOutBufLen
 pPerAdapterInfo
 pRuntimeKeyAvail
+pShe
 pStats
+pStr
 pTcpTable
 pUdpTable
 pUnkForRelease
+p\f\tor
+p\toX
+p\toY
+p\toY;
+p\v6s
 packetInformation1
 packetInformation2
 pageName
 painfo
+pair
 paramObject
 parentElement
 parentOfMatch
@@ -16326,21 +16779,149 @@ plainString
 pmysa
 pnBytesRead
 pnMinNumberOfBytesNeeded
+po0 
+po2\n
+po4\n
+poQ$
+poV8
+poY=
+po]8
+poa8
+poc 
 policies
 policyEnforcement
-policyLevel
 policyLevelProp
 policy_enforcement
 poll_serial
+pool
 pooledStream
+porp
+port
 portName
 portNumber
 port_name
 postBuffer
 postEvents
 post_buffer
+pot\t
+po}4
+pr"X
+pr#6
+pr#E
+pr%2
+pr%8
+pr%D
+pr%O
+pr%U
+pr'P
+pr'R
+pr)J
+pr+8
+pr+O
+pr+S
+pr-1
+pr-3
+pr-7
+pr-G
+pr/T
+pr1*
+pr1/
+pr3(
+pr3I
+pr3Q
+pr5%
+pr5X
+pr5[
+pr70
+pr79
+pr7\f
+pr7\n
+pr7\v
+pr9!
+pr9+
+pr9B
+pr9K
+pr;5
+pr=W
+pr=Y
+pr?2
+pr?6
+pr?V
+prA&
+prA'
+prA.
+prA4
+prA@
+prAD
+prAr
+prC>
+prCA
+prCN
+prE/
+prE1
+prE4
+prE5
+prE;
+prE?
+prEC
+prEJ
+prG"
+prG(
+prG,
+prG\r
+prI3
+prIU
+prK0
+prK8
+prK<
+prKP
+prKg
+prLI
+prM*
+prM6
+prMZ
+prNx
+prO7
+prOF
+prQ+
+prQ8
+prQL
+prQM
+prS*
+prS0
+prS2
+prS:
+prS[
+prU+
+prU,
+prW3
+prW=
+prWF
+prWH
+prWT
+pr[S
+pr\r8
+pr\rY
+pr\ty
+pr\vA
+pr]6
+pr]7
+pr_B
+pr_O
+pra)
+pra,
+pra1
+praK
+prc)
+prc;
+pre.
+pre/
+pre0
+pre9
 preAuthenticate
 preBuffer
+preI
+pre\f
 pre_buffer
 preexistingHandle
 preferBuiltInTypes
@@ -16350,16 +16931,33 @@ prefixProp
 prefixUri
 prefixes
 preiew
+prep
 preserveSite
+prev
 prevInputPos
 previous
 previousCount
+prg5
+pri 
+priG
 priorMask
 priorOffset
 priority
 priorityClass
 priority_request
 privateKey
+prk%
+prk;
+prkr
+prm9
+prmZ
+prnn
+pro"
+pro%
+pro'
+pro2
+proX
+pro\n
 procDir
 procInfo
 process
@@ -16429,8 +17027,43 @@ proxyString
 proxyUri
 proxy_auth_state
 proxy_event
-proxyaddress
+prq*
+prq\r
+prs+
+prs1
+prs7
+prs8
+prsA
+prsE
+pru!
+pru-
+pruJ
+pruY
+prw&
+prw(
+prwP
+prwQ
+prwW
+pry$
+pry3
+pry4
+pry8
+pryR
+przW
+pr{1
+pr{2
+pr{6
+pr{y
+pr}U
+pr}V
+ps9\v
+psW\t
+psbn
+psme
+psne
 psniht
+pso'
+psx6
 ptrToSound
 pubkey
 publicOnly
@@ -16446,9 +17079,8 @@ query_string
 question
 queueLock
 quick
-r+$0	
-r+X1	
-r+h.	
+r+X1\t
+r+v8
 rabvrb
 radix
 raiseItemChangedEvents
@@ -16456,6 +17088,7 @@ raiseListChangedEvents
 raisedOnExited
 rangeSpecifier
 ranges
+rank
 rawData
 rawOctets
 rawParameters
@@ -16465,6 +17098,7 @@ rawString
 rawUri
 rawValue
 raw_url
+rcam
 rdlength
 reachability
 readBuffer
@@ -16507,6 +17141,7 @@ referrer
 reflectionType
 refresh
 refreshReflectionProvider
+refs
 refsInitialized
 regexInput
 regexPattern
@@ -16633,6 +17268,7 @@ remove_networkAvailabilityChanged
 removedMark
 renameTo
 renamed
+repl
 replacement
 replacementStrings
 reply
@@ -16713,13 +17349,26 @@ roptions
 rotation
 roundtripTime
 rparam
+rr1g
+rrAd
+rrAh
+rrAl
+rrAr
+rrAu
+rrad
+rrah
+rral
+rrar
 rrarc
+rrau
 rsaOid
+rsvd
 rsvd1
 rsvd2
 rsvd3
 rtsEnable
 rts_enable
+rule
 runInstaller
 runLoop
 runLoopMode
@@ -16752,6 +17401,7 @@ runtrack
 runtrackcount
 runtrackpos
 rwTimeout
+s.58
 sPoint
 s_BypassCacheBinding
 s_CacheConfigSettings
@@ -16874,6 +17524,7 @@ sedaps
 seed_endpoint
 segment
 selectionType
+self
 selfLock
 semaphoreSecurity
 semit
@@ -16917,6 +17568,8 @@ servicePoints
 serviceType
 serviceTypeComparer
 services
+set1
+set2
 setCookieHeader
 setCreate
 setInternalLength
@@ -17603,6 +18256,7 @@ sin_addr
 sin_family
 sin_len
 sin_port
+site
 siteCount
 sites
 sizeNeeded
@@ -17621,6 +18275,7 @@ sll_pkttype
 sll_protocol
 smaid
 smpChar
+snap
 snd_pcm_close
 snd_pcm_drain
 snd_pcm_hw_params
@@ -17668,6 +18323,7 @@ socketType
 socket_async_result
 sockets
 soft_resample
+sopa
 sortDirection
 sorter
 sorts
@@ -17713,6 +18369,7 @@ startTime
 startedEvent
 startingIndex
 startpos
+stat
 stateLock
 stateMachine
 stateObject
@@ -17727,7 +18384,9 @@ stderr
 stdin
 stdout
 stgmedium
+stms
 stmts
+stop
 stopBits
 stop_bits
 store2
@@ -17777,7 +18436,6 @@ switchName
 switchSetting
 switchSettings
 switchType
-switchValue
 switchValueString
 switches
 symbol
@@ -17791,12 +18449,15 @@ systemFrequency
 systemMetadata
 t_ThreadContext
 t_cachedStringBuilder
+tab4
+tab6
 tabClass
 tabClassName
 tabClassNames
 tabClasses
 tabScope
 tabScopes
+take
 takeOwnership
 targetAddress
 targetAddresses
@@ -17813,10 +18474,12 @@ targetPort
 targetProcessId
 targetURL
 targetUri
+tces
 tcp_keepalive
 tcp_keepalive_interval
 tcp_keepalive_time
 technology
+temp
 temp_files
 template
 templateResponse
@@ -17860,6 +18523,7 @@ tlsContext
 tlsProvider
 tlsSettings
 tlsStream
+tnec
 toAllowed
 toBeHashed
 toMask
@@ -17870,7 +18534,9 @@ toStringUnknown
 toThrow
 toUri
 toddim
+tods
 tokentype
+tool
 toolboxItemType
 toolboxItemTypeName
 topopts
@@ -17884,6 +18550,7 @@ totalResponseHeadersLength
 totalSize
 totalTimeout
 totalWritten
+touq
 trace
 traceCallback
 traceMessage
@@ -17899,6 +18566,7 @@ trailingSurrogate
 transactionSlotName
 transferEncoding
 transient
+trap
 trueStatements
 trustCA
 trustedList
@@ -17911,12 +18579,15 @@ tspecials
 tv_nsec
 tv_sec
 tymed
+type
 typeChanged
 typeId
 typeParameter
 typeProp
 typeRef
 typeprefix
+u'8v
+u4LU\v
 u6_addr8
 uSome X500DistinguishedNameFlags options aren't supported, like DoNotUsePlusSign, DoNotUseQuotes and ForceUTF8Encoding
 uSystem.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -18028,7 +18699,6 @@ unsafe_ntlm_auth
 unsafe_sharing
 unspecifiedMaximumAge
 unspecifiedMaximumAgeProp
-unsupported
 unused
 unused property
 unusedContext
@@ -18039,6 +18709,9 @@ uploadStringOperationCompleted
 uploadValuesOperationCompleted
 upperBoundActive
 upperValue
+ur]g
+uri1
+uri2
 uriComponents
 uriFormat
 uriKind
@@ -18119,7 +18792,10 @@ usesystemdefault
 utcDefaultTimeZoneOffset
 utf8Encoding
 utf8unmarked
+v'Av
+v'Hv
 v4.0.30319
+v@4u\r
 valCallbacks
 validDateTimeFormats
 validOnly
@@ -18130,6 +18806,7 @@ validateStrictAddress
 validationCallback
 validator
 validators
+vals
 value
 valueArray
 valueAtt
@@ -18145,6 +18822,7 @@ valuePtr
 valueToValidate
 value__
 value_prop
+verb
 verbose
 verifyCallback
 verifyResult
@@ -18153,10 +18831,11 @@ vflags
 visibility
 visible
 viuqe
+vrA\t
 vtime
-w$k.*3"4
-w+l5	
-w,lZ	
+w+l5\t
+w,lZ\t
+w7_j
 wCategory
 wNumStrings
 wType
@@ -18217,6 +18896,8 @@ write_serial
 write_timeout
 wrong_usage
 wsChars
+x&DJ
+x'qv
 xSupportsIPv4 is obsoleted for this type, please use OSSupportsIPv4 instead. http://go.microsoft.com/fwlink/?linkid=14202
 xSupportsIPv6 is obsoleted for this type, please use OSSupportsIPv6 instead. http://go.microsoft.com/fwlink/?linkid=14202
 xSystem.Diagnostics.Design.LogConverter, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -18227,25 +18908,30 @@ xoff_char
 xoff_lim
 xon_char
 xon_lim
-y,X[	
-y,`\	
+xrdS
+yR?B
 ySystem.Collections.Specialized.StringDictionary+GenericAdapter+ICollectionToGenericCollectionAdapter+<GetEnumerator>d__14
 ySystem.Diagnostics.Design.FSWPathEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3auSystem.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 ySystem.Diagnostics.Design.VerbConverter, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ypoc
 ytpme
-z%|D&
 z*Brp
-z*JsS
-z.'+(
+z.Ls
+z/8E\n
+z13\t
 zThis method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.GetSection
+z\toD
 z_stream
+zbr=
+zsS8
 {DebuggerDisplay,nq}
 {Returns the native handle for this process.   The handle is only available if the process was started using this component.
 {System.ComponentModel.Design.BinaryEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3auSystem.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 {System.Diagnostics.Design.ProcessDesigner, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 |.P80
 |Callers should not use the ICodeCompiler interface and should instead use the methods directly on the CodeDomProvider class.
-},(^	
-},H]	
+}8e5
 }Callers should not use the ICodeGenerator interface and should instead use the methods directly on the CodeDomProvider class.
-~,h^	
+}r5h
+~j30
+~rUh

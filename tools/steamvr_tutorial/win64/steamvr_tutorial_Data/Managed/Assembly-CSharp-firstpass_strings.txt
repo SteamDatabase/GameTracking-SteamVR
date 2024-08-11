@@ -1,15 +1,5 @@
-					
-							
-								
-			ZZ
-	*	B	O	Z	u	
-	Colliders
-	Crouching
- 0c	h
- AZ(\
- A}&	
- A}F	
- A}g	
+ 0c\th
+ A4E
  Multiplier of the curve's value.
  Reference to the FBBIK component
  Reference to the FBBIK componet.
@@ -26,19 +16,14 @@
 !The muscle strength (multiplier).
 !The speed to follow the Transform
 !The weight of rotating this bone.
-!This program cannot be run in DOS mode.
 !Type of the FBBIK effector to use
 !Which hand is holding the weapon?
-"33s?6	
 "Hit points for the FBBIK effectors
 "RootMotion.FinalIK.FullBodyBipedIK
 "The master weight for all fingers.
 "Which axes to limit the offset on?
-"fff?"
 "fff?Z(
-"fff?}
-"fff@Z
-"fff@[
+"fff@Z\n
 #<Z"33{A"ff&?o
 #Blob
 #GUID
@@ -55,10 +40,8 @@ $The Transform to transfer motion to.
 $The animations called on this event.
 $The fade in time of the interaction.
 $The multiplier of the curve's value.
-%N	YV*
 %Scripts/RootMotion.FinalIK/IK/Limb IK
 %The speed of moving the feet up/down.
-&+,rBM
 &If > 0, dampers the stretching effect.
 &Scripts/RootMotion.FinalIK/IK/Biped IK
 &TUTORIAL VIDEO (PART 2: PICKING UP...)
@@ -68,6 +51,8 @@ $The multiplier of the curve's value.
 &The effector type of the punching hand
 &The master speed for all interactions.
 &The weight curves for the interaction.
+&rLL
+&riO
 'Master weight for positioning the head.
 'The InteractionObject to interact with.
 'The UnityEvent to invoke on this event.
@@ -90,25 +75,10 @@ $The multiplier of the curve's value.
 )Scripts/RootMotion.FinalIK/IK/FABRIK Root
 )The Muscles managed by this PuppetMaster.
 )The interpolation speed of spine bending.
-*.r	*
-*.r	C
-*.r+\
-*.r/G
-*.r/i
-*.r4N
 *.r4S
-*.r:Q
-*.r<]
-*.r='
 *.rCl
-*.rD)
-*.r\D
-*.re^
-*.rh(
-*.rlj
 *.rpm
 *.rqT
-*.rwC
 *BrNM
 *Linking this offset to the FBBIK effectors
 *Name of the state in the Animator to warp.
@@ -118,6 +88,7 @@ $The multiplier of the curve's value.
 *RootMotion.Demos.Phone+<EnableDisplay>d__5
 *The master speed of locomotion animations.
 *The speed of moving the character up/down.
+*rrL
 +Interpolation speed of the LookAtIK target.
 +Interpolation speed of the LookAtIK weight.
 +Max distance of raycasting from the camera.
@@ -125,10 +96,10 @@ $The multiplier of the curve's value.
 +Which body part does this muscle belong to?
 +https://www.youtube.com/watch?v=LYusqeqHAUc
 ,RootMotion.Demos.AnimatorController3rdPerson
+-3rE
 -Child of weaponsPivot, parent of all weapons.
 -Kr0M
 -Settings for killing and freezing the puppet.
-.,+R(-
 .Linking this recoil offset to FBBIK effectors.
 .Muscle groups to which those properties apply.
 .RootMotion.Demos.SoccerDemo+<ResetDelayed>d__4
@@ -140,11 +111,14 @@ $The multiplier of the curve's value.
 .Weight of aiming the body to follow the target
 .cctor
 .ctor
-.eBZ	{a
+.eBZ
 .eBZ"
 .eBZ(8
 .eBZ*
-.text
+.eBZ\f
+.eBZ\r
+.eBZ\t{a
+.eBZ\v
 /Layer of the 'Animation State' in the Animator.
 /Scripts/RootMotion.FinalIK/Grounder/Grounder IK
 /Start time of the current destination state. Value is in seconds. If no explicit fixedTime is specified or fixedTime value is float.NegativeInfinity, the state will either be played from the start if it's not already playing, or will continue playing from its current time and no transition will happen.
@@ -163,6 +137,7 @@ $The multiplier of the curve's value.
 1Reference to the bone that this hit point rotates
 1The weight curve multipliers for the interaction.
 1The weight of moving the body along with the head
+24S\v
 2Creating a Puppet from a ragdoll character prefab.
 2Offset magnitude in the direction of the hit force
 2Scripts/RootMotion.Dynamics/PuppetMaster/Prop Root
@@ -170,13 +145,21 @@ $The multiplier of the curve's value.
 2Speed of various position/rotation interpolations.
 2The amount of spine bending towards upward slopes.
 2The weight of rotating the head bone after solving
+32p\n
 3How much should motion be absorbed on this effector
 3Procedural motion speed (if not using root motion).
 3The maximum angle of root rotation (range: 0 - 90).
 3The weight of moving the thighs along with the head
 3UnityStandardAssets.Utility.FOVKick+<FOVKickUp>d__9
 3Which weapon is the character holding at this time?
-40s	#
+40s\t#
+4B}h\n
+4B}z\v
+4C4b
+4C6(
+4CZV
+4C[Y
+4C[Y\v
 4Falloff for child muscles (power of kinship degree).
 4Layers that will not collide with the Ragdoll layer.
 4RootMotion.Dynamics.PuppetMaster+<AliveToDead>d__162
@@ -185,11 +168,13 @@ $The multiplier of the curve's value.
 4The range for the character's position and rotation.
 4The resulting value will be applied to this channel.
 4The weight of this effector (could also be negative)
+512\n
 5Falloff for parent muscles (power of kinship degree).
 5How much velocity transfer from animation to ragdoll?
 5The Grounding solver. Not to confuse with IK solvers.
 5The weight of lowering the pelvis to the lowest foot.
 5The weight of rolling the bones in towards the target
+5\vrg
 6Multiplier for the distance of the root to the target.
 6Muscles to boost. Used only when 'Full Body' is false.
 6PathologicalGames.ConstraintBaseClass+<Constrain>d__29
@@ -217,7 +202,6 @@ $The multiplier of the curve's value.
 8The speed of blendig between the two falling animations.
 8Various references and settings for left handed weapons.
 8Weight of rotating the feet to the ground normal offset.
-9,.	I
 9How long does it take to blend from ragdoll to animation?
 9Multiplies collision resistance for the specified layers.
 9RootMotion.Demos.ResetInteractionObject+<ResetObject>d__7
@@ -228,7 +212,6 @@ $The multiplier of the curve's value.
 9The array of warps, can have multiple simultaneous warps.
 9Various references and settings for right handed weapons.
 9Warping weight by normalized time of the animation state.
-:0{	x
 :Amount of velocity based prediction of the foot positions.
 :RootMotion.Dynamics.BehaviourPuppet+<EnableColliders>d__65
 :RootMotion.Dynamics.PuppetMaster+<ActiveToKinematic>d__116
@@ -351,7 +334,6 @@ $The multiplier of the curve's value.
 <lastUsedInteractionSystem>k__BackingField
 <legs>k__BackingField
 <length>k__BackingField
-<mW>5__3
 <mainCamera>5__4
 <matchWithInputManager>k__BackingField
 <multiplier>5__2
@@ -377,7 +359,6 @@ $The multiplier of the curve's value.
 <speedPoint>k__BackingField
 <stopTime>5__3
 <systems>5__2
-<t>5__2
 <targetAnimatedPosition>k__BackingField
 <targetAnimation>k__BackingField
 <targetPoint>k__BackingField
@@ -396,9 +377,8 @@ $The multiplier of the curve's value.
 =The default BoxCollider used when this prop is not picked up.
 =The head (optional, if you intend to maintain it's rotation).
 =UnityStandardAssets.Effects.ExplosionPhysicsForce+<Start>d__1
+=ZY4
 >'Boosting' is a term used for making muscles temporarily immune to collisions and/or deal more damage to the muscles of other characters. That is done by increasing Muscle.State.immunity and Muscle.State.impulseMlp. For example when you set muscle.state.immunity to 1, boostFalloff will determine how fast this value will fall back to normal (0). Use BehaviourPuppet.BoostImmunity() and BehaviourPuppet.BoostImpulseMlp() for boosting from your own scripts. It is helpful for making the puppet stronger and deliever more punch while playing a melee hitting/kicking animation.
->+G	M
->+H	a
 >Amplify the 'transform's' position relative to this Transform.
 >Bones to use for the CCD pass. Assign spine and/or neck bones.
 >If true, IK can be used on top of physical ragdoll simulation.
@@ -408,8 +388,6 @@ $The multiplier of the curve's value.
 >UnityStandardAssets.Effects.ExplosionFireAndDebris+<Start>d__4
 >UnityStandardAssets.Utility.LerpControlledBob+<DoBobCycle>d__4
 >Used for smoothing out vertical pelvis movement (range 0 - 1).
-?	YZY
-?"333?"
 ?How much is the rotation randomized each time Recoil is called?
 ?IK componets of the hindlegs. Can be any type of IK components.
 ?If true, the prop will be picked up when PuppetMaster initiates
@@ -422,18 +400,9 @@ $The multiplier of the curve's value.
 ?UnityStandardAssets.Utility.ObjectResetter+<ResetCoroutine>d__6
 ?UnityStandardAssets.Utility.ParticleSystemDestroyer+<Start>d__4
 ?UnityStandardAssets.Utility.TimedObjectActivator+<Activate>d__5
-?YV*&
-?ZX(^
 ?ZXY}K
+?ZXo
 ?ZX}O
-@.reloc
-@?Z	[(8
-@@X(.
-@@Z(?
-@@Z(J
-@@ZY"
-@@[*&
-@@rX!
 @How fast will the muscles of this group regain their pin weight?
 @How much angular velocity to transfer from animation to ragdoll?
 @How much is the magnitude randomized each time Recoil is called?
@@ -447,8 +416,6 @@ $The multiplier of the curve's value.
 @Smaller value means more unpinning from collisions (multiplier).
 @The master weight. Use this to fade in/out the grounding effect.
 @What the camera should be looking at to trigger the interaction?
-@Y}J	
-@ZX(^
 AAnimation State to crossfade to when this behaviour is activated.
 AIK components for the forelegs. Can be any type of IK components.
 AIf 1, muscles of this group will always be mapped to the ragdoll.
@@ -515,6 +482,7 @@ Align
 AliveToDead
 AliveToFrozen
 Amplifier
+Anim
 AnimState
 Animate
 AnimatePhysics
@@ -537,6 +505,7 @@ ApplyLimits
 ArgumentNullException
 Array containing the absorbers
 ArrayList
+Asin
 Assembly-CSharp-firstpass
 Assembly-CSharp-firstpass.dll
 Assign spine and/or neck bones.
@@ -556,8 +525,6 @@ AudioPlayback_Paused
 AudioPlayback_Playing
 AudioPlayback_Status
 AudioPlayback_Undefined
-Auto-Mapping
-Auto-detect
 Auto-detect References
 AutoDetect
 AutoDetectParams
@@ -576,9 +543,14 @@ AxisOption
 AxisOptions
 AxisTools
 AxisTouchButton
+B4Z\r
+B4Z\v
+B4v\v
 BRootMotion.Demos.CharacterAnimationMeleeDemo+<FadeLayerWeight>d__3
+BSJB
 BThe minimum time since this behaviour activated before it can end.
 BUnityStandardAssets.Utility.TimedObjectActivator+<ReloadLevel>d__7
+BZ}g
 BackInCubic
 BackInQuartic
 BackwardReach
@@ -616,6 +588,7 @@ Boost
 BoostImmunity
 BoostImpulseMlp
 Booster
+Both
 Bounds
 BoxCollider
 BrakeLight
@@ -629,6 +602,8 @@ BulletHole
 BulletHole+<DestroyDelayed>d__2
 ButtonExists
 ButtonHandler
+C14\n
+C2t\n
 C:\perforce\keithb_ZACHT\vr\unity\main\tutorial_2018\Temp\Assembly-CSharp-firstpass.pdb
 CAmplification magnitude along the horizontal axes of the character.
 CAssociateWithClanResult_t_CallResult
@@ -1079,11 +1054,13 @@ EWorkshopFileAction
 EWorkshopFileType
 EWorkshopVideoProvider
 EWorkshopVote
+Edge
 EffectorLink
 EffectorMode
 EffectorOffset
 Elevator
 EmissionModule
+Emit
 EmitTyreSmoke
 EnableColliders
 EnableDisplay
@@ -1094,6 +1071,7 @@ EndInvoke
 EndSkidTrail
 Ending
 EngineAudioOptions
+Enum
 Euler
 Evaluate
 EventSystem
@@ -1374,7 +1352,6 @@ GetVideoURLResult_t
 GetWarpWeight
 GetWeightCurveIndex
 GetWorldPose
-Getting Up
 Graphic
 GroundCheck
 GroundTarget
@@ -1385,6 +1362,9 @@ GrounderFBBIK
 GrounderIK
 GrounderQuadruped
 Grounding
+HBZ"
+HB}z\r
+HC}V
 HHow much will collisions with muscles of this group unpin child muscles?
 HMultiplier of the positionDamper of the ConfigurableJoints' Slerp Drive.
 HOnly used if this hit point gets hit when already processing another hit
@@ -1429,6 +1409,7 @@ HierarchyIsValid
 HighFriction
 HingeJoint
 HingeToConfigurable
+Hips
 HitDelegate
 HitPointBone
 HitPointEffector
@@ -1436,6 +1417,7 @@ HitReaction
 HitReactionTrigger
 HoldingHands
 HorizontalBobRange
+Hose
 HumanBodyBones
 HybridMultifractal
 IAsyncResult
@@ -1563,6 +1545,7 @@ Iterate
 IterationDelegate
 IteratorStateMachineAttribute
 JetParticleEffect
+Join
 Joint and Muscle Settings
 JointConverter
 JointDrive
@@ -1572,6 +1555,8 @@ JointSpring
 JointType
 Joints
 Jumping and Falling
+K16\n
+K2v\n
 KCalled when the character starts getting up from a supine pose (facing up).
 KFBBIK effector position offsets for the recoil (in aiming direction space).
 Keyframe
@@ -1584,9 +1569,6 @@ Knock out distance multiplier while in the GetUp state. Increasing this will pre
 L=ZXV
 L=ZYV
 L>Z4"
-L>}C	
-L>}S	
-L>}W	
 LCalled when the character starts getting up from a prone pose (facing down).
 LIf the velocity of the pelvis falls below this value, can end the behaviour.
 LReference to the LookAt component (only used for the head in this instance).
@@ -1642,6 +1624,7 @@ LocalZ
 LogError
 LogWarning
 Logger
+Look
 LookAtBone
 LookAtIK
 LookAtInteraction
@@ -1651,6 +1634,7 @@ Lookatpoint
 Losing Balance
 LowBatteryPower_t
 Lowered
+M45\f
 MODE_OPTIONS
 MThe weight of rotating the character root to the ground angle (range: 0 - 1).
 Main Properties
@@ -1671,6 +1655,7 @@ Master Weights
 MasterProps
 MatchMakingKeyValuePair_t
 Matching target velocity
+Math
 Mathf
 Matrix4x4
 MechSpider
@@ -1729,8 +1714,7 @@ NoOfGears
 NoTargetDefault
 NotImplementedException
 NotSupportedException
-O+,	4
-O+2	s
+O+2\ts
 OCalled when the character has fully recovered and switched to the Puppet state.
 OThe speed of rotating the character root to the ground normal (range: 0 - inf).
 OUTPUT_ROT_OPTIONS
@@ -1857,7 +1841,6 @@ OpenUserManual
 OpenUserManualComponent
 OpenUserManualPerformance
 OpenUserManualSetup
-Optimizations
 Optional Bones
 Optional. The master weight of the CCD (Cyclic Coordinate Descent) IK effect that bends the spine towards the head effector before FBBIK solves.
 OrthoNormalize
@@ -1881,6 +1864,7 @@ P2PSessionState_t
 PS3TrophiesInstalled_t
 PSNGameBootInviteResult_t
 ParamArrayAttribute
+Part
 ParticleCollisionEvent
 ParticlePhysicsExtensions
 ParticleSystemDestroyer
@@ -1927,6 +1911,7 @@ PuppetMaster
 PuppetMasterSettings
 PuppetMasterTools
 PuppetUpdateLimit
+Q8>o
 QAlpha of the progress slider relative to the progress of triggering interactions.
 QImmunity to apply to the muscles. If muscle immunity is 1, it can not be damaged.
 QMax angular offset of the character's forward from the direction of this trigger.
@@ -1937,7 +1922,9 @@ QuaTools
 Quality
 QualitySettings
 Quaternion
-R)Y	Z
+R)Y\tZ
+R4a\v
+RSDS
 RTemporarily increase the mass of the Rigidbody when a hitting action is triggered.
 RThe maximum angle of rotating the quadruped upwards (going uphill, range: 0 - 90).
 RWill not get up before the velocity of the hip muscle has come down to this value.
@@ -1960,7 +1947,7 @@ RecoilOffset
 RecoilTest
 RecordVelocities
 RecordVelocity
-References
+Rect
 ReferencesError
 ReferencesWarning
 Regain pin weight speed multiplier while in the GetUp state. Increasing this will prevent the character from loosing balance again immediatelly after going from Unpinned to GetUp state.
@@ -2059,6 +2046,8 @@ RuntimeCompatibilityAttribute
 RuntimeFieldHandle
 RuntimeHelpers
 RuntimeTypeHandle
+S18\n
+S2x\n
 SBones to use for stretching. The more bones you add, the less noticable the effect.
 SCalled when the character is knocked out (loses balance) only from the GetUp state.
 SHA256
@@ -2152,6 +2141,7 @@ SetVirtualMousePositionX
 SetVirtualMousePositionY
 SetVirtualMousePositionZ
 SetWorldScale
+SetY
 SetupError
 SetupWarning
 Shader
@@ -2159,12 +2149,12 @@ Shooting
 Should the muscles collide with each other? Consider leaving this off while the puppet is pinned for performance and better accuracy.  Since the joints are actuated, most PuppetMaster simulations will not actually require internal collisions at all.
 ShoulderRotator
 SidewaysAxis
+Sign
 SimpleActivatorMenu
 SimpleAimingSystem
 SimpleLocomotion
 SimpleMouseRotator
 SimpleMove
-Simulation
 Single
 Singleton`1
 SingularityDetected
@@ -2215,6 +2205,7 @@ SpineWarning
 SpringAxis
 SpringToConfigurable
 SqrMagnitude
+Sqrt
 Stage1
 Stage2
 Standalone
@@ -3018,7 +3009,6 @@ The interaction speed multiplier for this effector. This can be used to make int
 The layer to assign the PuppetMaster and all it's muscles to. Collisions between this layer and the 'Character Controller Layer' will be ignored, or else the ragdoll would collide with the character controller.
 The layer to assign the character controller to. Collisions between this layer and the 'Ragdoll Layer' will be ignored, or else the ragdoll would collide with the character controller.
 The layers that will be raycasted from the camera (along camera.forward). All InteractionTrigger look at target colliders should be included.
-The limits
 The master weight
 The master weight of aiming.
 The master weight of bending/twisting the spine to the rotation of the head effector. This is similar to CCD, but uses the rotation of the head effector not the position.
@@ -3061,7 +3051,6 @@ TriggerEventBroadcaster
 TriggerIndexIsValid
 TriggerInteraction
 TriggerUntriggeredEvents
-Triggering
 Triggering Progress
 TrigonometricBone
 TrigonometricIK
@@ -3129,7 +3118,6 @@ UpdateTransform
 UpdateTriggerEventBroadcasting
 UpdateVirtualAxes
 UseFABRIK
-User Manual
 User Manual (Component)
 User Manual (Performance)
 User Manual (Setup)
@@ -3143,7 +3131,7 @@ UserControlThirdPerson
 UserStatsStored_t
 UserStatsUnloaded_t
 Using effector.positionOffset or effector.position with effector.positionWeight? The former will enable you to use effector.position for other things, the latter will weigh in the effectors, hence using Reach and Pull in the process.
-V)I	t
+V)I\tt
 V3Tools
 VRAimingController
 VRAnimatorController
@@ -3173,7 +3161,7 @@ WaitForEndOfFrame
 WaitForFixedUpdate
 WaitForSeconds
 WakeUp
-Wall Running
+Warp
 WaterHoseParticles
 WaypointCircuit
 WaypointList
@@ -3196,24 +3184,65 @@ WorldY
 WorldZ
 WrapNonExceptionThrows
 WritePose
+X4c\v
 XRNode
+XZs/
+XkZ\v"
 Xsensitivity
 YThe Aim IK component. Aim IK is ust used for following the target slightly with the body.
+YZX*
 YZY(\
+YZY*
+YkZ(
 YkZ}o
 Ysensitivity
 ZCalled when the character is knocked out (loses balance). Doesn't matter from which state.
 ZUnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ZX(9
+ZXXV
+ZXYV
 ZXZX*
 ZXZX*~
-ZX}J	
-ZX}\	
+ZXok
+ZX}J\t
+ZX}b
+ZX}r
 ZYZ*"
+ZY}b
+ZZX*
 ZeroFriction
 [Called when the character is knocked out (loses balance) only from the normal Puppet state.
 [UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [https://www.youtube.com/watch?v=y-luLRVmL7E&index=1&list=PLVxSIA1OaTOuE2SB9NUbckQ9r2hTg4mvL
 \If you have multiple IK components, then this should be the one that solves last each frame.
+\fAuto-Mapping
+\fWall Running
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\n*br0
+\nGetting Up
+\nReferences
+\nReinitiate
+\nSimulation
+\nStretching
+\nThe limits
+\nTriggering
+\nYV|r
+\nYYo
+\nikY*f
+\nikYo
+\nkZ(Q
+\nkZ(R
+\nkZ(S
+\nrmp
+\rOptimizations
+\t*\tB\tO\tZ\tu\t
+\tColliders
+\tCrouching
+\tZom
+\v&\v1\v7\vM\vV\vo\v
+\vAuto-detect
+\vUser Manual
+\vZXV"
 ]If 0, muscles of this group will not be mapped to the ragdoll pose even if they are unpinned.
 ]The collider that registers OnTriggerEnter and OnTriggerExit events with InteractionTriggers.
 ]This has no other purpose but helping you distinguish props by PropRoot.currentProp.propType.
@@ -3221,11 +3250,8 @@ ZeroFriction
 ^Layers to ground the character to. Make sure to exclude the layer of the character controller.
 _CorDllMain
 __StaticArrayInitTypeSize=16
-_b`(d
 _bendNormal
 _poseRoot
-`.rsrc
-`@}D	
 `If true, all muscles of the 'Prop' group will be detached from the puppet when it loses balance.
 absorbers
 accel
@@ -3254,6 +3280,7 @@ aimTarget
 aimVel
 aimVerticalLimit
 aimWeight
+aimZ
 airBrakes
 airControl
 airSpeed
@@ -3273,6 +3300,7 @@ angularVelocityWeight
 angularXMotionDefault
 angularYMotionDefault
 angularZMotionDefault
+anim
 animSpeedMultiplier
 animState
 animatedHeadLocalRotation
@@ -3361,6 +3389,7 @@ bValue
 bVisible
 bWantCompressed
 bWantUncompressed
+ball
 baseForward
 behaviour
 benchHands
@@ -3543,6 +3572,7 @@ collisionStayMessages
 collisionThreshold
 collisions
 componentInitiated
+conf
 connectTo
 connectedBodyTransform
 connectedBone
@@ -3569,6 +3599,7 @@ cubDest
 cubMsgBody
 cubRGB
 cubToRead
+cube
 cubeDefaultPosition
 cubeRandomPosition
 cubeRigidbody
@@ -3673,10 +3704,14 @@ disableMovement
 disabledColliders
 disabledIKComponents
 display
+dist
 distances
+door
 dropListDefinition
 dropProps
 duration
+e4j\v
+e4t\v
 eAccountType
 eAppUsageEvent
 eComparisonType
@@ -3724,6 +3759,7 @@ effectorMode
 effectorPositionWeight
 effectorRotationWeight
 effectors
+el(7
 emissionImpulseAdd
 empty
 enableAngularLimitsOnKill
@@ -3752,6 +3788,7 @@ extinguishSounds
 extrudedMesh
 extrusion
 eyeForward
+eyes
 eyesWeight
 fData
 faceDirection
@@ -3766,6 +3803,7 @@ falloffChildren
 falloffGroup
 falloffParents
 falloffSpeed
+feet
 findInChildren
 fingers
 firePrefab
@@ -3795,6 +3833,7 @@ flVolume
 flZoom
 floatValue
 followSpeed
+foot
 footColliders
 footHeight
 footPositionWeight
@@ -3818,14 +3857,17 @@ freeUpdateLimit
 freezeFlag
 freezePermanently
 friendsGroupID
+from
 fromDirection
 fullBody
 fullTiltAngle
+func
 function
 gIf true, PuppetMaster, all it's behaviours and the ragdoll will be destroyed when the puppet is frozen.
 gIs there a Prop connected to this PropRoot? Simply assign this value to connect, replace or drop props.
 gUnityEngine.AudioSource, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 gUnityEngine.Rigidbody, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+gain
 gameserveritem_t
 getUpCollisionResistanceMlp
 getUpDelay
@@ -4177,6 +4219,7 @@ get_zero
 get_zoomAdd
 getupAnimationBlendWeight
 getupAnimationBlendWeightV
+goal
 goalPosition
 gravity applied to the Body
 gravityMultiplier
@@ -4208,6 +4251,7 @@ hSteamAPICall
 hSteamuser
 hThe weight of twisting the interaction target towards the effector bone in the start of the interaction.
 hUnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+half
 handColliders
 handPositionWeight
 handRotation
@@ -4223,6 +4267,7 @@ hands
 handsMaintainRelativePositionWeight
 hangingDistanceMlp
 hasProp
+head
 headCollider
 headForwards
 headLookAxis
@@ -4244,6 +4289,7 @@ highDecelClip
 highFrictionMaterial
 highPitchMultiplier
 highestOffset
+hips
 hipsForward
 hipsUp
 hitForce
@@ -4259,12 +4305,13 @@ horizontalAxisName
 horizontalWeight
 hoseWaterSystems
 humanBodyBone
-i2!r".
 iAchievement
+iApp
 iCachedContent
 iCallbackExpected
 iClan
 iCoplayFriend
+iDLC
 iFile
 iFixes the Y axis of the trigger to Vector3.up. This makes the trigger symmetrical relative to the object.
 iFriend
@@ -4273,6 +4320,7 @@ iGame
 iHeartbeatInterval
 iIf true, all the muscles will be boosted and the 'Muscles' and 'Groups' properties below will be ignored.
 iIteratorPrevious
+iKey
 iLobby
 iLobbyData
 iMember
@@ -4282,6 +4330,7 @@ iPersonaName
 iServer
 iThe weight (multiplier) of pinning this muscle to it's target's position using a simple AddForce command.
 iUser
+iX(Z
 ignore
 ignoreCollisionWithCharacterController
 ignoreCollisionWithRagdoll
@@ -4289,8 +4338,7 @@ ignoreRoot
 ignoreTimescale
 ikComponents
 ikPosition
-ikY*f
-ik[}R
+ikYV
 immunity
 impulseMlp
 inContact
@@ -4303,6 +4351,7 @@ increaseSpeed
 index
 indexOffset
 indexes
+info
 inputActionIndex
 instanceName
 instancePtr
@@ -4343,18 +4392,21 @@ itemIdSource
 items
 iteration
 iterations
+j%4o
 jIf false, will not care where the character stands, as long as it is in contact with the trigger collider.
 joint
 jointRange
 jointType
 joints
+jump
 jumpEndTime
 jumpLeg
 jumpPower
 jumpRepeatDelayTime
-k)u	8
-k)w	M
-k)y	b
+k)u\t8
+k)w\tM
+k)y\tb
+k4l\v
 k_AngularDrag
 k_AttachToCenterOfMass
 k_Damper
@@ -5079,6 +5131,7 @@ killDuration
 kinematicCollidersUpdateLimit
 kinshipDegrees
 knockOutDistance
+ksA\v
 lIf the distance from the muscle to it's target is larger than this value, the character will be knocked out.
 lReference to the character controller gameobject (the one that has the capsule collider/CharacterController.
 lUnityEngine.SphereCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -5159,6 +5212,7 @@ lerpSpeed
 letter
 lifeTime
 liftPelvisWeight
+limb
 limbIK
 limbMappings
 limbOrientation
@@ -5290,6 +5344,7 @@ m_Handle
 m_HighAccel
 m_HighDecel
 m_HorizontalVirtualAxis
+m_Id
 m_Image
 m_Immobilized
 m_IntOctaves
@@ -5707,6 +5762,8 @@ mappingBlendSpeed
 mappingWeight
 mappingWeightMaster
 mappingWeightMlp
+maps
+mask
 masterProps
 masterWeight
 matchToInputSettings
@@ -5743,8 +5800,12 @@ maxStretch
 maxSwing
 maxVerticalVelocityOnGround
 maxViewAngle
+maxX
+maxY
+maxZ
 mechSpider
 mechSpiderController
+mesh
 message
 messages
 method
@@ -5766,6 +5827,9 @@ minShadowDistance
 minSwing
 minSwitchTime
 minTime
+minX
+minY
+minZ
 model
 momentumMag
 motionAbsorb
@@ -5857,6 +5921,7 @@ normalize3
 numDebrisPieces
 numFires
 numPoints
+o52\f
 oSwitch to a CapsuleCollider when the prop is picked up so it behaves more smoothly when colliding with objects.
 object
 objects
@@ -5922,9 +5987,12 @@ pArrayItemDefs
 pAssociateWithClanResult_t
 pAuthBlob
 pAuthTicket
+pA}S
 pBGRA
+pBZ"
 pBodyDataBuffer
 pBuffer
+pB}R
 pCallHandle
 pCallback
 pCheckFileSignature_t
@@ -5954,6 +6022,7 @@ pHeaderValueBuffer
 pInstanceIDs
 pItemDefIDs
 pJoinClanChatRoomCompletionResult_t
+pKey
 pLeaderboardEntry
 pLeaderboardFindResult_t
 pLeaderboardScoreUploaded_t
@@ -5966,6 +6035,7 @@ pMatchCloudFileName
 pNetAdr
 pNotificationBuffer
 pNumberOfCurrentPlayers_t
+pOut
 pOutBuffer
 pOutItemsArray
 pOutResultHandle
@@ -6158,6 +6228,7 @@ pnChatting
 pnConnPort
 pnFileSizeInBytes
 pnHeight
+pnIP
 pnInGame
 pnNumViewers
 pnOnline
@@ -6170,6 +6241,9 @@ poleAxis
 polePosition
 poleTarget
 poleWeight
+pos1
+pos2
+posW
 poseChildren
 poseLeft
 poseRight
@@ -6192,6 +6266,7 @@ prgchText
 progressDistance
 progressNum
 progressStyle
+prop
 propType
 proportionAspect
 props
@@ -6218,6 +6293,7 @@ pubBuffer
 pubData
 pubDest
 pubRGB
+pull
 pullBodyHorizontal
 pullBodyVertical
 pullElasticity
@@ -6244,6 +6320,7 @@ punValueBufferSize
 puppetCount
 puppetMaterial
 puppetsPerFrame
+push
 pushElasticity
 pushParent
 pushSmoothing
@@ -6355,6 +6432,7 @@ rootRotationWeight
 rootSphereCastRadius
 rootTargetPosition
 rootTargetRotation
+rotW
 rotateAlways
 rotateBone
 rotateDegreesPerSecond
@@ -6377,11 +6455,13 @@ rotationWeight
 runCycleLegOffset
 sInstance
 sUnityEngine.ParticleSystem, UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+sVel
 s_HardwareInput
 s_Noise
 s_TouchInput
 s_curve
 sampleTargetMappedState
+sand
 scaleCalculator
 scaleSpeed
 secondBone
@@ -6599,12 +6679,15 @@ shootFrom
 shoulder
 shoulderCenterToHead
 shoulderDist
+show
 showCursorTag
 sideOffset
 sightWeight
+sine
 sizeMultiplier
 skidParticles
 skidTrailsDetachedParent
+skip
 skipSolverUpdate
 slider
 sliderImages
@@ -6680,6 +6763,7 @@ steamIDTradePartner
 steamIDUserPlayedWith
 steamId
 steering
+step
 stepFound
 stepProgress
 stepSpeed
@@ -6763,6 +6847,7 @@ twistDirection
 twistLimit
 twistWeight
 twoHanded
+type
 typeArm
 typeExclude
 typeExcludeArm
@@ -6778,6 +6863,7 @@ typeLeg
 typeRight
 typeSpine
 typeTail
+u4o\v
 uScore
 unArrayDestroyLength
 unArrayGenerateLength
@@ -6858,6 +6944,7 @@ usePlaneNodes
 useRotationLimits
 userControl
 v4.0.30319
+v57\f
 vOverriding default muscle properties for some muscle groups (for example making the feet stiffer or the hands looser).
 value__
 velocityC
@@ -6921,6 +7008,7 @@ writheYVelocity
 xIf true, muscles of this group will have their colliders disabled while in puppet state (not unbalanced nor getting up).
 xReduces pinning force the farther away the target is. Bigger value loosens the pinning, resulting in sloppier behaviour.
 xform
+y31\f
 yActive mode means all muscles are active and the character is physically simulated. Kinematic mode sets rigidbody.isKinematic to true for all the muscles and simply updates their position/rotation to match the target's. Disabled mode disables the ragdoll. Switching modes is done by simply changing this value, blending in/out will be handled automatically by the PuppetMaster.
 yMaxLimit
 yMinLimit

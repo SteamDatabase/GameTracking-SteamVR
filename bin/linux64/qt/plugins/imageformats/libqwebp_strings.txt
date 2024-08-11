@@ -1,39 +1,39 @@
-
-!
+ !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
+ !"#$%&'()*+,-./0123456789:;<=>?
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !#$&')*,-/0235689;<>???????????????????
+ !#$&')*,-/0235689;<>????????????????????
+ !#$&')*,-/0235689;<>?????????????????????
+ "#%&()+,./124578:;=>???????????????????
+ "#%&()+,./124578:;=>????????????????????
+ C\vw&CG
+ bn0s}Q_@r~aoPq
+!"$%'(*+-.0134679:<=????????????????????
+!"$%'(*+-.0134679:<=?????????????????????
 !(delta_y & 1)
 !(io->mb_y & 1)
+!/?WiZF4%
 !IsWPI(kChunks[idx].id)
 !b->error_
 !idec->is_lossless_
 !wpi->is_partial_
-"
-""
-#
-#l'
-$
+"b}b*XhUu
+#CfU7
+$1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
 $@../../../3rdparty/libwebp/src/enc/histogram.c
-$I
 $ORIGIN/../../lib
-%
-&
-&%
-&2
-'
-(
-((
+%*Di-,D 6.D
+%A Is
+%daT
+&5G[ncRB0#
 (int)error < VP8_ENC_ERROR_LAST
 (int)error >= VP8_ENC_OK
 (uint64_t)(data - headers->data) < (~0U - 8 - 1)
 (uint64_t)(w * h) == (uint64_t)w * h
 (uint64_t)data_size == (uint64_t)width * height
 (uint64_t)sum * kInvAlpha[total_a] < ((uint64_t)1 << 32)
-)
-*
-*H/
-+
-,
--
-.
+,BAl@B=6UB
+../../../3rdparty/libwebp/src/dec/../utils/bit_reader_inl.h
 ../../../3rdparty/libwebp/src/dec/./../utils/bit_reader.h
 ../../../3rdparty/libwebp/src/dec/./../utils/color_cache.h
 ../../../3rdparty/libwebp/src/dec/alpha.c
@@ -42,8 +42,10 @@ $ORIGIN/../../lib
 ../../../3rdparty/libwebp/src/dec/vp8.c
 ../../../3rdparty/libwebp/src/dec/vp8l.c
 ../../../3rdparty/libwebp/src/dec/webp.c
+../../../3rdparty/libwebp/src/dsp/alpha_processing.c
 ../../../3rdparty/libwebp/src/dsp/enc.c
 ../../../3rdparty/libwebp/src/dsp/enc_sse2.c
+../../../3rdparty/libwebp/src/dsp/lossless.c
 ../../../3rdparty/libwebp/src/dsp/lossless_sse2.c
 ../../../3rdparty/libwebp/src/dsp/upsampling_sse2.c
 ../../../3rdparty/libwebp/src/enc/../dsp/../utils/utils.h
@@ -51,16 +53,21 @@ $ORIGIN/../../lib
 ../../../3rdparty/libwebp/src/enc/alpha.c
 ../../../3rdparty/libwebp/src/enc/analysis.c
 ../../../3rdparty/libwebp/src/enc/backward_references.c
+../../../3rdparty/libwebp/src/enc/cost.c
 ../../../3rdparty/libwebp/src/enc/filter.c
 ../../../3rdparty/libwebp/src/enc/frame.c
+../../../3rdparty/libwebp/src/enc/picture.c
 ../../../3rdparty/libwebp/src/enc/picture_csp.c
+../../../3rdparty/libwebp/src/enc/picture_rescale.c
 ../../../3rdparty/libwebp/src/enc/quant.c
 ../../../3rdparty/libwebp/src/enc/syntax.c
 ../../../3rdparty/libwebp/src/enc/token.c
+../../../3rdparty/libwebp/src/enc/vp8l.c
 ../../../3rdparty/libwebp/src/mux/../utils/utils.h
 ../../../3rdparty/libwebp/src/mux/./muxi.h
 ../../../3rdparty/libwebp/src/mux/muxedit.c
 ../../../3rdparty/libwebp/src/mux/muxinternal.c
+../../../3rdparty/libwebp/src/mux/muxread.c
 ../../../3rdparty/libwebp/src/utils/././bit_reader.h
 ../../../3rdparty/libwebp/src/utils/./bit_reader_inl.h
 ../../../3rdparty/libwebp/src/utils/bit_reader.c
@@ -69,42 +76,33 @@ $ORIGIN/../../lib
 ../../../3rdparty/libwebp/src/utils/filters.c
 ../../../3rdparty/libwebp/src/utils/huffman.c
 ../../../3rdparty/libwebp/src/utils/huffman_encode.c
+../../../3rdparty/libwebp/src/utils/quant_levels.c
 ../../../3rdparty/libwebp/src/utils/utils.c
-.k>
-/
-/P
-0
-1
-1$7
 11QWebpPlugin
 12QWebpHandler
-2
-3
-33
-4
-5
-6
-7
-8
-9
-9K
-:
-:O!
-;
-<
-<%
-<<
-=
->
->r0
-?
-@
-@Y>)F
-A
-A+)
+5;FJ$,XEK4<
+7&F|If
+7T2,
+8"3hrf
+969p
+9A\n(xA=6
+:dD8XfD\vwhD
+<ZZ<ZZZZZZZ`n`lns
+?../../../3rdparty/libwebp/src/dec/idec.c
+?0D6J2D
+?33333
+?333333
+?433333
+?UUUUUU
+?ffffff
+@333333
+@@@@@@@@@@@@@@@@
+A../../../3rdparty/libwebp/src/enc/webpenc.c
 ALPH
 ALPHDecode
 ALPHInit
+ANIM
+ANMF
 AddToken
 AllocateAndInitRescaler
 AllocateInternalBuffers32b
@@ -117,11 +115,11 @@ ApplyInverseTransformsAlpha
 ApplyPredictFilter
 AssignChildren
 AssignSegments
-B
+BM@r
 BackwardReferencesHashChainFollowChosenPath
 Bad code word
 BitWriterResize
-C
+C../../../3rdparty/libwebp/src/utils/thread.c
 CXXABI_1.3
 CalcTokenProba
 ChangeState
@@ -142,9 +140,8 @@ CopyParts0Data
 Could not decode alpha data.
 CreateFrameFragmentData
 CustomPut
-D
-D@
-DD
+DBM&(
+DB\f Dv
 DecodeAlphaData
 DecodeImageData
 DecodeImageStream
@@ -159,8 +156,8 @@ DoGradientFilter
 DoHorizontalFilter
 DoRemap
 DoVerticalFilter
-E
-EN8
+E<G&Iw
+EXIF
 EmitRescaledRGB
 EmitRescaledRowsRGBA
 EmitVP8XChunk
@@ -170,22 +167,20 @@ EncodeImageInternal
 EncodeImageNoHuffman
 EncodeLossless
 EncodePalette
-End
 ExportAlpha
 ExportAlphaRGBA4444
 ExportRGB
-F
+FRGM
+FastLog2Slow
 FastSLog2Slow
 FinishRow
 Flush
 Frame not displayable.
 Frame setup failed
-G
 GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
 GenerateOptimalTree
 GetAdjustedCanvasSize
 GetCombinedHistogramEntropy
@@ -196,7 +191,7 @@ GetImageData
 GetImageInfo
 GetParamsForHashChainFindCopy
 GetResidualCost
-H
+Gf95)1&!\ry9I
 HashChainFindCopy
 HashChainInit
 HistogramAdd
@@ -204,21 +199,19 @@ HistogramAnalyzeEntropyBin
 HistogramBuild
 HistogramCompactBins
 HistogramCopy
-I
+ICCP
 IDecCheckStatus
+Ik6 
 Import
 ImportYUVAFromRGBA
 Incorrect keyframe parameters.
 InitVP8Encoder
 Interpolate
+Iq../../../3rdparty/libwebp/src/dsp/upsampling.c
 Is8bOptimizable(hdr)
-J
-K
-L
-L*@
-Ld
+KQD2cSDy{UD
 LinearToGammaWeighted
-M
+MnZ/rs
 Mult
 MuxCleanup
 MuxDeleteAllNamedData
@@ -232,15 +225,12 @@ MuxImageGetNth
 MuxImageInit
 MuxImageParse
 MuxSet
-N
 NULL VP8Io parameter in VP8Decode().
+N_U9203
 NeedCompressedAlpha
 Not a key frame.
-Ny"
-O
-O#
 Output aborted.
-P
+PURH
 ParseHeadersInternal
 PictureGrabSpecs
 PixOrCopyCacheIdx
@@ -317,12 +307,11 @@ QWebpPlugin
 QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
 QuantizeBlockWHT
 QuantizeLevels
-R
 RIFF
+R_T5Y
 ReadSymbol
 ReadTransform
 ReconstructIntra16
-S
 SearchImageToGetOrDelete
 Sequential devices are not supported
 SetCropWindow
@@ -331,13 +320,10 @@ SetSegmentAlphas
 SmoothSegmentMap
 Sync
 SynthesizeBitstream
-T
 TreeAddSymbol
 TreeInit
 Truncated header.
-U
-UU
-UU*
+U\8h(
 UpsampleArgbLinePair
 UpsampleBgrLinePair
 UpsampleBgraLinePair
@@ -345,12 +331,12 @@ UpsampleRgb565LinePair
 UpsampleRgbLinePair
 UpsampleRgba4444LinePair
 UpsampleRgbaLinePair
-V
-VP8
+VP8 
 VP8BitWriterAppend
 VP8Decode
 VP8DecompressAlphaRows
 VP8EmitTokens
+VP8EncTokenLoop
 VP8EstimateTokenSize
 VP8FilterStrengthFromDelta
 VP8GetThreadMethod
@@ -391,7 +377,8 @@ VP8ProcessRow
 VP8SetResidualCoeffsSSE2
 VP8SetSegmentParams
 VP8X
-W
+VZ#-DLU[3=h
+WDG,r3
 WEBP
 WebPDecodeYUV
 WebPEncodingSetError
@@ -402,17 +389,19 @@ WebPPictureAllocARGB
 WebPSafeCalloc
 WebPSafeMalloc
 WriteImageSize
-X
-Y
-Y7
-Y@
-Yx9
-Z
-[
-\
-\12
-]
-^
+XMP 
+[C2zbCSTiC\n7pC&"wCw
+\f#\f<\fB\fK\fQ\f\\fb\fk\fq\f
+\f,\f2\f;\fA\fL\fR\f[\fa\fu\f{\f
+\n!\n5\n;\nD\nJ\nU\n[\nd\nj\n
+\n"\n;\nA\nJ\nP\n[\na\nj\np\n
+\r \r)\r/\r:\r@\rI\rO\rh\rn\rw\r}\r
+\r!\r,\r2\r;\rA\r
+\r"\r(\r1\r7\rP\rV\r_\re\rp\rv\r
+\t$\t/\t5\t>\tD\tX\t^\tg\tm\tx\t~\t
+\v \v&\v/\v5\vI\vO\vX\v^\vi\vo\vx\v~\v
+\v'\v-\v8\v>\vG\vM\va\vg\vp\vv\v
+_@../../../3rdparty/libwebp/src/enc/../utils/utils.h
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -427,17 +416,11 @@ _edata
 _end
 _fini
 _init
-_}
-`
-`TA
-a != b
+_wjb
 a->palette_code_bits_ == b->palette_code_bits_
-a9
 alph_dec != ((void *)0)
 alph_dec->vp8l_dec_ != ((void *)0)
 alph_vp8l_dec != ((void *)0)
-b
-b'
 bad partition length
 bin_id < (4 * 4 * 4)
 bin_offset + num_histos < bin_depth * (4 * 4 * 4)
@@ -451,8 +434,7 @@ buf->u_stride == buf->v_stride
 bw->buf_ != ((void *)0)
 bw->nb_bits_ >= 0
 bw->used_ + n_bits <= 2 * (8 * (int)sizeof(vp8l_atype_t))
-c
-c:
+bwD`
 calloc
 cannot parse filter header
 cannot parse partitions
@@ -472,7 +454,6 @@ code_lengths != ((void *)0)
 code_lengths_size > 0
 color_cache != ((void *)0)
 config.quality >= 0 && config.quality <= 100.f
-d
 data != ((void *)0)
 data != ((void *)0) && output != ((void *)0)
 data == ((void *)0)
@@ -495,29 +476,26 @@ dec->rescaler_memory == ((void *)0)
 dec->status_ != VP8_STATUS_OK
 dec->width_ <= final_width
 default
+dlBNvz!/u{1?cmR^
+dqe-KO{/3
 dst == data + size
-e
 enc != ((void *)0) && pic != ((void *)0) && pic->a != ((void *)0)
 enc->argb_ != ((void *)0)
 enc->num_parts_ == 1
 enc->use_tokens_
 err == WEBP_MUX_OK
 expn > 0.
-f
-failed to encode webp picture, error code:
+failed to encode webp picture, error code: 
 failed to import image data to webp picture.
 failed to init webp picture and config
 features != ((void *)0)
-ff
 filter >= 0 && filter < WEBP_FILTER_LAST
+fj".T\CMek2>x
 frame_frag != ((void *)0)
 frame_frag->header_->tag_ == kChunks[IDX_ANMF].tag || frame_frag->header_->tag_ == kChunks[IDX_FRGM].tag
 frame_frgm_chunk != ((void *)0)
 free
-g
-h
 hash_bits > 0
-hdr
 header->tag_ == kChunks[IDX_ANMF].tag || header->tag_ == kChunks[IDX_FRGM].tag
 header_size == (uint32_t)header_size
 headers != ((void *)0)
@@ -531,22 +509,16 @@ histograms[end] != ((void *)0)
 histograms[start] != ((void *)0)
 htree_group != ((void *)0)
 huff_codes != ((void *)0)
-i
 idec
 idec->mem_.start_ <= idec->mem_.end_
 idx < (1 << 9)
-idx >= 0
 in != ((void *)0)
 inv_q_level[0] == min_s
 inv_q_level[num_levels - 1] == max_s
 io != ((void *)0)
 io->crop_left < io->crop_right
-i+
-j
-k
+kGCu!NC
 key <= (~0U >> cc->hash_shift_)
-l
-l8$
 last_part >= 0
 last_row <= dec->height_
 left_over > 0
@@ -562,8 +534,8 @@ libm.so.6
 libpthread.so.0
 libstdc++.so.6
 limit >= 3
-log
 log10
+m,rf
 malloc
 mem <= (uint8_t*)dec->mem_ + dec->mem_size_
 mem <= (uint8_t*)enc + size
@@ -581,12 +553,9 @@ method >= 0
 mid <= max && mid >= min
 mtx->sharpen_[j] == 0
 mux != ((void *)0)
-n
-n < 2 * nb
 n_bits <= 32
 n_bits >= 0
 nb <= total
-nb >= 1
 needed_lines > 0 && needed_lines <= lines_left
 nmemb * size > 0
 no memory during frame initialization.
@@ -595,11 +564,13 @@ node != ((void *)0)
 null VP8Io passed to VP8GetHeaders()
 num_htree_groups <= 0x10000
 num_pass_left > 0
-o
+o KPBf
+o@333333
+oY.o<
 operator delete(void*)
 operator new(unsigned long)
+opqMU
 out != ((void *)0)
-p
 p->argb_or_distance < (1U << 9)
 p->chain_ == ((void *)0)
 p->last_y + y_pos + num_lines_out < p->output->height
@@ -607,7 +578,6 @@ p->mode == kCopy
 p->mode == kLiteral
 p->scaler_u.y_accum == p->scaler_v.y_accum
 p->size_ == 0
-p[3
 palette_size >= 1
 params != ((void *)0)
 part_size <= mem->part0_size_
@@ -619,16 +589,13 @@ pic->width >= 1 && pic->height >= 1
 picture != ((void *)0)
 pixel_index == xsize * ysize
 pos < end
-pow
 pred_bits >= 2
 proba->use_skip_proba_ == 0
 proba_idx < (1u << 14)
-q
 qsort
 qstrcmp(QByteArray const&, char const*)
 qt_plugin_instance
 qt_plugin_query_metadata
-r
 rd->y_ac_levels[n][0] == 0
 rd_opt >= RD_OPT_BASIC
 refs != ((void *)0)
@@ -636,7 +603,7 @@ res->first == 0 || coeffs[0] == 0
 row >= 0 && num_rows > 0 && row + num_rows <= height
 row_end <= transform->ysize_
 row_start < row_end
-s
+sD}>uD
 sharpness >= 0 && sharpness <= 7
 size == (uint32_t)size
 source image is null.
@@ -652,7 +619,6 @@ step >= (import_alpha ? 4 : 3)
 strcmp
 symbol == (int16_t)symbol
 symbols != ((void *)0)
-t
 t1->value_ != t2->value_
 tab_pos + 1 < (1 << (12 - 7)) + 1
 tag == kChunks[IDX_ANMF].tag || tag == kChunks[IDX_FRGM].tag
@@ -668,19 +634,14 @@ tree->max_nodes_ < (1 << 16)
 tree_size_orig <= (1 << (tree_depth_limit - 1))
 typeinfo for QImageIOHandler
 typeinfo for QImageIOPlugin
-t~B
-u
+t|AO
 u_lines_in == v_lines_in
-v != 0
-v <= 255
-v >= 256
+vIK \f3
 val < (1 << 16)
 val < (1 << 24)
 value <= 15
 vp8_size == (uint32_t)vp8_size
 vtable for __cxxabiv1::__si_class_type_info
-w
-w7;
 webp
 width * (uint64_t)height < (1ULL << 32)
 width < 16383 && height < 16383
@@ -692,22 +653,17 @@ width >= 1 && height >= 1
 worker->impl_ == ((void *)0)
 worker->status_ <= OK
 worker->status_ == OK
-wpi
 wpi != ((void *)0)
 wpi != ((void *)0) && wpi->img_ != ((void *)0)
 wpi->header_ != ((void *)0)
 wpi->img_ != ((void *)0)
 wpi.img_ != ((void *)0)
 wpi_list
-x
+wyS]
+x0Ysqx
 x_offset < (1 << 24)
 xsize > 0
-xx
-y
 y_offset < (1 << 24)
 y_start < y_end
-z
-{
-|
-}
-
+{N{N{N{N{N{N{N{N
+~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

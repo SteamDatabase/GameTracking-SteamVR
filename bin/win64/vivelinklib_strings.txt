@@ -1,93 +1,54 @@
-					
-							
-												
-																			
-																									
-																												
-																																												
-	!s99
-	<bu 
-	@81t/@8q
- !"#$%&'
- !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
- %41g
  -SERVICE_EXPLORE
- A^A]A\^]
- A^^[
- A^_^
- A_A\[
- A_A]A\
- A_A]A\_[
- A_A^A\
- A_A^A]A\_
- A_A^]
- A_A^_
- A_A^_^]
- A_^[
- A__[
- A__^
  Error:
- H3E H3E
- for detail.
+ for detail.\n
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
- t;A;
-!*.6^
-!hn7!
-%%.%dg
+%02X
 %2.2X
 %8.8X
-%s setup error from %s
-%s: %s
-%s: ( %d ): ReadFile failed! (%s)
-%s: ( %d ): Unknown pipe type.
-%s: ( %d ): unexpected data size, expected %lu, got %lu 
-%s: (%d) Pipe type unknown.
-%s: (%d) completed.
-%s: BS1_ProcessCommand( MSG_SCAN ) for serial number %08X failed! (error:%d)
-%s: Cannot find firmware '%s'
-%s: Client Pipe (%d) init Failed!
-%s: Client Pipe (%d) init Success.
-%s: Client Pipe (%d) not available. Retry in %d milliseconds.
-%s: CreateFile( %s ) failed! (%s)
-%s: CreateFile( %s ) success.
-%s: CreateFile( %s ) timeout. Attempts: %d
-%s: Empty driver log '%s'
-%s: End of scanning, %d filtered
-%s: Failed in state: %d (vl2_error: %s)
-%s: Failed to open driver log '%s'
-%s: Failed to resolve LinkBox Device Address.
-%s: Failed, missing vivelink working directory.
-%s: Found %4.4X
-%s: Found LinkBox Device Address %llX
-%s: Init Failure.
-%s: Init Success.
-%s: Invalid VL2 handles.
-%s: Missing nonce.
-%s: Missing path to firmware.
-%s: ReadFile failed! (%s)
-%s: Receive %s from %08X : %u (%s)
-%s: Receive result: %s
-%s: Rejected %4.4X
-%s: Response: %s
-%s: Send %s to %08X
-%s: Send command: %s (length:%d, send_bytes:%d)
-%s: SetNamedPipeHandleState() failed! (%s)
-%s: Stop Scanning. All scan completion candidates found, %d filtered
-%s: System Not Initialized.
-%s: Timeout.
-%s: Unknown component type %d.
-%s: WriteFile failed! (%s)
+%s setup error from %s\n
+%s: ( %d ): ReadFile failed! (%s)\n
+%s: ( %d ): Unknown pipe type.\n
+%s: ( %d ): unexpected data size, expected %lu, got %lu \n
+%s: (%d) Pipe type unknown.\n
+%s: (%d) completed.\n
+%s: BS1_ProcessCommand( MSG_SCAN ) for serial number %08X failed! (error:%d)\n
+%s: Cannot find firmware '%s'\n
+%s: Client Pipe (%d) init Failed!\n
+%s: Client Pipe (%d) init Success.\n
+%s: Client Pipe (%d) not available. Retry in %d milliseconds.\n
+%s: CreateFile( %s ) failed! (%s)\n
+%s: CreateFile( %s ) success.\n
+%s: CreateFile( %s ) timeout. Attempts: %d\n
+%s: Empty driver log '%s'\n
+%s: End of scanning, %d filtered\n
+%s: Failed in state: %d (vl2_error: %s)\n
+%s: Failed to open driver log '%s'\n
+%s: Failed to resolve LinkBox Device Address.\n
+%s: Failed, missing vivelink working directory.\n
+%s: Found %4.4X\n
+%s: Found LinkBox Device Address %llX\n
+%s: Init Failure.\n
+%s: Init Success.\n
+%s: Invalid VL2 handles.\n
+%s: Missing nonce.\n
+%s: Missing path to firmware.\n
+%s: ReadFile failed! (%s)\n
+%s: Receive %s from %08X : %u (%s)\n
+%s: Receive result: %s\n
+%s: Rejected %4.4X\n
+%s: Response: %s\n
+%s: Send %s to %08X\n
+%s: Send command: %s (length:%d, send_bytes:%d)\n
+%s: SetNamedPipeHandleState() failed! (%s)\n
+%s: Stop Scanning. All scan completion candidates found, %d filtered\n
+%s: System Not Initialized.\n
+%s: Timeout.\n
+%s: Unknown component type %d.\n
+%s: WriteFile failed! (%s)\n
 ' is not a number.
-',=?k
-((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-()$^.*+?[]|\-{},:=!
-(9Q|uWH
+()$^.*+?[]|\-{},:=!\n\r
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
-(A^A]^[
-(A_A^^[
-(A_A^_]
 (HANDLE:)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})(-)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})\s([0-9A-F]*)
@@ -100,28 +61,13 @@
 (UUID16:)([0-9A-F]{4})
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
-(f*^[0
-(t$@H
-(t$PA;
-(t$PH
-(t$`M
-)D$ L
-)t$@H
-)t$PA
-*uXI;
-+9kdt	H
-+Xt@(
-+o'q)}
-,W5y+
 -1e+9999
 -ADDR %s
 -Infinity
--NAME "%s"
 -btdriverver
 -start
 -status
 -stop
--u-I;
 -version
 .00cfg
 .?AU_Crt_new_delete@std@@
@@ -178,6 +124,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -195,88 +142,30 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-/f /s
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
-0A^_^
-0A_A^A\_^
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^A]_^
-0A_A^[
-0A_A^_^[
-0A__[
-0A__^
-0L;w(
-0w0c1
-0}0i1
-130801120000Z
 1e+9999
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173838Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-311109235959Z0b1
-3333333
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-666666666666666666666666666666666666666666666666666666666666
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
-8L$4tNH
-8_^][
-9\u-H
-9\u4H
-9sdu	@8s
+9a&g
 ::LHB::%4.4X %s
-:\u-L
-:\u6L
-;|;}n
-</u#H
-<0:08
-<= Exiting Context: (%.2f seconds)
-<Bu'H
-======================
-==============================
-=> Entering Context
-=rIQU
->"t H
->"t-H
->0<0:
->Mp$d
+<= Exiting Context: (%.2f seconds)\n
+==============================\n
+======================\n
+=> Entering Context\n
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -299,7 +188,6 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?PHO#
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
@@ -345,86 +233,8 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@.data
-@.reloc
-@81t)@8q
-@A^_^
-@A_A\_^]
-@A_A^A\
-@A_A^A\_^
-@A_A^A]A\_^[
-@A_A^_^[
-@LcqHD
-@SATAWH
-@SAUAVAWH
-@SAVAWH
-@SAVH
-@SUATAUAWH
-@SUVATAUAVAWH
-@SUVATH
-@SUVAWH
-@SVAUAVH
-@SVAVAWH
-@SVAVH
-@SVAWH
-@SVWATAWH
-@SVWH
-@SWATAUAWH
-@SWAWH
-@UATAUAVAWH
-@USATAWH
-@USVATAVH
-@USVATAWH
-@USVH
-@USVWAUH
-@USVWAWH
-@USWATAUH
-@USWATAWH
-@USWAVH
-@UVATAUAVH
-@UVWATAWH
-@UWAVAWH
-@UWAVH
-@WAVAWH
 A valid JSON document must be either an array or an object value.
-A;A A
-A]A\_[]
-A]A\_]
-A]A\_^]
-A]_^[]
-A^A\^
-A^A\^[]
-A^A\_^]
-A^A]A\_[]
-A^A]A\_]
-A^A]A\_^[]
-A^A]]
-A^_[]
-A_A\[]
-A_A\^[]
-A_A\_[]
-A_A\_]
-A_A\_^[
-A_A\_^]
-A_A]A\][
-A_A]A\^[]
-A_A^A\
-A_A^A\^]
-A_A^A\_]
-A_A^A\_^
-A_A^A]A\]
-A_A^A]A\^][
-A_A^A]A\_
-A_A^A]A\_^[
-A_A^A]A\_^]
-A_A^A][
-A_A^[
-A_A^]
-A_A^_
-A_A^_^]
-A__^[]
-Address:  %s
-AuthD
+Address:  %s\n
 Authentication
 BDFU Post
 BS1_MSG_EXTEND_TIMEOUT
@@ -455,56 +265,18 @@ BTManagerService*.txt
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bellevue1
-Bluetooth Link Version: %s
-Bluetooth Link communication initialize (%s) (%.2f seconds)
-Bluetooth Link communication initialize.
-Bluetooth Link not found: %s
-Bluetooth Link shutdown (%.2f seconds)
-Bluetooth Link was not able to start. (Status: %d, Error %s)
-Bluetooth service shutdown.
-BmK>_h
+Bluetooth Link Version: %s\n
+Bluetooth Link communication initialize (%s) (%.2f seconds)\n
+Bluetooth Link communication initialize.\n
+Bluetooth Link not found: %s\n
+Bluetooth Link shutdown (%.2f seconds)\n
+Bluetooth Link was not able to start. (Status: %d, Error %s)\n
+Bluetooth service shutdown.\n
 Bootloader Mode
-C$9C w
-C(I9F(
-C0L9$
-CD$(H
-CD$0D
-CD$0H
-CD$0J
-CD$0L
-CD$hL
-CD$p3
 CHARS -S %4.4X -E %4.4X
-CL$0H
-CL$H3
-CL$PH
-CL$XH
-CL$pH
 CMD=BASE_STATION_BS_BLE_FOTA
 CMD=BASE_STATION_BS_MCU_FOTA
 CONNECT -ADDR_TYPE %s -SV_TO 190 -CON_MIN 6 -CON_MAX 6 -T %X %s
-CT$ H
-CT$(L
-CT$0H
-CT$8H
-CT$HH
-CT$HL
-CT$PL
-CT$XH
-CT$pH
-C\$03
-C\$0H
-C\$0L
-C\$HL
-C\$HM
-C\$PH
-C\$PL
-C\$XH
-C\$XM
-C\$pH
-C\$pL
-C\$pM
 Caller: additions to the zip have already been ended
 Caller: can only get memory of a memory zipfile
 Caller: faulty arguments
@@ -512,15 +284,13 @@ Caller: mixing creation and opening of zip
 Caller: not enough space allocated for memory zipfile
 Caller: the file had already been partially unzipped
 Caller: there was a previous error
-Can not open file to determine Bluetooth Link status (%s)
-Can not open file to determine Bluetooth driver version (%s)
-Cl$ M
-Cl$0H
+Can not open file to determine Bluetooth Link status (%s)\n
+Can not open file to determine Bluetooth driver version (%s)\n
 CloseHandle
 Cntdll.dll
-Completed. Transfer took %.2f seconds.
+Completed. Transfer took %.2f seconds.\n
 Continue
-Could not determine Bluetooth Link status from %s.
+Could not determine Bluetooth Link status from %s.\n
 Couldn't create/open file
 CreateDirectoryA
 CreateEventA
@@ -528,49 +298,7 @@ CreateEventW
 CreateFileA
 CreatePipe
 CreateProcessA
-Ct$P3
-Ct$PL
-Ct$pL
 Culdn't duplicate handle
-Cx<au
-Cx<bu
-Cx<cuW
-Cx<fu
-CxL9 u
-C|$0H
-C|$8H
-D$ A;
-D$ E3
-D$(H;
-D$0H+
-D$0H;
-D$8H+
-D$8H9D$@t
-D$8L;
-D$@</t
-D$@E3
-D$@H;
-D$@I;
-D$HE3
-D$HL9|$Xu
-D$HL;
-D$PH;
-D$PL;
-D$PL;u(
-D$XA+
-D$XH;
-D$`H;
-D$`I;
-D$`fI
-D$hL9 u-L
-D$hL;
-D$pH;
-D$xH;
-D848u
-D9\$ u
-D9egt
-D;l$0
-D;v sWH
 DESCS -S %4.4X -E %4.4X
 DFU_EXT_ERROR_FW_VERSION_FAILURE
 DFU_EXT_ERROR_HASH_FAILED
@@ -608,48 +336,33 @@ DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
 DeleteCriticalSection
 DeleteFileW
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DisconnectNamedPipe
 DosDateTimeToFileTime
-Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
-Driver version: %s
+Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d\n
+Driver version: %s\n
 DuplicateHandle
-E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
 Error reading file
 Error writing to file
-ExM;n0I
 Exceeded stackLimit in readValue().
-Execute '%s %s' failed (Error:%d)
-Execute Elevated '%s %s' failed (Error:%d)
-Existing Bootloader mode.
-Extended Error: %s, %s
+Execute '%s %s' failed (Error:%d)\n
+Execute Elevated '%s %s' failed (Error:%d)\n
+Existing Bootloader mode.\n
+Extended Error: %s, %s\n
 Failed
 Failed to allocate memory
-Failed to open DFU zip file '%s'
-Failed.
-Failed. Base needs power cycle.
+Failed to open DFU zip file '%s'\n
+Failed. Base needs power cycle.\n
+Failed.\n
 File not found in the zipfile
 FindClose
 FindFirstFileW
 FindNextFileW
-Firmware: %s
+Firmware: %s\n
 FormatMessageA
-Found: %s, size: %d
-G(H9C(
-G(H;C(
-G@9E0t
-GD9E0t
-GH9E0t
-GXA_A^A]A\_^]
+Found: %s, size: %d\n
 GetCurrentDirectoryA
 GetCurrentProcess
 GetCurrentProcessId
@@ -664,86 +377,26 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 GetVersionExA
-H!C@H
-H+SpI
-H+WpA
-H+WpH
-H+WpI
-H-^Eu
-H9Ahs
-H9D$@u
-H9D$x
-H9Qhv#H
-H9\$`u+H
-H9u8v/ff
-H;0u8H
-H;9u|A
-H;Cxu
-H;G(|
-H;HPu	
-H;KPu	
-H;OPu	
-H;^Ht
-H;^Pu	H
-HA_A^A]A\_^][
-HA_^][
 HTC BS
-HcMxI
-I9Bhs
-I;4$L
-I@H9k8u
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
-Invalid address %s.
-Invalid nonce %d
+Invalid address %s.\n
+Invalid nonce %d\n
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
 K32GetProcessImageFileNameA
 KERNEL32.dll
-K}*n:	
-L$ H;
-L$ L;
-L$ SH
-L$ SUVWH
-L$ SVWH
-L$ USWATAUAVH
-L$ UVWATAUAVAWH
-L$ UWATAUAVH
-L$(H;
-L$(I;
-L$0E3
-L$0H;
-L$@I;
-L$HL+
-L$HL9l$Hu
-L$XE3
-L$XI;
-L$`H+
-L$`L9t$`tW
-L$`t I
-L$pE3
-L+g@M
-L8(fA
-L9d$X
-L9|$p
-L9}gsBH
-L;8u6H
-L;M8r
-L;gHu
-L?n(Zy&
+LHB-
 LHB-DFU
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
-Linkbox Not Connected
+Linkbox Not Connected\n
 LinkboxNotConnected
 Linux
 Linux 2.2
@@ -756,9 +409,7 @@ Linux 3.6
 LoadLibraryA
 LocalFree
 Logger.txt
-M H1E
-M98u/
-MB(iVR
+MGiI
 MSVCP140.dll
 Mac OS
 MacOS 10.10
@@ -775,38 +426,28 @@ MacOS 10.7
 MacOS 10.8
 MacOS 10.9
 MainThrd
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Missing %s from %s
+Missing %s from %s\n
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-Missing manifest file %s from %s
-Nonce:    %d
-O(H9N(|
-OXL9OPt
+Missing manifest file %s from %s\n
+Nonce:    %d\n
 OpenProcess
-Out of thread local storage!
+Out of thread local storage!\n
 PAIR -NONCE %6.6d
-PA^A]_^]
-PA^_]
-PA^_^
-PA_A^_^]
-PAq=?Mp#
 PUBLIC
-Parsing of JSON string "%s" failed: %s
+Parsing of JSON string "%s" failed: %s\n
 PeekNamedPipe
 PerformDFU
-Performing DFU:
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Performing DFU:\n
 PipeInit
-Progress: %d%% (%d/%d)
-Pz}b!
+Progress: %d%% (%d/%d)\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RANDOM
+RAW:
 READ -H %4.4X
 RESET
 RSDSK9
@@ -814,32 +455,27 @@ RaiseException
 ReadFile
 ReadPipeResponse
 ResetEvent
-Response: %s, %s
-Restart:  %s
+Response: %s, %s\n
+Restart:  %s\n
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 Running
-S0Q0O
-SA|X=G
 SCAN -NAME "%s" -T %X
 SERVICES
 SERVICES -U128 %s
 SERVICES -U16 %4.4X
 SHELL32.dll
-SUVWATAUAVAWH
-SVATAUAVAWH
-SVWATAUAVAWH
-SVWAVAWH
-Selecting Data Packet:
-Selecting Init Packet:
-Send CRC Command.
-Send Create Object %s
-Send Enter Bootloader Command.
-Send Execute Command.
-Send Select Object %s
-Set CCCD (handle %d). Notifications: %d, Indications: %d
+See 
+Selecting Data Packet:\n
+Selecting Init Packet:\n
+Send CRC Command.\n
+Send Create Object %s\n
+Send Enter Bootloader Command.\n
+Send Execute Command.\n
+Send Select Object %s\n
+Set CCCD (handle %d). Notifications: %d, Indications: %d\n
 SetEvent
 SetFileAttributesW
 SetFilePointer
@@ -850,52 +486,18 @@ ShellExecuteExA
 ShutdownLinkToService
 Sleep
 SleepConditionVariableCS
-Starting Bluetooth Link: %s
+Starting Bluetooth Link: %s\n
 Still more data to unzip
 Stopped
-Stopping Bluetooth Link
+Stopping Bluetooth Link\n
 Success
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
-T$ E3
-T$ I;
-T$4L+
-T$DE3
-T$HE3
-T$HH;
-T$HI;
-T$PH;
-T$TE3
-T$XL;
-T$XM;
-T$`H+
-T$hD:
 TIMEOUT
 TerminateProcess
-Terminating discovered vivelink process.
+Terminating discovered vivelink process.\n
 TlsAlloc
 TlsFree
-UATAUAVAWH
-UAUAVH
-USVATAUAWH
-USVATAVH
-USVWATAUAVH
-USVWAWH
-UUUUUUU
-UVATAVAWH
-UVAVH
-UVWATAUAVAWH
-UVWATAUAVAWL
-UVWATAWH
-UVWAUAVH
-UVWAVAWH
-UWATAUH
-UWATAVAWH
-UWATAVAWI
-UWATAWH
-UWATH
-UWAVH
-UWAWH
 UnhandledExceptionFilter
 Unknown
 Unknown DFU Extended Error (%d)
@@ -904,7 +506,6 @@ Unknown DFU OpCode (%d)
 Unknown DFU Response (%d)
 Unknown ViveLink Error (%d)
 Unknown exception
-VATAVH
 VCRUNTIME140.dll
 VL2_Connect
 VL2_Disconnect
@@ -921,14 +522,6 @@ VL2_Reset
 VL2_WriteCommand
 VL2_WriteWithResponse
 VL2_WriteWithoutResponse
-VWATAUH
-VWATAVAWH
-VWAUAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
 VerSetConditionMask
 VerifyVersionInfoW
 ViveLinkError_AUTH_SMP_BUSY
@@ -1013,17 +606,12 @@ ViveLinkError_NotFound
 ViveLinkError_Success
 ViveLinkError_Timeout
 ViveLinkLib_GetBaseStationWirelessInterface
-WATAUAVAWH
-WAVAW
-WAVAWH
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
-WXM9WPt(E
 WaitForPipeCreation
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Washington1
 WideCharToMultiByte
 Windows
 Windows 10
@@ -1044,44 +632,20 @@ Windows NT
 Windows Vista
 Windows XP
 WriteFile
-XA]A\_^
-Y9"SD
-Zip Error: %s
+Zip Error: %s\n
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
 Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
+Zjz\v
 [DFU]
-[K]taM?
-\$ UAVAWH
-\$ UH
-\$ UVWATAUH
-\$ UVWATAVH
-\$ UWATH
-\$0E3
-\$0H+
-\$0H;
-\$8E3
-\$8H;
-\$@E3
-\$@H;
-\$DE2
-\$PI;
-\$XH;
-\$hI;
-\$pH;
-\$pI;
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
-\u=H;
-]J<0"0i3
-]g@8yhu
-]gfff
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
 _CxxThrowException
@@ -1107,7 +671,6 @@ _crt_atexit
 _dtest
 _errno
 _execute_onexit_table
-_gUT^
 _gmtime64
 _initialize_narrow_environment
 _initialize_onexit_table
@@ -1122,13 +685,10 @@ _strnicmp
 _wfopen_s
 _wfsopen
 _wstat64i32
-`.rdata
-`A_A^A]A\_^[
-`A_A^_
-a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
+alse
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -1140,6 +700,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
+atoi
 bad allocation
 bad array new length
 bad cast
@@ -1151,11 +712,6 @@ buffer error
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
-cw~Hc
-d$(E3
-d$@E3
-d$@HcH
-d$`H=
 dat_file
 data error
 deque<T> too long
@@ -1163,27 +719,16 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-fD9&u
-fD9>uF
 false
 fclose
 file error
 fputs
 fread
+free
 fseek
 ftell
-gfffffffH
-gfffffffI
-gfffffffL
-gfffffffM
 graph
-hA\^][
-hA_A^A]A\^[
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
+i]Wb
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1210,26 +755,12 @@ invalid string position
 invalid vector<T> subscript
 invalid window size
 isxdigit
-jj@0HK4
-k0i0$
-l$ H;
-l$ H=
-l$ VWATAVAW
-l$ VWAVH
-l$ VWAWH
-l$@I+
-l$PI+
-l$PM9n
-l$pM+
-l2|X/gGe
 lighthouse
 lower
-m0k0$
-mP=?DJ
 malloc
 manifest
-manifest file %s parse error from %s
-manifest file %s setup error from %s
+manifest file %s parse error from %s\n
+manifest file %s setup error from %s\n
 manifest.json
 map/set<T> too long
 memchr
@@ -1238,20 +769,13 @@ memcpy
 memmove
 memset
 need dictionary
-ntelD
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-p UWATAVAWH
 print
 punct
-qCR}7
-r*=/N
-r9=/N
 realloc
 runas
-s#fff
-soH9t$@t
 space
 stoi argument out of range
 stoul argument out of range
@@ -1266,62 +790,12 @@ strstr
 strtol
 strtoul
 strtoull
-t	M+|$ M
-t -"N
-t!-"N
-t"-"N
-t"H;HHt
-t"H;KHt
-t"H;OHt
-t$ AWH
-t$ E3
-t$ UAVAWH
-t$ UH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WH
-t$(E3
-t$8E3
-t$8H;
-t$@D;
-t$@H=
-t$@I+
-t$HH;
-t$HI;
-t$PE3
-t$PH=
-t$X@2
-t$XE3
-t$hE3
-t$hH+
-t$hM;
-t$xH9^
-t$xL;
-t'-"N
-t(D8g
-t+-"N
-t--"N
-t1H9]
-t6H9}
-t>-"N
-t>y#I
-t?y&I
-tAy&H
-tB-"N
-tS@8uw
-tXfff
 too many length or distance symbols
 tools
-u D8u
-u"fD;
-u'fD;
-uHfC;
+true
 unknown compression method
 unknown zip result code
-upH;~ uj
 upper
-v&=6N
-v=Y]Bv
 vector<T> too long
 vector<bool> too long
 vivebtdriver.exe
@@ -1333,38 +807,4 @@ vivelink.exe
 vivelinklib.dll
 win64
 wn>Jj
-www.digicert.com1!0
-www.digicert.com1$0"
-xA\^][
-xAtAL
 xdigit
-{un'%
-{x\u!H
-{|?uWH
-|$ ATAUAVAWH
-|$ ATAUAWH
-|$ ATAVAWH
-|$ AVH
-|$ E3
-|$ UATAUAVAWH
-|$ UH
-|$(H;
-|$0E3
-|$0HcH
-|$8E3
-|$8H;
-|$@A_A^A]A\
-|$A:t
-|$HE3
-|$HH;
-|$HH=
-|$HL;
-|$PL9~
-|$XH;
-|$`H+
-|$pE2
-|$xH;
-|Lu?c
-}LuHO
-~qj#k"
-~t&LN

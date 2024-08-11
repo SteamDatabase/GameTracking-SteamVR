@@ -1,47 +1,18 @@
                           
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
- CCGG
  Class Hierarchy Descriptor'
  Complete Object Locator'
- GGBB
  Type Descriptor'
  delete
  delete[]
- new[]
-!This program cannot be run in DOS mode.
+ new
 ( 8PX
 ('8PW
 (null)
-+0C0H0
-+t HHt
-- Attempt to initialize the CRT more than once.
-- Attempt to use MSIL code from this assembly during native code initialization
-- CRT not initialized
-- floating point support not loaded
-- not enough space for _onexit/atexit table
-- not enough space for arguments
-- not enough space for environment
-- not enough space for locale information
-- not enough space for lowio initialization
-- not enough space for stdio initialization
-- not enough space for thread data
-- pure virtual function call
-- unable to initialize heap
-- unable to open console device
-- unexpected heap error
-- unexpected multithread lock error
--070H0g0u0
 -64OS
 .?AVCAitStreamGraph@@
 .?AVUsbScsiCmd@@
@@ -49,202 +20,16 @@
 .?AVbad_exception@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.guids
-.text
-0 0<0
-0'0/0;0B0K0^0h0t0}0
-0)1V1
-0+060P0\0d0t0
-0,0<0
-0-0S0q0x0|0
-0-171H1d1{1
 0000000000000000
-04080H0l0x0
-041s1
-071a1
-0;1t|
-0>1N1T1`1f1v1|1
-0?152=2
-0?2c3
-0A@@Ju
-0M3T3
-0SSSSS
-0V1a1|1
-0WWWWW
-0l0S1b1}1
-1 282C2g2p2w2
-1!1:1N1T1]1p1
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1'2Q2
-1(131C1
-1)2I2W2\2
-101L1P1
-11171
-172J2f2x2
-1J2p2
-1R2\2
-1X384
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$2(2,202z2
-2#2'2+2/23272;2?2L2&3@3O3{3
-2%2c2
-2*2/242:2>2D2I2O2T2c2y2
-2.3X3
-2:3@3`3
-2]3h3p3
-3#454
-3$3,343<3D3L3T3\3d3l3t3|3
-373J3b3t3
-3H5Y5
-3k4q4
-4!4&4,4?4D4J4
-4#5`5
-4%4*424i4
-4(5/5
-444}4
-475B5m5x5
-4J5r5
-4W4\5
-4d4l4
-5 6/676J6W6r6z6
-5!6V6g6
-5"6'6/6
-5#6t6
-5&525k5t5
-5'52585>5C5L5i5o5z5
-525H5
-585w5
-596D6N6_6j6
-5D5J5R5_5s5
-5E6y6
-5F5T5]5c5
-5J6t6
-5P6h6
-6 6&676
-6'898K8m8
-6)7K7
-6-676J6n6
-68:D:w:
-6:6c6
-6D7^8c8h8m8}8
-6]7z7
-6d7h7
-7#7'7+7/73777;7?7C7G7
-7.8M8
 700PP
 700WP
-737>7F7Y7d7q7
-747]7
-777`7e7|7
-7:7W7
-7f8x8
-8 8084888@8X8\8t8
-8$9X9
-8&818T8
-8'9<<
-8,9Z9
-8-8@8V8
-8.868<8A8G8
-80X0H1q1
-828?8=:
-82:V:e:m:
-879A9Y9
-898H8U8a8q8x8
-8G9e:
-8VVVVV
-8]9h9p9
-9$9=9V9n9
-9)9\9k9t9
-909@9D9T9X9\9d9|9
-959N9j9s9y9
-97:d:
-9J:h:
-9K9P9W9\9c9h9
-9W:]:m:
-9] SS
-9]$SS
-:	:*:/:g:
-:	;T;
-:$;L;
-:$;l;
-:(:0:D:`:
-:);X;
-:H;f<x<
-:P>X>`>i>
-:d:l:
-; ;<;@;\;`;
-;!;-;
-;#;2;7;A;O;
-;#;6;A;N;i;t;|;
-;$;/;D;K;Q;g;
-;$;T;
-;1<W<'=:>
-;1=8=>=n=y=
-;4;M;f;
-;8<e<
-;X<^<
-;^<}>
-;`;f;
-;t$,v-
-< <@<`<
-< tK<	tG
-<!<-<Q<Y<d<s<|<
-<$=,=K=[=m=r=
-<+<D<]<v<
-<+t(<-t$:
-</assembly>
-<0=6=B=
-<?<G<Z<j<
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<A=]=
-<O<_<z<
-<Rich
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
 <program name unknown>
-= =$=(=,=0=4=L=
-= =0=@=P=t=
-=!=4=D=
-="=*=2=:=F=O=T=Z=d=m=x=
-=$>L>
-=(=H=h=
-=(=i=
-=->?>
-=/=5=@=L=a=h=|=
-=<=X=
-=?=X=_=g=l=p=t=
-=\>d>|>
-=`>m>|>
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
->!>M>S>\>c>
->">(>4>C>I>R>^>l>r>~>
->'>E>g>/?E?
->-?Z?
->0>;>K>
->3?g?
->8>X>x>
->9?^?
->=Yt1j
->C>U>
->N>T>X>\>`>
->b<5F
-? ?@?H?P?X?d?
-?!?K?}?
-?$?-?4?V?
-?&?d?
-?/?t?
-?;?{?
-?@?L?s?
 ?AITAPI_GetFWVersion@@YGJPAXPAD@Z
 ?TUCK_EuGet@@YGJPAXI0G@Z
-@.data
-@.reloc
-@.rsrc
-@PWSS
-@_^[]
-AABBf
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -361,11 +146,8 @@ AITUVCEXT_UpdateFW_with_progress
 AITUVCEXT_UpdateFW_with_progressEx
 AITUVCEXT_WriteFWData
 AitUVCExtApi.dll
-An application has made an attempt to load the C runtime library incorrectly.
 April
 August
-B#Phh7
-B-Phx=
 CONOUT$
 CloseHandle
 CoCreateInstance
@@ -379,7 +161,7 @@ CreateEventW
 CreateFileA
 CreateFileW
 CreateThread
-DOMAIN error
+DOMAIN error\r\n
 December
 DecodePointer
 DeleteCriticalSection
@@ -434,9 +216,8 @@ GetSystemTimeAsFileTime
 GetTickCount
 GetUserObjectInformationA
 GetWindowsDirectoryW
-H#Qh8<
 HH:mm:ss
-HH_^[
+HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -448,11 +229,13 @@ InterlockedDecrement
 InterlockedIncrement
 IsDebuggerPresent
 IsValidCodePage
+J\rr3u
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
+July
+June
 KERNEL32
 KERNEL32.dll
-L6P6T6X6
 LCMapStringA
 LCMapStringW
 LeaveCriticalSection
@@ -464,48 +247,41 @@ MessageBoxW
 Microsoft Visual C++ Runtime Library
 Monday
 MultiByteToWideChar
+NKeb
 NV12_to_RGB
 November
 OLEAUT32.dll
 October
 OutputDebugStringW
-PPPPP
-PPPPPPPP
 PackWavFile
 PathRemoveFileSpecW
 PeekMessageW
-Please contact the application's support team for more information.
-Program: 
-QQSVWd
-QSWVj
 QueryPerformanceCounter
-R6002
-R6008
-R6009
-R6016
-R6017
-R6018
-R6019
-R6024
-R6025
-R6026
-R6027
-R6028
-R6030
-R6031
-R6032
-R6033
-R6034
+R6002\r\n- floating point support not loaded\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6009\r\n- not enough space for environment\r\n
+R6016\r\n- not enough space for thread data\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6018\r\n- unexpected heap error\r\n
+R6019\r\n- unable to open console device\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6025\r\n- pure virtual function call\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6030\r\n- CRT not initialized\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
 RSDSwu
 RaiseException
 ReadFile
 RtlUnwind
-Runtime Error!
+Runtime Error!\n\nProgram: 
+S;uD
 SHLWAPI.dll
-SING error
-SSSSS
-SSSSW
-SVWUj
+SING error\r\n
 Saturday
 September
 SetEndOfFile
@@ -518,7 +294,7 @@ SetUnhandledExceptionFilter
 Sleep
 SunMonTueWedThuFriSat
 Sunday
-TLOSS error
+TLOSS error\r\n
 TUCK_CloseDevice
 TUCK_CommitGet
 TUCK_CommitSet
@@ -529,9 +305,6 @@ TUCK_ProbeSet
 TUCK_WriteLog
 TerminateProcess
 TerminateThread
-This application has requested the Runtime to terminate it in an unusual way.
-This indicates a bug in your application.
-This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
 Thursday
 TlsAlloc
 TlsFree
@@ -539,36 +312,26 @@ TlsGetValue
 TlsSetValue
 TranslateMessage
 Tuesday
-UQPXY]Y[
-URPQQhL~
 USER32.DLL
 USER32.dll
 UnhandledExceptionFilter
 Unknown exception
-VVVVV
-VW|[;
 Vbad allocation
 VirtualAlloc
 VirtualFree
-WWWWV
-WWWWW
 WaitForSingleObject
 Wednesday
 WideCharToMultiByte
 WriteConsoleA
 WriteConsoleW
 WriteFile
-Y_^[]
-Y__^[
-[j@j 
-^SSSSS
-^WWWWW
+YUY2
+\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
 _AITAPI_GetMiscSetting@8
 _AITAPI_GetSkypeXUVersion@8
 _AITAPI_GetVCMRegister@12
 _AITAPI_SetMinQP@8
 _AITAPI_SetVCMRegister@12
-_VVVVV
 __based(
 __cdecl
 __clrcall
@@ -579,7 +342,6 @@ __restrict
 __stdcall
 __thiscall
 __unaligned
-`.rdata
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -590,7 +352,6 @@ __unaligned
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h````
 `h`hhh
 `local static guard'
 `local static thread guard'
@@ -622,33 +383,12 @@ bad exception
 d:\VCProject\Namuga\AitH264CamSample\release\AitUVCExtApi.pdb
 dddd, MMMM dd, yyyy
 e+000
-f93u 
-g1	292q2
-h1l1p1t1x1|1
-j h N
-j"^SSSSS
-j@j ^V
+kU'9
 ole32.dll
 operator
 qMJPG
 runtime error 
-s[S;7|G;w
-t"SS9]
-t+WWVPV
-tCHt/
-tGHt.Ht&
-tJj@h
-tNVSP
-tPj@h,A
-tR99u2
-tVHtG
-u WPS
-u&WVS
-u8SS3
-v	N+D$
-wIVSP
 xppwpp
 xpxxxx
 z?aUY
 zc%C1
-~,WPV

@@ -1,12 +1,28 @@
-
-#
+ <unknown> 
+ BUS_ADRALN 
+ BUS_ADRERR 
+ BUS_OBJERR 
+ FPE_FLTDIV 
+ FPE_FLTINV 
+ FPE_FLTOVF 
+ FPE_FLTRES 
+ FPE_FLTSUB 
+ FPE_FLTUND 
+ FPE_INTDIV 
+ FPE_INTOVF 
+ ILL_BADSTK 
+ ILL_COPROC 
+ ILL_ILLADR 
+ ILL_ILLOPN 
+ ILL_ILLTRP 
+ ILL_PRVOPC 
+ ILL_PRVREG 
+ SEGV_ACCERR 
+ SEGV_MAPERR 
+!)@:F,@zj/@\G1@|
+"mm?7
 %08lx-%08lx
-%c%c%c%c
 %lx-%lx
-'sM
-(
-)
--Dt>
 ../../src/base/platform/platform-linux.cc
 ../../src/base/platform/semaphore.cc
 ../../src/base/safe_math.h
@@ -15,31 +31,20 @@
 /proc/self/maps
 0 == result
 0123456789abcdef
-0>
-0x
-3
-6@
-:n$
-<unknown>
-==== C stack trace ===============================
-@
-@wKA## Fatal error in %s, line %d#
-A~_
-BUS_ADRALN
-BUS_ADRERR
-BUS_OBJERR
+41Y'1
+==== C stack trace ===============================\n
+=@zj?@L~@@\GA@l
+=v<y5
+?1cb
+?IUUUUU
+?UUUUUU
+?\rUUUUU
+?cUUUUU
+?v<y5
+@wKA\n\n#\n# Fatal error in %s, line %d\n# 
 CXXABI_1.3
 Check failed: %s.
-DNn
-FPE_FLTDIV
-FPE_FLTINV
-FPE_FLTOVF
-FPE_FLTRES
-FPE_FLTSUB
-FPE_FLTUND
-FPE_INTDIV
-FPE_INTOVF
-Failed to open %s
+Failed to open %s\n
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBCXX_3.4
 GLIBCXX_3.4.9
@@ -49,32 +54,22 @@ GLIBC_2.3.2
 GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
-ILL_BADSTK
-ILL_COPROC
-ILL_ILLADR
-ILL_ILLOPN
-ILL_ILLTRP
-ILL_PRVOPC
-ILL_PRVREG
 InVM(address, OS::CommitPageSize())
 InVM(address, size)
 IsValid()
-Received signal
-SEGV_ACCERR
-SEGV_MAPERR
+PCUUUUUU
+Received signal 
+UUUUU
 V8_Fatal
-VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
-[
-[end of stack trace]
-]
+V?LUUUUU
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+[end of stack trace]\n
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_Z
 __FRAME_END__
 __JCR_END__
 __JCR_LIST__
@@ -120,6 +115,7 @@ cpu.cc
 crtstuff.c
 deregister_tm_clones
 division-by-constant.cc
+f?>UUUUU
 fclose
 ferror
 fflush
@@ -161,8 +157,6 @@ mutex.cc
 once.cc
 operator delete(void*)
 operator new(unsigned long)
-p>
-pA
 platform-linux.cc
 platform-posix.cc
 prctl
@@ -192,12 +186,10 @@ pthread_mutexattr_destroy
 pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_setspecific
-r
-r+
 random-number-generator.cc
-rb
 register_tm_clones
 remove
+ri7f>
 scalbn
 sched_yield
 sem_destroy
@@ -215,12 +207,12 @@ stack_trace_posix.cc
 state0_ != 0 || state1_ != 0
 std::__throw_logic_error(char const*)
 std::__throw_out_of_range(char const*)
-std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_ios<char, std::char_traits<char>>::clear(std::_Ios_Iostate)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)
 std::ios_base::ios_base()
 std::ios_base::~ios_base()
 std::locale::locale()
@@ -289,8 +281,8 @@ v8::base::ConditionVariable::NotifyOne()
 v8::base::ConditionVariable::Wait(v8::base::Mutex*)
 v8::base::ConditionVariable::WaitFor(v8::base::Mutex*, v8::base::TimeDelta const&)
 v8::base::ConditionVariable::~ConditionVariable()
-v8::base::LazyInstanceImpl<v8::base::Mutex, v8::base::StaticallyAllocatedInstanceTrait<v8::base::Mutex>, v8::base::DefaultConstructTrait<v8::base::Mutex>, v8::base::ThreadSafeInitOnceTrait, v8::base::LeakyInstanceTrait<v8::base::Mutex> >::InitInstance(v8::base::StaticallyAllocatedInstanceTrait<v8::base::Mutex>::StorageType*)
-v8::base::LazyInstanceImpl<v8::base::RandomNumberGenerator, v8::base::StaticallyAllocatedInstanceTrait<v8::base::RandomNumberGenerator>, v8::base::DefaultConstructTrait<v8::base::RandomNumberGenerator>, v8::base::ThreadSafeInitOnceTrait, v8::base::LeakyInstanceTrait<v8::base::RandomNumberGenerator> >::InitInstance(v8::base::StaticallyAllocatedInstanceTrait<v8::base::RandomNumberGenerator>::StorageType*)
+v8::base::LazyInstanceImpl<v8::base::Mutex, v8::base::StaticallyAllocatedInstanceTrait<v8::base::Mutex>, v8::base::DefaultConstructTrait<v8::base::Mutex>, v8::base::ThreadSafeInitOnceTrait, v8::base::LeakyInstanceTrait<v8::base::Mutex>>::InitInstance(v8::base::StaticallyAllocatedInstanceTrait<v8::base::Mutex>::StorageType*)
+v8::base::LazyInstanceImpl<v8::base::RandomNumberGenerator, v8::base::StaticallyAllocatedInstanceTrait<v8::base::RandomNumberGenerator>, v8::base::DefaultConstructTrait<v8::base::RandomNumberGenerator>, v8::base::ThreadSafeInitOnceTrait, v8::base::LeakyInstanceTrait<v8::base::RandomNumberGenerator>>::InitInstance(v8::base::StaticallyAllocatedInstanceTrait<v8::base::RandomNumberGenerator>::StorageType*)
 v8::base::MagicNumbersForDivision<unsigned int> v8::base::SignedDivisionByConstant<unsigned int>(unsigned int)
 v8::base::MagicNumbersForDivision<unsigned int> v8::base::UnsignedDivisionByConstant<unsigned int>(unsigned int, unsigned int)
 v8::base::MagicNumbersForDivision<unsigned int>::MagicNumbersForDivision(unsigned int, unsigned int, bool)
@@ -445,7 +437,7 @@ v8::base::bits::SignedSaturatedSub64(long, long)
 v8::base::debug::(anonymous namespace)::BacktraceOutputHandler::~BacktraceOutputHandler()
 v8::base::debug::(anonymous namespace)::DemangleSymbols(std::string*)
 v8::base::debug::(anonymous namespace)::PrintBacktraceOutputHandler::HandleOutput(char const*)
-v8::base::debug::(anonymous namespace)::ProcessBacktrace(void* const*, unsigned long, v8::base::debug::(anonymous namespace)::BacktraceOutputHandler*) [clone .constprop.5]
+v8::base::debug::(anonymous namespace)::ProcessBacktrace(void* const*, unsigned long, v8::base::debug::(anonymous namespace)::BacktraceOutputHandler*) (.constprop.5)
 v8::base::debug::(anonymous namespace)::StackDumpSignalHandler(int, siginfo*, void*)
 v8::base::debug::(anonymous namespace)::dump_stack_in_signal_handler
 v8::base::debug::(anonymous namespace)::in_signal_handler
@@ -465,7 +457,7 @@ v8::base::hash_value(unsigned long)
 v8::base::ieee754::(anonymous namespace)::__ieee754_rem_pio2(double, double*)
 v8::base::ieee754::(anonymous namespace)::__ieee754_rem_pio2(double, double*)::npio2_hw
 v8::base::ieee754::(anonymous namespace)::__ieee754_rem_pio2(double, double*)::two_over_pi
-v8::base::ieee754::(anonymous namespace)::__kernel_rem_pio2(double*, double*, int, int, int, int const*) [clone .constprop.0]
+v8::base::ieee754::(anonymous namespace)::__kernel_rem_pio2(double*, double*, int, int, int, int const*) (.constprop.0)
 v8::base::ieee754::acos(double)
 v8::base::ieee754::acosh(double)
 v8::base::ieee754::asin(double)
@@ -503,21 +495,19 @@ v8::base::ieee754::sinh(double)
 v8::base::ieee754::tan(double)
 v8::base::ieee754::tanh(double)
 v8::base::ieee754::tanh(double)::tiny
-v8::base::internal::CheckedNumeric<long>::ValueOrDie() const [clone .part.6]
+v8::base::internal::CheckedNumeric<long>::ValueOrDie() const (.part.6)
 v8::base::operator<<(std::ostream&, v8::base::Time const&)
 v8::base::platform_random_number_generator
-void std::vector<v8::base::OS::SharedLibraryAddress, std::allocator<v8::base::OS::SharedLibraryAddress> >::_M_emplace_back_aux<v8::base::OS::SharedLibraryAddress>(v8::base::OS::SharedLibraryAddress&&)
-vs.
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+v<y5
+void std::vector<v8::base::OS::SharedLibraryAddress, std::allocator<v8::base::OS::SharedLibraryAddress>>::_M_emplace_back_aux<v8::base::OS::SharedLibraryAddress>(v8::base::OS::SharedLibraryAddress&&)
+vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 vtable for v8::base::OS::MemoryMappedFile
 vtable for v8::base::PosixMemoryMappedFile
 vtable for v8::base::Thread
 vtable for v8::base::debug::(anonymous namespace)::BacktraceOutputHandler
 vtable for v8::base::debug::(anonymous namespace)::PrintBacktraceOutputHandler
-w
-w+
 write

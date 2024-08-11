@@ -1,5 +1,6 @@
 $ORIGIN/../../lib
 10QSvgPlugin
+13QSvgIOHandler
 <?xml
 <svg
 CXXABI_1.3
@@ -7,7 +8,6 @@ GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
 GLIBCXX_3.4
 GLIBC_2.2.5
-GNU
 QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
 QBuffer::data() const
 QBuffer::staticMetaObject

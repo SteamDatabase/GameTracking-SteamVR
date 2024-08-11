@@ -1,21 +1,6 @@
-	!s99
- %41g
- A_A^A\_^
- A_A^_
- A_][
- A_^]
- A__^
- H3E H3E
-!hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
-',=?k
-(D$0f
-(f*^[0
-+Xt@(
-+o'q)}
-,W5y+
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -79,6 +64,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
 .data
 .data$r
 .edata
@@ -96,82 +82,26 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
 .text$x
 .text$yd
+.tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-0A^_]
-0A_A^A]A\_^[
-0w0c1
-0}0i1
 1.0.0
-130801120000Z
-210429000000Z
-211007000000Z
-220323000000Z
-220801000000Z
-230714000000Z
-240724173716Z0/
-241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3 |nI
-311109235959Z0b1
-341013235959Z0H1
-360428235959Z0i1
-370322235959Z0c1
-380115120000Z0b1
-3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5FjiT
-5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6*f(_
-6I]Dc
-6OB,n_
-70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
-8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8_^][
-9D$@u	
-9D$DtfL9t$xt
-9E ukH
-<0:08
+3dj6
+76F\
 <P)9Y
 <unknown>
-=rIQU
->0<0:
->Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
-@.data
-@.reloc
-@A^][
-@A^_^
-@SUAVH
-@SUAWH
-@USAUH
-@USVWATAVAWH
-@UVAVAWH
-@WAUAVAWH
-ASSERT: "%s" at %s:%d.
-A_A]^]
-A_A^A\_^[
-A_A^A\_^[]
-A_A^^]
-AuthD
-Bellevue1
+ASSERT: "%s" at %s:%d.\n
 C++/WinRT version:1.0.190111.3
-CD$@3
 CWinRTDisplay::GetDisplayModes
 CWinRTDisplay::SetDisplayMode
 CloseHandle
@@ -181,27 +111,9 @@ CoTaskMemAlloc
 CoTaskMemFree
 CreateDXGIFactory2
 CreateEventW
-D$0H;
-D$@E3
-D$HE3
-D$HM;
-D$PH;
-D$hH;
-D$pH;
-D$xH;
 D3D11CreateDevice
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
-DigiCert Inc1
-DigiCert Timestamp 20230
-DigiCert Trusted Root G40
-DigiCert, Inc.1 0
-DigiCert, Inc.1;09
-DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E05	jT
-E89D$Pu
-E<9D$Tu
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -212,23 +124,7 @@ GetProcessHeap
 GetRestrictedErrorInfo
 GetSystemTimeAsFileTime
 GetTickCount64
-H-^Eu
-H9\$X
-H9\$Xt
-H9\$`t
-H9\$ht
-H9\$pt
-H9\$xt
-H9o H
-H9o(H
-H9o0H
-H9o8H
-H9o@H
-H9oHH
 HeapFree
-I9] M
-I9]8I
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
@@ -236,60 +132,29 @@ Intel
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J>@G_
 KERNEL32.dll
-K}*n:	
-L$ SH
-L$ SUVWH
-L$ SWH
-L$@s@H
-L9t$xt
-L9|$ht
-L?n(Zy&
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-M H1E
-MB(iVR
 MSVCP140.dll
-Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
-Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
-PAq=?Mp#
-Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S0Q0O
-SA|X=G
-SVWATAUAVAWH
-SVWATAVAWH
 Selected display mode: %dx%d @ %.1fHz
 SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-TJ>.K
-UVAUAWH
-UVAWH
-UWAVH
 UnhandledExceptionFilter
 Unknown exception
-Unknown exception encountered initializing WinRT display.
+Unknown exception encountered initializing WinRT display.\n
 VCRUNTIME140.dll
-VWATAVAWH
-VWAVH
-VWAWH
-V_~]	,
-Valve Corp.0
-Valve Corp.1
-WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
 WINRT_GetCurrentDriverVersion
@@ -306,7 +171,6 @@ WINRT_SetDisplayMode
 WINRT_WaitForPresent
 WaitForSingleObjectEx
 WakeAllConditionVariable
-Washington1
 WideCharToMultiByte
 WindowsCreateString
 WindowsCreateStringReference
@@ -314,15 +178,6 @@ WindowsDeleteString
 WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
-XA_A^A]_
-Y9"SD
-['JJT
-[K]taM?
-\$ H;
-\$ UH
-\$(H;
-\$Xfff
-]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -340,7 +195,6 @@ _cexit
 _configure_narrow_argv
 _crt_atexit
 _execute_onexit_table
-_gUT^
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -348,9 +202,6 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
-`.rdata
-`0jiD
-a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
 api-ms-win-core-localization-l1-2-0.dll
@@ -365,54 +216,22 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c	Gz=j
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
-gtPYA
-http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0X
-http://ocsp.digicert.com0\
-http://www.digicert.com/CPS0
+free
 iswspace
-jj@0HK4
-k0i0$
-l$ WH
-l2|X/gGe
-m0k0$
 m_path
 malloc
 memcpy
 memmove
 memset
-ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
-t$ WH
-t$0H+
-t$8H9)t
-t$@H=
-t$PE3
-tXfff
-tYH9\$`t
 terminate
-tps:;{
-v!neException encountered initializing WinRT display (%d): %s
-v=Y]Bv
+v!neException encountered initializing WinRT display (%d): %s\n
 vector<T> too long
 winrtdisplay.dll
-www.digicert.com1!0
-www.digicert.com1$0"
-xhV{U
-{un'%
-|$ AVH
-|$0E3
-|$xMi
-|Lu?c
-}LuHO
-~qj#k"
-~t&LN
