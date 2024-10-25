@@ -421,7 +421,6 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RSDS
-R\npd
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -480,7 +479,6 @@ Unable to get normalized coords from virtual coords for locked mouse position.\n
 Unable to get overlay mouse scale.\n
 Unable to interact with foreground window. Displaying window switcher.\n
 Unable to open desktopview mailbox.\n
-Unable to send debug info to the dashboard UI.\n
 Unable to send updated window list to the dashboard UI.\n
 Unable to send window view created message to the dashboard UI.\n
 Unable to send window view destroyed message to the dashboard UI.\n
@@ -625,7 +623,6 @@ false
 fi_fi
 finnish
 fr_fr
-frame_time
 free
 french
 german
@@ -646,7 +643,6 @@ in Json::Value::operator[](int index) const: index cannot be negative
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
-input_frame_time
 invalid stoull argument
 invalid string position
 iswspace
@@ -676,7 +672,6 @@ norwegian
 null
 ole32.dll
 openvr_api.dll
-overlay_frame_times
 overlay_key
 pl_pl
 polish
@@ -727,7 +722,6 @@ turkish
 type
 uk_ua
 ukrainian
-update_debug_info
 update_window_list
 user32.dll
 vector<T> too long

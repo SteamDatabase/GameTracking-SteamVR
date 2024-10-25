@@ -13,10 +13,17 @@
 	"Setting_automatic_off": "Manual",
 	"Setting_clientVersion": "Client Version",
 	"Setting_useOSC": "Enable OSC",
-	"Setting_useOSCEyes": "Share eye tracking data to other apps on this PC via OSC",
 	"Setting_useOSCFace": "Share face tracking data to other apps on this PC via OSC",
 	"Setting_OSCOutPort": "OSC Output Port",
+	"Setting_shareEyeTrackingData": "Share eye tracking data to other apps on this PC",
 	"Setting_WirelessShutdownTimeout": "On disconnect, exit SteamVR after",
 	"Setting_AllowVolumeControlSync": "Control headset volume and mute from SteamVR",
-	"Setting_DisableQoS" : "Disable QoS"
+	"Setting_DisableQoS" : "Disable QoS",
+
+	"svl_hand_interaction_augmented": "Hand Tracking Controller",
+	"/input/index_pinch": "Index Pinch",
+	"/input/middle_pinch": "Middle Pinch",
+	"/input/ring_pinch": "Ring Pinch",
+	"/input/pinky_pinch": "Pinky Pinch",
+	"/input/index_point": "Index Point"
 }

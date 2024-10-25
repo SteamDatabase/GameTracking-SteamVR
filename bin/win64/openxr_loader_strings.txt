@@ -276,7 +276,7 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDS3
+RSDSO
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 

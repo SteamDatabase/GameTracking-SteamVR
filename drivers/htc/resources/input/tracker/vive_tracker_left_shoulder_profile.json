@@ -1,6 +1,8 @@
 {
-	"jsonid" : "input_profile",
+  "jsonid" : "input_profile",
   "controller_type": "vive_tracker_left_shoulder",
+  "device_class": "TrackedDeviceClass_GenericTracker",
+  "driver_name" : "htc",
   "input_bindingui_mode" : "single_device",
   "input_bindingui_right" :
   {
@@ -23,16 +25,19 @@
     },
     "/input/grip" : {
         "type" : "button",
+		"click": true,
 				"order" :  3,
         "binding_image_point" : [ 100, 90 ]
     },
     "/input/application_menu" : {
         "type" : "button",
+		"click": true,
 				"order" :  4,
         "binding_image_point" : [ 100, 90 ]
     },
     "/input/thumb" : {
         "type" : "button",
+		"click": true,
 				"order" :  5,
         "binding_image_point" : [ 100, 90 ]
     },
@@ -60,5 +65,21 @@
         "type" : "vibration",
         "binding_image_point" : [ 66, 59 ]
     }
+  },
+  "simulation_settings":
+  {
+	"hmd_profile": "vive",
+    "left_modelnumber": "VIVE Tracker Pro MV",
+    "right_modelnumber": "VIVE Tracker Pro MV",
+    "left_serialnumber": "LHR-00000003",
+    "right_serialnumber": "LHR-00000003",
+    "left_rendermodel": "{htc}vr_tracker_vive_1_0",
+    "right_rendermodel": "{htc}vr_tracker_vive_1_0",
+	"left_registered_device_type": "htc/vive_trackerLHR-00000003",
+	"right_registered_device_type": "htc/vive_trackerLHR-00000003",
+    "tracking_system_name": "lighthouse",
+    "manufacturer_name": "HTC",
+	"legacy_buttons": [0, 1, 2, 32, 33],
+	"legacy_axis": [1, 3, 0, 0, 0]
   }
 }

@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "OSC aracılığıyla yüz izleme verilerini bu bilgisayardaki diğer uygulamalarla paylaş",
 	"Setting_OSCOutPort": "OSC Çıktı Portu",
 	"Setting_WirelessShutdownTimeout": "Bağlantı kesilince SteamVR'dan çık",
-	"Setting_AllowVolumeControlSync": "Başlık sesini ve susturmayı SteamVR'dan kontrol et"
+	"Setting_AllowVolumeControlSync": "Başlık sesini ve susturmayı SteamVR'dan kontrol et",
+	"Setting_DisableQoS": "QoS'i devre dışı bırak"
 }

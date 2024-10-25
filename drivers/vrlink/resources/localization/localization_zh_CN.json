@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "通过 OSC 将人脸追踪数据共享至此 PC 上的其他应用",
 	"Setting_OSCOutPort": "OSC 输出端口",
 	"Setting_WirelessShutdownTimeout": "断开连接时，退出 SteamVR",
-	"Setting_AllowVolumeControlSync": "从 SteamVR 控制头戴式显示器音量并静音"
+	"Setting_AllowVolumeControlSync": "从 SteamVR 控制头戴式显示器音量并静音",
+	"Setting_DisableQoS": "禁用服务质量"
 }

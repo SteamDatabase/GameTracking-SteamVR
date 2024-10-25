@@ -29,7 +29,7 @@
 	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Меню за захранване",
 	"IPD_Description": "Разстояние между лещите",
-	"NoSteamWarning": "Steam не е достъпен. Възможно е някои характеристики да са изключени.",
+	"NoSteamWarning": "Steam не е достъпен. Възможно е някои характеристики да са преустановени.",
 	"WakingUpBaseStations": "Събуждане на базовите станции…",
 	"/input/joystick": "Джойстик",
 	"/input/trackpad": "Тракпад",

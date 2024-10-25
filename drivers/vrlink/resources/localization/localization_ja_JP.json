@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "OSC経由でこのPCの他のアプリにフェイストラッキングデータを共有",
 	"Setting_OSCOutPort": "OSC出力ポート",
 	"Setting_WirelessShutdownTimeout": "切断時にSteamVRを終了",
-	"Setting_AllowVolumeControlSync": "SteamVRからヘッドセットの音量とミュートをコントロールする"
+	"Setting_AllowVolumeControlSync": "SteamVRからヘッドセットの音量とミュートをコントロールする",
+	"Setting_DisableQoS": "QoSを無効にする"
 }

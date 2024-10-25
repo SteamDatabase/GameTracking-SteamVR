@@ -1,0 +1,11 @@
+{
+    "components": {
+        "body": {
+            "filename": "shuttlecock.obj",
+            "motion": {
+                "type": "pose_component",
+                "pose_path": "/pose/tip"
+            }
+        }
+    }
+}

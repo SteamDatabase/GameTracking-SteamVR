@@ -15,6 +15,7 @@
  at line 
  bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ exceeds maximum allowed file size 
  failed to parse: 
  for action '
  for detail.\n
@@ -48,15 +49,18 @@
 "bufferViews" object not found in .gltf\n
 "buffers" object not found in .gltf\n
 "chords" member must be an array
+"eyetracking" member must be an array
 "haptics" member must be an array
 "nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
 "poses" member must be an array
+"positional" is not a JSON object.
 "scenes" object not found in .gltf or not an array type\n
 "skeleton" member must be an array
 "sources" member must be an array
 "spot" is not a JSON object.
+"subtype": 
 ##Remaining: %f %d %d
 #?RADIANCE
 #?RADIANCE\n
@@ -71,8 +75,9 @@
 #OriginString_HandSource
 #OriginString_Source
 $3br
-$tI(knN"
+$tI(knN
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
 %LocalAppData%
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
@@ -349,7 +354,7 @@ $tI(knN"
 -ID3D11On12Device::CreateWrappedResource failed.\n
 -IPCWrapper
 -Infinity
--S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+-Unable to create shared state %s because namespace wasn't available\n
 -disablewatchdogs
 -lang="
 -nokillprocess
@@ -377,11 +382,14 @@ $tI(knN"
 .?AU?$CSxrDispatchableHandle@VCSxrActionSet@@PEAUXrActionSet_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrInstance@@PEAUXrInstance_T@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrRenderModelEXT@@PEAUXrRenderModelEXT_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrSession@@PEAUXrSession_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrSpace@@PEAUXrSpace_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUALVRDisplayNotification@@
 .?AUBlendState@D3D11VRRenderer@@
 .?AUBlendState@VulkanVRRenderer@@
@@ -423,7 +431,7 @@ $tI(knN"
 .?AUVertexBuffer@VulkanVRRenderer@@
 .?AUVertexBufferBase@VRRenderer@@
 .?AU_Crt_new_delete@std@@
-.?AUinput_adapter_protocol@detail@nlohmann@@
+.?AV<lambda_01092690e00c40e7464d5f51ac884483>@@
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
 .?AV<lambda_1c61f3962b97f3f9ecd354a1e39cff36>@@
 .?AV<lambda_1fd16216e62d16080da99169d98a6b3a>@@
@@ -443,7 +451,6 @@ $tI(knN"
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@
-.?AV<lambda_bdb4246244a21659a08701b2bdb5c6fd>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
@@ -491,6 +498,8 @@ $tI(knN"
 .?AV?$CSxrChildHandle@VCSxrAction@@PEAUXrAction_T@@VCSxrActionSet@@@@
 .?AV?$CSxrChildHandle@VCSxrActionSet@@PEAUXrActionSet_T@@VCSxrInstance@@@@
 .?AV?$CSxrChildHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@VCSxrSession@@@@
+.?AV?$CSxrChildHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@VCSxrSession@@@@
+.?AV?$CSxrChildHandle@VCSxrRenderModelEXT@@PEAUXrRenderModelEXT_T@@VCSxrSession@@@@
 .?AV?$CSxrChildHandle@VCSxrSession@@PEAUXrSession_T@@VCSxrInstance@@@@
 .?AV?$CSxrChildHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@VCSxrSession@@@@
 .?AV?$CSxrChildVariableParentHandle@VCSxrSpace@@PEAUXrSpace_T@@VCSxrAction@@VCSxrSession@@@@
@@ -656,6 +665,7 @@ $tI(knN"
 .?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
 .?AV?$WatchdogHost@VCVRWatchdogHost_001@@@@
 .?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
 .?AV?$_Func_base@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
 .?AV?$_Func_base@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateFloat@@PEA_K@std@@
@@ -665,16 +675,32 @@ $tI(knN"
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_base@_NAEBUHiddenAreaMesh_t@vr@@AEAU12@@std@@
 .?AV?$_Func_base@_NAEBUHmdVector3_t@vr@@@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@
 .?AV?$_Func_base@_ND@std@@
 .?AV?$_Func_base@_NGGG@std@@
+.?AV?$_Func_base@_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_base@_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@std@@
+.?AV?$_Func_base@_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@std@@
+.?AV?$_Func_base@_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_base@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_base@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_base@_NPEBUXrInteractionProfileDpadBindingEXT@@@std@@
+.?AV?$_Func_base@_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBV12@PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@std@@
 .?AV?$_Func_base@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_base@_N_K@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@ZV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@Z_NAEBV12@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z_NAEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_ND@Z_ND@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z_NPEAU12@HPEAV34@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@Z_NPEAV12@AEBV12@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_01092690e00c40e7464d5f51ac884483>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1c61f3962b97f3f9ecd354a1e39cff36>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateFloat@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1fd16216e62d16080da99169d98a6b3a>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
@@ -694,7 +720,6 @@ $tI(knN"
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_bdb4246244a21659a08701b2bdb5c6fd>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
@@ -709,12 +734,13 @@ $tI(knN"
 .?AV?$_Ref_count_obj@UInputConfig_t@@@std@@
 .?AV?$_Ref_count_obj@UInputFrame_t@CVRInputLatest@@@std@@
 .?AV?$_Ref_count_obj@UModelInfo_t@CRenderModelManager@@@std@@
+.?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$_Ref_count_obj@VCBlockQueue@@@std@@
 .?AV?$_Ref_count_obj@VCInputActionSet@@@std@@
+.?AV?$_Ref_count_obj@VCSXrBackingRenderModelAsset@@@std@@
 .?AV?$_Ref_count_obj@VCSimulatedTrackpadClick@@@std@@
 .?AV?$_Ref_count_obj@VCSimulatedTriggerPull@@@std@@
 .?AV?$_Ref_count_obj@VCVulkanFence@CVRCompositorSharedTextures@@@std@@
-.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
@@ -730,6 +756,7 @@ $tI(knN"
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$collate@D@std@@
+.?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVArrayOutputStream@io@protobuf@google@@
 .?AVCAnimResource@@
@@ -818,6 +845,8 @@ $tI(knN"
 .?AVCSxrHandTrackerEXT@@
 .?AVCSxrInstance@@
 .?AVCSxrParentBase@@
+.?AVCSxrRenderModelAssetEXT@@
+.?AVCSxrRenderModelEXT@@
 .?AVCSxrSession@@
 .?AVCSxrSpace@@
 .?AVCSxrSwapchainBase@@
@@ -1375,7 +1404,6 @@ $tI(knN"
 .?AVexception@detail@nlohmann@@
 .?AVexception@std@@
 .?AVfacet@locale@std@@
-.?AVinput_buffer_adapter@detail@nlohmann@@
 .?AVios_base@std@@
 .?AVout_of_range@detail@nlohmann@@
 .?AVparse_error@detail@nlohmann@@
@@ -1397,8 +1425,16 @@ $tI(knN"
 .CRT$XTA
 .CRT$XTZ
 .HPN
+.P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6AXPEBD0I_NPEAXPEA_N@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z
 .P6A_ND@Z
+.P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z
+.P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@AEBV?$vector@EV?$allocator@E@std@@@1@PEAX@Z
+.P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@AEBV21@PEAX@Z
+.P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
+.P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@3@PEBUURICallbacks@3@PEAV01@PEAX@Z
 .PEAVException@Json@@
 .backup
 .bss
@@ -1480,6 +1516,7 @@ $tI(knN"
 /devices/htc/vive_tracker
 /dpad_
 /entity_htc/pose
+/eyetracking
 /filters/
 /force
 /generation
@@ -1504,6 +1541,7 @@ $tI(knN"
 /input/finger/splay_ring_pinky
 /input/finger/splay_thumb_index
 /input/finger/thumb
+/input/gaze_ext
 /input/grip
 /input/grip/click
 /input/grip/pose
@@ -1529,6 +1567,7 @@ $tI(knN"
 /input/x
 /input_debugger_pid
 /input_profile
+/interaction_profiles/ext/eye_gaze_interaction
 /interaction_profiles/google/daydream_controller
 /interaction_profiles/hp/mixed_reality_controller
 /interaction_profiles/htc/vive_controller
@@ -1599,6 +1638,8 @@ $tI(knN"
 /user/chest
 /user/elbow/left
 /user/elbow/right
+/user/eyes_ext
+/user/eyes_ext/input/gaze_ext/pose
 /user/foot/left
 /user/foot/right
 /user/gamepad
@@ -1789,11 +1830,13 @@ $tI(knN"
 /y/touch
 0 width
 0-pixel image
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789ABCDEF
 0\tFAJ
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
+11eU%
 1e+9999
 333?
 361.75
@@ -1813,6 +1856,7 @@ $tI(knN"
 ; expected 
 ; last read: '
 <NONE>
+<discarded>
 <invalid handle>
 <parse error>
 <uninitialized>
@@ -1820,7 +1864,6 @@ $tI(knN"
 <unknown>
 =====================================
 ================================================================================================\n
-?088
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1839,6 +1882,7 @@ $tI(knN"
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
@@ -1851,13 +1895,12 @@ $tI(knN"
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?CSxrSession
 ?CVkDevice::CreateDevice
-?Hm7
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
 ?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
 ?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
@@ -1911,7 +1954,6 @@ $tI(knN"
 ?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
 ?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
-?smooth_scroll_trackpad_aspect_ratio
 ?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
@@ -1927,7 +1969,6 @@ $tI(knN"
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 @fff>fff>fff>fff>
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
@@ -1956,6 +1997,7 @@ Action Set names may not be empty
 Action names may not be empty
 Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
+Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Active pri %u, device=%s
 AddAccessAllowedAce
 AddResourceBarrier: Failed to close command list with %i when setting barrier transition
@@ -1979,6 +2021,7 @@ Application submitted two right scene textures for a single frame!\n
 ApplicationMenu
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
 Assert( %s ) %s(%d)\n
 Asset
 Attempt to init shared state %s twice
@@ -2004,10 +2047,12 @@ BC5S
 BC5U
 BC6H
 BC7L
+BIN Chunk data length exceeds the GLB size.
+BIN Chunk end is not aligned to a 4-byte boundary.
+BIN Chunk end is not aligned to a 4-byte boundary.\n
 BINORMAL
 BITANGENT
 BMP RLE
-BMissing haptic name in output of haptic filter %s\n
 BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -2118,10 +2163,14 @@ CSxrInstance::Init warning: Headset not found, unable to create a functional vr 
 CSxrInstance::PathToString failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected\n
 CSxrInstance::StringToPath failed: %s\n
 CSxrInstance::StringToPath failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected.\n
+CSxrRenderModelAssetEXT
+CSxrRenderModelEXT
+CSxrSession
 CSxrSession::EndFrame
 CSxrSession::LocateViews
 CSxrSession::ReadCachedActionState
 CSxrSpace
+CSxrSpace::Init
 CSxrSwapchainBase
 CSxrSwapchainBase::EndFrame
 CSxrSwapchainD3D11Direct::GetPresentableDepthTexture
@@ -2423,6 +2472,8 @@ CVulkanVRRenderer::SetImageLayout - unsupported new image layout: %d\n
 CVulkanVRRenderer::SetImageLayout - unsupported old image layout: %d\n
 CVulkanVRRenderer::UnampTexture: dangling data pointer\n
 CVulkanVRRenderer::UnmapTexture - bad parameter\n
+Calibrating_InProgress
+Calibrating_OutOfRange
 Call from application to set %s.%s. Scene applications are not allowed to set most settings\n
 Camera
 Can't 
@@ -2475,6 +2526,7 @@ CloseHandle
 CloseServiceHandle
 Closing Keyboard
 Closing pipe %s because it was broken from the other end\n
+CoCreateGuid
 Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f\n
 CommandBuffer[%u]
 CommandLineToArgvW
@@ -2647,7 +2699,6 @@ EventWriteString
 EventWriteTransfer
 Exceeded stackLimit in readValue().
 Executable: %s\n
-ExpandEnvironmentStringsA
 Expected color textures to have already been set above.
 Expected response %s, received %s. Rejecting response.\n
 Extra non-whitespace after JSON value.
@@ -2822,6 +2873,7 @@ Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
 Failed waiting for gpu to be finished for fence %ls. \n
 Failed when calling CheckFeatureSupport for %d
+Fallback_RotationOnly
 Fatal
 Fatal : VkResult is "
 File Not Found (103)
@@ -2830,6 +2882,8 @@ File not found :
 File open error : 
 File open error for writing : 
 File read error : 
+File read error. Maybe empty file or invalid file : 
+File size 
 File size mismatch : 
 File was empty
 File write error: 
@@ -2986,6 +3040,7 @@ GetVulkanDeviceExtensionsRequired - failed to initialize Vulkan.\n
 GetVulkanDeviceExtensionsRequired - no extensions?
 GetVulkanInstanceExtensionsRequired - failed to initialize Vulkan.\n
 GetVulkanInstanceExtensionsRequired - no extensions?
+Getting file size failed : 
 Giving up compositor connection after %d attempts\n
 Giving up server connection over pipe %s after %d attempts\n
 Giving up waiting for vrserver to exit after %dms -- killing it\n
@@ -3320,6 +3375,7 @@ Initializing CVulkanVRRenderer\n
 Initializing IRVCVTrackedHmdInternal interface
 Initializing the limited version of CVRCompositorClient\n
 InputValueType_Boolean
+InputValueType_EyeTracking
 InputValueType_Haptic
 InputValueType_Pose
 InputValueType_Scalar
@@ -3329,6 +3385,8 @@ InputValueVisibility_Public
 Installation Corrupt (101)
 Installation Not Found (100)
 Installation path could not be located (110)
+Insufficient Chunk1(BIN) data size.
+Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 Interface Not Found (105)
 Internal Retry (115)
 Invalid
@@ -3342,13 +3400,15 @@ Invalid `byteStride' value. `byteStride' must be the multiple of 4 :
 Invalid `componentType` in accessor. Got 
 Invalid active action set size
 Invalid application type %d\n
-Invalid binary data in `Buffer'.\n
+Invalid binary data in `Buffer', or GLB with empty BIN chunk.\n
 Invalid camera type: "
+Invalid chunkType for Chunk1.
 Invalid command buffer in CVRCompositorSharedTextures::EndCommandBuffer\n
 Invalid dead zone %f\n
 Invalid direction in  '
 Invalid file size : 
 Invalid glTF binary.
+Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
 Invalid input type %s for controller (%s)\n
 Invalid magic.
@@ -3370,6 +3430,7 @@ IsValidSid
 IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
 IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 Item %s in "chords" array invalid input type given modes selected (%s, %s)\n
+Item %s in "eyetracking" array missing path invalid device path for eyetracking input
 Item %s in "haptics" array missing path invalid device path for haptic output
 Item %s in "pose" array missing path invalid device path for pose input
 Item %s in "pose" array missing path invalid device path for pose input. Falling back to %s
@@ -3377,6 +3438,8 @@ Item %s in "skeleton" array missing path invalid device path for skeleton output
 Item in "chords" array is not an object
 Item in "chords" array missing correct number of inputs
 Item in "chords" array missing inputs or output
+Item in "eyetracking" array is not an object
+Item in "eyetracking" array missing path or output
 Item in "haptics" array is not an object
 Item in "haptics" array missing path or output
 Item in "pose" array is not an object
@@ -3387,10 +3450,12 @@ Item in "source" array is not an object
 Item in "source" array missing output parameter in input node
 Item in "source" array missing path or mode\n
 JFIF
+JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
+KHR_audio
 KHR_lights_punctual
 LINEAR
 Language
@@ -3406,12 +3471,15 @@ LoadLibraryA
 LoadLibraryExA
 LoadLibraryExW
 LoadLibraryW
+LoadTextureImageData: Provided extension was not supported: %s
 Loaded %s in %fms\n
 Loaded image %s (%dx%d) dur=%fms\n
+Loaded render model: %s
 Loaded resource-only driver %s from %s\n
 Loaded server driver %s (%s) from %s\n
 Loading compute shader %s\n
 Loading pixel shader %s\n
+Loading render model texture data from: %s
 Loading vertex shader %s\n
 Local next event counter is invalid at %u. Resetting\n
 LocalAlloc
@@ -3428,9 +3496,11 @@ MAT2
 MAT3
 MAT4
 MGiI
+MSFT_lod
 MSVCP140.dll
 MainThrd
 MapViewOfFile
+Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 MessageBoxA
 Microsoft/Windows/OpenVR/controller
 Minidump comment truncated
@@ -3443,8 +3513,10 @@ Missing 'name' member on action
 Missing '}' or object member name
 Missing Skeleton for action '
 Missing expected "statusicons" from system resource manifest %s.\n
+Missing haptic name in output of haptic filter %s\n
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
+MultiByteToWideChar
 NONE
 NORMAL
 NOT_READY
@@ -3461,6 +3533,9 @@ No open command buffer for layout transition\n
 No open command buffer for updating a buffer!\n
 No open command buffer for updating a texture!\n
 No open command buffer in CVRCompositorSharedTextures::EndCommandBuffer\n
+Node has extension KHR_audio, but does not reference a audio emitter.\n
+Node has extension KHR_lights_punctual, but does not reference a light source.\n
+Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 None
 NormalTextureInfo
 Not Initialized (109)
@@ -3493,7 +3568,7 @@ OpenServiceW
 Optional vulkan device extension is unavailable: %s\n
 Optional vulkan instance extension is unavailable: %s\n
 Or filters need at least one input in filter %s\n
-Orhographic camera description not found.
+Orthographic camera description not found.
 OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
@@ -3522,6 +3597,7 @@ Perspective camera description not found.
 PerspectiveCamera
 PoolGC
 Pose
+Positional emitter description not found.
 Primitive
 PrismTimeline:%llu
 Process called VR_Init a second time without an intervening VR_Shutdown. Returning success.\n
@@ -3747,7 +3823,7 @@ QueryServiceConfigW
 RADV
 RGBG
 RPCRT4.dll
-RSDSD
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -3825,6 +3901,9 @@ RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+Running_OK
+Running_OutOfRange
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 SCALAR
@@ -3874,6 +3953,7 @@ SetEnvironmentVariableA
 SetEvent
 SetFileAttributesW
 SetFilePointerEx
+SetHandLocationsInactive: locations was nullptr
 SetLastError
 SetNamedPipeHandleState
 SetOverlayRaw can't take dimensions over %u, but was passed %u x %u. Really it shouldn't be called with anything over a hundred or two pixels in each direction.\n
@@ -3936,6 +4016,7 @@ Something went wrong in ReadPathBatch. %u != %u\n
 Something went wrong in WritePathBatch. %u != %u\n
 Something went wrong with the event queue and it has %u events when %u are the maximum possible\n
 Source mode for %s for controller %s had %d bindings, which we don't know how to deal with yet\n
+SparseAccessor
 Spot light description not found.
 Stage override already set to '%s'! Use ClearStageOverride to free existing resources first.\n
 Standing transform was not updated when writing the universe to paths
@@ -3950,6 +4031,7 @@ SteamGameId
 SteamStreaming
 SteamVR
 SteamVR/OpenXR
+SteamVR@
 SteamVR_Namespace
 SteamXR Interop Device
 StringOutputStream.
@@ -3979,6 +4061,7 @@ SystemBehaviorFlag_SystemButtonDown
 SystemTimeToFileTime
 TANGENT
 TEXCOORD
+TEXCOORD_0
 TIMEOUT
 TRUE
 TRUE 
@@ -4045,6 +4128,7 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s\n
 Turning on pipe debugging at the server's request\n
 Tutorial
+U1(\Q
 UNKNOWN_ERROR
 UNNAMED
 USB Service Busy (140)
@@ -4072,7 +4156,6 @@ Unable to create property container %s because creation was not requested\n
 Unable to create property container %s because it already existed\n
 Unable to create shared memory %s for IPC client\n
 Unable to create shared mutex %s for IPC client\n
-Unable to create shared state %s because namespace wasn't available\n
 Unable to create tracked camera service shared memory for IPC %s\n
 Unable to create tracked camera service shared mutex for IPC %s\n
 Unable to create tracked camera shared memory buffer (%d/%d, %d bytes) for IPC %s\n
@@ -4151,6 +4234,8 @@ Unexpected error while trying to change the OpenXR application type: [%s]
 Unexpected failure when checking for timeline signal
 Unhandled sampler filter type!
 UnhandledExceptionFilter
+Uninitialized
+Unknown
 Unknown EVRApplicationTransitionState
 Unknown EVRApplicationType (%d)
 Unknown EVRButtonId (%d)
@@ -4172,6 +4257,7 @@ Unknown filter type %s\n
 Unknown flag %u
 Unknown float->float binding: %s -> %s
 Unknown image format. STB cannot decode image data for image[
+Unknown image format. STB cannot decode image header for image[
 Unknown input value type (%d)
 Unknown property error (%d)
 Unknown render model error (%d)
@@ -4413,6 +4499,7 @@ VREvent_Quit
 VREvent_QuitAcknowledged
 VREvent_ReloadOverlays
 VREvent_ReprojectionSettingHasChanged
+VREvent_RequestDisconnectWirelessHMD
 VREvent_RequestScreenshot
 VREvent_ResetDashboard
 VREvent_RestartRequested
@@ -4879,6 +4966,7 @@ WriteBooleanValue - %s, time= %llu, origin=%s\n
 WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s\n
 XR Swapchain-%d
+XRRenderModelUuidCache
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
 XR_ERROR_ACTION_TYPE_MISMATCH
@@ -4932,6 +5020,7 @@ XR_ERROR_MARKER_NOT_TRACKED_VARJO
 XR_ERROR_NAME_DUPLICATED
 XR_ERROR_NAME_INVALID
 XR_ERROR_NOT_AN_ANCHOR_HTC
+XR_ERROR_NOT_INTERACTION_RENDER_MODEL_EXT
 XR_ERROR_NOT_PERMITTED_PASSTHROUGH_FB
 XR_ERROR_OUT_OF_MEMORY
 XR_ERROR_PASSTHROUGH_COLOR_LUT_BUFFER_SIZE_MISMATCH_META
@@ -4942,6 +5031,9 @@ XR_ERROR_PATH_UNSUPPORTED
 XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
 XR_ERROR_POSE_INVALID
 XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
+XR_ERROR_RENDER_MODEL_ASSET_UNAVAILABLE_EXT
+XR_ERROR_RENDER_MODEL_GLTF_EXTENSION_REQUIRED_EXT
+XR_ERROR_RENDER_MODEL_ID_INVALID_EXT
 XR_ERROR_RENDER_MODEL_KEY_INVALID_FB
 XR_ERROR_REPROJECTION_MODE_UNSUPPORTED_MSFT
 XR_ERROR_RUNTIME_FAILURE
@@ -4982,13 +5074,17 @@ XR_EVENT_UNAVAILABLE
 XR_EXT_active_action_set_priority
 XR_EXT_conformance_automation
 XR_EXT_dpad_binding
+XR_EXT_eye_gaze_interaction
 XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
 XR_EXT_hp_mixed_reality_controller
+XR_EXT_interaction_render_model
 XR_EXT_local_floor
 XR_EXT_palm_pose
+XR_EXT_render_model
+XR_EXT_uuid
 XR_EXT_win32_appcontainer_compatible
 XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED
@@ -5085,6 +5181,7 @@ XR_TYPE_EVENT_DATA_EYE_CALIBRATION_CHANGED_ML
 XR_TYPE_EVENT_DATA_HEADSET_FIT_CHANGED_ML
 XR_TYPE_EVENT_DATA_INSTANCE_LOSS_PENDING
 XR_TYPE_EVENT_DATA_INTERACTION_PROFILE_CHANGED
+XR_TYPE_EVENT_DATA_INTERACTION_RENDER_MODELS_CHANGED_EXT
 XR_TYPE_EVENT_DATA_LOCALIZATION_CHANGED_ML
 XR_TYPE_EVENT_DATA_MAIN_SESSION_VISIBILITY_CHANGED_EXTX
 XR_TYPE_EVENT_DATA_MARKER_TRACKING_UPDATE_VARJO
@@ -5101,6 +5198,7 @@ XR_TYPE_EVENT_DATA_SPACE_SAVE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_SET_STATUS_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_SHARE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPATIAL_ANCHOR_CREATE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_USER_PRESENCE_CHANGED_EXT
 XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_BACKSPACE_META
 XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_COMMIT_TEXT_META
 XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_ENTER_META
@@ -5178,6 +5276,8 @@ XR_TYPE_INTERACTION_PROFILE_ANALOG_THRESHOLD_VALVE
 XR_TYPE_INTERACTION_PROFILE_DPAD_BINDING_EXT
 XR_TYPE_INTERACTION_PROFILE_STATE
 XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
+XR_TYPE_INTERACTION_RENDER_MODEL_IDS_ENUMERATE_INFO_EXT
+XR_TYPE_INTERACTION_RENDER_MODEL_SUBACTION_PATH_INFO_EXT
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
@@ -5220,11 +5320,22 @@ XR_TYPE_PLANE_DETECTOR_LOCATIONS_EXT
 XR_TYPE_PLANE_DETECTOR_LOCATION_EXT
 XR_TYPE_PLANE_DETECTOR_POLYGON_BUFFER_EXT
 XR_TYPE_REFERENCE_SPACE_CREATE_INFO
+XR_TYPE_RENDER_MODEL_ASSET_CREATE_INFO_EXT
+XR_TYPE_RENDER_MODEL_ASSET_DATA_EXT
+XR_TYPE_RENDER_MODEL_ASSET_DATA_GET_INFO_EXT
+XR_TYPE_RENDER_MODEL_ASSET_PROPERTIES_EXT
+XR_TYPE_RENDER_MODEL_ASSET_PROPERTIES_GET_INFO_EXT
 XR_TYPE_RENDER_MODEL_BUFFER_FB
 XR_TYPE_RENDER_MODEL_CAPABILITIES_REQUEST_FB
+XR_TYPE_RENDER_MODEL_CREATE_INFO_EXT
 XR_TYPE_RENDER_MODEL_LOAD_INFO_FB
 XR_TYPE_RENDER_MODEL_PATH_INFO_FB
+XR_TYPE_RENDER_MODEL_PROPERTIES_EXT
 XR_TYPE_RENDER_MODEL_PROPERTIES_FB
+XR_TYPE_RENDER_MODEL_PROPERTIES_GET_INFO_EXT
+XR_TYPE_RENDER_MODEL_SPACE_CREATE_INFO_EXT
+XR_TYPE_RENDER_MODEL_STATE_EXT
+XR_TYPE_RENDER_MODEL_STATE_GET_INFO_EXT
 XR_TYPE_ROOM_LAYOUT_FB
 XR_TYPE_SCENE_CAPTURE_REQUEST_INFO_FB
 XR_TYPE_SCENE_COMPONENTS_GET_INFO_MSFT
@@ -5326,6 +5437,7 @@ XR_TYPE_SYSTEM_PROPERTIES
 XR_TYPE_SYSTEM_RENDER_MODEL_PROPERTIES_FB
 XR_TYPE_SYSTEM_SPACE_WARP_PROPERTIES_FB
 XR_TYPE_SYSTEM_SPATIAL_ENTITY_PROPERTIES_FB
+XR_TYPE_SYSTEM_USER_PRESENCE_PROPERTIES_EXT
 XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
 XR_TYPE_UNKNOWN
@@ -5379,6 +5491,7 @@ ZvFailed to create fence %ls.\n
 [%s] End Frame Timing: %d
 [%s] End Reading Timestamps: %d
 [%s] Mark Timing Event: %s(%d)
+[AnimSkeleton] Failed to load GLTF file: %s
 [CDownsampleRenderer] Failed to create blend state!\n
 [CDownsampleRenderer] Failed to create depth stencil state!\n
 [CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!\n
@@ -5541,7 +5654,13 @@ ZvFailed to create fence %ls.\n
 [Input] GetDigitalActionData failed. Input is disabled.\n
 [Input] GetDominantHand failed. App does not support dominant hand setting.
 [Input] GetDominantHand failed. Invalid parameter peDominantHand.
+[Input] GetEyeTrackingDataAtTime failed. Action is of the wrong type.\n
+[Input] GetEyeTrackingDataAtTime failed. Error with current frame.\n
+[Input] GetEyeTrackingDataAtTime failed. Input is disabled.\n
+[Input] GetEyeTrackingDataAtTime failed. ulEyeTrackingDataSize incorrect size. Got: %u. Expected: %zu.\n
 [Input] GetHandPose failed. Invalid pose parameter.
+[Input] GetInputActionType failed. Error with current frame.\n
+[Input] GetInputActionType failed. Input is disabled.\n
 [Input] GetInputSourceHandle failed. Handle not found for input source path: %s\n
 [Input] GetInputSourceHandle failed. Input is disabled. Path: %s\n
 [Input] GetInputSourceHandle failed. Invalid handle parameter\n
@@ -5656,11 +5775,19 @@ ZvFailed to create fence %ls.\n
 [Input] Unknown action set %s when loading binding file\n
 [Input] UpdateActionState cannot execute because we don't have a config yet.\n
 [Input] Wanted to store %u global priority inputs, but only had space for %u\n
+[KeyFramedDataResource] Failed to load GLTF file: %s
 [OpenXR] Focused/Visible transition conditions: %d %d
 [OpenXR] Synchronized transition conditions: %d %d
 [OpenXR] Visible transition conditions: %d %d
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
+[RenderModelConverter] Failed to compute node: %s
+[RenderModelConverter] Failed to load render model texture
+[RenderModelConverter] Failed to load render model when computing component node.
+[RenderModelConverter] Failed to load render model: %s
+[RenderModelConverter] RenderModelToGLTF::Convert: Failed to compute model
+[RenderModelConverter] Was provided component that was not renderable: %s
+[RenderModelConverter] created node: %s
 [Settings] %s %s unknown type\n
 [Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
@@ -5679,18 +5806,55 @@ ZvFailed to create fence %ls.\n
 [Tutorial] Adding tutorial action set %s twice!\n
 [Tutorial] Failed to generate action set handle for per-input tutorial action set\n
 [Tutorial] Found input path with unexpected prefix: %s\n
+[UUID] Failed to convert string to UUID %i
+[UUID] Failed to generate UUID
 [VirtualDisplay] Present took to long!
+[Warning] Invalid Interaction Profile suggested: %s:\n
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
+[xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %llu)
+[xrRenderModel] Asset was not loaded in memory when trying to retrieve data
+[xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
+[xrRenderModel] Component was not a render model component: %s. Skipping.
+[xrRenderModel] Could not find backing asset for model
+[xrRenderModel] Failed to cache UUID for %s. Error: %s
+[xrRenderModel] Failed to compute crc as the render model was not loaded.
+[xrRenderModel] Failed to find subaction path for tracker!
+[xrRenderModel] Failed to get name for component index: %i. Skipping.
+[xrRenderModel] Failed to get state for: %s - %s
+[xrRenderModel] Failed to initialize render model XrSpace
+[xrRenderModel] Failure occurred trying to convert render model to gltf.
+[xrRenderModel] Found matching crc (%u) in cache for %s. UUID: %s
+[xrRenderModel] Initializing render model for %s with %llu nodes
+[xrRenderModel] No cached crc (%u) found for %s. Caching new UUID: %s
+[xrRenderModel] Parameter was nullptr
+[xrRenderModel] Render model attached to device index: %i had no subaction paths bound to it
+[xrRenderModel] Requested ID did not have a valid render model
+[xrRenderModel] Unable to find backing asset for UUID: %s
+[xrRenderModel] \t %s
+[xrRenderModel] createInfo was invalid (either nullptr or mismatched type)
+[xrRenderModel] createInfo was nullptr
+[xrRenderModel] failed to allocate xrRenderModelAssetEXT
+[xrRenderModel] failed to allocate xrRenderModelEXT
+[xrRenderModel] failed to initialize xrRenderModelAssetEXT
+[xrRenderModel] failed to initialize xrRenderModelEXT
+[xrRenderModel] nodeStateCount was not equal to animatableNodeCount
+[xrRenderModel] parameter was nullptr
+[xrRenderModel] renderModelIdCountOutput was nullptr
 \mfpmp.exe
 \nbad png sig
 \t%s::%llx.\n
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\u%04x
+\u%04x\u%04x
+\ufffd
 \vm_pSyncTexture == nullptr
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
+],"subtype":
 ][Compositor Client] Begin AcquireSync
 _Cnd_broadcast
 _Cnd_destroy
@@ -5742,6 +5906,7 @@ _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
+_dsign
 _dtest
 _errno
 _execute_onexit_table
@@ -5786,7 +5951,6 @@ _wstat64i32
 `input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
 `output` field is missing in animation.sampler\n
 `path` field is missing in animation.channels.target\n
@@ -5924,6 +6088,7 @@ bin\win32\vrstartup.exe
 bin\win64
 bin\win64\vrdashboard.exe
 bin\win64\vrmonitor.exe
+bindata
 binding
 binding_callouts/main
 binding_url
@@ -6010,6 +6175,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_vulkan_openvr
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_hand_tracker.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_input.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_interaction_profiles.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_render_model.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.h
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_space.cpp
@@ -6066,6 +6232,9 @@ component_local
 component_name
 component_path
 components
+coneInnerAngle
+coneOuterAngle
+coneOuterGain
 config
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
@@ -6077,6 +6246,7 @@ controller_axis_component
 controller_button
 controller_settings
 controller_type
+copyright
 corrupt
 count
 create
@@ -6134,6 +6304,7 @@ discrete_scroll_trackpad_flick_enabled
 discrete_scroll_trackpad_flick_multiplier
 discrete_scroll_trackpad_flick_speed
 discrete_scroll_trackpad_flick_threshold
+discrete_scroll_trackpad_globalscalefactor
 discrete_scroll_trackpad_haptic_on_touchstart_enabled
 discrete_scroll_trackpad_noisethreshold_onmove
 discrete_scroll_trackpad_noisethreshold_onreversal
@@ -6145,6 +6316,7 @@ discrete_scroll_trackpad_slideandhold_hapticenabled
 discrete_scroll_trackpad_slideandhold_pulseratefactor
 discrete_scroll_trackpad_slideandhold_scalefactor
 display_with
+distanceModel
 doNotFadeToGrid
 double
 doubleSided
@@ -6190,6 +6362,8 @@ east_touch
 el_gr
 emissiveFactor
 emissiveTexture
+emitter
+emitters
 en_US
 en_us
 enable
@@ -6211,11 +6385,14 @@ expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 exponent
 exponent_%s
+ext1
+ext_eye_gaze_interaction
 extensions
 extensionsRequired
 extensionsUsed
 external_drivers
 extras
+eyetracking
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -6313,7 +6490,10 @@ force_sensor
 force_source
 forcedDriver
 fovScale
-fovScaleLetterboxed
+fovScaleFormat
+fovScaleInner
+fovScaleLower
+fovScaleUpper
 fputc
 fputs
 fr_fr
@@ -6326,6 +6506,7 @@ fseek
 fsetpos
 ftell
 fwrite
+gain
 gamepad
 gamescope.steam
 generator
@@ -6358,6 +6539,7 @@ glGetError
 glGetRenderbufferParameteriv
 glGetTexLevelParameteriv
 glIsRenderbuffer
+glTF
 glTexImage2D
 glTexImage2D( target, 0, nTextureFormat, unWidth, unHeight, 0, unTextureType, unDataType, pTextureData )
 glTexImage3D
@@ -6403,6 +6585,7 @@ i]Wb
 icon_steamvr_desktopgame.png
 illegal code in raster
 illum
+image
 image.m_eState == ImageState::Released
 image.pSwapchain->m_images[ image.nImageIndex ].GetState() == CImage::State_t::PrismLocked || m_pClient->m_pendingRelease.find( { image.pSwapchain, image.nImageIndex } ) != m_pClient->m_pendingRelease.end()
 image/bmp
@@ -6410,6 +6593,7 @@ image/gif
 image/jpeg
 image/png
 image[
+imagebufferview_
 images
 import
 in Json::Value::asCString(): requires stringValue
@@ -6427,6 +6611,8 @@ in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 indentation
 index
+indexaccessor_
+indexbufferview_
 indices
 initial_state
 innerConeAngle
@@ -6447,6 +6633,8 @@ invalid
 invalid BOM; must be 0xEF 0xBB 0xBF if given
 invalid PLTE
 invalid bitset<N> position
+invalid comment; expecting '/' or '*' after '/'
+invalid comment; missing closing '*/'
 invalid decoded scanline length
 invalid filter
 invalid literal
@@ -6495,9 +6683,10 @@ invalid string: control character U+001F (US) must be escaped to \u001F
 invalid string: forbidden character after backslash
 invalid string: ill-formed UTF-8 byte
 invalid string: missing closing quote
-invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
 invalid vector<T> subscript
+inverse
 inverseBindMatrices
 invert
 is_active
@@ -6518,6 +6707,7 @@ joystick
 joystick_rotation_x
 joystick_rotation_y
 joystick_settings
+jpeg
 jsonid
 k_EButton_A
 k_EButton_ApplicationMenu
@@ -6562,6 +6752,7 @@ legacy_debugger
 legacy_input_frame
 legacy_mirrored
 lhs->m_pTimeline == rhs->m_pTimeline
+light
 lighthouse
 lights
 list<T> too long
@@ -6575,7 +6766,9 @@ loglevel
 logs
 long
 long_press_delay
+loop
 lower
+mSx@
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
@@ -6635,6 +6828,7 @@ material
 materials
 matrix
 max value > 255
+maxDistance
 maxRecommendedResolution
 maxzone_pct
 mbinfo.sMailboxName.size() <= vr::k_unMaxMailboxNameLength
@@ -6703,6 +6897,7 @@ node
 nodes
 none
 normalTexture
+normalaccessor_
 normalized
 north
 north_click
@@ -6718,6 +6913,7 @@ notifications
 ntdll.dll
 null
 null literal
+null}
 num_buttons
 number literal
 number overflow parsing '
@@ -6736,6 +6932,7 @@ off_haptic_duration
 off_haptic_frequency
 offset
 old_pid
+ole32.dll
 on/x
 on/y
 only 8-bit
@@ -6774,6 +6971,7 @@ pCmdBuf
 pCmdBuf != nullptr
 pCreateInfo->createFlags == 0
 pDevice
+pFovScale
 pFrameData->m_ulFrameIndex > 0
 pHandle
 pImage != nullptr
@@ -6821,17 +7019,20 @@ pivot
 pl_pl
 playAreaColor
 play_area
+playing
 polish
 portuguese
 pose
 pose_component
 pose_constant
+pose_path
 poses
 position
 position_
 position_x
 position_y
 position_z
+positional
 power
 powf
 ppCmdBuf
@@ -6859,7 +7060,6 @@ pt_br
 pt_pt
 pull
 punct
-p}?discrete_scroll_trackpad_globalscalefactor
 qsort
 radial_menu
 range
@@ -6868,6 +7068,7 @@ realloc
 reason
 reboothmd
 redirectsDisplay
+refDistance
 registered_device_type
 rejectDupKeys
 render_message
@@ -6891,10 +7092,15 @@ right
 rightThumbstickRotation
 right_
 ro_ro
+rolloffFactor
 romanian
 rotate
 rotate_xyz
 rotation
+rotation_w
+rotation_x
+rotation_y
+rotation_z
 roughnessFactor
 round
 roundf
@@ -6963,6 +7169,9 @@ shaders/d3d11/distort_geom_drawregion_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
+shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
+shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
+shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
 shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_drawregion_vs.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
@@ -7015,7 +7224,10 @@ shaders/d3d11/distort_panorama_vs.fxo
 shaders/d3d11/distort_ps.fxo
 shaders/d3d11/distort_ps_achromatic.fxo
 shaders/d3d11/distort_ps_achromatic_alphaed.fxo
+shaders/d3d11/distort_ps_achromatic_gamma.fxo
 shaders/d3d11/distort_ps_achromatic_layered.fxo
+shaders/d3d11/distort_ps_achromatic_nd.fxo
+shaders/d3d11/distort_ps_achromatic_nd_gamma.fxo
 shaders/d3d11/distort_ps_achromatic_se2.fxo
 shaders/d3d11/distort_ps_gamma.fxo
 shaders/d3d11/distort_ps_gamma_mc.fxo
@@ -7036,7 +7248,8 @@ shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
 shaders/d3d11/distort_vs_layered_nd.fxo
 shaders/d3d11/distort_vs_nd.fxo
-shaders/d3d11/distort_vs_reproject.fxo
+shaders/d3d11/distort_vs_reproject_layered.fxo
+shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo
 shaders/d3d11/distort_vs_reproject_nd.fxo
 shaders/d3d11/downsample_filter_x_ps.fxo
@@ -7118,6 +7331,9 @@ shaders/vulkan/distort_geom_drawregion_ptnorm_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_drawregion_ptnorm_vs.spv
 shaders/vulkan/distort_geom_drawregion_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
+shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
+shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
+shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
 shaders/vulkan/distort_geom_drawregion_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_drawregion_vs.spv
 shaders/vulkan/distort_geom_floor_ps.spv
@@ -7170,7 +7386,10 @@ shaders/vulkan/distort_panorama_vs.spv
 shaders/vulkan/distort_ps.spv
 shaders/vulkan/distort_ps_achromatic.spv
 shaders/vulkan/distort_ps_achromatic_alphaed.spv
+shaders/vulkan/distort_ps_achromatic_gamma.spv
 shaders/vulkan/distort_ps_achromatic_layered.spv
+shaders/vulkan/distort_ps_achromatic_nd.spv
+shaders/vulkan/distort_ps_achromatic_nd_gamma.spv
 shaders/vulkan/distort_ps_achromatic_se2.spv
 shaders/vulkan/distort_ps_gamma.spv
 shaders/vulkan/distort_ps_gamma_mc.spv
@@ -7191,7 +7410,8 @@ shaders/vulkan/distort_vs_latest_nd.spv
 shaders/vulkan/distort_vs_layered.spv
 shaders/vulkan/distort_vs_layered_nd.spv
 shaders/vulkan/distort_vs_nd.spv
-shaders/vulkan/distort_vs_reproject.spv
+shaders/vulkan/distort_vs_reproject_layered.spv
+shaders/vulkan/distort_vs_reproject_layered_nd.spv
 shaders/vulkan/distort_vs_reproject_mv.spv
 shaders/vulkan/distort_vs_reproject_nd.spv
 shaders/vulkan/downsample_filter_x_ps.spv
@@ -7299,6 +7519,7 @@ smooth_scroll_min_side_scroll_ratio
 smooth_scroll_min_throw_velocity
 smooth_scroll_multiplier
 smooth_scroll_thrown_termination_velocity
+smooth_scroll_trackpad_aspect_ratio
 source
 source_type
 sources
@@ -7326,6 +7547,7 @@ steam.app.
 steam.exe
 steam.overlay.
 steamMatchesHMDFramerate
+steam_streaming_launch
 steamtours.exe
 steamvr
 steamvr.vrsettings
@@ -7385,6 +7607,9 @@ sxr_xrCreateActionSet
 sxr_xrCreateActionSpace
 sxr_xrCreateHandTrackerEXT
 sxr_xrCreateReferenceSpace
+sxr_xrCreateRenderModelAssetEXT
+sxr_xrCreateRenderModelEXT
+sxr_xrCreateRenderModelSpaceEXT
 sxr_xrCreateSession
 sxr_xrCreateSwapchain
 sxr_xrCreateVulkanDeviceKHR
@@ -7393,6 +7618,8 @@ sxr_xrDestroyAction
 sxr_xrDestroyActionSet
 sxr_xrDestroyHandTrackerEXT
 sxr_xrDestroyInstance
+sxr_xrDestroyRenderModelAssetEXT
+sxr_xrDestroyRenderModelEXT
 sxr_xrDestroySession
 sxr_xrDestroySpace
 sxr_xrDestroySwapchain
@@ -7401,7 +7628,9 @@ sxr_xrEndSession
 sxr_xrEnumerateBoundSourcesForAction
 sxr_xrEnumerateDisplayRefreshRatesFB
 sxr_xrEnumerateEnvironmentBlendModes
+sxr_xrEnumerateInteractionRenderModelIdsEXT
 sxr_xrEnumerateReferenceSpaces
+sxr_xrEnumerateRenderModelSubactionPathsEXT
 sxr_xrEnumerateSwapchainFormats
 sxr_xrEnumerateSwapchainImages
 sxr_xrEnumerateViewConfigurationViews
@@ -7421,6 +7650,10 @@ sxr_xrGetInstanceProcAddr
 sxr_xrGetInstanceProperties
 sxr_xrGetOpenGLGraphicsRequirementsKHR
 sxr_xrGetReferenceSpaceBoundsRect
+sxr_xrGetRenderModelAssetDataEXT
+sxr_xrGetRenderModelAssetPropertiesEXT
+sxr_xrGetRenderModelPropertiesEXT
+sxr_xrGetRenderModelStateEXT
 sxr_xrGetSystem
 sxr_xrGetSystemProperties
 sxr_xrGetViewConfigurationProperties
@@ -7470,8 +7703,8 @@ texture_handle
 textures
 th_th
 thai
-the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
+the sparse object of this accessor doesn't have values
 thumbnail
 thumbstick
 thumbstick/
@@ -7507,6 +7740,7 @@ tr_tr
 trackedCamera
 tracked_device_index
 trackers
+tracking
 trackingLevel
 tracking_system_name
 trackpad
@@ -7559,6 +7793,7 @@ usePrism
 useSpecialFloats
 usemtl
 userinterface
+uvaccessor_
 value
 value_hold_threshold
 value_mapping
@@ -7576,6 +7811,8 @@ vector<T> too long
 vector<bool> too long
 version
 version.txt
+vertexaccessor_
+vertexbufferview_
 vi_vn
 vibration
 vid_%04x
@@ -8319,7 +8556,6 @@ win64
 winrtdisplay.dll
 wn>Jj
 worldScale
-wrapR
 wrapS
 wrapT
 wrong channel count
@@ -8350,10 +8586,15 @@ xrCreateHandTrackerEXT
 xrCreateHandTrackerEXT: Data source was duplicated
 xrCreateInstance
 xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION \n
+xrCreateInstance error: attempted to enable XR_EXT_INTERACTION_RENDER_MODEL without enabling required XR_EXT_RENDER_MODEL \n
+xrCreateInstance error: attempted to enable XR_EXT_RENDER_MODEL without enabling required XR_EXT_UUID \n
 xrCreateInstance error: extension unsupported %s\n
 xrCreateInstance error: failed to create instance\n
 xrCreateInstance error: maximum 1 instance\n
 xrCreateReferenceSpace
+xrCreateRenderModelAssetEXT
+xrCreateRenderModelEXT
+xrCreateRenderModelSpaceEXT
 xrCreateSession
 xrCreateSession: Ignoring unsupported extension in next chain of type: %d\n
 xrCreateSession: bad system ID. Arg (%llu), Instance( %llu ) 
@@ -8369,6 +8610,8 @@ xrDestroyAction
 xrDestroyActionSet
 xrDestroyHandTrackerEXT
 xrDestroyInstance
+xrDestroyRenderModelAssetEXT
+xrDestroyRenderModelEXT
 xrDestroySession
 xrDestroySpace
 xrDestroySwapchain
@@ -8380,7 +8623,9 @@ xrEnumerateBoundSourcesForAction
 xrEnumerateDisplayRefreshRatesFB
 xrEnumerateEnvironmentBlendModes
 xrEnumerateInstanceExtensionProperties
+xrEnumerateInteractionRenderModelIdsEXT
 xrEnumerateReferenceSpaces
+xrEnumerateRenderModelSubactionPathsEXT
 xrEnumerateSwapchainFormats
 xrEnumerateSwapchainImages
 xrEnumerateViewConfigurationViews
@@ -8400,6 +8645,10 @@ xrGetInstanceProcAddr
 xrGetInstanceProperties
 xrGetOpenGLGraphicsRequirementsKHR
 xrGetReferenceSpaceBoundsRect
+xrGetRenderModelAssetDataEXT
+xrGetRenderModelAssetPropertiesEXT
+xrGetRenderModelPropertiesEXT
+xrGetRenderModelStateEXT
 xrGetSystem
 xrGetSystemProperties
 xrGetViewConfigurationProperties
@@ -8414,8 +8663,7 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
-xrLocateHandJoints: Failed to get skeletal tracking level for hand
-xrLocateHandJoints: Time was invalid.
+xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
 xrLocateSpace
@@ -8453,6 +8701,7 @@ xrconformance/driver
 y_path
 yfov
 ymag
+z^KD
 zfar
 zh_cn
 zh_tw

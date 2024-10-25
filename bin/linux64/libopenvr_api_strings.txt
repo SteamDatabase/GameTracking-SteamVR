@@ -1658,6 +1658,7 @@ _txnal_cow_string_c_str(void const*)
 _txnal_logic_error_get_msg(void*)
 _txnal_runtime_error_get_msg(void*)
 _txnal_sso_string_c_str(void const*)
+`u2%1
 abort
 add_fdes
 additional six characters expected to parse unicode surrogate pair.

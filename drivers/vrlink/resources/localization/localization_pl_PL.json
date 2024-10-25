@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Udostępniaj dane dotyczące śledzenia mimiki twarzy innym aplikacjom na tym PC z użyciem OSC.",
 	"Setting_OSCOutPort": "Port wyjścia OSC",
 	"Setting_WirelessShutdownTimeout": "Jeśli połączenie zostanie przerwane, zamknij SteamVR",
-	"Setting_AllowVolumeControlSync": "Kontroluj głośność i wyciszanie gogli VR z poziomu SteamVR"
+	"Setting_AllowVolumeControlSync": "Kontroluj głośność i wyciszanie gogli VR z poziomu SteamVR",
+	"Setting_DisableQoS": "Wyłącz ustawienie jakości usługi (quality of service)"
 }

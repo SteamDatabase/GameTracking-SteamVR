@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Κοινοποίηση δεδομένων ανίχνευσης προσώπου σε άλλες εφαρμογές σε αυτόν τον υπολογιστή μέσω OSC",
 	"Setting_OSCOutPort": "Θύρα εξόδου OSC",
 	"Setting_WirelessShutdownTimeout": "Τερματισμός SteamVR μετά από αποσύνδεση",
-	"Setting_AllowVolumeControlSync": "Έλεγχος έντασης και σίγαση headset από το SteamVR"
+	"Setting_AllowVolumeControlSync": "Έλεγχος έντασης και σίγαση headset από το SteamVR",
+	"Setting_DisableQoS": "Απενεργοποίηση QoS"
 }

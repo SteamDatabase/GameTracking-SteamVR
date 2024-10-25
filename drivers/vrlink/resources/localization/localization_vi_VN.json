@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Chia sẻ dữ liệu theo dõi khuôn mặt tới các ứng dụng khác trong máy tính qua OSC",
 	"Setting_OSCOutPort": "Cổng xuất OSC",
 	"Setting_WirelessShutdownTimeout": "Khi ngắt kết nối, thoát SteamVR",
-	"Setting_AllowVolumeControlSync": "Kiểm soát âm lượng và tắt tiếng tai nghe từ SteamVR"
+	"Setting_AllowVolumeControlSync": "Kiểm soát âm lượng và tắt tiếng tai nghe từ SteamVR",
+	"Setting_DisableQoS": "Tắt QoS"
 }

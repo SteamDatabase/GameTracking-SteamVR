@@ -450,7 +450,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDSK9
+RSDS
 RaiseException
 ReadFile
 ReadPipeResponse

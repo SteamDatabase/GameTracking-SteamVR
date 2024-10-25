@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Condividi i dati di tracciamento del volto con altre app su questo PC tramite OSC",
 	"Setting_OSCOutPort": "Porta di output OSC",
 	"Setting_WirelessShutdownTimeout": "Alla disconnessione, esci da SteamVR dopo",
-	"Setting_AllowVolumeControlSync": "Controlla il volume del visore e disattiva l'audio da SteamVR"
+	"Setting_AllowVolumeControlSync": "Controlla il volume del visore e disattiva l'audio da SteamVR",
+	"Setting_DisableQoS": "Disattiva QoS"
 }

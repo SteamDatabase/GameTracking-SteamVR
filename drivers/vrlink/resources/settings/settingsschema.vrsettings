@@ -72,18 +72,6 @@
                 }
             },
 			{
-                "name": "/settings/driver_vrlink/useOSCEyes",
-                "control": "toggle",
-                "label": "#{vrlink}Setting_useOSCEyes",
-                "advanced_only": true,
-                "requires_paths": {
-                    "/driver_vrlink/got_eye_and_expression": true
-                },
-				"requires": {
-                    "/settings/driver_vrlink/useOSC": true
-				}
-            },
-			{
                 "name": "/settings/driver_vrlink/useOSCFace",
                 "control": "toggle",
                 "label": "#{vrlink}Setting_useOSCFace",
@@ -110,6 +98,15 @@
                     {"value": 9000, "label": "9000 (Direct)" },
 					{"value": 9015, "label": "9015 (Alt)" }
 				]
+            },
+            {
+                "name": "/settings/driver_vrlink/shareEyeTrackingData",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_shareEyeTrackingData",
+                "advanced_only": false,
+                "requires_paths": {
+                    "/driver_vrlink/got_eye_and_expression": true
+                }
             },
             {
                 "name": "/settings/driver_vrlink/showAdvancedGraphs",

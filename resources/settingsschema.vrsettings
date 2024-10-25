@@ -104,6 +104,7 @@
 			,{ "name": "/settings/dashboard/position", "type": "number" }
 			,{ "name": "/settings/dashboard/dashboardScale", "type": "number" }
 			,{ "name": "/settings/dashboard/desktopScale", "type": "number" }
+			,{ "name": "/settings/dashboard/grabHandleAcceleration", "type": "float" }
 
 			,{ "name": "/settings/dashboard/showPowerOptions", "type": "bool" }
 			,{ "name": "/settings/dashboard/allowAppQuitting", "type": "bool" }
@@ -113,6 +114,7 @@
 
 			,{ "name": "/settings/dashboard/lastAccessedExternalOverlayKey", "type": "string" }
 			,{ "name": "/settings/dashboard/*", "type":  "wildcard" }
+			,{ "name": "/settings/steamvr/disableKeyboardPrivacy", "type":  "bool" }
 		]
 	},
 

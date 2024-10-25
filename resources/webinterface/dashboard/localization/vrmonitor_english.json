@@ -163,6 +163,14 @@
 	"Settings_DisplayPortTrainingMode_CompatibilityModeB": "Compatibility Mode B",
 	"Settings_GpuBusMonitoring": "GPU Bus Monitoring",
 
+	"Settings_TheaterCurvature" : "Theater Curvature",
+	"Settings_TheaterCurvature_Curved" : "Curved",
+	"Settings_TheaterCurvature_Flat" : "Flat",
+	"Settings_TheaterScreenSize" : "Theater Screen Size",
+	"Settings_TheaterScreenSize_Large" : "Large",
+	"Settings_TheaterScreenSize_Medium" : "Medium",
+	"Settings_TheaterScreenSize_Small" : "Small",
+
 	"Settings_MediumSpace": "Medium Space",
 	"Settings_NightModeCheck": "Night Mode",
 	"Settings_NightModeDesc": "Dim the headset until 5:00 AM (or until SteamVR is restarted).",
@@ -349,6 +357,12 @@
 	"Settings_DesktopDarkMode" : "Desktop Dark Mode",
 	"Settings_ToggleDarkMode" : "Toggle Dark Mode",
 	"Settings_Dark" : "Dark",
+	"Settings_Dashboard_GrabHandleAccelerationDesc": "Accelerate push and pull movement of grab handles.",
+	"Settings_Dashboard_GrabHandleAcceleration": "Grab Handle Acceleration",
+	"Settings_Dashboard_KeyboardPrivacy": "Keyboard Privacy",
+	"Settings_Dashboard_KeyboardPrivacy_Enabled": "Enabled",
+	"Settings_Dashboard_KeyboardPrivacy_Disabled": "Disabled",
+	"Settings_Dashboard_KeyboardPrivacy_DisabledWarning": "Warning: Disabling keyboard privacy will allow games to stream controller poses while the VR keyboard is in use. Please be careful entering passwords or other sensitive information on the VR keyboard while using multi-player / social applications.",
 
 	"SettingsTime_5s": "5 Seconds",
 	"SettingsTime_30s": "30 Seconds",

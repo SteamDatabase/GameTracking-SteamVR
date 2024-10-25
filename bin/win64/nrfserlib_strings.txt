@@ -1056,7 +1056,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS
+RSDS\vM
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -1529,3 +1529,4 @@ wcschr
 winsock
 wn>Jj
 xdigit
+}gt*A

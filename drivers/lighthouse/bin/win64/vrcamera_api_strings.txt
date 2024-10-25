@@ -471,7 +471,6 @@ DisableThreadLibraryCalls
 Done\n
 DuplicateHandle
 DynamicProgressFeedback
-E,aH
 EI2C support not yet implemented
 EncodePointer
 End Streaming Depth...

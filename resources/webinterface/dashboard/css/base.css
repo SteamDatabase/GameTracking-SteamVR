@@ -483,7 +483,20 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
 	margin: auto;
 }
 
+.ButtonControl.WithIcon > .SVGIcon_Button
+{
+	width: 1em;
+	height: 1em;
+	margin: auto;
+}
+
 .ButtonControl.WithIcon.LargeIcon > .Icon
+{
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.ButtonControl.WithIcon.LargeIcon > .SVGIcon_Button
 {
 	width: 1.5em;
 	height: 1.5em;
@@ -492,6 +505,16 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
 .ButtonControl.WithIcon > .Icon path
 {
 	fill: var(--text-color);
+}
+
+.ButtonControl.WithIcon > .SVGIcon_Button path
+{
+	fill: var(--text-color);
+}
+
+.ButtonControl.WithIcon.Active > .SVGIcon_RemotePlay path
+{
+	fill: darkred;
 }
 
 .ButtonControl.WithIcon > span

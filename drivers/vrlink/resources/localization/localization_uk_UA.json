@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Ділитися даними відстеження руху обличчя з іншими застосунками на цьому ПК через OSC",
 	"Setting_OSCOutPort": "Порт виведення OSC",
 	"Setting_WirelessShutdownTimeout": "Після відключення виходити зі SteamVR за",
-	"Setting_AllowVolumeControlSync": "Керувати гучністю та приглушенням шолома зі SteamVR"
+	"Setting_AllowVolumeControlSync": "Керувати гучністю та приглушенням шолома зі SteamVR",
+	"Setting_DisableQoS": "Вимкнути QoS"
 }

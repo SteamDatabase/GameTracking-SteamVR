@@ -253,7 +253,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSn9
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -378,6 +378,7 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
+aUJg
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll

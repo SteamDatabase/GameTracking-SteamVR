@@ -1,0 +1,53 @@
+{
+  "to_controller_type" : "svl_hand_interaction_augmented",
+  "layouts" : [
+    {
+      "priority" : 100,
+      "from_controller_type" : "oculus_touch",
+      "simulate_controller_type" : true,
+      "simulate_render_model" : true,
+      "simulate_HMD" : true,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/trigger",
+          "to" : "/user/hand/right/input/index_pinch"
+        },
+        {
+          "from" : "/user/hand/right/input/skeleton/right",
+          "to" : "/user/hand/right/input/skeleton/right"
+        },
+        {
+          "from" : "/user/hand/right/input/b",
+          "to" : "/user/hand/right/input/pinky_pinch",
+          "mirror": false
+        },
+        {
+          "from" : "/user/hand/left/input/y",
+          "to" : "/user/hand/left/input/pinky_pinch",
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "priority" : 100,
+      "from_controller_type" : "knuckles",
+      "simulate_controller_type" : true,
+      "simulate_render_model" : true,
+      "simulate_HMD" : true,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/trigger",
+          "to" : "/user/hand/right/input/index_pinch"
+        },
+        {
+          "from" : "/user/hand/right/input/skeleton/right",
+          "to" : "/user/hand/right/input/skeleton/right"
+        },
+        {
+          "from": "/user/hand/right/input/b",
+          "to": "/user/hand/right/input/pinky_pinch"
+        }
+      ]
+    }
+  ] 
+}

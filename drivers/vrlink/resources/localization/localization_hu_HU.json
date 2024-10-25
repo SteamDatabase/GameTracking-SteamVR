@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Arckövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül.",
 	"Setting_OSCOutPort": "OSC kimeneti port",
 	"Setting_WirelessShutdownTimeout": "Lecsatlakozáskor kilépés a SteamVR-ből ennyi idő után:",
-	"Setting_AllowVolumeControlSync": "Fejszett-hangerő és némítás vezérlése a SteamVR-ből"
+	"Setting_AllowVolumeControlSync": "Fejszett-hangerő és némítás vezérlése a SteamVR-ből",
+	"Setting_DisableQoS": "QoS kikapcsolása"
 }

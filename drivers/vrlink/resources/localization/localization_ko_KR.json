@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "OSC를 통해 이 PC의 다른 앱과 얼굴 추적 데이터 공유",
 	"Setting_OSCOutPort": "OSC 출력 포트",
 	"Setting_WirelessShutdownTimeout": "연결 해제 시 SteamVR 종료",
-	"Setting_AllowVolumeControlSync": "SteamVR에서 헤드셋 음량 및 음소거 제어"
+	"Setting_AllowVolumeControlSync": "SteamVR에서 헤드셋 음량 및 음소거 제어",
+	"Setting_DisableQoS": "QoS 비활성화"
 }

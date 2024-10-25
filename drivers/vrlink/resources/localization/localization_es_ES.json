@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Compartir datos de seguimiento facial con otras aplicaciones de este PC a través de OSC",
 	"Setting_OSCOutPort": "Puerto de salida OSC",
 	"Setting_WirelessShutdownTimeout": "Salir de SteamVR después de desconectar",
-	"Setting_AllowVolumeControlSync": "Controlar el volumen y el silencio de los auriculares desde SteamVR"
+	"Setting_AllowVolumeControlSync": "Controlar el volumen y el silencio de los auriculares desde SteamVR",
+	"Setting_DisableQoS": "Desactivar la calidad del servicio"
 }

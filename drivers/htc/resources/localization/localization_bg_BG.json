@@ -13,6 +13,10 @@
 	"vive_tracker_right_elbow": "Проследяващо Vive у-во на десния лакът",
 	"vive_tracker_left_knee": "Проследяващо Vive у-во на лявото коляно",
 	"vive_tracker_right_knee": "Проследяващо Vive у-во на дясното коляно",
+	"vive_tracker_left_wrist": "Проследяващо Vive у-во на лявата китка",
+	"vive_tracker_right_wrist": "Проследяващо Vive у-во на дясната китка",
+	"vive_tracker_left_ankle": "Проследяващо Vive у-во на левия глезен",
+	"vive_tracker_right_ankle": "Проследяващо Vive у-во на десния глезен",
 	"vive_tracker_waist": "Проследяващо Vive у-во на кръста",
 	"vive_tracker_chest": "Проследяващо Vive у-во на гръдния кош",
 	"vive_tracker_camera": "Проследяващо Vive у-во на камера",
@@ -26,6 +30,6 @@
 	"/input/power": "Захранване",
 	"/pose/front_rolled": "Отпред и наклонено",
 	"/pose/front": "Отпред",
-	"/pose/pistol": "Пистолетна ръкохватка",
+	"/pose/pistol": "Пистолетен захват",
 	"/pose/back": "Отзад"
 }

@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Jaa kasvojen seurantatiedot muille tämän tietokoneen sovelluksille OSC:n välityksellä",
 	"Setting_OSCOutPort": "OSC-ulostulon portti",
 	"Setting_WirelessShutdownTimeout": "Poistu SteamVR:stä, kun yhteys katkaistaan",
-	"Setting_AllowVolumeControlSync": "Hallitse kuulokkeiden äänenvoimakkuutta ja mykistystä SteamVR:n välityksellä"
+	"Setting_AllowVolumeControlSync": "Hallitse kuulokkeiden äänenvoimakkuutta ja mykistystä SteamVR:n välityksellä",
+	"Setting_DisableQoS": "Poista QoS käytöstä"
 }

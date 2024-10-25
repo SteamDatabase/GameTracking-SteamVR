@@ -16,5 +16,6 @@
 	"Setting_useOSCFace": "Del ansigtssporingsdata med andre applikationer på denne PC via OSC",
 	"Setting_OSCOutPort": "OSC-outputport",
 	"Setting_WirelessShutdownTimeout": "Afslut SteamVR efter afbrydelse",
-	"Setting_AllowVolumeControlSync": "Styring af headsetlydstyrke og dæmpning fra SteamVR"
+	"Setting_AllowVolumeControlSync": "Styring af headsetlydstyrke og dæmpning fra SteamVR",
+	"Setting_DisableQoS": "Slå QoS fra"
 }

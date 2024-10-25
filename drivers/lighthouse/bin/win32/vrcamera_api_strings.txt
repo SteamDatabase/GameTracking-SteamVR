@@ -596,7 +596,7 @@ OLEAUT32.dll
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS 
+RSDS!
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject

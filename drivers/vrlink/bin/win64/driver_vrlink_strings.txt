@@ -8,6 +8,7 @@
  "!#$&%'(*)+,.-/021346578:9;<>=?
  (does the path point to a directory?)
  at line 
+ exceeds maximum allowed file size 
  for detail.\n
  in Buffer\n
  wZiK
@@ -27,8 +28,10 @@
 "nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
+"positional" is not a JSON object.
 "scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
+"subtype": 
 #################### NVENC: %s\n
 ##eF##eFii
 #0Kz9
@@ -119,6 +122,7 @@ $3br
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUBuiltStyledStreamWriter@Json@@
 .?AUCFactoryMaker@CAnimFactoryBase@@
 .?AUIAudioEndpointVolumeCallback@@
@@ -126,22 +130,20 @@ $3br
 .?AUIUnknown@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
-.?AUinput_adapter_protocol@detail@nlohmann@@
 .?AV<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@
 .?AV<lambda_0881c9906f05f503e42109ac226d18eb>@@
 .?AV<lambda_088be9d629c529e04e66f668ef48a2de>@@
 .?AV<lambda_0b576e197e80ec5420214b8282236e54>@@
 .?AV<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@
+.?AV<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
-.?AV<lambda_20bffc0273297498e7253344d0acb01d>@@
-.?AV<lambda_27be9ec7d083b2135f161962e54d11ea>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_38ef07f3fefd4e69df6b0f4cad3fcd58>@@
 .?AV<lambda_3a0e9dd34797aa579b142ade480c735b>@@
 .?AV<lambda_5e7a67aaa7e361bc1ae10b4c2bc3e5a4>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
 .?AV<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@
 .?AV<lambda_76b893375c6dd71409cfaed387a60af4>@@
-.?AV<lambda_78d7875e7ee8c5c585094650047333d4>@@
 .?AV<lambda_799c7abc4438a41176f8868c6149585d>@@
 .?AV<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@
 .?AV<lambda_8137bacb2ec4a212e8515c6b4689164d>@@
@@ -150,6 +152,7 @@ $3br
 .?AV<lambda_8af3af333305e3d84f47041b3014cca5>@@
 .?AV<lambda_8c41f96c9266656aa778846b9a081afc>@@
 .?AV<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@
+.?AV<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@
 .?AV<lambda_a0d91b9aeef06787ac429e810bc7da17>@@
 .?AV<lambda_a3e50aa671c83e58801967e93e8597ee>@@
 .?AV<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@
@@ -158,7 +161,9 @@ $3br
 .?AV<lambda_c6544703987fd9d279e84d520bb2c068>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
+.?AV<lambda_e42fa156de2f49294253c79a98c6cd37>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
 .?AV<lambda_e803815bbec8a90ad45197b0df03d3d8>@@
 .?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
@@ -170,27 +175,42 @@ $3br
 .?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@X$$V@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XPEBX_K@std@@
 .?AV?$_Func_base@XW4EControlConnectMessageType@@PEBX_K@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_base@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@
+.?AV?$_Func_base@_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_base@_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@std@@
+.?AV?$_Func_base@_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@std@@
+.?AV?$_Func_base@_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
+.?AV?$_Func_base@_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBV12@PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@ZV12@AEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@Z_NAEBV12@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z_NAEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z_NPEAU12@HPEAV34@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@Z_NPEAV12@AEBV12@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0881c9906f05f503e42109ac226d18eb>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_088be9d629c529e04e66f668ef48a2de>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0b576e197e80ec5420214b8282236e54>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_20bffc0273297498e7253344d0acb01d>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_27be9ec7d083b2135f161962e54d11ea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_38ef07f3fefd4e69df6b0f4cad3fcd58>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3a0e9dd34797aa579b142ade480c735b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5e7a67aaa7e361bc1ae10b4c2bc3e5a4>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_76b893375c6dd71409cfaed387a60af4>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_78d7875e7ee8c5c585094650047333d4>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_799c7abc4438a41176f8868c6149585d>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8137bacb2ec4a212e8515c6b4689164d>@@X$$V@std@@
@@ -199,6 +219,7 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_8af3af333305e3d84f47041b3014cca5>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8c41f96c9266656aa778846b9a081afc>@@XW4EControlConnectMessageType@@PEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a0d91b9aeef06787ac429e810bc7da17>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a3e50aa671c83e58801967e93e8597ee>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@XW4ValueTransportID@@_N@std@@
@@ -207,7 +228,9 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_c6544703987fd9d279e84d520bb2c068>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e42fa156de2f49294253c79a98c6cd37>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e803815bbec8a90ad45197b0df03d3d8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
@@ -225,7 +248,9 @@ $3br
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_3dd27e57506c0a6dcab00b8d41ac0e16>@@@std@@U?$default_delete@V?$tuple@V<lambda_3dd27e57506c0a6dcab00b8d41ac0e16>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count@UVariableTransportHolder@@@std@@
-.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
+.?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
+.?AV?$_Ref_count_obj@VSVLControllerDriver@@@std@@
+.?AV?$_Ref_count_obj@VSVLHandTrackingDriver@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
@@ -240,6 +265,7 @@ $3br
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVAMFFactoryHelper@@
 .?AVBinaryBlendPoseMaker@@
@@ -284,6 +310,7 @@ $3br
 .?AVRuntimeError@Json@@
 .?AVSVLAudio@@
 .?AVSVLAudioWSAPI@@
+.?AVSVLBaseControllerDriver@@
 .?AVSVLControllerDriver@@
 .?AVSVLCrypt@@
 .?AVSVLCryptIntelIpsec@@
@@ -301,6 +328,7 @@ $3br
 .?AVSVLFECTXFrame@@
 .?AVSVLHMDDriver@@
 .?AVSVLHMDDriverD3D11@@
+.?AVSVLHandTrackingDriver@@
 .?AVSVLHmdNotConnected@@
 .?AVSVLRoot@@
 .?AVSVLServer@@
@@ -323,7 +351,6 @@ $3br
 .?AVexception@detail@nlohmann@@
 .?AVexception@std@@
 .?AVfacet@locale@std@@
-.?AVinput_buffer_adapter@detail@nlohmann@@
 .?AVios_base@std@@
 .?AVout_of_range@detail@nlohmann@@
 .?AVparse_error@detail@nlohmann@@
@@ -348,6 +375,14 @@ $3br
 .CRT$XTA
 .CRT$XTZ
 .HPN
+.P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z
+.P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z
+.P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@AEBV?$vector@EV?$allocator@E@std@@@1@PEAX@Z
+.P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@AEBV21@PEAX@Z
+.P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
+.P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@3@PEBUURICallbacks@3@PEAV01@PEAX@Z
 .bss
 .data
 .data$r
@@ -403,6 +438,7 @@ $3br
 /driver_vrlink/client_version
 /driver_vrlink/got_eye_and_expression
 /driver_vrlink/network_tested_bandwidth
+/eyetracking
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -416,11 +452,21 @@ $3br
 /input/grip/force
 /input/grip/touch
 /input/grip/value
+/input/index_pinch/click
+/input/index_pinch/value
+/input/index_point/click
+/input/index_point/value
 /input/joystick/click
 /input/joystick/touch
 /input/joystick/x
 /input/joystick/y
 /input/menu/click
+/input/middle_pinch/click
+/input/middle_pinch/value
+/input/pinky_pinch/click
+/input/pinky_pinch/value
+/input/ring_pinch/click
+/input/ring_pinch/value
 /input/skeleton/left
 /input/skeleton/right
 /input/system/click
@@ -440,8 +486,11 @@ $3br
 /last_server_dashboard_visible_time
 /link_stream_packet_time
 /output/haptic
+/pose/grip
 /pose/raw
+/pose/tip
 /proximity
+/skeleton/hand/left
 /skeleton/hand/right
 /sl/eyeTrackedGazePoint
 /sl/xrfb/facec/LowerFace
@@ -552,10 +601,10 @@ $3br
 0 width
 0(`xPH
 0-pixel image
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00P`00P`
 0\v2;i
 0`P0
-0a\v6<
 0n\n&pa
 0x%I64x
 1 Sec
@@ -564,6 +613,7 @@ $3br
 10bit
 11 4 22 44 44 22 444444
 11Sb11Sb""fD""fD77Yn77Yn66Zl66Zl
+11eU%
 127.0.0.1
 1bS1
 1e+9999
@@ -612,6 +662,7 @@ $3br
 ;2dt
 ;fD4~
 <3"-xwfiDKZU
+<discarded>
 <option requires an argument -- %c
 <parse error>
 <uninitialized>
@@ -620,7 +671,6 @@ $3br
 ==zGdd
 =j&&LZ66lA??~
 ?&&jL&&jLaa
-?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -653,6 +703,7 @@ $3br
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
 ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
 ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
@@ -688,6 +739,7 @@ $3br
 ?option requires an argument -- %c
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
@@ -705,11 +757,13 @@ $3br
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?vr_glove_left_skeleton.glb
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 @Fatal
+@HMD
 @fff>fff>fff>fff>
 @jAjB
 @option requires an argument -- %c
@@ -764,6 +818,7 @@ AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL reports %d\n
 AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER reports %d\n
 AMFInit
 AMFQueryVersion
+APing
 ASSERT: "%s" at %s:%d.\n
 AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDCLNT_E_OUT_OF_ORDER\n
@@ -780,8 +835,6 @@ AUDIO: %s
 Accessor
 AcquireSRWLockExclusive
 AcquireSRWLockShared
-Activate Error: Unsupported controller type "%s"\n
-Activating controller on TrackedDeviceIndex_t %d\n
 Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p p8814Link:%p\n
 ActualHMDDriver
 Adapter is not supported by vrlink (vendor ID %d).\n
@@ -792,6 +845,7 @@ AlexEkd JingThom
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
 Asset
 Audio %s\n
 Audio (WASAPI) warning: Failed to get mic playback volume range: 0x%08x\n
@@ -814,6 +868,7 @@ AudioThread finished\n
 AudioThread started\n
 Auto
 Autodetected %s
+Autodetected Headset: %d
 Autodetected Oculus Quest 2
 Autodetected Oculus Quest 3
 Autodetected Oculus Quest Pro
@@ -821,9 +876,11 @@ AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
-AvgPing
 A~Se
 B7=fo
+BIN Chunk data length exceeds the GLB size.
+BIN Chunk end is not aligned to a 4-byte boundary.
+BIN Chunk end is not aligned to a 4-byte boundary.\n
 BMP RLE
 BWQP
 Bad escape sequence in string
@@ -911,6 +968,7 @@ Change target frame deadline.
 Channel: %d\n
 ChaperoneReceiver::SetChaperone (len %d)\n
 Classic
+Client HMD type (%d) supports eye tracking, creating input component
 Client Network Test Result: %s\n
 Client sent SYST_CLIENT_SHUTDOWN\n
 CloseHandle
@@ -975,6 +1033,8 @@ CryptImportKey
 CryptReleaseContext
 CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
+CtrlCClk
+CtrlHClk
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver\n
 D3D11CreateDevice
 D3DCOMPILER_47.dll
@@ -994,6 +1054,7 @@ DEnc
 DISABLED
 DPing
 DSend
+Dashboard tutorial dismissed\n
 Data Link Startup with Options: nTimedRetryOption = %d, nQoSOption = %d
 Datalink failed with %d\n
 DeadL %4.1fms
@@ -1010,7 +1071,6 @@ DisableThreadLibraryCalls
 Disconnected VRLink Headset
 Disconnection from %s
 DispatchMessageA
-Doption requires an argument -- %c
 Dump Frame Log to C:\temp\recentlog.tsv
 Dump Hist
 Duplicate key: '
@@ -1048,8 +1108,6 @@ EnterCriticalSection
 EnumAudioEndpoints failed: hr = 0x%08x\n
 Error
 Error activating HMD, unexpected device index: %d\n
-Error activating controller, Prop_ControllerType_String not set\n
-Error activating controller, Prop_ModelNumber_String not set\n
 Error activating controller, VTE_StaticProps_t not available\n
 Error allocating a MB_MGR\n
 Error opening override file; Error: %s\n
@@ -1115,7 +1173,6 @@ EventWriteStringThread: shared memory mapped %p\n
 EventWriteStringThread\n
 EventWriteTransfer
 Exceeded stackLimit in readValue().
-ExpandEnvironmentStringsA
 Extra non-whitespace after JSON value.
 Eye Center Q Value
 Eye Cross %s
@@ -1154,6 +1211,7 @@ Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
+Failed to request dashboard tutorial (%d)\n
 Failed to send OGS row update\n
 Failed to send link bandwidth measurement\n
 Failed to set thread %p priority: invalid priority %d\n
@@ -1165,6 +1223,8 @@ File not found :
 File open error : 
 File open error for writing : 
 File read error : 
+File read error. Maybe empty file or invalid file : 
+File size 
 File size mismatch : 
 File write error: 
 Finished encoder reinit (%d). Took: %0.3fms\n
@@ -1213,6 +1273,7 @@ GetTickCount64
 GetWindowLongPtrA
 GetWindowRect
 Getting devnode property store failed: hr = 0x%08x\n
+Getting file size failed : 
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 Got Debug message from client
 Got permanent SVL init failure on hotplug attempt
@@ -1343,6 +1404,8 @@ InitializeSListHead
 Initializing VRAudioDevices\n
 Initializing streaming microphone volume to 100\n
 InputProfilePath %s\n
+Insufficient Chunk1(BIN) data size.
+Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 Intel IPSEC AES PERF: %f MByte/s\n
 Invalid ChromaFormatIDC (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid ChromaFormatIDC(NV_ENC_ERR_INVALID_PARAM)\n
@@ -1350,14 +1413,17 @@ Invalid PixelBitdepth (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.\n
+Invalid binary data in `Buffer', or GLB with empty BIN chunk.\n
 Invalid camera type: "
+Invalid chunkType for Chunk1.
 Invalid codec guid (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid dest on control message
 Invalid encoder width and height (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid file size : 
 Invalid glTF binary.
+Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
+Invalid index: %i
 Invalid magic.
 Invalid network test; no = on first.
 Invalid network test; no;\n
@@ -1372,8 +1438,10 @@ Issues complete stream teardown and reinit
 Issues fast stream reset
 J16(p
 JFIF
+JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
 KERNEL32.dll
+KHR_audio
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
@@ -1419,11 +1487,13 @@ MFCreateSample failed: hr = 0x%08x\n
 MGiI
 MID0
 MMfU33
+MSFT_lod
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 ManufacturerName %s\n
 MapViewOfFile
+Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 MbP?\f
 Mbp?H
 MessageBoxA
@@ -1467,6 +1537,7 @@ NV_ENC_CAPS_LEVEL_MIN
 NV_ENC_CAPS_MB_NUM_MAX
 NV_ENC_CAPS_MB_PER_SEC_MAX
 NV_ENC_CAPS_NUM_ENCODER_ENGINES
+NV_ENC_CAPS_NUM_MAX_BFRAMES
 NV_ENC_CAPS_NUM_MAX_LTR_FRAMES
 NV_ENC_CAPS_NUM_MAX_TEMPORAL_LAYERS
 NV_ENC_CAPS_PREPROC_SUPPORT
@@ -1516,6 +1587,9 @@ No Link
 No LoadImageData callback specified.\n
 No Pair
 No default audio device found to listen to\n
+Node has extension KHR_audio, but does not reference a audio emitter.\n
+Node has extension KHR_lights_punctual, but does not reference a light source.\n
+Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 None
 NormalTextureInfo
 Note
@@ -1531,6 +1605,7 @@ OSCInPort
 OSCOutPort
 OUT %d
 Object
+Oculus Quest 3S
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)
 Oculus Quest Pro (Right Controller)
@@ -1549,7 +1624,7 @@ OpenFileMappingA
 OpenSCManagerW
 OpenSSL AES PERF: %f MByte/s\n
 OpenServiceW
-Orhographic camera description not found.
+Orthographic camera description not found.
 OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
@@ -1557,7 +1632,7 @@ OutputDebugStringW
 Overriding Quest specific properties for %s\n
 P00`
 P<xD<
-PCGNV_ENC_CAPS_NUM_MAX_BFRAMES
+PCG`
 PICT
 PID_
 PNG\r\n
@@ -1571,11 +1646,12 @@ Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
 PeekMessageA
 Perf warning: Getting from SubmitFrame to StartEncode took %0.3fms
+Performing shutdown.\n
 Perspective camera description not found.
 PerspectiveCamera
 PolyPolygon
 PolyPolyline
-Pose from headset invalid. Ignoring.
+Positional emitter description not found.
 PostQuitMessage
 PreC %4.1fms
 PreH %4.1fms
@@ -1596,12 +1672,10 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS
+RSDS_
 RX Fail:%d
-R\vpL
 RaiseException
 Rate Remark: %d %d\n
-Ready to activate controller %s\n
 Received 0 byte message on control connection. Disconnecting
 Received GPU Architecture %d\n
 Received frame outside of backtrack window.  Resetting.\n
@@ -1621,8 +1695,8 @@ Release
 ReleaseSRWLockExclusive
 ReleaseSRWLockShared
 RenderModelName %s\n
-Reported HMD model is %d\n
 ReqEncMode
+Requesting dashboard tutorial\n
 Reserved1
 Reserved2
 Reserved3
@@ -1714,7 +1788,6 @@ SSend
 SUCCESS: Shader compilation successful. %s\n
 SVLAudioWSAPI::AudioThread
 SVLAudioWSAPI::SVLAudioWSAPI(...)\n
-SVLControllerDriver::ProcessEvent: Haptic Failed to send\n
 SVLCryptWindows CryptAcquireContext succeeded for generation.
 SVLCryptWindows CryptAcquireContext succeeded.
 SVLCryptWindows Error during CryptAcquireContext (Error = %08x)
@@ -1825,6 +1898,7 @@ SleepConditionVariableCS
 Socket bound to port %d\n
 Soft AES PERF: %f MByte/s\n
 Sound
+SparseAccessor
 Spot light description not found.
 StartNvEnc
 Starting NVENC reset configuration Cause Mask: %d%d%d%d%d%d\n
@@ -1878,6 +1952,7 @@ True
 Trying to submit frames out-of-order.  Only possible on catastrophic network failure\n
 Ts\ne
 U(Px(
+U1(\Q
 U33f
 U4ot
 UDP BIND: %d CONN: %d\n
@@ -1916,6 +1991,7 @@ Unknown VTE: %d [%d/%d/%d]\n
 Unknown control connection message type %d
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
+Unknown image format. STB cannot decode image header for image[
 Unknown method: "
 Unknown spatial encoding mode
 UnmapViewOfFile
@@ -1941,6 +2017,8 @@ VERSION MISMATCH
 VID_
 VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
+VRLink Hand Tracker (Left Hand)
+VRLink Hand Tracker (Right Hand)
 VRLinkRX
 VRLinkTX
 VR_COMBINED_LOGGING
@@ -2050,6 +2128,7 @@ Zjz\v
 [Alloc] Created d3d11 texture = %p\n
 [Alloc] Created m_vpCompletionEvent %p\n
 [Alloc] Registered texture resource = %p\n
+[AnimSkeleton] Failed to load GLTF file: %s
 [Cleanup] Closed handle for completion event %p\n
 [Cleanup] Unmapped input resource %p\n
 [Cleanup] Unregister completion event %p\n
@@ -2062,6 +2141,7 @@ Zjz\v
 [EOS] Encoder not setup, not sending EOS.
 [EOS] Error: Frame %d failed to reset completion event %p\n
 [EOS] Threads never reset. Waited 10s. Timed out.
+[KeyFramedDataResource] Failed to load GLTF file: %s
 [Manage] Deallocate: %p. Queue size: %d
 [Manage] Initialize new frame[%d]: %p
 [Manage] New pool frame: %p. (size: %d)
@@ -2088,7 +2168,24 @@ Zjz\v
 [Perf warning] %0.3fms - videonvenc::ReinitEncoder
 [Perf warning] %0.3fms - videonvenc::StartEncodeData
 [Perf warning] %0.3fms - videonvenc::SubmitFrame
+[SVLBaseController] Ready to activate controller %s
+[SVLControllerHand] Activating controller on TrackedDeviceIndex_t %d\n
+[SVLControllerHand] Activating hand tracking driver
+[SVLControllerHand] Error activating controller, Prop_ControllerType_String not set\n
+[SVLControllerHand] Error activating controller, Prop_ModelNumber_String not set\n
+[SVLControllerHand] Error activating controller, VTE_StaticProps_t not available\n
+[SVLController] Activate Error: Unsupported controller type "%s"\n
+[SVLController] Activating controller on TrackedDeviceIndex_t %d\n
+[SVLController] Error activating controller, Prop_ControllerType_String not set\n
+[SVLController] Error activating controller, Prop_ModelNumber_String not set\n
+[SVLController] Error activating controller, VTE_StaticProps_t not available\n
+[SVLController] Finished activation
+[SVLController] Haptic Failed to send\n
+[SVLController] Overriding Quest specific properties for %s\n
+[SVLController] Reported HMD model is %d\n
+[SVLHMD] Re-requesting static props: projectionParams: %i chaperone: %i power: %i statichmd: %i defaults: %i framerateUs: %i
 [SVLS] ResetVideoStream
+[SVLServer] Switched active controller driver to: %i
 [SVL] !!!! AcquireSync FAILED with E_FAIL
 [SVL] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [SVL] !!!! AcquireSync FAILED with WAIT_TIMEOUT
@@ -2118,6 +2215,7 @@ Zjz\v
 \t"remoteVersion" : %d,\n
 \t"thisVersion" : %d,\n
 \t"variables" : [\n
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t],\n\t"eyeTracking" : [ 
 \t],\n\t"inputDebugAnalog" : [\n
@@ -2125,11 +2223,15 @@ Zjz\v
 \t],\n\t"sPingHistogramv1" : [
 \t],\n\t"soundData" : [\n
 \txYn
+\u%04x
+\u%04x\u%04x
+\ufffd
 \vCreateSwapTextureSet: %dx%d(%d) %d
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
+],"subtype":
 ]1bO
 ]SVLHMDDriverD3D11::AcquireSync
 ^lX8k
@@ -2183,6 +2285,7 @@ _cexit
 _configthreadlocale
 _configure_narrow_argv
 _crt_atexit
+_dsign
 _dtest
 _errno
 _execute_onexit_table
@@ -2225,7 +2328,6 @@ _wstat64i32
 `input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
 `output` field is missing in animation.sampler\n
 `path` field is missing in animation.channels.target\n
@@ -2360,7 +2462,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c=qx
-cAoption requires an argument -- %c
 cAudBufAvg
 cAudBufMax
 cAudBufMin
@@ -2372,6 +2473,7 @@ cAudFwd
 cAudOvf
 cAudRew
 cAudUnd
+cDegateAdj
 cFramePhase
 cPingAMS
 cRXFailFuzz
@@ -2399,12 +2501,16 @@ color
 commentStyle
 commentStyle must be 'All' or 'None'
 componentType
+coneInnerAngle
+coneOuterAngle
+coneOuterGain
 config
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 controller_path
+copyright
 corrupt
 count
 cs_cz
@@ -2434,6 +2540,7 @@ dV22tN::
 da_dk
 danish
 dashboard_transform
+dashboard_tutorial_dismissed
 data
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
@@ -2454,6 +2561,7 @@ dest
 devicescannermsgwindow-
 disableQoS
 displayFrequency
+distanceModel
 doubleSided
 driver_lighthouse message window
 driver_vrlink
@@ -2472,6 +2580,8 @@ eRender
 el_gr
 emissiveFactor
 emissiveTexture
+emitter
+emitters
 en_us
 enableAmfEncoder
 enableEncryption
@@ -2524,7 +2634,6 @@ finnish
 first not IHDR
 fminf
 fopen
-fopen_s
 force10bit
 forceBaselineVideoFEC
 fputc
@@ -2543,6 +2652,7 @@ fwrite
 g&3g
 gK99r
 gLimitMBPS
+gain
 generator
 generic
 german
@@ -2550,6 +2660,7 @@ getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
 getaddrinfo
 getaddrinfo failed with error: %d\n
+global
 greek
 h8,4$
 hHpX
@@ -2568,6 +2679,7 @@ iQ %5.2f
 i]Wb
 iauds
 illegal code in raster
+image
 image/bmp
 image/gif
 image/jpeg
@@ -2597,6 +2709,8 @@ interpolation
 invalid
 invalid BOM; must be 0xEF 0xBB 0xBF if given
 invalid PLTE
+invalid comment; expecting '/' or '*' after '/'
+invalid comment; missing closing '*/'
 invalid decoded scanline length
 invalid filter
 invalid literal
@@ -2642,9 +2756,11 @@ invalid string: control character U+001F (US) must be escaped to \u001F
 invalid string: forbidden character after backslash
 invalid string: ill-formed UTF-8 byte
 invalid string: missing closing quote
-invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+invalid unordered_map<K, T> key
 invalid vector<T> subscript
+inverse
 inverseBindMatrices
 iolj
 isalnum
@@ -2664,13 +2780,16 @@ lHt\
 lNrZ
 latam
 ldexp
+light
 lights
 link_action
 listen failed with error: %d\n
 localeconv
 logFirstFrames
 logf
+loop
 lpHP
+mSx@
 m_ka
 m_nMaxLogBufferingSize > 0
 m_pVideoEnc->SubmitFrame
@@ -2682,6 +2801,7 @@ material
 materials
 matrix
 max value > 255
+maxDistance
 maxVideoQueueLatencyUs
 mbps
 memchr
@@ -2734,6 +2854,7 @@ not enough pixels
 ntdll.dll
 null
 null literal
+null}
 number literal
 number overflow parsing '
 nvEncDestroyEncoder() failed to destroy\n
@@ -2790,9 +2911,11 @@ pbrMetallicRoughness
 perspective
 ping
 pl_pl
+playing
 polish
 pong
 portuguese
+positional
 powf
 pp|B>>q
 precision
@@ -2818,19 +2941,23 @@ received VTE_DASHBOARD_ACTION %d %d
 received VTE_DASHBOARD_ACTION close_dashboard
 received VTE_DASHBOARD_ACTION open_dashboard
 recv failed with error: %d\n
+refDistance
 rejectDupKeys
 renderHeight
 renderWidth
 repeating AMF SubmitInput() [ %s ]\n
 reqEncMode
+request_dashboard_tutorial
 request_handlers
 request_handlers_response
+requestedDashboardTutorialForHands
 result
 returnAddress
 rexmitReq
 rexmitSent
 rift
 ro_ro
+rolloffFactor
 romanian
 room_setup
 rotation
@@ -2874,6 +3001,7 @@ serverUDPEnable
 session_id_field_name
 session_ogs_row
 setvbuf
+shareEyeTrackingData
 showAdvancedGraphs
 shutdown failed with error: %d\n
 sinf
@@ -2883,6 +3011,7 @@ skin
 skins
 socket failed with error: %d\n
 source
+sources
 spanish
 sparse
 spoofAtStart
@@ -2915,6 +3044,7 @@ strtoull
 sv_se
 svl/driver
 svl/linkbwmon
+svl_hand_interaction_augmented
 svlserver:
 swedish
 syntax error 
@@ -2936,8 +3066,8 @@ text/plain
 textures
 th_th
 thai
-the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
+the sparse object of this accessor doesn't have values
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
@@ -2973,15 +3103,16 @@ unknown option -- %c
 unknown option -- %s
 unknown token
 unknown_eureka
+unknown_panther
 unmuted
 unsupported bit depth
 unsupported data layout
 unsupported format
 useOSC
-useOSCEyes
 useOSCFace
 usePool
 useSpecialFloats
+user_interaction_click_info
 vRQ>
 value
 values
@@ -3009,7 +3140,6 @@ videonvenc::GetEncodedDataThread
 videonvenc::ManageFramesThread
 videonvenc::StartEncodeDataThread
 vietnamese
-vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcombined_log.previous.txt
 vrcombined_log.txt
@@ -3032,7 +3162,6 @@ width
 win64
 wirelessShutdownTimeout
 wn>Jj
-wrapR
 wrapS
 wrapT
 wrong channel count
@@ -3045,6 +3174,7 @@ y-au
 y3y3y3y3y3y3y3y3c
 yfov
 ymag
+z^KD
 zfar
 zhOM
 zh_cn
@@ -3077,6 +3207,16 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {vrlink}
+{vrlink}/icons/left_handtracking_off.png
+{vrlink}/icons/left_handtracking_ready.png
+{vrlink}/icons/left_handtracking_ready_info.png
+{vrlink}/icons/left_handtracking_searching.gif
+{vrlink}/icons/right_handtracking_off.png
+{vrlink}/icons/right_handtracking_ready.png
+{vrlink}/icons/right_handtracking_ready_info.png
+{vrlink}/icons/right_handtracking_searching.gif
+{vrlink}/input/svl_hand_interaction_augmented_input_profile.json
+{vrlink}/rendermodels/shuttlecock
 {vrlink}/shaders/client_construct_override.frag
 {vrlink}/shaders/client_construct_override.vert
 {vrlink}/shaders/client_fov_override.frag

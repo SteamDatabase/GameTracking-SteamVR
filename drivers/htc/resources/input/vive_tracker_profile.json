@@ -1,7 +1,9 @@
 {
-	"jsonid" : "input_profile",
+  "jsonid" : "input_profile",
   "controller_type": "vive_tracker",
   "input_bindingui_mode" : "single_device",
+  "device_class": "TrackedDeviceClass_GenericTracker",
+  "driver_name" : "htc",
   "input_bindingui_right" :
   {
     "image": "{htc}/icons/vive_tracker.svg"
@@ -42,16 +44,19 @@
         "binding_image_point" : [ 127, 62 ]
     },
     "/input/grip" : {
+		"click": true,
         "type" : "button",
 				"order" :  3,
         "binding_image_point" : [ 210, 100 ]
     },
     "/input/application_menu" : {
+		"click": true,
         "type" : "button",
 				"order" :  4,
         "binding_image_point" : [ 210, 130 ]
     },
     "/input/thumb" : {
+		"click": true,
         "type" : "button",
 				"order" :  5,
         "binding_image_point" : [ 88, 148 ]

@@ -102,6 +102,7 @@
  deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
  deg/s
  disambiguator
+ exceeds maximum allowed file size 
  for detail.\n
  formatting error code 
  hits0=
@@ -198,9 +199,11 @@
 "nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
+"positional" is not a JSON object.
 "r\n\nCImuSample
 "scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
+"subtype": 
 "z\n\rMethodOptions
 #?RADIANCE
 #?RADIANCE\n
@@ -565,6 +568,7 @@ $tAUUPE
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUALVRDisplayNotification@@
 .?AUCFactoryMaker@CAnimFactoryBase@@
 .?AUCLighthouseStateTraits@vortex@@
@@ -575,7 +579,6 @@ $tAUUPE
 .?AULiquidVRDll@LiquidVR@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
-.?AUinput_adapter_protocol@detail@nlohmann@@
 .?AV<lambda_0088d02490873a7ab14b0c74d65c5fe9>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_3697dac63288bf8c8a12901dbe60e384>@@
@@ -621,10 +624,26 @@ $tAUUPE
 .?AV?$_Binder@U_Unforced@std@@P8CLighthousePairing@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XPEAVILighthouseDBListener@vortex@@@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_base@_N$$V@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@
+.?AV?$_Func_base@_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_base@_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@std@@
+.?AV?$_Func_base@_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@std@@
+.?AV?$_Func_base@_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
+.?AV?$_Func_base@_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBV12@PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@ZV12@AEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@Z_NAEBV12@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z_NAEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z_NPEAU12@HPEAV34@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@Z_NPEAV12@AEBV12@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0088d02490873a7ab14b0c74d65c5fe9>@@_N$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3697dac63288bf8c8a12901dbe60e384>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -645,8 +664,8 @@ $tAUUPE
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count@UMultiCameraColorFrame@ST@@@std@@
 .?AV?$_Ref_count_obj@UMultiCameraColorFrame@ST@@@std@@
+.?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$_Ref_count_obj@VCConnection@CLighthouseInput@vortex@@@std@@
-.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
@@ -661,6 +680,7 @@ $tAUUPE
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
 .?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
@@ -863,7 +883,6 @@ $tAUUPE
 .?AVexception@detail@nlohmann@@
 .?AVexception@std@@
 .?AVfacet@locale@std@@
-.?AVinput_buffer_adapter@detail@nlohmann@@
 .?AVios_base@std@@
 .?AVout_of_range@detail@nlohmann@@
 .?AVparse_error@detail@nlohmann@@
@@ -883,6 +902,14 @@ $tAUUPE
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z
+.P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z
+.P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@AEBV?$vector@EV?$allocator@E@std@@@1@PEAX@Z
+.P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@AEBV21@PEAX@Z
+.P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
+.P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@3@PEBUURICallbacks@3@PEAV01@PEAX@Z
 .PLACEHOLDER_VALUE
 .bak
 .bog
@@ -1039,14 +1066,16 @@ $tAUUPE
 /yQA
 0 width
 0-pixel image
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
 0\tFAJ
-0a\v6<framesToThrottle
+0a\v6<
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
+11eU%
 1A26b
 1e+9999
 1wsHp
@@ -1080,6 +1109,7 @@ $tAUUPE
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 ; expected 
 ; last read: '
+<discarded>
 <hidden>
 <parse error>
 <redirected>
@@ -1141,6 +1171,7 @@ $tAUUPE
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
 ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
 ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
@@ -1180,7 +1211,6 @@ $tAUUPE
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?gyro_scale
 ?hasNan@Matrix4@ST@@QEBA_NXZ
-?hideAllVisualLoggingWindows@ST@@YAXXZ
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?identity@Matrix4@ST@@SA?AU12@XZ
@@ -1188,7 +1218,6 @@ $tAUUPE
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?init@DepthFromStereo@PE@@QEAAX_N@Z
-?initializeVisualLogging@ST@@YAXXZ
 ?interface
 ?inversed@Matrix4@ST@@QEBA?AU12@XZ
 ?isSupportedOnThisCpu@DepthFromStereo@PE@@SA_NXZ
@@ -1196,6 +1225,7 @@ $tAUUPE
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
 ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?position
 ?prepareFrame@PE@@YAXPEAUMultiCameraColorFrame@ST@@W4FramePreparationStrategy@1@N0_N2@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
@@ -1212,7 +1242,6 @@ $tAUUPE
 ?setExtrinsics@Extrinsics@ST@@QEAAXMMMMMMM@Z
 ?setIdentity@Intrinsics@ST@@QEAAXHH@Z
 ?setKBIntrinsics@KBIntrinsics@ST@@QEAAXMMMMMMMMHH@Z
-?setVisualLoggingVerbosity@ST@@YA_NH@Z
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
 ?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z
 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
@@ -1282,6 +1311,7 @@ App not found
 ArcturusPerception.dll
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
 Assertion failed:  Explicit right sync does not match pending frame\n
 Asset
 Attached HID Devices:\n
@@ -1299,6 +1329,9 @@ AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 Available samples not sufficient for booting (%s)\n
 BETA
+BIN Chunk data length exceeds the GLB size.
+BIN Chunk end is not aligned to a 4-byte boundary.
+BIN Chunk end is not aligned to a 4-byte boundary.\n
 BL Init
 BL requested by app
 BL requested by buttons
@@ -1737,7 +1770,6 @@ EventWriteString
 EventWriteTransfer
 Exceeded stackLimit in readValue().
 Executable: %s\n
-ExpandEnvironmentStringsA
 Expect a decimal number.
 Expected "
 Expected MC Images:\n
@@ -1850,7 +1882,9 @@ File not found :
 File open error : 
 File open error for writing : 
 File read error : 
+File read error. Maybe empty file or invalid file : 
 File recursively imports itself: 
+File size 
 File size mismatch : 
 File write error: 
 File: 
@@ -1961,6 +1995,7 @@ GetUInt32
 GetUInt64
 GetWindowLongPtrA
 Getting devnode property store failed: hr = 0x%08x\n
+Getting file size failed : 
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 GpuSpeed
 H$6t
@@ -2166,6 +2201,8 @@ InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 InitializeSecurityDescriptor
+Insufficient Chunk1(BIN) data size.
+Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 Integer out of range.
 Interpreting non ascii codepoint %d.
 Invalid
@@ -2178,8 +2215,9 @@ Invalid TDM lock on matched serial / phase.\n
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.\n
+Invalid binary data in `Buffer', or GLB with empty BIN chunk.\n
 Invalid camera type: "
+Invalid chunkType for Chunk1.
 Invalid control characters encountered in text.
 Invalid data!
 Invalid escape sequence in string literal.
@@ -2187,6 +2225,7 @@ Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
 Invalid file size : 
 Invalid float number: 
 Invalid glTF binary.
+Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
 Invalid magic.
 Invalid persistent statistics serial\n
@@ -2211,9 +2250,11 @@ IsProcessorFeaturePresent
 IsValidSid
 JFIF
 JSON
+JSON Chunk end does not aligned to a 4-byte boundary.
 JSON Update
 JSON string too short.\n
 KERNEL32.dll
+KHR_audio
 KHR_lights_punctual
 Knu RevB
 Knuckles
@@ -2276,6 +2317,7 @@ MGiI
 MIPI Init
 MIPI Init Error
 MSB 
+MSFT_lod
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
@@ -2286,6 +2328,7 @@ Mark 1
 Mark 2
 Mark 3
 Mark 4
+Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Max watchdog reset count
 Mb ?QFo
 MbP?GUQ?
@@ -2346,6 +2389,9 @@ No default audio device found to listen to\n
 No default value
 No field named "uninterpreted_option" in the Options proto.
 No optical frames in past %d seconds\n
+Node has extension KHR_audio, but does not reference a audio emitter.\n
+Node has extension KHR_lights_punctual, but does not reference a light source.\n
+Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 Non-Production BL
 Non-primitive types can't be packed.
 Non-repeated field "
@@ -2392,12 +2438,12 @@ Option "
 Option field "
 Option must have a name.
 Option must not use reserved name "uninterpreted_option".
-Orhographic camera description not found.
 Original Left Camera Extrinsics: %s
 Original Right Camera Extrinsics: %s
 Original shift blue in pixels: %f %f\n
 Original shift red in pixels:  %f %f\n
 Original: %f %f %f \n
+Orthographic camera description not found.
 OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
@@ -2455,6 +2501,7 @@ Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
 PoolGC
+Positional emitter description not found.
 Primitive
 Prism only supports DPOLY3 and DPOLY3_SCALED distortiong functions
 Prism%s: %s
@@ -2479,8 +2526,8 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSE
-R\vp~i
+RSDS?
+R\vp~Z
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2667,6 +2714,7 @@ Somebody else should have created event %s to go with pipe %s in WaitForConnecti
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Source: %s -- Preferred basestation %08X\n
 SourceCodeInfo
+SparseAccessor
 Spot light description not found.
 Stable
 Standby toggled
@@ -2740,6 +2788,7 @@ Tundra Tracker
 Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
+U1(\Q
 U4ot
 U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
 UNKNOWN
@@ -2815,6 +2864,7 @@ Unknown enumeration value of "
 Unknown error (%d)
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
+Unknown image format. STB cannot decode image header for image[
 Unknown method: "
 UnmapViewOfFile
 UnregisterClassA
@@ -3228,6 +3278,7 @@ XXXX PNG chunk not known
 XsBI
 Y?33s?
 Zjz\v
+[AnimSkeleton] Failed to load GLTF file: %s
 [DepthAugmentedPassthrough] : Clean depthFromStereo and stop internal processing thread \n
 [DepthAugmentedPassthrough] : Connecting to the frame block queue ...\n
 [DepthAugmentedPassthrough] : Could not access controller model for controller id : %i.  error %i \n
@@ -3282,12 +3333,14 @@ Zjz\v
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[KeyFramedDataResource] Failed to load GLTF file: %s
 [h1R
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
+\OpO'
 \U%08x
 \mfpmp.exe
 \n    Actual    : 
@@ -3346,12 +3399,17 @@ Zjz\v
 \tEdid already edid_id %d and hdcp14legacycompat %d, no change needed\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\u%04x
+\u%04x\u%04x
+\ufffd
 \x%02x
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
+],"subtype":
 ^oEZ_
 _Cnd_broadcast
 _Cnd_destroy
@@ -3401,6 +3459,7 @@ _close
 _configure_narrow_argv
 _crt_atexit
 _ctime64
+_dsign
 _dtest
 _errno
 _execute_onexit_table
@@ -3444,7 +3503,6 @@ _wstat64i32
 `input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
 `output` field is missing in animation.sampler\n
 `path` field is missing in animation.channels.target\n
@@ -3669,6 +3727,9 @@ com.google.protobufB
 compatible 
 componentType
 compositordebug
+coneInnerAngle
+coneOuterAngle
+coneOuterGain
 config
 config.json
 configuration string is empty
@@ -3678,6 +3739,7 @@ const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 controller
+copyright
 corrupt
 count
 create
@@ -3732,6 +3794,7 @@ display_multiframerate
 display_usb_pid
 display_usb_protocol
 display_usb_vid
+distanceModel
 distort
 distortion
 distortion_blue
@@ -3783,6 +3846,8 @@ echo %127s
 el_gr
 emissiveFactor
 emissiveTexture
+emitter
+emitters
 en_us
 enable
 enableCamera
@@ -3926,6 +3991,7 @@ fputc
 fputs
 fr_fr
 framer
+framesToThrottle
 fread
 free
 french
@@ -3935,6 +4001,7 @@ fsetpos
 ftell
 fu`z
 fwrite
+gain
 gc/250_v0.gc
 generator
 generic_controller
@@ -3946,6 +4013,7 @@ getDeviceProperty returned wrong type %d\n
 get_eye_to_head
 get_radio_mode
 getenv
+global
 google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
@@ -4064,6 +4132,8 @@ invalid bitset<N> position
 invalid block type
 invalid code -- missing end-of-block
 invalid code lengths set
+invalid comment; expecting '/' or '*' after '/'
+invalid comment; missing closing '*/'
 invalid decoded scanline length
 invalid distance code
 invalid distance too far back
@@ -4117,11 +4187,12 @@ invalid string: control character U+001F (US) must be escaped to \u001F
 invalid string: forbidden character after backslash
 invalid string: ill-formed UTF-8 byte
 invalid string: missing closing quote
-invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
 invalid vector<T> subscript
 invalid window size
 invalid-user
+inverse
 inverseBindMatrices
 inverse_distortion
 ipdOffset
@@ -4175,6 +4246,7 @@ lh_basestation_valve_gen2
 lh_basestation_vive
 lhjsonfx
 lhs->m_pTimeline == rhs->m_pTimeline
+light
 lighthouse
 lighthouse:
 lighthouse_config
@@ -4188,7 +4260,9 @@ lights
 list<T> too long
 localeconv
 location
+loop
 low_mm
+mSx@
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_data.details.hImportHandle.Valid()
@@ -4230,6 +4304,7 @@ material
 materials
 matrix
 max value > 255
+maxDistance
 measuring...
 memchr
 memcmp
@@ -4309,6 +4384,7 @@ ns3G
 ntdll.dll
 null
 null literal
+null}
 num_windows
 number
 number literal
@@ -4362,7 +4438,6 @@ pTextureSet->pSwapchain
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-p\r`\f0\vPhO
 package
 packed
 pairing_result
@@ -4382,6 +4457,7 @@ perspective
 pitch
 pl_pl
 play
+playing
 plss
 plus_x
 plus_z
@@ -4389,6 +4465,7 @@ polish
 portuguese
 pose
 position out of bounds 
+positional
 positive_int_value
 power
 powerOffOnExit
@@ -4426,6 +4503,7 @@ recorded
 recorder
 recorder + 
 recording\n
+refDistance
 registered: 
 registered_device_type_prefix
 rejectDupKeys
@@ -4456,6 +4534,7 @@ right_sync_is_real_as_it_gets
 right_sync_time
 ro_ro
 roll
+rolloffFactor
 romanian
 rootserial
 rotating at 
@@ -4518,6 +4597,7 @@ slow-edid
 sobChannel
 source
 source_code_info
+sources
 span
 spanish
 sparse
@@ -4602,8 +4682,8 @@ textures
 th_th
 thai
 the global scope
-the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
+the sparse object of this accessor doesn't have values
 tilt
 tilt_to_pose_method
 time
@@ -5368,7 +5448,6 @@ wireless_dongle_serial_number
 wn>Jj
 world_from_global
 world_identity
-wrapR
 wrapS
 wrapT
 wrong channel count
@@ -5381,6 +5460,7 @@ y@tTyY1
 yfov
 ymag
 z?X9T?
+z^KD
 zd?/n
 zfar
 zh_cn

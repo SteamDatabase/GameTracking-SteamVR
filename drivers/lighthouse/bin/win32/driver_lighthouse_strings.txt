@@ -96,6 +96,7 @@
  deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
  deg/s
  disambiguator
+ exceeds maximum allowed file size 
  for detail.\n
  hits0=
  hits1=
@@ -185,9 +186,11 @@
 "nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
+"positional" is not a JSON object.
 "r\n\nCImuSample
 "scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
+"subtype": 
 "z\n\rMethodOptions
 #?RADIANCE
 #?RADIANCE\n
@@ -335,7 +338,7 @@ $tI<unknown>
 -openvr
 -t1?Ks
 -tA?Ks
--tQ?x
+-tQ?hL
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ... Moving the base for tracking too, which might cause a pop\n
 .... BaseStation Map has %d entries\n
@@ -366,6 +369,7 @@ $tI<unknown>
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUALVRDisplayNotification@@
 .?AUCFactoryMaker@CAnimFactoryBase@@
 .?AUCLighthouseStateTraits@vortex@@
@@ -376,7 +380,6 @@ $tI<unknown>
 .?AULiquidVRDll@LiquidVR@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
-.?AUinput_adapter_protocol@detail@nlohmann@@
 .?AV<lambda_0071fdbcd7a365eddd749e64ff4b46b1>@@
 .?AV<lambda_0557c6dd6dd3323a6d88ad58705fe418>@@
 .?AV<lambda_1f0a68b20b22887c0e785786564d1231>@@
@@ -416,10 +419,26 @@ $tI<unknown>
 .?AV?$_Binder@U_Unforced@std@@P8CLighthousePairing@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PAXPBD@std@@
+.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@PAX@std@@
 .?AV?$_Func_base@XABVValue@Json@@@std@@
 .?AV?$_Func_base@XPAVILighthouseDBListener@vortex@@@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
 .?AV?$_Func_base@_N$$V@std@@
+.?AV?$_Func_base@_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@PAX@std@@
+.?AV?$_Func_base@_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAX@std@@
+.?AV?$_Func_base@_NPAIPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@PAX@std@@
+.?AV?$_Func_base@_NPAUImage@tinygltf@@HPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV34@HHPBEHPAX@std@@
+.?AV?$_Func_base@_NPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@ABV?$vector@EV?$allocator@E@std@@@2@PAX@std@@
+.?AV?$_Func_base@_NPAV?$vector@EV?$allocator@E@std@@@std@@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABV32@PAX@std@@
+.?AV?$_Func_base@_NPBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBV12@PBUImage@tinygltf@@_NPBUFsCallbacks@4@PBUURICallbacks@4@PAV12@PAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@PAX@ZV12@ABV12@PAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@PAX@Z_NABV12@PAV12@PAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAX@Z_NABV12@PAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPAIPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@PAX@Z_NPAIPAV12@ABV12@PAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPAUImage@tinygltf@@HPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPBEHPAX@Z_NPAU12@HPAV34@PAV34@HHPBEHPAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@ABV?$vector@EV?$allocator@E@std@@@2@PAX@Z_NPAV12@ABV12@ABV32@PAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPAV?$vector@EV?$allocator@E@std@@@std@@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABV32@PAX@Z_NPAV12@PAV32@ABV32@PAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PBUImage@tinygltf@@_NPBUFsCallbacks@4@PBUURICallbacks@4@PAV12@PAX@Z_NPBV12@PBV12@PBU34@_NPBU54@PBU64@PAV12@PAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0071fdbcd7a365eddd749e64ff4b46b1>@@_N$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0557c6dd6dd3323a6d88ad58705fe418>@@XPAVILighthouseDBListener@vortex@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1f0a68b20b22887c0e785786564d1231>@@_N$$V@std@@
@@ -434,8 +453,8 @@ $tI<unknown>
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@XABVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_7f5b9e7ec5c8f9ee4eaffc493ce1f82c>@@@std@@U?$default_delete@V?$tuple@V<lambda_7f5b9e7ec5c8f9ee4eaffc493ce1f82c>@@@std@@@2@@std@@@std@@
+.?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$_Ref_count_obj@VCConnection@CLighthouseInput@vortex@@@std@@
-.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
@@ -450,6 +469,7 @@ $tI<unknown>
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
 .?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
@@ -623,7 +643,6 @@ $tI<unknown>
 .?AVexception@detail@nlohmann@@
 .?AVexception@std@@
 .?AVfacet@locale@std@@
-.?AVinput_buffer_adapter@detail@nlohmann@@
 .?AVios_base@std@@
 .?AVout_of_range@detail@nlohmann@@
 .?AVparse_error@detail@nlohmann@@
@@ -643,6 +662,14 @@ $tI<unknown>
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV01@PAX@Z
+.P6A_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV01@PAX@Z
+.P6A_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAX@Z
+.P6A_NPAIPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV01@PAX@Z
+.P6A_NPAUImage@tinygltf@@HPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPBEHPAX@Z
+.P6A_NPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV01@ABV?$vector@EV?$allocator@E@std@@@1@PAX@Z
+.P6A_NPAV?$vector@EV?$allocator@E@std@@@std@@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV21@PAX@Z
+.P6A_NPBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PBUImage@tinygltf@@_NPBUFsCallbacks@3@PBUURICallbacks@3@PAV01@PAX@Z
 .PLACEHOLDER_VALUE
 .bak
 .bog
@@ -778,12 +805,15 @@ $tI<unknown>
 /yQA
 0 width
 0-pixel image
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\x%02x
 0123456789abcdef
+0a\v6<
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
+11eU%
 1A26b
 1e+9999
 1wsHp
@@ -816,6 +846,7 @@ $tI<unknown>
 : one or more FS callback not set
 ; expected 
 ; last read: '
+<discarded>
 <hidden>
 <parse error>
 <redirected>
@@ -861,6 +892,7 @@ $tI<unknown>
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z
+?_Fiopen@std@@YAPAU_iobuf@@PB_WHH@Z
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
 ?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ
 ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
@@ -900,6 +932,7 @@ $tI<unknown>
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
+?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
 ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PAV32@@Z
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
@@ -972,6 +1005,7 @@ App Init
 App not found
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
 Assertion failed:  Explicit right sync does not match pending frame\n
 Asset
 Attached HID Devices:\n
@@ -988,6 +1022,9 @@ AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 Available samples not sufficient for booting (%s)\n
 BETA
+BIN Chunk data length exceeds the GLB size.
+BIN Chunk end is not aligned to a 4-byte boundary.
+BIN Chunk end is not aligned to a 4-byte boundary.\n
 BL Init
 BL requested by app
 BL requested by buttons
@@ -1310,7 +1347,6 @@ Errors!
 EventRegister
 EventUnregister
 Exceeded stackLimit in readValue().
-ExpandEnvironmentStringsA
 ExpandEnvironmentStringsW
 Expect a decimal number.
 Expected "
@@ -1409,7 +1445,9 @@ File not found :
 File open error : 
 File open error for writing : 
 File read error : 
+File read error. Maybe empty file or invalid file : 
 File recursively imports itself: 
+File size 
 File size mismatch : 
 File write error: 
 File: 
@@ -1513,6 +1551,7 @@ GetUInt32
 GetUInt64
 GetWindowLongA
 Getting devnode property store failed: hr = 0x%08x\n
+Getting file size failed : 
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 GpuSpeed
 H$6t
@@ -1709,6 +1748,8 @@ InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
+Insufficient Chunk1(BIN) data size.
+Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 Integer out of range.
 InterlockedDecrement
 InterlockedExchangeAdd
@@ -1723,8 +1764,9 @@ Invalid TDM lock on matched serial / phase.\n
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.\n
+Invalid binary data in `Buffer', or GLB with empty BIN chunk.\n
 Invalid camera type: "
+Invalid chunkType for Chunk1.
 Invalid control characters encountered in text.
 Invalid data!
 Invalid escape sequence in string literal.
@@ -1732,6 +1774,7 @@ Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
 Invalid file size : 
 Invalid float number: 
 Invalid glTF binary.
+Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
 Invalid magic.
 Invalid persistent statistics serial\n
@@ -1756,9 +1799,11 @@ IsProcessorFeaturePresent
 IsWow64Process
 JFIF
 JSON
+JSON Chunk end does not aligned to a 4-byte boundary.
 JSON Update
 JSON string too short.\n
 KERNEL32.dll
+KHR_audio
 KHR_lights_punctual
 Knuckles
 Knuckles EV1.3
@@ -1821,6 +1866,7 @@ MGiI
 MIPI Init
 MIPI Init Error
 MSB 
+MSFT_lod
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
@@ -1830,6 +1876,7 @@ Mark 1
 Mark 2
 Mark 3
 Mark 4
+Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Max watchdog reset count
 Mb ?QFo
 MbP?GUQ?
@@ -1888,6 +1935,9 @@ No default audio device found to listen to\n
 No default value
 No field named "uninterpreted_option" in the Options proto.
 No optical frames in past %d seconds\n
+Node has extension KHR_audio, but does not reference a audio emitter.\n
+Node has extension KHR_lights_punctual, but does not reference a light source.\n
+Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 Non-Production BL
 Non-primitive types can't be packed.
 Non-repeated field "
@@ -1929,12 +1979,12 @@ Option "
 Option field "
 Option must have a name.
 Option must not use reserved name "uninterpreted_option".
-Orhographic camera description not found.
 Original Left Camera Extrinsics: %s
 Original Right Camera Extrinsics: %s
 Original shift blue in pixels: %f %f\n
 Original shift red in pixels:  %f %f\n
 Original: %f %f %f \n
+Orthographic camera description not found.
 OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
@@ -1990,6 +2040,7 @@ PeripheralApplication
 Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
+Positional emitter description not found.
 Primitive
 Pro Audio
 PropVariantClear
@@ -2005,7 +2056,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS\nr
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2169,6 +2220,7 @@ SleepConditionVariableCS
 Software Reset
 Source: %s -- Preferred basestation %08X\n
 SourceCodeInfo
+SparseAccessor
 Spot light description not found.
 Stable
 Standby toggled
@@ -2233,6 +2285,7 @@ Tundra Tracker
 Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
+U1(\Q
 U4ot
 U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
 UNKNOWN
@@ -2297,6 +2350,7 @@ Unknown enumeration value of "
 Unknown error (%d)
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
+Unknown image format. STB cannot decode image header for image[
 Unknown method: "
 UnregisterClassA
 UnregisterDeviceNotification
@@ -2690,11 +2744,14 @@ WideCharToMultiByte
 Win 10
 WinRT
 WriteFile
+X@XO
 XXXX PNG chunk not known
 XsBI
 Zjz\v
+[AnimSkeleton] Failed to load GLTF file: %s
 [DepthAugmentedPassthrough] supported on this system: %d\n
 [FORCEUPDATE]
+[KeyFramedDataResource] Failed to load GLTF file: %s
 [h1R
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
@@ -2759,11 +2816,16 @@ Zjz\v
 \tEdid already edid_id %d and hdcp14legacycompat %d, no change needed\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\u%04x
+\u%04x\u%04x
+\ufffd
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
+],"subtype":
 ^oEZ_
 _CIacos
 _CIfmod
@@ -2820,6 +2882,7 @@ _close
 _configure_narrow_argv
 _crt_atexit
 _ctime64
+_dsign
 _dtest
 _errno
 _except1
@@ -2864,7 +2927,6 @@ _wstat64i32
 `input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target\n
 `nodes' does not contain an JSON object.
 `output` field is missing in animation.sampler\n
 `path` field is missing in animation.channels.target\n
@@ -3060,6 +3122,9 @@ com.google.protobufB
 compatible 
 componentType
 compositordebug
+coneInnerAngle
+coneOuterAngle
+coneOuterGain
 config
 config.json
 configuration string is empty
@@ -3069,6 +3134,7 @@ const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 controller
+copyright
 corrupt
 count
 cs_cz
@@ -3120,6 +3186,7 @@ display_multiframerate
 display_usb_pid
 display_usb_protocol
 display_usb_vid
+distanceModel
 distort
 distortion
 distortion_blue
@@ -3171,6 +3238,8 @@ echo %127s
 el_gr
 emissiveFactor
 emissiveTexture
+emitter
+emitters
 en_us
 enable
 enableCamera
@@ -3266,6 +3335,7 @@ fsetpos
 ftell
 fu`z
 fwrite
+gain
 gc/250_v0.gc
 generator
 generic_controller
@@ -3277,6 +3347,7 @@ getDeviceProperty returned wrong type %d\n
 get_eye_to_head
 get_radio_mode
 getenv
+global
 google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
@@ -3392,6 +3463,8 @@ invalid bit length repeat
 invalid block type
 invalid code -- missing end-of-block
 invalid code lengths set
+invalid comment; expecting '/' or '*' after '/'
+invalid comment; missing closing '*/'
 invalid decoded scanline length
 invalid distance code
 invalid distance too far back
@@ -3445,11 +3518,12 @@ invalid string: control character U+001F (US) must be escaped to \u001F
 invalid string: forbidden character after backslash
 invalid string: ill-formed UTF-8 byte
 invalid string: missing closing quote
-invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
 invalid vector<T> subscript
 invalid window size
 invalid-user
+inverse
 inverseBindMatrices
 inverse_distortion
 ipdOffset
@@ -3499,6 +3573,7 @@ lh_basestation_01_boysandgirls
 lh_basestation_03_robin
 lh_basestation_valve_gen2
 lh_basestation_vive
+light
 lighthouse
 lighthouse:
 lighthouse_config
@@ -3512,8 +3587,10 @@ lights
 list<T> too long
 localeconv
 location
+loop
 low_mm
 lstrcmpW
+mSx@
 m_ulHandle != vr::k_ulInvalidMailbox
 magFilter
 malloc
@@ -3528,6 +3605,7 @@ material
 materials
 matrix
 max value > 255
+maxDistance
 measuring...
 memchr
 memcpy
@@ -3599,6 +3677,7 @@ ns3G
 ntdll.dll
 null
 null literal
+null}
 num_windows
 number
 number literal
@@ -3653,6 +3732,7 @@ perfcheck
 perspective
 pitch
 pl_pl
+playing
 plss
 plus_x
 plus_z
@@ -3661,6 +3741,7 @@ portuguese
 pose
 position
 position out of bounds 
+positional
 positive_int_value
 power
 powerOffOnExit
@@ -3684,7 +3765,6 @@ proximity
 pt_br
 pt_pt
 public_dependency
-pxEh\t
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 r2max
@@ -3696,6 +3776,7 @@ recorded
 recorder
 recorder + 
 recording\n
+refDistance
 registered: 
 registered_device_type_prefix
 rejectDupKeys
@@ -3725,6 +3806,7 @@ right_sync_is_real_as_it_gets
 right_sync_time
 ro_ro
 roll
+rolloffFactor
 romanian
 rootserial
 rotating at 
@@ -3783,6 +3865,7 @@ skins
 sobChannel
 source
 source_code_info
+sources
 span
 spanish
 sparse
@@ -3861,8 +3944,8 @@ textures
 th_th
 thai
 the global scope
-the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
+the sparse object of this accessor doesn't have values
 tilt
 tilt_to_pose_method
 time
@@ -3982,7 +4065,6 @@ wireless_dongle_serial_number
 wn>Jj
 world_from_global
 world_identity
-wrapR
 wrapS
 wrapT
 wrong channel count
@@ -3991,10 +4073,12 @@ wrong submessage type
 wrong version
 xmag
 y9*O
+y?hL
 y@0u
 yfov
 ymag
 z?X9T?
+z^KD
 zd?/n
 zfar
 zh_cn

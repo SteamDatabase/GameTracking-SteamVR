@@ -30,9 +30,9 @@
         "enableAmfEncoder" : true,
         "useOSC": false,
         "useOSCFace": false,
-        "useOSCEyes": false,
         "OSCInPort": 9016,
 		"OSCOutPort": 9000,
+		"shareEyeTrackingData": false,
         "allowVolumeSync" : true,
 		"disableQoS" : false,
 		"asyncStartEncode" : true
