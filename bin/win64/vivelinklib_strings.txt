@@ -709,7 +709,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
 dat_file

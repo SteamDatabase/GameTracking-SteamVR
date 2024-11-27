@@ -758,7 +758,6 @@ CreateSimpleProcess
 CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
 Creating BLE Serial Transport on %s at %d.\n
 Culdn't duplicate handle
-D Il
 DFU Post
 DFUFile_t::~DFUFile_t()
 DFU_EXT_ERROR_FW_VERSION_FAILURE

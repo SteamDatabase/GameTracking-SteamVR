@@ -253,7 +253,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSn9
+RSDS
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -378,7 +378,6 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
-aUJg
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -434,10 +433,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -558,6 +557,7 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
+v;Eg
 vi_vn
 vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )

@@ -613,7 +613,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDS
+RSDS+
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -786,7 +786,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 calloc
 cntrl
 connection aborted

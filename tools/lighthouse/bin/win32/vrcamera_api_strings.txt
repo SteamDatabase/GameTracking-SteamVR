@@ -596,7 +596,7 @@ OLEAUT32.dll
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS!
+RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -766,7 +766,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
 calloc
 cntrl
 connection aborted
@@ -871,6 +871,7 @@ proc
 protocol error
 protocol not supported
 punct
+q;Eg
 rLp>B
 raB3G
 read only file system

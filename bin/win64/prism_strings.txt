@@ -327,11 +327,11 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fda7136264a0c7f426abb06c45333a48>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0x9ac02b30@@
+.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0xb41460a2@@
 .?AVCMotionEstimator_LiquidVR@@
 .?AVCMotionEstimator_NvEncode@@
 .?AVCNonCopyable@@
@@ -913,7 +913,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDShUu_
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1041,6 +1041,7 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 WriteFile
 YUV conversion - %s
+Z(tj
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
@@ -1150,46 +1151,46 @@ atoi
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkcommand.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkquery.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\meshutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommandbatch.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcuda.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdescriptors.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkimagehistory.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkshaderpipeline.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\Retail\win64\2017\prism.pdb
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\clientswapchain.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\framehallucination.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_liquidvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_nvencode.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionsmoothing.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism_capi.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_nvapi.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_vulkan.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkcommand.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkquery.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\meshutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommandbatch.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcuda.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdescriptors.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkimagehistory.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkshaderpipeline.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\Retail\win64\2017\prism.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\clientswapchain.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\framehallucination.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimation.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_liquidvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_nvencode.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionsmoothing.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism_capi.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_nvapi.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_vulkan.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismpanelmask.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismposeprovider_null.cpp
 client
 computeCommandSet.Valid()
 createInfo.pComputeDistortion
@@ -1376,7 +1377,7 @@ tolower
 true
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
-v!ne
+v!nex
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
 vkAcquireDrmDisplayEXT

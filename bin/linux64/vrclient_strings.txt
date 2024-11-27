@@ -999,6 +999,7 @@ $tI(kn
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+03:05:53
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1289,7 +1290,6 @@ $tI(kn
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:25:45
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -22016,7 +22016,6 @@ KHR_audio
 KHR_lights_punctual
 KIM 11
 KTX 11
-L'ah
 L=fff?
 LC_ADDRESS
 LC_COLLATE
@@ -22460,6 +22459,7 @@ Not writing scalar value because it didn't change\n
 Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
+Nov 26 2024
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t>>*)
@@ -22495,7 +22495,6 @@ NvAPI::WaitForVBlank(void*, unsigned int)
 OPAQUE
 OSWaitForDebugger()
 Object
-Oct 21 2024
 October
 OculusSDKStart
 OldAppQuitSent

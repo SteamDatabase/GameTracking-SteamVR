@@ -446,7 +446,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS
+RSDSf
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -625,6 +625,7 @@ Windows NT
 Windows Vista
 Windows XP
 WriteFile
+YS-T
 Zip Error: %s\n
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -703,7 +704,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
 ceil
 cntrl

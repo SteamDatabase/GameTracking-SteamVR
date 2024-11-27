@@ -139,7 +139,7 @@ MultiByteToWideChar
 OLEAUT32.dll
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS"HcdN
+RSDS
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -216,8 +216,8 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
 free

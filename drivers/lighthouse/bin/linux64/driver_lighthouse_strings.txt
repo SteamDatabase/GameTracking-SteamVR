@@ -862,6 +862,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+03:05:53
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -950,7 +951,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:25:45
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -5718,6 +5718,7 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+Nov 26 2024
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -5756,7 +5757,6 @@ OPAQUE
 OTGT timed out\n
 O\tu~w
 Object
-Oct 21 2024
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)
