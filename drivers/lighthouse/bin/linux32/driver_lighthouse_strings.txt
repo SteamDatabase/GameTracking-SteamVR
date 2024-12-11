@@ -2736,7 +2736,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-03:05:46
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2809,6 +2808,7 @@ $3br
 21CServerDriverHost_003
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:41:03
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 22CVRCameraComponent_001
@@ -2821,7 +2821,6 @@ $3br
 23CVRDisplayComponent_001
 23CVRDisplayComponent_002
 23CVRTrackedDevice_Latest
-23UV
 24ILockedPropertyContainer
 25CCompositorPluginProvider
 25CVRCameraComponentAdapter
@@ -5285,6 +5284,7 @@ DXGI2::WaitForVBlank(void*)
 Data Invalid
 Data len %d\r\n
 DebugDriverLog(char const*, ...)
+Dec  9 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -7256,7 +7256,6 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov 26 2024
 November
 Numbers starting with leading zero must be in octal.
 NvAPI

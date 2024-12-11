@@ -92,10 +92,11 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS;
+RSDS
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S6D\"
 SetUnhandledExceptionFilter
 UnhandledExceptionFilter
 Unknown exception

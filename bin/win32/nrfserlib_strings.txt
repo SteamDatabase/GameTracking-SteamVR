@@ -1387,6 +1387,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 pqcs
 print
+puWg
 punct
 realloc
 sd_ble_cfg_set

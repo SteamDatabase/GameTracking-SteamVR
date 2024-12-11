@@ -223,6 +223,7 @@ Error enumerating HMD adapter.\n
 Error getting HMD adapter index.\n
 Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.\n
+EtWg
 Exceeded stackLimit in readValue().
 Executable: %s\n
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n

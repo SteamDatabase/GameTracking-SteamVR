@@ -549,7 +549,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS
+RSDSX
 RaiseException
 ReadConsoleW
 ReadFile
@@ -905,6 +905,7 @@ WriteConsoleW
 WriteFile
 X/4B
 X4I+
+XuWg
 [aOni*{
 \r\f\v\v\n\n\t\t\t\t\t
 \tcQr
@@ -962,7 +963,6 @@ _nextafter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a;Eg
 aDJ=
 abcdefghijklmnopqrstuvwxyz
 acos

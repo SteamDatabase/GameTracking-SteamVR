@@ -3823,7 +3823,7 @@ QueryServiceConfigW
 RADV
 RGBG
 RPCRT4.dll
-RSDS
+RSDS,
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -5843,6 +5843,7 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] renderModelIdCountOutput was nullptr
 \mfpmp.exe
 \nbad png sig
+\ntWg
 \t%s::%llx.\n
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t

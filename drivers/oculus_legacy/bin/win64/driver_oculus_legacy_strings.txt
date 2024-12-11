@@ -127,7 +127,6 @@ InitializeSListHead
 Initialized Oculus device %s\n
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J<Eg
 KERNEL32.dll
 LIBOVR_DLL_DIR
 LoadLibraryA
@@ -141,7 +140,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS\f
+RSDS'
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry

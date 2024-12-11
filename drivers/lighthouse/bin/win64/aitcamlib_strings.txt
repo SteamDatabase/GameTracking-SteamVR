@@ -128,6 +128,7 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?rWg
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -238,7 +239,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSd
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

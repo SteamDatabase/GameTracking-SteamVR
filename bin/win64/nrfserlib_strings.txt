@@ -831,6 +831,7 @@ DoReadPropertiesContext
 DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
+DrWg
 DuplicateHandle
 Element not found
 Empty escape sequence in string
@@ -1056,7 +1057,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSR
+RSDSb
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n

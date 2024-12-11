@@ -468,7 +468,6 @@ Detected new Oculus Touch controller: %d/%d\n
 Detected new Oculus tracker: %d\n
 DisableThreadLibraryCalls
 DuplicateHandle
-E<Eg
 ERROR: Failed to dup handle!\n
 Empty escape sequence in string
 Empty file.
@@ -700,7 +699,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSu
+RSDSQ
 RaiseException
 ResetEvent
 RootNode

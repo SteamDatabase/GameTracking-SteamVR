@@ -28,6 +28,7 @@ $Ib?s
 (null)
 )yIx
 *StO9>T
+*rWg
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,HR>O
 -1e+9999
@@ -1235,7 +1236,6 @@ too many files open in system
 too many links
 too many symbolic link levels
 true
-u;Eg
 unknown error
 uzKs@>
 v2!L.2

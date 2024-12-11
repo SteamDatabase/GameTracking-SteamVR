@@ -667,6 +667,7 @@ EventUnregister
 EventWriteString
 EventWriteTransfer
 Executable: %s\n
+F&qMJ
 FACET_VULKAN_VALIDATION
 FAILURE:WaitForPresent
 Facet
@@ -913,7 +914,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSO0
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1039,9 +1040,9 @@ WindowsDeleteString
 WindowsDisplayCore
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
+WrWg
 WriteFile
 YUV conversion - %s
-Z(tj
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n

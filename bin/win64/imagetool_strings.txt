@@ -11287,7 +11287,6 @@ c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-fontcache.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-fontmap.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-shape.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32.c
-c<Eg
 cAVp
 cBW%
 cHRM

@@ -354,6 +354,7 @@ XR_RUNTIME_JSON
 \ApiLayers\Explicit
 \ApiLayers\Implicit
 \fplO
+\tsWg
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -476,7 +477,6 @@ memmove
 memset
 modf
 must be non-NULL
-n<Eg
 name
 nfinity
 none

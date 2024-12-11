@@ -446,7 +446,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDSf
+RSDS#zn
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -625,7 +625,6 @@ Windows NT
 Windows Vista
 Windows XP
 WriteFile
-YS-T
 Zip Error: %s\n
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -801,6 +800,7 @@ vivelink-driver.txt
 vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
+vuWg
 win64
 wn>Jj
 xdigit

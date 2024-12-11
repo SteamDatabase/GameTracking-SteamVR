@@ -282,9 +282,11 @@
 0123456789ABCDEFabcdef-+XxPp
 0123456789abcdefghijklmnopqrstuvwxyz
 1eaB@
+48~j@
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+:rWg
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -613,7 +615,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDS+
+RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject

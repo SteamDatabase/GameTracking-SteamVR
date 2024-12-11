@@ -385,6 +385,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 Invalid address %s.\n
 Invalid nonce %d\n
+IrWg
 IsDebuggerPresent
 IsProcessorFeaturePresent
 K32EnumProcessModules
@@ -450,7 +451,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS
+RSDSK\v_
 RaiseException
 ReadFile
 ReadPipeResponse

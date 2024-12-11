@@ -1671,10 +1671,9 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R##Fe
 R;vM;
-R<Eg
 RPCRT4.dll
 RRvM;;
-RSDS
+RSDSb
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d\n

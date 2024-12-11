@@ -417,10 +417,11 @@ OpenProcess
 Out of thread local storage!\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON string "%s" failed: %s\n
+PtWg
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSm
+RSDS
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n

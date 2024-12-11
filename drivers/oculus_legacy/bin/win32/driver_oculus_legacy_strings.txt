@@ -138,7 +138,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSif
+RSDS0
 RaiseException
 SDL2.dll
 SDL_CreateWindow

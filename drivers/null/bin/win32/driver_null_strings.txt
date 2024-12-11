@@ -88,10 +88,9 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
-KVA\v;B
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS
+RSDS7v9
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
