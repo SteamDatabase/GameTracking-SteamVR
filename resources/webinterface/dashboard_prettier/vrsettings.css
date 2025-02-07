@@ -41,10 +41,12 @@ body {
 
 .SettingsMain.Overlay .SettingsMainPanel {
   width: calc(
-    var(--dashboard-primary-width) + (var(--settings-left-outer-margin) * 2)
+    var(--dashboard-primary-width) +
+    (var(--settings-left-outer-margin) * 2)
   );
   height: calc(
-    var(--dashboard-primary-width) / var(--dashboard-primary-aspect-ratio)
+    var(--dashboard-primary-width) /
+    var(--dashboard-primary-aspect-ratio)
   );
 }
 
@@ -74,8 +76,7 @@ body {
   flex-direction: row;
   text-align: center;
 
-  transition:
-    background-color var(--settings-control-hover-fade-duration),
+  transition: background-color var(--settings-control-hover-fade-duration),
     box-shadow var(--settings-control-hover-fade-duration);
 }
 
@@ -247,10 +248,10 @@ body {
   margin-right: calc(-1 * var(--settings-subsection-stem-padding));
   margin-top: calc(
     1 *
-      (
-        var(--settings-subsection-stem-padding) +
-          var(--settings-subsection-stem-bottom-padding)
-      )
+    (
+      var(--settings-subsection-stem-padding) +
+      var(--settings-subsection-stem-bottom-padding)
+    )
   );
   border-top-right-radius: 0;
 }
@@ -262,12 +263,15 @@ body {
   margin-right: calc(-1 * var(--settings-subsection-stem-padding));
   margin-top: calc(-1 * var(--settings-subsection-stem-padding));
   margin-bottom: calc(
-    -1 * (var(--settings-subsection-stem-padding) +
-          var(--settings-subsection-stem-bottom-padding))
+    -1 *
+    (
+      var(--settings-subsection-stem-padding) +
+      var(--settings-subsection-stem-bottom-padding)
+    )
   );
   padding-bottom: calc(
     var(--settings-subsection-stem-padding) +
-      var(--settings-subsection-stem-bottom-padding)
+    var(--settings-subsection-stem-bottom-padding)
   );
   z-index: 0;
   position: relative;
@@ -308,11 +312,11 @@ body {
   text-align: left;
   padding-left: calc(
     var(--settings-subsection-stem-padding) +
-      var(--settings-control-button-min-padding-h)
+    var(--settings-control-button-min-padding-h)
   );
   padding-right: calc(
     var(--settings-subsection-stem-padding) +
-      var(--settings-control-button-min-padding-h)
+    var(--settings-control-button-min-padding-h)
   );
   box-sizing: border-box;
   font-variant-numeric: tabular-nums;
@@ -455,8 +459,7 @@ body {
   transform: scale(0.93);
   box-shadow: 0px 6px 20px #00000033;
 
-  transition:
-    transform var(--settings-sidebar-transition-time) ease-out,
+  transition: transform var(--settings-sidebar-transition-time) ease-out,
     opacity var(--settings-sidebar-transition-time) ease-out;
 }
 
@@ -772,17 +775,16 @@ body.SGApp .SettingsSidebarButton .Label {
   transform: translateX(
       calc(
         var(--toggle-control-translate-x-standard) +
-          var(--toggle-control-translate-x-inward)
+        var(--toggle-control-translate-x-inward)
       )
     )
     scaleY(var(--toggle-control-scale-y));
-  transition:
-    transform var(--control-switch-animation-time)
-      var(--control-switch-overshoot-ease),
-    background var(--settings-control-hover-fade-duration)
-      var(--settings-control-hover-fade-ease),
-    box-shadow var(--settings-control-hover-fade-duration)
-      var(--settings-control-hover-fade-ease);
+  transition: transform var(--control-switch-animation-time)
+    var(--control-switch-overshoot-ease), background
+    var(--settings-control-hover-fade-duration)
+    var(--settings-control-hover-fade-ease), box-shadow
+    var(--settings-control-hover-fade-duration)
+    var(--settings-control-hover-fade-ease);
 }
 
 .SettingsItem.SegmentedControl .SegmentedControlGroup:hover::after {
@@ -794,7 +796,9 @@ body.SGApp .SettingsSidebarButton .Label {
   box-shadow: var(--settings-control-box-active-shadow);
   --toggle-control-scale-y: 0.9;
   --toggle-control-translate-x-inward: calc(
-    1% * var(--toggle-control-translate-x-direction) * var(--item-count)
+    1% *
+    var(--toggle-control-translate-x-direction) *
+    var(--item-count)
   );
 }
 
@@ -930,7 +934,7 @@ body.SGApp .SettingsSidebarButton .Label {
 
 .SettingsItem.Slider > .RangeLabel {
   text-align: center;
-  margin-top: calc(1 * var(--settings-control-margin));
+  margin-top: calc(1.0 * var(--settings-control-margin));
 }
 
 .SettingsItem.Slider .Handle > .RangeLabel {
@@ -1098,7 +1102,7 @@ body.SGApp .SettingsSidebarButton .Label {
 
   font-weight: normal;
   color: var(--button-text);
-  opacity: 1;
+  opacity: 1.0;
 
   /* padding: 5px; */
 
@@ -1169,13 +1173,11 @@ body.SGApp .SettingsSidebarButton .Label {
   left: 0;
   right: 0;
   bottom: 0;
-  transition:
-    transform 1s,
-    opacity 1s;
+  transition: transform 1s, opacity 1s;
 }
 
-.SettingsTitle / {
-  justify-content: space-between;
+.SettingsTitle /{
+	justify-content: space-between;
 }
 
 .SettingsTitle .Title {
@@ -1281,7 +1283,8 @@ body.SGApp .SettingsSidebarButton .Label {
 
 .SettingsItem .Label.Resolution {
   width: calc(
-    var(--settings-right-column-width) - var(--settings-subsection-padding-h)
+    var(--settings-right-column-width) -
+    var(--settings-subsection-padding-h)
   );
   padding-right: 0;
   display: flex;
@@ -1495,8 +1498,7 @@ body.SGApp .SettingsSidebarButton .Label {
   cursor: pointer;
   color: var(--text-color);
 
-  transition:
-    background-color var(--settings-control-hover-fade-duration),
+  transition: background-color var(--settings-control-hover-fade-duration),
     box-shadow var(--settings-control-hover-fade-duration);
 }
 
@@ -1559,14 +1561,17 @@ body.SGApp .SettingsSidebarButton .Label {
   bottom: var(--settings-control-image-padding);
   border-radius: var(--settings-button-image-border-radius);
 
-  background-image: /* tint image */
-    linear-gradient(to right, var(--color-value), var(--color-value)),
-    /* checkered effect */
-      linear-gradient(
-        to right,
-        var(--checker-color-a) 50%,
-        var(--checker-color-b) 50%
-      ),
+  /* tint image */
+  background-image: linear-gradient(
+      to right,
+      var(--color-value),
+      var(--color-value)
+    ), /* checkered effect */
+    linear-gradient(
+      to right,
+      var(--checker-color-a) 50%,
+      var(--checker-color-b) 50%
+    ),
     linear-gradient(
       to bottom,
       var(--checker-color-a) 50%,
@@ -1585,7 +1590,7 @@ body.SGApp .SettingsSidebarButton .Label {
 
 .SettingsMain h1 {
   color: var(--text-color);
-  font-size: 1rem;
+  font-size: 1.0rem;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 1em;

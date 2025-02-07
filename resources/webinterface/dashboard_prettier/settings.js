@@ -2657,7 +2657,6 @@
           (null === (t = VRHTML) || void 0 === t
             ? void 0
             : t.VROverlay.FindOverlay("system.desktop." + r));
-
         )
           n.push(r), r++;
         this.setState({ bIsUsingSteamDesktop: !1, desktopIndices: n });

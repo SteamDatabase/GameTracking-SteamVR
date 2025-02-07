@@ -79,7 +79,6 @@
         for (
           var t = f(10) ? document.body : null, r = e.offsetParent || null;
           r === t && e.nextElementSibling;
-
         )
           r = (e = e.nextElementSibling).offsetParent;
         var n = r && r.nodeName;
@@ -2611,7 +2610,6 @@
               c = c.concat(l),
               i = Promise.resolve(t);
             c.length;
-
           )
             i = i.then(c.shift(), c.shift());
           return i;
@@ -3888,7 +3886,6 @@
               var r = e;
               (r = r.substring(0, r.lastIndexOf("."))) &&
               !goog.getObjectByName(r);
-
             )
               goog.implicitNamespaces_[r] = !0;
           }
@@ -4706,7 +4703,6 @@
             for (
               var e = this, t = this.paused_;
               this.depsToLoad_.length && !t;
-
             )
               !(function () {
                 var r = !1,
@@ -5459,7 +5455,6 @@
             e &&
             (e !== Object.prototype || t) &&
             (e !== Function.prototype || r);
-
           ) {
             for (
               var o = Object.getOwnPropertyNames(e), i = 0;
@@ -8258,7 +8253,6 @@
           for (
             var t, r = /(\w[\w ]+)\/([^\s]+)\s*(?:\((.*?)\))?/g, n = [];
             (t = r.exec(e));
-
           )
             n.push([t[1], t[2], t[3] || void 0]);
           return n;
@@ -9233,7 +9227,6 @@
               n = "",
               o = Array.prototype.slice.call(arguments, 1);
             o.length && 1 < r.length;
-
           )
             n += r.shift() + o.shift();
           return n + r.join("%s");
@@ -10531,7 +10524,6 @@
             for (
               var a = 0, s = 1;
               (a += (127 & (i = e[t++])) * s), (s *= 128), 0 != (128 & i);
-
             );
             t += a;
           }
@@ -11023,7 +11015,6 @@
           for (
             this.unskipHeader();
             this.nextField() && this.getFieldNumber() == e;
-
           )
             this.skipField();
           this.decoder_.atEnd() || this.unskipHeader();
@@ -11694,7 +11685,6 @@
               jspb.asserts.assert(0 <= e && e < jspb.BinaryConstants.TWO_TO_32),
               jspb.asserts.assert(0 <= t && t < jspb.BinaryConstants.TWO_TO_32);
             0 < t || 127 < e;
-
           )
             this.buffer_.push((127 & e) | 128),
               (e = ((e >>> 7) | (t << 25)) >>> 0),
@@ -11714,7 +11704,6 @@
             jspb.asserts.assert(e == Math.floor(e)),
               jspb.asserts.assert(0 <= e && e < jspb.BinaryConstants.TWO_TO_32);
             127 < e;
-
           )
             this.buffer_.push((127 & e) | 128), (e >>>= 7);
           this.buffer_.push(e);
@@ -11998,7 +11987,6 @@
               65536 * (((e >>>= 16) * n) & 65535),
               r = e * o + ((r * o) >>> 16) + ((e * n) >>> 16);
             4294967296 <= t;
-
           )
             (t -= 4294967296), (r += 1);
           return new jspb.arith.UInt64(t >>> 0, r >>> 0);
@@ -12116,7 +12104,6 @@
             t = this.totalLength_ + this.encoder_.length() - t,
               jspb.asserts.assert(0 <= t);
             127 < t;
-
           )
             e.push((127 & t) | 128), (t >>>= 7), this.totalLength_++;
           e.push(t), this.totalLength_++;
@@ -17991,7 +17978,6 @@
                           s = i.next(),
                           u = a.next();
                         !s.done;
-
                       ) {
                         if (s.value !== u.value) {
                           t._keysAtom.reportChanged();
@@ -19430,7 +19416,6 @@
                   "<svg>" + t.valueOf().toString() + "</svg>",
                   t = ke.firstChild;
                 e.firstChild;
-
               )
                 e.removeChild(e.firstChild);
               for (; t.firstChild; ) e.appendChild(t.firstChild);
@@ -20966,13 +20951,11 @@
             for (
               u = s, s = [];
               n && n !== u && (null === (a = n.alternate) || a !== u);
-
             )
               s.push(n), (n = Pr(n));
             for (
               n = [];
               g && g !== u && (null === (a = g.alternate) || a !== u);
-
             )
               n.push(g), (g = Pr(g));
             for (g = 0; g < s.length; g++) kr(s[g], "bubbled", l);
@@ -22778,7 +22761,6 @@
         for (
           e = e.return;
           null !== e && 5 !== e.tag && 3 !== e.tag && 13 !== e.tag;
-
         )
           e = e.return;
         Sa = e;
@@ -23061,7 +23043,6 @@
                 e = null !== t.memoizedState ? t.child.child : t.child,
                   i.child = e;
                 null !== e;
-
               )
                 (e.return = i), (e = e.sibling);
             return (
@@ -23115,7 +23096,6 @@
               e = null !== t.memoizedState ? t.child.child : t.child,
                 i.child = e;
               null !== e;
-
             )
               (e.return = i), (e = e.sibling);
           return (
@@ -23221,7 +23201,6 @@
           for (
             r = Rl((e = t.child), e.pendingProps), t.child = r, r.return = t;
             null !== e.sibling;
-
           )
             (e = e.sibling),
               ((r = r.sibling = Rl(e, e.pendingProps)).return = t);
@@ -23536,7 +23515,6 @@
                         t.lastEffect = n.lastEffect,
                         n = t.child;
                       null !== n;
-
                     )
                       (s = r),
                         ((i = n).effectTag &= 2),
@@ -23978,7 +23956,6 @@
           for (
             r.sibling.return = r.return, r = r.sibling;
             5 !== r.tag && 6 !== r.tag && 18 !== r.tag;
-
           ) {
             if (2 & r.effectTag) continue t;
             if (null === r.child || 4 === r.tag) continue t;
@@ -24889,7 +24866,6 @@
                         m !== c || (0 !== u && 3 !== m.nodeType) || (d = p + u),
                         3 === m.nodeType && (p += m.nodeValue.length),
                         null !== (_ = m.firstChild);
-
                     )
                       (b = m), (m = _);
                     for (;;) {
@@ -27149,7 +27125,6 @@
           for (
             k(r), N = A(R);
             null !== N && (!(N.expirationTime > r) || (e && !i()));
-
           ) {
             var s = N.callback;
             if (null !== s) {
@@ -27969,8 +27944,8 @@
             t < o;
             t += 1
           )
-            i[t >> 2] |= e.charCodeAt(t) << (t % 4 << 3);
-          if (((i[t >> 2] |= 128 << (t % 4 << 3)), t > 55))
+            i[t >> 2] |= e.charCodeAt(t) << ((t % 4) << 3);
+          if (((i[t >> 2] |= 128 << ((t % 4) << 3)), t > 55))
             for (r(g, i), t = 0; t < 16; t += 1) i[t] = 0;
           return (
             (a = (a = 8 * u).toString(16).match(/(.*?)(.{0,8})$/)),
@@ -28059,7 +28034,7 @@
               o = n.length,
               i = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
             for (t = 0; t < o; t += 1)
-              i[t >> 2] |= n.charCodeAt(t) << (t % 4 << 3);
+              i[t >> 2] |= n.charCodeAt(t) << ((t % 4) << 3);
             return (
               this._finish(i, o),
               (r = s(this._hash)),
@@ -28099,7 +28074,7 @@
               o,
               i,
               a = t;
-            if (((e[a >> 2] |= 128 << (a % 4 << 3)), a > 55))
+            if (((e[a >> 2] |= 128 << ((a % 4) << 3)), a > 55))
               for (r(this._hash, e), a = 0; a < 16; a += 1) e[a] = 0;
             (n = (n = 8 * this._length).toString(16).match(/(.*?)(.{0,8})$/)),
               (o = parseInt(n[2], 16)),
@@ -28150,7 +28125,7 @@
               n = this._buff,
               o = n.length,
               i = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-            for (t = 0; t < o; t += 1) i[t >> 2] |= n[t] << (t % 4 << 3);
+            for (t = 0; t < o; t += 1) i[t >> 2] |= n[t] << ((t % 4) << 3);
             return (
               this._finish(i, o),
               (r = s(this._hash)),
@@ -28212,8 +28187,8 @@
                   t < n;
                   t += 1
                 )
-                  i[t >> 2] |= e[t] << (t % 4 << 3);
-                if (((i[t >> 2] |= 128 << (t % 4 << 3)), t > 55))
+                  i[t >> 2] |= e[t] << ((t % 4) << 3);
+                if (((i[t >> 2] |= 128 << ((t % 4) << 3)), t > 55))
                   for (r(g, i), t = 0; t < 16; t += 1) i[t] = 0;
                 return (
                   (a = (a = 8 * u).toString(16).match(/(.*?)(.{0,8})$/)),

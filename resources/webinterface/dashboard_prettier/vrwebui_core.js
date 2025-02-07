@@ -286,7 +286,6 @@
       for (
         i = o, o = [];
         n && n !== i && (null === (a = n.alternate) || a !== i);
-
       )
         o.push(n), (n = C(n));
       for (n = []; r && r !== i && (null === (a = r.alternate) || a !== i); )
@@ -338,7 +337,9 @@
               : (this[o] = n[o]));
       return (
         (this.isDefaultPrevented = (
-          null != n.defaultPrevented ? n.defaultPrevented : !1 === n.returnValue
+          null != n.defaultPrevented
+            ? n.defaultPrevented
+            : !1 === n.returnValue
         )
           ? dn.thatReturnsTrue
           : dn.thatReturnsFalse),
@@ -652,8 +653,7 @@
       (null !== o
         ? 0 === o.type
         : !r &&
-          2 < t.length &&
-          ("o" === t[0] || "O" === t[0]) &&
+          2 < t.length && ("o" === t[0] || "O" === t[0]) &&
           ("n" === t[1] || "N" === t[1])) ||
         (le(t, n, o, r) && (n = null),
         r || null === o
@@ -2621,7 +2621,6 @@
             for (
               n.sibling.return = n.return, n = n.sibling;
               5 !== n.tag && 6 !== n.tag;
-
             ) {
               if (2 & n.effectTag) continue t;
               if (null === n.child || 4 === n.tag) continue t;
@@ -3346,7 +3345,6 @@
             0 !== de &&
             (0 === e || e >= de) &&
             (!me || f() >= de);
-
           )
             w(pe, de, !me), m();
         else
@@ -5347,7 +5345,6 @@
               Fo.innerHTML = "<svg>" + t + "</svg>",
               t = Fo.firstChild;
             e.firstChild;
-
           )
             e.removeChild(e.firstChild);
           for (; t.firstChild; ) e.appendChild(t.firstChild);
@@ -5629,7 +5626,6 @@
                         c !== o || (0 !== n && 3 !== c.nodeType) || (u = i + n),
                         3 === c.nodeType && (i += c.nodeValue.length),
                         null !== (p = c.firstChild);
-
                     )
                       (f = c), (c = p);
                     for (;;) {
@@ -7676,7 +7672,6 @@ and limitations under the License.
             t.push(e.fulfilled, e.rejected);
           });
         t.length;
-
       )
         n = n.then(t.shift(), t.shift());
       return n;

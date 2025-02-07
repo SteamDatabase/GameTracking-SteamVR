@@ -98,12 +98,13 @@
   --dashboard-control-bar-component-padding: 21px;
   --dashboard-control-bar-width: calc(
     2000px -
+    (
       (
-        (
-            var(--dashboard-control-bar-side-padding) +
-              var(--dashboard-control-bar-component-padding)
-          ) * 2
-      )
+        var(--dashboard-control-bar-side-padding) +
+        var(--dashboard-control-bar-component-padding)
+      ) *
+      2
+    )
   );
   --dashboard-control-bar-control-spacing: 1rem;
   --dashboard-control-bar-group-color-a: #24272c;
@@ -115,14 +116,14 @@
   --dashboard-control-bar-now-playing-height: 150px;
   --dashboard-status-bar-control-spacing: 1rem;
   --dashboard-primary-width: 1860px;
-  --dashboard-primary-aspect-ratio: (1920/1080);
+  --dashboard-primary-aspect-ratio: (1920.0/1080.0);
   --dashboard-minitoggle-color-a: #585f6d;
   --dashboard-minitoggle-color-b: #323439;
 
   --dashboard-panel-padding: 2rem;
 
   --dashboard-control-margin: 0.5em;
-  --dashboard-control-padding: 0.5rem 1rem 0.5rem 1rem;
+  --dashboard-control-padding: .5rem 1rem .5rem 1rem;
 
   --dashboard-button-animation-time: 0.25s;
   --dashboard-button-animation-ease: ease;
@@ -140,11 +141,11 @@
   --control-bar-tray-section-spacing: 2rem;
   --control-bar-tray-control-height: 78px;
 
-  --dashboard-app-carousel-button-aspect-ratio: calc(900 / 600);
+  --dashboard-app-carousel-button-aspect-ratio: calc(900.0 / 600.0);
   --dashboard-app-carousel-button-height: 400px;
   --dashboard-app-carousel-button-width: calc(
     var(--dashboard-app-carousel-button-height) /
-      var(--dashboard-app-carousel-button-aspect-ratio)
+    var(--dashboard-app-carousel-button-aspect-ratio)
   );
   --dashboard-app-carousel-spacing: 60px;
 
@@ -170,10 +171,8 @@
     var(--settings-control-background-new-a)
   );
 
-  --settings-control-background-new-hover-rgb: var(
-    --gamepadui-darkish-grey-rgb
-  );
-  --settings-control-background-new-hover-a: 1;
+  --settings-control-background-new-hover-rgb: var(--gamepadui-darkish-grey-rgb);
+  --settings-control-background-new-hover-a: 1.0;
   --settings-control-background-new-hover: rgba(
     var(--settings-control-background-new-hover-rgb),
     var(--settings-control-background-new-hover-a)
@@ -196,10 +195,12 @@
     --settings-control-background-new-hover-a
   );
   --settings-control-image-padding: calc(
-    var(--settings-control-default-height) * 0.15
+    var(--settings-control-default-height) *
+    0.15
   );
   --settings-button-image-border-radius: calc(
-    var(--settings-control-inner-border-radius) * 0.5
+    var(--settings-control-inner-border-radius) *
+    0.5
   );
   --settings-control-inner-border-radius: 0.3rem;
   --settings-control-outer-border-radius: 0.4rem;
@@ -209,7 +210,7 @@
   --settings-right-column-width-adjustment: 0px; /* Adjusted in subsections. */
   --settings-right-column-computed-width: calc(
     var(--settings-right-column-width) -
-      var(--settings-right-column-width-adjustment)
+    var(--settings-right-column-width-adjustment)
   );
   --settings-subsection-background-rgb: 5, 7, 9;
   --settings-subsection-background-a: 0.4;
@@ -460,7 +461,7 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
   font-size: 1.2rem;
   font-weight: normal;
   color: var(--text-color);
-  opacity: 1;
+  opacity: 1.0;
   margin: var(--dashboard-control-margin);
   padding: var(--dashboard-control-padding);
   background: var(--buttondefault);
@@ -626,9 +627,7 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
   --handle-springiness: calc(0.8 - var(--drag-elapsed-seconds));
   --track-thickness: 0.4em;
   --detent-length: 3px;
-  --handle-background-fade-duration: var(
-    --settings-control-hover-fade-duration
-  );
+  --handle-background-fade-duration: var(--settings-control-hover-fade-duration);
   --handle-circle-size: calc(var(--handle-length) * 0.5);
 
   cursor: pointer;
@@ -703,9 +702,10 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
   width: var(--detent-length);
   height: var(--track-thickness);
   left: calc(
-    (100% * var(--detent-value)) - (var(--detent-length) * var(--detent-value)) +
-      (var(--handle-length) * 0.5) -
-      (var(--handle-length) * var(--detent-value))
+    (100% * var(--detent-value)) -
+    (var(--detent-length) * var(--detent-value)) +
+    (var(--handle-length) * 0.5) -
+    (var(--handle-length) * var(--detent-value))
   );
 }
 
@@ -713,9 +713,10 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
   width: var(--track-thickness);
   height: var(--detent-length);
   bottom: calc(
-    (100% * var(--detent-value)) - (var(--detent-length) * var(--detent-value)) +
-      (var(--handle-length) * 0.5) -
-      (var(--handle-length) * var(--detent-value))
+    (100% * var(--detent-value)) -
+    (var(--detent-length) * var(--detent-value)) +
+    (var(--handle-length) * 0.5) -
+    (var(--handle-length) * var(--detent-value))
   );
 }
 
@@ -737,7 +738,7 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
   transform: translateX(
     calc(
       (var(--slider-value) * 100%) -
-        (var(--slider-value) * var(--handle-length))
+      (var(--slider-value) * var(--handle-length))
     )
   );
 }
@@ -746,7 +747,7 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
   transform: translateY(
     calc(
       ((1 - var(--slider-value)) * 100%) -
-        ((1 - var(--slider-value)) * var(--handle-length))
+      ((1 - var(--slider-value)) * var(--handle-length))
     )
   );
 }
@@ -764,10 +765,9 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
   display: flex;
   box-sizing: border-box;
   border: solid 2px transparent;
-  transition:
-    background-color var(--handle-background-fade-duration),
-    border var(--settings-control-hover-fade-duration),
-    box-shadow var(--settings-control-hover-fade-duration);
+  transition: background-color var(--handle-background-fade-duration), border
+    var(--settings-control-hover-fade-duration), box-shadow
+    var(--settings-control-hover-fade-duration);
 }
 
 .SliderControl:not(.Vertical) .Handle {
@@ -844,7 +844,7 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
 
 .SliderControl > .RangeLabel {
   text-align: center;
-  margin-top: calc(1 * var(--settings-control-margin));
+  margin-top: calc(1.0 * var(--settings-control-margin));
 }
 
 .SliderControl .Handle > .RangeLabel {

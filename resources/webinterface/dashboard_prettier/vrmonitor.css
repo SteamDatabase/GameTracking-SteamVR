@@ -1,6 +1,6 @@
 :root {
   --roomview-border-color: rgb(102, 137, 174);
-  --roomview-border-width: 0.7rem;
+  --roomview-border-width: .7rem;
   --roomview-update-rate: 300ms;
 
   --framerate-presented-color: rgb(102, 137, 174); /*rgb(181,204,20);*/

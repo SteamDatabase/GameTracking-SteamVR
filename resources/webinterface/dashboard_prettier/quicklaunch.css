@@ -41,10 +41,12 @@ body {
   --quicklaunch-control-track-background-a: 0.5;
 
   --quicklaunch-control-image-padding: calc(
-    var(--quicklaunch-control-default-height) * 0.15
+    var(--quicklaunch-control-default-height) *
+    0.15
   );
   --quicklaunch-button-image-border-radius: calc(
-    var(--quicklaunch-control-inner-border-radius) * 0.7
+    var(--quicklaunch-control-inner-border-radius) *
+    0.7
   );
 
   --quicklaunch-control-inner-border-radius: 0.65rem;
@@ -57,7 +59,7 @@ body {
   --quicklaunch-right-column-width-adjustment: 0px; /* Adjusted in subsections. */
   --quicklaunch-right-column-computed-width: calc(
     var(--quicklaunch-right-column-width) -
-      var(--quicklaunch-right-column-width-adjustment)
+    var(--quicklaunch-right-column-width-adjustment)
   );
 
   --quicklaunch-subsection-background-rgb: 37, 40, 46;
@@ -73,7 +75,8 @@ body {
   --quicklaunch-right-column-left-margin: 1.6rem;
 
   --quicklaunch-left-outer-margin: calc(
-    var(--quicklaunch-sidebar-button-expansion) * 1.5
+    var(--quicklaunch-sidebar-button-expansion) *
+    1.5
   );
 
   --control-switch-animation-time: 0.2s;
@@ -89,7 +92,8 @@ body {
   --quicklaunch-sidebar-button-spacing: 30px;
   --quicklaunch-border-radius: 30px;
   --quicklaunch-button-border-radius: calc(
-    1.2 * var(--quicklaunch-border-radius)
+    1.2 *
+    var(--quicklaunch-border-radius)
   );
   --quicklaunch-sidebar-side-margin: 40px;
   --quicklaunch-sidebar-button-expansion: 20px;
@@ -137,8 +141,7 @@ body {
   justify-content: center;
   text-align: center;
 
-  transition:
-    background-color var(--quicklaunch-control-hover-fade-duration),
+  transition: background-color var(--quicklaunch-control-hover-fade-duration),
     box-shadow var(--quicklaunch-control-hover-fade-duration);
 }
 

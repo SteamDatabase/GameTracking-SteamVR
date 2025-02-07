@@ -11393,7 +11393,6 @@
               (null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.VROverlay.FindOverlay("system.desktop." + t));
-
             )
               o.push(t), t++;
             (null !==

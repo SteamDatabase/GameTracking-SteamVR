@@ -2,9 +2,9 @@
   "private": true,
   "name": "steamtracking",
   "scripts": {
-    "prettier": "prettier"
+    "prettier": "biome format --max-diagnostics=0 --log-kind=compact --diagnostic-level=error"
   },
   "dependencies": {
-    "prettier": "^3.0.2"
+    "@biomejs/biome": "^1.9.4"
   }
 }

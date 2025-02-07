@@ -4479,11 +4479,11 @@
                     s.Uk.HasCamera_Bool,
                   ))
             ) &&
-            "internet_settings" != e.controller &&
-            !!(
-              e.controller != y.Name ||
-              (S.G3.systemInfo && S.G3.systemInfo.os_type >= 0)
-            ) &&
+              "internet_settings" != e.controller &&
+                !!(
+                  e.controller != y.Name ||
+                  (S.G3.systemInfo && S.G3.systemInfo.os_type >= 0)
+                ) &&
             !(!s.Co && e.web_helper_only)
           );
         }
@@ -9825,7 +9825,6 @@
               timeMs: performance.now(),
             });
             this.m_mostRecentScrollSamples.length > m.MAX_SCROLL_SAMPLES;
-
           )
             this.m_mostRecentScrollSamples.shift();
         }
@@ -10471,7 +10470,7 @@
             var n, i;
             let s = document.createElement("audio");
             return (
-              (s.src = `${e}?t=${new Date().getTime()}`),
+              (s.src = `${e}?t=${(new Date()).getTime()}`),
               (s.preload = "auto"),
               (s.volume = null !== (n = t.volume) && void 0 !== n ? n : 1),
               (null === (i = t.bRespectsGlobalVolume) || void 0 === i || i) &&
@@ -11087,12 +11086,10 @@
         }
         GetSVGEndPoint() {
           return new k(
-            this.m_ControllerProfile.input_source[
-              this.m_sInputPath
-            ].binding_image_point[0],
-            this.m_ControllerProfile.input_source[
-              this.m_sInputPath
-            ].binding_image_point[1],
+            this.m_ControllerProfile.input_source[this.m_sInputPath]
+              .binding_image_point[0],
+            this.m_ControllerProfile.input_source[this.m_sInputPath]
+              .binding_image_point[1],
           );
         }
         get GetButtonSide() {
@@ -12117,7 +12114,7 @@
             0 !=
               this.SelectedActionSetActions.filter((e) => "skeleton" == e.type)
                 .length &&
-            null != this.SelectedControllerTypeInfo &&
+              null != this.SelectedControllerTypeInfo &&
             !!this.GetFirstInputSourceOfType("skeleton")
           );
         }

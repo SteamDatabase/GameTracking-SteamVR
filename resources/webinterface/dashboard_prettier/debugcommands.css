@@ -156,9 +156,9 @@ body {
   font-size: 1.2rem;
   font-weight: normal;
   color: var(--button-text);
-  opacity: 1;
+  opacity: 1.0;
   margin: 0.8rem 0;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: .5rem 1rem .5rem 1rem;
   background: var(--button-background);
   align-self: center;
   transition-property: background-color;
@@ -362,7 +362,8 @@ input[type="text"]:focus {
   flex-grow: 1;
   flex-shrink: 0;
   padding-right: calc(
-    var(--clear-search-button-size) + var(--page-button-padding)
+    var(--clear-search-button-size) +
+    var(--page-button-padding)
   );
 }
 

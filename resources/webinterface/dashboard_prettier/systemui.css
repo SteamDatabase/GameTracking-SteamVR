@@ -42,8 +42,7 @@
   text-align: center;
   border: none;
 
-  transition:
-    background-color var(--settings-control-hover-fade-duration),
+  transition: background-color var(--settings-control-hover-fade-duration),
     box-shadow var(--settings-control-hover-fade-duration);
 }
 
@@ -51,7 +50,7 @@
   padding: calc(var(--settings-control-button-min-padding-v) * 0.5)
     calc(
       var(--settings-control-button-min-padding-h) -
-        calc(var(--settings-control-button-min-padding-v) * 0.5)
+      calc(var(--settings-control-button-min-padding-v) * 0.5)
     );
 }
 
@@ -95,7 +94,7 @@
     opacity: 1;
   }
   25% {
-    transform: scaleY(1);
+    transform: scaleY(1.0);
     opacity: 1;
   }
   50% {
@@ -287,8 +286,8 @@
 }
 
 .BindingCalloutContainer {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
 }
 
 .BindingCalloutActionList {
@@ -370,7 +369,7 @@ div.BindingCalloutModifierIcon {
 }
 
 .BindingCalloutLabelContainer .Label {
-  transition: margin 0.3s;
+  transition: margin .3s;
   margin-top: 1rem;
 }
 
@@ -385,9 +384,7 @@ div.BindingCalloutModifierIcon {
   display: inline;
   color: #ffffffaa;
 
-  transition:
-    margin-bottom 0.3s,
-    opacity 0.2s;
+  transition: margin-bottom .3s, opacity .2s;
   opacity: 0;
 }
 
@@ -402,7 +399,7 @@ div.BindingCalloutModifierIcon {
   height: fit-content;
   padding: 0.75rem 0.5rem 0rem 0.5rem;
   background-color: #111111;
-  transition: padding 0.3s;
+  transition: padding .3s;
   position: relative;
 }
 
@@ -419,8 +416,8 @@ div.BindingCalloutModifierIcon {
 .ChordCalloutPlus {
   font-size: 2.5rem;
   color: white;
-  margin-left: 0.25rem;
-  margin-top: 0.25rem;
+  margin-left: .25rem;
+  margin-top: .25rem;
   margin-bottom: auto;
 }
 
@@ -442,7 +439,7 @@ div.BindingCalloutModifierIcon {
 
 .ChordCalloutContainer .BindingCalloutModeSlot,
 .ChordCalloutContainer .Label {
-  margin: 0rem 0rem 0rem 0.25rem;
+  margin: 0rem 0rem 0rem .25rem;
 }
 
 .CalloutInputActive {
@@ -606,14 +603,14 @@ div.BindingCalloutModifierIcon {
 
 .IPDParent.Fading {
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 1.0s;
 }
 
 .ZeroBorderContainer {
   visibility: visible;
   border-radius: 50px;
   background: rgba(20, 20, 20, 0.5);
-  transform: scale(1);
+  transform: scale(1.0);
   padding: 0px;
 }
 /*
@@ -762,7 +759,7 @@ div.BindingCalloutModifierIcon {
   font-size: 0.6rem;
   font-weight: normal;
   color: rgb(255, 255, 255);
-  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  padding: .25rem 0.5rem .25rem 0.5rem;
   align-self: center;
   cursor: pointer;
   text-align: left;
@@ -938,7 +935,8 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .DashboardPanel {
   width: var(--dashboard-primary-width);
   height: calc(
-    var(--dashboard-primary-width) / var(--dashboard-primary-aspect-ratio)
+    var(--dashboard-primary-width) /
+    var(--dashboard-primary-aspect-ratio)
   );
   font-family: var(--text-font);
   color: var(--text-color);
@@ -964,7 +962,7 @@ div.BindingCalloutModifierIcon {
   --dashboard-app-carousel-button-height: 420px;
   --dashboard-app-carousel-button-width: calc(
     var(--dashboard-app-carousel-button-height) /
-      var(--dashboard-app-carousel-button-aspect-ratio)
+    var(--dashboard-app-carousel-button-aspect-ratio)
   );
   --dashboard-app-carousel-spacing: 100px;
 }
@@ -976,7 +974,7 @@ div.BindingCalloutModifierIcon {
   --dashboard-app-carousel-button-height: 210px;
   --dashboard-app-carousel-button-width: calc(
     var(--dashboard-app-carousel-button-height) /
-      var(--dashboard-app-carousel-button-aspect-ratio)
+    var(--dashboard-app-carousel-button-aspect-ratio)
   );
   --dashboard-app-carousel-spacing: 50px;
 }
@@ -1010,15 +1008,18 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .DashboardPanelBackground {
   --background-resolution-scale: 0.5;
   width: calc(
-    var(--background-resolution-scale) * var(--dashboard-primary-width)
+    var(--background-resolution-scale) *
+    var(--dashboard-primary-width)
   );
   height: calc(
-    var(--background-resolution-scale) * var(--dashboard-primary-width) /
-      var(--dashboard-primary-aspect-ratio)
+    var(--background-resolution-scale) *
+    var(--dashboard-primary-width) /
+    var(--dashboard-primary-aspect-ratio)
   );
   background-size: stretch;
   border-radius: calc(
-    var(--background-resolution-scale) * var(--settings-border-radius)
+    var(--background-resolution-scale) *
+    var(--settings-border-radius)
   );
   box-sizing: content-box;
 
@@ -1218,7 +1219,8 @@ div.BindingCalloutModifierIcon {
 
 .DashboardMain .DashboardPanel .AppCarousel .ScrollPanel::after {
   width: calc(
-    var(--dashboard-panel-padding) - var(--dashboard-app-carousel-spacing)
+    var(--dashboard-panel-padding) -
+    var(--dashboard-app-carousel-spacing)
   );
 }
 
@@ -1282,7 +1284,10 @@ div.BindingCalloutModifierIcon {
 
 .DashboardMain .DashboardPanel .AppCarousel .AppButton.Placeholder {
   --placeholder-button-max-opacity: calc(
-    0.5 * var(--settings-subsection-background-a) / 4 * 4
+    0.5 *
+    var(--settings-subsection-background-a) /
+    4 *
+    4
   );
 
   pointer-events: none;
@@ -1295,7 +1300,10 @@ div.BindingCalloutModifierIcon {
   .AppCarousel
   .AppButton.Placeholder:nth-child(2) {
   --placeholder-button-max-opacity: calc(
-    0.5 * var(--settings-subsection-background-a) / 4 * 3
+    0.5 *
+    var(--settings-subsection-background-a) /
+    4 *
+    3
   );
 }
 
@@ -1304,7 +1312,10 @@ div.BindingCalloutModifierIcon {
   .AppCarousel
   .AppButton.Placeholder:nth-child(3) {
   --placeholder-button-max-opacity: calc(
-    0.5 * var(--settings-subsection-background-a) / 4 * 2
+    0.5 *
+    var(--settings-subsection-background-a) /
+    4 *
+    2
   );
 }
 
@@ -1313,7 +1324,10 @@ div.BindingCalloutModifierIcon {
   .AppCarousel
   .AppButton.Placeholder:nth-child(4) {
   --placeholder-button-max-opacity: calc(
-    0.5 * var(--settings-subsection-background-a) / 4 * 1
+    0.5 *
+    var(--settings-subsection-background-a) /
+    4 *
+    1
   );
 }
 
@@ -1425,7 +1439,7 @@ div.BindingCalloutModifierIcon {
 @keyframes QuickLaunchPlayIconBackground-Showing {
   0% {
     opacity: 0;
-    transform: scale(1);
+    transform: scale(1.0);
   }
   40%,
   100% {
@@ -1469,7 +1483,7 @@ div.BindingCalloutModifierIcon {
   100% {
     opacity: 1;
     filter: brightness(100%);
-    transform: scale(1);
+    transform: scale(1.0);
   }
 }
 
@@ -1601,7 +1615,7 @@ div.BindingCalloutModifierIcon {
   padding: 0
     calc(
       var(--dashboard-control-bar-side-padding) +
-        var(--dashboard-control-bar-component-padding)
+      var(--dashboard-control-bar-component-padding)
     );
   background-color: var(--gamepadui-darkest-grey);
   border-radius: var(--settings-border-radius);
@@ -1674,8 +1688,8 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBar .ControlBarButton,
 .DashboardMain .ControlBarTray .ButtonControl,
 .DashboardMain .ControlBarTray .SliderControl .Handle {
-  --base-shadow: inset 0px 1px 1px 0px rgba(149, 149, 149, 0.5),
-    0px 2px 13px rgba(0, 0, 0, 0.4);
+  --base-shadow: inset 0px 1px 1px 0px rgba(149, 149, 149, 0.5), 0px 2px 13px
+    rgba(0, 0, 0, 0.4);
   --state-shadow: 0 0 0 0 transparent;
   --outline-shadow: 0 0 0 0 transparent;
 
@@ -1698,17 +1712,18 @@ div.BindingCalloutModifierIcon {
 }
 
 .DashboardMain .ControlBar .ControlBarButton:active,
-.DashboardMain .ControlBarTray .ButtonControl:not(.Disabled):active {
-  transform: scale(0.965);
-  --base-shadow: inset 0px 3px 2px rgba(0, 0, 0, 0.6);
-  --state-shadow: 0 0 0 0 transparent;
+.DashboardMain .ControlBarTray .ButtonControl:not(.Disabled):active,
+{
+	transform: scale(0.965);
+	--base-shadow: inset 0px 3px 2px rgba(0, 0, 0, 0.6);
+	--state-shadow: 0 0 0 0 transparent;
 }
 
 .DashboardMain .ControlBar .ControlBarButton:hover:not(:active),
 .DashboardMain .ControlBarTray .ButtonControl:not(.Disabled):hover:not(:active),
 .DashboardMain .ControlBarTray .SliderControl:hover:not(:active) .Handle {
-  --state-shadow: 0px 0px 0px 1px #ffffff, 0px 0px 3px 3px #88ccf1,
-    inset 0px 0px 11px 4px #88ccf147;
+  --state-shadow: 0px 0px 0px 1px #ffffff, 0px 0px 3px 3px #88ccf1, inset 0px
+    0px 11px 4px #88ccf147;
 }
 
 .DashboardMain .ControlBar .ControlBarButton.Active:not(:active),
@@ -1811,26 +1826,23 @@ div.BindingCalloutModifierIcon {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow:
-    inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
-    0 7px 12px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8), 0 7px 12px 0px
+    rgba(0, 0, 0, 0.5);
   margin: 0 16px;
 }
 
 .DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton:hover {
   transform: translateZ(9px) rotateX(1.5deg);
   filter: brightness(105%);
-  box-shadow:
-    inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
-    0 7px 16px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8), 0 7px 16px 0px
+    rgba(0, 0, 0, 0.7);
 }
 
 .DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton:active {
   transform: translateZ(-10px) rotateX(0deg);
   filter: brightness(95%);
-  box-shadow:
-    inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
-    0 5px 3px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8), 0 5px 3px 0px
+    rgba(0, 0, 0, 0.7);
 }
 
 .DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton img {
@@ -1840,7 +1852,9 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBar .NowPlayingSpacer {
   --height: var(--dashboard-control-bar-now-playing-height);
   --width: calc(
-    1.1 * var(--dashboard-control-bar-now-playing-height) * 460 / 215
+    1.1 *
+    var(--dashboard-control-bar-now-playing-height) *
+    460 / 215
   );
 
   height: var(--height);
@@ -1861,7 +1875,7 @@ div.BindingCalloutModifierIcon {
 }
 
 .DashboardMain .ControlBarTray {
-  padding-top: calc(var(--control-bar-tray-control-margin) * 1);
+  padding-top: calc(var(--control-bar-tray-control-margin) * 1.0);
   min-height: 3rem;
   min-width: 3rem;
   max-width: var(--dashboard-control-bar-width);
@@ -1892,10 +1906,12 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBarTrayBackground {
   --scale: 0.5;
   border-bottom-left-radius: calc(
-    var(--scale) * var(--settings-control-inner-border-radius)
+    var(--scale) *
+    var(--settings-control-inner-border-radius)
   );
   border-bottom-right-radius: calc(
-    var(--scale) * var(--settings-control-inner-border-radius)
+    var(--scale) *
+    var(--settings-control-inner-border-radius)
   );
   background: var(--gamepadui-darkish-grey);
 }
@@ -2027,7 +2043,7 @@ div.BindingCalloutModifierIcon {
   box-sizing: border-box;
   font-variant-numeric: tabular-nums;
   transition: opacity 0.4s ease-out;
-  opacity: 1;
+  opacity: 1.0;
 }
 
 .TransparentOverlayControlBar:not(:hover) {
@@ -2222,7 +2238,7 @@ div.BindingCalloutModifierIcon {
 }
 
 .DashboardMain .NowPlayingAppTitle {
-  font-size: 3em;
+  font-size: 3.0em;
   font-weight: bold;
   margin-bottom: 100px;
   margin-top: 70px;
@@ -2407,7 +2423,7 @@ div.BindingCalloutModifierIcon {
 
 .ResetSeatedCountdownParent.Fading {
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 1.0s;
 }
 
 .ResetSeatedCountdownParent .ResetSeatedCountdownTextDesc {
