@@ -12,7 +12,7 @@
 	"Setting_automatic_off": "Kézi",
 	"Setting_clientVersion": "Kliensverzió",
 	"Setting_useOSC": "OSC bekapcsolása",
-	"Setting_useOSCEyes": "Szemkövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül.",
+	"Setting_useOSCEyes": "Szemkövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül",
 	"Setting_useOSCFace": "Arckövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül.",
 	"Setting_OSCOutPort": "OSC kimeneti port",
 	"Setting_WirelessShutdownTimeout": "Lecsatlakozáskor kilépés a SteamVR-ből ennyi idő után:",

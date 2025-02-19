@@ -163,9 +163,9 @@ $3br
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
-.?AV<lambda_e42fa156de2f49294253c79a98c6cd37>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
 .?AV<lambda_e803815bbec8a90ad45197b0df03d3d8>@@
+.?AV<lambda_edae242ce60d9d34539dda1d28baf3bf>@@
 .?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@
@@ -230,9 +230,9 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_e42fa156de2f49294253c79a98c6cd37>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e803815bbec8a90ad45197b0df03d3d8>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_edae242ce60d9d34539dda1d28baf3bf>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@XW4ValueTransportID@@_N@std@@
@@ -431,6 +431,7 @@ $3br
 /avatar/parameters/RightEyeWidenToggle
 /avatar/parameters/RightEyeX
 /avatar/parameters/RightEyeY
+/client_streaming_mode_on_demand
 /client_will_handle_dashboard_state
 /dashboard/visible
 /dashboard_head_pose_from_standing
@@ -601,11 +602,12 @@ $3br
 0 width
 0(`xPH
 0-pixel image
+0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798998
 00P`00P`
 0\v2;i
 0`P0
+0a\v6<p
 0n\n&pa
 0x%I64x
 1 Sec
@@ -869,10 +871,11 @@ AudioThread finished\n
 AudioThread started\n
 Auto
 Autodetected %s
+Autodetected Headset, using Oculus Quest 3 profile
+Autodetected Headset, using Oculus Quest Pro profile
+Autodetected Headset, using Pico 4x profile
 Autodetected Headset: %d
 Autodetected Oculus Quest 2
-Autodetected Oculus Quest 3
-Autodetected Oculus Quest Pro
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1035,6 +1038,7 @@ CryptReleaseContext
 CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
 CtrlCClk
+CtrlFClk
 CtrlHClk
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver\n
 D3D11CreateDevice
@@ -1382,7 +1386,7 @@ IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -1633,7 +1637,9 @@ OutputDebugStringW
 Overriding Quest specific properties for %s\n
 P00`
 P<xD<
-PCG`
+PCGp
+PICO 4 (Left Controller)
+PICO 4 (Right Controller)
 PICT
 PID_
 PNG\r\n
@@ -1673,7 +1679,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDSb
+RSDS
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d\n
@@ -1828,7 +1834,6 @@ SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
 SVLFEC::ProcessTXVideoFrameThreadFunction
 SVLFEC::ReportStreamReset() (m_iLastAcknowledgeFrameNumber = %d)
-SVLFECRXFrame::AcceptVFD: Failed to acquire pRender
 SVLFECRXFrame::AcceptVideoPacket: m_pData was not suitable for video (null or insufficient size)
 SVLHMDDriver::Activate: HMD did not support multiple framerates
 SVLHMDDriver::Activate: HMD supports multiple framerates
@@ -2018,6 +2023,7 @@ VERSION MISMATCH
 VID_
 VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
+VRLINK_EVENT_QUIT
 VRLink Hand Tracker (Left Hand)
 VRLink Hand Tracker (Right Hand)
 VRLinkRX
@@ -2046,7 +2052,6 @@ WARNING: Could not find steam streaming microphone output.
 WARNING: Could not initialize frame on hardware.\n
 WARNING: GPU Does not support 10BIT_ENCODE for video compression\n
 WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
-WARNING: SVLFECRXFrame::Initialize called before SVLRenderer available.\n
 WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.\n
 WASAPI Could not get policy config\n
 WASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n
@@ -2142,6 +2147,7 @@ Zjz\v
 [EOS] Encoder not setup, not sending EOS.
 [EOS] Error: Frame %d failed to reset completion event %p\n
 [EOS] Threads never reset. Waited 10s. Timed out.
+[GetHmdModel] Unknown HMD Model number: %s
 [KeyFramedDataResource] Failed to load GLTF file: %s
 [Manage] Deallocate: %p. Queue size: %d
 [Manage] Initialize new frame[%d]: %p
@@ -2169,6 +2175,8 @@ Zjz\v
 [Perf warning] %0.3fms - videonvenc::ReinitEncoder
 [Perf warning] %0.3fms - videonvenc::StartEncodeData
 [Perf warning] %0.3fms - videonvenc::SubmitFrame
+[SVLBaseControllerDriver] Received static props for %s hand
+[SVLBaseController] Not enabling hand tracking as it was disabled in settings.
 [SVLBaseController] Ready to activate controller %s
 [SVLControllerHand] Activating controller on TrackedDeviceIndex_t %d\n
 [SVLControllerHand] Activating hand tracking driver
@@ -2184,7 +2192,9 @@ Zjz\v
 [SVLController] Haptic Failed to send\n
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
+[SVLController] Setting up Pico 4 Controller: %s
 [SVLHMD] Re-requesting static props: projectionParams: %i chaperone: %i power: %i statichmd: %i defaults: %i framerateUs: %i
+[SVLHandTrackingDriver] ~SVLHandTrackingDriver()
 [SVLS] ResetVideoStream
 [SVLServer] Switched active controller driver to: %i
 [SVL] !!!! AcquireSync FAILED with E_FAIL
@@ -2303,6 +2313,7 @@ _jbF~T
 _left
 _localtime64
 _lock_file
+_mon
 _purecall
 _recalloc
 _register_onexit_function
@@ -2456,12 +2467,12 @@ byteLength
 byteOffset
 byteStride
 c!!B0
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c=qx
 cAudBufAvg
 cAudBufMax
@@ -2587,6 +2598,7 @@ en_us
 enableAmfEncoder
 enableEncryption
 enableEventDebugging
+enableHandTracking
 enableQoS
 enableTimedRetry
 enableYAMLCompatibility
@@ -2595,6 +2607,7 @@ encSubmitFrameMS
 end of input
 english
 error
+error.png
 errorsAsFatal
 es_es
 es_mx
@@ -2702,6 +2715,7 @@ indentation
 index
 indices
 inet_ntop
+info.png
 innerConeAngle
 input
 instant_room_setup
@@ -2781,6 +2795,8 @@ lHt\
 lNrZ
 latam
 ldexp
+left
+left_
 light
 lights
 link_action
@@ -2874,6 +2890,7 @@ oculus_quest_plus_controller
 oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
+off.png
 ole32.dll
 only 8-bit
 open
@@ -2910,6 +2927,10 @@ path
 payload
 pbrMetallicRoughness
 perspective
+pico
+pico4_
+pico4u_
+pico_controller
 ping
 pl_pl
 playing
@@ -2937,6 +2958,8 @@ rZlN
 rand
 range
 read past buffer
+ready.png
+ready_low.png
 realloc
 received VTE_DASHBOARD_ACTION %d %d
 received VTE_DASHBOARD_ACTION close_dashboard
@@ -2957,6 +2980,8 @@ returnAddress
 rexmitReq
 rexmitSent
 rift
+right
+right_
 ro_ro
 rolloffFactor
 romanian
@@ -2989,6 +3014,7 @@ scale
 scene
 scenes
 schinese
+searching.gif
 select returned %d
 send_to_remote
 send_to_remote message is larger than 65535 bytes: %u
@@ -3208,6 +3234,7 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {vrlink}
+{vrlink}/icons/
 {vrlink}/icons/left_handtracking_off.png
 {vrlink}/icons/left_handtracking_ready.png
 {vrlink}/icons/left_handtracking_ready_info.png
@@ -3216,7 +3243,9 @@ znear
 {vrlink}/icons/right_handtracking_ready.png
 {vrlink}/icons/right_handtracking_ready_info.png
 {vrlink}/icons/right_handtracking_searching.gif
+{vrlink}/input/pico_controller_profile.json
 {vrlink}/input/svl_hand_interaction_augmented_input_profile.json
+{vrlink}/rendermodels/pico_4_controller_
 {vrlink}/rendermodels/shuttlecock
 {vrlink}/shaders/client_construct_override.frag
 {vrlink}/shaders/client_construct_override.vert

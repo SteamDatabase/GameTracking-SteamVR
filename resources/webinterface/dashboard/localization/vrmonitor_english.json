@@ -170,6 +170,9 @@
 	"Settings_TheaterScreenSize_Large" : "Large",
 	"Settings_TheaterScreenSize_Medium" : "Medium",
 	"Settings_TheaterScreenSize_Small" : "Small",
+	"Settings_TheaterScreenAlignment" : "Theater Alignment",
+	"Settings_TheaterScreenAlignment_PlayArea" : "Play Area",
+	"Settings_TheaterScreenAlignment_Dashboard" : "Dashboard",
 
 	"Settings_MediumSpace": "Medium Space",
 	"Settings_NightModeCheck": "Night Mode",

@@ -89,7 +89,8 @@
         "blockOculusSDKOnAllLaunches": false,
         "overlayRenderQuality_2": 0,
         "displayPortTrainingMode": 0,
-        "disableKeyboardPrivacy": false
+        "disableKeyboardPrivacy": false,
+		"advpredictweights": "advpredict.weights"
     },
     "openxr": {
         "metaUnityPluginCompatibility": 0
@@ -212,15 +213,16 @@
         "showPowerOptions": true,
         "allowAppQuitting": true,
         "showDesktop": true,
+        "showEscapeHatch": false,
         "lastAccessedExternalOverlayKey": "",
         "verticalOffsetCm_2": 0,
         "disableAnimations": false,
         "standaloneSystemLayer": false,
-        "stickyDashboard": false,
         "desktopIndex": 1,
         "autoShowGameTheater": true,
         "theaterCurvature": 0,
         "theaterScreenSize": 0,
+        "theaterScreenAlignment": 0,
         "theaterModeBrightness": 0.5,
         "theaterModeReflection": 0.5,
         "theaterModeSharpness": 0.5,
@@ -254,6 +256,14 @@
     "driver_amdwvr": {
         "loadPriority": -900,
         "enable": false
+    },
+    "driver_oculus": {
+        "hmdAllowsClientToControlTextureIndex" : false,
+        "forceSystemLayerUseAppPoses" : false
+    },
+    "driver_holographic": {
+        "hmdAllowsClientToControlTextureIndex" : false,
+        "forceSystemLayerUseAppPoses" : false
     },
     "input": {
         "leftThumbstickRotation": 0,

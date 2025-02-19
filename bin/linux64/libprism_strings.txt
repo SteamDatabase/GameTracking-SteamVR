@@ -462,7 +462,7 @@
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-22:41:15
+21:49:39
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
@@ -1085,8 +1085,8 @@ CVkCommandBufferPool::Initialize(CVkDevice*, char const*, unsigned int) (.cold)
 CVkCommandBufferPool::Release()
 CVkCommandBufferPool::~CVkCommandBufferPool()
 CVkDescriptorAllocator::Allocate(VkDescriptorSet_T**, CVkDescriptorBindings const*)
-CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*)
-CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*) (.cold)
+CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*, unsigned int)
+CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*, unsigned int) (.cold)
 CVkDescriptorAllocator::GetOrCreatePool(CVkDescriptorBindings const*)
 CVkDescriptorAllocator::GetOrCreatePool(CVkDescriptorBindings const*) (.cold)
 CVkDescriptorAllocator::Release()
@@ -1306,7 +1306,6 @@ DW.ref._ZTISt9exception
 DW.ref.__gxx_personality_v0
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
-Dec  9 2024
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex\n
@@ -1375,6 +1374,7 @@ Failed to spawn share thread for shared fd: %d\n
 Failed to wait for shared fd client\n
 Failed when reading payload of length %u: errno=%d\n
 FbcE
+Feb  5 2025
 February
 File path truncated\n
 FileSelect(dirent const*)
@@ -1405,6 +1405,7 @@ GLIBC_2.3.2
 GLIBC_2.3.4
 GLSL.std.450
 GenerateVisibleAreaMesh
+GetClockRealtime()
 GetCompatibleMemoryType
 GetDisplayModes
 GetEnvironmentVariable(char const*)

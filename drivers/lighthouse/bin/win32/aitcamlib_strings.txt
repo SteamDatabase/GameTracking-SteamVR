@@ -216,7 +216,7 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -253,7 +253,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS{U
+RSDSD
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -433,10 +433,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -484,7 +484,6 @@ ko_kr
 koreana
 latam
 ldexp
-luWg
 malloc
 map/set<T> too long
 max value > 255

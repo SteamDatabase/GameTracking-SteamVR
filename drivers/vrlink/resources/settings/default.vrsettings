@@ -35,6 +35,7 @@
 		"shareEyeTrackingData": false,
         "allowVolumeSync" : true,
 		"disableQoS" : false,
-		"asyncStartEncode" : true
+		"asyncStartEncode" : true,
+        "enableHandTracking" : true
     }
 }

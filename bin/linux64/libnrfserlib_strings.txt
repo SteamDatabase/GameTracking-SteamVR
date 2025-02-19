@@ -899,6 +899,7 @@ GetCOMPortDeviceInfo(unsigned short, unsigned short, std::vector<COMPortDeviceIn
 GetCOMPortDeviceInfo(unsigned short, unsigned short, std::vector<COMPortDeviceInfo_t, std::allocator<COMPortDeviceInfo_t>>&) (.cold)
 GetCOMPortSerialInfos(std::vector<SerialInfo_t, std::allocator<SerialInfo_t>>&)
 GetCOMPortSerialInfos(std::vector<SerialInfo_t, std::allocator<SerialInfo_t>>&) (.cold)
+GetClockRealtime()
 GetFilenameTimeString()
 GetGMUnixTime()
 GetGMUnixTimeAtNextLocalTime(unsigned long, int, int, int)
@@ -1385,6 +1386,7 @@ Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
+JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
 June
 LC_ADDRESS

@@ -2067,7 +2067,6 @@ div.BindingCalloutModifierIcon
 	border-radius: 9001px;
 	padding: 0.3em 1em;
 	font-size: 1rem;
-	text-transform: capitalize;
 }
 
 .TransparentOverlayControlBar
@@ -2685,4 +2684,20 @@ div.BindingCalloutModifierIcon
 	color: white;
 	font-size: 96px;
 	opacity: 0.8;
+}
+
+.ControllerStatusAltArea
+{
+	width: 200px;
+	font-size: 96px;
+	display: flex;
+	position: relative;
+	color: #274995;
+}
+
+.ControllerStatusAltArea > .SVGIcon_Button
+{
+	width: 1em;
+	height: 1em;
+	margin: auto;
 }

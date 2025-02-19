@@ -32,6 +32,8 @@
 		"controller":	"internet_settings",
 		"values": [
 			  { "name": "/settings/steamvr/*", "type":  "wildcard" }
+			 ,{ "name": "/settings/internet/*", "type":  "wildcard" }
+
 		]
 	},
 
@@ -322,12 +324,6 @@
 				"name": "/settings/dashboard/standaloneSystemLayer",
 				"control": "toggle",
 				"label": "Standalone System Layer",
-				"requires_restart": true
-			},
-			{
-				"name": "/settings/dashboard/stickyDashboard",
-				"control": "toggle",
-				"label": "Sticky Dashboard",
 				"requires_restart": true
 			},
 			{

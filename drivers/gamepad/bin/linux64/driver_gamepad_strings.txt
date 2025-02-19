@@ -1456,6 +1456,7 @@ punct
 pure virtual method called\n
 putc
 putwc
+q-nZ=6
 random_device::random_device(const std::string&)
 read
 read_encoded_value_with_base

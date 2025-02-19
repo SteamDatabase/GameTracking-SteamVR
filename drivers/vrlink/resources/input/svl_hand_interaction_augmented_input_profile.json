@@ -5,6 +5,7 @@
   "resource_root" : "vrlink",
   "driver_name" : "vrlink",
   "hand_priority" : -1,
+  "legacy_binding" :  "{vrlink}/input/legacy_bindings_svl_hand_interaction_augmented.json",
   "remapping" : "{vrlink}/input/svl_hand_interaction_augmented_remapping.json",
   "input_bindingui_mode" : "controller_handed",
   "should_show_binding_errors" :  true,

@@ -16,6 +16,7 @@
 	"Setting_useOSCFace": "Share face tracking data to other apps on this PC via OSC",
 	"Setting_OSCOutPort": "OSC Output Port",
 	"Setting_shareEyeTrackingData": "Share eye tracking data to other apps on this PC",
+	"Setting_enableHandTracking": "Enable Hand Tracking Passthrough",
 	"Setting_WirelessShutdownTimeout": "On disconnect, exit SteamVR after",
 	"Setting_AllowVolumeControlSync": "Control headset volume and mute from SteamVR",
 	"Setting_DisableQoS" : "Disable QoS",

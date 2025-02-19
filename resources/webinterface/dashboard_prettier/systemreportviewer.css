@@ -286,10 +286,6 @@ body .rodal-dialog {
   text-transform: uppercase;
 }
 
-.Capitalize {
-  text-transform: capitalize;
-}
-
 .ToggleMirror {
   font-size: 1.2rem;
   margin-top: 6px;

@@ -196,6 +196,11 @@
       "scope": "application"
     },
     {
+      "name": "/actions/quickmouse_trigger/in/ActivateQuickMouse",
+      "type": "boolean",
+      "scope": "application"
+    },
+    {
       "name": "/actions/quickmouse_touch/in/ActivateQuickMouse",
       "type": "boolean",
       "scope": "application"
@@ -285,6 +290,10 @@
     },
     {
       "name": "/actions/quickmouse_click",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/quickmouse_trigger",
       "usage": "leftright"
     },
     {

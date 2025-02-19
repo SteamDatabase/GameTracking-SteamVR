@@ -1,6 +1,7 @@
  for detail.\n
  formatting error code 
 !! refusing to trigger minidump with debugger attached\n
+&rxB
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -223,7 +224,6 @@ Error enumerating HMD adapter.\n
 Error getting HMD adapter index.\n
 Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.\n
-EtWg
 Exceeded stackLimit in readValue().
 Executable: %s\n
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
@@ -328,7 +328,7 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -496,11 +496,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cz
 czech
 d3d11.dll

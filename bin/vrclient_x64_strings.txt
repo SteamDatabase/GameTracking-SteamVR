@@ -647,6 +647,7 @@ $tI(knN
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_020@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_021@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_022@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_023@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -1012,6 +1013,7 @@ $tI(knN
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
 .?AVCVRMsg_ExchangeCapabilities@@
+.?AVCVRMsg_ExtendActivityTimeout@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
 .?AVCVRMsg_GetApplicationLaunchArgumentsResponse@@
@@ -1206,6 +1208,7 @@ $tI(knN
 .?AVCVRSteamPrivate_020@@
 .?AVCVRSteamPrivate_021@@
 .?AVCVRSteamPrivate_022@@
+.?AVCVRSteamPrivate_023@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1351,6 +1354,7 @@ $tI(knN
 .?AVIVRSteamPrivate_021@vr@@
 .?AVIVRSteamPrivate_022@vr@@
 .?AVIVRSteamPrivate_023@vr@@
+.?AVIVRSteamPrivate_024@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1512,6 +1516,7 @@ $tI(knN
 /click
 /controller_type/
 /dashboard/visible
+/device_path
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -1532,6 +1537,7 @@ $tI(knN
 /input/application_menu/touch
 /input/back
 /input/back/click
+/input/dpad_
 /input/finger/index
 /input/finger/middle
 /input/finger/pinky
@@ -1678,7 +1684,6 @@ $tI(knN
 /user/hand/left/input/b/click
 /user/hand/left/input/b/touch
 /user/hand/left/input/back/click
-/user/hand/left/input/bumper/click
 /user/hand/left/input/dpad_down/click
 /user/hand/left/input/dpad_left/click
 /user/hand/left/input/dpad_right/click
@@ -1737,7 +1742,6 @@ $tI(knN
 /user/hand/right/input/b/click
 /user/hand/right/input/b/touch
 /user/hand/right/input/back/click
-/user/hand/right/input/bumper/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
 /user/hand/right/input/grip/value
@@ -1970,6 +1974,14 @@ $tI(knN
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 @fff>fff>fff>fff>
+@mx)a
+@mx)b
+@mx)d
+@mx)k
+@mx)n
+@mx)p
+@mx)w
+@mx)z
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
@@ -2148,6 +2160,8 @@ CSxrGraphicsBindingPrism::InitVulkan2
 CSxrHandTrackerEXT
 CSxrHandTrackerEXT::LocateJoints
 CSxrInstance
+CSxrInstance::ComputeBindingFile: Action destroyed in profile: %s. Handle: %llu
+CSxrInstance::ComputeBindingFile: Could not retrieve interaction profile path from handle for destroyed action: %llu
 CSxrInstance::CreateVulkanInstanceKHR: invalid createInfo parameters\n
 CSxrInstance::CreateVulkanInstanceKHR: invalid parameters\n
 CSxrInstance::GetGraphicsRequirements failed: Invalid system.\n
@@ -2190,6 +2204,7 @@ CSxrSwapchainImageD3D11OpenVR
 CSxrSwapchainPrism::EnumerateSwapchainImages
 CSxrSwapchainPrism::Init
 CSxrSwapchainPrism::RegisterSwapchainImage
+CSxrSwapchainVulkanOpenVR
 CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
@@ -2276,6 +2291,7 @@ CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
 CVRMsg_ExchangeCapabilities
+CVRMsg_ExtendActivityTimeout
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
 CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -2553,6 +2569,7 @@ Could not create interface in driver %s from %s.\n
 Could not find factor function in driver %s from %s.\n
 Could not find named path %s when loading %s\n
 Could not read x for vec2\n
+Could not retrieve path from handle.
 Could not translate path %s. Trying the raw path\n
 Couldn't find action %s. Ignoring it.\n
 CreateDXGIFactory1
@@ -2604,6 +2621,7 @@ Determined this is a steamvr_input app.
 Device Calibration is invalid (207)
 Device is not calibrated (206)
 DeviceGC
+Dhyr,
 Did not find any drivers!
 Did the application enable the required instance/device extensions?
 DisableThreadLibraryCalls
@@ -2659,6 +2677,15 @@ EVRSceneApplicationState_Quitting
 EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
+El#aq
+El#bs
+El#dv
+El#gj
+El#pj
+El#rk
+El#rq
+El#ur
+El#uz
 Empty escape sequence in string
 Empty file.
 Enabling LiquidVR fallback path due to missing extension: %s
@@ -3274,7 +3301,7 @@ IVRScreenshots_
 IVRScreenshots_001
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_
 IVRSettings_001
@@ -3305,6 +3332,7 @@ IVRSteamPrivate_020
 IVRSteamPrivate_021
 IVRSteamPrivate_022
 IVRSteamPrivate_023
+IVRSteamPrivate_024
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
@@ -3480,6 +3508,7 @@ Loaded server driver %s (%s) from %s\n
 Loading compute shader %s\n
 Loading pixel shader %s\n
 Loading render model texture data from: %s
+Loading shaders
 Loading vertex shader %s\n
 Local next event counter is invalid at %u. Resetting\n
 LocalAlloc
@@ -3823,7 +3852,7 @@ QueryServiceConfigW
 RADV
 RGBG
 RPCRT4.dll
-RSDS,
+RSDSz
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -3976,6 +4005,7 @@ SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
+Shaders loaded in %f seconds
 Shared IPC Compositor Connect Failed (306)
 Shared IPC Compositor Init Failed (303)
 Shared IPC Compositor Invalid Connect Response (307)
@@ -4007,6 +4037,7 @@ Skipping simulated trigger action %s(%d) because it doesn't have an output actio
 Skipping starting apps because we're in an app container\n
 Sleep
 SleepConditionVariableCS
+Sleim
 Software\Valve\Steam
 Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
@@ -4126,6 +4157,7 @@ TrackedProp_ValueNotProvidedByDevice
 TrackedProp_WrongDataType
 TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s\n
+Translating path: %s\t%s
 Turning on pipe debugging at the server's request\n
 Tutorial
 U1(\Q
@@ -4419,7 +4451,6 @@ VREvent_ConsoleOpened
 VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
-VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
@@ -4951,7 +4982,7 @@ WaitNamedPipeA
 WakeAllConditionVariable
 Warning
 Warning: Analog threshold added to [%s -> %s]. This method is deprecated. Please use XR_TYPE_BINDING_MODIFICATIONS_KHR instead\n
-Warning: Dpad bindings can only be added to a single action set!
+Warning: Dpad bindings can only be added to a single action set.
 Warning: Dpad modifications already set for this component [%s]. Successive modification parameters for this component will be ignored.
 Warning: Provided input path (%s) is not valid for this interaction profile (%s)
 Warning: Watchdog %s not properly cleaned up%s%s\n
@@ -5081,9 +5112,11 @@ XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
 XR_EXT_hp_mixed_reality_controller
 XR_EXT_interaction_render_model
+XR_EXT_irm_toplevel_path
 XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_render_model
+XR_EXT_user_presence
 XR_EXT_uuid
 XR_EXT_win32_appcontainer_compatible
 XR_FB_display_refresh_rate
@@ -5812,6 +5845,7 @@ ZvFailed to create fence %ls.\n
 [Warning] Invalid Interaction Profile suggested: %s:\n
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
+[xrInteractionRenderModelGetTopLevelUserPathEXT] Device %u didn't have %s set
 [xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %llu)
 [xrRenderModel] Asset was not loaded in memory when trying to retrieve data
 [xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
@@ -5841,9 +5875,9 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] nodeStateCount was not equal to animatableNodeCount
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
+\fUk#pb
 \mfpmp.exe
 \nbad png sig
-\ntWg
 \t%s::%llx.\n
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -5971,6 +6005,7 @@ action_set
 action_sets
 actions
 actionset
+activateOtherDriversWhenEnabled
 activate_threshold
 active
 activeActionSets
@@ -6120,71 +6155,71 @@ button_toggle
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\actionbindingconfig.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\blockqueue.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\drivermanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openxr_utils.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\rendermodelmanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrkeyboard.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystem.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vulkan.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\Retail\win64\2017\vrclient_x64.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\hmdlatest.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\ixrbinding.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_common.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_common.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_compositor_openvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_compositor_prism.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_conformance.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_device.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_entrypoints.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_d3d11_direct.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_d3d11_openvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_gl_openvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_prism.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_graphics_vulkan_openvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_hand_tracker.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_input.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_interaction_profiles.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_render_model.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_session.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_session.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\openxr_space.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\skeletalinpututils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrclientcore.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrcompositorclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrclient\vrmailboxclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\actionbindingconfig.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\blockqueue.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openxr_utils.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\rendermodelmanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrkeyboard.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vulkan.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\Retail\win64\2017\vrclient_x64.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\hmdlatest.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\ixrbinding.h
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_common.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_common.h
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_compositor_openvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_compositor_prism.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_conformance.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_device.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d11_direct.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d11_openvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_gl_openvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_prism.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_vulkan_openvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_hand_tracker.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_input.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_interaction_profiles.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_render_model.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.h
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_space.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrclientcore.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\fake_app_container_config_path
 camera
 cameraEdgeEnhancement
@@ -6509,7 +6544,6 @@ ftell
 fwrite
 gain
 gamepad
-gamescope.steam
 generator
 generic
 generic_hmd
@@ -6572,7 +6606,7 @@ height
 held
 hidden
 hide_callout
-hide_dashboard_requested
+hide_dashboard
 hmd_presence
 hmd_profile
 holographic_controller
@@ -6951,6 +6985,9 @@ optional member 'simulated_actions' is not an array
 options
 options field exists, but it is not an object
 origin
+origin_position_x
+origin_position_y
+origin_position_z
 origin_to_highlight
 orthographic
 other_presence
@@ -7158,29 +7195,17 @@ shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
-shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_curved_vs.fxo
-shaders/d3d11/distort_geom_drawregion_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_curved_vs.fxo
 shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
 shaders/d3d11/distort_geom_drawregion_ps.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_curved_vs.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
-shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_vs.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_ps.fxo
-shaders/d3d11/distort_geom_floor_vs.fxo
 shaders/d3d11/distort_geom_fresnel_ps.fxo
-shaders/d3d11/distort_geom_fresnel_vs.fxo
 shaders/d3d11/distort_geom_grid_ps.fxo
 shaders/d3d11/distort_geom_grid_vs.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
@@ -7192,26 +7217,15 @@ shaders/d3d11/distort_geom_ltc_diff_ps.fxo
 shaders/d3d11/distort_geom_ltc_ps.fxo
 shaders/d3d11/distort_geom_ltc_spec_ps.fxo
 shaders/d3d11/distort_geom_motes_ps.fxo
-shaders/d3d11/distort_geom_motes_vs.fxo
 shaders/d3d11/distort_geom_multitap_ps.fxo
 shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
-shaders/d3d11/distort_geom_ptnorm_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_curved_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_ortho_out_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_reflect_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_simplified_ps.fxo
 shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
-shaders/d3d11/distort_geom_spherical_vs.fxo
-shaders/d3d11/distort_geom_tan_vs.fxo
-shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
-shaders/d3d11/distort_geom_vignette_vs.fxo
-shaders/d3d11/distort_geom_vs.fxo
 shaders/d3d11/distort_geom_write_norm_ps.fxo
 shaders/d3d11/distort_geom_write_norm_vs.fxo
 shaders/d3d11/distort_none_ps.fxo
@@ -7221,6 +7235,7 @@ shaders/d3d11/distort_none_vs.fxo
 shaders/d3d11/distort_panorama_dome_ps.fxo
 shaders/d3d11/distort_panorama_dome_radius_ps.fxo
 shaders/d3d11/distort_panorama_ps.fxo
+shaders/d3d11/distort_panorama_solid_color_ps.fxo
 shaders/d3d11/distort_panorama_vs.fxo
 shaders/d3d11/distort_ps.fxo
 shaders/d3d11/distort_ps_achromatic.fxo
@@ -7262,6 +7277,29 @@ shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_curved_vs.fxo
+shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_curved_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_curved_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
+shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_vs.fxo
+shaders/d3d11/geom_floor_vs.fxo
+shaders/d3d11/geom_fresnel_vs.fxo
+shaders/d3d11/geom_motes_vs.fxo
+shaders/d3d11/geom_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_ptnorm_curved_vs.fxo
+shaders/d3d11/geom_ptnorm_ortho_out_vs.fxo
+shaders/d3d11/geom_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/geom_ptnorm_vs.fxo
+shaders/d3d11/geom_spherical_vs.fxo
+shaders/d3d11/geom_tan_vs.fxo
+shaders/d3d11/geom_uvs_embedded_vs.fxo
+shaders/d3d11/geom_vignette_vs.fxo
+shaders/d3d11/geom_vs.fxo
 shaders/d3d11/gpu_measurement_ps.fxo
 shaders/d3d11/gpu_measurement_vs.fxo
 shaders/d3d11/linepixelsim2_cs.fxo
@@ -7320,29 +7358,17 @@ shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
-shaders/vulkan/distort_geom_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_curved_vs.spv
-shaders/vulkan/distort_geom_drawregion_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_curved_vs.spv
 shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
 shaders/vulkan/distort_geom_drawregion_ps.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_curved_vs.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_vs.spv
 shaders/vulkan/distort_geom_drawregion_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
-shaders/vulkan/distort_geom_drawregion_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_vs.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_ps.spv
-shaders/vulkan/distort_geom_floor_vs.spv
 shaders/vulkan/distort_geom_fresnel_ps.spv
-shaders/vulkan/distort_geom_fresnel_vs.spv
 shaders/vulkan/distort_geom_grid_ps.spv
 shaders/vulkan/distort_geom_grid_vs.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_lines_ps.spv
@@ -7354,26 +7380,15 @@ shaders/vulkan/distort_geom_ltc_diff_ps.spv
 shaders/vulkan/distort_geom_ltc_ps.spv
 shaders/vulkan/distort_geom_ltc_spec_ps.spv
 shaders/vulkan/distort_geom_motes_ps.spv
-shaders/vulkan/distort_geom_motes_vs.spv
 shaders/vulkan/distort_geom_multitap_ps.spv
 shaders/vulkan/distort_geom_pbr_ps.spv
 shaders/vulkan/distort_geom_ps.spv
-shaders/vulkan/distort_geom_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_ptnorm_curved_vs.spv
-shaders/vulkan/distort_geom_ptnorm_ortho_out_vs.spv
-shaders/vulkan/distort_geom_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_ptnorm_vs.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
 shaders/vulkan/distort_geom_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_simplified_ps.spv
 shaders/vulkan/distort_geom_simplified_reflect_ps.spv
-shaders/vulkan/distort_geom_spherical_vs.spv
-shaders/vulkan/distort_geom_tan_vs.spv
-shaders/vulkan/distort_geom_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_vignette_ps.spv
-shaders/vulkan/distort_geom_vignette_vs.spv
-shaders/vulkan/distort_geom_vs.spv
 shaders/vulkan/distort_geom_write_norm_ps.spv
 shaders/vulkan/distort_geom_write_norm_vs.spv
 shaders/vulkan/distort_none_ps.spv
@@ -7383,6 +7398,7 @@ shaders/vulkan/distort_none_vs.spv
 shaders/vulkan/distort_panorama_dome_ps.spv
 shaders/vulkan/distort_panorama_dome_radius_ps.spv
 shaders/vulkan/distort_panorama_ps.spv
+shaders/vulkan/distort_panorama_solid_color_ps.spv
 shaders/vulkan/distort_panorama_vs.spv
 shaders/vulkan/distort_ps.spv
 shaders/vulkan/distort_ps_achromatic.spv
@@ -7424,6 +7440,29 @@ shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
+shaders/vulkan/geom_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_curved_vs.spv
+shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_curved_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_curved_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_vs.spv
+shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_vs.spv
+shaders/vulkan/geom_floor_vs.spv
+shaders/vulkan/geom_fresnel_vs.spv
+shaders/vulkan/geom_motes_vs.spv
+shaders/vulkan/geom_ptnorm_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_ptnorm_curved_vs.spv
+shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
+shaders/vulkan/geom_ptnorm_uvs_embedded_vs.spv
+shaders/vulkan/geom_ptnorm_vs.spv
+shaders/vulkan/geom_spherical_vs.spv
+shaders/vulkan/geom_tan_vs.spv
+shaders/vulkan/geom_uvs_embedded_vs.spv
+shaders/vulkan/geom_vignette_vs.spv
+shaders/vulkan/geom_vs.spv
 shaders/vulkan/gpu_measurement_ps.spv
 shaders/vulkan/gpu_measurement_vs.spv
 shaders/vulkan/linepixelsim2_cs.spv
@@ -7665,6 +7704,7 @@ sxr_xrGetVulkanGraphicsDeviceKHR
 sxr_xrGetVulkanGraphicsRequirements2KHR
 sxr_xrGetVulkanGraphicsRequirementsKHR
 sxr_xrGetVulkanInstanceExtensionsKHR
+sxr_xrInteractionRenderModelGetTopLevelUserPathEXT
 sxr_xrLocateHandJointsEXT
 sxr_xrLocateSpace
 sxr_xrLocateViews
@@ -7693,6 +7733,9 @@ tRNS before PLTE
 tRNS with alpha
 tanf
 target
+target_position_x
+target_position_y
+target_position_z
 targets
 tchinese
 tdh.dll
@@ -7738,6 +7781,7 @@ touchy_click
 touchy_latch
 toupper
 tr_tr
+tracked
 trackedCamera
 tracked_device_index
 trackers
@@ -7795,6 +7839,7 @@ useSpecialFloats
 usemtl
 userinterface
 uvaccessor_
+valid
 value
 value_hold_threshold
 value_mapping
@@ -7804,6 +7849,7 @@ values
 valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
+valve.steam.gamepadui.main
 variant
 vector1
 vector2
@@ -8664,6 +8710,7 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrInteractionRenderModelGetTopLevelUserPathEXT
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
@@ -8674,7 +8721,6 @@ xrLocateViews: Display time was invalid.
 xrLocateViews: Switching to TrackingUniverseSeated because XR_REFERENCE_SPACE_TYPE_LOCAL continued to be requested for more than 3 seconds
 xrLocateViews: Switching to TrackingUniverseStanding because XR_REFERENCE_SPACE_TYPE_STAGE was requested
 xrNegotiateLoaderRuntimeInterface
-xrNegotiateLoaderRuntimeInterface bRunningInAppContainer: %d\n
 xrPathToString
 xrPollEvent
 xrReleaseSwapchainImage

@@ -1310,7 +1310,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
 ceil
 close
@@ -1387,7 +1387,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 pqcs
 print
-puWg
 punct
 realloc
 sd_ble_cfg_set

@@ -12,7 +12,7 @@
 	"Setting_automatic_off": "手動",
 	"Setting_clientVersion": "用戶端版本",
 	"Setting_useOSC": "啟用 OSC",
-	"Setting_useOSCEyes": "透過 OSC 協議與此電腦上的其它應用程式分享眼睛追蹤資料",
+	"Setting_useOSCEyes": "透過 OSC 協定與此電腦上的其它應用程式分享眼動追蹤資料",
 	"Setting_useOSCFace": "透過 OSC 協議與此電腦上的其它應用程式分享臉部追蹤資料",
 	"Setting_OSCOutPort": "OSC 輸出連接埠",
 	"Setting_WirelessShutdownTimeout": "斷線後接著退出 SteamVR",

@@ -301,7 +301,7 @@ $3br
 /user/wrist/right
 0 width
 0-pixel image
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -580,7 +580,7 @@ IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -628,6 +628,7 @@ LeaveCriticalSection
 LibOVRRT64_1.dll
 LoadLibraryA
 LoadLibraryW
+Loading shaders
 LocalizationManager
 MAT2
 MAT3
@@ -695,7 +696,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSo
+RSDS
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -718,6 +719,7 @@ SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInterfaces
 SetupDiGetClassDevsA
 SetupDiGetDeviceInterfaceDetailA
+Shaders loaded in %f seconds
 Skin
 Sleep
 SleepConditionVariableCS
@@ -985,13 +987,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -1427,29 +1429,17 @@ shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
-shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_curved_vs.fxo
-shaders/d3d11/distort_geom_drawregion_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_curved_vs.fxo
 shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
 shaders/d3d11/distort_geom_drawregion_ps.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_curved_vs.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
-shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_drawregion_vs.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_ps.fxo
-shaders/d3d11/distort_geom_floor_vs.fxo
 shaders/d3d11/distort_geom_fresnel_ps.fxo
-shaders/d3d11/distort_geom_fresnel_vs.fxo
 shaders/d3d11/distort_geom_grid_ps.fxo
 shaders/d3d11/distort_geom_grid_vs.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
@@ -1461,26 +1451,15 @@ shaders/d3d11/distort_geom_ltc_diff_ps.fxo
 shaders/d3d11/distort_geom_ltc_ps.fxo
 shaders/d3d11/distort_geom_ltc_spec_ps.fxo
 shaders/d3d11/distort_geom_motes_ps.fxo
-shaders/d3d11/distort_geom_motes_vs.fxo
 shaders/d3d11/distort_geom_multitap_ps.fxo
 shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
-shaders/d3d11/distort_geom_ptnorm_curved_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_curved_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_ortho_out_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_uvs_embedded_vs.fxo
-shaders/d3d11/distort_geom_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_reflect_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_simplified_ps.fxo
 shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
-shaders/d3d11/distort_geom_spherical_vs.fxo
-shaders/d3d11/distort_geom_tan_vs.fxo
-shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
-shaders/d3d11/distort_geom_vignette_vs.fxo
-shaders/d3d11/distort_geom_vs.fxo
 shaders/d3d11/distort_geom_write_norm_ps.fxo
 shaders/d3d11/distort_geom_write_norm_vs.fxo
 shaders/d3d11/distort_none_ps.fxo
@@ -1490,6 +1469,7 @@ shaders/d3d11/distort_none_vs.fxo
 shaders/d3d11/distort_panorama_dome_ps.fxo
 shaders/d3d11/distort_panorama_dome_radius_ps.fxo
 shaders/d3d11/distort_panorama_ps.fxo
+shaders/d3d11/distort_panorama_solid_color_ps.fxo
 shaders/d3d11/distort_panorama_vs.fxo
 shaders/d3d11/distort_ps.fxo
 shaders/d3d11/distort_ps_achromatic.fxo
@@ -1531,6 +1511,29 @@ shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_curved_vs.fxo
+shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_curved_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_curved_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
+shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_vs.fxo
+shaders/d3d11/geom_floor_vs.fxo
+shaders/d3d11/geom_fresnel_vs.fxo
+shaders/d3d11/geom_motes_vs.fxo
+shaders/d3d11/geom_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_ptnorm_curved_vs.fxo
+shaders/d3d11/geom_ptnorm_ortho_out_vs.fxo
+shaders/d3d11/geom_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/geom_ptnorm_vs.fxo
+shaders/d3d11/geom_spherical_vs.fxo
+shaders/d3d11/geom_tan_vs.fxo
+shaders/d3d11/geom_uvs_embedded_vs.fxo
+shaders/d3d11/geom_vignette_vs.fxo
+shaders/d3d11/geom_vs.fxo
 shaders/d3d11/gpu_measurement_ps.fxo
 shaders/d3d11/gpu_measurement_vs.fxo
 shaders/d3d11/linepixelsim2_cs.fxo

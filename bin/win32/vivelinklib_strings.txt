@@ -446,7 +446,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS#zn
+RSDS
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -703,7 +703,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
 ceil
 cntrl
@@ -800,7 +800,6 @@ vivelink-driver.txt
 vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
-vuWg
 win64
 wn>Jj
 xdigit

@@ -363,11 +363,15 @@ $tI(kn
 (anonymous namespace)
 (anonymous namespace)::DeleteRenderModel(vr::RenderModel_t*)
 (anonymous namespace)::DeleteTexture(vr::RenderModel_TextureMap_t*)
+(anonymous namespace)::EncryptedString<32ul>::decrypt() const
+(anonymous namespace)::EncryptedString<9ul>::decrypt() const
 (anonymous namespace)::From(Compositor_OverlaySettings_004 const&, vr::IVRCompositor*) (.isra.0)
 (anonymous namespace)::GetChildPathHandle(unsigned long*, unsigned long*, char const*, Json::Value const&, vr::IVRPaths*)
 (anonymous namespace)::GetChildPathHandle(unsigned long*, unsigned long*, char const*, Json::Value const&, vr::IVRPaths*) (.cold)
 (anonymous namespace)::GetChildVector2d(double*, char const*, Json::Value const&)
 (anonymous namespace)::GetChildVector3d(vr::HmdVector3d_t*, char const*, Json::Value const&)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned long)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned long)::decryptionKey
 (anonymous namespace)::GetDestinationFormat(VkFormat, vr::EColorSpace, VkFormat*)
 (anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)
 (anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)::__executeCount
@@ -655,6 +659,7 @@ $tI(kn
 /dev/null
 /dev/random
 /dev/urandom
+/device_path
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -676,6 +681,7 @@ $tI(kn
 /input/application_menu/touch
 /input/back
 /input/back/click
+/input/dpad_
 /input/finger
 /input/finger/index
 /input/finger/middle
@@ -840,7 +846,6 @@ $tI(kn
 /user/hand/left/input/b/click
 /user/hand/left/input/b/touch
 /user/hand/left/input/back/click
-/user/hand/left/input/bumper/click
 /user/hand/left/input/dpad_down/click
 /user/hand/left/input/dpad_left/click
 /user/hand/left/input/dpad_right/click
@@ -899,7 +904,6 @@ $tI(kn
 /user/hand/right/input/b/click
 /user/hand/right/input/b/touch
 /user/hand/right/input/back/click
-/user/hand/right/input/bumper/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
 /user/hand/right/input/grip/value
@@ -1216,6 +1220,7 @@ $tI(kn
 19CVRSteamPrivate_020
 19CVRSteamPrivate_021
 19CVRSteamPrivate_022
+19CVRSteamPrivate_023
 19CVRWatchdogHost_001
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
@@ -1239,6 +1244,7 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:49:39
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1263,7 +1269,6 @@ $tI(kn
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:41:15
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1400,6 +1405,7 @@ $tI(kn
 28CServerTrackedDeviceProvider
 28CVRMsg_ChangeAppTypeResponse
 28CVRMsg_DestroySwapTextureSet
+28CVRMsg_ExtendActivityTimeout
 28CVRMsg_GetDriverInfoResponse
 28CVRMsg_LaunchInternalProcess
 28CVRMsg_PowerOffTrackedDevice
@@ -1601,6 +1607,7 @@ $tI(kn
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_020E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_021E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_022E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_023E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -1776,6 +1783,14 @@ $tI(kn
 ?N2vr10IVRMCStoreE
 @(knN
 @UUUUUU
+@mx)a
+@mx)b
+@mx)d
+@mx)k
+@mx)n
+@mx)p
+@mx)w
+@mx)z
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
@@ -1806,6 +1821,8 @@ Action names may not be empty
 Action paths must be of the form /actions/<actionset>/in|out/<actionname>: 
 Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 ActionDirectionNameToEnum(std::string const&)
+ActionEntryToJson(VRAction_Entry_t const&)
+ActionEntryToJson(VRAction_Entry_t const&) (.cold)
 ActionScopeNameToEnum(std::string const&)
 ActionTypeNameToEnum(std::string const&)
 Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
@@ -1820,6 +1837,61 @@ AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, s
 AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t>>) (.cold)
 AddLegalInteractionProfiles()
 AddLegalInteractionProfiles() (.cold)
+AddLegalInteractionProfiles()::'lambda'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda0'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda1'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda10'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda11'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda12'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda13'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda14'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda15'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda16'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda17'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda18'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda19'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda2'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda20'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda21'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda22'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda23'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda24'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda25'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda26'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda27'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda28'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda29'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda3'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda30'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda31'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda32'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda33'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda34'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda35'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda36'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda37'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda38'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda39'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda4'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda40'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda41'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda42'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda43'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda44'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda45'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda46'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda47'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda48'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda49'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda5'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda50'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda51'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda52'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda53'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda6'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda7'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda8'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda9'()::operator()() const::encrypted
 AddOverlayToResult(vr::DashboardOverlayState_t*, unsigned int, unsigned long, unsigned long, unsigned int&)
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long)
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long) (.cold)
@@ -2027,11 +2099,11 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
-C.1875.372530
-C.1876.372541
+C.1875.372795
+C.1876.372806
 C.71.340283
-C.77.214520
-C.9.216410
+C.77.214627
+C.9.216517
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -2346,20 +2418,23 @@ CDriverManager::AddDriver(std::string const&, std::string const&) (.cold)
 CDriverManager::AddServerDevice() !GetServerProvider( nDriver ) -> VRInitError_Driver_NotLoaded
 CDriverManager::AddServerDevice() nDriver == vr::k_nDriverNone -> VRInitError_Init_Internal
 CDriverManager::AddServerDevice() nDriver >= m_vecDrivers.size() -> VRInitError_Driver_HmdDriverIdOutOfBounds
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*)
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*) (.cold)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*) (.cold)
 CDriverManager::AllocateDeviceSlot(unsigned int, vr::ETrackedDeviceClass, unsigned int*)
 CDriverManager::ApplyDriverResourceProperties(unsigned long)
 CDriverManager::ApplyDriverResourceProperties(unsigned long) (.cold)
 CDriverManager::AreAnyDriversBlockedForSafeMode() const
 CDriverManager::BAlwaysActivateDriver(unsigned int)
+CDriverManager::BAnyEnabledDriverAllowsMultipleDriverActivation() const
 CDriverManager::BCurrentlyActivating(unsigned int, unsigned int) const
 CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const
 CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const (.cold)
 CDriverManager::BHasHmdServerDriver()
 CDriverManager::BHmdDeviceMightBePresent(unsigned int)
+CDriverManager::BHmdDeviceMightBePresent(unsigned int)::'lambda'()::operator()() const::encrypted
 CDriverManager::BIsSafeDriver(unsigned int) const
 CDriverManager::BIsSafeDriverByName(std::string const&) const
+CDriverManager::BShouldActivateOtherDriversWhenEnabled(unsigned int) const
 CDriverManager::BShowEnableInSettings(unsigned int)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*) (.cold)
@@ -2405,6 +2480,8 @@ CDriverManager::GetWatchdogProvider(unsigned int)
 CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -2497,6 +2574,7 @@ CHmdSystemLatest::BIsHmdPresent()
 CHmdSystemLatest::BIsHmdPresent() (.cold)
 CHmdSystemLatest::BIsHmdPresentInternal(char const*)
 CHmdSystemLatest::BIsHmdPresentInternal(char const*) (.cold)
+CHmdSystemLatest::BRoomViewStreaming()
 CHmdSystemLatest::CHmdSystemLatest()
 CHmdSystemLatest::CHmdSystemLatest() (.cold)
 CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)
@@ -3110,7 +3188,7 @@ CLogCallback::~CLogCallback()
 CLogTimer::CLogTimer(char const*, double)
 CLogTimer::CLogTimer(char const*, double) (.cold)
 CLogTimer::~CLogTimer()
-CMCStore::CMCStore(IVRServer*, vr::IVRProperties*)
+CMCStore::CMCStore(IVRServerInternal*, vr::IVRProperties*)
 CMCStore::GetMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int, vr::ETrackedPropertyError*)
 CMCStore::SetMCImage(unsigned int, unsigned int, unsigned int, void*, unsigned int)
 CMCStore::~CMCStore()
@@ -3217,7 +3295,7 @@ CPathManager_Server::GetAllPathHandles() const
 CPathManager_Server::GetAllPathHandles() const (.cold)
 CPathManager_Server::HandleToString(unsigned long, char*, unsigned int, unsigned int*)
 CPathManager_Server::HandleToString(unsigned long, char*, unsigned int, unsigned int*) (.cold)
-CPathManager_Server::Init(IVRServer*)
+CPathManager_Server::Init(IVRServerInternal*)
 CPathManager_Server::IsAlias(std::string const&, std::string*, std::string*, bool*, bool*)
 CPathManager_Server::IsAlias(std::string const&, std::string*, std::string*, bool*, bool*) (.cold)
 CPathManager_Server::IsValidHandle(unsigned long)
@@ -3315,7 +3393,7 @@ CPropertyManager::CreatePropertyContainerInternal(unsigned long, bool)
 CPropertyManager::CreatePropertyContainerInternal(unsigned long, bool) (.cold)
 CPropertyManager::DestroyPropertyContainer(unsigned long)
 CPropertyManager::EnableChangeNotifications(unsigned long, bool)
-CPropertyManager::FindOrAddContainer(unsigned long)
+CPropertyManager::FindOrAddContainer(unsigned long, bool)
 CPropertyManager::GetAllContainers()
 CPropertyManager::GetAllContainers() (.cold)
 CPropertyManager::GetAllProperties(unsigned long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*)
@@ -3436,8 +3514,8 @@ CSWTCH.16
 CSWTCH.212
 CSWTCH.23
 CSWTCH.28
-CSWTCH.368
-CSWTCH.556
+CSWTCH.384
+CSWTCH.557
 CSWTCH.823
 CSWTCH.869
 CSXrBackingRenderModelAsset::CSXrBackingRenderModelAsset(std::string&, std::vector<std::string, std::allocator<std::string>>)
@@ -3571,8 +3649,8 @@ CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&)
 CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&) (.cold)
 CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*)
 CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*) (.cold)
-CSettingsManager::Init(CDriverManager*, IVRServer*)
-CSettingsManager::Init(CDriverManager*, IVRServer*) (.cold)
+CSettingsManager::Init(CDriverManager*, IVRServerInternal*)
+CSettingsManager::Init(CDriverManager*, IVRServerInternal*) (.cold)
 CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&)
 CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&) (.cold)
 CSettingsManager::LoadDriverDefaultSettings(std::string const&, CDriverManager*, Json::Value&)
@@ -4014,6 +4092,8 @@ CSxrInstance::CSxrInstance(XrInstanceCreateInfo const*) (.cold)
 CSxrInstance::ComputeBindingFile(std::vector<Json::Value, std::allocator<Json::Value>>&, unsigned long, unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding>> const&)
 CSxrInstance::ComputeBindingFile(std::vector<Json::Value, std::allocator<Json::Value>>&, unsigned long, unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding>> const&) (.cold)
 CSxrInstance::ComputeBindingFile(std::vector<Json::Value, std::allocator<Json::Value>>&, unsigned long, unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding>> const&)::DpadAction::~DpadAction()
+CSxrInstance::ComputeBindingFile: Action destroyed in profile: %s. Handle: %lu
+CSxrInstance::ComputeBindingFile: Could not retrieve interaction profile path from handle for destroyed action: %lu
 CSxrInstance::ComputeBindingFiles()
 CSxrInstance::ComputeBindingFiles() (.cold)
 CSxrInstance::ComputeTrackerBindingFiles(std::vector<Json::Value, std::allocator<Json::Value>>&, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding>>>&)
@@ -4060,6 +4140,8 @@ CSxrInstance::Init warning: Headset not found, unable to create a functional vr 
 CSxrInstance::Init()
 CSxrInstance::Init() (.cold)
 CSxrInstance::InitExtensions()
+CSxrInstance::InitExtensions()::'lambda'()::operator()() const::encrypted
+CSxrInstance::InitExtensions()::'lambda0'()::operator()() const::encrypted
 CSxrInstance::InitSupportedFeatures()
 CSxrInstance::InitSupportedFeatures() (.cold)
 CSxrInstance::IsEnvironmentBlendModeSupported(XrViewConfigurationType, XrEnvironmentBlendMode)
@@ -4074,6 +4156,7 @@ CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*>>, std::unique_p
 CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*>>, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer>>) (.cold)
 CSxrInstance::RememberSuggestedBindings(unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding>>&&)
 CSxrInstance::ShouldPresentMetaCompatibility()
+CSxrInstance::ShouldPresentMetaCompatibility()::'lambda'()::operator()() const::encrypted
 CSxrInstance::StringToPath failed: %s\n
 CSxrInstance::StringToPath failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected.\n
 CSxrInstance::StringToPath(std::string, unsigned long&)
@@ -4115,6 +4198,9 @@ CSxrRenderModelEXT::GetInfo(XrRenderModelPropertiesGetInfoEXT const*, XrRenderMo
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
 CSxrRenderModelEXT::GetState(XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
+CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)
+CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*) (.cold)
+CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::k_pathDevicePath
 CSxrRenderModelEXT::Init()
 CSxrRenderModelEXT::Init() (.cold)
 CSxrRenderModelEXT::~CSxrRenderModelEXT()
@@ -4152,6 +4238,8 @@ CSxrSession::Init()
 CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView>>&, XrViewLocateInfo const*, XrViewState*)
 CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView>>&, XrViewLocateInfo const*, XrViewState*) (.part.0)
 CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView>>&, XrViewLocateInfo const*, XrViewState*)::unLastSeatedSpaceRequestTime
+CSxrSession::QueueUserPresenceChangedEvent(bool)
+CSxrSession::QueueUserPresenceChangedEvent(bool) (.cold)
 CSxrSession::RefreshSessionStateForFocus()
 CSxrSession::RefreshSessionStateForFocus() (.cold)
 CSxrSession::RequestDisplayRefreshRateFB(float)
@@ -4225,6 +4313,7 @@ CSxrSwapchainPrism::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*) (.
 CSxrSwapchainPrism::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 CSxrSwapchainPrism::WaitSwapchainImage(XrSwapchainImageWaitInfo const*) (.cold)
 CSxrSwapchainPrism::~CSxrSwapchainPrism()
+CSxrSwapchainVulkanOpenVR
 CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
 CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*) (.cold)
 CSxrSwapchainVulkanOpenVR::CSxrSwapchainVulkanOpenVR(CSxrSession*, XrSwapchainCreateInfo const*, CSxrGraphicsBindingVulkanOpenVR*)
@@ -9036,6 +9125,31 @@ CVRMsg_ExchangeCapabilities::Swap(CVRMsg_ExchangeCapabilities*)
 CVRMsg_ExchangeCapabilities::default_instance()
 CVRMsg_ExchangeCapabilities::default_instance_
 CVRMsg_ExchangeCapabilities::~CVRMsg_ExchangeCapabilities()
+CVRMsg_ExtendActivityTimeout
+CVRMsg_ExtendActivityTimeout::ByteSize() const
+CVRMsg_ExtendActivityTimeout::CVRMsg_ExtendActivityTimeout()
+CVRMsg_ExtendActivityTimeout::CVRMsg_ExtendActivityTimeout(CVRMsg_ExtendActivityTimeout const&)
+CVRMsg_ExtendActivityTimeout::CVRMsg_ExtendActivityTimeout(CVRMsg_ExtendActivityTimeout const&) (.cold)
+CVRMsg_ExtendActivityTimeout::CheckTypeAndMergeFrom(google::protobuf::MessageLite const&)
+CVRMsg_ExtendActivityTimeout::Clear()
+CVRMsg_ExtendActivityTimeout::CopyFrom(CVRMsg_ExtendActivityTimeout const&)
+CVRMsg_ExtendActivityTimeout::GetCachedSize() const
+CVRMsg_ExtendActivityTimeout::GetTypeName() const
+CVRMsg_ExtendActivityTimeout::InitAsDefaultInstance()
+CVRMsg_ExtendActivityTimeout::IsInitialized() const
+CVRMsg_ExtendActivityTimeout::MergeFrom(CVRMsg_ExtendActivityTimeout const&)
+CVRMsg_ExtendActivityTimeout::MergeFrom(CVRMsg_ExtendActivityTimeout const&) (.cold)
+CVRMsg_ExtendActivityTimeout::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
+CVRMsg_ExtendActivityTimeout::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (.cold)
+CVRMsg_ExtendActivityTimeout::New() const
+CVRMsg_ExtendActivityTimeout::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
+CVRMsg_ExtendActivityTimeout::SetCachedSize(int) const
+CVRMsg_ExtendActivityTimeout::SharedCtor()
+CVRMsg_ExtendActivityTimeout::SharedDtor()
+CVRMsg_ExtendActivityTimeout::Swap(CVRMsg_ExtendActivityTimeout*)
+CVRMsg_ExtendActivityTimeout::default_instance()
+CVRMsg_ExtendActivityTimeout::default_instance_
+CVRMsg_ExtendActivityTimeout::~CVRMsg_ExtendActivityTimeout()
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationInfo::ByteSize() const
 CVRMsg_GetApplicationInfo::CVRMsg_GetApplicationInfo()
@@ -15343,6 +15457,36 @@ CVRSteamPrivate_022::ShouldSetAsOpenXrRuntime()
 CVRSteamPrivate_022::ShowOverlayNotification(unsigned long, unsigned long, unsigned int, unsigned int*)
 CVRSteamPrivate_022::SwitchToDashboardOverlay(char const*)
 CVRSteamPrivate_022::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect, int)
+CVRSteamPrivate_023::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+CVRSteamPrivate_023::ExchangeCapabilities(bool*, unsigned int)
+CVRSteamPrivate_023::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+CVRSteamPrivate_023::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
+CVRSteamPrivate_023::GetOverlayHandle(char const*, unsigned long*)
+CVRSteamPrivate_023::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+CVRSteamPrivate_023::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+CVRSteamPrivate_023::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+CVRSteamPrivate_023::GetSteamOverlayFeatureFlags()
+CVRSteamPrivate_023::GetVRServerProcessId()
+CVRSteamPrivate_023::GetWebSharedSecret()
+CVRSteamPrivate_023::HideDashboard()
+CVRSteamPrivate_023::HideOverlayNotification(unsigned int)
+CVRSteamPrivate_023::MicrotxnFinished()
+CVRSteamPrivate_023::OculusSDKAppStarted()
+CVRSteamPrivate_023::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+CVRSteamPrivate_023::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int, unsigned int*)
+CVRSteamPrivate_023::PropertyContainerToTrackedDevice(unsigned long)
+CVRSteamPrivate_023::QuitProcess(unsigned int)
+CVRSteamPrivate_023::QuitSteamVR()
+CVRSteamPrivate_023::SendKeyboardDone()
+CVRSteamPrivate_023::SendKeyboardText(char const*)
+CVRSteamPrivate_023::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long)
+CVRSteamPrivate_023::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+CVRSteamPrivate_023::SetSubviewPosition(unsigned long, int, int)
+CVRSteamPrivate_023::ShouldKillTheaterPancakeProcess(unsigned int)
+CVRSteamPrivate_023::ShouldSetAsOpenXrRuntime()
+CVRSteamPrivate_023::ShowOverlayNotification(unsigned long, unsigned long, unsigned int, unsigned int*)
+CVRSteamPrivate_023::SwitchToDashboardOverlay(char const*)
+CVRSteamPrivate_023::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect, int)
 CVRSystemLatest::AcknowledgeQuit_Exiting()
 CVRSystemLatest::AcknowledgeQuit_Exiting() (.cold)
 CVRSystemLatest::AddOverlayToDestroyOnClose(unsigned long)
@@ -17062,6 +17206,7 @@ ComputeOverlayFromUV(OverlayTransformDetails_t const&, vr::HmdVector2_t const&)
 ComputeOverlayIdentity(char const*)
 ComputeOverlayIdentity(char const*)::k_desktopViewPrefix
 ComputeOverlayIdentity(char const*)::k_desktopWindowViewPrefix
+ComputeOverlayIdentity(char const*)::k_gamescopeSteamAppPrefix
 ComputeOverlayIdentity(char const*)::k_steamDesktopViewPrefix
 ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, bool*, float*, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*)
 ComputeOverlayIntersectionNormal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&)
@@ -17110,6 +17255,7 @@ Could not create interface in driver %s from %s.\n
 Could not find factor function in driver %s from %s.\n
 Could not find named path %s when loading %s\n
 Could not read x for vec2\n
+Could not retrieve path from handle.
 Could not translate path %s. Trying the raw path\n
 Couldn't find action %s. Ignoring it.\n
 Create
@@ -17154,7 +17300,6 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
-Dec  9 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -17169,6 +17314,7 @@ Determined this is a steamvr_input app.
 Device Calibration is invalid (207)
 Device is not calibrated (206)
 DeviceGC
+Dhyr,
 Did not find any drivers!
 DirectX::XMMatrixInverse(DirectX::__vector4*, DirectX::XMMATRIX const&)
 Disabling advanced image processing of scene textures. Only enabled on latest OSs.\n
@@ -17178,6 +17324,7 @@ DiscardFrameLocked
 Discarding sequence mismatched message type: %d, sequence: %d, expected type: %d, expected sequence: %d, pipe: %s\n
 DismissedWarnings
 Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
+Dmabuf modifiers disabled by environment variable STEAMVR_DISABLE_DMABUF_MODIFIERS!
 DominantHand
 Done reading EDID vendor Id.\n
 Dpad binding modification received for component (%s) and interaction profile (%s)
@@ -17257,6 +17404,15 @@ EXRHandleType GetXRHandleType<XrSession_T*>()
 EXRHandleType GetXRHandleType<XrSpace_T*>()
 EXRHandleType GetXRHandleType<XrSwapchain_T*>()
 EXTRASYSCONFDIR
+El#aq
+El#bs
+El#dv
+El#gj
+El#pj
+El#rk
+El#rq
+El#ur
+El#uz
 Element in "action_sets" is not a string
 Empty escape sequence in string
 Empty file.
@@ -17552,6 +17708,7 @@ FbPSt6vectorIhSaIhEEPSsRKSsPvE
 FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbcE
+Feb  5 2025
 February
 File %s not found\n
 File Not Found (103)
@@ -17722,6 +17879,7 @@ GL_EXT_semaphore_fd
 GenSessionId()::sNextSessionId
 GenerateChangeNotifications
 GenerateInteractionProfiles(CSxrInstance*)
+GenerateInteractionProfiles(CSxrInstance*)::'lambda'()::operator()() const::encrypted
 GenerateLinuxManifest(std::string, std::string)
 GenerateLinuxManifest(std::string, std::string) (.cold)
 GenerateSwapchainId()::s_currentId
@@ -17737,6 +17895,7 @@ GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.co
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0) (.cold)
 GetBestKeyboardImplementation(VRSystemLayerState_t const*)
 GetBitForBitnum(int)::bitsForBitnum
+GetClockRealtime()
 GetCommandLineArguments(std::vector<std::string, std::allocator<std::string>>&)
 GetCommandLineArguments(std::vector<std::string, std::allocator<std::string>>&) (.cold)
 GetCommandOutput(std::string const&, std::string*, std::string*)
@@ -17756,6 +17915,7 @@ GetDeviceExtensionProperties - no instance extensions supported\n
 GetDevicePoseFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long, unsigned int, vr::ETrackingUniverseOrigin)
 GetDpadBindings(char const*)
 GetDpadBindings(char const*) (.cold)
+GetDpadBindings(char const*)::'lambda'()::operator()() const::encrypted
 GetDpadDirection(std::string)
 GetDpadSubMode(std::string)
 GetEnglishStringForHmdError(vr::EVRInitError)
@@ -17814,8 +17974,8 @@ GetNextEventId()
 GetNextEventId()::ulMessageCounter
 GetNextMessage failed while waiting for message of type %d on pipe %s\n
 GetNotificationImageMemoryName(unsigned int, char*, unsigned int)
-GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*) (.constprop.0)
-GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*) (.constprop.0) (.cold)
+GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*)
+GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*) (.cold)
 GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) (.constprop.0)
 GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) (.constprop.0) (.cold)
 GetOpenGLFunctions() (.part.0)
@@ -18031,6 +18191,9 @@ HmdInterfaceRegistration<CVRSystem_021>::~HmdInterfaceRegistration()
 HmdMatrix34FromJson(Json::Value const&, vr::HmdMatrix34_t&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&) (.cold)
+HmdMatrix44FromJson(Json::Value const&, vr::HmdMatrix44_t&)
+HmdMatrix44ToJson(vr::HmdMatrix44_t const&)
+HmdMatrix44ToJson(vr::HmdMatrix44_t const&) (.cold)
 HmdMatrix_GetRotationEuler(vr::HmdMatrix34_t const&)
 HmdMatrix_Invert(vr::HmdMatrix34_t const&, bool*)
 HmdMatrix_Invert(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t*)
@@ -20677,7 +20840,7 @@ IVRScreenshots_
 IVRScreenshots_001
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_
 IVRSettings_001
@@ -20732,6 +20895,7 @@ IVRSteamPrivate_020
 IVRSteamPrivate_021
 IVRSteamPrivate_022
 IVRSteamPrivate_023
+IVRSteamPrivate_024
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan supported on Linux.\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
@@ -21353,6 +21517,7 @@ InitAssertCallback() (.cold)
 InitDevice
 InitDmabufModifiers(VkPhysicalDevice_T*)
 InitDmabufModifiers(VkPhysicalDevice_T*) (.cold)
+InitDmabufModifiers(VkPhysicalDevice_T*)::s_bDisableDmabufModifiers
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) (.cold)
 InitIfNeeded
@@ -21444,8 +21609,12 @@ Insufficient Chunk1(BIN) data size.
 Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 InteractionProfileFromControllerType(std::string)
 InteractionProfileFromControllerType(std::string) (.cold)
+InteractionProfileFromControllerType(std::string)::'lambda'()::operator()() const::encrypted
+InteractionProfileFromControllerType(std::string)::'lambda0'()::operator()() const::encrypted
 InteractionProfileInput_t& std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t>>::emplace_back<InteractionProfileInput_t>(InteractionProfileInput_t&&)
 InteractionProfileToControllerType(std::string)
+InteractionProfileToControllerType(std::string)::'lambda'()::operator()() const::encrypted
+InteractionProfileToControllerType(std::string)::'lambda0'()::operator()() const::encrypted
 Interface Not Found (105)
 InterfaceRegistrationBase::Find(char const*)
 InterfaceRegistrationBase::InterfaceRegistrationBase(char const*)
@@ -22011,6 +22180,7 @@ Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
+JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
 June
 KHR_audio
@@ -22281,6 +22451,7 @@ N2vr19IVRSteamPrivate_020E
 N2vr19IVRSteamPrivate_021E
 N2vr19IVRSteamPrivate_022E
 N2vr19IVRSteamPrivate_023E
+N2vr19IVRSteamPrivate_024E
 N2vr19IVRWatchdogProviderE
 N2vr20IVRResourcesInternalE
 N2vr21CVRApplicationsLatestE
@@ -22688,6 +22859,7 @@ PhysicalDeviceInfo_t::~PhysicalDeviceInfo_t()
 Plane count of DmabufAttributes_t not in range of 1 to %u. Was: %u
 Plat_IsInDebugSession
 Plat_IsInDebugSession::fp
+PointInPolygon(int, float const*, float const*, float, float, unsigned long, unsigned long)
 PointMaskIntersectionTest(float, float, vr::VROverlayIntersectionMaskPrimitive_t const*, unsigned int)
 PoolGC
 Pose
@@ -23074,6 +23246,7 @@ SRT_LAUNCHER_SERVICE_ALONGSIDE_STEAM
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_DISABLE_DMABUF_MODIFIERS
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
@@ -23107,7 +23280,7 @@ ScreenshotsInterfaceRegistration<CVRScreenshots_001>::GetInterface()
 ScreenshotsInterfaceRegistration<CVRScreenshots_001>::~ScreenshotsInterfaceRegistration()
 SecondsToSystemTicks(double)
 See 
-SelectClosestPoseToTime(VRTrackingState_t const*, unsigned int, double, bool, bool, VRTrackingState_Pose_t const**)
+SelectClosestPoseToTime(VRTrackingState_t const*, unsigned int, double, bool, bool, bool, VRTrackingState_Pose_t const**)
 Self queried namespace: %u\n
 Sending focus captured event\n
 Sending focus released event\n
@@ -23221,6 +23394,7 @@ Skipping role %s because the device is invalid\n
 Skipping simulated trackpad action %s(%d) because it doesn't have an output hand\n
 Skipping simulated trigger action %s(%d) because it doesn't have an output action\n
 Skipping vrwebhelper init. To override set STEAMVR_WEBHELPER=1\n
+Sleim
 Slerp(CTransform const&, CTransform const&, float)
 Socket closed\n
 SolveQuadratic(float, float, float, float*, float*)
@@ -23449,6 +23623,8 @@ SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>::GetInterface()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>::~SteamPrivateInterfaceRegistration()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>::GetInterface()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>::~SteamPrivateInterfaceRegistration()
+SteamPrivateInterfaceRegistration<CVRSteamPrivate_023>::GetInterface()
+SteamPrivateInterfaceRegistration<CVRSteamPrivate_023>::~SteamPrivateInterfaceRegistration()
 SteamStreaming
 SteamVR
 SteamVR Placeholder Instance
@@ -23677,6 +23853,7 @@ TranslateOpenXRInputComponentPath(std::string const&, std::string const&, std::s
 TranslateOpenXRInputComponentPath(std::string const&, std::string const&, std::string const&) (.cold)
 TranslateXrInputPath(unsigned long, std::string const&)
 TranslateXrInputPath(unsigned long, std::string const&) (.cold)
+Translating path: %s\t%s
 TrimTrailingWhitespace(std::string const&)
 Tuesday
 Turning on pipe debugging at the server's request\n
@@ -24029,7 +24206,6 @@ VREvent_ConsoleOpened
 VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
-VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
@@ -24479,6 +24655,7 @@ VRMsg_DestroySwapTextureSet
 VRMsg_DriverDebugRequest
 VRMsg_DriverDebugRequestAsync
 VRMsg_DriverDebugResponse
+VRMsg_ExtendActivityTimeout
 VRMsg_GetApplicationInfo
 VRMsg_GetApplicationInfoResponse
 VRMsg_GetDisplayInfo
@@ -25330,7 +25507,7 @@ Waiting for shared fd client failed\n
 WaitingForExternalLaunch
 Warning
 Warning: Analog threshold added to [%s -> %s]. This method is deprecated. Please use XR_TYPE_BINDING_MODIFICATIONS_KHR instead\n
-Warning: Dpad bindings can only be added to a single action set!
+Warning: Dpad bindings can only be added to a single action set.
 Warning: Dpad modifications already set for this component [%s]. Successive modification parameters for this component will be ignored.
 Warning: IsUserAdmin not yet implemented on non-windows Platforms\n
 Warning: Provided input path (%s) is not valid for this interaction profile (%s)
@@ -25485,9 +25662,11 @@ XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
 XR_EXT_hp_mixed_reality_controller
 XR_EXT_interaction_render_model
+XR_EXT_irm_toplevel_path
 XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_render_model
+XR_EXT_user_presence
 XR_EXT_uuid
 XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED
@@ -26198,6 +26377,7 @@ Zjz\v
 [abi:
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
+[xrInteractionRenderModelGetTopLevelUserPathEXT] Device %u didn't have %s set
 [xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %lu)
 [xrRenderModel] Asset was not loaded in memory when trying to retrieve data
 [xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
@@ -26225,6 +26405,7 @@ Zjz\v
 [xrRenderModel] nodeStateCount was not equal to animatableNodeCount
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
+\fUk#pb
 \nComment=Application for the 
 \nComment=URI handler for 
 \nDDS 
@@ -26718,6 +26899,7 @@ action_set
 action_sets
 actions
 actionset
+activateOtherDriversWhenEnabled
 activate_threshold
 active
 activeActionSets
@@ -27355,8 +27537,6 @@ covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
 create
-cryptor::string_encryptor<3ul>::decrypt() const
-cryptor::string_encryptor<7ul>::decrypt() const
 cs_cz
 cursor_index
 czech
@@ -27806,6 +27986,7 @@ fopen
 fopen64
 forbidden_options
 force
+forceSystemLayerUseAppPoses
 force_hold_threshold
 force_input
 force_pid
@@ -27976,6 +28157,7 @@ g_hmdSystem
 g_isDpadBindingEnabled
 g_isEyeGazeInteractionEnabled
 g_isHandModelPoseEnabled
+g_isRoyInteractionEnabled
 g_isViveTrackerProfileEnabled
 g_legalInteractionProfiles
 g_mutex
@@ -28060,7 +28242,7 @@ g_pVRPathsInternal
 g_pVRProperties
 g_pVRPropertiesInternal
 g_pVRResources
-g_pVRServer
+g_pVRServerInternal
 g_pVRSettings
 g_pVRSettingsInternal
 g_pVRSystem
@@ -28075,7 +28257,6 @@ g_unNextBlockQueueId
 g_vulkanTextureFormats
 gain
 gamepad
-gamescope.steam
 generator
 generic
 generic_hmd
@@ -28414,6 +28595,7 @@ greek
 green
 gripLimitData
 guard variable for 
+guard variable for (anonymous namespace)::GetDecryptionKeyChar(unsigned long)::decryptionKey
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
@@ -28437,6 +28619,7 @@ guard variable for CSXrRenderModelManager::GetInstance()::instance
 guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
 guard variable for CSettingsSetting::GetDefaultValue() const::Empty
 guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::k_pathDevicePath
 guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
 guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
 guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
@@ -28462,6 +28645,7 @@ guard variable for GetInputPathTypes(unsigned long, unsigned long)::s_emptySet
 guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
 guard variable for GetTrackedDeviceProperties()::eKeysVector
 guard variable for GetVulkanDeviceFunctions(VkDevice_T*)::s_MapVulkanDeviceFunctions
+guard variable for InitDmabufModifiers(VkPhysicalDevice_T*)::s_bDisableDmabufModifiers
 guard variable for InputConfig_t::IsDeviceIncludedInRestriction(unsigned long, unsigned long)::k_head
 guard variable for InputConfig_t::IsDeviceIncludedInRestriction(unsigned long, unsigned long)::k_leftHand
 guard variable for InputConfig_t::IsDeviceIncludedInRestriction(unsigned long, unsigned long)::k_rightHand
@@ -28556,13 +28740,14 @@ held
 hidden
 hidden alias for 
 hide_callout
-hide_dashboard_requested
+hide_dashboard
 hmd001
 hmd002
 hmd003
 hmd004
 hmd005
 hmd006
+hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_profile
 holographic_controller
@@ -29107,6 +29292,7 @@ nodes
 non-transaction clone for 
 non-virtual thunk to 
 non-virtual thunk to CHmdSystemLatest::AbortTransition()
+non-virtual thunk to CHmdSystemLatest::BRoomViewStreaming()
 non-virtual thunk to CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)
 non-virtual thunk to CHmdSystemLatest::ForceQuitProcess(unsigned int)
 non-virtual thunk to CHmdSystemLatest::ForwardLogMessageToServer(unsigned long, char const*, unsigned int, unsigned int, char const*)
@@ -29504,6 +29690,7 @@ non-virtual thunk to std::basic_iostream<char, std::char_traits<char>>::~basic_i
 non-virtual thunk to std::basic_iostream<wchar_t, std::char_traits<wchar_t>>::~basic_iostream()
 non-virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
 non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_stringstream()
+non-virtual thunk to vr::CVRApplicationsLatest::BLastSceneAppWasSteamStreamingLaunch()
 non-virtual thunk to vr::CVRApplicationsLatest::IsSceneAppOpenOrTransitioning()
 non-virtual thunk to vr::CVRApplicationsLatest::IsSceneAppQuitting(unsigned int)
 non-virtual thunk to vr::CVRApplicationsLatest::SetSceneAppDetails(bool, bool, bool, bool, bool)
@@ -29603,6 +29790,9 @@ optional member 'simulated_actions' is not an array
 options
 options field exists, but it is not an object
 origin
+origin_position_x
+origin_position_y
+origin_position_z
 origin_to_highlight
 orthographic
 other_error
@@ -29882,7 +30072,6 @@ s_bMinidumpCommentAlreadySet
 s_fnPreCrashCallback
 s_mapDumpedAsserts
 s_mapTimings
-s_mat33Identity
 s_mat34Identity
 s_pInstance
 s_pLogCallback
@@ -29971,29 +30160,17 @@ shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
-shaders/vulkan/distort_geom_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_curved_vs.spv
-shaders/vulkan/distort_geom_drawregion_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_curved_vs.spv
 shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
 shaders/vulkan/distort_geom_drawregion_ps.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_curved_vs.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_ptnorm_vs.spv
 shaders/vulkan/distort_geom_drawregion_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
-shaders/vulkan/distort_geom_drawregion_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_drawregion_vs.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_ps.spv
-shaders/vulkan/distort_geom_floor_vs.spv
 shaders/vulkan/distort_geom_fresnel_ps.spv
-shaders/vulkan/distort_geom_fresnel_vs.spv
 shaders/vulkan/distort_geom_grid_ps.spv
 shaders/vulkan/distort_geom_grid_vs.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_lines_ps.spv
@@ -30005,26 +30182,15 @@ shaders/vulkan/distort_geom_ltc_diff_ps.spv
 shaders/vulkan/distort_geom_ltc_ps.spv
 shaders/vulkan/distort_geom_ltc_spec_ps.spv
 shaders/vulkan/distort_geom_motes_ps.spv
-shaders/vulkan/distort_geom_motes_vs.spv
 shaders/vulkan/distort_geom_multitap_ps.spv
 shaders/vulkan/distort_geom_pbr_ps.spv
 shaders/vulkan/distort_geom_ps.spv
-shaders/vulkan/distort_geom_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_ptnorm_curved_vs.spv
-shaders/vulkan/distort_geom_ptnorm_ortho_out_vs.spv
-shaders/vulkan/distort_geom_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/distort_geom_ptnorm_vs.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
 shaders/vulkan/distort_geom_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_simplified_ps.spv
 shaders/vulkan/distort_geom_simplified_reflect_ps.spv
-shaders/vulkan/distort_geom_spherical_vs.spv
-shaders/vulkan/distort_geom_tan_vs.spv
-shaders/vulkan/distort_geom_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_vignette_ps.spv
-shaders/vulkan/distort_geom_vignette_vs.spv
-shaders/vulkan/distort_geom_vs.spv
 shaders/vulkan/distort_geom_write_norm_ps.spv
 shaders/vulkan/distort_geom_write_norm_vs.spv
 shaders/vulkan/distort_none_ps.spv
@@ -30034,6 +30200,7 @@ shaders/vulkan/distort_none_vs.spv
 shaders/vulkan/distort_panorama_dome_ps.spv
 shaders/vulkan/distort_panorama_dome_radius_ps.spv
 shaders/vulkan/distort_panorama_ps.spv
+shaders/vulkan/distort_panorama_solid_color_ps.spv
 shaders/vulkan/distort_panorama_vs.spv
 shaders/vulkan/distort_ps.spv
 shaders/vulkan/distort_ps_achromatic.spv
@@ -30075,6 +30242,29 @@ shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
+shaders/vulkan/geom_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_curved_vs.spv
+shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_curved_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_curved_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_ptnorm_vs.spv
+shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_vs.spv
+shaders/vulkan/geom_floor_vs.spv
+shaders/vulkan/geom_fresnel_vs.spv
+shaders/vulkan/geom_motes_vs.spv
+shaders/vulkan/geom_ptnorm_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_ptnorm_curved_vs.spv
+shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
+shaders/vulkan/geom_ptnorm_uvs_embedded_vs.spv
+shaders/vulkan/geom_ptnorm_vs.spv
+shaders/vulkan/geom_spherical_vs.spv
+shaders/vulkan/geom_tan_vs.spv
+shaders/vulkan/geom_uvs_embedded_vs.spv
+shaders/vulkan/geom_vignette_vs.spv
+shaders/vulkan/geom_vs.spv
 shaders/vulkan/gpu_measurement_ps.spv
 shaders/vulkan/gpu_measurement_vs.spv
 shaders/vulkan/linepixelsim2_cs.spv
@@ -30625,6 +30815,7 @@ std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::a
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::find(std::string const&)
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::~_Hashtable()
+std::_Hashtable<unsigned int, std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>, std::allocator<std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_Hashtable(std::_Hashtable<unsigned int, std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>, std::allocator<std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>&&)
 std::_Hashtable<unsigned int, std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>, std::allocator<std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>, false>*, unsigned long)
 std::_Hashtable<unsigned int, std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>, std::allocator<std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<unsigned int, std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>, std::allocator<std::pair<unsigned int const, std::vector<unsigned long, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::~_Hashtable()
@@ -34494,6 +34685,8 @@ sxr_wrap_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGrap
 sxr_wrap_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsVulkanKHR*) (.cold)
 sxr_wrap_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*)
 sxr_wrap_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*) (.cold)
+sxr_wrap_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
+sxr_wrap_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*) (.cold)
 sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*)
 sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*) (.cold)
 sxr_wrap_xrLocateSpace(XrSpace_T*, XrSpace_T*, long, XrSpaceLocation*)
@@ -34702,6 +34895,8 @@ sxr_xrGetVulkanGraphicsRequirementsKHR
 sxr_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsVulkanKHR*)
 sxr_xrGetVulkanInstanceExtensionsKHR
 sxr_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*)
+sxr_xrInteractionRenderModelGetTopLevelUserPathEXT
+sxr_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
 sxr_xrLocateHandJointsEXT
 sxr_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*)
 sxr_xrLocateSpace
@@ -34805,6 +35000,9 @@ tRNS before PLTE
 tRNS with alpha
 tanf
 target
+target_position_x
+target_position_y
+target_position_z
 targets
 tchinese
 template parameter object for 
@@ -35129,6 +35327,7 @@ touchy_click
 touchy_latch
 toupper
 tr_tr
+tracked
 trackedCamera
 tracked_device_index
 tracker_types
@@ -35546,6 +35745,7 @@ typeinfo for CVRMsg_DestroySwapTextureSet
 typeinfo for CVRMsg_DriverDebugRequest
 typeinfo for CVRMsg_DriverDebugResponse
 typeinfo for CVRMsg_ExchangeCapabilities
+typeinfo for CVRMsg_ExtendActivityTimeout
 typeinfo for CVRMsg_GetApplicationInfo
 typeinfo for CVRMsg_GetApplicationLaunchArguments
 typeinfo for CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -35738,6 +35938,7 @@ typeinfo for CVRSteamPrivate_019
 typeinfo for CVRSteamPrivate_020
 typeinfo for CVRSteamPrivate_021
 typeinfo for CVRSteamPrivate_022
+typeinfo for CVRSteamPrivate_023
 typeinfo for CVRSystemLatest
 typeinfo for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::'lambda'(vr::ETrackedDeviceClass)
 typeinfo for CVRSystem_001
@@ -36013,6 +36214,7 @@ typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_019>
 typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_020>
 typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>
 typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>
+typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_023>
 typeinfo for SystemInterfaceRegistration<CHmdSystem_001>
 typeinfo for SystemInterfaceRegistration<CHmdSystem_004>
 typeinfo for SystemInterfaceRegistration<CVRClientCore_001>
@@ -36501,6 +36703,7 @@ typeinfo for vr::IVRSteamPrivate_020
 typeinfo for vr::IVRSteamPrivate_021
 typeinfo for vr::IVRSteamPrivate_022
 typeinfo for vr::IVRSteamPrivate_023
+typeinfo for vr::IVRSteamPrivate_024
 typeinfo for vr::IVRSystem
 typeinfo for vr::IVRTrackedCamera
 typeinfo for vr::IVRTrackedCameraInternal
@@ -36845,6 +37048,7 @@ typeinfo name for CVRMsg_DestroySwapTextureSet
 typeinfo name for CVRMsg_DriverDebugRequest
 typeinfo name for CVRMsg_DriverDebugResponse
 typeinfo name for CVRMsg_ExchangeCapabilities
+typeinfo name for CVRMsg_ExtendActivityTimeout
 typeinfo name for CVRMsg_GetApplicationInfo
 typeinfo name for CVRMsg_GetApplicationLaunchArguments
 typeinfo name for CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -37037,6 +37241,7 @@ typeinfo name for CVRSteamPrivate_019
 typeinfo name for CVRSteamPrivate_020
 typeinfo name for CVRSteamPrivate_021
 typeinfo name for CVRSteamPrivate_022
+typeinfo name for CVRSteamPrivate_023
 typeinfo name for CVRSystemLatest
 typeinfo name for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::'lambda'(vr::ETrackedDeviceClass)
 typeinfo name for CVRSystem_001
@@ -37313,6 +37518,7 @@ typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_019>
 typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_020>
 typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>
 typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>
+typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_023>
 typeinfo name for SystemInterfaceRegistration<CHmdSystem_001>
 typeinfo name for SystemInterfaceRegistration<CHmdSystem_004>
 typeinfo name for SystemInterfaceRegistration<CVRClientCore_001>
@@ -37803,6 +38009,7 @@ typeinfo name for vr::IVRSteamPrivate_020
 typeinfo name for vr::IVRSteamPrivate_021
 typeinfo name for vr::IVRSteamPrivate_022
 typeinfo name for vr::IVRSteamPrivate_023
+typeinfo name for vr::IVRSteamPrivate_024
 typeinfo name for vr::IVRSystem
 typeinfo name for vr::IVRTrackedCamera
 typeinfo name for vr::IVRTrackedCameraInternal
@@ -37880,6 +38087,7 @@ uw_update_context
 uw_update_context.cold
 uw_update_context_1
 uw_update_context_1.cold
+valid
 value
 value_hold_threshold
 value_mapping
@@ -37889,6 +38097,7 @@ values
 valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
+valve.steam.gamepadui.main
 variant
 vector1
 vector2
@@ -39105,6 +39314,7 @@ vr::CVRApplicationsLatest::AddApplicationManifest(char const*, bool)
 vr::CVRApplicationsLatest::AddApplicationManifest(char const*, bool) (.cold)
 vr::CVRApplicationsLatest::BInit(CVRSystemLatest*, CVRClient*, IVRClientInternal*)
 vr::CVRApplicationsLatest::BInit(CVRSystemLatest*, CVRClient*, IVRClientInternal*) (.cold)
+vr::CVRApplicationsLatest::BLastSceneAppWasSteamStreamingLaunch()
 vr::CVRApplicationsLatest::CVRApplicationsLatest()
 vr::CVRApplicationsLatest::CancelApplicationLaunch(char const*)
 vr::CVRApplicationsLatest::CancelApplicationLaunch(char const*) (.cold)
@@ -39308,6 +39518,8 @@ vr::CVRSteamPrivateLatest::CVRSteamPrivateLatest()
 vr::CVRSteamPrivateLatest::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
 vr::CVRSteamPrivateLatest::ExchangeCapabilities(bool*, unsigned int)
 vr::CVRSteamPrivateLatest::ExchangeCapabilities(bool*, unsigned int) (.cold)
+vr::CVRSteamPrivateLatest::ExtendActivityTimeout(unsigned int, double)
+vr::CVRSteamPrivateLatest::ExtendActivityTimeout(unsigned int, double) (.cold)
 vr::CVRSteamPrivateLatest::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
 vr::CVRSteamPrivateLatest::GameActionTaskChange(unsigned int, char const*, char const*, char const*) (.cold)
 vr::CVRSteamPrivateLatest::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
@@ -39317,6 +39529,9 @@ vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordance(unsigned long, vr::VR
 vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int) (.cold)
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda'()::operator()() const::encrypted
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda0'()::operator()() const::encrypted
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda1'()::operator()() const::encrypted
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_PathEmpty
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonLeftPressed
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonRightPressed
@@ -39472,6 +39687,7 @@ vrSteamPrivate019
 vrSteamPrivate020
 vrSteamPrivate021
 vrSteamPrivate022
+vrSteamPrivate023
 vrWatchdogHost001
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
@@ -39540,7 +39756,7 @@ vr_internal::VRPropertiesRaw()
 vr_internal::VRRenderModels()
 vr_internal::VRRenderModelsInternal()
 vr_internal::VRResources()
-vr_internal::VRServer()
+vr_internal::VRServerInternal()
 vr_internal::VRSettings()
 vr_internal::VRSettings() != nullptr
 vr_internal::VRSettingsInternal()
@@ -40059,6 +40275,7 @@ vtable for CVRMsg_DestroySwapTextureSet
 vtable for CVRMsg_DriverDebugRequest
 vtable for CVRMsg_DriverDebugResponse
 vtable for CVRMsg_ExchangeCapabilities
+vtable for CVRMsg_ExtendActivityTimeout
 vtable for CVRMsg_GetApplicationInfo
 vtable for CVRMsg_GetApplicationLaunchArguments
 vtable for CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -40251,6 +40468,7 @@ vtable for CVRSteamPrivate_019
 vtable for CVRSteamPrivate_020
 vtable for CVRSteamPrivate_021
 vtable for CVRSteamPrivate_022
+vtable for CVRSteamPrivate_023
 vtable for CVRSystemLatest
 vtable for CVRSystem_001
 vtable for CVRSystem_002
@@ -40465,6 +40683,7 @@ vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_019>
 vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_020>
 vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_021>
 vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_022>
+vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_023>
 vtable for SystemInterfaceRegistration<CHmdSystem_001>
 vtable for SystemInterfaceRegistration<CHmdSystem_004>
 vtable for SystemInterfaceRegistration<CVRClientCore_001>
@@ -40872,6 +41091,7 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrInteractionRenderModelGetTopLevelUserPathEXT
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT

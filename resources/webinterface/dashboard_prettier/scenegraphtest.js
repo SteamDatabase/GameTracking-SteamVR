@@ -3,7 +3,7 @@
   "use strict";
   var e,
     t = {
-      9119: (e, t, r) => {
+      5971: (e, t, r) => {
         var i,
           o,
           n,
@@ -14,8 +14,8 @@
           p,
           c,
           u,
-          _,
           h,
+          _,
           m,
           g,
           v,
@@ -29,7 +29,7 @@
           I = r(7294),
           M = r(3935),
           B = r(7056);
-        class k {
+        class P {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.m_oHandlers = {}),
@@ -71,7 +71,7 @@
           Init(e, t) {
             return (0, C.mG)(this, void 0, void 0, function* () {
               return (
-                (this.m_sMailboxName = k.EnsureUniqueName(e)),
+                (this.m_sMailboxName = P.EnsureUniqueName(e)),
                 (this.m_sWebSecret = t),
                 (this.connected = !1),
                 this.OpenWebSocketToHost()
@@ -177,7 +177,7 @@
             (r.message_id = e.message_id), this.SendMessage(e.returnAddress, r);
           }
         }
-        function P(e, t) {
+        function k(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) {
             if ("undefined" == r) return;
@@ -186,15 +186,15 @@
             if (e.length > 0) return e;
           }
         }
-        function w(e, t) {
+        function x(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseFloat(r);
         }
-        function E(e, t) {
+        function w(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseInt(r);
         }
-        function x(e, t) {
+        function E(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0)
             return (
@@ -213,7 +213,7 @@
           let r = { type: e, properties: {} };
           return (
             t.id && (r.properties.id = z(t.id)),
-            (r.properties.sgid = E(t, "sgid")),
+            (r.properties.sgid = w(t, "sgid")),
             r
           );
         }
@@ -226,14 +226,18 @@
               switch (t.nodeName.toUpperCase()) {
                 case "VSG-TRANSFORM":
                   (o = F("transform", t)),
-                    (o.properties.translation = P(t, "translation")),
-                    (o.properties.rotation = P(t, "rotation")),
-                    (o.properties.scale = P(t, "scale")),
-                    (o.properties["curvature-pitch"] = w(t, "curvature-pitch")),
+                    (o.properties.translation = k(t, "translation")),
+                    (o.properties.rotation = k(t, "rotation")),
+                    (o.properties.scale = k(t, "scale")),
+                    (o.properties["curvature-pitch"] = x(t, "curvature-pitch")),
                     (o.properties["transform-path"] = T(t, "transform-path")),
-                    (o.properties["invert-parent-panel-pitch"] = x(
+                    (o.properties["invert-parent-panel-pitch"] = E(
                       t,
                       "invert-parent-panel-pitch",
+                    )),
+                    (o.properties["ignore-parent-scale"] = E(
+                      t,
+                      "ignore-parent-scale",
                     )),
                     (o.properties["parent-path"] = T(t, "parent-path")),
                     (o.properties["parent-origin"] = T(t, "parent-origin")),
@@ -241,37 +245,37 @@
                   break;
                 case "VSG-TRACKING-STATE-VISIBILITY":
                   (o = F("trackingstatevisibility", t)),
-                    (o.properties["visible-0dof"] = x(t, "visible-0dof")),
-                    (o.properties["visible-3dof"] = x(t, "visible-3dof")),
-                    (o.properties["visible-6dof"] = x(t, "visible-6dof"));
+                    (o.properties["visible-0dof"] = E(t, "visible-0dof")),
+                    (o.properties["visible-3dof"] = E(t, "visible-3dof")),
+                    (o.properties["visible-6dof"] = E(t, "visible-6dof"));
                   break;
                 case "VSG-ELASTIC-HEAD-TRANSFORM":
                   (o = F("elasticheadtransform", t)),
-                    (o.properties["start-angle-threshold"] = w(
+                    (o.properties["start-angle-threshold"] = x(
                       t,
                       "start-angle-threshold",
                     )),
-                    (o.properties["stop-angle-threshold"] = w(
+                    (o.properties["stop-angle-threshold"] = x(
                       t,
                       "stop-angle-threshold",
                     )),
-                    (o.properties["ease-in-time"] = w(t, "ease-in-time")),
-                    (o.properties["ease-in-power"] = w(t, "ease-in-power")),
-                    (o.properties["ease-out-angle-threshold"] = w(
+                    (o.properties["ease-in-time"] = x(t, "ease-in-time")),
+                    (o.properties["ease-in-power"] = x(t, "ease-in-power")),
+                    (o.properties["ease-out-angle-threshold"] = x(
                       t,
                       "ease-out-angle-threshold",
                     )),
-                    (o.properties["ease-out-power"] = w(t, "ease-out-power")),
-                    (o.properties["min-angular-velocity"] = w(
+                    (o.properties["ease-out-power"] = x(t, "ease-out-power")),
+                    (o.properties["min-angular-velocity"] = x(
                       t,
                       "min-angular-velocity",
                     )),
-                    (o.properties["max-angular-velocity"] = w(
+                    (o.properties["max-angular-velocity"] = x(
                       t,
                       "max-angular-velocity",
                     )),
-                    (o.properties["lock-to-horizon"] = x(t, "lock-to-horizon")),
-                    (o.properties["translation-behavior"] = E(
+                    (o.properties["lock-to-horizon"] = E(t, "lock-to-horizon")),
+                    (o.properties["translation-behavior"] = w(
                       t,
                       "translation-behavior",
                     ));
@@ -279,83 +283,83 @@
                 case "VSG-LINE":
                   (o = F("line", t)),
                     (o.properties["target-id"] = N(t, "target-id")),
-                    (o.properties.thickness = w(t, "thickness")),
-                    (o.properties["start-buffer"] = w(t, "start-buffer")),
-                    (o.properties["end-buffer"] = w(t, "end-buffer"));
+                    (o.properties.thickness = x(t, "thickness")),
+                    (o.properties["start-buffer"] = x(t, "start-buffer")),
+                    (o.properties["end-buffer"] = x(t, "end-buffer"));
                   break;
                 case "VSG-LINE-CONSTRAINED-TRANSFORM":
                   (o = F("line-constrained-transform", t)),
                     (o.properties["target-id"] = N(t, "target-id")),
                     (o.properties["source-id"] = N(t, "source-id")),
-                    (o.properties["source-distance"] = w(t, "source-distance")),
-                    (o.properties["target-limit"] = w(t, "target-limit"));
+                    (o.properties["source-distance"] = x(t, "source-distance")),
+                    (o.properties["target-limit"] = x(t, "target-limit"));
                   break;
                 case "VSG-CALLOUT-TRANSFORM":
                   (o = F("callout-transform", t)),
-                    (o.properties.offset = P(t, "offset"));
+                    (o.properties.offset = k(t, "offset"));
                   break;
                 case "VSG-HEAD-FACING-TRANSFORM":
                   o = F("head-facing-transform", t);
                   break;
                 case "VSG-PIN-TO-VIEW-TRANSFORM":
                   (o = F("pin-to-view-transform", t)),
-                    (o.properties["offscreen-z-depth"] = w(
+                    (o.properties["offscreen-z-depth"] = x(
                       t,
                       "offscreen-z-depth",
                     )),
-                    (o.properties["off-axis-limit"] = w(t, "off-axis-limit")),
-                    (o.properties["transition-limit"] = w(
+                    (o.properties["off-axis-limit"] = x(t, "off-axis-limit")),
+                    (o.properties["transition-limit"] = x(
                       t,
                       "transition-limit",
                     ));
                   break;
                 case "VSG-MANIPULATION-TRANSFORM":
                   (o = F("manipulation-transform", t)),
-                    (o.properties["is-moving"] = x(t, "is-moving")),
+                    (o.properties["is-moving"] = E(t, "is-moving")),
                     (o.properties["parent-path"] = T(t, "parent-path")),
-                    (o.properties.translation = P(t, "translation")),
-                    (o.properties.rotation = P(t, "rotation")),
-                    (o.properties.scale = P(t, "scale"));
+                    (o.properties.translation = k(t, "translation")),
+                    (o.properties.rotation = k(t, "rotation")),
+                    (o.properties.scale = k(t, "scale"));
                   break;
                 case "VSG-GRAB-TRANSFORM":
                   (o = F("grab-transform", t)),
                     (o.properties["parent-path"] = T(t, "parent-path")),
-                    (o.properties.translation = P(t, "translation")),
-                    (o.properties.rotation = P(t, "rotation")),
-                    (o.properties.scale = P(t, "scale")),
-                    (o.properties["should-head-align"] = x(
+                    (o.properties.translation = k(t, "translation")),
+                    (o.properties.rotation = k(t, "rotation")),
+                    (o.properties.scale = k(t, "scale")),
+                    (o.properties["should-head-align"] = E(
                       t,
                       "should-head-align",
                     )),
-                    (o.properties["stop-distance"] = w(t, "stop-distance")),
-                    (o.properties["start-angle"] = w(t, "start-angle")),
-                    (o.properties["start-quat-difference"] = w(
+                    (o.properties["stop-distance"] = x(t, "stop-distance")),
+                    (o.properties["start-angle"] = x(t, "start-angle")),
+                    (o.properties["start-quat-difference"] = x(
                       t,
                       "start-quat-difference",
                     )),
-                    (o.properties["stop-quat-difference"] = w(
+                    (o.properties["stop-quat-difference"] = x(
                       t,
                       "stop-quat-difference",
                     )),
-                    (o.properties["scale-margin"] = w(t, "scale-margin")),
-                    (o.properties["lerp-speed"] = w(t, "lerp-speed")),
-                    (o.properties["min-distance"] = w(t, "min-distance")),
-                    (o.properties["max-distance"] = w(t, "max-distance")),
-                    (o.properties["one-to-one-radius"] = w(
+                    (o.properties["scale-margin"] = x(t, "scale-margin")),
+                    (o.properties["lerp-speed"] = x(t, "lerp-speed")),
+                    (o.properties["min-distance"] = x(t, "min-distance")),
+                    (o.properties["max-distance"] = x(t, "max-distance")),
+                    (o.properties["one-to-one-radius"] = x(
                       t,
                       "one-to-one-radius",
                     )),
-                    (o.properties["max-x-squared-contribution"] = w(
+                    (o.properties["max-x-squared-contribution"] = x(
                       t,
                       "max-x-squared-contribution",
                     )),
-                    (o.properties["acceleration-factor-x-coefficient"] = w(
+                    (o.properties["acceleration-factor-x-coefficient"] = x(
                       t,
                       "acceleration-factor-x-coefficient",
                     )),
                     (o.properties["acceleration-factor-x-squared-coefficient"] =
-                      w(t, "acceleration-factor-x-squared-coefficient")),
-                    (o.properties["acceleration-factor-scale-term"] = w(
+                      x(t, "acceleration-factor-x-squared-coefficient")),
+                    (o.properties["acceleration-factor-scale-term"] = x(
                       t,
                       "acceleration-factor-scale-term",
                     ));
@@ -380,12 +384,12 @@
                   : [{ children: o }]
                 : null;
         }
-        (k.s_nNextMailboxNumber = 1),
-          (0, C.gn)([B.ak], k.prototype, "OpenWebSocketToHost", null),
-          (0, C.gn)([B.ak], k.prototype, "OnWebSocketOpen", null),
-          (0, C.gn)([B.ak], k.prototype, "OnWebSocketClose", null),
-          (0, C.gn)([B.ak], k.prototype, "WebSocketSend", null),
-          (0, C.gn)([B.ak], k.prototype, "OnWebSocketMessage", null),
+        (P.s_nNextMailboxNumber = 1),
+          (0, C.gn)([B.ak], P.prototype, "OpenWebSocketToHost", null),
+          (0, C.gn)([B.ak], P.prototype, "OnWebSocketOpen", null),
+          (0, C.gn)([B.ak], P.prototype, "OnWebSocketClose", null),
+          (0, C.gn)([B.ak], P.prototype, "WebSocketSend", null),
+          (0, C.gn)([B.ak], P.prototype, "OnWebSocketMessage", null),
           (function (e) {
             (e[(e.Desktop = 1)] = "Desktop"),
               (e[(e.Overlay = 2)] = "Overlay"),
@@ -467,11 +471,14 @@
               (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior"),
               (e[(e.IsPremultiplied = 2097152)] = "IsPremultiplied"),
               (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
-              (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
               (e[(e.EnableControlBarKeyboard = 16777216)] =
                 "EnableControlBarKeyboard"),
               (e[(e.EnableControlBarClose = 33554432)] =
-                "EnableControlBarClose");
+                "EnableControlBarClose"),
+              (e[(e.MinimalControlBar = 67108864)] = "MinimalControlBar"),
+              (e[(e.EnableClickStabilization = 134217728)] =
+                "EnableClickStabilization"),
+              (e[(e.MultiCursor = 268435456)] = "MultiCursor");
           })(d || (d = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -495,7 +502,7 @@
               (e[(e.Quitting = 2)] = "Quitting"),
               (e[(e.Running = 3)] = "Running"),
               (e[(e.Waiting = 4)] = "Waiting");
-          })(_ || (_ = {})),
+          })(h || (h = {})),
           (function (e) {
             (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
               (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -506,7 +513,7 @@
               (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
                 "CouldntFindOrCreateClientOverlay"),
               (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(h || (h = {})),
+          })(_ || (_ = {})),
           (function (e) {
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
@@ -587,8 +594,8 @@
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
           })(R || (R = {}));
-        let V,
-          A,
+        let A,
+          V,
           L,
           U,
           H = [],
@@ -611,7 +618,7 @@
                 ? void 0
                 : VRHTML.VROverlay.ThisOverlayKey()) && void 0 !== e
             ? e
-            : V;
+            : A;
         }
         function K() {
           W ||
@@ -619,7 +626,7 @@
               () =>
                 (0, C.mG)(this, void 0, void 0, function* () {
                   let e = document.body;
-                  A && (e = A);
+                  V && (e = V);
                   let t = {
                     type: "root",
                     rootproperties: {
@@ -638,7 +645,7 @@
                   };
                   G ||
                     (console.log("Initializing sg_mailbox"),
-                    (G = new k()),
+                    (G = new P()),
                     yield G.Init("sg_mailbox", L));
                   let r = {
                     type: "update_scene_graph",
@@ -822,19 +829,37 @@
             super(e), super.setBuildNodeOverride(this.buildNode);
           }
           getNodeType() {
-            return "tint";
+            return Array.isArray(this.props.color) &&
+              this.props.color.length > 1
+              ? "tint-anim"
+              : "tint";
           }
           buildNode(e, t) {
             const r = this.createSgNode(t);
-            if (this.props.color)
-              if ("string" == typeof this.props.color)
-                r.properties.color = this.props.color;
-              else {
-                let e = X(this.props.color, { r: 1, g: 1, b: 1 });
-                r.properties.color = [e.r, e.g, e.b];
-              }
-            else r.properties.color = [1, 1, 1];
-            return [e, r];
+            return (
+              this.props.color
+                ? "string" == typeof this.props.color
+                  ? (r.properties.color = this.props.color)
+                  : Array.isArray(this.props.color)
+                    ? (this.props.color.length > 0 &&
+                      "string" == typeof this.props.color[0]
+                        ? (r.properties.color =
+                            this.props.color.length > 1
+                              ? this.props.color
+                              : this.props.color[0])
+                        : (r.properties.color = this.props.color
+                            .map((e) => [e.r, e.g, e.b])
+                            .reduce((e, t) => e.concat(t), [])),
+                      (r.properties["animation-seconds"] =
+                        this.props.animationSeconds))
+                    : (r.properties.color = [
+                        this.props.color.r,
+                        this.props.color.g,
+                        this.props.color.b,
+                      ])
+                : (r.properties.color = [1, 1, 1]),
+              [e, r]
+            );
           }
         }
         (0, C.gn)([B.ZP], ee.prototype, "buildNode", null);
@@ -850,7 +875,7 @@
             return (r.properties.opacity = this.props.value), [e, r];
           }
         }
-        var re, ie, oe, ne, se, ae, le, de, pe, ce, ue, _e, he, me, ge, ve;
+        var re, ie, oe, ne, se, ae, le, de, pe, ce, ue, he, _e, me, ge, ve;
         (0, C.gn)([B.ZP], te.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
@@ -925,6 +950,7 @@
                 "curvature-pitch": this.props.curvature_pitch,
                 "invert-parent-panel-pitch":
                   this.props.invert_parent_panel_pitch,
+                "ignore-parent-scale": this.props.ignore_parent_scale,
                 "transform-path": this.props.transform_path,
                 "parent-path": this.props.parent_path,
                 "parent-origin": re[this.props.parent_origin],
@@ -1339,8 +1365,8 @@
                 ((i = this.props.owning_overlay_key),
                 (o = this.m_DomRef.current),
                 (n = this.props.web_secret),
-                (V = i),
-                (A = o),
+                (A = i),
+                (V = o),
                 (L = n),
                 console.log("Setting owning overlay key to " + i));
           }
@@ -1786,6 +1812,23 @@
           "buildNode",
           null,
         ),
+          (0, C.gn)(
+            [B.ZP],
+            class extends J {
+              constructor(e) {
+                super(e), super.setBuildNodeOverride(this.buildNode);
+              }
+              getNodeType() {
+                return "context";
+              }
+              buildNode(e, t) {
+                const r = this.createSgNode(t);
+                return (r.properties.construct = this.props.construct), [e, r];
+              }
+            }.prototype,
+            "buildNode",
+            null,
+          ),
           (function (e) {
             (e[(e.LockedToParent = 0)] = "LockedToParent"),
               (e[(e.LockedToWorld = 1)] = "LockedToWorld");
@@ -2079,6 +2122,7 @@
           (ve[(ve.DriverProvidedIPDVisibility_Bool = 2108)] =
             "DriverProvidedIPDVisibility_Bool"),
           (ve[(ve.Prop_Driver_Reserved_01 = 2109)] = "Prop_Driver_Reserved_01"),
+          (ve[(ve.Prop_Driver_Reserved_03 = 2111)] = "Prop_Driver_Reserved_03"),
           (ve[(ve.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (ve[(ve.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -2210,13 +2254,13 @@
               (e[(e.Snap = 3)] = "Snap"),
               (e[(e.Sliding = 4)] = "Sliding"),
               (e[(e.SlidingEdge = 5)] = "SlidingEdge");
-          })(_e || (_e = {})),
+          })(he || (he = {})),
           (function (e) {
             (e[(e.Minimal = 1)] = "Minimal"),
               (e[(e.Modal = 2)] = "Modal"),
               (e[(e.ShowArrowKeys = 4)] = "ShowArrowKeys"),
               (e[(e.HideDoneKey = 8)] = "HideDoneKey");
-          })(he || (he = {})),
+          })(_e || (_e = {})),
           (function (e) {
             (e[(e.Unknown = -1)] = "Unknown"),
               (e[(e.Idle = 0)] = "Idle"),
@@ -2356,7 +2400,7 @@
               (this.animationFrameHandle = window.requestAnimationFrame(
                 this.onAnimationFrame,
               )),
-              (this.mailbox = new k()),
+              (this.mailbox = new P()),
               this.mailbox.Init("scenegraphtest"),
               this.mailbox.RegisterHandler("fnord", this.onMailboxMessage);
           }
@@ -2753,7 +2797,7 @@
       r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));
     })(),
     (i.nc = void 0);
-  var o = i.O(void 0, [968], () => i(9119));
+  var o = i.O(void 0, [968], () => i(5971));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=9b1c8b4eaf251e025ebf
+//# sourceMappingURL=scenegraphtest.js.map?v=6809846284c41fa9df24

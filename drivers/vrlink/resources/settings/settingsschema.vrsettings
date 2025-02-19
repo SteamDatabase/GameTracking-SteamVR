@@ -109,6 +109,11 @@
                 }
             },
             {
+                "name": "/settings/driver_vrlink/enableHandTracking",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_enableHandTracking"
+            },
+            {
                 "name": "/settings/driver_vrlink/showAdvancedGraphs",
                 "control": "toggle",
                 "label": "#{vrlink}Setting_showAdvancedGraphs",

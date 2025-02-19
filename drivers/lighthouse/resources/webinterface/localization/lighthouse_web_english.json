@@ -35,8 +35,8 @@
 	"pairsuccess_title": "Success!",
 	"pairsuccess_desc": "Your controller is now connected.",
 
-	"pairing_button_system": "System button",
-	"pairing_button_menu": "Menu button",
+	"pairing_button_system": "System Button",
+	"pairing_button_menu": "Menu Button",
 	"pairing_button_b": "B button",
 
 	"pairing_knuckles_instructions_press": "Press and hold both the %1$s and %2$s until the light on the controller begins blinking blue...",

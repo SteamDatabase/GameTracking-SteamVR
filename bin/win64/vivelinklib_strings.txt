@@ -385,7 +385,6 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 Invalid address %s.\n
 Invalid nonce %d\n
-IrWg
 IsDebuggerPresent
 IsProcessorFeaturePresent
 K32EnumProcessModules
@@ -451,7 +450,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDSK\v_
+RSDS
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -710,7 +709,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
 dat_file

@@ -359,6 +359,8 @@ $3br
 (\v2-.google.protobuf.UninterpretedOption.NamePart
 (\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (anonymous namespace)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned int)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned int)::decryptionKey
 (anonymous namespace)::__io_category_instance()::__ec
 (anonymous namespace)::__new_handler
 (anonymous namespace)::c_locale
@@ -588,7 +590,6 @@ $3br
 .L1042
 .L1043
 .L1044
-.L1045
 .L10459
 .L1046
 .L10460
@@ -599,12 +600,10 @@ $3br
 .L10466
 .L1047
 .L10478
-.L1048
 .L1049
 .L105
 .L1050
 .L1051
-.L1052
 .L1053
 .L106
 .L10625
@@ -1580,7 +1579,6 @@ $3br
 .L339
 .L34
 .L340
-.L341
 .L3417
 .L3419
 .L342
@@ -1598,6 +1596,7 @@ $3br
 .L349
 .L35
 .L350
+.L351
 .L352
 .L353
 .L354
@@ -1630,7 +1629,6 @@ $3br
 .L368
 .L369
 .L37
-.L370
 .L372
 .L373
 .L374
@@ -1658,7 +1656,6 @@ $3br
 .L3936
 .L3938
 .L3939
-.L394
 .L3940
 .L3941
 .L3942
@@ -1666,7 +1663,7 @@ $3br
 .L3944
 .L3945
 .L3946
-.L396
+.L395
 .L399
 .L40
 .L403
@@ -1702,7 +1699,7 @@ $3br
 .L424
 .L425
 .L426
-.L427
+.L428
 .L429
 .L43
 .L430
@@ -2804,11 +2801,11 @@ $3br
 20CVRTrackedDevice_004
 20IVRAudioNotification
 20IVRVirtualDisplay001
+21:49:07
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:41:03
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 22CVRCameraComponent_001
@@ -3557,20 +3554,23 @@ CDriverManager::AddDriver(std::string const&, std::string const&) (.cold)
 CDriverManager::AddServerDevice() !GetServerProvider( nDriver ) -> VRInitError_Driver_NotLoaded
 CDriverManager::AddServerDevice() nDriver == vr::k_nDriverNone -> VRInitError_Init_Internal
 CDriverManager::AddServerDevice() nDriver >= m_vecDrivers.size() -> VRInitError_Driver_HmdDriverIdOutOfBounds
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*)
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*) (.cold)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*) (.cold)
 CDriverManager::AllocateDeviceSlot(unsigned int, vr::ETrackedDeviceClass, unsigned int*)
 CDriverManager::ApplyDriverResourceProperties(unsigned long long)
 CDriverManager::ApplyDriverResourceProperties(unsigned long long) (.cold)
 CDriverManager::AreAnyDriversBlockedForSafeMode() const
 CDriverManager::BAlwaysActivateDriver(unsigned int)
+CDriverManager::BAnyEnabledDriverAllowsMultipleDriverActivation() const
 CDriverManager::BCurrentlyActivating(unsigned int, unsigned int) const
 CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const
 CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const (.cold)
 CDriverManager::BHasHmdServerDriver()
 CDriverManager::BHmdDeviceMightBePresent(unsigned int)
+CDriverManager::BHmdDeviceMightBePresent(unsigned int)::'lambda'()::operator()() const::encrypted
 CDriverManager::BIsSafeDriver(unsigned int) const
 CDriverManager::BIsSafeDriverByName(std::string const&) const
+CDriverManager::BShouldActivateOtherDriversWhenEnabled(unsigned int) const
 CDriverManager::BShowEnableInSettings(unsigned int)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*) (.cold)
@@ -3616,6 +3616,8 @@ CDriverManager::GetWatchdogProvider(unsigned int)
 CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -4044,6 +4046,8 @@ CLighthouseHmdDriver::HandleDebug_SetSubpixel(char const*)
 CLighthouseHmdDriver::HasTrackedCamera()
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) (.cold)
+CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda'()::operator()() const::encrypted
+CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda0'()::operator()() const::encrypted
 CLighthouseHmdDriver::InitImageSensorProcessors()
 CLighthouseHmdDriver::InitPrismDirect()
 CLighthouseHmdDriver::InitRenderModelName()
@@ -4101,6 +4105,42 @@ CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&,
 CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) (.cold)
 CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
 CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) (.cold)
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda0'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda1'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda10'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda11'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda12'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda13'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda14'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda15'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda16'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda17'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda18'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda19'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda2'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda20'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda21'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda22'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda23'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda24'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda25'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda26'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda27'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda28'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda29'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda3'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda30'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda31'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda32'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda33'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda34'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda4'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda5'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda6'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda7'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda8'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda9'()::operator()() const::encrypted
 CLighthouseHmdDriver::SetAutoExposure(bool)
 CLighthouseHmdDriver::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
 CLighthouseHmdDriver::SetCameraFrameBuffering(int, void**, unsigned int)
@@ -4358,7 +4398,7 @@ CPropertyManager::CreatePropertyContainerInternal(unsigned long long, bool)
 CPropertyManager::CreatePropertyContainerInternal(unsigned long long, bool) (.cold)
 CPropertyManager::DestroyPropertyContainer(unsigned long long)
 CPropertyManager::EnableChangeNotifications(unsigned long long, bool)
-CPropertyManager::FindOrAddContainer(unsigned long long)
+CPropertyManager::FindOrAddContainer(unsigned long long, bool)
 CPropertyManager::GetAllContainers()
 CPropertyManager::GetAllContainers() (.cold)
 CPropertyManager::GetAllProperties(unsigned long long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*)
@@ -4512,8 +4552,8 @@ CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&)
 CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&) (.cold)
 CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*)
 CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*) (.cold)
-CSettingsManager::Init(CDriverManager*, IVRServer*)
-CSettingsManager::Init(CDriverManager*, IVRServer*) (.cold)
+CSettingsManager::Init(CDriverManager*, IVRServerInternal*)
+CSettingsManager::Init(CDriverManager*, IVRServerInternal*) (.cold)
 CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&)
 CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&) (.cold)
 CSettingsManager::LoadDriverDefaultSettings(std::string const&, CDriverManager*, Json::Value&)
@@ -4725,13 +4765,16 @@ CTrackedDeviceConfig::clear()
 CTrackedDeviceConfig::clear() (.cold)
 CTrackedDeviceConfig::from_json(Json::Value const&)
 CTrackedDeviceConfig::from_json(Json::Value const&) (.cold)
+CTrackedDeviceConfig::from_json(Json::Value const&)::'lambda'()::operator()() const::encrypted
 CTrackedDeviceConfig::from_json(std::string, std::string&)
 CTrackedDeviceConfig::from_json(std::string, std::string&) (.cold)
-CTrackedDeviceConfig::getRawJsonString() const
+CTrackedDeviceConfig::getRawJsonString(bool) const
+CTrackedDeviceConfig::getRawJsonString(bool) const (.cold)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&) (.cold)
 CTrackedDeviceConfig::to_json() const
 CTrackedDeviceConfig::to_json() const (.cold)
+CTrackedDeviceConfig::to_json() const::'lambda'()::operator()() const::encrypted
 CTrackedDeviceConfig::~CTrackedDeviceConfig()
 CTrackedDeviceServerDriverAdapter::Create(void*, vr::IVRDriverContext*, std::set<std::string, std::less<std::string>, std::allocator<std::string>> const&)
 CTrackedDeviceServerDriverAdapter::Create(void*, vr::IVRDriverContext*, std::set<std::string, std::less<std::string>, std::allocator<std::string>> const&) (.cold)
@@ -5284,7 +5327,6 @@ DXGI2::WaitForVBlank(void*)
 Data Invalid
 Data len %d\r\n
 DebugDriverLog(char const*, ...)
-Dec  9 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -5410,7 +5452,6 @@ EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
 EXPOSURE=          1.0000000000000\n\n-Y %d +X %d\n
-Ebsw{@DUyxbdyzzs
 Edid already edid_id %d, no change needed\n
 Eigen::CommaInitializer<Eigen::Block<Eigen::Diagonal<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, -1, 1, false>>::operator,(double const&)
 Eigen::LLT<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>& Eigen::LLT<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>::compute<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Matrix<double, 3, 3, 0, 3, 3> const, Eigen::Matrix<double, 3, 3, 0, 3, 3> const>>(Eigen::EigenBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Matrix<double, 3, 3, 0, 3, 3> const, Eigen::Matrix<double, 3, 3, 0, 3, 3> const>> const&)
@@ -5727,6 +5768,7 @@ FbPjPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
+Feb  5 2025
 February
 Feel free to add support for more if you need it.
 Field "
@@ -5816,7 +5858,6 @@ Four_Threes
 Four_TwoThirds
 Four_Twos
 Four_Zeros
-Fq|fu0Y~tuh0X]T
 Framer sensorType: %d\n
 Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d\n
 Friday
@@ -5847,6 +5888,7 @@ GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.co
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0) (.cold)
 GetBool
 GetCameraHALInterface
+GetClockRealtime()
 GetColumnOffsetBase(std::string const&)
 GetColumnOffsetBase(std::string const&) (.cold)
 GetDouble
@@ -6162,7 +6204,7 @@ IVRRenderModels_006
 IVRResources_001
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
@@ -6783,6 +6825,7 @@ Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
+JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
 June
 KHR_audio
@@ -8610,7 +8653,6 @@ VREvent_ConsoleOpened
 VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
-VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
@@ -9040,6 +9082,7 @@ VRMsg_DestroySwapTextureSet
 VRMsg_DriverDebugRequest
 VRMsg_DriverDebugRequestAsync
 VRMsg_DriverDebugResponse
+VRMsg_ExtendActivityTimeout
 VRMsg_GetApplicationInfo
 VRMsg_GetApplicationInfoResponse
 VRMsg_GetDisplayInfo
@@ -9442,10 +9485,10 @@ Vortex_ReadTextFile(std::string const&) (.cold)
 Vortex_SetDriversPath(std::string const&)
 Vortex_WriteStringToTextFile(std::string const&, char const*)
 Vortex_WriteStringToTextFile(std::string const&, char const*) (.cold)
+Vq`c-
 VrController
 VrInitGpuProfiling()
 Vulkan Direk'
-Vyb}gqbuFubcy
 WARNING
 WARNING: Base %08X has no factory calibration and will be ignored\n
 WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1\n
@@ -10056,6 +10099,7 @@ accel
 accept
 accessor[
 accessors
+activateOtherDriversWhenEnabled
 adcr
 add a secondary base
 add_fdes
@@ -10643,21 +10687,6 @@ covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
 crc32
-cryptor::string_encryptor<10u>::decrypt() const
-cryptor::string_encryptor<11u>::decrypt() const
-cryptor::string_encryptor<12u>::decrypt() const
-cryptor::string_encryptor<13u>::decrypt() const
-cryptor::string_encryptor<14u>::decrypt() const
-cryptor::string_encryptor<15u>::decrypt() const
-cryptor::string_encryptor<16u>::decrypt() const
-cryptor::string_encryptor<19u>::decrypt() const
-cryptor::string_encryptor<22u>::decrypt() const
-cryptor::string_encryptor<29u>::decrypt() const
-cryptor::string_encryptor<3u>::decrypt() const
-cryptor::string_encryptor<5u>::decrypt() const
-cryptor::string_encryptor<7u>::decrypt() const
-cryptor::string_encryptor<8u>::decrypt() const
-cryptor::string_encryptor<9u>::decrypt() const
 cs_cz
 ctime
 ctype
@@ -10873,7 +10902,6 @@ es-8R
 es_es
 es_mx
 etronlib
-ev3F}zwv}gzuzs
 exception thrown in JSON library
 execute_cfa_program
 execute_cfa_program.cold
@@ -10963,6 +10991,7 @@ fopen
 fopen64
 for 
 forceSoloEdid
+forceSystemLayerUseAppPoses
 force_old_controller_radio
 force_pid
 force_pid_val
@@ -10996,7 +11025,6 @@ ftruncate of %s, %d, %u failed: %d
 futex robust_list not initialized by pthreads
 futex robust_list not pthreads-compatible
 fwrite
-fyx~v|oy`2tsmhiB6
 g_AITCamera
 g_EtronCamera
 g_LoggingMutex
@@ -11066,7 +11094,7 @@ g_pVRPathsInternal
 g_pVRProperties
 g_pVRPropertiesInternal
 g_pVRResources
-g_pVRServer
+g_pVRServerInternal
 g_pVRSettings
 g_pVRSettingsInternal
 g_pVRSystem
@@ -13122,6 +13150,7 @@ greek
 group
 grow_for_undistort
 guard variable for 
+guard variable for (anonymous namespace)::GetDecryptionKeyChar(unsigned int)::decryptionKey
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
@@ -13236,6 +13265,7 @@ highFrameJitter
 high_frame_jitter
 high_mm
 hits: 
+hmdAllowsClientToControlTextureIndex
 hmd_presence
 htc/vive_controller
 htc/vive_tracker
@@ -22422,6 +22452,13 @@ vortex::CVrControllerUsbThread::VrcSetTrackpadDebugEnable(bool)
 vortex::CVrControllerUsbThread::VrcTriggerHapticPulse(unsigned int, unsigned short, unsigned short, unsigned short, unsigned char)
 vortex::CVrControllerUsbThread::~CVrControllerUsbThread()
 vortex::ComputeHmdModelDetail(char const*, char const*)
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda0'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda1'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda2'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda5'()::operator()() const::encrypted
 vortex::ComputePoseDifference(math::PoseT<float> const&, math::PoseT<float> const&, float*, float*)
 vortex::CreateDisambiguator(vortex::Disambiguator_t, vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
 vortex::CreateDisambiguator_Framer(vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
@@ -22470,6 +22507,10 @@ vortex::GetDisambiguatorString(vortex::Disambiguator_t)
 vortex::GetVideoStateString(int)::m
 vortex::GetWatchmanPowerLevelMagicStr(vortex::EPowerLevel)
 vortex::HMDModelToStr(vortex::EHmdModelDetail)
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda'()::operator()() const::encrypted
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda0'()::operator()() const::encrypted
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda1'()::operator()() const::encrypted
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda2'()::operator()() const::encrypted
 vortex::HalfPi
 vortex::HalfSqrtEpsilon
 vortex::IDisambiguator::~IDisambiguator()
@@ -22641,7 +22682,7 @@ vr_internal::VRPropertiesRaw()
 vr_internal::VRRenderModels()
 vr_internal::VRRenderModelsInternal()
 vr_internal::VRResources()
-vr_internal::VRServer()
+vr_internal::VRServerInternal()
 vr_internal::VRSettings()
 vr_internal::VRSettingsInternal()
 vr_internal::VRSettingsRaw()
