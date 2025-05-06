@@ -17,7 +17,7 @@
         "targetBandwidth": 200,
         "10bit": true,
         "reqEncMode": "auto",
-        "forceOpenMode" : true,
+        "forceOpenMode" : false,
         "watchForShaderChanges" : false,
         "enableEncryption": false,
         "automaticStreamFormatWidth": true,

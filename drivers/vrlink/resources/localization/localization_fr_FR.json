@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Manuel",
 	"Setting_clientVersion": "Version du client",
 	"Setting_useOSC": "Activer OSC",
-	"Setting_useOSCEyes": "Partager les données de suivi des yeux avec d'autres applications sur ce PC via OSC",
 	"Setting_useOSCFace": "Partager les données de suivi du visage avec d'autres applications sur ce PC via OSC",
 	"Setting_OSCOutPort": "Port de sortie OSC",
+	"Setting_shareEyeTrackingData": "Partager les données de suivi des yeux avec d'autres applications sur ce PC",
+	"Setting_enableHandTracking": "Activer le routage du suivi des mains",
 	"Setting_WirelessShutdownTimeout": "Sortir de SteamVR après déconnexion",
 	"Setting_AllowVolumeControlSync": "Contrôler le volume du casque et couper le son depuis SteamVR",
-	"Setting_DisableQoS": "Désactiver la qualité de service"
+	"Setting_DisableQoS": "Désactiver la qualité de service",
+	"svl_hand_interaction_augmented": "Contrôleur de suivi des mains",
+	"/input/index_pinch": "Pincement avec l'index",
+	"/input/middle_pinch": "Pincement avec le majeur",
+	"/input/ring_pinch": "Pincement avec l'annulaire",
+	"/input/pinky_pinch": "Pincement avec l'auriculaire",
+	"/input/index_point": "Index pointé"
 }

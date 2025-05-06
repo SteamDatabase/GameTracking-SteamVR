@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Thủ công",
 	"Setting_clientVersion": "Phiên bản phần mềm",
 	"Setting_useOSC": "Bật OSC",
-	"Setting_useOSCEyes": "Chia sẻ dữ liệu theo dõi mắt tới các ứng dụng khác trong máy tính qua OSC",
 	"Setting_useOSCFace": "Chia sẻ dữ liệu theo dõi khuôn mặt tới các ứng dụng khác trong máy tính qua OSC",
 	"Setting_OSCOutPort": "Cổng xuất OSC",
+	"Setting_shareEyeTrackingData": "Chia sẻ dữ liệu theo dõi mắt tới các ứng dụng khác trong máy tính",
+	"Setting_enableHandTracking": "Bật hỗ trợ pass-through cho theo dõi bàn tay",
 	"Setting_WirelessShutdownTimeout": "Khi ngắt kết nối, thoát SteamVR",
 	"Setting_AllowVolumeControlSync": "Kiểm soát âm lượng và tắt tiếng tai nghe từ SteamVR",
-	"Setting_DisableQoS": "Tắt QoS"
+	"Setting_DisableQoS": "Tắt QoS",
+	"svl_hand_interaction_augmented": "Tay cầm theo dõi bàn tay",
+	"/input/index_pinch": "Chụm bằng ngón trỏ",
+	"/input/middle_pinch": "Chụm bằng ngón giữa",
+	"/input/ring_pinch": "Chụm bằng ngón áp út",
+	"/input/pinky_pinch": "Chụm bằng ngón út",
+	"/input/index_point": "Chỉ bằng ngón trỏ"
 }

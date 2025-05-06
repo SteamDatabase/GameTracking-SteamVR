@@ -1,78 +1,75 @@
 {
-   "action_manifest_version" : 0,
-   "alias_info" : {},
-   "app_key" : "openvr.component.vrcompositor",
-   "bindings" : {
-      "/actions/lasermouse" : {
-         "poses" : [
-            {
-               "output" : "/actions/lasermouse/in/pointer",
-               "path" : "/user/head/pose/raw"
-            }
-         ],
-         "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/lasermouse/in/leftclick"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/system"
-            }
-         ]
-      },
-      "/actions/system" : {
-         "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/system/in/opendashboard"
-                  },
-                  "double" : {
-                     "output" : "/actions/system/in/toggleroomview"
-                  },
-                  "long" : {
-                     "output" : "/actions/system/in/showpowermenu"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/system"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/system/in/volumeup"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/volume_up"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/system/in/volumedown"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/volume_down"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/system/in/mutemicrophone"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/mute_mic"
-            }
-         ]
-      }
-   },
-   "category" : "steamvr_input",
-   "controller_type" : "vive_pro",
-   "description" : "",
-   "name" : "Default SteamVR Dashboard bindings for Vive Pro",
-   "options" : {},
-   "simulated_actions" : []
+	"action_manifest_version": 0,
+	"alias_info": {},
+	"app_key": "openvr.component.vrcompositor",
+	"bindings": {
+		"/actions/lasermouse": {
+			"poses": [
+				{
+					"output": "/actions/lasermouse/in/pointer",
+					"path": "/user/head/pose/raw"
+				}
+			],
+			"sources": [
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse/in/leftclick"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/system"
+				}
+			]
+		},
+		"/actions/system": {
+			"sources": [
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/system/in/opendashboard"
+						},
+						"double": {
+							"output": "/actions/system/in/toggleroomview"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/system"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/system/in/volumeup"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/volume_up"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/system/in/volumedown"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/volume_down"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/system/in/mutemicrophone"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/mute_mic"
+				}
+			]
+		}
+	},
+	"category": "steamvr_input",
+	"controller_type": "vive_pro",
+	"description": "",
+	"name": "Default SteamVR Dashboard bindings for Vive Pro",
+	"options": {},
+	"simulated_actions": []
 }

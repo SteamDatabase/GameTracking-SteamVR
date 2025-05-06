@@ -421,6 +421,7 @@
 
 	"Settings_MustQuitApp_Description": "Please quit the current game for changes to take effect.",
 	"Settings_MustQuitApp_QuitCurrentGame_Button": "Quit Game",
+	"Settings_AdditionalSettingsAvailable": "Additional settings available upon headset detection.",
 
 	"Settings_NotSupported": "Not Supported",
 

@@ -8,6 +8,7 @@
  because negotiation function 
  does not appear to exist
  due to failed negotiation with error 
+ filesystem operations failed for path  
  for detail.\n
  has invalid API Version.  Skipping layer.
  in HKEY_LOCAL_MACHINE
@@ -54,14 +55,14 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0xe2804085@@
-.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
+.?AVDebugUtilsLogRecorder@?A0x5a548dd3@@
+.?AVDebuggerLoaderLogRecorder@?A0x5a548dd3@@
 .?AVException@Json@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
 .?AVLogicError@Json@@
-.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
+.?AVOstreamLoaderLogRecorder@?A0x5a548dd3@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeError@Json@@
 .?AVRuntimeInterface@@
@@ -276,10 +277,12 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDS@
+RSDS
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
+ReadRuntimeDataFilesInRegistry - registry runtime path does not exist 
+ReadRuntimeDataFilesInRegistry - registry runtime path is not json 
 RegCloseKey
 RegEnumValueW
 RegGetValueW
@@ -289,6 +292,7 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 RuntimeInterface being destroyed.
+RuntimeInterface::LoadRuntime failed to find negotiate function 
 RuntimeInterface::LoadRuntime skipping manifest file 
 RuntimeInterface::LoadRuntime succeeded loading runtime defined in manifest file 
 RuntimeInterface::LoadRuntimes - failed to load a runtime
@@ -353,7 +357,6 @@ XR_NULL_HANDLE for instance but query for
 XR_RUNTIME_JSON
 \ApiLayers\Explicit
 \ApiLayers\Implicit
-\fplO
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -416,7 +419,7 @@ atoi
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr\loader\Retail\win64\2017\openxr_loader.pdb
 collectComments
 deque<T> too long
 description
@@ -552,6 +555,7 @@ xrGetSystemProperties
 xrGetViewConfigurationProperties
 xrInitializeLoaderKHR
 xrLocateSpace
+xrLocateSpaces
 xrLocateViews
 xrNegotiateLoaderApiLayerInterface
 xrNegotiateLoaderRuntimeInterface

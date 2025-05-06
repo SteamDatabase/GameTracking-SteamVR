@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Manuaalinen",
 	"Setting_clientVersion": "Asiakasohjelman versio",
 	"Setting_useOSC": "Ota OSC käyttöön",
-	"Setting_useOSCEyes": "Jaa silmien seurantatiedot muille tämän tietokoneen sovelluksille OSC:n välityksellä",
 	"Setting_useOSCFace": "Jaa kasvojen seurantatiedot muille tämän tietokoneen sovelluksille OSC:n välityksellä",
 	"Setting_OSCOutPort": "OSC-ulostulon portti",
+	"Setting_shareEyeTrackingData": "Jaa silmien seurantatiedot muille tietokoneen sovelluksille",
+	"Setting_enableHandTracking": "Ota käsien seuranta käyttöön",
 	"Setting_WirelessShutdownTimeout": "Poistu SteamVR:stä, kun yhteys katkaistaan",
 	"Setting_AllowVolumeControlSync": "Hallitse kuulokkeiden äänenvoimakkuutta ja mykistystä SteamVR:n välityksellä",
-	"Setting_DisableQoS": "Poista QoS käytöstä"
+	"Setting_DisableQoS": "Poista QoS käytöstä",
+	"svl_hand_interaction_augmented": "Käsiseurantaohjain",
+	"/input/index_pinch": "Etusormella nipistys",
+	"/input/middle_pinch": "Keskisormella nipistys",
+	"/input/ring_pinch": "Nimettömällä nipistys",
+	"/input/pinky_pinch": "Pikkusormella nipistys",
+	"/input/index_point": "Etusormella osoittaminen"
 }

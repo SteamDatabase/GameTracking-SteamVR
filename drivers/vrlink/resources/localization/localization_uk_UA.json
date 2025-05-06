@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Вручну",
 	"Setting_clientVersion": "Версія клієнта",
 	"Setting_useOSC": "Увімкнути OSC",
-	"Setting_useOSCEyes": "Ділитися даними відстеження руху очей з іншими застосунками на цьому ПК через OSC",
 	"Setting_useOSCFace": "Ділитися даними відстеження руху обличчя з іншими застосунками на цьому ПК через OSC",
 	"Setting_OSCOutPort": "Порт виведення OSC",
+	"Setting_shareEyeTrackingData": "Ділитися даними відстеження руху очей з іншими застосунками на цьому ПК",
+	"Setting_enableHandTracking": "Увімкнути передачу інформації про відстеження рук",
 	"Setting_WirelessShutdownTimeout": "Після відключення виходити зі SteamVR за",
 	"Setting_AllowVolumeControlSync": "Керувати гучністю та приглушенням шолома зі SteamVR",
-	"Setting_DisableQoS": "Вимкнути QoS"
+	"Setting_DisableQoS": "Вимкнути QoS",
+	"svl_hand_interaction_augmented": "Контролер для відстеження рук",
+	"/input/index_pinch": "Змикання зі вказівним пальцем",
+	"/input/middle_pinch": "Змикання із середнім пальцем",
+	"/input/ring_pinch": "Змикання з безіменним пальцем",
+	"/input/pinky_pinch": "Змикання з мізинцем",
+	"/input/index_point": "Показ вказівним пальцем"
 }

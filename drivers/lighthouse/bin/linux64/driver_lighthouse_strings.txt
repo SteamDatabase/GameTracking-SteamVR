@@ -178,6 +178,8 @@
 !proxy
 !ret
 !rightSyncIsRealAsItGets
+!sFind.empty()
+!sString.empty()
 !std::isnan( flSystemTimeInSeconds )
 !width || !height
 " because it is missing required fields: 
@@ -333,6 +335,7 @@ $3br
 %s: Failed to submit to queue: %u:%u
 %s: Firmware Version %s\n
 %s: Ignoring unlikely saved IMU calibration %s\n
+%s: Index (%d) out of bounds (%d) for '%s'!
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
 %s: Invalid interop API: %d
@@ -529,6 +532,7 @@ $3br
 (\v2-.google.protobuf.UninterpretedOption.NamePart
 (\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (anonymous namespace)
+(anonymous namespace)::EncryptedString<12ul>::decrypt() const
 (anonymous namespace)::GetDecryptionKeyChar(unsigned long)
 (anonymous namespace)::GetDecryptionKeyChar(unsigned long)::decryptionKey
 (anonymous namespace)::__io_category_instance()::__ec
@@ -942,11 +946,11 @@ $3br
 20CVkCommandBufferPool
 20IVRAudioNotification
 20IVRVirtualDisplay001
-21:49:39
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:25:12
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 22CVRCameraComponent_001
@@ -1150,6 +1154,7 @@ App Init
 App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
+Apr  1 2025
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
@@ -2623,8 +2628,9 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
 CSWTCH.126
 CSWTCH.131
-CSWTCH.135
 CSWTCH.137
+CSWTCH.140
+CSWTCH.141
 CSWTCH.142
 CSWTCH.16
 CSWTCH.162
@@ -2967,8 +2973,6 @@ CTrackedDeviceConfig::from_json(Json::Value const&) (.cold)
 CTrackedDeviceConfig::from_json(Json::Value const&)::'lambda'()::operator()() const::encrypted
 CTrackedDeviceConfig::from_json(std::string, std::string&)
 CTrackedDeviceConfig::from_json(std::string, std::string&) (.cold)
-CTrackedDeviceConfig::getRawJsonString(bool) const
-CTrackedDeviceConfig::getRawJsonString(bool) const (.cold)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&) (.cold)
 CTrackedDeviceConfig::to_json() const
@@ -3502,7 +3506,7 @@ CVkGarbageCollector::~CVkGarbageCollector()
 CVkImage::AspectMask() const
 CVkImage::BytesRequired() const
 CVkImage::CmdClearColorImage(CVkCommandBuffer*, VkClearColorValue const&, VkImageLayout, unsigned int)
-CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int)
+CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int, unsigned int)
 CVkImage::CmdCopyImage(CVkCommandBuffer*, CVkImage*, std::vector<VkImageCopy, std::allocator<VkImageCopy>> const&, VkImageLayout, VkImageLayout)
 CVkImage::CmdPipelineBarrier(CVkCommandBuffer*, VkImageLayout, VkImageLayout, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
 CVkImage::PrepareForExport(VkImageSharedData_t&, unsigned int)
@@ -3667,6 +3671,7 @@ ClientQueryPool-%lu:%d
 ClientTimeline:%lu
 CloseLog()
 Closed
+CmdPipelineBarrier
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&)
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&) (.cold)
 Command failed with %d: %s
@@ -3737,6 +3742,7 @@ DISTORT_POLY2
 DISTORT_POLY2_TANGENT
 DISTORT_POLY3
 DISTORT_POLY3_TANGENT
+DISTORT_POLY3_TANGENT_SCALED
 DISTORT_R1_POLY_4
 DISTORT_RPOLY2_1
 DISTORT_RPOLY2_2
@@ -4089,6 +4095,7 @@ Failed to calculate motion: bad parameter\n
 Failed to calculate motion: failed to create output\n
 Failed to calculate motion: failed to submit work\n
 Failed to calculate mv: processing failure\n
+Failed to change directory to '%s' when launching process '%s': %d
 Failed to cpu map bo\n
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)\n
 Failed to create PID pipe\n
@@ -4210,7 +4217,6 @@ FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
-Feb  5 2025
 February
 Feel free to add support for more if you need it.
 Field "
@@ -4434,6 +4440,8 @@ GetStringForVROverlayError(vr::EVROverlayError)
 GetStringForVROverlayError(vr::EVROverlayError)::buf
 GetStringForVROverlayFlags(vr::VROverlayFlags)
 GetStringForVROverlayFlags(vr::VROverlayFlags)::buf
+GetStringForVROverlayType(vr::VROverlayType)
+GetStringForVROverlayType(vr::VROverlayType)::buf
 GetStringForVRSettingsError(vr::EVRSettingsError)
 GetStringForVRSettingsError(vr::EVRSettingsError)::buf
 GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)
@@ -4614,7 +4622,7 @@ IVRCameraComponent_001
 IVRCameraComponent_002
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -4631,6 +4639,7 @@ IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
+IVRDriverInputInternal_XXX
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -6386,6 +6395,7 @@ SelectVideoConfig: HMD has exposed %d EDIDs\n
 SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.\n
 SelectVideoConfig: No Video Mode Change required\n
 SelectVideoConfig: Selecting solo HMD EDID\n
+SelectVideoConfig: Switching to non-solo HMD EDID %d\n
 SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed\n
 SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d\n
 SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d\n
@@ -6990,6 +7000,7 @@ Unknown EVRSceneApplicationState (%d)
 Unknown HMDClass (%d)
 Unknown Hmd Interrupt packet: report ID %d\n
 Unknown Overlay flag (%d)
+Unknown Overlay type (%d)
 Unknown VRApplicationsError (%d)
 Unknown VRMsgType (%d)
 Unknown VRNotificationError (%d)
@@ -7061,6 +7072,7 @@ VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
 VK_EXT_debug_utils
 VK_EXT_global_priority
+VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_external_memory_fd
 VK_KHR_external_semaphore_fd
@@ -7162,7 +7174,7 @@ VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
-VREvent_ChaperoneRoomSetupFinished
+VREvent_ChaperoneRoomSetupCommitted
 VREvent_ChaperoneRoomSetupStarting
 VREvent_ChaperoneSettingsHaveChanged
 VREvent_ChaperoneTempDataHasChanged
@@ -7184,6 +7196,9 @@ VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardSectionSettingChanged
+VREvent_DashboardThumbChanged
+VREvent_DesktopMightBeHidden
+VREvent_DesktopMightBeVisible
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
@@ -7233,6 +7248,7 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
+VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -7242,6 +7258,8 @@ VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
 VREvent_OverlayClosed
+VREvent_OverlayCreated
+VREvent_OverlayDestroyed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -7768,6 +7786,10 @@ VROverlayFlags_StereoPanorama
 VROverlayFlags_TransferOwnershipToInternalProcess
 VROverlayFlags_VisibleInDashboard
 VROverlayFlags_WantsModalBehavior
+VROverlayType_Basic
+VROverlayType_Dashboard_Main
+VROverlayType_Dashboard_Thumbnail
+VROverlayType_Subview
 VRRenderModelError_InvalidArg (300)
 VRRenderModelError_InvalidModel (301)
 VRRenderModelError_InvalidTexture (400)
@@ -8096,8 +8118,8 @@ WorkerThreadInitFailed
 WriteToDiskIfNeeded
 WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool)
 WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool) (.cold)
-WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&)
-WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&) (.cold)
+WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&, bool)
+WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&, bool) (.cold)
 XDG_CONFIG_HOME
 XXXX PNG chunk not known
 Zjz\v
@@ -9353,6 +9375,7 @@ display_gc
 display_hdr10
 display_mc
 display_multiframerate
+display_serial_number
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -9723,7 +9746,6 @@ fopen64
 for 
 forceSoloEdid
 forceSystemLayerUseAppPoses
-force_old_controller_radio
 force_pid
 force_pid_val
 forcedDriver
@@ -9815,6 +9837,7 @@ g_pVRClientInternal
 g_pVRControlPanel
 g_pVRDebug
 g_pVRDriverDirectInternal
+g_pVRDriverInputInternal
 g_pVRDriverManager
 g_pVRExtendedDisplay
 g_pVRMailbox
@@ -13188,7 +13211,6 @@ multiple IHDR
 multiple signals per batch not allowed
 munmap
 muteMicMonitor
-nArrayIndex < m_details.nArrayLayerCount
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
@@ -21076,8 +21098,8 @@ vortex::CLighthouseDB::FindBaseDevice(unsigned int)
 vortex::CLighthouseDB::FindTrackedObject(std::string)
 vortex::CLighthouseDB::FromJson(Json::Value const&, std::string const&)
 vortex::CLighthouseDB::FromJson(Json::Value const&, std::string const&) (.cold)
-vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int)
-vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int) (.cold)
+vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int, bool)
+vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int, bool) (.cold)
 vortex::CLighthouseDB::GetModelNumberFromModelId(unsigned char)
 vortex::CLighthouseDB::GetObservedBaseStationPresence(bool*, bool*) const
 vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int>>&)
@@ -21304,7 +21326,7 @@ vortex::CLighthouseDirect::ReportTrackingProgress()
 vortex::CLighthouseDirect::Run()
 vortex::CLighthouseDirect::Run() (.cold)
 vortex::CLighthouseDirect::SendOnPoseChange()
-vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>> const&)
+vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>> const&, unsigned int)
 vortex::CLighthouseDirect::SetInitialProcessCovariance()
 vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
 vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
@@ -22045,6 +22067,7 @@ vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda2'()::operator()
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda5'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda6'()::operator()() const::encrypted
 vortex::ComputePoseDifference(math::PoseT<float> const&, math::PoseT<float> const&, float*, float*)
 vortex::CreateDisambiguator(vortex::Disambiguator_t, vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
 vortex::CreateDisambiguator_Framer(vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
@@ -22252,6 +22275,7 @@ vr_internal::VRCompositorSystemInternal()
 vr_internal::VRControlPanel()
 vr_internal::VRDebug()
 vr_internal::VRDriverDirectInternal()
+vr_internal::VRDriverInputInternal()
 vr_internal::VRDriverManager()
 vr_internal::VRExtendedDisplay()
 vr_internal::VRInput()

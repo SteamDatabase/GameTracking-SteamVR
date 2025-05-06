@@ -84,6 +84,8 @@
 !ppData
 !proxy
 !ret
+!sFind.empty()
+!sString.empty()
 !std::isnan( flSystemTimeInSeconds )
 !width || !height
 " %U\nTerminal=false\nType=Application\nCategories=Game;\nMimeType=x-scheme-handler/
@@ -141,6 +143,7 @@ $tI(kn
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
 %llu
+%s %d universe %s
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s (%X)-> %s\n
 %s begin_ctx=%lu
@@ -174,6 +177,7 @@ $tI(kn
 %s: Failed to initialize graphics queue.
 %s: Failed to reset command buffer: %d
 %s: Failed to submit to queue: %u:%u
+%s: Index (%d) out of bounds (%d) for '%s'!
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
 %s: Invalid %s handle: %lx\n
@@ -361,6 +365,7 @@ $tI(kn
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 (anonymous namespace)
+(anonymous namespace)::CompareTrackedDeviceEntry(void const*, void const*)
 (anonymous namespace)::DeleteRenderModel(vr::RenderModel_t*)
 (anonymous namespace)::DeleteTexture(vr::RenderModel_TextureMap_t*)
 (anonymous namespace)::EncryptedString<32ul>::decrypt() const
@@ -573,6 +578,7 @@ $tI(kn
 /block_id
 /blocks
 /bound_tracker_role
+/chaperone/collision_radius
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/seated/transform
@@ -580,6 +586,8 @@ $tI(kn
 /chaperone/showing_working_pid
 /chaperone/standing/transform
 /chaperone/state
+/chaperone/temporary_playing_outside_playspace_time
+/chaperone/tracking_anchored
 /click
 /controller_type/
 /dashboard/visible
@@ -659,7 +667,6 @@ $tI(kn
 /dev/null
 /dev/random
 /dev/urandom
-/device_path
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -743,6 +750,7 @@ $tI(kn
 /openxr/1/api_layers/
 /out/
 /output/haptic
+/perfmetrics_meta/app/gpu_frametime
 /pose/
 /pose/grip
 /pose/openxr_aim
@@ -1102,6 +1110,7 @@ $tI(kn
 15CSxrChildHandleI17CSxrSwapchainBaseP13XrSwapchain_T11CSxrSessionE
 15CSxrChildHandleI18CSxrHandTrackerEXTP18XrHandTrackerEXT_T11CSxrSessionE
 15CSxrChildHandleI18CSxrRenderModelEXTP18XrRenderModelEXT_T11CSxrSessionE
+15CSxrChildHandleI20CSxrFoveationProfileP22XrFoveationProfileFB_T11CSxrSessionE
 15CSxrChildHandleI23CSxrRenderModelAssetEXTP23XrRenderModelAssetEXT_T11CSxrSessionE
 15CSyncLockThread
 15CVRIOBuffer_001
@@ -1161,6 +1170,7 @@ $tI(kn
 17CVRCompositor_025
 17CVRCompositor_026
 17CVRCompositor_027
+17CVRCompositor_028
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
@@ -1229,6 +1239,7 @@ $tI(kn
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
+20CSxrFoveationProfile
 20CVRBlockQueueManager
 20CVRFramerateGovernor
 20CVRMsg_ChangeAppType
@@ -1244,7 +1255,6 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:49:39
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1269,6 +1279,7 @@ $tI(kn
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:25:12
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1280,6 +1291,7 @@ $tI(kn
 22CSxrDispatchableHandleI17CSxrSwapchainBaseP13XrSwapchain_TE
 22CSxrDispatchableHandleI18CSxrHandTrackerEXTP18XrHandTrackerEXT_TE
 22CSxrDispatchableHandleI18CSxrRenderModelEXTP18XrRenderModelEXT_TE
+22CSxrDispatchableHandleI20CSxrFoveationProfileP22XrFoveationProfileFB_TE
 22CSxrDispatchableHandleI23CSxrRenderModelAssetEXTP23XrRenderModelAssetEXT_TE
 22CSxrDispatchableHandleI9CSxrSpaceP9XrSpace_TE
 22CVRCameraComponent_001
@@ -1531,6 +1543,7 @@ $tI(kn
 31CompositorInterfaceRegistrationI17CVRCompositor_025E
 31CompositorInterfaceRegistrationI17CVRCompositor_026E
 31CompositorInterfaceRegistrationI17CVRCompositor_027E
+31CompositorInterfaceRegistrationI17CVRCompositor_028E
 32CCompositorPluginProvider_Latest
 32CServerTrackedDeviceProvider_002
 32CServerTrackedDeviceProvider_003
@@ -1779,7 +1792,7 @@ $tI(kn
 =====================================
 ================================================================================================\n
 >333?
-?FbRKSsPvE
+?FbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
 ?N2vr10IVRMCStoreE
 @(knN
 @UUUUUU
@@ -1799,7 +1812,7 @@ AB30
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 AKST
 AR24
-AR30
+AR30\t
 ASCII
 ASCII//TRANSLIT
 ASSERT: "%s" at %s:%d.\n
@@ -1946,6 +1959,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRe
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&)
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&) (.cold)
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
+Apr  1 2025
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -2099,11 +2113,11 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
-C.1875.372795
-C.1876.372806
+C.1883.372084
+C.1884.372095
 C.71.340283
-C.77.214627
-C.9.216517
+C.77.213874
+C.9.215764
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -2342,6 +2356,8 @@ CChaperonePerimeter::FromLegacyJson(Json::Value const&)
 CChaperonePerimeter::FromPointVector(std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>> const&, float)
 CChaperonePerimeter::ToLegacyJson() const
 CChaperonePerimeter::ToLegacyJson() const (.cold)
+CChaperoneUniverse::CalcPlayAreaAndPerimeterFromRadius()
+CChaperoneUniverse::CalcPlayAreaAndPerimeterFromRadius() (.cold)
 CChaperoneUniverse::FromJson(Json::Value const&)
 CChaperoneUniverse::FromJson(Json::Value const&) (.cold)
 CChaperoneUniverse::GetPlayAreaSize(vr::HmdVector2_t*) const
@@ -2350,6 +2366,7 @@ CChaperoneUniverse::GetSetupStandingOrigin(vr::HmdMatrix34_t*) const
 CChaperoneUniverse::GetStandingOrigin(vr::HmdMatrix34_t*) const
 CChaperoneUniverse::HasSaneTrackingOrigin() const
 CChaperoneUniverse::IsStandingOnly() const
+CChaperoneUniverse::SetCollisionRadius(float, bool)
 CChaperoneUniverse::SetRawTrackingFromOrigin(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const&)
 CChaperoneUniverse::SetSetupStandingOrigin(vr::HmdMatrix34_t const&)
 CChaperoneUniverse::ToJson() const
@@ -3427,12 +3444,12 @@ CRenderModelManager::CacheEmptyModelInfo(unsigned int, std::string const&) (.col
 CRenderModelManager::Cleanup()
 CRenderModelManager::ClearCache()
 CRenderModelManager::ClearDeviceCache()
-CRenderModelManager::Component_t::Component_t()
 CRenderModelManager::Component_t::GetButtonMask()
 CRenderModelManager::Component_t::GetInputState(vr::IVRPaths*, unsigned long)
 CRenderModelManager::Component_t::GetInputState(vr::VRControllerState001_t const*)
 CRenderModelManager::Component_t::GetInputValue(vr::VRControllerState001_t const*)
 CRenderModelManager::Component_t::GetInputValue2D(float*, float*, vr::VRControllerState001_t const*)
+CRenderModelManager::Component_t::IsInputSource(unsigned long) const
 CRenderModelManager::Component_t::TranslateInputStateValues(vr::RenderModel_InputState_t const&) const
 CRenderModelManager::Component_t::~Component_t()
 CRenderModelManager::FindComponentForInputState(char const*, unsigned long, char*, unsigned int)
@@ -3459,8 +3476,8 @@ CRenderModelManager::GetComponentState(char const*, char const*, unsigned long, 
 CRenderModelManager::GetComponentState(char const*, char const*, unsigned long, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*) (.cold)
 CRenderModelManager::GetComponentState(char const*, char const*, vr::VRControllerState001_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
 CRenderModelManager::GetComponentState(char const*, char const*, vr::VRControllerState001_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*) (.cold)
-CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
-CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*) (.cold)
+CRenderModelManager::GetComponentStateExplicit(char const*, char const*, unsigned long const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
+CRenderModelManager::GetComponentStateExplicit(char const*, char const*, unsigned long const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*) (.cold)
 CRenderModelManager::GetComponentStateForDevicePath(char const*, char const*, unsigned long, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
 CRenderModelManager::GetComponentStateInternal(CRenderModelManager::ModelInfo_t const*, CRenderModelManager::Component_t const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
 CRenderModelManager::GetDeviceModelInfo(unsigned long, char const*, bool)
@@ -3498,6 +3515,8 @@ CRenderModelManager::PopulateNames()
 CRenderModelManager::PopulateNames() (.cold)
 CRenderModelManager::RegisterTextureFilePath(char const*, vr::RenderModelTextureOptions_t const*)
 CRenderModelManager::RegisterTextureFilePath(char const*, vr::RenderModelTextureOptions_t const*) (.cold)
+CRenderModelManager::RemapComponentSource(vr::CVRPathHelpers*, unsigned long, unsigned long&, std::string*, std::string*)
+CRenderModelManager::RemapComponentSource(vr::CVRPathHelpers*, unsigned long, unsigned long&, std::string*, std::string*) (.cold)
 CRenderModelManager::RenderModelHasComponent(char const*, char const*)
 CRenderModelManager::RenderModelHasComponent(char const*, char const*) (.cold)
 CRenderModelManager::RenderModelTextureContainer_t::~RenderModelTextureContainer_t()
@@ -3510,12 +3529,14 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
+CSWTCH.141
 CSWTCH.16
 CSWTCH.212
 CSWTCH.23
 CSWTCH.28
 CSWTCH.384
-CSWTCH.557
+CSWTCH.409
+CSWTCH.559
 CSWTCH.823
 CSWTCH.869
 CSXrBackingRenderModelAsset::CSXrBackingRenderModelAsset(std::string&, std::vector<std::string, std::allocator<std::string>>)
@@ -3526,11 +3547,11 @@ CSXrBackingRenderModelAsset::GetProperties(XrRenderModelAssetPropertiesEXT*)
 CSXrBackingRenderModelAsset::Init()
 CSXrBackingRenderModelAsset::Init() (.cold)
 CSXrBackingRenderModelAsset::~CSXrBackingRenderModelAsset()
-CSXrRenderModelManager::GetBackingRenderModelByUUID(XrUuidEXT const&)
-CSXrRenderModelManager::GetBackingRenderModelByUUID(XrUuidEXT const&) (.cold)
+CSXrRenderModelManager::GetBackingRenderModelByUUID(XrUuid const&)
+CSXrRenderModelManager::GetBackingRenderModelByUUID(XrUuid const&) (.cold)
 CSXrRenderModelManager::GetInstance()::instance
-CSXrRenderModelManager::GetOrCreateBackingAssetForModel(std::string&, std::vector<std::string, std::allocator<std::string>>, XrUuidEXT&)
-CSXrRenderModelManager::GetOrCreateBackingAssetForModel(std::string&, std::vector<std::string, std::allocator<std::string>>, XrUuidEXT&) (.cold)
+CSXrRenderModelManager::GetOrCreateBackingAssetForModel(std::string&, std::vector<std::string, std::allocator<std::string>>, XrUuid&)
+CSXrRenderModelManager::GetOrCreateBackingAssetForModel(std::string&, std::vector<std::string, std::allocator<std::string>>, XrUuid&) (.cold)
 CSXrRenderModelManager::~CSXrRenderModelManager()
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
@@ -3922,6 +3943,7 @@ CSxrActionSet::Init()
 CSxrActionSet::~CSxrActionSet()
 CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>::~CSxrChildHandle()
 CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>::~CSxrChildHandle()
+CSxrChildHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*, CSxrSession>::~CSxrChildHandle()
 CSxrChildHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*, CSxrSession>::~CSxrChildHandle()
 CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
 CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>::~CSxrChildHandle()
@@ -3992,6 +4014,7 @@ CSxrCompositorPrism::~CSxrCompositorPrism()
 CSxrDeletableBase::~CSxrDeletableBase()
 CSxrDispatchableHandle<CSxrAction, XrAction_T*>::~CSxrDispatchableHandle()
 CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>::~CSxrDispatchableHandle()
+CSxrDispatchableHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*>::~CSxrDispatchableHandle()
 CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>::~CSxrDispatchableHandle()
 CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>::~CSxrDispatchableHandle()
 CSxrDispatchableHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*>::~CSxrDispatchableHandle()
@@ -3999,6 +4022,10 @@ CSxrDispatchableHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*>::~CSxrDispatchab
 CSxrDispatchableHandle<CSxrSession, XrSession_T*>::~CSxrDispatchableHandle()
 CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>::~CSxrDispatchableHandle()
 CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>::~CSxrDispatchableHandle()
+CSxrFoveationProfile
+CSxrFoveationProfile::CSxrFoveationProfile(CSxrSession*, XrFoveationProfileCreateInfoFB const*)
+CSxrFoveationProfile::CSxrFoveationProfile(CSxrSession*, XrFoveationProfileCreateInfoFB const*) (.cold)
+CSxrFoveationProfile::~CSxrFoveationProfile()
 CSxrGenericTrackerManager::CSxrGenericTrackerManager(CSxrInstance*)
 CSxrGenericTrackerManager::CSxrGenericTrackerManager(CSxrInstance*) (.cold)
 CSxrGenericTrackerManager::CheckActiveTrackers(unsigned long)
@@ -4198,9 +4225,12 @@ CSxrRenderModelEXT::GetInfo(XrRenderModelPropertiesGetInfoEXT const*, XrRenderMo
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
 CSxrRenderModelEXT::GetState(XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*) (.cold)
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::k_pathDevicePath
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*) (.cold)
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathHead
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathLeftHand
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathRightHand
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathTreadmill
 CSxrRenderModelEXT::Init()
 CSxrRenderModelEXT::Init() (.cold)
 CSxrRenderModelEXT::~CSxrRenderModelEXT()
@@ -4211,12 +4241,15 @@ CSxrSession::AttachActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrAct
 CSxrSession::AttachActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>&) (.cold)
 CSxrSession::BIsActionSetAttached(XrActionSet_T*) const
 CSxrSession::BIsInState(std::vector<XrSessionState, std::allocator<XrSessionState>>)
+CSxrSession::BIsRunning()
 CSxrSession::BeginFrame(XrFrameBeginInfo const*)
 CSxrSession::BeginSession(XrSessionBeginInfo const*)
 CSxrSession::CSxrSession(CSxrInstance*, XrSessionCreateInfo const*, IXrBinding*, bool)
 CSxrSession::CSxrSession(CSxrInstance*, XrSessionCreateInfo const*, IXrBinding*, bool) (.cold)
 CSxrSession::ClearConformanceAutomation()
 CSxrSession::ClearConformanceAutomation() (.cold)
+CSxrSession::CreateFoveationProfileFB(XrFoveationProfileCreateInfoFB const*, XrFoveationProfileFB_T**)
+CSxrSession::CreateFoveationProfileFB(XrFoveationProfileCreateInfoFB const*, XrFoveationProfileFB_T**) (.cold)
 CSxrSession::EndFrame(XrFrameEndInfo const*)
 CSxrSession::EndFrame(XrFrameEndInfo const*) (.cold)
 CSxrSession::EndSession()
@@ -4226,6 +4259,7 @@ CSxrSession::GetConformanceMailbox()
 CSxrSession::GetConformanceMailbox() (.cold)
 CSxrSession::GetCurrentInteractionProfile(unsigned long, unsigned long*) const
 CSxrSession::GetDisplayRefreshRateFB(float*)
+CSxrSession::GetFoveationEyeTrackedStateMETA(XrFoveationEyeTrackedStateMETA*)
 CSxrSession::GetFrameCompositionReport(unsigned int, XrFrameCompositionReportEXT*)
 CSxrSession::GetFrameCompositionReport(unsigned int, XrFrameCompositionReportEXT*) (.cold)
 CSxrSession::GetFrameData(unsigned long)
@@ -4286,10 +4320,12 @@ CSxrSwapchainGLOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_
 CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*) (.cold)
 CSxrSwapchainGLOpenVR::GetPresentableTextureHandle(void**)
+CSxrSwapchainGLOpenVR::GetSwapchainStateFB(XrSwapchainStateBaseHeaderFB*)
 CSxrSwapchainGLOpenVR::Init()
 CSxrSwapchainGLOpenVR::Init() (.cold)
 CSxrSwapchainGLOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*)
 CSxrSwapchainGLOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*) (.cold)
+CSxrSwapchainGLOpenVR::UpdateSwapchainFB(XrSwapchainStateBaseHeaderFB const*)
 CSxrSwapchainGLOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 CSxrSwapchainGLOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*) (.cold)
 CSxrSwapchainGLOpenVR::~CSxrSwapchainGLOpenVR()
@@ -4305,11 +4341,13 @@ CSxrSwapchainPrism::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 CSxrSwapchainPrism::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 CSxrSwapchainPrism::GetPresentableTextureHandle(void**)
 CSxrSwapchainPrism::GetSwapchainId()
+CSxrSwapchainPrism::GetSwapchainStateFB(XrSwapchainStateBaseHeaderFB*)
 CSxrSwapchainPrism::Init()
 CSxrSwapchainPrism::Init() (.cold)
 CSxrSwapchainPrism::RegisterSwapchainImage(SxrSwapchainImagePrism_t const&)
 CSxrSwapchainPrism::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*)
 CSxrSwapchainPrism::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*) (.cold)
+CSxrSwapchainPrism::UpdateSwapchainFB(XrSwapchainStateBaseHeaderFB const*)
 CSxrSwapchainPrism::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 CSxrSwapchainPrism::WaitSwapchainImage(XrSwapchainImageWaitInfo const*) (.cold)
 CSxrSwapchainPrism::~CSxrSwapchainPrism()
@@ -4322,10 +4360,12 @@ CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDe
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*) (.cold)
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle(void**)
+CSxrSwapchainVulkanOpenVR::GetSwapchainStateFB(XrSwapchainStateBaseHeaderFB*)
 CSxrSwapchainVulkanOpenVR::Init()
 CSxrSwapchainVulkanOpenVR::Init() (.cold)
 CSxrSwapchainVulkanOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*)
 CSxrSwapchainVulkanOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*) (.cold)
+CSxrSwapchainVulkanOpenVR::UpdateSwapchainFB(XrSwapchainStateBaseHeaderFB const*)
 CSxrSwapchainVulkanOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 CSxrSwapchainVulkanOpenVR::~CSxrSwapchainVulkanOpenVR()
 CSxrWristTrackerManager::CSxrWristTrackerManager(CSxrInstance*)
@@ -4652,14 +4692,13 @@ CVRBlockQueue_004::ReleaseReadOnlyBlock(unsigned long, unsigned long)
 CVRBlockQueue_004::ReleaseWriteOnlyBlock(unsigned long, unsigned long)
 CVRBlockQueue_004::WaitAndAcquireReadOnlyBlock(unsigned long, unsigned long*, void const**, vr::EBlockQueueReadType, unsigned int)
 CVRCVTrackedHmdInternal::AddFutureControllerCameraExposureTimings(double, double)
-CVRCVTrackedHmdInternal::AddFutureControllerCameraExposureTimings(double, double) (.cold)
 CVRCVTrackedHmdInternal::CVRCVTrackedHmdInternal()
 CVRCVTrackedHmdInternal::Cleanup()
-CVRCVTrackedHmdInternal::Cleanup() (.cold)
 CVRCVTrackedHmdInternal::CustomCommand(char const*, bool)
-CVRCVTrackedHmdInternal::CustomCommand(char const*, bool) (.cold)
+CVRCVTrackedHmdInternal::CustomCommand(char const*, bool) (.part.0)
 CVRCVTrackedHmdInternal::Init(IVRClientInternal*)
 CVRCVTrackedHmdInternal::Init(IVRClientInternal*) (.cold)
+CVRCVTrackedHmdInternal::OnTrackerStateUpdate(vr::TrackerState_t const&)
 CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool)
 CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool) (.cold)
 CVRCVTrackedHmdInternal::~CVRCVTrackedHmdInternal()
@@ -4743,16 +4782,25 @@ CVRChaperoneClient::ApplyZeroPose(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t
 CVRChaperoneClient::AreBoundsVisible()
 CVRChaperoneClient::BInit(CVRClient*)
 CVRChaperoneClient::BInit(CVRClient*) (.cold)
+CVRChaperoneClient::ClearRoomSetup()
+CVRChaperoneClient::CommitDynamicFloorHeight(bool)
+CVRChaperoneClient::CommitDynamicFloorHeight(bool) (.cold)
+CVRChaperoneClient::CommitDynamicFloorRadius()
+CVRChaperoneClient::CommitDynamicFloorRadius() (.cold)
 CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
 CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile) (.cold)
+CVRChaperoneClient::ComputeChaperoneBoundsAlphas(BoundsVisiblityConfig_t const&)
+CVRChaperoneClient::ComputeChaperoneBoundsAlphas(BoundsVisiblityConfig_t const&) (.cold)
+CVRChaperoneClient::ComputeChaperoneBoundsAlphas(BoundsVisiblityConfig_t const&)::s_bFirstTime
 CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*)
 CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*) (.cold)
 CVRChaperoneClient::ForceBoundsVisible(bool)
 CVRChaperoneClient::ForceBoundsVisible(bool) (.cold)
 CVRChaperoneClient::GetBoundsColor(vr::HmdColor_t*, int, float, vr::HmdColor_t*)
 CVRChaperoneClient::GetBoundsColor(vr::HmdColor_t*, int, float, vr::HmdColor_t*) (.cold)
-CVRChaperoneClient::GetBoundsColor(vr::HmdColor_t*, int, float, vr::HmdColor_t*)::s_bFirstTime
 CVRChaperoneClient::GetCalibrationState()
+CVRChaperoneClient::GetDynamicFloorInfo(vr::FloorInfo_t*)
+CVRChaperoneClient::GetDynamicFloorInfo(vr::FloorInfo_t*) (.cold)
 CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*)
 CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*) (.cold)
 CVRChaperoneClient::GetLiveSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t*)
@@ -4772,15 +4820,24 @@ CVRChaperoneClient::GetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_
 CVRChaperoneClient::HideWorkingSetPreview()
 CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int)
 CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int) (.cold)
+CVRChaperoneClient::IsHMDOutOfBoundsStrict()
 CVRChaperoneClient::IsOriginCalibrated(vr::ETrackingUniverseOrigin)
 CVRChaperoneClient::ReloadFromDisk(vr::EChaperoneConfigFile)
 CVRChaperoneClient::ReloadInfo()
 CVRChaperoneClient::ReloadInfo() (.cold)
+CVRChaperoneClient::ResetDynamicFloorHeight(vr::EVRDyanamicFloorMode, bool)
+CVRChaperoneClient::ResetDynamicFloorHeight(vr::EVRDyanamicFloorMode, bool) (.cold)
+CVRChaperoneClient::ResetZeroPose()
 CVRChaperoneClient::ResetZeroPose(vr::ETrackingUniverseOrigin)
 CVRChaperoneClient::ResetZeroPose(vr::ETrackingUniverseOrigin) (.cold)
+CVRChaperoneClient::ResetZeroPose(vr::ETrackingUniverseOrigin) (.part.0)
+CVRChaperoneClient::ResetZeroPose(vr::ETrackingUniverseOrigin) (.part.0) (.cold)
 CVRChaperoneClient::RevertWorkingCopy()
 CVRChaperoneClient::RoomSetupStarting()
 CVRChaperoneClient::SetBehaviorByTrackingUniverse(vr::ETrackingUniverseOrigin)
+CVRChaperoneClient::SetDynamicFloorRadius(float)
+CVRChaperoneClient::SetDynamicFloorRadius(float) (.cold)
+CVRChaperoneClient::SetFloorDetectEnabled(bool)
 CVRChaperoneClient::SetSceneColor(vr::HmdColor_t)
 CVRChaperoneClient::SetWorkingCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int)
 CVRChaperoneClient::SetWorkingCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int) (.cold)
@@ -4790,6 +4847,8 @@ CVRChaperoneClient::SetWorkingPlayAreaSize(float, float)
 CVRChaperoneClient::SetWorkingSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 CVRChaperoneClient::ShowWorkingSetPreview()
+CVRChaperoneClient::UpdateDynamicFloorHeight(vr::HmdMatrix34_t const*, unsigned char const*, DynamicFloorUpdateInfo_t const&)
+CVRChaperoneClient::UpdateDynamicFloorHeight(vr::HmdMatrix34_t const*, unsigned char const*, DynamicFloorUpdateInfo_t const&) (.cold)
 CVRChaperoneClient::UpdateWorkingSet()
 CVRChaperoneClient::UpdateWorkingSet() (.cold)
 CVRChaperoneClient::~CVRChaperoneClient()
@@ -4972,6 +5031,8 @@ CVRCompositorClient::GetMirrorTextureD3D11(vr::EVREye, void*, void**) (.cold)
 CVRCompositorClient::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
 CVRCompositorClient::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**) (.cold)
 CVRCompositorClient::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositorClient::GetPreAndPostSubmitTimingMs(float*) const
+CVRCompositorClient::GetSubmitTexture(vr::Texture_t*, bool*, vr::EVRCompositorTextureUsage, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClient::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 CVRCompositorClient::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
 CVRCompositorClient::Init(vr::IVRSystem*, vr::IVRCompositorSystemInternal*, vr::IVRApplications*, CVRClient*, IVRClientInternal*)
@@ -5014,9 +5075,9 @@ CVRCompositorClient::SubmitFrameData(double, bool, bool) (.cold)
 CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*)
 CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*) (.cold)
 CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
-CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)
-CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long) (.cold)
-CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)::s_bFirstOffense
+CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long, int, vr::Texture_t*)
+CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long, int, vr::Texture_t*) (.cold)
+CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long, int, vr::Texture_t*)::s_bFirstOffense
 CVRCompositorClient::SuspendRendering(bool)
 CVRCompositorClient::SuspendRendering(bool) (.cold)
 CVRCompositorClient::UnlockGLSharedTextureForAccess(void*)
@@ -5065,6 +5126,7 @@ CVRCompositorClientBase::GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr
 CVRCompositorClientBase::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
 CVRCompositorClientBase::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
 CVRCompositorClientBase::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositorClientBase::GetSubmitTexture(vr::Texture_t*, bool*, vr::EVRCompositorTextureUsage, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClientBase::GetTrackingSpace()
 CVRCompositorClientBase::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 CVRCompositorClientBase::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
@@ -5135,6 +5197,18 @@ CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::Shar
 CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>::IsReleaseable() const
 CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>::Release(CVRCompositorSharedTextures*)
 CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>::SetCounter(unsigned int)
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>::CreateSharedTextures(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::SharedTextureData_t::CreateStruct_t const*)
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>::IsReleaseable() const
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>::NeedsPurge(CVRCompositorSharedTextures*, unsigned int) const
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>::Release(CVRCompositorSharedTextures*)
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>::ResizeTexture(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::SharedTextureData_t::CreateStruct_t const*, unsigned int)
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>::~CSharedTextureSetDriverDirect()
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>::CreateSharedTextures(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::SharedTextureData_t::CreateStruct_t const*)
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>::IsReleaseable() const
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>::NeedsPurge(CVRCompositorSharedTextures*, unsigned int) const
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>::Release(CVRCompositorSharedTextures*)
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>::ResizeTexture(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::SharedTextureData_t::CreateStruct_t const*, unsigned int)
+CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>::~CSharedTextureSetDriverDirect()
 CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>::CreateSharedTextures(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::SharedTextureData_t::CreateStruct_t const*)
 CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>::IsReleaseable() const
 CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>::ResizeTexture(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::SharedTextureData_t::CreateStruct_t const*, unsigned int)
@@ -5238,11 +5312,14 @@ CVRCompositorSharedTextures::SharedTextureDataGL_t::Create(CVRCompositorSharedTe
 CVRCompositorSharedTextures::SharedTextureDataGL_t::GetSize(unsigned int*, unsigned int*)
 CVRCompositorSharedTextures::SharedTextureDataGL_t::IsReleaseable() const
 CVRCompositorSharedTextures::SharedTextureDataGL_t::Release(CVRCompositorSharedTextures*)
+CVRCompositorSharedTextures::SharedTextureDataGL_t::SetSharedHandles(unsigned long, unsigned long)
 CVRCompositorSharedTextures::SharedTextureDataGL_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Create(CVRCompositorSharedTextures::SharedTextureDataVulkan_t::CreateStruct_t const*)
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::GetSize(unsigned int*, unsigned int*)
+CVRCompositorSharedTextures::SharedTextureDataVulkan_t::GetVkImage() const
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::IsReleaseable() const
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Release(CVRCompositorSharedTextures*)
+CVRCompositorSharedTextures::SharedTextureDataVulkan_t::SetSharedHandles(unsigned long, unsigned long)
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
 CVRCompositorSharedTextures::UnlockGLSharedTextureForAccess(void*)
 CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
@@ -6119,6 +6196,58 @@ CVRCompositor_027::SubmitExplicitTimingData()
 CVRCompositor_027::SuspendRendering(bool)
 CVRCompositor_027::UnlockGLSharedTextureForAccess(void*)
 CVRCompositor_027::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_028::CanRenderScene()
+CVRCompositor_028::ClearLastSubmittedFrame()
+CVRCompositor_028::ClearSkyboxOverride()
+CVRCompositor_028::ClearStageOverride()
+CVRCompositor_028::CompositorBringToFront()
+CVRCompositor_028::CompositorDumpImages()
+CVRCompositor_028::CompositorGoToBack()
+CVRCompositor_028::CompositorQuit()
+CVRCompositor_028::FadeGrid(float, bool)
+CVRCompositor_028::FadeToColor(float, float, float, float, float, bool)
+CVRCompositor_028::ForceInterleavedReprojectionOn(bool)
+CVRCompositor_028::ForceReconnectProcess()
+CVRCompositor_028::GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
+CVRCompositor_028::GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
+CVRCompositor_028::GetCurrentFadeColor(bool)
+CVRCompositor_028::GetCurrentGridAlpha()
+CVRCompositor_028::GetCurrentSceneFocusProcess()
+CVRCompositor_028::GetFrameTimeRemaining()
+CVRCompositor_028::GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
+CVRCompositor_028::GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+CVRCompositor_028::GetLastFrameRenderer()
+CVRCompositor_028::GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
+CVRCompositor_028::GetLastPosePredictionIDs(unsigned int*, unsigned int*)
+CVRCompositor_028::GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_028::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
+CVRCompositor_028::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
+CVRCompositor_028::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_028::GetTrackingSpace()
+CVRCompositor_028::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
+CVRCompositor_028::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
+CVRCompositor_028::HideMirrorWindow()
+CVRCompositor_028::IsCurrentSceneFocusAppLoading()
+CVRCompositor_028::IsFullscreen()
+CVRCompositor_028::IsMirrorWindowVisible()
+CVRCompositor_028::IsMotionSmoothingEnabled()
+CVRCompositor_028::IsMotionSmoothingSupported()
+CVRCompositor_028::LockGLSharedTextureForAccess(void*)
+CVRCompositor_028::PostPresentHandoff()
+CVRCompositor_028::ReleaseMirrorTextureD3D11(void*)
+CVRCompositor_028::ReleaseSharedGLTexture(unsigned int, void*)
+CVRCompositor_028::SetExplicitTimingMode(vr::EVRCompositorTimingMode)
+CVRCompositor_028::SetSkyboxOverride(vr::Texture_t const*, unsigned int)
+CVRCompositor_028::SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
+CVRCompositor_028::SetTrackingSpace(vr::ETrackingUniverseOrigin)
+CVRCompositor_028::ShouldAppRenderWithLowResources()
+CVRCompositor_028::ShowMirrorWindow()
+CVRCompositor_028::Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+CVRCompositor_028::SubmitExplicitTimingData()
+CVRCompositor_028::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+CVRCompositor_028::SuspendRendering(bool)
+CVRCompositor_028::UnlockGLSharedTextureForAccess(void*)
+CVRCompositor_028::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRControlPanel_001::AbortTransition()
 CVRControlPanel_001::ForceQuitProcess(unsigned int)
 CVRControlPanel_001::GetCurrentCompositorInterface(char const*)
@@ -6582,10 +6711,12 @@ CVRInputLatest::GetSkeletalTrackingLevel(unsigned long, vr::EVRSkeletalTrackingL
 CVRInputLatest::GetSkeletalTrackingLevel(unsigned long, vr::EVRSkeletalTrackingLevel*) (.cold)
 CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)
 CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*) (.cold)
+CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)::GetSkeletalTrackingLevelForHandError
 CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)::sPathHandles
 CVRInputLatest::GetSkeleton(unsigned long)
 CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)
 CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange) (.cold)
+CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)::GetSkeletonBoneDataForHandError
 CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)::sPathHandles
 CVRInputLatest::GetSkeletonBoneDataInternal(CachedActionValue_Skeleton_t const&, vr::EVRSkeletalTransformSpace, vr::EVRSkeletalMotionRange, vr::VRBoneTransform_t*, unsigned int)
 CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)
@@ -7017,6 +7148,7 @@ CVRMsg_ApplicationInfo_Manifest::mutable_arguments()
 CVRMsg_ApplicationInfo_Manifest::mutable_binary_path()
 CVRMsg_ApplicationInfo_Manifest::mutable_description()
 CVRMsg_ApplicationInfo_Manifest::mutable_image_path()
+CVRMsg_ApplicationInfo_Manifest::mutable_image_path_capsule()
 CVRMsg_ApplicationInfo_Manifest::mutable_launch_type()
 CVRMsg_ApplicationInfo_Manifest::mutable_manifest_path()
 CVRMsg_ApplicationInfo_Manifest::mutable_name()
@@ -7030,6 +7162,7 @@ CVRMsg_ApplicationInfo_Manifest::release_arguments()
 CVRMsg_ApplicationInfo_Manifest::release_binary_path()
 CVRMsg_ApplicationInfo_Manifest::release_description()
 CVRMsg_ApplicationInfo_Manifest::release_image_path()
+CVRMsg_ApplicationInfo_Manifest::release_image_path_capsule()
 CVRMsg_ApplicationInfo_Manifest::release_launch_type()
 CVRMsg_ApplicationInfo_Manifest::release_manifest_path()
 CVRMsg_ApplicationInfo_Manifest::release_name()
@@ -7046,6 +7179,7 @@ CVRMsg_ApplicationInfo_Manifest::set_allocated_arguments(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_binary_path(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_description(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_image_path(std::string*)
+CVRMsg_ApplicationInfo_Manifest::set_allocated_image_path_capsule(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_launch_type(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_manifest_path(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_name(std::string*)
@@ -7068,6 +7202,9 @@ CVRMsg_ApplicationInfo_Manifest::set_description(std::string const&)
 CVRMsg_ApplicationInfo_Manifest::set_image_path(char const*)
 CVRMsg_ApplicationInfo_Manifest::set_image_path(char const*, unsigned long)
 CVRMsg_ApplicationInfo_Manifest::set_image_path(std::string const&)
+CVRMsg_ApplicationInfo_Manifest::set_image_path_capsule(char const*)
+CVRMsg_ApplicationInfo_Manifest::set_image_path_capsule(char const*, unsigned long)
+CVRMsg_ApplicationInfo_Manifest::set_image_path_capsule(std::string const&)
 CVRMsg_ApplicationInfo_Manifest::set_launch_type(char const*)
 CVRMsg_ApplicationInfo_Manifest::set_launch_type(char const*, unsigned long)
 CVRMsg_ApplicationInfo_Manifest::set_launch_type(std::string const&)
@@ -15001,8 +15138,8 @@ CVRSettings_002::SetFloat(char const*, char const*, float, vr::EVRSettingsError*
 CVRSettings_002::SetInt32(char const*, char const*, int, vr::EVRSettingsError*)
 CVRSettings_002::SetString(char const*, char const*, char const*, vr::EVRSettingsError*)
 CVRSettings_002::Sync(bool, vr::EVRSettingsError*)
-CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, bool, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool)
-CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, bool, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool) (.cold)
+CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, bool, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool, unsigned long)
+CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, bool, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool, unsigned long) (.cold)
 CVRSharedGLTexture::CreateSemaphore - failed to create semaphore.\n
 CVRSharedGLTexture::CreateSemaphore - failed to get semaphore shared resource\n
 CVRSharedGLTexture::CreateSemaphore()
@@ -15037,12 +15174,12 @@ CVRSharedStatePtrBase::CVRSharedStatePtrBase(CVRSharedState*)
 CVRSharedStatePtrBase::DoLock()
 CVRSharedStatePtrBase::GetSharedStatePointer()
 CVRSharedStatePtrBase::~CVRSharedStatePtrBase()
-CVRSharedVulkanTexture::CVRSharedVulkanTexture(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, unsigned int, unsigned int, VkFormat, bool)
+CVRSharedVulkanTexture::CVRSharedVulkanTexture(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, unsigned int, unsigned int, VkFormat, bool, unsigned long)
 CVRSharedVulkanTexture::GetHandle()
 CVRSharedVulkanTexture::GetSize(unsigned int&, unsigned int&)
 CVRSharedVulkanTexture::Init - failed to create shared Vulkan image.\n
 CVRSharedVulkanTexture::Init - failed to get shared resource for texture.\n
-CVRSharedVulkanTexture::Init()
+CVRSharedVulkanTexture::Init(char const*)
 CVRSharedVulkanTexture::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
 CVRSharedVulkanTexture::~CVRSharedVulkanTexture()
 CVRSpatialAnchorsLatest::AllocateSpatialAnchorHandle()
@@ -15491,8 +15628,8 @@ CVRSystemLatest::AcknowledgeQuit_Exiting()
 CVRSystemLatest::AcknowledgeQuit_Exiting() (.cold)
 CVRSystemLatest::AddOverlayToDestroyOnClose(unsigned long)
 CVRSystemLatest::AddOverlayToDestroyOnClose(unsigned long) (.cold)
-CVRSystemLatest::AddSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
-CVRSystemLatest::AddSystemBehaviorFlag(EVRInternalSystemBehaviorFlags) (.cold)
+CVRSystemLatest::AddSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags)
+CVRSystemLatest::AddSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags) (.cold)
 CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsigned int, vr::TrackedDevicePose_t*, float)
 CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
 CVRSystemLatest::ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
@@ -15509,8 +15646,6 @@ CVRSystemLatest::GetApplicationSpecificScaling() (.cold)
 CVRSystemLatest::GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
 CVRSystemLatest::GetBoolTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 CVRSystemLatest::GetButtonIdNameFromEnum(vr::EVRButtonId)
-CVRSystemLatest::GetChaperoneDataRefreshIndex() const
-CVRSystemLatest::GetChaperoneDataRefreshIndex() const (.cold)
 CVRSystemLatest::GetCompositorError()
 CVRSystemLatest::GetCompositorError() (.cold)
 CVRSystemLatest::GetCompositorProcessId()
@@ -15586,11 +15721,10 @@ CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*) (.col
 CVRSystemLatest::GetZeroPoseFromDevicePose(VRTrackingState_Pose_t const&, vr::HmdMatrix34_t*) const
 CVRSystemLatest::GetZeroPoseFromDevicePose(VRTrackingState_Pose_t const&, vr::HmdMatrix34_t*) const (.part.0)
 CVRSystemLatest::HasRemoteFrameTiming()
-CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
-CVRSystemLatest::IncrementChaperoneDataRefreshIndex()
-CVRSystemLatest::IncrementChaperoneDataRefreshIndex() (.cold)
+CVRSystemLatest::HasSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags)
 CVRSystemLatest::Init(vr::EVRApplicationType, CVRClient*, IVRClientInternal*, CRenderModelManager*, vr::IVRControlPanel*, vr::CVRApplicationsLatest*)
 CVRSystemLatest::Init(vr::EVRApplicationType, CVRClient*, IVRClientInternal*, CRenderModelManager*, vr::IVRControlPanel*, vr::CVRApplicationsLatest*) (.cold)
+CVRSystemLatest::IsDashboardVisibleInternal()
 CVRSystemLatest::IsDisplayOnDesktop()
 CVRSystemLatest::IsDisplayOnDesktop() (.cold)
 CVRSystemLatest::IsInputAvailable()
@@ -15622,8 +15756,8 @@ CVRSystemLatest::PushEventOntoQueue(VRSharedEvent_t const&)
 CVRSystemLatest::PushEventOntoQueue(VRSharedEvent_t const&) (.cold)
 CVRSystemLatest::PushOverlayEvent(VRSharedEvent_t, unsigned long)
 CVRSystemLatest::RegisterInterface(char const*, void*)
-CVRSystemLatest::RemoveSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
-CVRSystemLatest::RemoveSystemBehaviorFlag(EVRInternalSystemBehaviorFlags) (.cold)
+CVRSystemLatest::RemoveSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags)
+CVRSystemLatest::RemoveSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags) (.cold)
 CVRSystemLatest::ReprojectVertices(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t const&, unsigned int, vr::HmdVector2_t const*, vr::HmdVector2_t*)
 CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, CVRSystemLatest::FovScale_t const*)
 CVRSystemLatest::SetCompositorError(vr::EVRInitError)
@@ -15633,7 +15767,7 @@ CVRSystemLatest::SetInputCapturePids(vr::InputCapturePids_t const&)
 CVRSystemLatest::SetInputCapturePids(vr::InputCapturePids_t const&) (.cold)
 CVRSystemLatest::SetOutputDevice(unsigned long)
 CVRSystemLatest::SetOutputDevice(unsigned long) (.cold)
-CVRSystemLatest::SetSystemBehaviorFlag(EVRInternalSystemBehaviorFlags, bool)
+CVRSystemLatest::SetSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags, bool)
 CVRSystemLatest::ShouldApplicationPause()
 CVRSystemLatest::ShouldApplicationPause() (.cold)
 CVRSystemLatest::ShouldApplicationReduceRenderingWork()
@@ -16784,7 +16918,7 @@ CVkGarbageCollector::~CVkGarbageCollector()
 CVkImage::AspectMask() const
 CVkImage::BytesRequired() const
 CVkImage::CmdClearColorImage(CVkCommandBuffer*, VkClearColorValue const&, VkImageLayout, unsigned int)
-CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int)
+CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int, unsigned int)
 CVkImage::CmdCopyImage(CVkCommandBuffer*, CVkImage*, std::vector<VkImageCopy, std::allocator<VkImageCopy>> const&, VkImageLayout, VkImageLayout)
 CVkImage::CmdPipelineBarrier(CVkCommandBuffer*, VkImageLayout, VkImageLayout, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
 CVkImage::PrepareForExport(VkImageSharedData_t&, unsigned int)
@@ -16936,11 +17070,11 @@ CVulkanVRRenderer::ImportIndexBufferFromSharedHandle(unsigned long)
 CVulkanVRRenderer::ImportTextureFromNativeRenderTarget(void*)
 CVulkanVRRenderer::ImportTextureFromNativeTexture(void*, vr::EColorSpace, unsigned int, unsigned int)
 CVulkanVRRenderer::ImportTextureFromNativeTexture(void*, vr::EColorSpace, unsigned int, unsigned int) (.cold)
-CVulkanVRRenderer::ImportTextureFromSharedHandle(unsigned long, vr::EColorSpace, unsigned int, unsigned int, bool)
-CVulkanVRRenderer::ImportTextureFromSharedHandle(unsigned long, vr::EColorSpace, unsigned int, unsigned int, bool) (.cold)
+CVulkanVRRenderer::ImportTextureFromSharedHandle(unsigned long, vr::EColorSpace, unsigned int, unsigned int, bool, char const*)
+CVulkanVRRenderer::ImportTextureFromSharedHandle(unsigned long, vr::EColorSpace, unsigned int, unsigned int, bool, char const*) (.cold)
 CVulkanVRRenderer::ImportVertexBufferFromSharedHandle(unsigned long)
-CVulkanVRRenderer::Initialize(vr::IHmdWindow*, vr::IVRIPCResourceManagerClient*, VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int, VkQueue_T*, unsigned int, vr::IVRResources*, vr::IVRCompositorSystemInternal*, bool, bool)
-CVulkanVRRenderer::Initialize(vr::IHmdWindow*, vr::IVRIPCResourceManagerClient*, VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int, VkQueue_T*, unsigned int, vr::IVRResources*, vr::IVRCompositorSystemInternal*, bool, bool) (.cold)
+CVulkanVRRenderer::Initialize(vr::IHmdWindow*, vr::IVRIPCResourceManagerClient*, VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int, VkQueue_T*, unsigned int, vr::IVRResources*, vr::IVRCompositorSystemInternal*, bool)
+CVulkanVRRenderer::Initialize(vr::IHmdWindow*, vr::IVRIPCResourceManagerClient*, VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int, VkQueue_T*, unsigned int, vr::IVRResources*, vr::IVRCompositorSystemInternal*, bool) (.cold)
 CVulkanVRRenderer::InsertCmdDebugMarker(VkCommandBuffer_T*, char const*, float*)
 CVulkanVRRenderer::InsertCmdDebugMarker(VkCommandBuffer_T*, char const*, float*) (.part.0)
 CVulkanVRRenderer::InsertEventQuery(VRRenderer::EventQueryBase*)
@@ -17121,6 +17255,7 @@ CloseKeyboard(VRSystemLayerState_t*)
 CloseKeyboard(VRSystemLayerState_t*) (.cold)
 CloseLog()
 Closing Keyboard
+CmdPipelineBarrier
 CollapseActionValues(std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>> const&, std::function<bool (unsigned long)>)
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&)
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&) (.cold)
@@ -17128,8 +17263,11 @@ CollapseInputValues(std::vector<VRInputValue_t, std::allocator<VRInputValue_t>> 
 Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f\n
 Command failed with %d: %s
 CommandBuffer[%u]
+CommitDynamicFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
+CommitDynamicFloorHeight failed. Not going to commit a floor with unset value.
+CommitDynamicFloorHeight is commiting an intial guess. Suspicious...
+CommitWorkingCopy
 Committed chaperone working copy\n
-CompareTrackedDeviceEntry(void const*, void const*)
 Completed
 ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>::CreateAdapter(void*, std::string const&)
 ComposeDpadInputPath(std::string, std::string, std::string, std::string)
@@ -17196,6 +17334,8 @@ CompositorInterfaceRegistration<CVRCompositor_026>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_026>::~CompositorInterfaceRegistration()
 CompositorInterfaceRegistration<CVRCompositor_027>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_027>::~CompositorInterfaceRegistration()
+CompositorInterfaceRegistration<CVRCompositor_028>::GetInterface()
+CompositorInterfaceRegistration<CVRCompositor_028>::~CompositorInterfaceRegistration()
 Compute Client
 ComputeBindingCachePath(std::string const&, std::string const&)
 ComputeBindingCachePath(std::string const&, std::string const&) (.cold)
@@ -17393,9 +17533,12 @@ EVRSceneApplicationState_Quitting
 EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
+EXCESSIVE ERRORS FOR GetSkeletalTrackingLevelForHandError (%d). NO LONGER LOGGING ERRORS FOR THIS.
+EXCESSIVE ERRORS FOR GetSkeletonBoneDataForHandError (%d). NO LONGER LOGGING ERRORS FOR THIS.
 EXPOSURE=          1.0000000000000\n\n-Y %d +X %d\n
 EXRHandleType GetXRHandleType<XrActionSet_T*>()
 EXRHandleType GetXRHandleType<XrAction_T*>()
+EXRHandleType GetXRHandleType<XrFoveationProfileFB_T*>()
 EXRHandleType GetXRHandleType<XrHandTrackerEXT_T*>()
 EXRHandleType GetXRHandleType<XrInstance_T*>()
 EXRHandleType GetXRHandleType<XrRenderModelAssetEXT_T*>()
@@ -17418,6 +17561,7 @@ Empty escape sequence in string
 Empty file.
 Enable advanced image processing of scene textures.\n
 Enable multithreading to use std::thread
+EnableFrameEndMarkers
 EnableWebDebugger()
 Encountered unexpected delayed initialization of CPropertyManager\n
 EndCommandBuffer
@@ -17511,6 +17655,7 @@ Failed to calculate motion: bad parameter\n
 Failed to calculate motion: failed to create output\n
 Failed to calculate motion: failed to submit work\n
 Failed to calculate mv: processing failure\n
+Failed to change directory to '%s' when launching process '%s': %d
 Failed to commit chaperone working set because message timed out\n
 Failed to commit chaperone working set because no universe was set\n
 Failed to commit chaperone working set because tracking origin is too far from 0\n
@@ -17546,6 +17691,7 @@ Failed to create shared vulkan buffer: size=%zu usage=0x%x\n
 Failed to create shared vulkan semaphore\n
 Failed to create socket for shared fd id: 0x%lx\n
 Failed to create socket for shared fd: %d\n
+Failed to create swapchain image: Foveation not supported
 Failed to create swapchain image: Unsupported format: %d\n
 Failed to create sync texture.  Ensure application was built using DXGI 1.1 or later (i.e. Call CreateDXGIFactory1).\n
 Failed to create vertex shader module %s!\n
@@ -17701,14 +17847,13 @@ Failure to create OpenGL framebuffer for source texture (error: 0x%x) - falling 
 Fallback_RotationOnly
 Fatal
 Fatal : VkResult is "
-FbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
 FbPN8tinygltf5ImageEiPSsS2_iiPKhiPvE
 FbPSsRKSsRKSt6vectorIhSaIhEEPvE
 FbPSt6vectorIhSaIhEEPSsRKSsPvE
 FbPmPSsRKSsPvE
 FbRKSsPSsPvE
+FbRKSsPvE
 FbcE
-Feb  5 2025
 February
 File %s not found\n
 File Not Found (103)
@@ -17766,6 +17911,7 @@ FnTable:IVRCompositor_024
 FnTable:IVRCompositor_025
 FnTable:IVRCompositor_026
 FnTable:IVRCompositor_027
+FnTable:IVRCompositor_028
 FnTable:IVRIOBuffer_002
 FnTable:IVRInput_001
 FnTable:IVRInput_002
@@ -18047,14 +18193,16 @@ GetStringForVROverlayError(vr::EVROverlayError)
 GetStringForVROverlayError(vr::EVROverlayError)::buf
 GetStringForVROverlayFlags(vr::VROverlayFlags)
 GetStringForVROverlayFlags(vr::VROverlayFlags)::buf
+GetStringForVROverlayType(vr::VROverlayType)
+GetStringForVROverlayType(vr::VROverlayType)::buf
 GetStringForVRSettingsError(vr::EVRSettingsError)
 GetStringForVRSettingsError(vr::EVRSettingsError)::buf
 GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)
 GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)::buf
 GetStringForXrSessionState(XrSessionState)
 GetStringForXrSessionState(XrSessionState)::buf
-GetStringFromInternalSystemBehavior(EVRInternalSystemBehaviorFlags)
-GetStringFromInternalSystemBehavior(EVRInternalSystemBehaviorFlags)::buf
+GetStringFromInternalSystemBehavior(vr::EVRInternalSystemBehaviorFlags)
+GetStringFromInternalSystemBehavior(vr::EVRInternalSystemBehaviorFlags)::buf
 GetSubmitFlagsFromTextureDetails(float const (&) [4][4])
 GetSystemBaseTicks()
 GetSystemTicksFromTime(double)
@@ -18396,7 +18544,7 @@ IVRBlockQueue_003
 IVRBlockQueue_004
 IVRBlockQueue_005
 IVRCVTrackedHmdInternal_
-IVRCVTrackedHmdInternal_001
+IVRCVTrackedHmdInternal_XXX
 IVRCameraComponent001_Version
 IVRCameraComponent002::GetCameraDistortion(float, float, float*, float*)
 IVRCameraComponent002::GetCameraIntrinsics(vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*)
@@ -18406,7 +18554,7 @@ IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
 IVRCameraPassthroughInternal_001
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_001
 IVRChaperoneSetup_002
 IVRChaperoneSetup_003
@@ -19104,6 +19252,59 @@ IVRCompositor_027_FnTable_SuspendRendering(bool)
 IVRCompositor_027_FnTable_UnlockGLSharedTextureForAccess(void*)
 IVRCompositor_027_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 IVRCompositor_028
+IVRCompositor_028_FnTable_CanRenderScene()
+IVRCompositor_028_FnTable_ClearLastSubmittedFrame()
+IVRCompositor_028_FnTable_ClearSkyboxOverride()
+IVRCompositor_028_FnTable_ClearStageOverride()
+IVRCompositor_028_FnTable_CompositorBringToFront()
+IVRCompositor_028_FnTable_CompositorDumpImages()
+IVRCompositor_028_FnTable_CompositorGoToBack()
+IVRCompositor_028_FnTable_CompositorQuit()
+IVRCompositor_028_FnTable_FadeGrid(float, bool)
+IVRCompositor_028_FnTable_FadeToColor(float, float, float, float, float, bool)
+IVRCompositor_028_FnTable_ForceInterleavedReprojectionOn(bool)
+IVRCompositor_028_FnTable_ForceReconnectProcess()
+IVRCompositor_028_FnTable_GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
+IVRCompositor_028_FnTable_GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
+IVRCompositor_028_FnTable_GetCurrentFadeColor(bool)
+IVRCompositor_028_FnTable_GetCurrentGridAlpha()
+IVRCompositor_028_FnTable_GetCurrentSceneFocusProcess()
+IVRCompositor_028_FnTable_GetFrameTimeRemaining()
+IVRCompositor_028_FnTable_GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
+IVRCompositor_028_FnTable_GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+IVRCompositor_028_FnTable_GetLastFrameRenderer()
+IVRCompositor_028_FnTable_GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
+IVRCompositor_028_FnTable_GetLastPosePredictionIDs(unsigned int*, unsigned int*)
+IVRCompositor_028_FnTable_GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_028_FnTable_GetMirrorTextureD3D11(vr::EVREye, void*, void**)
+IVRCompositor_028_FnTable_GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
+IVRCompositor_028_FnTable_GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_028_FnTable_GetTrackingSpace()
+IVRCompositor_028_FnTable_GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
+IVRCompositor_028_FnTable_GetVulkanInstanceExtensionsRequired(char*, unsigned int)
+IVRCompositor_028_FnTable_HideMirrorWindow()
+IVRCompositor_028_FnTable_IsCurrentSceneFocusAppLoading()
+IVRCompositor_028_FnTable_IsFullscreen()
+IVRCompositor_028_FnTable_IsMirrorWindowVisible()
+IVRCompositor_028_FnTable_IsMotionSmoothingEnabled()
+IVRCompositor_028_FnTable_IsMotionSmoothingSupported()
+IVRCompositor_028_FnTable_LockGLSharedTextureForAccess(void*)
+IVRCompositor_028_FnTable_PostPresentHandoff()
+IVRCompositor_028_FnTable_ReleaseMirrorTextureD3D11(void*)
+IVRCompositor_028_FnTable_ReleaseSharedGLTexture(unsigned int, void*)
+IVRCompositor_028_FnTable_SetExplicitTimingMode(vr::EVRCompositorTimingMode)
+IVRCompositor_028_FnTable_SetSkyboxOverride(vr::Texture_t const*, unsigned int)
+IVRCompositor_028_FnTable_SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
+IVRCompositor_028_FnTable_SetTrackingSpace(vr::ETrackingUniverseOrigin)
+IVRCompositor_028_FnTable_ShouldAppRenderWithLowResources()
+IVRCompositor_028_FnTable_ShowMirrorWindow()
+IVRCompositor_028_FnTable_Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+IVRCompositor_028_FnTable_SubmitExplicitTimingData()
+IVRCompositor_028_FnTable_SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+IVRCompositor_028_FnTable_SuspendRendering(bool)
+IVRCompositor_028_FnTable_UnlockGLSharedTextureForAccess(void*)
+IVRCompositor_028_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_029
 IVRControlPanel_001
 IVRControlPanel_002
 IVRControlPanel_003
@@ -19121,6 +19322,7 @@ IVRDisplayComponent_001
 IVRDriverDirectInternal_
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
+IVRDriverInputInternal_XXX
 IVRDriverLog_
 IVRDriverLog_001
 IVRDriverManager_001
@@ -22392,6 +22594,8 @@ N27CVRCompositorSharedTextures20CSharedTextureSetSHMINS_21SharedTextureDataGL_tE
 N27CVRCompositorSharedTextures20CSharedTextureSetSHMINS_21SharedTextureDataGL_tELj3EEE
 N27CVRCompositorSharedTextures20CSharedTextureSetSHMINS_25SharedTextureDataVulkan_tELj1EEE
 N27CVRCompositorSharedTextures20CSharedTextureSetSHMINS_25SharedTextureDataVulkan_tELj3EEE
+N27CVRCompositorSharedTextures29CSharedTextureSetDriverDirectINS_21SharedTextureDataGL_tEEE
+N27CVRCompositorSharedTextures29CSharedTextureSetDriverDirectINS_25SharedTextureDataVulkan_tEEE
 N2vr10IVRMailboxE
 N2vr10IVROverlayE
 N2vr11IVRIOBufferE
@@ -22788,6 +22992,7 @@ PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
+PS_main
 Parenthesis is not closed.
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
@@ -23095,6 +23300,8 @@ QkkXa
 Qkkbal
 QuaternionAligned::ToMatrix(VectorAligned const&) const
 QuaternionAligned::qIdentity
+QueryPerformanceMetricsCounterMETA was passed a known path but has no logic to handle it.
+QueryPerformanceMetricsCounterMETA was passed an unrecognized XrPath.
 RADV
 RGBAdobe
 RadialMenu missing X axis input.\n
@@ -24010,6 +24217,7 @@ Unknown EVROverlayError (%d)
 Unknown EVRSceneApplicationState (%d)
 Unknown HMDClass (%d)
 Unknown Overlay flag (%d)
+Unknown Overlay type (%d)
 Unknown Path
 Unknown VRApplicationsError (%d)
 Unknown VRMsgType (%d)
@@ -24069,6 +24277,7 @@ VK_EXT_debug_marker
 VK_EXT_debug_report
 VK_EXT_debug_utils
 VK_EXT_global_priority
+VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_dedicated_allocation
 VK_KHR_external_memory
@@ -24185,7 +24394,7 @@ VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
-VREvent_ChaperoneRoomSetupFinished
+VREvent_ChaperoneRoomSetupCommitted
 VREvent_ChaperoneRoomSetupStarting
 VREvent_ChaperoneSettingsHaveChanged
 VREvent_ChaperoneTempDataHasChanged
@@ -24207,6 +24416,9 @@ VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardSectionSettingChanged
+VREvent_DashboardThumbChanged
+VREvent_DesktopMightBeHidden
+VREvent_DesktopMightBeVisible
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
@@ -24256,6 +24468,7 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
+VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -24265,6 +24478,8 @@ VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
 VREvent_OverlayClosed
+VREvent_OverlayCreated
+VREvent_OverlayDestroyed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -24811,6 +25026,10 @@ VROverlayFlags_StereoPanorama
 VROverlayFlags_TransferOwnershipToInternalProcess
 VROverlayFlags_VisibleInDashboard
 VROverlayFlags_WantsModalBehavior
+VROverlayType_Basic
+VROverlayType_Dashboard_Main
+VROverlayType_Dashboard_Thumbnail
+VROverlayType_Subview
 VRRenderModelError_InvalidArg (300)
 VRRenderModelError_InvalidModel (301)
 VRRenderModelError_InvalidTexture (400)
@@ -24880,6 +25099,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
+VR_Compositor_OverlayVSync0
 VR_Compositor_OverlayVSync1
 VR_Compositor_VulkanSyncClientAndCompositor
 VR_Compositor_VulkanSyncClientAndCompositor_SharedMem
@@ -24989,6 +25209,7 @@ VR_IVRCompositor_FnTable_GetLastPoses(TrackedDevicePose_t*, unsigned int, Tracke
 VR_IVRCompositor_FnTable_GetMirrorTextureD3D11(EVREye, void*, void**)
 VR_IVRCompositor_FnTable_GetMirrorTextureGL(EVREye, unsigned int*, void**)
 VR_IVRCompositor_FnTable_GetPosesForFrame(unsigned int, TrackedDevicePose_t*, unsigned int)
+VR_IVRCompositor_FnTable_GetSubmitTexture(Texture_t*, bool*, EVRCompositorTextureUsage, Texture_t*, VRTextureBounds_t*, EVRSubmitFlags)
 VR_IVRCompositor_FnTable_GetTrackingSpace()
 VR_IVRCompositor_FnTable_GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 VR_IVRCompositor_FnTable_GetVulkanInstanceExtensionsRequired(char*, unsigned int)
@@ -25546,8 +25767,11 @@ XDG_DATA_DIRS
 XDG_DATA_HOME
 XR Swapchain-%d
 XR24
-XR30
+XR30\t
 XRRenderModelUuidCache
+XR_COLOCATION_DISCOVERY_ALREADY_ADVERTISING_META
+XR_COLOCATION_DISCOVERY_ALREADY_DISCOVERING_META
+XR_ENVIRONMENT_DEPTH_NOT_AVAILABLE_META
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
 XR_ERROR_ACTION_TYPE_MISMATCH
@@ -25556,13 +25780,17 @@ XR_ERROR_ANDROID_THREAD_SETTINGS_ID_INVALID_KHR
 XR_ERROR_API_LAYER_NOT_PRESENT
 XR_ERROR_API_VERSION_UNSUPPORTED
 XR_ERROR_CALL_ORDER_INVALID
+XR_ERROR_COLOCATION_DISCOVERY_NETWORK_FAILED_META
+XR_ERROR_COLOCATION_DISCOVERY_NO_DISCOVERY_METHOD_META
 XR_ERROR_COLOR_SPACE_UNSUPPORTED_FB
 XR_ERROR_COMPUTE_NEW_SCENE_NOT_COMPLETED_MSFT
 XR_ERROR_CONTROLLER_MODEL_KEY_INVALID_MSFT
 XR_ERROR_CREATE_SPATIAL_ANCHOR_FAILED_MSFT
 XR_ERROR_DISPLAY_REFRESH_RATE_UNSUPPORTED_FB
 XR_ERROR_ENVIRONMENT_BLEND_MODE_UNSUPPORTED
+XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED
 XR_ERROR_EXTENSION_NOT_PRESENT
+XR_ERROR_FACIAL_EXPRESSION_PERMISSION_DENIED_ML
 XR_ERROR_FEATURE_ALREADY_CREATED_PASSTHROUGH_FB
 XR_ERROR_FEATURE_REQUIRED_PASSTHROUGH_FB
 XR_ERROR_FEATURE_UNSUPPORTED
@@ -25571,6 +25799,8 @@ XR_ERROR_FILE_CONTENTS_INVALID
 XR_ERROR_FORM_FACTOR_UNAVAILABLE
 XR_ERROR_FORM_FACTOR_UNSUPPORTED
 XR_ERROR_FUNCTION_UNSUPPORTED
+XR_ERROR_FUTURE_INVALID_EXT
+XR_ERROR_FUTURE_PENDING_EXT
 XR_ERROR_GRAPHICS_DEVICE_INVALID
 XR_ERROR_GRAPHICS_REQUIREMENTS_CALL_MISSING
 XR_ERROR_HANDLE_INVALID
@@ -25609,6 +25839,7 @@ XR_ERROR_PATH_COUNT_EXCEEDED
 XR_ERROR_PATH_FORMAT_INVALID
 XR_ERROR_PATH_INVALID
 XR_ERROR_PATH_UNSUPPORTED
+XR_ERROR_PERMISSION_INSUFFICIENT
 XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
 XR_ERROR_POSE_INVALID
 XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
@@ -25636,21 +25867,31 @@ XR_ERROR_SPACE_COMPONENT_NOT_ENABLED_FB
 XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
+XR_ERROR_SPACE_GROUP_NOT_FOUND_META
 XR_ERROR_SPACE_LOCALIZATION_FAILED_FB
 XR_ERROR_SPACE_MAPPING_INSUFFICIENT_FB
 XR_ERROR_SPACE_NETWORK_REQUEST_FAILED_FB
 XR_ERROR_SPACE_NETWORK_TIMEOUT_FB
 XR_ERROR_SPACE_NOT_LOCATABLE_EXT
+XR_ERROR_SPATIAL_ANCHORS_ANCHOR_NOT_FOUND_ML
+XR_ERROR_SPATIAL_ANCHORS_NOT_LOCALIZED_ML
+XR_ERROR_SPATIAL_ANCHORS_OUT_OF_MAP_BOUNDS_ML
+XR_ERROR_SPATIAL_ANCHORS_PERMISSION_DENIED_ML
+XR_ERROR_SPATIAL_ANCHORS_SPACE_NOT_LOCATABLE_ML
 XR_ERROR_SPATIAL_ANCHOR_NAME_INVALID_MSFT
 XR_ERROR_SPATIAL_ANCHOR_NAME_NOT_FOUND_MSFT
 XR_ERROR_SWAPCHAIN_FORMAT_UNSUPPORTED
 XR_ERROR_SWAPCHAIN_RECT_INVALID
 XR_ERROR_SYSTEM_INVALID
+XR_ERROR_SYSTEM_NOTIFICATION_INCOMPATIBLE_SKU_ML
+XR_ERROR_SYSTEM_NOTIFICATION_PERMISSION_DENIED_ML
 XR_ERROR_TIME_INVALID
 XR_ERROR_UNEXPECTED_STATE_PASSTHROUGH_FB
 XR_ERROR_UNKNOWN_PASSTHROUGH_FB
 XR_ERROR_VALIDATION_FAILURE
 XR_ERROR_VIEW_CONFIGURATION_TYPE_UNSUPPORTED
+XR_ERROR_WORLD_MESH_DETECTOR_PERMISSION_DENIED_ML
+XR_ERROR_WORLD_MESH_DETECTOR_SPACE_NOT_LOCATABLE_ML
 XR_EVENT_UNAVAILABLE
 XR_EXT_active_action_set_priority
 XR_EXT_conformance_automation
@@ -25662,13 +25903,16 @@ XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
 XR_EXT_hp_mixed_reality_controller
 XR_EXT_interaction_render_model
-XR_EXT_irm_toplevel_path
 XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_render_model
 XR_EXT_user_presence
 XR_EXT_uuid
 XR_FB_display_refresh_rate
+XR_FB_foveation
+XR_FB_foveation_configuration
+XR_FB_foveation_vulkan
+XR_FB_swapchain_update_state
 XR_FRAME_DISCARDED
 XR_HTCX_vive_tracker_interaction
 XR_HTC_vive_cosmos_controller_interaction
@@ -25682,6 +25926,8 @@ XR_KHR_opengl_es_enable
 XR_KHR_visibility_mask
 XR_KHR_vulkan_enable
 XR_KHR_vulkan_enable2
+XR_META_foveation_eye_tracked
+XR_META_performance_metrics
 XR_MNDX_egl_enable
 XR_MND_headless
 XR_RENDER_MODEL_UNAVAILABLE_FB
@@ -25717,12 +25963,23 @@ XR_TYPE_ACTIVE_ACTION_SET_PRIORITIES_EXT
 XR_TYPE_ANDROID_SURFACE_SWAPCHAIN_CREATE_INFO_FB
 XR_TYPE_API_LAYER_PROPERTIES
 XR_TYPE_BINDING_MODIFICATIONS_KHR
+XR_TYPE_BODY_JOINTS_LOCATE_INFO_BD
 XR_TYPE_BODY_JOINTS_LOCATE_INFO_FB
+XR_TYPE_BODY_JOINTS_LOCATE_INFO_HTC
+XR_TYPE_BODY_JOINT_LOCATIONS_BD
 XR_TYPE_BODY_JOINT_LOCATIONS_FB
+XR_TYPE_BODY_JOINT_LOCATIONS_HTC
 XR_TYPE_BODY_SKELETON_FB
+XR_TYPE_BODY_SKELETON_HTC
+XR_TYPE_BODY_TRACKER_CREATE_INFO_BD
 XR_TYPE_BODY_TRACKER_CREATE_INFO_FB
+XR_TYPE_BODY_TRACKER_CREATE_INFO_HTC
 XR_TYPE_BOUNDARY_2D_FB
 XR_TYPE_BOUND_SOURCES_FOR_ACTION_ENUMERATE_INFO
+XR_TYPE_COLOCATION_ADVERTISEMENT_START_INFO_META
+XR_TYPE_COLOCATION_ADVERTISEMENT_STOP_INFO_META
+XR_TYPE_COLOCATION_DISCOVERY_START_INFO_META
+XR_TYPE_COLOCATION_DISCOVERY_STOP_INFO_META
 XR_TYPE_COMPOSITION_LAYER_ALPHA_BLEND_FB
 XR_TYPE_COMPOSITION_LAYER_COLOR_SCALE_BIAS_KHR
 XR_TYPE_COMPOSITION_LAYER_CUBE_KHR
@@ -25749,13 +26006,24 @@ XR_TYPE_CONTROLLER_MODEL_NODE_STATE_MSFT
 XR_TYPE_CONTROLLER_MODEL_PROPERTIES_MSFT
 XR_TYPE_CONTROLLER_MODEL_STATE_MSFT
 XR_TYPE_COORDINATE_SPACE_CREATE_INFO_ML
+XR_TYPE_CREATE_SPATIAL_ANCHORS_COMPLETION_ML
 XR_TYPE_DEBUG_UTILS_LABEL_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
 XR_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT
 XR_TYPE_DEVICE_PCM_SAMPLE_RATE_STATE_FB
 XR_TYPE_DIGITAL_LENS_CONTROL_ALMALENCE
+XR_TYPE_ENVIRONMENT_DEPTH_HAND_REMOVAL_SET_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_ACQUIRE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_VIEW_META
+XR_TYPE_ENVIRONMENT_DEPTH_PROVIDER_CREATE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_SWAPCHAIN_CREATE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_SWAPCHAIN_STATE_META
 XR_TYPE_EVENT_DATA_BUFFER
+XR_TYPE_EVENT_DATA_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_COLOCATION_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_COLOCATION_DISCOVERY_RESULT_META
 XR_TYPE_EVENT_DATA_DISPLAY_REFRESH_RATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_EVENTS_LOST
 XR_TYPE_EVENT_DATA_EYE_CALIBRATION_CHANGED_ML
@@ -25766,11 +26034,13 @@ XR_TYPE_EVENT_DATA_INTERACTION_RENDER_MODELS_CHANGED_EXT
 XR_TYPE_EVENT_DATA_LOCALIZATION_CHANGED_ML
 XR_TYPE_EVENT_DATA_MAIN_SESSION_VISIBILITY_CHANGED_EXTX
 XR_TYPE_EVENT_DATA_MARKER_TRACKING_UPDATE_VARJO
+XR_TYPE_EVENT_DATA_PASSTHROUGH_LAYER_RESUMED_META
 XR_TYPE_EVENT_DATA_PASSTHROUGH_STATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_PERF_SETTINGS_EXT
 XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING
 XR_TYPE_EVENT_DATA_SCENE_CAPTURE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SESSION_STATE_CHANGED
+XR_TYPE_EVENT_DATA_SHARE_SPACES_COMPLETE_META
 XR_TYPE_EVENT_DATA_SPACE_ERASE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_LIST_SAVE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_QUERY_COMPLETE_FB
@@ -25779,6 +26049,10 @@ XR_TYPE_EVENT_DATA_SPACE_SAVE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_SET_STATUS_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_SHARE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPATIAL_ANCHOR_CREATE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_START_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_START_COLOCATION_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_STOP_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_STOP_COLOCATION_DISCOVERY_COMPLETE_META
 XR_TYPE_EVENT_DATA_USER_PRESENCE_CHANGED_EXT
 XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_BACKSPACE_META
 XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_COMMIT_TEXT_META
@@ -25793,10 +26067,16 @@ XR_TYPE_EYE_GAZES_FB
 XR_TYPE_EYE_GAZES_INFO_FB
 XR_TYPE_EYE_GAZE_SAMPLE_TIME_EXT
 XR_TYPE_EYE_TRACKER_CREATE_INFO_FB
+XR_TYPE_FACE_EXPRESSION_INFO2_FB
 XR_TYPE_FACE_EXPRESSION_INFO_FB
+XR_TYPE_FACE_EXPRESSION_WEIGHTS2_FB
 XR_TYPE_FACE_EXPRESSION_WEIGHTS_FB
+XR_TYPE_FACE_TRACKER_CREATE_INFO2_FB
 XR_TYPE_FACE_TRACKER_CREATE_INFO_FB
 XR_TYPE_FACIAL_EXPRESSIONS_HTC
+XR_TYPE_FACIAL_EXPRESSION_BLEND_SHAPE_GET_INFO_ML
+XR_TYPE_FACIAL_EXPRESSION_BLEND_SHAPE_PROPERTIES_ML
+XR_TYPE_FACIAL_EXPRESSION_CLIENT_CREATE_INFO_ML
 XR_TYPE_FACIAL_TRACKER_CREATE_INFO_HTC
 XR_TYPE_FORCE_FEEDBACK_CURL_APPLY_LOCATIONS_MNDX
 XR_TYPE_FOVEATED_VIEW_CONFIGURATION_VIEW_VARJO
@@ -25808,16 +26088,24 @@ XR_TYPE_FOVEATION_EYE_TRACKED_STATE_META
 XR_TYPE_FOVEATION_LEVEL_PROFILE_CREATE_INFO_FB
 XR_TYPE_FOVEATION_PROFILE_CREATE_INFO_FB
 XR_TYPE_FRAME_BEGIN_INFO
+XR_TYPE_FRAME_COMPOSITION_REPORT_EXT
 XR_TYPE_FRAME_END_INFO
 XR_TYPE_FRAME_END_INFO_ML
 XR_TYPE_FRAME_STATE
+XR_TYPE_FRAME_SYNTHESIS_CONFIG_VIEW_EXT
+XR_TYPE_FRAME_SYNTHESIS_INFO_EXT
 XR_TYPE_FRAME_WAIT_INFO
+XR_TYPE_FUTURE_CANCEL_INFO_EXT
+XR_TYPE_FUTURE_COMPLETION_EXT
+XR_TYPE_FUTURE_POLL_INFO_EXT
+XR_TYPE_FUTURE_POLL_RESULT_EXT
 XR_TYPE_GEOMETRY_INSTANCE_CREATE_INFO_FB
 XR_TYPE_GEOMETRY_INSTANCE_TRANSFORM_FB
 XR_TYPE_GLOBAL_DIMMER_FRAME_END_INFO_ML
 XR_TYPE_GRAPHICS_BINDING_D3D11_KHR
 XR_TYPE_GRAPHICS_BINDING_D3D12_KHR
 XR_TYPE_GRAPHICS_BINDING_EGL_MNDX
+XR_TYPE_GRAPHICS_BINDING_METAL_KHR
 XR_TYPE_GRAPHICS_BINDING_OPENGL_ES_ANDROID_KHR
 XR_TYPE_GRAPHICS_BINDING_OPENGL_WAYLAND_KHR
 XR_TYPE_GRAPHICS_BINDING_OPENGL_WIN32_KHR
@@ -25826,6 +26114,7 @@ XR_TYPE_GRAPHICS_BINDING_OPENGL_XLIB_KHR
 XR_TYPE_GRAPHICS_BINDING_VULKAN_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_D3D11_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_D3D12_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_METAL_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_OPENGL_ES_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_OPENGL_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_VULKAN_KHR
@@ -25859,6 +26148,7 @@ XR_TYPE_INTERACTION_PROFILE_STATE
 XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
 XR_TYPE_INTERACTION_RENDER_MODEL_IDS_ENUMERATE_INFO_EXT
 XR_TYPE_INTERACTION_RENDER_MODEL_SUBACTION_PATH_INFO_EXT
+XR_TYPE_INTERACTION_RENDER_MODEL_TOP_LEVEL_USER_PATH_GET_INFO_EXT
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
@@ -25900,6 +26190,8 @@ XR_TYPE_PLANE_DETECTOR_GET_INFO_EXT
 XR_TYPE_PLANE_DETECTOR_LOCATIONS_EXT
 XR_TYPE_PLANE_DETECTOR_LOCATION_EXT
 XR_TYPE_PLANE_DETECTOR_POLYGON_BUFFER_EXT
+XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_GET_INFO_META
+XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_META
 XR_TYPE_REFERENCE_SPACE_CREATE_INFO
 XR_TYPE_RENDER_MODEL_ASSET_CREATE_INFO_EXT
 XR_TYPE_RENDER_MODEL_ASSET_DATA_EXT
@@ -25953,27 +26245,50 @@ XR_TYPE_SESSION_ACTION_SETS_ATTACH_INFO
 XR_TYPE_SESSION_BEGIN_INFO
 XR_TYPE_SESSION_CREATE_INFO
 XR_TYPE_SESSION_CREATE_INFO_OVERLAY_EXTX
+XR_TYPE_SHARE_SPACES_INFO_META
+XR_TYPE_SHARE_SPACES_RECIPIENT_GROUPS_META
+XR_TYPE_SPACES_LOCATE_INFO
 XR_TYPE_SPACE_COMPONENT_FILTER_INFO_FB
 XR_TYPE_SPACE_COMPONENT_STATUS_FB
 XR_TYPE_SPACE_COMPONENT_STATUS_SET_INFO_FB
 XR_TYPE_SPACE_CONTAINER_FB
 XR_TYPE_SPACE_ERASE_INFO_FB
+XR_TYPE_SPACE_GROUP_UUID_FILTER_INFO_META
 XR_TYPE_SPACE_LIST_SAVE_INFO_FB
 XR_TYPE_SPACE_LOCATION
+XR_TYPE_SPACE_LOCATIONS
 XR_TYPE_SPACE_QUERY_INFO_FB
 XR_TYPE_SPACE_QUERY_RESULTS_FB
 XR_TYPE_SPACE_SAVE_INFO_FB
 XR_TYPE_SPACE_SHARE_INFO_FB
 XR_TYPE_SPACE_STORAGE_LOCATION_FILTER_INFO_FB
+XR_TYPE_SPACE_TRIANGLE_MESH_GET_INFO_META
+XR_TYPE_SPACE_TRIANGLE_MESH_META
 XR_TYPE_SPACE_USER_CREATE_INFO_FB
 XR_TYPE_SPACE_UUID_FILTER_INFO_FB
+XR_TYPE_SPACE_VELOCITIES
 XR_TYPE_SPACE_VELOCITY
+XR_TYPE_SPATIAL_ANCHORS_CREATE_INFO_FROM_POSE_ML
+XR_TYPE_SPATIAL_ANCHORS_CREATE_INFO_FROM_UUIDS_ML
+XR_TYPE_SPATIAL_ANCHORS_CREATE_STORAGE_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_QUERY_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_QUERY_INFO_RADIUS_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_INFO_ML
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_FB
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_HTC
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_FROM_PERSISTED_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_PERSISTENCE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_SPACE_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_ANCHOR_STATE_ML
 XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_GET_INFO_MSFT
 XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_MSFT
 XR_TYPE_SPATIAL_GRAPH_NODE_SPACE_CREATE_INFO_MSFT
@@ -25984,6 +26299,7 @@ XR_TYPE_SWAPCHAIN_IMAGE_ACQUIRE_INFO
 XR_TYPE_SWAPCHAIN_IMAGE_D3D11_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_D3D12_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_FOVEATION_VULKAN_FB
+XR_TYPE_SWAPCHAIN_IMAGE_METAL_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_OPENGL_ES_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_OPENGL_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_RELEASE_INFO
@@ -25994,11 +26310,17 @@ XR_TYPE_SWAPCHAIN_STATE_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_OPENGL_ES_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_VULKAN_FB
 XR_TYPE_SYSTEM_ANCHOR_PROPERTIES_HTC
+XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_BD
 XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_HTC
+XR_TYPE_SYSTEM_COLOCATION_DISCOVERY_PROPERTIES_META
 XR_TYPE_SYSTEM_COLOR_SPACE_PROPERTIES_FB
+XR_TYPE_SYSTEM_ENVIRONMENT_DEPTH_PROPERTIES_META
 XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT
 XR_TYPE_SYSTEM_EYE_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_FACE_TRACKING_PROPERTIES2_FB
 XR_TYPE_SYSTEM_FACE_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_FACIAL_EXPRESSION_PROPERTIES_ML
 XR_TYPE_SYSTEM_FACIAL_TRACKING_PROPERTIES_HTC
 XR_TYPE_SYSTEM_FORCE_FEEDBACK_CURL_PROPERTIES_MNDX
 XR_TYPE_SYSTEM_FOVEATED_RENDERING_PROPERTIES_VARJO
@@ -26010,6 +26332,7 @@ XR_TYPE_SYSTEM_HEADSET_ID_PROPERTIES_META
 XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
 XR_TYPE_SYSTEM_MARKER_UNDERSTANDING_PROPERTIES_ML
+XR_TYPE_SYSTEM_NOTIFICATIONS_SET_INFO_ML
 XR_TYPE_SYSTEM_PASSTHROUGH_COLOR_LUT_PROPERTIES_META
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES2_FB
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
@@ -26017,7 +26340,9 @@ XR_TYPE_SYSTEM_PLANE_DETECTION_PROPERTIES_EXT
 XR_TYPE_SYSTEM_PROPERTIES
 XR_TYPE_SYSTEM_RENDER_MODEL_PROPERTIES_FB
 XR_TYPE_SYSTEM_SPACE_WARP_PROPERTIES_FB
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_GROUP_SHARING_PROPERTIES_META
 XR_TYPE_SYSTEM_SPATIAL_ENTITY_PROPERTIES_FB
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_SHARING_PROPERTIES_META
 XR_TYPE_SYSTEM_USER_PRESENCE_PROPERTIES_EXT
 XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
@@ -26048,12 +26373,26 @@ XR_TYPE_VULKAN_GRAPHICS_DEVICE_GET_INFO_KHR
 XR_TYPE_VULKAN_INSTANCE_CREATE_INFO_KHR
 XR_TYPE_VULKAN_SWAPCHAIN_CREATE_INFO_META
 XR_TYPE_VULKAN_SWAPCHAIN_FORMAT_LIST_CREATE_INFO_KHR
+XR_TYPE_WORLD_MESH_BLOCK_ML
+XR_TYPE_WORLD_MESH_BLOCK_REQUEST_ML
+XR_TYPE_WORLD_MESH_BLOCK_STATE_ML
+XR_TYPE_WORLD_MESH_BUFFER_ML
+XR_TYPE_WORLD_MESH_BUFFER_RECOMMENDED_SIZE_INFO_ML
+XR_TYPE_WORLD_MESH_BUFFER_SIZE_ML
+XR_TYPE_WORLD_MESH_DETECTOR_CREATE_INFO_ML
+XR_TYPE_WORLD_MESH_GET_INFO_ML
+XR_TYPE_WORLD_MESH_REQUEST_COMPLETION_INFO_ML
+XR_TYPE_WORLD_MESH_REQUEST_COMPLETION_ML
+XR_TYPE_WORLD_MESH_STATE_REQUEST_COMPLETION_ML
+XR_TYPE_WORLD_MESH_STATE_REQUEST_INFO_ML
 XR_UNKNOWN_FAILURE_%d
 XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
 XXXX PNG chunk not known
 XrGenericTracker::~XrGenericTracker()
+XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*) (.constprop.0)
+XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*) (.constprop.0) (.cold)
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]\n
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
 XrProto:Predict:%d
@@ -26065,6 +26404,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+XrQueryPerformanceMetricsCounterMETA was passed a counter struct with the wrong type member.
+XrQueryPerformanceMetricsCounterMETA was passed a null counter pointer.
 XrReferenceSpaceType& std::vector<XrReferenceSpaceType, std::allocator<XrReferenceSpaceType>>::emplace_back<XrReferenceSpaceType>(XrReferenceSpaceType&&)
 XrResult CSxrInstance::GetGraphicsRequirements<XrGraphicsRequirementsVulkanKHR>(unsigned long, XrGraphicsRequirementsVulkanKHR*) (.isra.0)
 XrResult CSxrSession::ReadCachedActionState<XrActionStateBoolean>(XrAction_T*, unsigned long, XrActionType, XrActionStateBoolean*, XrActionStateBoolean const&, std::function<XrResult (XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)>)
@@ -26330,6 +26671,7 @@ Zjz\v
 [OpenXR] Focused/Visible transition conditions: %d %d
 [OpenXR] Synchronized transition conditions: %d %d
 [OpenXR] Visible transition conditions: %d %d
+[Overlay] WaitFrameSync[%d]
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
 [PROBLEM] Saving Path Registry failed: 
 [RenderModelConverter] Failed to compute node: %s
@@ -26377,7 +26719,6 @@ Zjz\v
 [abi:
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
-[xrInteractionRenderModelGetTopLevelUserPathEXT] Device %u didn't have %s set
 [xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %lu)
 [xrRenderModel] Asset was not loaded in memory when trying to retrieve data
 [xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
@@ -26405,6 +26746,7 @@ Zjz\v
 [xrRenderModel] nodeStateCount was not equal to animatableNodeCount
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
+[xrRenderModel] session is not running
 \fUk#pb
 \nComment=Application for the 
 \nComment=URI handler for 
@@ -27460,6 +27802,7 @@ cntrl
 collectComments
 collisionBounds
 collision_bounds
+collision_radius
 colon
 color
 comma
@@ -27523,9 +27866,14 @@ construction vtable for vr::IVRSharedBuffer-in-CSharedBufferLinux
 construction vtable for vr::IVRSharedCountingSemaphore-in-CSharedCountingSemaphoreLinux
 construction vtable for vr::IVRSharedImage-in-CSharedImageLinux
 construction vtable for vr::IVRSharedSemaphore-in-CSharedSemaphoreLinux
+container_error_string(char*, ...)
 controller_axis
 controller_axis_component
 controller_button
+controller_button_dpad_down
+controller_button_dpad_left
+controller_button_dpad_right
+controller_button_dpad_up
 controller_handed
 controller_settings
 controller_type
@@ -27684,10 +28032,14 @@ dpad_
 dpad_center
 dpad_click
 dpad_down
+dpad_down_path
 dpad_left
+dpad_left_path
 dpad_right
+dpad_right_path
 dpad_touch
 dpad_up
+dpad_up_path
 dpad_xr
 driver is disabled in settings
 driver not found (check vrpathreg)
@@ -28048,6 +28400,7 @@ g_IVRCompositor_024_FnTable
 g_IVRCompositor_025_FnTable
 g_IVRCompositor_026_FnTable
 g_IVRCompositor_027_FnTable
+g_IVRCompositor_028_FnTable
 g_IVRIOBuffer_002_FnTable
 g_IVRInput_001_FnTable
 g_IVRInput_002_FnTable
@@ -28231,6 +28584,7 @@ g_pVRClientInternal
 g_pVRControlPanel
 g_pVRDebug
 g_pVRDriverDirectInternal
+g_pVRDriverInputInternal
 g_pVRDriverManager
 g_pVRExtendedDisplay
 g_pVRMailbox
@@ -28619,7 +28973,10 @@ guard variable for CSXrRenderModelManager::GetInstance()::instance
 guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
 guard variable for CSettingsSetting::GetDefaultValue() const::Empty
 guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
-guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::k_pathDevicePath
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathHead
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathLeftHand
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathRightHand
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathTreadmill
 guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
 guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
 guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
@@ -28717,6 +29074,7 @@ guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned lon
 guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHandLeft
 guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHandRight
 guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHead
+guard variable for sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())::mapFunctions
 guard variable for tinygltf::Value::Get(std::string const&) const::null_value
 guard variable for tinygltf::Value::Get(unsigned long) const::null_value
 guard variable for vkh::BIsInstanceExtensionSupported(std::string)::vecProperties
@@ -28730,6 +29088,7 @@ hand_right_poses.glb
 handlers
 hangInit
 haptic
+hapticVibrationAmplitude
 haptic_amplitude
 haptic_delay
 haptic_duration
@@ -28798,6 +29157,8 @@ index
 indexaccessor_
 indexbufferview_
 indices
+initFunctions(std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>&) (.constprop.0)
+initFunctions(std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>&)::bFunctionMapInitted
 init_dwarf_reg_size_table
 initial_state
 innerConeAngle
@@ -28944,6 +29305,7 @@ k_eControllerAxis_None
 k_eControllerAxis_TrackPad
 k_eControllerAxis_Trigger
 k_flJointRadii
+k_pathChaperoneCollisionRadius
 k_pathChaperonePerimeter
 k_pathChaperonePlayArea
 k_pathChaperoneSeatedTransform
@@ -28951,6 +29313,8 @@ k_pathChaperoneSetupStandingTransform
 k_pathChaperoneShowingWorkingPid
 k_pathChaperoneStandingTransform
 k_pathChaperoneState
+k_pathChaperoneTemporaryPlayingOutsidePlayspaceTime
+k_pathChaperoneTrackingAnchored
 k_pathRoleAnkleLeft
 k_pathRoleAnkleRight
 k_pathRoleCamera
@@ -28989,6 +29353,7 @@ k_pchCameraComponentPrefix
 k_pchControllerComponentPrefix
 k_pchDisplayComponentPrefix
 k_pchDriverDirectModeComponentPrefix
+k_pchPathPerfmetricsMetaAppGpuFrametime
 k_pchRuntimeName
 k_pchVirtualDisplayComponentPrefix
 k_rDevicePaths
@@ -29206,7 +29571,6 @@ mtllib
 multiple IHDR
 multiple signals per batch not allowed
 munmap
-nArrayIndex < m_details.nArrayLayerCount
 nChildIndex != vr::k_unInvalidBoneIndex
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -29398,7 +29762,7 @@ non-virtual thunk to CRenderModelManager::ClearCache()
 non-virtual thunk to CRenderModelManager::ClearDeviceCache()
 non-virtual thunk to CRenderModelManager::FindComponentForInputState(char const*, unsigned long, char*, unsigned int)
 non-virtual thunk to CRenderModelManager::GetComponentState(char const*, char const*, unsigned long, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
-non-virtual thunk to CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
+non-virtual thunk to CRenderModelManager::GetComponentStateExplicit(char const*, char const*, unsigned long const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
 non-virtual thunk to CRenderModelManager::IsComponentRelevantForInputState(char const*, char const*, unsigned long)
 non-virtual thunk to CRenderModelManager::LoadTextureImageData(int, std::vector<unsigned char, std::allocator<unsigned char>>&, std::string&)
 non-virtual thunk to CRenderModelManager::RegisterTextureFilePath(char const*, vr::RenderModelTextureOptions_t const*)
@@ -29410,12 +29774,14 @@ non-virtual thunk to CSxrAction::~CSxrAction()
 non-virtual thunk to CSxrActionSet::~CSxrActionSet()
 non-virtual thunk to CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>::~CSxrChildHandle()
+non-virtual thunk to CSxrChildHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*, CSxrSession>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*, CSxrSession>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrSession, XrSession_T*, CSxrInstance>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrSwapchainBase, XrSwapchain_T*, CSxrSession>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildVariableParentHandle<CSxrSpace, XrSpace_T*, CSxrAction, CSxrSession>::~CSxrChildVariableParentHandle()
+non-virtual thunk to CSxrFoveationProfile::~CSxrFoveationProfile()
 non-virtual thunk to CSxrHandTrackerEXT::~CSxrHandTrackerEXT()
 non-virtual thunk to CSxrInstance::~CSxrInstance()
 non-virtual thunk to CSxrRenderModelAssetEXT::~CSxrRenderModelAssetEXT()
@@ -29433,8 +29799,10 @@ non-virtual thunk to CSxrSwapchainGLOpenVR::EnumerateSwapchainImages(unsigned in
 non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::GetPresentableTextureHandle(void**)
+non-virtual thunk to CSxrSwapchainGLOpenVR::GetSwapchainStateFB(XrSwapchainStateBaseHeaderFB*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::Init()
 non-virtual thunk to CSxrSwapchainGLOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*)
+non-virtual thunk to CSxrSwapchainGLOpenVR::UpdateSwapchainFB(XrSwapchainStateBaseHeaderFB const*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 non-virtual thunk to CSxrSwapchainGLOpenVR::~CSxrSwapchainGLOpenVR()
 non-virtual thunk to CSxrSwapchainPrism::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
@@ -29444,8 +29812,10 @@ non-virtual thunk to CSxrSwapchainPrism::GetPresentableDepthTexture(vr::VRTextur
 non-virtual thunk to CSxrSwapchainPrism::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 non-virtual thunk to CSxrSwapchainPrism::GetPresentableTextureHandle(void**)
 non-virtual thunk to CSxrSwapchainPrism::GetSwapchainId()
+non-virtual thunk to CSxrSwapchainPrism::GetSwapchainStateFB(XrSwapchainStateBaseHeaderFB*)
 non-virtual thunk to CSxrSwapchainPrism::Init()
 non-virtual thunk to CSxrSwapchainPrism::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*)
+non-virtual thunk to CSxrSwapchainPrism::UpdateSwapchainFB(XrSwapchainStateBaseHeaderFB const*)
 non-virtual thunk to CSxrSwapchainPrism::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 non-virtual thunk to CSxrSwapchainPrism::~CSxrSwapchainPrism()
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::AcquireSwapchainImage(XrSwapchainImageAcquireInfo const*, unsigned int*)
@@ -29453,8 +29823,10 @@ non-virtual thunk to CSxrSwapchainVulkanOpenVR::EnumerateSwapchainImages(unsigne
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture(vr::VRTextureWithPoseAndDepth_t*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableTexture(XrSwapchainSubImage const&, vr::VRTextureWithPoseAndDepth_t*, vr::EVRSubmitFlags*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle(void**)
+non-virtual thunk to CSxrSwapchainVulkanOpenVR::GetSwapchainStateFB(XrSwapchainStateBaseHeaderFB*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::Init()
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::ReleaseSwapchainImage(XrSwapchainImageReleaseInfo const*)
+non-virtual thunk to CSxrSwapchainVulkanOpenVR::UpdateSwapchainFB(XrSwapchainStateBaseHeaderFB const*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::WaitSwapchainImage(XrSwapchainImageWaitInfo const*)
 non-virtual thunk to CSxrSwapchainVulkanOpenVR::~CSxrSwapchainVulkanOpenVR()
 non-virtual thunk to CVRCameraComponent_002::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
@@ -29502,8 +29874,13 @@ non-virtual thunk to CVRCameraComponent_Latest::StartVideoStream()
 non-virtual thunk to CVRCameraComponent_Latest::StopVideoStream()
 non-virtual thunk to CVRCameraComponent_Latest::~CVRCameraComponent_Latest()
 non-virtual thunk to CVRChaperoneClient::ApplyZeroPose(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t)
+non-virtual thunk to CVRChaperoneClient::ClearRoomSetup()
+non-virtual thunk to CVRChaperoneClient::CommitDynamicFloorHeight(bool)
+non-virtual thunk to CVRChaperoneClient::CommitDynamicFloorRadius()
 non-virtual thunk to CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
+non-virtual thunk to CVRChaperoneClient::ComputeChaperoneBoundsAlphas(BoundsVisiblityConfig_t const&)
 non-virtual thunk to CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*)
+non-virtual thunk to CVRChaperoneClient::GetDynamicFloorInfo(vr::FloorInfo_t*)
 non-virtual thunk to CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*)
 non-virtual thunk to CVRChaperoneClient::GetLiveSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t*)
 non-virtual thunk to CVRChaperoneClient::GetOriginFromTrackingMatrix(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t*)
@@ -29519,17 +29896,23 @@ non-virtual thunk to CVRChaperoneClient::GetWorkingSeatedZeroPoseToRawTrackingPo
 non-virtual thunk to CVRChaperoneClient::GetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t*)
 non-virtual thunk to CVRChaperoneClient::HideWorkingSetPreview()
 non-virtual thunk to CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int)
+non-virtual thunk to CVRChaperoneClient::IsHMDOutOfBoundsStrict()
 non-virtual thunk to CVRChaperoneClient::IsOriginCalibrated(vr::ETrackingUniverseOrigin)
 non-virtual thunk to CVRChaperoneClient::ReloadFromDisk(vr::EChaperoneConfigFile)
+non-virtual thunk to CVRChaperoneClient::ResetDynamicFloorHeight(vr::EVRDyanamicFloorMode, bool)
+non-virtual thunk to CVRChaperoneClient::ResetZeroPose()
 non-virtual thunk to CVRChaperoneClient::RevertWorkingCopy()
 non-virtual thunk to CVRChaperoneClient::RoomSetupStarting()
 non-virtual thunk to CVRChaperoneClient::SetBehaviorByTrackingUniverse(vr::ETrackingUniverseOrigin)
+non-virtual thunk to CVRChaperoneClient::SetDynamicFloorRadius(float)
+non-virtual thunk to CVRChaperoneClient::SetFloorDetectEnabled(bool)
 non-virtual thunk to CVRChaperoneClient::SetWorkingCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int)
 non-virtual thunk to CVRChaperoneClient::SetWorkingPerimeter(vr::HmdVector2_t*, unsigned int)
 non-virtual thunk to CVRChaperoneClient::SetWorkingPlayAreaSize(float, float)
 non-virtual thunk to CVRChaperoneClient::SetWorkingSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 non-virtual thunk to CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 non-virtual thunk to CVRChaperoneClient::ShowWorkingSetPreview()
+non-virtual thunk to CVRChaperoneClient::UpdateDynamicFloorHeight(vr::HmdMatrix34_t const*, unsigned char const*, DynamicFloorUpdateInfo_t const&)
 non-virtual thunk to CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 non-virtual thunk to CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameInfo_t*)
 non-virtual thunk to CVRCompositorClient::RenderStart()
@@ -29648,7 +30031,8 @@ non-virtual thunk to CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_Frame
 non-virtual thunk to CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
 non-virtual thunk to CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
 non-virtual thunk to CVRSystemLatest::HasRemoteFrameTiming()
-non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
+non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags)
+non-virtual thunk to CVRSystemLatest::IsDashboardVisibleInternal()
 non-virtual thunk to CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned long, unsigned int*)
 non-virtual thunk to CVRSystemLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
 non-virtual thunk to CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)
@@ -29659,7 +30043,7 @@ non-virtual thunk to CVRSystemLatest::ReprojectVertices(vr::HmdMatrix44_t const&
 non-virtual thunk to CVRSystemLatest::SetCompositorError(vr::EVRInitError)
 non-virtual thunk to CVRSystemLatest::SetInputCapturePids(vr::InputCapturePids_t const&)
 non-virtual thunk to CVRSystemLatest::SetOutputDevice(unsigned long)
-non-virtual thunk to CVRSystemLatest::SetSystemBehaviorFlag(EVRInternalSystemBehaviorFlags, bool)
+non-virtual thunk to CVRSystemLatest::SetSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags, bool)
 non-virtual thunk to CVRSystemLatest::ThisProcessIsCompositor()
 non-virtual thunk to CVRSystemLatest::UpdateTrackedDevicePrivacyPoses(bool)
 non-virtual thunk to CVRTrackedDevice_004::Activate(unsigned int)
@@ -30167,6 +30551,7 @@ shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
+shaders/vulkan/distort_geom_floor_aa_ps.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_ps.spv
@@ -30288,6 +30673,7 @@ shaders/vulkan/portal_stencil_apply_disp_vs.spv
 shaders/vulkan/portal_stencil_estimate_disp_ps.spv
 shaders/vulkan/portal_stencil_ps.spv
 shaders/vulkan/portal_stencil_vs.spv
+shaders/vulkan/sgsr1.spv
 shaders/vulkan/testgrid_cs.spv
 shaders/vulkan/tracked_camera_edgefilter_ps.spv
 shaders/vulkan/tracked_camera_edgefilter_vs.spv
@@ -30871,6 +31257,13 @@ std::_Rb_tree<VkDevice_T*, std::pair<VkDevice_T* const, VulkanFunctionPointers_t
 std::_Rb_tree<XrActionSet_T*, XrActionSet_T*, std::_Identity<XrActionSet_T*>, std::less<XrActionSet_T*>, std::allocator<XrActionSet_T*>>::_M_erase(std::_Rb_tree_node<XrActionSet_T*>*)
 std::_Rb_tree<XrActionType, XrActionType, std::_Identity<XrActionType>, std::less<XrActionType>, std::allocator<XrActionType>>::_M_erase(std::_Rb_tree_node<XrActionType>*)
 std::_Rb_tree<XrSwapchain_T*, XrSwapchain_T*, std::_Identity<XrSwapchain_T*>, std::less<XrSwapchain_T*>, std::allocator<XrSwapchain_T*>>::_M_erase(std::_Rb_tree_node<XrSwapchain_T*>*)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_erase(std::_Rb_tree_node<std::pair<char const* const, ProcAddrInfo_t>>*)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char const* const, ProcAddrInfo_t>>, char const* const&)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_get_insert_unique_pos(char const* const&)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_lower_bound(std::_Rb_tree_node<std::pair<char const* const, ProcAddrInfo_t>>*, std::_Rb_tree_node_base*, char const* const&) (.isra.0)
+std::_Rb_tree<char const*, std::pair<char const* const, unsigned long>, std::_Select1st<std::pair<char const* const, unsigned long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long>>>::_M_erase(std::_Rb_tree_node<std::pair<char const* const, unsigned long>>*)
+std::_Rb_tree<char const*, std::pair<char const* const, unsigned long>, std::_Select1st<std::pair<char const* const, unsigned long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char const* const, unsigned long>>, char const* const&)
+std::_Rb_tree<char const*, std::pair<char const* const, unsigned long>, std::_Select1st<std::pair<char const* const, unsigned long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long>>>::_M_get_insert_unique_pos(char const* const&)
 std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::_M_erase(std::_Rb_tree_node<facet::CCompositionClient::SwapchainImage_t>*)
 std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::equal_range(facet::CCompositionClient::SwapchainImage_t const&)
 std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::erase(facet::CCompositionClient::SwapchainImage_t const&)
@@ -30910,10 +31303,10 @@ std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Sele
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::find(std::string const&)
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::find(std::string const&) const
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::operator=(std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>> const&)
-std::_Rb_tree<std::string, std::pair<std::string const, XrUuidEXT>, std::_Select1st<std::pair<std::string const, XrUuidEXT>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuidEXT>>>::_M_erase(std::_Rb_tree_node<std::pair<std::string const, XrUuidEXT>>*)
-std::_Rb_tree<std::string, std::pair<std::string const, XrUuidEXT>, std::_Select1st<std::pair<std::string const, XrUuidEXT>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuidEXT>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, XrUuidEXT>>, std::string const&)
-std::_Rb_tree<std::string, std::pair<std::string const, XrUuidEXT>, std::_Select1st<std::pair<std::string const, XrUuidEXT>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuidEXT>>>::_M_get_insert_unique_pos(std::string const&)
-std::_Rb_tree<std::string, std::pair<std::string const, XrUuidEXT>, std::_Select1st<std::pair<std::string const, XrUuidEXT>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuidEXT>>>::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<std::string const, XrUuidEXT>>*)
+std::_Rb_tree<std::string, std::pair<std::string const, XrUuid>, std::_Select1st<std::pair<std::string const, XrUuid>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuid>>>::_M_erase(std::_Rb_tree_node<std::pair<std::string const, XrUuid>>*)
+std::_Rb_tree<std::string, std::pair<std::string const, XrUuid>, std::_Select1st<std::pair<std::string const, XrUuid>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuid>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, XrUuid>>, std::string const&)
+std::_Rb_tree<std::string, std::pair<std::string const, XrUuid>, std::_Select1st<std::pair<std::string const, XrUuid>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuid>>>::_M_get_insert_unique_pos(std::string const&)
+std::_Rb_tree<std::string, std::pair<std::string const, XrUuid>, std::_Select1st<std::pair<std::string const, XrUuid>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuid>>>::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<std::string const, XrUuid>>*)
 std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double>>, std::less<std::string>, std::allocator<std::pair<std::string const, double>>>::_M_erase(std::_Rb_tree_node<std::pair<std::string const, double>>*)
 std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int>>, std::less<std::string>, std::allocator<std::pair<std::string const, int>>>::_M_erase(std::_Rb_tree_node<std::pair<std::string const, int>>*)
 std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int>>, std::less<std::string>, std::allocator<std::pair<std::string const, int>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, int>>, std::string const&)
@@ -31090,7 +31483,7 @@ std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerato
 std::_Rb_tree_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo>> std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo>>, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, Json::Value>> std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, Json::Value>> std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value>>, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<std::string const, XrUuidEXT>> std::_Rb_tree<std::string, std::pair<std::string const, XrUuidEXT>, std::_Select1st<std::pair<std::string const, XrUuidEXT>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuidEXT>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, XrUuidEXT>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<std::string const, XrUuid>> std::_Rb_tree<std::string, std::pair<std::string const, XrUuid>, std::_Select1st<std::pair<std::string const, XrUuid>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuid>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, XrUuid>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>> std::_Rb_tree<std::string, std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>, std::_Select1st<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>>, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, std::shared_ptr<CRenderModelManager::ModelInfo_t>>> std::_Rb_tree<std::string, std::pair<std::string const, std::shared_ptr<CRenderModelManager::ModelInfo_t>>, std::_Select1st<std::pair<std::string const, std::shared_ptr<CRenderModelManager::ModelInfo_t>>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CRenderModelManager::ModelInfo_t>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, std::shared_ptr<CRenderModelManager::ModelInfo_t>>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, std::shared_ptr<CSimulatedActionBase>>> std::_Rb_tree<std::string, std::pair<std::string const, std::shared_ptr<CSimulatedActionBase>>, std::_Select1st<std::pair<std::string const, std::shared_ptr<CSimulatedActionBase>>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CSimulatedActionBase>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, std::shared_ptr<CSimulatedActionBase>>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
@@ -33567,6 +33960,8 @@ std::logic_error::what() const
 std::logic_error::~logic_error()
 std::map<AssertLookup_t, bool, std::less<AssertLookup_t>, std::allocator<std::pair<AssertLookup_t const, bool>>>::~map()
 std::map<VkDevice_T*, VulkanFunctionPointers_t, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>>::~map()
+std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::operator[](char const*&&)
+std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::~map()
 std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>>::operator[](std::string const&)
 std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::operator[](std::string&&)
 std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int>>>::operator[](std::string&&)
@@ -34010,7 +34405,7 @@ std::pair<std::_Rb_tree_iterator<std::pair<CSxrSession::ActionStateKey_t const, 
 std::pair<std::_Rb_tree_iterator<std::pair<CVulkanVRRenderer::FramebufferState_t const, VkFramebuffer_T*>>, bool> std::_Rb_tree<CVulkanVRRenderer::FramebufferState_t, std::pair<CVulkanVRRenderer::FramebufferState_t const, VkFramebuffer_T*>, std::_Select1st<std::pair<CVulkanVRRenderer::FramebufferState_t const, VkFramebuffer_T*>>, std::less<CVulkanVRRenderer::FramebufferState_t>, std::allocator<std::pair<CVulkanVRRenderer::FramebufferState_t const, VkFramebuffer_T*>>>::_M_emplace_unique<std::pair<CVulkanVRRenderer::FramebufferState_t, VkFramebuffer_T*>>(std::pair<CVulkanVRRenderer::FramebufferState_t, VkFramebuffer_T*>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<CVulkanVRRenderer::RenderPassState_t const, VkRenderPass_T*>>, bool> std::_Rb_tree<CVulkanVRRenderer::RenderPassState_t, std::pair<CVulkanVRRenderer::RenderPassState_t const, VkRenderPass_T*>, std::_Select1st<std::pair<CVulkanVRRenderer::RenderPassState_t const, VkRenderPass_T*>>, std::less<CVulkanVRRenderer::RenderPassState_t>, std::allocator<std::pair<CVulkanVRRenderer::RenderPassState_t const, VkRenderPass_T*>>>::_M_emplace_unique<std::pair<CVulkanVRRenderer::RenderPassState_t, VkRenderPass_T*>>(std::pair<CVulkanVRRenderer::RenderPassState_t, VkRenderPass_T*>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>, bool> std::_Rb_tree<VRRenderer::VulkanNativeTexture_t, std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>, std::_Select1st<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>, CVulkanVRRenderer::VulkanNativeTextureCompare_t, std::allocator<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>>::_M_emplace_unique<std::pair<VRRenderer::VulkanNativeTexture_t, VulkanVRRenderer::Texture*>>(std::pair<VRRenderer::VulkanNativeTexture_t, VulkanVRRenderer::Texture*>&&)
-std::pair<std::_Rb_tree_iterator<std::pair<std::string const, XrUuidEXT>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, XrUuidEXT>, std::_Select1st<std::pair<std::string const, XrUuidEXT>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuidEXT>>>::_M_emplace_unique<std::string&, XrUuidEXT&>(std::string&, XrUuidEXT&)
+std::pair<std::_Rb_tree_iterator<std::pair<std::string const, XrUuid>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, XrUuid>, std::_Select1st<std::pair<std::string const, XrUuid>>, std::less<std::string>, std::allocator<std::pair<std::string const, XrUuid>>>::_M_emplace_unique<std::string&, XrUuid&>(std::string&, XrUuid&)
 std::pair<std::_Rb_tree_iterator<std::pair<std::string const, double>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double>>, std::less<std::string>, std::allocator<std::pair<std::string const, double>>>::_M_emplace_unique<std::string, double&>(std::string&&, double&)
 std::pair<std::_Rb_tree_iterator<std::pair<std::string const, int>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int>>, std::less<std::string>, std::allocator<std::pair<std::string const, int>>>::_M_emplace_unique<std::pair<std::string, int>>(std::pair<std::string, int>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<std::string const, std::shared_ptr<CSXrBackingRenderModelAsset>>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, std::shared_ptr<CSXrBackingRenderModelAsset>>, std::_Select1st<std::pair<std::string const, std::shared_ptr<CSXrBackingRenderModelAsset>>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CSXrBackingRenderModelAsset>>>>::_M_emplace_unique<std::string&, std::shared_ptr<CSXrBackingRenderModelAsset>&>(std::string&, std::shared_ptr<CSXrBackingRenderModelAsset>&)
@@ -34403,6 +34798,7 @@ std::vector<char, std::allocator<char>>::_M_default_append(unsigned long)
 std::vector<char, std::allocator<char>>::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>)
 std::vector<char, std::allocator<char>>::_M_fill_insert(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, unsigned long, char const&)
 std::vector<double, std::allocator<double>>::_M_default_append(unsigned long)
+std::vector<double, std::allocator<double>>::_M_fill_insert(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, unsigned long, double const&)
 std::vector<double, std::allocator<double>>::operator=(std::vector<double, std::allocator<double>> const&)
 std::vector<double, std::allocator<double>>::vector(std::vector<double, std::allocator<double>> const&)
 std::vector<float, std::allocator<float>>::_M_default_append(unsigned long)
@@ -34565,6 +34961,8 @@ sxr_wrap_xrCreateActionSet(XrInstance_T*, XrActionSetCreateInfo const*, XrAction
 sxr_wrap_xrCreateActionSet(XrInstance_T*, XrActionSetCreateInfo const*, XrActionSet_T**) (.cold)
 sxr_wrap_xrCreateActionSpace(XrSession_T*, XrActionSpaceCreateInfo const*, XrSpace_T**)
 sxr_wrap_xrCreateActionSpace(XrSession_T*, XrActionSpaceCreateInfo const*, XrSpace_T**) (.cold)
+sxr_wrap_xrCreateFoveationProfileFB(XrSession_T*, XrFoveationProfileCreateInfoFB const*, XrFoveationProfileFB_T**)
+sxr_wrap_xrCreateFoveationProfileFB(XrSession_T*, XrFoveationProfileCreateInfoFB const*, XrFoveationProfileFB_T**) (.cold)
 sxr_wrap_xrCreateHandTrackerEXT(XrSession_T*, XrHandTrackerCreateInfoEXT const*, XrHandTrackerEXT_T**)
 sxr_wrap_xrCreateHandTrackerEXT(XrSession_T*, XrHandTrackerCreateInfoEXT const*, XrHandTrackerEXT_T**) (.cold)
 sxr_wrap_xrCreateInstance(XrInstanceCreateInfo const*, XrInstance_T**)
@@ -34589,6 +34987,8 @@ sxr_wrap_xrDestroyAction(XrAction_T*)
 sxr_wrap_xrDestroyAction(XrAction_T*) (.cold)
 sxr_wrap_xrDestroyActionSet(XrActionSet_T*)
 sxr_wrap_xrDestroyActionSet(XrActionSet_T*) (.cold)
+sxr_wrap_xrDestroyFoveationProfileFB(XrFoveationProfileFB_T*)
+sxr_wrap_xrDestroyFoveationProfileFB(XrFoveationProfileFB_T*) (.cold)
 sxr_wrap_xrDestroyHandTrackerEXT(XrHandTrackerEXT_T*)
 sxr_wrap_xrDestroyHandTrackerEXT(XrHandTrackerEXT_T*) (.cold)
 sxr_wrap_xrDestroyInstance(XrInstance_T*)
@@ -34617,6 +35017,8 @@ sxr_wrap_xrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsig
 sxr_wrap_xrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned int*, XrExtensionProperties*) (.cold)
 sxr_wrap_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 sxr_wrap_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
+sxr_wrap_xrEnumeratePerformanceMetricsCounterPathsMETA(XrInstance_T*, unsigned int, unsigned int*, unsigned long*)
+sxr_wrap_xrEnumeratePerformanceMetricsCounterPathsMETA(XrInstance_T*, unsigned int, unsigned int*, unsigned long*) (.cold)
 sxr_wrap_xrEnumerateReferenceSpaces(XrSession_T*, unsigned int, unsigned int*, XrReferenceSpaceType*)
 sxr_wrap_xrEnumerateReferenceSpaces(XrSession_T*, unsigned int, unsigned int*, XrReferenceSpaceType*) (.cold)
 sxr_wrap_xrEnumerateRenderModelSubactionPathsEXT(XrRenderModelEXT_T*, XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
@@ -34643,6 +35045,8 @@ sxr_wrap_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteracti
 sxr_wrap_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*) (.cold)
 sxr_wrap_xrGetDisplayRefreshRateFB(XrSession_T*, float*)
 sxr_wrap_xrGetDisplayRefreshRateFB(XrSession_T*, float*) (.cold)
+sxr_wrap_xrGetFoveationEyeTrackedStateMETA(XrSession_T*, XrFoveationEyeTrackedStateMETA*)
+sxr_wrap_xrGetFoveationEyeTrackedStateMETA(XrSession_T*, XrFoveationEyeTrackedStateMETA*) (.cold)
 sxr_wrap_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*)
 sxr_wrap_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*) (.cold)
 sxr_wrap_xrGetInputSourceLocalizedName(XrSession_T*, XrInputSourceLocalizedNameGetInfo const*, unsigned int, unsigned int*, char*)
@@ -34655,16 +35059,22 @@ sxr_wrap_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGr
 sxr_wrap_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*) (.cold)
 sxr_wrap_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*)
 sxr_wrap_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*) (.cold)
+sxr_wrap_xrGetPerformanceMetricsStateMETA(XrSession_T*, XrPerformanceMetricsStateMETA*)
+sxr_wrap_xrGetPerformanceMetricsStateMETA(XrSession_T*, XrPerformanceMetricsStateMETA*) (.cold)
 sxr_wrap_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*)
 sxr_wrap_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*) (.cold)
 sxr_wrap_xrGetRenderModelAssetDataEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetDataGetInfoEXT const*, XrRenderModelAssetDataEXT*)
 sxr_wrap_xrGetRenderModelAssetDataEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetDataGetInfoEXT const*, XrRenderModelAssetDataEXT*) (.cold)
 sxr_wrap_xrGetRenderModelAssetPropertiesEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetPropertiesGetInfoEXT const*, XrRenderModelAssetPropertiesEXT*)
 sxr_wrap_xrGetRenderModelAssetPropertiesEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetPropertiesGetInfoEXT const*, XrRenderModelAssetPropertiesEXT*) (.cold)
+sxr_wrap_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)
+sxr_wrap_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*) (.cold)
 sxr_wrap_xrGetRenderModelPropertiesEXT(XrRenderModelEXT_T*, XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*)
 sxr_wrap_xrGetRenderModelPropertiesEXT(XrRenderModelEXT_T*, XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*) (.cold)
 sxr_wrap_xrGetRenderModelStateEXT(XrRenderModelEXT_T*, XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
 sxr_wrap_xrGetRenderModelStateEXT(XrRenderModelEXT_T*, XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*) (.cold)
+sxr_wrap_xrGetSwapchainStateFB(XrSwapchain_T*, XrSwapchainStateBaseHeaderFB*)
+sxr_wrap_xrGetSwapchainStateFB(XrSwapchain_T*, XrSwapchainStateBaseHeaderFB*) (.cold)
 sxr_wrap_xrGetSystem(XrInstance_T*, XrSystemGetInfo const*, unsigned long*)
 sxr_wrap_xrGetSystem(XrInstance_T*, XrSystemGetInfo const*, unsigned long*) (.cold)
 sxr_wrap_xrGetSystemProperties(XrInstance_T*, unsigned long, XrSystemProperties*)
@@ -34685,8 +35095,6 @@ sxr_wrap_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGrap
 sxr_wrap_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsVulkanKHR*) (.cold)
 sxr_wrap_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*)
 sxr_wrap_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*) (.cold)
-sxr_wrap_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
-sxr_wrap_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*) (.cold)
 sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*)
 sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*) (.cold)
 sxr_wrap_xrLocateSpace(XrSpace_T*, XrSpace_T*, long, XrSpaceLocation*)
@@ -34697,6 +35105,8 @@ sxr_wrap_xrPathToString(XrInstance_T*, unsigned long, unsigned int, unsigned int
 sxr_wrap_xrPathToString(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*) (.cold)
 sxr_wrap_xrPollEvent(XrInstance_T*, XrEventDataBuffer*)
 sxr_wrap_xrPollEvent(XrInstance_T*, XrEventDataBuffer*) (.cold)
+sxr_wrap_xrQueryPerformanceMetricsCounterMETA(XrSession_T*, unsigned long, XrPerformanceMetricsCounterMETA*)
+sxr_wrap_xrQueryPerformanceMetricsCounterMETA(XrSession_T*, unsigned long, XrPerformanceMetricsCounterMETA*) (.cold)
 sxr_wrap_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*)
 sxr_wrap_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*) (.cold)
 sxr_wrap_xrRequestDisplayRefreshRateFB(XrSession_T*, float)
@@ -34715,6 +35125,8 @@ sxr_wrap_xrSetInputDeviceStateFloatEXT(XrSession_T*, unsigned long, unsigned lon
 sxr_wrap_xrSetInputDeviceStateFloatEXT(XrSession_T*, unsigned long, unsigned long, float) (.cold)
 sxr_wrap_xrSetInputDeviceStateVector2fEXT(XrSession_T*, unsigned long, unsigned long, XrVector2f)
 sxr_wrap_xrSetInputDeviceStateVector2fEXT(XrSession_T*, unsigned long, unsigned long, XrVector2f) (.cold)
+sxr_wrap_xrSetPerformanceMetricsStateMETA(XrSession_T*, XrPerformanceMetricsStateMETA const*)
+sxr_wrap_xrSetPerformanceMetricsStateMETA(XrSession_T*, XrPerformanceMetricsStateMETA const*) (.cold)
 sxr_wrap_xrStopHapticFeedback(XrSession_T*, XrHapticActionInfo const*)
 sxr_wrap_xrStopHapticFeedback(XrSession_T*, XrHapticActionInfo const*) (.cold)
 sxr_wrap_xrStringToPath(XrInstance_T*, char const*, unsigned long*)
@@ -34725,6 +35137,8 @@ sxr_wrap_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfile
 sxr_wrap_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*) (.cold)
 sxr_wrap_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)
 sxr_wrap_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*) (.cold)
+sxr_wrap_xrUpdateSwapchainFB(XrSwapchain_T*, XrSwapchainStateBaseHeaderFB const*)
+sxr_wrap_xrUpdateSwapchainFB(XrSwapchain_T*, XrSwapchainStateBaseHeaderFB const*) (.cold)
 sxr_wrap_xrWaitFrame(XrSession_T*, XrFrameWaitInfo const*, XrFrameState*)
 sxr_wrap_xrWaitFrame(XrSession_T*, XrFrameWaitInfo const*, XrFrameState*) (.cold)
 sxr_wrap_xrWaitSwapchainImage(XrSwapchain_T*, XrSwapchainImageWaitInfo const*)
@@ -34752,6 +35166,8 @@ sxr_xrCreateActionSet(XrInstance_T*, XrActionSetCreateInfo const*, XrActionSet_T
 sxr_xrCreateActionSpace
 sxr_xrCreateActionSpace(XrSession_T*, XrActionSpaceCreateInfo const*, XrSpace_T**)
 sxr_xrCreateActionSpace(XrSession_T*, XrActionSpaceCreateInfo const*, XrSpace_T**) (.cold)
+sxr_xrCreateFoveationProfileFB
+sxr_xrCreateFoveationProfileFB(XrSession_T*, XrFoveationProfileCreateInfoFB const*, XrFoveationProfileFB_T**)
 sxr_xrCreateHandTrackerEXT
 sxr_xrCreateHandTrackerEXT(XrSession_T*, XrHandTrackerCreateInfoEXT const*, XrHandTrackerEXT_T**)
 sxr_xrCreateHandTrackerEXT(XrSession_T*, XrHandTrackerCreateInfoEXT const*, XrHandTrackerEXT_T**) (.cold)
@@ -34782,6 +35198,8 @@ sxr_xrDestroyAction
 sxr_xrDestroyAction(XrAction_T*)
 sxr_xrDestroyActionSet
 sxr_xrDestroyActionSet(XrActionSet_T*)
+sxr_xrDestroyFoveationProfileFB
+sxr_xrDestroyFoveationProfileFB(XrFoveationProfileFB_T*)
 sxr_xrDestroyHandTrackerEXT
 sxr_xrDestroyHandTrackerEXT(XrHandTrackerEXT_T*)
 sxr_xrDestroyInstance
@@ -34811,6 +35229,9 @@ sxr_xrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned i
 sxr_xrEnumerateInteractionRenderModelIdsEXT
 sxr_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 sxr_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
+sxr_xrEnumeratePerformanceMetricsCounterPathsMETA
+sxr_xrEnumeratePerformanceMetricsCounterPathsMETA(XrInstance_T*, unsigned int, unsigned int*, unsigned long*)
+sxr_xrEnumeratePerformanceMetricsCounterPathsMETA(XrInstance_T*, unsigned int, unsigned int*, unsigned long*) (.cold)
 sxr_xrEnumerateReferenceSpaces
 sxr_xrEnumerateReferenceSpaces(XrSession_T*, unsigned int, unsigned int*, XrReferenceSpaceType*)
 sxr_xrEnumerateRenderModelSubactionPathsEXT
@@ -34850,6 +35271,8 @@ sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionPro
 sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHead
 sxr_xrGetDisplayRefreshRateFB
 sxr_xrGetDisplayRefreshRateFB(XrSession_T*, float*)
+sxr_xrGetFoveationEyeTrackedStateMETA
+sxr_xrGetFoveationEyeTrackedStateMETA(XrSession_T*, XrFoveationEyeTrackedStateMETA*)
 sxr_xrGetFrameCompositionReportEXT
 sxr_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*)
 sxr_xrGetInputSourceLocalizedName
@@ -34857,6 +35280,7 @@ sxr_xrGetInputSourceLocalizedName(XrSession_T*, XrInputSourceLocalizedNameGetInf
 sxr_xrGetInstanceProcAddr
 sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
 sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) (.cold)
+sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())::mapFunctions
 sxr_xrGetInstanceProperties
 sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
 sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*) (.cold)
@@ -34864,16 +35288,22 @@ sxr_xrGetOpenGLESGraphicsRequirementsKHR
 sxr_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*)
 sxr_xrGetOpenGLGraphicsRequirementsKHR
 sxr_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*)
+sxr_xrGetPerformanceMetricsStateMETA
+sxr_xrGetPerformanceMetricsStateMETA(XrSession_T*, XrPerformanceMetricsStateMETA*)
 sxr_xrGetReferenceSpaceBoundsRect
 sxr_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*)
 sxr_xrGetRenderModelAssetDataEXT
 sxr_xrGetRenderModelAssetDataEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetDataGetInfoEXT const*, XrRenderModelAssetDataEXT*)
 sxr_xrGetRenderModelAssetPropertiesEXT
 sxr_xrGetRenderModelAssetPropertiesEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetPropertiesGetInfoEXT const*, XrRenderModelAssetPropertiesEXT*)
+sxr_xrGetRenderModelPoseTopLevelUserPathEXT
+sxr_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)
 sxr_xrGetRenderModelPropertiesEXT
 sxr_xrGetRenderModelPropertiesEXT(XrRenderModelEXT_T*, XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*)
 sxr_xrGetRenderModelStateEXT
 sxr_xrGetRenderModelStateEXT(XrRenderModelEXT_T*, XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
+sxr_xrGetSwapchainStateFB
+sxr_xrGetSwapchainStateFB(XrSwapchain_T*, XrSwapchainStateBaseHeaderFB*)
 sxr_xrGetSystem
 sxr_xrGetSystem(XrInstance_T*, XrSystemGetInfo const*, unsigned long*)
 sxr_xrGetSystemProperties
@@ -34895,8 +35325,6 @@ sxr_xrGetVulkanGraphicsRequirementsKHR
 sxr_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsVulkanKHR*)
 sxr_xrGetVulkanInstanceExtensionsKHR
 sxr_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*)
-sxr_xrInteractionRenderModelGetTopLevelUserPathEXT
-sxr_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
 sxr_xrLocateHandJointsEXT
 sxr_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*)
 sxr_xrLocateSpace
@@ -34909,6 +35337,9 @@ sxr_xrPathToString(XrInstance_T*, unsigned long, unsigned int, unsigned int*, ch
 sxr_xrPollEvent
 sxr_xrPollEvent(XrInstance_T*, XrEventDataBuffer*)
 sxr_xrPollEvent(XrInstance_T*, XrEventDataBuffer*) (.cold)
+sxr_xrQueryPerformanceMetricsCounterMETA
+sxr_xrQueryPerformanceMetricsCounterMETA(XrSession_T*, unsigned long, XrPerformanceMetricsCounterMETA*)
+sxr_xrQueryPerformanceMetricsCounterMETA(XrSession_T*, unsigned long, XrPerformanceMetricsCounterMETA*) (.cold)
 sxr_xrReleaseSwapchainImage
 sxr_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*)
 sxr_xrRequestDisplayRefreshRateFB
@@ -34927,6 +35358,8 @@ sxr_xrSetInputDeviceStateFloatEXT(XrSession_T*, unsigned long, unsigned long, fl
 sxr_xrSetInputDeviceStateFloatEXT(XrSession_T*, unsigned long, unsigned long, float) (.cold)
 sxr_xrSetInputDeviceStateVector2fEXT(XrSession_T*, unsigned long, unsigned long, XrVector2f)
 sxr_xrSetInputDeviceStateVector2fEXT(XrSession_T*, unsigned long, unsigned long, XrVector2f) (.cold)
+sxr_xrSetPerformanceMetricsStateMETA
+sxr_xrSetPerformanceMetricsStateMETA(XrSession_T*, XrPerformanceMetricsStateMETA const*)
 sxr_xrStopHapticFeedback
 sxr_xrStopHapticFeedback(XrSession_T*, XrHapticActionInfo const*)
 sxr_xrStringToPath
@@ -34939,6 +35372,8 @@ sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSugge
 sxr_xrSyncActions
 sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)
 sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*) (.cold)
+sxr_xrUpdateSwapchainFB
+sxr_xrUpdateSwapchainFB(XrSwapchain_T*, XrSwapchainStateBaseHeaderFB const*)
 sxr_xrWaitFrame
 sxr_xrWaitFrame(XrSession_T*, XrFrameWaitInfo const*, XrFrameState*)
 sxr_xrWaitSwapchainImage
@@ -34947,7 +35382,7 @@ sxu::ApplyTransformToPose(XrPosef&, XrVector3f&, XrVector3f&, XrPosef const&, Xr
 sxu::BIsQuaternionValid(XrQuaternionf const&)
 sxu::BIsXrRect2DiValid(XrRect2Di const&, XrExtent2Di const&)
 sxu::GLMFromPose(XrPosef const&)
-sxu::GenerateXrUuid(XrUuidEXT&)
+sxu::GenerateXrUuid(XrUuid&)
 sxu::GetBoneIndexForJoint(XrHandJointEXT)
 sxu::GetHiddenAreaMeshData(vr::HiddenAreaMesh_t const&, XrVisibilityMaskTypeKHR, std::vector<XrVector2f, std::allocator<XrVector2f>>&, std::vector<unsigned int, std::allocator<unsigned int>>&, vr::HmdMatrix44_t const&)
 sxu::HmdMatrixFromPose(XrPosef const&)
@@ -34964,12 +35399,12 @@ sxu::ResultToString(XrResult, char*)
 sxu::ScalePose(XrPosef&, float)
 sxu::StringToValidPath(std::string&)
 sxu::StringToValidPath(std::string&) (.cold)
-sxu::StringToXrUuid(std::string const&, XrUuidEXT&)
+sxu::StringToXrUuid(std::string const&, XrUuid&)
 sxu::StructureTypeToString(XrStructureType, char*)
 sxu::TextureBoundsFromXrRect(XrRect2Di const&, XrExtent2Di const&)
 sxu::ToXrVector3f(vr::HmdVector3_t const&)
 sxu::XrQuatFromHmdQuat(vr::HmdQuaternion_t const&)
-sxu::XrUuidToString(XrUuidEXT const&, std::string&)
+sxu::XrUuidToString(XrUuid const&, std::string&)
 sxu::XrVector_IsZero(XrVector3f const&)
 sxu::XrVector_Length(XrVector3f const&)
 sxu::flattenStringArray(char const* const*, unsigned int)
@@ -35522,6 +35957,7 @@ typeinfo for CSxrAction
 typeinfo for CSxrActionSet
 typeinfo for CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>
 typeinfo for CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>
+typeinfo for CSxrChildHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*, CSxrSession>
 typeinfo for CSxrChildHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*, CSxrSession>
 typeinfo for CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>
 typeinfo for CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>
@@ -35533,6 +35969,7 @@ typeinfo for CSxrCompositorPrism
 typeinfo for CSxrDeletableBase
 typeinfo for CSxrDispatchableHandle<CSxrAction, XrAction_T*>
 typeinfo for CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>
+typeinfo for CSxrDispatchableHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*>
 typeinfo for CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>
 typeinfo for CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>
 typeinfo for CSxrDispatchableHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*>
@@ -35540,6 +35977,7 @@ typeinfo for CSxrDispatchableHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*>
 typeinfo for CSxrDispatchableHandle<CSxrSession, XrSession_T*>
 typeinfo for CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>
 typeinfo for CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>
+typeinfo for CSxrFoveationProfile
 typeinfo for CSxrGraphicsBindingGLOpenVR
 typeinfo for CSxrGraphicsBindingPrism
 typeinfo for CSxrGraphicsBindingVulkanOpenVR
@@ -35590,6 +36028,8 @@ typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedT
 typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
 typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
 typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
+typeinfo for CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>
+typeinfo for CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>
 typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
 typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
 typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
@@ -35622,6 +36062,7 @@ typeinfo for CVRCompositor_024
 typeinfo for CVRCompositor_025
 typeinfo for CVRCompositor_026
 typeinfo for CVRCompositor_027
+typeinfo for CVRCompositor_028
 typeinfo for CVRControlPanel_001
 typeinfo for CVRControlPanel_002
 typeinfo for CVRControlPanel_003
@@ -36039,6 +36480,7 @@ typeinfo for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_026>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_027>
+typeinfo for CompositorInterfaceRegistration<CVRCompositor_028>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -36825,6 +37267,7 @@ typeinfo name for CSxrAction
 typeinfo name for CSxrActionSet
 typeinfo name for CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>
 typeinfo name for CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>
+typeinfo name for CSxrChildHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*, CSxrSession>
 typeinfo name for CSxrChildHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*, CSxrSession>
 typeinfo name for CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>
 typeinfo name for CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>
@@ -36836,6 +37279,7 @@ typeinfo name for CSxrCompositorPrism
 typeinfo name for CSxrDeletableBase
 typeinfo name for CSxrDispatchableHandle<CSxrAction, XrAction_T*>
 typeinfo name for CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>
+typeinfo name for CSxrDispatchableHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*>
 typeinfo name for CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>
 typeinfo name for CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>
 typeinfo name for CSxrDispatchableHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*>
@@ -36843,6 +37287,7 @@ typeinfo name for CSxrDispatchableHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*
 typeinfo name for CSxrDispatchableHandle<CSxrSession, XrSession_T*>
 typeinfo name for CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>
 typeinfo name for CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>
+typeinfo name for CSxrFoveationProfile
 typeinfo name for CSxrGraphicsBindingGLOpenVR
 typeinfo name for CSxrGraphicsBindingPrism
 typeinfo name for CSxrGraphicsBindingVulkanOpenVR
@@ -36893,6 +37338,8 @@ typeinfo name for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSh
 typeinfo name for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
 typeinfo name for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
 typeinfo name for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
+typeinfo name for CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>
+typeinfo name for CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>
 typeinfo name for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
 typeinfo name for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
 typeinfo name for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
@@ -36925,6 +37372,7 @@ typeinfo name for CVRCompositor_024
 typeinfo name for CVRCompositor_025
 typeinfo name for CVRCompositor_026
 typeinfo name for CVRCompositor_027
+typeinfo name for CVRCompositor_028
 typeinfo name for CVRControlPanel_001
 typeinfo name for CVRControlPanel_002
 typeinfo name for CVRControlPanel_003
@@ -37342,6 +37790,7 @@ typeinfo name for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_026>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_027>
+typeinfo name for CompositorInterfaceRegistration<CVRCompositor_028>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -38022,6 +38471,7 @@ typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 uk_ua
 ukrainian
+ulNextNextDisplayTime > ulNextDisplayTime
 umask
 unCallingProcessID
 unMessageID
@@ -38116,6 +38566,7 @@ vertexaccessor_
 vertexbufferview_
 vertical-line
 vertical-tab
+vfprintf
 vi_vn
 vibration
 vietnamese
@@ -39418,6 +39869,9 @@ vr::CVROverlayInternalLatest::GetOverlayInteractionAffordance(unsigned long, vr:
 vr::CVROverlayInternalLatest::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*) (.cold)
 vr::CVROverlayInternalLatest::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
 vr::CVROverlayInternalLatest::GetOverlayInteractionAffordances(unsigned long, unsigned int*) (.cold)
+vr::CVROverlayInternalLatest::GetOverlayType(unsigned long, vr::VROverlayType*) const
+vr::CVROverlayInternalLatest::GetOverlayType(unsigned long, vr::VROverlayType*) const (.cold)
+vr::CVROverlayInternalLatest::GetOverlayTypeNameFromEnum(vr::VROverlayType) const
 vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long)
 vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long) (.cold)
 vr::CVROverlayInternalLatest::GetPassthroughPortalEnabled()
@@ -39462,8 +39916,8 @@ vr::CVROverlayInternalLatest::SetNightModeEnabled(bool) (.cold)
 vr::CVROverlayInternalLatest::SetNotificationPriority(char const*, unsigned int)
 vr::CVROverlayInternalLatest::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
 vr::CVROverlayInternalLatest::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool) (.cold)
-vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, EOverlayStereoscopy)
-vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, EOverlayStereoscopy) (.cold)
+vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, vr::EOverlayStereoscopy)
+vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, vr::EOverlayStereoscopy) (.cold)
 vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool)
 vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool) (.cold)
 vr::CVROverlayInternalLatest::SetSubviewPosition(unsigned long, int, int)
@@ -39627,6 +40081,7 @@ vr::ETrackedPropertyError vr::CVRPathHelpers::GetPathAsVector<VRInputValue_t>(un
 vr::ETrackedPropertyError vr::CVRPathHelpers::GetPathAsVector<vr::HmdQuad_t>(unsigned long, unsigned long, unsigned int, std::vector<vr::HmdQuad_t, std::allocator<vr::HmdQuad_t>>*)
 vr::GetBooleanInput(unsigned long, unsigned long)
 vr::GetScalarInput(unsigned long, unsigned long)
+vr::HmdVector2_t& std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>::emplace_back<vr::HmdVector2_t>(vr::HmdVector2_t&&)
 vr::IVRDriverDirectModeComponent::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
 vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long)
 vr::IVRDriverDirectModeComponent::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
@@ -39739,6 +40194,7 @@ vr_internal::VRCompositorSystemInternal()
 vr_internal::VRControlPanel()
 vr_internal::VRDebug()
 vr_internal::VRDriverDirectInternal()
+vr_internal::VRDriverInputInternal()
 vr_internal::VRDriverManager()
 vr_internal::VRExtendedDisplay()
 vr_internal::VRInput()
@@ -39830,6 +40286,8 @@ vrcompositor026
 vrcompositor026_FnTable
 vrcompositor027
 vrcompositor027_FnTable
+vrcompositor028
+vrcompositor028_FnTable
 vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
@@ -40067,6 +40525,7 @@ vtable for CSxrAction
 vtable for CSxrActionSet
 vtable for CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>
 vtable for CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>
+vtable for CSxrChildHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*, CSxrSession>
 vtable for CSxrChildHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*, CSxrSession>
 vtable for CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>
 vtable for CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>
@@ -40077,6 +40536,7 @@ vtable for CSxrCompositorOpenVR
 vtable for CSxrCompositorPrism
 vtable for CSxrDispatchableHandle<CSxrAction, XrAction_T*>
 vtable for CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>
+vtable for CSxrDispatchableHandle<CSxrFoveationProfile, XrFoveationProfileFB_T*>
 vtable for CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>
 vtable for CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>
 vtable for CSxrDispatchableHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*>
@@ -40084,6 +40544,7 @@ vtable for CSxrDispatchableHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*>
 vtable for CSxrDispatchableHandle<CSxrSession, XrSession_T*>
 vtable for CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>
 vtable for CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>
+vtable for CSxrFoveationProfile
 vtable for CSxrGraphicsBindingGLOpenVR
 vtable for CSxrGraphicsBindingPrism
 vtable for CSxrGraphicsBindingVulkanOpenVR
@@ -40128,6 +40589,8 @@ vtable for CVRClientCore_001
 vtable for CVRClientCore_002
 vtable for CVRCompositorClient
 vtable for CVRCompositorClientBase
+vtable for CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataGL_t>
+vtable for CVRCompositorSharedTextures::CSharedTextureSetDriverDirect<CVRCompositorSharedTextures::SharedTextureDataVulkan_t>
 vtable for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
 vtable for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
 vtable for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
@@ -40158,6 +40621,7 @@ vtable for CVRCompositor_024
 vtable for CVRCompositor_025
 vtable for CVRCompositor_026
 vtable for CVRCompositor_027
+vtable for CVRCompositor_028
 vtable for CVRControlPanel_001
 vtable for CVRControlPanel_002
 vtable for CVRControlPanel_003
@@ -40547,6 +41011,7 @@ vtable for CompositorInterfaceRegistration<CVRCompositor_024>
 vtable for CompositorInterfaceRegistration<CVRCompositor_025>
 vtable for CompositorInterfaceRegistration<CVRCompositor_026>
 vtable for CompositorInterfaceRegistration<CVRCompositor_027>
+vtable for CompositorInterfaceRegistration<CVRCompositor_028>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -41010,6 +41475,7 @@ xrConvertTimespecTimeToTimeKHR
 xrCreateAction
 xrCreateActionSet
 xrCreateActionSpace
+xrCreateFoveationProfileFB
 xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT
 xrCreateHandTrackerEXT: Data source was duplicated
@@ -41017,6 +41483,11 @@ xrCreateInstance
 xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION \n
 xrCreateInstance error: attempted to enable XR_EXT_INTERACTION_RENDER_MODEL without enabling required XR_EXT_RENDER_MODEL \n
 xrCreateInstance error: attempted to enable XR_EXT_RENDER_MODEL without enabling required XR_EXT_UUID \n
+xrCreateInstance error: attempted to enable XR_FB_foveation without enabling required XR_FB_swapchain_update_state
+xrCreateInstance error: attempted to enable XR_FB_foveation_configuration without enabling required XR_FB_foveation
+xrCreateInstance error: attempted to enable XR_FB_foveation_vulkan without enabling required XR_FB_foveation
+xrCreateInstance error: attempted to enable XR_META_foveation_eye_tracked without enabling required XR_FB_foveation
+xrCreateInstance error: attempted to enable XR_META_foveation_eye_tracked without enabling required XR_FB_foveation_configuration
 xrCreateInstance error: extension unsupported %s\n
 xrCreateInstance error: failed to create instance\n
 xrCreateInstance error: maximum 1 instance\n
@@ -41037,6 +41508,7 @@ xrCreateVulkanDeviceKHR error: invalid parameters\n
 xrCreateVulkanInstanceKHR
 xrDestroyAction
 xrDestroyActionSet
+xrDestroyFoveationProfileFB
 xrDestroyHandTrackerEXT
 xrDestroyInstance
 xrDestroyRenderModelAssetEXT
@@ -41053,6 +41525,7 @@ xrEnumerateDisplayRefreshRatesFB
 xrEnumerateEnvironmentBlendModes
 xrEnumerateInstanceExtensionProperties
 xrEnumerateInteractionRenderModelIdsEXT
+xrEnumeratePerformanceMetricsCounterPathsMETA
 xrEnumerateReferenceSpaces
 xrEnumerateRenderModelSubactionPathsEXT
 xrEnumerateSwapchainFormats
@@ -41066,17 +41539,23 @@ xrGetActionStatePose
 xrGetActionStateVector2f
 xrGetCurrentInteractionProfile
 xrGetDisplayRefreshRateFB
+xrGetFoveationEyeTrackedStateMETA
 xrGetFrameCompositionReportEXT
 xrGetInputSourceLocalizedName
 xrGetInstanceProcAddr
 xrGetInstanceProperties
 xrGetOpenGLESGraphicsRequirementsKHR
 xrGetOpenGLGraphicsRequirementsKHR
+xrGetPerformanceMetricsStateMETA
+xrGetPerformanceMetricsStateMETA was passed a null state pointer.
+xrGetPerformanceMetricsStateMETA was passed state struct with the wrong type member.
 xrGetReferenceSpaceBoundsRect
 xrGetRenderModelAssetDataEXT
 xrGetRenderModelAssetPropertiesEXT
+xrGetRenderModelPoseTopLevelUserPathEXT
 xrGetRenderModelPropertiesEXT
 xrGetRenderModelStateEXT
+xrGetSwapchainStateFB
 xrGetSystem
 xrGetSystemProperties
 xrGetViewConfigurationProperties
@@ -41091,7 +41570,6 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
-xrInteractionRenderModelGetTopLevelUserPathEXT
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
@@ -41105,6 +41583,7 @@ xrNegotiateLoaderRuntimeInterface
 xrNegotiateLoaderRuntimeInterface.cold
 xrPathToString
 xrPollEvent
+xrQueryPerformanceMetricsCounterMETA
 xrReleaseSwapchainImage
 xrRequestDisplayRefreshRateFB
 xrRequestExitSession
@@ -41114,11 +41593,15 @@ xrSetInputDeviceLocationEXT
 xrSetInputDeviceStateBoolEXT
 xrSetInputDeviceStateFloatEXT
 xrSetInputDeviceStateVector2fEXT
+xrSetPerformanceMetricsStateMETA
+xrSetPerformanceMetricsStateMETA was passed a null state pointer.
+xrSetPerformanceMetricsStateMETA was passed state struct with the wrong type member.
 xrStopHapticFeedback
 xrStringToPath
 xrStructureTypeToString
 xrSuggestInteractionProfileBindings
 xrSyncActions
+xrUpdateSwapchainFB
 xrWaitFrame
 xrWaitFrame has been waiting for 5 seconds for the previous frame to xrBeginFrame
 xrWaitFrame: compositor failed WaitFrame()

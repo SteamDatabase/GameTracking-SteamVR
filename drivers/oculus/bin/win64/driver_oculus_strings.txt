@@ -553,7 +553,7 @@ IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
 IVRCameraComponent_003
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -564,6 +564,7 @@ IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_009
+IVRDriverInputInternal_XXX
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -699,7 +700,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS$)
 RaiseException
 ResetEvent
 RootNode
@@ -1444,6 +1445,7 @@ shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_floor_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_ps.fxo

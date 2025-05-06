@@ -12,6 +12,7 @@
  const
  does not appear to exist
  due to failed negotiation with error 
+ filesystem operations failed for path  
  for 
  for detail.\n
  has invalid API Version.  Skipping layer.
@@ -211,8 +212,8 @@ ApiLayerManifestFile::CreateIfValid(ManifestFileType, std::string const&, std::i
 ApiLayerManifestFile::CreateIfValid(ManifestFileType, std::string const&, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>>>&)
 ApiLayerManifestFile::CreateIfValid(ManifestFileType, std::string const&, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>>>&) (.cold)
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
-ApiLayerManifestFile::FindManifestFiles(ManifestFileType, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>>>&)
-ApiLayerManifestFile::FindManifestFiles(ManifestFileType, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>>>&) (.cold)
+ApiLayerManifestFile::FindManifestFiles(std::string const&, ManifestFileType, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>>>&)
+ApiLayerManifestFile::FindManifestFiles(std::string const&, ManifestFileType, std::vector<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>, std::allocator<std::unique_ptr<ApiLayerManifestFile, std::default_delete<ApiLayerManifestFile>>>>&) (.cold)
 ApiLayerManifestFile::LocateLibraryRelativeToJson(std::string const&, std::string const&, std::string&)
 ApiLayerManifestFile::LocateLibraryRelativeToJson(std::string const&, std::string const&, std::string&) (.cold)
 ApiLayerManifestFile::PopulateApiLayerProperties(XrApiLayerProperties&) const
@@ -291,7 +292,7 @@ GENERAL
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
-GeneratedXrPopulateDispatchTable
+GeneratedXrPopulateDispatchTableCore
 GetGlobalLoaderMutex()::loader_mutex
 HOME
 Implicit layer 
@@ -983,6 +984,7 @@ RuntimeInterface::GetInstance()::instance
 RuntimeInterface::GetInstanceExtensionProperties(std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties>>&)
 RuntimeInterface::GetInstanceExtensionProperties(std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties>>&) (.cold)
 RuntimeInterface::GetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
+RuntimeInterface::LoadRuntime failed to find negotiate function 
 RuntimeInterface::LoadRuntime skipping manifest file 
 RuntimeInterface::LoadRuntime succeeded loading runtime defined in manifest file 
 RuntimeInterface::LoadRuntime(std::string const&)
@@ -1009,8 +1011,8 @@ RuntimeManifestFile::CreateIfValid(std::string const&, std::vector<std::unique_p
 RuntimeManifestFile::CreateIfValid(std::string const&, std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>>>&) (.cold)
 RuntimeManifestFile::FindManifestFiles - failed to determine active runtime file path for this environment
 RuntimeManifestFile::FindManifestFiles - using environment variable override runtime file 
-RuntimeManifestFile::FindManifestFiles(std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>>>&)
-RuntimeManifestFile::FindManifestFiles(std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>>>&) (.cold)
+RuntimeManifestFile::FindManifestFiles(std::string const&, std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>>>&)
+RuntimeManifestFile::FindManifestFiles(std::string const&, std::vector<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>, std::allocator<std::unique_ptr<RuntimeManifestFile, std::default_delete<RuntimeManifestFile>>>>&) (.cold)
 RuntimeManifestFile::RuntimeManifestFile(std::string const&, std::string const&)
 SPEC
 Saturday
@@ -2036,10 +2038,10 @@ std::_Fnv_hash_bytes(void const*, unsigned long, unsigned long)
 std::_Hash_bytes(void const*, unsigned long, unsigned long)
 std::_Hashtable<XrDebugUtilsMessengerEXT_T*, std::pair<XrDebugUtilsMessengerEXT_T* const, XrInstance_T*>, std::allocator<std::pair<XrDebugUtilsMessengerEXT_T* const, XrInstance_T*>>, std::__detail::_Select1st, std::equal_to<XrDebugUtilsMessengerEXT_T*>, std::hash<XrDebugUtilsMessengerEXT_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrDebugUtilsMessengerEXT_T* const, XrInstance_T*>, false>*, unsigned long)
 std::_Hashtable<XrDebugUtilsMessengerEXT_T*, std::pair<XrDebugUtilsMessengerEXT_T* const, XrInstance_T*>, std::allocator<std::pair<XrDebugUtilsMessengerEXT_T* const, XrInstance_T*>>, std::__detail::_Select1st, std::equal_to<XrDebugUtilsMessengerEXT_T*>, std::hash<XrDebugUtilsMessengerEXT_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
-std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, false>*, unsigned long)
-std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
-std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::clear()
-std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::erase(std::__detail::_Node_const_iterator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, false, false>)
+std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, false>*, unsigned long)
+std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
+std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::clear()
+std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, std::allocator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::erase(std::__detail::_Node_const_iterator<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, false, false>)
 std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>, std::allocator<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_erase(std::integral_constant<bool, true>, XrInstance_T* const&)
 std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>, std::allocator<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>, false>*, unsigned long)
 std::_Hashtable<XrInstance_T*, std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>, std::allocator<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>>, std::__detail::_Select1st, std::equal_to<XrInstance_T*>, std::hash<XrInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
@@ -2892,8 +2894,8 @@ std::__cxx11::time_get_byname<wchar_t, std::istreambuf_iterator<wchar_t, std::ch
 std::__cxx11::time_get_byname<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>::~time_get_byname()
 std::__destroy_ios_failure(void*)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrDebugUtilsMessengerEXT_T* const, XrInstance_T*>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
-std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
-std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, false>>>::_M_deallocate_node(std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTable, std::default_delete<XrGeneratedDispatchTable>>>, false>*) (.isra.0)
+std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
+std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, false>>>::_M_deallocate_node(std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unique_ptr<XrGeneratedDispatchTableCore, std::default_delete<XrGeneratedDispatchTableCore>>>, false>*) (.isra.0)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrInstance_T* const, std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::string, true>>>::_M_deallocate_node(std::__detail::_Hash_node<std::string, true>*) (.isra.0)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<unsigned long, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
@@ -5979,6 +5981,8 @@ xrGetViewConfigurationProperties.cold
 xrInitializeLoaderKHR
 xrLocateSpace
 xrLocateSpace.cold
+xrLocateSpaces
+xrLocateSpaces.cold
 xrLocateViews
 xrLocateViews.cold
 xrNegotiateLoaderApiLayerInterface

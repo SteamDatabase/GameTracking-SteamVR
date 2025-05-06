@@ -57,6 +57,8 @@
 	"/actions/dualanalog": "Keyboard Entry",
 	"/actions/system": "System Actions",
 	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_smooth": "Trackpad-style Scrolling",
 
+	"/actions/roomsetup_floor/in/FloorFineAdjust": "Fine Floor Adjustment",
+	"/actions/quickrecenter/in/Recenter": "Recenter"
 }

@@ -12,6 +12,8 @@
  throw
  transaction_safe
  volatile
+!sFind.empty()
+!sString.empty()
 %02X
 %06d
 %4.4X:%4.4X\n

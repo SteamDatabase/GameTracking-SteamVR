@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Handmatig",
 	"Setting_clientVersion": "Client-versie",
 	"Setting_useOSC": "OSC inschakelen",
-	"Setting_useOSCEyes": "Gegevens over oogvolging delen met andere apps op deze pc via OSC",
 	"Setting_useOSCFace": "Gegevens over gezichtsvolging delen met andere apps op deze pc via OSC",
 	"Setting_OSCOutPort": "OSC-uitvoerpoort",
+	"Setting_shareEyeTrackingData": "Gegevens over oogvolging delen met andere apps op deze pc",
+	"Setting_enableHandTracking": "Passthrough inschakelen voor handvolging",
 	"Setting_WirelessShutdownTimeout": "SteamVR afsluiten na het verbreken van de verbinding",
 	"Setting_AllowVolumeControlSync": "Volume en dempen van de headset regelen via SteamVR",
-	"Setting_DisableQoS": "QoS uitschakelen"
+	"Setting_DisableQoS": "QoS uitschakelen",
+	"svl_hand_interaction_augmented": "Controller met handvolging",
+	"/input/index_pinch": "Knijpen met wijsvinger",
+	"/input/middle_pinch": "Knijpen met middelvinger",
+	"/input/ring_pinch": "Knijpen met ringvinger",
+	"/input/pinky_pinch": "Knijpen met pink",
+	"/input/index_point": "Wijzen met wijsvinger"
 }

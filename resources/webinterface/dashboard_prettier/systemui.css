@@ -606,6 +606,13 @@ div.BindingCalloutModifierIcon {
   transition: opacity 1.0s;
 }
 
+.ChaperoneSafety {
+  visibility: visible;
+  border-radius: 25px;
+  background: rgba(20, 20, 20, 0.97);
+  padding: 3px;
+}
+
 .ZeroBorderContainer {
   visibility: visible;
   border-radius: 50px;
@@ -2413,39 +2420,6 @@ div.BindingCalloutModifierIcon {
   animation-name: ControlBarTrayShadowAnimationHiding;
 }
 
-.ResetSeatedCountdownParent {
-  visibility: visible;
-  border-radius: 25px;
-  background: rgba(20, 20, 20, 0.97);
-  padding: 3px;
-}
-
-.ResetSeatedCountdownParent.Fading {
-  opacity: 0;
-  transition: opacity 1.0s;
-}
-
-.ResetSeatedCountdownParent .ResetSeatedCountdownTextDesc {
-  font-size: 20px;
-  color: var(--ipddescriptiontext);
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.ResetSeatedCountdownParent .ResetSeatedCountdownRow {
-  position: relative;
-  margin: 0px auto;
-  margin-bottom: 0px;
-  flex-direction: row;
-}
-
-.ResetSeatedCountdownParent .ResetSeatedCountdownText {
-  font-size: 59px;
-  font-variant-numeric: tabular-nums;
-  color: var(--ipdvaluetext);
-  display: inline-block;
-}
-
 .QuickLaunchWelcome {
   position: absolute;
   left: 0;
@@ -2635,6 +2609,13 @@ div.BindingCalloutModifierIcon {
   z-index: 10;
 }
 
+.ProgressContainer .SVGIcon_Button {
+  width: 255px;
+  height: 255px;
+  margin: auto;
+  z-index: 10;
+}
+
 .Construct .GroupName {
   color: white;
   font-size: 96px;
@@ -2653,4 +2634,119 @@ div.BindingCalloutModifierIcon {
   width: 1em;
   height: 1em;
   margin: auto;
+}
+
+.ControllerBattery {
+  filter: brightness(65%);
+}
+
+.RoomSetupUI {
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(
+    155.42% 100% at 0% 0%,
+    var(--gamepadui-soft-black) 0 0%,
+    var(--gamepadui-darkest-grey) 100%
+  );
+  background-size: 100% 100%;
+  border-radius: 10px;
+  padding: 20px;
+  border: solid 1px rgba(255, 255, 255, 0.1);
+  color: var(--gamepadui-lightest-grey);
+}
+
+.RoomSetupUI .Title {
+  font-size: 1.6em;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 0;
+  align-self: center;
+}
+
+.RoomSetupUI .Body {
+  margin: 20px;
+  margin-top: 0;
+  align-self: center;
+}
+
+.RoomSetupUI .ButtonRow {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.RoomSetupUI .ButtonRow .Right {
+  justify-content: right;
+}
+
+.RoomSetupUI .ButtonRow .ButtonControl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
+.RoomSetupUI svg {
+  height: 1em;
+  margin-right: 0.8ch;
+  flex-shrink: 0;
+}
+
+.RoomSetupUI .ButtonRow .ButtonControl svg {
+  height: 1em;
+  margin-right: 0.8ch;
+  flex-shrink: 0;
+}
+
+.FloorRadiusRoot {
+  width: 32px;
+  height: 32px;
+}
+
+.FloorRadiusRoot .Geo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 0, 0, 0.75);
+}
+
+.RoomSetupFloorGeoRoot {
+  width: 1024px;
+  height: 1024px;
+}
+
+.RoomSetupFloorGeoRoot .FloorGeo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1024px;
+  box-sizing: border-box;
+}
+
+.RoomSetupFloorGeoRoot .FloorGeo.Center {
+  border: 10px solid var(--room-setup-floor-circle); /* Thickness of the circle border */
+
+  background: radial-gradient(
+    circle,
+    var(--room-setup-floor-gradient-start) 50%,
+    var(--room-setup-floor-gradient-end) 100%
+  );
+}
+
+.RoomSetupFloorGeoRoot .FloorGeo.NoCenter {
+  background: radial-gradient(
+    circle,
+    var(--room-setup-floor-gradient-end) 0%,
+    var(--room-setup-floor-gradient-start) 70%
+  );
 }

@@ -38,6 +38,8 @@
 !m_pParent1
 !m_pParent2
 !m_stackFreeResources.empty()
+!sFind.empty()
+!sString.empty()
 !std::isnan( flSystemTimeInSeconds )
 " because it is missing required fields: 
 " does not.
@@ -85,6 +87,7 @@ $tI(knN
 %d.%02d
 %d.%d.%d.%d
 %llu
+%s %d universe %s
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s (%X)-> %s\n
 %s begin_ctx=%llu
@@ -118,6 +121,7 @@ $tI(knN
 %s: Failed to initialize graphics queue.
 %s: Failed to reset command buffer: %d
 %s: Failed to submit to queue: %u:%u
+%s: Index (%d) out of bounds (%d) for '%s'!
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
 %s: Invalid %s handle: %llx\n
@@ -380,6 +384,7 @@ $tI(knN
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrAction@@PEAUXrAction_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrActionSet@@PEAUXrActionSet_T@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrFoveationProfile@@PEAUXrFoveationProfileFB_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrInstance@@PEAUXrInstance_T@@@@
 .?AU?$CSxrDispatchableHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@@@
@@ -497,6 +502,7 @@ $tI(knN
 .?AV?$CSharedTextureSetDriverDirect@USharedTextureDataVulkan_t@CVRCompositorSharedTextures@@@CVRCompositorSharedTextures@@
 .?AV?$CSxrChildHandle@VCSxrAction@@PEAUXrAction_T@@VCSxrActionSet@@@@
 .?AV?$CSxrChildHandle@VCSxrActionSet@@PEAUXrActionSet_T@@VCSxrInstance@@@@
+.?AV?$CSxrChildHandle@VCSxrFoveationProfile@@PEAUXrFoveationProfileFB_T@@VCSxrSession@@@@
 .?AV?$CSxrChildHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@VCSxrSession@@@@
 .?AV?$CSxrChildHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@VCSxrSession@@@@
 .?AV?$CSxrChildHandle@VCSxrRenderModelEXT@@PEAUXrRenderModelEXT_T@@VCSxrSession@@@@
@@ -542,6 +548,7 @@ $tI(knN
 .?AV?$CompositorInterfaceRegistration@VCVRCompositor_025@@@@
 .?AV?$CompositorInterfaceRegistration@VCVRCompositor_026@@@@
 .?AV?$CompositorInterfaceRegistration@VCVRCompositor_027@@@@
+.?AV?$CompositorInterfaceRegistration@VCVRCompositor_028@@@@
 .?AV?$ControlPanelInterfaceRegistration@VCVRControlPanel_001@@@@
 .?AV?$ControlPanelInterfaceRegistration@VCVRControlPanel_002@@@@
 .?AV?$ControlPanelInterfaceRegistration@VCVRControlPanel_003@@@@
@@ -837,6 +844,7 @@ $tI(knN
 .?AVCSxrCompositorOpenVR@@
 .?AVCSxrCompositorPrism@@
 .?AVCSxrDeletableBase@@
+.?AVCSxrFoveationProfile@@
 .?AVCSxrGraphicsBindingD3D11Direct@@
 .?AVCSxrGraphicsBindingD3D11OpenVR@@
 .?AVCSxrGraphicsBindingD3D12OpenVR@@
@@ -911,6 +919,7 @@ $tI(knN
 .?AVCVRCompositor_025@@
 .?AVCVRCompositor_026@@
 .?AVCVRCompositor_027@@
+.?AVCVRCompositor_028@@
 .?AVCVRControlPanel_001@@
 .?AVCVRControlPanel_002@@
 .?AVCVRControlPanel_003@@
@@ -1506,6 +1515,7 @@ $tI(knN
 /block_id
 /blocks
 /bound_tracker_role
+/chaperone/collision_radius
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/seated/transform
@@ -1513,10 +1523,11 @@ $tI(knN
 /chaperone/showing_working_pid
 /chaperone/standing/transform
 /chaperone/state
+/chaperone/temporary_playing_outside_playspace_time
+/chaperone/tracking_anchored
 /click
 /controller_type/
 /dashboard/visible
-/device_path
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -1594,6 +1605,7 @@ $tI(knN
 /menu/click
 /out/
 /output/haptic
+/perfmetrics_meta/app/gpu_frametime
 /pose/
 /pose/grip
 /pose/openxr_aim
@@ -1900,6 +1912,7 @@ $tI(knN
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?CVkDevice::CreateDevice
+?UUUUUU
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -2077,6 +2090,7 @@ Binding config missing required 'bindings' member
 Binding config missing required 'controller_type' member
 Bindings from OpenXR for 
 BlankEyeBuffer
+BlankTexture
 BlockQueueHeaderMutex_
 BlockQueueHeader_
 Bootstrapper init
@@ -2153,6 +2167,7 @@ CSxrCompositorPrism::GetVulkanGraphicsDevice
 CSxrCompositorPrism::Init
 CSxrCompositorPrism::OnSessionCreated
 CSxrCompositorPrism::WaitFrame
+CSxrFoveationProfile
 CSxrGraphicsBindingD3D12OpenVR gpu completion event
 CSxrGraphicsBindingPrism::Init
 CSxrGraphicsBindingPrism::InitD3D11
@@ -2209,6 +2224,7 @@ CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
 CVRApplicationsLatest
+CVRChaperoneClient::CommitWorkingCopy
 CVRClient::Init
 CVRCompositorClient::SubmitTextureSetInfo
 CVRCompositorSharedTextures::EndCommandBuffer
@@ -2446,6 +2462,7 @@ CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
 CVkGarbageCollector: %s
 CVkGarbageCollector::WaitForWork
+CVkImage::CmdPipelineBarrier
 CVkInteropImageD3D11 released without transferring ownership back to D3D11 first!
 CVkMappedMemoryView<struct ClientLayers_t>::Remap
 CVkMemory::Map
@@ -2546,6 +2563,9 @@ CoCreateGuid
 Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f\n
 CommandBuffer[%u]
 CommandLineToArgvW
+CommitDynamicFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
+CommitDynamicFloorHeight failed. Not going to commit a floor with unset value.
+CommitDynamicFloorHeight is commiting an intial guess. Suspicious...
 Committed chaperone working copy\n
 Completed
 ComposeLayerProjection: failed to submit view %u: %s\n
@@ -2677,6 +2697,8 @@ EVRSceneApplicationState_Quitting
 EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
+EXCESSIVE ERRORS FOR GetSkeletalTrackingLevelForHandError (%d). NO LONGER LOGGING ERRORS FOR THIS.
+EXCESSIVE ERRORS FOR GetSkeletonBoneDataForHandError (%d). NO LONGER LOGGING ERRORS FOR THIS.
 El#aq
 El#bs
 El#dv
@@ -2688,6 +2710,7 @@ El#ur
 El#uz
 Empty escape sequence in string
 Empty file.
+EnableFrameEndMarkers
 Enabling LiquidVR fallback path due to missing extension: %s
 Encountered error 
 Encountered unexpected delayed initialization of CPropertyManager\n
@@ -2791,6 +2814,7 @@ Failed to create opengl swapchain image: sample count %d unsupported\n
 Failed to create pixel shader module %s!\n
 Failed to create prism swapchain: Unsupported number of faces: %d\n
 Failed to create readable frame info buffer (D3D11)!\n
+Failed to create swapchain image: Foveation not supported
 Failed to create swapchain image: Unsupported format: %d\n
 Failed to create sync texture.  Ensure application was built using DXGI 1.1 or later (i.e. Call CreateDXGIFactory1).\n
 Failed to create vertex shader module %s!\n
@@ -2946,6 +2970,7 @@ FnTable:IVRCompositor_024
 FnTable:IVRCompositor_025
 FnTable:IVRCompositor_026
 FnTable:IVRCompositor_027
+FnTable:IVRCompositor_028
 FnTable:IVRIOBuffer_002
 FnTable:IVRInput_001
 FnTable:IVRInput_002
@@ -3156,11 +3181,11 @@ IVRBlockQueue_003
 IVRBlockQueue_004
 IVRBlockQueue_005
 IVRCVTrackedHmdInternal_
-IVRCVTrackedHmdInternal_001
+IVRCVTrackedHmdInternal_XXX
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_001
 IVRChaperoneSetup_002
 IVRChaperoneSetup_003
@@ -3205,6 +3230,7 @@ IVRCompositor_025
 IVRCompositor_026
 IVRCompositor_027
 IVRCompositor_028
+IVRCompositor_029
 IVRControlPanel_001
 IVRControlPanel_002
 IVRControlPanel_003
@@ -3221,6 +3247,7 @@ IVRDisplayComponent_001
 IVRDriverDirectInternal_
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
+IVRDriverInputInternal_XXX
 IVRDriverLog_
 IVRDriverLog_001
 IVRDriverManager_001
@@ -3616,6 +3643,7 @@ PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
+PS_main
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -3848,11 +3876,13 @@ Qkkbal
 Quad
 QueryPerformanceCounter
 QueryPerformanceFrequency
+QueryPerformanceMetricsCounterMETA was passed a known path but has no logic to handle it.
+QueryPerformanceMetricsCounterMETA was passed an unrecognized XrPath.
 QueryServiceConfigW
 RADV
 RGBG
 RPCRT4.dll
-RSDSz
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4076,6 +4106,7 @@ Suggested binding for [%s] [%s]:\n%s\n
 Suggested bindings for %s:\n
 SwapChainImage
 SwapChainImageView
+Swapchain%d
 Swapchain-WaitImage
 Syntax error: value, object or array expected.
 System
@@ -4165,7 +4196,6 @@ UNKNOWN_ERROR
 UNNAMED
 USB Service Busy (140)
 USER32.dll
-UUUUUU
 UYVY
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s\n
@@ -4276,6 +4306,7 @@ Unknown EVREventType (%d)
 Unknown EVROverlayError (%d)
 Unknown EVRSceneApplicationState (%d)
 Unknown HMDClass (%d)
+Unknown Overlay type (%d)
 Unknown Path
 Unknown VRApplicationsError (%d)
 Unknown VRSettingsError (%d)
@@ -4323,6 +4354,7 @@ VK_EXT_debug_marker
 VK_EXT_debug_report
 VK_EXT_debug_utils
 VK_EXT_global_priority
+VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_dedicated_allocation
 VK_KHR_external_memory
@@ -4430,7 +4462,7 @@ VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
-VREvent_ChaperoneRoomSetupFinished
+VREvent_ChaperoneRoomSetupCommitted
 VREvent_ChaperoneRoomSetupStarting
 VREvent_ChaperoneSettingsHaveChanged
 VREvent_ChaperoneTempDataHasChanged
@@ -4452,6 +4484,9 @@ VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardSectionSettingChanged
+VREvent_DashboardThumbChanged
+VREvent_DesktopMightBeHidden
+VREvent_DesktopMightBeVisible
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
@@ -4501,6 +4536,7 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
+VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -4510,6 +4546,8 @@ VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
 VREvent_OverlayClosed
+VREvent_OverlayCreated
+VREvent_OverlayDestroyed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -4845,6 +4883,10 @@ VROverlayError_UnableToLoadFile
 VROverlayError_UnknownOverlay
 VROverlayError_WrongTransformType
 VROverlayError_WrongVisibilityType
+VROverlayType_Basic
+VROverlayType_Dashboard_Main
+VROverlayType_Dashboard_Thumbnail
+VROverlayType_Subview
 VRRenderModelError_InvalidArg (300)
 VRRenderModelError_InvalidModel (301)
 VRRenderModelError_InvalidTexture (400)
@@ -4890,6 +4932,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
+VR_Compositor_OverlayVSync0
 VR_Compositor_OverlayVSync1
 VR_CvTrackedHmdInternalNewRequestEvent
 VR_CvTrackedHmdInternalRequestProcessedEvent
@@ -4998,6 +5041,9 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s\n
 XR Swapchain-%d
 XRRenderModelUuidCache
+XR_COLOCATION_DISCOVERY_ALREADY_ADVERTISING_META
+XR_COLOCATION_DISCOVERY_ALREADY_DISCOVERING_META
+XR_ENVIRONMENT_DEPTH_NOT_AVAILABLE_META
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
 XR_ERROR_ACTION_TYPE_MISMATCH
@@ -5006,13 +5052,17 @@ XR_ERROR_ANDROID_THREAD_SETTINGS_ID_INVALID_KHR
 XR_ERROR_API_LAYER_NOT_PRESENT
 XR_ERROR_API_VERSION_UNSUPPORTED
 XR_ERROR_CALL_ORDER_INVALID
+XR_ERROR_COLOCATION_DISCOVERY_NETWORK_FAILED_META
+XR_ERROR_COLOCATION_DISCOVERY_NO_DISCOVERY_METHOD_META
 XR_ERROR_COLOR_SPACE_UNSUPPORTED_FB
 XR_ERROR_COMPUTE_NEW_SCENE_NOT_COMPLETED_MSFT
 XR_ERROR_CONTROLLER_MODEL_KEY_INVALID_MSFT
 XR_ERROR_CREATE_SPATIAL_ANCHOR_FAILED_MSFT
 XR_ERROR_DISPLAY_REFRESH_RATE_UNSUPPORTED_FB
 XR_ERROR_ENVIRONMENT_BLEND_MODE_UNSUPPORTED
+XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED
 XR_ERROR_EXTENSION_NOT_PRESENT
+XR_ERROR_FACIAL_EXPRESSION_PERMISSION_DENIED_ML
 XR_ERROR_FEATURE_ALREADY_CREATED_PASSTHROUGH_FB
 XR_ERROR_FEATURE_REQUIRED_PASSTHROUGH_FB
 XR_ERROR_FEATURE_UNSUPPORTED
@@ -5021,6 +5071,8 @@ XR_ERROR_FILE_CONTENTS_INVALID
 XR_ERROR_FORM_FACTOR_UNAVAILABLE
 XR_ERROR_FORM_FACTOR_UNSUPPORTED
 XR_ERROR_FUNCTION_UNSUPPORTED
+XR_ERROR_FUTURE_INVALID_EXT
+XR_ERROR_FUTURE_PENDING_EXT
 XR_ERROR_GRAPHICS_DEVICE_INVALID
 XR_ERROR_GRAPHICS_REQUIREMENTS_CALL_MISSING
 XR_ERROR_HANDLE_INVALID
@@ -5059,6 +5111,7 @@ XR_ERROR_PATH_COUNT_EXCEEDED
 XR_ERROR_PATH_FORMAT_INVALID
 XR_ERROR_PATH_INVALID
 XR_ERROR_PATH_UNSUPPORTED
+XR_ERROR_PERMISSION_INSUFFICIENT
 XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
 XR_ERROR_POSE_INVALID
 XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
@@ -5086,21 +5139,31 @@ XR_ERROR_SPACE_COMPONENT_NOT_ENABLED_FB
 XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
+XR_ERROR_SPACE_GROUP_NOT_FOUND_META
 XR_ERROR_SPACE_LOCALIZATION_FAILED_FB
 XR_ERROR_SPACE_MAPPING_INSUFFICIENT_FB
 XR_ERROR_SPACE_NETWORK_REQUEST_FAILED_FB
 XR_ERROR_SPACE_NETWORK_TIMEOUT_FB
 XR_ERROR_SPACE_NOT_LOCATABLE_EXT
+XR_ERROR_SPATIAL_ANCHORS_ANCHOR_NOT_FOUND_ML
+XR_ERROR_SPATIAL_ANCHORS_NOT_LOCALIZED_ML
+XR_ERROR_SPATIAL_ANCHORS_OUT_OF_MAP_BOUNDS_ML
+XR_ERROR_SPATIAL_ANCHORS_PERMISSION_DENIED_ML
+XR_ERROR_SPATIAL_ANCHORS_SPACE_NOT_LOCATABLE_ML
 XR_ERROR_SPATIAL_ANCHOR_NAME_INVALID_MSFT
 XR_ERROR_SPATIAL_ANCHOR_NAME_NOT_FOUND_MSFT
 XR_ERROR_SWAPCHAIN_FORMAT_UNSUPPORTED
 XR_ERROR_SWAPCHAIN_RECT_INVALID
 XR_ERROR_SYSTEM_INVALID
+XR_ERROR_SYSTEM_NOTIFICATION_INCOMPATIBLE_SKU_ML
+XR_ERROR_SYSTEM_NOTIFICATION_PERMISSION_DENIED_ML
 XR_ERROR_TIME_INVALID
 XR_ERROR_UNEXPECTED_STATE_PASSTHROUGH_FB
 XR_ERROR_UNKNOWN_PASSTHROUGH_FB
 XR_ERROR_VALIDATION_FAILURE
 XR_ERROR_VIEW_CONFIGURATION_TYPE_UNSUPPORTED
+XR_ERROR_WORLD_MESH_DETECTOR_PERMISSION_DENIED_ML
+XR_ERROR_WORLD_MESH_DETECTOR_SPACE_NOT_LOCATABLE_ML
 XR_EVENT_UNAVAILABLE
 XR_EXT_active_action_set_priority
 XR_EXT_conformance_automation
@@ -5112,7 +5175,6 @@ XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
 XR_EXT_hp_mixed_reality_controller
 XR_EXT_interaction_render_model
-XR_EXT_irm_toplevel_path
 XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_render_model
@@ -5120,6 +5182,10 @@ XR_EXT_user_presence
 XR_EXT_uuid
 XR_EXT_win32_appcontainer_compatible
 XR_FB_display_refresh_rate
+XR_FB_foveation
+XR_FB_foveation_configuration
+XR_FB_foveation_vulkan
+XR_FB_swapchain_update_state
 XR_FRAME_DISCARDED
 XR_HTCX_vive_tracker_interaction
 XR_HTC_vive_cosmos_controller_interaction
@@ -5134,6 +5200,8 @@ XR_KHR_visibility_mask
 XR_KHR_vulkan_enable
 XR_KHR_vulkan_enable2
 XR_KHR_win32_convert_performance_counter_time
+XR_META_foveation_eye_tracked
+XR_META_performance_metrics
 XR_MND_headless
 XR_RENDER_MODEL_UNAVAILABLE_FB
 XR_RESULT_MAX_ENUM
@@ -5169,12 +5237,23 @@ XR_TYPE_ACTIVE_ACTION_SET_PRIORITIES_EXT
 XR_TYPE_ANDROID_SURFACE_SWAPCHAIN_CREATE_INFO_FB
 XR_TYPE_API_LAYER_PROPERTIES
 XR_TYPE_BINDING_MODIFICATIONS_KHR
+XR_TYPE_BODY_JOINTS_LOCATE_INFO_BD
 XR_TYPE_BODY_JOINTS_LOCATE_INFO_FB
+XR_TYPE_BODY_JOINTS_LOCATE_INFO_HTC
+XR_TYPE_BODY_JOINT_LOCATIONS_BD
 XR_TYPE_BODY_JOINT_LOCATIONS_FB
+XR_TYPE_BODY_JOINT_LOCATIONS_HTC
 XR_TYPE_BODY_SKELETON_FB
+XR_TYPE_BODY_SKELETON_HTC
+XR_TYPE_BODY_TRACKER_CREATE_INFO_BD
 XR_TYPE_BODY_TRACKER_CREATE_INFO_FB
+XR_TYPE_BODY_TRACKER_CREATE_INFO_HTC
 XR_TYPE_BOUNDARY_2D_FB
 XR_TYPE_BOUND_SOURCES_FOR_ACTION_ENUMERATE_INFO
+XR_TYPE_COLOCATION_ADVERTISEMENT_START_INFO_META
+XR_TYPE_COLOCATION_ADVERTISEMENT_STOP_INFO_META
+XR_TYPE_COLOCATION_DISCOVERY_START_INFO_META
+XR_TYPE_COLOCATION_DISCOVERY_STOP_INFO_META
 XR_TYPE_COMPOSITION_LAYER_ALPHA_BLEND_FB
 XR_TYPE_COMPOSITION_LAYER_COLOR_SCALE_BIAS_KHR
 XR_TYPE_COMPOSITION_LAYER_CUBE_KHR
@@ -5201,13 +5280,24 @@ XR_TYPE_CONTROLLER_MODEL_NODE_STATE_MSFT
 XR_TYPE_CONTROLLER_MODEL_PROPERTIES_MSFT
 XR_TYPE_CONTROLLER_MODEL_STATE_MSFT
 XR_TYPE_COORDINATE_SPACE_CREATE_INFO_ML
+XR_TYPE_CREATE_SPATIAL_ANCHORS_COMPLETION_ML
 XR_TYPE_DEBUG_UTILS_LABEL_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
 XR_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT
 XR_TYPE_DEVICE_PCM_SAMPLE_RATE_STATE_FB
 XR_TYPE_DIGITAL_LENS_CONTROL_ALMALENCE
+XR_TYPE_ENVIRONMENT_DEPTH_HAND_REMOVAL_SET_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_ACQUIRE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_VIEW_META
+XR_TYPE_ENVIRONMENT_DEPTH_PROVIDER_CREATE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_SWAPCHAIN_CREATE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_SWAPCHAIN_STATE_META
 XR_TYPE_EVENT_DATA_BUFFER
+XR_TYPE_EVENT_DATA_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_COLOCATION_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_COLOCATION_DISCOVERY_RESULT_META
 XR_TYPE_EVENT_DATA_DISPLAY_REFRESH_RATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_EVENTS_LOST
 XR_TYPE_EVENT_DATA_EYE_CALIBRATION_CHANGED_ML
@@ -5218,11 +5308,13 @@ XR_TYPE_EVENT_DATA_INTERACTION_RENDER_MODELS_CHANGED_EXT
 XR_TYPE_EVENT_DATA_LOCALIZATION_CHANGED_ML
 XR_TYPE_EVENT_DATA_MAIN_SESSION_VISIBILITY_CHANGED_EXTX
 XR_TYPE_EVENT_DATA_MARKER_TRACKING_UPDATE_VARJO
+XR_TYPE_EVENT_DATA_PASSTHROUGH_LAYER_RESUMED_META
 XR_TYPE_EVENT_DATA_PASSTHROUGH_STATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_PERF_SETTINGS_EXT
 XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING
 XR_TYPE_EVENT_DATA_SCENE_CAPTURE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SESSION_STATE_CHANGED
+XR_TYPE_EVENT_DATA_SHARE_SPACES_COMPLETE_META
 XR_TYPE_EVENT_DATA_SPACE_ERASE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_LIST_SAVE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_QUERY_COMPLETE_FB
@@ -5231,6 +5323,10 @@ XR_TYPE_EVENT_DATA_SPACE_SAVE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_SET_STATUS_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_SHARE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPATIAL_ANCHOR_CREATE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_START_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_START_COLOCATION_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_STOP_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_STOP_COLOCATION_DISCOVERY_COMPLETE_META
 XR_TYPE_EVENT_DATA_USER_PRESENCE_CHANGED_EXT
 XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_BACKSPACE_META
 XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_COMMIT_TEXT_META
@@ -5245,10 +5341,16 @@ XR_TYPE_EYE_GAZES_FB
 XR_TYPE_EYE_GAZES_INFO_FB
 XR_TYPE_EYE_GAZE_SAMPLE_TIME_EXT
 XR_TYPE_EYE_TRACKER_CREATE_INFO_FB
+XR_TYPE_FACE_EXPRESSION_INFO2_FB
 XR_TYPE_FACE_EXPRESSION_INFO_FB
+XR_TYPE_FACE_EXPRESSION_WEIGHTS2_FB
 XR_TYPE_FACE_EXPRESSION_WEIGHTS_FB
+XR_TYPE_FACE_TRACKER_CREATE_INFO2_FB
 XR_TYPE_FACE_TRACKER_CREATE_INFO_FB
 XR_TYPE_FACIAL_EXPRESSIONS_HTC
+XR_TYPE_FACIAL_EXPRESSION_BLEND_SHAPE_GET_INFO_ML
+XR_TYPE_FACIAL_EXPRESSION_BLEND_SHAPE_PROPERTIES_ML
+XR_TYPE_FACIAL_EXPRESSION_CLIENT_CREATE_INFO_ML
 XR_TYPE_FACIAL_TRACKER_CREATE_INFO_HTC
 XR_TYPE_FORCE_FEEDBACK_CURL_APPLY_LOCATIONS_MNDX
 XR_TYPE_FOVEATED_VIEW_CONFIGURATION_VIEW_VARJO
@@ -5260,16 +5362,24 @@ XR_TYPE_FOVEATION_EYE_TRACKED_STATE_META
 XR_TYPE_FOVEATION_LEVEL_PROFILE_CREATE_INFO_FB
 XR_TYPE_FOVEATION_PROFILE_CREATE_INFO_FB
 XR_TYPE_FRAME_BEGIN_INFO
+XR_TYPE_FRAME_COMPOSITION_REPORT_EXT
 XR_TYPE_FRAME_END_INFO
 XR_TYPE_FRAME_END_INFO_ML
 XR_TYPE_FRAME_STATE
+XR_TYPE_FRAME_SYNTHESIS_CONFIG_VIEW_EXT
+XR_TYPE_FRAME_SYNTHESIS_INFO_EXT
 XR_TYPE_FRAME_WAIT_INFO
+XR_TYPE_FUTURE_CANCEL_INFO_EXT
+XR_TYPE_FUTURE_COMPLETION_EXT
+XR_TYPE_FUTURE_POLL_INFO_EXT
+XR_TYPE_FUTURE_POLL_RESULT_EXT
 XR_TYPE_GEOMETRY_INSTANCE_CREATE_INFO_FB
 XR_TYPE_GEOMETRY_INSTANCE_TRANSFORM_FB
 XR_TYPE_GLOBAL_DIMMER_FRAME_END_INFO_ML
 XR_TYPE_GRAPHICS_BINDING_D3D11_KHR
 XR_TYPE_GRAPHICS_BINDING_D3D12_KHR
 XR_TYPE_GRAPHICS_BINDING_EGL_MNDX
+XR_TYPE_GRAPHICS_BINDING_METAL_KHR
 XR_TYPE_GRAPHICS_BINDING_OPENGL_ES_ANDROID_KHR
 XR_TYPE_GRAPHICS_BINDING_OPENGL_WAYLAND_KHR
 XR_TYPE_GRAPHICS_BINDING_OPENGL_WIN32_KHR
@@ -5278,6 +5388,7 @@ XR_TYPE_GRAPHICS_BINDING_OPENGL_XLIB_KHR
 XR_TYPE_GRAPHICS_BINDING_VULKAN_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_D3D11_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_D3D12_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_METAL_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_OPENGL_ES_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_OPENGL_KHR
 XR_TYPE_GRAPHICS_REQUIREMENTS_VULKAN_KHR
@@ -5311,6 +5422,7 @@ XR_TYPE_INTERACTION_PROFILE_STATE
 XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
 XR_TYPE_INTERACTION_RENDER_MODEL_IDS_ENUMERATE_INFO_EXT
 XR_TYPE_INTERACTION_RENDER_MODEL_SUBACTION_PATH_INFO_EXT
+XR_TYPE_INTERACTION_RENDER_MODEL_TOP_LEVEL_USER_PATH_GET_INFO_EXT
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
@@ -5352,6 +5464,8 @@ XR_TYPE_PLANE_DETECTOR_GET_INFO_EXT
 XR_TYPE_PLANE_DETECTOR_LOCATIONS_EXT
 XR_TYPE_PLANE_DETECTOR_LOCATION_EXT
 XR_TYPE_PLANE_DETECTOR_POLYGON_BUFFER_EXT
+XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_GET_INFO_META
+XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_META
 XR_TYPE_REFERENCE_SPACE_CREATE_INFO
 XR_TYPE_RENDER_MODEL_ASSET_CREATE_INFO_EXT
 XR_TYPE_RENDER_MODEL_ASSET_DATA_EXT
@@ -5405,27 +5519,50 @@ XR_TYPE_SESSION_ACTION_SETS_ATTACH_INFO
 XR_TYPE_SESSION_BEGIN_INFO
 XR_TYPE_SESSION_CREATE_INFO
 XR_TYPE_SESSION_CREATE_INFO_OVERLAY_EXTX
+XR_TYPE_SHARE_SPACES_INFO_META
+XR_TYPE_SHARE_SPACES_RECIPIENT_GROUPS_META
+XR_TYPE_SPACES_LOCATE_INFO
 XR_TYPE_SPACE_COMPONENT_FILTER_INFO_FB
 XR_TYPE_SPACE_COMPONENT_STATUS_FB
 XR_TYPE_SPACE_COMPONENT_STATUS_SET_INFO_FB
 XR_TYPE_SPACE_CONTAINER_FB
 XR_TYPE_SPACE_ERASE_INFO_FB
+XR_TYPE_SPACE_GROUP_UUID_FILTER_INFO_META
 XR_TYPE_SPACE_LIST_SAVE_INFO_FB
 XR_TYPE_SPACE_LOCATION
+XR_TYPE_SPACE_LOCATIONS
 XR_TYPE_SPACE_QUERY_INFO_FB
 XR_TYPE_SPACE_QUERY_RESULTS_FB
 XR_TYPE_SPACE_SAVE_INFO_FB
 XR_TYPE_SPACE_SHARE_INFO_FB
 XR_TYPE_SPACE_STORAGE_LOCATION_FILTER_INFO_FB
+XR_TYPE_SPACE_TRIANGLE_MESH_GET_INFO_META
+XR_TYPE_SPACE_TRIANGLE_MESH_META
 XR_TYPE_SPACE_USER_CREATE_INFO_FB
 XR_TYPE_SPACE_UUID_FILTER_INFO_FB
+XR_TYPE_SPACE_VELOCITIES
 XR_TYPE_SPACE_VELOCITY
+XR_TYPE_SPATIAL_ANCHORS_CREATE_INFO_FROM_POSE_ML
+XR_TYPE_SPATIAL_ANCHORS_CREATE_INFO_FROM_UUIDS_ML
+XR_TYPE_SPATIAL_ANCHORS_CREATE_STORAGE_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_QUERY_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_QUERY_INFO_RADIUS_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_INFO_ML
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_FB
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_HTC
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_FROM_PERSISTED_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_PERSISTENCE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_SPACE_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_ANCHOR_STATE_ML
 XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_GET_INFO_MSFT
 XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_MSFT
 XR_TYPE_SPATIAL_GRAPH_NODE_SPACE_CREATE_INFO_MSFT
@@ -5436,6 +5573,7 @@ XR_TYPE_SWAPCHAIN_IMAGE_ACQUIRE_INFO
 XR_TYPE_SWAPCHAIN_IMAGE_D3D11_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_D3D12_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_FOVEATION_VULKAN_FB
+XR_TYPE_SWAPCHAIN_IMAGE_METAL_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_OPENGL_ES_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_OPENGL_KHR
 XR_TYPE_SWAPCHAIN_IMAGE_RELEASE_INFO
@@ -5446,11 +5584,17 @@ XR_TYPE_SWAPCHAIN_STATE_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_OPENGL_ES_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_VULKAN_FB
 XR_TYPE_SYSTEM_ANCHOR_PROPERTIES_HTC
+XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_BD
 XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_HTC
+XR_TYPE_SYSTEM_COLOCATION_DISCOVERY_PROPERTIES_META
 XR_TYPE_SYSTEM_COLOR_SPACE_PROPERTIES_FB
+XR_TYPE_SYSTEM_ENVIRONMENT_DEPTH_PROPERTIES_META
 XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT
 XR_TYPE_SYSTEM_EYE_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_FACE_TRACKING_PROPERTIES2_FB
 XR_TYPE_SYSTEM_FACE_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_FACIAL_EXPRESSION_PROPERTIES_ML
 XR_TYPE_SYSTEM_FACIAL_TRACKING_PROPERTIES_HTC
 XR_TYPE_SYSTEM_FORCE_FEEDBACK_CURL_PROPERTIES_MNDX
 XR_TYPE_SYSTEM_FOVEATED_RENDERING_PROPERTIES_VARJO
@@ -5462,6 +5606,7 @@ XR_TYPE_SYSTEM_HEADSET_ID_PROPERTIES_META
 XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
 XR_TYPE_SYSTEM_MARKER_UNDERSTANDING_PROPERTIES_ML
+XR_TYPE_SYSTEM_NOTIFICATIONS_SET_INFO_ML
 XR_TYPE_SYSTEM_PASSTHROUGH_COLOR_LUT_PROPERTIES_META
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES2_FB
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
@@ -5469,7 +5614,9 @@ XR_TYPE_SYSTEM_PLANE_DETECTION_PROPERTIES_EXT
 XR_TYPE_SYSTEM_PROPERTIES
 XR_TYPE_SYSTEM_RENDER_MODEL_PROPERTIES_FB
 XR_TYPE_SYSTEM_SPACE_WARP_PROPERTIES_FB
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_GROUP_SHARING_PROPERTIES_META
 XR_TYPE_SYSTEM_SPATIAL_ENTITY_PROPERTIES_FB
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_SHARING_PROPERTIES_META
 XR_TYPE_SYSTEM_USER_PRESENCE_PROPERTIES_EXT
 XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
@@ -5500,6 +5647,18 @@ XR_TYPE_VULKAN_GRAPHICS_DEVICE_GET_INFO_KHR
 XR_TYPE_VULKAN_INSTANCE_CREATE_INFO_KHR
 XR_TYPE_VULKAN_SWAPCHAIN_CREATE_INFO_META
 XR_TYPE_VULKAN_SWAPCHAIN_FORMAT_LIST_CREATE_INFO_KHR
+XR_TYPE_WORLD_MESH_BLOCK_ML
+XR_TYPE_WORLD_MESH_BLOCK_REQUEST_ML
+XR_TYPE_WORLD_MESH_BLOCK_STATE_ML
+XR_TYPE_WORLD_MESH_BUFFER_ML
+XR_TYPE_WORLD_MESH_BUFFER_RECOMMENDED_SIZE_INFO_ML
+XR_TYPE_WORLD_MESH_BUFFER_SIZE_ML
+XR_TYPE_WORLD_MESH_DETECTOR_CREATE_INFO_ML
+XR_TYPE_WORLD_MESH_GET_INFO_ML
+XR_TYPE_WORLD_MESH_REQUEST_COMPLETION_INFO_ML
+XR_TYPE_WORLD_MESH_REQUEST_COMPLETION_ML
+XR_TYPE_WORLD_MESH_STATE_REQUEST_COMPLETION_ML
+XR_TYPE_WORLD_MESH_STATE_REQUEST_INFO_ML
 XR_UNKNOWN_FAILURE_%d
 XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
@@ -5516,6 +5675,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+XrQueryPerformanceMetricsCounterMETA was passed a counter struct with the wrong type member.
+XrQueryPerformanceMetricsCounterMETA was passed a null counter pointer.
 YUY2
 ZA<a`
 Zjz\v
@@ -5812,6 +5973,7 @@ ZvFailed to create fence %ls.\n
 [OpenXR] Focused/Visible transition conditions: %d %d
 [OpenXR] Synchronized transition conditions: %d %d
 [OpenXR] Visible transition conditions: %d %d
+[Overlay] WaitFrameSync[%d]
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
 [RenderModelConverter] Failed to compute node: %s
@@ -5845,7 +6007,6 @@ ZvFailed to create fence %ls.\n
 [Warning] Invalid Interaction Profile suggested: %s:\n
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
-[xrInteractionRenderModelGetTopLevelUserPathEXT] Device %u didn't have %s set
 [xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %llu)
 [xrRenderModel] Asset was not loaded in memory when trying to retrieve data
 [xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
@@ -5875,6 +6036,7 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] nodeStateCount was not equal to animatableNodeCount
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
+[xrRenderModel] session is not running
 \fUk#pb
 \mfpmp.exe
 \nbad png sig
@@ -6119,11 +6281,10 @@ baseColorTexture
 baseSkeletonPose
 bg_bg
 bin\vrwebhelper\win64\vrwebhelper.exe
-bin\win32\vrmonitor.exe
-bin\win32\vrstartup.exe
 bin\win64
 bin\win64\vrdashboard.exe
 bin\win64\vrmonitor.exe
+bin\win64\vrstartup.exe
 bindata
 binding
 binding_callouts/main
@@ -6256,6 +6417,7 @@ cntrl
 collectComments
 collisionBounds
 collision_bounds
+collision_radius
 color
 commentStyle
 commentStyle must be 'All' or 'None'
@@ -6280,6 +6442,10 @@ container: set %s to %s\n
 controller_axis
 controller_axis_component
 controller_button
+controller_button_dpad_down
+controller_button_dpad_left
+controller_button_dpad_right
+controller_button_dpad_up
 controller_settings
 controller_type
 copyright
@@ -6364,10 +6530,14 @@ dpad_
 dpad_center
 dpad_click
 dpad_down
+dpad_down_path
 dpad_left
+dpad_left_path
 dpad_right
+dpad_right_path
 dpad_touch
 dpad_up
+dpad_up_path
 dpad_xr
 driver is disabled in settings
 driver not found (check vrpathreg)
@@ -6518,7 +6688,6 @@ fopen
 fopen_s
 forbidden_options
 force
-forceWindows32BitVRMonitor
 force_hold_threshold
 force_input
 force_release_threshold
@@ -6597,6 +6766,7 @@ gripLimitData
 hand_right_poses.glb
 hangInit
 haptic
+hapticVibrationAmplitude
 haptic_amplitude
 haptic_delay
 haptic_duration
@@ -6904,7 +7074,6 @@ motionSmoothing
 mtllib
 multiple IHDR
 multiple signals per batch not allowed
-nArrayIndex < m_details.nArrayLayerCount
 nChildIndex != vr::k_unInvalidBoneIndex
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -7202,6 +7371,7 @@ shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_floor_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_ps.fxo
@@ -7365,6 +7535,7 @@ shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
+shaders/vulkan/distort_geom_floor_aa_ps.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_ps.spv
@@ -7486,6 +7657,7 @@ shaders/vulkan/portal_stencil_apply_disp_vs.spv
 shaders/vulkan/portal_stencil_estimate_disp_ps.spv
 shaders/vulkan/portal_stencil_ps.spv
 shaders/vulkan/portal_stencil_vs.spv
+shaders/vulkan/sgsr1.spv
 shaders/vulkan/testgrid_cs.spv
 shaders/vulkan/tracked_camera_edgefilter_ps.spv
 shaders/vulkan/tracked_camera_edgefilter_vs.spv
@@ -7645,6 +7817,7 @@ sxr_xrBeginSession
 sxr_xrCreateAction
 sxr_xrCreateActionSet
 sxr_xrCreateActionSpace
+sxr_xrCreateFoveationProfileFB
 sxr_xrCreateHandTrackerEXT
 sxr_xrCreateReferenceSpace
 sxr_xrCreateRenderModelAssetEXT
@@ -7656,6 +7829,7 @@ sxr_xrCreateVulkanDeviceKHR
 sxr_xrCreateVulkanInstanceKHR
 sxr_xrDestroyAction
 sxr_xrDestroyActionSet
+sxr_xrDestroyFoveationProfileFB
 sxr_xrDestroyHandTrackerEXT
 sxr_xrDestroyInstance
 sxr_xrDestroyRenderModelAssetEXT
@@ -7669,6 +7843,7 @@ sxr_xrEnumerateBoundSourcesForAction
 sxr_xrEnumerateDisplayRefreshRatesFB
 sxr_xrEnumerateEnvironmentBlendModes
 sxr_xrEnumerateInteractionRenderModelIdsEXT
+sxr_xrEnumeratePerformanceMetricsCounterPathsMETA
 sxr_xrEnumerateReferenceSpaces
 sxr_xrEnumerateRenderModelSubactionPathsEXT
 sxr_xrEnumerateSwapchainFormats
@@ -7684,16 +7859,20 @@ sxr_xrGetCurrentInteractionProfile
 sxr_xrGetD3D11GraphicsRequirementsKHR
 sxr_xrGetD3D12GraphicsRequirementsKHR
 sxr_xrGetDisplayRefreshRateFB
+sxr_xrGetFoveationEyeTrackedStateMETA
 sxr_xrGetFrameCompositionReportEXT
 sxr_xrGetInputSourceLocalizedName
 sxr_xrGetInstanceProcAddr
 sxr_xrGetInstanceProperties
 sxr_xrGetOpenGLGraphicsRequirementsKHR
+sxr_xrGetPerformanceMetricsStateMETA
 sxr_xrGetReferenceSpaceBoundsRect
 sxr_xrGetRenderModelAssetDataEXT
 sxr_xrGetRenderModelAssetPropertiesEXT
+sxr_xrGetRenderModelPoseTopLevelUserPathEXT
 sxr_xrGetRenderModelPropertiesEXT
 sxr_xrGetRenderModelStateEXT
+sxr_xrGetSwapchainStateFB
 sxr_xrGetSystem
 sxr_xrGetSystemProperties
 sxr_xrGetViewConfigurationProperties
@@ -7704,20 +7883,22 @@ sxr_xrGetVulkanGraphicsDeviceKHR
 sxr_xrGetVulkanGraphicsRequirements2KHR
 sxr_xrGetVulkanGraphicsRequirementsKHR
 sxr_xrGetVulkanInstanceExtensionsKHR
-sxr_xrInteractionRenderModelGetTopLevelUserPathEXT
 sxr_xrLocateHandJointsEXT
 sxr_xrLocateSpace
 sxr_xrLocateViews
 sxr_xrPathToString
 sxr_xrPollEvent
+sxr_xrQueryPerformanceMetricsCounterMETA
 sxr_xrReleaseSwapchainImage
 sxr_xrRequestDisplayRefreshRateFB
 sxr_xrRequestExitSession
 sxr_xrSetInputDeviceLocationEXT
+sxr_xrSetPerformanceMetricsStateMETA
 sxr_xrStopHapticFeedback
 sxr_xrStringToPath
 sxr_xrSuggestInteractionProfileBindings
 sxr_xrSyncActions
+sxr_xrUpdateSwapchainFB
 sxr_xrWaitFrame
 sxr_xrWaitSwapchainImage
 syntax error 
@@ -7807,6 +7988,7 @@ turkish
 type
 uk_ua
 ukrainian
+ulNextNextDisplayTime > ulNextDisplayTime
 unCallingProcessID
 unMyPID == data
 unProcessID
@@ -8628,6 +8810,7 @@ xrConvertWin32PerformanceCounterToTimeKHR: time is null\n
 xrCreateAction
 xrCreateActionSet
 xrCreateActionSpace
+xrCreateFoveationProfileFB
 xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT
 xrCreateHandTrackerEXT: Data source was duplicated
@@ -8635,6 +8818,11 @@ xrCreateInstance
 xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION \n
 xrCreateInstance error: attempted to enable XR_EXT_INTERACTION_RENDER_MODEL without enabling required XR_EXT_RENDER_MODEL \n
 xrCreateInstance error: attempted to enable XR_EXT_RENDER_MODEL without enabling required XR_EXT_UUID \n
+xrCreateInstance error: attempted to enable XR_FB_foveation without enabling required XR_FB_swapchain_update_state
+xrCreateInstance error: attempted to enable XR_FB_foveation_configuration without enabling required XR_FB_foveation
+xrCreateInstance error: attempted to enable XR_FB_foveation_vulkan without enabling required XR_FB_foveation
+xrCreateInstance error: attempted to enable XR_META_foveation_eye_tracked without enabling required XR_FB_foveation
+xrCreateInstance error: attempted to enable XR_META_foveation_eye_tracked without enabling required XR_FB_foveation_configuration
 xrCreateInstance error: extension unsupported %s\n
 xrCreateInstance error: failed to create instance\n
 xrCreateInstance error: maximum 1 instance\n
@@ -8655,6 +8843,7 @@ xrCreateVulkanDeviceKHR error: invalid parameters\n
 xrCreateVulkanInstanceKHR
 xrDestroyAction
 xrDestroyActionSet
+xrDestroyFoveationProfileFB
 xrDestroyHandTrackerEXT
 xrDestroyInstance
 xrDestroyRenderModelAssetEXT
@@ -8671,6 +8860,7 @@ xrEnumerateDisplayRefreshRatesFB
 xrEnumerateEnvironmentBlendModes
 xrEnumerateInstanceExtensionProperties
 xrEnumerateInteractionRenderModelIdsEXT
+xrEnumeratePerformanceMetricsCounterPathsMETA
 xrEnumerateReferenceSpaces
 xrEnumerateRenderModelSubactionPathsEXT
 xrEnumerateSwapchainFormats
@@ -8686,16 +8876,22 @@ xrGetCurrentInteractionProfile
 xrGetD3D11GraphicsRequirementsKHR
 xrGetD3D12GraphicsRequirementsKHR
 xrGetDisplayRefreshRateFB
+xrGetFoveationEyeTrackedStateMETA
 xrGetFrameCompositionReportEXT
 xrGetInputSourceLocalizedName
 xrGetInstanceProcAddr
 xrGetInstanceProperties
 xrGetOpenGLGraphicsRequirementsKHR
+xrGetPerformanceMetricsStateMETA
+xrGetPerformanceMetricsStateMETA was passed a null state pointer.
+xrGetPerformanceMetricsStateMETA was passed state struct with the wrong type member.
 xrGetReferenceSpaceBoundsRect
 xrGetRenderModelAssetDataEXT
 xrGetRenderModelAssetPropertiesEXT
+xrGetRenderModelPoseTopLevelUserPathEXT
 xrGetRenderModelPropertiesEXT
 xrGetRenderModelStateEXT
+xrGetSwapchainStateFB
 xrGetSystem
 xrGetSystemProperties
 xrGetViewConfigurationProperties
@@ -8710,7 +8906,6 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
-xrInteractionRenderModelGetTopLevelUserPathEXT
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
@@ -8723,6 +8918,7 @@ xrLocateViews: Switching to TrackingUniverseStanding because XR_REFERENCE_SPACE_
 xrNegotiateLoaderRuntimeInterface
 xrPathToString
 xrPollEvent
+xrQueryPerformanceMetricsCounterMETA
 xrReleaseSwapchainImage
 xrRequestDisplayRefreshRateFB
 xrRequestExitSession
@@ -8732,11 +8928,15 @@ xrSetInputDeviceLocationEXT
 xrSetInputDeviceStateBoolEXT
 xrSetInputDeviceStateFloatEXT
 xrSetInputDeviceStateVector2fEXT
+xrSetPerformanceMetricsStateMETA
+xrSetPerformanceMetricsStateMETA was passed a null state pointer.
+xrSetPerformanceMetricsStateMETA was passed state struct with the wrong type member.
 xrStopHapticFeedback
 xrStringToPath
 xrStructureTypeToString
 xrSuggestInteractionProfileBindings
 xrSyncActions
+xrUpdateSwapchainFB
 xrWaitFrame
 xrWaitFrame has been waiting for 5 seconds for the previous frame to xrBeginFrame
 xrWaitFrame: compositor failed WaitFrame()

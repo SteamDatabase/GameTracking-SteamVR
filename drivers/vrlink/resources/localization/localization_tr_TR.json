@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Manuel",
 	"Setting_clientVersion": "İstemci Sürümü",
 	"Setting_useOSC": "OSC Etkinleştir",
-	"Setting_useOSCEyes": "OSC aracılığıyla göz izleme verilerini bu bilgisayardaki diğer uygulamalarla paylaş",
 	"Setting_useOSCFace": "OSC aracılığıyla yüz izleme verilerini bu bilgisayardaki diğer uygulamalarla paylaş",
 	"Setting_OSCOutPort": "OSC Çıktı Portu",
+	"Setting_shareEyeTrackingData": "Göz izleme verilerini bu bilgisayardaki diğer uygulamalarla paylaş",
+	"Setting_enableHandTracking": "El İzleme İletimini Etkinleştir",
 	"Setting_WirelessShutdownTimeout": "Bağlantı kesilince SteamVR'dan çık",
 	"Setting_AllowVolumeControlSync": "Başlık sesini ve susturmayı SteamVR'dan kontrol et",
-	"Setting_DisableQoS": "QoS'i devre dışı bırak"
+	"Setting_DisableQoS": "QoS'i devre dışı bırak",
+	"svl_hand_interaction_augmented": "El İzleme Kontrolcüsü",
+	"/input/index_pinch": "Parmak Birleşimi (Baş ve İşaret)",
+	"/input/middle_pinch": "Parmak Birleşimi (Baş ve Orta)",
+	"/input/ring_pinch": "Parmak Birleşimi (Baş ve Yüzük)",
+	"/input/pinky_pinch": "Parmak Birleşimi (Baş ve Serçe)",
+	"/input/index_point": "İşaret Parmağı Doğrultma"
 }

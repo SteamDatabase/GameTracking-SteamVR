@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Μη αυτόματα",
 	"Setting_clientVersion": "Έκδοση εφαρμογής",
 	"Setting_useOSC": "Ενεργοποίηση OSC",
-	"Setting_useOSCEyes": "Κοινοποίηση δεδομένων ανίχνευσης ματιών σε άλλες εφαρμογές σε αυτόν τον υπολογιστή μέσω OSC",
 	"Setting_useOSCFace": "Κοινοποίηση δεδομένων ανίχνευσης προσώπου σε άλλες εφαρμογές σε αυτόν τον υπολογιστή μέσω OSC",
 	"Setting_OSCOutPort": "Θύρα εξόδου OSC",
+	"Setting_shareEyeTrackingData": "Κοινοποίηση δεδομένων ανίχνευσης ματιών σε άλλες εφαρμογές σε αυτόν τον υπολογιστή",
+	"Setting_enableHandTracking": "Ενεργοποίηση μεταφοράς δεδομένων ανίχνευσης κίνησης χεριών",
 	"Setting_WirelessShutdownTimeout": "Τερματισμός SteamVR μετά από αποσύνδεση",
 	"Setting_AllowVolumeControlSync": "Έλεγχος έντασης και σίγαση headset από το SteamVR",
-	"Setting_DisableQoS": "Απενεργοποίηση QoS"
+	"Setting_DisableQoS": "Απενεργοποίηση QoS",
+	"svl_hand_interaction_augmented": "Χειριστήριο ανίχνευσης κίνησης χεριών",
+	"/input/index_pinch": "Ένωση (pinch) αντίχειρα και δείκτη",
+	"/input/middle_pinch": "Ένωση (pinch) αντίχειρα και μέσου",
+	"/input/ring_pinch": "Ένωση (pinch) αντίχειρα και παράμεσου",
+	"/input/pinky_pinch": "Ένωση (pinch) αντίχειρα και μικρού δακτύλου",
+	"/input/index_point": "Κατάδειξη με δείκτη"
 }

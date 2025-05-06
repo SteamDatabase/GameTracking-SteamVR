@@ -166,6 +166,8 @@
 !proxy
 !ret
 !rightSyncIsRealAsItGets
+!sFind.empty()
+!sString.empty()
 !width || !height
 " because it is missing required fields: 
 " conflicts with the existing symbol "
@@ -359,6 +361,7 @@ $3br
 (\v2-.google.protobuf.UninterpretedOption.NamePart
 (\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (anonymous namespace)
+(anonymous namespace)::EncryptedString<12u>::decrypt() const
 (anonymous namespace)::GetDecryptionKeyChar(unsigned int)
 (anonymous namespace)::GetDecryptionKeyChar(unsigned int)::decryptionKey
 (anonymous namespace)::__io_category_instance()::__ec
@@ -525,7 +528,6 @@ $3br
 .L10
 .L100
 .L1000
-.L1001
 .L1002
 .L1003
 .L1004
@@ -539,15 +541,15 @@ $3br
 .L1011
 .L1012
 .L1013
+.L1014
+.L1015
 .L1016
+.L1017
+.L1018
+.L1019
 .L102
-.L1021
-.L1023
-.L1024
-.L1025
-.L1026
+.L1022
 .L1027
-.L1028
 .L1029
 .L103
 .L1030
@@ -590,6 +592,7 @@ $3br
 .L1042
 .L1043
 .L1044
+.L1045
 .L10459
 .L1046
 .L10460
@@ -602,9 +605,12 @@ $3br
 .L10478
 .L1049
 .L105
-.L1050
-.L1051
+.L1052
 .L1053
+.L1055
+.L1056
+.L1057
+.L1059
 .L106
 .L10625
 .L10627
@@ -616,14 +622,8 @@ $3br
 .L10633
 .L10634
 .L10635
-.L1065
-.L1067
-.L1068
-.L1069
 .L107
-.L1070
 .L1071
-.L1072
 .L1073
 .L1074
 .L1075
@@ -635,8 +635,14 @@ $3br
 .L1080
 .L1081
 .L1082
+.L1083
 .L1084
+.L1085
+.L1086
+.L1087
+.L1088
 .L109
+.L1090
 .L1095
 .L11
 .L110
@@ -1579,6 +1585,7 @@ $3br
 .L339
 .L34
 .L340
+.L341
 .L3417
 .L3419
 .L342
@@ -1596,9 +1603,7 @@ $3br
 .L349
 .L35
 .L350
-.L351
 .L352
-.L353
 .L354
 .L3544
 .L3545
@@ -1629,6 +1634,8 @@ $3br
 .L368
 .L369
 .L37
+.L370
+.L371
 .L372
 .L373
 .L374
@@ -1656,6 +1663,7 @@ $3br
 .L3936
 .L3938
 .L3939
+.L394
 .L3940
 .L3941
 .L3942
@@ -1663,9 +1671,12 @@ $3br
 .L3944
 .L3945
 .L3946
-.L395
+.L396
+.L397
+.L398
 .L399
 .L40
+.L401
 .L403
 .L404
 .L405
@@ -1699,10 +1710,13 @@ $3br
 .L424
 .L425
 .L426
+.L427
 .L428
 .L429
 .L43
 .L430
+.L431
+.L432
 .L433
 .L434
 .L435
@@ -1733,7 +1747,6 @@ $3br
 .L4459
 .L446
 .L4460
-.L447
 .L448
 .L449
 .L45
@@ -2010,13 +2023,16 @@ $3br
 .L601
 .L602
 .L603
+.L604
 .L605
 .L606
+.L607
+.L608
+.L609
 .L61
 .L610
+.L611
 .L612
-.L613
-.L614
 .L615
 .L616
 .L617
@@ -2035,10 +2051,7 @@ $3br
 .L629
 .L63
 .L630
-.L632
-.L634
-.L635
-.L636
+.L631
 .L637
 .L638
 .L639
@@ -2340,6 +2353,8 @@ $3br
 .L833
 .L834
 .L835
+.L836
+.L837
 .L838
 .L84
 .L840
@@ -2367,16 +2382,16 @@ $3br
 .L860
 .L861
 .L862
+.L8627
+.L8629
 .L863
+.L8630
+.L8631
+.L8632
+.L8633
 .L864
 .L865
 .L866
-.L8661
-.L8663
-.L8664
-.L8665
-.L8666
-.L8667
 .L867
 .L868
 .L869
@@ -2390,6 +2405,18 @@ $3br
 .L871
 .L872
 .L873
+.L8736
+.L8738
+.L8739
+.L8740
+.L8741
+.L8742
+.L8765
+.L8767
+.L8768
+.L8769
+.L8770
+.L8771
 .L879
 .L88
 .L880
@@ -2440,7 +2467,6 @@ $3br
 .L9237
 .L9238
 .L924
-.L925
 .L926
 .L927
 .L9270
@@ -2458,6 +2484,7 @@ $3br
 .L931
 .L932
 .L933
+.L934
 .L935
 .L9352
 .L9353
@@ -2466,28 +2493,17 @@ $3br
 .L9357
 .L9358
 .L9359
+.L936
+.L937
 .L938
-.L9384
-.L9386
-.L9387
-.L9388
-.L9389
 .L939
-.L9390
 .L94
 .L941
-.L942
-.L943
-.L9437
-.L9439
 .L944
-.L9440
-.L9441
-.L9442
-.L9443
 .L945
-.L946
+.L947
 .L948
+.L949
 .L9490
 .L9492
 .L9493
@@ -2496,12 +2512,14 @@ $3br
 .L9496
 .L9499
 .L95
+.L950
 .L9500
 .L9502
 .L9503
 .L9504
 .L9505
 .L9506
+.L951
 .L9515
 .L952
 .L954
@@ -2511,9 +2529,6 @@ $3br
 .L9547
 .L9548
 .L9549
-.L955
-.L956
-.L957
 .L9576
 .L9577
 .L9579
@@ -2532,19 +2547,24 @@ $3br
 .L9601
 .L9602
 .L9609
+.L961
 .L9610
 .L9612
 .L9613
 .L9614
 .L9615
 .L9616
+.L962
 .L9625
+.L963
+.L964
 .L9649
 .L9651
 .L9652
 .L9653
 .L9654
 .L9655
+.L966
 .L97
 .L9718
 .L9719
@@ -2570,12 +2590,7 @@ $3br
 .L9855
 .L9856
 .L99
-.L993
 .L9931
-.L994
-.L996
-.L997
-.L998
 .L999
 .PLACEHOLDER_VALUE
 .backup
@@ -2801,11 +2816,11 @@ $3br
 20CVRTrackedDevice_004
 20IVRAudioNotification
 20IVRVirtualDisplay001
-21:49:07
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:25:08
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 22CVRCameraComponent_001
@@ -2999,6 +3014,7 @@ App Init
 App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
+Apr  1 2025
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
@@ -4427,8 +4443,8 @@ CSWTCH.111
 CSWTCH.128
 CSWTCH.131
 CSWTCH.139
-CSWTCH.141
 CSWTCH.142
+CSWTCH.146
 CSWTCH.161
 CSWTCH.2110
 CSWTCH.214
@@ -4768,8 +4784,6 @@ CTrackedDeviceConfig::from_json(Json::Value const&) (.cold)
 CTrackedDeviceConfig::from_json(Json::Value const&)::'lambda'()::operator()() const::encrypted
 CTrackedDeviceConfig::from_json(std::string, std::string&)
 CTrackedDeviceConfig::from_json(std::string, std::string&) (.cold)
-CTrackedDeviceConfig::getRawJsonString(bool) const
-CTrackedDeviceConfig::getRawJsonString(bool) const (.cold)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&) (.cold)
 CTrackedDeviceConfig::to_json() const
@@ -5309,6 +5323,7 @@ DISTORT_POLY2
 DISTORT_POLY2_TANGENT
 DISTORT_POLY3
 DISTORT_POLY3_TANGENT
+DISTORT_POLY3_TANGENT_SCALED
 DISTORT_R1_POLY_4
 DISTORT_RPOLY2_1
 DISTORT_RPOLY2_2
@@ -5768,7 +5783,6 @@ FbPjPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
-Feb  5 2025
 February
 Feel free to add support for more if you need it.
 Field "
@@ -5985,6 +5999,8 @@ GetStringForVROverlayError(vr::EVROverlayError)
 GetStringForVROverlayError(vr::EVROverlayError)::buf
 GetStringForVROverlayFlags(vr::VROverlayFlags)
 GetStringForVROverlayFlags(vr::VROverlayFlags)::buf
+GetStringForVROverlayType(vr::VROverlayType)
+GetStringForVROverlayType(vr::VROverlayType)::buf
 GetStringForVRSettingsError(vr::EVRSettingsError)
 GetStringForVRSettingsError(vr::EVRSettingsError)::buf
 GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)
@@ -6165,7 +6181,7 @@ IVRCameraComponent_001
 IVRCameraComponent_002
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -6182,6 +6198,7 @@ IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
+IVRDriverInputInternal_XXX
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -7891,6 +7908,7 @@ SelectVideoConfig: HMD has exposed %d EDIDs\n
 SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.\n
 SelectVideoConfig: No Video Mode Change required\n
 SelectVideoConfig: Selecting solo HMD EDID\n
+SelectVideoConfig: Switching to non-solo HMD EDID %d\n
 SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed\n
 SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d\n
 SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d\n
@@ -8476,6 +8494,7 @@ Unknown EVRSceneApplicationState (%d)
 Unknown HMDClass (%d)
 Unknown Hmd Interrupt packet: report ID %d\n
 Unknown Overlay flag (%d)
+Unknown Overlay type (%d)
 Unknown VRApplicationsError (%d)
 Unknown VRMsgType (%d)
 Unknown VRNotificationError (%d)
@@ -8632,7 +8651,7 @@ VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
-VREvent_ChaperoneRoomSetupFinished
+VREvent_ChaperoneRoomSetupCommitted
 VREvent_ChaperoneRoomSetupStarting
 VREvent_ChaperoneSettingsHaveChanged
 VREvent_ChaperoneTempDataHasChanged
@@ -8654,6 +8673,9 @@ VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardSectionSettingChanged
+VREvent_DashboardThumbChanged
+VREvent_DesktopMightBeHidden
+VREvent_DesktopMightBeVisible
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
@@ -8703,6 +8725,7 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
+VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -8712,6 +8735,8 @@ VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
 VREvent_OverlayClosed
+VREvent_OverlayCreated
+VREvent_OverlayDestroyed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -9238,6 +9263,10 @@ VROverlayFlags_StereoPanorama
 VROverlayFlags_TransferOwnershipToInternalProcess
 VROverlayFlags_VisibleInDashboard
 VROverlayFlags_WantsModalBehavior
+VROverlayType_Basic
+VROverlayType_Dashboard_Main
+VROverlayType_Dashboard_Thumbnail
+VROverlayType_Subview
 VRRenderModelError_InvalidArg (300)
 VRRenderModelError_InvalidModel (301)
 VRRenderModelError_InvalidTexture (400)
@@ -9556,8 +9585,8 @@ WorkerThreadInitFailed
 WriteToDiskIfNeeded
 WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool)
 WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool) (.cold)
-WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&)
-WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&) (.cold)
+WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&, bool)
+WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&, bool) (.cold)
 X?16CWirelessDecoder
 XDG_CONFIG_HOME
 XXXX PNG chunk not known
@@ -10799,6 +10828,7 @@ display_gc
 display_hdr10
 display_mc
 display_multiframerate
+display_serial_number
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -10992,7 +11022,6 @@ fopen64
 for 
 forceSoloEdid
 forceSystemLayerUseAppPoses
-force_old_controller_radio
 force_pid
 force_pid_val
 forcedDriver
@@ -11083,6 +11112,7 @@ g_pVRClientInternal
 g_pVRControlPanel
 g_pVRDebug
 g_pVRDriverDirectInternal
+g_pVRDriverInputInternal
 g_pVRDriverManager
 g_pVRExtendedDisplay
 g_pVRMailbox
@@ -21488,8 +21518,8 @@ vortex::CLighthouseDB::FindBaseDevice(unsigned int)
 vortex::CLighthouseDB::FindTrackedObject(std::string)
 vortex::CLighthouseDB::FromJson(Json::Value const&, std::string const&)
 vortex::CLighthouseDB::FromJson(Json::Value const&, std::string const&) (.cold)
-vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int)
-vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int) (.cold)
+vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int, bool)
+vortex::CLighthouseDB::GetLighthouseBaseBootstrapPriority(unsigned int, bool) (.cold)
 vortex::CLighthouseDB::GetModelNumberFromModelId(unsigned char)
 vortex::CLighthouseDB::GetObservedBaseStationPresence(bool*, bool*) const
 vortex::CLighthouseDB::GetObservedBaseStations(std::vector<unsigned int, std::allocator<unsigned int>>&)
@@ -21717,7 +21747,7 @@ vortex::CLighthouseDirect::ReportTrackingProgress()
 vortex::CLighthouseDirect::Run()
 vortex::CLighthouseDirect::Run() (.cold)
 vortex::CLighthouseDirect::SendOnPoseChange()
-vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>> const&)
+vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>> const&, unsigned int)
 vortex::CLighthouseDirect::SetInitialProcessCovariance()
 vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
 vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
@@ -22459,6 +22489,7 @@ vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda2'()::operator()
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda5'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda6'()::operator()() const::encrypted
 vortex::ComputePoseDifference(math::PoseT<float> const&, math::PoseT<float> const&, float*, float*)
 vortex::CreateDisambiguator(vortex::Disambiguator_t, vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
 vortex::CreateDisambiguator_Framer(vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
@@ -22665,6 +22696,7 @@ vr_internal::VRCompositorSystemInternal()
 vr_internal::VRControlPanel()
 vr_internal::VRDebug()
 vr_internal::VRDriverDirectInternal()
+vr_internal::VRDriverInputInternal()
 vr_internal::VRDriverManager()
 vr_internal::VRExtendedDisplay()
 vr_internal::VRInput()

@@ -72,6 +72,7 @@
 %s: Failed to submit to queue: %u:%u
 %s: GetApiResource failed (%d)
 %s: GetDesc failed (%d)
+%s: Index (%d) out of bounds (%d) for '%s'!
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
 %s: Invalid resource type (%d)
@@ -580,6 +581,7 @@ CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
 CVkGarbageCollector: %s
 CVkGarbageCollector::WaitForWork
+CVkImage::CmdPipelineBarrier
 CVkImageHistory::DumpHistory
 CVkImageHistory::Initialize
 CVkMappedMemoryView<short>::Remap
@@ -1005,6 +1007,7 @@ VERSION.dll
 VK_EXT_debug_utils
 VK_EXT_direct_mode_display
 VK_EXT_global_priority
+VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_display
 VK_KHR_external_memory_win32
@@ -1285,7 +1288,6 @@ memcpy
 memmove
 memset
 multiple signals per batch not allowed
-nArrayIndex < m_details.nArrayLayerCount
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
 nSizeInBytes <= m_unSizeInBytes

@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Manuală",
 	"Setting_clientVersion": "Versiunea clientului",
 	"Setting_useOSC": "Activează OSC",
-	"Setting_useOSCEyes": "Partajează prin OSC datele de urmărire a ochilor cu alte aplicații de pe acest computer",
 	"Setting_useOSCFace": "Partajează prin OSC datele de urmărire a feței cu alte aplicații de pe acest computer",
 	"Setting_OSCOutPort": "Portul de ieșire OSC",
+	"Setting_shareEyeTrackingData": "Partajează datele de urmărire a ochilor cu alte aplicații de pe acest computer",
+	"Setting_enableHandTracking": "Activează transferul datelor privind urmărirea mâinilor",
 	"Setting_WirelessShutdownTimeout": "După deconectare, părăsește SteamVR",
 	"Setting_AllowVolumeControlSync": "Controlează volumul căștilor și amuțește sunetul de la SteamVR",
-	"Setting_DisableQoS": "Dezactivează calitatea serviciului"
+	"Setting_DisableQoS": "Dezactivează calitatea serviciului",
+	"svl_hand_interaction_augmented": "Controler de urmărire a mâinilor",
+	"/input/index_pinch": "Ciupire cu degetul arătător",
+	"/input/middle_pinch": "Ciupire cu degetul mijlociu",
+	"/input/ring_pinch": "Ciupire cu degetul inelar",
+	"/input/pinky_pinch": "Ciupire cu degetul mic",
+	"/input/index_point": "Indicare cu degetul arătător"
 }

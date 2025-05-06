@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Manuell",
 	"Setting_clientVersion": "Klientversion",
 	"Setting_useOSC": "Aktivera OSC",
-	"Setting_useOSCEyes": "Dela ögonspårningsdata till andra appar på den här datorn via OSC",
 	"Setting_useOSCFace": "Dela ansiktsspårningsdata till andra appar på den här datorn via OSC",
 	"Setting_OSCOutPort": "OSC-utdataport",
+	"Setting_shareEyeTrackingData": "Dela ögonspårningsdata till andra appar på den här datorn",
+	"Setting_enableHandTracking": "Aktivera passthrough för handspårning",
 	"Setting_WirelessShutdownTimeout": "Avsluta SteamVR efter frånkoppling",
 	"Setting_AllowVolumeControlSync": "Kontrollera headsetets volym och stäng av ljudet från SteamVR",
-	"Setting_DisableQoS": "Inaktivera QoS"
+	"Setting_DisableQoS": "Inaktivera QoS",
+	"svl_hand_interaction_augmented": "Kontroller för handspårning",
+	"/input/index_pinch": "Nyp med pekfinger",
+	"/input/middle_pinch": "Nyp med långfinger",
+	"/input/ring_pinch": "Nyp med ringfinger",
+	"/input/pinky_pinch": "Nyp med lillfinger",
+	"/input/index_point": "Peka med pekfinger"
 }

@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Manuálně",
 	"Setting_clientVersion": "Verze klienta",
 	"Setting_useOSC": "Povolit OSC",
-	"Setting_useOSCEyes": "Sdílet data sledování očí s jinými aplikacemi na tomto PC pomocí OSC",
 	"Setting_useOSCFace": "Sdílet data sledování obličeje s jinými aplikacemi na tomto PC pomocí OSC",
 	"Setting_OSCOutPort": "Výstupní port OSC",
+	"Setting_shareEyeTrackingData": "Sdílet data sledování očí s jinými aplikacemi na tomto PC",
+	"Setting_enableHandTracking": "Povolit přenos informací o sledování dlaní",
 	"Setting_WirelessShutdownTimeout": "Po odpojení ukončit režim SteamVR za",
 	"Setting_AllowVolumeControlSync": "Ovládat hlasitost a ztlumení headsetu z režimu SteamVR",
-	"Setting_DisableQoS": "Vypnout QoS"
+	"Setting_DisableQoS": "Vypnout QoS",
+	"svl_hand_interaction_augmented": "Ovladač se sledováním dlaní",
+	"/input/index_pinch": "Sevření ukazováčku a palce",
+	"/input/middle_pinch": "Sevření prostředníčku a palce",
+	"/input/ring_pinch": "Sevření prsteníčku a palce",
+	"/input/pinky_pinch": "Sevření malíčku a palce",
+	"/input/index_point": "Zamíření ukazováčkem"
 }

@@ -353,7 +353,7 @@ HeapFree
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -361,6 +361,7 @@ IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
@@ -420,7 +421,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSI
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -744,7 +745,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
-wInH
 window_view_created
 window_view_destroyed
 windows

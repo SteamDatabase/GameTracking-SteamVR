@@ -277,6 +277,7 @@ $tAUUPE
 %s: Failed to submit to queue: %u:%u
 %s: Firmware Version %s\n
 %s: Ignoring unlikely saved IMU calibration %s\n
+%s: Index (%d) out of bounds (%d) for '%s'!
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
 %s: Invalid interop API: %d
@@ -1069,7 +1070,7 @@ $tAUUPE
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899p
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990
 0123456789abcdef
 0\tFAJ
 0a\v6<
@@ -1505,6 +1506,7 @@ CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
 CVkGarbageCollector: %s
 CVkGarbageCollector::WaitForWork
+CVkImage::CmdPipelineBarrier
 CVkInteropImageD3D11 released without transferring ownership back to D3D11 first!
 CVkMappedMemoryView<struct ClientLayers_t>::Remap
 CVkMemory::Map
@@ -1632,6 +1634,7 @@ DISTORT_POLY2
 DISTORT_POLY2_TANGENT
 DISTORT_POLY3
 DISTORT_POLY3_TANGENT
+DISTORT_POLY3_TANGENT_SCALED
 DISTORT_R1_POLY_4
 DISTORT_RPOLY2_1
 DISTORT_RPOLY2_2
@@ -2117,7 +2120,7 @@ IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
 IVRCameraComponent_003
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -2132,6 +2135,7 @@ IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
+IVRDriverInputInternal_XXX
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -2165,6 +2169,7 @@ IVRVirtualDisplay_001
 IVRVirtualDisplay_002
 IVRWatchdogHost_002
 IVRWatchdogProvider_001
+I^>RD
 IiGM>nw
 Image data is empty for image[
 Image height mismatch. for image[
@@ -2528,8 +2533,6 @@ R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
 RSDS
-R\rp\f`\v0ng
-R\vpng
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2645,6 +2648,7 @@ SelectVideoConfig: HMD has exposed %d EDIDs\n
 SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.\n
 SelectVideoConfig: No Video Mode Change required\n
 SelectVideoConfig: Selecting solo HMD EDID\n
+SelectVideoConfig: Switching to non-solo HMD EDID %d\n
 SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed\n
 SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d\n
 SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d\n
@@ -2916,6 +2920,7 @@ VIVE_Pro EVT
 VIVE_Pro MV
 VK_EXT_debug_utils
 VK_EXT_global_priority
+VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_external_memory_win32
 VK_KHR_external_semaphore_win32
@@ -3344,7 +3349,6 @@ Zjz\v
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
-\fpng
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -3407,7 +3411,6 @@ Zjz\v
 \u%04x
 \u%04x\u%04x
 \ufffd
-\vpng
 \x%02x
 ] buffer "
 ] bufferView "
@@ -3795,6 +3798,7 @@ display_gc
 display_hdr10
 display_mc
 display_multiframerate
+display_serial_number
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -3986,7 +3990,6 @@ fopen
 fopen_s
 for 
 forceSoloEdid
-force_old_controller_radio
 forcedExposureTime
 forcedFrameRate
 forcedGlobalGain
@@ -4344,7 +4347,6 @@ mtpb
 multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
-nArrayIndex < m_details.nArrayLayerCount
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
@@ -4442,8 +4444,6 @@ pTextureSet->pSwapchain
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-p\r`\f0\vPXM
-p\r`\fP\v0ng
 package
 packed
 pairing_result
@@ -4501,7 +4501,6 @@ py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 r2max
 rEyeFile:%s width:%d height:%d components:%d\n
-r\rp\f`\vPng
 range
 read past buffer
 realloc

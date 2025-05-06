@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Manuell",
 	"Setting_clientVersion": "Client-Version",
 	"Setting_useOSC": "OSC aktivieren",
-	"Setting_useOSCEyes": "Blickerfassungsdaten mit anderen Anwendungen auf diesem PC über OSC teilen",
 	"Setting_useOSCFace": "Gesichtserfassungsdaten mit anderen Anwendungen auf diesem PC über OSC teilen",
 	"Setting_OSCOutPort": "OSC-Ausgabeport",
+	"Setting_shareEyeTrackingData": "Blickerfassungsdaten mit anderen Anwendungen auf diesem PC teilen",
+	"Setting_enableHandTracking": "Hand-Tracking-Pass-Through aktivieren",
 	"Setting_WirelessShutdownTimeout": "Bei Verbindungsabbruch SteamVR beenden",
 	"Setting_AllowVolumeControlSync": "VR-Headset-Lautstärke und Stummschalten mit SteamVR steuern",
-	"Setting_DisableQoS": "QoS deaktivieren"
+	"Setting_DisableQoS": "QoS deaktivieren",
+	"svl_hand_interaction_augmented": "Hand-Tracking-Controller",
+	"/input/index_pinch": "Berührung: Daumen- und Zeigefinger",
+	"/input/middle_pinch": "Berührung: Daumen und Mittelfinger",
+	"/input/ring_pinch": "Berührung: Daumen und Ringfinger",
+	"/input/pinky_pinch": "Berührung: Daumen und kleiner Finger",
+	"/input/index_point": "Zeigen: Zeigefinger"
 }

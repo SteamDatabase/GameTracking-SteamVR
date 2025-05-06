@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "수동",
 	"Setting_clientVersion": "클라이언트 버전",
 	"Setting_useOSC": "OSC 활성화",
-	"Setting_useOSCEyes": "OSC를 통해 이 PC의 다른 앱과 시선 추적 데이터 공유",
 	"Setting_useOSCFace": "OSC를 통해 이 PC의 다른 앱과 얼굴 추적 데이터 공유",
 	"Setting_OSCOutPort": "OSC 출력 포트",
+	"Setting_shareEyeTrackingData": "이 PC의 다른 앱과 시선 추적 데이터 공유",
+	"Setting_enableHandTracking": "핸드 트래킹 패스 스루 활성화",
 	"Setting_WirelessShutdownTimeout": "연결 해제 시 SteamVR 종료",
 	"Setting_AllowVolumeControlSync": "SteamVR에서 헤드셋 음량 및 음소거 제어",
-	"Setting_DisableQoS": "QoS 비활성화"
+	"Setting_DisableQoS": "QoS 비활성화",
+	"svl_hand_interaction_augmented": "핸드 트래킹 컨트롤러",
+	"/input/index_pinch": "엄지와 검지로 집기",
+	"/input/middle_pinch": "엄지와 중지로 집기",
+	"/input/ring_pinch": "엄지와 약지로 집기",
+	"/input/pinky_pinch": "엄지와 새끼손가락으로 집기",
+	"/input/index_point": "검지로 가리키기"
 }

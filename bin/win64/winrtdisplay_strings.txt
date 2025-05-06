@@ -139,7 +139,7 @@ MultiByteToWideChar
 OLEAUT32.dll
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSl
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException

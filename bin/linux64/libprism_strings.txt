@@ -25,6 +25,8 @@
 !g_pSharedResourceNamespaceServer
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
+!sFind.empty()
+!sString.empty()
 !std::isnan( flSystemTimeInSeconds )
 %F-%H-%M-%S
 %Y-%m-%d %I:%M:%S %p
@@ -64,6 +66,7 @@
 %s: Failed to query atom number for %s
 %s: Failed to reset command buffer: %d
 %s: Failed to submit to queue: %u:%u
+%s: Index (%d) out of bounds (%d) for '%s'!
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
 %s: Swapchain has no images
@@ -462,7 +465,7 @@
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:49:39
+22:25:12
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
@@ -495,6 +498,7 @@ AllocateSets
 Already initialized
 Apply blur filter
 Apply median filter
+Apr  1 2025
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
@@ -840,6 +844,7 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
+CSWTCH.141
 CSWTCH.16
 CSWTCH.212
 CSWTCH.23
@@ -1184,7 +1189,7 @@ CVkGarbageCollector::~CVkGarbageCollector()
 CVkImage::AspectMask() const
 CVkImage::BytesRequired() const
 CVkImage::CmdClearColorImage(CVkCommandBuffer*, VkClearColorValue const&, VkImageLayout, unsigned int)
-CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int)
+CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int, unsigned int)
 CVkImage::CmdCopyImage(CVkCommandBuffer*, CVkImage*, std::vector<VkImageCopy, std::allocator<VkImageCopy>> const&, VkImageLayout, VkImageLayout)
 CVkImage::CmdPipelineBarrier(CVkCommandBuffer*, VkImageLayout, VkImageLayout, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
 CVkImage::PrepareForExport(VkImageSharedData_t&, unsigned int)
@@ -1271,6 +1276,7 @@ CmdBindAndDispatch
 CmdBindAndDraw
 CmdBindAndDrawIndexed
 CmdBindPipeline
+CmdPipelineBarrier
 Compairing timestamps across different devices!
 Comparing timestamps across different hw queues!
 CompositeLayers
@@ -1374,7 +1380,6 @@ Failed to spawn share thread for shared fd: %d\n
 Failed to wait for shared fd client\n
 Failed when reading payload of length %u: errno=%d\n
 FbcE
-Feb  5 2025
 February
 File path truncated\n
 FileSelect(dirent const*)
@@ -2606,6 +2611,7 @@ VK_EXT_acquire_xlib_display
 VK_EXT_debug_utils
 VK_EXT_direct_mode_display
 VK_EXT_global_priority
+VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_display
 VK_KHR_external_memory_fd
@@ -3590,7 +3596,6 @@ modf
 mt19937
 multiple signals per batch not allowed
 munmap
-nArrayIndex < m_details.nArrayLayerCount
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
 nSampleCount > 0 && nSampleCount <= 64

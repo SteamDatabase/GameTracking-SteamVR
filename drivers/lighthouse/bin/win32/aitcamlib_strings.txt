@@ -193,7 +193,7 @@ H264
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -201,6 +201,7 @@ IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
@@ -253,7 +254,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSD
+RSDS
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

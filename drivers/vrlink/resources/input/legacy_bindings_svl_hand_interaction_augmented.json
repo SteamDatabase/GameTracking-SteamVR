@@ -1,330 +1,330 @@
 {
-   "action_manifest_version" : 0,
-   "alias_info" : {},
-   "bindings" : {
-      "/actions/legacy" : {
-         "poses" : [
-            {
-               "output" : "/actions/legacy/in/Left_Pose",
-               "path" : "/user/hand/left/pose/raw"
-            },
-            {
-               "output" : "/actions/legacy/in/Right_Pose",
-               "path" : "/user/hand/right/pose/raw"
-            }
-         ],
-         "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/left_axis1_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy/in/left_axis1_value"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/left_axis1_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/left/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/left_grip_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy/in/left_axis2_value1"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/left_grip_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/left/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/left_axis0_press"
-                  },
-                  "touch" : {
-                     "output" : "/actions/legacy/in/left_axis0_touch"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/index_point"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/left_applicationmenu_press"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/pinky_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/right_axis1_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy/in/right_axis1_value"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/right_axis1_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/right/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/right_grip_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy/in/right_axis2_value1"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/right_grip_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/right_axis0_press"
-                  },
-                  "touch" : {
-                     "output" : "/actions/legacy/in/right_axis0_touch"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/index_point"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/right_applicationmenu_press"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/pinky_pinch"
-            }
-         ]
-      }
-   },
-   "/actions/legacy_mirrored" : {
-      "poses" : [
-         {
-            "output" : "/actions/legacy_mirrored/in/pose",
-            "path" : "/user/hand/left/pose/raw"
-         },
-         {
-            "output" : "/actions/legacy_mirrored/in/pose",
-            "path" : "/user/hand/right/pose/raw"
-         }
-      ],
-      "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/axis1_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy_mirrored/in/axis1_value"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/axis1_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/left/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/grip_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy_mirrored/in/axis2_value1"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/grip_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/left/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/axis0_press"
-                  },
-                  "touch" : {
-                     "output" : "/actions/legacy_mirrored/in/axis0_touch"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/index_point"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/applicationmenu_press"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/pinky_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/axis1_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy_mirrored/in/axis1_value"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/axis1_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/right/input/index_pinch"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/grip_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy_mirrored/in/axis2_value1"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/grip_touch"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.1",
-                  "click_deactivate_threshold" : "0.05"
-               },
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/axis0_press"
-                  },
-                  "touch" : {
-                     "output" : "/actions/legacy_mirrored/in/axis0_touch"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/index_point"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy_mirrored/in/applicationmenu_press"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/pinky_pinch"
-            }
-         ]
-      },
-   "category" : "legacy",
-   "controller_type" : "svl_hand_interaction_augmented",
-   "interaction_profile" : "",
-   "description" : "Default binding values for legacy apps using Hand Interaction",
-   "name" : "Hand Interaction Legacy Defaults",
-   "options" : {
-      "mirror_actions" : false,
-      "simulate_hmd" : true,
-      "simulate_rendermodel" : true,
-      "simulated_controller_type" : "oculus_touch"
-   },
-   "simulated_actions" : []
+	"action_manifest_version": 0,
+	"alias_info": {},
+	"bindings": {
+		"/actions/legacy": {
+			"poses": [
+				{
+					"output": "/actions/legacy/in/Left_Pose",
+					"path": "/user/hand/left/pose/raw"
+				},
+				{
+					"output": "/actions/legacy/in/Right_Pose",
+					"path": "/user/hand/right/pose/raw"
+				}
+			],
+			"sources": [
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/left_axis1_press"
+						},
+						"pull": {
+							"output": "/actions/legacy/in/left_axis1_value"
+						}
+					},
+					"mode": "trigger",
+					"path": "/user/hand/left/input/index_pinch"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/left_axis1_touch"
+						}
+					},
+					"mode": "button",
+					"parameters": {
+						"click_activate_threshold": "0.1",
+						"click_deactivate_threshold": "0.05"
+					},
+					"path": "/user/hand/left/input/index_pinch"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/left_grip_press"
+						},
+						"pull": {
+							"output": "/actions/legacy/in/left_axis2_value1"
+						}
+					},
+					"mode": "trigger",
+					"path": "/user/hand/left/input/grip"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/left_grip_touch"
+						}
+					},
+					"mode": "button",
+					"parameters": {
+						"click_activate_threshold": "0.1",
+						"click_deactivate_threshold": "0.05"
+					},
+					"path": "/user/hand/left/input/grip"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/left_axis0_press"
+						},
+						"touch": {
+							"output": "/actions/legacy/in/left_axis0_touch"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/left/input/index_point"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/left_applicationmenu_press"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/left/input/pinky_pinch"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/right_axis1_press"
+						},
+						"pull": {
+							"output": "/actions/legacy/in/right_axis1_value"
+						}
+					},
+					"mode": "trigger",
+					"path": "/user/hand/right/input/index_pinch"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/right_axis1_touch"
+						}
+					},
+					"mode": "button",
+					"parameters": {
+						"click_activate_threshold": "0.1",
+						"click_deactivate_threshold": "0.05"
+					},
+					"path": "/user/hand/right/input/index_pinch"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/right_grip_press"
+						},
+						"pull": {
+							"output": "/actions/legacy/in/right_axis2_value1"
+						}
+					},
+					"mode": "trigger",
+					"path": "/user/hand/right/input/grip"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/right_grip_touch"
+						}
+					},
+					"mode": "button",
+					"parameters": {
+						"click_activate_threshold": "0.1",
+						"click_deactivate_threshold": "0.05"
+					},
+					"path": "/user/hand/right/input/grip"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/right_axis0_press"
+						},
+						"touch": {
+							"output": "/actions/legacy/in/right_axis0_touch"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/right/input/index_point"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/legacy/in/right_applicationmenu_press"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/right/input/pinky_pinch"
+				}
+			]
+		}
+	},
+	"/actions/legacy_mirrored": {
+		"poses": [
+			{
+				"output": "/actions/legacy_mirrored/in/pose",
+				"path": "/user/hand/left/pose/raw"
+			},
+			{
+				"output": "/actions/legacy_mirrored/in/pose",
+				"path": "/user/hand/right/pose/raw"
+			}
+		],
+		"sources": [
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/axis1_press"
+					},
+					"pull": {
+						"output": "/actions/legacy_mirrored/in/axis1_value"
+					}
+				},
+				"mode": "trigger",
+				"path": "/user/hand/left/input/index_pinch"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/axis1_touch"
+					}
+				},
+				"mode": "button",
+				"parameters": {
+					"click_activate_threshold": "0.1",
+					"click_deactivate_threshold": "0.05"
+				},
+				"path": "/user/hand/left/input/index_pinch"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/grip_press"
+					},
+					"pull": {
+						"output": "/actions/legacy_mirrored/in/axis2_value1"
+					}
+				},
+				"mode": "trigger",
+				"path": "/user/hand/left/input/grip"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/grip_touch"
+					}
+				},
+				"mode": "button",
+				"parameters": {
+					"click_activate_threshold": "0.1",
+					"click_deactivate_threshold": "0.05"
+				},
+				"path": "/user/hand/left/input/grip"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/axis0_press"
+					},
+					"touch": {
+						"output": "/actions/legacy_mirrored/in/axis0_touch"
+					}
+				},
+				"mode": "button",
+				"path": "/user/hand/left/input/index_point"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/applicationmenu_press"
+					}
+				},
+				"mode": "button",
+				"path": "/user/hand/left/input/pinky_pinch"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/axis1_press"
+					},
+					"pull": {
+						"output": "/actions/legacy_mirrored/in/axis1_value"
+					}
+				},
+				"mode": "trigger",
+				"path": "/user/hand/right/input/index_pinch"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/axis1_touch"
+					}
+				},
+				"mode": "button",
+				"parameters": {
+					"click_activate_threshold": "0.1",
+					"click_deactivate_threshold": "0.05"
+				},
+				"path": "/user/hand/right/input/index_pinch"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/grip_press"
+					},
+					"pull": {
+						"output": "/actions/legacy_mirrored/in/axis2_value1"
+					}
+				},
+				"mode": "trigger",
+				"path": "/user/hand/right/input/grip"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/grip_touch"
+					}
+				},
+				"mode": "button",
+				"parameters": {
+					"click_activate_threshold": "0.1",
+					"click_deactivate_threshold": "0.05"
+				},
+				"path": "/user/hand/right/input/grip"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/axis0_press"
+					},
+					"touch": {
+						"output": "/actions/legacy_mirrored/in/axis0_touch"
+					}
+				},
+				"mode": "button",
+				"path": "/user/hand/right/input/index_point"
+			},
+			{
+				"inputs": {
+					"click": {
+						"output": "/actions/legacy_mirrored/in/applicationmenu_press"
+					}
+				},
+				"mode": "button",
+				"path": "/user/hand/right/input/pinky_pinch"
+			}
+		]
+	},
+	"category": "legacy",
+	"controller_type": "svl_hand_interaction_augmented",
+	"interaction_profile": "",
+	"description": "Default binding values for legacy apps using Hand Interaction",
+	"name": "Hand Interaction Legacy Defaults",
+	"options": {
+		"mirror_actions": false,
+		"simulate_hmd": true,
+		"simulate_rendermodel": true,
+		"simulated_controller_type": "oculus_touch"
+	},
+	"simulated_actions": []
 }

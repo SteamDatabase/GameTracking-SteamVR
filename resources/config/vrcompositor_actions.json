@@ -1,334 +1,347 @@
 {
-  "actions": [
-    {
-      "name": "/actions/system/in/ToggleDashboard",
-      "requirement" : "mandatory",
-      "type": "boolean",
-      "scope": "global"
-    },
-    {
-      "name": "/actions/system/in/OpenDashboard",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
-    {
-      "name": "/actions/system/in/CloseDashboard",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
-    {
-      "name": "/actions/system/in/SystemButtonChord",
-      "type": "boolean",
-      "hide_callout" : true,
-      "scope": "global"
-    },
-   
-    {
-      "name": "/actions/system/in/TakeScreenshot",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
-    {
-      "name": "/actions/system/in/ToggleRoomView",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
+	"actions": [
+		{
+			"name": "/actions/system/in/ToggleDashboard",
+			"requirement": "mandatory",
+			"type": "boolean",
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/OpenDashboard",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/CloseDashboard",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/SystemButtonChord",
+			"type": "boolean",
+			"hide_callout": true,
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/TakeScreenshot",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/ToggleRoomView",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/VolumeUp",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/VolumeDown",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		},
+		{
+			"name": "/actions/system/in/MuteMicrophone",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		},
 
-    {
-      "name": "/actions/system/in/VolumeUp",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
-    {
-      "name": "/actions/system/in/VolumeDown",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
-    {
-      "name": "/actions/system/in/MuteMicrophone",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
-   
-    {
-      "name": "/actions/lasermouse_secondary/in/SwitchLaserHand",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/Pointer",
-      "requirement" : "mandatory",
-      "type": "pose"
-    },
-    {
-      "name": "/actions/lasermouse/in/LeftClick",
-      "requirement" : "mandatory",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/RightClick",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/MiddleClick",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/LockMousePosition",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/Home",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/Back",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/out/Haptic",
-      "type": "vibration"
-    },
-    {
-      "name": "/actions/scroll_discrete/in/Scroll",
-      "requirement" : "optional",
-      "hide_callout" : true,
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/scroll_smooth/in/Scroll",
-      "requirement" : "optional",
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/lasermouse/in/TrackpadTouch",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/TrackpadValue",
-      "requirement" : "optional",
-      "type": "vector2"
-    },
+		{
+			"name": "/actions/lasermouse_secondary/in/SwitchLaserHand",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/Pointer",
+			"requirement": "mandatory",
+			"type": "pose"
+		},
+		{
+			"name": "/actions/lasermouse/in/LeftClick",
+			"requirement": "mandatory",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/RightClick",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/MiddleClick",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/LockMousePosition",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/Home",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/Back",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/out/Haptic",
+			"type": "vibration"
+		},
+		{
+			"name": "/actions/scroll_discrete/in/Scroll",
+			"requirement": "optional",
+			"hide_callout": true,
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/scroll_smooth/in/Scroll",
+			"requirement": "optional",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/lasermouse/in/TrackpadTouch",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/TrackpadValue",
+			"requirement": "optional",
+			"type": "vector2"
+		},
 
-    {
-      "name": "/actions/lasermouse/in/MoveUp",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/MoveDown",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/MoveLeft",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/MoveRight",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/Enter",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/lasermouse/in/SwitchGamepadFocus",
-      "requirement" : "optional",
-      "type": "boolean"
-    },
+		{
+			"name": "/actions/lasermouse/in/MoveUp",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/MoveDown",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/MoveLeft",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/MoveRight",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/Enter",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/lasermouse/in/SwitchGamepadFocus",
+			"requirement": "optional",
+			"type": "boolean"
+		},
 
-    {
-      "name": "/actions/dualanalog/in/LeftValue",
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/dualanalog/in/RightValue",
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/dualanalog/in/LeftTouch",
-      "type": "boolean",
-      "scope": "application"
-    },
-    {
-      "name": "/actions/dualanalog/in/RightTouch",
-      "type": "boolean",
-      "scope": "application"
-    },
-    {
-      "name": "/actions/dualanalog/in/LeftClick",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/dualanalog/in/RightClick",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/dualanalog/in/Cancel",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/dualanalog/in/ModeSwitch1",
-      "type": "boolean",
-      "scope": "application"
-    },
-    {
-      "name": "/actions/dualanalog/in/ModeSwitch2",
-      "type": "boolean",
-      "scope": "application"
-    },
-    {
-      "name": "/actions/quickmouse_click/in/ActivateQuickMouse",
-      "type": "boolean",
-      "scope": "application"
-    },
-    {
-      "name": "/actions/quickmouse_trigger/in/ActivateQuickMouse",
-      "type": "boolean",
-      "scope": "application"
-    },
-    {
-      "name": "/actions/quickmouse_touch/in/ActivateQuickMouse",
-      "type": "boolean",
-      "scope": "application"
-    },
-    {
-      "name": "/actions/locomotion/in/Movement",
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/locomotion/in/Rotation",
-      "type": "vector2"
-    }
-  ],
-  "default_bindings": [
-    {
-      "controller_type": "vive_controller",
-      "binding_url": "vrcompositor_bindings_vive_controller.json"
-    },
-    {
-      "controller_type": "rift",
-      "binding_url": "vrcompositor_bindings_rift.json"
-    },
-    {
-      "controller_type": "vive",
-      "binding_url": "vrcompositor_bindings_vive.json"
-    },
-    {
-      "controller_type": "vive_pro",
-      "binding_url": "vrcompositor_bindings_vive_pro.json"
-    },
-    {
-      "controller_type": "holographic_controller",
-      "binding_url": "vrcompositor_bindings_holographic.json"
-    },
-    {
-      "controller_type": "hpmotioncontroller",
-      "binding_url": "vrcompositor_bindings_hpmotioncontroller.json"
-    },
-    {
-      "controller_type": "generic",
-      "binding_url": "vrcompositor_bindings_generic.json"
-    },
-    {
-      "controller_type": "generic_hmd",
-      "binding_url": "vrcompositor_bindings_generic_hmd.json"
-    },
-    {
-      "controller_type": "gamepad",
-      "binding_url": "vrcompositor_bindings_gamepad.json"
-    },
-    {
-      "controller_type": "knuckles",
-      "binding_url": "vrcompositor_bindings_knuckles.json"
-    },
-    {
-      "controller_type": "knuckles_ev1",
-      "binding_url": "vrcompositor_bindings_knuckles_ev1.json"
-    }
-  ],
+		{
+			"name": "/actions/dualanalog/in/LeftValue",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/dualanalog/in/RightValue",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/dualanalog/in/LeftTouch",
+			"type": "boolean",
+			"scope": "application"
+		},
+		{
+			"name": "/actions/dualanalog/in/RightTouch",
+			"type": "boolean",
+			"scope": "application"
+		},
+		{
+			"name": "/actions/dualanalog/in/LeftClick",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/dualanalog/in/RightClick",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/dualanalog/in/Cancel",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/dualanalog/in/ModeSwitch1",
+			"type": "boolean",
+			"scope": "application"
+		},
+		{
+			"name": "/actions/dualanalog/in/ModeSwitch2",
+			"type": "boolean",
+			"scope": "application"
+		},
+		{
+			"name": "/actions/quickmouse_click/in/ActivateQuickMouse",
+			"type": "boolean",
+			"scope": "application"
+		},
+		{
+			"name": "/actions/quickmouse_trigger/in/ActivateQuickMouse",
+			"type": "boolean",
+			"scope": "application"
+		},
+		{
+			"name": "/actions/quickmouse_touch/in/ActivateQuickMouse",
+			"type": "boolean",
+			"scope": "application"
+		},
+		{
+			"name": "/actions/locomotion/in/Movement",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/locomotion/in/Rotation",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/roomsetup_floor/in/FloorFineAdjust",
+			"requirement": "optional",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/quickrecenter/in/Recenter",
+			"requirement": "optional",
+			"type": "boolean",
+			"scope": "global"
+		}
+	],
+	"default_bindings": [
+		{
+			"controller_type": "vive_controller",
+			"binding_url": "vrcompositor_bindings_vive_controller.json"
+		},
+		{
+			"controller_type": "rift",
+			"binding_url": "vrcompositor_bindings_rift.json"
+		},
+		{
+			"controller_type": "vive",
+			"binding_url": "vrcompositor_bindings_vive.json"
+		},
+		{
+			"controller_type": "vive_pro",
+			"binding_url": "vrcompositor_bindings_vive_pro.json"
+		},
+		{
+			"controller_type": "holographic_controller",
+			"binding_url": "vrcompositor_bindings_holographic.json"
+		},
+		{
+			"controller_type": "hpmotioncontroller",
+			"binding_url": "vrcompositor_bindings_hpmotioncontroller.json"
+		},
+		{
+			"controller_type": "generic",
+			"binding_url": "vrcompositor_bindings_generic.json"
+		},
+		{
+			"controller_type": "generic_hmd",
+			"binding_url": "vrcompositor_bindings_generic_hmd.json"
+		},
+		{
+			"controller_type": "gamepad",
+			"binding_url": "vrcompositor_bindings_gamepad.json"
+		},
+		{
+			"controller_type": "knuckles",
+			"binding_url": "vrcompositor_bindings_knuckles.json"
+		},
+		{
+			"controller_type": "knuckles_ev1",
+			"binding_url": "vrcompositor_bindings_knuckles_ev1.json"
+		}
+	],
 
-  "action_sets": [
-    {
-      "name": "/actions/lasermouse",
-      "usage": "single"
-    },
-    {
-      "name": "/actions/scroll_discrete",
-      "display_with" : "/actions/lasermouse",
-      "usage" : "single"
-    },
-    {
-      "name": "/actions/scroll_smooth",
-      "display_with" : "/actions/lasermouse",
-      "usage" : "single"
-    },
-    {
-      "name": "/actions/lasermouse_secondary",
-      "usage": "single"
-    },
-    {
-      "name": "/actions/system",
-      "usage": "single"
-    },
-    {
-      "name": "/actions/dualanalog",
-      "usage": "leftright"
-    },
-    {
-      "name": "/actions/quickmouse_click",
-      "usage": "leftright"
-    },
-    {
-      "name": "/actions/quickmouse_trigger",
-      "usage": "leftright"
-    },
-    {
-      "name": "/actions/quickmouse_touch",
-      "usage": "leftright"
-    },
-    {
-      "name": "/actions/locomotion",
-      "usage": "leftright"
-    }
-  ],
+	"action_sets": [
+		{
+			"name": "/actions/lasermouse",
+			"usage": "single"
+		},
+		{
+			"name": "/actions/scroll_discrete",
+			"display_with": "/actions/lasermouse",
+			"usage": "single"
+		},
+		{
+			"name": "/actions/scroll_smooth",
+			"display_with": "/actions/lasermouse",
+			"usage": "single"
+		},
+		{
+			"name": "/actions/lasermouse_secondary",
+			"usage": "single"
+		},
+		{
+			"name": "/actions/system",
+			"usage": "single"
+		},
+		{
+			"name": "/actions/dualanalog",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/quickmouse_click",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/quickmouse_trigger",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/quickmouse_touch",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/locomotion",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/roomsetup_floor",
+			"usage": "leftright"
+		}
+	],
 
-  "localization_files": {
-    "en_US" : "vrcompositor_actions_en_us.json",
-    "bg_BG" : "vrcompositor_actions_bg_BG.json",
-    "cs_CZ" : "vrcompositor_actions_cs_CZ.json",
-    "da_DK" : "vrcompositor_actions_da_DK.json",
-    "de_DE" : "vrcompositor_actions_de_DE.json",
-    "el_GR" : "vrcompositor_actions_el_GR.json",
-    "es_ES" : "vrcompositor_actions_es_ES.json",
-    "fi_FI" : "vrcompositor_actions_fi_FI.json",
-    "fr_FR" : "vrcompositor_actions_fr_FR.json",
-    "hu_HU" : "vrcompositor_actions_hu_HU.json",
-    "it_IT" : "vrcompositor_actions_it_IT.json",
-    "ja_JP" : "vrcompositor_actions_ja_JP.json",
-    "ko_KR" : "vrcompositor_actions_ko_KR.json",
-    "nb_NO" : "vrcompositor_actions_nb_NO.json",
-    "nl_NL" : "vrcompositor_actions_nl_NL.json",
-    "pl_PL" : "vrcompositor_actions_pl_PL.json",
-    "sv_SE" : "vrcompositor_actions_sv_SE.json",
-    "th_TH" : "vrcompositor_actions_th_TH.json",
-    "tr_TR" : "vrcompositor_actions_tr_TR.json",
-    "uk_UA" : "vrcompositor_actions_uk_UA.json",
-    "vi_VN" : "vrcompositor_actions_vi_VN.json",
-    "zh_CN" : "vrcompositor_actions_zh_CN.json",
-    "zh_TW" : "vrcompositor_actions_zh_TW.json"
-  }
+	"localization_files": {
+		"en_US": "vrcompositor_actions_en_us.json",
+		"bg_BG": "vrcompositor_actions_bg_BG.json",
+		"cs_CZ": "vrcompositor_actions_cs_CZ.json",
+		"da_DK": "vrcompositor_actions_da_DK.json",
+		"de_DE": "vrcompositor_actions_de_DE.json",
+		"el_GR": "vrcompositor_actions_el_GR.json",
+		"es_ES": "vrcompositor_actions_es_ES.json",
+		"fi_FI": "vrcompositor_actions_fi_FI.json",
+		"fr_FR": "vrcompositor_actions_fr_FR.json",
+		"hu_HU": "vrcompositor_actions_hu_HU.json",
+		"it_IT": "vrcompositor_actions_it_IT.json",
+		"ja_JP": "vrcompositor_actions_ja_JP.json",
+		"ko_KR": "vrcompositor_actions_ko_KR.json",
+		"nb_NO": "vrcompositor_actions_nb_NO.json",
+		"nl_NL": "vrcompositor_actions_nl_NL.json",
+		"pl_PL": "vrcompositor_actions_pl_PL.json",
+		"sv_SE": "vrcompositor_actions_sv_SE.json",
+		"th_TH": "vrcompositor_actions_th_TH.json",
+		"tr_TR": "vrcompositor_actions_tr_TR.json",
+		"uk_UA": "vrcompositor_actions_uk_UA.json",
+		"vi_VN": "vrcompositor_actions_vi_VN.json",
+		"zh_CN": "vrcompositor_actions_zh_CN.json",
+		"zh_TW": "vrcompositor_actions_zh_TW.json"
+	}
 }

@@ -1,7 +1,6 @@
  for detail.\n
  formatting error code 
 !! refusing to trigger minidump with debugger attached\n
-&rxB
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -305,7 +304,7 @@ Handling unlock mouse
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -313,6 +312,7 @@ IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
@@ -369,6 +369,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RSDS
+R\npL 
 RaiseException
 Reinitializing output duplication for desktop %d.\n
 ResetEvent

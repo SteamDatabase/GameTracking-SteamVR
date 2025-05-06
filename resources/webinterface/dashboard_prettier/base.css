@@ -7,6 +7,7 @@
   --gamepadui-darker-grey: #23262e;
   --gamepadui-darkish-grey: #171d25;
   --gamepadui-darkest-grey: #0e141b;
+  --gamepadui-soft-black: #060a0e;
 
   --gamepadui-lightest-grey-rgb: 220, 222, 223;
   --gamepadui-lighter-grey-rgb: 184, 188, 191;
@@ -246,6 +247,11 @@
 
   --dropdown-popover-background-color: var(--gamepadui-darker-grey);
   --dropdown-popover-selected-background-color: hsl(218, 13%, 33%);
+
+  --room-setup-floor-circle: rgb(91, 91, 223);
+  --room-setup-floor-gradient-start: rgba(135, 91, 223, 0);
+  --room-setup-floor-gradient-end: rgb(91, 91, 223, 0.4);
+  --room-setup-floor-gradient-dots: rgba(98, 74, 186, 0.7);
 
   /* Establish 1rem -> 16px on desktop UIs. */
   font-size: 16px;

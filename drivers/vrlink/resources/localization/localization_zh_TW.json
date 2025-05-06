@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "手動",
 	"Setting_clientVersion": "用戶端版本",
 	"Setting_useOSC": "啟用 OSC",
-	"Setting_useOSCEyes": "透過 OSC 協定與此電腦上的其它應用程式分享眼動追蹤資料",
 	"Setting_useOSCFace": "透過 OSC 協議與此電腦上的其它應用程式分享臉部追蹤資料",
 	"Setting_OSCOutPort": "OSC 輸出連接埠",
+	"Setting_shareEyeTrackingData": "與此電腦上的其它應用程式分享眼動追蹤資料",
+	"Setting_enableHandTracking": "啟用手部追蹤穿透模式",
 	"Setting_WirelessShutdownTimeout": "斷線後接著退出 SteamVR",
 	"Setting_AllowVolumeControlSync": "從 SteamVR 控制頭戴顯示器的音量和靜音開關",
-	"Setting_DisableQoS": "停用服務品質"
+	"Setting_DisableQoS": "停用服務品質",
+	"svl_hand_interaction_augmented": "手部追蹤控制器",
+	"/input/index_pinch": "拇指食指捏合",
+	"/input/middle_pinch": "拇指中指捏合",
+	"/input/ring_pinch": "拇指無名指捏合",
+	"/input/pinky_pinch": "拇指小指捏合",
+	"/input/index_point": "食指指向"
 }

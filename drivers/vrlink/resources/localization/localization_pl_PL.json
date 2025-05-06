@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Ręczne",
 	"Setting_clientVersion": "Wersja klienta",
 	"Setting_useOSC": "Włącz OSC",
-	"Setting_useOSCEyes": "Udostępniaj dane dotyczące śledzenia oczu innym aplikacjom na tym PC z użyciem OSC.",
 	"Setting_useOSCFace": "Udostępniaj dane dotyczące śledzenia mimiki twarzy innym aplikacjom na tym PC z użyciem OSC.",
 	"Setting_OSCOutPort": "Port wyjścia OSC",
+	"Setting_shareEyeTrackingData": "Udostępniaj dane dotyczące śledzenia oczu innym aplikacjom na tym PC.",
+	"Setting_enableHandTracking": "Włącz uwidacznianie rzeczywistych śledzonych dłoni",
 	"Setting_WirelessShutdownTimeout": "Jeśli połączenie zostanie przerwane, zamknij SteamVR",
 	"Setting_AllowVolumeControlSync": "Kontroluj głośność i wyciszanie gogli VR z poziomu SteamVR",
-	"Setting_DisableQoS": "Wyłącz ustawienie jakości usługi (quality of service)"
+	"Setting_DisableQoS": "Wyłącz ustawienie jakości usługi (quality of service)",
+	"svl_hand_interaction_augmented": "Kontroler ze śledzeniem dłoni",
+	"/input/index_pinch": "Uszczypnięcie z palcem wskazującym",
+	"/input/middle_pinch": "Uszczypnięcie z palcem środkowym",
+	"/input/ring_pinch": "Uszczypnięcie z palcem serdecznym",
+	"/input/pinky_pinch": "Uszczypnięcie z palcem małym",
+	"/input/index_point": "Punkt palca wskazującego"
 }

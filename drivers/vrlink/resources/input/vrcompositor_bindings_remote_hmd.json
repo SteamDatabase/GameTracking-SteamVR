@@ -1,59 +1,59 @@
 {
-   "action_manifest_version" : 0,
-   "alias_info" : {},
-   "app_key" : "openvr.component.vrcompositor",
-   "bindings" : {
-      "/actions/lasermouse" : {
-         "poses" : [
-            {
-               "output" : "/actions/lasermouse/in/pointer",
-               "path" : "/user/head/pose/raw"
-            }
-         ],
-         "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/lasermouse/in/leftclick"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/system"
-            }
-         ]
-      },
-      "/actions/lasermouse_secondary" : {
-         "poses" : [],
-         "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/lasermouse_secondary/in/SwitchLaserHand"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/system"
-            }
-         ]
-      },
-      "/actions/system": {
-         "sources": [
-            {
-               "inputs": {
-                  "click": {
-                     "output": "/actions/system/in/opendashboard"
-                  }
-               },
-               "mode": "button",
-               "path": "/user/head/input/system"
-            }
-         ]
-      }
-   },
-   "category" : "steamvr_input",
-   "controller_type" : "remote_hmd",
-   "description" : "",
-   "name" : "Default SteamVR Dashboard bindings for Remote HMDs",
-   "options" : {},
-   "simulated_actions" : []
+	"action_manifest_version": 0,
+	"alias_info": {},
+	"app_key": "openvr.component.vrcompositor",
+	"bindings": {
+		"/actions/lasermouse": {
+			"poses": [
+				{
+					"output": "/actions/lasermouse/in/pointer",
+					"path": "/user/head/pose/raw"
+				}
+			],
+			"sources": [
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse/in/leftclick"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/system"
+				}
+			]
+		},
+		"/actions/lasermouse_secondary": {
+			"poses": [],
+			"sources": [
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse_secondary/in/SwitchLaserHand"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/system"
+				}
+			]
+		},
+		"/actions/system": {
+			"sources": [
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/system/in/opendashboard"
+						}
+					},
+					"mode": "button",
+					"path": "/user/head/input/system"
+				}
+			]
+		}
+	},
+	"category": "steamvr_input",
+	"controller_type": "remote_hmd",
+	"description": "",
+	"name": "Default SteamVR Dashboard bindings for Remote HMDs",
+	"options": {},
+	"simulated_actions": []
 }

@@ -8048,7 +8048,7 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDS\
+RSDSL
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description

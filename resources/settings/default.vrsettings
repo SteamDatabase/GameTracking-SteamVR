@@ -275,7 +275,8 @@
         "overlayFilteringEnabled": true,
         "overlayFilteringMinCutoff": 1,
         "overlayFilteringBeta": 5,
-        "overlayFilteringDerivCutoff": 5
+        "overlayFilteringDerivCutoff": 5,
+        "hapticVibrationAmplitude" : 1.0
     },
     "version": "1",
     "jsonid": "vrsettings"

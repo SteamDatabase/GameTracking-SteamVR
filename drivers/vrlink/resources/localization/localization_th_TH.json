@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "ดำเนินการเอง",
 	"Setting_clientVersion": "เวอร์ชันไคลเอนต์",
 	"Setting_useOSC": "เปิดใช้งาน OSC",
-	"Setting_useOSCEyes": "แบ่งปันข้อมูลการติดตามสายตาไปยังแอปอื่น ๆ บน PC นี้ผ่าน OSC",
 	"Setting_useOSCFace": "แบ่งปันข้อมูลการติดตามใบหน้าไปยังแอปอื่น ๆ บน PC นี้ผ่าน OSC",
 	"Setting_OSCOutPort": "พอร์ตเอาต์พุต OSC",
+	"Setting_shareEyeTrackingData": "แบ่งปันข้อมูลการติดตามสายตาไปยังแอปอื่น ๆ บน PC นี้",
+	"Setting_enableHandTracking": "เปิดใช้งานการติดตามมือพร้อมคุณสมบัติพาสทรู",
 	"Setting_WirelessShutdownTimeout": "ออกจาก SteamVR หลังตัดการเชื่อมต่อ",
 	"Setting_AllowVolumeControlSync": "ควบคุมระดับเสียงของเครื่องสวมศีรษะและปิดเสียงจาก SteamVR",
-	"Setting_DisableQoS": "ปิดการใช้งาน QoS"
+	"Setting_DisableQoS": "ปิดการใช้งาน QoS",
+	"svl_hand_interaction_augmented": "คอนโทรลเลอร์ติดตามมือ",
+	"/input/index_pinch": "จีบนิ้วชี้",
+	"/input/middle_pinch": "จีบนิ้วกลาง",
+	"/input/ring_pinch": "จีบนิ้วนาง",
+	"/input/pinky_pinch": "จีบนิ้วก้อย",
+	"/input/index_point": "ชี้ด้วยนิ้วชี้"
 }

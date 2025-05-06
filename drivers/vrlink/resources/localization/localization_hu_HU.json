@@ -12,10 +12,17 @@
 	"Setting_automatic_off": "Kézi",
 	"Setting_clientVersion": "Kliensverzió",
 	"Setting_useOSC": "OSC bekapcsolása",
-	"Setting_useOSCEyes": "Szemkövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül",
 	"Setting_useOSCFace": "Arckövetési adatok megosztása más alkalmazásokkal ezen a PC-n, OSC-n keresztül.",
 	"Setting_OSCOutPort": "OSC kimeneti port",
+	"Setting_shareEyeTrackingData": "Szemkövetési adatok megosztása más alkalmazásokkal ezen a PC-n.",
+	"Setting_enableHandTracking": "Kézkövetés-továbbadás bekapcsolása",
 	"Setting_WirelessShutdownTimeout": "Lecsatlakozáskor kilépés a SteamVR-ből ennyi idő után:",
 	"Setting_AllowVolumeControlSync": "Fejszett-hangerő és némítás vezérlése a SteamVR-ből",
-	"Setting_DisableQoS": "QoS kikapcsolása"
+	"Setting_DisableQoS": "QoS kikapcsolása",
+	"svl_hand_interaction_augmented": "Kézkövetéses játékvezérlő",
+	"/input/index_pinch": "Mutatóujjas csippentés",
+	"/input/middle_pinch": "Középső ujjas csippentés",
+	"/input/ring_pinch": "Gyűrűsujjas csippentés",
+	"/input/pinky_pinch": "Kisujjas csippentés",
+	"/input/index_point": "Mutatóujjas rámutatás"
 }

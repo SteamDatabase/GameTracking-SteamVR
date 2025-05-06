@@ -9,6 +9,8 @@
  throw
  transaction_safe
  volatile
+!sFind.empty()
+!sString.empty()
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
 %llu
@@ -1823,7 +1825,6 @@ long double
 long long
 lower
 lseek64
-l}PF
 malloc
 marker.8730
 mbrtowc
