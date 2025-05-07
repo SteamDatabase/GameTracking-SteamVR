@@ -1011,6 +1011,7 @@ $tI(kn
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+03:08:18
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1279,7 +1280,6 @@ $tI(kn
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:25:12
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1959,7 +1959,6 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRe
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&)
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&) (.cold)
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
-Apr  1 2025
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -21937,6 +21936,7 @@ Item in "skeleton" array missing path or output
 Item in "source" array is not an object
 Item in "source" array missing output parameter in input node
 Item in "source" array missing path or mode\n
+J@+Zz$L
 JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
@@ -22505,6 +22505,7 @@ MaterialUtf8FileReader::~MaterialUtf8FileReader()
 Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
+May  7 2025
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) (.cold)

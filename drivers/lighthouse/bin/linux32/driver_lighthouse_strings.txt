@@ -2748,6 +2748,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+03:08:13
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2820,7 +2821,6 @@ $3br
 21CServerDriverHost_003
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:25:08
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 22CVRCameraComponent_001
@@ -3014,7 +3014,6 @@ App Init
 App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
-Apr  1 2025
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
@@ -7000,6 +6999,7 @@ Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
+May  7 2025
 Mb ?QFo
 MbP?
 Mbp?

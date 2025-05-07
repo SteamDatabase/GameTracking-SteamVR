@@ -835,6 +835,7 @@ Exchange MTU Request Failed. (nrf_error: %s)\n
 Existing Bootloader mode.\n
 Extended Error: %s, %s\n
 Extra non-whitespace after JSON value.
+FCbz
 Failed to GAP Auth Key Reply. (nrf_error: %s)\n
 Failed to GAP Authenticate. (nrf_error: %s)\n
 Failed to GAP Security Params Reply. (nrf_error: %s)\n

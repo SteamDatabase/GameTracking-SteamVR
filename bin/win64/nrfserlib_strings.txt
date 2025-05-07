@@ -1056,7 +1056,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSD
+RSDS+\tR
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -1321,7 +1321,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
 ceil
 close
