@@ -1866,7 +1866,6 @@ MFCreateSample failed: hr = 0x%08x\n
 MGiI
 MIPI Init
 MIPI Init Error
-MJOt
 MSB 
 MSFT_lod
 MSVCP140.dll
@@ -2058,7 +2057,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSb
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE

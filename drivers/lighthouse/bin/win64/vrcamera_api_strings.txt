@@ -657,6 +657,7 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
+Uid^B
 UmsThreadYield
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 

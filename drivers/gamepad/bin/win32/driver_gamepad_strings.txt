@@ -116,7 +116,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS`
+RSDS
 RaiseException
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
