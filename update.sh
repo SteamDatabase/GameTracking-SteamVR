@@ -6,6 +6,7 @@ cd "${0%/*}"
 echo "Processing SteamVR..."
 
 ProcessDepot ".dll"
+ProcessDepot ".exe"
 ProcessDepot ".so"
 ProcessVPK
 ProcessToolAssetInfo
@@ -21,3 +22,5 @@ cp -r resources/webinterface/dashboard/*.css resources/webinterface/dashboard_pr
 npm run prettier -- --write resources/webinterface/dashboard_prettier/
 
 CreateCommit "$(cat bin/version.txt | grep -o '[0-9\.]*')" "$1"
+
+echo "Done."

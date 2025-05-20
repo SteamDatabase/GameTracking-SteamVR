@@ -1,0 +1,2404 @@
+ SetDefaultAudioDevice: device = %s, role = %d\n
+ arguments: 
+ failed because 
+ for detail.\n
+ formatting error code 
+ off
+!! refusing to trigger minidump with debugger attached\n
+"%/28;=#$019:>?
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s - SDL could not initialize! SDL Error: %s\n
+%s contains an empty %s
+%s is not a valid api layer json. Missing %s member.
+%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
+%s: failed with error '%s' (%d)
+&Open DevTools
+' is not a number.
+()$^.*+?[]|\-{},:=!\n\r
+, last executing in 
+-1e+9999
+-IPCWrapper
+-Infinity
+./htmlcache
+.00cfg
+.?AUBuiltStyledStreamWriter@Json@@
+.?AUIAudioEndpointVolumeCallback@@
+.?AUIMMNotificationClient@@
+.?AUIUnknown@@
+.?AU_Crt_new_delete@std@@
+.?AU_cef_browser_settings_t@@
+.?AU_cef_key_event_t@@
+.?AU_cef_main_args_t@@
+.?AU_cef_mouse_event_t@@
+.?AU_cef_point_t@@
+.?AU_cef_rect_t@@
+.?AU_cef_settings_t@@
+.?AU_cef_size_t@@
+.?AU_cef_urlparts_t@@
+.?AU_cef_window_info_t@@
+.?AV<lambda_01d7d5b8902562eab3836f1974cc9178>@@
+.?AV<lambda_0213bf6f3d8279d4a069a619e61bba76>@@
+.?AV<lambda_0226ced0a467b3a2f51427ae22fd2c88>@@
+.?AV<lambda_027df6bada1cdfef4655b3ef8579ce72>@@
+.?AV<lambda_0284abe8d656743b1f2568d054bbc02c>@@
+.?AV<lambda_061f784e71ebb296771b9640c2ec9a49>@@
+.?AV<lambda_063a4532d1ce476d773b81bdc2f50ce6>@@
+.?AV<lambda_07311e8ccb6383d3991043a63f6da946>@@
+.?AV<lambda_09692edda68723b22ccd215ab5f83e15>@@
+.?AV<lambda_09d6a735306b7f19c17795eebdabf0b0>@@
+.?AV<lambda_09e1eef475eb04f2d2c1e432de9374eb>@@
+.?AV<lambda_0ca07a9722ec1f4e3ead23ff302e8379>@@
+.?AV<lambda_0cf5bf86d553d341ac5b890e248f341f>@@
+.?AV<lambda_1379236db91ab47d509e6b03d88f4170>@@
+.?AV<lambda_1512bb23cf3352db205aa1d7d68d5287>@@
+.?AV<lambda_17bc57861f0f3a2d38c439a5c69073b4>@@
+.?AV<lambda_18c2f4fe5833dde12a1a854bf3fe88c9>@@
+.?AV<lambda_1a8f6c543f60da3ac4e19ba225cb8efe>@@
+.?AV<lambda_1c5076e7ec8936b7cd97d66b4c9e08a6>@@
+.?AV<lambda_1cc4271983c9d5c5f44e732df5976c5d>@@
+.?AV<lambda_1d00482917b3fc1508f630bb87c53b5f>@@
+.?AV<lambda_1d6a6a2b85e35fa5b6f34645ebbd6e2c>@@
+.?AV<lambda_283a3330b95e5191ca36293e3a2ddd3a>@@
+.?AV<lambda_28cda170f995934b92ef44bcca78dff1>@@
+.?AV<lambda_28e44ae6d3b41945641446fa3b3f9b9b>@@
+.?AV<lambda_2971968dabe2a4def218b6d4576e314d>@@
+.?AV<lambda_2c2fba081a9c7f253ffb0be449beca57>@@
+.?AV<lambda_2c96dbe4dbf249b8428820ee32e69323>@@
+.?AV<lambda_2cd1b900664cf83fdcf725d82c559e4e>@@
+.?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_2de119738c8b48a8bea1653ef117a48d>@@
+.?AV<lambda_2f252f694aa65b065eade09acfd49981>@@
+.?AV<lambda_327caf153951ac28476c73fbcafb7cf1>@@
+.?AV<lambda_3440ef2a812992a4f3cf245b9db03e4c>@@
+.?AV<lambda_3dcf38ae2a20ba43105dc38ae45fd1bb>@@
+.?AV<lambda_401b5dd15efdc26761ae3b8ea1823f88>@@
+.?AV<lambda_40d54e1793eb637e3feaac5b59617d8a>@@
+.?AV<lambda_44e7e3243973dd7929de5bd8ea0536d8>@@
+.?AV<lambda_46219b58d22e8ef66df81dfa8ceb86a4>@@
+.?AV<lambda_47958571d0587820358ce796515bd0f1>@@
+.?AV<lambda_483870017df40bd3b7c81b7c3099dae8>@@
+.?AV<lambda_4a405040d7673e9f5c4a9cc820c8c12e>@@
+.?AV<lambda_4a85699df7b55d01df1dbfef3dde6d70>@@
+.?AV<lambda_4c734e7b7ab0decee34e043696b417a1>@@
+.?AV<lambda_4d375c96e7e18af7104c6657eae5aa99>@@
+.?AV<lambda_5071202ed5e366f3c5a084428fdf753c>@@
+.?AV<lambda_5141a97357cf36fd07c5d36f62d083e2>@@
+.?AV<lambda_52a392f19688e0c119841753e4b476a6>@@
+.?AV<lambda_54cc056683f723e98485c205aaf0eb0a>@@
+.?AV<lambda_5624b855873cc932a49ce8ae2e632074>@@
+.?AV<lambda_583f2f471e5f8afc8a884a7e6edc33c9>@@
+.?AV<lambda_588cdb081ba8cfe01aa0a87bfc4d4e97>@@
+.?AV<lambda_58d75de775b5a3d77e191dedbc72a85f>@@
+.?AV<lambda_59527628bb50e27811424a7dd8528822>@@
+.?AV<lambda_5f5e7f11e5e80abc8723cca6bbcdb984>@@
+.?AV<lambda_69142ae33fc68971ab9517d8d19b16d4>@@
+.?AV<lambda_6ae23e969401a57e5262a208bdc3b388>@@
+.?AV<lambda_6aea27856a74aa292d4e5b1ffc64942c>@@
+.?AV<lambda_6cad68b163304ec7f73e2692ffb71bc8>@@
+.?AV<lambda_6d8fd5e9840e426618684feae123d314>@@
+.?AV<lambda_6e1d365a63898ea65816557737c22a4b>@@
+.?AV<lambda_6f22078fed7235887e5450d4788e8ff9>@@
+.?AV<lambda_6fab3480648f6a0d79d645a5144bc2e2>@@
+.?AV<lambda_73b00273a3c0e5b2e6b89d0f93101088>@@
+.?AV<lambda_73b7b509628b649da563dc9d45f60d44>@@
+.?AV<lambda_75d21e663d0e82ec91cd943c0b98d6d7>@@
+.?AV<lambda_76d25d453dc9bf3f76ac78e09581d645>@@
+.?AV<lambda_77d9ac2b7dc1d77a2f1fd2789bde7789>@@
+.?AV<lambda_7844aa57fe7122625cd5b661c646bac1>@@
+.?AV<lambda_7a025e2cb9f9f904b7b0ef1b7b4ebf59>@@
+.?AV<lambda_7a6f819eaa8cff049e4844861687d33c>@@
+.?AV<lambda_7c584f66a53ef8b70147490b2308532f>@@
+.?AV<lambda_7da49d8871ecab38147efbf22d928ef1>@@
+.?AV<lambda_7e716da86be401c5a16004107f9e389c>@@
+.?AV<lambda_7eb997cf4d6854d7990fdcf256094112>@@
+.?AV<lambda_7ef8afdb0b7c298a46f9aa740fd97f92>@@
+.?AV<lambda_7fa618c96fe560d4d2d5245037c01169>@@
+.?AV<lambda_80c69657d3318dbc315b8670acecc733>@@
+.?AV<lambda_81ea913b97ef7686873b9ad862ba82f4>@@
+.?AV<lambda_82a68b2d658445f9b882505a3ef47564>@@
+.?AV<lambda_831a560fff41ad4f71e90124f8864118>@@
+.?AV<lambda_84c0efb04c39e80c487416456b32dc80>@@
+.?AV<lambda_8546e7de9f6f6a4960c1cc3efecffe8b>@@
+.?AV<lambda_87ff75af43c2a8e43061ad1a3d615253>@@
+.?AV<lambda_89afd48da2ed658d61d97aaec08c2def>@@
+.?AV<lambda_8a7ad99aca39292efb04dc85651d0932>@@
+.?AV<lambda_8b63f162cd21649f700b7c5302e13018>@@
+.?AV<lambda_8c1b8585c9b389a176b3471d2b6a1697>@@
+.?AV<lambda_8c6620b99dc26369200d5df66e8a0d03>@@
+.?AV<lambda_8ef46939c8a9401e189d237616716b28>@@
+.?AV<lambda_90411ff0f008f9a087c9b16591659692>@@
+.?AV<lambda_9079bb928fce830dc9375c604b5b69a7>@@
+.?AV<lambda_945ed55ea9201846bd121833b35f54c4>@@
+.?AV<lambda_96316157ec691de021aa69db651f0d9c>@@
+.?AV<lambda_981c3e9f9c1162a2dcc40ae71de46103>@@
+.?AV<lambda_98e6cd95438b1f6d7bc676b4a4ff6b7f>@@
+.?AV<lambda_99b4899bb4115ed12839f66342bb4532>@@
+.?AV<lambda_9b3ec36b4204c08988d7d475782ce2db>@@
+.?AV<lambda_9b4de645847b97061cd7b2a48d783946>@@
+.?AV<lambda_9bc3ae37fe4bb60737f2c1bec0e769ec>@@
+.?AV<lambda_9c42efb65041bd1ddc3b649512d1bb0f>@@
+.?AV<lambda_9ce0bcb8c2f8ab386ac186303fe46495>@@
+.?AV<lambda_a02c451b649b34aaaabc38a9546b5cb5>@@
+.?AV<lambda_a0856552546eecc6a6aaccefc4b1da3a>@@
+.?AV<lambda_a8c6e9b260cfa0b4d0bc31db5d46e4dc>@@
+.?AV<lambda_a8cce30af503bcefd102fe97d056f4f2>@@
+.?AV<lambda_aa540338a4d3f69eb8ba0731e8202b72>@@
+.?AV<lambda_ab0352938a459d817ddc43036cc9e95f>@@
+.?AV<lambda_ab5f7900de84fe7a30c4499bf612cd15>@@
+.?AV<lambda_ae358dd38af25d8489c2ed4b193f0f03>@@
+.?AV<lambda_aee1c6e7b48d144dd3c114e09d35b580>@@
+.?AV<lambda_b4357c610f7fce6a108d2cd0677884a8>@@
+.?AV<lambda_b77012c3b48dfb3aed6595c3d234d5d8>@@
+.?AV<lambda_b815150af3106e146a16eb6664e90469>@@
+.?AV<lambda_bd91da855d10ecc311309c39ccb83e0c>@@
+.?AV<lambda_bedfd7362d41ce2a724c64f07db2a078>@@
+.?AV<lambda_c1036b169e3e0a9be475df01f4cdaf3f>@@
+.?AV<lambda_c2a3110537f7725fd4b11aff203654e7>@@
+.?AV<lambda_c30850f23abbd1b043f2ffae4e1855db>@@
+.?AV<lambda_c596a934bb740c31e043413b6cad5109>@@
+.?AV<lambda_c5b5758d920f82f77894ba7cb4b9b0a9>@@
+.?AV<lambda_c91c3600555f7c2eb1161e6e1693b38e>@@
+.?AV<lambda_c97f1d6f58ccd46024451fc05b11be80>@@
+.?AV<lambda_c9a0c3d3717666a634eece054db41e13>@@
+.?AV<lambda_ca1a34e75583473ac69f8c26426de1f5>@@
+.?AV<lambda_cac93843aaf57ed69e7ab3af6ebf38c9>@@
+.?AV<lambda_cc9147f1ff321c8d876bbdf7414c4e7e>@@
+.?AV<lambda_cd0cf8d663632c4c4fd24d5d87f8fba7>@@
+.?AV<lambda_d0da7b064c429429c8ac5e6bb0722ab8>@@
+.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_d1b48b8cfe67b05ab8c98df39f1fc62f>@@
+.?AV<lambda_d259f19f16b0491ceb686c4f3521b718>@@
+.?AV<lambda_d286690f83c11f35768d8d047d15cc8d>@@
+.?AV<lambda_d7e7f7055ad1b5f464f24eb88d6aed10>@@
+.?AV<lambda_d8eb2e9995f80f4db4a32fc45746e6c1>@@
+.?AV<lambda_d938c738c531b038b57e07b452e5eddd>@@
+.?AV<lambda_d9d927539fc55050ba68b27592f64bd7>@@
+.?AV<lambda_dc1c5c0f7637a2507c53b120e7208cf1>@@
+.?AV<lambda_dfb5b7ae542318eabfac102c619d5fe8>@@
+.?AV<lambda_e5bcffa07faf8b989031773620f471b7>@@
+.?AV<lambda_e63d1f02475e9c2b1db74c2645695a07>@@
+.?AV<lambda_e6e02ff4dad48f238895d87278ba95eb>@@
+.?AV<lambda_e732acb38691d146bf84245a283c825f>@@
+.?AV<lambda_e9732bfe5bd771c8a0ca77a9b50c54cb>@@
+.?AV<lambda_eb2f20bb17d69fb5e3e379b4584310de>@@
+.?AV<lambda_ed04d6f6a6cd4934a4feb3a4f95c0d99>@@
+.?AV<lambda_ee56242e816d841ef40ba9d551e6324b>@@
+.?AV<lambda_ee9662123f3a572c841f844efe0f7fa1>@@
+.?AV<lambda_f0c1fafdabdcc43cad8574f49d82762f>@@
+.?AV<lambda_f0f5a474debdd799b37395c932bf7f22>@@
+.?AV<lambda_f391f5a14395c5a3b496ebb8c188d2d1>@@
+.?AV<lambda_f5679869d3d8fe1603c7fa5060d2e91e>@@
+.?AV<lambda_f7f40773aa76c9d1aa70a48b193a12c3>@@
+.?AV<lambda_f860d7e9332a0dd8649ad089bd9d5e3e>@@
+.?AV<lambda_fb821ab747e76ac01baa31df71b1d681>@@
+.?AV?$CRadixTrieBase@UCPickledRadixTrieNode@@VCPickledRadixTrieNodeRef@@@@
+.?AV?$CTextInputSuggestRadixTree@VCPickledRadixTrie@@@@
+.?AV?$CefStringBase@UCefStringTraitsUTF16@@@@
+.?AV?$CefStructBase@UCefBrowserSettingsTraits@@@@
+.?AV?$CefStructBase@UCefKeyEventTraits@@@@
+.?AV?$CefStructBase@UCefMainArgsTraits@@@@
+.?AV?$CefStructBase@UCefMouseEventTraits@@@@
+.?AV?$CefStructBase@UCefPointTraits@@@@
+.?AV?$CefStructBase@UCefRectTraits@@@@
+.?AV?$CefStructBase@UCefSettingsTraits@@@@
+.?AV?$CefStructBase@UCefSizeTraits@@@@
+.?AV?$CefStructBase@UCefURLPartsTraits@@@@
+.?AV?$CefStructBase@UCefWindowInfoTraits@@@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRWebHelperApp@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XAEBVValue@Json@@@std@@
+.?AV?$_Func_base@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV2@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_01d7d5b8902562eab3836f1974cc9178>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0213bf6f3d8279d4a069a619e61bba76>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0226ced0a467b3a2f51427ae22fd2c88>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_027df6bada1cdfef4655b3ef8579ce72>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0284abe8d656743b1f2568d054bbc02c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_061f784e71ebb296771b9640c2ec9a49>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_063a4532d1ce476d773b81bdc2f50ce6>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_07311e8ccb6383d3991043a63f6da946>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_09692edda68723b22ccd215ab5f83e15>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_09d6a735306b7f19c17795eebdabf0b0>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_09e1eef475eb04f2d2c1e432de9374eb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0ca07a9722ec1f4e3ead23ff302e8379>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0cf5bf86d553d341ac5b890e248f341f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1379236db91ab47d509e6b03d88f4170>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1512bb23cf3352db205aa1d7d68d5287>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_17bc57861f0f3a2d38c439a5c69073b4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_18c2f4fe5833dde12a1a854bf3fe88c9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1a8f6c543f60da3ac4e19ba225cb8efe>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1c5076e7ec8936b7cd97d66b4c9e08a6>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1cc4271983c9d5c5f44e732df5976c5d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1d00482917b3fc1508f630bb87c53b5f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1d6a6a2b85e35fa5b6f34645ebbd6e2c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_283a3330b95e5191ca36293e3a2ddd3a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_28cda170f995934b92ef44bcca78dff1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_28e44ae6d3b41945641446fa3b3f9b9b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2971968dabe2a4def218b6d4576e314d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2c2fba081a9c7f253ffb0be449beca57>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2c96dbe4dbf249b8428820ee32e69323>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2cd1b900664cf83fdcf725d82c559e4e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2de119738c8b48a8bea1653ef117a48d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2f252f694aa65b065eade09acfd49981>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_327caf153951ac28476c73fbcafb7cf1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3440ef2a812992a4f3cf245b9db03e4c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3dcf38ae2a20ba43105dc38ae45fd1bb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_401b5dd15efdc26761ae3b8ea1823f88>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_40d54e1793eb637e3feaac5b59617d8a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_44e7e3243973dd7929de5bd8ea0536d8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_46219b58d22e8ef66df81dfa8ceb86a4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_47958571d0587820358ce796515bd0f1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_483870017df40bd3b7c81b7c3099dae8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4a405040d7673e9f5c4a9cc820c8c12e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4a85699df7b55d01df1dbfef3dde6d70>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4c734e7b7ab0decee34e043696b417a1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4d375c96e7e18af7104c6657eae5aa99>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5071202ed5e366f3c5a084428fdf753c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5141a97357cf36fd07c5d36f62d083e2>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_52a392f19688e0c119841753e4b476a6>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_54cc056683f723e98485c205aaf0eb0a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5624b855873cc932a49ce8ae2e632074>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_583f2f471e5f8afc8a884a7e6edc33c9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_588cdb081ba8cfe01aa0a87bfc4d4e97>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_58d75de775b5a3d77e191dedbc72a85f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_59527628bb50e27811424a7dd8528822>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5f5e7f11e5e80abc8723cca6bbcdb984>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_69142ae33fc68971ab9517d8d19b16d4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6ae23e969401a57e5262a208bdc3b388>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6aea27856a74aa292d4e5b1ffc64942c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6cad68b163304ec7f73e2692ffb71bc8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6d8fd5e9840e426618684feae123d314>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6e1d365a63898ea65816557737c22a4b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6f22078fed7235887e5450d4788e8ff9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6fab3480648f6a0d79d645a5144bc2e2>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_73b00273a3c0e5b2e6b89d0f93101088>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_73b7b509628b649da563dc9d45f60d44>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_75d21e663d0e82ec91cd943c0b98d6d7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_76d25d453dc9bf3f76ac78e09581d645>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_77d9ac2b7dc1d77a2f1fd2789bde7789>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7844aa57fe7122625cd5b661c646bac1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7a025e2cb9f9f904b7b0ef1b7b4ebf59>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7a6f819eaa8cff049e4844861687d33c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7c584f66a53ef8b70147490b2308532f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7da49d8871ecab38147efbf22d928ef1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7e716da86be401c5a16004107f9e389c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7eb997cf4d6854d7990fdcf256094112>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7ef8afdb0b7c298a46f9aa740fd97f92>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7fa618c96fe560d4d2d5245037c01169>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_80c69657d3318dbc315b8670acecc733>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_81ea913b97ef7686873b9ad862ba82f4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_82a68b2d658445f9b882505a3ef47564>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_831a560fff41ad4f71e90124f8864118>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_84c0efb04c39e80c487416456b32dc80>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8546e7de9f6f6a4960c1cc3efecffe8b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_87ff75af43c2a8e43061ad1a3d615253>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_89afd48da2ed658d61d97aaec08c2def>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8a7ad99aca39292efb04dc85651d0932>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8b63f162cd21649f700b7c5302e13018>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8c1b8585c9b389a176b3471d2b6a1697>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8c6620b99dc26369200d5df66e8a0d03>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8ef46939c8a9401e189d237616716b28>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_90411ff0f008f9a087c9b16591659692>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9079bb928fce830dc9375c604b5b69a7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_945ed55ea9201846bd121833b35f54c4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_96316157ec691de021aa69db651f0d9c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_981c3e9f9c1162a2dcc40ae71de46103>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_98e6cd95438b1f6d7bc676b4a4ff6b7f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_99b4899bb4115ed12839f66342bb4532>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9b3ec36b4204c08988d7d475782ce2db>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9b4de645847b97061cd7b2a48d783946>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9bc3ae37fe4bb60737f2c1bec0e769ec>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9c42efb65041bd1ddc3b649512d1bb0f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9ce0bcb8c2f8ab386ac186303fe46495>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a02c451b649b34aaaabc38a9546b5cb5>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a0856552546eecc6a6aaccefc4b1da3a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a8c6e9b260cfa0b4d0bc31db5d46e4dc>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a8cce30af503bcefd102fe97d056f4f2>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_aa540338a4d3f69eb8ba0731e8202b72>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ab0352938a459d817ddc43036cc9e95f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ab5f7900de84fe7a30c4499bf612cd15>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ae358dd38af25d8489c2ed4b193f0f03>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_aee1c6e7b48d144dd3c114e09d35b580>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b4357c610f7fce6a108d2cd0677884a8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b77012c3b48dfb3aed6595c3d234d5d8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b815150af3106e146a16eb6664e90469>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_bd91da855d10ecc311309c39ccb83e0c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_bedfd7362d41ce2a724c64f07db2a078>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c1036b169e3e0a9be475df01f4cdaf3f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c2a3110537f7725fd4b11aff203654e7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c30850f23abbd1b043f2ffae4e1855db>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c596a934bb740c31e043413b6cad5109>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c5b5758d920f82f77894ba7cb4b9b0a9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c91c3600555f7c2eb1161e6e1693b38e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c97f1d6f58ccd46024451fc05b11be80>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c9a0c3d3717666a634eece054db41e13>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ca1a34e75583473ac69f8c26426de1f5>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cac93843aaf57ed69e7ab3af6ebf38c9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cc9147f1ff321c8d876bbdf7414c4e7e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cd0cf8d663632c4c4fd24d5d87f8fba7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d0da7b064c429429c8ac5e6bb0722ab8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d1b48b8cfe67b05ab8c98df39f1fc62f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d259f19f16b0491ceb686c4f3521b718>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d286690f83c11f35768d8d047d15cc8d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d7e7f7055ad1b5f464f24eb88d6aed10>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d8eb2e9995f80f4db4a32fc45746e6c1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d938c738c531b038b57e07b452e5eddd>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d9d927539fc55050ba68b27592f64bd7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_dc1c5c0f7637a2507c53b120e7208cf1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_dfb5b7ae542318eabfac102c619d5fe8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e5bcffa07faf8b989031773620f471b7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e63d1f02475e9c2b1db74c2645695a07>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e6e02ff4dad48f238895d87278ba95eb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e732acb38691d146bf84245a283c825f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e9732bfe5bd771c8a0ca77a9b50c54cb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_eb2f20bb17d69fb5e3e379b4584310de>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ed04d6f6a6cd4934a4feb3a4f95c0d99>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ee56242e816d841ef40ba9d551e6324b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ee9662123f3a572c841f844efe0f7fa1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f0c1fafdabdcc43cad8574f49d82762f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f0f5a474debdd799b37395c932bf7f22>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f391f5a14395c5a3b496ebb8c188d2d1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f5679869d3d8fe1603c7fa5060d2e91e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f7f40773aa76c9d1aa70a48b193a12c3>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f860d7e9332a0dd8649ad089bd9d5e3e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_fb821ab747e76ac01baa31df71b1d681>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRWebHelperApp@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
+.?AV?$_Node_str@D@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCAudioEndpointVolumeCallback@@
+.?AVCCefClientHandler@@
+.?AVCJSFunctionGeneric@@
+.?AVCJSFunctionGetCurrentSceneFocusAppName@@
+.?AVCJSFunctionGetOverlayImage@@
+.?AVCJSFunctionGetPose@@
+.?AVCJSFunctionGetStartingAppName@@
+.?AVCJSFunctionGetSteamLanguage@@
+.?AVCJSFunctionIsAvailable@@
+.?AVCJSFunctionQuitOpenVR@@
+.?AVCJSFunctionQuitSceneApp@@
+.?AVCJSFunctionSceneAppRunning@@
+.?AVCJSFunctionShowKeyboard@@
+.?AVCJSFunctionShutdownSystem@@
+.?AVCJSFunctionTurnOffVRController@@
+.?AVCJSFunctionUpdateSceneGraph@@
+.?AVCJSFunctionVRCompositorGetTrackingSpace@@
+.?AVCJSFunctionVROverlayGetPrimaryDashboardDevice@@
+.?AVCLoadOverlayFromImageCallback@@
+.?AVCMMNotificationClient@@
+.?AVCNonCopyable@@
+.?AVCNoopArrayBufferReleaseCallback@@
+.?AVCPickledRadixTrie@@
+.?AVCTextInputSuggestRadixTrie@@
+.?AVCUserDataString@@
+.?AVCV8Promise@@
+.?AVCV8RenderProcessFuncHandler@@
+.?AVCV8UnregisterCallbackHandler@@
+.?AVCVRAudioDeviceImpl@@
+.?AVCVRAudioDevices@@
+.?AVCVRMailbox@@
+.?AVCVRMailboxBase@@
+.?AVCVRWebHelperApp@@
+.?AVCVRWebHelperRendererHandler@@
+.?AVCefApp@@
+.?AVCefBaseRefCounted@@
+.?AVCefClient@@
+.?AVCefContextMenuHandler@@
+.?AVCefDisplayHandler@@
+.?AVCefDownloadImageCallback@@
+.?AVCefDragHandler@@
+.?AVCefKeyboardHandler@@
+.?AVCefLifeSpanHandler@@
+.?AVCefLoadHandler@@
+.?AVCefMainArgs@@
+.?AVCefPoint@@
+.?AVCefRect@@
+.?AVCefRenderHandler@@
+.?AVCefRenderProcessHandler@@
+.?AVCefRequestHandler@@
+.?AVCefSize@@
+.?AVCefV8ArrayBufferReleaseCallback@@
+.?AVCefV8Handler@@
+.?AVCefWindowInfo@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVFactory@StreamWriter@Json@@
+.?AVIAudioEndpointVolumeCallbackImpl@@
+.?AVIEvent@IPC@@
+.?AVIJavascriptFunction@@
+.?AVILogListener@@
+.?AVIMMNotificationClientCallbackImpl@@
+.?AVIMutex@IPC@@
+.?AVISharedMem@IPC@@
+.?AVISyncObject@IPC@@
+.?AVITextInputSuggest@@
+.?AVIVRAudioDevices@@
+.?AVIVRAudioNotification@@
+.?AVIVRAudioVolumeNotification@@
+.?AVIVRWebHelperApp@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AVStreamWriter@Json@@
+.?AVStreamWriterBuilder@Json@@
+.?AVStyledWriter@Json@@
+.?AVWin32Event@IPC@@
+.?AVWin32Mutex@IPC@@
+.?AVWin32SharedMemory@IPC@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AV_Node_assert@std@@
+.?AV_Node_back@std@@
+.?AV_Node_base@std@@
+.?AV_Node_capture@std@@
+.?AV_Node_end_group@std@@
+.?AV_Node_end_rep@std@@
+.?AV_Node_endif@std@@
+.?AV_Node_if@std@@
+.?AV_Node_rep@std@@
+.?AV_Root_node@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.P6AXPEBD0I_NPEAXPEA_N@Z
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.previous.txt
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.thumb
+.tls
+.tls$
+.tls$ZZZ
+.txt
+.xdata
+.xdata$x
+//==============================================================================================\n
+/best_alias_path
+/chaperone/collision_radius
+/chaperone/perimeter
+/chaperone/play_area
+/chaperone/seated/transform
+/chaperone/setup_standing/transform
+/chaperone/showing_working_pid
+/chaperone/standing/transform
+/chaperone/state
+/chaperone/temporary_playing_outside_playspace_time
+/chaperone/tracking_anchored
+/client_streaming_mode_on_demand
+/client_will_handle_dashboard_state
+/dashboard_head_pose_from_standing
+/device_path
+/is_link_environment
+/is_server_dashboard_visible
+/link_stream_packet_time
+/system/wakingbasestations
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+127.0.0.1
+16:45:12
+1e+9999
+5I)7
+7^d[L
+864498db9f12dd977766dc74abc56f198b39e2ce
+9a&g
+: LUID=
+: exception thrown in JSON library
+<unknown>
+================================================================================================\n
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0_Locinfo@std@@QEAA@PEBD@Z
+??0_Lockit@std@@QEAA@H@Z
+??0facet@locale@std@@IEAA@_K@Z
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1_Facet_base@std@@UEAA@XZ
+??1_Locinfo@std@@QEAA@XZ
+??1_Lockit@std@@QEAA@XZ
+??1facet@locale@std@@MEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_alloc@std@@YAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPEBD@Z
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$collate@D@std@@2V0locale@2@A
+?id@?$ctype@D@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?tolower@?$ctype@D@std@@QEBADD@Z
+?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@@@@AI@@@@LB@@@@@@@@ODS@@@DWC\@`@@@@@@@@@@@@@@dfnk@@jF@@DF@@[D@@
+A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
+A"QT
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ACTIVE
+ADVAPI32.dll
+ASSERT: "%s" at %s:%d.\n
+AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
+AUDIO: 
+AUDIO: %s
+Aborting due to fatal assertion failure.
+Adapter pointer is null
+AddAccessAllowedAce
+Added %d overlays from %d configurations. %d have been opened.\n
+Added overlay (%s)\n
+Alert
+Another app was already launching (117)
+Another copy of this program is already running on this machine. Only one instance at a time is allowed.
+App info manager init failed (114)
+ArrayBuffer
+Assert( %s ) %s(%d)\n
+Attempt to init shared state %s twice
+AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
+AvRevertMmThreadCharacteristics
+AvRevertMmThreadCharacteristics failed: last error is %d\n
+AvSetMmThreadCharacteristics failed: last error = %u
+AvSetMmThreadCharacteristicsA
+BSupportsMultitaskingView
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Basis has no inverse.
+Browser context created for browser "%s" (overlay key: "%s")\n
+CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
+CAudioEndpointVolumeCallback::Register
+CCefClientHandler::BStartup: Unknown type %s\n
+CEF %s Resource Load Error: %s -> %d%s\n
+CMMNotificationClient::Register
+CSharedResourceNamespaceClient::Init(): failed connect\n
+CSharedResourceNamespaceClient::Init(): failed to get server response\n
+CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
+CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
+CSharedResourceNamespaceClient::Init(): received namespace data %u\n
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
+CSharedResourceNamespaceClient::InitIfNeeded
+CVRAudioDeviceImpl::CVRAudioDeviceImpl
+CVRAudioDeviceImpl::EnumAudioDevices
+CVRAudioDeviceImpl::GetDeviceSoundVolume
+CVRAudioDeviceImpl::GetIAudioEndpointVolume
+CVRAudioDeviceImpl::GetIMMDevice
+CVRAudioDeviceImpl::IsDeviceSoundVolumeMute
+CVRAudioDeviceImpl::SetDeviceSoundVolume
+CVRAudioDeviceImpl::SetDeviceSoundVolumeMute
+CVRAudioDevices::GetDefaultAudioDevice
+CVRAudioDevices::Refresh
+CVRLog::LogDirect
+CVRWebHelperApp::Init
+CallWindowProcW
+Cannot initialize crash handling in a project without the Steam API available
+CefCurrentlyOn( TID_RENDERER )
+ChangeBasis
+Client (%s) app container state: %d
+Close DevTools
+CloseHandle
+CloseWindow
+Closing context.\n
+Closing pipe %s because it was broken from the other end\n
+CoCreateInstance
+CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
+CoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
+CoInitializeEx
+CoInitializeEx, hr = 0x%08x\n
+CoTaskMemFree
+CoUninitialize
+Completed CEF Message Loop.\n
+Compositor failed to find DX11 hardware (401)
+Compositor failed to initialize (400)
+Compositor initialization succeeded, but overlay init failed (403)
+Compositor initialization succeeded, but screenshot init failed (404)
+Compositor requires mandatory firmware update (402)
+Compositor unable to create graphics device (405)
+Config path could not be located (111)
+Connect to VR Server Failed (301)
+Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
+Console message (%s) from %s:%d:%s\n
+Console message (%s) from javascript console:%s\n
+ConvertStringSidToSidA
+CopySid
+Could not create DXGI Factory 1.1
+Could not find thumbnail overlay to go with dashboard overlay %s\n
+Could not get path handle for %s
+Couldn't determine whether the overlay was docked.
+Couldn't get keyboard owner overlay handle.
+Couldn't retrieve keyboard input type.
+CrashRenderer
+CreateDXGIFactory1
+CreateDirectoryW
+CreateEventA
+CreateEventEx failed\n
+CreateEventExA
+CreateEventW
+CreateFileA
+CreateFileMappingA
+CreateFileW
+CreateMediaType(pwfxIn) failed hr = 0x%08x\n
+CreateMediaType(pwfxOut) failed hr = 0x%08x\n
+CreateMutexA
+CreateResampler failed: hr = 0x%08x\n
+CreateResamplerBuffer (input) failed: hr = 0x%08x\n
+CreateResamplerBuffer (output) failed: hr = 0x%08x\n
+CreateThread
+CreateThread for playback failed: last error is %u\n
+CreateToolhelp32Snapshot
+CreateWellKnownSid
+Creating VRHML JS object\n
+Creating browser pointed at %s (max fps %d)\n
+Creating limited VRHTML object (No HMD present)\n
+Creating playback mirror thread for device %s\n
+D3D11CreateDevice
+DISABLED
+DXGI1: Failed to find matching adapter!\n\n
+Debug
+DebuggerEnabled
+DebuggerPort
+Default
+DeleteCriticalSection
+DeleteFileW
+DesktopUI
+Detail
+Detected %d playback and %d record devices\n
+DevTools
+Device Calibration is invalid (207)
+Device is not calibrated (206)
+Driver Failed (200)
+Driver Not Known (201)
+Driver Not Loaded (203)
+Driver Tracked Device Interface unknown (209)
+Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
+Duplicate key: '
+DuplicateHandle
+Empty escape sequence in string
+Encountered error 
+Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
+Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
+EnterCriticalSection
+EnumAudioEndpoints failed: hr = 0x%08x\n
+Environment
+Error
+Error downloading image, http_status_code: %d, url: %s\n
+Error setting overlay for downloaded image, error: %s, url: %s, \n
+Exceeded stackLimit in readValue().
+Exception %08x\n
+Executable: %s\n
+Explicit
+External
+Extra non-whitespace after JSON value.
+FATAL: Failed to open log file %s\n
+Factory Function Not Found (104)
+Failed to ShutdownSystem (%d)
+Failed to allocate browser info in VRWebHelperSharedMemory for new browser.
+Failed to connect to SteamVR: %s
+Failed to connect to pipe %s because %s... retrying
+Failed to connect to pipe %s because %s\n
+Failed to import client event handle from pipe %s after connecting\n
+Failed to import server event handle from pipe %s after connecting\n
+Failed to init mailbox\n
+Failed to initialize VR for CEF renderer process. (Error: %s)\n
+Failed to initialize VR for main CEF process. (Error: %s)\n
+Failed to parse STEAMVR_GPU_LUID=%s. defaulting to GPU 0
+Failed to read overlay settings file (%s)(%d), exiting ...
+Failed to register method %s: %s already exists
+Failed to register method with empty name
+Failed to write app container status to pipe %s after connecting because %s\n
+Failed to write event process handle after connecting because %s\n
+Fatal
+File Not Found (103)
+Firmware Recovery In Progress (139)
+Firmware Update In Progress (138)
+First argument must be a TransformTRS
+First argument must be a string
+FlushInstructionCache
+Format string parse failure
+FormatMessageA
+FreeLibrary
+GetACP
+GetCommandLineW
+GetComputerNameA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentSceneFocusAppName
+GetCurrentThreadId
+GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
+GetDefaultAudioEndpoint failed: hr = 0x%08x\n
+GetEnvironmentVariableA
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
+GetFileAttributesW
+GetFileSizeEx
+GetHostInfo
+GetLastError
+GetLengthSid
+GetMediaSubtype failed hr = 0x%08x\n
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetPlayAreaSize failed
+GetPose
+GetProcAddress
+GetPropW
+GetRecommendedOverlayRenderQuality
+GetStartingAppName
+GetStartupInfoW
+GetSteamLanguage
+GetSystemInfo
+GetSystemLocale
+GetSystemTime
+GetSystemTimeAsFileTime
+GetThreadContext
+GetTickCount64
+GetTokenInformation
+GetTokenInformation failed. GetLastError returned: %d\n
+GetUserDefaultLocaleName
+GetVRStartupReason
+GetVersionExA
+GetWebHelperId
+Getting devnode property store failed: hr = 0x%08x\n
+Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
+Got SetOverlayTexture failure (%s)\n
+Got SetOverlayTextureBounds failure (%s)\n
+HMD Not Known (202)
+HMD already in use by another application (205)
+HMD detected over USB, but Monitor may be mirrored instead of extended (212)
+HMD detected over USB, but Monitor not found (208)
+HMD found, but can not open device (1101)
+HMD found, but config too big (1104)
+HMD found, but config too small (1105)
+HMD found, but failed configuration check (1113)
+HMD found, but no stored config (1103)
+HMD found, but problems with the data (1107)
+HMD found, but problems with the data (1108)
+HMD found, but problems with the data (1109)
+HMD found, but problems with the data (1110)
+HMD found, but problems with the data (1111)
+HMD found, but problems with the data (1112)
+HMD found, but problems with the data (1115)
+HMD found, but unable to init ZLib (1106)
+HMD found, but unable to request config (1102)
+HasHMD
+HeapAlloc
+HeapCreate
+HeapDestroy
+HeapFree
+HeapReAlloc
+Hmd DriverId is invalid (125)
+Hmd DriverId is our of bounds (211)
+Hmd Not Found (108)
+Hmd Not Found Presence Failed (126)
+Hooking back up to existing overlay %s\n
+IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
+IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x\n
+IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x\n
+IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod failed: hr = 0x%08x\n
+IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms\n
+IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms\n
+IAudioClient::GetMixFormat failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x\n
+IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x\n
+IAudioClient::Stop failed: hr = 0x%08x\n
+IAudioClientFrom::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientFrom::Initialize failed: hr = 0x%08x\n
+IAudioClientFrom::Start failed: hr = 0x%08x\n
+IAudioClientTo::GetBufferSize failed: hr = 0x%08x\n
+IAudioClientTo::Initialize failed: hr = 0x%08x\n
+IAudioClientTo::IsFormatSupported failed: hr = 0x%08x\n
+IAudioClientTo::SetEventHandle failed: hr = 0x%08x\n
+IAudioClientTo::Start failed: hr = 0x%08x\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware mute\n
+IAudioEndpointVolume(IAudioClientFrom) supports hardware volume\n
+IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetMute failed: hr = 0x%08x\n
+IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x\n
+IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x\n
+IAudioEndpointVolume::SetMute failed: hr = 0x%08x\n
+IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer\n
+IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x\n
+IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x\n
+IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Lock failed: hr = 0x%08x\n
+IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x\n
+IMFMediaBuffer::Unlock failed: hr = 0x%08x\n
+IMFSample::AddBuffer failed: hr = 0x%08x\n
+IMFTransform->SetInputType failed hr = 0x%08x\n
+IMFTransform->SetOutputType failed hr = 0x%08x\n
+IMFTransform::ProcessInput failed: hr = 0x%08x\n
+IMFTransform::ProcessOutput failed: hr = 0x%08x\n
+IMMDevice invalid ID: %ls -> %s\n
+IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x\n
+IMMDevice::Activate failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x\n
+IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x\n
+IMMDevice::GetId failed: hr = 0x%08x\n
+IMMDevice::GetState failed: hr = 0x%08x\n
+IMMDevice::Item(%u) failed: hr = 0x%08x\n
+IMMDevice::OpenPropertyStore failed: hr = 0x%08x\n
+IPC::CIPCHandle::InitForExport
+IPCPipe(%s) failed to read payload of %u bytes
+IPCPipe(%s) failed to write message of %u bytes because %s\n
+IPCPipe(%s): Next message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
+IPCPipe(%s): Wrote %u bytes of total message length\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG\n
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND\n
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRChaperoneInternal_XXX
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorSystemInternal_XXX
+IVRCompositor_029
+IVRControlPanel_006
+IVRDebug_001
+IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVRNotificationsInternal_001
+IVROverlayInternal_XXX
+IVROverlay_028
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServerInternal_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+IVRTrackedCamera_006
+Implicit
+Infinity
+Info
+InitializeAcl
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+InitializeSecurityDescriptor
+Installation Corrupt (101)
+Installation Not Found (100)
+Installation path could not be located (110)
+Interface Not Found (105)
+Internal Retry (115)
+Invalid Application Type (130)
+Invalid Interface (106)
+Invalid overlay settings file format (%s), exiting ...
+IsAvailable
+IsDebuggerPresent
+IsIconic
+IsProcessorFeaturePresent
+IsValidSid
+IsWindowShown
+KERNEL32.dll
+Language
+Launching 
+Launching template 
+LeaveCriticalSection
+Line %d, Column %d
+LoadLibraryA
+Loading (
+Local
+LocalAlloc
+LocalFree
+LocalizationManager
+Log path could not be located (112)
+Low Power Watchdog Not Supported (129)
+MFCreateMediaType
+MFCreateMemoryBuffer
+MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
+MFCreateSample
+MFCreateSample failed: hr = 0x%08x\n
+MGiI
+MH_CreateHook( &GetProcAddress, &GetProcAddressHook, reinterpret_cast< LPVOID* >( &s_pGetProcAddressHook ) ) == MH_OK
+MH_EnableHook( &GetProcAddress ) == MH_OK
+MH_Initialize() == MH_OK
+MSVCP140.dll
+Mailbox %s received message %s, which it didn't have a handler for\n
+MainThrd
+MapViewOfFile
+May  7 2025
+MessageBoxA
+Mirroring from %s to %ls\n
+Mirroring is same as source %s, not mirroring\n
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+MonitorController.GetWakingBaseStationsState
+MoveFileExW
+Mozilla/5.0 (%s; en-US;) AppleWebKit/%d.%d (KHTML, like Gecko) Chrome/%d.%d.%d.%d Safari/%d.%d SteamHtmlApp/1.%s (%s, VR), SteamHTML/1.0 (Valve, VRWebHelper, Wired)
+MultiByteToWideChar
+MultiplyTransforms
+Must provide two arguments
+NOTPRESENT
+NextSGID
+No Error (0)
+No VRClientInternal.
+No VRDashboardManager.
+No VROverlayInternal
+No default audio device found to listen to\n
+None
+Not Initialized (109)
+Not available to watchdog apps (131)
+Not calling InitVRAndLogging() since VR is already initialized.\n
+Not starting vrserver for background app (121)
+On laptop, HMD detected over USB, but Monitor not found (213)
+OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
+OnDeviceAdded: device = %s\n
+OnDeviceRemoved: device = %s\n
+OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
+OpenEventA
+OpenFileMappingA
+OpenMutexA
+OpenProcess
+OpenProcessToken
+OpenProcessToken failed. GetLastError returned: %d\n
+OpenSteamWorkshop
+OpenThread
+OpenURL
+Opening URL in Steam: %s\n
+Opening URL on desktop browser: %s\n
+Opening steam URL directly: %s\n
+Out of thread local storage!\n
+OutputDebugStringA
+PID_
+PPPP
+Parse failed for JSON message in mailbox %s: %s\n
+Parsing of JSON file "%s" failed: %s\n
+Parsing of JSON string "%s" failed: %s\n
+PeekNamedPipe
+Pro Audio
+PromptUserForDirectMode
+PropVariantClear
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+QuitOpenVR
+QuitSceneApp
+RSDS|e
+RaiseException
+ReadFile
+ReadFile failed on %s after event was signaled because %s\n
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
+Rebooting In Progress (137)
+Received mirror reset event after %u passes, %llu samples\n
+Received mirror reset event\n
+Received mirror stop event after %u passes, %llu samples\n
+Received mirror stop event\n
+Refreshing audio devices\n
+Refusing to restart browser %s because it's crashed too many times\n
+RegCloseKey
+RegEnumValueA
+RegGetValueW
+RegOpenKeyA
+RegOpenKeyExA
+RegOpenKeyExW
+RegQueryInfoKeyA
+RegQueryValueExA
+RegisterForAllOverlayInfo
+RegisterForAudioDeviceChangedEvents
+RegisterForBatteryStateChangedEvents
+RegisterForBindingSubscriptionChangedEvents
+RegisterForChaperoneChangedEvents
+RegisterForChaperoneStatusEvents
+RegisterForDesktopViewReadyEvents
+RegisterForDesktopViewUpdatingEvents
+RegisterForDeviceEvents
+RegisterForDeviceRoleChangedEvents
+RegisterForDisplayModeNotSupportedEvents
+RegisterForEyeTrackingServerStatus
+RegisterForFirmwareStateChangedEvents
+RegisterForGamepadFocusChangedEvents
+RegisterForIPDEvents
+RegisterForInHmdRoomSetupChangedEvents
+RegisterForKeyboardVisibilityChangedEvents
+RegisterForLinkStreamStatusEvents
+RegisterForMutualSteamCapabilitiesChanged
+RegisterForOverlayStateEvents
+RegisterForOverlayThumbnailsChanged
+RegisterForProgressIndicatorEvents
+RegisterForRoomViewChangedEvents
+RegisterForSceneApplicationStateChangedEvents
+RegisterForTrackingSpaceChangedEvents
+RegisterForVolumeChangedEvents
+RegisterForWindowEvents
+Registering to receive audio changes because of callback\n
+ReleaseMutex
+Requested image is larger than backing store.
+ResetEvent
+ResizeObserver
+RestartSteamVR
+Restarted browser %s\n
+ResumeThread
+RtlCaptureContext
+RtlGetNtVersionNumbers
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+SDL Quitting...\n
+SDL2.dll
+SDL_CreateWindow
+SDL_DestroyWindow
+SDL_FillRect
+SDL_GetDisplayDPI
+SDL_GetDisplayUsableBounds
+SDL_GetError
+SDL_GetWindowBordersSize
+SDL_GetWindowData
+SDL_GetWindowDisplayIndex
+SDL_GetWindowFlags
+SDL_GetWindowFromID
+SDL_GetWindowPosition
+SDL_GetWindowSize
+SDL_GetWindowSurface
+SDL_GetWindowWMInfo
+SDL_HideWindow
+SDL_InitSubSystem
+SDL_MapRGB
+SDL_MaximizeWindow
+SDL_PollEvent
+SDL_QuitSubSystem
+SDL_RaiseWindow
+SDL_RestoreWindow
+SDL_SetWindowData
+SDL_SetWindowPosition
+SDL_SetWindowSize
+SDL_SetWindowTitle
+SDL_ShowWindow
+SDL_UpdateWindowSurface
+SHELL32.dll
+SHGetFolderPathW
+STEAMVR_DISABLE_ASSERT_MINIDUMP
+STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_GPUVIS_ON_ASSERT
+STEAMVR_GPU_LUID
+SceneAppRunning
+Searching for LUID: 
+Second argument must be a TransformTRS
+Second argument must be a string
+See 
+SetCurrentProcessExplicitAppUserModelID
+SetEnvironmentVariableA
+SetEvent
+SetFileAttributesW
+SetLastError
+SetNamedPipeHandleState
+SetPropW
+SetSecurityDescriptorDacl
+SetSystemBehaviorFlag
+SetThreadContext
+SetUnhandledExceptionFilter
+SetWindowLongPtrW
+SetWindowPos
+Settings manager init failed (118)
+Shared IPC Compositor Connect Failed (306)
+Shared IPC Compositor Init Failed (303)
+Shared IPC Compositor Invalid Connect Response (307)
+Shared IPC Connect Failed After Multiple Attempts (308)
+Shared IPC Connect Failed After Target Exited (309)
+Shared IPC Failed (305)
+Shared IPC Mutex Init Failed (304)
+Shared IPC Namespace Unavailable (310)
+Shared IPC State Init Failed (302)
+Shell32.dll
+ShellExecuteA
+ShellExecuteExA
+ShowBindingUI
+ShowBindingUIAppSelect
+ShowSettingsUI
+ShowTrackerUI
+ShutdownSystem
+Skipped desktop overlay (%s) because omitDesktopWebhelpers is enabled\n
+Skipped overlay (%s) because no HMD is present. Set valid_without_hmd to true to create it anyway.\n
+Skipped overlay (%s) because setting "%s" is False\n
+Skipped overlay because no name was provided:\n%s\n
+Skipping showing browser %s because there's no HMD. Set valid_without_hmd to true to create it anyway.\n
+Sleep
+SleepConditionVariableCS
+Software\Valve\Steam
+Software\Valve\Steam\ActiveProcess
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
+Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
+Somebody locked a non-leaf shared memory %s while %s was already locked
+Spinning up %s because %s was sent to %s\n
+Standalone
+Starting CEF Message Loop...\n
+Status Message: %s\n
+SteamAPI_IsSteamRunning
+SteamAPI_SetBreakpadAppID
+SteamAPI_SetMiniDumpComment
+SteamAPI_UseBreakpadCrashHandler
+SteamAPI_WriteMiniDump
+SteamAppId
+SteamGameId
+SteamVR
+SteamVR HTML
+SteamVRVersion
+SteamVR_Namespace
+Stopping playback mirror thread\n
+SuspendThread
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+TerminateProcess
+TestPromise
+The current HMD requires an additional driver that is not installed (214)
+The requested interface is incompatible with the compositor and the compositor is running (122)
+This interface is not available to utility applications (123)
+Thread32First
+Thread32Next
+TlsAlloc
+TlsFree
+Too many tracked objects (120)
+Tracked property error: %s (%d)
+TurnOffVRController
+U4ot
+UNKNOWN
+UNPLUGGED
+URL must start with 'http://', 'https://', or 'steam://'
+USB Service Busy (140)
+USER32.dll
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
+Unable to connect to Oculus Runtime (1000)
+Unable to connect to Oculus Runtime, possible bad install (1114)
+Unable to create SDL window
+Unable to create event %s to go with pipe %s in WaitForConnection\n
+Unable to create path registry directory %s\n
+Unable to create shared memory %s for IPC client\n
+Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
+Unable to determine VR Path Registry filename
+Unable to enumerate registry key values: %s
+Unable to find Steam installation (2000)
+Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
+Unable to get default from IMMDevice, hr = 0x%08x\n
+Unable to get to IMMDevice %s, hr = 0x%08x\n
+Unable to initialize VRWebHelper client shared state\n
+Unable to initialize VRWebHelper javascript context shared state\n
+Unable to initialize VRWebHelper server shared state\n
+Unable to load avrt.dll\n
+Unable to load bind mfplat.dll and/or avrt.dll\n
+Unable to load mfplat.dll\n
+Unable to open current process for duplicating handles because %s\n
+Unable to open process id=%d from pipe %s after connecting because %s\n
+Unable to open registry key for read: %s
+Unable to parse 
+Unable to parse JSON when updating scene graph\n
+Unable to parse token length
+Unable to query registry key info: %s
+Unable to read VR Path Registry from 
+Unable to read event handles from pipe %s after connecting because %s\n
+Unable to read event salt from pipe %s after connecting because %s\n
+Unable to read pid from pipe %s after connecting because %s\n
+Unable to start deferred browser %s\n
+Unable to write VR path registry to %s\n
+Unable to write path registry (113)
+Unexpected WaitForMultipleObjects return value %u on pass %u\n
+Unexpected WaitForMultipleObjects return value %u\n
+Unhandled message of type %s was sent to %s, but there was nothing to start\n
+Unhandled property type!
+UnhandledExceptionFilter
+Unknown
+Unknown ComputedBoolSettingForString
+Unknown EVROverlayError (%d)
+Unknown VRSettingsError (%d)
+Unknown deferred browser %s\n
+Unknown error (%d)
+Unknown exception
+UnmapViewOfFile
+UpdateSceneGraph
+User Canceled Init (116)
+User Config Directory Invalid (107)
+User-Agent
+Using htmlcache path %s
+VALVE_runtime_is_steamvr
+VCRUNTIME140.dll
+VID_
+VR Dashboard Not Found (133)
+VR Dashboard startup failed (134)
+VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
+VR Dashboard startup failed, path error (167)
+VR Dashboard startup failed, required files did not copy correctly (164)
+VR Dashboard startup failed, unable to create appropriate environment (166)
+VR Dashboard startup failed, unable to create appropriate token (165)
+VR Dashboard startup failed, vrdashboard was already running (163)
+VR Dashboard startup failed, vrservice was pending for too long (160)
+VR Dashboard startup failed, vrservice was stopped (162)
+VR Home Not Found (135)
+VR Monitor Not Found (127)
+VR Monitor startup failed (128)
+VR Path Registry node %s is not an array\n
+VR Server Init Failed (300)
+VR Shutting down...\n
+VR home startup failed (136)
+VR system shutting down (119)
+VRApplications is not available
+VRApplications.GetCurrentSceneProcessId
+VRApplications.GetSceneApplicationKey
+VRApplications.GetSceneApplicationState
+VRApplications.GetStartingApplicationKey
+VRApplications.LaunchApplication
+VRApplications.LaunchTemplateApplication
+VRAudioDevices.GetMasterMicrophoneVolume
+VRAudioDevices.GetMasterSoundVolume
+VRAudioDevices.GetMirrorSoundVolume
+VRAudioDevices.IsMasterMicrophoneMute
+VRAudioDevices.IsMasterSoundVolumeMute
+VRAudioDevices.IsMirrorSoundVolumeMute
+VRAudioDevices.SetMasterMicrophoneMute
+VRAudioDevices.SetMasterMicrophoneVolume
+VRAudioDevices.SetMasterSoundVolume
+VRAudioDevices.SetMasterSoundVolumeMute
+VRAudioDevices.SetMirrorSoundVolume
+VRAudioDevices.SetMirrorSoundVolumeMute
+VRAudioDevices_Init
+VRChaperone.ForceBoundsVisible
+VRChaperone.GetPlayAreaSize
+VRChaperone.ResetZeroPose
+VRChaperone.SetOkOutsidePlayspace
+VRChaperone.StartInHMDRoomSetup
+VRChaperoneSetup.ClearRoomSetup
+VRChaperoneSetup.CommitDynamicFloorHeight
+VRChaperoneSetup.CommitDynamicFloorRadius
+VRChaperoneSetup.CommitWorkingCopy
+VRChaperoneSetup.GetLiveCollisionBoundsInfo
+VRChaperoneSetup.HideWorkingSetPreview
+VRChaperoneSetup.ResetDynamicFloorHeight
+VRChaperoneSetup.ResetPlayspaceRadius
+VRChaperoneSetup.RevertWorkingCopy
+VRChaperoneSetup.SetFloorDetectEnabled
+VRChaperoneSetup.SetWorkingPerimeter
+VRChaperoneSetup.SetWorkingPlayAreaSize
+VRChaperoneSetup.SetWorkingStandingZeroPoseToRawTrackingPose
+VRChaperoneSetup.ShowWorkingSetPreview
+VRClientInternal is not available
+VRClientInternal.GetGraphicsHardwareVendorInfo
+VRClientInternal.GetMutualSteamCapabilities
+VRCompositor.GetTrackingSpace
+VRCompositor.IsDashboardVisibleInternal
+VRCompositor.SetAnimatedValue
+VRControlPanel
+VRControlPanel.SetCameraRoomViewVisible
+VRDashboardManager.CloseKeyboard
+VRDashboardManager.GetDashboardOverlayKeys
+VRDashboardManager.GetKeyboardInputInfo
+VRDashboardManager.GetNightModeEnabled
+VRDashboardManager.GetOverlayImage
+VRDashboardManager.HasMessageOverlay
+VRDashboardManager.HideDashboard
+VRDashboardManager.OnMessageOverlayResponse
+VRDashboardManager.SendKeyboardDone
+VRDashboardManager.SendOverlayButtonPress
+VRDashboardManager.SendOverlayButtonUnpress
+VRDashboardManager.SendOverlayClosed
+VRDashboardManager.SetKeyboardOverlayToThis
+VRDashboardManager.SetNightModeEnabled
+VRDashboardManager.ShouldShowTrackerUI
+VRHTML
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
+VRInitError_Compositor_CreateAlphaBlendState
+VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
+VRInitError_Compositor_CreateBlendState
+VRInitError_Compositor_CreateBlendStateMaskB
+VRInitError_Compositor_CreateBlendStateMaskG
+VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
+VRInitError_Compositor_CreateClampToBorderSamplerState
+VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
+VRInitError_Compositor_CreateComputeResolveRenderTextures
+VRInitError_Compositor_CreateConstantBuffer
+VRInitError_Compositor_CreateDepthStencilState
+VRInitError_Compositor_CreateDepthStencilStateNoDepth
+VRInitError_Compositor_CreateDepthStencilStateNoWrite
+VRInitError_Compositor_CreateDistortionSurfaces
+VRInitError_Compositor_CreateDriverDirectModeResolveTextures
+VRInitError_Compositor_CreateFallbackSyncTexture
+VRInitError_Compositor_CreateFlushTexture
+VRInitError_Compositor_CreateFontSamplerState
+VRInitError_Compositor_CreateFullscreenWindowFailed
+VRInitError_Compositor_CreateGeomConstantBuffer
+VRInitError_Compositor_CreateHmdPoseConstantBuffer
+VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
+VRInitError_Compositor_CreateLastFrameRenderTexture
+VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerGraphicsTextureIndexConstantBuffer
+VRInitError_Compositor_CreateMSAARenderTextures
+VRInitError_Compositor_CreateMirrorOverlay
+VRInitError_Compositor_CreateMirrorTextures
+VRInitError_Compositor_CreateNoBlendState
+VRInitError_Compositor_CreateOverlayAlreadyInitialized
+VRInitError_Compositor_CreateOverlayConstantBuffer
+VRInitError_Compositor_CreateOverlayIndexBuffer
+VRInitError_Compositor_CreateOverlayInvalidCall
+VRInitError_Compositor_CreateOverlaySamplerState
+VRInitError_Compositor_CreateOverlayVertexBuffer
+VRInitError_Compositor_CreatePanelMaskConstantBuffer
+VRInitError_Compositor_CreatePanoramaSamplerState
+VRInitError_Compositor_CreatePixelSimUBO
+VRInitError_Compositor_CreateRasterizerState
+VRInitError_Compositor_CreateReadableSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateResolveRenderTextures
+VRInitError_Compositor_CreateSamplerState
+VRInitError_Compositor_CreateSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateSharedFrameInfoConstantBuffer
+VRInitError_Compositor_CreateTextIndexBuffer
+VRInitError_Compositor_CreateTextVertexBuffer
+VRInitError_Compositor_CreateWireframeRasterizerState
+VRInitError_Compositor_D3D11HardwareRequired
+VRInitError_Compositor_D3D11RendererInitializationFailed
+VRInitError_Compositor_DXGIFactoryCreateFailed
+VRInitError_Compositor_DXGIFactoryInterfaceIsNull
+VRInitError_Compositor_DXGIFactoryQueryFailed
+VRInitError_Compositor_DisplayFrequencyFailure
+VRInitError_Compositor_DisplayModeNotSupported
+VRInitError_Compositor_DistortInterfaceIsNull
+VRInitError_Compositor_Failed
+VRInitError_Compositor_FailedToCreateDXGI2RenderTarget
+VRInitError_Compositor_FailedToCreateDXGI2SwapChain
+VRInitError_Compositor_FailedToCreateDirectModeDisplay
+VRInitError_Compositor_FailedToCreateMailbox
+VRInitError_Compositor_FailedToCreateNvAPIRenderTargets
+VRInitError_Compositor_FailedToCreateRenderTarget
+VRInitError_Compositor_FailedToCreateSwapChain
+VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
+VRInitError_Compositor_FailedToFindDisplayMode
+VRInitError_Compositor_FailedToGetBackBuffer
+VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
+VRInitError_Compositor_FailedToShowWindow
+VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
+VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
+VRInitError_Compositor_InvalidAdapterDesktop
+VRInitError_Compositor_InvalidDeviceProvided
+VRInitError_Compositor_InvalidHmdAttachment
+VRInitError_Compositor_InvalidHmdPropertyContainer
+VRInitError_Compositor_InvalidOutputDesktop
+VRInitError_Compositor_MessageOverlaySharedStateInitFailure
+VRInitError_Compositor_NotificationManagerIsNull
+VRInitError_Compositor_NvAPISetDisplayMode
+VRInitError_Compositor_OpenDriverDirectModeResolveTextures
+VRInitError_Compositor_OverlayInitFailed
+VRInitError_Compositor_PropertiesInterfaceIsNull
+VRInitError_Compositor_RendererInitializationFailed
+VRInitError_Compositor_ResourceManagerClientIsNull
+VRInitError_Compositor_ScreenshotsInitFailed
+VRInitError_Compositor_SelectDisplayMode
+VRInitError_Compositor_SettingsInterfaceIsNull
+VRInitError_Compositor_ShareFallbackSyncTexture
+VRInitError_Compositor_SharedStateIsNull
+VRInitError_Compositor_SystemLayerCreateInstance
+VRInitError_Compositor_SystemLayerCreateSession
+VRInitError_Compositor_UnableToCreateDevice
+VRInitError_Compositor_UpdateDisplayFrequency
+VRInitError_Compositor_WindowInterfaceIsNull
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdDisplayNotFoundLaptop
+VRInitError_Driver_HmdDriverIdOutOfBounds
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_PeerDriverNotInstalled
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_TrackedDeviceInterfaceUnknown
+VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_IPC_CompositorConnectFailed
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_CompositorInvalidConnectResponse
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_ConnectFailedAfterTargetExited
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_NamespaceUnavailable
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AlreadyRunning
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_BadLuid
+VRInitError_Init_CouldNotStartPrism
+VRInitError_Init_DuplicateBootstrapper
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FailedForVrMonitor
+VRInitError_Init_FileNotFound
+VRInitError_Init_FirmwareRecoveryBusy
+VRInitError_Init_FirmwareUpdateBusy
+VRInitError_Init_HmdDriverIdIsNone
+VRInitError_Init_HmdNotFound
+VRInitError_Init_HmdNotFoundPresenceFailed
+VRInitError_Init_IllegalTypeTransition
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_Internal
+VRInitError_Init_InvalidApplicationType
+VRInitError_Init_InvalidInterface
+VRInitError_Init_InvalidProcessId
+VRInitError_Init_LowPowerWatchdogNotSupported
+VRInitError_Init_MismatchedRuntimes
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NoServerForAppContainer
+VRInitError_Init_NoServerForBackgroundApp
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotAvailableToWatchdogApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_NotSupportedWithCompositor
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_PrismClientInitFailed
+VRInitError_Init_PrismClientStartFailed
+VRInitError_Init_PrismExitedUnexpectedly
+VRInitError_Init_PrismNeedsNewDrivers
+VRInitError_Init_PrismStartupTimedOut
+VRInitError_Init_PropertyManagerInitFailed
+VRInitError_Init_RebootingBusy
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_ShuttingDown
+VRInitError_Init_TooManyObjects
+VRInitError_Init_TrackerManagerInitFailed
+VRInitError_Init_USBServiceBusy
+VRInitError_Init_UserConfigDirectoryInvalid
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
+VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
+VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
+VRInitError_Init_VRHomeNotFound
+VRInitError_Init_VRHomeStartupFailed
+VRInitError_Init_VRMonitorNotFound
+VRInitError_Init_VRMonitorStartupFailed
+VRInitError_Init_VRServiceStartupFailed
+VRInitError_Init_VRWebHelperStartupFailed
+VRInitError_Init_WatchdogDisabledInSettings
+VRInitError_Init_WebServerFailed
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
+VRInitError_VendorSpecific_OculusRuntimeBadInstall
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_WindowsNotInDevMode
+VRKeyboard.GetSuggestions
+VRKeyboard.LoadSuggestionsForLanguage
+VRKeyboard.SetKeyboardText
+VRMonitor.ShowBasestationSettings
+VRMonitor.ShowBluetoothSettings
+VROverlay.FindOverlay
+VROverlay.GetFlag
+VROverlay.GetInputMethod
+VROverlay.GetOverlayAlpha
+VROverlay.GetOverlayMouseScale
+VROverlay.GetOverlayTextureSize
+VROverlay.GetPrimaryDashboardDevice
+VROverlay.GetVisibleTimeInSeconds
+VROverlay.GetWidthInMeters
+VROverlay.Hide
+VROverlay.HideKeyboard
+VROverlay.SetFlag
+VROverlay.SetInputMethod
+VROverlay.SetKeyboardPositionForOverlay
+VROverlay.SetOverlayAlpha
+VROverlay.SetWidthInMeters
+VROverlay.Show
+VROverlay.ShowDashboard
+VROverlay.ShowKeyboard
+VROverlay.ShowKeyboardForOverlay
+VROverlay.ThisOverlayHandle
+VROverlay.ThisOverlayKey
+VROverlay.TriggerLaserMouseHapticVibration
+VROverlay.TriggerOverlayHapticEffect
+VROverlayError_ArrayTooSmall
+VROverlayError_BadMaskPrimitive
+VROverlayError_InvalidHandle
+VROverlayError_InvalidParameter
+VROverlayError_InvalidTexture
+VROverlayError_InvalidTrackedDevice
+VROverlayError_KeyInUse
+VROverlayError_KeyTooLong
+VROverlayError_KeyboardAlreadyInUse
+VROverlayError_NameTooLong
+VROverlayError_NoNeighbor
+VROverlayError_None
+VROverlayError_OverlayLimitExceeded
+VROverlayError_PermissionDenied
+VROverlayError_RequestFailed
+VROverlayError_TextureAlreadyLocked
+VROverlayError_TextureLockCapacityReached
+VROverlayError_TextureNotLocked
+VROverlayError_ThumbnailCantBeDestroyed
+VROverlayError_TooManyMaskPrimitives
+VROverlayError_UnableToLoadFile
+VROverlayError_UnknownOverlay
+VROverlayError_WrongTransformType
+VROverlayError_WrongVisibilityType
+VROverlayInternal.GetPassthroughPortalEnabled
+VROverlayInternal.GetToastInfo
+VROverlayInternal.HasCameraRoomViewCapability
+VROverlayInternal.SetPassthroughPortalEnabled
+VRPathProperties.GetBoolPathProperty
+VRPathProperties.GetDoublePathProperty
+VRPathProperties.GetFloatPathProperty
+VRPathProperties.GetInt32PathProperty
+VRPathProperties.GetStringPathProperty
+VRPathProperties.RegisterForBoolPathPropertyChangedEvents
+VRPathProperties.RegisterForDoublePathPropertyChangedEvents
+VRPathProperties.RegisterForFloatPathPropertyChangedEvents
+VRPathProperties.RegisterForInt32PathPropertyChangedEvents
+VRPathProperties.RegisterForStringPathPropertyChangedEvents
+VRPathProperties.SetBoolPathProperty
+VRPathProperties.SetDoublePathProperty
+VRPathProperties.SetFloatPathProperty
+VRPathProperties.SetInt32PathProperty
+VRPathProperties.SetStringPathProperty
+VRPathRegistry.GetInstalledRuntimes
+VRPathRegistry.GetRuntimePath
+VRPathRegistry.SetRuntimePath
+VRPaths
+VRProperties.GetBoolProperty
+VRProperties.GetFloatProperty
+VRProperties.GetInt32Property
+VRProperties.GetStringProperty
+VRRenderModels.GetComponentStateForDevicePath
+VRRenderModelsInternal.FindComponentForInputSource
+VRSettings.Get
+VRSettings.Set
+VRSettingsError_AccessDenied
+VRSettingsError_IPCFailed
+VRSettingsError_None
+VRSettingsError_ReadFailed
+VRSettingsError_UnsetSettingHasNoDefault
+VRSettingsError_WriteFailed
+VRSystem is not available
+VRSystem.GetControllerRoleForTrackedDeviceIndex
+VRSystem.GetTrackedDeviceClasses
+VRSystem.GetTrackedDeviceIndexForControllerRole
+VRSystem.IsDevicePathValid
+VRTrackedCameraInternal.GetCameraTestFrame
+VRTrackedCameraInternal.SetCameraCompatibilityMode
+VRTrackedCameraInternal.StartCameraTest
+VRTrackedCameraInternal.StopCameraTest
+VRUtil.BSupportsCEFCanvas
+VRUtil.CreateEmbeddedRGBScanline
+VRUtil.GetEmbeddedScanlineAsURIImage
+VRWebHelper
+VRWebHelperApp: Failed to create overlay %s, error %d\n
+VRWebHelperApp: Invalid translation vector for overlay %s
+VRWebHelperApp: Invalidate overlay configuration for %s\n
+VRWebHelperApp: Invalidate pixel size in overlay configuration for %s\n
+VRWebHelperApp: Overlay configurations must specify a name\n%s\n
+VRWebHelperApp: Refusing to create overlay because vr::VROverlay isn't available. Maybe there's no HMD?\n
+VRWebHelperApp: Using fully qualified URL = %s\n
+VRWebHelperApp: Using invalid URL = %s\n
+VR_COMBINED_LOGGING
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_InitInternal2
+VR_IsInterfaceVersionValid
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_ShutdownInternal
+VR_WebHelperMutex
+VR_WebHelperState
+VerSetConditionMask
+VerifyVersionInfoW
+VirtualAlloc
+VirtualFree
+VirtualProtect
+VirtualQuery
+WaitForMultipleObjects
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitNamedPipe %s failed because %s\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
+WaitNamedPipeA
+WakeAllConditionVariable
+Warning
+Warning: Watchdog %s not properly cleaned up%s%s\n
+Watchdog disabled in settings (132)
+WideCharToMultiByte
+Windows NT %u.%u
+Windows NT 5.1
+WriteFile
+XRApiLayerManager.DisableApiLayer
+XRApiLayerManager.EnableApiLayer
+XRApiLayerManager.GetInstalledApiLayers
+XRRuntimeManager.GetCurrentRuntime
+XRRuntimeManager.IsThisRuntimeCurrent
+XRRuntimeManager.SetThisRuntimeToCurrent
+Zjz\v
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
+[IPC] ConvertStringSidToSidA failed for test app %d\n
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
+[IPC] Existing file mapping for %s was found\n
+[IPC] Failed creating auto reset event %s (GLE: %u)\n
+[IPC] Failed creating file mapping %s: %u\n
+[IPC] Failed creating mutex %s (GLE: %u)\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed to open event %s because access was denied\n
+[IPC] Failed to open file mapping %s because access was denied\n
+[IPC] Failed to open mutex %s because access was denied\n
+[IPC] Forced create of Win32 mutex %s but it already existed\n
+[IPC] Forced create of Win32Event %s but it already existed\n
+[IPC] Forced create of Win32Event but it already existed\n
+[IPC] Forced create of Win32Mutex but it already existed\n
+[IPC] Forced create of file mapping %s but it already existed\n
+[IPC] GetTokenInformation failed. GetLastError returned: %d\n
+[IPC] InitializeAcl failed. GetLastError returned: %d\n
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
+[IPC] OpenProcessToken failed. GetLastError returned: %d\n
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
+[IPC] SharedMem access invalid: %x\n
+[IPC] The owner SID is invalid.\n
+[Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
+[Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
+[RRRR[[[[w|w
+[System] Calling %s %s failed with error code %d\n
+[VRWebHelper] Launching %s\n
+[VRWebHelper] Launching template %s -> %s\n
+[[[[[[[[[[[[js
+\ApiLayers\
+\n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
+\n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_PromiseHook
+_Strcoll
+_Strxfrm
+_TEST
+_Thrd_id
+_Thrd_join
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_compiled_words.dic
+_compiled_words.dict
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_errno
+_exit
+_get_narrow_winmain_command_line
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_localtime64
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_stricmp
+_wfopen_s
+_wfsopen
+_wstat64i32
+abort
+activePlaybackMirrorDevice
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+alnum
+alpha
+alse
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api_layer
+array
+assert json failed
+atoi
+audio
+autoplay-policy
+avrt.dll
+bPoseIsValid
+bSupportsDirectMode
+bSupportsMotionSmoothing
+bSupportsRuntimeFramerateChange
+backing image not allocated. please call CreateEmbeddedRGBScanline first.
+bad allocation
+bad array new length
+bad cast
+bad conversion
+bg_bg
+bindingui
+blank
+boolean
+boolean|numeric|string|null
+brazilian
+browser_size
+bulgarian
+button
+c++ NewPromise
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\computedsettings.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\Retail\win64\2017\vrwebhelper.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefclient_handler.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefexecuteprocess_handler.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
+cefMaxFrameRate
+cef_api_hash
+cef_browser_host_create_browser
+cef_command_line_create
+cef_currently_on
+cef_execute_process
+cef_initialize
+cef_log
+cef_parse_url
+cef_post_delayed_task
+cef_process_message_create
+cef_quit_message_loop
+cef_run_message_loop
+cef_string_list_alloc
+cef_string_list_append
+cef_string_list_free
+cef_string_list_size
+cef_string_list_value
+cef_string_map_alloc
+cef_string_map_append
+cef_string_map_free
+cef_string_map_key
+cef_string_map_size
+cef_string_map_value
+cef_string_multimap_alloc
+cef_string_multimap_append
+cef_string_multimap_free
+cef_string_multimap_key
+cef_string_multimap_size
+cef_string_multimap_value
+cef_string_userfree_utf16_free
+cef_string_utf16_clear
+cef_string_utf16_cmp
+cef_string_utf16_set
+cef_string_utf16_to_utf8
+cef_string_utf8_clear
+cef_string_utf8_to_utf16
+cef_uriencode
+cef_v8context_get_current_context
+cef_v8value_create_array
+cef_v8value_create_array_buffer
+cef_v8value_create_bool
+cef_v8value_create_double
+cef_v8value_create_function
+cef_v8value_create_int
+cef_v8value_create_null
+cef_v8value_create_object
+cef_v8value_create_string
+cef_v8value_create_uint
+changeCallback.m_unOptionalUserData == ulHandle
+channel
+charMax
+chrome-devtools://
+client
+clienthandler
+close_window
+cntrl
+collectComments
+commentStyle
+commentStyle must be 'All' or 'None'
+computed
+config
+container must be a string or an unsigned int
+controllerbinding_desktop
+could not fetch container from path
+could not fetch container from path 
+could not fetch container path handle
+could not fetch device path handle
+could not fetch input source path handle
+create_from_mailbox
+create_overlays
+cs_cz
+czech
+d3d11.dll
+da_dk
+danish
+dashboard
+data.m_pSteamObject.get()
+data:image/png;base64,
+date
+de_de
+debugcommands_desktop
+deque<T> too long
+description
+desktop
+destroy_overlays
+device index exceeds max tracked device count
+devices
+digit
+disable
+disable-out-of-process-pac
+disable-smooth-scrolling
+disable-spell-checking
+disable_environment
+dockedInDashboard
+double
+driver_hmd
+dropNullPlaceholders
+duration
+dutch
+dxgi.dll
+eCapture
+eClass
+eCommunications
+eConsole
+eMultimedia
+eRender
+eTrackingResult
+eVendor
+el_gr
+en_us
+enable
+enable-blink-features
+enable-experimental-web-platform-features
+enablePlaybackMirrorIndependentVolume
+enableYAMLCompatibility
+english
+es_es
+es_mx
+exception thrown in JSON library
+exit
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+failed to encode as png
+failed to get camera test image
+failed to get overlay pixel data
+failed to get overlay size
+fallback
+false
+fclose
+fflush
+fi_fi
+finnish
+first argument must be at least 3 points long
+fopen
+fputs
+fr_fr
+fread
+free
+french
+fseek
+ftell
+function
+fwrite
+german
+getDeviceProperty returned empty\n
+getDeviceProperty returned wrong type %d\n
+getenv
+gpu_profiler_capture
+graph
+greek
+handlers
+htmlcache
+http://
+http://127.0.0.1:
+https://
+hu_hu
+hungarian
+i]Wb
+iauds
+imageData.size() <= UINT32_MAX
+in Json::Value::asCString(): requires stringValue
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+indentation
+inputMode
+invalid array
+invalid property container handle
+invalid stoul argument
+invalid stoull argument
+invalid string position
+is_system_process
+isdigit
+isspace
+it != m_mapCallbacks[ ECallbackType_PathPropertyChanged ].end()
+it_it
+italian
+ja_jp
+japanese
+jsonOverlay != nullptr
+jsonOverlays != nullptr
+jsonid
+keyboardBuffer
+keyboardFlags
+keylength >= 2^30
+ko_kr
+koreana
+latam
+libcef.dll
+lineMode
+list<T> too long
+localhost
+log-severity
+log_console_message
+log_file_name
+lower
+m_MouseTracking[mouseCode].m_PointDown.x >= 0 && m_MouseTracking[mouseCode].m_PointDown.y >= 0
+m_nMaxLogBufferingSize > 0
+m_ulHandle != vr::k_ulInvalidMailbox
+m_vrOverlayHandle != vr::k_ulOverlayHandleInvalid
+mailbox_name
+mailbox_unhandled_message
+malloc
+managetrackers_desktop
+map/set<T> too long
+memchr
+memcmp
+memcpy
+memmove
+memset
+message_id
+message_type
+mfplat.dll
+mode
+modf
+nBytesPerPixel invalid
+nHeightInPixels must be positive
+nWidthInPixels must be positive
+name
+nb_no
+new Promise( VRHTML._PromiseHook )
+nfinity
+nl_nl
+no-user-gesture-required
+none
+norwegian
+ntdll.dll
+null
+object
+ole32.dll
+omitDesktopWebhelpers
+open_desktop_browser
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+overlay
+overlay not found
+overlayKey
+overlay_key
+overlay_name
+overlays
+owning_overlay
+pName && *pName != '\0'
+pScreenSurface
+pairing
+parameters
+persist_layout
+persist_visibility
+persisted
+pixel_size
+pl_pl
+polish
+portuguese
+powf
+precision
+preload
+preload_setting
+print
+property container key or path must not be empty
+proxy-auto-detect
+pt_br
+pt_pt
+punct
+qMFCreateMediaType failed hr = 0x%08x\n
+realloc
+reject
+rejectDupKeys
+removeusbhelper.exe
+request_handlers
+request_handlers_response
+request_mailbox_unavailable_notification
+requires 
+requires 1 function params
+requires 4 params (string,string,int, callback)
+requires string|int, string
+resizable
+resolve
+resource_load_complete
+resources
+retired_sgids
+returnAddress
+ro_ro
+romanian
+room_setup
+rotation
+roundf
+ru_ru
+runas
+runtime
+russian
+sDevicePath
+sDirectModeRequiredVersion
+sHandle
+sHeader
+sImageData
+sMotionSmoothingRequiredVersion
+sOverlayKey
+sSupportsRuntimeFramerateChangeRequiredVersion
+sText
+sTitle
+sVersion
+s_pDesiredAdapter != nullptr
+sc_schinese
+scale
+sceneApp
+scene_graph
+schinese
+second argument must be ETrackedDeviceProperty
+server
+set_animated_value
+setopenxrapilayerstate 
+setting
+settings_desktop
+short_name
+show_window
+space
+spanish
+stackLimit
+startup
+steam://
+steam://openurl/
+steam://url/SteamWorkshopPage/
+steam_api64
+steam_api64.dll
+steamvr
+steamvr.
+steamxr_win64.json
+stoul argument out of range
+stoull argument out of range
+strchr
+strcmp
+strftime
+strictRoot
+string
+string too long
+strncat
+strncmp
+strncpy
+strpbrk
+strtoul
+strtoull
+sv_se
+swedish
+system.settings
+system.vrwebhelper.
+system.vrwebhelper.controllerbinding
+tchinese
+terminate
+th_th
+thai
+throw '
+tolower
+tr_tr
+transform_parent
+translation
+true
+turkish
+type
+uint
+uk_ua
+ukrainian
+unHeight
+unIndex
+unWidth
+unknown
+unregister
+update_scene_graph
+upper
+useSpecialFloats
+vVelocity
+valid_without_hmd
+valve.steam.bigpicture
+vecRetiredSgids.size() < UINT32_MAX
+vector<T> too long
+vector<bool> too long
+version
+version.txt
+vi_vn
+vietnamese
+visible
+vrclient Shared Lib Not Found (102)
+vrclient_
+vrcombined_log.previous.txt
+vrcombined_log.txt
+vrcompositor_mailbox
+vrcompositor_systemlayer
+vrmonitor://directmode/disable
+vrmonitor://directmode/enable
+vrmonitor://open/settings/basestation
+vrmonitor://open/settings/bluetooth
+vrmonitor://openxr/makedefault
+vrmonitor://quit
+vrmonitor://restartself
+vrmonitor://restartsystem
+vrpathreg
+vrserver internal error (124)
+vrwebhelper
+vrwebhelper.exe
+vrwebhelper/main
+vrwebhelper_
+vrwebhelper_main
+vv[[[[[[[[[[[
+web_server_mailbox
+webhelperoverlays.json
+webinterface\dashboard\suggestions
+win32
+win64
+window
+window_event
+wn>Jj
+x-steamvr-secret
+xdigit
+xfDeviceToAbsoluteTracking
+xfTrackingToComponentLocal
+xfTrackingToComponentRenderModel
+zh_cn
+zh_tw
+}/webhelperoverlays.json

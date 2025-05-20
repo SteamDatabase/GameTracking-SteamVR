@@ -1,0 +1,487 @@
+  Could not disable %d!
+  Disabled %d.
+  disableenhancedpowermanagement\t\t\t\t\t - Disables Windows Enhanced Power Management and Selective Suspend on SteamVR associated USB devices.\n
+  enableappcontainers\t\t\t\t\t\t\t\t - Sets permissions to allow app containers to use the runtime.\n
+  remove\t\t\t\t\t\t\t\t\t\t\t - Removes SteamVR associated USB devices.\n
+  setopenxrapilayerstate  {api layer name} {on/off} - Sets the openxr api layer state (on: enable layer, off: disable layer).\n
+  setopenxrruntime\t\t\t\t\t\t\t\t\t - Sets the runtime that this command is part of as the current OpenXR runtime.\n
+  show\t\t\t\t\t\t\t\t\t\t\t\t - Shows SteamVR associated USB devices.\n
+ for detail.\n
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s contains an empty %s
+%s is not a valid api layer json. Missing %s member.
+' is not a number.
+, last executing in 
+-1e+9999
+-Infinity
+-disableepm
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_260c84d0b9d401cca3ce58d3c7847fb5>@@
+.?AV<lambda_cd3c8c075303f1fe60b03a012376e9e6>@@
+.?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_260c84d0b9d401cca3ce58d3c7847fb5>@@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cd3c8c075303f1fe60b03a012376e9e6>@@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AV_Facet_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.log
+.previous.txt
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.txt
+.xdata$x
+//==============================================================================================\n
+1e+9999
+: exception thrown in JSON library
+<unknown>
+================================================================================================\n
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??Bid@locale@std@@QAEIXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UAEXXZ
+?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPAV123@ABV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPA_W3AAPA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?uncaught_exception@std@@YA_NXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+A valid JSON document must be either an array or an object value.
+ADVAPI32.dll
+ASSERT: "%s" at %s:%d.\n
+Added ALL_APPCONTAINER_ACCESS to %s
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CVRLog::LogDirect
+CloseHandle
+Commands:\n
+CreateDirectoryW
+CreateEventW
+CreateFileW
+CreateWellKnownSid
+DeleteCriticalSection
+DeleteFileW
+Detail
+Device Parameters
+Duplicate key: '
+Empty escape sequence in string
+EnhancedPowerManagementEnabled
+EnterCriticalSection
+Error
+Exceeded stackLimit in readValue().
+Explicit
+Extra non-whitespace after JSON value.
+FATAL: Failed to open log file %s\n
+Failed to create WinBuiltinAnyPackageSid\n
+Failed to set ALL_APPCONTAINER_ACCESS on %s\n
+Fatal
+Found %d SteamVR endpoints, %d already have %s disabled.
+Found %d devices.\n
+Found device entry: %s\n
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentVariableA
+GetFileAttributesW
+GetFileSizeEx
+GetLastError
+GetModuleFileNameW
+GetModuleHandleExA
+GetModuleHandleW
+GetNamedSecurityInfo Error %u\n
+GetNamedSecurityInfoA
+GetProcAddress
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTickCount64
+Implicit
+Infinity
+Info
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Invalid option provided for setting openxr api layer state. Use 'on' or 'off'.\n
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+LeaveCriticalSection
+Line %d, Column %d
+LocalAlloc
+LocalFree
+MSVCP140.dll
+MainThrd
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+MoveFileExW
+Out of thread local storage!\n
+OutputDebugStringA
+PID_2000
+PID_2010
+PID_2012
+PID_2022
+PID_2050
+PID_2100
+PID_2101
+PID_2102
+PID_2203
+PID_2300
+PID_2301
+PID_2C87
+PID_8328
+Parsing of JSON file "%s" failed: %s\n
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RSDS
+RaiseException
+RegCloseKey
+RegCreateKeyExW
+RegDeleteValueA
+RegDeleteValueW
+RegDisableReflectionKey
+RegEnumKeyExA
+RegEnumValueA
+RegGetValueA
+RegGetValueW
+RegOpenKeyExA
+RegOpenKeyExW
+RegQueryInfoKeyA
+RegSetKeyValueA
+RegSetValueExA
+RegSetValueExW
+Removing SteamVR USB Devices:\n
+ResetEvent
+SETUPAPI.dll
+SHELL32.dll
+SHGetFolderPathW
+SYSTEM\CurrentControlSet\Enum\USB
+See 
+SelectiveSuspendOn
+Set SteamVR as the active OpenXR runtime.\n
+SetEntriesInAcl Error %u\n
+SetEntriesInAclA
+SetEvent
+SetFileAttributesW
+SetNamedSecurityInfo Error %u\n
+SetNamedSecurityInfoA
+SetUnhandledExceptionFilter
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInfo
+SetupDiGetClassDevsA
+SetupDiGetDeviceInstanceIdA
+SetupDiRemoveDevice
+SleepConditionVariableCS
+SteamVR USB Devices:\n
+SteamVR is already set as the active OpenXR runtime.\n
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+TerminateProcess
+TlsAlloc
+TlsFree
+Unable to determine VR Path Registry filename
+Unable to enumerate registry key values: %s
+Unable to find api layer: %s
+Unable to modify api layer state: %s
+Unable to open registry key for read: %s
+Unable to open registry key for write: %s
+Unable to parse 
+Unable to parse token length
+Unable to query registry key info: %s
+Unable to read VR Path Registry from 
+Unable to set SteamVR as the active OpenXR runtime.\n
+Unable to update openxr api layer state. Check steamvr logs for more details.\n
+UnhandledExceptionFilter
+Unknown exception
+VALVE_runtime_is_steamvr
+VCRUNTIME140.dll
+VID_0BB4
+VID_0BB4&PID_2C87
+VID_114D
+VID_28DE
+VID_28DE&PID_2
+VR Path Registry node %s is not an array\n
+VR_COMBINED_LOGGING
+VR_CONFIG_PATH
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning
+Warning: Watchdog %s not properly cleaned up%s%s\n
+WideCharToMultiByte
+[Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
+[Oxrtools] Unable to create the OpenXR available runtimes registry key %d
+[Oxrtools] Unable to disable key reflection for the OpenXR available runtime registry key %d
+[Oxrtools] Unable to disable key reflection for the OpenXR available runtimes registry key %d
+[Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
+[Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for writing %d
+[Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
+[Oxrtools] Unable to write into the OpenXR available runtimes registry key %d
+[Oxrtools] Unable to write the OpenXR ActiveRuntime registry key %d
+\ApiLayers\
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__stdio_common_vfprintf
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_close
+_commit
+_configthreadlocale
+_configure_narrow_argv
+_controlfp_s
+_crt_atexit
+_dtest
+_except1
+_except_handler3
+_except_handler4_common
+_exit
+_get_initial_narrow_environment
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_localtime64
+_mbscmp
+_mbsstr
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_sopen_dispatch
+_stricmp
+_wfsopen
+_write
+_wstat64i32
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+alse
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-multibyte-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api_layer
+assert json failed
+atoi
+bad allocation
+bad array new length
+bad conversion
+bin/vrclient_x64.dll
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\app_containers.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\removeusbhelper\Retail\win32\2017\removeusbhelper.pdb
+collectComments
+config
+deque<T> too long
+description
+disable_environment
+disableenhancedpowermanagement
+disablepowermanagement
+enableappcontainers
+enhanced power management
+exception thrown in JSON library
+executing command: %s\n
+exit
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+false
+fclose
+fflush
+fopen
+fputs
+fread
+free
+fseek
+ftell
+fwrite
+getenv
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+invalid string position
+keylength >= 2^30
+m_nMaxLogBufferingSize > 0
+malloc
+map/set<T> too long
+memcpy
+memmove
+memset
+modf
+name
+nfinity
+openvr
+openvrpaths.vrpath
+openxr api layer %s : %s\n
+please provide an api layer name and new state.\n
+rejectDupKeys
+runtime
+selective suspend
+setopenxrapilayerstate
+setopenxrruntime
+stackLimit
+startup
+steamxr_win64.json
+strftime
+strictRoot
+string too long
+strncpy
+terminate
+true
+vector<T> too long
+vrcombined_log.previous.txt
+vrcombined_log.txt
+win32

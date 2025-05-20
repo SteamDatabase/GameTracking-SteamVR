@@ -1,0 +1,177 @@
+.00cfg
+.?AV_com_error@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+?_Throw_C_error@std@@YAXH@Z
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+CloseHandle
+CoCreateGuid
+CoCreateInstance
+CoCreateInstance failed: 0x%08lx\n
+CoCreateInstance for INetFwPolicy2 failed: 0x%08lx\n
+CoCreateInstance for INetFwRule failed: 0x%08lx\n
+CoInitializeEx
+CoInitializeEx failed: 0x%08lx\n
+CoUninitialize
+CreateEventW
+CreateFileW
+DeleteCriticalSection
+EnterCriticalSection
+Failed string allocation\n
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetFileInformationByHandle
+GetLastError
+GetModuleFileNameW
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+L09n
+LeaveCriticalSection
+LocalFree
+MSVCP140.dll
+OLEAUT32.dll
+PathCchAppend
+PathRemoveFileSpecW
+QueryPerformanceCounter
+RSDStM
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SHLWAPI.dll
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+StringFromGUID2
+TerminateProcess
+Unable to construct path to vrserver.\n
+Unable to disable firewall rule: %d 0x%08lx\n
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140.dll
+WaitForSingleObjectEx
+WakeAllConditionVariable
+WideCharToMultiByte
+WindowsFirewallAddRule add %d failed: 0x%08lx\n
+WindowsFirewallAddRule failed to query firewall rule %d 0x%08lx\n
+WindowsFirewallInitialize failed: 0x%08lx\n
+[,i33L
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p___wargv
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vfwprintf
+__stdio_common_vsprintf
+_c_exit
+_callnewh
+_cexit
+_configthreadlocale
+_configure_wide_argv
+_crt_atexit
+_errno
+_exit
+_get_initial_wide_environment
+_initialize_onexit_table
+_initialize_wide_environment
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_wcsicmp
+api-ms-win-core-path-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bad allocation
+bad array new length
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserverhelper\Retail\win64\2017\vrserverhelper.pdb
+exit
+free
+get_CurrentProfile failed: 0x%08lx\n
+get_LocalPolicy failed: 0x%08lx\n
+get_Rules failed: 0x%08lx\n
+malloc
+memcpy
+memmove
+memset
+ole32.dll
+pFwRules->Add( pRule ) failed: 0x%08lx\n
+string too long
+strstr
+terminate
+vector<T> too long

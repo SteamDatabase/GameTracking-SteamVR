@@ -1,0 +1,1510 @@
+                          
+   Company:    %s\r\n
+   FileDesc:   %s\r\n
+   FileVer:    %d.%d.%d.%d\r\n
+   ProdVer:    %d.%d.%d.%d\r\n
+   Product:    %s\r\n
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ * %s"%s" (%s)\r\n
+ * '%s' = '%s'\r\n
+ * App Name: %s\r\n
+ * App Version: %s\r\n
+ * Bug Reporter App Path: %s\r\n
+ * Crash Report Path: %s\r\n
+ * Is Editor: %s\r\n
+ * Mono DLL: %s\r\n
+ Base Class Array'
+ Base Class Descriptor at (
+ C>TQ
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ delete
+ delete[]
+ new
+!AxU
+!a9X
+"e?<<<<<<l?
+#bML"
+$Ib?s
+%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%x
+%02x 
+%08x 
+%4xY
+%d MB physical memory [%d MB free].\r\n
+%d MB process peak paging file [%d MB used].\r\n
+%d MB process peak working set [%d MB used].\r\n
+%d%% physical memory in use.\r\n
+%d-%02d-%02d_%02d%02d%02d
+%lli
+%llu
+%s %s in module %s at %04x:%08x.\r\n\r\n
+%s %s(Filename: %s Line: %i)%s
+%s by %s [version: %s]\r\n\r\n
+%s caused %s (0x%08x)\r\n  in module %s at %04x:%08x.\r\n\r\n
+%s location %08p caused an access violation.\r\n
+%s, run by %s.\r\n\r\n
+%s/api/v2/projects/%s/reports
+%s:%s (%p), size: %d (result: %d), SymType: '%s', PDB: '%s', fileVersion: %d.%d.%d.%d\n
+%s:%s (%p), size: %d (result: %d), SymType: '%s', PDB: '%s'\n
+&?PPPPPPP?
+&Sgw
+( 8PX
+('8PW
+()$^.*+?[]|\-{},:=!\n\r
+(<unknown>)
+(function-name not available)
+(null)
+)yIx
+*** WARNING ***\r\nManaged call stack frames will be incorrect or missing because the Mono DLL at '%S' could not be found.\r\n
+*** WARNING ***\r\nManaged call stack frames will be incorrect or missing because the Mono DLL at '%S' could not be loaded (unknown error).\r\n
+*** WARNING ***\r\nManaged call stack frames will be incorrect or missing.\r\nThe Mono DLL at '%S' does not provide out-of-process stack information support.\r\nUpgrade to a newer version of the Mono Scripting Runtime for more detailed debug information.\r\n
+*** WARNING ***\r\nMono DLL loaded successfully at '%S' but failed to read Mono Function Access Tables. Stack frames may be missing or corrupt.\r\n
+*** WARNING ***\r\nMono DLL loaded successfully at '%S' but failed to read Mono stack frame memory. Stack frames may be missing or corrupt.\r\n
+*5KS
+*StO9>T
+*http://msdl.microsoft.com/download/symbols;
+,HR>O
+--%s\r\nContent-Disposition: form-data; name="%s"\r\n\r\n%s\r\n
+--%s\r\nContent-Disposition: form-data; name="file"; filename="data.crashreportevent.gz"\r\nContent-Type: application/octet-stream\r\n\r\n
+-BH>t
+-deferred-
+-exported-
+-nosymbols-
+-sSO\
+-unknown-
+.00cfg
+.>\rfJBGo
+.?AUIExecutionContext@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AUIResourceManager@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AUITopologyExecutionResource@Concurrency@@
+.?AUITopologyNode@Concurrency@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AUTopologyObject@GlobalCore@details@Concurrency@@
+.?AUTopologyObject@GlobalNode@details@Concurrency@@
+.?AU_Chore@details@Concurrency@@
+.?AU_Crt_new_delete@std@@
+.?AUctype_base@std@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
+.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
+.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
+.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
+.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$collate@D@std@@
+.?AV?$collate@_W@std@@
+.?AV?$ctype@D@std@@
+.?AV?$ctype@_W@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$numpunct@D@std@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
+.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
+.?AVContext@Concurrency@@
+.?AVContextBase@details@Concurrency@@
+.?AVExecutionResource@details@Concurrency@@
+.?AVExternalContextBase@details@Concurrency@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVFairScheduleGroupSegment@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
+.?AVFreeVirtualProcessorRoot@details@Concurrency@@
+.?AVInternalContextBase@details@Concurrency@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVReadException@OutOfProcessMono@@
+.?AVRealizedChore@details@Concurrency@@
+.?AVResourceManager@details@Concurrency@@
+.?AVScheduleGroup@Concurrency@@
+.?AVScheduleGroupBase@details@Concurrency@@
+.?AVScheduleGroupSegmentBase@details@Concurrency@@
+.?AVScheduler@Concurrency@@
+.?AVSchedulerBase@details@Concurrency@@
+.?AVSchedulerProxy@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
+.?AVThreadInternalContext@details@Concurrency@@
+.?AVThreadProxy@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
+.?AVThreadVirtualProcessor@details@Concurrency@@
+.?AVTimedSingleWaitBlock@details@Concurrency@@
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitBlock@details@Concurrency@@
+.?AV_CancellationTokenRegistration@details@Concurrency@@
+.?AV_Facet_base@std@@
+.?AV_Generic_error_category@std@@
+.?AV_Interruption_exception@details@Concurrency@@
+.?AV_Locimp@locale@std@@
+.?AV_RefCounter@details@Concurrency@@
+.?AV_Ref_count_base@std@@
+.?AV_System_error@std@@
+.?AV__non_rtti_object@std@@
+.?AVbad_alloc@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_typeid@std@@
+.?AVcontext_self_unblock@Concurrency@@
+.?AVcontext_unblock_unbalanced@Concurrency@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVfailure@ios_base@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
+.?AVimproper_scheduler_reference@Concurrency@@
+.?AVinvalid_argument@std@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVmissing_wait@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVout_of_range@std@@
+.?AVregex_error@std@@
+.?AVruntime_error@std@@
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AVscheduler_worker_creation_error@Concurrency@@
+.?AVstl_condition_variable_concrt@details@Concurrency@@
+.?AVstl_condition_variable_interface@details@Concurrency@@
+.?AVstl_condition_variable_vista@details@Concurrency@@
+.?AVstl_condition_variable_win7@details@Concurrency@@
+.?AVstl_critical_section_concrt@details@Concurrency@@
+.?AVstl_critical_section_interface@details@Concurrency@@
+.?AVstl_critical_section_vista@details@Concurrency@@
+.?AVstl_critical_section_win7@details@Concurrency@@
+.?AVsystem_error@std@@
+.?AVtype_info@@
+.?AVunsupported_os@Concurrency@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCC
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPB
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.local
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.wN\f9
+.xJ>Hf
+.xdata
+.xdata$x
+/2GG>!B
+/P8i
+/yQA
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+0123456789ABCDEF
+0123456789abcdefC:\buildslave\unity\build\Runtime/Utilities/MemoryPool.cpp
+0123456789abcdefghijklmnopqrstuvwxyz
+0123456789abcdefstring too long
+0E>X
+0X8b?~
+0iN>/
+0x%08x: 
+0x%p (%s) %s\n
+0x%p (%s) [%s:%d] %s \n
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1.2.11
+11Y@
+11eU%
+1A26b
+1eaB@
+1wsHp
+2\vp(F
+3 FB
+37>k
+3>N;kU
+3>fvw
+3?tr
+51>W
+52F*
+6NK>
+6\fXO>\ntA
+700PP
+700WP
+7>I0
+7?GX
+7~8A
+7~xh
+8ke?;
+9>70
+9>powf
+9a&g
+:V!2m
+;\tFzo
+<Missing stacktrace information>\n
+<Unable to access crash thread information>\r\n
+<appName>
+<crashReportPath>
+<meta:(\w+)>
+<not set>
+<unknown class>
+<unknown method>
+<unknown>
+<vendor>
+<version>
+=87M
+=cQ6
+=e2m
+=imb;D
+>cQ6
+>jtm}S
+?!5WOo
+?49HoKC
+?7zQ6$
+?7{KV\nU
+?8bunz8
+?@En[vP
+?R0I?
+?UUUUUU
+?f`Y4
+?kxG2)
+?lZE
+?qBJ
+?rAj
+?ysB
+@BXV
+@iZb
+A>pP&
+AABB
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+AK>(v
+Access violation - no RTTI data!
+AcquireSRWLockExclusive
+AddFile
+AdjustWindowRect
+AllocConsole
+AnimationClip
+AnimationCurve
+AnimationState
+AppPolicyGetProcessTerminationMethod
+April
+AreFileApisANSI
+Array
+Assertion failed: %s\n\n
+August
+BC?>6t9^\tc:>
+BF>^G
+Bad dynamic_cast!
+Base
+BitField
+BoundsInt
+C-Yn
+C5R?\t
+C:\buildslave\unity\build\Modules/JSONSerialize/Public/JSONWrite.cpp
+C:\buildslave\unity\build\PlatformDependent/Win/FileInformation.cpp
+C:\buildslave\unity\build\PlatformDependent/Win/StackWalker.cpp
+C:\buildslave\unity\build\PlatformDependent/Win/UnityCrashHandler/CrashHandlerWindows.cpp
+C:\buildslave\unity\build\Runtime/Core/Containers/StringStorageDefault.h
+C:\buildslave\unity\build\Runtime/Core/Containers/hash_set.h
+C:\buildslave\unity\build\Runtime/Utilities/dynamic_array.h
+C:\buildslave\unity\build\Runtime\Serialize\TransferFunctions\TransferNameConversions.cpp
+C:\buildslave\unity\build\artifacts\UnityCrashHandler\release_win64\UnityCrashHandler64.pdb
+CL:>8
+COFF
+CWD>~3
+Call Stack for Thread %d:\r\n
+CancelSynchronousIo
+ChangeTimerQueueTimer
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+CoCreateGuid
+CoInitializeEx
+CoInitializeEx failed with code 0x%0x\n
+CoTaskMemFree
+ColorRGBA
+CommandLineToArgvW
+CompanyName
+CompareStringEx
+CompareStringW
+Component
+Content-Length: 
+Content-Type: multipart/form-data; boundary=
+Context:\r\n
+ContextPriority
+ContextStackSize
+CopyFileExW
+Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CorExitProcess
+Corrupt log message framecount sent to crash handler: %s\n
+Corrupt log message timestamp sent to crash handler: %s\n
+Corrupt log message type sent to crash handler: %s\n
+Corrupt message sent to crash handler: %s\nPayload:\n
+Corrupt report
+Couldn't attach to process PID %d\n
+Couldn't create crash dump directory: %S\n
+Couldn't create shared event for PID %d\n
+Crash Report configuration:\r\n
+Crash data sent by PID %d is corrupt: expected magic '0x%llx' but got '0x%llx'\n
+Crash data sent by PID %d is corrupt: expected size %d but got %d\n
+Crash data sent by PID %d is corrupt: expected to agree on PID but got %d\n
+Crash handler abnormally terminating due to abort()\n
+Crash handler abnormally terminating due to invalid parameter handler\n
+CreateEventA
+CreateEventExW
+CreateEventW
+CreateFileW
+CreateIconFromResourceEx
+CreateMutexExW
+CreateProcessW
+CreateRemoteThreadEx
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+CreateTimerQueue
+CreateTimerQueueTimer
+CreateToolhelp32Snapshot
+CreateUmsCompletionList
+CreateUmsThreadContext
+December
+DecodePointer
+DeleteCriticalSection
+DeleteFileW
+DeleteProcThreadAttributeList
+DeleteTimerQueueTimer
+DeleteUmsCompletionList
+DeleteUmsThreadContext
+DequeueUmsCompletionListItems
+DialogBoxParamA
+Disk space data for '%s' is unavailable.\r\n\r\n
+Disk space data for '%s': %llu bytes free of %llu total.\r\n\r\n
+Done.\n
+DuplicateHandle
+DynamicProgressFeedback
+E>nEA
+EFlags: 0x%016llx  RSP: 0x%016llx  SegSs: 0x%016llx\r\n
+ERROR: %s, GetLastError: %d (Address: %p)\n
+ERROR: %s, GetLastError: '%s' (Address: %p)\r\n
+ERROR: DumpMiniDump: MiniDumpWriteDump function in dbghelp.dll not found\n
+ERROR: DumpMiniDump: dbghelp.dll not found\n
+ET5>
+E[\rn?gc
+EiUL
+Empty message recieved by crash handler.
+EncodePointer
+EndDialog
+Endless Callstack!
+EnterCriticalSection
+EnterUmsSchedulingMode
+EnumProcessModules
+EnumResourceNamesA
+EnumSystemLocalesEx
+EnumSystemLocalesW
+Error occurred at %s.\r\n
+Error while initializing dbghelp.dll
+Exception encountered during stack dump.\r\n
+Exception encountered during stack walk of thread %d\n
+Exception encountered during stack walk.\r\n
+ExecuteUmsThread
+ExitProcess
+Expected four parameters 'message', 'timestamp', 'framecount', and 'type'
+Expected parameter 'file'
+Expected parameter 'info'
+Expected parameter 'isEditor'
+Expected parameter 'logBufferSize'
+Expected parameter 'name'
+Expected parameter 'path'
+Expected parameter 'showDialog'
+Expected parameter 'vendor'
+Expected two parameters 'file' and 'desc'
+Expected two parameters 'key' and 'value'
+EydV
+F>qUxv
+FEMh\f
+Failed to cache crash report.\n
+Failed to copy "%s" to crash report folder at "%S"\n
+Failed to find file "%s"\n
+Failed to generate minidump at '%S' (%x)\n
+Failed to generate report summary at '%S'\n
+Failed to launch bug reporter: "%s"
+Failed to load virtual Mono module at 0x%llx-0x%llx[%d].\r\n
+Failed to open HTTP request to server '%s' (code %d)\n
+Failed to open internet session to server '%s' (code %d)\n
+Failed to open the Internet with code %d\n
+Failed to read PID %d's memory at %p (%d bytes)\n
+Failed to register the managed symbol callback.\n
+Failed to upload
+Failed to upload %u bytes to server '%s' (code %d)\n
+Failed to write
+FastPropertyName
+February
+FfW?
+File Size:  %-10d  File Time:  %s\r\n
+FileDescription
+FileTimeToDosDateTime
+FileTimeToLocalFileTime
+FindClose
+FindFirstFileExW
+FindFirstFileW
+FindNextFileW
+FindResourceA
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+Font
+FormatMessageW
+Found %u potential reports:\n
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryAndExitThread
+FreeLibraryWhenCallbackReturns
+Friday
+G>US
+GDI32.dll
+GUID
+GUIStyle
+GameObject
+Generic Mono
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryA
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetCurrentUmsThread
+GetDateFormatEx
+GetDiskFreeSpaceExW
+GetDlgItem
+GetDpiForWindow
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetExitCodeProcess
+GetExitCodeThread
+GetFileAttributesA
+GetFileAttributesW
+GetFileInformationByHandleEx
+GetFileSize
+GetFileTime
+GetFileType
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+GetFileVersionInfoSizeW
+GetFileVersionInfoW
+GetIconInfo
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLogicalProcessorInformation
+GetLogicalProcessorInformationEx
+GetModuleBaseNameA
+GetModuleFileNameA
+GetModuleFileNameExA
+GetModuleFileNameExW
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetModuleInformation
+GetNativeSystemInfo
+GetNextUmsListItem
+GetNumaHighestNodeNumber
+GetOEMCP
+GetObjectA
+GetPerformanceInfo
+GetProcAddress
+GetProcessAffinityMask
+GetProcessHeap
+GetProcessId
+GetProcessMemoryInfo
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemInfo
+GetSystemTime
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetTempPathW
+GetThreadContext
+GetThreadGroupAffinity
+GetThreadId
+GetThreadPriority
+GetThreadTimes
+GetTickCount
+GetTickCount64
+GetTimeFormatEx
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUmsCompletionListEvent
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+GetUserNameA
+GetUserNameW
+GetVersionExW
+GetWindowLongA
+GlobalMemoryStatusEx
+Gradient
+GradientNEW
+H$6t
+H*0"ZOW
+HH:mm:ss
+HTTP/1.1
+HeapAlloc
+HeapFree
+HeapQueryInformation
+HeapReAlloc
+HeapSize
+HttpOpenRequestA
+HttpQueryInfoA
+HttpSendRequestA
+IiGM>nw
+Il?333333c?
+Image Base: 0x%08x  Image Size: 0x%08x\r\n
+InflateRect
+InitOnceExecuteOnce
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeProcThreadAttributeList
+InitializeSListHead
+InitializeSRWLock
+Inter-process communication between Unity and the crash handler prematurely exited with code %d\n
+InterlockedFlushSList
+InterlockedPopEntrySList
+InterlockedPushEntrySList
+InternetCloseHandle
+InternetConnectA
+InternetCrackUrlA
+InternetOpenA
+Invalid URL scheme '%s' (expected 'https').\n
+Invalid pipe specified for STDIN.\n
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+JAf----------V2ymHFg03ehbqgZCaKO6jy
+January
+Jugm
+July
+June
+KERNEL32.dll
+Kernel32.dll
+L>ev
+L?UUUUUUU?
+LCIDToLocaleName
+LCMapStringEx
+LCMapStringW
+LWG>
+LWW>
+Launching custom bug reporter with command line:\n  %S\n
+LeaveCriticalSection
+LoadImageA
+LoadLibraryA
+LoadLibraryExW
+LoadLibraryW
+LoadModule
+LoadResource
+Loaded virtual Mono module at 0x%llx-0x%llx[%d].\r\n
+LocalContextCacheSize
+LocalFree
+LocaleNameToLCID
+Lock already taken
+LockResource
+LogMessage
+LookupIconIdFromDirectoryEx
+M8MF
+MGiI
+MISSING: 
+MM/dd/yy
+Malformed attachFiles request in bug reporter path: %s\n
+Malformed meta request in bug reporter path: %s\n
+ManagedException
+March
+Matrix4x4f
+MaxConcurrency
+MaxPolicyElementKey
+Mbp?333333
+MdFour
+Message payload [%d]: 
+Metadata corrupt or wrong version
+MinConcurrency
+MiniDumpWriteDump
+Missing metadata
+Missing report
+Module %d\r\n
+Module32First
+Module32Next
+Monday
+Mono DLL loaded successfully at '%S'.\r\n
+Mono JIT Code
+MonoBehaviour
+MonoScript
+MultiByteToWideChar
+N3`d?
+N>O=I9
+N>VF
+NAN(IND)
+NAN(SNAN)
+NJ2"v
+NQ?s
+NativeCrash
+No call stack available.\r\n
+No mono DLL path set. This app is either running IL2CPP, or the crash occurred before mono was initialized.\r\n
+November
+O*9y]
+O8Mr
+OS-Version: %d.%d.%d\n
+OZQ%
+OZw3(?
+Object
+October
+OffsetRect
+OpenProcess
+OpenThread
+OutputDebugStringA
+PAL_Debug_IsDebuggerAttached
+PAL_Identification_GetPlatformName
+PAL_Memory_AlignedAllocate
+PAL_Memory_AlignedFree
+PAL_Memory_AlignedReallocate
+PAL_Memory_Allocate
+PAL_Memory_AllocatePages
+PAL_Memory_AllocatePagesAligned
+PAL_Memory_Free
+PAL_Memory_GetPageSizeInfo
+PAL_Memory_Reallocate
+PAL_Memory_ReleasePages
+PAL_Memory_SetPageState
+PAL_Monitor_Create
+PAL_Monitor_Free
+PAL_Monitor_Lock
+PAL_Monitor_Notify
+PAL_Monitor_NotifyAll
+PAL_Monitor_TryLock
+PAL_Monitor_Unlock
+PAL_Monitor_Wait
+PAL_Process_Abort
+PAL_Semaphore_Create
+PAL_Semaphore_Free
+PAL_Semaphore_Post
+PAL_Semaphore_Wait
+PAL_TLS_Alloc
+PAL_TLS_Free
+PAL_Thread_ConfigCreate
+PAL_Thread_Create
+PAL_Thread_GetCurrentThreadId
+PAL_Thread_GetId
+PAL_Thread_Join
+PAL_Thread_SupportsThreads
+PAL_Thread_YieldExecution
+PAL_Timer_GetHighPrecisionTimerTicks
+PAL_Timer_GetTicksToNanosecondsConversionRatio
+PAL_Timer_GetTimeSinceStartupInSeconds
+PAL_Timer_WaitForAtLeast
+POST
+PPtr<Component>
+PPtr<GameObject>
+PPtr<Material>
+PPtr<MonoBehaviour>
+PPtr<MonoScript>
+PPtr<Object>
+PPtr<Prefab>
+PPtr<Sprite>
+PPtr<TextAsset>
+PPtr<Texture2D>
+PPtr<Texture>
+PPtr<Transform>
+PSAPI.DLL
+Parameter for 'SetShowDialog' should be 'true' or 'false'
+Parameter for 'isEditor' should be 'true' or 'false'
+Pe6^
+Prefab
+Process PID %d exited with code %d\n
+Process PID %d was terminated but exit code is not available.\n
+ProductName
+ProgramFiles
+ProjectID is empty
+Q5rHg,>
+QAf?
+Qkkbal
+Quaternionf
+QueryDepthSList
+QueryPerformanceCounter
+QueryPerformanceFrequency
+QueryUmsThreadInformation
+R11:    0x%016llx  R12: 0x%016llx  R13:   0x%016llx\r\n
+R14:    0x%016llx  R15: 0x%016llx\r\n
+R1h58
+R8:     0x%016llx  R9:  0x%016llx  R10:   0x%016llx\r\n
+RBX:    0x%016llx  RCX: 0x%016llx  RDX:   0x%016llx\r\n
+RDI:    0x%016llx  RSI: 0x%016llx  RAX:   0x%016llx\r\n
+RIP:    0x%016llx  RBP: 0x%016llx  SegCs: 0x%016llx\r\n
+RJqn
+RSDSt
+R\vp(F
+RaiseException
+Read from
+ReadFile
+ReadProcessMemory
+RecordLogMessage
+RectInt
+RectOffset
+Rectf
+RegisterTraceGuidsW
+RegisterWaitForSingleObject
+ReleaseMutex
+ReleaseSRWLockExclusive
+ReleaseSemaphore
+RemoveFile
+ReportJson
+ResetEvent
+ResumeThread
+RoInitialize
+RoUninitialize
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlLookupFunctionEntry returned NULL function. Aborting stack walk.\n
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S9>H
+S>$hkDh$h>[2
+SHCreateDirectoryExW
+SHELL32.dll
+SHGetFolderPathW
+SHGetKnownFolderPath
+SInt16
+SInt32
+SInt64
+SInt8
+SKyu
+SRV*
+SRV*c:\websymbols*http://msdl.microsoft.com/download/symbols;
+STv/N
+SYSTEMDRIVE
+SYSTEMROOT
+Saturday
+SchedulerKind
+SchedulingProtocol
+SendDlgItemMessageA
+SendMessageW
+September
+SetAppName
+SetBugReporterAppPath
+SetConsoleCtrlHandler
+SetCrashReportPath
+SetErrorMode
+SetEvent
+SetFileInformationByHandle
+SetFilePointerEx
+SetForegroundWindow
+SetInfo
+SetIsEditor
+SetLastError
+SetLogBufferSize
+SetMetaData
+SetMonoPath
+SetShowDialog
+SetStdHandle
+SetThreadAffinityMask
+SetThreadDescription
+SetThreadGroupAffinity
+SetThreadPriority
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUmsThreadInformation
+SetUnhandledExceptionFilter
+SetUserMetaData
+SetVendor
+SetWindowPos
+SetWindowTextW
+Shell32.dll
+SignalObjectAndWait
+SizeofResource
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+SleepEx
+Stack Memory [0x%p-0x%p]:\r\n
+StackFrame
+StackWalk64
+Stacktrace is not supported on this platform.
+SubmitThreadpoolWork
+Sunday
+SuspendThread
+SwitchToThread
+SymCleanup
+SymFunctionTableAccess64
+SymGetLineFromAddr64
+SymGetModuleBase64
+SymGetModuleInfo64
+SymGetOptions
+SymGetSearchPath
+SymGetSymFromAddr64
+SymInit: Symbol-SearchPath: '%s', symOptions: %d, UserName: '%s'\n
+SymInitialize
+SymLoadModule64
+SymLoadModuleEx
+SymRegisterFunctionEntryCallback64
+SymSetOptions
+System Commit Total/Limit/Peak: %dMB/%dMB/%dMB\r\n
+System Handle Count: %d\r\n
+System Physical Total/Available: %dMB/%dMB\r\n
+System Process Count: %d\r\n
+System Thread Count: %d\r\n
+T%L9
+TUUUU
+TargetOversubscriptionFactor
+TerminateProcess
+TerminateThread
+TextAsset
+TextMesh
+Texture
+Texture2D
+Thread
+Thread %d
+Thread32First
+Thread32Next
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TraceEvent
+Transform
+TryAcquireSRWLockExclusive
+TryEnterCriticalSection
+Tuesday
+Type*
+TypelessData
+U1(\Q
+UA>N0Wl
+UInt16
+UInt32
+UInt64
+UInt8
+USER32.dll
+UTF-16LEUNICODE
+UTF-8
+UUUUUU
+UmsThreadYield
+UnDecorateSymbolName
+Unexpected node type.
+UnhandledExceptionFilter
+UnionRect
+UnityCrashHandler
+UnityCrashHandler64.exe
+Unknown error
+Unknown error [%i]
+Unknown exception
+Unknown message
+Unknown version
+UnregisterTraceGuids
+UnregisterWait
+UnregisterWaitEx
+UpdateProcThreadAttribute
+Upload of %u bytes to server '%s' completed, but received no response (Win32 code %d)\n
+Upload of %u bytes to server '%s' completed, the server responded with code %u\n
+Usage: %S <process ID> <shared region address>\n
+User32.dll
+UserMetadata
+VERSION.dll
+Vc0a
+Vector2f
+Vector3f
+Vector4f
+VerQueryValueA
+VerQueryValueW
+VerSetConditionMask
+VerifyVersionInfoW
+Version:\r\n
+Virtual
+VirtualAlloc
+VirtualFree
+VirtualProtect
+VirtualQuery
+VirtualQueryEx
+W4vC
+WININET.dll
+WaNd?
+WaitForMultipleObjectsEx
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+Waiting on crash event failed with code %d\n
+WakeAllConditionVariable
+WakeConditionVariable
+Warning: IPC thread exited with code %d.\n
+Warning: Upload of %u bytes to server '%s' completed, but received multiple status codes! (first code: %u)\n
+Warning: Wait on crash event threw unexpected error: %d. GetLastError is %d.\n
+Warning: couldn't find metadata '%s'\n
+Wednesday
+WideCharToMultiByte
+WinRTInitialization
+Windows
+Write to
+WriteConsoleW
+WriteFile
+X/4B
+X5AHx
+XqkY
+XsBI
+Y8a:
+Y>kX>M
+Z\>z8
+Zjz\v
+[*QmU
+[*ncd>0
+[CRASH HANDLER] Waiting for debugger...\n
+[UNREGISTERED]
+[aOni*{
+[h1R
+\Debugging Tools for Windows (x64)\dbghelp.dll
+\Debugging Tools for Windows 64-Bit\dbghelp.dll
+\Debugging Tools for Windows\dbghelp.dll
+\nh?oT
+\nk>oB
+\r\f\v\v\n\n\t\t\t\t\t
+\r\n== [end of %S] ==\r\n
+\r\nAdditional report files:\r\n
+\r\nBytes at CS:EIP:\r\n
+\r\nCrash Report metadata:\r\n
+\r\nStacks for Running Threads:\r\n\r\n
+\r\n\r\nStack Trace of Crashed Thread %d:\r\n
+\rmj>zjZ
+\system32
+\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\tcQr
+\tkE>fvw
+\vA03>A|
+\websymbols
+\ysK
+]rHa
+^<V7w
+^RfN>
+^oEZ_
+_NT_ALTERNATE_SYMBOL_PATH
+_NT_SYMBOL_PATH
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift_1
+__swift_2
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+_oD>Kg
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+a Array Bounds Exceeded
+a Breakpoint
+a Control-Break
+a Control-C
+a DLL Initialization Failed
+a Datatype Misalignment
+a Float Denormal Operand
+a Float Divide by Zero
+a Float Inexact Result
+a Float Invalid Operation
+a Float Overflow
+a Float Stack Check
+a Float Underflow
+a Microsoft C++ Exception
+a No Memory
+a Noncontinuable Exception
+a Privileged Instruction
+a Stack Overflow
+a6>r
+abcdefghijklmnopqrstuvwxyz
+absolute_pc
+acos
+address family not supported
+address in use
+address not available
+alnum
+alpha
+already connected
+an Access Violation
+an Illegal Instruction
+an In Page Error
+an Integer Divide by Zero
+an Integer Overflow
+an Invalid Disposition
+an Unknown exception type
+app_build
+appid
+argument list too long
+argument out of domain
+asin
+atan
+atan2
+bad address
+bad allocation
+bad exception
+bad file descriptor
+bad locale name
+bad message
+bitset
+blank
+bnMG
+bool
+broken pipe
+buffer error
+build_guid
+build_tags
+bzo=
+c:\buildslave\unity\build\modules\jsonserialize\public\JSONAllocator.h
+c:\buildslave\unity\build\modules\jsonserialize\public\JSONRead.h
+c?FA@s}
+ceil
+char
+client_report_id
+client_ts
+cntrl
+connection aborted
+connection already in progress
+connection refused
+connection reset
+cosh
+count
+counter
+cpu_count
+cpu_freq
+crashed
+cross device link
+d6\f6
+d8L2
+d?000000`?
+dQy/
+dRL>
+data
+data error
+dbghelp.dll
+dddd, MMMM dd, yyyy
+debug_device
+deque
+destination address required
+device or resource busy
+device_info_flags
+device_model
+device_ram
+device_type
+device_vram
+digit
+directory not empty
+double
+dynamic_array
+e+000
+eF>t
+eLK(w
+eax~Z
+ekhHD
+enabled_vr_devices
+eventObject
+ewh/?y
+executable format error
+fD>b
+fP~V
+fWi?
+fabs
+false
+file error
+file exists
+file too large
+filename too long
+first
+float
+floor
+fmod
+frame
+frames
+frexp
+fu`z
+function not supported
+g_Detail_ToNanosecondsConversionFactor
+generic
+gpu_api
+gpu_caps
+gpu_copy_texture_support
+gpu_device_id
+gpu_driver
+gpu_max_cubemap_size
+gpu_max_texture_size
+gpu_render_texture_support
+gpu_shader_caps
+gpu_supported_render_target_count
+gpu_texture_format_support
+gpu_vendor
+gpu_vendor_id
+gpu_version
+gqr<
+graph
+h0'D
+h>1my
+hGT.
+hPU3
+host unreachable
+https
+https://perf-events.cloud.unity3d.com
+i91k
+i]Wb
+identifier removed
+illegal byte sequence
+image_base_address
+image_name
+image_uuid
+inappropriate io control operation
+incompatible version
+install_mode
+install_store
+insufficient memory
+int2_storage
+int3_storage
+interrupted
+invalid argument
+invalid seek
+invalid string position
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+is a directory
+is_ar_app
+is_editor
+is_fullscreen
+is_user_image
+is_wsar_remote
+k*do^
+k0V(
+k=yI
+kernel32.dll
+l6qnk
+lDa>
+ldexp
+list
+list<T> too long
+localprojectid
+log10
+log_messages
+long long
+lower
+lstrlenA
+m?H7
+mG4>
+mSx@
+m\nXo
+m_ByteSize
+m_CorrespondingSourceObject
+m_Curve
+m_EditorClassIdentifier
+m_EditorHideFlags
+m_Enabled
+m_ExtensionPtr
+m_GameObject
+m_Index
+m_IsArray
+m_IsStatic
+m_MetaFlag
+m_Name
+m_ObjectHideFlags
+m_PrefabAsset
+m_PrefabInstance
+m_PrefabInternal
+m_PrefabParentObject
+m_Script
+m_ScriptingClassIdentifier
+m_StaticEditorFlags
+m_Type
+m_Version
+managed
+managed_exception
+managed_frame_desc
+map/set<T> too long
+message
+message size
+modf
+mono_unity_oop_get_dynamic_function_access_table64
+mono_unity_oop_get_stack_frame_details
+mono_unity_oop_init
+mono_unity_oop_iterate_dynamic_function_access_tables64
+mr"iR
+n03>Pu
+nQ:B
+n]?iJ
+name
+nan(ind)
+nan(snan)
+native_crash
+need dictionary
+network down
+network reset
+network unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+number
+o?GS
+oI>O7
+obwQ4
+ole32.dll
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operator
+operator "" 
+operator co_await
+os_family
+owM&
+owner dead
+pContext
+pEvents
+pExecutionResource
+pH_r
+pScheduler
+pThreadProxy
+pair
+pc2g
+pdb_name
+permission denied
+platform
+platformid
+ppVirtualProcessorRoots
+print
+proc
+protocol error
+protocol not supported
+psapi.dll
+punct
+qS>g?h3
+quAt
+rLp>B
+r\tVr.>T
+raB3G
+read only file system
+refresh_rate
+regex_error
+regex_error(error_backref): The expression contained an invalid back reference.
+regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
+regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+regex_error(error_brace): The expression contained mismatched { and }.
+regex_error(error_brack): The expression contained mismatched [ and ].
+regex_error(error_collate): The expression contained an invalid collating element name.
+regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+regex_error(error_ctype): The expression contained an invalid character class name.
+regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+regex_error(error_paren): The expression contained mismatched ( and ).
+regex_error(error_parse)
+regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+regex_error(error_syntax)
+relative_pc
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+rooted_or_jailbroken
+ru&o
+screen_dpi
+screen_orientation
+screen_size
+scripting_backend
+sdk_ver
+sdk_ver_full
+second
+sensor_flags
+sessionid
+short
+signal_address
+signal_code
+signal_name
+signal_pc
+sinh
+size
+space
+sqrt
+stack_trace
+state not recoverable
+staticvector
+stream end
+stream error
+stream timeout
+string
+switchState
+system_language
+tC7Ddx
+tanh
+text file busy
+threads
+timed out
+tlhelp32.dll
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+true
+type
+undefined
+unknown error
+unsigned int
+unsigned long long
+unsigned short
+upper
+user_metadata
+userid
+uuuuuuuubtnufruuuuuuuuuuuuuuuuuu
+uzKs@>
+v2!L.2
+vH7B
+vQO+t
+value
+value too large
+vector
+vector<T> too long
+vector<bool> too long
+version
+vr_device_model
+vr_device_name
+w+OQvr
+w3Xc
+wXR\r
+wn>Jj
+writing minidump\n
+wrong protocol type
+xT?V
+xdigit
+xg^Jp5|
+xpxxxx
+xwpwpp
+y9*O
+yMzw\n
+z^KD
+{kHw
+{zel#|67

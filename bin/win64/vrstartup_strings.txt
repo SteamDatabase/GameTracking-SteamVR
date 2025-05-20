@@ -1,0 +1,949 @@
+ for detail.\n
+!! refusing to trigger minidump with debugger attached\n
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+' is not a number.
+, last executing in 
+-1e+9999
+-Infinity
+-SteamViveSetup
+-crash
+-disablewatchdogs
+-hang
+-mutesettings
+-restart
+-shutdown
+-startupinfo
+-startupreason
+-vkvalidation
+.00cfg
+.?AUBuiltStyledStreamWriter@Json@@
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVFactory@StreamWriter@Json@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AVStreamWriter@Json@@
+.?AVStreamWriterBuilder@Json@@
+.?AVStyledWriter@Json@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.P6AXPEBD0I_NPEAXPEA_N@Z
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.previous.txt
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.txt
+.xdata
+.xdata$x
+//==============================================================================================\n
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+16:45:12
+1e+9999
+: exception thrown in JSON library
+<unknown>
+================================================================================================\n
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@false
+A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
+ADVAPI32.dll
+ASSERT: "%s" at %s:%d.\n
+Aborting due to fatal assertion failure.
+Another app was already launching (117)
+App info manager init failed (114)
+Assert( %s ) %s(%d)\n
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CVRLog::LogDirect
+Cannot initialize crash handling in a project without the Steam API available
+CloseHandle
+Compositor failed to find DX11 hardware (401)
+Compositor failed to initialize (400)
+Compositor initialization succeeded, but overlay init failed (403)
+Compositor initialization succeeded, but screenshot init failed (404)
+Compositor requires mandatory firmware update (402)
+Compositor unable to create graphics device (405)
+Config path could not be located (111)
+Connect to VR Server Failed (301)
+CreateDirectoryW
+CreateEventW
+CreateFileW
+CreateProcessA
+DeleteCriticalSection
+DeleteFileW
+Detail
+Device Calibration is invalid (207)
+Device is not calibrated (206)
+DismissedWarnings
+Driver Failed (200)
+Driver Not Known (201)
+Driver Not Loaded (203)
+Driver Tracked Device Interface unknown (209)
+Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
+Duplicate key: '
+Empty escape sequence in string
+EnterCriticalSection
+Error
+Exceeded stackLimit in readValue().
+Exception %08x\n
+Executable: %s\n
+Extra non-whitespace after JSON value.
+FATAL: Failed to open log file %s\n
+Factory Function Not Found (104)
+Fatal
+File Not Found (103)
+Firmware Recovery In Progress (139)
+Firmware Update In Progress (138)
+FormatMessageA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentVariableA
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
+GetExitCodeProcess
+GetFileAttributesW
+GetFileSizeEx
+GetLastError
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExA
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTickCount64
+GpuSpeed
+HMD Not Known (202)
+HMD already in use by another application (205)
+HMD detected over USB, but Monitor may be mirrored instead of extended (212)
+HMD detected over USB, but Monitor not found (208)
+HMD found, but can not open device (1101)
+HMD found, but config too big (1104)
+HMD found, but config too small (1105)
+HMD found, but failed configuration check (1113)
+HMD found, but no stored config (1103)
+HMD found, but problems with the data (1107)
+HMD found, but problems with the data (1108)
+HMD found, but problems with the data (1109)
+HMD found, but problems with the data (1110)
+HMD found, but problems with the data (1111)
+HMD found, but problems with the data (1112)
+HMD found, but problems with the data (1115)
+HMD found, but unable to init ZLib (1106)
+HMD found, but unable to request config (1102)
+Hmd DriverId is invalid (125)
+Hmd DriverId is our of bounds (211)
+Hmd Not Found (108)
+Hmd Not Found Presence Failed (126)
+IServerTrackedDeviceProvider_002
+IServerTrackedDeviceProvider_003
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_
+ITrackedDeviceServerDriver_004
+ITrackedDeviceServerDriver_005
+IVRApplications_007
+IVRBlockQueue_005
+IVRCameraComponent_
+IVRCameraComponent_001
+IVRCameraComponent_002
+IVRChaperoneInternal_XXX
+IVRClientInternal_XXX
+IVRCompositorPluginProvider_001
+IVRControllerComponent_
+IVRDisplayComponent_
+IVRDisplayComponent_001
+IVRDriverDirectModeComponent_
+IVRDriverLog_001
+IVRMailbox_002
+IVRServerDriverHost_004
+IVRServerDriverHost_006
+IVRServerInternal_XXX
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRVirtualDisplay_
+IVRVirtualDisplay_001
+IVRWatchdogProvider_001
+Infinity
+Info
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Installation Corrupt (101)
+Installation Not Found (100)
+Installation path could not be located (110)
+Interface Not Found (105)
+Internal Retry (115)
+Invalid Application Type (130)
+Invalid Arguments
+Invalid Interface (106)
+IsDebuggerPresent
+IsProcessorFeaturePresent
+K32EnumProcesses
+K32GetProcessImageFileNameA
+KERNEL32.dll
+LastKnown
+LeaveCriticalSection
+Line %d, Column %d
+LocalFree
+LocalizationManager
+Log path could not be located (112)
+Low Power Watchdog Not Supported (129)
+MSVCP140.dll
+MainThrd
+May  7 2025
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+MoveFileExW
+New Runtime: %s\n
+No Error (0)
+None
+Not Initialized (109)
+Not available to watchdog apps (131)
+Not starting vrserver for background app (121)
+On laptop, HMD detected over USB, but Monitor not found (213)
+OpenProcess
+Out of thread local storage!\n
+OutputDebugStringA
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RSDSm
+RaiseException
+Rebooting In Progress (137)
+RegCloseKey
+RegCreateKeyExA
+RegOpenKeyExA
+RegQueryValueExA
+RegSetValueExA
+Reset Runtime based on Executable: %s\n
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+SHELL32.dll
+SHGetFolderPathW
+SOFTWARE\Valve\Steam
+STEAMVR_DISABLE_ASSERT_MINIDUMP
+STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_ENABLE_THREAD_WATCHDOGS
+STEAMVR_GPUVIS_ON_ASSERT
+STEAMVR_VKVALIDATION
+See 
+SetEnvironmentVariableA
+SetEvent
+SetFileAttributesW
+SetUnhandledExceptionFilter
+Settings manager init failed (118)
+Shared IPC Compositor Connect Failed (306)
+Shared IPC Compositor Init Failed (303)
+Shared IPC Compositor Invalid Connect Response (307)
+Shared IPC Connect Failed After Multiple Attempts (308)
+Shared IPC Connect Failed After Target Exited (309)
+Shared IPC Failed (305)
+Shared IPC Mutex Init Failed (304)
+Shared IPC Namespace Unavailable (310)
+Shared IPC State Init Failed (302)
+Sleep
+SleepConditionVariableCS
+Software\Classes\steamvr
+Software\Classes\steamvr\Shell\Open\Command
+StartupInfoArg
+SteamAPI_IsSteamRunning
+SteamAPI_SetBreakpadAppID
+SteamAPI_SetMiniDumpComment
+SteamAPI_UseBreakpadCrashHandler
+SteamAPI_WriteMiniDump
+SteamAppId
+SteamGameId
+SteamPath
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+TerminateProcess
+The current HMD requires an additional driver that is not installed (214)
+The requested interface is incompatible with the compositor and the compositor is running (122)
+This interface is not available to utility applications (123)
+TlsAlloc
+TlsFree
+Too many tracked objects (120)
+URL Protocol
+URL:steamvr Protocol
+USB Service Busy (140)
+Unable to connect to Oculus Runtime (1000)
+Unable to connect to Oculus Runtime, possible bad install (1114)
+Unable to create path registry directory %s\n
+Unable to determine VR Path Registry filename
+Unable to find Steam installation (2000)
+Unable to parse 
+Unable to parse token length
+Unable to read VR Path Registry from 
+Unable to write VR path registry to %s\n
+Unable to write path registry (113)
+UnhandledExceptionFilter
+Unknown error (%d)
+Unknown exception
+User Canceled Init (116)
+User Config Directory Invalid (107)
+User Settings:\n
+VCRUNTIME140.dll
+VR Dashboard Not Found (133)
+VR Dashboard startup failed (134)
+VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
+VR Dashboard startup failed, path error (167)
+VR Dashboard startup failed, required files did not copy correctly (164)
+VR Dashboard startup failed, unable to create appropriate environment (166)
+VR Dashboard startup failed, unable to create appropriate token (165)
+VR Dashboard startup failed, vrdashboard was already running (163)
+VR Dashboard startup failed, vrservice was pending for too long (160)
+VR Dashboard startup failed, vrservice was stopped (162)
+VR Home Not Found (135)
+VR Monitor Not Found (127)
+VR Monitor startup failed (128)
+VR Path Registry node %s is not an array\n
+VR Server Init Failed (300)
+VR home startup failed (136)
+VR system shutting down (119)
+VRControlPanel
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
+VRInitError_Compositor_CreateAlphaBlendState
+VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
+VRInitError_Compositor_CreateBlendState
+VRInitError_Compositor_CreateBlendStateMaskB
+VRInitError_Compositor_CreateBlendStateMaskG
+VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
+VRInitError_Compositor_CreateClampToBorderSamplerState
+VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
+VRInitError_Compositor_CreateComputeResolveRenderTextures
+VRInitError_Compositor_CreateConstantBuffer
+VRInitError_Compositor_CreateDepthStencilState
+VRInitError_Compositor_CreateDepthStencilStateNoDepth
+VRInitError_Compositor_CreateDepthStencilStateNoWrite
+VRInitError_Compositor_CreateDistortionSurfaces
+VRInitError_Compositor_CreateDriverDirectModeResolveTextures
+VRInitError_Compositor_CreateFallbackSyncTexture
+VRInitError_Compositor_CreateFlushTexture
+VRInitError_Compositor_CreateFontSamplerState
+VRInitError_Compositor_CreateFullscreenWindowFailed
+VRInitError_Compositor_CreateGeomConstantBuffer
+VRInitError_Compositor_CreateHmdPoseConstantBuffer
+VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
+VRInitError_Compositor_CreateLastFrameRenderTexture
+VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerGraphicsTextureIndexConstantBuffer
+VRInitError_Compositor_CreateMSAARenderTextures
+VRInitError_Compositor_CreateMirrorOverlay
+VRInitError_Compositor_CreateMirrorTextures
+VRInitError_Compositor_CreateNoBlendState
+VRInitError_Compositor_CreateOverlayAlreadyInitialized
+VRInitError_Compositor_CreateOverlayConstantBuffer
+VRInitError_Compositor_CreateOverlayIndexBuffer
+VRInitError_Compositor_CreateOverlayInvalidCall
+VRInitError_Compositor_CreateOverlaySamplerState
+VRInitError_Compositor_CreateOverlayVertexBuffer
+VRInitError_Compositor_CreatePanelMaskConstantBuffer
+VRInitError_Compositor_CreatePanoramaSamplerState
+VRInitError_Compositor_CreatePixelSimUBO
+VRInitError_Compositor_CreateRasterizerState
+VRInitError_Compositor_CreateReadableSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateResolveRenderTextures
+VRInitError_Compositor_CreateSamplerState
+VRInitError_Compositor_CreateSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateSharedFrameInfoConstantBuffer
+VRInitError_Compositor_CreateTextIndexBuffer
+VRInitError_Compositor_CreateTextVertexBuffer
+VRInitError_Compositor_CreateWireframeRasterizerState
+VRInitError_Compositor_D3D11HardwareRequired
+VRInitError_Compositor_D3D11RendererInitializationFailed
+VRInitError_Compositor_DXGIFactoryCreateFailed
+VRInitError_Compositor_DXGIFactoryInterfaceIsNull
+VRInitError_Compositor_DXGIFactoryQueryFailed
+VRInitError_Compositor_DisplayFrequencyFailure
+VRInitError_Compositor_DisplayModeNotSupported
+VRInitError_Compositor_DistortInterfaceIsNull
+VRInitError_Compositor_Failed
+VRInitError_Compositor_FailedToCreateDXGI2RenderTarget
+VRInitError_Compositor_FailedToCreateDXGI2SwapChain
+VRInitError_Compositor_FailedToCreateDirectModeDisplay
+VRInitError_Compositor_FailedToCreateMailbox
+VRInitError_Compositor_FailedToCreateNvAPIRenderTargets
+VRInitError_Compositor_FailedToCreateRenderTarget
+VRInitError_Compositor_FailedToCreateSwapChain
+VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
+VRInitError_Compositor_FailedToFindDisplayMode
+VRInitError_Compositor_FailedToGetBackBuffer
+VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
+VRInitError_Compositor_FailedToShowWindow
+VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
+VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
+VRInitError_Compositor_InvalidAdapterDesktop
+VRInitError_Compositor_InvalidDeviceProvided
+VRInitError_Compositor_InvalidHmdAttachment
+VRInitError_Compositor_InvalidHmdPropertyContainer
+VRInitError_Compositor_InvalidOutputDesktop
+VRInitError_Compositor_MessageOverlaySharedStateInitFailure
+VRInitError_Compositor_NotificationManagerIsNull
+VRInitError_Compositor_NvAPISetDisplayMode
+VRInitError_Compositor_OpenDriverDirectModeResolveTextures
+VRInitError_Compositor_OverlayInitFailed
+VRInitError_Compositor_PropertiesInterfaceIsNull
+VRInitError_Compositor_RendererInitializationFailed
+VRInitError_Compositor_ResourceManagerClientIsNull
+VRInitError_Compositor_ScreenshotsInitFailed
+VRInitError_Compositor_SelectDisplayMode
+VRInitError_Compositor_SettingsInterfaceIsNull
+VRInitError_Compositor_ShareFallbackSyncTexture
+VRInitError_Compositor_SharedStateIsNull
+VRInitError_Compositor_SystemLayerCreateInstance
+VRInitError_Compositor_SystemLayerCreateSession
+VRInitError_Compositor_UnableToCreateDevice
+VRInitError_Compositor_UpdateDisplayFrequency
+VRInitError_Compositor_WindowInterfaceIsNull
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdDisplayNotFoundLaptop
+VRInitError_Driver_HmdDriverIdOutOfBounds
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_PeerDriverNotInstalled
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_TrackedDeviceInterfaceUnknown
+VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_IPC_CompositorConnectFailed
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_CompositorInvalidConnectResponse
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_ConnectFailedAfterTargetExited
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_NamespaceUnavailable
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AlreadyRunning
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_BadLuid
+VRInitError_Init_CouldNotStartPrism
+VRInitError_Init_DuplicateBootstrapper
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FailedForVrMonitor
+VRInitError_Init_FileNotFound
+VRInitError_Init_FirmwareRecoveryBusy
+VRInitError_Init_FirmwareUpdateBusy
+VRInitError_Init_HmdDriverIdIsNone
+VRInitError_Init_HmdNotFound
+VRInitError_Init_HmdNotFoundPresenceFailed
+VRInitError_Init_IllegalTypeTransition
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_Internal
+VRInitError_Init_InvalidApplicationType
+VRInitError_Init_InvalidInterface
+VRInitError_Init_InvalidProcessId
+VRInitError_Init_LowPowerWatchdogNotSupported
+VRInitError_Init_MismatchedRuntimes
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NoServerForAppContainer
+VRInitError_Init_NoServerForBackgroundApp
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotAvailableToWatchdogApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_NotSupportedWithCompositor
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_PrismClientInitFailed
+VRInitError_Init_PrismClientStartFailed
+VRInitError_Init_PrismExitedUnexpectedly
+VRInitError_Init_PrismNeedsNewDrivers
+VRInitError_Init_PrismStartupTimedOut
+VRInitError_Init_PropertyManagerInitFailed
+VRInitError_Init_RebootingBusy
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_ShuttingDown
+VRInitError_Init_TooManyObjects
+VRInitError_Init_TrackerManagerInitFailed
+VRInitError_Init_USBServiceBusy
+VRInitError_Init_UserConfigDirectoryInvalid
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
+VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
+VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
+VRInitError_Init_VRHomeNotFound
+VRInitError_Init_VRHomeStartupFailed
+VRInitError_Init_VRMonitorNotFound
+VRInitError_Init_VRMonitorStartupFailed
+VRInitError_Init_VRServiceStartupFailed
+VRInitError_Init_VRWebHelperStartupFailed
+VRInitError_Init_WatchdogDisabledInSettings
+VRInitError_Init_WebServerFailed
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
+VRInitError_VendorSpecific_OculusRuntimeBadInstall
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_WindowsNotInDevMode
+VRMonitorArgs
+VR_COMBINED_LOGGING
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_Init error, exiting: %s\n
+VR_InitInternal2
+VR_IsInterfaceVersionValid
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_SETTINGS_FILE
+VR_ShutdownInternal
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning
+Warning: Watchdog %s not properly cleaned up%s%s\n
+Watchdog disabled in settings (132)
+WebInterface
+WideCharToMultiByte
+[PROBLEM] Saving Path Registry failed: 
+[System] New Config Path: 
+[System] New Log Path: 
+[System] New Runtime Path: 
+[System] No OS path for config available\n
+[System] No OS path for logs available\n
+[System] No Steam Path available.\n
+[System] Old Config Path: 
+[System] Old Log Path: 
+[System] Old Runtime Path: 
+[System] Path Registry contains invalid data, sanitizing: 
+[System] Path Registry not found, initializing: 
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_exit
+_get_narrow_winmain_command_line
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_localtime64
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_stricmp
+_wfopen_s
+_wfsopen
+_wstat64i32
+abort
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+alse
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+assert json failed
+atoi
+audio
+bad allocation
+bad array new length
+bad conversion
+bg_bg
+brazilian
+bulgarian
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
+camera
+collectComments
+collisionBounds
+commentStyle
+commentStyle must be 'All' or 'None'
+config
+cs_cz
+czech
+da_dk
+danish
+dashboard
+de_de
+deque<T> too long
+disable_watchdogs
+driver_holographic
+driver_lighthouse
+driver_null
+dropNullPlaceholders
+dutch
+el_gr
+en_us
+enableHomeApp
+enableYAMLCompatibility
+english
+es_es
+es_mx
+exit
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+fclose
+fflush
+fi_fi
+finnish
+fopen
+fputs
+fr_fr
+fread
+free
+french
+fseek
+ftell
+fwrite
+german
+gpu_profiler_capture
+greek
+hangInit
+hu_hu
+hungarian
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+indentation
+internet
+invalid string position
+is_system_process
+isdigit
+isspace
+it_it
+italian
+ja_jp
+japanese
+jsonid
+keyboard
+keylength >= 2^30
+ko_kr
+koreana
+latam
+logs
+m_nMaxLogBufferingSize > 0
+malloc
+map/set<T> too long
+memcmp
+memcpy
+memmove
+memset
+modelskins
+modf
+nb_no
+nfinity
+nl_nl
+norwegian
+notifications
+null
+openvr
+openvr.component.vrmonitor
+openvr.tool.steamvr_environments
+openvr.tool.steamvr_tutorial
+openvr_api.dll
+openvrpaths.vrpath
+perfcheck
+pl_pl
+polish
+portuguese
+power
+precision
+pt_br
+pt_pt
+rejectDupKeys
+ro_ro
+romanian
+ru_ru
+runtime
+russian
+sc_schinese
+schinese
+spanish
+stackLimit
+startup
+startup_reason
+steam_api64
+steam_api64.dll
+steamvr
+steamvr.vrsettings
+steamvr_vrstartup
+strcat_s
+strftime
+strictRoot
+string too long
+strncpy
+strpbrk
+strrchr
+strtoull
+sv_se
+swedish
+tchinese
+terminate
+th_th
+thai
+tolower
+tr_tr
+trackers
+true
+turkish
+type
+uk_ua
+ukrainian
+useSpecialFloats
+userinterface
+vector<T> too long
+version
+version.txt
+vi_vn
+vietnamese
+vrclient Shared Lib Not Found (102)
+vrcombined_log.previous.txt
+vrcombined_log.txt
+vrcompositor_mailbox
+vrpathreg
+vrserver
+vrserver internal error (124)
+vrserver.exe
+vrurlhandler.exe
+vrwebhelper
+win64
+zh_cn
+zh_tw

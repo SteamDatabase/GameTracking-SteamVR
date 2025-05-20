@@ -1,0 +1,2162 @@
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f\n
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f\n
+    %0X %d/%d/%d (strong/weak/failed poses) 
+    %X, %X: s/n %s: %s (interface %d)\n
+    %d - error parsing userdata entry\n
+    %s crc=%08X dataStartOffset=%u dataLength=%u\n
+    No devices\n
+    error string: %s\n
+  Comment started here.
+ %02x
+ (DROPPED)
+ (generation changed)
+ (right sync)
+ (selected 
+ = { <proto text format> }". To set fields within it, use syntax like "
+ NOTE: NO LIGHTHOUSE MODEL.  NO POSES WILL BE SOLVED!
+ Outdent() without matching Indent().
+ Peripheral MCU %u
+ Radio %u
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ VRC %u
+ [default = $0
+ ] gravity ( %g, %g, %g ) 
+ also seeing 
+ args were given.  Full format string was: "
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
+ disambiguator
+ for detail.\n
+ hits0=
+ hits1=
+ id %d: hits %d angle %7.5f sigma %g var %g ppm %0.2f\n
+ inflate 1.2.5 Copyright 1995-2010 Mark Adler 
+ is not valid for field 
+ len 
+ message of type "
+ nohit=
+ nosplit=
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ of type 
+ period=
+ ppm=
+ seeing 
+ sensors~
+ syncs=
+!AxU
+" because it is missing required fields: 
+" conflicts with the existing symbol "
+" for field "
+" for option "
+" has no field named "
+" has no value named "
+" has not been loaded.
+" implements neither SetCachedSize() nor ByteSize().  Must implement one or the other.
+" imports "
+" in type "
+" is a message. To set the entire message, use syntax like "
+" is a repeated message. Repeated message options must be initialized using an aggregate value.
+" is already defined (as something other than a package) in file "
+" is already defined in "
+" is already defined in file "
+" is already defined.
+" is an atomic type, not a message.
+" is not a field or extension of message "
+" is not a message type.
+" is not a type.
+" is not a valid identifier.
+" is not an enum type.
+" is not defined or is not an extension of "
+" is not defined.
+" is resolved to "
+" is resolved to "(
+" is specified along with field "
+" is specified multiple times.
+" must be unique within 
+" not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
+" seems to be defined in "
+" unknown.
+" uses the same enum value as "
+" was already set.
+" was listed twice.
+" was not found or had errors.
+" which is not used.
+" which is.
+"$0" does not declare $1 as an extension number.
+"'\n\vCBaseConfig
+") is not compatible with this reflection object (which is for type "
+") to start from the outermost scope.
+").  Note that the exact same class is required; not just the same descriptor.
+", another member of oneof "
+", but only 
+", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
+", which is not imported by "
+".  To use it here, please add the necessary import.
+". If this is intended, set 'option allow_alias = true;' to the enum definition.
+". This appears to be a value from a sibling type.
+". Value: "
+"/*" inside block comment.  Block comments cannot be nested.
+"0x" must be followed by hex digits.
+"MutableRawRepeatedField"
+"e" must be followed by exponent.
+"r\n\nCImuSample
+"z\n\rMethodOptions
+#bML"
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
+$0  message $1
+$0 oneof $1 {\n
+$0$1$2 $3 = $4
+$0enum $1 {\n
+$0option $1;\n
+%.8lf l=%05d r=%05d \tsample=%02d width=%4.0lf angle=%4.4lf %s\n
+%.8lf l=%05d r=%05d \tsync %08X:%d width=%4.0lf width_delta=%+0.0lf ootxBit=%d ootxIndex=%d\n
+%0.0f
+%02x
+%04X
+%d\t\t%s\t\t%s\t\t%s\t\t%s\t\t%s\n
+%hu,%hu,'%4c',%hu
+%lf         sample   %d.%02d\n
+%lf %06d \tgyro %+0.2f %+0.2f %+0.2f accel %+0.2f %+0.2f %+0.2f\n
+%lf l=%05d r=%05d \tsample %02d width %4.0f\n
+%lf l=%05d r=%05d\tsample %02d%c %s\n
+%lf l=%05d virtsync %d o=%d g=%d\n
+%llu
+%s already on disk (up to date)\n
+%s disambiguator provided base configuration. Rotor count: %d\n
+%s%s%s%s%s%s%s
+%s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
+%s: Attached device ID not set.  No controller input available.\n
+%s: Connected to receiver %s\n
+%s: Controller subprotocol changed version %d\n
+%s: Device does not have a stored config\n
+%s: Disconnected from receiver %s\n
+%s: ERROR: could not query version from watchman board.\n
+%s: ERROR: firmware does not meet minimum required version (%d). Please update device.\n
+%s: Expected %u bytes of config but only found %d. Rejecting config\n
+%s: Firmware Version %s\n
+%s: Not loading device config because its size is too large: 0x%X bytes\n
+%s: Optical subprotocol changed version %d\n
+%s: Packet received after %.3fs, keepalive (%d/%d)\n
+%s: Protocol versioning supported, requesting %d\n
+%s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
+%s: Received short %d byte packet when expecting config\n
+%s: Retry protocol version request for %d\n
+%s: Transition to protocol version %d\n
+%s: Triggered keepalive (%s)\n
+%s: Unable to fetch gyro/accelerometer range modes from the device\n
+%s: Unable to request config start from device\n
+%s: WARNING: Malformed wireless packet v%d: %s\n
+%s: WARNING: Unable to set sync detect mode %d\n
+%s: Warning, can't request wireless protocol version\n
+%s: Warning: Unknown disambiguation mode: %s\n
+%s: Warning: Unknown disambiguation option "%s" in: %s\n
+%s: Wireless controller %s disconnected\n
+%u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
+' is not a number.
+(\t"+\n\rCDynamicState
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2).lighthouse.pb.CBaseConfigAndDynamicState"
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
+(cannot determine missing fields for lite message)
+(merge 
+)", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
+).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+*5KS
++laser0
++laser1
++motor0
++motor1
++temp_high
++temp_low
++unknown
+, IMU susp: 
+, VRC susp: 
+, from:
+, max interval 
+, not just within "
+------ WARNING!  Lighthouse config has %d sensors!\n
+-1e+9999
+-Infinity
+-\n\nimu_sample
+-inf
+-t1?Ks
+-tA?Ks
+-tQ?4
+.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+..\src\google\protobuf\descriptor.cc
+..\src\google\protobuf\descriptor.pb.cc
+..\src\google\protobuf\descriptor_database.cc
+..\src\google\protobuf\dynamic_message.cc
+..\src\google\protobuf\extension_set.cc
+..\src\google\protobuf\extension_set_heavy.cc
+..\src\google\protobuf\generated_message_reflection.cc
+..\src\google\protobuf\io\coded_stream.cc
+..\src\google\protobuf\io\strtod.cc
+..\src\google\protobuf\io\tokenizer.cc
+..\src\google\protobuf\io\zero_copy_stream.cc
+..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+..\src\google\protobuf\message.cc
+..\src\google\protobuf\message_lite.cc
+..\src\google\protobuf\reflection_ops.cc
+..\src\google\protobuf\stubs\common.cc
+..\src\google\protobuf\stubs\substitute.cc
+..\src\google\protobuf\text_format.cc
+..\src\google\protobuf\wire_format.cc
+..\src\google\protobuf\wire_format_lite.cc
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_1f0a68b20b22887c0e785786564d1231>@@
+.?AV<lambda_2a43a36163a5abb0cd0e4ca423babb00>@@
+.?AV<lambda_a0d49f1d668fb94d279d38da558306c0>@@
+.?AV<lambda_d398577bc5cc2d76a2f50dbda522304b>@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$00@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCQuaternionNormalizer@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctors@N$00@@
+.?AV?$ICeresFunctor@N@@
+.?AV?$_Func_base@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_base@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1f0a68b20b22887c0e785786564d1231>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2a43a36163a5abb0cd0e4ca423babb00>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a0d49f1d668fb94d279d38da558306c0>@@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d398577bc5cc2d76a2f50dbda522304b>@@_N$$V@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_Ref_count@UBasestationStats_s@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
+.?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
+.?AVArrayInputStream@io@protobuf@google@@
+.?AVArrayOutputStream@io@protobuf@google@@
+.?AVCBaseConfig@pb@lighthouse@@
+.?AVCBaseConfigAndDynamicState@pb@lighthouse@@
+.?AVCDataEvent@@
+.?AVCDisambiguatorFramer@vortex@@
+.?AVCDisambiguatorSyncOnBeam@vortex@@
+.?AVCDisambiguatorTDM@?A0xd780313c@vortex@@
+.?AVCDynamicState@pb@lighthouse@@
+.?AVCHeader@pb@lighthouse@@
+.?AVCHidDevice@vortex@@
+.?AVCHtcHmdThread@htc@@
+.?AVCImuEvent@@
+.?AVCImuSample@pb@lighthouse@@
+.?AVCLighthouseConsole@@
+.?AVCLighthouseDBUniverse@vortex@@
+.?AVCLighthouseEvent@@
+.?AVCLighthouseIMUThread@vortex@@
+.?AVCLighthouseOpticalThread@vortex@@
+.?AVCLighthouseSource@vortex@@
+.?AVCLighthouseThreadBase@vortex@@
+.?AVCLighthouseUsbThread@vortex@@
+.?AVCOpticalFrame@pb@lighthouse@@
+.?AVCOpticalSample@pb@lighthouse@@
+.?AVCPoseEvent@@
+.?AVCRecord@pb@lighthouse@@
+.?AVCSampleEvent@@
+.?AVCSwSyncDetectSource@vortex@@
+.?AVCSyncEvent@@
+.?AVCThread@@
+.?AVCUsbDeviceScannerThread@@
+.?AVCVec3@pb@lighthouse@@
+.?AVCVortexThread@vortex@@
+.?AVCVrControllerUsbThread@vortex@@
+.?AVCVrcDecodeTagged@@
+.?AVCWirelessDecoder@@
+.?AVCWirelessDecoderWv2@@
+.?AVClosure@protobuf@google@@
+.?AVDescriptorDatabase@protobuf@google@@
+.?AVDescriptorPoolExtensionFinder@internal@protobuf@google@@
+.?AVDescriptorProto@protobuf@google@@
+.?AVDescriptorProto_ExtensionRange@protobuf@google@@
+.?AVDynamicMessage@protobuf@google@@
+.?AVDynamicMessageFactory@protobuf@google@@
+.?AVEncodedDescriptorDatabase@protobuf@google@@
+.?AVEnumDescriptorProto@protobuf@google@@
+.?AVEnumOptions@protobuf@google@@
+.?AVEnumValueDescriptorProto@protobuf@google@@
+.?AVEnumValueOptions@protobuf@google@@
+.?AVErrorCollector@io@protobuf@google@@
+.?AVException@Json@@
+.?AVExtensionFinder@internal@protobuf@google@@
+.?AVFatalException@protobuf@google@@
+.?AVFieldDescriptorProto@protobuf@google@@
+.?AVFieldOptions@protobuf@google@@
+.?AVFieldSkipper@internal@protobuf@google@@
+.?AVFieldValuePrinter@TextFormat@protobuf@google@@
+.?AVFileDescriptorProto@protobuf@google@@
+.?AVFileDescriptorSet@protobuf@google@@
+.?AVFileOptions@protobuf@google@@
+.?AVFinder@TextFormat@protobuf@google@@
+.?AVFunctionClosure0@internal@protobuf@google@@
+.?AVGeneratedExtensionFinder@internal@protobuf@google@@
+.?AVGeneratedMessageFactory@?A0xaa88a5bd@protobuf@google@@
+.?AVGeneratedMessageReflection@internal@protobuf@google@@
+.?AVIAuxEventCallback@CLighthouseIMUThread@vortex@@
+.?AVICallback@CHtcHmdThread@htc@@
+.?AVICallback@CLighthouseIMUThread@vortex@@
+.?AVICallback@CLighthouseOpticalThread@vortex@@
+.?AVIDisambiguator@vortex@@
+.?AVIImuCallback@CLighthouseIMUThread@vortex@@
+.?AVILighthouseDBListener@vortex@@
+.?AVILighthouseSource@vortex@@
+.?AVIUsbDeviceCallback@@
+.?AVIVrControllerUsb@vortex@@
+.?AVIVrcCallback@CLighthouseIMUThread@vortex@@
+.?AVLogStream@LogMessage@google@@
+.?AVLogStreamBuf@base_logging@google@@
+.?AVLogicError@Json@@
+.?AVMessage@protobuf@google@@
+.?AVMessageFactory@protobuf@google@@
+.?AVMessageLite@protobuf@google@@
+.?AVMessageOptions@protobuf@google@@
+.?AVMethodDescriptorProto@protobuf@google@@
+.?AVMethodOptions@protobuf@google@@
+.?AVOneofDescriptorProto@protobuf@google@@
+.?AVParserErrorCollector@ParserImpl@Parser@TextFormat@protobuf@google@@
+.?AVReflection@protobuf@google@@
+.?AVRuntimeError@Json@@
+.?AVServiceDescriptorProto@protobuf@google@@
+.?AVServiceOptions@protobuf@google@@
+.?AVSourceCodeInfo@protobuf@google@@
+.?AVSourceCodeInfo_Location@protobuf@google@@
+.?AVStringOutputStream@io@protobuf@google@@
+.?AVStyledWriter@Json@@
+.?AVTestHmdHidCallback@@
+.?AVUninterpretedOption@protobuf@google@@
+.?AVUninterpretedOption_NamePart@protobuf@google@@
+.?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
+.?AVWriter@Json@@
+.?AVZeroCopyInputStream@io@protobuf@google@@
+.?AVZeroCopyOutputStream@io@protobuf@google@@
+.?AV_Facet_base@std@@
+.?AV_Ref_count_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.PLACEHOLDER_VALUE
+.bss
+.data
+.data$r
+.dummy
+.edata
+.foo = value".
+.google.protobuf.EnumOptions"l\n
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions"
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo"
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.json
+.lighthouse.pb.CBaseConfig
+.lighthouse.pb.CDynamicState"
+.lighthouse.pb.CImuSample
+.lighthouse.pb.COpticalFrame
+.lighthouse.pb.COpticalSample
+.lighthouse.pb.CVec3
+.placeholder.proto
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata$x
+/P8i
+/\n\vbase_config
+/axis
+/bin/mail
+/button
+/deviceinfo
+/dis
+/dongleinfo
+/dongleresetall
+/dump
+/exit
+/forcepairall
+/imu
+/isp
+/pair
+/pairall
+/pairstop
+/sample
+/sec
+/sensorcheck
+/serial
+/sob
+/sync
+/unpair
+/unpairall
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+/yQA
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\x%02x
+0123456789abcdef
+0x%X\n
+1.2.5
+1A26b
+1e+9999
+1wsHp
+2#.google.protobuf.FieldOptions.CType:
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.google.protobuf.FieldDescriptorProto.Label
+3\n\rdynamic_state
+3\n\roptical_frame
+52F*
+5\n\vnested_type
+6/aG
+6\n\fmessage_type
+7\n\tenum_type
+7~8A
+8\n\textension
+9\n\noneof_decl
+9a&g
+: Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
+<unknown>
+>UUUUUU
+>hid.dll
+?&x0O
+?333333
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1ios_base@std@@UAE@XZ
+??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z
+??Bid@locale@std@@QAEIXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?UUUUUU
+?Unexpected end of string.
+?VUUUUU
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UAEXXZ
+?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPAV123@ABV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_Xbad_alloc@std@@YAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPBD@Z
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A
+?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?es-8R
+?ffffff
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPA_W3AAPA_W@Z
+?interface
+?name
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
+?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
+?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PAV32@@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?uncaught_exception@std@@YA_NXZ
+?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+@es-8R
+A file with this name is already in the pool.
+A protocol message was rejected because it was too big (more than 
+A valid JSON document must be either an array or an object value.
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ASSERT: "%s" at %s:%d.\n
+AddBool
+AddDouble
+AddEnum
+AddFloat
+AddInt32
+AddInt64
+AddMessage
+AddString
+AddUInt32
+AddUInt64
+Alighthouse_config
+Already saw decimal point or exponent; can't have another one.
+Anx temp: 
+App CRC invalid
+App Init
+App not found
+Assertion failed:  Explicit right sync does not match pending frame\n
+Attached HID Devices:\n
+Attached lighthouse receiver devices: %d\n
+Attempted Default Load: 
+Attempted Gold Load: 
+Attempting HID Open %s: %s\n
+BL Init
+BL requested by app
+BL requested by buttons
+BQ27421
+BQ27520
+BackUp() can only be called after a successful Next().
+Backlight Init
+Backlight Init Error
+Backup reset
+Bad State
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Batt: 
+Boolean default must be true or false.
+Boot to app
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C-Yn
+CBaseConfigAndDynamicState
+CDisambiguatorFramer: Non monotonicity in ProcessSensorHit\n
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !out.HadError(): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: allow_unknown_field_: 
+CHECK failed: builder_: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: is_prototype(): 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: options->ParseFromString(buf): 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: prototype != NULL: 
+CHECK failed: result != NULL: 
+CHECK failed: trees: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value.size() <= kint32max: 
+CHeader
+CHidDevice: Can't open USB device VID %08x, PID %08x %s %d\n
+CORD
+COpticalSample
+CPPTYPE_BOOL
+CPPTYPE_DOUBLE
+CPPTYPE_ENUM
+CPPTYPE_FLOAT
+CPPTYPE_INT32
+CPPTYPE_INT64
+CPPTYPE_MESSAGE
+CPPTYPE_STRING
+CPPTYPE_UINT32
+CPPTYPE_UINT64
+CRC (%08X) does not match expected value (%08X)\n
+CRC valid (%08X)\n
+CRecord
+CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
+CType
+CVec3
+Camera
+CameraSync
+Can't 
+Can't communicate with dongle %s. Skipping\n
+Can't get here.
+Can't get here: failed to get default value as string
+CancelIo
+Cannot allocate buffer larger than kint32max for 
+ClearField
+CloseHandle
+Compressed config size is %d\n
+Compressed size too large\n
+Config size too large to fit on stack\n
+Connect to a dongle first\n
+Could not create an instance of 
+Could not find entry named %s\n
+Could not find field named "
+Could not find field type.
+Could not load config file %s\n
+Could not open device %u, %u, %s to read its config\n
+Could not pair dongle %s\n
+Could not reset dongle %s\n
+Could not retrieve device info for dongle %s\n
+Could not unpair dongle %s\n
+Couldn't parse default value "
+CreateEventA
+CreateEventW
+CreateFileA
+CreateThread
+CreateWindowExA
+DEVICEINFO serial=%s device_class=%s\n
+DISTORT_BSPLINE
+DISTORT_DPOLY3
+DISTORT_DPOLY3_SCALED
+DISTORT_DPOLY4_PANELSCALE
+DISTORT_DPOLY4_QUADRATIC_TILT
+DISTORT_DPOLY4_SCALED
+DISTORT_EXTENDED_FTHETA
+DISTORT_FOV1
+DISTORT_FOV2
+DISTORT_FOV3
+DISTORT_FTHETA
+DISTORT_NONE
+DISTORT_POLY2
+DISTORT_POLY2_TANGENT
+DISTORT_POLY3
+DISTORT_POLY3_TANGENT
+DISTORT_POLY3_TANGENT_SCALED
+DISTORT_R1_POLY_4
+DISTORT_RPOLY2_1
+DISTORT_RPOLY2_2
+DISTORT__COUNT
+DP Init
+DefWindowProcA
+Default value for an enum field must be an identifier.
+Delayed State Change
+DeleteCriticalSection
+DescriptorProto
+DescriptorProtosH
+DestroyWindow
+Device was not open when attempting to read its config\n
+DeviceIoControl
+DeviceMessageWindow_t::RunFrame
+Disabled
+Disabled by Config
+DispatchMessageA
+Distortion_Type
+Dongle %s reset to factory defaults. On next power cycle, automatic pairing will begin.\n
+Dongles:
+Downloaded %u bytes in %0.3fs (%0.2f KBps)\n
+Duplicate basestation serials detected.\n
+ERROR
+ERROR:  Could not read FileVersion in GetExeVersionInformation().\n
+ERROR:  Could not read InternalName in GetExeVersionInformation().\n
+ERROR:  Could not read translation info in GetExeVersionInformation().\n
+ERROR:  GetExeVersionInformation() failed.\n
+ERROR:  GetFileVersionInfo() failed in GetExeVersionInformation().\n
+ERROR:  GetFileVersionInfoSize() failed in GetExeVersionInformation().\n
+ERROR:  Path_GetExecutablePath() failed in GetExeVersionInformation().\n
+ERROR: %d attached controllers were detected. Please plug in exactly one puck and one controller.\n
+ERROR: %d matching lighthouse devices detected. Please plug in exactly one puck and one controller.\n
+ERROR: Attached device is not a controller. Please plug in exactly one puck and one controller.\n
+ERROR: Can't read config from %s\n
+ERROR: Can't write config from %s\n
+ERROR: No attached controllers were detected. Please plug in exactly one puck and one controller.\n
+ERROR: No matching controller puck detected. Please plug in exactly one puck and one controller.\n
+ERROR: The controller is reporting an ID of 0. Refusing to use that. Push a button on the controller and try again.\n
+ERROR: Unable to parse config from the attached device: %s\n
+ERROR: Unable to read config from attached device\n
+ERROR: Unable to write config back to device\n
+ERROR: Unable to write to %s, file already exists (contents differ).\n
+ERROR: Unable to write to %s\n
+Empty escape sequence in string
+Enabled source: %s\n
+End-of-file inside block comment.
+EnterCriticalSection
+Entered Debug
+Enum type "
+EnumDescriptorProto
+EnumValueDescriptorProto
+EnumValueOptions
+Enums must contain at least one value.
+Error parsing UserData header for %s\n
+Error parsing config JSON: 
+Error parsing device json for serial %s, %s\n
+Error parsing text-format 
+Error reading Lighthouse Error Report\n
+Error reading usb json configuration for serial %s\n
+Error requesting FPGA reset.\n
+Error starting ISP mode.
+Error starting ISP mode.\n
+Error unzipping config data: %s\n
+Error while parsing option value for "
+Errors!
+Exceeded stackLimit in readValue().
+Expect a decimal number.
+Expected "
+Expected double.
+Expected eight hex digits up to 10ffff for \U escape sequence
+Expected four hex digits for \u escape sequence.
+Expected hex digits for escape sequence.
+Expected identifier.
+Expected integer or identifier.
+Expected integer.
+Expected string.
+Ext TimeSync
+Extension "
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
+Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
+Extension number $0 has already been used in "$1" by extension "$2".
+Extension numbers cannot be greater than $0.
+Extension numbers must be positive integers.
+Extension range $0 to $1 includes field "$2" ($3).
+Extension range $0 to $1 overlaps with already-defined range $2 to $3.
+Extension range end number must be greater than start number.
+ExtensionRange
+Extensions of MessageSets must be optional messages.
+Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
+FATAL
+FPGA susp: 
+FW App
+FW Assert
+FW BL
+FW Update Finish
+FW Update Load
+FW Update Start
+F\n\foptimize_for
+Failed to create window in DeviceMessageWindow_t::Create
+Failed to erase dongle pairing\n
+Failed to get HINSTANCE in DeviceMessageWindow_t::Create
+Failed to issue reboot command\n
+Failed to register/find class in DeviceMessageWindow_t::Create
+Failed to send config chunk after %d bytes\n
+Failed to send factory reset to dongle %s\n
+Failed to start dongle pairing\n
+Failed to stop dongle pairing\n
+Failed to write to device\n
+False
+Field "
+Field does not match message type.
+Field is repeated; the method requires a singular field.
+Field is singular; the method requires a repeated field.
+Field number $0 has already been used in "$1" by field "$2".
+Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
+Field numbers cannot be greater than $0.
+Field numbers must be positive integers.
+Field with message or enum type missing type_name.
+Field with primitive type has type_name.
+FieldDescriptorProto
+FieldDescriptorProto.extendee not set for extension field.
+FieldDescriptorProto.extendee set for non-extension field.
+FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
+FieldDescriptorProto.oneof_index should not be set for extensions.
+FieldSize
+Fields of oneofs must themselves have label LABEL_OPTIONAL.
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File recursively imports itself: 
+File: 
+FileDescriptorProto
+FileDescriptorSet
+Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
+Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
+First argument to Swap() (of type "
+First argument to SwapFields() (of type "
+Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).\n
+Framer sensorType: %d\n
+Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d\n
+FreeLibrary
+Fuel Gauge Reset
+GLOG_alsologtoemail
+GLOG_alsologtostderr
+GLOG_colorlogtostderr
+GLOG_log_backtrace_at
+GLOG_log_dir
+GLOG_log_link
+GLOG_log_prefix
+GLOG_logbuflevel
+GLOG_logbufsecs
+GLOG_logemaillevel
+GLOG_logfile_mode
+GLOG_logmailer
+GLOG_logtostderr
+GLOG_max_log_size
+GLOG_minloglevel
+GLOG_stop_logging_if_full_disk
+GLOG_v
+GLOG_vmodule
+GOOGLE_ALSOLOGTOSTDERR
+GOOGLE_LOGTOSTDERR
+GOOGLE_LOG_DIR
+General reset
+GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
+GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+GetBool
+GetClassInfoA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDouble
+GetEnum
+GetExitCodeThread
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+GetFloat
+GetInt32
+GetInt64
+GetLastError
+GetMessage
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetOverlappedResult
+GetProcAddress
+GetRepeatedBool
+GetRepeatedDouble
+GetRepeatedEnum
+GetRepeatedFloat
+GetRepeatedInt32
+GetRepeatedInt64
+GetRepeatedMessage
+GetRepeatedString
+GetRepeatedStringReference
+GetRepeatedUInt32
+GetRepeatedUInt64
+GetStdHandle
+GetString
+GetStringReference
+GetSystemTimeAsFileTime
+GetTickCount64
+GetUInt32
+GetUInt64
+GetWindowLongA
+H$6t
+H*0"ZOW
+HID opened: VID %04x PID %04x serial %S seq %d | if %d\n
+HMD Device Connect:\n
+HWID Signature not found
+Hardware Revision: 0x%08x %s\n
+HasField
+Hex and octal numbers must be integers.
+HidD_FreePreparsedData
+HidD_GetAttributes
+HidD_GetFeature
+HidD_GetIndexedString
+HidD_GetManufacturerString
+HidD_GetPreparsedData
+HidD_GetProductString
+HidD_GetSerialNumberString
+HidD_SetFeature
+HidP_GetCaps
+ICE40
+IMU only!
+IMUInterrupt
+INFO
+INVALID_CPPTYPE
+ISP Sync Out
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
+IVRBlockQueue_005
+IVRCameraComponent_003
+IVRChaperoneInternal_XXX
+IVRClientInternal_XXX
+IVRCompositorPluginProvider_001
+IVRDisplayComponent_003
+IVRDriverDirectModeComponent_009
+IVRDriverManager_001
+IVRIPCResourceManagerClient_001
+IVRMailbox_002
+IVRResources_001
+IVRServerInternal_XXX
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRVirtualDisplay_002
+IVRWatchdogProvider_001
+IiGM>nw
+Import "
+In BL: 
+Index out-of-bounds (field is empty).
+Infinity
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Integer out of range.
+Interpreting non ascii codepoint %d.
+Invalid 'schedule' parameter: %s\n 
+Invalid HMD interrupt packet length %u\n
+Invalid HMD interrupt packet tag %X\n
+Invalid TDM lock on matched serial / phase.\n
+Invalid control characters encountered in text.
+Invalid data!
+Invalid escape sequence in string literal.
+Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
+Invalid float number: 
+Invalid proto descriptor for file "
+Invalid public dependency index.
+Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for all controllersX\n
+Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
+Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+Invalid strings::Substitute() format string: "
+Invalid symbol name: 
+Invalid value for boolean field "
+Invalid weak dependency index.
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
+IsDebuggerPresent
+IsProcessorFeaturePresent
+JSON
+JSON Update
+KERNEL32.dll
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
+LHR-%08X
+LPC11 App
+LPC11 BL
+Label
+Last sample %d %lf %lf\n
+LeaveCriticalSection
+Lighthouse %s HID device error\n
+Lighthouse %s HID opened\n
+Lighthouse Error: %d data %08x\n
+LighthouseUSB
+Line %d, Column %d
+Line: 
+LoadLibraryA
+LocalFree
+LocalizationManager
+Location
+Log Erase
+M8MF
+MAX10
+MGiI
+MIPI Init
+MIPI Init Error
+MSB 
+MSVCP140.dll
+MainSteamVR
+MainThrd
+Many options are also allowed as command-line flags, including { /sync /sample /dump /imu /raw /serial /isp }\n
+Mark 1
+Mark 2
+Mark 3
+Mark 4
+Max watchdog reset count
+Mb ?QFo
+MbP?
+Mbp?
+Message class "
+Message extensions cannot have required fields.
+Message missing required fields: 
+Message type "
+MessageOptions
+MessageSets cannot have fields, only extensions.
+Messages can't have default values!
+Messages can't have default values.
+MethodDescriptorProto
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Missing String for %s (%d)
+Missing field: FileDescriptorProto.name.
+Missing name.
+Multiple TDM masters in mode B.\n
+Multiple TDM slaves in mode A/C.\n
+Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.\n
+MutableRawRepeatedField
+MutableRepeatedMessage
+NJ2"v
+NRF52
+NRF52 DTM
+NamePart
+Need space between identifier and decimal point.
+Need space between number and identifier.
+Neo V0
+New App Version
+New BL Version
+New HWID
+New Radio Version
+New sample  %d %lf %lf (end diff: %lf)\n
+No default value
+No field named "uninterpreted_option" in the Options proto.
+Non-Production BL
+Non-primitive types can't be packed.
+Non-repeated field "
+Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+Numbers starting with leading zero must be in octal.
+O*9y]
+OZw3(?
+O\tu~w
+Oneof must have at least one field.
+OneofDescriptorProto
+Open failed from from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
+Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+OpenVR
+Optical
+Option "
+Option field "
+Option must have a name.
+Option must not use reserved name "uninterpreted_option".
+Out of thread local storage!\n
+OutputDebugStringA
+PLACEHOLDER_VALUE
+Pairing Failed
+Pairing Start
+Pairing Success
+Panel Init
+Panel Init Error
+Panic in TDM. basestation offset is invalid: %f\n
+Pe6^
+PeekMessageA
+Peripheral MCU Application Version: %i\n
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
+Protocol message serialized itself in invalid fashion.
+Protocol message was modified concurrently during serialization.
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+R1h58
+RPCRT4.dll
+RSDS]
+Radio Version: %i\n
+RaiseException
+Raw mapped input (%2d):
+Reached an unintended state: CPPTYPE_MESSAGE
+ReadFile
+Reading dangerously large protocol message.  If the message turns out to be larger than 
+Rebooting in ISP mode...
+Rebooting in ISP mode...\n
+RegisterClassA
+RegisterDeviceNotificationA
+ReleaseLast
+ReleaseMessage
+RemoveLast
+Repeated fields can't have default values.
+Reset
+Reset Video Error
+ResetEvent
+Restart
+ResumeThread
+Rotors on basestation out of 180-degree phase lock.\n
+RpcStringFreeA
+S-%d%s %c %2d %4d 
+SETUPAPI.dll
+SKyu
+SOB total=
+SOB: add 
+SOB: drop 
+SPEED
+STEREO_DEV_BENCRUSHER2_MICROVISION
+STEREO_DEV_BENCRUSHER_MICROVISION
+STEREO_DEV_DANHAT_EMAGIN_SXGA
+STEREO_DEV_DEANPHOTONBLASTER
+STEREO_DEV_JERI_RETRO_MARK1
+STEREO_DEV_LUMUS_DK_32
+STEREO_DEV_LUMUS_DK_32_DUALCB
+STEREO_DEV_NUM
+STEREO_DEV_NVIS_ST50
+STEREO_DEV_NVIS_ST50_MARK2
+STEREO_DEV_NVIS_ST60
+STEREO_DEV_OCULUS_RIFT_FLIP_UPWARD
+STEREO_DEV_ST1080_FLIP_FORWARD
+STEREO_DEV_ST1080_FLIP_UPWARD
+STEREO_DEV_ST1080_UPWARD_GLUE_GUN_SPECIAL
+STEREO_DEV_TEST
+STEREO_DEV_VUZIX_STAR_1200
+STRING
+SUCCESS: Changing attached device ID from %s to %u\n
+SUCCESS: Setting attached device ID to %u\n
+Saw demod rate %.0f/s, enabling Sync on Beam\n
+Second argument to Swap() (of type "
+Second argument to SwapFields() (of type "
+See 
+Send FPGA reset request...  Nothing good is likely to happen!\n
+Sensor Scheduling is '%s'\n
+Sensor Scheduling is in test mode.  Scheduling is simulated.\n\tAll sensor events that would be ignored will have 8000 added to their width.\n
+SensorID\tHitCount\tMaxWidthTicks\tSensorIndex\tDemodCount\tExample\n
+ServiceDescriptorProto
+ServiceOptions
+SetAllocatedMessage
+SetBool
+SetDouble
+SetEnum
+SetEvent
+SetFloat
+SetInt32
+SetInt64
+SetRepeatedBool
+SetRepeatedDouble
+SetRepeatedEnum
+SetRepeatedFloat
+SetRepeatedInt32
+SetRepeatedInt64
+SetRepeatedString
+SetRepeatedUInt32
+SetRepeatedUInt64
+SetString
+SetThreadPriority
+SetUInt32
+SetUInt64
+SetUnhandledExceptionFilter
+SetWindowLongA
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInterfaces
+SetupDiGetClassDevsA
+SetupDiGetDeviceInterfaceDetailA
+Shutdown
+Simple HID message payload %zd is larger than max size of 61\n
+Skipping connected dongle %s\n
+Sleep
+SleepConditionVariableCS
+Software Reset
+SourceCodeInfo
+Specify a device serial number with /serial preceding /pair\n
+Specify a device serial number with /serial preceding /pairstop\n
+Stable
+Start
+Stopped tracking with universe %llu\n
+Stopping source: %s\n
+String literals cannot cross line boundaries.
+StringOutputStream.
+Success
+Success: 
+SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d\n
+SwSyncDetect selected %s\n
+Swap
+Symbol name "
+Sync detect mode %d.\n
+Sync on beam channel conflict %d\n
+Syntax error: value, object or array expected.
+Sys Temp: 
+Sys clk: 
+TDM only works with matched single / double rotor pairs.\n
+TDM sensorType changed to: %d\n
+TDM supports max of 2 basestations.\n
+TDM total=%d invalid_long=%d runt=%d sync_miss=%d samples_in_sync_guard_band=%d\n
+TEST_TMPDIR
+Target fw version: 
+Task Suspended
+TerminateProcess
+Test mode ena: 
+The total number of bytes read was 
+This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
+This program requires version 
+This program was compiled against version 
+This shouldn't be called if all the sizes are equal.
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TranslateMessage
+Tried to merge messages of different types 
+True
+Type
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
+U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
+USB TimeSync
+USB status (rates over 
+USER32.dll
+USERNAME
+UUUUUU
+Unable to init zlib\n
+Unable to read UserData Size\n
+Unable to read UserData named %s\n
+Unable to read UserData\n
+Unable to read config from device\n
+Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
+Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
+Unable to turn on polling for HMD Hid device\n
+Unable to write size of config\n
+Unable to write to %s\n
+Unexpected centroid ordering error %.3fms S-%d\n
+Unexpected failure while serializing option submessage 
+UnhandledExceptionFilter
+Unimplemented type: 
+UninterpretedOption
+Unknown
+Unknown Hmd Interrupt packet: report ID %d\n
+Unknown command.  Type "help"\n
+Unknown enumeration value of "
+Unknown exception
+Unrecognized command line switch [ %s ].\n
+UnregisterClassA
+UnregisterDeviceNotification
+Usage: eventrate [event ID]\n
+Usage: ispdiv n\n
+Usage: sleep <ms>\n
+Usage: wait [milliseconds]\n
+User
+User Data size allocation is 0x%x\n
+User data (%d files)\n
+User data not supported (or no image present on device)\n
+User reset
+UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x\n
+UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d\n
+UserData Error: Unable to send start user data feature report \n
+UuidCreate
+UuidToStringA
+VBus: 
+VCRUNTIME140.dll
+VDEST
+VERSION.dll
+VRC Version %i\n
+VRC-
+VRC-%s
+VSync
+Value 
+Value must be "true" or "false" for boolean option "
+Value must be identifier for boolean option "
+Value must be identifier for enum-valued option "
+Value must be integer for int32 option "
+Value must be integer for int64 option "
+Value must be non-negative integer for uint32 option "
+Value must be non-negative integer for uint64 option "
+Value must be number for double option "
+Value must be number for float option "
+Value must be quoted string for string option "
+Value out of range for int32 option "
+Value out of range for int64 option "
+Value out of range for uint32 option "
+Vc0a
+VerQueryValueA
+Version:  %s  %s\n
+Video Failure
+Video state: 
+VrController
+VsyncToPhotonsSec=%f\n
+WARNING
+WARNING!  Error parsing config JSON: %s\n
+WARNING: Base %08X earliest sample in frame (axis %d) went back from %g to %g\n
+WARNING: Saw sync on beam channel conflict on ch %d\n
+WARNING: Speculative Start Collision for base %0X (removing %s)\n
+WINMM.dll
+Wait For Sync
+WaitForSingleObject
+WaitForSingleObjectEx
+WakeAllConditionVariable
+WakeConditionVariable
+Warning parsing text-format 
+Warning: Framer decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.\n
+Warning: Framer sensorType NotYetAvailable\n
+Warning: Framer unknown sensorType: %d\n
+Warning: SOB decoded ootx incorrectly specifies non-SOB mode. Forcing to MODE_SOB.\n
+Warning: SOB decoded ootx specifies incorrect SOB channel. Forcing to known correct value.\n
+Warning: TDM decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.\n
+Warning: TDM sensorType NotYetAvailable\n
+Warning: TDM sensorType changed to unknown type: %d\n
+Warning: TDM unknown sensorType\n
+Warning: Unused import: "
+Watchdog count: 
+Watchdog reset
+Watchman Board Model: %i\n
+Watchman Version: %s\n
+WideCharToMultiByte
+WriteFile
+Writing '%s'\n
+Writing... %s\n
+Wrote %d bytes to %s\n
+Wrote 0x%X to 0x%X\n
+Wrote the contents of %s as the config on the device\n
+XsBI
+Zjz\v
+[h1R
+[invalid]\t%d\n
+[lazy = true] can only be specified for submessage fields.
+[libprotobuf %s %s:%d] %s\n
+[packed = true] can only be specified for repeated primitive fields.
+\%03o
+\FileVersion
+\InternalName
+\StringFileInfo\
+\U%08x
+\VarFileInfo\Translation
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n google/protobuf/descriptor.proto
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fdouble_value
+\n\fideal_period
+\n\fis_extension
+\n\fjava_package
+\n\fstring_value
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\ngo_package
+\n\ninput_type
+\n\nsync_width
+\n\rCOpticalFrame
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rdefault_value
+\n\rserial_number
+\n\tname_part
+\n\ttype_name
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\voneof_index
+\n\voutput_type
+\r\n\tCODE_SIZE
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
+\rlighthouse.pb"(\n
+\rmj>zjZ
+\tPID  0x%04X\n
+\tVID  0x%04X\n
+\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+^oEZ_
+_CIasin
+_CIfmod
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_RDATA
+__CxxFrameHandler3
+__RTDynamicCast
+__acrt_iob_func
+__libm_sse2_asin
+__libm_sse2_atan2
+__libm_sse2_cos
+__libm_sse2_pow
+__libm_sse2_sin
+__libm_sse2_tan
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_configthreadlocale
+_configure_narrow_argv
+_controlfp_s
+_crt_atexit
+_dtest
+_errno
+_except1
+_except_handler3
+_except_handler4_common
+_exit
+_get_initial_narrow_environment
+_getpid
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_localtime64
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_stricmp
+_strtoi64
+_strtoui64
+_time64
+_wcsdup
+_wfopen_s
+_wfsopen
+_wgetcwd
+_wstat64i32
+abort
+acc_bias
+acc_scale
+accel
+active
+additional six characters expected to parse unicode surrogate pair.
+aggregate_value
+alse
+angle
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+assert json failed
+associatecontroller
+associatecontroller\tAssociated the attached controller to the attached puck\n
+attached_device_id
+audio_playback_device_name
+audio_playback_device_pid
+audio_playback_device_vid
+audio_recording_device_name
+audio_recording_device_pid
+audio_recording_device_vid
+auto
+average_period
+axis
+axis: %d (filter:%d, printInterval:%d)\n
+axis=%3d 
+axis=%d %d 
+axis=%d 0 
+axis\tToggle VRC axis data dumping\n
+backward_time
+bad allocation
+bad array new length
+bad conversion
+base %08X u%d r%d (i%d)\n
+base:%08X axis:%d min_sensor_ppm: %0.2f\n
+base_config_json
+battery
+battery (charging): %d\n
+battery (not charging): %d\n
+battery status not provided by device\n
+battery\tPrint battery status\n
+bg_bg
+black_clamp
+bool
+brazilian
+buffer error
+bulgarian
+button
+button: %d\n
+button\tToggle button data dumping\n
+buttons: h %016llx t %016llx p %016llx\n
+buttons: t %016llx p %016llx\n
+bytes
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\lighthouse_console\Retaillighthouse_console_public\win32\2017\lighthouse_console.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\stereo_setup.cpp
+cal_method
+calloc
+capsensecalibrate
+cc_generic_services
+ceil
+center
+center_x
+center_y
+channelMap
+channelOrder
+clear\tClear the record buffer and accumulated statistics.\n
+closed
+coeffs
+com.google.protobufB
+configuration string is empty
+connected lighthouse device found.
+controller
+couldn't parse configuration %s: %s\n
+cs_cz
+ctype
+czech
+dQy/
+da_dk
+danish
+data %d %d %.17g %08x %08x\n
+data error
+de_de
+default_mm
+deque<T> too long
+device
+device_class
+device_pid
+device_serial_number
+device_serial_number_watchman
+device_vid
+deviceinfo
+deviceinfo\tPrint information about all connected lighthouse_devices.\n
+devicescannermsgwindow-
+direct_mode_edid_pid
+direct_mode_edid_vid
+dis [<type=auto>]\tToggle disambiguation. types={ auto, tdm, framer, synconbeam }\n
+disabled
+display_color_mult
+display_edid
+display_frequency
+display_gc
+display_hdr10
+display_mc
+display_multiframerate
+display_usb_pid
+display_usb_protocol
+display_usb_vid
+dist=%0.3lfm pos=%0.3lf,%0.3lf,%0.3lf angle=%0.3lf,%0.3lf,%0.3lf error=%.05e
+distort
+distortion
+distortion_blue
+distortion_red
+dongleinfo
+donglereset
+dongleresetall
+double
+down
+downloadconfig
+downloadconfig [<filename>]\tDownload the config file\n
+doze
+driver_lighthouse message window
+drivers
+drop %08X u%d (i%d)\n
+dsc_bppx16
+dsc_slices
+dsc_version
+dual_extrinsics
+dump: %d\n
+dump\tToggle all dumping to the console. You must also turn on the individual { imu, sync, sample } flags.\n
+dutch
+dynamic_state_json
+eEYE_FIRST
+eEYE_L
+eEYE_LEFT
+eEYE_R
+eEYE_RIGHT
+eNUM_EYES
+el_gr
+en_us
+enable
+enabled
+english
+enum
+errors\tDump the lighthouse error/status structure.\n
+es-8R
+es_es
+es_mx
+event
+event 0x%2.2x %.8f (%d) - %s\n
+event: %d\n
+event\tToggle lighthouse aux event dumping\n
+eventmask
+eventmask\tSelect lighthouse aux events to report\n
+eventrate
+ewh/?y
+exception thrown in JSON library
+exit
+expected_bases
+expected_controllers
+expecting another \u token to begin the second half of a unicode surrogate pair
+experimental_map_key
+extend .$0 {\n
+extendee
+extension_range
+extrinsics
+eye_target_height_in_pixels
+eye_target_width_in_pixels
+eye_to_head
+eye_tracking
+fP~V
+failed
+false
+fclose
+fflush
+fi_fi
+field
+file
+file error
+file is empty or does not exist
+finnish
+firmware_config
+firmware_version
+first_eye
+fixcalib
+fixed32
+fixed64
+flags
+flags2
+float
+focal_x
+focal_y
+fopen
+forcepairall
+fpgaread
+fpgaread addr\n
+fpgaread failed\n
+fpgawrite
+fpgawrite addr data\n
+fpgawrite failed\n
+fputs
+fr_fr
+framer
+fread
+free
+french
+fseek
+ftell
+fu`z
+fwrite
+generic_tracker
+german
+getenv
+google.protobuf"G\n
+google.protobuf.Empty
+google.protobuf.EnumOptions
+google.protobuf.EnumValueOptions
+google.protobuf.FieldOptions
+google.protobuf.FileOptions
+google.protobuf.MessageOptions
+google.protobuf.MethodOptions
+google.protobuf.ServiceOptions
+google.protobuf.StreamOptions
+google/protobuf/descriptor.proto
+gqr<
+greek
+group
+grow_for_undistort
+gyro
+gyro_bias
+gyro_scale
+hPU3
+haptic [<duration_us>] [<interval_us>] [<repeat_count>]\tTrigger haptic pulse\n
+haptic2 [<frequency_hz>] [<duration_ms>] [<amplitude_percent>]\tTrigger haptics\n
+hardware_revision
+head
+head_from_camera
+header crc mismatch
+height
+hid_close
+hid_enumerate
+hid_error
+hid_exit
+hid_free_enumeration
+hid_get_feature_report
+hid_get_indexed_string
+hid_get_manufacturer_string
+hid_get_product_string
+hid_get_serial_number_string
+hid_init
+hid_open
+hid_open_path
+hid_read
+hid_read_timeout
+hid_send_feature_report
+hid_set_nonblocking
+hid_write
+hidden_area_mesh
+high_frame_jitter
+high_mm
+hmdhidtest
+hu_hu
+hungarian
+i91k
+i]Wb
+identifier_value
+identifycontroller
+identifycontroller \tTrigger haptic pulses on the active serial number to identify it\n
+image
+imu %.17g %.17g %.17g %.17g %.17g %.17g %.17g %u\n
+imu %u rate %0.1fHz interval %0.1fms sigma %0.3fms grav %0.2fm/s/s sigma %0.3f\n
+imu\tToggle IMU data packet dumping\n
+imustats: %d\n
+imustats\tPrint IMU statistics\n
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+in test mode
+inactive
+incompatible version
+incorrect data check
+incorrect header check
+incorrect length check
+infinity
+input_profile
+insufficient memory
+int32
+int64
+intrinsics
+invalid bit length repeat
+invalid block type
+invalid code -- missing end-of-block
+invalid code lengths set
+invalid distance code
+invalid distance too far back
+invalid distances set
+invalid literal/length code
+invalid literal/lengths set
+invalid map<K, T> key
+invalid stoi argument
+invalid stored block lengths
+invalid string position
+invalid window size
+invalid-user
+invalid_calibration_crc
+invalid_calibration_size
+invalid_calibration_version
+inverse_distortion
+ipd: %2.1fmm  button: %s  Prox: %s\n
+ipd=%f\n
+isp\tEnable In-System Programming\n
+ispdiv
+ispdiv <divisor>\tSet the camera ISP sync signal divisor\n
+isps
+it_it
+italian
+ja_jp
+japanese
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_string_check_utf8
+ko_kr
+koreana
+l6qnk
+lDa>
+label
+last_eye
+latam
+lazy
+ldiv
+leading_comments
+left
+left_sync_is_real
+left_sync_time
+lighthouse_console
+lighthouse_console.exe
+lighthouse_console.exe usage:\n
+lighthouse_console_save.txt
+lighthouse_db_json
+lighthouse_debug.proto
+list<T> too long
+location
+long_optical_packet_delay
+long_sync
+low_mm
+malloc
+manufacturer
+map key must name a scalar or string field.
+map type is only allowed for fields with a message type.
+map type is only allowed for repeated fields.
+map/set<T> too long
+map_key must not name a repeated field.
+matching 
+measuring...
+memchr
+memcpy
+memmove
+memset
+message
+message_set_wire_format
+method
+mfg_build_info
+minimum_ipd_step
+minstep_mm
+missing values from "device" section
+missing_rising_edge
+modelCad
+modelNormals
+modelPoints
+model_number
+modf
+nSplineCtrlPts
+name
+nb_no
+need dictionary
+negative_int_value
+nl_nl
+no_standard_descriptor_accessor
+none
+norwegian
+not running
+null
+num_windows
+number
+off!
+offset
+ootx
+ootx %08X u%d r%d (i%d)\n
+optical_sample
+optional
+options
+package
+packed
+pair
+pairall
+parallel_render_cameras
+parse
+path
+period\tPrint sync statistics\n
+pitch
+pl_pl
+plus_x
+plus_z
+polish
+portuguese
+pose %08X %.17g %.8g %.8g %.8g %.8g %.8g %.8g %.8g\n
+pose solver: %d%s\n
+pose\tToggle static pose solver. Is 'dis' is not active, it will enable it.\n
+position
+positive_int_value
+poweroff
+poweroff\tTurn off the active controller\n
+prescale
+previous_period
+product %u rev %u.%u.%u lot %u/%u/%u %u
+proximity
+proximity=%d (%f) prox_triggered=%d\n
+pt_br
+pt_pt
+public_dependency
+pulse_queue_overflow
+putchar
+py_generic_services
+queue_overflow
+quit\tQuit\n
+r2max
+reboot
+reboot\tReboot the connected watchman device.\n
+record
+record: %d, total samples: %u\n
+record: %d\n
+record\tToggle event recording. You must also turn on the individual { imu, sync, sample } flags.\n
+reformatconfig
+reformatconfig <inputfilename> <outputfilename>\n
+reformatconfig <inputfilename> <outputfilename>\tUpdate the config to the latest json format\n
+registered: 
+registered_device_type_prefix
+render_model
+render_target_scale
+repeated
+required
+required_peer_driver
+resource_root
+revision
+right
+right_sync_is_real_as_it_gets
+right_sync_time
+ro_ro
+roll
+romanian
+rotation
+roundf
+ru&o
+ru_ru
+runtime
+russian
+s?Ks
+sample %d %.17g %.17g\n
+sample: %d\n
+sample\tToggle sample dumping\n
+sample_angle_estimate
+samples
+save [<filename="lighthouse_console_save.txt">]\tSave recorded events to a file on disk\n
+saw base %08X model %u firmware %u resets %u mode %s faults %s ootx %d nonce %d [
+sc_schinese
+scale
+schedule [|enable|disable|test]\tEnable, disabled, test mode, or display state of sensor scheduling\n
+schinese
+second_tracked_camera
+seconds_from_photons_to_vblank
+seconds_from_vsync_to_photons
+sensorcheck
+sensorcheck: %d\n
+sensorcheck\tPrint out hits (and widths) per sensor\n
+serial
+serial\tSelect a device to open by serial number substring\n
+service
+sfixed32
+sfixed64
+short_sync
+sint32
+sint64
+sleep
+sleep <milliseconds>\tReally just sleep\n
+source_code_info
+spammy_sensor
+span
+spanish
+start
+stby
+stoi argument out of range
+strchr
+stream end
+stream error
+streams
+strftime
+string
+string too long
+strings::Substitute format string invalid: asked for "$
+strncpy
+strpbrk
+strstr
+strtod
+strtof
+strtol
+strtoul
+subpixel_shift_blue_in_pixels
+subpixel_shift_red_in_pixels
+subtype mismatch
+succeeded
+supported
+sv_se
+swedish
+sync %08x %d %.17g\n
+sync: %d\n
+sync\tToggle sync dumping\n
+syncd\tToggle sw sync detect\n
+synconbeam
+systime
+tTyY1
+tchinese
+tdm sync acquired\n
+tdm sync lost\n
+terminate
+text format contains deprecated field "
+th_th
+thai
+the global scope
+time
+timeBeginPeriod
+timeEndPeriod
+tolower
+too many length or distance symbols
+toupper
+tr_tr
+tracked_camera
+tracked_camera1
+tracked_cameras
+tracked_controller_role
+tracked_object_json
+tracking_camera_intrinsics
+tracking_camera_unique_id
+tracking_reference
+tracking_to_eye_transform
+trackpadcalibrate
+trackpadcalibrate\tTrigger trackpad recalibration on the active controller\n
+trackpaddebug
+trackref_from_head
+trackref_from_imu
+trailing_comments
+translation
+true
+turkish
+type
+uKb!?6mH
+uKbA?
+uint32
+uint64
+uk_ua
+ukrainian
+undist_height
+undist_width
+undistort_r2_cutoff
+uninterpreted_option
+unique_base_id
+unknown
+unknown compression method
+unknown header flags set
+unpair
+unpairall
+uploadconfig
+uploadconfig [<filename>]\tUpload the config file to the device\n
+usbPID
+usbVID
+usbcheck\tContinuous once/sec print of USB packet rate stats\n
+usbstats\tOne-time dump of most recent USB packet rate stats\n
+userdata
+userdata\tGet a directory listing of the stored userdata\n
+userdataalloc
+userdataalloc\tDisplay the size of the user data allocation (in bytes)\n
+userdatadownload
+userdatadownload <name>\tDownload the specified named userdata\n
+userdatadownload name\n
+userdatadownloadraw
+userdatadownloadraw <addr> <size> [<filename>]\tDownload and store the user data at specified address\n
+userdatadownloadraw address size filename\n
+vQO+t
+value
+vector<T> too long
+version
+version\tPrints the firmware and hardware version on the Watchman board\n
+vi_vn
+vietnamese
+vortex
+w+OQvr
+w3Xc
+wXR\r
+wait
+wake
+watchimustats
+wcsncmp
+weak
+weak_dependency
+white_balance
+width
+wipe%s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d\n
+wipeUnable to request wireless pairing\n
+wireless_dongle_serial_number
+wn>Jj
+wrong submessage type
+y9*O
+y?driver
+y@display_serial_number
+zDUUPE
+zd?/n
+zh_cn
+zh_tw
+{kHw

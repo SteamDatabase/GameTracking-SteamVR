@@ -1,0 +1,1209 @@
+ !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+ ?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+ ?verticalOffset@QTableView@@MEBAHXZ
+ ?verticalScrollbarAction@QTableView@@MEAAXH@Z
+ ?verticalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
+ ?viewOptions@QTableView@@MEBA?AVQStyleOptionViewItem@@XZ
+ ?viewportEvent@QAbstractItemView@@MEAA_NPEAVQEvent@@@Z
+ ?viewportSizeHint@QTableView@@MEBA?AVQSize@@XZ
+ ?visualRect@QTableView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
+ Drag: [Shift] + [LMouse] 
+ Scale: [Shift] + [MWheel] 
+ for detail.\n
+ formatting error code 
+!?visualRegionForSelection@QTableView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
+!?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
+!?wheelEvent@QAbstractScrollArea@@MEAAXPEAVQWheelEvent@@@Z
+!\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
+" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorTool="Adobe Photoshop CS6 (Windows)" xmpMM:InstanceID="xmp.iid:7E78E02ABD8A11E6A4CDA757A7D2B17B" xmpMM:DocumentID="xmp.did:7E78E02BBD8A11E6A4CDA757A7D2B17B"> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:7E78E028BD8A11E6A4CDA757A7D2B17B" stRef:documentID="xmp.did:7E78E029BD8A11E6A4CDA757A7D2B17B"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>
+" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorTool="Adobe Photoshop CS6 (Windows)" xmpMM:InstanceID="xmp.iid:8F28E0FABD8A11E6BFF5CDAA4B2A4809" xmpMM:DocumentID="xmp.did:8F28E0FBBD8A11E6BFF5CDAA4B2A4809"> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:8F28E0F8BD8A11E6BFF5CDAA4B2A4809" stRef:documentID="xmp.did:8F28E0F9BD8A11E6BFF5CDAA4B2A4809"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>
+"\r?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z
+"iTXtXML:com.adobe.xmp
+%010lu:%010lu
+%s begin_ctx=%llu
+%s end_ctx=%llu
+%s: failed with error '%s' (%d)
+' is not a number.
+*** Blank Key ***
++!?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
+, last executing in 
+-1e+9999
+-IPCWrapper
+-Infinity
+-\n?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_16a5580a0fa0c5048dce7eec37c70dc3>@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_16a5580a0fa0c5048dce7eec37c70dc3>@@PEAXPEBD@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCBaseRenderer@@
+.?AVCD3DRenderer@@
+.?AVCQOverlayImage@@
+.?AVCQOverlayViewer@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVIEvent@IPC@@
+.?AVIMutex@IPC@@
+.?AVIRenderer@@
+.?AVISharedMem@IPC@@
+.?AVISyncObject@IPC@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVQAbstractButton@@
+.?AVQAbstractItemView@@
+.?AVQAbstractScrollArea@@
+.?AVQAction@@
+.?AVQBoxLayout@@
+.?AVQCheckBox@@
+.?AVQFrame@@
+.?AVQLabel@@
+.?AVQLayout@@
+.?AVQLayoutItem@@
+.?AVQMainWindow@@
+.?AVQObject@@
+.?AVQPaintDevice@@
+.?AVQPushButton@@
+.?AVQSplitter@@
+.?AVQTableView@@
+.?AVQTableWidget@@
+.?AVQTableWidgetItem@@
+.?AVQTimer@@
+.?AVQVBoxLayout@@
+.?AVQWidget@@
+.?AVRuntimeError@Json@@
+.?AVWin32Event@IPC@@
+.?AVWin32Mutex@IPC@@
+.?AVWin32SharedMemory@IPC@@
+.?AV_Facet_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+/dashboard/visible
+/device_was_drawn
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+0x%1
+1OnBackgroundColor()
+1OnExitAction()
+1OnLinearClicked()
+1OnOpaqueClicked()
+1OnOpenDevToolsForOverlay()
+1OnOverlayRefreshTimeout()
+1OnRecenterOverlay()
+1OnRendererInitializationError()
+1OnStatePollTimeout()
+1OnTableItemSelectionChanged()
+1db \r
+1e+9999
+2clicked()
+2itemSelectionChanged()
+2timeout()
+2triggered()
+4S?setAlpha@QColor@@QEAAXH@Z
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+: exception thrown in JSON library
+:/icons
+;\r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
+<?xpacket begin="
+<unknown>
+= ?unsetCursor@QWidget@@QEAAXXZ
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0QAction@@QEAA@AEBVQString@@PEAVQObject@@@Z
+??0QApplication@@QEAA@AEAHPEAPEADH@Z
+??0QChar@@QEAA@UQLatin1Char@@@Z
+??0QCheckBox@@QEAA@PEAVQWidget@@@Z
+??0QCursor@@QEAA@W4CursorShape@Qt@@@Z
+??0QIcon@@QEAA@AEBVQPixmap@@@Z
+??0QIcon@@QEAA@AEBVQString@@@Z
+??0QLabel@@QEAA@AEBVQString@@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
+??0QLabel@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
+??0QMainWindow@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
+??0QPainter@@QEAA@PEAVQPaintDevice@@@Z
+??0QPixmap@@QEAA@HH@Z
+??0QPushButton@@QEAA@AEBVQString@@PEAVQWidget@@@Z
+??0QSettings@@QEAA@PEAVQObject@@@Z
+??0QSizePolicy@@QEAA@W4Policy@0@0W4ControlType@0@@Z
+??0QSplitter@@QEAA@W4Orientation@Qt@@PEAVQWidget@@@Z
+??0QString@@QEAA@AEBV0@@Z
+??0QString@@QEAA@XZ
+??0QTableWidget@@QEAA@PEAVQWidget@@@Z
+??0QTableWidgetItem@@QEAA@H@Z
+??0QTimer@@QEAA@PEAVQObject@@@Z
+??0QVBoxLayout@@QEAA@PEAVQWidget@@@Z
+??0QVariant@@QEAA@AEBVQByteArray@@@Z
+??0QVariant@@QEAA@AEBVQString@@@Z
+??0QVariant@@QEAA@H@Z
+??0QVariant@@QEAA@PEBD@Z
+??0QVariant@@QEAA@XZ
+??0QVariant@@QEAA@_K@Z
+??0QVariant@@QEAA@_N@Z
+??0QWidget@@QEAA@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1Connection@QMetaObject@@QEAA@XZ
+??1QAction@@UEAA@XZ
+??1QApplication@@UEAA@XZ
+??1QByteArray@@QEAA@XZ
+??1QCheckBox@@UEAA@XZ
+??1QCursor@@QEAA@XZ
+??1QIcon@@QEAA@XZ
+??1QLabel@@UEAA@XZ
+??1QMainWindow@@UEAA@XZ
+??1QPainter@@QEAA@XZ
+??1QPixmap@@UEAA@XZ
+??1QPushButton@@UEAA@XZ
+??1QSettings@@UEAA@XZ
+??1QSplitter@@UEAA@XZ
+??1QString@@QEAA@XZ
+??1QTableWidget@@UEAA@XZ
+??1QTableWidgetItem@@UEAA@XZ
+??1QTimer@@UEAA@XZ
+??1QVBoxLayout@@UEAA@XZ
+??1QVariant@@QEAA@XZ
+??1QWidget@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??4QColor@@QEAAAEAV0@AEBV0@@Z
+??4QString@@QEAAAEAV0@$$QEAV0@@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??Bid@locale@std@@QEAA_KXZ
+??MQTableWidgetItem@@UEBA_NAEBV0@@Z
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?QStringList_join@QtPrivate@@YA?AVQString@@PEBVQStringList@@PEBVQChar@@H@Z
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
+?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
+?addSearchPath@QDir@@SAXAEBVQString@@0@Z
+?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?addWidget@QSplitter@@QEAAXPEAVQWidget@@@Z
+?append@QListData@@QEAAPEAPEAXXZ
+?append@QString@@QEAAAEAV1@AEBV1@@Z
+?append@QString@@QEAAAEAV1@PEBD@Z
+?arg@QString@@QEBA?AV1@AEBV1@HVQChar@@@Z
+?arg@QString@@QEBA?AV1@HHHVQChar@@@Z
+?arg@QString@@QEBA?AV1@IHHVQChar@@@Z
+?arg@QString@@QEBA?AV1@NHDHVQChar@@@Z
+?arg@QString@@QEBA?AV1@_KHHVQChar@@@Z
+?begin@QListData@@QEBAPEAPEAXXZ
+?changeEvent@QAbstractButton@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QLabel@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QSplitter@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?checkStateSet@QAbstractButton@@MEAAXXZ
+?checkStateSet@QCheckBox@@MEAAXXZ
+?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
+?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?childEvent@QSplitter@@MEAAXPEAVQChildEvent@@@Z
+?clear@QLabel@@QEAAXXZ
+?clear@QSettings@@QEAAXXZ
+?clear@QTableWidget@@QEAAXXZ
+?clearSelection@QAbstractItemView@@QEAAXXZ
+?clone@QTableWidgetItem@@UEBAPEAV1@XZ
+?close@QWidget@@QEAA_NXZ
+?closeEditor@QAbstractItemView@@MEAAXPEAVQWidget@@W4EndEditHint@QAbstractItemDelegate@@@Z
+?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
+?commitData@QAbstractItemView@@MEAAXPEAVQWidget@@@Z
+?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
+?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?constData@QByteArray@@QEBAPEBDXZ
+?constData@QString@@QEBAPEBVQChar@@XZ
+?contextMenuEvent@QAbstractScrollArea@@MEAAXPEAVQContextMenuEvent@@@Z
+?contextMenuEvent@QLabel@@MEAAXPEAVQContextMenuEvent@@@Z
+?contextMenuEvent@QMainWindow@@MEAAXPEAVQContextMenuEvent@@@Z
+?contextMenuEvent@QWidget@@MEAAXPEAVQContextMenuEvent@@@Z
+?controlTypes@QLayout@@UEBA?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ
+?count@QBoxLayout@@UEBAHXZ
+?createHandle@QSplitter@@MEAAPEAVQSplitterHandle@@XZ
+?createPopupMenu@QMainWindow@@UEAAPEAVQMenu@@XZ
+?currentChanged@QTableView@@MEAAXAEBVQModelIndex@@0@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?isChecked@QAbstractButton@@QEBA_NXZ
+?isEmpty@QLayout@@UEBA_NXZ
+?isIndexHidden@QTableView@@MEBA_NAEBVQModelIndex@@@Z
+?item@QTableWidget@@QEBAPEAVQTableWidgetItem@@HH@Z
+?itemAt@QBoxLayout@@UEBAPEAVQLayoutItem@@H@Z
+?keyPressEvent@QAbstractButton@@MEAAXPEAVQKeyEvent@@@Z
+?keyPressEvent@QAbstractItemView@@MEAAXPEAVQKeyEvent@@@Z
+?keyPressEvent@QLabel@@MEAAXPEAVQKeyEvent@@@Z
+?keyPressEvent@QPushButton@@MEAAXPEAVQKeyEvent@@@Z
+?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
+?keyReleaseEvent@QAbstractButton@@MEAAXPEAVQKeyEvent@@@Z
+?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
+?keyboardSearch@QAbstractItemView@@UEAAXAEBVQString@@@Z
+?layout@QLayout@@UEAAPEAV1@XZ
+?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?mapFromGlobal@QWidget@@QEBA?AVQPoint@@AEBV2@@Z
+?maximumSize@QBoxLayout@@UEBA?AVQSize@@XZ
+?metaObject@QAction@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QCheckBox@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QLabel@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QPushButton@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QSplitter@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QTableWidget@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QTimer@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QVBoxLayout@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QWidget@@UEBAPEBUQMetaObject@@XZ
+?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
+?mimeData@QTableWidget@@MEBAPEAVQMimeData@@V?$QList@PEAVQTableWidgetItem@@@@@Z
+?mimeTypes@QTableWidget@@MEBA?AVQStringList@@XZ
+?minimumHeightForWidth@QBoxLayout@@UEBAHH@Z
+?minimumSize@QBoxLayout@@UEBA?AVQSize@@XZ
+?minimumSizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ
+?minimumSizeHint@QCheckBox@@UEBA?AVQSize@@XZ
+?minimumSizeHint@QLabel@@UEBA?AVQSize@@XZ
+?minimumSizeHint@QPushButton@@UEBA?AVQSize@@XZ
+?minimumSizeHint@QSplitter@@UEBA?AVQSize@@XZ
+?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ
+?mouseDoubleClickEvent@QAbstractItemView@@MEAAXPEAVQMouseEvent@@@Z
+?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mouseMoveEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z
+?mouseMoveEvent@QAbstractItemView@@MEAAXPEAVQMouseEvent@@@Z
+?mouseMoveEvent@QCheckBox@@MEAAXPEAVQMouseEvent@@@Z
+?mouseMoveEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z
+?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mousePressEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z
+?mousePressEvent@QAbstractItemView@@MEAAXPEAVQMouseEvent@@@Z
+?mousePressEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z
+?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mouseReleaseEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z
+?mouseReleaseEvent@QAbstractItemView@@MEAAXPEAVQMouseEvent@@@Z
+?mouseReleaseEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z
+?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?moveCursor@QTableView@@MEAA?AVQModelIndex@@W4CursorAction@QAbstractItemView@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
+?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
+?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
+?nextCheckState@QAbstractButton@@MEAAXXZ
+?nextCheckState@QCheckBox@@MEAAXXZ
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
+?paintEvent@QCheckBox@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QFrame@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QLabel@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QPushButton@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QTableView@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
+?qRegisterResourceData@@YA_NHPEBE00@Z
+?qUnregisterResourceData@@YA_NHPEBE00@Z
+?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QCheckBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QLabel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QPushButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QSplitter@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTableWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTimer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QAction@@UEAAPEAXPEBD@Z
+?qt_metacast@QCheckBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QLabel@@UEAAPEAXPEBD@Z
+?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z
+?qt_metacast@QPushButton@@UEAAPEAXPEBD@Z
+?qt_metacast@QSplitter@@UEAAPEAXPEBD@Z
+?qt_metacast@QTableWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QTimer@@UEAAPEAXPEBD@Z
+?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
+?read@QTableWidgetItem@@UEAAXAEAVQDataStream@@@Z
+?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z
+?removeRow@QTableWidget@@QEAAXH@Z
+?reset@QAbstractItemView@@UEAAXXZ
+?resize@QWidget@@QEAAXAEBVQSize@@@Z
+?resizeEvent@QAbstractItemView@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QSplitter@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
+?restoreGeometry@QWidget@@QEAA_NAEBVQByteArray@@@Z
+?restoreState@QMainWindow@@QEAA_NAEBVQByteArray@@H@Z
+?restoreState@QSplitter@@QEAA_NAEBVQByteArray@@@Z
+?row@QTableWidget@@QEBAHPEBVQTableWidgetItem@@@Z
+?rowCount@QTableWidget@@QEBAHXZ
+?rowsAboutToBeRemoved@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
+?rowsInserted@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
+?saveGeometry@QWidget@@QEBA?AVQByteArray@@XZ
+?saveState@QMainWindow@@QEBA?AVQByteArray@@H@Z
+?saveState@QSplitter@@QEBA?AVQByteArray@@XZ
+?scrollContentsBy@QTableView@@MEAAXHH@Z
+?scrollTo@QTableView@@UEAAXAEBVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
+?selectAll@QAbstractItemView@@UEAAXXZ
+?selectedIndexes@QTableView@@MEBA?AV?$QList@VQModelIndex@@@@XZ
+?selectedItems@QTableWidget@@QEBA?AV?$QList@PEAVQTableWidgetItem@@@@XZ
+?selectionChanged@QTableView@@MEAAXAEBVQItemSelection@@0@Z
+?selectionCommand@QAbstractItemView@@MEBA?AV?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@AEBVQModelIndex@@PEBVQEvent@@@Z
+?setAlignment@QLabel@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?setAlignment@QLayoutItem@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?setAlternatingRowColors@QAbstractItemView@@QEAAX_N@Z
+?setApplicationName@QCoreApplication@@SAXAEBVQString@@@Z
+?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
+?setAutoFillBackground@QWidget@@QEAAX_N@Z
+?setCentralWidget@QMainWindow@@QEAAXPEAVQWidget@@@Z
+?setCheckState@QCheckBox@@QEAAXW4CheckState@Qt@@@Z
+?setChecked@QAbstractButton@@QEAAX_N@Z
+?setChildrenCollapsible@QSplitter@@QEAAX_N@Z
+?setColumnCount@QTableWidget@@QEAAXH@Z
+?setColumnWidth@QTableView@@QEAAXHH@Z
+?setContentsMargins@QWidget@@QEAAXHHHH@Z
+?setCursor@QWidget@@QEAAXAEBVQCursor@@@Z
+?setData@QTableWidgetItem@@UEAAXHAEBVQVariant@@@Z
+?setDefaultSectionSize@QHeaderView@@QEAAXH@Z
+?setEditTriggers@QAbstractItemView@@QEAAXV?$QFlags@W4EditTrigger@QAbstractItemView@@@@@Z
+?setEnabled@QWidget@@QEAAX_N@Z
+?setFixedWidth@QWidget@@QEAAXH@Z
+?setFocusPolicy@QWidget@@QEAAXW4FocusPolicy@Qt@@@Z
+?setFrameStyle@QFrame@@QEAAXH@Z
+?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
+?setHandleWidth@QSplitter@@QEAAXH@Z
+?setHorizontalHeaderLabels@QTableWidget@@QEAAXAEBVQStringList@@@Z
+?setIcon@QAbstractButton@@QEAAXAEBVQIcon@@@Z
+?setIcon@QTableWidgetItem@@QEAAXAEBVQIcon@@@Z
+?setInterval@QTimer@@QEAAXH@Z
+?setItem@QTableWidget@@QEAAXHHPEAVQTableWidgetItem@@@Z
+?setMinimumHeight@QWidget@@QEAAXH@Z
+?setMinimumWidth@QWidget@@QEAAXH@Z
+?setModel@QTableWidget@@EEAAXPEAVQAbstractItemModel@@@Z
+?setOrganizationDomain@QCoreApplication@@SAXAEBVQString@@@Z
+?setOrganizationName@QCoreApplication@@SAXAEBVQString@@@Z
+?setRootIndex@QTableView@@UEAAXAEBVQModelIndex@@@Z
+?setSelection@QTableView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
+?setSelectionBehavior@QAbstractItemView@@QEAAXW4SelectionBehavior@1@@Z
+?setSelectionMode@QAbstractItemView@@QEAAXW4SelectionMode@1@@Z
+?setSelectionModel@QTableView@@UEAAXPEAVQItemSelectionModel@@@Z
+?setShowGrid@QTableView@@QEAAX_N@Z
+?setSizePolicy@QWidget@@QEAAXVQSizePolicy@@@Z
+?setSizes@QSplitter@@QEAAXAEBV?$QList@H@@@Z
+?setStretchLastSection@QHeaderView@@QEAAX_N@Z
+?setText@QAbstractButton@@QEAAXAEBVQString@@@Z
+?setText@QLabel@@QEAAXAEBVQString@@@Z
+?setText@QTableWidgetItem@@QEAAXAEBVQString@@@Z
+?setValue@QSettings@@QEAAXAEBVQString@@AEBVQVariant@@@Z
+?setVerticalScrollMode@QAbstractItemView@@QEAAXW4ScrollMode@1@@Z
+?setVisible@QWidget@@UEAAX_N@Z
+?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setupViewport@QAbstractScrollArea@@UEAAXPEAVQWidget@@@Z
+?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ
+?shared_null@QListData@@2UData@1@B
+?show@QWidget@@QEAAXXZ
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?singleShot@QTimer@@SAXHPEBVQObject@@PEBD@Z
+?size@QWidget@@QEBA?AVQSize@@XZ
+?sizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ
+?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QCheckBox@@UEBA?AVQSize@@XZ
+?sizeHint@QLabel@@UEBA?AVQSize@@XZ
+?sizeHint@QPushButton@@UEBA?AVQSize@@XZ
+?sizeHint@QSplitter@@UEBA?AVQSize@@XZ
+?sizeHint@QWidget@@UEBA?AVQSize@@XZ
+?sizeHintForColumn@QTableView@@MEBAHH@Z
+?sizeHintForRow@QTableView@@MEBAHH@Z
+?sizes@QSplitter@@QEBA?AV?$QList@H@@XZ
+?sortItems@QTableWidget@@QEAAXHW4SortOrder@Qt@@@Z
+?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
+?sprintf@QString@@QEAAAEAV1@PEBDZZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?start@QTimer@@QEAAXXZ
+?startDrag@QAbstractItemView@@MEAAXV?$QFlags@W4DropAction@Qt@@@@@Z
+?staticMetaObject@QMainWindow@@2UQMetaObject@@B
+?staticMetaObject@QWidget@@2UQMetaObject@@B
+?statusBar@QMainWindow@@QEBAPEAVQStatusBar@@XZ
+?stop@QTimer@@QEAAXXZ
+?supportedDropActions@QTableWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
+?timerEvent@QAbstractButton@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QTimer@@MEAAXPEAVQTimerEvent@@@Z
+?toBool@QVariant@@QEBA_NXZ
+?toByteArray@QVariant@@QEBA?AVQByteArray@@XZ
+?toInt@QVariant@@QEBAHPEA_N@Z
+?toLatin1@QString@@QEGBA?AVQByteArray@@XZ
+?toString@QVariant@@QEBA?AVQString@@XZ
+?toULongLong@QVariant@@QEBA_KPEA_N@Z
+?tr@QMetaObject@@QEBA?AVQString@@PEBD0H@Z
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?value@QSettings@@QEBA?AVQVariant@@AEBVQString@@AEBV2@@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+A valid JSON document must be either an array or an object value.
+ADVAPI32.dll
+ASSERT: "%s" at %s:%d.\n
+Absolute: xlate=(%f, %f, %f), universe=%d
+AddAccessAllowedAce
+Adobe ImageReadyq
+Alpha
+Attempt to init shared state %s twice
+Auto Curve Distance Range
+Background
+Background Color
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CD3D11::WaitForPresent
+CD3DRenderer::CreateShaders: Failed to constant buffer!\n
+CD3DRenderer::CreateShaders: Failed to create input layout for vertex shader %s!\n
+CD3DRenderer::CreateShaders: Failed to create pixel shader %s!\n
+CD3DRenderer::CreateShaders: Failed to create vertex shader %s!\n
+CD3DRenderer::CreateShaders: Failed to load pixel shader %s! (size=%d)\n
+CD3DRenderer::CreateShaders: Failed to load vertex shader %s! (size=%d)\n
+CD3DRenderer::CreateShaders: Failed to sampler state!\n
+COLOR
+CQOverlayImage
+CQOverlayViewer
+CSharedResourceNamespaceClient::Init(): failed connect\n
+CSharedResourceNamespaceClient::Init(): failed to get server response\n
+CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
+CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
+CSharedResourceNamespaceClient::Init(): received namespace data %u\n
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
+CSharedResourceNamespaceClient::InitIfNeeded
+Client (%s) app container state: %d
+CloseHandle
+Closing pipe %s because it was broken from the other end\n
+Color (RGB)
+CommandLineToArgvW
+ConvertStringSidToSidA
+CopySid
+CreateDXGIFactory1
+CreateEventA
+CreateEventW
+CreateFileA
+CreateFileMappingA
+CreateMutexA
+CreateWellKnownSid
+Cursor: hotspot= %f, %f
+D3D11CreateDeviceAndSwapChain
+D3DXMatrixLookAtLH
+D3DXMatrixMultiply
+D3DXMatrixOrthoLH
+D3DXMatrixPerspectiveFovLH
+D3DXMatrixScaling
+D3DXMatrixTranslation
+D3DXMatrixTranspose
+Dashboard Tab
+Dashboard Thumbnail
+DebuggerEnabled
+DeleteCriticalSection
+Dev Tools
+Duplicate key: '
+DuplicateHandle
+E!?winId@QWidget@@QEBA_KXZ
+Empty escape sequence in string
+Encountered error 
+EnterCriticalSection
+Error! EventWriteString Severe: %s\n
+EventRegister
+EventUnregister
+EventWriteString
+EventWriteTransfer
+Exceeded stackLimit in readValue().
+Exit
+Extra non-whitespace after JSON value.
+Failed to connect to pipe %s because %s... retrying
+Failed to connect to pipe %s because %s\n
+Failed to import client event handle from pipe %s after connecting\n
+Failed to import server event handle from pipe %s after connecting\n
+Failed to write app container status to pipe %s after connecting because %s\n
+Failed to write event process handle after connecting because %s\n
+False
+Flags
+Format string parse failure
+FormatMessageA
+FreeLibrary
+GetCommandLineW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentVariableA
+GetLastError
+GetLengthSid
+GetModuleFileNameW
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+GetTickCount64
+GetTokenInformation
+GetTokenInformation failed. GetLastError returned: %d\n
+IDATx
+IEND
+IPC::CIPCHandle::InitForExport
+IPCPipe(%s) failed to read payload of %u bytes
+IPCPipe(%s) failed to write message of %u bytes because %s\n
+IPCPipe(%s): Next message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
+IPCPipe(%s): Wrote %u bytes of total message length\n
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRChaperoneInternal_XXX
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorSystemInternal_XXX
+IVRControlPanel_006
+IVRDebug_001
+IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVRNotificationsInternal_001
+IVROverlayInternal_XXX
+IVROverlayView_003
+IVROverlay_028
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServerInternal_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+Infinity
+InitializeAcl
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+InitializeSecurityDescriptor
+Input Method
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidSid
+J?green@QColor@@QEBAHXZ
+K?invalidate@QColor@@AEAAXXZ
+KERNEL32.dll
+LeaveCriticalSection
+Line %d, Column %d
+Linear
+LoadLibraryA
+Local: %1x%2 Mapped: %3x%4
+LocalAlloc
+LocalFree
+LocalizationManager
+MSVCP140.dll
+Main Handle
+MainThrd
+MapViewOfFile
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Mouse Capture
+Mouse Scale
+NULL
+Name
+OnBackgroundColor
+OnExitAction
+OnLinearClicked
+OnOpaqueClicked
+OnOpenDevToolsForOverlay
+OnOverlayRefreshTimeout
+OnRecenterOverlay
+OnRendererInitializationError
+OnStatePollTimeout
+OnTableItemSelectionChanged
+Opaque
+OpenEventA
+OpenFileMappingA
+OpenMutexA
+OpenProcess
+OpenProcessToken
+OpenProcessToken failed. GetLastError returned: %d\n
+Out of thread local storage!\n
+OutputDebugStringW
+Overlay Key
+Overlay Viewer
+Overlay=%1
+OverlayViewer
+P5Q \rF07
+PNG\r\n
+POSITION
+Parent Handle
+PeekNamedPipe
+Projection
+Property
+Protected
+Q?red@QColor@@QEBAHXZ
+QJ?globalPos@QMouseEvent@@QEBA?AVQPoint@@XZ
+Qt5Core.dll
+Qt5Gui.dll
+Qt5Widgets.dll
+QueryPerformanceCounter
+R?rgb@QColor@@QEBAIXZ
+RPCRT4.dll
+RSDS\rJ$*
+RaiseException
+ReadFile
+ReadFile failed on %s after event was signaled because %s\n
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
+Recenter
+RegCloseKey
+RegOpenKeyA
+RegQueryValueExA
+ReleaseMutex
+Rendering PID
+ResetEvent
+RtlCaptureContext
+RtlGetNtVersionNumbers
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+SHELL32.dll
+SHGetFolderPathW
+SceneGraph=%1
+See 
+SetEvent
+SetNamedPipeHandleState
+SetSecurityDescriptorDacl
+SetUnhandledExceptionFilter
+Size
+Sleep
+SleepConditionVariableCS
+Software\Valve\Steam\ActiveProcess
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
+Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
+Somebody locked a non-leaf shared memory %s while %s was already locked
+Sort Order
+SteamVR_Namespace
+Subview
+Syntax error: value, object or array expected.
+T?setGreen@QColor@@QEAAXH@Z
+TEXCOORD
+TJ?globalPos@QWheelEvent@@QEBA?AVQPoint@@XZ
+TdhEnumerateManifestProviderEvents
+Texel Aspect Ratio
+Texture Bounds U
+Texture Bounds V
+Texture Color Space
+TextureLock=%1
+This overlay is protected.
+Thumbnail Handle
+TlsAlloc
+TlsFree
+TrackedDeviceRelative: device=%d, component=%s
+TrackedDeviceRelative: xlate=(%f, %f, %f), device=%d
+Transform Type
+True
+U?setRed@QColor@@QEAAXH@Z
+U?setRgb@QColor@@QEAAXHHHH@Z
+U\f?fromAscii_helper@QString@@CAPEAU?$QTypedArrayData@G@@PEBDH@Z
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
+Unable to create event %s to go with pipe %s in WaitForConnection\n
+Unable to create shared memory %s for IPC client\n
+Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
+Unable to determine VR Path Registry filename
+Unable to init VR runtime: %s
+Unable to initialize VRWebHelper shared state\n
+Unable to open current process for duplicating handles because %s\n
+Unable to open process id=%d from pipe %s after connecting because %s\n
+Unable to parse 
+Unable to parse token length
+Unable to read VR Path Registry from 
+Unable to read event handles from pipe %s after connecting because %s\n
+Unable to read event salt from pipe %s after connecting because %s\n
+Unable to read pid from pipe %s after connecting because %s\n
+UnhandledExceptionFilter
+Unknown Overlay flag (%d)
+Unknown exception
+Unknown: %d
+UnmapViewOfFile
+UuidFromStringA
+VCRUNTIME140.dll
+VR Path Registry node %s is not an array\n
+VROverlayFlags_EnableClickStabilization
+VROverlayFlags_EnableControlBar
+VROverlayFlags_EnableControlBarClose
+VROverlayFlags_EnableControlBarKeyboard
+VROverlayFlags_HideLaserIntersection
+VROverlayFlags_IgnoreTextureAlpha
+VROverlayFlags_IsPremultiplied
+VROverlayFlags_MakeOverlaysInteractiveIfVisible
+VROverlayFlags_MultiCursor
+VROverlayFlags_NoDashboardTab
+VROverlayFlags_Panorama
+VROverlayFlags_ProtectedContent
+VROverlayFlags_SendVRDiscreteScrollEvents
+VROverlayFlags_SendVRSmoothScrollEvents
+VROverlayFlags_SendVRTouchpadEvents
+VROverlayFlags_ShowTouchPadScrollWheel
+VROverlayFlags_SideBySide_Crossed
+VROverlayFlags_SideBySide_Parallel
+VROverlayFlags_SortWithNonSceneOverlays
+VROverlayFlags_StereoPanorama
+VROverlayFlags_TransferOwnershipToInternalProcess
+VROverlayFlags_VisibleInDashboard
+VROverlayFlags_WantsModalBehavior
+VRWebHelper
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_GetVRInitErrorAsSymbol
+VR_InitInternal2
+VR_IsInterfaceVersionValid
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_ShutdownInternal
+VR_WebHelperMutex
+VR_WebHelperState
+Value
+Valve
+VerSetConditionMask
+VerifyVersionInfoW
+Visibility details
+Visible
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitNamedPipe %s failed because %s\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
+WaitNamedPipeA
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s\n
+WideCharToMultiByte
+Width In Meters
+WriteFile
+Z\f?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
+[IPC] ConvertStringSidToSidA failed for test app %d\n
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
+[IPC] Existing file mapping for %s was found\n
+[IPC] Failed creating auto reset event %s (GLE: %u)\n
+[IPC] Failed creating file mapping %s: %u\n
+[IPC] Failed creating mutex %s (GLE: %u)\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed to open event %s because access was denied\n
+[IPC] Failed to open file mapping %s because access was denied\n
+[IPC] Failed to open mutex %s because access was denied\n
+[IPC] Forced create of Win32 mutex %s but it already existed\n
+[IPC] Forced create of Win32Event %s but it already existed\n
+[IPC] Forced create of Win32Event but it already existed\n
+[IPC] Forced create of Win32Mutex but it already existed\n
+[IPC] Forced create of file mapping %s but it already existed\n
+[IPC] GetTokenInformation failed. GetLastError returned: %d\n
+[IPC] InitializeAcl failed. GetLastError returned: %d\n
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
+[IPC] OpenProcessToken failed. GetLastError returned: %d\n
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
+[IPC] SharedMem access invalid: %x\n
+[IPC] The owner SID is invalid.\n
+\f?fromUtf8@QString@@SA?AV1@PEBDH@Z
+\f?fromWCharArray@QString@@SA?AV1@PEB_WH@Z
+\f?getColor@QColorDialog@@SA?AVQColor@@AEBV2@PEAVQWidget@@AEBVQString@@V?$QFlags@W4ColorDialogOption@QColorDialog@@@@@Z
+\f?heightForWidth@QWidget@@UEBAHH@Z
+\f?hide@QWidget@@QEAAXXZ
+\f?hideColumn@QTableView@@QEAAXH@Z
+\f?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
+\f?hitButton@QAbstractButton@@MEBA_NAEBVQPoint@@@Z
+\f?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
+\f?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+\f?horizontalOffset@QTableView@@MEBAHXZ
+\f?horizontalScrollbarAction@QTableView@@MEAAXH@Z
+\f?horizontalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
+\n?detach@QListData@@QEAAPEAUData@1@H@Z
+\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dispose@QListData@@QEAAXXZ
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
+\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
+\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\n?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+\n?event@QAction@@MEAA_NPEAVQEvent@@@Z
+\n?event@QCheckBox@@MEAA_NPEAVQEvent@@@Z
+\n?event@QLabel@@MEAA_NPEAVQEvent@@@Z
+\n?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
+\n?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
+\n?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
+\n?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
+\n?event@QWidget@@MEAA_NPEAVQEvent@@@Z
+\n?eventFilter@QAbstractScrollArea@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+\nFailed to Initialize Rendering Device.\n
+\r?fillRect@QPainter@@QEAAXAEBVQRect@@AEBVQColor@@@Z
+\r?indexAt@QTableView@@UEBA?AVQModelIndex@@AEBVQPoint@@@Z
+\r?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+\r?insertPermanentWidget@QStatusBar@@QEAAHHPEAVQWidget@@H@Z
+\r?insertRow@QTableWidget@@QEAAXH@Z
+\r?invalidate@QBoxLayout@@UEAAXXZ
+\rIHDR
+\t?blue@QColor@@QEBAHXZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\t?data@QTableWidgetItem@@UEBA?AVQVariant@@H@Z
+\t?dataChanged@QAbstractItemView@@MEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
+\t?devType@QWidget@@UEBAHXZ
+\t?doItemsLayout@QTableView@@UEAAXXZ
+\t\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+\v?exec@QApplication@@SAHXZ
+\v?expandingDirections@QBoxLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
+\v?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusInEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusNextPrevChild@QAbstractItemView@@MEAA_N_N@Z
+\v?focusNextPrevChild@QLabel@@MEAA_N_N@Z
+\v?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+\v?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+\v?geometry@QLayout@@UEBA?AVQRect@@XZ
+_ ?updateEditorData@QAbstractItemView@@MEAAXXZ
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_RDATA
+_TEST
+_Thrd_id
+_Thrd_join
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_exit
+_get_narrow_winmain_command_line
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_wfsopen
+_wstat64i32
+` ?updateEditorGeometries@QAbstractItemView@@MEAAXXZ
+a\f?hasHeightForWidth@QWidget@@UEBA_NXZ
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+alse
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+assert json failed
+atoi
+backgroundColor
+bad allocation
+bad array new length
+bad conversion
+bg_bg
+brazilian
+bulgarian
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\Retail\win64\2017\overlay_viewer.pdb
+captureMouse
+client
+collectComments
+config
+cs_cz
+czech
+d3d11.dll
+d3dx10_43.dll
+da_dk
+danish
+de_de
+deque<T> too long
+dutch
+dxgi.dll
+e\n?dropEvent@QTableWidget@@MEAAXPEAVQDropEvent@@@Z
+el_gr
+en_us
+english
+es_es
+es_mx
+exit
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+false
+fclose
+fi_fi
+finnish
+fr_fr
+fread
+free
+french
+fseek
+ftell
+geometry
+german
+greek
+h\n?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z
+h\r?inputMethodEvent@QAbstractItemView@@MEAAXPEAVQInputMethodEvent@@@Z
+horizontalSplitterSizes
+hu_hu
+hungarian
+iCD3D11::Present
+icons
+icons:not_visible.png
+icons:visible.png
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+invalid string position
+isspace
+it_it
+italian
+ja_jp
+japanese
+keylength >= 2^30
+ko_kr
+koreana
+l ?updateGeometries@QTableView@@MEAAXXZ
+latam
+linear
+m\n?dropMimeData@QTableWidget@@MEAA_NHHPEBVQMimeData@@W4DropAction@Qt@@@Z
+malloc
+map/set<T> too long
+memcmp
+memcpy
+memmove
+memset
+modf
+nb_no
+nfinity
+nl_nl
+norwegian
+ntdll.dll
+o!?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
+opaqueOverlay
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+pl_pl
+polish
+portuguese
+powf
+pt_br
+pt_pt
+r\r?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
+rejectDupKeys
+ro_ro
+romanian
+ru_ru
+runtime
+russian
+sS?setBlue@QColor@@QEAAXH@Z
+s\n?edit@QAbstractItemView@@MEAA_NAEBVQModelIndex@@W4EditTrigger@1@PEAVQEvent@@@Z
+sc_schinese
+schinese
+server
+shaders/d3d11/overlay_viewer_ps.fxo
+shaders/d3d11/overlay_viewer_vs.fxo
+spanish
+stackLimit
+startup
+state
+strictRoot
+string too long
+strncat
+strncpy
+strncpy_s
+strtod
+sv_se
+swedish
+tEXtSoftware
+tchinese
+tdh.dll
+terminate
+th_th
+thai
+tr_tr
+true
+turkish
+u\r?inputMethodQuery@QAbstractItemView@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+uk_ua
+ukrainian
+valvesoftware.com
+vector<T> too long
+version
+version.txt
+verticalSplitterSizes
+vi_vn
+vietnamese
+vrwebhelper
+wcstombs_s
+z\f?heightForWidth@QBoxLayout@@UEBAHH@Z
+zh_cn
+zh_tw
+{\v?focusInEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
+|\v?focusInEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
+~\f?heightForWidth@QLabel@@UEBAHH@Z
+~\n?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z

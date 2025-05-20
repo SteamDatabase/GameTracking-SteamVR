@@ -1,0 +1,872 @@
+                              
+    abridge <File>          - Refresh Audio Bridge
+    app     <File>          - Refresh APP
+    audio   <File>          - Refresh Audio codec
+    camboot <File1> <File2> - Refresh Camera through BootMode
+    camera  <File>          - Refresh Camera
+    fpga    <File>          - Refresh FPGA
+    iap     <File>          - Refresh IAP
+    ibridge <File>          - Refresh Image Bridge
+    read    <Option>        - Read information from device
+    reboot                  - Reboot device
+    request <Option>        - Request device do this action
+    status                  - Prints: Offline | IAP | APP | Unknown
+    swver                   - Device software version
+    version                 - Prints tool version
+    write   <Option> <Data> - Write data into device
+  Unknown pseudo relocation bit size %d.\n
+  Unknown pseudo relocation protocol version %d.\n
+  VirtualProtect failed with code 0x%x
+  VirtualQuery failed for %d bytes at address %p
+  what():  
+ [Action]
+ [clone 
+ __vector(
+ bytes)
+ const
+ for 
+ noexcept
+ once %p is %d\n
+ read /? to get option list
+ read [Option]
+ request /? to get option list
+ request [Option]
+ restrict
+ throw
+ transaction_safe
+ volatile
+ write /? to get option list
+ write [Option] [Data]
+%p not found?!?!\n
+%s: __pos (which is %zu) > this->size() (which is %zu)
+(((rwlock_t *)*rwl)->valid == LIFE_RWLOCK) && (((rwlock_t *)*rwl)->busy > 0)
+(anonymous namespace)
+(nil)
+(null)
+*N12_GLOBAL__N_117io_error_categoryE
+*N12_GLOBAL__N_121system_error_categoryE
+*N12_GLOBAL__N_122generic_error_categoryE
+*NSt13__facet_shims12_GLOBAL__N_112collate_shimIcEE
+*NSt13__facet_shims12_GLOBAL__N_112collate_shimIwEE
+*NSt13__facet_shims12_GLOBAL__N_113messages_shimIcEE
+*NSt13__facet_shims12_GLOBAL__N_113messages_shimIwEE
+*NSt13__facet_shims12_GLOBAL__N_113numpunct_shimIcEE
+*NSt13__facet_shims12_GLOBAL__N_113numpunct_shimIwEE
+*NSt13__facet_shims12_GLOBAL__N_113time_get_shimIcEE
+*NSt13__facet_shims12_GLOBAL__N_113time_get_shimIwEE
+*NSt13__facet_shims12_GLOBAL__N_114money_get_shimIcEE
+*NSt13__facet_shims12_GLOBAL__N_114money_get_shimIwEE
+*NSt13__facet_shims12_GLOBAL__N_114money_put_shimIcEE
+*NSt13__facet_shims12_GLOBAL__N_114money_put_shimIwEE
+*NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIcLb0EEE
+*NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIcLb1EEE
+*NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb0EEE
+*NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb1EEE
+, please try again
+, retrying...
+-+xX0123456789abcdef0123456789ABCDEF
+-+xX0123456789abcdefABCDEF
+-0123456789
+-basic_string::_M_construct null not valid
+../../src/mingw-w64/mingw-w64-libraries/winpthreads/src/rwlock.c
+.pdata
+/dev/random
+/dev/urandom
+00000000001
+0000000000102
+00000000001FF
+00000000002
+0000000000202
+00000000002FF
+0001
+0018
+00FF
+0123456789
+0309
+030B
+0BB4
+0D8C
+11AudioBridge
+17AudioBridgeTasker
+17CM6533AudioBridge
+2101
+23CM6533AudioBridgeTasker
+28DE
+2C87
+3.1.1 64 bits Official
+4SHA2
+6SHA256
+6b8262eaadb49bf0b2527ecc01534564e7b54eb31c9b53e047771f18f09a00e1
+9a&g
+<2ZGU
+?aCoc
+ABCDEF
+AITAPI_CloseBootloader
+AITAPI_CloseDevice
+AITAPI_GetAudioSource
+AITAPI_GetFWVersion
+AITAPI_GetISPSyncDuration
+AITAPI_GetISPSyncHighLow
+AITAPI_OpenAitDevice
+AITAPI_OpenBootloader
+AITAPI_ResumePreview
+AITAPI_SetAudioSource
+AITAPI_SuspendPreview
+AITAPI_UpdateFW_842x
+AITAPI_UpdateFwBootloader
+AKST
+AUDIO_BRIDGE_WORK
+Address %p has no image-section
+April
+Argument domain error (DOMAIN)
+Argument singularity (SIGN)
+Assertion failed: (%s), file %s, line %d\n
+August
+Bytes
+C%p %d V=%0X w=%ld %s\n
+Calibrate IPD Max Value
+Calibrate IPD Min Value
+CameraTasker-X64.dll
+CameraUpdater-X64.dll
+Close Watchman
+Command: 
+CreateFileMapping(error_no:%d) is failed!!\n
+CreateSemaphore(error_no:%d) is failed!!\n
+Data Size:%d\n
+December
+Device status: 
+DeviceName
+Disable Audio Codec Firmware
+Disable BT1
+Disable BT2
+Disable Camera
+Disable Display
+Disable LCM
+Disable Write Protection
+Done
+ELIBACC
+Enable Audio Codec Firmware
+Enable BT1
+Enable BT2
+Enable Bist Mode
+Enable Camera
+Enable Display
+Enable LCM
+Enable Led of Dark Green
+Enable Led of Green
+Enable Led of Red
+Enable Led of White
+Enable Write Protection
+Enter BOOT Mode
+Error
+Error cleaning up spin_keys for thread 
+Error in Get
+Error occurs in End: 
+Error occurs in Initialize: 
+Error occurs in Start: 
+Error occurs in Work: 
+Error: HidD_GetAttributes failed
+Error: OpenDeviceInterface: malloc failed
+Error: SetupDiGetInterfaceDeviceDetail failed
+Execute Panel Setting
+FF00
+Failed
+Failed(Status:
+FeatureReportByteLength
+February
+File Header is invaild
+File is too large
+File size is invaild
+Friday
+GCC: (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) 7.1.0
+Get Codec Path
+Get unknown result:%d\n
+HTC Vive
+HTC Vive Bootloader
+HTC Vive Bootloader#1
+HTC Vive#1
+HTCPrivateHelp.key
+HTV Vive#1
+INITY
+Infinity
+Initial:
+Initial: 
+InitializeSecurityDescriptor() is failed!!\n
+InputReportByteLength
+It can not get source
+JArray
+January
+July
+June
+Key is too long!! (size must be less than %ld)\n
+LC_COLLATE
+LC_CTYPE
+LC_MESSAGES
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+LP1K
+Launch IAP Mode
+Library couldn't be loaded
+LwH'
+MGiI
+Major:%d\n
+MapViewOfFile(error_no:%d) is failed!!\n
+March
+Mingw-w64 runtime failure:\n
+Minor:%d\n
+Monday
+Multiple device was detected, non-supported
+Multiple product and device were detected, non-supported
+Multiple product was detected, non-supported
+N10__cxxabiv115__forced_unwindE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv119__foreign_exceptionE
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv121__vmi_class_type_infoE
+N9ViveTools10NeoUpdaterE
+N9ViveTools10ViveAspVerE
+N9ViveTools11NeoMessagerE
+N9ViveTools11ViveUserVerE
+N9ViveTools12MirageTaskerE
+N9ViveTools13MirageUpdaterE
+N9ViveTools13ViveCommonVerE
+N9ViveTools14FlashTaskInforE
+N9ViveTools14MirageMessagerE
+N9ViveTools14ViveSpecialVerE
+N9ViveTools15ViveOfficialVerE
+N9ViveTools17APPFlashTaskInforE
+N9ViveTools17IAPFlashTaskInforE
+N9ViveTools18FPGAFlashTaskInforE
+N9ViveTools19AUDIOFlashTaskInforE
+N9ViveTools21IBRIDGEFlashTaskInforE
+N9ViveTools6TaskerE
+N9ViveTools7UpdaterE
+N9ViveTools8MessagerE
+N9ViveTools9AccessorsE
+N9ViveTools9NeoTaskerE
+N9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE
+N9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE
+N9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEEE
+N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
+N9__gnu_cxx24__concurrence_lock_errorE
+N9__gnu_cxx24__concurrence_wait_errorE
+N9__gnu_cxx26__concurrence_unlock_errorE
+N9__gnu_cxx29__concurrence_broadcast_errorE
+NOMEM
+NOMEN
+NSt3_V214error_categoryE
+NSt6locale5facet6__shimE
+NSt6locale5facetE
+NSt7__cxx1110moneypunctIcLb0EEE
+NSt7__cxx1110moneypunctIcLb1EEE
+NSt7__cxx1110moneypunctIwLb0EEE
+NSt7__cxx1110moneypunctIwLb1EEE
+NSt7__cxx1114collate_bynameIcEE
+NSt7__cxx1114collate_bynameIwEE
+NSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE
+NSt7__cxx1115basic_stringbufIwSt11char_traitsIwESaIwEEE
+NSt7__cxx1115messages_bynameIcEE
+NSt7__cxx1115messages_bynameIwEE
+NSt7__cxx1115numpunct_bynameIcEE
+NSt7__cxx1115numpunct_bynameIwEE
+NSt7__cxx1115time_get_bynameIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEE
+NSt7__cxx1115time_get_bynameIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEE
+NSt7__cxx1117moneypunct_bynameIcLb0EEE
+NSt7__cxx1117moneypunct_bynameIcLb1EEE
+NSt7__cxx1117moneypunct_bynameIwLb0EEE
+NSt7__cxx1117moneypunct_bynameIwLb1EEE
+NSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE
+NSt7__cxx1118basic_stringstreamIwSt11char_traitsIwESaIwEEE
+NSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEE
+NSt7__cxx1119basic_istringstreamIwSt11char_traitsIwESaIwEEE
+NSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
+NSt7__cxx1119basic_ostringstreamIwSt11char_traitsIwESaIwEEE
+NSt7__cxx117collateIcEE
+NSt7__cxx117collateIwEE
+NSt7__cxx118messagesIcEE
+NSt7__cxx118messagesIwEE
+NSt7__cxx118numpunctIcEE
+NSt7__cxx118numpunctIwEE
+NSt7__cxx118time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEE
+NSt7__cxx118time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEE
+NSt7__cxx119money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEE
+NSt7__cxx119money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEE
+NSt7__cxx119money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE
+NSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEE
+NSt8ios_base7failureB5cxx11E
+No Device
+No device
+Non-Supported
+Non-supported
+November
+O8M2
+October
+Offline
+Open Watchman
+Option list :
+OutputReportByteLength
+Overflow range error (OVERFLOW)
+POSIX
+PRINTF_EXPONENT_DIGITS
+Partial loss of significance (PLOSS)
+ProductID
+ProductName
+Qkkbal
+RWL%p %d %s\n
+RWL%p %d V=%0X B=%d r=%ld w=%ld L=%p %s\n
+Read Audio Bridge Version
+Read Audio Codec ID
+Read Audio Codec Reg via Address
+Read Audio Infor
+Read Audio Version
+Read Bridge ID
+Read Button State
+Read CPLD Version
+Read Camera ISP SYNC
+Read Camera Revision
+Read Camera Version
+Read Check Flag
+Read Device SN
+Read FPGA Reg via Address
+Read FPGA Version
+Read HDMI Information
+Read Headphone AMP Reg via Address
+Read IAP Software Version
+Read IPD Max Value
+Read IPD Min Value
+Read IPD Value
+Read Image Scale Type
+Read LCM ID
+Read LCM Infor
+Read LED Numbers
+Read Left Panel Gamma
+Read Nordic Version
+Read PCB ID
+Read PCB SN
+Read Panel Information
+Read Proximity Senosor Data via Index
+Read Proximity Sensor Information
+Read Right Panel Gamma
+Read SKU ID
+Read Usage Time
+Read Watchman Dongle Version
+Read action : 
+Received Error Tag
+ReportID
+Reset Panel
+Reset Watchman
+Saturday
+September
+SetSecurityDescriptorDacl() is failed!!\n
+SetupDiGetClassDevs failed: 
+Source can't be supported
+Source is invalid
+St10bad_typeid
+St10ctype_base
+St10money_base
+St10moneypunctIcLb0EE
+St10moneypunctIcLb1EE
+St10moneypunctIwLb0EE
+St10moneypunctIwLb1EE
+St11__timepunctIcE
+St11__timepunctIwE
+St11logic_error
+St11range_error
+St12codecvt_base
+St12ctype_bynameIcE
+St12ctype_bynameIwE
+St12domain_error
+St12length_error
+St12out_of_range
+St12system_error
+St13bad_exception
+St13basic_filebufIcSt11char_traitsIcEE
+St13basic_filebufIwSt11char_traitsIwEE
+St13basic_fstreamIcSt11char_traitsIcEE
+St13basic_fstreamIwSt11char_traitsIwEE
+St13basic_istreamIwSt11char_traitsIwEE
+St13basic_ostreamIwSt11char_traitsIwEE
+St13messages_base
+St13runtime_error
+St14basic_ifstreamIcSt11char_traitsIcEE
+St14basic_ifstreamIwSt11char_traitsIwEE
+St14basic_iostreamIwSt11char_traitsIwEE
+St14basic_ofstreamIcSt11char_traitsIcEE
+St14basic_ofstreamIwSt11char_traitsIwEE
+St14codecvt_bynameIcciE
+St14codecvt_bynameIwciE
+St14collate_bynameIcE
+St14collate_bynameIwE
+St14overflow_error
+St15basic_streambufIcSt11char_traitsIcEE
+St15basic_streambufIwSt11char_traitsIwEE
+St15messages_bynameIcE
+St15messages_bynameIwE
+St15numpunct_bynameIcE
+St15numpunct_bynameIwE
+St15time_get_bynameIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St15time_get_bynameIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St15time_put_bynameIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St15time_put_bynameIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St15underflow_error
+St16__numpunct_cacheIcE
+St16__numpunct_cacheIwE
+St16invalid_argument
+St17__timepunct_cacheIcE
+St17__timepunct_cacheIwE
+St17moneypunct_bynameIcLb0EE
+St17moneypunct_bynameIcLb1EE
+St17moneypunct_bynameIwLb0EE
+St17moneypunct_bynameIwLb1EE
+St18__moneypunct_cacheIcLb0EE
+St18__moneypunct_cacheIcLb1EE
+St18__moneypunct_cacheIwLb0EE
+St18__moneypunct_cacheIwLb1EE
+St19__codecvt_utf8_baseIDiE
+St19__codecvt_utf8_baseIDsE
+St19__codecvt_utf8_baseIwE
+St20__codecvt_utf16_baseIDiE
+St20__codecvt_utf16_baseIDsE
+St20__codecvt_utf16_baseIwE
+St20bad_array_new_length
+St21__ctype_abstract_baseIcE
+St21__ctype_abstract_baseIwE
+St23__codecvt_abstract_baseIDiciE
+St23__codecvt_abstract_baseIDsciE
+St23__codecvt_abstract_baseIcciE
+St23__codecvt_abstract_baseIwciE
+St25__codecvt_utf8_utf16_baseIDiE
+St25__codecvt_utf8_utf16_baseIDsE
+St25__codecvt_utf8_utf16_baseIwE
+St5ctypeIcE
+St5ctypeIwE
+St7codecvtIDiciE
+St7codecvtIDsciE
+St7codecvtIcciE
+St7codecvtIwciE
+St7collateIcE
+St7collateIwE
+St7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St8bad_cast
+St8ios_base
+St8messagesIcE
+St8messagesIwE
+St8numpunctIcE
+St8numpunctIwE
+St8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St9bad_alloc
+St9basic_iosIcSt11char_traitsIcEE
+St9basic_iosIwSt11char_traitsIwEE
+St9exception
+St9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St9time_base
+St9type_info
+Start
+Sucessfully
+Sunday
+Switch to APP mode... wait for a while
+Switch to IAP mode... wait for a while
+T%p %d V=%0X H=%p %s\n
+TLS init function for 
+TLS wrapper function for 
+The result is too small to be represented (UNDERFLOW)
+Thursday
+Timeout!!\n
+Total loss of significance (TLOSS)
+Transfer 
+Tuesday
+Unknown
+Unknown error
+Usage
+Usage:
+UsagePage
+VIVE Pro
+VIVE Pro Bootloader
+VIVE Pro Bootloader#1
+VIVE Pro#1
+VIVE_Ultra
+VIVE_Ultra Bootloader
+VIVE_Ultra Bootloader#1
+VIVE_Ultra#1
+VTT for 
+VendorID
+Vive 2.0
+Vive 2.0 Bootloader
+Vive 2.0 Bootloader#1
+Vive 2.0#1
+Vive Audio Bridge#1
+Vive Audio Bridge#2
+W4vC
+Waiting for update...
+Warning: Stay in IAP
+Watchman Dongle
+Watchman Dongle#0
+Wednesday
+Write Camera Revision
+Write Check Flag via param
+Write Codec Setting via param
+Write Device SN via param
+Write FPGA Reg via param
+Write Headphone AMP Reg via param
+Write Image Scale Type via param
+Write LCM ID via param
+Write Nordic Version via param
+Write PCB ID via param
+Write PCB SN via param
+Write Panel Setting
+Write Proximity Senosor Data via param
+Write Proximity Senosor Reset Based via param
+Write SKU ID via param
+Write action : 
+Zjz\v
+[ReleaseSemaphore(error_no:%d) is failed!!\n
+[abi:
+\r8STs\ne
+_Accum
+_Fract
+_GLOBAL_
+_Sat 
+__float128
+__gnu_cxx::__concurrence_broadcast_error
+__gnu_cxx::__concurrence_lock_error
+__gnu_cxx::__concurrence_unlock_error
+__gnu_cxx::__concurrence_wait_error
+__int128
+_get_output_format
+_matherr(): %s in %s(%g, %g)  (retval=%g)\n
+_set_output_format
+abcdef
+abridge
+abridgever
+alignof 
+allocator
+alnum
+alpha
+audio
+audioinfo
+audiover
+auto
+auto:
+basic_filebuf::_M_convert_to_external conversion error
+basic_filebuf::underflow codecvt::max_length() is not valid
+basic_filebuf::underflow error reading the file
+basic_filebuf::underflow incomplete character in file
+basic_filebuf::underflow invalid byte sequence in file
+basic_filebuf::xsgetn error reading the file
+basic_ios::clear
+basic_iostream
+basic_istream
+basic_ostream
+basic_string
+basic_string::_M_construct null not valid
+basic_string::_M_create
+basic_string::_M_replace
+basic_string::_M_replace_aux
+basic_string::_S_construct null not valid
+basic_string::_S_create
+basic_string::append
+basic_string::assign
+basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+basic_string::basic_string
+basic_string::compare
+basic_string::copy
+basic_string::erase
+basic_string::insert
+basic_string::replace
+basic_string::resize
+basic_string::substr
+bistmode
+blank
+bool
+boolean
+boot
+bridgeid
+bt1off
+bt1on
+bt2off
+bt2on
+button
+byte
+camboot
+camera
+cameraoff
+cameraon
+camrev
+camsync
+camver
+cannot create shim for unknown locale::facet
+char
+char16_t
+char32_t
+check
+closewatch
+cntrl
+codecfwoff
+codecfwon
+codecid
+codecpath
+codecreg
+complex 
+const_cast
+construction vtable for 
+covariant return thunk to 
+cpldver
+decimal128
+decimal32
+decimal64
+decltype (
+decltype(auto)
+decltype(nullptr)
+default
+delete 
+delete[] 
+deleted virtual method called\n
+devicesn
+digit
+disablewrp
+displayoff
+displayon
+donglever
+double
+dynamic_cast
+enablewrp
+eng-r-spi=
+eng-s-panel
+eng-w-codec=
+eng-w-panel=
+eng-w-spi=
+epanels
+false
+float
+fopen(%s) is failed!!\n
+fpga
+fpgareg
+fpgaver
+fread() is failed!!\n
+ftell(%s) is failed!!\n
+fwrite() is failed!!\n
+generic
+getLibVersion
+global constructors keyed to 
+global destructors keyed to 
+graph
+guard variable for 
+half
+hdmi
+hidden alias for 
+hpampreg
+i]Wb
+iapswver
+ibridge
+imagescale
+imaginary 
+init() has been called!!\n
+inity
+ios_base::_M_grow_words allocation failed
+ios_base::_M_grow_words is not valid
+iostream
+iostream error
+ipdmax
+ipdmin
+java Class for 
+java resource 
+k-ipdmax
+k-ipdmin
+key size : %ld\n
+launchiap
+lcm_info
+lcmid
+lcmoff
+lcmon
+leddarkgreen
+ledgreen
+lednum
+ledred
+ledwhite
+lgamma
+locale::_Impl::_M_replace_facet
+locale::_S_normalize_category category not found
+locale::facet::_S_create_c_locale name not valid
+lock() is failed!!\n
+long
+long double
+long long
+lower
+m_buffer is NULL!!\n
+m_handle is NULL!!\n
+m_semaphore is NULL!!\n
+malloc() is failed!!\n
+map::at
+mfg-k-ipdmax
+mfg-k-ipdmin
+mfg-r-checkflag
+mfg-r-devsn
+mfg-r-hpampreg
+mfg-r-imagescale
+mfg-r-ipdadc
+mfg-r-ipdmax
+mfg-r-ipdmin
+mfg-r-lcmid
+mfg-r-nordicver
+mfg-r-pcbid
+mfg-r-pcbsn
+mfg-r-ps_info
+mfg-r-ps_user_data
+mfg-r-skuid
+mfg-r-usetime
+mfg-s-audio_ver
+mfg-s-audioinfo
+mfg-s-bridgeid
+mfg-s-button
+mfg-s-closewatch
+mfg-s-codecid
+mfg-s-cpldver
+mfg-s-disablewrp
+mfg-s-enablewrp
+mfg-s-enter-boot0
+mfg-s-hdmi
+mfg-s-iapswver
+mfg-s-launchiap
+mfg-s-lcm_info
+mfg-s-openwatch
+mfg-s-panel
+mfg-s-resetpanel
+mfg-s-resetwatch
+mfg-t-bistmode
+mfg-t-bt1off
+mfg-t-bt1on
+mfg-t-bt2off
+mfg-t-bt2on
+mfg-t-cameraoff
+mfg-t-cameraon
+mfg-t-codecfwoff
+mfg-t-codecfwon
+mfg-t-codecpath
+mfg-t-codecreg
+mfg-t-displayoff
+mfg-t-displayon
+mfg-t-lcmoff
+mfg-t-lcmon
+mfg-t-leddarkgreen
+mfg-t-ledgreen
+mfg-t-ledred
+mfg-t-ledwhite
+mfg-w-checkflag=
+mfg-w-devsn=
+mfg-w-hpampreg=
+mfg-w-imagescale=
+mfg-w-lcmid=
+mfg-w-nordicver=
+mfg-w-pcbid=
+mfg-w-pcbsn=
+mfg-w-ps_canc=
+mfg-w-ps_user_data=
+mfg-w-skuid=
+mt19937
+new 
+new[]
+noReboot
+non-transaction clone for 
+non-virtual thunk to 
+nordicver
+openwatch
+operator
+operator 
+operator"" 
+panel
+pcbid
+pcbsn
+print
+pscanc
+psinfor
+psuserdata
+punct
+pure virtual method called\n
+random_device::random_device(const std::string&)
+read
+reboot
+reference temporary #
+reinterpret_cast
+request
+resetpanel
+resetwatch
+rgamma
+short
+signed char
+sizeof 
+sizeof...
+skuid
+space
+static_cast
+status
+std::allocator
+std::bad_alloc
+std::bad_array_new_length
+std::bad_cast
+std::bad_exception
+std::bad_typeid
+std::basic_iostream<char, std::char_traits<char> >
+std::basic_istream<char, std::char_traits<char> >
+std::basic_ostream<char, std::char_traits<char> >
+std::basic_string
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+std::exception
+std::iostream
+std::istream
+std::ostream
+std::string
+string literal
+string::string
+swver
+system
+terminate called after throwing an instance of '
+terminate called recursively\n
+terminate called without an active exception\n
+this
+throw
+throw 
+transaction clone for 
+true
+typeinfo fn for 
+typeinfo for 
+typeinfo name for 
+uninitialized __any_string
+unsigned
+unsigned __int128
+unsigned char
+unsigned int
+unsigned long
+unsigned long long
+unsigned short
+upper
+usetime
+usr-r-lgamma
+usr-r-rgamma
+vH7B
+vRQ>
+vector::_M_realloc_insert
+version
+virtual thunk to 
+void
+vtable for 
+wait
+wchar_t
+wcodec
+wn>Jj
+wpanels
+write
+xdigit
+{default arg#
+{lambda(
+{parm#
+{unnamed type#

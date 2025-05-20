@@ -1,0 +1,724 @@
+ for detail.\n
+!! refusing to trigger minidump with debugger attached\n
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+' is not a number.
+, last executing in 
+-1e+9999
+-Infinity
+-duplication_gpu_check
+-skip_duplication_gpu_check
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_76601e243a234ec783a81fb8fba74a92>@@
+.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_e5730e69a408f2c881c006e24b983b82>@@
+.?AV?$CCallback@VCSteamWorker@@USteamShutdown_t@@$0A@@@
+.?AV?$CCallbackImpl@$00@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_76601e243a234ec783a81fb8fba74a92>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e5730e69a408f2c881c006e24b983b82>@@PEAXPEBD@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCCallbackBase@@
+.?AVCSteamSteamVRPrivate001@@
+.?AVCVRDashboardConsoleManager@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVILogListener@@
+.?AVISteamSteamVRPrivate001@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AV_Facet_base@std@@
+.?AV_Pad@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.P6AXPEBD0I_NPEAXPEA_N@Z
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.previous.txt
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.txt
+.xdata
+.xdata$x
+//==============================================================================================\n
+/Screenshot_
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+16:45:12
+1e+9999
+: exception thrown in JSON library
+<unknown>
+================================================================================================\n
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@false
+A valid JSON document must be either an array or an object value.
+ADVAPI32.dll
+AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
+Aborting due to fatal assertion failure.
+Alert
+Another copy of this program is already running on this machine. Only one instance at a time is allowed.
+Assert( %s ) %s(%d)\n
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Better GPU preference is available, scheduling restart.\n
+CASSERT: "%s" at %s:%d.\n
+CVRLog::LogDirect
+Cannot initialize crash handling in a project without the Steam API available
+Checking if GPU preference is still valid...\n
+CloseHandle
+CreateDXGIFactory1
+CreateDirectoryW
+CreateEventW
+CreateFileW
+CreateMutexA
+CreatePipe
+CreateProcessA
+CreateWindowExA
+D3D11CreateDevice
+DBT_CONFIGCHANGECANCELED: A request to change the current configuration (dock or undock) has been canceled.\n
+DBT_CONFIGCHANGED: The current configuration has changed, due to a dock or undock.\n
+DBT_CUSTOMEVENT: A custom event has occurred.\n
+DBT_DEVICEARRIVAL: A device or piece of media has been inserted and is now available.\n
+DBT_DEVICEQUERYREMOVE: Permission is requested to remove a device or piece of media. Any application can deny this request and cancel the removal.\n
+DBT_DEVICEQUERYREMOVEFAILED: A request to remove a device or piece of media has been canceled.\n
+DBT_DEVICEREMOVECOMPLETE: A device or piece of media has been removed.\n
+DBT_DEVICEREMOVEPENDING: A device or piece of media is about to be removed. Cannot be denied.\n
+DBT_DEVICETYPESPECIFIC: A device-specific event has occurred.\n
+DBT_DEVNODES_CHANGED: A device has been added to or removed from the system.\n
+DBT_QUERYCHANGECONFIG: Permission is requested to change the current configuration (dock or undock).\n
+DBT_USERDEFINED: The meaning of this message is user-defined.\n
+Dashboard Main
+DefWindowProcA
+DeleteCriticalSection
+DeleteFileW
+Detail
+DispatchMessageA
+Duplicate key: '
+Empty escape sequence in string
+EnterCriticalSection
+Error
+Error encountered pumping Windows messages.\n
+Error setting GPU preference value for %s.\n
+Exceeded stackLimit in readValue().
+Exception %08x\n
+Executable: %s\n
+Extra non-whitespace after JSON value.
+FATAL: Failed to open log file %s\n
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds\n
+Failed to initialize vrdesktop. Exiting.\n
+Failed to load vrdesktop implementation. Exiting.\n
+Failed to register for device notifications.\n
+Failed to register raw input devices. Not using hardware sanity checks for physical mouse override.\n
+Failed to register window class.\n
+Failed to set thread %p priority: invalid priority %d\n
+Failed to set up logging.
+Fatal
+GDI32.dll
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetEnvironmentVariableA
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
+GetFileAttributesW
+GetFileSizeEx
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+GetLastError
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetProcAddress
+GetRawInputData
+GetRawInputData did not return the correct size.\n
+GetStartupInfoW
+GetStdHandle
+GetStockObject
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTickCount64
+GetVRDesktopImpl
+GpuPreference=
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRChaperoneInternal_XXX
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorSystemInternal_XXX
+IVRCompositor_029
+IVRControlPanel_006
+IVRDebug_001
+IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVRNotificationsInternal_001
+IVROverlayInternal_XXX
+IVROverlay_028
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRScreenshots_001
+IVRServerInternal_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+Infinity
+Info
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+LeaveCriticalSection
+Line %d, Column %d
+LoadCursorA
+LoadIconA
+LoadLibraryA
+LocalizationManager
+Log Level Set to %d\n
+MSVCP140.dll
+MainMenu
+MainThrd
+MainWndClass
+May  7 2025
+MessageBoxA
+Minidump comment truncated
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+MoveFileExW
+Out of thread local storage!\n
+OutputDebugStringA
+PeekMessageA
+Process VR events.
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RSDS
+RaiseException
+ReadFile
+RegCloseKey
+RegCreateKeyExA
+RegOpenKeyExA
+RegQueryValueExA
+RegSetValueExA
+RegisterClassA
+RegisterDeviceNotificationA
+RegisterRawInputDevices
+Registered raw input devices successfully. Using hardware sanity checks for physical mouse override.\n
+Registry key does not exist, nothing to read.\n
+ReleaseMutex
+ResetEvent
+RtlCaptureContext
+RtlGetNtVersionNumbers
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+Run Steam Frame.
+SHELL32.dll
+SHGetFolderPathW
+STEAMAPPLIST_INTERFACE_VERSION001
+STEAMAPPS_INTERFACE_VERSION008
+STEAMHTMLSURFACE_INTERFACE_VERSION_005
+STEAMHTTP_INTERFACE_VERSION003
+STEAMINVENTORY_INTERFACE_V003
+STEAMMUSICREMOTE_INTERFACE_VERSION001
+STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
+STEAMREMOTEPLAY_INTERFACE_VERSION002
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
+STEAMSCREENSHOTS_INTERFACE_VERSION003
+STEAMUGC_INTERFACE_VERSION018
+STEAMUSERSTATS_INTERFACE_VERSION012
+STEAMVIDEO_INTERFACE_V002
+STEAMVR_DISABLE_ASSERT_MINIDUMP
+STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_DISABLE_THREAD_WATCHDOGS
+STEAMVR_ENABLE_THREAD_WATCHDOGS
+STEAMVR_GPUVIS_ON_ASSERT
+See 
+Sending device changed event.\n
+Set thread %p priority to: %d\n
+SetEnvironmentVariableA
+SetEvent
+SetFileAttributesW
+SetHandleInformation
+SetThreadPriority
+SetUnhandledExceptionFilter
+ShellExecuteA
+Shutdown.
+Sleep
+SleepConditionVariableCS
+Software\Microsoft\DirectX\UserGpuPreferences
+SteamAPI_GetHSteamUser
+SteamAPI_Init
+SteamAPI_IsSteamRunning
+SteamAPI_RegisterCallback
+SteamAPI_RunCallbacks
+SteamAPI_SetBreakpadAppID
+SteamAPI_SetMiniDumpComment
+SteamAPI_Shutdown
+SteamAPI_UnregisterCallback
+SteamAPI_UseBreakpadCrashHandler
+SteamAPI_WriteMiniDump
+SteamAppId
+SteamController008
+SteamFriends017
+SteamGameId
+SteamInput006
+SteamInternal_ContextInit
+SteamInternal_FindOrCreateUserInterface
+SteamInternal_SteamAPI_Init
+SteamMatchGameSearch001
+SteamMatchMaking009
+SteamMatchMakingServers002
+SteamNetworking006
+SteamNetworkingMessages002
+SteamNetworkingSockets012
+SteamNetworkingUtils004
+SteamParties002
+SteamSteamVRPrivate001
+SteamUser023
+SteamUtils010
+Successfully created registry key %s.\n
+Successfully read value for %s.\n
+Successfully set value for %s.\n
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+TEMP
+TerminateProcess
+Thread watchdog timed out %s
+Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
+TlsAlloc
+TlsFree
+TranslateMessage
+USER32.dll
+Unable to determine VR Path Registry filename
+Unable to find registry key %s, attempting to create key...\n
+Unable to find vrdesktop implementation. Exiting.\n
+Unable to get hmd property container
+Unable to initialize necessary OpenVR interface (compositor)
+Unable to initialize necessary OpenVR interface (mailbox)
+Unable to initialize necessary OpenVR interface (overlay)
+Unable to initialize necessary OpenVR interface (settings)
+Unable to load vrdesktop. Exiting.\n
+Unable to open or create registry key.\n
+Unable to parse 
+Unable to parse token length
+Unable to read VR Path Registry from 
+Unable to read version file.\n
+UnhandledExceptionFilter
+Unknown device change message.\n
+Unknown exception
+UnregisterDeviceNotification
+VCRUNTIME140.dll
+VERSION.dll
+VR Path Registry node %s is not an array\n
+VR dashboard (v%s) starting up\n
+VRControlPanel
+VRDashboard
+VR_COMBINED_LOGGING
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_GetVRInitErrorAsSymbol
+VR_Init failed with %s\n
+VR_InitInternal2
+VR_IsInterfaceVersionValid
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_ShutdownInternal
+VerQueryValueA
+VerSetConditionMask
+VerifyVersionInfoW
+WM_DEVICECHANGE message recieved.
+WaitForSingleObject
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning
+Warning: Watchdog %s not properly cleaned up%s%s\n
+WideCharToMultiByte
+Windows message pump.
+WriteFile
+[Steam] Steam INIT.\n
+[Steam] Steam SHUTDOWN.\n
+[Steam] SteamAppID mismatch: got %d, expected %d\n
+_Cnd_destroy
+_Cnd_destroy_in_situ
+_Cnd_do_broadcast_at_thread_exit
+_Cnd_init
+_Cnd_init_in_situ
+_Cnd_signal
+_Cnd_timedwait
+_Cnd_wait
+_CxxThrowException
+_Mtx_current_owns
+_Mtx_destroy
+_Mtx_destroy_in_situ
+_Mtx_init
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+_Thrd_start
+_Xtime_get_ticks
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_exit
+_get_narrow_winmain_command_line
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_localtime64
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_wfsopen
+_wstat64i32
+abort
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+alse
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+assert json failed
+atoi
+bad allocation
+bad array new length
+bad conversion
+bg_bg
+brazilian
+bulgarian
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp
+collectComments
+config
+cs_cz
+czech
+d3d11.dll
+da_dk
+danish
+dashboard
+de_de
+deque<T> too long
+dutch
+dxgi.dll
+el_gr
+en_us
+english
+es_es
+es_mx
+exit
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+fclose
+fflush
+fi_fi
+finnish
+fopen
+fputs
+fr_fr
+fread
+free
+french
+fseek
+ftell
+fwrite
+german
+getenv
+gpu_profiler_capture
+greek
+hu_hu
+hungarian
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+invalid string position
+isdigit
+isspace
+it_it
+italian
+ja_jp
+japanese
+keylength >= 2^30
+ko_kr
+koreana
+latam
+list<T> too long
+loglevel
+m_nMaxLogBufferingSize > 0
+malloc
+map/set<T> too long
+memchr
+memcmp
+memcpy
+memmove
+memset
+modf
+nb_no
+nfinity
+nl_nl
+norwegian
+ntdll.dll
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+pl_pl
+polish
+portuguese
+pt_br
+pt_pt
+rejectDupKeys
+ro_ro
+romanian
+ru_ru
+runtime
+russian
+sc_schinese
+schinese
+screenshotType
+screenshots
+shell32.dll
+spanish
+stackLimit
+startOverlayAppsFromDashboard
+startup
+steam://vr_connection_ready/
+steam_api64
+steam_api64.dll
+steamvr
+strftime
+strictRoot
+string too long
+strncpy
+strstr
+strtoull
+sv_se
+swedish
+tchinese
+terminate
+th_th
+thai
+tolower
+tr_tr
+true
+turkish
+type
+uk_ua
+ukrainian
+useNewDesktop
+userinterface
+vector<T> too long
+version.txt
+vi_vn
+vietnamese
+vrcombined_log.previous.txt
+vrcombined_log.txt
+vrcompositor_mailbox
+vrdashboard.exe
+vrdashboard.exe -duplication_gpu_check
+vrdashboard.exe -skip_duplication_gpu_check
+vrdesktop
+vrdesktop_graphics_capture
+vrwebhelper
+win64
+zh_cn
+zh_tw
+{"is_system_process" : true }

@@ -1,0 +1,893 @@
+                          
+    0 : Success\n
+    1 : ( finddriver only ) Driver not present\n
+    2 : ( finddriver only ) Error, driver installed more than once\n
+   -1 : Configuration or permission problem\n
+   -2 : Argument problem\n
+  Return Code:\n
+  adddriver <path> - Adds an external driver\n
+  finddriver <name> - Tries to find a driver by name\n
+  removedriver <path> - Removes an external driver\n
+  removedriverswithname <name> - Removes all external drivers with a given name\n
+  setconfig <path> - Sets the config path\n
+  setlog <path> - Sets the log path\n
+  setruntime <path> - Sets the runtime path\n
+  setthis - Sets the runtime path to the runtime that vrpathreg lives in\n
+  show - Display the current paths\n
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ delete
+ delete[]
+ for detail.\n
+ new
+#D5p
+%.0Lf
+%H : %M : %S
+%I : %M : %S %p
+%b %d %H : %M : %S %Y
+%d / %m / %y
+%m / %d / %y
+&Sgw
+' is not a number.
+( 8PX
+('8PW
+(null)
++v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
+-1e+9999
+-Infinity
+.00cfg
+.?AUBuiltStyledStreamWriter@Json@@
+.?AUIExecutionContext@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AUIResourceManager@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AUITopologyExecutionResource@Concurrency@@
+.?AUITopologyNode@Concurrency@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AUTopologyObject@GlobalCore@details@Concurrency@@
+.?AUTopologyObject@GlobalNode@details@Concurrency@@
+.?AU_Chore@details@Concurrency@@
+.?AU_Crt_new_delete@std@@
+.?AUctype_base@std@@
+.?AUmessages_base@std@@
+.?AUmoney_base@std@@
+.?AUtime_base@std@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_MallocaArrayHolder@PAVContext@Concurrency@@@details@Concurrency@@
+.?AV?$_MallocaArrayHolder@PAVevent@Concurrency@@@details@Concurrency@@
+.?AV?$_Mpunct@D@std@@
+.?AV?$_Mpunct@G@std@@
+.?AV?$_Mpunct@_W@std@@
+.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
+.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV?$codecvt@GDU_Mbstatet@@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
+.?AV?$collate@G@std@@
+.?AV?$collate@_W@std@@
+.?AV?$ctype@D@std@@
+.?AV?$ctype@G@std@@
+.?AV?$ctype@_W@std@@
+.?AV?$messages@D@std@@
+.?AV?$messages@G@std@@
+.?AV?$messages@_W@std@@
+.?AV?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$moneypunct@D$00@std@@
+.?AV?$moneypunct@D$0A@@std@@
+.?AV?$moneypunct@G$00@std@@
+.?AV?$moneypunct@G$0A@@std@@
+.?AV?$moneypunct@_W$00@std@@
+.?AV?$moneypunct@_W$0A@@std@@
+.?AV?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$numpunct@D@std@@
+.?AV?$numpunct@G@std@@
+.?AV?$numpunct@_W@std@@
+.?AV?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
+.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVContext@Concurrency@@
+.?AVContextBase@details@Concurrency@@
+.?AVException@Json@@
+.?AVExecutionResource@details@Concurrency@@
+.?AVExternalContextBase@details@Concurrency@@
+.?AVFactory@CharReader@Json@@
+.?AVFactory@StreamWriter@Json@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVFairScheduleGroupSegment@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
+.?AVFreeVirtualProcessorRoot@details@Concurrency@@
+.?AVInternalContextBase@details@Concurrency@@
+.?AVLogicError@Json@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVOurCharReader@Json@@
+.?AVRealizedChore@details@Concurrency@@
+.?AVResourceManager@details@Concurrency@@
+.?AVRuntimeError@Json@@
+.?AVScheduleGroup@Concurrency@@
+.?AVScheduleGroupBase@details@Concurrency@@
+.?AVScheduleGroupSegmentBase@details@Concurrency@@
+.?AVScheduler@Concurrency@@
+.?AVSchedulerBase@details@Concurrency@@
+.?AVSchedulerProxy@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
+.?AVStreamWriter@Json@@
+.?AVStreamWriterBuilder@Json@@
+.?AVThreadInternalContext@details@Concurrency@@
+.?AVThreadProxy@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
+.?AVThreadVirtualProcessor@details@Concurrency@@
+.?AVTimedSingleWaitBlock@details@Concurrency@@
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitBlock@details@Concurrency@@
+.?AV_CancellationTokenRegistration@details@Concurrency@@
+.?AV_Facet_base@std@@
+.?AV_Generic_error_category@std@@
+.?AV_Interruption_exception@details@Concurrency@@
+.?AV_Iostream_error_category@std@@
+.?AV_Locimp@locale@std@@
+.?AV_RefCounter@details@Concurrency@@
+.?AV_Ref_count_base@std@@
+.?AV_System_error@std@@
+.?AV__non_rtti_object@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_function_call@std@@
+.?AVbad_typeid@std@@
+.?AVcodecvt_base@std@@
+.?AVcontext_self_unblock@Concurrency@@
+.?AVcontext_unblock_unbalanced@Concurrency@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVfailure@ios_base@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
+.?AVimproper_scheduler_reference@Concurrency@@
+.?AVinvalid_argument@std@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVios_base@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVmissing_wait@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVout_of_range@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AVscheduler_worker_creation_error@Concurrency@@
+.?AVstl_condition_variable_concrt@details@Concurrency@@
+.?AVstl_condition_variable_interface@details@Concurrency@@
+.?AVstl_condition_variable_vista@details@Concurrency@@
+.?AVstl_condition_variable_win7@details@Concurrency@@
+.?AVstl_critical_section_concrt@details@Concurrency@@
+.?AVstl_critical_section_interface@details@Concurrency@@
+.?AVstl_critical_section_vista@details@Concurrency@@
+.?AVstl_critical_section_win7@details@Concurrency@@
+.?AVsystem_error@std@@
+.?AVtype_info@@
+.?AVunsupported_os@Concurrency@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCC
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPB
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata$x
+0123456789-
+0123456789-+Ee
+0123456789ABCDEFabcdef-+Xx
+0123456789ABCDEFabcdef-+XxPp
+0123456789abcdefghijklmnopqrstuvwxyz
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1e+9999
+1eaB@
+2ieO=
+4g%6
+700PP
+700WP
+: exception thrown in JSON library
+:AM:am:PM:pm
+:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+<8bunz8
+<@En[vP
+=87M
+?3xj
+?5Wg4p
+?5a1
+?7Tf(
+?IT$7
+?Ltm
+?PiB
+?RbSQ
+?X&eB
+@VNQ
+A valid JSON document must be either an array or an object value.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Access violation - no RTTI data!
+AcquireSRWLockExclusive
+Ai0T
+AiFC.
+AppPolicyGetProcessTerminationMethod
+April
+AreFileApisANSI
+August
+Bad dynamic_cast!
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Bfe9
+Cannot search for empty driver name\n
+ChangeTimerQueueTimer
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+Commands:\n
+CompareStringEx
+CompareStringW
+Config path = %s\n
+ContextPriority
+ContextStackSize
+Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CorExitProcess
+CqTR;
+CreateDirectoryW
+CreateEventExW
+CreateEventW
+CreateFileW
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+CreateTimerQueue
+CreateTimerQueueTimer
+December
+DecodePointer
+DeleteCriticalSection
+DeleteTimerQueueTimer
+Duplicate key: '
+DuplicateHandle
+DynamicProgressFeedback
+Eb2]A=
+Empty escape sequence in string
+EncodePointer
+EnterCriticalSection
+EnumSystemLocalesEx
+EnumSystemLocalesW
+Exceeded stackLimit in readValue().
+ExitProcess
+External Drivers:\n
+Extra non-whitespace after JSON value.
+F0$?3=1
+FEMh\f
+February
+FileTimeToSystemTime
+FindClose
+FindFirstFileExW
+FindNextFileW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryAndExitThread
+FreeLibraryWhenCallbackReturns
+Friday
+GYM=
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetDateFormatEx
+GetDateFormatW
+GetDriveTypeW
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetFileInformationByHandle
+GetFileInformationByHandleEx
+GetFileSizeEx
+GetFileType
+GetFullPathNameW
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLogicalProcessorInformation
+GetLogicalProcessorInformationEx
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetNumaHighestNodeNumber
+GetOEMCP
+GetProcAddress
+GetProcessAffinityMask
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetThreadGroupAffinity
+GetThreadPriority
+GetThreadTimes
+GetTickCount
+GetTickCount64
+GetTimeFormatEx
+GetTimeFormatW
+GetTimeZoneInformation
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+GetVersionExW
+HH:mm:ss
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+Ht=c
+IND)ind)
+IND)ind)pow
+INITY
+IVRSystem_022
+Infinity
+InitOnceExecuteOnce
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+InitializeSRWLock
+InterlockedFlushSList
+InterlockedPopEntrySList
+InterlockedPushEntrySList
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+January
+July
+June
+KERNEL32.dll
+LCIDToLocaleName
+LCMapStringEx
+LCMapStringW
+La8i
+LargestInt out of Int range
+LargestInt out of UInt range
+LargestInt out of UInt64 range
+LargestUInt out of Int range
+LargestUInt out of Int64 range
+LargestUInt out of UInt range
+Le?2
+LeaveCriticalSection
+Line %d, Column %d
+LoadLibraryExW
+LoadLibraryW
+LocalContextCacheSize
+LocaleNameToLCID
+Lock already taken
+Log path = %s\n
+MM/dd/yy
+March
+MaxConcurrency
+MaxPolicyElementKey
+Mbp?333333
+MinConcurrency
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+MkK?
+Monday
+MultiByteToWideChar
+NAN(IND)
+NAN(SNAN)
+November
+October
+Parsing of JSON file "%s" failed: %s\n
+PeekNamedPipe
+Pex?0
+QueryDepthSList
+QueryPerformanceCounter
+RSDS
+RaiseException
+ReadConsoleW
+ReadFile
+RegisterTraceGuidsW
+RegisterWaitForSingleObject
+ReleaseSRWLockExclusive
+ReleaseSemaphore
+ResetEvent
+RoInitialize
+RoUninitialize
+RtlUnwind
+Runtime path = %s\n
+SHELL32.dll
+SHGetFolderPathW
+SNAN)
+Saturday
+SchedulerKind
+SchedulingProtocol
+See 
+September
+SetEndOfFile
+SetEnvironmentVariableW
+SetEvent
+SetFileInformationByHandle
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadAffinityMask
+SetThreadGroupAffinity
+SetThreadPriority
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+ShellExecuteA
+SignalObjectAndWait
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+SubmitThreadpoolWork
+Sunday
+SwitchToThread
+Syntax error: value, object or array expected.
+SystemTimeToTzSpecificLocalTime
+TargetOversubscriptionFactor
+TerminateProcess
+This command does not accept paths, please provide a driver name.\n
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too many arguments. Do you need to put an absolute path in quotes?\n
+TraceEvent
+TryAcquireSRWLockExclusive
+TryEnterCriticalSection
+Tuesday
+T~OXu
+Unable to create path registry directory %s\n
+Unable to determine VR Path Registry filename
+Unable to parse 
+Unable to parse driver manifest %s\n
+Unable to parse presence entry '%s' in %s\n
+Unable to parse token length
+Unable to read VR Path Registry from 
+Unable to read driver manifest %s\n
+Unable to read path registry\n
+Unable to write VR path registry to %s\n
+Unable to write path registry\n
+UnhandledExceptionFilter
+Unknown exception
+UnregisterTraceGuids
+UnregisterWait
+UnregisterWaitEx
+VR Path Registry node %s is not an array\n
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_InitInternal2
+VR_IsInterfaceVersionValid
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_ShutdownInternal
+VirtualAlloc
+VirtualFree
+VirtualProtect
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+WakeConditionVariable
+Wednesday
+WideCharToMultiByte
+WinRTInitialization
+WriteConsoleW
+WriteFile
+X/4B
+X4I+
+[ NO DRIVER NAME FOUND ]
+[aOni*{
+\r\f\v\v\n\n\t\t\t\t\t
+\tcQr
+^<V7w
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+aDJ=
+abcdefghijklmnopqrstuvwxyz
+acos
+activateOtherDriversWhenEnabled
+additional six characters expected to parse unicode surrogate pair.
+address family not supported
+address in use
+address not available
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+already connected
+alse
+alwaysActivate
+argument list too long
+argument out of domain
+asin
+assert json failed
+atan
+atan2
+bad address
+bad allocation
+bad array new length
+bad cast
+bad conversion
+bad exception
+bad file descriptor
+bad function call
+bad locale name
+bad message
+broken pipe
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrpathreg\Retail\win32\2017\vrpathreg.pdb
+c?e2
+ceil
+collectComments
+commentStyle
+commentStyle must be 'All' or 'None'
+config
+connection aborted
+connection already in progress
+connection refused
+connection reset
+cosh
+count
+cross device link
+d8L2
+dddd, MMMM dd, yyyy
+deque<T> too long
+destination address required
+device or resource busy
+directory
+directory not empty
+double out of Int range
+double out of Int64 range
+double out of UInt range
+double out of UInt64 range
+driver.vrdrivermanifest
+dropNullPlaceholders
+e+000
+e<bN
+eLK(w
+enableYAMLCompatibility
+eventObject
+exception thrown in JSON library
+executable format error
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+fUUU
+fabs
+failIfExtra
+false
+file exists
+file too large
+filename too long
+finddriver
+floor
+fmod
+frexp
+function not supported
+generic
+h0'D
+hI{L[
+hb?O2
+hmd_presence
+host unreachable
+identifier removed
+illegal byte sequence
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+inappropriate io control operation
+indentation
+inity
+interrupted
+invalid argument
+invalid seek
+invalid string position
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+is a directory
+jsonid
+k:UG
+k=yI
+keylength >= 2^30
+l,kg<i
+ldexp
+log10
+ls1=
+lzZ?
+m1WY$
+m\nXo
+map/set<T> too long
+message size
+modf
+name
+nan(ind)
+nan(snan)
+network down
+network reset
+network unreachable
+nfinity
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+np?z 
+null
+obwQ4
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operator
+operator "" 
+operator co_await
+other_presence
+owM&
+owner dead
+pContext
+pEvents
+pExecutionResource
+pScheduler
+pThreadProxy
+permission denied
+pnJ=
+ppVirtualProcessorRoots
+precision
+prefersUpperDeviceIndices
+proc
+protocol error
+protocol not supported
+r7Yr7=
+rLp>B
+raB3GH
+read only file system
+redirectsDisplay
+rejectDupKeys
+removedriverswithname
+resource deadlock would occur
+resource unavailable try again
+resourceOnly
+restrict(
+result out of range
+runtime
+sU0&?W
+showEnableInSettings
+sinh
+snan)
+spatialAnchorsSupport
+sqrt
+stackLimit
+state not recoverable
+statusicons
+stream timeout
+strictRoot
+string too long
+switchState
+tLVv
+tanh
+text file busy
+timed out
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+true
+u?^p?o4
+uXO=
+unknown error
+useSpecialFloats
+v2!L.2
+value too large
+vector<T> too long
+version
+vrmonitor://driverinstalled
+vrpathreg
+vrpathreg only accepts absolute paths. This is not absolute: %s\n
+wrong protocol type
+xpxxxx
+xwpwpp
+z1}B
+zyC7
+{4Wf
+|W8A=

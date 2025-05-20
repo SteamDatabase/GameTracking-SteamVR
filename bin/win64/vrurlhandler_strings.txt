@@ -1,0 +1,592 @@
+ for detail.\n
+ formatting error code 
+%s: failed with error '%s' (%d)
+' is not a number.
+, last executing in 
+-1e+9999
+-IPCWrapper
+-Infinity
+-startupinfo vrserver
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCSettingsManager@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVIEvent@IPC@@
+.?AVIMutex@IPC@@
+.?AVISharedMem@IPC@@
+.?AVISyncObject@IPC@@
+.?AVIVRSettings@vr@@
+.?AVIVRSettingsInternal@vr@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AVWin32Event@IPC@@
+.?AVWin32Mutex@IPC@@
+.?AVWin32SharedMemory@IPC@@
+.?AV_Facet_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.backup
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.tmp
+.xdata
+.xdata$x
+/console/index.html
+/steamvr/index.html
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+1e+9999
+: exception thrown in JSON library
+<unknown>
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+A valid JSON document must be either an array or an object value.
+ADVAPI32.dll
+ASSERT: "%s" at %s:%d.\n
+AddAccessAllowedAce
+Attempt to init shared state %s twice
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CSharedResourceNamespaceClient::Init(): failed connect\n
+CSharedResourceNamespaceClient::Init(): failed to get server response\n
+CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
+CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
+CSharedResourceNamespaceClient::Init(): received namespace data %u\n
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
+CSharedResourceNamespaceClient::InitIfNeeded
+Client (%s) app container state: %d
+CloseHandle
+Closing pipe %s because it was broken from the other end\n
+ConvertStringSidToSidA
+CopySid
+CreateEventA
+CreateEventW
+CreateFileA
+CreateFileMappingA
+CreateMutexA
+CreateProcessA
+CreateWellKnownSid
+DeleteCriticalSection
+DismissedWarnings
+Duplicate key: '
+DuplicateHandle
+Empty escape sequence in string
+Encountered error 
+EnterCriticalSection
+Exceeded stackLimit in readValue().
+Extra non-whitespace after JSON value.
+Failed to connect to pipe %s because %s... retrying
+Failed to connect to pipe %s because %s\n
+Failed to import client event handle from pipe %s after connecting\n
+Failed to import server event handle from pipe %s after connecting\n
+Failed to write app container status to pipe %s after connecting because %s\n
+Failed to write event process handle after connecting because %s\n
+Format string parse failure
+FormatMessageA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentVariableA
+GetLastError
+GetLengthSid
+GetModuleFileNameW
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+GetTickCount64
+GetTokenInformation
+GetTokenInformation failed. GetLastError returned: %d\n
+GpuSpeed
+IPC::CIPCHandle::InitForExport
+IPCPipe(%s) failed to read payload of %u bytes
+IPCPipe(%s) failed to write message of %u bytes because %s\n
+IPCPipe(%s): Next message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
+IPCPipe(%s): Wrote %u bytes of total message length\n
+IServerTrackedDeviceProvider_002
+IServerTrackedDeviceProvider_003
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_
+ITrackedDeviceServerDriver_004
+ITrackedDeviceServerDriver_005
+IVRCameraComponent_
+IVRCameraComponent_001
+IVRCameraComponent_002
+IVRCompositorPluginProvider_001
+IVRControllerComponent_
+IVRDisplayComponent_
+IVRDisplayComponent_001
+IVRDriverDirectModeComponent_
+IVRDriverLog_001
+IVRServerDriverHost_004
+IVRServerDriverHost_006
+IVRVirtualDisplay_
+IVRVirtualDisplay_001
+IVRWatchdogProvider_001
+Infinity
+InitializeAcl
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+InitializeSecurityDescriptor
+Invalid Arguments
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidSid
+KERNEL32.dll
+LastKnown
+LeaveCriticalSection
+Line %d, Column %d
+LocalAlloc
+LocalFree
+MSVCP140.dll
+MainThrd
+MapViewOfFile
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+OpenEventA
+OpenFileMappingA
+OpenMutexA
+OpenProcess
+OpenProcessToken
+OpenProcessToken failed. GetLastError returned: %d\n
+Out of thread local storage!\n
+Parsing of JSON file "%s" failed: %s\n
+PeekNamedPipe
+QueryPerformanceCounter
+RSDS
+RaiseException
+ReadFile
+ReadFile failed on %s after event was signaled because %s\n
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
+RegCloseKey
+RegOpenKeyA
+RegQueryValueExA
+ReleaseMutex
+ReplaceFileW
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+SHELL32.dll
+SHGetFolderPathW
+See 
+SetEvent
+SetNamedPipeHandleState
+SetSecurityDescriptorDacl
+SetUnhandledExceptionFilter
+ShellExecuteA
+Sleep
+SleepConditionVariableCS
+Software\Valve\Steam\ActiveProcess
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
+Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
+SteamVR_Namespace
+Syntax error: value, object or array expected.
+TlsAlloc
+TlsFree
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
+Unable to create event %s to go with pipe %s in WaitForConnection\n
+Unable to create shared memory %s for IPC client\n
+Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
+Unable to determine VR Path Registry filename
+Unable to open current process for duplicating handles because %s\n
+Unable to open process id=%d from pipe %s after connecting because %s\n
+Unable to parse 
+Unable to parse token length
+Unable to read VR Path Registry from 
+Unable to read event handles from pipe %s after connecting because %s\n
+Unable to read event salt from pipe %s after connecting because %s\n
+Unable to read pid from pipe %s after connecting because %s\n
+UnhandledExceptionFilter
+Unknown VRSettingsError (%d)
+Unknown exception
+UnmapViewOfFile
+VCRUNTIME140.dll
+VR Path Registry node %s is not an array\n
+VRSettingsError_AccessDenied
+VRSettingsError_IPCFailed
+VRSettingsError_None
+VRSettingsError_ReadFailed
+VRSettingsError_UnsetSettingHasNoDefault
+VRSettingsError_WriteFailed
+VR_CONFIG_PATH
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_SETTINGS_FILE
+VR_SettingsMutex
+VR_SettingsState
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitNamedPipe %s failed because %s\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
+WaitNamedPipeA
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s\n
+WebInterface
+WideCharToMultiByte
+WriteFile
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
+[IPC] ConvertStringSidToSidA failed for test app %d\n
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
+[IPC] Existing file mapping for %s was found\n
+[IPC] Failed creating auto reset event %s (GLE: %u)\n
+[IPC] Failed creating file mapping %s: %u\n
+[IPC] Failed creating mutex %s (GLE: %u)\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed to open event %s because access was denied\n
+[IPC] Failed to open file mapping %s because access was denied\n
+[IPC] Failed to open mutex %s because access was denied\n
+[IPC] Forced create of Win32 mutex %s but it already existed\n
+[IPC] Forced create of Win32Event %s but it already existed\n
+[IPC] Forced create of Win32Event but it already existed\n
+[IPC] Forced create of Win32Mutex but it already existed\n
+[IPC] Forced create of file mapping %s but it already existed\n
+[IPC] GetTokenInformation failed. GetLastError returned: %d\n
+[IPC] InitializeAcl failed. GetLastError returned: %d\n
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
+[IPC] OpenProcessToken failed. GetLastError returned: %d\n
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
+[IPC] SharedMem access invalid: %x\n
+[IPC] The owner SID is invalid.\n
+[Settings] %s %s unknown type\n
+[Settings] Load Default Json Settings from %s\n
+[Settings] Load Json Settings from %s\n
+[Settings] Parsing of json from "%s" failed: \n
+[Settings] Unable to load driver defaults from %s\n
+[Settings] Unable to read path registry...\n
+[Settings] Using default values. No Json Settings available at %s\n
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_TEST
+_Thrd_id
+_Thrd_join
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_exit
+_get_narrow_winmain_command_line
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_stricmp
+_strnicmp
+_wfopen_s
+_wfsopen
+_wstat64i32
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+alse
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+assert json failed
+atof
+atoi
+audio
+background
+backgroundCameraHeight
+backgroundDomeRadius
+backgroundUseDomeProjection
+bad allocation
+bad array new length
+bad conversion
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrurlhandler\Retail\win64\2017\vrurlhandler.pdb
+camera
+cameraEdgeEnhancement
+cameraFrameCaptureOffsetTime
+cameraFrameRate
+cameraISPSyncDivisor
+cameraSensorFrameRate
+client
+collectComments
+collisionBounds
+config
+dashboard
+deactivateStandbyOverride
+default.vrsettings
+default_main.vrsettings
+deque<T> too long
+developerModes
+disableAsyncCompositor
+doNotFadeToGrid
+driver_
+driver_defaults.vrsettings
+driver_holographic
+driver_lighthouse
+driver_null
+eG,v
+enable
+enableCameraSurfaces
+enableHomeApp
+exception thrown in JSON library
+exit
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+fakeHtcHmdMainboard
+false
+fclose
+fputs
+fread
+free
+fseek
+ftell
+http://127.0.0.1:
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+internet
+invalid string position
+isspace
+keyboard
+keylength >= 2^30
+malloc
+map/set<T> too long
+memcmp
+memcpy
+memmove
+memset
+modelskins
+modf
+motionSmoothing
+nfinity
+notifications
+openvr
+openvrpaths.vrpath
+overlay_viewer.exe
+overlayviewer/
+overwrite.vrsettings
+perfcheck
+playAreaColor
+power
+preferredRefreshRate
+rejectDupKeys
+resources
+round
+runtime
+server
+settings
+stackLimit
+start/
+startup
+steamvr
+steamvr.vrsettings
+steamvr://
+strcat_s
+strictRoot
+string too long
+strncat
+strncpy
+terminate
+trackedCamera
+trackers
+true
+useActionSystemButton
+userinterface
+vector<T> too long
+version.txt
+vrserver/
+vrstartup.exe
+vrwebhelper
+webconsole/
+webui/
+win64

@@ -1,0 +1,237 @@
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ delete
+ delete[]
+ new
+*StO9>T
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$mn
+.text$mn$00
+.text$x
+.xJ>Hf
+.xdata
+0iN>/
+11Y@
+37>k
+3>N;kU
+3>fvw
+=cQ6
+=imb;D
+>cQ6
+>jtm}S
+?7zQ6$
+?UUUUUU
+?f`Y4
+?qBJ
+?ysB
+A>pP&
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AmdPowerXpressRequestHighPerformance
+AppPolicyGetProcessTerminationMethod
+April
+August
+BC?>6t9^\tc:>
+BF>^G
+C:\buildslave\unity\build\artifacts\WindowsPlayer\Win64_nondev_m_r\WindowsPlayer_Master_mono_x64.pdb
+CloseHandle
+CorExitProcess
+CreateFileW
+December
+DeleteCriticalSection
+ET5>
+EnterCriticalSection
+ExitProcess
+February
+FindClose
+FindFirstFileExW
+FindNextFileW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentStringsW
+GetFileType
+GetLastError
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+HH:mm:ss
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+January
+July
+June
+KERNEL32.dll
+L>ev
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+LoadLibraryExW
+LocaleNameToLCID
+MM/dd/yy
+March
+Monday
+MultiByteToWideChar
+November
+NvOptimusEnablement
+OZQ%
+October
+QueryPerformanceCounter
+RSDS
+RaiseException
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlUnwindEx
+RtlVirtualUnwind
+S9>H
+Saturday
+September
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Sunday
+TUUUU
+TerminateProcess
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Tuesday
+UUUUUU
+UnhandledExceptionFilter
+UnityMain
+UnityPlayer.dll
+Wednesday
+WideCharToMultiByte
+WindowsPlayer.exe
+WriteConsoleW
+WriteFile
+\tkE>fvw
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift_1
+__swift_2
+__thiscall
+__unaligned
+__vectorcall
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+dddd, MMMM dd, yyyy
+eF>t
+log10
+mG4>
+n03>Pu
+operator
+operator "" 
+operator co_await
+r\tVr.>T
+restrict(
+uzKs@>

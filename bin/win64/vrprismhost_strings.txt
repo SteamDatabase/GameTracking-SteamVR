@@ -1,0 +1,1066 @@
+ for detail.\n
+ formatting error code 
+!! refusing to trigger minidump with debugger attached\n
+!s_sWriteImagePath.empty()
+"%/28;=#$019:>?
+%Y-%m-%d-%p_%I_%M_%S
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+%s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s-%llu.png
+%s: failed to create screenshots path: %s
+%s: failed to open prism mailbox (error:%d)\n
+%s: failed with error '%s' (%d)
+' is not a number.
+, last executing in 
+-1e+9999
+-IPCWrapper
+-Infinity
+../../screenshots
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@
+.?AV<lambda_1a5b1a927b03a96daaa523192e1096fb>@@
+.?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XAEBVValue@Json@@@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6AXW4ELogLevel@@PEBDPEAX@ZXW41@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1a5b1a927b03a96daaa523192e1096fb>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCNonCopyable@@
+.?AVCPrismHost@@
+.?AVCPrismPoseProvider@?A0xbb7f8539@@
+.?AVCVRMailbox@@
+.?AVCVRMailboxBase@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVIEvent@IPC@@
+.?AVILogListener@@
+.?AVIMutex@IPC@@
+.?AVIPrismPoseProvider@@
+.?AVISharedMem@IPC@@
+.?AVISyncObject@IPC@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AVStyledWriter@Json@@
+.?AVWin32Event@IPC@@
+.?AVWin32Mutex@IPC@@
+.?AVWin32SharedMemory@IPC@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AV_Pad@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.P6AXW4ELogLevel@@PEBDPEAX@Z
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.previous.txt
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.txt
+.xdata
+.xdata$x
+//==============================================================================================\n
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+16:45:12
+1e+9999
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+9a&g
+: exception thrown in JSON library
+<unknown>
+================================================================================================\n
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?LocalizationManager
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@IPC::CIPCHandle::InitForExport
+A valid JSON document must be either an array or an object value.
+ADVAPI32.dll
+ASSERT: "%s" at %s:%d.\n
+AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
+AddAccessAllowedAce
+Alert
+AllocatorInitializeFailed
+AlreadyRegistered
+AlreadyRunning
+Another copy of this program is already running on this machine. Only one instance at a time is allowed.
+Attempt to init shared state %s twice
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CPrismHost::InitializeMailbox
+CPrismHost::MailboxProcessing
+CPrismHost::OnMbox_DumpHistory
+CSharedResourceNamespaceClient::Init(): failed connect\n
+CSharedResourceNamespaceClient::Init(): failed to get server response\n
+CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
+CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
+CSharedResourceNamespaceClient::Init(): received namespace data %u\n
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
+CSharedResourceNamespaceClient::InitIfNeeded
+CVRLog::LogDirect
+Cannot initialize crash handling in a project without the Steam API available
+ChoosePhysicalDeviceFailed
+Client (%s) app container state: %d
+CloseHandle
+Closing pipe %s because it was broken from the other end\n
+CompositionState
+CompositionStateMutex
+ConvertStringSidToSidA
+CopySid
+CreateDeviceFailed
+CreateDirectoryW
+CreateDriverVulkanDeviceFailed
+CreateEventA
+CreateEventW
+CreateFileA
+CreateFileMappingA
+CreateFileW
+CreateMutexA
+CreateWellKnownSid
+DeleteCriticalSection
+DeleteFileW
+Detail
+Disabled
+DisplayNotFound
+Duplicate key: '
+DuplicateHandle
+DuplicatePriority
+Empty escape sequence in string
+EnablePrivilegeFailed
+Encountered error 
+EnterCriticalSection
+Error
+Error! EventWriteString Severe: %s\n
+EventRegister
+EventSharedMemoryFailed
+EventUnregister
+EventWriteString
+EventWriteTransfer
+Exceeded stackLimit in readValue().
+Exception %08x\n
+Executable: %s\n
+Extra non-whitespace after JSON value.
+FATAL: Failed to open log file %s\n
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds\n
+Failed to connect to pipe %s because %s... retrying
+Failed to connect to pipe %s because %s\n
+Failed to import client event handle from pipe %s after connecting\n
+Failed to import server event handle from pipe %s after connecting\n
+Failed to set thread %p priority: invalid priority %d\n
+Failed to set up logging.
+Failed to turn IGNORE_TIMER_RESOLUTION throttling off: %i.
+Failed to turn IGNORE_TIMER_RESOLUTION throttling off: unable to look up SetProcessInformation function.
+Failed to write app container status to pipe %s after connecting because %s\n
+Failed to write event process handle after connecting because %s\n
+Failure
+Fatal
+Format string parse failure
+FormatMessageA
+FreeLibrary
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetEnvironmentVariableA
+GetFileAttributesW
+GetFileSizeEx
+GetLastError
+GetLengthSid
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTickCount64
+GetTokenInformation
+GetTokenInformation failed. GetLastError returned: %d\n
+Host
+IPCPipe(%s) failed to read payload of %u bytes
+IPCPipe(%s) failed to write message of %u bytes because %s\n
+IPCPipe(%s): Next message type %u, seq %u, len %u\n
+IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
+IPCPipe(%s): Wrote %u bytes of total message length\n
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRChaperoneInternal_XXX
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorSystemInternal_XXX
+IVRControlPanel_006
+IVRDebug_001
+IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVRNotificationsInternal_001
+IVROverlayInternal_XXX
+IVROverlay_028
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServerInternal_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+Infinity
+Info
+Initialization failed with: %s
+InitializeAcl
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+InitializeSecurityDescriptor
+InitializeSharedStateFailed
+InvalidDisplay
+InvalidDisplayFactory
+InvalidInstance
+InvalidMotionEstimator
+InvalidParameter
+InvalidPoseProvider
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidSid
+KERNEL32.dll
+Kernel32.dll
+LeaveCriticalSection
+Line %d, Column %d
+LoadLibraryA
+LocalAlloc
+LocalFree
+MGiI
+MSVCP140.dll
+Mailbox %s received message %s, which it didn't have a handler for\n
+MainThrd
+MapViewOfFile
+May  7 2025
+MessageBoxA
+Minidump comment truncated
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+MissingRequiredExtension
+Motion Smoothing disabled in user settings.
+MoveFileExW
+NULL
+NamespaceInitFailed
+NoDisplayFound
+NoValidDisplays
+NoValidMotionEstimators
+NotSupported
+OpenEventA
+OpenFileMappingA
+OpenMutexA
+OpenProcess
+OpenProcessToken
+OpenProcessToken failed. GetLastError returned: %d\n
+Out of thread local storage!\n
+OutputDebugStringA
+PRISM_AcquireDisplay
+PRISM_ClientDisconnected
+PRISM_CreateDisplayFactory
+PRISM_CreateInstance
+PRISM_CreateMotionEstimator
+PRISM_DestroyDisplayFactory
+PRISM_DestroyInstance
+PRISM_DestroyMotionEstimator
+PRISM_DumpHistory
+PRISM_GetConnectedDisplays
+PRISM_GetDisplayModes
+PRISM_GetDisplaySubsystems
+PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPoseProvider
+PRISM_HmdActivated
+PRISM_Initialize
+PRISM_RegisterDisplaySubsystem
+PRISM_RegisterLogCallback
+PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPoseProviderSubsystem
+PRISM_ReleaseDisplay
+PRISM_Run
+PRISM_RunFrame
+PRISM_SetDisplayMode
+PRISM_SetFrameInfoCallback
+PRISM_Shutdown
+PRISM_Stop
+Parse failed for JSON message in mailbox %s: %s\n
+Parsing of JSON string "%s" failed: %s\n
+PeekNamedPipe
+Predicting: %fms
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RPCRT4.dll
+RSDSG
+RaiseException
+ReadFile
+ReadFile failed on %s after event was signaled because %s\n
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
+Received quit message.
+RegCloseKey
+RegOpenKeyA
+RegQueryValueExA
+ReleaseMutex
+ResetEvent
+ResourceCreationFailed
+RtlCaptureContext
+RtlGetNtVersionNumbers
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+SHELL32.dll
+SHGetFolderPathW
+STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_DISABLE_THREAD_WATCHDOGS
+STEAMVR_ENABLE_THREAD_WATCHDOGS
+See 
+ServerConnectionFailed
+ServiceConnectMessageFailed
+Set thread %p priority to: %d\n
+SetEnvironmentVariableA
+SetEvent
+SetFileAttributesW
+SetNamedPipeHandleState
+SetProcessInformation
+SetSecurityDescriptorDacl
+SetThreadPriority
+SetUnhandledExceptionFilter
+ShellExecuteA
+Sleep
+SleepConditionVariableCS
+Software\Valve\Steam\ActiveProcess
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
+Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
+Somebody locked a non-leaf shared memory %s while %s was already locked
+SteamAPI_IsSteamRunning
+SteamAPI_SetBreakpadAppID
+SteamAPI_SetMiniDumpComment
+SteamAPI_UseBreakpadCrashHandler
+SteamAPI_WriteMiniDump
+SteamAppId
+SteamGameId
+SteamVR_Namespace
+Succesfully turned IGNORE_TIMER_RESOLUTION throttling off.
+Success
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+TdhEnumerateManifestProviderEvents
+TerminateProcess
+Thread watchdog timed out %s
+Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
+ThreadFailedToStart
+TlsAlloc
+TlsFree
+USER32.dll
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
+Unable to create event %s to go with pipe %s in WaitForConnection\n
+Unable to create shared memory %s for IPC client\n
+Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
+Unable to determine VR Path Registry filename
+Unable to open current process for duplicating handles because %s\n
+Unable to open process id=%d from pipe %s after connecting because %s\n
+Unable to parse 
+Unable to parse token length
+Unable to read VR Path Registry from 
+Unable to read event handles from pipe %s after connecting because %s\n
+Unable to read event salt from pipe %s after connecting because %s\n
+Unable to read pid from pipe %s after connecting because %s\n
+Unable to read version file.\n
+UnhandledExceptionFilter
+Unknown error (%d)
+Unknown exception
+UnmapViewOfFile
+Using display subsystem: %s
+Using motion estimator subsystem: %s
+UuidFromStringA
+VCRUNTIME140.dll
+VR Path Registry node %s is not an array\n
+VR prism host (v%s) starting up\n
+VRControlPanel
+VRInitError
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
+VRInitError_Compositor_CreateAlphaBlendState
+VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
+VRInitError_Compositor_CreateBlendState
+VRInitError_Compositor_CreateBlendStateMaskB
+VRInitError_Compositor_CreateBlendStateMaskG
+VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
+VRInitError_Compositor_CreateClampToBorderSamplerState
+VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
+VRInitError_Compositor_CreateComputeResolveRenderTextures
+VRInitError_Compositor_CreateConstantBuffer
+VRInitError_Compositor_CreateDepthStencilState
+VRInitError_Compositor_CreateDepthStencilStateNoDepth
+VRInitError_Compositor_CreateDepthStencilStateNoWrite
+VRInitError_Compositor_CreateDistortionSurfaces
+VRInitError_Compositor_CreateDriverDirectModeResolveTextures
+VRInitError_Compositor_CreateFallbackSyncTexture
+VRInitError_Compositor_CreateFlushTexture
+VRInitError_Compositor_CreateFontSamplerState
+VRInitError_Compositor_CreateFullscreenWindowFailed
+VRInitError_Compositor_CreateGeomConstantBuffer
+VRInitError_Compositor_CreateHmdPoseConstantBuffer
+VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
+VRInitError_Compositor_CreateLastFrameRenderTexture
+VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerGraphicsTextureIndexConstantBuffer
+VRInitError_Compositor_CreateMSAARenderTextures
+VRInitError_Compositor_CreateMirrorOverlay
+VRInitError_Compositor_CreateMirrorTextures
+VRInitError_Compositor_CreateNoBlendState
+VRInitError_Compositor_CreateOverlayAlreadyInitialized
+VRInitError_Compositor_CreateOverlayConstantBuffer
+VRInitError_Compositor_CreateOverlayIndexBuffer
+VRInitError_Compositor_CreateOverlayInvalidCall
+VRInitError_Compositor_CreateOverlaySamplerState
+VRInitError_Compositor_CreateOverlayVertexBuffer
+VRInitError_Compositor_CreatePanelMaskConstantBuffer
+VRInitError_Compositor_CreatePanoramaSamplerState
+VRInitError_Compositor_CreatePixelSimUBO
+VRInitError_Compositor_CreateRasterizerState
+VRInitError_Compositor_CreateReadableSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateResolveRenderTextures
+VRInitError_Compositor_CreateSamplerState
+VRInitError_Compositor_CreateSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateSharedFrameInfoConstantBuffer
+VRInitError_Compositor_CreateTextIndexBuffer
+VRInitError_Compositor_CreateTextVertexBuffer
+VRInitError_Compositor_CreateWireframeRasterizerState
+VRInitError_Compositor_D3D11HardwareRequired
+VRInitError_Compositor_D3D11RendererInitializationFailed
+VRInitError_Compositor_DXGIFactoryCreateFailed
+VRInitError_Compositor_DXGIFactoryInterfaceIsNull
+VRInitError_Compositor_DXGIFactoryQueryFailed
+VRInitError_Compositor_DisplayFrequencyFailure
+VRInitError_Compositor_DisplayModeNotSupported
+VRInitError_Compositor_DistortInterfaceIsNull
+VRInitError_Compositor_Failed
+VRInitError_Compositor_FailedToCreateDXGI2RenderTarget
+VRInitError_Compositor_FailedToCreateDXGI2SwapChain
+VRInitError_Compositor_FailedToCreateDirectModeDisplay
+VRInitError_Compositor_FailedToCreateMailbox
+VRInitError_Compositor_FailedToCreateNvAPIRenderTargets
+VRInitError_Compositor_FailedToCreateRenderTarget
+VRInitError_Compositor_FailedToCreateSwapChain
+VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
+VRInitError_Compositor_FailedToFindDisplayMode
+VRInitError_Compositor_FailedToGetBackBuffer
+VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
+VRInitError_Compositor_FailedToShowWindow
+VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
+VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
+VRInitError_Compositor_InvalidAdapterDesktop
+VRInitError_Compositor_InvalidDeviceProvided
+VRInitError_Compositor_InvalidHmdAttachment
+VRInitError_Compositor_InvalidHmdPropertyContainer
+VRInitError_Compositor_InvalidOutputDesktop
+VRInitError_Compositor_MessageOverlaySharedStateInitFailure
+VRInitError_Compositor_NotificationManagerIsNull
+VRInitError_Compositor_NvAPISetDisplayMode
+VRInitError_Compositor_OpenDriverDirectModeResolveTextures
+VRInitError_Compositor_OverlayInitFailed
+VRInitError_Compositor_PropertiesInterfaceIsNull
+VRInitError_Compositor_RendererInitializationFailed
+VRInitError_Compositor_ResourceManagerClientIsNull
+VRInitError_Compositor_ScreenshotsInitFailed
+VRInitError_Compositor_SelectDisplayMode
+VRInitError_Compositor_SettingsInterfaceIsNull
+VRInitError_Compositor_ShareFallbackSyncTexture
+VRInitError_Compositor_SharedStateIsNull
+VRInitError_Compositor_SystemLayerCreateInstance
+VRInitError_Compositor_SystemLayerCreateSession
+VRInitError_Compositor_UnableToCreateDevice
+VRInitError_Compositor_UpdateDisplayFrequency
+VRInitError_Compositor_WindowInterfaceIsNull
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdDisplayNotFoundLaptop
+VRInitError_Driver_HmdDriverIdOutOfBounds
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_PeerDriverNotInstalled
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_TrackedDeviceInterfaceUnknown
+VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_IPC_CompositorConnectFailed
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_CompositorInvalidConnectResponse
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_ConnectFailedAfterTargetExited
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_NamespaceUnavailable
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AlreadyRunning
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_BadLuid
+VRInitError_Init_CouldNotStartPrism
+VRInitError_Init_DuplicateBootstrapper
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FailedForVrMonitor
+VRInitError_Init_FileNotFound
+VRInitError_Init_FirmwareRecoveryBusy
+VRInitError_Init_FirmwareUpdateBusy
+VRInitError_Init_HmdDriverIdIsNone
+VRInitError_Init_HmdNotFound
+VRInitError_Init_HmdNotFoundPresenceFailed
+VRInitError_Init_IllegalTypeTransition
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_Internal
+VRInitError_Init_InvalidApplicationType
+VRInitError_Init_InvalidInterface
+VRInitError_Init_InvalidProcessId
+VRInitError_Init_LowPowerWatchdogNotSupported
+VRInitError_Init_MismatchedRuntimes
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NoServerForAppContainer
+VRInitError_Init_NoServerForBackgroundApp
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotAvailableToWatchdogApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_NotSupportedWithCompositor
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_PrismClientInitFailed
+VRInitError_Init_PrismClientStartFailed
+VRInitError_Init_PrismExitedUnexpectedly
+VRInitError_Init_PrismNeedsNewDrivers
+VRInitError_Init_PrismStartupTimedOut
+VRInitError_Init_PropertyManagerInitFailed
+VRInitError_Init_RebootingBusy
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_ShuttingDown
+VRInitError_Init_TooManyObjects
+VRInitError_Init_TrackerManagerInitFailed
+VRInitError_Init_USBServiceBusy
+VRInitError_Init_UserConfigDirectoryInvalid
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
+VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
+VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
+VRInitError_Init_VRHomeNotFound
+VRInitError_Init_VRHomeStartupFailed
+VRInitError_Init_VRMonitorNotFound
+VRInitError_Init_VRMonitorStartupFailed
+VRInitError_Init_VRServiceStartupFailed
+VRInitError_Init_VRWebHelperStartupFailed
+VRInitError_Init_WatchdogDisabledInSettings
+VRInitError_Init_WebServerFailed
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
+VRInitError_VendorSpecific_OculusRuntimeBadInstall
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_WindowsNotInDevMode
+VR_COMBINED_LOGGING
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_Init failed with %s
+VR_InitInternal2
+VR_IsInterfaceVersionValid
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_ShutdownInternal
+VerSetConditionMask
+VerifyVersionInfoW
+VulkanCreateInstanceFailed
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitNamedPipe %s failed because %s\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
+WaitNamedPipeA
+WakeAllConditionVariable
+Warning
+Warning: Watchdog %s not properly cleaned up%s%s\n
+WideCharToMultiByte
+WriteFile
+Zjz\v
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
+[IPC] ConvertStringSidToSidA failed for test app %d\n
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
+[IPC] Existing file mapping for %s was found\n
+[IPC] Failed creating auto reset event %s (GLE: %u)\n
+[IPC] Failed creating file mapping %s: %u\n
+[IPC] Failed creating mutex %s (GLE: %u)\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed to open event %s because access was denied\n
+[IPC] Failed to open file mapping %s because access was denied\n
+[IPC] Failed to open mutex %s because access was denied\n
+[IPC] Forced create of Win32 mutex %s but it already existed\n
+[IPC] Forced create of Win32Event %s but it already existed\n
+[IPC] Forced create of Win32Event but it already existed\n
+[IPC] Forced create of Win32Mutex but it already existed\n
+[IPC] Forced create of file mapping %s but it already existed\n
+[IPC] GetTokenInformation failed. GetLastError returned: %d\n
+[IPC] InitializeAcl failed. GetLastError returned: %d\n
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
+[IPC] OpenProcessToken failed. GetLastError returned: %d\n
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
+[IPC] SharedMem access invalid: %x\n
+[IPC] The owner SID is invalid.\n
+_Cnd_destroy
+_Cnd_destroy_in_situ
+_Cnd_do_broadcast_at_thread_exit
+_Cnd_init
+_Cnd_init_in_situ
+_Cnd_signal
+_Cnd_timedwait
+_Cnd_wait
+_CxxThrowException
+_Mtx_current_owns
+_Mtx_destroy
+_Mtx_destroy_in_situ
+_Mtx_init
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_TEST
+_Thrd_id
+_Thrd_join
+_Thrd_start
+_Xtime_get_ticks
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_c_exit
+_callnewh
+_cexit
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_exit
+_get_narrow_winmain_command_line
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_localtime64
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_time64
+_wfsopen
+_wstat64i32
+abort
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+alse
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+assert json failed
+atoi
+bad allocation
+bad array new length
+bad conversion
+bg_bg
+brazilian
+bulgarian
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\prismhost.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\vrprismhost.cpp
+client
+collectComments
+command
+commands
+config
+cs_cz
+czech
+da_dk
+danish
+de_de
+deque<T> too long
+dutch
+el_gr
+en_us
+english
+es_es
+es_mx
+exception thrown in JSON library
+exit
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+false
+fclose
+fflush
+fi_fi
+finnish
+fopen
+fopen_s
+fputs
+fr_fr
+fread
+free
+french
+fseek
+ftell
+fwrite
+german
+get_debug_commands
+get_debug_commands_response
+greek
+handlers
+hu_hu
+hungarian
+i]Wb
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+invalid string position
+isspace
+it_it
+italian
+ja_jp
+japanese
+keylength >= 2^30
+ko_kr
+koreana
+latam
+list<T> too long
+m_nMaxLogBufferingSize > 0
+m_ulHandle != vr::k_ulInvalidMailbox
+mailbox
+main
+malloc
+map/set<T> too long
+memcmp
+memcpy
+memmove
+memset
+message_id
+modf
+motionSmoothing
+nb_no
+nfinity
+nl_nl
+norwegian
+ntdll.dll
+null
+open
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+panelMask
+panelMaskVignette
+panelMaskVignetteWidth
+pl_pl
+polish
+portuguese
+prism.dll
+prism_dump_history
+prism_mailbox
+pt_br
+pt_pt
+realloc
+rejectDupKeys
+request_handlers
+request_handlers_response
+returnAddress
+ro_ro
+romanian
+ru_ru
+runtime
+russian
+sc_schinese
+schinese
+server
+spanish
+stackLimit
+startup
+steam_api64
+steam_api64.dll
+steamvr
+strftime
+strictRoot
+string too long
+strncat
+strncpy
+strncpy_s
+strpbrk
+strtoull
+sv_se
+swedish
+tchinese
+tdh.dll
+terminate
+th_th
+thai
+tolower
+tr_tr
+true
+turkish
+type
+uk_ua
+ukrainian
+usePrism
+vector<T> too long
+version.txt
+vi_vn
+vietnamese
+vrcombined_log.previous.txt
+vrcombined_log.txt
+vrprismhost started, but it's disabled. Exiting before starting prism itself
+vrprismhost.exe
+vrprismhost_startup
+vrwebhelper
+win64
+wn>Jj
+zh_cn
+zh_tw
+{"is_system_process" : true }

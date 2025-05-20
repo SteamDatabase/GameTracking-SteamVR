@@ -1,0 +1,8 @@
+import "google/protobuf/descriptor.proto";
+
+option optimize_for = SPEED;
+option cc_generic_services = false;
+
+extend .google.protobuf.MessageOptions {
+	optional string vr_path_property = 52000;
+}
